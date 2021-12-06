@@ -49,19 +49,19 @@ The <b>RtlMoveMemory</b> routine copies the contents of a source memory block to
 
 ## -parameters
 
-### -param Destination 
+### -param Destination [out]
 
-[out]
+
 A pointer to the destination memory block to copy the bytes to.
 
-### -param Source 
+### -param Source [in]
 
-[in]
+
 A pointer to the source memory block to copy the bytes from.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The number of bytes to copy from the source to the destination.
 
 ## -syntax

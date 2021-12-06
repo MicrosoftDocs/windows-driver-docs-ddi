@@ -49,9 +49,9 @@ A <i>Halt</i> callback routine transitions the processor to an idle state.
 
 ## -parameters
 
-### -param Context 
+### -param Context [in, out, optional]
 
-[in, out, optional]
+
 A pointer to a PEP-defined processor-halt context. This pointer is the <i>Context</i> parameter value that the PEP previously passed to the <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pofxcallbackprocessorhalt">ProcessorHalt</a> routine.
 
 ## -returns

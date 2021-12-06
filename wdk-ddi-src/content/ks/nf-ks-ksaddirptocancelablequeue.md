@@ -50,29 +50,29 @@ The <b>KsAddIrpToCancelableQueue</b> function adds an IRP to a queue of cancelab
 
 ## -parameters
 
-### -param QueueHead 
+### -param QueueHead [in, out]
 
-[in, out]
+
 Specifies the driver-allocated storage for the head of the queue on which to add the IRP.
 
-### -param SpinLock 
+### -param SpinLock [in]
 
-[in]
+
 Points to driver's spin lock for queue access to the queue specified at <i>QueueHead</i>. A copy of this pointer is kept in the IRP's KSQUEUE_SPINLOCK_IRP_STORAGE(Irp) for use by the cancel routine, if necessary.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP to add to the queue specified at <i>QueueHead</i>.
 
-### -param ListLocation 
+### -param ListLocation [in]
 
-[in]
+
 Indicates whether this IRP should be placed at the beginning or end of the queue. This value must be KsListEntryTail or KsListEntryHead.
 
-### -param DriverCancel 
+### -param DriverCancel [in, optional]
 
-[in, optional]
+
 Optional parameter that specifies a driver-supplied cancel routine to use. If this is <b>NULL</b>, the standard <a href="/previous-versions/ff561011(v=vs.85)">KsCancelRoutine</a> is used.
 
 ## -returns

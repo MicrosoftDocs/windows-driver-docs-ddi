@@ -50,11 +50,11 @@ Contains arguments for the call to [DxgkDdiControlDiagnosticReporting](nc-dispmp
 
 ## -struct-fields
 
-### -field DiagnosticCategory
+### -field DiagnosticCategory [in]
 
-[in] A [DXGK_DIAGNOSTIC_CATEGORIES](ns-dispmprt-_dxgk_diagnostic_categories.md) structure which indicates which one of the diagnostic categories the diagnostic types being requested belong to.
+A [DXGK_DIAGNOSTIC_CATEGORIES](ns-dispmprt-_dxgk_diagnostic_categories.md) structure which indicates which one of the diagnostic categories the diagnostic types being requested belong to.
 
-### -field RequestedDiagnostics
+### -field RequestedDiagnostics [out]
 
-[out] A [DXGK_DIAGNOSTIC_TYPES](ns-dispmprt-_dxgk_diagnostic_types.md) structure indicates which diagnostic types the driver is being requested to enable in the given category.  The driver should enable each diagnostic which is requested and disable each diagnostic which is not requested.
+A [DXGK_DIAGNOSTIC_TYPES](ns-dispmprt-_dxgk_diagnostic_types.md) structure indicates which diagnostic types the driver is being requested to enable in the given category.  The driver should enable each diagnostic which is requested and disable each diagnostic which is not requested.
 

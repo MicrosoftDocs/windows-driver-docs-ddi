@@ -52,14 +52,14 @@ The <b>WdfPdoInitAssignRawDevice</b> method indicates that the calling driver ca
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-### -param DeviceClassGuid 
+### -param DeviceClassGuid [in]
 
-[in]
+
 A pointer to a GUID that identifies a <a href="/windows/win32/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>.
 
 **Note**    You should always specify a custom class GUID. You should not specify an existing class GUID. If you specify an existing class GUID, other drivers that attempt to specify that existing class GUID might fail to install or might install with incorrect security settings.

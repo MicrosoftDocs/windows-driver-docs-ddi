@@ -53,9 +53,6 @@ The **MBB_DEVICE_WAKE_CAPABILITIES_INIT** method initializes a [**MBB_DEVICE_WAK
 
 A pointer to a driver-allocated [**MBB_DEVICE_WAKE_CAPABILITIES**](../mbbcx/ns-mbbcx-_mbb_device_wake_capabilities.md) structure.
 
-## -returns
-
-This method does not return a value.
 
 ## -remarks
 

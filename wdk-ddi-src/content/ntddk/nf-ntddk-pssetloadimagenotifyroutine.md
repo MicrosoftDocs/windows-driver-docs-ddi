@@ -49,9 +49,9 @@ The <b>PsSetLoadImageNotifyRoutine</b> routine registers a driver-supplied callb
 
 ## -parameters
 
-### -param NotifyRoutine 
+### -param NotifyRoutine [in]
 
-[in]
+
 A pointer to the caller-implemented <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pload_image_notify_routine">PLOAD_IMAGE_NOTIFY_ROUTINE</a> callback routine for load-image notifications.
 
 ## -returns

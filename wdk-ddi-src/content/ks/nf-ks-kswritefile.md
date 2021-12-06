@@ -50,45 +50,45 @@ The <b>KsWriteFile</b> function performs a write against the specified file obje
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Specifies the file object to perform the read against.
 
-### -param Event 
+### -param Event [in, optional]
 
-[in, optional]
+
 Optionally contains the event to use in the write. If no event is passed, the call is assumed to be on a synchronous file object or the caller is waiting for the file object's event. If the call is not on a synchronous file object, it can be asynchronously completed. If the file has been opened for synchronous I/O, this variable must be <b>NULL</b>. If this variable is used, it must be an event allocated by the object manager.
 
-### -param PortContext 
+### -param PortContext [in, optional]
 
-[in, optional]
+
 Optionally contains context information for a completion port.
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
+
 Indicates the location in which to return the status information. This is always assumed to be a valid address, regardless of the requester mode.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Specifies the buffer from which to write the data. If the buffer needs to be probed and locked, an exception handler is used, along with <i>RequesterMode</i>.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the size of the buffer passed.
 
 ### -param OPTIONAL
 
-### -param RequestorMode 
+### -param RequestorMode [in]
 
-[in]
+
 Indicates the processor mode to place in the read IRP if one needs to be generated. Additionally, it is used if a buffer needs to be probed and locked. This variable also determines if a fast I/O call can be performed. If the requester mode is not KernelMode, but the previous mode was, then fast I/O cannot be used.
 
 
-#### - Key [in, optional]
+### -param Key [in, optional]
 
 Optionally contains a key, or zero if none.
 

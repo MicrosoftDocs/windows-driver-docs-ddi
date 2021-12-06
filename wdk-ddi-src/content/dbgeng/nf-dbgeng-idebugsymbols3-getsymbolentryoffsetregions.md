@@ -50,29 +50,29 @@ Returns all the memory regions known to be associated
 
 ## -parameters
 
-### -param Id 
+### -param Id [in]
 
-[in]
+
 The ID of a module as a pointer to a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a> structure.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bit-set that contains options that affect the behavior of this method.
 
-### -param Regions 
+### -param Regions [out]
 
-[out]
+
 The memory regions associated with the symbol.
 
-### -param RegionsCount 
+### -param RegionsCount [in]
 
-[in]
+
 The number of regions associated with the symbol.
 
-### -param RegionsAvail 
+### -param RegionsAvail [out, optional]
 
-[out, optional]
+
 A pointer to the number of regions available to the symbol.
 
 ## -returns

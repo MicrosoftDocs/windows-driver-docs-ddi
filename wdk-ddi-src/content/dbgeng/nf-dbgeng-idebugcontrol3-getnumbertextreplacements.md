@@ -49,9 +49,9 @@ The <b>GetNumberTextReplacements</b> method returns the number of currently defi
 
 ## -parameters
 
-### -param NumRepl 
+### -param NumRepl [out]
 
-[out]
+
 Receives the total number of user-named and automatic aliases.
 
 ## -returns

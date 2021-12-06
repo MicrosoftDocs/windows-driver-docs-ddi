@@ -51,7 +51,7 @@ Gets an <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextens
 
 ### -param ppCapabilities
 
-#### - ppPrintCapabilities [out, retval]
+### -param ppPrintCapabilities [out, retval]
 
 The returned <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a> object.
 

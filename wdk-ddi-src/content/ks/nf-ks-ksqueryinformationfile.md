@@ -50,24 +50,24 @@ The <b>KsQueryInformationFile</b> function performs an information query against
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Specifies the file object from which to query the standard information.
 
-### -param FileInformation 
+### -param FileInformation [out]
 
-[out]
+
 Indicates the place in which to put the file information. This is assumed to be a valid or probed address.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the correct length of the <i>FileInformation</i> buffer.
 
-### -param FileInformationClass 
+### -param FileInformationClass [in]
 
-[in]
+
 Specifies the class of information being requested.
 
 ## -returns

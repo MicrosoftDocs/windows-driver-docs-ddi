@@ -50,14 +50,14 @@ The <b>ClfsLsnLess</b> routine determines whether one LSN is less than another L
 
 ## -parameters
 
-### -param plsn1 
+### -param plsn1 [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that supplies one of the LSNs to be compared.
 
-### -param plsn2 
+### -param plsn2 [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that supplies the other LSN to be compared.
 
 ## -returns

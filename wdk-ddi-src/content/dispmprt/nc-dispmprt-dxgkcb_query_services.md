@@ -4,13 +4,13 @@ title: DXGKCB_QUERY_SERVICES (dispmprt.h)
 description: The DxgkCbQueryServices function returns an interface implemented by the display port driver.
 old-location: display\dxgkcbqueryservices.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 11/18/2021
 keywords: ["DXGKCB_QUERY_SERVICES callback function"]
 ms.keywords: DXGKCB_QUERY_SERVICES, DXGKCB_QUERY_SERVICES callback, DpFunctions_1bf190e2-3bfc-4ea9-942a-502ec71fa362.xml, DxgkCbQueryServices, DxgkCbQueryServices callback function [Display Devices], display.dxgkcbqueryservices, dispmprt/DxgkCbQueryServices
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,122 +42,94 @@ api_name:
 
 # DXGKCB_QUERY_SERVICES callback function
 
-
 ## -description
 
-The <b>DxgkCbQueryServices</b> function returns an interface implemented by the display port driver.
+The **DxgkCbQueryServices** function returns an interface implemented by the display port driver.
 
 ## -parameters
 
-### -param DeviceHandle 
+### -param DeviceHandle [in]
 
-[in]
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](ns-dispmprt-_dxgkrnl_interface.md) structure that was passed to [**DxgkDdiStartDevice**](nc-dispmprt-dxgkddi_start_device.md).
 
-### -param ServicesType 
+### -param ServicesType [in]
 
-[in]
-A constant from the <a href="/windows-hardware/drivers/ddi/dispmprt/ne-dispmprt-dxgk_services">DXGK_SERVICES</a> enumeration that specifies which interface is being requested. This parameter must be set to <b>DxgkServicesAgp</b>, <b>DxgkServicesDebugReport</b>, or <b>DxgkServicesTimedOperation</b>, as those are the only supported interfaces.
+A constant from the [**DXGK_SERVICES**](ne-dispmprt-dxgk_services.md) enumeration that specifies which interface is being requested.
 
-### -param Interface 
+### -param Interface [in, out]
 
-[in, out]
-A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure that receives the requested interface.
+A pointer to an [**INTERFACE**](../wdm/ns-wdm-_interface.md) structure that receives the requested interface.
 
 ## -returns
 
-<b>DxgkCbQueryServices</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
+**DxgkCbQueryServices** returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in *Ntstatus.h*.
 
 ## -remarks
 
-An interface, in this context, is a set of functions implemented by the display port driver. The display port driver makes the functions of an interface available to other drivers by providing function pointers in response to <b>DxgkCbQueryServices</b>.
+An interface, in this context, is a set of functions implemented by the display port driver. The display port driver makes the functions of an interface available to other drivers by providing function pointers in response to **DxgkCbQueryServices**.
 
-To obtain an AGP interface, do the following:
+### Obtaining the AGP interface
 
-<ol>
-<li>
-Allocate a <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_agp_interface">DXGK_AGP_INTERFACE</a> structure.
+To obtain an Accelerated Graphics Port (AGP) interface, do the following:
 
-</li>
-<li>
-Set the <b>Size</b> member to sizeof(DXGK_AGP_INTERFACE).
+1. Allocate a [**DXGK_AGP_INTERFACE**](ns-dispmprt-_dxgk_agp_interface.md) structure.
 
-</li>
-<li>
-Set the <b>Version</b> member. Version constants are defined in <i>Dispmprt.h</i> (for example, DXGK_AGP_INTERFACE_VERSION_1).
+2. Set the **Size** member to sizeof(DXGK_AGP_INTERFACE).
 
-</li>
-<li>
-Call <b>DxgkCbQueryServices</b>; set <i>ServicesType</i> to <b>DxgkServicesAgp</b>, and set <i>Interface</i> to the address (cast as PINTERFACE) of your DXGK_AGP_INTERFACE structure.
+3. Set the **Version** member. Version constants are defined in *Dispmprt.h* (for example, DXGK_AGP_INTERFACE_VERSION_1).
 
-</li>
-<li>
-On return from <b>DxgkCbQueryServices</b>, your DXGK_AGP_INTERFACE structure will contain pointers to the interface functions: <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_agp_allocate_pool">AgpAllocatePool</a> and the like.
+4. Call **DxgkCbQueryServices**; set **ServicesType** to **DxgkServicesAgp**, and set **Interface** to the address (cast as [PINTERFACE](../wdm/ns-wdm-_interface.md)) of your **DXGK_AGP_INTERFACE** structure.
 
-</li>
-</ol>
+5. On return from **DxgkCbQueryServices**, your **DXGK_AGP_INTERFACE** structure will contain pointers to the AGP interface functions; for example, [**AgpAllocatePool**](nc-dispmprt-dxgkcb_agp_allocate_pool.md).
+
+### Obtaining the Debug Report interface
+
 To obtain a Debug Report interface, do the following:
 
-<ol>
-<li>
-Allocate a <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_debug_report_interface">DXGK_DEBUG_REPORT_INTERFACE</a> structure.
+1. Allocate a [**DXGK_DEBUG_REPORT_INTERFACE**](ns-dispmprt-_dxgk_debug_report_interface.md) structure.
 
-</li>
-<li>
-Set the <b>Size</b> member to sizeof(DXGK_DEBUG_REPORT_INTERFACE).
+2. Set the **Size** member to sizeof(DXGK_DEBUG_REPORT_INTERFACE).
 
-</li>
-<li>
-Set the <b>Version</b> member. Version constants are defined in <i>Dispmprt.h</i> (for example,  DXGK_DEBUG_REPORT_INTERFACE_VERSION_1).
+3. Set the **Version** member. Version constants are defined in *Dispmprt.h* (for example,  DXGK_DEBUG_REPORT_INTERFACE_VERSION_1).
 
-</li>
-<li>
-Call <b>DxgkCbQueryServices</b>; set <i>ServicesType</i> to <b>DxgkServicesDebugReport</b>, and set <i>Interface</i> to the address (cast as PINTERFACE) of your DXGK_DEBUG_REPORT_INTERFACE structure.
+4. Call **DxgkCbQueryServices**; set **ServicesType** to **DxgkServicesDebugReport**, and set **Interface** to the address (cast as PINTERFACE) of your **DXGK_DEBUG_REPORT_INTERFACE** structure.
 
-</li>
-<li>
-On return from <b>DxgkCbQueryServices</b>, your DXGK_DEBUG_REPORT_INTERFACE structure will contain pointers to the interface functions: <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_debug_report_interface">DbgReportCreate</a> and the like.
+5. On return from **DxgkCbQueryServices**, your DXGK_DEBUG_REPORT_INTERFACE structure will contain pointers to the Debug Report interface functions; for example, [**DbgReportCreate**](ns-dispmprt-_dxgk_debug_report_interface.md).
 
-</li>
-</ol>
+### Obtaining the Timed Operation interface
+
 To obtain a Timed Operation interface, do the following:
 
-<ol>
-<li>
-Allocate a <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_timed_operation_interface">DXGK_TIMED_OPERATION_INTERFACE</a> structure.
+1. Allocate a [**DXGK_TIMED_OPERATION_INTERFACE**](ns-dispmprt-_dxgk_timed_operation_interface.md) structure.
 
-</li>
-<li>
-Set the <b>Size</b> member to sizeof(DXGK_TIMED_OPERATION_INTERFACE).
+2. Set the **Size** member to sizeof(DXGK_TIMED_OPERATION_INTERFACE).
 
-</li>
-<li>
-Set the <b>Version</b> member. Version constants are defined in <i>Dispmprt.h</i> (for example,  DXGK_TIMED_OPERATION_INTERFACE_VERSION_1).
+3. Set the **Version** member. Version constants are defined in *Dispmprt.h* (for example,  DXGK_TIMED_OPERATION_INTERFACE_VERSION_1).
 
-</li>
-<li>
-Call <b>DxgkCbQueryServices</b>; set <i>ServicesType</i> to <b>DxgkServicesTimedOperation</b>, and set <i>Interface</i> to the address (cast as PINTERFACE) of your DXGK_TIMED_OPERATION_INTERFACE structure.
+4. Call **DxgkCbQueryServices**; set **ServicesType** to **DxgkServicesTimedOperation**, and set **Interface** to the address (cast as PINTERFACE) of your **DXGK_TIMED_OPERATION_INTERFACE** structure.
 
-</li>
-<li>
-On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE structure will contain pointers to the interface functions: <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_timed_operation_interface">TimedOperationStart</a> and the like.
+5. On return from **DxgkCbQueryServices**, your **DXGK_TIMED_OPERATION_INTERFACE** structure will contain pointers to the Timed Operation interface functions; for example, [**TimedOperationStart**](ns-dispmprt-_dxgk_timed_operation_interface.md).
 
-</li>
-</ol>
+### Obtaining the SPB and System Firmware Table interfaces
+
+The [Simple Peripheral Bus (SPB)](ns-dispmprt-_dxgk_spb_interface.md) and [System Firmware Table](ns-dispmprt-_dxgk_firmware_table_interface.md) interfaces can be similarly obtained by following the above steps using the appropriate **ServicesType** and structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">AGP Interface</a>
+[**DXGK_AGP_INTERFACE**](ns-dispmprt-_dxgk_agp_interface.md)
 
+[**DxgkDdiStartDevice**](nc-dispmprt-dxgkddi_start_device.md)
 
+[**DXGK_DEBUG_REPORT_INTERFACE**](ns-dispmprt-_dxgk_debug_report_interface.md)
 
-<a href="/windows-hardware/drivers/ddi/index">Debug Report Interface</a>
+[**DXGK_FIRMWARE_TABLE_INTERFACE**](ns-dispmprt-_dxgk_firmware_table_interface.md)
 
+[**DXGK_SERVICES**](ne-dispmprt-dxgk_services.md)
 
+[**DXGK_SPB_INTERFACE**](ns-dispmprt-_dxgk_spb_interface.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>
+[**DXGK_TIMED_OPERATION_INTERFACE**](ns-dispmprt-_dxgk_timed_operation_interface.md)
 
+[**DXGKRNL_INTERFACE**](ns-dispmprt-_dxgkrnl_interface.md)
 
-
-<a href="/windows-hardware/drivers/ddi/index">Timed Operation Interface</a>
-
+[**INTERFACE**](../wdm/ns-wdm-_interface.md)

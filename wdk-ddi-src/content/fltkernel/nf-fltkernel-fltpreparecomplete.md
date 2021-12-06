@@ -49,19 +49,19 @@ The <b>FltPrepareComplete</b> routine acknowledges a TRANSACTION_NOTIFY_PREPARE 
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 Opaque instance pointer for the caller.
 
-### -param Transaction 
+### -param Transaction [in]
 
-[in]
+
 Opaque transaction pointer for the transaction.
 
-### -param TransactionContext 
+### -param TransactionContext [in, optional]
 
-[in, optional]
+
 Pointer to the minifilter driver's transaction context.
 
 ## -returns

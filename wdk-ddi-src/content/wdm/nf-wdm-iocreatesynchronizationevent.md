@@ -49,14 +49,14 @@ The <b>IoCreateSynchronizationEvent</b> routine creates or opens a named synchro
 
 ## -parameters
 
-### -param EventName 
+### -param EventName [in]
 
-[in]
+
 Pointer to a buffer containing a null-terminated Unicode string that names the event.
 
-### -param EventHandle 
+### -param EventHandle [out]
 
-[out]
+
 Pointer to a location in which to return a handle for the event object. In Windows Server 2003 and later versions of Windows, the returned handle is a <a href="/windows-hardware/drivers/">kernel handle</a>.
 
 ## -returns

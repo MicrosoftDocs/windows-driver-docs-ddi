@@ -47,8 +47,6 @@ api_name:
 
 The <b>UPSStop</b> function causes a UPS minidriver to stop monitoring its UPS unit.
 
-## -parameters
-
 ## -remarks
 
 The <b>UPSStop</b> function must:

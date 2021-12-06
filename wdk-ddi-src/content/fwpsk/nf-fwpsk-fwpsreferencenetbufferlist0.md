@@ -53,16 +53,16 @@ The
 
 ## -parameters
 
-### -param netBufferList 
+### -param netBufferList [in, out]
 
-[in, out]
+
 A pointer to the 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure for which the
      reference count is being incremented.
 
-### -param intendToModify 
+### -param intendToModify [in]
 
-[in]
+
 A value that indicates whether a callout intends to modify the cloned network buffer list, whose
      parent is pointed to by the 
      <i>netBufferList</i> parameter, after the 

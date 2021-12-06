@@ -49,21 +49,21 @@ This routine returns the PROPERTYKEY and PROPVARIANT associated with the nth ele
 
 ## -parameters
 
-### -param Index
+### -param Index [in]
 
-[in] Zero-based index of the element in the pSensorsList.
+Zero-based index of the element in the pSensorsList.
 
-### -param pSensorsList
+### -param pSensorsList [in]
 
-[in] Pointer to a sensor collection list.
+Pointer to a sensor collection list.
 
-### -param pKey
+### -param pKey [out]
 
-[out] Size of data.
+Size of data.
 
-### -param pValue
+### -param pValue [out]
 
-[out] Location of the data.
+Location of the data.
 
 ## -returns
 

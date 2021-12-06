@@ -49,29 +49,29 @@ The <b>OutputDisassemblyLines</b> method disassembles several processor instruct
 
 ## -parameters
 
-### -param OutputControl 
+### -param OutputControl [in]
 
-[in]
+
 Specifies the output control that determines which client's output callbacks receive the output.  For possible values, see <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
 
-### -param PreviousLines 
+### -param PreviousLines [in]
 
-[in]
+
 Specifies the number of lines of instructions before the instruction at <i>Offset</i> to include in the output.  Typically, each instruction is output on a single line.  However, some instructions can take up several lines of output; this can cause the number of lines output before the instruction at <i>Offset</i> to be greater than <i>PreviousLines</i>.
 
-### -param TotalLines 
+### -param TotalLines [in]
 
-[in]
+
 Specifies the total number of lines of instructions to include in the output.  Typically, each instruction is output on a single line.  However, some instructions can take up several lines of output; this can cause the number of lines output to be greater than <i>TotalLines</i>.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location in the target's memory of the instructions to disassemble.  The disassembly output will start <i>PreviousLines</i> lines before these processor instructions.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies the bit-flags that affect the behavior of this method.  The following table lists the bits that can be set.
 
 <table>
@@ -121,24 +121,24 @@ Include the source file name in the output.
 </tr>
 </table>
 
-### -param OffsetLine 
+### -param OffsetLine [out, optional]
 
-[out, optional]
+
 Receives the line number in the output that contains the instruction at <i>Offset</i>.  If <i>OffsetLine</i> is <b>NULL</b>, this information is not returned.
 
-### -param StartOffset 
+### -param StartOffset [out, optional]
 
-[out, optional]
+
 Receives the location in the target's memory of the first instruction included in the output.  If <i>StartOffset</i> is <b>NULL</b>, this information is not returned.
 
-### -param EndOffset 
+### -param EndOffset [out, optional]
 
-[out, optional]
+
 Receives the locaiton in the target's memory of the instruction that follows the last disassembled instruction.
 
-### -param LineOffsets 
+### -param LineOffsets [out, optional]
 
-[out, optional]
+
 Receives the locations in the target's memory of the instructions included in the output starting with the instruction at <i>Offset</i>.  <i>LineOffsets</i> is an array that contains <i>TotalLines</i> elements.
 
 <i>Offset</i> is the value of first entry in this array unless there was an error disassembling the instructions before this instruction. In this case, the first entry will contain DEBUG_ANY_ID and <i>Offset</i> will be placed in the second entry in the array (index one).

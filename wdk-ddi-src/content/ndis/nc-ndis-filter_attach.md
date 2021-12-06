@@ -52,23 +52,23 @@ NDIS calls a filter driver's
 
 ## -parameters
 
-### -param NdisFilterHandle 
+### -param NdisFilterHandle [in]
 
-[in]
+
 An NDIS handle that identifies a filter module. The filter driver must save this handle. The
      handle is required in subsequent calls to 
      <b>NdisF<i>Xxx</i></b> functions.
 
-### -param FilterDriverContext 
+### -param FilterDriverContext [in]
 
-[in]
+
 The handle that the driver passed to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">
      NdisFRegisterFilterDriver</a> function that identifies the driver context area.
 
-### -param AttachParameters 
+### -param AttachParameters [in]
 
-[in]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_attach_parameters">
      NDIS_FILTER_ATTACH_PARAMETERS</a> structure that defines the initialization parameters for the filter

@@ -52,33 +52,33 @@ The DXGK_OVERLAYINFO structure describes parameters that are required to create 
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [in]
 
-[in] A handle to the allocation to be displayed on the overlay.
+A handle to the allocation to be displayed on the overlay.
 
-### -field PhysicalAddress
+### -field PhysicalAddress [in]
 
-[in] The physical address, within the segment that <b>SegmentId</b> specifies, of the allocation to be displayed.
+The physical address, within the segment that <b>SegmentId</b> specifies, of the allocation to be displayed.
 
-### -field SegmentId
+### -field SegmentId [in]
 
-[in] The identifier of a segment in which the allocation is currently paged-in.
+The identifier of a segment in which the allocation is currently paged-in.
 
-### -field DstRect
+### -field DstRect [in]
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that contains the overlay destination rectangle, in device coordinates.
+A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that contains the overlay destination rectangle, in device coordinates.
 
-### -field SrcRect
+### -field SrcRect [in]
 
-[in] A RECT structure that contains the overlay source rectangle, in device coordinates.
+A RECT structure that contains the overlay source rectangle, in device coordinates.
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [in]
 
-[in] A pointer to a block of private data that is passed from the user-mode display driver to the display miniport driver.
+A pointer to a block of private data that is passed from the user-mode display driver to the display miniport driver.
 
-### -field PrivateDriverDataSize
+### -field PrivateDriverDataSize [in]
 
-[in] The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
+The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
 
 ## -see-also
 

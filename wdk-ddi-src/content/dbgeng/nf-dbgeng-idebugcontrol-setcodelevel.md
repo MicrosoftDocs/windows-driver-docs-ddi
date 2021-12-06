@@ -49,9 +49,9 @@ The <b>SetCodeLevel</b> method sets the current code level and is mainly used wh
 
 ## -parameters
 
-### -param Level 
+### -param Level [in]
 
-[in]
+
 Specifies the current code level.  <i>Level</i> can take one of the values in the following table.
 
 <table>

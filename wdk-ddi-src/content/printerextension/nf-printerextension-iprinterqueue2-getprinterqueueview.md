@@ -51,19 +51,19 @@ This method allows the user to perform job management tasks from within a UWP  d
 
 ## -parameters
 
-### -param ulViewOffset 
+### -param ulViewOffset [in]
 
-[in]
+
 Indicates the start of the range of jobs to be monitored.
 
-### -param ulViewSize 
+### -param ulViewSize [in]
 
-[in]
+
 Indicates the size or the range of jobs to be monitored.
 
-### -param ppJobView 
+### -param ppJobView [out, retval]
 
-[out, retval]
+
 IPrinterQueueView object that shows the range of jobs to be monitored.
 
 ## -returns

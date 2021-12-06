@@ -51,9 +51,9 @@ A UMDF-based driver's <b>OnRemoteTargetRemoveComplete</b> event callback functio
 
 ## -parameters
 
-### -param pWdfRemoteTarget 
+### -param pWdfRemoteTarget [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremotetarget">IWDFRemoteTarget</a> interface of a remote target object that represents a <a href="/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>. The driver obtains this pointer when it calls <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-createremotetarget">IWDFDevice2::CreateRemoteTarget</a>.
 
 ## -remarks

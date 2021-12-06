@@ -49,19 +49,19 @@ The **HidD_GetProductString** routine returns the embedded string of a [top-leve
 
 ## -parameters
 
-### -param HidDeviceObject
+### -param HidDeviceObject [in]
 
-[in]
+
 Specifies an open handle to a top-level collection.
 
-### -param Buffer
+### -param Buffer [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that the routine uses to return the requested product string. The routine returns a NULL-terminated wide character string.
 
-### -param BufferLength
+### -param BufferLength [in]
 
-[in]
+
 Specifies the length, in bytes, of a caller-allocated buffer provided at *Buffer*. If the buffer is not large enough to return the entire NULL-terminated embedded string, the routine returns nothing in the buffer. The supplied buffer must be <= 4093 bytes (2^12 – 3).
 
 ## -returns

@@ -49,39 +49,39 @@ Gets a line by inline context.
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 An offset for the line.
 
-### -param InlineContext 
+### -param InlineContext [in]
 
-[in]
+
 The inline context.
 
-### -param Line 
+### -param Line [out, optional]
 
-[out, optional]
+
 A pointer to the returned line.
 
-### -param FileBuffer 
+### -param FileBuffer [out]
 
-[out]
+
 A pointer to an output buffer.
 
-### -param FileBufferSize 
+### -param FileBufferSize [in]
 
-[in]
+
 The size of the file buffer.
 
-### -param FileSize 
+### -param FileSize [out, optional]
 
-[out, optional]
+
 A pointer to the length of the file.
 
-### -param Displacement 
+### -param Displacement [out, optional]
 
-[out, optional]
+
 A pointer to the displacement value of the file.
 
 ## -returns

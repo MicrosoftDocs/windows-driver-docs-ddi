@@ -49,9 +49,9 @@ Adds a single long number to the collection.
 
 ## -parameters
 
-### -param Number 
+### -param Number [in]
 
-[in]
+
 The long number to add to this collection.
 
 ## -returns

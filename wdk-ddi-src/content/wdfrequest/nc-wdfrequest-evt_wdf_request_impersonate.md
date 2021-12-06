@@ -51,14 +51,14 @@ A driver's <i>EvtRequestImpersonate</i> event callback function performs tasks a
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object that represents the I/O request that requires impersonation.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 A pointer to a context that was previously supplied in the <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestimpersonate">WdfRequestImpersonate</a> method. This parameter is optional and can be NULL if a context is not required.
 
 ## -remarks

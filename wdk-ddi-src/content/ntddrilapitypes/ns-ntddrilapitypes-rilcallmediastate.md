@@ -4,7 +4,7 @@ title: RILCALLMEDIASTATE (ntddrilapitypes.h)
 description: "Microsoft reserves the RILCALLMEDIASTATE structure for internal use only. Don't use the RILCALLMEDIASTATE structure in your code."
 old-location: netvista\rilcallmediastate.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/02/2021
 keywords: ["RILCALLMEDIASTATE structure"]
 ms.keywords: "*LPRILCALLMEDIASTATE, RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediastate, ntddrilapitypes/RILCALLMEDIASTATE"
 req.header: ntddrilapitypes.h
@@ -58,24 +58,13 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ### -field mediaStateUnion
 
-### -field mediaStateUnion.stAudioState
-
-### -field mediaStateUnion.stVideoState
-
-### -field mediaStateUnion.dwCustomStateSpecific
-
-### -field mediaStateUnion.pad
-
 ### -field RILCALLMEDIASTATEUNION
 
-#### - dwCustomStateSpecific
+### -field RILCALLMEDIASTATEUNION.stAudioState
 
+### -field RILCALLMEDIASTATEUNION.stVideoState
 
-#### - pad
+### -field RILCALLMEDIASTATEUNION.dwCustomStateSpecific
 
-
-#### - stAudioState
-
-
-#### - stVideoState
+### -field RILCALLMEDIASTATEUNION.pad
 

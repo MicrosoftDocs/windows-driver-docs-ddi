@@ -49,9 +49,9 @@ The <b>IoSetThreadHardErrorMode</b> routine enables or disables hard error repor
 
 ## -parameters
 
-### -param EnableHardErrors 
+### -param EnableHardErrors [in]
 
-[in]
+
 Specifies whether hard error reporting to the user should be enabled or disabled for this thread. A value of <b>TRUE</b> enables hard error reporting. <b>FALSE</b> disables it.
 
 ## -returns

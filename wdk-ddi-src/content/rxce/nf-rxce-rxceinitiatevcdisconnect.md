@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param pVc 
+### -param pVc [in]
 
-[in]
+
 A pointer to the virtual circuit structure to be disconnected.
 
 ## -returns

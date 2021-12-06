@@ -50,15 +50,15 @@ The <b>RtlGUIDFromString</b> routine converts the given Unicode string to a GUID
 
 ## -parameters
 
-### -param GuidString 
+### -param GuidString [in]
 
-[in]
+
 Pointer to the buffered Unicode string to be converted to a GUID. The string should be in the following form (including the braces):
 {00000000-0000-0000-0000-000000000000}
 
-### -param Guid 
+### -param Guid [out]
 
-[out]
+
 Pointer to a caller-supplied variable in which the GUID is returned.
 
 ## -returns

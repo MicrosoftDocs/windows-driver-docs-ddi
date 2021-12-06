@@ -142,7 +142,7 @@ Specifies the mask for V bits.
 
 ### -field dwYUVZBitMask
 
-#### - MultiSampleCaps
+### -field MultiSampleCaps
 
 **DirectX 8.0 and later versions only.** Structure that contains the following two members. It specifies 16-bitmasks for the number of samples per pixel for both flip (fullscreen) and blt (windowed) multisampling. It is used when specifying surfaces that can be used when performing multisample rendering (see the Remarks section). Each bit in these 16-bitmasks indicates support of multisampling with a specific number of samples. For example, bit 0 indicates the support of multisampling with only a single sample, bit 1 indicates the support of multisampling with two samples, bit 2 indicates the support of multisampling with three samples, and so on. The driver can indicate more than one supported level by combining the bits using a bitwise OR (see Remarks).
 
@@ -154,35 +154,35 @@ Specifies the mask for V bits.
 
 **DirectX 8.0 and later versions only.** Specifies a 16-bitmask for windowed multisampling.
 
-#### - dwBumpBitCount
+### -field dwBumpBitCount
 
 Specifies the total number of bits per "bumpel" (bump-map texel).
 
-#### - dwBumpDuBitMask
+### -field dwBumpDuBitMask
 
 Specifies the mask for bump map U delta bits.
 
-#### - dwBumpDvBitMask
+### -field dwBumpDvBitMask
 
 Specifies the mask for bump map V delta bits.
 
-#### - dwBumpLuminanceBitMask
+### -field dwBumpLuminanceBitMask
 
 Specifies the mask for luminance in a bump map.
 
-#### - dwLuminanceAlphaBitMask
+### -field dwLuminanceAlphaBitMask
 
 Specifies the mask for luminance in the alpha channel.
 
-#### - dwLuminanceBitCount
+### -field dwLuminanceBitCount
 
 Specifies the number of bits per pixel.
 
-#### - dwLuminanceBitMask
+### -field dwLuminanceBitMask
 
 Specifies the mask for luminance bits.
 
-#### - dwOperations
+### -field dwOperations
 
 **DirectX 8.0 and later versions only.** Specifies the intended operations that can be performed on surfaces with this pixel format, for example, whether such surfaces can be used as textures, bump environment maps, cube maps, volume textures, or render targets. The operations that can be reported are as follows:
 
@@ -211,27 +211,27 @@ Specifies the mask for luminance bits.
 | D3DFORMAT_OP_AUTOGENMIPMAP | **DirectX 9.0 and later versions only.** When this flag is specified in a pixel format, it indicates that the sublevels of MIP-map textures with this format can be automatically generated. To receive D3DDP2OP_GENERATEMIPSUBLEVELS operation requests, this flag must be exposed. |
 | D3DFORMAT_OP_VERTEXTEXTURE | **DirectX 9.0 and later versions only.** When this flag is specified in a pixel format, it indicates that surfaces of this format can be used by a vertex texture sampler. That is, only surfaces of this format can be used as vertex textures. |
 
-#### - dwPrivateFormatBitCount
+### -field dwPrivateFormatBitCount
 
 Specifies the bits per pixel of a pixel format private to the driver (that is, not one of the standard ones defined by Microsoft Direct3D).
 
-#### - dwRGBAlphaBitMask, dwYUVAlphaBitMask
+### -field dwRGBAlphaBitMask, dwYUVAlphaBitMask
 
 Specify the masks for alpha channel.
 
-#### - dwRGBZBitMask, dwYUVZBitMask
+### -field dwRGBZBitMask, dwYUVZBitMask
 
 Specifies the masks for the z channel.
 
-#### - dwStencilBitDepth
+### -field dwStencilBitDepth
 
 Specifies the bit depth of the stencil buffer. This member specifies how many bits are reserved within each pixel of the z-buffer for stencil information.
 
-#### - dwStencilBitMask
+### -field dwStencilBitMask
 
 Specifies the mask for stencil bits within each z-buffer pixel.
 
-#### - dwZBitMask
+### -field dwZBitMask
 
 Specifies the mask for Z bits.
 

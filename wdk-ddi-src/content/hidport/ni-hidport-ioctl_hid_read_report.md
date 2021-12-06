@@ -125,4 +125,4 @@ IOCTL_HID_READ_REPORT  is typically used for continuously completing input repor
 
 
 
-<a href="/previous-versions/hh439646(v=vs.85)">IOCTL_HID_WRITE_REPORT</a>
+<a href="/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_hid_write_report">IOCTL_HID_WRITE_REPORT</a>

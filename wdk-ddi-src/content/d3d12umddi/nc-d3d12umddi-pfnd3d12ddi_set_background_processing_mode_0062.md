@@ -48,9 +48,9 @@ When an application changes background processing mode, PFND3D12DDI_SET_BACKGROU
 
 ## -parameters
 
-### -param hRTDevice
+### -param hRTDevice [in]
 
-[in] The handle of the device for the driver to use when it calls back into the runtime.
+The handle of the device for the driver to use when it calls back into the runtime.
 
 ### -param Mode
 

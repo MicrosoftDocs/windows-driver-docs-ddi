@@ -49,44 +49,44 @@ The <b>PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE</b> function initializes a platfor
 
 ## -parameters
 
-### -param ResourceUsage 
+### -param ResourceUsage [in]
 
-[in]
+
 Indicates if this device is in use.
 
-### -param EdgeLevel 
+### -param EdgeLevel [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
 
-### -param InterruptLevel 
+### -param InterruptLevel [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_polarity">KINTERRUPT_POLARITY</a> enumeration value that identifies how a device signals an interrupt request on an interrupt line.
 
-### -param ShareType 
+### -param ShareType [in]
 
-[in]
+
 Indicates if the device can be shared.
 
-### -param Wake 
+### -param Wake [in]
 
-[in]
+
 Indicates if the device can be woken from a low-power state.
 
-### -param PinTable 
+### -param PinTable [in]
 
-[in]
+
 A list of pin numbers on the resource.
 
-### -param PinCount 
+### -param PinCount [in]
 
-[in]
+
 The number of pins described by the <i>PinTable</i> parameter.
 
-### -param Resource 
+### -param Resource [out]
 
-[out]
+
 A pointer to the resource. The structure behind the pointer is of type <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_interrupt_resource">PEP_ACPI_INTERRUPT_RESOURCE</a>.
 
 ## -see-also

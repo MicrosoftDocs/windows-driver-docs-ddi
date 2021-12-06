@@ -45,13 +45,13 @@ The **NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES_INIT** function initializes a [**N
 
 ## -parameters
 
-### -param Capabilities
+### -param Capabilities [_Out_]
 
-[_Out_] A pointer to a driver-allocated [**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_adapter_receive_filter_capabilities.md) structure.
+A pointer to a driver-allocated [**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_adapter_receive_filter_capabilities.md) structure.
 
-### -param EvtSetReceiveFilter
+### -param EvtSetReceiveFilter [_In_]
 
-[_In_] A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_SET_RECEIVE_FILTER*](nc-netadapter-evt_net_adapter_set_receive_filter.md) callback function.
+A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_SET_RECEIVE_FILTER*](nc-netadapter-evt_net_adapter_set_receive_filter.md) callback function.
 
 ## -remarks
 

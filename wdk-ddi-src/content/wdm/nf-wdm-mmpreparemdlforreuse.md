@@ -46,9 +46,9 @@ The **MmPrepareMdlForReuse** macro releases the resources that are associated wi
 
 ## -parameters
 
-### -param MDL
+### -param MDL [in]
 
-[in]
+
 A pointer to a partial MDL that is to be prepared for reuse.
 
 ## -remarks

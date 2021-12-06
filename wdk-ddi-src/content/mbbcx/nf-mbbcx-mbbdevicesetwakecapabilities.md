@@ -57,9 +57,6 @@ The WDFDEVICE object the driver previously obtained from a call to [**WdfDeviceC
 
 A pointer to a driver-allocated and initialized [**MBB_DEVICE_WAKE_CAPABILITIES**](../mbbcx/ns-mbbcx-_mbb_device_wake_capabilities.md) structure.
 
-## -returns
-
-This method does not return a value.
 
 ## -remarks
 

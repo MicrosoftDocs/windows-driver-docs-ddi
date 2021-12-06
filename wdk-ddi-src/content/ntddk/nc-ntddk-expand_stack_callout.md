@@ -49,9 +49,9 @@ The <i>ExpandedStackCall</i> routine executes with a guaranteed stack size.
 
 ## -parameters
 
-### -param Parameter 
+### -param Parameter [in, optional]
 
-[in, optional]
+
 The value passed to the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout">KeExpandKernelStackAndCallout</a> routine that executed <i>ExpandedStackCall</i>.
 
 ## -returns

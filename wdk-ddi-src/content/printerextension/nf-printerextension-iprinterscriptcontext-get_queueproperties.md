@@ -49,8 +49,6 @@ Provides access to the queue property bag, if the property bag is present.
 
 This property is read-only.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptcontext">IPrinterScriptContext</a>

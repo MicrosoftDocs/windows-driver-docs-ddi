@@ -4,7 +4,7 @@ title: RILPOSITIONINFO_V2 (ntddrilapitypes.h)
 description: This structure represents the RILPOSITIONINFO_V2.
 old-location: netvista\rilpositioninfo_v2.htm
 tech.root: netvista
-ms.date: 02/16/2018
+ms.date: 12/03/2021
 keywords: ["RILPOSITIONINFO_V2 structure"]
 ms.keywords: "*LPRILPOSITIONINFO, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO, RILPOSITIONINFO_V2, RILPOSITIONINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfo_v2, rilapitypes/RILPOSITIONINFO_V2"
 req.header: ntddrilapitypes.h
@@ -113,12 +113,12 @@ The number of entries in the cdma2000 measured results list <b>rc2kMRL</b>.
 The cdma2000 measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-rilc2kmrl.md">RILC2KMRL</a> structs.
 
 
-#### - RILTDSCDMAMRL
+### -field RILTDSCDMAMRL
 
 TD-SCDMA measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-riltdscdmamrl.md">RILTDSCDMAMRL</a> structs. This field is not present in RILPOSITIONINFO_V1.
 
 
-#### - RILUMTSMRL
+### -field RILUMTSMRL
 
 UMTS measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-rilumtsmrl.md">RILUMTSMRL</a> structs.
 

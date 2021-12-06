@@ -49,24 +49,24 @@ The <b>SERCX2_CONFIG_INIT</b> function initializes a <a href="/windows-hardware/
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_config">SERCX2_CONFIG</a> structure that is to be initialized.
 
-### -param EvtSerCx2ApplyConfig 
+### -param EvtSerCx2ApplyConfig [in]
 
-[in]
+
 The value to load into the <b>EvtSerCx2ApplyConfig</b> member of the <b>SERCX2_CONFIG</b> structure. For more information, see the description of this member in <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_config">SERCX2_CONFIG</a>.
 
-### -param EvtSerCx2Control 
+### -param EvtSerCx2Control [in]
 
-[in]
+
 The value to load into the <b>EvtSerCx2Control</b> member of the <b>SERCX2_CONFIG</b> structure. For more information, see the description of this member in <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_config">SERCX2_CONFIG</a>.
 
-### -param EvtSerCx2PurgeFifos 
+### -param EvtSerCx2PurgeFifos [in]
 
-[in]
+
 The value to load into the <b>EvtSerCx2PurgeFifos</b> member of the <b>SERCX2_CONFIG</b> structure. For more information, see the description of this member in <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_config">SERCX2_CONFIG</a>.
 
 ## -remarks

@@ -49,9 +49,9 @@ Gets the state of the local effects (LFX) node that is in the path of the audio 
 
 ## -parameters
 
-### -param pbEnable 
+### -param pbEnable [out]
 
-[out]
+
 The current state of the LFX node.
 
 ## -returns

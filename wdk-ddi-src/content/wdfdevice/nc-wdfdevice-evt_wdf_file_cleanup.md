@@ -51,9 +51,9 @@ A driver's <i>EvtFileCleanup</i> callback function handles operations that must 
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A handle to a framework file object, which was previously received by the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_file_create">EvtDeviceFileCreate</a> callback function.
 
 ## -remarks

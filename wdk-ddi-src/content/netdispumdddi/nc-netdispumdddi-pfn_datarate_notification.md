@@ -49,16 +49,16 @@ Called by the operating system to notify the Miracast user-mode driver that the 
 
 ## -parameters
 
-### -param context 
+### -param context [in]
 
-[in]
+
 A  pointer to a context block associated with a display adapter.
 
 The context value is the value the driver passed in its call to the <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_register_datarate_notifications">RegisterForDataRateNotifications</a> function when it registered the <i>pfnDataRateNotify</i> function.
 
-### -param pDataRateStats 
+### -param pDataRateStats [in, optional]
 
-[in, optional]
+
 An optional pointer to a <a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_datarate_stats">MIRACAST_DATARATE_STATS</a> structure that contains info on the audio/video encoder bit rate and failed or retried Wi-Fi frames.
 
 Can be <b>NULL</b> if the network has an error. For more info, see Remarks.

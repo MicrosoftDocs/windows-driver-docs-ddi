@@ -52,21 +52,21 @@ The DXVADDI_AYUVSAMPLE16 structure describes 16-bit Cr, Cb, and Y color values a
 
 ## -struct-fields
 
-### -field Cr
+### -field Cr [in]
 
-[in] A 16-bit chrominance (V) sample value.
+A 16-bit chrominance (V) sample value.
 
-### -field Cb
+### -field Cb [in]
 
-[in] A 16-bit chrominance (U) sample value.
+A 16-bit chrominance (U) sample value.
 
-### -field Y
+### -field Y [in]
 
-[in] A 16-bit luminance (Y) sample value.
+A 16-bit luminance (Y) sample value.
 
-### -field Alpha
+### -field Alpha [in]
 
-[in] The 16-bit opacity of the pixel when it is used as a source graphic for blending with another picture.
+The 16-bit opacity of the pixel when it is used as a source graphic for blending with another picture.
 
 ## -remarks
 

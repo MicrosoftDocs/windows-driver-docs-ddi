@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param RxContext 
+### -param RxContext [in]
 
-[in]
+
 A pointer to the RX_CONTEXT structure for this request.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 A pointer to the IRP for this request.
 
 ## -returns

@@ -49,14 +49,14 @@ The <b>wiauStrC2W</b> function converts an ANSI character string to a Unicode st
 
 ## -parameters
 
-### -param pszSrc 
+### -param pszSrc [in]
 
-[in]
+
 Points to the ANSI string to convert.
 
-### -param pwszDst 
+### -param pwszDst [out]
 
-[out]
+
 Pointer to a memory location that receives the converted Unicode string.
 
 ### -param iSize

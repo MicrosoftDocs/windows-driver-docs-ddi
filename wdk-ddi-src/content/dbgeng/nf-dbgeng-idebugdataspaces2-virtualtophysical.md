@@ -49,14 +49,14 @@ The <b>VirtualToPhysical</b> method translates a location in the target's virtua
 
 ## -parameters
 
-### -param Virtual 
+### -param Virtual [in]
 
-[in]
+
 Specifies the location in the target's virtual address space to translate.
 
-### -param Physical 
+### -param Physical [out]
 
-[out]
+
 Receives the physical memory address.
 
 ## -returns

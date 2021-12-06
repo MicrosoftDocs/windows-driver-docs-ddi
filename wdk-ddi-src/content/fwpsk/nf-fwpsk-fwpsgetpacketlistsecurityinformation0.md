@@ -53,16 +53,16 @@ The
 
 ## -parameters
 
-### -param packetList 
+### -param packetList [in]
 
-[in]
+
 A pointer to the 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure for which the
      associated information is being retrieved.
 
-### -param queryFlags 
+### -param queryFlags [in]
 
-[in]
+
 A UINT32 value that contains a bitwise OR of a combination of the following flags that specify the
      information to be retrieved:
      
@@ -107,9 +107,9 @@ Retrieve all information associated with an inbound packet list.
 
 Retrieve all information associated with an outbound packet list.
 
-### -param packetInformation 
+### -param packetInformation [in, out]
 
-[in, out]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_information0_">FWPS_PACKET_LIST_INFORMATION0</a> structure that receives the information associated with the packet
      list.

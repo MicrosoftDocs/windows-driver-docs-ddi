@@ -49,9 +49,9 @@ This function returns the size of a <a href="/windows-hardware/drivers/ddi/senso
 
 ## -parameters
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 The number of <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_value_pair">SENSOR_VALUE_PAIR</a> elements in the <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
 
 ## -returns

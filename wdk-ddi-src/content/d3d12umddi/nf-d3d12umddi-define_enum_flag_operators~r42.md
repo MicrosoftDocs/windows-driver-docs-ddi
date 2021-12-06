@@ -47,8 +47,6 @@ tech.root: display
 
 Defines operator overloads to enable bit operations on enum values that are used to define flags.
 
-## -parameters
-
 ## -returns
 
 This function does not return a value.

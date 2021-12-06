@@ -49,19 +49,19 @@ The <b>FreeMapRegisters</b> routine releases a set of map registers that were sa
 
 ## -parameters
 
-### -param DmaAdapter 
+### -param DmaAdapter [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
-### -param MapRegisterBase 
+### -param MapRegisterBase [in]
 
-[in]
+
 Specifies the map registers allocated for the DMA operation.  The system passes this value  to the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_control">AdapterControl</a> routine.
 
-### -param NumberOfMapRegisters 
+### -param NumberOfMapRegisters [in]
 
-[in]
+
 Specifies the number of map registers to be released. This value must match the number specified in an earlier call to <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_adapter_channel">AllocateAdapterChannel</a>.
 
 ## -remarks

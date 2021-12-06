@@ -52,21 +52,21 @@ The D3DDDIRECT structure defines a rectangle by the coordinates of its upper-lef
 
 ## -struct-fields
 
-### -field left
+### -field left [in]
 
-[in] The x-coordinate of the upper-left corner of the rectangle.
+The x-coordinate of the upper-left corner of the rectangle.
 
-### -field top
+### -field top [in]
 
-[in] The y-coordinate of the upper-left corner of the rectangle.
+The y-coordinate of the upper-left corner of the rectangle.
 
-### -field right
+### -field right [in]
 
-[in] The x-coordinate of the lower-right corner of the rectangle.
+The x-coordinate of the lower-right corner of the rectangle.
 
-### -field bottom
+### -field bottom [in]
 
-[in] The y-coordinate of the lower-right corner of the rectangle.
+The y-coordinate of the lower-right corner of the rectangle.
 
 ## -see-also
 

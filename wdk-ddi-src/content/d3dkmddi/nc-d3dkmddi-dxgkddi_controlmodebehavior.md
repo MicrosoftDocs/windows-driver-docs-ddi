@@ -47,13 +47,13 @@ The **DxgkDdiControlModeBehavior** function requests high-level mode enumeration
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] Handle to the WDDM display miniport adapter being queried.
+Handle to the WDDM display miniport adapter being queried.
 
-### -param pControlModeBehaviorArg
+### -param pControlModeBehaviorArg [in/out]
 
-[in/out] Pointer to a [DXGKARG_CONTROLMODEBEHAVIOR](ns-d3dkmddi-_dxgkarg_controlmodebehavior.md) structure that contains the display mode behaviors that the OS is requesting from the driver as input, and the results of the request as output.
+Pointer to a [DXGKARG_CONTROLMODEBEHAVIOR](ns-d3dkmddi-_dxgkarg_controlmodebehavior.md) structure that contains the display mode behaviors that the OS is requesting from the driver as input, and the results of the request as output.
 
 ## -returns
 

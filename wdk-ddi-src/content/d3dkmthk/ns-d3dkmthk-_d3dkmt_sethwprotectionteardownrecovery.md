@@ -48,14 +48,14 @@ Used to set the hardware protection tear down recovery.
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] A handle to the graphics adapter.
+A handle to the graphics adapter.
 
-### -field Recovered
+### -field Recovered [in]
 
  
-[in] Indicates whether the hardware protection teardown was recovered.
+Indicates whether the hardware protection teardown was recovered.
 
 ## -remarks
 

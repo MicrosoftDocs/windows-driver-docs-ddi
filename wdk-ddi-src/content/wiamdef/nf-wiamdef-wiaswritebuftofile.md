@@ -53,9 +53,9 @@ The <b>wiasWriteBufToFile</b> function writes from a specified buffer to an imag
 
 Specifies a set of operation flags. This parameter should be set to 0.
 
-### -param pmdtc 
+### -param pmdtc [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context">MINIDRV_TRANSFER_CONTEXT</a> structure.
 
 ## -returns

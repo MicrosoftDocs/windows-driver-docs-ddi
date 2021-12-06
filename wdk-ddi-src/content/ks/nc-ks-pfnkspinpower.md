@@ -49,14 +49,14 @@ An AVStream minidriver's <i>AVStrMiniPinPower</i> routine is called for pin-cent
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 Points to a pin-centric <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which to register the callback.
 
-### -param State 
+### -param State [in]
 
-[in]
+
 Specifies the device power state being requested. Set this parameter to one of the following DEVICE_POWER_STATE enumeration values: <b>PowerDeviceD0</b>, <b>PowerDeviceD1</b>, <b>PowerDeviceD2</b>, or <b>PowerDeviceD3</b>.
 
 ## -remarks

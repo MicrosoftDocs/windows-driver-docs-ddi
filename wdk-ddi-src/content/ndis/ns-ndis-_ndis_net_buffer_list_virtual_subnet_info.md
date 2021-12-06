@@ -57,9 +57,15 @@ Defines the group network virtualization information for a network buffer list (
 
 ### -field VirtualSubnetId
 
+The originating virtual switch port ID for the network buffer list.
+
 ### -field ReservedVsidBits
 
+This member is reserved and should be set to zero.
+
 ### -field Reserved
+
+This member is reserved and should be set to zero.
 
 ### -field Value
 
@@ -69,30 +75,6 @@ A member in the union that is contained in <b>NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNE
       <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. (See the <b>VirtualSubnetInfo</b> constant in the <a href="/windows-hardware/drivers/ddi/nblinfo/ne-nblinfo-ndis_net_buffer_list_info">NDIS_NET_BUFFER_LIST_INFO</a> enumeration.)
 
 
-#### - ( unnamed struct )
-
-A member in the union that is contained in <b>NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</b>. Ethernet
-      miniport drivers use 
-      this member to access the originating virtual switch port ID for the network buffer list. 
-      This member is a bit field with the following members:
-
-
-
-#### VirtualSubnetId
-
-The originating virtual switch port ID for the network buffer list.
-
-
-
-#### ReservedVsidBits
-
-This member is reserved and should be set to zero.
-
-
-
-#### Reserved
-
-This member is reserved and should be set to zero.
 
 ## -remarks
 

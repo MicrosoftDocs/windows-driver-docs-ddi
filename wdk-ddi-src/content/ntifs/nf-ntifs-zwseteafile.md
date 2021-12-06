@@ -49,24 +49,24 @@ The <b>ZwSetEaFile</b> routine sets extended-attribute (EA) values for a file.
 
 ## -parameters
 
-### -param FileHandle 
+### -param FileHandle [in]
 
-[in]
+
 The handle for the file on which the operation is to be performed.
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and other information about the requested operation.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to a caller-supplied, <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute values to be set.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Length, in bytes, of the buffer that the <i>Buffer</i> parameter points to.
 
 ## -returns

@@ -50,9 +50,9 @@ The <b>Copy</b> method sets the typed data represented by the <a href="/windows-
 
 ## -parameters
 
-### -param Typed 
+### -param Typed [in, ref]
 
-[in, ref]
+
 An existing <a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a> object that represents the typed data description to copy. This becomes the typed data represented by this object.
 
 ## -returns

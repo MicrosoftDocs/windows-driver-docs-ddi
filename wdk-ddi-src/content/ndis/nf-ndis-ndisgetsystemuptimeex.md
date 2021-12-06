@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param pSystemUpTime 
+### -param pSystemUpTime [out]
 
-[out]
+
 A pointer to a caller-supplied LARGE_INTEGER variable in which this function returns the time, in
      milliseconds, since the computer was last restarted.
 

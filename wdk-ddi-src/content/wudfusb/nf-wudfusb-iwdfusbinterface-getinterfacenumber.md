@@ -49,8 +49,6 @@ api_name:
 
 The <b>GetInterfaceNumber</b> method retrieves the index of a USB interface.
 
-## -parameters
-
 ## -returns
 
 <b>GetInterfaceNumber</b> returns the index of the USB interface.

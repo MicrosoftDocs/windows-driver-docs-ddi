@@ -50,19 +50,19 @@ Adds a new <b>BYTE</b>* value (type VT_VECTOR or VT_UI1) or overwrites an existi
 
 ## -parameters
 
-### -param key 
+### -param key [in]
 
-[in]
+
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
-### -param pValue 
+### -param pValue [in]
 
-[in]
+
 A pointer to a <b>BYTE</b> that contains the data to write to the item. The submitted buffer data is copied to the interface, so the caller can free this buffer after making this call.
 
-### -param cbValue 
+### -param cbValue [in]
 
-[in]
+
 The size of the value pointed to by <i>pValue</i>, in bytes.
 
 ## -returns

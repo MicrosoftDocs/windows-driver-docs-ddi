@@ -52,19 +52,19 @@ The
 
 ## -parameters
 
-### -param Lock 
+### -param Lock [in, out]
 
-[in, out]
+
 A pointer to an opaque variable that represents a lock. The caller can use this lock to access
      shared resources.
 
-### -param fWrite 
+### -param fWrite [in]
 
-[in]
+
 A Boolean value. If the value is <b>TRUE</b>, this function is provided with write access to shared
      resources; if the value is <b>FALSE</b>, this function is provided with read access.
 
-### -param _Requires_lock_not_held_
+### -param LockState [_out_]
 
 **LockState**. A pointer to an opaque variable that tracks the state of the lock. This variable exists in the
      interval between the time the caller acquires and releases the lock. The caller must use a different

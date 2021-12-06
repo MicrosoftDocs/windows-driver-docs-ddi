@@ -49,9 +49,9 @@ The <i>EvtSerCxFileOpen</i> event callback function notifies the serial controll
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 ## -returns

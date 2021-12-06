@@ -54,9 +54,9 @@ A protocol driver calls the
 
 ## -parameters
 
-### -param NdisProtocolHandle 
+### -param NdisProtocolHandle [in]
 
-[in]
+
 The handle returned by the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
      NdisRegisterProtocolDriver</a> function.

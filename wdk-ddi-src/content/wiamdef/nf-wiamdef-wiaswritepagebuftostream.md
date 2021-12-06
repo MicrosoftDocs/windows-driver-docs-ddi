@@ -49,14 +49,14 @@ The <b>wiasWritePageBufToStream</b> function writes the contents of a temporary 
 
 ## -parameters
 
-### -param pmdtc 
+### -param pmdtc [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context">MINIDRV_TRANSFER_CONTEXT</a> structure.
 
-### -param pstream 
+### -param pstream [in]
 
-[in]
+
 Pointer to the <b>IStream</b> data stream provided by the application. The <b>IStream</b> interface is described in the Microsoft Windows SDK documentation.
 
 ## -returns

@@ -49,14 +49,14 @@ The <b>RtlDeleteNoSplay</b> routine deletes the specified node from the splay li
 
 ## -parameters
 
-### -param Links 
+### -param Links [in]
 
-[in]
+
 A pointer to the node to be deleted. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
-### -param Root 
+### -param Root [in, out]
 
-[in, out]
+
 A pointer to the caller's pointer to the root node of the splay link tree. The caller's pointer is updated after the node is deleted.
 
 ## -returns

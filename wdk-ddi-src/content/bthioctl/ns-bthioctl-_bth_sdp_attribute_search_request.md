@@ -4,7 +4,7 @@ title: _BTH_SDP_ATTRIBUTE_SEARCH_REQUEST (bthioctl.h)
 description: The BTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure contains information pertinent to an SDP attribute search.
 old-location: bltooth\bth_sdp_attribute_search_request.htm
 tech.root: bltooth
-ms.date: 05/14/2021
+ms.date: 11/30/2021
 keywords: ["BTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure"]
 ms.keywords: "*PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], _BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bltooth.bth_sdp_attribute_search_request, bth_structs_7856642e-a720-490e-9240-d61ac6f257b4.xml, bthioctl/BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bthioctl/PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST"
 req.header: bthioctl.h
@@ -70,10 +70,6 @@ The record handle that is returned by the remote SDP server from a previous call
 
 A variable-length array of structures of type [SdpAttributeRange](</windows/win32/api/bthsdpdef/ns-bthsdpdef-sdpattributerange>) that contains the range of SDP attributes for which to search. The range array must be in ascending numeric order.
 
-#### - hConnection
-
-A handle to the remote SDP server that is returned by the [IOCTL\_BTH\_SDP\_CONNECT](</windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect>) IOCTL.
-
 ## -remarks
 
 This structure is passed as the input buffer to the [IOCTL\_BTH\_SDP\_ATTRIBUTE\_SEARCH](</windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_attribute_search>) IOCTL.
@@ -82,10 +78,7 @@ The Bluetooth driver stack determines the number of array items in the **range**
 
 ## -see-also
 
-[IOCTL\_BTH\_SDP\_ATTRIBUTE\_SEARCH](</windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_attribute_search>)
-
-[IOCTL\_BTH\_SDP\_CONNECT](</windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect>)
-
-[IOCTL\_BTH\_SDP\_SERVICE\_SEARCH](</windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_search>)
-
-[SdpAttributeRange](</windows/win32/api/bthsdpdef/ns-bthsdpdef-sdpattributerange>)
+- [IOCTL\_BTH\_SDP\_ATTRIBUTE\_SEARCH](</windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_attribute_search>)
+- [IOCTL\_BTH\_SDP\_CONNECT](</windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect>)
+- [IOCTL\_BTH\_SDP\_SERVICE\_SEARCH](</windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_search>)
+- [SdpAttributeRange](</windows/win32/api/bthsdpdef/ns-bthsdpdef-sdpattributerange>)

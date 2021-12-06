@@ -54,21 +54,21 @@ The **PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME** structure is used by the [PEP_DPM_
 
 ## -struct-fields
 
-### -field PlatformIdleStateIndex
+### -field PlatformIdleStateIndex [in]
 
-[in] The platform idle state index for the SoC subsystem that the OS is querying.
+The platform idle state index for the SoC subsystem that the OS is querying.
 
-### -field SubsystemHandle
+### -field SubsystemHandle [in]
 
-[in] A context pointer that the PEP previously provided on subsystem initialization. The context pointer is optional, so if none was provided then the value will be zero. The PEP is free to ignore this field.
+A context pointer that the PEP previously provided on subsystem initialization. The context pointer is optional, so if none was provided then the value will be zero. The PEP is free to ignore this field.
 
-### -field SubsystemName
+### -field SubsystemName [in]
 
-[in] The name of the subsystem whose blocking time is being queried.  This name was provided by the PEP on subsystem initialization.
+The name of the subsystem whose blocking time is being queried.  This name was provided by the PEP on subsystem initialization.
 
-### -field BlockingTime
+### -field BlockingTime [out]
 
-[out] The blocking time tallied for this subsystem in 100 nanosecond units since the previous [PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification](../index.yml).
+The blocking time tallied for this subsystem in 100 nanosecond units since the previous [PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification](../index.yml).
 
 ### -field Flags
 

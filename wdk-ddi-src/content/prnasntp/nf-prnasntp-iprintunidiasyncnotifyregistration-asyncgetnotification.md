@@ -49,7 +49,7 @@ Defines the **IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification** method.
 
 ### -param EQUALNULL
 
-#### - pCookie [in]
+### -param pCookie [in]
 
 ## -returns
 

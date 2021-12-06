@@ -51,7 +51,7 @@ api_name:
 
 ### -param SRB
 
-#### - pSRB [in]
+### -param pSRB [in]
 
 Pointer to the stream request block.
 

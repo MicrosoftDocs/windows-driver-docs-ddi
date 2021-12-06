@@ -142,9 +142,9 @@ This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
-### -field Value
+### -field Value [in]
 
-[in] A member in the union that is contained in <b>D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</b> that can hold one 32-bit value that identifies attributes of a synchronization object.
+A member in the union that is contained in <b>D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</b> that can hold one 32-bit value that identifies attributes of a synchronization object.
 
 ## -remarks
 

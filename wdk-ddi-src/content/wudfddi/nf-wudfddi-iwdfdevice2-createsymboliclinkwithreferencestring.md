@@ -51,14 +51,14 @@ The<b>CreateSymbolicLinkWithReferenceString</b> method creates a symbolic link n
 
 ## -parameters
 
-### -param pSymbolicLink 
+### -param pSymbolicLink [in]
 
-[in]
+
 A pointer to a <b>NULL</b>-terminated character string that becomes the user-visible name of the device. The symbolic link name must be in the global <b>DosDevices</b> namespace.
 
-### -param pReferenceString 
+### -param pReferenceString [in, optional]
 
-[in, optional]
+
 A pointer to a <b>NULL</b>-terminated character string that Windows appends to the device name when an application uses the symbolic name that the <i>pSymbolicLink</i> parameter specifies. For more information, see the following Remarks section. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

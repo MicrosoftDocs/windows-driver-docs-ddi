@@ -49,9 +49,9 @@ The <b>GetPrintTicket</b> method gets the print ticket object for the fixed docu
 
 ## -parameters
 
-### -param ppPrintTicket 
+### -param ppPrintTicket [out]
 
-[out]
+
 The print ticket object for the fixed document.
 
 ## -returns

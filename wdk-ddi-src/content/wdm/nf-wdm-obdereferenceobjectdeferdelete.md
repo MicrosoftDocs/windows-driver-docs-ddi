@@ -49,9 +49,9 @@ The <b>ObDereferenceObjectDeferDelete</b> routine decrements the reference count
 
 ## -parameters
 
-### -param Object 
+### -param Object [in]
 
-[in]
+
 A pointer to the body of the object.
 
 ## -remarks

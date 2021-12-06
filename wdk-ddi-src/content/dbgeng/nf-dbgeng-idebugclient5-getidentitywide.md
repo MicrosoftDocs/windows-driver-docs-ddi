@@ -49,19 +49,19 @@ The <b>GetIdentityWide</b> method returns a string describing the computer and u
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Specifies the buffer to receive the string.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size of the buffer <i>Buffer</i>.
 
-### -param IdentitySize 
+### -param IdentitySize [out, optional]
 
-[out, optional]
+
 Receives the size of the string. If <i>IdentitySize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

@@ -52,21 +52,21 @@ Describes a keyed mutex that the <a href="/windows-hardware/drivers/ddi/d3dkmthk
 
 ## -struct-fields
 
-### -field hSharedHandle
+### -field hSharedHandle [in]
 
-[in] A D3DKMT_HANDLE data type that represents a global handle to a keyed mutex.
+A D3DKMT_HANDLE data type that represents a global handle to a keyed mutex.
 
-### -field hKeyedMutex
+### -field hKeyedMutex [out]
 
-[out] A D3DKMT_HANDLE data type that represents a handle to the keyed mutex in this process.
+A D3DKMT_HANDLE data type that represents a handle to the keyed mutex in this process.
 
-### -field pPrivateRuntimeData
+### -field pPrivateRuntimeData [in]
 
-[in] A buffer that contains initial private data. This buffer is copied only if the keyed mutex does not already have private data.
+A buffer that contains initial private data. This buffer is copied only if the keyed mutex does not already have private data.
 
-### -field PrivateRuntimeDataSize
+### -field PrivateRuntimeDataSize [in]
 
-[in] The size, in bytes, of the <b>pPrivateRuntimeData</b> member.
+The size, in bytes, of the <b>pPrivateRuntimeData</b> member.
 
 ## -see-also
 

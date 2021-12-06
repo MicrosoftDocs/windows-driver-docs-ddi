@@ -50,29 +50,29 @@ The<b> KsCreateDevice </b>function creates an AVStream device.
 
 ## -parameters
 
-### -param DriverObject 
+### -param DriverObject [in]
 
-[in]
+
 A pointer to the WDM driver object of the minidriver.
 
-### -param PhysicalDeviceObject 
+### -param PhysicalDeviceObject [in]
 
-[in]
+
 A pointer to the WDM physical device object for the device you want to create under AVStream.
 
-### -param Descriptor 
+### -param Descriptor [in, optional]
 
-[in, optional]
+
 A pointer to a device descriptor that describes the characteristics of the device being created. If the caller does not specify this optional parameter, AVStream creates a device with default characteristics and no associated filter factories.
 
-### -param ExtensionSize 
+### -param ExtensionSize [in]
 
-[in]
+
 This parameter contains the size of the device extension. If this is zero, the default extension size is used. If not, it must be at least sizeof (KSDEVICE_HEADER).
 
-### -param Device 
+### -param Device [out, optional]
 
-[out, optional]
+
 A pointer to a memory location that contains the address of the created <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure. Optional.
 
 ## -returns

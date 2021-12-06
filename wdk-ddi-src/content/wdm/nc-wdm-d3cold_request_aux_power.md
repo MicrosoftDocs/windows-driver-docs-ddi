@@ -45,17 +45,17 @@ Enables the function device object (FDO) to convey its auxiliary power requireme
 
 ## -parameters
 
-### -param Context
+### -param Context [_In_reads_opt_(_Inexpressible_("varies"))]
 
-[_In_reads_opt_(_Inexpressible_("varies"))] The handle to the device.
+The handle to the device.
 
-### -param AuxPowerInMilliWatts
+### -param AuxPowerInMilliWatts [_In_]
 
-[_In_] The wattage in units of mW that the device needs for D3cold when the system is in S0. This value must be less than 0x80000000.
+The wattage in units of mW that the device needs for D3cold when the system is in S0. This value must be less than 0x80000000.
 
-### -param RetryInSeconds 
+### -param RetryInSeconds [_Out_]
 
-[_Out_] A pointer to a ULONG variable that receives the number of seconds the driver can retry its request when the request fails with STATUS_RETRY.
+A pointer to a ULONG variable that receives the number of seconds the driver can retry its request when the request fails with STATUS_RETRY.
 
 ## -returns
 

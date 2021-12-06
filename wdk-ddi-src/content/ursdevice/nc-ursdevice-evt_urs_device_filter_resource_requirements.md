@@ -49,24 +49,24 @@ The USB dual-role class extension invokes this callback to allow the client driv
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to the framework device object that the client driver retrieved in the previous call to <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
-### -param IoResourceRequirementsList 
+### -param IoResourceRequirementsList [in]
 
-[in]
+
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
-### -param HostRoleResources 
+### -param HostRoleResources [in]
 
-[in]
+
 A handle to a resource list for the controller device when it is operating in host mode.
 
-### -param FunctionRoleResources 
+### -param FunctionRoleResources [in]
 
-[in]
+
 A handle to a resource list for the controller when it is operating in function mode.
 
 ## -returns

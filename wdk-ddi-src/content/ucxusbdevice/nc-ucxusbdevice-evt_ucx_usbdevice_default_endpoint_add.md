@@ -49,24 +49,24 @@ The client driver's implementation that UCX calls to add a new default endpoint 
 
 ## -parameters
 
-### -param UcxController 
+### -param UcxController [in]
 
-[in]
+
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
-### -param UcxUsbDevice 
+### -param UcxUsbDevice [in]
 
-[in]
+
 A handle to a UCX object that represents the USB device.
 
-### -param MaxPacketSize 
+### -param MaxPacketSize [in]
 
-[in]
+
 Maximum packet size for transfers on this endpoint.
 
 ### -param UcxEndpointInit
 
-#### - EndpointInit [in]
+### -param EndpointInit [in]
 
 A pointer to an opaque structure containing initialization
         information.  Callbacks for the endpoint object are associated with this

@@ -51,21 +51,21 @@ The **CcZeroData** routine zeros the specified range of bytes in a cached or non
 
 ## -parameters
 
-### -param FileObject
+### -param FileObject [in]
 
-[in] A pointer to a [**FILE_OBJECT**](../wdm/ns-wdm-_file_object.md) for the file in which a range of bytes is to be zeroed.
+A pointer to a [**FILE_OBJECT**](../wdm/ns-wdm-_file_object.md) for the file in which a range of bytes is to be zeroed.
 
-### -param StartOffset
+### -param StartOffset [in]
 
-[in] A pointer to a variable that specifies the byte offset within the file to the first byte that is to be zeroed.
+A pointer to a variable that specifies the byte offset within the file to the first byte that is to be zeroed.
 
-### -param EndOffset
+### -param EndOffset [in]
 
-[in] A pointer to a variable that specifies the byte offset within the file to the last byte that is to be zeroed.
+A pointer to a variable that specifies the byte offset within the file to the last byte that is to be zeroed.
 
-### -param Wait
+### -param Wait [in]
 
-[in] Set to **TRUE** if the caller should be put into a wait state until the entire byte range has been zeroed. Otherwise, this parameter is set to **FALSE**.
+Set to **TRUE** if the caller should be put into a wait state until the entire byte range has been zeroed. Otherwise, this parameter is set to **FALSE**.
 
 ## -returns
 

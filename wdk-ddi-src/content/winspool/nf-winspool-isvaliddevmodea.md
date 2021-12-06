@@ -52,14 +52,14 @@ The print spooler's <code>IsValidDevmode</code> function verifies that the conte
 
 ## -parameters
 
-### -param pDevmode 
+### -param pDevmode [in, optional]
 
-[in, optional]
+
 Pointer to the DEVMODE structure to be validated.
 
 ### -param DevmodeSize
 
-#### - DevModeSize
+### -param DevModeSize
 
 Size, in bytes, of the buffer pointed to by <i>pDevmode</i>.
 

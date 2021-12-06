@@ -49,29 +49,29 @@ The <i>DxgkDdiStartDevice</i> function prepares a display adapter to receive I/O
 
 ## -parameters
 
-### -param MiniportDeviceContext 
+### -param MiniportDeviceContext [in]
 
-[in]
+
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
-### -param DxgkStartInfo 
+### -param DxgkStartInfo [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_start_info">DXGK_START_INFO</a> structure that contains information that the display miniport driver needs for initialization.
 
-### -param DxgkInterface 
+### -param DxgkInterface [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that contains pointers to functions, implemented by the DirectX graphics kernel subsystem, that the display miniport driver can call.
 
-### -param NumberOfVideoPresentSources 
+### -param NumberOfVideoPresentSources [out]
 
-[out]
+
 A pointer to a <b>ULONG</b> variable that receives the number of video present sources supported by the display adapter. For more information about video present sources, see <a href="/windows-hardware/drivers/display/multiple-monitors-and-video-present-networks">Multiple Monitors and Video Present Networks</a>.
 
-### -param NumberOfChildren 
+### -param NumberOfChildren [out]
 
-[out]
+
 A pointer to a <b>ULONG</b> variable that receives the total number of devices that are children of the display adapter represented by <i>MiniportDeviceContext</i>. This count must include potential child devices as well as child devices that are currently present. For example, if docking a portable computer will make additional video outputs available, those video outputs must be counted regardless of whether the portable computer is currently docked. For more information about child devices, see <a href="/windows-hardware/drivers/display/child-devices-of-the-display-adapter">Child Devices of the Display Adapter</a>.
 
 ## -returns

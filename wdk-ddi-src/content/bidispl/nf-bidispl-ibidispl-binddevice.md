@@ -49,14 +49,14 @@ The <b>BindDevice</b> method binds a printer to a bidi request. This method is s
 
 ## -parameters
 
-### -param pszDeviceName 
+### -param pszDeviceName [in]
 
-[in]
+
 A pointer to a null-terminated string that contains name of the printer or print server. If <b>NULL</b>, it indicates the local printer server.
 
-### -param dwAccess 
+### -param dwAccess [in]
 
-[in]
+
 The access privileges for the printer. This parameter can be one of the following values.
 
 <table>

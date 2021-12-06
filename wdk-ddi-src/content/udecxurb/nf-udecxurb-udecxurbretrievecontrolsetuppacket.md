@@ -50,14 +50,14 @@ Retrieves a USB control setup packet from  a specified framework request object.
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object that represents the request containing the setup packet.
 
-### -param SetupPacket 
+### -param SetupPacket [out]
 
-[out]
+
 A <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_control_setup_packet">WDF_USB_CONTROL_SETUP_PACKET</a> structure that receives a setup packet describing the USB control transfer.
 
 ## -returns

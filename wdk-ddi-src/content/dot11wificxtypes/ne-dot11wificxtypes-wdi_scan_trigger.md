@@ -1,17 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_SCAN_TRIGGER
 tech.root: netvista
-title: WDI_SCAN_TRIGGER
-ms.date: 04/30/2021
+title: WDI_SCAN_TRIGGER (dot11wificxtypes.h)
+ms.date: 06/23/2021
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WDI_SCAN_TRIGGER enumeration for internal use only. Don't use this enumeration in your code."
+description: The WDI_SCAN_TRIGGER enum defines scan trigger values.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 11Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -36,42 +37,45 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!IMPORTANT]
+> This topic is part of the [WiFiCx driver model](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx). WiFiCx is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features. The previous Wi-Fi driver model [WDI](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) is in maintenance mode and will only receive high priority fixes.
 
-This function is reserved for system use and should not be called in your code.
+The **WDI_SCAN_TRIGGER** enumeration defines scan trigger values.
 
 ## -enum-fields
 
 ### -field WDI_SCAN_TRIGGER_MANUAL
 
-Reserved.
+The scan was initiated due to a user or application trigger. If this is set, the port must perform a complete scan on all supported channels.
 
 ### -field WDI_SCAN_TRIGGER_BACKGROUND
 
-Reserved.
+The scan was initiated due to some background activity. If this is set, the port can perform a complete scan, a partial scan on a subset of supported channels, or no scan.
 
 ### -field WDI_SCAN_TRIGGER_ROAM
 
-Reserved.
+The scan was initiated for roaming purposes. If the adapter was doing background scans internally and has recent results, it can perform only a subset or no scan. If it does not have recent results, it should perform an appropriate scan.
 
 ### -field WDI_SCAN_TRIGGER_CONNECT
 
-Reserved.
+The scan was initiated for connecting. This connect may be a first time connect or a connect after a disconnection. The port must always honor this request to perform a scan.
 
 ### -field WDI_SCAN_TRIGGER_ANQP_QUERY
 
-Reserved.
+The scan was initiated for performing an ANQP query.
 
 ### -field WDI_SCAN_TRIGGER_FAST_ROAM
 
-Reserved.
+The scan was initiated for roaming purposes, and the host has additional information (for example, neighbor reports or instant connect last channel) to put in specific values in the scan request (such as SSID, BSSID, or band channel).
 
 ### -field WDI_SCAN_TRIGGER_FTM
 
-Reserved.
+The scan was initiated to search for FTM enabled STAs and the host has additional information (such as channel, BSSID, etc). The port must always honor this request to perform a scan.
 
 ## -remarks
 
+The **WDI_SCAN_TRIGGER** enum is a value in the [**WDI_TLV_SCAN_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-scan-mode) TLV.
+
 ## -see-also
 
+[**WDI_TLV_SCAN_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-scan-mode)

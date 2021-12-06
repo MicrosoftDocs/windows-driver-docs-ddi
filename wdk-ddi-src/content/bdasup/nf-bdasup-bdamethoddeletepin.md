@@ -52,9 +52,9 @@ The <b>BdaMethodDeletePin</b> function deletes a pin factory.
 
 ### -param pIrp
 
-### -param pKSMethod 
+### -param pKSMethod [in]
 
-[in]
+
 Points to a <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a> structure that describes the method and request type of a method request.
 
 ### -param pvIgnored
@@ -62,7 +62,7 @@ Points to a <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETH
 Points to a buffer that is ignored.
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Points to the IRP for the request to delete a pin factory. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksmethod-bda-delete-pin-factory">KSMETHOD_BDA_DELETE_PIN_FACTORY</a> request.
 

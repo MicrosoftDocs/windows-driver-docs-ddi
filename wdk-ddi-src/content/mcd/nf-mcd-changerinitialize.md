@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object created by the changer class driver to represent this changer.
 
 ## -returns

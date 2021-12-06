@@ -49,9 +49,9 @@ The <b>GetPseudoValues</b> method returns the values of a number of pseudo-regis
 
 ## -parameters
 
-### -param Source 
+### -param Source [in]
 
-[in]
+
 Specifies the register source to query.
 
 The possible values are listed in the following table.
@@ -95,24 +95,24 @@ Fetch register information from the current scope's register context.
 </tr>
 </table>
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of pseudo-registers whose values are being requested.
 
-### -param Indices 
+### -param Indices [in, optional]
 
-[in, optional]
+
 Specifies an array of indices of pseudo-registers whose values will be returned.  The size of <i>Indices</i> is <i>Count</i>.  If <i>Indices</i> is <b>NULL</b>, <i>Start</i> is used to specify the indices instead.
 
-### -param Start 
+### -param Start [in]
 
-[in]
+
 Specifies the index of the first pseudo-register whose value will be returned.  The pseudo-registers, with indices between <i>Start</i> and <i>Start</i> plus <i>Count</i> minus one, will be returned.  <i>Start</i> is only used if <i>Indices</i> is <b>NULL</b>.
 
-### -param Values 
+### -param Values [out]
 
-[out]
+
 Receives the values of the specified pseudo-registers.  The number of elements that this array holds is <i>Count</i>.  See <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> for a description of this parameter type.
 
 ## -returns

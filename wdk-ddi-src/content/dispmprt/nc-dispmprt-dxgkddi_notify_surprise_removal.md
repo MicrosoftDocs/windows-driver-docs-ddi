@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param MiniportDeviceContext 
+### -param MiniportDeviceContext [in]
 
-[in]
+
 A handle to a context block associated with a display adapter. The display miniport driver's [**DxgkDdiAddDevice**](nc-dispmprt-dxgkddi_add_device.md) function previously provided this handle to the DirectX graphics kernel subsystem.
 
-### -param RemovalType 
+### -param RemovalType [in]
 
-[in]
+
 A value of type [**DXGK_SURPRISE_REMOVAL_TYPE**](ne-dispmprt-_dxgk_surprise_removal_type.md) that identifies the type of surprise removal event.
 
 ## -returns

@@ -49,9 +49,9 @@ The D3D11DDI_3DPIPELINESUPPORT_CAPS structure contains display device pipeline c
 
 ## -struct-fields
 
-### -field Caps
+### -field Caps [in]
 
-[in] A value that identifies the pipeline capabilities of the driver.
+A value that identifies the pipeline capabilities of the driver.
 
 ## -remarks
 

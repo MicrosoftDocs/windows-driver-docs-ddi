@@ -49,24 +49,24 @@ The <i>DpcForIsr</i> routine finishes the servicing of an I/O operation, after a
 
 ## -parameters
 
-### -param Dpc 
+### -param Dpc [in]
 
-[in]
+
 Caller-supplied pointer to a <a href="/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure, which represents the DPC object that is associated with this <i>DpcForIsr</i> routine.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure that describes the I/O operation.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iorequestdpc">IoRequestDpc</a>.
 
 ## -remarks

@@ -76,7 +76,7 @@ Contains the status of the SCSI inquiry command.
 Contains the results of the SCSI inquiry command. 
 
 
-#### - SenseBuffer
+### -field SenseBuffer
 
 Contains the SCSI sense data that results from the SCSI inquiry command.
 

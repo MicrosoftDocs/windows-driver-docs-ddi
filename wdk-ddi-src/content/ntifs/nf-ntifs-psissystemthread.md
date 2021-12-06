@@ -49,9 +49,9 @@ The <b>PsIsSystemThread</b> routine checks whether a given thread is a system th
 
 ## -parameters
 
-### -param Thread 
+### -param Thread [in]
 
-[in]
+
 Pointer to the thread to be checked.
 
 ## -returns

@@ -50,60 +50,60 @@ The <b>KsStreamIo</b> function performs a stream read or write against the speci
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Specifies the file object to perform the I/O against.
 
-### -param Event 
+### -param Event [in, optional]
 
-[in, optional]
+
 Optionally contains the event to use in the I/O. If none is passed, the call is assumed to be on a synchronous file object or the caller is waiting for the file object's event, or else it can be asynchronously completed. If used, and the KSSTREAM_SYNCHRONOUS flag is not set, this must be an event allocated by the object manager. If the caller is performing asynchronous I/O, it must either wait for the file object's event or pass an event in this parameter and wait for it. If this is not done, then there is no way for the caller to know when the IoStatusBlock has been updated by the call.
 
-### -param PortContext 
+### -param PortContext [in, optional]
 
-[in, optional]
+
 Optionally contains context information for a completion port.
 
-### -param CompletionRoutine 
+### -param CompletionRoutine [in, optional]
 
-[in, optional]
+
 Optionally points to a completion routine for this IRP.
 
-### -param CompletionContext 
+### -param CompletionContext [in, optional]
 
-[in, optional]
+
 If <i>CompletionRoutine</i> is specified, this provides a context pointer in the completion routine callback.
 
 ### -param OPTIONAL
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
+
 Location to return the status information. This is always assumed to be a valid address, regardless of the requester mode. The value must remain valid until the call has updated the status. The caller must either perform synchronous I/O or must wait for the file object's event or an event passed in the Event parameter before allowing this address to become invalid.
 
-### -param StreamHeaders 
+### -param StreamHeaders [in, out]
 
-[in, out]
+
 Specifies the list of stream headers. This address, as well as the addresses of the data buffers, are assumed to have been probed for appropriate access. Kernel-mode clients submitting streaming headers must allocate the headers from NonPagedPool memory.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the size of the <i>StreamHeaders</i> passed.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies various flags for the I/O. See the following table for the values used.
 
-### -param RequestorMode 
+### -param RequestorMode [in]
 
-[in]
+
 Indicates the processor mode to place in the IRP if one is needs to be generated. This variable also determines if a fast I/O call can be performed. If the requester mode is not kernel mode, but the previous mode is, then fast I/O cannot be used.
 
 
-#### - CompletionInvocationFlags [in, optional]
+### -param CompletionInvocationFlags [in, optional]
 
 Specifies invocation flags specifying when the completion routine is invoked. See following table for the values used.
 

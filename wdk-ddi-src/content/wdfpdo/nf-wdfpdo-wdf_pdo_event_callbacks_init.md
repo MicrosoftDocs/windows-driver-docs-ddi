@@ -51,9 +51,9 @@ The <b>WDF_PDO_EVENT_CALLBACKS_INIT</b> function initializes a <a href="/windows
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [out]
 
-[out]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfpdo/ns-wdfpdo-_wdf_pdo_event_callbacks">WDF_PDO_EVENT_CALLBACKS</a> structure.
 
 ## -remarks

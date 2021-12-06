@@ -52,14 +52,14 @@ The <b>FsRtlOplockKeysEqual</b> routine compares the opportunistic lock (oplock)
 
 ## -parameters
 
-### -param Fo1 
+### -param Fo1 [in, optional]
 
-[in, optional]
+
 A pointer to the first file object for the comparison.
 
-### -param Fo2 
+### -param Fo2 [in, optional]
 
-[in, optional]
+
 A pointer to the second file object for the comparison.
 
 ## -returns

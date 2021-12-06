@@ -52,25 +52,25 @@ Provides information on the current processes in which output duplication is occ
 
 ## -struct-fields
 
-### -field Size
+### -field Size [in/out]
 
-[in/out] The size, in bytes, of the entire structure.
+The size, in bytes, of the entire structure.
 
-### -field SessionProcessCount
+### -field SessionProcessCount [out]
 
-[out] The number of processes in this session that are currently duplicating output. The value of <b>NumOutputDuplContexts</b> specifies the maximum possible number of processes.
+The number of processes in this session that are currently duplicating output. The value of <b>NumOutputDuplContexts</b> specifies the maximum possible number of processes.
 
-### -field SessionActiveConnectionsCount
+### -field SessionActiveConnectionsCount [out]
 
-[out] The total number of active contexts in this session. The value may be more than the number of active contexts in the 2-D array, which are per adapter.
+The total number of active contexts in this session. The value may be more than the number of active contexts in the 2-D array, which are per adapter.
 
-### -field NumVidPnSources
+### -field NumVidPnSources [out]
 
-[out] The number of video present network (VidPN) sources.
+The number of video present network (VidPN) sources.
 
-### -field NumOutputDuplContexts
+### -field NumOutputDuplContexts [out]
 
-[out] The number of contexts in which output duplication is occurring.
+The number of contexts in which output duplication is occurring.
 
 ### -field OutputDuplDebugInfos
 

@@ -49,9 +49,9 @@ The <b>RtlGetCompressionWorkSpaceSize</b> function is used to determine the corr
 
 ## -parameters
 
-### -param CompressionFormatAndEngine 
+### -param CompressionFormatAndEngine [in]
 
-[in]
+
 Bitmask specifying the compression format and engine type. This parameter must be set to a valid bitwise OR combination of one format type and one engine type. For example, COMPRESSION_FORMAT_LZNT1 | COMPRESSION_ENGINE_STANDARD.
 
 The meanings of these, and other related values, are as follows:
@@ -143,14 +143,14 @@ Not supported by this function.
 </tr>
 </table>
 
-### -param CompressBufferWorkSpaceSize 
+### -param CompressBufferWorkSpaceSize [out]
 
-[out]
+
 A pointer to a caller-allocated buffer receiving the size, in bytes, required to compress a buffer. This value is used to determine the correct size of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer">RtlCompressBuffer</a>'s <i>WorkSpace</i> buffer.
 
-### -param CompressFragmentWorkSpaceSize 
+### -param CompressFragmentWorkSpaceSize [out]
 
-[out]
+
 A pointer to a caller-allocated buffer receiving the size, in bytes, required to decompress a compressed buffer to a fragment. This value is used to determine the correct size of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragment">RtlDecompressFragment</a>'s <i>WorkSpace</i> buffer. Note that the <b>RtlCompressFragment</b> function does not currently exist.
 
 ## -returns

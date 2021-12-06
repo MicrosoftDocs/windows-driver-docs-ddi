@@ -49,9 +49,9 @@ The <b>RtlDecompressFragmentEx</b> function is used to decompress part of a comp
 
 ## -parameters
 
-### -param CompressionFormat 
+### -param CompressionFormat [in]
 
-[in]
+
 Bitmask specifying the compression format of the compressed buffer. This parameter must be set to COMPRESSION_FORMAT_LZNT1. The meaning of this and other related compression format values are as follows:
 
 <table>
@@ -91,44 +91,44 @@ Specifies that compression should be performed. This value is required.
 </tr>
 </table>
 
-### -param UncompressedFragment 
+### -param UncompressedFragment [out]
 
-[out]
+
 Pointer to a caller-allocated buffer (allocated from paged or non-paged pool) receiving the decompressed data from <i>CompressedBuffer</i>. This parameter is required and cannot be <b>NULL</b>.
 
-### -param UncompressedFragmentSize 
+### -param UncompressedFragmentSize [in]
 
-[in]
+
 The size, in bytes, of the <i>UncompressedFragment</i> buffer.
 
-### -param CompressedBuffer 
+### -param CompressedBuffer [in]
 
-[in]
+
 A pointer to the buffer containing the data to decompress. This parameter is required and cannot be <b>NULL</b>.
 
-### -param CompressedBufferSize 
+### -param CompressedBufferSize [in]
 
-[in]
+
 The size, in bytes, of the <i>CompressedBuffer</i> buffer.
 
-### -param FragmentOffset 
+### -param FragmentOffset [in]
 
-[in]
+
 The zero-based offset, in bytes, where the uncompressed fragment is being extract from. This offset value is the position within the original uncompressed buffer.
 
-### -param UncompressedChunkSize 
+### -param UncompressedChunkSize [in]
 
-[in]
+
 The size, in bytes, of each chunk within the compression buffer.  Valid values are 512, 1024, 2048 and 4096.
 
-### -param FinalUncompressedSize 
+### -param FinalUncompressedSize [out]
 
-[out]
+
 A pointer to a caller-allocated variable which receives the size, in bytes, of the decompressed data stored in <i>UncompressedFragment</i>. This parameter is required and cannot be <b>NULL</b>.
 
-### -param WorkSpace 
+### -param WorkSpace [in]
 
-[in]
+
 A pointer to a caller-allocated work space buffer used by the <b>RtlDecompressFragmentEx</b> function during decompression. Use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetcompressionworkspacesize">RtlGetCompressionWorkSpaceSize</a> function to determine the correct work space buffer size.
 
 ## -returns

@@ -51,9 +51,9 @@ api_name:
 
 ### -param dwIndex
 
-### -param pData 
+### -param pData [in]
 
-[in]
+
 
 ### -param cbSize
 

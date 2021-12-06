@@ -50,13 +50,13 @@ A kernel-mode display miniport driver calls **DXGKCB_MULTIPLANEOVERLAYDISABLED**
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] Handle to the adapter on which the current MPO hardware configuration is no longer supported.
+Handle to the adapter on which the current MPO hardware configuration is no longer supported.
 
-### -param VidPnSourceId
+### -param VidPnSourceId [in]
 
-[in] The *VidPnSourceId* on which the current MPO hardware configuration is no longer supported.
+The *VidPnSourceId* on which the current MPO hardware configuration is no longer supported.
 
 ## -returns
 

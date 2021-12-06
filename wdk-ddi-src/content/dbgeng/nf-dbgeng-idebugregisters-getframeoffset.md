@@ -49,9 +49,9 @@ The <b>GetFrameOffset</b> method returns the location of the stack frame for the
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [out]
 
-[out]
+
 The location in the target's virtual address space of the stack frame for the current function.
 
 ## -returns

@@ -56,13 +56,13 @@ The **NetAdapterOffloadSetGsoCapabilities** function sets the hardware [Generic 
 
 ## -parameters
 
-### -param Adapter
+### -param Adapter [_In_]
 
-[_In_] A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
+A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
-### -param HardwareCapabilities
+### -param HardwareCapabilities [_In_]
 
-[_In_] A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md) structure that describes the hardware's GSO capabilities.
+A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_gso_capabilities.md) structure that describes the hardware's GSO capabilities.
 
 ## -remarks
 

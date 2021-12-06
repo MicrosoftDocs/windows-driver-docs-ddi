@@ -51,18 +51,18 @@ The <code>InitializeFilter</code> method initializes a filter.
 
 ### -param pINegotiation
 
-### -param pIPropertyBag 
+### -param pIPropertyBag [in]
 
-[in]
+
 A pointer to the<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag">IPrintPipelinePropertyBag</a> interface.
 
-### -param pIPipelineControl 
+### -param pIPipelineControl [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinemanagercontrol">IPrintPipelineManagerControl</a> interface.
 
 
-#### - pICommunicator [in]
+### -param pICommunicator [in]
 
 A pointer to the <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iinterfiltercommunicator">IInterFilterCommunicator</a> interface.
 

@@ -52,17 +52,17 @@ The D3DDDIARG_DECODEEXECUTE structure describes a Microsoft DirectX Video Accele
 
 ## -struct-fields
 
-### -field hDecode
+### -field hDecode [in]
 
-[in] A handle to the DirectX VA decode device. The user-mode display driver returns this handle in a call to its <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createdecodedevice">CreateDecodeDevice</a> function.
+A handle to the DirectX VA decode device. The user-mode display driver returns this handle in a call to its <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createdecodedevice">CreateDecodeDevice</a> function.
 
-### -field NumCompBuffers
+### -field NumCompBuffers [in]
 
-[in] The number of compressed buffer that are pointed to by the <b>pCompressedBuffers</b> member.
+The number of compressed buffer that are pointed to by the <b>pCompressedBuffers</b> member.
 
-### -field pCompressedBuffers
+### -field pCompressedBuffers [in]
 
-[in] A pointer to a list of <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_decodebufferdesc">DXVADDI_DECODEBUFFERDESC</a> structures that describe the compressed buffers that are passed from the host decoder to the accelerator.
+A pointer to a list of <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_decodebufferdesc">DXVADDI_DECODEBUFFERDESC</a> structures that describe the compressed buffers that are passed from the host decoder to the accelerator.
 
 ## -see-also
 

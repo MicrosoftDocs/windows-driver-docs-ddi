@@ -51,13 +51,13 @@ UCX invokes this callback function to set the priority on an endpoint.
 
 ### -param UcxEndpoint
 
-### -param UcxEndpointCharacteristic 
+### -param UcxEndpointCharacteristic [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_ucx_endpoint_characteristic">UCX_ENDPOINT_CHARACTERISTIC</a> structure that contains endpoint characteristics.
 
 
-#### - Endpoint [in]
+### -param Endpoint [in]
 
 A handle to a UCXENDPOINT object that represents the endpoint.
 

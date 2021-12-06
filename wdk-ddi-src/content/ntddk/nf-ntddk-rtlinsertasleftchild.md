@@ -49,14 +49,14 @@ The <b>RtlInsertAsLeftChild</b> routine inserts a splay link node into the tree 
 
 ## -parameters
 
-### -param ParentLinks 
+### -param ParentLinks [in]
 
-[in]
+
 Pointer to the node in the tree at which <i>ChildLinks</i> should be inserted as the left child.
 
-### -param ChildLinks 
+### -param ChildLinks [in]
 
-[in]
+
 Pointer to the splay link node to be inserted into the tree. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
 ## -remarks

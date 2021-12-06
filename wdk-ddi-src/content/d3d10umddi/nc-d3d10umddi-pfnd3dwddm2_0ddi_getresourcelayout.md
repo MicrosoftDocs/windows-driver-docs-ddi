@@ -77,9 +77,9 @@ A kernel handle.
 
 A pointer to a texture layout.
 
-### -param pMipLevelSwizzleTransition 
+### -param pMipLevelSwizzleTransition [out]
 
-[out]
+
 A pointer to a MIP level swizzle transition.
 
 ### -param unnamedParam7

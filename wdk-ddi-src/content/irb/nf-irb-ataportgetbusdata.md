@@ -51,24 +51,24 @@ The <b>AtaPortGetBusData</b> routine retrieves data from the location that is sp
 
 ## -parameters
 
-### -param ControllerExtension 
+### -param ControllerExtension [in]
 
-[in]
+
 A pointer to the HBA controller extension.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to the buffer where the retrieved data is returned.
 
-### -param ConfigDataOffset 
+### -param ConfigDataOffset [in]
 
-[in]
+
 Specifies an offset into the device's PCI bus configuration space where the return value is found.
 
-### -param BufferLength 
+### -param BufferLength [in]
 
-[in]
+
 Specifies the length, in bytes, of the buffer.
 
 ## -returns

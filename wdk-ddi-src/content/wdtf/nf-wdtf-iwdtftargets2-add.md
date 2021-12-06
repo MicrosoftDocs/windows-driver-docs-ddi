@@ -49,9 +49,9 @@ Add a single item to the collection.
 
 ## -parameters
 
-### -param pTarget 
+### -param pTarget [in]
 
-[in]
+
 The item to add to this collection.
 
 ## -returns

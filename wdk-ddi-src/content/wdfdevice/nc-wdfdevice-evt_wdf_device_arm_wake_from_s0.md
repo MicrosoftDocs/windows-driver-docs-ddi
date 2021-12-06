@@ -51,9 +51,9 @@ A driver's <i>EvtDeviceArmWakeFromS0</i> event callback function arms (that is, 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
 ## -returns

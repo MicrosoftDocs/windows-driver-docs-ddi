@@ -55,9 +55,9 @@ The <b>PEP_SOC_SUBSYSTEM_METADATA</b> structure contains key-value pairs that co
 
 ## -struct-fields
 
-### -field Key
+### -field Key [in/out]
 
-[in/out]  A buffer for the PEP to write the key portion of the metadata string-pair.  <b>Key</b> must be unique among all <b>Key</b> values reported by this subsystem.  
+ A buffer for the PEP to write the key portion of the metadata string-pair.  <b>Key</b> must be unique among all <b>Key</b> values reported by this subsystem.  
 
 
 
@@ -74,9 +74,9 @@ Prior to exit from the callback routine, the PEP must copy a null-terminated str
 The PEP must use the allocated memory that is pointed to by the address in <b>Key.Buffer</b> to provide the key. 
 Since this memory is pre-allocated, its size cannot be changed. The PEP is responsible for truncating the key string, if necessary, so that it does not exceed the length specified in <b>Key.MaximumLength</b> (including the terminating <b>UNICODE_NULL</b> character).
 
-### -field Value
+### -field Value [in/out]
 
-[in/out] A buffer for the PEP to write the value portion of the metadata string-pair.  
+A buffer for the PEP to write the value portion of the metadata string-pair.  
 
 Prior to entry into the notification callback routine, the kernel will:
 

@@ -45,9 +45,9 @@ A kernel-mode display miniport driver calls **DXGKCB_MAPPHYSICALMEMORY** to map 
 
 ## -parameters
 
-### -param pArgs
+### -param pArgs [in/out]
 
-[in/out] Pointer to a [**DXGKARGCB_MAP_PHYSICAL_MEMORY**](ns-d3dkmddi-dxgkargcb_map_physical_memory.md) structure that contains information about the physical memory to map.
+Pointer to a [**DXGKARGCB_MAP_PHYSICAL_MEMORY**](ns-d3dkmddi-dxgkargcb_map_physical_memory.md) structure that contains information about the physical memory to map.
 
 ## -returns
 

@@ -52,18 +52,18 @@ The <b>BdaMethodCreateTopology</b> function creates a template topology between 
 
 ### -param pIrp
 
-### -param pKSMethod 
+### -param pKSMethod [in]
 
-[in]
+
 Points to a <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a> structure that describes the method and request type of a method request.
 
-### -param pvIgnored 
+### -param pvIgnored [optional]
 
-[optional]
+
 Points to a buffer that is ignored. 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Points to the IRP for the request to create topology. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksmethod-bda-create-topology">KSMETHOD_BDA_CREATE_TOPOLOGY</a> request.
 

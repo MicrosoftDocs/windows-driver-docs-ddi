@@ -51,14 +51,14 @@ The <b>TmRollbackTransaction</b> routine initiates a rollback operation for a sp
 
 ## -parameters
 
-### -param Transaction 
+### -param Transaction [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/kernel/transaction-objects">transaction object</a>. To obtain this pointer, your component must call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransaction">ZwCreateTransaction</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopentransaction">ZwOpenTransaction</a> provided.
 
-### -param Wait 
+### -param Wait [in]
 
-[in]
+
 A Boolean value that the caller sets to <b>TRUE</b> for synchronous operation or <b>FALSE</b> for asynchronous operation. If this parameter is set to <b>TRUE</b>, the call does not return until the rollback operation is complete.
 
 ## -returns

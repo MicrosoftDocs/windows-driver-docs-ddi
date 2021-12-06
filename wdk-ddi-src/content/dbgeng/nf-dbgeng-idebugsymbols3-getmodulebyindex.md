@@ -49,14 +49,14 @@ The <b>GetModuleByIndex</b> method returns the location of the module with the s
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the module whose location is requested.
 
-### -param Base 
+### -param Base [out]
 
-[out]
+
 Receives the location in the target's memory address space of the module.
 
 ## -returns

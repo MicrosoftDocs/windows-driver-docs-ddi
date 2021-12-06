@@ -54,14 +54,14 @@ The <b>WdfUsbTargetDeviceGetInterface</b> method returns a handle to the framewo
 
 ## -parameters
 
-### -param UsbDevice 
+### -param UsbDevice [in]
 
-[in]
+
 A handle to a USB device object that was obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
-### -param InterfaceIndex 
+### -param InterfaceIndex [in]
 
-[in]
+
 A zero-based index value that specifies a USB interface object in the current configuration. This index value might not be the same as the interface number that the USB specification defines.
 
 ## -returns

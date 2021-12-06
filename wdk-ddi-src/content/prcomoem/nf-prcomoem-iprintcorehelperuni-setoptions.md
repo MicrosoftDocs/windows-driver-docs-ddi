@@ -49,36 +49,36 @@ The <code>IPrintCoreHelperUni::SetOptions</code> method sets multiple feature-op
 
 ## -parameters
 
-### -param pDevmode 
+### -param pDevmode [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure. If this pointer is provided, <code>IPrintCoreHelperUni::SetOptions</code> should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-devmode">IPrintOemPS::DevMode</a>, this parameter is required. In most other situations, the parameter should be <b>NULL</b>. When the core driver sets <i>pDevmode</i> to <b>NULL</b>, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets">DrvDocumentPropertySheets</a>, is being serviced by the core driver's UI module.
 
-### -param cbSize 
+### -param cbSize [in]
 
-[in]
+
 The size, in bytes, of the DEVMODEW structure that is pointed to by the <i>pDevmode</i> parameter.
 
-### -param bResolveConflicts 
+### -param bResolveConflicts [in]
 
-[in]
+
 A Boolean value that indicates whether <code>IPrintCoreHelperUni::SetOptions</code> should resolve conflicts that arise from one or more constraints in the GPD view of the configuration file, as well as constraints for functionality implemented by Unidrv or the print processor. If <b>TRUE</b>, this method should attempt to resolve the conflict. If <b>FALSE</b>, this method should not attempt to resolve conflicts.
 
 ### -param pFOPairs
 
-### -param cPairs 
+### -param cPairs [in]
 
-[in]
+
 The number of feature-option pairs that are pointed to by the <i>pFOPairs</i> parameter.
 
-### -param pcPairsWritten 
+### -param pcPairsWritten [out]
 
-[out]
+
 A pointer to a variable that receives the number of feature-option pairs that were successfully saved before <code>IPrintCoreHelperUni::SetOptions</code> returned or failed. If this method returns successfully, *<i>pcPairsWritten</i> will have the same value as <i>cPairs</i>. If the method fails, *<i>pcPairsWritten</i> can have any value from zero through the value of <i>cPairs</i>. This parameter is optional and can be <b>NULL</b>.
 
-### -param pdwResult 
+### -param pdwResult [out]
 
-[out]
+
 A pointer to a variable that receives the status of the conflict resolution. The status can be one of the following values.
 
 <table>
@@ -120,7 +120,7 @@ At least one constraint that was specified in the GPD view of the configuration 
  
 
 
-#### - pFOPairs[] [in]
+### -param pFOPairs[] [in]
 
 An array of <a href="/windows-hardware/drivers/ddi/prcomoem/ns-prcomoem-_print_feature_option">PRINT_FEATURE_OPTION</a> elements, where each element contains a feature-option pair. Each feature-option pair lists a feature and the option to select for that feature. All settings are applied sequentially. Duplicates are not disallowed, but settings that appear later in the array (that is, at a higher index) override those that appear earlier in the array.
 

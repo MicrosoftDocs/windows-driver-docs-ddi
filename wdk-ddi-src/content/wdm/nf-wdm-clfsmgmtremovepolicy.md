@@ -50,14 +50,14 @@ The <b>ClfsMgmtRemovePolicy</b> routine resets a log's <a href="/windows-hardwar
 
 ## -parameters
 
-### -param LogFile 
+### -param LogFile [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log whose policy is being removed.
 
-### -param PolicyType 
+### -param PolicyType [in]
 
-[in]
+
 A value of the <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a> enumeration that supplies the type of the policy to be removed.
 
 ## -returns

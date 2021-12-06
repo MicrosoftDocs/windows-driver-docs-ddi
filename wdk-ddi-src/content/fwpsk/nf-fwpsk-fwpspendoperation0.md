@@ -53,18 +53,18 @@ The
 
 ## -parameters
 
-### -param completionHandle 
+### -param completionHandle [in]
 
-[in]
+
 A completion handle that is required to pend the current filtering operation. This parameter is
      obtained from the 
      <b>completionHandle</b> member of the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a> structure passed into the callout driver's 
      <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function.
 
-### -param completionContext 
+### -param completionContext [out]
 
-[out]
+
 The handle to the completion context of this pend operation. When the callout is ready to resume
      packet processing, it calls the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscompleteoperation0">FwpsCompleteOperation0</a> function

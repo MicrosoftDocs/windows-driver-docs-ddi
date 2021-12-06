@@ -53,28 +53,28 @@ api_name:
 
 ## -parameters
 
-### -param PortOffset 
+### -param PortOffset [out]
 
-[out]
+
 Specifies a caller-supplied variable in which this function returns the mapped base virtual
      address for the given bus-relative I/O port range specified by 
      <i>InitialPort</i> and 
      <i>NumberOfPorts</i> .
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 Specifies the handle input to 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-### -param InitialPort 
+### -param InitialPort [in]
 
-[in]
+
 Specifies the bus-relative base port address for a range of ports to be mapped.
 
-### -param NumberOfPorts 
+### -param NumberOfPorts [in]
 
-[in]
+
 Specifies the number of ports in the range to be mapped.
 
 ## -returns

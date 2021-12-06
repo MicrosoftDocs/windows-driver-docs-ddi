@@ -45,13 +45,13 @@ Deletes an identity mapping for the specified MDL.
 
 ## -parameters
 
-### -param Domain
+### -param Domain [_In_]
 
-[_In_] A pointer to the handle to the domain.
+A pointer to the handle to the domain.
 
-### -param Mdl
+### -param Mdl [_In_]
 
-[_In_] A pointer to the MDL to unmap.
+A pointer to the MDL to unmap.
 
 ## -returns
 

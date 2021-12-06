@@ -52,21 +52,21 @@ The DXVAHDDDI_COLOR_YCbCrA structure describes color in YCbCr terms.
 
 ## -struct-fields
 
-### -field Y
+### -field Y [in]
 
-[in] A FLOAT value in the 0.0 to 1.0 range that is used to describe the luma component of the YCbCr color.
+A FLOAT value in the 0.0 to 1.0 range that is used to describe the luma component of the YCbCr color.
 
-### -field Cb
+### -field Cb [in]
 
-[in] A FLOAT value in the 0.0 to 1.0 range that is used to describe the blue chroma component of the YCbCr color.
+A FLOAT value in the 0.0 to 1.0 range that is used to describe the blue chroma component of the YCbCr color.
 
-### -field Cr
+### -field Cr [in]
 
-[in] A FLOAT value in the 0.0 to 1.0 range that is used to describe the red chroma component of the YCbCr color.
+A FLOAT value in the 0.0 to 1.0 range that is used to describe the red chroma component of the YCbCr color.
 
-### -field A
+### -field A [in]
 
-[in] A FLOAT value in the 0.0 to 1.0 range that is used to describe the alpha component (that is, the transparency level) of the YCbCr color.
+A FLOAT value in the 0.0 to 1.0 range that is used to describe the alpha component (that is, the transparency level) of the YCbCr color.
 
 ## -remarks
 

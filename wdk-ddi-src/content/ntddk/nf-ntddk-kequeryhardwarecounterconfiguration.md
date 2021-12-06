@@ -49,19 +49,19 @@ The <b>KeQueryHardwareCounterConfiguration</b> routine queries the operating sys
 
 ## -parameters
 
-### -param CounterArray 
+### -param CounterArray [out]
 
-[out]
+
 A pointer to a caller-allocated buffer into which the routine writes an array of elements of type <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_hardware_counter">HARDWARE_COUNTER</a>. Each array element is a structure that contains information about a hardware counter. The array contains one element for each hardware counter that is assigned to thread profiling. If the routine fails, it writes nothing to this buffer.
 
-### -param MaximumCount 
+### -param MaximumCount [in]
 
-[in]
+
 Specifies the maximum number of elements that the routine can write to the buffer that is pointed to by the <i>CounterArray</i> parameter. The size of the caller-allocated buffer must be at least <i>MaximumCount</i> * <b>sizeof</b>(<b>HARDWARE_COUNTER</b>) bytes.
 
-### -param Count 
+### -param Count [out]
 
-[out]
+
 A pointer to a location into which the routine writes the number of array elements that it has written to the buffer that is pointed to by the <i>CounterArray</i> parameter. If the buffer length that is specified by <i>MaximumCount</i> is not large enough to contain the entire array, the routine writes the required length to *<i>Count</i> and returns STATUS_BUFFER_TOO_SMALL.
 
 ## -returns

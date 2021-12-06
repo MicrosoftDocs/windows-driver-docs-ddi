@@ -79,7 +79,7 @@ The GNSS engine must guarantee the uniqueness of this ID and ensure that there a
 
 
 
-#### - Unused[512]
+### -field Unused[512]
 
 Padding buffer.
 

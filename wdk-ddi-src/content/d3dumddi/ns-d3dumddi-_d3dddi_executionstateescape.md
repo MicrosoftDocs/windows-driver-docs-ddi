@@ -52,9 +52,9 @@ Specifies the state of the device.
 
 ## -struct-fields
 
-### -field State
+### -field State [Out]
 
-[Out] A value of type <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddi_deviceexecution_state">D3DDDI_DEVICEEXECUTION_STATE</a> that indicates the state of the device.
+A value of type <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddi_deviceexecution_state">D3DDDI_DEVICEEXECUTION_STATE</a> that indicates the state of the device.
 
 ## -see-also
 

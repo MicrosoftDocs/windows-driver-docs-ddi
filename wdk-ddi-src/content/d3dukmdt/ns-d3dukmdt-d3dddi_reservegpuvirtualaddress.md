@@ -102,9 +102,9 @@ Specifies the driver-specific protection
 
 This member is reserved and should be set to zero.
 
-### -field VirtualAddress
+### -field VirtualAddress [out]
 
-[out] The reserved virtual address.
+The reserved virtual address.
 
 ### -field PagingFenceValue
 

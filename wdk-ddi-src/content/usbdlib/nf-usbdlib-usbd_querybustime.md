@@ -52,14 +52,14 @@ See URB_FUNCTION_GET_CURRENT_FRAME_NUMBER for equivalent functionality that is s
 
 ## -parameters
 
-### -param RootHubPdo 
+### -param RootHubPdo [in]
 
-[in]
+
 Obsolete.
 
-### -param CurrentFrame 
+### -param CurrentFrame [out]
 
-[out]
+
 Obsolete.
 
 ## -returns

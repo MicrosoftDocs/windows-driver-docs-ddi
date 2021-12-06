@@ -49,24 +49,24 @@ The <b>ZwSetValueKey</b> routine creates or replaces a registry key's value entr
 
 ## -parameters
 
-### -param KeyHandle 
+### -param KeyHandle [in]
 
-[in]
+
 Handle to the registry key to write a value entry for. This handle is created by a successful call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>.
 
-### -param ValueName 
+### -param ValueName [in]
 
-[in]
+
 Pointer to the name of the value entry for which the data is to be written. This parameter can be a <b>NULL</b> pointer if the value entry has no name. If a name string is specified and the given name is not unique relative to its containing key, the data for an existing value entry is replaced.
 
-### -param TitleIndex 
+### -param TitleIndex [in, optional]
 
-[in, optional]
+
 This parameter is reserved. Device and intermediate drivers should set this parameter to zero.
 
-### -param Type 
+### -param Type [in]
 
-[in]
+
 One of the following system-defined types of data to write.
 
 <table>
@@ -200,14 +200,14 @@ A list of hardware resources that a physical device is using, detected and writt
 <div class="alert"><b>Note</b>   Device drivers should not attempt to call <b>ZwSetValueKey</b> to explicitly write value entries in a subkey of the <b>\Registry...\ResourceMap</b> key. Only the system can write value entries to the <b>\Registry...\HardwareDescription</b> tree.</div>
 <div> </div>
 
-### -param Data 
+### -param Data [in, optional]
 
-[in, optional]
+
 Pointer to a caller-allocated buffer that contains the data for the value entry.
 
-### -param DataSize 
+### -param DataSize [in]
 
-[in]
+
 Specifies the size, in bytes, of the <i>Data</i> buffer. If <i>Type</i> is REG_<i>XXX</i>_SZ, this value must include space for any terminating zeros.
 
 ## -returns

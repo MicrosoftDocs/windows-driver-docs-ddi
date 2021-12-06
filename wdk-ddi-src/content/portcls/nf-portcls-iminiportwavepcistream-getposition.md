@@ -49,9 +49,9 @@ The <code>GetPosition</code> method gets the current position of the stream.
 
 ## -parameters
 
-### -param Position 
+### -param Position [out]
 
-[out]
+
 Output pointer for the position value. This parameter points to a caller-allocated ULONGLONG variable into which the method writes the current byte position of the stream.
 
 ## -returns

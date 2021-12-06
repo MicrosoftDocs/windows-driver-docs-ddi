@@ -50,13 +50,13 @@ A client driver implements **PFND3D12DDI_UNMAPHEAP** to unmap a heap.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
-[in] *hDisplayDevice*: Handle to the display device (graphics context).
+*hDisplayDevice*: Handle to the display device (graphics context).
 
-### -param unnamedParam2
+### -param unnamedParam2 [in]
 
-[in] *hHeap*: Handle to a display device-managed heap that needs to be unmapped.
+*hHeap*: Handle to a display device-managed heap that needs to be unmapped.
 
 ## -prototype
 

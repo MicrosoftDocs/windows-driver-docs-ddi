@@ -49,19 +49,19 @@ Sets the state of the Mute node for the audio device channel.
 
 ## -parameters
 
-### -param ulNodeId 
+### -param ulNodeId [in]
 
-[in]
+
 The ID for the node that represents the audio device.
 
-### -param ulChannel 
+### -param ulChannel [in]
 
-[in]
+
 The audio device channel.
 
-### -param bMute 
+### -param bMute [in]
 
-[in]
+
 The state to which the Mute node for the audio device channel will be set.
 
 ## -returns

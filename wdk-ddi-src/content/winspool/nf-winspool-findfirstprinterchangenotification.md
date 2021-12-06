@@ -67,22 +67,22 @@ Not used.
 Caller-supplied pointer to a PRINTER_NOTIFY_OPTIONS structure (described in the Windows SDK documentation).
 
 
-#### - fdwFlags
+### -param fdwFlags
 
 One or more caller-supplied PRINTER_CHANGE-prefixed flags. For more information, see the description of <b>FindFirstPrinterChangeNotification</b> in the Windows SDK documentation.
 
 
-#### - hNotify
+### -param hNotify
 
 Caller-supplied notification handle. This handle must be saved and used as input to <a href="..\winsplp\nf-winsplp-replyprinterchangenotification.md">ReplyPrinterChangeNotification</a> and <a href="..\winsplp\nf-winsplp-partialreplyprinterchangenotification.md">PartialReplyPrinterChangeNotification</a>.
 
 
-#### - pPrinterNotifyInit
+### -param pPrinterNotifyInit
 
 Not used.
 
 
-#### - pfdwStatus
+### -param pfdwStatus
 
 Caller-supplied pointer to a location to receive provider-specified flags. The following flags are defined.
 

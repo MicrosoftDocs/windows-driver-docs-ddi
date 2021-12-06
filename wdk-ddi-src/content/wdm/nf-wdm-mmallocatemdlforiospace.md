@@ -49,19 +49,19 @@ The <b>MmAllocateMdlForIoSpace</b> routine allocates an <a href="/windows-hardwa
 
 ## -parameters
 
-### -param PhysicalAddressList 
+### -param PhysicalAddressList [in]
 
-[in]
+
 A pointer to an array of <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mm_physical_address_list">MM_PHYSICAL_ADDRESS_LIST</a> structures that describe the physical address ranges to include in the allocated MDL.
 
-### -param NumberOfEntries 
+### -param NumberOfEntries [in]
 
-[in]
+
 The number of elements in the <b>MM_PHYSICAL_ADDRESS_LIST</b> array pointed to by <i>PhysicalAddressList</i>.
 
-### -param NewMdl 
+### -param NewMdl [out]
 
-[out]
+
 A pointer to a location to which the routine writes a pointer to the newly allocated MDL.
 
 ## -returns

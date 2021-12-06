@@ -49,9 +49,9 @@ The <b>CreatePixelShader</b> function converts pixel shader code into a hardware
 
 ## -parameters
 
-### -param hDevice 
+### -param hDevice [in]
 
-[in]
+
 A handle to the display device (graphics context).
 
 ### -param unnamedParam2

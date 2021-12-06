@@ -49,19 +49,19 @@ The <b>GetOffsetByLine</b>  method returns the location of the instruction that 
 
 ## -parameters
 
-### -param Line 
+### -param Line [in]
 
-[in]
+
 Specifies the line number in the source file.
 
-### -param File 
+### -param File [in]
 
-[in]
+
 Specifies the file name of the source file.
 
-### -param Offset 
+### -param Offset [out]
 
-[out]
+
 Receives the location in the target's virtual address space of an instruction for the specified line.
 
 ## -returns

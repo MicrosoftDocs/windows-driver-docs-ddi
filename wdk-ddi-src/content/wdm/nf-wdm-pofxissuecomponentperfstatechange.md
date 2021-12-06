@@ -50,14 +50,14 @@ The <b>PoFxIssueComponentPerfStateChange</b> routine submits a request to place 
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 The flags that modify the behavior of the performance state change operation. Set this member to zero or to one of the following flag <b>PO_FX_FLAG_<i>XXX</i></b> bits:
 
 These two flag bits are mutually exclusive. For more information, see Remarks.
@@ -91,19 +91,19 @@ Make the condition change fully asynchronous. If this flag is set, the calling d
 </tr>
 </table>
 
-### -param Component 
+### -param Component [in]
 
-[in]
+
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
-### -param PerfChange 
+### -param PerfChange [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_perf_state_change">PO_FX_PERF_STATE_CHANGE</a> structure that represents the new performance state of the component.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to the context for the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_perf_state_callback">ComponentPerfStateCallback</a> callback routine. This parameter is optional. It is provided so that a driver or device context can be passed to the callback routine. If this parameter is not used, it must be set to NULL.
 
 ## -remarks

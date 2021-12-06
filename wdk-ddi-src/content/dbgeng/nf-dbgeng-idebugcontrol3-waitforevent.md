@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Set to zero.  There are currently no flags that can be used in this parameter.
 
-### -param Timeout 
+### -param Timeout [in]
 
-[in]
+
 Specifies how many milliseconds to wait before this method will return.  If <i>Timeout</i> is INFINITE, this method will not return until an event that breaks into the debugger engine application occurs or an exit interrupt is issued.  If the current session has a live kernel target, <i>Timeout</i> must be set to INFINITE.
 
 ## -returns

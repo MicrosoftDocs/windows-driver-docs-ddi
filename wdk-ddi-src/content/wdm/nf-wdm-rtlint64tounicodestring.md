@@ -49,14 +49,14 @@ The <b>RtlInt64ToUnicodeString</b> routine converts a specified unsigned 64-bit 
 
 ## -parameters
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies the ULONGLONG value to convert.
 
-### -param Base 
+### -param Base [in, optional]
 
-[in, optional]
+
 Specifies the base to use when converting <i>Value</i> to a string. The possible values are:
 
 <table>
@@ -106,9 +106,9 @@ Decimal
 </tr>
 </table>
 
-### -param String 
+### -param String [in, out]
 
-[in, out]
+
 Pointer to the <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the string representation of <i>Value</i>. The buffer specified by the <i>Buffer</i>  of <i>String</i> must be large enough to hold the result.
 
 ## -returns

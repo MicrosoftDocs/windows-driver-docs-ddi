@@ -56,13 +56,13 @@ A handle to the graphics adapter.
 
 The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the monitor is connected to.
 
-### -field MaxStretchFactor
+### -field MaxStretchFactor [out]
 
-[out] The maximum stretch factor.
+The maximum stretch factor.
 
-### -field MaxShrinkFactor
+### -field MaxShrinkFactor [out]
 
-[out] The maximum shrink factor.
+The maximum shrink factor.
 
 ## -remarks
 

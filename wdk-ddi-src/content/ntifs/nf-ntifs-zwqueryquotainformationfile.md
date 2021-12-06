@@ -49,49 +49,49 @@ The <b>ZwQueryQuotaInformationFile</b> routine retrieves quota entries associate
 
 ## -parameters
 
-### -param FileHandle 
+### -param FileHandle [in]
 
-[in]
+
 A handle for the file object that represents the file or volume for which the quota information is requested.
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
+
 The address of the caller's I/O status block.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A buffer to receive the quota information for the volume. The quota information is formatted as one or more <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information">FILE_QUOTA_INFORMATION</a> structures. The <b>NextEntryOffset</b> field in the <b>FILE_QUOTA_INFORMATION</b> structure contains the offset, in bytes, of the next quota entry in the list. If there are no more entries after the current one, this member is zero.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length in bytes of the buffer.
 
-### -param ReturnSingleEntry 
+### -param ReturnSingleEntry [in]
 
-[in]
+
 A Boolean value that indicates if only a single entry should be returned rather than filling the buffer with as many entries as possible.
 
-### -param SidList 
+### -param SidList [in, optional]
 
-[in, optional]
+
 An optional list of SIDs whose quota information is to be returned. Each entry in the list is a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a> structure. The <b>NextEntryOffset</b> field in the <b>FILE_GET_QUOTA_INFORMATION</b> structure contains the offset, in bytes, of the next quota entry in the list. If there are no more entries after the current one, this member is zero.
 
-### -param SidListLength 
+### -param SidListLength [in]
 
-[in]
+
 The length in bytes of the <b>SID</b> list, if one was specified.
 
-### -param StartSid 
+### -param StartSid [in, optional]
 
-[in, optional]
+
 An optional pointer to the <b>SID</b> of the entry at which to begin scanning the quota information. This parameter should be set if the returned information is to start with an entry other than the first SID. This parameter is ignored if a <i>SidList</i> parameter is specified.
 
-### -param RestartScan 
+### -param RestartScan [in]
 
-[in]
+
 A Boolean value that indicates whether the scan of the quota information is to be restarted from the beginning. Set this parameter to <b>TRUE</b> if the scan of the quota information is to start at the first entry in the volume's quota information list. Set to <b>FALSE</b> if resuming the scan from a previous call to <b>ZwQueryQuotaInformationFile</b>. The caller must set this parameter to <b>TRUE</b> when calling <b>ZwQueryQuotaInformationFile</b> for the first time.
 
 ## -returns

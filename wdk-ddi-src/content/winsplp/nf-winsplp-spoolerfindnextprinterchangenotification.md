@@ -47,19 +47,19 @@ api_name:
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
 
-### -param pfdwChange 
 
-[out]
+### -param pfdwChange [out]
 
-### -param pPrinterNotifyOptions 
 
-[in, optional]
 
-### -param ppPrinterNotifyInfo 
+### -param pPrinterNotifyOptions [in, optional]
 
-[in, out, optional]
+
+
+### -param ppPrinterNotifyInfo [in, out, optional]
+
+
 

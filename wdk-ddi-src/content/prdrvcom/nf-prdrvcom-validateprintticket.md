@@ -62,7 +62,7 @@ The <code>IPrintOemPrintTicketProvider::ValidatePrintTicket</code> method valida
 
 
 
-#### - pPrintTicket [in, out]
+### -param pPrintTicket [in, out]
 
 A pointer to an input print ticket. When <code>IPrintOemPrintTicketProvider::ValidatePrintTicket</code> successfully returns, <i>pPrintTicket</i> points to a validated print ticket.
 

@@ -59,17 +59,17 @@ The <b>UNIFONTOBJ_GetInfo</b> callback function is provided by the Unidrv driver
 
 ### -param unnamedParam4
 
-#### - dwDataSize
+### -param dwDataSize
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pData</i>. Supplied by the caller.
 
 
-#### - dwInfoID
+### -param dwInfoID
 
 Specifies the type of structure pointed to by <i>pData</i>. Supplied by the caller. See the following table.
 
 
-#### - pData
+### -param pData
 
 Pointer to a structure, as indicated in the following table. Supplied by the caller.
 
@@ -156,12 +156,12 @@ UFO_GETINFO_STDVARIABLE
 For a summary of structure contents, see the following <b>Remarks</b> section.
 
 
-#### - pUFObj
+### -param pUFObj
 
 Pointer to the <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_unifontobj">UNIFONTOBJ</a> structure received by the function that is making the callback to <b>UNIFONTOBJ_GetInfo</b>. Supplied by the caller.
 
 
-#### - pcbNeeded
+### -param pcbNeeded
 
 Pointer to a location that receives the minimum buffer size, in bytes, required to contain the structure identified by <i>dwInfoID</i>. Supplied by the caller.
 

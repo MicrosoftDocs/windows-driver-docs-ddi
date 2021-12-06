@@ -51,14 +51,14 @@ The <b>CreateInterrupt</b> method creates a framework interrupt object.
 
 ## -parameters
 
-### -param Configuration 
+### -param Configuration [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wudf_interrupt_config">WUDF_INTERRUPT_CONFIG</a> structure that was initialized by a call to the <a href="/windows-hardware/drivers/ddi/wudfinterrupt/nf-wudfinterrupt-wudf_interrupt_config_init">WUDF_INTERRUPT_CONFIG_INIT</a> macro.
 
-### -param ppInterrupt 
+### -param ppInterrupt [out]
 
-[out]
+
 A pointer to a buffer that receives a pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a>  interface for the new interrupt object.
 
 ## -returns

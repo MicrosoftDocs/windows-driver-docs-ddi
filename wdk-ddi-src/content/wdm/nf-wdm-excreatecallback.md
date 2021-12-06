@@ -49,24 +49,24 @@ The <b>ExCreateCallback</b> routine either creates a new callback object or open
 
 ## -parameters
 
-### -param CallbackObject 
+### -param CallbackObject [out]
 
-[out]
+
 A pointer to a location that receives a pointer to a callback object, which is an opaque, system structure. If the <b>ExCreateCallback</b> call succeeds, the routine writes the address of the newly created or opened callback object to this location. The callback object pointer obtained from this routine can be supplied as a parameter to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exregistercallback">ExRegisterCallback</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exnotifycallback">ExNotifyCallback</a> routine.
 
-### -param ObjectAttributes 
+### -param ObjectAttributes [in]
 
-[in]
+
 A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that contains the callback object's attributes. This structure was previously initialized by the <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine.
 
-### -param Create 
+### -param Create [in]
 
-[in]
+
 Whether to create a callback object. Set to <b>TRUE</b> to create a new callback object if the requested object cannot be opened. Otherwise, set to <b>FALSE</b>.
 
-### -param AllowMultipleCallbacks 
+### -param AllowMultipleCallbacks [in]
 
-[in]
+
 Whether a newly created callback object should allow multiple registered callback routines. Set to <b>TRUE</b> to allow multiple registered callback routines. Otherwise, set to <b>FALSE</b>. This parameter is ignored when <i>Create</i> is <b>FALSE</b> or when opening an existing object.
 
 ## -returns

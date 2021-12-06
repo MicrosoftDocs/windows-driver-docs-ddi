@@ -53,34 +53,34 @@ The
 
 ## -parameters
 
-### -param flowId 
+### -param flowId [in]
 
-[in]
+
 A run-time identifier that specifies the data flow with which to associate the context. The
      run-time identifier for a data flow is provided to a callout driver through the
      FWPS_METADATA_FIELD_FLOW_HANDLE metadata value that was passed to the callout driver's 
      <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function.
 
-### -param layerId 
+### -param layerId [in]
 
-[in]
+
 The run-time identifier for the filtering layer with which the context is being associated. The context will be associated only with the specified filtering layer. For
      more information, see 
      <a href="/windows/desktop/FWP/management-filtering-layer-identifiers-">Run-time Filtering Layer
      Identifiers</a>.
 
-### -param calloutId 
+### -param calloutId [in]
 
-[in]
+
 The run-time identifier for the callout in the filter engine. This identifier was returned when
      the callout driver called the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a>, 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a>, or  <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister2">FwpsCalloutRegister2</a> function to
      register the callout with the filter engine.
 
-### -param flowContext 
+### -param flowContext [in]
 
-[in]
+
 The callout driver-defined context to be associated with the data flow. This parameter must not be
      zero. This context is opaque to the filter engine.
 

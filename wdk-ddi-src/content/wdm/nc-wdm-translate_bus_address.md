@@ -49,29 +49,29 @@ The <i>TranslateBusAddress</i> routine translates addresses on the parent bus to
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_bus_interface_standard">BUS_INTERFACE_STANDARD</a> structure for the interface.
 
-### -param BusAddress 
+### -param BusAddress [in]
 
-[in]
+
 The bus-relative address to be translated.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length, in bytes, of the input memory that <i>BusAddress</i> points to.
 
-### -param AddressSpace 
+### -param AddressSpace [in, out]
 
-[in, out]
+
 On input, the address space in which the device's hardware address resides. A value of 0x0 signifies memory space, and a value of 0x1 signifies port I/O space. On output, <i>AddressSpace</i> indicates the address space in which the <i>TranslatedAddress</i> resides.
 
-### -param TranslatedAddress 
+### -param TranslatedAddress [out]
 
-[out]
+
 The translated (logical) address that corresponds to the bus-relative address that the caller provides in <i>BusAddress</i>.
 
 ## -returns

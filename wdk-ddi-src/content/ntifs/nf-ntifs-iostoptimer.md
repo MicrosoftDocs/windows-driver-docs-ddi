@@ -49,9 +49,9 @@ The <b>IoStopTimer</b> routine disables the timer for a specified device object 
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object with which the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_timer_routine">IoTimer</a> routine is associated.
 
 ## -remarks

@@ -49,29 +49,29 @@ The <b>RtlUnicodeToOemN</b> routine translates a given Unicode string to an OEM 
 
 ## -parameters
 
-### -param OemString 
+### -param OemString [out]
 
-[out]
+
 Pointer to a caller-allocated buffer to receive the translated string.
 
-### -param MaxBytesInOemString 
+### -param MaxBytesInOemString [in]
 
-[in]
+
 Maximum number of bytes to be written to <i>OemString</i>.
 
-### -param BytesInOemString 
+### -param BytesInOemString [out, optional]
 
-[out, optional]
+
 Pointer to a caller-allocated variable that receives the number of bytes in the translated string. This parameter can be <b>NULL</b>.
 
-### -param UnicodeString 
+### -param UnicodeString [in]
 
-[in]
+
 Pointer to the Unicode source string to be translated.
 
-### -param BytesInUnicodeString 
+### -param BytesInUnicodeString [in]
 
-[in]
+
 Size, in bytes, of the string at <i>UnicodeString</i>.
 
 ## -returns

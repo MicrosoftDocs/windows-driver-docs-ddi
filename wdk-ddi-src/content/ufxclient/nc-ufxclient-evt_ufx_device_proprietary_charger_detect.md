@@ -51,7 +51,7 @@ The client driver's implementation to initiate proprietary charger detection.
 
 ### -param unnamedParam1
 
-#### - UfxDevice [in]
+### -param UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 

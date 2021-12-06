@@ -51,13 +51,13 @@ The <b>pfnGetNumFrequencyRanges</b> returns the number of frequency range descri
 
 ## -parameters
 
-### -param hMonitorFrequencyRangeSet
+### -param hMonitorFrequencyRangeSet [in]
 
-[in] A handle to a monitor frequency range set object. The display miniport driver previously obtained this handle by calling the <b>pfnGetMonitorFrequencyRangeSet</b> function of the <a href="/windows-hardware/drivers/ddi/index">Monitor interface</a>.
+A handle to a monitor frequency range set object. The display miniport driver previously obtained this handle by calling the <b>pfnGetMonitorFrequencyRangeSet</b> function of the <a href="/windows-hardware/drivers/ddi/index">Monitor interface</a>.
 
-### -param pNumMonitorFrequencyRanges
+### -param pNumMonitorFrequencyRanges [out]
 
-[out] A pointer to a SIZE_T-typed variable that receives the number of descriptors in the set.
+A pointer to a SIZE_T-typed variable that receives the number of descriptors in the set.
 
 ## -returns
 

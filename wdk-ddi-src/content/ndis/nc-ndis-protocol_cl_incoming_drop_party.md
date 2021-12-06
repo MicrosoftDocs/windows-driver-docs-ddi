@@ -55,25 +55,25 @@ The
 
 ## -parameters
 
-### -param DropStatus 
+### -param DropStatus [in]
 
-[in]
+
 Indicates the reason for the party to be dropped. Usually, this is NDIS_STATUS_SUCCESS if the
      party on the remote note initiated a close of its connection, but it could be any CM-determined status
      if the call manager initiated this drop-party operation due to network problems that it
      discovered.
 
-### -param ProtocolPartyContext 
+### -param ProtocolPartyContext [in]
 
-[in]
+
 Specifies the handle to the client's per-party context area for the party to be dropped. The
      client originally supplied this handle to NDIS when it called 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a> or 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>.
 
-### -param CloseData 
+### -param CloseData [in]
 
-[in]
+
 Pointer to a buffer containing a protocol-specific close message, possibly one supplied by the
      remote client that the call manager received over the network, or this parameter can be <b>NULL</b>. 
      
@@ -84,9 +84,9 @@ When
      define a structure to pass additional diagnostic information to its clients on drop-party operations
      caused by problems on the network.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 Specifies the length, in bytes, of the buffer at 
      <i>CloseData</i>, zero if 
      <i>CloseData</i> is <b>NULL</b>.

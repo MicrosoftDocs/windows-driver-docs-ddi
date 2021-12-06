@@ -49,39 +49,39 @@ The <b>PCMCIA_MODIFY_MEMORY_WINDOW</b> interface routine sets the attributes of 
 
 ## -parameters
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Pointer to the context for the interface routine.
 
-### -param HostBase 
+### -param HostBase [in]
 
-[in]
+
 Specifies the physical memory window to map. <i>HostBase</i> is the base address for the memory card in the system's physical address space.
 
-### -param CardBase 
+### -param CardBase [in]
 
-[in]
+
 Specifies the byte offset in the PC Card's or CardBus card's memory where the memory mapping begins.
 
-### -param Enable 
+### -param Enable [in]
 
-[in]
+
 Specifies permission to access the memory window. If <i>Enable</i> is <b>TRUE</b>, memory access is permitted, otherwise memory access is not permitted.
 
-### -param WindowSize 
+### -param WindowSize [in, optional]
 
-[in, optional]
+
 Specifies the size, in bytes, of the memory window that is mapped. The value of <i>WindowSize</i> cannot exceed the memory window granted to the driver in its assigned resources. If the value of Enable is <b>TRUE</b> and the value of WindowSize is zero, the size of the memory window granted to the driver in its assigned resources is used. If <i>Enable</i> is <b>FALSE</b>, <i>WindowSize</i> is not used.
 
-### -param AccessSpeed 
+### -param AccessSpeed [in, optional]
 
-[in, optional]
+
 Specifies the access speed of the PC Card or CardBus card. The value of <i>AccessSpeed</i> is encoded as specified by the <i>PC Card Standard, Release 6.1</i>. If Enable is <b>FALSE</b>, <i>AccessSpeed</i> is not used.
 
-### -param BusWidth 
+### -param BusWidth [in, optional]
 
-[in, optional]
+
 Specifies the width of bus access to the PCMCIA memory card. <i>BusWidth</i> must be one of the following values:
 
 
@@ -94,7 +94,7 @@ If <i>Enable</i> is <b>FALSE</b>, <i>BusWidth</i> is not used.
 
 ### -param IsAttributeMemory
 
-#### - AttributeMemory [in, optional]
+### -param AttributeMemory [in, optional]
 
 Must be <b>FALSE</b> for common memory and <b>TRUE</b> for attribute memory.
 

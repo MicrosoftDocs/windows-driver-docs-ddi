@@ -50,14 +50,14 @@ The <b>PcNewMiniport</b> function creates an instance of one of the system-suppl
 
 ## -parameters
 
-### -param OutMiniPort 
+### -param OutMiniPort [out]
 
-[out]
+
 Output pointer for the miniport-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs a reference to the newly created <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiport">IMiniport</a> object. This object is an instance of the miniport driver that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
 
-### -param ClassID 
+### -param ClassID [in]
 
-[in]
+
 Specifies the miniport interface that is being requested. For more information, see the following Remarks section.
 
 ## -returns

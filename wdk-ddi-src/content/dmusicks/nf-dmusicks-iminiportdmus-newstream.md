@@ -49,26 +49,26 @@ The <code>NewStream</code> method creates a new instance of a logical stream ass
 
 ## -parameters
 
-### -param MXF 
+### -param MXF [out]
 
-[out]
+
 Output pointer for the new stream. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream object's <a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-imxf">IMXF</a> interface.
 
-### -param OuterUnknown 
+### -param OuterUnknown [in, optional]
 
-[in, optional]
+
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the stream object. This parameter is optional. If aggregation is not required, the caller specifies this parameter as <b>NULL</b>.
 
-### -param PoolType 
+### -param PoolType [in]
 
-[in]
+
 Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter is set to one of the <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> enumeration values.
 
 ### -param PinID
 
-### -param StreamType 
+### -param StreamType [in]
 
-[in]
+
 Specifies the type of data stream to create. This parameter is set to one of the following DMUS_STREAM_TYPE enumeration values:
 
 
@@ -93,33 +93,33 @@ Specifies a wave output stream.
 
 For more information, see the following Remarks section.
 
-### -param DataFormat 
+### -param DataFormat [in]
 
-[in]
+
 Pointer to a kernel streaming <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> structure specifying the data format to use for this instance
 
-### -param ServiceGroup 
+### -param ServiceGroup [out]
 
-[out]
+
 Output pointer for service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> interface of the stream's service group object. This is the service group that is being registered for interrupt notification.
 
-### -param AllocatorMXF 
+### -param AllocatorMXF [in]
 
-[in]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iallocatormxf">IAllocatorMXF</a> object. This is the port driver's memory allocator, which is needed to recycle <a href="/windows-hardware/drivers/ddi/dmusicks/ns-dmusicks-_dmus_kernel_event">DMUS_KERNEL_EVENT</a> structures.
 
-### -param MasterClock 
+### -param MasterClock [in]
 
-[in]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-imasterclock">IMasterClock</a> object. This master clock passes a wrapper for the KS clock to the miniport driver. The master-clock pointer is required to sync to reference time.
 
-### -param SchedulePreFetch 
+### -param SchedulePreFetch [out]
 
-[out]
+
 Output pointer for the schedule-prefetch time. This parameter is a pointer to a caller-allocated ULONGLONG variable into which the method writes a time value that specifies how far ahead to query for events. The time is specified in 100-nanosecond units. The port driver is responsible for sequencing any events that exceed the amount of time that the miniport driver specifies here.
 
 
-#### - PinId [in]
+### -param PinId [in]
 
 Specifies the pin ID. This parameter identifies the pin that is to be opened. If the DMus miniport driver's <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a> method outputs a filter descriptor that specifies a total of <i>n</i> pin factories on the filter, then valid pin IDs are in the range 0 to <i>n</i>-1.
 

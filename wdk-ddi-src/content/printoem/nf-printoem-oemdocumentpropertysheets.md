@@ -47,9 +47,9 @@ api_name:
 
 ## -parameters
 
-### -param pPSUIInfo 
+### -param pPSUIInfo [in]
 
-[in]
+
 
 ### -param lParam
 

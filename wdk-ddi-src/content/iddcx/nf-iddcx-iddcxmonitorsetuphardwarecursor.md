@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param MonitorObject 
+### -param MonitorObject [in]
 
-[in]
+
 The handle the OS provided to identify the monitor
 
-### -param pInArgs 
+### -param pInArgs [in]
 
-[in]
+
 Input arguments of function
 
 ## -returns

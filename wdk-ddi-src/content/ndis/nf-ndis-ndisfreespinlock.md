@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param SpinLock 
+### -param SpinLock [in]
 
-[in]
+
 Pointer to the spin lock to be deinitialized.
 
 ## -remarks

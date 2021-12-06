@@ -51,9 +51,9 @@ The <b>GetCompletionParams</b> method retrieves the parameters object for the co
 
 ## -parameters
 
-### -param ppCompletionParams 
+### -param ppCompletionParams [out]
 
-[out]
+
 A pointer to a variable that receives a pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfrequestcompletionparams">IWDFRequestCompletionParams</a> interface.
 
 ## -see-also

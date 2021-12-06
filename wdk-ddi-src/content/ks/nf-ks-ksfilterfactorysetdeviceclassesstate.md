@@ -50,14 +50,14 @@ The <b>KsFilterFactorySetDeviceClassesState</b> function enables or disables the
 
 ## -parameters
 
-### -param FilterFactory 
+### -param FilterFactory [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> for which to change device class status.
 
-### -param NewState 
+### -param NewState [in]
 
-[in]
+
 If set to <b>TRUE</b>, the device classes are enabled; if <b>FALSE</b>, they are disabled.
 
 ## -returns

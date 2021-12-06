@@ -49,14 +49,14 @@ The<b> MRxAreFilesAliased</b> routine is called by <a href="/windows-hardware/dr
 
 ## -parameters
 
-### -param Fcb1 
+### -param Fcb1 [in]
 
-[in]
+
 A pointer to the first FCB structure.
 
-### -param Fcb2 
+### -param Fcb2 [in]
 
-[in]
+
 A pointer to the second FCB structure.
 
 ## -returns

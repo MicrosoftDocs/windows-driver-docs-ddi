@@ -47,8 +47,6 @@ api_name:
 
 Notifies the print system that the XML DOM object has changed.
 
-## -parameters
-
 ## -returns
 
 This method returns an HRESULT value.

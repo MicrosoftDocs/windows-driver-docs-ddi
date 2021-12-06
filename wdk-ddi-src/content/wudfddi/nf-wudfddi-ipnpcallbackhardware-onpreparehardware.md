@@ -51,9 +51,9 @@ The <b>OnPrepareHardware</b> method notifies a driver to make the specified hard
 
 ## -parameters
 
-### -param pWdfDevice 
+### -param pWdfDevice [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface for the device object of the device to make accessible.
 
 ## -returns

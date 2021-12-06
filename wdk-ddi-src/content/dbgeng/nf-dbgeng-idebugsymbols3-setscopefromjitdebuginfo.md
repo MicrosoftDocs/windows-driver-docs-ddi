@@ -50,14 +50,14 @@ Recovers just-in-time (JIT) debugging information and sets current
 
 ## -parameters
 
-### -param OutputControl 
+### -param OutputControl [in]
 
-[in]
+
 An output control.
 
-### -param InfoOffset 
+### -param InfoOffset [in]
 
-[in]
+
 An offset for the debugging information.
 
 ## -returns

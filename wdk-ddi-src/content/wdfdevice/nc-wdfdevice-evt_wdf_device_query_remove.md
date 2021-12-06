@@ -51,9 +51,9 @@ A driver's <i>EvtDeviceQueryRemove</i> event callback function determines whethe
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
 ## -returns

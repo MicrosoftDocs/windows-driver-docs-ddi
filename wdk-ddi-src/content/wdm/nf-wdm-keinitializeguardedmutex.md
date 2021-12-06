@@ -49,9 +49,9 @@ The <b>KeInitializeGuardedMutex</b> routine initializes a guarded mutex.
 
 ## -parameters
 
-### -param Mutex 
+### -param Mutex [out]
 
-[out]
+
 Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">KGUARDED_MUTEX</a> structure to initialize. The storage must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
 
 ## -remarks

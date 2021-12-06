@@ -49,19 +49,19 @@ Writes a byte array property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The array to write to.
 
-### -param cbValue 
+### -param cbValue [in]
 
-[in]
+
 The number of bytes to write.
 
 ### -param pValue
 
-#### - rgbValue [in]
+### -param rgbValue [in]
 
 The values to write.
 

@@ -52,17 +52,17 @@ The D3DDDIARG_UPDATEPALETTE structure describes parameters that are used to upda
 
 ## -struct-fields
 
-### -field PaletteHandle
+### -field PaletteHandle [in]
 
-[in] A handle to the palette to be altered.
+A handle to the palette to be altered.
 
-### -field StartIndex
+### -field StartIndex [in]
 
-[in] The index in the palette beyond which data is updated.
+The index in the palette beyond which data is updated.
 
-### -field NumEntries
+### -field NumEntries [in]
 
-[in] The number of PALETTEENTRY structures that are being updated. For more information about PALETTEENTRY, see the Microsoft Windows SDK documentation.
+The number of PALETTEENTRY structures that are being updated. For more information about PALETTEENTRY, see the Microsoft Windows SDK documentation.
 
 ## -remarks
 

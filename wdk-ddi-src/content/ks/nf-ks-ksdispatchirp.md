@@ -50,14 +50,14 @@ api_name:
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Specifies a pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> to which the specific file object belongs.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Contains the IRP for which to call a dispatch routine.
 
 ## -returns

@@ -47,8 +47,6 @@ api_name:
 
 The <b>ResetScope</b> method resets the current scope to the default scope of the current thread.
 
-## -parameters
-
 ## -returns
 
 <table>

@@ -49,29 +49,29 @@ The **KeWaitForSingleObject** routine puts the current thread into a wait state 
 
 ## -parameters
 
-### -param Object 
+### -param Object [in]
 
-[in]
+
 Pointer to an initialized dispatcher object (event, mutex, semaphore, thread, or timer) for which the caller supplies the storage.
 
-### -param WaitReason 
+### -param WaitReason [in]
 
-[in]
+
 Specifies the reason for the wait. A driver should set this value to **Executive**, unless it is doing work on behalf of a user and is running in the context of a user thread, in which case it should set this value to **UserRequest**.
 
-### -param WaitMode 
+### -param WaitMode [in]
 
-[in]
+
 Specifies whether the caller waits in **KernelMode** or **UserMode**. Lowest-level and intermediate drivers should specify **KernelMode**. If the given *Object* is a mutex, the caller must specify **KernelMode**.
 
-### -param Alertable 
+### -param Alertable [in]
 
-[in]
+
 Specifies a Boolean value that is **TRUE** if the wait is alertable and **FALSE** otherwise.
 
-### -param Timeout 
+### -param Timeout [in, optional]
 
-[in, optional]
+
 Pointer to a time-out value that specifies the absolute or relative time, in 100-nanosecond units, at which the wait is to be completed.
 
 A positive value specifies an absolute time, relative to January 1, 1601. A negative value specifies an interval relative to the current time. Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes. 

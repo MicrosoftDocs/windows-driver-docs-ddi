@@ -50,18 +50,18 @@ Notifies the USB connector manager framework extension (UcmCx) with the power so
 
 ## -parameters
 
-### -param Connector 
+### -param Connector [in]
 
-[in]
+
 Handle to the connector object that the client driver received in the previous call to <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>.
 
 ### -param Pdos
 
 <p>A caller-allocated array of <a href="/windows-hardware/drivers/ddi/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object"><b>UCM_PD_POWER_DATA_OBJECT</b></a> structures that describes the power source capabilities.</p>
 
-### -param PdoCount 
+### -param PdoCount [in]
 
-[in]
+
 Number of elements in the array specified by   <i>Pdos[]</i>.
 
 ## -returns

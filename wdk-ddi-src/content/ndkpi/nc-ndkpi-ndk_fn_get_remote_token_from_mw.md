@@ -49,9 +49,9 @@ The <i>NdkGetRemoteTokenFromMw</i> (<i>NDK_FN_GET_REMOTE_TOKEN_FROM_MW</i>) func
 
 ## -parameters
 
-### -param pNdkMw 
+### -param pNdkMw [in]
 
-[in]
+
 A pointer to an NDK memory window (MW) object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mw">NDK_MW</a>).
 
 ## -returns

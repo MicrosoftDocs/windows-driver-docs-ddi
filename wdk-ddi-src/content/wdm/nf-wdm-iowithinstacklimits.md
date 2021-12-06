@@ -49,14 +49,14 @@ The <b>IoWithinStackLimits</b> routine determines whether a region of memory is 
 
 ## -parameters
 
-### -param RegionStart 
+### -param RegionStart [in]
 
-[in]
+
 A pointer to the start of the region.
 
-### -param RegionSize 
+### -param RegionSize [in]
 
-[in]
+
 The size of the region.
 
 ## -returns

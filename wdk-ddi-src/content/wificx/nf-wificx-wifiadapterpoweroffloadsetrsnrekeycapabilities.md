@@ -2,9 +2,9 @@
 UID: NF:wificx.WifiAdapterPowerOffloadSetRsnRekeyCapabilities
 tech.root: netvista
 title: WifiAdapterPowerOffloadSetRsnRekeyCapabilities
-ms.date: 04/30/2021
+ms.date: 09/14/2021
 targetos: Windows
-description: "Microsoft reserves the WifiAdapterPowerOffloadSetRsnRekeyCapabilities function for internal use only. Don't use this function in your code."
+description: The WifiAdapterPowerOffloadSetRsnRekeyCapabilities function sets a WiFiCx net adapter's RSN rekey power offload capabilities.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -12,13 +12,13 @@ req.dll:
 req.header: wificx.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
@@ -41,22 +41,22 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WifiAdapterPowerOffloadSetRsnRekeyCapabilities** function sets a WiFiCx net adapter's RSN rekey power offload capabilities.
 
 ## -parameters
 
 ### -param Adapter
 
-Reserved.
+[_In_] A handle to a NetAdapterCx NETADAPTER object obtained in a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
 ### -param Capabilities
 
-Reserved.
+[_In_] A pointer to a driver-allocated and initialized [**WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES**](ns-wificx-wifi_adapter_power_offload_rsn_rekey_capabilities.md) structure.
 
 ## -remarks
 
+The client driver typically calls this function from within [*EVT_DEVICE_PREPARE_HARDWARE*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md).
+
 ## -see-also
 
+[**WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES**](ns-wificx-wifi_adapter_power_offload_rsn_rekey_capabilities.md)

@@ -45,9 +45,9 @@ dev_langs:
 
 ## -parameters
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] Pointer to a [**DXGKARGCB_FREE_ADL**](ns-d3dkmddi-dxgkargcb_free_adl.md) structure that describes the ADL to destroy.
+Pointer to a [**DXGKARGCB_FREE_ADL**](ns-d3dkmddi-dxgkargcb_free_adl.md) structure that describes the ADL to destroy.
 
 ## -remarks
 

@@ -45,8 +45,6 @@ api_name:
 
 The search record passed to EnumerateChildrenEx specifically for SymbolType searches.
 
-## -parameters
-
 ## -returns
 
 This function is a constructor and does not return a value.

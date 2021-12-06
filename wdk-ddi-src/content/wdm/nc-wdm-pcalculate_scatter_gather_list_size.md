@@ -49,34 +49,34 @@ The <b>CalculateScatterGatherList</b> routine calculates the size, in bytes, of 
 
 ## -parameters
 
-### -param DmaAdapter 
+### -param DmaAdapter [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
-### -param Mdl 
+### -param Mdl [in, optional]
 
-[in, optional]
+
 Either <b>NULL</b> or a pointer to the MDL that contains the buffer.
 
-### -param CurrentVa 
+### -param CurrentVa [in]
 
-[in]
+
 Pointer to the virtual address of the beginning of the buffer.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the length of the buffer, in bytes.
 
-### -param ScatterGatherListSize 
+### -param ScatterGatherListSize [out]
 
-[out]
+
 Pointer to the variable the routine uses to return the size of the scatter/gather list, in bytes.
 
 ### -param pNumberOfMapRegisters
 
-#### - NumberOfMapRegisters [out, optional]
+### -param NumberOfMapRegisters [out, optional]
 
 Either <b>NULL</b> or pointer to the variable the routine uses to return the number of map registers needed for DMA operations on the buffer.
 

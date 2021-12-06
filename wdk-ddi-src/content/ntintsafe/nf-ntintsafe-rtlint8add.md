@@ -49,19 +49,19 @@ Adds two values of type <b>INT8</b>.
 
 ## -parameters
 
-### -param i8Augend 
+### -param i8Augend [in]
 
-[in]
+
 The first value in the equation.
 
-### -param i8Addend 
+### -param i8Addend [in]
 
-[in]
+
 The value to add to <i>i8Augend</i>.
 
-### -param pi8Result 
+### -param pi8Result [out]
 
-[out]
+
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

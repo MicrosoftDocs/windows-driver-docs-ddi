@@ -54,19 +54,19 @@ The <b>WdfRequestSetCompletionRoutine</b> method registers or deregisters a comp
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
-### -param CompletionRoutine 
+### -param CompletionRoutine [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function, if the driver is registering a completion routine, or <b>NULL</b> of the driver is deregistering a previously registered completion routine.
 
-### -param CompletionContext 
+### -param CompletionContext [in, optional]
 
-[in, optional]
+
 An untyped pointer to driver-defined context information that the framework passes to the <a href="/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function. This parameter is optional and can be <b>NULL</b>.
 
 ## -remarks

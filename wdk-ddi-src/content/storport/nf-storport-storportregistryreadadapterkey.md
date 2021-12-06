@@ -49,21 +49,21 @@ The **StorPortRegistryReadAdapterKey** routine is called by the miniport driver 
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls [**StorPortInitialize**](nf-storport-storportinitialize.md). The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls [**StorPortInitialize**](nf-storport-storportinitialize.md). The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
 
-### -param SubKeyName
+### -param SubKeyName [in, optional]
 
-[in, optional] The miniport subkey.
+The miniport subkey.
 
-### -param ValueName
+### -param ValueName [in]
 
-[in] The name of the Value under the key.
+The name of the Value under the key.
 
-### -param ValueType
+### -param ValueType [in]
 
-[in] One of the following registry data types.
+One of the following registry data types.
 
 | Type | Meaning |
 | ---- | ------- |
@@ -81,13 +81,13 @@ The **StorPortRegistryReadAdapterKey** routine is called by the miniport driver 
 | REG_QWORD                      | 64-bit quadlet number. |
 | REG_QWORD_LITTLE_ENDIAN        | 64-bit quadlet number with a little-endian format. |
 
-### -param ValueData
+### -param ValueData [in, out]
 
-[in, out] Pointer to a the data that contains the registry data to be read. The data is converted from UNICODE to a NULL-terminated ASCII string.
+Pointer to a the data that contains the registry data to be read. The data is converted from UNICODE to a NULL-terminated ASCII string.
 
-### -param ValueDataLength
+### -param ValueDataLength [in, out]
 
-[in, out] Specifies the size of the data pointed to by **ValueData**.
+Specifies the size of the data pointed to by **ValueData**.
 
 ## -returns
 

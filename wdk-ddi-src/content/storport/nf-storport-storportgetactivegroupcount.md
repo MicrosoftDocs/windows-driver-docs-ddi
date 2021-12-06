@@ -49,14 +49,14 @@ The <b>StorPortGetActiveGroupCount</b> routine returns the number of processor g
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param NumberGroups 
+### -param NumberGroups [out]
 
-[out]
+
 A pointer to a variable that holds the number of groups.
 
 ## -returns

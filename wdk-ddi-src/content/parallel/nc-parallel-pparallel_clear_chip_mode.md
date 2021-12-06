@@ -49,14 +49,14 @@ The <i>PPARALLEL_CLEAR_CHIP_MODE</i>-typed callback routine clears the operating
 
 ## -parameters
 
-### -param ClearChipContext 
+### -param ClearChipContext [in]
 
-[in]
+
 Pointer to the device extension of a parallel port's functional device object (<a href="/windows-hardware/drivers/">FDO</a>).
 
-### -param ChipMode 
+### -param ChipMode [in]
 
-[in]
+
 Specifies the current operating mode of the parallel port.
 
 For more information about operating modes, see the modes that are defined for the enhanced capabilities register (ECR) in the <i>parallel.h</i> file that is included in the Microsoft Windows Driver Kit (WDK).

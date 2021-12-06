@@ -49,14 +49,14 @@ The <b>ZwOpenDirectoryObject</b> routine opens an existing directory object.
 
 ## -parameters
 
-### -param DirectoryHandle 
+### -param DirectoryHandle [out]
 
-[out]
+
 Handle for the newly opened directory object.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> structure specifying the requested types of access being requested for this directory object. A caller can specify one or a combination of the following.
 
 <table>
@@ -119,9 +119,9 @@ All of the preceding rights plus STANDARD_RIGHTS_REQUIRED.
 
 These requested access types are compared with the object's discretionary access-control list (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">DACL</a>) to determine which accesses are granted or denied.
 
-### -param ObjectAttributes 
+### -param ObjectAttributes [in]
 
-[in]
+
 Specified attributes for the directory object supplied by the caller. This parameter is initialized by calling the <b>InitializeObjectAttributes</b> macro.
 
 ## -returns

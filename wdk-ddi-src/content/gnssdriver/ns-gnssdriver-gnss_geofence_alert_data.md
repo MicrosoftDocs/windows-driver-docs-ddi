@@ -83,7 +83,7 @@ The fix used to determine the geofence breach. Instead of the full set of fix da
 
 
 
-#### - Unused[512]
+### -field Unused[512]
 
 Padding buffer.
 

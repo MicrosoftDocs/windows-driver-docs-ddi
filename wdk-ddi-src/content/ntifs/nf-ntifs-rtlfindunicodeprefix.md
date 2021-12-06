@@ -49,19 +49,19 @@ The <b>RtlFindUnicodePrefix</b> routine searches for the best match for a given 
 
 ## -parameters
 
-### -param PrefixTable 
+### -param PrefixTable [in]
 
-[in]
+
 Pointer to the prefix table. The table must have been initialized by calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializeunicodeprefix">RtlInitializeUnicodePrefix</a>.
 
-### -param FullName 
+### -param FullName [in]
 
-[in]
+
 Pointer to a Unicode string containing the full pathname for a file.
 
-### -param CaseInsensitiveIndex 
+### -param CaseInsensitiveIndex [in]
 
-[in]
+
 Position in the file name and prefix strings at which the comparison is to become case-insensitive. The string comparison is case-sensitive for the first <i>CaseInsensitiveIndex</i> characters in each string, case-insensitive for the remainder of the string.
 
 <table>

@@ -50,14 +50,14 @@ The <b>TapeClassZeroMemory</b> routine fills a buffer with zeros.
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [in, out]
 
-[in, out]
+
 Pointer to the buffer that needs to be cleared.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size of the buffer, in bytes.
 
 ## -returns

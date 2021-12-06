@@ -49,29 +49,29 @@ The <b>AddSyntheticSymbol</b>  method adds a synthetic symbol to a module in the
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location in the process's virtual address space of the synthetic symbol.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 Specifies the size in bytes of the synthetic symbol.
 
-### -param Name 
+### -param Name [in]
 
-[in]
+
 Specifies the name of the synthetic symbol.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Set to DEBUG_ADDSYNTHSYM_DEFAULT.
 
-### -param Id 
+### -param Id [out, optional]
 
-[out, optional]
+
 Receives the <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a> structure that identifies the synthetic symbol.  If <i>Id</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

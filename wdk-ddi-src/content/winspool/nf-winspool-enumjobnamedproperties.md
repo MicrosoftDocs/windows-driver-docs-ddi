@@ -47,19 +47,19 @@ api_name:
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
 
-### -param JobId 
 
-[in]
+### -param JobId [in]
 
-### -param pcProperties 
 
-[out]
 
-### -param ppProperties 
+### -param pcProperties [out]
 
-[out]
+
+
+### -param ppProperties [out]
+
+
 

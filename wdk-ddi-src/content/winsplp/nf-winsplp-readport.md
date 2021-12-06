@@ -50,23 +50,23 @@ A port monitor's <code>ReadPort</code> function reads data from a printer port.
 
 ## -parameters
 
-### -param hPort 
+### -param hPort [in]
 
-[in]
+
 Caller-supplied port handle.
 
-### -param pBuffer 
+### -param pBuffer [out]
 
-[out]
+
 Caller-supplied pointer to a buffer to receive data read from the port.
 
 ### -param cbBuffer
 
 Caller-supplied size, in bytes, of <i>pBuffer</i>.
 
-### -param pcbRead 
+### -param pcbRead [out]
 
-[out]
+
 Caller-supplied pointer to a location to receive the number of bytes successfully read from the port.
 
 ## -returns

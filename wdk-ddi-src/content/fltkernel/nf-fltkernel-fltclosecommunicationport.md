@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param ServerPort 
+### -param ServerPort [in]
 
-[in]
+
 Opaque port handle for the server port to be closed. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns

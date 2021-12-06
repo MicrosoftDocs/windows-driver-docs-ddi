@@ -47,8 +47,6 @@ Decrements the reference count for an interface on an object.
 
 For more information, see [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](/cpp/atl/introduction-to-com).
 
-## -parameters
-
 ## -returns
 
 This method returns ULONG.

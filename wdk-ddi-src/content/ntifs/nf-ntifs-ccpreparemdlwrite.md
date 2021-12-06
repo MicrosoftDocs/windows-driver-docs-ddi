@@ -49,29 +49,29 @@ The <b>CcPrepareMdlWrite</b> routine provides direct access to cached file memor
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to a file object for the cached file.
 
-### -param FileOffset 
+### -param FileOffset [in]
 
-[in]
+
 Pointer to a variable that specifies the starting byte offset within the cached file where the data is to be written.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Length in bytes of the data to be written to the system cache.
 
-### -param MdlChain 
+### -param MdlChain [out]
 
-[out]
+
 A chain of one or more memory descriptor lists (MDL) describing the pages to which the data is to be written.
 
-### -param IoStatus 
+### -param IoStatus [out]
 
-[out]
+
 Pointer to an IO_STATUS_BLOCK structure. If the call to <b>CcPrepareMdlWrite</b> succeeds, <i>IoStatus.Status</i> is set to STATUS_SUCCESS. Otherwise, it is set to an appropriate NTSTATUS error code. <i>IoStatus.Information</i> is set to the actual number of bytes that were successfully locked down in the MDL chain.
 
 ## -remarks
@@ -116,7 +116,7 @@ To cache a file, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccini
 
 
 
-[MmGetMdlByteOffset](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmgetmdlbyteoffset)
+[MmGetMdlByteOffset](../wdm/nf-wdm-mmgetmdlbyteoffset.md)
 
 
 
@@ -136,7 +136,7 @@ To cache a file, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccini
 
 
 
-[MmInitializeMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-mminitializemdl)
+[MmInitializeMdl](../wdm/nf-wdm-mminitializemdl.md)
 
 
 
@@ -144,7 +144,7 @@ To cache a file, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccini
 
 
 
-[MmPrepareMdlForReuse](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmpreparemdlforreuse)
+[MmPrepareMdlForReuse](../wdm/nf-wdm-mmpreparemdlforreuse.md)
 
 
 

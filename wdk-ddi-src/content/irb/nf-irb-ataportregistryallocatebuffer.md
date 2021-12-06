@@ -53,9 +53,9 @@ The <b>AtaPortRegistryAllocateBuffer</b> routine allocates a buffer for registry
 
 ## -parameters
 
-### -param ChannelExtension 
+### -param ChannelExtension [in]
 
-[in]
+
 A pointer to the channel extension.
 
 ### -param BufferSize

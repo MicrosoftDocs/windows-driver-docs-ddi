@@ -49,9 +49,9 @@ Byte position notify for MXF graph.
 
 ## -parameters
 
-### -param bytePosition 
+### -param bytePosition [in]
 
-[in]
+
 
 ## -returns
 

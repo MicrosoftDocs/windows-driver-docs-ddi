@@ -49,19 +49,19 @@ The <b>GetString</b> method searches a <a href="/windows-hardware/drivers/ddi/ex
 
 ## -parameters
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
-### -param Str 
+### -param Str [out]
 
-[out]
+
 A pointer to a buffer that receives the string value from the entry's data block.
 
-### -param MaxSize 
+### -param MaxSize [in]
 
-[in]
+
 The size, in bytes, of the buffer pointed to by <i>Str</i>.
 
 ## -returns

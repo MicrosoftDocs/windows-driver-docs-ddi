@@ -42,191 +42,95 @@ api_name:
 
 # FltLockUserBuffer function
 
-
 ## -description
 
-The <b>FltLockUserBuffer</b> routine locks the user buffer for a given I/O operation.
+The **FltLockUserBuffer** routine locks the user buffer for a given I/O operation.
 
 ## -parameters
 
-### -param CallbackData 
+### -param CallbackData [in]
 
-[in]
-Pointer to the callback data  structure for the I/O operation (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>).
+Pointer to the callback data  structure for the I/O operation ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)).
 
 ## -returns
 
-If the user buffer is successfully locked, <b>FltLockUserBuffer</b> returns STATUS_SUCCESS. (This is the case even if the buffer was already locked by a previous call to <b>FltLockUserBuffer</b>.) Otherwise, it returns an appropriate NTSTATUS value, such as one of the following: 
+If the user buffer is successfully locked, **FltLockUserBuffer** returns STATUS_SUCCESS. (This is the case even if the buffer was already locked by a previous call to **FltLockUserBuffer**.) Otherwise, it returns an appropriate NTSTATUS value, such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>FltLockUserBuffer</b> encountered a pool allocation failure. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The I/O operation is not one of the operations listed in the following Remarks section. This is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_INSUFFICIENT_RESOURCES | **FltLockUserBuffer** encountered a pool allocation failure. This is an error code. |
+| STATUS_INVALID_PARAMETER      | The I/O operation is not one of the operations listed in the following Remarks section. This is an error code. |
 
 ## -remarks
 
-A minifilter driver calls <b>FltLockUserBuffer</b> to lock the user buffer for one of the following I/O operations: 
+A minifilter driver calls **FltLockUserBuffer** to lock the user buffer for one of the following I/O operations:
 
-<ul>
-<li>
-IRP_MJ_DEVICE_CONTROL
+* IRP_MJ_DEVICE_CONTROL
+* IRP_MJ_DIRECTORY_CONTROL
+* IRP_MJ_FILE_SYSTEM_CONTROL
+* IRP_MJ_INTERNAL_DEVICE_CONTROL
+* IRP_MJ_QUERY_EA
+* IRP_MJ_QUERY_QUOTA
+* IRP_MJ_QUERY_SECURITY
+* IRP_MJ_READ
+* IRP_MJ_SET_EA
+* IRP_MJ_SET_QUOTA
+* IRP_MJ_WRITE
 
-</li>
-<li>
-IRP_MJ_DIRECTORY_CONTROL
+**FltLockUserBuffer** determines the appropriate access method (IoReadAccess, IoWriteAccess, or IoModifyAccess) to apply for the locked buffer based on the type of I/O operation.
 
-</li>
-<li>
-IRP_MJ_FILE_SYSTEM_CONTROL
+**FltLockUserBuffer** sets the **MdlAddress** (or **OutputMdlAddress**) member  in the callback data parameter structure ([**FLT_PARAMETERS**](ns-fltkernel-_flt_parameters.md)) to point to the MDL for the locked pages. If there is no MDL, **FltLockUserBuffer** allocates one.
 
-</li>
-<li>
-IRP_MJ_INTERNAL_DEVICE_CONTROL
+If the callback data parameter structure contains a system buffer and does not contain a user buffer, **FltLockUserBuffer** locks the system buffer. If there is no MDL for the system buffer, **FltLockUserBuffer** allocates one.
 
-</li>
-<li>
-IRP_MJ_QUERY_EA
+If **FltLockUserBuffer** is called from a preoperation callback routine ([**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)) and it allocates an MDL, **FltLockUserBuffer** sets the FLTFL_CALLBACK_DATA_DIRTY flag in the callback data structure ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) so that the I/O system frees the MDL when the I/O operation is completed.
 
-</li>
-<li>
-IRP_MJ_QUERY_QUOTA
+To conserve system page table entries (PTE), **FltLockUserBuffer** does not map the locked pages. After calling **FltLockUserBuffer**, the caller must call [MmGetSystemAddressForMdlSafe](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md), passing the **MdlAddress** (or **OutputMdlAddress**) member in the callback data parameter structure as the value of the **Mdl** parameter, to get a system buffer that represents this memory.
 
-</li>
-<li>
-IRP_MJ_QUERY_SECURITY
+Use of **FltLockUserBuffer** can slow system performance. This is not because of **FltLockUserBuffer** itself, but rather because of the performance penalty incurred by [MmGetSystemAddressForMdlSafe](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md).
 
-</li>
-<li>
-IRP_MJ_READ
+The caller can be running in any process context. **FltLockUserBuffer** automatically locks the buffer in the correct process context.
 
-</li>
-<li>
-IRP_MJ_SET_EA
+When the callback data structure is freed, the locked buffer is automatically unlocked, and the MDL is freed. The caller should never free the MDL; the I/O system does this automatically.
 
-</li>
-<li>
-IRP_MJ_SET_QUOTA
-
-</li>
-<li>
-IRP_MJ_WRITE
-
-</li>
-</ul>
-<b>FltLockUserBuffer</b> determines the appropriate access method (IoReadAccess, IoWriteAccess, or IoModifyAccess) to apply for the locked buffer based on the type of I/O operation. 
-
-<b>FltLockUserBuffer</b> sets the <b>MdlAddress</b> (or <b>OutputMdlAddress</b>) member  in the callback data parameter structure (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_parameters">FLT_PARAMETERS</a>) to point to the MDL for the locked pages. If there is no MDL, <b>FltLockUserBuffer</b> allocates one. 
-
-If the callback data parameter structure contains a system buffer and does not contain a user buffer, <b>FltLockUserBuffer</b> locks the system buffer. If there is no MDL for the system buffer, <b>FltLockUserBuffer</b> allocates one. 
-
-If <b>FltLockUserBuffer</b> is called from a preoperation callback routine (<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>) and it allocates an MDL, <b>FltLockUserBuffer</b> sets the FLTFL_CALLBACK_DATA_DIRTY flag in the callback data structure (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) so that the I/O system frees the MDL when the I/O operation is completed. 
-
-To conserve system page table entries (PTE), <b>FltLockUserBuffer</b> does not map the locked pages. After calling <b>FltLockUserBuffer</b>, the caller must call [MmGetSystemAddressForMdlSafe](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md), passing the <b>MdlAddress</b> (or <b>OutputMdlAddress</b>) member in the callback data parameter structure as the value of the <i>Mdl</i> parameter, to get a system buffer that represents this memory. 
-
-Use of <b>FltLockUserBuffer</b> can slow system performance. This is not because of <b>FltLockUserBuffer</b> itself, but rather because of the performance penalty incurred by [MmGetSystemAddressForMdlSafe](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md). 
-
-The caller can be running in any process context. <b>FltLockUserBuffer</b> automatically locks the buffer in the correct process context. 
-
-When the callback data structure is freed, the locked buffer is automatically unlocked, and the MDL is freed. The caller should never free the MDL; the I/O system does this automatically. 
-
-<b>FltLockUserBuffer</b> can be called for fast I/O and IRP-based operations.
+**FltLockUserBuffer** can be called for fast I/O and IRP-based operations.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
+[**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)
 
+[**FLT_IS_FASTIO_OPERATION**](nf-fltkernel-flt_is_fastio_operation.md)
 
+[**FLT_IS_IRP_OPERATION**](/previous-versions/ff544654(v=vs.85))
 
-<a href="/windows-hardware/drivers/ddi/index">FLT_IS_FASTIO_OPERATION</a>
+[**FLT_IS_SYSTEM_BUFFER**](/previous-versions/ff544663(v=vs.85))
 
+[**FLT_PARAMETERS**](ns-fltkernel-_flt_parameters.md)
 
+[**FLT_PARAMETERS for IRP_MJ_DEVICE_CONTROL and IRP_MJ_INTERNAL_DEVICE_CONTROL**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-device-control-and-irp-mj-internal-device-co)
 
-<a href="/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a>
+[**FLT_PARAMETERS for IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-directory-control)
 
+[**FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-file-system-control)
 
+[**FLT_PARAMETERS for IRP_MJ_QUERY_EA**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-ea)
 
-<a href="/previous-versions/ff544663(v=vs.85)">FLT_IS_SYSTEM_BUFFER</a>
+[**FLT_PARAMETERS for IRP_MJ_QUERY_QUOTA**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-quota)
 
+[**FLT_PARAMETERS for IRP_MJ_QUERY_SECURITY**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-security)
 
+[**FLT_PARAMETERS for IRP_MJ_READ**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-read)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_parameters">FLT_PARAMETERS</a>
+[**FLT_PARAMETERS for IRP_MJ_SET_EA**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-set-ea)
 
+[**FLT_PARAMETERS for IRP_MJ_SET_QUOTA**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-set-quota)
 
+[**FLT_PARAMETERS for IRP_MJ_WRITE**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-write)
 
-<a href="/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-device-control-and-irp-mj-internal-device-co">FLT_PARAMETERS for IRP_MJ_DEVICE_CONTROL and IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
+[**FltDecodeParameters**](nf-fltkernel-fltdecodeparameters.md)
 
+[**MmGetSystemAddressForMdlSafe**](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md)
 
+[**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)
 
-<a href="/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-directory-control">FLT_PARAMETERS for IRP_MJ_DIRECTORY_CONTROL</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-file-system-control">FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-ea">FLT_PARAMETERS for IRP_MJ_QUERY_EA</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-quota">FLT_PARAMETERS for IRP_MJ_QUERY_QUOTA</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-security">FLT_PARAMETERS for IRP_MJ_QUERY_SECURITY</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-read">FLT_PARAMETERS for IRP_MJ_READ</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-set-ea">FLT_PARAMETERS for IRP_MJ_SET_EA</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-set-quota">FLT_PARAMETERS for IRP_MJ_SET_QUOTA</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-write">FLT_PARAMETERS for IRP_MJ_WRITE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdecodeparameters">FltDecodeParameters</a>
-
-
-
-[MmGetSystemAddressForMdlSafe](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md)
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>
+[**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)

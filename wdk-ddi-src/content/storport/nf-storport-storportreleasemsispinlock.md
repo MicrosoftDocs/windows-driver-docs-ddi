@@ -49,18 +49,18 @@ The **StorPortReleaseMSISpinLock** routine releases a previously acquired messag
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param MessageId
 
 The identifier of the message.
 
-### -param OldIrql 
+### -param OldIrql [in]
 
-[in]
+
 The IRQL that the [**StorPortAcquireMSISpinLock**](nf-storport-storportacquiremsispinlock.md) routine returned when the miniport driver acquired the spin lock.
 
 ## -returns

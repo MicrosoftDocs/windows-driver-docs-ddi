@@ -81,6 +81,14 @@ The device supports boot files. This constant is available in version 1.11 and l
 
 For internal use only.
 
+### -field WdfSpecialFilePostDisplay
+
+The device supports a POST display adapter.
+
+### -field WdfSpecialFileGuestAssigned
+
+The device stack is assigned to a guest setting.
+
 ## -remarks
 
 For more information, see <a href="/windows-hardware/drivers/wdf/supporting-special-files">Supporting Special Files</a>.
@@ -89,3 +97,6 @@ For more information, see <a href="/windows-hardware/drivers/wdf/supporting-spec
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetspecialfilesupport">WdfDeviceSetSpecialFileSupport</a>
 
+[EVT_WDF_DEVICE_USAGE_NOTIFICATION callback function](./nc-wdfdevice-evt_wdf_device_usage_notification.md)
+
+[DEVICE_USAGE_NOTIFICATION_TYPE enumeration](../wdm/ne-wdm-device_usage_notification_type.md)

@@ -50,21 +50,21 @@ Notifies the USB connector manager framework extension (UcmCx) with the new data
 
 ## -parameters
 
-### -param Connector 
+### -param Connector [in]
 
-[in]
+
 Handle to the connector object that the client driver received in the previous call to <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>.
 
-### -param Success 
+### -param Success [in]
 
-[in]
+
 Used to indicate failure of a data-role swap that was initiated by UcmCx using <a href="/windows-hardware/drivers/ddi/ucmmanager/nc-ucmmanager-evt_ucm_connector_set_data_role">EVT_UCM_CONNECTOR_SET_DATA_ROLE</a>. 
 
 If TRUE, the operation was successful. FALSE, otherwise.
 
-### -param CurrentDataRole 
+### -param CurrentDataRole [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_typec_partner">UCM_TYPEC_PARTNER</a> value that indicates the new data role.
 
 ## -returns

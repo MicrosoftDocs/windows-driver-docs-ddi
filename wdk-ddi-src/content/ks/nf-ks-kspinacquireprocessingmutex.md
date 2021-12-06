@@ -50,9 +50,9 @@ The<b> KsPinAcquireProcessingMutex </b>function acquires the processing mutex fo
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which to acquire the processing mutex.
 
 ## -remarks

@@ -46,13 +46,13 @@ dev_langs:
 
 ## -parameters
 
-### -param PoolType
+### -param PoolType [in]
 
-[in] The type of pool memory to allocate for the auto-expand push lock. See [**POOL_TYPE**](../wdm/ne-wdm-_pool_type.md) for a description of the available pool memory types. You can modify the **PoolType** value by bitwise-ORing it with the POOL_RAISE_IF_ALLOCATION_FAILURE flag. This flag causes an exception to be raised if the allocation request cannot be satisfied.
+The type of pool memory to allocate for the auto-expand push lock. See [**POOL_TYPE**](../wdm/ne-wdm-_pool_type.md) for a description of the available pool memory types. You can modify the **PoolType** value by bitwise-ORing it with the POOL_RAISE_IF_ALLOCATION_FAILURE flag. This flag causes an exception to be raised if the allocation request cannot be satisfied.
 
-### -param Tag
+### -param Tag [in]
 
-[in] The pool tag to use for the allocated memory. Specify the pool tag as a non-zero character literal of one to four characters delimited by single quotation marks (for example, 'Tag1'). The string is usually specified in reverse order (for example, '1gaT'). Each ASCII character in the tag must be a value in the range 0x20 (space) to 0x7E (tilde). Each allocation code path should use a unique pool tag to help debuggers and verifiers identify the code path.
+The pool tag to use for the allocated memory. Specify the pool tag as a non-zero character literal of one to four characters delimited by single quotation marks (for example, 'Tag1'). The string is usually specified in reverse order (for example, '1gaT'). Each ASCII character in the tag must be a value in the range 0x20 (space) to 0x7E (tilde). Each allocation code path should use a unique pool tag to help debuggers and verifiers identify the code path.
 
 ## -returns
 

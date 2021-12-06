@@ -51,14 +51,14 @@ The
 
 ## -parameters
 
-### -param _String1 
+### -param _String1 [in]
 
-[in]
+
 A pointer to an NDIS_STRING type that describes the first Unicode string.
 
-### -param _String2 
+### -param _String2 [in]
 
-[in]
+
 A pointer to an NDIS_STRING type that describes the second Unicode string.
 
 ### -param _CaseInsensitive

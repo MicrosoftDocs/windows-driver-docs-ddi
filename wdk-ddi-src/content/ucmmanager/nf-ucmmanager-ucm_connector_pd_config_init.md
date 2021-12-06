@@ -49,14 +49,14 @@ Initializes a <a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_u
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 Pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_pd_config">UCM_CONNECTOR_PD_CONFIG</a> structure to initialize.
 
-### -param SupportedPowerRoles 
+### -param SupportedPowerRoles [in]
 
-[in]
+
 A bitwise OR of <a href="/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_power_role">UCM_POWER_ROLE</a>-typed flags.
 
 ## -see-also

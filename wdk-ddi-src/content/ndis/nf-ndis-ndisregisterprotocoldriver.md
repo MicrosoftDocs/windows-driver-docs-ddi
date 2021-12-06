@@ -52,24 +52,24 @@ A protocol driver calls the
 
 ## -parameters
 
-### -param ProtocolDriverContext 
+### -param ProtocolDriverContext [in, optional]
 
-[in, optional]
+
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information.
 
-### -param ProtocolCharacteristics 
+### -param ProtocolCharacteristics [in]
 
-[in]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_protocol_driver_characteristics">
      NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a> structure that the protocol driver created and initialized
      with its 
      <i>ProtocolXxx</i> function entry points.
 
-### -param NdisProtocolHandle 
+### -param NdisProtocolHandle [out]
 
-[out]
+
 A pointer to a caller-supplied handle variable. NDIS writes a handle to this variable that
      uniquely identifies the driver that is registering. The driver must save this handle for use in
      subsequent 

@@ -49,9 +49,9 @@ The<b> KsFilterGetNextSiblingFilter</b> function returns the next instantiated f
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to find the next sibling filter.
 
 ## -returns

@@ -49,19 +49,19 @@ The <b>RtlInitializeSidEx</b> routine initializes a pre-allocated security ident
 
 ## -parameters
 
-### -param Sid 
+### -param Sid [out]
 
-[out]
+
 Pointer to a caller-allocated SID structure to be initialized.
 
-### -param IdentifierAuthority 
+### -param IdentifierAuthority [in]
 
-[in]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_identifier_authority">SID_IDENTIFIER_AUTHORITY</a> structure to set in the SID structure.
 
-### -param SubAuthorityCount 
+### -param SubAuthorityCount [in]
 
-[in]
+
 Number of sub-authorities to set in the SID.
 
 ### -param ...

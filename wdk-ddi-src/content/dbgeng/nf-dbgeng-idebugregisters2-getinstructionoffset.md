@@ -49,9 +49,9 @@ The <b>GetInstructionOffset</b> method returns the location of the current threa
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [out]
 
-[out]
+
 Receives the location in the target's virtual address space of the target's current instruction.
 
 ## -returns

@@ -1,10 +1,11 @@
 ---
 UID: NF:wificx.WIFI_ADAPTER_TX_PEER_ADDRESS_DEMUX_INIT
 tech.root: netvista
-title: WIFI_ADAPTER_TX_PEER_ADDRESS_DEMUX_INIT
-ms.date: 04/30/2021
+title: WIFI_ADAPTER_TX_PEER_ADDRESS_DEMUX_INIT (wificx.h)
+ms.date: 09/08/2021
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WIFI_ADAPTER_TX_PEER_ADDRESS_DEMUX_INIT function for internal use only. Don't use this function in your code."
+description: WIFI_ADAPTER_TX_PEER_ADDRESS_DEMUX_INIT initializes a WIFI_ADAPTER_TX_DEMUX structure when the Tx DEMUX type is PEER_ADDRESS.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -18,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
@@ -41,22 +42,24 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WIFI_ADAPTER_TX_PEER_ADDRESS_DEMUX_INIT** function initializes a [**WIFI_ADAPTER_TX_DEMUX**](ns-wificx-wifi_adapter_tx_demux.md) structure when the Tx DEMUX type is PEER_ADDRESS.
 
 ## -parameters
 
 ### -param Demux
 
-Reserved.
+[_Out_] A pointer to the [**WIFI_ADAPTER_TX_DEMUX**](ns-wificx-wifi_adapter_tx_demux.md) structure.
 
 ### -param Range
 
-Reserved.
+[_In_] The maximum number of peers.
 
 ## -remarks
 
+For more information, see [Setting up multiple Tx queues](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#setting-up-multiple-tx-queues).
+
 ## -see-also
 
+[**WIFI_ADAPTER_TX_DEMUX**](ns-wificx-wifi_adapter_tx_demux.md)
+
+[Setting up multiple Tx queues](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#setting-up-multiple-tx-queues)

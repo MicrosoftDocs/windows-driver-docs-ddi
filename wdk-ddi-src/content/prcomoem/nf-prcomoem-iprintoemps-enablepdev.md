@@ -85,9 +85,9 @@ Caller-supplied pointer to a <a href="/windows/win32/api/winddi/ns-winddi-devinf
 
 Caller-supplied pointer to a <a href="/windows/win32/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a> structure containing the addresses of the printer driver's graphics DDI hooking functions. For more information, see the following Remarks section.
 
-### -param pDevOem 
+### -param pDevOem [out]
 
-[out]
+
 Receives a method-supplied pointer to a private PDEV structure. (For more information, see the following Remarks section.)
 
 ## -returns

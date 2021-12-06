@@ -49,14 +49,14 @@ The <b>OutputServers</b>  method lists the servers running on a given computer.
 
 ## -parameters
 
-### -param OutputControl 
+### -param OutputControl [in]
 
-[in]
+
 Specifies the output control to use while outputting the servers. For possible values, see <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
-### -param Machine 
+### -param Machine [in]
 
-[in]
+
 Specifies the name of the computer whose servers will be listed.  <i>Machine</i> has the following form:
 
 
@@ -64,9 +64,9 @@ Specifies the name of the computer whose servers will be listed.  <i>Machine</i>
 \\computername
 ```
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies a bit-set that determines which servers to output.  The possible bit flags are:
 
 <table>

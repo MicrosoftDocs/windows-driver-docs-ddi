@@ -52,9 +52,9 @@ The DXVADDI_PVP_SETKEY structure describes a key that the decode device uses to 
 
 ## -struct-fields
 
-### -field ContentKey
+### -field ContentKey [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_pvp_block128">DXVADDI_PVP_KEY128</a> structure that contains the 128-bit key.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_pvp_block128">DXVADDI_PVP_KEY128</a> structure that contains the 128-bit key.
 
 ## -see-also
 

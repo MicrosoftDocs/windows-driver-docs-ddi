@@ -50,9 +50,9 @@ Streams use the <b>StreamClassStreamNotification</b> routine to notify the class
 
 ## -parameters
 
-### -param NotificationType 
+### -param NotificationType [in]
 
-[in]
+
 This is an enumeration value that contains the type of notification that the minidriver is sending.
 
 
@@ -93,29 +93,29 @@ Signals that all events that match the criteria specified in the <i>EventSet</i>
 
 Deletes the event specified by the <i>EventEntry</i> parameter.
 
-### -param StreamObject 
+### -param StreamObject [in]
 
-[in]
+
 Points to the stream object of the stream that the class driver is being notified about.
 
 ### -param ...
 
-#### - EventEntry
+### -param EventEntry
 
 Specify only if <i>NotificationType</i> equals either <b>SignalStreamEvent</b> or <b>DeleteStreamEvent</b>. Pointer to the event to be signaled or deleted. This parameter is optional. 
 
 
-#### - EventId
+### -param EventId
 
 Indicates the event ID against which to match in the event queue for this stream. Specify only if <i>NotificationType</i> equals <b>SignalMultipleStreamEvents</b>. This parameter is optional.
 
 
-#### - EventSet
+### -param EventSet
 
 Identifies the event set against which to match in the event queue for this stream. Specify only if <i>NotificationType</i> equals <b>SignalMultipleStreamEvents</b>. This parameter is optional. 
 
 
-#### - pSrb
+### -param pSrb
 
 Pointer to an <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a> structure. Specify only if <i>NotificationType</i> equals <b>StreamRequestComplete</b>. Pointer to the stream request block that the minidriver has completed processing. Once this routine completes, this address is no longer valid. This parameter is optional.
 

@@ -48,13 +48,13 @@ File system filter drivers and file systems call the **FsRtlRegisterFileSystemFi
 
 ## -parameters
 
-### -param FilterDriverObject
+### -param FilterDriverObject [in]
 
-[in] A pointer to the driver object for the filter or file system driver.
+A pointer to the driver object for the filter or file system driver.
 
-### -param Callbacks
+### -param Callbacks [in]
 
-[in] Pointer to a [**FS_FILTER_CALLBACKS**](ns-ntifs-fs_filter_callbacks.md) structure that contains the entry points of caller-supplied notification callback routines. All of the callback entry points are optional and can be set to **NULL**.
+Pointer to a [**FS_FILTER_CALLBACKS**](ns-ntifs-fs_filter_callbacks.md) structure that contains the entry points of caller-supplied notification callback routines. All of the callback entry points are optional and can be set to **NULL**.
 
 ## -returns
 

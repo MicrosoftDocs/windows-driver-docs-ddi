@@ -49,14 +49,14 @@ Gets a count of the number of channels available for the stream.
 
 ## -parameters
 
-### -param targetType 
+### -param targetType [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/ddi/portcls/ne-portcls-echanneltargettype">eChannelTargetType</a> enumerated value that specifies the  target node type.
 
-### -param pulChannelCount 
+### -param pulChannelCount [out]
 
-[out]
+
 The number of available channels.
 
 ## -returns

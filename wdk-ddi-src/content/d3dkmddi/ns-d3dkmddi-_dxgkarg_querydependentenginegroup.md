@@ -52,17 +52,17 @@ Describes all nodes on the physical display adapter (engine) that are to be quer
 
 ## -struct-fields
 
-### -field NodeOrdinal
+### -field NodeOrdinal [in]
 
-[in] An index of a node within the physical adapter defined by   the <b>EngineOrdinal</b> member that is being queried in a call to <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_querydependentenginegroup">DxgkDdiQueryDependentEngineGroup</a>.
+An index of a node within the physical adapter defined by   the <b>EngineOrdinal</b> member that is being queried in a call to <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_querydependentenginegroup">DxgkDdiQueryDependentEngineGroup</a>.
 
-### -field EngineOrdinal
+### -field EngineOrdinal [in]
 
-[in] An index that defines the physical adapter in a linked display adapter (LDA) configuration that the node defined by <b>NodeOrdinal</b> belongs to.
+An index that defines the physical adapter in a linked display adapter (LDA) configuration that the node defined by <b>NodeOrdinal</b> belongs to.
 
-### -field DependentNodeOrdinalMask
+### -field DependentNodeOrdinalMask [out]
 
-[out] The bitmask that describes all dependent nodes that will be affected by a reset operation.
+The bitmask that describes all dependent nodes that will be affected by a reset operation.
 
 ## -remarks
 

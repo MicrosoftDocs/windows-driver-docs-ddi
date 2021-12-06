@@ -54,9 +54,9 @@ The <b>WdfInterruptQueueDpcForIsr</b> method queues a framework interrupt object
 
 ## -parameters
 
-### -param Interrupt 
+### -param Interrupt [in]
 
-[in]
+
 A handle to a framework interrupt object.
 
 ## -returns

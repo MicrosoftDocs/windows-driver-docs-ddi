@@ -49,9 +49,9 @@ The <b>PoUnregisterPowerSettingCallback</b> routine unregisters a power-setting 
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in, out]
 
-[in, out]
+
 A handle to a callback routine that a driver registered by calling <b>PoRegisterPowerSettingCallback</b>.
 
 ## -returns

@@ -49,19 +49,19 @@ Multiplies one value of type <b>USHORT</b> by another.
 
 ## -parameters
 
-### -param usMultiplicand 
+### -param usMultiplicand [in]
 
-[in]
+
 The value to be multiplied by <i>usMultiplier</i>.
 
-### -param usMultiplier 
+### -param usMultiplier [in]
 
-[in]
+
 The value by which to multiply <i>usMultiplicand</i>.
 
-### -param pusResult 
+### -param pusResult [out]
 
-[out]
+
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

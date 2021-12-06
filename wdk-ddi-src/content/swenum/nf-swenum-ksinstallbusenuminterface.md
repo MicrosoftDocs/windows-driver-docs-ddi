@@ -52,9 +52,9 @@ The <b>KsInstallBusEnumInterface</b> function installs an interface to the deman
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Pointer to an IRP that contains a SWENUM_INSTALL_INTERFACE structure that specifies the demand-load bus enumerator object interface to install. For information about this structure, see the Remarks section below.
 
 ## -returns

@@ -49,34 +49,34 @@ The <b>VideoPortAllocateCommonBuffer</b> function allocates and maps system memo
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param VpDmaAdapter 
+### -param VpDmaAdapter [in]
 
-[in]
+
 Pointer to the <a href="/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This structure was returned by a previous call to <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>.
 
-### -param DesiredLength 
+### -param DesiredLength [in]
 
-[in]
+
 Specifies the requested number of bytes of memory.
 
-### -param LogicalAddress 
+### -param LogicalAddress [out]
 
-[out]
+
 Pointer to a memory location that receives the logical address to be used by the adapter to access the allocated buffer.
 
-### -param CacheEnabled 
+### -param CacheEnabled [in]
 
-[in]
+
 Specifies whether the allocated memory can be cached.  For more information, see the description of the <i>CacheEnabled</i> parameter for <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer">AllocateCommonBuffer</a>.
 
-### -param Reserved 
+### -param Reserved [out]
 
-[out]
+
 Is currently ignored by the video port driver; should be set to <b>NULL</b>.
 
 ## -returns

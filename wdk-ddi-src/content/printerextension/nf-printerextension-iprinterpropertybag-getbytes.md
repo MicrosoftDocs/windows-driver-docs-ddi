@@ -51,19 +51,19 @@ The <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
+
 The property to read.
 
-### -param pcbValue 
+### -param pcbValue [out]
 
-[out]
+
 The number of bytes read.
 
 ### -param ppValue
 
-#### - rgbValue [out]
+### -param rgbValue [out]
 
 The returned array. This array must be freed by using CoTaskFree.
 

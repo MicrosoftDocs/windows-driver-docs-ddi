@@ -53,29 +53,29 @@ api_name:
 
 ## -parameters
 
-### -param DmaTransaction 
+### -param DmaTransaction [in]
 
-[in]
+
 A handle to the DMA transaction object for which DMA resources should be reserved.
 
-### -param DmaDirection 
+### -param DmaDirection [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/ne-wdfdmaenabler-_wdf_dma_direction">WDF_DMA_DIRECTION</a>-typed value specifying the DMA transfer direction for which the resources are being reserved. If the driver did not specify a duplex profile, the framework ignores this value.
 
-### -param RequiredMapRegisters 
+### -param RequiredMapRegisters [in]
 
-[in]
+
 The number of map registers the driver wants to reserve. If zero, the framework derives the required number of map registers from the initialized transaction.
 
-### -param EvtReserveDmaFunction 
+### -param EvtReserveDmaFunction [in]
 
-[in]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_reserve_dma">EvtReserveDma</a> event callback function.
 
-### -param EvtReserveDmaContext 
+### -param EvtReserveDmaContext [in]
 
-[in]
+
 A pointer to a buffer containing the context to be provided to the driver's <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_reserve_dma">EvtReserveDma</a> event callback function.
 
 ## -returns
@@ -138,7 +138,7 @@ A driver could call <b>WdfDmaTransactionAllocateResources</b> in the following s
 <li>The driver receives a set of DMA channels in its <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a> callback function.  In <i>EvtDevicePrepareHardware</i>, the driver initializes a DMA transaction and calls <b>WdfDmaTransactionAllocateResources</b> to reserve the enabler for exclusive use with this transaction. Alternatively, the driver can call <b>WdfDmaTransactionAllocateResources</b> from a <a href="/windows-hardware/drivers/wdf/request-handlers">request handler</a> and then initiate the transaction multiple times.</li>
 <li>The driver needs to perform a series of transactions on the enabler. The driver reserves the enabler, initializes and initiates multiple transactions using the same transaction object, and then releases the enabler.</li>
 </ul>
-Before calling <b>WdfDmaTransactionAllocateResources</b>, the driver must determine the number of map registers needed for any transaction that it will initiate using this reservation. To do so, the driver can call either the [ADDRESS_AND_SIZE_TO_SPAN_PAGES](/windows-hardware/drivers/ddi/wdm/nf-wdm-address_and_size_to_span_pages) macro or <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactiongettransferinfo">WdfDmaTransactionGetTransferInfo</a>.
+Before calling <b>WdfDmaTransactionAllocateResources</b>, the driver must determine the number of map registers needed for any transaction that it will initiate using this reservation. To do so, the driver can call either the [ADDRESS_AND_SIZE_TO_SPAN_PAGES](../wdm/nf-wdm-address_and_size_to_span_pages.md) macro or <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactiongettransferinfo">WdfDmaTransactionGetTransferInfo</a>.
 
  When calling <b>WdfDmaTransactionAllocateResources</b>, the driver should not request more map registers than it requested when it created the enabler.
 

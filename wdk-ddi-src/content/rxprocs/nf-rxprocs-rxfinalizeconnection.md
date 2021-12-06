@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param NetRoot 
+### -param NetRoot [in, out]
 
-[in, out]
+
 A pointer to the NET_ROOT structure being finalized.
 
 ### -param OPTIONAL

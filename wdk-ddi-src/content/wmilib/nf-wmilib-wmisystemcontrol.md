@@ -50,24 +50,24 @@ The <b>WmiSystemControl</b> routine is a dispatch routine for drivers that use <
 
 ## -parameters
 
-### -param WmiLibInfo 
+### -param WmiLibInfo [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure that contains registration information for a driver's data blocks and event blocks and defines entry points for the driver's WMI library callback routines.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>.
 
-### -param IrpDisposition 
+### -param IrpDisposition [out]
 
-[out]
+
 
 A pointer to an enumeration value of type <b>SYSCTL_IRP_DISPOSITION</b> that indicates how the IRP was handled. <b>WmiSystemControl</b> always sets this value, even when it returns a non-success NTSTATUS code.
 

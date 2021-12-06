@@ -47,17 +47,17 @@ The **DXGKARGCB_SAVEMEMORYFORHOTUPDATE** structure contains the information used
 
 ## -struct-fields
 
-### -field NumDataMemoryRanges
+### -field NumDataMemoryRanges [in]
 
-[in] The number of physical memory ranges in the **pDataMemoryRanges** array.
+The number of physical memory ranges in the **pDataMemoryRanges** array.
 
-### -field pDataMemoryRanges
+### -field pDataMemoryRanges [in, optional]
 
-[in, optional] Pointer to the array of physical memory ranges.
+Pointer to the array of physical memory ranges.
 
-### -field pDataMdl
+### -field pDataMdl [in, optional]
 
-[in, optional] Pointer to a memory descriptor list (MDL) that describes the physical memory pages.
+Pointer to a memory descriptor list (MDL) that describes the physical memory pages.
 
 When passing **pDataMdl**, the driver should do the following:
 
@@ -69,21 +69,21 @@ When passing **pDataMdl**, the driver should do the following:
 * [MmUnmapLockedPages](../wdm/nf-wdm-mmunmaplockedpages.md)
 * Give MDL to *Dxgkrnl*
 
-### -field DataSize
+### -field DataSize [in]
 
-[in] The number of bytes in the buffer that **pData** points to.
+The number of bytes in the buffer that **pData** points to.
 
-### -field pData
+### -field pData [in, optional]
 
-[in, optional] A pointer to the virtual memory to save.
+A pointer to the virtual memory to save.
 
-### -field MetaDataSize
+### -field MetaDataSize [in]
 
-[in] The number of bytes in the buffer that *pMetaData* points to.
+The number of bytes in the buffer that *pMetaData* points to.
 
-### -field pMetaData
+### -field pMetaData [in, optional]
 
-[in, optional] The virtual memory pointer to metadata that is associated with the saved memory block.
+The virtual memory pointer to metadata that is associated with the saved memory block.
 
 ## -remarks
 

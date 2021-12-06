@@ -44,9 +44,9 @@ dev_langs:
 
 ## -struct-fields
 
-### -field SrmListVersionBufferInputCount
+### -field SrmListVersionBufferInputCount [in]
 
-[in] Size in bytes of the buffer being passed by the driver to the OS through **pSrmListVersion**. A value of zero indicates that the driver is simply querying the size of the SRM list version buffer that should be provided by the driver. In this case, the OS will set the buffer size in the output structure.
+Size in bytes of the buffer being passed by the driver to the OS through **pSrmListVersion**. A value of zero indicates that the driver is simply querying the size of the SRM list version buffer that should be provided by the driver. In this case, the OS will set the buffer size in the output structure.
 
 Either **SrmListVersionBufferInputCount** needs to be zero and **pSrmListVersion** set to null, or **SrmListVersionBufferInputCount** needs to be non-zero and **pSrmListVerion** needs to be non-null.
 

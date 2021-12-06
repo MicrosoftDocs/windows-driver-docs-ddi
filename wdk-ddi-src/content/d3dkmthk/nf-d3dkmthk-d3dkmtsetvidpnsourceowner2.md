@@ -50,9 +50,9 @@ api_name:
 
 ## -parameters
 
-### -param D3DKMT_SETVIDPNSOURCEOWNER2
+### -param D3DKMT_SETVIDPNSOURCEOWNER2 [in]
 
-[in] Indicates the source owner.
+Indicates the source owner.
 
 ## -returns
 

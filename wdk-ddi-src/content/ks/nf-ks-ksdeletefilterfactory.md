@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param FilterFactory 
+### -param FilterFactory [in]
 
-[in]
+
 A pointer to a [KSFILTERFACTORY](./ns-ks-_ksfilterfactory.md) structure that represents the filter factory to be deleted.
 
 ## -returns

@@ -112,6 +112,8 @@ A union that defines the request data. The information in the data varies accord
      request as specified by the
      <b>RequestType</b> member. The following member structures are specified:
 
+### -field DATA.Oid
+
 ### -field DATA.QUERY_INFORMATION
 
 This structure contains the parameters for an <b>NdisRequestQueryInformation</b> or

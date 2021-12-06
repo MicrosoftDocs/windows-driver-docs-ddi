@@ -53,19 +53,19 @@ api_name:
 
 ## -parameters
 
-### -param DebugPrintLevel 
+### -param DebugPrintLevel [in]
 
-[in]
+
 Specifies an enumeration of type **STREAM_DEBUG_LEVEL**. The debugger prints messages if this parameter is less than or equal to the *StreamDebug* variable in *stream.sys* symbols.
 
-### -param DebugMessage 
+### -param DebugMessage [in]
 
-[in]
+
 Points to a NULL-terminated string containing the message to print to the application window and to the Debugger Command window.
 
 ### -param ...
 
-#### - arguments
+### -param arguments
 
 Specifies a variable argument list containing optional arguments for the format string, as in **printf**.
 

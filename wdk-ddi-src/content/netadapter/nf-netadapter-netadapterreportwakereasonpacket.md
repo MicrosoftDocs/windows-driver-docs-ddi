@@ -57,10 +57,6 @@ A handle to the NETADAPTER object.
 
 A pointer to the [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure that represents the wake reason packet that the net adapter received.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 ## -see-also

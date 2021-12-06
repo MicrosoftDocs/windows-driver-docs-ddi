@@ -53,9 +53,9 @@ The <b>wiauPropInPropSpec</b> function determines whether a specified property s
 
 Specifies the number of property specification IDs in the array pointed to by <i>pPropSpecs</i>.
 
-### -param pPropSpecs 
+### -param pPropSpecs [in]
 
-[in]
+
 Points to the first element of the property specification ID array.
 
 ### -param PropId
@@ -64,7 +64,7 @@ Specifies the property specification ID to search for in the array pointed to by
 
 ### -param pIdx
 
-#### - pIdx = NULL [out, optional]
+### -param pIdx = NULL [out, optional]
 
 <i>Optional</i>. Pointer to a memory location that receives the index of the property specification ID in the property specification ID array. The default value of this parameter is <b>NULL</b>, in which case the function does not use it.
 

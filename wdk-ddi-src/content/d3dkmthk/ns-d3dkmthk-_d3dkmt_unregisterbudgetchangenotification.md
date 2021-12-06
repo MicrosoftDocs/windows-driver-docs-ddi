@@ -48,10 +48,10 @@ Used to unregister budget change notification.
 
 ## -struct-fields
 
-### -field Handle
+### -field Handle [in]
 
  
-[in] A handle to the register.
+A handle to the register.
 
 ## -remarks
 

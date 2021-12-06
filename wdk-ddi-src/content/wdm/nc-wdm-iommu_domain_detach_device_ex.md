@@ -46,9 +46,9 @@ Detaches a **IOMMU_DMA_DEVICE** from an existing domain.
 
 ## -parameters
 
-### -param DmaDevice
+### -param DmaDevice [in]
 
-[in]
+
 A pointer to the **IOMMU_DMA_DEVICE** to be detached.
 
 ## -returns

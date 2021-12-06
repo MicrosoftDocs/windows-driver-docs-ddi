@@ -45,8 +45,6 @@ api_name:
 
 Resets the enumerator to the first element.
 
-## -parameters
-
 ## -returns
 
 This method returns HRESULT that indicates success or failure.

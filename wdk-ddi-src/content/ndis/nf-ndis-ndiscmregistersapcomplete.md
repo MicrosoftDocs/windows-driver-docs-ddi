@@ -51,23 +51,23 @@ api_name:
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Specifies the final status of the client's original request to register the SAP, either
      NDIS_STATUS_SUCCESS or any CM-determined NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING.
 
-### -param NdisSapHandle 
+### -param NdisSapHandle [in]
 
-[in]
+
 Specifies the NDIS-supplied handle to the SAP if the registration is successful. The call manager
      obtained this handle as an input parameter to its 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">
      ProtocolCmRegisterSap</a> function.
 
-### -param CallMgrSapContext 
+### -param CallMgrSapContext [in]
 
-[in]
+
 Specifies the handle to a caller-supplied resident context area in which the CM maintains state
      for this SAP if the registration is successful. If so, NDIS passes this handle back to the CM in all
      subsequent calls concerning this SAP. If 

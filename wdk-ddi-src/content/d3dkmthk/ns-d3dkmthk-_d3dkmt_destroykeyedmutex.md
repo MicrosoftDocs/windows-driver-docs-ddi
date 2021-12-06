@@ -52,9 +52,9 @@ The D3DKMT_DESTROYKEYEDMUTEX structure describes a keyed mutex that the <a href=
 
 ## -struct-fields
 
-### -field hKeyedMutex
+### -field hKeyedMutex [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the keyed mutex object to destroy.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the keyed mutex object to destroy.
 
 ## -see-also
 

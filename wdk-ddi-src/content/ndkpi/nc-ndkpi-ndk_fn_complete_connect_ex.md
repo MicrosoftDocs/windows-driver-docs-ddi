@@ -45,29 +45,29 @@ The *NdkCompleteConnectEx* (*NDK_FN_COMPLETE_CONNECT_EX*) function completes an 
 
 ## -parameters
 
-### -param pNdkConnector
+### -param pNdkConnector [in]
 
-[in]
+
 A pointer to an NDK connector object ([NDK_CONNECTOR](./ns-ndkpi-_ndk_connector.md)).
 
-### -param DisconnectEvent
+### -param DisconnectEvent [in, optional]
 
-[in, optional] 
+
 An entry point for an optional disconnect notification callback function NdkDisconnectEventCallbackEx function [NDK_FN_DISCONNECT_EVENT_CALLBACK_EX](nc-ndkpi-ndk_fn_disconnect_event_callback_ex.md). The provider calls this callback function when the peer disconnects.
 
-### -param DisconnectEventContext 
+### -param DisconnectEventContext [in, optional]
 
-[in, optional]
+
 A context value to pass back to the *NdkDisconnectEventCallback* function that is specified in the *DisconnectEvent* parameter.
 
-### -param RequestCompletion 
+### -param RequestCompletion [in]
 
-[in]
+
 A pointer to a request completion callback *NdkRequestCompletion* function ([NDK_FN_REQUEST_COMPLETION](./nc-ndkpi-ndk_fn_request_completion.md)).
 
-### -param RequestContext 
+### -param RequestContext [in, optional]
 
-[in, optional]
+
 A context value that the provider passes back to the *NdkRequestCompletion* function. This value is specified in the *RequestCompletion* parameter.
 
 ## -returns

@@ -49,9 +49,9 @@ The <b>SetImplicitProcessDataOffset</b> method sets the implicit process for the
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location in the target's memory address space of the data structure of the system process that is to become the implicit process for the current target.  If this is zero, the implicit process for the current target is set to the default implicit process.
 
 ## -returns

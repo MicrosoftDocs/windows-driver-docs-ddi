@@ -52,12 +52,12 @@ The
 
 ## -parameters
 
-### -param Lock 
+### -param Lock [in, out]
 
-[in, out]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_rw_lock">NDIS_RW_LOCK</a> variable for the acquired lock to be released.
 
-### -param _Requires_lock_held_
+### -param LockState [in]
 
 A pointer to an opaque <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_lock_state">LOCK_STATE</a> variable that tracks the state of the lock. This variable exists
      in the interval between the time the caller acquires and releases the lock.

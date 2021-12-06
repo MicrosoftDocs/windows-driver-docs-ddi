@@ -49,9 +49,9 @@ The <b>IoSetSystemPartition</b> routine sets the boot partition for the system.
 
 ## -parameters
 
-### -param VolumeNameString 
+### -param VolumeNameString [in]
 
-[in]
+
 Pointer to a Unicode string that specifies the MS-DOS name of the system partition.
 
 ## -returns

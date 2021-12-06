@@ -46,9 +46,9 @@ A kernel-mode display miniport driver calls **DXGKCB_SETPROTECTEDSESSIONSTATUS**
 
 ## -parameters
 
-### -param pProtectedSessionStatus
+### -param pProtectedSessionStatus [in]
 
-[in] Pointer to a [**DXGKARGCB_PROTECTEDSESSIONSTATUS**](ns-d3dkmddi-_dxgkargcb_protectedsessionstatus.md) structure that identifies the protected session and its status.
+Pointer to a [**DXGKARGCB_PROTECTEDSESSIONSTATUS**](ns-d3dkmddi-_dxgkargcb_protectedsessionstatus.md) structure that identifies the protected session and its status.
 
 ## -returns
 

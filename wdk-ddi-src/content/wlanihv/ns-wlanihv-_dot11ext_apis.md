@@ -181,7 +181,7 @@ A pointer to the
 
 ### -field Dot11ExtProcessSecurityPacket
 
-#### - Dot11ExtProcessOneXPacket
+### -field Dot11ExtProcessOneXPacket
 
 A pointer to the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">

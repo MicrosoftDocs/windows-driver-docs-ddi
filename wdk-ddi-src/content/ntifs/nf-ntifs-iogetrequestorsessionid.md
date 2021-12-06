@@ -48,13 +48,13 @@ The **IoGetRequestorSessionId** routine returns the session ID for the process t
 
 ## -parameters
 
-### -param Irp
+### -param Irp [in]
 
-[in] A pointer to the I/O request packet (IRP) for the I/O operation.
+A pointer to the I/O request packet (IRP) for the I/O operation.
 
-### -param pSessionId
+### -param pSessionId [out]
 
-[out] A pointer to a caller-allocated variable that receives the session ID for the process that requested the I/O operation. If the call fails (STATUS_UNSUCCESSFUL), this parameter is set to -1.
+A pointer to a caller-allocated variable that receives the session ID for the process that requested the I/O operation. If the call fails (STATUS_UNSUCCESSFUL), this parameter is set to -1.
 
 ## -returns
 

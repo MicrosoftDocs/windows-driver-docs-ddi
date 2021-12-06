@@ -46,9 +46,9 @@ The **MmGetMdlVirtualAddress** macro returns the base virtual address of a buffe
 
 ## -parameters
 
-### -param Mdl
+### -param Mdl [in]
 
-[in]
+
 Pointer to an MDL that describes the buffer for which to return the initial virtual address.
 
 ## -remarks

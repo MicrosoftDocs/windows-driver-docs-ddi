@@ -49,29 +49,29 @@ The <i>Int10WriteMemory</i> function writes the contents of an input buffer to m
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to a video port driver-defined context for the interface. This should be the same as the value in the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_port_int10_interface">VIDEO_PORT_INT10_INTERFACE</a> structure after <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a> returns.
 
-### -param Seg 
+### -param Seg [in]
 
-[in]
+
 Specifies the segment address of the buffer to be written.
 
-### -param Off 
+### -param Off [in]
 
-[in]
+
 Specifies the offset within the segment indicated by the <i>Seg</i> parameter.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Pointer to the memory location that marks the beginning of the input buffer.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Is the length, in bytes, of the input buffer specified by the <i>Buffer</i> parameter.
 
 ## -returns

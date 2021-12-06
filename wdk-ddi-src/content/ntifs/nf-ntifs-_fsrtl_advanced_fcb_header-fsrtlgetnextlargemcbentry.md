@@ -56,9 +56,9 @@ The <b>FsRtlGetNextLargeMcbEntry</b> routine retrieves a mapping run from a map 
 
 <p>Pointer to an initialized MCB structure. </p>
 
-### -param RunIndex 
+### -param RunIndex [in]
 
-[in]
+
 Zero-based index of the requested mapping run.
 
 ### -param Vbn

@@ -49,59 +49,59 @@ The <b>FltQueryQuotaInformationFile</b> routine retrieves quota entries associat
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 An opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A file object pointer for an open file, directory, storage device, or volume. This parameter is required and cannot be <b>NULL</b>.
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
+
 A caller-supplied <b>IO_STATUS_BLOCK</b> to receive the result of the call to <b>FltQueryQuotaInformationFile</b>. If the call  fails because of an invalid <b>SID</b> list, the <b>Information</b> field will contain the location in <i>SidList</i> where the error occurred.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_ea_information"> FILE_GET_QUOTA_INFORMATION</a>-structured input buffer where the quota information values are to be returned.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length, in bytes, of the buffer that the <i>Buffer</i> parameter points to.
 
-### -param ReturnSingleEntry 
+### -param ReturnSingleEntry [in]
 
-[in]
+
 Set to <b>TRUE</b> if <b>FltQueryQuotaInformationFile</b> should return only the first entry that is found.
 
-### -param SidList 
+### -param SidList [in, optional]
 
-[in, optional]
+
 A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a>-structured input buffer that specifies the quota information to be queried. This parameter is optional and can be <b>NULL</b>.
 
-### -param SidListLength 
+### -param SidListLength [in]
 
-[in]
+
 The length, in bytes, of the buffer that the <i>SidList</i> parameter points to.
 
-### -param StartSid 
+### -param StartSid [in, optional]
 
-[in, optional]
+
 The index of the entry at which to begin scanning the file's quota information list. This parameter is ignored if the <i>SidList</i> parameter points to a nonempty list. This parameter is optional and can be <b>NULL</b>.
 
-### -param RestartScan 
+### -param RestartScan [in]
 
-[in]
+
 Set to <b>TRUE</b> if <b>FltQueryQuotaInformationFile</b> should begin the scan at the first entry in the file's quota information list. If this parameter is not set to <b>TRUE</b>, the scan is resumed from a previous call to <b>FltQueryQuotaInformationFile</b>.
 
-### -param LengthReturned 
+### -param LengthReturned [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in <i>Buffer</i>. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

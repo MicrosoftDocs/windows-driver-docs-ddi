@@ -49,15 +49,15 @@ Defines the **IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration** method.
 
 ## -param
 
-#### - filter [in]
+### -param filter [in]
 
-#### - pCallback [in]
+### -param pCallback [in]
 
-#### - pStyle [in]
+### -param pStyle [in]
 
-#### - pType [in]
+### -param pType [in]
 
-#### - ppRegistration [out]
+### -param ppRegistration [out]
 
 ## -returns
 

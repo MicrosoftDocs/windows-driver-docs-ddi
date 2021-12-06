@@ -47,8 +47,6 @@ api_name:
 
 The <b>KsGetObjectHandle</b> method retrieves a file handle to a KS object.
 
-## -parameters
-
 ## -returns
 
 Returns a file handle to a KS object if successful; otherwise, returns null.

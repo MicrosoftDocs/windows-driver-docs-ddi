@@ -49,34 +49,34 @@ Gets a name by inline context.
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 An offset for the inline context.
 
-### -param InlineContext 
+### -param InlineContext [in]
 
-[in]
+
 The inline context.
 
-### -param NameBuffer 
+### -param NameBuffer [out]
 
-[out]
+
 A pointer an output buffer for a Unicode character string.
 
-### -param NameBufferSize 
+### -param NameBufferSize [in]
 
-[in]
+
 The size of the name buffer.
 
-### -param NameSize 
+### -param NameSize [out, optional]
 
-[out, optional]
+
 A pointer to the length of the name.
 
-### -param Displacement 
+### -param Displacement [out, optional]
 
-[out, optional]
+
 A pointer to the displacement value of the name.
 
 ## -returns

@@ -52,48 +52,48 @@ The filter engine calls the *vSwitchRuntimeStateSaveNotifyFn* (*FWPS_VSWITCH_RUN
 
 ## -parameters
 
-### -param notifyContext 
+### -param notifyContext [in, optional]
 
-[in, optional]
+
 A pointer to a context provided by the callout driver. The driver passed this pointer to the *notifyContext* parameter of the [FwpsvSwitchEventsSubscribe0](./nf-fwpsk-fwpsvswitcheventssubscribe0.md)
  function. This parameter is optional and can be NULL.
 
-### -param completionContext 
+### -param completionContext [in]
 
-[in]
+
 A pointer to a completion context provided by the callout driver. This parameter is optional and can be NULL.
 
-### -param eventType 
+### -param eventType [in]
 
-[in]
+
 The type of virtual switch event  specified as one of the [FWPS_VSWITCH_EVENT_TYPE](./ne-fwpsk-fwps_vswitch_event_type_.md) enumeration values. For more information, see Remarks.
 
-### -param vSwitch 
+### -param vSwitch [in]
 
-[in]
+
 A pointer to an [NDIS_SWITCH_PARAMETERS](../ntddndis/ns-ntddndis-_ndis_switch_parameters.md) structure that contains information about a virtual switch.
 
 
 > [!NOTE]
 > The information in the [NDIS_SWITCH_PARAMETERS](../ntddndis/ns-ntddndis-_ndis_switch_parameters.md) structure reflects the initial state of the virtual switch, not necessarily its current state. In particular, the **NumSwitchPorts** and **IsActive** members might still have their initial value of zero, unless a virtual switch PnP event has been triggered. Current state information can be found in the other parameters to this callback function.
 
-### -param portId 
+### -param portId [in]
 
-[in]
+
 The source switch port identifier.
 
 
-#### - **runtimeState
+### -param **runtimeState
 
 The location of the run-time state output result buffer.
 
-### -param runtimeStateLength
+### -param runtimeStateLength [out]
 
-[out]
+
 The length, in bytes, of the run-time state information in the run-time state buffer.
 
 
-#### - runtimeState
+### -param runtimeState
 
 The location of the run-time state output result buffer.
 

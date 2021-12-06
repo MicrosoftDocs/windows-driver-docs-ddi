@@ -2,9 +2,9 @@
 UID: NC:d3dumddi.PFND3DDDI_QUERYDLISTFORAPPLICATION2
 tech.root: display
 title: PFND3DDDI_QUERYDLISTFORAPPLICATION2
-ms.date: 05/13/2021
+ms.date: 11/02/2021
 targetos: Windows
-description: The pfnQueryDlistForApplication2Cb callback function queries a dList for an application.
+description: The PFND3DDDI_QUERYDLISTFORAPPLICATION2 callback function queries a dList for an application.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,25 +41,25 @@ dev_langs:
 
 ## -description
 
-The **pfnQueryDlistForApplication2Cb** callback function queries the dList for an application.
+The **PFND3DDDI_QUERYDLISTFORAPPLICATION2** callback function queries the dList for an application.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [out]
 
-[out] Pointer to a [**D3DDDI_DLIST_QUERY_RESULT**](ne-d3dumddi-d3dddi_dlist_query_result.md) value that describes the returned GPU preference for the queried application.
+Pointer to a [**D3DDDI_DLIST_QUERY_RESULT**](ne-d3dumddi-d3dddi_dlist_query_result.md) value that describes the returned GPU preference for the queried application.
 
-### -param unnamedParam2
+### -param unnamedParam2 [out]
 
-[out] Pointer to a [**D3DDDI_DLIST_QUERY_DECISION_FACTOR**](ne-d3dumddi-d3dddi_dlist_query_decision_factor.md) value that describes the factor that determined the returned GPU preference.
+Pointer to a [**D3DDDI_DLIST_QUERY_DECISION_FACTOR**](ne-d3dumddi-d3dddi_dlist_query_decision_factor.md) value that describes the factor that determined the returned GPU preference.
 
-### -param unnamedParam3
+### -param unnamedParam3 [in]
 
-[in] A handle to the graphics adapter object. This handle is passed to the [**pfnEscapeCb**](nc-d3dumddi-pfnd3dddi_escapecb.md) callback function pointed to by *unnamedParam4*.
+A handle to the graphics adapter object. This handle is passed to the [**pfnEscapeCb**](nc-d3dumddi-pfnd3dddi_escapecb.md) callback function pointed to by *unnamedParam4*.
 
-### -param unnamedParam4
+### -param unnamedParam4 [in]
 
-[in] Pointer to a [**pfnEscapeCb**](nc-d3dumddi-pfnd3dddi_escapecb.md) callback function that shares info with the display miniport driver.
+Pointer to a [**pfnEscapeCb**](nc-d3dumddi-pfnd3dddi_escapecb.md) callback function that shares info with the display miniport driver.
 
 ## -returns
 
@@ -67,9 +67,9 @@ Returns **S_OK**, or an appropriate error result if the operation is not success
 
 ## -remarks
 
-Starting with WDDM 2.9, drivers must support **pfnQueryDlistForApplication2Cb** instead of [**pfnQueryDlistForApplication1Cb**](nc-d3dumddi-pfnd3dddi_querydlistforapplication1.md).
+Starting with WDDM 2.9, drivers must support **PFND3DDDI_QUERYDLISTFORAPPLICATION2** instead of [**PFND3DDDI_QUERYDLISTFORAPPLICATION1**](nc-d3dumddi-pfnd3dddi_querydlistforapplication1.md).
 
-The **pfnQueryDlistForApplication2Cb** callback function is called by the user-mode graphics runtime (DXGI) during Microsoft Direct3D initialization on a hybrid system to determine which GPU an application should run on. A *dList* is a list of applications that need cross-adapter shared surfaces for high-performance rendering on the discrete GPU.
+The **PFND3DDDI_QUERYDLISTFORAPPLICATION2** callback function is called by the user-mode graphics runtime (DXGI) during Microsoft Direct3D initialization on a hybrid system to determine which GPU an application should run on. A *dList* is a list of applications that need cross-adapter shared surfaces for high-performance rendering on the discrete GPU.
 
 The [**D3DDDI_DLIST_QUERY_RESULT**](ne-d3dumddi-d3dddi_dlist_query_result.md) and [**D3DDDI_DLIST_QUERY_DECISION_FACTOR**](ne-d3dumddi-d3dddi_dlist_query_decision_factor.md) returned in this DDI help the runtime to ensure and improve the quality of DxDb content updates, by assessing for risk of application regressions for an update.
 

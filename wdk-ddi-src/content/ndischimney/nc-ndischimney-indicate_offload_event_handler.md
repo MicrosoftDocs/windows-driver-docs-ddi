@@ -55,17 +55,17 @@ NDIS calls a protocol driver's or intermediate driver's
 
 ## -parameters
 
-### -param ProtocolBindingContext 
+### -param ProtocolBindingContext [in]
 
-[in]
+
 A handle to a context area that was allocated by the protocol driver. The driver maintains the per
      binding context information in this context area. The driver supplied this handle to NDIS when the
      driver called the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
-### -param OffloadBlockList 
+### -param OffloadBlockList [in]
 
-[in]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_protocol_offload_block_list">
      NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a> structure. This structure identifies the offloaded state object
@@ -85,9 +85,9 @@ The underlying offload target supplies a valid
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure referenced by the 
      <i>OffloadBlockList</i> pointer.
 
-### -param IndicationCode 
+### -param IndicationCode [in]
 
-[in]
+
 The event being indicated as one of the following INDICATE_OFFLOAD_EVENT values:
      
 

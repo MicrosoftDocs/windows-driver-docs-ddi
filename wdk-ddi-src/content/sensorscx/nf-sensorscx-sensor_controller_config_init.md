@@ -49,9 +49,9 @@ This function initializes a <a href="/windows-hardware/drivers/ddi/sensorscx/ns-
 
 ## -parameters
 
-### -param pConfig 
+### -param pConfig [out]
 
-[out]
+
 A pointer to a new <a href="/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_controller_config">SENSOR_CONTROLLER_CONFIG</a> structure.
 
 ## -see-also

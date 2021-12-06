@@ -48,9 +48,9 @@ api_name:
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] Pointer to the context. Must be a valid pointer to a context object for a volume, instance, stream, or stream handle. This parameter is required and cannot be **NULL**.
+Pointer to the context. Must be a valid pointer to a context object for a volume, instance, stream, or stream handle. This parameter is required and cannot be **NULL**.
 
 ## -returns
 

@@ -54,9 +54,9 @@ The <b>WdfRequestGetStatus</b> method returns the status of an I/O request.
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
 ## -returns

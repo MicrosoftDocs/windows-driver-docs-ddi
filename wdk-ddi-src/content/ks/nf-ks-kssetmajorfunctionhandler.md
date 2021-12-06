@@ -50,14 +50,14 @@ The **KsSetMajorFunctionHandler** function sets the handler for a specified majo
 
 ## -parameters
 
-### -param DriverObject 
+### -param DriverObject [in]
 
-[in]
+
 Specifies the driver object whose major function is to be handled.
 
-### -param MajorFunction 
+### -param MajorFunction [in]
 
-[in]
+
 Specifies the major function identifier to be handled. This sets the major function pointer in the driver object to an internal function that then dispatches to the **KSDISPATCH_TABLE** function. The pointer to this table is assumed to be the first element in a structure pointed to by **FsContext** in the file object of the specific IRP being dispatched. The valid major function identifiers are as listed.
 
 | Identifier | Description |

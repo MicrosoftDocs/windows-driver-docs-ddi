@@ -47,21 +47,21 @@ This routine sets the device fault reporting state to a device already attached 
 
 ## -parameters
 
-### -param PhysicalDeviceObject
+### -param PhysicalDeviceObject [In]
 
-[In] A pointer the physical device object (PDO) in the device stack of the device.
+A pointer the physical device object (PDO) in the device stack of the device.
 
-### -param InputMappingIdBase
+### -param InputMappingIdBase [In]
 
-[In] The input mapping base for the device's desired stream.
+The input mapping base for the device's desired stream.
 
-### -param Enable
+### -param Enable [In]
 
-[In] a BOOLEAN value that indicates whether to enable fault reporting for the device.
+a BOOLEAN value that indicates whether to enable fault reporting for the device.
 
-### -param FaultConfig
+### -param FaultConfig [in]
 
-[in] Optional.  A pointer to [**DEVICE_FAULT_CONFIGURATION**](ns-wdm-_device_fault_configuration.md). This is only used for enabling fault reporting.
+Optional.  A pointer to [**DEVICE_FAULT_CONFIGURATION**](ns-wdm-_device_fault_configuration.md). This is only used for enabling fault reporting.
 
 ## -returns
 

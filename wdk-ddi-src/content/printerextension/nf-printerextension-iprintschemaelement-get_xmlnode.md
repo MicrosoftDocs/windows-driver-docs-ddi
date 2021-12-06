@@ -49,8 +49,6 @@ Gets the IXMLDOMNode object associated with this item.
 
 This property is read-only.
 
-## -parameters
-
 ## -remarks
 
 When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obtain a pointer to an interface of type <b>IUnknown</b>. Use this pointer to  call the <b>QueryInterface</b> method, to access the underlying <a href="/previous-versions/windows/desktop/ms760248(v=vs.85)">IXMLDOMElement</a> object.print.

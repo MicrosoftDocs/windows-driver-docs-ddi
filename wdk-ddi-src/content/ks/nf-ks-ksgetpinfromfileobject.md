@@ -49,9 +49,9 @@ The<b> KsGetPinFromFileObject </b>function returns the AVStream pin object assoc
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a> structure for which to return the associated AVStream pin object.
 
 ## -returns

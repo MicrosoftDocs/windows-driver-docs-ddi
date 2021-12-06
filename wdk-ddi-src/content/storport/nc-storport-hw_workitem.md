@@ -48,17 +48,17 @@ A miniport-provided callback function for processing a Storport work item reques
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] A pointer to the miniport driver's per-HBA storage area.
+A pointer to the miniport driver's per-HBA storage area.
 
-### -param Context
+### -param Context [in, optional]
 
-[in, optional] Optional context provided by the miniport in the **Callback** parameter of [**StorPortQueueWorkItem**](nf-storport-storportqueueworkitem.md).
+Optional context provided by the miniport in the **Callback** parameter of [**StorPortQueueWorkItem**](nf-storport-storportqueueworkitem.md).
 
-### -param Worker
+### -param Worker [in]
 
-[in] A pointer to an opaque buffer that holds context information for the work item returned by [**StorPortInitializeWorker**](nf-storport-storportinitializeworker.md).
+A pointer to an opaque buffer that holds context information for the work item returned by [**StorPortInitializeWorker**](nf-storport-storportinitializeworker.md).
 
 ## -remarks
 

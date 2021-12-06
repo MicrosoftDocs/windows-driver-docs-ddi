@@ -48,26 +48,26 @@ api_name:
 
 ## -parameters
 
-### -param Volume
+### -param Volume [in]
 
-[in] Opaque volume pointer for the volume.
+Opaque volume pointer for the volume.
 
-### -param Operation
+### -param Operation [in]
 
-[in] Flag specifying details of the operation to be performed. This parameter must be one of the following:
+Flag specifying details of the operation to be performed. This parameter must be one of the following:
 
 | Flag | Meaning |
 | ---- | ------- |
 | FLT_SET_CONTEXT_REPLACE_IF_EXISTS | If a context is already set for *Volume*, **FltSetVolumeContext** will replace it with *NewContext*>. Otherwise, it will insert *NewContext* into the list of contexts for the volume. |
 | FLT_SET_CONTEXT_KEEP_IF_EXISTS | If a context is already set for this volume, **FltSetVolumeContext** will return STATUS_FLT_CONTEXT_ALREADY_DEFINED, and will not replace the existing context or increment the reference count. If a context has not already been set, the routine will insert *NewContext* into the list of contexts for the volume and increment the reference count. |
 
-### -param NewContext
+### -param NewContext [in]
 
-[in] Pointer to the new context to be set for the volume. This parameter is required and cannot be **NULL**.
+Pointer to the new context to be set for the volume. This parameter is required and cannot be **NULL**.
 
-### -param OldContext
+### -param OldContext [out, optional]
 
-[out, optional] Pointer to a caller-allocated variable that receives the address of the existing volume context for *Volume*. This parameter is optional and can be **NULL**. For more information about this parameter, see the following Remarks section.
+Pointer to a caller-allocated variable that receives the address of the existing volume context for *Volume*. This parameter is optional and can be **NULL**. For more information about this parameter, see the following Remarks section.
 
 ## -returns
 

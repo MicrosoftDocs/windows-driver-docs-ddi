@@ -45,9 +45,9 @@ dev_langs:
 
 ## -parameters
 
-### -param pArgs
+### -param pArgs [in/out]
 
-[in/out] Pointer to a [**DXGKARGCB_ALLOCATE_ADL**](ns-d3dkmddi-dxgkargcb_allocate_adl.md) structure that contains information about the ADL to create. On success, returns a [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) structure with a list of page addresses that can be used to program the hardware.
+Pointer to a [**DXGKARGCB_ALLOCATE_ADL**](ns-d3dkmddi-dxgkargcb_allocate_adl.md) structure that contains information about the ADL to create. On success, returns a [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) structure with a list of page addresses that can be used to program the hardware.
 
 ## -returns
 

@@ -65,28 +65,28 @@ The NFC_CX_NFCIP_TGT_MODE_CONFIG enumeration specifies NFC-IP target mode.
 
 ### -field NFC_CX_NFCIP_TGT_DEFAULT
 
-#### - NFC_CX_NFCIP_DEFAULT
+### -field NFC_CX_NFCIP_DEFAULT
 
 
-#### - NFC_CX_NFCIP_NFC_A
+### -field NFC_CX_NFCIP_NFC_A
 
 
-#### - NFC_CX_NFCIP_NFC_ACTIVE
+### -field NFC_CX_NFCIP_NFC_ACTIVE
 
 
-#### - NFC_CX_NFCIP_NFC_ACTIVE_A
+### -field NFC_CX_NFCIP_NFC_ACTIVE_A
 
 
-#### - NFC_CX_NFCIP_NFC_ACTIVE_F_212
+### -field NFC_CX_NFCIP_NFC_ACTIVE_F_212
 
 
-#### - NFC_CX_NFCIP_NFC_ACTIVE_F_424
+### -field NFC_CX_NFCIP_NFC_ACTIVE_F_424
 
 
-#### - NFC_CX_NFCIP_NFC_F_212
+### -field NFC_CX_NFCIP_NFC_F_212
 
 
-#### - NFC_CX_NFCIP_NFC_F_424
+### -field NFC_CX_NFCIP_NFC_F_424
 
 ## -see-also
 

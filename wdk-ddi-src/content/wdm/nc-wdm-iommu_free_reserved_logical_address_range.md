@@ -46,9 +46,9 @@ Frees a logical address token created by [**IOMMU_RESERVE_LOGICAL_ADDRESS_RANGE*
 
 ## -parameters
 
-### -param LogicalAddressToken
+### -param LogicalAddressToken [in]
 
-[in]
+
 The [**IOMMU_DMA_LOGICAL_ADDRESS_TOKEN**](./ns-wdm-iommu_dma_logical_address_token.md), representing the reserved logical address range, to be freed.
 
 ## -returns

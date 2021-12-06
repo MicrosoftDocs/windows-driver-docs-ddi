@@ -52,9 +52,9 @@ api_name:
 
 ## -parameters
 
-### -param pDot11ExtVSAPI 
+### -param pDot11ExtVSAPI [in]
 
-[in]
+
 A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_virtual_station_apis.md">
      DOT11EXT_VIRTUAL_STATION_APIS</a> structure, which contains the addresses of the IHV Extensibility

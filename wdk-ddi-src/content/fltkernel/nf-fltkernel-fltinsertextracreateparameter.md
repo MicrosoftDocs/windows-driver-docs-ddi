@@ -49,19 +49,19 @@ The <b>FltInsertExtraCreateParameter</b> routine inserts an extra create paramet
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 Opaque filter pointer to the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
-### -param EcpList 
+### -param EcpList [in, out]
 
-[in, out]
+
 Pointer to the ECP list structure to which the ECP context structure, provided by the <i>EcpContext</i> parameter, should be added.
 
-### -param EcpContext 
+### -param EcpContext [in, out]
 
-[in, out]
+
 Pointer to the ECP context structure to be added to the ECP list, provided by the <i>EcpList</i> parameter.
 
 ## -returns

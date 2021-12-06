@@ -52,9 +52,9 @@ The <b>BdaGetChangeState</b> function returns the current change state of BDA to
 
 ### -param pIrp
 
-### -param pChangeState 
+### -param pChangeState [out, optional]
 
-[out, optional]
+
 Points to a variable that receives the current change state of BDA topology. The BDA change state can be one of the following values from the <a href="/previous-versions/windows/hardware/drivers/ff556518(v=vs.85)">BDA_CHANGE_STATE</a> enumerated type:
 
 <table>
@@ -86,7 +86,7 @@ BDA topology changes are pending.
  
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Points to the IRP for the request to get the current change state. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksmethod-bda-get-change-state">KSMETHOD_BDA_GET_CHANGE_STATE</a> request.
 

@@ -51,14 +51,14 @@ The <b>WDF_WORKITEM_CONFIG_INIT</b> function initializes a driver's <a href="/wi
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to the caller-allocated <a href="/windows-hardware/drivers/ddi/wdfworkitem/ns-wdfworkitem-_wdf_workitem_config">WDF_WORKITEM_CONFIG</a> structure to initialize.
 
-### -param EvtWorkItemFunc 
+### -param EvtWorkItemFunc [in]
 
-[in]
+
 The address of the driver's <a href="/windows-hardware/drivers/ddi/wdfworkitem/nc-wdfworkitem-evt_wdf_workitem">EvtWorkItem</a> event callback function.
 
 ## -remarks

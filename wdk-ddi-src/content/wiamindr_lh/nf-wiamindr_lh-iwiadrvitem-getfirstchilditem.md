@@ -55,7 +55,7 @@ ppIChildItem [out, optional]
 
 - Points to a memory location that will receive the address of an **IWiaDrvItem** child item.
 
-#### - ppIChildItem [out, optional]
+### -param ppIChildItem [out, optional]
 
 Points to a memory location that will receive the address of an **IWiaDrvItem** child item.
 

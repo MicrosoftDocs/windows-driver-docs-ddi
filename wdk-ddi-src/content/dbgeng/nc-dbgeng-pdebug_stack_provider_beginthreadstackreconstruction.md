@@ -53,19 +53,19 @@ CALLBACK* PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION BeginThreadStackR
 
 ## -parameters
 
-### -param StreamType 
+### -param StreamType [in]
 
-[in]
+
 A stream type.
 
-### -param MiniDumpStreamBuffer 
+### -param MiniDumpStreamBuffer [in]
 
-[in]
+
 A mini-dump stream buffer.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 The size of the buffer.
 
 ## -returns

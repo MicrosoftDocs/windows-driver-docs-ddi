@@ -3,13 +3,13 @@ UID: NF:fltkernel.FltQueryDirectoryFileEx
 title: FltQueryDirectoryFileEx function
 description: FltQueryDirectoryFileEx returns various kinds of information about files in the directory specified by a given file object.
 tech.root: ifsk
-ms.date: 03/08/2019
+ms.date: 12/01/2021
 keywords: ["FltQueryDirectoryFileEx function"]
 ms.keywords: FltQueryDirectoryFileEx, FltQueryDirectoryFile
 req.header: fltkernel.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,7 +41,6 @@ product:
 
 # FltQueryDirectoryFileEx function
 
-
 ## -description
 
 **FltQueryDirectoryFileEx** returns various kinds of information about files in the directory specified by a given file object.
@@ -66,22 +65,7 @@ Size, in bytes, of the buffer pointed to by *FileInformation*. The caller should
 
 ### -param FileInformationClass
 
-Type of information to be returned about files in the directory. One of the values in the following table can be specified.
-
-| Value | Meaning |
-| ----- | ------- |
-| **FileBothDirectoryInformation** | Return a [FILE_BOTH_DIR_INFORMATION](../ntifs/ns-ntifs-_file_both_dir_information.md#requirements) structure for each file. |
-| **FileDirectoryInformation** | Return a [FILE_DIRECTORY_INFORMATION](../ntifs/ns-ntifs-_file_directory_information.md#requirements) structure for each file. |
-| **FileFullDirectoryInformation** | Return a [FILE_FULL_DIR_INFORMATION](../ntifs/ns-ntifs-_file_full_dir_information.md#requirements) structure for each file. |
-| **FileIdBothDirectoryInformation** | Return a [FILE_ID_BOTH_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_both_dir_information.md#requirements) structure for each file. |
-| **FileIdExtdBothDirectoryInformation** | Return a [FILE_ID_EXTD_BOTH_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_extd_both_dir_information.md#requirements) structure for each file. |
-| **FileIdExtdDirectoryInformation** | Return a [FILE_ID_EXTD_DIR_INFO](/windows/win32/api/winbase/ns-winbase-file_id_extd_dir_info) structure for each file. |
-| **FileIdFullDirectoryInformation** | Return a [FILE_ID_FULL_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_full_dir_information.md#requirements) structure for each file. |
-| **FileIdGlobalTxDirectoryInformation** | Return a [FILE_ID_GLOBAL_TX_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_global_tx_dir_information.md#requirements) structure for each file. |
-| **FileNamesInformation** | Return a [FILE_NAMES_INFORMATION](../ntifs/ns-ntifs-_file_names_information.md#requirements) structure for each file. |
-| **FileObjectIdInformation** | Return a [FILE_OBJECTID_INFORMATION](../ntifs/ns-ntifs-_file_objectid_information.md#requirements) structure for each file that has an object ID on the volume. This information class is valid only for the special directory "\$Extend\$ObjId:$O:$INDEX_ALLOCATION" on NTFS volumes. |
-| **FileQuotaInformation** | Return a single [FILE_QUOTA_INFORMATION](../ntifs/ns-ntifs-_file_quota_information.md#requirements) structure for each user on the volume that has quotas applied. This information class is valid only for the special directory "\$Extend\$Quota:$Q:$INDEX_ALLOCATION" on NTFS volumes. |
-| **FileReparsePointInformation** | Return a single [FILE_REPARSE_POINT_INFORMATION](../ntifs/ns-ntifs-_file_reparse_point_information.md#requirements) structure for each file that has a reparse point on the volume. This information class is valid only for the special directory "\$Extend\$Reparse:$R:$INDEX_ALLOCATION" on NTFS and ReFS volumes. |
+Type of information to be returned about files in the directory. See the **FileInformationClass** parameter of [**NtQueryDirectoryFileEx**](../ntifs/nf-ntifs-ntquerydirectoryfileex.md) for the list of possible values.
 
 ### -param QueryFlags
 

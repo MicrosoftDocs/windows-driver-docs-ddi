@@ -52,25 +52,25 @@ The D3DDDIARG_TEXBLT structure describes parameters for a texture bit-block tran
 
 ## -struct-fields
 
-### -field hDstResource
+### -field hDstResource [in]
 
-[in] A handle to the destination resource.
+A handle to the destination resource.
 
-### -field hSrcResource
+### -field hSrcResource [in]
 
-[in] A handle to the source resource.
+A handle to the source resource.
 
-### -field CubeMapFace
+### -field CubeMapFace [in]
 
-[in] The face of a cube map.
+The face of a cube map.
 
-### -field DstPoint
+### -field DstPoint [in]
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that describes the destination point where the source texture is copied.
+A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that describes the destination point where the source texture is copied.
 
-### -field SrcRect
+### -field SrcRect [in]
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that describes the source texture to copy to the destination point.
+A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that describes the source texture to copy to the destination point.
 
 ## -see-also
 

@@ -54,13 +54,13 @@ dev_langs:
 
 A handle to the display device (graphics context).
 
-### -param unnamedParam2
+### -param unnamedParam2 [in, optional]
 
-[in, optional] Pointer to a D3D12DDIARG_CREATEHEAP_0001 structure.
+Pointer to a D3D12DDIARG_CREATEHEAP_0001 structure.
 
-### -param unnamedParam3
+### -param unnamedParam3 [in, optional]
 
-[in, optional] Pointer to a [**D3D12DDIARG_CREATERESOURCE_0075**](ns-d3d12umddi-d3d12ddiarg_createresource_0075.md) structure.
+Pointer to a [**D3D12DDIARG_CREATERESOURCE_0075**](ns-d3d12umddi-d3d12ddiarg_createresource_0075.md) structure.
 
 ### -param unnamedParam4
 

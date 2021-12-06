@@ -51,14 +51,14 @@ A driver's <i>EvtIoQueueState</i> event callback function delivers queue state i
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to an I/O queue object.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Driver-defined context information that the driver specified when it registered the <i>EvtIoQueueState</i> callback function.
 
 ## -remarks

@@ -46,13 +46,13 @@ Enables or disables the link between the given FPGA device and its parent bridge
 
 ## -parameters
 
-### -param Context
+### -param Context [_In_reads_opt_(_Inexpressible_("varies"))]
 
-[_In_reads_opt_(_Inexpressible_("varies"))] The handle to the bus extension.
+The handle to the bus extension.
 
-### -param Enable
+### -param Enable [_In_]
 
-[_In_] A boolean value that indicates whether the link should be enabled or disabled. TRUE indicates enabled; FALSE otherwise.
+A boolean value that indicates whether the link should be enabled or disabled. TRUE indicates enabled; FALSE otherwise.
 
 ## -returns
 

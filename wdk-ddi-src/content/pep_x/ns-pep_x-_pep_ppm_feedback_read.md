@@ -55,9 +55,9 @@ The <b>PEP_PPM_FEEDBACK_READ</b> structure contains the value read from a proces
 
 ## -struct-fields
 
-### -field CounterIndex
+### -field CounterIndex [in]
 
-[in] The index that identifies which processor performance feedback counter to read. If the platform extension plug-in (PEP) supports N counters for this processor, counter indexes range from 0 to N-1. The PEP previously supplied the number of supported counters in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_capabilities">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification.
+The index that identifies which processor performance feedback counter to read. If the platform extension plug-in (PEP) supports N counters for this processor, counter indexes range from 0 to N-1. The PEP previously supplied the number of supported counters in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_capabilities">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification.
 
 ### -field InstantaneousValue
 
@@ -70,7 +70,7 @@ The <b>PEP_PPM_FEEDBACK_READ</b> structure contains the value read from a proces
 
 
 
-#### - ( unnamed union )
+### -field ( unnamed union )
 
 Either an instantaneous counter value, if the counter generates an instantaneous value, or both relative and accumulated counter values, if the counter hardware generates a relative value. For more information, see Remarks.
 

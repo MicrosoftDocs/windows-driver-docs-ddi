@@ -52,17 +52,17 @@ The D3DDDIARG_GETOVERLAYCOLORCONTROLS structure describes the parameters for ret
 
 ## -struct-fields
 
-### -field hOverlay
+### -field hOverlay [in]
 
-[in] A handle to the overlay that <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getoverlaycolorcontrols">GetOverlayColorControls</a> retrieves color-control settings for.
+A handle to the overlay that <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getoverlaycolorcontrols">GetOverlayColorControls</a> retrieves color-control settings for.
 
-### -field hResource
+### -field hResource [in]
 
-[in] A handle to the resource that is associated with the overlay that <b>hOverlay</b> specifies.
+A handle to the resource that is associated with the overlay that <b>hOverlay</b> specifies.
 
-### -field ColorControls
+### -field ColorControls [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_overlaycolorcontrols">D3DDDI_OVERLAYCOLORCONTROLS</a> structure that <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getoverlaycolorcontrols">GetOverlayColorControls</a> populates with color-control settings.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_overlaycolorcontrols">D3DDDI_OVERLAYCOLORCONTROLS</a> structure that <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getoverlaycolorcontrols">GetOverlayColorControls</a> populates with color-control settings.
 
 ## -see-also
 

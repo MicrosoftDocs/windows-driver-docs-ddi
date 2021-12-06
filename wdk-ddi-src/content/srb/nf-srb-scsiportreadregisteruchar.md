@@ -51,9 +51,9 @@ The <b>ScsiPortReadRegisterUchar</b> routine reads an unsigned byte value from t
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 ## -returns

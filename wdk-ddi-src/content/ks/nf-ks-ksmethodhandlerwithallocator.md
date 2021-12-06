@@ -50,29 +50,29 @@ The <b>KsMethodHandlerWithAllocator</b> functions performs the same handling as 
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP with the method request being handled.
 
-### -param MethodSetsCount 
+### -param MethodSetsCount [in]
 
-[in]
+
 Indicates the number of method set structures being passed.
 
-### -param MethodSet 
+### -param MethodSet [in]
 
-[in]
+
 Specifies the pointer to the list of method set information.
 
-### -param Allocator 
+### -param Allocator [in, optional]
 
-[in, optional]
+
 Optionally points to an allocation function that will be used to allocate memory to store the method parameters.
 
 ### -param OPTIONAL
 
-#### - MethodItemSize [in, optional]
+### -param MethodItemSize [in, optional]
 
 Optionally contains the size of each KSMETHOD_ITEM structure in each list of methods. The method item may be extended in order to store private information. If this parameter is zero, the structure size is assumed to be normal. If it is greater than or equal to a method item structure, the KSMETHOD_ITEM_IRP_STORAGE macro can be used to return a pointer to the method item so the custom data can be retrieved. On 64-bit platforms, this parameter must be a multiple of 8.
 

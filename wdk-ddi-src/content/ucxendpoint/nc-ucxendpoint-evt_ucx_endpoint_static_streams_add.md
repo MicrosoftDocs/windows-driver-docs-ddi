@@ -51,19 +51,19 @@ The client driver's implementation that UCX calls to create static streams.
 
 ### -param UcxEndpoint
 
-### -param NumberOfStreams 
+### -param NumberOfStreams [in]
 
-[in]
+
 The number of non-default streams to create.
 
-### -param UcxStaticStreamsInit 
+### -param UcxStaticStreamsInit [in]
 
-[in]
+
 A pointer to an opaque structure containing
         initialization information.  This structure is managed by UCX.
 
 
-#### - Endpoint [in]
+### -param Endpoint [in]
 
 A handle to a UCXENDPOINT object that represents the endpoint.
 

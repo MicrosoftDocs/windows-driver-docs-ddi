@@ -52,17 +52,17 @@ Describes usage hints for the driver and capabilities for driving a monitor that
 
 ## -struct-fields
 
-### -field UsageHints
+### -field UsageHints [in]
 
-[in] Hints to the driver on the intended usage of the display device. See [_DXGK_MONITORLINKINFO_USAGEHINTS](../d3dkmdt/ns-d3dkmdt-_dxgk_monitorlinkinfo_usagehints.md).
+Hints to the driver on the intended usage of the display device. See [_DXGK_MONITORLINKINFO_USAGEHINTS](../d3dkmdt/ns-d3dkmdt-_dxgk_monitorlinkinfo_usagehints.md).
 
-### -field Capabilities
+### -field Capabilities [out]
 
-[out] Flags which describe the capabilities for driving the monitor. See [_DXGK_MONITORLINKINFO_CAPABILITIES structure](../d3dkmdt/ns-d3dkmdt-_dxgk_monitorlinkinfo_capabilities.md).
+Flags which describe the capabilities for driving the monitor. See [_DXGK_MONITORLINKINFO_CAPABILITIES structure](../d3dkmdt/ns-d3dkmdt-_dxgk_monitorlinkinfo_capabilities.md).
 
-### -field DitheringSupport
+### -field DitheringSupport [out]
 
-[out] A D3DKMDT_WIRE_FORMAT_AND_PREFERENCE field containing the flags for each wire-format. The driver should set the wire-format bit for each format where the driver and hardware supports dithering beneficial to image quality when the source pixel format contains is higher precision that than the wire-format.
+A D3DKMDT_WIRE_FORMAT_AND_PREFERENCE field containing the flags for each wire-format. The driver should set the wire-format bit for each format where the driver and hardware supports dithering beneficial to image quality when the source pixel format contains is higher precision that than the wire-format.
 
 ## -remarks
 

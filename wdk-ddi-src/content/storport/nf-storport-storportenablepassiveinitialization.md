@@ -49,14 +49,14 @@ The <b>StorPortEnablePassiveInitialization</b> routine enables  the miniport's <
 
 ## -parameters
 
-### -param DeviceExtension 
+### -param DeviceExtension [in]
 
-[in]
+
 Pointer to the per-adapter device extension.
 
-### -param HwPassiveInitializeRoutine 
+### -param HwPassiveInitializeRoutine [in]
 
-[in]
+
 Pointer to a callback routine that the port driver calls at PASSIVE_LEVEL to initialize the DPCs that the miniport driver will use. For a description of this callback routine, see [HwStorPassiveInitializeRoutine](./nc-storport-hw_passive_initialize_routine.md).
 
 ## -returns

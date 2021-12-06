@@ -70,7 +70,7 @@ The length, in bytes, of USSD string in stored in the <b>String</b> member.
 
 
 
-#### - String[WWAN_USSD_STRING_LEN_MAX]
+### -field String[WWAN_USSD_STRING_LEN_MAX]
 
 The USSD string encoded according to the <b>DataCodingScheme</b> member.
 

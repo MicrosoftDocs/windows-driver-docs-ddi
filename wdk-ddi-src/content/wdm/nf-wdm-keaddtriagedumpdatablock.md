@@ -47,17 +47,17 @@ Adds a triage dump data block to a triage dump data block array.
 
 ## -parameters
 
-### -param KtriageDumpDataArray
+### -param KtriageDumpDataArray [_Inout_]
 
-[_Inout_] A pointer to a [**KTRIAGE_DUMP_DATA_ARRAY**](ns-wdm-_ktriage_dump_data_array.md) structure that is the data block array. It is assumed that the caller has already obtained exclusive write to _KtriageDumpDataArray_.
+A pointer to a [**KTRIAGE_DUMP_DATA_ARRAY**](ns-wdm-_ktriage_dump_data_array.md) structure that is the data block array. It is assumed that the caller has already obtained exclusive write to _KtriageDumpDataArray_.
 
 ### -param Address
 
  [_In_] A ULONG_PTR that is the starting address of the data block.
 
-### -param Size
+### -param Size [_In_]
 
-[_In_] The size of the data block, in bytes.
+The size of the data block, in bytes.
 
 ## -returns
 

@@ -49,29 +49,29 @@ The **RasterizeRect** method rasterizes an axis-aligned, rectangular region of a
 
 ## -parameters
 
-### -param x
+### -param x [in]
 
-[in] The x coordinate, in pixels, at the left edge of the output bitmap.
+The x coordinate, in pixels, at the left edge of the output bitmap.
 
-### -param y
+### -param y [in]
 
-[in] The y coordinate, in pixels, at the top edge of the output bitmap.
+The y coordinate, in pixels, at the top edge of the output bitmap.
 
-### -param width
+### -param width [in]
 
-[in] The width, in pixels, of the output bitmap.
+The width, in pixels, of the output bitmap.
 
-### -param height
+### -param height [in]
 
-[in] The height, in pixels, of the output bitmap.
+The height, in pixels, of the output bitmap.
 
-### -param notificationCallback
+### -param notificationCallback [in, optional]
 
-[in, optional] Pointer to the [IXpsRasterizerNotificationCallback](./nn-xpsrassvc-ixpsrasterizernotificationcallback.md) interface of a notification object that is implemented by the caller. This parameter is optional and can be **NULL** if the caller does not require notification callbacks.
+Pointer to the [IXpsRasterizerNotificationCallback](./nn-xpsrassvc-ixpsrasterizernotificationcallback.md) interface of a notification object that is implemented by the caller. This parameter is optional and can be **NULL** if the caller does not require notification callbacks.
 
-### -param bitmap
+### -param bitmap [out, optional]
 
-[out, optional] Pointer to a location into which the method writes a pointer to the [IWICBitmap](/windows/win32/api/wincodec/nn-wincodec-iwicbitmap) interface of the newly created bitmap object. If the method fails, it writes **NULL** to this location and returns an error code.
+Pointer to a location into which the method writes a pointer to the [IWICBitmap](/windows/win32/api/wincodec/nn-wincodec-iwicbitmap) interface of the newly created bitmap object. If the method fails, it writes **NULL** to this location and returns an error code.
 
 ## -returns
 

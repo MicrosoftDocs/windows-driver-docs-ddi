@@ -52,19 +52,19 @@ The <b>FsRtlSplitLargeMcb</b> routine inserts a hole into the mappings in a map 
 
 ## -parameters
 
-### -param Mcb 
+### -param Mcb [in]
 
-[in]
+
 Pointer to the MCB structure.
 
-### -param Vbn 
+### -param Vbn [in]
 
-[in]
+
 Starting virtual block number (VBN) of the range of mappings to be shifted upward by <i>Amount</i> to make room for the hole.
 
-### -param Amount 
+### -param Amount [in]
 
-[in]
+
 Number of sectors (VBNs) in the hole to be created.
 
 ## -returns

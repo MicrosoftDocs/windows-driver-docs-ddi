@@ -53,9 +53,9 @@ The <b>StorPortReleaseSpinLock</b> routine releases a spinlock acquired by <a hr
 
 <p>Pointer to a per-adapter device extension.</p>
 
-### -param LockHandle 
+### -param LockHandle [in, out]
 
-[in, out]
+
 Pointer to a lock handle returned by <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>.
 
 ## -see-also

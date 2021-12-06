@@ -49,9 +49,9 @@ The <b>IoFreeErrorLogEntry</b> routine frees an unused error log entry.
 
 ## -parameters
 
-### -param ElEntry 
+### -param ElEntry [in]
 
-[in]
+
 Pointer to an error log packet allocated by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateerrorlogentry">IoAllocateErrorLogEntry</a>.
 
 ## -remarks

@@ -49,9 +49,9 @@ The <b>IoSizeOfIrp</b> routine determines the size in bytes for an IRP, given th
 
 ## -parameters
 
-### -param StackSize 
+### -param StackSize [in]
 
-[in]
+
 Specifies the number of stack locations for the IRP.
 
 ## -returns

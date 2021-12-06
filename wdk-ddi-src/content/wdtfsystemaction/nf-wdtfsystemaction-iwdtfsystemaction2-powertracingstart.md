@@ -51,8 +51,6 @@ Starts a trace session for power state transitions and saves the trace message f
 
 Starts a trace for power state transitions and saves an .etl file in the current working directory
 
-## -parameters
-
 ## -returns
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.

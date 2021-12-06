@@ -49,19 +49,19 @@ The <b>KeDelayExecutionThread</b> routine puts the current thread into an alerta
 
 ## -parameters
 
-### -param WaitMode 
+### -param WaitMode [in]
 
-[in]
+
 Specifies the processor mode in which the caller is waiting, which can be either <b>KernelMode</b> or <b>UserMode</b>. Lower-level drivers should specify <b>KernelMode</b>.
 
-### -param Alertable 
+### -param Alertable [in]
 
-[in]
+
 Specifies <b>TRUE</b> if the wait is alertable. Lower-level drivers should specify <b>FALSE</b>.
 
-### -param Interval 
+### -param Interval [in]
 
-[in]
+
 Specifies the absolute or relative time, in units of 100 nanoseconds, for which the wait is to occur. A negative value indicates relative time. Absolute expiration times track any changes in system time; relative expiration times are not affected by system time changes.
 
 ## -returns

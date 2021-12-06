@@ -50,9 +50,9 @@ The <b>KsQueryDevicePnpObject</b> function returns the PnP device object that ca
 
 ## -parameters
 
-### -param Header 
+### -param Header [in]
 
-[in]
+
 Points to a header previously allocated by <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedeviceheader">KsAllocateDeviceHeader</a> whose PnP device object is to be returned.
 
 ## -returns

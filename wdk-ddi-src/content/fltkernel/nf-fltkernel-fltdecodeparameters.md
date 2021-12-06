@@ -4,7 +4,7 @@ title: FltDecodeParameters function (fltkernel.h)
 description: FltDecodeParameters returns pointers to the memory descriptor list (MDL) address, buffer pointer, buffer length, and desired access parameters for an I/O operation.
 old-location: ifsk\fltdecodeparameters.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 11/23/2021
 keywords: ["FltDecodeParameters function"]
 ms.keywords: FltApiRef_a_to_d_0e793d86-f756-4885-8b23-5f74cd50b144.xml, FltDecodeParameters, FltDecodeParameters routine [Installable File System Drivers], fltkernel/FltDecodeParameters, ifsk.fltdecodeparameters
 req.header: fltkernel.h
@@ -43,137 +43,67 @@ api_name:
 
 # FltDecodeParameters function
 
-
 ## -description
 
-<b>FltDecodeParameters</b> returns pointers to the memory descriptor list (MDL) address, buffer pointer, buffer length, and desired access parameters for an I/O operation. This saves minifilter drivers from having a switch statement to find the position of these parameters in helper routines that access the MDL address, buffer pointer, buffer length, and desired access for multiple operation types.
+**FltDecodeParameters** returns pointers to the memory descriptor list (MDL) address, buffer pointer, buffer length, and desired access parameters for an I/O operation. This saves minifilter drivers from having a switch statement to find the position of these parameters in helper routines that access the MDL address, buffer pointer, buffer length, and desired access for multiple operation types.
 
 ## -parameters
 
-### -param CallbackData 
+### -param CallbackData [in]
 
-[in]
-Pointer to the callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation.
+Pointer to the callback data ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) structure for the I/O operation.
 
-### -param MdlAddressPointer 
+### -param MdlAddressPointer [out]
 
-[out]
-Pointer to a caller-supplied variable that receives a pointer to the <b>MdlAddress</b> (or <b>OutputMdlAddress</b>) member of the callback data parameter (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_parameters">FLT_PARAMETERS</a>) structure (note that this member is itself a pointer). This parameter is optional and can be <b>NULL</b>. If the I/O operation does not have an MDL field, this parameter receives <b>NULL</b>.
+Pointer to a caller-supplied variable that receives a pointer to the **MdlAddress** (or **OutputMdlAddress**) member of the callback data parameter ([**FLT_PARAMETERS**](ns-fltkernel-_flt_parameters.md)) structure (note that this member is itself a pointer). This parameter is optional and can be **NULL**. If the I/O operation does not have an MDL field, this parameter receives **NULL**.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
 Pointer to a caller-supplied variable that receives a pointer to the appropriate buffer member (depending on the major function code) in the callback data parameter structure (note that this member is itself a pointer).
 
-### -param Length 
+### -param Length [out]
 
-[out]
-Pointer to a caller-supplied variable that receives a pointer to the buffer length member in the callback data parameter structure. If the operation does not have a length field, this parameter receives <b>NULL</b>.
+Pointer to a caller-supplied variable that receives a pointer to the buffer length member in the callback data parameter structure. If the operation does not have a length field, this parameter receives **NULL**.
 
-### -param DesiredAccess 
+### -param DesiredAccess [out, optional]
 
-[out, optional]
-Pointer to a caller-supplied variable that receives the type of access that is appropriate for this type of I/O operation, one of <code>IoReadAccess</code>, <code>IoWriteAccess</code>, or <code>IoModifyAccess</code>. <code>IoReadAccess</code> means that the minifilter driver can examine the contents of the buffer but cannot change the contents in place. <code>IoWriteAccess</code> and <code>IoModifyAccess</code>, which are equivalent, mean that the minifilter driver has read and write access to the buffer.
+Pointer to a caller-supplied variable that receives the type of access that is appropriate for this type of I/O operation, one of **IoReadAccess**, **IoWriteAccess**, or **IoModifyAccess**. **IoReadAccess** means that the minifilter driver can examine the contents of the buffer but cannot change the contents in place. **IoWriteAccess** and **IoModifyAccess**, which are equivalent, mean that the minifilter driver has read and write access to the buffer.
 
 ## -returns
 
-<b>FltDecodeParameters</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
+**FltDecodeParameters** returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure represents an I/O operation that does not have any buffer parameters. This is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_INVALID_PARAMETER | The callback data ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) structure represents an I/O operation that does not have any buffer parameters. This is an error code. |
 
 ## -remarks
 
-<b>FltDecodeParameters</b> returns pointers to the parameters for an I/O operation, rather than the parameter values, so that the caller can modify the values of the parameters if desired. 
+**FltDecodeParameters** returns pointers to the parameters for an I/O operation, rather than the parameter values, so that the caller can modify the values of the parameters if desired.
 
-<b>FltDecodeParameters</b> can be used for fast I/O operations as well as IRP-based operations. It is not meaningful for file system filter (FSFilter) callback operations, because those operations do not have buffer parameters. 
+**FltDecodeParameters** can be used for fast I/O operations as well as IRP-based operations. It is not meaningful for file system filter (FSFilter) callback operations, because those operations do not have buffer parameters.
 
-IOCTL and FSCTL operations can have one or two buffers, depending on the buffering method used. In cases where the operation has two buffers (and two length fields), <b>FltDecodeParameters</b> returns the <b>OutputBuffer</b>, <b>OutputBufferLength</b>, and/or <b>OutputMdlAddress</b> fields as appropriate. 
+IOCTL and FSCTL operations can have one or two buffers, depending on the buffering method used. In cases where the operation has two buffers (and two length fields), **FltDecodeParameters** returns the **OutputBuffer**, **OutputBufferLength**, and/or **OutputMdlAddress** fields as appropriate.
 
-Not all of the four parameters are returned for every I/O operation. For example, for an IRP_MJ_READ request, <b>FltDecodeParameters</b> sets the output parameters as follows. 
+Not all of the four parameters are returned for every I/O operation. For example, for an IRP_MJ_READ request, **FltDecodeParameters** sets the output parameters as follows.
 
-<table>
-<tr>
-<th>Parameter</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>
-<i>MdlAddressPointer</i>
-
-</td>
-<td>
-&(CallbackData->Iopb->Parameters.Read.MdlAddress)
-
-</td>
-</tr>
-<tr>
-<td>
-<i>Buffer</i>
-
-</td>
-<td>
-&(CallbackData->Iopb->Parameters.Read.ReadBuffer)
-
-</td>
-</tr>
-<tr>
-<td>
-<i>Length</i>
-
-</td>
-<td>
-&(CallbackData->Iopb->Parameters.Read.Length)
-
-</td>
-</tr>
-<tr>
-<td>
-<i>DesiredAccess</i>
-
-</td>
-<td>
-IoWriteAccess
-
-</td>
-</tr>
-</table>
+| Parameter | Value |
+| --------- | ----- |
+| **MdlAddressPointer** | &(CallbackData->Iopb->Parameters.Read.MdlAddress) |
+| **Buffer**            | &(CallbackData->Iopb->Parameters.Read.ReadBuffer) |
+| **Length**            | &(CallbackData->Iopb->Parameters.Read.Length)     |
+| **DesiredAccess**     | IoWriteAccess                                     |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
+[**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)
 
+[**FLT_IS_FASTIO_OPERATION**](nf-fltkernel-flt_is_fastio_operation.md)
 
+[**FLT_IS_FS_FILTER_OPERATION**](/previous-versions/ff544648(v=vs.85))
 
-<a href="/windows-hardware/drivers/ddi/index">FLT_IS_FASTIO_OPERATION</a>
+[**FLT_IS_IRP_OPERATION**](/previous-versions/ff544654(v=vs.85))
 
+[**FLT_PARAMETERS**](ns-fltkernel-_flt_parameters.md)
 
-
-<a href="/previous-versions/ff544648(v=vs.85)">FLT_IS_FS_FILTER_OPERATION</a>
-
-
-
-<a href="/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_parameters">FLT_PARAMETERS</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltlockuserbuffer">FltLockUserBuffer</a>
+[**FltLockUserBuffer**](nf-fltkernel-fltlockuserbuffer.md)

@@ -52,91 +52,91 @@ The D3DKMT_PRESENT structure describes the present operation.
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device to present to. A device handle is supplied to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpresent">D3DKMTPresent</a> function in the union that D3DKMT_PRESENT contains for compatibility with Microsoft Direct3D version 10.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device to present to. A device handle is supplied to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpresent">D3DKMTPresent</a> function in the union that D3DKMT_PRESENT contains for compatibility with Microsoft Direct3D version 10.
 
-### -field hContext
+### -field hContext [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device context to present to.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device context to present to.
 
-### -field hWindow
+### -field hWindow [in]
 
-[in] A handle to the window that the bit-block transfer (bitblt) applies to. A value of <b>NULL</b> indicates the desktop window. The value in <b>hWindow</b> can be <b>NULL</b> unless the <b>Blt</b> or <b>ColorFill</b> bit-field flag is specified in the <b>Flags</b> member.
+A handle to the window that the bit-block transfer (bitblt) applies to. A value of <b>NULL</b> indicates the desktop window. The value in <b>hWindow</b> can be <b>NULL</b> unless the <b>Blt</b> or <b>ColorFill</b> bit-field flag is specified in the <b>Flags</b> member.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology on which to restrict displaying, if the <b>RestrictVidPnSource</b> bit-field flag is set in the <b>Flags</b> member.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology on which to restrict displaying, if the <b>RestrictVidPnSource</b> bit-field flag is set in the <b>Flags</b> member.
 
 If the <b>RestrictVidPnSource</b> bit-field flag is set and the <b>hWindow</b> member is <b>NULL</b>, the <b>VidPnSourceId</b> member indicates which output the full-screen bitblt is directed to If <b>RestrictVidPnSource</b> is set and <b>hWindow</b> is non-<b>NULL</b>, <b>VidPnSourceId</b> indicates to which output to restrict the windowed bit-block transfer.
 
-### -field hSource
+### -field hSource [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the system memory or primary allocation to present from, if the <b>ColorFill</b> bit-field flag is not set in the <b>Flags</b> member.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the system memory or primary allocation to present from, if the <b>ColorFill</b> bit-field flag is not set in the <b>Flags</b> member.
 
-### -field hDestination
+### -field hDestination [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the destination allocation. <b>hDestination</b> can be zero if the destination is unknown. 
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the destination allocation. <b>hDestination</b> can be zero if the destination is unknown. 
 
 The handle in <b>hDestination</b> is valid only if the <b>Blt</b> bit-field flag is set in the <b>Flags</b> member.
 
 If the handle in the <b>hDestination</b> member is nonzero, the <b>hDestination</b> and <b>hWindow</b> handles must refer to two different primary allocations of the same size, the device in the <b>hDevice</b> member must own the video present source that is identified by the <b>VidPnSourceId</b> member, and the <b>SrcRectValid</b> bit-field flag must be set in the <b>Flags</b> member.
 
-### -field Color
+### -field Color [in]
 
-[in] The ARGB 32-bit (see the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration) color-fill or color-key value . A value for color fill is set when the <b>ColorFill</b> bit-field flag is set in the <b>Flags</b> member. A value for color key is set when either the <b>SrcColorKey</b> or <b>DstColorKey</b> bit-field flag is set in the <b>Flags</b> member. Note that only one of the <b>ColorFill</b>, <b>SrcColorKey</b>, and <b>DstColorKey</b> bit-field flags is set at any time. 
+The ARGB 32-bit (see the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration) color-fill or color-key value . A value for color fill is set when the <b>ColorFill</b> bit-field flag is set in the <b>Flags</b> member. A value for color key is set when either the <b>SrcColorKey</b> or <b>DstColorKey</b> bit-field flag is set in the <b>Flags</b> member. Note that only one of the <b>ColorFill</b>, <b>SrcColorKey</b>, and <b>DstColorKey</b> bit-field flags is set at any time. 
 
 If the primary format is palettized RGB, <b>Color</b> contains the palette index rather than the D3DDDIFMT_A8R8G8B8 value from D3DDDIFORMAT.
 
-### -field DstRect
+### -field DstRect [in]
 
-[in] The optional destination <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> for the bitblt. The destination RECT is used only if the <b>DstRectValid</b> bit-field flag is set in the <b>Flags</b> member.
+The optional destination <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> for the bitblt. The destination RECT is used only if the <b>DstRectValid</b> bit-field flag is set in the <b>Flags</b> member.
 
-### -field SrcRect
+### -field SrcRect [in]
 
-[in] The optional source RECT for the bitblt. The source RECT is used only if the <b>SrcRectValid</b> bit-field flag is set in the <b>Flags</b> member.
+The optional source RECT for the bitblt. The source RECT is used only if the <b>SrcRectValid</b> bit-field flag is set in the <b>Flags</b> member.
 
-### -field SubRectCnt
+### -field SubRectCnt [in]
 
-[in] The number of subrectangular regions that <b>pSrcSubRects</b> points to that are specified when presenting.
+The number of subrectangular regions that <b>pSrcSubRects</b> points to that are specified when presenting.
 
-### -field pSrcSubRects
+### -field pSrcSubRects [in]
 
-[in] A pointer to an array of subrectangular regions (RECTs) that are specified when presenting.
+A pointer to an array of subrectangular regions (RECTs) that are specified when presenting.
 
-### -field PresentCount
+### -field PresentCount [in]
 
-[in] The number of present operations that can be queued for the device that is specified by <b>hDevice</b>.
+The number of present operations that can be queued for the device that is specified by <b>hDevice</b>.
 
-### -field FlipInterval
+### -field FlipInterval [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-d3dddi_flipinterval_type">D3DDDI_FLIPINTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs).
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-d3dddi_flipinterval_type">D3DDDI_FLIPINTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs).
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presentflags">D3DKMT_PRESENTFLAGS</a> structure that identifies, in bit-field flags, how to display. Note that the <b>ColorFill</b>, <b>SrcColorKey</b>, and <b>DstColorKey</b> bit-field flags are mutually exclusive.
+A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presentflags">D3DKMT_PRESENTFLAGS</a> structure that identifies, in bit-field flags, how to display. Note that the <b>ColorFill</b>, <b>SrcColorKey</b>, and <b>DstColorKey</b> bit-field flags are mutually exclusive.
 
-### -field BroadcastContextCount
+### -field BroadcastContextCount [in]
 
-[in] The number of additional contexts in the array that <b>BroadcastContext</b> specifies.
+The number of additional contexts in the array that <b>BroadcastContext</b> specifies.
 
-### -field BroadcastContext
+### -field BroadcastContext [in]
 
-[in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the additional contexts to broadcast the current present operation to. The D3DDDI_MAX_BROADCAST_CONTEXT constant, which is defined as 64, defines the maximum number of contexts that the OpenGL ICD can broadcast the current present operation to.
+An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the additional contexts to broadcast the current present operation to. The D3DDDI_MAX_BROADCAST_CONTEXT constant, which is defined as 64, defines the maximum number of contexts that the OpenGL ICD can broadcast the current present operation to.
 
 Broadcasting is supported only for flip operations. To broadcast a flip operation, the display miniport driver must support memory mapped I/O (MMIO)-based flips. To indicate support of MMIO flips, the display miniport driver sets the <b>FlipOnVSyncMmIo</b> bit-field flag in the <b>FlipCaps</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a> structure when its <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function is called.
 
 The original context that the <b>hContext</b> member specifies and that the OpenGL ICD presents to is not an element in the <b>BroadcastContext</b> array. For example, if the <b>BroadcastContext</b> array contains one element, the OpenGL ICD sends the present operation to the owning context (<b>hContext</b>) and broadcasts to that one additional context.
 
-### -field PresentLimitSemaphore
+### -field PresentLimitSemaphore [in]
 
-[in] The handle to the present-limit semaphore.
+The handle to the present-limit semaphore.
 
 Supported starting with Windows 7.
 
-### -field PresentHistoryToken
+### -field PresentHistoryToken [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a> structure that identifies the type of present operation.
+A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a> structure that identifies the type of present operation.
 
 Supported starting with Windows 7.
 

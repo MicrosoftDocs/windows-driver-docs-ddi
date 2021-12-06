@@ -49,9 +49,9 @@ The <b>AddTypeOptions</b> method turns on some type formatting options for outpu
 
 ## -parameters
 
-### -param Options 
+### -param Options [in]
 
-[in]
+
 Specifies type formatting options to turn on.  <i>Options</i> is a bit-set that will be ORed with the existing type formatting options.  For a description of the bit flags, see <a href="/windows-hardware/drivers/debugger/debug-typeopts-xxx">DEBUG_TYPEOPTS_XXX</a>.
 
 ## -returns

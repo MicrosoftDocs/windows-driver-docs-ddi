@@ -49,9 +49,9 @@ Gets the number of actions in this collection.
 
 ## -parameters
 
-### -param pVal 
+### -param pVal [out]
 
-[out]
+
 The number of actions.
 
 ## -returns

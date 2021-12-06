@@ -50,15 +50,15 @@ Arguments for the [DxgkddiQueryDiagnosticTypesSupport](nc-dispmprt-dxgkddi_query
 
 ## -struct-fields
 
-### -field DiagnosticCategory
+### -field DiagnosticCategory [in]
 
-[in] A [DXGK_DIAGNOSTIC_CATEGORIES](ns-dispmprt-_dxgk_diagnostic_categories.md) structure that indicates which one of the diagnostic categories the supported types are being queried for.
+A [DXGK_DIAGNOSTIC_CATEGORIES](ns-dispmprt-_dxgk_diagnostic_categories.md) structure that indicates which one of the diagnostic categories the supported types are being queried for.
 
-### -field NoninvasiveTypes
+### -field NoninvasiveTypes [out]
 
-[out] A [DXGK_DIAGNOSTIC_TYPES](ns-dispmprt-_dxgk_diagnostic_types.md) structure that indicates driver support for diagnostics, which can be achieved without significant overhead or impact on the system. Noninvasive diagnostics should be sufficiently benign that they may be enabled by the OS to proactively gather telemetry.
+A [DXGK_DIAGNOSTIC_TYPES](ns-dispmprt-_dxgk_diagnostic_types.md) structure that indicates driver support for diagnostics, which can be achieved without significant overhead or impact on the system. Noninvasive diagnostics should be sufficiently benign that they may be enabled by the OS to proactively gather telemetry.
 
-### -field InvasiveTypes
+### -field InvasiveTypes [out]
 
-[out] A [DXGK_DIAGNOSTIC_TYPES](ns-dispmprt-_dxgk_diagnostic_types.md) structure that indicates driver support for diagnostics, which the driver supports but may require significant overhead or have significant impact on the system. Invasive diagnostics will only be enabled when required to gather information for specific investigations and are expected to have power and/or performance drawbacks making them unsuitable for automated usage.
+A [DXGK_DIAGNOSTIC_TYPES](ns-dispmprt-_dxgk_diagnostic_types.md) structure that indicates driver support for diagnostics, which the driver supports but may require significant overhead or have significant impact on the system. Invasive diagnostics will only be enabled when required to gather information for specific investigations and are expected to have power and/or performance drawbacks making them unsuitable for automated usage.
 

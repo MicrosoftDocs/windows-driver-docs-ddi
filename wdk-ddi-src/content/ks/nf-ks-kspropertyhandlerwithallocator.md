@@ -49,29 +49,29 @@ The <b>KsPropertyHandlerWithAllocator </b>performs the same handling as <a href=
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP with the property request being handled.
 
-### -param PropertySetsCount 
+### -param PropertySetsCount [in]
 
-[in]
+
 Specifies the number of property sets being passed.
 
-### -param PropertySet 
+### -param PropertySet [in]
 
-[in]
+
 Specifies the pointer to an array of property set information.
 
-### -param Allocator 
+### -param Allocator [in, optional]
 
-[in, optional]
+
 Optionally points to an allocation function used to allocate memory to store the property parameters.
 
 ### -param OPTIONAL
 
-#### - PropertyItemSize [in, optional]
+### -param PropertyItemSize [in, optional]
 
 Optionally contains the size of each KSPROPERTY_ITEM structure in the properties. The property item may be extended in order to store private information. If this parameter is zero, the structure size is assumed to be normal. If it is greater than or equal to a property item structure, the KSPROPERTY_ITEM_IRP_STORAGE macro can be used to return a pointer to the property item so the custom data can be retrieved. On 64-bit platforms, this parameter must be a multiple of 8.
 

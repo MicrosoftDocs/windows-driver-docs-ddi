@@ -49,14 +49,14 @@ Converts a value of type <b>INT8</b> to a value of type <b>ULONGLONG</b>.
 
 ## -parameters
 
-### -param i8Operand 
+### -param i8Operand [in]
 
-[in]
+
 The value to be converted.
 
-### -param pullResult 
+### -param pullResult [out]
 
-[out]
+
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

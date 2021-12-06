@@ -49,9 +49,9 @@ Registers an event callbacks object with this client.
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [in, optional]
 
-[in, optional]
+
 The interface pointer to the event callbacks object.
 
 ## -returns

@@ -52,18 +52,18 @@ The <b>BdaPropertyPinTypes</b> function retrieves a list of pin types in a templ
 
 ### -param pIrp
 
-### -param pKSProperty 
+### -param pKSProperty [in]
 
-[in]
+
 Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
-### -param pulProperty 
+### -param pulProperty [out]
 
-[out]
+
 Points to an array that receives the list of pin types. 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Points to the IRP for the request to retrieve list of pin types. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-types">KSPROPERTY_BDA_PIN_TYPES</a> request.
 

@@ -51,14 +51,14 @@ The <b>SetNamedValue</b> method sets the value of a property.
 
 ## -parameters
 
-### -param pszName 
+### -param pszName [in]
 
-[in]
+
 A pointer to a null-terminated string that contains the name of the property.
 
-### -param pv 
+### -param pv [in]
 
-[in]
+
 A pointer to the value that the property is set to.
 
 ## -returns

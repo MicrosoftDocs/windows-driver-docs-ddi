@@ -52,18 +52,18 @@ The <b>BdaMethodCreatePin</b> function creates a pin factory.
 
 ### -param pIrp
 
-### -param pKSMethod 
+### -param pKSMethod [in]
 
-[in]
+
 Points to a <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a> structure that describes the method and request type of a method request.
 
-### -param pulPinFactoryID 
+### -param pulPinFactoryID [out, optional]
 
-[out, optional]
+
 Points to a variable that receives the identifier of the pin factory. 
 
 
-#### - Irp [in]
+### -param Irp [in]
 
 Points to the IRP for the request to create a pin factory. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksmethod-bda-create-pin-factory">KSMETHOD_BDA_CREATE_PIN_FACTORY</a> request.
 

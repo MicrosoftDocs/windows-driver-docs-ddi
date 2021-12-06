@@ -52,14 +52,14 @@ api_name:
 
 ## -parameters
 
-### -param dwByteCount 
+### -param dwByteCount [in]
 
-[in]
+
 Size, in bytes, of the buffer to allocate.
 
-### -param ppvBuffer 
+### -param ppvBuffer [out]
 
-[out]
+
 A pointer to a caller-supplied variable that stores the address of the allocated buffer. The
      <i>ppvBuffer</i> parameter has a valid non-null value if the return value is ERROR_SUCCESS.
 

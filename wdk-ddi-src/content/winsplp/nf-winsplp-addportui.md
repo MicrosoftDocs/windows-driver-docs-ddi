@@ -49,25 +49,25 @@ A port monitor UI DLL's <b>AddPortUI</b> function adds a printer port, then obta
 
 ## -parameters
 
-### -param pszServer 
+### -param pszServer [in, optional]
 
-[in, optional]
+
 Caller-supplied pointer to a string representing a server name, or <b>NULL</b> if the printer is local.
 
-### -param hWnd 
+### -param hWnd [in]
 
-[in]
+
 Caller-supplied handle of the window that should be used as the parent for dialog boxes. If <b>NULL</b>, no dialog boxes should be displayed.
 
 ### -param pszMonitorNameIn
 
-### -param ppszPortNameOut 
+### -param ppszPortNameOut [out, optional]
 
-[out, optional]
+
 Caller-supplied pointer to a location to receive a port name string. Can be <b>NULL</b>, in which case a name is not returned.
 
 
-#### - pszPortNameIn [in]
+### -param pszPortNameIn [in]
 
 Caller-supplied pointer to a string representing the name of the monitor. Can be <b>NULL</b>.
 

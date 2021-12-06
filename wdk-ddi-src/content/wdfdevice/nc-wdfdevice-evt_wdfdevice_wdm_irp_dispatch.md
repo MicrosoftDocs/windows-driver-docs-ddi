@@ -51,39 +51,39 @@ A driver's <i>EvtDeviceWdmIrpDispatch</i> event callback function receives an IR
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param MajorFunction 
+### -param MajorFunction [in]
 
-[in]
+
 One of the IRP major function codes that are defined in wdm.h.
 
-### -param MinorFunction 
+### -param MinorFunction [in]
 
-[in]
+
 One of the I/O IRP minor function codes that are defined in wdm.h for the <i>MajorFunction</i> code.
 
-### -param Code 
+### -param Code [in]
 
-[in]
+
 Specifies an I/O control code value.  This parameter is valid only if <i>MajorFunction</i> is set to IRP_MJ_DEVICE_CONTROL.
 
-### -param DriverContext 
+### -param DriverContext [in]
 
-[in]
+
 An untyped pointer to driver-defined context information that the driver provided when it called <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceconfigurewdmirpdispatchcallback">WdfDeviceConfigureWdmIrpDispatchCallback</a>.
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 A pointer to an IRP structure.
 
-### -param DispatchContext 
+### -param DispatchContext [in]
 
-[in]
+
 An untyped pointer to the framework's dispatch  context information. The driver must provide this parameter when it calls <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchirp">WdfDeviceWdmDispatchIrp</a>.
 
 ## -returns

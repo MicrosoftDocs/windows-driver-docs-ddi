@@ -49,9 +49,9 @@ The<b> KsFilterGetParentFilterFactory</b> function returns the parent filter fac
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to return the parent filter factory.
 
 ## -returns

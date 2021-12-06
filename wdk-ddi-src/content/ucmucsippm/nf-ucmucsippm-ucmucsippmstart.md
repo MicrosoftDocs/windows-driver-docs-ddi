@@ -47,9 +47,9 @@ Instructs the UcmUcsiCx class extension to start sending requests to the client 
 
 ## -parameters
 
-### -param PpmObject 
+### -param PpmObject [in]
 
-[in]A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md).
+A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md).
 
 ## -returns
 

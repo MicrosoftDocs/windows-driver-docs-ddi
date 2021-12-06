@@ -51,13 +51,13 @@ The <code>IPrintCoreHelperUni::EnumFeatures</code> method gets a list of all ava
 
 ### -param pFeatureList
 
-### -param pdwNumFeatures 
+### -param pdwNumFeatures [out]
 
-[out]
+
 A pointer to a variable that receives the number of feature keywords in the array that is pointed to by the <i>pFeatureList</i> parameter.
 
 
-#### - pFeatureList[] [out]
+### -param pFeatureList[] [out]
 
 A pointer to an array of ANSI character strings that contain all of the features that are available for the current device. The final array element is indicated by a <b>NULL</b> string.
 

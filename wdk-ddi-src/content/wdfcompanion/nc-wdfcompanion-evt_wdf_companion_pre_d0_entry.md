@@ -4,7 +4,7 @@ title: EVT_WDF_COMPANION_PRE_D0_ENTRY (wdfcompanion.h)
 description: This EVT_WDF_COMPANION_PRE_D0_ENTRY article is for internal use only.
 old-location: wdf\evt_wdf_companion_pre_d0_entry.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 11/01/2021
 keywords: ["EVT_WDF_COMPANION_PRE_D0_ENTRY callback function"]
 ms.keywords: EVT_WDF_COMPANION_PRE_D0_ENTRY, EVT_WDF_COMPANION_PRE_D0_ENTRY callback, EVT_WDF_COMPANION_PRE_D0_ENTRY callback function, wdf.evt_wdf_companion_pre_d0_entry, wdfcompanion/EVT_WDF_COMPANION_PRE_D0_ENTRY
 req.header: wdfcompanion.h
@@ -49,11 +49,11 @@ api_name:
 
 ## -parameters
 
-### -param Companion 
+### -param Companion [in]
 
-[in]
 
-### -param PreviousState 
 
-[in]
+### -param PreviousState [in]
 
+
+## -returns

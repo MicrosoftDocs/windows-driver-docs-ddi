@@ -49,19 +49,19 @@ The <code>Read</code> method reads data from an incoming MIDI stream.
 
 ## -parameters
 
-### -param BufferAddress 
+### -param BufferAddress [in]
 
-[in]
+
 Specifies the address of a caller-allocated buffer. The method copies the incoming MIDI data from the device to the buffer. The allocated size of this buffer must be greater than or equal to <i>BufferLength</i>.
 
-### -param BufferLength 
+### -param BufferLength [in]
 
-[in]
+
 Specifies the length in bytes of the buffer pointed to by <i>BufferAddress</i>.
 
-### -param BytesRead 
+### -param BytesRead [out]
 
-[out]
+
 Output pointer to a caller-allocated variable into which the method writes a count specifying the actual number of bytes successfully read from the device into the buffer.
 
 ## -returns

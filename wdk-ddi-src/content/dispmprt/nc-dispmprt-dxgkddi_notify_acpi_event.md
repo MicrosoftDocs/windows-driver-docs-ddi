@@ -49,19 +49,19 @@ Notifies the display miniport driver about certain ACPI events.
 
 ## -parameters
 
-### -param MiniportDeviceContext 
+### -param MiniportDeviceContext [in]
 
-[in]
+
 A handle to a context block that represents a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
-### -param EventType 
+### -param EventType [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/dispmprt/ne-dispmprt-_dxgk_event_type">DXGK_EVENT_TYPE</a> enumerator that supplies the event type (<b>DpAcpiEvent</b>, <b>DpPowerStateEvent</b>, <b>DpDockingEvent</b>).
 
-### -param Event 
+### -param Event [in]
 
-[in]
+
 The event number. The following table lists the possible event numbers for each of the event types.
 
 |Event type|Possible event numbers|
@@ -70,9 +70,9 @@ The event number. The following table lists the possible event numbers for each 
 |DpPowerStateEvent|PO_CB_LID_SWITCH_STATE, PO_CB_AC_STATUS<br/>Defined in Wdm.h.|
 |DpDockingEvent|ACPI_NOTIFY_DOCK_EVENT - Indicates that a docking event has occurred. For example, the user docked or undocked a mobile computer.<br/>Defined in Dispmprt.h.|
 
-### -param Argument 
+### -param Argument [in]
 
-[in]
+
 A pointer to an argument that depends on the event. For most events, this will be <b>NULL</b>. The following table shows the event arguments, which are ULONG values, for specified event numbers that are available.
 
 |Event number|Possible event arguments|
@@ -80,9 +80,9 @@ A pointer to an argument that depends on the event. For most events, this will b
 |PO_CB_AC_STATUS|0 - Indicates that the system is on battery power.<br/>1 - Indicates that the system is on AC power.|
 |PO_CB_LID_SWITCH_STATE|0 - Indicates that the lid is being closed.<br/>1 - Indicates that the lid is being opened.|
 
-### -param AcpiFlags 
+### -param AcpiFlags [out]
 
-[out]
+
 A pointer to a value that indicates the type of request that the display miniport driver should make to the operating system. The following table shows the values that can be specified.
 
 | **Value** | **Request type** | 

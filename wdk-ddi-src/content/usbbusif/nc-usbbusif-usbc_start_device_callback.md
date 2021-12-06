@@ -49,34 +49,34 @@ The <b>USBC_START_DEVICE_CALLBACK</b> routine allows a USB client driver to prov
 
 ## -parameters
 
-### -param DeviceDescriptor 
+### -param DeviceDescriptor [in]
 
-[in]
+
 The device descriptor of the device.
 
-### -param ConfigurationDescriptor 
+### -param ConfigurationDescriptor [in]
 
-[in]
+
 The configuration of the device.
 
-### -param FunctionDescriptorBuffer 
+### -param FunctionDescriptorBuffer [out]
 
-[out]
+
 Pointer to a buffer that contains an array of function descriptors (<a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usbc_function_descriptor">USBC_FUNCTION_DESCRIPTOR</a>).
 
-### -param FunctionDescriptorBufferLength 
+### -param FunctionDescriptorBufferLength [out]
 
-[out]
+
 The length in bytes of the buffer that <i>FunctionDescriptorBuffer</i> points to.
 
-### -param FdoDeviceObject 
+### -param FdoDeviceObject [in]
 
-[in]
+
 The function device object for the device.
 
-### -param PdoDeviceObject 
+### -param PdoDeviceObject [in]
 
-[in]
+
 The physical device object for the device.
 
 ## -returns

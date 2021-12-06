@@ -49,9 +49,9 @@ The **Scan** function reads data from the device and returns the data to the WIA
 
 ## -parameters
 
-### -param pScanInfo 
+### -param pScanInfo [in, out]
 
-[in, out]
+
 Specifies the [SCANINFO](./ns-wiamicro-_scaninfo.md) structure that represents the microdriver's settings. This is stored by the WIA Flatbed driver to guarantee that the settings between the microdriver and the WIA Flatbed driver are synchronized.
 
 ### -param lPhase
@@ -64,9 +64,9 @@ Specifies the scan phase requested. This parameter can be set to one of the foll
 | SCAN_NEXT | This will be repeatedly called during the data transfer. Data should be put into the buffer pointed to by *pBuffer* and the *pReceived* parameter must be set to the amount of data put in the buffer. |
 | SCAN_FINISHED | This will be called at the end of the scan to terminate the scanning process. No data should be transferred. SCAN_FINISHED will always be called even if the user cancels the scan. The microdriver should stop transferring data and the scanner should be reset so that it is ready for the next scan.<br>The data returned from this function should be in raw format without any header. The data can be either packed or planar, aligned or unaligned, and in RGB or BGR order. Set the **RawDataFormat**, **RawPixelOrder**, and **bNeedDataAlignment** members of the [SCANINFO](./ns-wiamicro-_scaninfo.md) structure appropriately in response to the CMD_INITIALIZE command. |
 
-### -param pBuffer 
+### -param pBuffer [out]
 
-[out]
+
 Specifies the buffer that will be filled with scanned data by the microdriver. This buffer is allocated by the WIA Flatbed Driver and is guaranteed to be at least *lLength* bytes in length.
 
 ### -param lLength
@@ -75,7 +75,7 @@ Specifies the requested amount of data that will be scanned. The microdriver mus
 
 ### -param plReceived
 
-#### - pReceived [out]
+### -param pReceived [out]
 
 Specifies the amount of data actually scanned into *pBuffer*. This value should never exceed the value of *lLength*, but can be less.
 

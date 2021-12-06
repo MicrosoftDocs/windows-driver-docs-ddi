@@ -49,14 +49,14 @@ The <b>ZwCreateDirectoryObject</b> routine creates or opens an object-directory 
 
 ## -parameters
 
-### -param DirectoryHandle 
+### -param DirectoryHandle [out]
 
-[out]
+
 Pointer to a HANDLE variable that receives a handle to the object directory.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects (see <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>), the caller can specify one or more of the following access rights, which are specific to object directories:
 
 <table>
@@ -116,9 +116,9 @@ All of the preceding types
 </tr>
 </table>
 
-### -param ObjectAttributes 
+### -param ObjectAttributes [in]
 
-[in]
+
 Pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that contains the object's attributes, which you must have already initialized by calling <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>.
 
 ## -returns

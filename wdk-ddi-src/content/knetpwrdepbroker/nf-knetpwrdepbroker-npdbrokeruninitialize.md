@@ -49,8 +49,11 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ## -parameters
 
-### -param hBroker 
+### -param hBroker [in]
 
-[in]
+
 Reserved.
 
+## -returns
+
+Returns STATUS_SUCCESS if the operation completes successfully.

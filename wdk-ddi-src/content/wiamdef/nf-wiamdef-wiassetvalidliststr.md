@@ -49,9 +49,9 @@ The <b>wiasSetValidListStr </b>function sets the valid values for a WIA_PROP_LIS
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param propid
@@ -68,7 +68,7 @@ Specifies the nominal value of the property.
 
 ### -param bstrValues
 
-#### - pbstrValues [in]
+### -param pbstrValues [in]
 
 Pointer to the first element of an array of valid property values.
 

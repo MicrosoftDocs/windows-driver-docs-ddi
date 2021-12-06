@@ -46,29 +46,29 @@ Creates a new DMA device domain based on the provided domain type.
 
 ## -parameters
 
-### -param DomainType
+### -param DomainType [in]
 
-[in]
+
 Indicates the type of domain to be created. See [**IOMMU_DMA_DOMAIN_TYPE**](ne-wdm-iommu_dma_domain_type.md).
 
-### -param Flags
+### -param Flags [in]
 
-[in]
+
 Configuration flags for the device domain. Currently unused and must be set to 0. See [**IOMMU_DMA_DOMAIN_CREATION_FLAGS**](ns-wdm-iommu_dma_domain_creation_flags.md).
 
-### -param LogicalAllocatorConfig
+### -param LogicalAllocatorConfig [in, optional]
 
-[in, optional]
+
 Optionally provides a logical allocator configuration to initialize a HAL-implemented logical allocator to be associated with the domain. See [**IOMMU_DMA_LOGICAL_ALLOCATOR_CONFIG**](ns-wdm-iommu_dma_logical_allocator_config.md).
 
-### -param ReservedRegions
+### -param ReservedRegions [in, optional]
 
-[in, optional]
+
 Optionally provides a set of [**IOMMU_DMA_RESERVED_REGION**](ns-wdm-iommu_dma_reserved_region.md) structures to be reserved during domain creation.
 
-### -param DomainOut
+### -param DomainOut [out]
 
-[out]
+
 Returns an opaque handle to the created domain.
 
 ## -returns

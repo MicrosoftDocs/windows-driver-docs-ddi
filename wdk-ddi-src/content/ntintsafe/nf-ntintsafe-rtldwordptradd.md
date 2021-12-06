@@ -49,19 +49,19 @@ Adds two values of type <b>DWORD_PTR</b>.
 
 ## -parameters
 
-### -param dwAugend 
+### -param dwAugend [in]
 
-[in]
+
 The first value in the equation.
 
-### -param dwAddend 
+### -param dwAddend [in]
 
-[in]
+
 The value to add to <i>dwAugend</i>.
 
-### -param pdwResult 
+### -param pdwResult [out]
 
-[out]
+
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

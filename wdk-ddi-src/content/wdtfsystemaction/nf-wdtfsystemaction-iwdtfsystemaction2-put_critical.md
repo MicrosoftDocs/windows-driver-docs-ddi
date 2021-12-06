@@ -49,8 +49,6 @@ Gets or sets a value that indicates whether the system power state is critical.
 
 This property is read/write.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>

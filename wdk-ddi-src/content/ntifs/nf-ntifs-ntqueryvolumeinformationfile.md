@@ -49,29 +49,29 @@ The <b>NtQueryVolumeInformationFile</b> routine retrieves information about the 
 
 ## -parameters
 
-### -param FileHandle 
+### -param FileHandle [in]
 
-[in]
+
 A handle to a file object returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">NtCreateFile</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">NtOpenFile</a> for an open file, directory, storage device, or volume for which volume information is being requested.
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the query operation. For successful calls that return data, the number of bytes written to the <i>FsInformation</i> buffer is returned in the structure's <b>Information</b> member.
 
-### -param FsInformation 
+### -param FsInformation [out]
 
-[out]
+
 A pointer to a caller-allocated buffer that receives the desired information about the volume. The structure of the information returned in the buffer is defined by the <i>FsInformationClass</i> parameter.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Size in bytes of the buffer pointed to by <i>FsInformation</i>. The caller should set this parameter according to the given <i>FsInformationClass</i>.
 
-### -param FsInformationClass 
+### -param FsInformationClass [in]
 
-[in]
+
 Type of information to be returned about the volume. Set this member to one of the following <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_fsinfoclass">FS_INFORMATION_CLASS</a> enumeration values.
 
 <table>

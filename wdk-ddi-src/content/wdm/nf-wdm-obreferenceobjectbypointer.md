@@ -49,28 +49,28 @@ The <b>ObReferenceObjectByPointer</b> routine increments the pointer reference c
 
 ## -parameters
 
-### -param Object 
+### -param Object [in]
 
-[in]
+
 Pointer to the object's body.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 Specifies a mask representing the requested access to the object.
 
-### -param ObjectType 
+### -param ObjectType [in, optional]
 
-[in, optional]
+
 Pointer to the object type. <i>ObjectType</i> can be <b>*ExEventObjectType</b>, <b>*ExSemaphoreObjectType</b>, <b>*IoFileObjectType</b>, <b>*PsProcessType</b>, <b>*PsThreadType</b>, <b>*SeTokenObjectType</b>, <b>*TmEnlistmentObjectType</b>, <b>*TmResourceManagerObjectType</b>, <b>*TmTransactionManagerObjectType</b>, or <b>*TmTransactionObjectType</b>. 
 
 <div class="alert"><b>Note</b>    The <b>SeTokenObjectType</b> object type is supported in Windows XP and later versions of Windows.</div>
 <div> </div>
 This parameter can also be <b>NULL</b> if <i>AccessMode</i> is <b>KernelMode</b>.
 
-### -param AccessMode 
+### -param AccessMode [in]
 
-[in]
+
 Indicates the access mode to use for the access check. It must be either <b>UserMode</b> or <b>KernelMode</b>. Lower-level drivers should specify <b>KernelMode</b>.
 
 ## -returns

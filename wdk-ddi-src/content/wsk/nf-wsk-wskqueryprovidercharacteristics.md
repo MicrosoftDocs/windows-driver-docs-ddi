@@ -52,16 +52,16 @@ The
 
 ## -parameters
 
-### -param WskRegistration 
+### -param WskRegistration [in]
 
-[in]
+
 A pointer to the memory location initialized by 
      <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> that identifies a WSK
      application's registration instance.
 
-### -param WskProviderCharacteristics 
+### -param WskProviderCharacteristics [out]
 
-[out]
+
 A pointer to the range of WSK NPI versions supported by the WSK subsystem.
 
 ## -returns

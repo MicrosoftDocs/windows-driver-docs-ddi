@@ -46,9 +46,9 @@ The **BYTES_TO_PAGES** macro takes the size in bytes of the transfer request and
 
 ## -parameters
 
-### -param Size
+### -param Size [in]
 
-[in]
+
 Specifies the size in bytes of the transfer request.
 
 ## -remarks

@@ -49,19 +49,19 @@ Gets a Unicode character quit lock string.
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 The buffer in which to write the Unicode character string.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 The size of the buffer.
 
-### -param StringSize 
+### -param StringSize [out, optional]
 
-[out, optional]
+
 A pointer to the string size.
 
 ## -returns

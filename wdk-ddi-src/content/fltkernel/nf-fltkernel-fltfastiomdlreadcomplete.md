@@ -53,14 +53,14 @@ The <b>FltFastIoMdlReadComplete</b> routine completes the read operation that th
 
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to the file object.
 
-### -param MdlChain 
+### -param MdlChain [in]
 
-[in]
+
 A pointer to a linked list of memory descriptor lists (MDLs) that the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a> routine allocated.
 
 ## -returns

@@ -49,9 +49,9 @@ The <code>GetXpsPart</code> method retrieves several objects that make up an XPS
 
 ## -parameters
 
-### -param ppIXpsPart 
+### -param ppIXpsPart [out]
 
-[out]
+
 The XPS part. This part is the <b>IUnknown</b> interface of an object that is an XPS part. If <i>ppIXpsPart</i> is NULL, there are no more XPS parts to consume and the filter is ready to finish processing.
 
 ## -returns

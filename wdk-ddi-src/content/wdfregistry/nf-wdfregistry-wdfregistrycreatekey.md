@@ -54,39 +54,39 @@ The <b>WdfRegistryCreateKey</b> method creates and opens a specified registry ke
 
 ## -parameters
 
-### -param ParentKey 
+### -param ParentKey [in, optional]
 
-[in, optional]
+
 A handle to a framework registry-key object. This object represents a parent registry key that the driver has opened. This parameter is optional and can be <b>NULL</b>. If the parameter is not <b>NULL</b>, the key that <i>KeyName</i> specifies must reside under this parent key in the registry. For more information about this parent key, see the Remarks section.
 
-### -param KeyName 
+### -param KeyName [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the key to be opened. The key name can include path information. If <i>ParentKey</i> is <b>NULL</b>, <i>KeyName</i> must specify a complete path to a registry key.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>-typed value that specifies access rights that the driver is requesting for the specified registry key. For a list of access rights that drivers typically use for registry keys, see <a href="/windows-hardware/drivers/kernel/opening-a-handle-to-a-registry-key-object">Opening a Handle to a Registry-Key Object</a>. Your driver must ask for only the types of access that it needs. For example, the driver must not ask for KEY_ALL_ACCESS if it will only read the registry key.
 
-### -param CreateOptions 
+### -param CreateOptions [in]
 
-[in]
+
 One or more flags. For information about these flags, see the <i>CreateOptions</i> parameter or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>.
 
-### -param CreateDisposition 
+### -param CreateDisposition [out, optional]
 
-[out, optional]
+
 A pointer to a location that receives REG_CREATED_NEW_KEY if a new key is created or REG_OPENED_EXISTING_KEY if an existing key is opened. These values are defined in <i>Wdm.h</i>. This pointer is optional and can be <b>NULL</b>.
 
-### -param KeyAttributes 
+### -param KeyAttributes [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new registry-key object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param Key 
+### -param Key [out]
 
-[out]
+
 A pointer to a location that receives a handle to the new registry-key object.
 
 ## -returns

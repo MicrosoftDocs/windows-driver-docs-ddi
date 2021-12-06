@@ -52,13 +52,13 @@ The D3DDDIARG_CREATEPIXELSHADER structure specifies a shader handle to associate
 
 ## -struct-fields
 
-### -field CodeSize
+### -field CodeSize [in]
 
-[in] The size, in bytes, of the pixel shader code that is passed in the <i>pCode</i> parameter in a call to the user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createpixelshader">CreatePixelShader</a> function.
+The size, in bytes, of the pixel shader code that is passed in the <i>pCode</i> parameter in a call to the user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createpixelshader">CreatePixelShader</a> function.
 
-### -field ShaderHandle
+### -field ShaderHandle [out]
 
-[out] A handle to the pixel shader code.
+A handle to the pixel shader code.
 
 ## -remarks
 

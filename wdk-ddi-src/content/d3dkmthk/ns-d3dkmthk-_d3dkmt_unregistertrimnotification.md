@@ -52,9 +52,9 @@ api_name:
 
 ## -struct-fields
 
-### -field Handle
+### -field Handle [out]
 
-[out] The callback notification handle received from the call to <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtregistertrimnotification">D3DKMTRegisterTrimNotification</a>.
+The callback notification handle received from the call to <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtregistertrimnotification">D3DKMTRegisterTrimNotification</a>.
 
 ### -field Callback
 

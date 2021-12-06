@@ -51,14 +51,14 @@ The <b>IoCallDriver</b> routine, wraps **IofCallDriver** that sends an IRP to th
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 ## -returns

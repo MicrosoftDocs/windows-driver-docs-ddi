@@ -55,7 +55,7 @@ pbstrFullItemName [out, optional]
 
 - Points to a memory location that will receive the address of a string containing the item's full name.
 
-#### - pbstrFullItemName [out, optional]
+### -param pbstrFullItemName [out, optional]
 
 Points to a memory location that will receive the address of a string containing the item's full name.
 

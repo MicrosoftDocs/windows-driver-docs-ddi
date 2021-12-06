@@ -49,9 +49,9 @@ The <b>wiasSetValidListGuid </b>function sets valid values for a WIA_PROP_LIST p
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param propid
@@ -66,12 +66,12 @@ Specifies the number of items in the <i>pgValues</i> array.
 
 ### -param pguidValues
 
-#### - gNom
+### -param gNom
 
 Specifies the property's nominal value.
 
 
-#### - pgValues [in]
+### -param pgValues [in]
 
 Pointer to the first element of an array of valid property values.
 

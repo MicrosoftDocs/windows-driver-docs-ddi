@@ -82,7 +82,7 @@ The time, in milliseconds, for which the read operation remains valid. The defau
 
 
 
-#### - Length
+### -field Length
 
  The length, in bytes, of data to read, starting at <b>FileOffset</b>. The length  value must align to a logical sector boundary on the volume, except when the length matches end-of-file.
 

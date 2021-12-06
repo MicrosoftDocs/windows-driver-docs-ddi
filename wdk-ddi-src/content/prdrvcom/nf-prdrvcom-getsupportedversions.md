@@ -54,8 +54,8 @@ The <code>IPrintTicketProvider::GetSupportedVersions</code> method retrieves maj
 
 
 
-### -param hPrinter 
-[in]
+### -param hPrinter [in]
+
 A handle to the print device.
 
 
@@ -64,12 +64,12 @@ A handle to the print device.
 
 
 
-### -param cVersions 
-[out]
+### -param cVersions [out]
+
 A pointer to a variable that receives the number of elements in the array that is pointed to by *<i>ppVersions</i>. 
 
 
-#### - ppVersions[] [out]
+### -param ppVersions[] [out]
 
 A pointer to a variable that receives the address of the first element of an array of version numbers. Version numbers in the array can appear in any order. For more information about this parameter, see the following Remarks section.
 

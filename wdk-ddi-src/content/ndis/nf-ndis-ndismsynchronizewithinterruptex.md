@@ -53,16 +53,16 @@ Miniport drivers call the
 
 ## -parameters
 
-### -param NdisInterruptHandle 
+### -param NdisInterruptHandle [in]
 
-[in]
+
 An interrupt handle that the miniport driver obtained in a previous call to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">
      NdisMRegisterInterruptEx</a> function.
 
-### -param MessageId 
+### -param MessageId [in]
 
-[in]
+
 A message-signaled interrupt with which the driver must synchronize. If NDIS did not grant message
      signaled interrupts for the driver, NDIS ignores this parameter. 
      <i>MessageId</i> is an index to the 
@@ -74,16 +74,16 @@ A message-signaled interrupt with which the driver must synchronize. If NDIS did
      <b>MessageInfoTable</b> member when the driver successfully registers for MSI with the 
      <b>NdisMRegisterInterruptEx</b> function.
 
-### -param SynchronizeFunction 
+### -param SynchronizeFunction [in]
 
-[in]
+
 The entry point of the driver's 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_synchronize_interrupt">
      MiniportSynchronizeInterrupt</a> function.
 
-### -param SynchronizeContext 
+### -param SynchronizeContext [in]
 
-[in]
+
 A pointer to a miniport-driver-determined context area that is passed to the 
      <i>MiniportSynchronizeInterrupt</i> function at 
      <i>SynchronizeContext</i> .

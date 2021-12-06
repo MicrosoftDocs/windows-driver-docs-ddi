@@ -51,17 +51,17 @@ The
 
 ## -parameters
 
-### -param SocketContext 
+### -param SocketContext [in, optional]
 
-[in, optional]
+
 A pointer to the socket context for the listening socket on which the incoming connection was
      accepted. The WSK application provided this pointer to the WSK subsystem when it called the 
      <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function to create the listening
      socket.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A ULONG value that contains the following flag, or zero:
      
 
@@ -76,23 +76,23 @@ The WSK subsystem called the
        WSK subsystem might have called the 
        <i>WskAcceptEvent</i> event callback function at any IRQL <= DISPATCH_LEVEL.
 
-### -param LocalAddress 
+### -param LocalAddress [in]
 
-[in]
+
 A pointer to a buffer that contains the local transport address on which the incoming connection
      arrived. The buffer contains the specific SOCKADDR structure type that corresponds to the address family
      that the WSK application specified when it created the listening socket.
 
-### -param RemoteAddress 
+### -param RemoteAddress [in]
 
-[in]
+
 A pointer to a buffer that contains the remote transport address from which the incoming
      connection originated. The buffer contains the specific SOCKADDR structure type that corresponds to the
      address family that the WSK application specified when it created the listening socket.
 
-### -param AcceptSocket 
+### -param AcceptSocket [in, optional]
 
-[in, optional]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that is the socket object
      for the accepted socket. If this pointer is <b>NULL</b>, the listening socket is no longer functional and the
@@ -100,9 +100,9 @@ A pointer to a
      <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
      listening socket as soon as possible.
 
-### -param AcceptSocketContext 
+### -param AcceptSocketContext [out]
 
-[out]
+
 A pointer to a variable that receives a pointer to a WSK application-supplied context for the
      socket that is being accepted. The WSK subsystem passes this pointer to the accepted socket's event
      callback functions. The context information is opaque to the WSK subsystem and must be stored in
@@ -111,7 +111,7 @@ A pointer to a variable that receives a pointer to a WSK application-supplied co
      <i>AcceptSocketContext</i> parameter to <b>NULL</b>.
 
 
-#### - **AcceptSocketDispatch [out]
+### -param **AcceptSocketDispatch [out]
 
 A pointer to a variable that receives a pointer to a constant 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
@@ -124,7 +124,7 @@ A pointer to a variable that receives a pointer to a constant
      <i>AcceptSocketDispatch</i> parameter to <b>NULL</b>.
 
 
-#### - AcceptSocketDispatch [out]
+### -param AcceptSocketDispatch [out]
 
 A pointer to a variable that receives a pointer to a constant 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">

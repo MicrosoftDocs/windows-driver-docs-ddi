@@ -49,9 +49,9 @@ The <b>SetScopeFrameByIndex</b> method sets the current scope to the scope of on
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the stack frame from which to set the scope.  The index counts the number of frames from the top of the call stack.  The frame at the top of the stack, representing the current call, has index zero.
 
 ## -returns

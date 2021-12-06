@@ -49,14 +49,14 @@ Gets the selected option for a feature in <a href="/windows-hardware/drivers/ddi
 
 ## -parameters
 
-### -param pFeature 
+### -param pFeature [in]
 
-[in]
+
 The specified feature.
 
-### -param ppOption 
+### -param ppOption [out, retval]
 
-[out, retval]
+
 The returned option.
 
 ## -returns

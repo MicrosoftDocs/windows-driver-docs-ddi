@@ -49,9 +49,9 @@ The <b>GetFrameOffset2</b> method returns the location of the stack frame for th
 
 ## -parameters
 
-### -param Source 
+### -param Source [in]
 
-[in]
+
 Specifies the register source to query.
 
 The possible values are listed in the following table.
@@ -98,9 +98,9 @@ Fetch register information from the current scope's register context.
 </tr>
 </table>
 
-### -param Offset 
+### -param Offset [out]
 
-[out]
+
 The location in the process's virtual address space of the stack frame for the current function.
 
 ## -returns

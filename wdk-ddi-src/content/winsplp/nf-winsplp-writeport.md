@@ -50,23 +50,23 @@ A port monitor's <code>WritePort</code> function writes data to a printer port.
 
 ## -parameters
 
-### -param hPort 
+### -param hPort [in]
 
-[in]
+
 Caller-supplied port handle.
 
-### -param pBuffer 
+### -param pBuffer [in]
 
-[in]
+
 Caller-supplied pointer to a buffer containing data to be written to the port.
 
 ### -param cbBuf
 
 Caller-supplied size, in bytes, of <i>pBuffer</i>.
 
-### -param pcbWritten 
+### -param pcbWritten [out]
 
-[out]
+
 Caller-supplied pointer to a location to receive the number of bytes successfully written to the port.
 
 ## -returns

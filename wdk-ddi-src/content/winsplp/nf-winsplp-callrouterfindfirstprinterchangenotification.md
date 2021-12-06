@@ -47,19 +47,19 @@ api_name:
 
 ## -parameters
 
-### -param hPrinterRPC 
+### -param hPrinterRPC [in]
 
-[in]
+
 
 ### -param fdwFilterFlags
 
 ### -param fdwOptions
 
-### -param hNotify 
+### -param hNotify [in]
 
-[in]
 
-### -param pPrinterNotifyOptions 
 
-[in]
+### -param pPrinterNotifyOptions [in]
+
+
 

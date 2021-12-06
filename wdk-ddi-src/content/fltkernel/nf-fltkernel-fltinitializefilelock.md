@@ -49,9 +49,9 @@ The <b>FltInitializeFileLock</b> routine initializes an opaque <a href="/windows
 
 ## -parameters
 
-### -param FileLock 
+### -param FileLock [out]
 
-[out]
+
 Pointer to an uninitialized <a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a> structure.
 
 ## -returns

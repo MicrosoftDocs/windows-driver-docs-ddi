@@ -47,8 +47,6 @@ product:
 
 Reserved for system use.
 
-## -parameters
-
 ## -remarks
 
 ## -see-also

@@ -51,19 +51,19 @@ api_name:
 
 ## -parameters
 
-### -param pPrintProvidor 
+### -param pPrintProvidor [out]
 
-[out]
+
 Caller-supplied address of a <a href="/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_printprovidor">PRINTPROVIDOR</a> structure, to be filled in by the print provider.
 
-### -param cbPrintProvidor 
+### -param cbPrintProvidor [in]
 
-[in]
+
 Caller-supplied size, in bytes, of the PRINTPROVIDOR structure pointed to by <i>pPrintProvidor</i>.
 
-### -param pFullRegistryPath 
+### -param pFullRegistryPath [in, optional]
 
-[in, optional]
+
 Caller-supplied pointer to a string representing the full registry path to the provider's registry entry.
 
 ## -returns

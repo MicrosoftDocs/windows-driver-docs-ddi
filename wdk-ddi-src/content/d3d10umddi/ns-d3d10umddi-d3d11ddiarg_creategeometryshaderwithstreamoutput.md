@@ -49,29 +49,29 @@ The D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT structure describes the geo
 
 ## -struct-fields
 
-### -field pShaderCode
+### -field pShaderCode [in]
 
-[in] An array of CONST UINT tokens that make up the geometry shader code.
+An array of CONST UINT tokens that make up the geometry shader code.
 
-### -field pOutputStreamDecl
+### -field pOutputStreamDecl [in]
 
-[in] An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_stream_output_declaration_entry">D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY</a> structures that describes the stream output for the geometry shader.
+An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_stream_output_declaration_entry">D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY</a> structures that describes the stream output for the geometry shader.
 
-### -field NumEntries
+### -field NumEntries [in]
 
-[in] The number of elements in that array that the <b>pOutputStreamDecl</b> member specifies.
+The number of elements in that array that the <b>pOutputStreamDecl</b> member specifies.
 
-### -field BufferStridesInBytes
+### -field BufferStridesInBytes [in]
 
-[in] An array of strides (bytes from one vertex to the next vertex).
+An array of strides (bytes from one vertex to the next vertex).
 
-### -field NumStrides
+### -field NumStrides [in]
 
-[in] The number of strides in the array that the <b>BufferStridesInBytes</b> member specifies.
+The number of strides in the array that the <b>BufferStridesInBytes</b> member specifies.
 
-### -field RasterizedStream
+### -field RasterizedStream [in]
 
-[in] A value that identifies the rasterized stream.
+A value that identifies the rasterized stream.
 
 ## -see-also
 

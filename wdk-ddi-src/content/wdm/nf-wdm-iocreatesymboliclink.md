@@ -49,14 +49,14 @@ The <b>IoCreateSymbolicLink</b> routine sets up a symbolic link between a device
 
 ## -parameters
 
-### -param SymbolicLinkName 
+### -param SymbolicLinkName [in]
 
-[in]
+
 Pointer to a buffered Unicode string that is the user-visible name.
 
-### -param DeviceName 
+### -param DeviceName [in]
 
-[in]
+
 Pointer to a buffered Unicode string that is the name of the driver-created device object.
 
 ## -returns

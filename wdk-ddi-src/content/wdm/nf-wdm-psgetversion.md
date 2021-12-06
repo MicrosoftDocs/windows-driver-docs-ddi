@@ -49,21 +49,21 @@ This function is <u>obsolete</u> in Windows XP and later versions of the Windows
 
 ## -parameters
 
-### -param MajorVersion 
+### -param MajorVersion [out, optional]
 
-[out, optional]
 
-### -param MinorVersion 
 
-[out, optional]
+### -param MinorVersion [out, optional]
 
-### -param BuildNumber 
 
-[out, optional]
 
-### -param CSDVersion 
+### -param BuildNumber [out, optional]
 
-[out, optional]
+
+
+### -param CSDVersion [out, optional]
+
+
 
 ## -returns
 

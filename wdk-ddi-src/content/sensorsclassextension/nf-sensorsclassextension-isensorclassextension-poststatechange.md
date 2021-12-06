@@ -50,14 +50,14 @@ The <b>ISensorClassExtension::PostStateChange</b> method notifies the sensor cla
 
 ## -parameters
 
-### -param pwszSensorID 
+### -param pwszSensorID [in]
 
-[in]
+
 <b>LPWSTR</b> that contains the ID for the sensor for which the driver is raising the event.
 
 ### -param state
 
-#### - State [in]
+### -param State [in]
 
 
 <a href="/windows-hardware/drivers/ddi/sensorsclassextension/ne-sensorsclassextension-__midl___midl_itf_windowssensorclassextension_0000_0000_0001">SensorState</a> value that indicates the new state.

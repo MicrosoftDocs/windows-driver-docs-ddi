@@ -49,9 +49,9 @@ The <b>ExitDispatch</b> method causes the <a href="/windows-hardware/drivers/ddi
 
 ## -parameters
 
-### -param Client 
+### -param Client [in]
 
-[in]
+
 Specifies the client whose <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-dispatchcallbacks">DispatchCallbacks</a> method should return.
 
 ## -returns

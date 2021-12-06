@@ -1,21 +1,24 @@
 ---
-description: "Learn more about: Installable file system"
+description: "Learn more about: file system and minifilter drivers"
 UID: TP:ifsk
-title: Installable file system
+title: File system and filter overview
 ms.assetid: c842e40c-3483-3721-b6bf-4da6e333af1a
-ms.date: 05/09/2018
+ms.date: 10/28/2021
 keywords: ["Installable file system"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+ms.custom: contperf-fy22q2
 ---
 
-# Installable file system
+# File system and minifilter drivers
 
 ## -description
 
-The following headers are related to file system or file system minifilter driver development:
+This section lists the functions, callbacks, macros, structures, and enumerations that can be used to develop Windows file system drivers and minifilter drivers. The list of header files that contain these declarations and definitions follows. All headers are included in the [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk).
+
+For the programming guide, see the [File system and minifilter design guide](/windows-hardware/drivers/ifs).
 
 * [fcb.h](../fcb/index.md)
 * [fltkernel.h](../fltkernel/index.md)
@@ -36,5 +39,3 @@ The following headers are related to file system or file system minifilter drive
 * [rxtimer.h](../rxtimer/index.md)
 * [rxworkq.h](../rxworkq/index.md)
 * [scavengr.h](../scavengr/index.md)
-
-For the programming guide, see [Installable file system](/windows-hardware/drivers/ifs).

@@ -49,9 +49,9 @@ The <b>IoGetDiskDeviceObject</b> routine retrieves a pointer to the disk device 
 
 ## -parameters
 
-### -param FileSystemDeviceObject 
+### -param FileSystemDeviceObject [in]
 
-[in]
+
 A pointer to the file system device object.
 
 ### -param DiskDeviceObject

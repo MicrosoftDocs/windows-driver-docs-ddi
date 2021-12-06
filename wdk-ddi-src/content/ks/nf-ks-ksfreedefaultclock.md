@@ -52,9 +52,9 @@ This may only be called at PASSIVE_LEVEL.
 
 ## -parameters
 
-### -param DefaultClock 
+### -param DefaultClock [in]
 
-[in]
+
 Specifies the previously allocated structure to free.
 
 ## -returns

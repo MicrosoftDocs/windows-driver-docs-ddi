@@ -50,9 +50,9 @@ The <b>KeUnstackDetachProcess</b> routine detaches the current thread from the a
 
 ## -parameters
 
-### -param ApcState 
+### -param ApcState [in]
 
-[in]
+
 Opaque pointer to a KAPC_STATE structure that was returned from a previous call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kestackattachprocess">KeStackAttachProcess</a>.
 
 ## -remarks

@@ -50,9 +50,9 @@ The  <b>USBD_CloseHandle</b> routine is called by a USB client driver to close a
 
 ## -parameters
 
-### -param USBDHandle 
+### -param USBDHandle [in]
 
-[in]
+
 USBD handle to be closed. The handle is retrieved by the client driver in a previous call to  the <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_createhandle">USBD_CreateHandle</a> routine.
 
 ## -remarks

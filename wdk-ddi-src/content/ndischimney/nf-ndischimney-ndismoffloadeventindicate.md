@@ -52,16 +52,16 @@ An offload target calls the
 
 ## -parameters
 
-### -param NdisMiniportHandle 
+### -param NdisMiniportHandle [in]
 
-[in]
+
 The handle that the offload target obtained in a previous call to 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a>.
 
-### -param OffloadBlockList 
+### -param OffloadBlockList [in]
 
-[in]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure. This structure identifies the offloaded state object
@@ -119,9 +119,9 @@ For all indications other than the
      <b>NeighborReachabilityQuery</b> indication, the offload target supplies an 
      <i>OffloadBlockList</i> pointer that is <b>NULL</b>.
 
-### -param IndicationCode 
+### -param IndicationCode [in]
 
-[in]
+
 The event being indicated is specified as one of the following INDICATE_OFFLOAD_EVENT values:
      
 

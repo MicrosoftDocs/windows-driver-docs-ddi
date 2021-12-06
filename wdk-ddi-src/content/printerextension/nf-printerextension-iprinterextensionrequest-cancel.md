@@ -51,13 +51,13 @@ Completes the extension event with a cancellation.
 
 ### -param hrStatus
 
-### -param bstrLogMessage 
+### -param bstrLogMessage [in]
 
-[in]
+
 The log message.
 
 
-#### - hr [in]
+### -param hr [in]
 
 The operation result.
 

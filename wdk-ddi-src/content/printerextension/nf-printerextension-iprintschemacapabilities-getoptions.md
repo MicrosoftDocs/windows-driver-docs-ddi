@@ -49,14 +49,14 @@ Gets all the options of a feature.
 
 ## -parameters
 
-### -param pFeature 
+### -param pFeature [in]
 
-[in]
+
 The specified feature.
 
 ### -param ppOptionCollection
 
-#### - ppOptions [out, retval]
+### -param ppOptions [out, retval]
 
 The returned options.
 

@@ -49,14 +49,14 @@ The <b>MmUnmapIoSpace</b> routine unmaps a specified range of physical addresses
 
 ## -parameters
 
-### -param BaseAddress 
+### -param BaseAddress [in]
 
-[in]
+
 Pointer to the base virtual address to which the physical pages were mapped.
 
-### -param NumberOfBytes 
+### -param NumberOfBytes [in]
 
-[in]
+
 Specifies the number of bytes that were mapped.
 
 ## -remarks

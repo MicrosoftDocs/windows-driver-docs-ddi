@@ -49,29 +49,29 @@ The PHW_FIND_ADAPTER prototype declares a routine that uses supplied configurati
 
 ## -parameters
 
-### -param DeviceExtension
+### -param DeviceExtension [in]
 
-[in] Pointer to the miniport driver's per-HBA storage area.
+Pointer to the miniport driver's per-HBA storage area.
 
-### -param HwContext
+### -param HwContext [in]
 
-[in] Reserved member when used by one of the Storport driver's miniport drivers. With SCSI miniport drivers this member points to a context value. For a description of the meaning of this member for a SCSI miniport driver, see [**HwScsiFindAdapter**](/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)).
+Reserved member when used by one of the Storport driver's miniport drivers. With SCSI miniport drivers this member points to a context value. For a description of the meaning of this member for a SCSI miniport driver, see [**HwScsiFindAdapter**](/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)).
 
-### -param BusInformation
+### -param BusInformation [in]
 
-[in] Reserved member when used by one of the Storport driver's miniport drivers. With SCSI miniport drivers this member points to bus-type-specific information that the OS-specific port driver has gathered. For a complete description of the meaning of this member for a SCSI miniport driver, see [**HwScsiFindAdapter**](/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)).
+Reserved member when used by one of the Storport driver's miniport drivers. With SCSI miniport drivers this member points to bus-type-specific information that the OS-specific port driver has gathered. For a complete description of the meaning of this member for a SCSI miniport driver, see [**HwScsiFindAdapter**](/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)).
 
-### -param ArgumentString
+### -param ArgumentString [in]
 
-[in] Reserved member when used by one of the Storport driver's miniport drivers. With SCSI miniport drivers this member points to a null-terminated ASCII string that contains device information such as a base parameter or an interrupt level from the registry. For a complete description of the meaning of this member for a SCSI miniport driver, see [**HwScsiFindAdapter**](/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)).
+Reserved member when used by one of the Storport driver's miniport drivers. With SCSI miniport drivers this member points to a null-terminated ASCII string that contains device information such as a base parameter or an interrupt level from the registry. For a complete description of the meaning of this member for a SCSI miniport driver, see [**HwScsiFindAdapter**](/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)).
 
-### -param ConfigInfo
+### -param ConfigInfo [in, out]
 
-[in, out] Pointer to a [**PORT_CONFIGURATION_INFORMATION**](ns-srb-_port_configuration_information.md) structure that contains configuration information for the HBA.
+Pointer to a [**PORT_CONFIGURATION_INFORMATION**](ns-srb-_port_configuration_information.md) structure that contains configuration information for the HBA.
 
-### -param Again
+### -param Again [out]
 
-[out] Reserved member when used by one of the Storport driver's miniport drivers. With SCSI miniport drivers this member points to a BOOLEAN variable that informs the port driver whether it should call this routine again. For more information about the meaning of this member for a SCSI miniport driver, see [**HwScsiFindAdapter**](/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)).
+Reserved member when used by one of the Storport driver's miniport drivers. With SCSI miniport drivers this member points to a BOOLEAN variable that informs the port driver whether it should call this routine again. For more information about the meaning of this member for a SCSI miniport driver, see [**HwScsiFindAdapter**](/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)).
 
 ## -returns
 

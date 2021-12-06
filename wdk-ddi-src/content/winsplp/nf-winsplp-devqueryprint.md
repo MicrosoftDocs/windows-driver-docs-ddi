@@ -47,15 +47,15 @@ api_name:
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
 
-### -param pDevMode 
 
-[in]
+### -param pDevMode [in]
 
-### -param pResID 
 
-[out]
+
+### -param pResID [out]
+
+
 

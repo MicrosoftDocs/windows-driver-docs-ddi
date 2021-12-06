@@ -48,8 +48,6 @@ api_name:
 
 Removes or frees all items in the collection. The collection is considered empty after calling this method.
 
-## -parameters
-
 ## -returns
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.

@@ -50,15 +50,15 @@ A display miniport driver calls **DXGKCB_SETPOWERCOMPONENTLATENCY** to set the l
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to the display adapter. The display miniport driver receives the handle from the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md) structure in a call to its [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
+A handle to the display adapter. The display miniport driver receives the handle from the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md) structure in a call to its [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
 
-### -param ComponentIndex
+### -param ComponentIndex [in]
 
-[in] The power component index specified by [**DXGKARG_QUERYADAPTERINFO**](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md).**pInputData** in a call to the [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function.
+The power component index specified by [**DXGKARG_QUERYADAPTERINFO**](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md).**pInputData** in a call to the [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function.
 
-### -param Latency
+### -param Latency [in]
 
 The *latency tolerance* — the maximum time, in units of 100 nanoseconds — that the display miniport driver should take to awaken a power component from an idle state. The [Power Management Framework](/windows-hardware/drivers/kernel/overview-of-the-power-management-framework) uses this information to select an appropriate idle state for the component that does not violate the requested latency tolerance. The latency tolerance specified by **Latency** remains in effect until the driver calls this function again to update it. See Remarks.
 

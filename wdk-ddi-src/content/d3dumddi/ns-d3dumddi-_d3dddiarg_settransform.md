@@ -52,9 +52,9 @@ The D3DDDIARG_SETTRANSFORM structure describes how to set up a transform.
 
 ## -struct-fields
 
-### -field TransformType
+### -field TransformType [in]
 
-[in] A D3DTRANSFORMSTATETYPE-typed value that indicates the type of transform to set up. This member can be one of the following values.
+A D3DTRANSFORMSTATETYPE-typed value that indicates the type of transform to set up. This member can be one of the following values.
 
 | **Value** | **Meaning** | 
 |:--|:--|
@@ -62,9 +62,9 @@ The D3DDDIARG_SETTRANSFORM structure describes how to set up a transform.
 | D3DTRANSFORMSTATE_VIEW | View transformation | 
 | D3DTRANSFORMSTATE_WORLD | World transformation |
 
-### -field Matrix
+### -field Matrix [in]
 
-[in] A D3DMATRIX structure that describes the matrix that is used to set up the transform. For more information about D3DMATRIX, see the Microsoft Windows SDK documentation.
+A D3DMATRIX structure that describes the matrix that is used to set up the transform. For more information about D3DMATRIX, see the Microsoft Windows SDK documentation.
 
 ## -remarks
 

@@ -51,11 +51,11 @@ Defines the **IBidiAsyncNotifyChannel::AsyncCloseChannel** method.
 
 ### -param EQUALNULL
 
-#### - pCookie
+### -param pCookie
 
 [in]
 
-#### - pObject
+### -param pObject
 
 [in]
 

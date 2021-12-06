@@ -52,17 +52,17 @@ The D3DKMT_UNLOCK structure describes allocations to unlock.
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that the allocation is associated with.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that the allocation is associated with.
 
-### -field NumAllocations
+### -field NumAllocations [in]
 
-[in] The number of allocations in the array that <b>phAllocations</b> specifies.
+The number of allocations in the array that <b>phAllocations</b> specifies.
 
-### -field phAllocations
+### -field phAllocations [in]
 
-[in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations to unlock.
+An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations to unlock.
 
 ## -see-also
 

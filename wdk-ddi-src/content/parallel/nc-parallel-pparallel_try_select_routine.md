@@ -49,14 +49,14 @@ The <i>PPARALLEL_TRY_SELECT_ROUTINE</i>-typed callback routine selects an IEEE 1
 
 ## -parameters
 
-### -param TrySelectContext 
+### -param TrySelectContext [in]
 
-[in]
+
 Pointer to the device extension of a parallel port's functional device object (<a href="/windows-hardware/drivers/">FDO</a>).
 
-### -param TrySelectCommand 
+### -param TrySelectCommand [in]
 
-[in]
+
 Pointer to a <a href="..\parallel\ns-parallel-_parallel_1284_command.md">PARALLEL_1284_COMMAND</a> structure. The caller specifies the following members:
 
 

@@ -50,32 +50,32 @@ The <b>CmCallbackGetKeyObjectIDEx</b> routine retrieves the unique identifier an
 
 ## -parameters
 
-### -param Cookie 
+### -param Cookie [in]
 
-[in]
+
 A cookie value that represents the caller's registration to receive registry filter callbacks. The driver previously obtained this cookie value from the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a> routine.
 
-### -param Object 
+### -param Object [in]
 
-[in]
+
 A pointer to the registry key object. This parameter is the pointer value that the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> callback routine received in the <b>Object</b> member of one of the <b>REG_<i>XXX</i>_KEY_INFORMATION</b> structures.
 
 <div class="alert"><b>Warning</b>  In certain circumstances registry callback notification structures may contain invalid non-NULL object pointers. Registry filtering drivers must not pass such pointers to this routine. For more information, see <a href="/windows-hardware/drivers/kernel/invalid-key-object-pointers-in-registry-notifications">Invalid Key Object Pointers in Registry Notifications</a>.</div>
 <div> </div>
 
-### -param ObjectID 
+### -param ObjectID [out, optional]
 
-[out, optional]
+
 A pointer to a location that receives a pointer to the key identifier for the registry key that <i>Object</i> represents. This identifier is unique across all keys in the registry. This parameter is optional and can be <b>NULL</b>. For more information, see Remarks.
 
-### -param ObjectName 
+### -param ObjectName [out, optional]
 
-[out, optional]
+
 A pointer to a location that receives a pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. This structure contains the object name of the registry key object that <i>Object</i> specifies. The object name is actually the full path name of the registry key that the object represents. The caller is responsible for freeing this structure by calling the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmcallbackreleasekeyobjectidex">CmCallbackReleaseKeyObjectIDEx</a> routine. This parameter is optional and can be <b>NULL</b>. For more information, see Remarks.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Reserved. Set to zero.
 
 ## -returns

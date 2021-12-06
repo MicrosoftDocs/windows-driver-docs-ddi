@@ -52,26 +52,26 @@ The
 
 ## -parameters
 
-### -param Lock 
+### -param Lock [in]
 
-[in]
+
 A pointer to an opaque 
      <a href="/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a> variable that represents a
      lock. The caller can use this lock to gain write or read access to resources that are shared between
      non-ISR driver threads.
 
-### -param LockState 
+### -param LockState [out]
 
-[out]
+
 A pointer to an opaque 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_lock_state_ex">LOCK_STATE_EX</a> variable that tracks the state
      of the lock. This variable exists in the interval between the times that the caller obtains and releases
      the lock. The caller must use a different variable of type <b>LOCK_STATE_EX</b> for each attempt that it makes
      to obtain the lock from the same non-ISR driver thread.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A <b>ULONG</b> value that contains lock flags. Set this parameter to <b>NDIS_RWL_AT_DISPATCH_LEVEL</b> if the
      caller's current IRQL is <b>DISPATCH_LEVEL</b>. Otherwise, set this parameter to zero. For more information
      about dispatch IRQL tracking, see 

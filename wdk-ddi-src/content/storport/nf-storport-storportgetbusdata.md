@@ -4,7 +4,7 @@ title: StorPortGetBusData function (storport.h)
 description: The StorPortGetBusData routine retrieves the bus-specific configuration information necessary to initialize the HBA.
 old-location: storage\storportgetbusdata.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 10/20/2021
 keywords: ["StorPortGetBusData function"]
 ms.keywords: StorPortGetBusData, StorPortGetBusData routine [Storage Devices], storage.storportgetbusdata, storport/StorPortGetBusData, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml
 req.header: storport.h
@@ -49,31 +49,31 @@ The **StorPortGetBusData** routine retrieves the bus-specific configuration info
 
 ## -parameters
 
-### -param DeviceExtension
+### -param DeviceExtension [in]
 
-[in] Pointer to the miniport driver's per-HBA storage area.
+Pointer to the miniport driver's per-HBA storage area.
 
-### -param BusDataType
+### -param BusDataType [in]
 
-[in] Contains a value of type [**BUS_DATA_TYPE**](../ntddk/ne-ntddk-_bus_data_type.md) that specifies the type of bus-specific configuration data to be returned. Currently, this value can be one of the following: **Cmos**, **EisaConfiguration**, **Pos**, or **PCIConfiguration**. However, additional types of bus configuration will be supported in the future. The upper bound on the types supported is always **MaximumBusDataType**.
+Contains a value of type [**BUS_DATA_TYPE**](../ntddk/ne-ntddk-_bus_data_type.md) that specifies the type of bus-specific configuration data to be returned. Currently, this value can be one of the following: **Cmos**, **EisaConfiguration**, **Pos**, or **PCIConfiguration**. However, additional types of bus configuration will be supported in the future. The upper bound on the types supported is always **MaximumBusDataType**.
 
-### -param SystemIoBusNumber
+### -param SystemIoBusNumber [in]
 
-[in] Specifies the system-assigned number of the I/O bus. The miniport driver's [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routine obtains this value from the **SystemIoBusNumber** member initially set in [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md).
+Specifies the system-assigned number of the I/O bus. The miniport driver's [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routine obtains this value from the **SystemIoBusNumber** member initially set in [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md).
 
-### -param SlotNumber
+### -param SlotNumber [in]
 
-[in] Specifies the logical slot number or location of the device.
+Specifies the logical slot number or location of the device.
 
 If **PCIConfiguration** is specified as the *BusDataType*, this parameter must be specified as a PCI_SLOT_NUMBER-type value.
 
-### -param Buffer
+### -param Buffer [in, out]
 
-[in, out] Pointer to a buffer or area to which the configuration data is returned or, if the given *Length* is zero, points to a location to which the OS-specific port driver returns a pointer to a buffer that it allocates.
+Pointer to a buffer or area to which the configuration data is returned or, if the given *Length* is zero, points to a location to which the OS-specific port driver returns a pointer to a buffer that it allocates.
 
-### -param Length
+### -param Length [in]
 
-[in] Specifies the maximum number of bytes to return at *Buffer*, or zero if the caller requires the OS-specific port driver to allocate a buffer to contain the data.
+Specifies the maximum number of bytes to return at *Buffer*, or zero if the caller requires the OS-specific port driver to allocate a buffer to contain the data.
 
 ## -returns
 
@@ -86,12 +86,21 @@ If **PCIConfiguration** is specified as the *BusDataType*, this parameter must b
 
 ## -remarks
 
-**StorPortGetBusData** can be called only from a miniport driver's [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) when the control type is **ScsiSetRunningConfig**. Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
+A miniport driver can call **StorPortGetBusData** from the following routines:
+
+* From its [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) callback routine.
+* From its [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) only when the [**ControlType** is **ScsiSetRunningConfig**](ne-storport-scsi_adapter_control_type.md).
+
+Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
 
 Configuration data returned by **StorPortGetBusData** is valid only until the miniport driver calls **StorPortGetBusData** again. As soon as the caller's [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routine returns control, any returned configuration data becomes invalid.
 
 ## -see-also
 
+[**HwStorAdapterControl**](nc-storport-hw_adapter_control.md)
+
 [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md)
 
 [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md)
+
+[**SCSI_ADAPTER_CONTROL_TYPE**](ne-storport-scsi_adapter_control_type.md)

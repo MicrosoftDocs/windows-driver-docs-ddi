@@ -49,7 +49,7 @@ Defines the **IPrintAsyncNotifyServerReferral::AsyncGetServerReferral** method.
 
 ### -param EQUALNULL
 
-#### - pCookie [in]
+### -param pCookie [in]
 
 ## -returns
 

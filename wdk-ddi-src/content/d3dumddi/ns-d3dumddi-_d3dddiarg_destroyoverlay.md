@@ -52,9 +52,9 @@ The D3DDDIARG_DESTROYOVERLAY structure contains a handle to the overlay to disab
 
 ## -struct-fields
 
-### -field hOverlay
+### -field hOverlay [in]
 
-[in] A handle to the overlay to disable.
+A handle to the overlay to disable.
 
 ## -see-also
 

@@ -52,17 +52,17 @@ The D3DDDIARG_STARTSESSIONKEYREFRESH structure contains information about the ra
 
 ## -struct-fields
 
-### -field hCryptoSession
+### -field hCryptoSession [in]
 
-[in] A handle to the encryption session that is created in a call to the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a> function.
+A handle to the encryption session that is created in a call to the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a> function.
 
-### -field pRandomNumber
+### -field pRandomNumber [out]
 
-[out] A pointer to a buffer that contains the status sequence number for the random start.
+A pointer to a buffer that contains the status sequence number for the random start.
 
-### -field RandomNumberSize
+### -field RandomNumberSize [in/out]
 
-[in/out] The size, in bytes, of the number that the <b>pRandomNumber</b> member points to.
+The size, in bytes, of the number that the <b>pRandomNumber</b> member points to.
 
 ## -see-also
 

@@ -46,21 +46,21 @@ dev_langs:
 
 ## -parameters
 
-### -param CallbackData
+### -param CallbackData [in]
 
-[in] Pointer to the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) for [**FSCTL_MANAGE_BYPASS_IO**](../ntifs/ni-ntifs-fsctl_manage_bypass_io.md).
+Pointer to the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) for [**FSCTL_MANAGE_BYPASS_IO**](../ntifs/ni-ntifs-fsctl_manage_bypass_io.md).
 
-### -param FltObjects
+### -param FltObjects [in]
 
-[in] Pointer to the [**FLT_RELATED_OBJECTS**](ns-fltkernel-_flt_related_objects.md) structure for the BypassIO operation.
+Pointer to the [**FLT_RELATED_OBJECTS**](ns-fltkernel-_flt_related_objects.md) structure for the BypassIO operation.
 
-### -param OperationStatus
+### -param OperationStatus [in]
 
-[in] The NTSTATUS error code provided by the filter for the veto.
+The NTSTATUS error code provided by the filter for the veto.
 
-### -param FailureReason
+### -param FailureReason [in]
 
-[in] A unique, descriptive string that provides details about why the filter is vetoing the BypassIO enable request.
+A unique, descriptive string that provides details about why the filter is vetoing the BypassIO enable request.
 
 ## -returns
 
@@ -75,7 +75,7 @@ dev_langs:
 
 ## -remarks
 
-A minifilter calls **FltVetoBypassIo** when it intends to veto a BypassIo [enable or query request](../ntifs/ne-ntifs-fs_bpio_operations.md) on a file.
+A minifilter calls **FltVetoBypassIo** from its pre-operation callback when it intends to veto a BypassIo [enable or query request](../ntifs/ne-ntifs-fs_bpio_operations.md) on a file.
 
 See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
 

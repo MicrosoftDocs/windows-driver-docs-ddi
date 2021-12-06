@@ -50,14 +50,14 @@ A print processor's <code>PrintDocumentOnPrintProcessor</code> function converts
 
 ## -parameters
 
-### -param hPrintProcessor 
+### -param hPrintProcessor [in]
 
-[in]
+
 Caller-supplied print processor handle. This is the handle returned by a previous call to <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>.
 
-### -param pDocumentName 
+### -param pDocumentName [in]
 
-[in]
+
 Caller-supplied pointer to the document name.
 
 ## -returns

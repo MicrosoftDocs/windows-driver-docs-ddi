@@ -45,13 +45,13 @@ Reads a data byte from the UART device.
 
 ## -parameters
 
-### -param Port
+### -param Port [_Inout_]
 
-[_Inout_] A pointer to a [**_CPPORT**](ns-uart-_cpport.md) structure that contains the  address of the port object that describes the UART hardware.
+A pointer to a [**_CPPORT**](ns-uart-_cpport.md) structure that contains the  address of the port object that describes the UART hardware.
 
-### -param Byte:
+### -param Byte: [_Out_]
 
-[_Out_] A pointer to a variable that contains received byte.
+A pointer to a variable that contains received byte.
 
 ## -returns
 

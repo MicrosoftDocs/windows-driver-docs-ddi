@@ -55,9 +55,9 @@ The
 
 ## -parameters
 
-### -param changeHandle 
+### -param changeHandle [in, out]
 
-[in, out]
+
 A handle associated with the registration of the callback function that is being deregistered.
      This handle was returned to the callout driver when it called the 
      <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">FwpmBfeStateSubscribeChanges0</a> function to register the callback function.

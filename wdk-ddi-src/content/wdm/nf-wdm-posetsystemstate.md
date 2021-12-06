@@ -49,9 +49,9 @@ Drivers call the <b>PoSetSystemState</b> routine to indicate that the system is 
 
 ## -parameters
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Indicates the system activity, as specified by a bitwise OR of one or more of the following values:
 
 

@@ -57,9 +57,6 @@ The NETPOWEROFFLOAD object that represents this ARP protocol offload.
 
 A pointer to a driver-allocated and initialized [**NET_POWER_OFFLOAD_ARP_PARAMETERS**](../netpoweroffload/ns-netpoweroffload-_net_power_offload_arp_parameters.md) structure that receives the ARP parameter information.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

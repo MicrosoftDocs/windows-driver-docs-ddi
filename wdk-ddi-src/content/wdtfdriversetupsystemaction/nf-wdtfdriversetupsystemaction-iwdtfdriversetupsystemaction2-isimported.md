@@ -54,8 +54,8 @@ Returns a value that indicates whether a package has already been imported.
 
 
 
-### -param pDp 
-[in]
+### -param pDp [in]
+
 The package that is to be checked.
 
 
@@ -66,7 +66,7 @@ The package that is to be checked.
 
 
 
-#### - pbIsImported [out, retval]
+### -param pbIsImported [out, retval]
 
 True if the package has already been imported; otherwise, false.
 

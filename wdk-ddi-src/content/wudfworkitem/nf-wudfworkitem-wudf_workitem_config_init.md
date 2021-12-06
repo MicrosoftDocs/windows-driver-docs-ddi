@@ -52,14 +52,14 @@ The
 
 ## -parameters
 
-### -param pConfig 
+### -param pConfig [out]
 
-[out]
+
 A pointer to the caller-allocated <a href="/windows-hardware/drivers/ddi/wudfworkitem/ns-wudfworkitem-_wudf_workitem_config">WUDF_WORKITEM_CONFIG</a> structure to initialize.
 
-### -param OnWorkItemFunc 
+### -param OnWorkItemFunc [in]
 
-[in]
+
 The address of the driver's <a href="/windows-hardware/drivers/ddi/wudfworkitem/nc-wudfworkitem-wudf_workitem_function">OnWorkItem</a> event callback function.
 
 ## -remarks

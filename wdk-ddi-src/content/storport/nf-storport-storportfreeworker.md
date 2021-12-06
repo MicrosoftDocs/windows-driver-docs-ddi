@@ -49,9 +49,9 @@ Frees a Storport work item previously allocated by the <a href="/windows-hardwar
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param Worker

@@ -49,14 +49,14 @@ The <b>CcSetFileSizes</b> routine updates the cache maps and section object for 
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to a file object for the cached file.
 
-### -param FileSizes 
+### -param FileSizes [in]
 
-[in]
+
 Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSize</b> and <b>ValidDataLength</b> for the file. This structure is defined as follows:
 
 

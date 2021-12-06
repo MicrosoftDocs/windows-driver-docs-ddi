@@ -57,9 +57,9 @@ The
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Specifies the final status of the client's original call to 
      <b>NdisClMakeCall</b>, which can be one of the following:
      
@@ -91,16 +91,16 @@ NDIS, the call manager, or an underlying driver could not allocate sufficient re
 The call manager or underlying miniport driver failed to establish an active connection and NDIS
        propagated this driver-determined failure status to the client.
 
-### -param ProtocolVcContext 
+### -param ProtocolVcContext [in]
 
-[in]
+
 Specifies the handle to the client's per-VC context area, which the client originally supplied to
      NDIS when it called 
      <b>NdisCoCreateVc</b> to set up the VC for its outgoing call.
 
-### -param NdisPartyHandle 
+### -param NdisPartyHandle [in, optional]
 
-[in, optional]
+
 If 
      <i>Status</i> is NDIS_STATUS_SUCCESS and the client created a multipoint VC by passing an explicit 
      <i>ProtocolPartyContext</i> handle to 
@@ -115,9 +115,9 @@ If
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a> that refers to this
      party.
 
-### -param CallParameters 
+### -param CallParameters [in]
 
-[in]
+
 Pointer to a buffered CO_CALL_PARAMETERS structure. The client allocated this buffer and
      initialized this structure with client-determined data before passing this pointer to 
      <b>NdisClMakeCall</b>. While processing the client's request, the call manager can modify this data to

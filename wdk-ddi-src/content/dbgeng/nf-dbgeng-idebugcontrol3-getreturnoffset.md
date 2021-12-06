@@ -49,9 +49,9 @@ The <b>GetReturnOffset</b> method returns the return address for the current fun
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [out]
 
-[out]
+
 Receives the return address.
 
 ## -returns

@@ -49,13 +49,13 @@ The **NtFlushBuffersFile** routine sends a flush request for a given file to the
 
 ## -parameters
 
-### -param FileHandle
+### -param FileHandle [in]
 
-[in] Handle returned by [**NtCreateFile**](./nf-ntifs-ntcreatefile.md) or [**NtOpenFile**](./nf-ntifs-ntopenfile.md) for the file whose buffers will be flushed. This parameter is required and cannot be NULL.
+Handle returned by [**NtCreateFile**](./nf-ntifs-ntcreatefile.md) or [**NtOpenFile**](./nf-ntifs-ntopenfile.md) for the file whose buffers will be flushed. This parameter is required and cannot be NULL.
 
-### -param IoStatusBlock
+### -param IoStatusBlock [out]
 
-[out] Address of the caller's I/O status block. This parameter is required and cannot be NULL.
+Address of the caller's I/O status block. This parameter is required and cannot be NULL.
 
 ## -returns
 

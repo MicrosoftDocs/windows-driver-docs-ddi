@@ -64,7 +64,7 @@ The <b>CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT</b> structure contains informa
 A <b>PO_FX_COMPONENT_IDLE_STATE</b> structure that describes the parameters (transition latency, residency requirement, and so on) for the F1 power state of the GPIO bank. For more information about these parameters, see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_idle_state">PO_FX_COMPONENT_IDLE_STATE</a>.
 
 
-#### - ( unnamed struct )
+### -field ( unnamed struct )
 
 A set of power-management flag bits.
 

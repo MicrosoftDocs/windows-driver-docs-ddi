@@ -45,9 +45,9 @@ dev_langs:
 
 ## -parameters
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] Pointer to a [**DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT**](ns-d3dkmddi-dxgkargcb_destroy_physical_memory_object.md) structure that contains information about the physical memory to destroy.
+Pointer to a [**DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT**](ns-d3dkmddi-dxgkargcb_destroy_physical_memory_object.md) structure that contains information about the physical memory to destroy.
 
 ## -remarks
 

@@ -50,14 +50,14 @@ Retrieves a <b>PROPERTYKEY</b> value (type VT_UNKNOWN) that is specified by a ke
 
 ## -parameters
 
-### -param key 
+### -param key [in]
 
-[in]
+
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
-### -param pValue 
+### -param pValue [out]
 
-[out]
+
 Pointer to the retrieved <b>PROPERTYKEY</b> value.
 
 ## -returns

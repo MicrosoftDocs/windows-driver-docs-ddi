@@ -49,44 +49,44 @@ AVStream calls a minidriver's <i>AVStrMiniIntersectHandlerEx</i> routine to dete
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to the <b>Context</b> member of the corresponding <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> containing the intersection request.
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 Pointer to a structure of type <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksp_pin">KSP_PIN</a> that was passed in the intersection property request.
 
-### -param DataRange 
+### -param DataRange [in]
 
-[in]
+
 Pointer to an array of <a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structures.
 
-### -param MatchingDataRange 
+### -param MatchingDataRange [in]
 
-[in]
+
 Pointer to an array of <a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structures to match to <i>DataRange</i>.
 
-### -param DataBufferSize 
+### -param DataBufferSize [in]
 
-[in]
+
 Specifies a value of type ULONG that contains the size of the data buffer.
 
-### -param Data 
+### -param Data [out]
 
-[out]
+
 Pointer to an optional data buffer in which the minidriver outputs the intersection.
 
-### -param DataSize 
+### -param DataSize [out]
 
-[out]
+
 Pointer to a value of type ULONG specifying the size of the data buffer.
 
 ## -returns

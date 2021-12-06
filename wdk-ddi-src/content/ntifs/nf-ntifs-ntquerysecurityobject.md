@@ -49,13 +49,13 @@ The **NtQuerySecurityObject** routine retrieves a copy of an object's security d
 
 ## -parameters
 
-### -param Handle
+### -param Handle [in]
 
-[in] Handle for the object whose security descriptor is to be queried. This handle must have the access specified in the Meaning column of the table shown in the description of the **SecurityInformation** parameter.
+Handle for the object whose security descriptor is to be queried. This handle must have the access specified in the Meaning column of the table shown in the description of the **SecurityInformation** parameter.
 
-### -param SecurityInformation
+### -param SecurityInformation [in]
 
-[in] A [**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information) value specifying the information to be queried as a combination of one or more of the following.
+A [**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information) value specifying the information to be queried as a combination of one or more of the following.
 
 | Value | Meaning |
 | ----- | ------- |
@@ -64,17 +64,17 @@ The **NtQuerySecurityObject** routine retrieves a copy of an object's security d
 | SACL_SECURITY_INFORMATION | The object's system ACL (SACL) is being queried. Requires ACCESS_SYSTEM_SECURITY access. |
 | DACL_SECURITY_INFORMATION | The object's discretionary access control list (DACL) is being queried. Requires READ_CONTROL access. |
 
-### -param SecurityDescriptor
+### -param SecurityDescriptor [out]
 
-[out] Caller-allocated buffer that **NtQuerySecurityObject** fills with a copy of the specified security descriptor. The [**SECURITY_DESCRIPTOR**](ns-ntifs-_security_descriptor.md) structure is returned in self-relative format.
+Caller-allocated buffer that **NtQuerySecurityObject** fills with a copy of the specified security descriptor. The [**SECURITY_DESCRIPTOR**](ns-ntifs-_security_descriptor.md) structure is returned in self-relative format.
 
-### -param Length
+### -param Length [in]
 
-[in] Size, in bytes, of the buffer pointed to by **SecurityDescriptor**.
+Size, in bytes, of the buffer pointed to by **SecurityDescriptor**.
 
-### -param LengthNeeded
+### -param LengthNeeded [out]
 
-[out] Pointer to a caller-allocated variable that receives the number of bytes required to store the copied security descriptor.
+Pointer to a caller-allocated variable that receives the number of bytes required to store the copied security descriptor.
 
 ## -returns
 

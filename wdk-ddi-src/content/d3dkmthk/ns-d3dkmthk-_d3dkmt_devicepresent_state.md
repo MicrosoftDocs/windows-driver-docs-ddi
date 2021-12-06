@@ -52,13 +52,13 @@ The D3DKMT_DEVICEPRESENT_STATE structure describes parameters for retrieving the
 
 ## -struct-fields
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology to receive present status for.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology to receive present status for.
 
-### -field PresentStats
+### -field PresentStats [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_stats">D3DKMT_PRESENT_STATS</a> structure that describes status of present operations that is retrieved for the device.
+A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_stats">D3DKMT_PRESENT_STATS</a> structure that describes status of present operations that is retrieved for the device.
 
 ## -see-also
 

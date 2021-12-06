@@ -49,9 +49,9 @@ The <b>FsRtlDeleteTunnelCache</b> routine deletes a tunnel cache.
 
 ## -parameters
 
-### -param Cache 
+### -param Cache [in]
 
-[in]
+
 Pointer to the tunnel cache structure to delete. The tunnel cache must have been initialized by calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache">FsRtlInitializeTunnelCache</a>.
 
 ## -remarks

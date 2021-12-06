@@ -49,9 +49,9 @@ The <b>IoMarkIrpPending</b> routine marks the specified IRP, indicating that a d
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 Pointer to the IRP to be marked as pending.
 
 ## -remarks
@@ -68,7 +68,7 @@ If a driver sets an <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_complet
 <div> </div>
 A driver that passes down the IRP and then waits on an event should not mark the IRP pending. Instead, its <i>IoCompletion</i> routine should signal the event and return STATUS_MORE_PROCESSING_REQUIRED.
 
-If your driver calls [IoSkipCurrentIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioskipcurrentirpstacklocation), be careful not to modify the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a> structure in a way that could unintentionally affect the lower driver or the system's behavior with respect to that driver. In particular, your driver should not modify the <b>IO_STACK_LOCATION</b> structure's <b>Parameters</b> union, and should not call <b>IoMarkIrpPending</b>.
+If your driver calls [IoSkipCurrentIrpStackLocation](./nf-wdm-ioskipcurrentirpstacklocation.md), be careful not to modify the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a> structure in a way that could unintentionally affect the lower driver or the system's behavior with respect to that driver. In particular, your driver should not modify the <b>IO_STACK_LOCATION</b> structure's <b>Parameters</b> union, and should not call <b>IoMarkIrpPending</b>.
 
 ## -see-also
 
@@ -84,7 +84,7 @@ If your driver calls [IoSkipCurrentIrpStackLocation](/windows-hardware/drivers/d
 
 
 
-[IoSkipCurrentIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioskipcurrentirpstacklocation)
+[IoSkipCurrentIrpStackLocation](./nf-wdm-ioskipcurrentirpstacklocation.md)
 
 
 

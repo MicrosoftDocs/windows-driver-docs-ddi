@@ -50,14 +50,14 @@ The <b>ClfsQueryLogFileInformation</b> routine returns metadata and state inform
 
 ## -parameters
 
-### -param plfoLog 
+### -param plfoLog [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>.
 
-### -param eInformationClass 
+### -param eInformationClass [in]
 
-[in]
+
 A value from the <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_cls_log_information_class">CLFS_LOG_INFORMATION_CLASS</a> enumeration that specifies the type of information being requested.
 
 ### -param pinfoInputBuffer
@@ -68,9 +68,9 @@ Optional input buffer which is required for some information classes.
 
 Length in bytes of pinfoInputBuffer.
 
-### -param pinfoBuffer 
+### -param pinfoBuffer [out]
 
-[out]
+
 A pointer to a buffer that receives the log information. The structure of this buffer depends on the value of <i>eInformationClass</i>. The following table shows the relationship between the information class and the data type of the buffer.
 
 <table>
@@ -147,7 +147,7 @@ Length in bytes of the incoming information buffer.
 
 
 
-#### - pcbBuffer [in, out]
+### -param pcbBuffer [in, out]
 
 The size, in bytes, of the buffer pointed to by <i>pinfoBuffer</i>.
 

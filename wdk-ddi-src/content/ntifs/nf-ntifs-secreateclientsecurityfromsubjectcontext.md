@@ -49,24 +49,24 @@ The <b>SeCreateClientSecurityFromSubjectContext</b> routine retrieves the access
 
 ## -parameters
 
-### -param SubjectContext 
+### -param SubjectContext [in]
 
-[in]
+
 Pointer to the security subject context of the client to be impersonated.
 
-### -param ClientSecurityQos 
+### -param ClientSecurityQos [in]
 
-[in]
+
 Pointer to a caller-allocated SECURITY_QUALITY_OF_SERVICE structure indicating what form of impersonation is to be performed.
 
-### -param ServerIsRemote 
+### -param ServerIsRemote [in]
 
-[in]
+
 Set to <b>TRUE</b> if the server of the client's request is remote.
 
-### -param ClientContext 
+### -param ClientContext [out]
 
-[out]
+
 Pointer to a caller-allocated SECURITY_CLIENT_CONTEXT structure to be initialized.
 
 ## -returns

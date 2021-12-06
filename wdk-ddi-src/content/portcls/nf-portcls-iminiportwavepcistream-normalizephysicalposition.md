@@ -49,9 +49,9 @@ The <code>NormalizePhysicalPosition</code> method converts a physical buffer pos
 
 ## -parameters
 
-### -param PhysicalPosition 
+### -param PhysicalPosition [in, out]
 
-[in, out]
+
 Pointer to a caller-allocated buffer that contains either the physical position or time-based value. On entry, this buffer contains the physical-position value that is to be converted. On return, the buffer contains the converted value, which is time-based.
 
 ## -returns

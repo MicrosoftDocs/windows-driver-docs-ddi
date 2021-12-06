@@ -50,14 +50,14 @@ The <b>RtlVerifyVersionInfo</b> routine compares a specified set of operating sy
 
 ## -parameters
 
-### -param VersionInfo 
+### -param VersionInfo [in]
 
-[in]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_osversioninfoexw">RTL_OSVERSIONINFOEXW</a> structure that specifies the operating system version requirements to compare to the corresponding attributes of the currently running version of the operating system.
 
-### -param TypeMask 
+### -param TypeMask [in]
 
-[in]
+
 Specifies which members of <i>VersionInfo</i> to compare with the corresponding attributes of the currently running version of the operating system. <i>TypeMask</i> is set to a logical OR of one or more of the following values.
                         
 
@@ -148,9 +148,9 @@ VER_PRODUCT_TYPE
 </tr>
 </table>
 
-### -param ConditionMask 
+### -param ConditionMask [in]
 
-[in]
+
 Specifies how to compare each <b>VersionInfo</b> member. To set the value of <i>ConditionMask</i>, a caller should use the <b>VER_SET_CONDITION</b> macro:
 						  
 

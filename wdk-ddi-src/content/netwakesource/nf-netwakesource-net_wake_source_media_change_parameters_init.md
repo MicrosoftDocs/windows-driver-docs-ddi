@@ -53,9 +53,6 @@ The **NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT** function initializes a [**N
 
 A pointer to a driver-allocated [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS**](../netwakesource/ns-netwakesource-_net_wake_source_media_change_parameters.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

@@ -49,17 +49,17 @@ The D3D10DDIARG_CREATEDEVICE_0003 structure describes the display device to crea
 
 ## -struct-fields
 
-### -field hRTDevice
+### -field hRTDevice [in]
 
-[in] A handle to the display device (graphics context) that specifies the handle that the driver should use when it calls back into the Direct3D runtime.
+A handle to the display device (graphics context) that specifies the handle that the driver should use when it calls back into the Direct3D runtime.
 
-### -field Interface
+### -field Interface [in]
 
-[in] The Direct3D interface version.
+The Direct3D interface version.
 
-### -field Version
+### -field Version [in]
 
-[in] A UINT value that the driver can use to identify when the Direct3D runtime was built (the runtime version).
+A UINT value that the driver can use to identify when the Direct3D runtime was built (the runtime version).
 
 ### -field pKTCallbacks
 

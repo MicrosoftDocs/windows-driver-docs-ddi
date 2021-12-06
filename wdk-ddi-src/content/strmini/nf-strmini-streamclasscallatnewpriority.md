@@ -50,19 +50,19 @@ The <b>StreamClassCallAtNewPriority</b> routine schedules a routine to be called
 
 ## -parameters
 
-### -param StreamObject 
+### -param StreamObject [in, optional]
 
-[in, optional]
+
 Pointer to an HW_STREAM_OBJECT structure specifying the stream is associated with the routine, or <b>NULL</b> if the routine is associated with the device as a whole. There can be only one routine per stream, and only one routine for the device. This parameter is optional.
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter">StreamClassRegisterMinidriver</a>. The class driver then passes pointers to the buffer in the <b>HwDeviceExtension</b> member of the <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a>, <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a>, <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context">HW_TIME_CONTEXT</a>, and <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
 
-### -param Priority 
+### -param Priority [in]
 
-[in]
+
 Specifies one of the values listed in the following table.
 
 <table>
@@ -112,14 +112,14 @@ Used to allow a thread called at low priority to return to high priority so that
 </tr>
 </table>
 
-### -param PriorityRoutine 
+### -param PriorityRoutine [in]
 
-[in]
+
 Pointer to a minidriver-supplied <a href="/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_priority_routine">StrMiniPriorityRoutine</a> to be called at the specified priority level.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Specifies the parameter to be passed to the <i>PriorityRoutine</i>.
 
 ## -returns

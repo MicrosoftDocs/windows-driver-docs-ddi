@@ -49,11 +49,11 @@ api_name:
 
 ## -parameters
 
-### -param Options 
+### -param Options [out]
 
-[out]
 
-### -param Flags 
 
-[in]
+### -param Flags [in]
+
+
 

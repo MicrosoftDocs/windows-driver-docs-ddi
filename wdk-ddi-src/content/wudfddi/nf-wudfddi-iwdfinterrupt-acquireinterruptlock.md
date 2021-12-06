@@ -49,8 +49,6 @@ api_name:
 
 The <b>AcquireInterruptLock</b> method begins a code sequence that executes while holding an interrupt object's lock.
 
-## -parameters
-
 ## -remarks
 
 When a driver calls <b>AcquireInterruptLock</b>, the system acquires the framework's interrupt lock.

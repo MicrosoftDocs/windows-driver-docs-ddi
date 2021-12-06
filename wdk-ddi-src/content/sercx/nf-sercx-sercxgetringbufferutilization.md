@@ -49,19 +49,19 @@ The <b>SerCxGetRingBufferUtilization</b> method enables the serial controller dr
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
-### -param BytesUsed 
+### -param BytesUsed [out, optional]
 
-[out, optional]
+
 The number of bytes of unread data that are currently contained in the type-ahead ring buffer that is used to store received data.
 
-### -param BufferSize 
+### -param BufferSize [out, optional]
 
-[out, optional]
+
 The size, in bytes, of the type-ahead ring buffer that is used to store received data.
 
 ## -remarks

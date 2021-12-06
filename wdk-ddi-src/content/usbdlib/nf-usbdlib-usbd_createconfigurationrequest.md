@@ -50,14 +50,14 @@ The  <b>USBD_CreateConfigurationRequest</b> routine has been deprecated. Use <a 
 
 ## -parameters
 
-### -param ConfigurationDescriptor 
+### -param ConfigurationDescriptor [in]
 
-[in]
+
 Pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_configuration_descriptor">USB_CONFIGURATION_DESCRIPTOR</a> structure that contains the configuration descriptor for the configuration to be selected.
 
-### -param Siz 
+### -param Siz [in, out]
 
-[in, out]
+
 Size of the <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure.
 
 ## -returns

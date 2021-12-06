@@ -49,14 +49,14 @@ The <b>GetThreadIdByDataOffset</b> method returns the engine thread ID for the s
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location of the system data structure for the thread.
 
-### -param Id 
+### -param Id [out]
 
-[out]
+
 Receives the engine thread ID.
 
 ## -returns

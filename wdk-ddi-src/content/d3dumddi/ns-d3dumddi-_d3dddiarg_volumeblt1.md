@@ -52,29 +52,29 @@ Describes parameters for a volume bit-block transfer (bitblt) operation.
 
 ## -struct-fields
 
-### -field hDstResource
+### -field hDstResource [in]
 
-[in] A handle to the destination surface.
+A handle to the destination surface.
 
-### -field hSrcResource
+### -field hSrcResource [in]
 
-[in] A handle to the source surface.
+A handle to the source surface.
 
-### -field DstX
+### -field DstX [in]
 
-[in] The width, in screen coordinates, of the destination volume in which the source volume is copied.
+The width, in screen coordinates, of the destination volume in which the source volume is copied.
 
-### -field DstY
+### -field DstY [in]
 
-[in] The height, in screen coordinates, of the destination volume in which the source volume is copied.
+The height, in screen coordinates, of the destination volume in which the source volume is copied.
 
-### -field DstZ
+### -field DstZ [in]
 
-[in] The depth, in screen coordinates, of the destination volume in which the source volume is copied.
+The depth, in screen coordinates, of the destination volume in which the source volume is copied.
 
-### -field SrcBox
+### -field SrcBox [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddibox">D3DDDIBOX</a> structure that describes the source volume texture to copy to the destination.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddibox">D3DDDIBOX</a> structure that describes the source volume texture to copy to the destination.
 
 ### -field CopyFlags
 

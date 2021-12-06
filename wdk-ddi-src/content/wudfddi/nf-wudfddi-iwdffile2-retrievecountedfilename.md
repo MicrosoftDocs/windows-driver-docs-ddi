@@ -51,14 +51,14 @@ The <b>RetrieveCountedFileName</b> method retrieves the full counted file name f
 
 ## -parameters
 
-### -param pCountedFileName 
+### -param pCountedFileName [out]
 
-[out]
+
 A pointer to a caller-allocated buffer. This buffer receives a <b>NULL</b>-terminated character string that represents the full name of the file that is associated with the device. If the pointer is <b>NULL</b>, <b>RetrieveCountedFileName</b> retrieves only the string length.
 
 ### -param pdwCountedFileNameLengthInChars
 
-#### - pdwCountedFileNameLength [in, out]
+### -param pdwCountedFileNameLength [in, out]
 
 A pointer to a caller-allocated variable. On input, the driver sets the variable to the length, in characters, of the buffer that <i>pdwFileNameLengthInChars</i> points to. On output, the framework sets the variable to the length, in characters, of the character string (including the terminating <b>NULL</b> character) that it placed in the buffer. If a counted file name does not exist, the framework sets the variable to zero.
 

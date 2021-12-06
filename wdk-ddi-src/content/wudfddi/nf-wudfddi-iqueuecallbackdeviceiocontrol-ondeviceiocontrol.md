@@ -51,31 +51,31 @@ The <b>OnDeviceIoControl</b> method is called to handle a device I/O control req
 
 ## -parameters
 
-### -param pWdfQueue 
+### -param pWdfQueue [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a> interface for the I/O queue object that the request arrives from.
 
-### -param pWdfRequest 
+### -param pWdfRequest [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface that represents the framework request object.
 
-### -param ControlCode 
+### -param ControlCode [in]
 
-[in]
+
 The driver-defined or system-defined I/O control code (IOCTL) that identifies the specific operation to be performed and that is associated with the request.
 
 ### -param InputBufferSizeInBytes
 
 ### -param OutputBufferSizeInBytes
 
-#### - InBufferSize [in]
+### -param InBufferSize [in]
 
 The size, in bytes, of the input buffer for the request.
 
 
-#### - OutBufferSize [in]
+### -param OutBufferSize [in]
 
 The size, in bytes, of the output buffer for the request.
 

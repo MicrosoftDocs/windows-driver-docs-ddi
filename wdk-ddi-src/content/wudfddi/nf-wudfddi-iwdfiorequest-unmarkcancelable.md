@@ -49,8 +49,6 @@ api_name:
 
 The <b>UnmarkCancelable</b> method disables the canceling of an I/O request.
 
-## -parameters
-
 ## -returns
 
 <b>UnmarkCancelable</b> returns one of the following values:

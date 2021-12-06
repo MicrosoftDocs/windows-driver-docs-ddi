@@ -53,9 +53,6 @@ The **NET_POWER_OFFLOAD_ARP_PARAMETERS_INIT** function initializes a [**NET_POWE
 
 A pointer to a client driver-allocated [**NET_POWER_OFFLOAD_ARP_PARAMETERS**](../netpoweroffload/ns-netpoweroffload-_net_power_offload_arp_parameters.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

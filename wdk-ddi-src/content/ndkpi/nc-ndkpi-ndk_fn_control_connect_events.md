@@ -49,14 +49,14 @@ The <i>NdkControlConnectEvents</i> (<i>NDK_FN_CONTROL_CONNECT_EVENTS</i>) functi
 
 ## -parameters
 
-### -param pNdkListener 
+### -param pNdkListener [in]
 
-[in]
+
 A pointer to an NDK listener object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener">NDK_LISTENER</a>).
 
-### -param Pause 
+### -param Pause [in]
 
-[in]
+
 A BOOLEAN value that specifies if a connection is paused or restarted. If <i>Pause</i> is TRUE the connection is paused. If <i>Pause</i> is FALSE the connection is restarted.
 
 ## -remarks

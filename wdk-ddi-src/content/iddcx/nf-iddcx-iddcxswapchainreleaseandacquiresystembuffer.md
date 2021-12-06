@@ -45,13 +45,13 @@ dev_langs:
 
 ## -parameters
 
-### -param SwapChainObject
+### -param SwapChainObject [in]
 
-[in] The [IDDCX_SWAPCHAIN](/windows-hardware/drivers/display/iddcx-objects) object used for querying the physical address of the currently acquired surface.
+The [IDDCX_SWAPCHAIN](/windows-hardware/drivers/display/iddcx-objects) object used for querying the physical address of the currently acquired surface.
 
-### -param pOutArgs
+### -param pOutArgs [out]
 
-[out] Pointer to a [**IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER**](ns-iddcx-idarg_out_releaseandacquiresystembuffer.md) structure in which the resulting information from the release and acquire operation is returned.
+Pointer to a [**IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER**](ns-iddcx-idarg_out_releaseandacquiresystembuffer.md) structure in which the resulting information from the release and acquire operation is returned.
 
 ## -returns
 

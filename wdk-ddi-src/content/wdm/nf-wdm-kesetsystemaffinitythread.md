@@ -49,9 +49,9 @@ The <b>KeSetSystemAffinityThread</b> routine sets the system affinity of the cur
 
 ## -parameters
 
-### -param Affinity 
+### -param Affinity [in]
 
-[in]
+
 A [**KAFFINITY**](/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed variable that specifies the new system affinity of the current thread.
 
 ## -remarks

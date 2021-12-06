@@ -50,14 +50,14 @@ Sends a notification to the listening UWP apps, to allow for communications betw
 
 ## -parameters
 
-### -param NotificationId 
+### -param NotificationId [in]
 
-[in]
+
 KSNOTIFICATIONID_AudioModule
 
 ### -param NotificationBuffer
 
-#### - PPCNOTIFICATION* [in]
+### -param PPCNOTIFICATION* [in]
 
 Pointer to a <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcnotification_buffer">PCNOTIFICATION_BUFFER</a> structure to send to the listening audio module UWP clients.
 

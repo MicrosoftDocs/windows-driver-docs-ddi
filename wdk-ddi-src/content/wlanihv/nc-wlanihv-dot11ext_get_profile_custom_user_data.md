@@ -53,37 +53,37 @@ api_name:
 
 ## -parameters
 
-### -param hDot11SvcHandle 
+### -param hDot11SvcHandle [in, optional]
 
-[in, optional]
+
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
-### -param hConnectSession 
+### -param hConnectSession [in, optional]
 
-[in, optional]
+
 The handle used by the operating system to reference the connection session with the basic service
      set (BSS) network. This handle value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
      Dot11ExtIhvPerformPreAssociate</a> IHV Handler function.
 
-### -param dwSessionID 
+### -param dwSessionID [in]
 
-[in]
+
 The session identifier (session ID) of the current user.
 
-### -param pdwDataSize 
+### -param pdwDataSize [out]
 
-[out]
+
 A pointer to a caller-supplied variable that stores the size, in bytes, of the buffer referenced
      by
      <i>ppvData</i> .
 
-### -param ppvData 
+### -param ppvData [out]
 
-[out]
+
 The address of a pointer variable that stores the address of the buffer containing the user
      data.
 

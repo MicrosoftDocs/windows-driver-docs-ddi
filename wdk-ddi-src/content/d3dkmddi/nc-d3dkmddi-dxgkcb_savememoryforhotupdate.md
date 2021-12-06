@@ -47,13 +47,13 @@ A kernel-mode display miniport driver can call **DXGKCB_SAVEMEMORYFORHOTUPDATE**
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to the DXGK adapter that is passed to [DxgkDdiStartDevice](../dispmprt/nc-dispmprt-dxgkddi_start_device.md).
+A handle to the DXGK adapter that is passed to [DxgkDdiStartDevice](../dispmprt/nc-dispmprt-dxgkddi_start_device.md).
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] A pointer to the [DXGKARGCB_SAVEMEMORYFORHOTUPDATE](ns-d3dkmddi-dxgkargcb_savememoryforhotupdate.md) structure that contains arguments for this callback.
+A pointer to the [DXGKARGCB_SAVEMEMORYFORHOTUPDATE](ns-d3dkmddi-dxgkargcb_savememoryforhotupdate.md) structure that contains arguments for this callback.
 
 ## -returns
 

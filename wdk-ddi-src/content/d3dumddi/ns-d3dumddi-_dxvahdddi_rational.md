@@ -52,13 +52,13 @@ The DXVAHDDDI_RATIONAL structure describes a fractional value that represents th
 
 ## -struct-fields
 
-### -field Numerator
+### -field Numerator [in]
 
-[in] The numerator of the frequency fraction.
+The numerator of the frequency fraction.
 
-### -field Denominator
+### -field Denominator [in]
 
-[in] The denominator of the frequency fraction.
+The denominator of the frequency fraction.
 
 ## -remarks
 

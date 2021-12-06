@@ -52,16 +52,16 @@ The
 
 ## -parameters
 
-### -param NdisMiniportHandle 
+### -param NdisMiniportHandle [in]
 
-[in]
+
 An NDIS miniport adapter handle that NDIS supplied to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
-### -param MSIXConfigParameters 
+### -param MSIXConfigParameters [in]
 
-[in]
+
 A pointer to a caller-allocated 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_msix_config_parameters">
      NDIS_MSIX_CONFIG_PARAMETERS</a> structure that defines the requested configuration operation and

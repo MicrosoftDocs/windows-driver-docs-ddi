@@ -4,7 +4,7 @@ title: _BTHX_HCI_READ_WRITE_CONTEXT (bthxddi.h)
 description: The BTHX_HCI_READ_WRITE_CONTEXT structure is used as an input/output structure for the IOCTL_BTHX_READ_HCI and IOCTL_BTHX_WRITE_HCI IOCTLs.
 old-location: bltooth\bthx_hci_read_write_context.htm
 tech.root: bltooth
-ms.date: 04/27/2018
+ms.date: 12/01/2021
 keywords: ["BTHX_HCI_READ_WRITE_CONTEXT structure"]
 ms.keywords: "*PBTHX_HCI_READ_WRITE_CONTEXT, BTHX_HCI_READ_WRITE_CONTEXT, BTHX_HCI_READ_WRITE_CONTEXT structure [Bluetooth Devices], PBTHX_HCI_READ_WRITE_CONTEXT, PBTHX_HCI_READ_WRITE_CONTEXT structure pointer [Bluetooth Devices], _BTHX_HCI_READ_WRITE_CONTEXT, bltooth.bthx_hci_read_write_context, bthxddi/BTHX_HCI_READ_WRITE_CONTEXT, bthxddi/PBTHX_HCI_READ_WRITE_CONTEXT"
 req.header: bthxddi.h
@@ -48,16 +48,15 @@ api_name:
 
 # _BTHX_HCI_READ_WRITE_CONTEXT structure
 
-
 ## -description
 
-The BTHX_HCI_READ_WRITE_CONTEXT structure is used as an input/output structure for  the IOCTL_BTHX_READ_HCI and IOCTL_BTHX_WRITE_HCI IOCTLs.
+The **BTHX_HCI_READ_WRITE_CONTEXT** structure is used by [IOCTL_BTHX_HCI_READ](/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_read_hci) and [IOCTL_BTHX_HCI_WRITE](/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_write_hci) for input and output.
 
 ## -struct-fields
 
 ### -field DataLen
 
-The length, in bytes, of data in <b>Data</b>.
+The length of data contained in the **Data** field, in bytes.
 
 ### -field Type
 
@@ -65,20 +64,17 @@ The type of packetized data.
 
 ### -field Data
 
- 
-
-
-
-
-#### - Data[]
-
 Actual data to be read/written.
 
 ## -remarks
 
-The BTHX_HCI_READ_WRITE_CONTEXT structure is an input parameter to the <a href="/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_write_hci">IOCTL_BTHX_HCI_WRITE IOCTL</a> and specifies the type of packet associated with the write. It also specifies the data to be written in the <b>Data</b> member.
+The **BTHX_HCI_READ_WRITE_CONTEXT** structure is an input parameter to [IOCTL_BTHX_HCI_WRITE](/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_write_hci) and specifies the type of packet associated with the write. It also specifies the data to be written in the **Data** member.
 
-This structure is also used as an output parameter for the <a href="/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_read_hci">IOCTL_BTHX_HCI_READ</a> IOCTL and specifies the type of packet and the data associated with the read.
+This structure is also used as an output parameter for [IOCTL_BTHX_HCI_READ](/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_read_hci) and specifies the type of packet and the data associated with the read.
 
 This structure is packed to 1-byte boundary.
 
+## -see-also
+
+- [IOCTL_BTHX_HCI_WRITE](/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_write_hci)
+- [IOCTL_BTHX_HCI_READ](/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_read_hci)

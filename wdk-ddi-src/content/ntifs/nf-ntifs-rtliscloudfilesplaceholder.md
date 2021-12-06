@@ -50,14 +50,14 @@ The <b>RtlIsCloudFilesPlaceholder</b> routine determines if a file or a director
 
 ## -parameters
 
-### -param FileAttributes 
+### -param FileAttributes [in]
 
-[in]
+
 Specifies the attributes of a file or directory.
 
-### -param ReparseTag 
+### -param ReparseTag [in]
 
-[in]
+
 The ReparseTag or EaSize of a file or directory.
 
 ## -returns

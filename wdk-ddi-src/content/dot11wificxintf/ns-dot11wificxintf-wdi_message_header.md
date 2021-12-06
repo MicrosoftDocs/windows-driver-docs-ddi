@@ -1,10 +1,11 @@
 ---
 UID: NS:dot11wificxintf._WDI_MESSAGE_HEADER
 tech.root: netvista
-title: WDI_MESSAGE_HEADER
-ms.date: 04/30/2021
+title: WDI_MESSAGE_HEADER (dot11wificxintf.h)
+ms.date: 10/02/2021
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WDI_MESSAGE_HEADER structure for internal use only. Don't use this structure in your code."
+description: The WDI_MESSAGE_HEADER structure defines the WiFi message header. All WiFi command messages must start with this header.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -14,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: WDI_MESSAGE_HEADER, *PWDI_MESSAGE_HEADER
@@ -43,34 +44,36 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!IMPORTANT]
+> This topic is part of the [WiFiCx driver model](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx). WiFiCx is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features. The previous Wi-Fi driver model [WDI](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) is now in maintenance mode and will only receive high priority fixes. 
 
-This function is reserved for system use and should not be called in your code.
+The WDI_MESSAGE_HEADER structure defines the WiFi message header. All WiFi command messages must start with this header.
 
 ## -struct-fields
 
 ### -field PortId
 
-Reserved.
+Specifies the identifier for the Port object that this command is targeted for. For commands on the Adapter object, this is 0xFFFF.
 
 ### -field Reserved
 
-Reserved.
+This member is reserved.
 
 ### -field Status
 
-Reserved.
+Specifies the operation completion status for output messages. For input messages, this field is reserved.
 
 ### -field TransactionId
 
-Reserved.
+Specifies the transaction ID. This value is used to match host-sent messages with function responses.  This value must be unique among all outstanding transactions.  For notifications, the TransactionId must be set to 0 by the function.
 
 ### -field IhvSpecificId
 
-Reserved.
-
-## -remarks
+Specifies an IHV-specific ID for this message. This can be used by IHVs for debugging purpose.
 
 ## -see-also
+
+[Introduction to the Wi-Fi WDF class extension (WiFiCx)](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx)
+
+[WiFiCx message structure](/windows-hardware/drivers/netcx/wificx-message-structure)
 

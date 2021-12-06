@@ -51,19 +51,19 @@ The <b>WdfDeviceUnmapIoSpace</b> function unmaps a specified range of physical a
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param PseudoBaseAddress 
+### -param PseudoBaseAddress [in]
 
-[in]
+
 The address of a location that receives a pointer to the pseudo base address.
 
-### -param NumberOfBytes 
+### -param NumberOfBytes [in]
 
-[in]
+
 Specifies a value greater than zero, indicating the number of bytes to be mapped.
 
 ## -remarks

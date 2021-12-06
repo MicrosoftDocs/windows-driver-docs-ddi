@@ -51,9 +51,9 @@ The <b>GetDefaultIoTarget</b> method retrieves the interface of the default I/O 
 
 ## -parameters
 
-### -param ppWdfIoTarget 
+### -param ppWdfIoTarget [out]
 
-[out]
+
 A pointer to a variable that receives a pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a> interface for the default I/O target object.
 
 ## -remarks

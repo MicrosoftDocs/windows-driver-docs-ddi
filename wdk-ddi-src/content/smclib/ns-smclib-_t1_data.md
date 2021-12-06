@@ -124,12 +124,12 @@ If <b>TRUE</b>, execute the operation synchronously.
 
 
 
-#### - InfSize
+### -field InfSize
 
 Contains the current information field size to transmit. 
 
 
-#### - PrevState
+### -field PrevState
 
 Contains the state before the error occurred.
 

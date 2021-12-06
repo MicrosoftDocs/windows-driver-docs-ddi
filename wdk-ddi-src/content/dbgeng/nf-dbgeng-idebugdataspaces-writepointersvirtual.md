@@ -49,19 +49,19 @@ The <b>WritePointersVirtual</b> method is a convenience method for writing point
 
 ## -parameters
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of pointers to write.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location in the target's virtual address space at which to start writing the pointers.
 
-### -param Ptrs 
+### -param Ptrs [in]
 
-[in]
+
 Specifies the array of pointers to write.  The number of elements in this array is <i>Count</i>.
 
 ## -returns

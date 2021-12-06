@@ -51,30 +51,30 @@ The
 
 ## -parameters
 
-### -param ClientContext 
+### -param ClientContext [in, optional]
 
-[in, optional]
+
 A pointer to the context value that was specified by the 
      <i>WskClientNpi</i> parameter passed to the 
      <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> function.
 
 ### -param EventType
 
-### -param Information 
+### -param Information [in, optional]
 
-[in, optional]
+
 A pointer to a buffer that contains additional information that is associated with the event. If
      there is no additional information associated with the event, this pointer will be <b>NULL</b>.
 
-### -param InformationLength 
+### -param InformationLength [in]
 
-[in]
+
 The length of the additional information that is contained in the buffer that is pointed to by the     
      <i>Information</i> parameter. If there is no additional information associated with the event, this value
      will be zero.
 
 
-#### - Event [in]
+### -param Event [in]
 
 The specific event about which the WSK application is being notified. There are currently no
      events defined.

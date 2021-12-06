@@ -46,9 +46,9 @@ Unmaps a previously mapped reserved logical range. Unlike [**IOMMU_UNMAP_LOGICAL
 
 ## -parameters
 
-### -param MappedSegment
+### -param MappedSegment [in, out]
 
-[in, out]
+
 The [**IOMMU_DMA_LOGICAL_ADDRESS_TOKEN_MAPPED_SEGMENT**](ns-wdm-iommu_dma_logical_address_token_mapped_segment.md) to be unmapped.
 
 ## -returns

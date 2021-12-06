@@ -52,21 +52,21 @@ The D3DDDIARG_VIEWPORTINFO structure describes the location and size of a view-c
 
 ## -struct-fields
 
-### -field X
+### -field X [in]
 
-[in] The x coordinate, in screen coordinates, for the upper-left corner of the view-clipping rectangle.
+The x coordinate, in screen coordinates, for the upper-left corner of the view-clipping rectangle.
 
-### -field Y
+### -field Y [in]
 
-[in] The y coordinate, in screen coordinates, for the upper-left corner of the view-clipping rectangle.
+The y coordinate, in screen coordinates, for the upper-left corner of the view-clipping rectangle.
 
-### -field Width
+### -field Width [in]
 
-[in] The width, in screen coordinates, of the view-clipping rectangle where the application is rendering.
+The width, in screen coordinates, of the view-clipping rectangle where the application is rendering.
 
-### -field Height
+### -field Height [in]
 
-[in] The height, in screen coordinates, of the view-clipping rectangle where the application is rendering.
+The height, in screen coordinates, of the view-clipping rectangle where the application is rendering.
 
 ## -remarks
 

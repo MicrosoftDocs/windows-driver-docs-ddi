@@ -61,9 +61,9 @@ A [**NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE**](ne-netadapter-_net_rx_fragment_bu
 
 A hint indicating how many elements the adapter wants for each receive queue's ring buffer of [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)s. This member must be a power of 2.
 
-### -field MaximumFragmentBufferSize
+### -field MaximumFrameSize
 
-The maximum fragment buffer size, in bytes, that the adapter can receive. This value should include the maximum transmission unit (MTU) size that your hardware supports for an IP packet, plus additional space your driver might need for packet metadata. For more information, see the receive example in the Remarks section of [*EVT_PACKET_QUEUE_ADVANCE*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_advance.md).
+The maximum frame size, in bytes, that the adapter can receive. This value should include the maximum transmission unit (MTU) size that your hardware supports for an IP packet, plus additional space your driver might need for packet metadata. For more information, see the receive example in the Remarks section of [*EVT_PACKET_QUEUE_ADVANCE*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_advance.md).
 
 ### -field MaximumNumberOfQueues
 

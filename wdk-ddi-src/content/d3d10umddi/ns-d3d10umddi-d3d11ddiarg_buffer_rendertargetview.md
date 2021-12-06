@@ -49,21 +49,21 @@ The D3D11DDIARG_BUFFER_RENDERTARGETVIEW structure describes a buffer that is use
 
 ## -struct-fields
 
-### -field FirstElement
+### -field FirstElement [in]
 
-[in] The offset, in bytes, to the first element in the buffer.
+The offset, in bytes, to the first element in the buffer.
 
-### -field ElementOffset
+### -field ElementOffset [in]
 
-[in] The offset, in bytes, to the first element in the buffer.
+The offset, in bytes, to the first element in the buffer.
 
-### -field NumElements
+### -field NumElements [in]
 
-[in] The number of elements in the buffer.
+The number of elements in the buffer.
 
-### -field ElementWidth
+### -field ElementWidth [in]
 
-[in] The width, in elements, in the buffer.
+The width, in elements, in the buffer.
 
 ## -see-also
 

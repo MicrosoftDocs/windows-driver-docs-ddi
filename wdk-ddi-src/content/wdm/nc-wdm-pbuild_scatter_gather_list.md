@@ -49,54 +49,54 @@ The <b>BuildScatterGatherList</b> routine prepares the system for a DMA operatio
 
 ## -parameters
 
-### -param DmaAdapter 
+### -param DmaAdapter [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object that represents the target device for the DMA operation.
 
-### -param Mdl 
+### -param Mdl [in]
 
-[in]
+
 Pointer to the MDL that describes the buffer specified by the <b>MdlAddress</b> member of the current IRP.
 
-### -param CurrentVa 
+### -param CurrentVa [in]
 
-[in]
+
 Pointer to the current virtual address in the MDL for the buffer to be mapped for a DMA transfer operation.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the length, in bytes, of the buffer to be mapped.
 
-### -param ExecutionRoutine 
+### -param ExecutionRoutine [in]
 
-[in]
+
 Pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_list_control">AdapterListControl</a> routine, which is called at IRQL = DISPATCH_LEVEL when the system DMA controller or bus-master adapter is available.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to the driver-determined context passed to <i>ExecutionRoutine</i> when it is called.
 
-### -param WriteToDevice 
+### -param WriteToDevice [in]
 
-[in]
+
 Indicates the direction of the DMA transfer: <b>TRUE</b> for a transfer from the buffer to the device, and <b>FALSE</b> otherwise.
 
-### -param ScatterGatherBuffer 
+### -param ScatterGatherBuffer [in]
 
-[in]
+
 Pointer to the caller-supplied buffer that the routine fills with a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure.
 
 ### -param ScatterGatherLength
 
-#### - ScatterGatherBufferLength [in]
+### -param ScatterGatherBufferLength [in]
 
 Specifies the size, in bytes, of the buffer passed in the <i>ScatterGatherBuffer</i> parameter.
 

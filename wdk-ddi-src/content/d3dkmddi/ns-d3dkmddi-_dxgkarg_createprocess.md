@@ -52,37 +52,37 @@ api_name:
 
 ## -struct-fields
 
-### -field hDxgkProcess
+### -field hDxgkProcess [in]
 
-[in] The handle to the DirectX graphics kernel process.
+The handle to the DirectX graphics kernel process.
 
-### -field hKmdProcess
+### -field hKmdProcess [out]
 
-[out] The handle to the kernel mode driver process.
+The handle to the kernel mode driver process.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_createprocessflags">DXGK_CREATEPROCESSFLAGS</a> structure describing the operation.
+A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_createprocessflags">DXGK_CREATEPROCESSFLAGS</a> structure describing the operation.
 
-### -field NumPasid
+### -field NumPasid [in]
 
-[in] The number of elements in the process address space identifier array located in the <b>pPasid</b>  member.
+The number of elements in the process address space identifier array located in the <b>pPasid</b>  member.
 
-### -field pPasid
+### -field pPasid [in]
 
-[in] A pointer to an array of process address identifiers. There will be one for each physical GPUs.
+A pointer to an array of process address identifiers. There will be one for each physical GPUs.
 
-### -field hKmdVmWorkerProcess
+### -field hKmdVmWorkerProcess [in]
 
-[in] Driver VM worker process handle when VirtualMachineProcess is set.
+Driver VM worker process handle when VirtualMachineProcess is set.
 
-### -field ProcessNameLength
+### -field ProcessNameLength [in]
 
-[in] The length of the process name.
+The length of the process name.
 
-### -field pProcessName
+### -field pProcessName [in]
 
-[in] The process name. Can be NULL.
+The process name. Can be NULL.
 
 ## -see-also
 

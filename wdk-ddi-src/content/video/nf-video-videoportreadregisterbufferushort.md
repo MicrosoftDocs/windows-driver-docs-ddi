@@ -53,9 +53,9 @@ The <b>VideoPortReadRegisterBufferUshort</b> function reads a number of USHORT v
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Pointer to a buffer into which the USHORT values are written.
 
 ### -param Count

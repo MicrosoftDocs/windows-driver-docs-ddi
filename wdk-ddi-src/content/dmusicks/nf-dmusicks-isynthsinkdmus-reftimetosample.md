@@ -49,14 +49,14 @@ The <code>RefTimeToSample</code> method converts a reference time into a sample 
 
 ## -parameters
 
-### -param rfTime 
+### -param rfTime [in]
 
-[in]
+
 Pointer to the reference time being passed in. The reference time is measured in 100-nanosecond units.
 
-### -param pllSampleTime 
+### -param pllSampleTime [out]
 
-[out]
+
 Output pointer for the sample time. This parameter points to a caller-allocated variable into which the method writes the calculated sample time.
 
 ## -returns

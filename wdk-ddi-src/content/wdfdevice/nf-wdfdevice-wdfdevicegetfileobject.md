@@ -52,14 +52,14 @@ The <b>WdfDeviceGetFileObject</b> method returns a handle to the framework file 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to a WDM <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a> structure.
 
 ## -returns

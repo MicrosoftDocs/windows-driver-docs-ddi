@@ -52,9 +52,9 @@ The <b>WDF_ABS_TIMEOUT_IN_MS</b> function converts a specified number of millise
 
 ## -parameters
 
-### -param Time 
+### -param Time [in]
 
-[in]
+
 The number of milliseconds to convert.
 
 ## -returns

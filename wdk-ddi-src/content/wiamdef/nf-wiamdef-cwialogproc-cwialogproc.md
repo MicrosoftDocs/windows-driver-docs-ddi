@@ -61,11 +61,11 @@ Defines the **INT** parameter _DetailLevel_.
 
 ### -param pszMsg
 
-#### - *pIWiaLog
+### -param *pIWiaLog
 
 Defines the **IWiaLog** parameter _*pIWiaLog_.
 
-#### - *pszMsg
+### -param *pszMsg
 
 Defines the **CHAR** parameter _*pszMsg_.
 

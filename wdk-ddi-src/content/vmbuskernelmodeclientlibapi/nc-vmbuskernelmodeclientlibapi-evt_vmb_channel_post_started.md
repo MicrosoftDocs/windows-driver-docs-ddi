@@ -52,9 +52,9 @@ the opposite endpoint.
 
 ## -parameters
 
-### -param Channel 
+### -param Channel [in]
 
-[in]
+
 The channel for these endpoints.
 
 ## -remarks

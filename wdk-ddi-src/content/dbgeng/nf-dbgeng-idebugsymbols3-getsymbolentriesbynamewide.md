@@ -49,29 +49,29 @@ The <b>GetSymbolEntriesByNameWide</b>  method returns the <a href="/windows-hard
 
 ## -parameters
 
-### -param Symbol 
+### -param Symbol [in]
 
-[in]
+
 Specifies the pattern used to determine which symbols to return.  This method returns the symbols whose name matches the <a href="/windows-hardware/drivers/debugger/string-wildcard-syntax">string wildcard syntax</a> pattern <i>Symbol</i>.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Set to zero.
 
-### -param Ids 
+### -param Ids [out, optional]
 
-[out, optional]
+
 Receives the symbols.  This is an array of <i>IdsCount</i> entries of type <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a>.  If <i>Ids</i> is <b>NULL</b>, this information is not returned.
 
-### -param IdsCount 
+### -param IdsCount [in]
 
-[in]
+
 Specifies the number of entries that the array <i>Ids</i> can hold.
 
-### -param Entries 
+### -param Entries [out, optional]
 
-[out, optional]
+
 Receives the number of symbols whose names match the pattern <i>Symbol</i>.  If <i>entries</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

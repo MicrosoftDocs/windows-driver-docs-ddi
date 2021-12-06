@@ -49,14 +49,14 @@ An AVStream minidriver's <i>AVStrMiniFilterProcess</i> routine is called when th
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure that must process frames.
 
 ### -param Index
 
-#### - ProcessPinsIndex [in]
+### -param ProcessPinsIndex [in]
 
 Pointer to an array of <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin_indexentry">KSPROCESSPIN_INDEXENTRY</a> structures that AVStream orders by pin ID.
 

@@ -50,14 +50,14 @@ The <b>KsDispatchSetSecurity</b> function is used in the KSDISPATCH_TABLE.SetSec
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Specifies the device object associated with the IRP.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Specifies the IRP that is being handled.
 
 ## -returns

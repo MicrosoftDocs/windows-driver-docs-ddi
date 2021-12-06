@@ -49,9 +49,9 @@ The <b>KeTryToAcquireSpinLockAtDpcLevel</b> routine attempts to acquire a spin l
 
 ## -parameters
 
-### -param SpinLock 
+### -param SpinLock [in, out]
 
-[in, out]
+
 Specifies the spin lock to acquire. The spin lock must have already been initialized by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>.
 
 ## -returns

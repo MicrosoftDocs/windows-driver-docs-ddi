@@ -49,14 +49,14 @@ The <b>GetDataParameters</b> method returns the parameters for a processor break
 
 ## -parameters
 
-### -param Size 
+### -param Size [out]
 
-[out]
+
 The size, in bytes, of the memory block whose access triggers the breakpoint.  For more information about restrictions on the value of <i>Size</i> based on the processor type, see <a href="/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Valid Parameters for Processor Breakpoints</a>.
 
-### -param AccessType 
+### -param AccessType [out]
 
-[out]
+
 The type of access that triggers the breakpoint.  For a list of possible values, see <a href="/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Valid Parameters for Processor Breakpoints</a>.
 
 ## -returns

@@ -51,39 +51,39 @@ The **DXGKARGCB_MAPCONTEXTALLOCATION** structure contains the arguments used in 
 
 ## -struct-fields
 
-### -field BaseAddress
+### -field BaseAddress [in]
 
-[in] (optional) If non-NULL, the video memory manager will attempt to use this address as the base address for the mapping. If the range from **BaseAddress** to **BaseAddress**+**Size** isn’t free, the call will fail. When this parameter is non-NULL, **MinimumAddress** and **MaximumAddress** are ignored.
+(optional) If non-NULL, the video memory manager will attempt to use this address as the base address for the mapping. If the range from **BaseAddress** to **BaseAddress**+**Size** isn’t free, the call will fail. When this parameter is non-NULL, **MinimumAddress** and **MaximumAddress** are ignored.
 
 If NULL is specified, the video memory manager will pick the base address for the allocation within the specified **MinimumAddress** and **MaximumAddress**.
 
-### -field MinimumAddress
+### -field MinimumAddress [in]
 
-[in] (optional) The minimum GPU virtual address to consider for the mapped range. This parameter is ignored when **BaseAddress** != **NULL**.
+(optional) The minimum GPU virtual address to consider for the mapped range. This parameter is ignored when **BaseAddress** != **NULL**.
 
-### -field MaximumAddress
+### -field MaximumAddress [in]
 
-[in] The maximum GPU virtual address to consider for the mapped range. The video memory manager will guarantee that **BaseAddress**+**Size** <= **MaximumAddress**. If this is set to **NULL** the video memory manager will not apply any limit. This parameter is ignored when **BaseAddress** != **NULL**.
+The maximum GPU virtual address to consider for the mapped range. The video memory manager will guarantee that **BaseAddress**+**Size** <= **MaximumAddress**. If this is set to **NULL** the video memory manager will not apply any limit. This parameter is ignored when **BaseAddress** != **NULL**.
 
-### -field hAllocation
+### -field hAllocation [in]
 
-[in] Handle to the allocation being mapped into the GPU virtual address space. This is a DirectX graphics kernel  handle, returned by [**DXGKCB_CREATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_createcontextallocation.md).
+Handle to the allocation being mapped into the GPU virtual address space. This is a DirectX graphics kernel  handle, returned by [**DXGKCB_CREATECONTEXTALLOCATION**](nc-d3dkmddi-dxgkcb_createcontextallocation.md).
 
-### -field OffsetInPages
+### -field OffsetInPages [in]
 
-[in] The offset, in 4KB pages, to the starting page within the specified allocation that must be mapped.
+The offset, in 4KB pages, to the starting page within the specified allocation that must be mapped.
 
-### -field SizeInPages
+### -field SizeInPages [in]
 
-[in] The size of the range to map in number of 4KB pages.
+The size of the range to map in number of 4KB pages.
 
-### -field Protection
+### -field Protection [in]
 
-[in] The protection on the GPU virtual address that is mapped.
+The protection on the GPU virtual address that is mapped.
 
-### -field DriverProtection
+### -field DriverProtection [in]
 
-[in] The driver protection parameters.
+The driver protection parameters.
 
 ## -see-also
 

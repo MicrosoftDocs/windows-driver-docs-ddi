@@ -51,7 +51,7 @@ Continues the I/O.
 
 ### -param pResult
 
-#### - pbResult [out, retval]
+### -param pbResult [out, retval]
 
 True if the I/O operation succeeded; otherwise, false.
 

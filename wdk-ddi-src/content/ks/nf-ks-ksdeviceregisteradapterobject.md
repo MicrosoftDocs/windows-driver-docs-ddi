@@ -50,27 +50,27 @@ The<b> KsDeviceRegisterAdapterObject</b> function registers a DMA adapter object
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure representing the AVStream device for which to register an adapter object.
 
-### -param AdapterObject 
+### -param AdapterObject [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the DMA controller..
 
 ### -param MaxMappingsByteCount
 
-### -param MappingTableStride 
+### -param MappingTableStride [in]
 
-[in]
+
 This parameter specifies how many bytes each entry in the mapping table requires. This must be at least <b>sizeof</b> (<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksmapping">KSMAPPING</a>) and can be as large as necessary.
 
 Additional space can be used by the minidriver as context information.
 
 
-#### - MaxMappingByteCount [in]
+### -param MaxMappingByteCount [in]
 
 This parameter specifies the maximum number of bytes that the device can handle for a single mapping. Allows AVStream to automatically break up large chunks of contiguous physical memory into multiple scatter/gather elements for devices that impose a size limit on individual mappings in DMA transfers. <i>Breaks are not guaranteed to occur on page boundaries.</i>
 

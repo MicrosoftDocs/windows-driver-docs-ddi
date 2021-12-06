@@ -52,9 +52,9 @@ The DXVADDI_PVP_KEY128 structure contains a 128-bit key that the decode device u
 
 ## -struct-fields
 
-### -field Data
+### -field Data [in]
 
-[in] An array of 16 bytes that describes the 128-bit key that is used to start decoding.
+An array of 16 bytes that describes the 128-bit key that is used to start decoding.
 
 ## -see-also
 

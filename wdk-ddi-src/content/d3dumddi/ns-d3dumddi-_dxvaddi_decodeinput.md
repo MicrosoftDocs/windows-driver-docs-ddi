@@ -52,13 +52,13 @@ The DXVADDI_DECODEINPUT structure describes a render target format that is suppo
 
 ## -struct-fields
 
-### -field pGuid
+### -field pGuid [in]
 
-[in] A pointer to the GUID that represents the DirectX VA decode type.
+A pointer to the GUID that represents the DirectX VA decode type.
 
-### -field VideoDesc
+### -field VideoDesc [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a> structure for the render target that is supported by the decode type that <b>pGuid</b> points to.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a> structure for the render target that is supported by the decode type that <b>pGuid</b> points to.
 
 ## -remarks
 

@@ -50,39 +50,39 @@ The <b>HidP_GetUsagesEx</b> routine returns a list of the all the HID control bu
 
 ## -parameters
 
-### -param ReportType 
+### -param ReportType [in]
 
-[in]
+
 Specifies a <a href="/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
 
-### -param LinkCollection 
+### -param LinkCollection [in]
 
-[in]
+
 Specifies the <a href="/windows-hardware/drivers/hid/link-collections">link collection</a> of the button usages. If <i>LinkCollection</i> is nonzero, the routine only returns information about the buttons that this link collection contains; otherwise, if <i>LinkCollection</i> is zero, the routine returns information about all the buttons in the <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> associated with <i>PreparsedData</i>.
 
-### -param ButtonList 
+### -param ButtonList [in, out]
 
-[in, out]
+
 Pointer to a caller-allocated buffer that routine uses to return the usage and <a href="/windows-hardware/drivers/hid/hid-usages">usage page</a> identifiers for each button that is set to ON (1).
 
-### -param UsageLength 
+### -param UsageLength [in, out]
 
-[in, out]
+
 Specifies, on input, the length, in array elements, of the <i>ButtonList</i> buffer. Specifies, on output, the number usages that are currently set to ON in the specified report.
 
-### -param PreparsedData 
+### -param PreparsedData [in]
 
-[in]
+
 Pointer to a top-level collection's <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
-### -param Report 
+### -param Report [in]
 
-[in]
+
 Pointer to a report that contains button data.
 
-### -param ReportLength 
+### -param ReportLength [in]
 
-[in]
+
 Specifies the length, in bytes, of the report located at <i>Report</i>.
 
 ## -returns

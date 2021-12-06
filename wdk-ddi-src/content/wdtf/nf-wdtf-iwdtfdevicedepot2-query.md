@@ -49,14 +49,14 @@ Returns a subset of the devices in the DeviceDepot.
 
 ## -parameters
 
-### -param SDEL 
+### -param SDEL [in]
 
-[in]
+
 The SDEL query string.
 
-### -param ppTargets 
+### -param ppTargets [out, retval]
 
-[out, retval]
+
 The collection of devices.
 
 ## -returns

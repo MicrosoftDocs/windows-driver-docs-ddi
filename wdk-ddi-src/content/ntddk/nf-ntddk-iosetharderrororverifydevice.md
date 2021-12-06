@@ -49,14 +49,14 @@ Lower-level drivers call the <b>IoSetHardErrorOrVerifyDevice</b> routine to iden
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Pointer to the IRP for which the driver encountered a user-induced error.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the target device to be verified for the I/O operation.
 
 ## -remarks

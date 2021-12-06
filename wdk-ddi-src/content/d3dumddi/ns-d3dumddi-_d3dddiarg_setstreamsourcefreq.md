@@ -52,13 +52,13 @@ The D3DDDIARG_SETSTREAMSOURCEFREQ structure describes how the frequency divisor 
 
 ## -struct-fields
 
-### -field Stream
+### -field Stream [in]
 
-[in] The stream source to divide, which is a value between zero and the maximum number of streams that are specified by the driver.
+The stream source to divide, which is a value between zero and the maximum number of streams that are specified by the driver.
 
-### -field Divider
+### -field Divider [in]
 
-[in] The frequency divisor of the portion of the vertex stream.
+The frequency divisor of the portion of the vertex stream.
 
 ## -see-also
 

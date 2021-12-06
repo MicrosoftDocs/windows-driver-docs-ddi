@@ -49,8 +49,6 @@ Gets the namespace URI  value of the name attribute of this node.
 
 This property is read-only.
 
-## -parameters
-
 ## -see-also
 
 [IPrintSchemaElement](./nn-printerextension-iprintschemaelement.md)

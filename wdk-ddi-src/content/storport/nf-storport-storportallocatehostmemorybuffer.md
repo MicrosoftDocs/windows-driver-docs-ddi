@@ -48,45 +48,45 @@ api_name:
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] A pointer to the hardware device extension for the host bus adapter (HBA).
+A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param MinimumBytes
+### -param MinimumBytes [in]
 
-[in] The minimum amount of memory that will be useful to the device, in bytes. A value of 0 indicates that any size of memory up to the preferred size is acceptable.
+The minimum amount of memory that will be useful to the device, in bytes. A value of 0 indicates that any size of memory up to the preferred size is acceptable.
 
-### -param PreferredBytes
+### -param PreferredBytes [in]
 
-[in] The amount of memory the device prefers, in bytes.  This must be a multiple of the page size.
+The amount of memory the device prefers, in bytes.  This must be a multiple of the page size.
 
-### -param UtilizationBytes
+### -param UtilizationBytes [in]
 
-[in] The total number of blocks allocated on the device, in bytes.
+The total number of blocks allocated on the device, in bytes.
 
-### -param AlignmentBytes
+### -param AlignmentBytes [in]
 
-[in] The Host Memory Buffer alignment requirement from the device.
+The Host Memory Buffer alignment requirement from the device.
 
-### -param LowestAcceptableAddress
+### -param LowestAcceptableAddress [in]
 
-[in] The lowest physical address that is valid for the allocation. For example, if the device can only reference physical memory in the 8 MB to 16 MB range, this value would be set to 0x800000 (8 MB).
+The lowest physical address that is valid for the allocation. For example, if the device can only reference physical memory in the 8 MB to 16 MB range, this value would be set to 0x800000 (8 MB).
 
-### -param HighestAcceptableAddress
+### -param HighestAcceptableAddress [in]
 
-[in] The highest physical address that is valid for the allocation. For example, if the device can only reference physical memory below 16 MB, this value would be set to 0xFFFFFF (16 MB - 1).
+The highest physical address that is valid for the allocation. For example, if the device can only reference physical memory below 16 MB, this value would be set to 0xFFFFFF (16 MB - 1).
 
-### -param BoundaryAddressMultiple
+### -param BoundaryAddressMultiple [in, optional]
 
-[in, optional] The physical address multiple that this allocation must not cross. This parameter is currently not used and must be set to 0.
+The physical address multiple that this allocation must not cross. This parameter is currently not used and must be set to 0.
 
-### -param PhysicalAddressRanges
+### -param PhysicalAddressRanges [in, out]
 
-[in, out] An array of physical address ranges that make up the Host Memory Buffer. The caller should provide a pre-allocated array. **StorPortAllocateHostMemoryBuffer** will fill in the array with one or more physical address ranges.
+An array of physical address ranges that make up the Host Memory Buffer. The caller should provide a pre-allocated array. **StorPortAllocateHostMemoryBuffer** will fill in the array with one or more physical address ranges.
 
-### -param PhysicalAddressRangeCount
+### -param PhysicalAddressRangeCount [in, out]
 
-[in, out] The number of entries in **PhysicalAddressRanges**. This function will update this parameter to indicate how many physical address ranges it filled in.
+The number of entries in **PhysicalAddressRanges**. This function will update this parameter to indicate how many physical address ranges it filled in.
 
 ## -returns
 

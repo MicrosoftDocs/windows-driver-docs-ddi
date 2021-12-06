@@ -50,9 +50,9 @@ The <b>AuxKlibEnumerateSystemFirmwareTables</b> routine enumerates all system fi
 
 ## -parameters
 
-### -param FirmwareTableProviderSignature 
+### -param FirmwareTableProviderSignature [in]
 
-[in]
+
 The identifier of the firmware table provider to which the query is to be directed. This parameter can be one of the following values.
 
 <table>
@@ -92,19 +92,19 @@ The raw SMBIOS firmware table provider.
 </tr>
 </table>
 
-### -param FirmwareTableBuffer 
+### -param FirmwareTableBuffer [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated buffer to which the routine writes the list of firmware tables. If this parameter is NULL, the value written to *<i>ReturnLength</i> is the required buffer size. For more information about the contents of this buffer, see the Remarks section.
 
-### -param BufferLength 
+### -param BufferLength [in]
 
-[in]
+
 The size, in bytes, of the buffer pointed to by <i>FirmwareTableBuffer</i>.
 
-### -param ReturnLength 
+### -param ReturnLength [out, optional]
 
-[out, optional]
+
 A pointer to a location to which the routine writes the number of bytes of data written to the buffer pointed to by <i>FirmwareTableBuffer</i>.
 
 ## -returns

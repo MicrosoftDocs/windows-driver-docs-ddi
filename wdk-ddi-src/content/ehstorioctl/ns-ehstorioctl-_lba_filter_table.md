@@ -90,7 +90,7 @@ The size in bytes of a filter table entry. This must be set to <b>sizeof</b>(LBA
 
 
 
-#### - LbaFilterOffset
+### -field LbaFilterOffset
 
 The offset of the LBA filter table from the beginning of this structure. This will typically be <b>sizeof</b>(LBA_FILTER_TABLE).
 

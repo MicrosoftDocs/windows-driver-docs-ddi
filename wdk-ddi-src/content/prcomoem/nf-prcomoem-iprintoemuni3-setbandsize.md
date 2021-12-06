@@ -49,14 +49,14 @@ The <code>IPrintOemUni3::SetBandSize</code> method can be used with Unidrv-suppo
 
 ## -parameters
 
-### -param pdevobj 
+### -param pdevobj [in]
 
-[in]
+
 A caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
-### -param iFormat 
+### -param iFormat [in]
 
-[in]
+
 An integer value that specifies the format of the bitmap in terms of the number of bits of color information per pixel that are required. This parameter can be one of the following values.
 
 <table>
@@ -146,24 +146,24 @@ Monochrome
 </tr>
 </table>
 
-### -param dwPageWidthBytes 
+### -param dwPageWidthBytes [in]
 
-[in]
+
 A Unidrv-supplied value that specifies the width of the printing area, in bytes.
 
-### -param dwPageHeight 
+### -param dwPageHeight [in]
 
-[in]
+
 A Unidrv-supplied value that specifies the height of the printing area, in pixels.
 
-### -param dwMaxHeight 
+### -param dwMaxHeight [in]
 
-[in]
+
 A Unidrv-supplied value that specifies the maximum allowable height of the printing area, in pixels.
 
-### -param pdwRequiredHeight 
+### -param pdwRequiredHeight [in]
 
-[in]
+
 A caller-supplied pointer to a DWORD that contains the height of the printing area, in pixels, required by the rendering plug-in.
 
 ## -returns

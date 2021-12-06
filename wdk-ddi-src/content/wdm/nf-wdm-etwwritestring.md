@@ -49,29 +49,29 @@ The <b>EventWriteString</b> function is a tracing function that you can use when
 
 ## -parameters
 
-### -param RegHandle 
+### -param RegHandle [in]
 
-[in]
+
 A Pointer to the event provider registration handle, which is returned by the <b>EtwRegister</b> function if the event provider registration is successful.
 
-### -param Level 
+### -param Level [in]
 
-[in]
+
 The level at which the event is active.
 
-### -param Keyword 
+### -param Keyword [in]
 
-[in]
+
 The keyword for the event. A keyword is a bitmask that makes general statements about the category of the event or error. Because the keyword is a bitmask, you can apply more than one keyword to a single event. You can define the keywords and bit positions, or you can use Windows-standard keywords, or you can use combination of your own keywords and the Windows keywords.
 
-### -param ActivityId 
+### -param ActivityId [in, optional]
 
-[in, optional]
+
 The identifier that indicates the activity associated with the event. The <i>ActivityId</i> provides a way to group related events and is used in end-to-end tracing. This identifier is optional and can be <b>NULL</b>.
 
-### -param String 
+### -param String [in]
 
-[in]
+
 A null-terminated string (WCHAR).
 
 ## -returns

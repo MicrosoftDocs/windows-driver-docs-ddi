@@ -49,14 +49,14 @@ The <b>SerCx2PioTransmitPurgeFifoComplete</b> method notifies version 2 of the s
 
 ## -parameters
 
-### -param PioTransmit 
+### -param PioTransmit [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a> method to create this object.
 
-### -param BytesPurged 
+### -param BytesPurged [in]
 
-[in]
+
 The number of bytes of unsent data that the serial controller driver purged from the transmit FIFO.
 
 ## -remarks

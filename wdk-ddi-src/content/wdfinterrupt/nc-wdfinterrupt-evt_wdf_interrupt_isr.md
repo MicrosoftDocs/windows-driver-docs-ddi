@@ -51,14 +51,14 @@ A driver's <i>EvtInterruptIsr</i> event callback function services a hardware in
 
 ## -parameters
 
-### -param Interrupt 
+### -param Interrupt [in]
 
-[in]
+
 A handle to a framework interrupt object.
 
-### -param MessageID 
+### -param MessageID [in]
 
-[in]
+
 If the device is using message-signaled interrupts (MSIs), this parameter is the message number that identifies the device's hardware interrupt message. Otherwise, this value is 0.
 
 ## -returns

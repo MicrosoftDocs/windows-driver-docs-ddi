@@ -49,9 +49,9 @@ Waits for specified wait objects, including a vertical blank event, to occur and
 
 ## -parameters
 
-### -param D3DKMT_WAITFORVERTICALBLANKEVENT2
+### -param D3DKMT_WAITFORVERTICALBLANKEVENT2 [in]
 
-[in] Specifies parameters for waiting on multiple wait objects, including a vertical blank event.
+Specifies parameters for waiting on multiple wait objects, including a vertical blank event.
 
 ## -returns
 

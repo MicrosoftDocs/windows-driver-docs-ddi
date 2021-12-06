@@ -49,9 +49,9 @@ The <b>KeQueryInterruptTimePrecise</b> routine returns the current value of the 
 
 ## -parameters
 
-### -param QpcTimeStamp 
+### -param QpcTimeStamp [out]
 
-[out]
+
 A pointer to a ULONG64 variable into which the routine writes the performance counter value used to interpolate the return value.
 
 ## -returns

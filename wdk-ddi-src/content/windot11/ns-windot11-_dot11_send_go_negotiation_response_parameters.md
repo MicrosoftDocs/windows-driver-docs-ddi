@@ -131,7 +131,7 @@ The offset, in bytes,  of the array of additional IEs that the Wi-Fi Direct (WFD
 The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 
-#### - ResponseContext
+### -field ResponseContext
 
 Miniport context data included in the <a href="/windows-hardware/drivers/network/ndis-status-dot11-wfd-received-go-negotiation-request">NDIS_STATUS_DOT11_WFD_RECEIVED_GO_NEGOTIATION_REQUEST</a> indication.
 

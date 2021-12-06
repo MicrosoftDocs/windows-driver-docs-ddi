@@ -49,9 +49,9 @@ The <b>KeDeregisterBugCheckCallback</b> routine removes a callback routine that 
 
 ## -parameters
 
-### -param CallbackRecord 
+### -param CallbackRecord [in, out]
 
-[in, out]
+
 Pointer to a <a href="/windows-hardware/drivers/kernel/eprocess">KBUGCHECK_CALLBACK_RECORD</a> structure. <i>CallbackRecord</i> must be the same value that was passed to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckcallback">KeRegisterBugCheckCallback</a> when the callback was registered.
 
 ## -returns

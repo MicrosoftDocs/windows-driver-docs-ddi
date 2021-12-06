@@ -49,14 +49,14 @@ The <b>MmSetAddressRangeModified</b> routine marks currently valid pages in the 
 
 ## -parameters
 
-### -param Address 
+### -param Address [in]
 
-[in]
+
 Address of the start of the range.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Length of the range in bytes.
 
 ## -returns

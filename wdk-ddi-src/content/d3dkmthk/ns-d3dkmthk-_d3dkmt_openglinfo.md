@@ -52,17 +52,17 @@ The D3DKMT_OPENGLINFO structure describes OpenGL installable client driver (ICD)
 
 ## -struct-fields
 
-### -field UmdOpenGlIcdFileName
+### -field UmdOpenGlIcdFileName [out]
 
-[out] An array of wide characters that contains the file name of the OpenGL ICD.
+An array of wide characters that contains the file name of the OpenGL ICD.
 
-### -field Version
+### -field Version [out]
 
-[out] The version of the OpenGL ICD.
+The version of the OpenGL ICD.
 
-### -field Flags
+### -field Flags [in]
 
-[in] This member is currently unused.
+This member is currently unused.
 
 ## -see-also
 

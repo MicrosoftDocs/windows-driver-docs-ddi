@@ -51,19 +51,19 @@ The WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function initializes a <a href="/wi
 
 ## -parameters
 
-### -param Params 
+### -param Params [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfdriver/ns-wdfdriver-_wdf_driver_version_available_params">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a> structure.
 
-### -param MajorVersion 
+### -param MajorVersion [in]
 
-[in]
+
 A numeric value that represents the Kernel-Mode Driver Framework library's major version number.
 
-### -param MinorVersion 
+### -param MinorVersion [in]
 
-[in]
+
 A numeric value that represents the Kernel-Mode Driver Framework library's minor version number.
 
 ## -remarks

@@ -52,21 +52,21 @@ The D3DKMT_ADAPTERREGISTRYINFO structure contains registry information about the
 
 ## -struct-fields
 
-### -field AdapterString
+### -field AdapterString [out]
 
-[out] A string that contains the name of the graphics adapter.
+A string that contains the name of the graphics adapter.
 
-### -field BiosString
+### -field BiosString [out]
 
-[out] A string that contains the name of the BIOS for the graphics adapter.
+A string that contains the name of the BIOS for the graphics adapter.
 
-### -field DacType
+### -field DacType [out]
 
-[out] A string that contains the DAC type for the graphics adapter.
+A string that contains the DAC type for the graphics adapter.
 
-### -field ChipType
+### -field ChipType [out]
 
-[out] A string that contains the chip type for the graphics adapter.
+A string that contains the chip type for the graphics adapter.
 
 ## -see-also
 

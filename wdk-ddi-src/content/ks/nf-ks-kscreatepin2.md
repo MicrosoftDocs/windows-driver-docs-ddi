@@ -51,24 +51,24 @@ Supported starting in Windows 8.
 
 ## -parameters
 
-### -param FilterHandle 
+### -param FilterHandle [in]
 
-[in]
+
 Specifies the handle of the filter initiating the create request and where the connection will occur.
 
-### -param Connect 
+### -param Connect [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kspin_connect">KSPIN_CONNECT</a> structure that contains parameters for the requested connection. This should be followed in memory by a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> data structure, describing the data format requested for the connection.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 Specifies the access desired to the pin. This is typically <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b>. For data flowing into the pin this value should be set to <b>GENERIC_WRITE</b>, and for data flowing out of the pin this should be set to <b>GENERIC_READ</b> regardless of the communication method.
 
-### -param ConnectionHandle 
+### -param ConnectionHandle [out]
 
-[out]
+
 Specifies the connection handle passed. The routine fills this in with a handle to the file object of the created connection. This value can then be used to disconnect with the <a href="/windows/win32/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
 
 ## -returns

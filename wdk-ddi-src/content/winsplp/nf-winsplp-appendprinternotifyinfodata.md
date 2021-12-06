@@ -49,9 +49,9 @@ The print spooler's <b>AppendPrinterNotifyInfoData</b> function adds the content
 
 ## -parameters
 
-### -param pInfoDest 
+### -param pInfoDest [in]
 
-[in]
+
 Caller-supplied pointer to a PRINTER_NOTIFY_INFO structure (defined in the Microsoft Windows SDK documentation).
 
 ### -param pDataSrc
@@ -69,7 +69,7 @@ Caller-supplied flags. The following flag is defined.
 If set, the function examines the <b>Type</b>, <b>Field</b>, and <b>Id</b> members of the supplied PRINTER_NOTIFY_INFO_DATA structure. If they all match an existing element of the PRINTER_NOTIFY_INFO_DATA structure array, the existing element is overwritten with the supplied element. If a match is not found, the function adds the specified structure to the end of the array.
 
 
-#### - pInfoDataSrc [in, optional]
+### -param pInfoDataSrc [in, optional]
 
 Caller-supplied pointer to a PRINTER_NOTIFY_INFO_DATA structure (defined in the Windows SDK documentation).
 

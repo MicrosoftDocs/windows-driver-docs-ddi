@@ -48,17 +48,17 @@ The **FsRtlAllocateExtraCreateParameter** routine allocates memory for an extra 
 
 ## -parameters
 
-### -param EcpType
+### -param EcpType [in]
 
-[in] A pointer to a GUID that indicates the type of the ECP context structure.  See [Using GUIDs in Drivers](/windows-hardware/drivers/kernel/using-guids-in-drivers) for more information.
+A pointer to a GUID that indicates the type of the ECP context structure.  See [Using GUIDs in Drivers](/windows-hardware/drivers/kernel/using-guids-in-drivers) for more information.
 
-### -param SizeOfContext
+### -param SizeOfContext [in]
 
-[in] The size, in bytes, of the context structure.
+The size, in bytes, of the context structure.
 
-### -param Flags
+### -param Flags [in]
 
-[in] Defines pool allocation options.  The following describes how pool will be allocated when one or more of the listed flag values are combined with the *Flags* parameter by using a bitwise OR operation:  
+Defines pool allocation options.  The following describes how pool will be allocated when one or more of the listed flag values are combined with the *Flags* parameter by using a bitwise OR operation:  
 
 * FSRTL_ALLOCATE_ECP_FLAG_NONPAGED_POOL - Non-paged pool will be allocated.  If this flag value is not used, paged pool will be allocated.
 
@@ -66,17 +66,17 @@ The **FsRtlAllocateExtraCreateParameter** routine allocates memory for an extra 
 
 If more than one flag is used, all of the effects associated with the utilized flag values will occur.
 
-### -param CleanupCallback
+### -param CleanupCallback [in, optional]
 
-[in, optional] Optional pointer to a filter-defined cleanup callback routine of type [PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK](/previous-versions/ff551124(v=vs.85)).  The cleanup callback routine is called when the ECP structure (created by the **FsRtlAllocateExtraCreateParameter** routine) is deleted.  Set this parameter to **NULL** if a cleanup callback routine is not applicable.
+Optional pointer to a filter-defined cleanup callback routine of type [PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK](/previous-versions/ff551124(v=vs.85)).  The cleanup callback routine is called when the ECP structure (created by the **FsRtlAllocateExtraCreateParameter** routine) is deleted.  Set this parameter to **NULL** if a cleanup callback routine is not applicable.
 
-### -param PoolTag
+### -param PoolTag [in]
 
-[in] Specifies the pool tag for the allocated memory. For more information, see the *Tag* parameter of [ExAllocatePoolWithTag](../wdm/nf-wdm-exallocatepoolwithtag.md).
+Specifies the pool tag for the allocated memory. For more information, see the *Tag* parameter of [ExAllocatePoolWithTag](../wdm/nf-wdm-exallocatepoolwithtag.md).
 
-### -param EcpContext
+### -param EcpContext [out]
 
-[out] Receives a pointer to the allocated ECP context structure.  If the routine failed to allocate sufficient pool, the value pointed to by *EcpContext* will be **NULL** and **FsRtlAllocateExtraCreateParameter** will return status code STATUS_INSUFFICIENT_RESOURCES.
+Receives a pointer to the allocated ECP context structure.  If the routine failed to allocate sufficient pool, the value pointed to by *EcpContext* will be **NULL** and **FsRtlAllocateExtraCreateParameter** will return status code STATUS_INSUFFICIENT_RESOURCES.
 
 ## -returns
 

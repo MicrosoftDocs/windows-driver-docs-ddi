@@ -51,25 +51,25 @@ The <b>ReadFromHardware</b> method is used internally by the framework. Do not u
 
 ## -parameters
 
-### -param Type 
+### -param Type [in]
 
-[in]
 
-### -param Size 
 
-[in]
+### -param Size [in]
 
-### -param Address 
 
-[in]
 
-### -param Buffer 
+### -param Address [in]
 
-[out]
 
-### -param Count 
 
-[in, optional]
+### -param Buffer [out]
+
+
+
+### -param Count [in, optional]
+
+
 
 ## -see-also
 

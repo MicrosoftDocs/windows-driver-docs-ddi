@@ -4,7 +4,7 @@ title: _BRB_L2CA_OPEN_ENHANCED_CHANNEL (bthddi.h)
 description: The _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure is used to open an enhanced L2CAP channel to a remote device, or send a response for accepting/rejecting an incoming enhanced L2CAP connection request that was initiated by a remote device.
 old-location: bltooth\_brb_l2ca_open_enhanced_channel.htm
 tech.root: bltooth
-ms.date: 05/12/2021
+ms.date: 11/30/2021
 keywords: ["BRB_L2CA_OPEN_ENHANCED_CHANNEL structure"]
 ms.keywords: BRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], PBRB_L2CA_OPEN_ENHANCED_CHANNEL, PBRB_L2CA_OPEN_ENHANCED_CHANNEL structure pointer [Bluetooth Devices], _BRB_L2CA_OPEN_ENHANCED_CHANNEL, _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_open_enhanced_channel, bltooth.brb_l2ca_open_enhanced_channel, bthddi/PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/_BRB_L2CA_OPEN_ENHANCED_CHANNEL
 req.header: bthddi.h
@@ -230,10 +230,6 @@ Specifies the incoming queue length in message transfer units (MTUs).
 ### -field Reserved
 
 Reserved member. Do not use.
-
-#### - ( unnamed struct )
-
-A [BRB_HEADER](./ns-bthddi-_brb_header.md) structure that contains information about the current BRB.
 
 #### Response
 

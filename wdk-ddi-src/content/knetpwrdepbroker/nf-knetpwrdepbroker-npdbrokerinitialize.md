@@ -49,13 +49,16 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ## -parameters
 
-### -param ulClientID 
+### -param ulClientID [in]
 
-[in]
+
 Reserved.
 
-### -param phBroker 
+### -param phBroker [out]
 
-[out]
+
 Reserved.
 
+## -returns
+
+Returns STATUS_SUCCESS if the operation completes successfully.

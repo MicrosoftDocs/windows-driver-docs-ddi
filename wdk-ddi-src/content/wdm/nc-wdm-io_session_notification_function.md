@@ -49,34 +49,34 @@ The IO_SESSION_NOTIFICATION_FUNCTION function type defines a callback routine th
 
 ## -parameters
 
-### -param SessionObject 
+### -param SessionObject [in]
 
-[in]
+
 Pointer to an opaque, system object that contains information about the user session. The driver can pass this pointer value to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a> routine as the <i>ContainerObject</i> parameter value.
 
-### -param IoObject 
+### -param IoObject [in]
 
-[in]
+
 Pointer to an I/O object owned by the driver. This parameter is the I/O object pointer that the driver supplied to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregistercontainernotification">IoRegisterContainerNotification</a> routine when the driver previously registered to receive notifications of session events. The <b>IoRegisterContainerNotification</b> routine's <i>NotificationInformation</i> parameter points to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_notification">IO_SESSION_STATE_NOTIFICATION</a> structure whose <b>IoObject</b> member points to the I/O object.
 
-### -param Event 
+### -param Event [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_event">IO_SESSION_EVENT</a> enumeration constant that indicates which session event caused the notification callback.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 The context value that the driver previously supplied to the <b>IoRegisterContainerNotification</b> routine when the driver registered to receive notifications of session events. In the <b>IoRegisterContainerNotification</b> call, the driver supplied a pointer to an <b>IO_SESSION_STATE_NOTIFICATION</b> structure whose <b>Context</b> member contains the context value.
 
-### -param NotificationPayload 
+### -param NotificationPayload [in]
 
-[in]
+
 Pointer to a payload buffer that contains an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_connect_info">IO_SESSION_CONNECT_INFO</a> structure.
 
-### -param PayloadLength 
+### -param PayloadLength [in]
 
-[in]
+
 The size, in bytes, of the buffer pointed to by <i>NotificationPayload</i>. The buffer size never needs exceeds the constant value IO_SESSION_MAX_PAYLOAD_SIZE, which is defined in the Wdm.h header file.
 
 ## -returns

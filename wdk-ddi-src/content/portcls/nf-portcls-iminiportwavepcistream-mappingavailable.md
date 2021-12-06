@@ -47,8 +47,6 @@ api_name:
 
 The <code>MappingAvailable</code> method indicates that a new mapping is available.
 
-## -parameters
-
 ## -remarks
 
 The port driver calls the <code>MappingAvailable</code> method to notify the miniport driver that a new mapping has become available, but it does so only when the miniport driver's previous request for mapping through <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavepcistream-getmapping">IPortWavePciStream::GetMapping</a> has been refused.

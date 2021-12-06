@@ -50,9 +50,9 @@ A print processor's <b>ClosePrintProcessor</b> function completes the printing o
 
 ## -parameters
 
-### -param hPrintProcessor 
+### -param hPrintProcessor [in, out]
 
-[in, out]
+
 Caller-supplied print processor handle. This is the handle returned by a previous call to <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>.
 
 ## -returns

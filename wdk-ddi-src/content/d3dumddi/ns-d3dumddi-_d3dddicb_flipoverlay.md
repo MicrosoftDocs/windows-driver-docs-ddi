@@ -52,21 +52,21 @@ The D3DDDICB_FLIPOVERLAY structure describes a new allocation to display for the
 
 ## -struct-fields
 
-### -field hKernelOverlay
+### -field hKernelOverlay [in]
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlaycb">pfnCreateOverlayCb</a> function and that identifies the kernel-mode overlay object to be flipped.
+A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlaycb">pfnCreateOverlayCb</a> function and that identifies the kernel-mode overlay object to be flipped.
 
-### -field hSource
+### -field hSource [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the source allocation to be displayed.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the source allocation to be displayed.
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [in]
 
-[in] A pointer to a block of private data, which is passed from the user-mode display driver to the display miniport driver.
+A pointer to a block of private data, which is passed from the user-mode display driver to the display miniport driver.
 
-### -field PrivateDriverDataSize
+### -field PrivateDriverDataSize [in]
 
-[in] The size, in bytes, of the block of private data that is pointed to by <b>pPrivateDriverData</b>.
+The size, in bytes, of the block of private data that is pointed to by <b>pPrivateDriverData</b>.
 
 ## -see-also
 

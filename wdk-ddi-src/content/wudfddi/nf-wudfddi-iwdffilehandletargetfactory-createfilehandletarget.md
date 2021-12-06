@@ -51,14 +51,14 @@ The <b>CreateFileHandleTarget</b> method creates a file-handle-based I/O target 
 
 ## -parameters
 
-### -param hTarget 
+### -param hTarget [in]
 
-[in]
+
 A handle to the target device. The handle must have been previously opened with the FILE_FLAG_OVERLAPPED flag. For example, FILE_FLAG_OVERLAPPED must have been specified in the <i>dwFlagsAndAttributes</i> parameter of the Microsoft Win32 <b>CreateFile</b> function.
 
-### -param ppTarget 
+### -param ppTarget [out]
 
-[out]
+
 A pointer to a location that receives a pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a> interface of the I/O target object.
 
 ## -returns

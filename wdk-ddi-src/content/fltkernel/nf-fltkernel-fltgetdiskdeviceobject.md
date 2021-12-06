@@ -48,13 +48,13 @@ The **FltGetDiskDeviceObject** routine returns a pointer to the disk device obje
 
 ## -parameters
 
-### -param Volume
+### -param Volume [in]
 
-[in] Opaque pointer for the volume. This parameter is required and cannot be **NULL**.
+Opaque pointer for the volume. This parameter is required and cannot be **NULL**.
 
-### -param DiskDeviceObject
+### -param DiskDeviceObject [out]
 
-[out] Pointer to a caller-allocated variable that receives the device object pointer. On any error, this parameter is not modified.
+Pointer to a caller-allocated variable that receives the device object pointer. On any error, this parameter is not modified.
 
 ## -returns
 

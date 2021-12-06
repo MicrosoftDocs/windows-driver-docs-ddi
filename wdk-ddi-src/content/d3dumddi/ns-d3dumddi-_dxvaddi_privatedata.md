@@ -52,13 +52,13 @@ The DXVADDI_PRIVATEDATA structure describes data that is required for a particul
 
 ## -struct-fields
 
-### -field pData
+### -field pData [in]
 
-[in] A pointer to a buffer that contains decoder data.
+A pointer to a buffer that contains decoder data.
 
-### -field DataSize
+### -field DataSize [in]
 
-[in] The size, in bytes, of the buffer that is pointed to by <b>pData</b>.
+The size, in bytes, of the buffer that is pointed to by <b>pData</b>.
 
 ## -see-also
 

@@ -49,9 +49,9 @@ The <b>GetRadix</b> method returns the default radix (number base) used by the <
 
 ## -parameters
 
-### -param Radix 
+### -param Radix [out]
 
-[out]
+
 Receives the default radix.
 
 ## -returns

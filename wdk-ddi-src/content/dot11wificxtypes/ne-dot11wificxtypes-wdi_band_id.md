@@ -1,17 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_BAND_ID
 tech.root: netvista
-title: WDI_BAND_ID
-ms.date: 04/30/2021
+title: WDI_BAND_ID (dot11wificxtypes.h)
+ms.date: 06/22/2021
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WDI_BAND_ID enumeration for internal use only. Don't use this enumeration in your code."
+description: The WDI_BAND_ID enumeration is a UINT32 value that defines a band ID.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 11Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -36,50 +37,50 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WDI_BAND_ID** enumeration is a UINT32 value that defines a band ID.
 
 ## -enum-fields
 
-### -field WDI_BAND_ID_UNKNOWN
+### -field WDI_BAND_ID_UNKNOWN:0
 
-Reserved.
+The band ID is unknown.
 
-### -field WDI_BAND_ID_2400
+### -field WDI_BAND_ID_2400:1
 
-Reserved.
+2.4 GHz.
 
-### -field WDI_BAND_ID_5000
+### -field WDI_BAND_ID_5000:2
 
-Reserved.
+5 GHz.
 
-### -field WDI_BAND_ID_60000
+### -field WDI_BAND_ID_60000:3
 
-Reserved.
+60 GHz.
 
-### -field WDI_BAND_ID_900
+### -field WDI_BAND_ID_900:4
 
-Reserved.
+900 GHz.
 
-### -field WDI_BAND_ID_6000
+### -field WDI_BAND_ID_6000:6
 
-Reserved.
+6 GHz.
 
-### -field WDI_BAND_ID_IHV_CUSTOM_START
+### -field WDI_BAND_ID_IHV_CUSTOM_START:0x80000000
 
-Reserved.
+Specifies the start of the range that is used to define a band ID reported by an IHV.
 
-### -field WDI_BAND_ID_IHV_CUSTOM_END
+### -field WDI_BAND_ID_IHV_CUSTOM_END:0x81000000
 
-Reserved.
+Specifies the end of the range that is used to define a band ID reported by an IHV.
 
-### -field WDI_BAND_ID_ANY
+### -field WDI_BAND_ID_ANY:0xFFFFFFFF
 
-Reserved.
+All bands. 
 
 ## -remarks
 
+The **WDI_BAND_ID** enum is a value in the [**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters) TLV.
+
 ## -see-also
 
+[**WDI_TLV_ASSOCIATION_RESULT_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-association-result-parameters)

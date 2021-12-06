@@ -58,8 +58,8 @@ Updates the target device with a driver from the driver package.
 
 
 
-### -param pDp 
-[in]
+### -param pDp [in]
+
 The driver package.
 
 
@@ -70,7 +70,7 @@ The driver package.
 
 
 
-#### - pbRebootRequired [out, retval]
+### -param pbRebootRequired [out, retval]
 
 True if the device must reboot after the update; otherwise, false.
 

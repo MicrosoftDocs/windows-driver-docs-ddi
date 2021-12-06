@@ -52,9 +52,9 @@ Supplies information for  enumerating all graphics adapters on the system.
 
 ## -struct-fields
 
-### -field NumAdapters
+### -field NumAdapters [in]
 
-[in] The number of graphics adapters.
+The number of graphics adapters.
 
 ### -field Adapters
 

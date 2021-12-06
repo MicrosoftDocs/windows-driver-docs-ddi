@@ -53,19 +53,19 @@ The **WdfDeviceStopIdleWithTag** macro increments the power reference count for 
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param WaitForD0 
+### -param WaitForD0 [in]
 
-[in]
+
 A Boolean value that indicates when **WdfDeviceStopIdleWithTag** will return. If **TRUE**, it returns only after the specified device has entered the D0 device power state. If **FALSE**, the method returns immediately.
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 A driver-defined value that the framework stores as an identification tag for the power reference.
 
 ## -syntax

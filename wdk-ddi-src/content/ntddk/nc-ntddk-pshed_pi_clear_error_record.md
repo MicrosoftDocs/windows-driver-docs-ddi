@@ -49,19 +49,19 @@ A PSHED plug-in's <i>ClearErrorRecord </i>callback function clears the specified
 
 ## -parameters
 
-### -param PluginContext 
+### -param PluginContext [in, out, optional]
 
-[in, out, optional]
+
 A pointer to the context area that was specified in the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure when the PSHED plug-in called the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a> function to register itself with the PSHED.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bit-wise OR'ed combination of flags that affect the clear operation. No flags are currently defined.
 
-### -param ErrorRecordId 
+### -param ErrorRecordId [in]
 
-[in]
+
 The identifier of the error record that is being cleared from the system's persistent data storage. This identifier should be compared to the <b>Header.RecordId</b> member of each <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a> structure that has been written to the system's persistent data storage to identify the error record to be cleared.
 
 ## -returns

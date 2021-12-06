@@ -49,19 +49,19 @@ The <b>KeSynchronizeExecution</b> routine synchronizes the execution of the spec
 
 ## -parameters
 
-### -param Interrupt 
+### -param Interrupt [in, out]
 
-[in, out]
+
 A pointer to a set of interrupt objects. The caller obtained this pointer from the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> routine.
 
-### -param SynchronizeRoutine 
+### -param SynchronizeRoutine [in]
 
-[in]
+
 Specifies a caller-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ksynchronize_routine">SynchCritSection</a> routine whose execution is to be synchronized with the execution of the ISR assigned to the interrupt objects.
 
-### -param SynchronizeContext 
+### -param SynchronizeContext [in, optional]
 
-[in, optional]
+
 A pointer to a caller-supplied context value to be passed to the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ksynchronize_routine">SynchCritSection</a> routine when it is called.
 
 ## -returns

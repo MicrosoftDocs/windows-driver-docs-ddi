@@ -51,14 +51,14 @@ The <b>ScsiPortWriteRegisterUlong</b> routine transfers a ULONG value to the HBA
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies the value to be written to the HBA's register.
 
 ## -returns

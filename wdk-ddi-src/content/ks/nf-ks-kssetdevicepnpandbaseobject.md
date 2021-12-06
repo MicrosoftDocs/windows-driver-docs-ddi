@@ -50,19 +50,19 @@ The <b>KsSetDevicePnpAndBaseObject</b> function sets the PnP device object in th
 
 ## -parameters
 
-### -param Header 
+### -param Header [in]
 
-[in]
+
 Points to a header previously allocated by <b>KsAllocateDeviceHeader</b> in which to put the PnP device object.
 
-### -param PnpDeviceObject 
+### -param PnpDeviceObject [in]
 
-[in]
+
 Specifies the PnP device object to place in the device header, overwriting any previously set device object.
 
 ### -param BaseObject
 
-#### - BaseDevice [in]
+### -param BaseDevice [in]
 
 Specifies the base device object to which this device header is attached. This must be set if <b>KsRecalculateStackDepth</b> is used.
 

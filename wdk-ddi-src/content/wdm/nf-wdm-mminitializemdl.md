@@ -46,19 +46,19 @@ The **MmInitializeMdl** macro initializes the header of an MDL.
 
 ## -parameters
 
-### -param MemoryDescriptorList
+### -param MemoryDescriptorList [in]
 
-[in]
+
 A pointer to the buffer to initialize as an MDL. For more information, see the following section.
 
-### -param BaseVa
+### -param BaseVa [in]
 
-[in]
+
 A pointer to the base virtual address of a buffer.
 
-### -param Length
+### -param Length [in]
 
-[in]
+
 Specifies the length, in bytes, of the buffer to be described by the MDL. This routine supports a maximum buffer length of MAXULONG bytes.
 
 ## -remarks

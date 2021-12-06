@@ -49,9 +49,9 @@ The <i>SetLight</i> function sets properties for a light source.
 
 ## -parameters
 
-### -param hDevice 
+### -param hDevice [in]
 
-[in]
+
 A handle to the display device (graphics context).
 
 ### -param unnamedParam2

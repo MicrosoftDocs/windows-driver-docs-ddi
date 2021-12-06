@@ -49,29 +49,29 @@ The <i>PowerCompletion</i> callback routine completes the processing of a power 
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to the target <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> for the completed power IRP.
 
-### -param MinorFunction 
+### -param MinorFunction [in]
 
-[in]
+
 Specifies the minor function code in the power IRP. For more information, see the list of supported <b>IRP_MN_<i>XXX</i></b> codes in the Remarks section.
 
-### -param PowerState 
+### -param PowerState [in]
 
-[in]
+
 Specifies the <a href="/windows-hardware/drivers/kernel/device-power-states">device power state</a> or <a href="/windows-hardware/drivers/kernel/system-power-states">system power state</a> that was passed to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-porequestpowerirp">PoRequestPowerIrp</a> routine.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 A pointer to the context that was passed to <b>PoRequestPowerIrp</b>.
 
-### -param IoStatus 
+### -param IoStatus [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure for the completed IRP.
 
 ## -remarks

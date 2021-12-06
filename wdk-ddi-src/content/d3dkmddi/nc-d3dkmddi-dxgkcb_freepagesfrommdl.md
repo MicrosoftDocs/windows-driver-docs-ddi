@@ -46,13 +46,13 @@ product:
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] Handle to a display adapter.
+Handle to a display adapter.
 
-### -param pFreePagesFromMdl
+### -param pFreePagesFromMdl [in]
 
-[in] Pointer to a [**DXGKARGCB_FREEPAGESFROMMDL**](ns-d3dkmddi-_dxgkargcb_freepagesfrommdl.md) structure that contains a handle to the pages for the MDL.
+Pointer to a [**DXGKARGCB_FREEPAGESFROMMDL**](ns-d3dkmddi-_dxgkargcb_freepagesfrommdl.md) structure that contains a handle to the pages for the MDL.
 
 ## -returns
 

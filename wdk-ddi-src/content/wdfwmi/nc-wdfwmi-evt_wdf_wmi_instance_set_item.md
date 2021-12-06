@@ -51,24 +51,24 @@ A driver's <i>EvtWmiInstanceSetItem</i> callback function sets a single item of 
 
 ## -parameters
 
-### -param WmiInstance 
+### -param WmiInstance [in]
 
-[in]
+
 A handle to a WMI instance object.
 
-### -param DataItemId 
+### -param DataItemId [in]
 
-[in]
+
 A value that identifies an item of data for a provider instance. This value corresponds to the <a href="/windows-hardware/drivers/kernel/wmi-property-qualifiers">WmiDataId</a> value that is specified in the provider's MOF file.
 
-### -param InBufferSize 
+### -param InBufferSize [in]
 
-[in]
+
 The size, in bytes, of the input buffer that <i>InBuffer</i> points to.
 
-### -param InBuffer 
+### -param InBuffer [in]
 
-[in]
+
 A pointer to the input buffer.
 
 ## -returns

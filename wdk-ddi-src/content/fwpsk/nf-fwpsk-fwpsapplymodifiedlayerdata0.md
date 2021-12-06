@@ -53,20 +53,20 @@ The **FwpsApplyModifiedLayerData0** function applies changes to layer-specific d
 
 ## -parameters
 
-### -param classifyHandle 
+### -param classifyHandle [in]
 
-[in]
+
 The classification handle that identifies the callout driver's processing at the current layer.
 This handle is obtained by calling [FwpsAcquireClassifyHandle0](./nf-fwpsk-fwpsacquireclassifyhandle0.md).
 
-### -param modifiedLayerData 
+### -param modifiedLayerData [in]
 
-[in]
+
 The data buffer obtained by calling [FwpsAcquireWritableLayerDataPointer0](nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md) with members modified by the callout driver. Supported data types are defined as structures.
 
-### -param flags
+### -param flags [in]
 
-[in]
+
 
 The options to use with this function call. This flag can have the following value.
 

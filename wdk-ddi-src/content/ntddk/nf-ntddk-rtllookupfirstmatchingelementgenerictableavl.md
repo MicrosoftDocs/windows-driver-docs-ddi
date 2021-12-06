@@ -49,19 +49,19 @@ The <b>RtlLookupFirstMatchingElementGenericTableAvl</b> routine finds the left-m
 
 ## -parameters
 
-### -param Table 
+### -param Table [in]
 
-[in]
+
 A pointer to the generic Adelson-Velsky/Landis (AVL) table (<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>).
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A buffer that contains the search data.
 
-### -param RestartKey 
+### -param RestartKey [out]
 
-[out]
+
 On output, contains a search context to use with an enumeration routine, such as <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictablewithoutsplayingavl">RtlEnumerateGenericTableWithoutSplayingAvl</a>.
 
 ## -returns

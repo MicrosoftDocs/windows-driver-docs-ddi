@@ -50,19 +50,19 @@ The <b>USBD_AssignUrbToIoStackLocation</b> routine is called by a client driver 
 
 ## -parameters
 
-### -param USBDHandle 
+### -param USBDHandle [in]
 
-[in]
+
 A USBD handle that is retrieved in a previous call to the <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_createhandle">USBD_CreateHandle</a> routine.
 
-### -param IoStackLocation 
+### -param IoStackLocation [in]
 
-[in]
+
 Pointer to the IRP's next stack location (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>). The client driver received a pointer to the stack location in a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetnextirpstacklocation">IoGetNextIrpStackLocation</a>.
 
-### -param Urb 
+### -param Urb [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure that is allocated by <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_urballocate">USBD_UrbAllocate</a>, <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_isochurballocate">USBD_IsochUrbAllocate</a>, <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_selectconfigurballocateandbuild">USBD_SelectConfigUrbAllocateAndBuild</a>, or 
     <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_selectinterfaceurballocateandbuild">USBD_SelectInterfaceUrbAllocateAndBuild</a>.
 

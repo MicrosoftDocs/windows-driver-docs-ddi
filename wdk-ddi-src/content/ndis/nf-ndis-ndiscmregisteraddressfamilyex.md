@@ -52,17 +52,17 @@ The
 
 ## -parameters
 
-### -param NdisBindingHandle 
+### -param NdisBindingHandle [in]
 
-[in]
+
 A handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function. This handle
      identifies the binding to associate with the AF.
 
-### -param AddressFamily 
+### -param AddressFamily [in]
 
-[in]
+
 A pointer to a 
      <a href="/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a> structure that identifies
      the call manager and the AF that it supports for the binding that 

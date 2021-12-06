@@ -47,11 +47,11 @@ api_name:
 
 ## -parameters
 
-### -param pName 
+### -param pName [in]
 
-[in]
 
-### -param bDeletePort 
 
-[in]
+### -param bDeletePort [in]
+
+
 

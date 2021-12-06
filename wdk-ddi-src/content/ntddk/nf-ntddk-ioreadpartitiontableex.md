@@ -49,9 +49,9 @@ The <b>IoReadPartitionTableEx</b> routine reads a list of partitions on a disk h
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object for the disk whose partitions are to be read.
 
 ### -param DriveLayout

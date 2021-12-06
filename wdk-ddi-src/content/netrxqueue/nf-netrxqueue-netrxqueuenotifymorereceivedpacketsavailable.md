@@ -48,7 +48,7 @@ The client driver calls **NetRxQueueNotifyMoreReceivedPacketsAvailable** to resu
 
 ## -parameters
 
-### -param RxQueue
+### -param PacketQueue
 
 A handle to a net receive queue object.
 

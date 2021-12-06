@@ -52,17 +52,17 @@ Used to hold the arguments for <a href="/windows-hardware/drivers/ddi/d3dkmddi/n
 
 ## -struct-fields
 
-### -field TargetId
+### -field TargetId [in]
 
-[in] The identifier of a display adapter's video present target. Ignored if the type is not DXGK_DDCT_POLLONE, or when DXGK_DDCT_POLLALL is specified.
+The identifier of a display adapter's video present target. Ignored if the type is not DXGK_DDCT_POLLONE, or when DXGK_DDCT_POLLALL is specified.
 
-### -field Type
+### -field Type [in]
 
-[in] Detection action type requested.
+Detection action type requested.
 
-### -field NonDestructiveOnly
+### -field NonDestructiveOnly [in]
 
-[in] Used only for polling the types of requests.
+Used only for polling the types of requests.
 
 If TRUE, the driver should attempt to poll the specified target(s) without causing any visual artifacts.
 If FALSE, the driver should perform any action necessary to detect the status of the specified target(s) even if it would cause visual artifacts on the target(s) in question or other targets.

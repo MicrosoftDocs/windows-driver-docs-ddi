@@ -45,17 +45,17 @@ Creates an identity mapping for the provided MDL in the specified domain.
 
 ## -parameters
 
-### -param Domain
+### -param Domain [_In_]
 
-[_In_] A pointer to the handle to the domain.
+A pointer to the handle to the domain.
 
-### -param Permissions
+### -param Permissions [_In_]
 
-[_In_] A ULONG variable that specifies the permissions for the mapping.
+A ULONG variable that specifies the permissions for the mapping.
 
-### -param Mdl
+### -param Mdl [_In_]
 
-[_In_] A pointer to the MDL to map.
+A pointer to the MDL to map.
 
 ## -returns
 

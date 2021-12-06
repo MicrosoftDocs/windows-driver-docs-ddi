@@ -51,24 +51,24 @@ The <b>WDF_USB_CONTINUOUS_READER_CONFIG_INIT</b> function initializes a <a href=
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_continuous_reader_config">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure.
 
-### -param EvtUsbTargetPipeReadComplete 
+### -param EvtUsbTargetPipeReadComplete [in]
 
-[in]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfusb/nc-wdfusb-evt_wdf_usb_reader_completion_routine">EvtUsbTargetPipeReadComplete</a> callback function.
 
-### -param EvtUsbTargetPipeReadCompleteContext 
+### -param EvtUsbTargetPipeReadCompleteContext [in]
 
-[in]
+
 An untyped pointer to driver-defined context information that the framework passes to the driver's <a href="/windows-hardware/drivers/ddi/wdfusb/nc-wdfusb-evt_wdf_usb_reader_completion_routine">EvtUsbTargetPipeReadComplete</a> callback function.
 
-### -param TransferLength 
+### -param TransferLength [in]
 
-[in]
+
 The maximum length, in bytes, of data that can be received from the device.
 
 ## -remarks

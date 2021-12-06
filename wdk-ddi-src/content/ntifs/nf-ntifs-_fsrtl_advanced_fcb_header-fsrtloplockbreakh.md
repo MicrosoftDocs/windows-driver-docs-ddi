@@ -52,19 +52,19 @@ The <b>FsRtlOplockBreakH</b> routine breaks CACHE_HANDLE_LEVEL opportunistic loc
 
 ## -parameters
 
-### -param Oplock 
+### -param Oplock [in]
 
-[in]
+
 An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 A pointer to the IRP for the I/O operation.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bitmask for the associated file I/O operation. A file system or filter driver sets bits to specify the behavior of <b>FsRtlOplockBreakH</b>. The <i>Flags</i> parameter has the following options:
 
 
@@ -83,14 +83,14 @@ Supported in Windows 7 and later versions.
 
 Specifies to allow CACHE_HANDLE_LEVEL oplock breaks to proceed regardless of the oplock key.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PostIrpRoutine </i>parameters point to.
 
-### -param CompletionRoutine 
+### -param CompletionRoutine [in, optional]
 
-[in, optional]
+
 A pointer to a caller-supplied callback routine. If an oplock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the oplock break is completed. 
 
 This routine is declared as follows: 
@@ -120,9 +120,9 @@ A context information pointer that was passed in the <i>Context</i> parameter to
 
 A pointer to the IRP for the I/O operation.
 
-### -param PostIrpRoutine 
+### -param PostIrpRoutine [in, optional]
 
-[in, optional]
+
 A pointer to a caller-supplied callback routine to be called if the I/O operation is to be pended. The routine is called before the oplock package pends the IRP. This parameter is optional and can be <b>NULL</b>. 
 
 This routine is declared as follows: 

@@ -46,9 +46,9 @@ The **DXGK_DISPLAYSTATE_INTRUSIVE** structure holds display state during diagnos
 
 ## -struct-fields
 
-### -field VidPnTargetId
+### -field VidPnTargetId [in]
 
-[in] Integer value that identifies a particular video present source.
+Integer value that identifies a particular video present source.
 
 ### -field MonitorState
 

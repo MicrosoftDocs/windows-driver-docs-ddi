@@ -50,14 +50,14 @@ The <b>ChangerClassAllocatePool</b> function allocates pool memory.
 
 ## -parameters
 
-### -param PoolType 
+### -param PoolType [in]
 
-[in]
+
 Indicates the type of pool memory to allocate. See <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> for a list of types.
 
-### -param NumberOfBytes 
+### -param NumberOfBytes [in]
 
-[in]
+
 Indicates number of bytes to allocate.
 
 ## -returns

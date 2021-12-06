@@ -48,17 +48,17 @@ The *DxgkddiDsiCaps* callback function queries the Display Serial Interface (DSI
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] As retrieved from the driver's MIPI interface (DXGK_MIPIDSI_interface ,_ DXGK queries the driver for this context.
+As retrieved from the driver's MIPI interface (DXGK_MIPIDSI_interface ,_ DXGK queries the driver for this context.
 
-### -param TargetId
+### -param TargetId [in]
 
-[in] Target identifier of the monitor.
+Target identifier of the monitor.
 
-### -param pArgs
+### -param pArgs [out]
 
-[out] Pointer to a [DXGI_DSI_CAPS](ns-dispmprt-dxgk_dsi_caps.md) structure.
+Pointer to a [DXGI_DSI_CAPS](ns-dispmprt-dxgk_dsi_caps.md) structure.
 
 ## -returns
 

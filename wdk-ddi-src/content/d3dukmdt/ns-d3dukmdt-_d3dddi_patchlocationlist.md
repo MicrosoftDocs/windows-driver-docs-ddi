@@ -52,41 +52,41 @@ The D3DDDI_PATCHLOCATIONLIST structure describes the location of an allocation t
 
 ## -struct-fields
 
-### -field AllocationIndex
+### -field AllocationIndex [in]
 
-[in] An index of the element in the allocation list that specifies the allocation that is referenced by the patch location.
+An index of the element in the allocation list that specifies the allocation that is referenced by the patch location.
 
-### -field SlotId
+### -field SlotId [in/out]
 
-[in/out] A UINT that identifies the slot where the allocation will reside. Resources with identical slot identifiers can replace each other.
+A UINT that identifies the slot where the allocation will reside. Resources with identical slot identifiers can replace each other.
 
 Setting this member is equivalent to setting bits in the first 24 bits of the 32-bit <b>Value</b> member (0x00FFFFFF).
 
-### -field Reserved
+### -field Reserved [in]
 
-[in] This member is reserved and should be set to zero. 
+This member is reserved and should be set to zero. 
 
 Setting this member to zero is equivalent to setting the remaining 8 bits (0xFF000000) of the 32-bit <b>Value</b> member to zeros.
 
-### -field Value
+### -field Value [in]
 
-[in] A 32-bit value that identifies the location of an allocation to patch.
+A 32-bit value that identifies the location of an allocation to patch.
 
-### -field DriverId
+### -field DriverId [in/out]
 
-[in/out] The driver-defined identifier of the allocation specification.
+The driver-defined identifier of the allocation specification.
 
-### -field AllocationOffset
+### -field AllocationOffset [in/out]
 
-[in/out] The starting offset, in bytes, within the allocation that is referenced.
+The starting offset, in bytes, within the allocation that is referenced.
 
-### -field PatchOffset
+### -field PatchOffset [in/out]
 
-[in/out] The offset, in bytes, into the DMA buffer that must be patched.
+The offset, in bytes, into the DMA buffer that must be patched.
 
-### -field SplitOffset
+### -field SplitOffset [in/out]
 
-[in/out] The offset, in bytes, where the DMA buffer must be split if the allocation cannot be brought into video memory.
+The offset, in bytes, where the DMA buffer must be split if the allocation cannot be brought into video memory.
 
 ## -see-also
 

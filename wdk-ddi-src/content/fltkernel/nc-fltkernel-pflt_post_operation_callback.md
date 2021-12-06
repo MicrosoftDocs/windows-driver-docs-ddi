@@ -49,24 +49,24 @@ A minifilter driver can register one or more routines of type PFLT_POST_OPERATIO
 
 ## -parameters
 
-### -param Data 
+### -param Data [in, out]
 
-[in, out]
+
 A pointer to the callback data [FLT_CALLBACK_DATA](./ns-fltkernel-_flt_callback_data.md) structure for the I/O operation.
 
-### -param FltObjects 
+### -param FltObjects [in]
 
-[in]
+
 A pointer to a filter manager maintained [FLT_RELATED_OBJECTS](./ns-fltkernel-_flt_related_objects.md) structure that contains opaque pointers for the objects related to the current I/O request.
 
-### -param CompletionContext 
+### -param CompletionContext [in, optional]
 
-[in, optional]
+
 A context pointer that was returned by the minifilter driver's pre-operation callback [PFLT_PRE_OPERATION_CALLBACK](./nc-fltkernel-pflt_pre_operation_callback.md) routine.  The *CompletionContext* pointer provides a way to communicate information from the pre-operation callback routine to the post-operation callback routine.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bitmask of flags that specifies how the post-operation callback is to be performed.
 
 | Flag | Meaning |

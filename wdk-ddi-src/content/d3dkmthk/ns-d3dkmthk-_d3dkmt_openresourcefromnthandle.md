@@ -52,71 +52,71 @@ Describes information that is required to open a shared resource from an NT hand
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A D3DKMT_HANDLE data type that represents the device.
+A D3DKMT_HANDLE data type that represents the device.
 
-### -field hNtHandle
+### -field hNtHandle [in]
 
-[in] An NT handle to the process.
+An NT handle to the process.
 
-### -field NumAllocations
+### -field NumAllocations [in]
 
-[in] The number of allocations associated with the resource.
+The number of allocations associated with the resource.
 
-### -field pOpenAllocationInfo2
+### -field pOpenAllocationInfo2 [in]
 
-[in] This member is reserved and should be set to zero.
+This member is reserved and should be set to zero.
 
-### -field PrivateRuntimeDataSize
+### -field PrivateRuntimeDataSize [in]
 
-[in] The size, in bytes, of the buffer pointed to by the <b>pPrivateRuntimeData</b> member.
+The size, in bytes, of the buffer pointed to by the <b>pPrivateRuntimeData</b> member.
 
-### -field pPrivateRuntimeData
+### -field pPrivateRuntimeData [in]
 
-[in] A caller-supplied buffer where the runtime private data associated with this resource will be copied to.
+A caller-supplied buffer where the runtime private data associated with this resource will be copied to.
 
-### -field ResourcePrivateDriverDataSize
+### -field ResourcePrivateDriverDataSize [in]
 
-[in] The size, in bytes, of the  buffer pointed to by the <b>pResourcePrivateDriverData</b> member.
+The size, in bytes, of the  buffer pointed to by the <b>pResourcePrivateDriverData</b> member.
 
-### -field pResourcePrivateDriverData
+### -field pResourcePrivateDriverData [in]
 
-[in] A caller-supplied buffer where the driver private data associated with the resource will be copied to.
+A caller-supplied buffer where the driver private data associated with the resource will be copied to.
 
-### -field TotalPrivateDriverDataBufferSize
+### -field TotalPrivateDriverDataBufferSize [in]
 
-[in] The size, in bytes, of the buffer pointed to by the <b>pTotalPrivateDriverDataBuffer</b> member.
+The size, in bytes, of the buffer pointed to by the <b>pTotalPrivateDriverDataBuffer</b> member.
 
 [out] The size, in bytes, of  the data written to <b>pTotalPrivateDriverDataBuffer</b>.
 
-### -field pTotalPrivateDriverDataBuffer
+### -field pTotalPrivateDriverDataBuffer [in]
 
-[in] A pointer to a caller-supplied buffer where the driver private data will be stored.
+A pointer to a caller-supplied buffer where the driver private data will be stored.
 
-### -field hResource
+### -field hResource [out]
 
-[out] A handle to the resource in this process.
+A handle to the resource in this process.
 
-### -field hKeyedMutex
+### -field hKeyedMutex [out]
 
-[out] A handle to the keyed mutex in this process.
+A handle to the keyed mutex in this process.
 
-### -field pKeyedMutexPrivateRuntimeData
+### -field pKeyedMutexPrivateRuntimeData [in]
 
-[in] A buffer that contains initial private data.
+A buffer that contains initial private data.
 
 The data in this buffer will be copied only if the keyed mutex does not already have private data.
 
 If this member has a value of <b>NULL</b>, the value of the <b>KeyedMutexPrivateRuntimeDataSize</b> member must be zero.
 
-### -field KeyedMutexPrivateRuntimeDataSize
+### -field KeyedMutexPrivateRuntimeDataSize [in]
 
-[in] The size, in bytes, of the buffer pointed to by the <b>pKeyedMutexPrivateRuntimeData</b> member.
+The size, in bytes, of the buffer pointed to by the <b>pKeyedMutexPrivateRuntimeData</b> member.
 
-### -field hSyncObject
+### -field hSyncObject [out]
 
-[out] A handle to the synchronization object in this process.
+A handle to the synchronization object in this process.
 
 ## -see-also
 

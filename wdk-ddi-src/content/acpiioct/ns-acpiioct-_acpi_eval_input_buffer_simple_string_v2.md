@@ -78,7 +78,7 @@ Defines the <b>ULONG</b> member <b>StringLength</b>.
 
 
 
-#### - String[ANYSIZE_ARRAY]
+### -field String[ANYSIZE_ARRAY]
 
 Defines the <b>UCHAR</b> member <b>String[ANYSIZE_ARRAY]</b>.
 

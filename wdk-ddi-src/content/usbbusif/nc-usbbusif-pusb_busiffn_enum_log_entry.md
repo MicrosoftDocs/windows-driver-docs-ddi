@@ -52,25 +52,25 @@ The <i>EnumLogEntry</i> routine makes a log entry.
 
 ## -parameters
 
-#### - BusContext [in]
+### -param BusContext [in]
 
 Handle to the bus context returned in the <i>BusContext</i> member of the <a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v2.md">USB_BUS_INTERFACE_USBDI_V2</a> structure by an IRP_MN_QUERY_INTERFACE request.
 
 
-#### - DriverTag [in]
+### -param DriverTag [in]
 
 
-#### - EnumTag [in]
-
-Vendor-defined data to store in the enumeration log.
-
-
-#### - P1 [in]
+### -param EnumTag [in]
 
 Vendor-defined data to store in the enumeration log.
 
 
-#### - P2 [in]
+### -param P1 [in]
+
+Vendor-defined data to store in the enumeration log.
+
+
+### -param P2 [in]
 
 Vendor-defined data to store in the enumeration log.
 

@@ -54,23 +54,23 @@ The <b>WdfRequestRetrieveInputBuffer</b> method retrieves an I/O request's input
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
 ### -param MinimumRequiredLength
 
 <p>The minimum buffer size, in bytes, that the driver needs to process the I/O request.</p>
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer to a location that receives the buffer's address.
 
-### -param Length 
+### -param Length [out, optional]
 
-[out, optional]
+
 A pointer to a location that receives the buffer's size, in bytes. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

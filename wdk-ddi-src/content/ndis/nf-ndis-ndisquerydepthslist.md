@@ -51,9 +51,9 @@ The
 
 ## -parameters
 
-### -param SListHead 
+### -param SListHead [in]
 
-[in]
+
 A pointer to the head of the S-List to be queried, which the caller already initialized with 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializeslisthead">NdisInitializeSListHead</a>.
 

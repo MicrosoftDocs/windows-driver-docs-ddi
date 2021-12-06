@@ -47,17 +47,17 @@ This routine serializes a collection list to the caller-allocated buffer.
 
 ## -parameters
 
-### -param SourceCollection
+### -param SourceCollection [in]
 
-[in] Pointer to a collection list.
+Pointer to a collection list.
 
-### -param TargetBufferSizeInBytes
+### -param TargetBufferSizeInBytes [in]
 
-[in] Caller-allocated buffer size (in bytes).
+Caller-allocated buffer size (in bytes).
 
-### -param TargetBuffer
+### -param TargetBuffer [out]
 
-[out] Caller-allocated buffer to hold the serialized data.
+Caller-allocated buffer to hold the serialized data.
 
 ## -returns
 

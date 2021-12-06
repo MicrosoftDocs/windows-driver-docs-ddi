@@ -4,7 +4,7 @@ title: ExGetPreviousMode function (wdm.h)
 description: The ExGetPreviousMode routine returns the previous processor mode for the current thread.
 old-location: kernel\exgetpreviousmode.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 10/28/2021
 keywords: ["ExGetPreviousMode function"]
 ms.keywords: ExGetPreviousMode, ExGetPreviousMode routine [Kernel-Mode Driver Architecture], k102_080fbfa6-6261-453d-a2c7-e08818d34b6f.xml, kernel.exgetpreviousmode, wdm/ExGetPreviousMode
 req.header: wdm.h
@@ -46,8 +46,6 @@ api_name:
 ## -description
 
 The <b>ExGetPreviousMode</b> routine returns the previous processor mode for the current thread.
-
-## -parameters
 
 ## -returns
 

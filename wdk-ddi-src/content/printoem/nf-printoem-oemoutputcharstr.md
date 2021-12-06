@@ -59,6 +59,6 @@ Use [IPrintOemUni::OutputCharStr](../prcomoem/nf-prcomoem-iprintoemuni-outputcha
 
 ### -param dwCount
 
-### -param pGlyph 
+### -param pGlyph [in]
 
-[in]
+

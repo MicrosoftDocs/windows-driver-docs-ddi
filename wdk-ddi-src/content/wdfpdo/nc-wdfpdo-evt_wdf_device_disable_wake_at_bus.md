@@ -51,9 +51,9 @@ A bus driver's <i>EvtDeviceDisableWakeAtBus</i> event callback function performs
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
 ## -remarks

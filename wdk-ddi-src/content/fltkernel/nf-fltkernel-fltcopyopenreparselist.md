@@ -50,20 +50,20 @@ This routine copies any open reparse information from a previous create into
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 The filter to reference.
 
-### -param Data 
+### -param Data [in]
 
-[in]
+
 The create operation from which open reparse
                        information should be copied.
 
-### -param EcpList 
+### -param EcpList [in, out]
 
-[in, out]
+
 A new ECP list to copy open reparse information
                        to.
 

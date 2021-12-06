@@ -4,7 +4,7 @@ title: RILUICCPRLID (ntddrilapitypes.h)
 description: "Microsoft reserves the RILUICCPRLID enumeration for internal use only. Don't use the RILUICCPRLID enumeration in your code."
 old-location: netvista\riluiccprlid.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/03/2021
 keywords: ["RILUICCPRLID enumeration"]
 ms.keywords: RILUICCPRLID, RILUICCPRLID enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccprlid, ntddrilapitypes/RILUICCPRLID
 req.header: ntddrilapitypes.h
@@ -49,3 +49,4 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ## -enum-fields
 
+### -field RIL_UICC_PRLID_UNSPECIFIED

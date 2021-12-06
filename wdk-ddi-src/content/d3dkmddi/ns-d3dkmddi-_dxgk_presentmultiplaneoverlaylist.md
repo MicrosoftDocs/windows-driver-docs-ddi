@@ -64,17 +64,17 @@ Indicates whether the overlay plane specified by <b>LayerIndex</b> is enabled fo
 
 A handle to the device-specific allocation that corresponds to the non device-specific allocation. The display miniport driver must set <b>hDeviceSpecificAllocation</b> to a handle value that it can use to refer to its private tracking structure for the allocation.
 
-### -field SegmentId
+### -field SegmentId [in]
 
-[in] The identifier of a segment that data is read from.
+The identifier of a segment that data is read from.
 
 ### -field Reserved
 
 This member is reserved and should be set to zero.
 
-### -field PhysicalAddress
+### -field PhysicalAddress [in]
 
-[in] A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the data is read.
+A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the data is read.
 
 ## -see-also
 

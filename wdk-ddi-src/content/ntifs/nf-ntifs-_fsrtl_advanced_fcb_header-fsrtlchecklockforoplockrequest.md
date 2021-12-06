@@ -52,14 +52,14 @@ The <b>FsRtlCheckLockForOplockRequest</b> routine checks for locks within the al
 
 ## -parameters
 
-### -param FileLock 
+### -param FileLock [in]
 
-[in]
+
 The file lock that specifies locked ranges.
 
-### -param AllocationSize 
+### -param AllocationSize [in]
 
-[in]
+
 The file allocation size to check for any locked ranges.
 
 ## -returns

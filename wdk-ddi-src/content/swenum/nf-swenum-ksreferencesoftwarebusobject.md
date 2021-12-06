@@ -52,9 +52,9 @@ The <b>KsReferenceSoftwareBusObject</b> function increments the reference count 
 
 ## -parameters
 
-### -param Header 
+### -param Header [in]
 
-[in]
+
 Pointer to the device header (extension) of the demand-load bus enumerator.
 
 ## -returns

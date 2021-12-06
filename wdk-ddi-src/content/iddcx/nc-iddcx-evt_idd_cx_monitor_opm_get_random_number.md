@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param OpmCxtObject 
+### -param OpmCxtObject [in]
 
-[in]
+
 The object for the OPM context that a random number will be gotten from.
 
-### -param pOutArgs 
+### -param pOutArgs [out]
 
-[out]
+
 Output arguments returned by <b>EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER</b>.
 
 ## -returns

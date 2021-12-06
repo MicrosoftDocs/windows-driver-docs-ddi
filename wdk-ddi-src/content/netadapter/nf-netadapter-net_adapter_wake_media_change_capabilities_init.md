@@ -53,9 +53,6 @@ The **NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES_INIT** function initializes a [
 
 A pointer to a client driver-allocated [*NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_wake_media_change_capabilities.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

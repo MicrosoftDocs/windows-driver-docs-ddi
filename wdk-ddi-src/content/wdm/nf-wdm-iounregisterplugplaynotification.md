@@ -51,9 +51,9 @@ The <b>IoUnregisterPlugPlayNotification</b> routine removes the registration of 
 
 ## -parameters
 
-### -param NotificationEntry 
+### -param NotificationEntry [in]
 
-[in]
+
 Pointer to an opaque value representing the registration to be removed. The value was returned by a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>.
 
 ## -returns

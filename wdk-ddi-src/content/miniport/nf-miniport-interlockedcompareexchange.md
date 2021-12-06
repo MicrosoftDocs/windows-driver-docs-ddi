@@ -54,9 +54,9 @@ The <b>InterlockedCompareExchange</b> routine performs an atomic operation that 
 
 ## -parameters
 
-### -param Destination 
+### -param Destination [in, out]
 
-[in, out]
+
 A pointer to the input value that is compared with the value of <i>Comparand</i>.
 
 ### -param ExChange

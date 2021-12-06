@@ -47,8 +47,6 @@ api_name:
 
 The <code>GetBufferSize</code> method gets the buffer size from the allocator.
 
-## -parameters
-
 ## -returns
 
 <code>GetBufferSize</code> returns the size in bytes of the buffer.

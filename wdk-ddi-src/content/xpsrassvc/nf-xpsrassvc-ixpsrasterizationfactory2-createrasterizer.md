@@ -55,9 +55,9 @@ The <b>CreateRasterizer</b> method creates an XPS rasterizer object that can con
 
 ### -param DPIY
 
-### -param nonTextRenderingMode 
+### -param nonTextRenderingMode [in]
 
-[in]
+
 Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following <a href="/windows-hardware/drivers/ddi/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001">XPSRAS_RENDERING_MODE</a> enumeration values:
 
 <ul>
@@ -71,9 +71,9 @@ XPSRAS_RENDERING_MODE_ALIASED
 </li>
 </ul>
 
-### -param textRenderingMode 
+### -param textRenderingMode [in]
 
-[in]
+
 Rendering mode for text in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following XPSRAS_RENDERING_MODE enumeration values:
 
 <ul>
@@ -87,9 +87,9 @@ XPSRAS_RENDERING_MODE_ALIASED
 </li>
 </ul>
 
-### -param pixelFormat 
+### -param pixelFormat [in]
 
-[in]
+
 Allows a caller to select the pixel format used by the IWICBitmap returned by <a href="/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizer-rasterizerect">IXpsRasterizer::RasterizeRect</a>. Set this parameter to one of the following <a href="/windows-hardware/drivers/ddi/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0003_0001">XPSRAS_PIXEL_FORMAT</a> enumeration values:
 
 <ul>
@@ -107,9 +107,9 @@ XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB
 </li>
 </ul>
 
-### -param backgroundColor 
+### -param backgroundColor [in]
 
-[in]
+
 Allows a caller to select background color. Set this parameter to one of the following <a href="/windows-hardware/drivers/ddi/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0004_0001">XPSRAS_BACKGROUND_COLOR</a> enumeration values:
 
 <ul>
@@ -126,23 +126,23 @@ The default background color is XPSRAS_BACKGROUND_COLOR_TRANSPARENT.
 
 ### -param ppIXpsRasterizer
 
-#### - **ppIXpsRasterizer [out, optional]
+### -param **ppIXpsRasterizer [out, optional]
 
 This parameter points to a location into which the method writes a pointer to the <a href="/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizer">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
 
 
 
-#### - *xpsPage [in, optional]
+### -param *xpsPage [in, optional]
 
 Pointer to an <b>IXpsOMPage</b> object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. 
 
 
-#### - dpiX [in]
+### -param dpiX [in]
 
 Dots per inch which is applied to x dimension of the rasterized output bitmap. The DPI value is the resolution of the device that is to print or display the XPS fixed page.
 
 
-#### - dpiY [in]
+### -param dpiY [in]
 
 Dots per inch which is applied to y dimension of the rasterized output bitmap.
 

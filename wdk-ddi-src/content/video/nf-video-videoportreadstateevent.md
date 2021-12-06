@@ -49,14 +49,14 @@ The <b>VideoPortReadStateEvent</b> function returns the current state of a given
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param pEvent 
+### -param pEvent [in]
 
-[in]
+
 Pointer to the event object whose state is to be read.
 
 ## -returns

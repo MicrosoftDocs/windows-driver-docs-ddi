@@ -49,14 +49,14 @@ The <b>RtlAppendUnicodeStringToString</b> routine concatenates two Unicode strin
 
 ## -parameters
 
-### -param Destination 
+### -param Destination [in, out]
 
-[in, out]
+
 Pointer to a buffered Unicode string.
 
-### -param Source 
+### -param Source [in]
 
-[in]
+
 Pointer to the buffered string to be concatenated.
 
 ## -returns

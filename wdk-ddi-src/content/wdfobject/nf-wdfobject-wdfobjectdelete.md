@@ -54,9 +54,9 @@ The <b>WdfObjectDelete</b> method deletes a framework object and its child objec
 
 ## -parameters
 
-### -param Object 
+### -param Object [in]
 
-[in]
+
 A handle to framework object.
 
 ## -remarks

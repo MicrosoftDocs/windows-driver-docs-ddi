@@ -52,16 +52,16 @@ The
 
 ## -parameters
 
-### -param NdisBindingHandle 
+### -param NdisBindingHandle [in]
 
-[in]
+
 A handle that the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function returned
      that identifies the target adapter for the binding.
 
-### -param NdisAfHandle 
+### -param NdisAfHandle [in, optional]
 
-[in, optional]
+
 A handle that identifies the address family (AF) that is shared among the client, call manager,
      and NDIS. This handle was obtained as follows:
      
@@ -84,9 +84,9 @@ If the caller is a stand-alone call manager or miniport call manager (MCM) that 
 To make a request from either a client or stand-alone call manager to the underlying miniport driver,
      this parameter must be <b>NULL</b>.
 
-### -param NdisVcHandle 
+### -param NdisVcHandle [in, optional]
 
-[in, optional]
+
 A handle that identifies the virtual connection (VC) the caller is requesting or setting
      information for, if the request is VC-specific. Otherwise, if this parameter is <b>NULL</b>, the request is not
      VC-specific. For any VC-specific request, the caller originally obtained this handle either when it
@@ -99,9 +99,9 @@ A handle that identifies the virtual connection (VC) the caller is requesting or
      <i>NdisAfHandle</i> and 
      <i>NdisPartyHandle</i> are <b>NULL</b>.
 
-### -param NdisPartyHandle 
+### -param NdisPartyHandle [in, optional]
 
-[in, optional]
+
 A handle that identifies the party on a multipoint VC the caller is requesting or setting
      information for, if the request is party-specific. Otherwise, if this parameter is <b>NULL</b>, the request is
      not party-specific. For any party-specific request, a client originally obtained this handle from a
@@ -113,9 +113,9 @@ A handle that identifies the party on a multipoint VC the caller is requesting o
      <i>NdisAfHandle</i> is <b>NULL</b>, 
      <i>NdisPartyHandle</i> also is <b>NULL</b>.
 
-### -param OidRequest 
+### -param OidRequest [in, out]
 
-[in, out]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request">NDIS_OID_REQUEST</a> structure that specifies
      the operation that is requested with a given OID_<i>XXX</i> code to query or to set information.

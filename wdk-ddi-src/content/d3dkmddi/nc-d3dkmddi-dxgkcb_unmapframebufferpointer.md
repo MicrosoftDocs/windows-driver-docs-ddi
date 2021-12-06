@@ -46,13 +46,13 @@ product:
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to a display adapter. The driver provides this handle for the master/lead device in the LDA chain.
+A handle to a display adapter. The driver provides this handle for the master/lead device in the LDA chain.
 
-### -param pUnmapFrameBufferPointer
+### -param pUnmapFrameBufferPointer [in]
 
-[in] A pointer to the [**DXGKARGCB_UNMAPFRAMEBUFFERPOINTER**](ns-d3dkmddi-_dxgkargcb_unmapframebufferpointer.md) structure that contains a handle to the memory to be unmapped.
+A pointer to the [**DXGKARGCB_UNMAPFRAMEBUFFERPOINTER**](ns-d3dkmddi-_dxgkargcb_unmapframebufferpointer.md) structure that contains a handle to the memory to be unmapped.
 
 ## -returns
 

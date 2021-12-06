@@ -49,44 +49,44 @@ The <b>EtwWriteEx</b> function is a tracing function for publishing events that 
 
 ## -parameters
 
-### -param RegHandle 
+### -param RegHandle [in]
 
-[in]
+
 A pointer to the event provider registration handle, which is returned by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a> function if the event provider registration is successful.
 
-### -param EventDescriptor 
+### -param EventDescriptor [in]
 
-[in]
+
 A pointer to the <a href="/windows/win32/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure.
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 The instance identifiers that identify the session to which the event will not written. That is, the value is a mask of sessions which should be excluded from logging (filtered out). Use a bitwise OR to specify multiple identifiers. Set to zero if you do not support filters or if the event is being written to all sessions (no filters failed). For information on getting the identifier for a session, see the <i>FilterData</i> parameter of your <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-etwenablecallback">EtwEnableCallback</a> callback.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Reserved.  Must be  zero (0).
 
-### -param ActivityId 
+### -param ActivityId [in, optional]
 
-[in, optional]
+
 The identifier that indicates the activity associated with the event. The <i>ActivityID</i> provides a way to group related events and is used in end-to-end tracing.  If NULL, ETW gets the identifier from the thread local storage. For details on getting this identifier, see <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwactivityidcontrol">EtwActivityIdControl</a>.
 
-### -param RelatedActivityId 
+### -param RelatedActivityId [in, optional]
 
-[in, optional]
+
 Activity identifier from the previous component. Use this parameter to link your component's events to the previous component's events. To get the activity identifier that was set for the previous component, see the descriptions for the <i>ControlCode</i> parameter of the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwactivityidcontrol">EtwActivityIdControl</a> function.
 
-### -param UserDataCount 
+### -param UserDataCount [in]
 
-[in]
+
 Number of EVENT_DATA_DESCRIPTOR structures in <i>UserData</i>. The maximum number is 128.
 
-### -param UserData 
+### -param UserData [in, optional]
 
-[in, optional]
+
 A pointer to the array of EVENT_DATA_DESCRIPTOR structures. Set this parameter to NULL if <i>UserDataCount</i> is zero. The data must be in the order specified in the manifest.
 
 ## -returns

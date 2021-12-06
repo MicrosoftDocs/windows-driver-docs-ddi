@@ -47,8 +47,6 @@ api_name:
 
 The <code>CancelDelayedService</code> method cancels the previously requested delayed service.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a>

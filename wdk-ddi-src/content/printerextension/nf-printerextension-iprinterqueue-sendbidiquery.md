@@ -49,9 +49,9 @@ Performs an asynchronous refresh operation with the specified query, and invokes
 
 ## -parameters
 
-### -param bstrBidiQuery 
+### -param bstrBidiQuery [in]
 
-[in]
+
 The specified query.
 
 ## -returns

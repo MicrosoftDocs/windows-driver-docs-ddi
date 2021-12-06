@@ -47,8 +47,6 @@ api_name:
 
 The <code>GetVersion</code> method returns the version of the Windows operating system that the driver is running on.
 
-## -parameters
-
 ## -returns
 
 The <code>GetVersion</code> method returns a DWORD value that specifies the Windows version number. For more information, see the following Remarks section.

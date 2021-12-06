@@ -49,19 +49,19 @@ Multiplies one value of type <b>LONG_PTR</b> by another.
 
 ## -parameters
 
-### -param lMultiplicand 
+### -param lMultiplicand [in]
 
-[in]
+
 The value to be multiplied by <i>lMultiplier</i>.
 
-### -param lMultiplier 
+### -param lMultiplier [in]
 
-[in]
+
 The value by which to multiply <i>lMultiplicand</i>.
 
-### -param plResult 
+### -param plResult [out]
 
-[out]
+
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

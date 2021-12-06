@@ -50,19 +50,19 @@ The <b>AtaPortDeviceReady</b> routine informs the port driver that the indicated
 
 ## -parameters
 
-### -param ChannelExtension 
+### -param ChannelExtension [in]
 
-[in]
+
 A pointer to the channel extension.
 
-### -param TargetId 
+### -param TargetId [in]
 
-[in]
+
 Specifies the target identifier of the device.
 
-### -param Lun 
+### -param Lun [in]
 
-[in]
+
 Specifies the logical unit number (LUN) of the device.
 
 ## -remarks

@@ -49,19 +49,19 @@ Subtracts one value of type <b>INT8</b> from another.
 
 ## -parameters
 
-### -param i8Minuend 
+### -param i8Minuend [in]
 
-[in]
+
 The value from which <i>i8Subtrahend</i> is subtracted.
 
-### -param i8Subtrahend 
+### -param i8Subtrahend [in]
 
-[in]
+
 The value to subtract from <i>i8Minuend</i>.
 
-### -param pi8Result 
+### -param pi8Result [out]
 
-[out]
+
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

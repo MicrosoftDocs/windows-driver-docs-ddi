@@ -49,9 +49,9 @@ The <b>IoUnregisterPlugPlayNotificationEx</b> routine cancels the registration o
 
 ## -parameters
 
-### -param NotificationEntry 
+### -param NotificationEntry [in]
 
-[in]
+
 A pointer to an opaque value that represents the registration to cancel. The caller previously obtained this value by calling the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a> routine.
 
 ## -returns

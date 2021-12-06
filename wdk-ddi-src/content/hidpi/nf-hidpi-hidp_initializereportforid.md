@@ -50,29 +50,29 @@ The <b>HidP_InitializeReportForID</b> routine initializes a HID report.
 
 ## -parameters
 
-### -param ReportType 
+### -param ReportType [in]
 
-[in]
+
 Specifies a <a href="/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator that indicates the type of HID report located at <i>Report</i>.
 
-### -param ReportID 
+### -param ReportID [in]
 
-[in]
+
 Specifies a report ID.
 
-### -param PreparsedData 
+### -param PreparsedData [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a> of the <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> associated with the HID report located at <i>Report</i>.
 
-### -param Report 
+### -param Report [out]
 
-[out]
+
 Pointer to the caller-allocated buffer containing the HID report that <b>HidP_InitializeReportForID</b> initializes.
 
-### -param ReportLength 
+### -param ReportLength [in]
 
-[in]
+
 Specifies the size, in bytes, of the HID report located at <i>Report</i>. <i>ReportLength</i> must be equal to the collection's report length for the specified report type, as specified by the <i>Xxx</i><b>ReportByteLength</b> members of a collection's <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a> structure.
 
 ## -returns

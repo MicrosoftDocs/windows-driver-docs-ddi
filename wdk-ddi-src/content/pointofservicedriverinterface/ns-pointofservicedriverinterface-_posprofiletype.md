@@ -61,12 +61,12 @@ This structure describes the number of profile strings in a buffer.
 
 
 
-#### - DataLength
+### -field DataLength
 
 The size in bytes of the buffer that follows this **PosProfileType**, including the size of the **PosProfileType** structure.
 
 
-#### - EntryCount
+### -field EntryCount
 
 Indicates the number of statistics that follow this header.
 

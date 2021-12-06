@@ -49,9 +49,9 @@ The <b>IoInitializePriorityInfo</b> routine initializes a structure of type <a h
 
 ## -parameters
 
-### -param PriorityInfo 
+### -param PriorityInfo [in]
 
-[in]
+
 Pointer to a structure, of type IO_PRIORITY_INFO, to be initialized. This parameter is required and cannot be <b>NULL</b>.
 
 ## -remarks

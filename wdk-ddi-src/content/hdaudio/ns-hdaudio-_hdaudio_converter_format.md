@@ -68,7 +68,7 @@ The HDAUDIO_CONVERTER_FORMAT structure specifies the 16-bit encoded stream forma
 Specifies the stream's data format as an encoded 16-bit value. For more information, see the following Remarks section.
 
 
-#### - ( unnamed struct )
+### -field ( unnamed struct )
 
 Specifies the number of channels in the stream's data format. For more information, see the following Remarks section.
 

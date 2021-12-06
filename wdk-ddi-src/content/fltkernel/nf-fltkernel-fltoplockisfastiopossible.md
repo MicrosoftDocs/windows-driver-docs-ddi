@@ -49,9 +49,9 @@ The <b>FltOplockIsFastIoPossible</b> routine checks a file's opportunistic lock 
 
 ## -parameters
 
-### -param Oplock 
+### -param Oplock [in]
 
-[in]
+
 Opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializeoplock">FltInitializeOplock</a>.
 
 ## -returns

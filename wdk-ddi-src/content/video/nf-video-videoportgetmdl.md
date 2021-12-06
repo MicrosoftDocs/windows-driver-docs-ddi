@@ -51,14 +51,14 @@ The <b>VideoPortGetMdl</b> function is <b>obsolete</b> in Windows 2000 and later
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param pDma 
+### -param pDma [in]
 
-[in]
+
 Is a handle to the DMA context being queried. This handle was obtained from <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportlockpages">VideoPortLockPages</a> or <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportdodma">VideoPortDoDma</a>.
 
 ## -returns

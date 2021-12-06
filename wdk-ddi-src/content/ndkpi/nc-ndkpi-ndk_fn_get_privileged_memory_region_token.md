@@ -49,14 +49,14 @@ The <i>NdkGetPrivilegedMemoryRegionToken</i> (<i>NDK_FN_GET_PRIVILEGED_MEMORY_RE
 
 ## -parameters
 
-### -param pNdkPd 
+### -param pNdkPd [in]
 
-[in]
+
 A pointer to an NDK protection domain (PD) object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_pd">NDK_PD</a>).
 
-### -param pToken 
+### -param pToken [out]
 
-[out]
+
 A memory token value is returned in this location.
 
 ## -remarks

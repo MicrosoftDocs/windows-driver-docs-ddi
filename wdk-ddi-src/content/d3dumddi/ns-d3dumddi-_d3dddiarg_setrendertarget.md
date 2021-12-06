@@ -52,17 +52,17 @@ The D3DDDIARG_SETRENDERTARGET structure describes the render target surface.
 
 ## -struct-fields
 
-### -field RenderTargetIndex
+### -field RenderTargetIndex [in]
 
-[in] An index into the group of render target surfaces.
+An index into the group of render target surfaces.
 
-### -field hRenderTarget
+### -field hRenderTarget [in]
 
-[in] A handle to the render target surface or the group of render target surfaces.
+A handle to the render target surface or the group of render target surfaces.
 
-### -field SubResourceIndex
+### -field SubResourceIndex [in]
 
-[in] An index into the resource for the render target.
+An index into the resource for the render target.
 
 ## -see-also
 

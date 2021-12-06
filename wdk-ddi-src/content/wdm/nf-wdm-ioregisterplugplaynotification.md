@@ -50,39 +50,39 @@ The **IoRegisterPlugPlayNotification** routine registers a Plug and Play (PnP) n
 
 ## -parameters
 
-### -param EventCategory 
+### -param EventCategory [in]
 
-[in]
+
 Specifies an enumeration value from [**IO_NOTIFICATION_EVENT_CATEGORY**](ne-wdm-io_notification_event_category.md) that indicates the category of PnP event for which the callback routine is being registered.
 
-### -param EventCategoryFlags 
+### -param EventCategoryFlags [in]
 
-[in]
+
 Flag bits that modify the registration operation. Possible values include:
 
 #### PNPNOTIFY_DEVICE_INTERFACE_INCLUDE_EXISTING_INTERFACES
 
 Only valid with an *EventCategory* of **EventCategoryDeviceInterfaceChange**. If set, the PnP manager calls the driver callback routine for each device interface instance that is currently registered and active and registers the callback routine for future arrivals or removals of device interface instances.
 
-### -param EventCategoryData 
+### -param EventCategoryData [in, optional]
 
-[in, optional]
+
 A pointer to further information about the events for which *CallbackRoutine* is being registered. The information varies for different *EventCategory* values:
 
 - When *EventCategory* is **EventCategoryDeviceInterfaceChange**, *EventCategoryData* must point to a GUID specifying a device interface class. *CallbackRoutine* will be called when an interface of that class is enabled or removed.
 - When *EventCategory* is **EventCategoryHardwareProfileChange**, *EventCategoryData* must be **NULL**.
 - When *EventCategory* is **EventCategoryTargetDeviceChange**, *EventCategoryData* must point to the file object for which PnP notification is requested.
 
-### -param DriverObject 
+### -param DriverObject [in]
 
-[in]
+
 A pointer to the caller's driver object.
 
 To ensure that the driver remains loaded while it is registered for PnP notification, this call increments the reference count on *DriverObject*. The PnP manager decrements the reference count when this registration is removed.
 
-### -param CallbackRoutine 
+### -param CallbackRoutine [in]
 
-[in]
+
 A pointer to the PnP notification callback routine to be called when the specified PnP event occurs.
 
 The function prototype for this callback routine is defined as follows:
@@ -109,14 +109,14 @@ For information about including a function declaration for the callback routine 
 
 The PnP manager calls driver callback routines at IRQL = PASSIVE_LEVEL.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated buffer containing context that the PnP manager passes to the callback routine.
 
-### -param NotificationEntry 
+### -param NotificationEntry [out]
 
-[out]
+
 A pointer to an opaque value returned by this call that identifies the registration. Pass this value to the [IoUnregisterPlugPlayNotificationEx](nf-wdm-iounregisterplugplaynotificationex.md) routine to remove the registration.
 
 ## -returns
@@ -138,7 +138,7 @@ The PnP manager does not take out a reference on the file object when a driver r
 
 Typically, Kernel-Mode Driver Framework (KMDF) drivers should call **IoRegisterPlugPlayNotification** from their [EvtDeviceSelfManagedIoInit](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init.md) callback function, and should call **IoUnregisterPlugPlayNotification** from their [EvtDeviceSelfManagedIoCleanup](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md) callback function. These drivers should **not** call **IoRegisterPlugPlayNotification** from their [EvtDriverDeviceAdd](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback function; otherwise, the PnP notification callback routine might be called before the driver stack is started by PnP, in which case the driver will not be prepared to handle the notification.
 
-For more information, see [Using PnP Notification](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md).
+For more information, see [Using PnP Notification](/windows-hardware/drivers/kernel/using-pnp-notification).
 
 ### Examples
 

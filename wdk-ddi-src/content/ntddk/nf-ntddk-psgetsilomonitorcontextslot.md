@@ -49,9 +49,9 @@ This routine returns the silo context slot that was allocated by the monitor dur
 
 ## -parameters
 
-### -param Monitor 
+### -param Monitor [in]
 
-[in]
+
 A pointer to the silo monitor.
 
 ## -returns

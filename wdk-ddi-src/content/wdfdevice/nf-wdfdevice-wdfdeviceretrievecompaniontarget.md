@@ -4,7 +4,7 @@ title:  function (wdfdevice.h)
 description: This WdfDeviceRetrieveCompanionTarget function article is for internal use only.
 old-location: wdf\wdfdeviceretrievecompaniontarget.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 11/01/2021
 keywords: ["WdfDeviceRetrieveCompanionTarget function"]
 ms.keywords: WdfDeviceRetrieveCompanionTarget, WdfDeviceRetrieveCompanionTarget method, wdf.wdfdeviceretrievecompaniontarget, wdfdevice/WdfDeviceRetrieveCompanionTarget
 req.header: wdfdevice.h
@@ -49,11 +49,11 @@ For internal use only.
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
 
-### -param CompanionTarget 
 
-[out]
+### -param CompanionTarget [out]
+
+## -returns
 

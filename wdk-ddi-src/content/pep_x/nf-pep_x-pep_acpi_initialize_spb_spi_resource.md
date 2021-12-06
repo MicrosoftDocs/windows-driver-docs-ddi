@@ -53,88 +53,88 @@ The <b>PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE</b> function initializes a platform 
 
 ## -parameters
 
-### -param DeviceSelection 
+### -param DeviceSelection [in]
 
-[in]
+
 The device selection value. This value is
 specific to the device and may refer to a chip-select line, GPIO
 line, or other line selection mechanism.
 
-### -param DeviceSelectionPolarity 
+### -param DeviceSelectionPolarity [in]
 
-[in]
+
 The polarity of the clock. If zero, this indicates the
 clock is low during the first phase. If 1, this indicates the
 clock is high during the first phase.
 
-### -param WireMode 
+### -param WireMode [in]
 
-[in]
+
 When zero, indicates that this device produces and consumes this resource. Otherwise, this device only consumes this resource.
 
-### -param DataBitLength 
+### -param DataBitLength [in]
 
-[in]
+
 The size, in bits, of the smallest unit of transfer.
 
-### -param SlaveMode 
+### -param SlaveMode [in]
 
-[in]
+
 Indicates if the resource is operating in slave mode.
 
-### -param ConnectionSpeed 
+### -param ConnectionSpeed [in]
 
-[in]
+
 The maximum speed, in hertz, supported by this connection.
 
-### -param ClockPolarity 
+### -param ClockPolarity [in]
 
-[in]
+
 The polarity of the clock. If zero, this indicates the
 clock is low during the first phase. If 1, this indicates the
 clock is high during the first phase.
 
-### -param ClockPhase 
+### -param ClockPhase [in]
 
-[in]
+
 The phase of the clock pulse on which to capture data.
 
-### -param ResourceSource 
+### -param ResourceSource [in]
 
-[in]
+
 The name of the serial bus controller device to which this
 connection descriptor applies. The name can be a fully
 qualified path, a relative path, or a simple name segment
 that utilizes the namespace search rules.
 
-### -param ResourceSourceIndex 
+### -param ResourceSourceIndex [in]
 
-[in]
+
 This parameter should always be set to zero.
 
-### -param ResourceUsage 
+### -param ResourceUsage [in]
 
-[in]
+
 Indicates if the resource is in use.
 
-### -param SharedMode 
+### -param SharedMode [in]
 
-[in]
+
 Indicates if the resource is shared.
 
-### -param VendorData 
+### -param VendorData [in]
 
-[in]
+
 A pointer to optional data that is specific to the serial bus connection type.
 
-### -param VendorDataLength 
+### -param VendorDataLength [in]
 
-[in]
+
 The length of the buffer pointed to by the <i>VendorData</i> parameter.
 
-### -param Resource 
+### -param Resource [out]
 
-[out]
+
 A pointer to the resource. The structure behind the pointer is of type <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_spb_spi_resource">PEP_ACPI_SPB_SPI_RESOURCE</a>.
 
 ## -see-also

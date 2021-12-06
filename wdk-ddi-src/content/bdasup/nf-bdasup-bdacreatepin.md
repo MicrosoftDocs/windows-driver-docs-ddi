@@ -50,19 +50,19 @@ The <b>BdaCreatePin</b> function creates a new pin in the specified filter.
 
 ## -parameters
 
-### -param pKSFilter 
+### -param pKSFilter [in]
 
-[in]
+
 Points to the filter in which to create a pin.
 
-### -param ulPinType 
+### -param ulPinType [in]
 
-[in]
+
 Specifies the type of pin to create. The BDA minidriver must define a list of pin types for each filter that it supports.
 
-### -param pulPinId 
+### -param pulPinId [out, optional]
 
-[out, optional]
+
 Points to a variable that receives the identifier for the created pin.
 
 ## -returns

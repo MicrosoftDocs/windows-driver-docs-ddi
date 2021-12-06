@@ -60,9 +60,9 @@ A pointer to the head of the already initialized sequenced, singly linked list i
 
 A pointer to the entry to be inserted.
 
-### -param Lock 
+### -param Lock [in]
 
-[in]
+
 A pointer to a caller-supplied spin lock, not currently held by the caller.
 
 ## -remarks

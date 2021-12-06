@@ -53,9 +53,9 @@ The
 
 ## -parameters
 
-### -param TimerObject 
+### -param TimerObject [in]
 
-[in]
+
 A handle to a timer object that NDIS provides when a driver calls the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatetimerobject">
      NdisAllocateTimerObject</a> function.

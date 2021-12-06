@@ -66,17 +66,17 @@ The WWAN_AUTH_SIM_CHALLENGE structure represents an authentication challenge usi
 The number of random number challenges.
 
 
-#### - Rand1[WWAN_AUTH_RAND_LEN]
+### -field Rand1[WWAN_AUTH_RAND_LEN]
 
 The first 128-bit random number challenge value. This member represents a multi-byte value in little-endian format.
 
 
-#### - Rand2[WWAN_AUTH_RAND_LEN]
+### -field Rand2[WWAN_AUTH_RAND_LEN]
 
 The second 128-bit random number challenge value. This member represents a multi-byte value in little-endian format.
 
 
-#### - Rand3[WWAN_AUTH_RAND_LEN]
+### -field Rand3[WWAN_AUTH_RAND_LEN]
 
 The third 128-bit random number challenge value. This member represents a multi-byte value in little-endian format.
 

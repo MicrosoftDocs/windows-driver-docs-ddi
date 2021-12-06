@@ -52,9 +52,9 @@ The D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL structure contains the handle to an au
 
 ## -struct-fields
 
-### -field hChannel
+### -field hChannel [in]
 
-[in] The handle to the authenticated channel that the driver destroys.
+The handle to the authenticated channel that the driver destroys.
 
 ## -see-also
 

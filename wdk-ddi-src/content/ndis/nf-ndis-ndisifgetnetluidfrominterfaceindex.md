@@ -60,9 +60,9 @@ A network interface index that NDIS assigned to a
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">
      NdisIfRegisterInterface</a> function.
 
-### -param pNetLuid 
+### -param pNetLuid [out]
 
-[out]
+
 A pointer to a caller-supplied NET_LUID variable. If 
      <b>NdisIfGetNetLuidFromInterfaceIndex</b> succeeds, NDIS writes the NET_LUID value that is associated
      with the specified network interface index to this variable.

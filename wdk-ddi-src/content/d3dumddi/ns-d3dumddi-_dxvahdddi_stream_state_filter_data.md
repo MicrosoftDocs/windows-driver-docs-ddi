@@ -52,13 +52,13 @@ The DXVAHDDDI_STREAM_STATE_FILTER_DATA structure describes stream-state data tha
 
 ## -struct-fields
 
-### -field Enable
+### -field Enable [in]
 
-[in] A Boolean value that specifies whether the filter is enabled. The default value is <b>FALSE</b>, which indicates that the filter is disabled.
+A Boolean value that specifies whether the filter is enabled. The default value is <b>FALSE</b>, which indicates that the filter is disabled.
 
-### -field Level
+### -field Level [in]
 
-[in] An INT value that specifies the filter level. The default value is the value from the <b>Default</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_filter_range_data">DXVAHDDDI_FILTER_RANGE_DATA</a> structure.
+An INT value that specifies the filter level. The default value is the value from the <b>Default</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_filter_range_data">DXVAHDDDI_FILTER_RANGE_DATA</a> structure.
 
 ## -remarks
 

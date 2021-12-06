@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param Oplock 
+### -param Oplock [in, out]
 
-[in, out]
+
 Caller-supplied pointer variable that receives the initialized opportunistic lock pointer. This variable must be initialized to <b>NULL</b> before the initial call to <b>FsRtlInitializeOplock</b>.
 
 ## -remarks

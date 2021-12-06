@@ -55,25 +55,23 @@ The
 
 ## -parameters
 
-### -param ProtocolBindingContext 
+### -param ProtocolBindingContext [in]
 
-[in]
+
 A handle to a context area that the protocol driver allocated to maintain state information about
      a binding. This handle was passed to NDIS in a previous call to 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>.
 
-### -param NetBufferList
+### -param SendCompleteFlags [in]
 
-### -param SendCompleteFlags 
 
-[in]
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to
      zero. This function supports the NDIS_SEND_COMPLETE_FLAGS_DISPATCH_LEVEL flag which; if set, indicates
      that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
      <a href="/windows-hardware/drivers/network/dispatch-irql-tracking">Dispatch IRQL Tracking</a>.
 
 
-#### - NetBufferLists [in]
+### -param NetBufferList [in]
 
 A pointer to a list of 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structures that the

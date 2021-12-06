@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param Fcb 
+### -param Fcb [in]
 
-[in]
+
 A pointer to the FCB structure.
 
-### -param FileSize 
+### -param FileSize [out]
 
-[out]
+
 A pointer where the file size file will be stored on output.
 
 ## -remarks

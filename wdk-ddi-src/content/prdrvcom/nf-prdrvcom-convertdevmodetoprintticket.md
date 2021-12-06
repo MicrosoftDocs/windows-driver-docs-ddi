@@ -55,27 +55,27 @@ The <code>IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</code> metho
 
 
 
-### -param cbDevmode 
-[in]
+### -param cbDevmode [in]
+
 The size, in bytes, of the input <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure. The size includes both the public and private portions of this structure.
 
 
-### -param pDevmode 
-[in]
+### -param pDevmode [in]
+
 A pointer to the input DEVMODEW structure.
 
 
-### -param pPrintTicket 
-[in, out]
+### -param pPrintTicket [in, out]
+
 A pointer to the partially-completed print ticket. When <code>IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</code> returns, all of the entries in the print ticket should be filled in.
 
 
-#### - cbDrvPrivateSize [in]
+### -param cbDrvPrivateSize [in]
 
 The size, in bytes, of the plug-in's private DEVMODEW structure.
 
 
-#### - pPrivateDevmode [in]
+### -param pPrivateDevmode [in]
 
 A pointer to the plug-in's private <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
 

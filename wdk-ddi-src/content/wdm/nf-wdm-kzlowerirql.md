@@ -47,9 +47,9 @@ Restores the IRQL on the current processor to its original value. For informatio
 
 ## -parameters
 
-### -param NewIrql
+### -param NewIrql [in]
 
-[in] Specifies the IRQL that was returned from <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keraiseirql">KeRaiseIrql</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keraiseirqltodpclevel">KeRaiseIrqlToDpcLevel</a>.
+Specifies the IRQL that was returned from <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keraiseirql">KeRaiseIrql</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keraiseirqltodpclevel">KeRaiseIrqlToDpcLevel</a>.
 
 ## -remarks
 

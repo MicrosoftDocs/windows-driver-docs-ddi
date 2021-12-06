@@ -52,13 +52,10 @@ The client driver calls the  **NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT** funct
 
 ## -parameters
 
-### -param Reason
+### -param Reason [out]
 
-[out] A pointer to a driver allocated [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure.
+A pointer to a driver allocated [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

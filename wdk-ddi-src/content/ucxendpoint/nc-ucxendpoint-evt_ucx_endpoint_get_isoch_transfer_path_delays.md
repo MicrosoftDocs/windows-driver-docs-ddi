@@ -51,13 +51,13 @@ UCX invokes this callback function to get information about transfer path delays
 
 ### -param UcxEndpoint
 
-### -param UcxEndpointTransferPathDelays 
+### -param UcxEndpointTransferPathDelays [in, out]
 
-[in, out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_ucx_endpoint_isoch_transfer_path_delays">UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS</a> structure that contains transfer path delay values.
 
 
-#### - Endpoint [in]
+### -param Endpoint [in]
 
 A handle to a UCXENDPOINT object that represents the isochronous endpoint for which the client driver receives the transfer path delays.
 

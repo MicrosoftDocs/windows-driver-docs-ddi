@@ -70,22 +70,22 @@ The <b>WDF_DEVICE_HWACCESS_TARGET_SIZE</b> enumeration is used internally by the
 
 ### -field WdfDeviceHwAccessTargetTypeMaximum
 
-#### - WdfDeviceHwAccessTargetSizeInvalid
+### -field WdfDeviceHwAccessTargetSizeInvalid
 
 
-#### - WdfDeviceHwAccessTargetSizeMaximum
+### -field WdfDeviceHwAccessTargetSizeMaximum
 
 
-#### - WdfDeviceHwAccessTargetSizeUchar
+### -field WdfDeviceHwAccessTargetSizeUchar
 
 
-#### - WdfDeviceHwAccessTargetSizeUlong
+### -field WdfDeviceHwAccessTargetSizeUlong
 
 
-#### - WdfDeviceHwAccessTargetSizeUlong64
+### -field WdfDeviceHwAccessTargetSizeUlong64
 
 
-#### - WdfDeviceHwAccessTargetSizeUshort
+### -field WdfDeviceHwAccessTargetSizeUshort
 
 ## -see-also
 

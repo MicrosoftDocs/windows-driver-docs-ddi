@@ -49,19 +49,19 @@ The <i>RunOnceInitialization</i> routine performs a one-time initialization oper
 
 ## -parameters
 
-### -param RunOnce 
+### -param RunOnce [in, out]
 
-[in, out]
+
 A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a> one-time initialization structure that the driver previously passed as a parameter to the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunonceexecuteonce">RtlRunOnceExecuteOnce</a> routine that called this <i>RunOnceInitialization</i> routine.
 
-### -param Parameter 
+### -param Parameter [in, out]
 
-[in, out]
+
 The <i>Parameter</i> value that the driver passed to the <b>RtlRunOnceExecuteOnce</b> routine that called this <i>RunOnceInitialization</i> routine.
 
-### -param Context 
+### -param Context [out]
 
-[out]
+
 A pointer to a PVOID variable to which the routine writes the initialization data.
 
 ## -returns

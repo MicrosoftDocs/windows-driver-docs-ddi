@@ -49,9 +49,9 @@ The <b>SerCxDeviceInitConfig</b> method is called by the serial controller drive
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in, out]
 
-[in, out]
+
 A pointer to the <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure that is to be configured.
 
 ## -returns

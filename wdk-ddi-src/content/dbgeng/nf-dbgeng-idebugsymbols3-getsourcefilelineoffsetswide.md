@@ -49,24 +49,24 @@ The <b>GetSourceFileLineOffsetsWide</b>  method maps each line in a source file 
 
 ## -parameters
 
-### -param File 
+### -param File [in]
 
-[in]
+
 Specifies the name of the file whose lines will be turned into locations in the target's memory.  The symbols for each module in the target are queried for this file.  If the file is not located, the path is dropped and the symbols are queried again.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the locations in the target's memory that correspond to the lines of the source code.  The first entry returned to this array corresponds to the first line of the file, so that <code>Buffer[i]</code> contains the location for line <code>i+1</code>.  If no symbol information is available for a line, the corresponding entry in <i>Buffer</i> is set to DEBUG_INVALID_OFFSET.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferLines 
+### -param BufferLines [in]
 
-[in]
+
 Specifies the number of PULONG64 objects that the <i>Buffer</i> array can hold.
 
-### -param FileLines 
+### -param FileLines [out, optional]
 
-[out, optional]
+
 Receives the number of lines in the source file specified by <i>File</i>.
 
 ## -returns

@@ -49,14 +49,14 @@ Sets the state of the Mute node in the path of the audio stream.
 
 ## -parameters
 
-### -param ulChannel 
+### -param ulChannel [in]
 
-[in]
+
 The channel for the audio stream.
 
-### -param bMute 
+### -param bMute [in]
 
-[in]
+
 The state to which the Mute node will be set.
 
 ## -returns

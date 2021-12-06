@@ -48,13 +48,13 @@ The **FltGetContextsEx** routine retrieves a minifilter driver's contexts for th
 
 ## -parameters
 
-### -param FltObjects
+### -param FltObjects [in]
 
-[in] Pointer to a [**FLT_RELATED_OBJECTS**](ns-fltkernel-_flt_related_objects.md) structure containing opaque pointers for the objects related to the current operation. For more information about this parameter, see the Remarks section.
+Pointer to a [**FLT_RELATED_OBJECTS**](ns-fltkernel-_flt_related_objects.md) structure containing opaque pointers for the objects related to the current operation. For more information about this parameter, see the Remarks section.
 
-### -param DesiredContexts
+### -param DesiredContexts [in]
 
-[in] Type of contexts to retrieve. This parameter can have one or more of the following values:
+Type of contexts to retrieve. This parameter can have one or more of the following values:
 
 - FLT_ALL_CONTEXTS
 - FLT_FILE_CONTEXT (Windows Vista and later only)
@@ -65,13 +65,13 @@ The **FltGetContextsEx** routine retrieves a minifilter driver's contexts for th
 - FLT_VOLUME_CONTEXT
 - FLT_SECTION_CONTEXT (Windows 8 and later only.)
 
-### -param ContextsSize
+### -param ContextsSize [in]
 
-[in] The size, in bytes, of the [**FLT_RELATED_CONTEXTS_EX**](ns-fltkernel-_flt_related_contexts_ex.md) structure pointed to by *Contexts*. Set to **sizeof**(FLT_RELATED_CONTEXTS_EX).
+The size, in bytes, of the [**FLT_RELATED_CONTEXTS_EX**](ns-fltkernel-_flt_related_contexts_ex.md) structure pointed to by *Contexts*. Set to **sizeof**(FLT_RELATED_CONTEXTS_EX).
 
-### -param Contexts
+### -param Contexts [out]
 
-[out] Pointer to a caller-allocated [**FLT_RELATED_CONTEXTS_EX**](ns-fltkernel-_flt_related_contexts_ex.md) structure that receives the requested contexts. Contexts that are not requested, or requested but not found, are set to zero.
+Pointer to a caller-allocated [**FLT_RELATED_CONTEXTS_EX**](ns-fltkernel-_flt_related_contexts_ex.md) structure that receives the requested contexts. Contexts that are not requested, or requested but not found, are set to zero.
 
 ## -returns
 

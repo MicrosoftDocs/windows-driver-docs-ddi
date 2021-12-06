@@ -50,18 +50,18 @@ The<b> KsPinAttemptProcessing</b> function is used to resume processing on a spe
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure that represents the AVStream pin object on which to attempt processing.
 
 
 <div class="alert"><b>Warning</b>  This parameter is mandatory. If you call <b>KsPinAttemptProcessing</b> with a <i>Pin</i> value of <b>NULL</b>, system instability may result.</div>
 <div> </div>
 
-### -param Asynchronous 
+### -param Asynchronous [in]
 
-[in]
+
 This parameter indicates the minidriver's preference whether the processing should occur synchronously or asynchronously. If <b>TRUE</b>, processing is always asynchronous. However, synchronous processing only happens under certain circumstances. For more information, see the Remarks section below.
 
 ## -remarks

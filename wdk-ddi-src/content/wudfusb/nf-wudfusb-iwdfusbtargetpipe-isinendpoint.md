@@ -49,8 +49,6 @@ api_name:
 
 The <b>IsInEndPoint</b> method determines whether a USB pipe (endpoint) is an IN pipe.
 
-## -parameters
-
 ## -returns
 
 <b>IsInEndPoint</b> returns a BOOL value that indicates whether the USB pipe is an IN pipe. <b>TRUE</b> indicates the pipe is an IN pipe. <b>FALSE</b> indicates the pipe is not an IN pipe.

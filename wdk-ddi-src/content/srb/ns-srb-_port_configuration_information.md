@@ -261,7 +261,7 @@ Specifies the maximum number of logical units per target the HBA can control. By
 Indicates when <b>TRUE</b> that the miniport driver responds to Windows Management Instrumentation (WMI) requests. When <b>FALSE</b> the miniport driver does not respond to Windows Management Instrumentation (WMI) requests. By default, the value of this member is <b>FALSE</b>.
 
 
-#### - (*AccessRanges)
+### -field (*AccessRanges)
 
 Pointer to an array of <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_access_range">ACCESS_RANGE</a>-type elements. The given <b>NumberOfAccessRanges</b> determines how many elements must be configured with bus-relative range values. The <b>AccessRanges</b> pointer must be <b>NULL</b> if <b>NumberOfAccessRanges</b> is zero. If possible, the OS-specific port driver initializes this member's elements, possibly from the registry or possibly by interrogating an I/O bus, for an HBA it found by using the miniport driver's specified <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a>. Otherwise, the port driver initializes all values within array elements to zero.
 

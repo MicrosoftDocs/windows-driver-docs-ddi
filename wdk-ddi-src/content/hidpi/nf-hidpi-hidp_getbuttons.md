@@ -6,7 +6,7 @@ description: The HidP_GetButtons macro is a mnemonic alias for the HHidP_GetUsag
 tech.root: hid
 ms.assetid: 56255105-7dc3-4cc8-9dd0-d0c57339993e
 ms.author: windowsdriverdev
-ms.date: 1/29/2021
+ms.date: 12/02/2021
 ms.keywords: HidP_GetButtons
 req.header: hidpi.h
 req.include-header: hidpi.h
@@ -43,9 +43,7 @@ targetos: Windows
 
 ## -description
 
-The **HidP\_GetButtons** macro is a mnemonic alias for the [**HidP\_GetUsages**](./nf-hidpi-hidp_getusages.md) function.
-
-See [**HidP\_GetUsages**](./nf-hidpi-hidp_getusages.md) for parameter and return details.
+The **HidP_GetButtons** macro is a mnemonic alias for the [**HidP_GetUsages**](./nf-hidpi-hidp_getusages.md) function.
 
 ## -syntax
 
@@ -56,8 +54,42 @@ See [**HidP\_GetUsages**](./nf-hidpi-hidp_getusages.md) for parameter and return
 
 ## -parameters
 
+### -param Rty [in]
+
+Specifies a [**HIDP_REPORT_TYPE**](/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type) enumerator value that identifies the report type.
+
+### -param UPa [in]
+
+Specifies the [usage page](/windows-hardware/drivers/hid/hid-usages) of the button usages. The routine only returns information about buttons on this usage page.
+
+### -param LCo [in]
+
+Specifies the [link collection](/windows-hardware/drivers/hid/link-collections) of the button usages. If *LCo* is nonzero, the routine only returns information about the buttons that this link collection contains; otherwise, if *LCo* is zero, the routine returns information about all the buttons in the [top-level collection](/windows-hardware/drivers/hid/top-level-collections) associated with *Ppd*.
+
+### -param ULi [out]
+
+Pointer to a caller-allocated buffer that the routine uses to return the usages of all buttons that are set to ON and belong to the usage page specified by *UPa*.
+
+### -param ULe [in, out]
+
+Specifies, on input, the length, in array elements, of the *ULi* buffer. Specifies, on output, the number of buttons that are set to ON on the specified usage page.
+
+### -param Ppd [in]
+
+Pointer to a top-level collection's [pre-parsed data](/windows-hardware/drivers/hid/preparsed-data).
+
+### -param Rep [out]
+
+Pointer to a report.
+
+### -param RLe [in]
+
+Specifies the length, in bytes, of the report located at *Rep*.
+
 ## -returns
+
+See [**HidP_GetUsages**](./nf-hidpi-hidp_getusages.md) for return value details.
 
 ## -see-also
 
-[**HidP\_GetUsages**](./nf-hidpi-hidp_getusages.md)
+- [**HidP_GetUsages**](./nf-hidpi-hidp_getusages.md)

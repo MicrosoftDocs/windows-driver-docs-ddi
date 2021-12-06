@@ -57,9 +57,9 @@ Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-
 
 Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_unifontobj">UNIFONTOBJ</a> structure.
 
-### -param pdwResult 
+### -param pdwResult [out]
 
-[out]
+
 Receives a method-supplied value representing the amount of printer memory, in bytes, required to store the font header information. If the operation fails, the returned value should be zero.
 
 ## -returns

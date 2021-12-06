@@ -60,9 +60,9 @@ The zero-based index of the overlay plane to display. The top plane (in the z-di
 
 Indicates if the overlay plane specified by <b>LayerIndex</b> is enabled for display.
 
-### -field PhysicalAddress
+### -field PhysicalAddress [in]
 
-[in] A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address within the segment where the data is read.
+A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address within the segment where the data is read.
 
 ### -field PlaneAttributes
 

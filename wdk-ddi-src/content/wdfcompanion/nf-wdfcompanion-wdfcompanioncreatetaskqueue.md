@@ -4,7 +4,7 @@ title: WdfCompanionCreateTaskQueue function (wdfcompanion.h)
 description: This WdfCompanionCreateTaskQueue function article is for internal use only.
 old-location: wdf\wdfcompanioncreatetaskqueue.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 11/01/2021
 keywords: ["WdfCompanionCreateTaskQueue function"]
 ms.keywords: WdfCompanionCreateTaskQueue, WdfCompanionCreateTaskQueue method, wdf.wdfcompanioncreatetaskqueue, wdfcompanion/WdfCompanionCreateTaskQueue
 req.header: wdfcompanion.h
@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param Companion 
+### -param Companion [in]
 
-[in]
 
-### -param Config 
 
-[in]
+### -param Config [in]
 
-### -param QueueAttributes 
 
-[in, optional]
 
-### -param Queue 
+### -param QueueAttributes [in, optional]
 
-[out, optional]
 
+
+### -param Queue [out, optional]
+
+
+## -returns

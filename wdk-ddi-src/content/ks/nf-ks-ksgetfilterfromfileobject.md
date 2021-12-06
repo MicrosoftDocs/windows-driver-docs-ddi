@@ -49,9 +49,9 @@ The<b> KsGetFilterFromFileObject </b>function returns the AVStream filter object
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a> for which to return the associated AVStream filter object.
 
 ## -returns

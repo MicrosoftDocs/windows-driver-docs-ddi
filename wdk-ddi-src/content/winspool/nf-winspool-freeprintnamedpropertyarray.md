@@ -47,11 +47,11 @@ api_name:
 
 ## -parameters
 
-### -param cProperties 
+### -param cProperties [in]
 
-[in]
 
-### -param ppProperties 
 
-[in, out, optional]
+### -param ppProperties [in, out, optional]
+
+
 

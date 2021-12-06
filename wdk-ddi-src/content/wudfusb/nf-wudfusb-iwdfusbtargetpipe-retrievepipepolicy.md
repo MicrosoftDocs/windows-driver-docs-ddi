@@ -51,19 +51,19 @@ The <b>RetrievePipePolicy</b> method retrieves a WinUsb pipe policy.
 
 ## -parameters
 
-### -param PolicyType 
+### -param PolicyType [in]
 
-[in]
+
 The type of WinUsb pipe policy that the UMDF driver requests.
 
-### -param ValueLength 
+### -param ValueLength [in, out]
 
-[in, out]
+
 A pointer to a variable that, on input, contains the size, in bytes, of the buffer that <b>RetrievePipePolicy</b> supplies for <i>Value</i>. On output, this parameter contains the size that <b>RetrievePipePolicy</b> requires for <i>Value</i>.
 
-### -param Value 
+### -param Value [out]
 
-[out]
+
 A pointer that receives the buffer that contains the WinUsb pipe policy.
 
 ## -returns

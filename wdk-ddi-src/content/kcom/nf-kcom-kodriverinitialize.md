@@ -52,19 +52,19 @@ The <b>KoDriverInitialize</b> function initializes a driver object to handle the
 
 ## -parameters
 
-### -param DriverObject 
+### -param DriverObject [in]
 
-[in]
+
 Pointer to a driver object to initialize that handles the kernel streaming interface.
 
-### -param RegistryPathName 
+### -param RegistryPathName [in]
 
-[in]
+
 Pointer to the registry path that is associated with the driver object.
 
-### -param CreateObjectHandler 
+### -param CreateObjectHandler [in]
 
-[in]
+
 Pointer to a function used to create new objects.
 
 ## -returns

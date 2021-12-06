@@ -49,9 +49,9 @@ The <b>IoDeassignArcName</b> routine removes a symbolic link between the ARC nam
 
 ## -parameters
 
-### -param ArcName 
+### -param ArcName [in]
 
-[in]
+
 Pointer to a buffered Unicode string that is the ARC name.
 
 ## -remarks

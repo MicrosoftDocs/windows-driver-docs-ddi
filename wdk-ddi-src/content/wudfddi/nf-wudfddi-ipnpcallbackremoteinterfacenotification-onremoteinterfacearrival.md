@@ -51,9 +51,9 @@ A driver's <b>OnRemoteInterfaceArrival</b> event callback function informs the d
 
 ## -parameters
 
-### -param pWdfRemoteInterfaceInit 
+### -param pWdfRemoteInterfaceInit [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremoteinterfaceinitialize">IWDFRemoteInterfaceInitialize</a> interface that identifies the device interface that has arrived.
 
 ## -remarks

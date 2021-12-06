@@ -49,14 +49,14 @@ This is a caller-supplied function to be called by the protocol driver when the 
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to the context supplied by the caller at the <b>Context</b> member of the input BUS_RESET_NOTIFY structure.
 
-### -param BusResetInfo 
+### -param BusResetInfo [in]
 
-[in]
+
 The bus reset information.
 
 ## -see-also

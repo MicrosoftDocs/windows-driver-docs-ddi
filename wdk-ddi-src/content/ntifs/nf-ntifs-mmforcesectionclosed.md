@@ -49,14 +49,14 @@ The <b>MmForceSectionClosed</b> routine deletes the data and image sections for 
 
 ## -parameters
 
-### -param SectionObjectPointer 
+### -param SectionObjectPointer [in]
 
-[in]
+
 A pointer to a structure that contains the file object's section object pointers.
 
-### -param DelayClose 
+### -param DelayClose [in]
 
-[in]
+
 A Boolean value that specifies whether the section is subsequently deleted if <b>MmForceSectionClosed</b> cannot delete the section synchronously (that is, prior to <b>MmForceSectionClosed</b> returning). 
 
 <b>TRUE</b> indicates that if <b>MmForceSectionClosed</b> cannot delete the section synchronously, <b>MmForceSectionClosed</b> sets a flag. With this flag set, when the section's outstanding reference count reaches zero, the memory manager deletes the section automatically. 

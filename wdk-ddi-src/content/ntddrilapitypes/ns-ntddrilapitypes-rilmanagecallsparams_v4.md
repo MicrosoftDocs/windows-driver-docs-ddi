@@ -4,7 +4,7 @@ title: RILMANAGECALLSPARAMS_V4 (ntddrilapitypes.h)
 description: "Microsoft reserves the RILMANAGECALLSPARAMS_V4 structure for internal use only. Don't use the RILMANAGECALLSPARAMS_V4 structure in your code."
 old-location: netvista\rilmanagecallsparams_v4.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/02/2021
 keywords: ["RILMANAGECALLSPARAMS_V4 structure"]
 ms.keywords: "*LPRILMANAGECALLSPARAMS, *LPRILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS, RILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS_V4 structure [Network Drivers Starting with Windows Vista], netvista.rilmanagecallsparams_v4, ntddrilapitypes/RILMANAGECALLSPARAMS_V4"
 req.header: ntddrilapitypes.h
@@ -64,5 +64,5 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ### -field raAddress
 
-### -field dwRTTAction
+### -field stRTTInfo
 

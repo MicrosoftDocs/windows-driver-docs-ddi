@@ -47,17 +47,17 @@ This routine initializes a PROPVARIANT from a given array of GUIDs. The routine 
 
 ## -parameters
 
-### -param members
+### -param members [in]
 
-[in] Array of GUIDs to initialize PROPVARIANT value.
+Array of GUIDs to initialize PROPVARIANT value.
 
-### -param size
+### -param size [in]
 
-[in] Size of array of GUIDs being sent in.
+Size of array of GUIDs being sent in.
 
-### -param ppropvar
+### -param ppropvar [out]
 
-[out] Pointer to a PROPVARIANT.
+Pointer to a PROPVARIANT.
 
 ## -returns
 

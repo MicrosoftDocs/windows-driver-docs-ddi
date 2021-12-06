@@ -49,33 +49,33 @@ The D3D11DDIARG_CREATEDEPTHSTENCILVIEW structure describes the depth-stencil vie
 
 ## -struct-fields
 
-### -field hDrvResource
+### -field hDrvResource [in]
 
-[in] A handle to the base depth stencil resource.
+A handle to the base depth stencil resource.
 
-### -field Format
+### -field Format [in]
 
-[in] A DXGI_FORMAT-typed value that indicates the pixel format of the depth-stencil view.
+A DXGI_FORMAT-typed value that indicates the pixel format of the depth-stencil view.
 
-### -field ResourceDimension
+### -field ResourceDimension [in]
 
-[in] A <a href="/previous-versions/windows/hardware/drivers/ff541810(v=vs.85)">D3D10DDIRESOURCE_TYPE</a>-typed value that indicates the resource type and dimensionality of the base resource.
+A <a href="/previous-versions/windows/hardware/drivers/ff541810(v=vs.85)">D3D10DDIRESOURCE_TYPE</a>-typed value that indicates the resource type and dimensionality of the base resource.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A valid bitwise OR of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_ddi_createdepthstencilview_flag">D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG</a>-typed values that indicates the type of depth-stencil view to create.
+A valid bitwise OR of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_ddi_createdepthstencilview_flag">D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG</a>-typed values that indicates the type of depth-stencil view to create.
 
-### -field Tex1D
+### -field Tex1D [in]
 
-[in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE1D, a member in the union that is contained in D3D10DDIARG_CREATEDEPTHSTENCILVIEW that can hold a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_tex1d_depthstencilview">D3D10DDIARG_TEX1D_DEPTHSTENCILVIEW</a> structure for a one-dimensional texture.
+If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE1D, a member in the union that is contained in D3D10DDIARG_CREATEDEPTHSTENCILVIEW that can hold a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_tex1d_depthstencilview">D3D10DDIARG_TEX1D_DEPTHSTENCILVIEW</a> structure for a one-dimensional texture.
 
-### -field Tex2D
+### -field Tex2D [in]
 
-[in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE2D, a member in the union that is contained in D3D10DDIARG_CREATEDEPTHSTENCILVIEW that can hold a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_tex2d_depthstencilview">D3D10DDIARG_TEX2D_DEPTHSTENCILVIEW</a> structure for a two-dimensional texture.
+If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE2D, a member in the union that is contained in D3D10DDIARG_CREATEDEPTHSTENCILVIEW that can hold a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_tex2d_depthstencilview">D3D10DDIARG_TEX2D_DEPTHSTENCILVIEW</a> structure for a two-dimensional texture.
 
-### -field TexCube
+### -field TexCube [in]
 
-[in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURECUBE, a member in the union that is contained in D3D10DDIARG_CREATEDEPTHSTENCILVIEW that can hold a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_texcube_depthstencilview">D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW</a> structure for a cube texture.
+If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURECUBE, a member in the union that is contained in D3D10DDIARG_CREATEDEPTHSTENCILVIEW that can hold a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_texcube_depthstencilview">D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW</a> structure for a cube texture.
 
 ## -see-also
 

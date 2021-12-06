@@ -52,14 +52,14 @@ The <b>KsServiceBusEnumPnpRequest</b> function services IRP_MJ_PNP requests on b
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object.
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 Pointer to the IRP associated with the device object.
 
 ## -returns

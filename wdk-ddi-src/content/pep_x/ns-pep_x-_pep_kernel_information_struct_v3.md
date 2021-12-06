@@ -86,27 +86,27 @@ A pointer to a [RequestInterrupt](../pepfx/nc-pepfx-pofxcallbackrequestinterrupt
 
 A pointer to a [TransitionCriticalResource](../pepfx/nc-pepfx-pofxcallbackcriticalresource.md) routine. PoFx sets the value of this member. The **TransitionCriticalResource** routine is implemented by PoFx. The PEP calls this routine to transition critical system resources to the idle condition.
 
-#### - ProcessorIdleVeto
+### -field ProcessorIdleVeto
 
 A pointer to a [ProcessorIdleVeto](../pepfx/nc-pepfx-pofxcallbackprocessoridleveto.md) routine. PoFx sets the value of this member. The **ProcessorIdleVeto** routine is implemented by PoFx. The PEP calls this routine to increment or decrement the veto count for a pending transition to a processor idle state.
 
-#### - PlatformIdleVeto
+### -field PlatformIdleVeto
 
 A pointer to a [PlatformIdleVeto](../pepfx/nc-pepfx-pofxcallbackplatformidleveto.md) routine. PoFx sets the value of this member. The **PlatformIdleVeto** routine is implemented by PoFx. The PEP calls this routine to increment or decrement the veto count for a pending transition to a platform idle state.
 
-#### - UpdateProcessorIdleState
+### -field UpdateProcessorIdleState
 
 A pointer to an [UpdateProcessorIdleState](../pepfx/nc-pepfx-pofxcallbackupdateprocessoridlestate.md) routine. PoFx sets the value of this member. The **UpdateProcessorIdleState** routine is implemented by PoFx. The PEP calls this routine to update the properties of the specified processor idle state.
 
-#### - UpdatePlatformIdleState
+### -field UpdatePlatformIdleState
 
 A pointer to an [UpdatePlatformIdleState](../pepfx/nc-pepfx-pofxcallbackupdateplatformidlestate.md) routine. PoFx sets the value of this member. The **UpdatePlatformIdleState** routine is implemented by PoFx. The PEP calls this routine to update the properties of the specified platform idle state.
 
-#### - RequestCommon
+### -field RequestCommon
 
 A pointer to an [RequestCommon](../pepfx/nc-pepfx-pofxcallbackrequestcommon.md) routine. PoFx sets the value of this member. The **RequestCommon** routine is implemented by PoFx. The PEP calls this routine to perform a processing operation that is specified by a request ID.
 
-#### - CompleteWork
+### -field CompleteWork
 
 A pointer to a **CompleteWork** routine. PoFx sets the value of this member. The **CompleteWork** routine is implemented by PoFx. The PEP calls this routine to notify PoFx that the PEP has completed a work item.
 

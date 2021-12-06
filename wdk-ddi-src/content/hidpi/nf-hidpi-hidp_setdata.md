@@ -50,34 +50,34 @@ The <b>HidP_SetData</b> routine sets a specified set of HID control button and v
 
 ## -parameters
 
-### -param ReportType 
+### -param ReportType [in]
 
-[in]
+
 Specifies a <a href="/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report located at <i>Report</i>.
 
-### -param DataList 
+### -param DataList [in, out]
 
-[in, out]
+
 Pointer to a caller-allocated array of <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_data">HIDP_DATA</a> structures that specify which buttons and usage values to set.
 
-### -param DataLength 
+### -param DataLength [in, out]
 
-[in, out]
+
 Specifies, on input, the number of members in the <i>DataList</i> array. For information about the output value, see the Remarks section.
 
-### -param PreparsedData 
+### -param PreparsedData [in]
 
-[in]
+
 Pointer to a top-level's <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
-### -param Report 
+### -param Report [in]
 
-[in]
+
 Pointer to a HID report.
 
-### -param ReportLength 
+### -param ReportLength [in]
 
-[in]
+
 Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps">HidP_GetCaps</a> returns in a collection's <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a> structure.
 
 ## -returns

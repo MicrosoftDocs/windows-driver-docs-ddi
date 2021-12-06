@@ -52,14 +52,14 @@ It first searches the control pending events database, and then the data pending
 
 ## -parameters
 
-### -param device 
+### -param device [in]
 
-[in]
+
 A handle to a framework device object that represents the device.
 
-### -param request 
+### -param request [in]
 
-[in]
+
 A handle to a framework request object that represents the read request if **PosCxGetPendingEvent** is called from the device read callback.
 
 ## -returns

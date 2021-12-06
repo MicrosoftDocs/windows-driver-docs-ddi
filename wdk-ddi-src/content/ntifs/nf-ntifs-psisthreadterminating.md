@@ -49,9 +49,9 @@ The <b>PsIsThreadTerminating</b> routine checks whether a thread is terminating.
 
 ## -parameters
 
-### -param Thread 
+### -param Thread [in]
 
-[in]
+
 A pointer to the thread to be checked for termination.
 
 ## -returns
