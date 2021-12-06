@@ -111,6 +111,9 @@ In the preceding diagram, function A in the driver thread calls function B twice
 
 If <b>KeSetSystemGroupAffinityThread</b> is called at IRQL <= APC_LEVEL and the call is successful, the new group affinity takes effect immediately. When the call returns, the calling thread is already running on a processor that is specified in the new group affinity. If <b>KeSetSystemGroupAffinityThread</b> is called at IRQL = DISPATCH_LEVEL and the call is successful, the pending processor change is deferred until the caller lowers the IRQL below DISPATCH_LEVEL.
 
+Starting with Windows 11 and Windows Server 2022, on a system with more than 64 processors, process and thread affinities span all processors in the system, across all <a href="/windows/desktop/ProcThread/processor-groups">processor groups</a>, by default.
+In order to set a thread's system group affinity over multiple processor groups, use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pssetsystemmultiplegroupaffinitythread">PsSetSystemMultipleGroupAffinityThread</a>.
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a>
@@ -122,3 +125,7 @@ If <b>KeSetSystemGroupAffinityThread</b> is called at IRQL <= APC_LEVEL and the 
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetsystemaffinitythreadex">KeSetSystemAffinityThreadEx</a>
+
+
+
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pssetsystemmultiplegroupaffinitythread">PsSetSystemMultipleGroupAffinityThread</a>
