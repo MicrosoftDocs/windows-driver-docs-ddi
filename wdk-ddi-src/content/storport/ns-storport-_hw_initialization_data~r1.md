@@ -72,7 +72,7 @@ Pointer to the miniport driver's [**HwStorInterrupt**](nc-storport-hw_interrupt.
 
 ### -field HwFindAdapter
 
-Pointer to the miniport driver's [**HwStorFindAdapter**]nc-storport-hw_find_adapter.md) routine, which is a required entry point for all miniport drivers.
+Pointer to the miniport driver's [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routine, which is a required entry point for all miniport drivers.
 
 ### -field HwResetBus
 
