@@ -59,7 +59,7 @@ Indicates whether IOCTL current value is requested or IRP should complete upon n
 
 ### -field Status
 
-TBD
+Indicates status of the device.
 
 ## -remarks
 

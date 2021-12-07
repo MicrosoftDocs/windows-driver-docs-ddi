@@ -60,9 +60,23 @@ Number of Input parameters.
 
 ### -field Alignment
 
-TBD
+Alignment - Allows for byte alignment.
 
 ## -remarks
+
+Union fields described here.
+
+#### EpIndex
+
+0 based index indicating the Endpoint on device.
+
+#### Format
+
+Stream Format KSDATAFORMAT.
+
+#### SiopCount
+
+Number of Input parameters.
 
 ## -see-also
 
