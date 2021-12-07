@@ -59,3 +59,6 @@ Reserved.
 
 Reserved.
 
+## -returns
+
+Returns STATUS_SUCCESS if the operation completes successfully.

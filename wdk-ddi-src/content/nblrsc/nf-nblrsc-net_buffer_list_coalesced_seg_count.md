@@ -1,7 +1,7 @@
 ---
 UID: NF:nblrsc.NET_BUFFER_LIST_COALESCED_SEG_COUNT
 title: NET_BUFFER_LIST_COALESCED_SEG_COUNT
-ms.date: 11/30/2020
+ms.date: 12/02/2021
 targetos: Windows
 description: The NET_BUFFER_LIST_COALESCED_SEG_COUNT is a macro that NDIS drivers use to get and set the number of coalesced segments in a NET_BUFFER_LIST structure.
 tech.root: netvista

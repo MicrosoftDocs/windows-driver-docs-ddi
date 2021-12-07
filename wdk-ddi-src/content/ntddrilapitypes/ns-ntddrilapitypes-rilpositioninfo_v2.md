@@ -4,7 +4,7 @@ title: RILPOSITIONINFO_V2 (ntddrilapitypes.h)
 description: This structure represents the RILPOSITIONINFO_V2.
 old-location: netvista\rilpositioninfo_v2.htm
 tech.root: netvista
-ms.date: 02/16/2018
+ms.date: 12/03/2021
 keywords: ["RILPOSITIONINFO_V2 structure"]
 ms.keywords: "*LPRILPOSITIONINFO, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO, RILPOSITIONINFO_V2, RILPOSITIONINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfo_v2, rilapitypes/RILPOSITIONINFO_V2"
 req.header: ntddrilapitypes.h

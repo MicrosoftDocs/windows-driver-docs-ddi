@@ -54,3 +54,6 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 Reserved.
 
+## -returns
+
+Returns STATUS_SUCCESS if the operation completes successfully.
