@@ -4,7 +4,7 @@ title: WdfDeviceAddQueryInterface function (wdfqueryinterface.h)
 description: The WdfDeviceAddQueryInterface method creates a driver-defined interface that other drivers can query and use.
 old-location: wdf\wdfdeviceaddqueryinterface.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 12/07/2021
 keywords: ["WdfDeviceAddQueryInterface function"]
 ms.keywords: DFDeviceObjectDriverDefIntRef_6d1dbdca-5adf-4641-91c9-7c59e2af6869.xml, WdfDeviceAddQueryInterface, WdfDeviceAddQueryInterface method, kmdf.wdfdeviceaddqueryinterface, wdf.wdfdeviceaddqueryinterface, wdfqueryinterface/WdfDeviceAddQueryInterface
 req.header: wdfqueryinterface.h
@@ -129,6 +129,9 @@ This method might also return other <a href="/windows-hardware/drivers/kernel/nt
 A system bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
+
+> [!NOTE]
+> WdfDeviceAddQueryInterface cannot be called for a [control device](/windows-hardware/drivers/wdf/using-control-device-objects).
 
 Drivers that create driver-defined interfaces typically call <b>WdfDeviceAddQueryInterface</b> from within an <a href="/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> or <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a> callback function.
 
