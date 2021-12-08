@@ -4,7 +4,7 @@ title: ExInterlockedFlushSList function (wdm.h)
 description: The ExInterlockedFlushSList routine atomically removes all entries from a sequenced singly linked list.
 old-location: kernel\exinterlockedflushslist.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/07/2021
 keywords: ["ExInterlockedFlushSList macro"]
 ms.keywords: ExInterlockedFlushSList, ExInterlockedFlushSList routine [Kernel-Mode Driver Architecture], k102_493935e2-44c7-471b-807f-ca6f110d8155.xml, kernel.exinterlockedflushslist, wdm/ExInterlockedFlushSList
 req.header: wdm.h
@@ -47,15 +47,28 @@ api_name:
 
 The <b>ExInterlockedFlushSList</b> routine atomically removes all entries from a sequenced singly linked list.
 
+## -syntax
+
+```cpp
+NTKERNELAPI
+PSLIST_ENTRY
+FASTCALL
+ExInterlockedFlushSList (
+    _Inout_ PSLIST_HEADER ListHead
+    );
+```
+
 ## -parameters
 
-### -param ListHead
+### -param ListHead [in, out]
 
 A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list.
 
-## -remarks
+## -returns
 
 If there were entries on the specified list, **ExInterlockedFlushSList** returns a pointer to the first [**SLIST_ENTRY**](./ns-wdm-_slist_entry.md) structure that was entry on the list; otherwise, it returns NULL.
+
+## -remarks
 
 
 <b>ExInterlockedFlushSList</b> does not delete the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_slist_entry">SLIST_ENTRY</a> structures that made up the list; it only sets the internal pointer of <i>ListHead</i> to the beginning of the list to <b>NULL</b>. The driver must free the entries explicitly.
