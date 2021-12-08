@@ -60,16 +60,13 @@ ExInterlockedFlushSList (
 
 ## -parameters
 
-### -param ListHead [in, out]
+### -param Head [in, out]
 
 A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list.
 
-## -returns
-
-If there were entries on the specified list, **ExInterlockedFlushSList** returns a pointer to the first [**SLIST_ENTRY**](./ns-wdm-_slist_entry.md) structure that was entry on the list; otherwise, it returns NULL.
-
 ## -remarks
 
+If there were entries on the specified list, **ExInterlockedFlushSList** returns a pointer to the first [**SLIST_ENTRY**](./ns-wdm-_slist_entry.md) structure that was entry on the list; otherwise, it returns NULL.
 
 <b>ExInterlockedFlushSList</b> does not delete the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_slist_entry">SLIST_ENTRY</a> structures that made up the list; it only sets the internal pointer of <i>ListHead</i> to the beginning of the list to <b>NULL</b>. The driver must free the entries explicitly.
 
