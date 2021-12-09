@@ -50,7 +50,7 @@ The <b>ExReleaseSpinLockShared</b> routine releases ownership of a  <a href="/wi
 
 ## -parameters
 
-### -param param [in, out]
+### -param SpinLock [in, out]
 
 
 A pointer to the spin lock to release. The caller must own this spin lock for shared access.

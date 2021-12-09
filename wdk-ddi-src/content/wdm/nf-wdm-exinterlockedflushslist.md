@@ -66,7 +66,7 @@ A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">SLIST_HEADE
 
 ## -returns
 
-If there were entries on the specified list, **ExInterlockedFlushSList** returns a pointer to the first [**SLIST_ENTRY**](./ns-wdm-_slist_entry.md) structure that was entry on the list; otherwise, it returns NULL.
+If there were entries on the specified list, **ExInterlockedFlushSList** returns a pointer to the first [**SLIST_ENTRY**](./ns-wdm-_slist_entry.md) structure that was an entry on the list; otherwise, it returns NULL.
 
 ## -remarks
 
