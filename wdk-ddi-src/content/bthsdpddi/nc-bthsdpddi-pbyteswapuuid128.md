@@ -4,7 +4,7 @@ title: PBYTESWAPUUID128 (bthsdpddi.h)
 description: The Bluetooth SdpByteSwapUuid128 function is used to reverse the byte order of a 128-bit universally unique identifier (UUID).
 old-location: bltooth\sdpbyteswapuuid128.htm
 tech.root: bltooth
-ms.date: 04/27/2018
+ms.date: 12/01/2021
 keywords: ["PBYTESWAPUUID128 callback function"]
 ms.keywords: PBYTESWAPUUID128, PBYTESWAPUUID128 callback, SdpByteSwapUuid128, SdpByteSwapUuid128 callback function [Bluetooth Devices], bltooth.sdpbyteswapuuid128, bth_funcs_b14ffa6d-3cad-4683-94fe-367272b9afb1.xml, sdplib/SdpByteSwapUuid128
 req.header: bthsdpddi.h
@@ -44,12 +44,9 @@ product:
 
 # PBYTESWAPUUID128 callback function
 
-
 ## -description
 
-The Bluetooth 
-  <b>SdpByteSwapUuid128</b> function is used to reverse the byte order of a 128-bit universally unique
-  identifier (UUID).
+The Bluetooth **SdpByteSwapUuid128** function is used to reverse the byte order of a 128-bit universally unique identifier (UUID).
 
 ## -parameters
 
@@ -59,22 +56,14 @@ A pointer to the 128-bit GUID for which to reverse the byte order.
 
 ### -param pUuiidTo
 
-### -param pUuidTo
-
 A pointer to the converted 128-bit GUID.
 
 ## -remarks
 
-The 
-    <b>SdpByteSwapUuid128</b> function always reverses the byte order of the value pointed to by the *
-    <i>pUuidFrom</i> parameter. Writers of Bluetooth device drivers can use this function to convert 128-bit
-    GUID values from the byte order on the local computer to the byte order of the network that the computer
-    is connected to.
+The **SdpByteSwapUuid128** function always reverses the byte order of the value pointed to by the *pUuidFrom* parameter. Use this function to convert 128-bit GUID values from the byte order on the local computer to the byte order of the network to which the computer is connected.
 
-Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>.
+Bluetooth profile drivers can obtain a pointer to this function through the [BTHDDI_SDP_PARSE_INTERFACE](/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>
-
+- [BTHDDI_SDP_PARSE_INTERFACE](/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface)

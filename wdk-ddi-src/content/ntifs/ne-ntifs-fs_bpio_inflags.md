@@ -2,7 +2,7 @@
 UID: NE:ntifs._FS_BPIO_INFLAGS
 tech.root: ifsk
 title: FS_BPIO_INFLAGS
-ms.date: 07/08/2021
+ms.date: 12/08/2021
 targetos: Windows
 description: FS_BPIO_INFLAGS defines the BypassIO input flags for the FSCTL_MANAGE_BYPASS_IO control code.
 prerelease: false
@@ -53,7 +53,7 @@ This flag suppresses the file system from sending [**IOCTL_STORAGE_MANAGE_BYPASS
 
 **FS_BPIO_INFLAGS** is passed as an [input parameter](ns-ntifs-fs_bpio_input.md) to [**FSCTL_MANAGE_BYPASS_IO**](ni-ntifs-fsctl_manage_bypass_io.md).
 
-See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
+See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) and [Supporting BypassIO operations](/windows-hardware/drivers/ifs/bypassio-operations) for more information.
 
 ## -see-also
 

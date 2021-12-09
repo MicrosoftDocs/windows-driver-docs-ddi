@@ -4,7 +4,7 @@ title: ZwQueryDirectoryFile function (ntifs.h)
 description: The ZwQueryDirectoryFile routine returns various kinds of information about files in the directory specified by a given file handle.
 old-location: kernel\zwquerydirectoryfile.htm
 tech.root: kernel
-ms.date: 11/03/2021
+ms.date: 12/01/2021
 keywords: ["ZwQueryDirectoryFile function"]
 ms.keywords: NtQueryDirectoryFile, ZwQueryDirectoryFile, ZwQueryDirectoryFile routine [Kernel-Mode Driver Architecture], k111_ffed894d-20dc-416e-8759-073a0cee3229.xml, kernel.zwquerydirectoryfile, ntifs/NtQueryDirectoryFile, ntifs/ZwQueryDirectoryFile
 req.header: ntifs.h
@@ -80,18 +80,7 @@ The size, in bytes, of the buffer pointed to by **FileInformation**. The caller 
 
 ### -param FileInformationClass [in]
 
-The type of information to be returned about files in the directory. **FileInformationClass** can be one of the following [**FILE_INFORMATION_CLASS**](../wdm/ne-wdm-_file_information_class.md) values.
-
-| Constant | Value | Meaning |
-| -------- | ----- | ------- |
-| **FileDirectoryInformation** | 1 | Return a [**FILE_DIRECTORY_INFORMATION**](ns-ntifs-_file_directory_information.md) structure for each file. |
-| **FileFullDirectoryInformation** | 2 | Return a [**FILE_FULL_DIR_INFORMATION**](ns-ntifs-_file_full_dir_information.md) structure for each file. |
-| **FileBothDirectoryInformation** | 3 | Return a [**FILE_BOTH_DIR_INFORMATION**](ns-ntifs-_file_both_dir_information.md) structure for each file. |
-| **FileNamesInformation**  | 12 | Return a [**FILE_NAMES_INFORMATION**](ns-ntifs-_file_names_information.md) structure for each file. |
-| **FileObjectIdInformation** | 29 | Return a [**FILE_OBJECTID_INFORMATION**](ns-ntifs-_file_objectid_information.md) structure for each file. This information class is valid only for NTFS volumes on Windows 2000 and later versions of Windows. |
-| **FileReparsePointInformation** | 33 | Return a single [**FILE_REPARSE_POINT_INFORMATION**](ns-ntifs-_file_reparse_point_information.md) structure for the directory. |
-| **FileIdBothDirectoryInformation** | 37 | Return a [**FILE_ID_BOTH_DIR_INFORMATION**](ns-ntifs-_file_id_both_dir_information.md) structure for each file. |
-| **FileIdFullDirectoryInformation** | 38 | Return a [**FILE_ID_FULL_DIR_INFORMATION**](ns-ntifs-_file_id_full_dir_information.md) structure for each file. |
+The type of information to be returned about files in the directory. See the **FileInformationClass** parameter of [**NtQueryDirectoryFileEx**](../ntifs/nf-ntifs-ntquerydirectoryfileex.md) for the list of possible values.
 
 ### -param ReturnSingleEntry [in]
 
@@ -114,14 +103,7 @@ When the **ZwQueryDirectoryFile** routine is called for a particular handle, the
 
 ## -returns
 
-The **ZwQueryDirectoryFile** routine returns STATUS_SUCCESS or an appropriate error status. The set of error status values that can be returned is file system-specific. **ZwQueryDirectoryFile** also returns the number of bytes actually written to the given **FileInformation** buffer in the **Information** member of **IoStatusBlock**. Some possible error codes and reasons might be the following:
-
-| Return code | Meaning |
-| ----------- | ------- |
-| STATUS_BUFFER_OVERFLOW   | The output buffer isn't large enough to return the full filename. |
-| STATUS_BUFFER_TOO_SMALL  | The output buffer isn't large enough for at least the base structure identified by **FileInformationClass**. |
-| STATUS_INVALID_PARAMETER | One of the parameters is invalid for the file system. |
-| STATUS_NOT_SUPPORTED     | For example, an unsupported ***FileInformationClass** was specified. |
+The **ZwQueryDirectoryFile** routine returns STATUS_SUCCESS or an appropriate error status. The set of error status values that can be returned is file system-specific. **ZwQueryDirectoryFile** also returns the number of bytes actually written to the given **FileInformation** buffer in the **Information** member of **IoStatusBlock**. See [**NtQueryDirectoryFileEx**](nf-ntifs-ntquerydirectoryfileex.md) for a list of some possible error codes.
 
 ## -remarks
 

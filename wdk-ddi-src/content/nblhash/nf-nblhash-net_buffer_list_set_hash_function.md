@@ -48,7 +48,7 @@ The **NET_BUFFER_LIST_SET_HASH_FUNCTION** macro sets the hash function informati
 
 ## -parameters
 
-### -param NBL
+### -param Nbl
 
 A pointer to a **NET_BUFFER_LIST** structure.
 

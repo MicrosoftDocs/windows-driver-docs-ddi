@@ -58,7 +58,7 @@ A pointer to a buffer that receives the copied string. The string that the <i>So
 ### -param cchDest [in]
 
 
-The size, in characters, of the destination buffer. The buffer must be large enough for the string and the terminating null character. The maximum number of characters is NTSTRSAFE_MAX_CCH.
+The size, in characters, of the destination buffer. The buffer must be large enough for the string and the terminating null character. The maximum number of characters is NTSTRSAFE_UNICODE_STRING_MAX_CCH.
 
 ### -param SourceString [in]
 

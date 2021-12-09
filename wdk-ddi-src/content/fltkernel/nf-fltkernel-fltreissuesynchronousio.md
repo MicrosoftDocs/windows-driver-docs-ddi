@@ -4,14 +4,14 @@ title: FltReissueSynchronousIo function (fltkernel.h)
 description: FltReissueSynchronousIo initiates a new synchronous I/O operation that uses the parameters from a previously synchronized I/O operation.
 old-location: ifsk\fltreissuesynchronousio.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 11/29/2021
 keywords: ["FltReissueSynchronousIo function"]
 ms.keywords: FltApiRef_p_to_z_c86041cf-780e-4754-b580-6665573bdb88.xml, FltReissueSynchronousIo, FltReissueSynchronousIo function [Installable File System Drivers], fltkernel/FltReissueSynchronousIo, ifsk.fltreissuesynchronousio
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later operating systems. Not available in Windows 2000 SP4 and earlier operating systems.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Update Rollup 1 for SP4; Windows XP SP2 
+req.target-min-winversvr: Windows Server 2003 SP1
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -42,22 +42,19 @@ api_name:
 
 # FltReissueSynchronousIo function
 
-
 ## -description
 
-<b>FltReissueSynchronousIo</b> initiates a new synchronous I/O operation that uses the parameters from a previously synchronized I/O operation.
+**FltReissueSynchronousIo** initiates a new synchronous I/O operation that uses the parameters from a previously synchronized I/O operation.
 
 ## -parameters
 
 ### -param InitiatingInstance [in]
 
-
-An opaque instance pointer to the minifilter driver instance that is reissuing the I/O operation. Must be the same instance that initiated the previous I/O operation. This parameter is required and cannot be set to <b>NULL</b>.
+An opaque instance pointer to the minifilter driver instance that is reissuing the I/O operation. Must be the same instance that initiated the previous I/O operation. This parameter is required and cannot be set to NULL.
 
 ### -param CallbackData [in]
 
-
-A pointer to the callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure from a previously synchronized I/O operation. This parameter is required and cannot be set to <b>NULL</b>.
+A pointer to the callback data ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) structure from a previously synchronized I/O operation. This parameter is required and cannot be set to NULL.
 
 ## -returns
 
@@ -65,95 +62,60 @@ None
 
 ## -remarks
 
-A minifilter driver calls <b>FltReissueSynchronousIo</b> from a postoperation callback (<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>) routine to reissue a synchronized I/O request. It typically calls <b>FltReissueSynchronousIo</b> from a postoperation callback routine to reissue a failed operation with different parameters, or to handle a reparse bounce. However, it can also call <b>FltReissueSynchronousIo</b> to reissue I/O that the minifilter driver generated through calls to the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecallbackdata">FltAllocateCallbackData</a> and <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltperformsynchronousio">FltPerformSynchronousIo</a> routines. In this situation, it does not matter whether it calls <b>FltReissueSynchronousIo</b> in a postoperation callback routine or outside the context of an operation callback routine. For calls outside the context of a postoperation callback routine, consider using the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreusecallbackdata">FltReuseCallbackData</a> and <i>FltPerformSynchronousIo</i> routines instead.
+A minifilter driver calls **FltReissueSynchronousIo** from a postoperation callback ([**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)) routine to reissue a synchronized I/O request. It typically calls **FltReissueSynchronousIo** from a postoperation callback routine to reissue a failed operation with different parameters, or to handle a reparse bounce. However, it can also call **FltReissueSynchronousIo** to reissue I/O that the minifilter driver generated through calls to the [**FltAllocateCallbackData**](nf-fltkernel-fltallocatecallbackdata.md) and [**FltPerformSynchronousIo**](nf-fltkernel-fltperformsynchronousio.md) routines. In this situation, it does not matter whether it calls **FltReissueSynchronousIo** in a postoperation callback routine or outside the context of an operation callback routine. For calls outside the context of a postoperation callback routine, consider using the [**FltReuseCallbackData**](nf-fltkernel-fltreusecallbackdata.md) and **FltPerformSynchronousIo** routines instead.
 
-The caller can modify the contents of the callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure's I/O parameter block before reissuing the I/O request. If it does, it must call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetcallbackdatadirty">FltSetCallbackDataDirty</a> before calling <b>FltReissueSynchronousIo</b>. 
+The caller can modify the contents of the callback data ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) structure's I/O parameter block before reissuing the I/O request. If it does, it must call [**FltSetCallbackDataDirty**](nf-fltkernel-fltsetcallbackdatadirty.md) before calling **FltReissueSynchronousIo**.
 
-For example, if a minifilter driver uses reparse points, and its post-create callback routine is called for a create operation that returned STATUS_REPARSE, the minifilter driver can reissue the create operation for its own reparse points. In this case, the minifilter driver will complete the following steps: 
+For example, if a minifilter driver uses reparse points, and its post-create callback routine is called for a create operation that returned STATUS_REPARSE, the minifilter driver can reissue the create operation for its own reparse points. In this case, the minifilter driver will complete the following steps:
 
-<ol>
-<li>
-Set the FILE_OPEN_REPARSE_POINT flag in the callback data structure's I/O parameter block. 
+1. Set the FILE_OPEN_REPARSE_POINT flag in the callback data structure's I/O parameter block.
 
-</li>
-<li>
-Call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetcallbackdatadirty">FltSetCallbackDataDirty</a>. 
+2. Call [**FltSetCallbackDataDirty**](nf-fltkernel-fltsetcallbackdatadirty.md).
 
-</li>
-<li>
-Call <b>FltReissueSynchronousIo</b> to reissue the create request. 
+3. Call **FltReissueSynchronousIo** to reissue the create request.
 
-</li>
-</ol>
-The Filter Manager sends the reissued I/O request only to the minifilter driver instances that are attached below the initiating instance (specified in the <i>InitiatingInstance</i> parameter) and to the file system. Minifilter driver instances attached above the initiating instance do not receive the reissued I/O request. 
+The Filter Manager sends the reissued I/O request only to the minifilter driver instances that are attached below the initiating instance (specified in the **InitiatingInstance** parameter) and to the file system. Minifilter driver instances attached above the initiating instance do not receive the reissued I/O request.
 
-Only synchronized I/O operations can be reissued. To provide the driver with the ability to reissue, by calling <b>FltReissueSynchronousIo</b> in the postoperation callback routine, a minifilter driver must specifically return FLT_PREOP_SYNCHRONIZE in the preoperation callback routine. 
+Only synchronized I/O operations can be reissued. To provide the driver with the ability to reissue, by calling **FltReissueSynchronousIo** in the postoperation callback routine, a minifilter driver must specifically return FLT_PREOP_SYNCHRONIZE in the preoperation callback routine.
 
-<div class="alert"><b>Note</b>    The minifilter driver does not call the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltisoperationsynchronous">FltIsOperationSynchronous</a> routine to determine whether the preoperation callback routine for this operation returned FLT_PREOP_SYNCHRONIZE. The minifilter driver calls <b>FltIsOperationSynchronous</b> to determine whether the operation itself is synchronous from the I/O manager's perspective. </div>
-<div> </div>
-Only IRP-based I/O operations can be reissued. Fast I/O operations and file system filter (FSFilter) callback operations cannot be reissued. To determine whether an I/O operation is IRP-based, use the <a href="/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a> macro. 
+> [!NOTE]
+> The minifilter driver does not call the [**FltIsOperationSynchronous**](nf-fltkernel-fltisoperationsynchronous.md) routine to determine whether the preoperation callback routine for this operation returned FLT_PREOP_SYNCHRONIZE. The minifilter driver calls **FltIsOperationSynchronous** to determine whether the operation itself is synchronous from the I/O manager's perspective.
 
-A create (IRP_MJ_CREATE) operation that has been canceled cannot be reissued. Before calling <b>FltReissueSynchronousIo</b> for a create operation, callers should check the <b>Flags</b> member of the file object for the create operation. If the FO_FILE_OPEN_CANCELLED flag is set, this means that the create operation has been canceled, and a close (<a href="/windows-hardware/drivers/kernel/irp-mj-close">IRP_MJ_CLOSE</a>) operation will be issued for this file object. If <b>FltReissueSynchronousIo</b> is called for a create operation that has been canceled, the Filter Manager fails the reissued I/O request with STATUS_CANCELLED. 
+Only IRP-based I/O operations can be reissued. Fast I/O operations and file system filter (FSFilter) callback operations cannot be reissued. To determine whether an I/O operation is IRP-based, use the [**FLT_IS_IRP_OPERATION**](/previous-versions/ff544654(v=vs.85)) macro.
 
-<div class="alert"><b>Note</b>    When minifilter drivers re-issue the create in the post-create callback, they do not have to release and set the buffer that is associated with their reparse point (<b>TagData</b> field in <i>CallbackData</i>) to <b>NULL</b>. Instead, the Filter Manager releases and sets the buffer to <b>NULL</b> for them. </div>
-<div> </div>
+A create (IRP_MJ_CREATE) operation that has been canceled cannot be reissued. Before calling **FltReissueSynchronousIo** for a create operation, callers should check the **Flags** member of the file object for the create operation. If the FO_FILE_OPEN_CANCELLED flag is set, this means that the create operation has been canceled, and a close ([**IRP_MJ_CLOSE**](/windows-hardware/drivers/kernel/irp-mj-close)) operation will be issued for this file object. If **FltReissueSynchronousIo** is called for a create operation that has been canceled, the Filter Manager fails the reissued I/O request with STATUS_CANCELLED.
+
+> [!NOTE]
+> When minifilter drivers re-issue the create in the post-create callback, they do not have to release and set the buffer that is associated with their reparse point (**TagData** field in **CallbackData**) to NULL. Instead, the Filter Manager releases and sets the buffer to NULL for them.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
+[**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)
 
+[**FLT_IS_FASTIO_OPERATION**](nf-fltkernel-flt_is_fastio_operation.md)
 
+[**FLT_IS_FS_FILTER_OPERATION**](/previous-versions/ff544648(v=vs.85))
 
-<a href="/windows-hardware/drivers/ddi/index">FLT_IS_FASTIO_OPERATION</a>
+[**FLT_IS_IRP_OPERATION**](/previous-versions/ff544654(v=vs.85))
 
+[**FLT_IS_REISSUED_IO**](/previous-versions/ff544660(v=vs.85))
 
+[**FLT_PARAMETERS for IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-create)
 
-<a href="/previous-versions/ff544648(v=vs.85)">FLT_IS_FS_FILTER_OPERATION</a>
+[**FltCancelFileOpen**](nf-fltkernel-fltcancelfileopen.md)
 
+[**FltIsOperationSynchronous**](nf-fltkernel-fltisoperationsynchronous.md)
 
+[**FltPerformSynchronousIo**](nf-fltkernel-fltperformsynchronousio.md)
 
-<a href="/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a>
+[**FltReuseCallbackData**](nf-fltkernel-fltreusecallbackdata.md)
 
+[**FltSetCallbackDataDirty**](nf-fltkernel-fltsetcallbackdatadirty.md)
 
+[**IRP_MJ_CLOSE**](/windows-hardware/drivers/kernel/irp-mj-close)
 
-<a href="/previous-versions/ff544660(v=vs.85)">FLT_IS_REISSUED_IO</a>
+[**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create)
 
+[**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)
 
-
-<a href="/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-create">FLT_PARAMETERS for IRP_MJ_CREATE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcancelfileopen">FltCancelFileOpen</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltisoperationsynchronous">FltIsOperationSynchronous</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltperformsynchronousio">FltPerformSynchronousIo</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreusecallbackdata">FltReuseCallbackData</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetcallbackdatadirty">FltSetCallbackDataDirty</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/irp-mj-close">IRP_MJ_CLOSE</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>
+[**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)

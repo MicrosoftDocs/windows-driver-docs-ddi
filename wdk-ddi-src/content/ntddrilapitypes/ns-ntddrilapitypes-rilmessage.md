@@ -4,7 +4,7 @@ title: RILMESSAGE (ntddrilapitypes.h)
 description: "Microsoft reserves the RILMESSAGE structure for internal use only. Don't use the RILMESSAGE structure in your code."
 old-location: netvista\rilmessage.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/03/2021
 keywords: ["RILMESSAGE structure"]
 ms.keywords: "*LPRILMESSAGE, RILMESSAGE, RILMESSAGE structure [Network Drivers Starting with Windows Vista], netvista.rilmessage, ntddrilapitypes/RILMESSAGE"
 req.header: ntddrilapitypes.h
@@ -64,39 +64,20 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ### -field msgUnion
 
-### -field msgUnion.unMsgInDeliver
-
-### -field msgUnion.unMsgInStatus
-
-### -field msgUnion.unMsgOutSubmit
-
-### -field msgUnion.unMsgBcGeneral
-
-### -field msgUnion.unMsgIS637InStatus
-
-### -field msgUnion.unMsgCDMAInDeliver
-
-### -field msgUnion.unMsgCDMAOutSubmit
 
 ### -field RILMSGUNION
 
-### -field unMsgBcGeneral
+### -field RILMSGUNION.unMsgInDeliver
 
+### -field RILMSGUNION.unMsgInStatus
 
-### -field unMsgCDMAInDeliver
+### -field RILMSGUNION.unMsgOutSubmit
 
+### -field RILMSGUNION.unMsgBcGeneral
 
-### -field unMsgCDMAOutSubmit
+### -field RILMSGUNION.unMsgIS637InStatus
 
+### -field RILMSGUNION.unMsgCDMAInDeliver
 
-### -field unMsgIS637InStatus
-
-
-### -field unMsgInDeliver
-
-
-### -field unMsgInStatus
-
-
-### -field unMsgOutSubmit
+### -field RILMSGUNION.unMsgCDMAOutSubmit
 
