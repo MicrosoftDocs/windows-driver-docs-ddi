@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxEventGenerateEvent
 tech.root: audio
 title: AcxEventGenerateEvent
-ms.date: 11/04/2021
+ms.date: 12/09/2021
 targetos: Windows
 description: The AcxEventGenerateEvent function generates an acx event.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxEventGenerateEvent function generates an acx event.
+The AcxEventGenerateEvent function generates an ACX event.
 
 ## -parameters
 
@@ -70,7 +70,6 @@ This sample shows the use of AcxEventGenerateEvent.
     
     AcxEventGenerateEvent(timerCtx->Event);
 ```
-
 
 ## -see-also
 

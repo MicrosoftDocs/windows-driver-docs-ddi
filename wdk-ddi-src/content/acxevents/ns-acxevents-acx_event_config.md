@@ -2,7 +2,7 @@
 UID: NS:acxevents._ACX_EVENT_CONFIG
 tech.root: audio
 title: ACX_EVENT_CONFIG
-ms.date: 11/04/2021
+ms.date: 12/09/2021
 targetos: Windows
 description: The ACX_EVENT_CONFIG structure is used to define the acx event configuration. 
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_EVENT_CONFIG structure is used to define the acx event configuration. 
+The ACX_EVENT_CONFIG structure is used to define the ACX event configuration. 
 
 ## -struct-fields
 
@@ -68,8 +68,7 @@ Specifies the event ID. This member identifies an event item within the event se
 
 ### -field Type
 
-TBD - The event value type (operation data) is a KSEVENTDATA structure that specifies the notification method to use for this event.
-
+TBD - The (optional?) event value type (operation data) is a [KSEVENTDATA structure](/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata) that specifies the notification method to use for this event.
 
 ### -field Callbacks
 
@@ -101,6 +100,3 @@ The example shows the use of the ACX_EVENT_CONFIG structure.
 ## -see-also
 
 [acxcircuit.h header](index.md)
-
-
-

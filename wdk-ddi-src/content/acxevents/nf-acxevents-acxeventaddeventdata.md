@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxEventAddEventData
 tech.root: audio
 title: AcxEventAddEventData
-ms.date: 11/04/2021
+ms.date: 12/09/2021
 targetos: Windows
 description: The AcxEventAddEventData function adds event data to an ACXEVENT object.
 prerelease: true
@@ -56,11 +56,13 @@ The ACXEVENTDATA ACX object.
 
 ## -remarks
 
+An AcxEvent represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally they are exposed as KS events to upper layers. 
+
 ### Example
 
-Example pending.
+TBD - Anything else to add to this code sample?
 
-TBD - OK to use this test code?
+This sample shows the use of AcxEventAddEventData.
 
 ```cpp
 VOID

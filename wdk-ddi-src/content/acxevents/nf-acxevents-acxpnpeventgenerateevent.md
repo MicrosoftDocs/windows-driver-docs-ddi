@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxPnpEventGenerateEvent
 tech.root: audio
 title: AcxPnpEventGenerateEvent
-ms.date: 11/04/2021
+ms.date: 12/09/2021
 targetos: Windows
 description: The AcxPnpEventGenerateEvent function generates an acx pnp event.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxPnpEventGenerateEvent function generates an acx pnp event.
+The AcxPnpEventGenerateEvent function generates an ACX pnp event.
 
 ## -parameters
 
@@ -60,14 +60,13 @@ TBD - Is this always a AUDIOMODULE_CUSTOM_NOTIFICATION??? Pointer to an array of
 
 The size of the event payload.
 
-
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
-An AcxPnpEvent represents an asynchronous notification available at the driver level. PnP events can be added to any objects. Currently they are used with AcxModule and AcxKeywordSpotter objs. Internally they are exposed as PnP asynchronous notification to upper layers. 
+An AcxPnpEvent represents an asynchronous notification available at the driver level. PnP events can be added to any objects. Currently they are used with AcxModule and AcxKeywordSpotter objects. Internally AcxPnpEvents are exposed as PnP asynchronous notification to upper layers. 
 
 ### Example
 

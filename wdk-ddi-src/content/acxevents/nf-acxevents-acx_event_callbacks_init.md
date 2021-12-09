@@ -2,7 +2,7 @@
 UID: NF:acxevents.ACX_EVENT_CALLBACKS_INIT
 tech.root: audio
 title: ACX_EVENT_CALLBACKS_INIT
-ms.date: 11/04/2021
+ms.date: 12/09/2021
 targetos: Windows
 description: The ACX_EVENT_CALLBACKS_INIT function initializes a ACX_EVENTS_CALLBACKS structure.
 prerelease: true
@@ -44,7 +44,6 @@ dev_langs:
 
 The ACX_EVENT_CALLBACKS_INIT function initializes a [ACX_EVENTS_CALLBACKS structure](ns-acxevents-acx_event_callbacks.md). No inputs are used with this function.
 
-
 ## -parameters
 
 ### -param Callbacks
@@ -68,9 +67,7 @@ This example shows the use of ACX_EVENT_CALLBACKS_INIT.
     eventCallbacks.EvtAcxEventDisable = &AfxVolume::EvtVolumeEventDisableCallback;
 
     ACX_EVENT_CONFIG_INIT(&eventCfg);
-
 ```
-
 
 ## -see-also
 

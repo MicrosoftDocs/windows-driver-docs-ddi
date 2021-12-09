@@ -48,11 +48,11 @@ The AcxPnpEventCreate function creates an acx pnp event.
 
 ### -param Device
 
-TBD - A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the - TBD TBD 
+TBD - An existing WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the - TBD TBD 
 
 ### -param Object
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the event.
+TBD - An ACXAUDIOMODULE object that is described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects) that will be associated with the event.
 
 ### -param Attributes
 
@@ -60,7 +60,7 @@ Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/
 
 ### -param Config
 
-An [ACX_PNPEVENT_CONFIG](ns-acxevents-acx_pnpevent_config.md) structure defines how to add events to an ACX TBD.
+An [ACX_PNPEVENT_CONFIG](ns-acxevents-acx_pnpevent_config.md) structure that defines the configuration for an ACX PnP event.
 
 ### -param Event
 
@@ -72,15 +72,15 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An AcxPnpEvent represents an asynchronous notification available at the driver level. PnP events can be added to any objects. Currently they are used with AcxModule and AcxKeywordSpotter objs. Internally they are exposed as PnP asynchronous notification to upper layers. 
+An AcxPnpEvent represents an asynchronous notification available at the driver level. PnP events can be added to any objects. Currently they are used with AcxModule and AcxKeywordSpotter objects. Internally AcxPnpEvents are exposed as PnP asynchronous notification to upper layers. 
 
 ### Example
 
 This example code shows the use of AcxPnpEventCreate.
 
 ```cpp
-
     NTSTATUS                        status;
+    ACXAUDIOMODULE                  audioModuleElement;
     WDF_OBJECT_ATTRIBUTES           attributes;
     ACX_PNPEVENT_CONFIG             audioModuleEventCfg;
     ACXPNPEVENT                     audioModuleEvent;
@@ -88,7 +88,6 @@ This example code shows the use of AcxPnpEventCreate.
     status = AcxAudioModuleCreate(Circuit, &attributes, &audioModuleCfg, &audioModuleElement);
 
     audioModule0Ctx = GetCodecAudioModule0Context(audioModuleElement);
-
 
     ACX_PNPEVENT_CONFIG_INIT(&audioModuleEventCfg);
 
