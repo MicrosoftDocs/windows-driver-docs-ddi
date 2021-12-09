@@ -2,7 +2,7 @@
 UID: NS:ntifs._FS_BPIO_INPUT
 tech.root: ifsk
 title: FS_BPIO_INPUT
-ms.date: 07/08/2021
+ms.date: 12/08/2021
 targetos: Windows
 description: The FS_BPIO_INPUT structure specifies the requested BypassIO operation and flags for the FSCTL_MANAGE_BYPASS_IO control code.
 prerelease: false
@@ -66,7 +66,7 @@ Reserved for system use. Must be set to zero.
 
 ## -remarks
 
-See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
+See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) and [Supporting BypassIO operations](/windows-hardware/drivers/ifs/bypassio-operations) for more information.
 
 ## -see-also
 
