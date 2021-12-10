@@ -4,7 +4,7 @@ title: RILDISPLAYINFOTYPE (rilapitypes.h)
 description: "Don't use this enumeration in your code. Microsoft reserves the RILDISPLAYINFOTYPE enumeration for internal use only."
 old-location: netvista\rildisplayinfotype.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/10/2021
 keywords: ["RILDISPLAYINFOTYPE enumeration"]
 ms.keywords: RILDISPLAYINFOTYPE, RILDISPLAYINFOTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.rildisplayinfotype, ntddrilapitypes/RILDISPLAYINFOTYPE
 req.header: rilapitypes.h
@@ -49,3 +49,4 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ## -enum-fields
 
+### -field RIL_EXTENDED_DISPLAY_TYPE_NORMAL
