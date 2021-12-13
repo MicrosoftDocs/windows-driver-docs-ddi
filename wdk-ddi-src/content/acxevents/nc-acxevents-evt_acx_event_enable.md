@@ -2,7 +2,7 @@
 UID: NC:acxevents.EVT_ACX_EVENT_ENABLE
 tech.root: audio
 title: EVT_ACX_EVENT_ENABLE
-ms.date: 11/03/2021
+ms.date: 12/09/2021
 targetos: Windows
 description: TBD - The EVT_ACX_EVENT_ENABLE callback is used by the driver to add functionality when an ACX Event is being enabled TBD?
 prerelease: true
@@ -58,9 +58,9 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-Example pending.
-
 TBD - Is this an OK Sample?
+
+This sample shows the use of the EVT_ACX_EVENT_ENABLE callback.
 
 ```cpp
     //

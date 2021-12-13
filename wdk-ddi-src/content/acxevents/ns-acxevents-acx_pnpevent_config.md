@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_PNPEVENT_CONFIG structure is used to define the acx pnp event configuration. 
+The ACX_PNPEVENT_CONFIG structure is used to define the ACX pnp event configuration. 
 
 ## -struct-fields
 

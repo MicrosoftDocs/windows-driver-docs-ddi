@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxEventCreate
 tech.root: audio
 title: AcxEventCreate
-ms.date: 11/03/2021
+ms.date: 12/09/2021
 targetos: Windows
 description: The AcxEventCreate function creates an acx event.
 prerelease: true
@@ -42,23 +42,21 @@ dev_langs:
 
 ## -description
 
-The AcxEventCreate function creates an acx event.
+The AcxEventCreate function creates an ACX event.
 
 ## -parameters
 
 ### -param Object
 
- An ACXOBJECT that is described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
-
+An ACXOBJECT that is described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). This object is used to TBD.
 
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the event with the parent WDF device object (TBD???).
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the event with the parent WDF device object by using the associated context (TBD???).
 
 ### -param Config
 
-An [ACX_EVENT_CONFIG](ns-acxevents-acx_event_config.md) structure defines how to add circuits for an ACX circuit factory.
-
+An [ACX_EVENT_CONFIG](ns-acxevents-acx_event_config.md) structure that defines the ACX event configuration.
 
 ### -param Event
 
@@ -74,10 +72,36 @@ An AcxEvent represents an asynchronous notification available at the driver leve
 
 ### Example
 
-TBD - I was not able to find any sample or testing code.
+This example code snip, shows the use of AcxEventCreate for an audio jack change event.
+
+TBD - Should we re-write the last line of the sample to show this without ACXINTERNAL?
 
 ```cpp
+    NTSTATUS status = STATUS_SUCCESS;
+    
+    PAGED_CODE();
 
+    ACX_EVENT_CALLBACKS         eventCallbacks;
+    ACX_EVENT_CONFIG            eventCfg;
+    AFX_PIN_EVENT_CONTEXT       *eventCtx;
+    ACXEVENT                    jackEvent;
+    WDF_OBJECT_ATTRIBUTES       attributes;
+
+    //
+    // Add jack info change event to this jack object
+    //
+    ACX_EVENT_CALLBACKS_INIT(&eventCallbacks);
+    eventCallbacks.EvtAcxEventEnable = &AfxPin::EvtJackEventEnableCallback;
+    eventCallbacks.EvtAcxEventDisable = &AfxPin::EvtJackEventDisableCallback;
+
+    ACX_EVENT_CONFIG_INIT(&eventCfg);
+    eventCfg.Set = &KSEVENTSETID_PinCapsChange;
+    eventCfg.Id = KSEVENT_PINCAPS_JACKINFOCHANGE;
+    eventCfg.Callbacks = &eventCallbacks;
+
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, AFX_PIN_EVENT_CONTEXT);
+    attributes.ParentObject = GetObjectHandle();
+    status = ACXINTERNAL(AcxEventCreate)(m_AcxGlobals, GetObjectHandle(), &attributes, &eventCfg, &jackEvent);
 ```
 
 
