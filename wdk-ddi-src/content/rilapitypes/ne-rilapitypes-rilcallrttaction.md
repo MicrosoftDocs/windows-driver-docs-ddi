@@ -4,7 +4,7 @@ title: RILCALLRTTACTION (rilapitypes.h)
 description: "Don't use this enumeration in your code. Microsoft reserves the RILCALLRTTACTION enumeration for internal use only."
 old-location: netvista\rilcallrttaction.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/10/2021
 keywords: ["RILCALLRTTACTION enumeration"]
 ms.keywords: RILCALLRTTACTION, RILCALLRTTACTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLRTTACTION_ACCEPT, RIL_CALLRTTACTION_ASK, RIL_CALLRTTACTION_MAX, RIL_CALLRTTACTION_REJECT, netvista.rilcallrttaction, ntddrilapitypes/RILCALLRTTACTION, ntddrilapitypes/RIL_CALLRTTACTION_ACCEPT, ntddrilapitypes/RIL_CALLRTTACTION_ASK, ntddrilapitypes/RIL_CALLRTTACTION_MAX, ntddrilapitypes/RIL_CALLRTTACTION_REJECT
 req.header: rilapitypes.h
@@ -59,3 +59,4 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ### -field RIL_CALLRTTACTION_MAX
 
+### -field RIL_CALLRTTACTION_CANCEL

@@ -144,13 +144,6 @@ A pointer to a buffer that receives the log information. The structure of this b
 
 Length in bytes of the incoming information buffer.
 
-
-
-
-### -param pcbBuffer [in, out]
-
-The size, in bytes, of the buffer pointed to by <i>pinfoBuffer</i>.
-
 ## -returns
 
 <b>ClfsQueryLogFileInformation</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.

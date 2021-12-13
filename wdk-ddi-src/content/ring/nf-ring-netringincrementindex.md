@@ -3,7 +3,7 @@ UID: NF:ring.NetRingIncrementIndex
 title: NetRingIncrementIndex function (ring.h)
 description: Returns the next index value after the specified index value, wrapping around to the beginning of the ring buffer if necessary.
 tech.root: netvista
-ms.date: 09/25/2019
+ms.date: 12/10/2021
 keywords: ["NetRingIncrementIndex function"]
 ms.keywords: NetRingIncrementIndex
 req.header: ring.h
@@ -48,11 +48,11 @@ Returns the next index value after the specified index value, wrapping around to
 
 ## -parameters
 
-### -param RingBuffer
+### -param Ring [in]
 
 A pointer to a [**NET_RING**](../ring/ns-ring-_net_ring.md).
 
-### -param Index
+### -param Index [in]
 
 The index value to increment.
 
