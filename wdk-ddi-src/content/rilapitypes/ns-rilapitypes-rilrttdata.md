@@ -4,7 +4,7 @@ title: RILRTTDATA (rilapitypes.h)
 description: "Don't use this structure in your code. Microsoft reserves the RILRTTDATA structure for internal use only."
 old-location: netvista\rilrttdata.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/10/2021
 keywords: ["RILRTTDATA structure"]
 ms.keywords: "*LPRILRTTDATA, RILRTTDATA, RILRTTDATA structure [Network Drivers Starting with Windows Vista], netvista.rilrttdata, ntddrilapitypes/RILRTTDATA"
 req.header: rilapitypes.h
@@ -59,4 +59,12 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ### -field dwExecutor
 
 ### -field wszRTTData
+
+### -field dwRTTRefNum
+
+### -field dwTotalMsgSize
+
+### -field dwCurrentMsgSeqNum
+
+### -field dwHighestMsgSeqNum
 

@@ -4,7 +4,7 @@ title: RILUICCCHANNELGROUP (rilapitypes.h)
 description: "Don't use this enumeration in your code. Microsoft reserves the RILUICCCHANNELGROUP enumeration for internal use only."
 old-location: netvista\riluiccchannelgroup.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/10/2021
 keywords: ["RILUICCCHANNELGROUP enumeration"]
 ms.keywords: RILUICCCHANNELGROUP, RILUICCCHANNELGROUP enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccchannelgroup, ntddrilapitypes/RILUICCCHANNELGROUP
 req.header: rilapitypes.h
@@ -49,3 +49,4 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ## -enum-fields
 
+### -field RIL_UICCCHANNELGROUP_NFC

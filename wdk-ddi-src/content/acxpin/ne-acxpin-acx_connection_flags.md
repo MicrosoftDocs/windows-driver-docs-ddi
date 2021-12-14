@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_CONNECTION_FLAGS
 tech.root: audio
 title: ACX_CONNECTION_FLAGS
-ms.date: 10/27/2021
+ms.date: 12/09/2021
 targetos: Windows
 description: The ACX_CONNECTION_FLAGS enumeration is used by the ACX_CONNECTION structure to help describe the connection properties of an audio class extension (ACX).
 prerelease: false
@@ -47,19 +47,19 @@ Indicates that there are no flags set.
 
 ### -field AcxConnectionFromPinId
 
-TBD
+Indicates that the connection is *from* a pin ID.
 
 ### -field AcxConnectionFromPinObject
 
-TBD
+Indicates that the connection is *from* an object.
 
 ### -field AcxConnectionToPinId
 
-TBD
+Indicates that the connection is *to* a pin ID.
 
 ### -field AcxConnectionToPinObject
 
-TBD
+Indicates that the connection is *to* a pin object.
 
 ### -field AcxConnectionValidFlags
 
