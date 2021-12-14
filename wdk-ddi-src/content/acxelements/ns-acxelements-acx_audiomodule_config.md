@@ -64,7 +64,7 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 Audio module configuration flags defined by the [ACX_AUDIOMODULE_CONFIG_FLAGS enum](ne-acxelements-acx_audiomodule_config_flags.md). 
 
-TBD - No flag bits are currently defined. Set this member to zero - AcxAudioModuleConfigNoFlags
+No flag bits are currently defined. Set this member to zero - AcxAudioModuleConfigNoFlags
 
 ### -field Descriptor
 

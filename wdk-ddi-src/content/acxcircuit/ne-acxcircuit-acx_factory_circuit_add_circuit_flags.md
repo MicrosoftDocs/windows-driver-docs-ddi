@@ -53,13 +53,6 @@ For internal validation, do not use.
 
 There are no flags currently defined for this type.
 
-### Example
-
-Example Pending
-
-```cpp
-
-```
 
 ## -see-also
 

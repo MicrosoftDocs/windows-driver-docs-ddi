@@ -53,6 +53,8 @@ For internal validation, do not use.
 
 ## -remarks
 
+There are no flags currently defined for this type.
+
 ## -see-also
 
 [acxelements.h header](index.md)

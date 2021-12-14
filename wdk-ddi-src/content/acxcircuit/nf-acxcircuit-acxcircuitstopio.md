@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitStopIo
 tech.root: audio
 title: AcxCircuitStopIo
-ms.date: 08/23/2021
+ms.date: 12/14/2021
 targetos: Windows
 description: TBD - The AcxCircuitStopIo function is used to stop circuit IO after it has been in a run or TBD pause??? state.
 prerelease: true

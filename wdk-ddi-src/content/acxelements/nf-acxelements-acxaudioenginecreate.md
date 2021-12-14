@@ -52,7 +52,7 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the AcxAudioEngine with the parent circuit object.
+A [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that is used to associate the AcxAudioEngine with the parent circuit object. Note that additional WDF attributes such as as WDF_EXECUTION_LEVEL or WDF_SYNCHRONIZATION_SCOPE, should not be set using the *Attributes* parameter as they are a managed by ACX.
 
 ### -param Config
 
