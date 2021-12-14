@@ -74,7 +74,7 @@ An AcxEvent represents an asynchronous notification available at the driver leve
 
 This example code snip, shows the use of AcxEventCreate for an audio jack change event.
 
-TBD - Should we re-write the last line of the sample to show this without ACXINTERNAL?
+TBD - I re-wrote the the last line of the sample to show this code without ACXINTERNAL, please check/verify.
 
 ```cpp
     NTSTATUS status = STATUS_SUCCESS;
@@ -101,9 +101,8 @@ TBD - Should we re-write the last line of the sample to show this without ACXINT
 
     WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, AFX_PIN_EVENT_CONTEXT);
     attributes.ParentObject = GetObjectHandle();
-    status = ACXINTERNAL(AcxEventCreate)(m_AcxGlobals, GetObjectHandle(), &attributes, &eventCfg, &jackEvent);
+    status = AcxEventCreate(GetObjectHandle(), &attributes, &eventCfg, &jackEvent);
 ```
-
 
 ## -see-also
 

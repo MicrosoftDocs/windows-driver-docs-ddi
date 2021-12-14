@@ -2,9 +2,9 @@
 UID: NC:acxevents.EVT_ACX_EVENT_DISABLE
 tech.root: audio
 title: EVT_ACX_EVENT_DISABLE
-ms.date: 12/09/2021
+ms.date: 12/13/2021
 targetos: Windows
-description: TBD - The EVT_ACX_EVENT_DISABLE callback is used by the driver to add functionality when an ACX Event is being disabled TBD?
+description: The EVT_ACX_EVENT_DISABLE callback is used by the driver to add functionality when the ACX engine is requesting that an ACX Event be disabled.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The EVT_ACX_EVENT_DISABLE callback is used by the driver to add functionality when an ACX Event is being disabled TBD?
+The EVT_ACX_EVENT_DISABLE callback is used by the driver to add functionality when the ACX engine is requesting that an ACX Event be disabled.
 
 ## -parameters
 

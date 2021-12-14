@@ -54,7 +54,7 @@ The ACXPNPEVENT object (described in [Summary of ACX Objects](/windows-hardware/
 
 The event payload.
 
-TBD - Is this always a AUDIOMODULE_CUSTOM_NOTIFICATION??? Pointer to an array of something?
+TBD - Looks like this can be an AUDIOMODULE_CUSTOM_NOTIFICATION or an CONTOSO_KEYWORDDETECTIONRESULT??? Is this just a pointer to an array of anything?
 
 ### -param Size
 

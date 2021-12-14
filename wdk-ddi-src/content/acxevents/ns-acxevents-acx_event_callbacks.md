@@ -2,7 +2,7 @@
 UID: NS:acxevents._ACX_EVENT_CALLBACKS
 tech.root: audio
 title: ACX_EVENT_CALLBACKS
-ms.date: 11/04/2021
+ms.date: 12/13/2021
 targetos: Windows
 description: The ACX_EVENT_CALLBACKS structure identifies the driver callbacks for ACX event operations.
 prerelease: true
@@ -62,7 +62,7 @@ The [EVT_ACX_EVENT_DISABLE](nc-acxevents-evt_acx_event_disable.md) callback.
 
 ### -field EvtAcxEventProcessRequest
 
-TBD - The [EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST]() callback.
+The [EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST]() callback.
 
 DOCSTEAM TODO - add link to this callback in AcxRequest
 

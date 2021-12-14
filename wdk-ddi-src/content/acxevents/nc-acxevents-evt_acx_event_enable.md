@@ -2,9 +2,9 @@
 UID: NC:acxevents.EVT_ACX_EVENT_ENABLE
 tech.root: audio
 title: EVT_ACX_EVENT_ENABLE
-ms.date: 12/09/2021
+ms.date: 12/13/2021
 targetos: Windows
-description: TBD - The EVT_ACX_EVENT_ENABLE callback is used by the driver to add functionality when an ACX Event is being enabled TBD?
+description: The EVT_ACX_EVENT_ENABLE callback is used by the driver to add functionality when the ACX engine is requesting that an ACX Event is enabled.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The EVT_ACX_EVENT_ENABLE callback is used by the driver to add functionality when an ACX Event is being enabled TBD?
+The EVT_ACX_EVENT_ENABLE callback is used by the driver to add functionality when the ACX engine is requesting that an ACX Event is enabled.
 
 ## -parameters
 
@@ -91,7 +91,6 @@ AfxVolume::EvtVolumeEventEnableCallback(
     return STATUS_SUCCESS;
 }
 ```
-
 
 ## -see-also
 
