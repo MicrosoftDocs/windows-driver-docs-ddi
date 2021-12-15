@@ -52,13 +52,11 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the AcxFactory with the parent WDF device object (TBD???).
-
-TBD - What would be useful to set for the driver?
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) that are used to set the various object’s values: cleanup and destroy callbacks, context type, and to specify its parent WDF object.
 
 ### -param Config
 
-TBD- The ACXCIRCUIT_INIT structure that defines the circuit factory initialization. ACXCIRCUIT_INIT is an opaque object used for circuit factory initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
+The ACXCIRCUIT_INIT structure that defines the circuit factory initialization. ACXCIRCUIT_INIT is an opaque object used for circuit factory initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
 
 ### -param Circuit
 

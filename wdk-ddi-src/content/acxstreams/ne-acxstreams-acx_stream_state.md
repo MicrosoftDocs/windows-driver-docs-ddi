@@ -63,7 +63,7 @@ Describes the Acx Stream State as running.
 
 ### -field AcxStreamStateMaximum
 
-Describes the Acx Stream State Maximum. This value is used for internal validation. (TBD???)
+Describes the Acx Stream State Maximum. This value is used for internal validation. 
 
 ## -remarks
 

@@ -64,7 +64,7 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 Audio engine configuration flags defined by the [ACX_STREAMAUDIOENGINE_CONFIG_FLAGS enum](ne-acxelements-acx_streamaudioengine_config_flags.md). 
 
-TBD - No flag bits are currently defined. Set this member to zero - AcxStreamAudioEngineConfigNoFlags AcxStreamAudioEngineConfigNoFlags 
+No flag bits are currently defined. Set this member to zero - AcxStreamAudioEngineConfigNoFlags AcxStreamAudioEngineConfigNoFlags 
 
 ### -field VolumeElement
 

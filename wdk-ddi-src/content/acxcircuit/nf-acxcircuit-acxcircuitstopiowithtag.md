@@ -53,7 +53,7 @@ TBD - An existing ACXCIRCUIT circuit object.  (For more information about ACX ob
 ### -param Flags
 
 Stop IO flags defined by the [ACX_STOP_IO_FLAGS enumeration](ne-acxcircuit-acx_stop_io_flags.md).
-Currently no flags are defined, so set this to `AcxStopIoNoFlags`. 
+Currently no flags are defined, set this to `AcxStopIoNoFlags`. 
 
 ### -param Tag
 

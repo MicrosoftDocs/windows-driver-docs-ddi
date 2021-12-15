@@ -56,11 +56,11 @@ And ACXCIRCUT that will be TBD.
 
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to TBD. 
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) that are used to set the various object’s values: cleanup and destroy callbacks, context type, and to specify its parent object.
 
 ### -param Config
 
-An ACXSTREAM_INIT Config structure TBD.
+An ACXSTREAM_INIT Config structure that defines the stream initialization.
 
 ### -param Stream
 

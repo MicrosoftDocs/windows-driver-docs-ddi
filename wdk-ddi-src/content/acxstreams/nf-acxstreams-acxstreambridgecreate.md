@@ -54,7 +54,7 @@ A pointer to a location that receives a handle to the associated ACXCIRCUIT Obje
 
 ### -param Attributes
 
-A pointer to a WDF_OBJECT_ATTRIBUTES structure that contains driver-supplied attributes for the new object. See [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure and the remarks section of this topic.
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) that are used to set the various object’s values: cleanup and destroy callbacks, context type, and to specify its parent object. For more information, see [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure and the remarks section of this topic.
 
 ### -param Config
 

@@ -64,7 +64,7 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 Audio key word spotter configuration flags defined by the [ACX_MUTE_CONFIG_FLAGS enum](ne-acxelements-acx_mute_config_flags.md). 
 
-TBD - No flag bits are currently defined. Set this member to zero - AcxMuteConfigNoFlags.
+No flag bits are currently defined. Set this member to zero - AcxMuteConfigNoFlags.
 
 ### -field ChannelsCount
 
