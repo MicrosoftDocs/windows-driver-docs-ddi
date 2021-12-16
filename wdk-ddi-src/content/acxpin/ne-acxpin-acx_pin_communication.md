@@ -2,9 +2,9 @@
 UID: NE:acxpin._ACX_PIN_COMMUNICATION
 tech.root: audio
 title: ACX_PIN_COMMUNICATION
-ms.date: 10/05/2021
+ms.date: 12/15/2021
 targetos: Windows
-description: 
+description: The ACX_PIN_COMMUNICATION enumeration is used by the ACX_PIN_CONFIG structure to indicate the communication type of a pin.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,17 +40,28 @@ dev_langs:
 
 ## -description
 
+The **ACX_PIN_COMMUNICATION** enumeration is used by the [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md) structure to indicate the communication type of a pin.
+
 ## -enum-fields
 
 ### -field AcxPinCommunicationNone
 
+Indicates that the pin is not used for communication.
+
 ### -field AcxPinCommunicationSink
+
+TBD: Indicates that the pin is a sink.
 
 ### -field AcxPinCommunicationSource
 
+TBD: Indicates that the pin is a source.
+
 ### -field AcxPinCommunicationMaximum
+
+For internal validation, do not use.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)

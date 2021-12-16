@@ -2,9 +2,9 @@
 UID: NE:acxpin._ACX_MICROPHONE_TYPE
 tech.root: audio
 title: ACX_MICROPHONE_TYPE
-ms.date: 10/05/2021
+ms.date: 12/13/2021
 targetos: Windows
-description: 
+description: The ACX_MICROPHONE_TYPE enumeration is used to identify the pickup pattern of a microphone.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,25 +37,42 @@ dev_langs:
 
 ## -description
 
+The **ACX_MICROPHONE_TYPE** enumeration is used to identify the pickup pattern of a microphone.
+
 ## -enum-fields
 
 ### -field AcxMicrophoneTypeOmniDirectional
 
+Indicates that the microphone has an omnidirectional pickup pattern.
+
 ### -field AcxMicrophoneTypeSubCardioid
+
+Indicates that the microphone has a subcardioid pickup pattern. Subcardioid is also known as wide cardioid.
 
 ### -field AcxMicrophoneTypeCardioid
 
+Indicates that the microphone has a cardioid pickup pattern.
+
 ### -field AcxMicrophoneTypeSuperCardioid
+
+Indicates that the microphone has a super-cardioid pickup pattern.
 
 ### -field AcxMicrophoneTypeHyperCardioid
 
+Indicates that the microphone has a hyper-cardioid pickup pattern.
+
 ### -field AcxMicrophoneType8Shaped
+
+Indicates that the microphone has an eight-shaped pickup pattern.
 
 ### -field AcxMicrophoneTypeMaximum
 
+For internal validation, do not use.
+
 ### -field AcxMicrophoneTypeVendorDefined
+
+Indicates that the microphone pickup pattern is vendor defined.
 
 ## -remarks
 
 ## -see-also
-

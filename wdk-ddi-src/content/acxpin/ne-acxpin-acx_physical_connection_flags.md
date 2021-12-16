@@ -2,9 +2,9 @@
 UID: NE:acxpin._ACX_PHYSICAL_CONNECTION_FLAGS
 tech.root: audio
 title: ACX_PHYSICAL_CONNECTION_FLAGS
-ms.date: 10/05/2021
+ms.date: 12/15/2021
 targetos: Windows
-description: 
+description: The ACX_PHYSICAL_CONNECTION_FLAGS enumeration is used by the ACX_PHYSICAL_CONNECTION structure to initialize a physical connection.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,17 +37,28 @@ dev_langs:
 
 ## -description
 
+The **ACX_PHYSICAL_CONNECTION_FLAGS** enumeration is used by the [ACX_PHYSICAL_CONNECTION](ns-acxpin-acx_physical_connection.md) structure to initialize a physical connection.
+
 ## -enum-fields
 
 ### -field AcxPhysicalConnectionNoFlags
 
+Indicates that no flags are set.
+
 ### -field AcxPhysicalConnectionFromPinId
+
+TBD: Indicates that the physical connection is from a pin ID? TBD
 
 ### -field AcxPhysicalConnectionFromPinObject
 
+TBD: Indicates that the physical connection is from a pin object? TBD
+
 ### -field AcxPhysicalConnectionValidFlags
+
+For internal validation, do not use.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_PHYSICAL_CONNECTION](ns-acxpin-acx_physical_connection.md)

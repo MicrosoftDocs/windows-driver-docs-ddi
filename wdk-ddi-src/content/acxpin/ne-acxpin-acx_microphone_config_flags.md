@@ -2,9 +2,9 @@
 UID: NE:acxpin._ACX_MICROPHONE_CONFIG_FLAGS
 tech.root: audio
 title: ACX_MICROPHONE_CONFIG_FLAGS
-ms.date: 10/05/2021
+ms.date: 12/13/2021
 targetos: Windows
-description: 
+description: The ACX_MICROPHONE_CONFIG_FLAGS enumeration is used to configure a physical microphone.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,13 +37,18 @@ dev_langs:
 
 ## -description
 
+The **ACX_MICROPHONE_CONFIG_FLAGS** enumeration is used to configure a physical microphone.
+
 ## -enum-fields
 
 ### -field AcxMicrophoneConfigNoFlags
 
+Indicates that there are no flags set.
+
 ### -field AcxMicrophoneConfigValidFlags
+
+For internal validation, do not use.
 
 ## -remarks
 
 ## -see-also
-
