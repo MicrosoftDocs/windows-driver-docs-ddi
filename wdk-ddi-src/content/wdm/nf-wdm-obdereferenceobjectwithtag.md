@@ -49,12 +49,12 @@ The <b>ObDereferenceObjectWithTag</b> routine decrements the reference count of 
 
 ## -parameters
 
-### -param Object [in]
+### -param a [in]
 
 
 A pointer to the object. The caller obtains this pointer either when it creates the object, or from a previous call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandlewithtag">ObReferenceObjectByHandleWithTag</a> routine after it opens the object.
 
-### -param Tag [in]
+### -param t [in]
 
 
 Specifies a four-byte, custom tag value. For more information, see the following Remarks section.

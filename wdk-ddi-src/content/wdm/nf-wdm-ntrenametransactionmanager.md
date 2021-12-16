@@ -55,7 +55,7 @@ The <b>NtRenameTransactionManager</b> routine changes the identity of the transa
 
 ### -param ExistingTransactionManagerGuid [in]
 
-
+## -returns
 
 ## -see-also
 
