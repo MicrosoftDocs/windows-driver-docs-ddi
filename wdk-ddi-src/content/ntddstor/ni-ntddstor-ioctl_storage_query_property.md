@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_QUERY_PROPERTY (ntddstor.h)
 description: A driver can use IOCTL_STORAGE_QUERY_PROPERTY to return properties of a storage device or adapter.
 old-location: storage\ioctl_storage_query_property.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 12/09/2021
 keywords: ["IOCTL_STORAGE_QUERY_PROPERTY IOCTL"]
 ms.keywords: IOCTL_STORAGE_QUERY_PROPERTY, IOCTL_STORAGE_QUERY_PROPERTY control, IOCTL_STORAGE_QUERY_PROPERTY control code [Storage Devices], k307_1ee2fd05-4e88-47ef-8ed5-0553bcccc0d7.xml, ntddstor/IOCTL_STORAGE_QUERY_PROPERTY, storage.ioctl_storage_query_property
 req.header: ntddstor.h
@@ -42,36 +42,31 @@ api_name:
 
 # IOCTL_STORAGE_QUERY_PROPERTY IOCTL
 
-
 ## -description
 
-A driver can use <b>IOCTL_STORAGE_QUERY_PROPERTY</b> to return properties of a storage device or adapter. The request indicates the kind of information to retrieve, such as inquiry data for a device or capabilities and limitations of an adapter. <b>IOCTL_STORAGE_QUERY_PROPERTY</b> can also be used to determine whether the port driver supports a particular property or which fields in the property descriptor can be modified with a subsequent change-property request.
+A driver can use **IOCTL_STORAGE_QUERY_PROPERTY** to return properties of a storage device or adapter. The request indicates the kind of information to retrieve, such as inquiry data for a device or capabilities and limitations of an adapter. **IOCTL_STORAGE_QUERY_PROPERTY** can also be used to determine whether the port driver supports a particular property or which fields in the property descriptor can be modified with a subsequent change-property request.
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-<b>
-       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the parameter buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be >= <b>sizeof</b>(<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_property_query">STORAGE_PROPERTY_QUERY</a>).
+**Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of the parameter buffer at **Irp->AssociatedIrp.SystemBuffer**, which must be >= **sizeof**([**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md)).
 
-<b>
-       Irp->AssociatedIrp.SystemBuffer</b> contains <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_property_query">STORAGE_PROPERTY_QUERY</a> data that specifies whether to query the device or the adapter, the type of query to perform, and any additional parameters required for the query, such as the page code for a particular SCSI mode sense page. Device properties must be retrieved only from a device; attempting to retrieve device properties from an adapter will cause an error. 
+**Irp->AssociatedIrp.SystemBuffer** contains [**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md) data that specifies whether to query the device or the adapter, the type of query to perform, and any additional parameters required for the query, such as the page code for a particular SCSI mode sense page. Device properties must be retrieved only from a device; attempting to retrieve device properties from an adapter will cause an error.
 
-<b>
-       Parameters.DeviceIoControl.OutputBufferLength</b> indicates the number of bytes that can be written to <b>Irp->AssociatedIrp.SystemBuffer</b>. <b>OutputBufferLength</b> can be zero to determine whether a property exists without retrieving its data.
+**Parameters.DeviceIoControl.OutputBufferLength** indicates the number of bytes that can be written to **Irp->AssociatedIrp.SystemBuffer**. **OutputBufferLength** can be zero to determine whether a property exists without retrieving its data.
 
 ### -input-buffer-length
 
-<b>
-       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the parameter buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be >= <b>sizeof</b>(<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_property_query">STORAGE_PROPERTY_QUERY</a>).
+**Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of the parameter buffer at **Irp->AssociatedIrp.SystemBuffer**, which must be >= **sizeof**([**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md)).
 
 ### -output-buffer
 
-The driver returns query data to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. Varying amounts of bus-specific data can be appended to the structure.
+The driver returns query data to the buffer at **Irp->AssociatedIrp.SystemBuffer**. Varying amounts of bus-specific data can be appended to the structure.
 
 ### -output-buffer-length
 
-Cast the structure returned to a <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a> and check its <b>Size</b> member to determine the number of bytes the structure actually requires.
+Cast the structure returned to a [**STORAGE_DESCRIPTOR_HEADER**](ns-ntddstor-_storage_descriptor_header.md) and check its **Size** member to determine the number of bytes the structure actually requires.
 
 ### -in-out-buffer
 
@@ -79,16 +74,12 @@ Cast the structure returned to a <a href="/windows-hardware/drivers/ddi/ntddstor
 
 ### -status-block
 
-The <b>Information</b> field is set to the number of bytes returned. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_INVALID_DEVICE_REQUEST, STATUS_INVALID_PARAMETER, or STATUS_NOT_SUPPORTED.
+The **Information** field is set to the number of bytes returned. The **Status** field is set to STATUS_SUCCESS, or possibly to STATUS_INVALID_DEVICE_REQUEST, STATUS_INVALID_PARAMETER, or STATUS_NOT_SUPPORTED.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
+[**STORAGE_DESCRIPTOR_HEADER**](ns-ntddstor-_storage_descriptor_header.md)
 
+[**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_property_query">STORAGE_PROPERTY_QUERY</a>
-
-
-
-<a href="https://msdn.microsoft.com/198E7A54-5AE3-4C6E-9E66-17818B999599">STORAGE_RPMB_DATA_FRAME</a>
+[**STORAGE_RPMB_DATA_FRAME**](ns-ntddstor-storage_rpmb_data_frame.md)
