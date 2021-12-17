@@ -54,7 +54,7 @@ A reference to a sensor object.
 
 ### -param pSensorData [in]
 
-A list of [Sensor properties](/windows-hardware/drivers/sensors/sensor-properties2). For more information, see [SENSOR_COLLECTION_LIST](/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list).
+A list of [sensor properties](/windows-hardware/drivers/sensors/sensor-properties2). For more information, see [SENSOR_COLLECTION_LIST](/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list).
 
 ## -remarks
 

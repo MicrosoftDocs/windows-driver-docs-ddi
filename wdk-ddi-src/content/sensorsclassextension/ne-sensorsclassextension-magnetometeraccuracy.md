@@ -72,4 +72,4 @@ Apps that need calibration may periodically ask the user to calibrate the device
 
 ## -see-also
 
-[Sensor Properties](/windows-hardware/drivers/sensors/sensor-properties2)
+- [Common sensor properties](/windows-hardware/drivers/sensors/sensor-properties2)

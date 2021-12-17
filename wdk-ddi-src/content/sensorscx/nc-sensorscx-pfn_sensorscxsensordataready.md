@@ -76,7 +76,7 @@ VOID *PfnSensorscxsensordataready
 
 ```
 
-## returns
+## -returns
 
 This function returns an **NTSTATUS** with different values. Some values that may be returned are:
 
