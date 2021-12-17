@@ -70,7 +70,7 @@ A pointer to a <b>IDebugFailureAnalysis2</b> interface. Use this interface to Ge
 
 <b>S_FALSE</b> – No changes were made.
 
-<b>E_*</b> - An error occurred. !analyze will report the error via Key/Value using a Key string of “Plugin.Exception.<Phase>.<DLL>” and Value string of the HRESULT in “0x%08x” format.
+<b>E_*</b> - An error occurred. !analyze will report the error via Key/Value using a Key string of `Plugin.Exception."Phase"."DLL"` and Value string of the HRESULT in “0x%08x” format.
 
 
 
