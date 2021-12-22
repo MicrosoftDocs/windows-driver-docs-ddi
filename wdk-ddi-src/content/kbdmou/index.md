@@ -19,10 +19,11 @@ api_name:
 
 # Kbdmou.h header
 
-
 ## -description
 
-This header is used by hid. For more information, see:
+These are the structures and defines that are used in the keyboard class driver, mouse class driver, and keyboard/mouse port driver.
+
+For more information, see:
 
 - [Human Interface Devices (HID)](../_hid/index.md)
 
