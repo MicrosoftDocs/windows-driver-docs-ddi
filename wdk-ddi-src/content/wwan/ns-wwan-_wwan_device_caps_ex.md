@@ -1102,7 +1102,7 @@ A formatted WWAN_LIST_HEADER object that represents a list of cellular classes t
 
 ### -field WwanSimClassBitMasks
 
-A bitmap that represents SIM class masks. It must at least contain the mask corresponding to the [**WwanSimClass**](#field-wwansimclass) field.
+A bitmap that represents SIM class masks. It must at least contain the mask corresponding to the **WwanSimClass** field.
 
 |Value|
 |--- |
