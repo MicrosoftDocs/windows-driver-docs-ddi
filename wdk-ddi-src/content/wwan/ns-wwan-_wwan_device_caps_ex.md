@@ -4,7 +4,7 @@ title: _WWAN_DEVICE_CAPS_EX (wwan.h)
 description: The WWAN_DEVICE_CAPS_EX structure represents the capabilities of the mobile broadband device.
 old-location: netvista\wwan_device_caps_ex.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/30/2021
 keywords: ["WWAN_DEVICE_CAPS_EX structure"]
 ms.keywords: "*PWWAN_DEVICE_CAPS_EX, PWWAN_DEVICE_CAPS_EX, PWWAN_DEVICE_CAPS_EX structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_CAPS_EX, WWAN_DEVICE_CAPS_EX structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_CAPS_EX, netvista.wwan_device_caps_ex, wwan/PWWAN_DEVICE_CAPS_EX, wwan/WWAN_DEVICE_CAPS_EX"
 req.header: wwan.h
@@ -84,7 +84,7 @@ The voice class of the device. This member informs the MB Service about the pres
 
 ### -field WwanSimClass
 
-The class of the Subscriber Identity Module (SIM card). Miniport drivers must set the SIM class to
+The class of the Subscriber Identity Module (SIM card) specified by the [**WWAN_SIM_CLASS**](ne-wwan-_wwan_sim_class.md) enum. Miniport drivers must set the SIM class to
      be a value other than 
      <b>WwanSimClassUnknown</b>.
 
@@ -1099,6 +1099,49 @@ The device and driver support configuration of network blocked senders list from
 ### -field CellularClassListHeader
 
 A formatted WWAN_LIST_HEADER object that represents a list of cellular classes that a multi-mode capable device supports. The <b>ElementType</b> member in WWAN_LIST_HEADER should always be set to <b>WwanStructCellularClass</b>. The <b>ElementCount</b> member in WWAN_LIST_HEADER is set to the number of cellular classes that follow the WWAN_LIST_HEADER structure. MB devices that are not multi-mode capable should set <b>ElementCount</b> to 0.
+
+### -field WwanSimClassBitMasks
+
+A bitmap that represents SIM class masks. It must at least contain the mask corresponding to the [**WwanSimClass**](#field-wwansimclass) field.
+
+|Value|
+|--- |
+|WWAN_SIM_CLASS_MASK_UNKNOWN 0x00000000|
+|WWAN_SIM_CLASS_MASK_EMBEDDED 0x00000001|
+|WWAN_SIM_CLASS_MASK_REMOVABLE 0x00000002|
+|WWAN_SIM_CLASS_MASK_REMOTE 0x00000004|
+
+### -field WwanWCDMABandClass
+
+The band number defined in 3GPP TS25.101 for FDD. The LSB indicates band number 1 (2100MHz).
+
+### -field WwanLTEBandClass
+
+### -field WwanNRBandClass
+
+### -field WwanDataSubClass
+
+A bitmap that represents the data subclass(es) that the device supports.
+
+|Value|Meaning|
+|--- |--- |
+|WWAN_DATA_SUBCLASS_NONE|There are no subclasses under the accompanying data class.|
+|WWAN_DATA_SUBCLASS_5G_ENDC|Evolved Universal Mobile Telecommunications System (UMTS) Terrestrial Radio Access (E-UTRAN) and NR dual connectivity as in 5G Option 3 are supported. Only valid under the WWAN_DATA_CLASS_5G data class.|
+|WWAN_DATA_SUBCLASS_5G_NR|Standalone NR as in 5G Option 2 is supported. Only valid under the WWAN_DATA_CLASS_5G data class.|
+|WWAN_DATA_SUBCLASS_5G_NEDC|NR and EUTRAN dual connectivity as in 5G Option 4 are supported. Only valid under the WWAN_DATA_CLASS_5G data class.|
+|WWAN_DATA_SUBCLASS_5G_ELTE|Standalone eLTE as in 5G option 5 is supported. Only valid under the WWAN_DATA_CLASS_5G data class.|
+|WWAN_DATA_SUBCLASS_5G_NGENDC|Next-gen eLTE and NR dual connectivity as in 5G option 7 are supported. Only valid under the WWAN_DATA_CLASS_5G data class.|
+
+### -field WwanMiscCaps
+
+A bitmap that represents miscellaneous capabilities that the device supports.
+|Value|
+|--- |
+|WWAN_DEVICE_MISC_CAPS_NONE 0x00000000|
+|WWAN_DEVICE_MISC_CAPS_ETHERNET_PDU_SESSION 0x00000001|
+|WWAN_DEVICE_MISC_CAPS_UNSTRUCTURED_PDU_SESSION 0x00000002|
+|WWAN_DEVICE_MISC_CAPS_ESIM 0x00000004|
+|WWAN_DEVICE_MISC_CAPS_REFLECTIVE_QOS 0x00000008|
 
 ## -remarks
 

@@ -2,7 +2,7 @@
 UID: NS:wificx._WIFI_BAND_INFO
 tech.root: netvista
 title: WIFI_BAND_INFO (wificx.h)
-ms.date: 08/26/2021
+ms.date: 12/28/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WIFI_BAND_INFO structure contains band information. 
@@ -49,7 +49,7 @@ The **WIFI_BAND_INFO** structure contains band information.
 
 A [**WDI_BAND_ID**](../dot11wificxtypes/ne-dot11wificxtypes-wdi_band_id.md) structure that represents this band ID.
 
-### -field BandState9
+### -field BandState
 
 Specifies whether this band is enabled or not.
 

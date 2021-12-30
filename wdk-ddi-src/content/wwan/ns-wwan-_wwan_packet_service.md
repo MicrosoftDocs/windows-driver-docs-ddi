@@ -4,7 +4,7 @@ title: _WWAN_PACKET_SERVICE (wwan.h)
 description: The WWAN_PACKET_SERVICE structure represents the packet service attachment state of the MB device.
 old-location: netvista\wwan_packet_service.htm
 tech.root: netvista
-ms.date: 04/05/2019
+ms.date: 12/30/2021
 keywords: ["WWAN_PACKET_SERVICE structure"]
 ms.keywords: "*PWWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], WWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], WwanRef_ce147c69-a83d-42fd-9b08-7a12e6ecaf1a.xml, _WWAN_PACKET_SERVICE, netvista.wwan_packet_service, wwan/PWWAN_PACKET_SERVICE, wwan/WWAN_PACKET_SERVICE"
 req.header: wwan.h
@@ -101,6 +101,14 @@ Miniport drivers should set this member to WWAN_DATA_CLASS_CUSTOM if the data-cl
 ### -field FrequencyRange
 
 A [**WWAN_5G_FREQUENCY_RANGE**](../wwan/ne-wwan-_wwan_5g_frequency_range.md) value that specifies the frequency ranges that the device is using. This member is only valid if **CurrentDataClass** is either **WWAN_DATA_CLASS_5G_NSA** or **WWAN_DATA_CLASS_SA**.
+
+### -field CurrentDataSubClass
+
+This field is only used for NDIS_WWAN_PACKET_SERVICE_STATE_REVISION_3.
+
+### -field CurrentTai
+
+ A [**WWAN_SINGLE_TAI**](ns-wwan-wwan_single_tai.md) structure representing the current single Tracking Area Identity (TAI). This field is only used for NDIS_WWAN_PACKET_SERVICE_STATE_REVISION_3.
 
 ## -remarks
 
