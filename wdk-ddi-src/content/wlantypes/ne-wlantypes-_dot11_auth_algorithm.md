@@ -4,7 +4,7 @@ title: _DOT11_AUTH_ALGORITHM (wlantypes.h)
 description: The DOT11_AUTH_ALGORITHM enumeration is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11_auth_algorithm.htm
 tech.root: netvista
-ms.date: 02/16/2018
+ms.date: 12/28/2021
 keywords: ["DOT11_AUTH_ALGORITHM enumeration"]
 ms.keywords: "*PDOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGORITHM enumeration [Network Drivers Starting with Windows Vista], DOT11_AUTH_ALGO_80211_OPEN, DOT11_AUTH_ALGO_80211_SHARED_KEY, DOT11_AUTH_ALGO_IHV_END, DOT11_AUTH_ALGO_IHV_START, DOT11_AUTH_ALGO_RSNA, DOT11_AUTH_ALGO_RSNA_PSK, DOT11_AUTH_ALGO_WPA, DOT11_AUTH_ALGO_WPA_NONE, DOT11_AUTH_ALGO_WPA_PSK, Native_802.11_data_types_e6d2770c-b7fd-467c-a94e-b2f77a515e76.xml, PDOT11_AUTH_ALGORITHM, PDOT11_AUTH_ALGORITHM enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_AUTH_ALGORITHM, netvista.dot11_auth_algorithm, wlantypes/DOT11_AUTH_ALGORITHM, wlantypes/DOT11_AUTH_ALGO_80211_OPEN, wlantypes/DOT11_AUTH_ALGO_80211_SHARED_KEY, wlantypes/DOT11_AUTH_ALGO_IHV_END, wlantypes/DOT11_AUTH_ALGO_IHV_START, wlantypes/DOT11_AUTH_ALGO_RSNA, wlantypes/DOT11_AUTH_ALGO_RSNA_PSK, wlantypes/DOT11_AUTH_ALGO_WPA, wlantypes/DOT11_AUTH_ALGO_WPA_NONE, wlantypes/DOT11_AUTH_ALGO_WPA_PSK, wlantypes/PDOT11_AUTH_ALGORITHM"
 req.header: wlantypes.h
@@ -56,16 +56,16 @@ api_name:
 
 ## -enum-fields
 
-### -field DOT11_AUTH_ALGO_80211_OPEN
+### -field DOT11_AUTH_ALGO_80211_OPEN:1
 
       Specifies an IEEE 802.11 Open System authentication algorithm.
 
-### -field DOT11_AUTH_ALGO_80211_SHARED_KEY
+### -field DOT11_AUTH_ALGO_80211_SHARED_KEY:2
 
 Specifies an IEEE 802.11 Shared Key authentication algorithm that requires the use of a pre-shared
      Wired Equivalent Privacy (WEP) key for the 802.11 authentication.
 
-### -field DOT11_AUTH_ALGO_WPA
+### -field DOT11_AUTH_ALGO_WPA:3
 
 Specifies a Wi-Fi Protected Access (WPA) algorithm. IEEE 802.1X port authorization is performed by
      the supplicant, authenticator, and authentication server. Cipher keys are dynamically derived through
@@ -79,7 +79,7 @@ When the WPA algorithm is enabled, the 802.11 station associates only with an ac
      beacon or probe responses contain the authentication suite of type 1 (802.1X) within the WPA information
      element (IE).
 
-### -field DOT11_AUTH_ALGO_WPA_PSK
+### -field DOT11_AUTH_ALGO_WPA_PSK:4
 
 Specifies a Wi-Fi Protected Access (WPA) algorithm that uses preshared keys (PSK). IEEE 802.1X
      port authorization is performed by the supplicant and authenticator. Cipher keys are dynamically derived
@@ -93,11 +93,11 @@ When the WPA PSK algorithm is enabled, the 802.11 station will associate only wi
      whose beacon or probe responses contain the authentication suite of type 2 (preshared key) within the
      WPA IE.
 
-### -field DOT11_AUTH_ALGO_WPA_NONE
+### -field DOT11_AUTH_ALGO_WPA_NONE:5
 
 This value is not supported.
 
-### -field DOT11_AUTH_ALGO_RSNA
+### -field DOT11_AUTH_ALGO_RSNA:6
 
 Specifies an IEEE 802.11i Robust Security Network Association (RSNA) algorithm. IEEE 802.1X port
      authorization is performed by the supplicant, authenticator, and authentication server. Cipher keys are
@@ -111,7 +111,7 @@ When the RSNA algorithm is enabled, the 802.11 station will associate only with 
      beacon or probe responses contain the authentication suite of type 1 (802.1X) within the Robust Security
      Network (RSN) IE.
 
-### -field DOT11_AUTH_ALGO_RSNA_PSK
+### -field DOT11_AUTH_ALGO_RSNA_PSK:7
 
 Specifies an IEEE 802.11i RSNA algorithm that uses PSK. IEEE 802.1X port authorization is
      performed by the supplicant and authenticator. Cipher keys are dynamically derived through a pre-shared
@@ -122,7 +122,7 @@ When the RSNA PSK algorithm is enabled, the 802.11 station will associate only w
      whose beacon or probe responses contain the authentication suite of type 2 (preshared key) within the
      RSN IE.
 
-### -field DOT11_AUTH_ALGO_IHV_START
+### -field DOT11_AUTH_ALGO_IHV_START:0x80000000
 
 Specifies the start of the range that specifies proprietary authentication algorithms that are
      developed by an IHV.
@@ -132,7 +132,7 @@ The
      DOT11_AUTH_ALGO_IHV_START enumerator is valid only when the miniport driver is operating in
      Extensible Station (ExtSTA) mode.
 
-### -field DOT11_AUTH_ALGO_IHV_END
+### -field DOT11_AUTH_ALGO_IHV_END:0xffffffff
 
 Specifies the end of the range that specifies proprietary authentication algorithms that are
      developed by an IHV.
@@ -142,23 +142,26 @@ The
      DOT11_AUTH_ALGO_IHV_END enumerator is valid only when the miniport driver is operating in ExtSTA
      mode.
 
-### -field v1_enum
+### -field DOT11_AUTH_ALGO_WPA3:8
 
-## -syntax
+Specifies a WPA3-Enterprise 192-bit mode algorithm.
 
-```cpp
-typedef enum _DOT11_AUTH_ALGORITHM {
-  DOT11_AUTH_ALGO_80211_OPEN        = 1,
-  DOT11_AUTH_ALGO_80211_SHARED_KEY  = 2,
-  DOT11_AUTH_ALGO_WPA               = 3,
-  DOT11_AUTH_ALGO_WPA_PSK           = 4,
-  DOT11_AUTH_ALGO_WPA_NONE          = 5,
-  DOT11_AUTH_ALGO_RSNA              = 6,
-  DOT11_AUTH_ALGO_RSNA_PSK          = 7,
-  DOT11_AUTH_ALGO_IHV_START         = 0x80000000,
-  DOT11_AUTH_ALGO_IHV_END           = 0xffffffff
-} DOT11_AUTH_ALGORITHM, *PDOT11_AUTH_ALGORITHM;
-```
+### -field DOT11_AUTH_ALGO_WPA3_ENT_192:DOT11_AUTH_ALGO_WPA3
+
+Specifies a WPA3-Enterprise 192-bit mode algorithm.
+
+### -field DOT11_AUTH_ALGO_WPA3_SAE:9
+
+Specifies a WPA3-Simultaneous Authentication of Equals (WPA3-SAE) algorithm.
+
+### -field DOT11_AUTH_ALGO_OWE:10
+
+Specifies an opportunistic wireless encryption (OWE) algorithm.
+
+### -field DOT11_AUTH_ALGO_WPA3_ENT:11
+
+Specifies a WPA3-Enterprise algorithm.
+
 
 ## -remarks
 

@@ -61,6 +61,7 @@ The operation failed because the peer is unreachable. The detection of an unreac
 The operation failed because the radio is off. This can be used if the hardware radio switch is turned off.
 
 ### -field WDI_ASSOC_STATUS_PHY_DISABLED:4
+The operation failed because the PHY is disabled. 
 
 ### -field WDI_ASSOC_STATUS_ABORTED:5
 

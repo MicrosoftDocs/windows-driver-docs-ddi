@@ -4,7 +4,7 @@ title: PFN_WSK_RECEIVE_FROM (wsk.h)
 description: The WskReceiveFrom function receives a datagram and any associated control information from a remote transport address.
 old-location: netvista\wskreceivefrom.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/29/2021
 keywords: ["PFN_WSK_RECEIVE_FROM callback function"]
 ms.keywords: PFN_WSK_RECEIVE_FROM, PFN_WSK_RECEIVE_FROM callback, WskReceiveFrom, WskReceiveFrom callback function [Network Drivers Starting with Windows Vista], netvista.wskreceivefrom, wsk/WskReceiveFrom, wskref_5c6ab859-3010-468f-8cb2-820cbb641a19.xml
 req.header: wsk.h
@@ -79,7 +79,9 @@ A pointer to a caller-allocated buffer that receives the remote transport addres
      the WSK application specified when it created the datagram socket. This pointer is optional and can be
      <b>NULL</b>.
 
-### -param ControlLength
+### -param ControlLength [in, out]
+
+A pointer to a ULONG that specifies the size of the buffer that is pointed to by the <i>ControlInfo</i> parameter. When the receive operation is complete, the variable receives the size of the control information that is associated with the received datagram. If the value that is returned is zero, there is no control information present for the datagram. This pointer is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the <i>ControlInfo</i> parameter is ignored.
 
 ### -param ControlInfo [out, optional]
 
@@ -142,16 +144,6 @@ A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the 
      <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
-
-### -param ControlInfoLength [in, out]
-
-A pointer to a ULONG-typed variable that specifies the size of the buffer that is pointed to by
-     the 
-     <i>ControlInfo</i> parameter. When the receive operation is complete, the variable receives the size of
-     the control information that is associated with the received datagram. If the value that is returned is
-     zero, there is no control information present for the datagram. This pointer is optional and can be
-     <b>NULL</b>. If this parameter is <b>NULL</b>, the 
-     <i>ControlInfo</i> parameter is ignored.
 
 ## -returns
 

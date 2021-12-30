@@ -3,7 +3,7 @@ UID: NE:wwan._WWAN_CONFIGURATION_SOURCE
 title: _WWAN_CONFIGURATION_SOURCE (wwan.h)
 description: The WWAN_CONFIGURATION_SOURCE enumeration specifies the creation source of a provisioned context.
 tech.root: netvista
-ms.date: 08/23/2018
+ms.date: 12/29/2021
 keywords: ["WWAN_CONFIGURATION_SOURCE enumeration"]
 ms.keywords: _WWAN_CONFIGURATION_SOURCE, WWAN_CONFIGURATION_SOURCE, *PWWAN_CONFIGURATION_SOURCE,
 req.header: wwan.h
@@ -71,6 +71,10 @@ The context was created by the IHV or OEM.
 ### -field WwanMaxProvisionSource 
 
 The maximum value for this enumeration.
+
+### -field WwanModemOperatorProvisioned
+
+The context was created by the modem operator.
 
 ## -remarks
 
