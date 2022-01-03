@@ -19,10 +19,11 @@ api_name:
 
 # Hidclass.h header
 
-
 ## -description
 
-This header is used by hid. For more information, see:
+Definitions that are common to clients of the HID class driver.
+
+For more information, see:
 
 - [Human Interface Devices (HID)](../_hid/index.md)
 
