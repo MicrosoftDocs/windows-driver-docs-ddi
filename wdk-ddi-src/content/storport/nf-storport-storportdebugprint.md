@@ -67,7 +67,7 @@ None
 
 ## -remarks
 
-**StorPortDebugPrint** prints the message pointed to by **DebugMessage**, together with other debugging information depending on the value of **DebugPrintLevel** as follows.
+**StorPortDebugPrint** prints the message pointed to by **DebugMessage**, along with other debugging information depending on the value of **DebugPrintLevel** as follows.
 
 | Value of DebugPrintLevel | Type of information printed |
 | ------------------------ | --------------------------- |
