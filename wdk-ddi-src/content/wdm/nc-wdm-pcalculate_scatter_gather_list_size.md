@@ -74,9 +74,7 @@ Specifies the length of the buffer, in bytes.
 
 Pointer to the variable the routine uses to return the size of the scatter/gather list, in bytes.
 
-### -param pNumberOfMapRegisters
-
-### -param NumberOfMapRegisters [out, optional]
+### -param pNumberOfMapRegisters [out, optional]
 
 Either <b>NULL</b> or pointer to the variable the routine uses to return the number of map registers needed for DMA operations on the buffer.
 
