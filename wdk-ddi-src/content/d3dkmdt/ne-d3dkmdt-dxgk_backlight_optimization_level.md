@@ -64,7 +64,7 @@ This is the default adaptive brightness setting when the system is on DC power.
 
 The display miniport driver should optimize backlight settings for presentation of full-screen video. Typical playback scenarios include playing movies and full-screen video.
 
-The operating system sets this value if a full-screen Windows App is using the HTML5 video tag with JavaScript or the [MediaElement](/dotnet/api/system.windows.controls.mediaelement?view=windowsdesktop-6.0) control with XAML.
+The operating system sets this value if a full-screen Windows App is using the HTML5 video tag with JavaScript or the [MediaElement](/dotnet/api/system.windows.controls.mediaelement) control with XAML.
 
 The operating system sets this value only when only full-screen video content is displayed on the screen. This value is not set if playback controls or charms are displayed during video playback; in this case, adaptive brightness will not be enabled.
 

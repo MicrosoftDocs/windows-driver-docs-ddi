@@ -10,7 +10,7 @@ ms.keywords: DXGI_DDI_BASE_FUNCTIONS, DXGI_DDI_BASE_FUNCTIONS structure [Display
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -124,7 +124,7 @@ Beginning in Windows 8, the driver must support rotation of stereo back buffers
 
 Copies the contents of a source surface to a destination surface and may rotate the contents.
 
-The Direct3D runtime might set the **Flags** member of the [**DXGI_DDI_ARG_BLT**](ns-dxgiddi-dxgi_ddi_arg_blt.md) structure that the **pBltData** parameter points to in such a way as to require the [**BltDXGI**](ns-dxgiddi-dxgi_ddi_base_functions.md) function to perform a [**bit-block transfer (bitblt)**](.md) operation that resolves multi-sampled resources, performs color-format conversion, and performs a stretch or shrink all at once. However, the Direct3D runtime will never set the **Flags** member of **DXGI_DDI_ARG_BLT** to zero (that is, no flags set) together with the **DXGI_DDI_MODE_ROTATION_IDENTITY** value set in the **Rotate** member of **DXGI_DDI_ARG_BLT** (that is, to indicate no rotation) to perform a straight memory copy operation. Instead, unless both resources are multi-sampled, the Direct3D runtime calls the driver's [**ResourceCopy**](../d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcecopy.md) or [**ResourceCopyRegion**](../d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcecopyregion.md) function to perform a straight memory copy operation.
+The Direct3D runtime might set the **Flags** member of the [**DXGI_DDI_ARG_BLT**](ns-dxgiddi-dxgi_ddi_arg_blt.md) structure that the **pBltData** parameter points to in such a way as to require the [**BltDXGI**](ns-dxgiddi-dxgi_ddi_base_functions.md) function to perform a bit-block transfer (bitblt) operation that resolves multi-sampled resources, performs color-format conversion, and performs a stretch or shrink all at once. However, the Direct3D runtime will never set the **Flags** member of **DXGI_DDI_ARG_BLT** to zero (that is, no flags set) together with the **DXGI_DDI_MODE_ROTATION_IDENTITY** value set in the **Rotate** member of **DXGI_DDI_ARG_BLT** (that is, to indicate no rotation) to perform a straight memory copy operation. Instead, unless both resources are multi-sampled, the Direct3D runtime calls the driver's [**ResourceCopy**](../d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcecopy.md) or [**ResourceCopyRegion**](../d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcecopyregion.md) function to perform a straight memory copy operation.
 
 The quality of the stretch or shrink that the user-mode display driver performs must be as good as the stretch or shrink that a bilinear filter performs.
 
