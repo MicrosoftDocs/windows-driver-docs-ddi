@@ -292,6 +292,14 @@ Specifies that a thread is attempting to obtain the full path of a registry key.
 
 Specifies that a thread has attempted to obtain the full path of a registry key. Use this value on Windows 10 and later versions of the Windows operating system.
 
+### -field RegNtPreSaveMergedKey
+
+Use this value on Windows 10 and later versions of the Windows operating system.
+
+### -field RegNtPostSaveMergedKey
+
+Use this value on Windows 10 and later versions of the Windows operating system.
+
 ### -field MaxRegNtNotifyClass
 
 Specifies the maximum value in this enumeration type.
