@@ -4,7 +4,7 @@ title: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL (d3dkmdt.h)
 description: Indicates the optimization level of brightness control. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive brightness control.
 old-location: display\dxgk_backlight_optimization_level.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 12/09/2021
 keywords: ["DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration"]
 ms.keywords: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration [Display Devices], DxgkBacklightOptimizationDesktop, DxgkBacklightOptimizationDimmed, DxgkBacklightOptimizationDisable, DxgkBacklightOptimizationDynamic, DxgkBacklightOptimizationEDR, d3dkmdt/DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, d3dkmdt/DxgkBacklightOptimizationDesktop, d3dkmdt/DxgkBacklightOptimizationDimmed, d3dkmdt/DxgkBacklightOptimizationDisable, d3dkmdt/DxgkBacklightOptimizationDynamic, d3dkmdt/DxgkBacklightOptimizationEDR, display.dxgk_backlight_optimization_level
 req.header: d3dkmdt.h
@@ -42,7 +42,6 @@ api_name:
 
 # DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration
 
-
 ## -description
 
 Indicates the optimization level of brightness control. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive brightness control.
@@ -63,9 +62,9 @@ This is the default adaptive brightness setting when the system is on DC power.
 
 ### -field DxgkBacklightOptimizationDynamic
 
-The display miniport driver should optimize backlight settings for presentation of full-screen video. Typical playback scenarios include playing movies and full-screen video. 
+The display miniport driver should optimize backlight settings for presentation of full-screen video. Typical playback scenarios include playing movies and full-screen video.
 
-The operating system sets this value if a full-screen Windows App is using the HTML5 video tag with JavaScript or the <a href="https://msdn.microsoft.com/5146a1d4-17f0-4da2-a8ba-b121f9beeb21">MediaElement</a> control with XAML.
+The operating system sets this value if a full-screen Windows App is using the HTML5 video tag with JavaScript or the [MediaElement](/dotnet/api/system.windows.controls.mediaelement) control with XAML.
 
 The operating system sets this value only when only full-screen video content is displayed on the screen. This value is not set if playback controls or charms are displayed during video playback; in this case, adaptive brightness will not be enabled.
 
@@ -81,8 +80,8 @@ Optimization level which informs the driver that the display is being driven wit
 
 ## -remarks
 
-For more information on usage scenarios involving <b>DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</b> enumeration values, see Remarks in the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_set_backlight_optimization">DxgkDdiSetBacklightOptimization</a> function.
+For more information on usage scenarios involving **DXGK_BACKLIGHT_OPTIMIZATION_LEVEL** enumeration values, see Remarks in the [**DxgkDdiSetBacklightOptimization**](../dispmprt/nc-dispmprt-dxgk_brightness_set_backlight_optimization.md) function.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_set_backlight_optimization">DxgkDdiSetBacklightOptimization</a>
+[**DxgkDdiSetBacklightOptimization**](../dispmprt/nc-dispmprt-dxgk_brightness_set_backlight_optimization.md)
