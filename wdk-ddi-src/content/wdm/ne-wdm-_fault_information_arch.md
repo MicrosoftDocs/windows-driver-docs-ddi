@@ -51,7 +51,11 @@ The architecture type is not valid.
 
 ### -field FaultInformationArm64
 
-ARM64 architecture.
+Specifies ARM64 architecture.
+
+### -field FaultInformationX64
+
+Specifies x64 architecture.
 
 ## -remarks
 

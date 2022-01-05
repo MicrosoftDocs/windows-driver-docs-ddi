@@ -3,7 +3,7 @@ UID: NS:wwan._WWAN_LTE_ATTACH_STATUS
 title: _WWAN_LTE_ATTACH_STATUS (wwan.h)
 description: The WWAN_LTE_ATTACH_STATUS structure describes the last used default LTE attach context for a mobile broadband (MBB) modem.
 tech.root: netvista
-ms.date: 08/23/2018
+ms.date: 12/30/2021
 keywords: ["WWAN_LTE_ATTACH_STATUS structure"]
 ms.keywords: _WWAN_LTE_ATTACH_STATUS, WWAN_LTE_ATTACH_STATUS, *PWWAN_LTE_ATTACH_STATUS,
 req.header: wwan.h
@@ -62,6 +62,8 @@ A [**WWAN_IP_TYPE**](ne-wwan-_wwan_ip_type.md) value that specifies the supporte
 ### -field basicInfo
 
 A [**WWAN_CONTEXT**](ns-wwan-_wwan_context.md) structure that represents the basic information for the default LTE attach context.
+
+### -field NetworkError
 
 ## -remarks
 

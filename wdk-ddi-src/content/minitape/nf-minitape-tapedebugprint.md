@@ -4,7 +4,7 @@ title: TapeDebugPrint function (minitape.h)
 description: The TapeDebugPrint routine prints the indicated string.
 old-location: storage\tapedebugprint.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 01/03/2022
 keywords: ["TapeDebugPrint function"]
 ms.keywords: TapeDebugPrint, TapeDebugPrint routine [Storage Devices], minitape/TapeDebugPrint, storage.tapedebugprint, tapeclas_cc0c28ed-17e9-40cf-bf04-e906aa4f74f0.xml
 req.header: minitape.h
@@ -43,16 +43,15 @@ api_name:
 
 # TapeDebugPrint function
 
-
 ## -description
 
-The <b>TapeDebugPrint</b> routine prints the indicated string.
+The **TapeDebugPrint** routine prints the indicated string.
 
 ## -parameters
 
 ### -param DebugPrintLevel
 
-Determines whether the string is printed or not. If this parameter has a value less than or equal to the tape class global variable <b>TapeClassDebug</b>, <b>TapeDebugPrint</b> prints the message, otherwise nothing is printed. If this parameter has a value of zero, <b>TapeClassDebug</b> always prints the message.
+Determines whether the string is printed. If **DebugPrintLevel** is less than or equal to the tape class global variable **TapeClassDebug**, **TapeDebugPrint** prints the debug message, otherwise nothing is printed. If this parameter has a value of zero, **TapeClassDebug** always prints the message.
 
 ### -param DebugMessage
 
@@ -60,9 +59,8 @@ Pointer to the string to be printed.
 
 ### -param ...
 
-TBD
+Variadic arguments for the string that **DebugMessage** points to.
 
 ## -returns
 
 None
-

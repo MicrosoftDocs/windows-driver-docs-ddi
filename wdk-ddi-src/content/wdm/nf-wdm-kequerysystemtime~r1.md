@@ -4,7 +4,7 @@ title: KeQuerySystemTime function (wdm.h)
 description: The KeQuerySystemTime routine obtains the current system time.
 old-location: kernel\kequerysystemtime.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/15/2021
 keywords: ["KeQuerySystemTime function"]
 ms.keywords: KeQuerySystemTime, KeQuerySystemTime routine [Kernel-Mode Driver Architecture], k105_0eaf1b30-c365-45ac-828c-fbcc7cd71ff3.xml, kernel.kequerysystemtime, wdm/KeQuerySystemTime
 req.header: wdm.h
@@ -50,7 +50,7 @@ The <b>KeQuerySystemTime</b> routine obtains the current system time.
 
 ## -parameters
 
-### -param CurrentCount [out]
+### -param CurrentTime [out]
 
 Pointer to LARGE_INTEGER variable that receives the current time.
 

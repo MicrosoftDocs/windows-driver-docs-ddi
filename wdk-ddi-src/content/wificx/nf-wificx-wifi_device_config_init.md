@@ -2,7 +2,7 @@
 UID: NF:wificx.WIFI_DEVICE_CONFIG_INIT
 tech.root: netvista
 title: WIFI_DEVICE_CONFIG_INIT (wificx.h)
-ms.date: 08/18/2021
+ms.date: 12/28/2021
 ms.topic: language-reference
 targetos: Windows
 description: The WIFI_DEVICE_CONFIG_INIT function initializes the WIFI_DEVICE_CONFIG structure.
@@ -62,7 +62,7 @@ The **WIFI_DEVICE_CONFIG_INIT** function initializes the [**WIFI_DEVICE_CONFIG**
 
 [_In_] A pointer to the client driver's implementation of the [*EVT_WIFI_DEVICE_CREATE_ADAPTER*](nc-wificx-evt_wifi_device_create_adapter.md) callback function.
 
-### -field CreateWifiDirectDevice
+### -param CreateWifiDirectDevice
 
 [_In_] A pointer to the client driver's implementation of the [*EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE*](nc-wificx-evt_wifi_device_create_wifidirectdevice.md) callback function.
 

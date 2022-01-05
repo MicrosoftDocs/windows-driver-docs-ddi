@@ -4,7 +4,7 @@ title: DOT11_PHY_ATTRIBUTES (windot11.h)
 description: The DOT11_PHY_ATTRIBUTES structure is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11_phy_attributes.htm
 tech.root: netvista
-ms.date: 02/16/2018
+ms.date: 12/28/2021
 keywords: ["DOT11_PHY_ATTRIBUTES structure"]
 ms.keywords: "*PDOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_76ba44f0-4597-4397-b686-1f70e5e27eec.xml, PDOT11_PHY_ATTRIBUTES, PDOT11_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_phy_attributes, windot11/DOT11_PHY_ATTRIBUTES, windot11/PDOT11_PHY_ATTRIBUTES"
 req.header: windot11.h
@@ -149,23 +149,25 @@ An array of the data rates supported by the PHY. Each entry is formatted as a
       <a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">
       DOT11_DATA_RATE_MAPPING_ENTRY</a> structure.
 
-### -field ERPAttributes
+### -field PhySpecificAttributes
 
-The PHY-specific attributes of an extended-rate PHY (ERP) type. The miniport driver must use this
-       member only if the
-       <b>PhyType</b> member is set to dot11_phy_type_erp.
-
-### -field HRDSSSAttributes
+### -field PhySpecificAttributes.HRDSSSAttributes
 
 The PHY-specific attributes of a high-rate direct-sequence spread spectrum (HRDSS) PHY type. The
        miniport driver must use this member only if the
        <b>PhyType</b> member is set to dot11_phy_type_hrdsss.
 
-### -field OFDMAttributes
+### -field PhySpecificAttributes.OFDMAttributes
 
 The PHY-specific attributes of an orthogonal frequency division multiplexing (OFDM) PHY type. The
        miniport driver must use this member only if the
        <b>PhyType</b> member is set to dot11_phy_type_ofdm.
+
+### -field PhySpecificAttributes.ERPAttributes
+
+The PHY-specific attributes of an extended-rate PHY (ERP) type. The miniport driver must use this
+       member only if the
+       <b>PhyType</b> member is set to dot11_phy_type_erp.
 
 ### -field SupportedDataRatesValue
 

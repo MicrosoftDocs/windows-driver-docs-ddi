@@ -1,10 +1,10 @@
 ---
-UID: NS:wdm.__unnamed_struct_2
+UID: NS:wdm.__unnamed_struct_3
 title: BATTERY_REPORTING_SCALE (wdm.h)
 description: Battery miniclass drivers fill in this structure in response to certain BatteryMiniQueryInformation requests.
 old-location: battery\battery_reporting_scale.htm
 tech.root: battery
-ms.date: 02/15/2018
+ms.date: 12/15/2021
 keywords: ["BATTERY_REPORTING_SCALE structure"]
 ms.keywords: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE structure [Battery Devices], PBATTERY_REPORTING_SCALE, PBATTERY_REPORTING_SCALE structure pointer [Battery Devices], bat-struct_6ecc4955-56b0-4c92-9ce2-46bcd7d6b273.xml, battery.battery_reporting_scale, ntpoapi/BATTERY_REPORTING_SCALE, ntpoapi/PBATTERY_REPORTING_SCALE"
 req.header: wdm.h

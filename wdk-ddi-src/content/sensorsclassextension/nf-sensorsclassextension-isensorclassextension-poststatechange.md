@@ -4,13 +4,13 @@ title: ISensorClassExtension::PostStateChange (sensorsclassextension.h)
 description: The ISensorClassExtension::PostStateChange method notifies the sensor class extension about a change in the operational state of the sensor.
 old-location: sensors\isensorclassextension_poststatechange.htm
 tech.root: sensors
-ms.date: 05/03/2018
+ms.date: 12/16/2021
 keywords: ["ISensorClassExtension::PostStateChange"]
 ms.keywords: ISensorClassExtension interface [Sensor Devices],PostStateChange method, ISensorClassExtension.PostStateChange, ISensorClassExtension::PostStateChange, PostStateChange, PostStateChange method [Sensor Devices], PostStateChange method [Sensor Devices],ISensorClassExtension interface, Sensor_IFaces_b6cc2565-ed4f-48cb-83ea-8d03322c2670.xml, sensors.isensorclassextension_poststatechange, sensorsclassextension/ISensorClassExtension::PostStateChange
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 7,Available in Windows 7.
+req.target-min-winverclnt: Windows 7,Available in Windows 7.
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,42 +43,35 @@ api_name:
 
 # ISensorClassExtension::PostStateChange
 
-
 ## -description
 
-The <b>ISensorClassExtension::PostStateChange</b> method notifies the sensor class extension about a change in the operational state of the sensor.
+The **ISensorClassExtension::PostStateChange** method notifies the sensor class extension about a change in the operational state of the sensor.
 
 ## -parameters
 
 ### -param pwszSensorID [in]
 
+**LPWSTR** that contains the ID for the sensor for which the driver is raising the event.
 
-<b>LPWSTR</b> that contains the ID for the sensor for which the driver is raising the event.
+### -param state [in]
 
-### -param state
-
-### -param State [in]
-
-
-<a href="/windows-hardware/drivers/ddi/sensorsclassextension/ne-sensorsclassextension-__midl___midl_itf_windowssensorclassextension_0000_0000_0001">SensorState</a> value that indicates the new state.
+[SensorState](/windows-hardware/drivers/ddi/sensorsclassextension/ne-sensorsclassextension-__midl___midl_itf_windowssensorclassextension_0000_0000_0001) value that indicates the new state.
 
 ## -returns
 
 This method returns an HRESULT. Possible values include, but are not limited to, one of the following values.
 
-|Return code|Description|
-|--- |--- |
-|S_OK|The method succeeded.|
-|E_POINTER|A required pointer argument was NULL.|
-|HRESULT_FROM_WIN32(ERROR_CAN_NOT_COMPLETE)|The class extension is not initialized.|
+| Return code                                | Description                             |
+|--------------------------------------------|-----------------------------------------|
+| S_OK                                       | The method succeeded.                   |
+| E_POINTER                                  | A required pointer argument was NULL.   |
+| HRESULT_FROM_WIN32(ERROR_CAN_NOT_COMPLETE) | The class extension is not initialized. |
 
 ## -remarks
 
-Sensor state information is also available through the <a href="/windows-hardware/drivers/sensors/sensor-properties2">SENSOR_PROPERTY_STATE</a> property key.
+Sensor state information is also available through the [SENSOR_PROPERTY_STATE](/windows-hardware/drivers/sensors/sensor-properties2) property key.
 
-<div class="code"></div>
-
-#### Examples
+### Examples
 
 The following example code demonstrates a function that posts a state-changed event.
 
@@ -108,13 +101,6 @@ HRESULT PostStateEvent()
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensorclassextension">ISensorClassExtension</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-onclientsubscribetoevents">ISensorDriver::OnClientSubscribeToEvents</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-onclientunsubscribefromevents">ISensorDriver::OnClientUnsubscribeFromEvents</a>
-
+- [ISensorClassExtension](/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensorclassextension)
+- [ISensorDriver::OnClientSubscribeToEvents](/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-onclientsubscribetoevents)
+- [ISensorDriver::OnClientUnsubscribeFromEvents](/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-onclientunsubscribefromevents)

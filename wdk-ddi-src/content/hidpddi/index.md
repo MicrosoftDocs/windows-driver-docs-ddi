@@ -19,10 +19,11 @@ api_name:
 
 # Hidpddi.h header
 
-
 ## -description
 
-This header is used by hid. For more information, see:
+This module contains the PUBLIC definitions for the code that implements the driver side of the parsing library.
+
+For more information, see:
 
 - [Human Interface Devices (HID)](../_hid/index.md)
 

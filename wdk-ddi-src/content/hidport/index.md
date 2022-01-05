@@ -19,10 +19,11 @@ api_name:
 
 # Hidport.h header
 
-
 ## -description
 
-This header is used by hid. For more information, see:
+Definitions that are common to all HID minidrivers.
+
+For more information, see:
 
 - [Human Interface Devices (HID)](../_hid/index.md)
 

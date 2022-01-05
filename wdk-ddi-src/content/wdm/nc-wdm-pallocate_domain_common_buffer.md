@@ -57,14 +57,18 @@ The handle to the DMA domain that the caller obtained from a previous call to [*
 
 A pointer to a variable that contains the maximum logical address for the common buffer. This parameter indicates that the buffer should be allocated from memory below this address. This parameter is optional and can be specified as NULL to indicate that there is no maximum address.
 
-[in] The size, in bytes, of the common buffer that is to be allocated for the DMA operation.
+### -param Length [in]
+
+The size, in bytes, of the common buffer that is to be allocated for the DMA operation.
 
 ### -param Flags [in]
 
 The size, in bytes, of the common buffer that is to be allocated for the DMA operation.
-| Flag                            | Meaning                                                                                                                                                              |
-| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| DOMAIN_COMMON_BUFFER_LARGE_PAGE | The common buffer will be allocated using a larger page granularity of PAGE_SIZE * 512. Note that this can increase the chance of the allocation being unsuccessful. |
+
+Possible values include:
+
+**DOMAIN_COMMON_BUFFER_LARGE_PAGE**
+<ul>The common buffer will be allocated using a larger page granularity of PAGE_SIZE * 512. Note that this can increase the chance of the allocation being unsuccessful.</ul>
 
 ### -param CacheType [in, optional]
 
@@ -78,7 +82,7 @@ The preferred NUMA node from which the memory is to be allocated. If N is the nu
 
 A pointer to a variable into which this routine writes the logical address that the device can use to access the common buffer. The DMA device should use this logical address instead of the physical address that is returned by a routine such as [**MmGetPhysicalAddress**](../ntddk/nf-ntddk-mmgetphysicaladdress.md).
 
-### -param VirtualAddress: [out]
+### -param VirtualAddress [out]
 
 A pointer to a variable into which this routine writes the corresponding virtual address of the allocated buffer.
 
