@@ -294,12 +294,11 @@ Specifies that a thread has attempted to obtain the full path of a registry key.
 
 ### -field RegNtPreSaveMergedKey
 
-Specifies that a thread is attempting to merge two subtrees of registry and save it to a file. Use this value on Windows 10 and later versions of the Windows operating system.
+Specifies that a thread is attempting to save a merged view of two registry subtrees to a file. Use this value on Windows 10 and later versions of the Windows operating system.
 
 ### -field RegNtPostSaveMergedKey
 
-Specifies that a thread has attempted to merge two subtrees of registry and save it to a file. Use this value on Windows 10 and later versions of the Windows operating system.
-
+Specifies that a thread has attempted to save a merged view of two registry subtrees to a file. Use this value on Windows 10 and later versions of the Windows operating system.
 ### -field MaxRegNtNotifyClass
 
 Specifies the maximum value in this enumeration type.
