@@ -299,6 +299,7 @@ Specifies that a thread is attempting to save a merged view of two registry subt
 ### -field RegNtPostSaveMergedKey
 
 Specifies that a thread has attempted to save a merged view of two registry subtrees to a file. Use this value on Windows 10 and later versions of the Windows operating system.
+
 ### -field MaxRegNtNotifyClass
 
 Specifies the maximum value in this enumeration type.
