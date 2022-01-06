@@ -4,7 +4,7 @@ title: AtaPortDebugPrint function (irb.h)
 description: The AtaPortDebugPrint routine passes a message string to the kernel debugger for the debugger to print.
 old-location: storage\ataportdebugprint.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 01/03/2022
 keywords: ["AtaPortDebugPrint function"]
 ms.keywords: AtaPortDebugPrint, AtaPortDebugPrint routine [Storage Devices], atartns_57e04fb5-19ac-42fc-9bc5-32645ef61320.xml, irb/AtaPortDebugPrint, storage.ataportdebugprint
 req.header: irb.h
@@ -45,27 +45,32 @@ api_name:
 
 # AtaPortDebugPrint function
 
-
 ## -description
 
-The <b>AtaPortDebugPrint</b> routine passes a message string to the kernel debugger for the debugger to print. 
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+The **AtaPortDebugPrint** routine passes a message string to the kernel debugger for the debugger to print.
+
+> [!NOTE]
+>
+> The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Use the [Storport driver](/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](/windows-hardware/drivers/storage/storport-miniport-drivers) driver models instead.
 
 ## -parameters
 
 ### -param DebugPrintLevel
 
-Determines how much debug information to display.
+Contains a value between 0 and 3 that specifies the level of verbosity, where a value of 3 signifies the highest level of verbosity and a value of 0 signifies the lowest level. See Remarks.
 
 ### -param DebugMessage
 
-A pointer to the debug message to display.
+Pointer to the debug string to print.
 
 ### -param ...
 
-TBD
+Variadic arguments to be used with the string that **DebugMessage** points to.
 
 ## -remarks
 
-The verbosity of debug output is determined by <i>DebugPrintLevel</i> and a port driver-specific mask. Use the <b>nt!kd_idep_mask</b> command to set the desired level of verbosity. For more information about the kernel debugger, see the <a href="/windows-hardware/drivers/devtest/using-a-debugger">Using a Debugger</a> topic
+**ScsiDebugPrint** will print the message pointed to by **DebugMessage**, along with other debugging information depending on the value of **DebugPrintLevel** and a port driver-specific mask. Use the **nt!kd_idep_mask** command to set the desired level of verbosity. For more information about the kernel debugger, see [Using a Debugger](/windows-hardware/drivers/devtest/using-a-debugger).
 
+## -see-also
+
+[**DbgPrintEx**](../wdm/nf-wdm-dbgprintex.md)

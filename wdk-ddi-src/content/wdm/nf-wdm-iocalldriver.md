@@ -45,32 +45,27 @@ api_name:
 
 ## -description
 
-The <b>IoCallDriver</b> routine, wraps **IofCallDriver** that sends an IRP to the driver associated with a specified device object. For more information, see [**IofCallDriver**](nf-wdm-iofcalldriver.md).
+The <b>IoCallDriver</b> routine, wraps **IofCallDriver** that sends an IRP to the driver associated with a specified device object.
+For more information, see [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
->Do not call **IofCallDriver**. Call **IoCallDriver** instead.
+> [!NOTE]
+> Do not call **IofCallDriver**. Call **IoCallDriver** instead.
 
 ## -parameters
 
-### -param DeviceObject [in]
+### -param a [in]
 
 
 See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
-### -param Irp [in, out]
+### -param b [in, out]
 
-
-See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
-
-## -returns
-
-See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 ## -syntax
 
 ```cpp
-NTSTATUS IoCallDriver(
-  PDEVICE_OBJECT        DeviceObject,
-  __drv_aliasesMem PIRP Irp
+#define IoCallDriver(a,b)   \
+        IofCallDriver(a,b)
 );
 ```
 

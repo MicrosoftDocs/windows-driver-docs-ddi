@@ -19,10 +19,11 @@ api_name:
 
 # Vhf.h header
 
-
 ## -description
 
-This header is used by hid. For more information, see:
+This is the Virtual HID Framework (VHF) interface for both User mode and Kernel mode.
+
+For more information, see:
 
 - [Human Interface Devices (HID)](../_hid/index.md)
 

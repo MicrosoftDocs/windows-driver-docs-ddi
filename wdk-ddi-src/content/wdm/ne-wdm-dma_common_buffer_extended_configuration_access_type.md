@@ -42,7 +42,7 @@ Specifies permissions for hardware access for a common buffer being created when
 
 ## -enum-fields
 
-### -fields CommonBufferHardwareAccessReadOnly
+### -field CommonBufferHardwareAccessReadOnly
 
 Hardware has read access to the common buffer.
 

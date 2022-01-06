@@ -1,10 +1,10 @@
 ---
 UID: NS:sddef._SDCMD_DESCRIPTOR
-title: _SDCMD_DESCRIPTOR (sddef.h)
+title: SDCMD_DESCRIPTOR (sddef.h)
 description: The SDCMD_DESCRIPTOR structure defines a Secure Digital (SD) card command.
 old-location: sd\sdcmd_descriptor.htm
 tech.root: SD
-ms.date: 02/15/2018
+ms.date: 12/16/2021
 keywords: ["SDCMD_DESCRIPTOR structure"]
 ms.keywords: "*PSDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR structure pointer [Buses], SD.sdcmd_descriptor, SDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR structure [Buses], _SDCMD_DESCRIPTOR, sd-structs_20a7faa8-4e91-49cc-94eb-13bd584a25a3.xml, sddef/PSDCMD_DESCRIPTOR, sddef/SDCMD_DESCRIPTOR"
 req.header: sddef.h
@@ -46,96 +46,63 @@ api_name:
  - SDCMD_DESCRIPTOR
 ---
 
-# _SDCMD_DESCRIPTOR structure
-
+# SDCMD_DESCRIPTOR structure
 
 ## -description
 
-The SDCMD_DESCRIPTOR structure defines a Secure Digital (SD) card command.
+The **SDCMD_DESCRIPTOR** structure defines a Secure Digital (SD) card command.
 
 ## -struct-fields
 
 ### -field Cmd
 
-Contains a value of type SD_COMMAND_CODE that specifies the SD command.
+Contains a value of type SD_COMMAND_CODE that specifies the SD command. **Cmd** can be one of the following values.
 
-<ul>
-<li>SDCMD_IO_RW_DIRECTIndicates a read or write operation of a single byte.
-
-</li>
-<li>SDCMD_IO_RW_EXTENDEDIndicates a read or write operation on a buffer in memory.
-
-</li>
-</ul>
+| Value | Meaning |
+| ----- | ------- |
+| SDCMD_IO_RW_DIRECT   | Indicates a read or write operation of a single byte.      |
+| SDCMD_IO_RW_EXTENDED | Indicates a read or write operation on a buffer in memory. |
 
 ### -field CmdClass
 
-Contains an enumeration value of type <a href="/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_command_class">SD_COMMAND_CLASS</a>
-
-
-that specifies the class of the SD command.
+Contains an enumeration value of type [**SD_COMMAND_CLASS**](ne-sddef-sd_command_class.md) that specifies the class of the SD command.
 
 ### -field TransferDirection
 
-Contains an enumeration value of type <a href="/previous-versions/windows/hardware/drivers/ff538037(v=vs.85)">SD_TRANSFER_DIRECTION</a> that indicates the direction of the data transfer.
+Contains an enumeration value of type [**SD_TRANSFER_DIRECTION**](ne-sddef-sd_transfer_direction.md) that indicates the direction of the data transfer.
 
 ### -field TransferType
 
-Contains an enumeration value of type <a href="/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_transfer_type">SD_TRANSFER_TYPE</a> that indicates the type of the data transfer.
+Contains an enumeration value of type [**SD_TRANSFER_TYPE**](ne-sddef-sd_transfer_type.md) that indicates the type of the data transfer.
 
 ### -field ResponseType
 
-Contains an enumeration value of type <a href="/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_response_type">SD_RESPONSE_TYPE</a> that indicates the type of response that the card sends in response to the command indicated in the <b>Cmd</b> member.
+Contains an enumeration value of type [**SD_RESPONSE_TYPE**](ne-sddef-sd_response_type.md) that indicates the type of response that the card sends in response to the command indicated in the **Cmd** member.
 
 ## -remarks
 
 To send a command to an SD device, a device driver must complete the following steps:
 
-<ol>
-<li>
-Set the <b>RequestFunction</b> member of SDBUS_REQUEST_PACKET to an <a href="/windows-hardware/drivers/ddi/ntddsd/ne-ntddsd-sd_request_function">SD_REQUEST_FUNCTION</a> enumeration value of SDRF_DEVICE_COMMAND.
+1. Set the **RequestFunction** member of SDBUS_REQUEST_PACKET to an [**SD_REQUEST_FUNCTION**](../ntddsd/ne-ntddsd-sd_request_function.md) enumeration value of SDRF_DEVICE_COMMAND.
 
-</li>
-<li>
-Initialize the <b>CmdDesc</b> member of SDBUS_REQUEST_PACKET to define the command.
+2. Initialize the **CmdDesc** member of SDBUS_REQUEST_PACKET to define the command.
 
-</li>
-<li>
-Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACKET structure to either <a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequest">SdBusSubmitRequest</a> or <a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a>.
+3. Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACKET structure to either [**SdBusSubmitRequest**](../ntddsd/nf-ntddsd-sdbussubmitrequest.md) or [**SdBusSubmitRequestAsync**](../ntddsd/nf-ntddsd-sdbussubmitrequestasync.md).
 
-</li>
-</ol>
-If a driver submits a command request without properly initializing the <b>TransferDirection</b>, <b>TransferType</b>, and <b>ResponseType</b> members of the command descriptor, the request will fail. These members cannot be 0.
+If a driver submits a command request without properly initializing the **TransferDirection**, **TransferType**, and **ResponseType** members of the command descriptor, the request will fail. These members cannot be 0.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_command_class">SD_COMMAND_CLASS</a>
+[**SD_COMMAND_CLASS**](ne-sddef-sd_command_class.md)
 
+[**SD_REQUEST_FUNCTION**](../ntddsd/ne-ntddsd-sd_request_function.md)
 
+[**SD_RESPONSE_TYPE**](ne-sddef-sd_response_type.md)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538008">SD_COMMAND_CODE</a>
+[**SD_TRANSFER_DIRECTION**](ne-sddef-sd_transfer_direction.md)
 
+[**SD_TRANSFER_TYPE**](ne-sddef-sd_transfer_type.md)
 
+[**SdBusSubmitRequest**](../ntddsd/nf-ntddsd-sdbussubmitrequest.md)
 
-<a href="/windows-hardware/drivers/ddi/ntddsd/ne-ntddsd-sd_request_function">SD_REQUEST_FUNCTION</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_response_type">SD_RESPONSE_TYPE</a>
-
-
-
-<a href="/previous-versions/windows/hardware/drivers/ff538037(v=vs.85)">SD_TRANSFER_DIRECTION</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_transfer_type">SD_TRANSFER_TYPE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequest">SdBusSubmitRequest</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a>
-
+[**SdBusSubmitRequestAsync**](../ntddsd/nf-ntddsd-sdbussubmitrequestasync.md)

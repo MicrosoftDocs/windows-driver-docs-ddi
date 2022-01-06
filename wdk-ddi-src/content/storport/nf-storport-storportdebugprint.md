@@ -4,7 +4,7 @@ title: StorPortDebugPrint function (storport.h)
 description: The StorPortDebugPrint routine prints a debug string to the kernel debugger, if the debugger is attached.
 old-location: storage\storportdebugprint.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 01/03/2022
 keywords: ["StorPortDebugPrint function"]
 ms.keywords: StorPortDebugPrint, StorPortDebugPrint routine [Storage Devices], storage.storportdebugprint, storport/StorPortDebugPrint, storprt_4c594dd0-20a0-456f-acdb-3c08198dc8b5.xml
 req.header: storport.h
@@ -43,16 +43,15 @@ api_name:
 
 # StorPortDebugPrint function
 
-
 ## -description
 
-The <b>StorPortDebugPrint</b> routine prints a debug string to the kernel debugger, if the debugger is attached.
+The **StorPortDebugPrint** routine prints a debug string to the kernel debugger, if the debugger is attached.
 
 ## -parameters
 
 ### -param DebugPrintLevel
 
-Indicates the amount of debug information that will be displayed.
+Contains a value between 0 and 3 that specifies the level of verbosity, where a value of 3 signifies the highest level of verbosity and a value of 0 signifies the lowest level. See Remarks.
 
 ### -param DebugMessage
 
@@ -60,7 +59,7 @@ Pointer to the debug message to be printed.
 
 ### -param ...
 
-TBD
+Variadic arguments to be printed with the string that **DebugMessage** points to.
 
 ## -returns
 
@@ -68,5 +67,17 @@ None
 
 ## -remarks
 
+**StorPortDebugPrint** prints the message pointed to by **DebugMessage**, along with other debugging information depending on the value of **DebugPrintLevel** as follows.
+
+| Value of DebugPrintLevel | Type of information printed |
+| ------------------------ | --------------------------- |
+| 0                        | Error                       |
+| 1                        | Warning                     |
+| 2                        | Trace                       |
+| 3                        | Informational               |
+
 To see these debug strings, the driver writer must set nt!Kd_STORMINIPORT_Mask. This follows the new system-wide debug print mechanism.
 
+## -see-also
+
+[**DbgPrintEx**](../wdm/nf-wdm-dbgprintex.md)

@@ -21,6 +21,8 @@ api_name:
 
 ## -description
 
-This header is used by hid. For more information, see:
+Public Interface to the HID parsing library.
+
+For more information, see:
 
 - [Human Interface Devices (HID)](../_hid/index.md)

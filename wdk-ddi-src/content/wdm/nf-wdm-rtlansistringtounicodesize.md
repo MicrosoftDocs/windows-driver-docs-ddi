@@ -51,27 +51,29 @@ The <b>RtlAnsiStringToUnicodeSize</b> routine returns the number of bytes requir
 
 ### -param STRING [in]
 
-
 Pointer to a buffer containing the ANSI string.
-
-## -returns
-
-<b>RtlAnsiStringToUnicodeSize</b> returns a ULONG value containing the number of bytes required to hold an ANSI string converted into a Unicode string.
 
 ## -syntax
 
 ```cpp
-NTSYSAPI
-ULONG
-NTAPI
-RtlAnsiStringToUnicodeSize(
-    PANSI_STRING AnsiString
-    );
+//
+//  NTSYSAPI
+//  ULONG
+//  NTAPI
+//  RtlAnsiStringToUnicodeSize(
+//      PANSI_STRING AnsiString
+//      );
+//
+
+#define RtlAnsiStringToUnicodeSize(STRING) (                 \
+    RtlxAnsiStringToUnicodeSize(STRING)                      \
+)
+
 ```
 
 ## -remarks
 
-**RtlAnsiStringToUnicodeSize** returns the necessary size in bytes for a Unicode string buffer.
+**RtlAnsiStringToUnicodeSize** returns a ULONG value containing the number of bytes required to hold an ANSI string converted into a Unicode string.
 
 Casting the return value of the <b>RtlAnsiStringToUnicodeSize</b> routine to USHORT might cause a loss of data. To avoid potential problems, callers of this routine should test the return value for arithmetic overflow. Note that <b>RtlAnsiStringToUnicodeSize</b> accounts for the trailing <b>NULL</b>.
 

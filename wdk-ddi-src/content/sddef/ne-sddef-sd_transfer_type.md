@@ -42,7 +42,6 @@ api_name:
 
 # SD_TRANSFER_TYPE enumeration
 
-
 ## -description
 
 The SD_TRANSFER_TYPE enumeration specifies the type of a Secure Digital (SD) data transfer.
@@ -67,8 +66,8 @@ Indicates that the request reads or writes multiple blocks of data. The I/O bloc
 
 ### -field SDTT_MULTI_BLOCK_NO_CMD12
 
-Indicates that the request reads or writes multiple blocks of data. The transfer terminates automatically and does not require termination by a CMD12 command. For a description of the CMD12 command, see the <i>MultiMedia Card</i> specification.
+Indicates that the request reads or writes multiple blocks of data. The transfer terminates automatically and does not require termination by a CMD12 command. For a description of the CMD12 command, see the *MultiMedia Card* specification.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/sddef/ns-sddef-_sdcmd_descriptor">SDCMD_DESCRIPTOR</a>
+[**SDCMD_DESCRIPTOR**](ns-sddef-_sdcmd_descriptor.md)
