@@ -4,7 +4,7 @@ title: UcmConnectorDataDirectionChanged function (ucmmanager.h)
 description: Notifies the USB connector manager framework extension (UcmCx) with the new data role of a change in data role.
 old-location: buses\ucmconnectordatadirectionchanged.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/05/2022
 keywords: ["UcmConnectorDataDirectionChanged function"]
 ms.keywords: UcmConnectorDataDirectionChanged, UcmConnectorDataDirectionChanged method [Buses], buses.ucmconnectordatadirectionchanged, ucmmanager/UcmConnectorDataDirectionChanged
 req.header: ucmmanager.h
@@ -43,7 +43,6 @@ api_name:
 
 # UcmConnectorDataDirectionChanged function
 
-
 ## -description
 
 Notifies the USB connector manager framework extension (UcmCx) with the new data role  of a change in data role.
@@ -52,33 +51,28 @@ Notifies the USB connector manager framework extension (UcmCx) with the new data
 
 ### -param Connector [in]
 
-
-Handle to the connector object that the client driver received in the previous call to <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>.
+Handle to the connector object that the client driver received in the previous call to [UcmConnectorCreate](/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate).
 
 ### -param Success [in]
 
-
-Used to indicate failure of a data-role swap that was initiated by UcmCx using <a href="/windows-hardware/drivers/ddi/ucmmanager/nc-ucmmanager-evt_ucm_connector_set_data_role">EVT_UCM_CONNECTOR_SET_DATA_ROLE</a>. 
+Used to indicate failure of a data-role swap that was initiated by UcmCx using [EVT_UCM_CONNECTOR_SET_DATA_ROLE](/windows-hardware/drivers/ddi/ucmmanager/nc-ucmmanager-evt_ucm_connector_set_data_role).
 
 If TRUE, the operation was successful. FALSE, otherwise.
 
 ### -param CurrentDataRole [in]
 
-
-A <a href="/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_typec_partner">UCM_TYPEC_PARTNER</a> value that indicates the new data role.
-
-## -returns
-
-<b>UcmConnectorDataDirectionChanged</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value.
+A [UCM_TYPEC_PARTNER](/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_typec_partner) value that indicates the new data role.
 
 ## -remarks
 
-If the connector partner is attached, UcmCx updates the data role of the partner depending on the <i>CurrentDataRole</i> value. For example, if the client driver changes the data role to <b>UcmTypeCPortStateUfp</b>, UcmCx updates the role of the connector partner to <b>UcmTypeCPortStateDfp</b>.
+**UcmConnectorDataDirectionChanged** returns STATUS_SUCCESS if the operation succeeds. Otherwise, this inline function can return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) value.
 
-UcmCx can change the data role of a connector, and invokes <a href="/windows-hardware/drivers/ddi/ucmmanager/nc-ucmmanager-evt_ucm_connector_set_data_role">EVT_UCM_CONNECTOR_SET_DATA_ROLE</a>. In response to that call, the client should perform the DR_Swap operation, and indicate success/failure of the operation by calling  <b>UcmConnectorDataDirectionChanged</b>.
+If the connector partner is attached, UcmCx updates the data role of the partner depending on the *CurrentDataRole* value. For example, if the client driver changes the data role to **UcmTypeCPortStateUfp**, UcmCx updates the role of the connector partner to **UcmTypeCPortStateDfp**.
 
-Alternatively, the client driver might choose to perform a role-swap autonomously, or the partner might perform a role-swap. In either case, when the role-swap has completed, the driver must report the new role to UcmCx using <b>UcmConnectorDataDirectionChanged</b>.
+UcmCx can change the data role of a connector, and invokes [EVT_UCM_CONNECTOR_SET_DATA_ROLE](/windows-hardware/drivers/ddi/ucmmanager/nc-ucmmanager-evt_ucm_connector_set_data_role). In response to that call, the client should perform the DR_Swap operation, and indicate success/failure of the operation by calling  **UcmConnectorDataDirectionChanged**.
+
+Alternatively, the client driver might choose to perform a role-swap autonomously, or the partner might perform a role-swap. In either case, when the role-swap has completed, the driver must report the new role to UcmCx using **UcmConnectorDataDirectionChanged**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>
+- [UcmConnectorCreate](/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate)
