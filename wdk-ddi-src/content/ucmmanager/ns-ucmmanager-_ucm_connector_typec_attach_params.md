@@ -4,7 +4,7 @@ title: _UCM_CONNECTOR_TYPEC_ATTACH_PARAMS (ucmmanager.h)
 description: Describes the partner that is currently attached to the connector.
 old-location: buses\ucm_connector_typec_attach_params.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/05/2022
 keywords: ["UCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure"]
 ms.keywords: "*PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure pointer [Buses], UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure [Buses], _UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, buses.ucm_connector_typec_attach_params, ucmmanager/PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS"
 req.header: ucmmanager.h
@@ -48,7 +48,6 @@ api_name:
 
 # _UCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure
 
-
 ## -description
 
 Describes the partner that is currently attached to the connector.
@@ -57,28 +56,24 @@ Describes the partner that is currently attached to the connector.
 
 ### -field Size
 
-Size of the <b>UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</b> structure.
+Size of the **UCM_CONNECTOR_TYPEC_ATTACH_PARAMS** structure.
 
 ### -field Partner
 
+The type of partner attached to the connector, indicated by a [UCM_TYPEC_PARTNER](/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_typec_partner) value.
+
 ### -field CurrentAdvertisement
 
-Power sourcing capabilities of: the partner port when <b>PortPartnerType</b> is <b>UcmTypeCPortStateDfp</b>; the local port when <b>PortPartnerType</b> is not <b>UcmTypeCPortStateDfp</b>.
+Power sourcing capabilities of: the partner port when **PortPartnerType** is **UcmTypeCPortStateDfp**; the local port when **PortPartnerType** is not **UcmTypeCPortStateDfp**.
 
 ### -field ChargingState
 
-Optional. Charging state of the port indicated by one of the <a href="/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_charging_state">UCM_CHARGING_STATE</a>-typed flags. 
-
-
-### -field PortPartnerType
-
-The type of partner attached to the connector, indicated by a <a href="/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_typec_partner">UCM_TYPEC_PARTNER</a> value.
+Optional. Charging state of the port indicated by one of the [UCM_CHARGING_STATE](/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_charging_state)-typed flags.
 
 ## -remarks
 
-Initialize this structure by calling <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucm_connector_typec_attach_params_init">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT</a>. An initialized <b>UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</b> structure is an input parameter value to <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectortypecattach">UcmConnectorTypeCAttach</a> that is used by the client driver to notify UcmCx about the Attached state of the port.
+Initialize this structure by calling [UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT](/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucm_connector_typec_attach_params_init). An initialized **UCM_CONNECTOR_TYPEC_ATTACH_PARAMS** structure is an input parameter value to [UcmConnectorTypeCAttach](/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectortypecattach) that is used by the client driver to notify UcmCx about the Attached state of the port.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectortypecattach">UcmConnectorTypeCAttach</a>
-
+- [UcmConnectorTypeCAttach](/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectortypecattach)
