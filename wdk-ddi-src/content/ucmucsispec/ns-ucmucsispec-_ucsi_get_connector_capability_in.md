@@ -48,13 +48,13 @@ Used in the **GET_CONNECTOR_CAPABILITY** command.
 
 ## -struct-fields
 
-### -field AsUInt8
-
-For internal use.
-
 ### -field OperationMode
 
 This field indicates the mode that the connector can support.
+
+### -field OperationMode.AsUInt8
+
+For internal use.
 
 ### -field OperationMode.DfpOnly
 
