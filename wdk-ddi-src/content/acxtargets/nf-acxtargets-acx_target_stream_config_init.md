@@ -48,5 +48,15 @@ dev_langs:
 
 ## -remarks
 
+### Example
+
+```cpp
+    ACX_TARGET_STREAM_CONFIG            targetStreamCfg;
+
+
+    ACX_TARGET_STREAM_CONFIG_INIT(&targetStreamCfg);
+```
+
 ## -see-also
 
+[acxtargets.h header](index.md)

@@ -47,17 +47,28 @@ The acxtargets header is used by the ACX audio class extensions. For more inform
 
 ## -remarks
 
+### Example
+
+```cpp
+
+TBD
+
+
+```
+
 [WdfIoTarget](/windows-hardware/drivers/ddi/wdfiotarget/) is a WDF abstraction to facilitate the communication between two different stacks. ACX uses WdfIoTarget to facilitate communications between ACX objects, circuits, pins, streams, elements and circuit factories.
 
-Drivers use [AcxTargetCircuit]() to communicate with a remote circuit exposed by a different stack. AcxTargetCircuit is implemented using a WdfIoTarget.
+ACX uses the following ACX Objects to support communications between targets. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
-Drivers use [AcxTargetPin]() to communicate with a remote circuit’s pin exposed by a different stack. AcxTargetPin is implemented using a WdfIoTarget to send messages to the remote pin entity.
+Drivers use *AcxTargetCircuit* to communicate with a remote circuit exposed by a different stack. AcxTargetCircuit is implemented using a WdfIoTarget.
 
-Drivers use [AcxTargetStream]() to communicate with a remote circuit’s stream exposed by a different stack. AcxTargetStream is implemented using a WdfIoTarget to create a remote stream and change the state of the remote stream.
+Drivers use *AcxTargetPin* to communicate with a remote circuit’s pin exposed by a different stack. AcxTargetPin is implemented using a WdfIoTarget to send messages to the remote pin entity.
 
-Drivers use [AcxTargetElement]() to communicate with a remote circuit’s element exposed by a different stack. AcxTargetElement is implemented using a WdfIoTarget to send messages to the remote element entity.
+Drivers use *AcxTargetStream* to communicate with a remote circuit’s stream exposed by a different stack. AcxTargetStream is implemented using a WdfIoTarget to create a remote stream and change the state of the remote stream.
 
-Drivers use [AcxTargetFactoryCircuit]() to communicate with a remote circuit factory instance. AcxTargetFactoryCircuit is implemented using a WdfTarget to send messages to the remote circuit factory.
+Drivers use *AcxTargetElement* to communicate with a remote circuit’s element exposed by a different stack. AcxTargetElement is implemented using a WdfIoTarget to send messages to the remote element entity.
+
+Drivers use *AcxTargetFactoryCircuit* to communicate with a remote circuit factory instance. AcxTargetFactoryCircuit is implemented using a WdfTarget to send messages to the remote circuit factory.
 
 To interact with the remote circuit, each of the above ACX types supports:
 
@@ -67,7 +78,7 @@ To interact with the remote circuit, each of the above ACX types supports:
  
 ## -see-also
 
-For more information, see:
+[acxtargets.h header](index.md)For more information, see:
 
 - [ACX Audio multi stack cross driver communications](/windows-hardware/drivers/audio/acx-audio-multi-stack)
 

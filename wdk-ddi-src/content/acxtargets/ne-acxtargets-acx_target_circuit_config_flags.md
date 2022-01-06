@@ -2,9 +2,9 @@
 UID: NE:acxtargets._ACX_TARGET_CIRCUIT_CONFIG_FLAGS
 tech.root: audio
 title: ACX_TARGET_CIRCUIT_CONFIG_FLAGS
-ms.date:  11/11/2021
+ms.date: 01/05/2022
 targetos: Windows
-description: 
+description: The ACX_TARGET_CIRCUIT_CONFIG_FLAGS enumeration defines the config flags for the ACX target circuit.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,13 +37,31 @@ dev_langs:
 
 ## -description
 
+The ACX_TARGET_CIRCUIT_CONFIG_FLAGS enumeration defines the config flags for the ACX target circuit.
+
 ## -enum-fields
 
 ### -field AcxTargetCircuitConfigNoFlags
 
+Indicates that no config flags are set.
+
 ### -field AcxTargetCircuitConfigValidFlags
+
+For internal validation, do not use.
 
 ## -remarks
 
+### Example
+
+```cpp
+
+TBD
+
+
+```
+
+There are no flags currently defined for this type.
+
 ## -see-also
 
+[acxtargets.h header](index.md)

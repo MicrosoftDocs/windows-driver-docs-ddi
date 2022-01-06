@@ -48,7 +48,19 @@ dev_langs:
 
 ## -returns
 
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+
 ## -remarks
+
+### Example
+
+```cpp
+
+TBD
+
+
+```
 
 ## -see-also
 
+[acxtargets.h header](index.md)

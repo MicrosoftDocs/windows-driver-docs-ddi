@@ -2,9 +2,9 @@
 UID: NS:acxtargets._ACX_TARGET_CIRCUIT_CONFIG
 tech.root: audio
 title: ACX_TARGET_CIRCUIT_CONFIG
-ms.date:  11/11/2021
+ms.date: 01/05/2022
 targetos: Windows
-description: 
+description: The ACX_TARGET_CIRCUIT_CONFIG structure is used to define the target circuit configuration. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,15 +44,34 @@ dev_langs:
 
 ## -description
 
+The ACX_TARGET_CIRCUIT_CONFIG structure is used to define the target circuit configuration. 
+
 ## -struct-fields
 
 ### -field Size
 
+The length, in bytes, of this structure.
+
 ### -field Flags
+
+Audio engine configuration flags defined by the [ACX_STREAMAUDIOENGINE_CONFIG_FLAGS enum](ne-acxelements-acx_streamaudioengine_config_flags.md). 
+
+No flag bits are currently defined. Set this member to zero - AcxStreamAudioEngineConfigNoFlags AcxStreamAudioEngineConfigNoFlags 
+
 
 ### -field SymbolicLinkName
 
 ## -remarks
 
+### Example
+
+```cpp
+
+TBD
+
+
+```
+
 ## -see-also
 
+[acxtargets.h header](index.md)

@@ -2,7 +2,7 @@
 UID: NS:acxtargets._ACX_TARGET_STREAM_CONFIG
 tech.root: audio
 title: ACX_TARGET_STREAM_CONFIG
-ms.date:  11/11/2021
+ms.date: 01/05/2022
 targetos: Windows
 description: 
 prerelease: true
@@ -48,19 +48,47 @@ dev_langs:
 
 ### -field Size
 
+The length, in bytes, of this structure.
+
 ### -field Flags
+
+Audio engine configuration flags defined by the [ACX_TARGET_STREAM_CONFIG_FLAGS enum](ne-acxtargets-acx_target_stream_config_flags.md). 
+
+No flag bits are currently defined. Set this member to zero - AcxTargetStreamConfigNoFlags
 
 ### -field TargetCircuit
 
+An ACXTARGETCIRCUIT object representing the target circuit.
+
 ### -field PinId
+
+The Pin ID number.
 
 ### -field DataFormat
 
+An ACXDATAFORMAT ACX object that defines the target stream data format.
+
 ### -field SignalProcessingMode
+
+A GUID identifying the audio signal processing mode of the new stream circuit.For more information about
+audio modes, see [Audio Signal Processing Modes](/windows-hardware/drivers/audio/audio-signal-processing-modes).
 
 ### -field OptionalParameters
 
+TBD - An ACXOBJECTBAG ACX object describing optional parameters.
+
+Use this for TBD. 
+
 ## -remarks
+
+### Example
+
+```cpp
+    ACX_TARGET_STREAM_CONFIG            targetStreamCfg;
+
+    ACX_TARGET_STREAM_CONFIG_INIT(&targetStreamCfg);
+```
 
 ## -see-also
 
+[acxtargets.h header](index.md)

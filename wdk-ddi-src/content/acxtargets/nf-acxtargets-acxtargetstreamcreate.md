@@ -54,7 +54,39 @@ dev_langs:
 
 ## -returns
 
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+
 ## -remarks
+
+### Example
+
+```cpp
+
+    WDF_OBJECT_ATTRIBUTES               attributes;
+    PAGGREGATOR_PIN_CONTEXT             pinCtx;
+    ACXSTREAM                           stream;
+    AGGREGATOR_STREAM_CONTEXT*          streamCtx;
+    ACX_TARGET_STREAM_CONFIG            targetStreamCfg;
+
+    streamCtx = GetAggregatorStreamContext(stream);
+    ASSERT(streamCtx);
+    streamCtx->StreamState = AcxStreamStateStop;
+
+    pinCtx = GetAggregatorPinContext(Pin);
+
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = stream;
+
+        ACX_TARGET_STREAM_CONFIG_INIT(&targetStreamCfg);
+        targetStreamCfg.TargetCircuit = pinCtx->TargetPins[i]->TargetCircuit;
+        targetStreamCfg.PinId = pinCtx->TargetPins[i]->TargetPinId;
+        targetStreamCfg.DataFormat = StreamFormat;
+        targetStreamCfg.SignalProcessingMode = SignalProcessingMode;
+        targetStreamCfg.OptionalParameters = VarArguments;
+
+        status = AcxTargetStreamCreate(Device, &attributes, &targetStreamCfg, &streamCtx->TargetStreams[i]);
+```
 
 ## -see-also
 
+[acxtargets.h header](index.md)

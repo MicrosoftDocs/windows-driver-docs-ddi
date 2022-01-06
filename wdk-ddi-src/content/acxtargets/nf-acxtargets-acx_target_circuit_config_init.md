@@ -2,7 +2,7 @@
 UID: NF:acxtargets.ACX_TARGET_CIRCUIT_CONFIG_INIT
 tech.root: audio
 title: ACX_TARGET_CIRCUIT_CONFIG_INIT
-ms.date:  11/11/2021
+ms.date: 01/05/2022
 targetos: Windows
 description: 
 prerelease: true
@@ -42,11 +42,25 @@ dev_langs:
 
 ## -description
 
+The ACX_TARGET_CIRCUIT_CONFIG_INIT function initializes an ACX target circuit config structure.
+
 ## -parameters
 
 ### -param Config
 
+A pointer to the [TARGET_CIRCUIT_CONFIG](ns-acxtargets-acx_target_circuit_config.md) structure.
+
 ## -remarks
+
+### Example
+
+```cpp
+
+TBD
+
+
+```
 
 ## -see-also
 
+[acxtargets.h header](index.md)

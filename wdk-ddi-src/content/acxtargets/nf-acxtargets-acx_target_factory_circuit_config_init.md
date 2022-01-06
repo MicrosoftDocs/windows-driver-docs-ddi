@@ -48,5 +48,15 @@ dev_langs:
 
 ## -remarks
 
+### Example
+
+```cpp
+
+TBD
+
+
+```
+
 ## -see-also
 
+[acxtargets.h header](index.md)
