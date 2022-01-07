@@ -51,15 +51,6 @@ For internal validation, do not use.
 
 ## -remarks
 
-### Example
-
-```cpp
-
-TBD
-
-
-```
-
 There are no flags currently defined for this type.
 
 ## -see-also

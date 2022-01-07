@@ -48,17 +48,20 @@ The ACX_TARGET_CIRCUIT_CONFIG_INIT function initializes an ACX target circuit co
 
 ### -param Config
 
-A pointer to the [TARGET_CIRCUIT_CONFIG](ns-acxtargets-acx_target_circuit_config.md) structure.
+A pointer to the [ACX_TARGET_CIRCUIT_CONFIG](ns-acxtargets-acx_target_circuit_config.md) structure that will be initialized.
 
 ## -remarks
 
 ### Example
 
 ```cpp
+    ACX_TARGET_CIRCUIT_CONFIG   targetCfg;
 
-TBD
-
-
+    //
+    // Create a target circuit.
+    //
+    ACX_TARGET_CIRCUIT_CONFIG_INIT(&targetCfg);
+    targetCfg.SymbolicLinkName  = m_TargetName; 
 ```
 
 ## -see-also

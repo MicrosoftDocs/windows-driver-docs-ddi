@@ -2,9 +2,9 @@
 UID: NF:acxtargets.ACX_TARGET_STREAM_CONFIG_INIT
 tech.root: audio
 title: ACX_TARGET_STREAM_CONFIG_INIT
-ms.date:  11/11/2021
+ms.date: 01/06/2022
 targetos: Windows
-description: 
+description: The ACX_TARGET_STREAM_CONFIG_INIT function initializes an ACX target stream config structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+The ACX_TARGET_STREAM_CONFIG_INIT function initializes an ACX target stream config structure.
+
 ## -parameters
 
 ### -param Config
+
+A pointer to the [ACX_TARGET_STREAM_CONFIG](ns-acxtargets-acx_target_stream_config.md) structure that will be initialized.
 
 ## -remarks
 
@@ -52,7 +56,6 @@ dev_langs:
 
 ```cpp
     ACX_TARGET_STREAM_CONFIG            targetStreamCfg;
-
 
     ACX_TARGET_STREAM_CONFIG_INIT(&targetStreamCfg);
 ```

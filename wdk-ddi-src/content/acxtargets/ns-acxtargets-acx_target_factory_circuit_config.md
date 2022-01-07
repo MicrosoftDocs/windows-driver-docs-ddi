@@ -2,7 +2,7 @@
 UID: NS:acxtargets._ACX_TARGET_FACTORY_CIRCUIT_CONFIG
 tech.root: audio
 title: ACX_TARGET_FACTORY_CIRCUIT_CONFIG
-ms.date: 01/05/2022
+ms.date: 01/07/2022
 targetos: Windows
 description: The ACX_TARGET_FACTORY_CIRCUIT_CONFIG structure is used to define the target factory circuit configuration. 
 prerelease: true
@@ -54,25 +54,27 @@ The length, in bytes, of this structure.
 
 ### -field Flags
 
-Audio engine configuration flags defined by the [ACX_TARGET_FACTORY_CIRCUIT_CONFIG_FLAGS enum](ne-acxtargets-acx_target_factory_circuit_config_flags.md). 
+Target factory circuit configuration flags defined by the [ACX_TARGET_FACTORY_CIRCUIT_CONFIG_FLAGS enum](ne-acxtargets-acx_target_factory_circuit_config_flags.md). 
 
 No flag bits are currently defined. Set this member to zero - AcxTargetFactoryCircuitConfigNoFlags
 
 ### -field IoTarget
 
+TBD -  A WDFIOTARGET object that is the IoTarget for the factory circuit.
 
 ### -field SymbolicLinkName
 
+TBD - A string that represents the link name that was created by the TBD.
 
 ## -remarks
 
 ### Example
 
 ```cpp
+    ACX_TARGET_FACTORY_CIRCUIT_CONFIG   targetCfg;
 
-TBD
-
-
+    ACX_TARGET_FACTORY_CIRCUIT_CONFIG_INIT(&targetCfg);
+    targetCfg.SymbolicLinkName = m_SymbolicLinkName; 
 ```
 
 ## -see-also

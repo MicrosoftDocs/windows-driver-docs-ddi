@@ -54,23 +54,17 @@ The length, in bytes, of this structure.
 
 ### -field Flags
 
-Audio engine configuration flags defined by the [ACX_STREAMAUDIOENGINE_CONFIG_FLAGS enum](ne-acxelements-acx_streamaudioengine_config_flags.md). 
+Target circuit configuration flags defined by the [ACX_TARGET_CIRCUIT_CONFIG enum](ne-acxtargets-acx_target_circuit_config_flags.md). 
 
-No flag bits are currently defined. Set this member to zero - AcxStreamAudioEngineConfigNoFlags AcxStreamAudioEngineConfigNoFlags 
-
+No flag bits are currently defined. Set this member to zero - AcxTargetCircuitConfigNoFlags
 
 ### -field SymbolicLinkName
 
+TBD - A string that represents the link name that was created by - TBD
+
 ## -remarks
 
-### Example
 
-```cpp
-
-TBD
-
-
-```
 
 ## -see-also
 

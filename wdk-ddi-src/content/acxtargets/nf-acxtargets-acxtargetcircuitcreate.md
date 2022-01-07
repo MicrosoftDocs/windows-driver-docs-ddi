@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetCircuitCreate
 tech.root: audio
 title: AcxTargetCircuitCreate
-ms.date:  11/11/2021
+ms.date: 01/07/2022
 targetos: Windows
-description: 
+description: The AcxTargetCircuitCreate function is used to create a target circuit.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,25 @@ dev_langs:
 
 ## -description
 
+The AcxTargetCircuitCreate function is used to create a target circuit.
+
 ## -parameters
 
 ### -param Device
 
+TBD - An existing WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the - TBD TBD
+
 ### -param Attributes
+
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various object’s values: cleanup and destroy callbacks, context type, and to specify its parent object.
 
 ### -param Config
 
+An initialized [ACX_TARGET_CIRCUIT_CONFIG structure](ns-acxtargets-acx_target_circuit_config.md) that describes the configuration of the target circuit.
+
 ### -param TargetCircuit
+
+A pointer to a location that receives a handle to the new ACXTARGETCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -60,10 +70,14 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 ```cpp
+    ACX_TARGET_CIRCUIT_CONFIG targetCktCfg;
+    ACX_TARGET_CIRCUIT_CONFIG_INIT(&targetCktCfg);
+    targetCktCfg.SymbolicLinkName = link;
 
-TBD
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = Circuit;
 
-
+    RETURN_NTSTATUS_IF_FAILED(AcxTargetCircuitCreate(AcxCircuitGetWdfDevice(Circuit), &attributes, &targetCktCfg, TargetCircuit));
 ```
 
 ## -see-also
