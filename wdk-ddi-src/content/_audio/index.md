@@ -38,14 +38,17 @@ For WDM portcls audio programming information, see [Audio Devices Design Guide](
 To develop audio class extension (ACX) drivers, use these headers:
 
 * [acxcircuit.h](../acxcircuit/index.md)
+* [acxdataformat.h](../acxdataformat/index.md)
 * [acxdevice.h](../acxdevice/index.md)
 * [acxdriver.h](../acxdriver/index.md)
 * [acxelements.h](../acxelements/index.md)
 * [acxevents.h](../acxevents/index.md)
+* [acxmanager.h](../acxmanager/index.md)
+* [acxmisc.h](../acxmisc/index.md)
 * [acxpin.h](../acxpin/index.md)
+* [acxrequest.h](../acxrequest/index.md)
 * [acxstreams.h](../acxstreams/index.md)
-* [acxtargets.h](../acxstreams/index.md)
-
+* [acxtargets.h](../acxtargets/index.md)
 
 
 For ACX audio programming information, see  [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview).

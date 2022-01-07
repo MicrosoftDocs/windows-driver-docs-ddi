@@ -1,0 +1,60 @@
+---
+UID: NE:acxrequest._ACX_PROPERTY_VERB
+tech.root: 
+title: ACX_PROPERTY_VERB
+ms.date: 
+targetos: Windows
+description: 
+prerelease: true
+req.construct-type: enumeration
+req.ddi-compliance: 
+req.header: acxrequest.h
+req.include-header: 
+req.kmdf-ver: 
+req.max-support: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.typenames: 
+req.umdf-ver: 
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - acxrequest.h
+api_name:
+ - _ACX_PROPERTY_VERB
+ - PACX_PROPERTY_VERB
+ - ACX_PROPERTY_VERB
+f1_keywords:
+ - _ACX_PROPERTY_VERB
+ - acxrequest/_ACX_PROPERTY_VERB
+ - PACX_PROPERTY_VERB
+ - acxrequest/PACX_PROPERTY_VERB
+ - ACX_PROPERTY_VERB
+ - acxrequest/ACX_PROPERTY_VERB
+dev_langs:
+ - c++
+---
+
+## -description
+
+## -enum-fields
+
+### -field AcxPropertyVerbNone
+
+### -field AcxPropertyVerbGet
+
+### -field AcxPropertyVerbSet
+
+### -field AcxPropertyVerbBasicSupport
+
+### -field AcxPropertyVerbSetSupport
+
+### -field AcxPropertyVerbMax
+
+## -remarks
+
+## -see-also
+
