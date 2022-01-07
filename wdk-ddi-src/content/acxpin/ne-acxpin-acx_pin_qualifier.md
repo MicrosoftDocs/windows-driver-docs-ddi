@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_PIN_QUALIFIER
 tech.root: audio
 title: ACX_PIN_QUALIFIER
-ms.date: 10/05/2021
+ms.date: 01/06/2022
 targetos: Windows
 description: 
 prerelease: false
@@ -40,17 +40,29 @@ dev_langs:
 
 ## -description
 
+The **ACX_PIN_QUALIFIER** enumeration TBD
+
 ## -enum-fields
 
 ### -field AcxPinQualifierUnknown
 
+Indicates that the pin qualifier is unknown.
+
 ### -field AcxPinQualifierBridgeA
+
+Indicates composite support only. Streaming pin side.
 
 ### -field AcxPinQualifierBridgeB
 
+Indicates composite support only. Device pin side.
+
 ### -field AcxPinQualifierBridgeDevice
 
+Indicates composite support only.
+
 ### -field AcxPinQualifierMaximum
+
+For internal validation, do not use.
 
 ## -remarks
 
