@@ -62,7 +62,7 @@ The driver context defined by the ACXCONTEXT object.  For more information about
 
 ### -param RequestType
 
-An [ACX_REQUEST_TYPE enum](..\acxrequest\ne-acxrequest-acx_request_type.md) that defines different request types, such as AcxRequestTypeAny  or AcxRequestTypeEvent. 
+An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_request_type) that defines different request types, such as AcxRequestTypeAny  or AcxRequestTypeEvent. 
 
 ### -param Set
 

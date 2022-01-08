@@ -53,7 +53,7 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param Methods
 
-TBD - An [ACX_METHOD_ITEM structure](..\acxrequest\ns-acxrequest-acx_method_item.md) structure that defines a set of TBD TBD and is used to TBD. 
+TBD - An [ACX_METHOD_ITEM structure](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_method_item) structure that defines a set of TBD TBD and is used to TBD. 
 
 ### -param MethodsCount
 

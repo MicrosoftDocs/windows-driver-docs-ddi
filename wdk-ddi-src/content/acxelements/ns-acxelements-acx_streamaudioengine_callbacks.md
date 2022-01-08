@@ -83,7 +83,7 @@ The [EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION](nc-acxelements-evt_ac
 
 ### -field EvtAcxStreamAudioEngineProcessRequest
 
-The [EVT_ACX_OBJECT_PROCESS_REQUEST](..\acxrequest\nc-acxrequest-evt_acx_object_process_request.md) callback. 
+The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/acxrequest/nc-acxrequest-evt_acx_object_process_request.md) callback. 
 
 ## -remarks
 

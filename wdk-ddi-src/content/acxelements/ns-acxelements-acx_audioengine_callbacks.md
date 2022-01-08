@@ -78,7 +78,7 @@ The [EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT](nc-acxelements-evt_acx_audioengin
 
 ### -field EvtAcxAudioEngineProcessRequest
 
-The [EVT_ACX_OBJECT_PROCESS_REQUEST](..\acxrequest\nc-acxrequest-evt_acx_object_process_request.md) callback. 
+The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/acxrequest/nc-acxrequest-evt_acx_object_process_request) callback. 
 
 ## -remarks
 

@@ -66,7 +66,7 @@ The [EVT_ACX_VOLUME_RETRIEVE_LEVEL](nc-acxelements-evt_acx_volume_retrieve_level
 
 ### -field EvtAcxVolumeProcessRequest
 
-The [EVT_ACX_OBJECT_PROCESS_REQUEST]..\acxrequest\nc-acxrequest-evt_acx_object_process_request.md() callback. 
+The [EVT_ACX_OBJECT_PROCESS_REQUEST]/windows-hardware/drivers/ddi/acxrequest/acxrequest/nc-acxrequest-evt_acx_object_process_request.md() callback. 
 
 ## -remarks
 
