@@ -60,9 +60,7 @@ The [ACX_PEAKMETER_RETRIEVE_LEVEL](nc-acxelements-evt_acx_peakmeter_retrieve_lev
 
 TBD TBD 
 
-The [EVT_ACX_OBJECT_PROCESS_REQUEST]() callback. 
-
-TODO: Docs team need to find this callback - in request.h?
+The [EVT_ACX_OBJECT_PROCESS_REQUEST](..\acxrequest\nc-acxrequest-evt_acx_object_process_request.md) callback. 
 
 ## -remarks
 

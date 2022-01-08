@@ -53,9 +53,7 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param Methods
 
-TBD - An ACX_METHOD_ITEM structure that defines a set of TBD TBD and is used to TBD. 
-
-TODO: DocsTeam add link to this structure in AcxRequest header when available.
+TBD - An [ACX_METHOD_ITEM structure](..\acxrequest\ns-acxrequest-acx_method_item.md) structure that defines a set of TBD TBD and is used to TBD. 
 
 ### -param MethodsCount
 

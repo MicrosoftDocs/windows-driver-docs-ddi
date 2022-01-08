@@ -44,9 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_STREAM_CALLBACKS structure identifies the driver callbacks for streaming to the ACX framework. This structure is a part of the [ACX_PIN_CONFIG structure](). 
-
-TODO: DocsTeam - need link to this struct topic when AcxPin header is documented.
+The ACX_STREAM_CALLBACKS structure identifies the driver callbacks for streaming to the ACX framework. This structure is a part of the [ACX_PIN_CONFIG structure](ns-acxpin-acx_pin_config.md). 
 
 ## -struct-fields
 

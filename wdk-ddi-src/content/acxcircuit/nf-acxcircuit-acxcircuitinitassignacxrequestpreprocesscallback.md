@@ -62,9 +62,7 @@ The driver context defined by the ACXCONTEXT object.  For more information about
 
 ### -param RequestType
 
-An [ACX_REQUEST_TYPE enum]()  that defines different request types, such as AcxRequestTypeAny  or AcxRequestTypeEvent. 
-
-TODO:  DocsTeam - Add link to enum in AcxRequest header when available.
+An [ACX_REQUEST_TYPE enum](..\acxrequest\ne-acxrequest-acx_request_type.md) that defines different request types, such as AcxRequestTypeAny  or AcxRequestTypeEvent. 
 
 ### -param Set
 

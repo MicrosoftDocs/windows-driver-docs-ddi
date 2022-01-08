@@ -54,9 +54,7 @@ An ACXSTREAM Object that represents an audio stream created by a circuit. The st
 
 ### -param Connections
 
-An [ACX_CONNECTION structure]() that contains the TBD.
-
-TODO: DocsTeam - need link to this topic when ACXPIN header is documented.
+An [ACX_CONNECTION structure](..\acxpin\ns-acxpin-acx_connection.md) that contains the TBD.
 
 ### -param ConnectionsCount
 

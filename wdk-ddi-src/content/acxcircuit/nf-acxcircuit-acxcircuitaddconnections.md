@@ -52,9 +52,7 @@ TBD - An existing ACXCIRCUIT circuit object.  For more information about ACX obj
   
 ### -param Connections
 
-A pointer to an [ACX_CONNECTION structure]() That describes the pin structure including the pin IDs. 
-
-TODO: DocsTeam add link to this structure in AcxPin header when available.
+A pointer to an [ACX_CONNECTION structure](ns-acxpin-acx_pin_connection) that describes the pin structure including the pin IDs. 
 
 ### -param ConnectionsCount
 

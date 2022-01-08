@@ -62,9 +62,7 @@ The [EVT_ACX_EVENT_DISABLE](nc-acxevents-evt_acx_event_disable.md) callback.
 
 ### -field EvtAcxEventProcessRequest
 
-The [EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST]() callback.
-
-DOCSTEAM TODO - add link to this callback in AcxRequest
+The [EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST](..\acxrequest\nc-acxrequest-evt_acx_object_process_event_request.md) callback.
 
 ## -remarks
 

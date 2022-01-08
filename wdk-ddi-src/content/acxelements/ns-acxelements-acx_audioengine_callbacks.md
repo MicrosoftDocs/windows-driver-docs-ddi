@@ -78,9 +78,7 @@ The [EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT](nc-acxelements-evt_acx_audioengin
 
 ### -field EvtAcxAudioEngineProcessRequest
 
-The [EVT_ACX_OBJECT_PROCESS_REQUEST]() callback. 
-
-TODO: Docs team need to find this callback - in request.h?
+The [EVT_ACX_OBJECT_PROCESS_REQUEST](..\acxrequest\nc-acxrequest-evt_acx_object_process_request.md) callback. 
 
 ## -remarks
 
