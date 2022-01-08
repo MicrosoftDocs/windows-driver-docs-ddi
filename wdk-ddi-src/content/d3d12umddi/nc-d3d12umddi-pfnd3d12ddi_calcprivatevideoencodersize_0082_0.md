@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEVIDEOENCODERSIZE_0082_0
 tech.root: display
 title: PFND3D12DDI_CALCPRIVATEVIDEOENCODERSIZE_0082_0 callback function (d3d12umddi.h)
-ms.date: 08/31/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: Learn more about PFND3D12DDI_CALCPRIVATEVIDEOENCODERSIZE_0082_0
 prerelease: false
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **PFND3D12DDI_CALCPRIVATEVIDEOENCODERSIZE_0082_0** callback function calculates the required size for the driver object that represents the video encoder.
+The **PFND3D12DDI_CALCPRIVATEVIDEOENCODERSIZE_0082_0** callback function calculates the number of bytes needed to store the driver's object that represents the video encoder.
 
 ## -parameters
 
@@ -60,8 +60,12 @@ Returns the size of the video encoder driver object, in bytes.
 
 ## -remarks
 
-The D3D runtime allocates the memory in which to store the driver's object that represents the video encoder.
+On return, the D3D12 runtime will allocate the memory needed to store the driver's object and then call [**PFND3D12DDI_CREATEVIDEOENCODER_0082_0**](nc-d3d12umddi-pfnd3d12ddi_createvideoencoder_0082_0.md) to create the actual object.
+
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
 
 ## -see-also
 
 [**D3D12DDIARG_CREATE_VIDEO_ENCODER_0082_0**](ns-d3d12umddi-d3d12ddiarg_create_video_encoder_0082_0.md)
+
+[**PFND3D12DDI_CREATEVIDEOENCODER_0082_0**](nc-d3d12umddi-pfnd3d12ddi_createvideoencoder_0082_0.md)

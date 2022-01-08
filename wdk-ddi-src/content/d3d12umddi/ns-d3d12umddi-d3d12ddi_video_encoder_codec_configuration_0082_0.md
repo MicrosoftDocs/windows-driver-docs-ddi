@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_0082_0
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_0082_0
-ms.date: 08/31/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: Learn more about D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_0082_0
 prerelease: false
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 (WDDM 3.0)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_0082_0
@@ -38,21 +38,21 @@ dev_langs:
 
 ## -description
 
-The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_0082_0** structure configures the sequence level codec-specific parameters.
+The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_0082_0** structure contains configuration information for a video codec.
 
 ## -struct-fields
 
 ### -field DataSize
 
-Size of the data block, in bytes.
+Size of the referenced data, in bytes.
 
 ### -field pH264Config
 
-Pointer to a [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_0082_0**](ns-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_h264_0082_0.md) structure that contains H.264 sequence level parameters.
+Pointer to a [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_0082_0**](ns-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_h264_0082_0.md) structure that contains H.264 codec configuration information.
 
 ### -field pHEVCConfig
 
-Pointer to a [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_0082_0**](ns-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_hevc_0082_0.md) structure that contains HEVC sequence level parameters.
+Pointer to a [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_0082_0**](ns-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_hevc_0082_0.md) structure that contains HEVC codec configuration information.
 
 ## -remarks
 

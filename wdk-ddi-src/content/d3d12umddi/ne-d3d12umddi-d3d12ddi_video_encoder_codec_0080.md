@@ -2,7 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_ENCODER_CODEC_0080
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_CODEC_0080
-ms.date: 08/31/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: Learn more about D3D12DDI_VIDEO_ENCODER_CODEC_0080
 prerelease: false
@@ -12,7 +12,7 @@ req.header: d3d12umddi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 (WDDM 3.0)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -34,19 +34,21 @@ dev_langs:
 
 ## -description
 
-The **D3D12DDI_VIDEO_ENCODER_CODEC_0080** enumerator contains the possible encoder codecs.
+The **D3D12DDI_VIDEO_ENCODER_CODEC_0080** enumerator lists the possible codecs.
 
 ## -enum-fields
 
 ### -field D3D12DDI_VIDEO_ENCODER_CODEC_0080_H264
 
-The H.264 encoder codec.
+The codec is an H.264 codec.
 
 ### -field D3D12DDI_VIDEO_ENCODER_CODEC_0080_HEVC
 
-The HEVC (H.265) encoder codec.
+The codec is an HEVC (H.265) codec.
 
 ## -remarks
+
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
 
 ## -see-also
 
@@ -55,4 +57,3 @@ The HEVC (H.265) encoder codec.
 [**PFND3D12DDI_CALCPRIVATEVIDEOENCODERSIZE_0082_0**](nc-d3d12umddi-pfnd3d12ddi_calcprivatevideoencodersize_0082_0.md)
 
 [**PFND3D12DDI_CREATEVIDEOENCODER_0082_0**](nc-d3d12umddi-pfnd3d12ddi_createvideoencoder_0082_0.md)
-

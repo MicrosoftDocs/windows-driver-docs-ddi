@@ -2,7 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_SUPPORT_HEVC_FLAGS_0082_0
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_SUPPORT_HEVC_FLAGS_0082_0
-ms.date: 08/31/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: 
 prerelease: false
@@ -12,7 +12,7 @@ req.header: d3d12umddi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 (WDDM 3.0)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 ## -description
+
 
 ## -enum-fields
 

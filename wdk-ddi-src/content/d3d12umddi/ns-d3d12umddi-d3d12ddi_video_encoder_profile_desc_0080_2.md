@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_ENCODER_PROFILE_DESC_0080_2
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_PROFILE_DESC_0080_2
-ms.date: 08/31/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: Learn more about D3D12DDI_VIDEO_ENCODER_PROFILE_DESC_0080_2
 prerelease: false
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 (WDDM 3.0)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: D3D12DDI_VIDEO_ENCODER_PROFILE_DESC_0080_2
@@ -38,23 +38,23 @@ dev_langs:
 
 ## -description
 
-**D3D12DDI_VIDEO_ENCODER_PROFILE_DESC_0080_2** is the generic structure for codec profiles.
+**D3D12DDI_VIDEO_ENCODER_PROFILE_DESC_0080_2** is a generic structure for codec profiles.
 
 ## -struct-fields
 
 ### -field DataSize
 
-The size of the data block, in bytes.
+The size of the referenced data, in bytes.
 
 ### -field pH264Profile
 
 Pointer to a [**D3D12DDI_VIDEO_ENCODER_PROFILE_H264_0080**](ne-d3d12umddi-d3d12ddi_video_encoder_profile_h264_0080.md
-) value that identifies the H.264 profile.
+) value that indicates an H.264 profile.
 
 ### -field pHEVCProfile
 
 Pointer to a [**D3D12DDI_VIDEO_ENCODER_PROFILE_HEVC_0080**](ne-d3d12umddi-d3d12ddi_video_encoder_profile_hevc_0080.md
-) value that identifies the HEVC profile.
+) value that indicates an HEVC profile.
 
 ## -remarks
 

@@ -2,7 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_ENCODER_PROFILE_HEVC_0080
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_PROFILE_HEVC_0080
-ms.date: 08/31/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: Learn more about D3D12DDI_VIDEO_ENCODER_PROFILE_HEVC_0080
 prerelease: false
@@ -34,7 +34,7 @@ dev_langs:
 
 ## -description
 
-The **D3D12DDI_VIDEO_ENCODER_PROFILE_HEVC_0080** enumerator contains a list of possible HEVC profiles.
+The **D3D12DDI_VIDEO_ENCODER_PROFILE_HEVC_0080** enumerator is a list of possible HEVC profiles.
 
 ## -enum-fields
 

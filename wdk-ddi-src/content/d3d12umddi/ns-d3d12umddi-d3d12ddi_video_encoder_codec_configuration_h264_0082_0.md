@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_0082_0
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_0082_0
-ms.date: 08/31/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: Learn more about D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_0082_0
 prerelease: false
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 (WDDM 3.0)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_0082_0
@@ -38,13 +38,13 @@ dev_langs:
 
 ## -description
 
-The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_0082_0** structure configures the sequence level parameters for an H.264 encoder.
+The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_0082_0** structure contains configuration information for an H.264 codec.
 
 ## -struct-fields
 
 ### -field ConfigurationFlags
 
-A [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_FLAGS_0080**](ne-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_h264_flags_0080.md) value that defines the set of enabled features for an H.264 encoder. Flags can be combined.
+A [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_FLAGS_0080**](ne-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_h264_flags_0080.md) value that defines the set of enabled features. Flags can be combined.
 
 ### -field DirectModeConfig
 
@@ -52,7 +52,7 @@ A [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_DIRECT_MODES_0080**](ne-d3d
 
 ### -field DisableDeblockingFilterConfig
 
-A [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODES_0082_0**](ne-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_h264_slices_deblocking_modes_0082_0.md) value that specifies configuration information related to *_disable_deblocking_filter_idc_syntax* in the H.264 specification.
+A [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODES_0082_0**](ne-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_h264_slices_deblocking_modes_0082_0.md) value that specifies configuration information related to *disable_deblocking_filter_idc* syntax in the H.264 specification.
 
 ## -remarks
 

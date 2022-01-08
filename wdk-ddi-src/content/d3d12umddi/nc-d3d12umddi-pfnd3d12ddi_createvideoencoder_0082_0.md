@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEOENCODER_0082_0
 tech.root: display
 title: PFND3D12DDI_CREATEVIDEOENCODER_0082_0
-ms.date: 08/31/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: Learn more about PFND3D12DDI_CREATEVIDEOENCODER_0082_0
 prerelease: false
@@ -42,17 +42,32 @@ dev_langs:
 
 ## -description
 
+A client driver's **PFND3D12DDI_CREATEVIDEOENCODER_0082_0** callback function creates a video encoder object.
+
 ## -parameters
 
-### -param hDrvDevice
+### -param hDrvDevice [in]
 
-### -param pCreationArgs
+Handle for the D3D12 device.
 
-### -param hDrvVideoEncoder
+### -param pCreationArgs [in]
+
+Pointer to a [**D3D12DDIARG_CREATE_VIDEO_ENCODER_0080_2**](ns-d3d12umddi-d3d12ddiarg_create_video_encoder_0082_0.md) structure with arguments to create this video encoder object.
+
+### -param hDrvVideoEncoder [in/out]
+
+Handle to the created video encoder object. The D3D12 runtime has allocated space for the driver to place its object based on the result of a prior call to [**PFND3D12DDI_CALCPRIVATEVIDEOENCODERSIZE_0082_0**](nc-d3d12umddi-pfnd3d12ddi_calcprivatevideoencodersize_0082_0.md).
 
 ## -returns
 
+Returns an [**HRESULT**](/windows-hardware/drivers/debugger/hresult-values) value.
+
 ## -remarks
+
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
 
 ## -see-also
 
+[**D3D12DDI_DEVICE_FUNCS_VIDEO_0082_0**](ns-d3d12umddi-d3d12ddi_device_funcs_video_0082_0.md)
+
+[**D3D12DDIARG_CREATE_VIDEO_ENCODER_0080_2**](ns-d3d12umddi-d3d12ddiarg_create_video_encoder_0082_0.md)
