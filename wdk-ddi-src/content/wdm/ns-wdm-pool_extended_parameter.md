@@ -75,7 +75,14 @@ Reserved for future use.
 
 If **Type** is set to **PoolExtendedParameterPriority**, this field must contain a valid [**EX_POOL_PRIORITY**](ne-wdm-ex_pool_priority.md) value.
 
+### -field DUMMYUNIONNAME.SecurePoolParams
 
+### -field DUMMYUNIONNAME.PreferredNode
+
+If **Type** is set to **PoolExtendedParameterNumaNode** this field should contain a valid NUMA node index numbered 0 through N-1.
+If the field also contains MM_ANY_NODE_OK, the call prefers the specified NUMA node but tries others if it is unavailable.
+If MM_ANY_NODE_OK is not set, the call fails if the requested NUMA node cannot satisfy the allocation.
+This parameter is valid only for allocations made with POOL_FLAG_NON_PAGED pool.
 
 ## -remarks
 
