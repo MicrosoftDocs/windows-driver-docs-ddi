@@ -1,8 +1,8 @@
 ---
 UID: NS:acxmisc._ACX_OBJECTBAG_CONFIG
-tech.root: 
+tech.root: audio
 title: ACX_OBJECTBAG_CONFIG
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

@@ -1,8 +1,8 @@
 ---
 UID: NF:acxrequest.AcxRequestGetParameters
-tech.root: 
+tech.root: audio
 title: AcxRequestGetParameters
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

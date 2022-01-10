@@ -1,8 +1,8 @@
 ---
 UID: NF:acxdataformat.AcxDataFormatGetChannelMask
-tech.root: 
+tech.root: audio
 title: AcxDataFormatGetChannelMask
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

@@ -1,8 +1,8 @@
 ---
 UID: NF:acxmanager.AcxCompositeTemplateAssignCircuits
-tech.root: 
+tech.root: audio
 title: AcxCompositeTemplateAssignCircuits
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

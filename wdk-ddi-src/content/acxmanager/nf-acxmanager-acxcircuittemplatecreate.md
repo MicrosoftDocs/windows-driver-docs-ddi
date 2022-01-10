@@ -1,8 +1,8 @@
 ---
 UID: NF:acxmanager.AcxCircuitTemplateCreate
-tech.root: 
+tech.root: audio
 title: AcxCircuitTemplateCreate
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

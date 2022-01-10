@@ -1,8 +1,8 @@
 ---
 UID: NF:acxmanager.AcxGetManager
-tech.root: 
+tech.root: audio
 title: AcxGetManager
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: false

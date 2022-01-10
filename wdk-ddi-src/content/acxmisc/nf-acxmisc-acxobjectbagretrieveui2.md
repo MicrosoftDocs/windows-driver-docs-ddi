@@ -1,8 +1,8 @@
 ---
 UID: NF:acxmisc.AcxObjectBagRetrieveUI2
-tech.root: 
+tech.root: audio
 title: AcxObjectBagRetrieveUI2
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

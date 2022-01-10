@@ -1,8 +1,8 @@
 ---
 UID: NF:acxdataformat.AcxDataFormatGetSampleRate
-tech.root: 
+tech.root: audio
 title: AcxDataFormatGetSampleRate
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

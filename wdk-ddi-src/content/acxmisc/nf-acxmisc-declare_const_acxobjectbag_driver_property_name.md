@@ -1,8 +1,8 @@
 ---
 UID: NF:acxmisc.DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME
-tech.root: 
+tech.root: audio
 title: DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

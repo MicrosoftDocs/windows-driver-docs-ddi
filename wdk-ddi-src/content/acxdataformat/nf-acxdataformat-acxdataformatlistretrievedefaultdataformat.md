@@ -1,8 +1,8 @@
 ---
 UID: NF:acxdataformat.AcxDataFormatListRetrieveDefaultDataFormat
-tech.root: 
+tech.root: audio
 title: AcxDataFormatListRetrieveDefaultDataFormat
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

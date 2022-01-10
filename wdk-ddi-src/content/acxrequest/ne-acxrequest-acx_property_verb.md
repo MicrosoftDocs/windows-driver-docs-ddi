@@ -1,8 +1,8 @@
 ---
 UID: NE:acxrequest._ACX_PROPERTY_VERB
-tech.root: 
+tech.root: audio
 title: ACX_PROPERTY_VERB
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

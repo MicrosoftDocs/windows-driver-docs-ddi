@@ -1,8 +1,8 @@
 ---
 UID: NF:acxdataformat.AcxDataFormatGetEncodedAverageBytesPerSec
-tech.root: 
+tech.root: audio
 title: AcxDataFormatGetEncodedAverageBytesPerSec
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

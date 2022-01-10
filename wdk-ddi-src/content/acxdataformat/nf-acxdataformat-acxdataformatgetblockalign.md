@@ -1,8 +1,8 @@
 ---
 UID: NF:acxdataformat.AcxDataFormatGetBlockAlign
-tech.root: 
+tech.root: audio
 title: AcxDataFormatGetBlockAlign
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

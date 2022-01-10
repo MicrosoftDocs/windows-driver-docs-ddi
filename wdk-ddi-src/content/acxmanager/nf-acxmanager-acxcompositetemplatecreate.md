@@ -1,8 +1,8 @@
 ---
 UID: NF:acxmanager.AcxCompositeTemplateCreate
-tech.root: 
+tech.root: audio
 title: AcxCompositeTemplateCreate
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

@@ -1,8 +1,8 @@
 ---
 UID: NF:acxmisc.AcxObjectBagAddI1
-tech.root: 
+tech.root: audio
 title: AcxObjectBagAddI1
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

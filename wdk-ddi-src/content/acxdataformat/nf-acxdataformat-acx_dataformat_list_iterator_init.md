@@ -1,8 +1,8 @@
 ---
 UID: NF:acxdataformat.ACX_DATAFORMAT_LIST_ITERATOR_INIT
-tech.root: 
+tech.root: audio
 title: ACX_DATAFORMAT_LIST_ITERATOR_INIT
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

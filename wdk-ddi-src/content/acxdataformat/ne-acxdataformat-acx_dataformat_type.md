@@ -1,8 +1,8 @@
 ---
 UID: NE:acxdataformat._ACX_DATAFORMAT_TYPE
-tech.root: 
+tech.root: audio
 title: ACX_DATAFORMAT_TYPE
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

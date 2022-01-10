@@ -1,8 +1,8 @@
 ---
 UID: NF:acxmisc.AcxObjectBagAddBlob
-tech.root: 
+tech.root: audio
 title: AcxObjectBagAddBlob
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

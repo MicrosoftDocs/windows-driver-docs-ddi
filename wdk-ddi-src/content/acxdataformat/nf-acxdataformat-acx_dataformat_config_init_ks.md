@@ -1,8 +1,8 @@
 ---
 UID: NF:acxdataformat.ACX_DATAFORMAT_CONFIG_INIT_KS
-tech.root: 
+tech.root: audio
 title: ACX_DATAFORMAT_CONFIG_INIT_KS
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

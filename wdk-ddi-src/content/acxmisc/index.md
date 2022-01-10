@@ -1,8 +1,8 @@
 ---
 UID: NA:acxmisc
-tech.root: 
+tech.root: audio
 title: acxmisc
-ms.date: 01/07/2022
+ms.date: 01/10/2022
 targetos: Windows
 description: The acxmisc header is used by the ACX audio class extensions.
 prerelease: false

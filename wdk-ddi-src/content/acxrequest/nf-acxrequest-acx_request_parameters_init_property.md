@@ -1,8 +1,8 @@
 ---
 UID: NF:acxrequest.ACX_REQUEST_PARAMETERS_INIT_PROPERTY
-tech.root: 
+tech.root: audio
 title: ACX_REQUEST_PARAMETERS_INIT_PROPERTY
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

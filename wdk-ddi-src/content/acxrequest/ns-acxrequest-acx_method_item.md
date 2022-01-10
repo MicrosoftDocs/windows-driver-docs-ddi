@@ -1,8 +1,8 @@
 ---
 UID: NS:acxrequest._ACX_METHOD_ITEM
-tech.root: 
+tech.root: audio
 title: ACX_METHOD_ITEM
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

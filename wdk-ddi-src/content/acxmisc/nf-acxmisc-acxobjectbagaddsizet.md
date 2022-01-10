@@ -1,8 +1,8 @@
 ---
 UID: NF:acxmisc.AcxObjectBagAddSizeT
-tech.root: 
+tech.root: audio
 title: AcxObjectBagAddSizeT
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

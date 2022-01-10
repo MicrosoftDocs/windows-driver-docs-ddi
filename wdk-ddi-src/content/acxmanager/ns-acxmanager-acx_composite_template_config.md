@@ -1,8 +1,8 @@
 ---
 UID: NS:acxmanager._ACX_COMPOSITE_TEMPLATE_CONFIG
-tech.root: 
+tech.root: audio
 title: ACX_COMPOSITE_TEMPLATE_CONFIG
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true

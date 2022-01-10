@@ -1,8 +1,8 @@
 ---
 UID: NE:acxmisc._ACX_OBJECTBAG_CONFIG_FLAGS
-tech.root: 
+tech.root: audio
 title: ACX_OBJECTBAG_CONFIG_FLAGS
-ms.date: 
+ms.date: 01/10/2022
 targetos: Windows
 description: 
 prerelease: true
