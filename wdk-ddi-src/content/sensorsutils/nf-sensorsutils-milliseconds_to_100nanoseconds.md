@@ -2,7 +2,7 @@
 UID: NF:sensorsutils.MILLISECONDS_TO_100NANOSECONDS
 title: MILLISECONDS_TO_100NANOSECONDS macro (sensorsutils.h)
 description: This macro converts time, in milliseconds, to 100 nanosecond units.
-ms.date: 01/05/2022
+ms.date: 01/10/2022
 keywords: ["MILLISECONDS_TO_100NANOSECONDS macro"]
 tech.root: sensors
 ms.keywords: MILLISECONDS_TO_100NANOSECONDS
@@ -46,6 +46,12 @@ product:
 
 This macro converts time, in milliseconds, to 100 nanosecond units.
 
+## -syntax
+
+```cpp
+#define MILLISECONDS_TO_100NANOSECONDS(durationMs) ((durationMs) * 1000 * 10)
+```
+
 ## -parameters
 
 ### -param durationMs
@@ -54,7 +60,7 @@ The duration in milliseconds to convert to 100 nanosecond units.
 
 ## -remarks
 
-Returns a ULONGLONG that represents a time length in nanoseconds.
+Gets a ULONGLONG that represents a time length in nanoseconds.
 
 ## -see-also
 
