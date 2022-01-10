@@ -60,7 +60,7 @@ The duration in milliseconds to convert to 100 nanosecond units.
 
 ## -remarks
 
-Returns a ULONGLONG that represents a time length in nanoseconds.
+Gets a ULONGLONG that represents a time length in nanoseconds.
 
 ## -see-also
 
