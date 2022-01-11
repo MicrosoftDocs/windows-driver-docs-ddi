@@ -112,9 +112,15 @@ A [**PCI_EXPRESS_ROOT_STATUS_REGISTER**](../ntddk/ns-ntddk-_pci_express_root_sta
 
 ### -field DeviceCapabilities2
 
+A **PCI_EXPRESS_DEVICE_CAPABILITIES_2_REGISTER** structure that describes the PCIe device capabilities 2 register of the PCIe capability structure.
+
 ### -field DeviceControl2
 
+A **PCI_EXPRESS_DEVICE_CONTROL_2_REGISTER** structure that describes the PCIe device control 2 register of the PCIe capability structure.
+
 ### -field DeviceStatus2
+
+A **PCI_EXPRESS_DEVICE_STATUS_2_REGISTER** structure that describes the PCIe device status 2 register of the PCIe capability structure.
 
 ## -remarks
 
