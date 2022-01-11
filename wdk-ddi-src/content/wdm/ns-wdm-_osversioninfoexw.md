@@ -4,7 +4,7 @@ title: _OSVERSIONINFOEXW (wdm.h)
 description: The RTL_OSVERSIONINFOEXW structure contains operating system version information.
 old-location: kernel\rtl_osversioninfoexw.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/07/2022
 keywords: ["OSVERSIONINFOEXW structure"]
 ms.keywords: "*LPOSVERSIONINFOEXW, *POSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, OSVERSIONINFOEX, OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW structure pointer [Kernel-Mode Driver Architecture], RTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW structure [Kernel-Mode Driver Architecture], _OSVERSIONINFOEXW, kernel.rtl_osversioninfoexw, kstruct_d_a7e48147-5619-4ab4-b83a-18139aa0a2c5.xml, wdm/PRTL_OSVERSIONINFOEXW, wdm/RTL_OSVERSIONINFOEXW"
 req.header: wdm.h
@@ -287,12 +287,14 @@ Relying on version information is not always the best way to test whether a feat
 
 If possible, design the version detection code in your driver to enable the driver to run on future versions of Windows. If your driver requires a particular operating system version, be sure to treat this version as the minimum supported version, and not as the only version on which the driver can run.
 
-The following table summarizes the version information that is returned by supported versions of Windows. Use the information in the "Other" column to distinguish between operating systems with identical version numbers.
+The following table summarizes the version information that is returned by supported versions of Windows. Use the information in the "Other" column or build number to distinguish between operating systems with identical version numbers.
 
 |Operating system|Version number|dwMajorVersion|dwMinorVersion|Other|
 |--- |--- |--- |--- |--- |
+|Windows 11|10.0|10|0|**wProductType** == VER_NT_WORKSTATION|
+|Windows Server 2022|10.0|10|0|**wProductType** != VER_NT_WORKSTATION|
 |Windows Server 2019|10.0|10|0|**wProductType** != VER_NT_WORKSTATION|
-|Windows 10|10.0|10|0|**wProductType** == VER_NT_WORKSTATION|
+|Windows 10 (all releases)|10.0|10|0|**wProductType** == VER_NT_WORKSTATION|
 |Windows Server 2016|10.0|10|0|**wProductType** != VER_NT_WORKSTATION|
 |Windows Server 2012 R2|6.3|6|3|**wProductType** != VER_NT_WORKSTATION|
 |Windows 8.1|6.3|6|3|**wProductType** == VER_NT_WORKSTATION|
