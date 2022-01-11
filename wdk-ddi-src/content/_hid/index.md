@@ -31,6 +31,8 @@ To develop Human Interface Devices (HID), you need these headers:
 
 For the programming guide, see [Human Interface Devices (HID)](/windows-hardware/drivers/hid).
 
+For Win32 HID programming APIs, see [Win32 Human Interface Devices Reference](/windows/win32/api/_hid/).
+
 This section contains the programming interfaces related to Human Interface Devices (or HID). Typically, these are devices that humans use to directly control the operation of computer systems.
 
 ## HIDClass Support Routines
@@ -551,7 +553,3 @@ Declared in Hidpi.h.
 | [IOCTL_UMDF_HID_GET_INPUT_REPORT IOCTL](../hidport/ni-hidport-ioctl_umdf_hid_get_input_report.md) | The IOCTL_UMDF_HID_GET_INPUT_REPORT control code returns an input report from a HIDClass device. |
 | [IOCTL_UMDF_HID_SET_FEATURE IOCTL](../hidport/ni-hidport-ioctl_umdf_hid_set_feature.md) | The IOCTL_UMDF_HID_GET_FEATURE control code sends a feature report to a HIDClass device. |
 | [IOCTL_UMDF_HID_SET_OUTPUT_REPORT IOCTL](../hidport/ni-hidport-ioctl_umdf_hid_set_output_report.md) | The IOCTL_UMDF_HID_SET_OUTPUT_REPORT control code sends an output report to a top-level collection. |
-
-## See also
-
-- [Win32 Human Interface Devices Reference](/windows/win32/api/_hid/)
