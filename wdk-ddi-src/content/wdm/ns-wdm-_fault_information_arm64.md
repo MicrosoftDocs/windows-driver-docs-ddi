@@ -70,6 +70,8 @@ A bitwise of [**FAULT_INFORMATION_ARM64_FLAGS**](ns-wdm-_fault_information_arm64
 
 A bitwise of [**FAULT_INFORMATION_ARM64_TYPE**](ne-wdm-_fault_information_arm64_type.md) flags.
 
+### -field IommuBaseAddress
+
 ## -remarks
 
 ## -see-also

@@ -63,32 +63,32 @@ The PCI_EXPRESS_ERROR_SOURCE_ID structure describes the identifiers of the first
 A ULONG representation of the contents of the PCI_EXPRESS_ERROR_SOURCE_ID structure.
 
 
-### -field CorrectableSourceIdBus
+### -field DUMMYSTRUCTNAME.CorrectableSourceIdBus
 
 The bus number of the requester that reported the first correctable error.
 
 
-### -field CorrectableSourceIdDev
+### -field DUMMYSTRUCTNAME.CorrectableSourceIdDev
 
 The device number of the requester that reported the first correctable error.
 
 
-### -field CorrectableSourceIdFun
+### -field DUMMYSTRUCTNAME.CorrectableSourceIdFun
 
 The function number of the requester that reported the first correctable error.
 
 
-### -field UncorrectableSourceIdBus
+### -field DUMMYSTRUCTNAME.UncorrectableSourceIdBus
 
 The bus number of the requester that reported the first uncorrectable error.
 
 
-### -field UncorrectableSourceIdDev
+### -field DUMMYSTRUCTNAME.UncorrectableSourceIdDev
 
 The device number of the requester that reported the first uncorrectable error.
 
 
-### -field UncorrectableSourceIdFun
+### -field DUMMYSTRUCTNAME.UncorrectableSourceIdFun
 
 The function number of the requester that reported the first uncorrectable error.
 

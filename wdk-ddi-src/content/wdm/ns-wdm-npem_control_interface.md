@@ -63,6 +63,8 @@ Reserved for system use.
 
 ### -field SetStandardControl
 
+### -field QueryNpemControl
+
 ## -remarks
 
 ## -see-also

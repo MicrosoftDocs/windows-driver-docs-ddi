@@ -52,3 +52,10 @@ This structure is not supported.
 
 ## -struct-fields
 
+### -field Version
+
+### -field Reserved0
+
+### -field ApplicationId
+
+### -field Policies

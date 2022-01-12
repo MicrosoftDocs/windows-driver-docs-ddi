@@ -63,7 +63,7 @@ The PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure describes a PCI Express (PCIe) 
 A ULONG representation of the contents of the PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure.
 
 
-### -field AdvisoryNonFatalError
+### -field DUMMYSTRUCTNAME.AdvisoryNonFatalError
 
 A single bit that indicates that the reporting of advisory non-fatal errors is masked.
 
@@ -73,37 +73,37 @@ A single bit that indicates that the reporting of advisory non-fatal errors is m
 A single bit that indicates that the reporting of bad data link layer packets (DLLPs) is masked.
 
 
-### -field BadTLP
+### -field DUMMYSTRUCTNAME.BadTLP
 
 A single bit that indicates that the reporting of bad transaction layer packets (TLPs) is masked.
 
 
-### -field ReceiverError
+### -field DUMMYSTRUCTNAME.ReceiverError
 
 A single bit that indicates that the reporting of receiver errors is masked.
 
 
-### -field ReplayNumRollover
+### -field DUMMYSTRUCTNAME.ReplayNumRollover
 
 A single bit that indicates that the reporting of rollovers of the counter that counts the number of times the retry buffer has been re-transmitted is masked.
 
 
-### -field ReplayTimerTimeout
+### -field DUMMYSTRUCTNAME.ReplayTimerTimeout
 
 A single bit that indicates that the reporting of timeouts of the replay timer is masked.
 
 
-### -field Reserved1
+### -field DUMMYSTRUCTNAME.Reserved1
 
 Reserved.
 
 
-### -field Reserved2
+### -field DUMMYSTRUCTNAME.Reserved2
 
 Reserved.
 
 
-### -field Reserved3
+### -field DUMMYSTRUCTNAME.Reserved3
 
 Reserved.
 
