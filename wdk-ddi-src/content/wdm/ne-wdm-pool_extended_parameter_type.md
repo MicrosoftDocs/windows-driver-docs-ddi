@@ -36,7 +36,7 @@ dev_langs:
 
 ## -description
 
-This enumeration is used in the [**POOL_EXTENDED_PARAMETER**](ns-wdm-pool_extended_parameter.md) structure.
+This enumeration is used in the [**POOL_EXTENDED_PARAMETER**](xref:NS:wdm._POOL_EXTENDED_PARAMETER) structure.
 
 ## -enum-fields
 
