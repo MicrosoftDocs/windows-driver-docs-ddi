@@ -4,7 +4,7 @@ title: WdfDeviceStopIdle macro (wdfdevice.h)
 description: The WdfDeviceStopIdle method informs the framework that the specified device must be placed in its working (D0) power state.
 old-location: wdf\wdfdevicestopidle.htm
 tech.root: wdf
-ms.date: 04/22/2021
+ms.date: 01/12/2022
 keywords: ["WdfDeviceStopIdle macro"]
 ms.keywords: DFDeviceObjectGeneralRef_3dbde224-ecdf-429e-9389-9bdb49b16040.xml, WdfDeviceStopIdle, WdfDeviceStopIdle method, kmdf.wdfdevicestopidle, wdf.wdfdevicestopidle, wdfdevice/WdfDeviceStopIdle
 req.header: wdfdevice.h
@@ -92,7 +92,10 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 If your device can enter a low-power state when it becomes idle, your driver might have to occasionally call <b>WdfDeviceStopIdle</b> to bring the device back to its working (D0) state or to prevent it from entering a low-power state. 
 
-**WdfDeviceStopIdle** does not prevent the framework from transitioning the device to a sleep state when the system changes to an Sx sleep state. Its only effect is to prevent transitions to Dx sleep states while the system is in the S0 working state.
+**WdfDeviceStopIdle** does not prevent the framework from transitioning the device to a sleep state when the system changes to an Sx sleep state. Its only effect is to prevent transitions to Dx sleep states while the system is in the S0 working state. Similarly, if the device supports [directed power management](/windows-hardware/design/device-experiences/directed-power-management), **WdfDeviceStopIdle** does not prevent the device from entering directed power down.
+
+> [!WARNING]
+> Do not call **WdfDeviceStopIdle** with *WaitForD0* = **TRUE** during power down, either directly or indirectly. For example, if the [*EvtDeviceArmWakeFromS0*](./nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md) callback waits on another thread which calls WdfDeviceStopIdle(TRUE), the power transition is blocked and the system crashes.
 
 Your driver <i>does not</i> have to call <b>WdfDeviceStopIdle</b> when a device is idle and the framework places an I/O request in the device's power-managed I/O queue. Additionally, your driver <i>does not</i> have to call <b>WdfDeviceStopIdle</b> when a device is idle and it detects a wake signal. In both of these cases, the framework requests the bus driver to restore the device's power state to D0.
 
