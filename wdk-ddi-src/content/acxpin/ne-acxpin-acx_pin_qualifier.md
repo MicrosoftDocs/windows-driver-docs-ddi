@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_PIN_QUALIFIER
 tech.root: audio
 title: ACX_PIN_QUALIFIER
-ms.date: 01/06/2022
+ms.date: 01/12/2022
 targetos: Windows
 description: 
 prerelease: false
@@ -67,4 +67,3 @@ For internal validation, do not use.
 ## -remarks
 
 ## -see-also
-

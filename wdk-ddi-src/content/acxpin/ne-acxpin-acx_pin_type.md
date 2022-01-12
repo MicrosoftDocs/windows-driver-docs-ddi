@@ -2,9 +2,9 @@
 UID: NE:acxpin._ACX_PIN_TYPE
 tech.root: audio
 title: ACX_PIN_TYPE
-ms.date: 10/05/2021
+ms.date: 01/12/2022
 targetos: Windows
-description: 
+description: The ACX_PIN_TYPE enumeration is used by the ACX_PIN_CONFIG structure to indicate the type of a pin.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,17 +40,29 @@ dev_langs:
 
 ## -description
 
+The **ACX_PIN_TYPE** enumeration is used by the [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md) structure to indicate the type of a pin.
+
 ## -enum-fields
 
 ### -field AcxPinTypeOther
 
+Indicates that the pin type is not a sink nor a source.
+
 ### -field AcxPinTypeSink
+
+Indicates that the pin type is a sink.
 
 ### -field AcxPinTypeSource
 
+Indicates that the pin type is a source.
+
 ### -field AcxPinTypeMaximum
+
+For internal validation, do not use.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)
+- [ACX_PIN_CONFIG_INIT](nf-acxpin-acx_pin_config_init.md)
