@@ -55,3 +55,10 @@ This material is not yet available. This placeholder topic is provided as an exa
 
 ## -struct-fields
 
+### -field InterfaceHeader
+
+### -field GetIdentifier
+
+## -remarks
+
+## -see-also

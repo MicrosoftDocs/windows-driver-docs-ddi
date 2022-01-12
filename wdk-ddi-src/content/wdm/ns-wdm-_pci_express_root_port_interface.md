@@ -56,3 +56,20 @@ The PCI_EXPRESS_ROOT_PORT_INTERFACE  structure is reserved for system use.
 
 ## -struct-fields
 
+### -field Size
+
+### -field Version
+
+### -field Context
+
+### -field InterfaceReference
+
+### -field InterfaceDereference
+
+### -field ReadConfigSpace
+
+### -field WriteConfigSpace
+
+## -remarks
+
+## -see-also

@@ -87,6 +87,11 @@ A single bit that indicates that ECRC generation is enabled.
 
 The bit position of the first error that was reported in the PCIe uncorrectable error status register.
 
+### -field DUMMYSTRUCTNAME.MultipleHeaderRecordingCapable
+
+### -field DUMMYSTRUCTNAME.MultipleHeaderRecordingEnable
+
+### -field DUMMYSTRUCTNAME.TlpPrefixLogPresent
 
 ### -field DUMMYSTRUCTNAME.Reserved
 

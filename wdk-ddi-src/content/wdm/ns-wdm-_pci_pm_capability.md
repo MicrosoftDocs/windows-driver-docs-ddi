@@ -74,25 +74,25 @@ Contains the same data as the <b>Capabilities </b>member.
 
 ### -field PMCSR
 
-#### ControlStatus
+### -field PMCSR.ControlStatus
 
 Contains a structure of type <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pmcsr">PCI_PMCSR</a> that reports the contents of the power management control status register. This register is used to monitor power management event signals and manage the device's power state. For more information about the contents of the power management control status register, see the <i>PCI Power Management Specification</i>.
 
 
 
-#### AsUSHORT
+### -field PMCSR.AsUSHORT
 
 Contains the same data as the <b>Capabilities </b>member.
 
 ### -field PMCSR_BSE
 
-#### BridgeSupport
+### -field PMCSR_BSE.BridgeSupport
 
 Contains a structure of type <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pmcsr_bse">PCI_PMCSR_BSE</a> that reports the contents of the power management control status register for PCI bridge support extensions.
 
 
 
-#### AsUCHAR
+### -field PMCSR_BSE.AsUCHAR
 
 Contains the same data as the <b>BridgeSupport</b> member.
 

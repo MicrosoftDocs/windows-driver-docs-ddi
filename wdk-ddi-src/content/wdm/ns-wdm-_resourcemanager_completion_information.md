@@ -55,3 +55,10 @@ The <b>RESOURCEMANAGER_COMPLETION_INFORMATION</b> structure is not used.
 
 ## -struct-fields
 
+### -field IoCompletionPortHandle
+
+### -field CompletionKey
+
+## -remarks
+
+## -see-also

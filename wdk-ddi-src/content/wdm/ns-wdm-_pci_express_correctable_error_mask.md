@@ -58,17 +58,13 @@ The PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure describes a PCI Express (PCIe) 
 
 ### -field DUMMYSTRUCTNAME
 
-### -field AsULONG
-
-A ULONG representation of the contents of the PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure.
-
 
 ### -field DUMMYSTRUCTNAME.AdvisoryNonFatalError
 
 A single bit that indicates that the reporting of advisory non-fatal errors is masked.
 
 
-### -field BadDLLP
+### -field DUMMYSTRUCTNAME.BadDLLP
 
 A single bit that indicates that the reporting of bad data link layer packets (DLLPs) is masked.
 
@@ -102,10 +98,17 @@ Reserved.
 
 Reserved.
 
+### -field DUMMYSTRUCTNAME.CorrectedInternalError
+
+### -field DUMMYSTRUCTNAME.HeaderLogOverflow
 
 ### -field DUMMYSTRUCTNAME.Reserved3
 
 Reserved.
+
+### -field AsULONG
+
+A ULONG representation of the contents of the PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure.
 
 ## -syntax
 

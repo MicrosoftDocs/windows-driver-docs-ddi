@@ -58,10 +58,6 @@ The PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure describes a PCI Express (PCIe
 
 ### -field DUMMYSTRUCTNAME
 
-### -field AsULONG
-
-A ULONG representation of the contents of the PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure.
-
 
 ### -field DUMMYSTRUCTNAME.AdvisoryNonFatalError
 
@@ -102,10 +98,17 @@ Reserved.
 
 Reserved.
 
+### -field DUMMYSTRUCTNAME.CorrectedInternalError
+
+### -field DUMMYSTRUCTNAME.HeaderLogOverflow
 
 ### -field DUMMYSTRUCTNAME.Reserved3
 
 Reserved.
+
+### -field AsULONG
+
+A ULONG representation of the contents of the PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure.
 
 ## -syntax
 
