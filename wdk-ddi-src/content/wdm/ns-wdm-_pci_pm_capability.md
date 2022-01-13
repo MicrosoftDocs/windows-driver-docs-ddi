@@ -62,13 +62,11 @@ Contains a structure of type <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_
 
 ### -field PMC
 
-#### Capabilities
+#### -field PMC.Capabilities
 
 Contains a structure of type <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pmc">PCI_PMC</a> that specifies the power management capabilities of the device. This information was retrieved from the power management capabilities register (offset 2 in the power management register block). For more information about the contents of the power management capabilities register, see the <i>PCI Power Management Specification</i>.
 
-
-
-#### AsUSHORT
+### -field PMC.AsUSHORT
 
 Contains the same data as the <b>Capabilities </b>member.
 

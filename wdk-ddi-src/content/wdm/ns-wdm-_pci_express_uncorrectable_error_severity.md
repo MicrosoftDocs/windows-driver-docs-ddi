@@ -137,6 +137,16 @@ A single bit that indicates that a reported unexpected completion is a fatal err
 
 A single bit that indicates that a reported unsupported request error is a fatal error.
 
+### -field DUMMYSTRUCTNAME.AcsViolation
+
+### -field DUMMYSTRUCTNAME.UncorrectableInternalError
+
+### -field DUMMYSTRUCTNAME.MCBlockedTlp
+
+### -field DUMMYSTRUCTNAME.AtomicOpEgressBlocked
+
+### -field DUMMYSTRUCTNAME.TlpPrefixBlocked
+
 ## -syntax
 
 ```cpp

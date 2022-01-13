@@ -137,6 +137,16 @@ A single bit that indicates that the reporting of unexpected completions is mask
 
 A single bit that indicates that the reporting of unsupported request errors is masked.
 
+### -field DUMMYSTRUCTNAME.AcsViolation
+
+### -field DUMMYSTRUCTNAME.UncorrectableInternalError
+
+### -field DUMMYSTRUCTNAME.MCBlockedTlp
+
+### -field DUMMYSTRUCTNAME.AtomicOpEgressBlocked
+
+### -field DUMMYSTRUCTNAME.TlpPrefixBlocked
+
 ## -syntax
 
 ```cpp

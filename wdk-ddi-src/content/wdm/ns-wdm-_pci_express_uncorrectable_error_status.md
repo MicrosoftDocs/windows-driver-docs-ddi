@@ -137,6 +137,16 @@ A single bit that indicates that an unexpected completion has occurred.
 
 A single bit that indicates that an unsupported request error has occurred.
 
+### -field DUMMYSTRUCTNAME.AcsViolation
+
+### -field DUMMYSTRUCTNAME.UncorrectableInternalError
+
+### -field DUMMYSTRUCTNAME.MCBlockedTlp
+
+### -field DUMMYSTRUCTNAME.AtomicOpEgressBlocked
+
+### -field DUMMYSTRUCTNAME.TlpPrefixBlocked
+
 ## -syntax
 
 ```cpp

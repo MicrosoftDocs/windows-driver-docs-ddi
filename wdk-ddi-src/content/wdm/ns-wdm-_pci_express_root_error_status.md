@@ -78,7 +78,7 @@ A single bit that indicates that a correctable error message has been received.
 A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
 
 
-### -field DUMMYSTRUCTNAME.irstUncorrectableFatal
+### -field DUMMYSTRUCTNAME.FirstUncorrectableFatal
 
 A single bit that indicates that the first uncorrectable error message that was received was for a fatal error.
 
