@@ -63,77 +63,77 @@ The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY structure describes a PCI Expre
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure.
 
 
-### -field DelayedTransactionDiscardTimerExpired
+### -field DUMMYSTRUCTNAME.DelayedTransactionDiscardTimerExpired
 
 A single bit that indicates that an expiration of the delayed transaction discard timer is a fatal error.
 
 
-### -field InternalBridgeError
+### -field DUMMYSTRUCTNAME.InternalBridgeError
 
 A single bit that indicates that a reported internal bridge error is a fatal error.
 
 
-### -field MasterAbortOnSplitCompletion
+### -field DUMMYSTRUCTNAME.MasterAbortOnSplitCompletion
 
 A single bit that indicates that a reported master abort on split completion is a fatal error.
 
 
-### -field PERRAsserted
+### -field DUMMYSTRUCTNAME.PERRAsserted
 
 A single bit that indicates that a reported PERR# assertion is a fatal error.
 
 
-### -field ReceivedMasterAbort
+### -field DUMMYSTRUCTNAME.ReceivedMasterAbort
 
 A single bit that indicates that a reported master abort is a fatal error.
 
 
-### -field ReceivedTargetAbort
+### -field DUMMYSTRUCTNAME.ReceivedTargetAbort
 
 A single bit that indicates that a reported target abort is a fatal error.
 
 
-### -field Reserved
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
 
 
-### -field RsvdZ
+### -field DUMMYSTRUCTNAME.RsvdZ
 
 Reserved for system use.
 
 
-### -field SERRAsserted
+### -field DUMMYSTRUCTNAME.SERRAsserted
 
 A single bit that indicates that a reported SERR# assertion is a fatal error.
 
 
-### -field TargetAbortOnSplitCompletion
+### -field DUMMYSTRUCTNAME.TargetAbortOnSplitCompletion
 
 A single bit that indicates that a reported target abort on split completion is a fatal error.
 
 
-### -field UncorrectableAddressError
+### -field DUMMYSTRUCTNAME.UncorrectableAddressError
 
 A single bit that indicates that a reported uncorrectable address error is a fatal error.
 
 
-### -field UncorrectableAttributeError
+### -field DUMMYSTRUCTNAME.UncorrectableAttributeError
 
 A single bit that indicates that a reported uncorrectable attribute error is a fatal error.
 
 
-### -field UncorrectableDataError
+### -field DUMMYSTRUCTNAME.UncorrectableDataError
 
 A single bit that indicates that a reported uncorrectable data error is a fatal error.
 
 
-### -field UncorrectableSplitCompletion
+### -field DUMMYSTRUCTNAME.UncorrectableSplitCompletion
 
 A single bit that indicates that a reported uncorrectable split completion message data error is a fatal error.
 
 
-### -field UnexpectedSplitCompletionError
+### -field DUMMYSTRUCTNAME.UnexpectedSplitCompletionError
 
 A single bit that indicates that a reported unexpected split completion error is a fatal error.
 

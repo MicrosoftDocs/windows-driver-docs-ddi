@@ -86,6 +86,12 @@ A pointer to the interface's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-p
 
 This member is reserved for future use.
 
+### -field QueryBusSpecificResetInfo
+
+### -field DeviceBusSpecificReset
+
+### -field GetDeviceResetStatus
+
 ## -remarks
 
 The <b>DEVICE_RESET_INTERFACE_STANDARD</b> structure is an extension of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure. A driver obtains a pointer to the <b>DEVICE_RESET_INTERFACE_STANDARD</b> structure by sending an <a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> IRP to its bus driver with <b>InterfaceType</b> set to GUID_DEVICE_RESET_INTERFACE_STANDARD.

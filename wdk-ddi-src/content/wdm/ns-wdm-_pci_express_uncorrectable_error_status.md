@@ -63,79 +63,89 @@ The PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure describes a PCI Express (PC
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure.
 
 
-### -field CompleterAbort
+### -field DUMMYSTRUCTNAME.CompleterAbort
 
 A single bit that indicates that a completer abort has occurred.
 
 
-### -field CompletionTimeout
+### -field DUMMYSTRUCTNAME.CompletionTimeout
 
 A single bit that indicates that a completion timeout has occurred.
 
 
-### -field DataLinkProtocolError
+### -field DUMMYSTRUCTNAME.DataLinkProtocolError
 
 A single bit that indicates that a data link protocol error has occurred.
 
 
-### -field ECRCError
+### -field DUMMYSTRUCTNAME.ECRCError
 
 A single bit that indicates that an end-to-end cyclic redundancy check (ECRC) error has occurred.
 
 
-### -field FlowControlProtocolError
+### -field DUMMYSTRUCTNAME.FlowControlProtocolError
 
 A single bit that indicates that a flow control protocol error has occurred.
 
 
-### -field MalformedTLP
+### -field DUMMYSTRUCTNAME.MalformedTLP
 
 A single bit that indicates that a malformed transaction layer packet (TLP) has been detected.
 
 
-### -field PoisonedTLP
+### -field DUMMYSTRUCTNAME.PoisonedTLP
 
 A single bit that indicates that a poisoned transaction layer packet (TLP) has been detected.
 
 
-### -field ReceiverOverflow
+### -field DUMMYSTRUCTNAME.ReceiverOverflow
 
 A single bit that indicates that the receiver has overflowed.
 
 
-### -field Reserved1
+### -field DUMMYSTRUCTNAME.Reserved1
 
 Reserved.
 
 
-### -field Reserved2
+### -field DUMMYSTRUCTNAME.Reserved2
 
 Reserved.
 
 
-### -field Reserved3
+### -field DUMMYSTRUCTNAME.Reserved3
 
 Reserved.
 
 
-### -field SurpriseDownError
+### -field DUMMYSTRUCTNAME.SurpriseDownError
 
 A single bit that indicates that a surprise down error has occurred.
 
 
-### -field Undefined
+### -field DUMMYSTRUCTNAME.Undefined
 
 A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a link training error has occurred.
 
 
-### -field UnexpectedCompletion
+### -field DUMMYSTRUCTNAME.UnexpectedCompletion
 
 A single bit that indicates that an unexpected completion has occurred.
 
 
-### -field UnsupportedRequestError
+### -field DUMMYSTRUCTNAME.UnsupportedRequestError
 
 A single bit that indicates that an unsupported request error has occurred.
+
+### -field DUMMYSTRUCTNAME.AcsViolation
+
+### -field DUMMYSTRUCTNAME.UncorrectableInternalError
+
+### -field DUMMYSTRUCTNAME.MCBlockedTlp
+
+### -field DUMMYSTRUCTNAME.AtomicOpEgressBlocked
+
+### -field DUMMYSTRUCTNAME.TlpPrefixBlocked
 
 ## -syntax
 

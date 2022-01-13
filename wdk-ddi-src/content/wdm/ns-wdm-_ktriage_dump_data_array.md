@@ -56,7 +56,9 @@ A pointer to a [**LIST_ENTRY**](/windows/win32/api/ntdef/ns-ntdef-list_entry) st
 
 ### -field NumBlocksTotal
 
-### -field VirtMemSize
+### -field DataSize
+
+### -field MaxDataSize
 
 ### -field ComponentNameBufferLength
 

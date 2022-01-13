@@ -45,6 +45,10 @@ dev_langs:
 
 Reserved for system use.
 
+## -struct-fields
+
+### -field PoolZeroingSupportPresent
+
 ## -remarks
 
 ## -see-also

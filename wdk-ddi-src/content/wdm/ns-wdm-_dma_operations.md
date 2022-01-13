@@ -195,6 +195,14 @@ A pointer to the [*PGET_DMA_DOMAIN*](nc-wdm-pget_dma_domain.md) callback functio
 
 A pointer to a [*PALLOCATE_COMMON_BUFFER_WITH_BOUNDS*](nc-wdm-pallocate_common_buffer_with_bounds.md) callback function that allocates the memory for a common buffer and maps it so that it can be accessed by a master device and the CPU. The common buffer can be bound by an optional minimum and maximum logical address. This option is available starting in Windows 10, version 1803.
 
+### -field AllocateCommonBufferVector
+
+### -field GetCommonBufferFromVectorByIndex
+
+### -field FreeCommonBufferFromVector
+
+### -field FreeCommonBufferVector
+
 
 ### -field CreateCommonBufferFromMdl
 

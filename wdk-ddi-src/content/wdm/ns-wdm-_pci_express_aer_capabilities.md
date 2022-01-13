@@ -63,32 +63,37 @@ The PCI_EXPRESS_AER_CAPABILITIES structure describes a PCI Express (PCIe) advanc
 A ULONG representation of the contents of the PCI_EXPRESS_AER_CAPABILITIES structure.
 
 
-### -field ECRCCheckCapable
+### -field DUMMYSTRUCTNAME.ECRCCheckCapable
 
 A single bit that indicates that the device is capable of checking ECRC.
 
 
-### -field ECRCCheckEnable
+### -field DUMMYSTRUCTNAME.ECRCCheckEnable
 
 A single bit that indicates that ECRC checking is enabled.
 
 
-### -field ECRCGenerationCapable
+### -field DUMMYSTRUCTNAME.ECRCGenerationCapable
 
 A single bit that indicates that the device is capable of generating end-to-end cyclic redundancy checks (ECRC).
 
 
-### -field ECRCGenerationEnable
+### -field DUMMYSTRUCTNAME.ECRCGenerationEnable
 
 A single bit that indicates that ECRC generation is enabled.
 
 
-### -field FirstErrorPointer
+### -field DUMMYSTRUCTNAME.FirstErrorPointer
 
 The bit position of the first error that was reported in the PCIe uncorrectable error status register.
 
+### -field DUMMYSTRUCTNAME.MultipleHeaderRecordingCapable
 
-### -field Reserved
+### -field DUMMYSTRUCTNAME.MultipleHeaderRecordingEnable
+
+### -field DUMMYSTRUCTNAME.TlpPrefixLogPresent
+
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved.
 

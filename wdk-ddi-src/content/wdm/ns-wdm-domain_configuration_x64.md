@@ -45,6 +45,12 @@ dev_langs:
 
 Reserved for system use only.
 
+## -struct-fields
+
+### -field FirstLevelPageTableRoot
+
+### -field TranslationEnabled
+
 ## -remarks
 
 ## -see-also
