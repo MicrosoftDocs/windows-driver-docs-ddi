@@ -155,6 +155,8 @@ If **ValidBits.ChipIdentification** is set, Bits 7:5 contain Chip Identification
 
 This value is available starting Windows 10, version 1803.
 
+### -field ValidBits
+
 ## -remarks
 
 A WHEA_MEMORY_ERROR_SECTION_VALIDBITS union is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section">WHEA_MEMORY_ERROR_SECTION</a> structure.

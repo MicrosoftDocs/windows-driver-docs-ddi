@@ -55,8 +55,6 @@ Reserved for system use.
 
 ### -field Uninitialize
 
-### -field Ready
-
 ### -field Correct
 
 ## -remarks

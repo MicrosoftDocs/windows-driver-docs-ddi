@@ -61,13 +61,7 @@ The WHEA_ERROR_PACKET_FLAGS union defines the error condition reported through a
 
 A single bit that indicates whether the hardware error packet contains information about a fatal hardware error. This error caused the operating system to generate a bug check and restart.
 
-### -field DUMMYSTRUCTNAME.Reserved1
-
-Reserved for system use.
-
-
-<div class="alert"><b>Note</b>  In versions of the Windows Driver Kit (WDK) prior to Windows 7, this member was named <b>CpuValid</b>. The <b>CpuValid </b>member has been deprecated in the WDK for Windows 7 and later versions of Windows.</div>
-<div> </div>
+### -field DUMMYSTRUCTNAME.CriticalEvent
 
 ### -field DUMMYSTRUCTNAME.HypervisorError
 
@@ -94,6 +88,12 @@ A single bit that indicates whether the PSHED plug-in that performs PFA on a sys
 
 <div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div>
 <div> </div>
+
+### -field DUMMYSTRUCTNAME.AddressTranslationRequired
+
+### -field DUMMYSTRUCTNAME.AddressTranslationCompleted
+
+### -field DUMMYSTRUCTNAME.RecoveryOptional
 
 ### -field DUMMYSTRUCTNAME.Reserved2
 

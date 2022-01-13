@@ -77,6 +77,8 @@ An event buffer configuration. The configuration of the event buffer threshold, 
 
 The maximum value in this enumeration type.
 
+### -field ResourceTypeIdenitificationTag
+
 ## -remarks
 
 The <b>Type</b> member of a [**PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR**](ns-ntddk-_physical_counter_resource_descriptor.md) structure uses a <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</b> enumeration constant to indicate the type of counter resource that is described by the structure.
