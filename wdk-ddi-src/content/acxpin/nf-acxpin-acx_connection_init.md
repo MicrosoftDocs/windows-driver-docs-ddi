@@ -2,9 +2,9 @@
 UID: NF:acxpin.ACX_CONNECTION_INIT
 tech.root: audio
 title: ACX_CONNECTION_INIT
-ms.date: 10/14/2021
+ms.date: 01/12/2022
 targetos: Windows
-description: 
+description: Initializes an ACX_CONNECTION structure for use in configuring a connection.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,24 @@ dev_langs:
 
 ## -description
 
+Initializes an [ACX_CONNECTION](ns-acxpin-acx_connection.md) structure for use in configuring a connection.
+
 ## -parameters
 
-### -param Connection
+### -param Connection [out]
+
+Pointer to an [ACX_CONNECTION](ns-acxpin-acx_connection.md) object to be initialized;
 
 ### -param FromObject
 
+The **ACXOBJECT** from which audio data comes.
+
 ### -param ToObject
+
+The **ACXOBJECT** to which audio data is sent.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_CONNECTION](ns-acxpin-acx_connection.md)
