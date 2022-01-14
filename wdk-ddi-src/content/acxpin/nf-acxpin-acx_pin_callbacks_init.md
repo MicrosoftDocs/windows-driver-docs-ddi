@@ -2,9 +2,9 @@
 UID: NF:acxpin.ACX_PIN_CALLBACKS_INIT
 tech.root: audio
 title: ACX_PIN_CALLBACKS_INIT
-ms.date: 10/14/2021
+ms.date: 01/13/2022
 targetos: Windows
-description: 
+description: The ACX_PIN_CALLBACKS_INIT function initializes an ACX_PIN_CALLBACKS structure for use.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,16 @@ dev_langs:
 
 ## -description
 
+The **ACX_PIN_CALLBACKS_INIT** function initializes an [ACX_PIN_CALLBACKS](ns-acxpin-acx_pin_callbacks.md) structure for use.
+
 ## -parameters
 
-### -param PinCallbacks
+### -param PinCallbacks [out]
+
+A pointer to the **ACX_PIN_CALLBACKS** structure to initialize.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_PIN_CALLBACKS](ns-acxpin-acx_pin_callbacks.md)

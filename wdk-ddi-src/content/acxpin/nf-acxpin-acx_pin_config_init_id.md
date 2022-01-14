@@ -2,7 +2,7 @@
 UID: NF:acxpin.ACX_PIN_CONFIG_INIT_ID
 tech.root: audio
 title: ACX_PIN_CONFIG_INIT_ID
-ms.date: 10/14/2021
+ms.date: 01/13/2022
 targetos: Windows
 description: 
 prerelease: false
@@ -42,13 +42,20 @@ dev_langs:
 
 ## -description
 
+The **ACX_PIN_CONFIG_INIT_ID** function initializes an [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md) structure with the specified ID.
+
 ## -parameters
 
-### -param Config
+### -param Config [out]
 
-### -param Id
+A pointer to the **ACX_PIN_CONFIG** structure to initialize.
+
+### -param Id [in]
+
+The ID to use when initializing the **ACX_PIN_CONFIG** structure.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)

@@ -1,10 +1,10 @@
 ---
 UID: NF:acxpin.ACX_JACK_CONFIG_INIT
 tech.root: audio
-title: ACX_JACK_CONFIG_INIT
-ms.date: 10/05/2021
+title: ACX_JACK_CONFIG_INIT macro
+ms.date: 01/13/2022
 targetos: Windows
-description: 
+description: The ACX_JACK_CONFIG_INIT macro calls the ACX_JACK_CONFIG_INIT_ID function with the default ID value.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,24 @@ dev_langs:
 
 ## -description
 
+The **ACX_JACK_CONFIG_INIT** macro calls the [ACX_JACK_CONFIG_INIT_ID](nf-acxpin-acx_jack_config_init_id.md) function with the default ID value.
+
+## -syntax
+
+```cpp
+#define ACX_JACK_CONFIG_INIT(cfg) \
+    ACX_JACK_CONFIG_INIT_ID(cfg, AcxJackPropertiesIdDefault)
+```
+
 ## -parameters
 
 ### -param cfg
+
+A pointer to the [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md) structure to initialize.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_JACK_CONFIG_INIT_ID](nf-acxpin-acx_jack_config_init_id.md)
+- [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md)

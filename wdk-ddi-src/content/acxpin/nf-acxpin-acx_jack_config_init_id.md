@@ -2,9 +2,9 @@
 UID: NF:acxpin.ACX_JACK_CONFIG_INIT_ID
 tech.root: audio
 title: ACX_JACK_CONFIG_INIT_ID
-ms.date: 10/14/2021
+ms.date: 01/13/2022
 targetos: Windows
-description: 
+description: The ACX_JACK_CONFIG_INIT_ID function initializes an ACX_JACK_CONFIG structure with the specified ID.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,20 @@ dev_langs:
 
 ## -description
 
+The **ACX_JACK_CONFIG_INIT_ID** function initializes an [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md) structure with the specified ID.
+
 ## -parameters
 
-### -param Config
+### -param Config [out]
 
-### -param Id
+A pointer to the **ACX_JACK_CONFIG** structure to initialize.
+
+### -param Id [in]
+
+The ID to use when initializing the **ACX_JACK_CONFIG** structure.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md)

@@ -2,9 +2,9 @@
 UID: NE:acxpin._ACX_PIN_QUALIFIER
 tech.root: audio
 title: ACX_PIN_QUALIFIER
-ms.date: 01/12/2022
+ms.date: 01/13/2022
 targetos: Windows
-description: 
+description: TBD
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 

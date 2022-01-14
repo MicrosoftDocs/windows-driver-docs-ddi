@@ -2,9 +2,9 @@
 UID: NF:acxpin.ACX_JACK_CALLBACKS_INIT
 tech.root: audio
 title: ACX_JACK_CALLBACKS_INIT
-ms.date: 10/14/2021
+ms.date: 01/13/2022
 targetos: Windows
-description: 
+description: The ACX_JACK_CALLBACKS_INIT function initializes an ACX_JACK_CALLBACKS structure for use.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,16 @@ dev_langs:
 
 ## -description
 
+The **ACX_JACK_CALLBACKS_INIT** function initializes an [ACX_JACK_CALLBACKS](ns-acxpin-acx_jack_callbacks.md) structure for use.
+
 ## -parameters
 
-### -param Callbacks
+### -param Callbacks [out]
+
+A pointer to the [ACX_JACK_CALLBACKS](ns-acxpin-acx_jack_callbacks.md) structure to be initialized.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_JACK_CALLBACKS](ns-acxpin-acx_jack_callbacks.md)

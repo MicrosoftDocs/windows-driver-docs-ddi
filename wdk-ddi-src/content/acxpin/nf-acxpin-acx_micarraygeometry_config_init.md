@@ -2,9 +2,9 @@
 UID: NF:acxpin.ACX_MICARRAYGEOMETRY_CONFIG_INIT
 tech.root: audio
 title: ACX_MICARRAYGEOMETRY_CONFIG_INIT
-ms.date: 10/14/2021
+ms.date: 01/13/2022
 targetos: Windows
-description: 
+description: The ACX_MICARRAYGEOMETRY_CONFIG_INIT function initializes an ACX_MICARRAYGEOMETRY_CONFIG structure for use.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,16 @@ dev_langs:
 
 ## -description
 
+The **ACX_MICARRAYGEOMETRY_CONFIG_INIT** function initializes an [ACX_MICARRAYGEOMETRY_CONFIG](ns-acxpin-acx_micarraygeometry_config.md) structure for use.
+
 ## -parameters
 
-### -param Config
+### -param Config [out]
+
+A pointer to the **ACX_MICARRAYGEOMETRY_CONFIG** structure to initialize.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_MICARRAYGEOMETRY_CONFIG](ns-acxpin-acx_micarraygeometry_config.md)

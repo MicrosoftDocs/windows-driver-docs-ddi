@@ -2,9 +2,9 @@
 UID: NF:acxpin.ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION_INIT
 tech.root: audio
 title: ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION_INIT
-ms.date: 10/14/2021
+ms.date: 01/13/2022
 targetos: Windows
-description: 
+description: The ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION_INIT function initializes an ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION structure for use.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,16 @@ dev_langs:
 
 ## -description
 
+The **ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION_INIT** function initializes an [ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION](ns-acxpin-acx_interleaved_audio_format_information.md) structure for use.
+
 ## -parameters
 
-### -param format
+### -param format [out]
+
+A pointer to the [ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION](ns-acxpin-acx_interleaved_audio_format_information.md) structure to be initialized.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION](ns-acxpin-acx_interleaved_audio_format_information.md)
