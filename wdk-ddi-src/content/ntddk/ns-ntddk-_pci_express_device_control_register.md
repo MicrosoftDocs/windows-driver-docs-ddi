@@ -201,6 +201,8 @@ A single bit that indicates that the device is enabled to use unused function nu
 
 A single bit that indicates that reporting of unsupported requests is enabled for the device.
 
+### -field DUMMYSTRUCTNAME2.InitiateFunctionLevelReset
+
 ## -syntax
 
 ```cpp

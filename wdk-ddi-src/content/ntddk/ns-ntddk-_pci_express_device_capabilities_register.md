@@ -306,6 +306,8 @@ Reserved.
 
 Reserved.
 
+### -field DUMMYSTRUCTNAME.FunctionLevelResetCapability
+
 ## -syntax
 
 ```cpp

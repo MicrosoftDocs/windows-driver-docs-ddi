@@ -117,7 +117,7 @@ Reserved for system use.
 
 A ULONGLONG representation of the contents of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS union.
 
-### -field NativeModelId
+### -field DUMMYSTRUCTNAME.NativeModelId
 
 ## -remarks
 

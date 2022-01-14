@@ -285,6 +285,10 @@ Reserved.
 
 A single bit that indicates that the component supports the optional capability of detecting and reporting a surprise-down error condition. This bit only applies to downstream ports.
 
+### -field DUMMYSTRUCTNAME.LinkBandwidthNotificationCapability
+
+### -field DUMMYSTRUCTNAME.AspmOptionalityCompliance
+
 ## -syntax
 
 ```cpp
