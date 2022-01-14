@@ -62,12 +62,12 @@ The PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER structure describes a PCI Express (
 A ULONG representation of the contents of the PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER structure.
 
 
-### -field CapturedSlotPowerLimit
+### -field DUMMYSTRUCTNAME.CapturedSlotPowerLimit
 
 The maximum amount of power that can be supplied by the slot. This value is used in combination with the value of the <b>CapturedSlotPowerLimitScale</b> member to compute the power in watts.
 
 
-### -field CapturedSlotPowerLimitScale
+### -field DUMMYSTRUCTNAME.CapturedSlotPowerLimitScale
 
 The scale used for the value contained in the <b>CapturedSlotPowerLimit</b> member to compute the maximum power, in watts, that can be supplied by the slot. Possible values are:
 
@@ -98,12 +98,12 @@ Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.01.
 Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.001.
 
 
-### -field ExtendedTagSupported
+### -field DUMMYSTRUCTNAME.ExtendedTagSupported
 
 A single bit that specifies the maximum supported size of the Tag field in a PCIe transaction descriptor when the device is a requester. If this bit is clear, a 5-bit Tag field is supported. If this bit is set, an 8-bit Tag field is supported.
 
 
-### -field L0sAcceptableLatency
+### -field DUMMYSTRUCTNAME.L0sAcceptableLatency
 
 The maximum acceptable total latency that the device can withstand due to a transition from the L0s state to the L0 state. Possible values are:
 
@@ -158,7 +158,7 @@ The maximum acceptable total latency that the device can withstand due to a tran
 No limit
 
 
-### -field L1AcceptableLatency
+### -field DUMMYSTRUCTNAME.L1AcceptableLatency
 
 The maximum acceptable total latency that the device can withstand due to a transition from the L1 state to the L0 state. Possible values are:
 
@@ -213,7 +213,7 @@ The maximum acceptable total latency that the device can withstand due to a tran
 No limit
 
 
-### -field MaxPayloadSizeSupported
+### -field DUMMYSTRUCTNAME.MaxPayloadSizeSupported
 
 The maximum payload size that is supported by the device. Possible values are:
 
@@ -256,7 +256,7 @@ The maximum payload size that is supported by the device. Possible values are:
 4096 byte maximum payload size
 
 
-### -field PhantomFunctionsSupported
+### -field DUMMYSTRUCTNAME.PhantomFunctionsSupported
 
 A value that indicates the support of unused function numbers (phantom functions) to extend the number of outstanding transactions that are allowed for the device. Possible values are:
 
@@ -287,24 +287,26 @@ The two most significant bits in the function number are used for phantom functi
 All three bits in the function number are used for phantom functions. The device implements only a single function for function number 0.
 
 
-### -field RoleBasedErrorReporting
+### -field DUMMYSTRUCTNAME.RoleBasedErrorReporting
 
 A single bit that indicates that the device implements role-based error reporting.
 
 
-### -field Rsvd1
+### -field DUMMYSTRUCTNAME.Rsvd1
 
 Reserved.
 
 
-### -field Rsvd2
+### -field DUMMYSTRUCTNAME.Rsvd2
 
 Reserved.
 
 
-### -field Undefined
+### -field DUMMYSTRUCTNAME.Undefined
 
 Reserved.
+
+### -field DUMMYSTRUCTNAME.FunctionLevelResetCapability
 
 ## -syntax
 

@@ -68,10 +68,6 @@ Windows has completed loading driver dependencies and will start loading boot-st
 Windows has completed the initialization of all boot-start drivers. After the completion of this callback, the Boot Driver Callback Facility will be torn down and no more callbacks will be received. During this callback, Early Launch AM drivers must clean up and prepare to be unloaded.
 
 
-### -field BdCbStatusPrepareForDependecyLoad
-
-Windows will start loading driver dependencies next.
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_bdcb_status_update_context">BDCB_STATUS_UPDATE_CONTEXT</a>

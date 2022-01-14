@@ -64,37 +64,37 @@ The PCI_EXPRESS_DEVICE_CONTROL_REGISTER structure describes a PCI Express (PCIe)
 A USHORT representation of the contents of the <b>PCI_EXPRESS_DEVICE_CONTROL_REGISTER</b> structure.
 
 
-### -field AuxPowerEnable
+### -field DUMMYSTRUCTNAME.AuxPowerEnable
 
 A single bit that indicates that the device is enabled to draw AUX power independent of power management events (PME) AUX power.
 
 
-### -field BridgeConfigRetryEnable
+### -field DUMMYSTRUCTNAME.BridgeConfigRetryEnable
 
 Reserved.
 
 
-### -field CorrectableErrorEnable
+### -field DUMMYSTRUCTNAME.CorrectableErrorEnable
 
 A single bit that indicates that reporting of correctable errors is enabled for the device.
 
 
-### -field EnableRelaxedOrder
+### -field DUMMYSTRUCTNAME.EnableRelaxedOrder
 
 A single bit that indicates that the device is permitted to set the relaxed ordering bit in the attributes field for any transactions that it initiates that do not require strong write ordering.
 
 
-### -field ExtendedTagEnable
+### -field DUMMYSTRUCTNAME.ExtendedTagEnable
 
 A single bit that indicates that the device is enabled to use an 8-bit Tag field in a PCIe transaction descriptor when the device is a requester. This bit can be set only if the PCIe device capabilities register of the PCIe capability structure indicates that the extended tag size is supported.
 
 
-### -field FatalErrorEnable
+### -field DUMMYSTRUCTNAME.FatalErrorEnable
 
 A single bit that indicates that reporting of non-fatal uncorrectable errors is enabled for the device.
 
 
-### -field MaxPayloadSize
+### -field DUMMYSTRUCTNAME.MaxPayloadSize
 
 The maximum payload size for the device. Possible values are:
 
@@ -139,7 +139,7 @@ The maximum payload size for the device. Possible values are:
 This value must not exceed the maximum payload size that is specified in the PCIe device capabilities register of the PCIe capability structure.
 
 
-### -field MaxReadRequestSize
+### -field DUMMYSTRUCTNAME.MaxReadRequestSize
 
 The maximum read request size for the device as a requester. Possible values are:
 
@@ -182,24 +182,26 @@ The maximum read request size for the device as a requester. Possible values are
 4096 byte maximum read request size
 
 
-### -field NoSnoopEnable
+### -field DUMMYSTRUCTNAME.NoSnoopEnable
 
 A single bit that indicates that the device is permitted to set the No Snoop bit in the Requester Attributes field of transactions that it initiates that do not require hardware enforced cache coherency.
 
 
-### -field NonFatalErrorEnable
+### -field DUMMYSTRUCTNAME.NonFatalErrorEnable
 
 A single bit that indicates that reporting of non-fatal uncorrectable errors is enabled for the device.
 
 
-### -field PhantomFunctionsEnable
+### -field DUMMYSTRUCTNAME.PhantomFunctionsEnable
 
 A single bit that indicates that the device is enabled to use unused function numbers (phantom functions) to extend the number of outstanding transactions that are allowed for the device. This bit can be set only if the PCIe device capabilities register of the PCIe capability structure indicates that phantom functions are supported.
 
 
-### -field UnsupportedRequestErrorEnable
+### -field DUMMYSTRUCTNAME.UnsupportedRequestErrorEnable
 
 A single bit that indicates that reporting of unsupported requests is enabled for the device.
+
+### -field DUMMYSTRUCTNAME2.InitiateFunctionLevelReset
 
 ## -syntax
 

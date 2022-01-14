@@ -89,9 +89,7 @@ The extended processor family identifier.
 
 Reserved for system use.
 
-### -field DUMMYSTRUCTNAME.Reserved3
-
-Reserved for system use.
+### -field DUMMYSTRUCTNAME.NativeModelId
 
 ### -field AsULONGLONG
 

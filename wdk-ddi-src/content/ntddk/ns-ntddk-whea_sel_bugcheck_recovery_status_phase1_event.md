@@ -51,6 +51,16 @@ Reserved for system use.
 
 ### -field Success
 
+### -field Version
+
+### -field EntryCount
+
+### -field Data
+
+### -field Data.DumpPolicy
+
+### -field Data.Reserved
+
 ## -remarks
 
 ## -see-also

@@ -77,6 +77,16 @@ Reserved for system use.
 
 A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_FLAGS union.
 
+### -field DUMMYSTRUCTNAME.CriticalEvent
+
+### -field DUMMYSTRUCTNAME.PersistPfn
+
+### -field DUMMYSTRUCTNAME.SectionsTruncated
+
+### -field DUMMYSTRUCTNAME.RecoveryInProgress
+
+### -field DUMMYSTRUCTNAME.Throttle
+
 ## -remarks
 
 ## -see-also

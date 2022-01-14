@@ -78,6 +78,10 @@ Represents the different process mitigation policies. For more information, see 
 
 ### -field MaxProcessMitigationPolicy 
 
+### -field ProcessUserShadowStackPolicy
+
+### -field ProcessRedirectionTrustPolicy
+
 ## -remarks
 
 ## -see-also

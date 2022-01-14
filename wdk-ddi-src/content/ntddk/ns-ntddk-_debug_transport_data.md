@@ -65,6 +65,8 @@ Indicates whether the USB kernel debug controller is needed.
 
 The USB core ID to use.
 
+### -field SharedVisibleDataSize
+
 ## -remarks
 
 ## -see-also

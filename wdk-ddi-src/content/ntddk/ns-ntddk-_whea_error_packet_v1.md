@@ -148,6 +148,8 @@ An offset, in bytes, from the beginning of the <b>RawData</b> data buffer where 
 
 A variable-sized data buffer that contains the raw hardware error information from the error source's status registers. The format of the hardware error data is specified by the <b>RawDataFormat</b> member.
 
+### -field u.PmemError
+
 ## -remarks
 
 The WHEA_ERROR_PACKET_V1 structure is used to report a hardware error in Windows Server 2008 and Windows Vista SP1.

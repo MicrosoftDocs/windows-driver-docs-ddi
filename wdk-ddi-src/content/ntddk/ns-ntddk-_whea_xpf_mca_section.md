@@ -50,8 +50,6 @@ A machine check exception error section structure.
 
 ### -field VersionNumber
 
-Version of the structure, set to WHEA_XPF_MCA_SECTION_VERSION.
-
 ### -field CpuVendor
 
 ### -field Timestamp
@@ -75,6 +73,12 @@ Version of the structure, set to WHEA_XPF_MCA_SECTION_VERSION.
 ### -field ApicId
 
 ### -field ExtendedRegisters
+
+### -field AMDExtendedRegisters
+
+### -field GlobalCapability
+
+### -field RecoveryInfo
 
 ## -remarks
 

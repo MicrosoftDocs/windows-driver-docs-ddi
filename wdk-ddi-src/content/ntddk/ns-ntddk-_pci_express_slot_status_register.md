@@ -62,32 +62,32 @@ The PCI_EXPRESS_SLOT_STATUS_REGISTER structure describes a PCI Express (PCIe) sl
 A USHORT representation of the contents of the PCI_EXPRESS_SLOT_STATUS_REGISTER structure.
 
 
-### -field AttentionButtonPressed
+### -field DUMMYSTRUCTNAME.AttentionButtonPressed
 
 A single bit that indicates that the attention button for the slot is being pressed.
 
 
-### -field CommandCompleted
+### -field DUMMYSTRUCTNAME.CommandCompleted
 
 A single bit that indicates that a command has been completed by the slot's hot-plug controller.
 
 
-### -field DataLinkStateChanged
+### -field DUMMYSTRUCTNAME.DataLinkStateChanged
 
 A single bit that indicates that the data link layer active bit of the PCIe link status register of the PCIe capability structure has changed.
 
 
-### -field ElectromechanicalLockEngaged
+### -field DUMMYSTRUCTNAME.ElectromechanicalLockEngaged
 
 A single bit that indicates if the slot's electromechanical interlock is engaged.
 
 
-### -field MRLSensorChanged
+### -field DUMMYSTRUCTNAME.MRLSensorChanged
 
 A single bit that indicates that the state of the slot's manually operated retention latch (MRL) sensor has changed.
 
 
-### -field MRLSensorState
+### -field DUMMYSTRUCTNAME.MRLSensorState
 
 The slot's manually operated retention latch (MRL) sensor state. Possible values are:
 
@@ -106,17 +106,17 @@ The MRL is closed.
 The MRL is open.
 
 
-### -field PowerFaultDetected
+### -field DUMMYSTRUCTNAME.PowerFaultDetected
 
 A single bit that indicates that a power fault at the slot has been detected.
 
 
-### -field PresenceDetectChanged
+### -field DUMMYSTRUCTNAME.PresenceDetectChanged
 
 A single bit that indicates that the card presence detection state for the slot has changed.
 
 
-### -field PresenceDetectState
+### -field DUMMYSTRUCTNAME.PresenceDetectState
 
 The slot's card presence detection state. Possible values are:
 
@@ -135,7 +135,7 @@ The slot is empty.
 A card is present in the slot.
 
 
-### -field Rsvd
+### -field DUMMYSTRUCTNAME.Rsvd
 
 Reserved.
 

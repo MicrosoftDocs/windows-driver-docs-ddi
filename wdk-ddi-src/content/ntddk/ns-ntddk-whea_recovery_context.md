@@ -63,9 +63,17 @@ Reserved for system use.
 
 ### -field MemoryError.RestartIpValid
 
+### -field MemoryError.ClearPoison
+
+### -field PmemError
+
+### -field PmemError.PmemErrInfo
+
 ### -field PartitionId
 
 ### -field VpIndex
+
+### -field ErrorType
 
 ## -remarks
 
