@@ -1,10 +1,10 @@
 ---
 UID: NS:wwan._WWAN_LADN_LIST
-tech.root: 
+tech.root: netvista
 title: WWAN_LADN_LIST
-ms.date: 
+ms.date: 01/14/2022
 targetos: Windows
-description: 
+description: The WWAN_LADN_LIST structure represents a list of Local Area Data Networks (LADNs).
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN11_NEXT
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: WWAN_LADN_LIST, *PWWAN_LADN_LIST
@@ -46,13 +46,20 @@ helpviewer_keywords:
 
 ## -description
 
+The **WWAN_LADN_LIST** structure represents a list of Local Area Data Networks (LADNs).
+
 ## -struct-fields
 
 ### -field ElementCount
 
+The number of elements in the LADN list.
+
 ### -field Ladns
+
+An array of [**WWAN_LADN**](ns-wwan-wwan_ladn.md) structures that represent the LADN list.
 
 ## -remarks
 
 ## -see-also
 
+[**WWAN_LADN**](ns-wwan-wwan_ladn.md)

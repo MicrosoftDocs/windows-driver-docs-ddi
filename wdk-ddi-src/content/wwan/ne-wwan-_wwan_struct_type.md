@@ -4,7 +4,7 @@ title: _WWAN_STRUCT_TYPE (wwan.h)
 description: The WWAN_STRUCT_TYPE enumeration lists the different types of the list elements that follow the WWAN_LIST_HEADER object in memory.
 old-location: netvista\wwan_struct_type.htm
 tech.root: netvista
-ms.date: 12/30/2021
+ms.date: 01/11/2022
 keywords: ["WWAN_STRUCT_TYPE enumeration"]
 ms.keywords: "*PWWAN_STRUCT_TYPE, PWWAN_STRUCT_TYPE, PWWAN_STRUCT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_STRUCT_TYPE, WWAN_STRUCT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanRef_6b201902-91a4-45ee-bc26-2fd321ff7d8c.xml, WwanStructContext, WwanStructDeviceCellularClass, WwanStructDeviceServiceCommandId, WwanStructDeviceServiceEntry, WwanStructDeviceServiceGuid, WwanStructMax, WwanStructProvider, WwanStructProvider2, WwanStructReserved0, WwanStructReserved1, WwanStructReserved2, WwanStructReserved3, WwanStructSmsCdma, WwanStructSmsPdu, WwanStructTN, _WWAN_STRUCT_TYPE, netvista.wwan_struct_type, wwan/PWWAN_STRUCT_TYPE, wwan/WWAN_STRUCT_TYPE, wwan/WwanStructContext, wwan/WwanStructDeviceCellularClass, wwan/WwanStructDeviceServiceCommandId, wwan/WwanStructDeviceServiceEntry, wwan/WwanStructDeviceServiceGuid, wwan/WwanStructMax, wwan/WwanStructProvider, wwan/WwanStructProvider2, wwan/WwanStructReserved0, wwan/WwanStructReserved1, wwan/WwanStructReserved2, wwan/WwanStructReserved3, wwan/WwanStructSmsCdma, wwan/WwanStructSmsPdu, wwan/WwanStructTN"
 req.header: wwan.h
@@ -199,6 +199,22 @@ The elements are of type [**WWAN_SINGLE_NSSAI**](ns-wwan-wwan_single_nssai.md).
 ### -field WwanStructRejectedSNSSAI
 
 The elements are of type [**WWAN_REJECTED_SNSSAI**](ns-wwan-wwan_rejected_snssai.md).
+
+### -field WwanStructProvisionedContextV2
+
+The elements are of type [**WWAN_PROVISIONED_CONTEXT_V2**](ns-wwan-wwan_provisioned_context_v2.md).
+
+### -field WwanStructTaiSinglePlmnNonConsecutive
+
+The elements are of type [**WWAN_TAI_LIST_SINGLE_PLMN**](ns-wwan-wwan_tai_list_single_plmn.md) and the tracking area code (TAC) values are nonconsecutive.
+
+### -field WwanStructTaiSinglePlmnConsecutive
+
+The elements are of type [**WWAN_TAI_LIST_SINGLE_PLMN**](ns-wwan-wwan_tai_list_single_plmn.md) and the tracking area code (TAC) values are consecutive.
+
+### -field WwanStructTaiMultiPlmn
+
+The elements are of type [**WWAN_TAI_LIST_MULTI_PLMN**](ns-wwan-wwan_tai_list_multi_plmn.md).
 
 ### -field WwanStructMax
 

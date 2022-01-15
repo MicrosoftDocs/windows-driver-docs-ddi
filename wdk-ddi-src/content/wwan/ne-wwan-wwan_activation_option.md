@@ -1,10 +1,10 @@
 ---
 UID: NE:wwan._WWAN_ACTIVATION_OPTION
-tech.root: 
+tech.root: netvista
 title: WWAN_ACTIVATION_OPTION
-ms.date: 
+ms.date: 01/12/2022
 targetos: Windows
-description: 
+description: The WWAN_ACTIVATION_OPTION enum lists the Packet Data Protocol (PDP) activation options that the MB device supports.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -12,7 +12,7 @@ req.header: wwan.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN11_NEXT
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -42,17 +42,29 @@ helpviewer_keywords:
 
 ## -description
 
+The **WWAN_ACTIVATION_OPTION** enumeration lists the Packet Data Protocol (PDP) activation options that the MB device supports.
+
 ## -enum-fields
 
-### -field WwanActivationOptionDefault
+### -field WwanActivationOptionDefault:0
 
-### -field WwanActivationOptionPerNonDefaultURSPRules
+All PDU session attributes for activation are provided.
 
-### -field WwanActivationOptionPerDefaultURSPRule
+### -field WwanActivationOptionPerNonDefaultURSPRules:1
 
-### -field WwanActivationOptionPerURSPRules
+Use matching non-default URSP rules to activate.
 
-### -field WwanActivationOptionMax
+### -field WwanActivationOptionPerDefaultURSPRule:2
+
+Use the default URSP rule to activate.
+
+### -field WwanActivationOptionPerURSPRules:3
+
+Use matching non-default URSPs rules and the default URSP rule to activate.
+
+### -field WwanActivationOptionMax:4
+
+The total number of supported activation options.
 
 ## -remarks
 

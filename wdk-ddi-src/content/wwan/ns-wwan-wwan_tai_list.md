@@ -1,10 +1,10 @@
 ---
 UID: NS:wwan._WWAN_TAI_LIST
-tech.root: 
+tech.root: netvista
 title: WWAN_TAI_LIST
-ms.date: 
+ms.date: 01/07/2022
 targetos: Windows
-description: 
+description: The **WWAN_TAI_LIST** structure represents a Tracking Area Identity (TAI) list.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN11_NEXT
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: WWAN_TAI_LIST, *PWWAN_TAI_LIST
@@ -46,13 +46,24 @@ helpviewer_keywords:
 
 ## -description
 
+The **WWAN_TAI_LIST** structure represents one or more Tracking Area Identity (TAI) lists. 
+
 ## -struct-fields
 
 ### -field TaiListType
 
+A value from the [**WWAN_STRUCT_TYPE**](ne-wwan-_wwan_struct_type.md) enumeration that represents the type of the TAI list.
+
 ### -field DataBuffer
+
+The TAI list data. The format is either [**WWAN_TAI_LIST_SINGLE_PLMN**](ns-wwan-wwan_tai_list_single_plmn.md) or [**WWAN_TAI_LIST_MULTI_PLMN**](ns-wwan-wwan_tai_list_multi_plmn.md).
 
 ## -remarks
 
 ## -see-also
 
+[**WWAN_STRUCT_TYPE**](ne-wwan-_wwan_struct_type.md)
+
+[**WWAN_TAI_LIST_SINGLE_PLMN**](ns-wwan-wwan_tai_list_single_plmn.md)
+
+[**WWAN_TAI_LIST_MULTI_PLMN**](ns-wwan-wwan_tai_list_multi_plmn.md)

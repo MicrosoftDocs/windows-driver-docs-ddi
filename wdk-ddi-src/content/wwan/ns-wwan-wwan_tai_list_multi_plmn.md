@@ -1,10 +1,10 @@
 ---
 UID: NS:wwan._WWAN_TAI_LIST_MULTI_PLMN
-tech.root: 
+tech.root: netvista
 title: WWAN_TAI_LIST_MULTI_PLMN
-ms.date: 
+ms.date: 01/07/2022
 targetos: Windows
-description: 
+description: The WWAN_TAI_LIST_MULTI_PLMN structure represents a list of Tracking Area Identities (TAIs) that belong to different PLMNs.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN11_NEXT
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: WWAN_TAI_LIST_MULTI_PLMN, *PWWAN_TAI_LIST_MULTI_PLMN
@@ -46,13 +46,23 @@ helpviewer_keywords:
 
 ## -description
 
+The **WWAN_TAI_LIST_MULTI_PLMN** structure represents a list of Tracking Area Identities (TAIs) that belong to different PLMNs (the Mobile Country Code (MCC) and Mobile Network Code (MNC)).
+
 ## -struct-fields
 
 ### -field ElementCount
 
+The number of elements in the TAI list.
+
 ### -field Tais
+
+A list of [**WWAN_SINGLE_TAI**](ns-wwan-wwan_single_tai.md) structures. The ElementCount field specifies the number of elements.
 
 ## -remarks
 
 ## -see-also
+
+[**WWAN_SINGLE_TAI**](ns-wwan-wwan_single_tai.md) 
+
+[**WWAN_TAI_LIST_SINGLE_PLMN**](ns-wwan-wwan_tai_list_single_plmn.md)
 
