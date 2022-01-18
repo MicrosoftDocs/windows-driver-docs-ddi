@@ -89,32 +89,11 @@ If the <i>Free</i> parameter is <b>NULL</b>, subsequent calls to <a href="/windo
 
 Starting in Windows 8, this parameter specifies an optional flag value to modify the default behavior of the <b>ExInitializeNPagedLookasideList</b> routine. Compatible flag bits include the following.
 
-<table>
-<tr>
-<th>Flag bit</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-POOL_NX_ALLOCATION
+|Flag bit|Meaning|Value|
+|--- |--- |--- |
+|POOL_RAISE_IF_ALLOCATION_FAILURE|If the allocation fails, raise an exception.|16|
+|POOL_NX_ALLOCATION|Allocate non-executable memory.|512|
 
-</td>
-<td>
-Allocate non-executable memory.
-
-</td>
-</tr>
-<tr>
-<td>
-POOL_RAISE_IF_ALLOCATION_FAILURE
-
-</td>
-<td>
-If the allocation fails, raise an exception.
-
-</td>
-</tr>
-</table>
  
 
 Before Windows 8, this parameter is not used and must be zero.

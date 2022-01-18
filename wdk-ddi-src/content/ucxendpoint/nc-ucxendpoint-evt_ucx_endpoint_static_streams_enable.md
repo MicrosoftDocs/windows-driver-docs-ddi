@@ -4,7 +4,7 @@ title: EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE (ucxendpoint.h)
 description: The client driver's implementation that UCX calls to enable the static streams.
 old-location: buses\evt_ucx_endpoint_static_streams_enable.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/14/2022
 keywords: ["EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE, EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE callback, EvtUcxEndpointStaticStreamsEnable, EvtUcxEndpointStaticStreamsEnable callback function [Buses], PFN_UCM_CONNECTOR_GET_OPERATING_MODE, PFN_UCM_CONNECTOR_GET_OPERATING_MODE callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_enable, ucxendpoint/EvtUcxEndpointStaticStreamsEnable
 req.header: ucxendpoint.h
@@ -42,43 +42,33 @@ api_name:
 
 # EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE callback function
 
-
 ## -description
 
 The client driver's implementation that UCX calls to enable the static streams.
 
 ## -parameters
 
-### -param UcxEndpoint
+### -param UcxEndpoint [in]
+
+A handle to a UCXENDPOINT object that represents the endpoint.
 
 ### -param UcxStaticStreams [in]
-
 
 A handle to a UCX object that represents the static streams.
 
 ### -param Request [in]
 
-
-Contains the URB for the <b>URB_FUNCTION_OPEN_STATIC_STREAMS</b>.
-
-
-### -param Endpoint [in]
-
-A handle to a UCXENDPOINT object that represents the endpoint.
+Contains the URB for the **URB_FUNCTION_OPEN_STATIC_STREAMS**.
 
 ## -remarks
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
- method.
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the [UcxEndpointCreate](nf-ucxendpoint-ucxendpointcreate.md) method.
 
-The client driver returns completion status in <i>Request</i> and in the USBD_STATUS
-    in the URB header.  The driver can complete the WDFREQUEST asynchronously.
+The client driver returns completion status in *Request* and in the USBD_STATUS in the URB header. The driver can complete the WDFREQUEST asynchronously.
 
+### Examples
 
-#### Examples
-
-
-```
+```cpp
 VOID
 Endpoint_EvtUcxEndpointStaticStreamsEnable(
     UCXENDPOINT     UcxEndpoint,
@@ -95,4 +85,3 @@ Endpoint_EvtUcxEndpointStaticStreamsEnable(
     WdfRequestComplete(Request, STATUS_SUCCESS);
 }
 ```
-
