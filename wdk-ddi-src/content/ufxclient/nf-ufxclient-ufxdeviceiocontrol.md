@@ -4,13 +4,13 @@ title: UfxDeviceIoControl function (ufxclient.h)
 description: Passes non-internal IOCTLs from user-mode to UFX.
 old-location: buses\ufxdeviceiocontrol.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/19/2022
 keywords: ["UfxDeviceIoControl function"]
 ms.keywords: UfxDeviceIoControl, UfxDeviceIoControl method [Buses], buses.ufxdeviceiocontrol, ufxclient/UfxDeviceIoControl
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,7 +42,6 @@ api_name:
 
 # UfxDeviceIoControl function
 
-
 ## -description
 
 Passes non-internal IOCTLs from user-mode to UFX.
@@ -51,35 +50,31 @@ Passes non-internal IOCTLs from user-mode to UFX.
 
 ### -param UfxDevice [in]
 
-
-A handle to a UFX device object that the driver created by calling <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling [UfxDeviceCreate](nf-ufxclient-ufxdevicecreate.md).
 
 ### -param Request [in]
-
 
 A handle to a framework request object.
 
 ### -param OutputBufferLength [in]
 
-
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
 ### -param InputBufferLength [in]
-
 
 The length, in bytes, of the request's input buffer, if an input buffer is available.
 
 ### -param IoControlCode [in]
 
-
 The driver-defined or system-defined IOCTL that is associated with the request.
+
+## -returns
 
 ## -remarks
 
-The client driver calls <b>UfxDeviceIoControl</b> to forward non-internal IOCTLs that it receives in its <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_device_control">EvtIoDeviceControl</a> callback function to UFX.  The following example shows how:
+The client driver calls **UfxDeviceIoControl** to forward non-internal IOCTLs that it receives in its [EvtIoDeviceControl](../wdfio/nc-wdfio-evt_wdf_io_queue_io_device_control.md) callback function to UFX.  The following example shows how:
 
-
-```
+```cpp
 VOID
 DefaultQueue_EvtIoDeviceControl(
     _In_ WDFQUEUE Queue,
@@ -111,7 +106,7 @@ Arguments:
 {
     WDFDEVICE WdfDevice;
     PCONTROLLER_CONTEXT ControllerContext;
-    BOOLEAN HandledbyUfx;   
+    BOOLEAN HandledbyUfx;
 
     TraceEntry();
 

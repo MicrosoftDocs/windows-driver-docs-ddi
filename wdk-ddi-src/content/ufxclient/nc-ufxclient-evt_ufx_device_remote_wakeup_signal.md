@@ -4,7 +4,7 @@ title: EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL (ufxclient.h)
 description: The client driver's implementation to initiate remote wake-up on the function controller.
 old-location: buses\evt_ufx_device_remote_wakeup_signal.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/19/2022
 keywords: ["EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL callback function"]
 ms.keywords: EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL, EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL callback, EvtUfxDeviceRemoteWakeupSignal, EvtUfxDeviceRemoteWakeupSignal callback function [Buses], PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL, PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL callback function pointer [Buses], buses.evt_ufx_device_remote_wakeup_signal, ufxclient/EvtUfxDeviceRemoteWakeupSignal
 req.header: ufxclient.h
@@ -42,91 +42,80 @@ api_name:
 
 # EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL callback function
 
-
 ## -description
 
 The client driver's implementation to initiate remote wake-up on the function controller.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
-### -param UfxDevice [in]
-
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
+The handle to a USB device object that the client driver received in a previous call to the [UfxDeviceCreate](nf-ufxclient-ufxdevicecreate.md) method.
 
 ## -remarks
 
-The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL</i> implementation with the USB function class extension (UFX) by calling the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a> method.
+The client driver for the function host controller registers its *EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL* implementation with the USB function class extension (UFX) by calling the [UfxDeviceCreate](nf-ufxclient-ufxdevicecreate.md) method.
 
-The client driver indicates completion of this event by calling the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a> method.
+The client driver indicates completion of this event by calling the [UfxDeviceEventComplete](nf-ufxclient-ufxdeviceeventcomplete.md) method.
 
+### Examples
 
-#### Examples
-
-
-```
-
+```cpp
 EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL UfxDevice_EvtDeviceRemoteWakeupSignal;
 
 VOID
 UfxDevice_EvtDeviceRemoteWakeupSignal (
-    _In_ UFXDEVICE UfxDevice
-    )
+ _In_ UFXDEVICE UfxDevice
+ )
 /*++
 Routine Description:
 
-    Signals Remote Wakeup to the Host by issuing a link state change command.
-    It acquires and releases the power reference to ensure a valid power state
-    before accessing the device.
+ Signals Remote Wakeup to the Host by issuing a link state change command.
+ It acquires and releases the power reference to ensure a valid power state
+ before accessing the device.
 
 Arguments:
 
-    UfxDevice - UFXDEVICE object representing the device.
+ UfxDevice - UFXDEVICE object representing the device.
 
 --*/
 {
-    NTSTATUS Status;
-    PUFXDEVICE_CONTEXT DeviceContext;
+ NTSTATUS Status;
+ PUFXDEVICE_CONTEXT DeviceContext;
 
-    PAGED_CODE();
+ PAGED_CODE();
 
-    TraceEntry();
+ TraceEntry();
 
-    DeviceContext = UfxDeviceGetContext(UfxDevice);
+ DeviceContext = UfxDeviceGetContext(UfxDevice);
 
-    //
-    // Stop Idle to ensure the device is in working state
-    //
+ //
+ // Stop Idle to ensure the device is in working state
+ //
 
-    Status = WdfDeviceStopIdle(DeviceContext->FdoWdfDevice, TRUE);
-    if (!NT_SUCCESS(Status)) {
-        TraceError("Failed to stop idle %!STATUS!", Status);
-        goto End;
-    }
+ Status = WdfDeviceStopIdle(DeviceContext->FdoWdfDevice, TRUE);
+ if (!NT_SUCCESS(Status)) {
+  TraceError("Failed to stop idle %!STATUS!", Status);
+  goto End;
+ }
 
-    //
-    // Issue a Link State Change Request.
-    //
+ //
+ // Issue a Link State Change Request.
+ //
 
-    //
-    // #### TODO: Insert code to issue a link state change on the controller ####
-    //
+ //
+ // #### TODO: Insert code to issue a link state change on the controller ####
+ //
 
-    WdfDeviceResumeIdle(DeviceContext->FdoWdfDevice);
+ WdfDeviceResumeIdle(DeviceContext->FdoWdfDevice);
 
 End:
-    UfxDeviceEventComplete(UfxDevice, Status);
-    TraceExit();
+ UfxDeviceEventComplete(UfxDevice, Status);
+ TraceExit();
 }
-
 ```
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a>
-
+- [UfxDeviceCreate](nf-ufxclient-ufxdevicecreate.md)
+- [UfxDeviceEventComplete](nf-ufxclient-ufxdeviceeventcomplete.md)

@@ -4,13 +4,13 @@ title: UfxDeviceIoInternalControl function (ufxclient.h)
 description: Passes kernel mode IOCTLs to UFX.
 old-location: buses\ufxdeviceiointernalcontrol.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/19/2022
 keywords: ["UfxDeviceIoInternalControl function"]
 ms.keywords: UfxDeviceIoInternalControl, UfxDeviceIoInternalControl method [Buses], buses.ufxdeviceiointernalcontrol, ufxclient/UfxDeviceIoInternalControl
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,7 +42,6 @@ api_name:
 
 # UfxDeviceIoInternalControl function
 
-
 ## -description
 
 Passes kernel mode IOCTLs to UFX.
@@ -51,35 +50,31 @@ Passes kernel mode IOCTLs to UFX.
 
 ### -param UfxDevice [in]
 
-
 A handle to a UFX device object that the driver created by calling <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 ### -param Request [in]
-
 
 A handle to a framework request object.
 
 ### -param OutputBufferLength [in]
 
-
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
 ### -param InputBufferLength [in]
-
 
 The length, in bytes, of the request's input buffer, if an input buffer is available.
 
 ### -param IoControlCode [in]
 
-
 The driver-defined or system-defined IOCTL that is associated with the request.
+
+## -returns
 
 ## -remarks
 
-The client driver calls <b>UfxDeviceIoInternalControl</b> to forward internal IOCTLs that it receives in its <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_internal_device_control">EvtIoInternalDeviceControl</a> callback function to UFX.  The following example shows how:
+The client driver calls **UfxDeviceIoInternalControl** to forward internal IOCTLs that it receives in its [EvtIoInternalDeviceControl](../wdfio/nc-wdfio-evt_wdf_io_queue_io_internal_device_control.md) callback function to UFX. The following example shows how:
 
-
-```
+```cpp
 VOID
 DefaultQueue_EvtIoInternalDeviceControl(
     _In_ WDFQUEUE Queue,
@@ -137,5 +132,4 @@ Arguments:
 
     TraceExit();
 }
-
 ```

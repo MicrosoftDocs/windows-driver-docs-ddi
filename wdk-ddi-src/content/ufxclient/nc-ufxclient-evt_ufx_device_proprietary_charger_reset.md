@@ -4,7 +4,7 @@ title: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET (ufxclient.h)
 description: The client driver's implementation to resets proprietary charger.
 old-location: buses\evt_ufx_device_proprietary_charger_reset.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/19/2022
 keywords: ["EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback function"]
 ms.keywords: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback, EvtUfxDeviceProprietaryChargerReset, EvtUfxDeviceProprietaryChargerReset callback function [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback function pointer [Buses], buses.evt_ufx_device_proprietary_charger_reset, ufxclient/EvtUfxDeviceProprietaryChargerReset
 req.header: ufxclient.h
@@ -42,30 +42,23 @@ api_name:
 
 # EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback function
 
-
 ## -description
 
 The client driver's implementation to resets proprietary charger.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
-### -param UfxDevice [in]
-
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
+The handle to a USB device object that the client driver received in a previous call to the [UfxDeviceCreate](nf-ufxclient-ufxdevicecreate.md) method.
 
 ## -remarks
 
-<i>EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET</i> is an optional event callback.
+*EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET* is an optional event callback.
 
-The USB function class extension (UFX) invokes this  event callback to indicate that the USB device has been detached from the charger.  The client driver initiates a request to the lower filter driver to reset the proprietary charger its initial state.
+The USB function class extension (UFX) invokes this event callback to indicate that the USB device has been detached from the charger. The client driver initiates a request to the lower filter driver to reset the proprietary charger its initial state.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceproprietarychargerdetectcomplete">UfxDeviceProprietaryChargerDetectComplete</a>
-
+- [UfxDeviceCreate](nf-ufxclient-ufxdevicecreate.md)
+- [UfxDeviceProprietaryChargerDetectComplete](nf-ufxclient-ufxdeviceproprietarychargerdetectcomplete.md)
