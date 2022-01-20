@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE
 ms.date: 08/24/2021
 targetos: Windows
-description: TBD - The EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE callback is used by the driver to allow it to add additional functionality when the TBD function is called,  and an acx circuit device is deleted, TBD TBD.
+description: The EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE callback is invoked by ACX when the driver must delete a previously created WDFDEVICE associated with an ACXCIRCUIT object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,19 +42,18 @@ dev_langs:
 
 ## -description
 
-TBD - The EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE callback is used by the driver to allow it to add additional functionality when the TBD function is called,  and an acx circuit device is deleted, TBD TBD.
+The EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE callback is invoked by ACX when the driver must delete a previously created WDFDEVICE associated with an ACXCIRCUIT object.
 
 ## -parameters
 
 ### -param Factory
 
-TBD - The existing circuit factory ACXFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The existing circuit factory ACXFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that must be deleted.  
 
-TBD - Is there a second WDFDEVICE Device param?
 
 ```cpp
 EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE(
@@ -72,11 +71,22 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+An AcxFactoryCircuit represents a factory object capable of creating an ACXCIRCUIT on demand. 
+A driver can register one or more ACXFACTORYCIRCUIT with ACX, this action let ACX know that the driver is capabile of creating ACXCIRCUITs of a well defined type.
+ACX invokes the ACXFACTORYCIRCUIT's callbacks when it detects that an audio path requires one of the factory provided ACXCIRCUITs.
+
+This is an optional callback, if the EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE callback is not defined, ACX takes the default action of removing the specified WDFDEVICE from the list of enumerated devices. This action triggers a surprise-removed PnP notification to the child WDFDEVICE.
+
+The ACXFACTORYCIRCUIT object supports dynamic ACXCIRCUITs, this means that each ACXCIRCUIT created by the factory is associated with a WDFDEVICE and these two objects have the same lifetime.
+
+An AcxFactoryCircuit has a dedicated WDF queue. For more information about WDF queues, see [Framework Queue Objects](/windows-hardware/drivers/wdf/framework-queue-objects)
+
+
 ### Example
 
 Example usage is shown below.
 
-TBD - No example code or unit tests found.
+TBD: a new samples was added in the SDCA tree for this.
 
 ```cpp
 
@@ -86,3 +96,4 @@ TBD - No example code or unit tests found.
 
 [acxcircuit.h header](index.md)
 
+READY2GO
