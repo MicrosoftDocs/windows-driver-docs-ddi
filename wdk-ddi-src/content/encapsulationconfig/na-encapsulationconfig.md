@@ -6,8 +6,6 @@ ms.assetid:
 ms.date: 11/30/2020
 keywords: ["encapsulationconfig.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: netvista
 f1_keywords:

@@ -5,8 +5,6 @@ description: The driver is notified that the app has started of a pass of consis
 tech.root: display
 ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_BEGIN_PASS callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

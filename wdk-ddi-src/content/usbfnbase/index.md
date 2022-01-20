@@ -6,8 +6,6 @@ ms.assetid: f54db437-6d89-377b-8e79-ed49a7490c17
 ms.date: 05/09/2018
 keywords: ["Usbfnbase.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
 f1_keywords:

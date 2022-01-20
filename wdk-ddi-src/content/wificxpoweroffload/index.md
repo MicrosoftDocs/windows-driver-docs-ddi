@@ -6,8 +6,6 @@ title: wificxpoweroffload
 ms.date: 04/30/2021
 keywords: ["Wificxpoweroffload.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 f1_keywords:
  - wificxpoweroffload

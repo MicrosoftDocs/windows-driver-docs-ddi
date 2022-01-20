@@ -6,8 +6,6 @@ ms.assetid: 3aa40561-30b1-310a-b289-97b5253ecbc6
 ms.date: 05/09/2018
 keywords: ["Wexlogtrace.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: taef
 f1_keywords:

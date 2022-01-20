@@ -5,8 +5,6 @@ description: The pfnBeginEndQuery callback function defines the beginning of the
 tech.root: display
 ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_BEGIN_END_QUERY callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header: d3d12umddi.h
 req.target-type: 

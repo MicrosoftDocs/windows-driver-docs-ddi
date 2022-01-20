@@ -5,8 +5,6 @@ description: Contains the WDDM capabilities that was returned from the KMD in re
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGK_WDDMDEVICECAPS structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_WDDMDEVICECAPS, DXGK_WDDMDEVICECAPS,
 req.header: d3dkmddi.h
 req.include-header: 

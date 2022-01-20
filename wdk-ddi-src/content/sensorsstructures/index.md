@@ -6,8 +6,6 @@ ms.assetid: 38c4bcab-02e9-432e-a859-997726bd4953
 ms.date: 07/30/2018
 keywords: ["Sensorsstructures.h header"]
 ms.keywords: sensorsstructures.h
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: sensors
 ms.custom: RS5

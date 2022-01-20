@@ -6,8 +6,6 @@ ms.assetid: 434b4bef-ac82-3eee-8cc8-8fbfd4bad71c
 ms.date: 05/09/2018
 keywords: ["Filterpipeline.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: print
 f1_keywords:

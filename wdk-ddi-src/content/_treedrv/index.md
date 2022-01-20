@@ -6,8 +6,6 @@ ms.assetid: c3c001ab-a544-3e0a-8295-8f229b100d1e
 ms.date: 07/11/2018
 keywords: ["Trusted Execution Environment (TrEE) drivers"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 ---
 

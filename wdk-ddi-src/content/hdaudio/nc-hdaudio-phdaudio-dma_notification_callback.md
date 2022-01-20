@@ -5,8 +5,6 @@ description: HDAudio codec DMA Notification Callback function.
 tech.root: audio
 ms.date: 04/08/2019
 keywords: ["PHDAUDIO_DMA_NOTIFICATION_CALLBACK callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: hdaudio.h
 req.include-header: hdaudio.h
 req.target-type: 

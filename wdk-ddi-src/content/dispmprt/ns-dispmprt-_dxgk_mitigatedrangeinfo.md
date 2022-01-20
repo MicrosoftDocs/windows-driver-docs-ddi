@@ -5,8 +5,6 @@ description: The list of pages in the virtual function’s BARs that need to be 
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGK_MITIGATEDRANGEINFO structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_MITIGATEDRANGEINFO, DXGK_MITIGATEDRANGEINFO, *PDXGK_MITIGATEDRANGEINFO,
 req.header: dispmprt.h
 req.include-header: 

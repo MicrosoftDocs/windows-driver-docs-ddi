@@ -6,8 +6,6 @@ tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3DWDDM2_6DDI_SCANOUT_FLAGS enumeration"]
 ms.keywords: D3DWDDM2_6DDI_SCANOUT_FLAGS, D3DWDDM2_6DDI_SCANOUT_FLAGS,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d10umddi.h
 req.include-header: 
 req.target-type: 

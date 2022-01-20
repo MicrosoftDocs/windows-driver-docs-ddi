@@ -6,8 +6,6 @@ ms.assetid: 31ca997d-12f9-393e-bfce-cdcf84179963
 ms.date: 05/09/2018
 keywords: ["Usbscan.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: image
 f1_keywords:

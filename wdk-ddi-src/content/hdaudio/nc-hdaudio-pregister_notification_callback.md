@@ -5,8 +5,6 @@ description: The RegisterNotificationCallback routine registers a callback routi
 tech.root: audio
 ms.date: 04/29/2019
 keywords: ["PREGISTER_NOTIFICATION_CALLBACK callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: hdaudio.h
 req.include-header: hdaudio.h
 req.target-type: 

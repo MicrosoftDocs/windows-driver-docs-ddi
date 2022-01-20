@@ -5,8 +5,6 @@ description: Arguments used to get virtual GPU info.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKARG_GETVIRTUALGPUINFO structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_GETVIRTUALGPUINFO, DXGKARG_GETVIRTUALGPUINFO, *PDXGKARG_GETVIRTUALGPUINFO,
 req.header: dispmprt.h
 req.include-header: 

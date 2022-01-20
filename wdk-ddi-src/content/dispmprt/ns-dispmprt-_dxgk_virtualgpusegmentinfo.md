@@ -5,8 +5,6 @@ description: Information about the virtual GPU segment info.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGK_VIRTUALGPUSEGMENTINFO structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_VIRTUALGPUSEGMENTINFO, DXGK_VIRTUALGPUSEGMENTINFO, *PDXGK_VIRTUALGPUSEGMENTINFO,
 req.header: dispmprt.h
 req.include-header: 

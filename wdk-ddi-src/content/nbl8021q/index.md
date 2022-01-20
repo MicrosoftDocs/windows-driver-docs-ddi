@@ -5,8 +5,6 @@ title: Nbl8021q.h header
 ms.date: 11/30/2020
 keywords: ["Nbl8021q.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: netvista
 f1_keywords:

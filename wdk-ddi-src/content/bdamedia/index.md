@@ -6,8 +6,6 @@ ms.assetid: e5093c55-273b-3721-852a-4f94c45d88bf
 ms.date: 05/09/2018
 keywords: ["Bdamedia.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: stream
 f1_keywords:

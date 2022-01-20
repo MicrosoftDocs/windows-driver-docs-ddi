@@ -5,8 +5,6 @@ description: Queries whether or not a transformation should occur in preparation
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d10umddi.h
 req.include-header: 
 req.target-type: 

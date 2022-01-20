@@ -5,8 +5,6 @@ description: "Learn more about: D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054 str
 tech.root: display
 ms.date: 08/19/2019
 keywords: ["D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054 structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054, D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054,
 req.header: d3d12umddi.h
 req.include-header: 

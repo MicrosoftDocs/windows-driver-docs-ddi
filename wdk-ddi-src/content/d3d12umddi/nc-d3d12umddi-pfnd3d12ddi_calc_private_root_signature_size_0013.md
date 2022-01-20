@@ -5,8 +5,6 @@ description: "The PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0013 callback fun
 tech.root: display
 ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0013 callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

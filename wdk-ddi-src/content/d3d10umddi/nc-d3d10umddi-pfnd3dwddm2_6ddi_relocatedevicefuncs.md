@@ -5,8 +5,6 @@ description: The PFND3DWDDM2_6DDI_RELOCATEDEVICEFUNCS function notifies the user
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["PFND3DWDDM2_6DDI_RELOCATEDEVICEFUNCS callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d10umddi.h
 req.include-header: 
 req.target-type: 

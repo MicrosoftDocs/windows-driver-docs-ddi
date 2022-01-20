@@ -6,8 +6,6 @@ ms.assetid: bdf4ca1b-17bf-3c92-8ed6-296d65ebf2cc
 ms.date: 05/09/2018
 keywords: ["Udecxusbdevice.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
 f1_keywords:

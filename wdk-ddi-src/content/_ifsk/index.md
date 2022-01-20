@@ -6,8 +6,6 @@ ms.assetid: c842e40c-3483-3721-b6bf-4da6e333af1a
 ms.date: 10/28/2021
 keywords: ["Installable file system"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 ms.custom: contperf-fy22q2
 ---

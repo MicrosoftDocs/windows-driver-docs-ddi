@@ -5,8 +5,6 @@ description: Used in the creation of a pass.
 tech.root: display
 ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_CALC_PRIVATE_PASS_SIZE callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

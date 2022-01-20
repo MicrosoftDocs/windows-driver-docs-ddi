@@ -5,8 +5,6 @@ description: The LUID of the render adapter that the driver would like to be use
 tech.root: display
 ms.date: 09/24/2020
 keywords: ["IDARG_IN_ADAPTERSETRENDERADAPTER structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: IDARG_IN_ADAPTERSETRENDERADAPTER, ,
 req.header: iddcx.h
 req.include-header: 

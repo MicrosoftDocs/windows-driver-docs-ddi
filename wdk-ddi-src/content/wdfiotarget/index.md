@@ -6,8 +6,6 @@ ms.assetid: 65c859a2-b54e-397f-a79a-3c718b10f60c
 ms.date: 05/09/2018
 keywords: ["Wdfiotarget.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: wdf
 f1_keywords:

@@ -6,8 +6,6 @@ ms.assetid: 56f6c740-1ee6-329c-b645-7535d1122c7e
 ms.date: 05/09/2018
 keywords: ["Ursdevice.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
 f1_keywords:
