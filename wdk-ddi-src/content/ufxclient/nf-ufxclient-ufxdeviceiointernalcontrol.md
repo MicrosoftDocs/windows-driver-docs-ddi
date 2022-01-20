@@ -4,7 +4,7 @@ title: UfxDeviceIoInternalControl function (ufxclient.h)
 description: Passes kernel mode IOCTLs to UFX.
 old-location: buses\ufxdeviceiointernalcontrol.htm
 tech.root: usbref
-ms.date: 01/19/2022
+ms.date: 01/20/2022
 keywords: ["UfxDeviceIoInternalControl function"]
 ms.keywords: UfxDeviceIoInternalControl, UfxDeviceIoInternalControl method [Buses], buses.ufxdeviceiointernalcontrol, ufxclient/UfxDeviceIoInternalControl
 req.header: ufxclient.h
@@ -69,6 +69,8 @@ The length, in bytes, of the request's input buffer, if an input buffer is avail
 The driver-defined or system-defined IOCTL that is associated with the request.
 
 ## -returns
+
+A Boolean value indicating if the call was successful.
 
 ## -remarks
 
