@@ -5,8 +5,6 @@ description: This device interface specifies the parts of the device base addres
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_MITIGABLE_DEVICE_INTERFACE structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKDDI_MITIGABLE_DEVICE_INTERFACE, DXGKDDI_MITIGABLE_DEVICE_INTERFACE, *PDXGKDDI_MITIGABLE_DEVICE_INTERFACE,
 req.header: dispmprt.h
 req.include-header: 

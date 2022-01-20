@@ -6,8 +6,6 @@ ms.assetid: bca56998-667b-3fd4-9561-ba760c2275b6
 ms.date: 05/09/2018
 keywords: ["Wmilib.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: kernel
 f1_keywords:

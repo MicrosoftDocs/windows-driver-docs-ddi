@@ -6,8 +6,6 @@ ms.assetid: c486e5b4-8800-3452-8ea3-63402b0ba48a
 ms.date: 07/11/2018
 keywords: ["Global Navigation Satellite System (GNSS)"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 ---
 

@@ -6,8 +6,6 @@ tech.root: display
 ms.date: 03/24/2020
 keywords: ["D3D12DDI_INDIRECT_ARGUMENT_TYPE enumeration"]
 ms.keywords: D3D12DDI_INDIRECT_ARGUMENT_TYPE, D3D12DDI_INDIRECT_ARGUMENT_TYPE,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

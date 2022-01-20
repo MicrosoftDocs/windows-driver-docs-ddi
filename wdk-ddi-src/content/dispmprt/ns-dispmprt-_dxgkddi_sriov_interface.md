@@ -5,8 +5,6 @@ description: The SRIOV device interface exposes the PCIe virtual devices.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_SRIOV_INTERFACE structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKDDI_SRIOV_INTERFACE, DXGKDDI_SRIOV_INTERFACE, *PDXGKDDI_SRIOV_INTERFACE,
 req.header: dispmprt.h
 req.include-header: 

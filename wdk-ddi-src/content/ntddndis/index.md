@@ -6,8 +6,6 @@ ms.assetid: 3070c304-be06-3c47-8296-026e9700c955
 ms.date: 05/09/2018
 keywords: ["Ntddndis.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: netvista
 f1_keywords:

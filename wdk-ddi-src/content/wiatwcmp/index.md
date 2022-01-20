@@ -6,8 +6,6 @@ ms.assetid: 9758efe1-bd32-33a6-8e02-a9c21e726bfe
 ms.date: 05/09/2018
 keywords: ["Wiatwcmp.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: image
 f1_keywords:

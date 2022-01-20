@@ -5,8 +5,6 @@ title: Dsound.h header
 ms.date: 08/03/2021
 keywords: ["Dsound.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: stream
 f1_keywords:

@@ -6,8 +6,6 @@ ms.assetid: c814db66-97e8-3874-b493-8fdcf95ba04b
 ms.date: 05/09/2018
 keywords: ["Mxdc.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: print
 f1_keywords:

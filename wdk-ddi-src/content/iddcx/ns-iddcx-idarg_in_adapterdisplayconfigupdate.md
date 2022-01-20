@@ -6,8 +6,6 @@ tech.root: display
 ms.author: windowsdriverdev
 ms.date: 09/24/2020
 keywords: ["IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE
 req.header: iddcx.h
 req.include-header: 

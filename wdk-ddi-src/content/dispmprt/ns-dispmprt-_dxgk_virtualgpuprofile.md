@@ -5,8 +5,6 @@ description: Information about a virtual GPU profile.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGK_VIRTUALGPUPROFILE structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_VIRTUALGPUPROFILE, DXGK_VIRTUALGPUPROFILE, *PDXGK_VIRTUALGPUPROFILE,
 req.header: dispmprt.h
 req.include-header: 

@@ -6,8 +6,6 @@ ms.assetid: 6839a2d9-d025-3af4-9d57-2d591f143ae1
 ms.date: 10/19/2018
 keywords: ["Ucmucsicx.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
 ms.custom: RS5
