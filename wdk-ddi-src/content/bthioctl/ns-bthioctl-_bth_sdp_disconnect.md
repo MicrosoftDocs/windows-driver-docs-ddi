@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The BTH_SDP_DISCONNECT structure contains input information about a connection handle to the remote SDP connection to terminate. This structure is passed as the input buffer of [IOCTL_BTH_SDP_DISCONNECT](/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_disconnect).
+The BTH_SDP_DISCONNECT structure contains input information about a connection handle to the remote SDP connection to terminate. This structure is passed as the input buffer of [IOCTL_BTH_SDP_DISCONNECT](./ni-bthioctl-ioctl_bth_sdp_disconnect.md).
 
 ## -struct-fields
 
@@ -60,6 +60,6 @@ When the connect request returns, this specifies the handle to the SDP connectio
 
 ## -see-also
 
-- [BTH_SDP_CONNECT](/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_connect)
-- [IOCTL_BTH_SDP_CONNECT](/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect)
-- [IOCTL_BTH_SDP_DISCONNECT](/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_disconnect)
+- [BTH_SDP_CONNECT](./ns-bthioctl-_bth_sdp_connect.md)
+- [IOCTL_BTH_SDP_CONNECT](./ni-bthioctl-ioctl_bth_sdp_connect.md)
+- [IOCTL_BTH_SDP_DISCONNECT](./ni-bthioctl-ioctl_bth_sdp_disconnect.md)

@@ -56,7 +56,7 @@ The **HidP_GetButtonsEx** macro is a mnemonic alias for the [**HidP_GetUsagesEx*
 
 ### -param Rty [in]
 
-Specifies a [**HIDP_REPORT_TYPE**](/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type) enumerator value that identifies the report type.
+Specifies a [**HIDP_REPORT_TYPE**](./ne-hidpi-_hidp_report_type.md) enumerator value that identifies the report type.
 
 ### -param LCo [in]
 

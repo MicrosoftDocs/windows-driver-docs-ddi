@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Describes the configuration options for a Type-C connector object. An initialized [UCM_MANAGER_CONFIG](/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_manager_config) structure is an input parameter value to [UcmInitializeDevice](/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucminitializedevice).
+Describes the configuration options for a Type-C connector object. An initialized [UCM_MANAGER_CONFIG](./ns-ucmmanager-_ucm_manager_config.md) structure is an input parameter value to [UcmInitializeDevice](./nf-ucmmanager-ucminitializedevice.md).
 
 ## -struct-fields
 
@@ -64,16 +64,16 @@ Connector identifier.
 
 ### -field TypeCConfig
 
-A pointer to an initialized [UCM_CONNECTOR_TYPEC_CONFIG](/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_typec_config) structure that contains the configuration options for the connector.
+A pointer to an initialized [UCM_CONNECTOR_TYPEC_CONFIG](./ns-ucmmanager-_ucm_connector_typec_config.md) structure that contains the configuration options for the connector.
 
 ### -field PdConfig
 
-A pointer to an initialized [UCM_CONNECTOR_PD_CONFIG](/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_pd_config) structure that contains the power roles supported by the connector.
+A pointer to an initialized [UCM_CONNECTOR_PD_CONFIG](./ns-ucmmanager-_ucm_connector_pd_config.md) structure that contains the power roles supported by the connector.
 
 ## -remarks
 
-Initialize this structure by calling [UCM_CONNECTOR_CONFIG_INIT](/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucm_connector_config_init). An initialized **UCM_CONNECTOR_CONFIG** structure is an input parameter value to [UcmConnectorCreate](/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate) that is used by the client driver to create a connector object.
+Initialize this structure by calling [UCM_CONNECTOR_CONFIG_INIT](./nf-ucmmanager-ucm_connector_config_init.md). An initialized **UCM_CONNECTOR_CONFIG** structure is an input parameter value to [UcmConnectorCreate](./nf-ucmmanager-ucmconnectorcreate.md) that is used by the client driver to create a connector object.
 
 ## -see-also
 
-- [UcmConnectorCreate](/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate)
+- [UcmConnectorCreate](./nf-ucmmanager-ucmconnectorcreate.md)
