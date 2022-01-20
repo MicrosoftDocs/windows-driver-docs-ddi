@@ -56,7 +56,7 @@ The **HidP_UnsetButtons** macro is a mnemonic alias for the [**HidP_UnsetUsages*
 
 ### -param Rty [in]
 
-Specifies a [**HIDP_REPORT_TYPE**](/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type) enumerator value that indicates the type of report located at *Rep*.
+Specifies a [**HIDP_REPORT_TYPE**](./ne-hidpi-_hidp_report_type.md) enumerator value that indicates the type of report located at *Rep*.
 
 ### -param Up [in]
 
@@ -84,7 +84,7 @@ Pointer to a report.
 
 ### -param Rle [in]
 
-Specifies the size, in bytes, of the report located at *Rep*, which must be equal to the report length for the specified report type that [**HidP_GetCaps**](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps) returns in a collection's [**HIDP_CAPS**](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps) structure.
+Specifies the size, in bytes, of the report located at *Rep*, which must be equal to the report length for the specified report type that [**HidP_GetCaps**](./nf-hidpi-hidp_getcaps.md) returns in a collection's [**HIDP_CAPS**](./ns-hidpi-_hidp_caps.md) structure.
 
 ## -remarks
 

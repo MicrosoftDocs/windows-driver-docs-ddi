@@ -50,11 +50,11 @@ Sends information about the hardware alerts that are received on the port contro
 
 ### -param PortControllerObject [in]
 
-Handle to the port controller object that the client driver received in the previous call to [UcmTcpciPortControllerCreate](/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate).
+Handle to the port controller object that the client driver received in the previous call to [UcmTcpciPortControllerCreate](./nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md).
 
 ### -param AlertData
 
-A pointer to an array of [UCMTCPCI_PORT_CONTROLLER_ALERT_DATA](/windows-hardware/drivers/ddi/ucmtcpciportcontroller/ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_data) that contains all current alerts that have not been sent to UcmTcpciCx. This value cannot be NULL.
+A pointer to an array of [UCMTCPCI_PORT_CONTROLLER_ALERT_DATA](./ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_data.md) that contains all current alerts that have not been sent to UcmTcpciCx. This value cannot be NULL.
 
 ### -param NumberOfAlerts
 
@@ -64,7 +64,7 @@ The number of items in the array pointed to by *AlertData*. This value cannot be
 
 **UcmTcpciPortControllerAlert** returns STATUS_SUCCESS if the operation succeeds. Otherwise, this inline function may return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
 
-The client driver must call **UcmTcpciPortControllerAlert** that has been previously started by calling [UcmTcpciPortControllerStart](/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollerstart).
+The client driver must call **UcmTcpciPortControllerAlert** that has been previously started by calling [UcmTcpciPortControllerStart](./nf-ucmtcpciportcontroller-ucmtcpciportcontrollerstart.md).
 
 When a hardware alert occurs, the client driver must determine the type of alerts, fetch any auxiliary information associated with that alert, such as a PD message, populate the array, and then call **UcmTcpciPortControllerAlert**.
 

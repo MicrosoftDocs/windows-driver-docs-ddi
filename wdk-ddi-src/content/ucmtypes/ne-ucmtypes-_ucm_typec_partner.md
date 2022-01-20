@@ -81,5 +81,5 @@ The partner is a debug accessory.
 
 ## -see-also
 
-- [UCM_CONNECTOR_TYPEC_ATTACH_PARAMS](/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_typec_attach_params)
-- [UcmConnectorTypeCAttach](/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectortypecattach)
+- [UCM_CONNECTOR_TYPEC_ATTACH_PARAMS](../ucmmanager/ns-ucmmanager-_ucm_connector_typec_attach_params.md)
+- [UcmConnectorTypeCAttach](../ucmmanager/nf-ucmmanager-ucmconnectortypecattach.md)
