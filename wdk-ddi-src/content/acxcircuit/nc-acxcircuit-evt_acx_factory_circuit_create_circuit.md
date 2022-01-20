@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT
 ms.date: 08/24/2021
 targetos: Windows
-description: TBD - The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback is used by the driver to allow it to add additional functionality when a circuit is created, using the TBD function is called,  TBD TBD. 
+description: The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback is invoked by ACX when the driver must create an ACXCIRCUIT object with the specified configuration.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,29 +42,29 @@ dev_langs:
 
 ## -description
 
-TBD - The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback is used by the driver to allow it to add additional functionality when a circuit is created, using the TBD function is called,  TBD TBD. 
+The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback is invoked by ACX when the driver must create an ACXCIRCUIT object with the specified configuration.
 
 ## -parameters
 
 ### -param Parent
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is the parent of the WDFDEVICE referenced in Device object.
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the - TBD TBD 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) created in the EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT_DEVICE callback. This device will be associated with the new ACXCIRCUIT.
 
 ### -param Factory
 
-TBD - The existing circuit factory ACXFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The existing circuit factory ACXFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Config
 
-An [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT](ns-acxcircuit-acx_factory_circuit_add_circuit.md) config structure that defines how to add circuits for an ACX circuit factory.
+An [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT](ns-acxcircuit-acx_factory_circuit_add_circuit.md) structure that defines the configuration for the new ACXCIRCUIT.
 
 ### -param CircuitInit
 
-TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
+ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
 
 ## -returns
 
@@ -72,10 +72,11 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An AcxFactoryCircuits represents a partial audio path to a user perceived audio device (speakers, mic, etc.). 
-An AcxFactoryCircuits aggregates zero or ‘n’ AcxElements-like objects. By default, AcxElements are ‘connected’ in the same order of assembly. 
+An AcxFactoryCircuit represents a factory object capable of creating an ACXCIRCUIT on demand. 
+A driver can register one or more ACXFACTORYCIRCUIT with ACX, this action let ACX know that the driver is capabile of creating ACXCIRCUITs of a well defined type.
+ACX invokes the ACXFACTORYCIRCUIT's callbacks when it detects that an audio path requires one of the factory provided ACXCIRCUITs.
 
-An AcxCircuit has a dedicated WDF queue. For more information about WDF queues, see [Framework Queue Objects](/windows-hardware/drivers/wdf/framework-queue-objects)
+An AcxFactoryCircuit has a dedicated WDF queue. For more information about WDF queues, see [Framework Queue Objects](/windows-hardware/drivers/wdf/framework-queue-objects)
 
 ### Example
 
@@ -96,8 +97,6 @@ Dsp_EvtAcxFactoryCircuitCreateCircuit(
 )
 {
     ACXOBJECTBAG circuitProperties;
-
-    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(msft, CircuitId);
 
     PAGED_CODE();
 
@@ -144,3 +143,4 @@ Dsp_EvtAcxFactoryCircuitCreateCircuit(
 
 [acxcircuit.h header](index.md)
 
+READY2GO
