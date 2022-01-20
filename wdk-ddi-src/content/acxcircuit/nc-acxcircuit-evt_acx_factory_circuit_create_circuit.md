@@ -52,7 +52,7 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) created in the EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT_DEVICE callback. This device will be associated with the new ACXCIRCUIT.
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) created in the EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE callback. This device will be associated with the new ACXCIRCUIT.
 
 ### -param Factory
 
@@ -81,8 +81,6 @@ An AcxFactoryCircuit has a dedicated WDF queue. For more information about WDF q
 ### Example
 
 Example usage is shown below.
-
-TBD - Should we replace msft with contoso?
 
 ```cpp
 EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT Dsp_EvtAcxFactoryCircuitCreateCircuit;
