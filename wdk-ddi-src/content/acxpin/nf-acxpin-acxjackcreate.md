@@ -2,9 +2,9 @@
 UID: NF:acxpin.AcxJackCreate
 tech.root: audio
 title: AcxJackCreate
-ms.date: 10/14/2021
+ms.date: 01/20/2022
 targetos: Windows
-description: 
+description: The AcxJackCreate function creates and initializes a new audio jack object.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,19 +42,33 @@ dev_langs:
 
 ## -description
 
+The **AcxJackCreate** function creates and initializes a new audio jack object.
+
 ## -parameters
 
-### -param AcxPin
+### -param AcxPin [in]
 
-### -param Attributes
+The pin object associated with the jack.
 
-### -param Config
+### -param Attributes [in]
 
-### -param Jack
+A pointer to the [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure to use when creating the jack.
+
+### -param Config [in]
+
+A pointer to an [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md) structure to use when creating the jack.
+
+### -param Jack [out]
+
+A pointer to the newly created jack object.
 
 ## -returns
+
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md)
+- [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)

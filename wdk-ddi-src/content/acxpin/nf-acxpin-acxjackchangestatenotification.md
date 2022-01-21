@@ -2,9 +2,9 @@
 UID: NF:acxpin.AcxJackChangeStateNotification
 tech.root: audio
 title: AcxJackChangeStateNotification
-ms.date: 10/14/2021
+ms.date: 01/20/2022
 targetos: Windows
-description: 
+description: The AcxJackChangeStateNotification function indicates that a change in the state of the specified jack has occurred.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,14 @@ dev_langs:
 
 ## -description
 
+The **AcxJackChangeStateNotification** function is called to indicate that a change in the state of the specified jack has occurred.
+
 ## -parameters
 
 ### -param Jack
 
+The jack where the state change occurred.
+
 ## -remarks
 
 ## -see-also
-

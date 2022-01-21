@@ -2,9 +2,9 @@
 UID: NF:acxpin.AcxMicArrayGeometryCreate
 tech.root: audio
 title: AcxMicArrayGeometryCreate
-ms.date: 10/14/2021
+ms.date: 01/21/2022
 targetos: Windows
-description: 
+description: The AcxMicArrayGeometryCreate function creates and initializes a new ACXMICARRAYGEOMETRY structure.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,19 +42,37 @@ dev_langs:
 
 ## -description
 
+The **AcxMicArrayGeometryCreate** function creates and initializes a new [ACXMICARRAYGEOMETRY](ns-acxpin-acx_mic_array_geometry.md) structure.
+
 ## -parameters
 
-### -param AcxCircuit
+### -param AcxCircuit [in]
 
-### -param Attributes
+The ACXCIRCUIT object to which the mic array geometry will be added.
 
-### -param Config
+### -param Attributes [in]
 
-### -param MicArrayGeometry
+Pointer to a [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure to use when initializing the new **ACXMICARRAYGEOMETRY** structure.
+
+### -param Config [in]
+
+Pointer to an [ACX_MICARRAYGEOMETRY_CONFIG](ns-acxpin-acx_micarraygeometry_config.md) structure to use when initializing the new **ACXMICARRAYGEOMETRY** structure.
+
+### -param MicArrayGeometry [out]
+
+Pointer to the newly created **ACXMICARRAYGEOMETRY** structure.
 
 ## -returns
 
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
+
 ## -remarks
+
+Call the [ACX_MICARRAYGEOMETRY_CONFIG_INIT](nf-acxpin-acx_micarraygeometry_config_init.md) function to initialize the **ACX_MICARRAYGEOMETRY_CONFIG** structure before using it to call **AcxMicArrayGeometryCreate**.
 
 ## -see-also
 
+- [ACXMICARRAYGEOMETRY](ns-acxpin-acx_mic_array_geometry.md)
+- [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
+- [ACX_MICARRAYGEOMETRY_CONFIG](ns-acxpin-acx_micarraygeometry_config.md)
+- [ACX_MICARRAYGEOMETRY_CONFIG_INIT](nf-acxpin-acx_micarraygeometry_config_init.md)
