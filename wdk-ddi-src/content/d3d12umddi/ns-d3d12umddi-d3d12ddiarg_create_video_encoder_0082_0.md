@@ -4,7 +4,7 @@ tech.root: display
 title: D3D12DDIARG_CREATE_VIDEO_ENCODER_0082_0 structure (d3d12umddi.h)
 ms.date: 02/02/2022
 targetos: Windows
-description: Learn more about D3D12DDIARG_CREATE_VIDEO_ENCODER_0082_0
+description: Learn more about the D3D12DDIARG_CREATE_VIDEO_ENCODER_0082_0 structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

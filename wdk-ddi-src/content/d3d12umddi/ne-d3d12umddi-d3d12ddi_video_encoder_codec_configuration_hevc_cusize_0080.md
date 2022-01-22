@@ -4,7 +4,7 @@ tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_CUSIZE_0080
 ms.date: 02/02/2022
 targetos: Windows
-description: Learn more about D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_CUSIZE_0080
+description: Learn more about the D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_CUSIZE_0080 enumeration.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 

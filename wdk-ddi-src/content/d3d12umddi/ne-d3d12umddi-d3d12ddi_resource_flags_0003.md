@@ -1,9 +1,10 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_FLAGS_0003
+tech.root: display
 title: D3D12DDI_RESOURCE_FLAGS_0003 (d3d12umddi.h)
 description: Specifies resource flag values.
 old-location: display\d3d12ddi_resource_flags_0003.htm
-ms.date: 04/16/2018
+ms.date: 02/02/2022
 keywords: ["D3D12DDI_RESOURCE_FLAGS_0003 enumeration"]
 ms.keywords: D3D12DDI_RESOURCE_FLAGS_0003, D3D12DDI_RESOURCE_FLAGS_0003 enumeration [Display Devices], D3D12DDI_RESOURCE_FLAG_0003_CROSS_ADAPTER, D3D12DDI_RESOURCE_FLAG_0003_DEPTH_STENCIL, D3D12DDI_RESOURCE_FLAG_0003_NONE, D3D12DDI_RESOURCE_FLAG_0003_RENDER_TARGET, D3D12DDI_RESOURCE_FLAG_0003_SHADER_RESOURCE, D3D12DDI_RESOURCE_FLAG_0003_SIMULTANEOUS_ACCESS, D3D12DDI_RESOURCE_FLAG_0020_CONTENT_PROTECTION, D3D12DDI_RESOURCE_FLAG_0020_VIDEO_DECODE_REFERENCE_ONLY, D3D12DDI_RESOURCE_FLAG_0022_UNORDERED_ACCESS, d3d12umddi/D3D12DDI_RESOURCE_FLAGS_0003, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_CROSS_ADAPTER, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_DEPTH_STENCIL, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_NONE, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_RENDER_TARGET, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_SHADER_RESOURCE, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_SIMULTANEOUS_ACCESS, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0020_CONTENT_PROTECTION, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0020_VIDEO_DECODE_REFERENCE_ONLY, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0022_UNORDERED_ACCESS, display.d3d12ddi_resource_flags_0003
 req.header: d3d12umddi.h
@@ -24,7 +25,6 @@ req.lib:
 req.dll: 
 req.irql: 
 targetos: Windows
-tech.root: display
 req.typenames: D3D12DDI_RESOURCE_FLAGS_0003
 f1_keywords:
  - D3D12DDI_RESOURCE_FLAGS_0003
@@ -42,16 +42,15 @@ api_name:
 
 # D3D12DDI_RESOURCE_FLAGS_0003 enumeration
 
-
 ## -description
 
-Specifies resource flag values.
+The **D3D12DDI_RESOURCE_FLAGS_0003** enumeration specifies resource flag values.
 
 ## -enum-fields
 
 ### -field D3D12DDI_RESOURCE_FLAG_0003_NONE
 
-Constant for no flags.
+No flags are specified.
 
 ### -field D3D12DDI_RESOURCE_FLAG_0003_RENDER_TARGET
 
@@ -75,7 +74,7 @@ Shader resource.
 
 ### -field D3D12DDI_RESOURCE_FLAG_0020_VIDEO_DECODE_REFERENCE_ONLY
 
-This resource may only be used as a decode reference frame. It may only be written to or read by the video decode operation.
+This resource can only be used as a decode reference frame. It can only be written to or read by the video decode operation.
 
 ### -field D3D12DDI_RESOURCE_FLAG_0020_CONTENT_PROTECTION
 
@@ -97,3 +96,10 @@ Not currently used.
 
 Not currently used.
 
+### -field D3D12DDI_RESOURCE_FLAG_0073_SAMPLER_FEEDBACK
+
+Sampler feedback.
+
+### -field D3D12DDI_RESOURCE_FLAG_0080_VIDEO_ENCODE_REFERENCE_ONLY
+
+This resource can only be used as a video encode reference frame. It can only be written to or read by the video encode operation.

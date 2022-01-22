@@ -4,7 +4,7 @@ tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAGS_0082_0
 ms.date: 02/02/2022
 targetos: Windows
-description: 
+description: Learn more about the D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAGS_0082_0 enumeration.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -34,7 +34,7 @@ dev_langs:
 
 ## -description
 
-The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAGS_0082_0** enumerator lists the possible set of enabled features for an HEVC (H.265) codec.
+The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAGS_0082_0** enumeration lists the possible set of enabled features for an HEVC (H.265) codec.
 
 ## -enum-fields
 

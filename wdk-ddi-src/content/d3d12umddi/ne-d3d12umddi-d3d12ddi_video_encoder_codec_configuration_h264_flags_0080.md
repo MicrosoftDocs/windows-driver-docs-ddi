@@ -4,7 +4,7 @@ tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_FLAGS_0080
 ms.date: 02/02/2022
 targetos: Windows
-description: Learn more about D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_FLAGS_0080.
+description: Learn more about the D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_FLAGS_0080 enumeration.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -34,7 +34,7 @@ dev_langs:
 
 ## -description
 
-The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_FLAGS_0080** enumerator lists the possible set of enabled features for an H.264 codec.
+The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_FLAGS_0080** enumeration lists the possible set of enabled features for an H.264 codec.
 
 ## -enum-fields
 

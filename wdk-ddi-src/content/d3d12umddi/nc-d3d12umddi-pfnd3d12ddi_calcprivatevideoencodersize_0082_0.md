@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 (WDDM 3.0)
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -42,21 +42,21 @@ dev_langs:
 
 ## -description
 
-The **PFND3D12DDI_CALCPRIVATEVIDEOENCODERSIZE_0082_0** callback function calculates the number of bytes needed to store the driver's object that represents the video encoder.
+A client driver's **PFND3D12DDI_CALCPRIVATEVIDEOENCODERSIZE_0082_0** callback function calculates the required amount of memory needed for the driver's object that represents the video encoder.
 
 ## -parameters
 
-### -param hDrvDevice
+### -param hDrvDevice [in]
 
 Handle for the D3D12 device.
 
-### -param pCreationArgs
+### -param pCreationArgs [in]
 
-Pointer to a [**D3D12DDIARG_CREATE_VIDEO_ENCODER_0082_0**](ns-d3d12umddi-d3d12ddiarg_create_video_encoder_0082_0.md) structure that contains the video encoder creation parameters.
+[**D3D12DDIARG_CREATE_VIDEO_ENCODER_0082_0**](ns-d3d12umddi-d3d12ddiarg_create_video_encoder_0082_0.md) structure that contains the video encoder creation parameters.
 
 ## -returns
 
-Returns the size of the video encoder driver object, in bytes.
+Returns the number of bytes needed to store the driver's object that represents the video encoder.
 
 ## -remarks
 

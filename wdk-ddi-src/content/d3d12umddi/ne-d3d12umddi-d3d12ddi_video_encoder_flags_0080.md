@@ -4,7 +4,7 @@ tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_FLAGS_0080 (d3d12umddi.h)
 ms.date: 02/02/2022
 targetos: Windows
-description: Learn more about D3D12DDI_VIDEO_ENCODER_FLAGS_0080
+description: Learn more about the D3D12DDI_VIDEO_ENCODER_FLAGS_0080 enumeration.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -48,6 +48,4 @@ See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d1
 
 ## -see-also
 
-[**PFND3D12DDI_CALCPRIVATEVIDEOENCODERSIZE_0082_0**](nc-d3d12umddi-pfnd3d12ddi_calcprivatevideoencodersize_0082_0.md)
-
-[**PFND3D12DDI_CREATEVIDEOENCODER_0080_2**](nc-d3d12umddi-pfnd3d12ddi_createvideoencoder_0082_0.md)
+[**D3D12DDIARG_CREATE_VIDEO_ENCODER_0080_2**](ns-d3d12umddi-d3d12ddiarg_create_video_encoder_0082_0.md)
