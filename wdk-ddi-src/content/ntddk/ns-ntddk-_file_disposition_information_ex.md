@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The **FILE_DISPOSITION_INFORMATION_EX** structure is used as an argument to the [ZwSetInformationFile](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetinformationfile) routine and indicates how the operating system should delete a file.
+The **FILE_DISPOSITION_INFORMATION_EX** structure is used as an argument to the [ZwSetInformationFile](../wdm/nf-wdm-zwsetinformationfile.md) routine and indicates how the operating system should delete a file.
 
 ## -struct-fields
 
@@ -79,6 +79,6 @@ A return value of STATUS_CANNOT_DELETE indicates that either the file is read-on
 
 ## -see-also
 
-[ZwClose](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwclose)
+[ZwClose](../wdm/nf-wdm-zwclose.md)
 
-[ZwSetInformationFile](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetinformationfile)
+[ZwSetInformationFile](../wdm/nf-wdm-zwsetinformationfile.md)

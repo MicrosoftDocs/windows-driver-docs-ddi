@@ -6,8 +6,6 @@ ms.date: 11/12/2021
 description: This topic describes the headers that are used to create Microsoft Windows WDM and ACX audio drivers. These drivers control audio hardware that render and capture streams containing audio data.
 keywords: ["Audio"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 ---
 

@@ -5,8 +5,6 @@ description: Queries for the enabled state of the feature.
 tech.root: display
 ms.date: 10/13/2021
 keywords: ["DXGKCB_ISFEATUREENABLED callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 

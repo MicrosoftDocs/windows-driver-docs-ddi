@@ -6,8 +6,6 @@ ms.assetid: 1f409c41-e10c-39aa-8408-18629cc1c604
 ms.date: 05/09/2018
 keywords: ["Smartcard device drivers"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 ---
 

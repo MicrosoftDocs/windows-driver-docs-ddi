@@ -6,8 +6,6 @@ ms.assetid: d256bd60-5dd4-3212-aedd-dbf0a73383e6
 ms.date: 05/09/2018
 keywords: ["Ntddtape.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: storage
 f1_keywords:

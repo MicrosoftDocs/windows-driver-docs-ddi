@@ -5,8 +5,6 @@ description: Invokes the driver to schedule work to perform the necessary transf
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["PFND3DWDDM2_6DDI_PREPARE_SCANOUT_TRANSFORMATION callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d10umddi.h
 req.include-header: 
 req.target-type: 

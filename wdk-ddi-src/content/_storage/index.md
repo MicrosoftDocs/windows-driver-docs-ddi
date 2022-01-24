@@ -6,8 +6,6 @@ ms.assetid: 2c8add25-915b-3bb1-957b-a04df40081fc
 ms.date: 10/28/2021
 keywords: ["Storage"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 ms.custom: contperf-fy22q2
 ---

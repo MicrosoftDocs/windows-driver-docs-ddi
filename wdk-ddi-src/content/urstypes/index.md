@@ -6,8 +6,6 @@ ms.assetid: 15f371fd-cce0-3b44-b121-995ecf31a13e
 ms.date: 05/09/2018
 keywords: ["Urstypes.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
 f1_keywords:

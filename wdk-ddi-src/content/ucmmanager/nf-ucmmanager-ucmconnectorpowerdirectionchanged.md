@@ -51,17 +51,17 @@ Notifies the USB connector manager framework extension (UcmCx) with the new powe
 
 ### -param Connector [in]
 
-Handle to the connector object that the client driver received in the previous call to [UcmConnectorCreate](/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate).
+Handle to the connector object that the client driver received in the previous call to [UcmConnectorCreate](./nf-ucmmanager-ucmconnectorcreate.md).
 
 ### -param Success [in]
 
-Used to indicate failure of a power-role swap that was initiated by UcmCx using [EVT_UCM_CONNECTOR_SET_POWER_ROLE](/windows-hardware/drivers/ddi/ucmmanager/nc-ucmmanager-evt_ucm_connector_set_power_role).
+Used to indicate failure of a power-role swap that was initiated by UcmCx using [EVT_UCM_CONNECTOR_SET_POWER_ROLE](./nc-ucmmanager-evt_ucm_connector_set_power_role.md).
 
 If TRUE, the operation was successful. FALSE, otherwise.
 
 ### -param CurrentPowerRole [in]
 
-One of the [UCM_POWER_ROLE](/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_power_role)-typed flags that indicates the new data role.
+One of the [UCM_POWER_ROLE](../ucmtypes/ne-ucmtypes-_ucm_power_role.md)-typed flags that indicates the new data role.
 
 ## -remarks
 
@@ -69,10 +69,10 @@ One of the [UCM_POWER_ROLE](/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_
 
 If the connector partner is attached, UcmCx updates the power role of the partner depending on the *CurrentPowerRole* value.
 
-UcmCx can change the power role of a connector, and invokes [EVT_UCM_CONNECTOR_SET_POWER_ROLE](/windows-hardware/drivers/ddi/ucmmanager/nc-ucmmanager-evt_ucm_connector_set_power_role). In response to that call, the client should perform the PR_Swap operation, and indicate success/failure of the operation by calling  **UcmConnectorPowerDirectionChanged**.
+UcmCx can change the power role of a connector, and invokes [EVT_UCM_CONNECTOR_SET_POWER_ROLE](./nc-ucmmanager-evt_ucm_connector_set_power_role.md). In response to that call, the client should perform the PR_Swap operation, and indicate success/failure of the operation by calling  **UcmConnectorPowerDirectionChanged**.
 
 Alternatively, the client driver might choose to perform a role-swap autonomously, or the partner might perform a role-swap. In either case, when the role-swap has completed, the driver must report the new role to UcmCx using **UcmConnectorPowerDirectionChanged**.
 
 ## -see-also
 
-- [UcmConnectorCreate](/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate)
+- [UcmConnectorCreate](./nf-ucmmanager-ucmconnectorcreate.md)

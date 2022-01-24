@@ -6,8 +6,6 @@ tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3DKMT_GPU_PREFERENCE_QUERY_TYPE enumeration"]
 ms.keywords: _D3DKMT_GPU_PREFERENCE_QUERY_TYPE, D3DKMT_GPU_PREFERENCE_QUERY_TYPE,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 

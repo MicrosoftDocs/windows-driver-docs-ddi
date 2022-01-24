@@ -7,8 +7,6 @@ tech.root: display
 ms.author: windowsdriverdev
 ms.date: 09/28/2020
 keywords: ["PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE callback pointer"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: iddcx.h
 req.include-header: 
 req.target-type: 

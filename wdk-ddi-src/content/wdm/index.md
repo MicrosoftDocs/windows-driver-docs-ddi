@@ -6,8 +6,6 @@ ms.assetid: 8462c1fe-6be6-3c3a-88f8-fb7aba330515
 ms.date: 05/09/2018
 keywords: ["Wdm.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: kernel
 f1_keywords:

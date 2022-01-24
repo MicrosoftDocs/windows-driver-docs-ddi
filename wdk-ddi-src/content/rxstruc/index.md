@@ -6,8 +6,6 @@ ms.assetid: 65762d53-73cb-3de7-a883-98912cb2a1da
 ms.date: 05/09/2018
 keywords: ["Rxstruc.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: ifsk
 f1_keywords:

@@ -6,8 +6,6 @@ tech.root: display
 ms.date: 05/13/2021
 keywords: ["D3D12DDI_3DPIPELINELEVEL enumeration"]
 ms.keywords: D3D12DDI_3DPIPELINELEVEL, D3D12DDI_3DPIPELINELEVEL,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

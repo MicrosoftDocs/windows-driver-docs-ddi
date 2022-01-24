@@ -5,8 +5,6 @@ description: The GPU capabilities for a kernel mode display driver.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGK_GPUPCAPS structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_GPUPCAPS, DXGK_GPUPCAPS,
 req.header: d3dkmddi.h
 req.include-header: 

@@ -6,8 +6,6 @@ ms.assetid: e172752b-c698-3669-8615-778188cafdb6
 ms.date: 05/09/2018
 keywords: ["Wdtfinterfaces.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: dtf
 f1_keywords:

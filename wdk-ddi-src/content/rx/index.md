@@ -6,8 +6,6 @@ ms.assetid: 22d59328-4d0a-31bc-b0cd-e6fc10024ad3
 ms.date: 05/09/2018
 keywords: ["Rx.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: ifsk
 f1_keywords:

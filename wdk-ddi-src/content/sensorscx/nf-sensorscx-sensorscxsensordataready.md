@@ -54,14 +54,14 @@ A reference to a sensor object.
 
 ### -param pSensorData [in]
 
-A list of [sensor properties](/windows-hardware/drivers/sensors/sensor-properties2). For more information, see [SENSOR_COLLECTION_LIST](/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list).
+A list of [sensor properties](/windows-hardware/drivers/sensors/sensor-properties2). For more information, see [SENSOR_COLLECTION_LIST](../sensorsdef/ns-sensorsdef-sensor_collection_list.md).
 
 ## -remarks
 
-This function is implemented by the class extension and the driver must call it. When batch latency expires for sensor drivers that support data batching, **SensorsCxSensorDataReady** is called repeatedly until all the batched data samples are delivered to the client. For more information about the callback function related to batch latency, see [EvtSensorSetBatchLatency](/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_controller_config).
+This function is implemented by the class extension and the driver must call it. When batch latency expires for sensor drivers that support data batching, **SensorsCxSensorDataReady** is called repeatedly until all the batched data samples are delivered to the client. For more information about the callback function related to batch latency, see [EvtSensorSetBatchLatency](./ns-sensorscx-_sensor_controller_config.md).
 
 ## -see-also
 
-- [EvtSensorSetBatchLatency](/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_controller_config)
-- [SENSOR_COLLECTION_LIST](/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list)
+- [EvtSensorSetBatchLatency](./ns-sensorscx-_sensor_controller_config.md)
+- [SENSOR_COLLECTION_LIST](../sensorsdef/ns-sensorsdef-sensor_collection_list.md)
 - [Sensor properties](/windows-hardware/drivers/sensors/sensor-properties2)

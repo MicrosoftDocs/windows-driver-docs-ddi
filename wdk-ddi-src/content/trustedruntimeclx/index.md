@@ -6,8 +6,6 @@ ms.assetid: 132c53e5-3fd6-3a8a-a610-d6739ae2ebbe
 ms.date: 11/20/2020
 keywords: ["Trustedruntimeclx.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: treedrv
 ms.custom: RS5

@@ -5,8 +5,6 @@ description: "Learn more about: _DXGKARG_SETVIRTUALGPURESOURCES structure"
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKARG_SETVIRTUALGPURESOURCES structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_SETVIRTUALGPURESOURCES, DXGKARG_SETVIRTUALGPURESOURCES, *PDXGKARG_SETVIRTUALGPURESOURCES,
 req.header: dispmprt.h
 req.include-header: 

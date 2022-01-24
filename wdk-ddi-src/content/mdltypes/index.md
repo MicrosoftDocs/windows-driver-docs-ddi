@@ -6,8 +6,6 @@ ms.assetid: A62810CE-785C-4C14-8F45-F1919F057F4F
 ms.date: 09/20/2019
 keywords: ["Mdltypes.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: netvista
 ms.custom: Vb

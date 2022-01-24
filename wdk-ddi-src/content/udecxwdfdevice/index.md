@@ -6,8 +6,6 @@ ms.assetid: d0a5a6e1-0a40-3c57-8704-6ba20faac4d9
 ms.date: 05/09/2018
 keywords: ["Udecxwdfdevice.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
 f1_keywords:

@@ -6,8 +6,6 @@ ms.assetid: 1d7e00a7-9659-3240-83d0-8e90cdbbd29a
 ms.date: 07/29/2020
 keywords: ["Netdispumdddi.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: display
 f1_keywords:

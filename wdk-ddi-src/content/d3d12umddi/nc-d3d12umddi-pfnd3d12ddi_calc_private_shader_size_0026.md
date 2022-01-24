@@ -5,8 +5,6 @@ description: PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE_0026 determines the size of th
 tech.root: display
 ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE_0026 callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
