@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The BTH_SDP_CONNECT structure contains input and output information about a connection between the local Bluetooth system and a remote SDP server. This structure is passed as the input buffer and output buffer of [IOCTL_BTH_SDP_CONNECT](/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect).
+The BTH_SDP_CONNECT structure contains input and output information about a connection between the local Bluetooth system and a remote SDP server. This structure is passed as the input buffer and output buffer of [IOCTL_BTH_SDP_CONNECT](./ni-bthioctl-ioctl_bth_sdp_connect.md).
 
 ## -struct-fields
 
@@ -77,4 +77,4 @@ Timeout, in seconds, for the requests on this SDP channel. If the request times 
 
 ## -see-also
 
-- [IOCTL_BTH_SDP_CONNECT](/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect)
+- [IOCTL_BTH_SDP_CONNECT](./ni-bthioctl-ioctl_bth_sdp_connect.md)

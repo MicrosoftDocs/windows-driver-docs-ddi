@@ -6,8 +6,6 @@ tech.root: display
 ms.date: 04/04/2019
 keywords: ["DEBUG_LEVEL enumeration"]
 ms.keywords: _DEBUG_LEVEL, DEBUG_LEVEL,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: 

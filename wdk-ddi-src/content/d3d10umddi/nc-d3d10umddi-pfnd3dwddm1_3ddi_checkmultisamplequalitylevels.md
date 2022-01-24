@@ -56,7 +56,7 @@ A handle to the display device (graphics context).
 
 ### -param Format
 
-A value of type [**DXGI_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) that indicates the render-target format that the check is performed for.
+A value of type [**DXGI_FORMAT**](/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) that indicates the render-target format that the check is performed for.
 
 ### -param SampleCount
 
@@ -88,6 +88,6 @@ If the driver receives 0 or greater than 32 in **SampleCount**, the driver alway
 
 [**D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG**](ne-d3d10umddi-d3dwddm1_3ddi_check_multisample_quality_levels_flag.md)
 
-[**DXGI_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)
+[**DXGI_FORMAT**](/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)
 
 [**pfnSetErrorCb**](nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md)

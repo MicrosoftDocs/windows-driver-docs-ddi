@@ -6,8 +6,6 @@ ms.assetid: 025d7cc4-309d-33e6-8813-f58445c3acaf
 ms.date: 09/18/2020
 keywords: ["Debugger"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: debugger
 ---

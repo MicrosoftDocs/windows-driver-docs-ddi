@@ -45,6 +45,24 @@ dev_langs:
 
 Reserved for system use.
 
+## -struct-fields
+
+### -field Ssp
+
+### -field Rip
+
+### -field SegCs
+
+### -field AllFlags
+
+### -field UseWrss
+
+### -field PopShadowStackOne
+
+### -field Unused
+
+### -field Fill
+
 ## -remarks
 
 ## -see-also

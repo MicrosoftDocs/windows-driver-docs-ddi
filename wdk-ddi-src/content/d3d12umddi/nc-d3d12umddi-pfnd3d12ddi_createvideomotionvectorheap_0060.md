@@ -5,8 +5,6 @@ description: The PFND3D12DDI_CREATEVIDEOMOTIONVECTORHEAP_0060 callback function 
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_CREATEVIDEOMOTIONVECTORHEAP_0060 callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

@@ -6,8 +6,6 @@ ms.assetid: 8f2f932d-18da-3dec-85cf-ff744e0bedb4
 ms.date: 05/09/2018
 keywords: ["Fwpmk.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: netvista
 f1_keywords:

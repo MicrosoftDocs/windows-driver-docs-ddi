@@ -62,7 +62,7 @@ The PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure describes a PCI Express (PC
 A ULONG representation of the contents of the PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure.
 
 
-### -field ActiveStatePMSupport
+### -field DUMMYSTRUCTNAME.ActiveStatePMSupport
 
 The level of active state power management supported on the PCIe link. Possible values are:
 
@@ -83,17 +83,17 @@ L0s and L1 are supported.
 All other values are reserved.
 
 
-### -field ClockPowerManagement
+### -field DUMMYSTRUCTNAME.ClockPowerManagement
 
 A single bit that indicates that the component supports clock power management.
 
 
-### -field DataLinkLayerActiveReportingCapable
+### -field DUMMYSTRUCTNAME.DataLinkLayerActiveReportingCapable
 
 A single bit that indicates that the component supports the optional capability of reporting the data link active state of the data link control and management state machine. This bit only applies to downstream ports. Hot-plug capable downstream ports must support this capability.
 
 
-### -field L0sExitLatency
+### -field DUMMYSTRUCTNAME.L0sExitLatency
 
 The L0s exit latency for the PCIe link. This value indicates the length of time this port requires to complete a transition from L0s to L0.
 
@@ -148,7 +148,7 @@ Less than 64 nanoseconds
 More than 4 microseconds
 
 
-### -field L1ExitLatency
+### -field DUMMYSTRUCTNAME.L1ExitLatency
 
 The L1 exit latency for the PCIe link. This value indicates the length of time this port requires to complete a transition from L1 to L0.
 
@@ -205,7 +205,7 @@ More than 64 microseconds
 This value is ignored if the <b>ActiveStatePMSupport </b>member is not set to <b>L0sAndL1EntrySupport</b>.
 
 
-### -field MaximumLinkSpeed
+### -field DUMMYSTRUCTNAME.MaximumLinkSpeed
 
 The maximum link speed of the PCIe link. The only valid value is:
 
@@ -220,7 +220,7 @@ The maximum link speed of the PCIe link. The only valid value is:
 All other values are reserved.
 
 
-### -field MaximumLinkWidth
+### -field DUMMYSTRUCTNAME.MaximumLinkWidth
 
 The maximum link width (number of lanes) implemented by the component. Possible values are:
 
@@ -271,19 +271,23 @@ x32 (32 lanes)
 All other values are reserved.
 
 
-### -field PortNumber
+### -field DUMMYSTRUCTNAME.PortNumber
 
 The PCIe port number for the PCIe link.
 
 
-### -field Rsvd
+### -field DUMMYSTRUCTNAME.Rsvd
 
 Reserved.
 
 
-### -field SurpriseDownErrorReportingCapable
+### -field DUMMYSTRUCTNAME.SurpriseDownErrorReportingCapable
 
 A single bit that indicates that the component supports the optional capability of detecting and reporting a surprise-down error condition. This bit only applies to downstream ports.
+
+### -field DUMMYSTRUCTNAME.LinkBandwidthNotificationCapability
+
+### -field DUMMYSTRUCTNAME.AspmOptionalityCompliance
 
 ## -syntax
 

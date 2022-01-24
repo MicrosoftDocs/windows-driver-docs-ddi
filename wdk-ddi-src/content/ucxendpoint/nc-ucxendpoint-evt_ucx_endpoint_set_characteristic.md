@@ -4,7 +4,7 @@ title: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC (ucxendpoint.h)
 description: UCX invokes this callback function to set the priority on an endpoint.
 old-location: buses\evt_ucx_endpoint_set_characteristic.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/14/2022
 keywords: ["EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC, EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback, EvtUcxEndpointSetCharacteristic, EvtUcxEndpointSetCharacteristic callback function [Buses], buses.evt_ucx_endpoint_set_characteristic, ucxendpoint/EvtUcxEndpointSetCharacteristic
 req.header: ucxendpoint.h
@@ -42,31 +42,24 @@ api_name:
 
 # EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback function
 
-
 ## -description
 
 UCX invokes this callback function to set the priority on an endpoint.
 
 ## -parameters
 
-### -param UcxEndpoint
-
-### -param UcxEndpointCharacteristic [in]
-
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_ucx_endpoint_characteristic">UCX_ENDPOINT_CHARACTERISTIC</a> structure that contains endpoint characteristics.
-
-
-### -param Endpoint [in]
+### -param UcxEndpoint [in]
 
 A handle to a UCXENDPOINT object that represents the endpoint.
 
+### -param UcxEndpointCharacteristic [in]
+
+A pointer to a [UCX_ENDPOINT_CHARACTERISTIC](ns-ucxendpoint-_ucx_endpoint_characteristic.md) structure that contains endpoint characteristics.
+
 ## -remarks
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
- method.
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the [UcxEndpointCreate](nf-ucxendpoint-ucxendpointcreate.md) method.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
-
+- [USB client drivers for Media-Agnostic (MA-USB)](/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb)

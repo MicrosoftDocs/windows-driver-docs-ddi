@@ -5,8 +5,6 @@ description: GPU clock data.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_GPUCLOCKDATA_0054 structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_GPUCLOCKDATA_0054, D3D12DDI_GPUCLOCKDATA_0054,
 req.header: d3d12umddi.h
 req.include-header: 

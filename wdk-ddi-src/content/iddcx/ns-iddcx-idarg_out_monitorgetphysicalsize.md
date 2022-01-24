@@ -5,8 +5,6 @@ description: Arguments used to get the monitor's physical size.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["IDARG_OUT_MONITORGETPHYSICALSIZE structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: IDARG_OUT_MONITORGETPHYSICALSIZE, ,
 req.header: iddcx.h
 req.include-header: 

@@ -5,8 +5,6 @@ description: The PUNREGISTER_NOTIFICATION_CALLBACK callback function deletes the
 tech.root: audio
 ms.date: 04/08/2019
 keywords: ["PUNREGISTER_NOTIFICATION_CALLBACK callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: hdaudio.h
 req.include-header: 
 req.target-type: 

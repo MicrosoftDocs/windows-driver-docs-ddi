@@ -5,8 +5,6 @@ description: Arguments used to pass a kernel mode virtual memory bus handle to t
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKARG_SETVIRTUALGPUVMBUS structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_SETVIRTUALGPUVMBUS, DXGKARG_SETVIRTUALGPUVMBUS, *PDXGKARG_SETVIRTUALGPUVMBUS,
 req.header: dispmprt.h
 req.include-header: 

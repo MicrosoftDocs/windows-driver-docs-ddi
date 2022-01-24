@@ -63,12 +63,12 @@ The PCI_EXPRESS_SEC_AER_CAPABILITIES structure describes a PCI Express (PCIe) se
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_AER_CAPABILITIES structure.
 
 
-### -field Reserved
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
 
 
-### -field SecondaryUncorrectableFirstErrorPtr
+### -field DUMMYSTRUCTNAME.SecondaryUncorrectableFirstErrorPtr
 
 The bit position of the first error that was reported in the PCIe secondary uncorrectable error status register.
 

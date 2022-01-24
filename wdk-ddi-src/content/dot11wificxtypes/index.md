@@ -6,8 +6,6 @@ title: dot11wificxtypes
 ms.date: 04/30/2021
 keywords: ["Dot11wificxtypes.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 f1_keywords:
  - dot11wificxtypes

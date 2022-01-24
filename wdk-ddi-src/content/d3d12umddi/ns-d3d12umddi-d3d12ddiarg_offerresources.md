@@ -5,8 +5,6 @@ description: Describes video memory resources that the user-mode display driver 
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3D12DDIARG_OFFERRESOURCES structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDIARG_OFFERRESOURCES, D3D12DDIARG_OFFERRESOURCES,
 req.header: d3d12umddi.h
 req.include-header: 

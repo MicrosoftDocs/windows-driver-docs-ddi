@@ -4,7 +4,7 @@ title: EVT_UFX_DEVICE_PORT_DETECT (ufxclient.h)
 description: The client driver's implementation to initiate port detection.
 old-location: buses\evt_ufx_device_port_detect.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/18/2022
 keywords: ["EVT_UFX_DEVICE_PORT_DETECT callback function"]
 ms.keywords: EVT_UFX_DEVICE_PORT_DETECT, EVT_UFX_DEVICE_PORT_DETECT callback, EvtUfxDevicePortDetect, EvtUfxDevicePortDetect callback function [Buses], PFN_UFX_DEVICE_PORT_DETECT, PFN_UFX_DEVICE_PORT_DETECT callback function pointer [Buses], buses.evt_ufx_device_port_detect, ufxclient/EvtUfxDevicePortDetect
 req.header: ufxclient.h
@@ -42,31 +42,25 @@ api_name:
 
 # EVT_UFX_DEVICE_PORT_DETECT callback function
 
-
 ## -description
 
 The client driver's implementation to initiate port detection
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
-### -param UfxDevice [in]
-
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
+The handle to a USB device object that the client driver received in a previous call to the [UfxDeviceCreate](nf-ufxclient-ufxdevicecreate.md) method.
 
 ## -remarks
 
-The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_PORT_DETECT</i> implementation with the USB function class extension (UFX) by calling the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a> method.
+The client driver for the function host controller registers its *EVT_UFX_DEVICE_PORT_DETECT* implementation with the USB function class extension (UFX) by calling the [UfxDeviceCreate](nf-ufxclient-ufxdevicecreate.md) method.
 
-The client driver must indicate completion of port detection by calling the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceportdetectcomplete">UfxDevicePortDetectComplete</a> or <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceportdetectcompleteex">UfxDevicePortDetectCompleteEx</a> methods.
+The client driver must indicate completion of port detection by calling the [UfxDevicePortDetectComplete](nf-ufxclient-ufxdeviceportdetectcomplete.md) or [UfxDevicePortDetectCompleteEx](nf-ufxclient-ufxdeviceportdetectcompleteex.md) methods.
 
+### Examples
 
-#### Examples
-
-
-```
-
+```cpp
 EVT_UFX_DEVICE_PORT_DETECT UfxDevice_EvtDevicePortDetect;
 
 VOID
@@ -106,9 +100,7 @@ Arguments:
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a>
-
+- [UfxDeviceCreate](nf-ufxclient-ufxdevicecreate.md)
+- [UfxDeviceEventComplete](nf-ufxclient-ufxdeviceeventcomplete.md)
+- [UfxDevicePortDetectComplete](nf-ufxclient-ufxdeviceportdetectcomplete.md)
+- [UfxDevicePortDetectCompleteEx](nf-ufxclient-ufxdeviceportdetectcompleteex.md)

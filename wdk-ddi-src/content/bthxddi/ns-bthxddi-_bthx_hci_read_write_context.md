@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The **BTHX_HCI_READ_WRITE_CONTEXT** structure is used by [IOCTL_BTHX_HCI_READ](/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_read_hci) and [IOCTL_BTHX_HCI_WRITE](/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_write_hci) for input and output.
+The **BTHX_HCI_READ_WRITE_CONTEXT** structure is used by [IOCTL_BTHX_HCI_READ](./ni-bthxddi-ioctl_bthx_read_hci.md) and [IOCTL_BTHX_HCI_WRITE](./ni-bthxddi-ioctl_bthx_write_hci.md) for input and output.
 
 ## -struct-fields
 
@@ -68,13 +68,13 @@ Actual data to be read/written.
 
 ## -remarks
 
-The **BTHX_HCI_READ_WRITE_CONTEXT** structure is an input parameter to [IOCTL_BTHX_HCI_WRITE](/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_write_hci) and specifies the type of packet associated with the write. It also specifies the data to be written in the **Data** member.
+The **BTHX_HCI_READ_WRITE_CONTEXT** structure is an input parameter to [IOCTL_BTHX_HCI_WRITE](./ni-bthxddi-ioctl_bthx_write_hci.md) and specifies the type of packet associated with the write. It also specifies the data to be written in the **Data** member.
 
-This structure is also used as an output parameter for [IOCTL_BTHX_HCI_READ](/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_read_hci) and specifies the type of packet and the data associated with the read.
+This structure is also used as an output parameter for [IOCTL_BTHX_HCI_READ](./ni-bthxddi-ioctl_bthx_read_hci.md) and specifies the type of packet and the data associated with the read.
 
 This structure is packed to 1-byte boundary.
 
 ## -see-also
 
-- [IOCTL_BTHX_HCI_WRITE](/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_write_hci)
-- [IOCTL_BTHX_HCI_READ](/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_read_hci)
+- [IOCTL_BTHX_HCI_WRITE](./ni-bthxddi-ioctl_bthx_write_hci.md)
+- [IOCTL_BTHX_HCI_READ](./ni-bthxddi-ioctl_bthx_read_hci.md)

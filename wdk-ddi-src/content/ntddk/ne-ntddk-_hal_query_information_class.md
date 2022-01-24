@@ -142,9 +142,15 @@ Defines values used by [**pHalQuerySystemInformation**](nc-ntddk-phalquerysystem
 
 ### -field HalDmaRemappingInformation 
 
-### -field HalQueryRuntimeServicesBlockInformation 
-
 ### -field HalHeterogeneousMemoryAttributesInterface 
+
+### -field HalQueryUnused0001
+
+### -field HalQueryPerDeviceMsiLimitInformation
+
+### -field HalQueryProfileCorruptionStatus
+
+### -field HalQueryProfileCounterOwnership
 
 ## -remarks
 

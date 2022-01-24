@@ -6,8 +6,6 @@ ms.assetid: 955ea1c2-d8bc-36d6-8195-eadc9d53b016
 ms.date: 07/11/2018
 keywords: ["Streaming media devices"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 ---
 

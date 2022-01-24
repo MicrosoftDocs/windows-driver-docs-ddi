@@ -6,8 +6,6 @@ ms.assetid: B499B985-A672-4D19-A370-A0F07C65E2FC
 ms.date: 09/28/2020
 keywords: ["Checksum.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: netvista
 f1_keywords:

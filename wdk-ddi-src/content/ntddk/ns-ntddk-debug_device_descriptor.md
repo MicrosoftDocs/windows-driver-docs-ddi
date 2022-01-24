@@ -99,6 +99,14 @@ product:
 
 ### -field TransportData
 
+### -field DbgUncachedMemory
+
+### -field DbgSynthetic
+
+### -field Dbg2TableIndex
+
+### -field EfiIoMmuData
+
 ## -remarks
 
 ## -see-also

@@ -57,7 +57,31 @@ Reserved for system use.
 
 ### -field Reserved
 
+### -field SourceGuid
+
+### -field LogTag
+
+### -field Reserved2
+
+### -field PacketLength
+
+### -field PacketCount
+
+### -field PacketBuffer
+
 ### -field Config
+
+### -field CreatorId
+
+### -field PartitionId
+
+### -field MaxSectionDataLength
+
+### -field MaxSectionsPerRecord
+
+### -field PacketStateBuffer
+
+### -field OpenHandles
 
 ## -remarks
 

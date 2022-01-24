@@ -6,8 +6,6 @@ ms.assetid: e673a615-101a-3857-b1ee-6c84b25974ac
 ms.date: 11/18/2020
 keywords: ["Oprghdlr.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: acpi
 f1_keywords:

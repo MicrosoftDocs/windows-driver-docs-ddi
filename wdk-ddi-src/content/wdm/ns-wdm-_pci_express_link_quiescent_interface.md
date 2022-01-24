@@ -56,3 +56,16 @@ The <b>PCI_EXPRESS_LINK_QUIESCENT_INTERFACE</b>  structure is reserved for syste
 
 ## -struct-fields
 
+### -field Size
+
+### -field Version
+
+### -field Context
+
+### -field InterfaceReference
+
+### -field InterfaceDereference
+
+### -field PciExpressEnterLinkQuiescentMode
+
+### -field PciExpressExitLinkQuiescentMode

@@ -5,8 +5,6 @@ description: Arguments used to query the driver feature is enabled.
 tech.root: display
 ms.date: 10/13/2021
 keywords: ["DXGKARGCB_ISFEATUREENABLED structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARGCB_ISFEATUREENABLED, DXGKARGCB_ISFEATUREENABLED, *INOUT_PDXGKARGCB_ISFEATUREENABLED
 req.header: d3dkmddi.h
 req.include-header: 

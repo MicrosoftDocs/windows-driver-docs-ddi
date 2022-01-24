@@ -6,8 +6,6 @@ ms.assetid: 0f0aa59c-dd6b-34a9-8dd0-d14f7bbbaf7c
 ms.date: 05/09/2018
 keywords: ["Rilapitypes.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: netvista
 f1_keywords:

@@ -5,8 +5,6 @@ description: The OS calls EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE to query the phys
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: iddcx.h
 req.include-header: 
 req.target-type: 

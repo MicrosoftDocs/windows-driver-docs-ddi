@@ -62,37 +62,37 @@ The PCI_EXPRESS_DEVICE_STATUS_REGISTER structure describes a PCI Express (PCIe) 
 A USHORT representation of the contents of the PCI_EXPRESS_DEVICE_STATUS_REGISTER structure.
 
 
-### -field AuxPowerDetected
+### -field DUMMYSTRUCTNAME.AuxPowerDetected
 
 A single bit that indicates that AUX power has been detected.
 
 
-### -field CorrectableErrorDetected
+### -field DUMMYSTRUCTNAME.CorrectableErrorDetected
 
 A single bit that indicates that a correctable error has been detected.
 
 
-### -field FatalErrorDetected
+### -field DUMMYSTRUCTNAME.FatalErrorDetected
 
 A single bit that indicates that a non-fatal uncorrectable error has been detected.
 
 
-### -field NonFatalErrorDetected
+### -field DUMMYSTRUCTNAME.NonFatalErrorDetected
 
 A single bit that indicates that a non-fatal uncorrectable error has been detected.
 
 
-### -field Rsvd
+### -field DUMMYSTRUCTNAME.Rsvd
 
 Reserved.
 
 
-### -field TransactionsPending
+### -field DUMMYSTRUCTNAME.TransactionsPending
 
 A single bit that indicates that the device has issued non-posted requests that have not been completed. The device clears this bit when all outstanding non-posted requests have completed or have been terminated by the completion timeout mechanism.
 
 
-### -field UnsupportedRequestDetected
+### -field DUMMYSTRUCTNAME.UnsupportedRequestDetected
 
 A single bit that indicates that an unsupported request has been detected.
 

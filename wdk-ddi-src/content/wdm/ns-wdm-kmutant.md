@@ -55,11 +55,18 @@ product:
 
 ### -field OwnerThread
 
-### -field Abandoned
-
 ### -field ApcDisable
+
+### -field DUMMYUNIONNAME
+
+### -field DUMMYUNIONNAME.MutantFlags
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Abandoned
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Spare1
 
 ## -remarks
 
 ## -see-also
-

@@ -5,8 +5,6 @@ description: PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE determines the size of the pr
 tech.root: display
 ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

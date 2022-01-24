@@ -63,79 +63,89 @@ The PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure describes a PCI Express (PCIe
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure.
 
 
-### -field CompleterAbort
+### -field DUMMYSTRUCTNAME.CompleterAbort
 
 A single bit that indicates that the reporting of completer aborts is masked.
 
 
-### -field CompletionTimeout
+### -field DUMMYSTRUCTNAME.CompletionTimeout
 
 A single bit that indicates that the reporting of completion timeouts is masked.
 
 
-### -field DataLinkProtocolError
+### -field DUMMYSTRUCTNAME.DataLinkProtocolError
 
 A single bit that indicates that the reporting of data link protocol errors is masked.
 
 
-### -field ECRCError
+### -field DUMMYSTRUCTNAME.ECRCError
 
 A single bit that indicates that the reporting of end-to-end cyclic redundancy check (ECRC) errors is masked.
 
 
-### -field FlowControlProtocolError
+### -field DUMMYSTRUCTNAME.FlowControlProtocolError
 
 A single bit that indicates that the reporting of flow control protocol errors is masked.
 
 
-### -field MalformedTLP
+### -field DUMMYSTRUCTNAME.MalformedTLP
 
 A single bit that indicates that the reporting of malformed transaction layer packets (TLPs) is masked.
 
 
-### -field PoisonedTLP
+### -field DUMMYSTRUCTNAME.PoisonedTLP
 
 A single bit that indicates that the reporting of poisoned transaction layer packets (TLPs) is masked.
 
 
-### -field ReceiverOverflow
+### -field DUMMYSTRUCTNAME.ReceiverOverflow
 
 A single bit that indicates that the reporting of receiver overflows is masked.
 
 
-### -field Reserved1
+### -field DUMMYSTRUCTNAME.Reserved1
 
 Reserved.
 
 
-### -field Reserved2
+### -field DUMMYSTRUCTNAME.Reserved2
 
 Reserved.
 
 
-### -field Reserved3
+### -field DUMMYSTRUCTNAME.Reserved3
 
 Reserved.
 
 
-### -field SurpriseDownError
+### -field DUMMYSTRUCTNAME.SurpriseDownError
 
 A single bit that indicates that the reporting of surprise down errors is masked.
 
 
-### -field Undefined
+### -field DUMMYSTRUCTNAME.Undefined
 
 A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that the reporting of link training errors is masked.
 
 
-### -field UnexpectedCompletion
+### -field DUMMYSTRUCTNAME.UnexpectedCompletion
 
 A single bit that indicates that the reporting of unexpected completions is masked.
 
 
-### -field UnsupportedRequestError
+### -field DUMMYSTRUCTNAME.UnsupportedRequestError
 
 A single bit that indicates that the reporting of unsupported request errors is masked.
+
+### -field DUMMYSTRUCTNAME.AcsViolation
+
+### -field DUMMYSTRUCTNAME.UncorrectableInternalError
+
+### -field DUMMYSTRUCTNAME.MCBlockedTlp
+
+### -field DUMMYSTRUCTNAME.AtomicOpEgressBlocked
+
+### -field DUMMYSTRUCTNAME.TlpPrefixBlocked
 
 ## -syntax
 

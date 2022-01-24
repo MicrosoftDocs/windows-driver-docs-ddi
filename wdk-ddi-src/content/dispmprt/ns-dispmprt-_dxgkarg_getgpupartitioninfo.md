@@ -5,8 +5,6 @@ description: Arguments used to get physical GPU partition info.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKARG_GETGPUPARTITIONINFO structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_GETGPUPARTITIONINFO, DXGKARG_GETGPUPARTITIONINFO, *PDXGKARG_GETGPUPARTITIONINFO,
 req.header: dispmprt.h
 req.include-header: 

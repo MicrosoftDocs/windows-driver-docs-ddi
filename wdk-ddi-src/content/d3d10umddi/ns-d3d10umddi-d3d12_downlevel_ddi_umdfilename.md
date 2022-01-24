@@ -5,8 +5,6 @@ description: "Learn more about: D3D12_DOWNLEVEL_DDI_UMDFILENAME structure"
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3D12_DOWNLEVEL_DDI_UMDFILENAME structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12_DOWNLEVEL_DDI_UMDFILENAME, D3D12_DOWNLEVEL_DDI_UMDFILENAME,
 req.header: d3d10umddi.h
 req.include-header: 

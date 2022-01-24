@@ -6,8 +6,6 @@ tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGI_COLOR_SPACE_TYPE enumeration"]
 ms.keywords: DXGI_COLOR_SPACE_TYPE, ,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d10umddi.h
 req.include-header: 
 req.target-type: 

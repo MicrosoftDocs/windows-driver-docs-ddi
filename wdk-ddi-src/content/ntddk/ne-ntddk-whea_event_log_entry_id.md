@@ -48,11 +48,9 @@ Reserved for system use.
 
 ## -enum-fields
 
-### -field WheaEventLogEntryIdCmcPollingTimeout 
+### -field WheaEventLogEntryIdCmcPollingTimeout
 
-### -field WheaEventLogEntryIdWheaInit 
-
-### -field WheaEventLogEntryIdMax 
+### -field WheaEventLogEntryIdWheaInit
 
 ### -field WheaEventLogEntryIdCmcSwitchToPolling
 
@@ -96,9 +94,21 @@ Reserved for system use.
 
 ### -field WheaEventLogEntryIdErrorRecordLimit
 
-### -field WheaEventLogEntryIdSELEventFailed
+### -field WheaEventLogEntryIdAerNotGrantedToOs
 
 ### -field WheaEventLogEntryIdErrSrcArrayInvalid
+
+### -field WheaEventLogEntryIdAcpiTimeOut
+
+### -field WheaEventLogCmciRestart
+
+### -field WheaEventLogCmciFinalRestart
+
+### -field WheaEventLogEntryEtwOverFlow
+
+### -field WheaEventLogAzccRootBusSearchErr
+
+### -field WheaEventLogAzccRootBusList
 
 ### -field WheaEventLogEntryIdErrSrcInvalid
 
@@ -107,6 +117,76 @@ Reserved for system use.
 ### -field WheaEventLogEntryIdPshedCallbackCollision
 
 ### -field WheaEventLogEntryIdSELBugCheckProgress
+
+### -field WheaEventLogEntryIdPshedPluginLoad
+
+### -field WheaEventLogEntryIdPshedPluginUnload
+
+### -field WheaEventLogEntryIdPshedPluginSupported
+
+### -field WheaEventLogEntryIdDeviceDriver
+
+### -field WheaEventLogEntryIdCmciImplPresent
+
+### -field WheaEventLogEntryIdCmciInitError
+
+### -field WheaEventLogEntryIdSELBugCheckRecovery
+
+### -field WheaEventLogEntryIdDrvErrSrcInvalid
+
+### -field WheaEventLogEntryIdDrvHandleBusy
+
+### -field WheaEventLogEntryIdWheaHeartbeat
+
+### -field WheaEventLogAzccRootBusPoisonSet
+
+### -field WheaEventLogEntryIdSELBugCheckInfo
+
+### -field WheaEventLogEntryIdErrDimmInfoMismatch
+
+### -field WheaEventLogEntryIdeDpcEnabled
+
+### -field WheaEventLogEntryPageOfflineDone
+
+### -field WheaEventLogEntryPageOfflinePendMax
+
+### -field WheaEventLogEntryIdBadPageLimitReached
+
+### -field WheaEventLogEntrySrarDetail
+
+### -field WheaEventLogEntryEarlyError
+
+### -field WheaEventLogEntryIdPcieOverrideInfo
+
+### -field WheaEventLogEntryIdReadPcieOverridesErr
+
+### -field WheaEventLogEntryIdPcieConfigInfo
+
+### -field WheaEventLogEntryIdPcieSummaryFailed
+
+### -field WheaEventLogEntryIdThrottleRegCorrupt
+
+### -field WheaEventLogEntryIdThrottleAddErrSrcFailed
+
+### -field WheaEventLogEntryIdThrottleRegDataIgnored
+
+### -field WheaEventLogEntryIdEnableKeyNotifFailed
+
+### -field WheaEventLogEntryIdKeyNotificationFailed
+
+### -field WheaEventLogEntryIdPcieRemoveDevice
+
+### -field WheaEventLogEntryIdPcieAddDevice
+
+### -field WheaEventLogEntryIdPcieSpuriousErrSource
+
+### -field WheaEventLogEntryIdMemoryAddDevice
+
+### -field WheaEventLogEntryIdMemoryRemoveDevice
+
+### -field WheaEventLogEntryIdMemorySummaryFailed
+
+### -field WheaEventLogEntryIdPshedPiTraceLog
 
 ## -remarks
 

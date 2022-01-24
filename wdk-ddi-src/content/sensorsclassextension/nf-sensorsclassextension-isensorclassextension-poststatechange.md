@@ -55,7 +55,7 @@ The **ISensorClassExtension::PostStateChange** method notifies the sensor class 
 
 ### -param state [in]
 
-[SensorState](/windows-hardware/drivers/ddi/sensorsclassextension/ne-sensorsclassextension-__midl___midl_itf_windowssensorclassextension_0000_0000_0001) value that indicates the new state.
+[SensorState](./ne-sensorsclassextension-__midl___midl_itf_windowssensorclassextension_0000_0000_0001.md) value that indicates the new state.
 
 ## -returns
 
@@ -101,6 +101,6 @@ HRESULT PostStateEvent()
 
 ## -see-also
 
-- [ISensorClassExtension](/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensorclassextension)
-- [ISensorDriver::OnClientSubscribeToEvents](/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-onclientsubscribetoevents)
-- [ISensorDriver::OnClientUnsubscribeFromEvents](/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-onclientunsubscribefromevents)
+- [ISensorClassExtension](./nn-sensorsclassextension-isensorclassextension.md)
+- [ISensorDriver::OnClientSubscribeToEvents](./nf-sensorsclassextension-isensordriver-onclientsubscribetoevents.md)
+- [ISensorDriver::OnClientUnsubscribeFromEvents](./nf-sensorsclassextension-isensordriver-onclientunsubscribefromevents.md)

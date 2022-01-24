@@ -56,3 +56,16 @@ The <b>PCI_DEVICE_PRESENT_INTERFACE</b> structure is reserved for system use.
 
 ## -struct-fields
 
+### -field Size
+
+### -field Version
+
+### -field Context
+
+### -field InterfaceReference
+
+### -field InterfaceDereference
+
+### -field IsDevicePresent
+
+### -field IsDevicePresentEx

@@ -6,8 +6,6 @@ ms.assetid: a99541fb-a2d1-3e81-9efd-97d9eecc1ed4
 ms.date: 09/18/2020
 keywords: ["Serial port"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 ---
 

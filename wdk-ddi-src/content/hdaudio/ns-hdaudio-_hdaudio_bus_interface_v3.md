@@ -5,8 +5,6 @@ description: "Learn more about: _HDAUDIO_BUS_INTERFACE_V3 structure"
 tech.root: audio
 ms.date: 12/19/2018
 keywords: ["HDAUDIO_BUS_INTERFACE_V3 structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _HDAUDIO_BUS_INTERFACE_V3, HDAUDIO_BUS_INTERFACE_V3, *PHDAUDIO_BUS_INTERFACE_V3,
 req.header: hdaudio.h
 req.include-header: hdaudio.h

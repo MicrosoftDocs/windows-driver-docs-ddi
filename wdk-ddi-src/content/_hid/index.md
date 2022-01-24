@@ -3,11 +3,9 @@ description: "Learn more about: Human Interface Devices (HID)"
 UID: TP:hid
 title: Human Interface Devices (HID)
 ms.assetid: 87c002be-da96-313a-bae1-c6a49c9ce065
-ms.date: 06/14/2021
+ms.date: 01/11/2022
 keywords: ["Human Interface Devices (HID)"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 ---
 
@@ -19,25 +17,19 @@ Overview of the Human Interface Devices (HID) technology.
 
 To develop Human Interface Devices (HID), you need these headers:
 
-* [hidclass.h](../hidclass/index.md)
-
-* [hidpddi.h](../hidpddi/index.md)
-
-* [hidpi.h](../hidpi/index.md)
-
-* [hidport.h](../hidport/index.md)
-
-* [hidsdi.h](../hidsdi/index.md)
-
-* [hidspicx.h](../hidspicx/index.md)
-
-* [kbdmou.h](../kbdmou/index.md)
-
-* [ntdd8042.h](../ntdd8042/index.md)
-
-* [vhf.h](../vhf/index.md)
+- [hidclass.h](../hidclass/index.md)
+- [hidpddi.h](../hidpddi/index.md)
+- [hidpi.h](../hidpi/index.md)
+- [hidport.h](../hidport/index.md)
+- [hidsdi.h](../hidsdi/index.md)
+- [hidspicx.h](../hidspicx/index.md)
+- [kbdmou.h](../kbdmou/index.md)
+- [ntdd8042.h](../ntdd8042/index.md)
+- [vhf.h](../vhf/index.md)
 
 For the programming guide, see [Human Interface Devices (HID)](/windows-hardware/drivers/hid).
+
+For Win32 HID programming APIs, see [Win32 Human Interface Devices Reference](/windows/win32/api/_hid/).
 
 This section contains the programming interfaces related to Human Interface Devices (or HID). Typically, these are devices that humans use to directly control the operation of computer systems.
 
@@ -45,17 +37,17 @@ This section contains the programming interfaces related to Human Interface Devi
 
 There are system-supplied routines that user-mode applications, kernel-mode drivers, and HID minidrivers use to operate devices in the HIDClass device setup class.
 
-As a general rule, user-mode applications can use the HidD_Xxx and HidP_Xxx routines. However, kernel-mode drivers can only call HidP_Xxx routines. 
+As a general rule, user-mode applications can use the HidD_Xxx and HidP_Xxx routines. However, kernel-mode drivers can only call HidP_Xxx routines.
 
 HID minidrivers use only the **HidRegisterMinidriver** routine.
 
 For Windows 8.1 Microsoft introduced the new Windows.Devices.HumanInterfaceDevice API which lets you write Windows apps that access HID devices.
 
-The header defines IOCTLs that a HID minidriver must support. Only the HID class driver sends these IOCTLs to a HID minidriver. User-mode applications and other kernel-mode drivers can only communicate with HID collections by using the HIDClass support routines and HID class driver ioctls.
+The header defines IOCTLs that a HID minidriver must support. Only the HID class driver sends these IOCTLs to a HID minidriver. User-mode applications and other kernel-mode drivers can only communicate with HID collections by using the HIDClass support routines and HID class driver IOCTLs.
 
 ## HID Minidriver IOCTLs
 
-A HID minidriver must handle a set of IOCTLs. Only the HID class driver sends these IOCTLs to a HID minidriver. User-mode applications and other kernel-mode drivers can only communicate with HID collections by using the HIDClass support routines and HID class driver ioctls.
+A HID minidriver must handle a set of IOCTLs. Only the HID class driver sends these IOCTLs to a HID minidriver. User-mode applications and other kernel-mode drivers can only communicate with HID collections by using the HIDClass support routines and HID class driver IOCTLs.
 
 |Topic | Description |
 |---|---|
@@ -75,13 +67,13 @@ A HID minidriver must handle a set of IOCTLs. Only the HID class driver sends th
 
 ## HID Class Driver IOCTLs
 
-The HID class driver handles IOCTLs to support for top-level collections. 
+The HID class driver handles IOCTLs to support for top-level collections.
 
 Although user applications can communicate with the HID class driver by using HidD_Xxx  HIDClass support routines, kernel-mode drivers must send the corresponding device control requests described in this section.
 
 The input and output parameters are request-specific.
 
-Upon completion of a request, the I/O status block members are set as follows: 
+Upon completion of a request, the I/O status block members are set as follows:
 
 The **Status** member is set by the HID class driver for all requests that it handles.
 
@@ -100,13 +92,13 @@ As described for each IOCTL, the Information member is set either by the class d
 |IOCTL_HID_GET_COLLECTION_INFORMATION| The IOCTL_HID_GET_COLLECTION_INFORMATION request obtains a top-level collection's HID_COLLECTION_INFORMATION structure.|
 |IOCTL_HID_GET_DRIVER_CONFIG| The IOCTL_HID_GET_DRIVER_CONFIG request retrieves the driver configuration.|
 |IOCTL_HID_GET_FEATURE| The IOCTL_HID_GET_FEATURE request returns a feature report associated with a top-level collection.|
-|IOCTL_HID_GET_HARDWARE_ID | The IOCTL_HID_GET_HARDWARE_ID request obtains the Plug and Play hardware ID of a top-level collection.| 
+|IOCTL_HID_GET_HARDWARE_ID | The IOCTL_HID_GET_HARDWARE_ID request obtains the Plug and Play hardware ID of a top-level collection.|
 |IOCTL_HID_GET_INDEXED_STRING | The IOCTL_HID_GET_INDEXED_STRING request obtains a specified embedded string from a top-level collection. |
 |IOCTL_HID_GET_INPUT_REPORT | The IOCTL_HID_GET_INPUT_REPORT request obtains an input report from a top-level collection.|
 |IOCTL_HID_GET_MANUFACTURER_STRING | The IOCTL_HID_GET_MANUFACTURER_STRING request obtains a top-level collection's embedded string that identifies the manufacturer of the device.|
 |IOCTL_HID_GET_MS_GENRE_DESCRIPTOR | The IOCTL_HID_GET_MS_GENRE_DESCRIPTOR request is used for retrieving the genre descriptor for the device.|
 |IOCTL_HID_GET_POLL_FREQUENCY_MSEC | The IOCTL_HID_GET_POLL_FREQUENCY_MSEC request obtains the current polling frequency, in milliseconds, of a top-level collection.|
-|IOCTL_HID_GET_PRODUCT_STRING| The IOCTL_HID_GET_PRODUCT_STRING request obtains a top-level collection's embedded string that identifies the manufacturer's product. The retrieved string is a NULL-terminated wide character string in a human-readable format. For general information about HIDClass devices, see HID Collections. 
+|IOCTL_HID_GET_PRODUCT_STRING| The IOCTL_HID_GET_PRODUCT_STRING request obtains a top-level collection's embedded string that identifies the manufacturer's product. The retrieved string is a NULL-terminated wide character string in a human-readable format. For general information about HIDClass devices, see HID Collections.
 |IOCTL_HID_GET_SERIALNUMBER_STRING| The IOCTL_HID_GET_SERIALNUMBER_STRING request obtains a top-level collection's embedded string that identifies the device's serial number.|
 |IOCTL_HID_SET_DRIVER_CONFIG| The IOCTL_HID_SET_DRIVER_CONFIG request sets the driver configuration.|
 |IOCTL_HID_SET_FEATURE| The IOCTL_HID_SET_FEATURE request sends a feature report to a top-level collection. For general information about HIDClass devices, see HID Collections. |
@@ -115,67 +107,49 @@ As described for each IOCTL, the Information member is set either by the class d
 |IOCTL_HID_SET_S0_IDLE_TIMEOUT| The IOCTL_HID_SET_S0_IDLE_TIMEOUT request is used by a client to inform the HID class driver about the client's preferred idle timeout value.|
 |IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS| The IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS request sets the number of buffers for the input report queue of a top-level collection. Each input report queue is implemented as a ring buffer. If a collection transmits data to the HID class driver faster than the driver can read it, some of the data may be lost. To prevent this type of loss, you can use an IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS request to adjust the number of buffers that the input report queue contains. The HID class driver requires a minimum of two input buffers. The maximum number of input buffers that the HID class driver supports is 512. The default number of input buffers is 32. For general information about HIDClass devices, see HID Collections. |
 
-## Reserved for internal system use.
+## Reserved for internal system use
 
 This section lists, in alphabetical order, the HIDClass-related routines, structures, enumeration types and data types that are reserved for internal system use.
 
-* DeviceObjectState
-
-* HID_DRIVER_CONFIG
-
-* HID_INTERFACE_HIDPARSE
-
-* HID_INTERFACE_NOTIFY_PNP
-
-* HIDD_CONFIGURATION
-
-* HidD_GetConfiguration
-
-* HidD_GetMsGenreDescriptor
-
-* HidD_SetConfiguration
-
-* HIDP_COLLECTION_DESC
-
-* HIDP_DEVICE_DESC
-
-* HidP_FreeCollectionDescription
-
-* HIDP_GETCOLDESC_DBG
-
-* HIDP_KEYBOARD_DIRECTION
-
-* HIDP_KEYBOARD_MODIFIER_STATE
-
-* HIDP_REPORT_IDS
-
-* HidP_SysPowerCaps
-
-* HidP_SysPowerEvent
-
-* HidP_TranslateUsageAndPagesToI8042ScanCodes
-
-* PHID_STATUS_CHANGE
-
-* PHIDP_INSERT_SCANCODES
-
-* PHIDP_REPORT_DESCRIPTOR
+- DeviceObjectState
+- HID_DRIVER_CONFIG
+- HID_INTERFACE_HIDPARSE
+- HID_INTERFACE_NOTIFY_PNP
+- HIDD_CONFIGURATION
+- HidD_GetConfiguration
+- HidD_GetMsGenreDescriptor
+- HidD_SetConfiguration
+- HIDP_COLLECTION_DESC
+- HIDP_DEVICE_DESC
+- HidP_FreeCollectionDescription
+- HIDP_GETCOLDESC_DBG
+- HIDP_KEYBOARD_DIRECTION
+- HIDP_KEYBOARD_MODIFIER_STATE
+- HIDP_REPORT_IDS
+- HidP_SysPowerCaps
+- HidP_SysPowerEvent
+- HidP_TranslateUsageAndPagesToI8042ScanCodes
+- PHID_STATUS_CHANGE
+- PHIDP_INSERT_SCANCODES
+- PHIDP_REPORT_DESCRIPTOR
 
 ### DeviceObjectState
 
 The DeviceObjectState enumeration type is reserved for internal system use.
 
-```cpp 
+```cpp
 enum DeviceObjectState {
   DeviceObjectStarted,
   DeviceObjectStopped,
   DeviceObjectRemoved
 };
 ```
+
 Headers
 Declared in Hidclass.h.
 
 ### HID_DRIVER_CONFIG
+
 The HID_DRIVER_CONFIG structure is reserved for internal system use.
 
 ```cpp
@@ -472,7 +446,7 @@ The PHID_STATUS_CHANGE routine is reserved for internal system use.
 
 ```cpp
 typedef VOID (*PHID_STATUS_CHANGE)(
-    PVOID  Context, 
+    PVOID  Context,
     enum DeviceObjectState State
     );
 ```
@@ -506,8 +480,6 @@ typedef PUCHAR  PHIDP_REPORT_DESCRIPTOR;
 Headers
 Declared in Hidpi.h.
 
-
-
 ## Callback functions
 
 | Title   | Description   |
@@ -524,8 +496,6 @@ Declared in Hidpi.h.
 | [PI8042_SYNCH_READ_PORT](../ntdd8042/nc-ntdd8042-pi8042_synch_read_port.md) | The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized read from an i8042 port. I8042prt supplies this callback. |
 | [PI8042_SYNCH_WRITE_PORT](../ntdd8042/nc-ntdd8042-pi8042_synch_write_port.md) | The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized write to an i8042 port. I8042prt supplies this routine. |
 | [PSERVICE_CALLBACK_ROUTINE](../kbdmou/nc-kbdmou-pservice_callback_routine.md) | A function driver calls the class service callback in its ISR dispatch completion routine. The class service callback transfers input data from the input data buffer of a device to the class data queue. |
-
-
 
 ## I/O control codes
 

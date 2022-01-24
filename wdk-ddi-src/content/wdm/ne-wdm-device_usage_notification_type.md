@@ -43,17 +43,19 @@ product:
 
 ## -enum-fields
 
-### -field DeviceUsageTypeUndefined 
+### -field DeviceUsageTypeUndefined
 
-### -field DeviceUsageTypePaging 
+### -field DeviceUsageTypePaging
 
-### -field DeviceUsageTypeHibernation 
+### -field DeviceUsageTypeHibernation
 
-### -field DeviceUsageTypeDumpFile 
+### -field DeviceUsageTypeDumpFile
 
-### -field DeviceUsageTypeBoot 
+### -field DeviceUsageTypeBoot
 
-### -field DeviceUsageTypePostDisplay 
+### -field DeviceUsageTypePostDisplay
+
+### -field DeviceUsageTypeGuestAssigned
 
 ## -remarks
 

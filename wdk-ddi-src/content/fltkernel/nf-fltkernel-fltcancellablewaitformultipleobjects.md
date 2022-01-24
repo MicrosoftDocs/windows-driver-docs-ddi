@@ -4,13 +4,13 @@ title: FltCancellableWaitForMultipleObjects function (fltkernel.h)
 description: The FltCancellableWaitForMultipleObjects executes a cancelable wait operation (a wait that can be terminated) on one or more dispatcher objects.
 old-location: ifsk\fltcancellablewaitformultipleobjects.htm
 tech.root: ifsk
-ms.date: 04/02/2021
+ms.date: 12/09/2021
 keywords: ["FltCancellableWaitForMultipleObjects function"]
 ms.keywords: FltApiRef_a_to_d_3f130d06-8af0-46c1-9db3-bd70d1cbabe1.xml, FltCancellableWaitForMultipleObjects, FltCancellableWaitForMultipleObjects function [Installable File System Drivers], ifsk.fltcancellablewaitformultipleobjects, ntifs/FltCancellableWaitForMultipleObjects
 req.header: fltkernel.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Microsoft Windows Vista
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -141,7 +141,5 @@ The **FltCancellableWaitForMultipleObjects** routine must be called at IRQL PASS
 [**KeInitializeTimer**](../wdm/nf-wdm-keinitializetimer.md)
 
 [**KeWaitForMultipleObjects**](../wdm/nf-wdm-kewaitformultipleobjects.md)
-
-[**KeWaitForMutexObject**](https://msdn.microsoft.com/library/windows/hardware/ff553344)
 
 [**KeWaitForSingleObject**](../wdm/nf-wdm-kewaitforsingleobject.md)
