@@ -4,7 +4,7 @@ tech.root:
 title: WHEA_MEMORY_THROTTLE_SUMMARY_FAILED_EVENT
 ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The WHEA_MEMORY_THROTTLE_SUMMARY_FAILED_EVENT structure...
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

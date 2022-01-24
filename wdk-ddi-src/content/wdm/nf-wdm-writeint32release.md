@@ -4,7 +4,7 @@ tech.root:
 title: WriteInt32Release
 ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The WriteInt32Release function...
 prerelease: false
 req.assembly: 
 req.construct-type: function

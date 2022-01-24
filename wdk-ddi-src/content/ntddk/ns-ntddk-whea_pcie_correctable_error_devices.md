@@ -4,7 +4,7 @@ tech.root:
 title: WHEA_PCIE_CORRECTABLE_ERROR_DEVICES
 ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The WHEA_PCIE_CORRECTABLE_ERROR_DEVICES structure...
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

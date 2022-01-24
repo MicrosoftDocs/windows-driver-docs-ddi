@@ -4,7 +4,7 @@ tech.root:
 title: WHEA_PSHED_PI_TRACE_EVENT
 ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The WHEA_PSHED_PI_TRACE_EVENT structure...
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

@@ -4,7 +4,7 @@ tech.root:
 title: HAL_DISPATCH
 ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The HAL_DISPATCH structure...
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

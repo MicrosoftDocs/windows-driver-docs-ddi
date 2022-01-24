@@ -4,7 +4,7 @@ tech.root:
 title: _BitTestAndReset64
 ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The _BitTestAndReset64 function...
 prerelease: false
 req.assembly: 
 req.construct-type: function

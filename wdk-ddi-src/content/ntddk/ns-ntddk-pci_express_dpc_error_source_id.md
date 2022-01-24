@@ -4,7 +4,7 @@ tech.root:
 title: PCI_EXPRESS_DPC_ERROR_SOURCE_ID
 ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The PCI_EXPRESS_DPC_ERROR_SOURCE_ID structure...
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

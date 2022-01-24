@@ -4,7 +4,7 @@ tech.root:
 title: WHEA_THROTTLE_MEMORY_ADD_OR_REMOVE_EVENT
 ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The WHEA_THROTTLE_MEMORY_ADD_OR_REMOVE_EVENT structure...
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

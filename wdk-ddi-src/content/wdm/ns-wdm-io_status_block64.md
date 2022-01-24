@@ -4,7 +4,7 @@ tech.root:
 title: IO_STATUS_BLOCK64
 ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The IO_STATUS_BLOCK64 structure...
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

@@ -4,7 +4,7 @@ tech.root:
 title: WHEA_MEMORY_CORRECTABLE_ERROR_SECTION_VALIDBITS
 ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The WHEA_MEMORY_CORRECTABLE_ERROR_SECTION_VALIDBITS structure...
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

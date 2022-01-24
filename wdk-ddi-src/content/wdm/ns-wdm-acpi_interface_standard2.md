@@ -4,7 +4,7 @@ tech.root:
 title: ACPI_INTERFACE_STANDARD2
 ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The ACPI_INTERFACE_STANDARD2 structure...
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

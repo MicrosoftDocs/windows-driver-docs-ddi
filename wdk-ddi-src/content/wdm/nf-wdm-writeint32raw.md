@@ -4,7 +4,7 @@ tech.root:
 title: WriteInt32Raw
 ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The WriteInt32Raw function...
 prerelease: false
 req.assembly: 
 req.construct-type: function

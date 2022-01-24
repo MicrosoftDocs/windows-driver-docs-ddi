@@ -4,7 +4,7 @@ tech.root:
 title: ReadInt32Acquire
 ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The ReadInt32Acquire function...
 prerelease: false
 req.assembly: 
 req.construct-type: function
