@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_VENDOR_SPECIFIC_CAPABILITY
-tech.root: 
+tech.root: PCI
 title: PCI_VENDOR_SPECIFIC_CAPABILITY
 ms.date: 01/24/2022
 targetos: Windows

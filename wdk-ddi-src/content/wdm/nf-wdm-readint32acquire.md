@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ReadInt32Acquire
-tech.root: 
+tech.root: kernel
 title: ReadInt32Acquire
 ms.date: 01/24/2022
 targetos: Windows

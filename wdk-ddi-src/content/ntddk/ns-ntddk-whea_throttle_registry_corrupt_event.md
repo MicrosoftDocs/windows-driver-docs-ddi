@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_THROTTLE_REGISTRY_CORRUPT_EVENT
-tech.root: 
+tech.root: whea
 title: WHEA_THROTTLE_REGISTRY_CORRUPT_EVENT
 ms.date: 01/24/2022
 targetos: Windows

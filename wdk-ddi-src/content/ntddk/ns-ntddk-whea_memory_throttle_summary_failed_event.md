@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_MEMORY_THROTTLE_SUMMARY_FAILED_EVENT
-tech.root: 
+tech.root: whea
 title: WHEA_MEMORY_THROTTLE_SUMMARY_FAILED_EVENT
 ms.date: 01/24/2022
 targetos: Windows

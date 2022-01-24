@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IosbToIosb64
-tech.root: 
+tech.root: kernel
 title: IosbToIosb64
 ms.date: 01/24/2022
 targetos: Windows

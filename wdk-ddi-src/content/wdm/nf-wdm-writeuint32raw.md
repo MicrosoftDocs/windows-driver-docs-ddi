@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.WriteUInt32Raw
-tech.root: 
+tech.root: kernel
 title: WriteUInt32Raw
 ms.date: 01/24/2022
 targetos: Windows

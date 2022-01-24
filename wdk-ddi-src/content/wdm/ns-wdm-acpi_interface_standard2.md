@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm.__unnamed_struct_13
-tech.root: 
+tech.root: kernel
 title: ACPI_INTERFACE_STANDARD2
 ms.date: 01/24/2022
 targetos: Windows

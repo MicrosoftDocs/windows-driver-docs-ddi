@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PCIE_CORRECTABLE_ERROR_DEVICES_VALIDBITS
-tech.root: 
+tech.root: whea
 title: WHEA_PCIE_CORRECTABLE_ERROR_DEVICES_VALIDBITS
 ms.date: 01/24/2022
 targetos: Windows

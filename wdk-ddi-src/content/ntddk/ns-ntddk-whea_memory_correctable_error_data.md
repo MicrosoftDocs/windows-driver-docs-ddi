@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_MEMORY_CORRECTABLE_ERROR_DATA
-tech.root: 
+tech.root: whea
 title: WHEA_MEMORY_CORRECTABLE_ERROR_DATA
 ms.date: 01/24/2022
 targetos: Windows

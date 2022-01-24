@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.WriteInt32NoFence
-tech.root: 
+tech.root: kernel
 title: WriteInt32NoFence
 ms.date: 01/24/2022
 targetos: Windows

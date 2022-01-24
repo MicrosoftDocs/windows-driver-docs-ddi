@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm._BitTestAndReset64~r1
-tech.root: 
+tech.root: kernel
 title: _BitTestAndReset64
 ms.date: 01/24/2022
 targetos: Windows

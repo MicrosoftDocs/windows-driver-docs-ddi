@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PSHED_PI_TRACE_EVENT
-tech.root: 
+tech.root: whea
 title: WHEA_PSHED_PI_TRACE_EVENT
 ms.date: 01/24/2022
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_THROTTLE_TYPE
-tech.root: 
+tech.root: whea
 title: WHEA_THROTTLE_TYPE
 ms.date: 01/24/2022
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ReadInt32Raw
-tech.root: 
+tech.root: kernel
 title: ReadInt32Raw
 ms.date: 01/24/2022
 targetos: Windows

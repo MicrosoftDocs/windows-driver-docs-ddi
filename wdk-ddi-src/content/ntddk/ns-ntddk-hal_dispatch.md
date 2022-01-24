@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk.__unnamed_struct_22
-tech.root: 
+tech.root: kernel
 title: HAL_DISPATCH
 ms.date: 01/24/2022
 targetos: Windows
