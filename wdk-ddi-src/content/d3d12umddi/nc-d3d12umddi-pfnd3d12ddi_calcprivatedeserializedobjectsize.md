@@ -5,8 +5,6 @@ description: CalcPrivateDeserializedObjectSize is called to get the size of the 
 tech.root: display
 ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_CALCPRIVATEDESERIALIZEDOBJECTSIZE callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

@@ -55,13 +55,11 @@ A driver sets an IRP's I/O status block to indicate the final status of an I/O r
 
 ## -struct-fields
 
-### -field DUMMYUNIONNAME
-
-### -field DUMMYUNIONNAME.Status
+### -field Status
 
 This is the completion status, either STATUS_SUCCESS if the requested operation was completed successfully or an informational, warning, or error STATUS_<i>XXX</i> value. For more information, see <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS values</a>.
 
-### -field DUMMYUNIONNAME.Pointer
+### -field Pointer
 
 Reserved. For internal use only.
 

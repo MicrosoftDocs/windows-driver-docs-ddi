@@ -5,8 +5,6 @@ description: Resumes a virtual GPU.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKARG_RESUMEVIRTUALGPU structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_RESUMEVIRTUALGPU, DXGKARG_RESUMEVIRTUALGPU, *PDXGKARG_RESUMEVIRTUALGPU,
 req.header: dispmprt.h
 req.include-header: 

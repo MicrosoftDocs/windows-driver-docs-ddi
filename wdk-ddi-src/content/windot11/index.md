@@ -6,8 +6,6 @@ ms.assetid: 8872c564-632e-37f2-91e3-18d831a91cd2
 ms.date: 05/09/2018
 keywords: ["Windot11.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: netvista
 f1_keywords:

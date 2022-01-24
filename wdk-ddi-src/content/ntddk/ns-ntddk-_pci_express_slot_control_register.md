@@ -62,12 +62,12 @@ The PCI_EXPRESS_SLOT_CONTROL_REGISTER structure describes a PCI Express (PCIe) s
 A USHORT representation of the contents of the PCI_EXPRESS_SLOT_CONTROL_REGISTER structure.
 
 
-### -field AttentionButtonEnable
+### -field DUMMYSTRUCTNAME.AttentionButtonEnable
 
 A single bit that indicates that the attention button for the slot is enabled to generate events.
 
 
-### -field AttentionIndicatorControl
+### -field DUMMYSTRUCTNAME.AttentionIndicatorControl
 
 The state of the slot's attention indicator. Possible values are:
 
@@ -92,32 +92,32 @@ The indicator is blinking.
 The indicator is off.
 
 
-### -field CommandCompletedEnable
+### -field DUMMYSTRUCTNAME.CommandCompletedEnable
 
 A single bit that indicates that notification is enabled for the slot when an issued command is completed by the hot-plug controller.
 
 
-### -field DataLinkStateChangeEnable
+### -field DUMMYSTRUCTNAME.DataLinkStateChangeEnable
 
 A single bit that indicates that notification is enabled for the slot for changes to the data link layer active bit of the link status register of the PCIe capability structure.
 
 
-### -field ElectromechanicalLockControl
+### -field DUMMYSTRUCTNAME.ElectromechanicalLockControl
 
 This member always contains zero.
 
 
-### -field HotPlugInterruptEnable
+### -field DUMMYSTRUCTNAME.HotPlugInterruptEnable
 
 A single bit that indicates that interrupts for the slot are enabled for hot-plug events.
 
 
-### -field MRLSensorEnable
+### -field DUMMYSTRUCTNAME.MRLSensorEnable
 
 A single bit that indicates that the manually operated retention latch (MRL) sensor for the slot is enabled to generate events.
 
 
-### -field PowerControllerControl
+### -field DUMMYSTRUCTNAME.PowerControllerControl
 
 The state of the slot's power controller. Possible values are:
 
@@ -136,12 +136,12 @@ The power is on.
 The power is off.
 
 
-### -field PowerFaultDetectEnable
+### -field DUMMYSTRUCTNAME.PowerFaultDetectEnable
 
 A single bit that indicates that power fault detection for the slot is enabled to generate events.
 
 
-### -field PowerIndicatorControl
+### -field DUMMYSTRUCTNAME.PowerIndicatorControl
 
 The state of the slot's power indicator. Possible values are:
 
@@ -166,12 +166,12 @@ The indicator is blinking.
 The indicator is off.
 
 
-### -field PresenceDetectEnable
+### -field DUMMYSTRUCTNAME.PresenceDetectEnable
 
 A single bit that indicates that card presence detection for the slot is enabled to generate events.
 
 
-### -field Rsvd
+### -field DUMMYSTRUCTNAME.Rsvd
 
 Reserved.
 

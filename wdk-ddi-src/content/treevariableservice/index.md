@@ -6,8 +6,6 @@ ms.assetid: bef41398-1512-3aee-a716-664a76c733e6
 ms.date: 11/20/2020
 keywords: ["Treevariableservice.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: treedrv
 ms.custom: RS5

@@ -94,9 +94,7 @@ Indicates the direction of the DMA transfer: <b>TRUE</b> for a transfer from the
 
 Pointer to the caller-supplied buffer that the routine fills with a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure.
 
-### -param ScatterGatherLength
-
-### -param ScatterGatherBufferLength [in]
+### -param ScatterGatherLength [in]
 
 Specifies the size, in bytes, of the buffer passed in the <i>ScatterGatherBuffer</i> parameter.
 

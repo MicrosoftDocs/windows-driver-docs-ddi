@@ -5,8 +5,6 @@ description: Arguments used to query mitigated range count.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKARG_QUERYMITIGATEDRANGECOUNT structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_QUERYMITIGATEDRANGECOUNT, DXGKARG_QUERYMITIGATEDRANGECOUNT, *PDXGKARG_QUERYMITIGATEDRANGECOUNT,
 req.header: dispmprt.h
 req.include-header: 

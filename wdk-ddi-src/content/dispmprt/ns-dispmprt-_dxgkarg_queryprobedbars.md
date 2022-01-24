@@ -5,8 +5,6 @@ description: Query probed base address registers (BARS).
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKARG_QUERYPROBEDBARS structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_QUERYPROBEDBARS, DXGKARG_QUERYPROBEDBARS, *PDXGKARG_QUERYPROBEDBARS,
 req.header: dispmprt.h
 req.include-header: 

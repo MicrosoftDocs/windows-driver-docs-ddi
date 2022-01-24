@@ -161,11 +161,6 @@ No error occurred.
 
 An unclassified error.
 
-
-### -field ReservedValid
-
-Reserved for system use.
-
 ## -remarks
 
 If the <b>CheckInfoId</b> member of a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_procinfo">WHEA_XPF_PROCINFO</a> structure contains WHEA_MSCHECK_GUID, the <b>CheckInfo</b> member of the WHEA_XPF_PROCINFO structure contains a WHEA_XPF_MS_CHECK union.

@@ -52,6 +52,18 @@ api_name:
 
 The **CM_MCA_POS_DATA** structure is obsolete. It defines IBM-compatible MCA POS configuration information for a slot.
 
+## -struct-fields
+
+### -field AdapterId
+
+### -field PosData1
+
+### -field PosData2
+
+### -field PosData3
+
+### -field PosData4
+
 ## -remarks
 
 This structure is used by the obsolete [HalGetBusData](/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)) and [HalGetBusDataByOffset](/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)) routines.

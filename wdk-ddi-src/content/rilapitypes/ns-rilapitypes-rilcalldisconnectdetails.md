@@ -4,7 +4,7 @@ title: RILCALLDISCONNECTDETAILS (rilapitypes.h)
 description: "Don't use this structure in your code. Microsoft reserves the RILCALLDISCONNECTDETAILS structure for internal use only. "
 old-location: netvista\rilcalldisconnectdetails.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/10/2021
 keywords: ["RILCALLDISCONNECTDETAILS structure"]
 ms.keywords: "*LPRILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilcalldisconnectdetails, ntddrilapitypes/RILCALLDISCONNECTDETAILS"
 req.header: rilapitypes.h
@@ -56,34 +56,19 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ### -field causeUnion
 
-### -field causeUnion.unGPPCause
+### -field RILCAUSEUNION.unGPPCause
 
-### -field causeUnion.unGPPRejectCause
+### -field RILCAUSEUNION.unGPPRejectCause
 
-### -field causeUnion.unGPP2Cause
+### -field RILCAUSEUNION.unGPP2Cause
 
-### -field causeUnion.unIMSSIPCause
+### -field RILCAUSEUNION.unIMSSIPCause
 
-### -field causeUnion.dwASCode
+### -field RILCAUSEUNION.dwASCode
 
-### -field causeUnion.dwOtherCode
+### -field RILCAUSEUNION.dwOtherCode
 
 ### -field RILCAUSEUNION
 
-### -field dwASCode
 
-
-### -field dwOtherCode
-
-
-### -field unGPP2Cause
-
-
-### -field unGPPCause
-
-
-### -field unGPPRejectCause
-
-
-### -field unIMSSIPCause
 

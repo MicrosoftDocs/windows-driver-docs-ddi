@@ -5,8 +5,6 @@ description: The D3D12DDI_CORELAYER_DEVICECALLBACKS_0003 structure contains Micr
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_CORELAYER_DEVICECALLBACKS_0003 structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_CORELAYER_DEVICECALLBACKS_0003, D3D12DDI_CORELAYER_DEVICECALLBACKS_0003,
 req.header: d3d12umddi.h
 req.include-header: 

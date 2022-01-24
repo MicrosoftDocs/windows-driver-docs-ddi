@@ -5,8 +5,6 @@ description: This structure contains the user mode device function table for Win
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3DWDDM2_6DDI_DEVICEFUNCS structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3DWDDM2_6DDI_DEVICEFUNCS, D3DWDDM2_6DDI_DEVICEFUNCS,
 req.header: d3d10umddi.h
 req.include-header: 

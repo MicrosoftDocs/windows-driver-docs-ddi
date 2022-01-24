@@ -7,8 +7,6 @@ ms.date: 05/09/2018
 tech.root: netvista
 keywords: ["Wditypes.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 f1_keywords:
  - wditypes

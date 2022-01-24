@@ -125,8 +125,6 @@ product:
 
 ### -field Reserved
 
-### -field Reserved6
-
 ### -field ActiveConsoleId
 
 ### -field DismountCount
@@ -180,8 +178,6 @@ product:
 ### -field QpcFrequency
 
 ### -field SystemCall
-
-### -field SystemCallPad0
 
 ### -field SystemCallPad
 
@@ -252,6 +248,18 @@ product:
 ### -field TimeZoneBiasEffectiveEnd
 
 ### -field XState
+
+### -field CyclesPerYield
+
+### -field ArchStartedInEl2
+
+### -field QcSlIsSupported
+
+### -field Reserved2
+
+### -field FeatureConfigurationChangeStamp
+
+### -field Spare
 
 ## -remarks
 

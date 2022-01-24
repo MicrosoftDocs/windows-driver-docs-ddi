@@ -6,8 +6,6 @@ tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGK_FEATURE_ID enumeration"]
 ms.keywords: _DXGK_FEATURE_ID, DXGK_FEATURE_ID,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 

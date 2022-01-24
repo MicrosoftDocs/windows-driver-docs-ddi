@@ -6,8 +6,6 @@ ms.assetid: d18ef805-5f96-362a-9074-e90dea9d6c26
 ms.date: 05/09/2018
 keywords: ["Ucxcontroller.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
 f1_keywords:

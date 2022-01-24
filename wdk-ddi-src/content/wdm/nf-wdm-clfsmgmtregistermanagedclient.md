@@ -64,13 +64,6 @@ An instance of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_
 
 The cookie we give back to the caller for future use of the API.
 
-
-
-
-### -param Client [out]
-
-A pointer to the client.
-
 ## -returns
 
 The <b>ClfsMgmtRegisterManagedClient</b> routine returns one of the following NTSTATUS values:

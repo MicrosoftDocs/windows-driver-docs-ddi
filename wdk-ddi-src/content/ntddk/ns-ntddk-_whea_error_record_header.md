@@ -166,6 +166,10 @@ A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_persistence_info">
 
 Reserved for system use.
 
+### -field OsBuildNumber
+
+### -field Reserved2
+
 ## -remarks
 
 A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a> structure. The WHEA_ERROR_RECORD_HEADER structure describes general information about the hardware error condition that is described by the error record.

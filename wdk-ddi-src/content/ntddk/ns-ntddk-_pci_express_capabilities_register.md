@@ -62,12 +62,12 @@ The PCI_EXPRESS_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) c
 A USHORT representation of the contents of the PCI_EXPRESS_CAPABILITIES_REGISTER structure.
 
 
-### -field CapabilityVersion
+### -field DUMMYSTRUCTNAME.CapabilityVersion
 
 The version number of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a> structure that contains the PCI_EXPRESS_CAPABILITIES_REGISTER structure.
 
 
-### -field DeviceType
+### -field DUMMYSTRUCTNAME.DeviceType
 
 The type of PCIe logical device. Possible values are:
 
@@ -128,17 +128,17 @@ A PCIe endpoint device that is integrated into the root complex.
 A PCIe root complex event collector.
 
 
-### -field InterruptMessageNumber
+### -field DUMMYSTRUCTNAME.InterruptMessageNumber
 
 The MSI or MSI-X vector that is used for interrupt messages that are generated in association with the status bits in either the slot status register or the root status register of the PCIe capability structure.
 
 
-### -field Rsvd
+### -field DUMMYSTRUCTNAME.Rsvd
 
 Reserved.
 
 
-### -field SlotImplemented
+### -field DUMMYSTRUCTNAME.SlotImplemented
 
 A single bit that indicates that the PCIe link associated with this port is connected to a physical PCIe slot. This member is valid only if the <b>DeviceType</b> member is set to <b>PciExpressRootPort</b> or <b>PciExpressDownstreamSwitchPort</b>.
 

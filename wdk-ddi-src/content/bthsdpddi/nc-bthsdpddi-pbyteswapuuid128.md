@@ -62,8 +62,8 @@ A pointer to the converted 128-bit GUID.
 
 The **SdpByteSwapUuid128** function always reverses the byte order of the value pointed to by the *pUuidFrom* parameter. Use this function to convert 128-bit GUID values from the byte order on the local computer to the byte order of the network to which the computer is connected.
 
-Bluetooth profile drivers can obtain a pointer to this function through the [BTHDDI_SDP_PARSE_INTERFACE](/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface).
+Bluetooth profile drivers can obtain a pointer to this function through the [BTHDDI_SDP_PARSE_INTERFACE](./ns-bthsdpddi-_bthddi_sdp_parse_interface.md).
 
 ## -see-also
 
-- [BTHDDI_SDP_PARSE_INTERFACE](/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface)
+- [BTHDDI_SDP_PARSE_INTERFACE](./ns-bthsdpddi-_bthddi_sdp_parse_interface.md)

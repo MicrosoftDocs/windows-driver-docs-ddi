@@ -5,8 +5,6 @@ description: Outputs duplicate of a handle to a hardware queue.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["PFND3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 

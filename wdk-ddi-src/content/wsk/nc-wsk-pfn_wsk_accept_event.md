@@ -111,18 +111,6 @@ A pointer to a variable that receives a pointer to a WSK application-supplied co
      <i>AcceptSocketContext</i> parameter to <b>NULL</b>.
 
 
-### -param **AcceptSocketDispatch [out]
-
-A pointer to a variable that receives a pointer to a constant 
-     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
-     WSK_CLIENT_CONNECTION_DISPATCH</a> structure. This structure is a dispatch table that contains
-     pointers to the event callback functions for the accepted socket. If the WSK application will not be
-     enabling all of the event callback functions for the accepted socket, the application should set the
-     pointers in the dispatch table to <b>NULL</b> for those event callback functions that it does not enable. If
-     the WSK application will not be enabling any event callback functions on the accepted socket, it should
-     set the variable that is pointed to by the 
-     <i>AcceptSocketDispatch</i> parameter to <b>NULL</b>.
-
 
 ### -param AcceptSocketDispatch [out]
 

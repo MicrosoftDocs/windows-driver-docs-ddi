@@ -5,8 +5,6 @@ description: "Learn more about: _KBUGCHECK_TRIAGE_DUMP_DATA structure"
 ms.date: 06/03/2019
 tech.root: devtest
 keywords: ["KBUGCHECK_TRIAGE_DUMP_DATA structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _KBUGCHECK_TRIAGE_DUMP_DATA, KBUGCHECK_TRIAGE_DUMP_DATA, *PKBUGCHECK_TRIAGE_DUMP_DATA,
 req.header: wdm.h
 req.include-header: 

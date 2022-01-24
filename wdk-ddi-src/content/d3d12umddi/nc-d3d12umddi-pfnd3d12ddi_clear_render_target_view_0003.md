@@ -5,8 +5,6 @@ description: The pfnClearRenderTargetView function clears the specified render-t
 tech.root: display
 ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_CLEAR_RENDER_TARGET_VIEW_0003 callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

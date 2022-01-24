@@ -2,7 +2,7 @@
 UID: NF:wdm.IoAcquireKsrPersistentMemoryEx
 tech.root: kernel
 title: IoAcquireKsrPersistentMemoryEx
-ms.date: 06/03/2021
+ms.date: 12/13/2021
 targetos: Windows
 description: "Microsoft reserves the IoAcquireKsrPersistentMemoryEx function for internal use only. Don't use this function in your code."
 req.assembly: 
@@ -42,6 +42,22 @@ dev_langs:
 ## -description
 
 Reserved for system use.
+
+## -parameters
+
+### -param DriverObject
+
+### -param PhysicalDeviceObject
+
+### -param PhysicalDeviceId
+
+### -param DataTag
+
+### -param DataVersion
+
+### -param Buffer
+
+### -param Size
 
 ## -returns
 

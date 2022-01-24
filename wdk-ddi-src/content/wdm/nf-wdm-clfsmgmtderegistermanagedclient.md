@@ -54,13 +54,6 @@ The <b>ClfsMgmtDeregisterManagedClient</b> routine removes the connection betwee
 
 The cookie we give back to the caller for future use of the API.
 
-
-
-
-### -param Client [in]
-
-A pointer to the client. This is the value that was obtained through a call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a> routine.
-
 ## -returns
 
 The <b>ClfsMgmtDeregisterManagedClient</b> routine returns one of the following NTSTATUS values:

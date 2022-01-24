@@ -55,6 +55,12 @@ The <b>PRIVILEGE_SET</b> structure specifies a set of security privileges. For m
 
 ## -struct-fields
 
+### -field PrivilegeCount
+
+### -field Control
+
+### -field Privilege
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck">SeAccessCheck</a>

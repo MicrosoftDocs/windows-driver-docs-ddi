@@ -5,8 +5,6 @@ description: Inserts a wait for the specified synchronization objects in the spe
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_WAITFORSYNCHRONIZATIONOBJECT2CB callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

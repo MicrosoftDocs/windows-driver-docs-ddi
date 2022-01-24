@@ -5,8 +5,6 @@ description: Used to suspend a virtual GPU.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKARG_SUSPENDVIRTUALGPU structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_SUSPENDVIRTUALGPU, DXGKARG_SUSPENDVIRTUALGPU, *PDXGKARG_SUSPENDVIRTUALGPU,
 req.header: dispmprt.h
 req.include-header: 

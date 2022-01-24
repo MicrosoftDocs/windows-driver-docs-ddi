@@ -6,8 +6,6 @@ ms.assetid: 6c7e5270-35b9-3642-adf4-2bc9d6670cf6
 ms.date: 05/09/2018
 keywords: ["1394.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: ieee
 f1_keywords:

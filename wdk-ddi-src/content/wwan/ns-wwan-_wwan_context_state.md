@@ -4,7 +4,7 @@ title: _WWAN_CONTEXT_STATE (wwan.h)
 description: The WWAN_CONTEXT_STATE structure represents the Packet Data Protocol (PDP) context state of the MB device.
 old-location: netvista\wwan_context_state.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/29/2021
 keywords: ["WWAN_CONTEXT_STATE structure"]
 ms.keywords: "*PWWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_STATE, WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_ff03afab-0fc4-4469-8a2d-f5d2a770f08d.xml, _WWAN_CONTEXT_STATE, netvista.wwan_context_state, wwan/PWWAN_CONTEXT_STATE, wwan/WWAN_CONTEXT_STATE"
 req.header: wwan.h
@@ -169,6 +169,12 @@ The current voice call state of the device.
 A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
 ### -field ConnectionMedia
+
+The media type for an established context/session.
+
+### -field AccessString
+
+The selected APN/DNN for an established context/session.
 
 ## -remarks
 

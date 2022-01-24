@@ -43,19 +43,21 @@ Defines values for extended parameters are used for file mapping into an address
 
 ## -enum-fields
 
-### -field MemExtendedParameterInvalidType 
+### -field MemExtendedParameterInvalidType:0
 
-### -field MemExtendedParameterAddressRequirements 
+### -field MemExtendedParameterAddressRequirements:1
 
-### -field MemExtendedParameterNumaNode 
+### -field MemExtendedParameterNumaNode:2
 
-### -field MemExtendedParameterPartitionHandle 
+### -field MemExtendedParameterPartitionHandle:3
 
-### -field MemExtendedParameterUserPhysicalHandle 
+### -field MemExtendedParameterUserPhysicalHandle:4
 
-### -field MemExtendedParameterGraphicsFlags 
+### -field MemExtendedParameterAttributeFlags:5
 
-### -field MemExtendedParameterMax 
+### -field MemExtendedParameterImageMachine:6
+
+### -field MemExtendedParameterMax
 
 ## -remarks
 

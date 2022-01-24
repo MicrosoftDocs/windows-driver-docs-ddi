@@ -83,6 +83,8 @@ A PCI or PCI-X device reported the hardware error.
 
 A hardware component that does not conform to any of the other WHEA_ERROR_TYPE enumeration values reported the hardware error.
 
+### -field WheaErrTypePmem
+
 ## -remarks
 
 The <a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a> structure contains a member of type WHEA_ERROR_TYPE that specifies the type of hardware component that reported the hardware error.

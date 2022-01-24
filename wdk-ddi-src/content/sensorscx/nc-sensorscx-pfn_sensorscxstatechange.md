@@ -3,7 +3,7 @@ UID: NC:sensorscx.PFN_SENSORSCXSTATECHANGE
 title: PFN_SENSORSCXSTATECHANGE (sensorscx.h)
 description: Used to initialize a sensor state change.
 tech.root: sensors
-ms.date: 10/19/2018
+ms.date: 12/16/2021
 keywords: ["*PFN_SENSORSCXSTATECHANGE callback function"]
 req.header: sensorscx.h
 req.include-header: 
@@ -39,7 +39,6 @@ api_name:
 
 # *PFN_SENSORSCXSTATECHANGE callback function
 
-
 ## -description
 
 Used to initialize a sensor state change.
@@ -69,11 +68,18 @@ The state of the sensor.
 
 VOID *PfnSensorscxstatechange 
 (
-	PSENSORSCX_DRIVER_GLOBALS DriverGlobals
-	SENSOROBJECT Sensor
-	SENSOR_STATE State
+  PSENSORSCX_DRIVER_GLOBALS DriverGlobals
+  SENSOROBJECT Sensor
+  SENSOR_STATE State
 )
 {...}
 
 ```
 
+## -returns
+
+This function returns an **NTSTATUS** with different values. Some values that may be returned are:
+
+- STATUS_SUCCESS is returned if the function completes successfully.
+- STATUS_UNSUCCESSFUL is returned if the function does not complete successfully.
+- STATUS_INVALID_PARAMETER is returned if any of the \_In\_ parameters are NULL.

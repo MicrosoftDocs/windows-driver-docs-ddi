@@ -3,7 +3,7 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE
 title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE (d3d10umddi.h)
 description: Sets the rate at which the video processor produces output frames for an input stream.
 old-location: display\videoprocessorsetstreamoutputrate.htm
-ms.date: 05/10/2018
+ms.date: 12/09/2021
 keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE callback, d3d10umddi/pfnVideoProcessorSetStreamOutputRate, display.videoprocessorsetstreamoutputrate, pfnVideoProcessorSetStreamOutputRate, pfnVideoProcessorSetStreamOutputRate callback function [Display Devices]
 req.header: d3d10umddi.h
@@ -44,7 +44,6 @@ product:
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE callback function
 
-
 ## -description
 
 Sets the rate at which the video processor produces output frames for an input stream.
@@ -61,7 +60,7 @@ A handle to the display device (graphics context).
 
 *hVideoProcessor* [in]
 
-A handle to the video processor object that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a> function.
+A handle to the video processor object that was created through a call to the [**CreateVideoProcessor**](nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md) function.
 
 ### -param unnamedParam3
 
@@ -75,22 +74,19 @@ The zero-based index of the input stream.
 
 Specifies how the driver performs frame-rate conversion, if it is required.
 
+If the **RepeatFrame** parameter is TRUE, the driver should repeat frames.
 
+If the **RepeatFrame** parameter is FALSE,  the driver should interpolate frames.
 
-If the <i>RepeatFrame</i> parameter is <b>TRUE</b>,  the driver should repeat frames. 
-
-
-
-If the <i>RepeatFrame</i> parameter is <b>FALSE</b>,  the driver should interpolate frames.
-
-<div class="alert"><b>Note</b>  If the <b>VideoProcessorSetStreamOutputRate</b> function is never called, the driver should interpolate frames by default.</div>
-<div> </div>
+> [!NOTE]
+>
+> If **VideoProcessorSetStreamOutputRate** is never called, the driver should interpolate frames by default.
 
 ### -param unnamedParam5
 
 *OutputRate* [in]
 
-The output rate, specified as a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_output_rate">D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE</a> value.
+The output rate, specified as a [**D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE**](ne-d3d10umddi-d3d11_1ddi_video_processor_output_rate.md) value.
 
 For more information, see the Remarks section.
 
@@ -98,33 +94,28 @@ For more information, see the Remarks section.
 
 *pCustomRate* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a> structure. If the <i>OutputRate</i> parameter is set to <b>D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM</b>, this parameter specifies the exact output rate. Otherwise, this parameter is ignored and can be set to NULL.
+A pointer to a [**DXGI_RATIONAL**](/windows/win32/api/dxgicommon/ns-dxgicommon-dxgi_rational) structure. If the **OutputRate** parameter is set to **D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM**, this parameter specifies the exact output rate. Otherwise, this parameter is ignored and can be set to NULL.
 
 ## -remarks
 
-The standard output rates that are defined by  <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_output_rate">D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE</a> enumeration values are normal frame-rate (<b>D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL</b>) and half frame-rate (<b>D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_HALF</b>). 
+The standard output rates that are defined by [**D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE**](ne-d3d10umddi-d3d11_1ddi_video_processor_output_rate.md) enumeration values are normal frame-rate (**D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL**) and half frame-rate (**D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_HALF**).
 
-If the driver supports custom rates for rate conversion or inverse telecine, it can use a custom rate if the <i>OutputRate</i> parameter is set to <b>D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM</b>. The custom rate is specified by the <i>pCustomRate</i> parameter.
+If the driver supports custom rates for rate conversion or inverse telecine, it can use a custom rate if the **OutputRate** parameter is set to **D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM**. The custom rate is specified by the **pCustomRate** parameter.
 
-<div class="alert"><b>Note</b>  The driver reports its custom rates  in the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_caps">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a> structure that is returned through the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcustomrate">GetVideoProcessorCustomRate</a> function.
+> [!NOTE]
+>
+> The driver reports its custom rates  in the [**D3D11_1DDI_VIDEO_PROCESSOR_CAPS**](ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md) structure that is returned through the [**GetVideoProcessorCustomRate**](nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcustomrate.md) function.
 
-</div>
-<div> </div>
-Depending on the output rate, the driver might have to convert the frame rate. If so, the value of the <i>RepeatFrame</i> parameter controls whether the driver creates interpolated frames or repeats input frames.
+Depending on the output rate, the driver might have to convert the frame rate. If so, the value of the **RepeatFrame** parameter controls whether the driver creates interpolated frames or repeats input frames.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
+[**CreateVideoProcessor**](nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md)
 
+[**D3D11_1DDI_VIDEO_PROCESSOR_CAPS**](ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md)
 
+[**D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE**](ne-d3d10umddi-d3d11_1ddi_video_processor_output_rate.md)
 
-<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_caps">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
+[**DXGI_RATIONAL**](/windows/win32/api/dxgicommon/ns-dxgicommon-dxgi_rational)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_output_rate">D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcustomrate">GetVideoProcessorCustomRate</a>
-
+[**GetVideoProcessorCustomRate**](nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcustomrate.md)

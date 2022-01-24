@@ -50,6 +50,8 @@ The **RtlFreeUTF8String** function releases storage that was allocated by [**Rtl
 
 Pointer to the UTF8 string buffer previously allocated by **RtlUnicodeStringToUTF8String**.
 
+## -returns
+
 ## -remarks
 
 This routine only releases the UTF8 string buffer passed to it; it does not release the Unicode string buffer passed to **RtlUnicodeStringToUTF8String**.

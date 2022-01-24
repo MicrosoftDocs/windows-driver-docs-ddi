@@ -5,8 +5,6 @@ description: The PFND3D12DDI_BLT callback function copies the contents of a sour
 tech.root: display
 ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_BLT callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

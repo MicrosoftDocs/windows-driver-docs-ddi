@@ -5,8 +5,6 @@ description: Specifies the creation arguments for the video motion estimator.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0060 structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0060, D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0060,
 req.header: d3d12umddi.h
 req.include-header: 

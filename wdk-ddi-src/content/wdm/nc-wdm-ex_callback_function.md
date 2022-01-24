@@ -153,7 +153,7 @@ The following table summarizes the requirements for buffer accesses by the *Regi
 |--|--|--|--|--|
 | User-mode input | Windows 8 and later | Points to captured data. | Yes | Yes |
 | User-mode input | Windows 7 and earlier | Points to captured data or original user-mode buffer. | No. Must read under try/except. | No. Must allocate kernel memory, copy data from the original buffer under try/except, and pass the copied data to the system routine. |
-| User-mode input | All | Points to original user-mode buffer. | No. Must write under try/except. | No. Must allocate kernel memory, pass kernel memory to the system routine, and copy the results back to the original buffer under try/except. |
+| User-mode output | All | Points to original user-mode buffer. | No. Must write under try/except. | No. Must allocate kernel memory, pass kernel memory to the system routine, and copy the results back to the original buffer under try/except. |
 | Kernel-mode input and output | All | Points to original kernel-mode buffer. | Yes | Yes |
 
 For more information about *RegistryCallback* routines and registry filter drivers, see [Filtering Registry Calls](/windows-hardware/drivers/kernel/filtering-registry-calls).

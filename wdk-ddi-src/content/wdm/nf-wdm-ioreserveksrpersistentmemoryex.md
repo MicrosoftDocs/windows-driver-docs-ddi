@@ -2,7 +2,7 @@
 UID: NF:wdm.IoReserveKsrPersistentMemoryEx
 tech.root: kernel
 title: IoReserveKsrPersistentMemoryEx
-ms.date: 06/03/2021
+ms.date: 12/15/2021
 targetos: Windows
 description: "Microsoft reserves the IoReserveKsrPersistentMemoryEx function for internal use only. Don't use this function in your code."
 req.assembly: 
@@ -42,6 +42,24 @@ dev_langs:
 ## -description
 
 Reserved for system use.
+
+## -parameters
+
+### -param DriverObject
+
+### -param PhysicalDeviceObject
+
+### -param PhysicalDeviceId
+
+### -param DataTag
+
+### -param DataVersion
+
+### -param Size
+
+### -param Flags
+
+### -param DataHandle
 
 ## -returns
 

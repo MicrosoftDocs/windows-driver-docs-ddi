@@ -6,8 +6,6 @@ description: IDDCX_DISPLAYCONFIGPATH contains display monitor configuration for 
 tech.root: display
 ms.date: 09/20/2020
 keywords: ["IDDCX_DISPLAYCONFIGPATH structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: IDDCX_DISPLAYCONFIGPATH, ,
 req.header: iddcx.h
 req.include-header: 

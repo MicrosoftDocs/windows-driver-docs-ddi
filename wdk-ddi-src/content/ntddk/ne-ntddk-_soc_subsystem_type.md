@@ -90,7 +90,4 @@ Compute digital signal processor (DSP).
 Subsystem types in the range 0x10000 through 0x80000000 are reserved for independent hardware vendors.
 
 
-### -field SOC_SUBSYSTEM_WIRELESS_MODEM
-
-Wireless modem.
-
+### -field SOC_SUBSYS_SECURE_PROC

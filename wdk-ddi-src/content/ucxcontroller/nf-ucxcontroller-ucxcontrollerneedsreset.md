@@ -4,7 +4,7 @@ title: UcxControllerNeedsReset function (ucxcontroller.h)
 description: Initiates a non-Plug and Play (PnP) controller reset operation by queuing an event into the controller reset state machine.
 old-location: buses\_ucxcontrollerneedsreset.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/14/2022
 keywords: ["UcxControllerNeedsReset function"]
 ms.keywords: UcxControllerNeedsReset, UcxControllerNeedsReset method [Buses], buses._ucxcontrollerneedsreset, ucxcontroller/UcxControllerNeedsReset
 req.header: ucxcontroller.h
@@ -42,23 +42,20 @@ api_name:
 
 # UcxControllerNeedsReset function
 
-
 ## -description
 
-Initiates a non-Plug and Play (PnP) controller reset operation by queuing an event 
-        into the controller reset state machine.
+Initiates a non-Plug and Play (PnP) controller reset operation by queuing an event into the controller reset state machine.
 
 ## -parameters
 
 ### -param Controller [in]
 
+A handle to the controller object to reset. The client driver retrieved the handle in a previous call to [UcxControllerCreate](nf-ucxcontroller-ucxcontrollercreate.md).
 
-A handle to the controller object to reset. The client driver retrieved the handle in a previous call to <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>.
+## -remarks
 
-## -returns
-
-If the operation is successful, the method returns TRUE. Otherwise it returns FALSE.
+If the operation is successful, the method returns TRUE. Otherwise, it returns FALSE.
 
 ## -see-also
 
-<a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>
+- [UcxControllerCreate](nf-ucxcontroller-ucxcontrollercreate.md)

@@ -50,7 +50,7 @@ The <b>ExReleaseSpinLockExclusive</b> routine releases a <a href="/windows-hardw
 
 ## -parameters
 
-### -param param [in, out]
+### -param SpinLock [in, out]
 
 
  A pointer to the spin lock to release. The caller must own this spin lock for exclusive access.

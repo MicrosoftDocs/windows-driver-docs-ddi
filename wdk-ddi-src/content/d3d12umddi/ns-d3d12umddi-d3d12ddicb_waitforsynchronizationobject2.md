@@ -5,8 +5,6 @@ description: Waits for synchronization object.
 tech.root: display
 ms.date: 08/19/2019
 keywords: ["D3D12DDICB_WAITFORSYNCHRONIZATIONOBJECT2 structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDICB_WAITFORSYNCHRONIZATIONOBJECT2, D3D12DDICB_WAITFORSYNCHRONIZATIONOBJECT2,
 req.header: d3d12umddi.h
 req.include-header: 

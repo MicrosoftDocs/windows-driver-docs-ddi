@@ -4,7 +4,7 @@ title: RILCALLDISCONNECTDETAILS (ntddrilapitypes.h)
 description: "Microsoft reserves the RILCALLDISCONNECTDETAILS structure for internal use only. Don't use the RILCALLDISCONNECTDETAILS structure in your code."
 old-location: netvista\rilcalldisconnectdetails.htm
 tech.root: netvista
-ms.date: 12/02/2021
+ms.date: 12/10/2021
 keywords: ["RILCALLDISCONNECTDETAILS structure"]
 ms.keywords: "*LPRILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilcalldisconnectdetails, ntddrilapitypes/RILCALLDISCONNECTDETAILS"
 req.header: ntddrilapitypes.h
@@ -79,3 +79,5 @@ Reserved.
 ### -field RILCAUSEUNION.dwOtherCode
 
 Reserved. 
+
+### -field RILCAUSEUNION

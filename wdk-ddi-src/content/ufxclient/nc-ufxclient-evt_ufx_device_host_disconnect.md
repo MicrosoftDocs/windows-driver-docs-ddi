@@ -4,7 +4,7 @@ title: EVT_UFX_DEVICE_HOST_DISCONNECT (ufxclient.h)
 description: The client driver's implementation to disable the function controller's communication with the host.
 old-location: buses\evt_ufx_device_host_disconnect.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/18/2022
 keywords: ["EVT_UFX_DEVICE_HOST_DISCONNECT callback function"]
 ms.keywords: EVT_UFX_DEVICE_HOST_DISCONNECT, EVT_UFX_DEVICE_HOST_DISCONNECT callback, EvtUfxDeviceHostDisconnect, EvtUfxDeviceHostDisconnect callback function [Buses], PFN_UFX_DEVICE_HOST_DISCONNECT, PFN_UFX_DEVICE_HOST_DISCONNECT callback function pointer [Buses], buses.evt_ufx_device_host_disconnect, ufxclient/EvtUfxDeviceHostDisconnect
 req.header: ufxclient.h
@@ -42,33 +42,27 @@ api_name:
 
 # EVT_UFX_DEVICE_HOST_DISCONNECT callback function
 
-
 ## -description
 
 The client driver's implementation to disable the function controller's communication with the host.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
-### -param UfxDevice [in]
-
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
+The handle to a USB device object that the client driver received in a previous call to the [UfxDeviceCreate](nf-ufxclient-ufxdevicecreate.md) method.
 
 ## -remarks
 
-The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_HOST_DISCONNECT</i> implementation with the USB function class extension (UFX) by calling the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a> method.
+The client driver for the function host controller registers its *EVT_UFX_DEVICE_HOST_DISCONNECT* implementation with the USB function class extension (UFX) by calling the [UfxDeviceCreate](nf-ufxclient-ufxdevicecreate.md) method.
 
-UFX invokes this  event callback to perform a soft-disconnect on the USB cable. After this call, the client driver must not initiate a connection with the host until UFX invokes <a href="/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_host_connect">EVT_UFX_DEVICE_HOST_CONNECT</a>. 
+UFX invokes this  event callback to perform a soft-disconnect on the USB cable. After this call, the client driver must not initiate a connection with the host until UFX invokes [EVT_UFX_DEVICE_HOST_CONNECT](nc-ufxclient-evt_ufx_device_host_connect.md).
 
-The client driver indicates completion of this event by calling the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a> method.
+The client driver indicates completion of this event by calling the [UfxDeviceEventComplete](nf-ufxclient-ufxdeviceeventcomplete.md) method.
 
+### Examples
 
-#### Examples
-
-
-```
-
+```cpp
 EVT_UFX_DEVICE_HOST_DISCONNECT UfxDevice_EvtDeviceHostDisconnect;
 
 VOID
@@ -87,7 +81,6 @@ Arguments:
 
 --*/
 {
-
     PCONTROLLER_CONTEXT ControllerContext;
     PUFXDEVICE_CONTEXT DeviceContext;
     BOOLEAN EventComplete;
@@ -122,9 +115,5 @@ Arguments:
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdeviceeventcomplete">UfxDeviceEventComplete</a>
-
+- [UfxDeviceCreate](nf-ufxclient-ufxdevicecreate.md)
+- [UfxDeviceEventComplete](nf-ufxclient-ufxdeviceeventcomplete.md)

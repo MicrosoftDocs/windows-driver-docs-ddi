@@ -45,6 +45,20 @@ dev_langs:
 
 Reserved for system use.
 
+## -struct-fields
+
+### -field u
+
+### -field u.bits
+
+### -field u.bits.BusNumber
+
+### -field u.bits.SegmentNumber
+
+### -field u.bits.Reserved
+
+### -field u.AsULONG
+
 ## -remarks
 
 ## -see-also

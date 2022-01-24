@@ -2,7 +2,7 @@
 UID: NS:ntifs._FS_BPIO_RESULTS
 tech.root: ifsk
 title: FS_BPIO_RESULTS
-ms.date: 07/08/2021
+ms.date: 12/08/2021
 targetos: Windows
 description: The FS_BPIO_RESULTS structure defines BypassIO operation-specific outputs for FS_BPIO_OP_ENABLE and FS_BPIO_OP_QUERY operations when a driver is failing the operation.
 prerelease: false
@@ -72,7 +72,7 @@ Receives a unique, descriptive string describing why the driver vetoed the enabl
 
 **FS_BPIO_RESULTS** is returned in the [**FS_BPIO_OPERATIONS**](ne-ntifs-fs_bpio_operations.md) structure when a driver fails an enable or query BypassIO operation.
 
-See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
+See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) and [Supporting BypassIO operations](/windows-hardware/drivers/ifs/bypassio-operations) for more information.
 
 ## -see-also
 

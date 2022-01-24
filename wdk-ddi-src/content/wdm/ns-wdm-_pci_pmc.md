@@ -78,49 +78,49 @@ Reserved.
 
 ### -field Support
 
-#### Rsvd2
+### -field Support.Rsvd2
 
 Reserved.
 
 
 
-#### D1
+### -field Support.D1
 
 Reserved.
 
 
 
-#### D2
+### -field Support.D2
 
 Reserved.
 
 
 
-#### PMED0
+### -field Support.PMED0
 
 Indicates that the device can assert the PME signal from D0.
 
 
 
-#### PMED1
+### -field Support.PMED1
 
 Indicates that the device can assert the PME signal from D1.
 
 
 
-#### PMED2
+### -field Support.PMED2
 
 Indicates that the device can assert the PME signal from D2.
 
 
 
-#### PMED3Hot
+### -field Support.PMED3Hot
 
 Indicates that the device can assert the PME signal from D3.
 
 
 
-#### PMED3Cold
+### -field Support.PMED3Cold
 
 Indicates that the device can assert the PME signal from D3.
 
