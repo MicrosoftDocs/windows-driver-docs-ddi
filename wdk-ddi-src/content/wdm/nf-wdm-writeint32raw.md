@@ -2,7 +2,7 @@
 UID: NF:wdm.WriteInt32Raw
 tech.root: 
 title: WriteInt32Raw
-ms.date: 
+ms.date: 01/24/2022
 targetos: Windows
 description: 
 prerelease: false

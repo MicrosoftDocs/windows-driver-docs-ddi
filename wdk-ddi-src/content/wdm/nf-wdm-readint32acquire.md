@@ -2,7 +2,7 @@
 UID: NF:wdm.ReadInt32Acquire
 tech.root: 
 title: ReadInt32Acquire
-ms.date: 
+ms.date: 01/24/2022
 targetos: Windows
 description: 
 prerelease: false

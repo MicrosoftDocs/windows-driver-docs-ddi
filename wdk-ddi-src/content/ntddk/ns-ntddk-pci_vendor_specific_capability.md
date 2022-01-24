@@ -2,7 +2,7 @@
 UID: NS:ntddk._PCI_VENDOR_SPECIFIC_CAPABILITY
 tech.root: 
 title: PCI_VENDOR_SPECIFIC_CAPABILITY
-ms.date: 
+ms.date: 01/24/2022
 targetos: Windows
 description: 
 prerelease: false

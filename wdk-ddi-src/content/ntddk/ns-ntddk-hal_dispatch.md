@@ -2,7 +2,7 @@
 UID: NS:ntddk.__unnamed_struct_22
 tech.root: 
 title: HAL_DISPATCH
-ms.date: 
+ms.date: 01/24/2022
 targetos: Windows
 description: 
 prerelease: false

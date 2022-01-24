@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEA_THROTTLE_PCIE_REMOVE_EVENT
 tech.root: 
 title: WHEA_THROTTLE_PCIE_REMOVE_EVENT
-ms.date: 
+ms.date: 01/24/2022
 targetos: Windows
 description: 
 prerelease: false

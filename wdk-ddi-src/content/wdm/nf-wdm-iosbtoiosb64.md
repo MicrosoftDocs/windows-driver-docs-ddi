@@ -2,7 +2,7 @@
 UID: NF:wdm.IosbToIosb64
 tech.root: 
 title: IosbToIosb64
-ms.date: 
+ms.date: 01/24/2022
 targetos: Windows
 description: 
 prerelease: false

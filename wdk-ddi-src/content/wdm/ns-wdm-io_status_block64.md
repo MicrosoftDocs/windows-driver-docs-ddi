@@ -2,7 +2,7 @@
 UID: NS:wdm._IO_STATUS_BLOCK64
 tech.root: 
 title: IO_STATUS_BLOCK64
-ms.date: 
+ms.date: 01/24/2022
 targetos: Windows
 description: 
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEA_THROTTLE_MEMORY_ADD_OR_REMOVE_EVENT
 tech.root: 
 title: WHEA_THROTTLE_MEMORY_ADD_OR_REMOVE_EVENT
-ms.date: 
+ms.date: 01/24/2022
 targetos: Windows
 description: 
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEA_PCIE_CORRECTABLE_ERROR_SECTION_HEADER
 tech.root: 
 title: WHEA_PCIE_CORRECTABLE_ERROR_SECTION_HEADER
-ms.date: 
+ms.date: 01/24/2022
 targetos: Windows
 description: 
 prerelease: false

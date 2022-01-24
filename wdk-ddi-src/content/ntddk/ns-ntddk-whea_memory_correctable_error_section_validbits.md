@@ -2,7 +2,7 @@
 UID: NS:ntddk._WHEA_MEMORY_CORRECTABLE_ERROR_SECTION_VALIDBITS
 tech.root: 
 title: WHEA_MEMORY_CORRECTABLE_ERROR_SECTION_VALIDBITS
-ms.date: 
+ms.date: 01/24/2022
 targetos: Windows
 description: 
 prerelease: false

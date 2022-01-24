@@ -2,7 +2,7 @@
 UID: NS:wdm.__unnamed_struct_13
 tech.root: 
 title: ACPI_INTERFACE_STANDARD2
-ms.date: 
+ms.date: 01/24/2022
 targetos: Windows
 description: 
 prerelease: false
