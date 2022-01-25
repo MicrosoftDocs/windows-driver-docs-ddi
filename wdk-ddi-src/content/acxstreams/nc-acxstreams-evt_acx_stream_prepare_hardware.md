@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_STREAM_PREPARE_HARDWARE
 ms.date: 07/09/2021
 targetos: Windows
-description: The EvtAcxStreamPrepareHardware event tells the driver when the hardware has been prepared. (TBD is being prepared?)
+description: The EvtAcxStreamPrepareHardware event tells the driver to prepare the hardware for streaming.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,11 @@ dev_langs:
 
 ## -description
 
-The EvtAcxStreamPrepareHardware event tells the driver when the hardware has been prepared. (TBD is being prepared?)
+The EvtAcxStreamPrepareHardware event tells the driver to prepare the hardware for streaming. 
 
 ## -parameters
 
 ### -param Stream
-
-A pointer to a location that receives a handle to the new ACXSTREAM Object.
 
 An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
@@ -58,31 +56,44 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-### Example
+An AcxStream supports different states. These states indicate when audio is flowing (RUN state), audio is not flowing but audio hardware is prepared (PAUSE state), or audio is not flowing and audio hardware is not prepared (STOP state).
 
-TBD - Need to see if this is the correct code sample
+The EvtAcxStreamPrepareHardware event will transition the stream state from the Stop state to the Pause state. The driver should allocate any hardware resources needed for streaming in this event, such as DMA engines. Once the stream is in the Pause state, the driver may receive the [EvtAcxStreamRun](nc-acxstreams-evt_acx_stream_run.md) event to transition to the Run state or the driver may receive the [EvtAcxStreamReleaseHardware](nc-acxstreams-evt_acx_stream_release_hardware.md) event to transition to the Stop state.
+
+### Example
 
 Example usage is shown below.
 
 ```cpp
-EVT_WDF_DEVICE_PREPARE_HARDWARE     Codec_EvtDevicePrepareHardware;
+    ACX_STREAM_CALLBACKS streamCallbacks;
+    ACX_STREAM_CALLBACKS_INIT(&streamCallbacks);
+    streamCallbacks.EvtAcxStreamPrepareHardware     = Codec_EvtStreamPrepareHardware;
+    ...
+    status = AcxStreamInitAssignAcxStreamCallbacks(StreamInit, &streamCallbacks);
+```
 
+```cpp
 #pragma code_seg("PAGE")
 NTSTATUS
 Codec_EvtStreamPrepareHardware(
     _In_ ACXSTREAM Stream
     )
 {
-    PCODEC_STREAM_CONTEXT ctx;
-    CStreamEngine * streamEngine = NULL;
+    PSTREAM_CONTEXT ctx;
+    NTSTATUS        status;
 
     PAGED_CODE();
 
-    ctx = GetCodecStreamContext(Stream);
+    ctx = GetStreamContext(Stream);
 
-    streamEngine = (CStreamEngine*)ctx->StreamEngine;
+    status = AllocateStreamHardware(Stream);
 
-    return streamEngine->PrepareHardware();
+    if (NT_SUCCESS(status))
+    {
+        ctx->StreamState = AcxStreamStatePause;
+    }
+
+    return status;
 }
 ```
 
@@ -96,3 +107,4 @@ Codec_EvtStreamPrepareHardware(
 
 [EVT_ACX_STREAM_RELEASE_HARDWARE](nc-acxstreams-evt_acx_stream_release_hardware.md)
 
+READY2GO

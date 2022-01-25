@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_STREAM_PAUSE
 ms.date: 07/08/2021
 targetos: Windows
-description: The EvtAcxStreamPause event tells the driver when the stream is paused. ??? TBD
+description: The EvtAcxStreamPause event tells the driver to transition the stream state from Run to Pause.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,11 @@ dev_langs:
 
 ## -description
 
-The EvtAcxStreamPause event tells the driver when the stream is paused. ??? TBD
+The EvtAcxStreamPause event tells the driver to transition the stream state from Run to Pause.
 
 ## -parameters
 
 ### -param Stream
-
-A pointer to a location that receives a handle to the new ACXSTREAM Object.
 
 An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
@@ -58,28 +56,24 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An AcxStream support different states. These states indicate when audio is flowing (RUN state) or not flowing (PAUSE or STOP state).
+An AcxStream supports different states. These states indicate when audio is flowing (RUN state), audio is not flowing but audio hardware is prepared (PAUSE state), or audio is not flowing and audio hardware is not prepared (STOP state).
 
-Once the stream is created and the appropriate buffers are allocated, the stream is in the Pause state awaiting stream start. When the client puts the stream into Play state, the ACX framework will call all circuits associated with the stream to indicate the stream state is in Play. The ACXPIN will then be placed in the Play state, at which point data will start flowing. 
+The EvtAcxStreamPause event will transition the stream state from the Run state to the Pause state. Once the stream is in the Pause state, the driver may receive the [EvtAcxStreamRun](nc-acxstreams-evt_acx_stream_run.md) event to transition to the Run state or the driver may receive the [EvtAcxStreamReleaseHardware](nc-acxstreams-evt_acx_stream_release_hardware.md) event to transition to the Stop state.
 
-Once the stream is created and the resources are allocated, the application will call Start on the stream to start playback.   
-The client starts by prerolling a buffer. When the client calls ReleaseBuffer, this will translate to a call in AudioKSE that will call into the ACX layer, which will call EvtAcxStreamSetRenderPacket on the active ACXSTREAM. The property will include the packet index (0-based) and, if appropriate, an EOS flag with the byte offset of the end of the stream in the current packet.  
-
-Durring ACX device power down and removal, if streams are present, ACX SetState callbacks to transition all circuit’s streams to Pause. This is Stream Instance scoped.
+During ACX device power down and removal, if streams are present, ACX will call the EvtAcxStreamPause to transition streams to Pause. This is Stream Instance scoped.
 
 
 ### Example
 
 Example usage is shown below.
 
-TBD - is this the right code to show?
-
 ```cpp
-ACX_STREAM_CALLBACKS streamCallbacks;
-ACX_STREAM_CALLBACKS_INIT(&streamCallbacks);
-streamCallbacks.EvtAcxStreamPause = EvtStreamPause;
+    ACX_STREAM_CALLBACKS streamCallbacks;
+    ACX_STREAM_CALLBACKS_INIT(&streamCallbacks);
+    streamCallbacks.EvtAcxStreamPause = EvtStreamPause;
+    ...
+    status = AcxStreamInitAssignAcxStreamCallbacks(StreamInit, &streamCallbacks);
 ```
-
 
 ```cpp
 #pragma code_seg("PAGE")
@@ -89,27 +83,17 @@ EvtStreamPause(
     )
 {
     PSTREAM_CONTEXT ctx;
-    CStreamEngine * streamEngine = NULL;
+    NTSTATUS        status = STATUS_SUCCESS;
 
     PAGED_CODE();
 
     ctx = GetStreamContext(Stream);
 
-    if (ctx->Notification && ctx->CreateNotificationAcked)
-    {
-        ACXCIRCUIT circuit = AcxStreamGetCircuit(Stream);
-        ULONGLONG  msgId = C_GetNewMessageId(circuit);
-            
-        APX_STREAM_MESSAGE  message;
-        APX_STREAM_MESSAGE_INIT(&message, ApxStreamMessageTypePause);
-        message.MessageId = msgId;
+    status = TransitionStreamToPause(Stream);
 
-        C_SendApxSyncMessage(circuit, msgId, ctx->Notification, &message, sizeof(message));
-    }
+    ctx->StreamState = AcxStreamStatePause;
 
-    streamEngine = (CStreamEngine*)ctx->StreamEngine;
-
-    return streamEngine->Pause();
+    return status;
 }
 ```
 
@@ -123,4 +107,4 @@ EvtStreamPause(
 
 [EVT_ACX_STREAM_RELEASE_HARDWARE](nc-acxstreams-evt_acx_stream_release_hardware.md)
 
-
+READY2GO

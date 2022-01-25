@@ -48,8 +48,6 @@ EvtAcxStreamGetCurrentPacket tells the driver to indicate which packet (0-based)
 
 ### -param Stream
 
-A pointer to a location that receives a handle to the new ACXSTREAM Object.
-
 An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param CurrentPacket
@@ -68,36 +66,34 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
-// Init RT streaming callbacks.
-//
-ACX_RT_STREAM_CALLBACKS rtCallbacks;
-ACX_RT_STREAM_CALLBACKS_INIT(&rtCallbacks);
+    //
+    // Init RT streaming callbacks.
+    //
+    ACX_RT_STREAM_CALLBACKS rtCallbacks;
+    ACX_RT_STREAM_CALLBACKS_INIT(&rtCallbacks);
 
-rtCallbacks.EvtAcxStreamGetCurrentPacket = Dsp_EvtStreamGetCurrentPacket;
+    rtCallbacks.EvtAcxStreamGetCurrentPacket = EvtStreamGetCurrentPacket;
 
-RETURN_NTSTATUS_IF_FAILED(AcxStreamInitAssignAcxRtStreamCallbacks(StreamInit, &rtCallbacks));
+    status = AcxStreamInitAssignAcxRtStreamCallbacks(StreamInit, &rtCallbacks);
 ```
-
-TBD - We should show implementation code here.
 
 ```cpp
 PAGED_CODE_SEG
 NTSTATUS
-Dsp_EvtStreamGetCurrentPacket(
+EvtStreamGetCurrentPacket(
     _In_ ACXSTREAM          Stream,
     _Out_ PULONG            CurrentPacket
 )
 {
-    PDSP_STREAM_CONTEXT ctx;
-    CStreamEngine * streamEngine = NULL;
+    PSTREAM_CONTEXT ctx;
 
     PAGED_CODE();
 
-    ctx = GetDspStreamContext(Stream);
+    ctx = GetStreamContext(Stream);
 
-    streamEngine = static_cast<CStreamEngine*>(ctx->StreamEngine);
+    *CurrentPacket = ctx->CurrentPacket;
 
-    return streamEngine->GetCurrentPacket(CurrentPacket);
+    return STATUS_SUCCESS;
 }
 ```
 
@@ -105,3 +101,4 @@ Dsp_EvtStreamGetCurrentPacket(
 
 [acxstreams.h header](index.md)
 
+READY2GO

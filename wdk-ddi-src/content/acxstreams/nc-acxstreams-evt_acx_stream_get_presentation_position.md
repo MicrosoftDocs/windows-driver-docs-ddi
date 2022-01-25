@@ -48,17 +48,15 @@ The EvtAcxStreamGetPresentationPosition tells the driver to indicate the current
 
 ### -param Stream
 
-A pointer to a location that receives a handle to the new ACXSTREAM Object.
-
 An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param PositionInBlocks
 
-This is the position in blocks of the current stream (TBD?). This is a zero/one (TBD?) based position.
+Specifies the block offset from the start of the stream to the current post-decoded, uncompressed position in the stream. A "block" refers to the group of channels in the same sample. So, for example, in a PCM stream a block is the same as a frame. However, for compressed formats a block is a single sample within a frame. This means that for a typical MP3 stream that has 1152 samples in a frame, there are 1152 blocks.
 
 ### -param QPCPosition
 
-The query performance counter value  that provides a time stamp for the first audio frame in the data packet. This timestamp is expressed in 100-nanosecond (1000? TBD) units. This field can be set to null (zero?) if not being used (TBD?).
+Specifies the value of the performance counter at the time that the audio driver reads the presentation position in response to the KSAUDIO_PRESENTATION_POSITION call. A driver writes to this field with the value read from calling KeQueryPerformanceCounter when a snapshot is taken of the presentation position.
 
 ## -returns
 
@@ -70,11 +68,48 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - no sample driver code found
-
 Example usage is shown below.
 
 ```cpp
+    //
+    // Init streaming callbacks.
+    //
+    ACX_RT_STREAM_CALLBACKS rtCallbacks;
+    ACX_RT_STREAM_CALLBACKS_INIT(&rtCallbacks);
+
+    rtCallbacks.EvtAcxStreamGetPresentationPosition = EvtStreamGetPresentationPosition;
+
+    status = AcxStreamInitAssignAcxRtStreamCallbacks(StreamInit, &rtCallbacks);
+```
+
+```cpp
+PAGED_CODE_SEG
+NTSTATUS
+EvtStreamGetPresentationPosition(
+    _In_ ACXSTREAM      Stream,
+    _Out_ PULONGLONG    PositionInBlocks,
+    _Out_ PULONGLONG    QPCPosition
+)
+{
+    PSTREAM_CONTEXT ctx;
+    ULONG               blockAlign;
+    LARGE_INTEGER       qpc;
+
+    PAGED_CODE();
+
+    ctx = GetStreamContext(Stream);
+
+    blockAlign = AcxDataFormatGetBlockAlign(ctx->StreamFormat);
+
+    // Recalculate the stream position that is stored in ctx->StreamPosition
+    UpdateStreamPosition(Stream);
+    qpc = KeQueryPerformanceCounter(NULL);
+
+    *PositionInBlocks = ctx->StreamPosition / blockAlign;
+    *QPCPosition = qpc;
+
+    return STATUS_SUCCESS;
+}
 
 ```
 
@@ -83,3 +118,4 @@ Example usage is shown below.
 
 [acxstreams.h header](index.md)
 
+READY2GO

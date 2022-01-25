@@ -48,8 +48,6 @@ The EvtAcxStreamGetHwLatency event tells the driver to provide stream latency fo
 
 ### -param Stream
 
-A pointer to a location that receives a handle to the new ACXSTREAM Object.
-
 An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param FifoSize
@@ -66,41 +64,39 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
  
 ## -remarks
 
-TBD - Can we show code that services the initialized callback?
-
 Example usage is shown below.
 
 ```cpp
-//
-// Init streaming callbacks.
-//
-ACX_RT_STREAM_CALLBACKS rtCallbacks;
-ACX_RT_STREAM_CALLBACKS_INIT(&rtCallbacks);
-...
-rtCallbacks.EvtAcxStreamGetHwLatency = Dsp_EvtStreamGetHwLatency;
+    //
+    // Init streaming callbacks.
+    //
+    ACX_RT_STREAM_CALLBACKS rtCallbacks;
+    ACX_RT_STREAM_CALLBACKS_INIT(&rtCallbacks);
+    
+    rtCallbacks.EvtAcxStreamGetHwLatency = EvtStreamGetHwLatency;
 
-RETURN_NTSTATUS_IF_FAILED(AcxStreamInitAssignAcxRtStreamCallbacks(StreamInit, &rtCallbacks));
+    status = AcxStreamInitAssignAcxRtStreamCallbacks(StreamInit, &rtCallbacks));
+```
 
-...
-
+```cpp
 PAGED_CODE_SEG
 NTSTATUS
-Dsp_EvtStreamGetHwLatency(
+EvtStreamGetHwLatency(
     _In_ ACXSTREAM Stream,
     _Out_ ULONG * FifoSize,
     _Out_ ULONG * Delay
 )
 {
-    PDSP_STREAM_CONTEXT ctx;
-    CStreamEngine * streamEngine = NULL;
+    PSTREAM_CONTEXT ctx;
 
     PAGED_CODE();
 
-    ctx = GetDspStreamContext(Stream);
+    ctx = GetStreamContext(Stream);
 
-    streamEngine = (CStreamEngine*)ctx->StreamEngine;
+    *FifoSize = ctx->DmaFifoSize;
+    *Delay = ctx->ChipsetDelay + ctx->CodecDelay;
 
-    return streamEngine->GetHWLatency(FifoSize, Delay);
+    return STATUS_SUCCESS;
 }
 ```
 
@@ -109,3 +105,4 @@ Dsp_EvtStreamGetHwLatency(
 
 [acxstreams.h header](index.md)
 
+READY2GO

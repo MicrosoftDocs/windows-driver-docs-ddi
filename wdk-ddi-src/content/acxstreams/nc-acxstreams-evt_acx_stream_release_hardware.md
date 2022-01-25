@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_STREAM_RELEASE_HARDWARE
 ms.date: 08/26/2021
 targetos: Windows
-description: TBD - The EvtAcxStreamReleaseHardware event tells the driver when the hardware is being released. (TBD has been released?) The driver should clear/uninstall stream hardware in this callback. 
+description: The EvtAcxStreamReleaseHardware event tells the driver to release any hardware allocated for the stream and put the stream into the Stop state.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,11 @@ dev_langs:
 
 ## -description
 
-TBD - The EvtAcxStreamReleaseHardware event tells the driver when the hardware is being released. (TBD has been released?) The driver should clear/uninstall stream hardware in this callback. 
+The EvtAcxStreamReleaseHardware event tells the driver to release any hardware allocated for the stream and put the stream into the Stop state. 
 
 ## -parameters
 
 ### -param Stream
-
-A pointer to a location that receives a handle to the new ACXSTREAM Object.
 
 An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
@@ -59,19 +57,23 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-### Example
+An AcxStream supports different states. These states indicate when audio is flowing (RUN state), audio is not flowing but audio hardware is prepared (PAUSE state), or audio is not flowing and audio hardware is not prepared (STOP state).
 
-TBD - Need to see if this is the correct code sample
+The EvtAcxStreamReleaseHardware event will transition the stream state from the Pause state to the Stop state. The driver should release any hardware resources that were allocated for streaming in this event, such as DMA engines. Once the stream is in the Stop state, the driver may receive the [EvtAcxStreamPrepareHardware](nc-acxstreams-evt_acx_stream_prepare_hardware.md) event to transition to the Pause state or the ACXSTREAM object may be destroyed.
+
+### Example
 
 Example usage is shown below.
 
 ```cpp
-ACX_STREAM_CALLBACKS streamCallbacks;
-ACX_STREAM_CALLBACKS_INIT(&streamCallbacks);
-streamCallbacks.EvtAcxStreamReleaseHardware = EvtStreamReleaseHardware;
+    ACX_STREAM_CALLBACKS streamCallbacks;
+    ACX_STREAM_CALLBACKS_INIT(&streamCallbacks);
+    streamCallbacks.EvtAcxStreamReleaseHardware = EvtStreamReleaseHardware;
+    ...
+    status = AcxStreamInitAssignAcxStreamCallbacks(StreamInit, &streamCallbacks);
+```
 
-...
-
+```cpp
 PAGED_CODE_SEG
 NTSTATUS
 EvtStreamReleaseHardware(
@@ -79,23 +81,17 @@ EvtStreamReleaseHardware(
     )
 {
     PSTREAM_CONTEXT ctx;
+    NTSTATUS        status;
 
     PAGED_CODE();
 
     ctx = GetStreamContext(Stream);
-    ASSERT(ctx);
 
-    //
-    // Disable 'remote' stream notifications.
-    //
-    ASSERT(ctx->EventReader);
-    ctx->EventReader->DisableEvents();
+    status = ReleaseStreamHardware(Stream);
 
-    //
-    // Clear/uninstall stream h/w.
-    //
-    ASSERT(ctx->StreamEngine);
-    return ctx->StreamEngine->ReleaseHardware();
+    ctx->StreamState = AcxStreamStateStop;
+
+    return status;
 }
 ```
 
@@ -109,4 +105,4 @@ EvtStreamReleaseHardware(
 
 [EVT_ACX_STREAM_PAUSE_HARDWARE](nc-acxstreams-evt_acx_stream_pause.md)
 
-
+READY2GO
