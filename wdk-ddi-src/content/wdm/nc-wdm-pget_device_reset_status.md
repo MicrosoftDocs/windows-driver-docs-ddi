@@ -1,10 +1,10 @@
 ---
 UID: NC:wdm.PGET_DEVICE_RESET_STATUS
-tech.root: 
+tech.root: kernel
 title: PGET_DEVICE_RESET_STATUS
-ms.date: 
+ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The PGET_DEVICE_RESET_STATUS function...
 prerelease: false
 req.assembly: 
 req.construct-type: function

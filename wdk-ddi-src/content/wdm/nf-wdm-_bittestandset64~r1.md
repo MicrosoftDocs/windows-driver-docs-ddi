@@ -1,10 +1,10 @@
 ---
 UID: NF:wdm._BitTestAndSet64~r1
-tech.root: 
+tech.root: kernel
 title: _BitTestAndSet64
-ms.date: 
+ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The _BitTestAndSet64 function...
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - wdm.h
 api_name:

@@ -1,10 +1,10 @@
 ---
 UID: NF:wdm.Iosb64ToIosb
-tech.root: 
+tech.root: kernel
 title: Iosb64ToIosb
-ms.date: 
+ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The Iosb64ToIosb function...
 prerelease: false
 req.assembly: 
 req.construct-type: function
