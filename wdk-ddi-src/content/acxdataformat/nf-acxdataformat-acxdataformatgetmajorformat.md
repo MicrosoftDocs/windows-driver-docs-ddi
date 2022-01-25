@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - LibDef
 api_location:
  - acxdataformat.h
 api_name:
