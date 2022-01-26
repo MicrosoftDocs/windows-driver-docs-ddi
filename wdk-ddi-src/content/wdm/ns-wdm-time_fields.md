@@ -83,6 +83,6 @@ Specifies a value from 0 to 6 (Sunday to Saturday).
 
 ## -see-also
 
-[**RtlTimeFieldsToTime** function](./nf-wdm-rtltimefieldstotime.md)
+[**RtlTimeFieldsToTime**](./nf-wdm-rtltimefieldstotime.md)
 
 [**RtlTimeToTimeFields**](./nf-wdm-rtltimetotimefields.md)
