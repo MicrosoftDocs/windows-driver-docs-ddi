@@ -50,7 +50,7 @@ The <b>RtlTimeFieldsToTime</b> routine converts <b>TIME_FIELDS</b> information t
 
 ### -param TimeFields [in]
 
-Pointer to a structure of type [**TIME_FIELDS**](./ns-wdm-time_fields.md) that contains the time information to be converted:
+Pointer to a structure of type [**TIME_FIELDS**](./ns-wdm-time_fields.md) that contains the time information to be converted.
 
 ### -param Time [out]
 
