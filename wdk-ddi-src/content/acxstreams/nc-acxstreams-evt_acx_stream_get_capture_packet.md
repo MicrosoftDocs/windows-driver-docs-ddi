@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_GET_CAPTURE_PACKET
 tech.root: audio
 title: EVT_ACX_STREAM_GET_CAPTURE_PACKET
-ms.date: 10/21/2021
+ms.date: 01/25/2022
 targetos: Windows
 description: The EvtAcxStreamGetCapturePacket tells the driver to indicate which packet (0-based) was completely filled most recently, including the QPC value at the time the driver started filling the packet. 
 prerelease: true
@@ -70,9 +70,9 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 Before reading captured audio data from the audio buffer, the OS calls this routine to get information about the available data.
 
-The packet number identifies a packet within the stream. This resets to zero when EVT_ACX_STREAM_RELEASEHW has been called for the stream. The number advances with each captured buffer. From the packet number the OS can derive the packet location within the audio buffer and can also derive the stream position of the packet relative to start of stream.
+The packet number identifies a packet within the stream. This resets to zero when [EVT_ACX_STREAM_RELEASEHARDWARE](nc-acxstreams-evt_acx_stream_release_hardware.md) has been called for the stream. The number advances with each captured buffer. From the packet number the OS can derive the packet location within the audio buffer and can also derive the stream position of the packet relative to start of stream.
 
-The OS may call this routine at any time. In normal operation, the OS calls this routine after the driver calls [AcxRtStreamNotifyPacketComplete](/windows-hardware/drivers/ddi/acxstreams/nf-acxstreams-acxrtstreamnotifypacketcomplete) or after a previous call returns true for MoreData. When the OS calls this routine, the driver may assume that the OS has finished reading all previous packets. If the hardware has captured enough data, the driver may immediately burst the next complete packet to the audio buffer and call AcxRtStreamNotifyPacketComplete again.In the case of capture overflow (when the OS does not read data quickly enough) the audio driver may drop or overwrite some audio data. The audio driver drops or overwrites oldest data first. The audio driver may continue to advance its internal packet counter even though the OS may not have read the data.
+The OS may call this routine at any time. In normal operation, the OS calls this routine after the driver calls [AcxRtStreamNotifyPacketComplete](/windows-hardware/drivers/ddi/acxstreams/nf-acxstreams-acxrtstreamnotifypacketcomplete) or after a previous call returns true for MoreData. When the OS calls this routine, the driver may assume that the OS has finished reading all previous packets. If the hardware has captured enough data, the driver may immediately burst the next complete packet to the audio buffer and call AcxRtStreamNotifyPacketComplete again. In the case of capture overflow (when the OS does not read data quickly enough) the audio driver may drop or overwrite some audio data. The audio driver drops or overwrites oldest data first. The audio driver may continue to advance its internal packet counter even though the OS may not have read the data.
 
 ### Example
 
@@ -115,3 +115,5 @@ CodecC_EvtStreamGetCapturePacket(
 [acxstreams.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

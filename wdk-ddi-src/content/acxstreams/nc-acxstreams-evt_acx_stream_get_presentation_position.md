@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_GET_PRESENTATION_POSITION
 tech.root: audio
 title: EVT_ACX_STREAM_GET_PRESENTATION_POSITION
-ms.date: 07/07/2021
+ms.date: 01/25/2022
 targetos: Windows
 description: The EvtAcxStreamGetPresentationPosition tells the driver to indicate the current position along with the QPC value at the time the current position was calculated. 
 prerelease: true
@@ -56,13 +56,11 @@ Specifies the block offset from the start of the stream to the current post-deco
 
 ### -param QPCPosition
 
-Specifies the value of the performance counter at the time that the audio driver reads the presentation position in response to the KSAUDIO_PRESENTATION_POSITION call. A driver writes to this field with the value read from calling KeQueryPerformanceCounter when a snapshot is taken of the presentation position.
+Specifies the value of the performance counter at the time that the audio driver reads the presentation position in response to the KSAUDIO_PRESENTATION_POSITION call. A driver writes to this field with the value read from calling [KeQueryPerformanceCounter](/windows-hardware/drivers/ddi/wdm/nf-wdm-kequeryperformancecounter) when a snapshot is taken of the presentation position.
 
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
-
-
 
 ## -remarks
 
@@ -119,3 +117,5 @@ EvtStreamGetPresentationPosition(
 [acxstreams.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

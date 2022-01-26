@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_RELEASE_HARDWARE
 tech.root: audio
 title: EVT_ACX_STREAM_RELEASE_HARDWARE
-ms.date: 08/26/2021
+ms.date: 01/25/2022
 targetos: Windows
 description: The EvtAcxStreamReleaseHardware event tells the driver to release any hardware allocated for the stream and put the stream into the Stop state.
 prerelease: true
@@ -106,3 +106,6 @@ EvtStreamReleaseHardware(
 [EVT_ACX_STREAM_PAUSE_HARDWARE](nc-acxstreams-evt_acx_stream_pause.md)
 
 READY2GO
+
+EDITCOMPLETE
+

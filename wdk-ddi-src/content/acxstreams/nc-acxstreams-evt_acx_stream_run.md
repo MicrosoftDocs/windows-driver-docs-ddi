@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_RUN
 tech.root: audio
 title: EVT_ACX_STREAM_RUN
-ms.date: 07/08/2021
+ms.date: 01/25/2022
 targetos: Windows
 description: The EvtAcxStreamRun event tells the driver to transition the stream state from Pause to Run.
 prerelease: true
@@ -53,7 +53,6 @@ An ACXSTREAM object represents an audio stream created by a circuit. The stream 
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
-
 
 ## -remarks
 
@@ -111,3 +110,5 @@ EvtStreamRun(
 [EVT_ACX_STREAM_RELEASE_HARDWARE](nc-acxstreams-evt_acx_stream_release_hardware.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_ALLOCATE_RTPACKETS
 tech.root: audio
 title: EVT_ACX_STREAM_ALLOCATE_RTPACKETS
-ms.date: 10/15/2021
+ms.date: 01/25/2022
 targetos: Windows
 description: The EvtAcxStreamAllocateRtPackets event tells the driver to allocate RtPackets for streaming.
 prerelease: true
@@ -204,3 +204,5 @@ exit:
 [acxstreams.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

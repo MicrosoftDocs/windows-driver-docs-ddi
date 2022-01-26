@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_GET_HW_LATENCY
 tech.root: audio
 title: EVT_ACX_STREAM_GET_HW_LATENCY
-ms.date: 07/07/2021
+ms.date: 01/25/2022
 targetos: Windows
 description: The EvtAcxStreamGetHwLatency event tells the driver to provide stream latency for the specific circuit of this stream (overall latency will be a sum of the latency of the different circuits). 
 prerelease: true
@@ -106,3 +106,5 @@ EvtStreamGetHwLatency(
 [acxstreams.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
