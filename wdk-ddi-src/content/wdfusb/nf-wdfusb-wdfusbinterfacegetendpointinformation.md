@@ -4,7 +4,7 @@ title: WdfUsbInterfaceGetEndpointInformation function (wdfusb.h)
 description: The WdfUsbInterfaceGetEndpointInformation method retrieves information about a specified USB device endpoint and its associated pipe.
 old-location: wdf\wdfusbinterfacegetendpointinformation.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 01/26/2022
 keywords: ["WdfUsbInterfaceGetEndpointInformation function"]
 ms.keywords: DFUsbRef_fff1d755-32af-48d1-b9d6-faa8b118fa8d.xml, WdfUsbInterfaceGetEndpointInformation, WdfUsbInterfaceGetEndpointInformation method, kmdf.wdfusbinterfacegetendpointinformation, wdf.wdfusbinterfacegetendpointinformation, wdfusb/WdfUsbInterfaceGetEndpointInformation
 req.header: wdfusb.h
@@ -69,7 +69,7 @@ An index value that identifies an alternate setting for the interface. For more 
 
 An index value that identifies an endpoint that is associated with the specified alternate setting of the specified interface. (This index value is not the endpoint address.)
 
-### -param EndpointInfo [out]
+### -param EndpointInfo [in, out]
 
 
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_pipe_information">WDF_USB_PIPE_INFORMATION</a> structure that the framework fills in.
