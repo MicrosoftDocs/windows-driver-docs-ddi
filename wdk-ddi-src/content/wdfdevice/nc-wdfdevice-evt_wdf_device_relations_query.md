@@ -73,7 +73,24 @@ Additionally, after the framework calls the <a href="/windows-hardware/drivers/d
 
 The type of work that a driver must do depends on the value received for the <i>RelationType</i> parameter. The value can be one of the following:
 
+**BusRelations**
+<ul> 
+Most framework-based drivers do not report bus relations in an EvtDeviceRelationsQuery callback function. Instead, the drivers follow the guidelines that are described in Enumerating the Devices on a Bus.
+</ul>
 
+**EjectionRelations** 
+<ul>
+Most framework-based drivers do not report ejection relations in an EvtDeviceRelationsQuery callback function. Instead, the driver for the device's bus calls WdfPdoAddEjectionRelationsPhysicalDevice and WdfPdoRemoveEjectionRelationsPhysicalDevice.
+</ul>
+
+**RemovalRelations**
+<ul> 
+Most framework-based drivers do not report removal relations in an EvtDeviceRelationsQuery callback function. Instead, the drivers call WdfDeviceAddRemovalRelationsPhysicalDevice and WdfDeviceRemoveRemovalRelationsPhysicalDevice.
+</ul>
+
+**TargetDeviceRelation**
+<ul> 
+Framework-based drivers do not have to report a device's target relation. Instead, the framework handles this request.
+</ul>
 
 The framework can call the <i>EvtDeviceRelationsQuery</i> callback function with a <i>RelationType</i> value of <b>EjectionRelations</b> or <b>RemovalRelations</b> even if the device is being removed.
-
