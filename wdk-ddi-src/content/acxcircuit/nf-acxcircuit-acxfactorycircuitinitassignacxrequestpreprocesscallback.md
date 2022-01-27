@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
- The AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback function initializes defined AssignAcxRequest Preprocess callbacks for circuit factories.
+The AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback function initializes defined AssignAcxRequest Preprocess callbacks for circuit factories.
 
 ## -parameters
 
@@ -53,10 +53,7 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param EvtObjectAcxRequestPreprocess
 
-TBD - A pointer to a EVT_ACX_OBJECT_PREPROCESS_REQUEST callback. 
-
-DocsTeam - Add link to EVT_ACX_OBJECT_PREPROCESS_REQUEST typedef in AcxRequest header when available.
-
+A pointer to a [EVT_ACX_OBJECT_PREPROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_preprocess_request.md) callback. 
 
 ### -param DriverContext
 
@@ -64,9 +61,7 @@ The driver context defined by the ACXCONTEXT object.  For more information about
 
 ### -param RequestType
 
-An [ACX_REQUEST_TYPE enum]()  that defines different request types, such as AcxRequestTypeAny  or AcxRequestTypeEvent. 
-
-DocsTeam - Add link to enum in AcxRequest header when available.
+An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_request_type.md)  that defines different request types, such as AcxRequestTypeAny  or AcxRequestTypeEvent. 
 
 ### -param Set
 

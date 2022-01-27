@@ -52,9 +52,7 @@ TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXC
 
 ### -param EvtObjectAcxRequestPreprocess
 
-TBD - A pointer to a EVT_ACX_OBJECT_PREPROCESS_REQUEST callback. 
-
-DocsTeam - Add link to EVT_ACX_OBJECT_PREPROCESS_REQUEST typedef in AcxRequest header when available.
+A pointer to a [EVT_ACX_OBJECT_PREPROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_preprocess_request.md) callback. 
 
 ### -param DriverContext
 
