@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddBlob
 tech.root: audio
 title: AcxObjectBagAddBlob
-ms.date: 01/10/2022
+ms.date: 01/27/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagAddBlob function adds blob data to an exisisting, intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,47 @@ dev_langs:
 
 ## -description
 
+The AcxObjectBagAddBlob function adds blob data to an exisisting, intialized AcxObjectBag. 
+
 ## -parameters
 
 ### -param ObjectBag
 
+An intialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -param ValueName
+
+The name of the value that will be used to access the value.
 
 ### -param Value
 
+The Value to be added to the ObjectBag.
+
 ## -returns
+
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
+### Example
+
+This example shows the use of AcxObjectBagAddBlob.
+
+TBD - Is this example code OK?
+
+```cpp
+    NTSTATUS status = STATUS_SUCCESS;
+
+    DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_NAME(VendorPropertiesBlock);
+    STRING vendorBlob;
+    RtlInitString(&vendorBlob, Blob);
+    WDFMEMORY vendorBlobMem;
+    RETURN_NTSTATUS_IF_FAILED(WdfMemoryCreatePreallocated(NULL, vendorBlob.Buffer, vendorBlob.MaximumLength, &vendorBlobMem));
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddBlob(ObjBag, &VendorPropertiesBlock, vendorBlobMem));
+
+```
+
 ## -see-also
+
+[acxmisc.h header](index.md)
 

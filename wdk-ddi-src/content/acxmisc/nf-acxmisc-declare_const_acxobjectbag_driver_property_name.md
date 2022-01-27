@@ -42,6 +42,7 @@ dev_langs:
 
 ## -description
 
+The function adds to and exisisting intialized AcxObjectBag. 
 ## -parameters
 
 ### -param ven
@@ -50,5 +51,15 @@ dev_langs:
 
 ## -remarks
 
+### Example
+
+TBD - Example pending.
+
+```cpp
+
+```
+
 ## -see-also
+
+[acxmisc.h header](index.md)
 

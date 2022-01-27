@@ -42,6 +42,7 @@ dev_langs:
 
 ## -description
 
+The function adds to and exisisting intialized AcxObjectBag. 
 ## -parameters
 
 ### -param Attributes
@@ -50,9 +51,23 @@ dev_langs:
 
 ### -param ObjectBag
 
+An intialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ## -returns
+
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
+### Example
+
+TBD - Example pending.
+
+```cpp
+
+```
+
 ## -see-also
+
+[acxmisc.h header](index.md)
 

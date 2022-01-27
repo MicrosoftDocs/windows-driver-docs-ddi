@@ -43,11 +43,22 @@ dev_langs:
 
 ## -description
 
+The function adds to and exisisting intialized AcxObjectBag. 
 The acxmisc header is used by the ACX audio class extensions.
 
 ## -remarks
 
+### Example
+
+TBD - Example pending.
+
+```cpp
+
+```
+
 ## -see-also
+
+[acxmisc.h header](index.md)
 
 
 - [ACX Audio multi stack cross driver communications](/windows-hardware/drivers/audio/acx-audio-multi-stack)

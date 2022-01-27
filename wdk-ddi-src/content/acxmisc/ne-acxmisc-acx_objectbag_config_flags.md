@@ -2,9 +2,9 @@
 UID: NE:acxmisc._ACX_OBJECTBAG_CONFIG_FLAGS
 tech.root: audio
 title: ACX_OBJECTBAG_CONFIG_FLAGS
-ms.date: 01/10/2022
+ms.date: 01/27/2022
 targetos: Windows
-description: 
+description: The ACX_OBJECTBAG_CONFIG_FLAGS enumeration defines the configuration for an AcxObjectBag. 
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,6 +37,9 @@ dev_langs:
 
 ## -description
 
+The ACX_OBJECTBAG_CONFIG_FLAGS enumeration defines the configuration for an AcxObjectBag. 
+
+
 ## -enum-fields
 
 ### -field AcxObjectBagConfigNoFlags
@@ -53,5 +56,29 @@ dev_langs:
 
 ## -remarks
 
+### Example
+
+This example shows the use of ACX_OBJECTBAG_CONFIG_FLAGS.
+
+```cpp
+        GUID                    uniqueId = { 0 };
+        UNICODE_STRING          uniqueIdStr = { 0 };
+        UNICODE_STRING          pnpDeviceId = { 0 };
+        ACX_OBJECTBAG_CONFIG    objBagCfg;
+
+        DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_NAME(UniqueID);
+
+        ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
+        objBagCfg.Handle = CircuitConfig->CompositeProperties;
+        objBagCfg.Flags |= AcxObjectBagConfigOpenWithHandle;
+
+        WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+        ACXOBJECTBAG objBag = NULL;
+
+        RETURN_NTSTATUS_IF_FAILED(AcxObjectBagOpen(&attributes, &objBagCfg, &objBag));
+```
+
 ## -see-also
+
+[acxmisc.h header](index.md)
 

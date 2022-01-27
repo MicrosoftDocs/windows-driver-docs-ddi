@@ -2,9 +2,9 @@
 UID: NF:acxmisc.ACX_OBJECTBAG_CONFIG_INIT
 tech.root: audio
 title: ACX_OBJECTBAG_CONFIG_INIT
-ms.date: 01/10/2022
+ms.date: 01/27/2022
 targetos: Windows
-description: 
+description: The ACX_OBJECTBAG_CONFIG_INIT function initializes an ACX_OBJECTBAG_CONFIG structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,46 @@ dev_langs:
 
 ## -description
 
+The ACX_OBJECTBAG_CONFIG_INIT function initializes an [ACX_OBJECTBAG_CONFIG](ns-acxmisc-acx_objectbag_config.md) structure.
+
 ## -parameters
 
 ### -param Config
 
+A pointer to the [ACX_OBJECTBAG_CONFIG](ns-acxmisc-acx_objectbag_config.md) structure that will be intialized.
+
 ## -remarks
 
+### Example
+
+This example shows the use of ACX_OBJECTBAG_CONFIG_INIT.
+
+```cpp
+        GUID                    uniqueId = { 0 };
+        UNICODE_STRING          uniqueIdStr = { 0 };
+        UNICODE_STRING          pnpDeviceId = { 0 };
+        ACX_OBJECTBAG_CONFIG    objBagCfg;
+
+        DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_NAME(UniqueID);
+
+        ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
+        objBagCfg.Handle = CircuitConfig->CompositeProperties;
+        objBagCfg.Flags |= AcxObjectBagConfigOpenWithHandle;
+
+        WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+        ACXOBJECTBAG objBag = NULL;
+
+        RETURN_NTSTATUS_IF_FAILED(AcxObjectBagOpen(&attributes, &objBagCfg, &objBag));
+        auto objBag_free = scope_exit([&objBag]() {
+            WdfObjectDelete(objBag);
+            });
+
+        RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveGuid(objBag, &UniqueID, &uniqueId));
+
+        RETURN_NTSTATUS_IF_FAILED(RtlStringFromGUID(uniqueId, &uniqueIdStr));
+```
+
 ## -see-also
+
+[acxmisc.h header](index.md)
 

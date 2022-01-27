@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddString
 tech.root: audio
 title: AcxObjectBagAddString
-ms.date: 01/10/2022
+ms.date: 01/26/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagAddString function adds a string to the object bag, that will be associated with the provided ValueName.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,48 @@ dev_langs:
 
 ## -description
 
+The function adds to and exisisting intialized AcxObjectBag. 
+The AcxObjectBagAddString function adds a string to the object bag, that will be associated with the provided ValueName.
+
 ## -parameters
 
 ### -param ObjectBag
 
+An intialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
+A TBD to the ObjectBag
+
+For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+
 ### -param ValueName
+
+The name of the value that will be used to access the value.
+
+A ValueName that will be associated with the added string and can be used to retrieve the stored string.
 
 ### -param Value
 
+The Value to be added to the ObjectBag.
+
+The value of the string stored in the ObjectBag.
+
+A pointer to a location that receives a handle to the new string object.
+
 ## -returns
+
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
+### Example
+
+TBD - Example pending.
+
+```cpp
+
+```
+
 ## -see-also
+
+[acxmisc.h header](index.md)
 

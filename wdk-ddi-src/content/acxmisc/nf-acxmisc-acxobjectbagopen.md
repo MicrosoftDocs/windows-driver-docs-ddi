@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagOpen
 tech.root: audio
 title: AcxObjectBagOpen
-ms.date: 01/10/2022
+ms.date: 01/27/2022
 targetos: Windows
-description: 
+description: The function AcxObjectBagOpen opens an exisisting, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+The function AcxObjectBagOpen opens an exisisting, intialized AcxObjectBag.
+ 
 ## -parameters
 
 ### -param Attributes
@@ -50,9 +52,43 @@ dev_langs:
 
 ### -param ObjectBag
 
+An intialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ## -returns
+
+Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
+### Example
+
+This example shows the use of ACX_OBJECTBAG_CONFIG.
+
+```cpp
+        GUID                    uniqueId = { 0 };
+        UNICODE_STRING          uniqueIdStr = { 0 };
+        UNICODE_STRING          pnpDeviceId = { 0 };
+        ACX_OBJECTBAG_CONFIG    objBagCfg;
+
+        DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_NAME(UniqueID);
+
+        ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
+        objBagCfg.Handle = CircuitConfig->CompositeProperties;
+        objBagCfg.Flags |= AcxObjectBagConfigOpenWithHandle;
+
+        WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+        ACXOBJECTBAG objBag = NULL;
+
+        RETURN_NTSTATUS_IF_FAILED(AcxObjectBagOpen(&attributes, &objBagCfg, &objBag));
+        auto objBag_free = scope_exit([&objBag]() {
+            WdfObjectDelete(objBag);
+            });
+
+        RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveGuid(objBag, &UniqueID, &uniqueId));
+
+```
+
 ## -see-also
+
+[acxmisc.h header](index.md)
 

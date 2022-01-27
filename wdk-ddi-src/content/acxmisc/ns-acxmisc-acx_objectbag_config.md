@@ -2,7 +2,7 @@
 UID: NS:acxmisc._ACX_OBJECTBAG_CONFIG
 tech.root: audio
 title: ACX_OBJECTBAG_CONFIG
-ms.date: 01/10/2022
+ms.date: 01/27/2022
 targetos: Windows
 description: 
 prerelease: true
@@ -44,19 +44,59 @@ dev_langs:
 
 ## -description
 
+The ACX_OBJECTBAG_CONFIG structure defines the configuration for an AcxObjectBag. 
+
 ## -struct-fields
 
 ### -field Size
 
+The length, in bytes, of this structure. 
+
 ### -field Flags
+
+Bitwise OR of [ACX_OBJECTBAG_FLAGS](ne-acxmisc-acx_objectbag_config_flags.md) that is used to configure the object bag.
 
 ### -field ParentKey
 
+The ParentKey of the ObjectBag.
+
 ### -field Name
+
+The name of the ObjectBag that is used to access it.
 
 ### -field Handle
 
+The the ObjectBag handle that is used to TBD.
+
 ## -remarks
 
+### Example
+
+This example shows the use of ACX_OBJECTBAG_CONFIG.
+
+```cpp
+        UNICODE_STRING          uniqueIdStr = { 0 };
+        UNICODE_STRING          pnpDeviceId = { 0 };
+        ACX_OBJECTBAG_CONFIG    objBagCfg;
+
+        DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_NAME(UniqueID);
+
+        ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
+        objBagCfg.Handle = CircuitConfig->CompositeProperties;
+        objBagCfg.Flags |= AcxObjectBagConfigOpenWithHandle;
+
+        WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+        ACXOBJECTBAG objBag = NULL;
+
+        RETURN_NTSTATUS_IF_FAILED(AcxObjectBagOpen(&attributes, &objBagCfg, &objBag));
+        auto objBag_free = scope_exit([&objBag]() {
+            WdfObjectDelete(objBag);
+            });
+
+        RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveGuid(objBag, &UniqueID, &uniqueId));
+```
+
 ## -see-also
+
+[acxmisc.h header](index.md)
 
