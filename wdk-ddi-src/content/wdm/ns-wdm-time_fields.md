@@ -4,7 +4,7 @@ tech.root: kernel
 title: TIME_FIELDS
 ms.date: 01/25/2022
 targetos: Windows
-description: 
+description: The TIME_FIELDS structure describes time information for time conversion routines.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
