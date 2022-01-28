@@ -2,7 +2,7 @@
 UID: NF:acxtargets.ACX_TARGET_FACTORY_CIRCUIT_CONFIG_INIT
 tech.root: audio
 title: ACX_TARGET_FACTORY_CIRCUIT_CONFIG_INIT
-ms.date: 01/06/2022
+ms.date: 01/27/2022
 targetos: Windows
 description: The ACX_TARGET_FACTORY_CIRCUIT_CONFIG_INIT function initializes an ACX target factory circuit config structure.
 prerelease: true
@@ -48,7 +48,8 @@ The ACX_TARGET_FACTORY_CIRCUIT_CONFIG_INIT function initializes an ACX target fa
 
 ### -param Config
 
-A pointer to the [ACX_TARGET_CIRCUIT_FACTORY_CONFIG](ns-acxtargets-acx_target_circuit_factory_config.md) structure that will be initialized.
+A pointer to the [ACX_TARGET_FACTORY_CIRCUIT_CONFIG](ns-acxtargets-acx_target_factory_circuit_config.md) structure that will be initialized.
+
 
 ## -remarks
 

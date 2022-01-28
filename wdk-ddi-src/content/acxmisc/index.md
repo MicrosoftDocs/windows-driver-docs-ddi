@@ -52,6 +52,10 @@ The acxmisc header is used by the ACX audio class extensions.
 
 TBD - Example pending.
 
+This example shows the use of .
+
+This example shows the use of .
+
 ```cpp
 
 ```

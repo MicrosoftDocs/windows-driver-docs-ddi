@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddSizeT
 tech.root: audio
 title: AcxObjectBagAddSizeT
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagAddSizeT function adds a SIZE_T entry to an exisisting, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,8 @@ dev_langs:
 
 ## -description
 
-The function adds to and exisisting intialized AcxObjectBag. 
+The AcxObjectBagAddSizeT function adds a SIZE_T entry to an exisisting, intialized AcxObjectBag.
+ 
 ## -parameters
 
 ### -param ObjectBag
@@ -62,14 +63,6 @@ The Value to be added to the ObjectBag.
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
-
-### Example
-
-TBD - Example pending.
-
-```cpp
-
-```
 
 ## -see-also
 

@@ -63,6 +63,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 TBD - Example pending.
 
+This example shows the use of .
+
 ```cpp
 
 ```

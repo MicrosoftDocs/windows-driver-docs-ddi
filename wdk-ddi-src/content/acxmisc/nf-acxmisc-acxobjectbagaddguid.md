@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagAddGuid
 tech.root: audio
 title: AcxObjectBagAddGuid
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
 description: The AcxObjectBagAddGuid function adds Guid data to an exisisting, intialized AcxObjectBag. 
 prerelease: true
@@ -66,10 +66,42 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
+The code below shows the use of AcxObjectBagAddGuid.
 
 ```cpp
+    // Object bag
+    //
+    // This obj-bag config setting is shared by all composite/circuit templates.
+    ACX_OBJECTBAG_CONFIG objBagCfg;
+    ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
 
+    WDF_OBJECT_ATTRIBUTES attributes;
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = AcxGetManager(NULL);
+
+    ACXOBJECTBAG objBag = NULL;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
+    auto objBag_scope = scope_exit([&objBag]() {
+        if (objBag != NULL)
+        {
+            WdfObjectDelete(objBag);
+        }
+    });
+
+    //
+    // Add a test unsigned int 4 bytes to the object bag
+    //
+    RETURN_NTSTATUS_IF_FAILED(ObjBagAddTestUI4(objBag, 0));
+
+    //
+    // Add unique circuit ID to the object bag
+    // This unique Id will be picked up by DSP circuit
+    //
+    DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_NAME(UniqueID);
+    GUID uniqueID = { 0 };
+    RETURN_NTSTATUS_IF_FAILED(RtlGUIDFromString(&circuit_IDs[compositeType], &uniqueID));
+
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddGuid(objBag, &UniqueID, uniqueID));
 ```
 
 ## -see-also

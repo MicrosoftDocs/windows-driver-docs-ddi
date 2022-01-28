@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddI2
 ms.date: 01/10/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagAddI2 function adds a unicode string to an exisisting, intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,8 @@ dev_langs:
 
 ## -description
 
-The function adds to and exisisting intialized AcxObjectBag. 
+The AcxObjectBagAddI2 function adds a unicode string to an exisisting, intialized AcxObjectBag. 
+
 ## -parameters
 
 ### -param ObjectBag
@@ -65,10 +66,24 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
+This example shows the use of AcxObjectBagAddI2.
 
 ```cpp
+    DECLARE_CONST_UNICODE_STRING(I2Str,    L"Value_I2");
 
+    // Create a simple object.
+    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
+    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
+    attr.ParentObject = WdfGetDriver();
+    
+    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
+    if (!NT_SUCCESS(status))
+    {
+        ASSERT(FALSE);
+        goto exit;
+    }
+
+    status = AcxObjectBagAddI2(bag1, &I2Str, cValue);
 ```
 
 ## -see-also

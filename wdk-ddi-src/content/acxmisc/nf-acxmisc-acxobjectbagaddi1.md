@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddI1
 tech.root: audio
 title: AcxObjectBagAddI1
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagAddI1 function adds a unicode string to an exisisting, intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The function adds to and exisisting intialized AcxObjectBag. 
+The AcxObjectBagAddI1 function adds a unicode string to an exisisting, intialized AcxObjectBag. 
 
 ## -parameters
 
@@ -58,8 +58,6 @@ The name of the value that will be used to access the value.
 
 The Value to be added to the ObjectBag.
 
-The value to be added to the Object Bag.
-
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
@@ -68,10 +66,24 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
+This example shows the use of AcxObjectBagAddI1.
 
 ```cpp
+    DECLARE_CONST_UNICODE_STRING(I1Str,    L"Value_I1");
 
+    // Create a simple object.
+    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
+    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
+    attr.ParentObject = WdfGetDriver();
+    
+    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
+    if (!NT_SUCCESS(status))
+    {
+        ASSERT(FALSE);
+        goto exit;
+    }
+
+    status = AcxObjectBagAddI1(bag1, &I1Str, cValue);
 ```
 
 ## -see-also

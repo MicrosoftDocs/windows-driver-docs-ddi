@@ -42,7 +42,8 @@ dev_langs:
 
 ## -description
 
-The function adds to and exisisting intialized AcxObjectBag. 
+The function retrieves a value from an exisisting, intialized AcxObjectBag that contains values. 
+
 ## -parameters
 
 ### -param ObjectBag
@@ -67,8 +68,38 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 TBD - Example pending.
 
-```cpp
+This example shows the use of .
 
+```cpp
+    // Create a simple object.
+    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
+    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
+    attr.ParentObject = WdfGetDriver();
+    
+    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
+    if (!NT_SUCCESS(status))
+    {
+        ASSERT(FALSE);
+        goto exit;
+    }
+
+    status = AcxObjectBagAddI1(bag1, &I1Str, cValue);
+    status |= AcxObjectBagAddUI2(bag1, &UI2Str, usValue);
+    status |= AcxObjectBagAddI4(bag1, &I4Str, lValue);
+    status |= AcxObjectBagAddUI8(bag1, &UI8Str, ul64Value);
+    //status |= AcxObjectBagAddFloat(bag1, &FloatStr, fValue);
+
+    if (!NT_SUCCESS(status))
+    {
+        ASSERT(FALSE);
+        goto exit;
+    }
+
+    // Read written values.
+    status = AcxObjectBagRetrieveI1(bag1, &I1Str, &cValue2);
+    status |= AcxObjectBagRetrieveUI2(bag1, &UI2Str, &usValue2);
+    status |= AcxObjectBagRetrieveI4(bag1, &I4Str, &lValue2);
+    status |= AcxObjectBagRetrieveUI8(bag1, &UI8Str, &ul64Value2);
 ```
 
 ## -see-also

@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddI4
 tech.root: audio
 title: AcxObjectBagAddI4
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagAddI4 function adds a unicode string to an exisisting, intialized AcxObjectBag.  
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,8 @@ dev_langs:
 
 ## -description
 
-The function adds to and exisisting intialized AcxObjectBag. 
+The AcxObjectBagAddI4 function adds a unicode string to an exisisting, intialized AcxObjectBag. 
+ 
 ## -parameters
 
 ### -param ObjectBag
@@ -65,9 +66,34 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
+This example shows the use of AcxObjectBagAddI4.
 
 ```cpp
+    DECLARE_CONST_UNICODE_STRING(I4Str,    L"Value_I4");
+
+    // Create a simple object.
+    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
+    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
+    attr.ParentObject = WdfGetDriver();
+    
+    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
+    if (!NT_SUCCESS(status))
+    {
+        ASSERT(FALSE);
+        goto exit;
+    }
+
+
+    status |= AcxObjectBagAddI4(bag1, &I4Str, lValue);
+
+    if (!NT_SUCCESS(status))
+    {
+        ASSERT(FALSE);
+        goto exit;
+    }
+
+    // Read written values.
+    status = AcxObjectBagRetrieveI4(bag1, &I4Str, &lValue2);
 
 ```
 

@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddMultiString
 tech.root: audio
 title: AcxObjectBagAddMultiString
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagAddMultiString function adds a MultiString to an exisisting, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,8 @@ dev_langs:
 
 ## -description
 
-The function adds to and exisisting intialized AcxObjectBag. 
+The AcxObjectBagAddMultiString function adds a MultiString to an exisisting, intialized AcxObjectBag. 
+
 ## -parameters
 
 ### -param ObjectBag
@@ -63,10 +64,12 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
+This example shows the use of AcxObjectBagAddMultiString.
 
 ```cpp
-
+    // Add multi-string value in bag.
+    //
+    status = AcxObjectBagAddMultiString(objBag, inParams->ValueName, (LPCWSTR)inParams->Data);
 ```
 
 ## -see-also

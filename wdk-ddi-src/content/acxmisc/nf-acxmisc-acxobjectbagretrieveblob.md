@@ -42,7 +42,8 @@ dev_langs:
 
 ## -description
 
-The function adds to and exisisting intialized AcxObjectBag. 
+The function retrieves a value from an exisisting, intialized AcxObjectBag that contains values. 
+
 ## -parameters
 
 ### -param ObjectBag
@@ -68,6 +69,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 TBD - Example pending.
+
+This example shows the use of .
 
 ```cpp
 

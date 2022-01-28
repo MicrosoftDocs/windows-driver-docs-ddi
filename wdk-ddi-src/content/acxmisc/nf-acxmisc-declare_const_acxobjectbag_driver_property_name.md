@@ -2,9 +2,9 @@
 UID: NF:acxmisc.DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME
 tech.root: audio
 title: DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME function declares a constant that can be used to work with a AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,21 +42,26 @@ dev_langs:
 
 ## -description
 
-The function adds to and exisisting intialized AcxObjectBag. 
+The DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME function declares a constant that can be used to work with a AcxObjectBag. 
+
 ## -parameters
 
 ### -param ven
 
+TBD - the ven is the TBD vendor ID  to TBD
+
 ### -param name
+
+The name of the declared constant.
 
 ## -remarks
 
 ### Example
 
-TBD - Example pending.
+This example shows the use of DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME.
 
 ```cpp
-
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(msft, TestUI4);
 ```
 
 ## -see-also

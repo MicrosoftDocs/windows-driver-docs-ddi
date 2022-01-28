@@ -39,20 +39,34 @@ dev_langs:
 
 The ACX_OBJECTBAG_CONFIG_FLAGS enumeration defines the configuration for an AcxObjectBag. 
 
-
 ## -enum-fields
 
 ### -field AcxObjectBagConfigNoFlags
 
+Indicates that no config flags are set.
+
 ### -field AcxObjectBagConfigEnableReads
+
+Indicates that reads are enabled.
 
 ### -field AcxObjectBagConfigEnableWrites
 
+Indicates that writes are enabled.
+
 ### -field AcxObjectBagConfigFailIfExist
+
+TBD - Indicates that .
+
 
 ### -field AcxObjectBagConfigOpenWithHandle
 
+TBD - Indicates that .
+
+
 ### -field AcxObjectBagConfigValidFlags
+
+For internal validation, do not use.
+
 
 ## -remarks
 
