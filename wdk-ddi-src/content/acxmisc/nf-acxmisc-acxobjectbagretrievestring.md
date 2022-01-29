@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveString
 tech.root: audio
 title: AcxObjectBagRetrieveString
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagRetrieveString function retrieves a string value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The function retrieves a value from an exisisting, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveString function retrieves a string value from an existing, intialized AcxObjectBag that contains values. 
  
 ## -parameters
 
@@ -56,7 +56,7 @@ The name of the value that will be used to access the value.
 
 ### -param Value
 
-The Value to be added to the ObjectBag.
+The  WDFSTRING object value to be retrieved from the ObjectBag.
 
 ## -returns
 
@@ -66,12 +66,40 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
-This example shows the use of .
+This example shows the use of AcxObjectBagRetrieveString.
 
 ```cpp
+    status = RtlUnicodeStringInit(&usName, inParams->ValueName);
+    if (!NT_SUCCESS(status))
+    {
+        DrvLogError(g_RecorderLog, FLAG_DDI, 
+                    "WDFDEVICE %p, RtlUnicodeStringInit(%S) failed, %!STATUS!", 
+                    m_Device, inParams->ValueName, status);
+        goto exit;
+    }
 
+    //
+    // Set the specified property.
+    //
+    switch(inParams->ValueType)
+    {
+    case REG_SZ:
+        //
+        // Create an empty WDF string to get the value.
+        //
+        status = WdfStringCreate(nullptr, nullptr, &wsValue);
+        if (!NT_SUCCESS(status))
+        {
+            DrvLogError(g_RecorderLog, FLAG_DDI, 
+                        "WDFDEVICE %p, WdfStringCreate failed, %!STATUS!", 
+                        m_Device, status);
+            goto exit;
+        }
+
+        //
+        // Get the string value from bag.
+        //
+        status = AcxObjectBagRetrieveString(objBag, &usName, wsValue);
 ```
 
 ## -see-also

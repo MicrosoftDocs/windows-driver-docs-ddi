@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveMultiString
 tech.root: audio
 title: AcxObjectBagRetrieveMultiString
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagRetrieveMultiString function retrieves a  MultiString value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The function retrieves a value from an exisisting, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveMultiString function retrieves a  MultiString value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 
@@ -58,6 +58,8 @@ The name of the value that will be used to access the value.
 
 ### -param Values
 
+The Values to be retrieved from the ObjectBag.
+
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
@@ -67,8 +69,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 TBD - Example pending.
-
-This example shows the use of .
 
 ```cpp
 

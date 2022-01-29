@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagRetrieveUI4
 ms.date: 01/10/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagRetrieveUI4 function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The function retrieves a value from an exisisting, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveUI4 function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 
@@ -56,7 +56,7 @@ The name of the value that will be used to access the value.
 
 ### -param Value
 
-The Value to be added to the ObjectBag.
+The Value to be retrieved from the ObjectBag.
 
 ## -returns
 
@@ -66,12 +66,33 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
-This example shows the use of .
+This example shows the use of AcxObjectBagRetrieveUI4.
 
 ```cpp
+    DECLARE_CONST_UNICODE_STRING(I4Str,    L"Value_I4");
 
+    // Create a simple object.
+    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
+    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
+    attr.ParentObject = WdfGetDriver();
+    
+    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
+    if (!NT_SUCCESS(status))
+    {
+        ASSERT(FALSE);
+        goto exit;
+    }
+
+    status = AcxObjectBagAddUI4(bag1, &UI4Str, usValue);
+
+    if (!NT_SUCCESS(status))
+    {
+        ASSERT(FALSE);
+        goto exit;
+    }
+
+    // Read written values.
+    status = AcxObjectBagRetrieveUI2(bag1, &UI4Str, &usValue2);
 ```
 
 ## -see-also

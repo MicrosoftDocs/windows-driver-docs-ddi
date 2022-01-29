@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_PIN_COMMUNICATION** enumeration is used by the [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md) structure to indicate the communication type of a pin.
+The **ACX_PIN_COMMUNICATION** enumeration is used by the [ACX_PIN_CONFIG](..\acxpin\ns-acxpin-acx_pin_config.md) structure to indicate the communication type of a pin.
 
 ## -enum-fields
 

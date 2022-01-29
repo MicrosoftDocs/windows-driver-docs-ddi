@@ -54,7 +54,7 @@ Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/
 
 ### -param Config
 
-An initialized [ACX_TARGET_STREAM_CONFIG structure](ns-acxtargets-acx_target-stream_config.md) that describes the configuration of the target factory circuit.
+An initialized [ACX_TARGET_STREAM_CONFIG structure](ns-acxtargets-acx_target_stream_config.md) that describes the configuration of the target factory circuit.
 
 ### -param TargetStream
 
@@ -69,7 +69,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 ```cpp
-
     WDF_OBJECT_ATTRIBUTES               attributes;
     PAGGREGATOR_PIN_CONTEXT             pinCtx;
     ACXSTREAM                           stream;

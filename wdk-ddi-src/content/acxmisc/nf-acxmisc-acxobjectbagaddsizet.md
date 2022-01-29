@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddSizeT
 ms.date: 01/28/2022
 targetos: Windows
-description: The AcxObjectBagAddSizeT function adds a SIZE_T entry to an exisisting, intialized AcxObjectBag.
+description: The AcxObjectBagAddSizeT function adds a SIZE_T entry to an existing, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddSizeT function adds a SIZE_T entry to an exisisting, intialized AcxObjectBag.
+The AcxObjectBagAddSizeT function adds a SIZE_T entry to an existing, intialized AcxObjectBag.
  
 ## -parameters
 

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddMultiString
 ms.date: 01/28/2022
 targetos: Windows
-description: The AcxObjectBagAddMultiString function adds a MultiString to an exisisting, intialized AcxObjectBag.
+description: The AcxObjectBagAddMultiString function adds a MultiString to an existing, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddMultiString function adds a MultiString to an exisisting, intialized AcxObjectBag. 
+The AcxObjectBagAddMultiString function adds a MultiString to an existing, intialized AcxObjectBag. 
 
 ## -parameters
 

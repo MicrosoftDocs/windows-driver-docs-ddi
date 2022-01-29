@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveUI8
 tech.root: audio
 title: AcxObjectBagRetrieveUI8
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagRetrieveUI8 function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The function retrieves a value from an exisisting, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveUI8 function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 
@@ -56,7 +56,7 @@ The name of the value that will be used to access the value.
 
 ### -param Value
 
-The Value to be added to the ObjectBag.
+The Value to be retrieved from the ObjectBag.
 
 ## -returns
 
@@ -71,6 +71,8 @@ TBD - Example pending.
 This example shows the use of .
 
 ```cpp
+    DECLARE_CONST_UNICODE_STRING(UI8Str,   L"Value_UI81");
+
     // Create a simple object.
     ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
     WDF_OBJECT_ATTRIBUTES_INIT(&attr);

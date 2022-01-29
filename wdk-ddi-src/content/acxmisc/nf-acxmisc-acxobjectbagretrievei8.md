@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveI8
 tech.root: audio
 title: AcxObjectBagRetrieveI8
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagRetrieveI8 function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The function retrieves a value from an exisisting, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveI8 function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ The name of the value that will be used to access the value.
 
 ### -param Value
 
-The Value to be added to the ObjectBag.
+The unicode string Value to be retrieved from the ObjectBag.
 
 ## -returns
 
@@ -66,9 +66,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
-This example shows the use of .
+This example shows the use of AcxObjectBagRetrieveI8.
 
 ```cpp
     // Create a simple object.
@@ -83,9 +81,8 @@ This example shows the use of .
         goto exit;
     }
 
-
-    status |= AcxObjectBagAddUI8(bag1, &UI8Str, ul64Value);
-    //status |= AcxObjectBagAddFloat(bag1, &FloatStr, fValue);
+    // Add something to the bag
+    status = AcxObjectBagAddUI8(bag1, &UI8Str, ul64Value);
 
     if (!NT_SUCCESS(status))
     {
@@ -94,9 +91,7 @@ This example shows the use of .
     }
 
     // Read written values.
-
-    status |= AcxObjectBagRetrieveUI8(bag1, &UI8Str, &ul64Value2);
-
+    status = AcxObjectBagRetrieveUI8(bag1, &UI8Str, &ul64Value2);
 ```
 
 ## -see-also

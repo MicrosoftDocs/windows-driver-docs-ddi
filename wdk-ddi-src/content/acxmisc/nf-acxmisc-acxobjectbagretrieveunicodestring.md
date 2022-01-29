@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveUnicodeString
 tech.root: audio
 title: AcxObjectBagRetrieveUnicodeString
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagRetrieveUnicodeString function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The function retrieves a value from an exisisting, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveUnicodeString function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 
@@ -56,7 +56,7 @@ The name of the value that will be used to access the value.
 
 ### -param Value
 
-The Value to be added to the ObjectBag.
+The Value to be retrieved from the ObjectBag.
 
 ## -returns
 
@@ -68,7 +68,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 TBD - Example pending.
 
-This example shows the use of .
+This example shows the use of AcxObjectBagRetrieveUnicodeString.
 
 ```cpp
 

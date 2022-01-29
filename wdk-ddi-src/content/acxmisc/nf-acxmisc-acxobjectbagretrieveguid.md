@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveGuid
 tech.root: audio
 title: AcxObjectBagRetrieveGuid
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagRetrieveGuid function retrieves a GUID value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The function retrieves a value from an exisisting, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveGuid function retrieves a GUID value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 
@@ -56,7 +56,7 @@ The name of the value that will be used to access the value.
 
 ### -param Value
 
-The Value to be added to the ObjectBag.
+The GUID Value to be retrieved from the ObjectBag.
 
 ## -returns
 
@@ -66,12 +66,28 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
-This example shows the use of .
+This example shows the use of AcxObjectBagRetrieveGuid.
 
 ```cpp
+        UNICODE_STRING          uniqueIdStr = { 0 };
+        UNICODE_STRING          pnpDeviceId = { 0 };
+        ACX_OBJECTBAG_CONFIG    objBagCfg;
 
+        DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_NAME(UniqueID);
+
+        ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
+        objBagCfg.Handle = CircuitConfig->CompositeProperties;
+        objBagCfg.Flags |= AcxObjectBagConfigOpenWithHandle;
+
+        WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+        ACXOBJECTBAG objBag = NULL;
+
+        RETURN_NTSTATUS_IF_FAILED(AcxObjectBagOpen(&attributes, &objBagCfg, &objBag));
+        auto objBag_free = scope_exit([&objBag]() {
+            WdfObjectDelete(objBag);
+            });
+
+        RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveGuid(objBag, &UniqueID, &uniqueId));
 ```
 
 ## -see-also

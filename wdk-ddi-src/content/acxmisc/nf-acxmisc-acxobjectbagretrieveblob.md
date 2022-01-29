@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveBlob
 tech.root: audio
 title: AcxObjectBagRetrieveBlob
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagRetrieveBlob function retrieves a blob value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The function retrieves a value from an exisisting, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveBlob function retrieves a blob value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 
@@ -56,9 +56,11 @@ The name of the value that will be used to access the value.
 
 ### -param ValueAttributes
 
+Optional WDF_OBJECT_ATTRIBUTES that can be used to define additional ValueAttributes. 
+
 ### -param Value
 
-The Value to be added to the ObjectBag.
+The Value to be retrieved from the ObjectBag.
 
 ## -returns
 
@@ -68,12 +70,20 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
-This example shows the use of .
+This example shows the use of AcxObjectBagRetrieveBlob.
 
 ```cpp
+    WDFMEMORY vendorPropertiesBlock = NULL;
+    PVOID vendorPropertiesBuffer = NULL;
+    size_t vendorPropertiesSize = 0;
+    NTSTATUS status = STATUS_NOT_FOUND;
 
+    PAGED_CODE();
+
+    //
+    // Retrieve the vendor blob from the CircuitProperties object bag. 
+    //
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveBlob(CircuitProperties, &VendorPropertiesBlock, NULL, &vendorPropertiesBlock));
 ```
 
 ## -see-also

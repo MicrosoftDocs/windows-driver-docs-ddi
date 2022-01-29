@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveI2
 tech.root: audio
 title: AcxObjectBagRetrieveI2
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagRetrieveI2 function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The function retrieves a value from an exisisting, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveI2 function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 
@@ -56,7 +56,7 @@ The name of the value that will be used to access the value.
 
 ### -param Value
 
-The Value to be added to the ObjectBag.
+The unicode string Value to be retrieved from the ObjectBag.
 
 ## -returns
 
@@ -71,7 +71,7 @@ TBD - Example pending.
 This example shows the use of .
 
 ```cpp
-    DECLARE_CONST_UNICODE_STRING(I1Str,    L"Value_I1");
+    DECLARE_CONST_UNICODE_STRING(I2Str,    L"Value_I2");
 
     // Create a simple object.
     ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
@@ -85,7 +85,8 @@ This example shows the use of .
         goto exit;
     }
 
-    status |= AcxObjectBagAddUI2(bag1, &UI2Str, usValue);
+    // Add something to the bag
+    status = AcxObjectBagAddUI2(bag1, &UI2Str, usValue);
 
 
     if (!NT_SUCCESS(status))
@@ -95,8 +96,7 @@ This example shows the use of .
     }
 
     // Read written values.
-    status = AcxObjectBagRetrieveI1(bag1, &I1Str, &cValue2);
-    status |= AcxObjectBagRetrieveUI2(bag1, &UI2Str, &usValue2);
+   status = AcxObjectBagRetrieveUI2(bag1, &UI2Str, &usValue2);
 ```
 
 ## -see-also

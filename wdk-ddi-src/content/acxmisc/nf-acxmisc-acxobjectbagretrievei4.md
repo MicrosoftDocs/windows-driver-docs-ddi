@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveI4
 tech.root: audio
 title: AcxObjectBagRetrieveI4
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagRetrieveI4 function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The function retrieves a value from an exisisting, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveI4 function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ The name of the value that will be used to access the value.
 
 ### -param Value
 
-The Value to be added to the ObjectBag.
+The unicode string Value to be retrieved from the ObjectBag.
 
 ## -returns
 
@@ -66,9 +66,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
-This example shows the use of .
+This example shows the use of AcxObjectBagRetrieveI4.
 
 ```cpp
     DECLARE_CONST_UNICODE_STRING(I4Str,    L"Value_I4");
@@ -85,8 +83,8 @@ This example shows the use of .
         goto exit;
     }
 
-
-    status |= AcxObjectBagAddI4(bag1, &I4Str, lValue);
+    // Add something to the bag
+    status = AcxObjectBagAddI4(bag1, &I4Str, lValue);
 
     if (!NT_SUCCESS(status))
     {
@@ -95,7 +93,7 @@ This example shows the use of .
     }
 
     // Read written values.
-    status |= AcxObjectBagRetrieveI4(bag1, &I4Str, &lValue2);
+    status = AcxObjectBagRetrieveI4(bag1, &I4Str, &lValue2);
 ```
 
 ## -see-also

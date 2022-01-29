@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddI2
 ms.date: 01/10/2022
 targetos: Windows
-description: The AcxObjectBagAddI2 function adds a unicode string to an exisisting, intialized AcxObjectBag. 
+description: The AcxObjectBagAddI2 function adds a unicode string to an existing, intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddI2 function adds a unicode string to an exisisting, intialized AcxObjectBag. 
+The AcxObjectBagAddI2 function adds a unicode string to an existing, intialized AcxObjectBag. 
 
 ## -parameters
 

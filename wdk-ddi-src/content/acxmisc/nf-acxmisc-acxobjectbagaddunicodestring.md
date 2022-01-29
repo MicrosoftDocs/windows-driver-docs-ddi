@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddUnicodeString
 tech.root: audio
 title: AcxObjectBagAddUnicodeString
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagAddUnicodeString function adds a unicode string to and existing, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,8 @@ dev_langs:
 
 ## -description
 
-The function adds to and exisisting intialized AcxObjectBag. 
+The AcxObjectBagAddUnicodeString function adds a unicode string to and existing, intialized AcxObjectBag.
+
 ## -parameters
 
 ### -param ObjectBag
@@ -55,7 +56,7 @@ The name of the value that will be used to access the value.
 
 ### -param Value
 
-The Value to be added to the ObjectBag.
+The UNICODE_STRING Value to be added to the ObjectBag.
 
 ## -returns
 
@@ -65,12 +66,20 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
-This example shows the use of .
+This example shows the use of AcxObjectBagAddUnicodeString.
 
 ```cpp
+    _In_ ACXOBJECTBAG               ObjBag,
+    _In_ UNICODE_STRING             FriendlyNameStr,
+    _In_ UNICODE_STRING             NameStr
+)
+{
+    PAGED_CODE();
 
+    NTSTATUS status = STATUS_SUCCESS;
+
+    DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_NAME(FriendlyName);
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUnicodeString(ObjBag, &FriendlyName, &FriendlyNameStr));
 ```
 
 ## -see-also

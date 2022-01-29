@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveUI2
 tech.root: audio
 title: AcxObjectBagRetrieveUI2
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagRetrieveUI2 function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The function retrieves a value from an exisisting, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveUI2 function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 
@@ -56,7 +56,7 @@ The name of the value that will be used to access the value.
 
 ### -param Value
 
-The Value to be added to the ObjectBag.
+The Value to be retrieved from the ObjectBag.
 
 ## -returns
 
@@ -66,11 +66,11 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
-This example shows the use of .
+This example shows the use of AcxObjectBagRetrieveUI2.
 
 ```cpp
+    DECLARE_CONST_UNICODE_STRING(UI2Str,   L"Value_UI2");
+
     // Create a simple object.
     ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
     WDF_OBJECT_ATTRIBUTES_INIT(&attr);
@@ -83,11 +83,7 @@ This example shows the use of .
         goto exit;
     }
 
-    status = AcxObjectBagAddI1(bag1, &I1Str, cValue);
-    status |= AcxObjectBagAddUI2(bag1, &UI2Str, usValue);
-    status |= AcxObjectBagAddI4(bag1, &I4Str, lValue);
-    status |= AcxObjectBagAddUI8(bag1, &UI8Str, ul64Value);
-    //status |= AcxObjectBagAddFloat(bag1, &FloatStr, fValue);
+    status = AcxObjectBagAddUI2(bag1, &UI2Str, usValue);
 
     if (!NT_SUCCESS(status))
     {
@@ -96,10 +92,7 @@ This example shows the use of .
     }
 
     // Read written values.
-    status = AcxObjectBagRetrieveI1(bag1, &I1Str, &cValue2);
-    status |= AcxObjectBagRetrieveUI2(bag1, &UI2Str, &usValue2);
-    status |= AcxObjectBagRetrieveI4(bag1, &I4Str, &lValue2);
-    status |= AcxObjectBagRetrieveUI8(bag1, &UI8Str, &ul64Value2);
+    status = AcxObjectBagRetrieveUI2(bag1, &UI2Str, &usValue2);
 ```
 
 ## -see-also

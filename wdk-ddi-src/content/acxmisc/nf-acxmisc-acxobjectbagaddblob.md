@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddBlob
 ms.date: 01/27/2022
 targetos: Windows
-description: The AcxObjectBagAddBlob function adds blob data to an exisisting, intialized AcxObjectBag. 
+description: The AcxObjectBagAddBlob function adds blob data to an existing, intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddBlob function adds blob data to an exisisting, intialized AcxObjectBag. 
+The AcxObjectBagAddBlob function adds blob data to an existing, intialized AcxObjectBag. 
 
 ## -parameters
 

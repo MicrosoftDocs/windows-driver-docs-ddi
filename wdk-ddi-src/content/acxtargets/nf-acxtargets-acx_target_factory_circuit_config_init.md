@@ -50,7 +50,6 @@ The ACX_TARGET_FACTORY_CIRCUIT_CONFIG_INIT function initializes an ACX target fa
 
 A pointer to the [ACX_TARGET_FACTORY_CIRCUIT_CONFIG](ns-acxtargets-acx_target_factory_circuit_config.md) structure that will be initialized.
 
-
 ## -remarks
 
 ### Example

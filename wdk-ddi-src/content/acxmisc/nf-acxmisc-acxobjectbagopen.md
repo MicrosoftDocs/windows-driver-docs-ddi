@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagOpen
 ms.date: 01/27/2022
 targetos: Windows
-description: The function AcxObjectBagOpen opens an exisisting, intialized AcxObjectBag.
+description: The function AcxObjectBagOpen opens an existing, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,17 @@ dev_langs:
 
 ## -description
 
-The function AcxObjectBagOpen opens an exisisting, intialized AcxObjectBag.
+The function AcxObjectBagOpen opens an existing, intialized AcxObjectBag.
  
 ## -parameters
 
 ### -param Attributes
 
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various object’s values: cleanup and destroy callbacks, context type, and to specify its parent object.
+
 ### -param Config
+
+A pointer to the intialized [ACX_OBJECTBAG_CONFIG](ns-acxmisc-acx_objectbag_config.md) structure.
 
 ### -param ObjectBag
 
@@ -85,7 +89,6 @@ This example shows the use of ACX_OBJECTBAG_CONFIG.
             });
 
         RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveGuid(objBag, &UniqueID, &uniqueId));
-
 ```
 
 ## -see-also

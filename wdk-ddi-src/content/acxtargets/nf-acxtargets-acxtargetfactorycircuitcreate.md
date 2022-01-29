@@ -54,7 +54,7 @@ Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/
 
 ### -param Config
 
-An initialized [ACX_TARGET_FACTORY_CIRCUIT_CONFIG structure](ns-acxtargets-acx_target-factory_circuit_config.md) that describes the configuration of the target factory circuit.
+An initialized [ACX_TARGET_FACTORY_CIRCUIT_CONFIG structure](ns-acxtargets-acx_target_factory_circuit_config.md) that describes the configuration of the target factory circuit.
 
 ### -param TargetFactoryCircuit
 

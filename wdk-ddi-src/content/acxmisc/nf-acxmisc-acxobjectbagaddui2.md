@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddUI2
 ms.date: 01/10/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagAddUI2 function adds a unicode string to and existing intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,8 @@ dev_langs:
 
 ## -description
 
-The function adds to and exisisting intialized AcxObjectBag. 
+The AcxObjectBagAddUI2 function adds a unicode string to and existing intialized AcxObjectBag. 
+
 ## -parameters
 
 ### -param ObjectBag
@@ -65,12 +66,22 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
-This example shows the use of .
+This example shows the use of AcxObjectBagAddUI2.
 
 ```cpp
+    // Create a simple object.
+    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
+    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
+    attr.ParentObject = WdfGetDriver();
+    
+    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
+    if (!NT_SUCCESS(status))
+    {
+        ASSERT(FALSE);
+        goto exit;
+    }
 
+    status = AcxObjectBagAddUI2(bag1, &UI2Str, usValue);
 ```
 
 ## -see-also

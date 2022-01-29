@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-The function adds to and exisisting intialized AcxObjectBag. 
+The function adds to and existing intialized AcxObjectBag. 
 The acxmisc header is used by the ACX audio class extensions.
 
 ## -remarks

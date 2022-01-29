@@ -56,11 +56,7 @@ A ValueName that will be associated with the added string and can be used to ret
 
 ### -param Value
 
-The Value to be added to the ObjectBag.
-
-The value of the string stored in the ObjectBag.
-
-A pointer to a location that receives a handle to the new string object.
+The value of the WDFSTRING object to be stored in the ObjectBag.
 
 ## -returns
 

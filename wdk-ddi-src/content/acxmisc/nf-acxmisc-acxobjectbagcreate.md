@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagCreate
 tech.root: audio
 title: AcxObjectBagCreate
-ms.date: 01/10/2022
+ms.date: 01/28/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagCreate function creates a new AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,12 +42,17 @@ dev_langs:
 
 ## -description
 
-The function adds to and exisisting intialized AcxObjectBag. 
+The AcxObjectBagCreate function creates a new AcxObjectBag. 
+
 ## -parameters
 
 ### -param Attributes
 
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various object’s values: cleanup and destroy callbacks, context type, and to specify its parent object.
+
 ### -param Config
+
+A pointer to the intialized [ACX_OBJECTBAG_CONFIG](ns-acxmisc-acx_objectbag_config.md) structure.
 
 ### -param ObjectBag
 
@@ -61,12 +66,25 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
-This example shows the use of .
+This example shows the use of AcxObjectBagCreate.
 
 ```cpp
+    DECLARE_CONST_UNICODE_STRING(I1Str,    L"Value_I1");
 
+    // Create a simple object.
+    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
+    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
+    attr.ParentObject = WdfGetDriver();
+    
+    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
+    if (!NT_SUCCESS(status))
+    {
+        ASSERT(FALSE);
+        goto exit;
+    }
+
+    // Add something to the object bag
+    status = AcxObjectBagAddI1(bag1, &I1Str, cValue);
 ```
 
 ## -see-also

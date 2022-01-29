@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddUI1
 ms.date: 01/10/2022
 targetos: Windows
-description: 
+description: The AcxObjectBagAddUI1 function adds a UCHAR to and existing, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,8 @@ dev_langs:
 
 ## -description
 
-The function adds to and exisisting intialized AcxObjectBag. 
+The AcxObjectBagAddUI1 function adds a UCHAR to and existing, intialized AcxObjectBag.
+ 
 ## -parameters
 
 ### -param ObjectBag
@@ -65,12 +66,20 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
-This example shows the use of .
+This example shows the use of AcxObjectBagAddUI1.
 
 ```cpp
+NTSTATUS ObjBagAddDatapathId(
+    _In_ ACXOBJECTBAG               ObjBag,
+    _In_ UCHAR                      Id
+)
+{
+    PAGED_CODE();
 
+    NTSTATUS status = STATUS_SUCCESS;
+
+    DECLARE_CONST_ACXOBJECTBAG_BLUETOOTH_PROPERTY_NAME(DatapathID);
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI1(ObjBag, &DatapathID, Id));
 ```
 
 ## -see-also
