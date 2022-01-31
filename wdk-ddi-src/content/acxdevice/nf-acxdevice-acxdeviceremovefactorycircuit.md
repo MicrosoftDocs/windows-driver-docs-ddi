@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceRemoveFactoryCircuit
 tech.root: audio
 title: AcxDeviceRemoveFactoryCircuit
-ms.date: 09/17/2021
+ms.date: 01/31/2022
 targetos: Windows
 description: The AcxDeviceRemoveFactoryCircuit function removes a factory circuit for creating audio circuits from a WDFDEVICE.
 prerelease: false
@@ -71,3 +71,5 @@ This function can only be called from the [EVT_WDF_DEVICE_RELEASE_HARDWARE](/win
 * [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
 
 READY2GO
+
+EDITCOMPLETE

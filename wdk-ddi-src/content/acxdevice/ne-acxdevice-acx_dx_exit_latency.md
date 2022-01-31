@@ -2,7 +2,7 @@
 UID: NE:acxdevice._ACX_DX_EXIT_LATENCY
 tech.root: audio
 title: ACX_DX_EXIT_LATENCY
-ms.date: 09/17/2021
+ms.date: 01/31/2022
 targetos: Windows
 description: The ACX_DX_EXIT_LATENCY enum defines values that define the ACX device exit latency.
 prerelease: false
@@ -64,3 +64,5 @@ A device has different power states. The D0 power state is when the device is up
 * [PC_EXIT_LATENCY](../portcls/ne-portcls-_pc_exit_latency.md)
 
 READY2GO
+
+EDITCOMPLETE

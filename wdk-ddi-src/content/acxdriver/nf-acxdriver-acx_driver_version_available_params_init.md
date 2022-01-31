@@ -2,7 +2,7 @@
 UID: NF:acxdriver.ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT
 tech.root: audio
 title: ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT
-ms.date: 09/29/2021
+ms.date: 01/31/2022
 targetos: Windows
 description: The ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function initializes an ACX_DRIVER_VERSION_AVAILABLE_PARAMS structure before calling the AcxDriverIsVersionAvailable function.
 prerelease: false
@@ -73,3 +73,5 @@ ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT(&ver, 1, 0);
 * [AcxDriverIsVersionAvailable](nf-acxdriver-acxdriverisversionavailable.md)
 
 READY2GO
+
+EDITCOMPLETE

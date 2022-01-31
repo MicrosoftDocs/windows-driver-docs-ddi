@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceDetachCircuit
 tech.root: audio
 title: AcxDeviceDetachCircuit
-ms.date: 09/30/2021
+ms.date: 01/31/2022
 targetos: Windows
 description: The AcxDeviceDetachCircuit function detaches an audio circuit from a WDFDEVICE prior to removal.
 prerelease: false
@@ -66,8 +66,6 @@ This function can only be called from the [EVT_WDF_DEVICE_RELEASE_HARDWARE](/win
 
 ### Example
 
-TBD - review code snippet
-
 ```cpp
 WDFDEVICE                    Device;
 NTSTATUS                     status;
@@ -91,3 +89,7 @@ if (!NT_SUCCESS(status))
 
 * [AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
 * [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
+
+READY2GO
+
+EDITCOMPLETE

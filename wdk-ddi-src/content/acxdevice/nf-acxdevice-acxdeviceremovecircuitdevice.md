@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceRemoveCircuitDevice
 tech.root: audio
 title: AcxDeviceRemoveCircuitDevice
-ms.date: 09/30/2021
+ms.date: 01/31/2022
 targetos: Windows
 description: The AcxDeviceRemoveCircuitDevice function removes an ACX circuit device from a specified parent device.
 prerelease: false
@@ -66,8 +66,6 @@ This function can be called at any time during the driver's life cycle. Plug and
 
 ### Example
 
-TBD - review code snippet
-
 ```cpp
 NTSTATUS status;
 WDFDEVICE Device;
@@ -90,3 +88,5 @@ if (!NT_SUCCESS(status))
 * [AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
 
 READY2GO
+
+EDITCOMPLETE
