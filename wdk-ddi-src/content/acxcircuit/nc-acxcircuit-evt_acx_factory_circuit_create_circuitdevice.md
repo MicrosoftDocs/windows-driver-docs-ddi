@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE
-ms.date: 08/24/2021
+ms.date: 01/28/2022
 targetos: Windows
 description: The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE callback is invoked by ACX when the driver must create a WDFDEVICE for a new ACXCIRCUIT object.
 prerelease: true
@@ -69,13 +69,15 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An AcxFactoryCircuit represents a factory object capable of creating an ACXCIRCUIT on demand. 
-A driver can register one or more ACXFACTORYCIRCUIT with ACX, this action let ACX know that the driver is capabile of creating ACXCIRCUITs of a well defined type.
+An AcxFactoryCircuit represents a factory object capable of creating an ACXCIRCUIT on demand.
+ 
+A driver can register one or more ACXFACTORYCIRCUIT with ACX, this action will let ACX know that the driver is capable of creating ACXCIRCUITs of a well defined type.
+
 ACX invokes the ACXFACTORYCIRCUIT's callbacks when it detects that an audio path requires one of the factory provided ACXCIRCUITs.
 
 The ACXFACTORYCIRCUIT object supports dynamic ACXCIRCUITs, this means that each ACXCIRCUIT created by the factory is associated with a WDFDEVICE and these two objects have the same lifetime.
 
-An AcxFactoryCircuit has a dedicated WDF queue. For more information about WDF queues, see [Framework Queue Objects](/windows-hardware/drivers/wdf/framework-queue-objects)
+An AcxFactoryCircuit has a dedicated WDF queue. For more information about WDF queues, see [Framework Queue Objects](/windows-hardware/drivers/wdf/framework-queue-objects).
 
 ### Example
 
@@ -132,8 +134,6 @@ Dsp_EvtAcxFactoryCircuitCreateCircuitDevice(
     DrvLogError(g_SDCAVDspLog, FLAG_INIT, L"Unexpected CircuitId %!GUID!, %!STATUS!", &circuitId, status);
     return status;
 }
-
-
 ```
 
 ## -see-also
@@ -141,3 +141,5 @@ Dsp_EvtAcxFactoryCircuitCreateCircuitDevice(
 [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

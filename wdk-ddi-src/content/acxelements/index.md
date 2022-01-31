@@ -18,6 +18,8 @@ api_name:
 
 # acxelements.h header
 
+## -description
+
 This header is used by the ACX audio class extensions.
 
 For more information, see:
@@ -25,8 +27,6 @@ For more information, see:
 - [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview)
  
 - [Audio](../_audio/index.md)
-
-## Header elements
 
 acxelements.h contains the following programming interfaces:
 

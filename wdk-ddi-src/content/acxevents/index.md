@@ -18,6 +18,8 @@ api_name:
 
 # acxevents.h header
 
+## -description
+
 The acxevents header is used by the ACX audio class extensions.
 
 An AcxEvent represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally, they are exposed as KS events to upper layers. 
@@ -30,7 +32,7 @@ For more information, see:
  
 - [Audio](../_audio/index.md)
 
-## Audio Kernel Steaming KSEVENTS
+**Audio Kernel Steaming KSEVENTS**
 
 For general information on KSEVENTS, see these topics.
 
@@ -38,12 +40,7 @@ For general information on KSEVENTS, see these topics.
 [KSEVENT structure](/windows-hardware/drivers/stream/ksevent-structure)
 [KSPROPSETID_Audio](/windows-hardware/drivers/audio/kspropsetid-audio)
 
-TBD - Need to confirm these all map to ACX?
-
 [Audio Device Hardware Events](/windows-hardware/drivers/audio/hardware-events)
-
-
-## Header elements
 
 acxevents.h contains the following programming interfaces:
 

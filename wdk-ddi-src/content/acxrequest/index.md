@@ -45,12 +45,11 @@ dev_langs:
 
 The acxrequest header is used by the ACX audio class extensions.
 
-## -remarks
-
-## -see-also
+For additional information on working with ACX, see the following topics.
 
 - [ACX Audio multi stack cross driver communications](/windows-hardware/drivers/audio/acx-audio-multi-stack)
 
 - [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview)
  
 - [Audio](../_audio/index.md)
+

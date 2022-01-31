@@ -2,7 +2,7 @@
 UID: NA:acxdataformat
 tech.root: audio
 title: acxdataformat
-ms.date: 01/10/2022
+ms.date: 01/31/2022
 targetos: Windows
 description: The acxdataformats header is used by the ACX audio class extensions.
 prerelease: true
@@ -43,11 +43,9 @@ dev_langs:
 
 ## -description
 
-The acxdataformats header is used by the ACX audio class extensions. For more information, see [ACX Audio multi stack cross driver communications](/windows-hardware/drivers/audio/acx-audio-multi-stack).
+The acxdataformats header is used by the ACX audio class extensions. 
 
-## -remarks
-
-## -see-also
+For more information, see the following topics.
 
 - [ACX Audio multi stack cross driver communications](/windows-hardware/drivers/audio/acx-audio-multi-stack)
 

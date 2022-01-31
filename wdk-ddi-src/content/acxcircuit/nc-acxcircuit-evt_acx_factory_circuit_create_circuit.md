@@ -73,7 +73,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ## -remarks
 
 An AcxFactoryCircuit represents a factory object capable of creating an ACXCIRCUIT on demand. 
-A driver can register one or more ACXFACTORYCIRCUIT with ACX, this action let ACX know that the driver is capabile of creating ACXCIRCUITs of a well defined type.
+
+A driver can register one or more ACXFACTORYCIRCUIT with ACX, this action will let ACX know that the driver is capable of creating ACXCIRCUITs of a well defined type.
 
 ACX invokes the ACXFACTORYCIRCUIT's callbacks when it detects that an audio path requires one of the factory provided ACXCIRCUITs.
 
@@ -143,3 +144,5 @@ Dsp_EvtAcxFactoryCircuitCreateCircuit(
 [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
