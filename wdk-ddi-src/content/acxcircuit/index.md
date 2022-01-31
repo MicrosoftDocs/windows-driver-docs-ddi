@@ -28,5 +28,3 @@ For more information, see:
  
 - [Audio](../_audio/index.md)
 
-acxcircuit.h contains the following programming interfaces:
-

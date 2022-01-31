@@ -66,6 +66,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
+TBD - Need to validate fabricated sample code.
+
 This example shows the use of AcxObjectBagRetrieveUI4.
 
 ```cpp
@@ -92,7 +94,7 @@ This example shows the use of AcxObjectBagRetrieveUI4.
     }
 
     // Read written values.
-    status = AcxObjectBagRetrieveUI2(bag1, &UI4Str, &usValue2);
+    status = AcxObjectBagRetrieveUI4(bag1, &UI4Str, &usValue2);
 ```
 
 ## -see-also

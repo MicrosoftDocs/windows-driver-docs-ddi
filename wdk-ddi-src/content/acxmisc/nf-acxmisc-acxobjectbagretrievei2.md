@@ -68,35 +68,9 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 TBD - Example pending.
 
-This example shows the use of .
 
 ```cpp
-    DECLARE_CONST_UNICODE_STRING(I2Str,    L"Value_I2");
 
-    // Create a simple object.
-    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
-    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
-    attr.ParentObject = WdfGetDriver();
-    
-    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
-
-    // Add something to the bag
-    status = AcxObjectBagAddUI2(bag1, &UI2Str, usValue);
-
-
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
-
-    // Read written values.
-   status = AcxObjectBagRetrieveUI2(bag1, &UI2Str, &usValue2);
 ```
 
 ## -see-also
