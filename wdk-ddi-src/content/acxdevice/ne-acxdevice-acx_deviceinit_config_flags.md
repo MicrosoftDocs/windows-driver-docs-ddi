@@ -2,7 +2,7 @@
 UID: NE:acxdevice._ACX_DEVICEINIT_CONFIG_FLAGS
 tech.root: audio
 title: ACX_DEVICEINIT_CONFIG_FLAGS
-ms.date: 09/17/2021
+ms.date: 01/31/2022
 targetos: Windows
 description: The ACX_DEVICEINIT_CONFIG_FLAGS enum defines values used to initialize the audio class extension.
 prerelease: false
@@ -58,3 +58,5 @@ For internal validation, do not use.
 ## -see-also
 
 READY2GO
+
+EDITCOMPLETE

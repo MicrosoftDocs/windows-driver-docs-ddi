@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceRemoveCircuit
 tech.root: audio
 title: AcxDeviceRemoveCircuit
-ms.date: 09/30/2021
+ms.date: 01/31/2022
 targetos: Windows
 description: The AcxDeviceRemoveCircuit function removes the specified audio circuit from an ACX device.
 prerelease: false
@@ -66,8 +66,6 @@ This function can only be called from the [EVT_WDF_DEVICE_RELEASE_HARDWARE](/win
 
 ### Example
 
-TBD - review code snippet
-
 ```cpp
 NTSTATUS              status;
 WDFDEVICE             Device = NULL;
@@ -93,3 +91,7 @@ if (devCtx->RenderCircuitAdded) {
 
 * [AcxDeviceAddCircuit](nf-acxdevice-acxdeviceaddcircuit.md)
 * [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
+
+READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NS:acxdriver._ACX_DRIVER_VERSION_AVAILABLE_PARAMS
 tech.root: audio
 title: ACX_DRIVER_VERSION_AVAILABLE_PARAMS
-ms.date: 09/23/2021
+ms.date: 01/31/2022
 targetos: Windows
 description: The ACX_DRIVER_VERSION_AVAILABLE_PARAMS structure is passed as a parameter to the AcxDriverIsVersionAvailable function.
 prerelease: false
@@ -70,3 +70,5 @@ Instances of this structure must be initialized by calling the [ACX_DRIVER_VERSI
 * [AcxDriverIsVersionAvailable](nf-acxdriver-acxdriverisversionavailable.md)
 
 READY2GO
+
+EDITCOMPLETE

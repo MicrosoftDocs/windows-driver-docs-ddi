@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceInitInitialize
 tech.root: audio
 title: AcxDeviceInitInitialize
-ms.date: 09/30/2021
+ms.date: 01/31/2022
 targetos: Windows
 description: The client driver must call AcxDeviceInitInitialize in its EVT_WDF_DRIVER_DEVICE_ADD callback, before calling WdfDeviceCreate.
 prerelease: false
@@ -62,8 +62,6 @@ Pointer to an [ACX_DEVICEINIT_CONFIG](ns-acxdevice-acx_deviceinit_config.md) str
 
 ### Example
 
-TBD - review code snippet
-
 ```cpp
 WDFDEVICE             Parent;
 NTSTATUS              status;
@@ -108,3 +106,7 @@ if (!NT_SUCCESS(status))
 * [ACX_DEVICEINIT_CONFIG](ns-acxdevice-acx_deviceinit_config.md)
 * [ACX_DEVICEINIT_CONFIG_INIT](nf-acxdevice-acx_deviceinit_config_init.md)
 * [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values)
+
+READY2GO
+
+EDITCOMPLETE

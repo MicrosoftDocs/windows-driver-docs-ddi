@@ -2,7 +2,7 @@
 UID: NS:acxdevice._ACX_DEVICE_CONFIG
 tech.root: audio
 title: ACX_DEVICE_CONFIG
-ms.date: 09/17/2021
+ms.date: 01/31/2022
 targetos: Windows
 description: The ACX_DEVICE_CONFIG structure provides configuration information to the class extension.
 prerelease: false
@@ -71,3 +71,5 @@ Instances of this structure must be initialized by calling the [ACX_DEVICE_CONFI
 * [AcxDeviceInitialize](nf-acxdevice-acxdeviceinitialize.md)
 
 READY2GO
+
+EDITCOMPLETE

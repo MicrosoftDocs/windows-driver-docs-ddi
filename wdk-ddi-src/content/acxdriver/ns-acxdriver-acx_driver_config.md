@@ -2,7 +2,7 @@
 UID: NS:acxdriver._ACX_DRIVER_CONFIG
 tech.root: audio
 title: ACX_DRIVER_CONFIG
-ms.date: 09/23/2021
+ms.date: 01/31/2022
 targetos: Windows
 description: The ACX_DRIVER_CONFIG structure provides configuration information to the class extension.
 prerelease: false
@@ -67,3 +67,5 @@ Instances of this structure must be initialized by calling the [ACX_DRIVER_CONFI
 * [AcxDriverInitialize](nf-acxdriver-acxdriverinitialize.md)
 
 READY2GO
+
+EDITCOMPLETE
