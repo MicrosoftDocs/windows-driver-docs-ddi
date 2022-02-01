@@ -2,9 +2,9 @@
 UID: NF:acxpin.AcxPinAddStreamBridges
 tech.root: audio
 title: AcxPinAddStreamBridges
-ms.date: 10/14/2021
+ms.date: 01/31/2022
 targetos: Windows
-description: 
+description: The AcxPinAddStreamBridges function adds stream bridges to the specified pin.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,26 @@ dev_langs:
 
 ## -description
 
+The **AcxPinAddStreamBridges** function adds an array of stream bridges to the specified pin.
+
 ## -parameters
 
-### -param Pin
+### -param Pin [in]
 
-### -param StreamBridges
+The pin to which the stream bridges are added.
 
-### -param StreamBridgesCount
+### -param StreamBridges [in, reads(StreamBridgesCount)]
+
+A pointer to an array of **ACXSTREAMBRIDGE** objects to add to the specified *Pin*.
+
+### -param StreamBridgesCount [in]
+
+The number of **ACXSTREAMBRIDGE** objects in the *StreamBridges* array.
 
 ## -returns
+
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
 
 ## -remarks
 
 ## -see-also
-
