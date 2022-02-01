@@ -2,7 +2,7 @@
 UID: NS:wdm._REG_SAVE_MERGED_KEY_INFORMATION
 tech.root: kernel
 title: REG_SAVE_MERGED_KEY_INFORMATION
-ms.date: 06/13/2021
+ms.date: 01/31/2022
 targetos: Windows
 description: Defines the REG_SAVE_MERGED_KEY_INFORMATION structure.
 req.construct-type: structure
@@ -64,3 +64,6 @@ Defines the **REG_SAVE_MERGED_KEY_INFORMATION** structure.
 ## -remarks
 
 ## -see-also
+
+[EX_CALLBACK_FUNCTION](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) callback function
+[REG_SAVE_MERGED_KEY_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-reg_save_merged_key_information) structure
