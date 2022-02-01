@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxPinAssignModeDataFormatList
 ms.date: 10/14/2021
 targetos: Windows
-description: 
+description: The AcxPinAssignModeDataFormatList function assigns a mode data format list to the specified pin.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,25 @@ dev_langs:
 
 ## -description
 
+The **AcxPinAssignModeDataFormatList** function assigns a mode data format list to the specified pin.
+
 ## -parameters
 
-### -param AcxPin
+### -param AcxPin [in]
 
-### -param SignalProcessingMode
+The pin to which the mode data format list is assigned.
 
-### -param DataFormatList
+### -param SignalProcessingMode [in]
+
+A GUID identifying the signal processing mode to assign to the specified *AcxPin*.
+
+### -param DataFormatList [in]
+
+The data format list to assign for the specified *SignalProcessingMode*.
 
 ## -returns
+
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
 
 ## -remarks
 

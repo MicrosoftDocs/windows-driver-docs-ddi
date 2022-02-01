@@ -2,9 +2,9 @@
 UID: NF:acxpin.AcxPinCreate
 tech.root: audio
 title: AcxPinCreate
-ms.date: 10/14/2021
+ms.date: 01/31/2022
 targetos: Windows
-description: 
+description: The AcxPinCreate function creates and initializes a new ACXPIN object.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,19 +42,35 @@ dev_langs:
 
 ## -description
 
+The **AcxPinCreate** function creates and initializes a new [ACXPIN](index.md) object.
+
 ## -parameters
 
-### -param Circuit
+### -param Circuit [in]
 
-### -param Attributes
+The [ACXCIRCUIT](../acxcircuit/index.md) to which the new pin is added.
 
-### -param Config
+### -param Attributes [in]
 
-### -param Pin
+Pointer to a [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure for configuration of the pin.
+
+### -param Config [in]
+
+Pointer to an [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md) structure for configuration of the pin.
+
+### -param Pin [out]
+
+The newly created and initialized **ACXPIN** object.
 
 ## -returns
+
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
 
 ## -remarks
 
 ## -see-also
 
+- [ACXPIN](index.md)
+- [ACXCIRCUIT](../acxcircuit/index.md)
+- [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
+- [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)

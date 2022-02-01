@@ -2,9 +2,9 @@
 UID: NF:acxpin.AcxPinAddEvents
 tech.root: audio
 title: AcxPinAddEvents
-ms.date: 10/14/2021
+ms.date: 01/31/2022
 targetos: Windows
-description: 
+description: The AcxPinAddEvents function adds an array of events to the specified pin.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,26 @@ dev_langs:
 
 ## -description
 
+The **AcxPinAddEvents** function adds an array of events to the specified pin.
+
 ## -parameters
 
-### -param Pin
+### -param Pin [in]
 
-### -param Events
+The pin to which the events are added.
 
-### -param EventsCount
+### -param Events [in, reads(EventsCount)]
+
+A pointer to an array of **ACXEVENT** objects to add to the specified *Pin*.
+
+### -param EventsCount [in]
+
+The number of **ACXEVENT** objects in the *Events* array.
 
 ## -returns
+
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
 
 ## -remarks
 
 ## -see-also
-

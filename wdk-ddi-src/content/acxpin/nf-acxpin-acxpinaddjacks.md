@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxPinAddJacks
 ms.date: 10/14/2021
 targetos: Windows
-description: 
+description: The AcxPinAddJacks function adds an array of jacks to the specified pin.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,26 @@ dev_langs:
 
 ## -description
 
+The **AcxPinAddJacks** function adds an array of jacks to the specified pin.
+
 ## -parameters
 
-### -param Pin
+### -param Pin [in]
 
-### -param Jacks
+The pin to which the jacks are added.
 
-### -param jackCount
+### -param Jacks [in, reads(jackCount)]
+
+A pointer to an array of **ACXJACK** objects to add to the specified *Pin*.
+
+### -param jackCount [in]
+
+The number of **ACXJACK** objects in the *Jacks* array.
 
 ## -returns
+
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
 
 ## -remarks
 
 ## -see-also
-
