@@ -48,7 +48,7 @@ TBD - The AcxCircuitInitAllocate function is used to initialize the opaque ACXCI
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the ACX circuit.
 
 
 ## -returns

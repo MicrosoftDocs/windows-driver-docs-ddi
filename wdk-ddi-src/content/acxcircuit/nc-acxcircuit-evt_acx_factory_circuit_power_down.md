@@ -2,9 +2,9 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN
-ms.date: 11/02/2021
+ms.date: 01/31/2022
 targetos: Windows
-description: TBD - The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to allow it to add additional functionality when a circuit factory (TBD - or factory circuit?) is powered down using the TBD function is called,  TBD TBD. 
+description: The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to add additional functionality when a factory circuit is powered down. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to allow it to add additional functionality when a circuit factory (TBD - or factory circuit?) is powered down using the TBD function is called,  TBD TBD. 
+The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to add additional functionality when a factory circuit is powered down. 
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the ACX circuit.
 
 ### -param Factory
 
@@ -63,6 +63,9 @@ A [WDF_POWER_DEVICE_STATE enumeration](/windows-hardware/drivers/ddi/wdfdevice/n
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
+
+To register an EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback function, a driver must call TBD.
+
 
 ### Example
 

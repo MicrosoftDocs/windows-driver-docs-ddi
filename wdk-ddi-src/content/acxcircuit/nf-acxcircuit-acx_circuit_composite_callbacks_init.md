@@ -2,9 +2,10 @@
 UID: NF:acxcircuit.ACX_CIRCUIT_COMPOSITE_CALLBACKS_INIT
 tech.root: audio
 title: ACX_CIRCUIT_COMPOSITE_CALLBACKS_INIT
-ms.date: 08/13/2021
+ms.date: 01/31/2022
 targetos: Windows
-description: The ACX_CIRCUIT_COMPOSITE_CALLBACKS_INIT function initializes a ACX_CIRCUIT_COMPOSITE_CALLBACKS structure. prerelease: true
+description: The ACX_CIRCUIT_COMPOSITE_CALLBACKS_INIT function initializes a ACX_CIRCUIT_COMPOSITE_CALLBACKS structure. 
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

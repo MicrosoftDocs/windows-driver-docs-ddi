@@ -48,7 +48,7 @@ TBD - The EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE callback is used by the drive
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the ACX circuit.
 
 ### -param Factory
 

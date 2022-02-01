@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE
-ms.date: 01/28/2022
+ms.date: 01/31/2022
 targetos: Windows
 description: The EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE callback is invoked by ACX when the driver must delete a previously created WDFDEVICE associated with an ACXCIRCUIT object.
 prerelease: true
@@ -46,6 +46,10 @@ The EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE callback is invoked by ACX when
 
 ## -parameters
 
+### -param Parent
+
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is the parent of the WDFDEVICE referenced in Device object.
+
 ### -param Factory
 
 The existing circuit factory ACXFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
@@ -53,17 +57,6 @@ The existing circuit factory ACXFACTORYCIRCUIT Object. For more information abou
 ### -param Device
 
 A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that must be deleted.  
-
-
-```cpp
-EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE(
-    _In_
-    WDFDEVICE Parent,
-    _In_
-    ACXFACTORYCIRCUIT Factory,
-    _In_
-    WDFDEVICE Device
-```
 
 ## -returns
 
@@ -83,16 +76,6 @@ The ACXFACTORYCIRCUIT object supports dynamic ACXCIRCUITs, this means that each 
 
 An AcxFactoryCircuit has a dedicated WDF queue. For more information about WDF queues, see [Framework Queue Objects](/windows-hardware/drivers/wdf/framework-queue-objects).
 
-
-### Example
-
-Example usage is shown below.
-
-TBD: a new samples was added in the SDCA tree for this.
-
-```cpp
-
-```
 
 ## -see-also
 

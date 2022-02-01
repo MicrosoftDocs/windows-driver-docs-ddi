@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitAllocate
 tech.root: audio
 title: AcxFactoryCircuitInitAllocate
-ms.date: 08/16/2021
+ms.date: 01/31/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitAllocate function is used to initialize the opaque ACXFACTORYCIRCUIT_INIT structure that is used by the AcxCircuitCreate function. 
 prerelease: true
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxFactoryCircuitInitAllocate function is used to initialize the opaque ACXFACTORYCIRCUIT_INIT structure that is used by the [AcxCircuitCreate function](nf-acxcircuit-acxcircuitcreate.md). 
+The AcxFactoryCircuitInitAllocate function is used to initialize the opaque ACXFACTORYCIRCUIT_INIT structure that is used by the [AcxCircuitCreate function](nf-acxcircuit-acxcircuitcreate.md). 
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the ACX circuit.
 
 ## -returns
 

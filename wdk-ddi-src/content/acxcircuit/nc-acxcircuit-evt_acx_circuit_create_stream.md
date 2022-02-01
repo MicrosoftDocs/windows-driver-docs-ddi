@@ -84,22 +84,22 @@ The first step in Stream Creation is creating the ACXSTREAM instance for each AC
 
 The drivers have an opportunity to do any initialization before or after the next circuit in the chain is invoked, refer to the  ACXSTREAMBRIDGE object for more information.
 
-The Stream Creation Request is sent to the appropriate ACXPIN exposed as part of the head circuit’s topology generation by calling the EvtAcxCircuitCreateStream specified during head circuit creation.  
+The Stream Creation Request is sent to the appropriate ACXPIN exposed as part of the head circuit’s topology generation by calling the EvtAcxCircuitCreateStream specified during head circuit creation.
 
-The driver receiving the stream creation callback performs the following operations:   
+The driver receiving the stream creation callback performs the following operations:
 
 - It initializes the ACXSTREAM_INIT opaque structure by using ACX defined DDIs (AcxStreamInit*)
 - It creates the ACXSTREAM object using the AcxStreamCreate or AcxRtStreamCreate ACX DDI. The AcxRtStreamCreate is only used for streaming ACXPIN connected to upper user mode audio pipeline, all other circuits of the endpoint path must use the AcxStreamCreate DDI instead. 
 - It creates any stream-specific elements, for example ACXAUDIOENGINE.
-- It adds the elements to the ACXSTREAM object.  
+- It adds the elements to the ACXSTREAM object.
 - It returns STATUS_SUCCESS to indicate that the stream creation callback completed successfully.
 
 The stream communication channel between circuits in an audio path uses ACXTARGETSTREAM objects.
-  
-Once the default target circuit creates the ACXSTREAM object, each circuit will be given an opportunity to perform circuit-specific handling for the stream. Each circuit in turn performs one or more of the following actions:  
 
-- Create and add a Context object to the ACXSTREAM with stream driver specific configuration or data.  
-- Return control to the ACX framework, which will perform the same action with the next circuit in the Endpoint Audio Path.  
+Once the default target circuit creates the ACXSTREAM object, each circuit will be given an opportunity to perform circuit-specific handling for the stream. Each circuit in turn performs one or more of the following actions:
+
+- Create and add a Context object to the ACXSTREAM with stream driver specific configuration or data.
+- Return control to the ACX framework, which will perform the same action with the next circuit in the Endpoint Audio Path.
 
 
 ### Example

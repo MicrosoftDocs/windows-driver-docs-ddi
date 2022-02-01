@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-TBD - The EVT_ACX_FACTORY_CIRCUIT_POWER_UP callback is used by the driver to allow it to add additional functionality when a circuit factory (TBD - or factory circuit?) is powered up using the TBD function is called,  TBD TBD. 
+The EVT_ACX_FACTORY_CIRCUIT_POWER_UP callback is used by the driver to allow it to add additional functionality when a factory circuit is powered up. 
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the parent under these conditions - TBD TBD 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the ACX circuit.
 
 ### -param Factory
 
-TBD - The existing circuit factory ACXFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The existing circuit factory ACXFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param PreviousState
 
