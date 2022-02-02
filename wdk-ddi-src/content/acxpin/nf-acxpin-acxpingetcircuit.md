@@ -2,9 +2,9 @@
 UID: NF:acxpin.AcxPinGetCircuit
 tech.root: audio
 title: AcxPinGetCircuit
-ms.date: 10/14/2021
+ms.date: 02/01/2022
 targetos: Windows
-description: 
+description: The AcxPinGetCircuit function returns the circuit to which the pin is connected.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,20 @@ dev_langs:
 
 ## -description
 
+The **AcxPinGetCircuit** function returns the circuit to which the specified pin is connected.
+
 ## -parameters
 
-### -param AcxPin
+### -param AcxPin [in]
+
+The pin for which to return the connected circuit.
 
 ## -returns
+
+Returns the [ACXCIRCUIT](../acxcircuit/index.md) object representing the circuit to which the *AcxPin* is connected.
 
 ## -remarks
 
 ## -see-also
 
+- [ACXCIRCUIT](../acxcircuit/index.md)

@@ -2,9 +2,9 @@
 UID: NF:acxpin.AcxPinGetRawDataFormatList
 tech.root: audio
 title: AcxPinGetRawDataFormatList
-ms.date: 10/14/2021
+ms.date: 02/01/2022
 targetos: Windows
-description: 
+description: The AcxPinGetRawDataFormatList function returns the data format list for the specified pin.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,20 @@ dev_langs:
 
 ## -description
 
+The **AcxPinGetRawDataFormatList** function returns the data format list for the specified pin.
+
 ## -parameters
 
 ### -param AcxPin
 
+The pin for which to get the data format list.
+
 ## -returns
+
+Returns the [ACXDATAFORMATLIST](../acxdataformat/index.md) for the pin specified by *AcxPin*.
 
 ## -remarks
 
 ## -see-also
 
+- [ACXDATAFORMATLIST](../acxdataformat/index.md)

@@ -2,9 +2,9 @@
 UID: NF:acxpin.AcxPinGetId
 tech.root: audio
 title: AcxPinGetId
-ms.date: 10/14/2021
+ms.date: 02/01/2022
 targetos: Windows
-description: 
+description: The AcxPinGetId function returns the ID for the specified pin.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,18 @@ dev_langs:
 
 ## -description
 
+The **AcxPinGetId** function returns the ID for the specified pin.
+
 ## -parameters
 
 ### -param AcxPin
 
+The pin for which to get the ID.
+
 ## -returns
+
+Returns a ULONG containing the ID value for *AcxPin*.
 
 ## -remarks
 
 ## -see-also
-
