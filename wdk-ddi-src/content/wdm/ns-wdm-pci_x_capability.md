@@ -144,6 +144,10 @@ Indicates when 1 that the device has received a split completion error message. 
 
 ### -field Status.bits.CapablePCIX533
 
+### -field Command.AsUSHORT
+
+### -field Status.AsULONG
+
 ## -syntax
 
 ```cpp
