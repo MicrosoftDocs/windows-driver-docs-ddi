@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxFactoryCircuitInitSetOperationCallbacks sets the OperationCallbacks for Acx Circuit Factory initialization operations.
+The AcxFactoryCircuitInitSetOperationCallbacks sets the OperationCallbacks for Acx Circuit Factory initialization operations.
 
 ## -parameters
 
@@ -83,8 +83,6 @@ Example usage is shown below.
     operationCallbacks.EvtAcxFactoryCircuitCreateCircuitDevice = Dsp_EvtAcxFactoryCircuitCreateCircuitDevice;
     operationCallbacks.EvtAcxFactoryCircuitCreateCircuit = Dsp_EvtAcxFactoryCircuitCreateCircuit;
     AcxFactoryCircuitInitSetOperationCallbacks(factoryInit, &operationCallbacks);
-
-
 ```
 
 ## -see-also

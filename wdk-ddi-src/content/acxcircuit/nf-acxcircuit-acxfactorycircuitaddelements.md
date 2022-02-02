@@ -41,7 +41,8 @@ dev_langs:
 ---
 
 ## -description
-The AcxFactoryCircuitAddElements function adds elements to an existing or new TBD? circuit.
+
+The AcxFactoryCircuitAddElements function adds elements to an existing circuit factory.
 
 ## -parameters
 
@@ -65,6 +66,9 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 
 ## -remarks
+
+An AcxFactoryCircuits represents a partial audio path to a user perceived audio device (speakers, mic, etc.). 
+An AcxFactoryCircuits aggregates zero or ‘n’ AcxElements-like objects. By default, AcxElements are ‘connected’ in the same order of assembly. 
 
 ### Example
 

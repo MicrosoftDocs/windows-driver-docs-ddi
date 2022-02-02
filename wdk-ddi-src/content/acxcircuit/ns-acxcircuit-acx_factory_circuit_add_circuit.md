@@ -80,7 +80,7 @@ Optional string that provides the target symbolic link name.
 
 ACX Manager initializes and sends this structure to an ACXFACTORYCIRCUIT when a new ACXCIRCUIT object is needed. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
-Drivers receive this structure in their ACXFACTORYCIRCUIT's callback as passing parameter.
+Drivers receive this structure in their ACXFACTORYCIRCUIT's callback as a passing parameter.
 
 ### Example
 

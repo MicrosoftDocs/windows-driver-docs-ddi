@@ -53,7 +53,11 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param Properties
 
+An [ACX_PROPERTY_ITEM structure](/windows-hardware/drivers/ddi/acxrequest/acxrequest/ns-acxrequest-acx_property_item) that defines a set of properties that will be used for circuit initialization. 
+
 ### -param PropertiesCount
+
+A count of the properties that will be used for the circuit factory initialization. This is a one based count.
 
 ## -returns
 
@@ -62,6 +66,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ## -remarks
 
 ### Example
+ 
+TBD - No sample code found.
 
 Example usage is shown below.
 

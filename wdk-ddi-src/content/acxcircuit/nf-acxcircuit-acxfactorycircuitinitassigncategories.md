@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitInitAssignCategories
 ms.date: 08/18/2021
 targetos: Windows
-description: TBD - The AcxFactoryCircuitInitAssignCategories function assigns an array of GUIDS that are KSCATERGORY entries, that are used during Acx Circuit Factory initialization. 
+description: The AcxFactoryCircuitInitAssignCategories function assigns an array of GUIDS that are KSCATERGORY entries, that are used during Acx Circuit Factory initialization. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxFactoryCircuitInitAssignCategories function assigns an array of GUIDS that are the desired set of KSCATERGORY entries, that are used during Acx Circuit Factory initialization. 
+The AcxFactoryCircuitInitAssignCategories function assigns an array of GUIDS that are the desired set of KSCATERGORY entries, that are used during Acx Circuit Factory initialization. 
 
 ## -parameters
 

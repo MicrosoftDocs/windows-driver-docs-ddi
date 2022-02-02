@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitSetComponentId
 tech.root: audio
 title: AcxFactoryCircuitInitSetComponentId
-ms.date: 08/20/2021
+ms.date: 02/02/2022
 targetos: Windows
-description: TBD - The AcxFactoryCircuitInitSetComponentId function is used to set the component ID during the ACX circuit factory initialization process.
+description: The AcxFactoryCircuitInitSetComponentId function is used to set the component ID during the ACX circuit factory initialization process.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxFactoryCircuitInitSetComponentId function is used to set the component ID during the ACX circuit factory initialization process.
+The AcxFactoryCircuitInitSetComponentId function is used to set the component ID during the ACX circuit factory initialization process.
 
 ## -parameters
 
@@ -66,11 +66,7 @@ DEFINE_GUID(COMPONENT_GUID,
 
 Example usage is shown below.
 
-TBD TBD TBD 
-
-TBD - Is it OK to show the SDC AXU FACTORY GUID? Do we need to put in all zeroes for the code example?
-
-TBD TBD TBD
+TBD - Is it OK to show the SDC AXU FACTORY GUID? Perhaps show all zeroes or some other GUID value for the code example?
 
 ```cpp
 DEFINE_GUID(SDCAXU_FACTORY_GUID, 
@@ -85,7 +81,6 @@ DEFINE_GUID(SDCAXU_FACTORY_GUID,
     // Add factory identifiers.
     //
     AcxFactoryCircuitInitSetComponentId(factoryInit, &SDCAXU_FACTORY_GUID);
-
 ```
 
 ## -see-also
