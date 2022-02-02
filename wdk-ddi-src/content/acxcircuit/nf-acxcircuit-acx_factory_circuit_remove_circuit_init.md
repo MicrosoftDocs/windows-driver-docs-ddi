@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT
 tech.root: audio
 title: ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT
-ms.date: 08/13/2021
+ms.date: 02/01/2022
 targetos: Windows
 description: The ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT function initializes a 
 ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT structure.
@@ -43,14 +43,14 @@ dev_langs:
 
 ## -description
 
-TBD - The ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT function initializes a 
+The ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT function initializes a 
 [ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT](ns-acxcircuit-acx_factory_circuit_remove_circuit.md) structure. No inputs are used with this function.
 
 ## -parameters
 
 ### -param Parameters
 
-A pointer to an initialized [ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT](ns-acxcircuit-acx_factory_circuit_remove_circuit.md) structure.
+A pointer to a [ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT](ns-acxcircuit-acx_factory_circuit_remove_circuit.md) structure that will be intialized.
 
 ## -remarks
 

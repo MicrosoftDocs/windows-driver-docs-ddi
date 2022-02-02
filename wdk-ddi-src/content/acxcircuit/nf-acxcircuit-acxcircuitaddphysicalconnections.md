@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitAddPhysicalConnections
 tech.root: audio
 title: AcxCircuitAddPhysicalConnections
-ms.date: 08/16/2021
+ms.date: 02/01/2022
 targetos: Windows
-description: The AcxCircuitAddPhysicalConnections function adds physical connections to an existing (TBD or new?) Acx circuit. 
+description: The AcxCircuitAddPhysicalConnections function adds physical connections to an existing ACX circuit. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitAddPhysicalConnections function adds physical connections to an existing (TBD or new?) Acx circuit. 
+The AcxCircuitAddPhysicalConnections function adds physical connections to an existing ACX circuit. 
 
 ## -parameters
 
 ### -param Circuit
 
-TBD - An existing (TBD?) ACXCIRCUIT circuit object.  For more information, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT circuit object.  For more information, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
  
 ### -param Connections
 
@@ -56,7 +56,7 @@ A pointer to an [ACX_CONNECTION structure](/windows-hardware/drivers/ddi/acxrequ
 
 ### -param ConnectionsCount
 
-TBD - The number of physical connections that will be added to the circuit. This is a TBD zero / one based count.
+The number of physical connections that will be added to the circuit. This is a one based count.
 
 ## -returns
 

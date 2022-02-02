@@ -48,7 +48,7 @@ When provided a valid ElementID number, the AcxCircuitGetElementById function re
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object. 
+An existing ACXCIRCUIT circuit object. 
 
 ### -param ElementId
 

@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitInitSetCircuitType
 tech.root: audio
 title: AcxCircuitInitSetCircuitType
-ms.date: 08/18/2021
+ms.date: 02/01/2022
 targetos: Windows
-description: The AcxCircuitInitSetCircuitType function is used to set the circuit type for the Acx circuit initialization process.
+description: The AcxCircuitInitSetCircuitType function is used to set the circuit type for the ACX circuit initialization process.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitSetCircuitType function is used to set the circuit type for the Acx circuit initialization process.
+The AcxCircuitInitSetCircuitType function is used to set the circuit type for the ACX circuit initialization process.
 
 ## -parameters
 
 ### -param CircuitInit
 
-TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
+The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
 
 ### -param CircuitType
 
@@ -60,8 +60,6 @@ An [ACX_CIRCUIT_TYPE enum](ne-acxcircuit-acx_circuit_type.md) that is used to de
 
 Example usage is shown below.
 
-TBD - Not sure the definition line is required, with the defined enum?
-
 ```cpp
    ACX_CIRCUIT_TYPE                circuitType     = AcxCircuitTypeRender;
 
@@ -70,7 +68,6 @@ TBD - Not sure the definition line is required, with the defined enum?
         // AcxCircuitTypeOther, or AcxCircuitTypeMaximum (for validation). 
         //
         AcxCircuitInitSetCircuitType(circuitInit, AcxCircuitTypeRender);
-
 ```
 
 ## -see-also

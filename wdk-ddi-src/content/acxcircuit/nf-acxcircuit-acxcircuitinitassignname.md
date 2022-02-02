@@ -48,11 +48,11 @@ The AcxCircuitInitAssignName function assigns a friendly (TBD?) Name that will b
 
 ### -param CircuitInit
 
-TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
+The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
 
 ### -param CircuitName
  
-TBD - A unicode string describes the circuit, such as *Microphone0*  that is used as a friendly name for the circuit when TBD TBD TBD.
+A unicode string describes the circuit, such as *Microphone0*  that is used as a friendly name for the circuit.
 
 ## -returns
 
@@ -74,8 +74,7 @@ Example usage is shown below.
     AcxCircuitInitSetComponentId(CircuitInit, &COMPONENT_GUID);
 
     AcxCircuitInitAssignName(CircuitInit, &circuitName);
-
-```
+y```
 
 ## -see-also
 

@@ -132,7 +132,6 @@ CodecR_EvtCircuitPowerUp (
 
     ASSERT(volumeCtx->Timer);
     WdfTimerStart(volumeCtx->Timer, WDF_REL_TIMEOUT_IN_MS(1000));
-
 ```
 
 ## -see-also

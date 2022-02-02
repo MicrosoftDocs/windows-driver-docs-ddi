@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitSetAcxCircuitCompositeCallbacks
 ms.date: 08/18/2021
 targetos: Windows
-description: TBD - The AcxCircuitInitSetAcxCircuitCompositeCallbacks function sets the composite callbacks for and Acx Circuit initialization process.
+description: The AcxCircuitInitSetAcxCircuitCompositeCallbacks function sets the composite callbacks for and ACX Circuit initialization process.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxCircuitInitSetAcxCircuitCompositeCallbacks function sets the composite callbacks for and Acx Circuit initialization process.
+The AcxCircuitInitSetAcxCircuitCompositeCallbacks function sets the composite callbacks for and ACX Circuit initialization process.
 
 ## -parameters
 
 ### -param CircuitInit
 
-TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
+The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
 
 ### -param EvtCompositeCallbacks
 
-TBD -A pointer to an initialized [ACX_CIRCUIT_COMPOSITE_CALLBACKS structure](ns-acxcircuit-acx_circuit_composite_callbacks.md) that contains the callbacks to be used for the circuit.
+A pointer to an initialized [ACX_CIRCUIT_COMPOSITE_CALLBACKS structure](ns-acxcircuit-acx_circuit_composite_callbacks.md) that contains the callbacks to be used for the circuit.
 
 
 ## -remarks

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitGetWdfDevice
 ms.date: 08/16/2021
 targetos: Windows
-description: Given an existing Acx Circuit object, the AcxCircuitGetWdfDevice returns the associated (TBD - parent?) WDFDEVICE object.
+description: Given an existing Acx Circuit object, the AcxCircuitGetWdfDevice returns the associated WDFDEVICE object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -52,7 +52,7 @@ TBD - An existing ACXCIRCUIT circuit object.  For more information, see [ACX - S
 
 ## -returns
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with (TBD- is also the parent of?) the Acx circuit object.
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with (TBD- is also the parent of?) the ACX circuit object.
   
 ## -remarks
 
@@ -65,7 +65,6 @@ Example usage is shown below.
     WDFDEVICE                       device = nullptr;
 
     device = AcxCircuitGetWdfDevice(circuit);
-
 ```
 
 ## -see-also

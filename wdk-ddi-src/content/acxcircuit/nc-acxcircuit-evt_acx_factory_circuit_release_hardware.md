@@ -2,9 +2,9 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE
-ms.date: 08/24/2021
+ms.date: 02/01/2022
 targetos: Windows
-description: TBD - The EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit factory is in the release hardware phase, using the TBD function is called,  TBD TBD. 
+description: The EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit factory is in the release hardware phase. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit factory is in the release hardware phase, using the TBD function is called,  TBD TBD. 
+The EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit factory is in the release hardware phase. 
 
 ## -parameters
 
@@ -52,7 +52,7 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Factory
 
-TBD - The existing circuit factory ACXFACTORYCIRCUIT Object. (For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The existing circuit factory ACXFACTORYCIRCUIT Object. (For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 
 ### -param ResourcesTranslated

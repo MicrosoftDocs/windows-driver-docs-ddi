@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitResumeIoActual
 ms.date: 08/20/2021
 targetos: Windows
-description: TBD - The AcxCircuitResumeIoActual function is used to resume circuit IO after it has been stopped
+description: The AcxCircuitResumeIoActual function is used to resume circuit IO after it has been stopped.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxCircuitResumeIoActual function is used to resume circuit IO after it has been stopped. It is different from [AcxCircuitResumeIo](nf-acxcircuit-acxcircuitresumeio.md) in that it can contain additional parameters that are used to TBD TBD TBD display diagnostic information TBD ??. 
+The AcxCircuitResumeIoActual function is used to resume circuit IO after it has been stopped. It is different from [AcxCircuitResumeIo](nf-acxcircuit-acxcircuitresumeio.md) in that it can contain additional parameters that are used to TBD TBD TBD display diagnostic information TBD ??. 
 
 ## -parameters
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param ObjectTag
 

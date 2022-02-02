@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitAddConnections
 tech.root: audio
 title: AcxCircuitAddConnections
-ms.date: 08/16/2021
+ms.date: 02/01/2022
 targetos: Windows
 description: The AcxCircuitAddConnections function adds connections to an Acx circuit. 
 prerelease: true
@@ -48,7 +48,7 @@ The AcxCircuitAddConnections function adds connections to an Acx circuit.
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
   
 ### -param Connections
 

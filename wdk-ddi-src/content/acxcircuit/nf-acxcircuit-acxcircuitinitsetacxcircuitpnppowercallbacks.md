@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitInitSetAcxCircuitPnpPowerCallbacks
 tech.root: audio
 title: AcxCircuitInitSetAcxCircuitPnpPowerCallbacks
-ms.date: 08/24/2021
+ms.date: 02/01/2022
 targetos: Windows
-description: TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. 
+description: The AcxCircuitInitSetAcxCircuitPnpPowerCallbacks function sets the composite callbacks for an ACX Circuit initialization process.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,17 @@ dev_langs:
 
 ## -description
 
+The AcxCircuitInitSetAcxCircuitPnpPowerCallbacks function sets the composite callbacks for an ACX Circuit initialization process.
+
 ## -parameters
 
 ### -param CircuitInit
 
-TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
+The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
 
 ### -param EvtPnpPowerCallbacks
+
+An [ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS](ns-acxcircuit-acx_factory_circuit_pnppower_callbacks.md) PnP power callbacks structure that defines the callbacks.
 
 ## -remarks
 
@@ -57,7 +61,13 @@ TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXC
 Example usage is shown below.
 
 ```cpp
-
+    //
+    // Assign the circuit's pnp-power callbacks.
+    //
+    ACX_CIRCUIT_PNPPOWER_CALLBACKS_INIT(&powerCallbacks);
+    powerCallbacks.EvtAcxCircuitPowerUp = CodecR_EvtCircuitPowerUp;
+    powerCallbacks.EvtAcxCircuitPowerDown = CodecR_EvtCircuitPowerDown;
+    AcxCircuitInitSetAcxCircuitPnpPowerCallbacks(circuitInit, &powerCallbacks);
 ```
 
 ## -see-also

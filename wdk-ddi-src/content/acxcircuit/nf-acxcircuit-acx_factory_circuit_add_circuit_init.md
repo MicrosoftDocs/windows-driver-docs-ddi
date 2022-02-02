@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_INIT
 tech.root: audio
 title: ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_INIT
-ms.date: 08/13/2021
+ms.date: 02/01/2022
 targetos: Windows
 description: The ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_INIT function initializes a ACX_FACTORY_CIRCUIT_ADD_CIRCUIT structure.
 prerelease: true
@@ -42,14 +42,14 @@ dev_langs:
 
 ## -description 
 
-TBD - The ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_INIT function initializes a 
+The ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_INIT function initializes a 
 [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT](ns-acxcircuit-acx_factory_circuit_add_circuit.md) structure. No inputs are used with this function.
 
 ## -parameters
 
 ### -param Parameters
 
-TBD - An initialized [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT](ns-acxcircuit-acx_factory_circuit_add_circuit.md) structure that is used to store circuit information.
+An initialized [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT](ns-acxcircuit-acx_factory_circuit_add_circuit.md) structure that is used to store circuit information.
 
 ## -remarks
 

@@ -105,8 +105,6 @@ DspR_EvtCircuitCompositeCircuitInitialize(
 exit:
     return status;
 }
-
-
 ```
 
 ## -see-also

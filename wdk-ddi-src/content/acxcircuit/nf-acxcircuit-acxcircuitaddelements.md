@@ -48,11 +48,11 @@ The AcxCircuitAddElements function adds elements to an existing or new TBD? circ
 
 ### -param Circuit
 
-TBD - An existing (TBD?) ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
  
 ### -param Elements
 
-TBD - An ACXELEMENT circuit object (TBD - array?).  
+TBD - An ACXELEMENT circuit object (TBD - array?) that will be added to the circuit.  
  
 `_In_reads_(ElementsCount) ACXELEMENT*   Elements,`
 

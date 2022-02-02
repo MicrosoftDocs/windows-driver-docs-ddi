@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitInitSetComponentId
 ms.date: 08/20/2021
 targetos: Windows
-description: TBD - The AcxFactoryCircuitInitSetComponentId function is used to set the component ID during the Acx circuit factory initialization process.
+description: TBD - The AcxFactoryCircuitInitSetComponentId function is used to set the component ID during the ACX circuit factory initialization process.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxFactoryCircuitInitSetComponentId function is used to set the component ID during the Acx circuit factory initialization process.
+TBD - The AcxFactoryCircuitInitSetComponentId function is used to set the component ID during the ACX circuit factory initialization process.
 
 ## -parameters
 
 ### -param FactoryInit
 
-TBD - An ACXFACTORYCIRCUIT_INIT structure that is used for circuit factory initialization. This is an opaque structure that is used to store ACX Circuit factory initialization information and associate the factory with a WDF device.
+An ACXFACTORYCIRCUIT_INIT structure that is used for circuit factory initialization. This is an opaque structure that is used to store ACX Circuit factory initialization information and associate the factory with a WDF device.
 Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuitinitallocate.md) to initialize the ACXFACTORYCIRCUIT_INIT structure.
 
 ### -param ComponentId

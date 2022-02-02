@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignMethods
 tech.root: audio
 title: AcxCircuitInitAssignMethods
-ms.date: 08/17/2021
+ms.date: 02/01/2022
 targetos: Windows
 description: The AcxCircuitInitAssignMethods function assigns one or more Methods that will be used for the circuit initialization.
 prerelease: true
@@ -48,11 +48,11 @@ The AcxCircuitInitAssignMethods function assigns one or more Methods that will b
 
 ### -param CircuitInit
 
-TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
+The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
 
 ### -param Methods
 
-TBD - An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/acxrequest/ns-acxrequest-acx_method_item) that defines a set of TBD TBD and is used to TBD. 
+An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/acxrequest/ns-acxrequest-acx_method_item) structure that defines a set of methods that will be used for circuit initialization. 
 
 ### -param MethodsCount
 

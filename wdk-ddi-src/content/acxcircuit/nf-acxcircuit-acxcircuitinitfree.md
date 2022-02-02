@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitFree function frees the circuit (TBD - at the end of the initialization process?).
+The AcxCircuitInitFree function frees the circuit initialization object and the TBD??? associated with the circuit.
 
 ## -parameters
 
 ### -param CircuitInit
 
-TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
+The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
 
 ## -remarks
 

@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitInitSetComponentId
 tech.root: audio
 title: AcxCircuitInitSetComponentId
-ms.date: 08/18/2021
+ms.date: 02/01/2022
 targetos: Windows
-description: The AcxCircuitInitSetComponentId function is used to set the component ID during the Acx circuit initialization process.
+description: The AcxCircuitInitSetComponentId function is used to set the component ID during the ACX circuit initialization process.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxCircuitInitSetComponentId function is used to set the component ID during the Acx circuit initialization process.
+The AcxCircuitInitSetComponentId function is used to set the component ID during the ACX circuit initialization process.
 
 ## -parameters
 
 ### -param CircuitInit
 
-TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
+The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
 
 ### -param ComponentId
 

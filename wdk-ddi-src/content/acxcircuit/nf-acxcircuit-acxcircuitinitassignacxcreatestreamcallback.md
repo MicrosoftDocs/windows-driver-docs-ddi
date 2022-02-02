@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitAssignAcxCreateStreamCallback function is used to assign an Acx CreateStream callback.
+The AcxCircuitInitAssignAcxCreateStreamCallback function is used to assign an ACX CreateStream callback.
 
 ## -parameters
 
 ### -param CircuitInit
 
-TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
+The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
 
 ### -param EvtCircuitCreateStream
 
-TBD - A pointer to a [EVT_ACX_CIRCUIT_CREATE_STREAM](nc-acxcircuit-evt_acx_circuit_create_stream.md) callback. 
+A pointer to a [EVT_ACX_CIRCUIT_CREATE_STREAM](nc-acxcircuit-evt_acx_circuit_create_stream.md) callback. 
 
 ## -returns
 

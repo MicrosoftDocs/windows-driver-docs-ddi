@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE
 ms.date: 08/24/2021
 targetos: Windows
-description: TBD - The EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit factory is in the prepare hardware phase, using the TBD function is called,  TBD TBD. 
+description: The EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit factory is in the prepare hardware phase. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit factory is in the prepare hardware phase, using the TBD function is called,  TBD TBD. 
+The EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit factory is in the prepare hardware phase. 
 
 ## -parameters
 
@@ -52,7 +52,8 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Factory
 
-TBD - The existing circuit factory ACXFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The existing circuit factory ACXFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -param ResourcesRaw
 
 A WDF resource list that describes the raw resources to be used for the prepare hardware phase TBD TBD. This is a WDF framework resource-list object that represents a list of hardware resources for a device. For more information about raw resources, see [Hardware Resources for Framework-Based Drivers](/windows-hardware/drivers/wdf/raw-and-translated-resources).

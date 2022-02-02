@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxFactoryCircuitCreate
 tech.root: audio
 title: AcxFactoryCircuitCreate
-ms.date: 08/12/2021
+ms.date: 02/01/2022
 targetos: Windows
-description: The AcxFactoryCircuitCreate function is used to create a circuit using an AcxFactory. This function is located in the acxcircuit header.
+description: The AcxFactoryCircuitCreate function is used to create a circuit using an Acx Circuit Factory. This function is located in the acxcircuit header.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxFactoryCircuitCreate function is used to create a circuit using an AcxFactory.
+The AcxFactoryCircuitCreate function is used to create a circuit using an Acx Circuit Factory.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/
 
 ### -param Config
 
-TBD- The ACXFACTORYCIRCUIT_INIT structure that defines the circuit factory initialization. ACXFACTORYCIRCUIT_INIT is an opaque object used for circuit factory initialization. Use [AcxFactoryCircuitInitAllocate](nf-acxcircuit-acxfactorycircuitinitallocate.md) to initialize the ACXFACTORYCIRCUIT_INIT structure.
+The ACXFACTORYCIRCUIT_INIT structure that defines the circuit factory initialization. ACXFACTORYCIRCUIT_INIT is an opaque object used for circuit factory initialization. Use [AcxFactoryCircuitInitAllocate](nf-acxcircuit-acxfactorycircuitinitallocate.md) to initialize the ACXFACTORYCIRCUIT_INIT structure.
 
 ### -param Factory
 

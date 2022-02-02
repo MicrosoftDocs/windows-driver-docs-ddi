@@ -2,9 +2,9 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_POWER_UP
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_POWER_UP
-ms.date: 11/01/2021
+ms.date: 02/01/2022
 targetos: Windows
-description: TBD - The EVT_ACX_FACTORY_CIRCUIT_POWER_UP callback is used by the driver to allow it to add additional functionality when a circuit factory (TBD - or factory circuit?) is powered up using the TBD function is called,  TBD TBD. 
+description: The EVT_ACX_FACTORY_CIRCUIT_POWER_UP callback is used by the driver to allow it to add additional functionality when a factory circuit is powered up. 
 prerelease: true
 req.assembly: 
 req.construct-type: function

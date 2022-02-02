@@ -48,7 +48,7 @@ The AcxCircuitInitAssignProperties function assigns a  set of KSPROPERTY element
 
 ### -param CircuitInit
 
-TBD- The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
+The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
 
 ### -param Properties
 
@@ -90,7 +90,6 @@ Example usage is shown below.
     status = AcxCircuitInitAssignProperties(circuitInit,
         CircuitProperties,
         SIZEOF_ARRAY(CircuitProperties));
-
 ```
 
 ## -see-also

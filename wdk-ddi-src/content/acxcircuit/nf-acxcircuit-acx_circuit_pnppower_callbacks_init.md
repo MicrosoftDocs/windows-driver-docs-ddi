@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The ACX_CIRCUIT_PNPPOWER_CALLBACKS_INIT function initializes a [ACX_CIRCUIT_PNPPOWER_CALLBACKS structure](ns-acxcircuit-acx_circuit_pnppower_callbacks.md). No inputs are used with this function.
+The ACX_CIRCUIT_PNPPOWER_CALLBACKS_INIT function initializes a [ACX_CIRCUIT_PNPPOWER_CALLBACKS structure](ns-acxcircuit-acx_circuit_pnppower_callbacks.md). No inputs are used with this function.
 
 ## -parameters
 
