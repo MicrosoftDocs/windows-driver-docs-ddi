@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-TBD: The **ACX_PIN_CONFIG_FLAGS** enumeration is used to identify which pin configuration data is available.
+The **ACX_PIN_CONFIG_FLAGS** enumeration specify PIN configuration settings used within the ACX_PIN_CONFIG structure.
 
 ## -enum-fields
 
@@ -47,7 +47,7 @@ Indicates that there are no flags set.
 
 ### -field AcxPinConfigMicrophoneConfigSpecified
 
-TBD: Indicates that an [ACX_MICROPHONE_CONFIG](ns-acxpin-acx_microphone_config.md) structure is available.
+Indicates that an [ACX_MICROPHONE_CONFIG](ns-acxpin-acx_microphone_config.md) structure is available for this PIN.
 
 ### -field AcxPinConfigValidFlags
 
@@ -58,3 +58,5 @@ For internal validation, do not use.
 ## -see-also
 
 - [ACX_MICROPHONE_CONFIG](ns-acxpin-acx_microphone_config.md)
+
+READY2GO
