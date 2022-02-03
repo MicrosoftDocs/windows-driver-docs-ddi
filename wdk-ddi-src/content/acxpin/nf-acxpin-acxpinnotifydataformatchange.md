@@ -2,9 +2,9 @@
 UID: NF:acxpin.AcxPinNotifyDataFormatChange
 tech.root: audio
 title: AcxPinNotifyDataFormatChange
-ms.date: 10/14/2021
+ms.date: 02/03/2022
 targetos: Windows
-description: 
+description: The AcxPinNotifyDataFormatChange function is called to generate a data format change notification event for the specified pin.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,18 @@ dev_langs:
 
 ## -description
 
+The **AcxPinNotifyDataFormatChange** function is called to generate a data format change notification event for the specified pin.
+
 ## -parameters
 
-### -param Pin
+### -param Pin [in]
+
+The pin for which to generate the data format change notification.
 
 ## -returns
+
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
 
 ## -remarks
 
 ## -see-also
-
