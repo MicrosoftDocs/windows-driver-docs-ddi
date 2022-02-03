@@ -47,11 +47,11 @@ Indicates that no flags are set.
 
 ### -field AcxPhysicalConnectionFromPinId
 
-TBD: Indicates that the physical connection is from a pin ID? TBD
+Indicates that the physical connection is from a PIN whose ID is specified.
 
 ### -field AcxPhysicalConnectionFromPinObject
 
-TBD: Indicates that the physical connection is from a pin object? TBD
+Indicates that the physical connection is from a PIN which is represented by the specified PIN object.
 
 ### -field AcxPhysicalConnectionValidFlags
 
@@ -62,3 +62,5 @@ For internal validation, do not use.
 ## -see-also
 
 - [ACX_PHYSICAL_CONNECTION](ns-acxpin-acx_physical_connection.md)
+
+READY2GO

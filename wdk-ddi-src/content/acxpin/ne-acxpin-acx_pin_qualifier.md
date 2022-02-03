@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_PIN_QUALIFIER
 ms.date: 01/13/2022
 targetos: Windows
-description: TBD
+description: The **ACX_PIN_QUALIFIER** enumeration specify how the PIN is connected in the multi-circuit audio topology.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_PIN_QUALIFIER** enumeration TBD
+The **ACX_PIN_QUALIFIER** enumeration specify how the PIN is connected in the multi-circuit audio topology.
 
 ## -enum-fields
 
@@ -50,11 +50,11 @@ Indicates that the pin qualifier is unknown.
 
 ### -field AcxPinQualifierBridgeA
 
-Indicates composite support only. Streaming pin side.
+Indicates composite support only. This pin is a bridge to another circuit on the streaming pin direction. This pin binds with AcxPinQualifierBridgeB pin type.
 
 ### -field AcxPinQualifierBridgeB
 
-Indicates composite support only. Device pin side.
+Indicates composite support only. This pin is a bridge to another circuit on the device pin direction. This pin binds with AcxPinQualifierBridgeA pin type.
 
 ### -field AcxPinQualifierBridgeDevice
 
@@ -67,3 +67,5 @@ For internal validation, do not use.
 ## -remarks
 
 ## -see-also
+
+READY2GO
