@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamCreate
 tech.root: audio
 title: AcxStreamCreate
-ms.date: 08/27/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: AcxStreamCreate creates an ACX Stream, defined by a ACXSTREAM_INIT object, that is used to TBD and TBD.
 prerelease: true
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-AcxStreamCreate creates an ACX Stream, defined by a ACXSTREAM_INIT object, that is used to TBD and TBD. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+AcxStreamCreate creates an ACX audio stream, that is defined by a ACXSTREAM_INIT object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that has/is TBD been TBD.
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT and it's stream. 
 
 ### -param Circuit
 
-And ACXCIRCUT that will be TBD.
+And ACXCIRCUT that this stream will be associated with.
 
 ### -param Attributes
 
@@ -72,13 +72,11 @@ An ACXSTREAM object represents an audio stream created by a circuit. The stream 
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
-
 ## -remarks
 
 The ACXSTREAM is composed by a list of zero, one or more ACXELEMENTs added based on the parent ACXCIRCUIT's ACXELEMENTs. By default, ACXELEMENTs are connected in the same order of assembly. An ACXSTREAM is associated with only one ACXCIRCUIT. ACX supports two types of streams: basic ACX stream objects used by non-streaming circuits, and ACX RealTime (RT) stream objects used by streaming circuits.
 
 An audio endpoint is a collection of one or more audio circuits (ACXCIRCUIT objects) which are assembled to create a complete audio path. An ACX driver normally creates audio circuits for different audio endpoints, although ACX doesn’t prohibit circuits created by the same driver to be part of the same audio endpoint’s collection, as long as they belong to a different device stack. An audio endpoint is a collection of audio circuits created by the same or different audio drivers. An audio endpoint must have at least one circuit. This minimal configuration corresponds to the legacy PortCls/KS audio filter. An audio endpoint’s circuit collection may contain static circuits, dynamic circuits, or a combination of both.
-
 
 ### Example
 

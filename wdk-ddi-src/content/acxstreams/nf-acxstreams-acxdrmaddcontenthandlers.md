@@ -65,13 +65,6 @@ AcxDrmAddContentHandlers returns STATUS_SUCCESS if the call was successful. Othe
 
 ## -remarks
 
-### Example
-
-TBD -> Was not able to locate a code example
-
-```cpp
-
-```
 
 ## -see-also
 

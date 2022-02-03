@@ -85,7 +85,6 @@ Example usage is shown below. Error handling code is not shown.
         status = AcxPinAddStreamBridges(bridgePin, &bridge, 1);
 
         status = AcxStreamBridgeAddStream(bridge, stream);
-
 ```
 
 ## -see-also

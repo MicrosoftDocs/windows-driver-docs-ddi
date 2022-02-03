@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamInitAssignMethods function assigns an array of methods to a stream, device and circuit (TBD) using an [ACXSTREAM_INIT object]().
+The AcxStreamInitAssignMethods function assigns an array of methods to a stream, device and circuit (TBD) using an *ACXSTREAM_INIT* object.
 
 ## -parameters
 

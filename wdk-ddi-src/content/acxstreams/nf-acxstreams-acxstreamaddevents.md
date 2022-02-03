@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamAddEvents
 tech.root: audio
 title: AcxStreamAddEvents
-ms.date: 07/13/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: AcxStreamAddEvents adds events to and existing/new (TBD?) stream using an an AcxEvent object. 
 prerelease: true
@@ -42,23 +42,21 @@ dev_langs:
 
 ## -description
 
-AcxStreamAddEvents adds events to and existing/new (TBD?) stream using an AcxEvent object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+AcxStreamAddEvents adds events to and existing stream using an AcxEvent object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
 ### -param Stream
 
-A pointer to a location that receives a handle to the new ACXSTREAM Object.
-
-An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+A pointer to an existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. 
 
 ### -param Events
 
-A pointer to a location that receives a handle to the ACXEVENT Object. An AcxEvent object that represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally they are exposed as KS events to upper layers.  For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+A pointer to the ACXEVENT Objects to be added to the Stream. An AcxEvent object that represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally they are exposed as KS events to upper layers.  For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param EventsCount
 
-A count of the events. This is a 0/1 TBD based count.
+A count of the events. This is a 1 based count.
 
 ## -returns
 

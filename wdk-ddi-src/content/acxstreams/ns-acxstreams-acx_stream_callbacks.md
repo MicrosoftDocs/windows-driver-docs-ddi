@@ -64,16 +64,13 @@ The [PFN_ACX_STREAM_RELEASE_HARDWARE](nc-acxstreams-evt_acx_stream_release_hardw
 
 The [PFN_ACX_STREAM_RUN](nc-acxstreams-evt_acx_stream_run.md) Callback.
 
-
 ### -field EvtAcxStreamPause
 
 The [PFN_ACX_STREAM_PAUSE](nc-acxstreams-evt_acx_stream_pause.md) Callback.
 
-
 ### -field EvtAcxStreamAssignDrmContentId
 
 The [EVT_ACX_STREAM_ASSIGN_DRM_CONTENT_ID](nc-acxstreams-evt_acx_stream_assign_drm_content_id.md) Callback.
-
 
 ## -remarks
 

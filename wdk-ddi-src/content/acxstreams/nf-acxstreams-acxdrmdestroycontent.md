@@ -42,12 +42,6 @@ dev_langs:
 
 ## -description
 
-TBD TBD TBD 
-
-Not finding this in the current ACXSTREAMS header so wondering if that is what we wanted to do???
-
-TBD TBD TBD 
-
 The AcxDrmDestroyContent function deletes a DRM content ID that was created by [AcxDrmCreateContentMixed](nf-acxstreams-acxdrmcreatecontentmixed.md).
 
 ## -parameters

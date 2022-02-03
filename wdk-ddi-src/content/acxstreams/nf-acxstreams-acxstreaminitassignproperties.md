@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamInitAssignProperties
 tech.root: audio
 title: AcxStreamInitAssignProperties
-ms.date: 07/13/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: The AcxStreamInitAssignProperties function assigns an array of properties to a stream, device and circuit (TBD) using an ACXSTREAM_INIT object.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamInitAssignProperties function assigns an array of properties to a stream, device and circuit (TBD) using an [ACXSTREAM_INIT object]().
+The AcxStreamInitAssignProperties function assigns an array of properties to a stream, device and circuit (TBD) using an *ACXSTREAM_INIT* object.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ An array of [ACX_PROPERTY_ITEM structure](..\acxrequest\ns-acxrequest-acx_proper
 
 ### -param PropertiesCount
 
-A zero based (one based TBD?) of count of the number of Properties in the Properties array.
+A one based count of the number of Properties in the Properties array.
 
 ## -returns
 
@@ -89,7 +89,6 @@ static ULONG StreamPropertiesCount = SIZEOF_ARRAY(StreamProperties);
     status = AcxStreamInitAssignProperties(StreamInit,
                                            StreamProperties,
                                            StreamPropertiesCount);
-
 ```
 
 ## -see-also

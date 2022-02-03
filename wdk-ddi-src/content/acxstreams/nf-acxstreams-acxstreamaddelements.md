@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamAddElements
 tech.root: audio
 title: AcxStreamAddElements
-ms.date: 07/09/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: AcxStreamAddElements is used to add stream elements.
 prerelease: true
@@ -48,17 +48,15 @@ AcxStreamAddElements is used to add stream elements.
 
 ### -param Stream
 
-A pointer to a location that receives a handle to the new ACXSTREAM Object.
-
-An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+A pointer to a location that contains an existing *ACXSTREAM* Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Elements
 
-A pointer to a location that receives a handle to the new *ACXELEMENT Object*. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+A pointer to a location that contains an existing *ACXELEMENT* Object. 
 
 ### -param ElementsCount
 
-The count of elements TBD. This is a 0/1 TBD based count.
+The count of elements to be added. This is a 1 based count.
 
 ## -returns
 

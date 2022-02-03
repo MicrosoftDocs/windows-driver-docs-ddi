@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamGetElementById
 tech.root: audio
 title: AcxStreamGetElementById
-ms.date: 07/12/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: The AcxStreamGetElementById function returns ACXELEMENT Object for the requested element ID.
 prerelease: true
@@ -42,19 +42,17 @@ dev_langs:
 
 ## -description
 
-The AcxStreamGetElementById function returns  ACXELEMENT Object for the requested element ID. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The AcxStreamGetElementById function returns ACXELEMENT Object for the requested element ID. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
 ### -param Stream
 
-A pointer to a location that receives a handle to the new ACXSTREAM Object.
-
-An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+A pointer to an existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. 
 
 ### -param ElementId
 
-A 0/1 (TBD?) based count of the requested element number. 
+The Id of the requested element. 
 
 ## -returns
 

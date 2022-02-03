@@ -42,18 +42,17 @@ dev_langs:
 
 ## -description
 
-AcxRtStreamCreate creates an ACX RTStream that is used to TBD and TBD.
-
+AcxRtStreamCreate creates an ACX RTStream audio stream.
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that has/is TBD been TBD.
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT and its' stream. 
 
 ### -param Circuit
 
-And *ACXCIRCUT* object that will be created (???TBD). For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+And *ACXCIRCUIT* object that will be created (???TBD). For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Attributes
 
@@ -61,7 +60,7 @@ Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/
 
 ### -param Config
 
-An *ACXSTREAM_INIT* Config structure TBD. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An *ACXSTREAM_INIT* Config structure that defines the initialization of the stream. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Stream
 
@@ -78,7 +77,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-Example initialization  is shown below.
+Example Rt stream creation is shown below.
 
 ```cpp
 //

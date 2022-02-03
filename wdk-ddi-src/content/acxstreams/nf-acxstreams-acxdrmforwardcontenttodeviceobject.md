@@ -66,7 +66,6 @@ AcxDrmForwardContentToDeviceObject returns STATUS_SUCCESS if the call was succes
 
 ## -remarks
 
-
 ### Example
 
 TBD - no sample driver code found

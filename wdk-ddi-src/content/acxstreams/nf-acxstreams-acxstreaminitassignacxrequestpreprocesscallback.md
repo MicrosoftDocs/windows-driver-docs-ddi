@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamInitAssignAcxRequestPreprocessCallback function assigns an  AcxRequestPreprocessCallback to a stream.
+The AcxStreamInitAssignAcxRequestPreprocessCallback function assigns an AcxRequestPreprocessCallback to a stream.
 
 ## -parameters
 
@@ -52,11 +52,11 @@ Defined by a ACXSTREAM_INIT object, that is used to define the stream initializa
 
 ### -param EvtObjectAcxRequestPreprocess
 
-An optional EvtObjectAcxRequestPreprocess TBD TBD TBD.
+An EvtObjectAcxRequestPreprocess that will be added TBD.
 
 ### -param DriverContext
 
-And ACXCONTEXT object that represents the current driver context.
+An optional ACXCONTEXT object that represents the current driver context.
  
 ### -param RequestType
 

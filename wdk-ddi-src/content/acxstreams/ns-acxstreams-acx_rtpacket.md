@@ -62,7 +62,7 @@ The RtPacket Offset in TBDs.This is a zero/one (TBD?) based location.
 
 ### -field RtPacketSize
 
-The RtPacket Size in TBDs.
+The RtPacket Size in TBD Bytes.
 
 ## -remarks
 

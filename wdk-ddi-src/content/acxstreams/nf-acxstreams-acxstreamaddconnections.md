@@ -2,9 +2,9 @@
 UID: NF:acxstreams.AcxStreamAddConnections
 tech.root: audio
 title: AcxStreamAddConnections
-ms.date: 07/09/2021
+ms.date: 02/02/2022
 targetos: Windows
-description: AcxStreamAddConnections adds stream connections to existing (new? TBD) streams. These connections are TBD and TBD.
+description: The AcxStreamAddConnections function adds connections to an existing ACX stream. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,23 +42,21 @@ dev_langs:
 
 ## -description
 
-AcxStreamAddConnections adds stream connections to existing (new? TBD) streams. These connections are TBD and TBD.
+The AcxStreamAddConnections function adds connections to an existing ACX stream. 
 
 ## -parameters
 
 ### -param Stream
 
-A pointer to a location that receives a handle to the new ACXSTREAM Object.
-
-An ACXSTREAM Object that represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+A pointer to a location that that contains an existing ACXSTREAM Object. An ACXSTREAM Object that represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Connections
 
-An [ACX_CONNECTION structure](..\acxpin\ns-acxpin-acx_connection.md) that contains the TBD.
+An [ACX_CONNECTION structure](..\acxpin\ns-acxpin-acx_connection.md) that contains information about the connections to add the stream.
 
 ### -param ConnectionsCount
 
-The the TBD- (0 or 1?) based number of connections  that are TBD in the stream.
+The number of connections that are in the stream. This is a 1 based count. 
 
 ## -returns
 
