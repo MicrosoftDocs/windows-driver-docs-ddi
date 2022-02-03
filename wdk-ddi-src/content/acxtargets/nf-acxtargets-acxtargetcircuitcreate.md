@@ -48,7 +48,7 @@ The AcxTargetCircuitCreate function is used to create a target circuit.
 
 ### -param Device
 
-TBD - An existing WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the - TBD TBD
+A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT. 
 
 ### -param Attributes
 
@@ -65,6 +65,7 @@ A pointer to a location that receives a handle to the new ACXTARGETCIRCUIT Objec
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+
 ## -remarks
 
 ### Example

@@ -47,11 +47,11 @@ When provided a valid PinID number, the AcxCircuitGetPinById function returns a 
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  
+An existing *ACXCIRCUIT* circuit object.  
 
 ### -param PinId
 
-The Pin ID number. This is a TBD zero/one based count. 
+A valid Pin ID number. 
 
 ## -returns
 

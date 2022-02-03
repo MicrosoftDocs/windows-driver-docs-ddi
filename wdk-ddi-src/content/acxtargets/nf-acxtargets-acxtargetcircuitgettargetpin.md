@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetCircuitGetTargetPin
 tech.root: audio
 title: AcxTargetCircuitGetTargetPin
-ms.date:  11/11/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: 
 prerelease: true
@@ -42,18 +42,21 @@ dev_langs:
 
 ## -description
 
+The AcxTargetCircuitGetTargetPin function, given a valid pin index value, will return an *ACXTARGETPIN* ACX Object that is associated with the specified circuit.
+
 ## -parameters
 
 ### -param TargetCircuit
-
 
 A pointer to a location of an existing ACXTARGETCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param PinIndex
 
+A valid pin index value.
+
 ## -returns
 
-Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+Returns a ACXTARGETELEMENT ACX Object that is associated with the specified circuit.
 
 ## -remarks
 
@@ -62,10 +65,27 @@ Framework request objects represent I/O requests that the I/O manager has sent t
 ### Example
 
 ```cpp
+    PDSP_CIRCUIT_CONTEXT circuitCtx;
+    ACX_REQUEST_PARAMETERS  params;
 
-TBD
+    circuitCtx = GetDspCircuitContext(Circuit);    
 
+    for (ULONG pinIndex = 0; pinIndex < AcxTargetCircuitGetPinsCount(TargetCircuit); ++pinIndex)
+    {
+        ACXTARGETPIN targetPin = AcxTargetCircuitGetTargetPin(TargetCircuit, pinIndex);
+        ULONG targetPinFlow = 0;
+        ACX_REQUEST_PARAMETERS_INIT_PROPERTY(&params,
+                                             KSPROPSETID_Pin,
+                                             KSPROPERTY_PIN_DATAFLOW,
+                                             AcxPropertyVerbGet,
+                                             AcxItemTypePin,
+                                             AcxTargetPinGetId(targetPin),
+                                             nullptr, 0,
+                                             &targetPinFlow,
+                                             sizeof(targetPinFlow));
+...
 
+    }
 ```
 
 ## -see-also

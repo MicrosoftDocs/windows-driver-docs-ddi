@@ -58,7 +58,7 @@ TBD - An ACXELEMENT circuit object (TBD - array?).
 
 ### -param ElementsCount
 
-The number of elements that will be added to the circuit. This is a TBD zero / one based count.
+The number of elements that will be added to the circuit. This is a one based count.
 
 ## -returns
 

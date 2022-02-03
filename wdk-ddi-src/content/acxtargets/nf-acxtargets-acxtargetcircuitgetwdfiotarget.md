@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetCircuitGetWdfIoTarget
 tech.root: audio
 title: AcxTargetCircuitGetWdfIoTarget
-ms.date:  11/11/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: 
 prerelease: true
@@ -44,6 +44,12 @@ dev_langs:
 
 The AcxTargetCircuitGetWdfIoTarget function 
 
+TBD 
+
+given a valid pin index value, will return an *ACXTARGETPIN* ACX Object that is associated with the specified circuit.
+
+
+
 ## -parameters
 
 ### -param TargetCircuit
@@ -59,10 +65,29 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Framework request objects represent I/O requests that the I/O manager has sent to a driver. Framework-based drivers process each I/O request by calling framework request object methods. For more information, see [Framework Request Objects](/windows-hardware/drivers/wdf/framework-request-objects).
 
 ### Example
+ 
+TBD
 
 ```cpp
+                // we've identified which aggregation device this call is targeting, 
+                // now locate which circuit implements this module. Within an aggregated device,
+                // the module class id + instance id must uniquely identify a module. There should
+                // never be duplicates.
+                if (IsEqualGUIDAligned(descriptor->ClassId, moduleProperty->ClassId) &&
+                    descriptor->InstanceId == moduleProperty->InstanceId)
+                {
+                    WDFREQUEST                  request = NULL;
+                    WDF_REQUEST_SEND_OPTIONS    sendOptions;
+                    WDF_OBJECT_ATTRIBUTES       attributes;
+                    WDFIOTARGET                 ioTarget;
 
-TBD
+                    // We've now identified which aggregated device this call is targeting.
+                    // The cached module information contains the ID adjusted with the aggregation device
+                    // index. remove the aggregation device index before forwarding the call to the aggregated circuit.
+                    moduleProperty->InstanceId = AUDIOMODULE_GET_INSTANCEID(moduleProperty->InstanceId);
+
+                    ioTarget = AcxTargetCircuitGetWdfIoTarget(circuit->AcxTargetCircuit);
+
 
 
 ```

@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignCategories
 tech.root: audio
 title: AcxCircuitInitAssignCategories
-ms.date: 08/17/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: The AcxCircuitInitAssignCategories function assigns a set of KSCATERGORY entries that will be used for the circuit initialization.
 prerelease: true
@@ -57,7 +57,7 @@ TBD - An array that contains GUIDS of the desired set of KSCATERGORY entries, fo
 
 ### -param CategoriesCount
 
-TBD - The number of categories that will be added to the circuit. This is a TBD zero / one based count.
+The number of categories that will be added to the circuit. This is a one based count.
 
 ## -returns
 

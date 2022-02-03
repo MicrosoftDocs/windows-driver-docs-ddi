@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitAddEvents
 tech.root: audio
 title: AcxCircuitAddEvents
-ms.date: 08/16/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: The AcxCircuitAddEvents function adds one or more events to an existing (TBD?) circuit. 
 prerelease: true
@@ -52,11 +52,11 @@ An existing ACXCIRCUIT circuit object.  For more information about ACX objects, 
 
 ### -param Events
 
-TBD - An existing (TBD?) ACXEVENT object containing one or more events. 
+An existing ACXEVENT object containing one or more events. 
 
 ### -param EventsCount
 
-TBD - The number of events that will be added to the circuit. This is a TBD zero / one based count.
+The number of events that will be added to the circuit. This is a one based count.
 
 ## -returns
 

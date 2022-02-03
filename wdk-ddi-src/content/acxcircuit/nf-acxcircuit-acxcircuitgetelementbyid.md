@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitGetElementById
 tech.root: audio
 title: AcxCircuitGetElementById
-ms.date: 08/16/2021
+ms.date: 02/02/2022
 targetos: Windows
 description: When provided a valid ElementID number, the AcxCircuitGetElementById function returns a reference to an existing ACXELEMENT object.
 prerelease: true
@@ -52,7 +52,7 @@ An existing ACXCIRCUIT circuit object.
 
 ### -param ElementId
 
-The Element ID number. This is a TBD zero/one based count. 
+A valid Element ID number.
 
 ## -returns
 

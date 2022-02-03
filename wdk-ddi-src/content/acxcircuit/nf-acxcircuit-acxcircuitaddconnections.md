@@ -56,7 +56,7 @@ A pointer to an [ACX_CONNECTION structure](ns-acxpin-acx_pin_connection) that de
 
 ### -param ConnectionsCount
 
-TBD - The number of connections that will be added to the circuit. This is a TBD zero / one based count.
+The number of connections that will be added to the circuit. This is a one based count.
 
 ## -returns
 

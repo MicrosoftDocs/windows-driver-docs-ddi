@@ -57,7 +57,7 @@ An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/acxrequest/ns-acxr
 
 ### -param MethodsCount
 
-TBD - The number of methods that will be added to the circuit. This is a TBD zero / one based count.
+The number of methods that will be assigned to the circuit. This is a one based count.
 
 ## -returns
 

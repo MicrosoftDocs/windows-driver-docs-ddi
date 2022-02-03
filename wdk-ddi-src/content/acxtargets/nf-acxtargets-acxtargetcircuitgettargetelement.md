@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetCircuitGetTargetElement
 tech.root: audio
 title: AcxTargetCircuitGetTargetElement
-ms.date:  11/11/2021
+ms.date: 02/02/2022
 targetos: Windows
-description: 
+description: The AcxTargetCircuitGetTargetElement function, given a valid element index value, will return an ACXTARGETELEMENT ACX Object that is associated with the specified circuit.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+The AcxTargetCircuitGetTargetElement function, given a valid element index value, will return an ACXTARGETELEMENT ACX Object that is associated with the specified circuit.
+
 ## -parameters
 
 ### -param TargetCircuit
@@ -50,9 +52,11 @@ A pointer to a location of an existing ACXTARGETCIRCUIT Object. For more informa
 
 ### -param ElementIndex
 
+A valid element index value.
+
 ## -returns
 
-Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+Returns a ACXTARGETELEMENT ACX Object that is associated with the specified circuit.
 
 ## -remarks
 
@@ -61,10 +65,21 @@ Framework request objects represent I/O requests that the I/O manager has sent t
 ### Example
 
 ```cpp
+    // Search the target circuit for a volume element.
+    // This sample code doesn't support downstream audioengine elements.
+    // 
+    for (ULONG elementIndex = 0; elementIndex < AcxTargetCircuitGetElementsCount(TargetCircuit); ++elementIndex)
+    {
+        ACXTARGETELEMENT targetElement = AcxTargetCircuitGetTargetElement(TargetCircuit, elementIndex);
+        GUID elementType = AcxTargetElementGetType(targetElement);
 
-TBD
-
-
+        if (IsEqualGUID(elementType, KSNODETYPE_VOLUME) &&
+            circuitCtx->TargetVolumeHandler == nullptr)
+        {
+            // Found Volume
+            circuitCtx->TargetVolumeHandler = targetElement;
+        }
+    }
 ```
 
 ## -see-also
