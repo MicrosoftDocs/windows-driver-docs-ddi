@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetCircuitGetWdfIoTarget
 tech.root: audio
 title: AcxTargetCircuitGetWdfIoTarget
-ms.date: 02/02/2022
+ms.date: 02/03/2022
 targetos: Windows
-description: 
+description: The AcxTargetCircuitGetWdfIoTarget function will return an WDFIOTARGET  object that is associated with the specified circuit. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxTargetCircuitGetWdfIoTarget function 
-
-TBD 
-
-given a valid pin index value, will return an *ACXTARGETPIN* ACX Object that is associated with the specified circuit.
-
-
+The AcxTargetCircuitGetWdfIoTarget function will return an WDFIOTARGET  object that is associated with the specified circuit. 
 
 ## -parameters
 
@@ -58,7 +52,7 @@ A pointer to a location of an existing ACXTARGETCIRCUIT Object. For more informa
 
 ## -returns
 
-Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+Returns a  WDFIOTARGET Object that is associated with the specified circuit.
 
 ## -remarks
 
@@ -66,13 +60,12 @@ Framework request objects represent I/O requests that the I/O manager has sent t
 
 ### Example
  
-TBD
+This example code shows the use of AcxTargetCircuitGetWdfIoTarget. 
 
 ```cpp
-                // we've identified which aggregation device this call is targeting, 
-                // now locate which circuit implements this module. Within an aggregated device,
-                // the module class id + instance id must uniquely identify a module. There should
-                // never be duplicates.
+                // Within an aggregated device,
+                // the module class id + instance id must uniquely identify a module. 
+                // There should never be duplicates.
                 if (IsEqualGUIDAligned(descriptor->ClassId, moduleProperty->ClassId) &&
                     descriptor->InstanceId == moduleProperty->InstanceId)
                 {
@@ -87,9 +80,6 @@ TBD
                     moduleProperty->InstanceId = AUDIOMODULE_GET_INSTANCEID(moduleProperty->InstanceId);
 
                     ioTarget = AcxTargetCircuitGetWdfIoTarget(circuit->AcxTargetCircuit);
-
-
-
 ```
 
 ## -see-also
