@@ -2,9 +2,9 @@
 UID: NF:acxpin.AcxPinRemoveStreamBridges
 tech.root: audio
 title: AcxPinRemoveStreamBridges
-ms.date: 10/14/2021
+ms.date: 02/03/2022
 targetos: Windows
-description: 
+description: The AcxPinRemoveStreamBridges function removes steam bridges from the specified pin.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,26 @@ dev_langs:
 
 ## -description
 
+The **AcxPinRemoveStreamBridges** function removes steam bridges from the specified pin.
+
 ## -parameters
 
-### -param Pin
+### -param Pin [in]
 
-### -param StreamBridges
+The pin from which to remove the stream bridges.
+
+### -param StreamBridges [in, reads(StreamBridgesCount)]
+
+A pointer to an array of ACXSTREAMBRIDGE handles representing the steam bridges to remove from the *Pin*.
 
 ### -param StreamBridgesCount
 
+The number of steam bridges to remove from the *Pin*, must not equal zero.
+
 ## -returns
+
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
 
 ## -remarks
 
 ## -see-also
-

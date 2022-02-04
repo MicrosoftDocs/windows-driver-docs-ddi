@@ -2,9 +2,9 @@
 UID: NF:acxpin.AcxPinGetType
 tech.root: audio
 title: AcxPinGetType
-ms.date: 10/14/2021
+ms.date: 02/03/2022
 targetos: Windows
-description: 
+description: The AcxPinGetType function returns the type of the specified pin.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,22 @@ dev_langs:
 
 ## -description
 
+The **AcxPinGetType** function returns the type of the specified pin.
+
 ## -parameters
 
-### -param AcxPin
+### -param AcxPin [in]
+
+The pin for which to get the type.
 
 ## -returns
 
+Returns a value from the [ACX_PIN_TYPE](ne-acxpin-acx_pin_type.md) enum.
+
 ## -remarks
+
+The return value indicates if the pin is a source, a sink, or some other type.
 
 ## -see-also
 
+- [ACX_PIN_TYPE](ne-acxpin-acx_pin_type.md)

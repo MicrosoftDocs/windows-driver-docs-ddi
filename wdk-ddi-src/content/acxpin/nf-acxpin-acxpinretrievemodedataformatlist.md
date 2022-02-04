@@ -2,9 +2,9 @@
 UID: NF:acxpin.AcxPinRetrieveModeDataFormatList
 tech.root: audio
 title: AcxPinRetrieveModeDataFormatList
-ms.date: 10/14/2021
+ms.date: 02/03/2022
 targetos: Windows
-description: 
+description: The AcxPinRetrieveModeDataFormatList function gets the mode data format list for the specified pin.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,26 @@ dev_langs:
 
 ## -description
 
+The **AcxPinRetrieveModeDataFormatList** function gets the mode data format list for the specified pin.
+
 ## -parameters
 
-### -param AcxPin
+### -param AcxPin [in]
 
-### -param SignalProcessingMode
+The pin for which to retrieve the mode data format list.
 
-### -param DataFormatList
+### -param SignalProcessingMode [in]
+
+The GUID of the signal processing mode for which to retrieve the data format list.
+
+### -param DataFormatList [out]
+
+Pointer to an ACXDATAFORMATLIST to receive the object handle.
 
 ## -returns
+
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
 
 ## -remarks
 
 ## -see-also
-
