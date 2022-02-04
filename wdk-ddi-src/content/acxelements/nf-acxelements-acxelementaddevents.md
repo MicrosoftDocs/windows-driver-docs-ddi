@@ -56,7 +56,7 @@ TBD - An ACXEVENT object. TBD - array?
 
 ### -param EventsCount
 
-A count of the events. This is a (TBD 0 or1??) based count.
+A count of the events. This is a 1 based count.
 
 ## -returns
 

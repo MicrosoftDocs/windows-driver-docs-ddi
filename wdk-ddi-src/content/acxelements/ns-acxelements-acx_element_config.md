@@ -76,7 +76,7 @@ No flag bits are currently defined. Set this member to zero - AcxAudioElementCon
 
 ### -field PropertiesCount
 
-TBD - The number of properties. This is a TBD zero / one based count.
+TBD - The number of properties. This is a  one based count.
 
 ### -field MethodsCount
 

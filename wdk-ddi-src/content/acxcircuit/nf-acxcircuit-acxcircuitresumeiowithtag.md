@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitResumeIoWithTag function is used to resume circuit IO after it has been stopped. It is different from [AcxCircuitResumeIo](nf-acxcircuit-acxcircuitresumeio.md) in that it can contain additional Tag parameter that is used to TBD TBD TBD display diagnostic information TBD locate a WaveFormat stream tag ???. 
+The **AcxCircuitResumeIoWithTag** function is used to resume circuit IO after it has been stopped. It is different from [AcxCircuitResumeIo](nf-acxcircuit-acxcircuitresumeio.md) in that it can contain additional Tag parameter that is used to display diagnostic information. 
 
 ## -parameters
 
@@ -56,22 +56,12 @@ An optional ObjectTag that is a driver-defined value that the framework stores a
 
 ## -remarks
 
-ACX Events are analogous to KS states as described in this table.
-
-| Start State | End State | ACX Driver Event Called | Notes                                                 |
-|-------------|-----------|-------------------------|-------------------------------------------------------|
-| STOP        | ACQUIRE   | PrepareHardware         | Driver performs hardware allocations and preparations |
-| ACQUIRE     | PAUSE     | (No Call)               |                                                       |
-| PAUSE       | RUN       | Run                     |                                                       |
-| RUN         | PAUSE     | Pause                   |                                                       |
-| PAUSE       | ACQUIRE   | (No call)               |                                                       |
-| ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
 
 ### Example
 
 Example usage is shown below.
 
-TBD - No sample code or unit test code found.
+TBD - No sample code found.
 
 ```cpp
 

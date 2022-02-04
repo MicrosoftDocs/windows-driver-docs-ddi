@@ -2,9 +2,9 @@
 UID: NF:acxstreams.AcxStreamStopIoWithTag
 tech.root: audio
 title: AcxStreamStopIoWithTag
-ms.date: 07/14/2021
+ms.date: 02/04/2022
 targetos: Windows
-description: The AcxStreamStopIoWithTag function is used to stop the IO for a stream TBD. 
+description: The AcxStreamStopIoWithTag function is used to signal to the operating system to temporarily stop stream IO. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamStopIoWithTag function is used to stop the IO for a stream TBD. It is similar to [AcxStreamStopIo](nf-acxstreams-acxstreamstopio.md) function, but provides the ability to use a Tag that TBD.
+The **AcxStreamStopIoWithTag** function is used used to signal to the operating system to temporarily stop stream IO. This allows the driver a short period of time to run time sensitive tasks, and then resume IO after the execution of time sensitive code is complete.
 
 ## -parameters
 
@@ -52,9 +52,9 @@ A pointer to an existing ACXSTREAM Object. An ACXSTREAM Object represents an aud
 
 ### -param Flags
 
-TBD
-TBD - Are any flags defined?
-TBD
+TBD - The following flags are defined to TBD TBD.
+
+TBD - Set to null as no flags are defined.
 
 ### -param Tag
 
@@ -68,12 +68,9 @@ Example usage is shown below.
 
 TBD No example code found
 
-TBD No internal implementation API code found
-
 ```cpp
 
 ```
-
 
 
 ## -see-also
