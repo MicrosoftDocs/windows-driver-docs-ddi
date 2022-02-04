@@ -77,8 +77,6 @@ This member is reserved for future use. This member is defined for Windows Vista
 
 ## -remarks
 
-The system passes this structure to the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine every time a thread attempts to save merged view of two registry subtrees to a file using ZwSaveMergedKeys.
-
 For more information about registry filtering operations, see <a href="/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
 
 ## -see-also
