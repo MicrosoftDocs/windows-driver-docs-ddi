@@ -78,6 +78,7 @@ This member is reserved for future use. This member is defined for Windows Vista
 ## -remarks
 
 For more information about registry filtering operations, see <a href="/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
+These are mostly useful for watching for unexpected updates to critical hives and consumers should avoid attempting to modify the merge operations.
 
 ## -see-also
 
