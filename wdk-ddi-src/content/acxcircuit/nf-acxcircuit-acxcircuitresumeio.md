@@ -52,19 +52,6 @@ An existing ACXCIRCUIT circuit object.  For more information about ACX objects, 
 
 ## -remarks
 
-TBD - Add resume to this table?
-
-ACX Events are analogous to KS states as described in this table.
-
-| Start State | End State | ACX Driver Event Called | Notes                                                 |
-|-------------|-----------|-------------------------|-------------------------------------------------------|
-| STOP        | ACQUIRE   | PrepareHardware         | Driver performs hardware allocations and preparations |
-| ACQUIRE     | PAUSE     | Pause                   |                                                       |
-| PAUSE       | RUN       | Run                     |                                                       |
-| RUN         | PAUSE     | Pause                   |                                                       |
-| PAUSE       | ACQUIRE   | No call                 |                                                       |
-| ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
-
 ### Example
 
 Example usage is shown below.

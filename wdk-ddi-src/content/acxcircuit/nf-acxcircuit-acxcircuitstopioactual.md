@@ -59,7 +59,7 @@ Currently no flags are defined, so set this to `AcxStopIoNoFlags`.
 
 ### -param ObjectTag
 
-An optional ObjectTag that is used to TBD. (can be displayed for diagnostic information??? TBD)
+An optional ObjectTag that is a driver-defined value that the framework stores as an identification tag for the ACX driver.
 
 ### -param Line
 
@@ -73,17 +73,15 @@ The File that is used to TBD. (can be displayed for diagnostic information??? TB
 
 ## -remarks
 
-TBD - Add resume and stop to this table?
-
 ACX Events are analogous to KS states as described in this table.
 
 | Start State | End State | ACX Driver Event Called | Notes                                                 |
 |-------------|-----------|-------------------------|-------------------------------------------------------|
 | STOP        | ACQUIRE   | PrepareHardware         | Driver performs hardware allocations and preparations |
-| ACQUIRE     | PAUSE     | Pause                   |                                                       |
+| ACQUIRE     | PAUSE     | (No Call)               |                                                       |
 | PAUSE       | RUN       | Run                     |                                                       |
 | RUN         | PAUSE     | Pause                   |                                                       |
-| PAUSE       | ACQUIRE   | No call                 |                                                       |
+| PAUSE       | ACQUIRE   | (No call)               |                                                       |
 | ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
 
 ### Example

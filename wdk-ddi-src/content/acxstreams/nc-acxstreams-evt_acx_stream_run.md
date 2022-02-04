@@ -60,6 +60,17 @@ An AcxStream supports different states. These states indicate when audio is flow
 
 The EvtAcxStreamRun event will transition the stream state from the Pause state to the Run state. Once the stream is in the Run state, the driver may receive the [EvtAcxStreamPause](nc-acxstreams-evt_acx_stream_pause.md) event to transition to the Pause state.
 
+ACX Events are analogous to KS states as described in this table.
+
+| Start State | End State | ACX Driver Event Called | Notes                                                 |
+|-------------|-----------|-------------------------|-------------------------------------------------------|
+| STOP        | ACQUIRE   | PrepareHardware         | Driver performs hardware allocations and preparations |
+| ACQUIRE     | PAUSE     | (No Call)               |                                                       |
+| PAUSE       | RUN       | Run                     |                                                       |
+| RUN         | PAUSE     | Pause                   |                                                       |
+| PAUSE       | ACQUIRE   | (No call)               |                                                       |
+| ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
+
 ### Example
 
 Example usage is shown below.
@@ -96,7 +107,6 @@ EvtStreamRun(
 
     return status;
 }
-
 ```
 
 ## -see-also

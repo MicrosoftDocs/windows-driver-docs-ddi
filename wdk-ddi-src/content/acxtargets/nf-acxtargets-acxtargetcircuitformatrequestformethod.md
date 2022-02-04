@@ -56,6 +56,9 @@ A pointer to a location that receives a handle to a WDFREQUEST framework request
 
 ### -param Params
 
+
+
+
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).

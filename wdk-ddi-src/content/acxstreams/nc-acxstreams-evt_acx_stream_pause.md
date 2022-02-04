@@ -62,6 +62,17 @@ The EvtAcxStreamPause event will transition the stream state from the Run state 
 
 During ACX device power down and removal, if streams are present, ACX will call the EvtAcxStreamPause to transition streams to Pause. This is Stream Instance scoped.
 
+ACX Events are analogous to KS states as described in this table.
+
+| Start State | End State | ACX Driver Event Called | Notes                                                 |
+|-------------|-----------|-------------------------|-------------------------------------------------------|
+| STOP        | ACQUIRE   | PrepareHardware         | Driver performs hardware allocations and preparations |
+| ACQUIRE     | PAUSE     | (No Call)               |                                                       |
+| PAUSE       | RUN       | Run                     |                                                       |
+| RUN         | PAUSE     | Pause                   |                                                       |
+| PAUSE       | ACQUIRE   | (No call)               |                                                       |
+| ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
+
 
 ### Example
 
