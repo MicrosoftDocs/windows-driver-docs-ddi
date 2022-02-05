@@ -43,13 +43,13 @@ dev_langs:
 
 ## -description
 
-The **REG_SAVE_MERGED_KEY_INFORMATION** structure contains the information about the two registry subtrees, who's merged view is expected to be saved to a file.
+The **REG_SAVE_MERGED_KEY_INFORMATION** structure contains the information about the two registry subtrees for which a merged view is to be saved to a file.
 
 ## -struct-fields
 
 ### -field Object
 
-NULL
+Set to NULL.
 
 ### -field FileHandle
 
@@ -57,19 +57,19 @@ Supplies a file handle with write access to the target file.
 
 ### -field HighKeyObject
 
-Supplies a pointer to the registry key object that represents the root of the higher precedence tree. When a key is present in both the trees headed by the two keys, the key underneath HighPrecendence tree will always prevail. The specified node will be included in the data written out.
+Supplies a pointer to the registry key object that represents the root of the higher precedence tree. When a key is present in both the trees headed by the two keys, the key underneath this tree prevails. The specified node is included in the data written out.
 
 ### -field LowKeyObject
 
-Supplies a pointer to the registry key object that represents the root of the "second choice" tree. Keys from this tree gets saved when there is no equivalent key in the tree headed by HighPrecedence key.
+Supplies a pointer to the registry key object that represents the root of the "second choice" tree. Keys from this tree are saved when there is no equivalent key in the tree headed by **HighKeyObject**.
 
 ### -field CallContext
 
-Optional driver-defined context information that the driver's RegistryCallback routine can supply. This member is defined for Windows Vista and later versions of the Windows operating system.
+Optional driver-defined context information that the driver's [*RegistryCallback*](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) routine can supply. This member is defined for Windows Vista and later versions of the Windows operating system.
 
 ### -field ObjectContext
 
-A pointer to driver-defined context information that the driver has associated with a registry object by calling CmSetCallbackObjectContext. This member is defined for Windows Vista and later versions of the Windows operating system.
+A pointer to driver-defined context information that the driver has associated with a registry object by calling [**CmSetCallbackObjectContext**](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext). This member is defined for Windows Vista and later versions of the Windows operating system.
 
 ### -field Reserved
 
@@ -82,13 +82,7 @@ These are mostly useful for watching for unexpected updates to critical hives an
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext">CmSetCallbackObjectContext</a>
+[**CmSetCallbackObjectContext**](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext)
 
+[*RegistryCallback*](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
-
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">EX_CALLBACK_FUNCTION</a>
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-reg_save_merged_key_information">REG_SAVE_MERGED_KEY_INFORMATION</a>
