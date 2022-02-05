@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_PNPEVENT_CONFIG
 ms.date: 11/03/2021
 targetos: Windows
-description: The ACX_PNPEVENT_CONFIG structure is used to define the acx pnp event configuration. 
+description: The ACX_PNPEVENT_CONFIG structure is used to define the pnp event configuration. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_PNPEVENT_CONFIG structure is used to define the ACX pnp event configuration. 
+The **ACX_PNPEVENT_CONFIG** structure is used to define the ACX pnp event configuration. 
 
 ## -struct-fields
 

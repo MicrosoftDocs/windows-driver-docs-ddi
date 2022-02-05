@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxPnpEventGenerateEvent
 ms.date: 12/09/2021
 targetos: Windows
-description: The AcxPnpEventGenerateEvent function generates an acx pnp event.
+description: The AcxPnpEventGenerateEvent function generates an pnp event.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxPnpEventGenerateEvent function generates an ACX pnp event.
+The **AcxPnpEventGenerateEvent** function generates an ACX PnP event.
 
 ## -parameters
 

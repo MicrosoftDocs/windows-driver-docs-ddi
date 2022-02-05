@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_PNPEVENT_CONFIG_FLAGS enumeration defines the PNPEVENT config flags for ACX audio.
+The **ACX_PNPEVENT_CONFIG_FLAGS** enumeration defines the PNPEVENT config flags for ACX audio.
 
 ## -enum-fields
 

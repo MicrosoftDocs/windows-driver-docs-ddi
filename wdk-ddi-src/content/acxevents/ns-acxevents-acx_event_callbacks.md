@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_EVENT_CALLBACKS structure identifies the driver callbacks for ACX event operations.
+The **ACX_EVENT_CALLBACKS** structure identifies the driver callbacks for ACX event operations.
 
 ## -struct-fields
 

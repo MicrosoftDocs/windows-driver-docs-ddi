@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxEventCreate
 ms.date: 12/09/2021
 targetos: Windows
-description: The AcxEventCreate function creates an acx event.
+description: The AcxEventCreate function creates an event.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxEventCreate function creates an ACX event.
+The **AcxEventCreate** function creates an ACX event.
 
 ## -parameters
 

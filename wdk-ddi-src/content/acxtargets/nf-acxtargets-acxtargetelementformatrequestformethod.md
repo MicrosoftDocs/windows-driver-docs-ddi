@@ -55,7 +55,7 @@ A pointer to a location that receives a handle to a WDFREQUEST framework request
 
 ### -param Params
 
-A pointer to the [ACX_TARGET_PARAMETERS](ns-acxtargets-acx_target_circuit_config.md) structure that will be initialized.
+A pointer to the [ACX_TARGET_PARAMETERS](ns-acx-TBD.md) structure that will be initialized.
 
 ## -returns
 

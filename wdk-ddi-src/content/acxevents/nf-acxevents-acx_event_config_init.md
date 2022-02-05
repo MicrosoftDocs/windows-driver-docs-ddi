@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The ACX_EVENT_CONFIG_INIT function initializes an [ACX_EVENT_CONFIG](ns-acxevents-acx_event_config.md) structure. No inputs are used with this function.
+The **ACX_EVENT_CONFIG_INIT** function initializes an [ACX_EVENT_CONFIG](ns-acxevents-acx_event_config.md) structure. No inputs are used with this function.
 
 ## -parameters
 
 ### -param Config
 
-An initialized [ACX_EVENT_CONFIG structure](ns-acxevents-acx_event_config.md) that describes the configuration of the acx event.
+An initialized [ACX_EVENT_CONFIG structure](ns-acxevents-acx_event_config.md) that describes the configuration of the event.
 
 ## -remarks
 
