@@ -4,7 +4,7 @@ title: IDebugClient4::GetDumpFile (dbgeng.h)
 description: The IDebugClient4::GetDumpFile method describes the files containing supporting information that were used when opening the current dump target.
 old-location: debugger\getdumpfile.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugClient4::GetDumpFile"]
 ms.keywords: GetDumpFile, GetDumpFile method [Windows Debugging], GetDumpFile method [Windows Debugging],IDebugClient4 interface, GetDumpFile method [Windows Debugging],IDebugClient5 interface, IDebugClient4 interface [Windows Debugging],GetDumpFile method, IDebugClient4.GetDumpFile, IDebugClient4::GetDumpFile, IDebugClient5 interface [Windows Debugging],GetDumpFile method, IDebugClient5::GetDumpFile, IDebugClient_f4f1540c-116c-4e74-ad19-10beb0ac2739.xml, dbgeng/IDebugClient4::GetDumpFile, dbgeng/IDebugClient5::GetDumpFile, debugger.getdumpfile
 req.header: dbgeng.h
@@ -62,12 +62,12 @@ Receives the file name.  If <i>Buffer</i> is <b>NULL</b>, this information is no
 ### -param BufferSize [in]
 
 
-Specifies the size in characters of the buffer <i>Buffer</i>.
+Specifies the size in characters of the buffer <i>Buffer</i>. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-Receives the size of the file name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size of the file name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ### -param Handle [out, optional]
 

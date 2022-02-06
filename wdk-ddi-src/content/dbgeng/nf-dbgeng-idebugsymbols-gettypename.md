@@ -4,7 +4,7 @@ title: IDebugSymbols::GetTypeName (dbgeng.h)
 description: The GetTypeName method returns the name of the type symbol specified by its type ID and module. This method belongs to the IDebugSymbols interface.
 old-location: debugger\gettypename.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols::GetTypeName"]
 ms.keywords: GetTypeName, GetTypeName method [Windows Debugging], GetTypeName method [Windows Debugging],IDebugSymbols interface, GetTypeName method [Windows Debugging],IDebugSymbols2 interface, GetTypeName method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetTypeName method, IDebugSymbols.GetTypeName, IDebugSymbols2 interface [Windows Debugging],GetTypeName method, IDebugSymbols2::GetTypeName, IDebugSymbols3 interface [Windows Debugging],GetTypeName method, IDebugSymbols3::GetTypeName, IDebugSymbols::GetTypeName, IDebugSymbols_01f0496a-ce0e-442b-88c9-2a92c15a1237.xml, dbgeng/IDebugSymbols2::GetTypeName, dbgeng/IDebugSymbols3::GetTypeName, dbgeng/IDebugSymbols::GetTypeName, debugger.gettypename
 req.header: dbgeng.h
@@ -67,12 +67,12 @@ Receives the name of the type.  If <i>NameBuffer</i> is <b>NULL</b>, this inform
 ### -param NameBufferSize [in]
 
 
-Specifies the size in characters of the buffer <i>NameBuffer</i>.
+Specifies the size in characters of the buffer <i>NameBuffer</i>. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-Receives the size in characters of the type's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the type's name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

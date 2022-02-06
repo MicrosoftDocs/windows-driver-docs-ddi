@@ -4,7 +4,7 @@ title: IDebugRegisters2::GetPseudoDescription (dbgeng.h)
 description: The GetPseudoDescription method returns a description of a pseudo-register, including its name and type.
 old-location: debugger\getpseudodescription.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugRegisters2::GetPseudoDescription"]
 ms.keywords: GetPseudoDescription, GetPseudoDescription method [Windows Debugging], GetPseudoDescription method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoDescription method, IDebugRegisters2.GetPseudoDescription, IDebugRegisters2::GetPseudoDescription, IDebugRegisters_7b1f8069-32d0-4fb4-9cee-7fd045bae8d3.xml, dbgeng/IDebugRegisters2::GetPseudoDescription, debugger.getpseudodescription
 req.header: dbgeng.h
@@ -62,12 +62,12 @@ Receives the name of the pseudo-register.  If <i>NameBuffer</i> is <b>NULL</b>, 
 ### -param NameBufferSize [in]
 
 
-Specifies the size, in characters, of the buffer that <i>NameBuffer </i>specifies.
+Specifies the size, in characters, of the buffer that <i>NameBuffer </i>specifies. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-Receives the size in characters of the name of the pseudo-register.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the name of the pseudo-register. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ### -param TypeModule [out, optional]
 

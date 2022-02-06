@@ -4,7 +4,7 @@ title: IDebugControl::GetExceptionFilterSecondCommand (dbgeng.h)
 description: Learn how the GetExceptionFilterSecondCommand method returns the command that's executed by the debugger engine upon the second chance of a specified exception.
 old-location: debugger\getexceptionfiltersecondcommand.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl::GetExceptionFilterSecondCommand"]
 ms.keywords: GetExceptionFilterSecondCommand, GetExceptionFilterSecondCommand method [Windows Debugging], GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl interface, GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl2 interface, GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl.GetExceptionFilterSecondCommand, IDebugControl2 interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl2::GetExceptionFilterSecondCommand, IDebugControl3 interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl3::GetExceptionFilterSecondCommand, IDebugControl::GetExceptionFilterSecondCommand, IDebugControl_fba6b716-8dba-4581-87c3-b808d3ab40a1.xml, dbgeng/IDebugControl2::GetExceptionFilterSecondCommand, dbgeng/IDebugControl3::GetExceptionFilterSecondCommand, dbgeng/IDebugControl::GetExceptionFilterSecondCommand, debugger.getexceptionfiltersecondcommand
 req.header: dbgeng.h
@@ -62,12 +62,12 @@ Receives the second-chance command for the exception filter.
 ### -param BufferSize [in]
 
 
-Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
+Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies. This size includes the space for the '\0' terminating character.
 
 ### -param CommandSize [out, optional]
 
 
-Receives the size, in characters, of the second-chance command for the exception filter.  If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size, in characters, of the second-chance command for the exception filter. This size includes the space for the '\0' terminating character. If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

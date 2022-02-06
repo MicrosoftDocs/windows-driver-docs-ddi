@@ -4,7 +4,7 @@ title: IDebugControl3::GetSystemVersion (dbgeng.h)
 description: The GetSystemVersion method returns information that identifies the operating system on the computer that is running the current target.
 old-location: debugger\getsystemversion.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl3::GetSystemVersion"]
 ms.keywords: GetSystemVersion, GetSystemVersion method [Windows Debugging], GetSystemVersion method [Windows Debugging],IDebugControl interface, GetSystemVersion method [Windows Debugging],IDebugControl2 interface, GetSystemVersion method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetSystemVersion method, IDebugControl2 interface [Windows Debugging],GetSystemVersion method, IDebugControl2::GetSystemVersion, IDebugControl3 interface [Windows Debugging],GetSystemVersion method, IDebugControl3.GetSystemVersion, IDebugControl3::GetSystemVersion, IDebugControl::GetSystemVersion, IDebugControl_92a4c34c-aa39-43e5-ad31-0ce26e45c246.xml, dbgeng/IDebugControl2::GetSystemVersion, dbgeng/IDebugControl3::GetSystemVersion, dbgeng/IDebugControl::GetSystemVersion, debugger.getsystemversion
 req.header: dbgeng.h
@@ -72,12 +72,12 @@ Receives the string for the service pack level of the target computer.  If <i>Se
 ### -param ServicePackStringSize [in]
 
 
-Specifies the size, in characters, of the buffer that <i>ServicePackString</i> specifies.
+Specifies the size, in characters, of the buffer that <i>ServicePackString</i> specifies. This size includes the space for the '\0' terminating character.
 
 ### -param ServicePackStringUsed [out, optional]
 
 
-Receives the size, in characters, of the string of the service pack level.  If <i>ServicePackStringUsed</i> is <b>NULL</b>, this information is not returned.
+Receives the size, in characters, of the string of the service pack level. This size includes the space for the '\0' terminating character. If <i>ServicePackStringUsed</i> is <b>NULL</b>, this information is not returned.
 
 ### -param ServicePackNumber [out]
 
@@ -92,12 +92,12 @@ Receives the string that identifies the build of the system.  If <i>BuildString<
 ### -param BuildStringSize [in]
 
 
-Specifies the size, in characters, of the buffer that <i>BuildString</i> specifies.
+Specifies the size, in characters, of the buffer that <i>BuildString</i> specifies. This size includes the space for the '\0' terminating character.
 
 ### -param BuildStringUsed [out, optional]
 
 
-Receives the size, in characters, of the string that identifies the build.  If <i>BuildStringUsed</i> is <b>NULL</b>, this information is not returned.
+Receives the size, in characters, of the string that identifies the build. This size includes the space for the '\0' terminating character. If <i>BuildStringUsed</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

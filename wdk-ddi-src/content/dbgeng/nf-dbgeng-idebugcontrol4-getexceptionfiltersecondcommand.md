@@ -4,7 +4,7 @@ title: IDebugControl4::GetExceptionFilterSecondCommand method (dbgeng.h)
 description: The IDebugControl4::GetExceptionFilterSecondCommandWide method returns the command that will be executed upon the second chance of an exception.
 old-location: debugger\getexceptionfiltersecondcommandwide.htm
 tech.root: debugger
-ms.date: 03/26/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl4::GetExceptionFilterSecondCommand method"]
 ms.keywords: GetExceptionFilterSecondCommand,IDebugControl4.GetExceptionFilterSecondCommand, GetExceptionFilterSecondCommandWide method [Windows Debugging], GetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetExceptionFilterSecondCommandWide method, IDebugControl4::GetExceptionFilterSecondCommand, IDebugControl4::GetExceptionFilterSecondCommandWide, dbgeng/IDebugControl4::GetExceptionFilterSecondCommandWide, debugger.getexceptionfiltersecondcommandwide
 req.header: dbgeng.h
@@ -62,12 +62,12 @@ Receives the second-chance command for the exception filter.
 ### -param BufferSize [in]
 
 
-Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
+Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies. This size includes the space for the '\0' terminating character.
 
 ### -param CommandSize [out, optional]
 
 
-Receives the size, in characters, of the second-chance command for the exception filter.  If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size, in characters, of the second-chance command for the exception filter. This size includes the space for the '\0' terminating character. If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 
