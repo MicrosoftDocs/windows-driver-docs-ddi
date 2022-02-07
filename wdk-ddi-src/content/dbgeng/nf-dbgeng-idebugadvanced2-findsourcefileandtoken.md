@@ -4,7 +4,7 @@ title: IDebugAdvanced2::FindSourceFileAndToken (dbgeng.h)
 description: The (IDebugAdvanced2) FindSourceFileAndToken method returns the filename of a source file on the source path or a variable value associated with a file token.
 old-location: debugger\findsourcefileandtoken.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugAdvanced2::FindSourceFileAndToken"]
 ms.keywords: FindSourceFileAndToken, FindSourceFileAndToken method [Windows Debugging], FindSourceFileAndToken method [Windows Debugging],IDebugAdvanced2 interface, FindSourceFileAndToken method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced2 interface [Windows Debugging],FindSourceFileAndToken method, IDebugAdvanced2.FindSourceFileAndToken, IDebugAdvanced2::FindSourceFileAndToken, IDebugAdvanced3 interface [Windows Debugging],FindSourceFileAndToken method, IDebugAdvanced3::FindSourceFileAndToken, IDebugAdvanced_3c88de99-1ddb-47e4-ab70-37a2521b9f1b.xml, dbgeng/IDebugAdvanced2::FindSourceFileAndToken, dbgeng/IDebugAdvanced3::FindSourceFileAndToken, debugger.findsourcefileandtoken
 req.header: dbgeng.h
@@ -106,12 +106,12 @@ If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 ### -param BufferSize [in]
 
 
-Specifies the size in characters of the <i>Buffer</i> buffer. If <i>Buffer</i> is <b>NULL</b>, this parameter is ignored.
+Specifies the size in characters of the <i>Buffer</i> buffer. This size includes the space for the '\0' terminating character. If <i>Buffer</i> is <b>NULL</b>, this parameter is ignored.
 
 ### -param FoundSize [out, optional]
 
 
-Specifies the size in characters of the name of the file.  If <i>foundSize</i> is <b>NULL</b>, this information is not returned.
+Specifies the size in characters of the name of the file. This size includes the space for the '\0' terminating character. If <i>foundSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

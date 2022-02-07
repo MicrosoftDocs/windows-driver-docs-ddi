@@ -4,7 +4,7 @@ title: IDebugSymbols2::GetModuleNameString (dbgeng.h)
 description: The GetModuleNameString method returns the name of the specified module. This method belongs to the IDebugSymbols2 interface.
 old-location: debugger\getmodulenamestring.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols2::GetModuleNameString"]
 ms.keywords: GetModuleNameString, GetModuleNameString method [Windows Debugging], GetModuleNameString method [Windows Debugging],IDebugSymbols2 interface, GetModuleNameString method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging],GetModuleNameString method, IDebugSymbols2.GetModuleNameString, IDebugSymbols2::GetModuleNameString, IDebugSymbols3 interface [Windows Debugging],GetModuleNameString method, IDebugSymbols3::GetModuleNameString, IDebugSymbols_e00a93fb-08c4-4f37-9915-577a22d9c889.xml, dbgeng/IDebugSymbols2::GetModuleNameString, dbgeng/IDebugSymbols3::GetModuleNameString, debugger.getmodulenamestring
 req.header: dbgeng.h
@@ -129,12 +129,12 @@ Receives the name of the module.  If <i>Buffer</i> is <b>NULL</b>, this informat
 ### -param BufferSize [in]
 
 
-Specifies the size in characters of the buffer <i>Buffer</i>.
+Specifies the size in characters of the buffer <i>Buffer</i>. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-Receives the size in characters of the module's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the module's name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

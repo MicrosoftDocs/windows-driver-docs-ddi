@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetTypeNameWide (dbgeng.h)
 description: The GetTypeNameWide method returns the name of the type symbol specified by its type ID and module.
 old-location: debugger\gettypenamewide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetTypeNameWide"]
 ms.keywords: GetTypeNameWide, GetTypeNameWide method [Windows Debugging], GetTypeNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetTypeNameWide method, IDebugSymbols3.GetTypeNameWide, IDebugSymbols3::GetTypeNameWide, dbgeng/IDebugSymbols3::GetTypeNameWide, debugger.gettypenamewide
 req.header: dbgeng.h
@@ -67,12 +67,12 @@ Receives the name of the type.  If <i>NameBuffer</i> is <b>NULL</b>, this inform
 ### -param NameBufferSize [in]
 
 
-Specifies the size in characters of the buffer <i>NameBuffer</i>.
+Specifies the size in characters of the buffer <i>NameBuffer</i>. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-Receives the size in characters of the type's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the type's name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

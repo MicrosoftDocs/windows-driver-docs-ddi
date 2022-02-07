@@ -4,7 +4,7 @@ title: IDebugSymbols::GetNameByOffset (dbgeng.h)
 description: The IDebugSymbols::GetNameByOffset method returns the name of the symbol at the specified location in the target's virtual address space.
 old-location: debugger\getnamebyoffset.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols::GetNameByOffset"]
 ms.keywords: GetNameByOffset, GetNameByOffset method [Windows Debugging], GetNameByOffset method [Windows Debugging],IDebugSymbols interface, GetNameByOffset method [Windows Debugging],IDebugSymbols2 interface, GetNameByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetNameByOffset method, IDebugSymbols.GetNameByOffset, IDebugSymbols2 interface [Windows Debugging],GetNameByOffset method, IDebugSymbols2::GetNameByOffset, IDebugSymbols3 interface [Windows Debugging],GetNameByOffset method, IDebugSymbols3::GetNameByOffset, IDebugSymbols::GetNameByOffset, IDebugSymbols_5045ed52-43b3-4f5c-90fe-d9725aeb5782.xml, dbgeng/IDebugSymbols2::GetNameByOffset, dbgeng/IDebugSymbols3::GetNameByOffset, dbgeng/IDebugSymbols::GetNameByOffset, debugger.getnamebyoffset
 req.header: dbgeng.h
@@ -62,12 +62,12 @@ Receives the symbol's name.  The name is qualified by the module to which the sy
 ### -param NameBufferSize [in]
 
 
-Specifies the size in characters of the buffer <i>NameBuffer</i>.
+Specifies the size in characters of the buffer <i>NameBuffer</i>. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-Receives the size in characters of the symbol's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the symbol's name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ### -param Displacement [out, optional]
 

@@ -4,7 +4,7 @@ title: IDebugControl::GetEventFilterCommand (dbgeng.h)
 description: Learn how the GetEventFilterCommand method returns the debugger command that the engine will execute when a specified event occurs.
 old-location: debugger\geteventfiltercommand.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl::GetEventFilterCommand"]
 ms.keywords: GetEventFilterCommand, GetEventFilterCommand method [Windows Debugging], GetEventFilterCommand method [Windows Debugging],IDebugControl interface, GetEventFilterCommand method [Windows Debugging],IDebugControl2 interface, GetEventFilterCommand method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetEventFilterCommand method, IDebugControl.GetEventFilterCommand, IDebugControl2 interface [Windows Debugging],GetEventFilterCommand method, IDebugControl2::GetEventFilterCommand, IDebugControl3 interface [Windows Debugging],GetEventFilterCommand method, IDebugControl3::GetEventFilterCommand, IDebugControl::GetEventFilterCommand, IDebugControl_a0acf45f-8741-48a0-9eb0-f8a9aa55c476.xml, dbgeng/IDebugControl2::GetEventFilterCommand, dbgeng/IDebugControl3::GetEventFilterCommand, dbgeng/IDebugControl::GetEventFilterCommand, debugger.geteventfiltercommand
 req.header: dbgeng.h
@@ -62,12 +62,12 @@ Receives the debugger command that the engine will execute when the event occurs
 ### -param BufferSize [in]
 
 
-Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
+Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies. This size includes the space for the '\0' terminating character.
 
 ### -param CommandSize [out, optional]
 
 
-Receives the size in characters of the command.  If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the command. This size includes the space for the '\0' terminating character. If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

@@ -4,7 +4,7 @@ title: IDebugClient5::GetRunningProcessDescriptionWide (dbgeng.h)
 description: The IDebugClient5::GetRunningProcessDescriptionWide method returns a description of the process that includes several elements.
 old-location: debugger\getrunningprocessdescriptionwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugClient5::GetRunningProcessDescriptionWide"]
 ms.keywords: GetRunningProcessDescriptionWide, GetRunningProcessDescriptionWide method [Windows Debugging], GetRunningProcessDescriptionWide method [Windows Debugging],IDebugClient3 interface, GetRunningProcessDescriptionWide method [Windows Debugging],IDebugClient4 interface, GetRunningProcessDescriptionWide method [Windows Debugging],IDebugClient5 interface, IDebugClient3 interface [Windows Debugging],GetRunningProcessDescriptionWide method, IDebugClient3::GetRunningProcessDescriptionWide, IDebugClient4 interface [Windows Debugging],GetRunningProcessDescriptionWide method, IDebugClient4::GetRunningProcessDescriptionWide, IDebugClient5 interface [Windows Debugging],GetRunningProcessDescriptionWide method, IDebugClient5.GetRunningProcessDescriptionWide, IDebugClient5::GetRunningProcessDescriptionWide, dbgeng/IDebugClient3::GetRunningProcessDescriptionWide, dbgeng/IDebugClient4::GetRunningProcessDescriptionWide, dbgeng/IDebugClient5::GetRunningProcessDescriptionWide, debugger.getrunningprocessdescriptionwide
 req.header: dbgeng.h
@@ -119,12 +119,12 @@ Receives the name of the executable file used to start the process.  If <i>ExeNa
 ### -param ExeNameSize [in]
 
 
-Specifies the size in characters of the buffer <i>ExeNameSize</i>.
+Specifies the size in characters of the buffer <i>ExeNameSize</i>. This size includes the space for the '\0' terminating character.
 
 ### -param ActualExeNameSize [out, optional]
 
 
-Receives the size in characters of the executable file name.  If <i>ExeNameSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the executable file name. This size includes the space for the '\0' terminating character. If <i>ExeNameSize</i> is <b>NULL</b>, this information is not returned.
 
 ### -param Description [out, optional]
 
@@ -134,12 +134,12 @@ Receives extra information about the process, including service names, MTS packa
 ### -param DescriptionSize [in]
 
 
-Specifies the size in characters of the buffer <i>Description</i>.
+Specifies the size in characters of the buffer <i>Description</i>. This size includes the space for the '\0' terminating character.
 
 ### -param ActualDescriptionSize [out, optional]
 
 
-Receives the size in characters of the extra information.  If <i>ActualDescriptionSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the extra information. This size includes the space for the '\0' terminating character. If <i>ActualDescriptionSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

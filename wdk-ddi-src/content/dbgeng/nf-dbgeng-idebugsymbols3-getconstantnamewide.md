@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetConstantNameWide (dbgeng.h)
 description: The GetConstantNameWide method returns the name of the specified constant.
 old-location: debugger\getconstantnamewide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetConstantNameWide"]
 ms.keywords: GetConstantNameWide, GetConstantNameWide method [Windows Debugging], GetConstantNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetConstantNameWide method, IDebugSymbols3.GetConstantNameWide, IDebugSymbols3::GetConstantNameWide, dbgeng/IDebugSymbols3::GetConstantNameWide, debugger.getconstantnamewide
 req.header: dbgeng.h
@@ -72,12 +72,12 @@ Receives the constant's name.  If <i>NameBuffer</i> is <b>NULL</b>, this informa
 ### -param NameBufferSize [in]
 
 
-Specifies the size in characters of the buffer <i>NameBuffer</i>.
+Specifies the size in characters of the buffer <i>NameBuffer</i>. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-Receives the size in characters of the constant's name.
+Receives the size in characters of the constant's name. This size includes the space for the '\0' terminating character.
 
 ## -returns
 
