@@ -4,7 +4,7 @@ title: IDebugSymbolGroup2::GetSymbolNameWide (dbgeng.h)
 description: The GetSymbolNameWide method returns the name of a symbol in a symbol group.
 old-location: debugger\getsymbolnamewide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbolGroup2::GetSymbolNameWide"]
 ms.keywords: GetSymbolNameWide, GetSymbolNameWide method [Windows Debugging], GetSymbolNameWide method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolNameWide method, IDebugSymbolGroup2.GetSymbolNameWide, IDebugSymbolGroup2::GetSymbolNameWide, dbgeng/IDebugSymbolGroup2::GetSymbolNameWide, debugger.getsymbolnamewide
 req.header: dbgeng.h
@@ -62,12 +62,12 @@ The symbol name.  If <i>Buffer</i> is <b>NULL</b>, this information is not retur
 ### -param BufferSize [in]
 
 
-The size of the buffer that <i>Buffer </i>points to.
+The size of the buffer that <i>Buffer </i>points to. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-The size of the symbol name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+The size of the symbol name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

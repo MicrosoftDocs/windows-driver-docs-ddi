@@ -4,7 +4,7 @@ title: IDebugSymbols2::GetModuleVersionInformation (dbgeng.h)
 description: The GetModuleVersionInformation method returns version information for the specified module. This method belongs to the IDebugSymbols2 interface.
 old-location: debugger\getmoduleversioninformation.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols2::GetModuleVersionInformation"]
 ms.keywords: GetModuleVersionInformation, GetModuleVersionInformation method [Windows Debugging], GetModuleVersionInformation method [Windows Debugging],IDebugSymbols2 interface, GetModuleVersionInformation method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging],GetModuleVersionInformation method, IDebugSymbols2.GetModuleVersionInformation, IDebugSymbols2::GetModuleVersionInformation, IDebugSymbols3 interface [Windows Debugging],GetModuleVersionInformation method, IDebugSymbols3::GetModuleVersionInformation, IDebugSymbols_a325db82-91a3-48d9-b189-8971cd5eaf75.xml, dbgeng/IDebugSymbols2::GetModuleVersionInformation, dbgeng/IDebugSymbols3::GetModuleVersionInformation, debugger.getmoduleversioninformation
 req.header: dbgeng.h
@@ -72,12 +72,12 @@ Receives the requested version information.  If <i>Buffer</i> is <b>NULL</b>, th
 ### -param BufferSize [in]
 
 
-Specifies the size in characters of the buffer <i>Buffer</i>.
+Specifies the size in characters of the buffer <i>Buffer</i>. This size includes the space for the '\0' terminating character.
 
 ### -param VerInfoSize [out, optional]
 
 
-Receives the size in characters of the version information.  If <i>VerInfoSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the version information. This size includes the space for the '\0' terminating character. If <i>VerInfoSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

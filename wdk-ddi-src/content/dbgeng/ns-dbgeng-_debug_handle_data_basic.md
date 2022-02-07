@@ -4,7 +4,7 @@ title: _DEBUG_HANDLE_DATA_BASIC (dbgeng.h)
 description: The DEBUG_HANDLE_DATA_BASIC structure contains handle-related information about a system object.
 old-location: debugger\debug_handle_data_basic.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["DEBUG_HANDLE_DATA_BASIC structure"]
 ms.keywords: "*PDEBUG_HANDLE_DATA_BASIC, DEBUG_HANDLE_DATA_BASIC, DEBUG_HANDLE_DATA_BASIC structure [Windows Debugging], PDEBUG_HANDLE_DATA_BASIC, PDEBUG_HANDLE_DATA_BASIC structure pointer [Windows Debugging], Structures_e4fb66c0-8e88-4f35-a103-0cc0f7cc1bfd.xml, _DEBUG_HANDLE_DATA_BASIC, dbgeng/DEBUG_HANDLE_DATA_BASIC, dbgeng/PDEBUG_HANDLE_DATA_BASIC, debugger.debug_handle_data_basic"
 req.header: dbgeng.h
@@ -57,11 +57,11 @@ The DEBUG_HANDLE_DATA_BASIC structure contains handle-related information about 
 
 ### -field TypeNameSize
 
-The size, in characters, of the object-type name.
+The size, in characters, of the object-type name. This size includes the space for the '\0' terminating character. 
 
 ### -field ObjectNameSize
 
-The size, in characters, of the object's name.
+The size, in characters, of the object's name. This size includes the space for the '\0' terminating character. 
 
 ### -field Attributes
 

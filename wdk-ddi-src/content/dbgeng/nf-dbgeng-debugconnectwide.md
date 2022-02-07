@@ -4,7 +4,7 @@ title: DebugConnectWide function (dbgeng.h)
 description: The DebugConnectWide function creates a new client object and returns an interface pointer to it. The client object will be connected to a remote host.
 old-location: debugger\debugconnectwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["DebugConnectWide function"]
 ms.keywords: DebugConnectWide, DebugConnectWide function [Windows Debugging], dbgeng/DebugConnectWide, debugger.debugconnectwide
 req.header: dbgeng.h
@@ -88,7 +88,9 @@ The method was successful.
 
 ## -remarks
 
-As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longer needed, its <b>IUnknown::Release</b> method should be called.
+As with **IUnknown::QueryInterface**, when the returned interface is no longer needed, its **IUnknown::Release** method should be called.
+
+You don't need to call **CoInitialize**, **CoInitializeEx**, or **OleInitialize** to use this function and interfaces obtained by it.
 
 ## -see-also
 

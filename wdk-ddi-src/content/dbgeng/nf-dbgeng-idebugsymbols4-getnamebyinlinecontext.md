@@ -4,7 +4,7 @@ title: IDebugSymbols4::GetNameByInlineContext (dbgeng.h)
 description: The GetNameByInlineContext method gets a name by inline context. This method belongs to the IDebugSymbols4 interface.
 old-location: debugger\idebugsymbols4_getnamebyinlinecontext.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols4::GetNameByInlineContext"]
 ms.keywords: GetNameByInlineContext, GetNameByInlineContext method [Windows Debugging], GetNameByInlineContext method [Windows Debugging],IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging],GetNameByInlineContext method, IDebugSymbols4.GetNameByInlineContext, IDebugSymbols4::GetNameByInlineContext, dbgeng/IDebugSymbols4::GetNameByInlineContext, debugger.idebugsymbols4_getnamebyinlinecontext
 req.header: dbgeng.h
@@ -67,12 +67,12 @@ A pointer an output buffer.
 ### -param NameBufferSize [in]
 
 
-The size of the name buffer.
+The size of the name buffer. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-A pointer to the length of the name.
+A pointer to the length of the name. This size includes the space for the '\0' terminating character.
 
 ### -param Displacement [out, optional]
 
