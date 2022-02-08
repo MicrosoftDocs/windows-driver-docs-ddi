@@ -4,7 +4,7 @@ title: IDebugControl4::GetLastEventInformationWide (dbgeng.h)
 description: The GetLastEventInformationWide method returns information about the last event that occurred in a target.
 old-location: debugger\getlasteventinformationwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl4::GetLastEventInformationWide"]
 ms.keywords: GetLastEventInformationWide, GetLastEventInformationWide method [Windows Debugging], GetLastEventInformationWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetLastEventInformationWide method, IDebugControl4.GetLastEventInformationWide, IDebugControl4::GetLastEventInformationWide, dbgeng/IDebugControl4::GetLastEventInformationWide, debugger.getlasteventinformationwide
 req.header: dbgeng.h
@@ -89,12 +89,12 @@ Receives the description of the event.  If <i>Description</i> is <b>NULL</b>, th
 ### -param DescriptionSize [in]
 
 
-Specifies the size, in characters, of the buffer that <i>Description</i> specifies.
+Specifies the size, in characters, of the buffer that <i>Description</i> specifies. This size includes the space for the '\0' terminating character.
 
 ### -param DescriptionUsed [out, optional]
 
 
-Receives the size in characters of the description of the event.  If <i>DescriptionUsed </i>is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the description of the event. This size includes the space for the '\0' terminating character. If <i>DescriptionUsed </i>is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

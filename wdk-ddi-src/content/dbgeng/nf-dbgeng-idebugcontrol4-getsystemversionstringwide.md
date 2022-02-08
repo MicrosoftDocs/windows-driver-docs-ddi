@@ -4,7 +4,7 @@ title: IDebugControl4::GetSystemVersionStringWide (dbgeng.h)
 description: The GetSystemVersionStringWide method returns a string that describes the target's operating system version.
 old-location: debugger\getsystemversionstringwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl4::GetSystemVersionStringWide"]
 ms.keywords: GetSystemVersionStringWide, GetSystemVersionStringWide method [Windows Debugging], GetSystemVersionStringWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetSystemVersionStringWide method, IDebugControl4.GetSystemVersionStringWide, IDebugControl4::GetSystemVersionStringWide, dbgeng/IDebugControl4::GetSystemVersionStringWide, debugger.getsystemversionstringwide
 req.header: dbgeng.h
@@ -89,12 +89,12 @@ Receives the version string.  If <i>Buffer</i> is <b>NULL</b>, this information 
 ### -param BufferSize [in]
 
 
-Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
+Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies. This size includes the space for the '\0' terminating character.
 
 ### -param StringSize [out, optional]
 
 
-Receives the size, in characters, of the string that identifies the build.  If <i>SizeString</i> is <b>NULL</b>, this information is not returned.
+Receives the size, in characters, of the string that identifies the build. This size includes the space for the '\0' terminating character. If <i>SizeString</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

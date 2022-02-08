@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetModuleVersionInformationWide (dbgeng.h)
 description: The GetModuleVersionInformationWide method returns version information for the specified module.
 old-location: debugger\getmoduleversioninformationwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetModuleVersionInformationWide"]
 ms.keywords: GetModuleVersionInformationWide, GetModuleVersionInformationWide method [Windows Debugging], GetModuleVersionInformationWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleVersionInformationWide method, IDebugSymbols3.GetModuleVersionInformationWide, IDebugSymbols3::GetModuleVersionInformationWide, dbgeng/IDebugSymbols3::GetModuleVersionInformationWide, debugger.getmoduleversioninformationwide
 req.header: dbgeng.h
@@ -72,12 +72,12 @@ Receives the requested version information.  If <i>Buffer</i> is <b>NULL</b>, th
 ### -param BufferSize [in]
 
 
-Specifies the size in characters of the buffer <i>Buffer</i>.
+Specifies the size in characters of the buffer <i>Buffer</i>. This size includes the space for the '\0' terminating character.
 
 ### -param VerInfoSize [out, optional]
 
 
-Receives the size in characters of the version information.  If <i>VerInfoSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the version information. This size includes the space for the '\0' terminating character. If <i>VerInfoSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

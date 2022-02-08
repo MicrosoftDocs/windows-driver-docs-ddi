@@ -4,7 +4,7 @@ title: IDebugSystemObjects3::GetSystemByServer (dbgeng.h)
 description: Gets the system for a server.
 old-location: debugger\idebugsystemobjects3_getsystembyserver.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSystemObjects3::GetSystemByServer"]
 ms.keywords: GetSystemByServer, GetSystemByServer method [Windows Debugging], GetSystemByServer method [Windows Debugging],IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging],GetSystemByServer method, IDebugSystemObjects3.GetSystemByServer, IDebugSystemObjects3::GetSystemByServer, dbgeng/IDebugSystemObjects3::GetSystemByServer, debugger.idebugsystemobjects3_getsystembyserver
 req.header: dbgeng.h
@@ -60,12 +60,12 @@ A pointer to an output buffer.
 
 ### -param BufferSize [in]
 
-The size of the buffer.
+The size of the buffer. This size includes the space for the '\0' terminating character. 
 
 
 ### -param NameSize [out, optional]
 
-A pointer to the name size.
+A pointer to the name size. This size includes the space for the '\0' terminating character. 
 
 ## -returns
 

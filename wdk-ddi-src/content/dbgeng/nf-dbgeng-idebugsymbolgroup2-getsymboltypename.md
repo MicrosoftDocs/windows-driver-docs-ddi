@@ -4,7 +4,7 @@ title: IDebugSymbolGroup2::GetSymbolTypeName (dbgeng.h)
 description: The GetSymbolTypeName methods return the name of the specified symbol's type.
 old-location: debugger\getsymboltypename.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbolGroup2::GetSymbolTypeName"]
 ms.keywords: ComOther_27d4a23e-4566-4b37-a692-2b82310ae8e9.xml, GetSymbolTypeName, GetSymbolTypeName method [Windows Debugging], GetSymbolTypeName method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolTypeName method, IDebugSymbolGroup2.GetSymbolTypeName, IDebugSymbolGroup2::GetSymbolTypeName, dbgeng/IDebugSymbolGroup2::GetSymbolTypeName, debugger.getsymboltypename
 req.header: dbgeng.h
@@ -62,12 +62,12 @@ The name of the symbol's type.  If <i>Buffer</i> is <b>NULL</b>, this informatio
 ### -param BufferSize [in]
 
 
-The size, in characters, of the <i>Buffer</i> buffer.
+The size, in characters, of the <i>Buffer</i> buffer. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-The size, in characters, of the name of the symbol's type.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+The size, in characters, of the name of the symbol's type. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

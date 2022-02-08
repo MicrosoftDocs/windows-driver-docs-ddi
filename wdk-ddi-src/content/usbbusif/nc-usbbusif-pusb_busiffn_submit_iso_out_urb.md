@@ -4,7 +4,7 @@ title: PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB (usbbusif.h)
 description: This callback function is not supported.The SubmitIsoOutUrb function submits a USB request block (URB) directly to the bus driver without requiring the allocation of an IRP.
 old-location: buses\submitisoouturb.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 02/04/2022
 keywords: ["PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB callback function"]
 ms.keywords: PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB, PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB callback, SubmitIsoOutUrb, SubmitIsoOutUrb callback function [Buses], buses.submitisoouturb, usbbusif/SubmitIsoOutUrb, usbinterKR_7caf9f1e-d3e3-4d26-b91f-c2864594703a.xml
 req.header: usbbusif.h
@@ -42,74 +42,50 @@ api_name:
 
 # PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB callback function
 
-
 ## -description
 
 This callback function is not supported.
 
-The <i>SubmitIsoOutUrb</i> function submits a USB request block (URB) directly to the bus driver without requiring the allocation of an IRP.
+The *SubmitIsoOutUrb* function submits a USB request block (URB) directly to the bus driver without requiring the allocation of an IRP.
 
-## -parameters
+## -syntax
 
-### -param BusContext [in]
-
-Handle returned in the <i>BusContext</i> member of the  <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v0">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
-
-
-### -param Urb [in]
-
-Pointer to the <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> to be passed to the port driver.
-
-## -returns
-
-<b>SubmitIsoOutUrb</b> returns one of the following values:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The call completed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Fast isochronous interfaces and real-time threads are not supported by the host controller. 
-
-</td>
-</tr>
-</table>
-
-## -remarks
-
-This function replaces the <b>USBD_BusSubmitIsoOutUrb</b> library function provided by <i>usbd.sys</i>. 
-
-This function allows clients running in real-time threads at an elevated IRQL to have rapid access to the bus driver. This USB host controller must support real-time threads for this function to work. 
-
-The calling driver forfeits any packet-level error information when calling this function. 
-
-The function definition that is provided on this reference page is an example routine whose parameters are just placeholder names. The actual prototype of this function is declared in <i>usbbusif.h</i> as follows:
-
-
-```
+```cpp
 typedef NTSTATUS
   (USB_BUSIFFN *PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB) (
     IN PVOID,
     IN PURB
+  );
 ```
 
-  );
+## -parameters
 
+### -param unnamedParam1 [in]
+
+Handle returned in the *BusContext* member of the [USB_BUS_INTERFACE_USBDI_V0](ns-usbbusif-_usb_bus_interface_usbdi_v0.md) structure by an IRP_MN_QUERY_INTERFACE request.
+
+### -param unnamedParam2 [in]
+
+Pointer to the [URB](../usb/ns-usb-_urb.md) to be passed to the port driver.
+
+## -returns
+
+**SubmitIsoOutUrb** returns one of the following values:
+
+| Return code            | Description                                                                                 |
+|------------------------|---------------------------------------------------------------------------------------------|
+| `STATUS_SUCCESS`       | The call completed successfully.                                                            |
+| `STATUS_NOT_SUPPORTED` | Fast isochronous interfaces and real-time threads are not supported by the host controller. |
+
+## -remarks
+
+This function replaces the **USBD_BusSubmitIsoOutUrb** library function provided by *usbd.sys*.
+
+This function allows clients running in real-time threads at an elevated IRQL to have rapid access to the bus driver. This USB host controller must support real-time threads for this function to work.
+
+The calling driver forfeits any packet-level error information when calling this function.
+
+## -seealso
+
+- [USB_BUS_INTERFACE_USBDI_V0](ns-usbbusif-_usb_bus_interface_usbdi_v0.md)
+- [URB](../usb/ns-usb-_urb.md)
