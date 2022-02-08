@@ -43,27 +43,46 @@ dev_langs:
 
 ## -description
 
-Defines the **REG_SAVE_MERGED_KEY_INFORMATION** structure.
+The **REG_SAVE_MERGED_KEY_INFORMATION** structure contains the information about the two registry subtrees for which a merged view is to be saved to a file.
 
 ## -struct-fields
 
 ### -field Object
 
+Set to NULL.
+
 ### -field FileHandle
+
+Supplies a file handle with write access to the target file.
 
 ### -field HighKeyObject
 
+Supplies a pointer to the registry key object that represents the root of the higher precedence tree. When a key is present in both the trees headed by the two keys, the key underneath this tree prevails. The specified node is included in the data written out.
+
 ### -field LowKeyObject
+
+Supplies a pointer to the registry key object that represents the root of the "second choice" tree. Keys from this tree are saved when there is no equivalent key in the tree headed by **HighKeyObject**.
 
 ### -field CallContext
 
+Optional driver-defined context information that the driver's [*RegistryCallback*](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) routine can supply. This member is defined for Windows Vista and later versions of the Windows operating system.
+
 ### -field ObjectContext
+
+A pointer to driver-defined context information that the driver has associated with a registry object by calling [**CmSetCallbackObjectContext**](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext). This member is defined for Windows Vista and later versions of the Windows operating system.
 
 ### -field Reserved
 
+This member is reserved for future use. This member is defined for Windows Vista and later versions of the Windows operating system.
+
 ## -remarks
+
+For more information about registry filtering operations, see <a href="/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
+These are mostly useful for watching for unexpected updates to critical hives and consumers should avoid attempting to modify the merge operations.
 
 ## -see-also
 
-[EX_CALLBACK_FUNCTION](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) callback function
-[REG_SAVE_MERGED_KEY_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-reg_save_merged_key_information) structure
+[**CmSetCallbackObjectContext**](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext)
+
+[*RegistryCallback*](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function)
+

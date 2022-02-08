@@ -4,7 +4,7 @@ title: IDebugClient5::GetRunningProcessDescription (dbgeng.h)
 description: The IDebugClient5::GetRunningProcessDescription method returns a description of the process that includes several elements.
 old-location: debugger\getrunningprocessdescription.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugClient5::GetRunningProcessDescription"]
 ms.keywords: GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], GetRunningProcessDescription method [Windows Debugging],IDebugClient interface, GetRunningProcessDescription method [Windows Debugging],IDebugClient2 interface, GetRunningProcessDescription method [Windows Debugging],IDebugClient3 interface, GetRunningProcessDescription method [Windows Debugging],IDebugClient4 interface, GetRunningProcessDescription method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetRunningProcessDescription method, IDebugClient2 interface [Windows Debugging],GetRunningProcessDescription method, IDebugClient2::GetRunningProcessDescription, IDebugClient3 interface [Windows Debugging],GetRunningProcessDescription method, IDebugClient3::GetRunningProcessDescription, IDebugClient4 interface [Windows Debugging],GetRunningProcessDescription method, IDebugClient4::GetRunningProcessDescription, IDebugClient5 interface [Windows Debugging],GetRunningProcessDescription method, IDebugClient5.GetRunningProcessDescription, IDebugClient5::GetRunningProcessDescription, IDebugClient::GetRunningProcessDescription, IDebugClient_e5736881-635f-4998-809b-d210bf447a36.xml, dbgeng/IDebugClient2::GetRunningProcessDescription, dbgeng/IDebugClient3::GetRunningProcessDescription, dbgeng/IDebugClient4::GetRunningProcessDescription, dbgeng/IDebugClient5::GetRunningProcessDescription, dbgeng/IDebugClient::GetRunningProcessDescription, debugger.getrunningprocessdescription
 req.header: dbgeng.h
@@ -119,12 +119,12 @@ Receives the name of the executable file used to start the process.  If <i>ExeNa
 ### -param ExeNameSize [in]
 
 
-Specifies the size in characters of the buffer <i>ExeNameSize</i>.
+Specifies the size in characters of the buffer <i>ExeNameSize</i>. This size includes the space for the '\0' terminating character.
 
 ### -param ActualExeNameSize [out, optional]
 
 
-Receives the size in characters of the executable file name.  If <i>ExeNameSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the executable file name. This size includes the space for the '\0' terminating character. If <i>ExeNameSize</i> is <b>NULL</b>, this information is not returned.
 
 ### -param Description [out, optional]
 
@@ -134,12 +134,12 @@ Receives extra information about the process, including service names, MTS packa
 ### -param DescriptionSize [in]
 
 
-Specifies the size in characters of the buffer <i>Description</i>.
+Specifies the size in characters of the buffer <i>Description</i>. This size includes the space for the '\0' terminating character.
 
 ### -param ActualDescriptionSize [out, optional]
 
 
-Receives the size in characters of the extra information.  If <i>ActualDescriptionSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the extra information. This size includes the space for the '\0' terminating character. If <i>ActualDescriptionSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

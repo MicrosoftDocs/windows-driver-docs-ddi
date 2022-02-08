@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetFieldNameWide (dbgeng.h)
 description: The GetFieldNameWide method returns the name of a field within a structure.
 old-location: debugger\getfieldnamewide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetFieldNameWide"]
 ms.keywords: GetFieldNameWide, GetFieldNameWide method [Windows Debugging], GetFieldNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFieldNameWide method, IDebugSymbols3.GetFieldNameWide, IDebugSymbols3::GetFieldNameWide, dbgeng/IDebugSymbols3::GetFieldNameWide, debugger.getfieldnamewide
 req.header: dbgeng.h
@@ -72,12 +72,12 @@ Receives the field's name.  If <i>NameBuffer</i> is <b>NULL</b>, this informatio
 ### -param NameBufferSize [in]
 
 
-Specifies the size in characters of the buffer <i>NameBuffer</i>.
+Specifies the size in characters of the buffer <i>NameBuffer</i>. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-Receives the size in characters of the field's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the field's name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

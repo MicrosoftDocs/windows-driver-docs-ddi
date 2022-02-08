@@ -4,7 +4,7 @@ title: PUSB_BUSIFFN_QUERY_BUS_TIME_EX (usbbusif.h)
 description: The QueryBusTimeEx routine gets the current 32-bit USB micro-frame number.
 old-location: buses\querybustimeex.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 02/04/2022
 keywords: ["PUSB_BUSIFFN_QUERY_BUS_TIME_EX callback function"]
 ms.keywords: PUSB_BUSIFFN_QUERY_BUS_TIME_EX, QueryBusTimeEx, QueryBusTimeEx callback function [Buses], USB_BUSIFFN_QUERY_BUS_TIME_EX, USB_BUSIFFN_QUERY_BUS_TIME_EX callback, buses.querybustimeex, usbbusif/QueryBusTimeEx
 req.header: usbbusif.h
@@ -42,76 +42,47 @@ api_name:
 
 # PUSB_BUSIFFN_QUERY_BUS_TIME_EX callback function
 
-
 ## -description
 
 This request is not supported.
-      
 
-The <b>QueryBusTimeEx</b> routine gets the current 32-bit USB micro-frame number.
+The **QueryBusTimeEx** routine gets the current 32-bit USB micro-frame number.
+
+## -syntax
+
+```cpp
+typedef NTSTATUS
+  (USB_BUSIFFN *PUSB_BUSIFFN_QUERY_BUS_TIME_EX) (
+    IN PVOID,
+    IN PULONG
+  );
+```
 
 ## -parameters
 
-### -param BusContext [in]
+### -param unnamedParam1 [in]
 
-Handle returned in the <b>BusContext</b> member of the <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v3">USB_BUS_INTERFACE_USBDI_V3</a> structure by an IRP_MN_QUERY_INTERFACE request. 
+Handle returned in the **BusContext** member of the [USB_BUS_INTERFACE_USBDI_V3](ns-usbbusif-_usb_bus_interface_usbdi_v3.md) structure by an IRP_MN_QUERY_INTERFACE request.
 
-
-### -param CurrentMicroFrame [out]
+### -param unnamedParam2 [out]
 
 Receives the current USB micro-frame number.
 
 ## -returns
 
-<b>QueryBusTimeEx</b> returns one of the following values:
+**QueryBusTimeEx** returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The call completed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED </b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was called for a USB host controller that does not support USB 2.0. 
-
-</td>
-</tr>
-</table>
+| Return code            | Description                                                                      |
+|------------------------|----------------------------------------------------------------------------------|
+| `STATUS_SUCCESS`       | The call completed successfully.                                                 |
+| `STATUS_NOT_SUPPORTED` | The function was called for a USB host controller that does not support USB 2.0. |
 
 ## -remarks
 
-<b>QueryBusTimeEx</b> gets the current USB 2.0 frame/micro-frame number when called for a USB device attached to a USB 2.0 host controller.  
-
+**QueryBusTimeEx** gets the current USB 2.0 frame/micro-frame number when called for a USB device attached to a USB 2.0 host controller.  
 
 The lowest 3 bits of the returned micro-frame value will contain the current 125us micro-frame, while the upper 29 bits will contain the current 1ms USB frame number.
 
-
-The function definition that is provided on this reference page is an example function whose parameters are just placeholder names. The actual prototype of the function is declared in usbbusif.h as follows:
-
-
-
-<pre class="syntax"><code>typedef NTSTATUS
-  (USB_BUSIFFN *PUSB_BUSIFFN_QUERY_BUS_TIME_EX) (
-    IN PVOID,
-    IN PULONG</code></pre>
-
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v3">USB_BUS_INTERFACE_USBDI_V3</a>
-
+- [USB_BUS_INTERFACE_USBDI_V3](ns-usbbusif-_usb_bus_interface_usbdi_v3.md)

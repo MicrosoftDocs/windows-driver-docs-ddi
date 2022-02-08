@@ -4,7 +4,7 @@ title: IDebugControl4::GetExpressionSyntaxNamesWide (dbgeng.h)
 description: The GetExpressionSyntaxNamesWide method returns the full and abbreviated names of an expression syntax.
 old-location: debugger\getexpressionsyntaxnameswide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl4::GetExpressionSyntaxNamesWide"]
 ms.keywords: GetExpressionSyntaxNamesWide, GetExpressionSyntaxNamesWide method [Windows Debugging], GetExpressionSyntaxNamesWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetExpressionSyntaxNamesWide method, IDebugControl4.GetExpressionSyntaxNamesWide, IDebugControl4::GetExpressionSyntaxNamesWide, dbgeng/IDebugControl4::GetExpressionSyntaxNamesWide, debugger.getexpressionsyntaxnameswide
 req.header: dbgeng.h
@@ -62,12 +62,12 @@ Receives the full name of the expression syntax.  If <i>FullNameBuffer</i> is <b
 ### -param FullNameBufferSize [in]
 
 
-Specifies the size, in characters, of the buffer <i>FullNameBuffer</i>.
+Specifies the size, in characters, of the buffer <i>FullNameBuffer</i>. This size includes the space for the '\0' terminating character.
 
 ### -param FullNameSize [out, optional]
 
 
-Receives the size, in characters, of the full name of the expression syntax.  If <i>FullNameSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size, in characters, of the full name of the expression syntax. This size includes the space for the '\0' terminating character. If <i>FullNameSize</i> is <b>NULL</b>, this information is not returned.
 
 ### -param AbbrevNameBuffer [out, optional]
 
@@ -77,12 +77,12 @@ Receives the abbreviated name of the expression syntax.  If <i>AbbrevNameBuffer<
 ### -param AbbrevNameBufferSize [in]
 
 
-Specifies the size, in characters, of the buffer <i>AbbrevNameBufferSize</i>.
+Specifies the size, in characters, of the buffer <i>AbbrevNameBufferSize</i>. This size includes the space for the '\0' terminating character.
 
 ### -param AbbrevNameSize [out, optional]
 
 
-Receives the size, in characters, of the abbreviated name of the expression syntax.  If <i>AbbrevNameSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size, in characters, of the abbreviated name of the expression syntax. This size includes the space for the '\0' terminating character. If <i>AbbrevNameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

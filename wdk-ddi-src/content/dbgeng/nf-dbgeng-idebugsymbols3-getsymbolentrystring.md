@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetSymbolEntryString (dbgeng.h)
 description: The GetSymbolEntryString method returns string information for the specified symbol.
 old-location: debugger\getsymbolentrystring.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetSymbolEntryString"]
 ms.keywords: GetSymbolEntryString, GetSymbolEntryString method [Windows Debugging], GetSymbolEntryString method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntryString method, IDebugSymbols3.GetSymbolEntryString, IDebugSymbols3::GetSymbolEntryString, IDebugSymbols_cf31d6c1-ffc6-4112-af04-dc023635bb5a.xml, dbgeng/IDebugSymbols3::GetSymbolEntryString, debugger.getsymbolentrystring
 req.header: dbgeng.h
@@ -67,12 +67,12 @@ Receives the name of the symbol.  If <i>Buffer</i> is <b>NULL</b>, this informat
 ### -param BufferSize [in]
 
 
-Specifies the size in characters of the buffer <i>Buffer</i>.
+Specifies the size in characters of the buffer <i>Buffer</i>. This size includes the space for the '\0' terminating character.
 
 ### -param StringSize [out, optional]
 
 
-Receives the size in characters of the symbol's name.  If <i>StringSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the symbol's name. This size includes the space for the '\0' terminating character. If <i>StringSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

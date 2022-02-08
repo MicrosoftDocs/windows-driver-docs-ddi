@@ -4,7 +4,7 @@ title: IDebugSymbolGroup2::GetSymbolName (dbgeng.h)
 description: The GetSymbolName method returns the name of a symbol in a symbol group. This method belongs to the IDebugSymbolGroup2 interface.
 old-location: debugger\getsymbolname.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbolGroup2::GetSymbolName"]
 ms.keywords: ComOther_e12d7aee-985e-4770-8567-7c3748a79905.xml, GetSymbolName, GetSymbolName method [Windows Debugging], GetSymbolName method [Windows Debugging],IDebugSymbolGroup interface, GetSymbolName method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup interface [Windows Debugging],GetSymbolName method, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolName method, IDebugSymbolGroup2.GetSymbolName, IDebugSymbolGroup2::GetSymbolName, IDebugSymbolGroup::GetSymbolName, dbgeng/IDebugSymbolGroup2::GetSymbolName, dbgeng/IDebugSymbolGroup::GetSymbolName, debugger.getsymbolname
 req.header: dbgeng.h
@@ -62,12 +62,12 @@ The symbol name.  If <i>Buffer</i> is <b>NULL</b>, this information is not retur
 ### -param BufferSize [in]
 
 
-The size of the buffer that <i>Buffer </i>points to.
+The size of the buffer that <i>Buffer </i>points to. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-The size of the symbol name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+The size of the symbol name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

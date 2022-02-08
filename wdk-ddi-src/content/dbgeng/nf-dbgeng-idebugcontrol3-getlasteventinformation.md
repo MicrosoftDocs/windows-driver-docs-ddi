@@ -4,7 +4,7 @@ title: IDebugControl3::GetLastEventInformation (dbgeng.h)
 description: The GetLastEventInformation method returns information about the last event that occurred in a target.
 old-location: debugger\getlasteventinformation.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl3::GetLastEventInformation"]
 ms.keywords: GetLastEventInformation, GetLastEventInformation method [Windows Debugging], GetLastEventInformation method [Windows Debugging],IDebugControl interface, GetLastEventInformation method [Windows Debugging],IDebugControl2 interface, GetLastEventInformation method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetLastEventInformation method, IDebugControl2 interface [Windows Debugging],GetLastEventInformation method, IDebugControl2::GetLastEventInformation, IDebugControl3 interface [Windows Debugging],GetLastEventInformation method, IDebugControl3.GetLastEventInformation, IDebugControl3::GetLastEventInformation, IDebugControl::GetLastEventInformation, IDebugControl_4016bdce-0386-4c6f-9039-9a4046f3805b.xml, dbgeng/IDebugControl2::GetLastEventInformation, dbgeng/IDebugControl3::GetLastEventInformation, dbgeng/IDebugControl::GetLastEventInformation, debugger.getlasteventinformation
 req.header: dbgeng.h
@@ -87,12 +87,12 @@ Receives the description of the event.  If <i>Description</i> is <b>NULL</b>, th
 ### -param DescriptionSize [in]
 
 
-Specifies the size, in characters, of the buffer that <i>Description</i> specifies.
+Specifies the size, in characters, of the buffer that <i>Description</i> specifies. This size includes the space for the '\0' terminating character.
 
 ### -param DescriptionUsed [out, optional]
 
 
-Receives the size in characters of the description of the event.  If <i>DescriptionUsed </i>is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the description of the event. This size includes the space for the '\0' terminating character. If <i>DescriptionUsed </i>is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

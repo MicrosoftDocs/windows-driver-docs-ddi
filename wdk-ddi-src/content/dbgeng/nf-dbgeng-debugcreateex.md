@@ -4,7 +4,7 @@ title: DebugCreateEx function (dbgeng.h)
 description: The DebugCreateEx function creates a new client object and returns an interface pointer to it.
 old-location: debugger\debugcreateex.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["DebugCreateEx function"]
 ms.keywords: DebugCreateEx, DebugCreateEx function [Windows Debugging], dbgeng/DebugCreateEx, debugger.debugcreateex
 req.header: dbgeng.h
@@ -99,9 +99,13 @@ The client object doesn't implement the specified interface.
 
 ## -remarks
 
-The parameters passed to <b>DebugCreateEx</b> are the same as those passed to <b>IUnknown::QueryInterface</b>, and they are treated the same way.
+The parameters passed to **DebugCreateEx** are the same as those passed to **IUnknown::QueryInterface**, and they are treated the same way.
 
-As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longer needed, its <b>IUnknown::Release</b> method should be called.
+As with **IUnknown::QueryInterface**, when the returned interface is no longer needed, its **IUnknown::Release** method should be called.
+
+You don't need to call **CoInitialize**, **CoInitializeEx**, or **OleInitialize** to use this function and interfaces obtained by it.
+
+The debugger engine client interfaces cannot be obtained by calling **CoCreateInstance**, **CoCreateInstanceEx**, or **CoGetClassObject**. Use **DebugCreate**, **DebugCreateEx**, **DebugConnect**, or **DebugConnectWide** to create such an interface, or call **IUnknown::QueryInterface** on another debugger engine client interface.
 
 ## -see-also
 
