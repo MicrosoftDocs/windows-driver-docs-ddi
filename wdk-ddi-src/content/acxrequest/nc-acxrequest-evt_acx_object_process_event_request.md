@@ -54,7 +54,21 @@ dev_langs:
 
 ### -param Request
 
+A standard WDFREQUEST object. 
+
+For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).
+
 ## -remarks
 
+### Example
+
+Example usage is shown below.
+
+```cpp
+
+```
+
 ## -see-also
+
+[acxrequest.h header](index.md)
 

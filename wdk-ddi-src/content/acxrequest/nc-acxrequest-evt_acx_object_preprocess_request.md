@@ -52,5 +52,17 @@ dev_langs:
 
 ## -remarks
 
+### Example
+
+Example usage is shown below.
+
+```cpp
+
+```
+
+
+
 ## -see-also
+
+[acxrequest.h header](index.md)
 

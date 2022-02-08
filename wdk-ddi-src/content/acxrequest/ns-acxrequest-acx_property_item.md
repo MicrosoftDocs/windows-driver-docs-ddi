@@ -2,9 +2,9 @@
 UID: NS:acxrequest._ACX_PROPERTY_ITEM
 tech.root: audio
 title: ACX_PROPERTY_ITEM
-ms.date: 01/10/2022
+ms.date: 02/07/2022
 targetos: Windows
-description: 
+description: The ACX_PROPERTY_ITEM structure describes the ACX request property item.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,6 +44,8 @@ dev_langs:
 
 ## -description
 
+The **ACX_PROPERTY_ITEM** structure describes the ACX request property item.
+
 ## -struct-fields
 
 ### -field Set
@@ -64,5 +66,15 @@ dev_langs:
 
 ## -remarks
 
+### Example
+
+Example usage is shown below.
+
+```cpp
+
+```
+
 ## -see-also
+
+[acxrequest.h header](index.md)
 

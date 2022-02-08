@@ -44,6 +44,8 @@ dev_langs:
 
 ## -description
 
+The **ACX_REQUEST_PARAMETERS** structure describes the event items that can be used in an ACX request.
+
 ## -struct-fields
 
 ### -field Size
@@ -122,5 +124,15 @@ dev_langs:
 
 ## -remarks
 
+### Example
+
+Example usage is shown below.
+
+```cpp
+
+```
+
 ## -see-also
+
+[acxrequest.h header](index.md)
 

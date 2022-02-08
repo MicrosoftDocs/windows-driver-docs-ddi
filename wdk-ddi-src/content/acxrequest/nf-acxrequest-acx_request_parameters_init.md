@@ -2,9 +2,9 @@
 UID: NF:acxrequest.ACX_REQUEST_PARAMETERS_INIT
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS_INIT
-ms.date: 01/10/2022
+ms.date: 02/08/2022
 targetos: Windows
-description: 
+description: The ACX_REQUEST_PARAMETERS_INIT_METHOD function initializes ACX request methods.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,40 @@ dev_langs:
 
 ## -description
 
+The **ACX_REQUEST_PARAMETERS_INIT_METHOD** function initializes ACX request methods.
+
 ## -parameters
 
 ### -param Parameters
 
+An [ACX_REQUEST_PARAMETERS](nf-acxrequest-acxrequestgetparameters.md) structure that describes the event items that can be used in an ACX request.
+ 
 ## -remarks
 
+### Example
+
+Example usage is shown below.
+
+```cpp
+            arg     = circuitArg;
+            result  = 0;
+
+            //
+            // Format and send the request. 
+            //
+            ACX_REQUEST_PARAMETERS_INIT_METHOD(
+                &params,
+                methodsTests[i].MethodSet,
+                methodsTests[i].MethodId,
+                AcxMethodVerbSend,
+                AcxItemTypeCircuit,
+                AcxItemIdNone,
+                &arg, sizeof(arg),      // Args & size
+                &result, sizeof(result) // Result & size
+                );
+```
+
 ## -see-also
+
+[acxrequest.h header](index.md)
 

@@ -2,9 +2,9 @@
 UID: NE:acxrequest._ACX_ITEM_TYPE
 tech.root: audio
 title: ACX_ITEM_TYPE
-ms.date: 01/10/2022
+ms.date: 02/07/2022
 targetos: Windows
-description: 
+description: The ACX_ITEM_TYPE enumeration describes the type of items that will be available.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,23 +40,51 @@ dev_langs:
 
 ## -description
 
+The **ACX_ITEM_TYPE** enumeration describes the type of items that will be available.
+
 ## -enum-fields
 
 ### -field AcxItemTypeDefault
 
+The default type.
+
 ### -field AcxItemTypeCircuit
+
+A Circuit type.
 
 ### -field AcxItemTypeStream
 
+A Stream type.
+
 ### -field AcxItemTypeFactoryCircuit
+
+A FactoryCircuit type.
 
 ### -field AcxItemTypePin
 
+A Pin type.
+
 ### -field AcxItemTypeElement
+
+An Element type.
 
 ### -field AcxItemTypeMax
 
+TBD - For internal validation, do not use.
+
 ## -remarks
 
+### Example
+
+Example usage is shown below.
+
+TBD - Sample pending
+
+```cpp
+
+```
+
 ## -see-also
+
+[acxrequest.h header](index.md)
 
