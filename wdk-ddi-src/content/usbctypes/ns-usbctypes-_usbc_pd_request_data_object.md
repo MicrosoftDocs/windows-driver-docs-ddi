@@ -1,9 +1,9 @@
 ---
 UID: NS:usbctypes._USBC_PD_REQUEST_DATA_OBJECT
 title: _USBC_PD_REQUEST_DATA_OBJECT (usbctypes.h)
-description: Describes a Request Data Object (RDO).
+description: Describes a request data object (RDO).
 tech.root: usbref
-ms.date: 09/30/2018
+ms.date: 02/08/2022
 keywords: ["USBC_PD_REQUEST_DATA_OBJECT structure"]
 ms.keywords: _USBC_PD_REQUEST_DATA_OBJECT, USBC_PD_REQUEST_DATA_OBJECT, *PUSBC_PD_REQUEST_DATA_OBJECT,
 req.header: usbctypes.h
@@ -42,10 +42,9 @@ api_name:
 
 # _USBC_PD_REQUEST_DATA_OBJECT structure
 
-
 ## -description
 
-Describes a Request Data Object (RDO). For information about these members, see the [Power Delivery specification](https://www.usb.org/documents?search=&tid_2%5B0%5D=40&items_per_page=50).
+Describes a request data object (RDO). For information about these members, see the [Power Delivery specification](https://www.usb.org/documents?search=&tid_2%5B0%5D=40&items_per_page=50).
 
 ## -struct-fields
 
@@ -57,7 +56,7 @@ Size of the structure.
 
 ### -field Common.Reserved1
 
-Reserved.
+Reserved, do not use.
 
 ### -field Common.ObjectPosition
 
@@ -65,11 +64,11 @@ Object position.
 
 ### -field Common.Reserved2
 
-Reserved.
+Reserved, do not use.
 
 ### -field FixedAndVariableRdo
 
-Contains bitfields describing a request data object.
+Contains bit fields describing a request data object.
 
 ### -field FixedAndVariableRdo.MaximumOperatingCurrentIn10mA
 
@@ -81,43 +80,43 @@ Operating current in 10mA units.
 
 ### -field FixedAndVariableRdo.Reserved1
 
-Reserved.
+Reserved, do not use.
 
 ### -field FixedAndVariableRdo.CapabilityMismatch
 
-Capability Mismatch
+Capability mismatch
 
 ### -field FixedAndVariableRdo.GiveBackFlag
 
-GiveBack Flag.
+Giveback flag.
 
 ### -field FixedAndVariableRdo.ObjectPosition
 
-Object Position.
+Object position.
 
 ### -field FixedAndVariableRdo.Reserved2
 
-Reserved for future use.
+Reserved, do not use.
 
 ### -field BatteryRdo
 
-Contains bitfields describing a request data object.
+Contains bit fields describing a request data object.
 
 ### -field BatteryRdo.MaximumOperatingPowerIn250mW
 
-Maximum Operating Power in 250mW units.
+Maximum operating power in 250mW units.
 
 ### -field BatteryRdo.OperatingPowerIn250mW
 
-Operating Power in 250mW units.
+Operating power in 250mW units.
 
 ### -field BatteryRdo.Reserved1
 
-Reserved.
+Reserved, do not use.
 
 ### -field BatteryRdo.CapabilityMismatch
 
-Capability Mismatch.
+Capability mismatch.
 
 ### -field BatteryRdo.GiveBackFlag
 
@@ -125,13 +124,56 @@ Giveback flag.
 
 ### -field BatteryRdo.ObjectPosition
 
-Object Position.
+Object position.
 
 ### -field BatteryRdo.Reserved2
 
-Reserved.
+Reserved, do not use.
+
+### -field ProgrammableRdo
+
+Describes a programmable request data object.
+
+### -field ProgrammableRdo.OperatingCurrentIn50mA
+
+Operating current in 50mA units.
+
+### -field ProgrammableRdo.Reserved1
+
+Reserved, do not use.
+
+### -field ProgrammableRdo.OutputVoltageIn20mV
+
+Output voltage in 20mV units.
+
+### -field ProgrammableRdo.Reserved2
+
+Reserved, do not use.
+
+### -field ProgrammableRdo.UnchunkedExtendedMessagesSupported
+
+Supports unchunked extended messages.
+
+### -field ProgrammableRdo.Reserved3
+
+Reserved, do not use.
+
+### -field ProgrammableRdo.CapabilityMismatch
+
+Capability mismatch.
+
+### -field ProgrammableRdo.Reserved4
+
+Reserved, do not use.
+
+### -field ProgrammableRdo.ObjectPosition
+
+Object position.
+
+### -field ProgrammableRdo.Reserved5
+
+Reserved, do not use.
 
 ## -remarks
 
 ## -see-also
-
