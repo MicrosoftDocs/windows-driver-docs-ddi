@@ -58,7 +58,7 @@ Indicates an audio human presence detection type, such as a microphone.
 
 ### -field HumanPresenceDetectionType_Force_Dword
 
-Reserved.
+Used to force the **HUMAN_PRESENCE_DETECTION_TYPE** enum to a 32-bit data type (a DWORD).
 
 ## -remarks
 
