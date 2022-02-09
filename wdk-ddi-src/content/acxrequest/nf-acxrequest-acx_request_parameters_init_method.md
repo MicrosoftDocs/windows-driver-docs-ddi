@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_REQUEST_PARAMETERS_INIT_METHOD
 ms.date: 02/07/2022
 targetos: Windows
-description: The ACX_REQUEST_PARAMETERS_INIT_METHOD initializes ACX request parameters.
+description: The ACX_REQUEST_PARAMETERS_INIT_METHOD initializes ACX request methods.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_REQUEST_PARAMETERS_INIT_METHOD** function initializes ACX request parameters.
+The **ACX_REQUEST_PARAMETERS_INIT_METHOD** function initializes ACX request methods.
 
 ## -parameters
 

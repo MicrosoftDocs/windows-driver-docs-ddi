@@ -48,11 +48,19 @@ The **ACX_REQUEST_PARAMETERS_INIT_PROPERTY** function initializes ACX request pa
 
 ### -param Params
 
+An initialized [ACX_REQUEST_PARAMETERS](ns-acxrequest-acx_request_parameters.md) structure that is used to store circuit information.
+
 ### -param Set
+
+A set of Methods that are TBD.
 
 ### -param Id
 
+The Method ID that will be TBD.
+
 ### -param Verb
+
+The Acx Method Verb to send.
 
 ### -param ItemType
 

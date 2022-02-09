@@ -49,13 +49,15 @@ The **AcxTargetCircuitFormatRequestForMethod** dispatches an ACX request using a
 
 ### -param TargetElement
 
+TBD
+
 ### -param Request
 
 A pointer to a location that receives a handle to a WDFREQUEST framework request object described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects). For general information about WDF requests, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects).
 
 ### -param Params
 
-A pointer to the [ACX_TARGET_PARAMETERS](ns-acx-TBD.md) structure that will be initialized.
+A pointer to the [ACX_REQUEST_PARAMETERS](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_request_parameters.md) structure that will be initialized.
 
 ## -returns
 
