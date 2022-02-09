@@ -77,6 +77,6 @@ For more info about this function and its usage, see [Acquiring high-resolution 
 
 [KeQueryTimeIncrement](./nf-wdm-kequerytimeincrement.md)
 
-[QueryPerformanceCounter](xref:NF:profileapi.QueryPerformanceCounter)
+[QueryPerformanceCounter](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)
 
 [QueryPerformanceFrequency](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency)
