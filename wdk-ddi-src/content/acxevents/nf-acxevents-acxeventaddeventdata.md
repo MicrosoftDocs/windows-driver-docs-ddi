@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxEventAddEventData function adds event data to an ACXEVENT object.
+The **AcxEventAddEventData** function adds event data to an ACXEVENT object.
 
 ## -parameters
 

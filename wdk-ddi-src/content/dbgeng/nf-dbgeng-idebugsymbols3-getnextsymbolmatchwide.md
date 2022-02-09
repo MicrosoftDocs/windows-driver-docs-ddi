@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetNextSymbolMatchWide (dbgeng.h)
 description: The GetNextSymbolMatchWide method returns the next symbol found in a symbol search.
 old-location: debugger\getnextsymbolmatchwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetNextSymbolMatchWide"]
 ms.keywords: GetNextSymbolMatchWide, GetNextSymbolMatchWide method [Windows Debugging], GetNextSymbolMatchWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetNextSymbolMatchWide method, IDebugSymbols3.GetNextSymbolMatchWide, IDebugSymbols3::GetNextSymbolMatchWide, dbgeng/IDebugSymbols3::GetNextSymbolMatchWide, debugger.getnextsymbolmatchwide
 req.header: dbgeng.h
@@ -62,12 +62,12 @@ Receives the name of the symbol.  If <i>Buffer</i> is <b>NULL</b>, the same symb
 ### -param BufferSize [in]
 
 
-Specifies the size in characters of the buffer.
+Specifies the size in characters of the buffer. This size includes the space for the '\0' terminating character.
 
 ### -param MatchSize [out, optional]
 
 
-Receives the size in characters of the name of the symbol.  If <i>MatchSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the name of the symbol. This size includes the space for the '\0' terminating character. If <i>MatchSize</i> is <b>NULL</b>, this information is not returned.
 
 ### -param Offset [out, optional]
 

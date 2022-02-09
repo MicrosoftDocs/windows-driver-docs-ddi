@@ -2,9 +2,9 @@
 UID: NF:acxstreams.AcxStreamResumeIoActual
 tech.root: audio
 title: AcxStreamResumeIoActual
-ms.date: 07/14/2021
+ms.date: 02/04/2022
 targetos: Windows
-description: The AcxStreamResumeIoActual function is used to resume actual IO for a stream TBD.
+description: The AcxStreamResumeIoActual function is used to resume IO for a stream.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamResumeIoActual function is used to resume actual IO for a stream TBD. It is different from the [AcxStreamResumeIo](nf-acxstreams-acxstreamresumeio.md) function, in that it TBD.
+The **AcxStreamResumeIoActual** function is used to resume IO for a stream. 
 
 ## -parameters
 
@@ -52,34 +52,23 @@ A pointer to an existing ACXSTREAM Object. An ACXSTREAM Object represents an aud
 
 ### -param ObjectTag
 
-An optional ObjectTag that is used to TBD. (can be displayed for diagnostic information??? TBD)
+An optional ObjectTag that is a driver-defined value that the framework stores as an identification tag for the ACX driver.
 
 ### -param Line
 
-The Line number in the TBD that is used to TBD. (can be displayed for diagnostic information??? TBD)
+The Line number in the driver code that can be displayed for diagnostic purposes.
 
 ### -param File
 
-The File that is used to TBD. (can be displayed for diagnostic information??? TBD)
+The file name in the driver code that can be displayed for diagnostic purposes.
 
 ## -returns
 
 Void
 
-
 ## -remarks
 
-### Example
-
-Example usage is shown below.
-
-TBD No example code found
-
-```cpp
-
-```
-
-
+It is not recommended to use this version of the resume IO call, but rather [AcxStreamResumeIoWithTag](nf-acxstreams-acxstreamresumeiowithtag.md).
 
 ## -see-also
 

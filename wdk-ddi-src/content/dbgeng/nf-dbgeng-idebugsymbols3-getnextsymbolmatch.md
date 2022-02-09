@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetNextSymbolMatch (dbgeng.h)
 description: The GetNextSymbolMatch method returns the next symbol found in a symbol search. This method belongs to the IDebugSymbols3 interface.
 old-location: debugger\getnextsymbolmatch.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetNextSymbolMatch"]
 ms.keywords: GetNextSymbolMatch, GetNextSymbolMatch method [Windows Debugging], GetNextSymbolMatch method [Windows Debugging],IDebugSymbols interface, GetNextSymbolMatch method [Windows Debugging],IDebugSymbols2 interface, GetNextSymbolMatch method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetNextSymbolMatch method, IDebugSymbols2 interface [Windows Debugging],GetNextSymbolMatch method, IDebugSymbols2::GetNextSymbolMatch, IDebugSymbols3 interface [Windows Debugging],GetNextSymbolMatch method, IDebugSymbols3.GetNextSymbolMatch, IDebugSymbols3::GetNextSymbolMatch, IDebugSymbols::GetNextSymbolMatch, IDebugSymbols_9918b348-5b29-4b38-849e-3a36414b773d.xml, dbgeng/IDebugSymbols2::GetNextSymbolMatch, dbgeng/IDebugSymbols3::GetNextSymbolMatch, dbgeng/IDebugSymbols::GetNextSymbolMatch, debugger.getnextsymbolmatch
 req.header: dbgeng.h
@@ -62,12 +62,12 @@ Receives the name of the symbol.  If <i>Buffer</i> is <b>NULL</b>, the same symb
 ### -param BufferSize [in]
 
 
-Specifies the size in characters of the buffer.
+Specifies the size in characters of the buffer. This size includes the space for the '\0' terminating character.
 
 ### -param MatchSize [out, optional]
 
 
-Receives the size in characters of the name of the symbol.  If <i>MatchSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the name of the symbol. This size includes the space for the '\0' terminating character. If <i>MatchSize</i> is <b>NULL</b>, this information is not returned.
 
 ### -param Offset [out, optional]
 

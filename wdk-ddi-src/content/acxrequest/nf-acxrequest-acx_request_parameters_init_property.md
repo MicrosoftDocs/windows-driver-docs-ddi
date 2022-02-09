@@ -2,9 +2,9 @@
 UID: NF:acxrequest.ACX_REQUEST_PARAMETERS_INIT_PROPERTY
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS_INIT_PROPERTY
-ms.date: 01/10/2022
+ms.date: 02/07/2022
 targetos: Windows
-description: 
+description: The ACX_REQUEST_PARAMETERS_INIT_PROPERTY initializes ACX request parameter properties.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,25 @@ dev_langs:
 
 ## -description
 
+The **ACX_REQUEST_PARAMETERS_INIT_PROPERTY** function initializes ACX request parameter properties.
+
 ## -parameters
 
 ### -param Params
 
+An initialized [ACX_REQUEST_PARAMETERS](ns-acxrequest-acx_request_parameters.md) structure that is used to store circuit information.
+
 ### -param Set
+
+A set of Methods that are TBD.
 
 ### -param Id
 
+The Method ID that will be TBD.
+
 ### -param Verb
+
+The Acx Method Verb to send.
 
 ### -param ItemType
 
@@ -65,6 +75,37 @@ dev_langs:
 ### -param ValueCb
 
 ## -remarks
+
+### Example
+
+Example usage is shown below.
+
+```cpp
+
+    _In_ ACXTARGETCIRCUIT TargetCircuit,
+    _In_ GUID PropertySet,
+    _In_ ULONG PropertyId,
+    _In_ ACX_PROPERTY_VERB Verb,
+    _Inout_ PVOID Value,
+    _In_ ULONG ValueCb
+)
+{
+
+    ACX_REQUEST_PARAMETERS requestParams;
+
+    ACX_REQUEST_PARAMETERS_INIT_PROPERTY(
+        &requestParams,
+        PropertySet,
+        PropertyId,
+        Verb,
+        AcxItemTypeCircuit,
+        0,
+        NULL, 0,
+        Value, ValueCb
+    );
+
+
+```
 
 ## -see-also
 

@@ -69,6 +69,14 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
+
+```
+
+### Example
+
+Example usage is shown below.
+
+```cpp
 EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT        DspR_EvtAcxAudioEngineAssignEngineDeviceFormat;
 
 NTSTATUS

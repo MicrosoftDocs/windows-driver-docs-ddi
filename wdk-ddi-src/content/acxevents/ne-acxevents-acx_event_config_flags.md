@@ -37,13 +37,13 @@ dev_langs:
 
 ## -description
 
-The ACX_EVENT_CONFIG_FLAGS enumeration defines the EVENT config flags for ACX audio.
+The **ACX_EVENT_CONFIG_FLAGS** enumeration defines the EVENT config flags for ACX audio.
 
 ## -enum-fields
 
 ### -field AcxEventConfigNoFlags
 
-Indicates that no acx event config flags are set.
+Indicates that no event config flags are set.
 
 ### -field AcxEventConfigValidFlags
 

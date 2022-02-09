@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetCircuitFormatRequestForProperty
 ms.date:  11/11/2021
 targetos: Windows
-description: 
+description: The AcxTargetCircuitFormatRequestForMethod formats an ACX request using a WDFREQUEST framework request object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetCircuitFormatRequestForMethod** formats an ACX request using a WDFREQUEST framework request object.
+
 ## -parameters
 
 ### -param TargetCircuit
@@ -54,6 +56,8 @@ A pointer to a location that receives a handle to a WDFREQUEST framework request
 
 ### -param Params
 
+An initialized [ACX_REQUEST_PARAMETERS](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_request_parameters.md) structure that is used to store request parameter information.
+
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
@@ -65,10 +69,27 @@ Framework request objects represent I/O requests that the I/O manager has sent t
 ### Example
 
 ```cpp
+                    WDFREQUEST                  request = NULL;
+                    WDF_REQUEST_SEND_OPTIONS    sendOptions;
+                    WDF_OBJECT_ATTRIBUTES       attributes;
+                    WDFIOTARGET                 ioTarget;
 
-TBD
+                    ACX_REQUEST_PARAMETERS             Params;
 
+...
+                    ioTarget = AcxTargetCircuitGetWdfIoTarget(circuit->AcxTargetCircuit);
 
+                    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+                    attributes.ParentObject = CircuitCtx->AggregatorCircuit->Circuit;
+
+                    status = WdfRequestCreate(&attributes, ioTarget, &request);    
+                    if (!NT_SUCCESS(status)) 
+                    {
+                        AggregatorLogError(g_AggregatorLog, FLAG_INFO, "WdfRequestCreate for AudioModule command failed, %!STATUS!", status);
+                        goto exit;
+                    }
+
+                    status = AcxTargetCircuitFormatRequestForProperty(circuit->AcxTargetCircuit, request, &Params);
 ```
 
 ## -see-also

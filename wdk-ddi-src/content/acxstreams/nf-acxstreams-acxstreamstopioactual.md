@@ -2,9 +2,9 @@
 UID: NF:acxstreams.AcxStreamStopIoActual
 tech.root: audio
 title: AcxStreamStopIoActual
-ms.date: 07/14/2021
+ms.date: 02/04/2022
 targetos: Windows
-description: The AcxStreamStopIoActual function is used to stop the IO for a stream TBD. 
+description: The AcxStreamStopIoActual function is used to stop the IO for a stream. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamStopIoActual function is used to stop the IO for a stream TBD. It is different from the [AcxStreamStopIo](nf-acxstreams-acxstreamstopio.md) function, in that it TBD.
+The **AcxStreamStopIoActual** function is used to to signal to the operating system to temporarily stop stream IO. This allows the driver a short period of time to run time sensitive tasks, and then resume IO after the execution of time sensitive code is complete.
 
 ## -parameters
 
@@ -52,22 +52,21 @@ A pointer to an existing ACXSTREAM Object. An ACXSTREAM Object represents an aud
 
 ### -param Flags
 
-TBD
 TBD - The following flags are defined to TBD TBD.
-TBD
+
 TBD - Set to null as no flags are defined.
 
 ### -param ObjectTag
 
-An optional ObjectTag that is used to TBD. (can be displayed for diagnostic information??? TBD)
+An optional ObjectTag that is a driver-defined value that the framework stores as an identification tag for the ACX driver.
 
 ### -param Line
 
-The Line number in the TBD that is used to TBD. (can be displayed for diagnostic information??? TBD)
+The Line number in the driver code that can be displayed for diagnostic purposes.
 
 ### -param File
 
-The File that is used to TBD. (can be displayed for diagnostic information??? TBD)
+The file name in the driver code that can be displayed for diagnostic purposes.
 
 ## -returns
 
@@ -75,17 +74,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-### Example
-
-Example usage is shown below.
-
-
-TBD No example code found
-
-```cpp
-
-```
-
+It is not recommended to use this version of the stop IO call, but rather [AcxStreamStopIoWithTag](nf-acxstreams-acxstreamstopiowithtag.md).
 
 
 ## -see-also

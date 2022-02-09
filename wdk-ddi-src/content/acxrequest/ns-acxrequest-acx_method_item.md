@@ -2,9 +2,9 @@
 UID: NS:acxrequest._ACX_METHOD_ITEM
 tech.root: audio
 title: ACX_METHOD_ITEM
-ms.date: 01/10/2022
+ms.date: 02/07/2022
 targetos: Windows
-description: 
+description: The ACX_METHOD_ITEM structure describes the method items that can be used in an ACX request.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,6 +44,8 @@ dev_langs:
 
 ## -description
 
+The **ACX_METHOD_ITEM** structure describes the method items that can be used in an ACX request.
+
 ## -struct-fields
 
 ### -field Set
@@ -64,5 +66,15 @@ dev_langs:
 
 ## -remarks
 
+### Example
+
+Example usage is shown below.
+
+```cpp
+
+```
+
 ## -see-also
+
+[acxrequest.h header](index.md)
 

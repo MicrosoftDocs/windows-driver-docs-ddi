@@ -2,9 +2,9 @@
 UID: NC:acxrequest.EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST
 tech.root: audio
 title: EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST
-ms.date: 01/10/2022
+ms.date: 02/08/2022
 targetos: Windows
-description: 
+description: The EVT_ACX_OBJECT_PROCESS_REQUEST callback is used by the driver to allow it to add additional functionality in the event request processing. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+The **EVT_ACX_OBJECT_PROCESS_REQUEST** callback is used by the driver to allow it to add additional functionality in the event request processing. 
+
 ## -parameters
 
 ### -param Object
+
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the request.
 
 ### -param Event
 
@@ -54,7 +58,81 @@ dev_langs:
 
 ### -param Request
 
+A standard WDFREQUEST object. 
+
+For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).
+
 ## -remarks
 
+### Example
+
+Example usage is shown below.
+
+```cpp
+EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST CodecR_EvtMuteElementChangeEventCallback;
+...
+
+
+VOID
+CodecR_EvtMuteElementChangeEventCallback(
+    _In_        ACXOBJECT       Object,
+    _In_        ACXEVENT        Event,
+    _In_        ACX_EVENT_VERB  Verb,
+    _In_opt_    ACXEVENTDATA    EventData,
+    _In_opt_    WDFREQUEST      Request
+    )
+{
+    NTSTATUS                    status = STATUS_NOT_SUPPORTED;
+    PCODEC_MUTE_ELEMENT_CONTEXT muteCtx = NULL;
+    CODEC_MUTE_EVENT_CONTEXT *  muteEventCtx;
+    
+    PAGED_CODE();
+    
+    muteCtx = GetCodecMuteElementContext(Object);
+    ASSERT(muteCtx);
+
+    // for testing. 
+    muteEventCtx = GetCodecMuteEventContext(Event);
+    ASSERT(muteEventCtx);
+
+    //
+    // Take the correct action: enable/disable.
+    //
+    switch (Verb)
+    {
+    case AcxEventVerbEnable:
+        AcxEventAddEventData(Event, EventData);
+        WdfTimerStart(muteEventCtx->Timer, WDF_REL_TIMEOUT_IN_MS(10));
+        status = STATUS_SUCCESS;
+        break;
+        
+    case AcxEventVerbBasicSupport:
+        status = STATUS_SUCCESS;
+        break;
+        
+    case AcxEventVerbDisable:
+        ASSERT(Request == NULL);
+        //
+        // Verb is AcxEventVerbDisable;
+        // It is ok to generate events even if no one is listening.
+        // If present, ACX completes the request associated with this action.
+        //
+        break;
+        
+    default:
+        ASSERT(FALSE);
+        status = STATUS_INVALID_DEVICE_REQUEST;
+        break;
+    }
+
+    if (Request != NULL)
+    {
+        WdfRequestComplete(Request, status); 
+    }
+}
+```
+
 ## -see-also
+
+[acxrequest.h header](index.md)
 

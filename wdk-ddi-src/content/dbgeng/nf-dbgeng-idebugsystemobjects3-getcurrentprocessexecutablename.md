@@ -4,7 +4,7 @@ title: IDebugSystemObjects3::GetCurrentProcessExecutableName (dbgeng.h)
 description: The GetCurrentProcessExecutableName method returns the name of executable file loaded in the current process. This method belongs to IDebugSystemObjects3.
 old-location: debugger\getcurrentprocessexecutablename.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSystemObjects3::GetCurrentProcessExecutableName"]
 ms.keywords: GetCurrentProcessExecutableName, GetCurrentProcessExecutableName method [Windows Debugging], GetCurrentProcessExecutableName method [Windows Debugging],IDebugSystemObjects interface, GetCurrentProcessExecutableName method [Windows Debugging],IDebugSystemObjects2 interface, GetCurrentProcessExecutableName method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentProcessExecutableName method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetCurrentProcessExecutableName method, IDebugSystemObjects2 interface [Windows Debugging],GetCurrentProcessExecutableName method, IDebugSystemObjects2::GetCurrentProcessExecutableName, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentProcessExecutableName method, IDebugSystemObjects3.GetCurrentProcessExecutableName, IDebugSystemObjects3::GetCurrentProcessExecutableName, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentProcessExecutableName method, IDebugSystemObjects4::GetCurrentProcessExecutableName, IDebugSystemObjects::GetCurrentProcessExecutableName, IDebugSystemObjects_2659a668-4ecb-44de-b287-b4adc830f8c4.xml, dbgeng/IDebugSystemObjects2::GetCurrentProcessExecutableName, dbgeng/IDebugSystemObjects3::GetCurrentProcessExecutableName, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableName, dbgeng/IDebugSystemObjects::GetCurrentProcessExecutableName, debugger.getcurrentprocessexecutablename
 req.header: dbgeng.h
@@ -57,12 +57,12 @@ Receives the name of the executable file.  If <i>Buffer</i> is <b>NULL</b>, this
 ### -param BufferSize [in]
 
 
-Specifies the size in characters of the buffer <i>Buffer</i>.
+Specifies the size in characters of the buffer <i>Buffer</i>. This size includes the space for the '\0' terminating character.
 
 ### -param ExeSize [out, optional]
 
 
-Receives the size in characters of the name of the executable file.  If <i>ExeSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the name of the executable file. This size includes the space for the '\0' terminating character. If <i>ExeSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

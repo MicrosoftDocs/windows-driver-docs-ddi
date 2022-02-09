@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetSymbolEntryStringWide (dbgeng.h)
 description: The GetSymbolEntryStringWide method returns string information for the specified symbol.
 old-location: debugger\getsymbolentrystringwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetSymbolEntryStringWide"]
 ms.keywords: GetSymbolEntryStringWide, GetSymbolEntryStringWide method [Windows Debugging], GetSymbolEntryStringWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntryStringWide method, IDebugSymbols3.GetSymbolEntryStringWide, IDebugSymbols3::GetSymbolEntryStringWide, dbgeng/IDebugSymbols3::GetSymbolEntryStringWide, debugger.getsymbolentrystringwide
 req.header: dbgeng.h
@@ -67,12 +67,12 @@ Receives the name of the symbol.  If <i>Buffer</i> is <b>NULL</b>, this informat
 ### -param BufferSize [in]
 
 
-Specifies the size in characters of the buffer <i>Buffer</i>.
+Specifies the size in characters of the buffer <i>Buffer</i>. This size includes the space for the '\0' terminating character.
 
 ### -param StringSize [out, optional]
 
 
-Receives the size in characters of the symbol's name.  If <i>StringSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the symbol's name. This size includes the space for the '\0' terminating character. If <i>StringSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

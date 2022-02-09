@@ -68,7 +68,7 @@ No flag bits are currently defined. Set this member to zero - AcxMuteConfigNoFla
 
 ### -field ChannelsCount
 
-TBD - The number of channels. This is a TBD zero / one based count.
+The number of channels. This is a  one based count.
 
 ### -field Callbacks
 

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamResumeIoWithTag function is used to resume IO for a stream TBD. It is similar to [AcxStreamResumeIo](nf-acxstreams-acxstreamresumeio.md) function, but provides the ability to use a Tag that TBD.
+The **AcxStreamResumeIoWithTag** function is used to resume IO for a stream after it has been stopped. It is similar to [AcxStreamResumeIo](nf-acxstreams-acxstreamresumeio.md) function, but provides the ability to use a Tag that provides additional diagnostic information.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ A pointer to an existing ACXSTREAM Object. An ACXSTREAM Object represents an aud
 
 ### -param Tag
 
-An optional Tag that is used to TBD. (can be displayed for diagnostic information??? TBD)
+An optional ObjectTag that is a driver-defined value that the framework stores as an identification tag for the ACX driver.
 
 
 ## -returns
@@ -67,9 +67,6 @@ Void
 Example usage is shown below.
 
 TBD No example code found
-
-TBD No internal implementation API code found
-
 
 ```cpp
 

@@ -2,9 +2,9 @@
 UID: NS:acxrequest._ACX_REQUEST_PARAMETERS
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS
-ms.date: 01/10/2022
+ms.date: 02/08/2022
 targetos: Windows
-description: 
+description: The ACX_REQUEST_PARAMETERS structure describes the items that can be used in an ACX request.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,11 +44,17 @@ dev_langs:
 
 ## -description
 
+The **ACX_REQUEST_PARAMETERS** structure describes the items that can be used in an ACX request.
+
 ## -struct-fields
 
 ### -field Size
 
+The size of the structure in bytes.
+
 ### -field MajorFunction
+
+The MajorFunction
 
 ### -field MinorFunction
 
@@ -122,5 +128,15 @@ dev_langs:
 
 ## -remarks
 
+### Example
+
+Example usage is shown below.
+
+```cpp
+
+```
+
 ## -see-also
+
+[acxrequest.h header](index.md)
 

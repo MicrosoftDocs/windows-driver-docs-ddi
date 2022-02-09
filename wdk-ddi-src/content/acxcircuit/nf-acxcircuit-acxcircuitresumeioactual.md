@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitResumeIoActual
 tech.root: audio
 title: AcxCircuitResumeIoActual
-ms.date: 08/20/2021
+ms.date: 02/04/2022
 targetos: Windows
 description: The AcxCircuitResumeIoActual function is used to resume circuit IO after it has been stopped.
 prerelease: true
@@ -42,49 +42,29 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitResumeIoActual function is used to resume circuit IO after it has been stopped. It is different from [AcxCircuitResumeIo](nf-acxcircuit-acxcircuitresumeio.md) in that it can contain additional parameters that are used to TBD TBD TBD display diagnostic information TBD ??. 
+The **AcxCircuitResumeIoActual** function is used to resume circuit IO after it has been stopped. 
 
 ## -parameters
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT circuit object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param ObjectTag
 
-An optional ObjectTag that is used to TBD. (can be displayed for diagnostic information??? TBD)
+An optional ObjectTag that is a driver-defined value that the framework stores as an identification tag for the ACX driver.
 
 ### -param Line
 
-The Line number in the TBD that is used to TBD. (can be displayed for diagnostic information??? TBD)
+The Line number in the driver code that can be displayed for diagnostic purposes.
 
 ### -param File
 
-The File that is used to TBD. (can be displayed for diagnostic information??? TBD)
-
+The file name in the driver code that can be displayed for diagnostic purposes.
 
 ## -remarks
 
-TBD - Add resume to this table?
-
-ACX Events are analogous to KS states as described in this table.
-
-| Start State | End State | ACX Driver Event Called | Notes                                                 |
-|-------------|-----------|-------------------------|-------------------------------------------------------|
-| STOP        | ACQUIRE   | PrepareHardware         | Driver performs hardware allocations and preparations |
-| ACQUIRE     | PAUSE     | Pause                   |                                                       |
-| PAUSE       | RUN       | Run                     |                                                       |
-| RUN         | PAUSE     | Pause                   |                                                       |
-| PAUSE       | ACQUIRE   | No call                 |                                                       |
-| ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
-
-### Example
-
-Example usage is shown below.
-
-```cpp
-
-```
+It is not recommended to use this version of the stop IO call, but rather [AcxCircuitResumeIoWithTag macro](nf-acxcircuit-acxcircuitresumeiowithtag.md) as it provides additional diagnostic information by using a Tag.
 
 ## -see-also
 

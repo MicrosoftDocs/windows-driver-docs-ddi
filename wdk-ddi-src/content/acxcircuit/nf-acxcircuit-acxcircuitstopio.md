@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitStopIo
 tech.root: audio
 title: AcxCircuitStopIo
-ms.date: 12/14/2021
+ms.date: 02/04/2022
 targetos: Windows
 description: TBD - The AcxCircuitStopIo function is used to stop circuit IO after it has been in a run or TBD pause??? state.
 prerelease: true
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxCircuitStopIo function is used to stop circuit IO after it has been in a run or TBD pause??? state.
+The **AcxCircuitStopIo** function is used to signal to the operating system to temporarily stop circuit IO. This allows the driver a short period of time to run time sensitive task, and resume IO after the execution of time sensitive code is complete.
 
 ## -parameters
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Flags
 
@@ -57,18 +57,7 @@ Currently no flags are defined, so set this to `AcxStopIoNoFlags`.
 
 ## -remarks
 
-TBD - Add resume and stop to this table?
-
-ACX Events are analogous to KS states as described in this table.
-
-| Start State | End State | ACX Driver Event Called | Notes                                                 |
-|-------------|-----------|-------------------------|-------------------------------------------------------|
-| STOP        | ACQUIRE   | PrepareHardware         | Driver performs hardware allocations and preparations |
-| ACQUIRE     | PAUSE     | Pause                   |                                                       |
-| PAUSE       | RUN       | Run                     |                                                       |
-| RUN         | PAUSE     | Pause                   |                                                       |
-| PAUSE       | ACQUIRE   | No call                 |                                                       |
-| ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
+It is not recommended to use this version of the stop IO call, but rather [AcxCircuitStopIoWithTag macro](nf-acxcircuit-acxcircuitstopiowithtag.md) as it provides additional diagnostic information by using a Tag.
 
 ### Example
 
@@ -82,6 +71,8 @@ Example usage is shown below.
 ```
 
 ## -see-also
+
+[AcxCircuitStopIoWithTag macro](nf-acxcircuit-acxcircuitstopiowithtag.md)
 
 [acxcircuit.h header](index.md)
 

@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_ELEMENT_CONFIG structure is used to define the audio element configuration. 
+The **ACX_ELEMENT_CONFIG** structure is used to define the audio element configuration. 
 
 ## -struct-fields
 
@@ -58,11 +58,7 @@ A number that represents the element ID.
 
 ### -field Type
 
-TBD TBD
-
-The KSNODETYPE, for example KSNODETYPE_AUDIO_ENGINE or KSNODETYPE_AUDIO_KEYWORDDETECTOR. For more information, see [Audio Topology Nodes](/windows-hardware/drivers/audio/audio-topology-nodes).
-
-TBD TBD
+TBD - The KSNODETYPE, for example KSNODETYPE_AUDIO_ENGINE or KSNODETYPE_AUDIO_KEYWORDDETECTOR. For more information, see [Audio Topology Nodes](/windows-hardware/drivers/audio/audio-topology-nodes).
 
 ### -field Name
 
@@ -76,11 +72,11 @@ No flag bits are currently defined. Set this member to zero - AcxAudioElementCon
 
 ### -field PropertiesCount
 
-TBD - The number of properties. This is a TBD zero / one based count.
+The number of properties. This is a  one based count.
 
 ### -field MethodsCount
 
-TBD - The number of methods. This is a TBD zero / one based count.
+The number of methods. This is a  one based count.
 
 ### -field Properties
 

@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitResumeIo
 tech.root: audio
 title: AcxCircuitResumeIo
-ms.date: 08/20/2021
+ms.date: 02/04/2022
 targetos: Windows
-description: The AcxCircuitResumeIo function is used to resume circuit IO after it has been stopped.
+description: The AcxCircuitResumeIo function is used to resume circuit IO after it has been temporarily stopped.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitResumeIo function is used to resume circuit IO after it has been stopped.
+The **AcxCircuitResumeIo** function is used to resume circuit IO after it has been temporarily stopped.
 
 ## -parameters
 
@@ -52,18 +52,7 @@ An existing ACXCIRCUIT circuit object.  For more information about ACX objects, 
 
 ## -remarks
 
-TBD - Add resume to this table?
-
-ACX Events are analogous to KS states as described in this table.
-
-| Start State | End State | ACX Driver Event Called | Notes                                                 |
-|-------------|-----------|-------------------------|-------------------------------------------------------|
-| STOP        | ACQUIRE   | PrepareHardware         | Driver performs hardware allocations and preparations |
-| ACQUIRE     | PAUSE     | Pause                   |                                                       |
-| PAUSE       | RUN       | Run                     |                                                       |
-| RUN         | PAUSE     | Pause                   |                                                       |
-| PAUSE       | ACQUIRE   | No call                 |                                                       |
-| ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
+It is not recommended to use this version of the stop IO call, but rather [AcxCircuitResumeIoWithTag macro](nf-acxcircuit-acxcircuitresumeiowithtag.md) as it provides additional diagnostic information by using a Tag.
 
 ### Example
 
@@ -101,6 +90,8 @@ Example usage is shown below.
 ```
 
 ## -see-also
+
+[AcxCircuitResumeIoWithTag macro](nf-acxcircuit-acxcircuitresumeiowithtag.md)
 
 [acxcircuit.h header](index.md)
 

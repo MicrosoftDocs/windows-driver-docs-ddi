@@ -62,12 +62,12 @@ Receives the name of the pseudo-register.  If <i>NameBuffer</i> is <b>NULL</b>, 
 ### -param NameBufferSize [in]
 
 
-Specifies the size, in characters, of the buffer that <i>NameBuffer </i>specifies.
+Specifies the size, in characters, of the buffer that <i>NameBuffer </i>specifies. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-Receives the size in characters of the name of the pseudo-register.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the name of the pseudo-register. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ### -param TypeModule [out, optional]
 

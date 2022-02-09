@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitStopIoWithTag
 tech.root: audio
 title: AcxCircuitStopIoWithTag
-ms.date: 08/20/2021
+ms.date: 02/04/2022
 targetos: Windows
-description: TBD - The AcxCircuitStopIoWithTag function is used to stop circuit IO after it has been in a run or TBD pause??? state.
+description: The AcxCircuitStopIoWithTag function is used used to signal to the operating system to temporarily stop circuit IO. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxCircuitStopIoWithTag function is used to stop circuit IO after it has been in a run or TBD pause??? state. It is different from [AcxCircuitStopIo](nf-acxcircuit-acxcircuitstopio.md) in that it can contain additional Tag parameter that is used to TBD TBD TBD display diagnostic information - locate the stream TBD ???. 
+The **AcxCircuitStopIoWithTag** function is used to signal to the operating system to temporarily stop circuit IO. This allows the driver a short period of time to run time sensitive tasks, and then resume IO after the execution of time sensitive code is complete.
 
 ## -parameters
 
 ### -param Circuit
 
-TBD - An existing ACXCIRCUIT circuit object.  (For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT circuit object.  (For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Flags
 
@@ -57,28 +57,16 @@ Currently no flags are defined, set this to `AcxStopIoNoFlags`.
 
 ### -param Tag
 
-An optional Tag that is used to locate the TBD TBD. (can be displayed for diagnostic information??? TBD)
+An optional ObjectTag that is a driver-defined value that the framework stores as an identification tag for the ACX driver. Specify the pointer of the object taking the reference.
 
 ## -remarks
 
-TBD - Add resume and stop to this table?
-
-ACX Events are analogous to KS states as described in this table.
-
-| Start State | End State | ACX Driver Event Called | Notes                                                 |
-|-------------|-----------|-------------------------|-------------------------------------------------------|
-| STOP        | ACQUIRE   | PrepareHardware         | Driver performs hardware allocations and preparations |
-| ACQUIRE     | PAUSE     | Pause                   |                                                       |
-| PAUSE       | RUN       | Run                     |                                                       |
-| RUN         | PAUSE     | Pause                   |                                                       |
-| PAUSE       | ACQUIRE   | No call                 |                                                       |
-| ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
 
 ### Example
 
 Example usage is shown below.
 
-TBD - No sample or unit test code found
+TBD - No sample test code found
 
 ```cpp
 

@@ -74,7 +74,7 @@ Example usage is shown below.
     AcxCircuitInitSetComponentId(CircuitInit, &COMPONENT_GUID);
 
     AcxCircuitInitAssignName(CircuitInit, &circuitName);
-y```
+```
 
 ## -see-also
 

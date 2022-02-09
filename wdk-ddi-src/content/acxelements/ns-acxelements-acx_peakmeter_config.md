@@ -68,7 +68,7 @@ No flag bits are currently defined. Set this member to zero - AcxPeakMeterConfig
 
 ### -field ChannelsCount
 
-TBD - The number of channels. This is a TBD zero / one based count.
+TBD - The number of channels. This is a one based count.
 
 ### -field Maximum
 
@@ -78,7 +78,7 @@ TBD - Does the value description here apply in ACX?? [KSPROPERTY_AUDIO_PEAKMETER
 
 ### -field Minimum
 
-TBD - The maximum TBD for the peakmeter.
+TBD - The minimum TBD for the peakmeter.
 
 ### -field SteppingDelta
 

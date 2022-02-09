@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_EVENT_CONFIG
 ms.date: 12/09/2021
 targetos: Windows
-description: The ACX_EVENT_CONFIG structure is used to define the acx event configuration. 
+description: The ACX_EVENT_CONFIG structure is used to define the event configuration. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_EVENT_CONFIG structure is used to define the ACX event configuration. 
+The **ACX_EVENT_CONFIG** structure is used to define the ACX event configuration. 
 
 ## -struct-fields
 

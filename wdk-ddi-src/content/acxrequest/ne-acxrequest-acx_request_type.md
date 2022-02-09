@@ -2,9 +2,9 @@
 UID: NE:acxrequest._ACX_REQUEST_TYPE
 tech.root: audio
 title: ACX_REQUEST_TYPE
-ms.date: 01/10/2022
+ms.date: 02/07/2022
 targetos: Windows
-description: 
+description:  The ACX_REQUEST_TYPE enumeration describes the type of requests that will be available.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,25 +40,72 @@ dev_langs:
 
 ## -description
 
+The **ACX_REQUEST_TYPE** enumeration describes the type of requests that will be available.
+
 ## -enum-fields
 
 ### -field AcxRequestTypeUnknown
 
+The request type is unknown.
+
 ### -field AcxRequestTypeAny
+
+Any Request types will be available.
 
 ### -field AcxRequestTypeCreate
 
+The create request type will be available.
+
 ### -field AcxRequestTypeProperty
+
+The request type property will be available.
 
 ### -field AcxRequestTypeMethod
 
+The request type method will be available.
+
 ### -field AcxRequestTypeEvent
+
+The request type event will be available.
 
 ### -field AcxRequestTypeResetState
 
+The request type reset state will be available.
+
 ### -field AcxRequestTypeMax
+
+TBD - For internal validation, do not use.
 
 ## -remarks
 
+### Example
+
+Example usage is shown below.
+
+```cpp
+    ACX_REQUEST_TYPE reqType;
+    
+    {
+        ACX_REQUEST_PARAMETERS  params;
+        ACX_REQUEST_PARAMETERS_INIT(&params);
+        AfxRequest::GetParameters(Request, &params);
+
+        reqType = params.Type;
+    }
+    
+    switch(reqType)
+    {
+    case AcxRequestTypeProperty:
+        AfxHelper::DispatchProperty(GetObjectHandle(), Request, &m_Properties, recorder);
+        break;
+   
+    case AcxRequestTypeMethod:
+        AfxHelper::DispatchMethod(GetObjectHandle(), Request, &m_Methods, recorder);
+        break;
+...
+```
+
 ## -see-also
+
+[acxrequest.h header](index.md)
 

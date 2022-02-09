@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamResumeIo
 tech.root: audio
 title: AcxStreamResumeIo
-ms.date: 07/13/2021
+ms.date: 02/04/2022
 targetos: Windows
 description: The AcxStreamResumeIo function is used to resume IO for a stream.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamResumeIo function is used to resume IO for a stream.
+The **AcxStreamResumeIo** function is used to resume IO for a stream.
 
 ## -parameters
 
@@ -54,20 +54,9 @@ A pointer to an existing ACXSTREAM Object. An ACXSTREAM Object represents an aud
 
 Void
 
-
 ## -remarks
 
-### Example
-
-Example usage is shown below.
-
-No example code found
-
-```cpp
-
-```
-
-
+It is not recommended to use this version of the resume IO call, but rather [AcxStreamResumeIoWithTag](nf-acxstreams-acxstreamresumeiowithtag.md).
 
 ## -see-also
 

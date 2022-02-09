@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxEventGenerateEvent
 ms.date: 12/09/2021
 targetos: Windows
-description: The AcxEventGenerateEvent function generates an acx event.
+description: The AcxEventGenerateEvent function generates an event.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxEventGenerateEvent function generates an ACX event.
+The **AcxEventGenerateEvent** function generates an ACX event.
 
 ## -parameters
 

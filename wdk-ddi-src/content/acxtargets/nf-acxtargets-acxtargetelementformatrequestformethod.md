@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetElementFormatRequestForMethod
 tech.root: audio
 title: AcxTargetElementFormatRequestForMethod
-ms.date:  11/11/2021
+ms.date: 02/03/2022
 targetos: Windows
 description: 
 prerelease: true
@@ -42,13 +42,22 @@ dev_langs:
 
 ## -description
 
+
+The **AcxTargetCircuitFormatRequestForMethod** dispatches an ACX request using a WDFREQUEST framework request object.
+
 ## -parameters
 
 ### -param TargetElement
 
+TBD
+
 ### -param Request
 
+A pointer to a location that receives a handle to a WDFREQUEST framework request object described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects). For general information about WDF requests, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects).
+
 ### -param Params
+
+A pointer to the [ACX_REQUEST_PARAMETERS](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_request_parameters.md) structure that will be initialized.
 
 ## -returns
 
@@ -58,10 +67,38 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
+This sample code shows the use of the AcxTargetElementFormatRequestForMethod.
+
+
+TBD - Does this sample code look OK?
+
+
 ```cpp
 
-TBD
+    {
+        ACXTARGETELEMENT targetElement          = NULL;
+        ULONG            targetElementId        = 0;
+        ULONG            targetElementsCount    = AcxTargetCircuitGetElementsCount(TargetCircuit);
+        arg     = elementArg;
+        result  = 0;
 
+        targetElement = AcxTargetCircuitGetTargetElement(TargetCircuit, targetElementId);       
+
+        ACX_REQUEST_PARAMETERS_INIT_METHOD(
+            &params,
+            KSMETHODSETID_AcxTestMethod,
+            KSMETHOD_ACXELEMENT_TEST_IN2OUT,
+            AcxMethodVerbSend,
+            AcxItemTypeElement,
+            targetElementId,
+            &arg, sizeof(arg),      // Value & size
+            &result, sizeof(result) // Control & size
+            );  
+
+        //
+        // Format a WDF request for the target.
+        //
+        status = AcxTargetElementFormatRequestForMethod(targetElement, req, &params);
 
 ```
 

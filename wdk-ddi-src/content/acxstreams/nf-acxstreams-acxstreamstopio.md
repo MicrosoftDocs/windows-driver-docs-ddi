@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamStopIo
 tech.root: audio
 title: AcxStreamStopIo
-ms.date: 07/14/2021
+ms.date: 02/04/2022
 targetos: Windows
 description: The AcxStreamStopIo function is used to stop the IO for a stream TBD. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamStopIo function is used to stop the IO for a stream TBD. 
+The **AcxStreamStopIo** function is used to stop the IO for a stream TBD. 
 
 ## -parameters
 
@@ -52,26 +52,13 @@ A pointer to an existing ACXSTREAM Object. An ACXSTREAM Object represents an aud
 
 ### -param Flags
 
-TBD
 TBD - The following flags are defined to TBD TBD.
-TBD
+
 TBD - Set to null as no flags are defined.
 
 ## -remarks
 
-### Example
-
-Example usage is shown below.
-
-TBD No example code found
-
-TBD No internal implementation API code found
-
-```cpp
-
-```
-
-
+It is not recommended to use this version of the stop IO call, but rather [AcxStreamStopIoWithTag](nf-acxstreams-acxstreamstopiowithtag.md).
 
 ## -see-also
 

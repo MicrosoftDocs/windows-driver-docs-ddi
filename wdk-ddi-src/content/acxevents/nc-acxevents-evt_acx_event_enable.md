@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_EVENT_ENABLE callback is used by the driver to add functionality when the ACX engine is requesting that an ACX Event is enabled.
+The **EVT_ACX_EVENT_ENABLE** callback is used by the driver to add functionality when the ACX engine is requesting that an ACX Event is enabled.
 
 ## -parameters
 

@@ -61,6 +61,17 @@ An AcxStream supports different states. These states indicate when audio is flow
 
 The EvtAcxStreamReleaseHardware event will transition the stream state from the Pause state to the Stop state. The driver should release any hardware resources that were allocated for streaming in this event, such as DMA engines. Once the stream is in the Stop state, the driver may receive the [EvtAcxStreamPrepareHardware](nc-acxstreams-evt_acx_stream_prepare_hardware.md) event to transition to the Pause state or the ACXSTREAM object may be destroyed.
 
+ACX Events are analogous to KS states as described in this table.
+
+| Start State | End State | ACX Driver Event Called | Notes                                                 |
+|-------------|-----------|-------------------------|-------------------------------------------------------|
+| STOP        | ACQUIRE   | PrepareHardware         | Driver performs hardware allocations and preparations |
+| ACQUIRE     | PAUSE     | (No Call)               |                                                       |
+| PAUSE       | RUN       | Run                     |                                                       |
+| RUN         | PAUSE     | Pause                   |                                                       |
+| PAUSE       | ACQUIRE   | (No call)               |                                                       |
+| ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
+
 ### Example
 
 Example usage is shown below.

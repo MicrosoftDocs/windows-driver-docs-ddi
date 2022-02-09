@@ -2,9 +2,9 @@
 UID: NE:acxrequest._ACX_METHOD_VERB
 tech.root: audio
 title: ACX_METHOD_VERB
-ms.date: 01/10/2022
+ms.date: 02/07/2022
 targetos: Windows
-description: 
+description: The ACX_METHOD_VERB structure describes the type of method verb support that will be available.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,19 +40,43 @@ dev_langs:
 
 ## -description
 
+The **ACX_METHOD_VERB** enumeration describes the type of method verb support that will be available.
+
 ## -enum-fields
 
 ### -field AcxMethodVerbNone
 
+No verb support.
+
 ### -field AcxMethodVerbSend
+
+Verb send support.
 
 ### -field AcxMethodVerbBasicSupport
 
+Basic Verb support.
+
 ### -field AcxMethodVerbSetSupport
+
+Set Verb support.
 
 ### -field AcxMethodVerbMax
 
+TBD - For internal validation, do not use.
+
 ## -remarks
 
+### Example
+
+Example usage is shown below.
+
+TBD - Sample pending.
+
+```cpp
+
+```
+
 ## -see-also
+
+[acxrequest.h header](index.md)
 
