@@ -4,7 +4,7 @@ title: _PARENT_HUB_FLAGS (ucxroothub.h)
 description: This structure is used by the HUB_INFO_FROM_PARENT structure to get hub information from the parent.
 old-location: buses\_parent_hub_flags.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 02/08/2022
 keywords: ["PARENT_HUB_FLAGS structure"]
 ms.keywords: "*PPARENT_HUB_FLAGS, PARENT_HUB_FLAGS, PARENT_HUB_FLAGS union [Buses], _PARENT_HUB_FLAGS, buses._parent_hub_flags, ucxroothub/_PARENT_HUB_FLAGS"
 req.header: ucxroothub.h
