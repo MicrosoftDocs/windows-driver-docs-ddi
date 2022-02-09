@@ -50,13 +50,11 @@ If there are no glitches, this packet should be (CurrentRenderPacket + 1), where
 
 ### -param Stream
 
-A pointer to a location that receives a handle to the new ACXSTREAM Object.
-
-An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXSTREAM object represents an audio stream created by a circuit. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Packet
 
-The  packet number that was just released by the client driver. This is a one (TBD or zero?) based packet count, maintained by the TBD.
+The number of the packet written by the OS to the WaveRT buffer. Depending on the values provided by the driver to [AcxRtStreamNotifyPacketComplete](nf-acxstreams-acxrtstreamnotifypacketcomplete.md), the Packet number may skip values.
 
 ### -param Flags
 
@@ -64,54 +62,78 @@ Flags can be 0 or AcxStreamSetRenderPacketEndOfStream, indicating the Packet is 
 
 ### -param EosPacketLength
 
-The EosPacketLength is a valid length in bytes for the packet.
+The length of the EOS packet if AcxStreamSetRenderPacketEndOfStream is specified in Flags. Zero is a valid value. If AcxStreamSetRenderPacketEndOfStream is not specified in Flags, this parameter should be ignored. The EosPacketLength is measured in bytes.
 
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
-TBD TBD TBD 
-
-Do any of these return values apply here?
-
 STATUS_DATA_LATE_ERROR – The driver returns this error if the OS passes a packet number that has already transferred or is currently transferring. In this case, a glitch condition has occurred. The driver may optionally use some of the data from the packet or continue playing out the data previously written to this packet number. 
 
 STATUS_DATA_OVERRUN – The driver returns this error if the OS passes a packet number that is higher than can be stored in the WaveRT buffer. In this case, a glitch condition has occurred. The driver may optionally ignore the data in the packet. 
 
-STATUS_INVALID_DEVICE_STATE – The driver returns this error if the OS calls this routine after a previously setting the KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM flag. 
+STATUS_INVALID_DEVICE_STATE – The driver returns this error if the OS calls this routine after previously setting the AcxStreamSetRenderPacketEndOfStream flag. 
 
 STATUS_INVALID_PARAMETER – The driver returns this error if it finds any other parameter invalid, aside from the specific cases for other error status. This includes any Flag values not specifically defined above.
 
-
-TBD TBD TBD 
-
-
 ## -remarks
 
-Once the stream is created and the resources are allocated, the application will call Start on the stream to start playback. Note that an application should call GetBuffer/ReleaseBuffer before starting the stream to ensure the first packet that will start playing immediately will have valid audio data.  
+After the OS calls this routine, the driver may optionally use the provided information to optimize the hardware transfer. For example, the driver might optimize DMA transfers, or program hardware to stop transfer at the end of the specified packet in case the OS does not call this routine again to inform the driver of another packet. This can mitigate audible effects of underflow, for example introducing an audible gap rather than repeating a circular buffer. The driver however is still obligated to increase its internal packet counter and signal notification events at a nominal real time rate.
+
+Depending on hardware capabilities, if the AcxStreamSetRenderPacketEndOfStream flag is specified, the driver may silence-fill a portion of the WaveRT buffer that follows the EOS packet in case the hardware transfers data beyond the EOS position.
 
 The client starts by pre-rolling a buffer. When the client calls ReleaseBuffer, this will translate to a call in AudioKSE that will call into the ACX layer, which will call EvtAcxStreamSetRenderPacket on the active ACXSTREAM. The property will include the packet index (0-based) and, if appropriate, an EOS flag with the byte offset of the end of the stream in the current packet.  
   
-After the sink circuit finishes with a packet, it will trigger the buffer-complete notification that will release clients waiting to fill the next packet with render audio data.  
-
 ### Example
-
-TBD - should we show more code here?
 
 Example usage is shown below.
 
 ```cpp
-// Init RT streaming callbacks.
-//
-ACX_RT_STREAM_CALLBACKS rtCallbacks;
-ACX_RT_STREAM_CALLBACKS_INIT(&rtCallbacks);
+    //
+    // Init RT streaming callbacks.
+    //
+    ACX_RT_STREAM_CALLBACKS rtCallbacks;
+    ACX_RT_STREAM_CALLBACKS_INIT(&rtCallbacks);
 
-rtCallbacks.EvtAcxStreamSetRenderPacket = DspR_EvtStreamSetRenderPacket;
+    rtCallbacks.EvtAcxStreamSetRenderPacket = EvtStreamSetRenderPacket;
 
-RETURN_NTSTATUS_IF_FAILED(AcxStreamInitAssignAcxRtStreamCallbacks(StreamInit, &rtCallbacks));
+    status = AcxStreamInitAssignAcxRtStreamCallbacks(StreamInit, &rtCallbacks);
+```
+
+```cpp
+#pragma code_seg("PAGE")
+NTSTATUS
+EvtStreamSetRenderPacket(
+    _In_ ACXSTREAM Stream,
+    _In_ ULONG     Packet,
+    _In_ ULONG     Flags,
+    _In_ ULONG     EosPacketLength
+    )
+{
+    PSTREAM_CONTEXT ctx;
+    NTSTATUS        status = STATUS_SUCCESS;
+
+    PAGED_CODE();
+
+    ctx = GetStreamContext(Stream);
+
+    currentPacket = (ULONG)InterlockedCompareExchange((LONG*)&ctx->m_CurrentPacket, -1, -1);
+
+    if (Packet <= currentPacket)
+    {
+        status = STATUS_DATA_LATE_ERROR;
+    }
+    else if (Packet > currentPacket + 1)
+    {
+        status = STATUS_DATA_OVERRUN;
+    }
+
+    return status;
+}
 ```
 
 ## -see-also
 
 [acxstreams.h header](index.md)
 
+READY2GO
