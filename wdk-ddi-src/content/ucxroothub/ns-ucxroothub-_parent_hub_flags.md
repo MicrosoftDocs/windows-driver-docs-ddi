@@ -48,10 +48,9 @@ api_name:
 
 # _PARENT_HUB_FLAGS structure
 
-
 ## -description
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_hub_info_from_parent">HUB_INFO_FROM_PARENT</a> structure to get hub information from the parent.
+This structure is used by the [HUB_INFO_FROM_PARENT](ns-ucxroothub-_hub_info_from_parent.md) structure to get hub information from the parent.
 
 ## -struct-fields
 
@@ -71,9 +70,28 @@ Indicates that the hub is high-speed capable.
 
 ### -field Flags.DisableUpdateMaxExitLatency
 
-Indicates that UpdateMaxExitLatency is disabled for all devices/hubs behind the this hub.
+Indicates that UpdateMaxExitLatency should be disabled.
+
+### -field Flags.DisableU1
+
+Indicates that U1 transitions should be disabled.
+
+### -field DisableLpmForAllDownstreamDevices
+
+Indicates that LPM should be disabled for all devices/hubs behind the this hub.
+
+### -field HubIsHighSpeedCapable
+
+Indicates that the hub is high-speed capable.
+
+### -field DisableUpdateMaxExitLatency
+
+Indicates that UpdateMaxExitLatency should be disabled.
+
+### -field DisableU1
+
+Indicates that U1 transitions should be disabled.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_hub_info_from_parent">HUB_INFO_FROM_PARENT</a>
-
+- [HUB_INFO_FROM_PARENT](ns-ucxroothub-_hub_info_from_parent.md)
