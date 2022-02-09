@@ -52,9 +52,15 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Event
 
+The ACXEVENT object (described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects)). An AcxEvent object that represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally they are exposed as KS events to upper layers.
+
 ### -param Verb
 
+An verb from the ACX_EVENT_VERB (ne-acxrequest-acx_event_verb.md) enumeration that describes the type of verb support that will be available.
+
 ### -param EventData
+
+TBD - The optional ACXEVENTDATA ACX object that provides information about the event.
 
 ### -param Request
 

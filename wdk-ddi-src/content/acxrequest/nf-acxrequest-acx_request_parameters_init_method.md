@@ -64,6 +64,7 @@ The Acx Method Verb to send.
 
 ### -param ItemType
 
+The [ACX_ITEM_TYPE](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_item_type.md) type of item being sent, for example AcxItemTypeCircuit.
 
 ### -param ItemId
 
