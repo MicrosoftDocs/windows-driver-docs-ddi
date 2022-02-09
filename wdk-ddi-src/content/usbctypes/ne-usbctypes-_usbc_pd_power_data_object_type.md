@@ -3,7 +3,7 @@ UID: NE:usbctypes._USBC_PD_POWER_DATA_OBJECT_TYPE
 title: _USBC_PD_POWER_DATA_OBJECT_TYPE (usbctypes.h)
 description: Learn how USBC_PD_POWER_DATA_OBJECT_TYPE defines power data object (PDO) types.
 tech.root: usbref
-ms.date: 11/19/2021
+ms.date: 02/08/2022
 keywords: ["USBC_PD_POWER_DATA_OBJECT_TYPE enumeration"]
 ms.keywords: _USBC_PD_POWER_DATA_OBJECT_TYPE, USBC_PD_POWER_DATA_OBJECT_TYPE,
 req.header: usbctypes.h
@@ -42,17 +42,21 @@ Defines power data object (PDO) types.
 
 ## -enum-fields
 
-### -field UsbCPdPdoTypeFixedSupply 
+### -field UsbCPdPdoTypeFixedSupply
 
 Indicates the PD data object type is a fixed supply.
 
-### -field UsbCPdPdoTypeBatterySupply 
+### -field UsbCPdPdoTypeBatterySupply
 
 Indicates the PD data object type is a battery supply.
 
-### -field UsbCPdPdoTypeVariableSupplyNonBattery 
+### -field UsbCPdPdoTypeVariableSupplyNonBattery
 
 Indicates the PD data object type is a non-battery variable supply.
+
+### -field UsbCPdPdoTypeAugmentedPowerDataObject
+
+Indicates the PD data object type is an augmented supply.
 
 ## -remarks
 

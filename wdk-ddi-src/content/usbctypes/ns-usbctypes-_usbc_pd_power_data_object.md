@@ -1,9 +1,9 @@
 ---
 UID: NS:usbctypes._USBC_PD_POWER_DATA_OBJECT
 title: _USBC_PD_POWER_DATA_OBJECT (usbctypes.h)
-description: Describes a Power Data Object (PDO).
+description: Describes a power data object (PDO).
 tech.root: usbref
-ms.date: 09/30/2018
+ms.date: 02/08/2022
 keywords: ["USBC_PD_POWER_DATA_OBJECT structure"]
 ms.keywords: _USBC_PD_POWER_DATA_OBJECT, USBC_PD_POWER_DATA_OBJECT, *PUSBC_PD_POWER_DATA_OBJECT,
 req.header: usbctypes.h
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-Describes a Power Data Object (PDO). For information about these members, see the [Power Delivery specification](https://www.usb.org/documents?search=&tid_2%5B0%5D=40&items_per_page=50).
+Describes a power data object (PDO). For information about these members, see the [Power Delivery specification](https://www.usb.org/documents?search=&tid_2%5B0%5D=40&items_per_page=50).
 
 ## -struct-fields
 
@@ -61,11 +61,11 @@ Reserved.
 
 ### -field Common.Type
 
-Type of Power Data Object.
+Type of power data object.
 
 ### -field FixedSupplyPdo
 
- Describing a Fixed Supply type Power Data Object.
+ Describing a fixed supply type power data object.
 
 ### -field FixedSupplyPdo.MaximumCurrentIn10mA
 
@@ -85,15 +85,15 @@ Reserved for future use.
 
 ### -field FixedSupplyPdo.DataRoleSwap
 
-If set, indicates the Power Data Object can perform a data role swap.
+If set, indicates the power data object can perform a data role swap.
 
 ### -field FixedSupplyPdo.UsbCommunicationCapable
 
-If set, indicates the Power Data Object is USB communication capable.
+If set, indicates the power data object is USB communication capable.
 
 ### -field FixedSupplyPdo.ExternallyPowered
 
-If set, indicates the Power Data Object is externally powered.
+If set, indicates the power data object is externally powered.
 
 ### -field FixedSupplyPdo.UsbSuspendSupported
 
@@ -137,7 +137,7 @@ Describes the maximum current in multiples of 10 mA.
 
 ### -field VariableSupplyNonBatteryPdo.MinimumVoltageIn50mV
 
-Describes the maximum current in multiples of 50 mA.
+Describes the minimum current in multiples of 50 mA.
 
 ### -field VariableSupplyNonBatteryPdo.MaximumVoltageIn50mV
 
@@ -147,11 +147,53 @@ Describes the maximum voltage in multiples of 10 mA.
 
 Variable Support Non Battery type.
 
+### -field ProgrammablePowerSupplyApdo
+
+Describing a programmable power supply augmented power delivery object.
+
+### -field ProgrammablePowerSupplyApdo.MaximumCurrentIn50mA
+
+Describes the maximum current in multiples of 50 mA.
+
+### -field ProgrammablePowerSupplyApdo.Reserved1
+
+Reserved, do not use.
+
+### -field ProgrammablePowerSupplyApdo.MinimumVoltageIn100mV
+
+Describes the minimum voltage in multiples of 100 mV.
+
+### -field ProgrammablePowerSupplyApdo.Reserved2
+
+Reserved, do not use.
+
+### -field ProgrammablePowerSupplyApdo.MaximumVoltageIn100mV
+
+Describes the maximum voltage in multiples of 100 mV.
+
+### -field ProgrammablePowerSupplyApdo.Reserved3
+
+Reserved, do not use.
+
+### -field ProgrammablePowerSupplyApdo.PpsPowerLimited
+
+Power limited supply.
+
+### -field ProgrammablePowerSupplyApdo.AugmentedPowerDataObjectType
+
+Describes a USBC augmented power data object type.
+
+### -field ProgrammablePowerSupplyApdo.AugmentedPowerDataObject
+
+Describes a USBC power data object type.
+
 ### -field FixedSupplyPdoSink
 
-Describing a Fixed Supply type Power Data Object.
+Describing a fixed supply type power data object.
 
 ### -field FixedSupplyPdoSink.OperationalCurrentIn10mA
+
+Describes the operational current in multiples of 10 mA.
 
 ### -field FixedSupplyPdoSink.VoltageIn50mV
 
@@ -163,17 +205,19 @@ Reserved.
 
 ### -field FixedSupplyPdoSink.DataRoleSwap
 
-If set, indicates the Power Data Object can perform a data role swap.
+If set, indicates the power data object can perform a data role swap.
 
 ### -field FixedSupplyPdoSink.UsbCommunicationCapable
 
-If set, indicates the Power Data Object is USB communication capable.
+If set, indicates the power data object is USB communication capable.
 
 ### -field FixedSupplyPdoSink.ExternallyPowered
 
-If set, indicates the Power Data Object is externally powered.
+If set, indicates the power data object is externally powered.
 
 ### -field FixedSupplyPdoSink.HigherCapability
+
+Power data object has a higher capability.
 
 ### -field FixedSupplyPdoSink.DualRolePower
 
@@ -205,9 +249,11 @@ Battery type.
 
 ### -field VariableSupplyNonBatteryPdoSink
 
-Contains bitfields describing a battery supply PD object.
+Contains bit fields describing a battery supply power data object.
 
 ### -field VariableSupplyNonBatteryPdoSink.OperationalCurrentIn10mA
+
+Describes the operational current in multiples of 10 mA.
 
 ### -field VariableSupplyNonBatteryPdoSink.MinimumVoltageIn50mV
 
@@ -224,4 +270,3 @@ Variable Support Non Battery type.
 ## -remarks
 
 ## -see-also
-
