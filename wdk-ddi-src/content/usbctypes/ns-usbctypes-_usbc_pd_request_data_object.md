@@ -76,7 +76,7 @@ Maximum current in 10 mA units.
 
 ### -field FixedAndVariableRdo.OperatingCurrentIn10mA
 
-Operating current in 10mA units.
+Operating current in 10 mA units.
 
 ### -field FixedAndVariableRdo.Reserved1
 
@@ -104,11 +104,11 @@ Contains bit fields describing a request data object.
 
 ### -field BatteryRdo.MaximumOperatingPowerIn250mW
 
-Maximum operating power in 250mW units.
+Maximum operating power in 250 mW units.
 
 ### -field BatteryRdo.OperatingPowerIn250mW
 
-Operating power in 250mW units.
+Operating power in 250 mW units.
 
 ### -field BatteryRdo.Reserved1
 
@@ -136,7 +136,7 @@ Describes a programmable request data object.
 
 ### -field ProgrammableRdo.OperatingCurrentIn50mA
 
-Operating current in 50mA units.
+Operating current in 50 mA units.
 
 ### -field ProgrammableRdo.Reserved1
 
@@ -144,7 +144,7 @@ Reserved, do not use.
 
 ### -field ProgrammableRdo.OutputVoltageIn20mV
 
-Output voltage in 20mV units.
+Output voltage in 20 mV units.
 
 ### -field ProgrammableRdo.Reserved2
 

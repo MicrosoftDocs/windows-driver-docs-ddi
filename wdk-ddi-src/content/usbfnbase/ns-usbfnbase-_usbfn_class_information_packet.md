@@ -62,11 +62,11 @@ A [USBFN_CLASS_INTERFACE](ns-usbfnbase-_usbfn_class_interface.md) structure that
 
 A [USBFN_CLASS_INTERFACE](ns-usbfnbase-_usbfn_class_interface.md) structure that describes an interface for high speed device.
 
-### -field InterfaceName[MAX_INTERFACE_NAME_LENGTH]
+### -field InterfaceName
 
 A string that contains the interface name.
 
-### -field InterfaceGuid[MAX_INTERFACE_GUID_LENGTH]
+### -field InterfaceGuid
 
 A string from which the driver can derive the device interface GUID.
 
