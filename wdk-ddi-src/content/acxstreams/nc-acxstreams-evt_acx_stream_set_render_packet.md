@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_SET_RENDER_PACKET
 tech.root: audio
 title: EVT_ACX_STREAM_SET_RENDER_PACKET
-ms.date: 07/01/2021
+ms.date: 02/10/2022
 targetos: Windows
 description: The EvtAcxStreamSetRenderPacket event tells the driver which packet was just released by the client.
 prerelease: true
@@ -137,3 +137,5 @@ EvtStreamSetRenderPacket(
 [acxstreams.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
