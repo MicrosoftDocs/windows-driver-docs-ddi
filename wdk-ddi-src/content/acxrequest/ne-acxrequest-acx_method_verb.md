@@ -44,6 +44,10 @@ The **ACX_METHOD_VERB** enumeration describes the type of method verb support th
 
 ## -enum-fields
 
+TBD - Need to see if these map to: Portcls PCMETHOD_ITEM structure 
+
+https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/portcls/ns-portcls-pcmethod_item
+
 ### -field AcxMethodVerbNone
 
 No verb support.

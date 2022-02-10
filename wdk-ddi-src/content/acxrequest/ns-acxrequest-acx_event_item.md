@@ -50,14 +50,31 @@ The **ACX_EVENT_ITEM** structure describes the event items that are used in an A
 
 ### -field Set
 
+TBD - A set of methods defined as a TBD KSMethodSet ID that are TBD.
 
 ### -field Id
 
+TBD - The KSMethod ID that will be TBD.
+
+
 ### -field Flags
+
+The Flags field can be used to set the following Flags defined in the AcxRequest header.
+
+```cpp
+#define ACX_EVENT_ITEM_FLAG_NONE                0x00000000
+#define ACX_EVENT_ITEM_FLAG_ENABLE              0x00000001 // KSEVENT_TYPE_ENABLE
+#define ACX_EVENT_ITEM_FLAG_BASICSUPPORT        0x00000200 // KSEVENT_TYPE_BASICSUPPORT
+```
+
 
 ### -field EvtAcxObjectProcessRequest
 
+The [EVT_ACX_OBJECT_PROCESS_REQUEST callback](nc-acxrequest-evt_acx_object_process_event_request.md) associated with this item.
+
 ### -field Reserved
+
+This field is reserved.
 
 ## -remarks
 

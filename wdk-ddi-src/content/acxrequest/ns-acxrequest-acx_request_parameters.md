@@ -56,11 +56,21 @@ The size of the structure in bytes.
 
 The MajorFunction
 
+TBD - Pointer to the IUnknown interface of a miniport object that supports the method set and method specified by TBD
+
 ### -field MinorFunction
+
+The MinorFunction
 
 ### -field Type
 
+The Type field TBD
+
 ### -field Parameters
+
+TBD TBD TBD TBD 
+
+TBD - Fields may be based on other structures to link to.
 
 ### -field Parameters.Property
 
@@ -78,9 +88,13 @@ The MajorFunction
 
 ### -field Parameters.Property.ControlCb
 
+The count in bytes (size) of the Control
+
 ### -field Parameters.Property.Value
 
 ### -field Parameters.Property.ValueCb
+
+The count in bytes (size) of the Value.
 
 ### -field Parameters.Method
 

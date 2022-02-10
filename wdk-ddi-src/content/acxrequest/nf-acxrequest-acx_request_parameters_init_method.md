@@ -68,13 +68,23 @@ The [ACX_ITEM_TYPE](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_i
 
 ### -param ItemId
 
+TDB - An Item Id, for example for a pin number in a circuit.
+
 ### -param Args
+
+Arguments provided to the initialization process.
 
 ### -param ArgsCb
 
+The count in bytes (size) of the Args.
+
 ### -param Result
 
+The result of the TBD.
+
 ### -param ResultCb
+
+The count in bytes (size) of the Result.
 
 ## -remarks
 

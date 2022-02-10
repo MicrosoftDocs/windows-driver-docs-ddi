@@ -60,21 +60,31 @@ The Method ID that will be TBD.
 
 ### -param Verb
 
-The Acx Method Verb to send.
+The Acx Method Verb to send as defined by the [ACX_PROPERTY_VERB](ne-acxrequest-acx_property_verb.md) enumeration.
 
 ### -param ItemType
 
-The [ACX_ITEM_TYPE](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_item_type.md) type of item being sent, for example AcxItemTypeCircuit.
+The [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) type of item being sent, for example AcxItemTypeCircuit.
 
 ### -param ItemId
 
+TDB - An Item Id, for example for a pin number in a circuit.
+
 ### -param Control
+
+A Control that TBD.
 
 ### -param ControlCb
 
+The count in bytes (size) of the Control.
+ 
 ### -param Value
 
+The  value that will be TBD. TBD - Provide a null Value so that the SendProperty will allocate it. Make sure that the allocated value is freed.
+
 ### -param ValueCb
+
+The count in bytes (size) of the Value.
 
 ## -remarks
 
@@ -83,30 +93,30 @@ The [ACX_ITEM_TYPE](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_i
 Example usage is shown below.
 
 ```cpp
+    NTSTATUS                    status = STATUS_SUCCESS;
+    PKSPIN_PHYSICALCONNECTION   physicalConnection = nullptr;
+    PAUDIO_PATH_DESCRIPTOR      descriptor = nullptr;
 
-    _In_ ACXTARGETCIRCUIT TargetCircuit,
-    _In_ GUID PropertySet,
-    _In_ ULONG PropertyId,
-    _In_ ACX_PROPERTY_VERB Verb,
-    _Inout_ PVOID Value,
-    _In_ ULONG ValueCb
-)
-{
+    // For the Audio Circuit, send a request to each Target Pin asking KSPROPERTY_PIN_PHYSICALCONNECTION
+    // This will give us symbolic link of the next circuit in the Audio Path (if there is any)
 
-    ACX_REQUEST_PARAMETERS requestParams;
+    for (ULONG i = 0; i < ARRAYSIZE(AudioCircuit->Pins) && AudioCircuit->Pins[i].TargetPin; ++i)
+    {
+        ACX_REQUEST_PARAMETERS requestParams{ 0 };
 
-    ACX_REQUEST_PARAMETERS_INIT_PROPERTY(
-        &requestParams,
-        PropertySet,
-        PropertyId,
-        Verb,
-        AcxItemTypeCircuit,
-        0,
-        NULL, 0,
-        Value, ValueCb
-    );
-
-
+        ACX_REQUEST_PARAMETERS_INIT_PROPERTY(
+            &requestParams,
+            KSPROPSETID_Pin,
+            KSPROPERTY_PIN_PHYSICALCONNECTION,
+            AcxPropertyVerbGet,
+            AcxItemTypePin,
+            i,
+            nullptr,
+            0,
+            // null Value so SendProperty will allocate it for us. We'll need to free it.
+            nullptr,
+            0);
+...
 ```
 
 ## -see-also

@@ -50,19 +50,42 @@ The **ACX_METHOD_ITEM** structure describes the method items that can be used in
 
 ### -field Set
 
+TBD - A set of methods defined as a TBD  KSMethodSet ID that are TBD.
+
 ### -field Id
+
+TBD - The KSMethod ID that will be TBD.
 
 ### -field Flags
 
+The Flags field can be used to set the following Flags defined in the AcxRequest header.
+
+```cpp
+#define ACX_METHOD_ITEM_FLAG_NONE               0x00000000
+#define ACX_METHOD_ITEM_FLAG_SEND               0x00000001 // KSMETHOD_TYPE_SEND
+#define ACX_METHOD_ITEM_FLAG_BASICSUPPORT       0x00000200 // KSMETHOD_TYPE_BASICSUPPORT
+```
+
+
 ### -field EvtAcxObjectProcessRequest
+
+The [EVT_ACX_OBJECT_PROCESS_REQUEST callback](nc-acxrequest-evt_acx_object_process_event_request.md) associated with this item.
 
 ### -field Reserved
 
+This field is reserved.
+
 ### -field ArgsCb
+
+The count in bytes (size) of the Args.
 
 ### -field ResultCb
 
+The count in bytes (size) of the Result.
+
 ### -field ResultType
+
+TBD - ?
 
 ## -remarks
 
@@ -71,6 +94,22 @@ The **ACX_METHOD_ITEM** structure describes the method items that can be used in
 Example usage is shown below.
 
 ```cpp
+DEFINE_GUIDSTRUCT("14226c89-d411-493d-b473-11d61d476f98", KSMETHODSETID_ApxCircuitFactory);
+#define KSMETHODSETID_ApxCircuitFactory DEFINE_GUIDNAMED(KSMETHODSETID_ApxCircuitFactory)
+
+
+static ACX_METHOD_ITEM s_FactoryCircuitMethods[] =
+{
+    {
+        &KSMETHODSETID_ApxCircuitFactory,
+        KSMETHOD_APXCIRCUITFACTORY_ADD_CIRCUIT,
+        ACX_METHOD_ITEM_FLAG_SEND,
+        &C_EvtAddCircuitCallback,
+        NULL,                                       // Reserved
+        sizeof(APX_CIRCUIT_FACTORY_ADD_CIRCUIT),    // ControlCb
+        0,                                          // ValueCb
+    },
+
 
 ```
 
