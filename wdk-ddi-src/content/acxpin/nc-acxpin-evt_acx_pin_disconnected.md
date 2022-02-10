@@ -60,4 +60,15 @@ The identifier of the pin in the *TargetCicuit* from which the *Pin* was disconn
 
 ## -remarks
 
+This callback is not guaranteed to be called in the following scenarios:
+. This device is removed or surprised-removed.
+. This device is disabled (query-removed and removed) via device manager.
+The drivers must not relay on this callback for its only resource cleanup.
+
+The specified ACXTARGETCIRCUIT may be already in its stop state b/c the target circuit may already be gone. 
+
+Driver can still access its ACXTARGETCIRCUIT context.
+
 ## -see-also
+
+READY2GO

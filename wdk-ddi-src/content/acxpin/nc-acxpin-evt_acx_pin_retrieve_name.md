@@ -60,4 +60,8 @@ A pointer to a Unicode string to be populated with the requested pin name.
 
 ## -remarks
 
+ACX pre-allocates the UNICODE_STRING's buffer before invoking this callback. The maximum number of wchars for the name is MAX_PATH not including the NULL terminator. Driver is responsible for copying the name in the buffer and for updating the unicode struct's Length field to the # of bytes used by the string name not including the NULL terminator.
+
 ## -see-also
+
+READY2GO

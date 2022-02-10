@@ -63,3 +63,5 @@ The identifier of the pin in the *TargetCicuit* to which the *Pin* was connected
 This event happens when the composite circuit is fully initialized. From this point on, the *TargetCircuit* can be used to send [kernel streaming properties](/windows-hardware/drivers/stream/ks-properties) and [kernel streaming methods](/windows-hardware/drivers/stream/ks-methods) requests.
 
 ## -see-also
+
+READY2GO

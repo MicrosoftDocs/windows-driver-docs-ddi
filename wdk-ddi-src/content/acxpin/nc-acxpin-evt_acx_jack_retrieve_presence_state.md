@@ -61,3 +61,5 @@ A Boolean value indicating if the terminal specified by the *Jack* parameter is 
 ## -remarks
 
 ## -see-also
+
+READY2GO
