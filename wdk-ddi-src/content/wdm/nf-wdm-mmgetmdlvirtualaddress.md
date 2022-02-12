@@ -44,6 +44,15 @@ dev_langs:
 
 The **MmGetMdlVirtualAddress** macro returns the base virtual address of a buffer described by an MDL.
 
+## -syntax
+
+```cpp
+PVOID
+MmGetMdlVirtualAddress (
+    _In_ PMDL Mdl
+    )
+```
+
 ## -parameters
 
 ### -param Mdl [in]

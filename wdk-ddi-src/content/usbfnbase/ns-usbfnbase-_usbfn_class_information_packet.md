@@ -4,7 +4,7 @@ title: _USBFN_CLASS_INFORMATION_PACKET (usbfnbase.h)
 description: Describes device interface class information associated with a USB interface. This structure can only hold information about a single function interface.
 old-location: buses\usbfn_class_information_packet.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 02/08/2022
 keywords: ["USBFN_CLASS_INFORMATION_PACKET structure"]
 ms.keywords: "*PUSBFN_CLASS_INFORMATION_PACKET, PUSBFN_CLASS_INFORMATION_PACKET, PUSBFN_CLASS_INFORMATION_PACKET structure pointer [Buses], USBFN_CLASS_INFORMATION_PACKET, USBFN_CLASS_INFORMATION_PACKET structure [Buses], _USBFN_CLASS_INFORMATION_PACKET, buses.usbfn_class_information_packet, usbfnbase/PUSBFN_CLASS_INFORMATION_PACKET, usbfnbase/USBFN_CLASS_INFORMATION_PACKET"
 req.header: usbfnbase.h
@@ -48,7 +48,6 @@ api_name:
 
 # _USBFN_CLASS_INFORMATION_PACKET structure
 
-
 ## -description
 
 Describes device interface class information associated with a USB interface. This structure can only hold information about a single function interface.
@@ -57,15 +56,19 @@ Describes device interface class information associated with a USB interface. Th
 
 ### -field FullSpeedClassInterface
 
-A <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_class_interface">USBFN_CLASS_INTERFACE</a> structure that describes an interface for full speed device.
+A [USBFN_CLASS_INTERFACE](ns-usbfnbase-_usbfn_class_interface.md) structure that describes an interface for full speed device.
 
 ### -field HighSpeedClassInterface
 
-A <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_class_interface">USBFN_CLASS_INTERFACE</a> structure that describes an interface for high speed device.
+A [USBFN_CLASS_INTERFACE](ns-usbfnbase-_usbfn_class_interface.md) structure that describes an interface for high speed device.
 
 ### -field InterfaceName
 
+A string that contains the interface name.
+
 ### -field InterfaceGuid
+
+A string from which the driver can derive the device interface GUID.
 
 ### -field HasInterfaceGuid
 
@@ -73,27 +76,10 @@ Determines whether the driver has published a device interface is GUID.
 
 ### -field SuperSpeedClassInterface
 
-A <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_class_interface">USBFN_CLASS_INTERFACE</a> structure that describes an interface for SuperSpeed device.
-
-
-### -field InterfaceGuid[MAX_INTERFACE_GUID_LENGTH]
-
-A string from which the driver can derive the device interface GUID.
-
-
-### -field InterfaceName[MAX_INTERFACE_NAME_LENGTH]
-
-A string that contains the interface name.
+A [USBFN_CLASS_INTERFACE](ns-usbfnbase-_usbfn_class_interface.md) structure that describes an interface for SuperSpeed device.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_class_interface">USBFN_CLASS_INTERFACE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreatesymboliclink">WdfDeviceCreateSymbolicLink</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetdeviceinterfacestate">WdfDeviceSetDeviceInterfaceState</a>
-
+- [USBFN_CLASS_INTERFACE](ns-usbfnbase-_usbfn_class_interface.md)
+- [WdfDeviceCreateSymbolicLink](../wdfdevice/nf-wdfdevice-wdfdevicecreatesymboliclink.md)
+- [WdfDeviceSetDeviceInterfaceState](../wdfdevice/nf-wdfdevice-wdfdevicesetdeviceinterfacestate.md)
