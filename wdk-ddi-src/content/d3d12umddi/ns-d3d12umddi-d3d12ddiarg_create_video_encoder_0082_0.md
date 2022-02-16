@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_ENCODER_0082_0
 tech.root: display
 title: D3D12DDIARG_CREATE_VIDEO_ENCODER_0082_0 structure (d3d12umddi.h)
-ms.date: 02/02/2022
+ms.date: 02/16/2022
 targetos: Windows
 description: Learn more about the D3D12DDIARG_CREATE_VIDEO_ENCODER_0082_0 structure.
 prerelease: false
@@ -64,7 +64,7 @@ A [**DXGI_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) str
 
 ### -field CodecConfiguration
 
-A [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_0082_0**](ns-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_0082_0.md) structure that indicates the Sequence level codec-specific parameters.
+A [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_0082_0**](ns-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_0082_0.md) structure that indicates the sequence-level codec-specific parameters.
 
 ### -field MaxMotionEstimationPrecision
 
@@ -72,7 +72,7 @@ A [**D3D12DDI_VIDEO_ENCODER_MOTION_ESTIMATION_PRECISION_MODE_0080**](ne-d3d12umd
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
 
 ## -see-also
 

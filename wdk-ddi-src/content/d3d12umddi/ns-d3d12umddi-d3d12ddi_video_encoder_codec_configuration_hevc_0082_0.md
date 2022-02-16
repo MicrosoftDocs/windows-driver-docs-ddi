@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_0082_0
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_0082_0
-ms.date: 02/02/2022
+ms.date: 02/16/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_0082_0 structure.
 prerelease: false
@@ -72,7 +72,7 @@ Indicates for the associated encoder, the maximum hierarchy depth for transform 
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
 
 ## -see-also
 

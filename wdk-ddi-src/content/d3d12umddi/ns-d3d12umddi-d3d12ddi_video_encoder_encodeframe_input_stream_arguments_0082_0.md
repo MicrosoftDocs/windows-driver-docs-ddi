@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_ENCODER_ENCODEFRAME_INPUT_STREAM_ARGUMENTS_0082_0
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_ENCODEFRAME_INPUT_STREAM_ARGUMENTS_0082_0
-ms.date: 02/02/2022
+ms.date: 02/16/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_VIDEO_ENCODER_ENCODEFRAME_INPUT_STREAM_ARGUMENTS_0082_0 structure.
 prerelease: false
@@ -52,7 +52,7 @@ A [**D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_DESC_0082_0**](ns-d3d12umddi-d3d12dd
 
 ### -field hDrvInputTexture2D
 
-Handle to the the input frame to encode. This input frame is a D3D12 resource that can be consumed by other portions of the pipeline and therefore must not have the [**D3D12DDI_RESOURCE_FLAG_0080_VIDEO_ENCODE_REFERENCE_ONLY**](ne-d3d12umddi-d3d12ddi_resource_flags_0003.md) flag set.
+Handle to the input frame to encode. This input frame is a D3D12 resource that can be consumed by other portions of the pipeline and therefore must not have the [**D3D12DDI_RESOURCE_FLAG_0080_VIDEO_ENCODE_REFERENCE_ONLY**](ne-d3d12umddi-d3d12ddi_resource_flags_0003.md) flag set.
 
 ### -field InputFrameSubresource
 
@@ -64,7 +64,7 @@ Number of bytes added to the final bitstream between the end of the last [**PFND
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
 
 ## -see-also
 

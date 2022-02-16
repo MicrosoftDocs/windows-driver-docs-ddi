@@ -2,7 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODE_FLAGS_0082_0
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODE_FLAGS_0082_0
-ms.date: 02/02/2022
+ms.date: 02/16/2022
 targetos: Windows
 description: 
 prerelease: false
@@ -34,7 +34,7 @@ dev_langs:
 
 ## -description
 
-**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODE_FLAGS_0082_0** values correspond to the [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODES_0082_0**](ne-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_h264_slices_deblocking_modes_0082_0.md) mode values.
+**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODE_FLAGS_0082_0** values are used to indicate codec support for various block edge filtering modes.
 
 ## -enum-fields
 
@@ -44,36 +44,37 @@ No flags are set.
 
 ### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODE_0082_0_FLAG_0_ALL_LUMA_CHROMA_SLICE_BLOCK_EDGES_ALWAYS_FILTERED
 
-
+Indicates whether support is available to filter all luma and chroma block edges of a slice.
 
 ### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODE_0082_0_FLAG_1_DISABLE_ALL_SLICE_BLOCK_EDGES
 
-
-
+Indicates whether support is available to disable deblocking for all block edges of a slice.
 
 ### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODE_0082_0_FLAG_2_DISABLE_SLICE_BOUNDARIES_BLOCKS
 
-
+Indicates whether support is available to filter all luma and chroma block edges of a slice except for the block edges that coincide with slice boundaries.
 
 ### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODE_0082_0_FLAG_3_USE_TWO_STAGE_DEBLOCKING
 
-
+Indicates whether support is available to perform a two-stage deblocking process a slice. See [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODES_0082_0**](ne-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_h264_slices_deblocking_modes_0082_0.md) for details.
 
 ### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODE_0082_0_FLAG_4_DISABLE_CHROMA_BLOCK_EDGES
 
-
+Indicates whether support is available to filter all luma block edges of a slice (deblocking for chroma block edges of a slice is disabled).
 
 ### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODE_0082_0_FLAG_5_DISABLE_CHROMA_BLOCK_EDGES_AND_LUMA_BOUNDARIES
 
-
+Indicates whether support is available to filter all luma block edges of a slice *with the exception of the block edges that coincide with slice boundaries* (deblocking for chroma block edges of a slice is disabled).
 
 ### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODE_0082_0_FLAG_6_DISABLE_CHROMA_BLOCK_EDGES_AND_USE_LUMA_TWO_STAGE_DEBLOCKING
 
-
+Indicates whether support is available to disable the deblocking for chroma block edges *and* to use a two-stage deblocking filter process for luma block edges of a slice. See [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODES_0082_0**](ne-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_h264_slices_deblocking_modes_0082_0.md) for details.
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
+**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODE_FLAGS_0082_0** support flags correspond to the [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODES_0082_0**](ne-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_h264_slices_deblocking_modes_0082_0.md) mode values.
+
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
 
 ## -see-also
 

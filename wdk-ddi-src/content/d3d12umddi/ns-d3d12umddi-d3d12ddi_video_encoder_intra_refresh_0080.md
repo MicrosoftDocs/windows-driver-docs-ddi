@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_ENCODER_INTRA_REFRESH_0080
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_INTRA_REFRESH_0080
-ms.date: 02/02/2022
+ms.date: 02/16/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_VIDEO_ENCODER_INTRA_REFRESH_0080 structure.
 prerelease: false
@@ -57,7 +57,7 @@ The duration of the intra-refresh session, in number of frames. If **Mode** is *
 When triggering an intra-refresh session, the host informs the current frame number relative to the [0..**IntraRefreshDuration**) session by setting **IntraRefreshFrameIndex** in the [picture control structure](ns-d3d12umddi-d3d12ddi_video_encoder_picture_control_desc_0082_0.md
 ).
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
 
 ## -see-also
 

@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CONFIGURATION_PARAMS_0080_2
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CONFIGURATION_PARAMS_0080_2
-ms.date: 02/02/2022
+ms.date: 02/16/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CONFIGURATION_PARAMS_0080_2 structure.
 prerelease: false
@@ -68,7 +68,7 @@ Pointer to a [**D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_QVBR_0080_2**](ns-d3d12umddi
 
 The configuration mode-specific structure to use is based on the value of **[D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_0080_2](ns-d3d12umddi-d3d12ddi_video_encoder_rate_control_0080_2.md).Mode**.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
 
 ## -see-also
 

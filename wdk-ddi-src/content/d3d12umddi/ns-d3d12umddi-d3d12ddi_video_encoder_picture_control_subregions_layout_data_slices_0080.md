@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_SUBREGIONS_LAYOUT_DATA_SLICES_0080
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_SUBREGIONS_LAYOUT_DATA_SLICES_0080
-ms.date: 02/02/2022
+ms.date: 02/16/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_SUBREGIONS_LAYOUT_DATA_SLICES_0080 structure.
 prerelease: false
@@ -64,7 +64,7 @@ This member is used exclusively with [**D3D12DDI_VIDEO_ENCODER_FRAME_SUBREGION_L
 
 For modes that imply a fixed number of slices, the number of slices selected must be less than [**MaxSubregionsNumber**](ns-d3d12umddi-d3d12ddi_video_encoder_resolution_support_limits_0080_2.md) and the selected resolution.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
 
 ## -see-also
 

@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_VIDEO_0082_0
 tech.root: display
 title: D3D12DDI_DEVICE_FUNCS_VIDEO_0082_0
-ms.date: 02/02/2022
+ms.date: 02/16/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_DEVICE_FUNCS_VIDEO_0082_0 structure.
 prerelease: false

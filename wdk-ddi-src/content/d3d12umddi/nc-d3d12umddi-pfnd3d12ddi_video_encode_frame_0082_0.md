@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_ENCODE_FRAME_0082_0
 tech.root: display
 title: PFND3D12DDI_VIDEO_ENCODE_FRAME_0082_0
-ms.date: 02/02/2022
+ms.date: 02/16/2022
 targetos: Windows
 description: Learn more about the PFND3D12DDI_VIDEO_ENCODE_FRAME_0082_0 callback function.
 prerelease: false
@@ -68,7 +68,7 @@ Pointer to a [**D3D12DDI_VIDEO_ENCODER_ENCODEFRAME_OUTPUT_STREAM_ARGUMENTS_0080_
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
 
 ## -see-also
 

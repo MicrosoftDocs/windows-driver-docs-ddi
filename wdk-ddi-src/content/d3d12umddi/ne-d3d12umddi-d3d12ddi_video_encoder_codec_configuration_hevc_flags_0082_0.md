@@ -2,7 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAGS_0082_0
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAGS_0082_0
-ms.date: 02/02/2022
+ms.date: 02/16/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAGS_0082_0 enumeration.
 prerelease: false
@@ -38,35 +38,35 @@ The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAGS_0082_0** enumeration
 
 ## -enum-fields
 
-### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_NONE
+### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_NONE:0x0
 
 No flags are specified.
 
-### -field  the use of the intra constrained slices flag in picture control. This mode restricts the motion vector search range to the region box of the current slice (for example, motion vectors outside the slice boundary cannot be used).
-
-### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_ENABLE_SAO_FILTER
-
-If set, enables the sample adaptive offset filter.
-
-### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_DISABLE_LOOP_FILTER_ACROSS_SLICES
+### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_DISABLE_LOOP_FILTER_ACROSS_SLICES:0x1
 
 If set, disable the loop filtering across slices.
 
-### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_ALLOW_REQUEST_INTRA_CONSTRAINED_SLICES
+### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_ALLOW_REQUEST_INTRA_CONSTRAINED_SLICES:0x2
 
-If set, allowsD3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_ENABLE_LONG_TERM_REFERENCES
+If set, allows the use of the intra constrained slices flag in picture control. This mode restricts the motion vector search range to the region box of the current slice (that is, motion vectors outside the slice boundary cannot be used).
+
+### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_ENABLE_SAO_FILTER:0x4
+
+If set, enables the sample adaptive offset filter.
+
+### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_ENABLE_LONG_TERM_REFERENCES:0x8
 
 If set, enables the use of long-term references in the picture reference management structures for HEVC.
 
-### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_USE_ASYMETRIC_MOTION_PARTITION
+### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_USE_ASYMETRIC_MOTION_PARTITION:0x10
 
-If set, enables asymmetric motion partitioning. NOTE: If [**VIDEO_ENCODER_CODEC_CONFIGURATION_SUPPORT_HEVC_FLAG_0082_0_ASYMETRIC_MOTION_PARTITION_REQUIRED**](ne-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_support_hevc_flags_0082_0.md) was reported, this flag must always be enabled.
+If set, enables asymmetric motion partitioning. If [**VIDEO_ENCODER_CODEC_CONFIGURATION_SUPPORT_HEVC_FLAG_0082_0_ASYMETRIC_MOTION_PARTITION_REQUIRED**](ne-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_support_hevc_flags_0082_0.md) was reported, this flag must always be enabled.
 
-### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_ENABLE_TRANSFORM_SKIPPING
+### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_ENABLE_TRANSFORM_SKIPPING:0x20
 
 If set, enables transform skipping.
 
-### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_USE_CONSTRAINED_INTRAPREDICTION
+### -field D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_0082_0_USE_CONSTRAINED_INTRAPREDICTION:0x40
 
 If set, enables constrained intra prediction. This value refers to *constrained_intra_pred_flag* in the Picture Parameter Set (PPS).
 
@@ -74,7 +74,7 @@ If set, enables constrained intra prediction. This value refers to *constrained_
 
 The host (D3D12 lower-level encoding API) sets these configuration flags based on the limits queried at the API level.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
 
 ## -see-also
 

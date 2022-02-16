@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_0080_2
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_0080_2
-ms.date: 02/02/2022 
+ms.date: 02/16/2022 
 targetos: Windows
 description: Learn more about D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_0080_2
 prerelease: false
@@ -62,13 +62,13 @@ The value of **log2_max_frame_num_minus4** is in the range of 0 to 12, inclusive
 
 ### -field log2_max_pic_order_cnt_lsb_minus4
 
-The value of the variable *MaxPicOrderCntLsb* that is used in the decoding process for picture order count as specified in the H.264 specification as follows: ``` MaxPicOrderCntLsb = 2^ (log2_max_pic_order_cnt_lsb_minus4 + 4)```.
+The value of the variable *MaxPicOrderCntLsb* that is used in the decoding process for picture order count as specified in the H.264 specification as follows: ```MaxPicOrderCntLsb = 2^ (log2_max_pic_order_cnt_lsb_minus4 + 4)```.
 
 The value of **log2_max_pic_order_cnt_lsb_minus4** is in the range of 0 to 12, inclusive.
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
 
 ## -see-also
 

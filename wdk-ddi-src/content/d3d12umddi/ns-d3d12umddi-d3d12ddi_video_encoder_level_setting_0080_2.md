@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_ENCODER_LEVEL_SETTING_0080_2
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_LEVEL_SETTING_0080_2
-ms.date: 02/02/2022
+ms.date: 02/16/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_VIDEO_ENCODER_LEVEL_SETTING_0080_2 structure.
 prerelease: false
@@ -58,7 +58,7 @@ Pointer to a [**D3D12DDI_VIDEO_ENCODER_LEVEL_TIER_CONSTRAINTS_HEVC_0080**](ns-d3
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
 
 ## -see-also
 

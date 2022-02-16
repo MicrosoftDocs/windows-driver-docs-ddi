@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_DESC_0082_0
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_DESC_0082_0
-ms.date: 02/02/2022
+ms.date: 02/16/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_DESC_0082_0 structure.
 prerelease: false
@@ -60,7 +60,7 @@ A [**D3D12DDI_VIDEO_ENCODE_REFERENCE_FRAMES_0080**](ns-d3d12umddi-d3d12ddi_video
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
 
 The following remarks provide guidance for frame management.
 

@@ -2,7 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_ENCODER_PROFILE_H264_0080
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_PROFILE_H264_0080
-ms.date: 02/02/2022
+ms.date: 02/16/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_VIDEO_ENCODER_PROFILE_H264_0080 enumeration.
 prerelease: false
@@ -52,7 +52,7 @@ The H.264 High 10 profile.
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
 
 ## -see-also
 

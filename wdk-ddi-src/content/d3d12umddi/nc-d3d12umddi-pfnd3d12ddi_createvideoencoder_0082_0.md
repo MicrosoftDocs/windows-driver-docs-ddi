@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEOENCODER_0082_0
 tech.root: display
 title: PFND3D12DDI_CREATEVIDEOENCODER_0082_0
-ms.date: 02/02/2022
+ms.date: 02/16/2022
 targetos: Windows
 description: Learn more about the PFND3D12DDI_CREATEVIDEOENCODER_0082_0 callback function.
 prerelease: false
@@ -64,7 +64,7 @@ Returns an [**HRESULT**](/windows-hardware/drivers/debugger/hresult-values) valu
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for more information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
 
 ## -see-also
 
