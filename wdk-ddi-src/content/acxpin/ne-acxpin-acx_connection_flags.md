@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_CONNECTION_FLAGS
 tech.root: audio
 title: ACX_CONNECTION_FLAGS
-ms.date: 12/09/2021
+ms.date: 02/17/2022
 targetos: Windows
 description: The ACX_CONNECTION_FLAGS enumeration is used by the ACX_CONNECTION structure to help describe the connection properties of an audio class extension (ACX).
 prerelease: false
@@ -68,3 +68,5 @@ For internal validation, do not use.
 ## -remarks
 
 ## -see-also
+
+TBD - Please review this topic

@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinGetRawDataFormatList
 tech.root: audio
 title: AcxPinGetRawDataFormatList
-ms.date: 02/01/2022
+ms.date: 02/17/2022
 targetos: Windows
 description: The AcxPinGetRawDataFormatList function returns the data format list for the specified pin.
 prerelease: false
@@ -59,3 +59,5 @@ Returns the [ACXDATAFORMATLIST](../acxdataformat/index.md) for the pin specified
 ## -see-also
 
 - [ACXDATAFORMATLIST](../acxdataformat/index.md)
+
+TBD - Please review this topic

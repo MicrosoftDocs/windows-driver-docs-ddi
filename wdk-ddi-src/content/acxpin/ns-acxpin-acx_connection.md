@@ -2,9 +2,9 @@
 UID: NS:acxpin._ACX_CONNECTION
 tech.root: audio
 title: ACX_CONNECTION
-ms.date: 10/05/2021
+ms.date: 02/17/2022
 targetos: Windows
-description: 
+description: The ACX_CONNECTION structure is used to define a connection between two pins.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,29 +44,50 @@ dev_langs:
 
 ## -description
 
+The **ACX_CONNECTION** structure is used to define a connection between two pins.
+
 ## -struct-fields
 
 ### -field Size
 
+The size of this **ACX_CONNECTION** structure for verification purposes.
+
 ### -field Flags
+
+A combination of [ACX_CONNECTION_FLAGS](ne-acxpin-acx_connection_flags.md) values that indicate how to identify the pins of the *FromObject* and *ToObject*.
 
 ### -field FromObject
 
+An **ACXOBJECT** representing the source.
+
 ### -field FromPin
+
+The pin associated with the *FromObject*.
 
 ### -field FromPin.Object
 
+An **ACXPIN** object used to identify the *FromPin* object.
+
 ### -field FromPin.Id
 
+The ID used to identify the *FromPin* object.
+
 ### -field ToObject
+
+An **ACXOBJECT** representing the sink.
 
 ### -field ToPin
 
 ### -field ToPin.Object
 
+An **ACXPIN** object used to identify the *ToPin* object.
+
 ### -field ToPin.Id
+
+The ID used to identify the *ToPin* object.
 
 ## -remarks
 
 ## -see-also
 
+TBD - Please review this topic

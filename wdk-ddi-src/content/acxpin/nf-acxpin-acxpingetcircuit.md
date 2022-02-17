@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinGetCircuit
 tech.root: audio
 title: AcxPinGetCircuit
-ms.date: 02/01/2022
+ms.date: 02/17/2022
 targetos: Windows
 description: The AcxPinGetCircuit function returns the circuit to which the pin is connected.
 prerelease: false
@@ -59,3 +59,5 @@ Returns the [ACXCIRCUIT](../acxcircuit/index.md) object representing the circuit
 ## -see-also
 
 - [ACXCIRCUIT](../acxcircuit/index.md)
+
+TBD - Please review this topic

@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_JACK_CONNECTION_TYPE
 tech.root: audio
 title: ACX_JACK_CONNECTION_TYPE
-ms.date: 10/27/2021
+ms.date: 02/17/2022
 targetos: Windows
 description: The ACX_JACK_CONNECTION_TYPE enumeration is used to describe the type of a physical connection jack.
 prerelease: false
@@ -95,3 +95,5 @@ Indicates that the connection type is a combination jack.
 ## -remarks
 
 ## -see-also
+
+TBD - Please review this topic
