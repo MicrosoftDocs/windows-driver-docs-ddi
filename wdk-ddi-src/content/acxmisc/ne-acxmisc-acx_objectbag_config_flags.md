@@ -55,13 +55,11 @@ Indicates that writes are enabled.
 
 ### -field AcxObjectBagConfigFailIfExist
 
-TBD - Indicates that .
-
+Indicates that if an ACXOBJECTBAG with the same identity is already present, creation should fail instead of opening the existing one.
 
 ### -field AcxObjectBagConfigOpenWithHandle
 
-TBD - Indicates that .
-
+Indicates to open the ACXOBJECTBAG whose handle is specified in the configuration stracture.
 
 ### -field AcxObjectBagConfigValidFlags
 
@@ -96,3 +94,4 @@ This example shows the use of ACX_OBJECTBAG_CONFIG_FLAGS.
 
 [acxmisc.h header](index.md)
 
+READY2GO

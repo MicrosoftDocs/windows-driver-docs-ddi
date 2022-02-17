@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddUI4
 ms.date: 01/10/2022
 targetos: Windows
-description: The AcxObjectBagAddUI4 function adds a unicode string to and existing intialized AcxObjectBag. 
+description: The AcxObjectBagAddUI4 function adds a UI4 data to an existing intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddUI4 function adds a unicode string to and existing intialized AcxObjectBag. 
+The AcxObjectBagAddUI4 function adds a UI4 data to an existing intialized AcxObjectBag. 
 
 ## -parameters
 
@@ -72,22 +72,12 @@ TBD - Need to validate fabricated sample code.
 
 
 ```cpp
-    // Create a simple object.
-    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
-    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
-    attr.ParentObject = WdfGetDriver();
-    
-    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
-
-    status = AcxObjectBagAddUI4(bag1, &UI4Str, usValue);
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI4);
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI4(objBag, &TestUI4, _DSP_STREAM_PROPERTY_UI4_VALUE));
 ```
 
 ## -see-also
 
 [acxmisc.h header](index.md)
 
+READY2GO
