@@ -54,7 +54,7 @@ A [**D3D12DDI_VIDEO_ENCODE_RECONSTRUCTED_PICTURE_0080**](ns-d3d12umddi-d3d12ddi_
 
 ### -field HWLayoutEncoderMetadataDrvBuffer
 
-A [**D3D12DDI_VIDEO_ENCODER_ENCODE_OPERATION_METADATA_BUFFER_0080_2**](ns-d3d12umddi-d3d12ddi_video_encoder_encode_operation_metadata_buffer_0080_2.md) structure that contains metadata returned by the encoder regarding the hardware-specific layout of the output. This data needs to be resolved into a readable format using [**PFND3D12DDI_VIDEO_ENCODE_RESOLVE_OUTPUT_METADATA_0082_0**](PFND3D12DDI_VIDEO_ENCODE_RESOLVE_OUTPUT_METADATA_0082_0).
+A [**D3D12DDI_VIDEO_ENCODER_ENCODE_OPERATION_METADATA_BUFFER_0080_2**](ns-d3d12umddi-d3d12ddi_video_encoder_encode_operation_metadata_buffer_0080_2.md) structure that contains metadata returned by the encoder regarding the hardware-specific layout of the output. This data needs to be resolved into a readable format using [**PFND3D12DDI_VIDEO_ENCODE_RESOLVE_OUTPUT_METADATA_0082_0**](nc-d3d12umddi-pfnd3d12ddi_video_encode_resolve_output_metadata_0082_0.md).
 
 ## -remarks
 
@@ -70,4 +70,4 @@ See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d1
 
 [**PFND3D12DDI_VIDEO_ENCODE_FRAME_0082_0**](nc-d3d12umddi-pfnd3d12ddi_video_encode_frame_0082_0.md)
 
-[**PFND3D12DDI_VIDEO_ENCODE_RESOLVE_OUTPUT_METADATA_0082_0**](PFND3D12DDI_VIDEO_ENCODE_RESOLVE_OUTPUT_METADATA_0082_0)
+[**PFND3D12DDI_VIDEO_ENCODE_RESOLVE_OUTPUT_METADATA_0082_0**](nc-d3d12umddi-pfnd3d12ddi_video_encode_resolve_output_metadata_0082_0.md)

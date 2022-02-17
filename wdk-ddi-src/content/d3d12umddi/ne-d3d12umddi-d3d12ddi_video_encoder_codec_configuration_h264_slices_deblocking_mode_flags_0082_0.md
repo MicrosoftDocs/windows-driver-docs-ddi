@@ -4,7 +4,7 @@ tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODE_FLAGS_0082_0
 ms.date: 02/16/2022
 targetos: Windows
-description: 
+description: Learn more about the D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODE_FLAGS_0082_0 enumeration.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 

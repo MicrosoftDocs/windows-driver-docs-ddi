@@ -52,6 +52,8 @@ The requested input format is not supported.
 
 ### -field D3D12DDI_VIDEO_ENCODER_VALIDATION_FLAG_0082_0_CODEC_CONFIGURATION_NOT_SUPPORTED
 
+The requested codec configuration is not supported.
+
 ### -field D3D12DDI_VIDEO_ENCODER_VALIDATION_FLAG_0082_0_RATE_CONTROL_MODE_NOT_SUPPORTED
 
 The requested rate control mode is not supported.

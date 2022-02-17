@@ -38,7 +38,7 @@ dev_langs:
 
 ## -description
 
-The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_0080_2** structure contains configuration information for a video codec.
+The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_0080_2** structure contains configuration information for a video codec. Use [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_0082_0**](ns-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_0082_0.md) for full video encoding feature support for Windows 11 (WDDM 3.0).
 
 ## -struct-fields
 
@@ -56,10 +56,4 @@ Pointer to a [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_0080_2**](ns-d3d
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
-
-## -see-also
-
-[**D3D12DDIARG_CREATE_VIDEO_ENCODER_0080_2**](ns-d3d12umddi-d3d12ddiarg_create_video_encoder_0080_2.md)
-
-[**D3D12DDICAPS_VIDEO_ENCODER_SUPPORT_DATA_0080_2**](ns-d3d12umddi-d3d12ddicaps_video_encoder_support_data_0080_2.md)
+Use [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_0082_0**](ns-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_0082_0.md) for full video encoding feature support for Windows 11 (WDDM 3.0).

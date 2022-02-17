@@ -38,7 +38,7 @@ dev_langs:
 
 ## -description
 
-The **D3D12DDICAPS_VIDEO_ENCODER_SUPPORT_DATA_0082_0** structure provides support details for the passed input configurations.
+The **D3D12DDICAPS_VIDEO_ENCODER_SUPPORT_DATA_0082_0** structure provides support details for the passed input configurations. Use [**D3D12DDICAPS_VIDEO_ENCODER_SUPPORT_DATA_0083_0**](ns-d3d12umddi-d3d12ddicaps_video_encoder_support_data_0083_0.md) for full video encoding feature support for Windows 11 (WDDM 3.0).
 
 ## -struct-fields
 
@@ -109,7 +109,3 @@ The **D3D12DDICAPS_VIDEO_ENCODER_SUPPORT_DATA_0082_0** structure provides suppor
 ## -remarks
 
 Use [**D3D12DDICAPS_VIDEO_ENCODER_SUPPORT_DATA_0083_0**](ns-d3d12umddi-d3d12ddicaps_video_encoder_support_data_0083_0.md) for full video encoding feature support for Windows 11 (WDDM 3.0).
-
-## -see-also
-
-[**D3D12DDICAPS_VIDEO_ENCODER_SUPPORT_DATA_0083_0**](ns-d3d12umddi-d3d12ddicaps_video_encoder_support_data_0083_0.md)

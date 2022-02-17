@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_ENCODER_OUTPUT_METADATA_0083_0
 tech.root: display
 title: D3D12DDI_VIDEO_ENCODER_OUTPUT_METADATA_0083_0
-ms.date: 02/16/20221
+ms.date: 02/16/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_VIDEO_ENCODER_OUTPUT_METADATA_0083_0 structure.
 prerelease: false

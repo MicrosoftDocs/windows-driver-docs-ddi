@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11 (WDDM 3.0)
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_0080_2
@@ -38,7 +38,7 @@ dev_langs:
 
 ## -description
 
-The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_0080_2** structure contains configuration information for an HEVC (H.265) codec.
+The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_0080_2** structure contains configuration information for an HEVC (H.265) codec. Use [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_0082_0**](ns-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_hevc_0082_0.md) for full video encoding feature support for Windows 11 (WDDM 3.0).
 
 ## -struct-fields
 
@@ -56,10 +56,4 @@ A [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_CUSIZE_0080**](ne-d3d12umdd
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
-
-## -see-also
-
-[**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_0080**](ns-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_0080.md)
-
-[**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_0082_0**](ns-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_hevc_0082_0.md)
+Use [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_0082_0**](ns-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_hevc_0082_0.md) for full video encoding feature support for Windows 11 (WDDM 3.0).

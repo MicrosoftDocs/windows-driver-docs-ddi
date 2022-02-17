@@ -36,7 +36,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_FLAGS_0080** enumeration specifies the flags for [rate control]((ns-d3d12umddi-d3d12ddi_video_encoder_rate_control_0080_2.md)).
+The **D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_FLAGS_0080** enumeration specifies the flags for [rate control](ns-d3d12umddi-d3d12ddi_video_encoder_rate_control_0080_2.md).
 
 ## -enum-fields
 

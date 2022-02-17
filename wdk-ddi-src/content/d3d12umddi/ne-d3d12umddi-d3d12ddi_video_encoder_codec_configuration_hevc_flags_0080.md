@@ -34,7 +34,7 @@ dev_langs:
 
 ## -description
 
-The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAGS_0080** enumeration lists the possible set of enabled features for an HEVC (H.265) codec.
+The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAGS_0080** enumeration lists the possible set of enabled features for an HEVC (H.265) codec. Use [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAGS_0082_0**](ne-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_hevc_flags_0082_0.md) for full video encoding feature support for Windows 11 (WDDM 3.0).
 
 ## -enum-fields
 
@@ -52,14 +52,4 @@ Enable intra constrained slices support.
 
 ## -remarks
 
-The host (D3D12 lower-level encoding API) sets these configuration flags based on the limits queried at the API level.
-
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
-
-## -see-also
-
-[**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_0082_0**](ns-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_hevc_0082_0.md)
-
-[**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAGS_0082_0**](ne-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_hevc_flags_0082_0.md)
-
-[**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_SUPPORT_HEVC_FLAGS_0082_0**](ne-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_support_h264_flags_0082_0.md)
+Use [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAGS_0082_0**](ne-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_hevc_flags_0082_0.md) for full video encoding feature support for Windows 11 (WDDM 3.0).
