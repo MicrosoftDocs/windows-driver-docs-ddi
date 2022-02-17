@@ -49,7 +49,7 @@ dev_langs:
 
 ## -description
 
-A **D3D12DDICAPS_TYPE_VIDEO_0020** enumeration value specifies a video feature or video feature set to [query about](nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md).
+A **D3D12DDICAPS_TYPE_VIDEO_0020** enumeration value specifies a *video feature* or a *video feature set* to [query about](nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md).
 
 ## -enum-fields
 
@@ -59,12 +59,11 @@ Check if a video decode profile, bitstream encryption, resolution, and format ar
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_PROFILES:1
 
-Retrieve the list of video decode profiles supported by the adapter. The D3D runtime calls [PFND3D12DDI_VIDEO_GET_DECODE_PROFILE_COUNT_0020](nc-d3d12umddi-pfnd3d12ddi_video_get_decode_profile_count_0020.md)
-to get the number of supported profiles before retrieving the list. The associated structure is [D3D12DDI_VIDEO_DECODE_PROFILES_DATA](ns-d3d12umddi-d3d12ddi_video_decode_profiles_data_0020.md).
+Retrieve the list of video decode profiles supported by the adapter. The associated structure is [D3D12DDI_VIDEO_DECODE_PROFILES_DATA](ns-d3d12umddi-d3d12ddi_video_decode_profiles_data_0020.md).
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_FORMATS:2
 
-Retrieve the list of video decode formats supported by the adapter. The D3D runtime calls [PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020](nc-d3d12umddi-pfnd3d12ddi_video_get_decode_format_count_0020.md) to get the number of supported formats before retrieving the list. The associated structure is [D3D12DDI_VIDEO_DECODE_CONFIGURATION](ns-d3d12umddi-d3d12ddi_video_decode_configuration_0020.md) structure.
+Retrieve the list of video decode formats supported by the adapter. The associated structure is [D3D12DDI_VIDEO_DECODE_CONFIGURATION](ns-d3d12umddi-d3d12ddi_video_decode_configuration_0020.md) structure.
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_CONVERSION_SUPPORT:3
 
