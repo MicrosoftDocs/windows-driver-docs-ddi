@@ -38,7 +38,7 @@ dev_langs:
 
 ## -description
 
-The **D3D12DDI_DEVICE_FUNCS_VIDEO_0082_0** structure contains device driver functions for core features in video, used in D3D12DDI_FEATURE_VERSION_VIDEO_0082_0.
+The **D3D12DDI_DEVICE_FUNCS_VIDEO_0082_0** structure contains device driver functions for core features in video, used in D3D12DDI_FEATURE_VERSION_VIDEO_0083_0.
 
 ## -struct-fields
 
