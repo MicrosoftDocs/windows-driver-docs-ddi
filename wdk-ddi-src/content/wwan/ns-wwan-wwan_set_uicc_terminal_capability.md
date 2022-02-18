@@ -1,8 +1,8 @@
 ---
 UID: NS:wwan._WWAN_SET_UICC_TERMINAL_CAPABILITY
-tech.root: 
+tech.root: netvista
 title: WWAN_SET_UICC_TERMINAL_CAPABILITY
-ms.date: 
+ms.date: 01/24/2022
 targetos: Windows
 description: 
 prerelease: true
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN11_NEXT
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: WWAN_SET_UICC_TERMINAL_CAPABILITY, *PWWAN_SET_UICC_TERMINAL_CAPABILITY

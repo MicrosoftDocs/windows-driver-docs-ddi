@@ -1,10 +1,10 @@
 ---
-UID: NS:wwan._WWAN_PROVISIONED_CONTEXT_V2
+UID: NS:wwan._WWAN_SET_PROVISIONED_CONTEXT_V2
 tech.root: netvista
-title: WWAN_PROVISIONED_CONTEXT_V2
-ms.date: 01/18/2022
+title: WWAN_SET_PROVISIONED_CONTEXT_V2
+ms.date: 01/19/2022
 targetos: Windows
-description: The WWAN_PROVISIONED_CONTEXT_V2 structure represents a provisioned context that is supported by a mobile broadband (MBB) device.
+description: The WWAN_SET_PROVISIONED_CONTEXT_V2 structure represents a provisioned context that is supported by a mobile broadband (MBB) device. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -18,7 +18,7 @@ req.redist:
 req.target-min-winverclnt: WIN11_NEXT
 req.target-min-winversvr: 
 req.target-type: 
-req.typenames: WWAN_PROVISIONED_CONTEXT_V2, *PWWAN_PROVISIONED_CONTEXT_V2
+req.typenames: WWAN_SET_PROVISIONED_CONTEXT_V2, *PWWAN_SET_PROVISIONED_CONTEXT_V2
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
@@ -28,31 +28,36 @@ api_type:
 api_location:
  - wwan.h
 api_name:
- - _WWAN_PROVISIONED_CONTEXT_V2
- - PWWAN_PROVISIONED_CONTEXT_V2
- - WWAN_PROVISIONED_CONTEXT_V2
+ - _WWAN_SET_PROVISIONED_CONTEXT_V2
+ - PWWAN_SET_PROVISIONED_CONTEXT_V2
+ - WWAN_SET_PROVISIONED_CONTEXT_V2
 f1_keywords:
- - _WWAN_PROVISIONED_CONTEXT_V2
- - wwan/_WWAN_PROVISIONED_CONTEXT_V2
- - PWWAN_PROVISIONED_CONTEXT_V2
- - wwan/PWWAN_PROVISIONED_CONTEXT_V2
- - WWAN_PROVISIONED_CONTEXT_V2
- - wwan/WWAN_PROVISIONED_CONTEXT_V2
+ - _WWAN_SET_PROVISIONED_CONTEXT_V2
+ - wwan/_WWAN_SET_PROVISIONED_CONTEXT_V2
+ - PWWAN_SET_PROVISIONED_CONTEXT_V2
+ - wwan/PWWAN_SET_PROVISIONED_CONTEXT_V2
+ - WWAN_SET_PROVISIONED_CONTEXT_V2
+ - wwan/WWAN_SET_PROVISIONED_CONTEXT_V2
 dev_langs:
  - c++
 helpviewer_keywords:
- - _WWAN_PROVISIONED_CONTEXT_V2
+ - _WWAN_SET_PROVISIONED_CONTEXT_V2
 ---
 
 ## -description
 
-The **WWAN_PROVISIONED_CONTEXT_V2** structure represents a provisioned context that is supported by a mobile broadband (MBB) device. **WWAN_PROVISIONED_CONTEXT_V2** is only used in MBB driver versions 2.170 and above.
+The **WWAN_SET_PROVISIONED_CONTEXT_V2** structure represents a provisioned context that is supported by a mobile broadband (MBB) device. This structure is used by the [**NDIS_WWAN_SET_PROVISIONED_CONTEXT_V2**](../ndiswwan/ns-ndiswwan-ndis_wwan_set_provisioned_context_v2.md) structure. 
+
 
 ## -struct-fields
 
 ### -field basicInfo
 
-A [**WWAN_CONTEXT**](ns-wwan-_wwan_context.md) structure that represents the basic information for this provisioned context.
+A [**WWAN_SET_CONTEXT**](ns-wwan-_wwan_set_context.md) structure that represents the basic information for this provisioned context.
+
+### -field Operation
+
+A [**WWAN_CONTEXT_OPERATIONS**](ne-wwan-_wwan_context_operations.md) value that specifies the types of operation used in this Set command.
 
 ### -field IPType
 
@@ -84,11 +89,11 @@ A [**WWAN_SINGLE_NSSAI**](ns-wwan-wwan_single_nssai.md) structure representing a
 
 ## -remarks
 
-**WWAN_PROVISIONED_CONTEXT_V2** is used as a response to [OID_WWAN_PROVISIONED_CONTEXT](/windows-hardware/drivers/network/oid-wwan-provisioned-contexts) set requests.
-
 ## -see-also
 
-[**WWAN_CONTEXT**](ns-wwan-_wwan_context.md)
+[**WWAN_SET_CONTEXT**](ns-wwan-_wwan_set_context.md)
+
+[**WWAN_CONTEXT_OPERATIONS**](ne-wwan-_wwan_context_operations.md)
 
 [**WWAN_IP_TYPE**](ne-wwan-_wwan_ip_type.md)
 
@@ -100,8 +105,7 @@ A [**WWAN_SINGLE_NSSAI**](ns-wwan-wwan_single_nssai.md) structure representing a
 
 [**WWAN_CONFIGURATION_SOURCE**](ne-wwan-_wwan_configuration_source.md)
 
-[**WWAN_SINGLE_NSSAI**](ns-wwan-wwan_single_nssai.md) 
+[**WWAN_SINGLE_NSSAI**](ns-wwan-wwan_single_nssai.md)
 
-[**WWAN_SET_PROVISIONED_CONTEXT_V2**](../wwan/ns-wwan-wwan_set_provisioned_context_v2.md)
-
+[**NDIS_WWAN_SET_PROVISIONED_CONTEXT_V2**](../ndiswwan/ns-ndiswwan-ndis_wwan_set_provisioned_context_v2.md)
 

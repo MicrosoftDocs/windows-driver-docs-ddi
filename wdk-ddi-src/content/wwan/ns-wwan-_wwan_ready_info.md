@@ -105,6 +105,10 @@ Miniport drivers should not specify this value until the device ready-state chan
 
 ### -field StatusFlags
 
+### -field SlotId
+
+A ULONG value that represents the SIM card slot ID.
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_ready_info">NDIS_WWAN_READY_INFO</a>

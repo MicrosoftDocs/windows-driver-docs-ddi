@@ -1,8 +1,8 @@
 ---
 UID: NS:wwan._WWAN_QUERY_READY_INFO
-tech.root: 
+tech.root: netvista
 title: WWAN_QUERY_READY_INFO
-ms.date: 
+ms.date: 01/21/2022
 targetos: Windows
 description: 
 prerelease: true
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN11_NEXT
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: WWAN_QUERY_READY_INFO, *PWWAN_QUERY_READY_INFO
@@ -46,11 +46,16 @@ helpviewer_keywords:
 
 ## -description
 
+The **WWAN_QUERY_READY_INFO** structure represents the ready-state information of the MB device.
+
 ## -struct-fields
 
 ### -field SlotId
+
+A ULONG value that specifies the card's slot ID.
 
 ## -remarks
 
 ## -see-also
 
+[**NDIS_WWAN_QUERY_READY_INFO**](../ndiswwan/ns-ndiswwan-ndis_wwan_query_ready_info.md)
