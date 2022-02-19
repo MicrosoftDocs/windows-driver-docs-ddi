@@ -2,7 +2,7 @@
 UID: NF:acxpin.ACX_CONNECTION_INIT
 tech.root: audio
 title: ACX_CONNECTION_INIT
-ms.date: 01/13/2022
+ms.date: 02/17/2022
 targetos: Windows
 description: Initializes an ACX_CONNECTION structure for use in configuring a connection.
 prerelease: false
@@ -63,3 +63,5 @@ The **ACXOBJECT** to which audio data is sent.
 ## -see-also
 
 - [ACX_CONNECTION](ns-acxpin-acx_connection.md)
+
+TBD - Please review this topic

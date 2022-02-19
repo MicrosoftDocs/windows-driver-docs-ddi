@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinAddEvents
 tech.root: audio
 title: AcxPinAddEvents
-ms.date: 01/31/2022
+ms.date: 02/17/2022
 targetos: Windows
 description: The AcxPinAddEvents function adds an array of events to the specified pin.
 prerelease: false
@@ -65,3 +65,5 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 ## -remarks
 
 ## -see-also
+
+TBD - Please review this topic

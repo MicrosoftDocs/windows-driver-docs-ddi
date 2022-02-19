@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_MIC_ARRAY_TYPE
 tech.root: audio
 title: ACX_MIC_ARRAY_TYPE
-ms.date: 10/27/2021
+ms.date: 02/17/2022
 targetos: Windows
 description: The ACX_MIC_ARRAY_TYPE enumeration is used to specify the type of a microphone array.
 prerelease: false
@@ -60,3 +60,5 @@ For internal validation, do not use.
 ## -remarks
 
 ## -see-also
+
+TBD - Please review this topic

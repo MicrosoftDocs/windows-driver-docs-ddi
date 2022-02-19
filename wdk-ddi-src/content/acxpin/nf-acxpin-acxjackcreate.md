@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxJackCreate
 tech.root: audio
 title: AcxJackCreate
-ms.date: 01/20/2022
+ms.date: 02/17/2022
 targetos: Windows
 description: The AcxJackCreate function creates and initializes a new audio jack object.
 prerelease: false
@@ -72,3 +72,5 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 - [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md)
 - [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)
+
+TBD - Please review this topic

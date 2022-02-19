@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinRemoveStreamBridges
 tech.root: audio
 title: AcxPinRemoveStreamBridges
-ms.date: 02/03/2022
+ms.date: 02/17/2022
 targetos: Windows
 description: The AcxPinRemoveStreamBridges function removes steam bridges from the specified pin.
 prerelease: false
@@ -65,3 +65,5 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 ## -remarks
 
 ## -see-also
+
+TBD - Please review this topic

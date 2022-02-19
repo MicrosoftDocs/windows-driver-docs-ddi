@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxJackChangeStateNotification
 tech.root: audio
 title: AcxJackChangeStateNotification
-ms.date: 01/20/2022
+ms.date: 02/17/2022
 targetos: Windows
 description: The AcxJackChangeStateNotification function indicates that a change in the state of the specified jack has occurred.
 prerelease: false
@@ -53,3 +53,5 @@ The jack where the state change occurred.
 ## -remarks
 
 ## -see-also
+
+TBD - Please review this topic

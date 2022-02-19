@@ -2,7 +2,7 @@
 UID: NF:acxpin.ACX_PIN_CONFIG_INIT_ID
 tech.root: audio
 title: ACX_PIN_CONFIG_INIT_ID
-ms.date: 01/13/2022
+ms.date: 02/17/2022
 targetos: Windows
 description: 
 prerelease: false
@@ -59,3 +59,5 @@ The ID to use when initializing the **ACX_PIN_CONFIG** structure.
 ## -see-also
 
 - [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)
+
+TBD - Please review this topic
