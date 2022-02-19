@@ -3,7 +3,7 @@ UID: NC:d3d10umddi.PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS
 title: PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS (d3d10umddi.h)
 description: Retrieves the number of quality levels that the device supports for the specified number of samples. Supported.
 old-location: display\checkmultisamplequalitylevels_d3d11_2_.htm
-ms.date: 01/10/2022
+ms.date: 02/18/2022
 keywords: ["PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS callback function"]
 ms.keywords: CheckMultisampleQualityLevels, CheckMultisampleQualityLevels callback function [Display Devices], PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS, PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS callback, d3d10umddi/CheckMultisampleQualityLevels, display.checkmultisamplequalitylevels_d3d11_2_
 req.header: d3d10umddi.h
@@ -56,7 +56,7 @@ A handle to the display device (graphics context).
 
 ### -param Format
 
-A value of type [**DXGI_FORMAT**](/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) that indicates the render-target format that the check is performed for.
+A value of type [**DXGI_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) that indicates the render-target format that the check is performed for.
 
 ### -param SampleCount
 
@@ -88,6 +88,6 @@ If the driver receives 0 or greater than 32 in **SampleCount**, the driver alway
 
 [**D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG**](ne-d3d10umddi-d3dwddm1_3ddi_check_multisample_quality_levels_flag.md)
 
-[**DXGI_FORMAT**](/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)
+[**DXGI_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)
 
 [**pfnSetErrorCb**](nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md)
