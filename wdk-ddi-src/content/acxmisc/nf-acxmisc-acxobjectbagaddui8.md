@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddUI8 function adds a unicode string to and existing intialized AcxObjectBag.
+The AcxObjectBagAddUI8 function adds a TBD to and existing intialized AcxObjectBag.
  
 ## -parameters
 

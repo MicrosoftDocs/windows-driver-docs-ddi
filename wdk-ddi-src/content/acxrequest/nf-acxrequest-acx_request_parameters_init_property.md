@@ -72,11 +72,11 @@ TDB - An Item Id, for example for a pin number in a circuit.
 
 ### -param Control
 
-A Control that TBD.
+A Control buffer to be sent. 
 
 ### -param ControlCb
 
-The count in bytes (size) of the Control.
+The count in bytes (size) of the Control buffer.
  
 ### -param Value
 

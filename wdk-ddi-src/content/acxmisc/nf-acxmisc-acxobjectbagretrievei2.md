@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveI2 function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveI2 function retrieves a TBD value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 

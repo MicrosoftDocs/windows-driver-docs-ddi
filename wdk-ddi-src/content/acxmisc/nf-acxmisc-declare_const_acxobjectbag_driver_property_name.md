@@ -61,7 +61,7 @@ The name of the declared constant.
 This example shows the use of DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME.
 
 ```cpp
-    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(msft, TestUI4);
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAMEVendorX, TestUI4);
 ```
 
 ## -see-also

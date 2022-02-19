@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddUI1 function adds a UCHAR to and existing, intialized AcxObjectBag.
+The AcxObjectBagAddUI1 function adds a UCHAR value to and existing, intialized AcxObjectBag.
  
 ## -parameters
 

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddI1 function adds a unicode string to an existing, intialized AcxObjectBag. 
+The AcxObjectBagAddI1 function adds a TBD unicode string to an existing, intialized AcxObjectBag. 
 
 ## -parameters
 

@@ -66,7 +66,7 @@ The name of the ObjectBag that is used to access it.
 
 ### -field Handle
 
-The the ObjectBag handle that is used to TBD.
+The the ObjectBag handle that is used to access the object bag.
 
 ## -remarks
 

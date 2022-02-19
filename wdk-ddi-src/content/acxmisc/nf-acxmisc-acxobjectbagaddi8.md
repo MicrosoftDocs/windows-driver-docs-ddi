@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddI8
 ms.date: 01/28/2022
 targetos: Windows
-description: The AcxObjectBagAddI8 function adds a I8 data to an existing, intialized AcxObjectBag. 
+description: The AcxObjectBagAddI8 function adds a ULONG64 value to an existing, intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddI8 function adds a I8 data to an existing, intialized AcxObjectBag. 
+The AcxObjectBagAddI8 function adds a I8 data TBD ULONG64 value to an existing, intialized AcxObjectBag. 
 
 ## -parameters
 
