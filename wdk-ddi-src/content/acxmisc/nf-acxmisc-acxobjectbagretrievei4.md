@@ -69,31 +69,26 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 This example shows the use of AcxObjectBagRetrieveI4.
 
 ```cpp
-    DECLARE_CONST_UNICODE_STRING(I4Str,    L"Value_I4");
- 
-   // Create a simple object.
-    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
-    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
-    attr.ParentObject = WdfGetDriver();
+const ULONG _DSP_STREAM_PROPERTY_UI4_VALUE = 1;
     
-    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
+    //Initialize an object bag configuration
+    ACX_OBJECTBAG_CONFIG objBagCfg;
+    ACXOBJECTBAG objBag = NULL;
+    ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
+    
+    // Set the WDF attributes, and create an object bag 
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = Circuit;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
 
-    // Add something to the bag
-    status = AcxObjectBagAddI4(bag1, &I4Str, lValue);
+    //Create Properties and add them to an object bag
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI4);
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI4(objBag, &TestUI4, _DSP_STREAM_PROPERTY_UI4_VALUE)
 
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
+    // Retrieve the value from the object bag
+    ULONG ui4Value = 0;
 
-    // Read written values.
-    status = AcxObjectBagRetrieveI4(bag1, &I4Str, &lValue2);
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveUI4(objBag, &TestUI4, &ui4Value));
 ```
 
 ## -see-also
