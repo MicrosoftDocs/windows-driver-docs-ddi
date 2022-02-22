@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveMultiString
 tech.root: audio
 title: AcxObjectBagRetrieveMultiString
-ms.date: 01/28/2022
+ms.date: 02/22/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveMultiString function retrieves a  MultiString value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
@@ -70,7 +70,23 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 TBD - Example pending.
 
+TBD - Would we use a WDF multi string like? >> https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdfregistry/nf-wdfregistry-wdfregistryquerymultistring
+
 ```cpp
+WDF_OBJECT_ATTRIBUTES stringAttributes;
+WDFCOLLECTION col;
+NTSTATUS status;
+ULONG count;
+DECLARE_CONST_UNICODE_STRING(valueMultiSz, VALUE_MULTI_SZ);
+
+status = WdfCollectionCreate(
+                             NULL,
+                             &col
+                             );
+ASSERT(NT_SUCCESS(status));
+
+WDF_OBJECT_ATTRIBUTES_INIT(&stringAttributes);
+stringAttributes.ParentObject = col;
 
 ```
 

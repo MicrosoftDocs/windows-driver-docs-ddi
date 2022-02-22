@@ -68,7 +68,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 This example shows the use of AcxObjectBagAddBlob.
 
-
 ```cpp
     NTSTATUS status = STATUS_SUCCESS;
 
@@ -76,7 +75,6 @@ This example shows the use of AcxObjectBagAddBlob.
     WDFMEMORY blobMem;
     RETURN_NTSTATUS_IF_FAILED(WdfMemoryCreatePreallocated(NULL, Buffer, SizeCb, &blobMem));
     RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddBlob(ObjBag, &PropertiesBlock, blobMem));
-
 ```
 
 ## -see-also

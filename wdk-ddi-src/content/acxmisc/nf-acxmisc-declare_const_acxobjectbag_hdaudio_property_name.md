@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME function declares a constant that can be used to work with a AcxObjectBag. 
+The DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME function declares a HDAUDIO property constant that can be used to work with a AcxObjectBag. 
 
 ## -parameters
 

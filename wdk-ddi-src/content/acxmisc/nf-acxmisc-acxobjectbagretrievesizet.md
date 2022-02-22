@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveSizeT function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveSizeT function retrieves a SizeT value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 

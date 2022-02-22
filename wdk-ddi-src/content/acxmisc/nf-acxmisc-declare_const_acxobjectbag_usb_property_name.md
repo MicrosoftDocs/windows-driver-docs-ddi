@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The DECLARE_CONST_ACXOBJECTBAG_USB_PROPERTY_NAME function declares a constant that can be used to work with a AcxObjectBag. 
+The DECLARE_CONST_ACXOBJECTBAG_USB_PROPERTY_NAME function declares a USB property constant that can be used to work with a AcxObjectBag. 
 
 ## -parameters
 
