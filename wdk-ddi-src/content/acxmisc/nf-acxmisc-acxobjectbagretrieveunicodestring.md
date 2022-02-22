@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveUnicodeString
 tech.root: audio
 title: AcxObjectBagRetrieveUnicodeString
-ms.date: 01/28/2022
+ms.date: 02/22/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveUnicodeString function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true

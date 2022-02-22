@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveI2
 tech.root: audio
 title: AcxObjectBagRetrieveI2
-ms.date: 01/28/2022
+ms.date: 02/22/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveI2 function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveI2 function retrieves a int two byte I2 (SHORT) value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveI2 function retrieves a TBD value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveI2 function retrieves a int two byte I2 (SHORT) value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 

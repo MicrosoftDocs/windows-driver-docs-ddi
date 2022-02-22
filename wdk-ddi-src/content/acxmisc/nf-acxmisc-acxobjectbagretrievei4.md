@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveI4
 tech.root: audio
 title: AcxObjectBagRetrieveI4
-ms.date: 01/28/2022
+ms.date: 02/22/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveI4 function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values.
+description: The AcxObjectBagRetrieveI4 function retrieves a int four byte I4 (LONG) value from an existing, intialized AcxObjectBag that contains values.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveI4 function retrieves a TBD value from an existing, intialized AcxObjectBag that contains values.
+The AcxObjectBagRetrieveI4 function retrieves a int four byte I4 (LONG) value from an existing, intialized AcxObjectBag that contains values.
 
 ## -parameters
 

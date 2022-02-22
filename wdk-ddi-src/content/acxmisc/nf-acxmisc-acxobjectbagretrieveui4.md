@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveUI4
 tech.root: audio
 title: AcxObjectBagRetrieveUI4
-ms.date: 01/10/2022
+ms.date: 02/22/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveUI4 function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveUI4 function retrieves an unsigned int four byte I4 (LONG) value from an existing, intialized AcxObjectBag that contains values.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveUI4 function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveUI4 function retrieves an unsigned int four byte I4 (LONG) value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 

@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveUI8
 tech.root: audio
 title: AcxObjectBagRetrieveUI8
-ms.date: 01/28/2022
+ms.date: 02/22/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveUI8 function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveUI8 function retrieves an unsigned int eight byte I8 (LONG64) value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveUI8 function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveUI8 function retrieves an unsigned int eight byte I8 (LONG64) value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 

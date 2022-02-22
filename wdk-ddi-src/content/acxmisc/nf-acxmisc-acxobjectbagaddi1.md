@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddI1 function adds a int one byte (CHAR) I1 value  to an existing, intialized AcxObjectBag. 
+The AcxObjectBagAddI1 function adds a int one byte (CHAR) I1 value to an existing, intialized AcxObjectBag. 
 
 ## -parameters
 
