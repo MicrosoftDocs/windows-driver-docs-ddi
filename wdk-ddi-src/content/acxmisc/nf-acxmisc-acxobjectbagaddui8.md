@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddUI8
 tech.root: audio
 title: AcxObjectBagAddUI8
-ms.date: 01/10/2022
+ms.date: 02/22/2022
 targetos: Windows
-description: The AcxObjectBagAddUI8 function adds a unicode string to and existing intialized AcxObjectBag.
+description: The AcxObjectBagAddI8 function adds an unsigned  int eight byte I8 (LONG64) value to an existing, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddUI8 function adds a TBD to and existing intialized AcxObjectBag.
+The AcxObjectBagAddI8 function adds an unsigned  int eight byte I8 (LONG64) value to an existing, intialized AcxObjectBag.
  
 ## -parameters
 

@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddUI4
 tech.root: audio
 title: AcxObjectBagAddUI4
-ms.date: 01/10/2022
+ms.date: 02/22/2022
 targetos: Windows
-description: The AcxObjectBagAddUI4 function adds a UI4 data to an existing intialized AcxObjectBag. 
+description: The AcxObjectBagAddUI4 function adds an unsigned int four byte I4 (LONG) value to an existing, intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddUI4 function adds a UI4 data to an existing intialized AcxObjectBag. 
+The AcxObjectBagAddUI4 function adds an unsigned int four byte I4 (LONG) value to an existing, intialized AcxObjectBag. 
 
 ## -parameters
 

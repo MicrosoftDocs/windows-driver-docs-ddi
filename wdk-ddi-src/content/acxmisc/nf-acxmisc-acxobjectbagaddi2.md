@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddI2
 tech.root: audio
 title: AcxObjectBagAddI2
-ms.date: 02/18/2022
+ms.date: 02/22/2022
 targetos: Windows
-description: The AcxObjectBagAddI2 function adds a USHORT value to an existing, intialized AcxObjectBag. 
+description: The AcxObjectBagAddI2 function adds a int two byte I2 (SHORT) value to an existing, intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddI2 function adds a TBD USHORT value to an existing, intialized AcxObjectBag. 
+The AcxObjectBagAddI2 function adds a int two byte I2 (SHORT) value to an existing, intialized AcxObjectBag. 
 
 ## -parameters
 

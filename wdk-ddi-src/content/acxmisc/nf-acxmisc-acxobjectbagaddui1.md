@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddUI1
 tech.root: audio
 title: AcxObjectBagAddUI1
-ms.date: 01/10/2022
+ms.date: 02/22/2022
 targetos: Windows
-description: The AcxObjectBagAddUI1 function adds a UCHAR to and existing, intialized AcxObjectBag.
+description: The AcxObjectBagAddUI1 function adds an unsigned int one byte (UCHAR) I1 value  to an existing, intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddUI1 function adds a UCHAR value to and existing, intialized AcxObjectBag.
+The AcxObjectBagAddUI1 function adds an unsigned int one byte (UCHAR) I1 value  to an existing, intialized AcxObjectBag. 
  
 ## -parameters
 

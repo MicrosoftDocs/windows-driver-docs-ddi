@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddI4
 tech.root: audio
 title: AcxObjectBagAddI4
-ms.date: 02/18/2022
+ms.date: 02/22/2022
 targetos: Windows
-description: The AcxObjectBagAddI4 function adds a ULONG value to an existing, intialized AcxObjectBag.  
+description: The AcxObjectBagAddI4 function adds a int four byte I4 (LONG) value to an existing, intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,8 +42,8 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddI4 function adds a TBD ULONG value to an existing, intialized AcxObjectBag. 
- 
+The AcxObjectBagAddI4 function adds a int four byte I4 (LONG) value to an existing, intialized AcxObjectBag. 
+
 ## -parameters
 
 ### -param ObjectBag
