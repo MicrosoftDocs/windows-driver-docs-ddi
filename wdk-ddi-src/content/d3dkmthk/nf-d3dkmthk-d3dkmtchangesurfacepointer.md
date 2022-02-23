@@ -48,7 +48,7 @@ The **D3DKMTChangeSurfacePointer** function is for system use only.
 
 ## -parameters
 
-### -param D3DKMT_CHANGESURFACEPOINTER [in]
+### -param unnamedParam1 [in]
 
 For system use only.
 
