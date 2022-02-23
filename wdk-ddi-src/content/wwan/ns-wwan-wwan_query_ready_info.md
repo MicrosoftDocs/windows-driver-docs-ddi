@@ -2,9 +2,9 @@
 UID: NS:wwan._WWAN_QUERY_READY_INFO
 tech.root: netvista
 title: WWAN_QUERY_READY_INFO
-ms.date: 01/21/2022
+ms.date: 02/22/2022
 targetos: Windows
-description: 
+description: The WWAN_QUERY_READY_INFO structure represents the SIM slot ID for OID_WWAN_READY_INFO query requests.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,16 +46,19 @@ helpviewer_keywords:
 
 ## -description
 
-The **WWAN_QUERY_READY_INFO** structure represents the ready-state information of the MB device.
+The **WWAN_QUERY_READY_INFO** structure represents the SIM slot ID that is associated with a [OID_WWAN_READY_INFO](/windows-hardware/drivers/network/oid-wwan-ready-info) query request.
+
 
 ## -struct-fields
 
 ### -field SlotId
 
-A ULONG value that specifies the card's slot ID.
+A ULONG value that specifies the SIM slot ID.
 
 ## -remarks
 
 ## -see-also
 
 [**NDIS_WWAN_QUERY_READY_INFO**](../ndiswwan/ns-ndiswwan-ndis_wwan_query_ready_info.md)
+
+[OID_WWAN_READY_INFO](/windows-hardware/drivers/network/oid-wwan-ready-info)

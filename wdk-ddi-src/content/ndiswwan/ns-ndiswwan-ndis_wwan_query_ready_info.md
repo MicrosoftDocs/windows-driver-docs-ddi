@@ -2,9 +2,9 @@
 UID: NS:ndiswwan._NDIS_WWAN_QUERY_READY_INFO
 tech.root: netvista
 title: NDIS_WWAN_QUERY_READY_INFO
-ms.date: 01/21/2022
+ms.date: 02/22/2022
 targetos: Windows
-description: 
+description: The NDIS_WWAN_QUERY_READY_INFO structure represents a SIM slot ID for OID_WWAN_READY_INFO query requests.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,26 +46,30 @@ helpviewer_keywords:
 
 ## -description
 
+The **NDIS_WWAN_QUERY_READY_INFO** structure represents the SIM slot ID that is associated with a [OID_WWAN_READY_INFO](/windows-hardware/drivers/network/oid-wwan-ready-info) query request.
+
 ## -struct-fields
 
 ### -field Header
 
-The header with type, revision, and size information about the **NDIS_WWAN_QUERY_READY_INFO** structure. The MB Service sets the header with the values that are shown in the following table when it sends the data structure to the miniport driver for set operations. Miniport drivers must set the header with the same values when they send the data structure to the MB service.
+The header with type, revision, and size information about the **NDIS_WWAN_QUERY_READY_INFO** structure. 
 
 |Header submember|Value|
 |---|---|
 |Type|NDIS_OBJECT_TYPE_DEFAULT|
-|Revision|NDIS_WWAN_QUERY_READY_INFO_REVISION_1|
+|Revision|NDIS_WWAN_GENERAL_REVISION_1|
 |Size|sizeof(NDIS_WWAN_QUERY_READY_INFO)|
 
 For more information about these members, see [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header).
 
 ### -field QueryReadyInfo
 
-A [**WWAN_QUERY_READY_INFO**](../wwan/ns-wwan-wwan_query_ready_info.md) structure that represents the ready-state information.
+A [**WWAN_QUERY_READY_INFO**](../wwan/ns-wwan-wwan_query_ready_info.md) structure that represents the slot ID.
 
 ## -remarks
 
 ## -see-also
 
 [**WWAN_QUERY_READY_INFO**](../wwan/ns-wwan-wwan_query_ready_info.md)
+
+[OID_WWAN_READY_INFO](/windows-hardware/drivers/network/oid-wwan-ready-info)
