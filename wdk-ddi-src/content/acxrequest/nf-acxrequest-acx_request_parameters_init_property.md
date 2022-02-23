@@ -2,7 +2,7 @@
 UID: NF:acxrequest.ACX_REQUEST_PARAMETERS_INIT_PROPERTY
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS_INIT_PROPERTY
-ms.date: 02/07/2022
+ms.date: 02/22/2022
 targetos: Windows
 description: The ACX_REQUEST_PARAMETERS_INIT_PROPERTY initializes ACX request parameter properties.
 prerelease: true

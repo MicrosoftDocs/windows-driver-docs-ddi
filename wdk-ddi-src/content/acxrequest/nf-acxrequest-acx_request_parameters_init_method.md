@@ -2,7 +2,7 @@
 UID: NF:acxrequest.ACX_REQUEST_PARAMETERS_INIT_METHOD
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS_INIT_METHOD
-ms.date: 02/07/2022
+ms.date: 02/22/2022
 targetos: Windows
 description: The ACX_REQUEST_PARAMETERS_INIT_METHOD initializes ACX request methods.
 prerelease: true
@@ -80,7 +80,7 @@ The count in bytes (size) of the Args.
 
 ### -param Result
 
-The result of the TBD.
+The result of the request.
 
 ### -param ResultCb
 

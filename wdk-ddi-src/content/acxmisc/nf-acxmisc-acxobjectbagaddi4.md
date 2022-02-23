@@ -69,32 +69,33 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 This example shows the use of AcxObjectBagAddI4.
 
 ```cpp
-    DECLARE_CONST_UNICODE_STRING(I4Str,    L"Value_I4");
+    ACXOBJECTBAG objBag     = NULL;
+    LONG        i4Value   = 0;
 
-    // Create a simple object.
-    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
-    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
-    attr.ParentObject = WdfGetDriver();
+    //Initialize an object bag configuration
+    ACX_OBJECTBAG_CONFIG objBagCfg;
+    ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
     
-    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
+    // Set the WDF attributes, and create an object bag 
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = Circuit;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
+    auto objBag_scope = scope_exit([&objBag]() {
+        if (objBag != NULL)
+        {
+            WdfObjectDelete(objBag);
+        }
+    });
 
+    //Create Properties and add them to an object bag
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestI4);
 
-    status |= AcxObjectBagAddI4(bag1, &I4Str, lValue);
+    i4Value = 1;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI4(objBag, &TestI4, i4Value)
 
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
-
-    // Read written values.
-    status = AcxObjectBagRetrieveI4(bag1, &I4Str, &lValue2);
-
+    // Retrieve the value from the object bag
+    i4Value = 0;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveI4(objBag, &TestI4, &i4Value));
 ```
 
 ## -see-also

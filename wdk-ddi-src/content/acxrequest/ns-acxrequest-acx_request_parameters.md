@@ -2,7 +2,7 @@
 UID: NS:acxrequest._ACX_REQUEST_PARAMETERS
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS
-ms.date: 02/08/2022
+ms.date: 02/22/2022
 targetos: Windows
 description: The ACX_REQUEST_PARAMETERS structure describes the items that can be used in an ACX request.
 prerelease: true

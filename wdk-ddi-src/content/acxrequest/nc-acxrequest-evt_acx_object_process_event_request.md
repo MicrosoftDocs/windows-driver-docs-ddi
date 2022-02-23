@@ -56,7 +56,7 @@ The ACXEVENT object (described in [Summary of ACX Objects](/windows-hardware/dri
 
 ### -param Verb
 
-An verb from the ACX_EVENT_VERB (ne-acxrequest-acx_event_verb.md) enumeration that describes the type of verb support that will be available.
+An verb from the [ACX_EVENT_VERB](ne-acxrequest-acx_event_verb.md) enumeration that describes the type of verb support that will be available.
 
 ### -param EventData
 

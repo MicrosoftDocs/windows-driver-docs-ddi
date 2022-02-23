@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_REQUEST_PARAMETERS_INIT_METHOD** function initializes ACX request methods.
+The **ACX_REQUEST_PARAMETERS_INIT** function initializes ACX request methods.
 
 ## -parameters
 
@@ -57,22 +57,9 @@ An [ACX_REQUEST_PARAMETERS](nf-acxrequest-acxrequestgetparameters.md) structure 
 Example usage is shown below.
 
 ```cpp
-            arg     = circuitArg;
-            result  = 0;
+    ACX_REQUEST_PARAMETERS              params;
 
-            //
-            // Format and send the request. 
-            //
-            ACX_REQUEST_PARAMETERS_INIT_METHOD(
-                &params,
-                methodsTests[i].MethodSet,
-                methodsTests[i].MethodId,
-                AcxMethodVerbSend,
-                AcxItemTypeCircuit,
-                AcxItemIdNone,
-                &arg, sizeof(arg),      // Args & size
-                &result, sizeof(result) // Result & size
-                );
+    ACX_REQUEST_PARAMETERS_INIT(&params);
 ```
 
 ## -see-also

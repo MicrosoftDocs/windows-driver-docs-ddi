@@ -66,31 +66,37 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Need to validate fabricated sample code.
-
 This example shows the use of AcxObjectBagRetrieveUI4.
 
 ```cpp
-const ULONG _DSP_STREAM_PROPERTY_UI4_VALUE = 1;
-    
+    ACXOBJECTBAG objBag     = NULL;
+    ULONG        ui4Value   = 0;
+
     //Initialize an object bag configuration
     ACX_OBJECTBAG_CONFIG objBagCfg;
-    ACXOBJECTBAG objBag = NULL;
     ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
     
     // Set the WDF attributes, and create an object bag 
     WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
     attributes.ParentObject = Circuit;
     RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
+    auto objBag_scope = scope_exit([&objBag]() {
+        if (objBag != NULL)
+        {
+            WdfObjectDelete(objBag);
+        }
+    });
 
     //Create Properties and add them to an object bag
     DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI4);
-    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI4(objBag, &TestUI4, _DSP_STREAM_PROPERTY_UI4_VALUE)
+
+    ui4Value = 1;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI4(objBag, &TestUI4, ui4Value)
 
     // Retrieve the value from the object bag
-    ULONG ui4Value = 0;
-
+    ui4Value = 0;
     RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveUI4(objBag, &TestUI4, &ui4Value));
+
 ```
 
 ## -see-also
