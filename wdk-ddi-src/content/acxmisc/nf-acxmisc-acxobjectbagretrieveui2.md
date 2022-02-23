@@ -69,30 +69,33 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 This example shows the use of AcxObjectBagRetrieveUI2.
 
 ```cpp
-    DECLARE_CONST_UNICODE_STRING(UI2Str,   L"Value_UI2");
+    ACXOBJECTBAG objBag     = NULL;
+    USHORT        ui2Value   = 0;
 
-    // Create a simple object.
-    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
-    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
-    attr.ParentObject = WdfGetDriver();
+    //Initialize an object bag configuration
+    ACX_OBJECTBAG_CONFIG objBagCfg;
+    ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
     
-    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
+    // Set the WDF attributes, and create an object bag 
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = Circuit;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
+    auto objBag_scope = scope_exit([&objBag]() {
+        if (objBag != NULL)
+        {
+            WdfObjectDelete(objBag);
+        }
+    });
 
-    status = AcxObjectBagAddUI2(bag1, &UI2Str, usValue);
+    //Create Properties and add them to an object bag
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI2);
 
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
+    ui2Value = 0x55;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI2(objBag, &TestUI2, ui2Value)
 
-    // Read written values.
-    status = AcxObjectBagRetrieveUI2(bag1, &UI2Str, &usValue2);
+    // Retrieve the value from the object bag
+    ui2Value = 0;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveUI2(objBag, &TestUI2, &ui2Value));
 ```
 
 ## -see-also

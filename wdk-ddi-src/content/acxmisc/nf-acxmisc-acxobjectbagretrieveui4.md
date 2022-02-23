@@ -96,7 +96,6 @@ This example shows the use of AcxObjectBagRetrieveUI4.
     // Retrieve the value from the object bag
     ui4Value = 0;
     RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveUI4(objBag, &TestUI4, &ui4Value));
-
 ```
 
 ## -see-also

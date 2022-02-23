@@ -69,17 +69,33 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 This example shows the use of AcxObjectBagAddUI1.
 
 ```cpp
-NTSTATUS ObjBagAddDatapathId(
-    _In_ ACXOBJECTBAG               ObjBag,
-    _In_ UCHAR                      Id
-)
-{
-    PAGED_CODE();
+    ACXOBJECTBAG objBag     = NULL;
+    UCHAR        ui1Value   = 0;
 
-    NTSTATUS status = STATUS_SUCCESS;
+    //Initialize an object bag configuration
+    ACX_OBJECTBAG_CONFIG objBagCfg;
+    ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
+    
+    // Set the WDF attributes, and create an object bag 
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = Circuit;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
+    auto objBag_scope = scope_exit([&objBag]() {
+        if (objBag != NULL)
+        {
+            WdfObjectDelete(objBag);
+        }
+    });
 
-    DECLARE_CONST_ACXOBJECTBAG_BLUETOOTH_PROPERTY_NAME(DatapathID);
-    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI1(ObjBag, &DatapathID, Id));
+    //Create Properties and add them to an object bag
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI1);
+
+    ui1Value = 1;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI1(objBag, &TestUI1, ui1Value)
+
+    // Retrieve the value from the object bag
+    ui1Value = 0;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveUI1(objBag, &TestUI1, &ui1Value));
 ```
 
 ## -see-also
