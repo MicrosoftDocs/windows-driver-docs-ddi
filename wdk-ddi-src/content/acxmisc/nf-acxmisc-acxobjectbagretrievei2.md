@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveI2
 tech.root: audio
 title: AcxObjectBagRetrieveI2
-ms.date: 02/22/2022
+ms.date: 02/23/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveI2 function retrieves a int two byte I2 (SHORT) value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
@@ -66,11 +66,36 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
+This example shows the use of AcxObjectBagRetrieveI2.
 
 ```cpp
+    ACXOBJECTBAG objBag     = NULL;
+    SHORT       i2Value   = 0;
 
+    //Initialize an object bag configuration
+    ACX_OBJECTBAG_CONFIG objBagCfg;
+    ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
+    
+    // Set the WDF attributes, and create an object bag 
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = Circuit;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
+    auto objBag_scope = scope_exit([&objBag]() {
+        if (objBag != NULL)
+        {
+            WdfObjectDelete(objBag);
+        }
+    });
+
+    //Create Properties and add them to an object bag
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestI2);
+
+    i2Value = 1;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI2(objBag, &TestI2, i2Value)
+
+    // Retrieve the value from the object bag
+    i2Value = 0;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveI2(objBag, &TestI2, &i2Value));
 ```
 
 ## -see-also

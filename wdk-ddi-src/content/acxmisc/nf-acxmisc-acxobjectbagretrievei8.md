@@ -69,29 +69,34 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 This example shows the use of AcxObjectBagRetrieveI8.
 
 ```cpp
-    // Create a simple object.
-    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
-    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
-    attr.ParentObject = WdfGetDriver();
+    ACXOBJECTBAG objBag     = NULL;
+    LONG64        i8Value   = 0;
+
+    //Initialize an object bag configuration
+    ACX_OBJECTBAG_CONFIG objBagCfg;
+    ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
     
-    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
+    // Set the WDF attributes, and create an object bag 
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = Circuit;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
+    auto objBag_scope = scope_exit([&objBag]() {
+        if (objBag != NULL)
+        {
+            WdfObjectDelete(objBag);
+        }
+    });
 
-    // Add something to the bag
-    status = AcxObjectBagAddUI8(bag1, &UI8Str, ul64Value);
+    //Create Properties and add them to an object bag
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestI8);
 
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
+    i8Value = 0x9876543210;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI8(objBag, &TestI8, i8Value)
 
-    // Read written values.
-    status = AcxObjectBagRetrieveUI8(bag1, &UI8Str, &ul64Value2);
+    // Retrieve the value from the object bag
+    i8Value = 0;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveI8(objBag, &TestI8, &i8Value));
+```
 ```
 
 ## -see-also
