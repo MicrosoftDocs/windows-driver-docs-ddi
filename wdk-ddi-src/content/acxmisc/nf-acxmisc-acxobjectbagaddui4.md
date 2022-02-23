@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddUI4
 ms.date: 02/22/2022
 targetos: Windows
-description: The AcxObjectBagAddUI4 function adds an unsigned int four byte I4 (LONG) value to an existing, intialized AcxObjectBag. 
+description: The AcxObjectBagAddUI4 function adds an unsigned int four byte I4 (ULONG) value to an existing, intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddUI4 function adds an unsigned int four byte I4 (LONG) value to an existing, intialized AcxObjectBag. 
+The AcxObjectBagAddUI4 function adds an unsigned int four byte I4 (ULONG) value to an existing, intialized AcxObjectBag. 
 
 ## -parameters
 

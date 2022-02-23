@@ -70,7 +70,9 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 TBD - Example pending.
 
-TBD - Would we use a WDF multi string like? >> https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdfregistry/nf-wdfregistry-wdfregistryquerymultistring
+TBD - Would we use a WDF multi string like? >> 
+
+[WdfRegistryQueryMultiString function](/windows-hardware/drivers/ddi/wdfregistry/nf-wdfregistry-wdfregistryquerymultistring)
 
 ```cpp
 WDF_OBJECT_ATTRIBUTES stringAttributes;

@@ -97,7 +97,7 @@ This example shows the use of AcxObjectBagRetrieveI8.
     i8Value = 0;
     RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveI8(objBag, &TestI8, &i8Value));
 ```
-```
+
 
 ## -see-also
 
