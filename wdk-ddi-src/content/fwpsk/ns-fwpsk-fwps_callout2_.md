@@ -6,7 +6,7 @@ old-location: netvista\fwps_callout2.htm
 tech.root: netvista
 ms.date: 05/02/2018
 keywords: ["FWPS_CALLOUT2_ structure"]
-ms.keywords: FWPS_CALLOUT2, FWPS_CALLOUT2 structure [Network Drivers Starting with Windows Vista], FWPS_CALLOUT2_, FWP_CALLOUT_FLAG_ALLOW_L2_BATCH_CLASSIFY, FWP_CALLOUT_FLAG_ALLOW_MID_STREAM_INSPECTION, FWP_CALLOUT_FLAG_ALLOW_OFFLOAD, FWP_CALLOUT_FLAG_ALLOW_RECLASSIFY, FWP_CALLOUT_FLAG_ALLOW_RSC, FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW, FWP_CALLOUT_FLAG_ENABLE_COMMIT_ADD_NOTIFY, FWP_CALLOUT_FLAG_RESERVED1, fwpsk/FWPS_CALLOUT2, netvista.fwps_callout2
+ms.keywords: FWPS_CALLOUT2, FWPS_CALLOUT2 structure [Network Drivers Starting with Windows Vista], FWPS_CALLOUT2_, FWP_CALLOUT_FLAG_ALLOW_L2_BATCH_CLASSIFY, FWP_CALLOUT_FLAG_ALLOW_MID_STREAM_INSPECTION, FWP_CALLOUT_FLAG_ALLOW_OFFLOAD, FWP_CALLOUT_FLAG_ALLOW_RECLASSIFY, FWP_CALLOUT_FLAG_ALLOW_RSC, FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW, FWP_CALLOUT_FLAG_ENABLE_COMMIT_ADD_NOTIFY, FWP_CALLOUT_FLAG_RESERVED1, fwpsk/FWPS_CALLOUT2, netvista.fwps_callout2, FWP_CALLOUT_FLAG_ALLOW_USO, FWP_CALLOUT_FLAG_ALLOW_URO
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -150,7 +150,7 @@ Reserved for system use. Callout drivers should ignore this flag.
 </dl>
 </td>
 <td width="60%">
-A callout driver specifies this flag to indicate that the callout supports receive segment coalescing (RSC) with large packets of up to 64K. If this flag is not specified, and a callout is registered, then RSC is disabled for all traffic that is processed by any filters that specify the callout for the filter's action.
+A callout driver specifies this flag to indicate that the callout supports TCP receive segment coalescing (RSC) with large packets of up to 64K. If this flag is not specified, and a callout is registered, then RSC is disabled for all traffic that is processed by any filters that specify the callout for the filter's action.
 
 </td>
 </tr>
@@ -183,6 +183,7 @@ A callout driver specifies this flag when registering a callout that will be add
 </div>
 </td>
 </tr>
+
 <tr>
 <td width="40%"><a id="FWP_CALLOUT_FLAG_ALLOW_USO"></a><a id="fwp_callout_flag_allow_uso"></a><dl>
 <dt><b>FWP_CALLOUT_FLAG_ALLOW_USO</b></dt>
@@ -193,6 +194,17 @@ A callout driver specifies this flag when registering a callout that will be add
 A callout driver specifies this flag to indicate that the callout supports UDP segmentation offload (USO) with packets larger than the MTU of the network medium. If this flag is not specified, and a callout is registered, then USO is disabled for all traffic that is processed by any filters that specify the callout for the filter's action.
 </td>
 </tr>  
+ 
+<tr>
+<td width="40%"><a id="FWP_CALLOUT_FLAG_ALLOW_URO"></a><a id="fwp_callout_flag_allow_uro"></a><dl>
+<dt><b>FWP_CALLOUT_FLAG_ALLOW_URO</b></dt>
+<dt>0x00000200</dt>
+</dl>
+</td>
+<td width="60%">
+A callout driver specifies this flag to indicate that the callout supports UDP receive offload (URO) with large packets of up to 64K. If this flag is not specified, and a callout is registered, then URO is disabled for all traffic that is processed by any filters that specify the callout for the filter's action.
+</td>
+</tr>
 </table>
 
 ### -field classifyFn
