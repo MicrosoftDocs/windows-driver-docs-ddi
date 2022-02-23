@@ -46,6 +46,8 @@ dev_langs:
 
 The **ACX_REQUEST_PARAMETERS** structure describes the items that can be used in an ACX request.
 
+TBD - Once the related property/method fields are filled in can mirror over to here.
+
 ## -struct-fields
 
 ### -field Size

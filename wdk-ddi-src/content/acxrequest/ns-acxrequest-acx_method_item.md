@@ -93,6 +93,8 @@ TBD - ?
 
 Example usage is shown below.
 
+TBD - We may need to add KSMETHODSETID_ApxCircuitFactory to the KS header?  Or maybe use a different code sample?
+
 ```cpp
 DEFINE_GUIDSTRUCT("14226c89-d411-493d-b473-11d61d476f98", KSMETHODSETID_ApxCircuitFactory);
 #define KSMETHODSETID_ApxCircuitFactory DEFINE_GUIDNAMED(KSMETHODSETID_ApxCircuitFactory)

@@ -52,6 +52,8 @@ An [ACX_REQUEST_PARAMETERS](nf-acxrequest-acxrequestgetparameters.md) structure 
  
 ## -remarks
 
+TBD
+
 ### Example
 
 Example usage is shown below.
