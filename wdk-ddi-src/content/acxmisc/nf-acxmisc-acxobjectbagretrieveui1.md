@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveUI1
 tech.root: audio
 title: AcxObjectBagRetrieveUI1
-ms.date: 02/22/2022
+ms.date: 02/23/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveUI1 function retrieves an unsigned int one byte (UCHAR) I1 value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveUI1 function retrieves an unsigned int one byte (UCHAR) UI1 value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveUI1 function retrieves an unsigned int one byte (UCHAR) I1 value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveUI1 function retrieves an unsigned int one byte (UCHAR) UI1 value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 

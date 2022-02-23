@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveUI2
 tech.root: audio
 title: AcxObjectBagRetrieveUI2
-ms.date: 02/22/2022
+ms.date: 02/23/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveUI2 function retrieves a unsigned int two byte I2 (SHORT) from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveUI2 function retrieves a unsigned int two byte UI2 (USHORT) from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveUI2 function retrieves a unsigned int two byte I2 (SHORT) from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveUI2 function retrieves a unsigned int two byte UI2 (USHORT) from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 
