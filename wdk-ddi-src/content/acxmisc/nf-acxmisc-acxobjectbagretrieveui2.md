@@ -70,7 +70,7 @@ This example shows the use of AcxObjectBagRetrieveUI2.
 
 ```cpp
     ACXOBJECTBAG objBag     = NULL;
-    USHORT        ui2Value   = 0;
+    USHORT       ui2Value   = 0;
 
     //Initialize an object bag configuration
     ACX_OBJECTBAG_CONFIG objBagCfg;

@@ -70,7 +70,7 @@ This example shows the use of AcxObjectBagAddI1.
 
 ```cpp
     ACXOBJECTBAG objBag     = NULL;
-    CHAR       i1Value   = 0;
+    CHAR         i1Value    = 0;
 
     //Initialize an object bag configuration
     ACX_OBJECTBAG_CONFIG objBagCfg;

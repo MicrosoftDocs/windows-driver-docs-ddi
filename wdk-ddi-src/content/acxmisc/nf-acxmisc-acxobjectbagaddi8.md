@@ -69,8 +69,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 This example shows the use of AcxObjectBagAddI8.
 
 ```cpp
-    ACXOBJECTBAG objBag     = NULL;
-    LONG64        i8Value   = 0;
+    ACXOBJECTBAG objBag    = NULL;
+    LONG64       i8Value   = 0;
 
     //Initialize an object bag configuration
     ACX_OBJECTBAG_CONFIG objBagCfg;

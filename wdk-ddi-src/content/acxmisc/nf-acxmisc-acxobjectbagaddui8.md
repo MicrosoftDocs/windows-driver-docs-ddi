@@ -70,7 +70,7 @@ This example shows the use of AcxObjectBagAddUI8.
 
 ```cpp
     ACXOBJECTBAG objBag     = NULL;
-    ULONG64       ui8Value   = 0;
+    ULONG64      ui8Value   = 0;
 
     //Initialize an object bag configuration
     ACX_OBJECTBAG_CONFIG objBagCfg;

@@ -70,7 +70,7 @@ This example shows the use of AcxObjectBagRetrieveI4.
 
 ```cpp
     ACXOBJECTBAG objBag     = NULL;
-    LONG        i4Value   = 0;
+    LONG         i4Value    = 0;
 
     //Initialize an object bag configuration
     ACX_OBJECTBAG_CONFIG objBagCfg;
