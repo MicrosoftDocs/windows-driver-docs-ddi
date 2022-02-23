@@ -272,6 +272,10 @@ Support for this type started with Windows 10 version 1803.
 
 **pPrivateDriverData** points to a [**D3DKMT_CROSSADAPTERRESOURCE_SUPPORT**](ns-d3dkmthk-d3dkmt_crossadapterresource_support.md) structure. Supported starting with Windows Server 2022.
 
+### -field KMTQAITYPE_WDDM_3_0_CAPS
+
+**pPrivateDriverData** points to a [**D3DKMT_WDDM_3_0_CAPS**](../d3dkmdt/ns-d3dkmdt-d3dkmt_wddm_3_0_caps.md) structure with information about supported WDDM 3.0 caps. Supported starting with Windows 11, version 21H2.
+
 ## -remarks
 
 Each enum value denotes how to interpret the other fields of **D3DKMT_QUERYADAPTERINFO**, especially **D3DKMT_QUERYADAPTERINFO::pPrivateDriverData**.

@@ -3,7 +3,7 @@ UID: NE:d3dkmthk._QAI_DRIVERVERSION
 title: QAI_DRIVERVERSION (d3dkmthk.h)
 description: The D3DKMT_DRIVERVERSION enumeration type contains values that indicate the version of the display driver model that the display miniport driver supports.
 old-location: display\d3dkmt_driverversion.htm
-ms.date: 05/13/2021
+ms.date: 02/23/2022
 keywords: ["QAI_DRIVERVERSION enumeration"]
 ms.keywords: D3DKMT_DRIVERVERSION, D3DKMT_DRIVERVERSION enumeration [Display Devices], KMT_DRIVERVERSION_WDDM_1_0, KMT_DRIVERVERSION_WDDM_1_1, KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, KMT_DRIVERVERSION_WDDM_1_2, KMT_DRIVERVERSION_WDDM_1_3, KMT_DRIVERVERSION_WDDM_2_0, OpenGL_Structs_2f7fe9d6-ec67-46b1-9c05-51d06d186fe1.xml, _QAI_DRIVERVERSION, _QAI_DRIVERVERSION enumeration [Display Devices], d3dkmthk/, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_0, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_2, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_3, d3dkmthk/KMT_DRIVERVERSION_WDDM_2_0, d3dkmthk/_QAI_DRIVERVERSION, display.d3dkmt_driverversion
 req.header: d3dkmthk.h
@@ -115,6 +115,10 @@ The display miniport driver supports the Windows display driver model with relea
 ### -field KMT_DRIVERVERSION_WDDM_2_9
 
 The display miniport driver supports the Windows display driver model with released Windows Server 2022 features.
+
+### -field KMT_DRIVERVERSION_WDDM_3_0
+
+The display miniport driver supports the Windows display driver model with released Windows 11, version 21H2 features.
 
 ## -remarks
 
