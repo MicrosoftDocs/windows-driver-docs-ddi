@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagAddI1
 tech.root: audio
 title: AcxObjectBagAddI1
-ms.date: 02/23/2022
+ms.date: 02/24/2022
 targetos: Windows
 description: The AcxObjectBagAddI1 function adds a int one byte (CHAR) I1 value  to an existing, intialized AcxObjectBag. 
 prerelease: true
@@ -80,6 +80,8 @@ This example shows the use of AcxObjectBagAddI1.
     WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
     attributes.ParentObject = Circuit;
     RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
+    
+    // Enable deletion of the object bag when the function completes and goes out of scope
     auto objBag_scope = scope_exit([&objBag]() {
         if (objBag != NULL)
         {
