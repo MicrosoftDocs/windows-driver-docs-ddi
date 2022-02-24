@@ -120,6 +120,10 @@ The display miniport driver supports the Windows display driver model with relea
 
 The display miniport driver supports the Windows display driver model with released Windows 11, version 21H2 features.
 
+### -field KMT_DRIVERVERSION_WDDM_3_1
+
+The display miniport driver supports the Windows display driver model with released Windows 11, version 21H2 features.
+
 ## -remarks
 
 The [**D3DKMTQueryAdapterInfo**](..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md) returns a **D3DKMT_DRIVERVERSION** value in a variable that the **pPrivateDriverData** member of the [**D3DKMT_QUERYADAPTERINFO**](..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md) structure points to when the OpenGL installable client driver (ICD) sets the **Type** member of **D3DKMT_QUERYADAPTERINFO** to KMTQAITYPE_DRIVERVERSION.

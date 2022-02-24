@@ -54,7 +54,7 @@ For system use only.
 
 ## -returns
 
-An opaque NTSTATUS value.
+An opaque **NTSTATUS** value.
 
 ## -remarks
 

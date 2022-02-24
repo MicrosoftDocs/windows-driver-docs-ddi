@@ -2,7 +2,7 @@
 UID: NE:d3dkmthk._KMTQUERYADAPTERINFOTYPE
 title: _KMTQUERYADAPTERINFOTYPE (d3dkmthk.h)
 description: Each KMTQUERYADAPTERINFOTYPE value correlates to a specific piece of adapter information being retrieved by D3DKMQueryAdapterInfo.
-ms.date: 05/13/2021
+ms.date: 02/23/2022
 keywords: ["KMTQUERYADAPTERINFOTYPE enumeration"]
 ms.keywords: _KMTQUERYADAPTERINFOTYPE, KMTQUERYADAPTERINFOTYPE,
 req.header: d3dkmthk.h

@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTCloseAdapter
 title: D3DKMTCloseAdapter function (d3dkmthk.h)
 description: The D3DKMTCloseAdapter function closes a graphics adapter that was previously opened by the D3DKMTOpenAdapterFromHdc function.
 old-location: display\d3dkmtcloseadapter.htm
-ms.date: 11/21/2018
+ms.date: 02/23/2022
 keywords: ["D3DKMTCloseAdapter function"]
 ms.keywords: D3DKMTCloseAdapter, D3DKMTCloseAdapter callback function [Display Devices], OpenGL_Functions_531edcbd-0ec0-4ae7-8a1a-31ed47084bba.xml, PFND3DKMT_CLOSEADAPTER, PFND3DKMT_CLOSEADAPTER callback, d3dkmthk/D3DKMTCloseAdapter, display.d3dkmtcloseadapter
 req.header: d3dkmthk.h
@@ -42,34 +42,29 @@ api_name:
 
 # D3DKMTCloseAdapter function
 
-
 ## -description
 
-The <b>D3DKMTCloseAdapter</b> function closes an adapter that was previously opened by various functions.
+The **D3DKMTCloseAdapter** function closes an adapter that was previously opened by various functions.
 
 ## -parameters
 
-### -param D3DKMT_CLOSEADAPTER
+### -param unnamedParam1 [in]
 
-*\_In\_* *[D3DKMT_CLOSEADAPTER](ns-d3dkmthk-_d3dkmt_closeadapter.md)* * *pCloseAdapter*
-
-Specifies the adapter to close.
+Pointer to a [D3DKMT_CLOSEADAPTER](ns-d3dkmthk-_d3dkmt_closeadapter.md) structure that specifies the adapter to close.
 
 ## -returns
 
-<b>D3DKMTCloseAdapter</b> returns one of the following values:
+**D3DKMTCloseAdapter** returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|The adapter was closed successfully.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect or the Windows Vista display driver model was not used.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The adapter was closed successfully. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect or the Windows Vista display driver model was not used. |
 
-
-This function might also return other NTSTATUS values.
+This function might also return other **NTSTATUS** values.
 
 ## -see-also
 
 - [D3DKMT_CLOSEADAPTER](ns-d3dkmthk-_d3dkmt_closeadapter.md)
 - [PFND3DKMT_CLOSEADAPTER](nc-d3dkmthk-pfnd3dkmt_closeadapter.md)
 - [D3DKMTEnumAdapters2](nf-d3dkmthk-d3dkmtenumadapters2.md)
-
