@@ -2,9 +2,9 @@
 UID: NS:acxpin._ACX_JACK_CONFIG
 tech.root: audio
 title: ACX_JACK_CONFIG
-ms.date: 10/05/2021
+ms.date: 02/24/2022
 targetos: Windows
-description: 
+description: The ACX_JACK_CONFIG structure is used to configure an audio jack.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,19 +44,36 @@ dev_langs:
 
 ## -description
 
+The **ACX_JACK_CONFIG** structure is used to configure an audio jack.
+
 ## -struct-fields
 
 ### -field Size
 
+The size of all of the data in the **ACX_JACK_CONFIG** structure in bytes.
+
 ### -field Id
+
+An identifier associated with the jack.
 
 ### -field Flags
 
+A combination of values from the [ACX_JACK_CONFIG_FLAGS](ne-acxpin-acx_jack_config_flags.md) enum, OR'd together to describe the jack.
+
 ### -field Callbacks
 
+A pointer to an [ACX_JACK_CALLBACKS](ns-acxpin-acx_jack_callbacks.md) structure that specifies the callback functions for the jack.
+
 ### -field Description
+
+An [ACX_JACK_DESCRIPTION](ns-acxpin-acx_jack_description.md) structure that describes the jack, including the connection type, location of the jack, and so on.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_JACK_CONFIG_FLAGS](ne-acxpin-acx_jack_config_flags.md)
+- [ACX_JACK_CALLBACKS](ns-acxpin-acx_jack_callbacks.md)
+- [ACX_JACK_DESCRIPTION](ns-acxpin-acx_jack_description.md)
+
+TBD - Please review this topic

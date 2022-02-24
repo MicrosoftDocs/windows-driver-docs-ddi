@@ -2,9 +2,9 @@
 UID: NS:acxpin._ACX_JACK_CALLBACKS
 tech.root: audio
 title: ACX_JACK_CALLBACKS
-ms.date: 10/05/2021
+ms.date: 02/24/2022
 targetos: Windows
-description: 
+description: The ACX_JACK_CALLBACKS structure specifies audio jack event callback functions.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,13 +44,20 @@ dev_langs:
 
 ## -description
 
+The **ACX_JACK_CALLBACKS** structure specifies audio jack event callback functions.
+
 ## -struct-fields
 
 ### -field Size
 
+The size of all of the data in the **ACX_JACK_CALLBACKS** structure in bytes.
+
 ### -field EvtAcxJackRetrievePresenceState
+
+A pointer to the callback function that determines if the jack is present on the system.
 
 ## -remarks
 
 ## -see-also
 
+TBD - Please review this topic
