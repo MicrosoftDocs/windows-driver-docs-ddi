@@ -2,9 +2,9 @@
 UID: NS:acxpin._ACX_MICROPHONE_COORDINATES
 tech.root: audio
 title: ACX_MICROPHONE_COORDINATES
-ms.date: 10/05/2021
+ms.date: 02/24/2022
 targetos: Windows
-description: 
+description: The ACX_MICROPHONE_COORDINATES structure specifies the 3D location of the microphone in X, Y, and Z coordinates.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,21 +44,38 @@ dev_langs:
 
 ## -description
 
+The **ACX_MICROPHONE_COORDINATES** structure specifies the 3D location of the microphone in X, Y, and Z coordinates.
+
 ## -struct-fields
 
 ### -field Type
 
+A value from the [ACX_MICROPHONE_TYPE](ne-acxpin-acx_microphone_type.md) enum that identifies the pickup pattern of the microphone.
+
 ### -field XCoord
+
+The X coordinate of the microphone.
 
 ### -field YCoord
 
+The Y coordinate of the microphone.
+
 ### -field ZCoord
+
+The Z coordinate of the microphone.
 
 ### -field VerticalAngle
 
+The MRA vertical angle of the microphone
+
 ### -field HorizontalAngle
+
+The MRA horizontal angle of the microphone.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_MICROPHONE_TYPE](ne-acxpin-acx_microphone_type.md)
+
+TBD - Please review this topic
