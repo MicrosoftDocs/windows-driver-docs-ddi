@@ -54,7 +54,7 @@ The target device object attached to a volume.
 
 ### -param SupportedFeatures [out]
 
-A pointer to a caller-supplied **ULONG** value. On return, this value contains the supported feature flags for the attached volume.
+A pointer to a caller-supplied **ULONG** value. On return, this value contains the supported feature flags for the attached volume. See Remarks.
 
 The supported features are a bitwise OR combination of the following flags.
 
@@ -76,4 +76,4 @@ The supported features are a bitwise OR combination of the following flags.
 
 ## -remarks
 
-Filter Manager looks at the supported features, specified by a minifilter's **SupportedFeatures** Registry value, for every minifilter attached to the volume. Every attached minifilter must support a specific feature in order for that feature bit to be set. The **SupportedFeatures** value does not apply to file systems.
+Filter Manager looks at the supported features, specified by a minifilter's **SupportedFeatures** Registry value, for every minifilter attached to the volume. Every attached minifilter must support a specific feature in order for that feature bit to be set. The **SupportedFeatures** value does not apply to file systems. Supported features ("SprtFtrs") can be queried by running ```fltmc instances``` in an elevated command prompt window.
