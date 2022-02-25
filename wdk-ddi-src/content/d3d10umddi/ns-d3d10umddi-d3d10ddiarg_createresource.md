@@ -3,7 +3,7 @@ UID: NS:d3d10umddi.D3D10DDIARG_CREATERESOURCE
 title: D3D10DDIARG_CREATERESOURCE (d3d10umddi.h)
 description: The D3D10DDIARG_CREATERESOURCE structure describes the parameters that the user-mode display driver uses to create a resource.
 old-location: display\d3d10ddiarg_createresource.htm
-ms.date: 05/10/2018
+ms.date: 02/18/2022
 keywords: ["D3D10DDIARG_CREATERESOURCE structure"]
 ms.keywords: D3D10DDIARG_CREATERESOURCE, D3D10DDIARG_CREATERESOURCE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3f91ee50-2bdd-4206-afe6-d8b79d3b7d80.xml, d3d10umddi/D3D10DDIARG_CREATERESOURCE, display.d3d10ddiarg_createresource
 req.header: d3d10umddi.h
@@ -82,7 +82,7 @@ A value of type [**DXGI_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dx
 
 ### -field SampleDesc [in]
 
-A value of type [**DXGI_SAMPLE_DESC**](/win32/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc) that describes the sample count and quality of the resource.
+A value of type [**DXGI_SAMPLE_DESC**](/windows/win32/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc) that describes the sample count and quality of the resource.
 
 ### -field MipLevels [in]
 
@@ -126,4 +126,4 @@ If **pPrimaryDesc** is set to NULL, the runtime will use the created resource in
 
 [**DXGI_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)
 
-[**DXGI_SAMPLE_DESC**](/win32/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc)
+[**DXGI_SAMPLE_DESC**](/windows/win32/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc)
