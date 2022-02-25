@@ -80,6 +80,8 @@ This example shows the use of AcxObjectBagAddUI1.
     WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
     attributes.ParentObject = Circuit;
     RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
+
+    // Enable deletion of the object bag when the function completes and goes out of scope
     auto objBag_scope = scope_exit([&objBag]() {
         if (objBag != NULL)
         {
