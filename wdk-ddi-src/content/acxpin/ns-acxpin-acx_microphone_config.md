@@ -2,9 +2,9 @@
 UID: NS:acxpin._ACX_MICROPHONE_CONFIG
 tech.root: audio
 title: ACX_MICROPHONE_CONFIG
-ms.date: 02/24/2022
+ms.date: 02/25/2022
 targetos: Windows
-description: 
+description: The ACX_MICROPHONE_CONFIG structure is used to configure a microphone.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
