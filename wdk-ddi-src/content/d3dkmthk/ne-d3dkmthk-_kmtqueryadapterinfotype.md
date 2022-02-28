@@ -2,7 +2,7 @@
 UID: NE:d3dkmthk._KMTQUERYADAPTERINFOTYPE
 title: _KMTQUERYADAPTERINFOTYPE (d3dkmthk.h)
 description: Each KMTQUERYADAPTERINFOTYPE value correlates to a specific piece of adapter information being retrieved by D3DKMQueryAdapterInfo.
-ms.date: 05/13/2021
+ms.date: 02/23/2022
 keywords: ["KMTQUERYADAPTERINFOTYPE enumeration"]
 ms.keywords: _KMTQUERYADAPTERINFOTYPE, KMTQUERYADAPTERINFOTYPE,
 req.header: d3dkmthk.h
@@ -271,6 +271,10 @@ Support for this type started with Windows 10 version 1803.
 ### -field KMTQAITYPE_CROSSADAPTERRESOURCE_SUPPORT
 
 **pPrivateDriverData** points to a [**D3DKMT_CROSSADAPTERRESOURCE_SUPPORT**](ns-d3dkmthk-d3dkmt_crossadapterresource_support.md) structure. Supported starting with Windows Server 2022.
+
+### -field KMTQAITYPE_WDDM_3_0_CAPS
+
+**pPrivateDriverData** points to a [**D3DKMT_WDDM_3_0_CAPS**](../d3dkmdt/ns-d3dkmdt-d3dkmt_wddm_3_0_caps.md) structure with information about supported WDDM 3.0 caps. Supported starting with Windows 11, version 21H2.
 
 ## -remarks
 
