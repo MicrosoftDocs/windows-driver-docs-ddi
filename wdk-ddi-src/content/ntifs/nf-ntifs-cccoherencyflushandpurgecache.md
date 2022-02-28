@@ -4,7 +4,7 @@ title: CcCoherencyFlushAndPurgeCache function (ntifs.h)
 description: The CcCoherencyFlushAndPurgeCache routine flushes and/or purges the cache to ensure cache coherency.
 old-location: ifsk\cccoherencyflushandpurgecache.htm
 tech.root: ifsk
-ms.date: 08/30/2021
+ms.date: 02/25/2022
 keywords: ["CcCoherencyFlushAndPurgeCache function"]
 ms.keywords: CcCoherencyFlushAndPurgeCache, CcCoherencyFlushAndPurgeCache routine [Installable File System Drivers], ccref_79641311-568b-472c-9950-2e46472affcf.xml, ifsk.cccoherencyflushandpurgecache, ntifs/CcCoherencyFlushAndPurgeCache
 req.header: ntifs.h
@@ -84,7 +84,7 @@ You can flush, or flush and purge, any byte range within a file by using the **F
 
 A call to **CcCoherencyFlushAndPurgeCache** is a synchronous (blocking) operation, not an asynchronous (non-blocking) operation.
 
-An **IoStatus->Status** value of STATUS_CACHE_PAGE_LOCKED indicates that page invalidation failed. Be aware that page invalidation can fail even if you pass CC_FLUSH_AND_PURGE_NO_PURGE in the **Flags** parameter.
+An **IoStatus->Status** value of STATUS_CACHE_PAGE_LOCKED indicates that page invalidation failed. Be aware that page invalidation can fail even if you pass CC_FLUSH_AND_PURGE_NO_PURGE in the **Flags** parameter.  Note that STATUS_CACHE_PAGE_LOCKED is a *success* status (that is, testing it with the **NT_SUCCESS** macro would return TRUE).
 
 ## -see-also
 
