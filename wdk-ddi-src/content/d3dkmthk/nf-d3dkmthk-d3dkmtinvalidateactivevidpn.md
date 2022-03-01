@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTInvalidateActiveVidPn
 title: D3DKMTInvalidateActiveVidPn function (d3dkmthk.h)
 description: The D3DKMTInvalidateActiveVidPn function invalidates the active video present network (VidPN) currently in use. Note   This function is obsolete in Windows 7 and later versions of the Windows operating systems.
 old-location: display\d3dkmtinvalidateactivevidpn.htm
-ms.date: 02/25/2022
+ms.date: 02/28/2022
 keywords: ["D3DKMTInvalidateActiveVidPn function"]
 ms.keywords: D3DKMTInvalidateActiveVidPn, D3DKMTInvalidateActiveVidPn function [Display Devices], OpenGL_Functions_3c74c218-cf17-4a86-af8e-da565b3cffd4.xml, d3dkmthk/D3DKMTInvalidateActiveVidPn, display.d3dkmtinvalidateactivevidpn
 req.header: d3dkmthk.h
@@ -62,7 +62,7 @@ A pointer to a [D3DKMT_INVALIDATEACTIVEVIDPN](ns-d3dkmthk-_d3dkmt_invalidateacti
 
 **D3DKMTInvalidateActiveVidPn** returns one of the following values:
 
-| Return code |  |
+| Return code | Description |
 |--|--|
 | STATUS_SUCCESS | The VidPN currently in use was successfully invalidated. |
 | STATUS_GRAPHICS_INVALID_DISPLAY_ADAPTER | No graphics adapter was specified in the hAdapter member of [D3DKMT_INVALIDATEACTIVEVIDPN](ns-d3dkmthk-_d3dkmt_invalidateactivevidpn.md)  to invalidate the VidPN for. |
