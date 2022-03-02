@@ -48,7 +48,7 @@ api_name:
 A callback routine implemented by a driver to notify the caller when a process is created or exits.
 
 > [!WARNING]
-> The actions that  you can perform in this routine are restricted for safe calls. See <a href="/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager#best">Best Practices
+> The actions that you can perform in this routine are restricted for safe calls. See <a href="/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager#best">Best Practices</a>.
 
 ## -parameters
 

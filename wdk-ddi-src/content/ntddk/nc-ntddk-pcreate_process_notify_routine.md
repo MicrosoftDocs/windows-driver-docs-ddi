@@ -48,7 +48,7 @@ api_name:
 Process-creation callback implemented by a driver  to track the system-wide creation and deletion of processes against the driver's internal state.
 
 > [!WARNING]
-> The actions that  you can perform in this routine are restricted for safe calls. See <a href="/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager#best">Best Practices
+> The actions that you can perform in this routine are restricted for safe calls. See <a href="/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager#best">Best Practices</a>.
 
 ## -parameters
 
