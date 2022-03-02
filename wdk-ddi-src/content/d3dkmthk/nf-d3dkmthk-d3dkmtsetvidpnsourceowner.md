@@ -71,7 +71,7 @@ This function might also return other **NTSTATUS** values.
 
 ## -remarks
 
-To set ownership of video present sources, the OpenGL installable client driver (ICD) sets values in the array that the *pType* member of the [D3DKMT_SETVIDPNSOURCEOWNER](ns-d3dkmthk-_d3dkmt_setvidpnsourceowner.md) structure specifies, identifiers of the video present sources in the array that the **pVidPnSourceId** member of **D3DKMT_SETVIDPNSOURCEOWNER** specifies, and the number of video present sources in the *VidPnSourceCount* member of **D3DKMT_SETVIDPNSOURCEOWNER**.
+To set ownership of video present sources, the OpenGL installable client driver (ICD) sets values in the array that the *pType* member of the [D3DKMT_SETVIDPNSOURCEOWNER](ns-d3dkmthk-_d3dkmt_setvidpnsourceowner.md) structure specifies, identifiers of the video present sources in the array that the *pVidPnSourceId* member of **D3DKMT_SETVIDPNSOURCEOWNER** specifies, and the number of video present sources in the *VidPnSourceCount* member of **D3DKMT_SETVIDPNSOURCEOWNER**.
 
 To release ownership of any video present sources, the ICD sets *pType* and *pVidPnSourceId* to NULL and *VidPnSourceCount* to zero in **D3DKMT_SETVIDPNSOURCEOWNER**.
 
