@@ -1,51 +1,42 @@
 ---
 UID: NE:wdm.__unnamed_enum_2
-title: POWER_INFORMATION_LEVEL (wdm.h)
-description: Learn how this method indicates power level information.
-old-location: kernel\power_information_level.htm
 tech.root: kernel
-ms.date: 12/15/2021
-keywords: ["POWER_INFORMATION_LEVEL enumeration"]
-ms.keywords: AdministratorPowerPolicy, BatteryDeviceState, CsDeviceNotification, DisplayBurst, EnergyTrackerCreate, EnergyTrackerQuery, ExitLatencySamplingPercentage, FirmwareTableInformationRegistered, GetPowerRequestList, GetPowerSettingValue, GroupPark, IdleResiliency, LastResumePerformance, LastSleepTime, LastWakeTime, LogicalProcessorIdling, MonitorCapabilities, MonitorInvocation, NotifyUserModeLegacyPowerEvent, NotifyUserPowerSetting, POWER_INFORMATION_LEVEL, POWER_INFORMATION_LEVEL enumeration [Kernel-Mode Driver Architecture], PdcInvocation, PhysicalPowerButtonPress, PlatformIdleStates, PlatformIdleVeto, PlatformInformation, PlatformRole, PlmPowerRequestCreate, PowerInformationInternal, PowerInformationLevelMaximum, PowerInformationLevelUnused0, PowerRequestAction, PowerRequestActionInternal, PowerRequestCreate, PowerSettingNotificationName, PowerShutdownNotification, ProcessorCap, ProcessorIdleDomains, ProcessorIdleStates, ProcessorIdleStatesHv, ProcessorIdleVeto, ProcessorInformation, ProcessorInformationEx, ProcessorLoad, ProcessorPerfCapHv, ProcessorPerfStates, ProcessorPerfStatesHv, ProcessorPowerPolicyAc, ProcessorPowerPolicyCurrent, ProcessorPowerPolicyDc, ProcessorSetIdle, ProcessorStateHandler, ProcessorStateHandler2, QueryPotentialDripsConstraint, RegisterSpmPowerSettings, ScreenOff, SessionConnectNotification, SessionDisplayState, SessionLockState, SessionPowerCleanup, SessionPowerInit, SessionRITState, SetPowerSettingValue, SetShutdownSelectedTime, SuspendResumeInvocation, SystemBatteryState, SystemBatteryStatePrecise, SystemExecutionState, SystemHiberFileInformation, SystemHiberFileSize, SystemHiberFileType, SystemHiberbootState, SystemMonitorHiberBootPowerOff, SystemPowerCapabilities, SystemPowerInformation, SystemPowerLoggingEntry, SystemPowerPolicyAc, SystemPowerPolicyCurrent, SystemPowerPolicyDc, SystemPowerStateHandler, SystemPowerStateLogging, SystemPowerStateNotifyHandler, SystemReserveHiberFile, SystemVideoState, SystemWakeSource, ThermalEvent, ThermalStandby, TraceApplicationPowerMessage, TraceApplicationPowerMessageEnd, TraceServicePowerMessage, UpdateBlackBoxRecorder, UserPresence, VerifyProcessorPowerPolicyAc, VerifyProcessorPowerPolicyDc, VerifySystemPolicyAc, VerifySystemPolicyDc, WakeTimerList, kernel.power_information_level, wdm/AdministratorPowerPolicy, wdm/BatteryDeviceState, wdm/CsDeviceNotification, wdm/DisplayBurst, wdm/EnergyTrackerCreate, wdm/EnergyTrackerQuery, wdm/ExitLatencySamplingPercentage, wdm/FirmwareTableInformationRegistered, wdm/GetPowerRequestList, wdm/GetPowerSettingValue, wdm/GroupPark, wdm/IdleResiliency, wdm/LastResumePerformance, wdm/LastSleepTime, wdm/LastWakeTime, wdm/LogicalProcessorIdling, wdm/MonitorCapabilities, wdm/MonitorInvocation, wdm/NotifyUserModeLegacyPowerEvent, wdm/NotifyUserPowerSetting, wdm/POWER_INFORMATION_LEVEL, wdm/PdcInvocation, wdm/PhysicalPowerButtonPress, wdm/PlatformIdleStates, wdm/PlatformIdleVeto, wdm/PlatformInformation, wdm/PlatformRole, wdm/PlmPowerRequestCreate, wdm/PowerInformationInternal, wdm/PowerInformationLevelMaximum, wdm/PowerInformationLevelUnused0, wdm/PowerRequestAction, wdm/PowerRequestActionInternal, wdm/PowerRequestCreate, wdm/PowerSettingNotificationName, wdm/PowerShutdownNotification, wdm/ProcessorCap, wdm/ProcessorIdleDomains, wdm/ProcessorIdleStates, wdm/ProcessorIdleStatesHv, wdm/ProcessorIdleVeto, wdm/ProcessorInformation, wdm/ProcessorInformationEx, wdm/ProcessorLoad, wdm/ProcessorPerfCapHv, wdm/ProcessorPerfStates, wdm/ProcessorPerfStatesHv, wdm/ProcessorPowerPolicyAc, wdm/ProcessorPowerPolicyCurrent, wdm/ProcessorPowerPolicyDc, wdm/ProcessorSetIdle, wdm/ProcessorStateHandler, wdm/ProcessorStateHandler2, wdm/QueryPotentialDripsConstraint, wdm/RegisterSpmPowerSettings, wdm/ScreenOff, wdm/SessionConnectNotification, wdm/SessionDisplayState, wdm/SessionLockState, wdm/SessionPowerCleanup, wdm/SessionPowerInit, wdm/SessionRITState, wdm/SetPowerSettingValue, wdm/SetShutdownSelectedTime, wdm/SuspendResumeInvocation, wdm/SystemBatteryState, wdm/SystemBatteryStatePrecise, wdm/SystemExecutionState, wdm/SystemHiberFileInformation, wdm/SystemHiberFileSize, wdm/SystemHiberFileType, wdm/SystemHiberbootState, wdm/SystemMonitorHiberBootPowerOff, wdm/SystemPowerCapabilities, wdm/SystemPowerInformation, wdm/SystemPowerLoggingEntry, wdm/SystemPowerPolicyAc, wdm/SystemPowerPolicyCurrent, wdm/SystemPowerPolicyDc, wdm/SystemPowerStateHandler, wdm/SystemPowerStateLogging, wdm/SystemPowerStateNotifyHandler, wdm/SystemReserveHiberFile, wdm/SystemVideoState, wdm/SystemWakeSource, wdm/ThermalEvent, wdm/ThermalStandby, wdm/TraceApplicationPowerMessage, wdm/TraceApplicationPowerMessageEnd, wdm/TraceServicePowerMessage, wdm/UpdateBlackBoxRecorder, wdm/UserPresence, wdm/VerifyProcessorPowerPolicyAc, wdm/VerifyProcessorPowerPolicyDc, wdm/VerifySystemPolicyAc, wdm/VerifySystemPolicyDc, wdm/WakeTimerList
+title: POWER_INFORMATION_LEVEL (wdm.h)
+ms.date: 03/02/2022
+targetos: Windows
+description: POWER_INFORMATION_LEVEL enumerates power level information indicators.
+prerelease: false
+req.construct-type: enumeration
+req.ddi-compliance: 
 req.header: wdm.h
 req.include-header: Ntpoapi.h
-req.target-type: Windows
+req.kmdf-ver: 
+req.max-support: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
-targetos: Windows
+req.target-type: Windows
 req.typenames: POWER_INFORMATION_LEVEL
-f1_keywords:
- - POWER_INFORMATION_LEVEL
- - wdm/POWER_INFORMATION_LEVEL
+req.umdf-ver: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
  - HeaderDef
 api_location:
  - wdm.h
 api_name:
  - POWER_INFORMATION_LEVEL
+f1_keywords:
+ - POWER_INFORMATION_LEVEL
+ - wdm/POWER_INFORMATION_LEVEL
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - __unnamed_enum_2
 ---
-
-# POWER_INFORMATION_LEVEL enumeration (wdm.h)
-
 
 ## -description
 
-Indicates power level information.
+**POWER_INFORMATION_LEVEL** enumerates power level information indicators.
 
 ## -enum-fields
 
@@ -431,9 +422,20 @@ Indicates that the black box recorder is updated.
 
 ### -field SessionAllowExternalDmaDevices
 
+Indicates the session allows external DMA devices.
+
 ### -field SendSuspendResumeNotification
+
+Indicates the send suspend resume notification.
+
+### -field BlackBoxRecorderDirectAccessBuffer
+
+Indicates the black box recorder has direct access buffer.
 
 ### -field PowerInformationLevelMaximum
 
 Indicates the maximum power level.
 
+## -remarks
+
+## -see-also
