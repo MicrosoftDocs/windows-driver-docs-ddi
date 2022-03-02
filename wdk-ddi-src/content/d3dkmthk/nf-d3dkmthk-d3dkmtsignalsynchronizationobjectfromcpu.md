@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTSignalSynchronizationObjectFromCpu
 title: D3DKMTSignalSynchronizationObjectFromCpu function (d3dkmthk.h)
 description: D3DKMTSignalSynchronizationObjectFromCpu enables a driver to signal a monitored fence.
 old-location: display\d3dkmtsignalsynchronizationobjectfromcpu.htm
-ms.date: 05/10/2018
+ms.date: 03/02/2022
 keywords: ["D3DKMTSignalSynchronizationObjectFromCpu function"]
 ms.keywords: D3DKMTSignalSynchronizationObjectFromCpu, D3DKMTSignalSynchronizationObjectFromCpu function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu, display.d3dkmtsignalsynchronizationobjectfromcpu
 req.header: d3dkmthk.h
@@ -44,34 +44,33 @@ api_name:
 
 # D3DKMTSignalSynchronizationObjectFromCpu function
 
-
 ## -description
 
-<b>D3DKMTSignalSynchronizationObjectFromCpu</b> enables a driver to signal a monitored fence.
+**D3DKMTSignalSynchronizationObjectFromCpu** enables a driver to signal a monitored fence.
 
 ## -parameters
 
-### -param D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
+### -param unnamedParam1 [in]
 
-*pData* [in]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_signalsynchronizationobjectfromcpu">D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</a> structure that provides the details of the requested operation..
+A pointer to a [D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU](ns-d3dkmthk-_d3dkmt_signalsynchronizationobjectfromcpu.md) structure that provides the details of the requested operation..
 
 ## -returns
 
-<b>D3DKMTSignalSynchronizationObjectFromCpu</b> returns one of the following values:
+**D3DKMTSignalSynchronizationObjectFromCpu** returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|S_OK|The operation was successful.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The operation was successful. |
 
-This function might also return other values.
+This function might also return other **NTSTATUS** values.
 
 ## -remarks
 
-When a monitored fence object is signaled by the CPU, the graphics kernel will update the fence memory location with the signaled value, so it becomes immediately visible to any user mode reader as well as immediately un-wait any satisfied waiters.
-However, the caller cannot assume that the signal operation will be completed upon the return from this function. Instead, the caller should use appropriate Wait functions to check for signal completion.
+When a monitored fence object is signaled by the CPU, the graphics kernel will update the fence memory location with the signaled value, so it becomes immediately visible to any user mode reader as well as immediately un-wait any satisfied waiters. However, the caller cannot assume that the signal operation will be completed upon the return from this function. Instead, the caller should use appropriate wait functions to check for signal completion.
 
+> ![NOTE]
+> A signal from a graphics processing unit (GPU) call is not provided. Instead, a driver can signal a new fence value by inserting a GPU write command for **FenceValueGPUVirtualAddress** into a command buffer.
 
-> ![NOTE] 
-> A signal from a graphics processing unit (GPU) call is not provided. Instead, a driver can signal a new fence value by inserting a GPU write command for <b>FenceValueGPUVirtualAddress</b> into a command buffer.
+## -see-also
+
+[D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU](ns-d3dkmthk-_d3dkmt_signalsynchronizationobjectfromcpu.md)
