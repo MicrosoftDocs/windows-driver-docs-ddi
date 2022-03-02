@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetValidValues(INT,LONG,LONG,LONG)~r1
-title: CWiauPropertyList::SetValidValues (wiautil.h)
+title: CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG) (wiautil.h)
 description: Learn how the CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG) method sets the type values for a property whose values are defined by a flag.
 old-location: image\cwiaupropertylist_setvalidvalues_bstr__list_.htm
 tech.root: image
