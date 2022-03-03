@@ -2,7 +2,7 @@
 UID: NS:acxrequest._ACX_PROPERTY_ITEM
 tech.root: audio
 title: ACX_PROPERTY_ITEM
-ms.date: 02/07/2022
+ms.date: 03/03/2022
 targetos: Windows
 description: The ACX_PROPERTY_ITEM structure describes the ACX request property item.
 prerelease: true
