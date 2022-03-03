@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_JACK_SINK_INFO_CONNECTION_TYPE
 ms.date: 02/17/2022
 targetos: Windows
-description: The ACX_JACK_SINK_INFO_CONNECTION_TYPE enumeration is used by the ACX_JACK_SINK_INFORMATION structure tp specify the type of a connection.
+description: The ACX_JACK_SINK_INFO_CONNECTION_TYPE enumeration is used by the ACX_JACK_SINK_INFORMATION structure to specify the type of a connection.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -56,4 +56,4 @@ Indicates that the port type is a DisplayPort jack.
 
 ## -see-also
 
-TBD - Please review this topic
+READY2GO

@@ -96,4 +96,4 @@ Indicates that the connection type is a combination jack.
 
 ## -see-also
 
-TBD - Please review this topic
+READY2GO
