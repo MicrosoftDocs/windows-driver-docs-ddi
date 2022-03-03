@@ -52,7 +52,7 @@ The pin to which the mode data format list is assigned.
 
 ### -param SignalProcessingMode [in]
 
-A GUID identifying the signal processing mode to assign to the specified *AcxPin*.
+A GUID identifying the signal processing mode to which the specified data format list belong.
 
 ### -param DataFormatList [in]
 
@@ -66,4 +66,4 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -see-also
 
-TBD - Please review this topic
+READY2GO
