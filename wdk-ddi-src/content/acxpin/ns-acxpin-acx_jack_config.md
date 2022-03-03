@@ -58,7 +58,7 @@ An identifier associated with the jack.
 
 ### -field Flags
 
-A combination of values from the [ACX_JACK_CONFIG_FLAGS](ne-acxpin-acx_jack_config_flags.md) enum, OR'd together to describe the jack.
+A combination of values from the [ACX_JACK_CONFIG_FLAGS](ne-acxpin-acx_jack_config_flags.md) enum that describe the jack.
 
 ### -field Callbacks
 

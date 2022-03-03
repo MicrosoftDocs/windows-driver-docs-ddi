@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTReclaimAllocations
 title: D3DKMTReclaimAllocations function (d3dkmthk.h)
 description: The D3DKMTReclaimAllocations function reclaims the video memory allocations specified in a D3DKMT_RECLAIMALLOCATIONS structure.
 old-location: display\d3dkmtreclaimallocations.htm
-ms.date: 05/10/2018
+ms.date: 02/28/2022
 keywords: ["D3DKMTReclaimAllocations function"]
 ms.keywords: D3DKMTReclaimAllocations, D3DKMTReclaimAllocations callback function [Display Devices], PFND3DKMT_RECLAIMALLOCATIONS, PFND3DKMT_RECLAIMALLOCATIONS callback, d3dkmthk/D3DKMTReclaimAllocations, display.d3dkmtreclaimallocations
 req.header: d3dkmthk.h
@@ -42,31 +42,28 @@ api_name:
 
 # D3DKMTReclaimAllocations function
 
-
 ## -description
 
-Reclaims video memory allocations.
+The **D3DKMTReclaimAllocations** function reclaims the video memory allocations specified in a [D3DKMT_RECLAIMALLOCATIONS](ns-d3dkmthk-_d3dkmt_reclaimallocations.md) structure.
 
 ## -parameters
 
-### -param D3DKMT_RECLAIMALLOCATIONS
+### -param unnamedParam1 [in, out]
 
-*pData* [in, out]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_reclaimallocations">D3DKMT_RECLAIMALLOCATIONS</a> structure that defines memory allocations to reclaim.
+A pointer to a [D3DKMT_RECLAIMALLOCATIONS](ns-d3dkmthk-_d3dkmt_reclaimallocations.md) structure that defines memory allocations to reclaim.
 
 ## -returns
 
 Returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|The allocations were successfully reclaimed.|
-|STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display device was reset.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The allocations were successfully reclaimed. |
+| STATUS_DEVICE_REMOVED | The graphics adapter was stopped or the display device was reset. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtofferallocations">D3DKMTOfferAllocations</a>
+[D3DKMTOfferAllocations](nf-d3dkmthk-d3dkmtofferallocations.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_reclaimallocations">D3DKMT_RECLAIMALLOCATIONS</a>
+[D3DKMT_RECLAIMALLOCATIONS](ns-d3dkmthk-_d3dkmt_reclaimallocations.md)

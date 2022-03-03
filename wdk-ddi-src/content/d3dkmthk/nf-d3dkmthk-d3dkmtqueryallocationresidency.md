@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTQueryAllocationResidency
 title: D3DKMTQueryAllocationResidency function (d3dkmthk.h)
 description: The D3DKMTQueryAllocationResidency function retrieves the residency status of a resource or list of allocations.
 old-location: display\d3dkmtqueryallocationresidency.htm
-ms.date: 05/10/2018
+ms.date: 02/28/2022
 keywords: ["D3DKMTQueryAllocationResidency function"]
 ms.keywords: D3DKMTQueryAllocationResidency, D3DKMTQueryAllocationResidency function [Display Devices], OpenGL_Functions_4efd6e87-91b6-4cf2-8691-0463a9ab218a.xml, d3dkmthk/D3DKMTQueryAllocationResidency, display.d3dkmtqueryallocationresidency
 req.header: d3dkmthk.h
@@ -45,31 +45,28 @@ api_name:
 
 # D3DKMTQueryAllocationResidency function
 
-
 ## -description
 
-The <b>D3DKMTQueryAllocationResidency</b> function retrieves the residency status of a resource or list of allocations.
+The **D3DKMTQueryAllocationResidency** function retrieves the residency status of a resource or list of allocations.
 
 ## -parameters
 
-### -param D3DKMT_QUERYALLOCATIONRESIDENCY
+### -param unnamedParam1 [in]
 
-*pData* [in]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_queryallocationresidency">D3DKMT_QUERYALLOCATIONRESIDENCY</a> structure that contains information for retrieving the residency status of a resource or list of allocations.
+A pointer to a [D3DKMT_QUERYALLOCATIONRESIDENCY](ns-d3dkmthk-_d3dkmt_queryallocationresidency.md) structure that contains information for retrieving the residency status of a resource or list of allocations.
 
 ## -returns
 
-<b>D3DKMTQueryAllocationResidency</b> returns one of the following values:
+**D3DKMTQueryAllocationResidency** returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|Residency status for allocations was successfully retrieved.|
-|STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display device was reset.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | Residency status for allocations was successfully retrieved. |
+| STATUS_DEVICE_REMOVED | The graphics adapter was stopped or the display device was reset. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
-This function might also return other NTSTATUS values.
+This function might also return other **NTSTATUS** values.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_queryallocationresidency">D3DKMT_QUERYALLOCATIONRESIDENCY</a>
+[D3DKMT_QUERYALLOCATIONRESIDENCY](ns-d3dkmthk-_d3dkmt_queryallocationresidency.md)

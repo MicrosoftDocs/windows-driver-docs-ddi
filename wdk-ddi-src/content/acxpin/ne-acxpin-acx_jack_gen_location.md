@@ -70,4 +70,4 @@ For internal validation, do not use.
 
 [ACX_JACK_GEO_LOCATION](ne-acxpin-acx_jack_geo_location.md)
 
-TBD - Please review this topic
+READY2GO

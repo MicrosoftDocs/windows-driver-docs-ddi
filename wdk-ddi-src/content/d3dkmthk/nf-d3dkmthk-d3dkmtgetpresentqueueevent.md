@@ -2,7 +2,7 @@
 UID: NF:d3dkmthk.D3DKMTGetPresentQueueEvent
 title: D3DKMTGetPresentQueueEvent function (d3dkmthk.h)
 description: Get present queue event.
-ms.date: 10/19/2018
+ms.date: 02/25/2022
 keywords: ["D3DKMTGetPresentQueueEvent function"]
 ms.keywords: D3DKMTGetPresentQueueEvent
 req.header: d3dkmthk.h
@@ -42,26 +42,24 @@ dev_langs:
 
 # D3DKMTGetPresentQueueEvent function
 
-
 ## -description
 
 Get present queue event.
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
 A handle to the graphics adapter.
 
-### -param 
+### -param unnamedParam2 [in, out]
 
 Pointer to a handle that contains the events.
 
 ## -returns
 
-This function returns NTSTATUS.
+This function returns **NTSTATUS**.
 
 ## -remarks
 
 ## -see-also
-

@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTSignalSynchronizationObject2
 title: D3DKMTSignalSynchronizationObject2 function (d3dkmthk.h)
 description: The D3DKMTSignalSynchronizationObject2 function inserts a signal for the specified synchronization objects in the specified context stream.
 old-location: display\d3dkmtsignalsynchronizationobject2.htm
-ms.date: 05/10/2018
+ms.date: 03/02/2022
 keywords: ["D3DKMTSignalSynchronizationObject2 function"]
 ms.keywords: D3DKMTSignalSynchronizationObject2, D3DKMTSignalSynchronizationObject2 function [Display Devices], OpenGL_Functions_ffc87bcb-e2ab-48ea-8a90-c0b4cf7c8b33.xml, d3dkmthk/D3DKMTSignalSynchronizationObject2, display.d3dkmtsignalsynchronizationobject2
 req.header: d3dkmthk.h
@@ -45,31 +45,28 @@ api_name:
 
 # D3DKMTSignalSynchronizationObject2 function
 
-
 ## -description
 
-The <b>D3DKMTSignalSynchronizationObject2</b> function inserts a signal for the specified synchronization objects in the specified context stream.
+The **D3DKMTSignalSynchronizationObject2** function inserts a signal for the specified synchronization objects in the specified context stream.
 
 ## -parameters
 
-### -param D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2
+### -param unnamedParam1 [in]
 
-*pData* [in]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_signalsynchronizationobject2">D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2</a> structure that describes the synchronization objects and context stream that signaling is set up for.
+A pointer to a [D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2](ns-d3dkmthk-_d3dkmt_signalsynchronizationobject2.md) structure that describes the synchronization objects and context stream that signaling is set up for.
 
 ## -returns
 
-<b>D3DKMTSignalSynchronizationObject2</b> returns one of the following values:
+**D3DKMTSignalSynchronizationObject2** returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|The signaling was successfully set up.|
-|STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display context was reset.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The signaling was successfully set up. |
+| STATUS_DEVICE_REMOVED | The graphics adapter was stopped or the display context was reset. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
-This function might also return other NTSTATUS values.
+This function might also return other **NTSTATUS** values.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_signalsynchronizationobject2">D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2</a>
+[D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2](ns-d3dkmthk-_d3dkmt_signalsynchronizationobject2.md)

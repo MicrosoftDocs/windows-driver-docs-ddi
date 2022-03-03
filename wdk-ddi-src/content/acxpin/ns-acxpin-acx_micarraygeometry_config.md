@@ -2,9 +2,9 @@
 UID: NS:acxpin._ACX_MICARRAYGEOMETRY_CONFIG
 tech.root: audio
 title: ACX_MICARRAYGEOMETRY_CONFIG
-ms.date: 10/05/2021
+ms.date: 02/24/2022
 targetos: Windows
-description: 
+description: The ACX_MICARRAYGEOMETRY_CONFIG structure is used to configure a microphone array.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,15 +44,26 @@ dev_langs:
 
 ## -description
 
+The **ACX_MICARRAYGEOMETRY_CONFIG** structure is used to configure a microphone array.
+
 ## -struct-fields
 
 ### -field Size
 
+The size of all of the data in the **ACX_MICARRAYGEOMETRY_CONFIG** structure in bytes.
+
 ### -field Flags
 
+A combination of values from the [ACX_MICARRAYGEOMETRY_CONFIG_FLAGS](ne-acxpin-acx_micarraygeometry_config_flags.md) enum that describe the mic array.
+
 ### -field Geometry
+
+An [ACX_MIC_ARRAY_GEOMETRY](ns-acxpin-acx_mic_array_geometry.md) structure that specifies the type and the geometry of the microphone array.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_MIC_ARRAY_GEOMETRY](ns-acxpin-acx_mic_array_geometry.md)
+
+TBD - Please review this topic
