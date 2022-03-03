@@ -68,4 +68,4 @@ For internal validation, do not use.
 - [ACX_PIN_CONFIG_INIT](nf-acxpin-acx_pin_config_init.md)
 - [AcxPinGetType](nf-acxpin-acxpingettype.md)
 
-TBD - Please review this topic
+READY2GO

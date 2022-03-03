@@ -73,4 +73,4 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 - [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md)
 - [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)
 
-TBD - Please review this topic
+READY2GO
