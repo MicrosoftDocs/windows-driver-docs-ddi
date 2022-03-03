@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTSharedPrimaryUnLockNotification
 title: D3DKMTSharedPrimaryUnLockNotification function (d3dkmthk.h)
 description: The D3DKMTSharedPrimaryUnLockNotification function notifies the operating system that a shared primary surface was unlocked.
 old-location: display\d3dkmtsharedprimaryunlocknotification.htm
-ms.date: 05/10/2018
+ms.date: 03/02/2022
 keywords: ["D3DKMTSharedPrimaryUnLockNotification function"]
 ms.keywords: D3DKMTSharedPrimaryUnLockNotification, D3DKMTSharedPrimaryUnLockNotification function [Display Devices], OpenGL_Functions_311a1879-e3f7-44e2-aa1a-0c070e45bf85.xml, d3dkmthk/D3DKMTSharedPrimaryUnLockNotification, display.d3dkmtsharedprimaryunlocknotification
 req.header: d3dkmthk.h
@@ -45,38 +45,33 @@ api_name:
 
 # D3DKMTSharedPrimaryUnLockNotification function
 
-
 ## -description
 
-The <b>D3DKMTSharedPrimaryUnLockNotification</b> function notifies the operating system that a shared primary surface was unlocked.
+The **D3DKMTSharedPrimaryUnLockNotification** function notifies the operating system that a shared primary surface was unlocked.
 
 ## -parameters
 
-### -param D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION
+### -param unnamedParam1 [in]
 
-*pData* [in]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_sharedprimaryunlocknotification">D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION</a> structure that describes the shared primary surface that was unlocked.
+A pointer to a [D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION](ns-d3dkmthk-_d3dkmt_sharedprimaryunlocknotification.md) structure that describes the shared primary surface that was unlocked.
 
 ## -returns
 
-<b>D3DKMTSharedPrimaryUnLockNotification</b> returns one of the following values:
+**D3DKMTSharedPrimaryUnLockNotification** returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|Notification about unlocking a shared primary surface was successfully performed.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | Notification about unlocking a shared primary surface was successfully performed. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
-This function might also return other NTSTATUS values.
+This function might also return other **NTSTATUS** values.
 
 ## -remarks
 
-The OpenGL ICD calls the <b>D3DKMTSharedPrimaryUnLockNotification</b> function to inform the operating system that an application just unlocked the GDI shared primary surface that exists on the graphics adapter and video present source that the <b>AdapterLuid</b> and <b>VidPnSourceId</b> members of the <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_sharedprimaryunlocknotification">D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION</a> structure specify. The OpenGL ICD should call <b>D3DKMTSharedPrimaryUnLockNotification</b> after it calls the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtunlock">D3DKMTUnlock</a> function to unlock the GDI shared primary surface.
+The OpenGL ICD calls the **D3DKMTSharedPrimaryUnLockNotification** function to inform the operating system that an application just unlocked the GDI shared primary surface that exists on the graphics adapter and video present source that the *AdapterLuid* and *VidPnSourceId* members of the [D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION](ns-d3dkmthk-_d3dkmt_sharedprimaryunlocknotification.md) structure specify. The OpenGL ICD should call **D3DKMTSharedPrimaryUnLockNotification** after it calls the [D3DKMTUnlock](nf-d3dkmthk-d3dkmtunlock.md) function to unlock the GDI shared primary surface.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtunlock">D3DKMTUnlock</a>
+[D3DKMTUnlock](nf-d3dkmthk-d3dkmtunlock.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_sharedprimaryunlocknotification">D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION</a>
+[D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION](ns-d3dkmthk-_d3dkmt_sharedprimaryunlocknotification.md)

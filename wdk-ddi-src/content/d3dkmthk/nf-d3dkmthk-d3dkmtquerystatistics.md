@@ -2,7 +2,7 @@
 UID: NF:d3dkmthk.D3DKMTQueryStatistics
 tech.root: display
 title: D3DKMTQueryStatistics
-ms.date: 05/13/2021
+ms.date: 02/28/2022
 targetos: Windows
 description: "Learn more about: D3DKMTQueryStatistics"
 req.assembly: 
@@ -41,15 +41,14 @@ dev_langs:
 
 ## -description
 
-Reserved for system use. Do not use.
+Reserved for system use. Do not use in your driver.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 ## -returns
 
 ## -remarks
 
 ## -see-also
-
