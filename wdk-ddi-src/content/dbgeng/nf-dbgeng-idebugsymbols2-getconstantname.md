@@ -4,7 +4,7 @@ title: IDebugSymbols2::GetConstantName (dbgeng.h)
 description: The GetConstantName method returns the name of the specified constant. This method belongs to the IDebugSymbols2 interface.
 old-location: debugger\getconstantname.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols2::GetConstantName"]
 ms.keywords: GetConstantName, GetConstantName method [Windows Debugging], GetConstantName method [Windows Debugging],IDebugSymbols2 interface, GetConstantName method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging],GetConstantName method, IDebugSymbols2.GetConstantName, IDebugSymbols2::GetConstantName, IDebugSymbols3 interface [Windows Debugging],GetConstantName method, IDebugSymbols3::GetConstantName, IDebugSymbols_438111b4-a0f4-40cc-aadc-8b1d2c67b219.xml, dbgeng/IDebugSymbols2::GetConstantName, dbgeng/IDebugSymbols3::GetConstantName, debugger.getconstantname
 req.header: dbgeng.h
@@ -72,12 +72,12 @@ Receives the constant's name.  If <i>NameBuffer</i> is <b>NULL</b>, this informa
 ### -param NameBufferSize [in]
 
 
-Specifies the size in characters of the buffer <i>NameBuffer</i>.
+Specifies the size in characters of the buffer <i>NameBuffer</i>. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-Receives the size in characters of the constant's name.
+Receives the size in characters of the constant's name. This size includes the space for the '\0' terminating character.
 
 ## -returns
 

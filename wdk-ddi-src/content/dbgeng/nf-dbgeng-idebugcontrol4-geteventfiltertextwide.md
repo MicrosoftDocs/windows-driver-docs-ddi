@@ -4,7 +4,7 @@ title: IDebugControl4::GetEventFilterTextWide (dbgeng.h)
 description: The GetEventFilterTextWide method returns a short description of an event for a specific filter.
 old-location: debugger\geteventfiltertextwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl4::GetEventFilterTextWide"]
 ms.keywords: GetEventFilterTextWide, GetEventFilterTextWide method [Windows Debugging], GetEventFilterTextWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetEventFilterTextWide method, IDebugControl4.GetEventFilterTextWide, IDebugControl4::GetEventFilterTextWide, dbgeng/IDebugControl4::GetEventFilterTextWide, debugger.geteventfiltertextwide
 req.header: dbgeng.h
@@ -62,12 +62,12 @@ Receives the description of the specific filter.
 ### -param BufferSize [in]
 
 
-Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
+Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies. This size includes the space for the '\0' terminating character.
 
 ### -param TextSize [out, optional]
 
 
-Receives the size of the event description.  If <i>TextSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size of the event description. This size includes the space for the '\0' terminating character. If <i>TextSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

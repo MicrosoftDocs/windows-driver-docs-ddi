@@ -4,7 +4,7 @@ title: IDebugControl4::GetEventFilterCommandWide (dbgeng.h)
 description: The GetEventFilterCommandWide method returns the debugger command that the engine will execute when a specified event occurs.
 old-location: debugger\geteventfiltercommandwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl4::GetEventFilterCommandWide"]
 ms.keywords: GetEventFilterCommandWide, GetEventFilterCommandWide method [Windows Debugging], GetEventFilterCommandWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetEventFilterCommandWide method, IDebugControl4.GetEventFilterCommandWide, IDebugControl4::GetEventFilterCommandWide, dbgeng/IDebugControl4::GetEventFilterCommandWide, debugger.geteventfiltercommandwide
 req.header: dbgeng.h
@@ -62,12 +62,12 @@ Receives the debugger command that the engine will execute when the event occurs
 ### -param BufferSize [in]
 
 
-Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
+Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies. This size includes the space for the '\0' terminating character.
 
 ### -param CommandSize [out, optional]
 
 
-Receives the size in characters of the command.  If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the command. This size includes the space for the '\0' terminating character. If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

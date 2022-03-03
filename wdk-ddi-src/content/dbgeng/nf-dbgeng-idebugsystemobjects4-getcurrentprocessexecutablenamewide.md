@@ -4,7 +4,7 @@ title: IDebugSystemObjects4::GetCurrentProcessExecutableNameWide (dbgeng.h)
 description: The GetCurrentProcessExecutableNameWide method returns the name of executable file loaded in the current process.
 old-location: debugger\getcurrentprocessexecutablenamewide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSystemObjects4::GetCurrentProcessExecutableNameWide"]
 ms.keywords: GetCurrentProcessExecutableNameWide, GetCurrentProcessExecutableNameWide method [Windows Debugging], GetCurrentProcessExecutableNameWide method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentProcessExecutableNameWide method, IDebugSystemObjects4.GetCurrentProcessExecutableNameWide, IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, debugger.getcurrentprocessexecutablenamewide
 req.header: dbgeng.h
@@ -57,12 +57,12 @@ Receives the name of the executable file.  If <i>Buffer</i> is <b>NULL</b>, this
 ### -param BufferSize [in]
 
 
-Specifies the size in characters of the buffer <i>Buffer</i>.
+Specifies the size in characters of the buffer <i>Buffer</i>. This size includes the space for the '\0' terminating character. 
 
 ### -param ExeSize [out, optional]
 
 
-Receives the size in characters of the name of the executable file.  If <i>ExeSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the name of the executable file. This size includes the space for the '\0' terminating character. If <i>ExeSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

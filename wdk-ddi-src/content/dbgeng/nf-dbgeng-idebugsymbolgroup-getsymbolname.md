@@ -62,12 +62,12 @@ The symbol name.  If <i>Buffer</i> is <b>NULL</b>, this information is not retur
 ### -param BufferSize [in]
 
 
-The size of the buffer that <i>Buffer </i>points to.
+The size of the buffer that <i>Buffer </i>points to. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-The size of the symbol name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+The size of the symbol name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

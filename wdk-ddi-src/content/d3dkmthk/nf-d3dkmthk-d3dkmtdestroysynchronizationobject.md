@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTDestroySynchronizationObject
 title: D3DKMTDestroySynchronizationObject function (d3dkmthk.h)
 description: The D3DKMTDestroySynchronizationObject function destroys a kernel-mode synchronization object.
 old-location: display\d3dkmtdestroysynchronizationobject.htm
-ms.date: 05/10/2018
+ms.date: 02/23/2022
 keywords: ["D3DKMTDestroySynchronizationObject function"]
 ms.keywords: D3DKMTDestroySynchronizationObject, D3DKMTDestroySynchronizationObject function [Display Devices], OpenGL_Functions_181e72ed-9dd7-4b4c-b6e6-9231a2603f20.xml, d3dkmthk/D3DKMTDestroySynchronizationObject, display.d3dkmtdestroysynchronizationobject
 req.header: d3dkmthk.h
@@ -45,30 +45,27 @@ api_name:
 
 # D3DKMTDestroySynchronizationObject function
 
-
 ## -description
 
-The <b>D3DKMTDestroySynchronizationObject</b> function destroys a kernel-mode synchronization object.
+The **D3DKMTDestroySynchronizationObject** function destroys a kernel-mode synchronization object.
 
 ## -parameters
 
-### -param D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
+### -param unnamedParam1 [in]
 
-*pData* [in]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroysynchronizationobject">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a> structure that contains the handle to the synchronization object to destroy.
+A pointer to a [D3DKMT_DESTROYSYNCHRONIZATIONOBJECT](ns-d3dkmthk-_d3dkmt_destroysynchronizationobject.md) structure that contains the handle to the synchronization object to destroy.
 
 ## -returns
 
-<b>D3DKMTDestroySynchronizationObject</b> returns one of the following values:
+**D3DKMTDestroySynchronizationObject** returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|The kernel-mode overlay object was successfully destroyed.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The kernel-mode overlay object was successfully destroyed. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
-This function might also return other <b>NTSTATUS</b> values.
+This function might also return other **NTSTATUS** values.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroysynchronizationobject">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a>
+[D3DKMT_DESTROYSYNCHRONIZATIONOBJECT](ns-d3dkmthk-_d3dkmt_destroysynchronizationobject.md)

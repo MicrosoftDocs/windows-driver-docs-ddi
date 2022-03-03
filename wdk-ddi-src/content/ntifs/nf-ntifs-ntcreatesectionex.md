@@ -103,7 +103,7 @@ The size of the _ExtendedParameters_ array.
 
 ## -returns
 
-eturns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error status codes include the following:
+Returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error status codes include the following:
 
 <table>
 <tr>

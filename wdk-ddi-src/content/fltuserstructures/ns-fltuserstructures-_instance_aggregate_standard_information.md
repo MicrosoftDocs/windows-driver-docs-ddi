@@ -1,16 +1,16 @@
 ---
 UID: NS:fltuserstructures._INSTANCE_AGGREGATE_STANDARD_INFORMATION
-title: _INSTANCE_AGGREGATE_STANDARD_INFORMATION (fltuserstructures.h)
+title: INSTANCE_AGGREGATE_STANDARD_INFORMATION (fltuserstructures.h)
 description: The caller-allocated INSTANCE_AGGREGATE_STANDARD_INFORMATION structure contains information for either a minifilter driver instance or a legacy filter driver.
 old-location: ifsk\instance_aggregate_standard_information.htm
 tech.root: ifsk
-ms.date: 09/18/2019
+ms.date: 02/23/2022
 keywords: ["INSTANCE_AGGREGATE_STANDARD_INFORMATION structure"]
 ms.keywords: "*PINSTANCE_AGGREGATE_STANDARD_INFORMATION, FltSystemStructures_b1c8bf6f-d693-4f15-ad58-9e31d593464b.xml, INSTANCE_AGGREGATE_STANDARD_INFORMATION, INSTANCE_AGGREGATE_STANDARD_INFORMATION structure [Installable File System Drivers], PINSTANCE_AGGREGATE_STANDARD_INFORMATION, PINSTANCE_AGGREGATE_STANDARD_INFORMATION structure pointer [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, _INSTANCE_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/INSTANCE_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/PINSTANCE_AGGREGATE_STANDARD_INFORMATION, ifsk.instance_aggregate_standard_information"
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, FltKernel.h
 req.target-type: Windows
-req.target-min-winverclnt: This structure is available starting with Windows Vista.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,22 +46,21 @@ api_name:
  - INSTANCE_AGGREGATE_STANDARD_INFORMATION
 ---
 
-# _INSTANCE_AGGREGATE_STANDARD_INFORMATION structure
-
+# INSTANCE_AGGREGATE_STANDARD_INFORMATION structure
 
 ## -description
 
-The caller-allocated INSTANCE_AGGREGATE_STANDARD_INFORMATION structure contains information for either a minifilter driver instance or a legacy filter driver.
+The caller-allocated **INSTANCE_AGGREGATE_STANDARD_INFORMATION** structure contains aggregate standard information about either a minifilter driver instance or a legacy filter driver.
 
 ## -struct-fields
 
 ### -field NextEntryOffset
 
-Byte offset of the next INSTANCE_AGGREGATE_STANDARD_INFORMATION structure if multiple structures are present in a buffer. This member is zero if no other structures follow this one.
+Byte offset of the next **INSTANCE_AGGREGATE_STANDARD_INFORMATION** structure if multiple structures are present in a buffer. This member is zero if no other structures follow this one.
 
 ### -field Flags
 
-Indicates whether the filter driver is a legacy filter driver or a minifilter driver.  This member must contain one of the following flags.
+Indicates whether the filter driver is a legacy filter driver or a minifilter driver. This member must contain one of the following flags.
 
 | Flag | Meaning |
 | ---- | ------- |
@@ -124,13 +123,14 @@ Byte offset (relative to the beginning of the structure) of the first character 
 
 ### -field Type.MiniFilter.SupportedFeatures
 
-The supported feature flags for the filter. The supported features are a bitwise OR combination of the following flags.
+The supported feature flags for the filter, as specified by a minifilter's **SupportedFeatures** Registry value. The supported features are a bitwise OR combination of the following flags.
 
 | Value | Meaning |
 | ----- | ------- |
-| SUPPORTED_FS_FEATURES_OFFLOAD_READ (0x00000001) | The volume supports offloaded read operations. |
-| SUPPORTED_FS_FEATURES_OFFLOAD_WRITE (0x00000002) | The volume supports offloaded write operations. |
-| SUPPORTED_FS_FEATURES_QUERY_OPEN (0x00000004) | The volume supports query open operations. |
+| **SUPPORTED_FS_FEATURES_OFFLOAD_READ** (0x01) | The volume supports offloaded read operations. |
+| **SUPPORTED_FS_FEATURES_OFFLOAD_WRITE** (0x02) | The volume supports offloaded write operations. |
+| **SUPPORTED_FS_FEATURES_QUERY_OPEN** (0x04)    | The volume supports query open operations. |
+| **SUPPORTED_FS_FEATURES_BYPASS_IO**  (0x08)    | The volume supports [BypassIO](/windows-hardware/drivers/ifs/bypassio). This flag is available starting in Windows 11. |
 
 ### -field Type.LegacyFilter
 
@@ -172,18 +172,18 @@ Byte offset (relative to the beginning of the structure) of the first character 
 
 ### -field Type.LegacyFilter.SupportedFeatures
 
-The supported feature flags for the filter.
+The supported feature flags for the legacy filter.
 
 The supported features are a bitwise OR combination of the following flags.
 
 | Value | Meaning |
 | ----- | ------- |
-| SUPPORTED_FS_FEATURES_OFFLOAD_READ (0x00000001) | The volume supports offloaded read operations. |
-| SUPPORTED_FS_FEATURES_OFFLOAD_WRITE (0x00000002) | The volume supports offloaded write operations. |
+| SUPPORTED_FS_FEATURES_OFFLOAD_READ (0x01) | The volume supports offloaded read operations. |
+| SUPPORTED_FS_FEATURES_OFFLOAD_WRITE (0x02) | The volume supports offloaded write operations. |
 
 ## -remarks
 
-A structure of type INSTANCE_AGGREGATE_STANDARD_INFORMATION can be allocated from paged or nonpaged pool.  This structure is passed as a parameter to routines such as the following:
+A structure of type **INSTANCE_AGGREGATE_STANDARD_INFORMATION** can be allocated from paged or nonpaged pool. This structure is passed as a parameter to routines such as the following:
 
 - [FilterInstanceFindFirst](/windows/win32/api/fltuser/nf-fltuser-filterinstancefindfirst)
 - [FilterInstanceFindNext](/windows/win32/api/fltuser/nf-fltuser-filterinstancefindnext)
@@ -219,4 +219,3 @@ The INSTANCE_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGL
 [INSTANCE_FULL_INFORMATION](./ns-fltuserstructures-_instance_full_information.md)
 
 [INSTANCE_PARTIAL_INFORMATION](./ns-fltuserstructures-_instance_partial_information.md)
-

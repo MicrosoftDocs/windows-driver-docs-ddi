@@ -4,7 +4,7 @@ title: IDebugRegisters2::GetDescriptionWide (dbgeng.h)
 description: The GetDescriptionWide method returns the description of a register.
 old-location: debugger\getdescriptionwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugRegisters2::GetDescriptionWide"]
 ms.keywords: GetDescriptionWide, GetDescriptionWide method [Windows Debugging], GetDescriptionWide method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetDescriptionWide method, IDebugRegisters2.GetDescriptionWide, IDebugRegisters2::GetDescriptionWide, dbgeng/IDebugRegisters2::GetDescriptionWide, debugger.getdescriptionwide
 req.header: dbgeng.h
@@ -62,12 +62,12 @@ Specifies the buffer in which to store the name of the register.  If <i>NameBuff
 ### -param NameBufferSize [in]
 
 
-Specifies the size, in characters, of the buffer that  <i>NameBuffer</i> specifies.
+Specifies the size, in characters, of the buffer that  <i>NameBuffer</i> specifies. This size includes the space for the '\0' terminating character.
 
 ### -param NameSize [out, optional]
 
 
-Receives the size, in characters, of the register's name in <i>NameBuffer</i> buffer.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+Receives the size, in characters, of the register's name in <i>NameBuffer</i> buffer. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ### -param Desc [out, optional]
 
