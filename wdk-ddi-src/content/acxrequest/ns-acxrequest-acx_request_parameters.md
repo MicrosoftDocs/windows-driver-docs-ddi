@@ -56,13 +56,11 @@ The size of the structure in bytes.
 
 ### -field MajorFunction
 
-The MajorFunction
-
-TBD - Pointer to the IUnknown interface of a miniport object that supports the method set and method specified by TBD
+The WDF IRP major function that is used for this request, for example IRP_MJ_DEVICE_CONTROL or IRP_MJ_PNP. For more information about WDF IRP, see [IRP Major Function Codes](/windows-hardware/drivers/kernel/irp-major-function-codes).
 
 ### -field MinorFunction
 
-The MinorFunction
+The WDF IRP minor function that is used for this request, for example IRP_MN_QUERY_CAPABILITIES. For more information about the Minor Function refer to the associated withe major IRP, for example [Plug and Play Minor IRPs](/windows-hardware/drivers/kernel/plug-and-play-minor-irps), [Power Management Minor IRPs](/windows-hardware/drivers/kernel/power-management-minor-irps) and [WMI Minor IRPs](/windows-hardware/drivers/kernel/wmi-minor-irps).
 
 ### -field Type
 
@@ -70,9 +68,7 @@ The Type field TBD
 
 ### -field Parameters
 
-TBD TBD TBD TBD 
-
-TBD - Fields may be based on other structures to link to.
+TBD - Based on Property struct
 
 ### -field Parameters.Property
 
@@ -94,11 +90,15 @@ The count in bytes (size) of the Control
 
 ### -field Parameters.Property.Value
 
+The Property Value that will be TBD
+
 ### -field Parameters.Property.ValueCb
 
 The count in bytes (size) of the Value.
 
 ### -field Parameters.Method
+
+TBD - Based on Method struct?
 
 ### -field Parameters.Method.Set
 
@@ -120,6 +120,8 @@ The count in bytes (size) of the Value.
 
 ### -field Parameters.Event
 
+TBD - Based on Method struct
+
 ### -field Parameters.Event.Set
 
 ### -field Parameters.Event.Id
@@ -136,11 +138,18 @@ The count in bytes (size) of the Value.
 
 ### -field Parameters.Event.EventData
 
+
 ### -field Parameters.Create
+
+TBD - 
 
 ### -field Parameters.Create.Control
 
+TBD - 
+
 ### -field Parameters.Create.ControlCb
+
+TBD - The count in bytes (size) of the Create Control TBD
 
 ## -remarks
 
