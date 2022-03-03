@@ -2,7 +2,7 @@
 UID: NS:wdm._KERNEL_CET_CONTEXT
 tech.root: kernel
 title: KERNEL_CET_CONTEXT (wdm.h)
-ms.date: 03/02/2022
+ms.date: 03/03/2022
 targetos: Windows
 description: Reserved for system use only. Do not use.
 prerelease: false
@@ -47,6 +47,28 @@ helpviewer_keywords:
 ## -description
 
 Reserved for system use only. Do not use.
+
+## -struct-fields
+
+### -field Ssp
+
+### -field Rip
+
+### -field SegCs
+
+### -field DUMMYUNIONNAME
+
+### -field DUMMYUNIONNAME.AllFlags
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.UseWrss
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.PopShadowStackOne
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Unused
+
+### -field Fill
 
 ## -remarks
 
