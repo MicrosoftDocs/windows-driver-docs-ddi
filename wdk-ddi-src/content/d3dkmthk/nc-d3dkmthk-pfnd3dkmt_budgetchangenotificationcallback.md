@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK
 title: PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK (d3dkmthk.h)
 description: The PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK callback function notifies of a budget change.
-ms.date: 10/19/2018
+ms.date: 03/03/2022
 keywords: ["PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK callback function"]
 req.header: d3dkmthk.h
 req.include-header: 
@@ -41,20 +41,15 @@ dev_langs:
 
 # PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK callback function
 
-
 ## -description
 
-The PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK callback function notifies of a budget change.
+The **PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK** callback function notifies of a budget change.
 
 ## -parameters
 
 ### -param unnamedParam1
 
 Pointer to a [D3DKMT_BUDGETCHANGENOTIFICATION](ns-d3dkmthk-_d3dkmt_budgetchangenotification.md) structure.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 
@@ -67,9 +62,8 @@ PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK Pfnd3dkmtBudgetchangenotificationcall
 
 VOID Pfnd3dkmtBudgetchangenotificationcallback 
 (
-	D3DKMT_BUDGETCHANGENOTIFICATION *
+  D3DKMT_BUDGETCHANGENOTIFICATION *
 )
 {...}
 
 ```
-
