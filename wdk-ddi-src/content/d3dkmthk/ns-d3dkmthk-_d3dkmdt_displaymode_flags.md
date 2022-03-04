@@ -105,7 +105,11 @@ Supported starting with Windows 8.
 
 ### -field PreferredTiming
 
+A UINT value that specifies whether the driver supports preferred timing.
+
 ### -field PhysicalModeSupported
+
+A UINT value that specifies whether the driver supports physical mode.
 
 ### -field Reserved
 
@@ -118,6 +122,8 @@ Setting this member is equivalent to setting the remaining 26 bits (0xFFFFFFC0) 
 Supported starting with Windows 8.
 
 ### -field VirtualRefreshRate
+
+A UINT value that specifies whether the driver supports virtual refresh rate.
 
 ## -see-also
 

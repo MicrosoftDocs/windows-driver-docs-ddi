@@ -2,7 +2,7 @@
 UID: NS:d3dkmthk._D3DKMT_NODE_PERFDATA
 title: _D3DKMT_NODE_PERFDATA (d3dkmthk.h)
 description: Represents performance data collected per engine from an adapter on an interval basis.
-ms.date: 10/19/2018
+ms.date: 03/04/2022
 keywords: ["D3DKMT_NODE_PERFDATA structure"]
 ms.keywords: _D3DKMT_NODE_PERFDATA, D3DKMT_NODE_PERFDATA,
 req.header: d3dkmthk.h
@@ -40,7 +40,6 @@ product:
 
 # _D3DKMT_NODE_PERFDATA structure
 
-
 ## -description
 
 Represents performance data collected per engine from an adapter on an interval basis.
@@ -65,7 +64,7 @@ The max frequency the engine can normally reach in hertz while not overclocked.
 
 ### -field MaxFrequencyOC [out]
 
-The max frequency the engine can reach with it’s current overclock in hertz.
+The max frequency the engine can reach with it's current overclock in hertz.
 
 ### -field Voltage [out]
 
@@ -83,3 +82,6 @@ The max voltage of the engine while overclocked in milli volts.
 
 The max transition latency to change the frequency, in 100 nanoseconds.
 
+### -field Reserved
+
+Reserved

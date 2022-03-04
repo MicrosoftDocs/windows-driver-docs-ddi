@@ -44,14 +44,13 @@ product:
 
 Implemented by the client driver to submit a command to queue hardware flags.
 
-## -prototype
+## -syntax
 
 ```cpp
 PFND3DKMT_SUBMITCOMMANDTOHWQUEUE PfnD3dkmtSubmitCommandToHwQueue;
 
-NTSTATUS PfnD3dkmtSubmitCommandToHwQueue
-(
-  CONST D3DKMT_SUBMITCOMMANDTOHWQUEUE *
+NTSTATUS PfnD3dkmtSubmitCommandToHwQueue(
+    const D3DKMT_SUBMITCOMMANDTOHWQUEUE *unnamedParam1
 )
 {...}
 ```
