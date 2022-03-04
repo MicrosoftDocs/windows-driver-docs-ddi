@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_TRIMNOTIFICATIONCALLBACK
 title: PFND3DKMT_TRIMNOTIFICATIONCALLBACK (d3dkmthk.h)
 description: Trim notification.
-ms.date: 10/19/2018
+ms.date: 03/04/2022
 keywords: ["PFND3DKMT_TRIMNOTIFICATIONCALLBACK callback function"]
 req.header: d3dkmthk.h
 req.include-header: 
@@ -41,10 +41,20 @@ dev_langs:
 
 # PFND3DKMT_TRIMNOTIFICATIONCALLBACK callback function
 
-
 ## -description
 
 Trim notification.
+
+## -prototype
+
+```cpp
+PFND3DKMT_TRIMNOTIFICATIONCALLBACK PfnD3dkmtTrimNotificationCallback;
+
+void Pfnd3dkmtTrimnotificationcallback(
+  D3DKMT_TRIMNOTIFICATION *unnamedParam1
+)
+{...}
+```
 
 ## -parameters
 
@@ -52,28 +62,6 @@ Trim notification.
 
 Pointer to a [D3DKMT_TRIMNOTIFICATION](ns-d3dkmthk-_d3dkmt_trimnotification.md) structure.
 
-## -returns
-
-Returns VOID that ...
-
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3DKMT_TRIMNOTIFICATIONCALLBACK Pfnd3dkmtTrimnotificationcallback; 
-
-// Definition
-
-VOID Pfnd3dkmtTrimnotificationcallback 
-(
-	D3DKMT_TRIMNOTIFICATION *
-)
-{...}
-
-```
-
 ## -remarks
 
 ## -see-also
-
