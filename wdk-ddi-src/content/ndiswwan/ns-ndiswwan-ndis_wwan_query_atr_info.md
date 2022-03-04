@@ -4,7 +4,7 @@ tech.root: netvista
 title: NDIS_WWAN_QUERY_ATR_INFO
 ms.date: 01/21/2022
 targetos: Windows
-description: The NDIS_WWAN_QUERY_ATR_INFO structure represents an ATR. It is used in OID_WWAN_UICC_ATR query requests.
+description: The NDIS_WWAN_QUERY_ATR_INFO structure represents the SIM slot ID that is associated with an OID_WWAN_UICC_ATR query request.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **NDIS_WWAN_QUERY_ATR_INFO** structure represents Answer To Reset (ATR) information. It is used in OID_WWAN_UICC_ATR query requests.
+The **NDIS_WWAN_QUERY_ATR_INFO** structure represents the SIM slot ID that is associated with an [OID_WWAN_UICC_ATR](/windows-hardware/drivers/network/oid-wwan-uicc-atr) query request.
 
 ## -struct-fields
 
@@ -71,3 +71,7 @@ A [**WWAN_QUERY_ATR_INFO**](../wwan/ns-wwan-wwan_query_atr_info.md) structure th
 ## -see-also
 
 [**WWAN_QUERY_ATR_INFO**](../wwan/ns-wwan-wwan_query_atr_info.md)
+
+[OID_WWAN_UICC_ATR](/windows-hardware/drivers/network/oid-wwan-uicc-atr)
+
+[NDIS_STATUS_WWAN_ATR_INFO](/windows-hardware/drivers/network/ndis-status-wwan-atr-info)

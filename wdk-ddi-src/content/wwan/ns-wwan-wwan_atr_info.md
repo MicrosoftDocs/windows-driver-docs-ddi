@@ -52,11 +52,18 @@ The **WWAN_ATR_INFO** structure represents a SIM card's Answer to Reset (ATR) in
 
 ### -field AtrLength
 
-
+The length of the ATR data.
 
 ### -field Atr
+
+A byte array representing the ATR data.
 
 ## -remarks
 
 ## -see-also
 
+[**NDIS_WWAN_ATR_INFO**](../ndiswwan/ns-ndiswwan-ndis_wwan_atr_info.md)
+
+[OID_WWAN_UICC_ATR](/windows-hardware/drivers/network/oid-wwan-uicc-atr)
+
+[NDIS_STATUS_WWAN_ATR_INFO](/windows-hardware/drivers/network/ndis-status-wwan-atr-info)

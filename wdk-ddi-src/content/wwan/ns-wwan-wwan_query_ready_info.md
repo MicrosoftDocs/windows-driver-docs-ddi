@@ -53,7 +53,7 @@ The **WWAN_QUERY_READY_INFO** structure represents the SIM slot ID that is assoc
 
 ### -field SlotId
 
-A ULONG value that specifies the SIM slot ID.
+A ULONG value that specifies the intended SIM slot of the operation. For single SIM device, this value is 0. For a dual SIM device, this value is [0..1].
 
 ## -remarks
 

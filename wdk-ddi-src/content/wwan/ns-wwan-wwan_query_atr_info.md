@@ -2,10 +2,9 @@
 UID: NS:wwan._WWAN_QUERY_ATR_INFO
 tech.root: netvista
 title: WWAN_QUERY_ATR_INFO
-ms.date: 01/21/2022
+ms.date: 02/25/2022
 targetos: Windows
-description: The WWAN_QUERY_ATR_INFO structure represents a SIM card's Answer to Reset (ATR).
-prerelease: true
+description: The WWAN_QUERY_ATR_INFO structure represents the SIM slot ID that is associated with an OID_WWAN_UICC_ATR query request.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -46,13 +45,13 @@ helpviewer_keywords:
 
 ## -description
 
-The **WWAN_QUERY_ATR_INFO** structure represents a SIM card's Answer to Reset (ATR) information.
+The **WWAN_QUERY_ATR_INFO** structure represents the SIM slot ID that is associated with an [OID_WWAN_UICC_ATR](/windows-hardware/drivers/network/oid-wwan-uicc-atr) query request.
 
 ## -struct-fields
 
 ### -field SlotId
 
-A ULONG value that specifies the card's slot ID. 
+A ULONG value that specifies the intended SIM slot of the operation. For single SIM device, this value is 0. For a dual SIM device, this value is [0..1].
 
 ## -remarks
 
@@ -60,3 +59,6 @@ A ULONG value that specifies the card's slot ID.
 
 [**NDIS_WWAN_QUERY_ATR_INFO**](../ndiswwan/ns-ndiswwan-ndis_wwan_query_atr_info.md)
 
+[OID_WWAN_UICC_ATR](/windows-hardware/drivers/network/oid-wwan-uicc-atr)
+
+[NDIS_STATUS_WWAN_ATR_INFO](/windows-hardware/drivers/network/ndis-status-wwan-atr-info)

@@ -2,9 +2,9 @@
 UID: NS:wwan._WWAN_UICC_TERMINAL_CAPABILITY_INFO
 tech.root: netvista
 title: WWAN_UICC_TERMINAL_CAPABILITY_INFO
-ms.date: 01/24/2022
+ms.date: 02/28/2022
 targetos: Windows
-description: 
+description: The WWAN_UICC_TERMINAL_CAPABILITY_INFO structure represents information about the terminal capabilities of the host.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,17 +46,17 @@ helpviewer_keywords:
 
 ## -description
 
-The **WWAN_UICC_TERMINAL_CAPABILITY_INFO** structure contains information about the capabilities of the host. 
+The **WWAN_UICC_TERMINAL_CAPABILITY_INFO** structure represents information about the terminal capabilities of the host. 
 
 ## -struct-fields
 
 ### -field CapabilityListHeader
 
-A [**WWAN_LIST_HEADER**](ns-wwan-_wwan_list_header.md) structure that represents a list of SAR configurations that the modem supports. The **ElementType** member in the **WWAN_LIST_HEADER** should be set to **WwanStructSarConfig**. The **ElementCount** member in the **WWAN_LIST_HEADER** should be set to the number of SAR configurations that follow the **WWAN_LIST_HEADER** structure.
-
-a list of UIC terminal capabilitiy?
+A [**WWAN_LIST_HEADER**](ns-wwan-_wwan_list_header.md) object that represents a list of terminal capability objects.
 
 ## -remarks
+
+-
 
 ## -see-also
 
