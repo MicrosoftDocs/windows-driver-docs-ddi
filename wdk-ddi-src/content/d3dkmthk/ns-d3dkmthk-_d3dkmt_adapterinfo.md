@@ -59,6 +59,7 @@ A handle to the adapter.
 
 A LUID value that uniquely identifies the adapter, typically until the operating system is rebooted.
 The LUID value changes whenever:
+
 - the system is rebooted
 - the adapter's driver is updated
 - the adapter is disabled
@@ -70,7 +71,7 @@ The number of video present sources supported by the adapter.
 
 ### -field bPrecisePresentRegionsPreferred
 
-If **TRUE**, the adapter prefers move regions.
+If **TRUE**, the adapter prefers precise regions.
 
 ## -see-also
 
