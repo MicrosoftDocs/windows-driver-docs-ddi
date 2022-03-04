@@ -1,30 +1,22 @@
 ---
 UID: NE:ntddk._PROCESS_MITIGATION_POLICY
-title: _PROCESS_MITIGATION_POLICY (ntddk.h)
-description: Represents the different process mitigation policies.
-ms.date: 10/19/2018
 tech.root: kernel
-keywords: ["PROCESS_MITIGATION_POLICY enumeration"]
-ms.keywords: _PROCESS_MITIGATION_POLICY, PROCESS_MITIGATION_POLICY, *PPROCESS_MITIGATION_POLICY,
+title: PROCESS_MITIGATION_POLICY (ntddk.h)
+ms.date: 03/03/2022
+targetos: Windows
+description: Enumerates process mitigation policies.
+prerelease: false
+req.construct-type: enumeration
+req.ddi-compliance: 
 req.header: ntddk.h
-req.include-header: 
-req.target-type: 
+req.include-header: Ntddk.h
+req.kmdf-ver: 
+req.max-support: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.kmdf-ver: 
+req.target-type: 
+req.typenames: 
 req.umdf-ver: 
-req.ddi-compliance: 
-req.max-support: 
-req.typenames: PROCESS_MITIGATION_POLICY, *PPROCESS_MITIGATION_POLICY
-targetos: Windows
-ms.custom: RS5
-f1_keywords:
- - _PROCESS_MITIGATION_POLICY
- - ntddk/_PROCESS_MITIGATION_POLICY
- - PPROCESS_MITIGATION_POLICY
- - ntddk/PPROCESS_MITIGATION_POLICY
- - PROCESS_MITIGATION_POLICY
- - ntddk/PROCESS_MITIGATION_POLICY
 topic_type:
  - apiref
 api_type:
@@ -35,54 +27,105 @@ api_name:
  - _PROCESS_MITIGATION_POLICY
  - PPROCESS_MITIGATION_POLICY
  - PROCESS_MITIGATION_POLICY
+f1_keywords:
+ - _PROCESS_MITIGATION_POLICY
+ - ntddk/_PROCESS_MITIGATION_POLICY
+ - PPROCESS_MITIGATION_POLICY
+ - ntddk/PPROCESS_MITIGATION_POLICY
+ - PROCESS_MITIGATION_POLICY
+ - ntddk/PROCESS_MITIGATION_POLICY
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - _PROCESS_MITIGATION_POLICY
 ---
-
-# _PROCESS_MITIGATION_POLICY enumeration
-
 
 ## -description
 
-Represents the different process mitigation policies. For more information, see [**_PROCESS_MITIGATION_POLICY**](/windows/win32/api/winnt/ne-winnt-process_mitigation_policy) enumeration.
+Enumerates process mitigation policies.
+
+For more information, see [**_PROCESS_MITIGATION_POLICY**](/windows/win32/api/winnt/ne-winnt-process_mitigation_policy) enumeration.
 
 ## -enum-fields
 
-### -field ProcessDEPPolicy 
+### -field ProcessDEPPolicy
 
-### -field ProcessASLRPolicy 
+Defines the **ProcessDEPPolicy** constant.
 
-### -field ProcessDynamicCodePolicy 
+### -field ProcessASLRPolicy
 
-### -field ProcessStrictHandleCheckPolicy 
+Defines the **ProcessASLRPolicy** constant.
 
-### -field ProcessSystemCallDisablePolicy 
+### -field ProcessDynamicCodePolicy
 
-### -field ProcessMitigationOptionsMask 
+Defines the **ProcessDynamicCodePolicy** constant.
 
-### -field ProcessExtensionPointDisablePolicy 
+### -field ProcessStrictHandleCheckPolicy
 
-### -field ProcessControlFlowGuardPolicy 
+Defines the **ProcessStrictHandleCheckPolicy** constant.
 
-### -field ProcessSignaturePolicy 
+### -field ProcessSystemCallDisablePolicy
 
-### -field ProcessFontDisablePolicy 
+Defines the **ProcessSystemCallDisablePolicy** constant.
 
-### -field ProcessImageLoadPolicy 
+### -field ProcessMitigationOptionsMask
 
-### -field ProcessSystemCallFilterPolicy 
+Defines the **ProcessMitigationOptionsMask** constant.
 
-### -field ProcessPayloadRestrictionPolicy 
+### -field ProcessExtensionPointDisablePolicy
 
-### -field ProcessChildProcessPolicy 
+Defines the **ProcessExtensionPointDisablePolicy** constant.
 
-### -field ProcessSideChannelIsolationPolicy 
+### -field ProcessControlFlowGuardPolicy
 
-### -field MaxProcessMitigationPolicy 
+Defines the **ProcessControlFlowGuardPolicy** constant.
+
+### -field ProcessSignaturePolicy
+
+Defines the **ProcessSignaturePolicy** constant.
+
+### -field ProcessFontDisablePolicy
+
+Defines the **ProcessFontDisablePolicy** constant.
+
+### -field ProcessImageLoadPolicy
+
+Defines the **ProcessImageLoadPolicy** constant.
+
+### -field ProcessSystemCallFilterPolicy
+
+Defines the **ProcessSystemCallFilterPolicy** constant.
+
+### -field ProcessPayloadRestrictionPolicy
+
+Defines the **ProcessPayloadRestrictionPolicy** constant.
+
+### -field ProcessChildProcessPolicy
+
+Defines the **ProcessChildProcessPolicy** constant.
+
+### -field ProcessSideChannelIsolationPolicy
+
+Defines the **ProcessSideChannelIsolationPolicy** constant.
 
 ### -field ProcessUserShadowStackPolicy
 
+Defines the **ProcessUserShadowStackPolicy** constant.
+
 ### -field ProcessRedirectionTrustPolicy
+
+Defines the **ProcessRedirectionTrustPolicy** constant.
+
+### -field ProcessUserPointerAuthPolicy
+
+Defines the **ProcessUserPointerAuthPolicy** constant.
+
+### -field MaxProcessMitigationPolicy
+
+Defines the **MaxProcessMitigationPolicy** constant.
 
 ## -remarks
 
 ## -see-also
 
+[**_PROCESS_MITIGATION_POLICY**](/windows/win32/api/winnt/ne-winnt-process_mitigation_policy)

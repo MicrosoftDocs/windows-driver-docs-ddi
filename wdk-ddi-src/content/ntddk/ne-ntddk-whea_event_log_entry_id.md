@@ -1,30 +1,22 @@
 ---
 UID: NE:ntddk._WHEA_EVENT_LOG_ENTRY_ID
-title: WHEA_EVENT_LOG_ENTRY_ID
-description: "Learn more about: WHEA_EVENT_LOG_ENTRY_ID enumeration"
 tech.root: whea
-ms.date: 08/19/2019
-keywords: ["WHEA_EVENT_LOG_ENTRY_ID enumeration"]
-ms.keywords: WHEA_EVENT_LOG_ENTRY_ID, WHEA_EVENT_LOG_ENTRY_ID, *PWHEA_EVENT_LOG_ENTRY_ID,
+title: WHEA_EVENT_LOG_ENTRY_ID (ntddk.h)
+ms.date: 03/03/2022
+targetos: Windows
+description: The WHEA_EVENT_LOG_ENTRY_ID enumeration is reserved for system use. Do not use.
+prerelease: false
+req.construct-type: enumeration
+req.ddi-compliance: 
 req.header: ntddk.h
 req.include-header: 
-req.target-type: 
+req.kmdf-ver: 
+req.max-support: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.kmdf-ver: 
+req.target-type: 
+req.typenames: 
 req.umdf-ver: 
-req.ddi-compliance: 
-req.max-support: 
-req.typenames: WHEA_EVENT_LOG_ENTRY_ID, *PWHEA_EVENT_LOG_ENTRY_ID
-targetos: Windows
-ms.custom: 19H1
-f1_keywords:
- - _WHEA_EVENT_LOG_ENTRY_ID
- - ntddk/_WHEA_EVENT_LOG_ENTRY_ID
- - PWHEA_EVENT_LOG_ENTRY_ID
- - ntddk/PWHEA_EVENT_LOG_ENTRY_ID
- - WHEA_EVENT_LOG_ENTRY_ID
- - ntddk/WHEA_EVENT_LOG_ENTRY_ID
 topic_type:
  - apiref
 api_type:
@@ -35,16 +27,22 @@ api_name:
  - _WHEA_EVENT_LOG_ENTRY_ID
  - PWHEA_EVENT_LOG_ENTRY_ID
  - WHEA_EVENT_LOG_ENTRY_ID
-product:
- - Windows
+f1_keywords:
+ - _WHEA_EVENT_LOG_ENTRY_ID
+ - ntddk/_WHEA_EVENT_LOG_ENTRY_ID
+ - PWHEA_EVENT_LOG_ENTRY_ID
+ - ntddk/PWHEA_EVENT_LOG_ENTRY_ID
+ - WHEA_EVENT_LOG_ENTRY_ID
+ - ntddk/WHEA_EVENT_LOG_ENTRY_ID
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - _WHEA_EVENT_LOG_ENTRY_ID
 ---
-
-# WHEA_EVENT_LOG_ENTRY_ID enumeration
-
 
 ## -description
 
-Reserved for system use.
+The **WHEA_EVENT_LOG_ENTRY_ID** enumeration is reserved for system use. Do not use.
 
 ## -enum-fields
 
@@ -186,9 +184,32 @@ Reserved for system use.
 
 ### -field WheaEventLogEntryIdMemorySummaryFailed
 
+### -field WheaEventLogEntryIdPcieDpcError
+
+### -field WheaEventLogEntryIdCpuBusesInitFailed
+
+### -field WheaEventLogEntryIdPshedPluginInitFailed
+
+### -field WheaEventLogEntryIdFailedAddToDefectList
+
+### -field WheaEventLogEntryIdDefectListFull
+
+### -field WheaEventLogEntryIdDefectListUEFIVarFailed
+
+### -field WheaEventLogEntryIdDefectListCorrupt
+
+### -field WheaEventLogEntryIdBadHestNotifyData
+
+### -field WheaEventLogEntryIdSrasTableNotFound
+
+### -field WheaEventLogEntryIdSrasTableError
+
+### -field WheaEventLogEntryIdSrasTableEntries
+
+### -field WheaEventLogEntryIdRowFailure
+
 ### -field WheaEventLogEntryIdPshedPiTraceLog
 
 ## -remarks
 
 ## -see-also
-
