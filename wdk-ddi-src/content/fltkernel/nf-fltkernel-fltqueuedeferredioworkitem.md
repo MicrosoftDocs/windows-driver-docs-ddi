@@ -4,7 +4,7 @@ title: FltQueueDeferredIoWorkItem function (fltkernel.h)
 description: The FltQueueDeferredIoWorkItem routine posts an IRP-based I/O operation to a work queue.
 old-location: ifsk\fltqueuedeferredioworkitem.htm
 tech.root: ifsk
-ms.date: 02/25/2022
+ms.date: 03/04/2022
 keywords: ["FltQueueDeferredIoWorkItem function"]
 ms.keywords: FltApiRef_p_to_z_df42429d-485c-4c28-a9e7-b334d7ad52d7.xml, FltQueueDeferredIoWorkItem, FltQueueDeferredIoWorkItem routine [Installable File System Drivers], fltkernel/FltQueueDeferredIoWorkItem, ifsk.fltqueuedeferredioworkitem
 req.header: fltkernel.h
@@ -109,10 +109,7 @@ The operation must be an IRP-based I/O operation. To determine whether a given c
 
 * **FltQueueDeferredIoWorkItem** cannot post a paging I/O operation to a worker thread.
 
-* **FltQueueDeferredIoWorkItem** cannot post an I/O operation to a worker thread if the **TopLevelIrp** field of the current thread is not **NULL**, because the resulting file system recursion could cause deadlocks or stack overflows. (For more information, see [**IoGetTopLevelIrp**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogettoplevelirp).)
-
-> [!NOTE]
-> To avoid deadlocks, a minifilter must not post an I/O operation to a system work queue for any I/O operations that a driver can complete directly in the storage stack.
+* **FltQueueDeferredIoWorkItem** cannot post an I/O operation to a worker thread if the **TopLevelIrp** field of the current thread is not **NULL**, because the resulting file system recursion could cause deadlocks or stack overflows. For more information, see [**IoGetTopLevelIrp**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogettoplevelirp).
 
 A minifilter driver can use **FltQueueDeferredIoWorkItem** in a preoperation callback ([**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)) routine as follows:
 
