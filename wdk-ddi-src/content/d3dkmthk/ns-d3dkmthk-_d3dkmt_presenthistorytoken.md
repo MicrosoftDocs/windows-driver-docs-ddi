@@ -139,6 +139,8 @@ A [D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN](ns-d3dkmthk-_d3dkmt_surfacecomplete_p
 
 A [D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN](ns-d3dkmthk-_d3dkmt_surfacecomplete_presenthistorytoken.md) structure that identifies a surface complete operation.
 
+Supported start with WDDM version 2.1
+
 ## -see-also
 
 [D3DKMT_PRESENT_MODEL](ne-d3dkmthk-_d3dkmt_present_model.md)
