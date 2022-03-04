@@ -100,148 +100,23 @@ The major version of the NDIS library the protocol driver is using. The current 
 
 The minor NDIS version. The following are the available minor version value settings.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-NDIS 6
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>20</dt>
-</dl>
-</td>
-<td width="60%">
-NDIS 6.20
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>30</dt>
-</dl>
-</td>
-<td width="60%">
-NDIS 6.30
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>40</dt>
-</dl>
-</td>
-<td width="60%">
-NDIS 6.40
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>50</dt>
-</dl>
-</td>
-<td width="60%">
-NDIS 6.50
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>51</dt>
-</dl>
-</td>
-<td width="60%">
-NDIS 6.51
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>60</dt>
-</dl>
-</td>
-<td width="60%">
-NDIS 6.60
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>70</dt>
-</dl>
-</td>
-<td width="60%">
-NDIS 6.70
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>80</dt>
-</dl>
-</td>
-<td width="60%">
-NDIS 6.80
-
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt>81</dt>
-</dl>
-</td>
-<td width="60%">
-NDIS 6.81
-
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt>82</dt>
-</dl>
-</td>
-<td width="60%">
-NDIS 6.82
-
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt>83</dt>
-</dl>
-</td>
-<td width="60%">
-NDIS 6.83
-
-</td>
-</tr>
-
-</table>
+|Value|Meaning|
+|--- |--- |
+|0|NDIS 6|
+|20|NDIS 6.20|
+|30|NDIS 6.30|
+|40|NDIS 6.40|
+|50|NDIS 6.50|
+|51|NDIS 6.51|
+|60|NDIS 6.60|
+|70|NDIS 6.70|
+|80|NDIS 6.80|
+|81|NDIS 6.81|
+|82|NDIS 6.82|
+|83|NDIS 6.83|
+|84|NDIS 6.84|
+|85|NDIS 6.85|
+|86|NDIS 6.86|
 
 ### -field MajorDriverVersion
 
