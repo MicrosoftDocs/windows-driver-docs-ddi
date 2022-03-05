@@ -2,7 +2,7 @@
 UID: NS:acxrequest._ACX_REQUEST_PARAMETERS
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS
-ms.date: 03/03/2022
+ms.date: 03/04/2022
 targetos: Windows
 description: The ACX_REQUEST_PARAMETERS structure describes the items that can be used in an ACX request.
 prerelease: true
@@ -46,7 +46,21 @@ dev_langs:
 
 The **ACX_REQUEST_PARAMETERS** structure describes the items that can be used in an ACX request.
 
-TBD - Once the related property/method fields are filled in can mirror over to here.
+The following parameters are based on the service that is being invoked, such as a property, method or event. Drivers can determine which set to use based on the ACX_ITEM_TYPE.
+
+The three uses of this structure facilitate communications back to existing kernel streaming (KS) types. For more information about KS see [KS Properties, Events, and Methods](/windows-hardware/drivers/stream/ks-properties--events--and-methods).
+
+For specific information of each of the types, see the following topics.
+
+- [KS Properties](/windows-hardware/drivers/stream/ks-properties)
+- [KS Events](/windows-hardware/drivers/stream/ks-events)
+- [KS Methods](/windows-hardware/drivers/stream/ks-methods)
+
+In addition the following topics may be useful.
+
+[Audio Drivers Property Sets](/windows-hardware/drivers/audio/audio-drivers-property-sets)
+[KSIDENTIFIER structure (ks.h)](/windows-hardware/drivers/ddi/ks/ns-ks-ksidentifier)
+
 
 ## -struct-fields
 
@@ -64,11 +78,9 @@ The WDF IRP minor function that is used for this request, for example IRP_MN_QUE
 
 ### -field Type
 
-The Type field TBD
+The **ACX_ITEM_TYPE**(ne-acxrequest-acx_item_type.md) enumeration describes the type of items that will be sent in the request.
 
 ### -field Parameters
-
-TBD - Based on Property struct
 
 ### -field Parameters.Property
 

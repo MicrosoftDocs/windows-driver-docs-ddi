@@ -2,7 +2,7 @@
 UID: NS:acxrequest._ACX_PROPERTY_ITEM
 tech.root: audio
 title: ACX_PROPERTY_ITEM
-ms.date: 03/03/2022
+ms.date: 03/04/2022
 targetos: Windows
 description: The ACX_PROPERTY_ITEM structure describes the ACX request property item.
 prerelease: true
@@ -44,21 +44,21 @@ dev_langs:
 
 ## -description
 
-The **ACX_PROPERTY_ITEM** structure describes the ACX request property item.
+The **ACX_PROPERTY_ITEM** structure describes the ACX request property item. A Property represents a capability or control-state setting that belongs to a kernel streaming object, such as a filter or pin. For more information, see [KS Properties](/windows-hardware/drivers/stream/ks-properties).
 
 ## -struct-fields
 
 ### -field Set
 
-TBD - A set of methods defined as a TBD  KSMethodSet ID that are TBD.
+TBD - Specifies a GUID that identifies a kernel streaming property item set. For example, the KSPIN_INTERFACE structure describes a specific interface within an interface set. For more information, see [KSPROPERTY structure](/windows-hardware/drivers/stream/ksproperty-structure).
 
 ### -field Id
 
-TBD - The KSMethod ID that will be TBD.
+Specifies the member of the property set. For KSPIN_MEDIUM, identifies a unique connection on the bus. For KSPIN_INTERFACE, specifies the ID number of this particular interface within the interface set. 
 
 ### -field Flags
 
-The Flags field can be used to set the following Flags defined in the AcxRequest header.
+The Flags field is used to set the following Flags defined in the AcxRequest header.
 
 ```cpp
 #define ACX_PROPERTY_ITEM_FLAG_NONE             0x00000000
@@ -66,6 +66,13 @@ The Flags field can be used to set the following Flags defined in the AcxRequest
 #define ACX_PROPERTY_ITEM_FLAG_SET              0x00000002 // KSPROPERTY_TYPE_SET
 #define ACX_PROPERTY_ITEM_FLAG_BASICSUPPORT     0x00000200 // KSPROPERTY_TYPE_BASICSUPPORT
 ```
+
+ACX_PROPERTY_ITEM_FLAG_GET - Retrieves the value of the specified property item.
+
+ACX_PROPERTY_ITEM_FLAG_SET - Sets the value of the specified property item.
+
+ACX_PROPERTY_ITEM_FLAG_BASICSUPPORT - Queries the request types that the driver handles for this property item. Returns KSPROPERTY_TYPE_GET or KSPROPERTY_TYPE_SET or both. All property sets must support this flag.
+
 
 ### -field EvtAcxObjectProcessRequest
 
