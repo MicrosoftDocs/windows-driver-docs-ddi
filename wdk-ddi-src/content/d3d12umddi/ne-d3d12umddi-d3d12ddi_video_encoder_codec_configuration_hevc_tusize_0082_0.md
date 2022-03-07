@@ -58,7 +58,7 @@ A luma transform block when pixel size is 32.
 
 A **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_TUSIZE_0082_0** value can be used to express HEVC variables such as *MinTbLog2SizeY* and *MaxTbLog2SizeY*.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

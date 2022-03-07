@@ -58,7 +58,7 @@ The output bitstream is expected to contain the sub-region headers but not the p
 
 In sub-region frame partitioning, all sub-regions for a given frame encoding operation output must be placed in top/down, left/right order and must be contiguous.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

@@ -58,7 +58,7 @@ Pointer to a [**D3D12DDI_VIDEO_ENCODER_PROFILE_HEVC_0080**](ne-d3d12umddi-d3d12d
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information, including an explanation about the pointers to enum types.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information, including an explanation about the pointers to enum types.
 
 ## -see-also
 

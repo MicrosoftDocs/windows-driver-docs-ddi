@@ -92,7 +92,7 @@ Check the [**D3D12_VIDEO_ENCODER_SUPPORT_FLAG__0083_0_SEQUENCE_GOP_RECONFIGURATI
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ### Using intra-refresh
 

@@ -76,7 +76,7 @@ Pointer to a list of [**D3D12DDI_VIDEO_ENCODER_PICTURE_RESOLUTION_DESC_0080**](n
 
 If support for resolution dynamic reconfiguration is not supported, only one resolution is passed to denote the desired target resolution.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

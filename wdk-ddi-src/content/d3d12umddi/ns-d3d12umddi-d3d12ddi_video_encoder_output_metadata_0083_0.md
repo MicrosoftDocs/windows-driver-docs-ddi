@@ -62,7 +62,7 @@ The number of sub-regions used to encode the current frame. This value must be c
 
 **D3D12DDI_VIDEO_ENCODER_OUTPUT_METADATA_0083_0** and its child structures are aligned to a 64-bit access boundary for use with [**PFND3D12DDI_SET_PREDICATION**](nc-d3d12umddi-pfnd3d12ddi_set_predication.md).
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 
