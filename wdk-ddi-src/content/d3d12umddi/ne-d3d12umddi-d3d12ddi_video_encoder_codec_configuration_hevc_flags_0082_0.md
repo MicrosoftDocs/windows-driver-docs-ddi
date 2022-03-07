@@ -74,7 +74,7 @@ If set, enables constrained intra prediction. This value refers to *constrained_
 
 The host (D3D12 lower-level encoding API) sets these configuration flags based on the limits queried at the API level.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

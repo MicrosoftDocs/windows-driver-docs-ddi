@@ -69,7 +69,7 @@ The following table lists the expected HEVC header frame type (*nal_unit_type*) 
 
 A set [**D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_SUPPORT_HEVC_FLAG_0083_0_P_FRAMES_IMPLEMENTED_AS_LOW_DELAY_B_FRAMES**](ne-d3d12umddi-d3d12ddi_video_encoder_codec_configuration_support_hevc_flags_0083_0.md) bit informs the user that, when encoding frames with type **D3D12DDI_VIDEO_ENCODER_FRAME_TYPE_HEVC_0080_P_FRAME**, these frames will be written as low delay B frames in the compressed bitstream. If this bit is not set, these frames will be written as P frames in the compressed bistream. When operating in this mode, it is the user's responsibility to code the correct frame type in *_AUD_NUT_* and other parts of the HEVC bitstream, taking into account that P frames will be treated as generalized B frames with only references to past frames in picture order counter (POC) order.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

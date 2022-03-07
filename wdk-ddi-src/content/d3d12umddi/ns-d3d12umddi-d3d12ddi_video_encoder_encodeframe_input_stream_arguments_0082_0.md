@@ -64,7 +64,7 @@ Number of bytes added to the final bitstream between the end of the last [**PFND
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

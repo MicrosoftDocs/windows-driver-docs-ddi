@@ -58,7 +58,7 @@ Specifies the long-term picture number of the picture being moved to the current
 
 For modification details, refer to the H.264 specification, section 7.4.3.1 "Reference picture list modification semantics".
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

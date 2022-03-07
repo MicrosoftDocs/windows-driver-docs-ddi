@@ -68,7 +68,7 @@ The value of **log2_max_pic_order_cnt_lsb_minus4** is in the range of 0 to 12, i
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

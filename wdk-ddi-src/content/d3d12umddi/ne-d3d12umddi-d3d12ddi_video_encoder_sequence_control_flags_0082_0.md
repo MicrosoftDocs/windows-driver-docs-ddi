@@ -66,7 +66,7 @@ Indicates a change in [**D3D12DDI_VIDEO_ENCODER_SEQUENCE_CONTROL_DESC_0082_0.Cod
 
 Depending on the codec, a request for reconfiguration might need to insert an IDR in the bitstream and new SPS headers.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 
