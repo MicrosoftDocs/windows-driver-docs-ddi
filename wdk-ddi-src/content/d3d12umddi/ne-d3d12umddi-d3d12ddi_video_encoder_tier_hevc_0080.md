@@ -52,7 +52,7 @@ The High tier, which can be used by applications with high video demands.
 
 See the HEVC specification for details regarding HEVC tiers and levels.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

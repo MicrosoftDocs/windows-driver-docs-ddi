@@ -124,7 +124,7 @@ Level 6.2.
 
 See the H.264 specification for the required performance details for each level.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

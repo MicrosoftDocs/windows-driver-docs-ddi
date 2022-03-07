@@ -60,7 +60,7 @@ Slice-level picture reference lists reordering is not supported.
 
 Weighted inter-prediction is not supported.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

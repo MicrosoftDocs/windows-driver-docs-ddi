@@ -60,7 +60,7 @@ A [**D3D12DDI_VIDEO_ENCODE_REFERENCE_FRAMES_0080**](ns-d3d12umddi-d3d12ddi_video
 
 ## -remarks
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 The following remarks provide guidance for frame management.
 

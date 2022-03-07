@@ -89,7 +89,7 @@ Alternatively, if encoding an IDR frame and setting [**adaptive_ref_pic_marking_
 
 For more details about the picture marking process, see the H.264 specification, section 8.2.5.4 "Adaptive memory control decoded reference picture marking process".
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

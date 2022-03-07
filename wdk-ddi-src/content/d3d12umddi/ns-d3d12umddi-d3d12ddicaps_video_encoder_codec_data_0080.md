@@ -60,7 +60,7 @@ The **D3D12DDICAPS_VIDEO_ENCODER_CODEC_DATA_0080** structure is used to determin
 
 The D3D runtime calls [**PFND3D12DDI_VIDEO_GETCAPS**](nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md) with [**D3D12DDICAPS_TYPE_VIDEO_0080_ENCODER_CODEC**](ne-d3d12umddi-d3d12ddicaps_type_video_0020.md) specified as the capability type.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

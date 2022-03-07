@@ -114,7 +114,7 @@ The support granted or rejected by this query indicates simultaneous support for
 
 For example, there can be support for intra refresh when checking **D3D12DDICAPS_TYPE_VIDEO_0080_ENCODER_INTRA_REFRESH_MODE** and there can be support for B frames when checking that [**D3D12_VIDEO_ENCODER_CODEC_PICTURE_CONTROL_SUPPORT_H264.MaxL1ReferencesForB**](ns-d3d12umddi-d3d12ddi_video_encoder_codec_picture_control_support_h264_0080_2.md) is greater than 0. However, there can be the case that intra refresh and B frames are not supported simultaneously. In this case, querying **D3D12DDICAPS_TYPE_VIDEO_0080_ENCODER_SUPPORT** with **CodecGopSequence** containing B frames and intra refresh row-based mode, the D3D12_VIDEO_ENCODER_SUPPORT_FLAG_GENERAL_SUPPORT_OK flag must be set off.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

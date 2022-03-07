@@ -104,7 +104,7 @@ If the driver sets this bit, the user can limit the precision used for motion se
 
 The rest of the flags are combined to convey further information.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

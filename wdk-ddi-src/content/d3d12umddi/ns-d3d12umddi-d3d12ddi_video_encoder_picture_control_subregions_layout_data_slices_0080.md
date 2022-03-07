@@ -64,7 +64,7 @@ This member is used exclusively with [**D3D12DDI_VIDEO_ENCODER_FRAME_SUBREGION_L
 
 For modes that imply a fixed number of slices, the number of slices selected must be less than [**MaxSubregionsNumber**](ns-d3d12umddi-d3d12ddi_video_encoder_resolution_support_limits_0080_2.md) and the selected resolution.
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 

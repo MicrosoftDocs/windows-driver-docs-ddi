@@ -57,7 +57,7 @@ The duration of the intra-refresh session, in number of frames. If **Mode** is *
 When triggering an intra-refresh session, the host informs the current frame number relative to the [0..**IntraRefreshDuration**) session by setting **IntraRefreshFrameIndex** in the [picture control structure](ns-d3d12umddi-d3d12ddi_video_encoder_picture_control_desc_0082_0.md
 ).
 
-See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12.md) for general information.
+See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 
 ## -see-also
 
