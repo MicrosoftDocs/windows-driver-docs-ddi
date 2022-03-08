@@ -3,7 +3,7 @@ UID: NE:ksmedia.__unnamed_enum_93
 title: KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY (ksmedia.h)
 description: The KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY enumeration defines the network camera control properties.
 tech.root: stream
-ms.date: 06/24/2021
+ms.date: 03/08/2022
 ms.keywords: KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
@@ -30,8 +30,6 @@ api_name:
  - KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY
 ---
 
-# KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY enumeration
-
 ## -description
 
 The **KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY** enumeration defines the network camera control properties.
@@ -45,6 +43,16 @@ Set an NTP server on an Onvif protocol camera.
 ### -field KSPROPERTY_NETWORKCAMERACONTROL_URI
 
 Acquire the stream URI payload from a Onvif protocol camera. The payload is a wide character null-terminated string representing the streaming URI (RSTP/HTTP URI).
+
+### -field KSPROPERTY_NETWORKCAMERACONTROL_METADATA
+
+Enumerates the network camera control metadata property.
+
+### -field KSPROPERTY_NETWORKCAMERACONTROL_EVENTTOPICS_XML
+
+Enumerates the network camera control event topics XML property.
+
+## -remarks
 
 ## -see-also
 
