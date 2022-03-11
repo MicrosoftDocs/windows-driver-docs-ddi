@@ -3,7 +3,7 @@ UID: NS:ksmedia.tagKS_FRAME_INFO
 title: KS_FRAME_INFO (ksmedia.h)
 description: The KS_FRAME_INFO structure extends the KSSTREAM_HEADER structure for video streams.
 tech.root: stream
-ms.date: 03/07/2022
+ms.date: 03/11/2022
 keywords: ["tagKS_FRAME_INFO structure"]
 ms.keywords: "*PKS_FRAME_INFO, KS_FRAME_INFO, KS_FRAME_INFO structure [Streaming Media Devices], PKS_FRAME_INFO, PKS_FRAME_INFO structure pointer [Streaming Media Devices], ksmedia/KS_FRAME_INFO, ksmedia/PKS_FRAME_INFO, stream.ks_frame_info, tagKS_FRAME_INFO, vidcapstruct_1ce3f0b4-3032-4956-83a3-2a92039eb7a0.xml"
 req.header: ksmedia.h
@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **KS_FRAME_INFO** structure extends the [KSSTREAM_HEADER](../ks/ns-ks-ksstream_header.md) structure for video streams.
+The **KS_FRAME_INFO** structure extends the **KSSTREAM_HEADER** structure for video streams.
 
 ## -struct-fields
 
@@ -116,7 +116,7 @@ This member is available starting with Windows 8.1.
 
 ## -remarks
 
-The KS_FRAME_INFO structure provides a way to return information about the frame captured, as well as a way to pass Microsoft DirectDraw handles used when capturing to a DirectDraw surface.
+The **KS_FRAME_INFO** structure provides a way to return information about the frame captured, as well as a way to pass Microsoft DirectDraw handles used when capturing to a DirectDraw surface.
 
 The **PictureNumber** member count represents the count of the current picture, which is calculated in one of two ways depending on the device:
 
