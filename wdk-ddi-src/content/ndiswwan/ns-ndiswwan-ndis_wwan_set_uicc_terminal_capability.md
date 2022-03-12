@@ -4,7 +4,7 @@ tech.root: netvista
 title: NDIS_WWAN_SET_UICC_TERMINAL_CAPABILITY
 ms.date: 03/02/2022
 targetos: Windows
-description: 
+description: The NDIS_WWAN_SET_UICC_TERMINAL_CAPABILITY structure represents the terminal capabilities of the host and SIM slot ID associated with an OID_WWAN_UICC_TERMINAL_CAPABILITY set request.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,11 +46,13 @@ helpviewer_keywords:
 
 ## -description
 
+The **NDIS_WWAN_SET_UICC_TERMINAL_CAPABILITY** structure represents the terminal capabilities of the host and SIM slot ID associated with an [OID_WWAN_UICC_TERMINAL_CAPABILITY](/windows-hardware/drivers/network/oid-wwan-uicc-terminal-capability) set request.
+
 ## -struct-fields
 
 ### -field Header
 
-The header with type, revision, and size information about the **NDIS_WWAN_SET_UICC_TERMINAL_CAPABILITY** structure. The MB Service sets the header with the values that are shown in the following table when it sends the data structure to the miniport driver for set operations. Miniport drivers must set the header with the same values when they send the data structure to the MB service.
+The header with type, revision, and size information about the **NDIS_WWAN_SET_UICC_TERMINAL_CAPABILITY** structure.
 
 |Header submember|Value|
 |---|---|
@@ -69,3 +71,7 @@ A [**WWAN_SET_UICC_TERMINAL_CAPABILITY**](../wwan/ns-wwan-wwan_set_uicc_terminal
 ## -see-also
 
 [**WWAN_SET_UICC_TERMINAL_CAPABILITY**](../wwan/ns-wwan-wwan_set_uicc_terminal_capability.md)
+
+[OID_WWAN_UICC_TERMINAL_CAPABILITY](/windows-hardware/drivers/network/oid-wwan-uicc-terminal-capability)
+
+[NDIS_STATUS_WWAN_UICC_TERMINAL_CAPABILITY_INFO](/windows-hardware/drivers/network/ndis-status-wwan-uicc-terminal-capability-info)

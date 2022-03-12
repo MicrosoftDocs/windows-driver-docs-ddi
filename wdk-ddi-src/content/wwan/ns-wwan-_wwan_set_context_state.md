@@ -219,6 +219,19 @@ A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
 ### -field ConnectionMediaSource
 
+### -field ActivationOption
+
+A value from the [**WWAN_ACTIVATION_OPTION**](ne-wwan-wwan_activation_option.md) enumeration that represents the Packet Data Protocol (PDP) activation options that the MB device supports.
+
+### -field Snssai
+
+A [**WWAN_SINGLE_NSSAI**](ns-wwan-wwan_single_nssai.md) structure representing a single Network Slice Selection Assistance Information (NSSAI).
+
+### -field TrafficParameters
+
+The first 4 bytes are the offset to the DataBuffer containing the raw data of MBIM_TLV_TYPE_TRAFFIC_PARAMETERS data field, in bytes, calculated from the beginning of WWAN_SET_CONTEXT_STATE.
+The second 4 bytes are size of the raw data of MBIM_TLV_TYPE_TRAFFIC_PARAMETERS data field, in bytes.
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_set_context_state">NDIS_WWAN_SET_CONTEXT_STATE</a>

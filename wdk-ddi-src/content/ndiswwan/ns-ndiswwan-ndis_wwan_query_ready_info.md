@@ -57,7 +57,7 @@ The header with type, revision, and size information about the **NDIS_WWAN_QUERY
 |Header submember|Value|
 |---|---|
 |Type|NDIS_OBJECT_TYPE_DEFAULT|
-|Revision|NDIS_WWAN_GENERAL_REVISION_1|
+|Revision|NDIS_WWAN_QUERY_READY_INFO_REVISION_1|
 |Size|sizeof(NDIS_WWAN_QUERY_READY_INFO)|
 
 For more information about these members, see [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header).

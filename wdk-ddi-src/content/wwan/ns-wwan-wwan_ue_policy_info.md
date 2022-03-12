@@ -2,9 +2,9 @@
 UID: NS:wwan._WWAN_UE_POLICY_INFO
 tech.root: netvista
 title: WWAN_UE_POLICY_INFO
-ms.date: 01/13/2022
+ms.date: 03/11/2022
 targetos: Windows
-description: The WWAN_UE_POLICY_INFO structure contains UE policy information. 
+description: The WWAN_UE_POLICY_INFO structure represents the UE policy information of the MB device.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **WWAN_UE_POLICY_INFO** structure contains UE policy information. 
+The **WWAN_UE_POLICY_INFO** structure represents the UE policy information of the MB device.
 
 ## -struct-fields
 
@@ -62,3 +62,5 @@ The second 4 bytes are the size of the raw data of MBIM_TLV_TYPE_URSP_RULES_TD_O
 ## -see-also
 
 [**NDIS_WWAN_UE_POLICY_INFO**](/ndiswwan/ns-ndiswwan-ndis_wwan_ue_policy_info.md)
+
+[OID_WWAN_UE_POLICY](/windows-hardware/drivers/network/oid-wwan-ue-policy)

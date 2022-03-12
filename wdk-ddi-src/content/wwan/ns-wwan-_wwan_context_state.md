@@ -4,7 +4,7 @@ title: _WWAN_CONTEXT_STATE (wwan.h)
 description: The WWAN_CONTEXT_STATE structure represents the Packet Data Protocol (PDP) context state of the MB device.
 old-location: netvista\wwan_context_state.htm
 tech.root: netvista
-ms.date: 12/29/2021
+ms.date: 03/11/2022
 keywords: ["WWAN_CONTEXT_STATE structure"]
 ms.keywords: "*PWWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_STATE, WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_ff03afab-0fc4-4469-8a2d-f5d2a770f08d.xml, _WWAN_CONTEXT_STATE, netvista.wwan_context_state, wwan/PWWAN_CONTEXT_STATE, wwan/WWAN_CONTEXT_STATE"
 req.header: wwan.h
@@ -175,6 +175,19 @@ The media type for an established context/session.
 ### -field AccessString
 
 The selected APN/DNN for an established context/session.
+
+### -field Snssai
+
+A [**WWAN_SINGLE_NSSAI**](ns-wwan-wwan_single_nssai.md) structure representing a single Network Slice Selection Assistance Information (NSSAI).
+
+### -field FoundMatchingConnectionId
+
+Only valid if the status is WWAN_STATUS_SESSION_ALREADY_EXISTS. 
+
+### -field TrafficParameters
+
+Only valid if the status is WWAN_STATUS_DESSOCIATION_NEEDED_FOR_APPLICATION.
+The first 4 bytes are the offset to the DataBuffer containing the raw data of MBIM_TLV_TYPE_TRAFFIC_PARAMETERS, in bytes, calculated from the beginning of WWAN_SET_CONTEXT_STATE. The second 4 bytes are the size of the raw data of MBIM_TLV_TYPE_TRAFFIC_PARAMETERS, in bytes.
 
 ## -remarks
 

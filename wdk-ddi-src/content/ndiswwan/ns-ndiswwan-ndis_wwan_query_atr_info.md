@@ -52,7 +52,7 @@ The **NDIS_WWAN_QUERY_ATR_INFO** structure represents the SIM slot ID that is as
 
 ### -field Header
 
-The header with type, revision, and size information about the **NDIS_WWAN_QUERY_ATR_INFO** structure. The MB Service sets the header with the values that are shown in the following table when it sends the data structure to the miniport driver for set operations. Miniport drivers must set the header with the same values when they send the data structure to the MB service.
+The header with type, revision, and size information about the **NDIS_WWAN_QUERY_ATR_INFO** structure.
 
 |Header submember|Value|
 |---|---|

@@ -1,10 +1,10 @@
 ---
 UID: NS:wwan._WWAN_QUERY_UICC_TERMINAL_CAPABILITY
-tech.root: 
+tech.root: netvista
 title: WWAN_QUERY_UICC_TERMINAL_CAPABILITY
-ms.date: 
+ms.date: 03/10/2022
 targetos: Windows
-description: 
+description: The WWAN_QUERY_UICC_TERMINAL_CAPABILITY structure represents the SIM slot ID that is associated with an OID_WWAN_UICC_TERMINAL_CAPABILITY query request.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: WIN11_NEXT 
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: WWAN_QUERY_UICC_TERMINAL_CAPABILITY, *PWWAN_QUERY_UICC_TERMINAL_CAPABILITY
@@ -46,11 +46,18 @@ helpviewer_keywords:
 
 ## -description
 
+The **WWAN_QUERY_UICC_TERMINAL_CAPABILITY** structure represents the SIM slot ID that is associated with an [OID_WWAN_UICC_TERMINAL_CAPABILITY](/windows-hardware/drivers/network/oid-wwan-uicc-terminal-capability) query request.
+
 ## -struct-fields
 
 ### -field SlotId
+
+A ULONG value that specifies the intended SIM slot of the operation. For a single SIM device, this value is 0. For a dual SIM device, this value is [0..1].
 
 ## -remarks
 
 ## -see-also
 
+[OID_WWAN_UICC_TERMINAL_CAPABILITY](/windows-hardware/drivers/network/oid-wwan-uicc-terminal-capability)
+
+[**NDIS_WWAN_QUERY_UICC_TERMINAL_CAPABILITY**](../ndiswwan/ns-ndiswwan-ndis_wwan_query_uicc_terminal_capability.md)

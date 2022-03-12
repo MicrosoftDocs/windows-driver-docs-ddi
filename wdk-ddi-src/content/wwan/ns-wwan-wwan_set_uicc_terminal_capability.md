@@ -2,9 +2,9 @@
 UID: NS:wwan._WWAN_SET_UICC_TERMINAL_CAPABILITY
 tech.root: netvista
 title: WWAN_SET_UICC_TERMINAL_CAPABILITY
-ms.date: 02/28/2022
+ms.date: 03/10/2022
 targetos: Windows
-description: 
+description: The WWAN_SET_UICC_TERMINAL_CAPABILITY structure represents the terminal capabilities of the host and SIM slot ID associated with an OID_WWAN_UICC_TERMINAL_CAPABILITY set request.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,13 +46,13 @@ helpviewer_keywords:
 
 ## -description
 
-The **WWAN_SET_UICC_TERMINAL_CAPABILITY** structure represents the SIM slot ID that is associated with an OID_WWAN_UICC_TERMINAL_CAPABILITY set request.
+The **WWAN_SET_UICC_TERMINAL_CAPABILITY** structure represents the terminal capabilities of the host and SIM slot ID associated with an [OID_WWAN_UICC_TERMINAL_CAPABILITY](/windows-hardware/drivers/network/oid-wwan-uicc-terminal-capability) set request.
 
 ## -struct-fields
 
 ### -field SlotId
 
-A ULOG value that identifies the SIM slot of the operation. For single SIM devices this value is 0. For dual SIM devices this value is [0..1].
+A ULONG value that identifies the SIM slot of the operation. For single SIM devices this value is 0. For dual SIM devices this value is [0..1].
 
 ### -field CapabilityListHeader
 
@@ -60,8 +60,8 @@ A [**WWAN_LIST_HEADER**](ns-wwan-_wwan_list_header.md) object that represents a 
 
 ## -remarks
 
-Is this an on off thing??
- used to inform the UICC about terminal capability. 
-
 ## -see-also
 
+[OID_WWAN_UICC_TERMINAL_CAPABILITY](/windows-hardware/drivers/network/oid-wwan-uicc-terminal-capability)
+
+[NDIS_STATUS_WWAN_UICC_TERMINAL_CAPABILITY_INFO](/windows-hardware/drivers/network/ndis-status-wwan-uicc-terminal-capability-info)

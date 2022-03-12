@@ -55,6 +55,34 @@ Indicates the current use of Mobile Initiated Connection (MICO) mode. Valid only
 
 Valid only if NetworkConfigurationsNeeded is 1 in the query request.
 
+### -field TaiList
+
+The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_TAI_LIST**](ns-wwan-wwan_tai_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_TAI_LIST**, in bytes.
+
+### -field AllowedNssaiList
+
+The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_SNSSAI_LIST**](ns-wwan-wwan_snssai_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_SNSSAI_LIST**, in bytes.
+
+### -field ConfiguredNssaiList
+
+The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_SNSSAI_LIST**](ns-wwan-wwan_snssai_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_SNSSAI_LIST**, in bytes.
+
+### -field RejectedNssaiList
+
+The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_REJECTED_SNSSAI_LIST**](ns-wwan-wwan_rejected_snssai_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_REJECTED_SNSSAI_LIST**, in bytes.
+
+### -field DefaultConfiguredNssaiList
+
+The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_SNSSAI_LIST**](ns-wwan-wwan_snssai_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_SNSSAI_LIST**, in bytes.
+
+### -field LadnList
+
+The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_LADN_LIST**](ns-wwan-wwan_ladn_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_LADN_LIST**, in bytes.
+
+### -field DataBuffer
+
+A buffer containing **TaiList**, **AllowedNssaiList**, **ConfiguredNssaiList**, **RejectedNssaiList**, **DefaultConfiguredNssaiList**, and **LadnList** immediately follow the last named field of **WWAN_NETWORK_PARAMS_INFO** (**LadnList**), in that order, without any unused space in between.
+
 ## -remarks
 
 ## -see-also

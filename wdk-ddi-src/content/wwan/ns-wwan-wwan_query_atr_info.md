@@ -51,7 +51,7 @@ The **WWAN_QUERY_ATR_INFO** structure represents the SIM slot ID that is associa
 
 ### -field SlotId
 
-A ULONG value that specifies the intended SIM slot of the operation. For single SIM device, this value is 0. For a dual SIM device, this value is [0..1].
+A ULONG value that specifies the intended SIM slot of the operation. For a single SIM device, this value is 0. For a dual SIM device, this value is [0..1].
 
 ## -remarks
 
@@ -60,5 +60,3 @@ A ULONG value that specifies the intended SIM slot of the operation. For single 
 [**NDIS_WWAN_QUERY_ATR_INFO**](../ndiswwan/ns-ndiswwan-ndis_wwan_query_atr_info.md)
 
 [OID_WWAN_UICC_ATR](/windows-hardware/drivers/network/oid-wwan-uicc-atr)
-
-[NDIS_STATUS_WWAN_ATR_INFO](/windows-hardware/drivers/network/ndis-status-wwan-atr-info)

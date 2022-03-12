@@ -2,9 +2,9 @@
 UID: NS:ndiswwan._NDIS_WWAN_UE_POLICY_INFO
 tech.root: netvista
 title: NDIS_WWAN_UE_POLICY_INFO
-ms.date: 01/13/2022
+ms.date: 03/11/2022
 targetos: Windows
-description: The NDIS_WWAN_UE_POLICY_INFO structure contains UE policy information. 
+description: The NDIS_WWAN_UE_POLICY_INFO structure represents the UE policy information of the MB device.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **NDIS_WWAN_UE_POLICY_INFO** structure contains UE policy information. 
+The **NDIS_WWAN_UE_POLICY_INFO** structure represents the UE policy information of the MB device.
 
 
 ## -struct-fields
@@ -69,10 +69,12 @@ The status of system capability.
 
 ### -field UePolicyInfo
 
-A formatted [WWAN_UE_POLICY_INFO](../wwan/ns-wwan-wwan_ue_policy_info.md) structure containing the UE policy information. 
+A formatted [**WWAN_UE_POLICY_INFO**](../wwan/ns-wwan-wwan_ue_policy_info.md) structure containing the UE policy information. 
 
 ## -remarks
 
 ## -see-also
 
-[WWAN_UE_POLICY_INFO](../wwan/ns-wwan-wwan_ue_policy_info.md)
+[**WWAN_UE_POLICY_INFO**](../wwan/ns-wwan-wwan_ue_policy_info.md)
+
+[OID_WWAN_UE_POLICY](/windows-hardware/drivers/network/oid-wwan-ue-policy)

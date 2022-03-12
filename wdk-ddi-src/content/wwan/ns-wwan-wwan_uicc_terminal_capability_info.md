@@ -56,7 +56,9 @@ A [**WWAN_LIST_HEADER**](ns-wwan-_wwan_list_header.md) object that represents a 
 
 ## -remarks
 
--
 
 ## -see-also
 
+[**NDIS_WWAN_UICC_TERMINAL_CAPABILITY_INFO**](../ndiswwan/ns-ndiswwan-ndis_wwan_uicc_terminal_capability_info.md)
+
+[OID_WWAN_UICC_TERMINAL_CAPABILITY](/windows-hardware/drivers/network/oid-wwan-uicc-terminal-capability)

@@ -4,7 +4,7 @@ tech.root: netvista
 title: NDIS_WWAN_UICC_TERMINAL_CAPABILITY_INFO
 ms.date: 01/24/2022
 targetos: Windows
-description: 
+description: The NDIS_WWAN_UICC_TERMINAL_CAPABILITY_INFO structure represents information about the terminal capabilities of the host.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,6 +46,8 @@ helpviewer_keywords:
 
 ## -description
 
+The **NDIS_WWAN_UICC_TERMINAL_CAPABILITY_INFO** structure represents information about the terminal capabilities of the host.
+
 ## -struct-fields
 
 ### -field Header
@@ -73,3 +75,5 @@ A [**WWAN_UICC_TERMINAL_CAPABILITY_INFO**](../wwan/ns-wwan-wwan_uicc_terminal_ca
 ## -see-also
 
 [**WWAN_UICC_TERMINAL_CAPABILITY_INFO**](../wwan/ns-wwan-wwan_uicc_terminal_capability_info.md) 
+
+[OID_WWAN_UICC_TERMINAL_CAPABILITY](/windows-hardware/drivers/network/oid-wwan-uicc-terminal-capability)
