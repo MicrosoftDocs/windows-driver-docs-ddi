@@ -2,7 +2,7 @@
 UID: NS:wwan._WWAN_LADN
 tech.root: netvista
 title: WWAN_LADN
-ms.date: wwan_ladn
+ms.date: 03/14/2022
 targetos: Windows
 description: The WWAN_LADN structure represents a Local Area Data Network (LADN).
 prerelease: true

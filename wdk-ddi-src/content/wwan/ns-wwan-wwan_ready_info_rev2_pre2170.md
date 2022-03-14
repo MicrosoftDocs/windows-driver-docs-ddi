@@ -4,7 +4,7 @@ tech.root: netvista
 title: WWAN_READY_INFO_REV2_PRE2170
 ms.date: 03/11/2022
 targetos: Windows
-description: 
+description: The **WWAN_READY_INFO_REV2_PRE2170** structure is the older version of the WWAN_READY_INFO structure, previous to Windows 11.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
