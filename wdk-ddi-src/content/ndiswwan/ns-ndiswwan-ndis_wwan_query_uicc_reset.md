@@ -60,7 +60,7 @@ The header with type, revision, and size information about the **NDIS_WWAN_QUERY
 |Revision|NDIS_WWAN_QUERY_UICC_RESET_REVISION_1|
 |Size|sizeof(NDIS_WWAN_QUERY_UICC_RESET)|
 
-For more information about these members, see [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header).
+For more information about these members, see [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md).
 
 ### -field QueryUiccReset
 

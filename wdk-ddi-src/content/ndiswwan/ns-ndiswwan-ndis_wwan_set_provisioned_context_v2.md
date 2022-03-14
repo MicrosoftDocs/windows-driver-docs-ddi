@@ -60,7 +60,7 @@ The header with type, revision, and size information about the NDIS_WWAN_SET_PRO
 |Revision|NDIS_WWAN_SET_PROVISIONED_CONTEXT_REVISION_2|
 |Size|sizeof(NDIS_WWAN_SET_PROVISIONED_CONTEXT_V2)|
 
-For more information about these members, see [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header).
+For more information about these members, see [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md).
 
 ### -field ProvisionedContext
 
