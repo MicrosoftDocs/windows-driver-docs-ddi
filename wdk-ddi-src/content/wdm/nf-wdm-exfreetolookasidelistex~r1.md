@@ -2,7 +2,7 @@
 UID: NF:wdm.ExFreeToLookasideListEx~r1
 tech.root: kernel
 title: ExFreeToLookasideListEx (wdm.h)
-ms.date: 03/10/2022
+ms.date: 03/14/2022
 targetos: Windows
 description: This topic describes the ExFreeToLookasideListEx function.
 prerelease: false
@@ -55,10 +55,6 @@ Defines the **PLOOKASIDE_LIST_EX** parameter *Lookaside*. Supplies a pointer to 
 ### -param Entry
 
 Defines the **PVOID** parameter *Entry*. Supplies a pointer to the entry that is inserted in the lookaside list.
-
-## -returns
-
-None.
 
 ## -remarks
 

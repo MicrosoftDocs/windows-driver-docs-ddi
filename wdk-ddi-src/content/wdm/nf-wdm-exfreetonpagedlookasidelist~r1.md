@@ -2,7 +2,7 @@
 UID: NF:wdm.ExFreeToNPagedLookasideList~r1
 tech.root: kernel
 title: ExFreeToNPagedLookasideList (wdm.h)
-ms.date: 03/11/2022
+ms.date: 03/14/2022
 targetos: Windows
 description: This topic describes the ExFreeToNPagedLookasideList function.
 prerelease: false
@@ -55,10 +55,6 @@ Defines the **PNPAGED_LOOKASIDE_LIST** parameter *Lookaside*.
 ### -param Entry
 
 Defines the **PVOID** parameter *Entry*.
-
-## -returns
-
-None
 
 ## -remarks
 
