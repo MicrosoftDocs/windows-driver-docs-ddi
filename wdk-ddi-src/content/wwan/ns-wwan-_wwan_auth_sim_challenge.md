@@ -4,7 +4,7 @@ title: _WWAN_AUTH_SIM_CHALLENGE (wwan.h)
 description: The WWAN_AUTH_SIM_CHALLENGE structure represents an authentication challenge using the SIM method.
 old-location: netvista\wwan_auth_sim_challenge.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 03/11/2022
 keywords: ["WWAN_AUTH_SIM_CHALLENGE structure"]
 ms.keywords: "*PWWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_SIM_CHALLENGE, WWAN_AUTH_SIM_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_SIM_CHALLENGE, netvista.wwan_auth_sim_challenge, wwan/PWWAN_AUTH_SIM_CHALLENGE, wwan/WWAN_AUTH_SIM_CHALLENGE"
 req.header: wwan.h
@@ -55,28 +55,22 @@ The WWAN_AUTH_SIM_CHALLENGE structure represents an authentication challenge usi
 
 ## -struct-fields
 
-### -field Rand1
-
-### -field Rand2
-
-### -field Rand3
-
 ### -field n
 
 The number of random number challenges.
 
 
-### -field Rand1[WWAN_AUTH_RAND_LEN]
+### -field Rand1
 
 The first 128-bit random number challenge value. This member represents a multi-byte value in little-endian format.
 
 
-### -field Rand2[WWAN_AUTH_RAND_LEN]
+### -field Rand2
 
 The second 128-bit random number challenge value. This member represents a multi-byte value in little-endian format.
 
 
-### -field Rand3[WWAN_AUTH_RAND_LEN]
+### -field Rand3
 
 The third 128-bit random number challenge value. This member represents a multi-byte value in little-endian format.
 

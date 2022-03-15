@@ -432,6 +432,10 @@ Asynchronous [OID_WWAN_REGISTER_PARAMS](/windows-hardware/drivers/network/oid-ww
 
 Asynchronous [OID_WWAN_NETWORK_PARAMS](/windows-hardware/drivers/network/oid-wwan-network-params) get request.
 
+### -field WwanAsyncGetUePolicy
+
+Asynchronous [OID_WWAN_UE_POLICY](/windows-hardware/drivers/network/oid-wwan-ue-policy) get request.
+
 
 ## -see-also
 

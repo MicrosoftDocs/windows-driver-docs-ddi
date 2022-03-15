@@ -4,7 +4,7 @@ title: _WWAN_SET_CONTEXT_STATE (wwan.h)
 description: The WWAN_SET_CONTEXT_STATE structure represents the command to set the Packet Data Protocol (PDP) context state of the MB device.
 old-location: netvista\wwan_set_context_state.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 03/15/2022
 keywords: ["WWAN_SET_CONTEXT_STATE structure"]
 ms.keywords: "*PWWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_a4c14223-1c16-4f87-8820-2a45f04bb62d.xml, _WWAN_SET_CONTEXT_STATE, netvista.wwan_set_context_state, wwan/PWWAN_SET_CONTEXT_STATE, wwan/WWAN_SET_CONTEXT_STATE"
 req.header: wwan.h
@@ -218,6 +218,19 @@ A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 ### -field MediaPreference
 
 ### -field ConnectionMediaSource
+
+### -field ActivationOption
+
+A value from the [**WWAN_ACTIVATION_OPTION**](ne-wwan-wwan_activation_option.md) enumeration that represents the Packet Data Protocol (PDP) activation options that the MB device supports.
+
+### -field Snssai
+
+A [**WWAN_SINGLE_NSSAI**](ns-wwan-wwan_single_nssai.md) structure representing a single Network Slice Selection Assistance Information (NSSAI).
+
+### -field TrafficParameters
+
+A [**WWAN_OFFSET_SIZE_ELEMENT**](ns-wwan-wwan_offset_size_element.md) structure. The first 4 bytes are the offset to the DataBuffer containing the raw data of MBIM_TLV_TYPE_TRAFFIC_PARAMETERS data field, in bytes, calculated from the beginning of WWAN_SET_CONTEXT_STATE.
+The second 4 bytes are size of the raw data of MBIM_TLV_TYPE_TRAFFIC_PARAMETERS data field, in bytes.
 
 ## -see-also
 
