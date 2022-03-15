@@ -186,7 +186,7 @@ Only valid if the status is WWAN_STATUS_SESSION_ALREADY_EXISTS.
 
 ### -field TrafficParameters
 
-Only valid if the status is WWAN_STATUS_DESSOCIATION_NEEDED_FOR_APPLICATION.
+A [**WWAN_OFFSET_SIZE_ELEMENT**](ns-wwan-wwan_offset_size_element.md) structure. Only valid if the status is WWAN_STATUS_DESSOCIATION_NEEDED_FOR_APPLICATION.
 The first 4 bytes are the offset to the DataBuffer containing the raw data of MBIM_TLV_TYPE_TRAFFIC_PARAMETERS, in bytes, calculated from the beginning of WWAN_SET_CONTEXT_STATE. The second 4 bytes are the size of the raw data of MBIM_TLV_TYPE_TRAFFIC_PARAMETERS, in bytes.
 
 ## -remarks

@@ -3,7 +3,7 @@ UID: NS:wwan._WWAN_NETWORK_PARAMS_INFO
 tech.root: netvista
 title: WWAN_NETWORK_PARAMS_INFO
 description: The WWAN_NETWORK_PARAMS_INFO structure represents data for NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE notifications.
-ms.date: 06/01/2021
+ms.date: 03/15/2022
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-The **WWAN_NETWORK_PARAMS_INFO** structure represents network configuration data and policy information. Miniport drivers use this structure with [NDIS_WWAN_NETWORK_PARAMS_INFO](../ndiswwan/ns-ndiswwan-ndis_wwan_network_params_info.md) and [NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE](/windows-hardware/drivers/network/ndis-status-wwan-network-params-state) notifications to notify the host of network parameter updates.
+The **WWAN_NETWORK_PARAMS_INFO** structure represents network configuration data and policy information. Miniport drivers use this structure with [**NDIS_WWAN_NETWORK_PARAMS_INFO**](../ndiswwan/ns-ndiswwan-ndis_wwan_network_params_info.md) and [NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE](/windows-hardware/drivers/network/ndis-status-wwan-network-params-state) notifications to notify the host of network parameter updates.
 
 ## -struct-fields
 
@@ -57,27 +57,27 @@ Valid only if NetworkConfigurationsNeeded is 1 in the query request.
 
 ### -field TaiList
 
-The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_TAI_LIST**](ns-wwan-wwan_tai_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_TAI_LIST**, in bytes.
+A [**WWAN_OFFSET_SIZE_ELEMENT**](ns-wwan-wwan_offset_size_element.md) structure. The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_TAI_LIST**](ns-wwan-wwan_tai_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_TAI_LIST**, in bytes.
 
 ### -field AllowedNssaiList
 
-The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_SNSSAI_LIST**](ns-wwan-wwan_snssai_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_SNSSAI_LIST**, in bytes.
+A [**WWAN_OFFSET_SIZE_ELEMENT**](ns-wwan-wwan_offset_size_element.md) structure. The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_SNSSAI_LIST**](ns-wwan-wwan_snssai_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_SNSSAI_LIST**, in bytes.
 
 ### -field ConfiguredNssaiList
 
-The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_SNSSAI_LIST**](ns-wwan-wwan_snssai_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_SNSSAI_LIST**, in bytes.
+A [**WWAN_OFFSET_SIZE_ELEMENT**](ns-wwan-wwan_offset_size_element.md) structure. The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_SNSSAI_LIST**](ns-wwan-wwan_snssai_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_SNSSAI_LIST**, in bytes.
 
 ### -field RejectedNssaiList
 
-The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_REJECTED_SNSSAI_LIST**](ns-wwan-wwan_rejected_snssai_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_REJECTED_SNSSAI_LIST**, in bytes.
+A [**WWAN_OFFSET_SIZE_ELEMENT**](ns-wwan-wwan_offset_size_element.md) structure. The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_REJECTED_SNSSAI_LIST**](ns-wwan-wwan_rejected_snssai_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_REJECTED_SNSSAI_LIST**, in bytes.
 
 ### -field DefaultConfiguredNssaiList
 
-The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_SNSSAI_LIST**](ns-wwan-wwan_snssai_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_SNSSAI_LIST**, in bytes.
+A [**WWAN_OFFSET_SIZE_ELEMENT**](ns-wwan-wwan_offset_size_element.md) structure. The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_SNSSAI_LIST**](ns-wwan-wwan_snssai_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_SNSSAI_LIST**, in bytes.
 
 ### -field LadnList
 
-The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_LADN_LIST**](ns-wwan-wwan_ladn_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_LADN_LIST**, in bytes.
+A [**WWAN_OFFSET_SIZE_ELEMENT**](ns-wwan-wwan_offset_size_element.md) structure. The first 4 bytes are the offset to the **DataBuffer** containing a [**WWAN_LADN_LIST**](ns-wwan-wwan_ladn_list.md), in bytes, calculated from the beginning of **WWAN_NETWORK_PARAMS_INFO**. The second 4 bytes are the size of **WWAN_LADN_LIST**, in bytes.
 
 ### -field DataBuffer
 
@@ -89,4 +89,4 @@ A buffer containing **TaiList**, **AllowedNssaiList**, **ConfiguredNssaiList**, 
 
 [NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE](/windows-hardware/drivers/network/ndis-status-wwan-network-params-state)
 
-[NDIS_WWAN_NETWORK_PARAMS_INFO](../ndiswwan/ns-ndiswwan-ndis_wwan_network_params_info.md)
+[**NDIS_WWAN_NETWORK_PARAMS_INFO**](../ndiswwan/ns-ndiswwan-ndis_wwan_network_params_info.md)
