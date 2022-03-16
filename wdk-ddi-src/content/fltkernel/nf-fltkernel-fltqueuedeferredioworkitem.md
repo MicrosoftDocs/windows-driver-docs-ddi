@@ -109,7 +109,7 @@ The operation must be an IRP-based I/O operation. To determine whether a given c
 
 * **FltQueueDeferredIoWorkItem** cannot post a paging I/O operation to a worker thread.
 
-* **FltQueueDeferredIoWorkItem** cannot post an I/O operation to a worker thread if the **TopLevelIrp** field of the current thread is not **NULL**, because the resulting file system recursion could cause deadlocks or stack overflows. For more information, see [**IoGetTopLevelIrp**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogettoplevelirp).
+* **FltQueueDeferredIoWorkItem** cannot post an I/O operation to a worker thread if the **TopLevelIrp** field of the current thread is not **NULL**, because the resulting file system recursion could cause deadlocks or stack overflows. For more information, see [**IoGetTopLevelIrp**](../ntifs/nf-ntifs-iogettoplevelirp.md).
 
 A minifilter driver can use **FltQueueDeferredIoWorkItem** in a preoperation callback ([**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)) routine as follows:
 
@@ -149,7 +149,7 @@ The work routine calls [**FltFreeDeferredIoWorkItem**](nf-fltkernel-fltfreedefer
 
 [**FltFreeDeferredIoWorkItem**](nf-fltkernel-fltfreedeferredioworkitem.md)
 
-[**IoGetTopLevelIrp**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogettoplevelirp)
+[**IoGetTopLevelIrp**](../ntifs/nf-ntifs-iogettoplevelirp.md)
 
 [**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)
 
