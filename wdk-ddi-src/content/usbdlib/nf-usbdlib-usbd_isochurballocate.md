@@ -75,6 +75,6 @@ Possible values include, but are not limited to, STATUS_INVALID_PARAMETER, which
 ## -see-also
 
 - [Allocating and Building URBs](/windows-hardware/drivers/usbcon/how-to-add-xrb-support-for-client-drivers)
-- [How to Transfer Data to USB Isochronous Endpoints](/windows-hardware/drivers/ddi/index)
+- [How to Transfer Data to USB Isochronous Endpoints](../index.yml)
 - [USBD_ISO_PACKET_DESCRIPTOR](../usb/ns-usb-_usbd_iso_packet_descriptor.md)
 - [_URB_ISOCH_TRANSFER](../usb/ns-usb-_urb_isoch_transfer.md)
