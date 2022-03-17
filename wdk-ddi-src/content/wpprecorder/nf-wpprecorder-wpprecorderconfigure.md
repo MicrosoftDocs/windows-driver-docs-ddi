@@ -4,7 +4,7 @@ title: WppRecorderConfigure macro (wpprecorder.h)
 description: Learn how the WppRecorderConfigure method enables or disables the default log to which WPP prints.
 old-location: devtest\wpprecorderconfigure.htm
 tech.root: devtest
-ms.date: 02/23/2018
+ms.date: 03/17/2022
 keywords: ["WppRecorderConfigure macro"]
 ms.keywords: WppRecorderConfigure, devtest.wpprecorderconfigure, imp_WppRecorderConfigure, imp_WppRecorderConfigure function [Driver Development Tools], wpprecorder/imp_WppRecorderConfigure
 req.header: wpprecorder.h
@@ -47,11 +47,19 @@ api_name:
 
 The <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderconfigure">WppRecorderConfigure</a> method enables or disables the default log to which WPP prints.
 
+## -syntax
+
+```cpp
+VOID WppRecorderConfigure(
+    _In_         PRECORDER_CONFIGURE_PARAMS  ConfigureParams
+    );
+```
+
 ## -parameters
 
 ### -param ConfigureParams
 
-Pointer to a caller-allocated RECORDER_CONFIGURE_PARAMS structure.
+Pointer to a caller-allocated [**RECORDER_CONFIGURE_PARAMS**](/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_recorder_configure_params) structure.
 
 ## -remarks
 
@@ -59,3 +67,17 @@ Before calling <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder
 
 This method only configures the default log. By default that log is enabled. If you have a custom log, you must disable the default log by setting the <b>CreateDefaultLog</b> to FALSE.
 
+#### Example
+
+```cpp
+RECORDER_CONFIGURE_PARAMS                recorderConfigure;
+
+RECORDER_CONFIGURE_PARAMS_INIT(&recorderConfigure);
+// Optionally use the following line to get timestamps in WPP log entries
+recorderConfigure.UseTimeStamp    = WppRecorderTrue;
+// Use this line if you would like more precise timestamps (ten millionths of a second). This is valid only if you have set UseTimeStamp = WppRecorderTrue.
+// recorderConfigure.PreciseTimeStamp = WppRecorderTrue
+status = WppRecorderConfigure(&recorderConfigure);
+```
+
+For more info about timestamps in WPP log entries including sample log output, see [Inflight Trace Recorder (IFR) for logging traces](/windows-hardware/drivers/devtest/using-wpp-recorder).
