@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamAddConnections
 ms.date: 02/02/2022
 targetos: Windows
-description: The AcxStreamAddConnections function adds connections to an existing ACX stream. 
+description: The AcxStreamAddConnections function adds explicit connections to a new ACX stream during EvtAcxCircuitCreateStream
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxStreamAddConnections function adds connections to an existing ACX stream. 
+The AcxStreamAddConnections function adds explicit connections to a new ACX stream during [EvtAcxCircuitCreateStream](..\acxcircuit\nc-acxcircuit-evt_acx_circuit_create_stream.md)
 
 ## -parameters
 
 ### -param Stream
 
-A pointer to a location that that contains an existing ACXSTREAM Object. An ACXSTREAM Object that represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXSTREAM stream object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Connections
 
@@ -64,17 +64,37 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+If the driver does not call AcxStreamAddConnections during EvtAcxCircuitCreateStream, the ACX framework will automatically assign connections between any ACXELEMENT objects that were added to the ACXSTREAM.
+
 ### Example
 
 Example usage is shown below.
 
-TBD - No sample code or unit tests were located
-
 ```cpp
+    //
+    // Explicitly connect the elements of the stream. Note that the driver doesn't 
+    // need to perform this step when elements are connected in the same order
+    // as they were added to the stream.
+    //
 
+    const int numElements = 2;
+    const int numConnections = numElements + 1;
+
+    ACXSTREAM                      Stream;
+
+    ACX_CONNECTION connections[numConnections];
+    ACX_CONNECTION_INIT(&connections[0], Stream, Elements[ElementCount - 2]);
+    ACX_CONNECTION_INIT(&connections[1], Elements[ElementCount - 2], Elements[ElementCount - 1]);
+    ACX_CONNECTION_INIT(&connections[2], Elements[ElementCount - 1], Stream);
+
+    //
+    // Add the connections linking stream to elements.
+    //
+    status = AcxStreamAddConnections(Stream, connections, SIZEOF_ARRAY(connections));
 ```
 
 ## -see-also
 
 [acxstreams.h header](index.md)
 
+READY2GO

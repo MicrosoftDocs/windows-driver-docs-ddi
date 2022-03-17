@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamAddEvents
 ms.date: 02/02/2022
 targetos: Windows
-description: AcxStreamAddEvents adds events to and existing/new (TBD?) stream using an an AcxEvent object. 
+description: AcxStreamAddEvents adds events to a new or existing stream using ACXEVENT objects. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-AcxStreamAddEvents adds events to and existing stream using an AcxEvent object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+AcxStreamAddEvents adds events to a new or existing stream using ACXEVENT objects. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
@@ -52,7 +52,7 @@ A pointer to an existing ACXSTREAM Object. An ACXSTREAM object represents an aud
 
 ### -param Events
 
-A pointer to the ACXEVENT Objects to be added to the Stream. An AcxEvent object that represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally they are exposed as KS events to upper layers.  For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+A pointer to the ACXEVENT Objects to be added to the Stream. An ACXEVENT object represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally they are exposed as KS events to upper layers.  For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param EventsCount
 
@@ -66,15 +66,16 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - No sample code or unit tests were located
-
 Example usage is shown below.
 
 ```cpp
-
+    ACXEVENT event;
+    ...
+    AcxStreamAddEvents(Stream, &event, 1);
 ```
 
 ## -see-also
 
 [acxstreams.h header](index.md)
 
+READY2GO

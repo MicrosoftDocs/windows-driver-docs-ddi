@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamInitAssignMethods
 ms.date: 07/13/2021
 targetos: Windows
-description: The AcxStreamInitAssignMethods function assigns an array of methods to a stream, device and circuit (TBD) using an ACXSTREAM_INIT object.
+description: The AcxStreamInitAssignMethods function assigns an array of methods to a stream using the ACXSTREAM_INIT object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamInitAssignMethods function assigns an array of methods to a stream, device and circuit (TBD) using an *ACXSTREAM_INIT* object.
+The AcxStreamInitAssignMethods function assigns an array of methods to a stream using the ACXSTREAM_INIT object.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ An array of ACX_METHOD_ITEM that describes the methods to be assigned.
 
 ### -param MethodsCount
 
-A zero based (1 TBD?) of count of the number of methods in the Methods array.
+The 1-based count of the number of methods in the Methods array.
 
 ## -returns
 
@@ -70,21 +70,20 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
-
-static ACX_METHOD_ITEM StreamMethods[] =
-{
+    static ACX_METHOD_ITEM StreamMethods[] =
     {
-        &KSMETHODSETID_AcxTestMethod,
-        KSMETHOD_ACXSTREAM_TEST_IN2OUT,
-        ACX_METHOD_ITEM_FLAG_SEND,
-        Codec_EvtTestIn2OutMethodCallback,
-        NULL,               // Reserved
-        sizeof(ULONG),      // ControlCb
-        sizeof(ULONG),      // ValueCb
-    },
-};
+        {
+            &KSMETHODSETID_AcxTestMethod,
+            KSMETHOD_ACXSTREAM_TEST_IN2OUT,
+            ACX_METHOD_ITEM_FLAG_SEND,
+            Codec_EvtTestIn2OutMethodCallback,
+            NULL,               // Reserved
+            sizeof(ULONG),      // ControlCb
+            sizeof(ULONG),      // ValueCb
+        },
+    };
 
-static ULONG StreamMethodsCount = SIZEOF_ARRAY(StreamMethods);
+    static ULONG StreamMethodsCount = SIZEOF_ARRAY(StreamMethods);
 
     status = AcxStreamInitAssignMethods(StreamInit,
                                          StreamMethods,
@@ -97,3 +96,4 @@ static ULONG StreamMethodsCount = SIZEOF_ARRAY(StreamMethods);
 
 [acxstreams.h header](index.md)
 
+READY2GO
