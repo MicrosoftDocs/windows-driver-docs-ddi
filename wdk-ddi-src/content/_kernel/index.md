@@ -3,7 +3,7 @@ description: "Learn more about: Kernel"
 UID: TP:kernel
 title: Windows kernel
 ms.assetid: f7c71d77-9a5b-3320-80a1-302b75314d1e
-ms.date: 05/09/2018
+ms.date: 03/18/2022
 keywords: ["Windows kernel"]
 ms.keywords: 
 ms.topic: portal
