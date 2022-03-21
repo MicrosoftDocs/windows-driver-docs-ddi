@@ -309,6 +309,10 @@ Reserved for NDIS.
 
 Reserved for NDIS.
 
+### -field SwitchForwardingDetail_b0_to_b31
+
+### -field SwitchForwardingDetail_b32_to_b63
+
 ### -field MaxNetBufferListInfo
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS header files and binaries.
