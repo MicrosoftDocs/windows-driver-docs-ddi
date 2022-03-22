@@ -52,7 +52,7 @@ The data format for which to retrieve the bits per audio sample.
 
 ## -returns
 
-Returns a ULONG containing the number of bits per audio sample for the specified *DataFormat*.
+Returns a ULONG value containing the number of bits per audio sample for the specified *DataFormat*.
 
 ## -remarks
 

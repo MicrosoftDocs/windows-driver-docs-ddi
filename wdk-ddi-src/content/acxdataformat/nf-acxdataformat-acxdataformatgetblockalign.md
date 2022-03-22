@@ -52,7 +52,7 @@ The data format for which to retrieve the block alignment.
 
 ## -returns
 
-Returns a ULONG containing the block alignment, in bytes, for the specified data format. The block alignment is the minimum atomic unit of data for the *DataFormat* type.
+Returns a ULONG value containing the block alignment, in bytes, for the specified data format. The block alignment is the minimum atomic unit of data for the *DataFormat* type.
 
 ## -remarks
 

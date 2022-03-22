@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatGetChannelMask
 tech.root: audio
 title: AcxDataFormatGetChannelMask
-ms.date: 01/10/2022
+ms.date: 03/22/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatGetChannelMask function gets the channel mask for the specified data format.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,40 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetChannelMask** function gets the [channel mask](/windows-hardware/drivers/audio/channel-mask) for the specified data format.
+
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
+
+The data format for which to retrieve the channel mask.
 
 ## -returns
 
+Returns a ULONGLONG value containing the channel mask.
+
 ## -remarks
+
+The channel mask specifies the mapping of channels to speakers.
+
+The following table shows the meaning of each bit in the channel mask:
+
+| Bit number | Speaker position | Description           |
+|------------|------------------|-----------------------|
+| 0          | FL               | Front left            |
+| 1          | FR               | Front right           |
+| 2          | FC               | Front center          |
+| 3          | LFE              | Low-frequency effects |
+| 4          | BL               | Back left             |
+| 5          | BR               | Back right            |
+| 6          | FLC              | Front left of center  |
+| 7          | FRC              | Front right of center |
+| 8          | BC               | Back center           |
+| 9          | SL               | Side left             |
+| 10         | SR               | Side right            |
 
 ## -see-also
 
+- [Channel Mask](/windows-hardware/drivers/audio/channel-mask)
+
+TBD - Please review this topic

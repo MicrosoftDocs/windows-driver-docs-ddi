@@ -52,7 +52,7 @@ The data format for which to retrieve the average bytes per second.
 
 ## -returns
 
-Returns a ULONG containing the average number of bytes per second for the specified *DataFormat*.
+Returns a ULONG value containing the average number of bytes per second for the specified *DataFormat*.
 
 ## -remarks
 

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxDataFormatGetChannelsCount
 ms.date: 01/10/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatGetChannelsCount function gets the number of audio channels in the specified data format.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,20 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetChannelsCount** function gets the number of audio channels in the specified data format.
+
 ## -parameters
 
 ### -param DataFormat
 
+The data format for which to retrieve the count of channels.
+
 ## -returns
+
+Returns a USHORT value containing the number of channels specified in the *DataFormat*.
 
 ## -remarks
 
 ## -see-also
 
+TBD - Please review this topic
