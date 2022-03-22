@@ -65,7 +65,7 @@ Bitmask of flags specifying the desired attributes for the object handle. If the
 
 ### -param PassedAccessState [in, optional]
 
-Pointer to an [**ACCESS_STATE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state) structure containing the object's subject context, granted access types, and remaining desired access types. This parameter is optional and can be NULL. In a create dispatch routine, this pointer can be found in **IrpSp->Parameters.Create.SecurityContext->AccessState**, where **IrpSp** is a pointer to the caller's own stack location in the IRP. (For more information, see [**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create).)
+Pointer to an [**ACCESS_STATE**](../wdm/ns-wdm-_access_state.md) structure containing the object's subject context, granted access types, and remaining desired access types. This parameter is optional and can be NULL. In a create dispatch routine, this pointer can be found in **IrpSp->Parameters.Create.SecurityContext->AccessState**, where **IrpSp** is a pointer to the caller's own stack location in the IRP. (For more information, see [**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create).)
 
 ### -param DesiredAccess [in]
 
@@ -109,7 +109,7 @@ Pointer to a caller-allocated variable that receives a handle to the object.
 
 If the **Object** parameter points to a file object (that is, a FILE_OBJECT structure), **ObOpenObjectByPointer** can only be called after at least one handle has been created for the file object. Callers can check the **Flags** member of the FILE_OBJECT structure that the **Object** parameter points to. If the FO_HANDLE_CREATED flag is set, this means that one or more handles have been created for the file object, so it is safe to call **ObOpenObjectByPointer**.
 
-Any handle obtained by calling **ObOpenObjectByPointer** must eventually be released by calling [**ZwClose**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose).
+Any handle obtained by calling **ObOpenObjectByPointer** must eventually be released by calling [**ZwClose**](./nf-ntifs-ntclose.md).
 
 Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE flag in the **HandleAttributes** parameter. This restricts the use of the handle returned by **ObOpenObjectByPointer** to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.
 
@@ -117,14 +117,14 @@ Driver routines that run in a process context other than that of the system proc
 
 [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask)
 
-[**ACCESS_STATE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state)
+[**ACCESS_STATE**](../wdm/ns-wdm-_access_state.md)
 
 [**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create)
 
-[**ObReferenceObject**](/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject)
+[**ObReferenceObject**](../wdm/nf-wdm-obfreferenceobject.md)
 
-[**ObReferenceObjectByHandle**](/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle)
+[**ObReferenceObjectByHandle**](../wdm/nf-wdm-obreferenceobjectbyhandle.md)
 
-[**ObReferenceObjectByPointer**](/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbypointer)
+[**ObReferenceObjectByPointer**](../wdm/nf-wdm-obreferenceobjectbypointer.md)
 
-[**ZwClose**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
+[**ZwClose**](./nf-ntifs-ntclose.md)

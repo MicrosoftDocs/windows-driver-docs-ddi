@@ -2,9 +2,8 @@
 UID: NF:ks.KSMETHOD_ITEM_IRP_STORAGE
 title: KSMETHOD_ITEM_IRP_STORAGE macro (ks.h)
 description: This macro accesses a pointer to the relevant KSMETHOD_ITEM. Note that this pointer is only set when using KsMethodHandlerWithAllocator.
-old-location: stream\ksmethod_item_irp_storage.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/11/2022
 keywords: ["KSMETHOD_ITEM_IRP_STORAGE macro"]
 ms.keywords: KSMETHOD_ITEM_IRP_STORAGE, KSMETHOD_ITEM_IRP_STORAGE macro [Streaming Media Devices], ks/KSMETHOD_ITEM_IRP_STORAGE, ksfunc_f9a51af4-aa4e-432d-99e3-03052e99b902.xml, stream.ksmethod_item_irp_storage
 req.header: ks.h
@@ -41,23 +40,19 @@ api_name:
  - KSMETHOD_ITEM_IRP_STORAGE
 ---
 
-# KSMETHOD_ITEM_IRP_STORAGE macro
-
-
 ## -description
 
-This macro accesses a pointer to the relevant [KSMETHOD_ITEM](./ns-ks-ksmethod_item.md). Note that this pointer is only set when using [KsMethodHandlerWithAllocator](./nf-ks-ksmethodhandlerwithallocator.md).
+This macro accesses a pointer to the relevant [**KSMETHOD_ITEM**](ns-ks-ksmethod_item.md). Note that this pointer is only set when using [KsMethodHandlerWithAllocator](nf-ks-ksmethodhandlerwithallocator.md).
 
 ## -parameters
 
 ### -param Irp [in]
 
-
 Specifies the IRP passed to the handler routine.
 
 ## -remarks
 
-The pointer to a KSMETHOD_ITEM structure is extracted from `Irp->Tail.Overlay.DriverContext`. Parameters in **DriverContext** are initialized by [KsMethodHandler](./nf-ks-ksmethodhandler.md) and [KsMethodHandlerWithAllocator](./nf-ks-ksmethodhandlerwithallocator.md).
+The pointer to a KSMETHOD_ITEM structure is extracted from `Irp->Tail.Overlay.DriverContext`. Parameters in **DriverContext** are initialized by [**KsMethodHandler**](nf-ks-ksmethodhandler.md) and [**KsMethodHandlerWithAllocator**](nf-ks-ksmethodhandlerwithallocator.md).
 
 The macro is defined as follows:
 
@@ -69,12 +64,12 @@ The macro is defined as follows:
 
 [KSMETHOD](/windows-hardware/drivers/stream/ksmethod-structure)
 
-[KSMETHOD_ITEM](./ns-ks-ksmethod_item.md)
+[KSMETHOD_ITEM](ns-ks-ksmethod_item.md)
 
-[KSMETHOD_SET](./ns-ks-ksmethod_set.md)
+[KSMETHOD_SET](ns-ks-ksmethod_set.md)
 
-[KsFastMethodHandler](./nf-ks-ksfastmethodhandler.md)
+[KsFastMethodHandler](nf-ks-ksfastmethodhandler.md)
 
-[KsMethodHandler](./nf-ks-ksmethodhandler.md)
+[KsMethodHandler](nf-ks-ksmethodhandler.md)
 
-[KsMethodHandlerWithAllocator](./nf-ks-ksmethodhandlerwithallocator.md)
+[KsMethodHandlerWithAllocator](nf-ks-ksmethodhandlerwithallocator.md)

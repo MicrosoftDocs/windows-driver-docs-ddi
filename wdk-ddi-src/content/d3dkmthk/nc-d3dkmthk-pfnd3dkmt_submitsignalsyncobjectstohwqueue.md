@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 title: PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE (d3dkmthk.h)
 description: Implemented by the client driver to submit a signal to the hardware queue.
-ms.date: 10/19/2018
+ms.date: 03/04/2022
 keywords: ["PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE callback function"]
 req.header: d3dkmthk.h
 req.include-header: 
@@ -40,42 +40,31 @@ product:
 
 # PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE callback function
 
-
 ## -description
 
 Implemented by the client driver to submit a signal to the hardware queue.
 
+## -syntax
+
+```cpp
+PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE PfnD3dkmtSubmitSignalSyncObjectsToHwQueue;
+
+NTSTATUS PfnD3dkmtSubmitSignalSyncObjectsToHwQueue(
+    const D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE *unnamedParam1
+)
+{...}
+```
+
 ## -parameters
 
-### -param D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE *
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitsignalsyncobjectstohwqueue.md) structure.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code.
-
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE Pfnd3dkmtSubmitsignalsyncobjectstohwqueue;
-
-// Definition
-
-NTSTATUS Pfnd3dkmtSubmitsignalsyncobjectstohwqueue
-(
-	CONST D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE *
-)
-{...}
-
-PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
-
-
-```
+The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this method might return an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** error code.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of [D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitsignalsyncobjectstohwqueue.md) and then calling Pfnd3dkmtSubmitsignalsyncobjectstohwqueue.
-
+Register your implementation of this callback function by setting the appropriate member of [D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitsignalsyncobjectstohwqueue.md) and then calling **PfnD3dkmtSubmitSignalSyncObjectsToHwQueue**.

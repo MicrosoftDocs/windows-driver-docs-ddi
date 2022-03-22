@@ -2,7 +2,7 @@
 UID: NE:d3dkmthk.D3DKMT_MULTIPLANE_OVERLAY_FLAGS
 title: D3DKMT_MULTIPLANE_OVERLAY_FLAGS (d3dkmthk.h)
 description: Multiplane overlay flags.
-ms.date: 10/19/2018
+ms.date: 03/03/2022
 keywords: ["D3DKMT_MULTIPLANE_OVERLAY_FLAGS enumeration"]
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_FLAGS, D3DKMT_MULTIPLANE_OVERLAY_FLAGS,
 req.header: d3dkmthk.h
@@ -35,22 +35,24 @@ dev_langs:
 
 # D3DKMT_MULTIPLANE_OVERLAY_FLAGS enumeration
 
-
 ## -description
 
 Multiplane overlay flags.
 
 ## -enum-fields
 
-### -field D3DKMT_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP 
+### -field D3DKMT_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP
 
 Vertical flip.
 
-### -field D3DKMT_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP 
+### -field D3DKMT_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP
 
 Horizontal flip.
+
+### -field D3DKMT_MULTIPLANE_OVERLAY_FLAG_STATIC_CHECK
+
+Static check.
 
 ## -remarks
 
 ## -see-also
-
