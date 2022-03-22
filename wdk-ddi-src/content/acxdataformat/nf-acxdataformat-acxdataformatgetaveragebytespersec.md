@@ -42,13 +42,20 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetAverageBytesPerSec** function gets the average bytes per second for the specified data format.
+
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
+
+The data format for which to retrieve the average bytes per second.
 
 ## -returns
+
+Returns a ULONG containing the average number of bytes per second for the specified *DataFormat*.
 
 ## -remarks
 
 ## -see-also
 
+TBD - Please review this topic

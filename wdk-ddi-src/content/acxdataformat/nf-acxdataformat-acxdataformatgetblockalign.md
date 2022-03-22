@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxDataFormatGetBlockAlign
 ms.date: 01/10/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatGetBlockAlign function gets the block alignment of the specified data format.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,20 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetBlockAlign** function gets the block alignment of the specified data format.
+
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
+
+The data format for which to retrieve the block alignment.
 
 ## -returns
+
+Returns a ULONG containing the block alignment, in bytes, for the specified data format. The block alignment is the minimum atomic unit of data for the *DataFormat* type.
 
 ## -remarks
 
 ## -see-also
 
+TBD - Please review this topic

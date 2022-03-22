@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.ACX_DATAFORMAT_CONFIG_INIT
 tech.root: audio
 title: ACX_DATAFORMAT_CONFIG_INIT
-ms.date: 03/21/2022
+ms.date: 03/22/2022
 targetos: Windows
 description: The ACX_DATAFORMAT_CONFIG_INIT function initializes an ACX_DATAFORMAT_CONFIG structure for use by an audio class extension (ACX).
 prerelease: true
@@ -46,7 +46,7 @@ The **ACX_DATAFORMAT_CONFIG_INIT** function initializes an [ACX_DATAFORMAT_CONFI
 
 ## -parameters
 
-### -param Config
+### -param Config [out]
 
 A pointer to the [ACX_DATAFORMAT_CONFIG](ns-acxdataformat-acx_dataformat_config.md) structure to initialize.
 

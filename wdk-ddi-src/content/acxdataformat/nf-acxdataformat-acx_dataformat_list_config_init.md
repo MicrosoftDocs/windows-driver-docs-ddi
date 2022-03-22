@@ -46,7 +46,7 @@ The **ACX_DATAFORMAT_LIST_CONFIG_INIT** function initializes an [ACX_DATAFORMAT_
 
 ## -parameters
 
-### -param Config
+### -param Config [out]
 
 A pointer to the [ACX_DATAFORMAT_LIST_CONFIG](ns-acxdataformat-acx_dataformat_list_config.md) structure to initialize.
 
