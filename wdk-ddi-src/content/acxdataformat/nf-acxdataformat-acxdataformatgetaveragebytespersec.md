@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatGetAverageBytesPerSec
 tech.root: audio
 title: AcxDataFormatGetAverageBytesPerSec
-ms.date: 01/10/2022
+ms.date: 03/22/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatGetAverageBytesPerSec function gets the average bytes per second for the specified data format.
 prerelease: true
 req.assembly: 
 req.construct-type: function
