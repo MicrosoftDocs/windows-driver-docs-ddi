@@ -3,7 +3,7 @@ description: "Learn more about: Storage"
 UID: TP:storage
 title: Storage overview
 ms.assetid: 2c8add25-915b-3bb1-957b-a04df40081fc
-ms.date: 10/28/2021
+ms.date: 03/23/2022
 keywords: ["Storage"]
 ms.keywords: 
 ms.topic: portal
@@ -31,7 +31,6 @@ For the programming guide, see the [Storage design guide](/windows-hardware/driv
 * [iscsiop.h](../iscsiop/index.md)
 * [iscsiprf.h](../iscsiprf/index.md)
 * [mcd.h](../mcd/index.md)
-* [miniport.h](../miniport/index.md)
 * [minitape.h](../minitape/index.md)
 * [mountdev.h](../mountdev/index.md)
 * [mountmgr.h](../mountmgr/index.md)
