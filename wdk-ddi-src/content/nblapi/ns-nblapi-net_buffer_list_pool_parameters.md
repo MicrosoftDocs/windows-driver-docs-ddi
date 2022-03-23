@@ -136,7 +136,7 @@ For more information, see the Remarks section.
 ### -field Flags
 The following flag is defined:
 #### NET_BUFFER_LIST_POOL_FLAG_VERIFY 0x00000001
-If this flag is set, NDIS will not immediately reuse NET_BUFFER_LISTs from this pool. Instead, allocations will be marked as no-access upon freeing, so that drivers can detect use-after-free bugs.
+If this flag is set, NDIS will not immediately reuse NET_BUFFER_LISTs from this pool. Instead, allocations will be marked as no-access when they are freed so that drivers can detect use-after-free bugs.
 
 ## -remarks
 

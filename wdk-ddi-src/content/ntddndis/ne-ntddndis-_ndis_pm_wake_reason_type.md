@@ -85,7 +85,7 @@ The 802.11 network adapter generated the wake-up event because it became disasso
 
 The 802.11 network adapter generated the wake-up event because it encountered an error during the IEEE 802.11i RSN group transient key (GTK) handshake with the AP.
 
-### -field NdisWakeReasonWlan4WayHandshakeRequest
+### -field NdisWakeReasonWlan4WayHandshakeRequest:0x1003
 
 The 802.11 network adapter generated the wake-up event because it received the first frame of the IEEE 802.11i RSN 4-way handshake with the AP. This handshake is performed when the adapter authenticates with the AP.
 
