@@ -70,6 +70,10 @@ A pointer to the client driver's [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](n
 
 A pointer to the client driver's [*EVT_PACKET_QUEUE_CANCEL*](nc-netpacketqueue-evt_packet_queue_cancel.md) event callback function for this packet queue. This callback function is required.
 
+### -field ExecutionContext
+
+A NETEXECUTIONCONTEXT object.
+
 ## -remarks
 
 Call [**NET_PACKET_QUEUE_CONFIG_INIT**](nf-netpacketqueue-net_packet_queue_config_init.md) to initialize this structure.

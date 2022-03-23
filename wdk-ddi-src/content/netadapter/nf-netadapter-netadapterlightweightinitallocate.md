@@ -2,7 +2,7 @@
 UID: NF:netadapter.NetAdapterLightweightInitAllocate
 tech.root: netvista
 title: NetAdapterLightweightInitAllocate
-ms.date: 03/17/2022
+ms.date: 03/22/2022
 targetos: Windows
 description: The NetAdapterLightweightInitAllocate function allocates a NETADAPTER_INIT structure that a client driver uses when creating a new NETADAPTER object for a deviceless adapter.
 prerelease: false
@@ -62,4 +62,10 @@ Returns a pointer to a framework-allocated NETADAPTER_INIT structure if the oper
 ## -remarks
 
 ## -see-also
+
+[Device initialization](/windows-hardware/drivers/netcx/device-initialization)
+
+[**NetAdapterCreate**](nf-netadapter-netadaptercreate.md)
+
+[**NetAdapterInitFree**](nf-netadapter-netadapterinitfree.md)
 
