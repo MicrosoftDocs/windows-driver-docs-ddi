@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxDataFormatGetAverageBytesPerSec
 ms.date: 03/22/2022
 targetos: Windows
-description: The AcxDataFormatGetAverageBytesPerSec function gets the average bytes per second for the specified data format.
+description: The AcxDataFormatGetAverageBytesPerSec function gets the required bytes-per-second transfer rate for the specified data format.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,20 +42,22 @@ dev_langs:
 
 ## -description
 
-The **AcxDataFormatGetAverageBytesPerSec** function gets the average bytes per second for the specified data format.
+The **AcxDataFormatGetAverageBytesPerSec** function gets the required bytes-per-second transfer rate for the specified data format.
 
 ## -parameters
 
 ### -param DataFormat [in]
 
-The data format for which to retrieve the average bytes per second.
+The data format for which to retrieve the required bytes-per-second transfer rate.
 
 ## -returns
 
-Returns a ULONG value containing the average number of bytes per second for the specified *DataFormat*.
+Returns a ULONG value containing the required bytes-per-second transfer rate for the specified *DataFormat*.
 
 ## -remarks
 
 ## -see-also
+
+- [WAVEFORMAT structure](/windows/win32/api/mmreg/ns-mmreg-waveformat)
 
 TBD - Please review this topic
