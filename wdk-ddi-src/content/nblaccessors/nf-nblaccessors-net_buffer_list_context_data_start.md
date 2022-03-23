@@ -4,7 +4,7 @@ tech.root: netvista
 title: NET_BUFFER_LIST_CONTEXT_DATA_START
 ms.date: 03/16/2022
 targetos: Windows
-description: 
+description: NET_BUFFER_LIST_CONTEXT_DATA_START is a macro that NDIS drivers use to get a pointer to the NET_BUFFER_LIST_CONTEXT context space that is associated with a NET_BUFFER_LIST structure.
 prerelease: false
 req.assembly: 
 req.construct-type: function
