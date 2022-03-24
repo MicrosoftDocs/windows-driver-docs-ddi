@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatGetSubFormat
 tech.root: audio
 title: AcxDataFormatGetSubFormat
-ms.date: 01/10/2022
+ms.date: 03/24/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatGetSubFormat function gets the subformat for the specified data format.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,25 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetSubFormat** function gets the subformat for the specified data format.
+
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
+
+The data format for which to retrieve the subformat.
 
 ## -returns
 
+Returns a GUID value representing the subformat for the specified *DataFormat*.
+
 ## -remarks
+
+Specifies the subformat of a general format type. The data subformats that are currently supported can be found in the KSDATAFORMAT_SUBTYPE_XXX symbolic constants in the ksmedia.h header file that is included in the WDK. Major formats that do not support subformats should use the KSDATAFORMAT_SUBTYPE_NONE value for this member.
 
 ## -see-also
 
+- [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
+- [Stream Categories](/windows-hardware/drivers/stream/stream-categories)
+
+TBD - Please review this topic

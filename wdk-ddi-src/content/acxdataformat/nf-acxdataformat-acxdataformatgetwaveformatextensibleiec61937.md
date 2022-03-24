@@ -42,13 +42,22 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetWaveFormatExtensibleIec61937** function gets the WAVEFORMATEXTENSIBLE_IEC61937 structure associated with the specified data format.
+
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
+
+The data format for which to retrieve the WAVEFORMATEXTENSIBLE_IEC61937 structure.
 
 ## -returns
+
+Returns a pointer to the WAVEFORMATEXTENSIBLE_IEC61937 structure associated with the specified *DataFormat*.
 
 ## -remarks
 
 ## -see-also
 
+- [Representing Formats for IEC 61937 Transmissions](/windows/win32/coreaudio/representing-formats-for-iec-61937-transmissions)
+
+TBD - Please review this topic

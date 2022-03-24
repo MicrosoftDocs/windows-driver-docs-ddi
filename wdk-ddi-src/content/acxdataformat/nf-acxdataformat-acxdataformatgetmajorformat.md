@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxDataFormatGetMajorFormat
 ms.date: 01/10/2022
 targetos: Windows
-description: 
+description: AcxDataFormatGetMajorFormat
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,24 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetMajorFormat** function gets the major format for the specified data format.
+
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
+
+The data format for which to retrieve the major format.
 
 ## -returns
 
+Returns a GUID value representing the major format for the specified *DataFormat*.
+
 ## -remarks
+
+Specifies the general format type. The data formats that are currently supported can be found in the KSDATAFORMAT_TYPE_XXX symbolic constants in the ksmedia.h header file that is included in the Windows Driver Kit (WDK). A data stream that has no particular format should use KSDATAFORMAT_TYPE_STREAM (defined in ks.h) as the value for its major format.
 
 ## -see-also
 
+- [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
+
+TBD - Please review this topic
