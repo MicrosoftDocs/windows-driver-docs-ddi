@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_PIN_COMMUNICATION
 tech.root: audio
 title: ACX_PIN_COMMUNICATION
-ms.date: 02/17/2022
+ms.date: 03/25/2022
 targetos: Windows
 description: The ACX_PIN_COMMUNICATION enumeration is used by the ACX_PIN_CONFIG structure to indicate the communication type of a pin.
 prerelease: false
@@ -68,3 +68,5 @@ For internal validation, do not use.
 - [ACX_PIN_CONFIG_INIT](nf-acxpin-acx_pin_config_init.md)
 
 READY2GO
+
+EDITCOMPLETE

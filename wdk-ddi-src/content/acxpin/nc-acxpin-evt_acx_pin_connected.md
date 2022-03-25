@@ -2,7 +2,7 @@
 UID: NC:acxpin.EVT_ACX_PIN_CONNECTED
 tech.root: audio
 title: EVT_ACX_PIN_CONNECTED
-ms.date: 10/14/2021
+ms.date: 03/25/2022
 targetos: Windows
 description: The EVT_ACX_PIN_CONNECTED callback function is implemented by the driver and is called when the circuit bridge pin is connected to bridge pin of another circuit.
 prerelease: false
@@ -56,7 +56,7 @@ An **ACXTARGETCIRCUIT** object representing the circuit to which the *Pin* was c
 
 ### -param TargetPinId
 
-The identifier of the pin in the *TargetCicuit* to which the *Pin* was connected.
+The identifier of the pin in the *TargetCircuit* to which the *Pin* was connected.
 
 ## -remarks
 
@@ -65,3 +65,5 @@ This event happens when the composite circuit is fully initialized. From this po
 ## -see-also
 
 READY2GO
+
+EDITCOMPLETE

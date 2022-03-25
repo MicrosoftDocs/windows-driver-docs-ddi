@@ -2,7 +2,7 @@
 UID: NC:acxpin.EVT_ACX_PIN_DISCONNECTED
 tech.root: audio
 title: EVT_ACX_PIN_DISCONNECTED
-ms.date: 10/14/2021
+ms.date: 03/25/2022
 targetos: Windows
 description: The EVT_ACX_PIN_DISCONNECTED callback function is implemented by the driver and is called when the circuit bridge pin is disconnected from the pin of another circuit.
 prerelease: false
@@ -56,19 +56,23 @@ An **ACXTARGETCIRCUIT** object representing the circuit from which the *Pin* was
 
 ### -param TargetPinId
 
-The identifier of the pin in the *TargetCicuit* from which the *Pin* was disconnected.
+The identifier of the pin in the *TargetCircuit* from which the *Pin* was disconnected.
 
 ## -remarks
 
 This callback is not guaranteed to be called in the following scenarios:
-. This device is removed or surprised-removed.
-. This device is disabled (query-removed and removed) via device manager.
-The drivers must not relay on this callback for its only resource cleanup.
 
-The specified ACXTARGETCIRCUIT may be already in its stop state b/c the target circuit may already be gone. 
+- This device is removed or surprised-removed.
+- This device is disabled (query-removed and removed) via device manager.
+
+A driver must not rely on this callback as its only resource cleanup.
+
+The specified ACXTARGETCIRCUIT may be already in its stop state b/c the target circuit may already be gone.
 
 Driver can still access its ACXTARGETCIRCUIT context.
 
 ## -see-also
 
 READY2GO
+
+EDITCOMPLETE
