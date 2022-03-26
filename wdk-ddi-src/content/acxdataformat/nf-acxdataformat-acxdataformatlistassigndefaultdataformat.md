@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatListAssignDefaultDataFormat
 tech.root: audio
 title: AcxDataFormatListAssignDefaultDataFormat
-ms.date: 01/10/2022
+ms.date: 03/25/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatListAssignDefaultDataFormat function adds an ACXDATAFORMAT object to the specified data format list and sets the ACXDATAFORMAT object as the default.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,24 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatListAssignDefaultDataFormat** function adds an [ACXDATAFORMAT](index.md) object to the specified data format list and sets the **ACXDATAFORMAT** object as the default.
+
 ## -parameters
 
-### -param AcxDataFormatList
+### -param AcxDataFormatList [in]
 
-### -param AcxDataFormat
+The data format list to which the the [ACXDATAFORMAT](index.md) object is added and assigned as the default.
+
+### -param AcxDataFormat [in]
+
+The [ACXDATAFORMAT](index.md) object to add and assign as the default in the *AcxDataFormatList*.
 
 ## -returns
+
+The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this method might return an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** error code.
 
 ## -remarks
 
 ## -see-also
 
+TBD - Please review this topic

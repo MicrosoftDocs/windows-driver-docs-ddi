@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatListAddDataFormat
 tech.root: audio
 title: AcxDataFormatListAddDataFormat
-ms.date: 01/10/2022
+ms.date: 03/25/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatListAddDataFormat function adds an ACXDATAFORMAT object to a data format list.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,24 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatListAddDataFormat** function adds an [ACXDATAFORMAT](index.md) object to a data format list.
+
 ## -parameters
 
-### -param AcxDataFormatList
+### -param AcxDataFormatList [in]
 
-### -param AcxDataFormat
+The data format list to which *AcxDataFormat* is added.
+
+### -param AcxDataFormat [in]
+
+The [ACXDATAFORMAT](index.md) object to add to *AcxDataFormatList*.
 
 ## -returns
+
+The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this method might return an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** error code.
 
 ## -remarks
 
 ## -see-also
 
+TBD - Please review this topic
