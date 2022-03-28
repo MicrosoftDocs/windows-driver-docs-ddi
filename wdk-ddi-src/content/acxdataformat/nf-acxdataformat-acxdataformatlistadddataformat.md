@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatListAddDataFormat
 tech.root: audio
 title: AcxDataFormatListAddDataFormat
-ms.date: 03/25/2022
+ms.date: 03/28/2022
 targetos: Windows
 description: The AcxDataFormatListAddDataFormat function adds an ACXDATAFORMAT object to a data format list.
 prerelease: true
@@ -61,5 +61,8 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 ## -remarks
 
 ## -see-also
+
+- [AcxDataFormatListRemoveDataFormat](nf-acxdataformat-acxdataformatlistremovedataformat.md)
+- [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 
 TBD - Please review this topic
