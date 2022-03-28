@@ -100,7 +100,7 @@ If the target should resume, call <a href="/windows-hardware/drivers/ddi/wdfiota
 
 </li>
 </ol>
-<div class="alert"><b>Note</b>  It is not safe to call <b>WdfIoTargetStop</b> multiple times from different threads.</div>
+<div class="alert"><b>Note</b>  <b>WdfIoTargetStop</b> is not thread safe. It is not safe to call <b>WdfIoTargetStop</b> simultaneously from different threads.</div>
 <div> </div>
 For more information about I/O targets, see <a href="/windows-hardware/drivers/wdf/using-i-o-targets">Using I/O Targets</a>.
 
