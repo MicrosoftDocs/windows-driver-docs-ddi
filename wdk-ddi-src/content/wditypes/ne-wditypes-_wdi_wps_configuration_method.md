@@ -85,3 +85,5 @@ WFDS.
 
 ### -field WDI_WPS_CONFIGURATION_METHOD_DUMMY_MAX_VALUE
 
+The maximum value for this type.
+

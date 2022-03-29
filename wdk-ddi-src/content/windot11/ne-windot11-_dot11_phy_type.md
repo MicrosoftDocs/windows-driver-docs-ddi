@@ -4,7 +4,7 @@ title: _DOT11_PHY_TYPE (windot11.h)
 description: The DOT11_PHY_TYPE enumeration is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11_phy_type.htm
 tech.root: netvista
-ms.date: 02/16/2018
+ms.date: 03/23/2022
 keywords: ["DOT11_PHY_TYPE enumeration"]
 ms.keywords: "*PDOT11_PHY_TYPE, DOT11_PHY_TYPE, DOT11_PHY_TYPE enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_814496a3-4f7e-44a0-925c-0dbf64eb3f72.xml, PDOT11_PHY_TYPE, PDOT11_PHY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_PHY_TYPE, dot11_phy_type_IHV_end, dot11_phy_type_IHV_start, dot11_phy_type_any, dot11_phy_type_dsss, dot11_phy_type_erp, dot11_phy_type_fhss, dot11_phy_type_hrdsss, dot11_phy_type_ht, dot11_phy_type_irbaseband, dot11_phy_type_ofdm, dot11_phy_type_unknown, dot11_phy_type_vht, netvista.dot11_phy_type, windot11/DOT11_PHY_TYPE, windot11/PDOT11_PHY_TYPE, windot11/dot11_phy_type_IHV_end, windot11/dot11_phy_type_IHV_start, windot11/dot11_phy_type_any, windot11/dot11_phy_type_dsss, windot11/dot11_phy_type_erp, windot11/dot11_phy_type_fhss, windot11/dot11_phy_type_hrdsss, windot11/dot11_phy_type_ht, windot11/dot11_phy_type_irbaseband, windot11/dot11_phy_type_ofdm, windot11/dot11_phy_type_unknown, windot11/dot11_phy_type_vht"
 req.header: windot11.h
@@ -105,6 +105,10 @@ Specifies a Directional Multi-Gigabit (DMG) 802.11ad PHY.
 ### -field dot11_phy_type_he 
 
 Specifies a High Efficiency (HE) 802.11ax PHY.
+
+### -field dot11_phy_type_eht
+
+Specifies an extremely high-throughput (EHT) 802.11be PHY.
 
 ### -field dot11_phy_type_IHV_start
 

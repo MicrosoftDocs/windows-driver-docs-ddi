@@ -94,10 +94,6 @@ typedef struct {
 } SCOPE_ID, *PSCOPE_ID;
 ```
 
-### -field OPTIONAL
-
- 
-
 
 
 
