@@ -3,7 +3,7 @@ UID: NE:extension._NET_EXTENSION_TYPE
 title: NET_EXTENSION_TYPE (extension.h)
 description: The NET_EXTENSION_TYPE enumeration specifies the type of extension that a client driver is querying.
 tech.root: netvista
-ms.date: 09/23/2019
+ms.date: 03/28/2022
 keywords: ["NET_EXTENSION_TYPE enumeration"]
 ms.keywords: NET_EXTENSION_TYPE, NET_EXTENSION_TYPE,
 req.header: extension.h
@@ -45,13 +45,17 @@ The **NET_EXTENSION_TYPE** enumeration specifies the type of extension that a cl
 
 ## -enum-fields
 
-### -field NetExtensionTypePacket 
+### -field NetExtensionTypePacket:1 
 
 The extension is a [**NET_PACKET**](../packet/ns-packet-_net_packet.md) extension.
 
-### -field NetExtensionTypeFragment 
+### -field NetExtensionTypeFragment:2 
 
 The extension is a [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md) extension.
+
+### -field NetExtensionTypeBuffer
+
+Reserved for system use.
 
 ## -remarks
 

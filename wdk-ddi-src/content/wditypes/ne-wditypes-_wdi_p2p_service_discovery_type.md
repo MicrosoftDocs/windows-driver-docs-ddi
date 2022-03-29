@@ -69,6 +69,8 @@ The adapter encodes the service hashes in the IEs, tracks the service names from
 
 ### -field WDI_P2P_SERVICE_DISCOVERY_TYPE_MAX_VALUE
 
+The maximum value for this type.
+
 ### -field WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_INFORMATION
 
 Added in Windows 10, version 1607, WDI version 1.0.21.

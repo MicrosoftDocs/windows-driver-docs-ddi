@@ -87,7 +87,7 @@ Specifies a WEP cipher algorithm with a 104-bit cipher key.
 
 Specifies a BIP cipher algorithm.
 
-### -field DOT11_CIPHER_ALGO_GCMP0x08
+### -field DOT11_CIPHER_ALGO_GCMP:0x08
 
 ### -field DOT11_CIPHER_ALGO_WPA_USE_GROUP:0x100
 

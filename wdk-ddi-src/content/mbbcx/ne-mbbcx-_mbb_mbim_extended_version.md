@@ -1,9 +1,9 @@
 ---
 UID: NE:mbbcx._MBB_MBIM_EXTENDED_VERSION
 title: _MBB_MBIM_EXTENDED_VERSION (mbbcx.h)
-description: The MBB_MBIM_EXTENDED_VERSION enumeration defines the version of the extended MBIM specification that a client driver and its device support.
+description: The MBB_MBIM_EXTENDED_VERSION enumeration defines the version of the extended MBIM (MBIMEx) specification that a client driver and its device support.
 tech.root: netvista
-ms.date: 09/27/2019
+ms.date: 03/24/2022
 keywords: ["MBB_MBIM_EXTENDED_VERSION enumeration"]
 ms.keywords: _MBB_MBIM_EXTENDED_VERSION, MBB_MBIM_EXTENDED_VERSION,
 req.header: mbbcx.h
@@ -44,25 +44,33 @@ api_name:
 > 
 > MBBCx is preview only in Windows 10, version 1809.
 
-The **MBB_MBIM_EXTENDED_VERSION** enumeration defines the version of the extended MBIM specification that a client driver and its device support.
+The **MBB_MBIM_EXTENDED_VERSION** enumeration defines the version of the extended MBIM (MBIMEx) specification that a client driver and its device support.
 
 ## -enum-fields
 
 ### -field MbbMbimExtendedVersion1Dot0 
 
-The client driver and device support the extended MBIM specification Rev 1.0.
+The client driver and device support MBIMEx specification Rev 1.0.
 
 ### -field MbbMbimExtendedVersion2Dot0
 
-The client driver and device support the extended MBIM specification Rev 2.0.
+The client driver and device support MBIMEx specification Rev 2.0.
 
 ### -field MbbMbimExtendedVersion3Dot0
 
-The client driver and device support the extended MBIM specification Rev 3.0.
+The client driver and device support MBIMEx specification Rev 3.0.
+
+### -field MbbMbimExtendedVersion4Dot0
+
+The client driver and device support MBIMEx specification Rev 4.0.
+
+### -field MbbMbimExtendedVersionMax
+
+The maximum MBIMEx version. 
 
 ## -remarks
 
-Client drivers set the lowest MBIM specification extended version they support in the **ExtendedVersion** member of the [**MBB_DEVICE_MBIM_PARAMETERS**](ns-mbbcx-_mbb_device_mbim_parameters.md) structure.
+Client drivers set the lowest MBIMEx specification version they support in the **ExtendedVersion** member of the [**MBB_DEVICE_MBIM_PARAMETERS**](ns-mbbcx-_mbb_device_mbim_parameters.md) structure.
 
 ## -see-also
 

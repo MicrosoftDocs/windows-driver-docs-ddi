@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_PHY_TYPE
 tech.root: netvista
 title: WDI_PHY_TYPE (dot11wificxtypes.h)
-ms.date: 06/17/2021
+ms.date: 03/23/2022
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_PHY_TYPE enumeration defines PHY types.
@@ -96,6 +96,10 @@ Added in Windows 10, version 1809. WDI version 1.1.7.
 
 Specifies a High-Efficiency (HE) 802.11ax PHY.
 
+### -field WDI_PHY_TYPE_EHT:11
+
+Specifies an extremely high-throughput (EHT) 802.11be PHY.
+
 ### -field WDI_PHY_TYPE_IHV_START:0x80000000
 
 Specifies the start of the range that is used to define proprietary PHY types that are developed by an independent hardware vendor (IHV).
@@ -103,6 +107,7 @@ Specifies the start of the range that is used to define proprietary PHY types th
 ### -field WDI_PHY_TYPE_IHV_END:0xffffffff
 
 Specifies the end of the range that is used to define proprietary PHY types that are developed by an IHV.
+
 
 ## -remarks
 
