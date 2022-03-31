@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatGetEncodedAverageBytesPerSec
 tech.root: audio
 title: AcxDataFormatGetEncodedAverageBytesPerSec
-ms.date: 01/10/2022
+ms.date: 03/23/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatGetEncodedAverageBytesPerSec function gets the required bytes-per-second transfer rate for the specified encoded data format.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,22 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetEncodedAverageBytesPerSec** function gets the required bytes-per-second transfer rate for the specified encoded data format.
+
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
+
+The encoded data format for which to retrieve the required bytes-per-second transfer rate.
 
 ## -returns
+
+Returns a ULONG value that contains the required bytes-per-second transfer rate for the specified *DataFormat*.
 
 ## -remarks
 
 ## -see-also
 
+- [Representing Formats for IEC 61937 Transmissions](/windows/win32/coreaudio/representing-formats-for-iec-61937-transmissions)
+
+TBD - Please review this topic

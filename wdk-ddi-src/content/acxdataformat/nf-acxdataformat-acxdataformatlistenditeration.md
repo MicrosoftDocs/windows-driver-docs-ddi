@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatListEndIteration
 tech.root: audio
 title: AcxDataFormatListEndIteration
-ms.date: 01/10/2022
+ms.date: 03/28/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatListEndIteration function ends the iteration process on an ACX data format list.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,24 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatListEndIteration** function ends the iteration process on an ACX data format list.
+
 ## -parameters
 
-### -param AcxDataFormatList
+### -param AcxDataFormatList [in]
 
-### -param Iterator
+The data format list being iterated.
+
+### -param Iterator [in, out]
+
+Pointer to the [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md) structure being used for iteration on *AcxDataFormatList*.
 
 ## -remarks
 
+The memory for the *Iterator* is zeroed out by this function and cannot be recovered.
+
 ## -see-also
 
+- [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md)
+
+TBD - Please review this topic

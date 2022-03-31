@@ -2,7 +2,7 @@
 UID: NC:acxpin.EVT_ACX_PIN_RETRIEVE_NAME
 tech.root: audio
 title: EVT_ACX_PIN_RETRIEVE_NAME
-ms.date: 10/14/2021
+ms.date: 03/25/2022
 targetos: Windows
 description: The EVT_ACX_PIN_RETRIEVE_NAME callback function is implemented by the driver and is called when the name is requested for the specified pin.
 prerelease: false
@@ -60,8 +60,10 @@ A pointer to a Unicode string to be populated with the requested pin name.
 
 ## -remarks
 
-ACX pre-allocates the UNICODE_STRING's buffer before invoking this callback. The maximum number of wchars for the name is MAX_PATH not including the NULL terminator. Driver is responsible for copying the name in the buffer and for updating the unicode struct's Length field to the # of bytes used by the string name not including the NULL terminator.
+ACX pre-allocates the UNICODE_STRING buffer before invoking this callback. The maximum number of wchars for the name is MAX_PATH not including the NULL terminator. The driver is responsible for copying the name in the buffer and for updating the Unicode struct *Length* field to the number of bytes used by the name string, not including the NULL terminator.
 
 ## -see-also
 
 READY2GO
+
+EDITCOMPLETE

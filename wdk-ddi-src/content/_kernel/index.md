@@ -3,7 +3,7 @@ description: "Learn more about: Kernel"
 UID: TP:kernel
 title: Windows kernel
 ms.assetid: f7c71d77-9a5b-3320-80a1-302b75314d1e
-ms.date: 05/09/2018
+ms.date: 03/18/2022
 keywords: ["Windows kernel"]
 ms.keywords: 
 ms.topic: portal
@@ -71,6 +71,7 @@ To develop Windows kernel, you need these headers:
 - [hwnclx.h](../hwnclx/index.md)
 - [ioaccess.h](../ioaccess/index.md)
 - [iointex.h](../iointex/index.md)
+- [miniport.h](../miniport/index.md)
 - [ntddk.h](../ntddk/index.md)
 - [ntddsfio.h](../ntddsfio/index.md)
 - [ntddsysenv.h](../ntddsysenv/index.md)
@@ -1512,7 +1513,7 @@ Keep notify routines short and simple.
 - Do not synchronize with other threads because it can lead to reentrancy deadlocks.
 - Use System Worker Threads to queue work especially work involving:
 
-  - Slow API’s or API’s that call into other process.
+  - Slow API's or API's that call into other process.
   - Any blocking behavior which could interrupt threads in core services.
 
 - Be considerate of best practices for kernel mode stack usage. For examples, see How do I keep my driver from running out of kernel-mode stack? and Key Driver Concepts and Tips.

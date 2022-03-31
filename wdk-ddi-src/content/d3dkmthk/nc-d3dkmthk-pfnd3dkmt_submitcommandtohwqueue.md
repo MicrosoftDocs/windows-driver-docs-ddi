@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_SUBMITCOMMANDTOHWQUEUE
 title: PFND3DKMT_SUBMITCOMMANDTOHWQUEUE (d3dkmthk.h)
 description: Implemented by the client driver to submit a command to queue hardware flags.
-ms.date: 10/19/2018
+ms.date: 03/04/2022
 keywords: ["PFND3DKMT_SUBMITCOMMANDTOHWQUEUE callback function"]
 req.header: d3dkmthk.h
 req.include-header: 
@@ -40,42 +40,31 @@ product:
 
 # PFND3DKMT_SUBMITCOMMANDTOHWQUEUE callback function
 
-
 ## -description
 
 Implemented by the client driver to submit a command to queue hardware flags.
 
+## -syntax
+
+```cpp
+PFND3DKMT_SUBMITCOMMANDTOHWQUEUE PfnD3dkmtSubmitCommandToHwQueue;
+
+NTSTATUS PfnD3dkmtSubmitCommandToHwQueue(
+    const D3DKMT_SUBMITCOMMANDTOHWQUEUE *unnamedParam1
+)
+{...}
+```
+
 ## -parameters
 
-### -param D3DKMT_SUBMITCOMMANDTOHWQUEUE *
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_SUBMITCOMMANDTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitcommandtohwqueue.md) structure that contains information to submit a command to queue hardware flags.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code.
-
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3DKMT_SUBMITCOMMANDTOHWQUEUE Pfnd3dkmtSubmitcommandtohwqueue;
-
-// Definition
-
-NTSTATUS Pfnd3dkmtSubmitcommandtohwqueue
-(
-	CONST D3DKMT_SUBMITCOMMANDTOHWQUEUE *
-)
-{...}
-
-PFND3DKMT_SUBMITCOMMANDTOHWQUEUE
-
-
-```
+The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this method might return an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** error code.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of [D3DKMT_SUBMITCOMMANDTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitcommandtohwqueue.md) and then calling Pfnd3dkmtSubmitCommandToHwQueue.
-
+Register your implementation of this callback function by setting the appropriate member of [D3DKMT_SUBMITCOMMANDTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitcommandtohwqueue.md) and then calling **PfnD3dkmtSubmitCommandToHwQueue**.

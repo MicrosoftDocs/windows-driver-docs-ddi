@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatGetSampleSize
 tech.root: audio
 title: AcxDataFormatGetSampleSize
-ms.date: 01/10/2022
+ms.date: 03/24/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatGetSampleSize function gets the sample size for the specified data format.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,20 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetSampleSize** function gets the sample size for the specified data format.
+
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
+
+The data format for which to retrieve the sample size.
 
 ## -returns
+
+Returns a ULONG value containing the sample size for the specified *DataFormat*.
 
 ## -remarks
 
 ## -see-also
 
+TBD - Please review this topic

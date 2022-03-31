@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatGetBitsPerSample
 tech.root: audio
 title: AcxDataFormatGetBitsPerSample
-ms.date: 01/10/2022
+ms.date: 03/23/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatGetBitsPerSample function gets the bits per audio sample for the specified data format.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,22 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetBitsPerSample** function gets the bits per audio sample for the specified data format.
+
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
+
+The data format for which to retrieve the bits per audio sample.
 
 ## -returns
+
+Returns a ULONG value containing the number of bits per audio sample for the specified *DataFormat*.
 
 ## -remarks
 
 ## -see-also
 
+- [WAVEFORMAT structure](/windows/win32/api/mmreg/ns-mmreg-waveformat)
+
+TBD - Please review this topic

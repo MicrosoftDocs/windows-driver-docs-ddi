@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetValidValues(INT,LONG,LONG,LONG)~r1
-title: CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG) (wiautil.h)
+title: CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG) (returns void) (wiautil.h)
 description: Learn how the CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG) method sets the type values for a property whose values are defined by a flag.
 old-location: image\cwiaupropertylist_setvalidvalues_bstr__list_.htm
 tech.root: image
@@ -42,7 +42,6 @@ api_name:
 
 # CWiauPropertyList::SetValidValues (wiautil.h)
 
-
 ## -description
 
 The **CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG)** method sets the type, as well as default, current, and valid values for a property whose values are defined by a flag. The method also sets the property type to VT_I4 and subtype to WIA_PROP_FLAG.
@@ -65,6 +64,10 @@ Specifies the current setting of the property on the device.
 
 Specifies a value containing all of the valid flags.
 
+## -returns
+
+None
+
 ## -see-also
 
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)
@@ -72,4 +75,3 @@ Specifies a value containing all of the valid flags.
 [CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md)
 
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
-

@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_JACK_GEO_LOCATION
 tech.root: audio
 title: ACX_JACK_GEO_LOCATION
-ms.date: 02/17/2022
+ms.date: 03/25/2022
 targetos: Windows
 description: The ACX_JACK_GEO_LOCATION enumeration is used by the ACX_JACK_DESCRIPTION structure to help describe the geometric location of an audio jack.
 prerelease: false
@@ -115,3 +115,5 @@ For internal validation, do not use.
 [ACX_JACK_GEN_LOCATION](ne-acxpin-acx_jack_gen_location.md)
 
 READY2GO
+
+EDITCOMPLETE

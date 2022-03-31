@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatGetKsDataFormat
 tech.root: audio
 title: AcxDataFormatGetKsDataFormat
-ms.date: 01/10/2022
+ms.date: 03/24/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatGetKsDataFormat function gets the kernel streaming data format for the specified data format.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,22 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetKsDataFormat** function gets the kernel streaming data format for the specified data format.
+
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
+
+The data format for which to retrieve the kernel streaming format.
 
 ## -returns
+
+Returns a pointer to the [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md) structure associated with the specified *DataFormat*.
 
 ## -remarks
 
 ## -see-also
 
+- [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
+
+TBD - Please review this topic
