@@ -3,7 +3,7 @@ UID: NF:netpoweroffloadlist.NetPowerOffloadListGetElement
 title: NetPowerOffloadListGetElement function (netpoweroffloadlist.h)
 description: The NetPowerOffloadListGetElement function gets a low power protocol offload from a list of offloads to a net adapter.
 tech.root: netvista
-ms.date: 10/03/2019
+ms.date: 04/01/2022
 keywords: ["NetPowerOffloadListGetElement function"]
 ms.keywords: NetPowerOffloadListGetElement
 req.header: netpoweroffloadlist.h
@@ -49,11 +49,11 @@ The **NetPowerOffloadListGetElement** function gets a low power protocol offload
 
 ## -parameters
 
-### -param List
+### -param List [_In_]
 
 A pointer to a driver-allocated and initialized [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md) structure.
 
-### -param Index
+### -param Index [_In_]
 
 The zero-based index in the list for the target NETPOWEROFFLOAD object. This function must be less than the value returned by [**NetPowerOffloadListGetCount**](../netpoweroffloadlist/nf-netpoweroffloadlist-netpoweroffloadlistgetcount.md).
 

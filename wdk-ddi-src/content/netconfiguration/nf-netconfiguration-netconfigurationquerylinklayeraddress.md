@@ -3,7 +3,7 @@ UID: NF:netconfiguration.NetConfigurationQueryLinkLayerAddress
 title: NetConfigurationQueryLinkLayerAddress function (netconfiguration.h)
 description: The NetConfigurationQueryLinkLayerAddress function retrieves the software-configurable link layer address that was stored in the registry for a NIC.
 tech.root: netvista
-ms.date: 02/07/2018
+ms.date: 03/30/2022
 keywords: ["NetConfigurationQueryLinkLayerAddress function"]
 ms.keywords: NetConfigurationQueryLinkLayerAddress
 req.header: netconfiguration.h
@@ -48,11 +48,11 @@ The **NetConfigurationQueryLinkLayerAddress** function retrieves the software-co
 
 ## -parameters
 
-### -param Configuration
+### -param Configuration [_In_]
 
 Handle to a NETCONFIGURATION object that represents an opened registry key.
 
-### -param LinkLayerAddress
+### -param LinkLayerAddress [_Out_]
 
 A pointer to a NET_ADAPTER_LINK_LAYER_ADDRESS object that represents the link layer address stored in the registry key.
 

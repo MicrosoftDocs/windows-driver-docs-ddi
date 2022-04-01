@@ -3,7 +3,7 @@ UID: NF:netpoweroffloadlist.NET_POWER_OFFLOAD_LIST_INIT
 title: NET_POWER_OFFLOAD_LIST_INIT function (netpoweroffloadlist.h)
 description: The NET_POWER_OFFLOAD_LIST_INIT function initializes a NET_POWER_OFFLOAD_LIST structure.
 tech.root: netvista
-ms.date: 11/06/2019
+ms.date: 04/01/2022
 keywords: ["NET_POWER_OFFLOAD_LIST_INIT function"]
 ms.keywords: NET_POWER_OFFLOAD_LIST_INIT
 req.header: netpoweroffloadlist.h
@@ -49,7 +49,7 @@ The **NET_POWER_OFFLOAD_LIST_INIT** function initializes a [**NET_POWER_OFFLOAD_
 
 ## -parameters
 
-### -param List
+### -param List [_Out_]
 
 A handle to a driver-allocated [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md) structure.
 

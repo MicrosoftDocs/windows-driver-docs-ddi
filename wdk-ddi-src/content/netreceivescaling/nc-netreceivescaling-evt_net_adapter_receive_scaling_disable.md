@@ -3,7 +3,7 @@ UID: NC:netreceivescaling.EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE
 title: EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE (netreceivescaling.h)
 description: The EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE callback function disables receive side scaling (RSS) for a network interface controller (NIC).
 tech.root: netvista
-ms.date: 03/08/2018
+ms.date: 04/01/2022
 keywords: ["EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE callback function"]
 req.header: netreceivescaling.h
 req.include-header: netadaptercx.h 
@@ -45,7 +45,7 @@ The *EvtNetAdapterReceiveScalingDisable* callback function is implemented by the
 
 ## -parameters
 
-### -param Adapter 
+### -param Adapter [_In_]
 
 The **NETADAPTER** object the client driver obtained in a previous call to [NetAdapterCreate](../netadapter/nf-netadapter-netadaptercreate.md).
 

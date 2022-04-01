@@ -3,7 +3,7 @@ UID: NF:netreceivescaling.NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT
 title: NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT function (netreceivescaling.h)
 description: The NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT function initializes a NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure.
 tech.root: netvista
-ms.date: 10/19/2018
+ms.date: 04/01/2022
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT
 req.header: netreceivescaling.h
@@ -46,39 +46,39 @@ The **NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT** function initializes a [NE
 
 ## -parameters
 
-### -param Capabilities
+### -param Capabilities [_Out_]
 
 A pointer to the driver-allocated [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure.
 
-### -param NumberOfQueues
+### -param NumberOfQueues [_In_]
 
 The number of hardware receive queues. This member must be a power of 2.
 
-### -param UnhashedTargetType
+### -param UnhashedTargetType [_In_]
 
 A [NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE](ne-netreceivescaling-_net_adapter_receive_scaling_unhashed_target_type.md) value that indicates the type of handling for unhashed frames. If this member is set to **NetAdapterReceiveScalingUnhashedTargetTypeUnspecified**, then **UnhashedTarget** is ignored.
 
-### -param HashTypes
+### -param HashTypes [_In_]
 
 A [NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE](ne-netreceivescaling-_net_adapter_receive_scaling_hash_type.md) value that indicates supported hash function types for calculating hash values.
 
-### -param ProtocolTypes
+### -param ProtocolTypes [_In_]
 
 A [NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE](ne-netreceivescaling-_net_adapter_receive_scaling_protocol_type.md) value that indicates the supported protocol types for calculating hash values.
 
-### -param Enable
+### -param Enable [_In_]
 
 A pointer to the client driver's *[EvtNetAdapterReceiveScalingEnable](nc-netreceivescaling-evt_net_adapter_receive_scaling_enable.md)* event callback function.
 
-### -param Disable
+### -param Disable [_In_]
 
 A pointer to the client driver's *[EvtNetAdapterReceiveScalingDisable](nc-netreceivescaling-evt_net_adapter_receive_scaling_disable.md)* event callback function.
 
-### -param SetHashSecretKey
+### -param SetHashSecretKey [_In_]
 
 A pointer to the client driver's *[EvtNetAdapterReceiveScalingSetHashSecretKey](nc-netreceivescaling-evt_net_adapter_receive_scaling_set_hash_secret_key.md)* event callback function.
 
-### -param SetIndirectionEntries
+### -param SetIndirectionEntries [_In_]
 
 A pointer to the client driver's *[EvtNetAdapterReceiveScalingSetIndirectionEntries](nc-netreceivescaling-evt_net_adapter_receive_scaling_set_indirection_entries.md)* event callback function.
 

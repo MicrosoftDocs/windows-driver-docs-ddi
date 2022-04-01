@@ -3,7 +3,7 @@ UID: NC:netadapter.EVT_NET_ADAPTER_RETURN_RX_BUFFER
 title: EVT_NET_ADAPTER_RETURN_RX_BUFFER (netadapter.h)
 description: Implement this optional callback function to perform cleanup on a receive buffer for which you previously specified manual fragment allocation and attachment.
 tech.root: netvista
-ms.date: 09/27/2019
+ms.date: 03/30/2022
 keywords: ["EVT_NET_ADAPTER_RETURN_RX_BUFFER callback function"]
 req.header: netadapter.h
 req.include-header: netadaptercx.h 
@@ -45,11 +45,11 @@ Implement this optional callback function to perform cleanup on a [**NET_FRAGMEN
 
 ## -parameters
 
-### -param Adapter 
+### -param Adapter [_In_] 
 
 The network adapter object that the client created in a prior call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
-### -param RxReturnContext 
+### -param RxReturnContext [_In_] 
 
 A pointer to a driver-allocated context space structure.
 

@@ -42,11 +42,11 @@ The **NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE** enumeration identifies how the op
 
 ## -enum-fields
 
-### -field NetRxFragmentBufferAttachmentModeSystem : 
+### -field NetRxFragmentBufferAttachmentModeSystem:0 
 
 The operating system attaches receive [NET_FRAGMENT](../fragment/ns-fragment-_net_fragment.md)s to [NET_PACKET](../packet/ns-packet-_net_packet.md)s automatically. This value is valid **only** when receive fragment buffer allocation, identified by the [NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE](ne-netadapter-_net_rx_fragment_buffer_allocation_mode.md) enumeration, is also set to **NetRxFragmentBufferAllocationModeSystem**.
 
-### -field NetRxFragmentBufferAttachmentModeDriver : 
+### -field NetRxFragmentBufferAttachmentModeDriver:1 
 
 The client driver is responsible for attaching [NET_FRAGMENT](../fragment/ns-fragment-_net_fragment.md) receive buffers to [NET_PACKET](../packet/ns-packet-_net_packet.md)s.
 
