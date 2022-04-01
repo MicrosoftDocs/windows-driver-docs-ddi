@@ -3,7 +3,7 @@ UID: NF:netpoweroffloadlist.NetPowerOffloadListGetCount
 title: NetPowerOffloadListGetCount function (netpoweroffloadlist.h)
 description: The NetPowerOffloadListGetCount function gets the number of low power protocol offloads to a net adapter.
 tech.root: netvista
-ms.date: 10/03/2019
+ms.date: 04/01/2022
 keywords: ["NetPowerOffloadListGetCount function"]
 ms.keywords: NetPowerOffloadListGetCount
 req.header: netpoweroffloadlist.h
@@ -49,7 +49,7 @@ The **NetPowerOffloadListGetCount** function gets the number of low power protoc
 
 ## -parameters
 
-### -param List
+### -param List [_In_]
 
 A pointer to a driver-allocated and initialized [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md) structure.
 

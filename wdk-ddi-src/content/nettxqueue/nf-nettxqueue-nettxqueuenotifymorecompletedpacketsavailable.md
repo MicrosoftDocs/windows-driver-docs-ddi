@@ -3,7 +3,7 @@ UID: NF:nettxqueue.NetTxQueueNotifyMoreCompletedPacketsAvailable
 title: NetTxQueueNotifyMoreCompletedPacketsAvailable function (nettxqueue.h)
 description: The client driver calls NetTxQueueNotifyMoreCompletedPacketsAvailable to resume queue operations after NetAdapterCx calls the client's EVT_TXQUEUE_SET_NOTIFICATION_ENABLED event callback routine.
 tech.root: netvista
-ms.date: 07/13/2018
+ms.date: 04/01/2022
 keywords: ["NetTxQueueNotifyMoreCompletedPacketsAvailable function"]
 ms.keywords: NetTxQueueNotifyMoreCompletedPacketsAvailable
 req.header: nettxqueue.h
@@ -48,7 +48,7 @@ The client driver calls **NetTxQueueNotifyMoreCompletedPacketsAvailable** to res
 
 ## -parameters
 
-### -param PacketQueue
+### -param PacketQueue [_In_]
 
 A handle to a net transmit queue.
 

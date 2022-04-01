@@ -3,7 +3,7 @@ UID: NF:netwakesource.NetWakeSourceGetBitmapParameters
 title: NetWakeSourceGetBitmapParameters function (netwakesource.h)
 description: The NetWakeSourceGetBitmapParameters function gets parameters for a bitmap pattern wake-on-LAN (WoL) source.
 tech.root: netvista
-ms.date: 10/07/2019
+ms.date: 04/01/2022
 keywords: ["NetWakeSourceGetBitmapParameters function"]
 ms.keywords: NetWakeSourceGetBitmapParameters
 req.header: netwakesource.h
@@ -49,11 +49,11 @@ The **NetWakeSourceGetBitmapParameters** function gets parameters for a bitmap p
 
 ## -parameters
 
-### -param WakeSource
+### -param WakeSource [_In_]
 
 A NETWAKESOURCE object that represents this bitmap pattern wake source.
 
-### -param Parameters
+### -param Parameters [_Inout_]
 
 A pointer to a driver-allocated and initialized [**NET_WAKE_SOURCE_BITMAP_PARAMETERS**](../netwakesource/ns-netwakesource-_net_wake_source_bitmap_parameters.md) structure that receives the bitmap pattern parameters.
 

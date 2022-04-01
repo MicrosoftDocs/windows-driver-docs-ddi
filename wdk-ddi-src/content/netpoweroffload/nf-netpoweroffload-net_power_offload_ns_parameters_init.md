@@ -49,7 +49,7 @@ The **NET_POWER_OFFLOAD_NS_PARAMETERS_INIT** function initializes a [**NET_POWER
 
 ## -parameters
 
-### -param Parameters
+### -param Parameters [_Out_]
 
 A pointer to a client driver-allocated [**NET_POWER_OFFLOAD_NS_PARAMETERS**](../netpoweroffload/ns-netpoweroffload-_net_power_offload_ns_parameters.md) structure.
 

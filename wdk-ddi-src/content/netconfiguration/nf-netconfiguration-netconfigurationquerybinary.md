@@ -3,7 +3,7 @@ UID: NF:netconfiguration.NetConfigurationQueryBinary
 title: NetConfigurationQueryBinary function (netconfiguration.h)
 description: Retrieves the data that is currently assigned to a specified registry value, stores the data in a framework-allocated buffer, and creates a framework memory object to represent the buffer.
 tech.root: netvista
-ms.date: 11/02/2018
+ms.date: 03/30/2022
 keywords: ["NetConfigurationQueryBinary function"]
 ms.keywords: NetConfigurationQueryBinary
 req.header: netconfiguration.h
@@ -48,23 +48,23 @@ Retrieves the data that is currently assigned to a specified registry value, sto
 
 ## -parameters
 
-### -param Configuration
+### -param Configuration [_In_]
 
 A handle to a NETCONFIGURATION object that represents an opened registry key.
 
-### -param ValueName
+### -param ValueName [_In_]
 
 A pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a value name.
 
-### -param PoolType
+### -param PoolType [_In_]
 
 A [**POOL_TYPE**](../wdm/ne-wdm-_pool_type.md)-typed value that specifies the type of memory to be allocated for the data buffer.
 
-### -param MemoryAttributes
+### -param MemoryAttributes [_In_opt_]
 
 A pointer to a [**WDF_OBJECT_ATTRIBUTES**](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure that contains object attributes for the new memory object. This parameter is optional and can be **WDF_NO_OBJECT_ATTRIBUTES**.
 
-### -param Memory
+### -param Memory [_Out_]
 
 A pointer to a location that receives a handle to the new memory object. The framework allocates this memory buffer and automatically frees it when the NETCONFIGURATION object is closed.
 
