@@ -53,6 +53,9 @@ The extension is a [**NET_PACKET**](../packet/ns-packet-_net_packet.md) extensio
 
 The extension is a [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md) extension.
 
+### -field NetExtensionTypeBuffer
+Reserved for system use.
+
 ## -remarks
 
 Client drivers pass this enumeration as a value to [**NET_EXTENSION_QUERY_INIT**](../netadapterpacket/nf-netadapterpacket-net_extension_query_init.md) to differentiate between packet extensions and fragment extension queries during packet queue creation.

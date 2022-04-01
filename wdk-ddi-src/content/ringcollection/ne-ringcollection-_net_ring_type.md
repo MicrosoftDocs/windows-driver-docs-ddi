@@ -50,6 +50,9 @@ The [**NET_RING**](../ring/ns-ring-_net_ring.md) is a packet ring.
 
 The [**NET_RING**](../ring/ns-ring-_net_ring.md) is a fragment ring.
 
+### -field NetRingTypeDataBuffer
+Reserved for system use.
+
 ## -remarks
 
 ## -see-also
