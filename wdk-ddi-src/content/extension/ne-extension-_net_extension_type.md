@@ -3,11 +3,7 @@ UID: NE:extension._NET_EXTENSION_TYPE
 title: NET_EXTENSION_TYPE (extension.h)
 description: The NET_EXTENSION_TYPE enumeration specifies the type of extension that a client driver is querying.
 tech.root: netvista
-<<<<<<< HEAD
-ms.date: 03/28/2022
-=======
 ms.date: 03/30/2022
->>>>>>> main
 keywords: ["NET_EXTENSION_TYPE enumeration"]
 ms.keywords: NET_EXTENSION_TYPE, NET_EXTENSION_TYPE,
 req.header: extension.h
