@@ -3,7 +3,7 @@ UID: NE:netconfiguration._NET_CONFIGURATION_QUERY_ULONG_FLAGS
 title: _NET_CONFIGURATION_QUERY_ULONG_FLAGS (netconfiguration.h)
 description: The NET_CONFIGURATION_QUERY_ULONG_FLAGS enumeration is used as an input parameter to the NetConfigurationQueryUlong function.
 tech.root: netvista
-ms.date: 02/07/2018
+ms.date: 03/30/2022
 keywords: ["NET_CONFIGURATION_QUERY_ULONG_FLAGS enumeration"]
 ms.keywords: _NET_CONFIGURATION_QUERY_ULONG_FLAGS, NET_CONFIGURATION_QUERY_ULONG_FLAGS,
 req.header: netconfiguration.h
@@ -44,11 +44,11 @@ The **NET_CONFIGURATION_QUERY_ULONG_FLAGS** enumeration is used as an input para
 
 ## -enum-fields
 
-### -field NET_CONFIGURATION_QUERY_ULONG_NO_FLAGS : 
+### -field NET_CONFIGURATION_QUERY_ULONG_NO_FLAGS:0x00000000 
 
 No flags are set.
 
-### -field NET_CONFIGURATION_QUERY_ULONG_MAY_BE_STORED_AS_HEX_STRING : 
+### -field NET_CONFIGURATION_QUERY_ULONG_MAY_BE_STORED_AS_HEX_STRING:0x00000001 
 
 Specifies that the ULONG may be stored in the configuration database as a string in hex format.
 

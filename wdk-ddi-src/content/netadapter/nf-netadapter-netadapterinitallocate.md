@@ -3,7 +3,7 @@ UID: NF:netadapter.NetAdapterInitAllocate
 title: NetAdapterInitAllocate function (netadapter.h)
 description: The NetAdapterInitAllocate function allocates a NETADAPTER_INIT structure that a client driver uses when creating a new NETADAPTER object.
 tech.root: netvista
-ms.date: 01/18/2019
+ms.date: 03/30/2022
 keywords: ["NetAdapterInitAllocate function"]
 ms.keywords: NetAdapterInitAllocate
 req.header: netadapter.h
@@ -47,7 +47,7 @@ The **NetAdapterInitAllocate** function allocates a NETADAPTER_INIT structure th
 
 ## -parameters
 
-### -param Device
+### -param Device [_In_]
 
 A handle to a framework device object.
 

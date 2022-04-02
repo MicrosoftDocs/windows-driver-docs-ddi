@@ -3,7 +3,7 @@ UID: NE:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE
 title: _NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE (netreceivescaling.h)
 description: The NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE enumeration specifies how a net adapter handles unhashed receive side scaling (RSS) frames.
 tech.root: netvista
-ms.date: 07/13/2018
+ms.date: 04/01/2022
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE enumeration"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE, NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE,
 req.header: netreceivescaling.h
@@ -42,11 +42,11 @@ The **NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE** enumeration specifies h
 
 ## -enum-fields
 
-### -field NetAdapterReceiveScalingUnhashedTargetTypeUnspecified : 
+### -field NetAdapterReceiveScalingUnhashedTargetTypeUnspecified:0
 
 Indicates that the device does not distribute unhashed frames to a specific hash index.
 
-### -field NetAdapterReceiveScalingUnhashedTargetTypeHashIndex : 
+### -field NetAdapterReceiveScalingUnhashedTargetTypeHashIndex:1
 
 Indicates that unhashed frames are delivered to the queue at the specified hash index. This requires the caller to specify the **UnhashedTargetIndex** member of the [**NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES**](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure with the hash index if the hash index is non-zero.
 

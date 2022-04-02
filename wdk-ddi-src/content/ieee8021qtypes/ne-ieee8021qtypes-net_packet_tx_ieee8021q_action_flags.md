@@ -40,9 +40,9 @@ NetAdapterCx sets the **NET_PACKET_TX_IEEE8021Q_ACTION_FLAGS** enum to specify t
 
 ## -enum-fields
 
-### -field NetPacketTxIeee8021qActionFlagPriorityRequired
+### -field NetPacketTxIeee8021qActionFlagPriorityRequired:1
 
-### -field NetPacketTxIeee8021qActionFlagVlanRequired
+### -field NetPacketTxIeee8021qActionFlagVlanRequired:2
 
 ## -remarks
 
