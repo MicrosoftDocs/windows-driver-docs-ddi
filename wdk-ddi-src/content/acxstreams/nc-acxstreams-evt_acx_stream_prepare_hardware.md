@@ -73,6 +73,12 @@ ACX Events are analogous to KS states as described in this table.
 | PAUSE       | ACQUIRE   | (No call)               |                                                       |
 | ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
 
+
+[EvtAcxStreamAllocateRtPackets]() is called before EvtAcxStreamPrepareHardware to allow the RT packet allocation to occur before EvtAcxStreamPrepareHardware. 
+
+The buffer allocation typically only involves allocating system memory in such a way that it can be used with the DMA hardware. Typically, the buffer allocation will not have any effect on the streaming hardware. The prepare hardware phase is used as the driver is getting the stream ready to run, by completing tasks such as reserving bandwidth, programming DMA, and completing the preparation for the request to run the stream. Typically, the prepare hardware code will make use of the allocated buffers for preparing the DMA and related activities.
+
+
 ### Example
 
 Example usage is shown below.
