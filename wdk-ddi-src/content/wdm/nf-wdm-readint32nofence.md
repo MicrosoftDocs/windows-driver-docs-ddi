@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ReadInt32NoFence
 tech.root: kernel
-title: ReadInt32NoFence
+title: ReadInt32NoFence (wdm.h)
 ms.date: 01/24/2022
 targetos: Windows
 description: The ReadInt32NoFence function...

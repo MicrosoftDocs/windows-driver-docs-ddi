@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ReadUInt32Raw
 tech.root: kernel
-title: ReadUInt32Raw
+title: ReadUInt32Raw (wdm.h)
 ms.date: 01/24/2022
 targetos: Windows
 description: The ReadUInt32Raw function...

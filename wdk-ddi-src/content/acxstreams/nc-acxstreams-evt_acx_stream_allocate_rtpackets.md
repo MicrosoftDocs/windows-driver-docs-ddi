@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_ALLOCATE_RTPACKETS
 tech.root: audio
 title: EVT_ACX_STREAM_ALLOCATE_RTPACKETS
-ms.date: 01/25/2022
+ms.date: 04/05/2022
 targetos: Windows
 description: The EvtAcxStreamAllocateRtPackets event tells the driver to allocate RtPackets for streaming.
 prerelease: true
@@ -74,6 +74,10 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 The initial ACX version will call with PacketCount = 1 or PacketCount = 2 when the StreamModel is AcxStreamModelRtPacket. With PacketCount = 2, the driver can allocate a single buffer that is shared between the two packets or the driver can allocate two separate buffers.
 
 If the driver allocates a single buffer to be shared across two packets, the second ACX_RTPACKET structure should have a WDF_MEMORY_DESCRIPTOR_TYPE = WdfMemoryDescriptorTypeInvalid. The RtPacketOffset for the second ACX_RTPACKET structure should be a valid offset into the RtPacketBuffer of the first ACX_RTPACKET structure and should align with the first ACX_RTPACKET structure's RtPacketOffset + RtPacketSize.
+
+EvtAcxStreamAllocateRtPackets is called before [EvtAcxStreamPrepareHardware](nc-acxstreams-evt_acx_stream_prepare_hardware.md) to allow the RT packet allocation to occur before EvtAcxStreamPrepareHardware.
+
+The buffer allocation typically only involves allocating system memory in such a way that it can be used with the DMA hardware. Typically, the buffer allocation will not have any effect on the streaming hardware. The prepare hardware phase is used as the driver is getting the stream ready to run, by completing tasks such as reserving bandwidth, programming DMA, and completing the preparation for the request to run the stream. Typically, the prepare hardware code will make use of the allocated buffers for preparing the DMA and related activities to be ready to start the stream.
 
 ### Example
 
