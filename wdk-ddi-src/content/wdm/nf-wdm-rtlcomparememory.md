@@ -1,16 +1,15 @@
 ---
 UID: NF:wdm.RtlCompareMemory
 title: RtlCompareMemory function (wdm.h)
-description: The RtlCompareMemory routine compares two blocks of memory and returns the number of bytes that match.
-old-location: kernel\rtlcomparememory.htm
+description: The RtlCompareMemory routine compares two blocks of memory and returns the number of bytes that match until the first difference.
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/06/2022
 keywords: ["RtlCompareMemory function"]
 ms.keywords: RtlCompareMemory, RtlCompareMemory routine [Kernel-Mode Driver Architecture], k109_3deee1b7-0b3a-4d24-8c0f-5e428d051a02.xml, kernel.rtlcomparememory, wdm/RtlCompareMemory
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,35 +45,30 @@ api_name:
 
 # RtlCompareMemory function
 
-
 ## -description
 
-The <b>RtlCompareMemory</b> routine compares two blocks of memory and returns the number of bytes that match.
+The **RtlCompareMemory** routine compares two blocks of memory and returns the number of bytes that match until the first difference.
 
 ## -parameters
 
 ### -param Source1 [in]
 
-
 A pointer to the first block of memory.
 
 ### -param Source2 [in]
-
 
 A pointer to the second block of memory.
 
 ### -param Length [in]
 
-
 The number of bytes to compare.
 
 ## -returns
 
-<b>RtlCompareMemory</b> returns the number of bytes in the two blocks that match. If all bytes match up to the specified <i>Length</i> value, the <i>Length</i> value is returned.
+**RtlCompareMemory** returns the number of bytes in the two blocks that match. If all bytes match up to the specified *Length* value, the *Length* value is returned.
 
 ## -remarks
 
-The routine starts by comparing the first byte in the first block to the first byte in the second block, and continues to compare successive bytes in the two blocks while the bytes match. The routine stops comparing bytes when it encounters the first pair of bytes that are not equal, or when the number of matching bytes equals the <i>Length</i> parameter value, whichever occurs first.
+The routine starts by comparing the first byte in the first block to the first byte in the second block, and continues to compare successive bytes in the two blocks while the bytes match. The routine stops comparing bytes when it encounters the first pair of bytes that are not equal, or when the number of matching bytes equals the *Length* parameter value, whichever occurs first.
 
-Callers of <b>RtlCompareMemory</b> can be running at any IRQL if both blocks of memory are resident.
-
+Callers of **RtlCompareMemory** can be running at any IRQL if both blocks of memory are resident.
