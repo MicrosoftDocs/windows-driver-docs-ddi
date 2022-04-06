@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_RELEASE_HARDWARE
 tech.root: audio
 title: EVT_ACX_STREAM_RELEASE_HARDWARE
-ms.date: 01/25/2022
+ms.date: 04/05/2022
 targetos: Windows
 description: The EvtAcxStreamReleaseHardware event tells the driver to release any hardware allocated for the stream and put the stream into the Stop state.
 prerelease: true
@@ -71,6 +71,8 @@ ACX Events are analogous to KS states as described in this table.
 | RUN         | PAUSE     | Pause                   |                                                       |
 | PAUSE       | ACQUIRE   | (No call)               |                                                       |
 | ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
+
+When work with the stream is complete, [EvtAcxStreamFreeRtPackets](nc-acxstreams-evt_acx_stream_free_rtpackets.md) is called after EvtAcxStreamReleaseHardware. This allows the release hardware phase to finish deallocating bandwidth, freeing DMA resources and any other associated cleanup, to occur before te allocated RT buffers are then freed.
 
 ### Example
 

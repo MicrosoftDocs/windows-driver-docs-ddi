@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ReadUInt32Acquire
 tech.root: kernel
-title: ReadUInt32Acquire
+title: ReadUInt32Acquire (wdm.h)
 ms.date: 01/24/2022
 targetos: Windows
 description: The ReadUInt32Acquire function...

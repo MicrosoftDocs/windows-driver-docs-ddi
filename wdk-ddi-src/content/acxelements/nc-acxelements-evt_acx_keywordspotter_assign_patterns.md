@@ -2,7 +2,7 @@
 UID: NC:acxelements.EVT_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS
 tech.root: audio 
 title: EVT_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS
-ms.date: 10/15/2021
+ms.date: 04/05/2022
 targetos: Windows
 description: EVT_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS assigns detection patterns for keyword detection to be used by the keyword spotter.
 prerelease: true
@@ -164,9 +164,10 @@ CodecC_EvtAcxKeywordSpotterAssignPatterns(
 }
 ```
 
-READY2GO
-
 ## -see-also
 
 [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE
