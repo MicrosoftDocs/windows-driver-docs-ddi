@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_PEAKMETER_RETRIEVE_LEVEL
 ms.date: 09/16/2021
 targetos: Windows
-description: TBD - EVT_ACX_PEAKMETER_RETRIEVE_LEVEL tells the driver that a request to retrieve the peakmeter level has made???.
+description: The EVT_ACX_PEAKMETER_RETRIEVE_LEVEL callback function is implemented by the driver and is called when the level of a specified channel on a peakmeter node is requested.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_PEAKMETER_RETRIEVE_LEVEL tells the driver that a request to retrieve the peakmeter level has been made???.
+The EVT_ACX_PEAKMETER_RETRIEVE_LEVEL callback function is implemented by the driver and is called when the level of a specified channel on a peakmeter node is requested.
 
 ## -parameters
 
@@ -52,11 +52,11 @@ An existing, initialized, ACXPEAKMETER object. For more information about ACX ob
 
 ### -param Channel
 
-TBD - A number that represents the channel that is active (present -TBD?)
+A ULONG referring to a channel on the specified peakmeter node. If this value is -1, then it refers to the master channel which sets the level for all channels on the mute node. 
 
 ### -param Level
 
-A returned value that indicates the peakmeter level.
+A LONG value that indicates the maximum audio signal level that occurred for the specified channel on the peakmeter node since the last time the peakmeter node was reset. 
 
 ## -returns
 
@@ -69,6 +69,12 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
+typedef struct _CODEC_PEAKMETER_ELEMENT_CONTEXT {
+    LONG            PeakMeterLevel[MAX_CHANNELS];
+} CODEC_PEAKMETER_ELEMENT_CONTEXT, *PCODEC_PEAKMETER_ELEMENT_CONTEXT;
+
+WDF_DECLARE_CONTEXT_TYPE_WITH_NAME(CODEC_PEAKMETER_ELEMENT_CONTEXT, GetCodecPeakMeterElementContext)
+
 EVT_ACX_PEAKMETER_RETRIEVE_LEVEL    CodecR_EvtPeakMeterRetrieveLevelCallback;
 
 NTSTATUS
