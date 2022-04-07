@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxPinGetRawDataFormatList
 ms.date: 02/17/2022
 targetos: Windows
-description: The AcxPinGetRawDataFormatList function returns the data format list for the specified pin.
+description: The AcxPinGetRawDataFormatList function returns the RAW mode data format list for the specified pin.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxPinGetRawDataFormatList** function returns the data format list for the specified pin.
+The **AcxPinGetRawDataFormatList** function returns the RAW mode data format list for the specified pin.
 
 ## -parameters
 
@@ -56,8 +56,10 @@ Returns the [ACXDATAFORMATLIST](../acxdataformat/index.md) for the pin specified
 
 ## -remarks
 
+This DDI returns NULL if the specified pin doesn't have a RAW mode data format list.
+
 ## -see-also
 
 - [ACXDATAFORMATLIST](../acxdataformat/index.md)
 
-TBD - Please review this topic
+READY2GO
