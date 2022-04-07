@@ -52,7 +52,7 @@ An existing, initialized, ACXPEAKMETER object. For more information about ACX ob
 
 ### -param Channel
 
-A ULONG referring to a channel on the specified peakmeter node. If this value is -1, then it refers to the master channel which sets the level for all channels on the mute node. 
+A ULONG referring to a channel on the specified peakmeter node. If this value is -1, then it refers to the master channel which sets the level for all channels on the peakmeter node. 
 
 ### -param Level
 
@@ -101,6 +101,7 @@ CodecR_EvtPeakMeterRetrieveLevelCallback(
     return STATUS_SUCCESS;
 }
 ```
+READY2GO
 
 ## -see-also
 
