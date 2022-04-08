@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE
 ms.date: 09/03/2021
 targetos: Windows
-description: TBD - EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE tells the driver to that the audio engine is (?? TBD has ) retrieving the effects state.
+description: The EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE callback function is implemented by the driver and is called when the global effects state is requested for the specified audio engine node. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,19 +42,17 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE tells the driver to that the audio engine is (?? TBD has ) retrieving the effects state.
+The EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE callback function is implemented by the driver and is called when the global effects state is requested for the specified audio engine node. 
 
 ## -parameters
 
 ### -param AudioEngine
 
-An ACXAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The ACXAUDIOENGINE object for which the global effects state has been requested. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param State
 
-TBD - is this the effects state?
-
-TODO: This is a ulong, but wondering if it would better to reference a state enum such as ACX_STREAM_STATE?
+A ULONG value indiciating the global effects state of the specified audio engine node. A nonzero value indicates that global effect processing in the audio engine node is enabled and a value of 0 indicates that global effect processing in the audio engine node is disabled.
 
 ## -returns
 
@@ -67,23 +65,33 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
-EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE      DspR_EvtAcxAudioEngineRetrieveEffectsState;
+typedef struct _CODEC_ENGINE_CONTEXT {
+    ACXDATAFORMAT   MixFormat;
+    BOOLEAN         GFxEnabled;
+} CODEC_ENGINE_CONTEXT, *PCODEC_ENGINE_CONTEXT;
+
+WDF_DECLARE_CONTEXT_TYPE_WITH_NAME(CODEC_ENGINE_CONTEXT, GetCodecEngineContext)
+
+EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE      Codec_EvtAcxAudioEngineRetrieveEffectsState;
 
 NTSTATUS
-DspR_EvtAcxAudioEngineRetrieveEffectsState(
-    ACXAUDIOENGINE,
-    PULONG          State
+Codec_EvtAcxAudioEngineRetrieveEffectsState(
+    _In_    ACXAUDIOENGINE  AudioEngine,
+    _Out_   PULONG          State
 )
 {
     PAGED_CODE();
 
-    //Custom code goes here
+    PCODEC_ENGINE_CONTEXT   pAudioEngineCtx;
+    pAudioEngineCtx = GetCodecEngineContext(AudioEngine);
 
-    *State = TRUE;
+    *State = pAudioEngineCtx->GFxEnabled;
 
     return STATUS_SUCCESS;
 }
+
 ```
+READY2GO
 
 ## -see-also
 

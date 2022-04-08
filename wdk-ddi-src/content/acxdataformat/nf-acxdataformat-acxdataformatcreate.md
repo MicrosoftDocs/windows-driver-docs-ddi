@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatCreate
 tech.root: audio
 title: AcxDataFormatCreate
-ms.date: 01/10/2022
+ms.date: 03/22/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatCreate function is used to create a data format for use by an audio class extension (ACX).
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,19 +42,36 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatCreate** function is used to create a data format for use by an audio class extension (ACX).
+
 ## -parameters
 
-### -param Device
+### -param Device [in]
 
-### -param Attributes
+A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the data format.
 
-### -param Config
+### -param Attributes [in]
 
-### -param DataFormat
+A pointer to the [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure to use when creating the data format
+
+### -param Config [in]
+
+A pointer to the [ACX_DATAFORMAT_CONFIG](ns-acxdataformat-acx_dataformat_config.md) structure to use when creating the data format.
+
+### -param DataFormat [out]
+
+A pointer to the newly created data format.
 
 ## -returns
+
+The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this method might return an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** error code.
 
 ## -remarks
 
 ## -see-also
 
+- [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)
+- [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
+- [ACX_DATAFORMAT_CONFIG](ns-acxdataformat-acx_dataformat_config.md)
+
+TBD - Please review this topic

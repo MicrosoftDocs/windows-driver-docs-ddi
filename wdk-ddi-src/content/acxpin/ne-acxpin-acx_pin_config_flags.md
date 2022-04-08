@@ -2,9 +2,9 @@
 UID: NE:acxpin._ACX_PIN_CONFIG_FLAGS
 tech.root: audio
 title: ACX_PIN_CONFIG_FLAGS
-ms.date: 01/06/2022
+ms.date: 03/25/2022
 targetos: Windows
-description: The ACX_PIN_CONFIG_FLAGS enumeration is used to identify which pin configuration data is available.
+description: The ACX_PIN_CONFIG_FLAGS enumeration specifies PIN configuration settings used within the ACX_PIN_CONFIG structure.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_PIN_CONFIG_FLAGS** enumeration specify PIN configuration settings used within the ACX_PIN_CONFIG structure.
+The **ACX_PIN_CONFIG_FLAGS** enumeration specifies PIN configuration settings used within the ACX_PIN_CONFIG structure.
 
 ## -enum-fields
 
@@ -60,3 +60,5 @@ For internal validation, do not use.
 - [ACX_MICROPHONE_CONFIG](ns-acxpin-acx_microphone_config.md)
 
 READY2GO
+
+EDITCOMPLETE

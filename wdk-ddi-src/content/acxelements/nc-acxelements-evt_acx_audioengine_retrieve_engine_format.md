@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_AUDIOENGINE_RETRIEVE_ENGINE_FORMAT
 ms.date: 09/03/2021
 targetos: Windows
-description: TBD - EVT_ACX_AUDIOENGINE_RETRIEVE_ENGINE_FORMAT tells the driver to that the audio engine is (?? TBD has ) retrieving the audio engine format.
+description: The EVT_ACX_AUDIOENGINE_RETRIEVE_ENGINE_FORMAT callback is implemented by the driver and is called when the internal mix format is requested for the specified audio engine. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,21 +42,17 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_AUDIOENGINE_RETRIEVE_ENGINE_FORMAT tells the driver to that the audio engine is (?? TBD has ) retrieving the audio engine format.
+The EVT_ACX_AUDIOENGINE_RETRIEVE_ENGINE_FORMAT callback is implemented by the driver and is called when the internal mix format is requested for the specified audio engine. 
 
 ## -parameters
 
 ### -param AudioEngine
 
-An ACXAUDIOENGINE audio engine object that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The ACXAUDIOENGINE object for which the mix format has been requested. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Format
 
-TBD - An ACXDATAFORMAT object that describes the engine format.
-
-TBD - A TBD type of audio format that is / will be used by the audio engine.
-
-KSPROPERTY_PIN_PROPOSEDATAFORMAT WAVEFORMAT EXTENSIBLE?
+The ACXDATAFORMAT object that describes the audio engine mix format.
 
 ## -returns
 
@@ -66,11 +62,16 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - test code
-
 Example usage is shown below.
 
 ```cpp
+typedef struct _CODEC_ENGINE_CONTEXT {
+    ACXDATAFORMAT   MixFormat;
+    BOOLEAN         GFxEnabled;
+} CODEC_ENGINE_CONTEXT, *PCODEC_ENGINE_CONTEXT;
+
+WDF_DECLARE_CONTEXT_TYPE_WITH_NAME(CODEC_ENGINE_CONTEXT, GetCodecEngineContext)
+
 EVT_ACX_AUDIOENGINE_RETRIEVE_ENGINE_FORMAT      CodecR_EvtAcxAudioEngineRetrieveEngineMixFormat;
 
 NTSTATUS
@@ -95,6 +96,7 @@ CodecR_EvtAcxAudioEngineRetrieveEngineMixFormat(
     return STATUS_SUCCESS;
 }
 ```
+READY2GO
 
 ## -see-also
 

@@ -2,7 +2,7 @@
 UID: NS:acxrequest._ACX_EVENT_ITEM
 tech.root: audio
 title: ACX_EVENT_ITEM
-ms.date: 02/08/2022
+ms.date: 03/03/2022
 targetos: Windows
 description: The ACX_EVENT_ITEM structure describes the event items that can be used in an ACX request.
 prerelease: true

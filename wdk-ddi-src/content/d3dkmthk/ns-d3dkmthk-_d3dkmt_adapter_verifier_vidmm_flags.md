@@ -2,7 +2,7 @@
 UID: NS:d3dkmthk._D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS
 title: _D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS (d3dkmthk.h)
 description: The display adapter verifier video memory management flags.
-ms.date: 10/19/2018
+ms.date: 03/08/2022
 keywords: ["D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS structure"]
 ms.keywords: _D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS, D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS,
 req.header: d3dkmthk.h
@@ -41,7 +41,6 @@ dev_langs:
 
 # _D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS structure
 
-
 ## -description
 
 The display adapter verifier video memory management flags.
@@ -78,7 +77,7 @@ Never prepatch.
 
 ### -field ExpectPreparationFailure
 
-Expect preparation failur.
+Expect preparation failure.
 
 ### -field TakeSplitPoint
 
@@ -124,16 +123,20 @@ Never move defragmentation.
 
 Always relocate displayable resources.
 
+### -field AlwaysFailGrowVPRMoves
+
+Always fail grow VPR moves.
+
 ### -field Reserved
 
 Reserved for internal use.
 
 ### -field Value
 
- 
 The value used to operate over the other members.
 
 ## -remarks
 
 ## -see-also
 
+[D3DKMT_ADAPTER_VERIFIER_OPTION_DATA](ns-d3dkmthk-_d3dkmt_adapter_verifier_option_data.md)

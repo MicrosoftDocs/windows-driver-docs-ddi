@@ -3,7 +3,7 @@ UID: NC:d3dkmthk.PDXGK_REMOVAL_NOTIFICATION
 title: PDXGK_REMOVAL_NOTIFICATION (d3dkmthk.h)
 description: A callback indicating that the graphics device is being removed.
 old-location: display\pdxgk_removal_notification.htm
-ms.date: 03/29/2018
+ms.date: 03/03/2022
 keywords: ["PDXGK_REMOVAL_NOTIFICATION callback -remarks"]
 ms.keywords: "*PDXGK_REMOVAL_NOTIFICATION, *PDXGK_REMOVAL_NOTIFICATION callback function [Display Devices], d3dkmthk/*PDXGK_REMOVAL_NOTIFICATION, display.pdxgk_removal_notification"
 req.header: d3dkmthk.h
@@ -42,7 +42,6 @@ api_name:
 
 # PDXGK_REMOVAL_NOTIFICATION callback
 
-
 ## -description
 
 A callback indicating that the graphics device is being removed.
@@ -55,13 +54,8 @@ An opaque handle which should be provided when making callbacks to the graphics 
 
 ### -param PrivateHandle
 
-An opaque handle which will be provided in any callbacks. This handle must be globally unique, therefore, a pointer to the calling driver’s PDO or FDO should be used.
-
-## -returns
-
-This callback function does not return a value.
+An opaque handle which will be provided in any callbacks. This handle must be globally unique, therefore, a pointer to the calling driver's PDO or FDO should be used.
 
 ## -remarks
 
 Removal can occur on driver uninstall, device disable, device fault, and surprise removal. This callback is made at PASSIVE_LEVEL.
-

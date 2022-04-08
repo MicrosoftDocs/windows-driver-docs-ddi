@@ -2,7 +2,7 @@
 UID: NF:acxpin.ACX_PHYSICAL_CONNECTION_INIT
 tech.root: audio
 title: ACX_PHYSICAL_CONNECTION_INIT
-ms.date: 01/13/2022
+ms.date: 03/25/2022
 targetos: Windows
 description: The ACX_PHYSICAL_CONNECTION_INIT function initializes an ACX_PHYSICAL_CONNECTION structure for use.
 prerelease: false
@@ -57,3 +57,5 @@ A pointer to the **ACX_PHYSICAL_CONNECTION** structure to initialize.
 - [ACX_PHYSICAL_CONNECTION](ns-acxpin-acx_physical_connection.md)
 
 READY2GO
+
+EDITCOMPLETE

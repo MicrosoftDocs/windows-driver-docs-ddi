@@ -2,7 +2,7 @@
 UID: NS:acxrequest._ACX_METHOD_ITEM
 tech.root: audio
 title: ACX_METHOD_ITEM
-ms.date: 02/07/2022
+ms.date: 03/03/2022
 targetos: Windows
 description: The ACX_METHOD_ITEM structure describes the method items that can be used in an ACX request.
 prerelease: true

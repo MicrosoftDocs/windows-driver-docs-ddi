@@ -63,3 +63,5 @@ A Boolean value indicating if the terminal specified by the *Jack* parameter is 
 ## -see-also
 
 READY2GO
+
+EDITCOMPLETE

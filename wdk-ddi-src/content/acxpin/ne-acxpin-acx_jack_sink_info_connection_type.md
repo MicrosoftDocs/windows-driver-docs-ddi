@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_JACK_SINK_INFO_CONNECTION_TYPE
 tech.root: audio
 title: ACX_JACK_SINK_INFO_CONNECTION_TYPE
-ms.date: 02/17/2022
+ms.date: 03/25/2022
 targetos: Windows
 description: The ACX_JACK_SINK_INFO_CONNECTION_TYPE enumeration is used by the ACX_JACK_SINK_INFORMATION structure to specify the type of a connection.
 prerelease: false
@@ -57,3 +57,5 @@ Indicates that the port type is a DisplayPort jack.
 ## -see-also
 
 READY2GO
+
+EDITCOMPLETE

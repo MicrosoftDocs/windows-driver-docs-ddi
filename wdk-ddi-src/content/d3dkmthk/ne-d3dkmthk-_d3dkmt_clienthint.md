@@ -2,7 +2,7 @@
 UID: NE:d3dkmthk._D3DKMT_CLIENTHINT
 title: _D3DKMT_CLIENTHINT (d3dkmthk.h)
 description: Client hints.
-ms.date: 10/19/2018
+ms.date: 03/08/2022
 keywords: ["D3DKMT_CLIENTHINT enumeration"]
 ms.keywords: _D3DKMT_CLIENTHINT, D3DKMT_CLIENTHINT,
 req.header: d3dkmthk.h
@@ -38,42 +38,98 @@ dev_langs:
 
 # _D3DKMT_CLIENTHINT enumeration
 
-
 ## -description
 
-Client hints.
+Hints which client is creating a device context.
 
 ## -enum-fields
 
-### -field D3DKMT_CLIENTHINT_UNKNOWN 
+### -field D3DKMT_CLIENTHINT_UNKNOWN
 
-Unknown.
+Unknown
 
-### -field D3DKMT_CLIENTHINT_OPENGL 
+### -field D3DKMT_CLIENTHINT_OPENGL
 
-Open GL.
+OpenGL
 
-### -field D3DKMT_CLIENTHINT_CDD 
+### -field D3DKMT_CLIENTHINT_CDD
 
-CDD (Canonical Display Driver).
+CDD (Canonical Display Driver)
 
-### -field D3DKMT_CLIENTHINT_DX7 
+### -field D3DKMT_CLIENTHINT_OPENCL
 
-DirectX 7.
+OpenCL
 
-### -field D3DKMT_CLIENTHINT_DX8 
+### -field D3DKMT_CLIENTHINT_VULKAN
 
-DirectX 8.
+Vulkan
 
-### -field D3DKMT_CLIENTHINT_DX9 
+### -field D3DKMT_CLIENTHINT_CUDA
 
-DirectX 9.
+Cuda
 
-### -field D3DKMT_CLIENTHINT_DX10 
+### -field D3DKMT_CLIENTHINT_RESERVED
 
-DirectX 10.
+Reserved
+
+### -field D3DKMT_CLIENTHINT_DX7
+
+DirectX 7
+
+### -field D3DKMT_CLIENTHINT_DX8
+
+DirectX 8
+
+### -field D3DKMT_CLIENTHINT_DX9
+
+DirectX 9
+
+### -field D3DKMT_CLIENTHINT_DX10
+
+DirectX 10
+
+### -field D3DKMT_CLIENTHINT_DX11
+
+DirectX 11
+
+### -field D3DKMT_CLIENTHINT_DX12
+
+DirectX 12
+
+### -field D3DKMT_CLIENTHINT_9ON12
+
+DirectX 9 on DirectX 12
+
+### -field D3DKMT_CLIENTHINT_11ON12
+
+DirectX 11 on DirectX 12
+
+### -field D3DKMT_CLIENTHINT_MFT_ENCODE
+
+Media Foundation transform (MFT) encode
+
+### -field D3DKMT_CLIENTHINT_GLON12
+
+OpenGL on DirectX 12
+
+### -field D3DKMT_CLIENTHINT_CLON12
+
+OpenCL on DirectX 12
+
+### -field D3DKMT_CLIENTHINT_DML_TENSORFLOW
+
+Tensor Flow
+
+### -field D3DKMT_CLIENTHINT_ONEAPI_LEVEL0
+
+oneAPI Level Zero
+
+### -field D3DKMT_CLIENTHINT_MAX
+
+Reserved for internal validation
 
 ## -remarks
 
 ## -see-also
 
+[D3DKMT_CREATECONTEXT](ns-d3dkmthk-_d3dkmt_createcontext.md)

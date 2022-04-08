@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_QUERYSTATISTICS
 tech.root: display
 title: PFND3DKMT_QUERYSTATISTICS
-ms.date: 05/13/2021
+ms.date: 03/08/2022
 targetos: Windows
 description: PFND3DKMT_QUERYSTATISTICS is reserved for system use.
 req.assembly: 
@@ -45,7 +45,7 @@ Reserved for system use. Do not use.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 ## -returns
 

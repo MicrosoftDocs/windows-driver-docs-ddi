@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
 title: PFND3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE (d3dkmthk.h)
 description: Implemented by the client driver to query protected session info from NT handle.
-ms.date: 10/19/2018
+ms.date: 03/04/2022
 keywords: ["PFND3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE callback function"]
 req.header: d3dkmthk.h
 req.include-header: 
@@ -40,42 +40,31 @@ product:
 
 # PFND3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE callback function
 
-
 ## -description
 
 Implemented by the client driver to query protected session info from NT handle.
 
+## -syntax
+
+```cpp
+PFND3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE PfnD3dkmtQueryProtectedSessionInfoFromNtHandle;
+
+NTSTATUS PfnD3dkmtQueryProtectedSessionInfoFromNtHandle(
+    D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE *
+)
+{...}
+```
+
 ## -parameters
 
-### -param D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE *
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE](ns-d3dkmthk-_d3dkmt_queryprotectedsessioninfofromnthandle.md) structure.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code.
-
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE Pfnd3dkmtQueryprotectedsessioninfofromnthandle;
-
-// Definition
-
-NTSTATUS Pfnd3dkmtQueryprotectedsessioninfofromnthandle
-(
-	D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE *
-)
-{...}
-
-PFND3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
-
-
-```
+The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this method might return an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** error code.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of [D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE](ns-d3dkmthk-_d3dkmt_queryprotectedsessioninfofromnthandle.md) and then calling Pfnd3dkmtQueryProtectedSessionInfoFromNtHandle.
-
+Register your implementation of this callback function by setting the appropriate member of [D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE](ns-d3dkmthk-_d3dkmt_queryprotectedsessioninfofromnthandle.md) and then calling **PfnD3dkmtQueryProtectedSessionInfoFromNtHandle**.

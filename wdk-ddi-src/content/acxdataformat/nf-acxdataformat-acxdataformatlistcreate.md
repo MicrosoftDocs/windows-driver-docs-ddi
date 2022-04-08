@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatListCreate
 tech.root: audio
 title: AcxDataFormatListCreate
-ms.date: 01/10/2022
+ms.date: 03/28/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatListCreate function creates a new ACX data format list.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,19 +42,36 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatListCreate** function creates a new ACX data format list.
+
 ## -parameters
 
-### -param Device
+### -param Device [in]
 
-### -param Attributes
+The [WDFDEVICE](../wdfdevice/index.md) to which the data format list applies.
 
-### -param Config
+### -param Attributes [in]
 
-### -param DataFormatList
+Pointer to a [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure used to describe the *Device*.
+
+### -param Config [in]
+
+Pointer to an [ACX_DATAFORMAT_LIST_CONFIG](ns-acxdataformat-acx_dataformat_list_config.md) structure used to configure the *DataFormatList*.
+
+### -param DataFormatList [out]
+
+Pointer to the newly created ACX data format list.
 
 ## -returns
+
+The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this method might return an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** error code.
 
 ## -remarks
 
 ## -see-also
 
+- [WDFDEVICE](../wdfdevice/index.md)
+- [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
+- [ACX_DATAFORMAT_LIST_CONFIG](ns-acxdataformat-acx_dataformat_list_config.md)
+
+TBD - Please review this topic
