@@ -48,7 +48,7 @@ EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM sets the arm state of the keyword spotter.
 
 ### -param KeywordSpotter
 
-An existing, initialized, ACXKEYWORDSPOTTER object.    For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). Also see the [AcxKeywordSpotterCreate](nf-acxelements-acxkeywordspottercreate.md) function.
+An existing, initialized, ACXKEYWORDSPOTTER object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). Also see the [AcxKeywordSpotterCreate](nf-acxelements-acxkeywordspottercreate.md) function.
 
 ### -param EventId
 
@@ -115,6 +115,7 @@ NTSTATUS DspC_EvtAcxKeywordSpotterAssignArm(
     return STATUS_SUCCESS;
 }
 ```
+READY2GO
 
 ## -see-also
 

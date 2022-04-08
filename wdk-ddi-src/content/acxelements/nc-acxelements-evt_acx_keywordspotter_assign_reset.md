@@ -48,7 +48,7 @@ EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET resets the keyword spotter detector to an un
 
 ### -param KeywordSpotter
 
-An existing, initialized, ACXKEYWORDSPOTTER object.    For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). Also see the [AcxKeywordSpotterCreate](nf-acxelements-acxkeywordspottercreate.md) function.
+An existing, initialized, ACXKEYWORDSPOTTER object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). Also see the [AcxKeywordSpotterCreate](nf-acxelements-acxkeywordspottercreate.md) function.
 
 ### -param EventId
 
@@ -87,6 +87,7 @@ CodecC_EvtAcxKeywordSpotterAssignReset(
     return keywordDetector->ResetDetector(*EventId);
 }
 ```
+READY2GO
 
 ## -see-also
 
