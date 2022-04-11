@@ -92,6 +92,7 @@ CodecC_EvtAcxKeywordSpotterRetrieveArm(
     return keywordDetector->GetArmed(*EventId, Arm);
 }
 ```
+READY2GO
 
 ## -see-also
 
