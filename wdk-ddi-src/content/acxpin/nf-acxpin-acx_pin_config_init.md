@@ -2,7 +2,7 @@
 UID: NF:acxpin.ACX_PIN_CONFIG_INIT
 tech.root: audio
 title: ACX_PIN_CONFIG_INIT macro
-ms.date: 02/17/2022
+ms.date: 04/11/2022
 targetos: Windows
 description: The ACX_PIN_CONFIG_INIT macro calls the ACX_PIN_CONFIG_INIT_ID function with the default ID value.
 prerelease: false
@@ -59,9 +59,7 @@ A pointer to the [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md) structure to init
 
 ## -remarks
 
-This call uses AcxPinIdDefault as ID for all the new added ACXPINs.
-
-When AcxPinIdDefault is specified, ACX assignes the next sequencial ID based on the previous added ACXPINs.
+This call uses AcxPinIdDefault as the ID for all newly added ACXPINs. When AcxPinIdDefault is specified, ACX assigns the next sequential ID based on the previous added ACXPINs.
 
 ## -see-also
 
@@ -69,3 +67,5 @@ When AcxPinIdDefault is specified, ACX assignes the next sequencial ID based on 
 - [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)
 
 READY2GO
+
+EDITCOMPLETE
