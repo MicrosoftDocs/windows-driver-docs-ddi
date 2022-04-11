@@ -59,9 +59,13 @@ A pointer to the [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md) structure to init
 
 ## -remarks
 
+This call uses AcxPinIdDefault as ID for all the new added ACXPINs.
+
+When AcxPinIdDefault is specified, ACX assignes the next sequencial ID based on the previous added ACXPINs.
+
 ## -see-also
 
 - [ACX_PIN_CONFIG_INIT_ID](nf-acxpin-acx_pin_config_init_id.md)
 - [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)
 
-TBD - Please review this topic
+READY2GO
