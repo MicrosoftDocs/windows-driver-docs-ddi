@@ -102,7 +102,7 @@ A pointer to an array of [ACX_METHOD_ITEM](../acxrequest/ns-acxrequest-acx_metho
 
 ### -field u
 
-A union used to specify the configuration of the pin.
+A union used to specify the additional type configuration of the pin.
 
 ### -field u.MicrophoneConfig
 
@@ -120,4 +120,4 @@ Instances of the **ACX_PIN_CONFIG** structure must be initialized by calling the
 - [ACX_METHOD_ITEM](../acxrequest/ns-acxrequest-acx_method_item.md)
 - [ACX_PIN_CALLBACKS](nf-acxpin-acx_pin_callbacks_init.md)
 
-TBD - Please review this topic
+READY2GO
