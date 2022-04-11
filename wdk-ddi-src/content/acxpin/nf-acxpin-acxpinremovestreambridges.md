@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxPinRemoveStreamBridges
 ms.date: 02/17/2022
 targetos: Windows
-description: The AcxPinRemoveStreamBridges function removes steam bridges from the specified pin.
+description: The AcxPinRemoveStreamBridges function removes ACXSTREAMBRIDGE objects from the specified pin.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **AcxPinRemoveStreamBridges** function removes steam bridges from the specified pin.
+The **AcxPinRemoveStreamBridges** function removes ACXSTREAMBRIDGE objects from the specified pin.
 
 ## -parameters
 
 ### -param Pin [in]
 
-The pin from which to remove the stream bridges.
+The ACXPIN handle from which to remove the stream bridges.
 
 ### -param StreamBridges [in, reads(StreamBridgesCount)]
 
@@ -66,4 +66,4 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -see-also
 
-TBD - Please review this topic
+READY2GO
