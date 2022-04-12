@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinCreate
 tech.root: audio
 title: AcxPinCreate
-ms.date: 02/17/2022
+ms.date: 04/11/2022
 targetos: Windows
 description: The AcxPinCreate function creates and initializes a new ACXPIN object.
 prerelease: false
@@ -76,3 +76,5 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 - [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)
 
 READY2GO
+
+EDITCOMPLETE

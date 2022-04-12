@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinRemoveStreamBridges
 tech.root: audio
 title: AcxPinRemoveStreamBridges
-ms.date: 02/17/2022
+ms.date: 04/11/2022
 targetos: Windows
 description: The AcxPinRemoveStreamBridges function removes ACXSTREAMBRIDGE objects from the specified pin.
 prerelease: false
@@ -56,7 +56,7 @@ A pointer to an array of ACXSTREAMBRIDGE handles representing the steam bridges 
 
 ### -param StreamBridgesCount
 
-The number of steam bridges to remove from the *Pin*, must not equal zero.
+The number of steam bridges to remove from the *Pin*. This parameter must not equal zero.
 
 ## -returns
 
@@ -67,3 +67,5 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 ## -see-also
 
 READY2GO
+
+EDITCOMPLETE

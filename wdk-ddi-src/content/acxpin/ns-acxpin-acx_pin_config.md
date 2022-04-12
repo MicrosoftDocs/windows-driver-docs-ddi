@@ -2,7 +2,7 @@
 UID: NS:acxpin._ACX_PIN_CONFIG
 tech.root: audio
 title: ACX_PIN_CONFIG
-ms.date: 03/30/2022
+ms.date: 04/11/2022
 targetos: Windows
 description: The ACX_PIN_CONFIG structure is used to configure a pin.
 prerelease: false
@@ -121,3 +121,5 @@ Instances of the **ACX_PIN_CONFIG** structure must be initialized by calling the
 - [ACX_PIN_CALLBACKS](nf-acxpin-acx_pin_callbacks_init.md)
 
 READY2GO
+
+EDITCOMPLETE

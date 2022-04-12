@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinGetId
 tech.root: audio
 title: AcxPinGetId
-ms.date: 02/17/2022
+ms.date: 04/11/2022
 targetos: Windows
 description: The AcxPinGetId function returns the ID for the specified pin.
 prerelease: false
@@ -59,3 +59,5 @@ Returns a ULONG containing the ID value for *AcxPin*.
 ## -see-also
 
 READY2GO
+
+EDITCOMPLETE
