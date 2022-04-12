@@ -2,7 +2,7 @@
 UID: NS:acxpin._ACX_CONNECTION
 tech.root: audio
 title: ACX_CONNECTION
-ms.date: 02/17/2022
+ms.date: 04/12/2022
 targetos: Windows
 description: The ACX_CONNECTION structure is used to define a connection between two pins.
 prerelease: false
@@ -91,3 +91,5 @@ The ID used to identify the *ToPin* object.
 ## -see-also
 
 READY2GO
+
+EDITCOMPLETE
