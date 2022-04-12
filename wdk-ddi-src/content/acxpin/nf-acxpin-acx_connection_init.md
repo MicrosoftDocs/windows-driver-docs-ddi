@@ -52,11 +52,11 @@ Pointer to an [ACX_CONNECTION](ns-acxpin-acx_connection.md) object to be initial
 
 ### -param FromObject [in]
 
-The **ACXOBJECT** from which audio data comes.
+The **ACXOBJECT** from which the connection starts.
 
 ### -param ToObject [in]
 
-The **ACXOBJECT** to which audio data is sent.
+The **ACXOBJECT** to which the connection ends.
 
 ## -remarks
 
@@ -64,4 +64,4 @@ The **ACXOBJECT** to which audio data is sent.
 
 - [ACX_CONNECTION](ns-acxpin-acx_connection.md)
 
-TBD - Please review this topic
+READY2GO
