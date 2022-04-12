@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_PHYSICAL_CONNECTION
 ms.date: 02/24/2022
 targetos: Windows
-description: The ACX_PHYSICAL_CONNECTION structure describes a physical audio connection.
+description: The ACX_PHYSICAL_CONNECTION structure describes a physical audio connection between two ACXCIRCUITs.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_PHYSICAL_CONNECTION** structure describes a physical audio connection.
+The **ACX_PHYSICAL_CONNECTION** structure describes a physical audio connection between two ACXCIRCUITs.
 
 ## -struct-fields
 
@@ -82,4 +82,4 @@ The ID of the target pin.
 
 - [ACX_PHYSICAL_CONNECTION_FLAGS](ne-acxpin-acx_physical_connection_flags.md)
 
-TBD - Please review this topic
+READY2GO

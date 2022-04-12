@@ -56,8 +56,10 @@ The ID to use when initializing the **ACX_PIN_CONFIG** structure.
 
 ## -remarks
 
+At this time the only valid accepted ID is AcxPinIdDefault.
+
 ## -see-also
 
 - [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)
 
-TBD - Please review this topic
+READY2GO
