@@ -4,13 +4,13 @@ title: WdfDeviceAssignInterfaceProperty function (wdfdevice.h)
 description: The WdfDeviceAssignInterfaceProperty method modifies the current value of a device interface property.
 old-location: wdf\wdfdeviceassigninterfaceproperty.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 04/12/2022
 keywords: ["WdfDeviceAssignInterfaceProperty function"]
 ms.keywords: WdfDeviceAssignInterfaceProperty, WdfDeviceAssignInterfaceProperty method, wdf.wdfdeviceassigninterfaceproperty, wdfdevice/WdfDeviceAssignInterfaceProperty
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
-req.target-min-winverclnt: Windows 8.1
+req.target-min-winverclnt: Windows�8.1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 2.0
@@ -42,77 +42,55 @@ api_name:
 
 # WdfDeviceAssignInterfaceProperty function
 
-
 ## -description
 
-<p class="CCE_Message">[Applies to UMDF only]</p>
+> [!IMPORTANT]
+> Applies to UMDF only
 
-The <b>WdfDeviceAssignInterfaceProperty</b> method modifies the current value of a <a href="/previous-versions/ff541409(v=vs.85)">device interface property</a>.
+The **WdfDeviceAssignInterfaceProperty** method modifies the current value of a [device interface property](/windows-hardware/drivers/install/accessing-device-interface-properties).
 
 > [!NOTE]
 > To retrieve or modify a device interface property, a KMDF driver must call [**IoGetDeviceInterfacePropertyData**](../wdm/nf-wdm-iogetdeviceinterfacepropertydata.md) or [**IoSetDeviceInterfacePropertyData**](../wdm/nf-wdm-iosetdeviceinterfacepropertydata.md) directly.
->
 
 ## -parameters
 
 ### -param Device [in]
 
-
 A handle to a framework device object.
 
 ### -param PropertyData [in]
 
-
-A pointer to <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a> structure.
+A pointer to [WDF_DEVICE_INTERFACE_PROPERTY_DATA](/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data) structure.
 
 ### -param Type [in]
 
-
-A <b>DEVPROPTYPE</b>-typed value that specifies the type of the data that is provided in <i>PropertyBuffer</i>.
+A **DEVPROPTYPE**-typed value that specifies the type of the data that is provided in *PropertyBuffer*.
 
 ### -param BufferLength [in]
 
-
-Specifies the length, in bytes, of the buffer that <i>PropertyBuffer</i> points to.
+Specifies the length, in bytes, of the buffer that *PropertyBuffer* points to.
 
 ### -param PropertyBuffer [in, optional]
 
-
-A pointer to the device interface property data. Set this parameter to <b>NULL</b> to delete the specified property.
+A pointer to the device interface property data. Set this parameter to **NULL** to delete the specified property.
 
 ## -returns
 
-If the <b>WdfDeviceAssignInterfaceProperty</b> method encounters no errors, it returns STATUS_SUCCESS. Additional return values include:
+If the **WdfDeviceAssignInterfaceProperty** method encounters no errors, it returns STATUS_SUCCESS. Additional return values include:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the parameters is incorrect.
+| Return code | Description |
+|--|--|
+| **STATUS_INVALID_PARAMETER** | One of the parameters is incorrect. |
 
-</td>
-</tr>
-</table>
- 
-
-The method might return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
+The method might return other [NTSTATUS values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
-For information about related methods, see <a href="/windows-hardware/drivers/wdf/accessing-the-unified-device-property-model">Accessing the Unified Device Property Model</a>.
+For information about related methods, see [Accessing the Unified Device Property Model](/windows-hardware/drivers/wdf/accessing-the-unified-device-property-model).
 
+### Examples
 
-#### Examples
-
-The following code example initializes a <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a> structure and then calls <b>WdfDeviceAssignInterfaceProperty</b>.
+The following code example initializes a [WDF_DEVICE_INTERFACE_PROPERTY_DATA](/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data) structure and then calls **WdfDeviceAssignInterfaceProperty**.
 
 ```cpp
 DEFINE_DEVPROPKEY(DEVPKEY_ToasterCrispLevelDword, 0x5d0ba64a, 0x2396, 0x4bc9, 0xbf, 0x49, 0x52, 0x1d, 0xa6, 0x2b, 0x1b, 0xed, 3);  // DEVPROP_TYPE_UINT32
@@ -139,16 +117,10 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a>
+[WDF_DEVICE_INTERFACE_PROPERTY_DATA](/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data)
 
+[WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT](/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_device_interface_property_data_init)
 
+[WdfDeviceAllocAndQueryInterfaceProperty](/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty)
 
-<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_device_interface_property_data_init">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty">WdfDeviceAllocAndQueryInterfaceProperty</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicequeryinterfaceproperty">WdfDeviceQueryInterfaceProperty</a>
+[WdfDeviceQueryInterfaceProperty](/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicequeryinterfaceproperty)
