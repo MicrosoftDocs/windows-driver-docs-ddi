@@ -74,6 +74,8 @@ Wi-Fi Direct Provision Discovery Response.
 
 ### -field WDI_P2P_ACTION_FRAME_MAX_VALUE:0xFFFFFFFF
 
+The maximum value for this type.
+
 ## -remarks
 
 The **WDI_P2P_ACTION_FRAME_TYPE** enum is a value in the [**WDI_TLV_P2P_SEND_ACTION_REQUEST_FRAME_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-send-action-request-frame-parameters) and [**WDI_TLV_P2P_ACTION_FRAME_RESPONSE_PARAMETERS**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-action-frame-response-parameters) TLVs.

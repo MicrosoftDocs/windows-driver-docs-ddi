@@ -3,7 +3,7 @@ UID: NF:netadapter.NET_ADAPTER_DMA_CAPABILITIES_INIT
 title: NET_ADAPTER_DMA_CAPABILITIES_INIT function (netadapter.h)
 description: The NET_ADAPTER_DMA_CAPABILITIES_INIT function initializes a NET_ADAPTER_DMA_CAPABILITIES structure.
 tech.root: netvista
-ms.date: 02/14/2018
+ms.date: 03/30/2022
 keywords: ["NET_ADAPTER_DMA_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_DMA_CAPABILITIES_INIT
 req.header: netadapter.h
@@ -45,11 +45,11 @@ The **NET_ADAPTER_DMA_CAPABILITIES_INIT** function initializes a [**NET_ADAPTER_
 
 ## -parameters
 
-### -param DmaCapabilities
+### -param DmaCapabilities [_Out_]
 
 A pointer to the driver-allocated **NET_ADAPTER_DMA_CAPABILITIES** structure to be initialized.
 
-### -param DmaEnabler
+### -param DmaEnabler [_In_]
 
 A DMA enabler object the client driver obtained in a previous call to [**WdfDmaEnablerCreate**](../wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate.md).
 

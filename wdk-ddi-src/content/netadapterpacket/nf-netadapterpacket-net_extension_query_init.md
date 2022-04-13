@@ -3,7 +3,7 @@ UID: NF:netadapterpacket.NET_EXTENSION_QUERY_INIT
 title: NET_EXTENSION_QUERY_INIT function (netadapterpacket.h)
 description: The NET_EXTENSION_QUERY_INIT function initializes a NET_EXTENSION_QUERY structure.
 tech.root: netvista
-ms.date: 11/07/2019
+ms.date: 03/30/2022
 keywords: ["NET_EXTENSION_QUERY_INIT function"]
 ms.keywords: NET_EXTENSION_QUERY_INIT
 req.header: netadapterpacket.h
@@ -49,19 +49,19 @@ The **NET_EXTENSION_QUERY_INIT** function initializes a [**NET_EXTENSION_QUERY**
 
 ## -parameters
 
-### -param Extension
+### -param Extension [_Out_]
 
 A pointer to a driver-allocated [**NET_EXTENSION_QUERY**](../netadapterpacket/ns-netadapterpacket-_net_extension_query.md) structure.
 
-### -param Name
+### -param Name [_In_]
 
 The name of the extension to be queried.
 
-### -param Version
+### -param Version [_In_]
 
 The version of the extension to be queried.
 
-### -param Type
+### -param Type [_In_]
 
 A [**NET_EXTENSION_TYPE**](../extension/ne-extension-_net_extension_type.md) value that specifies the type of extension being queried.
 

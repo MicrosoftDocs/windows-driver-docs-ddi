@@ -58,6 +58,8 @@ The port can perform an active or passive can or can use a combination of both s
 
 ### -field WDI_SCAN_TYPE_MAX_VALUE:0xFFFF
 
+The maximum value for this type.
+
 ## -remarks
 
 The **WDI_SCAN_TYPE** enum is a value in the [**WDI_TLV_SCAN_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-scan-mode) and [**WDI_TLV_ADAPTER_NLO_SCAN_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-adapter-nlo-scan-mode) TLVs.

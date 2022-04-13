@@ -2,7 +2,7 @@
 UID: NS:wificx._WIFI_STATION_CAPABILITIES
 tech.root: netvista
 title: WIFI_STATION_CAPABILITIES (wificx.h)
-ms.date: 08/26/2021
+ms.date: 03/23/2022
 ms.topic: language-reference
 targetos: Windows
 description: The WIFI_STATION_CAPABILITIES structure describes the station capabilities for a WiFiCx device.
@@ -152,6 +152,18 @@ The number of secondary STA band combinations. If this value is **0**, then the 
 ### -field SecondaryStaBandsCombinations
 
 A pointer to an array of [**WIFI_STA_BANDS_COMBINATION**](ns-wificx-wifi_sta_bands_combination.md) structures. If this value is **NULL**, then the Secondary STA capability will not be set.
+
+### -field MaxMultiLinkConnectionsSupported
+
+The maximum number of links supported by hardware for MLO connections.
+
+### -field MultiLinkConnectionsEnabled
+
+Specifies whether multi-Link connectivity is enabled. Valid values are 0 (disabled) and 1 (enabled).
+
+### -field MultiLinkAddressesList
+
+A pointer to an array of [**WDI_MAC_ADDRESS**](../dot11wificxintf/ns-dot11wificxintf-wdi_mac_address.md) structure that represent multiLink MAC addresses with **MaxMultiLinkConnectionsSupported** elements.
 
 ## -remarks
 

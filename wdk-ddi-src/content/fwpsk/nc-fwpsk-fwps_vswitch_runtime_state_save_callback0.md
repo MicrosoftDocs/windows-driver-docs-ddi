@@ -83,10 +83,6 @@ A pointer to an [NDIS_SWITCH_PARAMETERS](../ntddndis/ns-ntddndis-_ndis_switch_pa
 The source switch port identifier.
 
 
-### -param **runtimeState
-
-The location of the run-time state output result buffer.
-
 ### -param runtimeStateLength [out]
 
 

@@ -3,7 +3,7 @@ UID: NF:netadapter.NET_ADAPTER_LINK_STATE_INIT
 title: NET_ADAPTER_LINK_STATE_INIT function (netadapter.h)
 description: Initializes a NET_ADAPTER_LINK_STATE structure.
 tech.root: netvista
-ms.date: 02/06/2018
+ms.date: 03/30/2022
 keywords: ["NET_ADAPTER_LINK_STATE_INIT function"]
 ms.keywords: NET_ADAPTER_LINK_STATE_INIT
 req.header: netadapter.h
@@ -49,27 +49,27 @@ Initializes a [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md)
 
 ## -parameters
 
-### -param LinkState
+### -param LinkState [_Out_]
 
 A pointer to a driver-allocated [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md) structure.
 
-### -param LinkSpeed
+### -param LinkSpeed [_In_]
 
 The link speed of the adapter in bits per second.
 
-### -param MediaConnectState
+### -param MediaConnectState [_In_]
 
 The media connect state for the network adapter.
 
-### -param MediaDuplexState
+### -param MediaDuplexState [_In_]
 
 The media duplex state for the network adapter.
 
-### -param SupportedPauseFunctions
+### -param SupportedPauseFunctions [_In_]
 
 Support for the IEEE 802.3 pause frames specified by a [**NET_ADAPTER_PAUSE_FUNCTION_TYPE**](../netadapter/ne-netadapter-_net_adapter_pause_function_type.md) value.
 
-### -param AutoNegotiationFlags
+### -param AutoNegotiationFlags [_In_]
 
 The auto-negotiation settings for the network adapter. For more info, see [NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES](../ndis/ns-ndis-_ndis_miniport_adapter_general_attributes.md).
 

@@ -3,7 +3,7 @@ UID: NF:netadapter.NetAdapterStart
 title: NetAdapterStart function (netadapter.h)
 description: The NetAdapterStart function starts a NETADAPTER object.
 tech.root: netvista
-ms.date: 08/03/2018
+ms.date: 03/30/2022
 keywords: ["NetAdapterStart function"]
 ms.keywords: NetAdapterStart
 req.header: netadapter.h
@@ -46,7 +46,7 @@ The **NetAdapterStart** function starts a NETADAPTER object.
 
 ## -parameters
 
-### -param Adapter
+### -param Adapter [_In_]
 
 The **NETADAPTER** object created by a prior call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 

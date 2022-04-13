@@ -3,7 +3,7 @@ UID: NF:netwakesource.NetWakeSourceGetType
 title: NetWakeSourceGetType function (netwakesource.h)
 description: The NetWakeSourceGetType function gets the type for wake-on-LAN (WoL) source.
 tech.root: netvista
-ms.date: 10/10/2019
+ms.date: 04/01/2022
 keywords: ["NetWakeSourceGetType function"]
 ms.keywords: NetWakeSourceGetType
 req.header: netwakesource.h
@@ -49,7 +49,7 @@ The **NetWakeSourceGetType** function gets the type for wake-on-LAN (WoL) source
 
 ## -parameters
 
-### -param WakeSource
+### -param WakeSource [_In_]
 
 The NETWAKESOURCE object that represents this wake source.
 

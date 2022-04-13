@@ -3,7 +3,7 @@ UID: NF:netadapter.NetAdapterInitFree
 title: NetAdapterInitFree function (netadapter.h)
 description: The NetAdapterInitFree function deallocates a NETADAPTER_INIT structure.
 tech.root: netvista
-ms.date: 01/18/2019
+ms.date: 03/30/2022
 keywords: ["NetAdapterInitFree function"]
 ms.keywords: NetAdapterInitFree
 req.header: netadapter.h
@@ -47,7 +47,7 @@ The **NetAdapterInitFree** function deallocates a NETADAPTER_INIT structure.
 
 ## -parameters
 
-### -param AdapterInit
+### -param AdapterInit [_In_]
 
 A pointer to a NETADAPTER_INIT structure.
 

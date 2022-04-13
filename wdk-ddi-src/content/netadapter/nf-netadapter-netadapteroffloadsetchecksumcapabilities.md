@@ -3,7 +3,7 @@ UID: NF:netadapter.NetAdapterOffloadSetChecksumCapabilities
 title: NetAdapterOffloadSetChecksumCapabilities function (netadapter.h)
 description: The NetAdapterOffloadSetChecksumCapabilities function sets the hardware checksum offload capabilities of a network adapter.
 tech.root: netvista
-ms.date: 01/18/2019
+ms.date: 03/30/2022
 keywords: ["NetAdapterOffloadSetChecksumCapabilities function"]
 ms.keywords: NetAdapterOffloadSetChecksumCapabilities
 req.header: netadapter.h
@@ -50,11 +50,11 @@ The **NetAdapterOffloadSetChecksumCapabilities** function sets the hardware chec
 
 ## -parameters
 
-### -param Adapter
+### -param Adapter [_In_]
 
 A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
-### -param HardwareCapabilities
+### -param HardwareCapabilities [_In_]
 
 A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md) structure that describes the hardware's checksum offload capabilities.
 

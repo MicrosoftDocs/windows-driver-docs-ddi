@@ -3,7 +3,7 @@ UID: NE:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE
 title: _NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE (netreceivescaling.h)
 description: The NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE enumeration specifies the portion of received network data that a NIC must use to calculate an RSS hash value.
 tech.root: netvista
-ms.date: 03/07/2018
+ms.date: 04/01/2022
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE enumeration"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE, NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE,
 req.header: netreceivescaling.h
@@ -42,31 +42,31 @@ The **NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE** enumeration specifies the port
 
 ## -enum-fields
 
-### -field NetAdapterReceiveScalingProtocolTypeNone : 
+### -field NetAdapterReceiveScalingProtocolTypeNone:0x00000000
 
 Unused for RSS-capable NIC client drivers.
 
-### -field NetAdapterReceiveScalingProtocolTypeIPv4 : 
+### -field NetAdapterReceiveScalingProtocolTypeIPv4:0x00000001
 
 Indicates that the hardware can calculate hashes for IPv4 packets.
 
-### -field NetAdapterReceiveScalingProtocolTypeIPv4Options : 
+### -field NetAdapterReceiveScalingProtocolTypeIPv4Options:0x00000002
 
 Indicates that the hardware understands IPv4 options. This constant requires that **NetAdapterReceiveScalingProtocolTypeIPv4** is set.
 
-### -field NetAdapterReceiveScalingProtocolTypeIPv6 : 
+### -field NetAdapterReceiveScalingProtocolTypeIPv6:0x00000004
 
 Indicates that the hardware can calculate hashes for IPv6 packets.
 
-### -field NetAdapterReceiveScalingProtocolTypeIPv6Extensions : 
+### -field NetAdapterReceiveScalingProtocolTypeIPv6Extensions:0x00000008
 
 Indicates that the hardware understands IPv6 extension headers. This constant requires that **NetAdapterReceiveScalingProtocolTypeIPv6** is set.
 
-### -field NetAdapterReceiveScalingProtocolTypeTcp : 
+### -field NetAdapterReceiveScalingProtocolTypeTcp:0x00000010
 
 Indicates that the hardware supports 4-tuple TCP header hash calculation.
 
-### -field NetAdapterReceiveScalingProtocolTypeUdp : 
+### -field NetAdapterReceiveScalingProtocolTypeUdp:0x00000020
 
 Indicates that the hardware supports 4-tuple UDP header hash calculation.
 

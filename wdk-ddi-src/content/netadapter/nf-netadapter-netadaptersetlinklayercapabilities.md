@@ -3,7 +3,7 @@ UID: NF:netadapter.NetAdapterSetLinkLayerCapabilities
 title: NetAdapterSetLinkLayerCapabilities function (netadapter.h)
 description: Sets the link layer capabilities of the network adapter.
 tech.root: netvista
-ms.date: 02/06/2018
+ms.date: 03/30/2022
 keywords: ["NetAdapterSetLinkLayerCapabilities function"]
 ms.keywords: NetAdapterSetLinkLayerCapabilities
 req.header: netadapter.h
@@ -49,11 +49,11 @@ Sets the link layer capabilities of the network adapter.
 
 ## -parameters
 
-### -param Adapter
+### -param Adapter [_In_]
 
 The network adapter object that the client created in a prior call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
-### -param LinkLayerCapabilities
+### -param LinkLayerCapabilities [_In_]
 
 A pointer to an allocated and initialized [**NET_ADAPTER_LINK_LAYER_CAPABILITIES**](ns-netadapter-_net_adapter_link_layer_capabilities.md) structure.
 
