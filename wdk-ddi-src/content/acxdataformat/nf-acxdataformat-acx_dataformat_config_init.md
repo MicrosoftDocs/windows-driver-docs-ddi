@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_DATAFORMAT_CONFIG_INIT
 ms.date: 03/22/2022
 targetos: Windows
-description: The ACX_DATAFORMAT_CONFIG_INIT function initializes an ACX_DATAFORMAT_CONFIG structure for use by an audio class extension (ACX).
+description: The ACX_DATAFORMAT_CONFIG_INIT function initializes an ACX_DATAFORMAT_CONFIG structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_DATAFORMAT_CONFIG_INIT** function initializes an [ACX_DATAFORMAT_CONFIG](ns-acxdataformat-acx_dataformat_config.md) structure for use by an audio class extension (ACX).
+The **ACX_DATAFORMAT_CONFIG_INIT** function initializes an [ACX_DATAFORMAT_CONFIG](ns-acxdataformat-acx_dataformat_config.md) structure.
 
 ## -parameters
 
@@ -57,4 +57,4 @@ A pointer to the [ACX_DATAFORMAT_CONFIG](ns-acxdataformat-acx_dataformat_config.
 - [ACX_DATAFORMAT_CONFIG](ns-acxdataformat-acx_dataformat_config.md)
 - [ACX_DATAFORMAT_CONFIG_INIT_KS](nf-acxdataformat-acx_dataformat_config_init_ks.md)
 
-TBD - Please review this topic
+READY2GO
