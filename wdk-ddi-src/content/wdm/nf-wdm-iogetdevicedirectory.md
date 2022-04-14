@@ -3,13 +3,13 @@ UID: NF:wdm.IoGetDeviceDirectory
 title: IoGetDeviceDirectory function (wdm.h)
 description: Returns a handle to a directory on disk specific to the specified driver object where the driver can read and write files.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 04/13/2022
 keywords: ["IoGetDeviceDirectory function"]
 ms.keywords: IoGetDeviceDirectory
 req.header: wdm.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
