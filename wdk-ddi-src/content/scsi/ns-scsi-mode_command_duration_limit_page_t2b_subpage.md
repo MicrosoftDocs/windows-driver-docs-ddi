@@ -4,7 +4,7 @@ tech.root: storage
 title: MODE_COMMAND_DURATION_LIMIT_PAGE_T2B_SUBPAGE
 ms.date: 05/24/2022
 targetos: Windows
-description: Learn more about the MODE_COMMAND_DURATION_LIMIT_PAGE_T2B_SUBPAGE structure.
+description: Learn more about the MODE_COMMAND_DURATION_LIMIT_PAGE_T2B_SUBPAGE (scsi.h) structure.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,29 +46,29 @@ helpviewer_keywords:
 
 ## -description
 
-The **MODE_COMMAND_DURATION_LIMIT_PAGE_T2B_SUBPAGE** structure describes the Command Duration Limit T2B mode page, described in Section 7.5.12 of the T10 SCSI Primary Commands specification.
+The **MODE_COMMAND_DURATION_LIMIT_PAGE_T2B_SUBPAGE** structure describes the Command Duration Limit T2B mode page, described in Section 7.5.12 of the [T10 SCSI Primary Commands specification (SPC-6)](https://www.t10.org/members/w_spc6.htm).
 
 ## -struct-fields
 
 ### -field PageCode
 
-Described in the [**MODE_PAGE_SUBPAGE_HEADER**](ns-scsi-mode_page_subpage_header.md) structure. Set to 0Ah.
+Described in the specification.
 
 ### -field SubPageFormat
 
-Described in the [**MODE_PAGE_SUBPAGE_HEADER**](ns-scsi-mode_page_subpage_header.md) structure. Set to 1b (Boolean).
+Described in the specification.
 
 ### -field PageSavable
 
-Described in the [**MODE_PAGE_SUBPAGE_HEADER**](ns-scsi-mode_page_subpage_header.md) structure.
+Described in the specification.
 
 ### -field SubPageCode
 
-Described in the [**MODE_PAGE_SUBPAGE_HEADER**](ns-scsi-mode_page_subpage_header.md) structure. Set to 08h.
+Described in the specification.
 
 ### -field PageLength
 
-Described in the [**MODE_PAGE_SUBPAGE_HEADER**](ns-scsi-mode_page_subpage_header.md) structure.  Set to 00E4h.
+Described in the specification.
 
 ### -field Reserved
 
@@ -80,6 +80,7 @@ Reserved.
 
 ### -field PerfvsLatencyControls
 
+Described in the specification.
 
 ### -field T2CommandDurationLimitDescriptors
 
@@ -87,7 +88,7 @@ An array of **DURATION_LIMIT_T2_DESCRIPTOR_COUNT** [**T2_COMMAND_DURATION_LIMIT_
 
 ## -remarks
 
-See Section 7.5.12 of the T10 SCSI Primary Commands specification for additional details.
+See Section 7.5.12 of the [T10 SCSI Primary Commands specification (SPC-6)](https://www.t10.org/members/w_spc6.htm) for details.
 
 ## -see-also
 

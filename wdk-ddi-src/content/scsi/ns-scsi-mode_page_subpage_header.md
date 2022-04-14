@@ -4,7 +4,7 @@ tech.root: storage
 title: MODE_PAGE_SUBPAGE_HEADER
 ms.date: 05/24/2022
 targetos: Windows
-description: Learn more about the MODE_PAGE_SUBPAGE_HEADER structure.
+description: Learn more about the MODE_PAGE_SUBPAGE_HEADER (scsi.h) structure.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -46,35 +46,33 @@ helpviewer_keywords:
 
 ## -description
 
-The **MODE_PAGE_SUBPAGE_HEADER** structure contains header information for the page_0 or sub_page mode page format, as defined in Section 7.5.8 of the T10 SCSI Primary Commands specification.
+The **MODE_PAGE_SUBPAGE_HEADER** structure contains header information for the page_0 or sub_page mode page format, as defined in Section 7.5.8 of the [T10 SCSI Primary Commands specification (SPC-6)](https://www.t10.org/members/w_spc6.htm).
 
 ## -struct-fields
 
 ### -field PageCode
 
-Along with **SubPageCode**, identifies the format and parameters defined for the mode page.
+Described in the specification.
 
 ### -field SubPageFormat
 
-A value of zero indicates that the page_0 mode page format is being used. A value of one indicates that the sub_page mode page format is being used.
+Described in the specification.
 
 ### -field PageSavable
 
-If the command is MODE SENSE, a value of zero indicates that the device server is not able to save the supported mode parameters. A value of one indicates that the mode page may be saved by the logical unit in a nonvolatile, vendor-specific location. **PageSavable** is reserved when using the MODE SELECT command.
+Described in the specification.
 
 ### -field SubPageCode
 
-Along with **PageCode**, identifies the format and parameters defined for the mode page. **SubPageCode** is meaningful only in the context of its associated **PageCode**.
+Described in the specification.
 
 ### -field PageLength
 
-The length of the set of mode parameters that follow, in bytes.
+Described in the specification.
 
 ## -remarks
 
-Page codes and subpage codes apply to all device types or apply to a specific device type. Page codes and subpage codes that apply to a specific device type are defined in the command standard for that device type.
-
-See Section 7.5.8 of the T10 SCSI Primary Commands specification for additional details.
+See Section 7.5.8 of the [T10 SCSI Primary Commands specification (SPC-6)](https://www.t10.org/members/w_spc6.htm) for details.
 
 ## -see-also
 
