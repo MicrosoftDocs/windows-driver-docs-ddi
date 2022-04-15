@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_CONSTRICTOR_OPTION enumeration defines the ACX constrictor options. And audio constrictor is a used to TBD TBD TBD 
+The ACX_CONSTRICTOR_OPTION enumeration defines the ACX constrictor options. And audio constrictor is a used in loopback protection I think TBD TBD TBD 
 
 ## -enum-fields
 
