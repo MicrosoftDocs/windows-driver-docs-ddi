@@ -2,9 +2,9 @@
 UID: NF:acxmanager.AcxCompositeTemplateAssignCircuits
 tech.root: audio
 title: AcxCompositeTemplateAssignCircuits
-ms.date: 01/10/2022
+ms.date: 04/15/2022
 targetos: Windows
-description: 
+description: The AcxCompositeTemplateAssignCircuits function adds an array of circuit templates to the specified composite template.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,31 @@ dev_langs:
 
 ## -description
 
+The **AcxCompositeTemplateAssignCircuits** function adds an array of circuit templates to the specified composite template.
+
 ## -parameters
 
-### -param CompositeTemplate
+### -param CompositeTemplate [in]
 
-### -param CircuitTemplates
+The composite template to which the circuit templates are added.
 
-### -param CircuitTemplatesCount
+### -param CircuitTemplates [in, reads(CircuitTemplatesCount)]
+
+A pointer to an array of **ACXCIRCUITTEMPLATE** objects to add to the specified *CompositeTemplate*.
+
+### -param CircuitTemplatesCount [in]
+
+The number of **ACXCIRCUITTEMPLATE** objects in the *CircuitTemplates* array.
 
 ## -returns
+
+The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this method might return an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** error code.
 
 ## -remarks
 
 ## -see-also
 
+- [AcxCircuitTemplateCreate](nf-acxmanager-acxcircuittemplatecreate.md)
+- [AcxCompositeTemplateCreate](nf-acxmanager-acxcompositetemplatecreate.md)
+
+TBD - Please review this topic

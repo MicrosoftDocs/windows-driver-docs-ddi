@@ -2,9 +2,9 @@
 UID: NF:acxmanager.AcxCompositeTemplateSetCoreCircuit
 tech.root: audio
 title: AcxCompositeTemplateSetCoreCircuit
-ms.date: 01/10/2022
+ms.date: 04/15/2022
 targetos: Windows
-description: 
+description: The AcxCompositeTemplateSetCoreCircuit function set the core circuit template for the specified composite template.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,22 @@ dev_langs:
 
 ## -description
 
+The **AcxCompositeTemplateSetCoreCircuit** function set the core circuit template for the specified composite template.
+
 ## -parameters
 
-### -param CompositeTemplate
+### -param CompositeTemplate [in]
 
-### -param CircuitTemplates
+The composite template on which to set the core circuit template.
+
+### -param CircuitTemplates [in]
+
+The circuit template to set as the core on the specified *CompositeTemplate*.
+
+TBD - It looks like the name of this parameter might contain a typo because the code only uses a single circuit template. Should this parameter be renamed **CircuitTemplate** (singular)?
 
 ## -remarks
 
 ## -see-also
 
+TBD - Please review this topic
