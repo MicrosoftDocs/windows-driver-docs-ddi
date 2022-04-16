@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-TBD - The ACX_ELEMENT_CONFIG_FLAGS enumeration defines the config flags for an ACX element.
+The ACX_ELEMENT_CONFIG_FLAGS enumeration defines the config flags for an ACX element.
 
 ## -enum-fields
 
@@ -56,4 +56,6 @@ There are no flags currently defined for this type.
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 
