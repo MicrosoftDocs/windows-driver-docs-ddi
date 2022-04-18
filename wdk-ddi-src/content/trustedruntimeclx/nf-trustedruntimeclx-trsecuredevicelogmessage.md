@@ -1,8 +1,8 @@
 ---
 UID: NF:trustedruntimeclx.TrSecureDeviceLogMessage
 title: TrSecureDeviceLogMessage function (trustedruntimeclx.h)
-description: "Learn more about: TrSecureDeviceLogMessage function"
-ms.date: 11/20/2020
+description: This topic describes the TrSecureDeviceLogMessage function.
+ms.date: 04/18/2022
 keywords: ["TrSecureDeviceLogMessage function"]
 ms.keywords: TrSecureDeviceLogMessage
 req.header: trustedruntimeclx.h
@@ -23,7 +23,6 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
-ms.custom: RS5
 tech.root: treedrv
 f1_keywords:
  - TrSecureDeviceLogMessage
@@ -38,24 +37,27 @@ api_name:
  - TrSecureDeviceLogMessage
 ---
 
-# TrSecureDeviceLogMessage function
-
-
 ## -description
+
+This topic describes the **TrSecureDeviceLogMessage** function.
 
 ## -parameters
 
-### -param Device
+### -param Device [in]
 
-### -param Severity
+Defines the **WDFDEVICE** parameter *Device*.
 
-### -param Message
+### -param Severity [in]
 
-### -param ...
+Defines the **ULONG** parameter *Severity*.
 
-Additional Parameters.
+### -param Message [in]
 
-## -param
+Defines the **PCSTR** parameter *Message*.
+
+### -param
+
+Additional parameters.
 
 ## -returns
 
@@ -64,4 +66,3 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
-

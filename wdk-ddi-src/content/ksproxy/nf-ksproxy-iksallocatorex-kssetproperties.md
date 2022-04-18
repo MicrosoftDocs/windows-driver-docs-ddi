@@ -45,7 +45,7 @@ Sets the properties for an allocator.
 
 ## -parameters
 
-### -unnamedParam1
+### -param unnamedParam1
 
 [in] Defines the **PALLOCATOR_PROPERTIES_EX** parameter *unnamedParam1*.
 
