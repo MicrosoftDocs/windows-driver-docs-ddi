@@ -52,9 +52,7 @@ An existing, initialized, ACXSTREAMAUDIOENGINE object. For more information abou
 
 ### -param Position
 
-The current write position for the ACXSTREAMAUDIOENGINE object in bytes. The maybe refer to KSPROPERTY_AUDIO_WAVERT_CURRENT_WRITE_POSITION for more info on the position?
-
-TBD - Need to better describe if this is relative to the stream, etc. And if still applies [Audio Position Property](/windows-hardware/drivers/audio/audio-position-property)
+The current write position for the ACXSTREAMAUDIOENGINE object in bytes. For more information on the position value, see [KSPROPERTY_AUDIO_WAVERT_CURRENT_WRITE_POSITION](/windows-hardware/drivers/audio/ksproperty-audio-wavert-current-write-position).
 
 ## -returns
 
@@ -99,4 +97,6 @@ CodecR_EvtAcxStreamAudioEngineAssignCurrentWritePosition(
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 

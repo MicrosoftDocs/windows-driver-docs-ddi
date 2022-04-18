@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION
 ms.date: 09/20/2021
 targetos: Windows
-description: TBD - EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION tells the driver that a request to assign loop back protection has been made???.
+description: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION is implemented by the driver and is called when the loopback protection status is set for a stream audio engine node. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,17 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION tells the driver that a request to assign loop back protection has been made???.
+EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION is implemented by the driver and is called when the loopback protection status is set for an audio engine node.
 
 ## -parameters
 
 ### -param StreamAudioEngine
 
-An ACXSTREAMAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing, initialized, ACXSTREAMAUDIOENGINE object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param ConstrictorOption
+
+The ACX_CONSTRICTOR_OPTION that specifies the loopback protection status of the stream audio engine. The status can either be set to AcxConstrictorOptionNone or AcxConstrictorOptionMute. If there are any active streams with AcxConstrictorOptionMute in effect, then the loopback tap for this audio output will emit silence. If all the active stream have AcxConstrictorOptionNone in effect, then the loopback tap contains meaningful data. 
 
 ## -returns
 
@@ -62,8 +64,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 Example usage is shown below.
 
-TBD - No call back implementation code found.
-
 ```cpp
 EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION        CodecR_EvtAcxStreamAudioEngineAssignLoopbackProtection;
 
@@ -73,12 +73,24 @@ CodecR_EvtAcxStreamAudioEngineAssignLoopbackProtection(
     _In_    ACX_CONSTRICTOR_OPTION  ConstrictorOption
 )
 {
-    UNREFERENCED_PARAMETER(StreamAudioEngine);
-    UNREFERENCED_PARAMETER(ConstrictorOption);
+    NTSTATUS status = STATUS_INVALID_PARAMETER;
+    ACXSTREAM stream;
+    PCODEC_STREAM_CONTEXT ctx;
+    CRenderStreamEngine * streamEngine = NULL;
 
     PAGED_CODE();
 
-    return STATUS_SUCCESS;
+    stream = AcxStreamAudioEngineGetStream(StreamAudioEngine);
+    if (stream)
+    {
+        ctx = GetCodecStreamContext(stream);
+
+        streamEngine = static_cast<CRenderStreamEngine*>(ctx->StreamEngine);
+
+        status = streamEngine->SetLoopbackProtection(ConstrictorOption);
+    }
+
+    return status;
 }
 
 ```
@@ -86,4 +98,6 @@ CodecR_EvtAcxStreamAudioEngineAssignLoopbackProtection(
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 
