@@ -2,9 +2,9 @@
 UID: NF:acxmanager.AcxGetManager
 tech.root: audio
 title: AcxGetManager
-ms.date: 01/10/2022
+ms.date: 04/15/2022
 targetos: Windows
-description: 
+description: The AcxGetManager function returns the underlying ACXMANAGER handle.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,22 @@ dev_langs:
 
 ## -description
 
+The **AcxGetManager** function returns the underlying ACXMANAGER handle.
+
 ## -parameters
 
-### -param Context
+### -param Context [in]
+
+Reserved, set this to `NULL`.
 
 ## -returns
 
+Returns the underlying ACXMANAGER handle.
+
 ## -remarks
+
+The *Context* parameter must be set to `NULL`.
 
 ## -see-also
 
+TBD - Please review this topic

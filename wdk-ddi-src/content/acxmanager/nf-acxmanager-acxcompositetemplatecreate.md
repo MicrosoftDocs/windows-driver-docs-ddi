@@ -2,9 +2,9 @@
 UID: NF:acxmanager.AcxCompositeTemplateCreate
 tech.root: audio
 title: AcxCompositeTemplateCreate
-ms.date: 01/10/2022
+ms.date: 04/15/2022
 targetos: Windows
-description: 
+description: The AcxCompositeTemplateCreate function is used to create a composite template for use by an audio class extension (ACX).
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,19 +42,37 @@ dev_langs:
 
 ## -description
 
+The **AcxCompositeTemplateCreate** function is used to create a composite template for use by an audio class extension (ACX).
+
 ## -parameters
 
-### -param Driver
+### -param Driver [in]
 
-### -param Attributes
+A **WDFDRIVER** object, described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects), that will be associated with the composite template.
 
-### -param Config
+### -param Attributes [in]
 
-### -param Template
+A pointer to the [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure to use when creating the composite template.
+
+### -param Config [in]
+
+A pointer to an [ACX_COMPOSITE_TEMPLATE_CONFIG](ns-acxmanager-acx_composite_template_config.md) structure to use when creating the composite template.
+
+### -param Template [out]
+
+A pointer to the newly created composite template object.
 
 ## -returns
+
+The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this method might return an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** error code.
 
 ## -remarks
 
 ## -see-also
 
+- [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)
+- [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
+- [ACX_COMPOSITE_TEMPLATE_CONFIG](ns-acxmanager-acx_composite_template_config.md)
+- [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)
+
+TBD - Please review this topic

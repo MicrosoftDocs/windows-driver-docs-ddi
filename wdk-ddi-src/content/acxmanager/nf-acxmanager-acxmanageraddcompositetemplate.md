@@ -2,9 +2,9 @@
 UID: NF:acxmanager.AcxManagerAddCompositeTemplate
 tech.root: audio
 title: AcxManagerAddCompositeTemplate
-ms.date: 01/10/2022
+ms.date: 04/15/2022
 targetos: Windows
-description: 
+description: The AcxManagerAddCompositeTemplate function adds the specified composite template to the specified ACXMANAGER.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,24 @@ dev_langs:
 
 ## -description
 
+The **AcxManagerAddCompositeTemplate** function adds the specified composite template to the specified **ACXMANAGER**.
+
 ## -parameters
 
-### -param Manager
+### -param Manager [in]
 
-### -param Template
+The **ACXMANAGER** to which the specified *Template* is added.
+
+### -param Template [in]
+
+The composite template to add to the specified *Manager*.
 
 ## -returns
+
+The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this method might return an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** error code.
 
 ## -remarks
 
 ## -see-also
 
+TBD - Please review this topic
