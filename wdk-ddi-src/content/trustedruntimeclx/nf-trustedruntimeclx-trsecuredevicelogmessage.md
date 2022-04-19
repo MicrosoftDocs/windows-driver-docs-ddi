@@ -55,7 +55,7 @@ Defines the **ULONG** parameter *Severity*.
 
 Defines the **PCSTR** parameter *Message*.
 
-### -param
+### -param ...
 
 Additional parameters.
 

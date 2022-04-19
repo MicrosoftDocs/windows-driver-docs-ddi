@@ -2,9 +2,8 @@
 UID: NF:usbcamdi.USBCAMD_DriverEntry
 title: USBCAMD_DriverEntry function (usbcamdi.h)
 description: The USBCAMD_DriverEntry function registers the minidriver with USBCAMD, effectively binding USBCAMD and the minidriver together.
-old-location: stream\usbcamd_driverentry.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/19/2022
 keywords: ["USBCAMD_DriverEntry function"]
 ms.keywords: USBCAMD_DriverEntry, USBCAMD_DriverEntry function [Streaming Media Devices], stream.usbcamd_driverentry, usbcamdi/USBCAMD_DriverEntry, usbcmdpr_3aeb66f4-1729-400c-af6d-6e1290c9fe3b.xml
 req.header: usbcamdi.h
@@ -41,61 +40,46 @@ api_name:
  - USBCAMD_DriverEntry
 ---
 
-# USBCAMD_DriverEntry function
-
-
 ## -description
 
-The <b>USBCAMD_DriverEntry</b> function registers the minidriver with USBCAMD, effectively binding USBCAMD and the minidriver together.
+The **USBCAMD_DriverEntry** function registers the minidriver with USBCAMD, effectively binding USBCAMD and the minidriver together.
 
 ## -parameters
 
 ### -param Context1 [in]
 
-
 Pointer to the first argument that is passed to the camera minidriver's DriverEntry function. This is effectively a pointer to the driver object that is created by the system and passed to DriverEntry.
 
 ### -param Context2 [in]
-
 
 Pointer to the second argument that is passed to the camera minidriver's DriverEntry function. This is effectively a pointer to the registry path that describes the minidriver's registry key.
 
 ### -param DeviceContextSize [in]
 
-
 Specifies the size, in bytes, required for the minidriver's device-specific context.
 
-### -param FrameCOntextSize
+### -param FrameCOntextSize [in]
+
+Specifies the size, in bytes, required for the minidriver's frame-specific context structure. Use **NULL** if not needed.
 
 ### -param ReceivePacket [in]
 
-
-Pointer to the minidriver-defined <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a> function that handles adapter-based SRB requests.
-
-
-### -param FrameContextSize [in]
-
-Specifies the size, in bytes, required for the minidriver's frame-specific context structure. Use <b>NULL</b> if not needed.
+Pointer to the minidriver-defined [AdapterReceivePacket](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine) function that handles adapter-based SRB requests.
 
 ## -returns
 
-<b>USBCAMD_DriverEntry </b>returns the status of the registration attempt. If a value other than STATUS_SUCCESS is returned, the minidriver is unloaded.
+**USBCAMD_DriverEntry** returns the status of the registration attempt. If a value other than STATUS_SUCCESS is returned, the minidriver is unloaded.
 
 ## -remarks
 
-A camera minidriver must call <b>USBCAMD_DriverEntry</b> from the minidriver's <b>DriverEntry</b> routine. For more information, see <a href="/previous-versions/ff558717(v=vs.85)">DriverEntry for Stream Class Minidrivers</a>
+A camera minidriver must call **USBCAMD_DriverEntry** from the minidriver's **DriverEntry** routine. For more information, see [DriverEntry for Stream Class Minidrivers](/previous-versions/ff558717(v=vs.85))
 
-
-<i>FrameContextSize</i> is optional. A non-<b>NULL</b> value should be provided only with calls to <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_new_frame_routine">CamNewVideoFrame</a> or <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine">CamProcessRawVideoFrame</a>.
+*FrameContextSize* is optional. A non-**NULL** value should be provided only with calls to [CamNewVideoFrame](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_new_frame_routine) or [CamProcessRawVideoFrame](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a>
+[AdapterReceivePacket](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine)
 
+[CamNewVideoFrame](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_new_frame_routine)
 
-
-<a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_new_frame_routine">CamNewVideoFrame</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine">CamProcessRawVideoFrame</a>
+[CamProcessRawVideoFrame](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine)
