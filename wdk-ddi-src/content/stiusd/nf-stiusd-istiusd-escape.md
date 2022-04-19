@@ -2,9 +2,8 @@
 UID: NF:stiusd.IStiUSD.Escape
 title: IStiUSD::Escape (stiusd.h)
 description: A still image minidriver's IStiUSD::Escape method performs a vendor-specific I/O operation on a still image device.
-old-location: image\istiusd_escape.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 04/19/2022
 keywords: ["IStiUSD::Escape"]
 ms.keywords: Escape, Escape method [Imaging Devices], Escape method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],Escape method, IStiUSD.Escape, IStiUSD::Escape, image.istiusd_escape, stifnc_74a53282-ebd8-4c87-97b1-58195b40a1af.xml, stiusd/IStiUSD::Escape
 req.header: stiusd.h
@@ -40,18 +39,15 @@ api_name:
  - IStiUSD::Escape
 ---
 
-# IStiUSD::Escape
-
-
 ## -description
 
-A still image minidriver's <b>IStiUSD::Escape</b> method performs a vendor-specific I/O operation on a still image device.
+A still image minidriver's **IStiUSD::Escape** method performs a vendor-specific I/O operation on a still image device.
 
 ## -parameters
 
 ### -param EscapeFunction
 
-Caller-supplied, vendor-defined, DWORD-sized value representing an I/O operation. Vendor-defined values must be greater than STI_RAW_RESERVED, which is defined in <i>Sti.h</i>.
+Caller-supplied, vendor-defined, DWORD-sized value representing an I/O operation. Vendor-defined values must be greater than STI_RAW_RESERVED, which is defined in *Sti.h*.
 
 ### -param lpInData
 
@@ -59,7 +55,7 @@ Caller-supplied pointer to a buffer containing data sent to the device.
 
 ### -param cbInDataSize
 
-Caller-supplied length, in bytes, of the buffer pointed to by <i>lpInData</i>.
+Caller-supplied length, in bytes, of the buffer pointed to by *lpInData*.
 
 ### -param pOutData
 
@@ -67,28 +63,22 @@ Caller-supplied pointer to a memory buffer to receive data from the device.
 
 ### -param cbOutDataSize
 
+Caller-supplied length, in bytes, of the buffer pointed to by *lpOutData*.
+
 ### -param pdwActualData
 
-Receives the number of bytes actually written to <i>pOutData</i>.
-
-
-### -param dwOutDataSize
-
-Caller-supplied length, in bytes, of the buffer pointed to by <i>lpOutData</i>.
+Receives the number of bytes actually written to *pOutData*.
 
 ## -returns
 
-If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>. If the method is not implemented, it should return STIERR_UNSUPPORTED.
+If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in *stierr.h*. If the method is not implemented, it should return STIERR_UNSUPPORTED.
 
 ## -remarks
 
-A still image minidriver only needs to implement <b>IStiUSD::Escape</b> if I/O operations are required that cannot be implemented within <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawreaddata">IStiUSD::RawReadData</a>, <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawwritedata">IStiUSD::RawWriteData</a>, <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawreadcommand">IStiUSD::RawReadCommand</a>, or <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawwritecommand">IStiUSD::RawWriteCommand</a> methods. The minidriver defines parameter usage for <b>IStiUSD::Escape</b>.
+A still image minidriver only needs to implement **IStiUSD::Escape** if I/O operations are required that cannot be implemented within [IStiUSD::RawReadData](/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawreaddata), [IStiUSD::RawWriteData](/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawwritedata), [IStiUSD::RawReadCommand](/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawreadcommand), or [IStiUSD::RawWriteCommand](/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawwritecommand) methods. The minidriver defines parameter usage for **IStiUSD::Escape**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-escape">IStiDevice::Escape</a>
+[IStiDevice::Escape](/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-escape)
 
-
-
-<a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
-
+[IStiUSD](/windows-hardware/drivers/ddi/_image/index)

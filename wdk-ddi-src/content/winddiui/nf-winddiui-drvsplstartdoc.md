@@ -1,10 +1,9 @@
 ---
 UID: NF:winddiui.DrvSplStartDoc
 title: DrvSplStartDoc function (winddiui.h)
-description: "Learn more about: DrvSplStartDoc function"
-old-location: print\drvsplstartdoc.htm
+description: This topic describes the DrvSplStartDoc function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 04/19/2022
 keywords: ["DrvSplStartDoc function"]
 ms.keywords: DrvSplStartDoc, DrvSplStartDoc function [Print Devices], print.drvsplstartdoc, print_interface-graphics_c37a0824-d460-4d62-b029-55ec4bc842d2.xml, winddiui/DrvSplStartDoc
 req.header: winddiui.h
@@ -40,14 +39,20 @@ api_name:
  - DrvSplStartDoc
 ---
 
-# DrvSplStartDoc function
-
-
 ## -description
+
+This topic describes the **DrvSplStartDoc** function.
 
 ## -parameters
 
-### -param hPrinter
+### -param hDriver
+
+Defines the **HANDLE** parameter *hDriver*.
 
 ### -param JobId
 
+Defines the DWORD parameter JobId.
+
+## -returns
+
+The driver handle.

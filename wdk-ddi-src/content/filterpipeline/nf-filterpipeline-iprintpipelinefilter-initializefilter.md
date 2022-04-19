@@ -2,13 +2,12 @@
 UID: NF:filterpipeline.IPrintPipelineFilter.InitializeFilter
 title: IPrintPipelineFilter::InitializeFilter (filterpipeline.h)
 description: The InitializeFilter method initializes a filter.
-old-location: print\iprintpipelinefilter_initializefilter.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 04/19/2022
 keywords: ["IPrintPipelineFilter::InitializeFilter"]
 ms.keywords: IPrintPipelineFilter interface [Print Devices],InitializeFilter method, IPrintPipelineFilter.InitializeFilter, IPrintPipelineFilter::InitializeFilter, InitializeFilter, InitializeFilter method [Print Devices], InitializeFilter method [Print Devices],IPrintPipelineFilter interface, filterpipeline/IPrintPipelineFilter::InitializeFilter, filterpipeline_cb281bce-8f53-4ade-91c1-2791baff0817.xml, print.iprintpipelinefilter_initializefilter
 req.header: filterpipeline.h
-req.include-header: 
+req.include-header: Filterpipeline.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,64 +39,42 @@ api_name:
  - IPrintPipelineFilter::InitializeFilter
 ---
 
-# IPrintPipelineFilter::InitializeFilter
-
-
 ## -description
 
-The <code>InitializeFilter</code> method initializes a filter.
+The **InitializeFilter** method initializes a filter.
 
 ## -parameters
 
-### -param pINegotiation
+### -param pINegotiation [in]
+
+A pointer to the [IInterFilterCommunicator](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iinterfiltercommunicator) interface.
 
 ### -param pIPropertyBag [in]
 
-
-A pointer to the<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag">IPrintPipelinePropertyBag</a> interface.
+A pointer to the [IPrintPipelinePropertyBag](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag) interface.
 
 ### -param pIPipelineControl [in]
 
-
-A pointer to the <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinemanagercontrol">IPrintPipelineManagerControl</a> interface.
-
-
-### -param pICommunicator [in]
-
-A pointer to the <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iinterfiltercommunicator">IInterFilterCommunicator</a> interface.
+A pointer to the [IPrintPipelineManagerControl](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinemanagercontrol) interface.
 
 ## -returns
 
-<code>InitializeFilter</code> returns an <b>HRESULT</b> value. The method should return a value other than "S_OK" or "S_FALSE" if the necessary operations are not performed inside <code>InitializeFilter</code>.
+**InitializeFilter** returns an **HRESULT** value. The method should return a value other than **S_OK** or **S_FALSE** if the necessary operations are not performed inside **InitializeFilter**.
 
 ## -remarks
 
-When the <code>InitializeFilter</code> method is called, the filters should:
+When the **InitializeFilter** method is called, the filters should:
 
-<ul>
-<li>
-Get, add, or delete properties from the property bag.
+- Get, add, or delete properties from the property bag.
 
-</li>
-<li>
-Get the read and write interfaces.
-
-</li>
-</ul>
+- Get the read and write interfaces.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iinterfiltercommunicator">IInterFilterCommunicator</a>
+[IInterFilterCommunicator](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iinterfiltercommunicator)
 
+[IPrintPipelineFilter](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinefilter)
 
+[IPrintPipelineManagerControl](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinemanagercontrol)
 
-<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinefilter">IPrintPipelineFilter</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinemanagercontrol">IPrintPipelineManagerControl</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag">IPrintPipelinePropertyBag</a>
-
+[IPrintPipelinePropertyBag](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag)

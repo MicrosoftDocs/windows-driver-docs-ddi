@@ -2,9 +2,8 @@
 UID: NF:stiusd.IStiUSD.GetNotificationData
 title: IStiUSD::GetNotificationData (stiusd.h)
 description: A still image minidriver's IStiUSD::GetNotificationData method returns a description of the most recent event that occurred on a still image device.
-old-location: image\istiusd_getnotificationdata.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 04/19/2022
 keywords: ["IStiUSD::GetNotificationData"]
 ms.keywords: GetNotificationData, GetNotificationData method [Imaging Devices], GetNotificationData method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetNotificationData method, IStiUSD.GetNotificationData, IStiUSD::GetNotificationData, image.istiusd_getnotificationdata, stifnc_1641dbac-f429-4f85-9cd0-25ef82000992.xml, stiusd/IStiUSD::GetNotificationData
 req.header: stiusd.h
@@ -40,26 +39,20 @@ api_name:
  - IStiUSD::GetNotificationData
 ---
 
-# IStiUSD::GetNotificationData
-
-
 ## -description
 
-A still image minidriver's <b>IStiUSD::GetNotificationData</b> method returns a description of the most recent event that occurred on a still image device.
+A still image minidriver's **IStiUSD::GetNotificationData* method returns a description of the most recent event that occurred on a still image device.
 
 ## -parameters
 
 ### -param lpNotify
 
-### -param pBuffer
-
-Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/sti/ns-sti-_stinotify">STINOTIFY</a> structure to receive event information.
+Caller-supplied pointer to an [STINOTIFY](/windows-hardware/drivers/ddi/sti/ns-sti-_stinotify) structure to receive event information.
 
 ## -returns
 
-If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>. If no events have occurred since the last time the method was called, the method should return STIERR_NOEVENTS.
+If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in *stierr.h*. If no events have occurred since the last time the method was called, the method should return STIERR_NOEVENTS.
 
 ## -remarks
 
-Each time a device event occurs, the still image event monitor calls <b>IStiUSD::GetNotificationData</b> to obtain an event description. These descriptions are added to a linked list and when an application calls <a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getlastnotificationdata">IStiDevice::GetLastNotificationData</a>, the most recent addition to the list is returned.
-
+Each time a device event occurs, the still image event monitor calls**IStiUSD::GetNotificationData</b> to obtain an event description. These descriptions are added to a linked list and when an application calls [IStiDevice::GetLastNotificationData](/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getlastnotificationdata), the most recent addition to the list is returned.
