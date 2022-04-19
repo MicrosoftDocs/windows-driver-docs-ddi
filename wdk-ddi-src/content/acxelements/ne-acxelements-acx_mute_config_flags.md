@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_MUTE_CONFIG_FLAGS
 ms.date: 08/31/2021
 targetos: Windows
-description: The ACX_MUTE_CONFIG_FLAGS enumeration defines the MUTE config flags for the ACX audio.
+description: The ACX_MUTE_CONFIG_FLAGS enumeration defines the config flags for the ACX mute element.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_MUTE_CONFIG_FLAGS enumeration defines the MUTE config flags for ACX audio.
+The ACX_MUTE_CONFIG_FLAGS enumeration defines the config flags for the ACX mute element.
 
 ## -enum-fields
 
@@ -56,4 +56,6 @@ There are no flags currently defined for this type.
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 

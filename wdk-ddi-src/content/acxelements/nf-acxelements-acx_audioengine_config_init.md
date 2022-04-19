@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_AUDIOENGINE_CONFIG_INIT
 ms.date: 09/20/2021
 targetos: Windows
-description: TBD - The ACX_AUDIOENGINE_CONFIG_INIT function initializes an ACX_AUDIOENGINE_CONFIG structure.
+description: The ACX_AUDIOENGINE_CONFIG_INIT function initializes a driver's [ACX_AUDIOENGINE_CONFIG](ns-acxelements-acx_audioengine_config.md) structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The ACX_AUDIOENGINE_CONFIG_INIT function initializes an [ACX_AUDIOENGINE_CONFIG](ns-acxelements-acx_audioengine_config.md) structure.
+The ACX_AUDIOENGINE_CONFIG_INIT function initializes a driver's [ACX_AUDIOENGINE_CONFIG](ns-acxelements-acx_audioengine_config.md) structure.
 
 ## -parameters
 
@@ -66,4 +66,6 @@ Example usage is shown below.
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 

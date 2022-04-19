@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_PRESENTATION_POSITION
 ms.date: 09/20/2021
 targetos: Windows
-description: TBD - EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_PRESENTATION_POSITION tells the driver that a request to retrieve the presentation position has been made???.
+description: The EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_PRESENTATION_POSITION callback function is implemented by the driver and is called to retrieve the current position within the audio data being rended to the stream audio engine node.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,25 +42,21 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_PRESENTATION_POSITION tells the driver that a request to retrieve the presentation position has been made???.
+The EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_PRESENTATION_POSITION callback function is implemented by the driver and is called to retrieve the current position within the audio data being rended to the stream audio engine node.
 
 ## -parameters
 
 ### -param StreamAudioEngine
 
-An ACXSTREAMAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing, initialized, ACXSTREAMAUDIOENGINE object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param PositionInBlocks
 
-TBD TBD TBD - This is from the KSAUDIO_PRESENTATION_POSITION structure, should that be used here?
-
-Specifies the block offset from the start of the stream to the current post-decoded, uncompressed position in the stream. A "block" refers to the group of channels in the same sample. So, for example, in a PCM stream a block is the same as a frame. However, for compressed formats a block is a single sample within a frame. This means that for a typical MP3 stream that has 1152 samples in a frame, there are 1152 blocks. 
+Specifies the block offset from the start of the stream to the current post-decoded, uncompressed position in the stream. See [KSAUDIO_PRESENTATION_POSITION structure](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_presentation_position) for more information on this value. 
 
 ### -param QPCPosition
 
-TBD TBD TBD - This is from the KSAUDIO_PRESENTATION_POSITION structure, should that be used here?
-
-Specifies the value of the performance counter at the time that the audio driver reads the presentation position in response to the KSAUDIO_PRESENTATION_POSITION call (TBD Something else in ACX???) . A driver writes to this field with the value read from calling KeQueryPerformanceCounter when a snapshot is taken of the presentation position.
+Specifies the value of the performance counter at the time that the audio driver reads the presentation position in response to the callback.  See [KSAUDIO_PRESENTATION_POSITION structure](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_presentation_position) for more information on this value. 
 
 ## -returns
 
@@ -106,4 +102,6 @@ CodecR_EvtAcxStreamAudioEngineRetrievePresentationPosition(
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 

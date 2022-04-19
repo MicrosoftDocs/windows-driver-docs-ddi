@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_VOLUME_CURVE_TYPE
 ms.date: 08/31/2021
 targetos: Windows
-description: The ACX_VOLUME_CURVE_TYPE enumeration defines the volume curve type.
+description: The ACX_VOLUME_CURVE_TYPE enumeration defines constants that specify a curve algorithm to be applied to set a volume level.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,17 +40,17 @@ dev_langs:
 
 ## -description
 
-The ACX_VOLUME_CURVE_TYPE enumeration defines the volume curve type.
+The ACX_VOLUME_CURVE_TYPE enumeration defines constants that specify a curve algorithm to be applied to set a volume level.
 
 ## -enum-fields
 
 ### -field AcxVolumeCurveTypeNone
 
-Indicates that the volume curve type is none.
+Indicates that no curve algorithm will be applied. When this curve is specified, the duration of the curve specified must be equal to 0.
 
 ### -field AcxVolumeCurveTypeFade
 
-Indicates that the volume curve type is fade.
+Indicates that the algorithm that is applied to the volume setting must follow the curve shown in the diagram in [AUDIO_CURVE_TYPE enumeration](/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-audio_curve_type).
 
 ## -remarks
 
@@ -58,4 +58,6 @@ Indicates that the volume curve type is fade.
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 

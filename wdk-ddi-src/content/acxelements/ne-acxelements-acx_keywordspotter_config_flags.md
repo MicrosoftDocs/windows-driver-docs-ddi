@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_KEYWORDSPOTTER_CONFIG_FLAGS
 ms.date: 08/31/2021
 targetos: Windows
-description: The ACX_KEYWORDSPOTTER_CONFIG_FLAGS enumeration defines the config flags for the ACX audio key word spotter.
+description: The ACX_KEYWORDSPOTTER_CONFIG_FLAGS enumeration defines the config flags for the ACX audio keyword spotter.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_KEYWORDSPOTTER_CONFIG_FLAGS enumeration defines the config flags for the ACX audio key word spotter.
+The ACX_KEYWORDSPOTTER_CONFIG_FLAGS enumeration defines the config flags for the ACX audio keyword spotter.
 
 ## -enum-fields
 
@@ -56,4 +56,6 @@ There are no flags currently defined for this type.
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 
