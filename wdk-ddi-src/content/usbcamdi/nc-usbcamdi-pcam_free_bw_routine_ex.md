@@ -2,9 +2,8 @@
 UID: NC:usbcamdi.PCAM_FREE_BW_ROUTINE_EX
 title: PCAM_FREE_BW_ROUTINE_EX (usbcamdi.h)
 description: A camera minidriver's CamFreeBandwidthEx callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth.
-old-location: stream\camfreebandwidthex.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/19/2022
 keywords: ["PCAM_FREE_BW_ROUTINE_EX callback function"]
 ms.keywords: CamFreeBandwidthEx, CamFreeBandwidthEx routine [Streaming Media Devices], PCAM_FREE_BW_ROUTINE_EX, stream.camfreebandwidthex, usbcamdi/CamFreeBandwidthEx, usbcmdpr_bf3efd8f-3320-469c-a358-85cf2d896caf.xml
 req.header: usbcamdi.h
@@ -40,12 +39,9 @@ api_name:
  - PCAM_FREE_BW_ROUTINE_EX
 ---
 
-# PCAM_FREE_BW_ROUTINE_EX callback function
-
-
 ## -description
 
-A camera minidriver's <b>CamFreeBandwidthEx</b> callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth.
+A camera minidriver's **CamFreeBandwidthEx** callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth.
 
 ## -parameters
 
@@ -59,29 +55,24 @@ Pointer to the camera minidriver's device context.
 
 ### -param STreamNumber
 
-### -param StreamNumber
-
 Indicates stream number.
 
 ## -returns
 
-<b>CamFreeBandwidthEx</b> returns STATUS_SUCCESS or an appropriate error code.
+**CamFreeBandwidthEx** returns STATUS_SUCCESS or an appropriate error code.
 
 ## -remarks
 
-USBCAMD calls the camera minidriver's <b>CamFreeBandwidthEx</b> callback function after the isochronous video stream has stopped.
+USBCAMD calls the camera minidriver's **CamFreeBandwidthEx** callback function after the isochronous video stream has stopped.
 
-Typically, this function calls the <b>USBCAMD_SelectAlternateInterface</b> service to select the correct alternate interface and prepare for streaming video.
+Typically, this function calls the **USBCAMD_SelectAlternateInterface** service to select the correct alternate interface and prepare for streaming video.
 
-The original USBCAMD does not call <b>CamFreeBandwidthEx</b>.
+The original USBCAMD does not call **CamFreeBandwidthEx**.
 
 This function is required.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2">USBCAMD_DEVICE_DATA2</a>
+[USBCAMD_DEVICE_DATA2](/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2)
 
-
-
-<a href="/windows-hardware/drivers/ddi/usbcamdi/nf-usbcamdi-usbcamd_selectalternateinterface">USBCAMD_SelectAlternateInterface</a>
-
+[USBCAMD_SelectAlternateInterface](/windows-hardware/drivers/ddi/usbcamdi/nf-usbcamdi-usbcamd_selectalternateinterface)
