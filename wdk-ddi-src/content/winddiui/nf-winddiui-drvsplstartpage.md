@@ -1,10 +1,9 @@
 ---
 UID: NF:winddiui.DrvSplStartPage
 title: DrvSplStartPage function (winddiui.h)
-description: "Learn more about: DrvSplStartPage function"
-old-location: print\drvsplstartpage.htm
+description: This topic describes the DrvSplStartPage function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 04/19/2022
 keywords: ["DrvSplStartPage function"]
 ms.keywords: DrvSplStartPage, DrvSplStartPage function [Print Devices], print.drvsplstartpage, print_interface-graphics_4f9a41e8-8706-428e-8f58-945485151f62.xml, winddiui/DrvSplStartPage
 req.header: winddiui.h
@@ -40,12 +39,16 @@ api_name:
  - DrvSplStartPage
 ---
 
-# DrvSplStartPage function
-
-
 ## -description
+
+This topic describes the **DrvSplStartPage** function.
 
 ## -parameters
 
 ### -param hDriver
 
+Defines the **HANDLE** parameter *hDriver*.
+
+## -returns
+
+BOOL

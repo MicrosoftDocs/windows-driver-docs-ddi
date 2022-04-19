@@ -59,7 +59,7 @@ sizeof(DWORD)
 
 ### -in-out-buffer
 
-### -in-out-buffer-length
+### -inout-buffer-length
 
 ### -status-block
 

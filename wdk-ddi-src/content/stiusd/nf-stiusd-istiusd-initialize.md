@@ -2,9 +2,8 @@
 UID: NF:stiusd.IStiUSD.Initialize
 title: IStiUSD::Initialize (stiusd.h)
 description: A still image minidriver's IStiUSD::Initialize method initializes an instance of the COM object that defines the IStiUSD interface.
-old-location: image\istiusd_initialize.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 04/19/2022
 keywords: ["IStiUSD::Initialize"]
 ms.keywords: IStiUSD interface [Imaging Devices],Initialize method, IStiUSD.Initialize, IStiUSD::Initialize, Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices],IStiUSD interface, image.istiusd_initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, stiusd/IStiUSD::Initialize
 req.header: stiusd.h
@@ -40,9 +39,6 @@ api_name:
  - IStiUSD::Initialize
 ---
 
-# IStiUSD::Initialize
-
-
 ## -description
 
 A still image minidriver's **IStiUSD::Initialize** method initializes an instance of the COM object that defines the **IStiUSD** interface.
@@ -51,6 +47,8 @@ A still image minidriver's **IStiUSD::Initialize** method initializes an instanc
 
 ### -param pHelDcb
 
+Caller-supplied pointer to the [IStiDeviceControl COM Interface](/windows-hardware/drivers/image/istidevicecontrol-com-interface).
+
 ### -param dwStiVersion
 
 Caller-supplied STI version number. This value is defined by STI_VERSION in *Sti.h*.
@@ -58,10 +56,6 @@ Caller-supplied STI version number. This value is defined by STI_VERSION in *Sti
 ### -param hParametersKey
 
 Caller-supplied handle to the registry key under which device-specific information is to be stored.
-
-### -param pDcb
-
-Caller-supplied pointer to the [IStiDeviceControl COM Interface](/windows-hardware/drivers/image/istidevicecontrol-com-interface).
 
 ## -returns
 
@@ -111,4 +105,3 @@ STDMETHODIMP MyUSDDevice::Initialize(
     return hres;
 }
 ```
-

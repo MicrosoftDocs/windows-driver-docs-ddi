@@ -2,9 +2,8 @@
 UID: NF:wiamdef.wiasSetValidListGuid
 title: wiasSetValidListGuid function (wiamdef.h)
 description: The wiasSetValidListGuid function sets valid values for a WIA_PROP_LIST property of type VT_CLSID.
-old-location: image\wiassetvalidlistguid.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 04/19/2022
 keywords: ["wiasSetValidListGuid function"]
 ms.keywords: image.wiassetvalidlistguid, wiamdef/wiasSetValidListGuid, wiasFncs_eade05c7-20bd-480d-aa50-0216575ce856.xml, wiasSetValidListGuid, wiasSetValidListGuid function [Imaging Devices]
 req.header: wiamdef.h
@@ -40,17 +39,13 @@ api_name:
  - wiasSetValidListGuid
 ---
 
-# wiasSetValidListGuid function
-
-
 ## -description
 
-The <b>wiasSetValidListGuid </b>function sets valid values for a WIA_PROP_LIST property of type VT_CLSID.
+The **wiasSetValidListGuid** function sets valid values for a WIA_PROP_LIST property of type VT_CLSID.
 
 ## -parameters
 
 ### -param pWiasContext [in]
-
 
 Pointer to a WIA item context.
 
@@ -60,18 +55,13 @@ Specifies the identifier of the property to be updated.
 
 ### -param ulCount
 
-Specifies the number of items in the <i>pgValues</i> array.
+Specifies the number of items in the *pgValues* array.
 
 ### -param guidNom
 
-### -param pguidValues
-
-### -param gNom
-
 Specifies the property's nominal value.
 
-
-### -param pgValues [in]
+### -param pguidValues [in]
 
 Pointer to the first element of an array of valid property values.
 
@@ -81,24 +71,14 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidflag">wiasSetValidFlag</a>
+[wiasSetValidFlag](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidflag)
 
+[wiasSetValidListFloat](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidlistfloat)
 
+[wiasSetValidListLong](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidlistlong)
 
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidlistfloat">wiasSetValidListFloat</a>
+[wiasSetValidListStr](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidliststr)
 
+[wiasSetValidRangeFloat](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidrangefloat)
 
-
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidlistlong">wiasSetValidListLong</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidliststr">wiasSetValidListStr</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidrangefloat">wiasSetValidRangeFloat</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidrangelong">wiasSetValidRangeLong</a>
+[wiasSetValidRangeLong](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidrangelong)

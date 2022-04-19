@@ -1,10 +1,9 @@
 ---
 UID: NE:pointofservicedriverinterface._PosPropertyId
-title: _PosPropertyId (pointofservicedriverinterface.h)
+title: PosPropertyId (pointofservicedriverinterface.h)
 description: This enumeration defines the property identifiers for the properties that device drivers need to handle to be considered a barcode scanner or a magnetic strip reader (MSR).
-old-location: pos\pospropertyid.htm
 tech.root: pos
-ms.date: 02/23/2018
+ms.date: 04/19/2022
 keywords: ["PosPropertyId enumeration"]
 ms.keywords: BarcodeScannerActiveProfile, BarcodeScannerActiveSymbologies, BarcodeScannerCapabilities, BarcodeScannerIsDecodeDataEnabled, BarcodeScannerSupportedProfiles, BarcodeScannerSupportedSymbologies, IsDisabledOnDataReceived, IsEnabled, MagneticStripeReaderCapabilities, MagneticStripeReaderDataEncryptionAlgorithm, MagneticStripeReaderDeviceAuthenticationProtocol, MagneticStripeReaderErrorReportingType, MagneticStripeReaderIsDecodeDataEnabled, MagneticStripeReaderIsDeviceAuthenticated, MagneticStripeReaderIsTransmitSentinelsEnabled, MagneticStripeReaderSupportedCardTypes, MagneticStripeReaderTracksToRead, PosPropertyId, PosPropertyId enumeration, _PosPropertyId, pointofservicedriverinterface/BarcodeScannerActiveProfile, pointofservicedriverinterface/BarcodeScannerActiveSymbologies, pointofservicedriverinterface/BarcodeScannerCapabilities, pointofservicedriverinterface/BarcodeScannerIsDecodeDataEnabled, pointofservicedriverinterface/BarcodeScannerSupportedProfiles, pointofservicedriverinterface/BarcodeScannerSupportedSymbologies, pointofservicedriverinterface/IsDisabledOnDataReceived, pointofservicedriverinterface/IsEnabled, pointofservicedriverinterface/MagneticStripeReaderCapabilities, pointofservicedriverinterface/MagneticStripeReaderDataEncryptionAlgorithm, pointofservicedriverinterface/MagneticStripeReaderDeviceAuthenticationProtocol, pointofservicedriverinterface/MagneticStripeReaderErrorReportingType, pointofservicedriverinterface/MagneticStripeReaderIsDecodeDataEnabled, pointofservicedriverinterface/MagneticStripeReaderIsDeviceAuthenticated, pointofservicedriverinterface/MagneticStripeReaderIsTransmitSentinelsEnabled, pointofservicedriverinterface/MagneticStripeReaderSupportedCardTypes, pointofservicedriverinterface/MagneticStripeReaderTracksToRead, pointofservicedriverinterface/PosPropertyId, pos.pospropertyid
 req.header: pointofservicedriverinterface.h
@@ -43,9 +42,6 @@ api_name:
  - PosPropertyId
 ---
 
-# _PosPropertyId enumeration
-
-
 ## -description
 
 This enumeration defines the property identifiers for the properties that device drivers need to handle to be considered a barcode scanner or a magnetic strip reader (MSR).
@@ -62,21 +58,23 @@ Indicates whether to disable the device after each scan event. This allows the h
 
 ### -field PowerState
 
+Reports the current power state of the device.
+
 ### -field BarcodeScannerIsDecodeDataEnabled
 
 When set to **TRUE**, the driver must return decoded bar code data in the form of **ScanDataLabel** in addition to **ScanData** when raising a data received event. Decoded barcode data typically only contains data from the scanner with header information, scanner generated symbol character, and length identification removed. (Read/Write).
 
 ### -field BarcodeScannerCapabilities
 
-Contains information about what functionality the barcode scanner supports. For example, a barcode scanner may support imaging and standard power reporting but not statistics updating and reporting. For more information about the values for barcode capabilities, see <a href="/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posbarcodescannercapabilitiestype">PosBarcodeScannerCapabilitiesType</a>. (Read-only).
+Contains information about what functionality the barcode scanner supports. For example, a barcode scanner may support imaging and standard power reporting but not statistics updating and reporting. For more information about the values for barcode capabilities, see [PosBarcodeScannerCapabilitiesType](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posbarcodescannercapabilitiestype). (Read-only).
 
 ### -field BarcodeScannerSupportedSymbologies
 
-Contains an array representing the complete list of symbologies that the barcode scanner is capable of reading. Also returns the number of bytes required for the array of symbologies. For symbology definitions, see <a href="/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-_barcodesymbology">BarcodeSymbology</a>. (Read-only).
+Contains an array representing the complete list of symbologies that the barcode scanner is capable of reading. Also returns the number of bytes required for the array of symbologies. For symbology definitions, see [BarcodeSymbology](/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-_barcodesymbology). (Read-only).
 
 ### -field BarcodeScannerActiveSymbologies
 
-Indicates the symbologies that the barcode scanner is actively handling. (Write-only). For symbology definitions, see <a href="/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-_barcodesymbology">BarcodeSymbology</a>.
+Indicates the symbologies that the barcode scanner is actively handling. (Write-only). For symbology definitions, see [BarcodeSymbology](/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-_barcodesymbology).
 
 ### -field BarcodeScannerSupportedProfiles
 
@@ -92,23 +90,23 @@ Indicates whether to provide raw or decoded data from the most recently swiped c
 
 ### -field MagneticStripeReaderCapabilities
 
-Returns a <a href="/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posmagneticstripereadercapabilitiestype">PosMagneticStripeReaderCapabilitiesType</a> that describes the capabilities of the MSR. (Read-Only).
+Returns a [PosMagneticStripeReaderCapabilitiesType](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posmagneticstripereadercapabilitiestype) that describes the capabilities of the MSR. (Read-Only).
 
 ### -field MagneticStripeReaderSupportedCardTypes
 
-Returns an array of <a href="/windows-hardware/drivers/ddi/pointofservicedriverinterface/ne-pointofservicedriverinterface-_msrcardtype">MsrCardType</a>s supported by the MSR. (Read-only).
+Returns an array of [MsrCardType](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ne-pointofservicedriverinterface-_msrcardtype)s supported by the MSR. (Read-only).
 
 ### -field MagneticStripeReaderDeviceAuthenticationProtocol
 
-The driver must return a <a href="/previous-versions/windows/hardware/previsioning-framework/dn772165(v=vs.85)">MsrAuthenticationProtocolType</a> that describes the device authentication protocol supported by the MSR. (Read-only).
+The driver must return a [MsrAuthenticationProtocolType](/previous-versions/windows/hardware/previsioning-framework/dn772165(v=vs.85)) that describes the device authentication protocol supported by the MSR. (Read-only).
 
 ### -field MagneticStripeReaderErrorReportingType
 
-Specifies the level of error reporting that the MSR supports. For more information about the values for error reporting levels, see <a href="/windows-hardware/drivers/ddi/pointofservicedriverinterface/ne-pointofservicedriverinterface-_msrerrorreportingtype">MsrErrorReportingType</a>. (Read/write).
+Specifies the level of error reporting that the MSR supports. For more information about the values for error reporting levels, see [MsrErrorReportingType](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ne-pointofservicedriverinterface-_msrerrorreportingtype). (Read/write).
 
 ### -field MagneticStripeReaderTracksToRead
 
-Specifies which tracks the application will receive following a card swipe. Does not indicate the capability of the device hardware; instead, it is an application-configurable property representing the tracks to be read. For more information about track values, see <a href="/windows-hardware/drivers/ddi/pointofservicedriverinterface/ne-pointofservicedriverinterface-_msrtrackids">MsrTrackIds</a>. (Read/write).
+Specifies which tracks the application will receive following a card swipe. Does not indicate the capability of the device hardware; instead, it is an application-configurable property representing the tracks to be read. For more information about track values, see [MsrTrackIds](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ne-pointofservicedriverinterface-_msrtrackids). (Read/write).
 
 ### -field MagneticStripeReaderIsTransmitSentinelsEnabled
 
@@ -120,193 +118,14 @@ Indicates whether the device is authenticated. (Read-only).
 
 ### -field MagneticStripeReaderDataEncryptionAlgorithm
 
-Specifies the <a href="/windows-hardware/drivers/ddi/pointofservicedriverinterface/ne-pointofservicedriverinterface-_msrdataencryption">MsrDataEncryption</a> that will be used to encrypt the track data. (Read/write).
+Specifies the [MsrDataEncryption](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ne-pointofservicedriverinterface-_msrdataencryption) that will be used to encrypt the track data. (Read/write).
 
 ### -field BarcodeScannerVideoDeviceId
 
-### -field PrinterCapabilities
-
-### -field PrinterCartridgeNotifyEnabled
-
-### -field PrinterSupportedCharacterSets
-
-### -field PrinterFlagWhenIdle
-
-### -field PrinterFontTypefaceList
-
-### -field PrinterMapCharacterSet
-
-### -field PrinterRotateSpecial
-
-### -field PrinterSupportedJournalLineChars
-
-### -field PrinterSupportedReceiptLineChars
-
-### -field PrinterSupportedReceiptBarcodeRotations
-
-### -field PrinterSupportedReceiptBitmapRotations
-
-### -field PrinterSupportedSlipLineChars
-
-### -field PrinterSupportedSlipBarcodeRotations
-
-### -field PrinterSupportedSlipBitmapRotations
-
-### -field PrinterCharacterSet
-
-### -field PrinterCoverOpen
-
-### -field PrinterMapMode
-
-### -field PrinterPageModeArea
-
-### -field PrinterPageModeDescriptor
-
-### -field PrinterPageModeHorizontalPosition
-
-### -field PrinterPageModePrintArea
-
-### -field PrinterPageModePrintDirection
-
-### -field PrinterPageModeStation
-
-### -field PrinterPageModeVerticalPosition
-
-### -field PrinterJournalLineChars
-
-### -field PrinterJournalLineHeight
-
-### -field PrinterJournalLineSpacing
-
-### -field PrinterJournalLineWidth
-
-### -field PrinterJournalLetterQuality
-
-### -field PrinterJournalPaperEmpty
-
-### -field PrinterJournalPaperNearEnd
-
-### -field PrinterJournalCartridgeState
-
-### -field PrinterJournalCurrentCartridge
-
-### -field PrinterReceiptLineChars
-
-### -field PrinterReceiptLineHeight
-
-### -field PrinterReceiptLineSpacing
-
-### -field PrinterReceiptLineWidth
-
-### -field PrinterReceiptLetterQuality
-
-### -field PrinterReceiptPaperEmpty
-
-### -field PrinterReceiptPaperNearEmpty
-
-### -field PrinterReceiptSidewaysMaxLines
-
-### -field PrinterReceiptSidewaysMaxChars
-
-### -field PrinterReceiptLinesToPaperCut
-
-### -field PrinterReceiptCartridgeState
-
-### -field PrinterReceiptCurrentCartridge
-
-### -field PrinterSlipLineChars
-
-### -field PrinterSlipLineHeight
-
-### -field PrinterSlipLineSpacing
-
-### -field PrinterSlipLineWidth
-
-### -field PrinterSlipLetterQuality
-
-### -field PrinterSlipPaperEmpty
-
-### -field PrinterSlipPaperNearEmpty
-
-### -field PrinterSlipSidewaysMaxLines
-
-### -field PrinterSlipSideWaysMaxChars
-
-### -field PrinterSlipMaxLines
-
-### -field PrinterSlipLinesNearEndToEnd
-
-### -field PrinterSlipPrintside
-
-### -field PrinterSlipCartridgeState
-
-### -field PrinterSlipCurrentCartridge
-
-### -field PrinterStatusProp
-
-### -field CashDrawerIsDrawerOpened
-
-### -field CashDrawerCapabilities
-
-### -field CashDrawerStatusProp
-
-### -field LineDisplayCapabilities
-
-### -field LineDisplayCurrentWindow
-
-### -field LineDisplayWindowSizeInCharacters
-
-### -field LineDisplayWindowInterCharacterWaitInterval
-
-### -field LineDisplayPhysicalDeviceName
-
-### -field LineDisplayPhysicalDeviceDescription
-
-### -field LineDisplayDeviceControlDescription
-
-### -field LineDisplayDeviceControlVersion
-
-### -field LineDisplayDeviceServiceVersion
-
-### -field LineDisplayCursorTypeProperty
-
-### -field LineDisplayCursorAutoUpdateEnabled
-
-### -field LineDisplayCursorPosition
-
-### -field LineDisplayScreenModeList
-
-### -field LineDisplayScreenMode
-
-### -field LineDisplayMaxBitmapSizeInPixels
-
-### -field LineDisplayCharacterSetList
-
-### -field LineDisplayDeviceBrightness
-
-### -field LineDisplayBlinkRate
-
-### -field LineDisplayCharacterSet
-
-### -field LineDisplayMapCharacterSet
-
-### -field LineDisplayGlyphSizeInPixels
-
-### -field LineDisplayCustomGlyphList
-
-### -field LineDisplayMarqueeFormat
-
-### -field LineDisplayMarqueeRepeatWait
-
-### -field LineDisplayMarqueeUnitWait
-
-### -field LineDisplayMarqueeType
+Defines the **BarcodeScannerVideoDeviceId** constant.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_get_property">IOCTL_POINT_OF_SERVICE_GET_PROPERTY</a>
+[IOCTL_POINT_OF_SERVICE_GET_PROPERTY](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_get_property)
 
-
-
-<a href="/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_set_property">IOCTL_POINT_OF_SERVICE_SET_PROPERTY</a>
-
+[IOCTL_POINT_OF_SERVICE_SET_PROPERTY](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_set_property)
