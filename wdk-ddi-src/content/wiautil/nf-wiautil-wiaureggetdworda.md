@@ -2,9 +2,8 @@
 UID: NF:wiautil.wiauRegGetDwordA
 title: wiauRegGetDwordA function (wiautil.h)
 description: The wiauRegGetDword function gets a DWORD value from the DeviceData section of the registry.
-old-location: image\wiaureggetdword.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 04/20/2022
 keywords: ["wiauRegGetDwordA function"]
 ms.keywords: image.wiaureggetdword, wiauFncs_a58ebb21-21ce-4815-9dd6-5a1906412a2f.xml, wiauRegGetDword, wiauRegGetDword function [Imaging Devices], wiauRegGetDwordA, wiauRegGetDwordW, wiautil/wiauRegGetDword
 req.header: wiautil.h
@@ -43,31 +42,23 @@ api_name:
  - wiauRegGetDword
 ---
 
-# wiauRegGetDwordA function
-
-
 ## -description
 
-The <b>wiauRegGetDword</b> function gets a <b>DWORD</b> value from the <b>DeviceData</b> section of the registry.
+The **wiauRegGetDword** function gets a **DWORD** value from the **DeviceData** section of the registry.
 
 ## -parameters
 
 ### -param hkKey [in]
 
+Specifies the registry key handle. This parameter should be set to the value pointed to by the *phkeyDeviceData*parameter when [wiauRegOpenData](/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw) returns.
 
-Specifies the registry key handle. This parameter should be set to the value pointed to by the <i>phkeyDeviceData </i>parameter when <a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw">wiauRegOpenData</a> returns.
+### -param pszValueName [in]
 
-### -param pszValueName
+Points to the first byte of a Unicode string containing the name of the registry entry.
 
 ### -param pdwValue [out]
 
-
 Pointer to a memory location that receives the returned DWORD value.
-
-
-### -param pwszValueName [in]
-
-Points to the first byte of a Unicode string containing the name of the registry entry.
 
 ## -returns
 
@@ -75,9 +66,6 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaureggetstrw">wiauRegGetStr</a>
+[wiauRegGetStr](/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaureggetstrw)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw">wiauRegOpenData</a>
-
+[wiauRegOpenData](/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw)
