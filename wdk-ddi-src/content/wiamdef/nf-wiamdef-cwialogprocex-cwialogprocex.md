@@ -65,10 +65,6 @@ Defines the **CHAR** parameter **pszMsg*.
 
 Defines the **LONG** parameter *lMethodId*.
 
-### -param pIWiaLogEx
-
-Defines the **IWiaLogEx** parameter **pIWiaLog*.
-
 ## -see-also
 
 [CWiaLogProcEx](./nf-wiamdef-cwialogproc--cwialogproc.md)

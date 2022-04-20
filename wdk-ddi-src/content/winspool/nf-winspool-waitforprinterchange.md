@@ -1,14 +1,13 @@
 ---
 UID: NF:winspool.WaitForPrinterChange
 title: WaitForPrinterChange function (winspool.h)
-description: "Learn more about: WaitForPrinterChange function"
-old-location: print\waitforprinterchange.htm
+description: This topic describes the WaitForPrinterChange function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 04/20/2022
 keywords: ["WaitForPrinterChange function"]
 ms.keywords: WaitForPrinterChange, WaitForPrinterChange function [Print Devices], print.waitforprinterchange, winspool/WaitForPrinterChange
 req.header: winspool.h
-req.include-header: 
+req.include-header: Winspool.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,14 +39,20 @@ api_name:
  - WaitForPrinterChange
 ---
 
-# WaitForPrinterChange function
-
-
 ## -description
+
+This topic describes the **WaitForPrinterChange** function.
 
 ## -parameters
 
-### -param hPrinter
+### -param hPrinter [in]
+
+Defines the **HANDLE** parameter *hPrinter*.
 
 ### -param Flags
 
+Defines the **DWORD** parameter *Flags*.
+
+## -returns
+
+DWORD
