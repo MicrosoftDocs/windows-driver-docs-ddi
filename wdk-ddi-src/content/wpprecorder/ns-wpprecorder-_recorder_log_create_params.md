@@ -89,7 +89,7 @@ Identifier to print when debug messages are merged. Lives at end of structure so
 
 ### -field UseTimeStamp
 
-A [WPP_RECORDER_TRI_STATE](/windows-hardware/drivers/ddi/wpprecorder/ne-wpprecorder-wpp_recorder_tri_state)-typed value that indicates:
+A [WPP_RECORDER_TRI_STATE](./ne-wpprecorder-wpp_recorder_tri_state.md)-typed value that indicates:
 
 * If set to **WppRecorderTrue**, timestamps of millisecond granularity will be added to WPP log entries.
 * If set to **WppRecorderFalse**, the timestamp will not be recorded.
@@ -99,7 +99,7 @@ This field is available starting in WDK Insider Preview build 22557. For more in
 
 ### -field PreciseTimeStamp
 
-A [WPP_RECORDER_TRI_STATE](/windows-hardware/drivers/ddi/wpprecorder/ne-wpprecorder-wpp_recorder_tri_state)-typed value that indicates:
+A [WPP_RECORDER_TRI_STATE](./ne-wpprecorder-wpp_recorder_tri_state.md)-typed value that indicates:
 
 * If set to **WppRecorderTrue**, timestamps of a tenth of a microsecond granularity will be added to WPP log entries.
 * If set to **WppRecorderFalse**, the timestamp will not be recorded.
@@ -110,4 +110,3 @@ This field is available starting in WDK Insider Preview build 22557. For more in
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-recorder_log_create_params_init">RECORDER_LOG_CREATE_PARAMS_INIT</a>
-

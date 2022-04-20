@@ -58,43 +58,43 @@ The event code is not valid.
 
 ### -field GetProperty
 
-Represents [IOCTL_POINT_OF_SERVICE_GET_PROPERTY](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_get_property).
+Represents [IOCTL_POINT_OF_SERVICE_GET_PROPERTY](./ni-pointofservicedriverinterface-ioctl_point_of_service_get_property.md).
 
 ### -field SetProperty
 
-Represents [IOCTL_POINT_OF_SERVICE_SET_PROPERTY](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_set_property).
+Represents [IOCTL_POINT_OF_SERVICE_SET_PROPERTY](./ni-pointofservicedriverinterface-ioctl_point_of_service_set_property.md).
 
 ### -field ClaimDevice
 
-Represents [IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device).
+Represents [IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE](./ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device.md).
 
 ### -field ReleaseDevice
 
-Represents [IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_release_device).
+Represents [IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE](./ni-pointofservicedriverinterface-ioctl_point_of_service_release_device.md).
 
 ### -field RetainDevice
 
-Represents [IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_retain_device).
+Represents [IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE](./ni-pointofservicedriverinterface-ioctl_point_of_service_retain_device.md).
 
 ### -field RetrieveStatistics
 
-Represents [IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_retrieve_statistics).
+Represents [IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS](./ni-pointofservicedriverinterface-ioctl_point_of_service_retrieve_statistics.md).
 
 ### -field ResetStatistics
 
-Represents [IOCTL_POINT_OF_SERVICE_RESET_STATISTICS](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_reset_statistics).
+Represents [IOCTL_POINT_OF_SERVICE_RESET_STATISTICS](./ni-pointofservicedriverinterface-ioctl_point_of_service_reset_statistics.md).
 
 ### -field UpdateStatistics
 
-Represents [IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_update_statistics).
+Represents [IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS](./ni-pointofservicedriverinterface-ioctl_point_of_service_update_statistics.md).
 
 ### -field CheckHealth
 
-Represents [IOCTL_POINT_OF_SERVICE_CHECK_HEALTH](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_check_health).
+Represents [IOCTL_POINT_OF_SERVICE_CHECK_HEALTH](./ni-pointofservicedriverinterface-ioctl_point_of_service_check_health.md).
 
 ### -field GetDeviceBasics
 
-Represents [IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_get_device_basics).
+Represents [IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS](./ni-pointofservicedriverinterface-ioctl_point_of_service_get_device_basics.md).
 
 ### -field BarcodeScannerInjectEvent
 
@@ -102,19 +102,19 @@ Defines the **BarcodeScannerInjectEvent** constant.
 
 ### -field MsrRetrieveDeviceAuthentication
 
-Represents [IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_msr_retrieve_device_authentication).
+Represents [IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION](./ni-pointofservicedriverinterface-ioctl_point_of_service_msr_retrieve_device_authentication.md).
 
 ### -field MsrAuthenticateDevice
 
-Represents [IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_msr_authenticate_device).
+Represents [IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE](./ni-pointofservicedriverinterface-ioctl_point_of_service_msr_authenticate_device.md).
 
 ### -field MsrDeAuthenticateDevice
 
-Represents [IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_msr_deauthenticate_device).
+Represents [IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE](./ni-pointofservicedriverinterface-ioctl_point_of_service_msr_deauthenticate_device.md).
 
 ### -field MsrUpdateKey
 
-Represents [IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_msr_update_key).
+Represents [IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY](./ni-pointofservicedriverinterface-ioctl_point_of_service_msr_update_key.md).
 
 ### -field StartBarcodeScannerSoftwareTrigger
 

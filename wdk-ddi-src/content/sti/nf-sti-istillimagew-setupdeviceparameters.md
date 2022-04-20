@@ -55,7 +55,7 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 ## -remarks
 
-The **IStillImage::SetupDeviceParameters** method only allows modification of device parameters associated with still image devices for which a bus has not been identified. For such devices, the still image server sets the **dwHardwareConfiguration** member of the device's [STI_DEVICE_INFORMATION](/windows-hardware/drivers/ddi/sti/ns-sti-_sti_device_informationw) structure to STI_HW_CONFIG_UNKNOWN when [IStillImage::GetDeviceInfo](/previous-versions/windows/hardware/drivers/ff543782(v=vs.85)) is called.
+The **IStillImage::SetupDeviceParameters** method only allows modification of device parameters associated with still image devices for which a bus has not been identified. For such devices, the still image server sets the **dwHardwareConfiguration** member of the device's [STI_DEVICE_INFORMATION](./ns-sti-_sti_device_informationw.md) structure to STI_HW_CONFIG_UNKNOWN when [IStillImage::GetDeviceInfo](/previous-versions/windows/hardware/drivers/ff543782(v=vs.85)) is called.
 
 Currently, the only device parameter that can be modified is the device's port name. When calling this method to modify the port name, the **dwSize**, **szDeviceInternalName**, and **pszPortName** members of the STI_DEVICE_INFORMATION must be specified. All other members are ignored.
 

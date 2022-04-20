@@ -75,10 +75,10 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 ## -remarks
 
-A still image minidriver only needs to implement **IStiUSD::Escape** if I/O operations are required that cannot be implemented within [IStiUSD::RawReadData](/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawreaddata), [IStiUSD::RawWriteData](/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawwritedata), [IStiUSD::RawReadCommand](/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawreadcommand), or [IStiUSD::RawWriteCommand](/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawwritecommand) methods. The minidriver defines parameter usage for **IStiUSD::Escape**.
+A still image minidriver only needs to implement **IStiUSD::Escape** if I/O operations are required that cannot be implemented within [IStiUSD::RawReadData](./nf-stiusd-istiusd-rawreaddata.md), [IStiUSD::RawWriteData](./nf-stiusd-istiusd-rawwritedata.md), [IStiUSD::RawReadCommand](./nf-stiusd-istiusd-rawreadcommand.md), or [IStiUSD::RawWriteCommand](./nf-stiusd-istiusd-rawwritecommand.md) methods. The minidriver defines parameter usage for **IStiUSD::Escape**.
 
 ## -see-also
 
-[IStiDevice::Escape](/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-escape)
+[IStiDevice::Escape](../sti/nf-sti-istidevice-escape.md)
 
-[IStiUSD](/windows-hardware/drivers/ddi/_image/index)
+[IStiUSD](../_image/index.md)
