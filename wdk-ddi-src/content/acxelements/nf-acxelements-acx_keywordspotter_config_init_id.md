@@ -61,7 +61,7 @@ As the ACX_KEYWORDSPOTTER_CONFIG_INIT_ID provides the same functionality as [ACX
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
 READY2GO
 

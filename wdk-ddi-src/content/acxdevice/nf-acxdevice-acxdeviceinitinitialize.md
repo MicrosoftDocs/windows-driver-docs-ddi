@@ -106,6 +106,7 @@ if (!NT_SUCCESS(status))
 * [ACX_DEVICEINIT_CONFIG](ns-acxdevice-acx_deviceinit_config.md)
 * [ACX_DEVICEINIT_CONFIG_INIT](nf-acxdevice-acx_deviceinit_config_init.md)
 * [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values)
+* [acxdevice.h header](index.md)
 
 READY2GO
 
