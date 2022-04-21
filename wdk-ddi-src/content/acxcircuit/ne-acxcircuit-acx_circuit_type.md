@@ -42,7 +42,6 @@ dev_langs:
 
 The ACX_FACTORY_CIRCUIT_TYPE enumeration defines the circuit type for ACX circuit factories.
 
-
 ## -enum-fields
 
 ### -field AcxCircuitTypeOther
@@ -75,3 +74,4 @@ Example usage is shown below.
 
 [acxcircuit.h header](index.md)
 
+TBD - Please review this topic

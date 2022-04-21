@@ -92,7 +92,6 @@ Example usage is shown below.
 
 [AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks](nf-acxcircuit-acxfactorycircuitinitsetacxcircuitpnppowercallbacks.md) 
 
-
 READY2GO
 
 EDITCOMPLETE

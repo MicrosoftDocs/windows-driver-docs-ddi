@@ -54,7 +54,6 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 TBD - An array that contains GUIDS of the desired set of KSCATERGORY entries, for example `KSCATEGORY_AUDIO`. For more information about the KSCATERGORY entries, see [Installing Device Interfaces for an Audio Adapter](/windows-hardware/drivers/audio/installing-device-interfaces-for-an-audio-adapter).
 
-
 ### -param CategoriesCount
 
 The number of categories that will be added to the circuit. This is a one based count.
@@ -99,3 +98,4 @@ TBD - Should we create a config structure example?
 
 [acxcircuit.h header](index.md)
 
+TBD - Please review this topic
