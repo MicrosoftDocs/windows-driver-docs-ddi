@@ -85,6 +85,6 @@ DEFINE_GUID(SDCAXU_FACTORY_GUID,
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
 TBD - Please review this topic

@@ -62,6 +62,8 @@ A pointer to an [ACX_JACK_SINK_INFORMATION](ns-acxpin-acx_jack_sink_information.
 
 ## -see-also
 
+- [acxpin.h header](index.md)
+
 READY2GO
 
 EDITCOMPLETE

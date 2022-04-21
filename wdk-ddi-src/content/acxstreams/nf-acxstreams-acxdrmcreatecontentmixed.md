@@ -66,7 +66,7 @@ AcxDrmCreateContentMixed returns STATUS_SUCCESS if the call was successful. Othe
 
 ## -see-also
 
-[AcxDrmDestroyContent](nf-acxstreams-acxdrmdestroycontent.md)
+- [AcxDrmDestroyContent](nf-acxstreams-acxdrmdestroycontent.md)
+- [acxstreams.h header](index.md)
 
-[acxstreams.h header](index.md)
-
+TBD - Please review this topic

@@ -48,7 +48,7 @@ The ACX_STREAM_CALLBACKS_INIT function initializes the ACX stream callbacks.
 
 ### -param Callbacks
 
-A  [ACX_STREAM_CALLBACKS](ns-acxstreams-acx_stream_callbacks.md) structure. 
+A [ACX_STREAM_CALLBACKS](ns-acxstreams-acx_stream_callbacks.md) structure.
 
 ## -remarks
 
@@ -72,9 +72,10 @@ A  [ACX_STREAM_CALLBACKS](ns-acxstreams-acx_stream_callbacks.md) structure.
 
 
 ```
+
 ## -see-also
 
-[AcxStreamInitAssignAcxStreamCallbacks](nf-acxstreams-acxstreaminitassignacxstreamcallbacks.md)
+- [AcxStreamInitAssignAcxStreamCallbacks](nf-acxstreams-acxstreaminitassignacxstreamcallbacks.md)
+- [acxstreams.h header](index.md)
 
-[acxstreams.h header](index.md)
-
+TBD - Please review this topic

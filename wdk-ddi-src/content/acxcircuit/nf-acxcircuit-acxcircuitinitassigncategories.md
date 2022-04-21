@@ -96,6 +96,6 @@ TBD - Should we create a config structure example?
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
 TBD - Please review this topic

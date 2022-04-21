@@ -65,6 +65,7 @@ This call uses AcxPinIdDefault as the ID for all newly added ACXPINs. When AcxPi
 
 - [ACX_PIN_CONFIG_INIT_ID](nf-acxpin-acx_pin_config_init_id.md)
 - [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)
+- [acxpin.h header](index.md)
 
 READY2GO
 

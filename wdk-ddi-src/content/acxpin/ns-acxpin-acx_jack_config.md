@@ -75,5 +75,6 @@ An [ACX_JACK_DESCRIPTION](ns-acxpin-acx_jack_description.md) structure that desc
 - [ACX_JACK_CONFIG_FLAGS](ne-acxpin-acx_jack_config_flags.md)
 - [ACX_JACK_CALLBACKS](ns-acxpin-acx_jack_callbacks.md)
 - [ACX_JACK_DESCRIPTION](ns-acxpin-acx_jack_description.md)
+- [acxpin.h header](index.md)
 
 TBD - Please review this topic

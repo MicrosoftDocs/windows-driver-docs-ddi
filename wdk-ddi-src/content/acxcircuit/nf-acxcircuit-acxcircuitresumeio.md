@@ -93,6 +93,6 @@ Example usage is shown below.
 
 [AcxCircuitResumeIoWithTag macro](nf-acxcircuit-acxcircuitresumeiowithtag.md)
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
 TBD - Please review this topic

@@ -60,4 +60,6 @@ A pointer to the callback function that determines if the jack is present on the
 
 ## -see-also
 
+- [acxpin.h header](index.md)
+
 TBD - Please review this topic

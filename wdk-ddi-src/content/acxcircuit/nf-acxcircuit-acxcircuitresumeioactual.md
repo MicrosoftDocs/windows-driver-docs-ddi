@@ -68,6 +68,6 @@ It is not recommended to use this version of the stop IO call, but rather [AcxCi
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
 TBD - Please review this topic

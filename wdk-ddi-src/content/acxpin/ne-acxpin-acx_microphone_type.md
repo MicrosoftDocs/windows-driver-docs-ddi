@@ -77,4 +77,6 @@ Indicates that the microphone pickup pattern is vendor defined.
 
 ## -see-also
 
+- [acxpin.h header](index.md)
+
 TBD - Please review this topic

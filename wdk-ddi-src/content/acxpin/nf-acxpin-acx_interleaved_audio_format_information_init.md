@@ -55,5 +55,6 @@ A pointer to the [ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION](ns-acxpin-acx_interl
 ## -see-also
 
 - [ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION](ns-acxpin-acx_interleaved_audio_format_information.md)
-
+- [acxpin.h header](index.md)
+ 
 TBD - Please review this topic

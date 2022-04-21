@@ -78,5 +78,6 @@ An ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION structure that specifies how loopbac
 
 - [ACX_MICROPHONE_CONFIG_FLAGS](ne-acxpin-acx_microphone_config_flags.md)
 - [ACX_MIC_ARRAY_GEOMETRY](ns-acxpin-acx_mic_array_geometry.md)
+- [acxpin.h header](index.md)
 
 TBD - Please review this topic

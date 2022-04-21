@@ -63,7 +63,8 @@ The **ACXOBJECT** to which the connection ends.
 ## -see-also
 
 - [ACX_CONNECTION](ns-acxpin-acx_connection.md)
-
+- [acxpin.h header](index.md)
+ 
 READY2GO
 
 EDITCOMPLETE

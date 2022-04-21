@@ -81,6 +81,6 @@ DECLARE_CONST_UNICODE_STRING(CODEC_CIRCUIT_CAPTURE_URI,
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
 TBD - Please review this topic

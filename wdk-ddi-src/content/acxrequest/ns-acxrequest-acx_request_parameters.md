@@ -61,7 +61,6 @@ In addition the following topics may be useful.
 [Audio Drivers Property Sets](/windows-hardware/drivers/audio/audio-drivers-property-sets)
 [KSIDENTIFIER structure (ks.h)](/windows-hardware/drivers/ddi/ks/ns-ks-ksidentifier)
 
-
 ## -struct-fields
 
 ### -field Size
@@ -175,5 +174,6 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxrequest.h header](index.md)
+- [acxrequest.h header](index.md)
 
+TBD - Please review this topic
