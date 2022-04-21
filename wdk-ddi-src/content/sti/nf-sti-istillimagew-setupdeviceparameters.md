@@ -43,11 +43,11 @@ api_name:
 
 The **IStillImage::SetupDeviceParameters** method allows clients of the **IStillImage** COM interface to modify a still image device's stored characteristics, if the device's bus type is unknown.
 
- -parameters
+## -parameters
 
 ### -param unnamedParam1 [in, out]
 
-Defines the PSTI_DEVICE_INFORMATIONW parameter unnamedParam1.
+Defines the **PSTI_DEVICE_INFORMATIONW** parameter *unnamedParam1*.
 
 ## -returns
 

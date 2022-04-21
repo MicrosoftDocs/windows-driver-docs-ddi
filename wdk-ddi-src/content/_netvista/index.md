@@ -132,7 +132,6 @@ Header files that support NetAdapterCx include the following:
 - [Netadapteroffload.h](../netadapteroffload/index.md)
 - [Netadapterpacket.h](../netadapterpacket/index.md)
 - [Netconfiguration.h](../netconfiguration/index.md)
-- [Netdatapathdescriptor.h](../ringcollection/index.md)
 - [Netdevice.h](../netdevice/index.md)
 - [Netpacketqueue.h](../netpacketqueue/index.md)
 - [Netpoweroffload.h](../netpoweroffload/index.md)
