@@ -62,5 +62,6 @@ Specifies the general format type. The data formats that are currently supported
 
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [Stream Categories](/windows-hardware/drivers/stream/stream-categories)
-
+- [acxdataformat.h header](index.md)
+ 
 TBD - Please review this topic

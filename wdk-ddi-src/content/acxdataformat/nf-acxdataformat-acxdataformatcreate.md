@@ -73,5 +73,6 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)
 - [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
 - [ACX_DATAFORMAT_CONFIG](ns-acxdataformat-acx_dataformat_config.md)
-
+- [acxdataformat.h header](index.md)
+ 
 TBD - Please review this topic

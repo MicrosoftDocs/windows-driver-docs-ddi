@@ -59,5 +59,6 @@ Returns a ULONG value containing the block alignment, in bytes, for the specifie
 ## -see-also
 
 - [WAVEFORMAT structure](/windows/win32/api/mmreg/ns-mmreg-waveformat)
-
+- [acxdataformat.h header](index.md)
+ 
 TBD - Please review this topic

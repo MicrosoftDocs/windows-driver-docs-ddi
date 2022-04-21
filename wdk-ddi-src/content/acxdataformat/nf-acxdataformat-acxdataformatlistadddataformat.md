@@ -64,5 +64,6 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 - [AcxDataFormatListRemoveDataFormat](nf-acxdataformat-acxdataformatlistremovedataformat.md)
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
-
+- [acxdataformat.h header](index.md)
+ 
 TBD - Please review this topic

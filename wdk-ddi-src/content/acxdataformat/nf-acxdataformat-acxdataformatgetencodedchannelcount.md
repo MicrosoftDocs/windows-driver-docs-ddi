@@ -59,5 +59,6 @@ Returns a ULONG value that contains the channel count for the specified *DataFor
 ## -see-also
 
 - [Representing Formats for IEC 61937 Transmissions](/windows/win32/coreaudio/representing-formats-for-iec-61937-transmissions)
-
+- [acxdataformat.h header](index.md)
+ 
 TBD - Please review this topic
