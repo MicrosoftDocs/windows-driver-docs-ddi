@@ -2,7 +2,7 @@
 UID: NE:netadapter._NET_ADAPTER_WAKE_PATTERN_ID
 tech.root: netvista
 title: NET_ADAPTER_WAKE_PATTERN_ID
-ms.date: 04/15/2021
+ms.date: 03/30/2022
 targetos: Windows
 description: NET_ADAPTER_WAKE_PATTERN_ID is used to specify the wake pattern ID in the NET_ADAPTER_WAKE_REASON_PACKET structure.
 req.construct-type: enumeration
@@ -40,13 +40,13 @@ The **NET_ADAPTER_WAKE_PATTERN_ID** enumeration specifies the wake pattern ID in
 
 ## -enum-fields
 
-### -field NetAdapterWakeMagicPatternId
+### -field NetAdapterWakeMagicPatternId:0x0000fffe
 
 
-### -field NetAdapterWakeEapolPatternId
+### -field NetAdapterWakeEapolPatternId:0x0000fffd
 
 
-### -field NetAdapterWakeFilterPatternId
+### -field NetAdapterWakeFilterPatternId:0x0000fffc
 
 
 ## -remarks

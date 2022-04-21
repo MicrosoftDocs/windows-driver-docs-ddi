@@ -46,15 +46,15 @@ The **NetRxQueueGetExtension** function retrieves a packet extension for all pac
 
 ## -parameters
 
-### -param PacketQueue
+### -param PacketQueue [_In_]
 
 The receive queue object.
 
-### -param Query
+### -param Query [_In_]
 
 A pointer to a driver-allocated and initialized [**NET_EXTENSION_QUERY**](../netadapterpacket/ns-netadapterpacket-_net_extension_query.md) structure that contains information about the desired packet extension.
 
-### -param Extension
+### -param Extension [_Out_]
 
 A handle to a driver-allocated [**NET_EXTENSION**](../extension/ns-extension-_net_extension.md) structure that receives the packet extension.
 

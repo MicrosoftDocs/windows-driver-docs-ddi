@@ -3,7 +3,7 @@ UID: NF:netconfiguration.NetConfigurationAssignBinary
 title: NetConfigurationAssignBinary function (netconfiguration.h)
 description: The NetConfigurationAssignBinary function writes caller-supplied binary data to a specified value name in the registry.
 tech.root: netvista
-ms.date: 02/07/2018
+ms.date: 03/30/2022
 keywords: ["NetConfigurationAssignBinary function"]
 ms.keywords: NetConfigurationAssignBinary
 req.header: netconfiguration.h
@@ -48,19 +48,19 @@ The **NetConfigurationAssignBinary** function writes caller-supplied binary data
 
 ## -parameters
 
-### -param Configuration
+### -param Configuration [_In_]
 
 A handle to a NETCONFIGURATION object that represents an opened registry key.
 
-### -param ValueName
+### -param ValueName [_In_]
 
 A pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a value name.
 
-### -param Buffer
+### -param Buffer [__In_reads_bytes_(BufferLength)_]
 
 A pointer to a buffer that contains driver-supplied data.
 
-### -param BufferLength
+### -param BufferLength [_In_]
 
 The length, in bytes, of the buffer to which *Buffer* points.
 

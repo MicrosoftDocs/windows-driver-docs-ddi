@@ -3,7 +3,7 @@ UID: NF:netdevice.NetDeviceOpenConfiguration
 title: NetDeviceOpenConfiguration function (netdevice.h)
 description: The NetDeviceOpenConfiguration function opens a net device's configuration database.
 tech.root: netvista
-ms.date: 07/19/2018
+ms.date: 04/01/2022
 keywords: ["NetDeviceOpenConfiguration function"]
 ms.keywords: NetDeviceOpenConfiguration
 req.header: netdevice.h
@@ -47,15 +47,15 @@ The **NetDeviceOpenConfiguration** function opens a net device's configuration d
 
 ## -parameters
 
-### -param Device
+### -param Device [_In_]
 
 The WDFDEVICE object the client driver previously created with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
-### -param ConfigurationAttributes
+### -param ConfigurationAttributes [_In_opt_]
 
 A pointer to a [**WDF_OBJECT_ATTRIBUTES**](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure that contains driver-supplied attributes for the new configuration object. This parameter is optional and can be **WDF_NO_OBJECT_ATTRIBUTES**.
 
-### -param Configuration
+### -param Configuration [_Out_]
 
 A pointer to the location that receives the new NETCONFIGURATION object.
 

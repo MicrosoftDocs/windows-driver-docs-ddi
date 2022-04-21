@@ -1,16 +1,16 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_PROTECTION_TYPE
-title: _DXGKMDT_OPM_PROTECTION_TYPE (d3dkmdt.h)
+title: DXGKMDT_OPM_PROTECTION_TYPE (d3dkmdt.h)
 description: The DXGKMDT_OPM_PROTECTION_TYPE enumeration indicates the type of protections that a video output supports.
 old-location: display\dxgkmdt_opm_protection_type.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 04/14/2022
 keywords: ["DXGKMDT_OPM_PROTECTION_TYPE enumeration"]
 ms.keywords: DXGKMDT_OPM_PROTECTION_TYPE, DXGKMDT_OPM_PROTECTION_TYPE enumeration [Display Devices], DXGKMDT_OPM_PROTECTION_TYPE_ACP, DXGKMDT_OPM_PROTECTION_TYPE_CGMSA, DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP, DXGKMDT_OPM_PROTECTION_TYPE_DPCP, DXGKMDT_OPM_PROTECTION_TYPE_HDCP, DXGKMDT_OPM_PROTECTION_TYPE_MASK, DXGKMDT_OPM_PROTECTION_TYPE_NONE, DXGKMDT_OPM_PROTECTION_TYPE_OTHER, DmEnums_8213d95c-c1df-4084-b386-cfb9fac440e0.xml, _DXGKMDT_OPM_PROTECTION_TYPE, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_ACP, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_CGMSA, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_DPCP, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_HDCP, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_MASK, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_NONE, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_OTHER, display.dxgkmdt_opm_protection_type
 req.header: d3dkmdt.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,12 +43,11 @@ api_name:
  - DXGKMDT_OPM_PROTECTION_TYPE
 ---
 
-# _DXGKMDT_OPM_PROTECTION_TYPE enumeration
-
+# DXGKMDT_OPM_PROTECTION_TYPE enumeration
 
 ## -description
 
-The DXGKMDT_OPM_PROTECTION_TYPE enumeration indicates the type of protections that a video output supports.
+The **DXGKMDT_OPM_PROTECTION_TYPE** enumeration indicates the type of protections that a video output supports.
 
 ## -enum-fields
 
@@ -70,7 +69,7 @@ Indicates that the protected output supports [Analog Copy Protection (ACP)](http
 
 ### -field DXGKMDT_OPM_PROTECTION_TYPE_CGMSA
 
-Indicates that the protected output supports Content Generation Management System Analog (CGMS-A). CGMS-A protects analog TV signals. Currently, OPM can use CGMS-A to protect signals from composite outputs, S-Video outputs, or component outputs. For more information about CGMS-A, see the [CGMS-A article](https://wikipedia.org/wiki/CGMS-A). OPM can use this value in a call to the display miniport driver's [**DxgkDdiOPMGetCOPPCompatibleInformation**](../dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md) function to determine whether a protected output supports CGMS-A. OPM can also use this value in a call to the driver's [**DxgkDdiOPMConfigureProtectedOutput**](../dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output.md) function to change the CGMS-A protection level.
+Indicates that the protected output supports [Content Generation Management System Analog (CGMS-A)](/windows-hardware/drivers/display/cgms-a-standards). CGMS-A protects analog TV signals. Currently, OPM can use CGMS-A to protect signals from composite outputs, S-Video outputs, or component outputs. OPM can use this value in a call to the display miniport driver's [**DxgkDdiOPMGetCOPPCompatibleInformation**](../dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md) function to determine whether a protected output supports CGMS-A. OPM can also use this value in a call to the driver's [**DxgkDdiOPMConfigureProtectedOutput**](../dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output.md) function to change the CGMS-A protection level.
 
 ### -field DXGKMDT_OPM_PROTECTION_TYPE_HDCP
 
@@ -82,9 +81,11 @@ Indicates that the protected output supports DisplayPort Copy Protection (DPCP).
 
 ### -field DXGKMDT_OPM_PROTECTION_TYPE_TYPE_ENFORCEMENT_HDCP
 
+Indicates that the protected output supports HDCP with Type enforcement.
+
 ### -field DXGKMDT_OPM_PROTECTION_TYPE_MASK
 
-A mask value that indicates the valid bitfields in a bitwise OR combination of the values from this enumeration.
+A mask value that indicates the valid bit fields in a bitwise OR combination of the values from this enumeration.
 
 ## -remarks
 
@@ -103,4 +104,3 @@ If a protected output supports DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP,
 [**DxgkDdiOPMGetCOPPCompatibleInformation**](../dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md)
 
 [**DxgkDdiOPMGetInformation**](../dispmprt/nc-dispmprt-dxgkddi_opm_get_information.md)
-

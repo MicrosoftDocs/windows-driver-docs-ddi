@@ -3,7 +3,7 @@ UID: NF:netadapter.NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT
 title: NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT function (netadapter.h)
 description: Initializes the NET_ADAPTER_LINK_LAYER_CAPABILITIES structure.
 tech.root: netvista
-ms.date: 02/05/2018
+ms.date: 03/30/2022
 keywords: ["NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT
 req.header: netadapter.h
@@ -49,15 +49,15 @@ The **NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT** function initializes a [NET_ADA
 
 ## -parameters
 
-### -param LinkLayerCapabilities
+### -param LinkLayerCapabilities [_Out_]
 
 A pointer to the driver-allocated [NET_ADAPTER_LINK_LAYER_CAPABILITIES](ns-netadapter-_net_adapter_link_layer_capabilities.md) structure that describes the link layer capabilities of the adapter.
 
-### -param MaxTxLinkSpeed
+### -param MaxTxLinkSpeed [_In_]
 
 The maximum transmit link speed of the adapter in bits per second. For more information, see [OID_GEN_MAX_LINK_SPEED](/windows-hardware/drivers/network/oid-gen-max-link-speed).
 
-### -param MaxRxLinkSpeed
+### -param MaxRxLinkSpeed [_In_]
 
 The maximum receive link speed of the adapter in bits per second. For more information, see [OID_GEN_MAX_LINK_SPEED](/windows-hardware/drivers/network/oid-gen-max-link-speed).
 

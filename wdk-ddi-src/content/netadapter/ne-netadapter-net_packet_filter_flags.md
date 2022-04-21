@@ -2,7 +2,7 @@
 UID: NE:netadapter._NET_PACKET_FILTER_FLAGS
 tech.root: netvista
 title: NET_PACKET_FILTER_FLAGS
-ms.date: 04/15/2021
+ms.date: 03/30/2022
 targetos: Windows
 description: NET_PACKET_FILTER_FLAGS describe a network adapter's receive packet filters.
 req.construct-type: enumeration
@@ -40,23 +40,23 @@ The **NET_PACKET_FILTER_FLAGS** enumeration describes a network adapter's receiv
 
 ## -enum-fields
 
-### -field NetPacketFilterFlagDirected
+### -field NetPacketFilterFlagDirected:0x00000001
 
 The network adapter can filter directed packets. Directed packets contain a destination address equal to the MAC address of the NIC.
 
-### -field NetPacketFilterFlagMulticast
+### -field NetPacketFilterFlagMulticast:0x00000002
 
 The network adapter can filter multicast packets whose destination MAC address matches an address in the multicast address list.
 
-### -field NetPacketFilterFlagAllMulticast
+### -field NetPacketFilterFlagAllMulticast:0x00000004
 
 The network adapter can filter all multicast address packets, not just the ones enumerated in the multicast address list.
 
-### -field NetPacketFilterFlagBroadcast
+### -field NetPacketFilterFlagBroadcast:0x00000008
 
 The network adapter can filter broadcast packets.
 
-### -field NetPacketFilterFlagPromiscuous
+### -field NetPacketFilterFlagPromiscuous:0x00000020
 
 The network adapter can filter all packets regardless of whether VLAN filtering is enabled or not and whether the VLAN identifier matches or not.
 

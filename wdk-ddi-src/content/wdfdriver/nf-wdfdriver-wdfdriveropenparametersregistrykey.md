@@ -102,7 +102,6 @@ A pointer to a location that receives a handle to a framework registry-key objec
 <li>WRITE_DAC</li>
 </ul>
 
-
 Because the above values are invalid for UMDF drivers, universal flags such as GENERIC_ALL and STANDARD_RIGHTS_ALL also cause <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdriveropenparametersregistrykey">WdfDriverOpenParametersRegistryKey</a> to fail with this return value.
 
 </td>
@@ -121,6 +120,9 @@ A system bug check occurs if a KMDF driver specifies an invalid handle in <i>Dri
 The driver's <b>Parameters</b> key is located in the registry's <a href="/windows-hardware/test/wpt/services">Services</a> tree. If the driver's <b>Parameters</b> key does not exist, the <b>WdfDriverOpenParametersRegistryKey</b> method creates it. 
 
 When the driver has finished using the <b>Parameters</b> registry key, the driver must call <a href="/windows-hardware/drivers/ddi/wdfregistry/nf-wdfregistry-wdfregistryclose">WdfRegistryClose</a>.
+
+> [!NOTE]
+> UMDF does not support creating subkeys.
 
 For more information about the registry, see <a href="/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
