@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-In WDDM 2.1 and later versions, the DirectX graphics kernel subsystem calls a driver's **DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT2** callback routine to determine whether a specific multi-plane overlay configuration is supported.  It must be implemented by WDDM 2.1 and later verion drivers that support multi-plane overlays.
+In WDDM 2.1 and later versions, the DirectX graphics kernel subsystem calls a driver's **DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3** callback routine to determine whether a specific multi-plane overlay configuration is supported.  It must be implemented by WDDM 2.1 and later verion drivers that support multi-plane overlays.
 
 ## -parameters
 
