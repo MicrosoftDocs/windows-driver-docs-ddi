@@ -59,4 +59,4 @@ Clients can call **KsSetMediaType** of a single data type handler to initialize 
 
 ## -see-also
 
-[IKsDataTypeHandler](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypehandler)
+[IKsDataTypeHandler](./nn-ksproxy-iksdatatypehandler.md)

@@ -67,6 +67,6 @@ A still image minidriver typically implements this method by calling **WriteFile
 
 ## -see-also
 
-[IStiDevice::RawWriteData](/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-rawwritedata)
+[IStiDevice::RawWriteData](../sti/nf-sti-istidevice-rawwritedata.md)
 
-[IStiUSD](/windows-hardware/drivers/ddi/_image/index)
+[IStiUSD](../_image/index.md)

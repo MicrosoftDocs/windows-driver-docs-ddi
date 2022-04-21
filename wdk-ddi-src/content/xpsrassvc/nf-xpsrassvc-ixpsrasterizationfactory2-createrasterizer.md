@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-The **CreateRasterizer** method creates an XPS rasterizer object that can convert content from XPS to PWG Raster using the [XPS Rasterization Service](/windows-hardware/drivers/ddi/_print/index). PWG Raster supports non-square DPIs.
+The **CreateRasterizer** method creates an XPS rasterizer object that can convert content from XPS to PWG Raster using the [XPS Rasterization Service](../_print/index.md). PWG Raster supports non-square DPIs.
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Dots per inch which is applied to y dimension of the rasterized output bitmap.
 
 ### -param nonTextRenderingMode [in]
 
-Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following [XPSRAS_RENDERING_MODE](/windows-hardware/drivers/ddi/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001) enumeration values:
+Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following [XPSRAS_RENDERING_MODE](./ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001.md) enumeration values:
 
 - XPSRAS_RENDERING_MODE_ANTIALIASED
 
@@ -75,7 +75,7 @@ Rendering mode for text in the rasterized output. This parameter indicates wheth
 
 ### -param pixelFormat [in]
 
-Allows a caller to select the pixel format used by the IWICBitmap returned by [IXpsRasterizer::RasterizeRect](/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizer-rasterizerect). Set this parameter to one of the following [XPSRAS_PIXEL_FORMAT](/windows-hardware/drivers/ddi/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0003_0001) enumeration values:
+Allows a caller to select the pixel format used by the IWICBitmap returned by [IXpsRasterizer::RasterizeRect](./nf-xpsrassvc-ixpsrasterizer-rasterizerect.md). Set this parameter to one of the following [XPSRAS_PIXEL_FORMAT](./ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0003_0001.md) enumeration values:
 
 - XPSRAS_PIXEL_FORMAT_32BPP_PBGRA_UINT_SRGB
 
@@ -85,7 +85,7 @@ Allows a caller to select the pixel format used by the IWICBitmap returned by [I
 
 ### -param backgroundColor [in]
 
-Allows a caller to select background color. Set this parameter to one of the following [XPSRAS_BACKGROUND_COLOR](/windows-hardware/drivers/ddi/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0004_0001) enumeration values:
+Allows a caller to select background color. Set this parameter to one of the following [XPSRAS_BACKGROUND_COLOR](./ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0004_0001.md) enumeration values:
 
 - XPSRAS_BACKGROUND_COLOR_TRANSPARENT
 
@@ -95,7 +95,7 @@ Allows a caller to select background color. Set this parameter to one of the fol
 
 ### -param ppIXpsRasterizer [out, optional]
 
-This parameter points to a location into which the method writes a pointer to the [IXpsRasterizer](/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizer) interface of the newly created XPS rasterizer object. If the method fails, it writes **NULL** to this location and returns an error code.
+This parameter points to a location into which the method writes a pointer to the [IXpsRasterizer](./nn-xpsrassvc-ixpsrasterizer.md) interface of the newly created XPS rasterizer object. If the method fails, it writes **NULL** to this location and returns an error code.
 
 ## -returns
 
@@ -103,4 +103,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IXpsRasterizationFactory2](/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizationfactory2)
+[IXpsRasterizationFactory2](./nn-xpsrassvc-ixpsrasterizationfactory2.md)
