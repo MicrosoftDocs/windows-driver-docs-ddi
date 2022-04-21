@@ -3,7 +3,7 @@ UID: NF:wiautil.CWiauPropertyList.SetValidValues(INT,LONG,LONG,LONG)
 title: CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG) (returns HRESULT) (wiautil.h)
 description: The CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG) method sets the type, as well as default, current, and valid values for a property whose values are defined by a flag.
 tech.root: image
-ms.date: 04/20/2022
+ms.date: 04/21/2022
 keywords: ["CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,LONG,LONG,LONG), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,LONG  ,LONG  ,LONG  ), CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setvalidvalues_flag_, wiauFncs_11c27970-2fa2-480d-9f60-b12202b9b03c.xml, wiautil/CWiauPropertyList::SetValidValues
 req.header: wiautil.h
@@ -60,6 +60,10 @@ Specifies the current setting of the property on the device.
 ### -param validFlags
 
 Specifies a value containing all of the valid flags.
+
+## -returns
+
+HRESULT
 
 ## -see-also
 

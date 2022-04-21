@@ -4,7 +4,7 @@ title: CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG) (returns void) (wia
 description: Learn how the CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG) method sets the type values for a property whose values are defined by a flag.
 old-location: image\cwiaupropertylist_setvalidvalues_bstr__list_.htm
 tech.root: image
-ms.date: 09/21/2020
+ms.date: 04/21/2022
 keywords: ["CWiauPropertyList::SetValidValues"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,LONG,LONG,LONG), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,LONG  ,LONG  ,LONG  ), CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setvalidvalues_flag_, wiauFncs_11c27970-2fa2-480d-9f60-b12202b9b03c.xml, wiautil/CWiauPropertyList::SetValidValues
 req.header: wiautil.h
@@ -50,7 +50,7 @@ The **CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG)** method sets the ty
 
 ### -param index
 
-Specifies the property index. Set this parameter to the value in *_pIdx_ when the [CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md) method returns.
+Specifies the property index. Set this parameter to the value in **pIdx* when the [CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md) method returns.
 
 ### -param defaultValue
 
@@ -63,10 +63,6 @@ Specifies the current setting of the property on the device.
 ### -param validFlags
 
 Specifies a value containing all of the valid flags.
-
-## -returns
-
-None
 
 ## -see-also
 
