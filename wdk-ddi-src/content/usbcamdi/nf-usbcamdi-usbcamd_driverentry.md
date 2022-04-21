@@ -64,7 +64,7 @@ Specifies the size, in bytes, required for the minidriver's frame-specific conte
 
 ### -param ReceivePacket [in]
 
-Pointer to the minidriver-defined [AdapterReceivePacket](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine) function that handles adapter-based SRB requests.
+Pointer to the minidriver-defined [AdapterReceivePacket](./nc-usbcamdi-padapter_receive_packet_routine.md) function that handles adapter-based SRB requests.
 
 ## -returns
 
@@ -74,12 +74,12 @@ Pointer to the minidriver-defined [AdapterReceivePacket](/windows-hardware/drive
 
 A camera minidriver must call **USBCAMD_DriverEntry** from the minidriver's **DriverEntry** routine. For more information, see [DriverEntry for Stream Class Minidrivers](/previous-versions/ff558717(v=vs.85))
 
-*FrameContextSize* is optional. A non-**NULL** value should be provided only with calls to [CamNewVideoFrame](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_new_frame_routine) or [CamProcessRawVideoFrame](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine).
+*FrameContextSize* is optional. A non-**NULL** value should be provided only with calls to [CamNewVideoFrame](./nc-usbcamdi-pcam_new_frame_routine.md) or [CamProcessRawVideoFrame](./nc-usbcamdi-pcam_process_raw_frame_routine.md).
 
 ## -see-also
 
-[AdapterReceivePacket](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine)
+[AdapterReceivePacket](./nc-usbcamdi-padapter_receive_packet_routine.md)
 
-[CamNewVideoFrame](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_new_frame_routine)
+[CamNewVideoFrame](./nc-usbcamdi-pcam_new_frame_routine.md)
 
-[CamProcessRawVideoFrame](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine)
+[CamProcessRawVideoFrame](./nc-usbcamdi-pcam_process_raw_frame_routine.md)

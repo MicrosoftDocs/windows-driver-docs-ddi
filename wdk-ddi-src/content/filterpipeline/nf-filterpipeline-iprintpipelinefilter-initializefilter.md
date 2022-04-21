@@ -47,15 +47,15 @@ The **InitializeFilter** method initializes a filter.
 
 ### -param pINegotiation [in]
 
-A pointer to the [IInterFilterCommunicator](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iinterfiltercommunicator) interface.
+A pointer to the [IInterFilterCommunicator](./nn-filterpipeline-iinterfiltercommunicator.md) interface.
 
 ### -param pIPropertyBag [in]
 
-A pointer to the [IPrintPipelinePropertyBag](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag) interface.
+A pointer to the [IPrintPipelinePropertyBag](./nn-filterpipeline-iprintpipelinepropertybag.md) interface.
 
 ### -param pIPipelineControl [in]
 
-A pointer to the [IPrintPipelineManagerControl](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinemanagercontrol) interface.
+A pointer to the [IPrintPipelineManagerControl](./nn-filterpipeline-iprintpipelinemanagercontrol.md) interface.
 
 ## -returns
 
@@ -71,10 +71,10 @@ When the **InitializeFilter** method is called, the filters should:
 
 ## -see-also
 
-[IInterFilterCommunicator](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iinterfiltercommunicator)
+[IInterFilterCommunicator](./nn-filterpipeline-iinterfiltercommunicator.md)
 
-[IPrintPipelineFilter](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinefilter)
+[IPrintPipelineFilter](./nn-filterpipeline-iprintpipelinefilter.md)
 
-[IPrintPipelineManagerControl](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinemanagercontrol)
+[IPrintPipelineManagerControl](./nn-filterpipeline-iprintpipelinemanagercontrol.md)
 
-[IPrintPipelinePropertyBag](/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag)
+[IPrintPipelinePropertyBag](./nn-filterpipeline-iprintpipelinepropertybag.md)

@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-This enumeration defines values used in the [PosDeviceBasicsType](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posdevicebasicstype) structure to indicate the type of device (for instance, barcode scanner or magnetic stripe reader).
+This enumeration defines values used in the [PosDeviceBasicsType](../pointofservicedriverinterface/ns-pointofservicedriverinterface-_posdevicebasicstype.md) structure to indicate the type of device (for instance, barcode scanner or magnetic stripe reader).
 
 ## -enum-fields
 

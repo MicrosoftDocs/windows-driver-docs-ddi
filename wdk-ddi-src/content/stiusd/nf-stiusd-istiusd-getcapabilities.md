@@ -47,7 +47,7 @@ A still image minidriver's **IStiUSD::GetCapabilities** method returns a still i
 
 ### -param pDevCaps
 
-Caller-supplied pointer to an empty [STI_USD_CAPS](/windows-hardware/drivers/ddi/stiusd/ns-stiusd-_sti_usd_caps) structure.
+Caller-supplied pointer to an empty [STI_USD_CAPS](./ns-stiusd-_sti_usd_caps.md) structure.
 
 ## -returns
 
@@ -55,10 +55,10 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 ## -remarks
 
-The **IStiUSD::GetCapabilities** method should set appropriate device capability flags in the caller-supplied [STI_USD_CAPS](/windows-hardware/drivers/ddi/stiusd/ns-stiusd-_sti_usd_caps) structure. It should also set the version number to STI_VERSION.
+The **IStiUSD::GetCapabilities** method should set appropriate device capability flags in the caller-supplied [STI_USD_CAPS](./ns-stiusd-_sti_usd_caps.md) structure. It should also set the version number to STI_VERSION.
 
 ## -see-also
 
-[IStiDevice::GetCapabilities](/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getcapabilities)
+[IStiDevice::GetCapabilities](../sti/nf-sti-istidevice-getcapabilities.md)
 
-[IStiUSD](/windows-hardware/drivers/ddi/_image/index)
+[IStiUSD](../_image/index.md)

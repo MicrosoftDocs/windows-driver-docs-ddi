@@ -47,7 +47,7 @@ A still image minidriver's **IStiUSD::GetNotificationData* method returns a desc
 
 ### -param lpNotify
 
-Caller-supplied pointer to an [STINOTIFY](/windows-hardware/drivers/ddi/sti/ns-sti-_stinotify) structure to receive event information.
+Caller-supplied pointer to an [STINOTIFY](../sti/ns-sti-_stinotify.md) structure to receive event information.
 
 ## -returns
 
@@ -55,4 +55,4 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 ## -remarks
 
-Each time a device event occurs, the still image event monitor calls**IStiUSD::GetNotificationData</b> to obtain an event description. These descriptions are added to a linked list and when an application calls [IStiDevice::GetLastNotificationData](/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getlastnotificationdata), the most recent addition to the list is returned.
+Each time a device event occurs, the still image event monitor calls**IStiUSD::GetNotificationData</b> to obtain an event description. These descriptions are added to a linked list and when an application calls [IStiDevice::GetLastNotificationData](../sti/nf-sti-istidevice-getlastnotificationdata.md), the most recent addition to the list is returned.
