@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxElementCreate function is used to create an audio element that that will be associated with a stream device object parent. 
+The AcxElementCreate function is used to create an audio element that that will be associated with a stream device object parent.
 
 ## -parameters
 
 ### -param Object
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that that that will be associated with the stream. 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that that that will be associated with the stream.
 
 ### -param Attributes
 
@@ -95,3 +95,4 @@ Example usage is shown below.
 
 - [acxelements.h header](index.md)
 
+TBD - Please review this topic

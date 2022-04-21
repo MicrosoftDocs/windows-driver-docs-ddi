@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveMultiString function retrieves a  MultiString value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveMultiString function retrieves a  MultiString value from an existing, intialized AcxObjectBag that contains values.
 
 ## -parameters
 
@@ -94,5 +94,6 @@ stringAttributes.ParentObject = col;
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+TBD - Please review this topic

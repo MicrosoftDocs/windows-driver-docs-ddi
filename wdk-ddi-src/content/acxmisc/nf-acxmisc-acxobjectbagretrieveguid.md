@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveGuid function retrieves a GUID value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveGuid function retrieves a GUID value from an existing, intialized AcxObjectBag that contains values.
 
 ## -parameters
 
@@ -92,5 +92,6 @@ This example shows the use of AcxObjectBagRetrieveGuid.
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+TBD - Please review this topic

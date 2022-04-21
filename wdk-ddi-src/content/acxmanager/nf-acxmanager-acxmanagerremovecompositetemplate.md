@@ -62,4 +62,6 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 ## -see-also
 
+- [acxmanager.h header](index.md)
+
 TBD - Please review this topic

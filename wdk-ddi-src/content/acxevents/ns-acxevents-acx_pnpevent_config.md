@@ -79,6 +79,6 @@ This example shows the use of the ACX_PNPEVENT_CONFIG structure.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxevents.h header](index.md)
 
-
+TBD - Please review this topic

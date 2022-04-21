@@ -48,7 +48,7 @@ TBD - The AcxElementGetContainer function retrieves the associated container for
 
 ### -param Element
 
-TBD - An ACXELEMENT object. 
+TBD - An ACXELEMENT object.
 
 ## -returns
 
@@ -68,3 +68,4 @@ Example usage is shown below.
 
 - [acxelements.h header](index.md)
 
+TBD - Please review this topic

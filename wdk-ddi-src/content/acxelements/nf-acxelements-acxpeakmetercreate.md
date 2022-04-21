@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxPeakMeterCreate function is used to create an ACX peak meter object that that will be associated with a circuit object parent. 
+The AcxPeakMeterCreate function is used to create an ACX peak meter object that that will be associated with a circuit object parent.
 
 ## -parameters
 
@@ -100,3 +100,4 @@ Example usage is shown below.
 
 - [acxelements.h header](index.md)
 
+TBD - Please review this topic
