@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_AUDIOMODULE_CALLBACKS_INIT
 ms.date: 09/20/2021
 targetos: Windows
-description: The ACX_AUDIOMODULE_CALLBACKS_INIT function initializes the ACX audio module callbacks.
+description: The ACX_AUDIOMODULE_CALLBACKS_INIT function initializes the [ACX_AUDIOMODULE_CALLBACKS](ns-acxelements-acx_audiomodule_callbacks.md) structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The ACX_AUDIOMODULE_CALLBACKS_INIT function initializes the ACX audio module callbacks.
+The ACX_AUDIOMODULE_CALLBACKS_INIT function initializes the [ACX_AUDIOMODULE_CALLBACKS](ns-acxelements-acx_audiomodule_callbacks.md) structure.
 
 ## -parameters
 
@@ -58,14 +58,12 @@ Example usage is shown below.
 
 ```cpp
     ACX_AUDIOMODULE_CALLBACKS       audioModuleCallbacks;
-  
-    // Now add audio modules to the circuit
-    // module 0
-
     ACX_AUDIOMODULE_CALLBACKS_INIT(&audioModuleCallbacks);
 ```
 
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 

@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_ELEMENT_CONFIG_INIT
 ms.date: 09/23/2021
 targetos: Windows
-description: TBD - The ACX_ELEMENT_CONFIG_INIT function initializes an ACX_ELEMENT_CONFIG structure.
+description: The ACX_ELEMENT_CONFIG_INIT function initializes an [ACX_ELEMENT_CONFIG](ns-acxelements-acx_element_config.md) structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The ACX_ELEMENT_CONFIG_INIT function initializes an [ACX_ELEMENT_CONFIG](ns-acxelements-acx_element_config.md) structure.
+The ACX_ELEMENT_CONFIG_INIT function initializes an [ACX_ELEMENT_CONFIG](ns-acxelements-acx_element_config.md) structure.
 
 ## -parameters
 
@@ -58,19 +58,12 @@ Example usage is shown below.
 
 ```cpp
     ACX_ELEMENT_CONFIG      elementCfg;
-
-    //
-    // Create an ACXELEMENT for the ACXAUDIOENGINE.
-    //
     ACX_ELEMENT_CONFIG_INIT(&elementCfg);
-    elementCfg.Type             = &KSNODETYPE_AUDIO_ENGINE;
-    elementCfg.Name             = audioEngineConfig.Name;
-    elementCfg.Id               = audioEngineConfig.Id;
-    elementCfg.PropertiesCount  = AfxAudioEngine::s_AfxAudioEnginePropertiesCount;
-    elementCfg.Properties       = AfxAudioEngine::s_AfxAudioEngineProperties;
 ```
 
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2G0
 
