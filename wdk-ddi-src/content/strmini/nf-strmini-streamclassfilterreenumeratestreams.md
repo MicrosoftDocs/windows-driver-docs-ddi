@@ -2,9 +2,8 @@
 UID: NF:strmini.StreamClassFilterReenumerateStreams
 title: StreamClassFilterReenumerateStreams function (strmini.h)
 description: Obsolete. Do not use.
-old-location: stream\streamclassfilterreenumeratestreams.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/22/2022
 keywords: ["StreamClassFilterReenumerateStreams function"]
 ms.keywords: StreamClassFilterReenumerateStreams, StreamClassFilterReenumerateStreams function [Streaming Media Devices], strclass-routines_972c0c03-67fc-4d5b-b699-08a8bc0a50e2.xml, stream.streamclassfilterreenumeratestreams, strmini/StreamClassFilterReenumerateStreams
 req.header: strmini.h
@@ -40,9 +39,6 @@ api_name:
  - StreamClassFilterReenumerateStreams
 ---
 
-# StreamClassFilterReenumerateStreams function
-
-
 ## -description
 
 Obsolete. Do not use.
@@ -53,3 +49,4 @@ Obsolete. Do not use.
 
 ### -param StreamDescriptorSize
 
+## -returns

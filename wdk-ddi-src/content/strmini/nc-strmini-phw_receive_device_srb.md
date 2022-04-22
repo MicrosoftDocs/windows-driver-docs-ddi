@@ -2,9 +2,8 @@
 UID: NC:strmini.PHW_RECEIVE_DEVICE_SRB
 title: PHW_RECEIVE_DEVICE_SRB (strmini.h)
 description: The minidriver-supplied routine handles class driver requests that apply to the driver as a whole, such as initializing the device, or opening a stream within the device.
-old-location: stream\strminireceivedevicepacket.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/22/2022
 keywords: ["PHW_RECEIVE_DEVICE_SRB callback function"]
 ms.keywords: PHW_RECEIVE_DEVICE_SRB, StrMiniReceiveDevicePacket, StrMiniReceiveDevicePacket routine [Streaming Media Devices], stream.strminireceivedevicepacket, strmini-routines_5c9f03d0-a2b0-4078-8ef8-d84cf150355c.xml, strmini/StrMiniReceiveDevicePacket
 req.header: strmini.h
@@ -40,50 +39,44 @@ api_name:
  - PHW_RECEIVE_DEVICE_SRB
 ---
 
-# PHW_RECEIVE_DEVICE_SRB callback function
-
-
 ## -description
 
-<i>The minidriver-supplied </i> routine handles class driver requests that apply to the driver as a whole, such as initializing the device, or opening a stream within the device.
+The minidriver-supplied routine handles class driver requests that apply to the driver as a whole, such as initializing the device, or opening a stream within the device.
 
 ## -parameters
 
-### -param SRB
-
-### -param pSRB [in]
+### -param SRB [in]
 
 Pointer to the stream request block.
 
 ## -remarks
 
-The minidriver specifies this routine in the <b>HwReceivePacket</b> member of its <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure. The minidriver passes this structure to the class driver when it registers itself by calling <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter">StreamClassRegisterMinidriver</a>.
+The minidriver specifies this routine in the **HwReceivePacket** member of its [HW_INITIALIZATION_DATA](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data) structure. The minidriver passes this structure to the class driver when it registers itself by calling [StreamClassRegisterMinidriver](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter).
 
-<i>StrMiniReceiveDevicePacket</i> must handle class driver requests that apply to the driver as a whole, such as initializing the device, or opening a stream within the device. The class driver passes its information in the form of a pointer to a stream request block. The class driver fills in some of the entries in the stream request block. The minidriver, upon completion of the routine, must fill in additional information that the class driver will use to continue processing. 
+*StrMiniReceiveDevicePacket* must handle class driver requests that apply to the driver as a whole, such as initializing the device, or opening a stream within the device. The class driver passes its information in the form of a pointer to a stream request block. The class driver fills in some of the entries in the stream request block. The minidriver, upon completion of the routine, must fill in additional information that the class driver will use to continue processing.
 
-Upon completion of its handling of the request, the minidriver passes the structure back to the class driver by calling <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassdevicenotification">StreamClassDeviceNotification</a><b>(DeviceRequestComplete, pSRB->HwDeviceExtension, pSRB)</b>. 
+Upon completion of its handling of the request, the minidriver passes the structure back to the class driver by calling [StreamClassDeviceNotification](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassdevicenotification)**(DeviceRequestComplete, pSRB->HwDeviceExtension, pSRB)**.
 
-See information about relevant SRB codes in <a href="/windows-hardware/drivers/stream/stream-class-srb-reference">Stream Class SRB Reference</a>.
+See information about relevant SRB codes in [Stream Class SRB Reference](/windows-hardware/drivers/stream/stream-class-srb-reference).
 
-When the minidriver finishes its processing of the request, it enters the return status of the operation in <i>pSrb</i>-><b>Status</b>. The minidriver should enter STATUS_SUCCESS for normal successful processing. If the minidriver does not support that Command value, it should set <i>pSrb</i>-><b>Status</b> to STATUS_NOT_IMPLEMENTED. If there is a device hardware error that prevents the minidriver from completing the request, it should set <i>pSrb</i>-><b>Status</b> to STATUS_IO_DEVICE_ERROR. Other error codes the routine uses in specific circumstances are listed above with the specific Command code.
+When the minidriver finishes its processing of the request, it enters the return status of the operation in *pSrb*->**Status**. The minidriver should enter STATUS_SUCCESS for normal successful processing. If the minidriver does not support that Command value, it should set *pSrb*->**Status** to STATUS_NOT_IMPLEMENTED. If there is a device hardware error that prevents the minidriver from completing the request, it should set *pSrb*->**Status** to STATUS_IO_DEVICE_ERROR. Other error codes the routine uses in specific circumstances are listed above with the specific Command code.
 
-Note that the class driver passes read and write requests to the <a href="/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_receive_device_srb">StrMiniReceiveStreamDataPacket</a> routine.
+Note that the class driver passes read and write requests to the [StrMiniReceiveStreamDataPacket](/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_receive_device_srb) routine.
 
-The minidriver registers its <i>StrMiniReceiveStreamControlPacket</i> routine as follows: When the class driver opens the stream, it passes an <a href="/windows-hardware/drivers/stream/srb-open-stream">SRB_OPEN_STREAM</a> request block to the minidriver's <i>StrMiniReceiveDevicePacket</i> routine. The <b>StreamObject</b> member of the request packet points to an <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a>. The minidriver sets the <b>ReceiveControlPacket</b> member of the structure pointed to by <b>StreamObject</b> to the minidriver's <i>StrMiniReceiveControlPacket</i> routine. 
+The minidriver registers its *StrMiniReceiveStreamControlPacket* routine as follows: When the class driver opens the stream, it passes an [SRB_OPEN_STREAM](/windows-hardware/drivers/stream/srb-open-stream) request block to the minidriver's *StrMiniReceiveDevicePacket* routine. The **StreamObject** member of the request packet points to an [HW_STREAM_OBJECT](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object). The minidriver sets the **ReceiveControlPacket** member of the structure pointed to by **StreamObject** to the minidriver's *StrMiniReceiveControlPacket* routine.
 
-Upon completion of its handling of the request, the minidriver passes the structure back to the class driver by calling <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification">StreamClassStreamNotification</a><b>(StreamRequestComplete, pSRB->StreamObject, pSRB)</b>. 
+Upon completion of its handling of the request, the minidriver passes the structure back to the class driver by calling [StreamClassStreamNotification](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification)**(StreamRequestComplete, pSRB->StreamObject, pSRB)**.
 
-See information about relevant SRB codes in <a href="/windows-hardware/drivers/stream/stream-class-srb-reference">Stream Class SRB Reference</a>.
+See information about relevant SRB codes in [Stream Class SRB Reference](/windows-hardware/drivers/stream/stream-class-srb-reference).
 
-When the minidriver finishes its processing of the request, it enters the return status of the operation in <i>pSrb</i>-><b>Status</b>. The minidriver should enter STATUS_SUCCESS for normal successful processing. If the minidriver does not support that Command value, it should set <i>pSrb</i>-><b>Status</b> to STATUS_NOT_IMPLEMENTED. If there is a device hardware error that prevents the minidriver from completing the request, it should set <i>pSrb</i>-><b>Status</b> to STATUS_IO_DEVICE_ERROR. Other error codes the routine uses in specific circumstances are listed above with the specific Command code.
+When the minidriver finishes its processing of the request, it enters the return status of the operation in *pSrb*->**Status**. The minidriver should enter STATUS_SUCCESS for normal successful processing. If the minidriver does not support that Command value, it should set *pSrb*->**Status** to STATUS_NOT_IMPLEMENTED. If there is a device hardware error that prevents the minidriver from completing the request, it should set *pSrb*->**Status** to STATUS_IO_DEVICE_ERROR. Other error codes the routine uses in specific circumstances are listed above with the specific Command code.
 
-The stream class driver calls the minidriver's <i>StrMiniReceiveStreamDataPacket</i> routine to handle read and write requests for a specific stream.
+The stream class driver calls the minidriver's *StrMiniReceiveStreamDataPacket* routine to handle read and write requests for a specific stream.
 
-The minidriver registers its <i>StrMiniReceiveStreamDataPacket</i> routine as follows: When the class driver opens the stream, it passes a <a href="/windows-hardware/drivers/stream/srb-open-stream">SRB_OPEN_STREAM</a> request block to the minidriver's <i>StrMiniReceiveDevicePacket</i> routine. The StreamObject of the request packet points to a <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a>. The minidriver sets the <b>ReceiveDataPacket</b> member of the structure pointed to by <i>pSrb</i>-><b>StreamObject</b> to the minidriver's <i>StrMiniReceiveDataPacket</i> routine. 
+The minidriver registers its *StrMiniReceiveStreamDataPacket* routine as follows: When the class driver opens the stream, it passes a [SRB_OPEN_STREAM](/windows-hardware/drivers/stream/srb-open-stream) request block to the minidriver's *StrMiniReceiveDevicePacket* routine. The StreamObject of the request packet points to a [HW_STREAM_OBJECT](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object). The minidriver sets the **ReceiveDataPacket** member of the structure pointed to by *pSrb*->**StreamObject** to the minidriver's *StrMiniReceiveDataPacket* routine.
 
-Upon completion of its handling of the request, the minidriver passes the structure back to the class driver by calling <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification">StreamClassStreamNotification</a><b>(StreamRequestComplete, pSRB->StreamObject, pSRB)</b>. 
+Upon completion of its handling of the request, the minidriver passes the structure back to the class driver by calling [StreamClassStreamNotification](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification)**(StreamRequestComplete, pSRB->StreamObject, pSRB)**.
 
-See information about relevant SRB codes in <a href="/windows-hardware/drivers/stream/stream-class-srb-reference">Stream Class SRB Reference</a>.
+See information about relevant SRB codes in [Stream Class SRB Reference](/windows-hardware/drivers/stream/stream-class-srb-reference).
 
-When the minidriver finishes its processing of the request, it enters the return status of the operation in <i>pSrb</i>-><b>Status</b>. The minidriver should enter STATUS_SUCCESS for normal successful processing. If the minidriver does not support that Command value, it should set <i>pSrb</i>-><b>Status</b> to STATUS_NOT_IMPLEMENTED. If there is a device hardware error that prevents the minidriver from completing the request, it should set <i>pSrb</i>-><b>Status</b> to STATUS_IO_DEVICE_ERROR. Other error codes the routine uses in specific circumstances are listed above with the specific Command code.
-
+When the minidriver finishes its processing of the request, it enters the return status of the operation in *pSrb*->**Status**. The minidriver should enter STATUS_SUCCESS for normal successful processing. If the minidriver does not support that Command value, it should set *pSrb*->**Status** to STATUS_NOT_IMPLEMENTED. If there is a device hardware error that prevents the minidriver from completing the request, it should set *pSrb*->**Status** to STATUS_IO_DEVICE_ERROR. Other error codes the routine uses in specific circumstances are listed above with the specific Command code.
