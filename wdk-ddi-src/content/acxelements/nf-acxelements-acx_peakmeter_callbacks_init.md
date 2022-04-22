@@ -58,13 +58,12 @@ Example usage is shown below.
 
 ```cpp
     ACX_PEAKMETER_CALLBACKS         peakmeterCallbacks;
-
     ACX_PEAKMETER_CALLBACKS_INIT(&peakmeterCallbacks);
-
-    peakmeterCallbacks.EvtAcxPeakMeterRetrieveLevel = CodecR_EvtPeakMeterRetrieveLevelCallback;
 ```
 
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 

@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_KEYWORDSPOTTER_CONFIG
 ms.date: 10/15/2021
 targetos: Windows
-description: The ACX_KEYWORDSPOTTER_CONFIG structure is used to define the audio key word spotter configuration. 
+description: The ACX_KEYWORDSPOTTER_CONFIG structure is used to define the audio keyword spotter configuration. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_KEYWORDSPOTTER_CONFIG structure is used to define the audio key word spotter configuration. 
+The ACX_KEYWORDSPOTTER_CONFIG structure is used to define the acx keyword spotter configuration. 
 
 ## -struct-fields
 
@@ -62,13 +62,11 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 ### -field Flags
 
-Audio key word spotter configuration flags defined by the [ACX_KEYWORDSPOTTER_CONFIG_FLAGS enum](ne-acxelements-acx_keywordspotter_config_flags.md).  No flag bits are currently defined. Set this member to zero - AcxKeywordSpotterConfigNoFlags
+Acx keyword spotter configuration flags defined by the [ACX_KEYWORDSPOTTER_CONFIG_FLAGS enum](ne-acxelements-acx_keywordspotter_config_flags.md). No flag bits are currently defined. Set this member to zero - AcxKeywordSpotterConfigNoFlags.
 
 ### -field Pattern
 
-TBD - Represents the keyword configuration pattern GUID that is used to identify the keyword configuration.
-
-GUID identifying the KWS pattern. This maps to SOUNDDETECTOR_PATTERNHEADER.PatternType, for portcls solutions
+The keyword spotter pattern format, expressed as a GUID.
 
 ### -field Callbacks
 
@@ -100,4 +98,6 @@ Example usage is shown below.
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 

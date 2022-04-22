@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxMuteChangeStateNotification
 ms.date: 09/23/2021
 targetos: Windows
-description: TBD - The AcxMuteChangeStateNotification function provides the ability to notify mute state changes.
+description: The AcxMuteChangeStateNotification function sends a notification of a mute state change on an ACXMUTE object so that acx can generate a corresponding event. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxMuteChangeStateNotification function provides the ability to notify (What??? TBD) of mute state changes.
+The AcxMuteChangeStateNotification function sends a notification of a mute state change on an ACXMUTE object so that acx can generate a corresponding event. 
 
 ## -parameters
 
 ### -param Mute
 
-An ACXMUTE object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+An ACXMUTE object whose mute state has changed. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
 ## -remarks
 
@@ -72,4 +72,6 @@ Example usage is shown below.
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 

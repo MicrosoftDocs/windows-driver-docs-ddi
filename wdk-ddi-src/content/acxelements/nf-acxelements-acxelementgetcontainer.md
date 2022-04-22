@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxElementGetContainer
 ms.date: 09/23/2021
 targetos: Windows
-description: TBD - The AcxElementGetContainer function retrieves the associated container for the provided ACX element. 
+description: The AcxElementGetContainer function retrieves the associated container for the given ACX element. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxElementGetContainer function retrieves the associated container for the provided ACX element. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The AcxElementGetContainer function retrieves the associated container for the given ACX element. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
 ### -param Element
 
-TBD - An ACXELEMENT object. 
+An existing, initialized, ACXELEMENT object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
-Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+Returns the ACXOBJECT object that is the container for the specified ACX element. 
 
 ## -remarks
 
@@ -61,10 +61,12 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
-    ACXCIRCUIT          circuit     = (ACXCIRCUIT)AcxElementGetContainer((ACXELEMENT)Mute);
+    ACXCIRCUIT circuit = (ACXCIRCUIT)AcxElementGetContainer((ACXELEMENT)Mute);
 ```
 
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 

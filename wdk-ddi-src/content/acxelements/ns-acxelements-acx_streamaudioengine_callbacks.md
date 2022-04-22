@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_STREAMAUDIOENGINE_CALLBACKS structure identifies the driver callbacks for ACX audio engine stream operations.
+The ACX_STREAMAUDIOENGINE_CALLBACKS structure identifies the driver callbacks for ACX stream audio engine operations.
 
 ## -struct-fields
 
@@ -80,7 +80,6 @@ The [EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LAST_BUFFER_POSITION](nc-acxelements-evt_a
 
 The [EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION](nc-acxelements-evt_acx_streamaudioengine_assign_loopback_protection.md) callback.
 
-
 ### -field EvtAcxStreamAudioEngineProcessRequest
 
 The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/acxrequest/nc-acxrequest-evt_acx_object_process_request.md) callback. 
@@ -109,4 +108,6 @@ Example usage is shown below.
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 

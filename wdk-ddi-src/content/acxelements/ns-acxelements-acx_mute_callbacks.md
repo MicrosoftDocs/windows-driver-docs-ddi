@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_MUTE_CALLBACKS
 ms.date: 09/02/2021
 targetos: Windows
-description: The ACX__MUTE_CALLBACKS structure identifies the driver callbacks for ACX mute operations.
+description: The ACX_MUTE_CALLBACKS structure identifies the driver callbacks for ACX mute operations.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -91,4 +91,6 @@ Example usage is shown below.
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 

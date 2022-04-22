@@ -58,20 +58,12 @@ Example usage is shown below.
 
 ```cpp
         ACX_STREAMAUDIOENGINE_CALLBACKS streamAudioEngineCallbacks;
-
-        // Create the AudioEngine element to control offloaded streaming.
         ACX_STREAMAUDIOENGINE_CALLBACKS_INIT(&streamAudioEngineCallbacks);
-
-        streamAudioEngineCallbacks.EvtAcxStreamAudioEngineAssignEffectsState = CodecR_EvtAcxStreamAudioEngineAssignEffectsState;
-        streamAudioEngineCallbacks.EvtAcxStreamAudioEngineRetrieveEffectsState = CodecR_EvtAcxStreamAudioEngineRetrieveEffectsState;
-        streamAudioEngineCallbacks.EvtAcxStreamAudioEngineRetrievePresentationPosition = CodecR_EvtAcxStreamAudioEngineRetrievePresentationPosition;
-        streamAudioEngineCallbacks.EvtAcxStreamAudioEngineAssignCurrentWritePosition = CodecR_EvtAcxStreamAudioEngineAssignCurrentWritePosition;
-        streamAudioEngineCallbacks.EvtAcxStreamAudioEngineRetrieveLinearBufferPosition = CodecR_EvtAcxStreamAudioEngineRetrieveLinearBufferPosition;
-        streamAudioEngineCallbacks.EvtAcxStreamAudioEngineAssignLastBufferPosition = CodecR_EvtAcxStreamAudioEngineAssignLastBufferPosition;
-        streamAudioEngineCallbacks.EvtAcxStreamAudioEngineAssignLoopbackProtection = CodecR_EvtAcxStreamAudioEngineAssignLoopbackProtection;
 ```
 
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 

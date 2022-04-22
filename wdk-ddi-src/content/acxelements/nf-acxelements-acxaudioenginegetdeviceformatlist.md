@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxAudioEngineGetDeviceFormatList
 ms.date: 09/23/2021
 targetos: Windows
-description: TBD - The AcxAudioEngineGetDeviceFormatList function retrieves a ACXDATAFORMATLIST device format list ACX object. 
+description: The AcxAudioEngineGetDeviceFormatList function retrieves a ACXDATAFORMATLIST device format list ACX object. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxAudioEngineGetDeviceFormatList function retrieves a ACXDATAFORMATLIST device format list ACX object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The AcxAudioEngineGetDeviceFormatList function retrieves the ACXDATAFORMATLIST object that holds the list of supported formats for the audio engine node. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
 ### -param AudioEngine
 
-An ACXAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. 
+An ACXAUDIOENGINE object that is used in a render circuit, to represent a DSP. 
 
 ## -returns
 
-Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+The ACXDATAFORMATLIST object which holds the list of supported formats for the specified ACXAUDIOENGINE object. 
 
 ## -remarks
 
@@ -63,10 +63,6 @@ Example usage is shown below.
 ```cpp
     status = AcxDataFormatCreate(Device, &attributes, &formatCfg, &formatPcm44100c2);
     formatCtx = GetCodecFormatContext(formatPcm44100c2);
-
-    // Configure audio engine formats
-    circuitCtx->AudioEngineElement = audioEngineElement;
-    audioEngineCtx = GetCodecEngineContext(audioEngineElement);
 
     // Get the current audio engine device format list
     formatList = AcxAudioEngineGetDeviceFormatList(audioEngineElement);
@@ -83,4 +79,6 @@ Example usage is shown below.
 ## -see-also
 
 [acxelements.h header](index.md)
+
+READY2GO
 
