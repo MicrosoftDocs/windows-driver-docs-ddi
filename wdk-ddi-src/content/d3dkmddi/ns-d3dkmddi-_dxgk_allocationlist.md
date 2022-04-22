@@ -49,6 +49,30 @@ api_name:
 
 The **DXGK_ALLOCATIONLIST** structure describes an allocation specification that is used in direct memory access (DMA) buffering.
 
+## -syntax
+
+``` C
+typedef struct _DXGK_ALLOCATIONLIST
+{
+    HANDLE              hDeviceSpecificAllocation;
+    struct
+    {
+        UINT            WriteOperation  : 1;    // 0x00000001
+        UINT            SegmentId       : 5;    // 0x0000002E
+        UINT            Reserved        : 26;   // 0xFFFFFFC0
+    };
+#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
+    union
+    {
+        PHYSICAL_ADDRESS    PhysicalAddress;
+        D3DGPU_VIRTUAL_ADDRESS VirtualAddress;
+    };
+#else // (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
+    PHYSICAL_ADDRESS    PhysicalAddress;
+#endif // (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
+} DXGK_ALLOCATIONLIST;
+```
+
 ## -struct-fields
 
 ### -field hDeviceSpecificAllocation [in/out]
@@ -63,9 +87,9 @@ Identifies whether the allocation can be written to. Setting this member to 1 in
 
 Specifies the identifier of a segment that the allocation was last paged in at. Setting this member to 0 indicates that no pre-patching information is available. Setting this member is equivalent to setting the second through sixth bit of a 32-bit value (0x0000002E).
 
-### -field Reserved
+### -field Reserved [in]
 
-[in] Reserved. This member should be set to 0. Setting this member is equivalent to setting the remaining 26 bits (0xFFFFFFC0) of a 32-bit value to zeros.
+Reserved. This member should be set to 0. Setting this member is equivalent to setting the remaining 26 bits (0xFFFFFFC0) of a 32-bit value to zeros.
 
 ### -field PhysicalAddress [in/out]
 
@@ -78,10 +102,6 @@ Supported starting with Windows 10.
 A **D3DGPU_VIRTUAL_ADDRESS** data type (which is defined as a **ULONGLONG**) that indicates the virtual address.
 
 Supported starting with Windows 10.
-
-### -field PhysicalAddress [in/out]
-
-A **PHYSICAL_ADDRESS** data type (which is defined as **LARGE_INTEGER**) that indicates the physical address, within the segment that **SegmentId** specifies, where the allocation was last paged-in at. This member is set to zero if no pre-patching information is available.
 
 ## -remarks
 
