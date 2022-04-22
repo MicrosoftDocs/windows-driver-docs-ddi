@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_TARGET_CIRCUIT_CONFIG_INIT
 ms.date: 01/05/2022
 targetos: Windows
-description: 
+description: The ACX_TARGET_CIRCUIT_CONFIG_INIT function initializes an ACX target circuit config structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The ACX_TARGET_CIRCUIT_CONFIG_INIT function initializes an ACX target circuit config structure.
+The **ACX_TARGET_CIRCUIT_CONFIG_INIT** function initializes an ACX target circuit config structure.
 
 ## -parameters
 

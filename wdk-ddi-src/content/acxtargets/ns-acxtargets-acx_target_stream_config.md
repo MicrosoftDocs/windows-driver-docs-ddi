@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_TARGET_STREAM_CONFIG
 ms.date: 01/05/2022
 targetos: Windows
-description: 
+description: The ACX_TARGET_STREAM_CONFIG structure is used to define the target stream configuration. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -43,6 +43,8 @@ dev_langs:
 ---
 
 ## -description
+
+The **ACX_TARGET_STREAM_CONFIG** structure is used to define the target stream configuration. 
 
 ## -struct-fields
 

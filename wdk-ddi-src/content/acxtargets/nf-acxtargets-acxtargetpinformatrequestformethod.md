@@ -50,12 +50,7 @@ dev_langs:
 
 ### -param Params
 
-TBD 
-
-An initialized [ACX_REQUEST_PARAMETERS](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_request_parameters.md) structure that is used to store request parameter information.
-
-TBD 
-
+TBD - An initialized [ACX_REQUEST_PARAMETERS](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_request_parameters.md) structure that is used to store request parameter information.
 
 ## -returns
 

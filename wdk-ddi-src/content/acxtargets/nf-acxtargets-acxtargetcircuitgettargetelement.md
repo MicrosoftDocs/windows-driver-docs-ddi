@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxTargetCircuitGetTargetElement function, given a valid element index value, will return an ACXTARGETELEMENT ACX Object that is associated with the specified circuit.
+The **AcxTargetCircuitGetTargetElement** function, given a valid element index value, will return an ACXTARGETELEMENT ACX Object that is associated with the specified circuit.
 
 ## -parameters
 
