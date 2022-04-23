@@ -2,9 +2,8 @@
 UID: NF:wiamdef.wiasSetItemPropNames
 title: wiasSetItemPropNames function (wiamdef.h)
 description: The wiasSetItemPropNames function writes property names to item properties.
-old-location: image\wiassetitempropnames.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 04/19/2022
 keywords: ["wiasSetItemPropNames function"]
 ms.keywords: image.wiassetitempropnames, wiamdef/wiasSetItemPropNames, wiasFncs_e8f17c14-47a7-42bc-ad85-cdd52ecbab79.xml, wiasSetItemPropNames, wiasSetItemPropNames function [Imaging Devices]
 req.header: wiamdef.h
@@ -40,17 +39,13 @@ api_name:
  - wiasSetItemPropNames
 ---
 
-# wiasSetItemPropNames function
-
-
 ## -description
 
-The <b>wiasSetItemPropNames </b>function writes property names to item properties.
+The **wiasSetItemPropNames** function writes property names to item properties.
 
 ## -parameters
 
 ### -param pWiasContext [in]
-
 
 Pointer to a WIA item context.
 
@@ -60,12 +55,9 @@ Specifies the number of property names to write.
 
 ### -param ppId [in, out]
 
-
 Pointer to the first element of a caller-allocated array of property identifiers (PROPIDs).
 
-### -param ppszNames
-
-### -param ppSzNames [in, out]
+### -param ppszNames [in, out]
 
 Pointer to the first element of a caller-allocated array of property names to write.
 
@@ -75,8 +67,8 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -remarks
 
-Minidrivers typically use this function when initializing item properties. The order of property identifiers in <i>ppId</i> must match the order of property names in <i>ppSzNames</i>.
+Minidrivers typically use this function when initializing item properties. The order of property identifiers in *ppId* must match the order of property names in *ppSzNames*.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetitempropattribs">wiasSetItemPropAttribs</a>
+[wiasSetItemPropAttribs](./nf-wiamdef-wiassetitempropattribs.md)

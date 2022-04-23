@@ -2,15 +2,14 @@
 UID: NF:mxdc.MxdcGetPDEVAdjustment
 title: MxdcGetPDEVAdjustment function (mxdc.h)
 description: The MxdcGetPDEVAdjustment function is exported by a printer interface DLL and supplies printer configuration data for the Microsoft XPS Document Converter (MXDC).
-old-location: print\mxdcgetpdevadjustment.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 04/18/2022
 keywords: ["MxdcGetPDEVAdjustment function"]
 ms.keywords: MxdcGetPDEVAdjustment, MxdcGetPDEVAdjustment function [Print Devices], mxdc/MxdcGetPDEVAdjustment, print.mxdcgetpdevadjustment, print_xpsdrv_7e324989-1809-44e8-8b5b-c64f83740cd5.xml
 req.header: mxdc.h
 req.include-header: Mxdc.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Microsoft Windows XP and later versions of the Windows operating system.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,9 +39,6 @@ api_name:
  - MxdcGetPDEVAdjustment
 ---
 
-# MxdcGetPDEVAdjustment function
-
-
 ## -description
 
 The **MxdcGetPDEVAdjustment** function is exported by a printer interface DLL and supplies printer configuration data for the Microsoft XPS Document Converter (MXDC).
@@ -51,37 +47,29 @@ The **MxdcGetPDEVAdjustment** function is exported by a printer interface DLL an
 
 ### -param hPrinter [in]
 
-
 The handle of the currently instantiated printer.
 
 ### -param cbDevMode [in]
-
 
 The size of the [DEVMODE](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure, in bytes, including the driver's private DEVMODE data.
 
 ### -param pDevMode [in]
 
-
 A copy of the DEVMODE structure that the MXDC received. The printer interface DLL uses information from this structure to return the requested data.
 
 ### -param cbIn [in]
-
 
 An input parameter that designates the size of the *pvIn* parameter, in bytes. This parameter is currently not used and its value is zero.
 
 ### -param pvIn [in, optional]
 
-
 A parameter that consists of data that is sent to the printer interface DLL from the MXDC. This parameter is currently not used and its value is **NULL**.
 
 ### -param cbPrintPropertiesCollection [in]
 
-
 The size of the [PrintPropertiesCollection](/windows-hardware/drivers/print/xps-driver-document-events) data structure, in bytes.
 
 ### -param pPrintPropertiesCollection
-
-### -param pOut [in, out]
 
 The **PrintPropertiesCollection** data structure from which the printer interface's DLL gets the requested data. This structure is defined in WinSpool.h. The requested fields might be pre-filled with the MXDC's default data. The printer interface DLL must ignore the fields that it does not understand.
 
@@ -90,7 +78,7 @@ The **PrintPropertiesCollection** data structure from which the printer interfac
 **MxdcGetPDEVAdjustment** should return one of the following values:
 
 | Return code | Description |
-| --- | --- |
+|--|--|
 | S_OK | The printer interface DLL successfully returned an adjusted imageable area, compression type, or DPI based on the given DEVMODE structure. The MXDC will validate the returned imageable area and then use it to populate the [GDIINFO](/windows/win32/api/winddi/ns-winddi-gdiinfo) structure to the respective fields. |
 | E_NOTIMPL | The **MxdcGetPDEVAdjustment** function is not implemented by the printer interface. The printer interface must not modify the fields that it does not support. The MXDC defaults to its current defaults. For the imageable area case, MXDC defaults to using the physical page size. For the compression option, MXDC defaults to medium JPEG compression. |
 | E_FAIL | For this value or any other failure values, the MXDC returns -1 to the [DrvEnablePDEV](/windows/win32/api/winddi/nf-winddi-drvenablepdev) function, catches the internal exception, and sets a flag to fail and end the print job. |
@@ -101,8 +89,8 @@ The **MxdcGetPDEVAdjustment** function is implemented by the hardware vendor. Th
 
 MXDC enables the printer interface DLL to adjust DPI through the **MxdcGetPDEVAdjustment** function only if the print job's **dmPrintQuality** field has a value that is less than or equal to 0. If the DPI value is not adjusted, MXDC maps negative **dmPrintQuality** values to the following resolutions.
 
-| GDI name(Wingdi.h) | GDI value(Wingdi.h) | MXDC default interpretation(dots per inch) |
-| --- | --- |
+| GDI name (Wingdi.h) | GDI value(Wingdi.h) | MXDC default interpretation(dots per inch) |
+|--|--|
 | DMRES_HIGH | -4 | 2400 |
 | DMRES_MEDIUM | -3 | 1200 |
 | DMRES_LOW | -2 | 600 |

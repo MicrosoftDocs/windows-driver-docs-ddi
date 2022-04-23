@@ -4,13 +4,13 @@ title: FltQueueDeferredIoWorkItem function (fltkernel.h)
 description: The FltQueueDeferredIoWorkItem routine posts an IRP-based I/O operation to a work queue.
 old-location: ifsk\fltqueuedeferredioworkitem.htm
 tech.root: ifsk
-ms.date: 03/04/2022
+ms.date: 04/18/2022
 keywords: ["FltQueueDeferredIoWorkItem function"]
 ms.keywords: FltApiRef_p_to_z_df42429d-485c-4c28-a9e7-b334d7ad52d7.xml, FltQueueDeferredIoWorkItem, FltQueueDeferredIoWorkItem routine [Installable File System Drivers], fltkernel/FltQueueDeferredIoWorkItem, ifsk.fltqueuedeferredioworkitem
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available in Microsoft Windows 2000 and later versions of all Windows operating systems.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -54,7 +54,7 @@ A pointer to the work item to add to the work queue. The work item must have bee
 
 ### -param Data [in]
 
-A pointer to the callback data ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) structure for the I/O operation. The operation must be an IRP-based I/O operation. To determine whether a given callback data structure represents an IRP-based I/O operation, use the [**FLT_IS_IRP_OPERATION**](/previous-versions/ff544654(v=vs.85)) macro.
+A pointer to the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure for the I/O operation. The operation must be an IRP-based I/O operation. To determine whether a given callback data structure represents an IRP-based I/O operation, use the [**FLT_IS_IRP_OPERATION**](/previous-versions/ff544654(v=vs.85)) macro.
 
 ### -param WorkerRoutine [in]
 
@@ -63,10 +63,10 @@ A pointer to a caller-supplied worker callback routine. This routine is declared
 ``` C
 typedef VOID
 (*PFLT_DEFERRED_IO_WORKITEM_ROUTINE) (
-      _in PFLT_DEFERRED_IO_WORKITEM  FltWorkItem,
-      __in PFLT_CALLBACK_DATA  CallbackData,
-      __in_opt PVOID  Context
-      );
+    _In_ PFLT_DEFERRED_IO_WORKITEM FltWorkItem,
+    _In_ PFLT_CALLBACK_DATA CallbackData,
+    _In_opt_ PVOID Context
+    );
 ```
 
 where:

@@ -60,7 +60,7 @@ A handle to a framework device object.
 
 ### -param PropertyData [in]
 
-A pointer to [WDF_DEVICE_INTERFACE_PROPERTY_DATA](/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data) structure.
+A pointer to [WDF_DEVICE_INTERFACE_PROPERTY_DATA](./ns-wdfdevice-_wdf_device_interface_property_data.md) structure.
 
 ### -param Type [in]
 
@@ -90,7 +90,7 @@ For information about related methods, see [Accessing the Unified Device Propert
 
 ### Examples
 
-The following code example initializes a [WDF_DEVICE_INTERFACE_PROPERTY_DATA](/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data) structure and then calls **WdfDeviceAssignInterfaceProperty**.
+The following code example initializes a [WDF_DEVICE_INTERFACE_PROPERTY_DATA](./ns-wdfdevice-_wdf_device_interface_property_data.md) structure and then calls **WdfDeviceAssignInterfaceProperty**.
 
 ```cpp
 DEFINE_DEVPROPKEY(DEVPKEY_ToasterCrispLevelDword, 0x5d0ba64a, 0x2396, 0x4bc9, 0xbf, 0x49, 0x52, 0x1d, 0xa6, 0x2b, 0x1b, 0xed, 3);  // DEVPROP_TYPE_UINT32
@@ -117,10 +117,10 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-[WDF_DEVICE_INTERFACE_PROPERTY_DATA](/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data)
+[WDF_DEVICE_INTERFACE_PROPERTY_DATA](./ns-wdfdevice-_wdf_device_interface_property_data.md)
 
-[WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT](/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_device_interface_property_data_init)
+[WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT](./nf-wdfdevice-wdf_device_interface_property_data_init.md)
 
-[WdfDeviceAllocAndQueryInterfaceProperty](/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty)
+[WdfDeviceAllocAndQueryInterfaceProperty](./nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty.md)
 
-[WdfDeviceQueryInterfaceProperty](/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicequeryinterfaceproperty)
+[WdfDeviceQueryInterfaceProperty](./nf-wdfdevice-wdfdevicequeryinterfaceproperty.md)

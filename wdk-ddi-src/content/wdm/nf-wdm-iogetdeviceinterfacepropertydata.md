@@ -50,7 +50,7 @@ The **IoGetDeviceInterfacePropertyData** routine retrieves the current value of 
 
 ### -param SymbolicLinkName [in]
 
-A pointer to a string that identifies the device interface instance. This string was obtained from a previous call to the [IoGetDeviceInterfaces](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfaces), [IoGetDeviceInterfaceAlias](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfacealias), or [IoRegisterDeviceInterface](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface) routine.
+A pointer to a string that identifies the device interface instance. This string was obtained from a previous call to the [IoGetDeviceInterfaces](./nf-wdm-iogetdeviceinterfaces.md), [IoGetDeviceInterfaceAlias](./nf-wdm-iogetdeviceinterfacealias.md), or [IoRegisterDeviceInterface](./nf-wdm-ioregisterdeviceinterface.md) routine.
 
 ### -param PropertyKey [in]
 
@@ -94,7 +94,7 @@ A pointer to a [DEVPROPTYPE](/previous-versions/ff543546(v=vs.85)) variable. If 
 
 Kernel-mode drivers use the **IoGetDeviceInterfacePropertyData** routine to retrieve device interface properties that are defined as part of the [unified device property model](/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-). For more information about device interface properties, see [Device Properties](/windows-hardware/drivers/image/device-properties).
 
-Drivers can use the [IoSetDeviceInterfacePropertyData](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetdeviceinterfacepropertydata) routine to modify a device interface property.
+Drivers can use the [IoSetDeviceInterfacePropertyData](./nf-wdm-iosetdeviceinterfacepropertydata.md) routine to modify a device interface property.
 
 Callers of **IoGetDeviceInterfacePropertyData** must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
@@ -104,4 +104,4 @@ Callers of **IoGetDeviceInterfacePropertyData** must be running at IRQL = PASSIV
 
 [DEVPROPTYPE](/previous-versions/ff543546(v=vs.85))
 
-[IoSetDeviceInterfacePropertyData](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetdeviceinterfacepropertydata)
+[IoSetDeviceInterfacePropertyData](./nf-wdm-iosetdeviceinterfacepropertydata.md)

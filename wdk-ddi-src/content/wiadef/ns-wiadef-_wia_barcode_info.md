@@ -1,10 +1,9 @@
 ---
 UID: NS:wiadef._WIA_BARCODE_INFO
-title: _WIA_BARCODE_INFO (wiadef.h)
+title: WIA_BARCODE_INFO (wiadef.h)
 description: The WIA_BARCODE_INFO structure stores information for one decoded barcode.
-old-location: image\wia_barcode_info.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 04/19/2022
 keywords: ["WIA_BARCODE_INFO structure"]
 ms.keywords: WIA_BARCODE_INFO, WIA_BARCODE_INFO structure [Imaging Devices], _WIA_BARCODE_INFO, image.wia_barcode_info, wiadef/WIA_BARCODE_INFO
 req.header: wiadef.h
@@ -43,12 +42,9 @@ api_name:
  - WIA_BARCODE_INFO
 ---
 
-# _WIA_BARCODE_INFO structure
-
-
 ## -description
 
-The <b>WIA_BARCODE_INFO</b> structure stores information for one decoded barcode.
+The **WIA_BARCODE_INFO** structure stores information for one decoded barcode.
 
 ## -struct-fields
 
@@ -58,7 +54,7 @@ The total size of this structure, in bytes.
 
 ### -field Type
 
-The barcode type. One of the <a href="/windows-hardware/drivers/image/wia-ips-supported-barcode-types">WIA_IPS_SUPPORTED_BARCODE_TYPES</a> values.
+The barcode type. One of the [WIA_IPS_SUPPORTED_BARCODE_TYPES](/windows-hardware/drivers/image/wia-ips-supported-barcode-types) values.
 
 ### -field Page
 
@@ -70,7 +66,11 @@ The confidence level. A value in the range from 0 (no confidence) to 10 (maximum
 
 ### -field XOffset
 
+The horizontal coordinate, in pixels (relative to the scanned image), where the top-left origin of the barcode was detected. This value can be 0 if it is unknown.
+
 ### -field YOffset
+
+The vertical coordinate, in pixels (relative to the scanned image), where the top-left origin of the barcode was detected. This value can be 0 if it is unknown.
 
 ### -field Rotation
 
@@ -83,14 +83,3 @@ The number of text characters in the character string containing the decoded bar
 ### -field Text
 
 Placeholder for the character string containing the decoded barcode text (double byte characters, NULL terminated).
-
-
-### -field Xoffset
-
-The horizontal coordinate, in pixels (relative to the scanned image), where the top-left origin of the barcode was detected. This value can be 0 if it is unknown.
-
-
-### -field Yoffset
-
-The vertical coordinate, in pixels (relative to the scanned image), where the top-left origin of the barcode was detected. This value can be 0 if it is unknown.
-
