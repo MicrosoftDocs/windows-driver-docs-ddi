@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetElementGetType** given an existing ACXTARGETELEMENT object returns a Type in the form of a TBD.
+
 ## -parameters
 
 ### -param TargetElement
@@ -50,6 +52,8 @@ An existing ACXTARGETELEMENT Object. For more information about ACX objects, see
 
 ## -returns
 
+???
+
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
@@ -57,10 +61,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 ```cpp
-
-TBD
-
-
+        ACXTARGETELEMENT targetElement = AcxTargetCircuitGetTargetElement(TargetCircuit, elementIndex);
+        GUID elementType = AcxTargetElementGetType(targetElement);
 ```
 
 ## -see-also

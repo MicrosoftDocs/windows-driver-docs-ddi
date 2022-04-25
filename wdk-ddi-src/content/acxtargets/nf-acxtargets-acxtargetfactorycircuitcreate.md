@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetFactoryCircuitCreate
 tech.root: audio
 title: AcxTargetFactoryCircuitCreate
-ms.date:  11/11/2021
+ms.date: 04/25/2022
 targetos: Windows
-description: 
+description: The AcxTargetFactoryCircuitCreate given an existing WDFDEVICE object that is associated with the specified ACXCIRCUIT and associated configuration information returns a handle to a new ACXTARGETFACTORYCIRCUIT ACX object. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -41,6 +41,8 @@ dev_langs:
 ---
 
 ## -description
+
+The **AcxTargetFactoryCircuitCreate** given an existing WDFDEVICE object that is associated with the specified ACXCIRCUIT, and associated configuration information, returns a handle to a new ACXTARGETFACTORYCIRCUIT ACX object. 
 
 ## -parameters
 

@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetElementFormatRequestForProperty
 tech.root: audio
 title: AcxTargetElementFormatRequestForProperty
-ms.date:  11/11/2021
+ms.date: 04/25/2022
 targetos: Windows
-description: 
+description: The AcxTargetElementFormatRequestForProperty dispatches an ACX request using a WDFREQUEST framework request object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetElementFormatRequestForProperty** dispatches an ACX request using a WDFREQUEST framework request object.
+
 ## -parameters
 
 ### -param TargetElement
@@ -65,12 +67,21 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 ```cpp
+    WDFIOTARGET                 ioTarget;
+    WDF_OBJECT_ATTRIBUTES       attributes;
+    WDFREQUEST                  request = NULL;
 
-TBD
+        ioTarget = AcxTargetElementGetWdfIoTarget(elementCtx->TargetElements[i]->TargetElement);
 
+        WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+        attributes.ParentObject = elementCtx->TargetElements[i]->TargetElement;
 
+        status = AcxTargetElementFormatRequestForProperty(elementCtx->TargetElements[i]->TargetElement, request, &targetParams[i]);
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
+
+TBD - Please review this topic 
+ 
