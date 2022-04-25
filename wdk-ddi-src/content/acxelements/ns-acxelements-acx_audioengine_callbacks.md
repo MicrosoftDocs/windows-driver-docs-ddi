@@ -68,11 +68,7 @@ The [EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE](nc-acxelements-evt_acx_audioeng
 
 The [EVT_ACX_AUDIOENGINE_RETRIEVE_ENGINE_FORMAT](nc-acxelements-evt_acx_audioengine_retrieve_engine_format.md) callback.
 
-TBD TBD TBD - was this call back structure changed from MixFormat?
-
 ### -field EvtAcxAudioEngineAssignEngineDeviceFormat
-
-TBD TBD TBD - was this call back structure changed from DeviceFormat?
 
 The [EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT](nc-acxelements-evt_acx_audioengine_assign_engine_format.md) callback.
 
@@ -102,4 +98,5 @@ Example usage is shown below.
 
 - [acxelements.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
+

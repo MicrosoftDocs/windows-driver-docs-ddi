@@ -78,11 +78,6 @@ Example usage is shown below.
     ACX_AUDIOMODULE_CALLBACKS       audioModuleCallbacks;
     ACX_AUDIOMODULE_CONFIG          audioModuleCfg;
     ACXAUDIOMODULE                  audioModuleElement;
-    PCODEC_AUDIOMODULE0_CONTEXT     audioModule0Ctx;
-    PCODEC_AUDIOMODULE1_CONTEXT     audioModule1Ctx;
-    PCODEC_AUDIOMODULE2_CONTEXT     audioModule2Ctx;
-    ACX_PNPEVENT_CONFIG             audioModuleEventCfg;
-    ACXPNPEVENT                     audioModuleEvent;
 
     // Now add audio modules to the circuit
     // module 0
@@ -113,4 +108,5 @@ Example usage is shown below.
 
 - [acxelements.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
+

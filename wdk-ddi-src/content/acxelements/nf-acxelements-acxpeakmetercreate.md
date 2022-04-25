@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxPeakMeterCreate
 ms.date: 10/21/2021
 targetos: Windows
-description: TBD - The AcxPeakMeterCreate function is used to create an ACX peak meter object that that will be associated with a circuit object parent. 
+description: The AcxPeakMeterCreate function is used to create an ACX peakmeter object that that will be associated with a circuit object parent. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxPeakMeterCreate function is used to create an ACX peak meter object that that will be associated with a circuit object parent.
+The AcxPeakMeterCreate function is used to create an ACX peakmeter object that that will be associated with a circuit object parent. 
 
 ## -parameters
 
 ### -param Object
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit.
+A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit.
 
 ### -param Attributes
 
@@ -56,7 +56,7 @@ Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/
 
 ### -param Config
 
-An initialized [ACX_PEAKMETER_CONFIG structure](ns-acxelements-acx_peakmeter_config.md) that describes the configuration of the audio level peak meter.
+An initialized [ACX_PEAKMETER_CONFIG structure](ns-acxelements-acx_peakmeter_config.md) that describes the configuration of the audio level peakmeter.
 
 ### -param PeakMeter
 
@@ -100,4 +100,5 @@ Example usage is shown below.
 
 - [acxelements.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
+

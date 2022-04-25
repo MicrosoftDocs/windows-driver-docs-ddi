@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_MUTE_CONFIG_INIT
 ms.date: 09/20/2021
 targetos: Windows
-description: TBD - The ACX_MUTE_CONFIG_INIT function initializes an ACX_MUTE_CONFIG structure.
+description: The ACX_MUTE_CONFIG_INIT function initializes an ACX_MUTE_CONFIG structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,14 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - The ACX_MUTE_CONFIG_INIT function initializes an [ACX_MUTE_CONFIG](ns-acxelements-acx_mute_config.md) structure.
+The ACX_MUTE_CONFIG_INIT function initializes an [ACX_MUTE_CONFIG](ns-acxelements-acx_mute_config.md) structure.
 
 ## -parameters
 
 ### -param cfg
 
 An [ACX_MUTE_CONFIG](ns-acxelements-acx_mute_config.md) structure.
-
 
 ## -remarks
 
@@ -72,4 +71,4 @@ Example usage is shown below.
 
 - [acxelements.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

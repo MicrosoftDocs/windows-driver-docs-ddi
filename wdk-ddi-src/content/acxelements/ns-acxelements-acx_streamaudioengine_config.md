@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_STREAMAUDIOENGINE_CONFIG structure is used to define the audio engine stream configuration. 
+The ACX_STREAMAUDIOENGINE_CONFIG structure is used to define the stream audio engine configuration. 
 
 ## -struct-fields
 
@@ -62,21 +62,21 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 ### -field Flags
 
-Audio engine configuration flags defined by the [ACX_STREAMAUDIOENGINE_CONFIG_FLAGS enum](ne-acxelements-acx_streamaudioengine_config_flags.md). 
+Acx peakmeter configuration flags defined by the [ACX_STREAMAUDIOENGINE_CONFIG_FLAGS enum](ne-acxelements-acx_streamaudioengine_config_flags.md). 
 
 No flag bits are currently defined. Set this member to zero - AcxStreamAudioEngineConfigNoFlags. 
 
 ### -field VolumeElement
 
-An existing ACXVOLUME object that is used for volume operations by the audio engine.
+An existing ACXVOLUME object that is used for volume operations by the stream audio engine.
 
 ### -field MuteElement
 
-An existing ACXMUTE object that is used for mute operations by the audio engine.
+An existing ACXMUTE object that is used for mute operations by the stream audio engine.
 
 ### -field PeakMeterElement
 
-An existing ACXPEAKMETER object that is used for peakmeter operations by the audio engine.
+An existing ACXPEAKMETER object that is used for peakmeter operations by the stream audio engine.
 
 ### -field Callbacks
 
@@ -101,4 +101,5 @@ Example usage is shown below.
 
 - [acxelements.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
+
