@@ -4,7 +4,7 @@ title: WppRecorderLogCreate macro (wpprecorder.h)
 description: Learn how the WppRecorderLogCreate method creates a buffer to contain the recorder log.
 old-location: devtest\wpprecorderlogcreate.htm
 tech.root: devtest
-ms.date: 03/11/2022
+ms.date: 04/19/2022
 keywords: ["WppRecorderLogCreate macro"]
 ms.keywords: WppRecorderLogCreate, devtest.wpprecorderlogcreate, imp_WppRecorderLogCreate, imp_WppRecorderLogCreate function [Driver Development Tools], wpprecorder/imp_WppRecorderLogCreate
 req.header: wpprecorder.h
@@ -50,6 +50,7 @@ The **WppRecorderLogCreate** method creates a buffer to contain the recorder log
 ## -syntax
 
 ```cpp
+__drv_maxIRQL(DISPATCH_LEVEL)
 NTSTATUS WppRecorderLogCreate(
     [In]        PRECORDER_LOG_CREATE_PARAMS CreateParams,
     [Out]       RECORDER_LOG *              RecorderLog
@@ -58,28 +59,18 @@ NTSTATUS WppRecorderLogCreate(
 
 ## -parameters
 
-### -param CreateParams
+### -param CreateParams [in]
 
 A pointer to a [**RECORDER_LOG_CREATE_PARAMS**](./ns-wpprecorder-_recorder_log_create_params.md) structure.
 
-### -param RecorderLog
+### -param RecorderLog [out]
 
 A handle for the recorder log.
 
-## -returns
-
-Returns NTSTATUS that indicates if the driver can use the *RecorderLog* handle for logging.
-
-## -syntax
-
-```cpp
-NTSTATUS WppRecorderLogCreate(
-   CreateParams,
-   RecorderLog
-);
-```
 
 ## -remarks
+
+Returns NTSTATUS that indicates if the driver can use the *RecorderLog* handle for logging.
 
 Before calling **WppRecorderLogCreate**, allocate a [**RECORDER_LOG_CREATE_PARAMS**](./ns-wpprecorder-_recorder_log_create_params.md) structure and initialize by calling [RECORDER_LOG_CREATE_PARAMS_INIT](./nf-wpprecorder-recorder_log_create_params_init.md).
 
