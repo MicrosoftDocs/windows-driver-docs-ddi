@@ -49,7 +49,7 @@ The AcxCircuitAddPins function adds pins to an existing ACX circuit.
 ### -param Circuit
 
  An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
- 
+
 ### -param Pins
 
 An existing ACXPIN object that will be added to the circuit.
@@ -98,5 +98,6 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+TBD - Please review this topic

@@ -80,6 +80,8 @@ A pointer to an [EVT_ACX_PIN_DISCONNECTED](nc-acxpin-evt_acx_pin_disconnected.md
 
 ## -see-also
 
+- [acxpin.h header](index.md)
+
 READY2GO
 
 EDITCOMPLETE

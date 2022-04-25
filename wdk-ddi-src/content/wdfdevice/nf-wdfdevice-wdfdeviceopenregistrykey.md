@@ -62,7 +62,12 @@ A handle to a framework device object.
 ### -param DeviceInstanceKeyType [in]
 
 
-Specifies which key or subkey to open.  This is a bitwise OR of the following flags (which are defined in <i>Wdm.h</i>).
+Specifies which key or subkey to open.
+
+> [!NOTE]
+> UMDF does not support creating subkeys.
+
+This is a bitwise OR of the following flags (which are defined in <i>Wdm.h</i>).
 
 <table>
 <tr>

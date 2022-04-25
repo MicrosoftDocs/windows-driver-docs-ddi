@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddI2 function adds a int two byte I2 (SHORT) value to an existing, intialized AcxObjectBag. 
+The AcxObjectBagAddI2 function adds a int two byte I2 (SHORT) value to an existing, intialized AcxObjectBag.
 
 ## -parameters
 
@@ -102,5 +102,6 @@ This example shows the use of AcxObjectBagAddI2.
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+TBD - Please review this topic

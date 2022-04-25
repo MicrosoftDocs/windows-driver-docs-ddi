@@ -64,5 +64,6 @@ Instances of the **ACX_DATAFORMAT_LIST_CONFIG** structure must be initialized by
 
 - [ACX_DATAFORMAT_LIST_CONFIG_INIT](nf-acxdataformat-acx_dataformat_list_config_init.md)
 - [ACX_DATAFORMAT_LIST_CONFIG_FLAGS](ne-acxdataformat-acx_dataformat_list_config_flags.md)
-
+- [acxdataformat.h header](index.md)
+ 
 TBD - Please review this topic

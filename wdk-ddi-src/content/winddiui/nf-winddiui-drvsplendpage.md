@@ -1,10 +1,9 @@
 ---
 UID: NF:winddiui.DrvSplEndPage
 title: DrvSplEndPage function (winddiui.h)
-description: "Learn more about: DrvSplEndPage function"
-old-location: print\drvsplendpage.htm
+description: This topic describes the DrvSplEndPage function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 04/19/2022
 keywords: ["DrvSplEndPage function"]
 ms.keywords: DrvSplEndPage, DrvSplEndPage function [Print Devices], print.drvsplendpage, print_interface-graphics_e5fbdcf3-d462-4ae9-8187-546a87189e19.xml, winddiui/DrvSplEndPage
 req.header: winddiui.h
@@ -40,12 +39,16 @@ api_name:
  - DrvSplEndPage
 ---
 
-# DrvSplEndPage function
-
-
 ## -description
+
+This topic describes the **DrvSplEndPage** function.
 
 ## -parameters
 
 ### -param hDriver
 
+Defines the **HANDLE** parameter *hDriver*.
+
+## -returns
+
+BOOL

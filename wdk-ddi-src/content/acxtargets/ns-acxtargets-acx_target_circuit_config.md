@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_TARGET_CIRCUIT_CONFIG structure is used to define the target circuit configuration. 
+The **ACX_TARGET_CIRCUIT_CONFIG** structure is used to define the target circuit configuration. 
 
 ## -struct-fields
 
@@ -68,4 +68,4 @@ TBD - A string that represents the link name that was created by - TBD
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)

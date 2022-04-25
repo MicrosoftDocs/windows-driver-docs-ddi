@@ -79,6 +79,6 @@ This example shows the use of AcxObjectBagAddBlob.
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
 READY2GO

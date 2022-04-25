@@ -73,7 +73,7 @@ This sample shows the use of AcxEventGenerateEvent.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxevents.h header](index.md)
 
-
+TBD - Please review this topic
 

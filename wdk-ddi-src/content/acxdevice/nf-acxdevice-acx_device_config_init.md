@@ -63,6 +63,7 @@ ACX_DEVICE_CONFIG_INIT(&devCfg);
 
 * [ACX_DEVICE_CONFIG](ns-acxdevice-acx_device_config.md)
 * [AcxDeviceInitialize](nf-acxdevice-acxdeviceinitialize.md)
+* [acxdevice.h header](index.md)
 
 READY2GO
 

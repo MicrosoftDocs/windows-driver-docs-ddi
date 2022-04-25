@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The ACX_TARGET_FACTORY_CIRCUIT_CONFIG_INIT function initializes an ACX target factory circuit config structure.
+The **ACX_TARGET_FACTORY_CIRCUIT_CONFIG_INIT** function initializes an ACX target factory circuit config structure.
 
 ## -parameters
 
@@ -64,4 +64,6 @@ A pointer to the [ACX_TARGET_FACTORY_CIRCUIT_CONFIG](ns-acxtargets-acx_target_fa
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic

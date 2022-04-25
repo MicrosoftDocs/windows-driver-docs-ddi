@@ -74,5 +74,6 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
 - [ACX_CIRCUIT_TEMPLATE_CONFIG](ns-acxmanager-acx_circuit_template_config.md)
 - [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)
+- [acxmanager.h header](index.md)
 
 TBD - Please review this topic

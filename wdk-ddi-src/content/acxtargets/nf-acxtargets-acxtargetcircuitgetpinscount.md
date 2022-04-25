@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetCircuitGetPinsCount
 tech.root: audio
 title: AcxTargetCircuitGetPinsCount
-ms.date:  11/11/2021
+ms.date: 04/22/2022
 targetos: Windows
-description: 
+description: The AcxTargetCircuitGetPinsCount function given an ACXTARGETCIRCUIT object, returns a pins count.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetCircuitGetPinsCount** function given an ACXTARGETCIRCUIT object, returns a pins count.
+
 ## -parameters
 
 ### -param TargetCircuit
@@ -59,12 +61,13 @@ Framework request objects represent I/O requests that the I/O manager has sent t
 ### Example
 
 ```cpp
+    ULONG                       pinCount;
 
-TBD
-
-
+    pinCount = AcxTargetCircuitGetPinsCount(audioCircuit->AcxTargetCircuit);
 ```
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic

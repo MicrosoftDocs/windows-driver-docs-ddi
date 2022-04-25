@@ -76,5 +76,6 @@ Call the [ACX_MICARRAYGEOMETRY_CONFIG_INIT](nf-acxpin-acx_micarraygeometry_confi
 - [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
 - [ACX_MICARRAYGEOMETRY_CONFIG](ns-acxpin-acx_micarraygeometry_config.md)
 - [ACX_MICARRAYGEOMETRY_CONFIG_INIT](nf-acxpin-acx_micarraygeometry_config_init.md)
+- [acxpin.h header](index.md)
 
 TBD - Please review this topic

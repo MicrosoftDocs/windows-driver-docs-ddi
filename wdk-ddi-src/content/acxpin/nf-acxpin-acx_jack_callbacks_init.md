@@ -55,5 +55,6 @@ A pointer to the [ACX_JACK_CALLBACKS](ns-acxpin-acx_jack_callbacks.md) structure
 ## -see-also
 
 - [ACX_JACK_CALLBACKS](ns-acxpin-acx_jack_callbacks.md)
-
+- [acxpin.h header](index.md)
+ 
 TBD - Please review this topic

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxTargetCircuitGetTargetElement function, given a valid element index value, will return an ACXTARGETELEMENT ACX Object that is associated with the specified circuit.
+The **AcxTargetCircuitGetTargetElement** function, given a valid element index value, will return an ACXTARGETELEMENT ACX Object that is associated with the specified circuit.
 
 ## -parameters
 
@@ -84,4 +84,6 @@ Framework request objects represent I/O requests that the I/O manager has sent t
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic

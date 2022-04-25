@@ -77,5 +77,6 @@ The MRA horizontal angle of the microphone.
 ## -see-also
 
 - [ACX_MICROPHONE_TYPE](ne-acxpin-acx_microphone_type.md)
+- [acxpin.h header](index.md)
 
 TBD - Please review this topic

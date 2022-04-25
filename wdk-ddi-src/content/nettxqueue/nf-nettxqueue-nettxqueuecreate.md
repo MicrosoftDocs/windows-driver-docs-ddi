@@ -3,7 +3,7 @@ UID: NF:nettxqueue.NetTxQueueCreate
 title: NetTxQueueCreate function (nettxqueue.h)
 description: Creates a net transmit queue object.
 tech.root: netvista
-ms.date: 11/12/2018
+ms.date: 04/01/2022
 keywords: ["NetTxQueueCreate function"]
 ms.keywords: NetTxQueueCreate
 req.header: nettxqueue.h
@@ -48,19 +48,19 @@ Creates a net transmit queue object.
 
 ## -parameters
 
-### -param NetTxQueueInit
+### -param NetTxQueueInit [_Inout_]
 
 A pointer to the **NETTXQUEUE_INIT** structure that the client driver received in *[EVT_NET_ADAPTER_CREATE_TXQUEUE](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)*.
 
-### -param TxQueueAttributes
+### -param TxQueueAttributes [_In_opt_]
 
 A pointer to an initialized, caller-allocated [**WDF_OBJECT_ATTRIBUTES**](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure. This parameter is optional and can be **WDF_NO_OBJECT_ATTRIBUTES**. However, if the client driver supplies this parameter, the **ParentObject** field must be **NULL**.
 
-### -param Configuration
+### -param Configuration [_In_]
 
 A pointer to a caller-allocated [**NET_PACKET_QUEUE_CONFIG**](../netpacketqueue/ns-netpacketqueue-_net_packet_queue_config.md) structure.
 
-### -param PacketQueue
+### -param PacketQueue [_Out_]
 
 A pointer to a location that receives a handle to the new net transmit queue object.
 

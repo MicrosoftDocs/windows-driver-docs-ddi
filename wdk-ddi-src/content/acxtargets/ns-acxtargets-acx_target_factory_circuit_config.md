@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_TARGET_FACTORY_CIRCUIT_CONFIG structure is used to define the target factory circuit configuration. 
+The **ACX_TARGET_FACTORY_CIRCUIT_CONFIG** structure is used to define the target factory circuit configuration. 
 
 ## -struct-fields
 
@@ -79,4 +79,4 @@ TBD - A string that represents the link name that was created by the TBD.
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)

@@ -60,7 +60,7 @@ As the ACX_STREAMAUDIOENGINE_CONFIG_INIT_ID provides the same functionality as [
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
 READY2GO
 

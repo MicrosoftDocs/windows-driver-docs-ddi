@@ -55,5 +55,6 @@ A pointer to the **ACX_MICROPHONE_CONFIG** structure to initialize.
 ## -see-also
 
 - [ACX_MICROPHONE_CONFIG](ns-acxpin-acx_microphone_config.md)
+- [acxpin.h header](index.md)
 
 TBD - Please review this topic

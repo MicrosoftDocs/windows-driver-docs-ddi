@@ -3,7 +3,7 @@ UID: NE:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE
 title: _NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE (netreceivescaling.h)
 description: The NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE enumeration specifies the type of receive side scaling (RSS) hash function that a NIC should use to compute the hash values for incoming packets.
 tech.root: netvista
-ms.date: 03/06/2018
+ms.date: 04/01/2022
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE enumeration"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE, NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE,
 req.header: netreceivescaling.h
@@ -42,11 +42,11 @@ The **NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE** enumeration specifies the type of 
 
 ## -enum-fields
 
-### -field NetAdapterReceiveScalingHashTypeNone : 
+### -field NetAdapterReceiveScalingHashTypeNone:0x00000000 
 
 Unused for RSS-capable NIC client drivers.
 
-### -field NetAdapterReceiveScalingHashTypeToeplitz : 
+### -field NetAdapterReceiveScalingHashTypeToeplitz:0x00000001 
 
 Indicates support for the Toeplitz hashing function.
 

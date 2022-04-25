@@ -53,10 +53,9 @@ For internal validation, do not use.
 
 There are no flags currently defined for this type.
 
-
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
 READY2GO
 

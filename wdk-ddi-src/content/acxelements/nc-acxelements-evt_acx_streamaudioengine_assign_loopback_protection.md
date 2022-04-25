@@ -97,7 +97,7 @@ CodecR_EvtAcxStreamAudioEngineAssignLoopbackProtection(
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
 READY2GO
 

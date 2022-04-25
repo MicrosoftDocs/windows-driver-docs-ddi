@@ -65,5 +65,6 @@ An [ACX_MIC_ARRAY_GEOMETRY](ns-acxpin-acx_mic_array_geometry.md) structure that 
 ## -see-also
 
 - [ACX_MIC_ARRAY_GEOMETRY](ns-acxpin-acx_mic_array_geometry.md)
+- [acxpin.h header](index.md)
 
 TBD - Please review this topic

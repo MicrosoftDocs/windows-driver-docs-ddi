@@ -44,9 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_STREAM_CALLBACKS structure identifies the driver callbacks for streaming to the ACX framework. This structure is a part of the [ACX_PIN_CONFIG structure](/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_pin_config.md). 
-
-
+The ACX_STREAM_CALLBACKS structure identifies the driver callbacks for streaming to the ACX framework. This structure is a part of the [ACX_PIN_CONFIG structure](/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_pin_config.md).
 
 ## -struct-fields
 
@@ -97,5 +95,6 @@ PFN_ACX_STREAM_FREE_RTPACKETS  EvtAcxStreamFreeRtPackets;
 
 ## -see-also
 
-[acxstreams.h header](index.md)
+- [acxstreams.h header](index.md)
 
+TBD - Please review this topic

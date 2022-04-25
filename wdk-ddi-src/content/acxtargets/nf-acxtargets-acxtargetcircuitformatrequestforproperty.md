@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetCircuitFormatRequestForProperty
 ms.date:  11/11/2021
 targetos: Windows
-description: The AcxTargetCircuitFormatRequestForMethod formats an ACX request using a WDFREQUEST framework request object.
+description: The AcxTargetCircuitFormatRequestForProperty formats an ACX request using a WDFREQUEST framework request object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetCircuitFormatRequestForMethod** formats an ACX request using a WDFREQUEST framework request object.
+The **AcxTargetCircuitFormatRequestForProperty** formats an ACX request using a WDFREQUEST framework request object.
 
 ## -parameters
 
@@ -94,4 +94,6 @@ Framework request objects represent I/O requests that the I/O manager has sent t
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic

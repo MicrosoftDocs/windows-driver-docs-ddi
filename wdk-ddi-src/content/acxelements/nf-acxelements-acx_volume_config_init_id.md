@@ -60,7 +60,7 @@ As the ACX_VOLUME_CONFIG_INIT_ID provides the same functionality as [ACX_VOLUME_
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
 READY2GO
 

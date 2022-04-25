@@ -4,7 +4,7 @@ tech.root: audio
 title: acxdataformat
 ms.date: 01/31/2022
 targetos: Windows
-description: The acxdataformats header is used by the ACX audio class extensions.
+description: The acxdataformat header is used by the ACX audio class extensions.
 prerelease: true
 req.assembly: 
 req.construct-type: apiset
@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-The acxdataformats header is used by the ACX audio class extensions. 
+The acxdataformat header is used by the ACX audio class extensions.
 
 For more information, see the following topics.
 

@@ -2,9 +2,8 @@
 UID: NF:wiautil.wiauDbgErrorHr
 title: wiauDbgErrorHr function (wiautil.h)
 description: The wiauDbgErrorHr function logs a message containing an HRESULT and its error message string.
-old-location: image\wiaudbgerrorhr.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 04/20/2022
 keywords: ["wiauDbgErrorHr function"]
 ms.keywords: image.wiaudbgerrorhr, wiauDbgErrorHr, wiauDbgErrorHr function [Imaging Devices], wiauFncs_1400188e-53d1-481c-a470-8a2247b7f34f.xml, wiautil/wiauDbgErrorHr
 req.header: wiautil.h
@@ -40,9 +39,6 @@ api_name:
  - wiauDbgErrorHr
 ---
 
-# wiauDbgErrorHr function
-
-
 ## -description
 
 The **wiauDbgErrorHr** function logs a message containing an HRESULT and its error message string.
@@ -63,7 +59,7 @@ Pointer to a format string that specifies a variable argument list, which starts
 
 ### -param ...
 
-### -param fmt, ...
+Additional parameters.
 
 ## -remarks
 
@@ -82,4 +78,3 @@ wiauDbgErrorHr(hr, "AllocateBuffer", "Buffer size is %d bytes", size);
 [wiauDbgTrace](./nf-wiautil-wiaudbgtrace.md)
 
 [wiauDbgWarning](./nf-wiautil-wiaudbgwarning.md)
-

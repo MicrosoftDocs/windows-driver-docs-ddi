@@ -51,6 +51,5 @@ For more information, see:
  
 - [Audio](../_audio/index.md)
 
-acxelements.h contains the following programming interfaces:
-
+acxmanager.h contains the following programming interfaces:
 

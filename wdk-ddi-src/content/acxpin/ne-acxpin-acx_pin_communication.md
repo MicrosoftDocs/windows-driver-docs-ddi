@@ -66,6 +66,7 @@ For internal validation, do not use.
 
 - [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)
 - [ACX_PIN_CONFIG_INIT](nf-acxpin-acx_pin_config_init.md)
+- [acxpin.h header](index.md)
 
 READY2GO
 

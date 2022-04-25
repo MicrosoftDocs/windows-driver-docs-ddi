@@ -58,10 +58,9 @@ Set only to AcxElementIdDefault that is defined in the AcxElements header.
 
 As the ACX_PEAKMETER_CONFIG_INIT_ID provides the same functionality as [ACX_PEAKMETER_CONFIG_INIT](nf-acxelements-acx_peakmeter_config_init.md), the use of ACX_PEAKMETER_CONFIG_INIT is recommended.
 
-
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
 READY2GO
 

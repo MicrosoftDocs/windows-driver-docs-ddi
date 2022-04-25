@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetElementFormatRequestForMethod
 tech.root: audio
 title: AcxTargetElementFormatRequestForMethod
-ms.date: 02/03/2022
+ms.date: 04/22/2022
 targetos: Windows
-description: 
+description: The AcxTargetElementFormatRequestForMethod dispatches an ACX request using a WDFREQUEST framework request object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,14 +42,13 @@ dev_langs:
 
 ## -description
 
-
-The **AcxTargetCircuitFormatRequestForMethod** dispatches an ACX request using a WDFREQUEST framework request object.
+The **AcxTargetElementFormatRequestForMethod** dispatches an ACX request using a WDFREQUEST framework request object.
 
 ## -parameters
 
 ### -param TargetElement
 
-TBD
+An existing ACXTARGETELEMENT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Request
 
@@ -69,9 +68,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 This sample code shows the use of the AcxTargetElementFormatRequestForMethod.
 
-
 TBD - Does this sample code look OK?
-
 
 ```cpp
 
@@ -99,9 +96,10 @@ TBD - Does this sample code look OK?
         // Format a WDF request for the target.
         //
         status = AcxTargetElementFormatRequestForMethod(targetElement, req, &params);
-
 ```
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic

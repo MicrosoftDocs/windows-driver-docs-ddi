@@ -73,5 +73,6 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [WDFDEVICE](../wdfdevice/index.md)
 - [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
 - [ACX_DATAFORMAT_LIST_CONFIG](ns-acxdataformat-acx_dataformat_list_config.md)
-
+- [acxdataformat.h header](index.md)
+ 
 TBD - Please review this topic

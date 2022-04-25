@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitCreate function is used to create a circuit that will be associated with a WDFDEVICE parent. 
+The AcxCircuitCreate function is used to create a circuit that will be associated with a WDFDEVICE parent.
 
 ## -parameters
 
@@ -108,5 +108,6 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+TBD - Please review this topic

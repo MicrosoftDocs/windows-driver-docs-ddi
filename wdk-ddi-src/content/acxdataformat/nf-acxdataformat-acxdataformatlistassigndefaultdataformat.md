@@ -65,5 +65,6 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [ACXDATAFORMAT](index.md) object
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [AcxDataFormatListRetrieveDefaultDataFormat](nf-acxdataformat-acxdataformatlistretrievedefaultdataformat.md)
+- [acxdataformat.h header](index.md)
 
 TBD - Please review this topic

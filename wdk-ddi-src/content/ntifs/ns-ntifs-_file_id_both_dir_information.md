@@ -105,7 +105,7 @@ File attributes, which can be any valid combination of the following:
 
 ### -field FileNameLength
 
-Specifies the length of the file name string.
+Specifies the length, in bytes, of the file name string.
 
 ### -field EaSize
 

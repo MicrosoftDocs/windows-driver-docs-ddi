@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxTargetCircuitGetWdfIoTarget function will return an WDFIOTARGET  object that is associated with the specified circuit. 
+The **AcxTargetCircuitGetWdfIoTarget** function will return an WDFIOTARGET  object that is associated with the specified circuit. 
 
 ## -parameters
 
@@ -84,4 +84,6 @@ This example code shows the use of AcxTargetCircuitGetWdfIoTarget.
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic

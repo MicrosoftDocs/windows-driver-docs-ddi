@@ -3,7 +3,7 @@ UID: NE:netpoweroffload._NET_POWER_OFFLOAD_TYPE
 title: NET_POWER_OFFLOAD_TYPE (netpoweroffload.h)
 description: The NET_POWER_OFFLOAD_TYPE enumeration specifies the type for a low power offload protocol offload to a net adapter.
 tech.root: netvista
-ms.date: 09/30/2019
+ms.date: 04/01/2022
 keywords: ["NET_POWER_OFFLOAD_TYPE enumeration"]
 ms.keywords: NET_POWER_OFFLOAD_TYPE, NET_POWER_OFFLOAD_TYPE,
 req.header: netpoweroffload.h
@@ -45,11 +45,11 @@ The **NET_POWER_OFFLOAD_TYPE** enumeration specifies the type for a low power of
 
 ## -enum-fields
 
-### -field NetPowerOffloadTypeArp 
+### -field NetPowerOffloadTypeArp:1 
 
 The power offload is the IPv4 ARP protocol.
 
-### -field NetPowerOffloadTypeNS 
+### -field NetPowerOffloadTypeNS:2 
 
 The power offload is the IPv6 Neighbor Solicitation (NS) protocol.
 

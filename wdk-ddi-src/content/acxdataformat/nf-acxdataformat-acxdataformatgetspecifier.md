@@ -62,5 +62,6 @@ Specifies additional data format type information for a specific setting of Majo
 
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [Audio Data Formats](/windows-hardware/drivers/audio/audio-data-formats)
-
+- [acxdataformat.h header](index.md)
+ 
 TBD - Please review this topic

@@ -91,6 +91,7 @@ latency = AcxDeviceGetCurrentDxExitLatency(Device, powerAction, TargetState);
 * [ACX_DX_EXIT_LATENCY](ne-acxdevice-acx_dx_exit_latency.md)
 * [System Power Actions](/windows-hardware/drivers/kernel/system-power-actions)
 * [Power states](/windows-hardware/drivers/nfc/power-states)
+* [acxdevice.h header](index.md)
 
 READY2GO
 

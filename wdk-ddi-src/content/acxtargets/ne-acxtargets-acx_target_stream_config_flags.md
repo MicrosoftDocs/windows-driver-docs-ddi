@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_TARGET_STREAM_CONFIG_FLAGS enumeration defines the config flags for the ACX target stream.
+The **ACX_TARGET_STREAM_CONFIG_FLAGS** enumeration defines the config flags for the ACX target stream.
 
 ## -enum-fields
 
@@ -55,5 +55,6 @@ There are no flags currently defined for this type.
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
 
+TBD - Please review this topic

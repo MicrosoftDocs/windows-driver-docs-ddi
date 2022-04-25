@@ -61,5 +61,6 @@ Number of samples contained in one compressed block of audio data. This value is
 ## -see-also
 
 - [WAVEFORMATEXTENSIBLE structure](/previous-versions/windows/desktop/legacy/dd390971(v=vs.85))
-
+- [acxdataformat.h header](index.md)
+ 
 TBD - Please review this topic

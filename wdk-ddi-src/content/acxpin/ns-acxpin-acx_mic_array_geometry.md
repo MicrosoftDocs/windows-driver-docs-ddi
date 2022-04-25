@@ -94,5 +94,6 @@ For more information about how to process a microphone array in Windows, see the
 
 - [ACX_MIC_ARRAY_TYPE](ne-acxpin-acx_mic_array_type.md)
 - [Microphone array support in Windows](/previous-versions/windows/hardware/design/dn613960(v=vs.85))
+- [acxpin.h header](index.md)
 
 TBD - Please review this topic

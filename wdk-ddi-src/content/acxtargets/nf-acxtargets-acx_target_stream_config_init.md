@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The ACX_TARGET_STREAM_CONFIG_INIT function initializes an ACX target stream config structure.
+The **ACX_TARGET_STREAM_CONFIG_INIT** function initializes an ACX target stream config structure.
 
 ## -parameters
 
@@ -62,4 +62,6 @@ A pointer to the [ACX_TARGET_STREAM_CONFIG](ns-acxtargets-acx_target_stream_conf
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic

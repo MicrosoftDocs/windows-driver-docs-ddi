@@ -94,6 +94,7 @@ if (!NT_SUCCESS(status))
 * [AcxDeviceAddCircuitDevice](nf-acxdevice-acxdeviceaddcircuitdevice.md)
 * [AcxDeviceDetachCircuit](nf-acxdevice-acxdevicedetachcircuit.md)
 * [AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
+* [acxdevice.h header](index.md)
 
 READY2GO
 

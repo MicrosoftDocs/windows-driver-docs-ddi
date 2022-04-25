@@ -68,8 +68,9 @@ For internal validation, do not use.
 
 ## -see-also
 
-[ACX_JACK_GEO_LOCATION](ne-acxpin-acx_jack_geo_location.md)
-
+- [ACX_JACK_GEO_LOCATION](ne-acxpin-acx_jack_geo_location.md)
+- [acxpin.h header](index.md)
+ 
 READY2GO
 
 EDITCOMPLETE

@@ -54,7 +54,7 @@ An initialized [ACX_PNPEVENT_CONFIG structure](ns-acxevents-acx_pnpevent_config.
 
 ### Example
 
-The example shows the use of the ACX_PNPEVENT_CONFIG_INIT. 
+The example shows the use of the ACX_PNPEVENT_CONFIG_INIT.
 
 TBD - Anything else we should show here?
 
@@ -68,7 +68,6 @@ TBD - Anything else we should show here?
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxevents.h header](index.md)
 
-
-
+TBD - Please review this topic

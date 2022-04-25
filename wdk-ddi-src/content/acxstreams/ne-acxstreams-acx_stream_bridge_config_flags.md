@@ -85,7 +85,6 @@ This is a bitwise OR of all the flags allowed to be set. This is used internally
 
 You can specify a valid bitwise OR of the values on this page for the Flags member of the [ACX_STREAM_BRIDGE_CONFIG Structure](ns-acxstreams-acx_stream_bridge_config.md).
 
-
 ### Example
 
 Example usage is shown below.
@@ -106,7 +105,7 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxstreams.h header](index.md)
+- [acxstreams.h header](index.md)
 
 READY2GO
 

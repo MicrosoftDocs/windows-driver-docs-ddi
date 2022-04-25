@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxTargetCircuitCreate function is used to create a target circuit.
+The **AcxTargetCircuitCreate function** is used to create a target circuit.
 
 ## -parameters
 
@@ -83,4 +83,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic

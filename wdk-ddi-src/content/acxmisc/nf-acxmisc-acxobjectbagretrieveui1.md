@@ -102,5 +102,6 @@ This example shows the use of AcxObjectBagRetrieveUI1.
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+TBD - Please review this topic

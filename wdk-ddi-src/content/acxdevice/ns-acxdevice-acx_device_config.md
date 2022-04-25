@@ -69,6 +69,7 @@ Instances of this structure must be initialized by calling the [ACX_DEVICE_CONFI
 * [ACX_DEVICE_CONFIG_INIT](nf-acxdevice-acx_device_config_init.md)
 * [ACX_DEVICE_CONFIG_FLAGS](ne-acxdevice-acx_device_config_flags.md)
 * [AcxDeviceInitialize](nf-acxdevice-acxdeviceinitialize.md)
+* [acxdevice.h header](index.md)
 
 READY2GO
 

@@ -59,6 +59,7 @@ Returns the [ACXCIRCUIT](../acxcircuit/index.md) object representing the circuit
 ## -see-also
 
 - [ACXCIRCUIT](../acxcircuit/index.md)
+- [acxpin.h header](index.md)
 
 READY2GO
 
