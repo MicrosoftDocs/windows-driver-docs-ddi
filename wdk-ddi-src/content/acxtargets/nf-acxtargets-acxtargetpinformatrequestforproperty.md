@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetPinFormatRequestForProperty
 tech.root: audio
 title: AcxTargetPinFormatRequestForProperty
-ms.date:  11/11/2021
+ms.date: 04/25/2022
 targetos: Windows
-description: 
+description: AcxTargetPinFormatRequestForProperty, given an ACXTARGETPIN object, dispatches an ACX request using a WDFREQUEST framework request object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetPinFormatRequestForProperty** function, given an ACXTARGETPIN object, dispatches an ACX request using a WDFREQUEST framework request object.
+
 ## -parameters
 
 ### -param TargetPin
+
+A pointer to the location of an existing ACXTARGETPIN Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Request
 
@@ -62,11 +66,16 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
+TBD - Does this sample look OK?
+
 ```cpp
+...
+    _In_        WDFOBJECT               AcxTarget,
+    _Inout_     PACX_REQUEST_PARAMETERS PropertyParameters,
 
-TBD
+    WDFREQUEST request;
 
-
+      RETURN_NTSTATUS_IF_FAILED(AcxTargetPinFormatRequestForProperty((ACXTARGETPIN)AcxTarget, request, PropertyParameters));
 ```
 
 ## -see-also

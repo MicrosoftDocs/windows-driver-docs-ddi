@@ -42,11 +42,17 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetStreamGetTargetElement** function, given a valid element index value, will return an ACXTARGETELEMENT ACX object that is associated with the specified circuit.
+
 ## -parameters
 
 ### -param TargetStream
 
+A pointer to the location of an existing ACXTARGETSTREAM object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -param ElementIndex
+
+The numeric index value for the specified element.
 
 ## -returns
 
@@ -58,11 +64,10 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ```cpp
 
-TBD
-
-
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic

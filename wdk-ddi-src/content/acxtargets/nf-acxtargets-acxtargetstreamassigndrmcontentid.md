@@ -60,9 +60,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ```cpp
 
-TBD
-
-
 ```
 
 ## -see-also

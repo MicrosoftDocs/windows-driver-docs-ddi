@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxTargetElementGetId given an existing ACXTARGETELEMENT object returns an Id value.
+The **AcxTargetElementGetId** function given an existing ACXTARGETELEMENT object returns an Id value.
 
 ## -parameters
 
@@ -52,15 +52,31 @@ An existing ACXTARGETELEMENT Object. For more information about ACX objects, see
 
 ## -returns
 
+??? 
+
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
 ### Example
 
-TBD - Code pending
+TBD - Code pending - Does this sample look OK?
 
 ```cpp
+    ACXTARGETELEMENT            targetElement = nullptr;
+
+    targetElement = circuitCtx->TargetVolumeHandler;
+
+    ACX_REQUEST_PARAMETERS_INIT_PROPERTY(&targetParams,
+                                         propertySet,
+                                         propertyId,
+                                         params.Parameters.Property.Verb,
+                                         params.Parameters.Property.ItemType,
+                                         AcxTargetElementGetId(targetElement),
+                                         params.Parameters.Property.Control,
+                                         params.Parameters.Property.ControlCb,
+                                         params.Parameters.Property.Value,
+                                         params.Parameters.Property.ValueCb);
 
 ```
 

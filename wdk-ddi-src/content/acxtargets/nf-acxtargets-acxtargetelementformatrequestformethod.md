@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetElementFormatRequestForMethod** dispatches an ACX request using a WDFREQUEST framework request object.
+The **AcxTargetElementFormatRequestForMethod** function dispatches an ACX request using a WDFREQUEST framework request object.
 
 ## -parameters
 
@@ -67,8 +67,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 This sample code shows the use of the AcxTargetElementFormatRequestForMethod.
-
-TBD - Does this sample code look OK?
 
 ```cpp
 
