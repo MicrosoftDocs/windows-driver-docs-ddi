@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetPinGetId
 tech.root: audio
 title: AcxTargetPinGetId
-ms.date:  11/11/2021
+ms.date: 04/25/2022
 targetos: Windows
-description: 
+description: The **AcxTargetPinGetId** given an existing ACXTARGETPIN object returns an Id value.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetPinGetId** given an existing ACXTARGETPIN object returns an Id value.
+
 ## -parameters
 
 ### -param TargetPin
+
+A pointer to the location of an existing ACXTARGETPIN Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -53,13 +57,15 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
+TBD - Does this sample code look OK?
+
 ```cpp
-
-TBD
-
-
+     ACXTARGETPIN targetPin = AcxTargetCircuitGetTargetPin(TargetCircuit, pinIndex);
+     AcxTargetPinGetId(targetPin),
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic

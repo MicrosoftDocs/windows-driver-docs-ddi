@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxTargetElementGetId given an existing ACXTARGETELEMENT object returns an Id value.
+The **AcxTargetElementGetId** given an existing ACXTARGETELEMENT object returns an Id value.
 
 ## -parameters
 

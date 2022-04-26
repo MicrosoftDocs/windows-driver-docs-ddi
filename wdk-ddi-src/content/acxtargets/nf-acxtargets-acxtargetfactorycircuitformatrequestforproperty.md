@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetFactoryCircuitFormatRequestForProperty
 tech.root: audio
 title: AcxTargetFactoryCircuitFormatRequestForProperty
-ms.date:  11/11/2021
+ms.date: 04/25/2022
 targetos: Windows
-description: 
+description: AcxTargetFactoryCircuitFormatRequestForProperty given an ACXTARGETFACTORYCIRCUIT object, dispatches an ACX request using a WDFREQUEST framework request object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+**AcxTargetFactoryCircuitFormatRequestForProperty**, given an ACXTARGETFACTORYCIRCUIT object, dispatches an ACX request using a WDFREQUEST framework request object.
+
 ## -parameters
 
 ### -param TargetFactoryCircuit
+
+A pointer to a location of an existing ACXTARGETFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Request
 
@@ -62,6 +66,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
+TBD - Sample code pending.
+
 ```cpp
 
 TBD
@@ -72,3 +78,5 @@ TBD
 ## -see-also
 
 - [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic 

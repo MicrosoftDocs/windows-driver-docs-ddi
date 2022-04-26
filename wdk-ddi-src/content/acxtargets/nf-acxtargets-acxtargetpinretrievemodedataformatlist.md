@@ -46,7 +46,11 @@ dev_langs:
 
 ### -param TargetPin
 
+A pointer to the location of an existing ACXTARGETPIN Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -param SignalProcessingMode
+
+TBD - A GUID identifying the signal processing mode to which the specified data format list belong.
 
 ### -param DataFormatList
 

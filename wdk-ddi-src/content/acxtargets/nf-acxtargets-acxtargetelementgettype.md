@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetElementGetType** given an existing ACXTARGETELEMENT object returns a Type in the form of a TBD.
+The **AcxTargetElementGetType** given an existing ACXTARGETELEMENT object returns an element type in the form of a GUID.
 
 ## -parameters
 
@@ -52,6 +52,7 @@ An existing ACXTARGETELEMENT Object. For more information about ACX objects, see
 
 ## -returns
 
+An element type as a GUID, or 
 ???
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetElementGetWdfIoTarget
 ms.date: 04/25/2022
 targetos: Windows
-description: 
+description: The AcxTargetElementGetWdfIoTarget given an existing ACXTARGETELEMENT object, returns a WDFIOTARGET object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
