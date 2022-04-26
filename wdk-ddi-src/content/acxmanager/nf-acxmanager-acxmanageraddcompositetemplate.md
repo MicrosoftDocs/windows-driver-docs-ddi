@@ -60,8 +60,10 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 ## -remarks
 
+A composite template tells to ACX manager how to build a composite endpoint, i.e., an audio endpoint using two or more ACXCIRCUITs.
+
 ## -see-also
 
 - [acxmanager.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
