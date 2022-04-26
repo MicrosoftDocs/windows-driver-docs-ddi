@@ -2,9 +2,8 @@
 UID: NF:strmini.StreamClassGetNextEvent
 title: StreamClassGetNextEvent function (strmini.h)
 description: Minidrivers can use the StreamClassGetNextEvent routine to search the event queue of a device or of a particular stream.
-old-location: stream\streamclassgetnextevent.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/22/2022
 keywords: ["StreamClassGetNextEvent function"]
 ms.keywords: StreamClassGetNextEvent, StreamClassGetNextEvent routine [Streaming Media Devices], strclass-routines_5a606366-379b-400b-b039-8722f084e3c6.xml, stream.streamclassgetnextevent, strmini/StreamClassGetNextEvent
 req.header: strmini.h
@@ -41,48 +40,40 @@ api_name:
  - StreamClassGetNextEvent
 ---
 
-# StreamClassGetNextEvent function
-
-
 ## -description
 
-Minidrivers can use the <b>StreamClassGetNextEvent</b> routine to search the event queue of a device or of a particular stream.
+Minidrivers can use the **StreamClassGetNextEvent** routine to search the event queue of a device or of a particular stream.
 
 ## -parameters
 
-### -param HwInstanceExtension_OR_HwDeviceExtension
+### -param HwInstanceExtension_OR_HwDeviceExtension [in, optional]
+
+Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the [HW_INITIALIZATION_DATA](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data) structure it passes when it registers itself via [StreamClassRegisterMinidriver](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter). The class driver then passes pointers to the buffer in the **HwDeviceExtension** member of the [HW_STREAM_REQUEST_BLOCK](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block), [HW_STREAM_OBJECT](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object), [HW_TIME_CONTEXT](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context), and [PORT_CONFIGURATION_INFORMATION](/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information) structures it passes to the minidriver.
+
+This first parameter was PVOID HwDeviceExtension. It MUST be HwInstanceExtension for multi-instance and multi-filter types (version 20) drivers. Legacy single instance drivers can continue to specify HwDeviceExtension as the first parameter. It can also specify HwInstanceExtension.
 
 ### -param HwStreamObject [in, optional]
 
-
-Pointer to a <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a>. Set to <b>NULL</b> to search the event queue of the device itself. To search the event queue of a particular stream, set to the stream's stream object.
+Pointer to a [HW_STREAM_OBJECT](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object). Set to **NULL** to search the event queue of the device itself. To search the event queue of a particular stream, set to the stream's stream object.
 
 ### -param EventGuid [in, optional]
 
-
-Specifies the event set to match when walking the queue, or <b>NULL</b> to match any event set.
+Specifies the event set to match when walking the queue, or **NULL** to match any event set.
 
 ### -param EventItem [in]
-
 
 Specifies the event ID to match when walking the queue, or -1 to match any event.
 
 ### -param CurrentEvent [in, optional]
 
-
-Pointer to an event in the event queue, or <b>NULL</b>.
-
-
-### -param HwDeviceExtension [in, optional]
-
-Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter">StreamClassRegisterMinidriver</a>. The class driver then passes pointers to the buffer in the <b>HwDeviceExtension</b> member of the <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a>, <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a>, <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context">HW_TIME_CONTEXT</a>, and <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
+Pointer to an event in the event queue, or **NULL**.
 
 ## -returns
 
-If <i>CurrentEvent</i> is not <b>NULL</b>, <b>StreamClassGetNextEvent</b> returns the next matching event after <i>CurrentEvent</i> in the queue (or <b>NULL</b> if there is no such next event). If <i>CurrentEvent</i> is <b>NULL</b>, <b>StreamClassGetNextEvent</b> returns the first matching event in the queue.
+If *CurrentEvent* is not **NULL**, **StreamClassGetNextEvent** returns the next matching event after *CurrentEvent* in the queue (or **NULL** if there is no such next event). If *CurrentEvent* is **NULL**, **StreamClassGetNextEvent** returns the first matching event in the queue.
 
 ## -remarks
 
-The minidriver can call <b>StreamClassGetNextEvent</b> successively to loop through the event queue, examining one event at a time.
+The minidriver can call **StreamClassGetNextEvent** successively to loop through the event queue, examining one event at a time.
 
 The caller may specify additional search criteria to match events on the event queue.

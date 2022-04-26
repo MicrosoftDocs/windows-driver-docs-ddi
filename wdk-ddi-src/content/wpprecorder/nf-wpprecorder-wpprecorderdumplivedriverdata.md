@@ -4,7 +4,7 @@ title: WppRecorderDumpLiveDriverData macro (wpprecorder.h)
 description: Learn how the WppRecorderDumpLiveDriverData method gets the buffer associated with the specified Inflight Trace Recorder log.
 old-location: devtest\wpprecorderdumplivedriverdata.htm
 tech.root: devtest
-ms.date: 02/23/2018
+ms.date: 04/19/2022
 keywords: ["WppRecorderDumpLiveDriverData macro"]
 ms.keywords: WppRecorderDumpLiveDriverData, devtest.wpprecorderdumplivedriverdata, imp_WppRecorderDumpLiveDriverData, imp_WppRecorderDumpLiveDriverData function [Driver Development Tools], wpprecorder/imp_WppRecorderDumpLiveDriverData
 req.header: wpprecorder.h
@@ -47,17 +47,35 @@ api_name:
 
 The <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderdumplivedriverdata">WppRecorderDumpLiveDriverData</a> method gets the buffer associated with the specified Inflight Trace Recorder log.
 
+## -syntax
+
+```cpp
+__drv_maxIRQL(HIGH_LEVEL)
+NTSTATUS
+WppRecorderDumpLiveDriverData(
+    _Out_ __deref_ecount(*OutBufferLength)
+        PVOID              * OutBuffer,
+    _Out_
+        PULONG               OutBufferLength,
+    _Out_
+        LPGUID               Guid
+    );
+```
+
 ## -parameters
 
-### -param OutBuffer
+### -param OutBuffer [out]
 
 Pointer to the buffer that was allocated by WppRecorderLogCreate.
 
-### -param OutBufferLength
+### -param OutBufferLength [out]
 
 Pointer to a ULONG that contains the size of the output buffer pointed to by OutBuffer.
 
-### -param Guid
+### -param Guid [out]
 
 Pointer to the WPP controller GUID that identifies the driver data.
 
+## -remarks
+
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, one of appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> values

@@ -2,9 +2,8 @@
 UID: NF:strmini.StreamClassDeviceNotification
 title: StreamClassDeviceNotification function (strmini.h)
 description: Minidrivers use the StreamClassDeviceNotification routine to notify the class driver that it has completed a stream request, or that an event has occurred.
-old-location: stream\streamclassdevicenotification.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/22/2022
 keywords: ["StreamClassDeviceNotification function"]
 ms.keywords: StreamClassDeviceNotification, StreamClassDeviceNotification routine [Streaming Media Devices], strclass-routines_bddec484-f87c-4ebc-b8e1-ea52d265cbc4.xml, stream.streamclassdevicenotification, strmini/StreamClassDeviceNotification
 req.header: strmini.h
@@ -41,83 +40,46 @@ api_name:
  - StreamClassDeviceNotification
 ---
 
-# StreamClassDeviceNotification function
-
-
 ## -description
 
-Minidrivers use the <b>StreamClassDeviceNotification</b> routine to notify the class driver that it has completed a stream request, or that an event has occurred.
+Minidrivers use the **StreamClassDeviceNotification** routine to notify the class driver that it has completed a stream request, or that an event has occurred.
 
 ## -parameters
 
 ### -param NotificationType [in]
 
-
 This is an enumeration value that contains the type of notification that the minidriver is sending.
-
-
-
-
 
 #### DeviceRequestComplete
 
-Indicates that the minidriver has completed its handling of the device stream request block pointed to by the optional third argument of this routine, <i>pSrb</i>. Once the minidriver calls <b>StreamClassDeviceNotification</b> with this value, the relevant SRB is owned by the class driver, which is free to deallocate it.
-
-
+Indicates that the minidriver has completed its handling of the device stream request block. Once the minidriver calls **StreamClassDeviceNotification** with this value, the relevant SRB is owned by the class driver, which is free to deallocate it.
 
 #### ReadyForNextDeviceRequest
 
-Indicates that the minidriver is ready to receive another device request. 
-
-
+Indicates that the minidriver is ready to receive another device request.
 
 #### SignalDeviceEvent
 
-Signals that the event specified by the <i>EventEntry</i> parameter has occurred.
-
-
+Signals that the event specified by an optional parameter has occurred.
 
 #### SignalMultipleDeviceEvents
 
-Signals all events that match the criteria specified in the <i>EventSet</i> and <i>EventId</i> parameters.
-
-
+Signals all events that match the criteria specified in optional parameters.
 
 #### DeleteDeviceEvent
 
-Deletes the event specified by the <i>EventEntry</i> parameter.
+Deletes the event specified by an optional parameter.
 
 ### -param HwDeviceExtension [in]
 
-
-Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter">StreamClassRegisterMinidriver</a>. The class driver then passes pointers to the buffer in the <b>HwDeviceExtension</b> member of the <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a>, <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a>, <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context">HW_TIME_CONTEXT</a>, and <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
+Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the [HW_INITIALIZATION_DATA](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data) structure it passes when it registers itself via [StreamClassRegisterMinidriver](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter). The class driver then passes pointers to the buffer in the **HwDeviceExtension** member of the [HW_STREAM_REQUEST_BLOCK](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block), [HW_STREAM_OBJECT](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object), [HW_TIME_CONTEXT](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context), and [PORT_CONFIGURATION_INFORMATION](/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information) structures it passes to the minidriver.
 
 ### -param ...
 
-### -param EventEntry
-
-If <i>NotificationType</i> equals either SignalDeviceEvent or DeleteDeviceEvent, points to a structure of type <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a> that specifies the event to be signaled or deleted. 
-
-
-### -param EventId
-
-Specifies the event ID to match against in the device event queue if <i>NotificationType</i> equals <b>SignalMultipleDeviceEvents</b>.
-
-
-### -param EventSet
-
-Specifies the event set to match against in the device event queue if <i>NotificationType</i> equals <b>SignalMultipleDeviceEvents</b>. 
-
-
-### -param pSrb
-
-Pointer to an <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a> structure. If <i>NotificationType</i> equals <b>DeviceRequestComplete</b>, this parameter points to the stream request block that the minidriver has completed processing. After <b>StreamClassDeviceNotification</b> completes, this address is no longer valid.
-
 ## -remarks
 
-The minidriver uses this routine for requests or events that apply to the minidriver as a whole. Stream-specific requests or events use <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification">StreamClassStreamNotification</a>.
+The minidriver uses this routine for requests or events that apply to the minidriver as a whole. Stream-specific requests or events use [StreamClassStreamNotification](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification">StreamClassStreamNotification</a>
-
+[StreamClassStreamNotification](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification)
