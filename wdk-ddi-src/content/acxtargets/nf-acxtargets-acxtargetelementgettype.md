@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetElementGetType** given an existing ACXTARGETELEMENT object returns an element type in the form of a GUID.
+The **AcxTargetElementGetType** function given an existing ACXTARGETELEMENT object returns an element type in the form of a GUID.
 
 ## -parameters
 

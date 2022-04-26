@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetPinGetId
 tech.root: audio
 title: AcxTargetPinGetId
-ms.date: 04/25/2022
+ms.date: 04/26/2022
 targetos: Windows
-description: The **AcxTargetPinGetId** given an existing ACXTARGETPIN object returns an Id value.
+description: The AcxTargetPinGetId given an existing ACXTARGETPIN object returns an Id value.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetPinGetId** given an existing ACXTARGETPIN object returns an Id value.
+The **AcxTargetPinGetId** function given an existing ACXTARGETPIN object returns an Id value.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ TBD - Does this sample code look OK?
 
 ```cpp
      ACXTARGETPIN targetPin = AcxTargetCircuitGetTargetPin(TargetCircuit, pinIndex);
-     AcxTargetPinGetId(targetPin),
+     ULONG PinId = AcxTargetPinGetId(targetPin);
 ```
 
 ## -see-also

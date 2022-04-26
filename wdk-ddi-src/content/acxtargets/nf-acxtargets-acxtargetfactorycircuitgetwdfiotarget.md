@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetFactoryCircuitGetWdfIoTarget** given an existing ACXTARGETFACTORYCIRCUIT object, returns a WDFIOTARGET object. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).
+The **AcxTargetFactoryCircuitGetWdfIoTarget** function given an existing ACXTARGETFACTORYCIRCUIT object, returns a WDFIOTARGET object. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).
 
 ## -parameters
 

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-**AcxTargetPinFormatRequestForProperty**, given an ACXTARGETPIN object, dispatches an ACX request using a WDFREQUEST framework request object.
+The **AcxTargetPinFormatRequestForProperty** function, given an ACXTARGETPIN object, dispatches an ACX request using a WDFREQUEST framework request object.
 
 ## -parameters
 

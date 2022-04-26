@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-**AcxTargetFactoryCircuitFormatRequestForProperty**, given an ACXTARGETFACTORYCIRCUIT object, dispatches an ACX request using a WDFREQUEST framework request object.
+The **AcxTargetFactoryCircuitFormatRequestForProperty** function, given an ACXTARGETFACTORYCIRCUIT object, dispatches an ACX request using a WDFREQUEST framework request object.
 
 ## -parameters
 

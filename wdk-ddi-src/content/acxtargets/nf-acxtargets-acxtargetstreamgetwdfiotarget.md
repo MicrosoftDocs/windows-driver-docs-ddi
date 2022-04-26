@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetStreamGetWdfIoTarget
 tech.root: audio
 title: AcxTargetStreamGetWdfIoTarget
-ms.date:  11/11/2021
+ms.date: 04/26/2022
 targetos: Windows
-description: 
+description: The AcxTargetStreamGetWdfIoTarget function will return an WDFIOTARGET WDF object that is associated with the specified stream. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -40,11 +40,15 @@ dev_langs:
  - c++
 ---
 
-## -description
+## -descriptionThe 
+
+The **AcxTargetStreamGetWdfIoTarget** function will return an WDFIOTARGET WDF object that is associated with the specified stream. 
 
 ## -parameters
 
 ### -param TargetStream
+
+A pointer to a location of an existing ACXTARGETSTREAM Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 

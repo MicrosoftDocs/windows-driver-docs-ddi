@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetElementFormatRequestForProperty** dispatches an ACX request using a WDFREQUEST framework request object.
+The **AcxTargetElementFormatRequestForProperty** function dispatches an ACX request using a WDFREQUEST framework request object.
 
 ## -parameters
 
@@ -83,5 +83,5 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 - [acxtargets.h header](index.md)
 
-TBD - Please review this topic 
+ 
  

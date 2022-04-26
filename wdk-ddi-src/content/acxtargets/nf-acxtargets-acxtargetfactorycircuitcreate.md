@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetFactoryCircuitCreate** given an existing WDFDEVICE object that is associated with the specified ACXCIRCUIT, and associated configuration information, returns a handle to a new ACXTARGETFACTORYCIRCUIT ACX object. 
+The **AcxTargetFactoryCircuitCreate** function given an existing WDFDEVICE object that is associated with the specified ACXCIRCUIT, and associated configuration information, returns a handle to a new ACXTARGETFACTORYCIRCUIT ACX object. 
 
 ## -parameters
 

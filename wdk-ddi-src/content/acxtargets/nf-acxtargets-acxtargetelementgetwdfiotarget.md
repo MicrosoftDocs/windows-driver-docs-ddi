@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetElementGetWdfIoTarget** given an existing ACXTARGETELEMENT object, returns a WDFIOTARGET object. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).
+The **AcxTargetElementGetWdfIoTarget** function given an existing ACXTARGETELEMENT object, returns a WDFIOTARGET object. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).
 
 ## -parameters
 

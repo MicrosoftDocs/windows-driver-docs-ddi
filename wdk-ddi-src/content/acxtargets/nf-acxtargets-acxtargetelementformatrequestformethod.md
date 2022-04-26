@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetElementFormatRequestForMethod** dispatches an ACX request using a WDFREQUEST framework request object.
+The **AcxTargetElementFormatRequestForMethod** function dispatches an ACX request using a WDFREQUEST framework request object.
 
 ## -parameters
 

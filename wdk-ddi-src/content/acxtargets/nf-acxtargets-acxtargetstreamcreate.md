@@ -42,6 +42,8 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetCircuitCreate** function is used to create a target circuit.
+
 ## -parameters
 
 ### -param Device

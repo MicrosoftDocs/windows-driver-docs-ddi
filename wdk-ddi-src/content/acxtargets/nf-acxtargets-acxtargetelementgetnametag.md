@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetElementGetNameTag** given an existing ACXTARGETELEMENT object returns an NameTag in the form of a GUID.
+The **AcxTargetElementGetNameTag** function given an existing ACXTARGETELEMENT object returns an NameTag in the form of a GUID.
 
 ## -parameters
 
