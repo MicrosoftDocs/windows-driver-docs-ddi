@@ -68,8 +68,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 This sample code shows the use of the AcxTargetElementFormatRequestForMethod.
 
-TBD - Does this sample code look OK?
-
 ```cpp
 
     {

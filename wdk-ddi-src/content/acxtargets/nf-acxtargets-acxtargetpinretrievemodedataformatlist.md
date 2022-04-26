@@ -70,9 +70,6 @@ TBD - Sample pending
 
 ```cpp
 
-TBD
-
-
 ```
 
 ## -see-also

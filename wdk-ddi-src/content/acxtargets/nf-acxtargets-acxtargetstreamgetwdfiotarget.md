@@ -59,12 +59,18 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 ```cpp
-
-TBD
-
-
+WDFIOTARGET
+Aggregator_GetTarget(
+    _In_ ACXTARGETSTREAM Stream
+)
+{
+    PAGED_CODE();
+    return AcxTargetStreamGetWdfIoTarget(Stream);
+}
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic

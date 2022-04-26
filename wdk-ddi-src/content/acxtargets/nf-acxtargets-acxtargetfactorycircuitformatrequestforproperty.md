@@ -66,12 +66,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Sample code pending.
-
 ```cpp
-
-TBD
-
 
 ```
 

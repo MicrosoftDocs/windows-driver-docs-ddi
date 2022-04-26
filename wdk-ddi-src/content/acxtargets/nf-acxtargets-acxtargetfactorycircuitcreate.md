@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetFactoryCircuitCreate
 tech.root: audio
 title: AcxTargetFactoryCircuitCreate
-ms.date: 04/25/2022
+ms.date: 04/26/2022
 targetos: Windows
 description: The AcxTargetFactoryCircuitCreate given an existing WDFDEVICE object that is associated with the specified ACXCIRCUIT and associated configuration information returns a handle to a new ACXTARGETFACTORYCIRCUIT ACX object. 
 prerelease: true
@@ -68,15 +68,16 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+TBD - Example Pending
+
 ### Example
 
 ```cpp
-
-TBD
-
 
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic
