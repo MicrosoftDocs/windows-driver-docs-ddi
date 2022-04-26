@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCompositeTemplateCreate
 ms.date: 04/15/2022
 targetos: Windows
-description: The AcxCompositeTemplateCreate function is used to create a composite template for use by an audio class extension (ACX).
+description: The AcxCompositeTemplateCreate function is used to create a composite template for use by the audio class extension (ACX) manager.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCompositeTemplateCreate** function is used to create a composite template for use by an audio class extension (ACX).
+The **AcxCompositeTemplateCreate** function is used to create a composite template for use by the audio class extension (ACX) manager.
 
 ## -parameters
 
@@ -77,4 +77,4 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [acxmanager.h header](index.md)
 
 
-TBD - Please review this topic
+READY2GO
