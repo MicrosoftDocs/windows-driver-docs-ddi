@@ -3,7 +3,7 @@ UID: NE:storport._STORPORT_FEATURE_TYPE
 title: STORPORT_FEATURE_TYPE
 description: The STORPORT_FEATURE_TYPE enum identifies a Storport feature supported by a miniport.
 tech.root: storage
-ms.date: 05/13/2021
+ms.date: 05/24/2022
 ms.keywords: STORPORT_FEATURE_TYPE, STORPORT_FEATURE_TYPE,
 req.header: storport.h
 req.include-header: 
@@ -38,33 +38,63 @@ product:
 
 ## -description
 
-The **STORPORT_FEATURE_TYPE** enum identifies a Storport feature supported by a miniport.
+The **STORPORT_FEATURE_TYPE** enumeration identifies a Storport feature supported by a miniport.
 
 ## -enum-fields
 
 ### -field StorportFeatureBusTypeUnitControl
 
-ScsiUnitQueryBusType control is supported.
+Indicates whether the **ScsiUnitQueryBusType** control operation is supported.
 
 ### -field StorportFeatureFruIdUnitControl
 
-ScsiUnitQueryFruId control is supported.
+Indicates whether the **ScsiUnitQueryFruId** control operation is supported.
 
 ### -field StorportFeatureFruIdAdapterControl
 
-ScsiAdapterQueryFruId control is supported.
+Indicates whether the **ScsiAdapterQueryFruId** control operation is supported.
 
 ### -field StorportFeatureSetEventLoggingAdapterControl
 
-ScsiAdapterSetEventLogging control is supported.
+Indicates whether the **ScsiAdapterSetEventLogging** control operation is supported.
+
+### -field StorportFeatureReportInternalDataUnitControl
+
+Indicates whether the **ScsiUnitReportInternalData** control operation is supported.
+
+## -field StorportFeatureReportInternalDataAdapterControl
+
+Indicates whether the **ScsiAdapterReportInternalData** control operation is supported.
+
+## -field StorportFeatureResetBusSynchronous
+
+Indicates whether the **ScsiAdapterResetBusSynchronous** control operation is supported.
+
+## -field StorportFeaturePostHwInitialize
+
+Indicates whether the **ScsiAdapterPostHwInitialize** control operation is supported.
+
+## -field StorportFeaturePrepareEarlyDumpData
+
+Indicates whether the **ScsiAdapterPrepareEarlyDumpData** control operation is supported.
+
+## -field StorportFeatureRestoreEarlyDumpData
+
+Indicates whether the **ScsiAdapterRestoreEarlyDumpData** control operation is supported.
 
 ### -field StorportFeatureMax
 
+Max value for this enumeration.
+
 ## -remarks
 
-A miniport provides an array of **STORPORT_FEATURE_TYPE** values when it calls [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md).
+A miniport provides an array of **STORPORT_FEATURE_TYPE** values when it calls [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md), where each value indicates whether the miniport provides support for a control operation
+
+Storport specifies the control type when it calls a miniport's [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) routine.
 
 ## -see-also
+
+[**SCSI_ADAPTER_CONTROL_TYPE**](ne-storport-scsi_adapter_control_type.md)
 
 [**STOR_SET_EVENT_LOGGING**](ns-storport-stor_set_event_logging.md)
 
