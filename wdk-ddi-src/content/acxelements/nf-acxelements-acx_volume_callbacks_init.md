@@ -58,14 +58,12 @@ Example usage is shown below.
 
 ```cpp
     ACX_VOLUME_CALLBACKS            volumeCallbacks;
-
     ACX_VOLUME_CALLBACKS_INIT(&volumeCallbacks);
-    volumeCallbacks.EvtAcxVolumeAssignLevel = CodecC_EvtVolumeAssignLevelCallback;
-    volumeCallbacks.EvtAcxVolumeRetrieveLevel = CodecC_EvtVolumeRetrieveLevelCallback;
 ```
 
 ## -see-also
 
 - [acxelements.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
+

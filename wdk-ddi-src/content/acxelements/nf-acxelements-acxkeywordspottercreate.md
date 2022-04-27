@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxKeywordSpotterCreate
 ms.date: 10/15/2021
 targetos: Windows
-description: The AcxKeywordSpotterCreate function is used to create a key word spotter object that that will be associated with a circuit device object parent. 
+description: The AcxKeywordSpotterCreate function is used to create an ACX keyword spotter object that that will be associated with a circuit device object parent. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxKeywordSpotterCreate function is used to create a key word spotter object that that will be associated with a circuit device object parent. 
+The AcxKeywordSpotterCreate function is used to create an ACX keyword spotter object that that will be associated with a circuit device object parent. 
 
 ## -parameters
 
@@ -52,15 +52,15 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the  KeywordSpotter object with the parent WDF device object.
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various values and to associate the KeywordSpotter object with the parent WDF device object.
 
 ### -param Config
 
-An initialized [ACX_KEYWORDSPOTTER_CONFIG structure](ns-acxelements-acx_keywordspotter_config.md) that describes the configuration of the key word spotter.
+An initialized [ACX_KEYWORDSPOTTER_CONFIG structure](ns-acxelements-acx_keywordspotter_config.md) that describes the configuration of the keyword spotter.
 
 ### -param KeywordSpotter
 
-A pointer to a location that receives the handle to the newly created KeywordSpotter object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+A pointer to a location that receives the handle to the newly created ACXKEYWORDSPOTTER object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
 ## -returns
 
@@ -93,4 +93,5 @@ Example usage is shown below.
 
 - [acxelements.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
+

@@ -3,7 +3,7 @@ UID: NF:nettxqueue.NetTxQueueInitGetQueueId
 title: NetTxQueueInitGetQueueId function (nettxqueue.h)
 description: Retrieves the identifier associated with a transmit queue.
 tech.root: netvista
-ms.date: 02/09/2018
+ms.date: 04/01/2022
 keywords: ["NetTxQueueInitGetQueueId function"]
 ms.keywords: NetTxQueueInitGetQueueId
 req.header: nettxqueue.h
@@ -48,7 +48,7 @@ Retrieves the identifier associated with a transmit queue.
 
 ## -parameters
 
-### -param NetTxQueueInit
+### -param NetTxQueueInit [_In_]
 
 A pointer to a NetAdapterCx-allocated **NETTXQUEUE_INIT** structure. For more information, see the Remarks section.
 

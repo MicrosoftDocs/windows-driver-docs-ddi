@@ -1,16 +1,16 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_CGMSA
-title: _DXGKMDT_OPM_CGMSA (d3dkmdt.h)
+title: DXGKMDT_OPM_CGMSA (d3dkmdt.h)
 description: The DXGKMDT_OPM_CGMSA enumeration indicates the protection levels for a protected output that supports Content Generation Management System Analog (CGMS-A).
 old-location: display\dxgkmdt_opm_cgmsa.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 04/14/2022
 keywords: ["DXGKMDT_OPM_CGMSA enumeration"]
 ms.keywords: DXGKMDT_OPM_CGMSA, DXGKMDT_OPM_CGMSA enumeration [Display Devices], DXGKMDT_OPM_CGMSA_COPY_FREELY, DXGKMDT_OPM_CGMSA_COPY_NEVER, DXGKMDT_OPM_CGMSA_COPY_NO_MORE, DXGKMDT_OPM_CGMSA_COPY_ONE_GENERATION, DXGKMDT_OPM_CGMSA_OFF, DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED, DmEnums_94737355-e3ff-4e00-9dbe-9d954e462f54.xml, _DXGKMDT_OPM_CGMSA, d3dkmdt/DXGKMDT_OPM_CGMSA, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_FREELY, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_NEVER, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_NO_MORE, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_ONE_GENERATION, d3dkmdt/DXGKMDT_OPM_CGMSA_OFF, d3dkmdt/DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED, display.dxgkmdt_opm_cgmsa
 req.header: d3dkmdt.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,12 +43,11 @@ api_name:
  - DXGKMDT_OPM_CGMSA
 ---
 
-# _DXGKMDT_OPM_CGMSA enumeration
-
+# DXGKMDT_OPM_CGMSA enumeration
 
 ## -description
 
-The DXGKMDT_OPM_CGMSA enumeration indicates the protection levels for a protected output that supports Content Generation Management System Analog (CGMS-A).
+The **DXGKMDT_OPM_CGMSA** enumeration indicates the protection levels for a protected output that supports [Content Generation Management System Analog (CGMS-A)](/windows-hardware/drivers/display/cgms-a-standards).
 
 ## -enum-fields
 
@@ -74,35 +73,26 @@ Indicates that the signal from a physical video output can never be copied.
 
 ### -field DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED
 
-Indicates that the technological control of consumer redistribution is enabled. 
+Indicates that the technological control of consumer redistribution is enabled.
 
-The five preceding protection levels can be bitwise OR combined  with the DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED to turn on redistribution control. 
+The five preceding protection levels can be bitwise OR combined with the DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED to turn on redistribution control.
 
-DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED corresponds to the CEA-805-A standard's Redistribution Control Information (RCI) bit. For more information about the RCI bit, see the definition of the RCI bit in section 4.4.3.8 in the CEA-805-A standard. For more information about this standard, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=71276">Consumer Electronics Association</a> website. 
+DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED corresponds to the CEA-805-A standard's Redistribution Control Information (RCI) bit. For more information about the RCI bit, see the definition of the RCI bit in section 4.4.3.8 in the CEA-805-A standard.
 
-DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED can be used only if a protected output has COPP semantics. A protected output must enable redistribution control if the DirectX graphics kernel subsystem passes DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED to the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output">DxgkDdiOPMConfigureProtectedOutput</a> function. <i>DxgkDdiOPMConfigureProtectedOutput</i> must fail if DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED is passed to it and the display miniport driver cannot enable redistribution control for any reason.
+DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED can be used only if a protected output has COPP semantics. A protected output must enable redistribution control if the DirectX graphics kernel subsystem passes DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED to the [**DxgkDdiOPMConfigureProtectedOutput**](../dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output.md) function. **DxgkDdiOPMConfigureProtectedOutput** must fail if DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED is passed to it and the display miniport driver cannot enable redistribution control for any reason.
 
 ## -remarks
 
-CGMS-A protects analog TV signals. Currently, OPM can use CGMS-A to protect signals from composite outputs, S-Video outputs, or component outputs. For more information about CGMS-A, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=70568">CGMS-A article</a>.
+CGMS-A protects analog TV signals. Currently, OPM can use CGMS-A to protect signals from composite outputs, S-Video outputs, or component outputs.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_set_protection_level_parameters">DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS</a>
+[**DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS**](ns-d3dkmdt-_dxgkmdt_opm_set_protection_level_parameters.md)
 
+[**DXGKMDT_OPM_STANDARD_INFORMATION**](ns-d3dkmdt-_dxgkmdt_opm_standard_information.md)
 
+[**DxgkDdiOPMConfigureProtectedOutput**](../dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_standard_information">DXGKMDT_OPM_STANDARD_INFORMATION</a>
+[**DxgkDdiOPMGetCOPPCompatibleInformation**](../dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output">DxgkDdiOPMConfigureProtectedOutput</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information">DxgkDdiOPMGetCOPPCompatibleInformation</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_information">DxgkDdiOPMGetInformation</a>
-
+[**DxgkDdiOPMGetInformation**](../dispmprt/nc-dispmprt-dxgkddi_opm_get_information.md)

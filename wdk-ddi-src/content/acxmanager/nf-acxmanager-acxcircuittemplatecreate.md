@@ -2,9 +2,9 @@
 UID: NF:acxmanager.AcxCircuitTemplateCreate
 tech.root: audio
 title: AcxCircuitTemplateCreate
-ms.date: 04/15/2022
+ms.date: 04/27/2022
 targetos: Windows
-description: The AcxCircuitTemplateCreate function is used to create a circuit template for use by an audio class extension (ACX).
+description: The AcxCircuitTemplateCreate function is used to create a circuit template for use by the audio class extension (ACX) manager.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitTemplateCreate** function is used to create a circuit template for use by an audio class extension (ACX).
+The **AcxCircuitTemplateCreate** function is used to create a circuit template for use by the audio class extension (ACX) manager.
 
 ## -parameters
 
@@ -76,4 +76,6 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)
 - [acxmanager.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
+
+EDITCOMPLETE

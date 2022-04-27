@@ -48,7 +48,7 @@ Releases the handle to the registry key that is associated with an adapter confi
 
 ## -parameters
 
-### -param Configuration
+### -param Configuration [_In_]
 
 A handle to an adapter configuration object opened in a prior call to [NetAdapterOpenConfiguration](../netadapter/nf-netadapter-netadapteropenconfiguration.md) or [NetConfigurationOpenSubConfiguration](nf-netconfiguration-netconfigurationopensubconfiguration.md).
 

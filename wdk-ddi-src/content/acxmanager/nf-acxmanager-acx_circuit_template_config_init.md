@@ -2,7 +2,7 @@
 UID: NF:acxmanager.ACX_CIRCUIT_TEMPLATE_CONFIG_INIT
 tech.root: audio
 title: ACX_CIRCUIT_TEMPLATE_CONFIG_INIT
-ms.date: 04/15/2022
+ms.date: 04/27/2022
 targetos: Windows
 description: The ACX_CIRCUIT_TEMPLATE_CONFIG_INIT function initializes an ACX_CIRCUIT_TEMPLATE_CONFIG structure.
 prerelease: true
@@ -59,5 +59,6 @@ A pointer to the [ACX_CIRCUIT_TEMPLATE_CONFIG](ns-acxmanager-acx_circuit_templat
 - [ACX_COMPOSITE_TEMPLATE_CONFIG_INIT](nf-acxmanager-acx_composite_template_config_init.md)
 - [acxmanager.h header](index.md)
 
+READY2GO
 
-TBD - Please review this topic
+EDITCOMPLETE

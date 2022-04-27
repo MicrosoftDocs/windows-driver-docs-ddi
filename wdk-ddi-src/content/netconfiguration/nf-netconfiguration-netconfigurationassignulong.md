@@ -3,7 +3,7 @@ UID: NF:netconfiguration.NetConfigurationAssignUlong
 title: NetConfigurationAssignUlong function (netconfiguration.h)
 description: The NetConfigurationAssignUlong function writes a caller-supplied unsigned long word value to a specified value name in the registry.
 tech.root: netvista
-ms.date: 02/07/2018
+ms.date: 03/30/2022
 keywords: ["NetConfigurationAssignUlong function"]
 ms.keywords: NetConfigurationAssignUlong
 req.header: netconfiguration.h
@@ -48,15 +48,15 @@ The **NetConfigurationAssignUlong** function writes a caller-supplied unsigned l
 
 ## -parameters
 
-### -param Configuration
+### -param Configuration [_In_]
 
 A handle to a NETCONFIGURATION object that represents an opened registry key.
 
-### -param ValueName
+### -param ValueName [_In_]
 
 A pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a value name.
 
-### -param Value
+### -param Value [_In_]
 
 A ULONG value that will be assigned to the value name that *ValueName* specifies.
 

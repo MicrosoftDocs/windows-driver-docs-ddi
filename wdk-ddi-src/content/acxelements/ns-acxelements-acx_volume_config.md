@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_VOLUME_CONFIG
 ms.date: 10/15/2021
 targetos: Windows
-description: The ACX_VOLUME_CONFIG structure is used to define the audio volume operations configuration. 
+description: The ACX_VOLUME_CONFIG structure is used to define the acx volume configuration. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_VOLUME_CONFIG structure is used to define the audio volume operations configuration. 
+The ACX_VOLUME_CONFIG structure is used to define the acx volume configuration. 
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 ### -field Flags
 
-Audio key word spotter configuration flags defined by the [ACX_VOLUME_CONFIG_FLAGS enum](ne-acxelements-acx_volume_config_flags.md). 
+Acx volume configuration flags defined by the [ACX_VOLUME_CONFIG_FLAGS enum](ne-acxelements-acx_volume_config_flags.md). 
 
 No flag bits are currently defined. Set this member to zero - AcxVolumeConfigNoFlags
 
@@ -72,16 +72,11 @@ The number of channels. This is a one based count.
 
 ### -field Maximum
 
-The maximum volume boost level for the volume.
-
-TBD - Does this apply to ACX??
-
-For more information about volume level settings, see [Customizing HD Audio Driver Volume Settings](/windows-hardware/drivers/audio/customizing-default-audio-volume-settings).
-
+The maximum boost level for the volume.
 
 ### -field Minimum
 
-The minimum volume boost level for the volume.
+The minimum boost level for the volume.
 
 ### -field SteppingDelta
 
@@ -118,4 +113,5 @@ Example usage is shown below.
 
 - [acxelements.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
+

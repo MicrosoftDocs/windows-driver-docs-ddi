@@ -58,5 +58,5 @@ For internal validation, do not use.
 
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [acxdataformat.h header](index.md)
-- 
+ 
 TBD - Please review this topic

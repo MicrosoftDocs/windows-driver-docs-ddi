@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetPinFormatRequestForMethod
 tech.root: audio
 title: AcxTargetPinFormatRequestForMethod
-ms.date:  11/11/2021
+ms.date: 04/25/2022
 targetos: Windows
-description: 
+description: The AcxTargetPinFormatRequestForMethod, given an ACXTARGETPIN object dispatches an ACX request using a WDFREQUEST framework request object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,20 +42,21 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetPinFormatRequestForMethod** function, given an ACXTARGETPIN object dispatches an ACX request using a WDFREQUEST framework request object.
+
 ## -parameters
 
 ### -param TargetPin
 
+A pointer to the location of an existing ACXTARGETPIN object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -param Request
+
+A pointer to a location that receives a handle to a WDFREQUEST framework request object described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects). For general information about WDF requests, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects).
 
 ### -param Params
 
-TBD 
-
 An initialized [ACX_REQUEST_PARAMETERS](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_request_parameters.md) structure that is used to store request parameter information.
-
-TBD 
-
 
 ## -returns
 
@@ -66,12 +67,30 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 ```cpp
+...
+    _In_    ACXTARGETCIRCUIT TargetCircuit,
+    _In_    ULONG            TargetPinId
+    )
 
-TBD
+    NTSTATUS                    status;
+    WDFREQUEST                  req;
+    ACX_REQUEST_PARAMETERS      params;
 
+         ACXTARGETPIN targetPin = NULL;
 
+        //
+        // Get the target pin obj.
+        //
+        targetPin = AcxTargetCircuitGetTargetPin(TargetCircuit, TargetPinId);
+
+        //
+        // Format a WDF request for the target.
+        //
+        status = AcxTargetPinFormatRequestForMethod(targetPin, req, &params);
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic 

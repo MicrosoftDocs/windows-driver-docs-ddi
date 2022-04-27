@@ -1,8 +1,8 @@
 ---
 UID: NC:trustedruntimeclx.TRFUNC
 title: TRFUNC (trustedruntimeclx.h)
-description: "Learn more about: TRFUNC callback function"
-ms.date: 11/20/2020
+description: This topic describes the TRFUNC callback function.
+ms.date: 04/18/2022
 keywords: ["TRFUNC callback function"]
 req.header: trustedruntimeclx.h
 req.include-header: 
@@ -37,30 +37,9 @@ api_name:
  - TRFUNC
 ---
 
-# TRFUNC callback function
-
 ## -description
 
-## -parameters
-
-### -param unnamedParam1
-
-## -syntax
-
-```cpp
-//Declaration
-
-TRFUNC Trfunc;
-
-// Definition
-
-VOID Trfunc
-(
-    VOID Arg1
-)
-{...}
-
-```
+This topic describes the **TRFUNC** callback function.
 
 ## -remarks
 

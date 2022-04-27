@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetCircuitFormatRequestForMethod
 ms.date:  11/11/2021
 targetos: Windows
-description: 
+description: The AcxTargetCircuitFormatRequestForMethod dispatches an ACX request using a WDFREQUEST framework request object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxTargetCircuitFormatRequestForMethod dispatches an ACX request using a WDFREQUEST framework request object.
+The **AcxTargetCircuitFormatRequestForMethod** dispatches an ACX request using a WDFREQUEST framework request object.
 
 ## -parameters
 

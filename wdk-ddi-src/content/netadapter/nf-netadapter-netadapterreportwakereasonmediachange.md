@@ -3,7 +3,7 @@ UID: NF:netadapter.NetAdapterReportWakeReasonMediaChange
 title: NetAdapterReportWakeReasonMediaChange function (netadapter.h)
 description: The NetAdapterReportWakeReasonMediaChange function reports to the framework that a net adapter generated a wake-up event because of a media change.
 tech.root: netvista
-ms.date: 11/07/2019
+ms.date: 03/30/2022
 keywords: ["NetAdapterReportWakeReasonMediaChange function"]
 ms.keywords: NetAdapterReportWakeReasonMediaChange
 req.header: netadapter.h
@@ -49,11 +49,11 @@ The **NetAdapterReportWakeReasonMediaChange** function reports to the framework 
 
 ## -parameters
 
-### -param Adapter
+### -param Adapter [_In_]
 
 A handle to the NETADAPTER object.
 
-### -param Reason
+### -param Reason [_In_]
 
 A [**NET_IF_MEDIA_CONNECT_STATE**](/windows/win32/api/ifdef/ne-ifdef-net_if_media_connect_state) value that specifies the network interface connection state that triggered the wake-up event.
 

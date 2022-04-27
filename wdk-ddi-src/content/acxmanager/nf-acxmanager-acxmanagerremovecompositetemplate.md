@@ -2,7 +2,7 @@
 UID: NF:acxmanager.AcxManagerRemoveCompositeTemplate
 tech.root: audio
 title: AcxManagerRemoveCompositeTemplate
-ms.date: 04/15/2022
+ms.date: 04/27/2022
 targetos: Windows
 description: The AcxManagerRemoveCompositeTemplate function removes the specified composite template from the specified ACXMANAGER.
 prerelease: true
@@ -60,8 +60,12 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 ## -remarks
 
+When a composite template is removed, all endpoints associated with that composite template are also stopped and removed.
+
 ## -see-also
 
 - [acxmanager.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
+
+EDITCOMPLETE

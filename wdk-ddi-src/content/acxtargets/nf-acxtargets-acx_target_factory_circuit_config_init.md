@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The ACX_TARGET_FACTORY_CIRCUIT_CONFIG_INIT function initializes an ACX target factory circuit config structure.
+The **ACX_TARGET_FACTORY_CIRCUIT_CONFIG_INIT** function initializes an ACX target factory circuit config structure.
 
 ## -parameters
 

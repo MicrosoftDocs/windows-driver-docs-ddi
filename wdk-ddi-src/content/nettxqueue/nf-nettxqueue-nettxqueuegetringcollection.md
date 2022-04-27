@@ -3,7 +3,7 @@ UID: NF:nettxqueue.NetTxQueueGetRingCollection
 title: NetTxQueueGetRingCollection function (nettxqueue.h)
 description: The NetTxQueueGetRingCollection function retrieves the NET_DATAPATH_DESCRIPTOR structure for a transmit (Tx) queue.
 tech.root: netvista
-ms.date: 01/31/2019
+ms.date: 04/01/2022
 keywords: ["NetTxQueueGetRingCollection function"]
 ms.keywords: NetTxQueueGetRingCollection
 req.header: nettxqueue.h
@@ -46,7 +46,7 @@ The **NetTxQueueGetRingCollection** function retrieves the [**NET_RING_COLLECTIO
 
 ## -parameters
 
-### -param PacketQueue
+### -param PacketQueue [_In_]
 
 A pointer to a NetAdapterCx-allocated **NETPACKETQUEUE** structure. The client driver receives a pointer to this **NETPACKETQUEUE** structure in its *[EVT_NET_ADAPTER_CREATE_TXQUEUE](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)* callback function.
 

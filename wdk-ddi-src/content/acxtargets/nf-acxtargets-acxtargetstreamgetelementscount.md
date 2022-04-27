@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetStreamGetElementsCount** function given an ACXTARGETSTREAM object, returns an elements count.
+
 ## -parameters
 
 ### -param TargetStream
+
+A pointer to the location of an existing ACXTARGETSTREAM object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -52,15 +56,16 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+Sample Pending
+
 ### Example
 
 ```cpp
-
-TBD
-
 
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
+- 
+TBD - Please review this topic   

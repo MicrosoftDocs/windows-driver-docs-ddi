@@ -3,7 +3,7 @@ UID: NC:netpacketqueue.EVT_PACKET_QUEUE_START
 title: EVT_PACKET_QUEUE_START (netpacketqueue.h)
 description: The EvtPacketQueueStart callback function is implemented by the client driver to start the data path for a packet queue.
 tech.root: netvista
-ms.date: 07/17/2018
+ms.date: 04/01/2022
 keywords: ["EVT_PACKET_QUEUE_START callback function"]
 req.header: netpacketqueue.h
 req.include-header: netadaptercx.h 
@@ -46,7 +46,7 @@ The *EvtPacketQueueStart* callback function is an optional callback that is impl
 
 ## -parameters
 
-### -param PacketQueue
+### -param PacketQueue [_In_]
 
 A handle to a packet queue.
 

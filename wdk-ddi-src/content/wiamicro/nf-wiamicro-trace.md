@@ -1,12 +1,12 @@
 ---
 UID: NF:wiamicro.Trace
 title: Trace function (wiamicro.h)
-description: "Learn more about: Trace function"
-ms.date: 11/18/2020
+description: This topic describes the Trace function.
+ms.date: 04/19/2022
 keywords: ["Trace function"]
 ms.keywords: Trace
 req.header: wiamicro.h
-req.include-header: 
+req.include-header: Wiamicro.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -23,7 +23,6 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
-ms.custom: RS5
 tech.root: image
 f1_keywords:
  - Trace
@@ -40,22 +39,20 @@ product:
  - Windows
 ---
 
-# Trace function
-
-
 ## -description
+
+This topic describes the **Trace** function.
 
 ## -parameters
 
 ### -param Format
 
+Defines the **LPCTSTR** parameter *Format*.
+
 ### -param ...
 
-Additional Parameters.
-
-## -param
+Additional parameters.
 
 ## -remarks
 
 ## -see-also
-

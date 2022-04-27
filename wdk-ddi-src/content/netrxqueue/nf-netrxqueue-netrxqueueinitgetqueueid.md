@@ -3,7 +3,7 @@ UID: NF:netrxqueue.NetRxQueueInitGetQueueId
 title: NetRxQueueInitGetQueueId function (netrxqueue.h)
 description: Retrieves the identifier of the receive queue associated with a receive queue.
 tech.root: netvista
-ms.date: 02/09/2018
+ms.date: 04/01/2022
 keywords: ["NetRxQueueInitGetQueueId function"]
 ms.keywords: NetRxQueueInitGetQueueId
 req.header: netrxqueue.h
@@ -48,7 +48,7 @@ Retrieves the identifier of the receive queue associated with a receive queue.
 
 ## -parameters
 
-### -param NetRxQueueInit
+### -param NetRxQueueInit [_In_]
 
 A pointer to a NetAdapterCx-allocated **NETRXQUEUE_INIT** structure. For more information, see the Remarks section.
 

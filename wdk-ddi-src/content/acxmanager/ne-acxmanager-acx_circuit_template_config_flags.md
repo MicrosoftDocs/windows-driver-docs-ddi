@@ -2,9 +2,9 @@
 UID: NE:acxmanager._ACX_CIRCUIT_TEMPLATE_CONFIG_FLAGS
 tech.root: audio
 title: ACX_CIRCUIT_TEMPLATE_CONFIG_FLAGS
-ms.date: 04/15/2022
+ms.date: 04/27/2022
 targetos: Windows
-description: The ACX_CIRCUIT_TEMPLATE_CONFIG_FLAGS enumeration is used to configure the properties of a circuit template used by an audio class extension (ACX).
+description: The ACX_CIRCUIT_TEMPLATE_CONFIG_FLAGS enumeration is used to configure the properties of a circuit template used by the audio class extension (ACX) manager.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_CIRCUIT_TEMPLATE_CONFIG_FLAGS** enumeration is used to configure the properties of a circuit template used by an audio class extension (ACX).
+The **ACX_CIRCUIT_TEMPLATE_CONFIG_FLAGS** enumeration is used to configure the properties of a circuit template used by the audio class extension (ACX) manager.
 
 ## -enum-fields
 
@@ -59,4 +59,6 @@ For internal validation, do not use.
 
 - [acxmanager.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
+
+EDITCOMPLETE

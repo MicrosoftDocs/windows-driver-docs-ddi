@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxElementGetId
 ms.date: 09/23/2021
 targetos: Windows
-description: TBD - The AcxElementGetId function retrieves an Id for a given ACX element object.
+description: The AcxElementGetId function retrieves the number that represents the element ID for a given ACX element object.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxElementGetId function retrieves an Id for a given ACX element object.
+The AcxElementGetId function retrieves the number that represents the element ID for a given ACX element object.
 
 ## -parameters
 
 ### -param Element
 
-TBD - An ACXELEMENT object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+An existing, initialized, ACXELEMENT object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
-Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+Returns the ULONG value that represents the element ID for the specified ACXELEMENT object. Will return AcxElementIdNone if the object has no element ID. 
 
 ## -remarks
 
@@ -60,14 +60,13 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 Example usage is shown below.
 
-TBD - No sample code found.
-
 ```cpp
-
+ ULONG id = AcxElementGetId((ACXELEMENT)Mute);
 ```
 
 ## -see-also
 
 - [acxelements.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
+

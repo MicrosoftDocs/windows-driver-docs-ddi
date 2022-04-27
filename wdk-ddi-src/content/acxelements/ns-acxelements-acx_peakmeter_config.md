@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_PEAKMETER_CONFIG structure is used to define the audio peakmeter configuration. 
+The ACX_PEAKMETER_CONFIG structure is used to define the acx peakmeterconfiguration. 
 
 ## -struct-fields
 
@@ -62,13 +62,13 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 ### -field Flags
 
-Audio engine configuration flags defined by the [ACX_PEAKMETER_CONFIG_FLAGS enum](ne-acxelements-acx_peakmeter_config_flags.md). 
+Acx peakmeter configuration flags defined by the [ACX_PEAKMETER_CONFIG_FLAGS enum](ne-acxelements-acx_peakmeter_config_flags.md). 
 
 No flag bits are currently defined. Set this member to zero - AcxPeakMeterConfigNoFlags.
 
 ### -field ChannelsCount
 
-TBD - The number of channels. This is a one based count.
+The number of channels. This is a one based count.
 
 ### -field Maximum
 

@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetStreamCreate
 tech.root: audio
 title: AcxTargetStreamCreate
-ms.date:  11/11/2021
+ms.date: 04/26/2022
 targetos: Windows
-description: 
+description: The AcxTargetStreamCreate function is used to create a target stream.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -41,6 +41,8 @@ dev_langs:
 ---
 
 ## -description
+
+The **AcxTargetStreamCreate** function is used to create a target stream.
 
 ## -parameters
 
@@ -97,3 +99,5 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ## -see-also
 
 - [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic  

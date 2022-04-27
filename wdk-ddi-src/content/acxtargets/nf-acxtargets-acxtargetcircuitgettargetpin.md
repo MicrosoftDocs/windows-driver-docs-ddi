@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetCircuitGetTargetPin
 ms.date: 02/02/2022
 targetos: Windows
-description: 
+description: The AcxTargetCircuitGetTargetPin function, given a valid pin index value, will return an *ACXTARGETPIN* ACX Object that is associated with the specified circuit.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxTargetCircuitGetTargetPin function, given a valid pin index value, will return an *ACXTARGETPIN* ACX Object that is associated with the specified circuit.
+The **AcxTargetCircuitGetTargetPin** function, given a valid pin index value, will return an *ACXTARGETPIN* ACX Object that is associated with the specified circuit.
 
 ## -parameters
 

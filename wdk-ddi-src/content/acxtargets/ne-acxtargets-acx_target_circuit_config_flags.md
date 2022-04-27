@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_TARGET_CIRCUIT_CONFIG_FLAGS enumeration defines the config flags for the ACX target circuit.
+The **ACX_TARGET_CIRCUIT_CONFIG_FLAGS** enumeration defines the config flags for the ACX target circuit.
 
 ## -enum-fields
 

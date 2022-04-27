@@ -2,7 +2,7 @@
 UID: NS:acxmanager._ACX_COMPOSITE_TEMPLATE_CONFIG
 tech.root: audio
 title: ACX_COMPOSITE_TEMPLATE_CONFIG
-ms.date: 04/15/2022
+ms.date: 04/27/2022
 targetos: Windows
 description: The ACX_COMPOSITE_TEMPLATE_CONFIG structure is used to configure a new ACX composite template object.
 prerelease: true
@@ -58,7 +58,7 @@ A combination of values from the [ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS](ne-acxman
 
 ### -field Properties
 
-An optional **ACXOBJECTBAG** of composite template properties.
+An optional **ACXOBJECTBAG** of composite template properties. Only for singleton composites.
 
 ## -remarks
 
@@ -68,4 +68,6 @@ An optional **ACXOBJECTBAG** of composite template properties.
 - [ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS](ne-acxmanager-acx_composite_template_config_flags.md)
 - [acxmanager.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
+
+EDITCOMPLETE

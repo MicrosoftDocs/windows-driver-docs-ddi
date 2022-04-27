@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetPinGetWdfIoTarget
 tech.root: audio
 title: AcxTargetPinGetWdfIoTarget
-ms.date:  11/11/2021
+ms.date: 04/26/2022
 targetos: Windows
-description: 
+description: The AcxTargetPinGetWdfIoTarget function given an existing ACXTARGETPIN object, returns a WDFIOTARGET object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,9 +42,14 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetPinGetWdfIoTarget** given an existing ACXTARGETPIN object, returns a WDFIOTARGET object. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).
+
 ## -parameters
 
 ### -param TargetPin
+
+A pointer to the location of an existing ACXTARGETPIN object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 
 ## -returns
 
@@ -55,10 +60,13 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 ```cpp
+    _In_        WDFOBJECT               AcxTarget,
 
-TBD
+...
 
+  WDFIOTARGET                 ioTarget;
 
+        ioTarget = AcxTargetPinGetWdfIoTarget((ACXTARGETPIN)AcxTarget);
 ```
 
 ## -see-also

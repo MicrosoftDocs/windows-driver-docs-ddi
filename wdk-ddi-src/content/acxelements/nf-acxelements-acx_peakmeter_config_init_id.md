@@ -62,4 +62,5 @@ As the ACX_PEAKMETER_CONFIG_INIT_ID provides the same functionality as [ACX_PEAK
 
 - [acxelements.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
+

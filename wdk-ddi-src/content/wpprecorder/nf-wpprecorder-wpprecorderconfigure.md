@@ -50,6 +50,7 @@ The <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorde
 ## -syntax
 
 ```cpp
+__drv_maxIRQL(PASSIVE_LEVEL)
 VOID WppRecorderConfigure(
     _In_         PRECORDER_CONFIGURE_PARAMS  ConfigureParams
     );
@@ -59,7 +60,7 @@ VOID WppRecorderConfigure(
 
 ### -param ConfigureParams
 
-Pointer to a caller-allocated [**RECORDER_CONFIGURE_PARAMS**](/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_recorder_configure_params) structure.
+Pointer to a caller-allocated [**RECORDER_CONFIGURE_PARAMS**](./ns-wpprecorder-_recorder_configure_params.md) structure.
 
 ## -remarks
 
