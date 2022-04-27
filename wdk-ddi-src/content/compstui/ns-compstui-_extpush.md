@@ -3,7 +3,7 @@ UID: NS:compstui._EXTPUSH
 title: EXTPUSH (compstui.h)
 description: The EXTPUSH structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended push button, which can be added to a property sheet page option. When the button is pushed, a new dialog can be displayed.
 tech.root: print
-ms.date: 04/18/2022
+ms.date: 04/25/2022
 keywords: ["EXTPUSH structure"]
 ms.keywords: "*PEXTPUSH, EXTPUSH, EXTPUSH structure [Print Devices], PEXTPUSH, PEXTPUSH structure pointer [Print Devices], _EXTPUSH, compstui/EXTPUSH, compstui/PEXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, print.extpush"
 req.header: compstui.h
@@ -128,7 +128,7 @@ An extended push button is a CPSUI-defined type of push button that can be assoc
 
 When you use the EXTPUSH structure to create a push button, you can optionally create an additional dialog box that opens when the user clicks on the button. To create this dialog box, you should specify a pointer to a dialog box procedure in the **DlgProc** member, and include a dialog template specification in either the **DlgTemplateID** or the **hDlgTemplate** member.
 
-If EPF_USE_HDLGTEMPLATE is set in **Flags**, CPSUI creates the dialog box by calling [*DialogBoxIndirectParam*](/win32/api/winuser/nf-winuser-dialogboxindirectparama), passing the contents of the **DlgProc** and **hDlgTemplate** members.
+If EPF_USE_HDLGTEMPLATE is set in **Flags**, CPSUI creates the dialog box by calling [*DialogBoxIndirectParam*](/windows/win32/api/winuser/nf-winuser-dialogboxindirectparama), passing the contents of the **DlgProc** and **hDlgTemplate** members.
 
 If EPF_USE_HDLGTEMPLATE is not set in **Flags**, CPSUI creates the dialog box by calling [*DialogBoxParam*](/windows/win32/api/winuser/nf-winuser-dialogboxparama), passing the contents of the **DlgProc** and **DlgTemplateID** members.
 

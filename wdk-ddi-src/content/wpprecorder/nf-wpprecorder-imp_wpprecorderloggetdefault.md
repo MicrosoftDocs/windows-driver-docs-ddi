@@ -4,7 +4,7 @@ title: imp_WppRecorderLogGetDefault function (wpprecorder.h)
 description: The WppRecorderLogGetDefault method gets a handle to the default recorder log.
 old-location: devtest\wpprecorderloggetdefault.htm
 tech.root: devtest
-ms.date: 02/23/2018
+ms.date: 04/19/2022
 keywords: ["imp_WppRecorderLogGetDefault function"]
 ms.keywords: WppRecorderLogGetDefault, devtest.wpprecorderloggetdefault, imp_WppRecorderLogGetDefault, imp_WppRecorderLogGetDefault function [Driver Development Tools], wpprecorder/imp_WppRecorderLogGetDefault
 req.header: wpprecorder.h
@@ -40,16 +40,24 @@ api_name:
  - imp_WppRecorderLogGetDefault
 ---
 
-# imp_WppRecorderLogGetDefault function
+# WppRecorderLogGetDefault function
 
 
 ## -description
 
 The <b>WppRecorderLogGetDefault</b> method gets a handle to the default recorder log.
 
+## -syntax
+
+```cpp
+__drv_maxIRQL(DISPATCH_LEVEL)
+RECORDER_LOG
+WppRecorderLogGetDefault(
+    );
+```
+
 ## -parameters
 
-### -param WppCb
 
 ## -returns
 

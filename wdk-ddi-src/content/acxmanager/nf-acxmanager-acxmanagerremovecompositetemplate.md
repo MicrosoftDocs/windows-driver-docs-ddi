@@ -60,8 +60,10 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 ## -remarks
 
+When a composite template is removed, all endpoints associated with that composite template are also stopped and removed.
+
 ## -see-also
 
 - [acxmanager.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

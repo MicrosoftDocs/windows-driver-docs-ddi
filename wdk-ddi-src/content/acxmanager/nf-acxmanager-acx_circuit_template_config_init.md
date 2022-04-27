@@ -60,4 +60,4 @@ A pointer to the [ACX_CIRCUIT_TEMPLATE_CONFIG](ns-acxmanager-acx_circuit_templat
 - [acxmanager.h header](index.md)
 
 
-TBD - Please review this topic
+READY2GO

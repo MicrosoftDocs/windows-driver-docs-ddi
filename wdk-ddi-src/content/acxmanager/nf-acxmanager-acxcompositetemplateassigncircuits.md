@@ -70,4 +70,4 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [AcxCompositeTemplateCreate](nf-acxmanager-acxcompositetemplatecreate.md)
 - [acxmanager.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
