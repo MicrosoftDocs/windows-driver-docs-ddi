@@ -75,7 +75,7 @@ A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates 
 
 If **DmaBufferSegmentId** is zero, **DmaBufferPhysicalAddress** is the physical address in system memory where the DMA buffer is located.
 
-If **DmaBufferSegmentId** is nonzero, **DmaBufferPhysicalAddress** is the segment physical address for the DMA buffer; that is, the address points to a physical address of the [aperture segment](/windows-hardware/drivers/display/linear-aperture-space-segments) which is a contiguous address space defined in physical memory ([**DXGK_SEGMENTDESCRIPTOR**](ns-d3dkmddi-_dxgk_segmentdescriptor4)**.BaseAddress + DmaBuffer.SegmentOffset**).
+If **DmaBufferSegmentId** is nonzero, **DmaBufferPhysicalAddress** is the segment physical address for the DMA buffer; that is, the address points to a physical address of the [aperture segment](/windows-hardware/drivers/display/linear-aperture-space-segments) which is a contiguous address space defined in physical memory ([**DXGK_SEGMENTDESCRIPTOR**](ns-d3dkmddi-_dxgk_segmentdescriptor4.md)**.BaseAddress + DmaBuffer.SegmentOffset**).
 
 Note that **DmaBufferPhysicalAddress** always refers to the beginning of the DMA buffer even though the driver might be required to patch or submit a section of the DMA buffer that does not include the beginning of the DMA buffer (that is, if the **DmaBufferSubmissionStartOffset** member is nonzero).
 
@@ -95,7 +95,7 @@ The offset, in bytes, from the beginning of the DMA buffer to the end of the por
 
 ### -field pDmaBufferPrivateData [in]
 
-A pointer to the driver-resident private data that is associated with the DMA buffer that was filled during the [**DxgkDdiRender**](d3dkmddi/nc-d3dkmddi-dxgkddi_render.md), [**DxgkDdiPresent**](nc-d3dkmddi-dxgkddi_present.md), or [**DxgkDdiPatch**](nc-d3dkmddi-dxgkddi_patch.md) function.
+A pointer to the driver-resident private data that is associated with the DMA buffer that was filled during the [**DxgkDdiRender**](nc-d3dkmddi-dxgkddi_render.md), [**DxgkDdiPresent**](nc-d3dkmddi-dxgkddi_present.md), or [**DxgkDdiPatch**](nc-d3dkmddi-dxgkddi_patch.md) function.
 
 For paging operations, a single paging buffer is used for multiple independent submissions. In that scenario, the driver can indicate--by returning the appropriate private driver data pointer in a call to its [**DxgkDdiBuildPagingBuffer**](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) function--to have either a single driver private data range for all of the submissions or one for each submission.
 
