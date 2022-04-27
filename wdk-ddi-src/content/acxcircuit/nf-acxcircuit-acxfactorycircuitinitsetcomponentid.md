@@ -42,13 +42,14 @@ dev_langs:
 
 ## -description
 
-The AcxFactoryCircuitInitSetComponentId function is used to set the component ID during the ACX circuit factory initialization process.
+The **AcxFactoryCircuitInitSetComponentId** function is used to set the component ID during the ACX circuit factory initialization process.
 
 ## -parameters
 
 ### -param FactoryInit
 
 An ACXFACTORYCIRCUIT_INIT structure that is used for circuit factory initialization. This is an opaque structure that is used to store ACX Circuit factory initialization information and associate the factory with a WDF device.
+
 Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuitinitallocate.md) to initialize the ACXFACTORYCIRCUIT_INIT structure.
 
 ### -param ComponentId
@@ -66,7 +67,7 @@ DEFINE_GUID(COMPONENT_GUID,
 
 Example usage is shown below.
 
-TBD - Is it OK to show the SDC AXU FACTORY GUID? Perhaps show all zeroes or some other GUID value for the code example?
+TBD - Showing the SDC AXU FACTORY GUID in this example. Perhaps better to show all zeroes or some other GUID value, such as the one above for the code example?
 
 ```cpp
 DEFINE_GUID(SDCAXU_FACTORY_GUID, 

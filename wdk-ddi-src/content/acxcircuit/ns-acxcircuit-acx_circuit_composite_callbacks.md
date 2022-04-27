@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_CIRCUIT_COMPOSITE_CALLBACKS structure identifies the driver callbacks for ACX composite circuit  operations.
+The **ACX_CIRCUIT_COMPOSITE_CALLBACKS** structure identifies the driver callbacks for ACX composite circuit  operations.
 
 ## -struct-fields
 

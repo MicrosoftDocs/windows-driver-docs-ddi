@@ -44,13 +44,13 @@ dev_langs:
 
 ## -description
 
-The ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS structure contains pointers to an ACXFACTORYCIRCUIT's Plug and Play and power event callback functions.
+The **ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS** structure contains pointers to an ACXFACTORYCIRCUIT's Plug and Play and power event callback functions.
 
 ## -struct-fields
 
 ### -field Size
 
-The size, in bytes, of this structure. 
+The size, in bytes, of this structure.
 
 ### -field EvtAcxFactoryCircuitPrepareHardware
 
