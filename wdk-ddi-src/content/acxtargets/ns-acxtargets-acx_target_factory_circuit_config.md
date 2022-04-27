@@ -64,7 +64,7 @@ TBD -  A WDFIOTARGET object that is the IoTarget for the factory circuit.
 
 ### -field SymbolicLinkName
 
-TBD - A string that represents the link name that was created by the TBD.
+A string that represents the link name that was created by the TBD.
 
 ## -remarks
 

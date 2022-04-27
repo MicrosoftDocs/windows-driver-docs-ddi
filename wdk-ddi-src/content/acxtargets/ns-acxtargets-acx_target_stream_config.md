@@ -77,9 +77,7 @@ audio modes, see [Audio Signal Processing Modes](/windows-hardware/drivers/audio
 
 ### -field OptionalParameters
 
-TBD - An ACXOBJECTBAG ACX object describing optional parameters.
-
-Use this for TBD. 
+An ACXOBJECTBAG ACX object describing optional parameters.
 
 ## -remarks
 

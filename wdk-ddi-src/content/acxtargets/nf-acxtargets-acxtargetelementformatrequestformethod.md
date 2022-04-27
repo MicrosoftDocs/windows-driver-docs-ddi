@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetElementFormatRequestForMethod
 ms.date: 04/22/2022
 targetos: Windows
-description: The AcxTargetElementFormatRequestForMethod dispatches an ACX request using a WDFREQUEST framework request object.
+description: The AcxTargetElementFormatRequestForMethod function dispatches an ACX request using a WDFREQUEST framework request object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
