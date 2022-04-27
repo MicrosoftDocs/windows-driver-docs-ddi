@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_TARGET_FACTORY_CIRCUIT_CONFIG** structure is used to define the target factory circuit configuration. 
+The **ACX_TARGET_FACTORY_CIRCUIT_CONFIG** structure is used to define the target factory circuit configuration.
 
 ## -struct-fields
 
@@ -54,17 +54,17 @@ The length, in bytes, of this structure.
 
 ### -field Flags
 
-Target factory circuit configuration flags defined by the [ACX_TARGET_FACTORY_CIRCUIT_CONFIG_FLAGS enum](ne-acxtargets-acx_target_factory_circuit_config_flags.md). 
+Target factory circuit configuration flags defined by the [ACX_TARGET_FACTORY_CIRCUIT_CONFIG_FLAGS enum](ne-acxtargets-acx_target_factory_circuit_config_flags.md).
 
 No flag bits are currently defined. Set this member to zero - AcxTargetFactoryCircuitConfigNoFlags
 
 ### -field IoTarget
 
-TBD -  A WDFIOTARGET object that is the IoTarget for the factory circuit.
+A WDFIOTARGET object that is the IoTarget for the factory circuit. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).
 
 ### -field SymbolicLinkName
 
-A string that represents the link name that was created by the TBD.
+Pointer to a Unicode string that contains the name of the symbolic link for the circuit configuration.
 
 ## -remarks
 
@@ -80,3 +80,5 @@ A string that represents the link name that was created by the TBD.
 ## -see-also
 
 - [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic 

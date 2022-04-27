@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_TARGET_CIRCUIT_CONFIG** structure is used to define the target circuit configuration. 
+The **ACX_TARGET_CIRCUIT_CONFIG** structure is used to define the target circuit configuration.
 
 ## -struct-fields
 
@@ -54,18 +54,26 @@ The length, in bytes, of this structure.
 
 ### -field Flags
 
-Target circuit configuration flags defined by the [ACX_TARGET_CIRCUIT_CONFIG enum](ne-acxtargets-acx_target_circuit_config_flags.md). 
+Target circuit configuration flags defined by the [ACX_TARGET_CIRCUIT_CONFIG enum](ne-acxtargets-acx_target_circuit_config_flags.md).
 
 No flag bits are currently defined. Set this member to zero - AcxTargetCircuitConfigNoFlags
 
 ### -field SymbolicLinkName
 
-TBD - A string that represents the link name that was created by - TBD
+Pointer to a Unicode string that contains the name of the symbolic link for the circuit configuration.
 
 ## -remarks
 
+Sample Pending
 
+### Example
+
+```cpp
+
+```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
+
+TBD - Please review this topic

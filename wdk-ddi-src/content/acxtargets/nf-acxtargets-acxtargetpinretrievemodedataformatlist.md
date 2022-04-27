@@ -64,6 +64,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+Sample pending
+
 ### Example
 
 ```cpp
