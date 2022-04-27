@@ -66,8 +66,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Does this sample look OK?
-
 ```cpp
 ...
     _In_        WDFOBJECT               AcxTarget,

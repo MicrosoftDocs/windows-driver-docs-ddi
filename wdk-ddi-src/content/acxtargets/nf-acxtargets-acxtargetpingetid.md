@@ -57,8 +57,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Does this sample code look OK?
-
 ```cpp
      ACXTARGETPIN targetPin = AcxTargetCircuitGetTargetPin(TargetCircuit, pinIndex);
      ULONG PinId = AcxTargetPinGetId(targetPin);

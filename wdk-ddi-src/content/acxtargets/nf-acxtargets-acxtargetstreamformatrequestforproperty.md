@@ -42,9 +42,13 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetStreamFormatRequestForProperty** function dispatches an ACX request using a WDFREQUEST framework request object.
+
 ## -parameters
 
 ### -param TargetStream
+
+A pointer to the location of an existing ACXTARGETSTREAM object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Request
 
@@ -52,7 +56,7 @@ A pointer to a location that receives a handle to a WDFREQUEST framework request
 
 ### -param Params
 
-TBD - An initialized [ACX_REQUEST_PARAMETERS](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_request_parameters.md) structure that is used to store request parameter information.
+An initialized [ACX_REQUEST_PARAMETERS](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_request_parameters.md) structure that is used to store request parameter information.
 
 ## -returns
 
@@ -63,9 +67,19 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 ```cpp
-
+NTSTATUS
+Aggregator_FormatRequestForProperty(
+    _In_ ACXTARGETSTREAM            Stream,
+    _In_ WDFREQUEST                 Request,
+    _In_ PACX_REQUEST_PARAMETERS    Parameters
+)
+{
+    PAGED_CODE();
+    return AcxTargetStreamFormatRequestForProperty(Stream, Request, Parameters);
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
+ 
+TBD - Please review this topic   

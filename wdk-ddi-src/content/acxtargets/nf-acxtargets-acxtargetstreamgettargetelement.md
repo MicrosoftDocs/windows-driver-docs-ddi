@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetStreamGetTargetElement
 tech.root: audio
 title: AcxTargetStreamGetTargetElement
-ms.date:  11/11/2021
+ms.date: 04/26/2022
 targetos: Windows
-description: 
+description: The AcxTargetStreamGetTargetElement function, given a valid element index value, will return an ACXTARGETELEMENT ACX object that is associated with the specified circuit.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -59,6 +59,8 @@ The numeric index value for the specified element.
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
+
+Sample Pending
 
 ### Example
 
