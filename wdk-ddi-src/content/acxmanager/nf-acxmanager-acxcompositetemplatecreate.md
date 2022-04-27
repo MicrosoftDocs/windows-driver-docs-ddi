@@ -2,7 +2,7 @@
 UID: NF:acxmanager.AcxCompositeTemplateCreate
 tech.root: audio
 title: AcxCompositeTemplateCreate
-ms.date: 04/15/2022
+ms.date: 04/27/2022
 targetos: Windows
 description: The AcxCompositeTemplateCreate function is used to create a composite template for use by the audio class extension (ACX) manager.
 prerelease: true
@@ -76,5 +76,6 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)
 - [acxmanager.h header](index.md)
 
-
 READY2GO
+
+EDITCOMPLETE

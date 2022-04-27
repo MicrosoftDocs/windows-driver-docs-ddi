@@ -2,7 +2,7 @@
 UID: NE:acxmanager._ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS
 tech.root: audio
 title: ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS
-ms.date: 04/15/2022
+ms.date: 04/27/2022
 targetos: Windows
 description: The ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS enumeration is used to configure the properties of a composite template used by the audio class extension (ACX) manager.
 prerelease: true
@@ -64,3 +64,5 @@ For internal validation, do not use.
 - [acxmanager.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

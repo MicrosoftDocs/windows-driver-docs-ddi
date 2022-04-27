@@ -2,7 +2,7 @@
 UID: NF:acxmanager.AcxCircuitTemplateCreate
 tech.root: audio
 title: AcxCircuitTemplateCreate
-ms.date: 04/15/2022
+ms.date: 04/27/2022
 targetos: Windows
 description: The AcxCircuitTemplateCreate function is used to create a circuit template for use by the audio class extension (ACX) manager.
 prerelease: true
@@ -77,3 +77,5 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [acxmanager.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

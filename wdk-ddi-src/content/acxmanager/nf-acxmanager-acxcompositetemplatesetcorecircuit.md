@@ -2,9 +2,9 @@
 UID: NF:acxmanager.AcxCompositeTemplateSetCoreCircuit
 tech.root: audio
 title: AcxCompositeTemplateSetCoreCircuit
-ms.date: 04/15/2022
+ms.date: 04/27/2022
 targetos: Windows
-description: The AcxCompositeTemplateSetCoreCircuit function set the core circuit template for the specified composite template.
+description: The AcxCompositeTemplateSetCoreCircuit function sets the core circuit template for the specified composite template.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCompositeTemplateSetCoreCircuit** function set the core circuit template for the specified composite template.
+The **AcxCompositeTemplateSetCoreCircuit** function sets the core circuit template for the specified composite template.
 
 ## -parameters
 
@@ -56,10 +56,12 @@ The circuit template to set as the core on the specified *CompositeTemplate*.
 
 ## -remarks
 
-The core circuit is the circuit that gives the identity to the composite endpoint. If this circuit is not present, ACX manager doesn't start the endpoint building process.
+The core circuit gives the identity to the composite endpoint. If this circuit is not present, ACX manager doesn't start the endpoint building process.
 
 ## -see-also
 
 - [acxmanager.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

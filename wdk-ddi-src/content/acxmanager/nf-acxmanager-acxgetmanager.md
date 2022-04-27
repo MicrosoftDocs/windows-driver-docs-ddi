@@ -2,7 +2,7 @@
 UID: NF:acxmanager.AcxGetManager
 tech.root: audio
 title: AcxGetManager
-ms.date: 04/15/2022
+ms.date: 04/27/2022
 targetos: Windows
 description: The AcxGetManager function returns the underlying ACXMANAGER handle.
 prerelease: false
@@ -63,3 +63,5 @@ The *Context* parameter must be set to `NULL`.
 - [acxmanager.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

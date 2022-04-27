@@ -2,7 +2,7 @@
 UID: NF:acxmanager.AcxCompositeTemplateAssignCircuits
 tech.root: audio
 title: AcxCompositeTemplateAssignCircuits
-ms.date: 04/15/2022
+ms.date: 04/27/2022
 targetos: Windows
 description: The AcxCompositeTemplateAssignCircuits function adds an array of circuit templates to the specified composite template.
 prerelease: true
@@ -71,3 +71,5 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [acxmanager.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NS:acxmanager._ACX_CIRCUIT_TEMPLATE_CONFIG
 tech.root: audio
 title: ACX_CIRCUIT_TEMPLATE_CONFIG
-ms.date: 04/15/2022
+ms.date: 04/27/2022
 targetos: Windows
 description: The ACX_CIRCUIT_TEMPLATE_CONFIG structure is used to configure a new ACX circuit template object.
 prerelease: true
@@ -103,3 +103,5 @@ The **ACX_CIRCUIT_TEMPLATE_CONFIG** structure is initialized by calling the [ACX
 - [acxmanager.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

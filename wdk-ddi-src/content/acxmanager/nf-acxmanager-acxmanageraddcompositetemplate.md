@@ -2,7 +2,7 @@
 UID: NF:acxmanager.AcxManagerAddCompositeTemplate
 tech.root: audio
 title: AcxManagerAddCompositeTemplate
-ms.date: 04/15/2022
+ms.date: 04/27/2022
 targetos: Windows
 description: The AcxManagerAddCompositeTemplate function adds the specified composite template to the specified ACXMANAGER.
 prerelease: true
@@ -60,10 +60,12 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 ## -remarks
 
-A composite template tells to ACX manager how to build a composite endpoint, i.e., an audio endpoint using two or more ACXCIRCUITs.
+A composite template tells the ACX manager how to build a composite endpoint. For example, build an audio endpoint using two or more ACXCIRCUIT objects.
 
 ## -see-also
 
 - [acxmanager.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
