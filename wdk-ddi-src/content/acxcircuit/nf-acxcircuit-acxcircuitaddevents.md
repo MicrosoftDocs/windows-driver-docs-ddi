@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitAddEvents function adds one or more events to an existing circuit. 
+The **AcxCircuitAddEvents** function adds one or more events to an existing circuit.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ An existing ACXCIRCUIT circuit object.  For more information about ACX objects, 
 
 ### -param Events
 
-An existing ACXEVENT object containing one or more events. 
+An existing ACXEVENT object containing one or more events.
 
 ### -param EventsCount
 
@@ -70,7 +70,7 @@ An AcxEvent represents an asynchronous notification available at the driver leve
 
 Example usage is shown below.
 
-TBD - No sample code found
+Sample pending.
 
 ```cpp
 

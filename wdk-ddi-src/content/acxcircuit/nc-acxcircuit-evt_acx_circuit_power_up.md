@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_CIRCUIT_POWER_UP callback is used by the driver to add functionality in the power up path of an ACXCIRCUIT object.
+The **EVT_ACX_CIRCUIT_POWER_UP** callback is used by the driver to add functionality in the power up path of an ACXCIRCUIT object.
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT. 
+A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT.
 
 ### -param Circuit
 

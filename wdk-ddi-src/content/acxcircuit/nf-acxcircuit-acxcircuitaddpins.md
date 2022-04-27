@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitAddPins
 tech.root: audio
 title: AcxCircuitAddPins
-ms.date: 02/01/2022
+ms.date: 04/27/2022
 targetos: Windows
 description: The AcxCircuitAddPins function adds pins to an existing ACX circuit. 
 prerelease: true
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitAddPins function adds pins to an existing ACX circuit. 
+The **AcxCircuitAddPins** function adds pins to an existing ACX circuit.
 
 ## -parameters
 
 ### -param Circuit
 
- An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Pins
 
@@ -64,9 +64,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An AcxCircuit has an input pin and an output pin (ACXPIN), and it aggregates one or more AcxElements. 
-
-TBD - The default pin ID has a value of TBD and is used to TBD...
+An AcxCircuit has an input pin and an output pin (ACXPIN), and it aggregates one or more AcxElements.
 
 Each ACXCIRCUIT has at least one Sink Pin and one Source Pin. These Pins are used by the ACX framework to expose the circuit’s connections to the audio stack. For a Render circuit, the Source Pin is used to control the render behavior of any stream created from the circuit. For a Capture circuit, the Sink Pin is used to control the capture behavior of any stream created from the circuit.
 

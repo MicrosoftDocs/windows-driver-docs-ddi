@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitAddConnections function adds connections to an Acx circuit. 
+The **AcxCircuitAddConnections** function adds connections to an Acx circuit.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ An existing ACXCIRCUIT circuit object.  For more information about ACX objects, 
   
 ### -param Connections
 
-A pointer to an [ACX_CONNECTION structure](/windows-hardware/drivers/ddi/acxrequest/acxpin/ns-acxpin-acx_connection) that describes the pin structure including the pin IDs. 
+A pointer to an [ACX_CONNECTION structure](/windows-hardware/drivers/ddi/acxrequest/acxpin/ns-acxpin-acx_connection) that describes the pin structure including the pin IDs.
 
 ### -param ConnectionsCount
 

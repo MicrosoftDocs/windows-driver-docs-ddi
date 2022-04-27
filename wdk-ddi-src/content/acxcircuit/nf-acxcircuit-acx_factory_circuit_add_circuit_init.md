@@ -40,9 +40,9 @@ dev_langs:
  - c++
 ---
 
-## -description 
+## -description
 
-The ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_INIT function initializes a 
+The **ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_INIT** function initializes a 
 [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT](ns-acxcircuit-acx_factory_circuit_add_circuit.md) structure. No inputs are used with this function.
 
 ## -parameters

@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitAddPhysicalConnections function adds physical connections to an existing ACX circuit. 
+The **AcxCircuitAddPhysicalConnections** function adds physical connections to an existing ACX circuit.
 
 ## -parameters
 
 ### -param Circuit
 
 An existing ACXCIRCUIT circuit object.  For more information, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
- 
+
 ### -param Connections
 
-A pointer to an [ACX_CONNECTION structure](/windows-hardware/drivers/ddi/acxrequest/acxpin/ns-acxpin-acx_connection) that describes the pin structure including the pin IDs. 
+A pointer to an [ACX_CONNECTION structure](/windows-hardware/drivers/ddi/acxrequest/acxpin/ns-acxpin-acx_connection) that describes the pin structure including the pin IDs.
 
 ### -param ConnectionsCount
 

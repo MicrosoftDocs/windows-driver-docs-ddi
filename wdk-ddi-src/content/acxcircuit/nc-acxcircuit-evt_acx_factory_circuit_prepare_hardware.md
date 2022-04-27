@@ -56,11 +56,11 @@ The existing circuit factory ACXFACTORYCIRCUIT Object. For more information abou
 
 ### -param ResourcesRaw
 
-A WDF resource list that describes the raw resources to be used for the prepare hardware phase TBD TBD. This is a WDF framework resource-list object that represents a list of hardware resources for a device. For more information about raw resources, see [Hardware Resources for Framework-Based Drivers](/windows-hardware/drivers/wdf/raw-and-translated-resources).
+A WDF resource list that describes the raw resources to be used for the prepare hardware phase TBD. This is a WDF framework resource-list object that represents a list of hardware resources for a device. For more information about raw resources, see [Hardware Resources for Framework-Based Drivers](/windows-hardware/drivers/wdf/raw-and-translated-resources).
 
 ### -param ResourcesTranslated
 
-A WDF resource list that describes the translated resources to be used for the prepare hardware phase TBD TBD. This is a WDF framework resource-list object that represents a list of hardware resources for a device. For more information about translated resource lists, see [Raw and Translated Resources](/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers).
+A WDF resource list that describes the translated resources to be used for the prepare hardware phase TBD. This is a WDF framework resource-list object that represents a list of hardware resources for a device. For more information about translated resource lists, see [Raw and Translated Resources](/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers).
 
 ## -returns
 
@@ -70,7 +70,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - No example code or unit tests found.
+Sample pending.
 
 Example usage is shown below.
 

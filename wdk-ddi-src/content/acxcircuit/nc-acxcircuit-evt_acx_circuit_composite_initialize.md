@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_CIRCUIT_COMPOSITE_INITIALIZE callback is used by the driver to do any post-initialization after the composite endpoint has been assembled by ACX Manager.
+The **EVT_ACX_CIRCUIT_COMPOSITE_INITIALIZE** callback is used by the driver to do any post-initialization after the composite endpoint has been assembled by ACX Manager.
 
 ## -parameters
 

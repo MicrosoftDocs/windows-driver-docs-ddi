@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitSetComponentId function is used to set the component ID during the ACX circuit initialization process.
+The **AcxCircuitInitSetComponentId** function is used to set the component ID during the ACX circuit initialization process.
 
 ## -parameters
 

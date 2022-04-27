@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to add functionality when an ACXCIRCUIT is in the prepare hardware phase. 
+The **EVT_ACX_CIRCUIT_PREPARE_HARDWARE** callback is used by the driver to add functionality when an ACXCIRCUIT is in the prepare hardware phase.
 
 ## -parameters
 

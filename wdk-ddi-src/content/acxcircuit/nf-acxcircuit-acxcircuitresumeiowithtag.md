@@ -61,7 +61,7 @@ An optional ObjectTag that is a driver-defined value that the framework stores a
 
 Example usage is shown below.
 
-TBD - No sample code found.
+Sample pending.
 
 ```cpp
 

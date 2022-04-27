@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_STOP_IO_FLAGS enumeration defines Stop IO flags.
+The **ACX_STOP_IO_FLAGS** enumeration defines Stop IO flags.
 
 ## -enum-fields
 

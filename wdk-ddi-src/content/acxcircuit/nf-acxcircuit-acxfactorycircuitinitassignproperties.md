@@ -67,7 +67,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
  
-TBD - No sample code found.
+Sample pending.
 
 Example usage is shown below.
 

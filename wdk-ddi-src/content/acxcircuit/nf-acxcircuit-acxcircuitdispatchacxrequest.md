@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitDispatchAcxRequest dispatches a standard WDFREQUEST object to the WDF framework which will manage the request. For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).
+The **AcxCircuitDispatchAcxRequest** dispatches a standard WDFREQUEST object to the WDF framework which will manage the request. For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).
 
 ## -parameters
 

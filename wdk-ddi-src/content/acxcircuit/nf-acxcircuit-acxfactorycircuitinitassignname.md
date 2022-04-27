@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitInitAssignName
 ms.date: 02/02/2022
 targetos: Windows
-description: The AcxFactoryCircuitInitAssignName function assigns a friendly (TBD?) Name that will be used for the circuit initialization.
+description: The AcxFactoryCircuitInitAssignName function assigns a friendly name that will be used for the circuit initialization.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxFactoryCircuitInitAssignName function assigns a friendly (TBD?) Name that will be used for the circuit initialization.
+The AcxFactoryCircuitInitAssignName function assigns a friendly name that will be used for the circuit initialization.
 
 ## -parameters
 
@@ -53,7 +53,7 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param FactoryName
 
-TBD - A unicode string describes the circuit, such as *Microphone0* or *Render* that is used as a friendly TBD name for the circuit.
+TBD - A unicode string describes the circuit, such as *Microphone0* or *Render* that is used as a friendly name for the circuit.
 
 ## -returns
 

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitAddElements function adds elements to an existing or new TBD? circuit.
+The **AcxCircuitAddElements** function adds elements to an existing or new TBD? circuit.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ An existing ACXCIRCUIT circuit object.  For more information about ACX objects, 
 
 ### -param Elements
 
-TBD - An ACXELEMENT circuit object (TBD - array?) that will be added to the circuit.  
+An ACXELEMENT circuit object (TBD - array?) that will be added to the circuit.  
 
 `_In_reads_(ElementsCount) ACXELEMENT*   Elements,`
 

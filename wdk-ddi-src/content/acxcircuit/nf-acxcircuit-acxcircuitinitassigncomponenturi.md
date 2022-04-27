@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignComponentUri
 tech.root: audio
 title: AcxCircuitInitAssignComponentUri
-ms.date: 08/17/2021
+ms.date: 04/27/2022
 targetos: Windows
 description: The AcxCircuitInitAssignComponentUri function assigns a ComponentUri that will be used for the circuit initialization.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitAssignComponentUri function assigns a ComponentUri that will be used for the circuit initialization.
+The **AcxCircuitInitAssignComponentUri** function assigns a ComponentUri that will be used for the circuit initialization.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param ComponentUri
 
-A unicode string describes the component that is used as a URI to TBD identify it to TBD.
+A unicode string describes the component that is used as a URI to identify it.
 
 ## -returns
 

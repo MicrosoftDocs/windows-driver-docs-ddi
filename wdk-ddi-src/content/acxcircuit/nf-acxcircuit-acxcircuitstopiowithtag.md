@@ -48,12 +48,13 @@ The **AcxCircuitStopIoWithTag** function is used to signal to the operating syst
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object.  (For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing *ACXCIRCUIT* circuit object.  (For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Flags
 
 Stop IO flags defined by the [ACX_STOP_IO_FLAGS enumeration](ne-acxcircuit-acx_stop_io_flags.md).
-Currently no flags are defined, set this to `AcxStopIoNoFlags`. 
+
+Currently no flags are defined, set this to `AcxStopIoNoFlags`.
 
 ### -param Tag
 
@@ -61,12 +62,11 @@ An optional ObjectTag that is a driver-defined value that the framework stores a
 
 ## -remarks
 
-
 ### Example
 
 Example usage is shown below.
 
-TBD - No sample test code found
+Sample pending.
 
 ```cpp
 

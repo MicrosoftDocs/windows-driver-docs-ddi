@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE callback is used by the driver to do any de-initialiation of a composite circuit when it is de-initialized by ACX Manager.
+The **EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE** callback is used by the driver to do any de-initialiation of a composite circuit when it is de-initialized by ACX Manager.
 
 ## -parameters
 

@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitInitFree
 tech.root: audio
 title: AcxCircuitInitFree
-ms.date: 08/18/2021
+ms.date: 04/27/2022
 targetos: Windows
-description: The AcxCircuitInitFree function frees the circuit (TBD - at the end of the initialization process?).
+description: The AcxCircuitInitFree function deletes the circuit initialization object that was associated with a circuit.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitFree function frees the circuit initialization object and the TBD??? associated with the circuit.
+The **AcxCircuitInitFree** function deletes the circuit initialization object that was associated with a circuit.
 
 ## -parameters
 

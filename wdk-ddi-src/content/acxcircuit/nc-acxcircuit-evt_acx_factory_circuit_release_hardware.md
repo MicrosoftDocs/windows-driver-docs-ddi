@@ -54,10 +54,9 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 The existing circuit factory ACXFACTORYCIRCUIT Object. (For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
-
 ### -param ResourcesTranslated
 
-A WDF resource list that describes the translated resources to be used for the prepare hardware phase TBD TBD. This is a WDF framework resource-list object that represents a list of hardware resources for a device. For more information about translated resource lists, see [Raw and Translated Resources](/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers).
+A WDF resource list that describes the translated resources to be used for the prepare hardware phase TBD. This is a WDF framework resource-list object that represents a list of hardware resources for a device. For more information about translated resource lists, see [Raw and Translated Resources](/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers).
 
 ## -returns
 
@@ -69,7 +68,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 Example usage is shown below.
 
-TBD - No example code or unit tests found.
+Sample pending.
 
 ```cpp
 

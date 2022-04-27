@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitAssignCategories function assigns a set of KSCATERGORY entries that will be used for the circuit initialization.
+The **AcxCircuitInitAssignCategories** function assigns a set of KSCATERGORY entries that will be used for the circuit initialization.
 
 ## -parameters
 

@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitGetElementById
 tech.root: audio
 title: AcxCircuitGetElementById
-ms.date: 02/02/2022
+ms.date: 04/27/2022
 targetos: Windows
 description: When provided a valid ElementID number, the AcxCircuitGetElementById function returns a reference to an existing ACXELEMENT object.
 prerelease: true
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-When provided a valid ElementID number, the AcxCircuitGetElementById function returns a reference to an existing ACXELEMENT object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+When provided a valid ElementID number, the **AcxCircuitGetElementById** function returns a reference to an existing ACXELEMENT object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object. 
+An existing ACXCIRCUIT circuit object.
 
 ### -param ElementId
 
@@ -56,7 +56,7 @@ A valid Element ID number.
 
 ## -returns
 
-An existing ACXELEMENT object.  
+The requested ACXELEMENT object associated with the provided element ID number.  
 
 ## -remarks
 

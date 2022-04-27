@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitAssignAcxCreateStreamCallback function is used to assign an ACX CreateStream callback.
+The **AcxCircuitInitAssignAcxCreateStreamCallback** function is used to assign an ACX CreateStream callback.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param EvtCircuitCreateStream
 
-A pointer to a [EVT_ACX_CIRCUIT_CREATE_STREAM](nc-acxcircuit-evt_acx_circuit_create_stream.md) callback. 
+A pointer to a [EVT_ACX_CIRCUIT_CREATE_STREAM](nc-acxcircuit-evt_acx_circuit_create_stream.md) callback.
 
 ## -returns
 

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitAssignAcxRequestPreprocessCallback function initializes defined AssignAcxRequest Preprocess callbacks.
+The **AcxCircuitInitAssignAcxRequestPreprocessCallback** function initializes defined AssignAcxRequest Preprocess callbacks.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param EvtObjectAcxRequestPreprocess
 
-A pointer to a [EVT_ACX_OBJECT_PREPROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_preprocess_request.md) callback. 
+A pointer to a [EVT_ACX_OBJECT_PREPROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_preprocess_request.md) callback.
 
 ### -param DriverContext
 
@@ -60,15 +60,15 @@ The driver context defined by the ACXCONTEXT object.  For more information about
 
 ### -param RequestType
 
-An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_request_type) that defines different request types, such as AcxRequestTypeAny or AcxRequestTypeEvent. 
+An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_request_type) that defines different request types, such as AcxRequestTypeAny or AcxRequestTypeEvent.
 
 ### -param Set
 
-Optional GUID to identify the associated (TBD - what type of?) Set.
+Optional GUID to identify the associated (TBD - what type of, for example KSPROPSETID_*?) Set. 
 
 ### -param Id
 
-TBD - An ID value that TBD
+An ID value that TBD.
 
 ## -returns
 

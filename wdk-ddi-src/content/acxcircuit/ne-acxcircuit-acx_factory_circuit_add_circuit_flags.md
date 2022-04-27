@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS enumeration defines factory circuit add flags.
+The **ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS** enumeration defines factory circuit add flags.
 
 ## -enum-fields
 

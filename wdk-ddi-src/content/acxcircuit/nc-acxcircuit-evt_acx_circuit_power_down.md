@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_CIRCUIT_POWER_DOWN callback is used by the driver to add functionality in the power down path of a ACXCIRCUIT object.
+The **EVT_ACX_CIRCUIT_POWER_DOWN** callback is used by the driver to add functionality in the power down path of a ACXCIRCUIT object.
 
 ## -parameters
 

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitResumeIoActual** function is used to resume circuit IO after it has been stopped. 
+The **AcxCircuitResumeIoActual** function is used to resume circuit IO after it has been stopped.
 
 ## -parameters
 

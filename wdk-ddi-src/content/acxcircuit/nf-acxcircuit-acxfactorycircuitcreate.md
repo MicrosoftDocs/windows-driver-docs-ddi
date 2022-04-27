@@ -48,7 +48,7 @@ The AcxFactoryCircuitCreate function is used to create a circuit using an Acx Ci
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be associated with the circuit and will be the parent under these conditions - TBD TBD.
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be associated with the circuit and will be the parent under these certain conditions.
 
 ### -param Attributes
 

@@ -41,7 +41,8 @@ dev_langs:
 ---
 
 ## -description
-When provided a valid PinID number, the AcxCircuitGetPinById function returns a reference to an existing ACXPIN object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
+When provided a valid PinID number, the **AcxCircuitGetPinById** function returns a reference to an existing ACXPIN object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
@@ -51,11 +52,11 @@ An existing *ACXCIRCUIT* circuit object.
 
 ### -param PinId
 
-A valid Pin ID number. 
+A valid Pin ID number.
 
 ## -returns
 
-A reference to an existing ACXPIN object.
+A reference to an existing *ACXPIN* object.
 
 ## -remarks
 

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to add additional functionality when a factory circuit is powered down. 
+The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to add additional functionality when a factory circuit is powered down.
 
 ## -parameters
 
@@ -71,7 +71,7 @@ To register an EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback function, a driver mu
 
 Example usage is shown below.
 
-TBD - No example code or unit tests found.
+Sample pending
 
 ```cpp
 

@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-The ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT function initializes a 
+The **ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT** function initializes a 
 [ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT](ns-acxcircuit-acx_factory_circuit_remove_circuit.md) structure. No inputs are used with this function.
 
 ## -parameters

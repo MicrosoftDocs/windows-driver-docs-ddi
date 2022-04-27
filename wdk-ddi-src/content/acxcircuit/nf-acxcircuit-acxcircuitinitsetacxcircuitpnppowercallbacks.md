@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitSetAcxCircuitPnpPowerCallbacks function sets the composite callbacks for an ACX Circuit initialization process.
+The **AcxCircuitInitSetAcxCircuitPnpPowerCallbacks** function sets the composite callbacks for an ACX Circuit initialization process.
 
 ## -parameters
 

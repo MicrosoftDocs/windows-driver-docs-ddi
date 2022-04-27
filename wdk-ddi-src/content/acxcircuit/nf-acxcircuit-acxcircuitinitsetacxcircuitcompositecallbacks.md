@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitSetAcxCircuitCompositeCallbacks function sets the composite callbacks for and ACX Circuit initialization process.
+The **AcxCircuitInitSetAcxCircuitCompositeCallbacks** function sets the composite callbacks for and ACX Circuit initialization process.
 
 ## -parameters
 
@@ -53,7 +53,6 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 ### -param EvtCompositeCallbacks
 
 A pointer to an initialized [ACX_CIRCUIT_COMPOSITE_CALLBACKS structure](ns-acxcircuit-acx_circuit_composite_callbacks.md) that contains the callbacks to be used for the circuit.
-
 
 ## -remarks
 

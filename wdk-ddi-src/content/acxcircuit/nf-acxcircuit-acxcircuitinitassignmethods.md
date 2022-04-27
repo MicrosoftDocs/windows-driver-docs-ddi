@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitAssignMethods function assigns one or more Methods that will be used for the circuit initialization.
+The **AcxCircuitInitAssignMethods** function assigns one or more Methods that will be used for the circuit initialization.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param Methods
 
-An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/acxrequest/ns-acxrequest-acx_method_item) structure that defines a set of methods that will be used for circuit initialization. 
+An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/acxrequest/ns-acxrequest-acx_method_item) structure that defines a set of methods that will be used for circuit initialization.
 
 ### -param MethodsCount
 

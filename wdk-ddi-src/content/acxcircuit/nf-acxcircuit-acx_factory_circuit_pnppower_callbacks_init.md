@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-The ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT function initializes a 
+The **ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT** function initializes a 
 [ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS](ns-acxcircuit-acx_factory_circuit_pnppower_callbacks.md) structure. No inputs are used with this function.
 
 ## -parameters
@@ -52,14 +52,13 @@ The ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT function initializes a
 
 A pointer to an initialized [ACX_CIRCUIT_PNPPOWER_CALLBACKS structure](ns-acxcircuit-acx_circuit_pnppower_callbacks.md).
 
-
 ## -remarks
 
 ### Example
 
 Example usage is shown below.
 
-TBD - No sample code found.
+Sample pending.
 
 ```cpp
 

@@ -42,14 +42,13 @@ dev_langs:
 
 ## -description
 
-The ACX_CIRCUIT_COMPOSITE_CALLBACKS_INIT function initializes a [ACX_CIRCUIT_COMPOSITE_CALLBACKS structure](ns-acxcircuit-acx_circuit_composite_callbacks.md). No inputs are used with this function.
+The **ACX_CIRCUIT_COMPOSITE_CALLBACKS_INIT** function initializes a [ACX_CIRCUIT_COMPOSITE_CALLBACKS structure](ns-acxcircuit-acx_circuit_composite_callbacks.md). No inputs are used with this function.
 
 ## -parameters
 
 ### -param CompositeCallbacks
 
 A pointer to an initialized [ACX_CIRCUIT_COMPOSITE_CALLBACKS structure](ns-acxcircuit-acx_circuit_composite_callbacks.md).
-
 
 ## -remarks
 

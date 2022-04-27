@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitSetCircuitType function is used to set the circuit type for the ACX circuit initialization process.
+The **AcxCircuitInitSetCircuitType** function is used to set the circuit type for the ACX circuit initialization process.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param CircuitType
 
-An [ACX_CIRCUIT_TYPE enum](ne-acxcircuit-acx_circuit_type.md) that is used to define the circuit type. For example, AcxCircuitTypeRender, AcxCircuitTypeCapture or AcxCircuitTypeOther. 
+An [ACX_CIRCUIT_TYPE enum](ne-acxcircuit-acx_circuit_type.md) that is used to define the circuit type. For example, AcxCircuitTypeRender, AcxCircuitTypeCapture or AcxCircuitTypeOther.
 
 ## -remarks
 

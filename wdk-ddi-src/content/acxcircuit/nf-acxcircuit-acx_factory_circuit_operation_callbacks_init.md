@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-The ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT function initializes a 
+The **ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT** function initializes a 
 [ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS](ns-acxcircuit-acx_factory_circuit_operation_callbacks.md) config structure. No inputs are used with this function.
 
 ## -parameters

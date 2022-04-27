@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The ACX_FACTORY_CIRCUIT_TYPE enumeration defines the circuit type for ACX circuit factories.
+The **ACX_FACTORY_CIRCUIT_TYPE** enumeration defines the circuit type for ACX circuit factories.
 
 ## -enum-fields
 

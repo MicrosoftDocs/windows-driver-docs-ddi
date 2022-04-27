@@ -68,7 +68,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 Example usage is shown below.
 
-TBD - No example code or unit tests found.
+Sample pending
 
 ```cpp
 
