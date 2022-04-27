@@ -102,4 +102,4 @@ The **ACX_CIRCUIT_TEMPLATE_CONFIG** structure is initialized by calling the [ACX
 - [ACX_CIRCUIT_TEMPLATE_CONFIG_FLAGS](ne-acxmanager-acx_circuit_template_config_flags.md)
 - [acxmanager.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

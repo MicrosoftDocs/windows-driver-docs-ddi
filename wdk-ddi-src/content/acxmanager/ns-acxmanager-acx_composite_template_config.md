@@ -58,7 +58,7 @@ A combination of values from the [ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS](ne-acxman
 
 ### -field Properties
 
-An optional **ACXOBJECTBAG** of composite template properties.
+An optional **ACXOBJECTBAG** of composite template properties. Only for singleton composites.
 
 ## -remarks
 
@@ -68,4 +68,4 @@ An optional **ACXOBJECTBAG** of composite template properties.
 - [ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS](ne-acxmanager-acx_composite_template_config_flags.md)
 - [acxmanager.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
