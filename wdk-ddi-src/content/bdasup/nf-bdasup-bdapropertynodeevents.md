@@ -2,15 +2,14 @@
 UID: NF:bdasup.BdaPropertyNodeEvents
 title: BdaPropertyNodeEvents function (bdasup.h)
 description: The BdaPropertyNodeEvents function retrieves a list of events that a node supports.
-old-location: stream\bdapropertynodeevents.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/25/2022
 keywords: ["BdaPropertyNodeEvents function"]
 ms.keywords: BdaPropertyNodeEvents, BdaPropertyNodeEvents function [Streaming Media Devices], bdaref_2c17ed4f-8a4c-41bc-b543-9b2e5b82834b.xml, bdasup/BdaPropertyNodeEvents, stream.bdapropertynodeevents
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. This routine is available on the Windows 2000 platform only if Microsoft DirectX 9.0 and later is installed on that platform.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,31 +40,23 @@ api_name:
  - BdaPropertyNodeEvents
 ---
 
-# BdaPropertyNodeEvents function
-
-
 ## -description
 
-The <b>BdaPropertyNodeEvents</b> function retrieves a list of events that a node supports.
+The **BdaPropertyNodeEvents** function retrieves a list of events that a node supports.
 
 ## -parameters
 
-### -param pIrp
+### -param pIrp [in]
+
+Points to the IRP for the request to retrieve the list of events for a node. The BDA minidriver receives this IRP with the [KSPROPERTY_BDA_NODE_EVENTS](/windows-hardware/drivers/stream/ksproperty-bda-node-events) request.
 
 ### -param pKSProperty [in]
 
-
-Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property and request type of the property request.
+Points to a [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure) structure that describes the property and request type of the property request.
 
 ### -param pguidProperty [out, optional]
 
-
 Points to an array that receives the list of GUIDs for the events supported by a node.
-
-
-### -param Irp [in]
-
-Points to the IRP for the request to retrieve the list of events for a node. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksproperty-bda-node-events">KSPROPERTY_BDA_NODE_EVENTS</a> request.
 
 ## -returns
 
@@ -73,16 +64,12 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 ## -remarks
 
-A BDA minidriver calls the <b>BdaPropertyNodeEvents</b> function to retrieve the list of events for a node after the minidriver receives a <a href="/windows-hardware/drivers/stream/ksproperty-bda-node-events">KSPROPERTY_BDA_NODE_EVENTS</a> request of the <a href="/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a> property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the <b>BdaPropertyNodeEvents</b> function directly, without intercepting this request using an internal get-handler (<a href="/previous-versions/ff567177(v=vs.85)">KStrGetPropertyHandler</a>). See <a href="/windows-hardware/drivers/stream/defining-automation-tables">Defining Automation Tables</a> and <a href="/windows-hardware/drivers/stream/determining-bda-device-topology">Determining BDA Device Topology</a> for more information.
+A BDA minidriver calls the **BdaPropertyNodeEvents** function to retrieve the list of events for a node after the minidriver receives a [KSPROPERTY_BDA_NODE_EVENTS](/windows-hardware/drivers/stream/ksproperty-bda-node-events) request of the [KSPROPSETID_BdaTopology](/windows-hardware/drivers/stream/kspropsetid-bdatopology) property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the **BdaPropertyNodeEvents** function directly, without intercepting this request using an internal get-handler ([KStrGetPropertyHandler](/previous-versions/ff567177(v=vs.85))). See [Defining Automation Tables](/windows-hardware/drivers/stream/defining-automation-tables) and [Determining BDA Device Topology](/windows-hardware/drivers/stream/determining-bda-device-topology) for more information.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
+[KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)
 
+[KSPROPERTY_BDA_NODE_EVENTS](/windows-hardware/drivers/stream/ksproperty-bda-node-events)
 
-
-<a href="/windows-hardware/drivers/stream/ksproperty-bda-node-events">KSPROPERTY_BDA_NODE_EVENTS</a>
-
-
-
-<a href="/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a>
+[KSPROPSETID_BdaTopology](/windows-hardware/drivers/stream/kspropsetid-bdatopology)
