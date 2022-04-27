@@ -3,13 +3,13 @@ UID: NS:d3dkmddi._DXGK_DRIVERCAPS
 title: DXGK_DRIVERCAPS (d3dkmddi.h)
 description: The DXGK_DRIVERCAPS structure describes capabilities of a display miniport driver that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_drivercaps.htm
-ms.date: 11/01/2021
+ms.date: 04/26/2022
 keywords: ["DXGK_DRIVERCAPS structure"]
 ms.keywords: DXGK_DRIVERCAPS, DXGK_DRIVERCAPS structure [Display Devices], DmStructs_4a8b7d02-5b36-4a4b-980f-edfc96b4efd3.xml, _DXGK_DRIVERCAPS, d3dkmddi/DXGK_DRIVERCAPS, display.dxgk_drivercaps
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows Vista.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,7 +50,7 @@ dev_langs:
 
 ## -description
 
-The DXGK_DRIVERCAPS structure describes capabilities of a display miniport driver that the driver provides through a call to its [*DxgkDdiQueryAdapterInfo*](..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function.
+The **DXGK_DRIVERCAPS** structure describes capabilities of a display miniport driver that the driver provides through a call to its [*DxgkDdiQueryAdapterInfo*](..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function.
 
 ## -struct-fields
 
@@ -124,15 +124,14 @@ A [**DXGK_GPUENGINETOPOLOGY**](..\d3dkmddi\ns-d3dkmddi-_dxgk_gpuenginetopology.m
 
 ### -field WDDMVersion [out]
 
+A [**DXGK_WDDMVERSION**](ne-d3dkmddi-_dxgk_wddmversion.md) value that identifies the version of WDDM. Supported starting with Windows 7.
+
 If a driver supports Windows 7 or later features (DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7), this member is reserved and should be set to zero.
 
-NOTE: If a driver does not support Windows 7 or later features (DXGKDDI_INTERFACE_VERSION < DXGKDDI_INTERFACE_VERSION_WIN7), and you want to compile the driver
-with the Windows 7 WDK (Version 7600), set this member to DXGKDDI_WDDMv1.
+For older drivers that do not support Windows 7 or later features (DXGKDDI_INTERFACE_VERSION < DXGKDDI_INTERFACE_VERSION_WIN7):
 
-NOTE: If a driver does not support Windows 7 or later features (DXGKDDI_INTERFACE_VERSION < DXGKDDI_INTERFACE_VERSION_WIN7), and you want to compile the driver
-with the Windows 8 WDK, set this member to DXGKDDI_WDDMv1_2.
-
-Supported starting with Windows 7.
+* To compile the driver with the Windows 7 WDK (Version 7600), set this member to DXGKDDI_WDDMv1.
+* To compile the driver with the Windows 8 WDK, set this member to DXGKDDI_WDDMv1_2.
 
 ### -field Reserved
 
@@ -172,8 +171,8 @@ Supported starting with Windows 8.
 
 If **TRUE**, the driver supports the creation and opening of shared managed primary allocations. A value of **TRUE** also indicates the following:
 
-- The display miniport driver guarantees that when the [*DxgkDdiSetVidPnSourceAddress*](/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)) function is called, the driver does not allow video memory to be flipped to an incompatible allocation.
-- The user mode driver validates Direct Flip resources before the Desktop Windows Manager (DWM) uses them.
+* The display miniport driver guarantees that when the [*DxgkDdiSetVidPnSourceAddress*](/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)) function is called, the driver does not allow video memory to be flipped to an incompatible allocation.
+* The user mode driver validates Direct Flip resources before the Desktop Windows Manager (DWM) uses them.
 
 Only the DWM can flip video memory to Direct Flip resources. The DWM validates these resources using the user-mode [*CheckDirectFlipSupport*](..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkdirectflipsupport.md) function.
 
@@ -209,9 +208,9 @@ If **TRUE**, the display miniport driver is a discrete GPU in a [hybrid system](
 
 If this member is set, the display miniport driver should:
 
-- support WDDM 1.3
-- support cross-adapter resources
-- have no display outputs
+* support WDDM 1.3
+* support cross-adapter resources
+* have no display outputs
 
 For more information, see [Using cross-adapter resources in a hybrid system](/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system).
 
@@ -346,4 +345,3 @@ Indicates whether a driver supports hardware-queued flips. Supported starting in
 [**DXGK_FLIPCAPS**](..\d3dkmddi\ns-d3dkmddi-_dxgk_flipcaps.md)
 
 [**DXGKARG_QUERYADAPTERINFO**](..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)
-

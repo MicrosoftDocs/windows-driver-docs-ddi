@@ -1,15 +1,15 @@
 ---
 UID: NE:d3dkmddi._DXGK_WDDMVERSION
-title: _DXGK_WDDMVERSION (d3dkmddi.h)
+title: DXGK_WDDMVERSION (d3dkmddi.h)
 description: The DXGK_WDDMVERSION enumeration is reserved for system use. Except for the case noted below, do not use it in your driver.
 old-location: display\dxgk_wddmversion.htm
-ms.date: 04/01/2020
+ms.date: 04/26/2022
 keywords: ["DXGK_WDDMVERSION enumeration"]
 ms.keywords: DXGKDDI_WDDMv1, DXGKDDI_WDDMv1_2, DXGKDDI_WDDMv2, DXGK_WDDMVERSION, DXGK_WDDMVERSION enumeration [Display Devices], DmEnums_3a73843a-4967-4faa-a217-42487ae4f865.xml, _DXGK_WDDMVERSION, d3dkmddi/DXGKDDI_WDDMv1, d3dkmddi/DXGKDDI_WDDMv1_2, d3dkmddi/DXGKDDI_WDDMv2, d3dkmddi/DXGK_WDDMVERSION, display.dxgk_wddmversion
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,12 +46,11 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_WDDMVERSION enumeration
-
+# DXGK_WDDMVERSION enumeration
 
 ## -description
 
-The DXGK_WDDMVERSION enumeration identifies the Windows Display Driver Model (WDDM) version. It is reserved for system use. Except for the case noted below, do not use it in your driver.
+The **DXGK_WDDMVERSION** enumeration identifies the Windows Display Driver Model (WDDM) version. It is reserved for system use. Except for the case noted below, do not use it in your driver.
 
 ## -enum-fields
 
@@ -103,27 +102,28 @@ WDDM version for Windows 10, version 1903.
 
 WDDM version for Windows 10, version 2004.
 
-## -syntax
+### -field DXGKDDI_WDDMv2_8
 
-```cpp
-typedef enum _DXGK_WDDMVERSION {
-  DXGKDDI_WDDMv1     = 0x1000,
-  DXGKDDI_WDDMv1_2   = 0x1200,
-  DXGKDDI_WDDMv1_3   = 0x1300,
-  DXGKDDI_WDDMv2     = 0x2000,
-  DXGKDDI_WDDMv2_1   = 0x2100,
-  DXGKDDI_WDDMv2_1_5 = 0x2105,
-  DXGKDDI_WDDMv2_1_6 = 0x2106,
-  DXGKDDI_WDDMv2_2   = 0x2200,
-  DXGKDDI_WDDMv2_3   = 0x2300,
-  DXGKDDI_WDDMv2_4   = 0x2400,
-  DXGKDDI_WDDMv2_5   = 0x2500,
-  DXGKDDI_WDDMv2_6   = 0x2600,
-  DXGKDDI_WDDMv2_7   = 0x2700
-} DXGK_WDDMVERSION;
-```
+WDDM version for Windows 10, Insider Preview Manganese.
+
+### -field DXGKDDI_WDDMv2_9
+
+WDDM version for Windows Server 2022.
+
+### -field DXGKDDI_WDDMv3_0
+
+WDDM version for Windows 11.
+
+### -field DXGKDDI_WDDMv3_1
+
+WDDM version for WIN11_NEXT.
+
+### -field DXGKDDI_WDDM_LATEST
+
+The latest version of WDDM. **DXGK_WDDMVERSION** cannot be greater than **DXGKDDI_WDDM_LATEST**.
 
 ## -see-also
 
-[VidPn Interface](../index.yml)
+[**DXGK_DRIVERCAPS**](ns-d3dkmddi-_dxgk_drivercaps.md)
 
+[**DXGK_WDDMDEVICECAPS**](ns-d3dkmddi-_dxgk_wddmdevicecaps.md)
