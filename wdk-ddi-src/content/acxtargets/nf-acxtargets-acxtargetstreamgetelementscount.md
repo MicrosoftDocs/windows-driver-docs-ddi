@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetStreamGetElementsCount
 tech.root: audio
 title: AcxTargetStreamGetElementsCount
-ms.date:  11/11/2021
+ms.date: 04/27/2022
 targetos: Windows
-description: 
+description: The AcxTargetStreamGetElementsCount function given an ACXTARGETSTREAM object, returns an elements count.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -67,5 +67,5 @@ Sample Pending
 ## -see-also
 
 - [acxtargets.h header](index.md)
-- 
-TBD - Please review this topic   
+ 
+TBD - Please review this topic

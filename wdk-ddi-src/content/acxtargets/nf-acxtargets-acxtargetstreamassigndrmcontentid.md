@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetStreamAssignDrmContentId
 ms.date:  11/11/2021
 targetos: Windows
-description: 
+description: The AcxTargetStreamAssignDrmContentId function given an existing ACXTARGETSTREAM object, assigns a DRM Content Id to that stream.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,21 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetStreamAssignDrmContentId** function given an existing ACXTARGETSTREAM object, assigns a DRM Content Id to that stream.
+
 ## -parameters
 
 ### -param TargetStream
 
-TBD - A pointer to the location of an existing ACXTARGETSTREAM object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+A pointer to the location of an existing ACXTARGETSTREAM object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param ContentId
 
+Specifies the DRM content ID. This parameter is an identifier that the DRM system generates at run time to identify DRM-protected content in this stream.
+
 ### -param DrmRights
+
+Pointer to a DRMRIGHTS structure specifying the rights granted by the content provider to the user for playing and copying DRM-protected content in this stream.
 
 ## -returns
 

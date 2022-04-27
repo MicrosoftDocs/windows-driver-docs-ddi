@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetElementGetType
 tech.root: audio
 title: AcxTargetElementGetType
-ms.date:  11/11/2021
+ms.date: 04/27/2022
 targetos: Windows
-description: 
+description: The AcxTargetElementGetType function given an existing ACXTARGETELEMENT object returns an element type in the form of a GUID.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -52,10 +52,9 @@ An existing ACXTARGETELEMENT Object. For more information about ACX objects, see
 
 ## -returns
 
-An element type as a GUID, or 
-???
+An element type as a GUID, or on failure this function will return an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
-Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+TBD - Returns `STATUS_SUCCESS` if the call was successful.
 
 ## -remarks
 

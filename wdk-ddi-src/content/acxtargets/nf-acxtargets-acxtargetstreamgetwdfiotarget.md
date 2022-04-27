@@ -40,9 +40,9 @@ dev_langs:
  - c++
 ---
 
-## -descriptionThe 
+## -description
 
-The **AcxTargetStreamGetWdfIoTarget** function will return an WDFIOTARGET WDF object that is associated with the specified stream. 
+The **AcxTargetStreamGetWdfIoTarget** function will return an WDFIOTARGET WDF object that is associated with the specified stream.
 
 ## -parameters
 
@@ -72,5 +72,5 @@ Aggregator_GetTarget(
 ## -see-also
 
 - [acxtargets.h header](index.md)
- 
+
 TBD - Please review this topic
