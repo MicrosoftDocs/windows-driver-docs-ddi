@@ -4,7 +4,7 @@ title: HidD_GetInputReport function (hidsdi.h)
 description: The HidD_GetInputReport routine returns an input reports from a top-level collection.
 old-location: hid\hidd_getinputreport.htm
 tech.root: hid
-ms.date: 06/19/2019
+ms.date: 04/28/2022
 keywords: ["HidD_GetInputReport function"]
 ms.keywords: HidD_GetInputReport, HidD_GetInputReport routine [Human Input Devices], hid.hidd_getinputreport, hidfunc_fdcd7a5b-6623-419f-abdf-de19370ee793.xml, hidsdi/HidD_GetInputReport
 req.header: hidsdi.h
@@ -54,13 +54,13 @@ Specifies an open handle to a top-level collection.
 
 ### -param ReportBuffer [out]
 
-Pointer to a caller-allocated input report buffer that the caller uses to specify a HID report ID and **HidD_GetInputReport** uses to return the specified input report. 
+Pointer to a caller-allocated input report buffer that the caller uses to specify a HID report ID and **HidD_GetInputReport** uses to return the specified input report.
 
 For more information about this parameter, see the Remarks section.
 
 ### -param ReportBufferLength [in]
 
-Specifies the size, in bytes, of the report buffer. The report buffer must be large enough to hold the input report -- excluding its report ID, if report IDs are used -- plus one additional byte that specifies a nonzero report ID or zero.
+Specifies the size of the report buffer in bytes. The report buffer must be large enough to hold the input report plus one additional byte that specifies a nonzero report ID. If report ID is not used, the ID value is zero.
 
 ## -returns
 

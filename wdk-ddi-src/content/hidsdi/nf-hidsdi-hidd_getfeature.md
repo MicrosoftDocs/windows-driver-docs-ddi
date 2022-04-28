@@ -4,7 +4,7 @@ title: HidD_GetFeature function (hidsdi.h)
 description: The HidD_GetFeature routine returns a feature report from a specified top-level collection.
 old-location: hid\hidd_getfeature.htm
 tech.root: hid
-ms.date: 06/19/2019
+ms.date: 04/28/2022
 keywords: ["HidD_GetFeature function"]
 ms.keywords: HidD_GetFeature, HidD_GetFeature routine [Human Input Devices], hid.hidd_getfeature, hidfunc_2992bcaf-4ca6-4b6f-9a85-d0add8c7fe99.xml, hidsdi/HidD_GetFeature
 req.header: hidsdi.h
@@ -42,124 +42,63 @@ api_name:
 
 # HidD_GetFeature function
 
-
 ## -description
 
-The <b>HidD_GetFeature</b> routine returns a feature report from a specified <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
+The **HidD_GetFeature** routine returns a feature report from a specified [top-level collection](/windows-hardware/drivers/hid/top-level-collections).
 
 ## -parameters
 
 ### -param HidDeviceObject [in]
 
-
 Specifies an open handle to a top-level collection.
 
 ### -param ReportBuffer [out]
 
-
-Pointer to a caller-allocated HID report buffer that the caller uses to specify a report ID. <b>HidD_GetFeature</b> uses <i>ReportBuffer</i> to return the specified feature report. 
+Pointer to a caller-allocated HID report buffer that the caller uses to specify a report ID. **HidD_GetFeature** uses *ReportBuffer* to return the specified feature report.
 
 For more information about this parameter, see the Remarks section.
 
 ### -param ReportBufferLength [in]
 
-
-Specifies the size, in bytes, of the report buffer. The report buffer must be large enough to hold the feature report -- excluding its report ID, if report IDs are used -- plus one additional byte that specifies a nonzero report ID or zero.
+Specifies the size of the report buffer in bytes. The report buffer must be large enough to hold the feature report plus one additional byte that specifies a nonzero report ID. If report ID is not used, the ID value is zero.
 
 ## -returns
 
-If <b>HidD_GetFeature</b> succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. Use [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
+If **HidD_GetFeature** succeeds, it returns **TRUE**; otherwise, it returns **FALSE**. Use **[GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror)** to get extended error information.
 
 ## -remarks
 
-Before it calls the <b>HidD_GetFeature</b> routine, the caller must do the following:
+Before it calls the **HidD_GetFeature** routine, the caller must do the following:
 
-<ul>
-<li>
-If the <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> includes report IDs, the caller must set the first byte of the <i>ReportBuffer</i> parameter to a nonzero report ID.
+- If the [top-level collection](/windows-hardware/drivers/hid/top-level-collections) includes report IDs, the caller must set the first byte of the *ReportBuffer* parameter to a nonzero report ID.
+- If the [top-level collection](/windows-hardware/drivers/hid/top-level-collections) does not include report IDs, the caller must set the first byte of the *ReportBuffer* parameter to zero.
 
-</li>
-<li>
-If the <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> does not include report IDs, the caller must set the first byte of the <i>ReportBuffer</i> parameter to zero.
+The feature report is returned in the *ReportBuffer*  parameter. Depending on the report ID, the caller parses the report by calling one of the following functions:
 
+- [HidP_GetButtonCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getbuttoncaps)
+- [HidP_GetData](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getdata)
+- [HidP_GetExtendedAttributes](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getextendedattributes)
+- [HidP_GetScaledUsageValue](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getscaledusagevalue)
+- [HidP_GetSpecificButtonCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificbuttoncaps)
+- [HidP_GetSpecificValueCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificvaluecaps)
+- [HidP_GetUsages](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages)
+- [HidP_GetUsagesEx](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagesex)
+- [HidP_GetUsageValue](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevalue)
+- [HidP_GetUsageValueArray](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevaluearray)
+- [HidP_GetValueCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getvaluecaps)
 
+For an example of how to parse a HID report, see the [HClient](/samples/browse/?redirectedfrom=MSDN-samples) sample application. This sample is located in the MSDN Code Gallery.
 
-</li>
-</ul>
-The feature report is returned in the <i>ReportBuffer</i>  parameter. Depending on the report ID, the caller parses the report by calling one of the following functions:
-
-<ul>
-<li>
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getbuttoncaps">HidP_GetButtonCaps</a>
-</li>
-<li>
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getdata">HidP_GetData</a>
-</li>
-<li>
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getextendedattributes">HidP_GetExtendedAttributes</a>
-</li>
-<li>
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getscaledusagevalue">HidP_GetScaledUsageValue</a>
-</li>
-<li>
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificbuttoncaps">HidP_GetSpecificButtonCaps</a>
-</li>
-<li>
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificvaluecaps">HidP_GetSpecificValueCaps</a>
-</li>
-<li>
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages">HidP_GetUsages</a>
-</li>
-<li>
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagesex">HidP_GetUsagesEx</a>
-</li>
-<li>
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevalue">HidP_GetUsageValue</a>
-</li>
-<li>
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevaluearray">HidP_GetUsageValueArray</a>
-</li>
-<li>
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getvaluecaps">HidP_GetValueCaps</a>
-</li>
-</ul>
-For an example of how to parse a HID report, see the <a href="/samples/browse/?redirectedfrom=MSDN-samples">HClient</a> sample application. This sample is located in the MSDN Code Gallery.
-
-Only user-mode applications can call <b>HidD_GetFeature</b>. Kernel-mode drivers can use an <a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_feature">IOCTL_HID_GET_FEATURE</a> request.
-
-For more information, see the following topics:
-
-
-<a href="/windows-hardware/drivers/hid/obtaining-hid-reports">Obtaining HID Reports</a>
-
-
-
-<a href="/windows-hardware/drivers/hid/interpreting-hid-reports">Interpreting HID Reports</a>
+Only user-mode applications can call **HidD_GetFeature**. Kernel-mode drivers can use an [IOCTL_HID_GET_FEATURE](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_feature) request.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getinputreport">HidD_GetInputReport</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_setfeature">HidD_SetFeature</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_setoutputreport">HidD_SetOutputReport</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_feature">IOCTL_HID_GET_FEATURE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_input_report">IOCTL_HID_GET_INPUT_REPORT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_feature">IOCTL_HID_SET_FEATURE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_output_report">IOCTL_HID_SET_OUTPUT_REPORT</a>
+- [Obtaining HID Reports](/windows-hardware/drivers/hid/obtaining-hid-reports)
+- [Interpreting HID Reports](/windows-hardware/drivers/hid/interpreting-hid-reports)
+- [HidD_GetInputReport](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getinputreport)
+- [HidD_SetFeature](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_setfeature)
+- [HidD_SetOutputReport](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_setoutputreport)
+- [IOCTL_HID_GET_FEATURE](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_feature)
+- [IOCTL_HID_GET_INPUT_REPORT](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_input_report)
+- [IOCTL_HID_SET_FEATURE](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_feature)
+- [IOCTL_HID_SET_OUTPUT_REPORT](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_output_report)
