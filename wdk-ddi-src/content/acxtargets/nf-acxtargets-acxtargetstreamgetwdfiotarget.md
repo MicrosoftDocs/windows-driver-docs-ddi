@@ -52,7 +52,7 @@ A pointer to a location of an existing ACXTARGETSTREAM Object. For more informat
 
 ## -returns
 
-Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+Returns the WDFIOTARGET WDF object that is associated with the specified stream.
 
 ## -remarks
 

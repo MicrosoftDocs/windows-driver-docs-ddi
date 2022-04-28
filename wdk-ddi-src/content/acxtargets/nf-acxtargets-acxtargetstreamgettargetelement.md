@@ -56,7 +56,7 @@ The numeric index value for the specified element.
 
 ## -returns
 
-Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+Returns an ACXTARGETELEMENT ACX object that is associated with the specified circuit.
 
 ## -remarks
 

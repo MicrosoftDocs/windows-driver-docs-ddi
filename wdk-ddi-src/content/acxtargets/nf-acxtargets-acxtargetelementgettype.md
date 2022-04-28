@@ -52,9 +52,7 @@ An existing ACXTARGETELEMENT Object. For more information about ACX objects, see
 
 ## -returns
 
-An element type as a GUID, or on failure this function will return an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
-
-TBD - Returns `STATUS_SUCCESS` if the call was successful.
+An element type as a GUID.
 
 ## -remarks
 

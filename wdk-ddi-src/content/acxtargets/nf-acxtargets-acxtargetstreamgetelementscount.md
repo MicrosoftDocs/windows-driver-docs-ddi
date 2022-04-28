@@ -52,7 +52,7 @@ A pointer to the location of an existing ACXTARGETSTREAM object. For more inform
 
 ## -returns
 
-Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+Returns an elements count for the requested TargetStream.
 
 ## -remarks
 

@@ -52,7 +52,7 @@ A pointer to a location of an existing ACXTARGETFACTORYCIRCUIT Object. For more 
 
 ## -returns
 
-Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+Returns the WDFIOTARGET object associated with the FactoryCircuit.
 
 ## -remarks
 
