@@ -64,7 +64,7 @@ An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxreques
 
 ### -param Set
 
-Optional GUID to identify the associated (TBD - what type of, for example KSPROPSETID_*?) Set. 
+Optional GUID to identify the associated (TBD - what type of, for example KSPROPSETID_*?) Set.
 
 ### -param Id
 

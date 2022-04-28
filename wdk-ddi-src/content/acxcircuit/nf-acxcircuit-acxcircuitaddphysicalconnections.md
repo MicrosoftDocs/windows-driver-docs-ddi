@@ -68,7 +68,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 Example usage is shown below.
 
-TBD - This code was commented out for some reason, is it OK to use?
+TBD - This code should be reviewed.
 
 ```cpp
     //

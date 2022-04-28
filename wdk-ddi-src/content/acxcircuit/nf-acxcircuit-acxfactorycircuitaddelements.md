@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitAddElements
 ms.date: 04/27/2022
 targetos: Windows
-description: The AcxFactoryCircuitAddElements function adds elements to an existing or new TBD? circuit.
+description: The AcxFactoryCircuitAddElements function adds elements to an existing circuit.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -52,13 +52,11 @@ An existing ACXCIRCUIT circuit object.  For more information about ACX objects, 
 
 ### -param Elements
 
-TBD - An ACXELEMENT circuit object (TBD - array?). 
-
-`_In_reads_(ElementsCount) ACXELEMENT*   Elements,`
+One or more ACXELEMENT circuit objects.
 
 ### -param ElementsCount
 
-The number of elements that will be added to the circuit. This is a one based count.
+The number of elements that will be added to the factory circuit. This is a one based count.
 
 ## -returns
 

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitAssignName
 ms.date: 08/17/2021
 targetos: Windows
-description: The AcxCircuitInitAssignName function assigns a friendly (TBD?) Name that will be used for the circuit initialization.
+description: The AcxCircuitInitAssignName function assigns a friendly Name that will be used for the circuit initialization.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitAssignName function assigns a friendly (TBD?) Name that will be used for the circuit initialization.
+The AcxCircuitInitAssignName function assigns a friendly Name that will be used for the circuit initialization.
 
 ## -parameters
 

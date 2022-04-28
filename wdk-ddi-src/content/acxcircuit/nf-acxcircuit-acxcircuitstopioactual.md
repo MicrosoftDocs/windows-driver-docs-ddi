@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitStopIoActual
 tech.root: audio
 title: AcxCircuitStopIoActual
-ms.date: 02/04/2022
+ms.date: 04/28/2022
 targetos: Windows
-description: TBD - The AcxCircuitStopIoActual function is used to stop circuit IO after it has been in a run or TBD pause??? state.
+description: The AcxCircuitStopIoActual function is used to signal to the operating system to temporarily stop circuit IO.
 prerelease: true
 req.assembly: 
 req.construct-type: function

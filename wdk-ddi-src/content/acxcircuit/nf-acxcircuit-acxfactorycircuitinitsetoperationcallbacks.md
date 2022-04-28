@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitInitSetOperationCallbacks
 ms.date: 08/20/2021
 targetos: Windows
-description: TBD - The AcxFactoryCircuitInitSetOperationCallbacks sets the OperationCallbacks for Acx Circuit Factory initialization operations.
+description: The AcxFactoryCircuitInitSetOperationCallbacks sets the OperationCallbacks for ACX Circuit Factory initialization operations.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxFactoryCircuitInitSetOperationCallbacks** sets the OperationCallbacks for Acx Circuit Factory initialization operations.
+The **AcxFactoryCircuitInitSetOperationCallbacks** sets the OperationCallbacks for ACX Circuit Factory initialization operations.
 
 ## -parameters
 

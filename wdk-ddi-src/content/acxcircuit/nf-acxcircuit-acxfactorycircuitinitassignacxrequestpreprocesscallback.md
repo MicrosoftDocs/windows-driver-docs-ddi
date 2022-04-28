@@ -65,11 +65,11 @@ An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxreques
 
 ### -param Set
 
-Optional GUID to identify the associated (TBD - what type of?) Set.
+Optional GUID to identify the associated (TBD - what type of, for example KSPROPSETID_*?) Set.
 
 ### -param Id
 
-TBD - An ID value that TBD  
+An ID value that TBD  
 
 ## -returns
 
@@ -79,7 +79,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - No direct sample code was found.
+Sample pending.
 
 Example usage is shown below.
 

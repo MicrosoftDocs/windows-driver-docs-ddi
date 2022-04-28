@@ -53,7 +53,7 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param FactoryName
 
-TBD - A unicode string describes the circuit, such as *Microphone0* or *Render* that is used as a friendly name for the circuit.
+A unicode string describes the circuit, such as *Microphone0* or *Render* that is used as a friendly name for the circuit.
 
 ## -returns
 

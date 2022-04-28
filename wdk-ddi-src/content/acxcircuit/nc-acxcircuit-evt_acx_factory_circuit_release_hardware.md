@@ -56,7 +56,7 @@ The existing circuit factory ACXFACTORYCIRCUIT Object. (For more information abo
 
 ### -param ResourcesTranslated
 
-A WDF resource list that describes the translated resources to be used for the prepare hardware phase TBD. This is a WDF framework resource-list object that represents a list of hardware resources for a device. For more information about translated resource lists, see [Raw and Translated Resources](/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers).
+A WDF resource list that describes the translated resources to be used for the prepare hardware phase. This is a WDF framework resource-list object that represents a list of hardware resources for a device. For more information about translated resource lists, see [Raw and Translated Resources](/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers).
 
 ## -returns
 

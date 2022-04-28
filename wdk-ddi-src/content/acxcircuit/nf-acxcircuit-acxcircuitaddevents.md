@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitAddEvents
 ms.date: 02/02/2022
 targetos: Windows
-description: The AcxCircuitAddEvents function adds one or more events to an existing (TBD?) circuit. 
+description: The AcxCircuitAddEvents function adds one or more events to an existing circuit. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
