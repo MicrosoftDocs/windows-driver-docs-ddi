@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EvtAcxStreamGetHwLatency event tells the driver to provide stream latency for the specific circuit of this stream (overall latency will be a sum of the latency of the different circuits). 
+The EvtAcxStreamGetHwLatency event tells the driver to provide stream latency for the specific circuit of this stream (overall latency will be a sum of the latency of the different circuits).
 
 ## -parameters
 
@@ -52,11 +52,11 @@ An ACXSTREAM object represents an audio stream created by a circuit. The stream 
 
 ### -param FifoSize
 
-The FifoSize in bytes. 
+The FifoSize in bytes.
 
 ### -param Delay
 
-The Delay in 100-nanosecond units. 
+The Delay in 100-nanosecond units.
 
 ## -returns
 

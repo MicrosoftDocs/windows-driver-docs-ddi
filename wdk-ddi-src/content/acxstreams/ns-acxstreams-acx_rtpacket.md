@@ -50,7 +50,7 @@ The ACX_RTPACKET structure represents a single allocated packet. The PacketBuffe
 
 ### -field Size
 
-The size of the completed (TBD?) ACX_RTPACKET structure in bytes.
+The size of the ACX_RTPACKET structure in bytes.
 
 ### -field RtPacketBuffer
 
@@ -58,11 +58,11 @@ A [WDF_MEMORY_DESCRIPTOR](/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_
 
 ### -field RtPacketOffset
 
-The RtPacket Offset in TBDs.This is a zero/one (TBD?) based location.
+TBD - The RtPacket Offset in bytes.This is a zero based location.
 
 ### -field RtPacketSize
 
-The RtPacket Size in TBD Bytes.
+The RtPacket Size in Bytes.
 
 ## -remarks
 

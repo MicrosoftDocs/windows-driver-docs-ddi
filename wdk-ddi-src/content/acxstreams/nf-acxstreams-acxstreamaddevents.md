@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamAddEvents
 ms.date: 02/02/2022
 targetos: Windows
-description: AcxStreamAddEvents adds events to and existing/new (TBD?) stream using an an AcxEvent object. 
+description: AcxStreamAddEvents adds events to a stream using an an ACXEVENT object. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-AcxStreamAddEvents adds events to and existing stream using an AcxEvent object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+AcxStreamAddEvents adds events to an existing stream using an ACXEVENT object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
 ### -param Stream
 
-A pointer to an existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. 
+A pointer to an existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements.
 
 ### -param Events
 
@@ -56,7 +56,7 @@ A pointer to the ACXEVENT Objects to be added to the Stream. An AcxEvent object 
 
 ### -param EventsCount
 
-A count of the events. This is a 1 based count.
+A count of the events. This is a one based count.
 
 ## -returns
 
@@ -66,7 +66,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - No sample code or unit tests were located
+Sample pending
 
 Example usage is shown below.
 

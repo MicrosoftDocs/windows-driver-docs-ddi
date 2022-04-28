@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamResumeIoWithTag
 ms.date: 07/14/2021
 targetos: Windows
-description: The AcxStreamResumeIoWithTag function is used to resume IO for a stream TBD. 
+description: The AcxStreamResumeIoWithTag function is used to resume IO for a stream. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -54,11 +54,9 @@ A pointer to an existing ACXSTREAM Object. An ACXSTREAM Object represents an aud
 
 An optional ObjectTag that is a driver-defined value that the framework stores as an identification tag for the ACX driver.
 
-
 ## -returns
 
 Void
-
 
 ## -remarks
 
@@ -66,7 +64,7 @@ Void
 
 Example usage is shown below.
 
-TBD No example code found
+Sample pending
 
 ```cpp
 

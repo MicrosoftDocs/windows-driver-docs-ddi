@@ -52,8 +52,6 @@ A pointer to an existing ACXSTREAM Object. An ACXSTREAM Object represents an aud
 
 ### -param Flags
 
-TBD - The following flags are defined to TBD TBD.
-
 TBD - Set to null as no flags are defined.
 
 ### -param ObjectTag

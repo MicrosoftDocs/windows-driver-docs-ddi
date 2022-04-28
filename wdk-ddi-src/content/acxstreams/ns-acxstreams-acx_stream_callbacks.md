@@ -74,7 +74,7 @@ The [EVT_ACX_STREAM_ASSIGN_DRM_CONTENT_ID](nc-acxstreams-evt_acx_stream_assign_d
 
 ## -remarks
 
-TBD - Are there newer call backs not in this structure?
+TBD - may want to discuss these newer (?) call backs not in this structure?
 
 +++++++++++++++++++++
 
@@ -91,7 +91,6 @@ PFN_ACX_STREAM_GET_PRESENTATION_POSITION   EvtAcxStreamGetPresentationPosition;
 PFN_ACX_STREAM_ALLOCATE_RTPACKETS          EvtAcxStreamAllocateRtPackets; 
 
 PFN_ACX_STREAM_FREE_RTPACKETS  EvtAcxStreamFreeRtPackets; 
-
 
 ## -see-also
 

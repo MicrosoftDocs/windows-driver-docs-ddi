@@ -4,7 +4,7 @@ tech.root: audio
 title: DEFINE_ACXDRMRIGHTS_DEFAULT
 ms.date: 07/09/2021
 targetos: Windows
-description: This macro provides the following default for DRM rights TBD???
+description: This macro provides the default DRM rights
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-This macro provides the following default for DRM rights TBD???
+This macro provides the following default for DRM rights
 
 ```cpp
 #define DEFINE_ACXDRMRIGHTS_DEFAULT(DrmRights) const ACXDRMRIGHTS DrmRights = {FALSE, 0, FALSE}
@@ -58,7 +58,7 @@ Specifies the DRM content rights that are assigned to the stream that is identif
 
 ### Example
 
-TBD - no sample driver code found
+Sample pending
 
 Example usage is shown below.
 

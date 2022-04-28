@@ -50,7 +50,7 @@ The ACXDRMFORWARD structure contains the information that the DRM system driver 
 
 ### -field Flags
 
-Flags - TBD are any flags defined?  >> No flag bits are currently defined. Set this member to zero.
+TBD - No flag bits are currently defined. Set this member to zero.
 
 ### -field DeviceObject
 

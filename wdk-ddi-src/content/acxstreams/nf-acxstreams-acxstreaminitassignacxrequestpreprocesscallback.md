@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamInitAssignAcxRequestPreprocessCallback
 tech.root: audio
 title: AcxStreamInitAssignAcxRequestPreprocessCallback
-ms.date: 07/13/2021
+ms.date: 04/28/2022
 targetos: Windows
 description: The AcxStreamInitAssignAcxRequestPreprocessCallback function assigns an  AcxRequestPreprocessCallback to a stream. 
 prerelease: true
@@ -52,12 +52,12 @@ Defined by a ACXSTREAM_INIT object, that is used to define the stream initializa
 
 ### -param EvtObjectAcxRequestPreprocess
 
-An EvtObjectAcxRequestPreprocess that will be added TBD.
+An EvtObjectAcxRequestPreprocess that will be added to the stream.
 
 ### -param DriverContext
 
 An optional ACXCONTEXT object that represents the current driver context.
- 
+
 ### -param RequestType
 
 The [ACX_REQUEST_TYPE enum](..\acxrequest\ne-acxrequest-acx_request_type.md) that is that is used to define the request type.
@@ -68,8 +68,7 @@ A pointer to a GUID that represents a KSPROPERTY SET, for example [KSPROPSETID_R
 
 ### -param Id
 
-The ID of the the process callback(TBD?). For example a A [KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT](/windows-hardware/drivers/audio/ksproperty-rtaudio-register-notification-event) that uses a [KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksrtaudio_notification_event_property).
-
+The ID of the the process callback. For example a [KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT](/windows-hardware/drivers/audio/ksproperty-rtaudio-register-notification-event) that uses a [KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksrtaudio_notification_event_property).
 
 ## -returns
 
@@ -77,11 +76,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-TBD TBD TBD 
-
-Is this function similar to IMiniportWaveRTStreamNotification::RegisterNotificationEvent?
-
-TBD TBD TBD 
+TBD - Should we note if this function similar to IMiniportWaveRTStreamNotification::RegisterNotificationEvent?
 
 ### Example
 
@@ -99,8 +94,6 @@ Example usage is shown below.
                                             &KSPROPSETID_RtAudio, 
                                             KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT);
 ```
-
-
 
 ## -see-also
 

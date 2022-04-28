@@ -62,7 +62,7 @@ AcxDrmGetContentRights returns STATUS_SUCCESS if the call was successful. Otherw
 
 ### Example
 
-TBD - no sample driver code found
+Sample pending
 
 Example usage is shown below.
 

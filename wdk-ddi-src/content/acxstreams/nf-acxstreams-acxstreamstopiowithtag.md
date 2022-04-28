@@ -52,13 +52,11 @@ A pointer to an existing ACXSTREAM Object. An ACXSTREAM Object represents an aud
 
 ### -param Flags
 
-TBD - The following flags are defined to TBD TBD.
-
 TBD - Set to null as no flags are defined.
 
 ### -param Tag
 
-An optional Tag that is used to TBD. (can be displayed for diagnostic information??? TBD)
+TBD - An optional Tag that is can be displayed for diagnostic purposes.
 
 ## -remarks
 
@@ -66,7 +64,7 @@ An optional Tag that is used to TBD. (can be displayed for diagnostic informatio
 
 Example usage is shown below.
 
-TBD No example code found
+Sample pending
 
 ```cpp
 

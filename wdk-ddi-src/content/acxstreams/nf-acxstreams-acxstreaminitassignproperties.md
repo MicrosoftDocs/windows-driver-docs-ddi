@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamInitAssignProperties
 ms.date: 02/02/2022
 targetos: Windows
-description: The AcxStreamInitAssignProperties function assigns an array of properties to a stream, device and circuit (TBD) using an ACXSTREAM_INIT object.
+description: The AcxStreamInitAssignProperties function assigns an array of properties to a stream, device and circuit using an ACXSTREAM_INIT object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamInitAssignProperties function assigns an array of properties to a stream, device and circuit (TBD) using an *ACXSTREAM_INIT* object.
+The AcxStreamInitAssignProperties function assigns an array of properties to a stream, device and circuit using an *ACXSTREAM_INIT* object.
 
 ## -parameters
 

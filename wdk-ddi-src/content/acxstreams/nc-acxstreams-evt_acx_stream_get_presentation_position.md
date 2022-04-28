@@ -108,7 +108,6 @@ EvtStreamGetPresentationPosition(
 
     return STATUS_SUCCESS;
 }
-
 ```
 
 ## -see-also
