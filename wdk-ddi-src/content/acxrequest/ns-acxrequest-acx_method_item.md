@@ -50,11 +50,11 @@ The **ACX_METHOD_ITEM** structure describes the method items that can be used in
 
 ### -field Set
 
-TBD - A set of methods defined as a TBD  KSMethodSet ID that are TBD.
+TBD - A set of methods defined as a KSMethodSet ID.
 
 ### -field Id
 
-TBD - The KSMethod ID that will be TBD.
+TBD - The KSMethod ID.
 
 ### -field Flags
 
@@ -65,7 +65,6 @@ The Flags field can be used to set the following Flags defined in the AcxRequest
 #define ACX_METHOD_ITEM_FLAG_SEND               0x00000001 // KSMETHOD_TYPE_SEND
 #define ACX_METHOD_ITEM_FLAG_BASICSUPPORT       0x00000200 // KSMETHOD_TYPE_BASICSUPPORT
 ```
-
 
 ### -field EvtAcxObjectProcessRequest
 
@@ -85,7 +84,7 @@ The count in bytes (size) of the Result.
 
 ### -field ResultType
 
-TBD - ?
+TBD - The ResultType
 
 ## -remarks
 
@@ -93,7 +92,7 @@ TBD - ?
 
 Example usage is shown below.
 
-TBD - We may need to add KSMETHODSETID_ApxCircuitFactory to the KS header?  Or maybe use a different code sample?
+TBD - Need to check on KSMETHODSETID_ApxCircuitFactory and if it is KS header?  Or maybe use a different code sample?
 
 ```cpp
 DEFINE_GUIDSTRUCT("14226c89-d411-493d-b473-11d61d476f98", KSMETHODSETID_ApxCircuitFactory);
@@ -111,8 +110,6 @@ static ACX_METHOD_ITEM s_FactoryCircuitMethods[] =
         sizeof(APX_CIRCUIT_FACTORY_ADD_CIRCUIT),    // ControlCb
         0,                                          // ValueCb
     },
-
-
 ```
 
 ## -see-also

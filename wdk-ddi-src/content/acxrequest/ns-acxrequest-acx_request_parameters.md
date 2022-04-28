@@ -109,7 +109,7 @@ The count in bytes (size) of the Value.
 
 ### -field Parameters.Method
 
-TBD - Based on Method struct?
+TBD - Based on Method struct
 
 ### -field Parameters.Method.Set
 
@@ -149,18 +149,13 @@ TBD - Based on Method struct
 
 ### -field Parameters.Event.EventData
 
-
 ### -field Parameters.Create
-
-TBD - 
 
 ### -field Parameters.Create.Control
 
-TBD - 
-
 ### -field Parameters.Create.ControlCb
 
-TBD - The count in bytes (size) of the Create Control TBD
+TBD - The count in bytes (size) of the Create Control.
 
 ## -remarks
 
@@ -169,7 +164,22 @@ TBD - The count in bytes (size) of the Create Control TBD
 Example usage is shown below.
 
 ```cpp
+    ACX_REQUEST_PARAMETERS              params;
+    
+    PAGED_CODE();
 
+    //
+    // Get request parameters.
+    //
+    ACX_REQUEST_PARAMETERS_INIT(&params);
+    AcxRequestGetParameters(Request, &params);
+
+    ASSERT(params.Type == AcxRequestTypeMethod);
+    ASSERT(params.Parameters.Method.Verb == AcxMethodVerbSend);
+    ASSERT(params.Parameters.Method.ArgsCb >= argsCb);
+        
+    args = (PAPX_CIRCUIT_FACTORY_ADD_CIRCUIT)params.Parameters.Method.Args;
+    argsCb = params.Parameters.Method.ArgsCb; // use real value.
 ```
 
 ## -see-also

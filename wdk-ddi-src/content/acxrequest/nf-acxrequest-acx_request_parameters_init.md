@@ -49,10 +49,8 @@ The **ACX_REQUEST_PARAMETERS_INIT** function initializes ACX request methods.
 ### -param Parameters
 
 An [ACX_REQUEST_PARAMETERS](nf-acxrequest-acxrequestgetparameters.md) structure that describes the event items that can be used in an ACX request.
- 
-## -remarks
 
-TBD
+## -remarks
 
 ### Example
 

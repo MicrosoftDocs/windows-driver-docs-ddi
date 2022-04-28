@@ -50,12 +50,11 @@ The **ACX_EVENT_ITEM** structure describes the event items that are used in an A
 
 ### -field Set
 
-TBD - A set of methods defined as a TBD KSMethodSet ID that are TBD.
+TBD - A set of methods defined as a KSMethodSet ID.
 
 ### -field Id
 
-TBD - The KSMethod ID that will be TBD.
-
+TBD - The KSMethod ID.
 
 ### -field Flags
 

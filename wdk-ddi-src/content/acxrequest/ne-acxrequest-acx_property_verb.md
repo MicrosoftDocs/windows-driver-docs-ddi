@@ -66,7 +66,7 @@ Verb Set support is available.
 
 ### -field AcxPropertyVerbMax
 
-TBD - For internal validation, do not use.
+For internal validation, do not use.
 
 ## -remarks
 

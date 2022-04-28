@@ -60,11 +60,11 @@ An verb from the [ACX_EVENT_VERB](ne-acxrequest-acx_event_verb.md) enumeration t
 
 ### -param EventData
 
-TBD - The optional ACXEVENTDATA ACX object that provides information about the event.
+The optional ACXEVENTDATA ACX object that provides information about the event.
 
 ### -param Request
 
-A standard WDFREQUEST object. 
+A standard WDFREQUEST object.
 
 For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).
 

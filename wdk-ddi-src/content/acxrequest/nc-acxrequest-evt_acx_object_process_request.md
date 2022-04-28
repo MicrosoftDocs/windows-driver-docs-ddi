@@ -52,13 +52,11 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Request
 
-A standard WDFREQUEST object. 
+A standard WDFREQUEST object.
 
 For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).
 
 ## -remarks
-
-TBD
 
 ### Example
 

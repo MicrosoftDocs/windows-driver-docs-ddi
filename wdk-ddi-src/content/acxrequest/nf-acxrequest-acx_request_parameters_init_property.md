@@ -68,19 +68,19 @@ The [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) type of item being sent, for
 
 ### -param ItemId
 
-TDB - An Item Id, for example for a pin number in a circuit.
+n Item Id, for example for a pin number in a circuit.
 
 ### -param Control
 
-A Control buffer to be sent. 
+A Control buffer to be sent.
 
 ### -param ControlCb
 
 The count in bytes (size) of the Control buffer.
- 
+
 ### -param Value
 
-The  value that will be TBD. TBD - Provide a null Value so that the SendProperty will allocate it. Make sure that the allocated value is freed.
+The  value that will be TBD. Provide a null Value so that the SendProperty will allocate it. Make sure that the allocated value is freed.
 
 ### -param ValueCb
 

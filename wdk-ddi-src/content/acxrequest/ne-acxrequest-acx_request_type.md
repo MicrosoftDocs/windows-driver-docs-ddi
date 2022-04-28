@@ -74,7 +74,7 @@ The request type reset state will be available.
 
 ### -field AcxRequestTypeMax
 
-TBD - For internal validation, do not use.
+For internal validation, do not use.
 
 ## -remarks
 

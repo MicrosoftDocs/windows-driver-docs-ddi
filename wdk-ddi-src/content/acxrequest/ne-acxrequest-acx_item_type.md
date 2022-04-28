@@ -70,7 +70,7 @@ An Element type.
 
 ### -field AcxItemTypeMax
 
-TBD - For internal validation, do not use.
+For internal validation, do not use.
 
 ## -remarks
 
@@ -78,7 +78,7 @@ TBD - For internal validation, do not use.
 
 Example usage is shown below.
 
-TBD - Sample pending
+Sample pending
 
 ```cpp
 
