@@ -52,7 +52,7 @@ The ACX_AUDIOMODULE_DESCRIPTOR is used to define an audio module descriptor stru
 
 The ClassId that is used to identify the class.
 
-TBD - Just guessing this is likePcNewPort???
+TBD - assuming this usage is likePcNewPort.
 
 Specifies the class GUID, which is passed by reference. This parameter is used only if the function creates objects of multiple classes. Otherwise, it is set to NULL.
 
@@ -76,7 +76,7 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 ### Example
 
-TBD - No sample code found, just header def.
+Sample Pending
 
 Example usage is shown below.
 

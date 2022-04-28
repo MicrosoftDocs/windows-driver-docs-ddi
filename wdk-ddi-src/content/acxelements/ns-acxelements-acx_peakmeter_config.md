@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_PEAKMETER_CONFIG structure is used to define the acx peakmeterconfiguration. 
+The ACX_PEAKMETER_CONFIG structure is used to define the ACX peakmeter configuration.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 ### -field Flags
 
-Acx peakmeter configuration flags defined by the [ACX_PEAKMETER_CONFIG_FLAGS enum](ne-acxelements-acx_peakmeter_config_flags.md). 
+ACX peakmeter configuration flags defined by the [ACX_PEAKMETER_CONFIG_FLAGS enum](ne-acxelements-acx_peakmeter_config_flags.md).
 
 No flag bits are currently defined. Set this member to zero - AcxPeakMeterConfigNoFlags.
 
@@ -72,17 +72,17 @@ The number of channels. This is a one based count.
 
 ### -field Maximum
 
-TBD - The maximum TBD for the peakmeter.
+The maximum value for the peakmeter.
 
-TBD - Does the value description here apply in ACX?? [KSPROPERTY_AUDIO_PEAKMETER2](/windows-hardware/drivers/audio/ksproperty-audio-peakmeter2)
+TBD - Need to determine if this is similar / alignment with values in [KSPROPERTY_AUDIO_PEAKMETER2](/windows-hardware/drivers/audio/ksproperty-audio-peakmeter2)
 
 ### -field Minimum
 
-TBD - The minimum TBD for the peakmeter.
+The minimum value for the peakmeter.
 
 ### -field SteppingDelta
 
-TBD - The stepping value for the peakmeter. This is measured in TBD.
+The stepping value for the peakmeter. This is measured in TBD.
 
 ### -field Callbacks
 
@@ -95,6 +95,11 @@ The [ACX_PEAKMETER_CALLBACKS structure](ns-acxelements-acx_peakmeter_callbacks.m
 Example usage is shown below.
 
 ```cpp
+// Default peak meter settings
+#define PEAKMETER_STEPPING_DELTA    0x1000
+#define PEAKMETER_MAXIMUM           LONG_MAX
+#define PEAKMETER_MINIMUM           LONG_MIN
+
     ACX_PEAKMETER_CONFIG            peakmeterCfg;
 
         ACX_PEAKMETER_CALLBACKS peakmeterCallbacks;

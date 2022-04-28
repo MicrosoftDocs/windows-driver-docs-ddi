@@ -66,7 +66,7 @@ Event Verb support is available.
 
 ### -field AcxEventVerbMax
 
-TBD - For internal validation, do not use.
+For internal validation, do not use.
 
 ## -remarks
 
