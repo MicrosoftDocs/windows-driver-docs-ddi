@@ -44,17 +44,17 @@ dev_langs:
 
 ## -description
 
-The **ACX_EVENT_CONFIG** structure is used to define the ACX event configuration. 
+The **ACX_EVENT_CONFIG** structure is used to define the ACX event configuration.
 
 ## -struct-fields
 
 ### -field Size
 
-The length, in bytes, of this structure. 
+The length, in bytes, of this structure.
 
 ### -field Flags
 
-Bitwise OR of [ACX_PNPEVENT_CONFIG_FLAGS](ne-acxevents-acx_pnpevent_config_flags.md). 
+Bitwise OR of [ACX_PNPEVENT_CONFIG_FLAGS](ne-acxevents-acx_pnpevent_config_flags.md).
 
 ### -field Set
 
@@ -68,7 +68,7 @@ Specifies the event ID. This member identifies an event item within the event se
 
 ### -field Type
 
-TBD - The (optional?) event value type (operation data) is a [KSEVENTDATA structure](/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata) that specifies the notification method to use for this event.
+The event value type (operation data) is a [KSEVENTDATA structure](/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata) that specifies the notification method to use for this event.
 
 ### -field Callbacks
 

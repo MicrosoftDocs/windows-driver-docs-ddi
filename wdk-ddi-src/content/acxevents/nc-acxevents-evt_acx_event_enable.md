@@ -58,7 +58,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Is this an OK Sample?
+TBD - Please review this sample
 
 This sample shows the use of the EVT_ACX_EVENT_ENABLE callback.
 

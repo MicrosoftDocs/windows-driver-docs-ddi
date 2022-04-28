@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxPnpEventCreate
 tech.root: audio
 title: AcxPnpEventCreate
-ms.date: 11/02/2021
+ms.date: 04/28/2022
 targetos: Windows
 description: The AcxPnpEventCreate function creates an pnp event.
 prerelease: true
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The **AcxPnpEventCreate** function creates an ACX pnp event.
+The **AcxPnpEventCreate** function creates an ACX PnP event.
 
 ## -parameters
 
 ### -param Device
 
-TBD - An existing WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the - TBD TBD 
+An existing WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that be associated with the new event.
 
 ### -param Object
 
-TBD - An ACXAUDIOMODULE object that is described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects) that will be associated with the event.
+An existing ACXAUDIOMODULE object that is described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects) that will be associated with the event.
 
 ### -param Attributes
 
@@ -72,7 +72,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An AcxPnpEvent represents an asynchronous notification available at the driver level. PnP events can be added to any objects. Currently they are used with AcxModule and AcxKeywordSpotter objects. Internally AcxPnpEvents are exposed as PnP asynchronous notification to upper layers. 
+An AcxPnpEvent represents an asynchronous notification available at the driver level. PnP events can be added to any objects. Currently they are used with AcxModule and AcxKeywordSpotter objects. Internally AcxPnpEvents are exposed as PnP asynchronous notification to upper layers.
 
 ### Example
 

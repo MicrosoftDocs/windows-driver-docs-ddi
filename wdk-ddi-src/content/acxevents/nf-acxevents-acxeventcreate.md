@@ -48,7 +48,7 @@ The **AcxEventCreate** function creates an ACX event.
 
 ### -param Object
 
-An ACXOBJECT that is described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). This object is used to TBD.
+An ACXOBJECT that is described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Attributes
 
@@ -74,7 +74,7 @@ An AcxEvent represents an asynchronous notification available at the driver leve
 
 This example code snip, shows the use of AcxEventCreate for an audio jack change event.
 
-TBD - I re-wrote the the last line of the sample to show this code without ACXINTERNAL, please check/verify.
+TBD - Please review this sample
 
 ```cpp
     NTSTATUS status = STATUS_SUCCESS;

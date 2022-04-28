@@ -54,7 +54,7 @@ The ACXEVENT object (described in [Summary of ACX Objects](/windows-hardware/dri
 
 ### Example
 
-TBD - Is this code sample OK?
+TBD - Please review this sample
 
 This sample shows the use of the EVT_ACX_EVENT_DISABLE callback.
 
@@ -78,7 +78,6 @@ CodecR_EvtMuteElementDisableCallback(
     WdfTimerStop(muteEventCtx->Timer, TRUE);
 }
 ```
-
 
 ## -see-also
 

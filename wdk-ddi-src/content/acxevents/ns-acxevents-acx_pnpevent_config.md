@@ -54,11 +54,11 @@ The length, in bytes, of this structure.
 
 ### -field Flags
 
-Bitwise OR of [ACX_PNPEVENT_CONFIG_FLAGS](ne-acxevents-acx_pnpevent_config_flags.md). 
+Bitwise OR of [ACX_PNPEVENT_CONFIG_FLAGS](ne-acxevents-acx_pnpevent_config_flags.md).
 
 ### -field Event
 
-TBD - A GUID that is used to TBD the event.
+TBD - A GUID that is used to identify the event.
 
 ## -remarks
 

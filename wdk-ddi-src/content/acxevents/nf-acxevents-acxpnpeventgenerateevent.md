@@ -54,7 +54,7 @@ The ACXPNPEVENT object (described in [Summary of ACX Objects](/windows-hardware/
 
 The event payload.
 
-TBD - Looks like this can be an AUDIOMODULE_CUSTOM_NOTIFICATION or an CONTOSO_KEYWORDDETECTIONRESULT??? Is this just a pointer to an array of anything?
+TBD - Looks like this can be an AUDIOMODULE_CUSTOM_NOTIFICATION or a pointer to something like a CONTOSO_KEYWORDDETECTIONRESULT?
 
 ### -param Size
 
@@ -66,7 +66,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An AcxPnpEvent represents an asynchronous notification available at the driver level. PnP events can be added to any objects. Currently they are used with AcxModule and AcxKeywordSpotter objects. Internally AcxPnpEvents are exposed as PnP asynchronous notification to upper layers. 
+An AcxPnpEvent represents an asynchronous notification available at the driver level. PnP events can be added to any objects. Currently they are used with AcxModule and AcxKeywordSpotter objects. Internally AcxPnpEvents are exposed as PnP asynchronous notification to upper layers.
 
 ### Example
 
