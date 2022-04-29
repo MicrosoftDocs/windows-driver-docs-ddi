@@ -50,7 +50,7 @@ The **ACX_AUDIOMODULE_DESCRIPTOR** is used to define an audio module descriptor 
 
 ### -field ClassId
 
-the GUID identifier of the module, which is defined by the audio device module owner.
+The GUID identifier of the module, which is defined by the audio device module owner.
 
 ### -field InstanceId
 
@@ -85,3 +85,5 @@ Example usage is shown below.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
