@@ -50,17 +50,17 @@ The **HidD_GetFeature** routine returns a feature report from a specified [top-l
 
 ### -param HidDeviceObject [in]
 
-Specifies an open handle to a top-level collection.
+An open handle to a top-level collection.
 
 ### -param ReportBuffer [out]
 
 Pointer to a caller-allocated HID report buffer that the caller uses to specify a report ID. **HidD_GetFeature** uses *ReportBuffer* to return the specified feature report.
 
-For more information about this parameter, see the Remarks section.
+For more information about this parameter, see the [Remarks](#remarks) section.
 
 ### -param ReportBufferLength [in]
 
-Specifies the size of the report buffer in bytes. The report buffer must be large enough to hold the feature report plus one additional byte that specifies a nonzero report ID. If report ID is not used, the ID value is zero.
+The size of the report buffer in bytes. The report buffer must be large enough to hold the feature report plus one additional byte that specifies a nonzero report ID. If report ID is not used, the ID value is zero.
 
 ## -returns
 

@@ -50,7 +50,7 @@ The **HidD_SetOutputReport** routine sends an output report to a [top-level coll
 
 ### -param HidDeviceObject [in]
 
-Specifies an open handle to a top-level collection.
+An open handle to a top-level collection.
 
 ### -param ReportBuffer [in]
 
@@ -60,7 +60,7 @@ For more information about this parameter, see the [Remarks](#remarks) section.
 
 ### -param ReportBufferLength [in]
 
-Specifies the size of the report buffer in bytes. The report buffer must be large enough to hold the output report plus one additional byte that specifies a nonzero report ID. If report ID is not used, the ID value is zero.
+The size of the report buffer in bytes. The report buffer must be large enough to hold the output report plus one additional byte that specifies a nonzero report ID. If report ID is not used, the ID value is zero.
 
 ## -returns
 

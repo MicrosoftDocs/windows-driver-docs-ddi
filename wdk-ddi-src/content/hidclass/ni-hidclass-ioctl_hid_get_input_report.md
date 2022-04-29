@@ -66,7 +66,7 @@ The size of the buffer in bytes. The buffer must be large enough to hold the inp
 
 ### -output-buffer
 
-The `Irp->MdlAddress` member points to the requester-allocated output buffer that the HID class driver uses to return the input report. The first byte of the buffer, which the requester uses to input a report ID or zero, is unchanged. The input report -- excluding its report ID, if report IDs are used -- is returned at `((PUCHAR)Irp->MdlAddress + 1)`.
+The `Irp->MdlAddress` member points to the requester-allocated output buffer that the HID class driver uses to return the input report. The first byte of the buffer, which the requester uses to input a report ID or zero, is unchanged. The input report is returned at `((PUCHAR)Irp->MdlAddress + 1)`.
 
 **Minidriver handling**
 

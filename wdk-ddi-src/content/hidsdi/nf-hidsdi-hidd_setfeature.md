@@ -50,17 +50,17 @@ The **HidD_SetFeature** routine sends a feature report to a [top-level collectio
 
 ### -param HidDeviceObject [in]
 
-Specifies an open handle to a top-level collection.
+An open handle to a top-level collection.
 
 ### -param ReportBuffer [in]
 
 Pointer to a caller-allocated feature report buffer that the caller uses to specify a HID report ID.
 
-For more information about this parameter, see the **Remarks** section.
+For more information about this parameter, see the [Remarks](#remarks) section.
 
 ### -param ReportBufferLength [in]
 
-Specifies the size of the report buffer in bytes. The report buffer must be large enough to hold the feature report plus one additional byte that specifies a nonzero report ID. If report ID is not used, the ID value is zero.
+The size of the report buffer in bytes. The report buffer must be large enough to hold the feature report plus one additional byte that specifies a nonzero report ID. If report ID is not used, the ID value is zero.
 
 ## -returns
 

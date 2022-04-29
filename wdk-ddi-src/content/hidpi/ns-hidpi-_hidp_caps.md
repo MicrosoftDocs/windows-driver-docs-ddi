@@ -64,15 +64,15 @@ Specifies the top-level collection's [usage page](/windows-hardware/drivers/hid/
 
 ### -field InputReportByteLength
 
-Specifies the maximum size, in bytes, of all the input reports. Includes the report ID, which is prepended to the report data.
+Specifies the maximum size, in bytes, of all the input reports. Includes the report ID, which is prepended to the report data. If report ID is not used, the ID value is zero.
 
 ### -field OutputReportByteLength
 
-Specifies the maximum size, in bytes, of all the output reports. Includes the report ID, which is prepended to the report data.
+Specifies the maximum size, in bytes, of all the output reports. Includes the report ID, which is prepended to the report data. If report ID is not used, the ID value is zero.
 
 ### -field FeatureReportByteLength
 
-Specifies the maximum length, in bytes, of all the feature reports. Includes the report ID, which is prepended to the report data.
+Specifies the maximum length, in bytes, of all the feature reports. Includes the report ID, which is prepended to the report data. If report ID is not used, the ID value is zero.
 
 ### -field Reserved
 

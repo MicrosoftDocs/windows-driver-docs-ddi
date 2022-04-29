@@ -56,7 +56,7 @@ The `Parameters.DeviceIoControl.InputBufferLength` member is set to the size, in
 
 The size of the input buffer in bytes. The buffer must be large enough to hold the output report plus one additional byte that specifies a nonzero report ID. If report ID is not used, the ID value is zero.
 
-The `Irp->AssociatedIrp.SystemBuffer` member points to the input buffer that contains an output report. If the collection includes report IDs, the requester must set the first byte of the buffer to a nonzero report ID. Otherwise, the requester must set the first byte to zero. The output report -- excluding its report ID, if report IDs are used -- is located at ((PUCHAR)*ReportBuffer* + 1).
+The `Irp->AssociatedIrp.SystemBuffer` member points to the input buffer that contains an output report. If the collection includes report IDs, the requester must set the first byte of the buffer to a nonzero report ID. Otherwise, the requester must set the first byte to zero. The output report is located at `((PUCHAR)ReportBuffer + 1)`.
 
 **Minidriver handling**
 

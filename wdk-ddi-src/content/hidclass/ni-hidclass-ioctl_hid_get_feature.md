@@ -94,6 +94,7 @@ The HID class driver sets the following fields of `Irp->IoStatus`:
 
 - *Information* is set to the number of bytes transferred from the device.
 - *Status* is set to STATUS_SUCCESS if the transfer completed without error. Otherwise, it is set to an appropriate NTSTATUS error code.
+
 **Minidriver handling**
 
 HID minidrivers that carry out the I/O to the device set the following fields of `Irp->IoStatus`:
@@ -101,7 +102,7 @@ HID minidrivers that carry out the I/O to the device set the following fields of
 - *Information* is set to the number of bytes transferred from the device.
 - *Status* is set to STATUS_SUCCESS if the transfer completed without error. Otherwise, it is set to an appropriate NTSTATUS error code.
 
-HID minidrivers that call other drivers with this IOCTL to carry out the I/O to their device, should ensure that the **Information** field of the status block is correct and not change the contents of the *Status* field.
+HID minidrivers that call other drivers with this IOCTL to carry out the I/O to their device, should ensure that the *Information* field of the status block is correct and not change the contents of the *Status* field.
 
 ## -ReportID
 

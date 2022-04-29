@@ -50,7 +50,7 @@ The **HidD_GetInputReport** routine returns an input reports from a [top-level c
 
 ### -param HidDeviceObject [in]
 
-Specifies an open handle to a top-level collection.
+An open handle to a top-level collection.
 
 ### -param ReportBuffer [out]
 
@@ -60,7 +60,7 @@ For more information about this parameter, see the Remarks section.
 
 ### -param ReportBufferLength [in]
 
-Specifies the size of the report buffer in bytes. The report buffer must be large enough to hold the input report plus one additional byte that specifies a nonzero report ID. If report ID is not used, the ID value is zero.
+The size of the report buffer in bytes. The report buffer must be large enough to hold the input report plus one additional byte that specifies a report ID. If report ID is not used, the ID value is zero.
 
 ## -returns
 
