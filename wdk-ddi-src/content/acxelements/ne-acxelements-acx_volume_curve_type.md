@@ -2,7 +2,7 @@
 UID: NE:acxelements._ACX_VOLUME_CURVE_TYPE
 tech.root: audio 
 title: ACX_VOLUME_CURVE_TYPE
-ms.date: 08/31/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_VOLUME_CURVE_TYPE enumeration defines constants that specify a curve algorithm to be applied to set a volume level.
 prerelease: true
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The ACX_VOLUME_CURVE_TYPE enumeration defines constants that specify a curve algorithm to be applied to set a volume level.
+The **ACX_VOLUME_CURVE_TYPE** enumeration defines constants that specify a curve algorithm to be applied to set a volume level.
 
 ## -enum-fields
 
@@ -61,3 +61,4 @@ Indicates that the algorithm that is applied to the volume setting must follow t
 
 READY2GO
 
+EDITCOMPLETE

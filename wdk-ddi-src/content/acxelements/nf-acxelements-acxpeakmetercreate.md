@@ -2,7 +2,7 @@
 UID: NF:acxelements.AcxPeakMeterCreate
 tech.root: audio 
 title: AcxPeakMeterCreate
-ms.date: 10/21/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxPeakMeterCreate function is used to create an ACX peakmeter object that that will be associated with a circuit object parent. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxPeakMeterCreate function is used to create an ACX peakmeter object that that will be associated with a circuit object parent. 
+The **AcxPeakMeterCreate** function is used to create an ACX peakmeter object that that will be associated with a circuit object parent. 
 
 ## -parameters
 
@@ -101,4 +101,6 @@ Example usage is shown below.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

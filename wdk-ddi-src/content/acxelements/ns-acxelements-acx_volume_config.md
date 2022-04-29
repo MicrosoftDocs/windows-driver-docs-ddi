@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_VOLUME_CONFIG
 tech.root: audio 
 title: ACX_VOLUME_CONFIG
-ms.date: 10/15/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_VOLUME_CONFIG structure is used to define the acx volume configuration. 
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_VOLUME_CONFIG structure is used to define the acx volume configuration. 
+The **ACX_VOLUME_CONFIG** structure is used to define the acx volume configuration. 
 
 ## -struct-fields
 
@@ -114,4 +114,6 @@ Example usage is shown below.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

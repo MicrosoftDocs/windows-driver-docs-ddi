@@ -2,7 +2,7 @@
 UID: NF:acxelements.ACX_VOLUME_CONFIG_INIT
 tech.root: audio 
 title: ACX_VOLUME_CONFIG_INIT
-ms.date: 09/21/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_VOLUME_CONFIG_INIT function initializes an ACX_VOLUME_CONFIG structure.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The ACX_VOLUME_CONFIG_INIT function initializes an [ACX_VOLUME_CONFIG](ns-acxelements-acx_volume_config.md) structure.
+The **ACX_VOLUME_CONFIG_INIT** function initializes an [ACX_VOLUME_CONFIG](ns-acxelements-acx_volume_config.md) structure.
 
 ## -parameters
 
@@ -66,4 +66,6 @@ Example usage is shown below.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

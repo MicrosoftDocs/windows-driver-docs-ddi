@@ -2,7 +2,7 @@
 UID: NC:acxelements.EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_PRESENTATION_POSITION
 tech.root: audio 
 title: EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_PRESENTATION_POSITION
-ms.date: 09/20/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_PRESENTATION_POSITION callback function is implemented by the driver and is called to retrieve the current position within the audio data being rended to the stream audio engine node.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_PRESENTATION_POSITION callback function is implemented by the driver and is called to retrieve the current position within the audio data being rended to the stream audio engine node.
+The **EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_PRESENTATION_POSITION** callback function is implemented by the driver and is called to retrieve the current position within the audio data being rended to the stream audio engine node.
 
 ## -parameters
 
@@ -105,3 +105,4 @@ CodecR_EvtAcxStreamAudioEngineRetrievePresentationPosition(
 
 READY2GO
 
+EDITCOMPLETE

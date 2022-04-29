@@ -2,7 +2,7 @@
 UID: NC:acxelements.EVT_ACX_MUTE_ASSIGN_STATE
 tech.root: audio 
 title: EVT_ACX_MUTE_ASSIGN_STATE
-ms.date: 09/16/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The EVT_ACX_MUTE_ASSIGN_STATE callback function is implemented by the driver and is called when the state of a specified channel on a mute node is set. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_MUTE_ASSIGN_STATE callback function is implemented by the driver and is called when the state of a specified channel on a mute node is set. The state of the channel can be set to 0 (FALSE) or 1 (TRUE), where 0 indicates the channel is not muted and 1 indicates the channel is muted.
+The **EVT_ACX_MUTE_ASSIGN_STATE** callback function is implemented by the driver and is called when the state of a specified channel on a mute node is set. The state of the channel can be set to 0 (FALSE) or 1 (TRUE), where 0 indicates the channel is not muted and 1 indicates the channel is muted.
 
 ## -parameters
 
@@ -109,9 +109,11 @@ CodecR_EvtMuteAssignState(
     return STATUS_SUCCESS;
 }
 ```
-READY2GO
 
 ## -see-also
 
 - [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

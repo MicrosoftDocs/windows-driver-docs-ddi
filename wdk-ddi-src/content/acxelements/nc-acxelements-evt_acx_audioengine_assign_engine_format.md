@@ -2,7 +2,7 @@
 UID: NC:acxelements.EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT
 tech.root: audio 
 title: EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT
-ms.date: 09/03/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT callback function is implemented by the driver and is called when the internal mix format is set for an audio engine node. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT callback function is implemented by the driver and is called when the internal mix format is set for an audio engine node. 
+The **EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT** callback function is implemented by the driver and is called when the internal mix format is set for an audio engine node. 
 
 ## -parameters
 
@@ -87,3 +87,5 @@ DspR_EvtAcxAudioEngineAssignEngineDeviceFormat(
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

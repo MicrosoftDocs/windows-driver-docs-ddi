@@ -2,7 +2,7 @@
 UID: NC:acxelements.EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE
 tech.root: audio 
 title: EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE
-ms.date: 09/03/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE callback function is implemented by the driver and is called when the global effects state is requested for the specified audio engine node. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE callback function is implemented by the driver and is called when the global effects state is requested for the specified audio engine node. 
+The **EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE** callback function is implemented by the driver and is called when the global effects state is requested for the specified audio engine node. 
 
 ## -parameters
 
@@ -52,7 +52,7 @@ The ACXAUDIOENGINE object for which the global effects state has been requested.
 
 ### -param State
 
-A ULONG value indiciating the global effects state of the specified audio engine node. A nonzero value indicates that global effect processing in the audio engine node is enabled and a value of 0 indicates that global effect processing in the audio engine node is disabled.
+A ULONG value indicating the global effects state of the specified audio engine node. A nonzero value indicates that global effect processing in the audio engine node is enabled and a value of 0 indicates that global effect processing in the audio engine node is disabled.
 
 ## -returns
 
@@ -91,9 +91,12 @@ Codec_EvtAcxAudioEngineRetrieveEffectsState(
 }
 
 ```
-READY2GO
+
 
 ## -see-also
 
 - [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

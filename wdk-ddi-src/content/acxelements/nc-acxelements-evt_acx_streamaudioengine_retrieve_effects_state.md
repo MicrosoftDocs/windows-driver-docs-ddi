@@ -2,7 +2,7 @@
 UID: NC:acxelements.EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_EFFECTS_STATE
 tech.root: audio 
 title: EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_EFFECTS_STATE
-ms.date: 09/20/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_EFFECTS_STATE callback function is implemented by the driver and is called when the local effects state is requested for the specified stream audio engine. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_EFFECTS_STATE callback function is implemented by the driver and is called when the local effects state is requested for the specified stream audio engine.
+The **EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_EFFECTS_STATE** callback function is implemented by the driver and is called when the local effects state is requested for the specified stream audio engine.
 
 ## -parameters
 
@@ -83,9 +83,11 @@ DspR_EvtAcxStreamAudioEngineRetrieveEffectsState(
     return STATUS_SUCCESS;
 }
 ```
-READY2GO
 
 ## -see-also
 
 - [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

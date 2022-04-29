@@ -2,7 +2,7 @@
 UID: NF:acxelements.ACX_KEYWORDSPOTTER_CONFIG_INIT
 tech.root: audio 
 title: ACX_KEYWORDSPOTTER_CONFIG_INIT
-ms.date: 04/05/2022
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_KEYWORDSPOTTER_CONFIG_INIT function initializes an ACX_KEYWORDSPOTTER_CONFIG structure.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The ACX_KEYWORDSPOTTER_CONFIG_INIT function initializes an [ACX_KEYWORDSPOTTER_CONFIG](ns-acxelements-acx_keywordspotter_config.md) structure.
+The **ACX_KEYWORDSPOTTER_CONFIG_INIT** function initializes an [ACX_KEYWORDSPOTTER_CONFIG](ns-acxelements-acx_keywordspotter_config.md) structure.
 
 ## -parameters
 

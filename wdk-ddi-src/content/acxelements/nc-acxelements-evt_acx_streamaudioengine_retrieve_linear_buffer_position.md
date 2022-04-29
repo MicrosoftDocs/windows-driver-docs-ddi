@@ -2,7 +2,7 @@
 UID: NC:acxelements.EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION
 tech.root: audio 
 title: EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION
-ms.date: 09/20/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION callback is implemented by the driver and is called when the linear buffer position is requested for the specified stream audio engine. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION callback is implemented by the driver and is called when the linear buffer position is requested for the specified stream audio engine. 
+The **EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION** callback is implemented by the driver and is called when the linear buffer position is requested for the specified stream audio engine. 
 
 ## -parameters
 
@@ -100,3 +100,4 @@ CodecR_EvtAcxStreamAudioEngineRetrieveLinearBufferPosition(
 
 READY2GO
 
+EDITCOMPLETE

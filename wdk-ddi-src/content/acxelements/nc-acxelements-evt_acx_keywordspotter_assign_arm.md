@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM sets the arm state of the keyword spotter.
+The **EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM** callback sets the arm state of the keyword spotter.
 
 ## -parameters
 
@@ -115,9 +115,11 @@ NTSTATUS DspC_EvtAcxKeywordSpotterAssignArm(
     return STATUS_SUCCESS;
 }
 ```
-READY2GO
 
 ## -see-also
 
 - [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

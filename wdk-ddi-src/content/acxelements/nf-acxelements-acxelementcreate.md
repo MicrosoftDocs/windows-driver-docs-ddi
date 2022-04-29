@@ -2,7 +2,7 @@
 UID: NF:acxelements.AcxElementCreate
 tech.root: audio 
 title: AcxElementCreate
-ms.date: 10/21/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxElementCreate function is used to create an ACXELEMENT object that that will be associated with a circuit or stream device object parent.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxElementCreate function is used to create an ACXELEMENT object that that will be associated with a circuit or stream device object parent.
+The **AcxElementCreate** function is used to create an ACXELEMENT object that that will be associated with a circuit or stream device object parent.
 
 ## -parameters
 
@@ -94,4 +94,6 @@ Example usage is shown below.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

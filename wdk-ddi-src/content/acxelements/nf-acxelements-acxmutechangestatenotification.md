@@ -2,7 +2,7 @@
 UID: NF:acxelements.AcxMuteChangeStateNotification
 tech.root: audio 
 title: AcxMuteChangeStateNotification
-ms.date: 09/23/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxMuteChangeStateNotification function sends a notification of a mute state change on an ACXMUTE object so that acx can generate a corresponding event. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxMuteChangeStateNotification function sends a notification of a mute state change on an ACXMUTE object so that acx can generate a corresponding event. 
+The **AcxMuteChangeStateNotification** function sends a notification of a mute state change on an ACXMUTE object so that acx can generate a corresponding event. 
 
 ## -parameters
 
@@ -74,4 +74,6 @@ Example usage is shown below.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

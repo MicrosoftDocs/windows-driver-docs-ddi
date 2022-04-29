@@ -2,7 +2,7 @@
 UID: NF:acxelements.AcxStreamAudioEngineGetStream
 tech.root: audio 
 title: AcxStreamAudioEngineGetStream
-ms.date: 09/23/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxStreamAudioEngineGetStream function retrieves the ACXSTREAM object associated with the given stream audio engine object.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamAudioEngineGetStream function retrieves the ACXSTREAM object associated with the given stream audio engine object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The **AcxStreamAudioEngineGetStream** function retrieves the ACXSTREAM object associated with the given stream audio engine object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
@@ -94,4 +94,6 @@ DspR_EvtAcxStreamAudioEngineRetrievePresentationPosition(
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

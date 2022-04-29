@@ -2,7 +2,7 @@
 UID: NF:acxelements.AcxElementGetContainer
 tech.root: audio 
 title: AcxElementGetContainer
-ms.date: 09/23/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxElementGetContainer function retrieves the associated container for the given ACX element. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxElementGetContainer function retrieves the associated container for the given ACX element. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The **AcxElementGetContainer** function retrieves the associated container for the given ACX element. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
@@ -69,4 +69,6 @@ Example usage is shown below.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

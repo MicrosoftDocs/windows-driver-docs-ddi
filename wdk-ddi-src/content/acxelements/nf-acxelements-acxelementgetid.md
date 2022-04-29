@@ -2,7 +2,7 @@
 UID: NF:acxelements.AcxElementGetId
 tech.root: audio 
 title: AcxElementGetId
-ms.date: 09/23/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxElementGetId function retrieves the number that represents the element ID for a given ACX element object.
 prerelease: false
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxElementGetId function retrieves the number that represents the element ID for a given ACX element object.
+The **AcxElementGetId** function retrieves the number that represents the element ID for a given ACX element object.
 
 ## -parameters
 
@@ -69,4 +69,6 @@ Example usage is shown below.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

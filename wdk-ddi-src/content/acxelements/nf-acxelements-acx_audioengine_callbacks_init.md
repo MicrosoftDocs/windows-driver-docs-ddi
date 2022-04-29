@@ -2,7 +2,7 @@
 UID: NF:acxelements.ACX_AUDIOENGINE_CALLBACKS_INIT
 tech.root: audio 
 title: ACX_AUDIOENGINE_CALLBACKS_INIT
-ms.date: 09/20/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_AUDIOENGINE_CALLBACKS_INIT function initializes a driver's [ACX_AUDIOENGINE_CALLBACKS](ns-acxelements-acx_audioengine_callbacks.md) structure.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The ACX_AUDIOENGINE_CALLBACKS_INIT function initializes a driver's [ACX_AUDIOENGINE_CALLBACKS](ns-acxelements-acx_audioengine_callbacks.md) structure.
+The **ACX_AUDIOENGINE_CALLBACKS_INIT** function initializes a driver's [ACX_AUDIOENGINE_CALLBACKS](ns-acxelements-acx_audioengine_callbacks.md) structure.
 
 ## -parameters
 
@@ -66,4 +66,6 @@ Example usage is shown below.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

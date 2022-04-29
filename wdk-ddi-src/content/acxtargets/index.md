@@ -2,7 +2,7 @@
 UID: NA:acxtargets
 tech.root: audio
 title: acxtargets
-ms.date:  11/11/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The acxtargets header is used by the ACX audio class extensions.
 prerelease: true
@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-The acxtargets header is used by the ACX audio class extensions. For more information, see [ACX Audio multi stack cross driver communications](/windows-hardware/drivers/audio/acx-audio-multi-stack).
+The acxtargets header is used by the ACX audio class extensions. For more information, see [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview).
 
 [WdfIoTarget](/windows-hardware/drivers/ddi/wdfiotarget/) is a WDF abstraction to facilitate the communication between two different stacks. ACX uses WdfIoTarget to facilitate communications between ACX objects, circuits, pins, streams, elements and circuit factories.
 
@@ -67,9 +67,11 @@ To interact with the remote circuit, each of the above ACX types supports:
  
 For more information, see:
 
-- [ACX Audio multi stack cross driver communications](/windows-hardware/drivers/audio/acx-audio-multi-stack)
-
 - [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview)
+
+- [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects)
+
+- [ACX Audio multi stack cross driver communications](/windows-hardware/drivers/audio/acx-audio-multi-stack)
  
 - [Audio](../_audio/index.md)
 

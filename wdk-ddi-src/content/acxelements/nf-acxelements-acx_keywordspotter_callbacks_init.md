@@ -2,7 +2,7 @@
 UID: NF:acxelements.ACX_KEYWORDSPOTTER_CALLBACKS_INIT
 tech.root: audio 
 title: ACX_KEYWORDSPOTTER_CALLBACKS_INIT
-ms.date: 04/05/2022
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_KEYWORDSPOTTER_CALLBACKS_INIT function initializes a ACX_KEYWORDSPOTTER_CALLBACKS structure. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The ACX_KEYWORDSPOTTER_CALLBACKS_INIT function initializes a [ACX_KEYWORDSPOTTER_CALLBACKS structure](ns-acxelements-acx_keywordspotter_callbacks.md). 
+The **ACX_KEYWORDSPOTTER_CALLBACKS_INIT** function initializes a [ACX_KEYWORDSPOTTER_CALLBACKS structure](ns-acxelements-acx_keywordspotter_callbacks.md). 
 
 ## -parameters
 

@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_VOLUME_CALLBACKS
 tech.root: audio 
 title: ACX_VOLUME_CALLBACKS
-ms.date: 09/02/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_VOLUME_CALLBACKS structure identifies the driver callbacks for ACX volume operations.
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_VOLUME_CALLBACKS structure identifies the driver callbacks for ACX volume operations.
+The **ACX_VOLUME_CALLBACKS** structure identifies the driver callbacks for ACX volume operations.
 
 ## -struct-fields
 
@@ -95,4 +95,6 @@ Example usage is shown below.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

@@ -1,7 +1,7 @@
 ---
 UID: NA:acxcircuit
 title: acxcircuit.h header
-ms.date: 01/31/2022
+ms.date: 04/28/2022
 description: The  acxcircuit.h header is used by the ACX audio class extensions.
 keywords: ["acxcircuit.h header"]
 ms.keywords: 

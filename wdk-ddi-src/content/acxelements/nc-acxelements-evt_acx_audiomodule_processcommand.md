@@ -2,7 +2,7 @@
 UID: NC:acxelements.EVT_ACX_AUDIOMODULE_PROCESSCOMMAND
 tech.root: audio 
 title: EVT_ACX_AUDIOMODULE_PROCESSCOMMAND
-ms.date: 09/03/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: EVT_ACX_AUDIOMODULE_PROCESSCOMMAND tells the driver to process a command.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-EVT_ACX_AUDIOMODULE_PROCESSCOMMAND tells the driver to process a command. 
+The **EVT_ACX_AUDIOMODULE_PROCESSCOMMAND** callback tells the driver to process a command. 
 
 ## -parameters
 

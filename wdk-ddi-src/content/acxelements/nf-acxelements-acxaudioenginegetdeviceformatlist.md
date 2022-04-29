@@ -2,7 +2,7 @@
 UID: NF:acxelements.AcxAudioEngineGetDeviceFormatList
 tech.root: audio 
 title: AcxAudioEngineGetDeviceFormatList
-ms.date: 09/23/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxAudioEngineGetDeviceFormatList function retrieves a ACXDATAFORMATLIST device format list ACX object. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxAudioEngineGetDeviceFormatList function retrieves the ACXDATAFORMATLIST object that holds the list of supported formats for the audio engine node. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The **AcxAudioEngineGetDeviceFormatList** function retrieves the ACXDATAFORMATLIST object that holds the list of supported formats for the audio engine node. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
@@ -81,4 +81,6 @@ Example usage is shown below.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

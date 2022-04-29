@@ -2,7 +2,7 @@
 UID: NE:acxelements._ACX_STREAMAUDIOENGINE_CONFIG_FLAGS
 tech.root: audio 
 title: ACX_STREAMAUDIOENGINE_CONFIG_FLAGS
-ms.date: 08/31/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_STREAMAUDIOENGINE_CONFIG_FLAGS enumeration defines the config flags for the ACX stream audio engine.
 prerelease: true
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_STREAMAUDIOENGINE_CONFIG_FLAGS enumeration defines the config flags for the ACX stream audio engine.
+The **ACX_STREAMAUDIOENGINE_CONFIG_FLAGS** enumeration defines the config flags for the ACX stream audio engine.
 
 ## -enum-fields
 
@@ -61,3 +61,5 @@ There are no flags currently defined for this type.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

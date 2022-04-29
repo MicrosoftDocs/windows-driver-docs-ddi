@@ -2,7 +2,7 @@
 UID: NF:acxelements.AcxKeywordSpotterCreate
 tech.root: audio 
 title: AcxKeywordSpotterCreate
-ms.date: 10/15/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxKeywordSpotterCreate function is used to create an ACX keyword spotter object that that will be associated with a circuit device object parent. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxKeywordSpotterCreate function is used to create an ACX keyword spotter object that that will be associated with a circuit device object parent. 
+The **AcxKeywordSpotterCreate** function is used to create an ACX keyword spotter object that that will be associated with a circuit device object parent. 
 
 ## -parameters
 
@@ -94,4 +94,6 @@ Example usage is shown below.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

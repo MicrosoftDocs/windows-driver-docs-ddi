@@ -2,7 +2,7 @@
 UID: NC:acxelements.EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE
 tech.root: audio 
 title: EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE
-ms.date: 04/05/2022
+ms.date: 04/29/2022
 targetos: Windows
 description: The EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE callback function is implemented by the driver and is called when the global effects state is set for an audio engine node. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE callback function is implemented by the driver and is called when the global effects state is set for an audio engine node. The global effects state can be set to TRUE or FALSE, where TRUE indicates that global effect processing in the audio engine node is enabled and FALSE indicates that global effect processing in the audio engine node is disabled. 
+The **EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE** callback function is implemented by the driver and is called when the global effects state is set for an audio engine node. The global effects state can be set to TRUE or FALSE, where TRUE indicates that global effect processing in the audio engine node is enabled and FALSE indicates that global effect processing in the audio engine node is disabled. 
 
 ## -parameters
 

@@ -2,7 +2,7 @@
 UID: NE:acxelements._ACX_CONSTRICTOR_OPTION
 tech.root: audio 
 title: ACX_CONSTRICTOR_OPTION
-ms.date: 08/31/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_CONSTRICTOR_OPTION enumeration defines the options for the loopback protection status of a stream audio engine node.
 prerelease: true
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_CONSTRICTOR_OPTION enumeration defines the options for the loopback protection status of a stream audio engine node.
+The **ACX_CONSTRICTOR_OPTION** enumeration defines the options for the loopback protection status of a stream audio engine node.
 
 ## -enum-fields
 
@@ -56,4 +56,6 @@ When an active stream is in this state it indicates that the loopback tap for th
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

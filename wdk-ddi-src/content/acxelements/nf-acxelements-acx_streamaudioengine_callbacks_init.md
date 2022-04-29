@@ -2,7 +2,7 @@
 UID: NF:acxelements.ACX_STREAMAUDIOENGINE_CALLBACKS_INIT
 tech.root: audio 
 title: ACX_STREAMAUDIOENGINE_CALLBACKS_INIT
-ms.date: 09/21/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_STREAMAUDIOENGINE_CALLBACKS_INIT function initializes a ACX_STREAMAUDIOENGINE_CALLBACKS structure.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The ACX_STREAMAUDIOENGINE_CALLBACKS_INIT function initializes a [ACX_STREAMAUDIOENGINE_CALLBACKS structure](ns-acxelements-acx_streamaudioengine_callbacks.md). 
+The **ACX_STREAMAUDIOENGINE_CALLBACKS_INIT** function initializes a [ACX_STREAMAUDIOENGINE_CALLBACKS structure](ns-acxelements-acx_streamaudioengine_callbacks.md). 
 
 ## -parameters
 
@@ -66,4 +66,6 @@ Example usage is shown below.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

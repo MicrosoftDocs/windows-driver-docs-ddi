@@ -2,7 +2,7 @@
 UID: NC:acxelements.EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET
 tech.root: audio 
 title: EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET
-ms.date: 10/15/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET resets the keyword spotter detector to an unarmed state with no pattern set.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET resets the keyword spotter detector to an unarmed state with no pattern set. 
+The **EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET** callback resets the keyword spotter detector to an unarmed state with no pattern set. 
 
 ## -parameters
 
@@ -87,9 +87,11 @@ CodecC_EvtAcxKeywordSpotterAssignReset(
     return keywordDetector->ResetDetector(*EventId);
 }
 ```
-READY2GO
 
 ## -see-also
 
 - [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

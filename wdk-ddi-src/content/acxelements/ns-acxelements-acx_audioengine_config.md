@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_AUDIOENGINE_CONFIG
 tech.root: audio 
 title: ACX_AUDIOENGINE_CONFIG
-ms.date: 09/03/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_AUDIOENGINE_CONFIG structure is used to define the audio engine configuration. 
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_AUDIOENGINE_CONFIG structure is used to define the audio engine configuration. 
+The **ACX_AUDIOENGINE_CONFIG** structure is used to define the audio engine configuration. 
 
 ## -struct-fields
 
@@ -121,4 +121,6 @@ Example usage is shown below.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

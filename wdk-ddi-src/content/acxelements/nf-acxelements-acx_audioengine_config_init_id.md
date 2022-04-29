@@ -2,7 +2,7 @@
 UID: NF:acxelements.ACX_AUDIOENGINE_CONFIG_INIT_ID
 tech.root: audio 
 title: ACX_AUDIOENGINE_CONFIG_INIT_ID
-ms.date: 10/01/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: As the ACX_AUDIOENGINE_CONFIG_INIT_ID provides the same functionality as ACX_AUDIOENGINE_CONFIG_INIT, the use of ACX_AUDIOENGINE_CONFIG_INIT is recommended.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-At this time, the ACX_AUDIOENGINE_CONFIG_INIT_ID can only take AcxElementIdDefault as input for the element ID, which is the same as using ACX_AUDIOENGINE_CONFIG_INIT. Because of this, [ACX_AUDIOENGINE_CONFIG_INIT](nf-acxelements-acx_audioengine_config_init.md) is recommended.
+At this time, the **ACX_AUDIOENGINE_CONFIG_INIT_ID** function can only take AcxElementIdDefault as input for the element ID, which is the same as using ACX_AUDIOENGINE_CONFIG_INIT. Because of this, [ACX_AUDIOENGINE_CONFIG_INIT](nf-acxelements-acx_audioengine_config_init.md) is recommended.
 
 ## -parameters
 
@@ -63,4 +63,6 @@ As the ACX_AUDIOENGINE_CONFIG_INIT_ID provides the same functionality as [ACX_AU
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

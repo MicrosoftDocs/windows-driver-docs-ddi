@@ -2,7 +2,7 @@
 UID: NC:acxelements.EVT_ACX_RAMPED_VOLUME_ASSIGN_LEVEL
 tech.root: audio 
 title: EVT_ACX_RAMPED_VOLUME_ASSIGN_LEVEL
-ms.date: 09/16/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: EVT_ACX_RAMPED_VOLUME_ASSIGN_LEVEL is implemented by the driver and is called when the volume level of a channel is set for a volume node.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-EVT_ACX_RAMPED_VOLUME_ASSIGN_LEVEL is implemented by the driver and is called when the volume level of a channel is set for a volume node.
+The **EVT_ACX_RAMPED_VOLUME_ASSIGN_LEVEL** callback is implemented by the driver and is called when the volume level of a channel is set for a volume node.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ A LONG value that specifies the desired final volume level for the given channel
 
 ### -param CurveType
 
-Uses the AUDIO_CURVE_TYPE enumeration to specify the curve algorithm to apply over the duration specified, in order to reach the desired level. The curve begins at the current volume level and ends at the target volume level specified in the Volume parameter.
+Uses the [AUDIO_CURVE_TYPE enumeration](/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-audio_curve_type) to specify the curve algorithm to apply over the duration specified, in order to reach the desired level. The curve begins at the current volume level and ends at the target volume level specified in the Volume parameter.
 
 ### -param CurveDuration
 
@@ -127,9 +127,11 @@ CodecR_EvtRampedVolumeAssignLevel(
     return STATUS_SUCCESS;
 }
 ```
-READY2GO
 
 ## -see-also
 
 - [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_STREAMAUDIOENGINE_CONFIG structure is used to define the stream audio engine configuration. 
+The **ACX_STREAMAUDIOENGINE_CONFIG** structure is used to define the stream audio engine configuration. 
 
 ## -struct-fields
 
@@ -103,3 +103,4 @@ Example usage is shown below.
 
 READY2GO
 
+EDITCOMPLETE

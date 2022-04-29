@@ -2,7 +2,7 @@
 UID: NC:acxelements.EVT_ACX_MUTE_RETRIEVE_STATE
 tech.root: audio 
 title: EVT_ACX_MUTE_RETRIEVE_STATE
-ms.date: 09/16/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The EVT_ACX_MUTE_RETRIEVE_STATE callback function is implemented by the driver and is called when the state of a specified channel on a mute node is requested. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_MUTE_RETRIEVE_STATE callback function is implemented by the driver and is called when the state of a specified channel on a mute node is requested. 
+The **EVT_ACX_MUTE_RETRIEVE_STATE** callback function is implemented by the driver and is called when the state of a specified channel on a mute node is requested. 
 
 ## -parameters
 
@@ -104,9 +104,11 @@ CodecR_EvtMuteRetrieveState(
     return STATUS_SUCCESS;
 }
 ```
-READY2GO
 
 ## -see-also
 
 - [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

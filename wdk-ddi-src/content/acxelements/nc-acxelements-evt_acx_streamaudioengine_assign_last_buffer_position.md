@@ -2,7 +2,7 @@
 UID: NC:acxelements.EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LAST_BUFFER_POSITION
 tech.root: audio 
 title: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LAST_BUFFER_POSITION
-ms.date: 09/20/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LAST_BUFFER_POSITION callback function is implemented by the driver and is called when the position of the last valid byte in the audio buffer is set for the specified stream audio engine. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LAST_BUFFER_POSITION callback function is implemented by the driver and is called when the position of the last valid byte in the audio buffer is set for the specified stream audio engine.
+The **EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LAST_BUFFER_POSITION** callback function is implemented by the driver and is called when the position of the last valid byte in the audio buffer is set for the specified stream audio engine.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ An existing, initialized, ACXSTREAMAUDIOENGINE object. For more information abou
 
 ### -param Position
 
-Indicates the position of the last valid byte in the audio buffer of the specified stream audio engine. For more information on the position value, see [KSPROPERTY_AUDIO_WAVERT_CURRENT_WRITE_LASTBUFFER_POSITION] (/windows-hardware/drivers/audio/ksproperty-audio-wavert-current-write-lastbuffer-position).
+Indicates the position of the last valid byte in the audio buffer of the specified stream audio engine. For more information on the position value, see [KSPROPERTY_AUDIO_WAVERT_CURRENT_WRITE_LASTBUFFER_POSITION](/windows-hardware/drivers/audio/ksproperty-audio-wavert-current-write-lastbuffer-position).
 
 ## -returns
 
@@ -99,4 +99,6 @@ CodecR_EvtAcxStreamAudioEngineAssignLastBufferPosition(
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 

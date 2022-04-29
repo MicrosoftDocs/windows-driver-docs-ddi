@@ -2,7 +2,7 @@
 UID: NF:acxelements.AcxElementAddEvents
 tech.root: audio 
 title: AcxElementAddEvents
-ms.date: 09/23/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxElementAddEvents function provides the ability to add ACXEVENT event objects to an ACXELEMENT object. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxElementAddEvents function provides the ability to add ACXEVENT event objects to an existing ACXELEMENT object.
+The **AcxElementAddEvents** function provides the ability to add ACXEVENT event objects to an existing ACXELEMENT object.
 
 ## -parameters
 

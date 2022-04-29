@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_PEAKMETER_CONFIG
 tech.root: audio 
 title: ACX_PEAKMETER_CONFIG
-ms.date: 09/02/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_PEAKMETER_CONFIG structure is used to define the audio peakmeter configuration. 
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_PEAKMETER_CONFIG structure is used to define the ACX peakmeter configuration.
+The **ACX_PEAKMETER_CONFIG** structure is used to define the ACX peakmeter configuration.
 
 ## -struct-fields
 

@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_AUDIOMODULE_DESCRIPTOR
 tech.root: audio 
 title: ACX_AUDIOMODULE_DESCRIPTOR
-ms.date: 09/03/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_AUDIOMODULE_DESCRIPTOR is used to define an audio module descriptor structure.
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_AUDIOMODULE_DESCRIPTOR is used to define an audio module descriptor structure.
+The **ACX_AUDIOMODULE_DESCRIPTOR** is used to define an audio module descriptor structure.
 
 ## -struct-fields
 

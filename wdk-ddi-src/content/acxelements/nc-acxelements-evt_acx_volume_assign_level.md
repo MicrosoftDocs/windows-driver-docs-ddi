@@ -2,7 +2,7 @@
 UID: NC:acxelements.EVT_ACX_VOLUME_ASSIGN_LEVEL
 tech.root: audio 
 title: EVT_ACX_VOLUME_ASSIGN_LEVEL
-ms.date: 09/16/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The EVT_ACX_VOLUME_ASSIGN_LEVEL callback function is implemented by the driver and is called when the volume level of a channel is set for a volume node. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_VOLUME_ASSIGN_LEVEL callback function is implemented by the driver and is called when the volume level of a channel is set for a volume node. 
+The **EVT_ACX_VOLUME_ASSIGN_LEVEL** callback function is implemented by the driver and is called when the volume level of a channel is set for a volume node. 
 
 ## -parameters
 
@@ -111,9 +111,11 @@ CodecC_EvtVolumeAssignLevelCallback(
     return STATUS_SUCCESS;
 }
 ```
-READY2GO
 
 ## -see-also
 
 - [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

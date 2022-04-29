@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_MUTE_CONFIG
 tech.root: audio 
 title: ACX_MUTE_CONFIG
-ms.date: 09/03/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_MUTE_CONFIG structure is used to define the audio mute configuration. 
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_MUTE_CONFIG structure is used to define the acx mute configuration. 
+The **ACX_MUTE_CONFIG** structure is used to define the acx mute configuration. 
 
 ## -struct-fields
 
@@ -104,3 +104,4 @@ Example usage is shown below.
 
 READY2GO
 
+EDITCOMPLETE

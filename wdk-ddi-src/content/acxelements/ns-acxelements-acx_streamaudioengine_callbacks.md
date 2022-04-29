@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_STREAMAUDIOENGINE_CALLBACKS
 tech.root: audio 
 title: ACX_STREAMAUDIOENGINE_CALLBACKS
-ms.date: 09/02/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_STREAMAUDIOENGINE_CALLBACKS structure identifies the driver callbacks for ACX audio engine stream operations.
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_STREAMAUDIOENGINE_CALLBACKS structure identifies the driver callbacks for ACX stream audio engine operations.
+The **ACX_STREAMAUDIOENGINE_CALLBACKS** structure identifies the driver callbacks for ACX stream audio engine operations.
 
 ## -struct-fields
 
@@ -111,3 +111,4 @@ Example usage is shown below.
 
 READY2GO
 
+EDITCOMPLETE

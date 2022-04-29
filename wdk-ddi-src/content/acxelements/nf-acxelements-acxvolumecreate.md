@@ -2,7 +2,7 @@
 UID: NF:acxelements.AcxVolumeCreate
 tech.root: audio 
 title: AcxVolumeCreate
-ms.date: 10/21/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxVolumeCreate function is used to create an ACX volume object that that will be associated with a circuit object parent. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxVolumeCreate function is used to create an ACX volume object that that will be associated with a circuit object parent. 
+The **AcxVolumeCreate** function is used to create an ACX volume object that that will be associated with a circuit object parent. 
 
 ## -parameters
 
@@ -99,4 +99,6 @@ Example usage is shown below.
 - [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
 
