@@ -50,27 +50,23 @@ The **ACX_AUDIOMODULE_DESCRIPTOR** is used to define an audio module descriptor 
 
 ### -field ClassId
 
-The ClassId that is used to identify the class.
-
-TBD - assuming this usage is likePcNewPort.
-
-Specifies the class GUID, which is passed by reference. This parameter is used only if the function creates objects of multiple classes. Otherwise, it is set to NULL.
+the GUID identifier of the module, which is defined by the audio device module owner.
 
 ### -field InstanceId
 
-The Instance Id for this audio module.
+The identifier, defined by the driver developer, that disambiguates between multiple instances of the same module class in the driver topology.
 
 ### -field VersionMajor
 
-The major version.
+The major version of the audio module.
 
 ### -field VersionMinor
 
-The minor version.
+The minor version of the audio module.
 
 ### -field Name
 
-A pointer to a GUID that represents the name of the element. Can be used for debugging and will default to GUID_NULL if not provided.
+The friendly name of the audio device module for display in UI. The buffer size is ACX_AUDIOMODULE_MAX_NAME_CCH_SIZE including the NULL terminator.
 
 ## -remarks
 
@@ -88,4 +84,4 @@ Example usage is shown below.
 
 - [acxelements.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

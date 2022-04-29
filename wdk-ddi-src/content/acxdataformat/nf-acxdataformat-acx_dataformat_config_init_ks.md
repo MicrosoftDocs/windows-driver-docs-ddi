@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.ACX_DATAFORMAT_CONFIG_INIT_KS
 tech.root: audio
 title: ACX_DATAFORMAT_CONFIG_INIT_KS
-ms.date: 03/22/2022
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_DATAFORMAT_CONFIG_INIT_KS function initializes an ACX_DATAFORMAT_CONFIG structure using a KS data format.
 prerelease: true
@@ -62,7 +62,7 @@ A pointer to the [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md).
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [ACX_DATAFORMAT_CONFIG_INIT](nf-acxdataformat-acx_dataformat_config_init.md)
 - [acxdataformat.h header](index.md)
- 
+
 READY2GO
 
 EDITCOMPLETE

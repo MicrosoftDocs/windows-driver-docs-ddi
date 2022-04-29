@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_AUDIOMODULE_PROCESSCOMMAND
 ms.date: 04/29/2022
 targetos: Windows
-description: EVT_ACX_AUDIOMODULE_PROCESSCOMMAND tells the driver to process a command.
+description: EVT_ACX_AUDIOMODULE_PROCESSCOMMAND tells the driver to process a command for an audio module element.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_AUDIOMODULE_PROCESSCOMMAND** callback tells the driver to process a command. 
+The **EVT_ACX_AUDIOMODULE_PROCESSCOMMAND** callback tells the driver to process a command for an audio module element.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ A pointer to the input buffer.
 
 ### -param InBufferCb
 
-TBD - The input buffer Cb count location.
+The input buffer size in count of bytes.
 
 ### -param OutBuffer
 
@@ -64,7 +64,7 @@ A pointer to the output buffer.
 
 ### -param OutBufferCb
 
-TBD - The output buffer Cb count location.
+The output buffer size in count of bytes.
 
 ## -returns
 
@@ -199,4 +199,6 @@ exit:
 
 - [acxelements.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
+
+EDITCOMPLETE
