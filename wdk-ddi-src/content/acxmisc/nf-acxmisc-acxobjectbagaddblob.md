@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagAddBlob
 tech.root: audio
 title: AcxObjectBagAddBlob
-ms.date: 01/27/2022
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxObjectBagAddBlob function adds blob data to an existing, intialized AcxObjectBag. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddBlob function adds blob data to an existing, intialized AcxObjectBag. 
+The **AcxObjectBagAddBlob** function adds blob data to an existing, intialized AcxObjectBag. 
 
 ## -parameters
 
@@ -82,3 +82,5 @@ This example shows the use of AcxObjectBagAddBlob.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

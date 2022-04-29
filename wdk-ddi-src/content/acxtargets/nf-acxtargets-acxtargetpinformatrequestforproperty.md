@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetPinFormatRequestForProperty
 tech.root: audio
 title: AcxTargetPinFormatRequestForProperty
-ms.date: 04/25/2022
+ms.date: 04/29/2022
 targetos: Windows
 description: AcxTargetPinFormatRequestForProperty, given an ACXTARGETPIN object, dispatches an ACX request using a WDFREQUEST framework request object.
 prerelease: true
@@ -79,3 +79,5 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ## -see-also
 
 - [acxtargets.h header](index.md)
+
+TBD - Please review this topic

@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetPinGetWdfIoTarget
 tech.root: audio
 title: AcxTargetPinGetWdfIoTarget
-ms.date: 04/26/2022
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxTargetPinGetWdfIoTarget function given an existing ACXTARGETPIN object, returns a WDFIOTARGET object.
 prerelease: true
@@ -70,3 +70,5 @@ Returns the WDFIOTARGET object associated with the TargetPin.
 ## -see-also
 
 - [acxtargets.h header](index.md)
+
+TBD - Please review this topic

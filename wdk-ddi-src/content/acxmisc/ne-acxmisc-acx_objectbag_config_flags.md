@@ -2,7 +2,7 @@
 UID: NE:acxmisc._ACX_OBJECTBAG_CONFIG_FLAGS
 tech.root: audio
 title: ACX_OBJECTBAG_CONFIG_FLAGS
-ms.date: 01/27/2022
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_OBJECTBAG_CONFIG_FLAGS enumeration defines the configuration for an AcxObjectBag. 
 prerelease: true
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_OBJECTBAG_CONFIG_FLAGS enumeration defines the configuration for an AcxObjectBag. 
+The **ACX_OBJECTBAG_CONFIG_FLAGS** enumeration defines the configuration for an AcxObjectBag. 
 
 ## -enum-fields
 
@@ -95,3 +95,5 @@ This example shows the use of ACX_OBJECTBAG_CONFIG_FLAGS.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

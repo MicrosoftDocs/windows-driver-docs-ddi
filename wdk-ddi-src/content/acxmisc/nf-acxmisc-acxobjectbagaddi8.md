@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagAddI8
 tech.root: audio
 title: AcxObjectBagAddI8
-ms.date: 02/22/2022
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxObjectBagAddI8 function adds a int eight byte I8 (LONG64) value to an existing, intialized AcxObjectBag. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddI8 function adds a int eight byte I8 (LONG64) value to an existing, intialized AcxObjectBag. 
+The **AcxObjectBagAddI8** function adds a int eight byte I8 (LONG64) value to an existing, intialized AcxObjectBag. 
 
 ## -parameters
 
@@ -105,3 +105,5 @@ This example shows the use of AcxObjectBagAddI8.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

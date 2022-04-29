@@ -2,7 +2,7 @@
 UID: NS:acxrequest._ACX_REQUEST_PARAMETERS
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS
-ms.date: 03/04/2022
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_REQUEST_PARAMETERS structure describes the items that can be used in an ACX request.
 prerelease: true
@@ -77,7 +77,7 @@ The WDF IRP minor function that is used for this request, for example IRP_MN_QUE
 
 ### -field Type
 
-The **ACX_ITEM_TYPE**(ne-acxrequest-acx_item_type.md) enumeration describes the type of items that will be sent in the request.
+The [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) enumeration describes the type of items that will be sent in the request.
 
 ### -field Parameters
 
