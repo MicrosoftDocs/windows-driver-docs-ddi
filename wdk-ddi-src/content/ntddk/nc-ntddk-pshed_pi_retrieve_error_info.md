@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= HIGH_LEVEL (See Remarks section)
+req.irql: IRQL >= DISPATCH_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -132,13 +132,11 @@ Each low-level hardware error handler (LLHEH) calls into the PSHED to retrieve a
 
 A PSHED plug-in must ensure that it does not add supplementary information beyond the end of the hardware error packet. The amount of memory that an LLHEH allocates for a buffer to contain a particular hardware error packet is calculated from the <b>MaxRawDataLength</b> member of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure that describes the error source. If a PSHED plug-in requires additional buffer space to contain the supplementary information, it must participate in error source discovery and increase the value in the <b>MaxRawDataLength</b> member of the <b>WHEA_ERROR_SOURCE_DESCRIPTOR</b> structure for each error source as appropriate to account for any supplemental information.
 
-For most error sources, the PSHED plug-in's <i>RetrieveErrorInfo</i> callback function is called at a high IRQL. In such a situation, the PSHED plug-in's <i>RetrieveErrorInfo</i> callback function must only perform operations and make calls to other functions that are permitted at a high IRQL.
+For all error sources, the PSHED plug-in's <i>RetrieveErrorInfo</i> callback function is called at a minimum IRQL of DISPATCH_LEVEL. The PSHED plug-in's <i>RetrieveErrorInfo</i> callback function must only perform operations and make calls to other functions that are permitted at that high IRQL level.
 
 An important task of a PSHED plug-in's <i>RetrieveErrorInfo</i> callback function is to ensure that the severity of the error condition as specified by the <b>ErrorSeverity</b> member of the <a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a> is appropriate. For example, if the severity level of the error condition is reported as <b>WheaErrSevFatal </b>by the LLHEH but the PSHED plug-in supports a recovery mechanism for the particular error condition that was reported, the PSHED plug-in can change the severity level to <b>WheaErrSevRecoverable </b>so that the operating system will attempt recovery from the error. Similarly, if the severity level of the error condition is reported as <b>WheaErrSevRecoverable </b>by the LLHEH but the PSHED plug-in recognizes that attempting recovery of the particular error condition that was reported would only cause further problems, the PSHED plug-in can change the severity level to <b>WheaErrSevFatal </b>so that the operating system will not attempt recovery from the error.
 
 <div class="alert"><b>Important</b>    For corrected hardware errors, a PSHED plug-in must retrieve all of the error status information that it requires for processing the error condition from within its <i>RetrieveErrorInfo</i> callback function, as the remainder of the processing of the hardware error is not guaranteed to be synchronized with the LLHEH.</div>
-<div> </div>
-The PSHED calls a PSHED plug-in's <i>RetrieveErrorInfo</i> callback function at IRQL <= HIGH_LEVEL. The exact IRQL at which this callback function is called depends on the specific type of hardware error that occurred.
 
 ## -see-also
 
