@@ -56,7 +56,7 @@ One or more ACXEVENT objects.
 
 ### -param EventsCount
 
-A count of the events. This is a one based count.
+The number of events in the Events array.
 
 ## -returns
 
@@ -78,4 +78,4 @@ Sample Pending
 
 - [acxelements.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
