@@ -46,6 +46,8 @@ api_name:
 
 The **HidD_GetInputReport** routine returns an input reports from a [top-level collection](/windows-hardware/drivers/hid/top-level-collections).
 
+Application should only use the this routine to obtain the current state of a device. If an application attempts to use this routine to continuously obtain input reports, the reports can be lost. See [Obtaining HID Reports by user-mode applications](/windows-hardware/drivers/hid/obtaining-hid-reports#obtaining-hid-reports-by-user-mode-applications) for more information.
+
 ## -parameters
 
 ### -param HidDeviceObject [in]
