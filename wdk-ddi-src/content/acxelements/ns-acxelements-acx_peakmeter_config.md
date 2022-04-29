@@ -72,11 +72,11 @@ The number of channels. This is a one based count.
 
 ### -field Maximum
 
-The maximum value for the peakmeter.
+The maximum value for the peakmeter. SignedMaximum must be set to LONG_MAX.
 
 ### -field Minimum
 
-The minimum value for the peakmeter.
+The minimum value for the peakmeter. SignedMinimum must be set to LONG_MIN.
 
 ### -field SteppingDelta
 
@@ -88,7 +88,13 @@ The [ACX_PEAKMETER_CALLBACKS structure](ns-acxelements-acx_peakmeter_callbacks.m
 
 ## -remarks
 
-Similar / alignment with values in [KSPROPERTY_AUDIO_PEAKMETER2](/windows-hardware/drivers/audio/ksproperty-audio-peakmeter2)
+For example, you have a waveform with negative and positive peaks at -1 and +1 respectively (on a scale that goes from -1 to +1), then a peak meter value of LONG_MAX accurately reports the maximum waveform value for a given time window. Conversely, a peak meter value of zero (0) should be used to report silence, where all the waveform’s values are zero. But in the case of a waveform whose peak values are between zero (0) and LONG_MAX, the reported waveform values would be linearly reduced from the originals.
+
+Therefore, in the case of the waveform that swings between -0.5 and +0.5 (on a scale that goes from -1 to +1), the peak meter value must be set to LONG_MAX/2.
+
+The driver handles this property request synchronously. If the request succeeds, it resets the peakmeter, which initializes the accumulated peak value to zero. If the request does not succeed, the peakmeter is not changed.
+
+See also [KSPROPERTY_AUDIO_PEAKMETER2](/windows-hardware/drivers/audio/ksproperty-audio-peakmeter2)
 
 ### Example
 
