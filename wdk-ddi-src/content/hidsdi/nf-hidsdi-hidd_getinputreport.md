@@ -4,7 +4,7 @@ title: HidD_GetInputReport function (hidsdi.h)
 description: The HidD_GetInputReport routine returns an input reports from a top-level collection.
 old-location: hid\hidd_getinputreport.htm
 tech.root: hid
-ms.date: 04/28/2022
+ms.date: 05/03/2022
 keywords: ["HidD_GetInputReport function"]
 ms.keywords: HidD_GetInputReport, HidD_GetInputReport routine [Human Input Devices], hid.hidd_getinputreport, hidfunc_fdcd7a5b-6623-419f-abdf-de19370ee793.xml, hidsdi/HidD_GetInputReport
 req.header: hidsdi.h
@@ -44,7 +44,9 @@ api_name:
 
 ## -description
 
-The **HidD_GetInputReport** routine returns an input reports from a [top-level collection](/windows-hardware/drivers/hid/top-level-collections).
+The **HidD_GetInputReport** routine returns an input report from a [top-level collection](/windows-hardware/drivers/hid/top-level-collections).
+
+Only use the this routine to obtain the current state of a device. If an application attempts to use this routine to continuously obtain input reports, the reports can be lost. For more information, see [Obtaining HID Reports by user-mode applications](/windows-hardware/drivers/hid/obtaining-hid-reports#obtaining-hid-reports-by-user-mode-applications).
 
 ## -parameters
 
