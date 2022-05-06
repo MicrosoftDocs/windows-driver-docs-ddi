@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatListRetrieveDefaultDataFormat
 tech.root: audio
 title: AcxDataFormatListRetrieveDefaultDataFormat
-ms.date: 03/28/2022
+ms.date: 05/06/2022
 targetos: Windows
 description: The AcxDataFormatListRetrieveDefaultDataFormat gets the default ACX data format from the specified ACX data format list.
 prerelease: true
@@ -65,5 +65,5 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [ACXDATAFORMAT](index.md)
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [acxdataformat.h header](index.md)
- 
+
 TBD - Please review this topic

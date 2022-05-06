@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetChannelsCount
 tech.root: audio
 title: AcxDataFormatGetChannelsCount
-ms.date: 03/23/2022
+ms.date: 05/06/2022
 targetos: Windows
 description: The AcxDataFormatGetChannelsCount function gets the number of audio channels in the specified data format.
 prerelease: true
@@ -60,5 +60,5 @@ Returns a USHORT value containing the number of channels specified in the *DataF
 
 - [WAVEFORMAT structure](/windows/win32/api/mmreg/ns-mmreg-waveformat)
 - [acxdataformat.h header](index.md)
- 
+
 TBD - Please review this topic

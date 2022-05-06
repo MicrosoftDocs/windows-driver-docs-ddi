@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetBlockAlign
 tech.root: audio
 title: AcxDataFormatGetBlockAlign
-ms.date: 03/23/2022
+ms.date: 05/06/2022
 targetos: Windows
 description: The AcxDataFormatGetBlockAlign function gets the block alignment of the specified data format.
 prerelease: true
@@ -60,5 +60,5 @@ Returns a ULONG value containing the block alignment, in bytes, for the specifie
 
 - [WAVEFORMAT structure](/windows/win32/api/mmreg/ns-mmreg-waveformat)
 - [acxdataformat.h header](index.md)
- 
+
 TBD - Please review this topic

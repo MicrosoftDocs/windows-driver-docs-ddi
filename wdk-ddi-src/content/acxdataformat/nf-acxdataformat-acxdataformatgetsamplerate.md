@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetSampleRate
 tech.root: audio
 title: AcxDataFormatGetSampleRate
-ms.date: 03/24/2022
+ms.date: 05/06/2022
 targetos: Windows
 description: The AcxDataFormatGetSampleRate function gets the sample rate for the specified data format.
 prerelease: true
@@ -59,5 +59,5 @@ Returns a ULONG value containing the sample rate for the specified *DataFormat*.
 ## -see-also
 
 - [acxdataformat.h header](index.md)
- 
+
 TBD - Please review this topic

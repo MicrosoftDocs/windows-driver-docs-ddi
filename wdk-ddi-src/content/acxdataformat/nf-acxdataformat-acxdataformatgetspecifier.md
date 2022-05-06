@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetSpecifier
 tech.root: audio
 title: AcxDataFormatGetSpecifier
-ms.date: 03/24/2022
+ms.date: 05/06/2022
 targetos: Windows
 description: The AcxDataFormatGetSpecifier function gets the specifier for the specified data format.
 prerelease: true
@@ -63,5 +63,5 @@ Specifies additional data format type information for a specific setting of Majo
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [Audio Data Formats](/windows-hardware/drivers/audio/audio-data-formats)
 - [acxdataformat.h header](index.md)
- 
+
 TBD - Please review this topic

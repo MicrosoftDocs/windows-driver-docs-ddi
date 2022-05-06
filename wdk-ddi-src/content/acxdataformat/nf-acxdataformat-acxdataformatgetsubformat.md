@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetSubFormat
 tech.root: audio
 title: AcxDataFormatGetSubFormat
-ms.date: 03/24/2022
+ms.date: 05/06/2022
 targetos: Windows
 description: The AcxDataFormatGetSubFormat function gets the subformat for the specified data format.
 prerelease: true
@@ -63,5 +63,5 @@ Specifies the subformat of a general format type. The data subformats that are c
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [Stream Categories](/windows-hardware/drivers/stream/stream-categories)
 - [acxdataformat.h header](index.md)
- 
+
 TBD - Please review this topic

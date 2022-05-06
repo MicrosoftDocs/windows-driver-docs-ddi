@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetMajorFormat
 tech.root: audio
 title: AcxDataFormatGetMajorFormat
-ms.date: 01/10/2022
+ms.date: 05/06/2022
 targetos: Windows
 description: AcxDataFormatGetMajorFormat
 prerelease: true
@@ -63,5 +63,5 @@ Specifies the general format type. The data formats that are currently supported
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [Stream Categories](/windows-hardware/drivers/stream/stream-categories)
 - [acxdataformat.h header](index.md)
- 
+
 TBD - Please review this topic

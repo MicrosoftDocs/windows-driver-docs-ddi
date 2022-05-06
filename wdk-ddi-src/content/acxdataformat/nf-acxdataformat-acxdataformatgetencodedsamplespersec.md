@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetEncodedSamplesPerSec
 tech.root: audio
 title: AcxDataFormatGetEncodedSamplesPerSec
-ms.date: 03/23/2022
+ms.date: 05/06/2022
 targetos: Windows
 description: The AcxDataFormatGetEncodedSamplesPerSec function gets the number of samples per second of audio for the specified encoded data format.
 prerelease: true
@@ -60,5 +60,5 @@ Returns a ULONG value that contains the number of samples per second of audio fo
 
 - [Representing Formats for IEC 61937 Transmissions](/windows/win32/coreaudio/representing-formats-for-iec-61937-transmissions)
 - [acxdataformat.h header](index.md)
- 
+
 TBD - Please review this topic

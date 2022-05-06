@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatCreate
 tech.root: audio
 title: AcxDataFormatCreate
-ms.date: 03/22/2022
+ms.date: 05/06/2022
 targetos: Windows
 description: The AcxDataFormatCreate function is used to create a data format for use by an audio class extension (ACX).
 prerelease: true
@@ -74,5 +74,5 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
 - [ACX_DATAFORMAT_CONFIG](ns-acxdataformat-acx_dataformat_config.md)
 - [acxdataformat.h header](index.md)
- 
+
 TBD - Please review this topic

@@ -2,7 +2,7 @@
 UID: NS:acxdataformat._ACX_DATAFORMAT_LIST_CONFIG
 tech.root: audio
 title: ACX_DATAFORMAT_LIST_CONFIG
-ms.date: 03/30/2022
+ms.date: 05/06/2022
 targetos: Windows
 description: The ACX_DATAFORMAT_LIST_CONFIG structure is used to configure a new ACX data format list object.
 prerelease: true
@@ -65,5 +65,5 @@ Instances of the **ACX_DATAFORMAT_LIST_CONFIG** structure must be initialized by
 - [ACX_DATAFORMAT_LIST_CONFIG_INIT](nf-acxdataformat-acx_dataformat_list_config_init.md)
 - [ACX_DATAFORMAT_LIST_CONFIG_FLAGS](ne-acxdataformat-acx_dataformat_list_config_flags.md)
 - [acxdataformat.h header](index.md)
- 
+
 TBD - Please review this topic

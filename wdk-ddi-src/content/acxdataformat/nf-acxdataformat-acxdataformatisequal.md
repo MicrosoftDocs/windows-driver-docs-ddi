@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatIsEqual
 tech.root: audio
 title: AcxDataFormatIsEqual
-ms.date: 03/25/2022
+ms.date: 05/06/2022
 targetos: Windows
 description: The AcxDataFormatIsEqual function compares two ACXDATAFORMAT objects for equality.
 prerelease: true
@@ -63,5 +63,5 @@ Returns TRUE if *DataFormat1* and DataFormat2 are equal, otherwise FALSE.
 ## -see-also
 
 - [acxdataformat.h header](index.md)
- 
+
 TBD - Please review this topic
