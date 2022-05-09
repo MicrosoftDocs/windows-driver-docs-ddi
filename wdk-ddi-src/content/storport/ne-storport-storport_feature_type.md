@@ -88,7 +88,7 @@ Max value for this enumeration.
 
 ## -remarks
 
-A miniport provides an array of **STORPORT_FEATURE_TYPE** values when it calls [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md), where each value indicates whether the miniport provides support for a control operation
+A miniport provides an array of **STORPORT_FEATURE_TYPE** values when it calls [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md), where each value indicates whether the miniport provides support for a control operation.
 
 Storport specifies the control type when it calls a miniport's [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) routine.
 
