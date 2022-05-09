@@ -1,15 +1,15 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SUBMITCOMMAND
-title: _DXGKARG_SUBMITCOMMAND (d3dkmddi.h)
+title: DXGKARG_SUBMITCOMMAND (d3dkmddi.h)
 description: The DXGKARG_SUBMITCOMMAND structure describes the direct memory access (DMA) buffer that a display miniport driver submits to the hardware command execution unit.
 old-location: display\dxgkarg_submitcommand.htm
-ms.date: 05/10/2018
+ms.date: 04/27/2022
 keywords: ["DXGKARG_SUBMITCOMMAND structure"]
 ms.keywords: DXGKARG_SUBMITCOMMAND, DXGKARG_SUBMITCOMMAND structure [Display Devices], DmStructs_04cbfdbf-3b43-4b70-8964-75eb9f9c4128.xml, _DXGKARG_SUBMITCOMMAND, d3dkmddi/DXGKARG_SUBMITCOMMAND, display.dxgkarg_submitcommand
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,48 +43,47 @@ api_name:
  - DXGKARG_SUBMITCOMMAND
 ---
 
-# _DXGKARG_SUBMITCOMMAND structure
-
+# DXGKARG_SUBMITCOMMAND structure
 
 ## -description
 
-The DXGKARG_SUBMITCOMMAND structure describes the direct memory access (DMA) buffer that a display miniport driver submits to the hardware command execution unit.
+The **DXGKARG_SUBMITCOMMAND** structure describes the direct memory access (DMA) buffer that a display miniport driver submits to the hardware command execution unit during a call to [**DxgkDdiSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md).
 
 ## -struct-fields
 
 ### -field hDevice [in]
 
-If the driver is not multiple-engine aware (that is, the driver does not support context creation), a handle to the display device (graphics context) that the submission request originated from. A device handle is supplied to the driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand">DxgkDdiSubmitCommand</a> function in the union that DXGKARG_SUBMITCOMMAND contains.
+If the driver is not multiple-engine aware (that is, the driver does not support context creation), a handle to the display device (graphics context) that the submission request originated from. A device handle is supplied to the driver's [**DxgkDdiSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md) function in the union that **DXGKARG_SUBMITCOMMAND** contains.
 
-For some paging operations, <b>hDevice</b> is <b>NULL</b> (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the <b>Paging</b> bit-field flag in the <b>Flags</b> member.
+For some paging operations, **hDevice** is NULL (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the **Paging** bit-field flag in the **Flags** member.
 
 ### -field hContext [in]
 
-If the driver is multiple-engine aware (that is, the driver supports context creation), a handle to the device context that the submission request originated from. A context handle is supplied to the driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand">DxgkDdiSubmitCommand</a> function in the union that DXGKARG_SUBMITCOMMAND contains. 
+If the driver is multiple-engine aware (that is, the driver supports context creation), a handle to the device context that the submission request originated from. A context handle is supplied to the driver's [**DxgkDdiSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md) function in the union that **DXGKARG_SUBMITCOMMAND** contains.
 
-For some paging operations, <b>hContext</b> is <b>NULL</b> (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the <b>Paging</b> bit-field flag in the <b>Flags</b> member.
+For some paging operations, **hContext** is NULL (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the **Paging** bit-field flag in the **Flags** member.
 
 ### -field DmaBufferSegmentId [in]
 
-The identifier of the memory segment that the DMA buffer was paged in. 
+The identifier of the memory segment that the DMA buffer was paged into.
 
-The identifier can be zero if the driver indicated not to map the DMA buffer into the segment by setting the <b>DmaBufferSegmentSet</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_contextinfo">DXGK_CONTEXTINFO</a> structure to 0 in a call to the driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a> function. If <b>DmaBufferSegmentId</b> is zero, the DMA buffer was allocated as a contiguous block of system memory.
+The identifier can be zero if the driver indicated not to map the DMA buffer into the segment by setting the **DmaBufferSegmentSet** member of the [**DXGK_CONTEXTINFO**](ns-d3dkmddi-_dxgk_contextinfo.md) structure to 0 in a call to the driver's [**DxgkDdiCreateContext**](nc-d3dkmddi-dxgkddi_createcontext.md) function. If **DmaBufferSegmentId** is zero, the DMA buffer was allocated as a contiguous block of system memory.
 
 ### -field DmaBufferPhysicalAddress [in]
 
-A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates the physical address where the DMA buffer was paged in. 
+A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates the physical address where the DMA buffer was paged in.
 
-If <b>DmaBufferSegmentId</b> is zero, <b>DmaBufferPhysicalAddress</b> is the physical address in system memory where the DMA buffer is located. 
+If **DmaBufferSegmentId** is zero, **DmaBufferPhysicalAddress** is the physical address in system memory where the DMA buffer is located.
 
-If <b>DmaBufferSegmentId</b> is nonzero, <b>DmaBufferPhysicalAddress</b> is the segment physical address for the DMA buffer (that is, DXGK_SEGMENTDESCRIPTOR.BaseAddress + DmaBuffer.SegmentOffset). 
+If **DmaBufferSegmentId** is nonzero, **DmaBufferPhysicalAddress** is the segment physical address for the DMA buffer; that is, the address points to a physical address of the [aperture segment](/windows-hardware/drivers/display/linear-aperture-space-segments) which is a contiguous address space defined in physical memory ([**DXGK_SEGMENTDESCRIPTOR**](ns-d3dkmddi-_dxgk_segmentdescriptor4.md)**.BaseAddress + DmaBuffer.SegmentOffset**).
 
-Note that <b>DmaBufferPhysicalAddress</b> always refers to the beginning of the DMA buffer even though the driver might be required to patch or submit a section of the DMA buffer that does not include the beginning of the DMA buffer (that is, if the <b>DmaBufferSubmissionStartOffset</b> member is nonzero).
+Note that **DmaBufferPhysicalAddress** always refers to the beginning of the DMA buffer even though the driver might be required to patch or submit a section of the DMA buffer that does not include the beginning of the DMA buffer (that is, if the **DmaBufferSubmissionStartOffset** member is nonzero).
 
 ### -field DmaBufferSize [in]
 
 The size, in bytes, of the DMA buffer.
 
-Note that <b>DmaBufferSize</b> represents the entire length of the DMA buffer; however, the request to patch or submit might refer to only a portion of the DMA buffer.
+Note that **DmaBufferSize** represents the entire length of the DMA buffer; however, the request to patch or submit might refer to only a portion of the DMA buffer.
 
 ### -field DmaBufferSubmissionStartOffset [in]
 
@@ -96,39 +95,39 @@ The offset, in bytes, from the beginning of the DMA buffer to the end of the por
 
 ### -field pDmaBufferPrivateData [in]
 
-A pointer to the driver-resident private data that is associated with the DMA buffer that was filled during the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a>, <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_present">DxgkDdiPresent</a>, or <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch">DxgkDdiPatch</a> function. 
+A pointer to the driver-resident private data that is associated with the DMA buffer that was filled during the [**DxgkDdiRender**](nc-d3dkmddi-dxgkddi_render.md), [**DxgkDdiPresent**](nc-d3dkmddi-dxgkddi_present.md), or [**DxgkDdiPatch**](nc-d3dkmddi-dxgkddi_patch.md) function.
 
-For paging operations, a single paging buffer is used for multiple independent submissions. In that scenario, the driver can indicate--by returning the appropriate private driver data pointer in a call to its <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_buildpagingbuffer">DxgkDdiBuildPagingBuffer</a> function--to have either a single driver private data range for all of the submissions or one for each submission.
+For paging operations, a single paging buffer is used for multiple independent submissions. In that scenario, the driver can indicate--by returning the appropriate private driver data pointer in a call to its [**DxgkDdiBuildPagingBuffer**](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) function--to have either a single driver private data range for all of the submissions or one for each submission.
 
 ### -field DmaBufferPrivateDataSize [in]
 
-The size, in byte,s of the private driver data that <b>pDmaBufferPrivateData</b> points to.
+The size, in byte,s of the private driver data that **pDmaBufferPrivateData** points to.
 
-Note that <b>DmaBufferPrivateDataSize</b> represents the entire length of the private driver data buffer; however, the portion that is associated with the current submission might be smaller.
+Note that **DmaBufferPrivateDataSize** represents the entire length of the private driver data buffer; however, the portion that is associated with the current submission might be smaller.
 
 ### -field DmaBufferPrivateDataSubmissionStartOffset [in]
 
-The offset, in bytes, from the beginning of the DMA buffer private data that <b>pDmaBufferPrivateData</b> specifies to the start of the portion of the private data that is associated with the current submission. <b>DmaBufferPrivateDataSubmissionStartOffset</b> is always zero for a nonpaging request.
+The offset, in bytes, from the beginning of the DMA buffer private data that **pDmaBufferPrivateData** specifies to the start of the portion of the private data that is associated with the current submission. **DmaBufferPrivateDataSubmissionStartOffset** is always zero for a nonpaging request.
 
 ### -field DmaBufferPrivateDataSubmissionEndOffset [in]
 
-The offset, in bytes, from the beginning of the DMA buffer private data that <b>pDmaBufferPrivateData</b> specifies to the end of the portion of the private data that is associated with the current submission.
+The offset, in bytes, from the beginning of the DMA buffer private data that **pDmaBufferPrivateData** specifies to the end of the portion of the private data that is associated with the current submission.
 
 ### -field SubmissionFenceId [in]
 
-A unique identifier that the driver can write into the fence command in the ring buffer, which is the buffer where DMA buffers are queued for the graphics processing unit (GPU) to run. For more information about these types of identifiers, see <a href="/windows-hardware/drivers/display/supplying-fence-identifiers">Supplying Fence Identifiers</a>.
+A unique identifier that the driver can write into the fence command in the ring buffer, which is the buffer where DMA buffers are queued for the graphics processing unit (GPU) to run. For more information about these types of identifiers, see [Supplying Fence Identifiers](/windows-hardware/drivers/display/supplying-fence-identifiers).
 
 ### -field VidPnSourceId [in]
 
-The zero-based identification number of the video present source in a path of a video present network (VidPN) topology for a flip operation. This member is valid only when the <b>Flip</b> or <b>FlipWithNoWait</b> bit-field flag is set in the <b>Flags</b> member.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology for a flip operation. This member is valid only when the **Flip** or **FlipWithNoWait** bit-field flag is set in the **Flags** member.
 
 ### -field FlipInterval [in]
 
-A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-d3dddi_flipinterval_type">D3DDDI_FLIPINTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs). <b>FlipInterval</b> is valid only if the <b>Flip</b> bit-field flag is set (that is, <b>TRUE</b>) in the <b>Flags</b> member.
+A [**D3DDDI_FLIPINTERVAL_TYPE**](../d3dukmdt/ne-d3dukmdt-d3dddi_flipinterval_type.md)-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs). **FlipInterval** is valid only if the **Flip** bit-field flag is set (that is, **TRUE**) in the **Flags** member.
 
 ### -field Flags [in]
 
-A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_submitcommandflags">DXGK_SUBMITCOMMANDFLAGS</a> structure that identifies information about the DMA buffer to submit.
+A [**DXGK_SUBMITCOMMANDFLAGS**](ns-d3dkmddi-_dxgk_submitcommandflags.md) structure that identifies information about the DMA buffer to submit.
 
 ### -field EngineOrdinal [in]
 
@@ -142,55 +141,34 @@ Supported starting with Windows 7.
 
 ### -field NodeOrdinal
 
-The zero-based index of the node that the context is created for. Identifies the node when the context is <b>NULL</b>.
+The zero-based index of the node that the context is created for. Identifies the node when the context is NULL.
 
 Supported starting with Windows 8.
 
 ## -remarks
 
-The display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand">DxgkDdiSubmitCommand</a> function must be aware that multiple processes can access the device object that the <b>hDevice</b> member specifies at the same time.
+The display miniport driver's [**DxgkDdiSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md) function must be aware that multiple processes can access the device object that the **hDevice** member specifies at the same time.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-d3dddi_flipinterval_type">D3DDDI_FLIPINTERVAL_TYPE</a>
+[**D3DDDI_FLIPINTERVAL_TYPE**](../d3dukmdt/ne-d3dukmdt-d3dddi_flipinterval_type.md)
 
+[**DXGK_CONTEXTINFO**](ns-d3dkmddi-_dxgk_contextinfo.md)
 
+[**DXGK_SUBMITCOMMANDFLAGS**](ns-d3dkmddi-_dxgk_submitcommandflags.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_contextinfo">DXGK_CONTEXTINFO</a>
+[**DxgkCbNotifyDpc**](nc-d3dkmddi-dxgkcb_notify_dpc.md)
 
+[**DxgkCbNotifyInterrupt**](nc-d3dkmddi-dxgkcb_notify_interrupt.md)
 
+[**DxgkDdiBuildPagingBuffer**](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_submitcommandflags">DXGK_SUBMITCOMMANDFLAGS</a>
+[**DxgkDdiCreateContext**](nc-d3dkmddi-dxgkddi_createcontext.md)
 
+[**DxgkDdiPatch**](nc-d3dkmddi-dxgkddi_patch.md)
 
+[**DxgkDdiPresent**](nc-d3dkmddi-dxgkddi_present.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_dpc">DxgkCbNotifyDpc</a>
+[**DxgkDdiRender**](nc-d3dkmddi-dxgkddi_render.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt">DxgkCbNotifyInterrupt</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_buildpagingbuffer">DxgkDdiBuildPagingBuffer</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch">DxgkDdiPatch</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_present">DxgkDdiPresent</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand">DxgkDdiSubmitCommand</a>
-
+[**DxgkDdiSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md)

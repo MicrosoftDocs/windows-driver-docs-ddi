@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= HIGH_LEVEL (See Remarks section)
+req.irql: IRQL >= DISPATCH_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -131,8 +131,6 @@ A PSHED plug-in that participates in error information retrieval sets the <b>Cal
 The Windows kernel calls into the PSHED so that it can add supplementary error record sections to an error record. If a PSHED plug-in is registered to participate in error information retrieval, the PSHED calls the PSHED plug-in's <i>FinalizeErrorRecord</i> callback function so that the PSHED plug-in can add any additional error record sections to the error record that more fully describe the error condition.
 
 A PSHED plug-in must ensure that it does not add supplementary error record sections beyond the end of the error record. The amount of memory that the Windows kernel allocates for a buffer to contain a particular error record is calculated from the <b>MaxRawDataLength</b> and <b>MaxSectionsPerRecord</b> members of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure that describes the error source that reported the hardware error. If a PSHED plug-in requires additional buffer space to contain the supplementary error record sections that it adds to the error record, it must participate in error source discovery and increase the value in the <b>MaxSectionsPerRecord</b> member of the <b>WHEA_ERROR_SOURCE_DESCRIPTOR</b> structure for each error source as appropriate to account for any supplementary error record sections.
-
-The PSHED calls a PSHED plug-in's <i>FinalizeErrorRecord</i> callback function at IRQL <= HIGH_LEVEL. The exact IRQL at which this callback function is called depends on the specific type of hardware error that occurred.
 
 ## -see-also
 

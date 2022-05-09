@@ -85,6 +85,8 @@ A driver's [RegistryCallback](./nc-wdm-ex_callback_function.md) routine can call
 
 If a driver calls **CmSetCallbackObjectContext**, the driver's *RegistryCallback* routine will receive a **RegNtCallbackObjectContextCleanup** notification after the key object's handle has been closed or after the driver calls [CmUnRegisterCallback](./nf-wdm-cmunregistercallback.md) to unregister the *RegistryCallback* routine. When the *RegistryCallback* routine receives this notification, the routine should release any resources that it allocated for the object's context.
 
+If **CmSetCallbackObjectContext** is called before **RegNtCallbackObjectContextCleanup** notification, *OldContext* can still be referred by *RegistryCallback* which receives another notification. *OldContext* should not be released before **RegNtCallbackObjectContextCleanup** notification.
+
 For more information about **CmSetCallbackObjectContext** and filtering registry operations, see [Filtering Registry Calls](/windows-hardware/drivers/kernel/filtering-registry-calls).
 
 ## -see-also
