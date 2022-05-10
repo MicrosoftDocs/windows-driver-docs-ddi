@@ -2,7 +2,7 @@
 UID: NF:wificx.WifiDeviceReceiveIndication
 tech.root: netvista
 title: WifiDeviceReceiveIndication (wificx.h)
-ms.date: 08/24/2021
+ms.date: 05/10/2022
 ms.topic: language-reference
 targetos: Windows
 description: WiFiCx drivers call WifiDeviceReceiveIndication to send a status indication to the WiFiCx framework. 
@@ -54,7 +54,6 @@ WiFiCx drivers call the **WifiDeviceReceiveIndication** function to send a statu
 
 [_In_] When indicating the completion of a task command, set this value to the command message ID that the driver obtained from a previous call to [**WifiRequestGetMessageId**](nf-wificx-wifirequestgetmessageid.md).
 
-When sending an unsolicited indication, set this value to **0**.
 
 ### -param Data
 
