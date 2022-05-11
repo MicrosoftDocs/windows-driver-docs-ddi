@@ -2,7 +2,7 @@
 UID: NS:storport._SRBEX_DATA_NVME_COMMAND
 tech.root: storage
 title: SRBEX_DATA_NVME_COMMAND (storport.h)
-ms.date: 05/13/2021
+ms.date: 05/24/2022
 targetos: Windows
 description: The SRBEX_DATA_NVME_COMMAND (storport.h) structure enables the user to frame and issue a command in NVMe format.
 req.construct-type: structure
@@ -100,3 +100,5 @@ See [**SRBEX_DATA_NVME_COMMAND** (*srb.h*)](../srb/ns-srb-srbex_data_nvme_comman
 ### -field QID
 
 ### -field CommandTag
+
+### -field CQEntryDW0

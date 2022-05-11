@@ -1,9 +1,9 @@
 ---
 UID: NS:storport._PORT_CONFIGURATION_INFORMATION
-title: _PORT_CONFIGURATION_INFORMATION (storport.h)
+title: PORT_CONFIGURATION_INFORMATION (storport.h)
 description: PORT_CONFIGURATION_INFORMATION contains configuration information for a host bus adapter (HBA).
 tech.root: storage
-ms.date: 04/03/2020
+ms.date: 05/24/2022
 keywords: ["PORT_CONFIGURATION_INFORMATION structure"]
 ms.keywords: "*PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], _PORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices]"
 req.header: storport.h
@@ -45,12 +45,11 @@ api_name:
  - PORT_CONFIGURATION_INFORMATION
 ---
 
-# _PORT_CONFIGURATION_INFORMATION structure (storport.h)
-
+# PORT_CONFIGURATION_INFORMATION structure (storport.h)
 
 ## -description
 
-PORT_CONFIGURATION_INFORMATION contains configuration information for a host bus adapter (HBA).
+**PORT_CONFIGURATION_INFORMATION** contains configuration information for a host bus adapter (HBA).
 
 ## -struct-fields
 
@@ -131,9 +130,13 @@ Pointer to an array of [**ACCESS_RANGE**](./ns-storport-_access_range.md)-type e
 
 Pointer to a dump context used during a crashdump or a hibernation.
 
+### -field Reserved
+
+Reserved for system use (pre-Windows 8).
+
 ### -field NumberOfBuses
 
-Number of buses controlled by the adapter. By default, the value of this member is zero. This member has a maximum value of SCSI_MAXIMUM_BUSES_PER_ADAPTER.
+Number of buses controlled by the adapter. By default, the value of this member is zero. This member has a maximum value of SCSI_MAXIMUM_BUSES_PER_ADAPTER. This member is available starting in Windows 8.
 
 ### -field InitiatorBusId
 
@@ -216,7 +219,7 @@ Number of target peripherals the adapter can control. By default, the value of t
 
 ### -field SrbType
 
-Type of SRBs to be sent to the miniport driver. This is set to one of the following values:
+Type of SRBs to be sent to the miniport driver. Available starting in Windows 8. This is set to one of the following values:
 
 | Value | Meaning |
 | ----- | ------- |
@@ -225,11 +228,15 @@ Type of SRBs to be sent to the miniport driver. This is set to one of the follow
 
 ### -field AddressType
 
-Address type used between Storport and the miniport driver. This can be set to the following value:
+Address type used between Storport and the miniport driver. Available starting in Windows 8. This can be set to the following value:
 
 | Value | Meaning |
 | ----- | ------- |
 | STORAGE_ADDRESS_TYPE_BTL8 | Bus, Target, and LUN (BTL) 8-bit addressing. |
+
+### -field ReservedUchars
+
+Reserved for system use (pre-Windows 8).
 
 ### -field SlotNumber
 
@@ -368,19 +375,19 @@ If the HBA can support more than 1000 outstanding I/O operations, the miniport c
 
 ### -field MaxIOsPerLun
 
-Maximum number of I/O requests supported on a LUN. Storport will set this to a default value of 255. If a LUN does not support 255 outstanding I/O requests, the miniport should adjust this member to an appropriate smaller value. This member must be <= **MaxNumberOfIO**. To support **MaxIOsPerLun** > 255, the **SrbType** field must be set to **SRB_TYPE_STORAGE_REQUEST_BLOCK**.
+Maximum number of I/O requests supported on a LUN. Storport will set this to a default value of 255. If a LUN does not support 255 outstanding I/O requests, the miniport should adjust this member to an appropriate smaller value. This member must be <= **MaxNumberOfIO**. To support **MaxIOsPerLun** > 255, the **SrbType** field must be set to **SRB_TYPE_STORAGE_REQUEST_BLOCK**. Available starting in Windows 8.
 
 ### -field InitialLunQueueDepth
 
-The initial LUN I/O queue depth. Storport set this to a default value of 20 for physical miniports and to 250 for virtual miniports. This member adjusts the initial queue depth for all LUNs on the adapter. The queue depth for an individual LUN is set by calling [**StorPortSetDeviceQueueDepth**](./nf-storport-storportsetdevicequeuedepth.md). This member is typically set to the same value as **MaxIOsPerLun**.
+The initial LUN I/O queue depth. Storport set this to a default value of 20 for physical miniports and to 250 for virtual miniports. This member adjusts the initial queue depth for all LUNs on the adapter. The queue depth for an individual LUN is set by calling [**StorPortSetDeviceQueueDepth**](./nf-storport-storportsetdevicequeuedepth.md). This member is typically set to the same value as **MaxIOsPerLun**. Available starting in Windows 8.
 
 ### -field BusResetHoldTime
 
-The amount of time, in microseconds, to pause the adapter after a reset is detected. Set this value to 0 if no wait time is needed after a bus reset.
+The amount of time, in microseconds, to pause the adapter after a reset is detected. Set this value to 0 if no wait time is needed after a bus reset. Available starting in Windows 8.
 
 ### -field FeatureSupport
 
-Storport features requested for the adapter. A miniport driver can set this member to be a bitwise mask of any of the following values:
+Storport features requested for the adapter. Available starting in Windows 8. A miniport driver can set this member to be a bitwise mask of any of the following values:
 
 | Value | Meaning |
 | ----- | ------- |
@@ -417,4 +424,3 @@ The Storport driver allocates and initializes this structure, supplies as much H
 [**StorPortInitialize**](./nf-storport-storportinitialize.md)
 
 [**StorPortSetDeviceQueueDepth**](./nf-storport-storportsetdevicequeuedepth.md)
-

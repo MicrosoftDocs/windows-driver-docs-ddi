@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape._MODE_PAGE_SUBPAGE_HEADER
 tech.root: storage
-title: MODE_PAGE_SUBPAGE_HEADER
+title: MODE_PAGE_SUBPAGE_HEADER (minitape.h)
 ms.date: 05/24/2022
 targetos: Windows
 description: Learn more about the MODE_PAGE_SUBPAGE_HEADER (minitape.h) structure.

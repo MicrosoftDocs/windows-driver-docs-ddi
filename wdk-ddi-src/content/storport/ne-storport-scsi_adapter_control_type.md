@@ -203,7 +203,7 @@ Maximum control type value.
 
 ### -field MakeAdapterControlTypeSizeOfUlong
 
-Makes this enum the size of a ULONG.
+Makes this enumeration the size of a ULONG.
 
 ## -remarks
 

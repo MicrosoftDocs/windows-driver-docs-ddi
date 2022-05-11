@@ -1,7 +1,7 @@
 ---
 UID: NS:scsi._T2_COMMAND_DURATION_LIMIT_DESCRIPTOR
 tech.root: storage
-title: T2_COMMAND_DURATION_LIMIT_DESCRIPTOR
+title: T2_COMMAND_DURATION_LIMIT_DESCRIPTOR (scsi.h)
 ms.date: 05/24/2022
 targetos: Windows
 description: Learn more about the T2_COMMAND_DURATION_LIMIT_DESCRIPTOR (scsi.h) structure.

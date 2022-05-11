@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - storport.h
 api_name:
@@ -67,6 +67,7 @@ helpviewer_keywords:
 ### -param GroupAffinitiesCountRequired
 
 [out] Pointer to a value that receives the number of group affinities required to represent the node affinity.
+
 ## -returns
 
 **StorPortGetNodeAffinity2** returns STOR_STATUS_SUCCESS if the node affinity was queried successfully. Possible error return values include the following.

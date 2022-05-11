@@ -1,7 +1,7 @@
 ---
 UID: NS:minitape._MODE_COMMAND_DURATION_LIMIT_PAGE_T2B_SUBPAGE
 tech.root: storage
-title: MODE_COMMAND_DURATION_LIMIT_PAGE_T2B_SUBPAGE
+title: MODE_COMMAND_DURATION_LIMIT_PAGE_T2B_SUBPAGE (minitape.h)
 ms.date: 05/24/2022
 targetos: Windows
 description: Learn more about the MODE_COMMAND_DURATION_LIMIT_PAGE_T2B_SUBPAGE (minitape.h) structure.
