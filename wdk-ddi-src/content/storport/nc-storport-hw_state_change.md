@@ -50,6 +50,8 @@ A miniport-provided callback that is called after a notification from [**StorPor
 
 ### -param HwDeviceExtension
 
+[in] A pointer to the miniport driver's per-HBA storage area.
+
 ### -param Context [in, optional]
 
 The context supplied as **HwStateChangeContext** by the miniport in the call to [**StorPortStateChangeDetected**](nf-storport-storportstatechangedetected.md).
@@ -60,16 +62,11 @@ The type of the address in **Address**.
 
 ### -param Address [in]
 
-
 A pointer to a [**STOR_ADDRESS**](../scsi/ns-scsi-_stor_address.md) structure for the entity whose state change was processed.
 
 ### -param Status [in]
 
 The processing status for the state change notification.
-
-### -param DeviceExtension
-
-[in] A pointer to the miniport driver's per-HBA storage area.
 
 ## -remarks
 

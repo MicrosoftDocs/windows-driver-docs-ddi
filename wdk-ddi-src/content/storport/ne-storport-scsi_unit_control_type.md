@@ -2,7 +2,7 @@
 UID: NE:storport._SCSI_UNIT_CONTROL_TYPE
 tech.root: storage
 title: SCSI_UNIT_CONTROL_TYPE
-ms.date: 05/13/2021
+ms.date: 05/24/2022
 targetos: Windows
 description: The SCSI_UNIT_CONTROL_TYPE enumeration contains unit control operations, where each control type initiates an action on a unit by the miniport driver. Storport specifies the control type when it calls a miniport's HwStorUnitControl routine.
 req.construct-type: enumeration
@@ -109,11 +109,17 @@ Queries the ID of a fault replacement unit (FRU). If the miniport supports this 
 > [!NOTE]
 > Storport sends this control only if a miniport has also previously called [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md) in its [**HwFindAdapter**](nc-storport-hw_find_adapter.md) routine with **StorportFeatureFruIdUnitControl** specified.
 
+### -field ScsiUnitReportInternalData
+
+Reserved for system use. Available starting in WIN11_NEXT.
+
 ### -field ScsiUnitControlMax
 
 Maximum control type value.
 
 ### -field MakeUnitControlTypeSizeOfUlong
+
+Makes this enumeration the size of a ULONG.
 
 ## -remarks
 
