@@ -45,16 +45,15 @@ dev_langs:
 
 # FsRtlAddMcbEntry function
 
-
 ## -description
 
-The <b>FsRtlAddMcbEntry</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry">FsRtlAddLargeMcbEntry</a> instead.
+The **FsRtlAddMcbEntry** routine is obsolete, but is exported to support existing driver binaries. Use [**FsRtlAddLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry.md) instead.
 
 ## -parameters
 
 ### -param Mcb
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param Vbn
 
@@ -65,5 +64,9 @@ Reserved.
 Reserved.
 
 ### -param SectorCount
+
+Reserved.
+
+## -returns
 
 Reserved.

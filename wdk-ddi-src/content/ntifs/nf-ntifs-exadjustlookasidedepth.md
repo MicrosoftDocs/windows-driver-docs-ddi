@@ -4,7 +4,7 @@ title: ExAdjustLookasideDepth function (ntifs.h)
 description: "Microsoft reserves the ExAdjustLookasideDepth function for internal use only. Don't use this function in your code."
 old-location: ifsk\exadjustlookasidedepth.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["ExAdjustLookasideDepth function"]
 ms.keywords: ExAdjustLookasideDepth, ExAdjustLookasideDepth function [Installable File System Drivers], exref_c7837105-d91f-42c1-ba97-a292550b4eb5.xml, ifsk.exadjustlookasidedepth, ntifs/ExAdjustLookasideDepth
 req.header: ntifs.h
@@ -42,9 +42,6 @@ api_name:
 
 # ExAdjustLookasideDepth function
 
-
 ## -description
 
 This routine is reserved for system use. Do not use this routine in your driver.
-
-## -parameters

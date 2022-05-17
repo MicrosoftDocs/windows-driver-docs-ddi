@@ -2,7 +2,7 @@
 UID: NS:ntifs._IO_STOP_ON_SYMLINK_FILTER_ECP_v0
 title: IO_STOP_ON_SYMLINK_FILTER_ECP_v0 (ntifs.h)
 description: "Learn more about: IO_STOP_ON_SYMLINK_FILTER_ECP_v0 structure"
-ms.date: 09/09/2021
+ms.date: 05/24/2022
 tech.root: ifsk
 keywords: ["IO_STOP_ON_SYMLINK_FILTER_ECP_v0 structure"]
 ms.keywords: _IO_STOP_ON_SYMLINK_FILTER_ECP_v0, IO_STOP_ON_SYMLINK_FILTER_ECP_v0, *PIO_STOP_ON_SYMLINK_FILTER_ECP_v0,
@@ -49,10 +49,15 @@ The **IO_STOP_ON_SYMLINK_FILTER_ECP_v0** structure contains the extra create par
 
 ### -field Out
 
-The structure in which the I/O manager returns information to the caller. The following information is returned:
+The structure in which the I/O manager returns information to the caller. The information is returned in this structure's members.
 
-* ReparseCount: The number of name-grafting reparses.
-* RemainingPathLength: The portion of the path remaining after the last reparse.
+### -field ReparseCount
+
+Member of Out. The number of name-grafting reparses.
+
+### -field RemainingPathLength
+
+Member of Out. The portion of the path remaining after the last reparse.
 
 ## -remarks
 

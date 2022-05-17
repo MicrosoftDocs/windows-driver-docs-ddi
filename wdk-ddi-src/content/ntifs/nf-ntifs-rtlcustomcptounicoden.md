@@ -4,7 +4,7 @@ title: RtlCustomCPToUnicodeN function (ntifs.h)
 description: "Microsoft reserves the RtlCustomCPToUnicodeN function for internal use only. Don't use this function in your code."
 old-location: ifsk\rtlcustomcptounicoden.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["RtlCustomCPToUnicodeN function"]
 ms.keywords: RtlCustomCPToUnicodeN, RtlCustomCPToUnicodeN function [Installable File System Drivers], ifsk.rtlcustomcptounicoden, ntifs/RtlCustomCPToUnicodeN, rtlref_9b39575d-4ba4-49fa-9281-2858d3e2631d.xml
 req.header: ntifs.h
@@ -42,16 +42,15 @@ api_name:
 
 # RtlCustomCPToUnicodeN function
 
-
 ## -description
 
-The <b>RtlCustomCPToUnicodeN</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlmultibytetounicoden">RtlMultiByteToUnicodeN</a> and <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtloemtounicoden">RtlOemToUnicodeN</a>.
+The **RtlCustomCPToUnicodeN** routine is reserved for system use. See [**RtlMultiByteToUnicodeN**](nf-ntifs-rtlmultibytetounicoden.md) and [**RtlOemToUnicodeN**](nf-ntifs-rtloemtounicoden.md).
 
 ## -parameters
 
 ### -param CustomCP
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param UnicodeString
 
@@ -70,5 +69,9 @@ Reserved.
 Reserved.
 
 ### -param BytesInCustomCPString
+
+Reserved.
+
+## -returns
 
 Reserved.
