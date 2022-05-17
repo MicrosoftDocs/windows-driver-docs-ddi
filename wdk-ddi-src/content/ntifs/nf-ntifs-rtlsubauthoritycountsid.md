@@ -4,7 +4,7 @@ title: RtlSubAuthorityCountSid function (ntifs.h)
 description: "Microsoft reserves the RtlSubAuthorityCountSid function for internal use only. Don't use this function in your code."
 old-location: ifsk\rtlsubauthoritycountsid.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["RtlSubAuthorityCountSid function"]
 ms.keywords: RtlSubAuthorityCountSid, RtlSubAuthorityCountSid function [Installable File System Drivers], ifsk.rtlsubauthoritycountsid, ntifs/RtlSubAuthorityCountSid, rtlref_a90cc5aa-161f-466b-975f-16ec42b70539.xml
 req.header: ntifs.h
@@ -42,13 +42,16 @@ api_name:
 
 # RtlSubAuthorityCountSid function
 
-
 ## -description
 
-The <b>RtlSubAuthorityCountSid</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlsubauthoritysid">RtlSubAuthoritySid</a> and <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>.
+The **RtlSubAuthorityCountSid** routine is reserved for system use. See [**RtlSubAuthoritySid**](nf-ntifs-rtlsubauthoritysid.md) and [**SID**](ns-ntifs-_sid.md).
 
 ## -parameters
 
 ### -param Sid
 
-<p>Reserved.</p>
+Reserved.
+
+## -returns
+
+Reserved.

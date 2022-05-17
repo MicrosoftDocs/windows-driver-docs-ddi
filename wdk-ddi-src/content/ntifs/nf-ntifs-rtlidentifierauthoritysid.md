@@ -4,7 +4,7 @@ title: RtlIdentifierAuthoritySid function (ntifs.h)
 description: "Microsoft reserves the RtlIdentifierAuthoritySid function for internal use only. Don't use this function in your code."
 old-location: ifsk\rtlidentifierauthoritysid.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["RtlIdentifierAuthoritySid function"]
 ms.keywords: RtlIdentifierAuthoritySid, RtlIdentifierAuthoritySid function [Installable File System Drivers], ifsk.rtlidentifierauthoritysid, ntifs/RtlIdentifierAuthoritySid, rtlref_e4f051a9-6a6d-4008-b134-9a255b6764c0.xml
 req.header: ntifs.h
@@ -42,13 +42,16 @@ api_name:
 
 # RtlIdentifierAuthoritySid function
 
-
 ## -description
 
-The <b>RtlIdentifierAuthoritySid</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlsubauthoritysid">RtlSubAuthoritySid</a> and <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>.
+The **RtlIdentifierAuthoritySid** routine is reserved for system use. See [**RtlSubAuthoritySid**](nf-ntifs-rtlsubauthoritysid.md) and [**SID**](ns-ntifs-_sid.md).
 
 ## -parameters
 
 ### -param Sid
 
-<p>Reserved.</p>
+Reserved.
+
+## -returns
+
+Reserved.

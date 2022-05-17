@@ -174,7 +174,7 @@ Specifies the options to apply when the driver creates or opens the file. Use on
 | FILE_OPEN_REPARSE_POINT (0x00200000) | Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. |
 | FILE_OPEN_NO_RECALL (0x00400000) | Instructs any filters that perform offline storage or virtualization to not recall the contents of the file as a result of this open. |
 | FILE_OPEN_FOR_FREE_SPACE_QUERY (0x00800000) | This flag instructs the file system to capture the user associated with the calling thread. Any subsequent calls to FltQueryVolumeInformation or ZwQueryVolumeInformationFile using the returned handle will assume the captured user, rather than the calling user at the time, for purposes of computing the free space available to the caller. This applies to the following FsInformationClass values: FileFsSizeInformation, FileFsFullSizeInformation, and FileFsFullSizeInformationEx. |
-| FILE_CONTAINS_EXTENDED_CREATE_INFORMATION (0x10000000) | Interpret the **EABuffer** parameter as an instance of EXTENDED_CREATE_INFORMATION. This flag is available starting in WIN11_NEXT. |
+| FILE_CONTAINS_EXTENDED_CREATE_INFORMATION (0x10000000) | Interpret the **EABuffer** parameter as an instance of [**EXTENDED_CREATE_INFORMATION**](/windows-hardware/drivers/ifs/ns-ntifs-extended_create_information). This flag is available starting in Windows 11, version 22H1. |
 
 ### -param EaBuffer [in, optional]
 

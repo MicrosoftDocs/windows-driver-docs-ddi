@@ -4,7 +4,7 @@ title: IoSetInformation function (ntifs.h)
 description: "Microsoft reserves the IoSetInformation function for internal use only. Don't use this function in your code."
 old-location: ifsk\iosetinformation.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["IoSetInformation function"]
 ms.keywords: IoSetInformation, IoSetInformation function [Installable File System Drivers], ifsk.iosetinformation, ioref_3c058acd-e360-4923-a9be-b17d3882727f.xml, ntifs/IoSetInformation
 req.header: ntifs.h
@@ -42,16 +42,15 @@ api_name:
 
 # IoSetInformation function
 
-
 ## -description
 
-The <b>IoSetInformation</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>.
+The **IoSetInformation** routine is reserved for system use. See [**ZwSetInformationFile**](nf-ntifs-ntsetinformationfile.md).
 
 ## -parameters
 
 ### -param FileObject
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param FileInformationClass
 
@@ -62,5 +61,9 @@ Reserved.
 Reserved.
 
 ### -param FileInformation
+
+Reserved.
+
+## -returns
 
 Reserved.

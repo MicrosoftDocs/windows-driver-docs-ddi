@@ -4,7 +4,7 @@ title: FSRTL_ADVANCED_FCB_HEADER (ntifs.h)
 description: The FSRTL_ADVANCED_FCB_HEADER structure contains context information that a file system maintains about a file.
 old-location: ifsk\fsrtl_advanced_fcb_header.htm
 tech.root: ifsk
-ms.date: 09/28/2021
+ms.date: 05/24/2022
 keywords: ["FSRTL_ADVANCED_FCB_HEADER structure"]
 ms.keywords: "*PFSRTL_ADVANCED_FCB_HEADER, *PFSRTL_UNC_PROVIDER_REGISTRATION, FSRTL_ADVANCED_FCB_HEADER, FSRTL_ADVANCED_FCB_HEADER structure [Installable File System Drivers], FSRTL_UNC_PROVIDER_REGISTRATION, PFSRTL_ADVANCED_FCB_HEADER, PFSRTL_ADVANCED_FCB_HEADER structure pointer [Installable File System Drivers], _FSRTL_ADVANCED_FCB_HEADER, contextstructures_cede2315-2c72-496f-a192-3ef25a8b0516.xml, ifsk.fsrtl_advanced_fcb_header, ntifs/FSRTL_ADVANCED_FCB_HEADER, ntifs/PFSRTL_ADVANCED_FCB_HEADER"
 req.header: ntifs.h
@@ -51,7 +51,7 @@ The **FSRTL_ADVANCED_FCB_HEADER** structure contains context information that a 
 
 ## -struct-fields
 
-### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
+### -field DUMMYUNIONNAME
 
 An unnamed member that contains a structure of type [**FSRTL_COMMON_FCB_HEADER**](ns-ntifs-_fsrtl_common_fcb_header.md).
 

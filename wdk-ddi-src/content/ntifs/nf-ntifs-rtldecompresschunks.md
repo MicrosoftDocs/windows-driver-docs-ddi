@@ -4,7 +4,7 @@ title: RtlDecompressChunks function (ntifs.h)
 description: "Microsoft reserves the RtlDecompressChunks function for internal use only. Don't use this function in your code."
 old-location: ifsk\rtldecompresschunks.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["RtlDecompressChunks function"]
 ms.keywords: RtlDecompressChunks, RtlDecompressChunks function [Installable File System Drivers], ifsk.rtldecompresschunks, ntifs/RtlDecompressChunks, rtlref_0fadf009-d363-4001-9981-7eb646be1a8b.xml
 req.header: ntifs.h
@@ -42,16 +42,15 @@ api_name:
 
 # RtlDecompressChunks function
 
-
 ## -description
 
-The <b>RtlDecompressChunks</b> routine is reserved for system use.
+The **RtlDecompressChunks** routine is reserved for system use.
 
 ## -parameters
 
 ### -param UncompressedBuffer
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param UncompressedBufferSize
 
@@ -77,3 +76,6 @@ Reserved.
 
 Reserved.
 
+## -returns
+
+Reserved.

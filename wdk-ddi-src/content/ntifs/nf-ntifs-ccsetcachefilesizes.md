@@ -5,7 +5,7 @@ title: CcSetCacheFileSizes
 ms.date: 05/24/2022
 targetos: Windows
 description: Learn more about the CcSetCacheFileSizes function.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: WIN11_NEXT
+req.target-min-winverclnt: Windows 11, version 22H1
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 

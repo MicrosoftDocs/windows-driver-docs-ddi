@@ -4,7 +4,7 @@ title: RtlUpcaseUnicodeToCustomCPN function (ntifs.h)
 description: "Microsoft reserves the RtlUpcaseUnicodeToCustomCPN function for internal use only. Don't use this function in your code."
 old-location: ifsk\rtlupcaseunicodetocustomcpn.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["RtlUpcaseUnicodeToCustomCPN function"]
 ms.keywords: RtlUpcaseUnicodeToCustomCPN, RtlUpcaseUnicodeToCustomCPN function [Installable File System Drivers], ifsk.rtlupcaseunicodetocustomcpn, ntifs/RtlUpcaseUnicodeToCustomCPN, rtlref_d60b8055-e672-4cc6-be0f-f9a23a202368.xml
 req.header: ntifs.h
@@ -42,16 +42,15 @@ api_name:
 
 # RtlUpcaseUnicodeToCustomCPN function
 
-
 ## -description
 
-The <b>RtlUpcaseUnicodeToCustomCPN</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlupcaseunicodetomultibyten">RtlUpcaseUnicodeToMultiByteN</a> and <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlupcaseunicodetooemn">RtlUpcaseUnicodeToOemN</a>.
+The **RtlUpcaseUnicodeToCustomCPN** routine is reserved for system use. See [**RtlUpcaseUnicodeToMultiByteN**](nf-ntifs-rtlupcaseunicodetomultibyten.md) and [**RtlUpcaseUnicodeToOemN**](nf-ntifs-rtlupcaseunicodetooemn.md).
 
 ## -parameters
 
 ### -param CustomCP
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param CustomCPString
 
@@ -70,5 +69,9 @@ Reserved.
 Reserved.
 
 ### -param BytesInUnicodeString
+
+Reserved.
+
+## -returns
 
 Reserved.

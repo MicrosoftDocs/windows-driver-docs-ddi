@@ -4,7 +4,7 @@ title: SeDeleteClientSecurity macro (ntifs.h)
 description: The SeDeleteClientSecurity routine deletes a client security context.
 old-location: ifsk\sedeleteclientsecurity.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["SeDeleteClientSecurity macro"]
 ms.keywords: SeDeleteClientSecurity, SeDeleteClientSecurity routine [Installable File System Drivers], ifsk.sedeleteclientsecurity, ntifs/SeDeleteClientSecurity, seref_bab4478e-d302-478b-8819-79c9b2f79aa7.xml
 req.header: ntifs.h
@@ -42,29 +42,26 @@ api_name:
 
 # SeDeleteClientSecurity macro
 
-
 ## -description
 
-The <b>SeDeleteClientSecurity</b> routine deletes a client security context.
+The **SeDeleteClientSecurity** routine deletes a client security context.
 
 ## -parameters
 
-### -param C
+### -param ClientContext
 
-<p>Pointer to the client security context structure to be deleted.</p>
+Pointer to the client security context structure to be deleted.
 
 ## -remarks
 
-<b>SeDeleteClientSecurity</b> deletes a client security context structure and performs any necessary cleanup, such as removing any client token references.
+**SeDeleteClientSecurity** deletes a client security context structure and performs any necessary cleanup, such as removing any client token references.
 
-Each call to <b>SeCreateClientSecurity</b> or <b>SeCreateClientSecurityFromSubjectContext</b> must be matched by a subsequent call to <b>SeDeleteClientSecurity</b>.
+Each call to **SeCreateClientSecurity** or **SeCreateClientSecurityFromSubjectContext** must be matched by a subsequent call to **SeDeleteClientSecurity**.
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-secreateclientsecurity">SeCreateClientSecurity</a>
+[**SeCreateClientSecurity**](nf-ntifs-secreateclientsecurity.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-secreateclientsecurityfromsubjectcontext">SeCreateClientSecurityFromSubjectContext</a>
+[**SeCreateClientSecurityFromSubjectContext**](nf-ntifs-secreateclientsecurityfromsubjectcontext.md)

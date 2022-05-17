@@ -4,7 +4,7 @@ title: RtlAllocateAndInitializeSid function (ntifs.h)
 description: "Microsoft reserves the RtlAllocateAndInitializeSid function for internal use only. Don't use this function in your code."
 old-location: ifsk\rtlallocateandinitializesid.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["RtlAllocateAndInitializeSid function"]
 ms.keywords: RtlAllocateAndInitializeSid, RtlAllocateAndInitializeSid function [Installable File System Drivers], ifsk.rtlallocateandinitializesid, ntifs/RtlAllocateAndInitializeSid, rtlref_74879713-f57f-4d67-a779-995c150bc7ea.xml
 req.header: ntifs.h
@@ -42,16 +42,15 @@ api_name:
 
 # RtlAllocateAndInitializeSid function
 
-
 ## -description
 
-The <b>RtlAllocateAndInitializeSid</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcopysid">RtlCopySid</a> and <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializesid">RtlInitializeSid</a>.
+The **RtlAllocateAndInitializeSid** routine is reserved for system use. See [**RtlCopySid**](nf-ntifs-rtlcopysid.md) and [**RtlInitializeSid**](nf-ntifs-rtlinitializesid.md).
 
 ## -parameters
 
 ### -param IdentifierAuthority
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param SubAuthorityCount
 
@@ -90,5 +89,9 @@ Reserved.
 Reserved.
 
 ### -param Sid
+
+Reserved.
+
+## -returns
 
 Reserved.
