@@ -168,6 +168,6 @@ Contains 8 bytes of ASCII data that indicates the version descriptor, as defined
 
 ## -see-also
 
-[**TapeMiniExtensionInit**](../nc-minitape-tape_extension_init_routine.md)
+[**TapeMiniExtensionInit**](../minitape/nc-minitape-tape_extension_init_routine.md)
 
 [**TapeMiniVerifyInquiry**](../minitape/nc-minitape-tape_verify_inquiry_routine.md)
