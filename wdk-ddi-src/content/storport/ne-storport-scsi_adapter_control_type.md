@@ -169,31 +169,31 @@ Storport sends this control only if a miniport has also previously called [**Sto
 
 ### -field ScsiAdapterReportInternalData
 
-Reserved for system use. Available starting in WIN11_NEXT.
+Reserved for system use. Available starting in Windows 11, version 22H2.
 
 Storport sends this control only if a miniport has also previously called [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md) in its [**HwFindAdapter**](nc-storport-hw_find_adapter.md) routine with **ScsiAdapterReportInternalData** specified.
 
 ### -field ScsiAdapterResetBusSynchronous
 
-Available starting in WIN11_NEXT. Storport sends this control during the handling of an IOCTL_STORAGE_DEVICE_RESET. The miniport driver should handle this control similar to what it does in its [**HwResetBus**](nc-storport-hw_reset_bus.md) callback routine, and should return SCSI_ADAPTER_CONTROL_STATUS.
+Available starting in Windows 11, version 22H2. Storport sends this control during the handling of an IOCTL_STORAGE_DEVICE_RESET. The miniport driver should handle this control similar to what it does in its [**HwResetBus**](nc-storport-hw_reset_bus.md) callback routine, and should return SCSI_ADAPTER_CONTROL_STATUS.
 
 Storport sends this control only if a miniport has also previously called [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md) in its [**HwFindAdapter**](nc-storport-hw_find_adapter.md) routine with **StorportFeatureResetBusSynchronous** specified.
 
 ### -field ScsiAdapterPostHwInitialize
 
-Reserved for system use. Available starting in WIN11_NEXT.
+Reserved for system use. Available starting in Windows 11, version 22H2.
 
 Storport sends this control only if a miniport has also previously called [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md) in its [**HwFindAdapter**](nc-storport-hw_find_adapter.md) routine with **StorportFeaturePostHwInitialize** specified.
 
 ### -field ScsiAdapterPrepareEarlyDumpData
 
-Reserved for system use. Available starting in WIN11_NEXT.
+Reserved for system use. Available starting in Windows 11, version 22H2.
 
 Storport sends this control only if a miniport has also previously called [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md) in its [**HwFindAdapter**](nc-storport-hw_find_adapter.md) routine with **StorportFeaturePrepareEarlyDumpData** specified.
 
 ### -field ScsiAdapterRestoreEarlyDumpData
 
-Reserved for system use. Available starting in WIN11_NEXT.
+Reserved for system use. Available starting in Windows 11, version 22H2.
 
 Storport sends this control only if a miniport has also previously called [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md) in its [**HwFindAdapter**](nc-storport-hw_find_adapter.md) routine with **StorportFeatureRestoreEarlyDumpData** specified.
 

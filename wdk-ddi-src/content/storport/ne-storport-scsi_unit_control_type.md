@@ -111,7 +111,7 @@ Queries the ID of a fault replacement unit (FRU). If the miniport supports this 
 
 ### -field ScsiUnitReportInternalData
 
-Reserved for system use. Available starting in WIN11_NEXT.
+Reserved for system use. Available starting in Windows 11, version 22H2.
 
 ### -field ScsiUnitControlMax
 
