@@ -1,10 +1,10 @@
 ---
 UID: NE:d3dkmdt._DXGK_DISPLAY_DESCRIPTOR_TYPE
-title: _DXGK_DISPLAY_DESCRIPTOR_TYPE (d3dkmdt.h)
+title: DXGK_DISPLAY_DESCRIPTOR_TYPE (d3dkmdt.h)
 description: Enum used to express the display descriptor type.
 old-location: display\dxgk_display_descriptor_type.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 05/24/2022
 keywords: ["DXGK_DISPLAY_DESCRIPTOR_TYPE enumeration"]
 ms.keywords: "*PDXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DDT_EDID, DXGK_DDT_INVALID, DXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DISPLAY_DESCRIPTOR_TYPE enumeration [Display Devices], PDXGK_DISPLAY_DESCRIPTOR_TYPE, PDXGK_DISPLAY_DESCRIPTOR_TYPE enumeration pointer [Display Devices], _DXGK_DISPLAY_DESCRIPTOR_TYPE, d3dkmdt/DXGK_DDT_EDID, d3dkmdt/DXGK_DDT_INVALID, d3dkmdt/DXGK_DISPLAY_DESCRIPTOR_TYPE, d3dkmdt/PDXGK_DISPLAY_DESCRIPTOR_TYPE, display.dxgk_display_descriptor_type"
 req.header: d3dkmdt.h
@@ -46,8 +46,7 @@ api_name:
  - DXGK_DISPLAY_DESCRIPTOR_TYPE
 ---
 
-# _DXGK_DISPLAY_DESCRIPTOR_TYPE enumeration
-
+# DXGK_DISPLAY_DESCRIPTOR_TYPE enumeration
 
 ## -description
 
@@ -57,17 +56,12 @@ Enum used to express the display descriptor type.
 
 ### -field DXGK_DDT_INVALID
 
-Invalid type.
+Invalid display descriptor type.
 
 ### -field DXGK_DDT_EDID
 
 A VESA EDID descriptor.
 
-### -field DXGK_DDT_DISPLAYID 
+### -field DXGK_DDT_DISPLAYID
 
 Display id type. Starting in WDDM 2.5.
-
-### -field BYTE
-
-Indicates byte.
-

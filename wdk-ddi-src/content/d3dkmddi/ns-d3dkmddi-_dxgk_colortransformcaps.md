@@ -1,9 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGK_COLORTRANSFORMCAPS
-title: _DXGK_COLORTRANSFORMCAPS (d3dkmddi.h)
+title: DXGK_COLORTRANSFORMCAPS (d3dkmddi.h)
 description: This structure replaces the DXGK_GAMMARAMPCAPS structure in the DXGK_DRIVERCAPS structure to describe both the gamma and color transform capabilities of the display pipelines.
 old-location: display\dxgk_colortransformcaps_.htm
-ms.date: 05/10/2018
+ms.date: 05/24/2022
 keywords: ["DXGK_COLORTRANSFORMCAPS structure"]
 ms.keywords: DXGK_COLORTRANSFORMCAPS, DXGK_COLORTRANSFORMCAPS , DXGK_COLORTRANSFORMCAPS structure [Display Devices], PDXGK_COLORTRANSFORMCAPS, PDXGK_COLORTRANSFORMCAPS structure pointer [Display Devices], _DXGK_COLORTRANSFORMCAPS, d3dkmddi/DXGK_COLORTRANSFORMCAPS, d3dkmddi/PDXGK_COLORTRANSFORMCAPS, display.dxgk_colortransformcaps_
 req.header: d3dkmddi.h
@@ -43,8 +43,7 @@ api_name:
  - DXGK_COLORTRANSFORMCAPS
 ---
 
-# _DXGK_COLORTRANSFORMCAPS structure
-
+# DXGK_COLORTRANSFORMCAPS structure
 
 ## -description
 
@@ -73,6 +72,10 @@ Indicates support for a 3 by 4 matrix color transform in the display pipeline ha
 
 Indicates support for a 3 by 4 matrix color transform in the display pipeline hardware when scanning out HighColor data.  Drivers which support this capability must also support Transform_3x4Matrix_WideColor.
 
+### -field Transform_Matrix_V2
+
+Indicates support for a colorspace transform matrix.
+
 ### -field Reserved
 
 This value is reserved for system use.
@@ -80,4 +83,3 @@ This value is reserved for system use.
 ### -field Value
 
 The combined UINT value.
-

@@ -2,7 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDI_STATE_OBJECT_FLAGS
 title: D3D12DDI_STATE_OBJECT_FLAGS (d3d12umddi.h)
 description: The state object flags.
-ms.date: 03/24/2020
+ms.date: 05/24/2022
 keywords: ["D3D12DDI_STATE_OBJECT_FLAGS enumeration"]
 ms.keywords: D3D12DDI_STATE_OBJECT_FLAGS, D3D12DDI_STATE_OBJECT_FLAGS,
 req.header: d3d12umddi.h
@@ -35,26 +35,25 @@ dev_langs:
 
 # D3D12DDI_STATE_OBJECT_FLAGS enumeration
 
-
 ## -description
 
-The state object flags.
+**D3D12DDI_STATE_OBJECT_FLAGS** specify constraints for state objects.
 
 ## -enum-fields
 
-### -field D3D12DDI_STATE_OBJECT_FLAG_NONE
+### -field D3D12DDI_STATE_OBJECT_FLAG_NONE:0x0
 
-No flag.
+There are no state object constraints.
 
-### -field D3D12DDI_STATE_OBJECT_FLAG_ALLOW_LOCAL_DEPENDENCIES_ON_EXTERNAL_DEFINITIONS
+### -field D3D12DDI_STATE_OBJECT_FLAG_ALLOW_LOCAL_DEPENDENCIES_ON_EXTERNAL_DEFINITIONS:0x1
 
 Allows local dependencies on external definitions.
 
-### -field D3D12DDI_STATE_OBJECT_FLAG_ALLOW_EXTERNAL_DEPENDENCIES_ON_LOCAL_DEFINITIONS
+### -field D3D12DDI_STATE_OBJECT_FLAG_ALLOW_EXTERNAL_DEPENDENCIES_ON_LOCAL_DEFINITIONS:0x2
 
 Allows external dependencies on local definitions.
 
-### -field D3D12_STATE_OBJECT_FLAG_ALLOW_STATE_OBJECT_ADDITIONS
+### -field D3D12DDI_STATE_OBJECT_FLAG_ALLOW_STATE_OBJECT_ADDITIONS:0x4
 
 Allows additions to state objects. Available starting with Windows 10, version 2004.
 
@@ -67,4 +66,3 @@ See the [DirectX Raytracing (DXR) functional specification](https://microsoft.gi
 [**D3D12_STATE_OBJECT_CONFIG**](ns-d3d12umddi-d3d12ddi_state_object_config_0054.md)
 
 [**PFND3D12DDI_ADD_TO_STATE_OBJECT_0072**](nc-d3d12umddi-pfnd3d12ddi_add_to_state_object_0072.md)
-

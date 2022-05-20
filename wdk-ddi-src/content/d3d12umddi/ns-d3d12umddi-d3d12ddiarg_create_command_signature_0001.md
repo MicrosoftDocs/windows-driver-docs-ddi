@@ -3,7 +3,7 @@ UID: NS:d3d12umddi.D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001
 title: D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001
 description: Describes the parameters that the display driver uses to create a command signature.
 tech.root: display
-ms.date: 03/24/2020
+ms.date: 05/24/2022
 ms.keywords: D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001, D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001,
 req.header: d3d12umddi.h
 req.include-header: 
@@ -36,7 +36,6 @@ f1_keywords:
 
 # D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001 structure
 
-
 ## -description
 
 Describes the parameters that the display driver uses to create a command signature.
@@ -55,9 +54,13 @@ Specifies the number of arguments in the command signature.
 
 An array of [**D3D12DDI_INDIRECT_ARGUMENT_DESC**](ns-d3d12umddi-d3d12ddi_indirect_argument_desc.md) structures, containing details of the arguments, including whether the argument is a vertex buffer, constant, constant buffer view, shader resource view, or unordered access view.
 
-NodeMask
+### -field hRootSignature
 
-For single GPU operation, set this to zero. If there are multiple GPU nodes, set bits to identify the nodes (the device's physical adapters) for which the command signature is to apply. Each bit in the mask corresponds to a single node. Refer to Multi-adapter systems.
+Handle to the root signature.
+
+### -field NodeMask
+
+The set of nodes. For single GPU operation, set this to zero. If there are multiple GPU nodes, set bits to identify the nodes (the device's physical adapters) for which the command signature is to apply. Each bit in the mask corresponds to a single node. Refer to Multi-adapter systems.
 
 ## -remarks
 

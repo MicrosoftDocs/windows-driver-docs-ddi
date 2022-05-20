@@ -1,9 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGK_ALLOCATIONINFOFLAGS
-title: _DXGK_ALLOCATIONINFOFLAGS (d3dkmddi.h)
+title: DXGK_ALLOCATIONINFOFLAGS (d3dkmddi.h)
 description: The DXGK_ALLOCATIONINFOFLAGS structure identifies properties for an allocation. The display miniport driver specifies these flags for the video memory manager.
 old-location: display\dxgk_allocationinfoflags.htm
-ms.date: 08/05/2020
+ms.date: 05/24/2022
 keywords: ["DXGK_ALLOCATIONINFOFLAGS structure"]
 ms.keywords: DXGK_ALLOCATIONINFOFLAGS, DXGK_ALLOCATIONINFOFLAGS structure [Display Devices], DmStructs_4e6e499c-8427-4c0f-977d-92f648ab027e.xml, _DXGK_ALLOCATIONINFOFLAGS, d3dkmddi/DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags
 req.header: d3dkmddi.h
@@ -43,8 +43,7 @@ api_name:
  - DXGK_ALLOCATIONINFOFLAGS
 ---
 
-# _DXGK_ALLOCATIONINFOFLAGS structure
-
+# DXGK_ALLOCATIONINFOFLAGS structure
 
 ## -description
 
@@ -158,6 +157,10 @@ A UINT value that specifies whether different instances of an allocation will be
 
 Setting this member is equivalent to setting the fourteenth bit of the 32-bit **Value** member (0x00002000).
 
+### -field Reserved03
+
+Reserved for system use.
+
 ### -field HistoryBuffer [out]
 
 A UINT value that specifies whether the  user-mode display driver allocates a history buffer. The display miniport driver must set this flag to indicate that the user-mode driver can manage the creation and destruction of history buffers.
@@ -191,10 +194,6 @@ When this member is set, the allocation will hold content used for hardware digi
 ### -field CpuVisibleOnDemand
 
 When this member is set, the video memory manager will try to allocate the virtual address for the allocation when it is mapped/locked. This will result in the allocation not having a permanent virtual address, which reduces the amount of virtual address space used. It behaves similarly to the **CpuVisible** flag in that it’s an allocation directly accessible by the CPU, but it just gets the virtual address for it “on demand” instead of being permanently assigned.
-
-### -field Reserved [in]
-
-This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting 4 bits, from the sixteenth bit to the nineteenth bit (0x00078000), of the 32-bit **Value** member to zeros.
 
 ### -field DXGK_ALLOC_RESERVED16 [in]
 
@@ -295,4 +294,3 @@ You can specify properties of an allocation by setting bits in the 32-bit **Valu
 [**pfnLockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb.md)
 
 [**pfnUnlockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_unlockcb.md)
-
