@@ -1,7 +1,7 @@
 ---
 UID: NS:oidrequest._NDIS_OID_REQUEST
 title: NDIS_OID_REQUEST
-ms.date: 11/30/2020
+ms.date: 05/20/2022
 targetos: Windows
 description: To query or set OID information, NDIS submits NDIS_OID_REQUEST structures to filter drivers and miniport drivers.
 old-location: netvista\ndis_oid_request.htm
@@ -54,13 +54,19 @@ To query or set OID information, NDIS submits NDIS_OID_REQUEST structures to fil
 
 ### -field Header
 
-The
-     <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
-     NDIS_OID_REQUEST structure. Set the
-     <b>Type</b> member of the structure that
-     <b>Header</b> specifies to NDIS_OBJECT_TYPE_OID_REQUEST, the
-     <b>Revision</b> member to NDIS_OID_REQUEST_REVISION_1, and the
-     <b>Size</b> member to NDIS_SIZEOF_OID_REQUEST_REVISION_1.
+The [**NDIS\_OBJECT\_HEADER**](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header) structure for the NDIS\_OID\_REQUEST structure. Set the **Type** member to NDIS\_OBJECT\_TYPE\_OID\_REQUEST. To indicate the version of the NDIS_OID_REQUEST structure, set the **Revision** member to one of the following values:
+
+#### NDIS_OID_REQUEST_REVISION_2
+
+Added the **SwitchId**, **VPortId**, and **Flags** members for NDIS 6.50.
+
+Set the **Header** **Size** member to NDIS_SIZEOF_OID_REQUEST_REVISION_2.
+
+#### NDIS_OID_REQUEST_REVISION_1
+
+Original version for NDIS 6.0.
+
+Set the **Header** **Size** member to NDIS_SIZEOF_OID_REQUEST_REVISION_1.
 
 ### -field RequestType
 
