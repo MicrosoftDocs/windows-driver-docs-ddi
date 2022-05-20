@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_UNPINRESOURCES_CB_0076
 title: PFND3D12DDI_UNPINRESOURCES_CB_0076 (d3d12umddi.h)
 description: Unpins a resource that has been pinned with PFND3D12DDI_PINRESOURCES_CB_0076.
-ms.date: 03/24/2020
+ms.date: 05/24/2022
 keywords: ["PFND3D12DDI_UNPINRESOURCES_CB_0076 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
@@ -43,7 +43,6 @@ dev_langs:
 
 # PFND3D12DDI_UNPINRESOURCES_CB_0076 callback function
 
-
 ## -description
 
 Unpins a resource that has been pinned with [**PFND3D12DDI_PINRESOURCES_CB_0076**](nc-d3d12umddi-pfnd3d12ddi_pinresources_cb_0076.md).
@@ -54,7 +53,7 @@ Unpins a resource that has been pinned with [**PFND3D12DDI_PINRESOURCES_CB_0076*
 
 Handle that identifies the display device.
 
-### -param Arg
+### -param unnamedParam2
 
 A [**D3D12DDICB_UNPIN_RESOURCES_0076**](ns-d3d12umddi-d3d12ddicb_unpin_resources_0076.md) structure that provides the list of resources to unpin.
 

@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_CORE_0080
 tech.root: display
 title: D3D12DDI_DEVICE_FUNCS_CORE_0080
-ms.date: 05/13/2021
+ms.date: 05/24/2022
 targetos: Windows
 description: Core device functions available in D3D12 Release 8, Build rev 0.
 req.construct-type: structure
@@ -184,6 +184,18 @@ Create pipeline state.
 ### -field pfnDestroyPipelineState
 
 Destroy pipeline state.
+
+### -field pfnCalcPrivateCommandListSize
+
+Calculate the private command list size.
+
+### -field pfnCreateCommandList
+
+Create command list.
+
+### -field pfnDestroyCommandList
+
+Destroy command list.
 
 ### -field pfnCalcPrivateFenceSize
 
