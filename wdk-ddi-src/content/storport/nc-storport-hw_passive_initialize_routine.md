@@ -4,7 +4,7 @@ title: HW_PASSIVE_INITIALIZE_ROUTINE (storport.h)
 description: The HwStorPassiveInitializeRoutine callback routine is called after the HwStorInitialize routine when the current IRQL is at PASSIVE_LEVEL.
 old-location: storage\hwstorpassiveinitializeroutine.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/23/2022
 keywords: ["HW_PASSIVE_INITIALIZE_ROUTINE callback function"]
 ms.keywords: HW_PASSIVE_INITIALIZE_ROUTINE, HwStorPassiveInitializeRoutine, HwStorPassiveInitializeRoutine routine [Storage Devices], storage.hwstorpassiveinitializeroutine, stormini_e2404f14-1cdc-44d7-bd58-97acfa57bc36.xml, storport/HwStorPassiveInitializeRoutine
 req.header: storport.h
@@ -47,8 +47,6 @@ api_name:
 The **HwStorPassiveInitializeRoutine** callback routine is called after the [**HwStorInitialize**](nc-storport-hw_initialize.md) routine when the current IRQL is at PASSIVE_LEVEL. The **HwStorPassiveInitializeRoutine** callback is set by calling the [**StorPortEnablePassiveInitialization**](nf-storport-storportenablepassiveinitialization.md) routine. Initializing of the miniport's deferred procedure calls (DPCs) occurs in the **HwStorPassiveInitializeRoutine** callback.
 
 ## -parameters
-
-### -param DeviceExtension
 
 ### -param HwDeviceExtension
 
