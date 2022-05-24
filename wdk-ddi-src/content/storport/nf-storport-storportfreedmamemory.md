@@ -67,7 +67,7 @@ The physical address of the starting address of the memory block to be deallocat
 
 ## -returns
 
-This function returns one of the following status codes:
+This function returns a STOR_STATUS code such as one of the following.
 
 | Return code | Description |
 | ----------- | ----------- |

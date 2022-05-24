@@ -4,7 +4,7 @@ title: HW_STATE_CHANGE (storport.h)
 description: A miniport-provided callback that is called after a notification from StorPortStateChangeDetected is processed.
 old-location: storage\hwstorstatechange.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/23/2022
 keywords: ["HW_STATE_CHANGE callback function"]
 ms.keywords: HW_STATE_CHANGE, HwStorStateChange, HwStorStateChange routine [Storage Devices], storage.hwstorstatechange, storport/HwStorStateChange
 req.header: storport.h
