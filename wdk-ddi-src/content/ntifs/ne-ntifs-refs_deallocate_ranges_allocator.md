@@ -12,7 +12,7 @@ req.header: ntifs.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 11, version 22H1
+req.target-min-winverclnt: Windows 11, version 22H2
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
