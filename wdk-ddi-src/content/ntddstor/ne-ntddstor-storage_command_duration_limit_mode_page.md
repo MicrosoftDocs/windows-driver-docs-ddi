@@ -5,7 +5,7 @@ title: STORAGE_COMMAND_DURATION_LIMIT_MODE_PAGE
 ms.date: 05/24/2022
 targetos: Windows
 description: Learn more about the STORAGE_COMMAND_DURATION_LIMIT_MODE_PAGE enumeration.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: ntddstor.h
