@@ -5,7 +5,7 @@ title: StorPortGetMessageInterruptIDFromProcessorIndex
 ms.date: 05/24/2022
 targetos: Windows
 description: Learn more about the StorPortGetMessageInterruptIDFromProcessorIndex function.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: STOR_RESET_BUS_SYNCHRONOUS_PARAMETER
 ms.date: 05/24/2022
 targetos: Windows
 description: Learn more about the STOR_RESET_BUS_SYNCHRONOUS_PARAMETER structure.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

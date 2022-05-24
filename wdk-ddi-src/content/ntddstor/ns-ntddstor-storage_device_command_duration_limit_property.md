@@ -5,7 +5,7 @@ title: STORAGE_DEVICE_COMMAND_DURATION_LIMIT_PROPERTY
 ms.date: 05/24/2022
 targetos: Windows
 description: Learn more about the STORAGE_DEVICE_COMMAND_DURATION_LIMIT_PROPERTY structure.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

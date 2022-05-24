@@ -5,7 +5,7 @@ title: IOCTL_EHSTOR_BANDMGMT_ERASE_ALL_BANDS
 ms.date: 05/24/2022
 targetos: Windows
 description: Learn more about the IOCTL_EHSTOR_BANDMGMT_ERASE_ALL_BANDS IOCTL.
-prerelease: true
+prerelease: false
 req.construct-type: ioctl
 req.ddi-compliance: 
 req.dll: 
