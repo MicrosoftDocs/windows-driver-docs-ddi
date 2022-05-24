@@ -4,7 +4,7 @@ title: StorPortReadRegisterBufferUshort macro (storport.h)
 description: The StorPortReadRegisterBufferUshort routine reads a value from a specified register address.
 old-location: storage\storportreadregisterbufferushort.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/23/2022
 keywords: ["StorPortReadRegisterBufferUshort macro"]
 ms.keywords: StorPortReadRegisterBufferUshort, StorPortReadRegisterBufferUshort routine [Storage Devices], storage.storportreadregisterbufferushort, storport/StorPortReadRegisterBufferUshort, storprt_9ba740e5-78b0-464d-903c-6bb4c22788fd.xml
 req.header: storport.h
@@ -43,43 +43,28 @@ api_name:
 
 # StorPortReadRegisterBufferUshort macro
 
-
 ## -description
 
-The <b>StorPortReadRegisterBufferUshort</b> routine reads a value from a specified register address.
+The **StorPortReadRegisterBufferUshort** routine reads a value from a specified register address.
 
 ## -parameters
 
 ### -param h [in]
 
-
 A pointer to the hardware device extension.
 
 ### -param r [in]
-
 
 A pointer to the register where the data is to be read.
 
 ### -param b [in]
 
-
 A pointer to the buffer that receives the data that is read.
 
 ### -param c [in]
 
-
-The number of data items to be read. Each data item has a size of <b>sizeof</b>(USHORT). 
-
-### -param Register [in]
+The number of data items to be read. Each data item has a size of ```sizeof(USHORT)```.
 
 ## -remarks
 
-For more information, see <a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadregisterbufferushort">ScsiPortReadRegisterBufferUshort</a>. For a nonbuffered version of this routine, see <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportreadregisterushort">StorPortReadRegisterUshort</a>.
-
-## -see-also
-
-<a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadregisterbufferushort">ScsiPortReadRegisterBufferUshort</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportreadregisterushort">StorPortReadRegisterUshort</a>
+For more information, see [**ScsiPortReadRegisterBufferUshort**](../srb/nf-srb-scsiportreadregisterbufferushort.md). For a nonbuffered version of this routine, see [**StorPortReadRegisterUshort**](nf-storport-storportreadregisterushort.md).
