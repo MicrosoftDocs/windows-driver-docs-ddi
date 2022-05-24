@@ -5,7 +5,7 @@ title: WWAN_TAI_LIST
 ms.date: 01/07/2022
 targetos: Windows
 description: The **WWAN_TAI_LIST** structure represents a Tracking Area Identity (TAI) list.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

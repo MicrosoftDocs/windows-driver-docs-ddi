@@ -5,7 +5,7 @@ title: WWAN_SNSSAI_LIST
 ms.date: 01/14/2022
 targetos: Windows
 description: The WWAN_SNSSAI_LIST structure represents a single Network Slice Selection Assistance Information (S-NSSAI) list.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

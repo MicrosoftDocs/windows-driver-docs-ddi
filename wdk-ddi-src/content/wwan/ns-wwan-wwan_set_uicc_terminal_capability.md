@@ -5,7 +5,7 @@ title: WWAN_SET_UICC_TERMINAL_CAPABILITY
 ms.date: 03/10/2022
 targetos: Windows
 description: The WWAN_SET_UICC_TERMINAL_CAPABILITY structure represents the terminal capabilities of the host and SIM slot ID associated with an OID_WWAN_UICC_TERMINAL_CAPABILITY set request.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

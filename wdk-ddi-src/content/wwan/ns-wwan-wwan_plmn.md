@@ -5,7 +5,7 @@ title: WWAN_PLMN
 ms.date: 01/11/2022
 targetos: Windows
 description: The WWAN_PLMN structure represents a Mobile Country Code (MCC) and Mobile Network Code (MNC).
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

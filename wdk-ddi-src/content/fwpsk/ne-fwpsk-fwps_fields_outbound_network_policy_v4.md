@@ -5,7 +5,7 @@ title: FWPS_FIELDS_OUTBOUND_NETWORK_POLICY_V4
 ms.date: 03/28/2022
 targetos: Windows
 description: The FWPS_FIELDS_OUTBOUND_NETWORK_POLICY_V4 enumeration type specifies the data field identifiers for the FWPS_LAYER_OUTBOUND_NETWORK_CONNECTION_POLICY_V4 run-time filtering layer.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: fwpsk.h

@@ -5,7 +5,7 @@ title: NDIS_WWAN_QUERY_UICC_TERMINAL_CAPABILITY
 ms.date: 03/10/2022
 targetos: Windows
 description: The NDIS_WWAN_QUERY_UICC_TERMINAL_CAPABILITY structure represents the SIM slot ID that is associated with an OID_WWAN_UICC_TERMINAL_CAPABILITY query request.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

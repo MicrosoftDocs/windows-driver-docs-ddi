@@ -5,7 +5,7 @@ title: WWAN_QUERY_READY_INFO
 ms.date: 02/22/2022
 targetos: Windows
 description: The WWAN_QUERY_READY_INFO structure represents the SIM slot ID for OID_WWAN_READY_INFO query requests.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

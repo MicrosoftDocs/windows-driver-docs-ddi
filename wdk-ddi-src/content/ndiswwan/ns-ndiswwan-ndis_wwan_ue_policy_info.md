@@ -5,7 +5,7 @@ title: NDIS_WWAN_UE_POLICY_INFO
 ms.date: 03/11/2022
 targetos: Windows
 description: The NDIS_WWAN_UE_POLICY_INFO structure represents the UE policy information of the MB device.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
