@@ -5,7 +5,7 @@ title: WWAN_TAI_LIST_SINGLE_PLMN
 ms.date: 01/07/2022
 targetos: Windows
 description: The WWAN_TAI_LIST structure represents a list of Tracking Area Codes (TACs) that belong to a single PLMN.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

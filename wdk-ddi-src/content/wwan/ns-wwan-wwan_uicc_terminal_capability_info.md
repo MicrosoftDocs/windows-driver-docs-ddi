@@ -5,7 +5,7 @@ title: WWAN_UICC_TERMINAL_CAPABILITY_INFO
 ms.date: 02/28/2022
 targetos: Windows
 description: The WWAN_UICC_TERMINAL_CAPABILITY_INFO structure represents information about the terminal capabilities of the host.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

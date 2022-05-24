@@ -5,7 +5,7 @@ title: WWAN_TAI_LIST_MULTI_PLMN
 ms.date: 01/07/2022
 targetos: Windows
 description: The WWAN_TAI_LIST_MULTI_PLMN structure represents a list of Tracking Area Identities (TAIs) that belong to different PLMNs.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

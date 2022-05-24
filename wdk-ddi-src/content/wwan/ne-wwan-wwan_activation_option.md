@@ -5,7 +5,7 @@ title: WWAN_ACTIVATION_OPTION
 ms.date: 01/12/2022
 targetos: Windows
 description: The WWAN_ACTIVATION_OPTION enum lists the Packet Data Protocol (PDP) activation options that the MB device supports.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: wwan.h
