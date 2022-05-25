@@ -38,12 +38,12 @@ tech.root: debugger
 ms.custom: RS5
 ---
 
-# SymbolSearchInfo(ULONG) function
+# SymbolSearchInfo (derivedSize ULONG) function
 
 
 ## -description
 
-The search record passed to EnumerateChildrenEx in order to restrict symbol searches. This function takes a ULONG.
+The search record passed to EnumerateChildrenEx in order to restrict symbol searches. This function takes a ULONG that is the derived size.
 
 A given kind of symbol (as indicated by the SymbolKind enumeration) searched may have its own derived type.
 

@@ -38,7 +38,7 @@ api_name:
  - SymbolSearchInfo::SymbolSearchInfo
 ---
 
-# SymbolSearchInfo function (dbgmodel.h)
+# SymbolSearchInfo (ULONG) function (dbgmodel.h)
 
 
 ## -description

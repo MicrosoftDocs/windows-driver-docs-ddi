@@ -38,7 +38,7 @@ api_name:
  - SymbolSearchInfo::SymbolSearchInfo
 ---
 
-# SymbolSearchInfo ~r1 function
+# SymbolSearchInfo Constructor function
 
 
 ## -description
