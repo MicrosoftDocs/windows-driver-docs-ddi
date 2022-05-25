@@ -4,7 +4,7 @@ tech.root: devtest
 title: WppRecorderLogDumpLiveData
 ms.date: 04/21/2022
 targetos: Windows
-description: 
+description: The WppRecorderLogDumpLiveData method returns an opaque pointer to a log buffer header and data so that they can be saved in a live crashdump.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -67,7 +67,7 @@ WppRecorderLogDumpLiveData(
 
 ### -param RecorderLog [in]
 
-A recorder log handle returned in a previous call to [**WppRecorderLogCreate**](/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate) or [**WppRecorderLogGetDefault**](nf-wpprecorder-imp_wpprecorderloggetdefault).
+A recorder log handle returned in a previous call to [**WppRecorderLogCreate**](/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate) or [**WppRecorderLogGetDefault**](/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-imp_wpprecorderloggetdefault).
 
 ### -param OutBuffer [out]
 

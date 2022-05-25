@@ -4,7 +4,7 @@ tech.root: The HUMAN_PRESENCE_DETECTION_TYPE enumeration values indicate types o
 title: HUMAN_PRESENCE_DETECTION_TYPE
 ms.date: 02/09/2022
 targetos: Windows
-description: 
+description: The HUMAN_PRESENCE_DETECTION_TYPE enumeration values indicate types of human presence detection hardware.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 

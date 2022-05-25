@@ -4,7 +4,7 @@ tech.root: devtest
 title: WPP_RECORDER_TRI_STATE
 ms.date: 03/14/2022
 targetos: Windows
-description: 
+description: The WPP_RECORDER_TRI_STATE enumeration type defines three values that WPP uses for some structure members and function parameters. 
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
