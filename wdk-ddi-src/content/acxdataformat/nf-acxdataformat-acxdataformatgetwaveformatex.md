@@ -61,4 +61,4 @@ Returns a pointer to the [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-wavefo
 - [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-waveformatex)
 - [acxdataformat.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

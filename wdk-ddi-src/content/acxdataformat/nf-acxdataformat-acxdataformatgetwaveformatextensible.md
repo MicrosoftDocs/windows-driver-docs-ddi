@@ -61,4 +61,4 @@ Returns a pointer to the [WAVEFORMATEXTENSIBLE](../ksmedia/ns-ksmedia-waveformat
 - [WAVEFORMATEXTENSIBLE](../ksmedia/ns-ksmedia-waveformatextensible.md)
 - [acxdataformat.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
