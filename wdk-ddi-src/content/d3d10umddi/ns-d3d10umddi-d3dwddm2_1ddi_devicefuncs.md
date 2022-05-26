@@ -1,10 +1,10 @@
 ---
-UID: NS:d3d10umddi.D3DWDDM2_6DDI_DEVICEFUNCS
+UID: NS:d3d10umddi.D3DWDDM2_1DDI_DEVICEFUNCS
 tech.root: display
-title: D3DWDDM2_6DDI_DEVICEFUNCS
+title: D3DWDDM2_1DDI_DEVICEFUNCS
 ms.date: 05/25/2022
 targetos: Windows
-description: Learn more about the D3DWDDM2_6DDI_DEVICEFUNCS structure.
+description: Learn more about the D3DWDDM2_1DDI_DEVICEFUNCS structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,10 +15,10 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: WDDM 2.6
+req.target-min-winverclnt: WDDM 2.1
 req.target-min-winversvr: 
 req.target-type: 
-req.typenames: D3DWDDM2_6DDI_DEVICEFUNCS
+req.typenames: D3DWDDM2_1DDI_DEVICEFUNCS
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
@@ -28,19 +28,19 @@ api_type:
 api_location:
  - d3d10umddi.h
 api_name:
- - D3DWDDM2_6DDI_DEVICEFUNCS
+ - D3DWDDM2_1DDI_DEVICEFUNCS
 f1_keywords:
- - D3DWDDM2_6DDI_DEVICEFUNCS
- - d3d10umddi/D3DWDDM2_6DDI_DEVICEFUNCS
+ - D3DWDDM2_1DDI_DEVICEFUNCS
+ - d3d10umddi/D3DWDDM2_1DDI_DEVICEFUNCS
 dev_langs:
  - c++
 helpviewer_keywords:
- - D3DWDDM2_6DDI_DEVICEFUNCS
+ - D3DWDDM2_1DDI_DEVICEFUNCS
 ---
 
 ## -description
 
-This structure contains the user mode device function table for Windows Display Driver Model (WDDM) 2.6.
+This structure contains the user mode device function table for Windows Display Driver Model (WDDM) 2.1.
 
 ## -struct-fields
 
@@ -680,7 +680,7 @@ A pointer to the [**SetMarkerMode**](nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarkermod
 
 ### -field pfnSetHardwareProtection
 
-A pointer to the [**SetHardwareProtection**](nc-d3d10umddi-pfnd3dwddm2_0ddi_sethardwareprotection.md) function.
+Pointer to a [**SetHardwareProtection**](nc-d3d10umddi-pfnd3dwddm2_0ddi_sethardwareprotection.md) function.
 
 ### -field pfnGetResourceLayout
 
@@ -691,15 +691,3 @@ A pointer to the [**SetHardwareProtection**](nc-d3d10umddi-pfnd3dwddm2_0ddi_seth
 ### -field pfnAcquireResource
 
 ### -field pfnReleaseResource
-
-### -field pfnCalcPrivateShaderCacheSessionSize
-
-### -field pfnCreateShaderCacheSession
-
-### -field pfnDestroyShaderCacheSession
-
-### -field pfnSetShaderCacheSession
-
-### -field pfnQueryScanoutCaps
-
-### -field pfnPrepareScanoutTransformation
