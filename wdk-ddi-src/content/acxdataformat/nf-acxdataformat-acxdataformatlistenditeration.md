@@ -63,4 +63,4 @@ The memory for the *Iterator* is zeroed out by this function and cannot be recov
 - [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md)
 - [acxdataformat.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

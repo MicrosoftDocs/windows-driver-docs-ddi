@@ -66,4 +66,4 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [acxdataformat.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

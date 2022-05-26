@@ -75,4 +75,4 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [ACX_DATAFORMAT_LIST_CONFIG](ns-acxdataformat-acx_dataformat_list_config.md)
 - [acxdataformat.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
