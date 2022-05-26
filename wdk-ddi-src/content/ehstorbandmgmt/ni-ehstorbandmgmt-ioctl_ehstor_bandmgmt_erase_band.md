@@ -73,6 +73,7 @@ None.
 ### -inout-buffer-length
 
 None.
+
 ### -status-block
 
 One of the following values can be returned in the **Status** field.
@@ -93,7 +94,7 @@ A current erase authentication key is not provided in an **IOCTL_EHSTOR_BANDMGMT
 
 No method is provided in Windows to change the erase authentication key for a storage device. Provided that the correct parameters are given as input in the system buffer, this request should succeed. If  the erase authentication key was changed outside of Windows, such as in a dual-boot environment with a different operating system, this request may fail.
 
-When a band is erased with **IOCTL_EHSTOR_BANDMGMT_ERASE_BAND**, the only prior properties that remain are band start and band size. The previous media encryption key is removed and a new key is generated. Locking is set to **PERSISTANT_UNLOCK** for both reading and writing. Security metadata previously set is erased. The new authentication key specified in  [** ERASE_BAND_PARAMETERS**](ns-ehstorbandmgmt-_erase_band_parameters.md) is set unless use  of the default key is indicated.
+When a band is erased with **IOCTL_EHSTOR_BANDMGMT_ERASE_BAND**, the only prior properties that remain are band start and band size. The previous media encryption key is removed and a new key is generated. Locking is set to **PERSISTANT_UNLOCK** for both reading and writing. Security metadata previously set is erased. The new authentication key specified in  [**ERASE_BAND_PARAMETERS**](ns-ehstorbandmgmt-_erase_band_parameters.md) is set unless use  of the default key is indicated.
 
 To prevent other applications from taking control of a band and erase by using the default key, a new authentication key should be included with the **IOCTL_EHSTOR_BANDMGMT_ERASE_BAND** request.
 
@@ -101,7 +102,7 @@ The changes made to the band table by this request are committed to the device a
 
 ## -see-also
 
-[** ERASE_BAND_PARAMETERS**](ns-ehstorbandmgmt-_erase_band_parameters.md)
+[**ERASE_BAND_PARAMETERS**](ns-ehstorbandmgmt-_erase_band_parameters.md)
 
 [**IOCTL_EHSTOR_BANDMGMT_DELETE_BAND**](ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md)
 
