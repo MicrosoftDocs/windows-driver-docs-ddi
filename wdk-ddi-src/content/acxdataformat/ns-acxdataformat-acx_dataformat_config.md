@@ -79,4 +79,4 @@ Instances of the **ACX_DATAFORMAT_CONFIG** structure must be initialized by call
 - [ACX_DATAFORMAT_CONFIG_INIT_KS](nf-acxdataformat-acx_dataformat_config_init_ks.md)
 - [acxdataformat.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

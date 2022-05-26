@@ -76,4 +76,4 @@ After **AcxDataFormatListRetrieveNextFormat** returns, *Iterator* is updated to 
 - [AcxDataFormatListRetrieveDefaultDataFormat](nf-acxdataformat-acxdataformatlistretrievedefaultdataformat.md)
 - [acxdataformat.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
