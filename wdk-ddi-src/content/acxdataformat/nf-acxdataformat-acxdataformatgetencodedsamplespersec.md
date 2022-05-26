@@ -61,4 +61,4 @@ Returns a ULONG value that contains the number of samples per second of audio fo
 - [Representing Formats for IEC 61937 Transmissions](/windows/win32/coreaudio/representing-formats-for-iec-61937-transmissions)
 - [acxdataformat.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
