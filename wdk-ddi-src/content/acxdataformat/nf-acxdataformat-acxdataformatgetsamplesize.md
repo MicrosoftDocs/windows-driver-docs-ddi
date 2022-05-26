@@ -56,8 +56,10 @@ Returns a ULONG value containing the sample size for the specified *DataFormat*.
 
 ## -remarks
 
+Specifies the sample size of the data, for fixed sample sizes, or zero, if the format has a variable sample size.
+
 ## -see-also
 
 - [acxdataformat.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

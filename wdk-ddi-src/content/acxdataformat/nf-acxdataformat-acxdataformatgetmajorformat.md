@@ -64,4 +64,4 @@ Specifies the general format type. The data formats that are currently supported
 - [Stream Categories](/windows-hardware/drivers/stream/stream-categories)
 - [acxdataformat.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

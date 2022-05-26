@@ -60,4 +60,4 @@ Returns a ULONG value containing the sample rate for the specified *DataFormat*.
 
 - [acxdataformat.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
