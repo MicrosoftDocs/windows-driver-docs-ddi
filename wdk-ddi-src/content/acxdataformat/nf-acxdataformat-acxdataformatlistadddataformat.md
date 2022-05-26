@@ -60,10 +60,12 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 ## -remarks
 
+If the data format list doesn't have a default data format, this data format becomes the default data format for that list.
+
 ## -see-also
 
 - [AcxDataFormatListRemoveDataFormat](nf-acxdataformat-acxdataformatlistremovedataformat.md)
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [acxdataformat.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
