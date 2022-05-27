@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.SymbolSearchInfo.SymbolSearchInfo
-title: SymbolSearchInfo function (dbgmodel.h)
+title: SymbolSearchInfo ULONG function (dbgmodel.h)
 description: The SymbolSearchInfo function (dbgmodel.h) constructs a SymbolSearchInfo, a search record passed to EnumerateChildrenEx to restrict symbol searches. Does not take any parameters.
 ms.date: 05/25/2022
 keywords: ["SymbolSearchInfo function"]
@@ -38,7 +38,7 @@ api_name:
  - SymbolSearchInfo::SymbolSearchInfo
 ---
 
-# SymbolSearchInfo (ULONG) function (dbgmodel.h)
+# SymbolSearchInfo ULONG function (dbgmodel.h)
 
 
 ## -description

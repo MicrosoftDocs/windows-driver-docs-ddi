@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgmodel.SymbolSearchInfo.SymbolSearchInfo~r1
-title: SymbolSearchInfo::SymbolSearchInfo function (dbgmodel.h)
-description: The SymbolSearchInfo ~r1 function (dbgmodel.h) constructs a SymbolSearchInfo, a search record passed to EnumerateChildrenEx to restrict symbol searches.
+title: SymbolSearchInfo::SymbolSearchInfo Constructor function (dbgmodel.h)
+description: The SymbolSearchInfo constructor ~r1 function (dbgmodel.h) constructs a SymbolSearchInfo, a search record passed to EnumerateChildrenEx to restrict symbol searches.
 ms.date: 05/25/2022
 keywords: ["SymbolSearchInfo function"]
 ms.keywords: SymbolSearchInfo
@@ -39,7 +39,6 @@ api_name:
 ---
 
 # SymbolSearchInfo Constructor function
-
 
 ## -description
 
