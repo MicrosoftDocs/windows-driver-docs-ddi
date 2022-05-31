@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>NtCreateSection</b> routine creates a <a href="/windows-hardware/drivers/">section object</a>.
+The <b>NtCreateSection</b> routine creates a <a href="[/windows-hardware/drivers/kernel/section-objects-and-views)">section object</a>.
 
 ## -parameters
 
