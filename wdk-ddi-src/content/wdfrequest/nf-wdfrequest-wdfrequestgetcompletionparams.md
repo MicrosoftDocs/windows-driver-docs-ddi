@@ -4,7 +4,7 @@ title: WdfRequestGetCompletionParams function (wdfrequest.h)
 description: The WdfRequestGetCompletionParams method retrieves the I/O completion parameters that are associated with a specified framework request object.
 old-location: wdf\wdfrequestgetcompletionparams.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 01/26/2022
 keywords: ["WdfRequestGetCompletionParams function"]
 ms.keywords: DFRequestObjectRef_032fe29a-4000-4d97-92fb-50462d2c1bea.xml, WdfRequestGetCompletionParams, WdfRequestGetCompletionParams method, kmdf.wdfrequestgetcompletionparams, wdf.wdfrequestgetcompletionparams, wdfrequest/WdfRequestGetCompletionParams
 req.header: wdfrequest.h
@@ -59,7 +59,7 @@ The <b>WdfRequestGetCompletionParams</b> method retrieves the I/O completion par
 
 A handle to a framework request object.
 
-### -param Params [out]
+### -param Params [in, out]
 
 
 A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_completion_params">WDF_REQUEST_COMPLETION_PARAMS</a> structure.

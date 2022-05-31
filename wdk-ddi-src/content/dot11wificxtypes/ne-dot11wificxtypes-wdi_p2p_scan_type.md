@@ -58,6 +58,8 @@ Adapter determines scan type during device discovery. It should prefer using Act
 
 ### -field WDI_P2P_SCAN_TYPE_MAX_VALUE:0xFFFFFFFF
 
+The maximum value for this type.
+
 ## -remarks
 
 The **WDI_P2P_SCAN_TYPE** enumeration is a value in the [**WDI_TLV_P2P_DISCOVER_MODE**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-discover-mode) TLV. 

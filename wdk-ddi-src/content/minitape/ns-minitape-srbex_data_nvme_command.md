@@ -2,7 +2,7 @@
 UID: NS:minitape._SRBEX_DATA_NVME_COMMAND
 tech.root: storage
 title: SRBEX_DATA_NVME_COMMAND (minitape.h)
-ms.date: 05/13/2021
+ms.date: 05/20/2022
 targetos: Windows
 description: The SRBEX_DATA_NVME_COMMAND (minitape.h) structure enables the user to frame and issue a command in NVMe format.
 req.construct-type: structure
@@ -100,3 +100,9 @@ See [**SRBEX_DATA_NVME_COMMAND** (*srb.h*)](../srb/ns-srb-srbex_data_nvme_comman
 ### -field QID
 
 ### -field CommandTag
+
+### -field CQEntryDW0
+
+## -see-also
+
+See [**SRBEX_DATA_NVME_COMMAND** (*srb.h*)](../srb/ns-srb-srbex_data_nvme_command.md).

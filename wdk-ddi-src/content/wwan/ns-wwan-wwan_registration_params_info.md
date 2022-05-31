@@ -81,6 +81,10 @@ All other values are reserved.
 
 A [**WWAN_LIST_HEADER**](ns-wwan-_wwan_list_header.md) object that represents a pre-configured Single Network Slice Selection Assistance Information (S-NSSAI). The host will send exactly one S-NSSAI if the modem has zero pre-configured default S-NSSAIs.
 
+### -field OSId
+
+A GUID that represents the OS Id. A value of **0** means MBIM_TLV_TYPE_OSID is not contained in the MBIM_CID_MS_REGISTRATION_PARAMS payload.
+
 ## -remarks
 
 The **WWAN_REGISTRATION_PARAMS_INFO** structure is used in [OID_WWAN_REGISTER_PARAMS](/windows-hardware/drivers/network/oid-wwan-register-params) set and query requests and [NDIS_STATUS_WWAN_REGISTER_PARAMS_STATE](/windows-hardware/drivers/network/ndis-status-wwan-register-params-state) notifications.

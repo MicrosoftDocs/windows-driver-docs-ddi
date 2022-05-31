@@ -4,7 +4,7 @@ title: IoIsValidNameGraftingBuffer function (ntifs.h)
 description: "Microsoft reserves the IoIsValidNameGraftingBuffer function for internal use only. Don't use this function in your code."
 old-location: ifsk\ioisvalidnamegraftingbuffer.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["IoIsValidNameGraftingBuffer function"]
 ms.keywords: IoIsValidNameGraftingBuffer, IoIsValidNameGraftingBuffer function [Installable File System Drivers], ifsk.ioisvalidnamegraftingbuffer, ioref_10a2f83c-101f-47b3-beca-c708a0749d4d.xml, ntifs/IoIsValidNameGraftingBuffer
 req.header: ntifs.h
@@ -42,18 +42,20 @@ api_name:
 
 # IoIsValidNameGraftingBuffer function
 
-
 ## -description
 
-The <b>IoIsValidNameGraftingBuffer</b> routine is reserved for system use.
+The **IoIsValidNameGraftingBuffer** routine is reserved for system use.
 
 ## -parameters
 
 ### -param Irp
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param ReparseBuffer
 
 Reserved.
 
+## -returns
+
+Reserved.

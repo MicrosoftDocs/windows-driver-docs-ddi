@@ -4,7 +4,7 @@ title: RtlReserveChunk function (ntifs.h)
 description: "Microsoft reserves the RtlReserveChunk function for internal use only. Don't use this function in your code."
 old-location: ifsk\rtlreservechunk.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["RtlReserveChunk function"]
 ms.keywords: RtlReserveChunk, RtlReserveChunk function [Installable File System Drivers], ifsk.rtlreservechunk, ntifs/RtlReserveChunk, rtlref_cfca6b3d-c505-464e-83fc-8bbff476e93d.xml
 req.header: ntifs.h
@@ -42,16 +42,15 @@ api_name:
 
 # RtlReserveChunk function
 
-
 ## -description
 
-The <b>RtlReserveChunk</b> routine is reserved for system use.
+The **RtlReserveChunk** routine is reserved for system use.
 
 ## -parameters
 
 ### -param CompressionFormat
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param CompressedBuffer
 
@@ -69,3 +68,6 @@ Reserved.
 
 Reserved.
 
+## -returns
+
+Reserved.

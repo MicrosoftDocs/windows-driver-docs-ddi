@@ -45,6 +45,7 @@ This is a complete list of all headers in the WDK for network drivers; headers t
 - [Mdl.h](../mdl/index.md)
 - [Mdlapi.h](../mdlapi/index.md)
 - [Mdltypes.h](../mdltypes/index.md)
+- [Miniport.h](../miniport/index.md)
 - [Nbl.h](../nbl/index.md)
 - [Nbl8021q.h](../nbl8021q/index.md)
 - [Nblaccessors.h](../nblaccessors/index.md)

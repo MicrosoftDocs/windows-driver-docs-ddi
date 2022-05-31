@@ -1,22 +1,23 @@
 ---
 UID: NS:wdm._KERNEL_CET_CONTEXT
 tech.root: kernel
-title: KERNEL_CET_CONTEXT
-ms.date: 06/03/2021
+title: KERNEL_CET_CONTEXT (wdm.h)
+ms.date: 03/03/2022
 targetos: Windows
-description: "Microsoft reserves the KERNEL_CET_CONTEXT structure for internal use only. Don't use this structure in your code."
+description: Reserved for system use only. Do not use.
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: Windows Server 2022
-req.target-type: 
+req.target-type: Windows
 req.typenames: KERNEL_CET_CONTEXT, *PKERNEL_CET_CONTEXT
 req.umdf-ver: 
 req.unicode-ansi: 
@@ -39,11 +40,13 @@ f1_keywords:
  - wdm/KERNEL_CET_CONTEXT
 dev_langs:
  - c++
+helpviewer_keywords:
+ - _KERNEL_CET_CONTEXT
 ---
 
 ## -description
 
-Reserved for system use.
+Reserved for system use only. Do not use.
 
 ## -struct-fields
 
@@ -53,13 +56,17 @@ Reserved for system use.
 
 ### -field SegCs
 
-### -field AllFlags
+### -field DUMMYUNIONNAME
 
-### -field UseWrss
+### -field DUMMYUNIONNAME.AllFlags
 
-### -field PopShadowStackOne
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
-### -field Unused
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.UseWrss
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.PopShadowStackOne
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Unused
 
 ### -field Fill
 

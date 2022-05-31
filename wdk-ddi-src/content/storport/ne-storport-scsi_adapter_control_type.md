@@ -2,7 +2,7 @@
 UID: NE:storport._SCSI_ADAPTER_CONTROL_TYPE
 tech.root: storage
 title: SCSI_ADAPTER_CONTROL_TYPE
-ms.date: 05/13/2021
+ms.date: 05/24/2022
 targetos: Windows
 description: The SCSI_ADAPTER_CONTROL_TYPE enumeration contains adapter control operations, where each control type initiates an action on an adapter by the miniport driver. Storport specifies the control type when it calls a miniport's HwStorAdapterControl routine.
 req.construct-type: enumeration
@@ -157,23 +157,53 @@ Reserved for system use. Notifies the miniport to perform a cryptographic operat
 
 ### -field ScsiAdapterQueryFruId
 
-Available in Windows 10 version 21H1 and later. Queries the ID of a fault replacement unit (FRU) of the adapter. Storport calls [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) with it and **Parameters** pointing to a [**STOR_FRU_ID_DESCRIPTION**](ns-storport-stor_fru_id_description.md) structure when handling [**IOCTL_STORAGE_QUERY_PROPERTY**]ni-ntddstor-ioctl_storage_query_property.md) with a **StorageFruIdProperty** property ID.
+Available starting in Windows 10 version 21H1. Queries the ID of a fault replacement unit (FRU) of the adapter. Storport calls [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) with it and **Parameters** pointing to a [**STOR_FRU_ID_DESCRIPTION**](ns-storport-stor_fru_id_description.md) structure when handling [**IOCTL_STORAGE_QUERY_PROPERTY**]ni-ntddstor-ioctl_storage_query_property.md) with a **StorageFruIdProperty** property ID.
 
-> [!NOTE]
-> Storport sends this control only if a miniport has also previously called [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md) in its [**HwFindAdapter**](nc-storport-hw_find_adapter.md) routine with **StorportFeatureFruIdAdapterControl** specified.
+Storport sends this control only if a miniport has also previously called [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md) in its [**HwFindAdapter**](nc-storport-hw_find_adapter.md) routine with **StorportFeatureFruIdAdapterControl** specified.
 
 ### -field ScsiAdapterSetEventLogging
 
-Available in Windows 10 version 21H1 and later. Notifies the miniport about whether a specific event channel is enabled or disabled for an adapter. A miniport should then call an API to log an event for the adapter only when the corresponding channel is enabled. If the miniport supports this control type, Storport calls [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) with it and **Parameters** pointing to a [**STOR_SET_EVENT_LOGGING**](ns-storport-stor_set_event_logging.md) structure.
+Available starting in Windows 10 version 21H1. Notifies the miniport about whether a specific event channel is enabled or disabled for an adapter. A miniport should then call an API to log an event for the adapter only when the corresponding channel is enabled. If the miniport supports this control type, Storport calls [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) with it and **Parameters** pointing to a [**STOR_SET_EVENT_LOGGING**](ns-storport-stor_set_event_logging.md) structure.
 
-> [!NOTE]
-> Storport sends this control only if a miniport has also previously called [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md) in its [**HwFindAdapter**](nc-storport-hw_find_adapter.md) routine with **StorportFeatureFruIdAdapterControl** specified.
+Storport sends this control only if a miniport has also previously called [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md) in its [**HwFindAdapter**](nc-storport-hw_find_adapter.md) routine with **StorportFeatureFruIdAdapterControl** specified.
+
+### -field ScsiAdapterReportInternalData
+
+Reserved for system use. Available starting in Windows 11, version 22H2.
+
+Storport sends this control only if a miniport has also previously called [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md) in its [**HwFindAdapter**](nc-storport-hw_find_adapter.md) routine with **ScsiAdapterReportInternalData** specified.
+
+### -field ScsiAdapterResetBusSynchronous
+
+Available starting in Windows 11, version 22H2. Storport sends this control during the handling of an IOCTL_STORAGE_DEVICE_RESET. The miniport driver should handle this control similar to what it does in its [**HwResetBus**](nc-storport-hw_reset_bus.md) callback routine, and should return SCSI_ADAPTER_CONTROL_STATUS.
+
+Storport sends this control only if a miniport has also previously called [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md) in its [**HwFindAdapter**](nc-storport-hw_find_adapter.md) routine with **StorportFeatureResetBusSynchronous** specified.
+
+### -field ScsiAdapterPostHwInitialize
+
+Reserved for system use. Available starting in Windows 11, version 22H2.
+
+Storport sends this control only if a miniport has also previously called [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md) in its [**HwFindAdapter**](nc-storport-hw_find_adapter.md) routine with **StorportFeaturePostHwInitialize** specified.
+
+### -field ScsiAdapterPrepareEarlyDumpData
+
+Reserved for system use. Available starting in Windows 11, version 22H2.
+
+Storport sends this control only if a miniport has also previously called [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md) in its [**HwFindAdapter**](nc-storport-hw_find_adapter.md) routine with **StorportFeaturePrepareEarlyDumpData** specified.
+
+### -field ScsiAdapterRestoreEarlyDumpData
+
+Reserved for system use. Available starting in Windows 11, version 22H2.
+
+Storport sends this control only if a miniport has also previously called [**StorPortSetFeatureList**](nf-storport-storportsetfeaturelist.md) in its [**HwFindAdapter**](nc-storport-hw_find_adapter.md) routine with **StorportFeatureRestoreEarlyDumpData** specified.
 
 ### -field ScsiAdapterControlMax
 
 Maximum control type value.
 
 ### -field MakeAdapterControlTypeSizeOfUlong
+
+Makes this enumeration the size of a ULONG.
 
 ## -remarks
 

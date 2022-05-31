@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_RELEASEHANDLEDATA
 title: DXGKCB_RELEASEHANDLEDATA (d3dkmddi.h)
 description: Releases handle data.
-ms.date: 10/13/2021
+ms.date: 05/24/2022
 keywords: ["DXGKCB_RELEASEHANDLEDATA callback function"]
 req.header: d3dkmddi.h
 req.include-header: 
@@ -50,10 +50,6 @@ dev_langs:
 ### -param unnamedParam1 [in]
 
 A [**DXGKARGCB_RELEASEHANDLEDATA**](ns-d3dkmddi-dxgkargcb_releasehandledata.md) structure containing information about the allocation to be released.
-
-## -returns
-
-None.
 
 ## -remarks
 

@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dkmdt._DXGK_NODEMETADATA_FLAGS
-title: _DXGK_NODEMETADATA_FLAGS (d3dkmdt.h)
+title: DXGK_NODEMETADATA_FLAGS (d3dkmdt.h)
 description: Defines node metadata flags for a context.
-ms.date: 10/19/2018
+ms.date: 05/24/2022
 keywords: ["DXGK_NODEMETADATA_FLAGS structure"]
 ms.keywords: _DXGK_NODEMETADATA_FLAGS, DXGK_NODEMETADATA_FLAGS,
 req.header: d3dkmdt.h
@@ -39,8 +39,7 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_NODEMETADATA_FLAGS structure
-
+# DXGK_NODEMETADATA_FLAGS structure
 
 ## -description
 
@@ -60,17 +59,16 @@ Ring buffer fence release.
 
 Supports tracked workload.
 
+### -field UserModeSubmission
+
+User-mode submission.
+
 ### -field MaxInFlightHwQueueBuffers
 
-The maximum number of command buffers submitted by the hardware schedular, to the kernel mode driver. 0 indicates no limit.
+The maximum number of command buffers submitted by the hardware scheduler to the kernel-mode driver. A value of zero indicates no limit.
 
 ### -field Reserved
 
 Reserved.
 
 ### -field Value
-
-## -remarks
-
-## -see-also
-

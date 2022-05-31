@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dkmddi._DXGK_VIRTUALMACHINEDATAFLAGS
-title: _DXGK_VIRTUALMACHINEDATAFLAGS (d3dkmddi.h)
+title: DXGK_VIRTUALMACHINEDATAFLAGS (d3dkmddi.h)
 description: The virtual machine data flags.
-ms.date: 10/19/2018
+ms.date: 05/24/2022
 keywords: ["DXGK_VIRTUALMACHINEDATAFLAGS structure"]
 ms.keywords: _DXGK_VIRTUALMACHINEDATAFLAGS, DXGK_VIRTUALMACHINEDATAFLAGS,
 req.header: d3dkmddi.h
@@ -38,8 +38,7 @@ product:
  - Windows
 ---
 
-# _DXGK_VIRTUALMACHINEDATAFLAGS structure
-
+# DXGK_VIRTUALMACHINEDATAFLAGS structure
 
 ## -description
 
@@ -49,13 +48,12 @@ The virtual machine data flags.
 
 ### -field SecureVirtualMachine
 
-Identifies the secure virtual machine.
+The virtual machine is secure.
+
+### -field LinuxVirtualMachine
+
+The virtual machine is Linux-based.
 
 ### -field Value
 
-The value of the virtual machine.
-
-## -remarks
-
-## -see-also
-
+Use to reference bits in the union.

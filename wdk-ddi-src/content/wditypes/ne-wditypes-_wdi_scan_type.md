@@ -69,3 +69,4 @@ The port can perform an active or passive can or can use a combination of both s
 
 ### -field WDI_SCAN_TYPE_MAX_VALUE
 
+The maximum value for this type.

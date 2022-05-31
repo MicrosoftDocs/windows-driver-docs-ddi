@@ -4,7 +4,7 @@ title: HW_PASSIVE_INITIALIZE_ROUTINE (storport.h)
 description: The HwStorPassiveInitializeRoutine callback routine is called after the HwStorInitialize routine when the current IRQL is at PASSIVE_LEVEL.
 old-location: storage\hwstorpassiveinitializeroutine.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/24/2022
 keywords: ["HW_PASSIVE_INITIALIZE_ROUTINE callback function"]
 ms.keywords: HW_PASSIVE_INITIALIZE_ROUTINE, HwStorPassiveInitializeRoutine, HwStorPassiveInitializeRoutine routine [Storage Devices], storage.hwstorpassiveinitializeroutine, stormini_e2404f14-1cdc-44d7-bd58-97acfa57bc36.xml, storport/HwStorPassiveInitializeRoutine
 req.header: storport.h
@@ -49,10 +49,6 @@ The **HwStorPassiveInitializeRoutine** callback routine is called after the [**H
 ## -parameters
 
 ### -param DeviceExtension
-
-### -param HwDeviceExtension
-
-A pointer to a per-adapter storage area.
 
 ## -returns
 

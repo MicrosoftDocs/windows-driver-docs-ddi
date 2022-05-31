@@ -2,13 +2,12 @@
 UID: NE:wdm._DEVICE_RESET_TYPE
 title: _DEVICE_RESET_TYPE (wdm.h)
 description: The DEVICE_RESET_TYPE enumeration specifies the type of device reset that is being requested by a call to the DeviceReset routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
-old-location: kernel\device_reset_type.htm
 tech.root: kernel
-ms.date: 11/15/2018
+ms.date: 05/31/2022
 keywords: ["DEVICE_RESET_TYPE enumeration"]
 ms.keywords: DEVICE_RESET_TYPE, DEVICE_RESET_TYPE enumeration [Kernel-Mode Driver Architecture], FunctionLevelDeviceReset, PlatformLevelDeviceReset, _DEVICE_RESET_TYPE, kernel.device_reset_type, wdm/DEVICE_RESET_TYPE, wdm/FunctionLevelDeviceReset, wdm/PlatformLevelDeviceReset
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -45,10 +44,11 @@ api_name:
 
 # _DEVICE_RESET_TYPE enumeration
 
-
 ## -description
 
-The <b>DEVICE_RESET_TYPE</b> enumeration specifies the type of device reset that is being requested by a call to the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pdevice_reset_handler">DeviceReset</a> routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface. For more information see [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard).
+The **DEVICE_RESET_TYPE** enumeration specifies the type of device reset that is being requested by a call to the [DeviceReset](/windows-hardware/drivers/ddi/wdm/nc-wdm-pdevice_reset_handler) routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
+
+For more information see [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard).
 
 ## -enum-fields
 
@@ -62,12 +62,8 @@ A platform-level device reset, which affects a specific device and all other dev
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_reset_interface_standard">DEVICE_RESET_INTERFACE_STANDARD</a>
+[DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_reset_interface_standard)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pdevice_reset_handler">DeviceReset</a>
-
+[DeviceReset](/windows-hardware/drivers/ddi/wdm/nc-wdm-device_reset_handler)
 
 [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard)
-
