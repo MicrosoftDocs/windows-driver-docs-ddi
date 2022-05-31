@@ -2,9 +2,9 @@
 UID: NE:acxdataformat._ACX_DATAFORMAT_TYPE
 tech.root: audio
 title: ACX_DATAFORMAT_TYPE
-ms.date: 03/21/2022
+ms.date: 05/31/2022
 targetos: Windows
-description: The ACX_DATAFORMAT_TYPE enumeration is used to specify the type a data format used by an audio class extension (ACX) driver.
+description: The ACX_DATAFORMAT_TYPE enumeration is used to specify the type of a data format used by an audio class extension (ACX) driver.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_DATAFORMAT_TYPE** enumeration is used to specify the type a data format used by an audio class extension (ACX) driver.
+The **ACX_DATAFORMAT_TYPE** enumeration is used to specify the type of a data format used by an audio class extension (ACX) driver.
 
 ## -enum-fields
 
@@ -60,3 +60,5 @@ For internal validation, do not use.
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

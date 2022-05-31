@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetWaveFormatExtensible
 tech.root: audio
 title: AcxDataFormatGetWaveFormatExtensible
-ms.date: 05/06/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: The AcxDataFormatGetWaveFormatExtensible function gets the WAVEFORMATEXTENSIBLE structure associated with the specified data format.
 prerelease: true
@@ -62,3 +62,5 @@ Returns a pointer to the [WAVEFORMATEXTENSIBLE](../ksmedia/ns-ksmedia-waveformat
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

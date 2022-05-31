@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetSpecifier
 tech.root: audio
 title: AcxDataFormatGetSpecifier
-ms.date: 05/06/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: The AcxDataFormatGetSpecifier function gets the specifier for the specified data format.
 prerelease: true
@@ -65,3 +65,5 @@ Specifies additional data format type information for a specific setting of Majo
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

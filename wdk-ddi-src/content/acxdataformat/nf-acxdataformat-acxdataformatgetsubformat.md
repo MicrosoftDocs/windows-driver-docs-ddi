@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetSubFormat
 tech.root: audio
 title: AcxDataFormatGetSubFormat
-ms.date: 05/06/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: The AcxDataFormatGetSubFormat function gets the subformat for the specified data format.
 prerelease: true
@@ -65,3 +65,5 @@ Specifies the subformat of a general format type. The data subformats that are c
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

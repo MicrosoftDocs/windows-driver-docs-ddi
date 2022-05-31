@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetWaveFormatEx
 tech.root: audio
 title: AcxDataFormatGetWaveFormatEx
-ms.date: 03/24/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: The AcxDataFormatGetWaveFormatEx function gets the WAVEFORMATEX structure associated with the specified data format.
 prerelease: true
@@ -62,3 +62,5 @@ Returns a pointer to the [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-wavefo
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

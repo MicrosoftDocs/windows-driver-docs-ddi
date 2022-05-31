@@ -2,7 +2,7 @@
 UID: NE:acxdataformat._ACX_DATAFORMAT_LIST_ITERATOR_CONFIG_FLAGS
 tech.root: audio
 title: ACX_DATAFORMAT_LIST_ITERATOR_CONFIG_FLAGS
-ms.date: 03/21/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: The ACX_DATAFORMAT_LIST_ITERATOR_CONFIG_FLAGS enumeration is used to configure a data format list iterator used by an audio class extension (ACX) driver.
 prerelease: true
@@ -56,3 +56,5 @@ For internal validation, do not use.
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

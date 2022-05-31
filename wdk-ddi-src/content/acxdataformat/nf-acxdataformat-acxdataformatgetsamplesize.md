@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetSampleSize
 tech.root: audio
 title: AcxDataFormatGetSampleSize
-ms.date: 03/24/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: The AcxDataFormatGetSampleSize function gets the sample size for the specified data format.
 prerelease: true
@@ -63,3 +63,5 @@ Specifies the sample size of the data, for fixed sample sizes, or zero, if the f
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

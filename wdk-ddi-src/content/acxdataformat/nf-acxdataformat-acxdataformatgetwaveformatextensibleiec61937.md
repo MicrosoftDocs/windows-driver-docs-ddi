@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetWaveFormatExtensibleIec61937
 tech.root: audio
 title: AcxDataFormatGetWaveFormatExtensibleIec61937
-ms.date: 05/06/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: The AcxDataFormatGetWaveFormatExtensibleIec61937 function gets the WAVEFORMATEXTENSIBLE_IEC61937 structure associated with the specified data format.
 prerelease: true
@@ -62,3 +62,5 @@ Returns a pointer to the WAVEFORMATEXTENSIBLE_IEC61937 structure associated with
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatListAddDataFormat
 tech.root: audio
 title: AcxDataFormatListAddDataFormat
-ms.date: 05/06/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: The AcxDataFormatListAddDataFormat function adds an ACXDATAFORMAT object to a data format list.
 prerelease: true
@@ -69,3 +69,5 @@ If the data format list doesn't have a default data format, this data format bec
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

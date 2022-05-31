@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatListBeginIteration
 tech.root: audio
 title: AcxDataFormatListBeginIteration
-ms.date: 05/06/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: The AcxDataFormatListBeginIteration function gets an ACX_DATAFORMAT_LIST_ITERATOR to use for iterating through the specified data format list.
 prerelease: true
@@ -62,3 +62,5 @@ A pointer to an [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_l
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

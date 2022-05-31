@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetSamplesPerBlock
 tech.root: audio
 title: AcxDataFormatGetSamplesPerBlock
-ms.date: 05/06/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: The AcxDataFormatGetSamplesPerBlock function gets the number of samples per block for the specified data format.
 prerelease: true
@@ -64,3 +64,5 @@ Number of samples contained in one compressed block of audio data. This value is
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetValidBitsPerSample
 tech.root: audio
 title: AcxDataFormatGetValidBitsPerSample
-ms.date: 03/24/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: The AcxDataFormatGetValidBitsPerSample function gets the valid number of bits per sample for the specified data format.
 prerelease: true
@@ -61,3 +61,5 @@ Returns a ULONG value containing the valid number bits per sample for the specif
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

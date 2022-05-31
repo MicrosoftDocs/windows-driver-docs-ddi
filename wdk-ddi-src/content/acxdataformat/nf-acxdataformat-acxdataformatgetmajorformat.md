@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetMajorFormat
 tech.root: audio
 title: AcxDataFormatGetMajorFormat
-ms.date: 05/06/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: AcxDataFormatGetMajorFormat
 prerelease: true
@@ -65,3 +65,5 @@ Specifies the general format type. The data formats that are currently supported
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

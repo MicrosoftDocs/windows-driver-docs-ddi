@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatListAssignDefaultDataFormat
 tech.root: audio
 title: AcxDataFormatListAssignDefaultDataFormat
-ms.date: 03/28/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: The AcxDataFormatListAssignDefaultDataFormat function adds an ACXDATAFORMAT object to the specified data format list and sets the ACXDATAFORMAT object as the default.
 prerelease: true
@@ -68,3 +68,5 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

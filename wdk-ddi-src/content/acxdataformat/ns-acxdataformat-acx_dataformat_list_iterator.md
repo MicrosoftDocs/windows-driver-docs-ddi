@@ -2,7 +2,7 @@
 UID: NS:acxdataformat._ACX_DATAFORMAT_LIST_ITERATOR
 tech.root: audio
 title: ACX_DATAFORMAT_LIST_ITERATOR
-ms.date: 03/30/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: The ACX_DATAFORMAT_LIST_ITERATOR structure holds the state of iteration over an ACX data format list.
 prerelease: true
@@ -71,3 +71,5 @@ This structure should not be directly updated. Instances of the **ACX_DATAFORMAT
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

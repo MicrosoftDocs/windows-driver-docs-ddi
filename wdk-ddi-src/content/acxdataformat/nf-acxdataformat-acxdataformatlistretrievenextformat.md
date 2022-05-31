@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatListRetrieveNextFormat
 tech.root: audio
 title: AcxDataFormatListRetrieveNextFormat
-ms.date: 05/06/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: The AcxDataFormatListRetrieveNextFormat function gets the next ACX data format when iterating an ACX data format list.
 prerelease: true
@@ -77,3 +77,5 @@ After **AcxDataFormatListRetrieveNextFormat** returns, *Iterator* is updated to 
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NS:acxdataformat._ACX_DATAFORMAT_CONFIG
 tech.root: audio
 title: ACX_DATAFORMAT_CONFIG
-ms.date: 05/06/2022
+ms.date: 05/31/2022
 targetos: Windows
 description: The ACX_DATAFORMAT_CONFIG structure is used to configure a new ACX data format object.
 prerelease: true
@@ -80,3 +80,5 @@ Instances of the **ACX_DATAFORMAT_CONFIG** structure must be initialized by call
 - [acxdataformat.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
