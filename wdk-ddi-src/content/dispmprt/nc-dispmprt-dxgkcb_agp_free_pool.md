@@ -4,13 +4,13 @@ title: DXGKCB_AGP_FREE_POOL (dispmprt.h)
 description: The AgpFreePool function frees AGP memory that was previously allocated by AgpAllocatePool.
 old-location: display\agpfreepool.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 05/31/2022
 keywords: ["DXGKCB_AGP_FREE_POOL callback function"]
 ms.keywords: AgpFreePool, AgpFreePool callback function [Display Devices], DXGKCB_AGP_FREE_POOL, DXGKCB_AGP_FREE_POOL callback, DpFunctions_ffe16de5-aa04-4f4b-bae5-de5b25682f65.xml, display.agpfreepool, dispmprt/AgpFreePool
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,26 +42,23 @@ api_name:
 
 # DXGKCB_AGP_FREE_POOL callback function
 
-
 ## -description
 
-The <b>AgpFreePool</b> function frees AGP memory that was previously allocated by <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_agp_allocate_pool">AgpAllocatePool</a>.
+The **DXGKCB_AGP_FREE_POOL** callback function frees AGP memory that was previously allocated by [**AgpAllocatePool**](nc-dispmprt-dxgkcb_agp_allocate_pool.md).
 
 ## -parameters
 
-### -param HANDLE
+### -param Context [in]
 
-A handle to a context block that is associated with an AGP interface. The display miniport driver previously received this handle in the <b>Context</b> member of the DXGK_AGP_INTERFACE structure that was filled in by <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>.
+A handle to a context block that is associated with an AGP interface. The display miniport driver previously received this handle in the **Context** member of the DXGK_AGP_INTERFACE structure that was filled in by [**DxgkCbQueryServices**](nc-dispmprt-dxgkcb_query_services.md).
 
-### -param PVOID
+### -param VirtualAddress [in]
 
-*VirtualAddress* [in]
-
-The base virtual address of the AGP allocation that is to be freed. This is the virtual address that was previously returned in the <i>VirtualAddress</i> output parameter of the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_agp_allocate_pool">AgpAllocatePool</a> function.
+The base virtual address of the AGP allocation that is to be freed. This is the virtual address that was previously returned in the **VirtualAddress** output parameter of the [**AgpAllocatePool**](nc-dispmprt-dxgkcb_agp_allocate_pool.md) function.
 
 ## -returns
 
-<b>AgpFreePool</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
+**AgpFreePool** returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in *Ntstatus.h*.
 
 ## -remarks
 
@@ -69,17 +66,10 @@ None.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_agp_allocate_pool">AgpAllocatePool</a>
+[**AgpAllocatePool**](nc-dispmprt-dxgkcb_agp_allocate_pool.md)
 
+[**AgpSetCommand**](nc-dispmprt-dxgkcb_agp_set_command.md)
 
+[**DXGK_AGP_INTERFACE**](ns-dispmprt-_dxgk_agp_interface.md)
 
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_agp_set_command">AgpSetCommand</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_agp_interface">DXGK_AGP_INTERFACE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>
-
+[**DxgkCbQueryServices**](nc-dispmprt-dxgkcb_query_services.md)

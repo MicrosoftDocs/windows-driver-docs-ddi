@@ -4,7 +4,7 @@ title: DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT (dispmprt.h)
 description: The DxgkDdiOPMConfigureProtectedOutput function configures the given protected output object.
 old-location: display\dxgkddiopmconfigureprotectedoutput.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 05/31/2022
 keywords: ["DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT callback function"]
 ms.keywords: DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT, DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT callback, Dm_Opm_functions_4e8394b3-68b4-4747-a375-a767edbccc2c.xml, DxgkDdiOPMConfigureProtectedOutput, DxgkDdiOPMConfigureProtectedOutput callback function [Display Devices], display.dxgkddiopmconfigureprotectedoutput, dispmprt/DxgkDdiOPMConfigureProtectedOutput
 req.header: dispmprt.h
@@ -42,85 +42,57 @@ api_name:
 
 # DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT callback function
 
-
 ## -description
 
-The<i> DxgkDdiOPMConfigureProtectedOutput</i> function configures the given protected output object.
+The **DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT** function configures the given protected output object.
 
 ## -parameters
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. The display miniport driver's [**DxgkDdiAddDevice**](nc-dispmprt-dxgkddi_add_device.md.md) function previously provided this handle to the DirectX graphics kernel subsystem.
 
 ### -param ProtectedOutputHandle [in]
 
-The handle to a protected output object. The <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a> function creates the protected output object and returns the handle to the object.
+The handle to a protected output object. The [**DxgkDdiOPMCreateProtectedOutput**](nc-dispmprt-dxgkddi_opm_create_protected_output.md.md) function creates the protected output object and returns the handle to the object.
 
-### -param PDXGKMDT_OPM_CONFIGURE_PARAMETERS [in]
+### -param Parameters [in]
 
-A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_configure_parameters.md">DXGKMDT_OPM_CONFIGURE_PARAMETERS</a> structure that contains parameters that are used to configure the protected output object whose handle is specified in the <i>ProtectedOutputHandle</i> parameter.
+A pointer to a [**DXGKMDT_OPM_CONFIGURE_PARAMETERS**](..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_configure_parameters.md.md) structure that contains parameters that are used to configure the protected output object whose handle is specified in the **ProtectedOutputHandle** parameter.
 
 ### -param AdditionalParametersSize [in]
 
-The size, in bytes, of the additional parameters in the buffer that is pointed to by <i>AdditionalParameters</i>. For Certified Output Protection Protocol (COPP) emulation, this is 0.
+The size, in bytes, of the additional parameters in the buffer that is pointed to by **AdditionalParameters**. For Certified Output Protection Protocol (COPP) emulation, this is 0.
 
-### -param VOID
+### -param AdditionalParameters [in]
 
-*AdditionalParameters* [in]
-
-A pointer to a buffer that holds the additional parameters that are used to configure the protected output object whose handle is specified in the <i>ProtectedOutputHandle</i> parameter. For COPP emulation, this is <b>NULL</b>. If the <i>AdditionalParametersSize</i> parameter is set to 0, <i>AdditionalParameters</i> is always set to <b>NULL</b>.
+A pointer to a buffer that holds the additional parameters that are used to configure the protected output object whose handle is specified in the **ProtectedOutputHandle** parameter. For COPP emulation, this is NULL. If the **AdditionalParametersSize** parameter is set to 0, **AdditionalParameters** is always set to NULL.
 
 ## -returns
 
-<i>DxgkDdiOPMConfigureProtectedOutput</i> returns one of the following values:
+**DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT** returns one of the following values:
 
 |Return code|Description|
 |--- |--- |
 |STATUS_SUCCESS|The function successfully configured the protected output object.|
 |STATUS_NO_MEMORY|DxgkDdiOPMConfigureProtectedOutput cannot allocate memory required for it to complete.|
 
-
-This function might also return other error codes that are defined in Ntstatus.h.
-
-## -prototype
-
-```cpp
-DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT DxgkDdiOPMConfigureProtectedOutput;
-
-NTSTATUS DxgkDdiOPMConfigureProtectedOutput(
-  _In_       PVOID                             MiniportDeviceContext,
-  _In_       HANDLE                            ProtectedOutputHandle,
-  _In_ const PDXGKMDT_OPM_CONFIGURE_PARAMETERS Parameters,
-  _In_       ULONG                             AdditionalParametersSize,
-  _In_ const PVOID                             AdditionalParameters
-)
-{ ... }
-```
+This function might also return other error codes that are defined in *Ntstatus.h*.
 
 ## -remarks
 
-The DirectX graphics kernel subsystem calls <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a> or <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a> to retrieve information about the output and then calls <i>DxgkDdiOPMConfigureProtectedOutput</i> one or more times to configure the output.
+The DirectX graphics kernel subsystem calls [**DxgkDdiOPMGetInformation**](nc-dispmprt-dxgkddi_opm_get_information.md) or [**DxgkDdiOPMGetCOPPCompatibleInformation**](nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md) to retrieve information about the output and then calls **DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT** one or more times to configure the output.
 
-<i>DxgkDdiOPMConfigureProtectedOutput</i> should be made pageable.
+**DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT** should be made pageable.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+[**DxgkDdiOPMGetCOPPCompatibleInformation**](nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md)
 
+[**DxgkDdiOPMCreateProtectedOutput**](nc-dispmprt-dxgkddi_opm_create_protected_output.md)
 
+[**DxgkDdiAddDevice**](nc-dispmprt-dxgkddi_add_device.md)
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
+[**DXGKMDT_OPM_CONFIGURE_PARAMETERS**](..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_configure_parameters.md)
 
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_configure_parameters.md">DXGKMDT_OPM_CONFIGURE_PARAMETERS</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
-
+[**DxgkDdiOPMGetInformation**](nc-dispmprt-dxgkddi_opm_get_information.md)

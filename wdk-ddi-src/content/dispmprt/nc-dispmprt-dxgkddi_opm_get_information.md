@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The *DxgkDdiOPMGetInformation* function retrieves information from the given protected output object.
+The **DXGKDDI_OPM_GET_INFORMATION** function retrieves information from the given protected output object.
 
 ## -parameters
 
@@ -56,15 +56,15 @@ A handle to a context block associated with a display adapter. Previously, the d
 
 The handle to a protected output object. The [*DxgkDdiOPMCreateProtectedOutput*](nc-dispmprt-dxgkddi_opm_create_protected_output.md) function creates the protected output object and returns the handle to the object. The protected output object that corresponds to this handle should have OPM semantics.
 
-### -param PDXGKMDT_OPM_GET_INFO_PARAMETERS
+### -param Parameters [in]
 
-A pointer to a [**DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS**](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md) structure that contains parameters that are used to retrieve information from a protected output object whose handle is specified in the **ProtectedOutputHandle** parameter. *DxgkDdiOPMGetInformation* determines if the parameters contain a valid request from the application that indirectly created the protected output object. For more information, see the Remarks section.
+A pointer to a [**DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS**](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md) structure that contains parameters that are used to retrieve information from a protected output object whose handle is specified in the **ProtectedOutputHandle** parameter. **DXGKDDI_OPM_GET_INFORMATION** determines if the parameters contain a valid request from the application that indirectly created the protected output object. For more information, see the Remarks section.
 
 ### -param RequestedInformation [out]
 
-A pointer to a [**DXGKMDT_OPM_REQUESTED_INFORMATION**](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_requested_information.md) structure that receives the protected output object's information if *DxgkDdiOPMGetInformation* returns successfully.
+A pointer to a [**DXGKMDT_OPM_REQUESTED_INFORMATION**](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_requested_information.md) structure that receives the protected output object's information if **DXGKDDI_OPM_GET_INFORMATION** returns successfully.
 
-If *DxgkDdiOPMGetInformation* fails, the value that **RequestedInformation** points to is unchanged.
+If **DXGKDDI_OPM_GET_INFORMATION** fails, the value that **RequestedInformation** points to is unchanged.
 
 ## -returns
 
@@ -86,11 +86,11 @@ NTSTATUS DxgkDdiOPMGetInformation(
 
 ## -remarks
 
-The DirectX graphics kernel subsystem should call *DxgkDdiOPMGetInformation* only if the output has OPM semantics.
+The DirectX graphics kernel subsystem should call **DXGKDDI_OPM_GET_INFORMATION** only if the output has OPM semantics.
 
-Before the DirectX graphics kernel subsystem passes the protected output handle to the **ProtectedOutputHandle** parameter in a call to *DxgkDdiOPMGetInformation*, the DirectX graphics kernel subsystem always passes the protected output handle to the [*DxgkDdiOPMSetSigningKeyAndSequenceNumbers*](nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md) and [*DxgkDdiOPMGetRandomNumber*](nc-dispmprt-dxgkddi_opm_get_random_number.md) functions.
+Before the DirectX graphics kernel subsystem passes the protected output handle to the **ProtectedOutputHandle** parameter in a call to **DXGKDDI_OPM_GET_INFORMATION**, the DirectX graphics kernel subsystem always passes the protected output handle to the [*DxgkDdiOPMSetSigningKeyAndSequenceNumbers*](nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md) and [*DxgkDdiOPMGetRandomNumber*](nc-dispmprt-dxgkddi_opm_get_random_number.md) functions.
 
-*DxgkDdiOPMGetInformation* retrieves one of the following types of information:
+**DXGKDDI_OPM_GET_INFORMATION** retrieves one of the following types of information:
 
 * The protected output's connector type.
 * The content protection types that the protected output supports. Protected outputs can currently support ACP, CGMS-A, and HDCP.
@@ -104,9 +104,9 @@ The **guidInformation** member of the [**DXGKMDT_OPM_GET_INFO_PARAMETERS**](../d
 
 The first 4 bytes of the **abParameters** member of [**DXGKMDT_OPM_GET_INFO_PARAMETERS**](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md) should never contain the DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP protection type when the DXGKMDT_OPM_GET_VIRTUAL_PROTECTION_LEVEL or DXGKMDT_OPM_GET_ACTUAL_PROTECTION_LEVEL GUID is specified in the **guidInformation** member of **DXGKMDT_OPM_GET_INFO_PARAMETERS** because only COPP applications use this protection type.
 
-The driver must perform the following sequence when its *DxgkDdiOPMGetInformation* function is called.
+The driver must perform the following sequence when its **DXGKDDI_OPM_GET_INFORMATION** function is called.
 
-1. Verify that the protected output handle that was passed to the **ProtectedOutputHandle** parameter of *DxgkDdiOPMGetInformation* has OPM semantics.
+1. Verify that the protected output handle that was passed to the **ProtectedOutputHandle** parameter of **DXGKDDI_OPM_GET_INFORMATION** has OPM semantics.
 
 2. Verify that the information in the **Parameters** parameter was signed with the protected output object's signing key. The protected output object's signing key was previously set when the [*DxgkDdiOPMSetSigningKeyAndSequenceNumbers*](nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md) function was called. The Advanced Encryption Standard (AES) block cipher and the OMAC-1 signing algorithm should be used to verify the signature. For information about AES, see the [RSA Laboratories](https://www.rsa.com) website. For information about OMAC-1, see the [**DXGKMDT_OPM_OMAC**](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_omac.md) reference page.
 
@@ -116,9 +116,9 @@ The driver must perform the following sequence when its *DxgkDdiOPMGetInformatio
 
 5. Sign the DXGKMDT_OPM_REQUESTED_INFORMATION structure and place the signature in the **omac** member of DXGKMDT_OPM_REQUESTED_INFORMATION. The AES block cipher and the OMAC-1 signing algorithm should be used to sign the structure.
 
-Initially, the DirectX graphics kernel subsystem calls *DxgkDdiOPMGetInformation* to retrieve information about the output and then calls [*DxgkDdiOPMConfigureProtectedOutput*](nc-dispmprt-dxgkddi_opm_configure_protected_output.md) one or more times to configure the output. Subsequently, the DirectX graphics kernel subsystem calls *DxgkDdiOPMGetInformation* without also calling *DxgkDdiOPMConfigureProtectedOutput*.
+Initially, the DirectX graphics kernel subsystem calls **DXGKDDI_OPM_GET_INFORMATION** to retrieve information about the output and then calls [*DxgkDdiOPMConfigureProtectedOutput*](nc-dispmprt-dxgkddi_opm_configure_protected_output.md) one or more times to configure the output. Subsequently, the DirectX graphics kernel subsystem calls **DXGKDDI_OPM_GET_INFORMATION** without also calling *DxgkDdiOPMConfigureProtectedOutput*.
 
-*DxgkDdiOPMGetInformation* should be made pageable.
+**DXGKDDI_OPM_GET_INFORMATION** should be made pageable.
 
 ## -see-also
 
@@ -128,7 +128,7 @@ Initially, the DirectX graphics kernel subsystem calls *DxgkDdiOPMGetInformation
 
 [*DxgkDdiOPMCreateProtectedOutput*](nc-dispmprt-dxgkddi_opm_create_protected_output.md)
 
-[*DxgkDdiOPMGetInformation*](nc-dispmprt-dxgkddi_opm_get_information.md)
+[**DXGKDDI_OPM_GET_INFORMATION**](nc-dispmprt-dxgkddi_opm_get_information.md)
 
 [*DxgkDdiOPMGetRandomNumber*](nc-dispmprt-dxgkddi_opm_get_random_number.md)
 
