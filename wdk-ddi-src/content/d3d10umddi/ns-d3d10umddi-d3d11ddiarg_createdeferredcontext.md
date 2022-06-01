@@ -53,7 +53,7 @@ The D3D11DDIARG_CREATEDEFERREDCONTEXT structure describes the deferred context t
 
 A pointer to a [**D3D11DDI_DEVICEFUNCS**](ns-d3d10umddi-d3d11ddi_devicefuncs.md) structure that the user-mode display driver fills with a table of its functions for the deferred context. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
 
-For a list of the functions that are not leveraged for deferred contexts, see [Excluding DDI Functions for Deferred Contexts](/windows-hardware/drivers/display/excluding-ddi-functions-for-deferred-context).
+For a list of the functions that are not leveraged for deferred contexts, see [Excluding DDI Functions for Deferred Contexts](/windows-hardware/drivers/display/excluding-ddi-functions-for-deferred-contexts).
 
 ### -field p11_1ContextFuncs [in/out]
 
