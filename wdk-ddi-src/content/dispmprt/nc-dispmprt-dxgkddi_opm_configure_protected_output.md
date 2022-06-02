@@ -50,15 +50,15 @@ The **DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT** function configures the given pro
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block associated with a display adapter. The display miniport driver's [**DxgkDdiAddDevice**](nc-dispmprt-dxgkddi_add_device.md.md) function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. The display miniport driver's [**DxgkDdiAddDevice**](nc-dispmprt-dxgkddi_add_device.md) function previously provided this handle to the DirectX graphics kernel subsystem.
 
 ### -param ProtectedOutputHandle [in]
 
-The handle to a protected output object. The [**DxgkDdiOPMCreateProtectedOutput**](nc-dispmprt-dxgkddi_opm_create_protected_output.md.md) function creates the protected output object and returns the handle to the object.
+The handle to a protected output object. The [**DxgkDdiOPMCreateProtectedOutput**](nc-dispmprt-dxgkddi_opm_create_protected_output.md) function creates the protected output object and returns the handle to the object.
 
 ### -param Parameters [in]
 
-A pointer to a [**DXGKMDT_OPM_CONFIGURE_PARAMETERS**](..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_configure_parameters.md.md) structure that contains parameters that are used to configure the protected output object whose handle is specified in the **ProtectedOutputHandle** parameter.
+A pointer to a [**DXGKMDT_OPM_CONFIGURE_PARAMETERS**](..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_configure_parameters.md) structure that contains parameters that are used to configure the protected output object whose handle is specified in the **ProtectedOutputHandle** parameter.
 
 ### -param AdditionalParametersSize [in]
 

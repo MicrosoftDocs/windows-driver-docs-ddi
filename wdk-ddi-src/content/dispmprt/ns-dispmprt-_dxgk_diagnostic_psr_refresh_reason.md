@@ -2,7 +2,7 @@
 UID: NS:dispmprt._DXGK_DIAGNOSTIC_PSR_REFRESH_REASON
 title: DXGK_DIAGNOSTIC_PSR_REFRESH_REASON (dispmprt.h)
 description: Indicates the reason or reasons for exiting PSR (Panel Self-Refresh).
-ms.date: 05/31/20228
+ms.date: 05/31/2022
 keywords: ["DXGK_DIAGNOSTIC_PSR_REFRESH_REASON structure"]
 ms.keywords: _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON, DXGK_DIAGNOSTIC_PSR_REFRESH_REASON,
 req.header: dispmprt.h
