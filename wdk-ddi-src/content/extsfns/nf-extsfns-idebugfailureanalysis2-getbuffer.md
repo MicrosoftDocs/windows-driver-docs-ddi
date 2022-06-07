@@ -42,7 +42,6 @@ api_name:
 
 # IDebugFailureAnalysis2::GetBuffer
 
-
 ## -description
 
 The <b>GetBuffer</b> method searches a <a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object for the first <a href="/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a> that has a specified tag. If it finds an FA entry with the specified tag, it gets the entry's data block.
@@ -91,4 +90,3 @@ If this method finds an <a href="/windows-hardware/drivers/debugger/failure-anal
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
-
