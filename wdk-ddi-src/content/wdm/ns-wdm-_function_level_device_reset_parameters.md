@@ -3,7 +3,7 @@ UID: NS:wdm._FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS
 title: _FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS (wdm.h)
 description: The FUNCTION_LEVEL_DEVICE_RESET_PARAMETER structure is used as an argument to the DeviceReset routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
 tech.root: kernel
-ms.date: 05/31/2022
+ms.date: 06/06/2022
 keywords: ["FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure"]
 ms.keywords: "*PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure [Kernel-Mode Driver Architecture], PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, kernel.function_level_device_reset_parameters, wdm/FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, wdm/PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS"
 req.header: wdm.h
@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-The **FUNCTION_LEVEL_DEVICE_RESET_PARAMETER** structure  is used as an argument to the [DeviceReset](/windows-hardware/drivers/ddi/wdm/nc-wdm-pdevice_reset_handler) routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface. This structure specifies a callback routine that is called  when a function-level device reset is completed, and a context structure that is passed to the callback routine. For more information, see [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard)
+The **FUNCTION_LEVEL_DEVICE_RESET_PARAMETER** structure  is used as an argument to the [DeviceReset](/windows-hardware/drivers/ddi/wdm/nc-wdm-device_reset_handler) routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface. This structure specifies a callback routine that is called  when a function-level device reset is completed, and a context structure that is passed to the callback routine. For more information, see [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard)
 
 ## -struct-fields
 
