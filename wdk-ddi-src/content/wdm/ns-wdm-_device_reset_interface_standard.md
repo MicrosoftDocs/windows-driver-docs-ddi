@@ -3,7 +3,7 @@ UID: NS:wdm._DEVICE_RESET_INTERFACE_STANDARD
 title: _DEVICE_RESET_INTERFACE_STANDARD (wdm.h)
 description: The DEVICE_RESET_INTERFACE_STANDARD structure enables function drivers to reset and recover malfunctioning devices. This structure describes the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
 tech.root: kernel
-ms.date: 05/31/2022
+ms.date: 06/06/2022
 keywords: ["DEVICE_RESET_INTERFACE_STANDARD structure"]
 ms.keywords: "*PDEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], PDEVICE_RESET_INTERFACE_STANDARD, PDEVICE_RESET_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], _DEVICE_RESET_INTERFACE_STANDARD, kernel.device_reset_interface_standard, wdm/DEVICE_RESET_INTERFACE_STANDARD, wdm/PDEVICE_RESET_INTERFACE_STANDARD"
 req.header: wdm.h
@@ -77,7 +77,7 @@ A pointer to an [InterfaceDereference](/windows-hardware/drivers/ddi/wdm/nc-wdm-
 
 ### -field DeviceReset
 
-A pointer to the interface's [DeviceReset](/windows-hardware/drivers/ddi/wdm/nc-wdm-pdevice_reset_handler) routine. This routine can be used by function drivers to attempt to reset and recover a malfunctioning device.
+A pointer to the interface's [DeviceReset](/windows-hardware/drivers/ddi/wdm/nc-wdm-device_reset_handler) routine. This routine can be used by function drivers to attempt to reset and recover a malfunctioning device.
 
 ### -field SupportedResetTypes
 
