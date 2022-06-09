@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitCreate
 tech.root: audio
 title: AcxCircuitCreate
-ms.date: 08/12/2021
+ms.date: 06/09/2022
 targetos: Windows
 description: The AcxCircuitCreate function is used to create a circuit that will be associated with a WDFDEVICE parent. This function is located in the acxcircuit header.
 prerelease: true
@@ -48,7 +48,7 @@ The **AcxCircuitCreate** function is used to create a circuit that will be assoc
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit. TBD - conditional on something to determine if this is the parent?
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit. 
 
 ### -param Attributes
 
