@@ -1,5 +1,5 @@
 ---
-UID: NF:extsfns.IDebugFailureAnalysis2.GetNext
+UID: NF:extsfns.IDebugFailureAnalysis.GetNext
 title: IDebugFailureAnalysis2::GetNext (extsfns.h)
 description: The GetNext method searches a DebugFailureAnalysis object for the next FA entry, after a given FA entry, that satisfies conditions specified by the Tag and TagMask parameters.
 old-location: debugger\idebugfailureanalysis2_getnext.htm
