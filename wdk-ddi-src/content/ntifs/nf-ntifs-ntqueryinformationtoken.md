@@ -202,6 +202,8 @@ The value of <i>TokenInformationClass</i> is <b>TokenDefaultDacl</b>, and there 
 </li>
 </ul>
 
+ReturnLength mustn't be <b>NULL</b> (see remarks for further information)!
+
 ## -returns
 
 <b>NtQueryInformationToken</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
@@ -230,6 +232,17 @@ The value of <i>TokenInformationClass</i> is <b>TokenDefaultDacl</b>, and there 
 </td>
 <td width="60%">
 The size of the requested token information structure is greater than <i>TokenInformationLength</i>. The number of bytes required is returned in <i>ReturnLength</i>. 
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>STATUS_ACCESS_VIOLATION</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>ReturnLength</i> was NULL or the parameter was not writable in order to receive the actual length of the information pointed by <i>TokenInformation</i>.
 
 </td>
 </tr>
@@ -271,6 +284,10 @@ The size of the requested token information structure is greater than <i>TokenIn
 ## -remarks
 
 The <b>NtQueryInformationToken</b> routine can be used by a file system or file system filter driver to determine the <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a> of the caller that initiated the request during <a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> processing. If <b>TokenUser</b> is specified for the <i>TokenInformationClass</i> parameter passed to <b>NtQueryInformationToken</b>, a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_user">TOKEN_USER</a> structure is returned in the buffer pointed to by the <i>TokenInformation</i> parameter. This returned buffer contains an <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_and_attributes">SID_AND_ATTRIBUTES</a> structure with the user <b>SID</b>.
+
+Due to the nature of token's properties such as token user, token primary group, privileges, et al, where their contents can vary on each token, <i>ReturnLength</i> is not optional. This is due to the fact that
+SID is a variable-length structure whereas a specific privilege can exist in a token but not in another (the privilege count can be different for each token). It's the caller's responsibility to query the necessary
+required length size in order to allocate memory to accommodate the requested token information before doing a "real" query. With that being said, it's also the caller's responsibility to provide a valid variable that is writable and must not be NULL! On a NULL case scenario, the function raises an access violation exception.
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK. 
 
