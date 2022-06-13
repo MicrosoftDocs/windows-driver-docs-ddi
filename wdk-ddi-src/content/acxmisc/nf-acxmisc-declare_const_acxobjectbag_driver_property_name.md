@@ -4,7 +4,7 @@ tech.root: audio
 title: DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME
 ms.date: 02/22/2022
 targetos: Windows
-description: The DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME function declares a constant that can be used to work with a AcxObjectBag. 
+description: The DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME function declares an ACX object bag property name. Driver defined properties start with "drv_<ven>_".
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME function declares a constant that can be used to work with a AcxObjectBag. 
+The DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME function declares an ACX object bag property name. Driver defined properties start with "drv_<ven>_".
 
 ## -parameters
 
 ### -param ven
 
-The vendor ID that is used to indentify the vendor.
+The vendor ID that identifies the vendor.
 
 ### -param name
 
-The name of the declared constant.
+The name of the declared ACX object bag property name.
 
 ## -remarks
 
@@ -61,11 +61,11 @@ The name of the declared constant.
 This example shows the use of DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME.
 
 ```cpp
-    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME VendorX, TestUI4);
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI4);
 ```
 
 ## -see-also
 
 - [acxmisc.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

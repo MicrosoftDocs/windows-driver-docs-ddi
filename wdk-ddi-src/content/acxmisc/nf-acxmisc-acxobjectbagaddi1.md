@@ -104,4 +104,4 @@ This example shows the use of AcxObjectBagAddI1.
 
 - [acxmisc.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

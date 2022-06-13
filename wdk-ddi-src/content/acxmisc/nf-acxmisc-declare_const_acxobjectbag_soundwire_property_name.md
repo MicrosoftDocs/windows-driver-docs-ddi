@@ -4,7 +4,7 @@ tech.root: audio
 title: DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPERTY_NAME
 ms.date: 01/10/2022
 targetos: Windows
-description: The DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPERTY_NAME function declares a constant that can be used to work with a AcxObjectBag. 
+description: The DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPERTY_NAME function declares an ACX object bag property name. Soundwire defined properties start with "sdca_".
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPERTY_NAME function declares a SoundWire property constant that can be used to work with a AcxObjectBag. 
+The DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPERTY_NAME function declares an ACX object bag property name. Soundwire defined properties start with "sdca_".
 
 ## -parameters
 
 ### -param name
 
-The name of the declared constant.
+The name of the declared ACX object bag property name.
 
 ## -remarks
 
@@ -57,12 +57,11 @@ The name of the declared constant.
 This example shows the definition of DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPERTY_NAME.
 
 ```cpp
-#define DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPERTY_NAME(name) \
-    DECLARE_CONST_UNICODE_STRING(name, L"sdca_" #name)
+	DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPERTY_NAME(DPNo);
 ```
 
 ## -see-also
 
 - [acxmisc.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

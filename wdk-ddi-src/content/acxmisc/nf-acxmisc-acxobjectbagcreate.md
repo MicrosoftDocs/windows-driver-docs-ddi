@@ -91,4 +91,4 @@ This example shows the use of AcxObjectBagCreate.
 
 - [acxmisc.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

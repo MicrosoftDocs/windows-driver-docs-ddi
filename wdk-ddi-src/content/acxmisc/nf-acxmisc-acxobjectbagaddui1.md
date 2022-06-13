@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddUI1
 ms.date: 02/22/2022
 targetos: Windows
-description: The AcxObjectBagAddUI1 function adds an unsigned int one byte (UCHAR) I1 value  to an existing, intialized AcxObjectBag. 
+description: The AcxObjectBagAddUI1 function adds an unsigned int one byte (UCHAR) I1 value to an existing, intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddUI1 function adds an unsigned int one byte (UCHAR) I1 value  to an existing, intialized AcxObjectBag. 
+The AcxObjectBagAddUI1 function adds an unsigned int one byte (UCHAR) I1 value to an existing, intialized AcxObjectBag. 
  
 ## -parameters
 
@@ -104,4 +104,4 @@ This example shows the use of AcxObjectBagAddUI1.
 
 - [acxmisc.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

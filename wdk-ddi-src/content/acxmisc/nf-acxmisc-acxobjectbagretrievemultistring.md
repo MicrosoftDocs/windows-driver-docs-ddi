@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagRetrieveMultiString
 ms.date: 02/22/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveMultiString function retrieves a  MultiString value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveMultiString function retrieves a MultiString value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveMultiString function retrieves a  MultiString value from an existing, intialized AcxObjectBag that contains values.
+The AcxObjectBagRetrieveMultiString function retrieves a MultiString value from an existing, intialized AcxObjectBag that contains values.
 
 ## -parameters
 

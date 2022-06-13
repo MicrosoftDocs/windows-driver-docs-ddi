@@ -84,10 +84,12 @@ This example shows the use of AcxObjectBagRetrieveBlob.
     // Retrieve the vendor blob from the CircuitProperties object bag. 
     //
     RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveBlob(CircuitProperties, &VendorPropertiesBlock, NULL, &vendorPropertiesBlock));
+
+    vendorPropertiesBuffer = WdfMemoryGetBuffer(vendorPropertiesBlock, &vendorPropertiesSize);
 ```
 
 ## -see-also
 
 - [acxmisc.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

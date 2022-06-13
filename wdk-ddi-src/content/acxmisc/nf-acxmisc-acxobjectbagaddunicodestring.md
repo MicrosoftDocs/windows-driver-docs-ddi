@@ -86,4 +86,4 @@ This example shows the use of AcxObjectBagAddUnicodeString.
 
 - [acxmisc.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

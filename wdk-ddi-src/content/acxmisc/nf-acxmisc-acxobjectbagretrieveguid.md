@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagRetrieveGuid
 ms.date: 01/28/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveGuid function retrieves a GUID value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveGuid function retrieves a GUID value from an existing, intialized AcxObjectBag that contains values.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -69,6 +69,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 This example shows the use of AcxObjectBagRetrieveGuid.
 
 ```cpp
+        GUID                    uniqueId = { 0 };
         UNICODE_STRING          uniqueIdStr = { 0 };
         UNICODE_STRING          pnpDeviceId = { 0 };
         ACX_OBJECTBAG_CONFIG    objBagCfg;
@@ -94,4 +95,4 @@ This example shows the use of AcxObjectBagRetrieveGuid.
 
 - [acxmisc.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

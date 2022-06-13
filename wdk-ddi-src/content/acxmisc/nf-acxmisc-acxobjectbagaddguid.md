@@ -110,4 +110,4 @@ The code below shows the use of AcxObjectBagAddGuid.
 
 - [acxmisc.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

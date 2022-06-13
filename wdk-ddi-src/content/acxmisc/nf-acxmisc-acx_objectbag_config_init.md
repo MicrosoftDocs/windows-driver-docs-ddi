@@ -85,4 +85,4 @@ This example shows the use of ACX_OBJECTBAG_CONFIG_INIT.
 
 - [acxmisc.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

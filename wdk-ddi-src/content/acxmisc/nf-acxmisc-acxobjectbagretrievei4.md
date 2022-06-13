@@ -56,7 +56,7 @@ The name of the value that will be used to access the value.
 
 ### -param Value
 
-The unicode string Value to be retrieved from the ObjectBag.
+The Value to be retrieved from the ObjectBag.
 
 ## -returns
 
@@ -104,4 +104,4 @@ This example shows the use of AcxObjectBagRetrieveI4.
 
 - [acxmisc.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

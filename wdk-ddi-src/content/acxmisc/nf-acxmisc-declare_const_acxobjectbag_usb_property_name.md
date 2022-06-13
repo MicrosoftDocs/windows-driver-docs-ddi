@@ -4,7 +4,7 @@ tech.root: audio
 title: DECLARE_CONST_ACXOBJECTBAG_USB_PROPERTY_NAME
 ms.date: 01/28/2022
 targetos: Windows
-description: The DECLARE_CONST_ACXOBJECTBAG_USB_PROPERTY_NAME function declares a constant that can be used to work with a AcxObjectBag. 
+description: The DECLARE_CONST_ACXOBJECTBAG_USB_PROPERTY_NAME function declares an ACX object bag property name. USB defined properties start with "usb_".
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The DECLARE_CONST_ACXOBJECTBAG_USB_PROPERTY_NAME function declares a USB property constant that can be used to work with a AcxObjectBag. 
+The DECLARE_CONST_ACXOBJECTBAG_USB_PROPERTY_NAME function declares an ACX object bag property name. USB defined properties start with "usb_".
 
 ## -parameters
 
@@ -57,12 +57,11 @@ The name of the declared constant.
 This example shows the definition of DECLARE_CONST_ACXOBJECTBAG_USB_PROPERTY_NAME.
 
 ```cpp
-#define DECLARE_CONST_ACXOBJECTBAG_USB_PROPERTY_NAME(name) \
-    DECLARE_CONST_UNICODE_STRING(name, L"usb_" #name)
+	DECLARE_CONST_ACXOBJECTBAG_USB_PROPERTY_NAME(TestUsbName);
 ```
 
 ## -see-also
 
 - [acxmisc.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
