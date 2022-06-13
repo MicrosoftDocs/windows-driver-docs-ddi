@@ -1,5 +1,5 @@
 ---
-UID: NS:storport.__unnamed_struct_20
+UID: NS:storport.__unnamed_struct_24
 title: BLOCK_DEVICE_RANGE_DESCRIPTOR (storport.h)
 description: The BLOCK_DEVICE_RANGE_DESCRIPTOR structure describes a range of logical blocks associated with various fragments of a file for an offload copy operation.
 old-location: storage\block_device_range_descriptor.htm
