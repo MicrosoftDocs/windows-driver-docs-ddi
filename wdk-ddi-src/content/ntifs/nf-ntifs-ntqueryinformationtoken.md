@@ -4,7 +4,7 @@ title: NtQueryInformationToken function (ntifs.h)
 description: The NtQueryInformationToken routine retrieves a specified type of information about an access token.
 old-location: kernel\zwqueryinformationtoken.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 06/14/2022
 keywords: ["NtQueryInformationToken function"]
 ms.keywords: NtQueryInformationToken, ZwQueryInformationToken, ZwQueryInformationToken routine [Kernel-Mode Driver Architecture], k111_2f945a17-f3b4-423a-90fa-6f02d240d42d.xml, kernel.zwqueryinformationtoken, ntifs/NtQueryInformationToken, ntifs/ZwQueryInformationToken
 req.header: ntifs.h
@@ -202,7 +202,7 @@ The value of <i>TokenInformationClass</i> is <b>TokenDefaultDacl</b>, and there 
 </li>
 </ul>
 
-ReturnLength mustn't be <b>NULL</b> (see remarks for further information)!
+**ReturnLength** cannot be <b>NULL</b>. See Remarks for further information.
 
 ## -returns
 
@@ -242,7 +242,7 @@ The size of the requested token information structure is greater than <i>TokenIn
 </dl>
 </td>
 <td width="60%">
-<i>ReturnLength</i> was NULL or the parameter was not writable in order to receive the actual length of the information pointed by <i>TokenInformation</i>.
+<i>ReturnLength</i> was NULL or was not writable in order to receive the actual length of the information pointed by <i>TokenInformation</i>.
 
 </td>
 </tr>
@@ -285,9 +285,9 @@ The size of the requested token information structure is greater than <i>TokenIn
 
 The <b>NtQueryInformationToken</b> routine can be used by a file system or file system filter driver to determine the <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a> of the caller that initiated the request during <a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> processing. If <b>TokenUser</b> is specified for the <i>TokenInformationClass</i> parameter passed to <b>NtQueryInformationToken</b>, a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_user">TOKEN_USER</a> structure is returned in the buffer pointed to by the <i>TokenInformation</i> parameter. This returned buffer contains an <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_and_attributes">SID_AND_ATTRIBUTES</a> structure with the user <b>SID</b>.
 
-Due to the nature of token's properties such as token user, token primary group, privileges, et al, where their contents can vary on each token, <i>ReturnLength</i> is not optional. This is due to the fact that
-SID is a variable-length structure whereas a specific privilege can exist in a token but not in another (the privilege count can be different for each token). It's the caller's responsibility to query the necessary
-required length size in order to allocate memory to accommodate the requested token information before doing a "real" query. With that being said, it's also the caller's responsibility to provide a valid variable that is writable and must not be NULL! On a NULL case scenario, the function raises an access violation exception.
+Due to the nature of token's properties (such as token user, token primary group, privileges, etc, where their contents can vary on each token), **ReturnLength** is not optional; that is, it cannot be NULL. This is because
+SID is a variable-length structure whereas a specific privilege can exist in a token but not in another (the privilege count can be different for each token). It's the caller's responsibility to first query the necessary
+required length size in order to allocate memory to accommodate the requested token information before doing the actual query. That said, it is also the caller's responsibility to provide a valid **ReturnLength** variable that is writable and not NULL. On a NULL case scenario, the function raises an access violation exception.
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK. 
 
