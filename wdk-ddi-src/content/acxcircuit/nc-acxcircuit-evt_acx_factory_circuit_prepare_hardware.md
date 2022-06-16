@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE
 ms.date: 08/24/2021
 targetos: Windows
-description: The EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit factory is in the prepare hardware phase. 
+description: The EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to add functionality when a circuit factory is in the prepare hardware phase. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to allow it to add additional functionality when a circuit factory is in the prepare hardware phase. 
+The EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to add functionality when a circuit factory is in the prepare hardware phase. 
 
 ## -parameters
 
@@ -68,6 +68,30 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+To register an EvtAcxFactoryCircuitPrepareHardware callback function, a driver must call the [AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks method](nf-acxcircuit-acxfactorycircuitinitsetacxcircuitpnppowercallbacks.md).
+
+If the driver has registered an EvtAcxFactoryCircuitPrepareHardware callback function for an ACXFACTORYCIRCUIT, the ACX framework calls the function after WDF framework calls the driver's EvtDevicePrepareHardware callback function.
+
+The EvtAcxFactoryCircuitPrepareHardware callback function accesses the device's raw and translated hardware resources by using the ResourcesRaw and ResourcesTranslated handles that it receives. The callback function can call [WdfCmResourceListGetCount](/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfcmresourcelistgetcount) and [WdfCmResourceListGetDescriptor](/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfcmresourcelistgetdescriptor) to traverse the resource lists. This callback function cannot modify the resource lists.
+
+For more information about resource lists and the order in which the resources appear, see  [Raw and Translated Resources](/windows-hardware/drivers/wdf/raw-and-translated-resources).
+
+Typically, your driver's EvtAcxFactoryCircuitPrepareHardware callback function does the following, if necessary:
+
+- Maps physical memory addresses to virtual addresses of the ACXFACTORYCIRCUIT so the driver can access memory that is assigned to the device.
+- Optionally, your driver's EvtAcxFactoryCircuitPrepareHardware callback function might queue a work item to complete any other time-intensive configuration tasks. Using a work item for such operations can help ensure that your device's start up time does not increase the system boot time. For more information, see Using Framework Work Items.
+- Typically, all other hardware initialization operations, including loading firmware, should take place each time that the device enters its working (D0) state and should therefore take place in the driver's EvtDeviceD0Entry callback function.
+
+The ResourcesRaw and ResourcesTranslated handles that the EvtAcxCircuitPrepareHardware/EvtDevicePrepareHardware callback function receives remain valid until the driver's EvtDeviceReleaseHardware callback function returns.
+
+If the driver fails the EvtAcxFactoryCircuitPrepareHardware callback, the ACXFACTORYCIRCUIT object is placed in the delete-pending state.
+
+For more information about hardware resources, see [Introduction to Hardware Resources](/windows-hardware/drivers/wdf/introduction-to-hardware-resources).
+
+For more information about when the ACX and WDF framework call these callback functions, see [PnP and Power Management Scenarios](/windows-hardware/drivers/wdf/pnp-and-power-management-scenarios).
+
+For more information about drivers that provide this callback function, see [Supporting PnP and Power Management in Function Driver](/windows-hardware/drivers/wdf/supporting-pnp-and-power-management-in-function-drivers).
+
 ### Example
 
 Sample pending.
@@ -82,4 +106,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
