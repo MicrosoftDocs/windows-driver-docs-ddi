@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE
-ms.date: 08/24/2021
+ms.date: 06/16/2022
 targetos: Windows
 description: The EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to add functionality when a circuit factory is in the prepare hardware phase. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to add functionality when a circuit factory is in the prepare hardware phase. 
+The **EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE** callback is used by the driver to add functionality when a circuit factory is in the prepare hardware phase. 
 
 ## -parameters
 
@@ -79,7 +79,7 @@ For more information about resource lists and the order in which the resources a
 Typically, your driver's EvtAcxFactoryCircuitPrepareHardware callback function does the following, if necessary:
 
 - Maps physical memory addresses to virtual addresses of the ACXFACTORYCIRCUIT so the driver can access memory that is assigned to the device.
-- Optionally, your driver's EvtAcxFactoryCircuitPrepareHardware callback function might queue a work item to complete any other time-intensive configuration tasks. Using a work item for such operations can help ensure that your device's start up time does not increase the system boot time. For more information, see Using Framework Work Items.
+- Optionally, your driver's EvtAcxFactoryCircuitPrepareHardware callback function might queue a work item to complete any other time-intensive configuration tasks. Using a work item for such operations can help ensure that your device's start up time does not increase the system boot time. For more information, see [Using Framework Work Items](/windows-hardware/drivers/wdf/using-framework-work-items).
 - Typically, all other hardware initialization operations, including loading firmware, should take place each time that the device enters its working (D0) state and should therefore take place in the driver's EvtDeviceD0Entry callback function.
 
 The ResourcesRaw and ResourcesTranslated handles that the EvtAcxCircuitPrepareHardware/EvtDevicePrepareHardware callback function receives remain valid until the driver's EvtDeviceReleaseHardware callback function returns.
@@ -107,3 +107,5 @@ Example usage is shown below.
 - [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

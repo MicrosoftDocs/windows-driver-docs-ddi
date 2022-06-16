@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitCreate
 tech.root: audio
 title: AcxCircuitCreate
-ms.date: 06/09/2022
+ms.date: 06/16/2022
 targetos: Windows
 description: The AcxCircuitCreate function is used to create an ACXCIRCUIT.
 prerelease: true
@@ -70,6 +70,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ## -remarks
 
 An ACXCIRCUIT represents a full or partial (multi-circuit) audio path to a user perceived audio device (speakers, mic, etc.). 
+
 An ACXCIRCUIT has at least one input pin (ACXPIN) and one output pin (ACXPIN), and it may aggregate one or more ACXELEMENTS objects. By default, ACXELEMENTs are ‘connected’ in the same order of assembly. 
 
 ### Example
@@ -110,4 +111,6 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO
+READY2GO 
+
+EDITCOMPLETE

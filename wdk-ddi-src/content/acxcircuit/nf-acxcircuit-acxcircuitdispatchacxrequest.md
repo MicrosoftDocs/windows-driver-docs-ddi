@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitDispatchAcxRequest
 tech.root: audio
 title: AcxCircuitDispatchAcxRequest
-ms.date: 08/16/2021
+ms.date: 06/16/2022
 targetos: Windows
 description: The AcxCircuitDispatchAcxRequest dispatches an ACX WDFREQUEST object to the ACX framework which will manage the request.
 prerelease: true
@@ -76,3 +76,5 @@ Example usage is shown below.
 - [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

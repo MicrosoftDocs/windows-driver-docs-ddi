@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback is invoked by ACX when the driver must create an ACXCIRCUIT object with the specified configuration.
+The **EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT** callback is invoked by ACX when the driver must create an ACXCIRCUIT object with the specified configuration.
 
 ## -parameters
 
