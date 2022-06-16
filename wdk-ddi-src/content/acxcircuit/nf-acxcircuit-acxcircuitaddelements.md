@@ -48,11 +48,11 @@ The **AcxCircuitAddElements** function adds elements to an ACXCIRCUIT.
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Elements
 
-One or more ACXELEMENT circuit objects that will be added to the circuit.  
+One or more ACXELEMENT objects that will be added to the circuit.  
 
 ### -param ElementsCount
 
