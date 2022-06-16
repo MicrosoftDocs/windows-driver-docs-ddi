@@ -70,10 +70,6 @@ To get a pointer to an <a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getulong64">GetUlong64</a>
-
-
-
 <a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">IDebugFailureAnalysis2</a>
 
 
