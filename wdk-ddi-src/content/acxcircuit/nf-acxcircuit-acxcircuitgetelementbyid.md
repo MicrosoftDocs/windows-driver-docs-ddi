@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitGetElementById
 ms.date: 04/27/2022
 targetos: Windows
-description: When provided a valid ElementID number, the AcxCircuitGetElementById function returns a reference to an existing ACXELEMENT object.
+description: When provided a valid ElementID number, the AcxCircuitGetElementById function returns the corresponding ACXELEMENT object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-When provided a valid ElementID number, the **AcxCircuitGetElementById** function returns a reference to an existing ACXELEMENT object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+When provided a valid ElementID number, the **AcxCircuitGetElementById** function returns the corresponding ACXELEMENT object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object.
+An existing ACXCIRCUIT object.
 
 ### -param ElementId
 
@@ -75,4 +75,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
