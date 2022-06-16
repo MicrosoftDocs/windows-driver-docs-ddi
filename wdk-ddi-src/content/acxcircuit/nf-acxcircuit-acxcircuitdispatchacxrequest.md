@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitDispatchAcxRequest
 ms.date: 08/16/2021
 targetos: Windows
-description: The AcxCircuitDispatchAcxRequest dispatches a standard WDFREQUEST object to the WDF framework which will manage the request.
+description: The AcxCircuitDispatchAcxRequest dispatches an ACX WDFREQUEST object to the ACX framework which will manage the request.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitDispatchAcxRequest** dispatches a standard WDFREQUEST object to the WDF framework which will manage the request. For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).
+The **AcxCircuitDispatchAcxRequest** dispatches an ACX WDFREQUEST object to the ACX framework which will manage the request. For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).
 
 ## -parameters
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object. For more information, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT object. For more information, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Request
 
@@ -75,4 +75,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
