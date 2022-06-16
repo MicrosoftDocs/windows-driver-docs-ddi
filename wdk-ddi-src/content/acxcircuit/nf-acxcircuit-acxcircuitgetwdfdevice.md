@@ -48,7 +48,7 @@ Given an existing ACX Circuit object, the **AcxCircuitGetWdfDevice** function re
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object.  For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT object.  For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -61,8 +61,8 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 Example usage is shown below.
 
 ```cpp
-    ACXCIRCUIT                      circuit = (ACXCIRCUIT)DriverContext;
-    WDFDEVICE                       device = nullptr;
+    ACXCIRCUIT  circuit = (ACXCIRCUIT)DriverContext;
+    WDFDEVICE   device = nullptr;
 
     device = AcxCircuitGetWdfDevice(circuit);
 ```
@@ -71,4 +71,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
