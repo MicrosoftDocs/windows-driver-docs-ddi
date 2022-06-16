@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN
 ms.date: 01/31/2022
 targetos: Windows
-description: The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to add additional functionality when a factory circuit is powered down. 
+description: The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to add functionality in the power down path of an ACXFACTORYCIRCUIT object. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to add additional functionality when a factory circuit is powered down.
+The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to add functionality in the power down path of an ACXFACTORYCIRCUIT object.
 
 ## -parameters
 
@@ -64,8 +64,26 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-To register an EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback function, a driver must call TBD.
+To register an EvtAcxFactoryCircuitPrepareHardware callback function, a driver must call [AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks](nf-acxcircuit-acxfactorycircuitinitsetacxcircuitpnppowercallbacks.md).
 
+If the driver has registered an EvtCircuitPowerDown callback function, the ACX framework calls the function each time one of the driver's devices leaves its working (D0) state. A device leaves the D0 state when one of the following occurs:
+
+- The system and all of its devices are about to leave their working states and enter a low-power state.
+- The device is about to enter a low-power state because it is idle, if the device supports low-power idle.
+- The Plug and Play manager is attempting to redistribute the system's hardware resources.
+- A user has indicated, typically by means of an application's user interface, that he or she wants to remove the device.
+- The framework also calls the EvtFactoryCircuitPowerDown callback function after a device has been removed unexpectedly (surprise-removed).
+
+For more information about when the framework calls this callback function, see PnP and Power Management Scenarios.
+
+Unless the device has been surprise-removed, the ACX framework calls this callback function immediately after it disables the device's interrupts, but before the device's power is reduced from D0 and before WDF invokes the driver's EvtDeviceD0Exit callback on the associated devices. The TargetState parameter identifies the device power state that the device is about to enter. 
+
+The EvtFactoryCircuitPowerDown callback function must perform any operations that are necessary before the ACXFACTORYCIRCUT's hardware enters the specified low-power state, such as saving any information that the driver will need later to restore the ACXFACTORYCIRCUIT's hardware to its D0 power state.
+
+If TargetState is WdfPowerDeviceD3Final, you should assume that the system is being turned off, the associated device is about to be removed, or a resource rebalance is in progress. If your driver must save information, it should write it to disk or some other permanent storage medium.
+
+For more information about drivers that provide this callback function, see 
+[Supporting PnP and Power Management in Function Driver](/windows-hardware/drivers/wdf/supporting-pnp-and-power-management-in-function-drivers).
 
 ### Example
 
@@ -81,4 +99,4 @@ Sample pending
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
