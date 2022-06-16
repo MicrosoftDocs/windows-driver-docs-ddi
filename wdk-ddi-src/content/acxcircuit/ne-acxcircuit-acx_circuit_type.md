@@ -2,7 +2,7 @@
 UID: NE:acxcircuit._ACX_CIRCUIT_TYPE
 tech.root: audio
 title: ACX_CIRCUIT_TYPE
-ms.date: 07/20/2021
+ms.date: 06/16/2022
 targetos: Windows
 description: The ACX_CIRCUIT_TYPE enumeration defines the types of ACXCIRCUITs.
 prerelease: true
@@ -75,3 +75,5 @@ Example usage is shown below.
 - [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

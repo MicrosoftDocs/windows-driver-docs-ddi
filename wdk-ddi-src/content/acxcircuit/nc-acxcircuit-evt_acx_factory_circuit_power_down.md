@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN
-ms.date: 01/31/2022
+ms.date: 06/16/2022
 targetos: Windows
 description: The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to add functionality in the power down path of an ACXFACTORYCIRCUIT object. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to add functionality in the power down path of an ACXFACTORYCIRCUIT object.
+The **EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN** callback is used by the driver to add functionality in the power down path of an ACXFACTORYCIRCUIT object.
 
 ## -parameters
 
@@ -74,7 +74,7 @@ If the driver has registered an EvtCircuitPowerDown callback function, the ACX f
 - A user has indicated, typically by means of an application's user interface, that he or she wants to remove the device.
 - The framework also calls the EvtFactoryCircuitPowerDown callback function after a device has been removed unexpectedly (surprise-removed).
 
-For more information about when the framework calls this callback function, see PnP and Power Management Scenarios.
+For more information about when the framework calls this callback function, see [PnP and Power Management Scenarios](/windows-hardware/drivers/wdf/pnp-and-power-management-scenarios).
 
 Unless the device has been surprise-removed, the ACX framework calls this callback function immediately after it disables the device's interrupts, but before the device's power is reduced from D0 and before WDF invokes the driver's EvtDeviceD0Exit callback on the associated devices. The TargetState parameter identifies the device power state that the device is about to enter. 
 
@@ -100,3 +100,5 @@ Sample pending
 - [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

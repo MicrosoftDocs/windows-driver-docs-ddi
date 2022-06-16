@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to add functionality when an ACXCIRCUIT is in the release hardware phase. 
+The **EVT_ACX_CIRCUIT_RELEASE_HARDWARE** callback is used by the driver to add functionality when an ACXCIRCUIT is in the release hardware phase. 
 
 ## -parameters
 

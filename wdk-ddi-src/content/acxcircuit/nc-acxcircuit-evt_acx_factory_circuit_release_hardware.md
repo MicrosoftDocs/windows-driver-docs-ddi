@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE
-ms.date: 02/01/2022
+ms.date: 06/16/2022
 targetos: Windows
 description: The EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to add functionality when an ACXFACTORYCIRCUIT is in the release hardware phase. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to add functionality when an ACXFACTORYCIRCUIT is in the release hardware phase. 
+The **EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE** callback is used by the driver to add functionality when an ACXFACTORYCIRCUIT is in the release hardware phase. 
 
 ## -parameters
 
@@ -103,3 +103,5 @@ Sample pending.
 - [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

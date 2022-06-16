@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_POWER_UP
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_POWER_UP
-ms.date: 02/01/2022
+ms.date: 06/16/2022
 targetos: Windows
 description: The EVT_ACX_FACTORY_CIRCUIT_POWER_UP callback is used by the driver to add functionality in the power up path of an ACXFACTORYCIRCUIT object. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_FACTORY_CIRCUIT_POWER_UP callback is used by the driver to add functionality in the power up path of an ACXFACTORYCIRCUIT object. 
+The **EVT_ACX_FACTORY_CIRCUIT_POWER_UP** callback is used by the driver to add functionality in the power up path of an ACXFACTORYCIRCUIT object. 
 
 ## -parameters
 
@@ -61,7 +61,8 @@ A [WDF_POWER_DEVICE_STATE enumeration](/windows-hardware/drivers/ddi/wdfdevice/n
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
-If the driver fails this callback, tags the ACXFACTORYCIRCUIT as pending-delete. The ACX framework doesn't fail the underline ACX EvtDeviceD0Entry callback, this allows existing working ACXFACTORYCIRCUITs from this device to be used to build working audio paths. 
+
+If the driver fails this callback, it tags the ACXFACTORYCIRCUIT as pending-delete. The ACX framework doesn't fail the underline ACX EvtDeviceD0Entry callback, this allows existing working ACXFACTORYCIRCUITs from this device to be used to build working audio paths. 
 
 ## -remarks
 
@@ -96,3 +97,5 @@ Sample pending
 - [acxcircuit.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
