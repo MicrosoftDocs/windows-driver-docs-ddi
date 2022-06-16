@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitAddPhysicalConnections
 ms.date: 02/01/2022
 targetos: Windows
-description: The AcxCircuitAddPhysicalConnections function adds physical connections to an existing ACX circuit. 
+description: The AcxCircuitAddPhysicalConnections function adds physical connections to an ACXCIRCUIT. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitAddPhysicalConnections** function adds physical connections to an existing ACX circuit.
+The **AcxCircuitAddPhysicalConnections** function adds physical connections to an ACXCIRCUIT.
 
 ## -parameters
 
@@ -90,4 +90,4 @@ TBD - This code should be reviewed.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

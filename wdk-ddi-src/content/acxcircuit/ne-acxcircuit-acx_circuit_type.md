@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_CIRCUIT_TYPE
 ms.date: 07/20/2021
 targetos: Windows
-description: The ACX_FACTORY_CIRCUIT_TYPE enumeration defines the circuit type for ACX circuit factories.
+description: The ACX_CIRCUIT_TYPE enumeration defines the types of ACXCIRCUITs.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_FACTORY_CIRCUIT_TYPE** enumeration defines the circuit type for ACX circuit factories.
+The **ACX_CIRCUIT_TYPE** enumeration defines the types of ACXCIRCUITs.
 
 ## -enum-fields
 
@@ -74,4 +74,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
