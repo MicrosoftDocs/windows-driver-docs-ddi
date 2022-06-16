@@ -48,7 +48,7 @@ The **AcxCircuitAddPhysicalConnections** function adds physical connections to a
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object.  For more information, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT object.  For more information, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Connections
 
@@ -64,26 +64,14 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+At this time this DDI is reserved. See DDIs of ACXMANAGER, ACXCIRCUITTEMPLATE and ACXCOMPOSITEMPLATE on how to link multiple ACXCIRCUITs together. 
+
 ### Example
 
 Example usage is shown below.
 
-TBD - This code should be reviewed.
-
 ```cpp
-    //
-    // Add downstream physical connection.
-    //
-    RtlInitUnicodeString(&targetName, CODEC_NEXT_CIRCUIT_STR);
-    status = WdfStringCreate(&targetName, WDF_NO_OBJECT_ATTRIBUTES, &wdfTargetName);
 
-    ACX_PHYSICAL_CONNECTION_INIT(&phyConnection);
-    phyConnection.Flags = AcxPhysicalConnectionFromPinId;
-    phyConnection.FromPin.Id = 1;
-    phyConnection.TargetName = wdfTargetName;
-    phyConnection.TargetPinId = 0; // TODO: hardcoded for now.
-
-    status = AcxCircuitAddPhysicalConnections(circuit, &phyConnection, 1);
 ```
 
 ## -see-also

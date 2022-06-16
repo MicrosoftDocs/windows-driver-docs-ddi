@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitAddConnections
 ms.date: 02/01/2022
 targetos: Windows
-description: The AcxCircuitAddConnections function adds connections to an Acx circuit. 
+description: The AcxCircuitAddConnections function adds connections to an ACXCIRCUIT. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitAddConnections** function adds connections to an Acx circuit.
+The **AcxCircuitAddConnections** function adds connections to an ACXCIRCUIT.
 
 ## -parameters
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
   
 ### -param Connections
 
@@ -101,4 +101,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
