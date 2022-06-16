@@ -1,5 +1,5 @@
 ---
-UID: NF:extsfns.IDebugFailureAnalysis2.GetString
+UID: NF:extsfns.IDebugFailureAnalysis.GetString
 title: IDebugFailureAnalysis2::GetString method (extsfns.h)
 description: The GetString method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag.
 old-location: debugger\idebugfailureanalysis2_getstring.htm

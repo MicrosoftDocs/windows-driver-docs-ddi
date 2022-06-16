@@ -1,5 +1,5 @@
 ---
-UID: NF:extsfns.IDebugFailureAnalysis2.GetUlong
+UID: NF:extsfns.IDebugFailureAnalysis.GetUlong
 title: IDebugFailureAnalysis2::GetUlong (extsfns.h)
 description: The GetUlong method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag.
 old-location: debugger\idebugfailureanalysis2_getstring.htm
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>GetString</b> method searches a <a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object for the first <a href="/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a> that has a specified tag. If it finds an FA entry with the specified tag, it gets the ANSI string value from the entry's data block.
+The <b>GetUlong</b> method searches a <a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object for the first <a href="/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a> that has a specified tag. If it finds an FA entry with the specified tag, it gets the ANSI string value from the entry's data block.
 
 ## -parameters
 
