@@ -44,9 +44,6 @@ dev_langs:
 
 The **AcxCircuitInitDisableDefaultStreamBridgeHandling** function disables the ACX default stream bridge handling in a multi-circuit environment.
 
-TBD - Is it normally true that: The create stream handler will add Stream Bridge
-to support Object-bag forwarding?
-
 ## -parameters
 
 ### -param CircuitInit

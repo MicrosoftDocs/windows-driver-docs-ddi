@@ -53,6 +53,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 ## -remarks
 
 This function does not return a value.
+The driver is responsable for deleting the ACXCIRCUIT_INIT object using this DDI when the AcxCircuitCreate is not invoked or returns an error.
 
 ### Example
 
@@ -83,4 +84,4 @@ exit:
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
