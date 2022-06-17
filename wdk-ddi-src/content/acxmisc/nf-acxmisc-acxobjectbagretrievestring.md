@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveString
 tech.root: audio
 title: AcxObjectBagRetrieveString
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveString function retrieves a WDFSTRING object from an existing, intialized AcxObjectBag.
 prerelease: true
@@ -107,3 +107,5 @@ This example shows the use of AcxObjectBagRetrieveString.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

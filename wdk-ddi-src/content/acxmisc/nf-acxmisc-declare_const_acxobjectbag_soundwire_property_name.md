@@ -2,7 +2,7 @@
 UID: NF:acxmisc.DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPERTY_NAME
 tech.root: audio
 title: DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPERTY_NAME
-ms.date: 01/10/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPERTY_NAME function declares an ACX object bag property name. Soundwire defined properties start with "sdca_".
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPERTY_NAME function declares an ACX object bag property name. Soundwire defined properties start with "sdca_".
+The DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPERTY_NAME function declares an ACX object bag property name. Soundwire defined properties start with `sdca_`.
 
 ## -parameters
 
@@ -65,3 +65,5 @@ This example shows the definition of DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPER
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

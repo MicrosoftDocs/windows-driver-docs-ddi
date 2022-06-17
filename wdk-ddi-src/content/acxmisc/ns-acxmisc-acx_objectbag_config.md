@@ -2,7 +2,7 @@
 UID: NS:acxmisc._ACX_OBJECTBAG_CONFIG
 tech.root: audio
 title: ACX_OBJECTBAG_CONFIG
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The ACX_OBJECTBAG_CONFIG structure defines the configuration for an AcxObjectBag. 
 prerelease: true

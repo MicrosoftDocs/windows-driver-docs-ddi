@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveBlob
 tech.root: audio
 title: AcxObjectBagRetrieveBlob
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveBlob function retrieves a blob value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
@@ -93,3 +93,5 @@ This example shows the use of AcxObjectBagRetrieveBlob.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveUI4
 tech.root: audio
 title: AcxObjectBagRetrieveUI4
-ms.date: 02/23/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveUI4 function retrieves an unsigned int four byte UI4 (ULONG) value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
@@ -93,7 +93,7 @@ This example shows the use of AcxObjectBagRetrieveUI4.
     DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI4);
 
     ui4Value = 1;
-    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI4(objBag, &TestUI4, ui4Value)
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI4(objBag, &TestUI4, ui4Value));
 
     // Retrieve the value from the object bag
     ui4Value = 0;
@@ -105,3 +105,5 @@ This example shows the use of AcxObjectBagRetrieveUI4.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveI8
 tech.root: audio
 title: AcxObjectBagRetrieveI8
-ms.date: 02/22/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveI8 function retrieves a int eight byte I8 (LONG64) value from an existing, intialized AcxObjectBag that contains values.
 prerelease: true
@@ -93,7 +93,7 @@ This example shows the use of AcxObjectBagRetrieveI8.
     DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestI8);
 
     i8Value = 0x9876543210;
-    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI8(objBag, &TestI8, i8Value)
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI8(objBag, &TestI8, i8Value));
 
     // Retrieve the value from the object bag
     i8Value = 0;
@@ -106,3 +106,5 @@ This example shows the use of AcxObjectBagRetrieveI8.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

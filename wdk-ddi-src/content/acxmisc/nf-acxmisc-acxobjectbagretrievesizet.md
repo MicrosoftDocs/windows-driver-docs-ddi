@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveSizeT
 tech.root: audio
 title: AcxObjectBagRetrieveSizeT
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveSizeT function retrieves a SIZE_T value from an existing, intialized AcxObjectBag. 
 prerelease: true
@@ -92,3 +92,5 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

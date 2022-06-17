@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveUI2
 tech.root: audio
 title: AcxObjectBagRetrieveUI2
-ms.date: 02/23/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveUI2 function retrieves a unsigned int two byte UI2 (USHORT) from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
@@ -93,7 +93,7 @@ This example shows the use of AcxObjectBagRetrieveUI2.
     DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI2);
 
     ui2Value = 0x55;
-    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI2(objBag, &TestUI2, ui2Value)
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI2(objBag, &TestUI2, ui2Value));
 
     // Retrieve the value from the object bag
     ui2Value = 0;
@@ -105,3 +105,5 @@ This example shows the use of AcxObjectBagRetrieveUI2.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveUI1
 tech.root: audio
 title: AcxObjectBagRetrieveUI1
-ms.date: 02/23/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveUI1 function retrieves an unsigned int one byte (UCHAR) UI1 value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
@@ -93,7 +93,7 @@ This example shows the use of AcxObjectBagRetrieveUI1.
     DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI1);
 
     ui1Value = 1;
-    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI1(objBag, &TestUI1, ui1Value)
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI1(objBag, &TestUI1, ui1Value));
 
     // Retrieve the value from the object bag
     ui1Value = 0;
@@ -105,3 +105,5 @@ This example shows the use of AcxObjectBagRetrieveUI1.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

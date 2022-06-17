@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveI4
 tech.root: audio
 title: AcxObjectBagRetrieveI4
-ms.date: 02/22/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveI4 function retrieves a int four byte I4 (LONG) value from an existing, intialized AcxObjectBag that contains values.
 prerelease: true
@@ -93,7 +93,7 @@ This example shows the use of AcxObjectBagRetrieveI4.
     DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestI4);
 
     i4Value = 1;
-    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI4(objBag, &TestI4, i4Value)
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI4(objBag, &TestI4, i4Value));
 
     // Retrieve the value from the object bag
     i4Value = 0;
@@ -105,3 +105,5 @@ This example shows the use of AcxObjectBagRetrieveI4.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

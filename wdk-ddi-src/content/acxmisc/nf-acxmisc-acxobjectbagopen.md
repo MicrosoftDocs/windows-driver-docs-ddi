@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagOpen
 tech.root: audio
 title: AcxObjectBagOpen
-ms.date: 01/27/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The function AcxObjectBagOpen opens an existing, intialized AcxObjectBag.
 prerelease: true
@@ -96,3 +96,5 @@ This example shows the use of ACX_OBJECTBAG_CONFIG.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

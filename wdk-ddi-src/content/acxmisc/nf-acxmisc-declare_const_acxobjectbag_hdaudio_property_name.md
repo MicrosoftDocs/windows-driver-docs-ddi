@@ -2,7 +2,7 @@
 UID: NF:acxmisc.DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME
 tech.root: audio
 title: DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME function declares an ACX object bag property name. Hdaudio defined properties start with "hda_".
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME function declares an ACX object bag property name. Hdaudio defined properties start with "hda_".
+The DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME function declares an ACX object bag property name. Hdaudio defined properties start with `hda_`.
 
 ## -parameters
 
@@ -65,3 +65,5 @@ This example shows the definition of DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NE:acxmisc._ACX_OBJECTBAG_CONFIG_FLAGS
 tech.root: audio
 title: ACX_OBJECTBAG_CONFIG_FLAGS
-ms.date: 04/29/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The ACX_OBJECTBAG_CONFIG_FLAGS enumeration defines the configuration for an AcxObjectBag. 
 prerelease: true

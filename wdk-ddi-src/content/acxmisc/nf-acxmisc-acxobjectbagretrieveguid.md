@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveGuid
 tech.root: audio
 title: AcxObjectBagRetrieveGuid
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveGuid function retrieves a GUID value from an existing, intialized AcxObjectBag that contains values.
 prerelease: true
@@ -96,3 +96,5 @@ This example shows the use of AcxObjectBagRetrieveGuid.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

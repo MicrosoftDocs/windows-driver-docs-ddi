@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveI1
 tech.root: audio
 title: AcxObjectBagRetrieveI1
-ms.date: 02/23/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveI1 function retrieves a int one byte (CHAR) I1 value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
@@ -105,3 +105,5 @@ This example shows the use of AcxObjectBagRetrieveI1.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

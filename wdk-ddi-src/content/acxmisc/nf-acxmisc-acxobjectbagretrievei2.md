@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveI2
 tech.root: audio
 title: AcxObjectBagRetrieveI2
-ms.date: 02/23/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveI2 function retrieves a int two byte I2 (SHORT) value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
@@ -93,7 +93,7 @@ This example shows the use of AcxObjectBagRetrieveI2.
     DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestI2);
 
     i2Value = 1;
-    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI2(objBag, &TestI2, i2Value)
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI2(objBag, &TestI2, i2Value));
 
     // Retrieve the value from the object bag
     i2Value = 0;
@@ -105,3 +105,5 @@ This example shows the use of AcxObjectBagRetrieveI2.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

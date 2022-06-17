@@ -2,7 +2,7 @@
 UID: NF:acxmisc.DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME
 tech.root: audio
 title: DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME
-ms.date: 02/22/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME function declares an ACX object bag property name. Driver defined properties start with "drv_<ven>_".
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME function declares an ACX object bag property name. Driver defined properties start with "drv_<ven>_".
+The DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME function declares an ACX object bag property name. Driver defined properties start with `drv_<ven>_`.
 
 ## -parameters
 
@@ -69,3 +69,5 @@ This example shows the use of DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
