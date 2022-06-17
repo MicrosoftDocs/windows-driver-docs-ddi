@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitSetAcxCircuitPnpPowerCallbacks
 ms.date: 02/01/2022
 targetos: Windows
-description: The AcxCircuitInitSetAcxCircuitPnpPowerCallbacks function sets the composite callbacks for an ACX Circuit initialization process.
+description: The AcxCircuitInitSetAcxCircuitPnpPowerCallbacks function sets the driver's PNP callbacks for the ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitInitSetAcxCircuitPnpPowerCallbacks** function sets the composite callbacks for an ACX Circuit initialization process.
+The **AcxCircuitInitSetAcxCircuitPnpPowerCallbacks** function sets the driver's PNP callbacks for the ACXCIRCUIT.
 
 ## -parameters
 
@@ -74,4 +74,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
