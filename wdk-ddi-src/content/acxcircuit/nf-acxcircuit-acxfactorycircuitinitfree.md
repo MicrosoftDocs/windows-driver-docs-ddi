@@ -54,6 +54,9 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ## -remarks
 
+This function does not return a value.
+The driver is responsable for deleting the ACXFACTORYCIRCUIT_INIT object using this DDI if the AcxFactoryCircuitCreate is not invoked or returns an error.
+
 ### Example
 
 Example usage is shown below.
@@ -82,4 +85,4 @@ exit:
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

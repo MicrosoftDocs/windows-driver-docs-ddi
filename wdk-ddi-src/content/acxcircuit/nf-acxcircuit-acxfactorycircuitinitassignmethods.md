@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitInitAssignMethods
 ms.date: 08/18/2021
 targetos: Windows
-description: The AcxCircuitFactoryInitAssignMethods function assigns one or more Methods that will be used for the circuit initialization.
+description: The AcxCircuitFactoryInitAssignMethods function assigns one or more ACX methods for the ACXFACTORYCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxFactoryCircuitInitAssignMethods function assigns one or more Methods that will be used for the circuit initialization.
+The AcxFactoryCircuitInitAssignMethods function assigns one or more ACX methods for the ACXFACTORYCIRCUIT.
 
 ## -parameters
 
@@ -64,6 +64,8 @@ The number of methods that will be assigned to the circuit. This is a one based 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
+
+Drivers should only add driver owned methods.
 
 ### Example
 
@@ -123,4 +125,4 @@ static ACX_METHOD_ITEM s_FactoryCircuitMethods[] =
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

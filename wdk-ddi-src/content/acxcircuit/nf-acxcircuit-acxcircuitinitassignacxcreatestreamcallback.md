@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitAssignAcxCreateStreamCallback
 ms.date: 08/16/2021
 targetos: Windows
-description: The AcxCircuitInitAssignAcxCreateStreamCallback function is used to assign an Acx CreateStream callback.
+description: The AcxCircuitInitAssignAcxCreateStreamCallback function is used to assign an ACX create stream callback.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitInitAssignAcxCreateStreamCallback** function is used to assign an ACX CreateStream callback.
+The **AcxCircuitInitAssignAcxCreateStreamCallback** function is used to assign an ACX create stream callback.
 
 ## -parameters
 
@@ -100,4 +100,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

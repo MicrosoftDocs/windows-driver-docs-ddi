@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitResumeIoWithTag
 ms.date: 02/04/2022
 targetos: Windows
-description: The AcxCircuitResumeIoWithTag function is used to resume circuit IO after it has been stopped. 
+description: The AcxCircuitResumeIoWithTag function is used to resume circuit I/O after it has been stopped. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitResumeIoWithTag** function is used to resume circuit IO after it has been stopped. It is different from [AcxCircuitResumeIo](nf-acxcircuit-acxcircuitresumeio.md) in that it can contain additional Tag parameter that is used to display diagnostic information. 
+The **AcxCircuitResumeIoWithTag** function is used to resume circuit I/O after it has been stopped. It is different from [AcxCircuitResumeIo](nf-acxcircuit-acxcircuitresumeio.md) in that it can contain additional Tag parameter that is used to display diagnostic information. 
 
 ## -parameters
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Tag
 
@@ -71,4 +71,4 @@ Sample pending.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

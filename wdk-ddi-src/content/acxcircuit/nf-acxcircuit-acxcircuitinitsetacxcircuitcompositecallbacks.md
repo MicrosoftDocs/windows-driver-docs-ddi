@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitSetAcxCircuitCompositeCallbacks
 ms.date: 08/18/2021
 targetos: Windows
-description: The AcxCircuitInitSetAcxCircuitCompositeCallbacks function sets the composite callbacks for and ACX Circuit initialization process.
+description: The AcxCircuitInitSetAcxCircuitCompositeCallbacks function sets the driver's composite callbacks for the ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitInitSetAcxCircuitCompositeCallbacks** function sets the composite callbacks for and ACX Circuit initialization process.
+The **AcxCircuitInitSetAcxCircuitCompositeCallbacks** function sets the driver's composite callbacks for the ACXCIRCUIT.
 
 ## -parameters
 
@@ -80,4 +80,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

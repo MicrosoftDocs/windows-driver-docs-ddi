@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback
 ms.date: 08/27/2021
 targetos: Windows
-description:  The AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback function initializes defined AssignAcxRequest Preprocess callbacks for circuit factories.
+description:  The AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback function add a WDFREQUEST preprocess callback.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -61,21 +61,23 @@ The driver context defined by the ACXCONTEXT object.  For more information about
 
 ### -param RequestType
 
-An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_request_type.md)  that defines different request types, such as AcxRequestTypeAny  or AcxRequestTypeEvent. 
+An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_request_type.md)  that defines different request types, such as AcxRequestTypeAny, AcxRequestTypeProperty, etc. 
 
 ### -param Set
 
-Optional GUID to identify the associated (TBD - what type of, for example KSPROPSETID_*?) Set.
+Optional GUID to identify a specific item set ID.
 
 ### -param Id
 
-An ID value that TBD  
+An ID to indentify a specific item in the specified set ID.
 
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
+
+The driver can invoke this DDI multiple times to setup different preprocess callbacks. ACX invokes the first it finds that matches the specific incoming WDFREQUEST type.
 
 ### Example
 
@@ -91,4 +93,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

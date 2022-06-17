@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitSetAcxCircuitPnpPowerCallbacks
 ms.date: 02/01/2022
 targetos: Windows
-description: The AcxCircuitInitSetAcxCircuitPnpPowerCallbacks function sets the composite callbacks for an ACX Circuit initialization process.
+description: The AcxCircuitInitSetAcxCircuitPnpPowerCallbacks function sets the driver's PNP callbacks for the ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitInitSetAcxCircuitPnpPowerCallbacks** function sets the composite callbacks for an ACX Circuit initialization process.
+The **AcxCircuitInitSetAcxCircuitPnpPowerCallbacks** function sets the driver's PNP callbacks for the ACXCIRCUIT.
 
 ## -parameters
 
@@ -55,6 +55,8 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 An [ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS](ns-acxcircuit-acx_factory_circuit_pnppower_callbacks.md) PnP power callbacks structure that defines the callbacks.
 
 ## -remarks
+
+Before calling AcxCircuitInitSetAcxCircuitPnpPowerCallbacks, your driver should initialize its ACX_CIRCUIT_PNPPOWER_CALLBACKS structure by calling [ACX_CIRCUIT_PNPPOWER_CALLBACKS_INIT](nf-acxcircuit-acx_circuit_pnppower_callbacks_init.md). The ACX_CIRCUIT_PNPPOWER_CALLBACKS structure is used as input to the [AcxCircuitInitSetAcxCircuitPnpPowerCallbacks method](nf-acxcircuit-acxcircuitinitsetacxcircuitpnppowercallbacks.md).
 
 ### Example
 
@@ -74,4 +76,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

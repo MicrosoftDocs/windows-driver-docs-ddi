@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitAssignComponentUri
 ms.date: 04/27/2022
 targetos: Windows
-description: The AcxCircuitInitAssignComponentUri function assigns a ComponentUri that will be used for the circuit initialization.
+description: The AcxCircuitInitAssignComponentUri function assigns an URI string as identifier for the ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitInitAssignComponentUri** function assigns a ComponentUri that will be used for the circuit initialization.
+The **AcxCircuitInitAssignComponentUri** function assigns an URI string as ID for the ACXCIRCUIT.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param ComponentUri
 
-A unicode string describes the component that is used as a URI to identify it.
+A unicode string describing the URI that uniquely identifies the ACXCIRCUIT.
 
 ## -returns
 
@@ -60,13 +60,14 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+The driver must initialize the circuit's identity by setting the its URI and/or its ID (AcxCircuitInitSetComponentId).
+
 ### Example
 
 Example usage is shown below.
 
 ```cpp
-DECLARE_CONST_UNICODE_STRING(CODEC_CIRCUIT_CAPTURE_URI, 
-    L"acx:test:acxcodectestdriver:codec0:circuit0:microphone0");
+    DECLARE_CONST_UNICODE_STRING(CODEC_CIRCUIT_CAPTURE_URI, L"acx:test:acxcodectestdriver:codec0:circuit0:microphone0");
 
     // Get a CircuitInit structure.
     //
@@ -83,4 +84,4 @@ DECLARE_CONST_UNICODE_STRING(CODEC_CIRCUIT_CAPTURE_URI,
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

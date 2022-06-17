@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitSetComponentId
 ms.date: 02/01/2022
 targetos: Windows
-description: The AcxCircuitInitSetComponentId function is used to set the component ID during the ACX circuit initialization process.
+description: The AcxCircuitInitSetComponentId function sets the component ID for the ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitInitSetComponentId** function is used to set the component ID during the ACX circuit initialization process.
+The **AcxCircuitInitSetComponentId** function sets the component ID for the ACXCIRCUIT.
 
 ## -parameters
 
@@ -52,14 +52,11 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param ComponentId
 
-A defined GUID that serves as the component ID for the Circuit. For example:
-
-```cpp
-DEFINE_GUID(COMPONENT_GUID, 
-0xf55ba68e, 0x4384, 0x4030, 0x97, 0x19, 0xec, 0xa4, 0xbe, 0x27, 0x6c, 0xc8);
-```
+A pointer to a defined GUID that serves as the component ID for the circuit. 
 
 ## -remarks
+
+The driver must initialize the circuit's identity by setting the its URI (AcxCircuitInitAssignComponentUri) and/or its ID (this DDI).
 
 ### Example
 
@@ -81,4 +78,4 @@ DEFINE_GUID(COMPONENT_GUID,
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

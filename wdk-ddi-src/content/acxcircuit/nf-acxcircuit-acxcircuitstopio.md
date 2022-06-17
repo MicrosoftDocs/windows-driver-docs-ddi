@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitStopIo
 ms.date: 04/28/2022
 targetos: Windows
-description: The AcxCircuitStopIo function is used to signal to the operating system to temporarily stop circuit IO. 
+description: The AcxCircuitStopIo function is used to signal to the operating system to temporarily stop circuit I/O. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitStopIo** function is used to signal to the operating system to temporarily stop circuit IO. This allows the driver a short period of time to run time sensitive task, and resume IO after the execution of time sensitive code is complete.
+The **AcxCircuitStopIo** function is used to signal to the operating system to temporarily stop circuit I/O. This allows the driver a short period of time to run time sensitive task, and resume IO after the execution of time sensitive code is complete.
 
 ## -parameters
 
@@ -76,4 +76,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

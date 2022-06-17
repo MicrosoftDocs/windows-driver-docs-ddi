@@ -54,12 +54,14 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ## -remarks
 
+The driver is responsable for deleting the ACXCIRCUIT_INIT object using AcxCircuitInitFree if the AcxCircuitCreate is not invoked or returns an error.
+
 ### Example
 
 Example usage is shown below.
 
 ```cpp
-    PACXCIRCUIT_INIT                circuitInit = NULL;
+    PACXCIRCUIT_INIT    circuitInit = NULL;
 
     circuitInit = AcxCircuitInitAllocate(Device);
 ```
@@ -68,4 +70,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

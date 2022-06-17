@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitInitSetOperationCallbacks
 ms.date: 08/20/2021
 targetos: Windows
-description: The AcxFactoryCircuitInitSetOperationCallbacks sets the OperationCallbacks for ACX Circuit Factory initialization operations.
+description: The AcxFactoryCircuitInitSetOperationCallbacks sets the driver factory operation callbacks for the ACXFACTORYCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxFactoryCircuitInitSetOperationCallbacks** sets the OperationCallbacks for ACX Circuit Factory initialization operations.
+The **AcxFactoryCircuitInitSetOperationCallbacks** sets the driver factory operation callbacks for the ACXFACTORYCIRCUIT.
 
 ## -parameters
 
@@ -57,6 +57,8 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 An [ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS structure](ns-acxcircuit-acx_factory_circuit_operation_callbacks.md) that identifies the driver callbacks for ACX factory operations.
 
 ## -remarks
+
+ACX invokes these callbacks to ask the factory to create or remove circuits.
 
 ### Example
 
@@ -90,4 +92,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

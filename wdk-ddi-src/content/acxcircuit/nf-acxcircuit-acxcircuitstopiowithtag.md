@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitStopIoWithTag
 ms.date: 02/04/2022
 targetos: Windows
-description: The AcxCircuitStopIoWithTag function is used used to signal to the operating system to temporarily stop circuit IO. 
+description: The AcxCircuitStopIoWithTag function is used to signal to the operating system to temporarily stop circuit I/O. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitStopIoWithTag** function is used to signal to the operating system to temporarily stop circuit IO. This allows the driver a short period of time to run time sensitive tasks, and then resume IO after the execution of time sensitive code is complete.
+The **AcxCircuitStopIoWithTag** function is used to signal to the operating system to temporarily stop circuit I/O. This allows the driver a short period of time to run time sensitive tasks, and then resume IO after the execution of time sensitive code is complete.
 
 ## -parameters
 
@@ -76,4 +76,4 @@ Sample pending.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

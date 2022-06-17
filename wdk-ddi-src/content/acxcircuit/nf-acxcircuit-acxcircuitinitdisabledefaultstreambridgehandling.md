@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitDisableDefaultStreamBridgeHandling
 ms.date: 08/17/2021
 targetos: Windows
-description: The AcxCircuitInitDisableDefaultStreamBridgeHandling function disables the default stream bridge handling when new circuits are initialized. 
+description: The AcxCircuitInitDisableDefaultStreamBridgeHandling function disables the ACX default stream bridge handling in a multi-circuit environment. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,10 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitInitDisableDefaultStreamBridgeHandling** function disables the default stream bridge handling when new circuits are initialized.
-
-TBD - Is it normally true that: The create stream handler will add Stream Bridge
-to support Object-bag forwarding?
+The **AcxCircuitInitDisableDefaultStreamBridgeHandling** function disables the ACX default stream bridge handling in a multi-circuit environment.
 
 ## -parameters
 
@@ -54,6 +51,9 @@ to support Object-bag forwarding?
 The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUIT_INIT is an opaque object used for circuit initialization. Use [AcxCircuitInitAllocate](nf-acxcircuit-acxcircuitinitallocate.md) to initialize the ACXCIRCUIT_INIT structure.
 
 ## -remarks
+
+When the driver invokes this method and the stream doesn't have an associated ACXSTREAMBRIDGE, ACX will not attempt to create a default stream bridge to forward the stream and its states to the next circuit.
+This function doesn't have any effect when called on a single-circuit endpoint or on the last circuit of a multi-circuit endpoint.
 
 ### Example
 
@@ -78,4 +78,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitAssignName
 ms.date: 08/17/2021
 targetos: Windows
-description: The AcxCircuitInitAssignName function assigns a friendly Name that will be used for the circuit initialization.
+description: The AcxCircuitInitAssignName function assigns a friendly name for the ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitAssignName function assigns a friendly Name that will be used for the circuit initialization.
+The AcxCircuitInitAssignName function assigns a friendly name for the ACXCIRCUIT.
 
 ## -parameters
 
@@ -52,13 +52,15 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param CircuitName
 
-A unicode string describes the circuit, such as *Microphone0*  that is used as a friendly name for the circuit.
+A unicode string with the circuit name, such as *Microphone0*.
 
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
+
+The CircuitName string must match the INF string that identifies the audio interface.
 
 ### Example
 
@@ -80,4 +82,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

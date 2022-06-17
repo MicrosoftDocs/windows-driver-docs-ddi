@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitAssignMethods
 ms.date: 02/01/2022
 targetos: Windows
-description: The AcxCircuitInitAssignMethods function assigns one or more Methods that will be used for the circuit initialization.
+description: The AcxCircuitInitAssignMethods function assigns one or more ACX methods for the ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitInitAssignMethods** function assigns one or more Methods that will be used for the circuit initialization.
+The **AcxCircuitInitAssignMethods** function assigns one or more ACX methods for the ACXCIRCUIT.
 
 ## -parameters
 
@@ -63,6 +63,8 @@ The number of methods that will be added to the circuit. This is a one based cou
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
+
+Drivers should only add driver owned methods.
 
 ### Example
 
@@ -97,4 +99,4 @@ static ULONG CircuitMethodsCount = SIZEOF_ARRAY(CircuitMethods);
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitFree
 ms.date: 04/27/2022
 targetos: Windows
-description: The AcxCircuitInitFree function deletes the circuit initialization object that was associated with a circuit.
+description: The AcxCircuitInitFree function deletes the circuit initialization object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitInitFree** function deletes the circuit initialization object that was associated with a circuit.
+The **AcxCircuitInitFree** function deletes the circuit initialization object.
 
 ## -parameters
 
@@ -53,6 +53,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 ## -remarks
 
 This function does not return a value.
+The driver is responsable for deleting the ACXCIRCUIT_INIT object using this DDI if the AcxCircuitCreate is not invoked or returns an error.
 
 ### Example
 
@@ -83,4 +84,4 @@ exit:
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitResumeIoActual
 ms.date: 02/04/2022
 targetos: Windows
-description: The AcxCircuitResumeIoActual function is used to resume circuit IO after it has been stopped.
+description: The AcxCircuitResumeIoActual function is used to resume circuit I/O after it has been stopped.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitResumeIoActual** function is used to resume circuit IO after it has been stopped.
+The **AcxCircuitResumeIoActual** function is used to resume circuit I/O after it has been stopped.
 
 ## -parameters
 
@@ -70,4 +70,4 @@ It is not recommended to use this version of the stop IO call, but rather [AcxCi
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
