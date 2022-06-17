@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitAssignComponentUri
 ms.date: 04/27/2022
 targetos: Windows
-description: The AcxCircuitInitAssignComponentUri function assigns an URI string for the ACXCIRCUIT.
+description: The AcxCircuitInitAssignComponentUri function assigns an URI string as ID for the ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitInitAssignComponentUri** function assigns an URI string for the ACXCIRCUIT.
+The **AcxCircuitInitAssignComponentUri** function assigns an URI string as ID for the ACXCIRCUIT.
 
 ## -parameters
 
@@ -59,6 +59,8 @@ A unicode string describing the URI that uniquely identifies the ACXCIRCUIT.
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
+
+The driver must initialize the circuit's identity by setting the its URI and/or its ID (AcxCircuitInitSetComponentId).
 
 ### Example
 
