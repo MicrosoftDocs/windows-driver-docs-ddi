@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitResumeIo
 ms.date: 02/04/2022
 targetos: Windows
-description: The AcxCircuitResumeIo function is used to resume circuit IO after it has been temporarily stopped.
+description: The AcxCircuitResumeIo function is used to resume circuit I/O after it has been temporarily stopped.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitResumeIo** function is used to resume circuit IO after it has been temporarily stopped.
+The **AcxCircuitResumeIo** function is used to resume circuit I/O after it has been temporarily stopped.
 
 ## -parameters
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -remarks
 
@@ -95,4 +95,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
