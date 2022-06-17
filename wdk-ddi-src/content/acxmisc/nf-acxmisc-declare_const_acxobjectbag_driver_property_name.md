@@ -4,7 +4,7 @@ tech.root: audio
 title: DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME
 ms.date: 06/17/2022
 targetos: Windows
-description: The DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME function declares an ACX object bag property name. Driver defined properties start with "drv_<ven>_".
+description: The DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME function declares an ACX object bag property name. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
