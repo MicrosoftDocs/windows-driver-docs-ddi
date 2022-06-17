@@ -4,8 +4,7 @@ tech.root: audio
 title: ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT
 ms.date: 08/13/2021
 targetos: Windows
-description: The ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT function initializes a 
-ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS config structure. 
+description: The ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT function initializes a ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS config structure. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -50,7 +49,7 @@ The **ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT** function initializes a
 
 ### -param Config
 
-An initialized [ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS](ns-acxcircuit-acx_factory_circuit_operation_callbacks.md) config structure that is used to store circuit operation callbacks information.
+An initialized [ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS](ns-acxcircuit-acx_factory_circuit_operation_callbacks.md) config structure that is used to store circuit factory operation callbacks information.
 
 ## -remarks
 
@@ -87,4 +86,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
