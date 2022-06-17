@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitAssignAcxRequestPreprocessCallback
 ms.date: 08/27/2021
 targetos: Windows
-description: The AcxCircuitInitAssignAcxRequestPreprocessCallback function initializes defined AssignAcxRequest Preprocess callbacks.
+description: The AcxCircuitInitAssignAcxRequestPreprocessCallback function add a WDFREQUEST preprocess callback.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitInitAssignAcxRequestPreprocessCallback** function initializes defined AssignAcxRequest Preprocess callbacks.
+The **AcxCircuitInitAssignAcxRequestPreprocessCallback** function add a WDFREQUEST preprocess callback.
 
 ## -parameters
 
@@ -60,15 +60,15 @@ The driver context defined by the ACXCONTEXT object.  For more information about
 
 ### -param RequestType
 
-An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_request_type) that defines different request types, such as AcxRequestTypeAny or AcxRequestTypeEvent.
+An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_request_type) that defines different request types, such as AcxRequestTypeAny etc.
 
 ### -param Set
 
-Optional GUID to identify the associated (TBD - what type of, for example KSPROPSETID_*?) Set.
+Optional GUID to identify a specific item set ID.
 
 ### -param Id
 
-An ID value that TBD.
+An ID to indentify a specific item in the specified set ID.
 
 ## -returns
 
@@ -81,9 +81,9 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
-// Render callbacks.
+    // Render callbacks.
 
-EVT_ACX_OBJECT_PREPROCESS_REQUEST   CodecR_EvtCircuitRequestPreprocess;
+    EVT_ACX_OBJECT_PREPROCESS_REQUEST   CodecR_EvtCircuitRequestPreprocess;
 
 
     //
@@ -116,4 +116,4 @@ EVT_ACX_OBJECT_PREPROCESS_REQUEST   CodecR_EvtCircuitRequestPreprocess;
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
