@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitCreate
 ms.date: 02/01/2022
 targetos: Windows
-description: The AcxFactoryCircuitCreate function is used to create a circuit using an Acx Circuit Factory. This function is located in the acxcircuit header.
+description: The AcxFactoryCircuitCreate function is used to create an ACXFACTORYCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxFactoryCircuitCreate function is used to create a circuit using an Acx Circuit Factory.
+The AcxFactoryCircuitCreate function is used to create an ACXFACTORYCIRCUIT.
 
 ## -parameters
 
@@ -66,14 +66,13 @@ A pointer to a location that receives a handle to the new ACXFACTORYCIRCUIT Obje
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
-
 ## -remarks
 
-An AcxFactoryCircuits represents a partial audio path to a user perceived audio device (speakers, mic, etc.). 
-An AcxFactoryCircuits aggregates zero or ‘n’ AcxElements-like objects. By default, AcxElements are ‘connected’ in the same order of assembly. 
+The ACXFACTORYCIRCUIT is used by the ACX framework for 'on-demand' ACXCIRCUITs. ACX will ask the ACXFACTORYCIRCUIT to create a new circuit when an endpoint requires one.
 
-An AcxCircuit has a dedicated WDF queue. For more information about WDF queues, see [Framework Queue Objects](/windows-hardware/drivers/wdf/framework-queue-objects)
+The ACXFACTORYCIRCUIT is used in a multi-circuit endpoint. A circuit created by an ACXFACTORYCIRCUIT cannot be the 'core' circuit for the endpoint, i.e., the circuit that gives the endpoint identity.
 
+An ACXFACTORYCIRCUIT has a dedicated WDF queue. For more information about WDF queues, see [Framework Queue Objects](/windows-hardware/drivers/wdf/framework-queue-objects)
 
 ### Example
 
@@ -121,4 +120,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
