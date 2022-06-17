@@ -56,6 +56,8 @@ An [ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS](ns-acxcircuit-acx_factory_circuit_pn
 
 ## -remarks
 
+Before calling AcxCircuitInitSetAcxCircuitPnpPowerCallbacks, your driver should initialize its ACX_CIRCUIT_PNPPOWER_CALLBACKS structure by calling [ACX_CIRCUIT_PNPPOWER_CALLBACKS_INIT](nf-acxcircuit-acx_circuit_pnppower_callbacks_init.md). The ACX_CIRCUIT_PNPPOWER_CALLBACKS structure is used as input to the [AcxCircuitInitSetAcxCircuitPnpPowerCallbacks method](nf-acxcircuit-acxcircuitinitsetacxcircuitpnppowercallbacks.md).
+
 ### Example
 
 Example usage is shown below.
