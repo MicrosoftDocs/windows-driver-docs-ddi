@@ -54,6 +54,8 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ## -remarks
 
+The driver is responsable for deleting the ACXCIRCUIT_INIT object using AcxCircuitInitFree if the AcxCircuitCreate is not invoked or returns an error.
+
 ### Example
 
 Example usage is shown below.
