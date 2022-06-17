@@ -2,13 +2,12 @@
 UID: NS:gnssdriver.__unnamed_struct_16
 title: GNSS_FIXDATA_SATELLITE (gnssdriver.h)
 description: The GNSS_FIXDATA_SATELLITE structure in gnssdriver.h defines satellite-related information of a fix.
-old-location: gnss\gnss_fixdata_satellite.htm
 tech.root: gnss
-ms.date: 02/15/2018
+ms.date: 06/17/2022
 keywords: ["GNSS_FIXDATA_SATELLITE structure"]
 ms.keywords: "*PGNSS_FIXDATA_SATELLITE, GNSS_FIXDATA_SATELLITE, GNSS_FIXDATA_SATELLITE structure [Sensor Devices], PGNSS_FIXDATA_SATELLITE, PGNSS_FIXDATA_SATELLITE structure pointer [Sensor Devices], gnss.gnss_fixdata_satellite, gnssdriver/GNSS_FIXDATA_SATELLITE, gnssdriver/PGNSS_FIXDATA_SATELLITE"
 req.header: gnssdriver.h
-req.include-header: 
+req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,9 +42,6 @@ api_name:
  - GNSS_FIXDATA_SATELLITE
 ---
 
-# GNSS_FIXDATA_SATELLITE structure
-
-
 ## -description
 
 This structure defines satellite-related information of a fix.
@@ -67,8 +63,3 @@ Number of satellites in this structure. Not all satellites are actually used for
 ### -field SatelliteArray
 
 An array of satellites with each array element representing information about a specific satellite.
-
-### -field SatelliteArray[GNSS_MAXSATELLITE]
-
-An array of satellites with each array element representing information about a specific satellite.
-

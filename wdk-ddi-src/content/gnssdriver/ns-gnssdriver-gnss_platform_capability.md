@@ -1,14 +1,13 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_3
 title: GNSS_PLATFORM_CAPABILITY (gnssdriver.h)
-description: This structure is used to communicate the platform/HLOS capabilities to the underlying GNSS driver.
-old-location: gnss\gnss_platform_capability.htm
+description: The GNSS_PLATFORM_CAPABILITY structure is used to communicate the platform/HLOS capabilities to the underlying GNSS driver.
 tech.root: gnss
-ms.date: 02/15/2018
+ms.date: 06/17/2022
 keywords: ["GNSS_PLATFORM_CAPABILITY structure"]
 ms.keywords: "*PGNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY structure [Sensor Devices], PGNSS_PLATFORM_CAPABILITY, PGNSS_PLATFORM_CAPABILITY structure pointer [Sensor Devices], gnss.gnss_platform_capability, gnssdriver/GNSS_PLATFORM_CAPABILITY, gnssdriver/PGNSS_PLATFORM_CAPABILITY"
 req.header: gnssdriver.h
-req.include-header: 
+req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,12 +42,9 @@ api_name:
  - GNSS_PLATFORM_CAPABILITY
 ---
 
-# GNSS_PLATFORM_CAPABILITY structure
-
-
 ## -description
 
-This structure is used to communicate the platform/HLOS capabilities to the underlying GNSS driver.
+The **GNSS_PLATFORM_CAPABILITY** structure is used to communicate the platform/HLOS capabilities to the underlying GNSS driver.
 
 ## -struct-fields
 
@@ -70,21 +66,8 @@ Specifies a bitmask containing the different AGNSS formats (GNSS_AGNSSFORMAT_*) 
 
 ### -field Unused
 
- 
-
-
-
-
-### -field Reserved
-
-Reserved for future use.
-
-
-### -field Unused[512]
-
-Padding buffer.
+Padding buffer reserved for future use.
 
 ## -remarks
 
  This is a list of individual capability support of the GNSS adapter. The platform capability is represented in the same way as the device capabilities are represented.
-

@@ -1,14 +1,13 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_20
 title: GNSS_BREADCRUMBING_ALERT_DATA (gnssdriver.h)
-description: This structure contains alert information for when the breadcrumb buffer has reached a level where OS read operations should be performed.
-old-location: gnss\gnss_breadcrumbing_alert_data.htm
+description: The GNSS_BREADCRUMBING_ALERT_DATA structure contains alert information for when the breadcrumb buffer has reached a level where OS read operations should be performed.
 tech.root: gnss
-ms.date: 02/15/2018
+ms.date: 06/17/2022
 keywords: ["GNSS_BREADCRUMBING_ALERT_DATA structure"]
 ms.keywords: "*PGNSS_BREADCRUMBING_ALERT_DATA, GNSS_BREADCRUMBING_ALERT_DATA, GNSS_BREADCRUMBING_ALERT_DATA structure [Sensor Devices], PGNSS_BREADCRUMBING_ALERT_DATA, PGNSS_BREADCRUMBING_ALERT_DATA structure pointer [Sensor Devices], gnss.gnss_breadcrumbing_alert_data, gnssdriver/GNSS_BREADCRUMBING_ALERT_DATA, gnssdriver/PGNSS_BREADCRUMBING_ALERT_DATA"
 req.header: gnssdriver.h
-req.include-header: 
+req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,12 +42,9 @@ api_name:
  - GNSS_BREADCRUMBING_ALERT_DATA
 ---
 
-# GNSS_BREADCRUMBING_ALERT_DATA structure
-
-
 ## -description
 
-This structure contains alert information for when the breadcrumb buffer has reached a level where OS read operations should be performed.
+The **GNSS_BREADCRUMBING_ALERT_DATA** structure contains alert information for when the breadcrumb buffer has reached a level where OS read operations should be performed.
 
 ## -struct-fields
 
@@ -62,12 +58,4 @@ Version number.
 
 ### -field Unused
 
- 
-
-
-
-
-### -field Unused[512]
-
-Padding buffer.
-
+Padding buffer reserved for future use.

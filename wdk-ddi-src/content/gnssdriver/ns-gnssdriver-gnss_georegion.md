@@ -1,14 +1,13 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_24
 title: GNSS_GEOREGION (gnssdriver.h)
-description: This structure defines the geographical shape of a geofence.
-old-location: gnss\gnss_georegion.htm
+description: The GNSS_GEOREGION structure defines the geographical shape of a geofence.
 tech.root: gnss
-ms.date: 02/15/2018
+ms.date: 06/17/2022
 keywords: ["GNSS_GEOREGION structure"]
 ms.keywords: "*PGNSS_GEOREGION, GNSS_GEOREGION, GNSS_GEOREGION structure [Sensor Devices], PGNSS_GEOREGION, PGNSS_GEOREGION structure pointer [Sensor Devices], gnss.gnss_georegion, gnssdriver/GNSS_GEOREGION, gnssdriver/PGNSS_GEOREGION"
 req.header: gnssdriver.h
-req.include-header: 
+req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,12 +42,9 @@ api_name:
  - GNSS_GEOREGION
 ---
 
-# GNSS_GEOREGION structure
-
-
 ## -description
 
-This structure defines the geographical shape of  a geofence.
+The **GNSS_GEOREGION** structure defines the geographical shape of a geofence.
 
 ## -struct-fields
 
@@ -62,24 +58,16 @@ Version number.
 
 ### -field GeoRegionType
 
-<a href="/windows-hardware/drivers/ddi/gnssdriver/ne-gnssdriver-gnss_georegiontype">GNSS_GEOREGIONTYP</a>E enumeration that defines the georegion type of a geofence.
+[GNSS_GEOREGIONTYPE](./ne-gnssdriver-gnss_georegiontype.md) enumeration that defines the georegion type of a geofence.
 
 ### -field Circle
 
-<a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_georegion_circle">GNSS_GEOREGION_CIRCLE</a> structure that defines a circular geofence.
+[GNSS_GEOREGION_CIRCLE](./ns-gnssdriver-gnss_georegion_circle.md) structure that defines a circular geofence.
 
 ### -field Unused
 
- 
-
-
-
-
-### -field Unused[512]
-
-Padding buffer.
+Padding buffer reserved for future use.
 
 ## -remarks
 
 A geographical shape is used to define a geofence.  Windows 10 currently supports only circular geofences.
-

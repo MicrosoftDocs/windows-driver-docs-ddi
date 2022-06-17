@@ -1,14 +1,13 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_27
 title: GNSS_GEOFENCE_DELETE_PARAM (gnssdriver.h)
-description: This structure is used for deleting a geofence.
-old-location: gnss\gnss_geofence_delete_param.htm
+description: The GNSS_GEOFENCE_DELETE_PARAM structure is used for deleting a geofence.
 tech.root: gnss
-ms.date: 02/15/2018
+ms.date: 06/17/2022
 keywords: ["GNSS_GEOFENCE_DELETE_PARAM structure"]
 ms.keywords: "*PGNSS_GEOFENCE_DELETE_PARAM, GNSS_GEOFENCE_DELETE_PARAM, GNSS_GEOFENCE_DELETE_PARAM structure [Sensor Devices], PGNSS_GEOFENCE_DELETE_PARAM, PGNSS_GEOFENCE_DELETE_PARAM structure pointer [Sensor Devices], gnss.gnss_geofence_delete_param, gnssdriver/GNSS_GEOFENCE_DELETE_PARAM, gnssdriver/PGNSS_GEOFENCE_DELETE_PARAM"
 req.header: gnssdriver.h
-req.include-header: 
+req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,12 +42,9 @@ api_name:
  - GNSS_GEOFENCE_DELETE_PARAM
 ---
 
-# GNSS_GEOFENCE_DELETE_PARAM structure
-
-
 ## -description
 
-This structure is used for deleting a geofence.
+The **GNSS_GEOFENCE_DELETE_PARAM** structure is used for deleting a geofence.
 
 ## -struct-fields
 
@@ -68,12 +64,4 @@ The ID of the geofence.
 
 ### -field Unused
 
- 
-
-
-
-
-### -field Unused[512]
-
-Padding buffer.
-
+Padding buffer reserved for future use.
