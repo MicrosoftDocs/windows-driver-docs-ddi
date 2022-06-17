@@ -64,6 +64,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+This call override the default categiry set initialized by ACX which is based on the ACXCIRCUIT type.
+
 ### Example
 
 Example usage is shown below.
