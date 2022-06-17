@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitAssignComponentUri
 ms.date: 04/27/2022
 targetos: Windows
-description: The AcxCircuitInitAssignComponentUri function assigns an URI string as ID for the ACXCIRCUIT.
+description: The AcxCircuitInitAssignComponentUri function assigns an URI string as identifier for the ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
