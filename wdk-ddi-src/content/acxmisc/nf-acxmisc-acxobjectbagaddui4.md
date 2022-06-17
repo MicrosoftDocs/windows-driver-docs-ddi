@@ -93,7 +93,7 @@ This example shows the use of AcxObjectBagAddUI4.
     DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI4);
 
     ui4Value = 1;
-    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI4(objBag, &TestUI4, ui4Value)
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI4(objBag, &TestUI4, ui4Value));
 
     // Retrieve the value from the object bag
     ui4Value = 0;

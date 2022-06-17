@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagAddI8
 tech.root: audio
 title: AcxObjectBagAddI8
-ms.date: 04/29/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagAddI8 function adds a int eight byte I8 (LONG64) value to an existing, intialized AcxObjectBag. 
 prerelease: true
@@ -93,7 +93,7 @@ This example shows the use of AcxObjectBagAddI8.
     DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestI8);
 
     i8Value = 0x9876543210;
-    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI8(objBag, &TestI8, i8Value)
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI8(objBag, &TestI8, i8Value));
 
     // Retrieve the value from the object bag
     i8Value = 0;

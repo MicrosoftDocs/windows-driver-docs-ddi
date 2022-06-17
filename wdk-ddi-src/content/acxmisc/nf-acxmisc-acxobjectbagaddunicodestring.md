@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagAddUnicodeString
 tech.root: audio
 title: AcxObjectBagAddUnicodeString
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagAddUnicodeString function adds a unicode string to and existing, intialized AcxObjectBag.
 prerelease: true
@@ -87,3 +87,5 @@ This example shows the use of AcxObjectBagAddUnicodeString.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

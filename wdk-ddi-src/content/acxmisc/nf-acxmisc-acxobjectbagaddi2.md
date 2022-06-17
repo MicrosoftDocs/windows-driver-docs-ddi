@@ -93,7 +93,7 @@ This example shows the use of AcxObjectBagAddI2.
     DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestI2);
 
     i2Value = 1;
-    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI2(objBag, &TestI2, i2Value)
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI2(objBag, &TestI2, i2Value));
 
     // Retrieve the value from the object bag
     i2Value = 0;
@@ -105,3 +105,5 @@ This example shows the use of AcxObjectBagAddI2.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

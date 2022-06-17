@@ -2,7 +2,7 @@
 UID: NF:acxmisc.ACX_OBJECTBAG_CONFIG_INIT
 tech.root: audio
 title: ACX_OBJECTBAG_CONFIG_INIT
-ms.date: 01/27/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The ACX_OBJECTBAG_CONFIG_INIT function initializes an ACX_OBJECTBAG_CONFIG structure.
 prerelease: true
@@ -86,3 +86,5 @@ This example shows the use of ACX_OBJECTBAG_CONFIG_INIT.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

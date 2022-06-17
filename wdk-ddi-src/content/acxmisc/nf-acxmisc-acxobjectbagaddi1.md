@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagAddI1
 tech.root: audio
 title: AcxObjectBagAddI1
-ms.date: 02/24/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagAddI1 function adds a int one byte (CHAR) I1 value  to an existing, intialized AcxObjectBag. 
 prerelease: true
@@ -93,7 +93,7 @@ This example shows the use of AcxObjectBagAddI1.
     DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestI1);
 
     i1Value = 1;
-    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI1(objBag, &TestI1, i1Value)
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI1(objBag, &TestI1, i1Value));
 
     // Retrieve the value from the object bag
     i1Value = 0;
@@ -105,3 +105,5 @@ This example shows the use of AcxObjectBagAddI1.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagAddUI2
 tech.root: audio
 title: AcxObjectBagAddUI2
-ms.date: 02/23/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagAddUI2 function adds an unsigned int two byte I2 (USHORT) value to an existing, intialized AcxObjectBag. 
 prerelease: true
@@ -93,7 +93,7 @@ This example shows the use of AcxObjectBagAddUI2.
     DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI2);
 
     ui2Value = 0x55;
-    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI2(objBag, &TestUI2, ui2Value)
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI2(objBag, &TestUI2, ui2Value));
 
     // Retrieve the value from the object bag
     ui2Value = 0;
@@ -105,3 +105,5 @@ This example shows the use of AcxObjectBagAddUI2.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

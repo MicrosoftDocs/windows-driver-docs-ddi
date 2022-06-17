@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagAddGuid
 tech.root: audio
 title: AcxObjectBagAddGuid
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagAddGuid function adds Guid data to an existing, intialized AcxObjectBag. 
 prerelease: true
@@ -111,3 +111,5 @@ The code below shows the use of AcxObjectBagAddGuid.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

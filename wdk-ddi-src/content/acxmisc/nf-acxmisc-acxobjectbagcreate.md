@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagCreate
 tech.root: audio
 title: AcxObjectBagCreate
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagCreate function creates a new AcxObjectBag. 
 prerelease: true
@@ -92,3 +92,5 @@ This example shows the use of AcxObjectBagCreate.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagAddUI8
 tech.root: audio
 title: AcxObjectBagAddUI8
-ms.date: 02/22/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagAddUI8 function adds an unsigned int eight byte I8 (ULONG64) value to an existing, intialized AcxObjectBag.
 prerelease: true
@@ -93,7 +93,7 @@ This example shows the use of AcxObjectBagAddUI8.
     DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI8);
 
     ui8Value = 0x9876543210;
-    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI8(objBag, &TestUI8, ui8Value)
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI8(objBag, &TestUI8, ui8Value));
 
     // Retrieve the value from the object bag
     ui8Value = 0;
@@ -105,3 +105,5 @@ This example shows the use of AcxObjectBagAddUI8.
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

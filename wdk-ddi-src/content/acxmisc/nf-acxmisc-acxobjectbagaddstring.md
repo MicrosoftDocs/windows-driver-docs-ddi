@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagAddString
 tech.root: audio
 title: AcxObjectBagAddString
-ms.date: 01/26/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagAddString function adds a WDFSTRING object to an existing, intialized AcxObjectBag.
 prerelease: true
@@ -70,3 +70,5 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 - [acxmisc.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
