@@ -56,7 +56,7 @@ A pointer to a defined GUID that serves as the component ID for the circuit.
 
 ## -remarks
 
-The driver must initialize the circuit's identity by setting the its URI (AcxCircuitInitAssignComponentUri) and/or its ID.
+The driver must initialize the circuit's identity by setting the its URI (AcxCircuitInitAssignComponentUri) and/or its ID (this DDI).
 
 ### Example
 

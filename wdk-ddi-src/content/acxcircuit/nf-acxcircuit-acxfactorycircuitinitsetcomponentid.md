@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitInitSetComponentId
 ms.date: 02/02/2022
 targetos: Windows
-description: The AcxFactoryCircuitInitSetComponentId function is used to set the component ID during the ACX circuit factory initialization process.
+description: The AcxFactoryCircuitInitSetComponentId function sets the component ID for the ACXFACTORYCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxFactoryCircuitInitSetComponentId** function is used to set the component ID during the ACX circuit factory initialization process.
+The **AcxFactoryCircuitInitSetComponentId** function sets the component ID for the ACXFACTORYCIRCUIT.
 
 ## -parameters
 
@@ -54,25 +54,19 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param ComponentId
 
-A defined GUID that serves as the component ID for the Circuit. For example:
-
-```cpp
-DEFINE_GUID(COMPONENT_GUID, 
-0xf55ba68e, 0x4384, 0x4030, 0x97, 0x19, 0xec, 0xa4, 0xbe, 0x27, 0x6c, 0xc8);
-```
+A defined GUID that serves as the component ID for the circuit factory.
 
 ## -remarks
+
+The driver must initialize the circuit factory's identity by setting the its URI (AcxFactoryCircuitInitAssignComponentUri) and/or its ID (this DDI).
 
 ### Example
 
 Example usage is shown below.
 
-TBD - Showing the SDC AXU FACTORY GUID in this example. Perhaps better to show all zeroes or some other GUID value, such as the one above for the code example?
-
 ```cpp
 DEFINE_GUID(SDCAXU_FACTORY_GUID, 
-0x63434534, 0xBD84, 0x8DFE, 0x7A, 0xAA, 0xFF, 0x84, 0xD8, 0x23, 0xAB, 0xBD);
-
+0xa8215305, 0xe7db, 0x49eb, 0x96, 0x49, 0x84, 0x34, 0x55, 0xe2, 0xe0, 0xd1);
     //
     // Get a FactoryCircuitInit structure.
     //
@@ -88,4 +82,4 @@ DEFINE_GUID(SDCAXU_FACTORY_GUID,
 
 - [acxcircuit.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
