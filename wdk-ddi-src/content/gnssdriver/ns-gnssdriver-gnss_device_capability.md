@@ -3,7 +3,7 @@ UID: NS:gnssdriver.__unnamed_struct_2
 title: GNSS_DEVICE_CAPABILITY (gnssdriver.h)
 description: The GNSS_DEVICE_CAPABILITY structure is used to determine the device capabilities of the underlying GNSS engine.
 tech.root: gnss
-ms.date: 06/17/2022
+ms.date: 06/20/2022
 keywords: ["GNSS_DEVICE_CAPABILITY structure"]
 ms.keywords: "*PGNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY structure [Sensor Devices], PGNSS_DEVICE_CAPABILITY, PGNSS_DEVICE_CAPABILITY structure pointer [Sensor Devices], gnss.gnss_device_capability, gnssdriver/GNSS_DEVICE_CAPABILITY, gnssdriver/PGNSS_DEVICE_CAPABILITY"
 req.header: gnssdriver.h
@@ -72,7 +72,7 @@ A value of TRUE indicates that the driver keeps track of the different HLOS appl
 
 A value of FALSE indicates that the driver does not differentiate different HLOS application sessions and logically treats everything in a global manner as if they all are coming from a single HLOS application-session.
 
-### -field RequireAgnssInjection
+### -field RequireAGnssInjection
 
 Indicates whether the GNSS driver requires assistance data to be injected for faster TTFF.
 
