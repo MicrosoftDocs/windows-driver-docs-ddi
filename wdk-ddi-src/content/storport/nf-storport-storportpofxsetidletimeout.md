@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - LibDef
 api_location:
  - storport.h
 api_name:
