@@ -66,7 +66,7 @@ The [EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST](..\acxrequest\nc-acxrequest-evt_acx_o
 
 ## -remarks
 
-An AcxEvent represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally they are exposed as KS events to upper layers. 
+An ACXEVENT represents an asynchronous notification available at the driver level. Events can be added to ACXCIRCUITs, ACXSTREAMs, ACXELEMENTs and ACXPINs. Internally they are exposed as KS events to upper layers. 
 
 ### Example
 

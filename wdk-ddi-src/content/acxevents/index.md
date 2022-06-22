@@ -22,9 +22,9 @@ api_name:
 
 The acxevents header is used by the ACX audio class extensions.
 
-An AcxEvent represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally, they are exposed as KS events to upper layers. 
+An ACXEVENT represents an asynchronous notification available at the driver level. Events can be added to ACXCIRCUITs, ACXSTREAMs, ACXELEMENTs and ACXPINs. Internally, they are exposed as KS events to upper layers. 
 
-AcxEvents can be used for a variety of purposes, for example they can be used to signal user caused hardware events. Some audio devices provide hardware volume-control knobs, mute switches, or other types of manual controls. Applications can respond to changes in these controls by adjusting the volume or otherwise changing the way that the audio stream is played. When the user adjusts a hardware control, ACX informs the driver that a hardware event has occurred. 
+ACXEVENTs can be used for a variety of purposes, for example they can be used to signal user caused hardware events. Some audio devices provide hardware volume-control knobs, mute switches, or other types of manual controls. Applications can respond to changes in these controls by adjusting the volume or otherwise changing the way that the audio stream is played. When the user adjusts a hardware control, ACX informs the driver that a hardware event has occurred. 
 
 For more information, see:
 
