@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxPnpEventCreate
 ms.date: 04/28/2022
 targetos: Windows
-description: The AcxPnpEventCreate function creates an pnp event.
+description: The AcxPnpEventCreate function creates an ACXPNPEVENT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxPnpEventCreate** function creates an ACX PnP event.
+The **AcxPnpEventCreate** function creates an ACXPNPEVENT.
 
 ## -parameters
 
@@ -85,12 +85,12 @@ This example code shows the use of AcxPnpEventCreate.
     ACX_PNPEVENT_CONFIG             audioModuleEventCfg;
     ACXPNPEVENT                     audioModuleEvent;
 
-    status = AcxAudioModuleCreate(Circuit, &attributes, &audioModuleCfg, &audioModuleElement);
+    ...
 
+    status = AcxAudioModuleCreate(Circuit, &attributes, &audioModuleCfg, &audioModuleElement);
     audioModule0Ctx = GetCodecAudioModule0Context(audioModuleElement);
 
     ACX_PNPEVENT_CONFIG_INIT(&audioModuleEventCfg);
-
     WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, CODEC_PNPEVENT_CONTEXT);
     attributes.ParentObject = audioModuleElement;
     status = AcxPnpEventCreate(Device, audioModuleElement, &attributes, &audioModuleEventCfg, &audioModuleEvent);
@@ -100,5 +100,4 @@ This example code shows the use of AcxPnpEventCreate.
 
 - [acxevents.h header](index.md)
 
-TBD - Please review this topic
-
+READY2GO
