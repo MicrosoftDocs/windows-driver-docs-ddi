@@ -75,12 +75,13 @@ This example shows the use of ACX_EVENT_CALLBACKS.
 ```cpp
     ACX_EVENT_CALLBACKS         eventCallbacks;
     ACX_EVENT_CONFIG            eventCfg;
-
-    // Add an audio control change event to this mute element.
+ 
+    //
+    // Add enable/disable callbacks for this element.
     //
     ACX_EVENT_CALLBACKS_INIT(&eventCallbacks);
-    eventCallbacks.EvtAcxEventEnable = &AfxMute::EvtMuteEventEnableCallback; 
-    eventCallbacks.EvtAcxEventDisable = &AfxMute::EvtMuteEventDisableCallback;
+    eventCallbacks.EvtAcxEventEnable = &TestElement::EvtEventEnableCallback; 
+    eventCallbacks.EvtAcxEventDisable = &TestElement::EvtEventDisableCallback;
 
     ACX_EVENT_CONFIG_INIT(&eventCfg);
     eventCfg.Set = &KSEVENTSETID_AudioControlChange;
@@ -92,5 +93,4 @@ This example shows the use of ACX_EVENT_CALLBACKS.
 
 - [acxevents.h header](index.md)
 
-TBD - Please review this topic
-
+READY2GO

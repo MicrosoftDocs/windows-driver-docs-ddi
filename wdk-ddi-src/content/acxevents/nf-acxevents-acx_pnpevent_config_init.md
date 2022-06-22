@@ -56,18 +56,15 @@ An initialized [ACX_PNPEVENT_CONFIG structure](ns-acxevents-acx_pnpevent_config.
 
 The example shows the use of the ACX_PNPEVENT_CONFIG_INIT.
 
-TBD - Anything else we should show here?
-
 ```cpp
 
-    ACX_PNPEVENT_CONFIG             audioModuleEventCfg;
+    ACX_PNPEVENT_CONFIG audioModuleEventCfg;
 
     ACX_PNPEVENT_CONFIG_INIT(&audioModuleEventCfg);
 ```
-
 
 ## -see-also
 
 - [acxevents.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

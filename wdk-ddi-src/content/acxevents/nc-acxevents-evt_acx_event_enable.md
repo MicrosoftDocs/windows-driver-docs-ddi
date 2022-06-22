@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_EVENT_ENABLE
 ms.date: 12/13/2021
 targetos: Windows
-description: The EVT_ACX_EVENT_ENABLE callback is used by the driver to add functionality when the ACX engine is requesting that an ACX Event is enabled.
+description: The EVT_ACX_EVENT_ENABLE callback is used by the driver to enabled the ACXEVENT source.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_EVENT_ENABLE** callback is used by the driver to add functionality when the ACX engine is requesting that an ACX Event is enabled.
+The **EVT_ACX_EVENT_ENABLE** callback is used by the driver to enabled the ACXEVENT source.
 
 ## -parameters
 
@@ -58,36 +58,36 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Please review this sample
-
 This sample shows the use of the EVT_ACX_EVENT_ENABLE callback.
 
 ```cpp
     //
-    // Add an audio control change event to this volume element.
+    // Add enable/disable callbacks for this element.
     //
     ACX_EVENT_CALLBACKS_INIT(&eventCallbacks);
-    eventCallbacks.EvtAcxEventEnable = &AfxVolume::EvtVolumeEventEnableCallback; 
-    eventCallbacks.EvtAcxEventDisable = &AfxVolume::EvtVolumeEventDisableCallback;
+    eventCallbacks.EvtAcxEventEnable = &TestElement::EvtEventEnableCallback; 
+    eventCallbacks.EvtAcxEventDisable = &TestElement::EvtEventDisableCallback;
 
     ACX_EVENT_CONFIG_INIT(&eventCfg);
 
 NTSTATUS
-AfxVolume::EvtVolumeEventEnableCallback(
+TestElement::EvtEventEnableCallback(
     _In_ ACXEVENT Event
     )
 {
-    AFX_VOLUME_EVENT_CONTEXT * eventCtx;
-    AfxVolume * This;
+    TEST_EVENT_CONTEXT * eventCtx;
+    TestElement * This;
     
     PAGED_CODE();
 
-    eventCtx = GetAfxVolumeEventContext(Event);
+    eventCtx = GetTestEventContext(Event);
     ASSERT(eventCtx != NULL);
-    ASSERT(eventCtx->AfxVolume != NULL);
+    ASSERT(eventCtx->TestElement != NULL);
 
-    This = eventCtx->AfxVolume;
-    
+    This = eventCtx->TestElement;
+
+    // Add code to enable event source.    
+
     return STATUS_SUCCESS;
 }
 ```
@@ -96,4 +96,4 @@ AfxVolume::EvtVolumeEventEnableCallback(
 
 - [acxevents.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

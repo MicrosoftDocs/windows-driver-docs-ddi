@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_EVENT_CONFIG_FLAGS
 ms.date: 11/02/2021
 targetos: Windows
-description: The ACX_EVENT_CONFIG_FLAGS enumeration defines the EVENT config flags for ACX audio.
+description: The ACX_EVENT_CONFIG_FLAGS enumeration defines the EVENT config flags for an ACXEVENT type.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_EVENT_CONFIG_FLAGS** enumeration defines the EVENT config flags for ACX audio.
+The **ACX_EVENT_CONFIG_FLAGS** enumeration defines the EVENT config flags for an ACXEVENT type.
 
 ## -enum-fields
 
@@ -57,4 +57,4 @@ There are no flags currently defined for this type.
 
 - [acxevents.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
