@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxPnpEventGenerateEvent
 ms.date: 12/09/2021
 targetos: Windows
-description: The AcxPnpEventGenerateEvent function generates an pnp event.
+description: The AcxPnpEventGenerateEvent function generates an ACX PNP event.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxPnpEventGenerateEvent** function generates an ACX PnP event.
+The **AcxPnpEventGenerateEvent** function generates an ACX PNP event.
 
 ## -parameters
 
@@ -54,8 +54,6 @@ The ACXPNPEVENT object (described in [Summary of ACX Objects](/windows-hardware/
 
 The event payload.
 
-TBD - Looks like this can be an AUDIOMODULE_CUSTOM_NOTIFICATION or a pointer to something like a CONTOSO_KEYWORDDETECTIONRESULT?
-
 ### -param Size
 
 The size of the event payload.
@@ -66,16 +64,15 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An AcxPnpEvent represents an asynchronous notification available at the driver level. PnP events can be added to any objects. Currently they are used with AcxModule and AcxKeywordSpotter objects. Internally AcxPnpEvents are exposed as PnP asynchronous notification to upper layers.
+The Payload is specific to the type of PNP event generated.
+
+An ACXPNPEVENT represents an asynchronous notification available at the driver level. PNP events can be added to any objects. Currently they are used with ACXMODULE and ACXKEYWARDSPOTTER objects. Internally ACXPNPEVENTs are exposed as PnP asynchronous notification to upper layers.
 
 ### Example
 
 This example code snip, shows the use of AcxPnpEventGenerateEvent.
 
 ```cpp
-    if (fNewValue &&
-        (parameterInfo->Flags & AUDIOMODULE_PARAMETER_FLAG_CHANGE_NOTIFICATION))
-    {
         AUDIOMODULE_CUSTOM_NOTIFICATION customNotification = {0};
 
         customNotification.Type = AudioModuleParameterChanged;
@@ -88,4 +85,4 @@ This example code snip, shows the use of AcxPnpEventGenerateEvent.
 
 - [acxevents.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
