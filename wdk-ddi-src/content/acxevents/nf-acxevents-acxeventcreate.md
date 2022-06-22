@@ -72,9 +72,7 @@ An ACXEVENT represents an asynchronous notification available at the driver leve
 
 ### Example
 
-This example code snip, shows the use of AcxEventCreate for an audio jack change event.
-
-TBD - Please review this sample
+This example code snip, shows how ACX uses AcxEventCreate to create an audio jack change event.
 
 ```cpp
     NTSTATUS status = STATUS_SUCCESS;
@@ -108,4 +106,4 @@ TBD - Please review this sample
 
 - [acxevents.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

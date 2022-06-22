@@ -56,15 +56,13 @@ An ACXEVENT represents an asynchronous notification available at the driver leve
 
 ### Example
 
-TBD - Is there anything we should add to this sample code from the test driver?
-
 This sample shows the use of AcxEventGenerateEvent.
 
 ```cpp
     PCODEC_MUTE_TIMER_CONTEXT timerCtx = GetCodecMuteTimerContext(Timer);
     PCODEC_MUTE_ELEMENT_CONTEXT muteCtx = GetCodecMuteElementContext(timerCtx->MuteElement);
 
-    // update settings 0 <-> 1  
+    // Testing: update settings 0 <-> 1  
     muteCtx->MuteState[0] = !muteCtx->MuteState[0];
     muteCtx->MuteState[1] = !muteCtx->MuteState[1];
     
@@ -75,5 +73,5 @@ This sample shows the use of AcxEventGenerateEvent.
 
 - [acxevents.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
 
