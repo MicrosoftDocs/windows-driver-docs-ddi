@@ -45,22 +45,23 @@ api_name:
 
 ## -description
 
-The <b>HidD_GetPhysicalDescriptor</b> routine returns the embedded string of a <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> that identifies the collection's physical device.
+The <b>HidD_GetPhysicalDescriptor</b> routine returns the _Physical Descriptor_ of a HID device that is used to indicate what physical part of the human body is used to activate the controls on a device. For example, a _Physical Descriptor_ might indicate that the right hand thumb is used to activate button 5.
+
+Note that _Physical Descriptors_ are entirely optional. They add complexity and offer very little in return for most devices. However, some devices, particularly those
+with a large number of identical controls (for example, buttons) will find that _Physical Descriptors_ help different applications assign functionality to these
+controls in a more consistent manner. See <a href="https://www.usb.org/hid">HID specification</a> for more info.
 
 ## -parameters
 
 ### -param HidDeviceObject [in]
 
-
 Specifies an open handle to a top-level collection.
 
 ### -param Buffer [out]
 
-
 Pointer to a caller-allocated buffer that the routine uses to return the requested physical descriptor.
 
 ### -param BufferLength [in]
-
 
 Specifies the length, in bytes, of the buffer at <i>Buffer</i>.
 
@@ -78,18 +79,10 @@ For more information, see <a href="/windows-hardware/drivers/hid/hid-collections
 
 <a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getindexedstring">HidD_GetIndexedString</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getmanufacturerstring">HidD_GetManufacturerString</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getproductstring">HidD_GetProductString</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getserialnumberstring">HidD_GetSerialNumberString</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_get_physical_descriptor">IOCTL_GET_PHYSICAL_DESCRIPTOR</a>
