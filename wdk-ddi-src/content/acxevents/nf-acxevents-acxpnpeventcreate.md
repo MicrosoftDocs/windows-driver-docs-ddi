@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxPnpEventCreate
 tech.root: audio
 title: AcxPnpEventCreate
-ms.date: 04/28/2022
+ms.date: 06/22/2022
 targetos: Windows
 description: The AcxPnpEventCreate function creates an ACXPNPEVENT.
 prerelease: true
@@ -101,3 +101,5 @@ This example code shows the use of AcxPnpEventCreate.
 - [acxevents.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxevents.ACX_EVENT_CONFIG_INIT
 tech.root: audio
 title: ACX_EVENT_CONFIG_INIT
-ms.date: 11/03/2021
+ms.date: 06/22/2022
 targetos: Windows
 description: The ACX_EVENT_CONFIG_INIT function initializes an ACX_EVENT_CONFIG structure.
 prerelease: true
@@ -75,3 +75,5 @@ This example shows the use of ACX_EVENT_CONFIG_INIT.
 - [acxevents.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

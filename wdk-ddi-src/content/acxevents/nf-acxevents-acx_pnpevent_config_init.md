@@ -2,7 +2,7 @@
 UID: NF:acxevents.ACX_PNPEVENT_CONFIG_INIT
 tech.root: audio
 title: ACX_PNPEVENT_CONFIG_INIT
-ms.date: 11/03/2021
+ms.date: 06/22/2022
 targetos: Windows
 description: The ACX_PNPEVENT_CONFIG_INIT function initializes an ACX_PNPEVENT_CONFIG structure.
 prerelease: true
@@ -68,3 +68,5 @@ The example shows the use of the ACX_PNPEVENT_CONFIG_INIT.
 - [acxevents.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

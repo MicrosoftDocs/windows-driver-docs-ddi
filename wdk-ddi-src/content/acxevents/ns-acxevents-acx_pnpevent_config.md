@@ -2,7 +2,7 @@
 UID: NS:acxevents._ACX_PNPEVENT_CONFIG
 tech.root: audio
 title: ACX_PNPEVENT_CONFIG
-ms.date: 11/03/2021
+ms.date: 06/22/2022
 targetos: Windows
 description: The ACX_PNPEVENT_CONFIG structure is used to configure an ACXPNPEVENT. 
 prerelease: true
@@ -84,3 +84,5 @@ This example shows the use of the ACX_PNPEVENT_CONFIG structure.
 - [acxevents.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

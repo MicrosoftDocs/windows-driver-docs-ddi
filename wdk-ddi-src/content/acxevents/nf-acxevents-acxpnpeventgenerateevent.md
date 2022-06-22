@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxPnpEventGenerateEvent
 tech.root: audio
 title: AcxPnpEventGenerateEvent
-ms.date: 12/09/2021
+ms.date: 06/22/2022
 targetos: Windows
 description: The AcxPnpEventGenerateEvent function generates an ACX PNP event.
 prerelease: true
@@ -86,3 +86,5 @@ This example code snip, shows the use of AcxPnpEventGenerateEvent.
 - [acxevents.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

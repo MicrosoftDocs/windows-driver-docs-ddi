@@ -2,7 +2,7 @@
 UID: NC:acxevents.EVT_ACX_EVENT_ENABLE
 tech.root: audio
 title: EVT_ACX_EVENT_ENABLE
-ms.date: 12/13/2021
+ms.date: 06/22/2022
 targetos: Windows
 description: The EVT_ACX_EVENT_ENABLE callback is used by the driver to enabled the ACXEVENT source.
 prerelease: true
@@ -97,3 +97,5 @@ TestElement::EvtEventEnableCallback(
 - [acxevents.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

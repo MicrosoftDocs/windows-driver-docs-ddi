@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxEventCreate
 tech.root: audio
 title: AcxEventCreate
-ms.date: 12/09/2021
+ms.date: 06/22/2022
 targetos: Windows
 description: The AcxEventCreate function creates an event.
 prerelease: true
@@ -68,7 +68,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An ACXEVENT represents an asynchronous notification available at the driver level. Events can be added to ACXCIRCUITs, ACXSTREAMs, ACXELEMENTs and ACXPINs. Internally they are exposed as KS events to upper layers.
+An ACXEVENT represents an asynchronous notification available at the driver level. Events can be added to ACXCIRCUITs, ACXSTREAMs, ACXELEMENTs and ACXPINs. Internally they are exposed as KS Events to upper layers. For more information about KS Events, see [KS Events](/windows-hardware/drivers/stream/ks-events).
 
 ### Example
 
@@ -107,3 +107,5 @@ This example code snip, shows how ACX uses AcxEventCreate to create an audio jac
 - [acxevents.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxEventGenerateEvent
 tech.root: audio
 title: AcxEventGenerateEvent
-ms.date: 12/09/2021
+ms.date: 06/22/2022
 targetos: Windows
 description: The AcxEventGenerateEvent function generates an event.
 prerelease: true
@@ -52,7 +52,7 @@ The ACXEVENT object (described in [Summary of ACX Objects](/windows-hardware/dri
 
 ## -remarks
 
-An ACXEVENT represents an asynchronous notification available at the driver level. Events can be added to ACXCIRCUITs, ACXSTREAMs, ACXELEMENTs and ACXPINs. Internally they are exposed as KS events to upper layers. 
+An ACXEVENT represents an asynchronous notification available at the driver level. Events can be added to ACXCIRCUITs, ACXSTREAMs, ACXELEMENTs and ACXPINs. Internally they are exposed as KS events to upper layers. For more information about KS Events, see [KS Events](/windows-hardware/drivers/stream/ks-events).
 
 ### Example
 
@@ -75,3 +75,4 @@ This sample shows the use of AcxEventGenerateEvent.
 
 READY2GO
 
+EDITCOMPLETE

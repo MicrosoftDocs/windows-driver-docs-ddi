@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_RELEASE_HARDWARE
 tech.root: audio
 title: EVT_ACX_STREAM_RELEASE_HARDWARE
-ms.date: 04/05/2022
+ms.date: 06/22/2022
 targetos: Windows
 description: The EvtAcxStreamReleaseHardware event tells the driver to release any hardware allocated for the stream and put the stream into the Stop state.
 prerelease: true
@@ -72,7 +72,15 @@ ACX Events are analogous to KS states as described in this table.
 | PAUSE       | ACQUIRE   | (No call)               |                                                       |
 | ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
 
-When work with the stream is complete, [EvtAcxStreamFreeRtPackets](nc-acxstreams-evt_acx_stream_free_rtpackets.md) is called after EvtAcxStreamReleaseHardware. This allows the release hardware phase to finish deallocating bandwidth, freeing DMA resources and any other associated cleanup, to occur before te allocated RT buffers are then freed.
+When work with the stream is complete, [EvtAcxStreamFreeRtPackets](nc-acxstreams-evt_acx_stream_free_rtpackets.md) is called after EvtAcxStreamReleaseHardware. This allows the release hardware phase to finish deallocating bandwidth, freeing DMA resources and any other associated cleanup, to occur before the allocated RT buffers are then freed.
+
+**Memory Cleanup**
+
+The disposal of the stream’s resources can be done in the driver’s stream context cleanup (not destroy).  Never put the disposal of anything that is shared in an object’s context destroy callback. This guidance applies to all the ACX objects. 
+
+The destroy callback is invoked after the last ref is gone, when it is unknown. 
+
+The stream’s cleanup callback is called when the handle is closed. One exception to this is when the driver created the stream in its callback. If ACX failed to add this stream to its stream-bridge just before returning from the stream-create operation, the stream is cancelled async, and the current thread returns an error to the create-stream client. The stream should not have any mem allocations allocated at this point.
 
 ### Example
 

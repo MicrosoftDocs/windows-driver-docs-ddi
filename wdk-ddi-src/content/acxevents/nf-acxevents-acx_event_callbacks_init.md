@@ -2,7 +2,7 @@
 UID: NF:acxevents.ACX_EVENT_CALLBACKS_INIT
 tech.root: audio
 title: ACX_EVENT_CALLBACKS_INIT
-ms.date: 12/09/2021
+ms.date: 06/22/2022
 targetos: Windows
 description: The ACX_EVENT_CALLBACKS_INIT function initializes a ACX_EVENTS_CALLBACKS structure.
 prerelease: true
@@ -75,3 +75,5 @@ This example shows the use of ACX_EVENT_CALLBACKS_INIT.
 - [acxevents.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

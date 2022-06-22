@@ -2,7 +2,7 @@
 UID: NS:acxevents._ACX_EVENT_CONFIG
 tech.root: audio
 title: ACX_EVENT_CONFIG
-ms.date: 12/09/2021
+ms.date: 06/22/2022
 targetos: Windows
 description: The ACX_EVENT_CONFIG structure is used to configure an ACXEVENT. 
 prerelease: true
@@ -102,3 +102,5 @@ The example shows how ACX uses the ACX_EVENT_CONFIG structure.
 - [acxevents.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
