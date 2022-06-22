@@ -2,7 +2,7 @@
 UID: NA:acxevents
 title: acxevents.h header
 ms.date: 11/04/2021
-description: The  acxevents.h header is used by the ACX audio class extensions.
+description: The  acxevents.h header is used by an ACX audio class extensions.
 keywords: ["acxevents.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
@@ -42,4 +42,4 @@ For general information on KSEVENTS, see these topics.
 
 [Audio Device Hardware Events](/windows-hardware/drivers/audio/hardware-events)
 
-TBD - Please review this topic
+READY2GO

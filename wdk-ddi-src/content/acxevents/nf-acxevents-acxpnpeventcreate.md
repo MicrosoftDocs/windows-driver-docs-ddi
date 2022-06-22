@@ -60,7 +60,7 @@ Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/
 
 ### -param Config
 
-An [ACX_PNPEVENT_CONFIG](ns-acxevents-acx_pnpevent_config.md) structure that defines the configuration for an ACX PnP event.
+An [ACX_PNPEVENT_CONFIG](ns-acxevents-acx_pnpevent_config.md) structure that defines the configuration for an ACX PNP event.
 
 ### -param Event
 
@@ -72,7 +72,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An AcxPnpEvent represents an asynchronous notification available at the driver level. PnP events can be added to any objects. Currently they are used with AcxModule and AcxKeywordSpotter objects. Internally AcxPnpEvents are exposed as PnP asynchronous notification to upper layers.
+An ACXPNPEVENT represents an asynchronous notification available at the driver level. PNP events can be added to any objects. Currently they are used with ACXAUDIOMODULE and ACXKEYWARDSPOTTER objects. Internally AcxPnpEvents are exposed as PNP asynchronous notification to upper layers.
 
 ### Example
 

@@ -66,7 +66,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 The Payload is specific to the type of PNP event generated.
 
-An ACXPNPEVENT represents an asynchronous notification available at the driver level. PNP events can be added to any objects. Currently they are used with ACXMODULE and ACXKEYWARDSPOTTER objects. Internally ACXPNPEVENTs are exposed as PnP asynchronous notification to upper layers.
+An ACXPNPEVENT represents an asynchronous notification available at the driver level. PNP events can be added to any objects. Currently they are used with ACXAUDIOMODULE and ACXKEYWARDSPOTTER objects. Internally ACXPNPEVENTs are exposed as PNP asynchronous notification to upper layers.
 
 ### Example
 

@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_EVENT_CONFIG
 ms.date: 12/09/2021
 targetos: Windows
-description: The ACX_EVENT_CONFIG structure is used to define the event configuration. 
+description: The ACX_EVENT_CONFIG structure is used to configure an ACXEVENT. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_EVENT_CONFIG** structure is used to define the ACX event configuration.
+The **ACX_EVENT_CONFIG** structure is used to configure an ACXEVENT.
 
 ## -struct-fields
 
@@ -78,7 +78,7 @@ The [ACX_EVENT_CALLBACKS structure](ns-acxevents-acx_event_callbacks.md) that id
 
 ### Example
 
-The example shows the use of the ACX_EVENT_CONFIG structure.
+The example shows how ACX uses the ACX_EVENT_CONFIG structure.
 
 ```cpp
     ACX_EVENT_CONFIG            eventCfg;
@@ -101,4 +101,4 @@ The example shows the use of the ACX_EVENT_CONFIG structure.
 
 - [acxevents.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
