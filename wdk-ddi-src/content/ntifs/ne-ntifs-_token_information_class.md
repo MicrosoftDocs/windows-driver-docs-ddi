@@ -52,7 +52,7 @@ api_name:
 
 The **TOKEN_INFORMATION_CLASS** enumeration type contains values that specify the type of information being assigned to or retrieved from an access token.
 
-[**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md) and [**ZwQueryInformationToken**](/previous-versions/ff567055(v=vs.85)) use **TOKEN_INFORMATION_CLASS** values to indicate the type of token information to retrieve.
+[**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md) and [**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md) use **TOKEN_INFORMATION_CLASS** values to indicate the type of token information to retrieve.
 
 ## -enum-fields
 
@@ -90,7 +90,7 @@ The buffer receives a [**TOKEN_TYPE**](ne-ntifs-_token_type.md) value indicating
 
 ### -field TokenImpersonationLevel
 
-The buffer receives a [**SECURITY_IMPERSONATION_LEVEL**](../wdm/ne-wdm-_security_impersonation_level.md) value indicating the impersonation level of the token. If the access token is not an impersonation token, the call to [**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md) or [**ZwQueryInformationToken**](/previous-versions/ff567055(v=vs.85)) fails.
+The buffer receives a [**SECURITY_IMPERSONATION_LEVEL**](../wdm/ne-wdm-_security_impersonation_level.md) value indicating the impersonation level of the token. If the access token is not an impersonation token, the call to [**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md) or [**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md) fails.
 
 ### -field TokenStatistics
 
@@ -276,6 +276,6 @@ The maximum value for this enumeration.
 
 [**TOKEN_USER**](ns-ntifs-_token_user.md)
 
-[**ZwQueryInformationToken**](/previous-versions/ff567055(v=vs.85))
+[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md)
 
-[**ZwSetInformationToken**](/previous-versions/ff567102(v=vs.85))
+[**ZwSetInformationToken**](nf-ntifs-zwsetinformationtoken.md)
