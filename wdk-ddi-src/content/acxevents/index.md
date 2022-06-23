@@ -37,7 +37,9 @@ For more information, see:
 For general information on KSEVENTS, see these topics.
 
 [KS Events](/windows-hardware/drivers/stream/ks-events)
+
 [KSEVENT structure](/windows-hardware/drivers/stream/ksevent-structure)
+
 [KSPROPSETID_Audio](/windows-hardware/drivers/audio/kspropsetid-audio)
 
 [Audio Device Hardware Events](/windows-hardware/drivers/audio/hardware-events)
