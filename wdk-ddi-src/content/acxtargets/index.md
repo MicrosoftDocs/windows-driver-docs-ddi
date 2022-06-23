@@ -70,8 +70,6 @@ For more information, see:
 - [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview)
 
 - [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects)
-
-- [ACX Audio multi stack cross driver communications](/windows-hardware/drivers/audio/acx-audio-multi-stack)
  
 - [Audio](../_audio/index.md)
 
