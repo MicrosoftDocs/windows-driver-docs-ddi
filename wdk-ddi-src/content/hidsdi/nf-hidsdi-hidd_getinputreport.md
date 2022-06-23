@@ -70,6 +70,8 @@ The size of the report buffer in bytes. The report buffer must be large enough t
 
 ## -remarks
 
+The correct _ReportBufferLength_ is specified by the _InputReportByteLength_ member of a top-level collection's [HIDP_CAPS](../hidpi/ns-hidpi-_hidp_caps.md) structure returned from [HidP_GetCaps](../hidpi/nf-hidpi-hidp_getcaps.md) call.
+
 Before it calls the **HidD_GetInputReport** routine, the caller must do the following:
 
 - If the [top-level collection](/windows-hardware/drivers/hid/top-level-collections) includes report IDs, the caller must set the first byte of the *ReportBuffer* parameter to a nonzero report ID.
@@ -100,6 +102,8 @@ For more information, see [Interpreting HID Reports](/windows-hardware/drivers/h
 - [HidD_GetFeature](./nf-hidsdi-hidd_getfeature.md)
 - [HidD_SetFeature](./nf-hidsdi-hidd_setfeature.md)
 - [HidD_SetOutputReport](./nf-hidsdi-hidd_setoutputreport.md)
+- [HIDP_CAPS](../hidpi/ns-hidpi-_hidp_caps.md)
+- [HidP_GetCaps](../hidpi/nf-hidpi-hidp_getcaps.md)
 - [IOCTL_HID_GET_FEATURE](../hidclass/ni-hidclass-ioctl_hid_get_feature.md)
 - [IOCTL_HID_GET_INPUT_REPORT](../hidclass/ni-hidclass-ioctl_hid_get_input_report.md)
 - [IOCTL_HID_SET_FEATURE](../hidclass/ni-hidclass-ioctl_hid_set_feature.md)

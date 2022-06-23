@@ -68,6 +68,8 @@ If **HidD_GetFeature** succeeds, it returns **TRUE**; otherwise, it returns **FA
 
 ## -remarks
 
+The correct _ReportBufferLength_ is specified by the _FeatureReportByteLength_ member of a top-level collection's [HIDP_CAPS](../hidpi/ns-hidpi-_hidp_caps.md) structure returned from [HidP_GetCaps](../hidpi/nf-hidpi-hidp_getcaps.md) call.
+
 Before it calls the **HidD_GetFeature** routine, the caller must do the following:
 
 - If the [top-level collection](/windows-hardware/drivers/hid/top-level-collections) includes report IDs, the caller must set the first byte of the *ReportBuffer* parameter to a nonzero report ID.
@@ -98,6 +100,8 @@ Only user-mode applications can call **HidD_GetFeature**. Kernel-mode drivers ca
 - [HidD_GetInputReport](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getinputreport)
 - [HidD_SetFeature](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_setfeature)
 - [HidD_SetOutputReport](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_setoutputreport)
+- [HIDP_CAPS](../hidpi/ns-hidpi-_hidp_caps.md)
+- [HidP_GetCaps](../hidpi/nf-hidpi-hidp_getcaps.md)
 - [IOCTL_HID_GET_FEATURE](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_feature)
 - [IOCTL_HID_GET_INPUT_REPORT](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_input_report)
 - [IOCTL_HID_SET_FEATURE](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_feature)
