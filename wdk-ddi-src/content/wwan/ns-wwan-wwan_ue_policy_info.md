@@ -57,10 +57,10 @@ The second 4 bytes are the size of the raw data of MBIM_TLV_TYPE_URSP_RULES_TD_O
 
 ## -remarks
 
-**WWAN_UE_POLICY_INFO** is used by the  [**NDIS_WWAN_UE_POLICY_INFO**](/ndiswwan/ns-ndiswwan-ndis_wwan_ue_policy_info.md) structure.
+**WWAN_UE_POLICY_INFO** is used by the  [**NDIS_WWAN_UE_POLICY_INFO**](../ndiswwan/ns-ndiswwan-ndis_wwan_ue_policy_info.md) structure.
 
 ## -see-also
 
-[**NDIS_WWAN_UE_POLICY_INFO**](/ndiswwan/ns-ndiswwan-ndis_wwan_ue_policy_info.md)
+[**NDIS_WWAN_UE_POLICY_INFO**](../ndiswwan/ns-ndiswwan-ndis_wwan_ue_policy_info.md)
 
 [OID_WWAN_UE_POLICY](/windows-hardware/drivers/network/oid-wwan-ue-policy)
