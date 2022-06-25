@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_PINFRAMEBUFFERFORSAVE2
 tech.root: display
 title: DXGKARGCB_PINFRAMEBUFFERFORSAVE2
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: The DXGKARGCB_PINFRAMEBUFFERFORSAVE2 structure contains the information used by the DxgkCbPinFrameBufferForSave2 callback function to pin an entire frame buffer at once.
 req.construct-type: structure
@@ -71,6 +71,8 @@ An alternative way to access the **Flags** bits.
 On a successful call to [**DXGKCB_PINFRAMEBUFFERFORSAVE2**](nc-d3dkmddi-dxgkcb_pinframebufferforsave2.md), points to the [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) structure with a list of pages of the frame buffer save area. These pages are guaranteed to be mapped to the IoMmu.
 
 ## -remarks
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 ## -see-also
 

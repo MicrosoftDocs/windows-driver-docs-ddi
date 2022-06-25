@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_FREE_ADL
 tech.root: display
 title: DXGKARGCB_FREE_ADL
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: DXGKARGCB_FREE_ADL contains the information used by the DxgkCbFreeAdl callback function to destroy an address descriptor list (ADL).
 req.construct-type: structure
@@ -51,6 +51,10 @@ The adapter memory object that was used to create the ADL.
 ### -field pAdl [in]
 
 Pointer to the [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) object that is being freed.
+
+## -remarks
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 ## -see-also
 
