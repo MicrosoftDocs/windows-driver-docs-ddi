@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_CREATEPHYSICALMEMORYOBJECT
 tech.root: display
 title: DXGKCB_CREATEPHYSICALMEMORYOBJECT
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: The DxgkCbCreatePhysicalMemoryObject callback function creates physical memory for the driver.
 req.assembly: 
@@ -56,6 +56,8 @@ Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropri
 ## -remarks
 
 **DXGKCB_CREATEPHYSICALMEMORYOBJECT** and [**DXGKCB_DESTROYPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md) create and destroy physical memory for the driver. Internally this memory can be represented in different forms, but will conform to the requirements and caching type specified in the arguments provided in [**DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT**](ns-d3dkmddi-dxgkargcb_create_physical_memory_object.md).
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 *DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the appropriate members of [**DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT**](ns-d3dkmddi-dxgkargcb_create_physical_memory_object.md) and then call **DxgkCbCreatePhysicalMemoryObject** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
