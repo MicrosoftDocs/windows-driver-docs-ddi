@@ -110,10 +110,10 @@ The return value depends on the *Capability* parameter. If *Capability* indicate
 
 ## -remarks
 
-For descriptions of the DC_*XXX* flags, see [DrvDeviceCapabilities](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities).
+For descriptions of the DC_*XXX* flags, see [DrvDeviceCapabilities](./nf-winddiui-drvdevicecapabilities.md).
 
 This function must be defined in the .def file as DrvSplDeviceCaps @ 254, because the spooler uses the ordinal number 254 to obtain the driver function pointer.
 
 ## -see-also
 
-[DrvDeviceCapabilities](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities)
+[DrvDeviceCapabilities](./nf-winddiui-drvdevicecapabilities.md)

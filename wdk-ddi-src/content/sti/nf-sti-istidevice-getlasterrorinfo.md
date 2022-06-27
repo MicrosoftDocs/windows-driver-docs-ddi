@@ -47,7 +47,7 @@ The **IStiDevice::GetLastErrorInfo** method returns information about the last k
 
 ### -param pLastErrorInfo [out]
 
-Caller-supplied pointer to an [STI_ERROR_INFO](/windows-hardware/drivers/ddi/sti/ns-sti-_error_infow) structure to receive error information.
+Caller-supplied pointer to an [STI_ERROR_INFO](./ns-sti-_error_infow.md) structure to receive error information.
 
 ## -returns
 
@@ -55,6 +55,6 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 ## -remarks
 
-The **IStiDevice::GetLastErrorInfo** method returns information about the most recent error by filling in the caller-supplied [STI_ERROR_INFO](/windows-hardware/drivers/ddi/sti/ns-sti-_error_infow) structure. The method calls [IStiUSD::GetLastErrorInfo](/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getlasterrorinfo), which is exported by vendor-supplied minidrivers.
+The **IStiDevice::GetLastErrorInfo** method returns information about the most recent error by filling in the caller-supplied [STI_ERROR_INFO](./ns-sti-_error_infow.md) structure. The method calls [IStiUSD::GetLastErrorInfo](../stiusd/nf-stiusd-istiusd-getlasterrorinfo.md), which is exported by vendor-supplied minidrivers.
 
 Before calling **IStiDevice::GetLastErrorInfo**, clients of the **IStiDevice** COM interface must call [IStillImage::CreateDevice](/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)) to obtain an **IStiDevice** interface pointer, which provides access to a specified device.

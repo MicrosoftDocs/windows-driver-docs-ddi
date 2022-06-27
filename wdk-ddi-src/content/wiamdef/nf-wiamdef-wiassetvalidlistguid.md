@@ -71,14 +71,14 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-[wiasSetValidFlag](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidflag)
+[wiasSetValidFlag](./nf-wiamdef-wiassetvalidflag.md)
 
-[wiasSetValidListFloat](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidlistfloat)
+[wiasSetValidListFloat](./nf-wiamdef-wiassetvalidlistfloat.md)
 
-[wiasSetValidListLong](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidlistlong)
+[wiasSetValidListLong](./nf-wiamdef-wiassetvalidlistlong.md)
 
-[wiasSetValidListStr](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidliststr)
+[wiasSetValidListStr](./nf-wiamdef-wiassetvalidliststr.md)
 
-[wiasSetValidRangeFloat](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidrangefloat)
+[wiasSetValidRangeFloat](./nf-wiamdef-wiassetvalidrangefloat.md)
 
-[wiasSetValidRangeLong](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidrangelong)
+[wiasSetValidRangeLong](./nf-wiamdef-wiassetvalidrangelong.md)

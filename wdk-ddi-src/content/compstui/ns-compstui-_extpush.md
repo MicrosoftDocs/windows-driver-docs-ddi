@@ -86,7 +86,7 @@ If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be set in **Flags**.
 
 ### -field DUMMYUNIONNAME.pfnCallBack
 
-Pointer to a [_CPSUICALLBACK](/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback)-typed callback function to handle the CPSUICB_REASON_PUSHBUTTON reason. For more information, see the following Remarks section.
+Pointer to a [_CPSUICALLBACK](./nc-compstui-_cpsuicallback.md)-typed callback function to handle the CPSUICB_REASON_PUSHBUTTON reason. For more information, see the following Remarks section.
 
 If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be cleared in **Flags**.
 
@@ -124,7 +124,7 @@ Reserved, must be initialized to zero.
 
 ## -remarks
 
-An extended push button is a CPSUI-defined type of push button that can be associated with an [OPTITEM](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) structure. An OPTITEM structure can have one extended push button or one extended check box associated with it.
+An extended push button is a CPSUI-defined type of push button that can be associated with an [OPTITEM](./ns-compstui-_optitem.md) structure. An OPTITEM structure can have one extended push button or one extended check box associated with it.
 
 When you use the EXTPUSH structure to create a push button, you can optionally create an additional dialog box that opens when the user clicks on the button. To create this dialog box, you should specify a pointer to a dialog box procedure in the **DlgProc** member, and include a dialog template specification in either the **DlgTemplateID** or the **hDlgTemplate** member.
 
@@ -132,10 +132,10 @@ If EPF_USE_HDLGTEMPLATE is set in **Flags**, CPSUI creates the dialog box by cal
 
 If EPF_USE_HDLGTEMPLATE is not set in **Flags**, CPSUI creates the dialog box by calling [*DialogBoxParam*](/windows/win32/api/winuser/nf-winuser-dialogboxparama), passing the contents of the **DlgProc** and **DlgTemplateID** members.
 
-When the dialog box procedure is called with a *uMsg* value of WM_INITDIALOG, the *lParam* value is the address of a [CPSUICBPARAM](/windows-hardware/drivers/ddi/compstui/ns-compstui-_cpsuicbparam) structure, with the **Reason** member set to CPSUICB_REASON_EXTPUSH. (For more information about the *uMsg* and *lParam* parameters, see *DialogProc* in the Windows SDK documentation.)
+When the dialog box procedure is called with a *uMsg* value of WM_INITDIALOG, the *lParam* value is the address of a [CPSUICBPARAM](./ns-compstui-_cpsuicbparam.md) structure, with the **Reason** member set to CPSUICB_REASON_EXTPUSH. (For more information about the *uMsg* and *lParam* parameters, see *DialogProc* in the Windows SDK documentation.)
 
-If you do not need CPSUI to display a dialog box when the user clicks on the button, you can specify the address of a [_CPSUICALLBACK](/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback)-typed callback function in the **pfnCallBack** member. When a user clicks on the button, CPSUI calls the callback function. The accompanying CPSUICBPARAM structure's **Reason** member will be set to CPSUICB_REASON_EXTPUSH.
+If you do not need CPSUI to display a dialog box when the user clicks on the button, you can specify the address of a [_CPSUICALLBACK](./nc-compstui-_cpsuicallback.md)-typed callback function in the **pfnCallBack** member. When a user clicks on the button, CPSUI calls the callback function. The accompanying CPSUICBPARAM structure's **Reason** member will be set to CPSUICB_REASON_EXTPUSH.
 
 ## -see-also
 
-[EXTCHKBOX](/windows-hardware/drivers/ddi/compstui/ns-compstui-_extchkbox)
+[EXTCHKBOX](./ns-compstui-_extchkbox.md)

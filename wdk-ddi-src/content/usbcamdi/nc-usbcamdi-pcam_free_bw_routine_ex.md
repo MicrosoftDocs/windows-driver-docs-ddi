@@ -73,6 +73,6 @@ This function is required.
 
 ## -see-also
 
-[USBCAMD_DEVICE_DATA2](/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2)
+[USBCAMD_DEVICE_DATA2](./ns-usbcamdi-_usbcamd_device_data2.md)
 
-[USBCAMD_SelectAlternateInterface](/windows-hardware/drivers/ddi/usbcamdi/nf-usbcamdi-usbcamd_selectalternateinterface)
+[USBCAMD_SelectAlternateInterface](./nf-usbcamdi-usbcamd_selectalternateinterface.md)

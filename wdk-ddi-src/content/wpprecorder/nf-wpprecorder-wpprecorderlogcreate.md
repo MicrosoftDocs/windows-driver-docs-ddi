@@ -60,7 +60,7 @@ NTSTATUS WppRecorderLogCreate(
 
 ### -param CreateParams
 
-A pointer to a [**RECORDER_LOG_CREATE_PARAMS**](/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_recorder_log_create_params) structure.
+A pointer to a [**RECORDER_LOG_CREATE_PARAMS**](./ns-wpprecorder-_recorder_log_create_params.md) structure.
 
 ### -param RecorderLog
 

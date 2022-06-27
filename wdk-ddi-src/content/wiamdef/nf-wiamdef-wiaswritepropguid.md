@@ -63,12 +63,12 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-[wiasReadPropGuid](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasreadpropguid)
+[wiasReadPropGuid](./nf-wiamdef-wiasreadpropguid.md)
 
-[wiasWritePropBin](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropbin)
+[wiasWritePropBin](./nf-wiamdef-wiaswritepropbin.md)
 
-[wiasWritePropFloat](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropfloat)
+[wiasWritePropFloat](./nf-wiamdef-wiaswritepropfloat.md)
 
-[wiasWritePropLong](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswriteproplong)
+[wiasWritePropLong](./nf-wiamdef-wiaswriteproplong.md)
 
-[wiasWritePropStr](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropstr)
+[wiasWritePropStr](./nf-wiamdef-wiaswritepropstr.md)

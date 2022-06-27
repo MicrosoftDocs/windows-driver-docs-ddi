@@ -66,15 +66,15 @@ When set to **TRUE**, the driver must return decoded bar code data in the form o
 
 ### -field BarcodeScannerCapabilities
 
-Contains information about what functionality the barcode scanner supports. For example, a barcode scanner may support imaging and standard power reporting but not statistics updating and reporting. For more information about the values for barcode capabilities, see [PosBarcodeScannerCapabilitiesType](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posbarcodescannercapabilitiestype). (Read-only).
+Contains information about what functionality the barcode scanner supports. For example, a barcode scanner may support imaging and standard power reporting but not statistics updating and reporting. For more information about the values for barcode capabilities, see [PosBarcodeScannerCapabilitiesType](./ns-pointofservicedriverinterface-_posbarcodescannercapabilitiestype.md). (Read-only).
 
 ### -field BarcodeScannerSupportedSymbologies
 
-Contains an array representing the complete list of symbologies that the barcode scanner is capable of reading. Also returns the number of bytes required for the array of symbologies. For symbology definitions, see [BarcodeSymbology](/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-_barcodesymbology). (Read-only).
+Contains an array representing the complete list of symbologies that the barcode scanner is capable of reading. Also returns the number of bytes required for the array of symbologies. For symbology definitions, see [BarcodeSymbology](../pointofservicecommontypes/ne-pointofservicecommontypes-_barcodesymbology.md). (Read-only).
 
 ### -field BarcodeScannerActiveSymbologies
 
-Indicates the symbologies that the barcode scanner is actively handling. (Write-only). For symbology definitions, see [BarcodeSymbology](/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-_barcodesymbology).
+Indicates the symbologies that the barcode scanner is actively handling. (Write-only). For symbology definitions, see [BarcodeSymbology](../pointofservicecommontypes/ne-pointofservicecommontypes-_barcodesymbology.md).
 
 ### -field BarcodeScannerSupportedProfiles
 
@@ -90,11 +90,11 @@ Indicates whether to provide raw or decoded data from the most recently swiped c
 
 ### -field MagneticStripeReaderCapabilities
 
-Returns a [PosMagneticStripeReaderCapabilitiesType](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posmagneticstripereadercapabilitiestype) that describes the capabilities of the MSR. (Read-Only).
+Returns a [PosMagneticStripeReaderCapabilitiesType](./ns-pointofservicedriverinterface-_posmagneticstripereadercapabilitiestype.md) that describes the capabilities of the MSR. (Read-Only).
 
 ### -field MagneticStripeReaderSupportedCardTypes
 
-Returns an array of [MsrCardType](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ne-pointofservicedriverinterface-_msrcardtype)s supported by the MSR. (Read-only).
+Returns an array of [MsrCardType](./ne-pointofservicedriverinterface-_msrcardtype.md)s supported by the MSR. (Read-only).
 
 ### -field MagneticStripeReaderDeviceAuthenticationProtocol
 
@@ -102,11 +102,11 @@ The driver must return a [MsrAuthenticationProtocolType](/previous-versions/wind
 
 ### -field MagneticStripeReaderErrorReportingType
 
-Specifies the level of error reporting that the MSR supports. For more information about the values for error reporting levels, see [MsrErrorReportingType](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ne-pointofservicedriverinterface-_msrerrorreportingtype). (Read/write).
+Specifies the level of error reporting that the MSR supports. For more information about the values for error reporting levels, see [MsrErrorReportingType](./ne-pointofservicedriverinterface-_msrerrorreportingtype.md). (Read/write).
 
 ### -field MagneticStripeReaderTracksToRead
 
-Specifies which tracks the application will receive following a card swipe. Does not indicate the capability of the device hardware; instead, it is an application-configurable property representing the tracks to be read. For more information about track values, see [MsrTrackIds](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ne-pointofservicedriverinterface-_msrtrackids). (Read/write).
+Specifies which tracks the application will receive following a card swipe. Does not indicate the capability of the device hardware; instead, it is an application-configurable property representing the tracks to be read. For more information about track values, see [MsrTrackIds](./ne-pointofservicedriverinterface-_msrtrackids.md). (Read/write).
 
 ### -field MagneticStripeReaderIsTransmitSentinelsEnabled
 
@@ -118,7 +118,7 @@ Indicates whether the device is authenticated. (Read-only).
 
 ### -field MagneticStripeReaderDataEncryptionAlgorithm
 
-Specifies the [MsrDataEncryption](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ne-pointofservicedriverinterface-_msrdataencryption) that will be used to encrypt the track data. (Read/write).
+Specifies the [MsrDataEncryption](./ne-pointofservicedriverinterface-_msrdataencryption.md) that will be used to encrypt the track data. (Read/write).
 
 ### -field BarcodeScannerVideoDeviceId
 
@@ -126,6 +126,6 @@ Defines the **BarcodeScannerVideoDeviceId** constant.
 
 ## -see-also
 
-[IOCTL_POINT_OF_SERVICE_GET_PROPERTY](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_get_property)
+[IOCTL_POINT_OF_SERVICE_GET_PROPERTY](./ni-pointofservicedriverinterface-ioctl_point_of_service_get_property.md)
 
-[IOCTL_POINT_OF_SERVICE_SET_PROPERTY](/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_set_property)
+[IOCTL_POINT_OF_SERVICE_SET_PROPERTY](./ni-pointofservicedriverinterface-ioctl_point_of_service_set_property.md)
