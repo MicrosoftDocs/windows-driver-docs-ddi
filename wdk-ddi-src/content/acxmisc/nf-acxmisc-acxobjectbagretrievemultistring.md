@@ -68,32 +68,10 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
-TBD - Would we use a WDF multi string like? >> 
-
-[WdfRegistryQueryMultiString function](/windows-hardware/drivers/ddi/wdfregistry/nf-wdfregistry-wdfregistryquerymultistring)
-
-```cpp
-WDF_OBJECT_ATTRIBUTES stringAttributes;
-WDFCOLLECTION col;
-NTSTATUS status;
-ULONG count;
-DECLARE_CONST_UNICODE_STRING(valueMultiSz, VALUE_MULTI_SZ);
-
-status = WdfCollectionCreate(
-                             NULL,
-                             &col
-                             );
-ASSERT(NT_SUCCESS(status));
-
-WDF_OBJECT_ATTRIBUTES_INIT(&stringAttributes);
-stringAttributes.ParentObject = col;
-
-```
+Example pending.
 
 ## -see-also
 
 - [acxmisc.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
