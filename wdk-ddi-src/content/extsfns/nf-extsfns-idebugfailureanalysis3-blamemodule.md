@@ -1,10 +1,10 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis3.BlameModule
-tech.root: 
+tech.root: debugger
 title: IDebugFailureAnalysis3::BlameModule
-ms.date: 
+ms.date: 06/27/2022
 targetos: Windows
-description: 
+description: IDebugFailureAnalysis3::BlameETHREAD is used for failure analysis processing.
 prerelease: false
 req.assembly: 
 req.construct-type: function

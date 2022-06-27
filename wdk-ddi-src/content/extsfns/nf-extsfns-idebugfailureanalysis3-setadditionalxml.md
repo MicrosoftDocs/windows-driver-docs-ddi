@@ -1,10 +1,10 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis3.SetAdditionalXML
-tech.root: 
+tech.root: debugger
 title: IDebugFailureAnalysis3::SetAdditionalXML
-ms.date: 
+ms.date: 06/27/2022
 targetos: Windows
-description: 
+description: IDebugFailureAnalysis3::SetAdditionalXML is used for failure analysis processing.
 prerelease: false
 req.assembly: 
 req.construct-type: function

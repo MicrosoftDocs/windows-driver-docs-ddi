@@ -1,10 +1,10 @@
 ---
 UID: NN:extsfns.IDebugFailureAnalysis3
-tech.root: 
+tech.root: debugger
 title: IDebugFailureAnalysis3
-ms.date: 
+ms.date: 06/27/2022
 targetos: Windows
-description: 
+description: IDebugFailureAnalysis3 is used for failure analysis processing.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
