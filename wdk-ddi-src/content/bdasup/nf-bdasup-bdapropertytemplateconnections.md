@@ -56,7 +56,7 @@ Points to a [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure) 
 
 ### -param pConnectionProperty [out, optional]
 
-Points to an array that receives the list of [KSTOPOLOGY_CONNECTION](/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection) structures that describe the connections in a template topology.
+Points to an array that receives the list of [KSTOPOLOGY_CONNECTION](../ks/ns-ks-kstopology_connection.md) structures that describe the connections in a template topology.
 
 ## -returns
 
@@ -66,15 +66,15 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 A BDA minidriver calls the **BdaPropertyTemplateConnections** function to retrieve the list of template connections after the minidriver receives a [KSPROPERTY_BDA_TEMPLATE_CONNECTIONS](/windows-hardware/drivers/stream/ksproperty-bda-template-connections) request of the [KSPROPSETID_BdaTopology](/windows-hardware/drivers/stream/kspropsetid-bdatopology) property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the **BdaPropertyTemplateConnections** function directly, without intercepting this request using an internal get-handler ([KStrGetPropertyHandler](/previous-versions/ff567177(v=vs.85))). See [Defining Automation Tables](/windows-hardware/drivers/stream/defining-automation-tables) and [Determining BDA Device Topology](/windows-hardware/drivers/stream/determining-bda-device-topology) for more information.
 
-The BDA minidriver provided a list of connections to the BDA support library in an array of [KSTOPOLOGY_CONNECTION](/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection) structures when the BDA minidriver passed the BDA filter template ([BDA_FILTER_TEMPLATE](/windows-hardware/drivers/ddi/bdasup/ns-bdasup-_bda_filter_template)) in [BdaCreateFilterFactory](/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdacreatefilterfactory) and [BdaInitFilter](/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdainitfilter) function calls. This array is a representation of all the possible connections between node and pin types that can be made within the filter or between the filter and adjoining filters. The **BdaPropertyTemplateConnections** function returns this array.
+The BDA minidriver provided a list of connections to the BDA support library in an array of [KSTOPOLOGY_CONNECTION](../ks/ns-ks-kstopology_connection.md) structures when the BDA minidriver passed the BDA filter template ([BDA_FILTER_TEMPLATE](./ns-bdasup-_bda_filter_template.md)) in [BdaCreateFilterFactory](./nf-bdasup-bdacreatefilterfactory.md) and [BdaInitFilter](./nf-bdasup-bdainitfilter.md) function calls. This array is a representation of all the possible connections between node and pin types that can be made within the filter or between the filter and adjoining filters. The **BdaPropertyTemplateConnections** function returns this array.
 
 ## -see-also
 
-[BDA_FILTER_TEMPLATE](/windows-hardware/drivers/ddi/bdasup/ns-bdasup-_bda_filter_template)
+[BDA_FILTER_TEMPLATE](./ns-bdasup-_bda_filter_template.md)
 
-[BdaCreateFilterFactory](/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdacreatefilterfactory)
+[BdaCreateFilterFactory](./nf-bdasup-bdacreatefilterfactory.md)
 
-[BdaInitFilter](/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdainitfilter)
+[BdaInitFilter](./nf-bdasup-bdainitfilter.md)
 
 [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)
 
@@ -82,4 +82,4 @@ The BDA minidriver provided a list of connections to the BDA support library in 
 
 [KSPROPSETID_BdaTopology](/windows-hardware/drivers/stream/kspropsetid-bdatopology)
 
-[KSTOPOLOGY_CONNECTION](/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection)
+[KSTOPOLOGY_CONNECTION](../ks/ns-ks-kstopology_connection.md)

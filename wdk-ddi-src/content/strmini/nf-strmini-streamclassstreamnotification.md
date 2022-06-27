@@ -82,8 +82,8 @@ Points to the stream object of the stream that the class driver is being notifie
 
 ## -remarks
 
-The minidriver uses this routine for requests or events that apply to the minidriver as a whole. Stream-specific requests or events use [StreamClassDeviceNotification](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassdevicenotification).
+The minidriver uses this routine for requests or events that apply to the minidriver as a whole. Stream-specific requests or events use [StreamClassDeviceNotification](./nf-strmini-streamclassdevicenotification.md).
 
 ## -see-also
 
-[StreamClassDeviceNotification](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassdevicenotification)
+[StreamClassDeviceNotification](./nf-strmini-streamclassdevicenotification.md)

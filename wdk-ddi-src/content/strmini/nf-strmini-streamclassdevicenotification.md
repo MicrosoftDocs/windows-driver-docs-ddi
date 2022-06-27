@@ -72,14 +72,14 @@ Deletes the event specified by an optional parameter.
 
 ### -param HwDeviceExtension [in]
 
-Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the [HW_INITIALIZATION_DATA](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data) structure it passes when it registers itself via [StreamClassRegisterMinidriver](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter). The class driver then passes pointers to the buffer in the **HwDeviceExtension** member of the [HW_STREAM_REQUEST_BLOCK](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block), [HW_STREAM_OBJECT](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object), [HW_TIME_CONTEXT](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context), and [PORT_CONFIGURATION_INFORMATION](/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information) structures it passes to the minidriver.
+Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the [HW_INITIALIZATION_DATA](./ns-strmini-_hw_initialization_data.md) structure it passes when it registers itself via [StreamClassRegisterMinidriver](./nf-strmini-streamclassregisteradapter.md). The class driver then passes pointers to the buffer in the **HwDeviceExtension** member of the [HW_STREAM_REQUEST_BLOCK](./ns-strmini-_hw_stream_request_block.md), [HW_STREAM_OBJECT](./ns-strmini-_hw_stream_object.md), [HW_TIME_CONTEXT](./ns-strmini-_hw_time_context.md), and [PORT_CONFIGURATION_INFORMATION](./ns-strmini-_port_configuration_information.md) structures it passes to the minidriver.
 
 ### -param ...
 
 ## -remarks
 
-The minidriver uses this routine for requests or events that apply to the minidriver as a whole. Stream-specific requests or events use [StreamClassStreamNotification](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification).
+The minidriver uses this routine for requests or events that apply to the minidriver as a whole. Stream-specific requests or events use [StreamClassStreamNotification](./nf-strmini-streamclassstreamnotification.md).
 
 ## -see-also
 
-[StreamClassStreamNotification](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification)
+[StreamClassStreamNotification](./nf-strmini-streamclassstreamnotification.md)

@@ -64,15 +64,15 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 ## -remarks
 
-A BDA minidriver calls the **BdaMethodCreatePin** function to create a pin factory after the minidriver receives a [KSMETHOD_BDA_CREATE_PIN_FACTORY](/windows-hardware/drivers/stream/ksmethod-bda-create-pin-factory) request of the [KSMETHODSETID_BdaDeviceConfiguration](/windows-hardware/drivers/stream/ksmethodsetid-bdadeviceconfiguration) method set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the **BdaMethodCreatePin** function directly, without intercepting this request using an internal method ([KStrMethodHandler](/windows-hardware/drivers/ddi/ks/nc-ks-pfnkshandler)). See [Defining Automation Tables](/windows-hardware/drivers/stream/defining-automation-tables) and [Configuring a BDA Filter](/windows-hardware/drivers/stream/configuring-a-bda-filter) for more information.
+A BDA minidriver calls the **BdaMethodCreatePin** function to create a pin factory after the minidriver receives a [KSMETHOD_BDA_CREATE_PIN_FACTORY](/windows-hardware/drivers/stream/ksmethod-bda-create-pin-factory) request of the [KSMETHODSETID_BdaDeviceConfiguration](/windows-hardware/drivers/stream/ksmethodsetid-bdadeviceconfiguration) method set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the **BdaMethodCreatePin** function directly, without intercepting this request using an internal method ([KStrMethodHandler](../ks/nc-ks-pfnkshandler.md)). See [Defining Automation Tables](/windows-hardware/drivers/stream/defining-automation-tables) and [Configuring a BDA Filter](/windows-hardware/drivers/stream/configuring-a-bda-filter) for more information.
 
 If a BDA minidriver must create a pin without relying on the network provider, the BDA minidriver should call the **BdaCreatePin** function.
 
 ## -see-also
 
-[BdaCreatePin](/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdacreatepin)
+[BdaCreatePin](./nf-bdasup-bdacreatepin.md)
 
-[BdaMethodDeletePin](/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdamethoddeletepin)
+[BdaMethodDeletePin](./nf-bdasup-bdamethoddeletepin.md)
 
 [KSMETHOD](/windows-hardware/drivers/stream/ksmethod-structure)
 
@@ -80,4 +80,4 @@ If a BDA minidriver must create a pin without relying on the network provider, t
 
 [KSMETHOD_BDA_CREATE_PIN_FACTORY](/windows-hardware/drivers/stream/ksmethod-bda-create-pin-factory)
 
-[KStrMethodHandler](/windows-hardware/drivers/ddi/ks/nc-ks-pfnkshandler)
+[KStrMethodHandler](../ks/nc-ks-pfnkshandler.md)

@@ -469,7 +469,7 @@ The offset within the [ADL](ns-d3dkmddi-dxgk_adl.md) to the start of the range o
 
 ### -field MapApertureSegment2.CpuVisibleAddress
 
-If a driver's allocation was created with the [**MapApertureCpuVisible**](/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationinfoflags_wddm2_0) flag set, **CpuVisibleAddress** is a non-null pointer to a system-mapped, kernel-mode virtual address for [**DXGK_OPERATION_MAP_APERTURE_SEGMENT2**](ne-d3dkmddi-_dxgk_buildpagingbuffer_operation.md) operations. This address is valid as long as the allocation is mapped into the aperture segment and will be freed immediately after the corresponding **DXGK_OPERATION_UNMAP_APERTURE_SEGMENT** call for the same allocation.
+If a driver's allocation was created with the [**MapApertureCpuVisible**](./ns-d3dkmddi-_dxgk_allocationinfoflags_wddm2_0.md) flag set, **CpuVisibleAddress** is a non-null pointer to a system-mapped, kernel-mode virtual address for [**DXGK_OPERATION_MAP_APERTURE_SEGMENT2**](ne-d3dkmddi-_dxgk_buildpagingbuffer_operation.md) operations. This address is valid as long as the allocation is mapped into the aperture segment and will be freed immediately after the corresponding **DXGK_OPERATION_UNMAP_APERTURE_SEGMENT** call for the same allocation.
 
 If **MapApertureCpuVisible** is not specified, **CpuVisibleAddress** is NULL for [**DXGK_OPERATION_MAP_APERTURE_SEGMENT2**](ne-d3dkmddi-_dxgk_buildpagingbuffer_operation.md) operations.
 
