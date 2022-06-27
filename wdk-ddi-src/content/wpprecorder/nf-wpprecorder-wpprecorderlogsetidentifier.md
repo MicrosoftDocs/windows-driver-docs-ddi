@@ -4,7 +4,7 @@ title: WppRecorderLogSetIdentifier macro (wpprecorder.h)
 description: Learn how the WppRecorderLogSetIdentifier method sets a string identifier for the recorder log.
 old-location: devtest\wpprecorderlogsetidentifier.htm
 tech.root: devtest
-ms.date: 02/23/2018
+ms.date: 04/19/2022
 keywords: ["WppRecorderLogSetIdentifier macro"]
 ms.keywords: WppRecorderLogSetIdentifier, devtest.wpprecorderlogsetidentifier, imp_WppRecorderLogSetIdentifier, imp_WppRecorderLogSetIdentifier function [Driver Development Tools], wpprecorder/imp_WppRecorderLogSetIdentifier
 req.header: wpprecorder.h
@@ -49,11 +49,11 @@ The <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorde
 
 ## -parameters
 
-### -param RecorderLog
+### -param RecorderLog [in]
 
-A recorder log handle returned in a previous call to WppRecorderLogCreate.
+A recorder log handle returned in a previous call to [**WppRecorderLogCreate**](/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate).
 
-### -param LogIdentifier
+### -param LogIdentifier [in]
 
 A string identifier to set.
 

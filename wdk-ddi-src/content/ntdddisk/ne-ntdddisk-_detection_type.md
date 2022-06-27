@@ -1,10 +1,10 @@
 ---
 UID: NE:ntdddisk._DETECTION_TYPE
-title: _DETECTION_TYPE (ntdddisk.h)
+title: DETECTION_TYPE (ntdddisk.h)
 description: The DETECTION_TYPE enumeration type is used in conjunction with the IOCTL_DISK_GET_DRIVE_GEOMETRY_EX request and the DISK_GEOMETRY_EX structure to determine the type of formatting used by the BIOS to record the disk geometry.
 old-location: storage\detection_type.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/20/2022
 keywords: ["DETECTION_TYPE enumeration"]
 ms.keywords: DETECTION_TYPE, DETECTION_TYPE enumeration [Storage Devices], DetectExInt13, DetectInt13, DetectNone, _DETECTION_TYPE, ntdddisk/DETECTION_TYPE, ntdddisk/DetectExInt13, ntdddisk/DetectInt13, ntdddisk/DetectNone, storage.detection_type, structs-disk_2d3d7a57-abcd-43b2-a62d-8b8c45a9fca0.xml
 req.header: ntdddisk.h
@@ -43,12 +43,11 @@ api_name:
  - DETECTION_TYPE
 ---
 
-# _DETECTION_TYPE enumeration
-
+# DETECTION_TYPE enumeration
 
 ## -description
 
-The DETECTION_TYPE enumeration type is used in conjunction with the <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_drive_geometry_ex">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a> request and the <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry_ex">DISK_GEOMETRY_EX</a> structure to determine the type of formatting used by the BIOS to record the disk geometry.
+The **DETECTION_TYPE** enumeration type is used in conjunction with the [**IOCTL_DISK_GET_DRIVE_GEOMETRY_EX**](ni-ntdddisk-ioctl_disk_get_drive_geometry_ex.md) request and the [**DISK_GEOMETRY_EX**](ns-ntdddisk-_disk_geometry_ex.md) structure to determine the type of formatting used by the BIOS to record the disk geometry.
 
 ## -enum-fields
 
@@ -70,5 +69,4 @@ Possible formatting types are the standard INT 13h partition format or the exten
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_detection_info">DISK_DETECTION_INFO</a>
-
+[**DISK_DETECTION_INFO**](ns-ntdddisk-_disk_detection_info.md)

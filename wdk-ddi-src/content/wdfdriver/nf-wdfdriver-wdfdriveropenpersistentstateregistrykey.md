@@ -2,7 +2,7 @@
 UID: NF:wdfdriver.WdfDriverOpenPersistentStateRegistryKey
 title: WdfDriverOpenPersistentStateRegistryKey
 tech.root: wdf
-ms.date: 07/06/2021
+ms.date: 06/15/2022
 targetos: Windows
 description: "Learn more about: WdfDriverOpenPersistentStateRegistryKey"
 req.assembly: 
@@ -18,7 +18,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 1909
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 

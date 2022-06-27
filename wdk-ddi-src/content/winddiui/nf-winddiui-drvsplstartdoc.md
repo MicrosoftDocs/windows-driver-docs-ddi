@@ -45,14 +45,14 @@ This topic describes the **DrvSplStartDoc** function.
 
 ## -parameters
 
-### -param hDriver
+### -param hPrinter
 
-Defines the **HANDLE** parameter *hDriver*.
+Defines the **HANDLE** parameter *hPrinter*.
 
 ### -param JobId
 
-Defines the DWORD parameter JobId.
+Defines the **DWORD** parameter *JobId*.
 
 ## -returns
 
-The driver handle.
+The print driver handle.

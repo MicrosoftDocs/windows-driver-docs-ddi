@@ -2,9 +2,8 @@
 UID: NF:wiautil.wiauRegGetStrA
 title: wiauRegGetStrA function (wiautil.h)
 description: The wiauRegGetStr function gets a string value from the DeviceData section of the registry.
-old-location: image\wiaureggetstr.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 04/20/2022
 keywords: ["wiauRegGetStrA function"]
 ms.keywords: image.wiaureggetstr, wiauFncs_b9145502-734d-40de-8086-c1f193966269.xml, wiauRegGetStr, wiauRegGetStr function [Imaging Devices], wiauRegGetStrA, wiauRegGetStrW, wiautil/wiauRegGetStr
 req.header: wiautil.h
@@ -43,38 +42,27 @@ api_name:
  - wiauRegGetStr
 ---
 
-# wiauRegGetStrA function
-
-
 ## -description
 
-The <b>wiauRegGetStr</b> function gets a string value from the <b>DeviceData</b> section of the registry.
+The **wiauRegGetStr** function gets a string value from the **DeviceData** section of the registry.
 
 ## -parameters
 
 ### -param hkKey [in]
 
+Specifies the registry key handle. This parameter should be set to the value pointed to by the *phkeyDeviceData* parameter when [wiauRegOpenData](/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw) returns.
 
-Specifies the registry key handle. This parameter should be set to the value pointed to by the <i>phkeyDeviceData </i>parameter when <a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw">wiauRegOpenData</a> returns.
+### -param pszValueName [in]
 
-### -param pszValueName
+Points to the first character of a Unicode string containing the name of the registry entry.
 
-### -param pszValue
-
-### -param pdwLength [in, out]
-
-
-Pointer to a memory location that receives the length, in bytes, of the string value pointed to by the <i>pwszValue</i> parameter. The length includes the terminating null character.
-
-
-### -param pwszValue [out]
+### -param pszValue [out]
 
 Pointer to a memory location that receives the string value, including a terminating null character.
 
+### -param pdwLength [in, out]
 
-### -param pwszValueName [in]
-
-Points to the first character of a Unicode string containing the name of the registry entry.
+Pointer to a memory location that receives the length, in bytes, of the string value pointed to by the *pwszValue* parameter. The length includes the terminating null character.
 
 ## -returns
 
@@ -82,9 +70,6 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaureggetdwordw">wiauRegGetDword</a>
+[wiauRegGetDword](/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaureggetdwordw)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw">wiauRegOpenData</a>
-
+[wiauRegOpenData](/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw)

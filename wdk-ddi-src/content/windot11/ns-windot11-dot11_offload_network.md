@@ -68,8 +68,6 @@ Wireless LAN authentication algorithm.
 
 ### -field Dot11ChannelHints
 
-### -field Dot11ChannelHints[DOT11_MAX_CHANNEL_HINTS]
-
 Array of hints listing 802.11 PHY and media types and channels.
 
 ## -syntax

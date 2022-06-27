@@ -48,7 +48,6 @@ api_name:
 
 # _LPIT structure
 
-
 ## -description
 
 Defines an LPI ACPI table.
@@ -62,4 +61,3 @@ A header.
 ### -field LpiStates
 
 An array of states.
-

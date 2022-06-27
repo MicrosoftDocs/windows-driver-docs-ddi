@@ -4,7 +4,7 @@ title: WdfDeviceGetDeviceState function (wdfdevice.h)
 description: The WdfDeviceGetDeviceState method retrieves the device state for a specified device.
 old-location: wdf\wdfdevicegetdevicestate.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 01/26/2022
 keywords: ["WdfDeviceGetDeviceState function"]
 ms.keywords: DFDeviceObjectGeneralRef_459b9aad-7503-4319-be67-4b713a32559e.xml, WdfDeviceGetDeviceState, WdfDeviceGetDeviceState method, kmdf.wdfdevicegetdevicestate, wdf.wdfdevicegetdevicestate, wdfdevice/WdfDeviceGetDeviceState
 req.header: wdfdevice.h
@@ -59,7 +59,7 @@ The <b>WdfDeviceGetDeviceState</b> method retrieves the device state for a speci
 
 A handle to a framework device object.
 
-### -param DeviceState [out]
+### -param DeviceState [in, out]
 
 
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_state">WDF_DEVICE_STATE</a> structure that receives the device's state information.

@@ -88,6 +88,17 @@ The routine successfully returned the specified collection's link collection arr
 <tr>
 <td width="40%">
 <dl>
+<dt><b>HIDP_STATUS_INVALID_PREPARSED_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The preparsed data is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
 <dt><b>HIDP_STATUS_BUFFER_TOO_SMALL </b></dt>
 </dl>
 </td>

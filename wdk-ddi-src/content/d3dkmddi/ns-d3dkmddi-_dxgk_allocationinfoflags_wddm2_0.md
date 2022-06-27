@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dkmddi._DXGK_ALLOCATIONINFOFLAGS_WDDM2_0
-title: _DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 (d3dkmddi.h)
+title: DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 (d3dkmddi.h)
 description: The DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure identifies properties for an allocation. The display miniport driver specifies these flags for the video memory manager.
-ms.date: 05/13/2021
+ms.date: 06/24/2022
 keywords: ["_DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure"]
 ms.keywords: DXGK_ALLOCATIONINFOFLAGS_WDDM2_0, DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure [Display Devices], d3dkmddi/DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags
 req.header: d3dkmddi.h
@@ -42,7 +42,7 @@ api_name:
  - DXGK_ALLOCATIONINFOFLAGS_WDDM2_0
 ---
 
-# _DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure
+# DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure
 
 ## -description
 
@@ -156,7 +156,7 @@ Setting this member is equivalent to setting the thirteenth bit of the 32-bit **
 
 ### -field MapApertureCpuVisible [in]
 
-When set, indicates that the driver requires CPU access to memory during a [**DxgkDdiBuildPagingBuffer**](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) call for a [**DXGK_OPERATION_MAP_APERTURE_SEGMENT2**](ne-d3dkmddi-_dxgk_buildpagingbuffer_operation.md) operation. Supported starting in Windows Server 2022.
+When set, indicates that the driver requires CPU access to memory during a [**DxgkDdiBuildPagingBuffer**](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) call for a [**DXGK_OPERATION_MAP_APERTURE_SEGMENT2**](ne-d3dkmddi-_dxgk_buildpagingbuffer_operation.md) operation. **MapApertureCpuVisible** is a part of **DxgkDdiBuildPagingBuffer**'s **MapAperatureSegment2** functionality, so the driver must set [**DXGK_VIDMMCAPS MapAperature2Supported**](ns-d3dkmddi-_dxgk_vidmmcaps.md) to use this field. If **MapAperature2Supported** is not set but the driver specifies **MapApertureCpuVisible**, the call to [**DxgkDdiCreateAllocation**](nc-d3dkmddi-dxgkddi_createallocation.md) will fail. See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information. Supported starting in Windows Server 2022.
 
 ### -field HistoryBuffer [out]
 

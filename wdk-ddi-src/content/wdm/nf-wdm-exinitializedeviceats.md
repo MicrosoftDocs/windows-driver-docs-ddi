@@ -1,10 +1,10 @@
 ---
 UID: NF:wdm.ExInitializeDeviceAts
 tech.root: kernel
-title: ExInitializeDeviceAts
-ms.date: 01/24/2022
+title: ExInitializeDeviceAts (wdm.h)
+ms.date: 03/02/2022
 targetos: Windows
-description: The ExInitializeDeviceAts function...
+description: Describes the ExInitializeDeviceAts function.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -12,7 +12,7 @@ req.ddi-compliance:
 req.dll: 
 req.header: wdm.h
 req.idl: 
-req.include-header: 
+req.include-header: wdm.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: 
@@ -21,7 +21,7 @@ req.namespace:
 req.redist: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.target-type: 
+req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
@@ -44,15 +44,22 @@ helpviewer_keywords:
 
 ## -description
 
+Describes the **ExInitializeDeviceAts** function.
+
 ## -parameters
 
 ### -param PhysicalDeviceObject
 
-### -param SvmOptOut
+Defines the **_DEVICE_OBJECT** parameter *PhysicalDeviceObject*.
+
+### -param Flags
+
+Defines the **ULONG** parameter *Flags*.
 
 ## -returns
+
+NTSTATUS
 
 ## -remarks
 
 ## -see-also
-

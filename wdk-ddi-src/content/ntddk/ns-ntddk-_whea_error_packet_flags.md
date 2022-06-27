@@ -91,9 +91,21 @@ A single bit that indicates whether the PSHED plug-in that performs PFA on a sys
 
 ### -field DUMMYSTRUCTNAME.AddressTranslationRequired
 
+This field indicates that WHEA has identified this packet represents a memory error but the error data gathered by WHEA does not contain
+a valid physical address. A PSHED Plug-in may perform platform specific translation on the address to allow WHEA to take action. If 
+this flag is set and the **RecoveryOptional** flag is 0 the system crashes with [bug check code 0x124](/windows-hardware/drivers/debugger/bug-check-0x124---whea-uncorrectable-error) indicating a fatal hardware error.
+
 ### -field DUMMYSTRUCTNAME.AddressTranslationCompleted
 
+If the **AddressTranslationRequired** bit is set, a PSHED plug-in may set this bit during its retrieve error info callback to indicate the 
+memory address contained in the error state has been updated to reflect a valid physical address. This will allow WHEA to perform
+recovery.
+
 ### -field DUMMYSTRUCTNAME.RecoveryOptional
+
+This field indicates that recovery is optional and the system may continue execution without further action. This flag is set 
+for errors where action is optional and AddressTranslationRequired is set to prevent the system from crashing if a PSHED plug-in 
+does not provide a translation.
 
 ### -field DUMMYSTRUCTNAME.Reserved2
 

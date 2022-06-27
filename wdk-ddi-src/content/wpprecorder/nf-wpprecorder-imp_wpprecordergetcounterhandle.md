@@ -1,12 +1,12 @@
 ---
 UID: NF:wpprecorder.imp_WppRecorderGetCounterHandle
-title: imp_WppRecorderGetCounterHandle function (wpprecorder.h)
+title: WppRecorderGetCounterHandle function (wpprecorder.h)
 description: The WppRecorderGetCounterHandle method.
 old-location: devtest\wpprecordergetcounterhandle.htm
 tech.root: devtest
-ms.date: 02/23/2018
-keywords: ["imp_WppRecorderGetCounterHandle function"]
-ms.keywords: WppRecorderGetCounterHandle, devtest.wpprecordergetcounterhandle, imp_WppRecorderGetCounterHandle, imp_WppRecorderGetCounterHandle function [Driver Development Tools], wpprecorder/imp_WppRecorderGetCounterHandle
+ms.date: 04/19/2022
+keywords: ["WppRecorderGetCounterHandle function"]
+ms.keywords: WppRecorderGetCounterHandle, devtest.wpprecordergetcounterhandle, WppRecorderGetCounterHandle, WppRecorderGetCounterHandle function [Driver Development Tools], wpprecorder/WppRecorderGetCounterHandle
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows
@@ -27,8 +27,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - imp_WppRecorderGetCounterHandle
- - wpprecorder/imp_WppRecorderGetCounterHandle
+ - WppRecorderGetCounterHandle
+ - wpprecorder/WppRecorderGetCounterHandle
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,19 +37,26 @@ api_type:
 api_location:
  - wpprecorder.h
 api_name:
- - imp_WppRecorderGetCounterHandle
+ - WppRecorderGetCounterHandle
 ---
 
-# imp_WppRecorderGetCounterHandle function
+# WppRecorderGetCounterHandle function
 
 
 ## -description
 
 The <b>WppRecorderGetCounterHandle</b> method gets the ID of the counter whose current value is to be read.
 
+## -syntax
+
+```cpp
+WPP_RECORDER_COUNTER
+WppRecorderGetCounterHandle(
+    );
+```
+
 ## -parameters
 
-### -param WppCb
 
 ## -returns
 

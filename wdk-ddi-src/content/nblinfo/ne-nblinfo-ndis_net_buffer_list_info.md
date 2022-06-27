@@ -1,7 +1,7 @@
 ---
 UID: NE:nblinfo._NDIS_NET_BUFFER_LIST_INFO
 title: NDIS_NET_BUFFER_LIST_INFO
-ms.date: 11/30/2020
+ms.date: 03/22/2022
 targetos: Windows
 description: The NDIS_NET_BUFFER_LIST_INFO enumeration identifies information that is common to all NET_BUFFER structures in a NET_BUFFER_LIST structure.
 tech.root: netvista
@@ -308,6 +308,14 @@ Reserved for NDIS.
 ### -field NetBufferListInfoReserved2
 
 Reserved for NDIS.
+
+### -field SwitchForwardingDetail_b0_to_b31
+
+Identifies a pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a> structure. **SwitchForwardingDetail_b0_to_b31** and **SwitchForwardingDetail_b32_to_b63** are used to fit 64b OOB data for 32b mode. Available in NDIS 6.82 and higher. 
+
+### -field SwitchForwardingDetail_b32_to_b63
+
+See **SwitchForwardingDetail_b0_to_b31**.
 
 ### -field MaxNetBufferListInfo
 

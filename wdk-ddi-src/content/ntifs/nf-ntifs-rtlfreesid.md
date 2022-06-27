@@ -4,7 +4,7 @@ title: RtlFreeSid function (ntifs.h)
 description: "Microsoft reserves the RtlFreeSid function for internal use only. Don't use this function in your code."
 old-location: ifsk\rtlfreesid.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["RtlFreeSid function"]
 ms.keywords: RtlFreeSid, RtlFreeSid function [Installable File System Drivers], ifsk.rtlfreesid, ntifs/RtlFreeSid, rtlref_4cdaafe3-70fa-4a22-be05-019e6b06cc15.xml
 req.header: ntifs.h
@@ -42,14 +42,16 @@ api_name:
 
 # RtlFreeSid function
 
-
 ## -description
 
-The <b>RtlFreeSid</b> routine is reserved for system use.
+The **RtlFreeSid** routine is reserved for system use.
 
 ## -parameters
 
 ### -param Sid
 
-<p>Reserved.</p>
+Reserved.
 
+## -returns
+
+Reserved.

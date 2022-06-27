@@ -2,7 +2,6 @@
 UID: NE:ksmedia.__unnamed_enum_87
 title: KSCAMERA_MetadataId (ksmedia.h)
 description: This enumeration contains identifiers for a metadata item.
-old-location: stream\kscamera_metadataid.htm
 tech.root: stream
 ms.date: 04/23/2018
 keywords: ["KSCAMERA_MetadataId enumeration"]
@@ -40,9 +39,6 @@ api_name:
  - KSCAMERA_MetadataId
 ---
 
-# KSCAMERA_MetadataId enumeration
-
-
 ## -description
 
 This enumeration contains identifiers for a metadata item.
@@ -51,27 +47,48 @@ This enumeration contains identifiers for a metadata item.
 
 ### -field MetadataId_Standard_Start
 
-This represent the standard start metadata ID.
+Enumerates the standard start metadata ID.
 
 ### -field MetadataId_PhotoConfirmation
 
-This represents the photo confirmation metadata ID
+Enumerates the photo confirmation metadata ID.
 
 ### -field MetadataId_UsbVideoHeader
 
+Enumerates the USB video header metadata ID.
+
 ### -field MetadataId_CaptureStats
+
+Enumerates the capture stats metadata ID.
 
 ### -field MetadataId_CameraExtrinsics
 
+Enumerates the camera extrinsics metadata ID.
+
 ### -field MetadataId_CameraIntrinsics
+
+Enumerates the camera intrinsics metadata ID.
 
 ### -field MetadataId_FrameIllumination
 
+Enumerates the digital window metadata ID.
+
+### -field MetadataId_DigitalWindow
+
+Enumerates the digital window metadata ID.
+
+### -field MetadataId_BackgroundSegmentationMask
+
+Enumerates the background segmentation mask metadata ID.
+
 ### -field MetadataId_Standard_End
 
-This represent the standard end  metadata ID.
+Enumerate the standard end metadata ID.
 
 ### -field MetadataId_Custom_Start
 
-This represents the lowest acceptable custom metadata ID.
+Enumerates the lowest acceptable custom metadata ID.
 
+## -remarks
+
+## -see-also

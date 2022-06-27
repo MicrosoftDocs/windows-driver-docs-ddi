@@ -4,7 +4,7 @@ title: IoPageRead function (ntifs.h)
 description: "Microsoft reserves the IoPageRead function for internal use only. Don't use this function in your code."
 old-location: ifsk\iopageread.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["IoPageRead function"]
 ms.keywords: IoPageRead, IoPageRead function [Installable File System Drivers], ifsk.iopageread, ioref_2c5776f2-eef8-49e5-ade1-3ed0edcd6102.xml, ntifs/IoPageRead
 req.header: ntifs.h
@@ -42,16 +42,15 @@ api_name:
 
 # IoPageRead function
 
-
 ## -description
 
-The <b>IoPageRead</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopyread">CcCopyRead</a> and <a href="/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
+The **IoPageRead** routine is reserved for system use. See [**CcCopyRead**](nf-ntifs-cccopyread.md) and [**CcMdlRead**](/previous-versions/ff539159(v=vs.85)).
 
 ## -parameters
 
 ### -param FileObject
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param MemoryDescriptorList
 
@@ -66,5 +65,9 @@ Reserved.
 Reserved.
 
 ### -param IoStatusBlock
+
+Reserved.
+
+## -returns
 
 Reserved.

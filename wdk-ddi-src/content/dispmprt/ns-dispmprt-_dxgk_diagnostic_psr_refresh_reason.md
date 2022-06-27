@@ -1,8 +1,8 @@
 ---
 UID: NS:dispmprt._DXGK_DIAGNOSTIC_PSR_REFRESH_REASON
-title: _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON (dispmprt.h)
+title: DXGK_DIAGNOSTIC_PSR_REFRESH_REASON (dispmprt.h)
 description: Indicates the reason or reasons for exiting PSR (Panel Self-Refresh).
-ms.date: 10/19/2018
+ms.date: 05/31/2022
 keywords: ["DXGK_DIAGNOSTIC_PSR_REFRESH_REASON structure"]
 ms.keywords: _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON, DXGK_DIAGNOSTIC_PSR_REFRESH_REASON,
 req.header: dispmprt.h
@@ -39,8 +39,7 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON structure
-
+# DXGK_DIAGNOSTIC_PSR_REFRESH_REASON structure
 
 ## -description
 
@@ -50,7 +49,7 @@ Indicates the reason or reasons for exiting PSR (Panel Self-Refresh).
 
 ### -field Present
 
-Pixels in one or more planes have been modified, requiring that the display be updated.
+Pixels in one or more planes have been modified, requiring that the display be updated. This could be that the pixel data has changed or a change to MPO visibility, position, scaling, orientation or some combination of these.
 
 ### -field CursorUpdate
 
@@ -60,15 +59,13 @@ The cursor image, position, visibility or a combination of these have been updat
 
 Vsync interrupts have been enabled and the hardware requires scanout to be driven in order to generate the Vsync interrupt.
 
-This could be any one of: legacy gamma, DXGI gamma, the 3x4 matrix color transform or any newer form of color transform.
-
 ### -field ColorTransformationChange
 
-Any form of color transform is being applied which requires the pixels on the panel to be updated.
+Any form of color transform is being applied which requires the pixels on the panel to be updated. This could be any one of: legacy gamma, DXGI gamma, the 3x4 matrix color transform or any newer form of color transform.
 
 ### -field BrightnessChange
 
-The display brightness has been changed and based on the hardware/display technology, this requires refreshing the pixels in the panel.  Note, for a display using a backlight, a brightness change would only require leaving PSR if backlight optimizations mean that the pixels also need to be updated.
+The display brightness has been changed and based on the hardware/display technology, this requires refreshing the pixels in the panel.  For a display using a backlight, a brightness change would only require leaving PSR if backlight optimizations mean that the pixels also need to be updated.
 
 ### -field SinkRequest
 
@@ -76,7 +73,7 @@ The display panel has requested an update from the host.
 
 ### -field Other
 
-A reason understood by the driver but not specified by any of the above.
+A reason understood by the driver but not specified by any of the above. Ideally, a new flag should be defined for any such reason in the next release.
 
 ### -field Reserved
 

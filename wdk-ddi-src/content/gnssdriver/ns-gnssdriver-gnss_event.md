@@ -2,13 +2,12 @@
 UID: NS:gnssdriver.__unnamed_struct_38
 title: GNSS_EVENT (gnssdriver.h)
 description: The GNSS_EVENT structure defines the information required for a GNSS event.
-old-location: gnss\gnss_event.htm
 tech.root: gnss
-ms.date: 02/15/2018
+ms.date: 06/20/2022
 keywords: ["GNSS_EVENT structure"]
 ms.keywords: "*PGNSS_EVENT, GNSS_EVENT, GNSS_EVENT structure [Sensor Devices], PGNSS_EVENT, PGNSS_EVENT structure pointer [Sensor Devices], gnss.gnss_event, gnssdriver/GNSS_EVENT, gnssdriver/PGNSS_EVENT"
 req.header: gnssdriver.h
-req.include-header: 
+req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,8 +42,6 @@ api_name:
  - GNSS_EVENT
 ---
 
-# GNSS_EVENT structure
-
 ## -description
 
 The **GNSS_EVENT** structure defines the information required for a GNSS event.
@@ -73,7 +70,7 @@ The GNSS driver must fill in appropriate size to avoid excessive data-copy betwe
 
 ### -field Unused
 
-Unused.
+Padding buffer reserved fore future use.
 
 ### -field FixData
 
@@ -113,13 +110,7 @@ This structure is filled if EventType is GNSS_Event_DriverRequest.
 
 ### -field CustomData
 
-### -field CustomData[ANYSIZE_ARRAY]
-
 Custom data field.
-
-### -field Unused[512]
-
-Padding buffer.
 
 ## -remarks
 

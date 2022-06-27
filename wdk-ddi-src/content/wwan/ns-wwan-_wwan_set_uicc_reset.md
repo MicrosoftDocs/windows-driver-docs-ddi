@@ -51,13 +51,17 @@ api_name:
 
 ## -description
 
-The <b>WWAN_SET_UICC_RESET</b> structure represents the passthrough action the MB host specifies for a modem miniport adapter after it resets a  UICC smart card.
+The <b>WWAN_SET_UICC_RESET</b> structure represents the passthrough action the MB host specifies for a modem miniport adapter after it resets a UICC smart card.
 
 ## -struct-fields
 
 ### -field PassThroughAction
 
 The passthrough action specified by the host. For more info, see <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_uicc_passthrough_action">WWAN_UICC_PASSTHROUGH_ACTION</a>.
+
+### -field SlotId
+
+A ULONG value that identifies the SIM slot of the operation. For single SIM devices this value is 0. For dual SIM devices this value is [0..1].
 
 ## -see-also
 

@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._SID
-title: _SID (ntifs.h)
+title: SID (ntifs.h)
 description: The security identifier (SID) structure is a variable-length structure used to uniquely identify users or groups.
 old-location: ifsk\sid.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["SID structure"]
 ms.keywords: "*PISID, PSID, PSID structure pointer [Installable File System Drivers], SID, SID structure [Installable File System Drivers], _SID, ifsk.sid, ntifs/PSID, ntifs/SID, securitystructures_748be9da-f428-42cd-a1f8-eca090e2b3aa.xml"
 req.header: ntifs.h
@@ -46,70 +46,52 @@ api_name:
  - SID
 ---
 
-# _SID structure
-
+# SID structure
 
 ## -description
 
 The security identifier (SID) structure is a variable-length structure used to uniquely identify users or groups.
 
-Drivers are not to modify the SID structure directly. To create and manipulate a security identifier, use the support routines listed in the See Also section.
+Drivers must not modify the SID structure directly. To create and manipulate a security identifier, use the support routines listed in the See Also section.
 
 ## -struct-fields
 
 ### -field Revision
 
+The revision level assigned to the SID.
+
 ### -field SubAuthorityCount
+
+Number of subauthorities in the SID.
 
 ### -field IdentifierAuthority
 
-### -field SubAuthority.size_is
-
-### -field SubAuthority.size_is.SubAuthorityCount
+A [**SID_IDENTIFIER_AUTHORITY**](ns-ntifs-_sid_identifier_authority.md) structure that represents the top-level authority of the SID.
 
 ### -field SubAuthority
 
+The subauthority of the SID.
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcopysid">RtlCopySid</a>
+[**RtlCopySid**](nf-ntifs-rtlcopysid.md)
 
+[**RtlEqualPrefixSid**](nf-ntifs-rtlequalprefixsid.md)
 
+[**RtlEqualSid**](nf-ntifs-rtlequalsid.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlequalprefixsid">RtlEqualPrefixSid</a>
+[**RtlGetOwnerSecurityDescriptor**](nf-ntifs-rtlgetownersecuritydescriptor.md)
 
+[**RtlInitializeSid**](nf-ntifs-rtlinitializesid.md)
 
+[**RtlLengthSid**](nf-ntifs-rtllengthsid.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlequalsid">RtlEqualSid</a>
+[**RtlSetOwnerSecurityDescriptor**](nf-ntifs-rtlsetownersecuritydescriptor.md)
 
+[**RtlSubAuthoritySid**](nf-ntifs-rtlsubauthoritysid.md)
 
+[**RtlValidSid**](nf-ntifs-rtlvalidsid.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetownersecuritydescriptor">RtlGetOwnerSecurityDescriptor</a>
+[**SID_AND_ATTRIBUTES**](ns-ntifs-_sid_and_attributes.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializesid">RtlInitializeSid</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtllengthsid">RtlLengthSid</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlsetownersecuritydescriptor">RtlSetOwnerSecurityDescriptor</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlsubauthoritysid">RtlSubAuthoritySid</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlvalidsid">RtlValidSid</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_and_attributes">SID_AND_ATTRIBUTES</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_identifier_authority">SID_IDENTIFIER_AUTHORITY</a>
-
+[**SID_IDENTIFIER_AUTHORITY**](ns-ntifs-_sid_identifier_authority.md)

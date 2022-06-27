@@ -4,7 +4,7 @@ title: _WWAN_PACKET_SERVICE (wwan.h)
 description: The WWAN_PACKET_SERVICE structure represents the packet service attachment state of the MB device.
 old-location: netvista\wwan_packet_service.htm
 tech.root: netvista
-ms.date: 12/30/2021
+ms.date: 03/11/2022
 keywords: ["WWAN_PACKET_SERVICE structure"]
 ms.keywords: "*PWWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], WWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], WwanRef_ce147c69-a83d-42fd-9b08-7a12e6ecaf1a.xml, _WWAN_PACKET_SERVICE, netvista.wwan_packet_service, wwan/PWWAN_PACKET_SERVICE, wwan/WWAN_PACKET_SERVICE"
 req.header: wwan.h
@@ -109,6 +109,11 @@ This field is only used for NDIS_WWAN_PACKET_SERVICE_STATE_REVISION_3.
 ### -field CurrentTai
 
  A [**WWAN_SINGLE_TAI**](ns-wwan-wwan_single_tai.md) structure representing the current single Tracking Area Identity (TAI). This field is only used for NDIS_WWAN_PACKET_SERVICE_STATE_REVISION_3.
+
+### -field Rel3GppVer
+
+0xFFFFFFFF will be used if unknown. Unknown means either MBIM_TLV_TYPE_3GPP_REL_VERSION is not contained in MBIM_PACKET_SERVICE_INFO_V3, the device directly returns 0xFFFFFFFF,
+or the device is using MBIM 3.0 or older.
 
 ## -remarks
 

@@ -69,3 +69,4 @@ Adapter determines scan type during device discovery. It should prefer using Act
 
 ### -field WDI_P2P_SCAN_TYPE_MAX_VALUE
 
+The maximum value for this type.

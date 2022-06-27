@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT
 tech.root: display
 title: DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: The DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT structure contains the information used by the DxgkCbClosePhysicalMemoryObject callback function to close a physical memory object.
 req.construct-type: structure
@@ -51,6 +51,8 @@ The adapter memory object to close.
 ## -remarks
 
 If the driver chooses to specify **hAdapterMemoryObject** as part of the [**DXGKCB_DESTROYPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md) call, then it is not necessary to close it via **DXGKCB_CLOSEPHYSICALMEMORYOBJECT** as well.
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 ## -see-also
 

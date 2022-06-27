@@ -3,7 +3,7 @@ UID: NE:dispmprt._DXGK_DIAGNOSTICINFO_TYPE
 title: DXGK_DIAGNOSTICINFO_TYPE
 description: Indicates the type of information the driver needs to collect.
 tech.root: display
-ms.date: 03/24/2020
+ms.date: 05/31/2022
 keywords: ["DXGK_DIAGNOSTICINFO_TYPE enumeration"]
 ms.keywords: DXGK_DIAGNOSTICINFO_TYPE, DXGK_DIAGNOSTICINFO_TYPE,
 req.header: dispmprt.h
@@ -38,7 +38,6 @@ dev_langs:
 
 # DXGK_DIAGNOSTICINFO_TYPE enumeration
 
-
 ## -description
 
 Indicates the type of information the driver needs to collect.
@@ -53,11 +52,9 @@ The type of information to be collected for [**DxgkDdiAddDevice**](../dispmprt/n
 
 The type of information to be collected for [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md).
 
-### -field DXGK_DDI_BLACKSCREEN
+### -field DXGK_DI_BLACKSCREEN
 
 Collect black box data for black screen scenarios in calls to [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md) and [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md). DXGK_DDI_BLACKSCREEN is available in Windows 10, version 2004 and later versions. WDDM 2.7 and later drivers are required to support this value.
-
-## -remarks
 
 ## -see-also
 
@@ -68,4 +65,3 @@ Collect black box data for black screen scenarios in calls to [**DxgkDdiGetDispl
 [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md)
 
 [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md)
-

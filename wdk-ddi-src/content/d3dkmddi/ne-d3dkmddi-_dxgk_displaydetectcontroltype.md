@@ -1,9 +1,9 @@
 ---
 UID: NE:d3dkmddi._DXGK_DISPLAYDETECTCONTROLTYPE
-title: _DXGK_DISPLAYDETECTCONTROLTYPE (d3dkmddi.h)
+title: DXGK_DISPLAYDETECTCONTROLTYPE (d3dkmddi.h)
 description: Enumeration indicating the type of display detection action.
 old-location: display\dxgk_displaydetectcontroltype.htm
-ms.date: 05/10/2018
+ms.date: 05/24/2022
 keywords: ["DXGK_DISPLAYDETECTCONTROLTYPE enumeration"]
 ms.keywords: DXGK_DDCT_DISABLEHPD, DXGK_DDCT_ENABLEHPD, DXGK_DDCT_POLLALL, DXGK_DDCT_POLLONE, DXGK_DDCT_UNINITIALIZED, DXGK_DISPLAYDETECTCONTROLTYPE, DXGK_DISPLAYDETECTCONTROLTYPE enumeration [Display Devices], _DXGK_DISPLAYDETECTCONTROLTYPE, d3dkmddi/DXGK_DDCT_DISABLEHPD, d3dkmddi/DXGK_DDCT_ENABLEHPD, d3dkmddi/DXGK_DDCT_POLLALL, d3dkmddi/DXGK_DDCT_POLLONE, d3dkmddi/DXGK_DDCT_UNINITIALIZED, d3dkmddi/DXGK_DISPLAYDETECTCONTROLTYPE, display.dxgk_displaydetectcontroltype
 req.header: d3dkmddi.h
@@ -43,8 +43,7 @@ api_name:
  - DXGK_DISPLAYDETECTCONTROLTYPE
 ---
 
-# _DXGK_DISPLAYDETECTCONTROLTYPE enumeration
-
+# DXGK_DISPLAYDETECTCONTROLTYPE enumeration
 
 ## -description
 
@@ -52,7 +51,7 @@ Enumeration indicating the type of display detection action.
 
 ## -enum-fields
 
-### -field DXGK_DDCT_UNINITIALIZED
+### -field DXGK_DDCT_UNINITIALIZED:0
 
 Indicates that a variable of type DXGK_DISPLAYDETECTCONTROLTYPE has not yet been assigned a meaningful value.
 
@@ -72,6 +71,3 @@ Applies to all targets and requires that the driver enables new notifications an
 ### -field DXGK_DDCT_DISABLEHPD
 
 Applies to all targets and requires that the driver disables new notifications. It is understood that, this does not prevent an in-flight notification from being reported after the driver has returned.
-
-### -field UINT
-

@@ -3,11 +3,11 @@ UID: NE:ntddk._HAL_SET_INFORMATION_CLASS
 title: _HAL_SET_INFORMATION_CLASS (ntddk.h)
 description: The _HAL_SET_INFORMATION_CLASS enumeration defines values used by the pHalSetSystemInformation callback function that are reserved for internal use.
 tech.root: kernel
-ms.date: 09/30/2018
+ms.date: 03/07/2022
 keywords: ["HAL_SET_INFORMATION_CLASS enumeration"]
 ms.keywords: _HAL_SET_INFORMATION_CLASS, *PHAL_SET_INFORMATION_CLASS, HAL_SET_INFORMATION_CLASS,
 req.header: ntddk.h
-req.include-header: 
+req.include-header: Ntddk.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,106 +38,108 @@ api_name:
 
 # _HAL_SET_INFORMATION_CLASS enumeration
 
-
 ## -description
 
 Defines values used by [**pHalSetSystemInformation**](nc-ntddk-phalsetsysteminformation.md). The values are reserved for internal use.
 
 ## -enum-fields
 
-### -field HalProfileSourceInterval : 
+### -field HalProfileSourceInterval
 
 Reserved for internal use.
 
-### -field HalProfileSourceInterruptHandler : 
+### -field HalProfileSourceInterruptHandler
 
 Reserved for internal use.
 
-### -field HalMcaRegisterDriver : 
+### -field HalMcaRegisterDriver
 
 Reserved for internal use.
 
-### -field HalKernelErrorHandler : 
+### -field HalKernelErrorHandler
 
 Reserved for internal use.
 
-### -field HalCmcRegisterDriver : 
+### -field HalCmcRegisterDriver
 
 Reserved for internal use.
 
-### -field HalCpeRegisterDriver : 
+### -field HalCpeRegisterDriver
 
 Reserved for internal use.
 
-### -field HalMcaLog : 
+### -field HalMcaLog
 
 Reserved for internal use.
 
-### -field HalCmcLog : 
+### -field HalCmcLog
 
 Reserved for internal use.
 
-### -field HalCpeLog : 
+### -field HalCpeLog
 
 Reserved for internal use.
 
-### -field HalGenerateCmcInterrupt : 
+### -field HalGenerateCmcInterrupt
 
 Reserved for internal use.
 
-### -field HalProfileSourceTimerHandler : 
+### -field HalProfileSourceTimerHandler
 
 Reserved for internal use.
 
-### -field HalEnlightenment : 
+### -field HalEnlightenment
 
 Reserved for internal use.
 
-### -field HalProfileDpgoSourceInterruptHandler : 
+### -field HalProfileDpgoSourceInterruptHandler
 
 Reserved for internal use.
 
-### -field HalRegisterSecondaryInterruptInterface : 
+### -field HalRegisterSecondaryInterruptInterface
 
 Reserved for internal use.
 
-### -field HalSetChannelPowerInformation : 
+### -field HalSetChannelPowerInformation
 
 Reserved for internal use.
 
-### -field HalI386ExceptionChainTerminatorInformation : 
+### -field HalI386ExceptionChainTerminatorInformation
 
 Reserved for internal use.
 
-### -field HalSetResetParkDisposition : 
+### -field HalSetResetParkDisposition
 
 Reserved for internal use.
 
-### -field HalSetPsciSuspendMode : 
+### -field HalSetPsciSuspendMode
 
 Reserved for internal use.
 
-### -field HalSetHvciEnabled : 
+### -field HalSetHvciEnabled
 
 Reserved for internal use.
 
-### -field HalSetProcessorTraceInterruptHandler : 
+### -field HalSetProcessorTraceInterruptHandler
 
 Reserved for internal use.
 
-### -field HalProfileSourceAdd : 
+### -field HalProfileSourceAdd
 
 Reserved for internal use.
 
-### -field HalProfileSourceRemove : 
+### -field HalProfileSourceRemove
 
 Reserved for internal use.
 
-### -field HalSetSwInterruptHandler 
+### -field HalSetSwInterruptHandler
+
+Reserved for internal use.
+
+### -field HalSetClockTimerMinimumInterval
 
 Reserved for internal use.
 
 ## -remarks
 
 ## -see-also
-

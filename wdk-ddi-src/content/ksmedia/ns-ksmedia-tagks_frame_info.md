@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_FRAME_INFO
-title: tagKS_FRAME_INFO (ksmedia.h)
+title: KS_FRAME_INFO (ksmedia.h)
 description: The KS_FRAME_INFO structure extends the KSSTREAM_HEADER structure for video streams.
 tech.root: stream
 ms.date: 03/11/2022
@@ -90,13 +90,17 @@ Specifies the portion of the DirectDraw surface that has been locked. This is no
 
 ### -field lSurfacePitch
 
-Contains surface pitch a.k.a stride
+Contains surface pitch (also known as stride).
 
 ### -field Reserved1
 
 Reserved and should not be used by the minidriver.
 
 ### -field Reserved2
+
+Reserved and should not be used by the minidriver.
+
+### -field Reserved3
 
 Reserved and should not be used by the minidriver.
 
@@ -133,3 +137,5 @@ When calculating **PictureNumber** and **DropCount**, it is important to use the
 For more information about updating **PictureNumber** and **DropCount** see [Capturing Video](/windows-hardware/drivers/stream/capturing-video).
 
 ## -see-also
+
+[KSSTREAM_HEADER](../ks/ns-ks-ksstream_header.md)

@@ -4,7 +4,7 @@ title: WdfUsbInterfaceGetConfiguredPipe function (wdfusb.h)
 description: The WdfUsbInterfaceGetConfiguredPipe method returns a handle to the framework pipe object that is associated with a specified USB device interface and pipe index. Optionally, the method also returns information about the pipe.
 old-location: wdf\wdfusbinterfacegetconfiguredpipe.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 01/26/2022
 keywords: ["WdfUsbInterfaceGetConfiguredPipe function"]
 ms.keywords: DFUsbRef_65a97d99-39c5-4750-95e1-6c9c20c169bb.xml, WdfUsbInterfaceGetConfiguredPipe, WdfUsbInterfaceGetConfiguredPipe method, kmdf.wdfusbinterfacegetconfiguredpipe, wdf.wdfusbinterfacegetconfiguredpipe, wdfusb/WdfUsbInterfaceGetConfiguredPipe
 req.header: wdfusb.h
@@ -64,7 +64,7 @@ A handle to a USB interface object that was obtained by calling <a href="/window
 
 A zero-based index into the set of framework pipe objects that are associated with the specified interface object.
 
-### -param PipeInfo [out, optional]
+### -param PipeInfo [in, out, optional]
 
 
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_pipe_information">WDF_USB_PIPE_INFORMATION</a> structure that the framework fills in. This parameter is optional and can be <b>NULL</b>.

@@ -1,10 +1,11 @@
 ---
 UID: NS:wdm._IOMMU_DEVICE_CREATION_CONFIGURATION
 tech.root: kernel
-title: IOMMU_DEVICE_CREATION_CONFIGURATION
-ms.date: 06/04/2021
+title: IOMMU_DEVICE_CREATION_CONFIGURATION (wdm.h)
+ms.date: 03/02/2022
 targetos: Windows
 description: IOMMU_DEVICE_CREATION_CONFIGURATION describes a configuration or list of configurations to be used as part of creation and initialization of an IOMMU_DMA_DEVICE.
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -16,7 +17,7 @@ req.max-support:
 req.redist: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: Windows Server 2022
-req.target-type: 
+req.target-type: Windows
 req.typenames: IOMMU_DEVICE_CREATION_CONFIGURATION, *PIOMMU_DEVICE_CREATION_CONFIGURATION
 req.umdf-ver: 
 req.unicode-ansi: 
@@ -39,6 +40,8 @@ f1_keywords:
  - wdm/IOMMU_DEVICE_CREATION_CONFIGURATION
 dev_langs:
  - c++
+helpviewer_keywords:
+ - _IOMMU_DEVICE_CREATION_CONFIGURATION
 ---
 
 ## -description
@@ -58,6 +61,10 @@ An enum describing which configuration is represented. See [**IOMMU_DEVICE_CREAT
 ### -field Acpi
 
 If `(ConfigType == IommuDeviceCreationConfigTypeAcpi)`, provides the input parameters necessary for device creation. See [**IOMMU_DEVICE_CREATION_CONFIGURATION_ACPI**](ns-wdm-iommu_device_creation_configuration_acpi.md)
+
+### -field DeviceId
+
+Defines the **PVOID** member **DeviceId**.
 
 ## -remarks
 
