@@ -52,7 +52,7 @@ Points to the IRP for the request to retrieve the controlling pin for a node. Th
 
 ### -param Property [in]
 
-Points to a [KSP_BDA_NODE_PIN](/windows-hardware/drivers/ddi/bdamedia/ns-bdamedia-_ksp_bda_node_pin) structure that describes the property and request type of the property request to retrieve the controlling pin for a node.
+Points to a [KSP_BDA_NODE_PIN](../bdamedia/ns-bdamedia-_ksp_bda_node_pin.md) structure that describes the property and request type of the property request to retrieve the controlling pin for a node.
 
 ### -param pulControllingPinId [out, optional]
 
@@ -72,4 +72,4 @@ A BDA minidriver calls the **BdaPropertyGetControllingPinId** function to retrie
 
 [KSPROPSETID_BdaTopology](/windows-hardware/drivers/stream/kspropsetid-bdatopology)
 
-[KSP_BDA_NODE_PIN](/windows-hardware/drivers/ddi/bdamedia/ns-bdamedia-_ksp_bda_node_pin)
+[KSP_BDA_NODE_PIN](../bdamedia/ns-bdamedia-_ksp_bda_node_pin.md)

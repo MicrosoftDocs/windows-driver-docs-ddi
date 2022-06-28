@@ -47,7 +47,7 @@ The **MmGetMdlByteCount** macro returns the length, in bytes, of the buffer desc
 
 ### -param Mdl [in]
 
-A pointer to an [MDL](/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl) structure that describes the layout of a virtual memory buffer in physical memory. For more information, see [Using MDLs](/windows-hardware/drivers/kernel/using-mdls).
+A pointer to an [MDL](./ns-wdm-_mdl.md) structure that describes the layout of a virtual memory buffer in physical memory. For more information, see [Using MDLs](/windows-hardware/drivers/kernel/using-mdls).
 
 ## -returns
 
@@ -59,7 +59,7 @@ Callers of **MmGetMdlByteCount** can be running at any IRQL. Usually, callers ar
 
 ## -see-also
 
-[MDL](/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl)
+[MDL](./ns-wdm-_mdl.md)
 
 [MmGetMdlByteOffset](./nf-wdm-mmgetmdlbyteoffset.md)
 

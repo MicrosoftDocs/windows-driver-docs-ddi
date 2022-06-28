@@ -94,19 +94,19 @@ This flag is OR-ed with the bit-values defined in GNSS_FIXDETAIL_* mask.
 
 ### -field SingleShotParam
 
-The [GNSS_SINGLESHOT_PARAM](/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_singleshot_param) structure defines the parameters for a single-shot fix session.
+The [GNSS_SINGLESHOT_PARAM](./ns-gnssdriver-gnss_singleshot_param.md) structure defines the parameters for a single-shot fix session.
 
 ### -field DistanceParam
 
-The [GNSS_DISTANCETRACKING_PARAM](/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_distancetracking_param) structure defines the parameters for a distance-based tracking fix session.
+The [GNSS_DISTANCETRACKING_PARAM](./ns-gnssdriver-gnss_distancetracking_param.md) structure defines the parameters for a distance-based tracking fix session.
 
 ### -field ContinuousParam
 
-The [GNSS_CONTINUOUSTRACKING_PARAM](/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_continuoustracking_param) structure defines the parameters for a continuous tracking fix session.
+The [GNSS_CONTINUOUSTRACKING_PARAM](./ns-gnssdriver-gnss_continuoustracking_param.md) structure defines the parameters for a continuous tracking fix session.
 
 ### -field LkgFixParam
 
-The [GNSS_LKGFIX_PARAM](/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_lkgfix_param)  structure is not used currently by the system.
+The [GNSS_LKGFIX_PARAM](./ns-gnssdriver-gnss_lkgfix_param.md)  structure is not used currently by the system.
 
 ### -field UnusedParam
 
