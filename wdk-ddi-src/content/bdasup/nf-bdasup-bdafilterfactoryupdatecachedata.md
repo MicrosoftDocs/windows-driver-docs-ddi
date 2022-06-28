@@ -48,11 +48,11 @@ The **BdaFilterFactoryUpdateCacheData** function updates the pin data cache for 
 
 ### -param pFilterFactory [in]
 
-Points to the [KSFILTERFACTORY](/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory) for which to update the pin data cache.
+Points to the [KSFILTERFACTORY](../ks/ns-ks-_ksfilterfactory.md) for which to update the pin data cache.
 
 ### -param pFilterDescriptor [in, optional]
 
-Points to an optional [KSFILTER_DESCRIPTOR](/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor) for which the pin data cache will be updated. If **NULL**, *pFilterFactory*'s descriptor is used instead. This parameter enables dynamic pin creation, that is, pin creation that occurs after a filter's create dispatch routine completes.
+Points to an optional [KSFILTER_DESCRIPTOR](../ks/ns-ks-_ksfilter_descriptor.md) for which the pin data cache will be updated. If **NULL**, *pFilterFactory*'s descriptor is used instead. This parameter enables dynamic pin creation, that is, pin creation that occurs after a filter's create dispatch routine completes.
 
 ## -returns
 
@@ -60,16 +60,16 @@ Returns STATUS_SUCCESS or an appropriate error code. Returns STATUS_INVALID_PARA
 
 ## -remarks
 
-A BDA minidriver calls the **BdaFilterFactoryUpdateCacheData** function to update the pin data cache for all pins specified at *pFilterDescriptor*. In this call, the BDA minidriver typically passes the **pFilterDescriptor** member of a [BDA_FILTER_TEMPLATE](/windows-hardware/drivers/ddi/bdasup/ns-bdasup-_bda_filter_template) structure that describes the template topology for the BDA filter to *pFilterDescriptor*. If *pFilterDescriptor* is **NULL**, the cached information will be updated for all pin factories specified at *pFilterFactory*'s KSFILTER_DESCRIPTOR member. For information about the pin data cache, see [Caching Pin Information for DirectShow](/windows-hardware/drivers/stream/caching-pin-information-for-directshow).
+A BDA minidriver calls the **BdaFilterFactoryUpdateCacheData** function to update the pin data cache for all pins specified at *pFilterDescriptor*. In this call, the BDA minidriver typically passes the **pFilterDescriptor** member of a [BDA_FILTER_TEMPLATE](./ns-bdasup-_bda_filter_template.md) structure that describes the template topology for the BDA filter to *pFilterDescriptor*. If *pFilterDescriptor* is **NULL**, the cached information will be updated for all pin factories specified at *pFilterFactory*'s KSFILTER_DESCRIPTOR member. For information about the pin data cache, see [Caching Pin Information for DirectShow](/windows-hardware/drivers/stream/caching-pin-information-for-directshow).
 
-The [KsRegisterFilterWithNoKSPins](/windows-hardware/drivers/ddi/ks/nf-ks-ksregisterfilterwithnokspins) function provides similar functionality but only allows one medium per registered pin. This may not be sufficient for a BDA minidriver.
+The [KsRegisterFilterWithNoKSPins](../ks/nf-ks-ksregisterfilterwithnokspins.md) function provides similar functionality but only allows one medium per registered pin. This may not be sufficient for a BDA minidriver.
 
 ## -see-also
 
-[BDA_FILTER_TEMPLATE](/windows-hardware/drivers/ddi/bdasup/ns-bdasup-_bda_filter_template)
+[BDA_FILTER_TEMPLATE](./ns-bdasup-_bda_filter_template.md)
 
-[KSFILTERFACTORY](/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory)
+[KSFILTERFACTORY](../ks/ns-ks-_ksfilterfactory.md)
 
-[KSFILTER_DESCRIPTOR](/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor)
+[KSFILTER_DESCRIPTOR](../ks/ns-ks-_ksfilter_descriptor.md)
 
-[KsRegisterFilterWithNoKSPins](/windows-hardware/drivers/ddi/ks/nf-ks-ksregisterfilterwithnokspins)
+[KsRegisterFilterWithNoKSPins](../ks/nf-ks-ksregisterfilterwithnokspins.md)

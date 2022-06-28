@@ -48,13 +48,13 @@ Minidrivers can use the **StreamClassGetNextEvent** routine to search the event 
 
 ### -param HwInstanceExtension_OR_HwDeviceExtension [in, optional]
 
-Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the [HW_INITIALIZATION_DATA](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data) structure it passes when it registers itself via [StreamClassRegisterMinidriver](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter). The class driver then passes pointers to the buffer in the **HwDeviceExtension** member of the [HW_STREAM_REQUEST_BLOCK](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block), [HW_STREAM_OBJECT](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object), [HW_TIME_CONTEXT](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context), and [PORT_CONFIGURATION_INFORMATION](/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information) structures it passes to the minidriver.
+Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the [HW_INITIALIZATION_DATA](./ns-strmini-_hw_initialization_data.md) structure it passes when it registers itself via [StreamClassRegisterMinidriver](./nf-strmini-streamclassregisteradapter.md). The class driver then passes pointers to the buffer in the **HwDeviceExtension** member of the [HW_STREAM_REQUEST_BLOCK](./ns-strmini-_hw_stream_request_block.md), [HW_STREAM_OBJECT](./ns-strmini-_hw_stream_object.md), [HW_TIME_CONTEXT](./ns-strmini-_hw_time_context.md), and [PORT_CONFIGURATION_INFORMATION](./ns-strmini-_port_configuration_information.md) structures it passes to the minidriver.
 
 This first parameter was PVOID HwDeviceExtension. It MUST be HwInstanceExtension for multi-instance and multi-filter types (version 20) drivers. Legacy single instance drivers can continue to specify HwDeviceExtension as the first parameter. It can also specify HwInstanceExtension.
 
 ### -param HwStreamObject [in, optional]
 
-Pointer to a [HW_STREAM_OBJECT](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object). Set to **NULL** to search the event queue of the device itself. To search the event queue of a particular stream, set to the stream's stream object.
+Pointer to a [HW_STREAM_OBJECT](./ns-strmini-_hw_stream_object.md). Set to **NULL** to search the event queue of the device itself. To search the event queue of a particular stream, set to the stream's stream object.
 
 ### -param EventGuid [in, optional]
 

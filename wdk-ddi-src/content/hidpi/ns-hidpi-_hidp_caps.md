@@ -80,15 +80,15 @@ Reserved for internal system use.
 
 ### -field NumberLinkCollectionNodes
 
-Specifies the number of [HIDP_LINK_COLLECTION_NODE](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_link_collection_node) structures that are returned for this top-level collection by [HidP_GetLinkCollectionNodes](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getlinkcollectionnodes).
+Specifies the number of [HIDP_LINK_COLLECTION_NODE](./ns-hidpi-_hidp_link_collection_node.md) structures that are returned for this top-level collection by [HidP_GetLinkCollectionNodes](./nf-hidpi-hidp_getlinkcollectionnodes.md).
 
 ### -field NumberInputButtonCaps
 
-Specifies the number of input [HIDP_BUTTON_CAPS](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_button_caps) structures that [HidP_GetButtonCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getbuttoncaps) returns.
+Specifies the number of input [HIDP_BUTTON_CAPS](./ns-hidpi-_hidp_button_caps.md) structures that [HidP_GetButtonCaps](./nf-hidpi-hidp_getbuttoncaps.md) returns.
 
 ### -field NumberInputValueCaps
 
-Specifies the number of input [HIDP_VALUE_CAPS](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps) structures that [HidP_GetValueCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getvaluecaps) returns.
+Specifies the number of input [HIDP_VALUE_CAPS](./ns-hidpi-_hidp_value_caps.md) structures that [HidP_GetValueCaps](./nf-hidpi-hidp_getvaluecaps.md) returns.
 
 ### -field NumberInputDataIndices
 
@@ -120,16 +120,16 @@ Specifies the number of data indices assigned to buttons and values in all featu
 
 ## -remarks
 
-Callers of the [HIDClass support routines](/windows-hardware/drivers/ddi/index) use the information provided in this structure when a called routine requires, as input, the size of a report type, the number of link collection nodes, the number of control capabilities, or the number of data indices.
+Callers of the [HIDClass support routines](../index.yml) use the information provided in this structure when a called routine requires, as input, the size of a report type, the number of link collection nodes, the number of control capabilities, or the number of data indices.
 
 ## -see-also
 
-- [HIDP_BUTTON_CAPS](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_button_caps)
-- [HIDP_LINK_COLLECTION_NODE](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_link_collection_node)
-- [HIDP_VALUE_CAPS](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps)
-- [HidP_GetButtonCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getbuttoncaps)
-- [HidP_GetCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps)
-- [HidP_GetLinkCollectionNodes](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getlinkcollectionnodes)
-- [HidP_GetSpecificButtonCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificbuttoncaps)
-- [HidP_GetSpecificValueCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificvaluecaps)
-- [HidP_GetValueCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getvaluecaps)
+- [HIDP_BUTTON_CAPS](./ns-hidpi-_hidp_button_caps.md)
+- [HIDP_LINK_COLLECTION_NODE](./ns-hidpi-_hidp_link_collection_node.md)
+- [HIDP_VALUE_CAPS](./ns-hidpi-_hidp_value_caps.md)
+- [HidP_GetButtonCaps](./nf-hidpi-hidp_getbuttoncaps.md)
+- [HidP_GetCaps](./nf-hidpi-hidp_getcaps.md)
+- [HidP_GetLinkCollectionNodes](./nf-hidpi-hidp_getlinkcollectionnodes.md)
+- [HidP_GetSpecificButtonCaps](./nf-hidpi-hidp_getspecificbuttoncaps.md)
+- [HidP_GetSpecificValueCaps](./nf-hidpi-hidp_getspecificvaluecaps.md)
+- [HidP_GetValueCaps](./nf-hidpi-hidp_getvaluecaps.md)

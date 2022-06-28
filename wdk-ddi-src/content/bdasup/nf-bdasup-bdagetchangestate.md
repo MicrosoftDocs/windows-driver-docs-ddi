@@ -65,7 +65,7 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 ## -remarks
 
-A BDA minidriver calls the **BdaGetChangeState** function to retrieve the current change state of BDA topology after the minidriver receives a [KSMETHOD_BDA_GET_CHANGE_STATE](/windows-hardware/drivers/stream/ksmethod-bda-get-change-state) request of the [KSMETHODSETID_BdaChangeSync](/windows-hardware/drivers/stream/ksmethodsetid-bdachangesync) method set from the network provider. BDA minidrivers define dispatch and filter-automation tables so that those minidrivers either dispatch the **BdaGetChangeState** function directly or intercept this request using an internal method ([KStrMethodHandler](/windows-hardware/drivers/ddi/ks/nc-ks-pfnkshandler)), which then calls the **BdaGetChangeState** function. For example, BDA minidrivers that intercept this request can obtain a pointer to the BDA filter from the passed IRP so that they can:
+A BDA minidriver calls the **BdaGetChangeState** function to retrieve the current change state of BDA topology after the minidriver receives a [KSMETHOD_BDA_GET_CHANGE_STATE](/windows-hardware/drivers/stream/ksmethod-bda-get-change-state) request of the [KSMETHODSETID_BdaChangeSync](/windows-hardware/drivers/stream/ksmethodsetid-bdachangesync) method set from the network provider. BDA minidrivers define dispatch and filter-automation tables so that those minidrivers either dispatch the **BdaGetChangeState** function directly or intercept this request using an internal method ([KStrMethodHandler](../ks/nc-ks-pfnkshandler.md)), which then calls the **BdaGetChangeState** function. For example, BDA minidrivers that intercept this request can obtain a pointer to the BDA filter from the passed IRP so that they can:
 
 - Not only check for pending topology changes but also for pending changes on the filter.
 
@@ -81,4 +81,4 @@ See [Defining Automation Tables](/windows-hardware/drivers/stream/defining-autom
 
 [KSMETHOD_BDA_GET_CHANGE_STATE](/windows-hardware/drivers/stream/ksmethod-bda-get-change-state)
 
-[KStrMethodHandler](/windows-hardware/drivers/ddi/ks/nc-ks-pfnkshandler)
+[KStrMethodHandler](../ks/nc-ks-pfnkshandler.md)

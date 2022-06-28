@@ -69,15 +69,15 @@ A pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-A pointer to an [InterfaceReference](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference) routine that increments the interface's reference count.
+A pointer to an [InterfaceReference](./nc-wdm-pinterface_reference.md) routine that increments the interface's reference count.
 
 ### -field InterfaceDereference
 
-A pointer to an [InterfaceDereference](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference) routine that decrements the interface's reference count.
+A pointer to an [InterfaceDereference](./nc-wdm-pinterface_dereference.md) routine that decrements the interface's reference count.
 
 ### -field DeviceReset
 
-A pointer to the interface's [DeviceReset](/windows-hardware/drivers/ddi/wdm/nc-wdm-device_reset_handler) routine. This routine can be used by function drivers to attempt to reset and recover a malfunctioning device.
+A pointer to the interface's [DeviceReset](./nc-wdm-device_reset_handler.md) routine. This routine can be used by function drivers to attempt to reset and recover a malfunctioning device.
 
 ### -field SupportedResetTypes
 
@@ -101,18 +101,18 @@ Defines the **PGET_DEVICE_RESET_STATUS** parameter *GetDeviceResetStatus*.
 
 ## -remarks
 
-The **DEVICE_RESET_INTERFACE_STANDARD** structure is an extension of the [INTERFACE](/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface) structure. A driver obtains a pointer to the **DEVICE_RESET_INTERFACE_STANDARD** structure by sending an [IRP_MN_QUERY_INTERFACE](/windows-hardware/drivers/kernel/irp-mn-query-interface) IRP to its bus driver with **InterfaceType** set to GUID_DEVICE_RESET_INTERFACE_STANDARD.
+The **DEVICE_RESET_INTERFACE_STANDARD** structure is an extension of the [INTERFACE](./ns-wdm-_interface.md) structure. A driver obtains a pointer to the **DEVICE_RESET_INTERFACE_STANDARD** structure by sending an [IRP_MN_QUERY_INTERFACE](/windows-hardware/drivers/kernel/irp-mn-query-interface) IRP to its bus driver with **InterfaceType** set to GUID_DEVICE_RESET_INTERFACE_STANDARD.
 
 For more information about the purpose of this interface, see [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard).
 
 ## -see-also
 
-[DeviceReset](/windows-hardware/drivers/ddi/wdm/nc-wdm-device_reset_handler)
+[DeviceReset](./nc-wdm-device_reset_handler.md)
 
-[INTERFACE](/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface)
+[INTERFACE](./ns-wdm-_interface.md)
 
 [IRP_MN_QUERY_INTERFACE](/windows-hardware/drivers/kernel/irp-mn-query-interface)
 
-[InterfaceDereference](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference)
+[InterfaceDereference](./nc-wdm-pinterface_dereference.md)
 
-[InterfaceReference](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference)
+[InterfaceReference](./nc-wdm-pinterface_reference.md)
