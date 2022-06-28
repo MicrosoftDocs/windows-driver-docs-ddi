@@ -4,7 +4,7 @@ title: IDebugFailureAnalysis::GetString method (extsfns.h)
 description: The GetString method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag.
 old-location: debugger\idebugfailureanalysis2_getstring.htm
 tech.root: debugger
-ms.date: 03/26/2018
+ms.date: 06/27/2022
 keywords: ["IDebugFailureAnalysis::GetString method"]
 ms.keywords: GetString,IDebugFailureAnalysis2.GetString, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging], IDebugFailureAnalysis interface, IDebugFailureAnalysis, IDebugFailureAnalysis interface [Windows Debugging], GetUlong method, IDebugFailureAnalysis::GetString, IDebugFailureAnalysis::GetUlong, debugger.idebugfailureanalysis2_getstring, extsfns/IDebugFailureAnalysis::GetUlong
 req.header: extsfns.h

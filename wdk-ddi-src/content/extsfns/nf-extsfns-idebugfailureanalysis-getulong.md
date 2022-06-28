@@ -4,7 +4,7 @@ title: IDebugFailureAnalysis::GetUlong (extsfns.h)
 description: The GetUlong method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag.
 old-location: debugger\idebugfailureanalysis2_getstring.htm
 tech.root: debugger
-ms.date: 06/16/2022
+ms.date: 06/27/2022
 keywords: ["IDebugFailureAnalysis::GetUlong"]
 ms.keywords: GetUlong, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging],IDebugFailureAnalysis interface, IDebugFailureAnalysis interface [Windows Debugging],GetUlong method, IDebugFailureAnalysis.GetUlong, IDebugFailureAnalysis::GetUlong, debugger.IDebugFailureAnalysis_getstring, extsfns/IDebugFailureAnalysis2::GetUlong
 req.header: extsfns.h
