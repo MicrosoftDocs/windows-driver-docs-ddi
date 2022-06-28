@@ -101,14 +101,14 @@ Drivers should use the following NDIS macros and functions to access and manipul
 </li>
 <li>
 
-<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-start">
+<a href="/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_context_data_start">
        NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
 </li>
 <li>
 
-<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-size">
+<a href="/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_context_data_size">
        NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
@@ -142,9 +142,9 @@ NDIS drivers call the
     NdisFreeNetBufferListContext</a> function to free the buffer space.
 
 Use the 
-    <a href="/windows-hardware/drivers/network/net-buffer-list-context-data-size">
+    <a href="/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_context_data_size">
     NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a> macro to obtain the size of the used context space. Use the 
-    <a href="/windows-hardware/drivers/network/net-buffer-list-context-data-start">
+    <a href="/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_context_data_start">
     NET_BUFFER_LIST_CONTEXT_DATA_START</a> macro to get the starting address of the used context space.
 
 For more information on how to use net buffers, see 
@@ -160,12 +160,12 @@ For more information on how to use net buffers, see
 
 
 
-<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-size">
+<a href="/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_context_data_size">
    NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
 
-<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-start">
+<a href="/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_context_data_start">
    NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
