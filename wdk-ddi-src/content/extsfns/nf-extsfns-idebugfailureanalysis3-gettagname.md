@@ -4,7 +4,7 @@ tech.root: debugger
 title: IDebugFailureAnalysis3::GetTAGName
 ms.date: 06/27/2022
 targetos: Windows
-description: IDebugFailureAnalysis3::GetTAGIndex is used for failure analysis processing.
+description: IDebugFailureAnalysis3::GetTAGName is used for failure analysis processing.
 prerelease: false
 req.assembly: 
 req.construct-type: function
