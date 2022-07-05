@@ -126,11 +126,11 @@ A number of convenience methods are available for various primitive types. These
 
 
 
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getulong">GetUlong</a>
+<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis-getulong">GetUlong</a>
 
 
 
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getulong64">GetUlong64</a>
+<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis-getulong64">GetUlong64</a>
 
 
 
