@@ -57,11 +57,11 @@ When the <a href="/windows-hardware/drivers/debugger/-analyze">!analyze</a> debu
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getfailureclass">GetFailureClass</a>
+<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis-getfailureclass">GetFailureClass</a>
 
 
 
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getfailuretype">GetFailureType</a>
+<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis-getfailuretype">GetFailureType</a>
 
 
 

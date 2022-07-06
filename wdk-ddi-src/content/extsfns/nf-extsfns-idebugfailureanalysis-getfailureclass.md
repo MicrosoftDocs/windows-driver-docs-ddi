@@ -97,11 +97,11 @@ These return values are defined in dbgeng.h.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getfailurecode">GetFailureCode</a>
+<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis-getfailurecode">GetFailureCode</a>
 
 
 
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getfailuretype">GetFailureType</a>
+<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis-getfailuretype">GetFailureType</a>
 
 
 

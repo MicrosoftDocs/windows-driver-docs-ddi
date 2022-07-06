@@ -78,7 +78,7 @@ This method creates a new <a href="/windows-hardware/drivers/debugger/failure-an
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getbuffer">GetBuffer</a>
+<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis-getbuffer">GetBuffer</a>
 
 
 
