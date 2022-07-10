@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetElementFormatRequestForProperty
 ms.date: 04/25/2022
 targetos: Windows
-description: The AcxTargetElementFormatRequestForProperty dispatches an ACX request using a WDFREQUEST framework request object.
+description: The AcxTargetElementFormatRequestForProperty formats a WDFREQUEST as an ACX property request to be used on specified element target.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetElementFormatRequestForProperty** function dispatches an ACX request using a WDFREQUEST framework request object.
+The **AcxTargetElementFormatRequestForProperty** function formats a WDFREQUEST as an ACX property request to be used on specified element target.
 
 ## -parameters
 
 ### -param TargetElement
 
-An existing ACXTARGETELEMENT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXTARGETELEMENT handle. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Request
 
-A pointer to a location that receives a handle to a WDFREQUEST framework request object described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects). For general information about WDF requests, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects).
+A WDFREQUEST handle described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects). For general information about WDF requests, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects).
 
 ### -param Params
 
@@ -64,25 +64,23 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+A WDFREQUEST is a driver created I/O requests. Framework-based drivers process each I/O request by calling framework request object methods. For more information, see [Framework Request Objects](/windows-hardware/drivers/wdf/framework-request-objects).
+
 ### Example
 
 ```cpp
-    WDFIOTARGET                 ioTarget;
-    WDF_OBJECT_ATTRIBUTES       attributes;
-    WDFREQUEST                  request = NULL;
 
-        ioTarget = AcxTargetElementGetWdfIoTarget(elementCtx->TargetElements[i]->TargetElement);
+    ACX_REQUEST_PARAMETERS      params;
+    WDFREQUEST                  req;
+    ACXTARGETELEMENT            targetElement;
 
-        WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
-        attributes.ParentObject = elementCtx->TargetElements[i]->TargetElement;
+...
 
-        status = AcxTargetElementFormatRequestForProperty(elementCtx->TargetElements[i]->TargetElement, request, &targetParams[i]);
+    status = AcxTargetElementFormatRequestForProperty(targetElement, req, &params);
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
  
-TBD - Please review this topic
- 
- 
+READY2GO

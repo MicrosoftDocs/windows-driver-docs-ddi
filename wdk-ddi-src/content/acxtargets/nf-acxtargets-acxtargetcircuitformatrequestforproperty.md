@@ -48,11 +48,11 @@ The **AcxTargetCircuitFormatRequestForProperty** formats a WDFREQUEST as an ACX 
 
 ### -param TargetCircuit
 
-An ACXTARGETCIRCUIT handle.. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXTARGETCIRCUIT handle. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Request
 
-A WDFREQUEST handle described in [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects).
+A WDFREQUEST handle described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects). For general information about WDF requests, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects).
 
 ### -param Params
 
