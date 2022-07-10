@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetFactoryCircuitGetWdfIoTarget
 ms.date: 04/25/2022
 targetos: Windows
-description: The AcxTargetFactoryCircuitGetWdfIoTarget given an existing ACXTARGETFACTORYCIRCUIT object, returns a WDFIOTARGET object.
+description: The AcxTargetFactoryCircuitGetWdfIoTarget given an existing ACXTARGETFACTORYCIRCUIT object, returns its corresponding WDFIOTARGET object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetFactoryCircuitGetWdfIoTarget** function given an existing ACXTARGETFACTORYCIRCUIT object, returns a WDFIOTARGET object. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).
+The **AcxTargetFactoryCircuitGetWdfIoTarget** function given an existing ACXTARGETFACTORYCIRCUIT object, returns its corresponding WDFIOTARGET object. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).
 
 ## -parameters
 
 ### -param TargetFactoryCircuit
 
-A pointer to a location of an existing ACXTARGETFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXTARGETFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
-Returns the WDFIOTARGET object associated with the FactoryCircuit.
+Returns the WDFIOTARGET object associated with the ACXTARGETFACTORYCIRCUIT.
 
 ## -remarks
 
@@ -66,4 +66,5 @@ Returns the WDFIOTARGET object associated with the FactoryCircuit.
 
 - [acxtargets.h header](index.md)
  
-TBD - Please review this topic  
+READY2GO
+ 
