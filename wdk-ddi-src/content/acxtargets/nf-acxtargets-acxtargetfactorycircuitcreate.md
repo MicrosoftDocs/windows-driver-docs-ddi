@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetFactoryCircuitCreate
 ms.date: 04/26/2022
 targetos: Windows
-description: The AcxTargetFactoryCircuitCreate given an existing WDFDEVICE object that is associated with the specified ACXCIRCUIT and associated configuration information returns a handle to a new ACXTARGETFACTORYCIRCUIT ACX object. 
+description: The AcxTargetFactoryCircuitCreate function returns an handle to a new ACXTARGETFACTORYCIRCUIT ACX object. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetFactoryCircuitCreate** function given an existing WDFDEVICE object that is associated with the specified ACXCIRCUIT, and associated configuration information, returns a handle to a new ACXTARGETFACTORYCIRCUIT ACX object. 
+The **AcxTargetFactoryCircuitCreate** function returns an handle to a new ACXTARGETFACTORYCIRCUIT ACX object. 
 
 ## -parameters
 
@@ -78,4 +78,4 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 - [acxtargets.h header](index.md)
  
-TBD - Please review this topic
+READY2GO

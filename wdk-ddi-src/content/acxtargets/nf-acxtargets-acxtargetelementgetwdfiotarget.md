@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetElementGetWdfIoTarget
 ms.date: 04/25/2022
 targetos: Windows
-description: The AcxTargetElementGetWdfIoTarget given an existing ACXTARGETELEMENT object, returns a WDFIOTARGET object.
+description: The AcxTargetElementGetWdfIoTarget given an existing ACXTARGETELEMENT object, returns its corresponding WDFIOTARGET object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetElementGetWdfIoTarget** function given an existing ACXTARGETELEMENT object, returns a WDFIOTARGET object. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).
+The **AcxTargetElementGetWdfIoTarget** function given an existing ACXTARGETELEMENT object, returns its corresponding WDFIOTARGET object. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).
 
 ## -parameters
 
@@ -59,13 +59,15 @@ The WDFIOTARGET object associated with the target element.
 ### Example
 
 ```cpp
-        WDFIOTARGET                 ioTarget;
 
-        ioTarget = AcxTargetElementGetWdfIoTarget(elementCtx->TargetElements[i]->TargetElement);
+    WDFIOTARGET ioTarget;
+
+    ioTarget = AcxTargetElementGetWdfIoTarget(targetElement);
+
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md) 
 
-TBD - Please review this topic
+READY2GO

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetFactoryCircuitFormatRequestForMethod
 ms.date: 04/25/2022
 targetos: Windows
-description: The AcxTargetFactoryCircuitFormatRequestForMethod, given an ACXTARGETFACTORYCIRCUIT object dispatches an ACX request using a WDFREQUEST framework request object.
+description: The AcxTargetFactoryCircuitFormatRequestForMethod formats a WDFREQUEST as an ACX method request to be used on specified circuit factory target.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetFactoryCircuitFormatRequestForMethod** function, given an ACXTARGETFACTORYCIRCUIT object dispatches an ACX request using a WDFREQUEST framework request object.
+The **AcxTargetFactoryCircuitFormatRequestForMethod**  formats a WDFREQUEST as an ACX method request to be used on specified circuit factory target.
 
 ## -parameters
 
 ### -param TargetFactoryCircuit
 
-A pointer to a location of an existing ACXTARGETFACTORYCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXTARGETFACTORYCIRCUIT handle. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Request
 
-A pointer to a location that receives a handle to a WDFREQUEST framework request object described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects). For general information about WDF requests, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects).
+A WDFREQUEST handle described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects). For general information about WDF requests, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects).
 
 ### -param Params
 
@@ -74,4 +74,4 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 - [acxtargets.h header](index.md)
  
-TBD - Please review this topic
+READY2GO
