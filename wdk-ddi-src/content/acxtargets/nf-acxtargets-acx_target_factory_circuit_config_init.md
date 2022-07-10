@@ -66,4 +66,4 @@ A pointer to the [ACX_TARGET_FACTORY_CIRCUIT_CONFIG](ns-acxtargets-acx_target_fa
 
 - [acxtargets.h header](index.md)
  
-TBD - Please review this topic
+READY2GO

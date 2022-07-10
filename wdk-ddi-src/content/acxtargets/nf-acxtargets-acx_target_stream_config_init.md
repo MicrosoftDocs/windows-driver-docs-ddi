@@ -55,7 +55,7 @@ A pointer to the [ACX_TARGET_STREAM_CONFIG](ns-acxtargets-acx_target_stream_conf
 ### Example
 
 ```cpp
-    ACX_TARGET_STREAM_CONFIG            targetStreamCfg;
+    ACX_TARGET_STREAM_CONFIG targetStreamCfg;
 
     ACX_TARGET_STREAM_CONFIG_INIT(&targetStreamCfg);
 ```
@@ -64,4 +64,4 @@ A pointer to the [ACX_TARGET_STREAM_CONFIG](ns-acxtargets-acx_target_stream_conf
 
 - [acxtargets.h header](index.md)
  
-TBD - Please review this topic
+READY2GO

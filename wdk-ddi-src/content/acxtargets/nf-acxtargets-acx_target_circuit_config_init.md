@@ -68,4 +68,4 @@ A pointer to the [ACX_TARGET_CIRCUIT_CONFIG](ns-acxtargets-acx_target_circuit_co
 
 - [acxtargets.h header](index.md)
 
-TBD - Please review this topic 
+READY2GO
