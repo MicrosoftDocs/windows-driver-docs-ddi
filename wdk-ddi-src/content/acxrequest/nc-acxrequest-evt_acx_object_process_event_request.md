@@ -4,14 +4,14 @@ tech.root: audio
 title: EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST
 ms.date: 02/08/2022
 targetos: Windows
-description: The EVT_ACX_OBJECT_PROCESS_REQUEST callback is used by the driver to allow it to add additional functionality in the event request processing. 
+description: The EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST callback is used by the driver to handle event notifications. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: acxrequest.h
-req.idl: 
+req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_OBJECT_PROCESS_REQUEST** callback is used by the driver to allow it to add additional functionality in the event request processing. 
+The **EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST** callback is used by the driver to handle event notifications. 
 
 ## -parameters
 
 ### -param Object
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the request.
+An ACX object associated with the request.
 
 ### -param Event
 
@@ -56,15 +56,15 @@ The ACXEVENT object (described in [Summary of ACX Objects](/windows-hardware/dri
 
 ### -param Verb
 
-An verb from the [ACX_EVENT_VERB](ne-acxrequest-acx_event_verb.md) enumeration that describes the type of verb support that will be available.
+An verb from the [ACX_EVENT_VERB](ne-acxrequest-acx_event_verb.md) enumeration that describes the type of operation.
 
 ### -param EventData
 
-The optional ACXEVENTDATA ACX object that provides information about the event.
+An optional ACXEVENTDATA ACX object that provides information about the event.
 
 ### -param Request
 
-A standard WDFREQUEST object.
+An optional WDFREQUEST object associated with this operation.
 
 For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).
 
@@ -75,7 +75,9 @@ For more information about working with WDF request objects, see [Creating Frame
 Example usage is shown below.
 
 ```cpp
+
 EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST CodecR_EvtMuteElementChangeEventCallback;
+
 ...
 
 
@@ -136,10 +138,11 @@ CodecR_EvtMuteElementChangeEventCallback(
         WdfRequestComplete(Request, status); 
     }
 }
+
 ```
 
 ## -see-also
 
 - [acxrequest.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

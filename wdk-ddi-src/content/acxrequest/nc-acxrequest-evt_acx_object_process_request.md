@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_OBJECT_PROCESS_REQUEST
 ms.date: 02/08/2022
 targetos: Windows
-description: The EVT_ACX_OBJECT_PROCESS_REQUEST callback is used by the driver to allow it to add additional functionality in the process request handling. 
+description: The EVT_ACX_OBJECT_PROCESS_REQUEST callback is used by the driver to handle a WDFREQUEST. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_OBJECT_PROCESS_REQUEST** callback is used by the driver to allow it to add additional functionality in the process request handling. 
+The **EVT_ACX_OBJECT_PROCESS_REQUEST** callback is used by the driver to handle a WDFREQUEST. 
 
 ## -parameters
 
 ### -param Object
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the request.
+An ACX object that is associated with the request. Driver normally casts this handle to the ACX object type this property belongs to.
 
 ### -param Request
 
-A standard WDFREQUEST object.
+An I/O WDFREQUEST object.
 
 For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).
 
@@ -144,4 +144,4 @@ exit:
 
 - [acxrequest.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
