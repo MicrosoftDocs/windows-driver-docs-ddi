@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_REQUEST_PARAMETERS_INIT_METHOD
 ms.date: 02/22/2022
 targetos: Windows
-description: The ACX_REQUEST_PARAMETERS_INIT_METHOD initializes ACX request methods.
+description: The ACX_REQUEST_PARAMETERS_INIT_METHOD initializes an ACX_REQUEST_PARAMETERS struct with ACX method parameters.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,25 +42,25 @@ dev_langs:
 
 ## -description
 
-The **ACX_REQUEST_PARAMETERS_INIT_METHOD** function initializes ACX request methods.
+The **ACX_REQUEST_PARAMETERS_INIT_METHOD** function initializes an ACX_REQUEST_PARAMETERS struct with ACX method parameters.
 
 ## -parameters
 
 ### -param Params
 
-An initialized [ACX_REQUEST_PARAMETERS](ns-acxrequest-acx_request_parameters.md) structure that is used to store circuit information.
+A pointer to [ACX_REQUEST_PARAMETERS](ns-acxrequest-acx_request_parameters.md) structure that is used to store method parameters.
 
 ### -param Set
 
-A set of Methods that are TBD.
+A method Set ID (GUID)
 
 ### -param Id
 
-The Method ID that will be TBD.
+A method ID (ULONG) within the method Set ID. 
 
 ### -param Verb
 
-The Acx Method Verb to send.
+The ACX method verb to send as defined by the [ACX_METHOD_VERB](ne-acxrequest-acx_method_verb.md) enumeration.
 
 ### -param ItemType
 
@@ -68,23 +68,23 @@ The [ACX_ITEM_TYPE](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_i
 
 ### -param ItemId
 
-TDB - An Item Id, for example for a pin number in a circuit.
+The item ID of the ItemType, for example the pin ID if the ItemType is a pin.
 
 ### -param Args
 
-Arguments provided to the initialization process.
+An optional Args buffer holding additional parameters for the specified method. Set to null if not present.
 
 ### -param ArgsCb
 
-The count in bytes (size) of the Args.
+The count in bytes (size) of the Args buffer. Set to 0 if Args field is not used.
 
 ### -param Result
 
-The result of the request.
+An optional Result buffer to old the result of the operation. Set to null if not present or if *SendMethod needs to allocate it when ResultCb is not zero. Caller is responsable for freeing the allocated buffer.
 
 ### -param ResultCb
 
-The count in bytes (size) of the Result.
+The count in bytes (size) of the Result buffer. Set to 0 if Result is not used.
 
 ## -remarks
 
@@ -116,4 +116,4 @@ Example usage is shown below.
 
 - [acxrequest.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

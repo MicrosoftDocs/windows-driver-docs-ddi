@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_REQUEST_PARAMETERS_INIT_PROPERTY
 ms.date: 02/22/2022
 targetos: Windows
-description: The ACX_REQUEST_PARAMETERS_INIT_PROPERTY initializes ACX request parameter properties.
+description: The ACX_REQUEST_PARAMETERS_INIT_PROPERTY initializes an ACX_REQUEST_PARAMETERS struct with ACX property parameters.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,25 +42,25 @@ dev_langs:
 
 ## -description
 
-The **ACX_REQUEST_PARAMETERS_INIT_PROPERTY** function initializes ACX request parameter properties.
+The **ACX_REQUEST_PARAMETERS_INIT_PROPERTY** initializes an ACX_REQUEST_PARAMETERS struct with ACX property parameters.
 
 ## -parameters
 
 ### -param Params
 
-An initialized [ACX_REQUEST_PARAMETERS](ns-acxrequest-acx_request_parameters.md) structure that is used to store circuit information.
+A pointer to [ACX_REQUEST_PARAMETERS](ns-acxrequest-acx_request_parameters.md) structure that is used to store property parameters.
 
 ### -param Set
 
-A set of Methods that are TBD.
+A property Set ID (GUID)
 
 ### -param Id
 
-The Method ID that will be TBD.
+A property ID (ULONG) within the property Set ID.
 
 ### -param Verb
 
-The Acx Method Verb to send as defined by the [ACX_PROPERTY_VERB](ne-acxrequest-acx_property_verb.md) enumeration.
+The ACX property verb to send as defined by the [ACX_PROPERTY_VERB](ne-acxrequest-acx_property_verb.md) enumeration.
 
 ### -param ItemType
 
@@ -68,23 +68,23 @@ The [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) type of item being sent, for
 
 ### -param ItemId
 
-n Item Id, for example for a pin number in a circuit.
+The item ID of the ItemType, for example the pin ID if the ItemType is a pin.
 
 ### -param Control
 
-A Control buffer to be sent.
+An optional Control buffer holding additional parameters for the specified property. Set to null if not present.
 
 ### -param ControlCb
 
-The count in bytes (size) of the Control buffer.
+The count in bytes (size) of the Control buffer. Set to 0 if Control field is not used.
 
 ### -param Value
 
-The  value that will be TBD. Provide a null Value so that the SendProperty will allocate it. Make sure that the allocated value is freed.
+An optional Value buffer to specify or receive the property's value. Set to null if not present or if *SendProperty needs to allocate it when ValueCb is not zero. Caller is responsable for freeing the allocated buffer.
 
 ### -param ValueCb
 
-The count in bytes (size) of the Value.
+The count in bytes (size) of the Value buffer. Set to 0 if Value is not used.
 
 ## -remarks
 
@@ -93,6 +93,7 @@ The count in bytes (size) of the Value.
 Example usage is shown below.
 
 ```cpp
+
     NTSTATUS                    status = STATUS_SUCCESS;
     PKSPIN_PHYSICALCONNECTION   physicalConnection = nullptr;
     PAUDIO_PATH_DESCRIPTOR      descriptor = nullptr;
@@ -117,8 +118,11 @@ Example usage is shown below.
             nullptr,
             0);
 ...
+
 ```
 
 ## -see-also
 
-TBD - Please review this topic
+- [acxrequest.h header](index.md)
+
+READY2GO
