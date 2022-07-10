@@ -48,7 +48,7 @@ The **AcxTargetStreamCreate** function is used to create a target stream.
 
 ### -param Device
 
-A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT. 
+A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the current ACXCIRCUIT. 
 
 ### -param Attributes
 
@@ -56,7 +56,7 @@ Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/
 
 ### -param Config
 
-An initialized [ACX_TARGET_STREAM_CONFIG structure](ns-acxtargets-acx_target_stream_config.md) that describes the configuration of the target factory circuit.
+An initialized [ACX_TARGET_STREAM_CONFIG structure](ns-acxtargets-acx_target_stream_config.md) that describes the configuration of the target stream.
 
 ### -param TargetStream
 
@@ -68,9 +68,12 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+Drivers should use the ACXSTREAMBRIDGE to automatically propagate an audio stream down-level to the other connected circuits.
+
 ### Example
 
 ```cpp
+
     WDF_OBJECT_ATTRIBUTES               attributes;
     PAGGREGATOR_PIN_CONTEXT             pinCtx;
     ACXSTREAM                           stream;
@@ -86,6 +89,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
     WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
     attributes.ParentObject = stream;
 
+...
+
         ACX_TARGET_STREAM_CONFIG_INIT(&targetStreamCfg);
         targetStreamCfg.TargetCircuit = pinCtx->TargetPins[i]->TargetCircuit;
         targetStreamCfg.PinId = pinCtx->TargetPins[i]->TargetPinId;
@@ -93,11 +98,14 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
         targetStreamCfg.SignalProcessingMode = SignalProcessingMode;
         targetStreamCfg.OptionalParameters = VarArguments;
 
+...
+
         status = AcxTargetStreamCreate(Device, &attributes, &targetStreamCfg, &streamCtx->TargetStreams[i]);
+
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

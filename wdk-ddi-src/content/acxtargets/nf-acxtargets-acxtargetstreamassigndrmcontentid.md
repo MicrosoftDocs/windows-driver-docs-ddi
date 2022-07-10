@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetStreamAssignDrmContentId** function given an existing ACXTARGETSTREAM object, assigns a DRM Content Id to that stream.
+The **AcxTargetStreamAssignDrmContentId** function given an existing ACXTARGETSTREAM object, assigns a DRM Content ID to that stream.
 
 ## -parameters
 
 ### -param TargetStream
 
-A pointer to the location of an existing ACXTARGETSTREAM object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXTARGETSTREAM object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param ContentId
 
@@ -76,4 +76,4 @@ Sample pending
 
 - [acxtargets.h header](index.md)
  
-TBD - Please review this topic 
+READY2GO

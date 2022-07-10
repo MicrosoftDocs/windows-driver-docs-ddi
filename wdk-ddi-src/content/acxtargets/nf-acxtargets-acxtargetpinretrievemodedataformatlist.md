@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetPinRetrieveModeDataFormatList
 ms.date: 04/29/2022
 targetos: Windows
-description: The AcxTargetPinRetrieveModeDataFormatList function given an existing ACXTARGETPIN object, returns a ACXDATAFORMATLIST SignalProcessingMode data format list ACX object.
+description: The AcxTargetPinRetrieveModeDataFormatList function given an existing ACXTARGETPIN object, returns the ACXDATAFORMATLIST associated to the specified signal-processing-mode data format list.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,21 +42,21 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetPinRetrieveModeDataFormatList** function given an existing ACXTARGETPIN object, returns a ACXDATAFORMATLIST SignalProcessingMode data format list ACX object.
+The **AcxTargetPinRetrieveModeDataFormatList** function given an existing ACXTARGETPIN object, returns the ACXDATAFORMATLIST associated to the specified signal-processing-mode data format list.
 
 ## -parameters
 
 ### -param TargetPin
 
-A pointer to the location of an existing ACXTARGETPIN Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXTARGETPIN Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param SignalProcessingMode
 
-TBD - A GUID identifying the signal processing mode to which the specified data format list belong.
+A GUID identifying the signal processing mode to which the specified data format list belong.
 
 ### -param DataFormatList
 
-TBD - A handle to a new SignalProcessingMode data format list. For more information about signal processing modes, [Audio Signal Processing Modes](/windows-hardware/drivers/audio/audio-signal-processing-modes).
+Pointer to a location receiving an ACXDATAFORMATLIST handle. For more information about signal processing modes, [Audio Signal Processing Modes](/windows-hardware/drivers/audio/audio-signal-processing-modes).
 
 ## -returns
 
@@ -76,4 +76,4 @@ Sample pending
 
 - [acxtargets.h header](index.md)
 
-TBD - Please review this topic 
+READY2GO
