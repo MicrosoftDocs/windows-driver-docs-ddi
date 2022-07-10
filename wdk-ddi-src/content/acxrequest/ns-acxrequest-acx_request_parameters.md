@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_REQUEST_PARAMETERS
 ms.date: 04/29/2022
 targetos: Windows
-description: The ACX_REQUEST_PARAMETERS structure describes the items that can be used in an ACX request.
+description: The ACX_REQUEST_PARAMETERS structure receives parameters that are associated with an I/O ACX request.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_REQUEST_PARAMETERS** structure describes the items that can be used in an ACX request.
+The **ACX_REQUEST_PARAMETERS** structure receives parameters that are associated with an I/O ACX request.
 
 The following parameters are based on the service that is being invoked, such as a property, method or event. Drivers can determine which set to use based on the ACX_ITEM_TYPE.
 
@@ -97,19 +97,15 @@ The [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) enumeration describes the ty
 
 ### -field Parameters.Property.ControlCb
 
-The count in bytes (size) of the Control
+The count in bytes (size) of the Property.Control buffer.
 
 ### -field Parameters.Property.Value
 
-The Property Value that will be TBD
-
 ### -field Parameters.Property.ValueCb
 
-The count in bytes (size) of the Value.
+The count in bytes (size) of the Property.Value buffer.
 
 ### -field Parameters.Method
-
-TBD - Based on Method struct
 
 ### -field Parameters.Method.Set
 
@@ -129,9 +125,9 @@ TBD - Based on Method struct
 
 ### -field Parameters.Method.ResultCb
 
-### -field Parameters.Event
+The count in bytes (size) of the Method.Result buffer.
 
-TBD - Based on Method struct
+### -field Parameters.Event
 
 ### -field Parameters.Event.Set
 
@@ -147,6 +143,8 @@ TBD - Based on Method struct
 
 ### -field Parameters.Event.DataCb
 
+The count in bytes (size) of the Event.Data buffer.
+
 ### -field Parameters.Event.EventData
 
 ### -field Parameters.Create
@@ -155,7 +153,7 @@ TBD - Based on Method struct
 
 ### -field Parameters.Create.ControlCb
 
-TBD - The count in bytes (size) of the Create Control.
+The count in bytes (size) of the Create.Control buffer.
 
 ## -remarks
 
@@ -186,4 +184,4 @@ Example usage is shown below.
 
 - [acxrequest.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
