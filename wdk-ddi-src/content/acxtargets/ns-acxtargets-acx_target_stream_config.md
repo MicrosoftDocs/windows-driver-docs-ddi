@@ -64,7 +64,7 @@ An ACXTARGETCIRCUIT object representing the target circuit.
 
 ### -field PinId
 
-The Pin ID number.
+The remote pin ID number of the remote target.
 
 ### -field DataFormat
 
@@ -77,14 +77,14 @@ audio modes, see [Audio Signal Processing Modes](/windows-hardware/drivers/audio
 
 ### -field OptionalParameters
 
-An ACXOBJECTBAG ACX object describing optional parameters.
+An optional ACXOBJECTBAG ACX object describing optional parameters.
 
 ## -remarks
 
 ### Example
 
 ```cpp
-    ACX_TARGET_STREAM_CONFIG            targetStreamCfg;
+    ACX_TARGET_STREAM_CONFIG targetStreamCfg;
 
     ACX_TARGET_STREAM_CONFIG_INIT(&targetStreamCfg);
 ```
@@ -93,4 +93,4 @@ An ACXOBJECTBAG ACX object describing optional parameters.
 
 - [acxtargets.h header](index.md)
 
-TBD - Please review this topic 
+READY2GO

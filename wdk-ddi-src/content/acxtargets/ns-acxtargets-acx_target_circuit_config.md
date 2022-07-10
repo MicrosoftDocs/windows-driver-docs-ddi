@@ -76,4 +76,4 @@ Sample Pending
 
 - [acxtargets.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

@@ -60,7 +60,7 @@ No flag bits are currently defined. Set this member to zero - AcxTargetFactoryCi
 
 ### -field IoTarget
 
-A WDFIOTARGET object that is the IoTarget for the factory circuit. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).
+An optional WDFIOTARGET object that is the IoTarget for the factory circuit. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).
 
 ### -field SymbolicLinkName
 
@@ -71,7 +71,7 @@ Pointer to a Unicode string that contains the name of the symbolic link for the 
 ### Example
 
 ```cpp
-    ACX_TARGET_FACTORY_CIRCUIT_CONFIG   targetCfg;
+    ACX_TARGET_FACTORY_CIRCUIT_CONFIG targetCfg;
 
     ACX_TARGET_FACTORY_CIRCUIT_CONFIG_INIT(&targetCfg);
     targetCfg.SymbolicLinkName = m_SymbolicLinkName; 
@@ -81,4 +81,4 @@ Pointer to a Unicode string that contains the name of the symbolic link for the 
 
 - [acxtargets.h header](index.md)
  
-TBD - Please review this topic 
+READY2GO
