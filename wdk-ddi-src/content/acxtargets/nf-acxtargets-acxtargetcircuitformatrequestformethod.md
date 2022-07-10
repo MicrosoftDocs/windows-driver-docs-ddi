@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetCircuitFormatRequestForMethod
 ms.date:  11/11/2021
 targetos: Windows
-description: The AcxTargetCircuitFormatRequestForMethod dispatches an ACX request using a WDFREQUEST framework request object.
+description: The AcxTargetCircuitFormatRequestForMethod formats a WDFREQUEST as an ACX method request to be used on specified circuit target.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,21 +42,21 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetCircuitFormatRequestForMethod** dispatches an ACX request using a WDFREQUEST framework request object.
+The **AcxTargetCircuitFormatRequestForMethod** formats a WDFREQUEST as an ACX method request to be used on specified circuit target.
 
 ## -parameters
 
 ### -param TargetCircuit
 
-A pointer to a location of an existing ACXTARGETCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXTARGETCIRCUIT handle. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Request
 
-A pointer to a location that receives a handle to a WDFREQUEST framework request object described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects). For general information about WDF requests, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects).
+A WDFREQUEST handle described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects). For general information about WDF requests, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects).
 
 ### -param Params
 
-An initialized [ACX_REQUEST_PARAMETERS](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_request_parameters.md) structure that is used to store request parameter information.
+An initialized [ACX_REQUEST_PARAMETERS](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_request_parameters.md) structure that is used to store method request parameter information.
 
 ## -returns
 
@@ -64,26 +64,27 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-Framework request objects represent I/O requests that the I/O manager has sent to a driver. Framework-based drivers process each I/O request by calling framework request object methods. For more information, see [Framework Request Objects](/windows-hardware/drivers/wdf/framework-request-objects).
+A WDFREQUEST is a driver created I/O requests. Framework-based drivers process each I/O request by calling framework request object methods. For more information, see [Framework Request Objects](/windows-hardware/drivers/wdf/framework-request-objects).
 
 ### Example
 
 ```cpp
-  ACX_REQUEST_PARAMETERS      params;
-  WDF_REQUEST_SEND_OPTIONS    sendOptions;
-  WDFREQUEST                  req;
-  ACXTARGETCIRCUIT TargetCircuit,
+
+    ACX_REQUEST_PARAMETERS      params;
+    WDFREQUEST                  req;
+    ACXTARGETCIRCUIT            targetCircuit;
 
 ...
 
-            //
-            // Format a WDF request for the target.
-            //
-            status = AcxTargetCircuitFormatRequestForMethod(TargetCircuit, req, &params);
+    //
+    // Format a WDF request as an ACX method request for the ACX circuit target.
+    //
+    status = AcxTargetCircuitFormatRequestForMethod(targetCircuit, req, &params);
+
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
  
-TBD - Please review this topic
+READY2GO

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetCircuitGetElementsCount
 ms.date: 04/22/2022
 targetos: Windows
-description: The AcxTargetCircuitGetElementsCount function given an ACXTARGETCIRCUIT object, returns an elements count.
+description: The AcxTargetCircuitGetElementsCount function returns the count of ACX elements on the remote ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetCircuitGetElementsCount** function given an ACXTARGETCIRCUIT object, returns an elements count.
+The **AcxTargetCircuitGetElementsCount** function returns the count of ACX elements on the remote ACXCIRCUIT.
 
 ## -parameters
 
 ### -param TargetCircuit
 
-A pointer to a location of an existing ACXTARGETCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXTARGETCIRCUIT handle. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -56,18 +56,16 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-Framework request objects represent I/O requests that the I/O manager has sent to a driver. Framework-based drivers process each I/O request by calling framework request object methods. For more information, see [Framework Request Objects](/windows-hardware/drivers/wdf/framework-request-objects).
-
 ### Example
 
 ```cpp
-    ULONG                       elementCount;
+    ULONG elementCount;
 
-    elementCount = AcxTargetCircuitGetElementsCount(audioCircuit->AcxTargetCircuit);
+    elementCount = AcxTargetCircuitGetElementsCount(targetCircuit);
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
