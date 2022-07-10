@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetStreamGetElementsCount
 ms.date: 04/27/2022
 targetos: Windows
-description: The AcxTargetStreamGetElementsCount function given an ACXTARGETSTREAM object, returns an elements count.
+description: The AcxTargetStreamGetElementsCount function given an ACXTARGETSTREAM object, returns its number of ACX elements.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetStreamGetElementsCount** function given an ACXTARGETSTREAM object, returns an elements count.
+The **AcxTargetStreamGetElementsCount** function given an ACXTARGETSTREAM object, returns its number of ACX elements.
 
 ## -parameters
 
 ### -param TargetStream
 
-A pointer to the location of an existing ACXTARGETSTREAM object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+an existing ACXTARGETSTREAM object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
-Returns an elements count for the requested TargetStream.
+Returns the number of elements for the specified target stream.
 
 ## -remarks
 
@@ -68,4 +68,4 @@ Sample Pending
 
 - [acxtargets.h header](index.md)
  
-TBD - Please review this topic
+READY2GO

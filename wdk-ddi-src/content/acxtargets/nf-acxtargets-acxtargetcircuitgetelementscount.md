@@ -52,7 +52,7 @@ An ACXTARGETCIRCUIT handle. For more information about ACX objects, see [Summary
 
 ## -returns
 
-Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+Returns the number of elements for the specified target circuit.
 
 ## -remarks
 
