@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_PROPERTY_ITEM
 ms.date: 03/04/2022
 targetos: Windows
-description: The ACX_PROPERTY_ITEM structure describes the ACX/KS property request item.
+description: The ACX_PROPERTY_ITEM structure describes a property item that is the target of an ACX request.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,13 +44,13 @@ dev_langs:
 
 ## -description
 
-The **ACX_PROPERTY_ITEM** structure describes the ACX/KS property request item. A property represents a capability or control-state setting that belongs to a ACX object, such as a circuit, element, pin, stream, etc. For more information, see [KS Properties](/windows-hardware/drivers/stream/ks-properties).
+The **ACX_PROPERTY_ITEM** structure describes a property item that is the target of an ACX request. A property represents a capability or control-state setting that belongs to a ACX object, such as a circuit, element, pin, stream, etc. For more information, see [KS Properties](/windows-hardware/drivers/stream/ks-properties).
 
 ## -struct-fields
 
 ### -field Set
 
-Specifies a GUID that identifies a KS (kernel streaming property) item set. For example, the KSPROPSETID_Topology set ID is the set of topology circuit properties For more information, see [KSPROPERTY structure](/windows-hardware/drivers/stream/ksproperty-structure).
+Specifies a GUID that identifies a KS (kernel streaming) property item set. For example, the KSPROPSETID_Topology set ID is the set of topology circuit properties For more information, see [KSPROPERTY structure](/windows-hardware/drivers/stream/ksproperty-structure).
 
 ### -field Id
 
@@ -85,11 +85,11 @@ This field is reserved.
 
 ### -field ControlCb
 
-The minimum count in bytes (size) of the additional control property parameters. Set to zero if no minimum value.
+The minimum count in bytes (size) of the additional Control buffer. Set to zero if no minimum value.
 
 ### -field ValueCb
 
-The minimum count in bytes (size) of the value buffer. Set to zero if there is no minimum value.
+The minimum count in bytes (size) of the Value buffer. Set to zero if there is no minimum value.
 
 ### -field ValueType
 
