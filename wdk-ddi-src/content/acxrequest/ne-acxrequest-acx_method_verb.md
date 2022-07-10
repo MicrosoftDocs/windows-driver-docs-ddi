@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_METHOD_VERB
 ms.date: 02/07/2022
 targetos: Windows
-description: The ACX_METHOD_VERB structure describes the type of method verb support that will be available.
+description: The ACX_METHOD_VERB structure describes the type of verb operations suppored on ACX methods.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,13 +40,9 @@ dev_langs:
 
 ## -description
 
-The **ACX_METHOD_VERB** enumeration describes the type of method verb support that will be available.
+The **ACX_METHOD_VERB** enumeration describes the type of verb operations suppored on ACX methods.
 
 ## -enum-fields
-
-TBD - Need to see if these map to: Portcls PCMETHOD_ITEM structure 
-
-https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/portcls/ns-portcls-pcmethod_item
 
 ### -field AcxMethodVerbNone
 
@@ -84,4 +80,4 @@ Sample pending.
 
 - [acxrequest.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
