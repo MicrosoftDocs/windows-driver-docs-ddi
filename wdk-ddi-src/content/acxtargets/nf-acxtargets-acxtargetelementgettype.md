@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetElementGetType
 ms.date: 04/29/2022
 targetos: Windows
-description: The AcxTargetElementGetType function given an existing ACXTARGETELEMENT object returns an element type in the form of a GUID.
+description: The AcxTargetElementGetType function given an existing ACXTARGETELEMENT object, returns its corresponding element type in the form of a GUID.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetElementGetType** function given an existing ACXTARGETELEMENT object returns an element type in the form of a GUID.
+The **AcxTargetElementGetType** function given an existing ACXTARGETELEMENT object, returns its corresponding element type  in the form of a GUID.
 
 ## -parameters
 
@@ -59,12 +59,14 @@ An element type as a GUID.
 ### Example
 
 ```cpp
-        ACXTARGETELEMENT targetElement = AcxTargetCircuitGetTargetElement(TargetCircuit, elementIndex);
-        GUID elementType = AcxTargetElementGetType(targetElement);
+
+    ACXTARGETELEMENT targetElement = AcxTargetCircuitGetTargetElement(TargetCircuit, elementIndex);
+    GUID elementType = AcxTargetElementGetType(targetElement);
+
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

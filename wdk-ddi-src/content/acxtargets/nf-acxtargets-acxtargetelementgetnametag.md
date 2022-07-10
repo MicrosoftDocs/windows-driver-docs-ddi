@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetElementGetNameTag
 ms.date: 04/29/2022
 targetos: Windows
-description: The AcxTargetElementGetNameTag given an existing ACXTARGETELEMENT object returns an NameTag in the form of a GUID.
+description: The AcxTargetElementGetNameTag given an existing ACXTARGETELEMENT object, returns its name-tag in the form of a GUID.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetElementGetNameTag** function given an existing ACXTARGETELEMENT object returns an NameTag in the form of a GUID.
+The **AcxTargetElementGetNameTag** function given an existing ACXTARGETELEMENT object returns, returns its name-tag in the form of a GUID.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ An existing ACXTARGETELEMENT Object. For more information about ACX objects, see
 
 ## -returns
 
-A NameTag in the form of a GUID.
+A name-tag in the form of a GUID.
 
 ## -remarks
 
@@ -60,13 +60,15 @@ A NameTag in the form of a GUID.
 
 ```cpp
 
-    GUID                                elementNameTag;
+    GUID elementNameTag;
+...
 
-        elementNameTag = AcxTargetElementGetNameTag(targetElement);
+    elementNameTag = AcxTargetElementGetNameTag(targetElement);
+
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
  
-TBD - Please review this topic
+READY2GO

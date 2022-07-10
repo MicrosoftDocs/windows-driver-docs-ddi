@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetElementGetId
 ms.date: 04/29/2022
 targetos: Windows
-description: The AcxTargetElementGetId given an existing ACXTARGETELEMENT object returns an Id value.
+description: The AcxTargetElementGetId given an existing ACXTARGETELEMENT object, returns its corresponding ID value.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetElementGetId** function given an existing ACXTARGETELEMENT object returns an Id value.
+The **AcxTargetElementGetId** function given an existing ACXTARGETELEMENT object, returns its corresponding ID value.
 
 ## -parameters
 
@@ -52,14 +52,14 @@ An existing ACXTARGETELEMENT Object. For more information about ACX objects, see
 
 ## -returns
 
-The Id value associated with the element.
+The ID value associated with the element.
 
 ## -remarks
 
 ### Example
 
 ```cpp
-    ACXTARGETELEMENT            targetElement = nullptr;
+    ACXTARGETELEMENT targetElement = nullptr;
 
     targetElement = circuitCtx->TargetVolumeHandler;
 
@@ -80,4 +80,4 @@ The Id value associated with the element.
 
 - [acxtargets.h header](index.md)
  
-TBD - Please review this topic
+READY2GO
