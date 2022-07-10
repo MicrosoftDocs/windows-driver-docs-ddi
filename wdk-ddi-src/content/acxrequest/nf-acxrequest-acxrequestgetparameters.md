@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxRequestGetParameters
 ms.date: 02/08/2022
 targetos: Windows
-description: The AcxRequestGetParameters function gets ACX request parameters.
+description: The AcxRequestGetParameters function gets ACX request parameters from a WDFREQUEST.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,19 +42,19 @@ dev_langs:
 
 ## -description
 
-The **AcxRequestGetParameters** function gets ACX request parameters.
+The **AcxRequestGetParameters** function gets ACX request parameters from a WDFREQUEST.
 
 ## -parameters
 
 ### -param Request
 
-A standard WDFREQUEST object. 
+An I/O WDFREQUEST object. 
 
 For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).
 
 ### -param Parameters
 
-An [ACX_REQUEST_PARAMETERS](nf-acxrequest-acxrequestgetparameters.md) structure that describes the event items that can be used in an ACX request.
+An [ACX_REQUEST_PARAMETERS](nf-acxrequest-acxrequestgetparameters.md) structure that is initialized with the WDFREQUEST.
 
 ## -remarks
 
@@ -77,4 +77,4 @@ Example usage is shown below.
 
 - [acxrequest.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

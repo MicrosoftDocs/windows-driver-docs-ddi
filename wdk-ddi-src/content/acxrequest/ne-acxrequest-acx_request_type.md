@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_REQUEST_TYPE
 ms.date: 02/07/2022
 targetos: Windows
-description:  The ACX_REQUEST_TYPE enumeration describes the type of requests that will be available.
+description:  The ACX_REQUEST_TYPE enumeration describes the possible types of ACX requests.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_REQUEST_TYPE** enumeration describes the type of requests that will be available.
+The **ACX_REQUEST_TYPE** enumeration describes the possible types of ACX requests.
 
 ## -enum-fields
 
@@ -50,27 +50,27 @@ The request type is unknown.
 
 ### -field AcxRequestTypeAny
 
-Any Request types will be available.
+Any Request types is possible.
 
 ### -field AcxRequestTypeCreate
 
-The create request type will be available.
+This is a create request.
 
 ### -field AcxRequestTypeProperty
 
-The request type property will be available.
+This is a property request.
 
 ### -field AcxRequestTypeMethod
 
-The request type method will be available.
+This is a method request.
 
 ### -field AcxRequestTypeEvent
 
-The request type event will be available.
+This is an event request.
 
 ### -field AcxRequestTypeResetState
 
-The request type reset state will be available.
+This is a reset request.
 
 ### -field AcxRequestTypeMax
 
@@ -83,6 +83,7 @@ For internal validation, do not use.
 Example usage is shown below.
 
 ```cpp
+
     ACX_REQUEST_TYPE reqType;
     
     {
@@ -103,10 +104,11 @@ Example usage is shown below.
         AfxHelper::DispatchMethod(GetObjectHandle(), Request, &m_Methods, recorder);
         break;
 ...
+
 ```
 
 ## -see-also
 
 - [acxrequest.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

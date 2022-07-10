@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_ITEM_TYPE
 ms.date: 02/07/2022
 targetos: Windows
-description: The ACX_ITEM_TYPE enumeration describes the type of items that will be available.
+description: The ACX_ITEM_TYPE enumeration describes the possible types of items.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_ITEM_TYPE** enumeration describes the type of items that will be available.
+The **ACX_ITEM_TYPE** enumeration describes the possible types of items.
 
 ## -enum-fields
 
@@ -88,4 +88,4 @@ Sample pending
 
 - [acxrequest.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
