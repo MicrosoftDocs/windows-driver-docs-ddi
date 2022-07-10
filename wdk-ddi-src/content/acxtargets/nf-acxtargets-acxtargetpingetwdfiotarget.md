@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetPinGetWdfIoTarget
 ms.date: 04/29/2022
 targetos: Windows
-description: The AcxTargetPinGetWdfIoTarget function given an existing ACXTARGETPIN object, returns a WDFIOTARGET object.
+description: The AcxTargetPinGetWdfIoTarget function given an existing ACXTARGETPIN object, returns its corresponding WDFIOTARGET object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,33 +42,36 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetPinGetWdfIoTarget** given an existing ACXTARGETPIN object, returns a WDFIOTARGET object. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).
+The **AcxTargetPinGetWdfIoTarget** given an existing ACXTARGETPIN object, returns its corresponding WDFIOTARGET object. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).
 
 ## -parameters
 
 ### -param TargetPin
 
-A pointer to the location of an existing ACXTARGETPIN object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXTARGETPIN object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ## -returns
 
-Returns the WDFIOTARGET object associated with the TargetPin.
+Returns the WDFIOTARGET object associated with the target pin target.
 
 ## -remarks
 
 ### Example
 
 ```cpp
-    _In_        WDFOBJECT               AcxTarget,
+
+    _In_ ACXTARGETPIN PinTarget;
 
 ...
 
-  WDFIOTARGET                 ioTarget;
+    WDFIOTARGET ioTarget;
 
-        ioTarget = AcxTargetPinGetWdfIoTarget((ACXTARGETPIN)AcxTarget);
+    ioTarget = AcxTargetPinGetWdfIoTarget(PinTarget);
+
 ```
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
