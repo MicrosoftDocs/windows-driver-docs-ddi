@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetCircuitGetElementsCount
 ms.date: 04/22/2022
 targetos: Windows
-description: The AcxTargetCircuitGetElementsCount function returns the count of ACX elements on the remote ACXCIRCUIT.
+description: The AcxTargetCircuitGetElementsCount function returns the count of ACX elements on the remote target.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetCircuitGetElementsCount** function returns the count of ACX elements on the remote ACXCIRCUIT.
+The **AcxTargetCircuitGetElementsCount** function returns the count of ACX elements on the remote target.
 
 ## -parameters
 

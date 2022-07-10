@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetCircuitGetTargetPin
 ms.date: 02/02/2022
 targetos: Windows
-description: The AcxTargetCircuitGetTargetPin function, given a valid pin index value, will return an *ACXTARGETPIN* ACX Object that is associated with the specified circuit.
+description: The AcxTargetCircuitGetTargetPin function, given a valid pin index value, will return the associated *ACXTARGETPIN* object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetCircuitGetTargetPin** function, given a valid pin index value, will return an *ACXTARGETPIN* ACX Object that is associated with the specified circuit.
+The **AcxTargetCircuitGetTargetPin** function, given a valid pin index value, will return the associated *ACXTARGETPIN* object.
 
 ## -parameters
 
 ### -param TargetCircuit
 
-A pointer to a location of an existing ACXTARGETCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXTARGETCIRCUIT handle. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param PinIndex
 
@@ -59,8 +59,6 @@ A valid pin index value.
 Returns a ACXTARGETELEMENT ACX Object that is associated with the specified circuit.
 
 ## -remarks
-
-Framework request objects represent I/O requests that the I/O manager has sent to a driver. Framework-based drivers process each I/O request by calling framework request object methods. For more information, see [Framework Request Objects](/windows-hardware/drivers/wdf/framework-request-objects).
 
 ### Example
 
@@ -92,4 +90,4 @@ Framework request objects represent I/O requests that the I/O manager has sent t
 
 - [acxtargets.h header](index.md)
  
-TBD - Please review this topic
+READY2GO
