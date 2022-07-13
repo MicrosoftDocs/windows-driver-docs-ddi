@@ -212,8 +212,6 @@ The **WHEA_EVENT_LOG_ENTRY_ID** enumeration is reserved for system use. Do not u
 
 ### -field WheaEventLogEntryIdCpusFrozenNoCrashDump
 
-### -field WheaEventLogEntryIdPshedPiCpuid
-
 ### -field WheaEventLogEntryIdPshedPiTraceLog
 
 ## -remarks
