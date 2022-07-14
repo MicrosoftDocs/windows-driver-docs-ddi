@@ -50,7 +50,7 @@ The **KsInitializeDriver** function initializes the driver object of an AVStream
 
 A pointer to the [DRIVER_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object) structure for the AVStream driver being initialized. Minidrivers that call **KsInitializeDriver** should use the driver object passed to **DriverEntry** by the operating system.
 
-### -param RegistryPath [in]
+### -param RegistryPathName [in]
 
 A pointer to a Unicode string containing the registry path string passed into the minidriver's **DriverEntry** function by the operating system.
 

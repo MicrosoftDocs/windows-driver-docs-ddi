@@ -3,7 +3,7 @@ UID: NS:ks.__unnamed_struct_1
 title: KSIDENTIFIER (ks.h)
 description: The KSIDENTIFIER structure specifies a GUID that uniquely identifies a related set of GUIDs, and an index value to refer to a specific member within that set.
 tech.root: stream
-ms.date: 03/11/2022
+ms.date: 07/14/2022
 ms.custom: contperf-fy22q1
 keywords: ["KSIDENTIFIER structure"]
 ms.keywords: "*PKSDEGRADE, *PKSEVENT, *PKSIDENTIFIER, *PKSMETHOD, *PKSPIN_INTERFACE, *PKSPIN_MEDIUM, *PKSPROPERTY, KSDEGRADE, KSEVENT, KSIDENTIFIER, KSIDENTIFIER structure [Streaming Media Devices], KSMETHOD, KSPIN_INTERFACE, KSPIN_MEDIUM, KSPROPERTY, PKSIDENTIFIER, PKSIDENTIFIER structure pointer [Streaming Media Devices], ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, ks/KSIDENTIFIER, ks/PKSIDENTIFIER, stream.ksidentifier"
@@ -49,9 +49,43 @@ The KSIDENTIFIER structure specifies a GUID that uniquely identifies a related s
 
 The [**KSDEGRADE**](/windows-hardware/drivers/stream/ksdegrade-structure), [**KSEVENT**](/windows-hardware/drivers/stream/ksevent-structure), [**KSMETHOD**](/windows-hardware/drivers/stream/ksmethod-structure), [**KSPIN_INTERFACE**](/windows-hardware/drivers/stream/kspin-interface-structure), [**KSPIN_MEDIUM**](/windows-hardware/drivers/stream/kspin-medium-structure), and [**KSPROPERTY**](/windows-hardware/drivers/stream/ksproperty-structure) typedefs are aliases for the **KSIDENTIFIER** structure. As such, their definitions are identical. See the individual typedef topics for specifics on usage.
 
+## -struct-fields
+
+### -field _IDENTIFIER
+
+See remarks below.
+
+### -field _IDENTIFIER.Set
+
+See remarks below.
+
+### -field _IDENTIFIER.Id
+
+See remarks below.
+
+### -field _IDENTIFIER.Flags
+
+See remarks below.
+
+### -field Set
+
+See remarks below.
+
+### -field Id
+
+See remarks below.
+
+### -field Flags
+
+See remarks below.
+
+### -field Alignment
+
+See remarks below.
+
 ## -remarks
 
-### Members
+### KSIDENTIFIER member descriptions
 
 `Set`
 

@@ -3,7 +3,7 @@ UID: NF:ks.KsDeviceRegisterAdapterObject
 title: KsDeviceRegisterAdapterObject function (ks.h)
 description: The KsDeviceRegisterAdapterObject function registers a DMA adapter object with AVStream for performing scatter/gather DMA on the specified device. All drivers compiled for Win64 should use IKsDeviceFunctions::RegisterAdapterObjectEx instead.
 tech.root: stream
-ms.date: 07/13/2022
+ms.date: 07/14/2022
 keywords: ["KsDeviceRegisterAdapterObject function"]
 ms.keywords: KsDeviceRegisterAdapterObject, KsDeviceRegisterAdapterObject function [Streaming Media Devices], avfunc_59ad20f2-ca31-4fbb-808e-48df3a0c87a8.xml, ks/KsDeviceRegisterAdapterObject, stream.ksdeviceregisteradapterobject
 req.header: ks.h
@@ -54,7 +54,7 @@ A pointer to the [KSDEVICE](/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice) st
 
 A pointer to the [DMA_ADAPTER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter) structure returned by [IoGetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter) that represents the DMA controller..
 
-### -param MaxMappingByteCount [in]
+### -param MaxMappingsByteCount [in]
 
 This parameter specifies the maximum number of bytes that the device can handle for a single mapping. Allows AVStream to automatically break up large chunks of contiguous physical memory into multiple scatter/gather elements for devices that impose a size limit on individual mappings in DMA transfers. *Breaks are not guaranteed to occur on page boundaries.*
 
