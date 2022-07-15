@@ -1,10 +1,10 @@
 ---
 UID: NS:ntdddisk._SENDCMDOUTPARAMS
-title: _SENDCMDOUTPARAMS (ntdddisk.h)
+title: SENDCMDOUTPARAMS (ntdddisk.h)
 description: The SENDCMDOUTPARAMS structure is used in conjunction with the SMART_SEND_DRIVE_COMMAND request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command.
 old-location: storage\sendcmdoutparams.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 07/14/2022
 keywords: ["SENDCMDOUTPARAMS structure"]
 ms.keywords: "*LPSENDCMDOUTPARAMS, *PSENDCMDOUTPARAMS, LPSENDCMDOUTPARAMS, LPSENDCMDOUTPARAMS structure pointer [Storage Devices], PSENDCMDOUTPARAMS, PSENDCMDOUTPARAMS structure pointer [Storage Devices], SENDCMDOUTPARAMS, SENDCMDOUTPARAMS structure [Storage Devices], _SENDCMDOUTPARAMS, ntdddisk/LPSENDCMDOUTPARAMS, ntdddisk/PSENDCMDOUTPARAMS, ntdddisk/SENDCMDOUTPARAMS, storage.sendcmdoutparams, structs-IDE_d1a70016-0e77-465a-9368-665975369bdc.xml"
 req.header: ntdddisk.h
@@ -46,22 +46,21 @@ api_name:
  - SENDCMDOUTPARAMS
 ---
 
-# _SENDCMDOUTPARAMS structure
-
+# SENDCMDOUTPARAMS structure
 
 ## -description
 
-The SENDCMDOUTPARAMS structure is used in conjunction with the <a href="/previous-versions/windows/hardware/drivers/ff566206(v=vs.85)">SMART_SEND_DRIVE_COMMAND</a> request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command.
+The **SENDCMDOUTPARAMS** structure is used in conjunction with the **SMART_SEND_DRIVE_COMMAND** request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command.
 
 ## -struct-fields
 
 ### -field cBufferSize
 
-Contains the size in bytes of the buffer pointed to by <b>bBuffer</b>.
+Contains the size in bytes of the buffer pointed to by **bBuffer**.
 
 ### -field DriverStatus
 
-Contains a <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_driverstatus">DRIVERSTATUS</a> structure that indicates the driver status.
+Contains a [**DRIVERSTATUS**](ns-ntdddisk-_driverstatus.md) structure that indicates the driver status.
 
 ### -field bBuffer
 
@@ -69,19 +68,8 @@ Pointer to a buffer in which to store the data read from the drive.
 
 ## -remarks
 
-The <a href="/previous-versions/windows/hardware/drivers/ff566206(v=vs.85)">SMART_SEND_DRIVE_COMMAND</a> is used to send SMART commands to a device. 
-
-The SENDCMDOUTPARAMS structure is also used with the <a href="/previous-versions/windows/hardware/drivers/ff566204(v=vs.85)">SMART_RCV_DRIVE_DATA</a> request.
+The **SENDCMDOUTPARAMS** structure is used with the **SMART_SEND_DRIVE_COMMAND** and **SMART_RCV_DRIVE_DATA** I/O control code requests. See the Remarks section of [**SENDCMDINPARAMS**](ns-ntdddisk-_sendcmdinparams.md) for details about these requests.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_sendcmdinparams">SENDCMDINPARAMS</a>
-
-
-
-<a href="/previous-versions/windows/hardware/drivers/ff566204(v=vs.85)">SMART_RCV_DRIVE_DATA</a>
-
-
-
-<a href="/previous-versions/windows/hardware/drivers/ff566206(v=vs.85)">SMART_SEND_DRIVE_COMMAND</a>
-
+[**SENDCMDINPARAMS**](ns-ntdddisk-_sendcmdinparams.md)
