@@ -74,7 +74,7 @@ Pointer to an interface reference function that is implemented by the video port
 
 Pointer to an interface dereference function that is implemented by the video port driver.
 
-### -field DbgReportCreate
+### -field OUT (IN PVOID HwDeviceExtension,IN ULONG ulCode,IN ULONG_PTR ulpArg1,IN ULONG_PTR ulpArg2,IN ULONG_PTR ulpArg3,IN ULONG_PTR ulpArg4) PVIDEO_DEBUG_REPORT(*DbgReportCreate unnamedParam 1)
 
 Foo
 
