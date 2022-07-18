@@ -1,10 +1,9 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_ROOT_ERROR_COMMAND
-title: _PCI_EXPRESS_ROOT_ERROR_COMMAND (miniport.h)
-description: The _PCI_EXPRESS_ROOT_ERROR_COMMAND structure (miniport.h) describes a PCI Express (PCIe) root error command register for advanced error reporting.
-old-location: pci\pci_express_root_error_command.htm
+title: PCI_EXPRESS_ROOT_ERROR_COMMAND (miniport.h)
+description: The _PCI_EXPRESS_ROOT_ERROR_COMMAND union (miniport.h) describes a PCI Express (PCIe) root error command register for advanced error reporting.
 tech.root: PCI
-ms.date: 02/24/2018
+ms.date: 07/18/2022
 keywords: ["PCI_EXPRESS_ROOT_ERROR_COMMAND structure"]
 ms.keywords: "*PPCI_EXPRESS_ROOT_ERROR_COMMAND, PCI.pci_express_root_error_command, PCI_EXPRESS_ROOT_ERROR_COMMAND, PCI_EXPRESS_ROOT_ERROR_COMMAND union [Buses], PPCI_EXPRESS_ROOT_ERROR_COMMAND, PPCI_EXPRESS_ROOT_ERROR_COMMAND union pointer [Buses], _PCI_EXPRESS_ROOT_ERROR_COMMAND, pci_struct_f7834746-d8b5-4765-8434-8f7837a47871.xml, wdm/PCI_EXPRESS_ROOT_ERROR_COMMAND, wdm/PPCI_EXPRESS_ROOT_ERROR_COMMAND"
 req.header: miniport.h
@@ -46,62 +45,42 @@ api_name:
  - PCI_EXPRESS_ROOT_ERROR_COMMAND
 ---
 
-# _PCI_EXPRESS_ROOT_ERROR_COMMAND structure (miniport.h)
-
-
 ## -description
 
-The PCI_EXPRESS_ROOT_ERROR_COMMAND structure describes a PCI Express (PCIe) root error command register of a PCIe advanced error reporting capability structure.
+The **PCI_EXPRESS_ROOT_ERROR_COMMAND** union describes a PCI Express (PCIe) root error command register of a PCIe advanced error reporting capability structure.
 
 ## -struct-fields
 
 ### -field DUMMYSTRUCTNAME
 
-### -field AsULONG
+The **DUMMYSTRUCTNAME** structure.
 
-A ULONG representation of the contents of the PCI_EXPRESS_ROOT_ERROR_COMMAND structure.
-
-
-### -field CorrectableErrorReportingEnable
+### -field DUMMYSTRUCTNAME.CorrectableErrorReportingEnable
 
 A single bit that indicates that interrupts are enabled for when a correctable error is reported by any of the devices in the hierarchy that are associated with this root port.
 
-
-### -field FatalErrorReportingEnable
-
-A single bit that indicates that interrupts are enabled for when a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port.
-
-
-### -field NonFatalErrorReportingEnable
+### -field DUMMYSTRUCTNAME.NonFatalErrorReportingEnable
 
 A single bit that indicates that interrupts are enabled for when a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port.
 
+### -field DUMMYSTRUCTNAME.FatalErrorReportingEnable
 
-### -field Reserved
+A single bit that indicates that interrupts are enabled for when a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port.
+
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved.
 
-## -syntax
+### -field AsULONG
 
-```cpp
-typedef union _PCI_EXPRESS_ROOT_ERROR_COMMAND {
-  struct {
-    ULONG CorrectableErrorReportingEnable  :1;
-    ULONG NonFatalErrorReportingEnable  :1;
-    ULONG FatalErrorReportingEnable  :1;
-    ULONG Reserved  :29;
-  };
-  ULONG  AsULONG;
-} PCI_EXPRESS_ROOT_ERROR_COMMAND, *PPCI_EXPRESS_ROOT_ERROR_COMMAND;
-```
+A **ULONG** representation of the contents of the **PCI_EXPRESS_ROOT_ERROR_COMMAND** structure.
 
 ## -remarks
 
-The PCI_EXPRESS_ROOT_ERROR_COMMAND structure is available in Windows Server 2008 and later versions of Windows.
+The **PCI_EXPRESS_ROOT_ERROR_COMMAND** structure is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_ROOT_ERROR_COMMAND structure is contained in the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a> structure.
+A **PCI_EXPRESS_ROOT_ERROR_COMMAND** structure is contained in the [PCI_EXPRESS_ROOTPORT_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
-
+[PCI_EXPRESS_ROOTPORT_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability)

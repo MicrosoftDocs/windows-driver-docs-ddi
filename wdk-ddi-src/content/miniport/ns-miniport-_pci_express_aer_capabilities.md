@@ -1,9 +1,9 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_AER_CAPABILITIES
-title: _PCI_EXPRESS_AER_CAPABILITIES (miniport.h)
-description: The _PCI_EXPRESS_AER_CAPABILITIES structure (miniport.h) describes a PCI Express (PCIe) advanced error capabilities and control register.
+title: PCI_EXPRESS_AER_CAPABILITIES (miniport.h)
+description: The _PCI_EXPRESS_AER_CAPABILITIES union (miniport.h) describes a PCI Express (PCIe) advanced error capabilities and control register.
 tech.root: PCI
-ms.date: 07/14/2022
+ms.date: 07/18/2022
 keywords: ["PCI_EXPRESS_AER_CAPABILITIES structure"]
 ms.keywords: "*PPCI_EXPRESS_AER_CAPABILITIES, PCI.pci_express_aer_capabilities, PCI_EXPRESS_AER_CAPABILITIES, PCI_EXPRESS_AER_CAPABILITIES union [Buses], PPCI_EXPRESS_AER_CAPABILITIES, PPCI_EXPRESS_AER_CAPABILITIES union pointer [Buses], _PCI_EXPRESS_AER_CAPABILITIES, pci_struct_e316ea91-d32a-4726-ba80-8fc6bd8e3163.xml, wdm/PCI_EXPRESS_AER_CAPABILITIES, wdm/PPCI_EXPRESS_AER_CAPABILITIES"
 req.header: miniport.h
@@ -47,9 +47,13 @@ api_name:
 
 ## -description
 
-The **PCI_EXPRESS_AER_CAPABILITIES** structure describes a PCI Express (PCIe) advanced error capabilities and control register of a PCIe advanced error reporting capability structure.
+The **PCI_EXPRESS_AER_CAPABILITIES** union describes a PCI Express (PCIe) advanced error capabilities and control register of a PCIe advanced error reporting capability structure.
 
 ## -struct-fields
+
+### -field DUMMYSTRUCTNAME
+
+The **DUMMYSTRUCTNAME** structure.
 
 ### -field DUMMYSTRUCTNAME.FirstErrorPointer
 

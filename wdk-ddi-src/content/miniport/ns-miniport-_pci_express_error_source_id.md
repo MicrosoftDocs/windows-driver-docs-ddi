@@ -1,10 +1,9 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_ERROR_SOURCE_ID
-title: _PCI_EXPRESS_ERROR_SOURCE_ID (miniport.h)
-description: The _PCI_EXPRESS_ERROR_SOURCE_ID structure (miniport.h) describes the IDs of the first correctable and first uncorrectable error in the error status register.
-old-location: pci\pci_express_error_source_id.htm
+title: PCI_EXPRESS_ERROR_SOURCE_ID (miniport.h)
+description: The _PCI_EXPRESS_ERROR_SOURCE_ID union (miniport.h) describes the IDs of the first correctable and first uncorrectable error in the error status register.
 tech.root: PCI
-ms.date: 02/24/2018
+ms.date: 07/18/2022
 keywords: ["PCI_EXPRESS_ERROR_SOURCE_ID structure"]
 ms.keywords: "*PPCI_EXPRESS_ERROR_SOURCE_ID, PCI.pci_express_error_source_id, PCI_EXPRESS_ERROR_SOURCE_ID, PCI_EXPRESS_ERROR_SOURCE_ID union [Buses], PPCI_EXPRESS_ERROR_SOURCE_ID, PPCI_EXPRESS_ERROR_SOURCE_ID union pointer [Buses], _PCI_EXPRESS_ERROR_SOURCE_ID, pci_struct_f111f61b-46a0-450d-bbce-172f125a6903.xml, wdm/PCI_EXPRESS_ERROR_SOURCE_ID, wdm/PPCI_EXPRESS_ERROR_SOURCE_ID"
 req.header: miniport.h
@@ -46,74 +45,50 @@ api_name:
  - PCI_EXPRESS_ERROR_SOURCE_ID
 ---
 
-# _PCI_EXPRESS_ERROR_SOURCE_ID structure (miniport.h)
-
-
 ## -description
 
-The PCI_EXPRESS_ERROR_SOURCE_ID structure describes the identifiers of the first correctable error and the first uncorrectable error that are reported in the PCI Express (PCIe) root error status register.
+The **PCI_EXPRESS_ERROR_SOURCE_ID** union describes the identifiers of the first correctable error and the first uncorrectable error that are reported in the PCI Express (PCIe) root error status register.
 
 ## -struct-fields
 
 ### -field DUMMYSTRUCTNAME
 
-### -field AsULONG
+The **DUMMYSTRUCTNAME** structure.
 
-A ULONG representation of the contents of the PCI_EXPRESS_ERROR_SOURCE_ID structure.
-
-
-### -field CorrectableSourceIdBus
-
-The bus number of the requester that reported the first correctable error.
-
-
-### -field CorrectableSourceIdDev
-
-The device number of the requester that reported the first correctable error.
-
-
-### -field CorrectableSourceIdFun
+### -field DUMMYSTRUCTNAME.CorrectableSourceIdFun
 
 The function number of the requester that reported the first correctable error.
 
+### -field DUMMYSTRUCTNAME.CorrectableSourceIdDev
 
-### -field UncorrectableSourceIdBus
+The device number of the requester that reported the first correctable error.
 
-The bus number of the requester that reported the first uncorrectable error.
+### -field DUMMYSTRUCTNAME.CorrectableSourceIdBus
 
+The bus number of the requester that reported the first correctable error.
 
-### -field UncorrectableSourceIdDev
-
-The device number of the requester that reported the first uncorrectable error.
-
-
-### -field UncorrectableSourceIdFun
+### -field DUMMYSTRUCTNAME.UncorrectableSourceIdFun
 
 The function number of the requester that reported the first uncorrectable error.
 
-## -syntax
+### -field DUMMYSTRUCTNAME.UncorrectableSourceIdDev
 
-```cpp
-typedef union _PCI_EXPRESS_ERROR_SOURCE_ID {
-  struct {
-    USHORT CorrectableSourceIdFun  :3;
-    USHORT CorrectableSourceIdDev  :5;
-    USHORT CorrectableSourceIdBus  :8;
-    USHORT UncorrectableSourceIdFun  :3;
-    USHORT UncorrectableSourceIdDev  :5;
-    USHORT UncorrectableSourceIdBus  :8;
-  };
-  ULONG  AsULONG;
-} PCI_EXPRESS_ERROR_SOURCE_ID, *PPCI_EXPRESS_ERROR_SOURCE_ID;
-```
+The device number of the requester that reported the first uncorrectable error.
+
+### -field DUMMYSTRUCTNAME.UncorrectableSourceIdBus
+
+The bus number of the requester that reported the first uncorrectable error.
+
+### -field AsULONG
+
+A **ULONG** representation of the contents of the **PCI_EXPRESS_ERROR_SOURCE_ID** structure.
 
 ## -remarks
 
-The PCI_EXPRESS_ERROR_SOURCE_ID structure is available in Windows Server 2008 and later versions of Windows.
+The **PCI_EXPRESS_ERROR_SOURCE_ID** structure is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_ERROR_SOURCE_ID structure is contained in the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a> structure.
+A **PCI_EXPRESS_ERROR_SOURCE_ID** structure is contained in the [PCI_EXPRESS_ROOTPORT_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
-
+[PCI_EXPRESS_ROOTPORT_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability)

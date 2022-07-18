@@ -1,9 +1,9 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_CAPABILITIES_REGISTER
 title: PCI_EXPRESS_CAPABILITIES_REGISTER (miniport.h)
-description: The PCI_EXPRESS_CAPABILITIES_REGISTER structure (miniport.h) describes a PCI Express (PCIe) capabilities register of a PCIe capability structure.
+description: The PCI_EXPRESS_CAPABILITIES_REGISTER union (miniport.h) describes a PCI Express (PCIe) capabilities register of a PCIe capability structure.
 tech.root: PCI
-ms.date: 07/14/2022
+ms.date: 07/18/2022
 keywords: ["PCI_EXPRESS_CAPABILITIES_REGISTER structure"]
 ms.keywords: "*PPCI_EXPRESS_CAPABILITIES_REGISTER, PCI.pci_express_capabilities_register, PCI_EXPRESS_CAPABILITIES_REGISTER, PCI_EXPRESS_CAPABILITIES_REGISTER union [Buses], PPCI_EXPRESS_CAPABILITIES_REGISTER, PPCI_EXPRESS_CAPABILITIES_REGISTER union pointer [Buses], _PCI_EXPRESS_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_CAPABILITIES_REGISTER, pci_struct_86cc3b70-4de8-4479-b431-5f7f10d4a2f4.xml"
 req.header: miniport.h
@@ -47,9 +47,13 @@ api_name:
 
 ## -description
 
-The **PCI_EXPRESS_CAPABILITIES_REGISTER** structure describes a PCI Express (PCIe) capabilities register of a PCIe capability structure.
+The **PCI_EXPRESS_CAPABILITIES_REGISTER** union describes a PCI Express (PCIe) capabilities register of a PCIe capability structure.
 
 ## -struct-fields
+
+### -field DUMMYSTRUCTNAME
+
+The **DUMMYSTRUCTNAME** structure.
 
 ### -field DUMMYSTRUCTNAME.CapabilityVersion
 
