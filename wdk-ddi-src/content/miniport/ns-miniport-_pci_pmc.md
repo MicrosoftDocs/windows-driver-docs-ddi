@@ -153,5 +153,5 @@ The power management capabilities register, whose contents are reported in the P
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pm_capability">PCI_PM_CAPABILITY</a>
+[PCI_PM_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pm_capability)
 
