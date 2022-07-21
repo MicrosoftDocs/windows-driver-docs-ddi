@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxMicArrayGeometryCreate
 ms.date: 02/17/2022
 targetos: Windows
-description: The AcxMicArrayGeometryCreate function creates and initializes a new ACXMICARRAYGEOMETRY structure.
+description: The AcxMicArrayGeometryCreate function creates and initializes a new ACXMICARRAYGEOMETRY object.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxMicArrayGeometryCreate** function creates and initializes a new [ACXMICARRAYGEOMETRY](ns-acxpin-acx_mic_array_geometry.md) structure.
+The **AcxMicArrayGeometryCreate** function creates and initializes a new [ACXMICARRAYGEOMETRY](ns-acxpin-acx_mic_array_geometry.md) object.
 
 ## -parameters
 
@@ -78,4 +78,4 @@ Call the [ACX_MICARRAYGEOMETRY_CONFIG_INIT](nf-acxpin-acx_micarraygeometry_confi
 - [ACX_MICARRAYGEOMETRY_CONFIG_INIT](nf-acxpin-acx_micarraygeometry_config_init.md)
 - [acxpin.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

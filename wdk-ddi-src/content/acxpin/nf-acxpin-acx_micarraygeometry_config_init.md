@@ -57,4 +57,4 @@ A pointer to the **ACX_MICARRAYGEOMETRY_CONFIG** structure to initialize.
 - [ACX_MICARRAYGEOMETRY_CONFIG](ns-acxpin-acx_micarraygeometry_config.md)
 - [acxpin.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

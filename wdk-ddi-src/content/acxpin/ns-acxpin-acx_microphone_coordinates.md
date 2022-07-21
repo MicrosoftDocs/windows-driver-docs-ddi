@@ -54,23 +54,23 @@ A value from the [ACX_MICROPHONE_TYPE](ne-acxpin-acx_microphone_type.md) enum th
 
 ### -field XCoord
 
-The X coordinate of the microphone.
+The X coordinate of the microphone, in millimeters. Acceptable values range from -32768 to 32767, inclusive.
 
 ### -field YCoord
 
-The Y coordinate of the microphone.
+The Y coordinate of the microphone, in millimeters. Acceptable values range from -32768 to 32767, inclusive.
 
 ### -field ZCoord
 
-The Z coordinate of the microphone.
+The Z coordinate of the microphone, in millimeters. Acceptable values range from -32768 to 32767, inclusive.
 
 ### -field VerticalAngle
 
-The MRA vertical angle of the microphone
+Specifies a value between -15708 and +15708. When divided by 10,000, it gives a radian angle measurement.
 
 ### -field HorizontalAngle
 
-The MRA horizontal angle of the microphone.
+Specifies a value between -31416 and +31416. When divided by 10,000, it gives a radian angle measurement.
 
 ## -remarks
 
@@ -79,4 +79,4 @@ The MRA horizontal angle of the microphone.
 - [ACX_MICROPHONE_TYPE](ne-acxpin-acx_microphone_type.md)
 - [acxpin.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

@@ -48,11 +48,11 @@ The **AcxMicArrayGeometryAddMicrophoneCoordinates** function adds physical coord
 
 ### -param MicArrayGeometry [in]
 
-The microphone array geometry to which the new coordinates are to be added.
+The ACXMICARRAYGEOMETRY Object to which the new coordinates are to be added.
 
 ### -param MicrophoneCoordinates [in]
 
-The microphone coordinates to add to the microphone array geometry.
+An array of [ACX_MICROPHONE_COORDINATES](ns-acxpin-acx_microphone_coordinates.md) to add to the microphone array geometry.
 
 ### -param MicrophoneCoordinatesCount [in]
 
@@ -70,4 +70,4 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 - [ACX_MICROPHONE_COORDINATES](ns-acxpin-acx_microphone_coordinates.md)
 - [acxpin.h header](index.md) 
 
-TBD - Please review this topic
+READY2GO

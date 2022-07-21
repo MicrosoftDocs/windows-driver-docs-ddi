@@ -55,4 +55,4 @@ For internal validation, do not use.
 
 - [acxpin.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
