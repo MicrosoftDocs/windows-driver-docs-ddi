@@ -82,7 +82,11 @@ The [EvtAcxStreamGetPresentationPosition](nc-acxstreams-evt_acx_stream_get_prese
 
 ## -remarks
 
+The driver must also define and use the [ACX_STREAM_CALLBACKS](ns-acxstreams-acx_stream_callbacks.md) structure to create an ACXRTSTREAM
+
 ## -see-also
 
 [acxstreams.h header](index.md)
+[AcxStreamInitAssignAcxRtStreamCallbacks](nf-acxstreams-acxstreaminitassignacxrtstreamcallbacks.md)
 
+READY2GO

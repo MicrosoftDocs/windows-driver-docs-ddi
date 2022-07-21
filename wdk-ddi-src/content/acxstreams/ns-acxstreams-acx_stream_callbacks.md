@@ -76,26 +76,12 @@ The [EVT_ACX_STREAM_ASSIGN_DRM_CONTENT_ID](nc-acxstreams-evt_acx_stream_assign_d
 
 ## -remarks
 
-TBD - Are there newer call backs not in this structure?
-
-+++++++++++++++++++++
-
-PFN_ACX_STREAM_GET_HW_LATENCY  EvtAcxStreamGetHwLatency; 
-
-PFN_ACX_STREAM_SET_RENDER_PACKET           EvtAcxStreamSetRenderPacket; 
-
-PFN_ACX_STREAM_GET_CURRENT_PACKET          EvtAcxStreamGetCurrentPacket; 
-
-PFN_ACX_STREAM_GET_CAPTURE_PACKET          EvtAcxStreamGetCapturePacket; 
-
-PFN_ACX_STREAM_GET_PRESENTATION_POSITION   EvtAcxStreamGetPresentationPosition; 
-
-PFN_ACX_STREAM_ALLOCATE_RTPACKETS          EvtAcxStreamAllocateRtPackets; 
-
-PFN_ACX_STREAM_FREE_RTPACKETS  EvtAcxStreamFreeRtPackets; 
+For RT streaming, the driver will also define and use the [ACX_RT_STREAM_CALLBACKS](ns-acxstreams-acx_rt_stream_callbacks.md).
 
 
 ## -see-also
 
 [acxstreams.h header](index.md)
+[AcxStreamInitAssignAcxStreamCallbacks](nf-acxstreams-acxstreaminitassignacxstreamcallbacks.md)
 
+READY2GO

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamStopIoWithTag
 ms.date: 02/04/2022
 targetos: Windows
-description: The AcxStreamStopIoWithTag function is used to signal to the operating system to temporarily stop stream IO. 
+description: The AcxStreamStopIo function is used to temporarily stop the IO for a stream.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -48,27 +48,30 @@ The **AcxStreamStopIoWithTag** function is used used to signal to the operating 
 
 ### -param Stream
 
-A pointer to an existing ACXSTREAM Object. An ACXSTREAM Object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXSTREAM Object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Flags
 
-TBD - The following flags are defined to TBD TBD.
-
-TBD - Set to null as no flags are defined.
+Set to AcxStopIoNoFlags.
 
 ### -param Tag
 
-An optional Tag that is used to TBD. (can be displayed for diagnostic information??? TBD)
+An optional Tag that is a driver-defined value that the framework includes with diagnostic tracing.
 
 ## -remarks
+
+Do not call AcxStreamStopIoWithTag from an I/O dispatched thread. This will cause a deadlock.
 
 ### Example
 
 Example usage is shown below.
 
-TBD No example code found
-
 ```cpp
+
+    //
+    // Temporarily disable this stream's I/Os. This thread cannot be an I/O dispatched thread else we deadlock.
+    //
+    status = AcxStreamStopIoWithTag(stream, AcxStopIoNoFlags, (PVOID)this);
 
 ```
 
@@ -77,3 +80,4 @@ TBD No example code found
 
 [acxstreams.h header](index.md)
 
+READY2GO

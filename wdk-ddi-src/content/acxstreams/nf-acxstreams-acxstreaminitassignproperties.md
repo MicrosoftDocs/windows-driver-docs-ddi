@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamInitAssignProperties
 ms.date: 02/02/2022
 targetos: Windows
-description: The AcxStreamInitAssignProperties function assigns an array of properties to a stream, device and circuit (TBD) using an ACXSTREAM_INIT object.
+description: The AcxStreamInitAssignProperties function assigns an array of properties to a stream using an ACXSTREAM_INIT object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamInitAssignProperties function assigns an array of properties to a stream, device and circuit (TBD) using an *ACXSTREAM_INIT* object.
+The AcxStreamInitAssignProperties function assigns an array of properties to a stream using an *ACXSTREAM_INIT* object.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ Defined by a ACXSTREAM_INIT object, that is used to define the stream initializa
 
 ### -param Properties
 
-An array of [ACX_PROPERTY_ITEM structure](..\acxrequest\ns-acxrequest-acx_property_item.md) that describe the requested property set, properties and flags.
+An array of [ACX_PROPERTY_ITEM structures](..\acxrequest\ns-acxrequest-acx_property_item.md) that describe the requested property sets, properties and flags.
 
 ### -param PropertiesCount
 
@@ -62,7 +62,6 @@ A one based count of the number of Properties in the Properties array.
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
-
 ## -remarks
 
 ### Example
@@ -71,20 +70,20 @@ Example usage is shown below.
 
 ```cpp
 
-static ACX_PROPERTY_ITEM StreamProperties[] =
-{
+    ACX_PROPERTY_ITEM StreamProperties[] =
     {
-        &KSPROPSETID_DrmAudioStream,
-        KSPROPERTY_DRMAUDIOSTREAM_CONTENTID,
-        ACX_PROPERTY_ITEM_FLAG_SET,
-        HDACodec_EvtStreamSetContentId,
-        NULL,  // Reserved
-        sizeof(KSP_DRMAUDIOSTREAM_CONTENTID) - sizeof(KSPROPERTY), // ControlCb
-        sizeof(KSDRMAUDIOSTREAM_CONTENTID), // ValueCb
-    }, 
-};
+        {
+            &KSPROPSETID_DrmAudioStream,
+            KSPROPERTY_DRMAUDIOSTREAM_CONTENTID,
+            ACX_PROPERTY_ITEM_FLAG_SET,
+            Codec_EvtStreamSetContentId,
+            NULL,  // Reserved
+            sizeof(KSP_DRMAUDIOSTREAM_CONTENTID) - sizeof(KSPROPERTY), // ControlCb
+            sizeof(KSDRMAUDIOSTREAM_CONTENTID), // ValueCb
+        }, 
+    };
 
-static ULONG StreamPropertiesCount = SIZEOF_ARRAY(StreamProperties);
+    ULONG StreamPropertiesCount = SIZEOF_ARRAY(StreamProperties);
 
     status = AcxStreamInitAssignProperties(StreamInit,
                                            StreamProperties,
@@ -94,4 +93,6 @@ static ULONG StreamPropertiesCount = SIZEOF_ARRAY(StreamProperties);
 ## -see-also
 
 [acxstreams.h header](index.md)
+[ACX_PROPERTY_ITEM](..\acxrequest\ns-acxrequest-acx_property_item.md)
 
+READY2GO

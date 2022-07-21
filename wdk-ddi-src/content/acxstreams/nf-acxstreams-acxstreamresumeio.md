@@ -48,7 +48,7 @@ The **AcxStreamResumeIo** function is used to resume IO for a stream.
 
 ### -param Stream
 
-A pointer to an existing ACXSTREAM Object. An ACXSTREAM Object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXSTREAM Object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -61,4 +61,6 @@ It is not recommended to use this version of the resume IO call, but rather [Acx
 ## -see-also
 
 [acxstreams.h header](index.md)
+[AcxStreamResumeIoWithTag](nf-acxstreams-acxstreamresumeiowithtag.md)
 
+READY2GO

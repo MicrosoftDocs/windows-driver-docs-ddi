@@ -48,11 +48,22 @@ dev_langs:
 
 ### -field Size
 
+The size, in bytes, of this structure.
+
 ### -field Flags
+
+Flags from [ACX_MICARRAYGEOMETRY_CONFIG_FLAG](ne-acxpin-acx_micarraygeometry_config_flags.md) to use in creation.
 
 ### -field Geometry
 
+An [ACX_MIC_ARRAY_GEOMETRY](ns-acxpin-acx_mic_array_geometry.md) structure that contain the geometry details of the Mic Array.
+
 ## -remarks
+
+The ACX_MICARRAYGEOMETRY_CONFIG structure is used as input to the AcxMicArrayGeometryCreate method.
+
+To initialize an ACX_MICARRAYGEOMETRY_CONFIG structure, your driver should call [ACX_MICARRAYGEOMETRY_CONFIG_INIT](nf-acxpin-acx_micarraygeometry_config_init.md).
 
 ## -see-also
 
+READY2GO

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamResumeIoWithTag
 ms.date: 07/14/2021
 targetos: Windows
-description: The AcxStreamResumeIoWithTag function is used to resume IO for a stream TBD. 
+description: The AcxStreamResumeIoWithTag function is used to resume IO for a stream. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,23 +42,21 @@ dev_langs:
 
 ## -description
 
-The **AcxStreamResumeIoWithTag** function is used to resume IO for a stream after it has been stopped. It is similar to [AcxStreamResumeIo](nf-acxstreams-acxstreamresumeio.md) function, but provides the ability to use a Tag that provides additional diagnostic information.
+The **AcxStreamResumeIoWithTag** function is used to resume IO for a stream after stream IO has been stopped. It is similar to [AcxStreamResumeIo](nf-acxstreams-acxstreamresumeio.md) function, but provides the ability to use a Tag that provides additional diagnostic information.
 
 ## -parameters
 
 ### -param Stream
 
-A pointer to an existing ACXSTREAM Object. An ACXSTREAM Object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXSTREAM Object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Tag
 
-An optional ObjectTag that is a driver-defined value that the framework stores as an identification tag for the ACX driver.
-
+An optional Tag that is a driver-defined value that the framework includes with diagnostic tracing.
 
 ## -returns
 
 Void
-
 
 ## -remarks
 
@@ -66,15 +64,17 @@ Void
 
 Example usage is shown below.
 
-TBD No example code found
-
 ```cpp
 
+    //
+    // Resume stream IO after it was stopped with AcxStreamStopIoWithTag.
+    //
+    status = AcxStreamResumeIoWithTag(stream, (PVOID)this);
+
 ```
-
-
 
 ## -see-also
 
 [acxstreams.h header](index.md)
 
+READY2GO

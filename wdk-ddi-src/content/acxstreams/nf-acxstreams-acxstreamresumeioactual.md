@@ -48,11 +48,11 @@ The **AcxStreamResumeIoActual** function is used to resume IO for a stream.
 
 ### -param Stream
 
-A pointer to an existing ACXSTREAM Object. An ACXSTREAM Object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+A pointer to an existing ACXSTREAM Object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param ObjectTag
 
-An optional ObjectTag that is a driver-defined value that the framework stores as an identification tag for the ACX driver.
+An optional Tag that is a driver-defined value that the framework includes with diagnostic tracing.
 
 ### -param Line
 
@@ -74,3 +74,4 @@ It is not recommended to use this version of the resume IO call, but rather [Acx
 
 [acxstreams.h header](index.md)
 
+READY2GO

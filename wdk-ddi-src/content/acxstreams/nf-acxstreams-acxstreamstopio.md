@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamStopIo
 ms.date: 02/04/2022
 targetos: Windows
-description: The AcxStreamStopIo function is used to stop the IO for a stream TBD. 
+description: The AcxStreamStopIo function is used to temporarily stop the IO for a stream. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,21 +42,21 @@ dev_langs:
 
 ## -description
 
-The **AcxStreamStopIo** function is used to stop the IO for a stream TBD. 
+The **AcxStreamStopIo** function is used to stop the IO for a stream. 
 
 ## -parameters
 
 ### -param Stream
 
-A pointer to an existing ACXSTREAM Object. An ACXSTREAM Object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXSTREAM Object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Flags
 
-TBD - The following flags are defined to TBD TBD.
-
-TBD - Set to null as no flags are defined.
+Set to AcxStopIoNoFlags.
 
 ## -remarks
+
+Do not call AcxStreamStopIo from an I/O dispatched thread. This will cause a deadlock.
 
 It is not recommended to use this version of the stop IO call, but rather [AcxStreamStopIoWithTag](nf-acxstreams-acxstreamstopiowithtag.md).
 
@@ -64,3 +64,4 @@ It is not recommended to use this version of the stop IO call, but rather [AcxSt
 
 [acxstreams.h header](index.md)
 
+READY2GO
