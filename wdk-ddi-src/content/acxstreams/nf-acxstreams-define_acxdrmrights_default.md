@@ -56,20 +56,9 @@ Specifies the DRM content rights that are assigned to the stream that is identif
 
 ## -remarks
 
-### Example
-
-Sample pending
-
-Example usage is shown below.
-
-```cpp
-
-```
-
-
 
 ## -see-also
 
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

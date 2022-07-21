@@ -4,7 +4,7 @@ tech.root: audio
 title: ACXDRMRIGHTS
 ms.date: 06/22/2021
 targetos: Windows
-description: The ACXDRMRIGHTS structure specifies the DRM content rights assigned to a KS audio pin or to a driver's stream object.
+description: The ACXDRMRIGHTS structure specifies the DRM content rights assigned to an ACX audio pin or to a driver's stream object.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACXDRMRIGHTS structure specifies the DRM content rights assigned to a KS audio pin or to a driver's stream object.
+The ACXDRMRIGHTS structure specifies the DRM content rights assigned to an ACX audio pin or to a driver's stream object.
 
 ## -struct-fields
 
@@ -82,4 +82,4 @@ If the driver supports DRMRIGHTS and also implements a proprietary copy protecti
 
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

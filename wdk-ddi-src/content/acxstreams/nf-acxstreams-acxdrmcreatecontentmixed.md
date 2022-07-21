@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxDrmCreateContentMixed
 ms.date:  06/16/2021
 targetos: Windows
-description: The AcxCreateContentMixed function creates a DRM content ID to identify a KS audio stream containing mixed content from a number of streams
+description: The AcxCreateContentMixed function creates a DRM content ID to identify an ACX audio stream containing mixed content from a number of streams
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxCreateContentMixed function creates a DRM content ID to identify a KS audio stream containing mixed content from a number of streams
+The AcxCreateContentMixed function creates a DRM content ID to identify an ACX audio stream containing mixed content from a number of streams
 
 ## -parameters
 
 ### -param paContentId
 
-Pointer to an array of DRM content IDs. Each array element is of type ULONG and contains a content ID that represents a protected KS audio stream. If cContentId is zero, paContentID can be NULL. A content ID of zero is a special value that represents an audio stream with default DRM content rights (see DEFINE_DRMRIGHTS_DEFAULT).
+Pointer to an array of DRM content IDs. Each array element is of type ULONG and contains a content ID that represents a protected ACX audio stream. If cContentId is zero, paContentID can be NULL. A content ID of zero is a special value that represents an audio stream with default DRM content rights (see DEFINE_DRMRIGHTS_DEFAULT).
 
 ### -param cContentId
 
@@ -56,7 +56,7 @@ Specifies the number of DRM content IDs in the paContentId array. The array can 
 
 ### -param pMixedContentId
 
-Output pointer for the composite content ID. This parameter points to a caller-allocated ULONG variable into which the function writes the new content ID for the composite KS audio stream. If cContentId is zero, the function assigns default DRM content rights to the new content ID.
+Output pointer for the composite content ID. This parameter points to a caller-allocated ULONG variable into which the function writes the new content ID for the composite ACX audio stream. If cContentId is zero, the function assigns default DRM content rights to the new content ID.
 
 ## -returns
 
@@ -69,4 +69,4 @@ AcxDrmCreateContentMixed returns STATUS_SUCCESS if the call was successful. Othe
 - [AcxDrmDestroyContent](nf-acxstreams-acxdrmdestroycontent.md)
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

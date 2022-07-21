@@ -48,13 +48,11 @@ The EVT_ACX_STREAM_ASSIGN_DRM_CONTENT_ID event tells the driver to assign a cont
 
 ### -param Stream
 
-A pointer to a location that receives a handle to the new ACXSTREAM Object.
-
-An ACXSTREAM Object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXSTREAM Object.
 
 ### -param ContentId
 
-Specifies a nonzero DRM content ID assigned to a KS  (TBD ACX?) audio stream by [AcxDrmCreateContentMixed](nf-acxstreams-acxdrmcreatecontentmixed.md). Note that a content ID of zero represents an audio stream with default DRM content rights, and cannot be used with this function.
+Specifies a nonzero DRM content ID assigned to an ACX audio stream by [AcxDrmCreateContentMixed](nf-acxstreams-acxdrmcreatecontentmixed.md). Note that a content ID of zero represents an audio stream with default DRM content rights, and cannot be used with this function.
 
 ### -param DrmRights
 
@@ -67,8 +65,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ## -remarks
 
 ### Example
-
-TBD - should we show more code here?
 
 Example usage is shown below.
 
@@ -110,4 +106,4 @@ EvtStreamAssignDrmContentId(
 
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic 
+READY2GO

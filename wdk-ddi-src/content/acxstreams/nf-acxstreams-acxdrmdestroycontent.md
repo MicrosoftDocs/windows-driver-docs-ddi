@@ -48,7 +48,7 @@ The AcxDrmDestroyContent function deletes a DRM content ID that was created by [
 
 ### -param ContentId
 
-Specifies a nonzero DRM content ID assigned to a KS  (ACX?) audio stream by [AcxDrmCreateContentMixed](nf-acxstreams-acxdrmcreatecontentmixed.md). Note that a content ID of zero represents an audio stream with default DRM content rights, and cannot be used with this function.
+Specifies a nonzero DRM content ID assigned to an ACX audio stream by [AcxDrmCreateContentMixed](nf-acxstreams-acxdrmcreatecontentmixed.md). Note that a content ID of zero represents an audio stream with default DRM content rights, and cannot be used with this function.
 
 ## -returns
 
@@ -60,4 +60,4 @@ AcxDrmDestroyContentMixed returns STATUS_SUCCESS if the call was successful. Oth
 
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
