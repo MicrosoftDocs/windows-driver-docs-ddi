@@ -2,9 +2,8 @@
 UID: NF:wiamindr_lh.IWiaMiniDrvTransferCallback.SendMessage
 title: IWiaMiniDrvTransferCallback::SendMessage (wiamindr_lh.h)
 description: Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer.
-old-location: image\iwiaminidrvtransfercallback_sendmessage.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 07/21/2022
 keywords: ["IWiaMiniDrvTransferCallback::SendMessage"]
 ms.keywords: IWiaMiniDrvTransferCallback interface [Imaging Devices],SendMessage method, IWiaMiniDrvTransferCallback.SendMessage, IWiaMiniDrvTransferCallback::SendMessage, SendMessage, SendMessage method [Imaging Devices], SendMessage method [Imaging Devices],IWiaMiniDrvTransferCallback interface, image.iwiaminidrvtransfercallback_sendmessage, wiamindr_lh/IWiaMiniDrvTransferCallback::SendMessage
 req.header: wiamindr_lh.h
@@ -40,9 +39,6 @@ api_name:
  - IWiaMiniDrvTransferCallback::SendMessage
 ---
 
-# IWiaMiniDrvTransferCallback::SendMessage
-
-
 ## -description
 
 Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer.
@@ -53,17 +49,15 @@ For more information about the progress data that is transferred, see [WiaTransf
 
 ### -param lFlags [in]
 
-
 Represents flag bits. This parameter is unused and should always be set to zero (0) by the caller.
 
 ### -param pWiaTransferParams [in]
-
 
 Pointer to a **WiaTransferParams** object.
 
 ## -returns
 
-This method returns S_OK when the call is successful. Otherwise it returns an appropriate HRESULT error code.
+This method returns **S_OK** when the call is successful. Otherwise it returns an appropriate **HRESULT** error code.
 
 ## -remarks
 
@@ -76,4 +70,3 @@ When the current transfer sequence is cancelled, the **SendMessage** method retu
 [IWiaMiniDrvTransferCallback](./nn-wiamindr_lh-iwiaminidrvtransfercallback.md)
 
 [WiaTransferParams](/windows/win32/wia/-wia-wiatransferparams)
-

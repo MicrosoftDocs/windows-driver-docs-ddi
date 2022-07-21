@@ -2,9 +2,8 @@
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvInitializeWia
 title: IWiaMiniDrv::drvInitializeWia (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvInitializeWia method initializes the minidriver and builds the driver item tree representing the device.
-old-location: image\iwiaminidrv_drvinitializewia.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 07/21/2022
 keywords: ["IWiaMiniDrv::drvInitializeWia"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvInitializeWia method, IWiaMiniDrv.drvInitializeWia, IWiaMiniDrv::drvInitializeWia, MiniDrv_04485b20-ff45-4cf7-a861-841bf03befcf.xml, drvInitializeWia, drvInitializeWia method [Imaging Devices], drvInitializeWia method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvinitializewia, wiamindr_lh/IWiaMiniDrv::drvInitializeWia
 req.header: wiamindr_lh.h
@@ -40,9 +39,6 @@ api_name:
  - IWiaMiniDrv::drvInitializeWia
 ---
 
-# IWiaMiniDrv::drvInitializeWia
-
-
 ## -description
 
 The **IWiaMiniDrv::drvInitializeWia** method initializes the minidriver and builds the driver item tree representing the device.
@@ -51,97 +47,61 @@ The **IWiaMiniDrv::drvInitializeWia** method initializes the minidriver and buil
 
 ### -param __MIDL__IWiaMiniDrv0000
 
-bstrDeviceID [in]
-
-- Specifies a string containing the device's unique identifier.
-
-### -param __MIDL__IWiaMiniDrv0001
-
-bstrRootFullItemName [in]
-
-- Specifies a string containing the full name of the root item.
-
-### -param __MIDL__IWiaMiniDrv0002
-
-lFlags [in]
-
-- Is reserved. Set to zero.
-
-### -param __MIDL__IWiaMiniDrv0003
-
-pIUnknownOuter [in, optional]
-
-- (Optional) Points to a memory location that can receive the address of an **IUnknown** interface.
-
-### -param __MIDL__IWiaMiniDrv0004
-
-pStiDevice [in, optional]
-
-- Points to an [IStiDevice COM Interface](/windows-hardware/drivers/image/istidevice-com-interface).
-
-### -param __MIDL__IWiaMiniDrv0005
-
-pWiasContext [in]
-
-- Pointer to a WIA item context.
-
-### -param __MIDL__IWiaMiniDrv0006
-
-plDevErrVal [out]
-
-- Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-### -param __MIDL__IWiaMiniDrv0007
-
-ppIDrvItemRoot [out, optional]
-
-- Points to a memory location that will receive the address of a [IWiaDrvItem Interface](./nn-wiamindr_lh-iwiadrvitem.md), the interface of the root item.
-
-### -param __MIDL__IWiaMiniDrv0008
-
-ppIUnknownInner [out, optional]
-
-- (Optional) Points to a memory location that can receive the address of an **IUnknown** interface. If the minidriver has functionality that is not accessible through the **IWiaMiniDrv** interface, the vendor can create a separate interface on the minidriver. This parameter provides access to that functionality.
-
-### -param bstrDeviceID [in]
+*bstrDeviceID* [in]
 
 Specifies a string containing the device's unique identifier.
 
-### -param bstrRootFullItemName [in]
+### -param __MIDL__IWiaMiniDrv0001
+
+*bstrRootFullItemName* [in]
 
 Specifies a string containing the full name of the root item.
 
-### -param lFlags [in]
+### -param __MIDL__IWiaMiniDrv0002
 
-Is reserved. Set to zero.
+*lFlags* [in]
 
-### -param pIUnknownOuter [in, optional]
+Reserved. Set to zero.
+
+### -param __MIDL__IWiaMiniDrv0003
+
+*pIUnknownOuter* [in, optional]
 
 (Optional) Points to a memory location that can receive the address of an **IUnknown** interface.
 
-### -param pStiDevice [in, optional]
+### -param __MIDL__IWiaMiniDrv0004
+
+*pStiDevice* [in, optional]
 
 Points to an [IStiDevice COM Interface](/windows-hardware/drivers/image/istidevice-com-interface).
 
-### -param pWiasContext [in]
+### -param __MIDL__IWiaMiniDrv0005
+
+*pWiasContext* [in]
 
 Pointer to a WIA item context.
 
-### -param plDevErrVal [out]
+### -param __MIDL__IWiaMiniDrv0006
 
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+*plDevErrVal* [out]
 
-### -param ppIDrvItemRoot [out, optional]
+Points to a memory location that will receive a status code for this method. If this method returns **S_OK**, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+
+### -param __MIDL__IWiaMiniDrv0007
+
+*ppIDrvItemRoot* [out, optional]
 
 Points to a memory location that will receive the address of a [IWiaDrvItem Interface](./nn-wiamindr_lh-iwiadrvitem.md), the interface of the root item.
 
-### -param ppIUnknownInner [out, optional]
+### -param __MIDL__IWiaMiniDrv0008
+
+*ppIUnknownInner* [out, optional]
 
 (Optional) Points to a memory location that can receive the address of an **IUnknown** interface. If the minidriver has functionality that is not accessible through the **IWiaMiniDrv** interface, the vendor can create a separate interface on the minidriver. This parameter provides access to that functionality.
 
 ## -returns
 
-On success, the method should return S_OK and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by *plDevErrVal*.
+On success, the method should return **S_OK** and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by *plDevErrVal*.
 
 The value pointed to by *plDevErrVal* can be converted to a string by calling [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md).
 
@@ -164,4 +124,3 @@ For example, if the user right-clicks a WIA scanner icon in **My Computer**, the
 [IWiaMiniDrv::drvUnInitializeWia](./nf-wiamindr_lh-iwiaminidrv-drvuninitializewia.md)
 
 [wiasCreateDrvItem](../wiamdef/nf-wiamdef-wiascreatedrvitem.md)
-
