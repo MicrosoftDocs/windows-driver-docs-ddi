@@ -2,9 +2,9 @@
 UID: NS:acxdataformat._ACX_DATAFORMAT_LIST_CONFIG
 tech.root: audio
 title: ACX_DATAFORMAT_LIST_CONFIG
-ms.date: 01/10/2022
+ms.date: 05/31/2022
 targetos: Windows
-description: 
+description: The ACX_DATAFORMAT_LIST_CONFIG structure is used to configure a new ACX data format list object.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,13 +44,28 @@ dev_langs:
 
 ## -description
 
+The **ACX_DATAFORMAT_LIST_CONFIG** structure is used to configure a new ACX data format list object.
+
 ## -struct-fields
 
 ### -field Size
 
+The size of all of the data in the **ACX_DATAFORMAT_LIST_CONFIG** structure in bytes. This field is set by the [ACX_DATAFORMAT_LIST_CONFIG_INIT](nf-acxdataformat-acx_dataformat_list_config_init.md) function.
+
 ### -field Flags
+
+A combination of values from the [ACX_DATAFORMAT_LIST_CONFIG_FLAGS](ne-acxdataformat-acx_dataformat_list_config_flags.md) enum that describe the data format list.
 
 ## -remarks
 
+Instances of the **ACX_DATAFORMAT_LIST_CONFIG** structure must be initialized by calling the [ACX_DATAFORMAT_LIST_CONFIG_INIT](nf-acxdataformat-acx_dataformat_list_config_init.md) function.
+
 ## -see-also
 
+- [ACX_DATAFORMAT_LIST_CONFIG_INIT](nf-acxdataformat-acx_dataformat_list_config_init.md)
+- [ACX_DATAFORMAT_LIST_CONFIG_FLAGS](ne-acxdataformat-acx_dataformat_list_config_flags.md)
+- [acxdataformat.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

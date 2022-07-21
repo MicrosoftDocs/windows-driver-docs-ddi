@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddUI8
 tech.root: audio
 title: AcxObjectBagAddUI8
-ms.date: 01/10/2022
+ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagAddUI8 function adds a unicode string to and existing intialized AcxObjectBag.
+description: The AcxObjectBagAddUI8 function adds an unsigned int eight byte I8 (ULONG64) value to an existing, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddUI8 function adds a unicode string to and existing intialized AcxObjectBag.
+The AcxObjectBagAddUI8 function adds an unsigned int eight byte I8 (ULONG64) value to an existing, intialized AcxObjectBag.
  
 ## -parameters
 
@@ -69,22 +69,41 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 This example shows the use of AcxObjectBagAddUI8.
 
 ```cpp
-    // Create a simple object.
-    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
-    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
-    attr.ParentObject = WdfGetDriver();
-    
-    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
+    ACXOBJECTBAG objBag     = NULL;
+    ULONG64      ui8Value   = 0;
 
-    status = AcxObjectBagAddUI8(bag1, &UI8, ul64Value);
+    //Initialize an object bag configuration
+    ACX_OBJECTBAG_CONFIG objBagCfg;
+    ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
+    
+    // Set the WDF attributes, and create an object bag 
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = Circuit;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
+
+    // Enable deletion of the object bag when the function completes and goes out of scope
+    auto objBag_scope = scope_exit([&objBag]() {
+        if (objBag != NULL)
+        {
+            WdfObjectDelete(objBag);
+        }
+    });
+
+    //Create Properties and add them to an object bag
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI8);
+
+    ui8Value = 0x9876543210;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI8(objBag, &TestUI8, ui8Value));
+
+    // Retrieve the value from the object bag
+    ui8Value = 0;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveUI8(objBag, &TestUI8, &ui8Value));
 ```
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

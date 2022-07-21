@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetCircuitGetPinsCount
 tech.root: audio
 title: AcxTargetCircuitGetPinsCount
-ms.date:  11/11/2021
+ms.date: 04/22/2022
 targetos: Windows
-description: 
+description: The AcxTargetCircuitGetPinsCount function returns the count of ACX pins on the remote target.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,29 +42,30 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetCircuitGetPinsCount** function returns the count of ACX pins on the remote target.
+
 ## -parameters
 
 ### -param TargetCircuit
 
-A pointer to a location of an existing ACXTARGETCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An AXTARGETCIRCUIT handle. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
-Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+Returns the number of ACX pins on the remote target.
 
 ## -remarks
-
-Framework request objects represent I/O requests that the I/O manager has sent to a driver. Framework-based drivers process each I/O request by calling framework request object methods. For more information, see [Framework Request Objects](/windows-hardware/drivers/wdf/framework-request-objects).
 
 ### Example
 
 ```cpp
+    ULONG pinCount;
 
-TBD
-
-
+    pinCount = AcxTargetCircuitGetPinsCount(targetCircuit);
 ```
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+ 
+READY2GO

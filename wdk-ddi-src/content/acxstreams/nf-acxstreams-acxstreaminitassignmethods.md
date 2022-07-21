@@ -4,7 +4,11 @@ tech.root: audio
 title: AcxStreamInitAssignMethods
 ms.date: 07/13/2021
 targetos: Windows
+<<<<<<< HEAD
 description: The AcxStreamInitAssignMethods function assigns an array of methods to a stream using the ACXSTREAM_INIT object.
+=======
+description: The AcxStreamInitAssignMethods function assigns an array of methods to a stream, device and circuit using an ACXSTREAM_INIT object.
+>>>>>>> e350f6ef4028cc41d4aa7b14ca5382c9402e1b85
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +46,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamInitAssignMethods function assigns an array of methods to a stream using the ACXSTREAM_INIT object.
+The AcxStreamInitAssignMethods function assigns an array of methods to a stream using the *ACXSTREAM_INIT* object.
 
 ## -parameters
 
@@ -56,12 +60,11 @@ An array of ACX_METHOD_ITEM that describes the methods to be assigned.
 
 ### -param MethodsCount
 
-The 1-based count of the number of methods in the Methods array.
+A one based count of the number of methods in the Methods array.
 
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
-
 
 ## -remarks
 
@@ -90,10 +93,8 @@ Example usage is shown below.
                                          StreamMethodsCount);
 ```
 
-
-
 ## -see-also
 
-[acxstreams.h header](index.md)
+- [acxstreams.h header](index.md)
 
 READY2GO

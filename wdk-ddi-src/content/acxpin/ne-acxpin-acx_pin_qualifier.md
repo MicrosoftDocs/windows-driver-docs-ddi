@@ -2,9 +2,9 @@
 UID: NE:acxpin._ACX_PIN_QUALIFIER
 tech.root: audio
 title: ACX_PIN_QUALIFIER
-ms.date: 01/13/2022
+ms.date: 03/25/2022
 targetos: Windows
-description: The **ACX_PIN_QUALIFIER** enumeration specify how the PIN is connected in the multi-circuit audio topology.
+description: The ACX_PIN_QUALIFIER enumeration specify how the PIN is connected in the multi-circuit audio topology.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -68,4 +68,8 @@ For internal validation, do not use.
 
 ## -see-also
 
+- [acxpin.h header](index.md)
+
 READY2GO
+
+EDITCOMPLETE

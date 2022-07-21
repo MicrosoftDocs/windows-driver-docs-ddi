@@ -91,6 +91,7 @@ if (devCtx->RenderCircuitAdded) {
 
 * [AcxDeviceAddCircuit](nf-acxdevice-acxdeviceaddcircuit.md)
 * [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
+* [acxdevice.h header](index.md)
 
 READY2GO
 

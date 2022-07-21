@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_VOLUME_ASSIGN_LEVEL
 tech.root: audio 
 title: EVT_ACX_VOLUME_ASSIGN_LEVEL
-ms.date: 09/16/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: TBD - EVT_ACX_VOLUME_ASSIGN_LEVEL tells the driver that a request to assign the volume level has made???.
+description: The EVT_ACX_VOLUME_ASSIGN_LEVEL callback function is implemented by the driver and is called when the volume level of a channel is set for a volume node. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_VOLUME_ASSIGN_LEVEL tells the driver that a request to assign the volume level has made???.
+The **EVT_ACX_VOLUME_ASSIGN_LEVEL** callback function is implemented by the driver and is called when the volume level of a channel is set for a volume node. 
 
 ## -parameters
 
@@ -52,13 +52,17 @@ An existing, initialized, ACXVOLUME object. For more information about ACX objec
 
 ### -param Channel
 
-TBD - A number that represents the channel that is active (present -TBD?).
+A ULONG referring to a channel on the specified volume node. If this value is -1, then it refers to the master channel which represents the volume level for all channels on the volume node. 
 
 ### -param VolumeLevel
 
-TBD - assume fields matches KSAUDIOENGINE_VOLUMELEVEL structure???
+A LONG value that specifies the volume level of a channel in a volume node. If the channel value is -1 (referring to the master channel), then all channels on this volume node will be set to this volume level. Volume level values use the following scale:
 
-Specifies the desired final volume level using the scale defined for the KSPROPERTY_AUDIOENGINE_VOLUMELEVEL property.
+-2147483648 is -infinity decibels (attenuation),
+
+-2147483647 is -32767.99998474 decibels (attenuation), and
+
++2147483647 is +32767.99998474 decibels (gain).
 
 ## -returns
 
@@ -71,10 +75,16 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
-EVT_ACX_VOLUME_ASSIGN_LEVEL         HDACodec_EvtVolumeAssignLevelCallback;
+typedef struct _VOLUME_ELEMENT_CONTEXT {
+    LONG            VolumeLevel[MAX_CHANNELS];
+} VOLUME_ELEMENT_CONTEXT, *PVOLUME_ELEMENT_CONTEXT;
+
+WDF_DECLARE_CONTEXT_TYPE_WITH_NAME(VOLUME_ELEMENT_CONTEXT, GetVolumeElementContext)
+
+EVT_ACX_VOLUME_ASSIGN_LEVEL         CodecC_EvtVolumeAssignLevelCallback;
 
 NTSTATUS
-HDACodec_EvtVolumeAssignLevelCallback(
+CodecC_EvtVolumeAssignLevelCallback(
     _In_    ACXVOLUME   Volume,
     _In_    ULONG       Channel,
     _In_    LONG        VolumeLevel
@@ -83,18 +93,18 @@ HDACodec_EvtVolumeAssignLevelCallback(
     PAGED_CODE();
 
     ASSERT(Volume);
-    PCODEC_ACXVOLUME_CONTEXT volumeCtx = GetCodecVolumeElementContext(Volume);
+    PVOLUME_ELEMENT_CONTEXT volumeCtx = GetVolumeElementContext(Volume);
     ASSERT(volumeCtx);
 
     if (Channel != ALL_CHANNELS_ID)
     {
-        volumeCtx->VolumeNodeDescriptor->SetChannelVolume(Channel, VolumeLevel, TRUE);
+        volumeCtx->VolumeLevel[Channel] = VolumeLevel;
     }
     else
     {
-        for (LONG i = 0; i < volumeCtx->VolumeNodeDescriptor->NumChannels(); ++i)
+        for (ULONG i = 0; i < MAX_CHANNELS; ++i)
         {
-            volumeCtx->VolumeNodeDescriptor->SetChannelVolume(i, VolumeLevel, TRUE);
+            volumeCtx->VolumeLevel[i] = VolumeLevel;
         }
     }
 
@@ -104,5 +114,8 @@ HDACodec_EvtVolumeAssignLevelCallback(
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

@@ -3,7 +3,7 @@ UID: NF:netconfiguration.NetConfigurationQueryMultiString
 title: NetConfigurationQueryMultiString function (netconfiguration.h)
 description: Retrieves the MultiString-valued registry entry associated with a value name in the specified configuration object.
 tech.root: netvista
-ms.date: 02/07/2018
+ms.date: 03/30/2022
 keywords: ["NetConfigurationQueryMultiString function"]
 ms.keywords: NetConfigurationQueryMultiString
 req.header: netconfiguration.h
@@ -48,19 +48,19 @@ Retrieves the MultiString-valued registry entry associated with a value name in 
 
 ## -parameters
 
-### -param Configuration
+### -param Configuration [_In_]
 
 Handle to a NETCONFIGURATION object that represents an opened registry key.
 
-### -param ValueName
+### -param ValueName [_In_]
 
 A pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a value name in the device's software key.
 
-### -param StringsAttributes
+### -param StringsAttributes [_In_opt_]
 
 A pointer to a [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure that contains driver-supplied attributes for the new WDFSTRING objects. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param Collection
+### -param Collection [_Inout_]
 
 A handle to a driver-supplied collection object. If the function succeeds, contains a WDFSTRING object for each string assigned to *ValueName*.
 

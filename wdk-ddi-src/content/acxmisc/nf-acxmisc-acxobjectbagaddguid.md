@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagAddGuid
 tech.root: audio
 title: AcxObjectBagAddGuid
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagAddGuid function adds Guid data to an existing, intialized AcxObjectBag. 
 prerelease: true
@@ -81,6 +81,8 @@ The code below shows the use of AcxObjectBagAddGuid.
 
     ACXOBJECTBAG objBag = NULL;
     RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
+
+    // Enable deletion of the object bag when the function completes and goes out of scope
     auto objBag_scope = scope_exit([&objBag]() {
         if (objBag != NULL)
         {
@@ -106,5 +108,8 @@ The code below shows the use of AcxObjectBagAddGuid.
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

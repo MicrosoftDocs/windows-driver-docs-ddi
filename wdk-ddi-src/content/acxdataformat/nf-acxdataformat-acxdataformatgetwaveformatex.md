@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatGetWaveFormatEx
 tech.root: audio
 title: AcxDataFormatGetWaveFormatEx
-ms.date: 01/10/2022
+ms.date: 05/31/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatGetWaveFormatEx function gets the WAVEFORMATEX structure associated with the specified data format.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,25 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetWaveFormatEx** function gets the [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-waveformatex) structure associated with the specified data format.
+
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
+
+The data format for which to retrieve the [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-waveformatex) structure.
 
 ## -returns
+
+Returns a pointer to the [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-waveformatex) structure associated with the specified *DataFormat*.
 
 ## -remarks
 
 ## -see-also
 
+- [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-waveformatex)
+- [acxdataformat.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

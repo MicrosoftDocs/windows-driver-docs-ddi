@@ -2,9 +2,9 @@
 UID: NE:acxelements._ACX_VOLUME_CONFIG_FLAGS
 tech.root: audio 
 title: ACX_VOLUME_CONFIG_FLAGS
-ms.date: 08/31/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: The ACX_VOLUME_CONFIG_FLAGS enumeration defines the volume config flags for ACX audio.
+description: The ACX_VOLUME_CONFIG_FLAGS enumeration defines the config flags for the ACX volume element.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_VOLUME_CONFIG_FLAGS enumeration defines the volume config flags for ACX audio.
+The **ACX_VOLUME_CONFIG_FLAGS** enumeration defines the config flags for the ACX volume element.
 
 ## -enum-fields
 
@@ -55,5 +55,9 @@ There are no flags currently defined for this type.
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE
 

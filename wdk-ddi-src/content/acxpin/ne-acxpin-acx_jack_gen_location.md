@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_JACK_GEN_LOCATION
 tech.root: audio
 title: ACX_JACK_GEN_LOCATION
-ms.date: 10/27/2021
+ms.date: 03/25/2022
 targetos: Windows
 description: The ACX_JACK_GEN_LOCATION enumeration is used by the ACX_JACK_DESCRIPTION structure to help describe the general location of an audio jack within a system.
 prerelease: false
@@ -68,4 +68,9 @@ For internal validation, do not use.
 
 ## -see-also
 
-[ACX_JACK_GEO_LOCATION](ne-acxpin-acx_jack_geo_location.md)
+- [ACX_JACK_GEO_LOCATION](ne-acxpin-acx_jack_geo_location.md)
+- [acxpin.h header](index.md)
+ 
+READY2GO
+
+EDITCOMPLETE

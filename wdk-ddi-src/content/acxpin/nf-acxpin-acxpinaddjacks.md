@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinAddJacks
 tech.root: audio
 title: AcxPinAddJacks
-ms.date: 10/14/2021
+ms.date: 03/25/2022
 targetos: Windows
 description: The AcxPinAddJacks function adds an array of jacks to the specified pin.
 prerelease: false
@@ -65,3 +65,9 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 ## -remarks
 
 ## -see-also
+
+- [acxpin.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

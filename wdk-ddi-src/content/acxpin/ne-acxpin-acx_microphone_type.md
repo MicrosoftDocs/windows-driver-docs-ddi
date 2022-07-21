@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_MICROPHONE_TYPE
 tech.root: audio
 title: ACX_MICROPHONE_TYPE
-ms.date: 12/13/2021
+ms.date: 02/17/2022
 targetos: Windows
 description: The ACX_MICROPHONE_TYPE enumeration is used to identify the pickup pattern of a microphone.
 prerelease: false
@@ -76,3 +76,7 @@ Indicates that the microphone pickup pattern is vendor defined.
 ## -remarks
 
 ## -see-also
+
+- [acxpin.h header](index.md)
+
+TBD - Please review this topic

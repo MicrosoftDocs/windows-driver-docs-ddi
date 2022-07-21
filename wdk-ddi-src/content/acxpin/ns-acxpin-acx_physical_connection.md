@@ -2,9 +2,9 @@
 UID: NS:acxpin._ACX_PHYSICAL_CONNECTION
 tech.root: audio
 title: ACX_PHYSICAL_CONNECTION
-ms.date: 10/05/2021
+ms.date: 04/12/2022
 targetos: Windows
-description: 
+description: The ACX_PHYSICAL_CONNECTION structure describes a physical audio connection between two ACXCIRCUIT objects.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,23 +44,45 @@ dev_langs:
 
 ## -description
 
+The **ACX_PHYSICAL_CONNECTION** structure describes a physical audio connection between two ACXCIRCUIT objects.
+
 ## -struct-fields
 
 ### -field Size
 
+The size of all of the data in the **ACX_PHYSICAL_CONNECTION** structure in bytes.
+
 ### -field Flags
+
+A value from the [ACX_PHYSICAL_CONNECTION_FLAGS](ne-acxpin-acx_physical_connection_flags.md) enum that specifies the type of physical connection.
 
 ### -field FromPin
 
+A union that identifies the from pin of the physical connection.
+
 ### -field FromPin.Object
+
+An **ACXPIN** object used to identify the *FromPin*.
 
 ### -field FromPin.Id
 
+The ID used to identify the *FromPin*.
+
 ### -field TargetName
 
+A string containing the name of the target pin.
+
 ### -field TargetPinId
+
+The ID of the target pin.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_PHYSICAL_CONNECTION_FLAGS](ne-acxpin-acx_physical_connection_flags.md)
+- [acxpin.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

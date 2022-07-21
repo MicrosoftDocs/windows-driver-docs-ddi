@@ -2,7 +2,7 @@
 UID: NE:acxmisc._ACX_OBJECTBAG_CONFIG_FLAGS
 tech.root: audio
 title: ACX_OBJECTBAG_CONFIG_FLAGS
-ms.date: 01/27/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The ACX_OBJECTBAG_CONFIG_FLAGS enumeration defines the configuration for an AcxObjectBag. 
 prerelease: true
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_OBJECTBAG_CONFIG_FLAGS enumeration defines the configuration for an AcxObjectBag. 
+The **ACX_OBJECTBAG_CONFIG_FLAGS** enumeration defines the configuration for an AcxObjectBag. 
 
 ## -enum-fields
 
@@ -55,13 +55,11 @@ Indicates that writes are enabled.
 
 ### -field AcxObjectBagConfigFailIfExist
 
-TBD - Indicates that .
-
+Indicates that if an ACXOBJECTBAG with the same identity is already present, creation should fail instead of opening the existing one.
 
 ### -field AcxObjectBagConfigOpenWithHandle
 
-TBD - Indicates that .
-
+Indicates to open the ACXOBJECTBAG whose handle is specified in the configuration stracture.
 
 ### -field AcxObjectBagConfigValidFlags
 
@@ -94,5 +92,8 @@ This example shows the use of ACX_OBJECTBAG_CONFIG_FLAGS.
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

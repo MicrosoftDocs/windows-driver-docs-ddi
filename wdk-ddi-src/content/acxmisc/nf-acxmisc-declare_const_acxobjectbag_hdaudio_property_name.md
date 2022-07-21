@@ -2,9 +2,9 @@
 UID: NF:acxmisc.DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME
 tech.root: audio
 title: DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
-description: The DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME function declares a constant that can be used to work with a AcxObjectBag. 
+description: The DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME function declares an ACX object bag property name. Hdaudio defined properties start with "hda_".
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME function declares a constant that can be used to work with a AcxObjectBag. 
+The DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME function declares an ACX object bag property name. Hdaudio defined properties start with `hda_`.
 
 ## -parameters
 
@@ -57,11 +57,13 @@ The name of the declared constant.
 This example shows the definition of DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME.
 
 ```cpp
-#define DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME(name) \
-    DECLARE_CONST_UNICODE_STRING(name, L"hda_" #name)
+	DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME(HdAudName);
 ```
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_OBJECT_PREPROCESS_REQUEST
 ms.date: 02/08/2022
 targetos: Windows
-description: The EVT_ACX_OBJECT_PREPROCESS_REQUEST callback is used by the driver to allow it to add additional functionality in the request preprocess phase. 
+description: The EVT_ACX_OBJECT_PREPROCESS_REQUEST callback is used by the driver to preprocess I/O WDFREQUESTs. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_OBJECT_PREPROCESS_REQUEST callback is used by the driver to allow it to add additional functionality in the request preprocess phase. 
+The EVT_ACX_OBJECT_PREPROCESS_REQUEST callback is used by the driver to preprocess I/O WDFREQUESTs. 
 
 ## -parameters
 
 ### -param Object
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the request.
+An ACX object associated with the request.
 
 ### -param DriverContext
 
@@ -56,7 +56,7 @@ The driver context defined by the ACXCONTEXT object.  For more information about
 
 ### -param Request
 
-A standard WDFREQUEST object. 
+An WDFREQUEST object. 
 
 For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).
 
@@ -93,10 +93,11 @@ Routine Description:
     ASSERT(DriverContext);
     ASSERT(Request);
 
-    // TODO: Add logging here.
+    // Add the handling of the request here.
+    // Driver is responsable for completing the request when done.
 
     //
-    // Just give the request back to ACX.
+    // Else, just give the request back to ACX.
     //
     (VOID)AcxCircuitDispatchAcxRequest((ACXCIRCUIT)Object, Request);
 }
@@ -105,5 +106,6 @@ Routine Description:
 
 ## -see-also
 
-[acxrequest.h header](index.md)
+- [acxrequest.h header](index.md)
 
+READY2GO

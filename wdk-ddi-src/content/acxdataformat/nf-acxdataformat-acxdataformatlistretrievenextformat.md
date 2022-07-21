@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatListRetrieveNextFormat
 tech.root: audio
 title: AcxDataFormatListRetrieveNextFormat
-ms.date: 01/10/2022
+ms.date: 05/31/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatListRetrieveNextFormat function gets the next ACX data format when iterating an ACX data format list.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,40 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatListRetrieveNextFormat** function gets the next ACX data format when iterating an ACX data format list.
+
 ## -parameters
 
-### -param AcxDataFormatList
+### -param AcxDataFormatList [in]
 
-### -param Iterator
+The ACX data format list from which to get the next [ACXDATAFORMAT](index.md) object.
 
-### -param Format
+### -param Iterator [in, out]
+
+Pointer to the [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md) structure used to iterate *AcxDataFormatList*.
+
+### -param Format [out]
+
+Pointer to the next [ACXDATAFORMAT](index.md) object in *AcxDataFormatList*.
 
 ## -returns
 
+The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this method might return an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** error code.
+
 ## -remarks
+
+After **AcxDataFormatListRetrieveNextFormat** returns, *Iterator* is updated to point to the next data format in the list after *Format*.
 
 ## -see-also
 
+- [ACXDATAFORMAT](index.md)
+- [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md)
+- [AcxDataFormatListBeginIteration](nf-acxdataformat-acxdataformatlistbeginiteration.md)
+- [AcxDataFormatListEndIteration](nf-acxdataformat-acxdataformatlistenditeration.md)
+- [AcxDataFormatListRemoveDataFormat](nf-acxdataformat-acxdataformatlistremovedataformat.md)
+- [AcxDataFormatListRetrieveDefaultDataFormat](nf-acxdataformat-acxdataformatlistretrievedefaultdataformat.md)
+- [acxdataformat.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

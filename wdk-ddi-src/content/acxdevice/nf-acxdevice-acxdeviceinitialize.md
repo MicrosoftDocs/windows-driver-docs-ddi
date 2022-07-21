@@ -84,6 +84,7 @@ if (!NT_SUCCESS(status))
 
 * [ACX_DEVICE_CONFIG](ns-acxdevice-acx_device_config.md)
 * [ACX_DEVICE_CONFIG_INIT](nf-acxdevice-acx_device_config_init.md)
+* [acxdevice.h header](index.md)
 
 READY2GO
 

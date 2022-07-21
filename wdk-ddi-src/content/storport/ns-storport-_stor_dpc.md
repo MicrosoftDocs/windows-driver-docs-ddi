@@ -1,10 +1,10 @@
 ---
 UID: NS:storport._STOR_DPC
-title: _STOR_DPC (storport.h)
+title: STOR_DPC (storport.h)
 description: The STOR_DPC structure is an opaque structure that represents a DPC object. Do not set the members of this structure directly.
 old-location: storage\stor_dpc.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/24/2022
 keywords: ["STOR_DPC structure"]
 ms.keywords: "*PSTOR_DPC, STOR_DPC, STOR_DPC structure [Storage Devices], _STOR_DPC, storage.stor_dpc, storport/STOR_DPC, structs-general_e1bef2e1-9703-433c-b8a1-daf30db1aaf6.xml"
 req.header: storport.h
@@ -46,20 +46,24 @@ api_name:
  - STOR_DPC
 ---
 
-# _STOR_DPC structure
-
+# STOR_DPC structure
 
 ## -description
 
-The STOR_DPC structure is an opaque structure that represents a DPC object. Do not set the members of this structure directly.
+The **STOR_DPC** structure is an opaque structure that represents a DPC object. Do not set the members of this structure directly.
 
 ## -struct-fields
 
+### -field Dpc
+
+Opaque value.
+
+### -field Lock
+
+Opaque value.
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializedpc">StorPortInitializeDpc</a>
+[**StorPortInitializeDpc**](nf-storport-storportinitializedpc.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportissuedpc">StorPortIssueDpc</a>
-
+[**StorPortIssueDpc**](nf-storport-storportissuedpc.md)

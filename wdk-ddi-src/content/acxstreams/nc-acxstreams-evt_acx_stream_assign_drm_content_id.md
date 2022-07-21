@@ -56,7 +56,6 @@ An ACXSTREAM Object represents an audio stream created by a circuit. The stream 
 
 Specifies a nonzero DRM content ID assigned to a KS  (TBD ACX?) audio stream by [AcxDrmCreateContentMixed](nf-acxstreams-acxdrmcreatecontentmixed.md). Note that a content ID of zero represents an audio stream with default DRM content rights, and cannot be used with this function.
 
-
 ### -param DrmRights
 
 Specifies the DRM content rights that are assigned to the stream that is identified by ContentId. This parameter is a pointer to a [ACXDRMRIGHTS structure](ns-acxstreams-acxdrmrights.md).
@@ -109,5 +108,6 @@ EvtStreamAssignDrmContentId(
 
 ## -see-also
 
-[acxstreams.h header](index.md)
+- [acxstreams.h header](index.md)
 
+TBD - Please review this topic 

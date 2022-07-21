@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxElementAddEvents
 tech.root: audio 
 title: AcxElementAddEvents
-ms.date: 09/23/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: TBD - The AcxElementAddEvents function provides the ability to add ACXEVENT event objects to an ACXELEMENT object. 
+description: The AcxElementAddEvents function provides the ability to add ACXEVENT event objects to an ACXELEMENT object. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,21 +42,21 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxElementAddEvents function provides the ability to add ACXEVENT event objects to an ACXELEMENT object. 
+The **AcxElementAddEvents** function provides the ability to add ACXEVENT event objects to an existing ACXELEMENT object.
 
 ## -parameters
 
 ### -param Element
 
-TBD - An ACXELEMENT object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+An existing ACXELEMENT object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
 ### -param Events
 
-TBD - An ACXEVENT object. TBD - array?
+One or more ACXEVENT objects.
 
 ### -param EventsCount
 
-A count of the events. This is a one based count.
+The number of events in the Events array.
 
 ## -returns
 
@@ -68,7 +68,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 Example usage is shown below.
 
-TBD - No example code found
+Sample Pending
 
 ```cpp
 
@@ -76,5 +76,8 @@ TBD - No example code found
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

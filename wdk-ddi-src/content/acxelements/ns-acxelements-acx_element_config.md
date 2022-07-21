@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_ELEMENT_CONFIG
 tech.root: audio 
 title: ACX_ELEMENT_CONFIG
-ms.date: 09/03/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_ELEMENT_CONFIG structure is used to define the audio element configuration. 
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_ELEMENT_CONFIG** structure is used to define the audio element configuration. 
+The **ACX_ELEMENT_CONFIG** structure is used to define the acx element configuration. 
 
 ## -struct-fields
 
@@ -58,7 +58,7 @@ A number that represents the element ID.
 
 ### -field Type
 
-TBD - The KSNODETYPE, for example KSNODETYPE_AUDIO_ENGINE or KSNODETYPE_AUDIO_KEYWORDDETECTOR. For more information, see [Audio Topology Nodes](/windows-hardware/drivers/audio/audio-topology-nodes).
+The KSNODETYPE, for example KSNODETYPE_AUDIO_ENGINE or KSNODETYPE_AUDIO_KEYWORDDETECTOR. For more information, see [Audio Topology Nodes](/windows-hardware/drivers/audio/audio-topology-nodes).
 
 ### -field Name
 
@@ -66,25 +66,25 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 ### -field Flags
 
-Audio element configuration flags defined by the [ACX_ELEMENT_CONFIG_FLAGS enum](ne-acxelements-acx_element_config_flags.md). 
+Acx element configuration flags defined by the [ACX_ELEMENT_CONFIG_FLAGS enum](ne-acxelements-acx_element_config_flags.md). 
 
 No flag bits are currently defined. Set this member to zero - AcxAudioElementConfigNoFlags
 
 ### -field PropertiesCount
 
-The number of properties. This is a  one based count.
+The number of properties. This is a one based count.
 
 ### -field MethodsCount
 
-The number of methods. This is a  one based count.
+The number of methods. This is a one based count.
 
 ### -field Properties
 
-TBD - An [ACX_PROPERTY_ITEM structure](/windows-hardware/drivers/ddi/acxrequest/acxrequest/ns-acxrequest-acx_property_item) that defines a set of TBD TBD and is used to TBD. 
+An [ACX_PROPERTY_ITEM structure](/windows-hardware/drivers/ddi/acxrequest/acxrequest/ns-acxrequest-acx_property_item) that defines the properties for this acx element configuration.
 
 ### -field Methods
 
-And [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/acxrequest\ns-acxrequest-acx_method_item.md)  structure that defines the methods for this audio element configuration. 
+An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/acxrequest\ns-acxrequest-acx_method_item.md) structure that defines the methods for this acx element configuration. 
 
 ## -remarks
 
@@ -106,5 +106,9 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE
 

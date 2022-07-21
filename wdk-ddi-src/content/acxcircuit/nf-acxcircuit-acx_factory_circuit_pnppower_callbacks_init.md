@@ -4,8 +4,7 @@ tech.root: audio
 title: ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT
 ms.date: 08/13/2021
 targetos: Windows
-description: The ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT function initializes a 
-ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS structure.
+description: The ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT function initializes a ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -43,23 +42,24 @@ dev_langs:
 
 ## -description
 
-The ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT function initializes a 
+The **ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT** function initializes a 
 [ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS](ns-acxcircuit-acx_factory_circuit_pnppower_callbacks.md) structure. No inputs are used with this function.
 
 ## -parameters
 
 ### -param PnpPowerCallbacks
 
-A pointer to an initialized [ACX_CIRCUIT_PNPPOWER_CALLBACKS structure](ns-acxcircuit-acx_circuit_pnppower_callbacks.md).
-
+A pointer to an initialized [ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS structure](ns-acxcircuit-acx_factory_circuit_pnppower_callbacks.md).
 
 ## -remarks
+
+NOTE: at this time ACX doesn't support the PNP callbacks for a circuit factory object.
 
 ### Example
 
 Example usage is shown below.
 
-TBD - No sample code found.
+Sample pending.
 
 ```cpp
 
@@ -68,5 +68,6 @@ TBD - No sample code found.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

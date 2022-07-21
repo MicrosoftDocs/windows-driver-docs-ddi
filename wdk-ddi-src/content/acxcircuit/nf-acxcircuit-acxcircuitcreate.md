@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitCreate
 tech.root: audio
 title: AcxCircuitCreate
-ms.date: 08/12/2021
+ms.date: 06/16/2022
 targetos: Windows
-description: The AcxCircuitCreate function is used to create a circuit that will be associated with a WDFDEVICE parent. This function is located in the acxcircuit header.
+description: The AcxCircuitCreate function is used to create an ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitCreate function is used to create a circuit that will be associated with a WDFDEVICE parent. 
+The **AcxCircuitCreate** function is used to create an ACXCIRCUIT.
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit. TBD - conditional on something to determine if this is the parent?
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit. 
 
 ### -param Attributes
 
@@ -69,8 +69,9 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An AcxCircuit represents a partial audio path to a user perceived audio device (speakers, mic, etc.). 
-An AcxCircuit has at least one input pin and one output pin (ACXPIN), and it aggregates zero or ‘n’ AcxElements-like objects. By default, AcxElements are ‘connected’ in the same order of assembly. 
+An ACXCIRCUIT represents a full or partial (multi-circuit) audio path to a user perceived audio device (speakers, mic, etc.). 
+
+An ACXCIRCUIT has at least one input pin (ACXPIN) and one output pin (ACXPIN), and it may aggregate one or more ACXELEMENTS objects. By default, ACXELEMENTs are ‘connected’ in the same order of assembly. 
 
 ### Example
 
@@ -108,5 +109,8 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO 
+
+EDITCOMPLETE

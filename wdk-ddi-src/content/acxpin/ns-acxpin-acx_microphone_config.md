@@ -2,9 +2,13 @@
 UID: NS:acxpin._ACX_MICROPHONE_CONFIG
 tech.root: audio
 title: ACX_MICROPHONE_CONFIG
-ms.date: 10/05/2021
+ms.date: 02/25/2022
 targetos: Windows
+<<<<<<< HEAD
 description: The ACX_MICROPHONE_CONFIG structure allows the driver to specify the properties of a microphone.
+=======
+description: The ACX_MICROPHONE_CONFIG structure is used to configure a microphone.
+>>>>>>> e350f6ef4028cc41d4aa7b14ca5382c9402e1b85
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,33 +48,37 @@ dev_langs:
 
 ## -description
 
+<<<<<<< HEAD
 The ACX_MICROPHONE_CONFIG structure allows the driver to specify the properties of a microphone.
+=======
+The **ACX_MICROPHONE_CONFIG** structure is used to configure a microphone.
+>>>>>>> e350f6ef4028cc41d4aa7b14ca5382c9402e1b85
 
 ## -struct-fields
 
 ### -field Size
 
-The size, in bytes, of this structure.
+The size of all of the data in the **ACX_MICROPHONE_CONFIG** structure in bytes.
 
 ### -field Flags
 
-Flags from [ACX_MICROPHONE_CONFIG_FLAG](ne-acxpin-acx_microphone_config_flags.md) to use in creation.
+A combination of values from the [ACX_MICROPHONE_CONFIG_FLAGS](ne-acxpin-acx_microphone_config_flags.md) enum that describe the microphone.
 
 ### -field MicrophoneSnrDB
 
-The microphone signal to noise ratio (SNR) measured in dB units.
+A 16.16 fixed point decibel (dB) value specifying the microphone's signal-to-noise ratio. Setting this to LONG_MIN_VALUE means that this field is unsupported.
 
 ### -field MicrophoneSensitivityDB
 
- The microphone sensitivity in decibels relative to full scale (dBFS) units including any hardware gain. This value includes any hardware integration that impacts mic sensitivity, prior to any software gain. The MicrophoneSensitivityDB value does not include any software gain that is applied from the audio stack.
+A 16.16 fixed point decibel (dB) value specifying the microphone's sensitivity. Setting this to LONG_MIN_VALUE means that this field is unsupported.
 
 ### -field MicArrayGeometry
 
-An optional ACXMICARRAYGEOMETRY object that specifies the geometry of the microphone if it is a microphone array.
+An optional [ACX_MIC_ARRAY_GEOMETRY](ns-acxpin-acx_mic_array_geometry.md) structure that describes the geometry of the microphone if it is a microphone array.
 
 ### -field InterleavedFormat
 
-An optional pointer to an [ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION](ns-acxpin-acx_interleaved_audio_format_information.md) structure for the microphone.
+An optional pointer to an [ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION](ns-acxpin-acx_interleaved_audio_format_information.md) structure that specifies how loopback audio is interleaved with the microphone audio.
 
 ## -remarks
 
@@ -80,8 +88,8 @@ To initialize an ACX_MICROPHONE_CONFIG structure, your driver should call [ACX_M
 
 ## -see-also
 
-[ACX_MICROPHONE_CONFIG_INIT](nf-acxpin-acx_microphone_config_init.md)
-[AcxMicArrayGeometryCreate](nf-acxpin-acxmicarraygeometrycreate.md)
-[ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION](ns-acxpin-acx_interleaved_audio_format_information.md)
+- [ACX_MICROPHONE_CONFIG_FLAGS](ne-acxpin-acx_microphone_config_flags.md)
+- [ACX_MIC_ARRAY_GEOMETRY](ns-acxpin-acx_mic_array_geometry.md)
+- [acxpin.h header](index.md)
 
 READY2GO

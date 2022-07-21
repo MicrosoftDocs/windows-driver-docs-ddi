@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT structure is used to remove ACX circuit factory circuits.
+The **ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT** structure is used to remove ACX circuit factory circuits.
 
 ## -struct-fields
 
@@ -62,11 +62,11 @@ A GUID that is used to uniquely identify the circuit.
 
 ## -remarks
 
-ACX Manager initializes and sends this structure to an ACXFACTORYCIRCUIT when an existing ACXCIRCUIT object must be removed. 
+ACX Manager initializes and sends this structure to an ACXFACTORYCIRCUIT when an existing ACXCIRCUIT object must be removed.
 
 Drivers receive this structure in their ACXFACTORYCIRCUIT's callback as passing parameter.
 
-For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### Example
 
@@ -78,7 +78,7 @@ Example pending.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
 READY2GO
 

@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatIsEqual
 tech.root: audio
 title: AcxDataFormatIsEqual
-ms.date: 01/10/2022
+ms.date: 05/31/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatIsEqual function compares two ACXDATAFORMAT objects for equality.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,28 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatIsEqual** function compares two [ACXDATAFORMAT](index.md) objects for equality.
+
 ## -parameters
 
-### -param DataFormat1
+### -param DataFormat1 [in]
 
-### -param DataFormat2
+The first [ACXDATAFORMAT](index.md) object to compare.
+
+### -param DataFormat2 [in]
+
+The second [ACXDATAFORMAT](index.md) object to compare.
 
 ## -returns
+
+Returns TRUE if *DataFormat1* and DataFormat2 are equal, otherwise FALSE.
 
 ## -remarks
 
 ## -see-also
 
+- [acxdataformat.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

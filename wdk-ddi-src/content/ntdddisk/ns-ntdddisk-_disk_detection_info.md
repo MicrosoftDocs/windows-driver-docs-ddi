@@ -1,10 +1,10 @@
 ---
 UID: NS:ntdddisk._DISK_DETECTION_INFO
-title: _DISK_DETECTION_INFO (ntdddisk.h)
+title: DISK_DETECTION_INFO (ntdddisk.h)
 description: The DISK_DETECTION_INFO structure contains the detected drive parameters that are supplied by an x86 PC BIOS on boot.
 old-location: storage\disk_detection_info.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/20/2022
 keywords: ["DISK_DETECTION_INFO structure"]
 ms.keywords: "*PDISK_DETECTION_INFO, DISK_DETECTION_INFO, DISK_DETECTION_INFO structure [Storage Devices], PDISK_DETECTION_INFO, PDISK_DETECTION_INFO structure pointer [Storage Devices], _DISK_DETECTION_INFO, ntdddisk/DISK_DETECTION_INFO, ntdddisk/PDISK_DETECTION_INFO, storage.disk_detection_info, structs-disk_04ca1cb1-3995-47d9-9b5a-0e54ea98dbd6.xml"
 req.header: ntdddisk.h
@@ -46,12 +46,11 @@ api_name:
  - DISK_DETECTION_INFO
 ---
 
-# _DISK_DETECTION_INFO structure
-
+# DISK_DETECTION_INFO structure
 
 ## -description
 
-The DISK_DETECTION_INFO structure contains the detected drive parameters that are supplied by an x86 PC BIOS on boot.
+The **DISK_DETECTION_INFO** structure contains the detected drive parameters that are supplied by an x86 PC BIOS on boot.
 
 ## -struct-fields
 
@@ -61,23 +60,7 @@ Contains the quantity, in bytes, of retrieved detect information.
 
 ### -field DetectionType
 
-Indicates one of three possible detection types:
-
-<ol>
-<li>
-<b>DetectNone</b>
-
-</li>
-<li>
-<b>DetectInt13</b>
-
-</li>
-<li>
-<b>DetectExInt13</b>
-
-</li>
-</ol>
-See the structure <a href="/windows-hardware/drivers/ddi/ntdddisk/ne-ntdddisk-_detection_type">DETECTION_TYPE</a> for further information.
+A [**DETECTION_TYPE**](ne-ntdddisk-_detection_type.md) value that determines the type of formatting used by the BIOS to record the disk geometry.
 
 ### -field DUMMYUNIONNAME
 
@@ -85,38 +68,16 @@ See the structure <a href="/windows-hardware/drivers/ddi/ntdddisk/ne-ntdddisk-_d
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Int13
 
+A [**DISK_INT13_INFO**](ns-ntdddisk-_disk_int13_info.md) structure when **DetectionType** is **DetectInt13**.
+
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ExInt13
 
- 
-
-
-
-
-### -field ( unnamed struct )
-
-Contains the quantity, in bytes, of retrieved detect information.
-
-
-
-#### Int13
-
-Contains <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_int13_info">DISK_INT13_INFO</a> structure with the disk parameters for INT 13 type partitions. This member is used if <b>DetectionType </b>== <b>DetectInt13</b>.
-
-
-
-#### ExInt13
-
-Contains a <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_ex_int13_info">DISK_EX_INT13_INFO</a> structure with the disk parameters for extended INT 13 type partitions. This member is used if <b>DetectionType</b> == <b>DetectExInt13</b>.
+A [**DISK_EX_INT13_INFO**](ns-ntdddisk-_disk_ex_int13_info.md) structure when **DetectionType** is **DetectExInt13**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_ex_int13_info">DISK_EX_INT13_INFO</a>
+[**DISK_EX_INT13_INFO**](ns-ntdddisk-_disk_ex_int13_info.md)
 
+[**DISK_GEOMETRY_EX**](ns-ntdddisk-_disk_geometry_ex.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry_ex">DISK_GEOMETRY_EX</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_int13_info">DISK_INT13_INFO</a>
-
+[**DISK_INT13_INFO**](ns-ntdddisk-_disk_int13_info.md)

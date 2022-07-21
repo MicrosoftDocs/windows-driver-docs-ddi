@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_MUTE_CONFIG
 tech.root: audio 
 title: ACX_MUTE_CONFIG
-ms.date: 09/03/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_MUTE_CONFIG structure is used to define the audio mute configuration. 
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_MUTE_CONFIG structure is used to define the audio mute configuration. 
+The **ACX_MUTE_CONFIG** structure is used to define the acx mute configuration. 
 
 ## -struct-fields
 
@@ -62,13 +62,13 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 ### -field Flags
 
-Audio key word spotter configuration flags defined by the [ACX_MUTE_CONFIG_FLAGS enum](ne-acxelements-acx_mute_config_flags.md). 
+Acx mute configuration flags defined by the [ACX_MUTE_CONFIG_FLAGS enum](ne-acxelements-acx_mute_config_flags.md). 
 
 No flag bits are currently defined. Set this member to zero - AcxMuteConfigNoFlags.
 
 ### -field ChannelsCount
 
-The number of channels. This is a  one based count.
+The number of channels. This is a one based count.
 
 ### -field Callbacks
 
@@ -100,5 +100,8 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

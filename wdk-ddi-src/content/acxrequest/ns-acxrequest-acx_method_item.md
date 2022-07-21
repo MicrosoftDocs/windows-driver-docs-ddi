@@ -2,9 +2,9 @@
 UID: NS:acxrequest._ACX_METHOD_ITEM
 tech.root: audio
 title: ACX_METHOD_ITEM
-ms.date: 02/07/2022
+ms.date: 03/03/2022
 targetos: Windows
-description: The ACX_METHOD_ITEM structure describes the method items that can be used in an ACX request.
+description: The ACX_METHOD_ITEM structure describes a method item that is the target of an ACX request.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,25 +44,49 @@ dev_langs:
 
 ## -description
 
-The **ACX_METHOD_ITEM** structure describes the method items that can be used in an ACX request.
+The **ACX_METHOD_ITEM** structure describes a method item that is the target of an ACX request.
 
 ## -struct-fields
 
 ### -field Set
 
+Specifies a GUID that identifies a KS (kernel streaming) method item set. 
+
 ### -field Id
+
+Specifies the member of the member set.
 
 ### -field Flags
 
+The Flags field can be used to set the following Flags defined in the AcxRequest header.
+
+```cpp
+
+#define ACX_METHOD_ITEM_FLAG_NONE               0x00000000
+#define ACX_METHOD_ITEM_FLAG_SEND               0x00000001 // KSMETHOD_TYPE_SEND
+#define ACX_METHOD_ITEM_FLAG_BASICSUPPORT       0x00000200 // KSMETHOD_TYPE_BASICSUPPORT
+
+```
+
 ### -field EvtAcxObjectProcessRequest
+
+The [EVT_ACX_OBJECT_PROCESS_REQUEST callback](nc-acxrequest-evt_acx_object_process_event_request.md) method handler associated with this item.
 
 ### -field Reserved
 
+This field is reserved.
+
 ### -field ArgsCb
+
+The minimum count in bytes (size) of the Args buffer. Set to zero if no minimum value.
 
 ### -field ResultCb
 
+The minimum count in bytes (size) of the Result buffer. Set to zero if no minimum value.
+
 ### -field ResultType
+
+The minimum count in bytes (size) of the Result buffer. Set to zero if there is no minimum value.
 
 ## -remarks
 
@@ -72,9 +96,23 @@ Example usage is shown below.
 
 ```cpp
 
+static ACX_METHOD_ITEM CircuitMethods[] =
+{
+    {
+        &KSMETHODSETID_AcxTestMethod,
+        KSMETHOD_ACXCIRCUIT_TEST_IN2OUT,
+        ACX_METHOD_ITEM_FLAG_SEND,
+        Codec_EvtTestIn2OutMethodCallback,
+        NULL,               // Reserved
+        sizeof(ULONG),      // ArgsCb
+        sizeof(ULONG),      // ResultCb
+    },
+};
+
 ```
 
 ## -see-also
 
-[acxrequest.h header](index.md)
+- [acxrequest.h header](index.md)
 
+READY2GO

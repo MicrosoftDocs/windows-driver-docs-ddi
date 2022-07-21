@@ -3,7 +3,7 @@ UID: NF:netadapter.NetAdapterInitSetDatapathCallbacks
 title: NetAdapterInitSetDatapathCallbacks function (netadapter.h)
 description: The NetAdapterInitSetDatapathCallbacks function registers a NETADAPTER's callback functions for creating datapath packet queues.
 tech.root: netvista
-ms.date: 08/01/2018
+ms.date: 03/30/2022
 keywords: ["NetAdapterInitSetDatapathCallbacks function"]
 ms.keywords: NetAdapterInitSetDatapathCallbacks
 req.header: netadapter.h
@@ -47,11 +47,11 @@ The **NetAdapterInitSetDatapathCallbacks** function sets a net adapter's callbac
 
 ## -parameters
 
-### -param AdapterInit
+### -param AdapterInit [_Inout_]
 
 A pointer to a NETADAPTER_INIT structure that the driver obtained from a previous call to [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md).
 
-### -param DatapathCallbacks
+### -param DatapathCallbacks [_In_]
 
 A pointer to a driver-allocated and initialized [**NET_ADAPTER_DATAPATH_CALLBACKS**](ns-netadapter-_net_adapter_datapath_callbacks.md) structure that contains pointers to the adapter's datapath queue creation callback functions.
 

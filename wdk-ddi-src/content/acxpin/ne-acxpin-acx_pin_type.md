@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_PIN_TYPE
 tech.root: audio
 title: ACX_PIN_TYPE
-ms.date: 02/03/2022
+ms.date: 03/25/2022
 targetos: Windows
 description: The ACX_PIN_TYPE enumeration is used by the ACX_PIN_CONFIG structure to indicate the type of a pin.
 prerelease: false
@@ -67,3 +67,8 @@ For internal validation, do not use.
 - [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)
 - [ACX_PIN_CONFIG_INIT](nf-acxpin-acx_pin_config_init.md)
 - [AcxPinGetType](nf-acxpin-acxpingettype.md)
+- [acxpin.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

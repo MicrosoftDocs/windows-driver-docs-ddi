@@ -2,15 +2,14 @@
 UID: NF:bdasup.BdaPropertyPinTypes
 title: BdaPropertyPinTypes function (bdasup.h)
 description: The BdaPropertyPinTypes function retrieves a list of pin types in a template topology.
-old-location: stream\bdapropertypintypes.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/25/2022
 keywords: ["BdaPropertyPinTypes function"]
 ms.keywords: BdaPropertyPinTypes, BdaPropertyPinTypes function [Streaming Media Devices], bdaref_38003a0c-ac8f-4249-b7b1-a4979f05b7ab.xml, bdasup/BdaPropertyPinTypes, stream.bdapropertypintypes
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. This routine is available on the Windows 2000 platform only if Microsoft DirectX 9.0 and later is installed on that platform.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,31 +40,23 @@ api_name:
  - BdaPropertyPinTypes
 ---
 
-# BdaPropertyPinTypes function
-
-
 ## -description
 
-The <b>BdaPropertyPinTypes</b> function retrieves a list of pin types in a template topology.
+The **BdaPropertyPinTypes** function retrieves a list of pin types in a template topology.
 
 ## -parameters
 
-### -param pIrp
+### -param pIrp [in]
+
+Points to the IRP for the request to retrieve list of pin types. The BDA minidriver receives this IRP with the [KSPROPERTY_BDA_PIN_TYPES](/windows-hardware/drivers/stream/ksproperty-bda-pin-types) request.
 
 ### -param pKSProperty [in]
 
-
-Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property and request type of the property request.
+Points to a [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure) structure that describes the property and request type of the property request.
 
 ### -param pulProperty [out]
 
-
-Points to an array that receives the list of pin types. 
-
-
-### -param Irp [in]
-
-Points to the IRP for the request to retrieve list of pin types. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-types">KSPROPERTY_BDA_PIN_TYPES</a> request.
+Points to an array that receives the list of pin types.
 
 ## -returns
 
@@ -73,16 +64,12 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 ## -remarks
 
-A BDA minidriver calls the <b>BdaPropertyPinTypes</b> function to retrieve the list of pin types after the minidriver receives a <a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-types">KSPROPERTY_BDA_PIN_TYPES</a> request of the <a href="/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a> property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the <b>BdaPropertyPinTypes</b> function directly, without intercepting this request using an internal get-handler (<a href="/previous-versions/ff567177(v=vs.85)">KStrGetPropertyHandler</a>). See <a href="/windows-hardware/drivers/stream/defining-automation-tables">Defining Automation Tables</a> and <a href="/windows-hardware/drivers/stream/determining-bda-device-topology">Determining BDA Device Topology</a> for more information.
+A BDA minidriver calls the **BdaPropertyPinTypes** function to retrieve the list of pin types after the minidriver receives a [KSPROPERTY_BDA_PIN_TYPES](/windows-hardware/drivers/stream/ksproperty-bda-pin-types) request of the [KSPROPSETID_BdaTopology](/windows-hardware/drivers/stream/kspropsetid-bdatopology) property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the **BdaPropertyPinTypes** function directly, without intercepting this request using an internal get-handler ([KStrGetPropertyHandler](/previous-versions/ff567177(v=vs.85))). See [Defining Automation Tables](/windows-hardware/drivers/stream/defining-automation-tables) and [Determining BDA Device Topology](/windows-hardware/drivers/stream/determining-bda-device-topology) for more information.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
+[KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)
 
+[KSPROPERTY_BDA_PIN_TYPES](/windows-hardware/drivers/stream/ksproperty-bda-pin-types)
 
-
-<a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-types">KSPROPERTY_BDA_PIN_TYPES</a>
-
-
-
-<a href="/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a>
+[KSPROPSETID_BdaTopology](/windows-hardware/drivers/stream/kspropsetid-bdatopology)

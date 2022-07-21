@@ -1,14 +1,13 @@
 ---
 UID: NF:winspool.PrinterMessageBoxW
 title: PrinterMessageBoxW function (winspool.h)
-description: "Learn more about: PrinterMessageBoxW function"
-old-location: print\printermessageboxw.htm
+description:  This topic describes the PrinterMessageBoxW function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 04/20/2022
 keywords: ["PrinterMessageBoxW function"]
 ms.keywords: PrinterMessageBoxW, PrinterMessageBoxW function [Print Devices], print.printermessageboxw, winspool/PrinterMessageBoxW
 req.header: winspool.h
-req.include-header: 
+req.include-header: Winspool.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,30 +42,36 @@ api_name:
  - PrinterMessageBox
 ---
 
-# PrinterMessageBoxW function
-
-
 ## -description
+
+This topic describes the **PrinterMessageBoxW** function.
 
 ## -parameters
 
 ### -param hPrinter [in]
 
-
+Defines the **HANDLE** parameter *hPrinter*.
 
 ### -param Error
 
+Defines the **DWORD** parameter *Error*.
+
 ### -param hWnd [in]
 
-
+Defines the **HWND** parameter *hWnd*.
 
 ### -param pText [in]
 
-
+Defines the **LPWSTR** parameter *pText*.
 
 ### -param pCaption [in]
 
-
+Defines the **LPWSTR** parameter *pCaption*.
 
 ### -param dwType
 
+Defines the **DWORD** parameter *dwType*.
+
+## -returns
+
+DWORD

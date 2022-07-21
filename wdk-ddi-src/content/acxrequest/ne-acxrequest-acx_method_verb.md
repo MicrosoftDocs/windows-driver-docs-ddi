@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_METHOD_VERB
 ms.date: 02/07/2022
 targetos: Windows
-description: The ACX_METHOD_VERB structure describes the type of method verb support that will be available.
+description: The ACX_METHOD_VERB structure describes the type of verb operations suppored on ACX methods.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_METHOD_VERB** enumeration describes the type of method verb support that will be available.
+The **ACX_METHOD_VERB** enumeration describes the type of verb operations suppored on ACX methods.
 
 ## -enum-fields
 
@@ -62,7 +62,7 @@ Set Verb support.
 
 ### -field AcxMethodVerbMax
 
-TBD - For internal validation, do not use.
+For internal validation, do not use.
 
 ## -remarks
 
@@ -70,7 +70,7 @@ TBD - For internal validation, do not use.
 
 Example usage is shown below.
 
-TBD - Sample pending.
+Sample pending.
 
 ```cpp
 
@@ -78,5 +78,6 @@ TBD - Sample pending.
 
 ## -see-also
 
-[acxrequest.h header](index.md)
+- [acxrequest.h header](index.md)
 
+READY2GO

@@ -2,9 +2,9 @@
 UID: NF:acxelements.ACX_PEAKMETER_CONFIG_INIT
 tech.root: audio 
 title: ACX_PEAKMETER_CONFIG_INIT
-ms.date: 09/20/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: TBD - The ACX_PEAKMETER_CONFIG_INIT function initializes an ACX_PEAKMETER_CONFIG structure.
+description: The ACX_PEAKMETER_CONFIG_INIT function initializes an ACX_PEAKMETER_CONFIG structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The ACX_PEAKMETER_CONFIG_INIT function initializes an [ACX_PEAKMETER_CONFIG](ns-acxelements-acx_peakmeter_config.md) structure.
+The **ACX_PEAKMETER_CONFIG_INIT** function initializes an [ACX_PEAKMETER_CONFIG](ns-acxelements-acx_peakmeter_config.md) structure.
 
 ## -parameters
 
@@ -57,21 +57,15 @@ An [ACX_PEAKMETER_CONFIG](ns-acxelements-acx_peakmeter_config.md) structure.
 Example usage is shown below.
 
 ```cpp
-    //
-    // Create custom circuit-element (peakmeter)
-    //
-    ACX_PEAKMETER_CALLBACKS_INIT(&peakmeterCallbacks);
-    peakmeterCallbacks.EvtAcxPeakMeterRetrieveLevel = CodecR_EvtPeakMeterRetrieveLevelCallback;
-
+    ACX_PEAKMETER_CONFIG peakmeterCfg;
     ACX_PEAKMETER_CONFIG_INIT(&peakmeterCfg);
-    peakmeterCfg.ChannelsCount = MAX_CHANNELS;
-    peakmeterCfg.Minimum = PEAKMETER_MINIMUM;
-    peakmeterCfg.Maximum = PEAKMETER_MAXIMUM;
-    peakmeterCfg.SteppingDelta = PEAKMETER_STEPPING_DELTA;
-    peakmeterCfg.Callbacks = &peakmeterCallbacks;
 ```
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE
 

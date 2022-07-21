@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitInitAllocate
 ms.date: 01/31/2022
 targetos: Windows
-description: The AcxFactoryCircuitInitAllocate function is used to initialize the opaque ACXFACTORYCIRCUIT_INIT structure that is used by the AcxCircuitCreate function. 
+description: The AcxFactoryCircuitInitAllocate function is used to initialize the opaque ACXFACTORYCIRCUIT_INIT structure that is used by the AcxFactoryCircuitCreate function. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxFactoryCircuitInitAllocate function is used to initialize the opaque ACXFACTORYCIRCUIT_INIT structure that is used by the [AcxCircuitCreate function](nf-acxcircuit-acxcircuitcreate.md). 
+The **AcxFactoryCircuitInitAllocate** function is used to initialize the opaque ACXFACTORYCIRCUIT_INIT structure that is used by the [AcxFactoryCircuitCreate function](nf-acxcircuit-acxfactorycircuitcreate.md).
 
 ## -parameters
 
@@ -55,6 +55,8 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 A pointer to an initialized ACXFACTORYCIRCUIT_INIT structure. This is an opaque structure that is accessed using APIs.
 
 ## -remarks
+
+The driver is responsable for deleting the ACXFACTORYCIRCUIT_INIT object using AcxFactoryCircuitInitFree if the AcxFactoryCircuitCreate is not invoked or returns an error.
 
 ### Example
 
@@ -71,5 +73,6 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

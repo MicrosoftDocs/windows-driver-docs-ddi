@@ -3,7 +3,7 @@ UID: NN:ksproxy.IKsControl
 title: IKsControl (ksproxy.h)
 description: The IKsControl interface provides user-mode methods that control a KS filter or KS pin. See the IKsControl AVStream COM interface for information about the user-mode equivalent of this interface.
 tech.root: stream
-ms.date: 06/11/2021
+ms.date: 03/11/2022
 keywords: ["IKsControl interface"]
 ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices],described, ksproxy/IKsControl, ksproxy_59a4df2f-d723-499a-adc6-907c0592a6ac.xml, stream.ikscontrol
 req.header: ksproxy.h
@@ -40,11 +40,9 @@ api_name:
  - IKsControl
 ---
 
-# IKsControl interface (ksproxy.h)
-
 ## -description
 
-The **IKsControl** interface provides user-mode methods that control a KS filter or KS pin. See the [IKsControl]() AVStream COM interface for information about the user-mode equivalent of this interface.
+The **IKsControl** interface provides user-mode methods that control a KS filter or KS pin. See the **IKsControl** AVStream COM interface for information about the user-mode equivalent of this interface.
 
 ## -inheritance
 
@@ -55,5 +53,3 @@ The **IKsControl** interface inherits from the [IUnknown](/windows/win32/api/unk
 The IID for this interface is IID_IKsControl.
 
 ## -see-also
-
-[IKsControl (AVStream COM Interface)](../ks/nn-ks-ikscontrol.md)

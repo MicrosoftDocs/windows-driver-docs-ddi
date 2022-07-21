@@ -2,9 +2,9 @@
 UID: NE:acxcircuit._ACX_CIRCUIT_TYPE
 tech.root: audio
 title: ACX_CIRCUIT_TYPE
-ms.date: 07/20/2021
+ms.date: 06/16/2022
 targetos: Windows
-description: The ACX_FACTORY_CIRCUIT_TYPE enumeration defines the circuit type for ACX circuit factories.
+description: The ACX_CIRCUIT_TYPE enumeration defines the types of ACXCIRCUITs.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,8 +40,7 @@ dev_langs:
 
 ## -description
 
-The ACX_FACTORY_CIRCUIT_TYPE enumeration defines the circuit type for ACX circuit factories.
-
+The **ACX_CIRCUIT_TYPE** enumeration defines the types of ACXCIRCUITs.
 
 ## -enum-fields
 
@@ -73,5 +72,8 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

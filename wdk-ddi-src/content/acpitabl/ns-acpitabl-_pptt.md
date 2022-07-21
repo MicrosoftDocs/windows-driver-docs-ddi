@@ -1,33 +1,26 @@
 ---
 UID: NS:acpitabl._PPTT
-title: _PPTT (acpitabl.h)
+tech.root: acpi
+title: PPTT (acpitabl.h)
+ms.date: 03/01/2022
+targetos: Windows
 description: Defines the Processor Properties Topology Table (PPTT) structure.
-ms.date: 11/19/2020
-keywords: ["PPTT structure"]
-ms.keywords: _PPTT, PPTT, *PPPTT,
+prerelease: false
+req.construct-type: structure
+req.ddi-compliance: 
+req.dll: 
 req.header: acpitabl.h
-req.include-header: 
-req.target-type: 
+req.include-header: Acpitabl.h
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.redist: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.lib: 
-req.dll: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.max-support: 
+req.target-type: Windows
 req.typenames: PPTT, *PPPTT
-targetos: Windows
-ms.custom: RS5
-tech.root: acpi
-f1_keywords:
- - _PPTT
- - acpitabl/_PPTT
- - PPPTT
- - acpitabl/PPPTT
- - PPTT
- - acpitabl/PPTT
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
  - apiref
 api_type:
@@ -38,10 +31,18 @@ api_name:
  - _PPTT
  - PPPTT
  - PPTT
+f1_keywords:
+ - _PPTT
+ - acpitabl/_PPTT
+ - PPPTT
+ - acpitabl/PPPTT
+ - PPTT
+ - acpitabl/PPTT
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - _PPTT
 ---
-
-# _PPTT structure
-
 
 ## -description
 
@@ -51,9 +52,12 @@ Defines the Processor Properties Topology Table (PPTT) structure.
 
 ### -field Header
 
-### -field HeirarchyNodes
+Defines the **DESCRIPTION_HEADER** member **Header**.
+
+### -field HierarchyNodes
+
+Defines the **PROC_TOPOLOGY_NODE** member **HierarchyNodes**.
 
 ## -remarks
 
 ## -see-also
-

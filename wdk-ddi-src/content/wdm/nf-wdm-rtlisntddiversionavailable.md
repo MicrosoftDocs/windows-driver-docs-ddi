@@ -4,7 +4,7 @@ title: RtlIsNtDdiVersionAvailable function (wdm.h)
 description: The RtlIsNtDdiVersionAvailable routine determines if a specified version of the Microsoft Windows device driver interface (DDI) is available.
 old-location: kernel\rtlisntddiversionavailable.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/11/2022
 keywords: ["RtlIsNtDdiVersionAvailable function"]
 ms.keywords: RtlIsNtDdiVersionAvailable, RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture], k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml, kernel.rtlisntddiversionavailable, wdm/RtlIsNtDdiVersionAvailable
 req.header: wdm.h
@@ -59,6 +59,106 @@ The version of the Windows DDI that is available. The following table lists the 
 <tr>
 <th>Constant</th>
 <th>Windows version</th>
+</tr>
+<tr>
+<td>
+NTDDI_WIN10_CO
+
+</td>
+<td>
+Windows 11 21H2
+
+</td>
+</tr>
+<tr>
+<td>
+NTDDI_WIN10_VB
+
+</td>
+<td>
+Windows 10 2004
+
+</td>
+</tr>
+<tr>
+<td>
+NTDDI_WIN10_19H1
+
+</td>
+<td>
+Windows 10 1903
+
+</td>
+</tr>
+<tr>
+<td>
+NTDDI_WIN10_RS5
+
+</td>
+<td>
+Windows 10 1809
+
+</td>
+</tr>
+<tr>
+<td>
+NTDDI_WIN10_RS4
+
+</td>
+<td>
+Windows 10 1803
+
+</td>
+</tr>
+<tr>
+<td>
+NTDDI_WIN10_RS3
+
+</td>
+<td>
+Windows 10 1709
+
+</td>
+</tr>
+<tr>
+<td>
+NTDDI_WIN10_RS2
+
+</td>
+<td>
+Windows 10 1703
+
+</td>
+</tr>
+<tr>
+<td>
+NTDDI_WIN10_RS1
+
+</td>
+<td>
+Windows 10 1607
+
+</td>
+</tr>
+<tr>
+<td>
+NTDDI_WIN10_TH2
+
+</td>
+<td>
+Windows 10 1511
+
+</td>
+</tr>
+<tr>
+<td>
+NTDDI_WIN10
+
+</td>
+<td>
+Windows 10 1507
+
+</td>
 </tr>
 <tr>
 <td>

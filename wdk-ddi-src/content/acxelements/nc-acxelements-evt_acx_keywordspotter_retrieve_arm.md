@@ -2,7 +2,7 @@
 UID: NC:acxelements.EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM
 tech.root: audio 
 title: EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM
-ms.date: 10/15/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM retrieves the current arm state of the keyword spotter.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM retrieves the current arm state of the keyword spotter.
+The **EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM** callback retrieves the current arm state of the keyword spotter.
 
 ## -parameters
 
@@ -95,5 +95,8 @@ CodecC_EvtAcxKeywordSpotterRetrieveArm(
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

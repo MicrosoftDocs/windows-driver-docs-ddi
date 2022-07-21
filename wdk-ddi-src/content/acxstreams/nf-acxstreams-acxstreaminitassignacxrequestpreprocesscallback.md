@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamInitAssignAcxRequestPreprocessCallback
 tech.root: audio
 title: AcxStreamInitAssignAcxRequestPreprocessCallback
-ms.date: 07/13/2021
+ms.date: 04/28/2022
 targetos: Windows
 description: The AcxStreamInitAssignAcxRequestPreprocessCallback function assigns an  AcxRequestPreprocessCallback to a stream. 
 prerelease: true
@@ -57,7 +57,7 @@ An EvtObjectAcxRequestPreprocess that will be called by the ACX framework before
 ### -param DriverContext
 
 An optional ACXCONTEXT object that represents the current driver context.
- 
+
 ### -param RequestType
 
 The [ACX_REQUEST_TYPE enum](..\acxrequest\ne-acxrequest-acx_request_type.md) that is that is used to define the request type. If AcxRequestTypeAny is specified, EvtObjectAcxRequestProcess will be called for all requests.
@@ -114,10 +114,8 @@ Example usage is shown below.
 
 ```
 
-
-
 ## -see-also
 
-[acxstreams.h header](index.md)
+- [acxstreams.h header](index.md)
 
 READY2GO

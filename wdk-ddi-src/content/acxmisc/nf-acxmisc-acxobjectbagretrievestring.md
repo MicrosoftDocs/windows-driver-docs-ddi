@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveString
 tech.root: audio
 title: AcxObjectBagRetrieveString
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveString function retrieves a string value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveString function retrieves a WDFSTRING object from an existing, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveString function retrieves a string value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveString function retrieves a WDFSTRING object from an existing, intialized AcxObjectBag.
  
 ## -parameters
 
@@ -52,7 +52,7 @@ An intialized ObjectBag ACX object. For more information, see [ACX - Summary of 
 
 ### -param ValueName
 
-The name of the value that will be used to access the value.
+A ValueName that will be associated with the added string and will be used to retrieve the stored string.
 
 ### -param Value
 
@@ -104,5 +104,8 @@ This example shows the use of AcxObjectBagRetrieveString.
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

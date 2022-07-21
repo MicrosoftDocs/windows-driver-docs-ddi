@@ -2,13 +2,12 @@
 UID: NF:filterpipeline.IXpsPartIterator.Reset
 title: IXpsPartIterator::Reset (filterpipeline.h)
 description: The Reset method sets the iterator to the first element.
-old-location: print\ixpspartiterator_reset.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 04/19/2022
 keywords: ["IXpsPartIterator::Reset"]
 ms.keywords: IXpsPartIterator interface [Print Devices],Reset method, IXpsPartIterator.Reset, IXpsPartIterator::Reset, Reset, Reset method [Print Devices], Reset method [Print Devices],IXpsPartIterator interface, filterpipeline/IXpsPartIterator::Reset, filterpipeline_505e0d5f-ee7f-4630-a0ea-1f95061486a8.xml, print.ixpspartiterator_reset
 req.header: filterpipeline.h
-req.include-header: 
+req.include-header: Filterpipeline.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,11 +39,6 @@ api_name:
  - IXpsPartIterator::Reset
 ---
 
-# IXpsPartIterator::Reset
-
-
 ## -description
 
-The <code>Reset</code> method sets the iterator to the first element.
-
-## -parameters
+The **Reset** method sets the iterator to the first element.

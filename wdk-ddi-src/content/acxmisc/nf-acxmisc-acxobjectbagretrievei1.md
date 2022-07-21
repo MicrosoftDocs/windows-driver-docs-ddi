@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveI1
 tech.root: audio
 title: AcxObjectBagRetrieveI1
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveI1 function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveI1 function retrieves a int one byte (CHAR) I1 value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveI1 function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveI1 function retrieves a int one byte (CHAR) I1 value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 
@@ -69,34 +69,41 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 This example shows the use of AcxObjectBagRetrieveI1.
 
 ```cpp
-    DECLARE_CONST_UNICODE_STRING(I1Str,    L"Value_I1");
+    ACXOBJECTBAG objBag     = NULL;
+    CHAR         i1Value    = 0;
 
-    // Create a simple object.
-    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
-    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
-    attr.ParentObject = WdfGetDriver();
+    //Initialize an object bag configuration
+    ACX_OBJECTBAG_CONFIG objBagCfg;
+    ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
     
-    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
+    // Set the WDF attributes, and create an object bag 
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = Circuit;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
 
-    // Add something to the bag
-    status = AcxObjectBagAddI1(bag1, &I1Str, cValue);
+    // Enable deletion of the object bag when the function completes and goes out of scope
+    auto objBag_scope = scope_exit([&objBag]() {
+        if (objBag != NULL)
+        {
+            WdfObjectDelete(objBag);
+        }
+    });
 
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
+    //Create Properties and add them to an object bag
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestI1);
 
-    // Read written values.
-    status = AcxObjectBagRetrieveI1(bag1, &I1Str, &cValue2);
+    i1Value = 1;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI1(objBag, &TestI1, i1Value)
+
+    // Retrieve the value from the object bag
+    i1Value = 0;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveI1(objBag, &TestI1, &i1Value));
 ```
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

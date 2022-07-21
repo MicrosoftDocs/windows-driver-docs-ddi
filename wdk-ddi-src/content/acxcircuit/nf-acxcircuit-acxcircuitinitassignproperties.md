@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitAssignProperties
 ms.date: 08/17/2021
 targetos: Windows
-description: The AcxCircuitInitAssignProperties function assigns a  set of KSPROPERTY elements that will be used for the circuit initialization.
+description: The AcxCircuitInitAssignProperties function assigns one or more ACX properties for the ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitAssignProperties function assigns a  set of KSPROPERTY elements that will be used for the circuit initialization.
+The **AcxCircuitInitAssignProperties** function assigns one or more ACX properties for the ACXCIRCUIT.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param Properties
 
-An [ACX_PROPERTY_ITEM structure](/windows-hardware/drivers/ddi/acxrequest/acxrequest/ns-acxrequest-acx_property_item) that defines a set of properties that will be used for circuit initialization by the circuit factory. 
+An [ACX_PROPERTY_ITEM structure](/windows-hardware/drivers/ddi/acxrequest/acxrequest/ns-acxrequest-acx_property_item) that defines a set of properties that will be used for circuit initialization by the circuit factory.
 
 ### -param PropertiesCount
 
@@ -63,6 +63,8 @@ The number of properties that will be added to the circuit. This is a one based 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
+
+Drivers should only add driver owned properties.
 
 ### Example
 
@@ -94,5 +96,6 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

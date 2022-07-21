@@ -4,8 +4,7 @@ tech.root: audio
 title: ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT
 ms.date: 02/01/2022
 targetos: Windows
-description: The ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT function initializes a 
-ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT structure.
+description: The ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT function initializes a ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -43,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT function initializes a 
+The **ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT** function initializes a 
 [ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT](ns-acxcircuit-acx_factory_circuit_remove_circuit.md) structure. No inputs are used with this function.
 
 ## -parameters
@@ -53,6 +52,8 @@ The ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT function initializes a
 A pointer to a [ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT](ns-acxcircuit-acx_factory_circuit_remove_circuit.md) structure that will be intialized.
 
 ## -remarks
+
+NOTE: internal only, do not use.
 
 ### Example
 
@@ -69,5 +70,6 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

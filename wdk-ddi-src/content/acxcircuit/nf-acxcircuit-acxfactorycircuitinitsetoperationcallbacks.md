@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitInitSetOperationCallbacks
 ms.date: 08/20/2021
 targetos: Windows
-description: TBD - The AcxFactoryCircuitInitSetOperationCallbacks sets the OperationCallbacks for Acx Circuit Factory initialization operations.
+description: The AcxFactoryCircuitInitSetOperationCallbacks sets the driver factory operation callbacks for the ACXFACTORYCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,14 @@ dev_langs:
 
 ## -description
 
-The AcxFactoryCircuitInitSetOperationCallbacks sets the OperationCallbacks for Acx Circuit Factory initialization operations.
+The **AcxFactoryCircuitInitSetOperationCallbacks** sets the driver factory operation callbacks for the ACXFACTORYCIRCUIT.
 
 ## -parameters
 
 ### -param FactoryInit
 
 An ACXFACTORYCIRCUIT_INIT structure that is used for circuit factory initialization. This is an opaque structure that is used to store ACX Circuit factory initialization information and associate the factory with a WDF device.
+
 Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuitinitallocate.md) to initialize the ACXFACTORYCIRCUIT_INIT structure.
 
 ### -param EvtOperationCallbacks
@@ -56,6 +57,8 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 An [ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS structure](ns-acxcircuit-acx_factory_circuit_operation_callbacks.md) that identifies the driver callbacks for ACX factory operations.
 
 ## -remarks
+
+ACX invokes these callbacks to ask the factory to create or remove circuits.
 
 ### Example
 
@@ -87,5 +90,6 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

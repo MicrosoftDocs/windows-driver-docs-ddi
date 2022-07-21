@@ -2,7 +2,7 @@
 UID: NF:acxelements.AcxMuteCreate
 tech.root: audio 
 title: AcxMuteCreate
-ms.date: 10/21/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxMuteCreate function is used to create an ACX mute object that that will be associated with a circuit object parent. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxMuteCreate function is used to create an ACX mute object that that will be associated with a circuit object parent. 
+The **AcxMuteCreate** function is used to create an ACX mute object that that will be associated with a circuit object parent. 
 
 ## -parameters
 
@@ -97,5 +97,9 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE
 

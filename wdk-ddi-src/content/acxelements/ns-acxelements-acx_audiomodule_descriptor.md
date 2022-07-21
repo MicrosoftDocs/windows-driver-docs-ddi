@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_AUDIOMODULE_DESCRIPTOR
 tech.root: audio 
 title: ACX_AUDIOMODULE_DESCRIPTOR
-ms.date: 09/03/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_AUDIOMODULE_DESCRIPTOR is used to define an audio module descriptor structure.
 prerelease: true
@@ -44,39 +44,35 @@ dev_langs:
 
 ## -description
 
-The ACX_AUDIOMODULE_DESCRIPTOR is used to define an audio module descriptor structure.
+The **ACX_AUDIOMODULE_DESCRIPTOR** is used to define an audio module descriptor structure.
 
 ## -struct-fields
 
 ### -field ClassId
 
-The ClassId that is used to identify the class.
-
-TBD - Just guessing this is likePcNewPort???
-
-Specifies the class GUID, which is passed by reference. This parameter is used only if the function creates objects of multiple classes. Otherwise, it is set to NULL.
+The GUID identifier of the module, which is defined by the audio device module owner.
 
 ### -field InstanceId
 
-The Instance Id for this audio module.
+The identifier, defined by the driver developer, that disambiguates between multiple instances of the same module class in the driver topology.
 
 ### -field VersionMajor
 
-The major version.
+The major version of the audio module.
 
 ### -field VersionMinor
 
-The minor version.
+The minor version of the audio module.
 
 ### -field Name
 
-A pointer to a GUID that represents the name of the element. Can be used for debugging and will default to GUID_NULL if not provided.
+The friendly name of the audio device module for display in UI. The buffer size is ACX_AUDIOMODULE_MAX_NAME_CCH_SIZE including the NULL terminator.
 
 ## -remarks
 
 ### Example
 
-TBD - No sample code found, just header def.
+Sample Pending
 
 Example usage is shown below.
 
@@ -86,5 +82,8 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

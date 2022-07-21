@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_AUDIOENGINE_CALLBACKS
 tech.root: audio 
 title: ACX_AUDIOENGINE_CALLBACKS
-ms.date: 09/01/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_AUDIOENGINE_CALLBACKS structure defines callbacks for the ACX audio engine. 
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_AUDIOENGINE_CALLBACKS structure defines callbacks for the ACX audio engine. 
+The **ACX_AUDIOENGINE_CALLBACKS** structure defines callbacks for the ACX audio engine. 
 
 ## -struct-fields
 
@@ -68,11 +68,7 @@ The [EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE](nc-acxelements-evt_acx_audioeng
 
 The [EVT_ACX_AUDIOENGINE_RETRIEVE_ENGINE_FORMAT](nc-acxelements-evt_acx_audioengine_retrieve_engine_format.md) callback.
 
-TBD TBD TBD - was this call back structure changed from MixFormat?
-
 ### -field EvtAcxAudioEngineAssignEngineDeviceFormat
-
-TBD TBD TBD - was this call back structure changed from DeviceFormat?
 
 The [EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT](nc-acxelements-evt_acx_audioengine_assign_engine_format.md) callback.
 
@@ -100,5 +96,9 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE
 

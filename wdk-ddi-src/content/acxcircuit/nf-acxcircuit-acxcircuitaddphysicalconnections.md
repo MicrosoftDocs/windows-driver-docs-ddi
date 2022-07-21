@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitAddPhysicalConnections
 tech.root: audio
 title: AcxCircuitAddPhysicalConnections
-ms.date: 02/01/2022
+ms.date: 06/16/2022
 targetos: Windows
-description: The AcxCircuitAddPhysicalConnections function adds physical connections to an existing ACX circuit. 
+description: The AcxCircuitAddPhysicalConnections function adds physical connections to an ACXCIRCUIT. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitAddPhysicalConnections function adds physical connections to an existing ACX circuit. 
+The **AcxCircuitAddPhysicalConnections** function adds physical connections to an ACXCIRCUIT.
 
 ## -parameters
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object.  For more information, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
- 
+An existing ACXCIRCUIT object.  For more information, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -param Connections
 
-A pointer to an [ACX_CONNECTION structure](/windows-hardware/drivers/ddi/acxrequest/acxpin/ns-acxpin-acx_connection) that describes the pin structure including the pin IDs. 
+A pointer to an [ACX_CONNECTION structure](/windows-hardware/drivers/ddi/acxrequest/acxpin/ns-acxpin-acx_connection) that describes the pin structure including the pin IDs.
 
 ### -param ConnectionsCount
 
@@ -64,29 +64,20 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+At this time this DDI is reserved. See DDIs of ACXMANAGER, ACXCIRCUITTEMPLATE and ACXCOMPOSITEMPLATE on how to link multiple ACXCIRCUITs together. 
+
 ### Example
 
 Example usage is shown below.
 
-TBD - This code was commented out for some reason, is it OK to use?
-
 ```cpp
-    //
-    // Add downstream physical connection.
-    //
-    RtlInitUnicodeString(&targetName, CODEC_NEXT_CIRCUIT_STR);
-    status = WdfStringCreate(&targetName, WDF_NO_OBJECT_ATTRIBUTES, &wdfTargetName);
 
-    ACX_PHYSICAL_CONNECTION_INIT(&phyConnection);
-    phyConnection.Flags = AcxPhysicalConnectionFromPinId;
-    phyConnection.FromPin.Id = 1;
-    phyConnection.TargetName = wdfTargetName;
-    phyConnection.TargetPinId = 0; // TODO: hardcoded for now.
-
-    status = AcxCircuitAddPhysicalConnections(circuit, &phyConnection, 1);
 ```
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

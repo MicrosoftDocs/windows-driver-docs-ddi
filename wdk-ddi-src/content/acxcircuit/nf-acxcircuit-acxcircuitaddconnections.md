@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitAddConnections
 tech.root: audio
 title: AcxCircuitAddConnections
-ms.date: 02/01/2022
+ms.date: 06/16/2022
 targetos: Windows
-description: The AcxCircuitAddConnections function adds connections to an Acx circuit. 
+description: The AcxCircuitAddConnections function adds connections to an ACXCIRCUIT. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitAddConnections function adds connections to an Acx circuit. 
+The **AcxCircuitAddConnections** function adds connections to an ACXCIRCUIT.
 
 ## -parameters
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
   
 ### -param Connections
 
-A pointer to an [ACX_CONNECTION structure](/windows-hardware/drivers/ddi/acxrequest/acxpin/ns-acxpin-acx_connection) that describes the pin structure including the pin IDs. 
+A pointer to an [ACX_CONNECTION structure](/windows-hardware/drivers/ddi/acxrequest/acxpin/ns-acxpin-acx_connection) that describes the pin structure including the pin IDs.
 
 ### -param ConnectionsCount
 
@@ -99,5 +99,8 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveUnicodeString
 tech.root: audio
 title: AcxObjectBagRetrieveUnicodeString
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveUnicodeString function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
@@ -66,15 +66,33 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
 This example shows the use of AcxObjectBagRetrieveUnicodeString.
 
 ```cpp
+        UNICODE_STRING          unicodeStringValue;
+        ACX_OBJECTBAG_CONFIG    objBagCfg;
 
+        DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_NAME(testName);
+
+        ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
+        objBagCfg.Handle = CircuitConfig->CompositeProperties;
+        objBagCfg.Flags |= AcxObjectBagConfigOpenWithHandle;
+
+        WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+        ACXOBJECTBAG objBag = NULL;
+
+        RETURN_NTSTATUS_IF_FAILED(AcxObjectBagOpen(&attributes, &objBagCfg, &objBag));
+        auto objBag_free = scope_exit([&objBag]() {
+            WdfObjectDelete(objBag);
+            });
+
+        RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveUnicodeString(objBag, &testName, &unicodeStringValue));
 ```
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

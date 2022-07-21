@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxVolumeChangeLevelNotification
 tech.root: audio 
 title: AcxVolumeChangeLevelNotification
-ms.date: 09/23/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: TBD - The AcxVolumeChangeLevelNotification function provides the ability to notify TBD of volume level changes.
+description: The AcxVolumeChangeLevelNotification function sends a notification of a volume level change on an ACXVOLUME object so that acx can generate a corresponding event.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxVolumeChangeLevelNotification function provides the ability to notify (TBD - what??) of volume level changes.
+The **AcxVolumeChangeLevelNotification** function sends a notification of a volume level change on an ACXVOLUME object so that ACX can generate a corresponding event.
 
 ## -parameters
 
 ### -param Volume
 
-An ACXVOLUME Object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+An ACXVOLUME object whose volume level has changed. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
 ## -remarks
 
@@ -71,5 +71,9 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE
 

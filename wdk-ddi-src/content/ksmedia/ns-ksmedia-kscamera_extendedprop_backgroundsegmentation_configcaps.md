@@ -2,7 +2,7 @@
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_BACKGROUNDSEGMENTATION_CONFIGCAPS
 tech.root: stream
 title: KSCAMERA_EXTENDEDPROP_BACKGROUNDSEGMENTATION_CONFIGCAPS
-ms.date: 06/24/2021
+ms.date: 03/08/2022
 targetos: Windows
 description: The KSCAMERA_EXTENDEDPROP_BACKGROUNDSEGMENTATION_CONFIGCAPS structure is used to list which stream configurations support background segmentation.
 prerelease: false
@@ -52,23 +52,31 @@ If a stream configuration is not listed and the control is set to something othe
 
 ### -field Resolution
 
-The width and height of the output format in pixels for which the *MaxFrameRate* and *MaskResolution* apply.
+The width and height of the output format in pixels for which the **MaxFrameRate** and **MaskResolution** apply.
 
 ### -field MaxFrameRate
 
-The maximum frame rate the driver can accommodate for achieving background segmentation for each frame corresponding to *Resolution*.
+The maximum frame rate the driver can accommodate for achieving background segmentation for each frame corresponding to **Resolution**.
+
+### -field MaxFrameRate.Numerator
+
+Defines the **LONG** member **Numerator**.
+
+### -field MaxFrameRate.Denominator
+
+Defines the **LONG** member **Denominator**.
 
 ### -field MaskResolution
 
-The width and height of the mask produced when streaming with a MediaType corresponding to *Resolution*.
+The width and height of the mask produced when streaming with a MediaType corresponding to **Resolution**.
 
 ### -field SubType
 
-Optional subtype for which this configuration capability applies. If left to zero, all streams conforming the *Resolution* and *MaxFrameRate* will support background segmentation with the specified *MaskResolution*.
+Optional subtype for which this configuration capability applies. If left to zero, all streams conforming the **Resolution** and **MaxFrameRate** will support background segmentation with the specified **MaskResolution**.
 
 ## -remarks
 
-Two **KSPROPERTY_CAMERACONTROL_EXTENDED_BACKGROUNDSEGMENTATION** controls with the same *Resolution* but different *MaxFrameRate* and *MaskResolution* may be specified to express that different frame rates may produce a different mask resolution.
+Two **KSPROPERTY_CAMERACONTROL_EXTENDED_BACKGROUNDSEGMENTATION** controls with the same **Resolution** but different **MaxFrameRate** and **MaskResolution** may be specified to express that different frame rates may produce a different mask resolution.
 
 ## -see-also
 

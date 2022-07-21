@@ -3,7 +3,7 @@ UID: NS:ntddscsi._NTSCSI_UNICODE_STRING
 title: NTSCSI_UNICODE_STRING
 description: Storage port drivers can use the NTSCSI_UNICODE_STRING structure to define Unicode strings.
 tech.root: storage
-ms.date: 03/18/2019
+ms.date: 05/20/2022
 keywords: ["NTSCSI_UNICODE_STRING structure"]
 ms.keywords: NTSCSI_UNICODE_STRING, NTSCSI_UNICODE_STRING, *PNTSCSI_UNICODE_STRING
 req.header: ntddscsi.h
@@ -41,7 +41,6 @@ product:
 
 # NTSCSI_UNICODE_STRING structure
 
-
 ## -description
 
 Storage port drivers can use the **NTSCSI_UNICODE_STRING** structure to define Unicode strings.
@@ -56,14 +55,6 @@ Length, in bytes, of the string stored in **Buffer**.
 
 Total length, in bytes, of memory allocated for **Buffer**.
 
-### -field Buffer.size_is
-
-### -field Buffer.size_is.MaximumLength/2
-
-### -field Buffer.length_is
-
-### -field Buffer.length_is.(Length)/2
-
 ### -field Buffer
 
 Pointer to a buffer used to contain a string of wide characters.
@@ -77,4 +68,3 @@ If the string is null-terminated, **Length** does not include the trailing null 
 ## -see-also
 
 [UNICODE_STRING](/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string)
-

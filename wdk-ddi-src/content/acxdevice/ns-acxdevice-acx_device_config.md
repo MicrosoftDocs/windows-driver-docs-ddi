@@ -2,7 +2,7 @@
 UID: NS:acxdevice._ACX_DEVICE_CONFIG
 tech.root: audio
 title: ACX_DEVICE_CONFIG
-ms.date: 01/31/2022
+ms.date: 03/30/2022
 targetos: Windows
 description: The ACX_DEVICE_CONFIG structure provides configuration information to the class extension.
 prerelease: false
@@ -50,7 +50,7 @@ The **ACX_DEVICE_CONFIG** structure provides configuration information to the cl
 
 ### -field Size
 
-This field is set by the [ACX_DEVICE_CONFIG_INIT](nf-acxdevice-acx_device_config_init.md) function.
+The size of all of the data in the **ACX_DEVICE_CONFIG** structure in bytes. This field is set by the [ACX_DEVICE_CONFIG_INIT](nf-acxdevice-acx_device_config_init.md) function.
 
 ### -field Flags
 
@@ -69,6 +69,7 @@ Instances of this structure must be initialized by calling the [ACX_DEVICE_CONFI
 * [ACX_DEVICE_CONFIG_INIT](nf-acxdevice-acx_device_config_init.md)
 * [ACX_DEVICE_CONFIG_FLAGS](ne-acxdevice-acx_device_config_flags.md)
 * [AcxDeviceInitialize](nf-acxdevice-acxdeviceinitialize.md)
+* [acxdevice.h header](index.md)
 
 READY2GO
 

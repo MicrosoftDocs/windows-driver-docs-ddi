@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_MICARRAYGEOMETRY_CONFIG_FLAGS
 tech.root: audio
 title: ACX_MICARRAYGEOMETRY_CONFIG_FLAGS
-ms.date: 12/13/2021
+ms.date: 02/17/2022
 targetos: Windows
 description: The ACX_MICARRAYGEOMETRY_CONFIG_FLAGS enumeration is used to configure the geometry of a microphone array.
 prerelease: false
@@ -52,3 +52,7 @@ For internal validation, do not use.
 ## -remarks
 
 ## -see-also
+
+- [acxpin.h header](index.md)
+
+TBD - Please review this topic

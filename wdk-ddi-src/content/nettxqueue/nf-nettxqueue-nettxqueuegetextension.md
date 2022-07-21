@@ -3,7 +3,7 @@ UID: NF:nettxqueue.NetTxQueueGetExtension
 title: NetTxQueueGetExtension function (nettxqueue.h)
 description: The NetTxQueueGetExtension function retrieves a packet extension for all packets in a transmit (Tx) queue.
 tech.root: netvista
-ms.date: 01/31/2019
+ms.date: 04/01/2022
 keywords: ["NetTxQueueGetExtension function"]
 ms.keywords: NetTxQueueGetExtension
 req.header: nettxqueue.h
@@ -46,15 +46,15 @@ The **NetTxQueueGetExtension** function retrieves a packet extension for all pac
 
 ## -parameters
 
-### -param PacketQueue
+### -param PacketQueue [_In_]
 
 The transmit queue object.
 
-### -param Query
+### -param Query [_In_]
 
 A pointer to a driver-allocated and initialized [**NET_EXTENSION_QUERY**](../netadapterpacket/ns-netadapterpacket-_net_extension_query.md) structure that contains information about the desired packet extension.
 
-### -param Extension
+### -param Extension [_Out_]
 
 A handle to a driver-allocated [**NET_EXTENSION**](../extension/ns-extension-_net_extension.md) structure that receives the packet extension.
 

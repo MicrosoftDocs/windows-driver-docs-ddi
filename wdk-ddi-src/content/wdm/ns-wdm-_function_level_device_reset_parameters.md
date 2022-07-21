@@ -2,13 +2,12 @@
 UID: NS:wdm._FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS
 title: _FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS (wdm.h)
 description: The FUNCTION_LEVEL_DEVICE_RESET_PARAMETER structure is used as an argument to the DeviceReset routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
-old-location: kernel\function_level_device_reset_parameters.htm
 tech.root: kernel
-ms.date: 11/15/2018
+ms.date: 05/31/2022
 keywords: ["FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure"]
 ms.keywords: "*PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure [Kernel-Mode Driver Architecture], PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, kernel.function_level_device_reset_parameters, wdm/FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, wdm/PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS"
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -48,10 +47,9 @@ api_name:
 
 # _FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure
 
-
 ## -description
 
-The <b>FUNCTION_LEVEL_DEVICE_RESET_PARAMETER</b> structure  is used as an argument to the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pdevice_reset_handler">DeviceReset</a> routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface. This structure specifies a callback routine that is called  when a function-level device reset is completed, and a context structure that is passed to the callback routine. For more information, see [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard)
+The **FUNCTION_LEVEL_DEVICE_RESET_PARAMETER** structure  is used as an argument to the [DeviceReset](/windows-hardware/drivers/ddi/wdm/nc-wdm-pdevice_reset_handler) routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface. This structure specifies a callback routine that is called  when a function-level device reset is completed, and a context structure that is passed to the callback routine. For more information, see [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard)
 
 ## -struct-fields
 
@@ -65,8 +63,7 @@ Pointer to a completion callback routine to be called when a function-level devi
 
 The function prototype for this callback routine is defined as follows:
 
-
-```
+```cpp
 typedef
 VOID
 (*PDEVICE_RESET_COMPLETION)(
@@ -77,13 +74,12 @@ VOID
 
 ### -field CompletionContext
 
-Points to a caller-supplied context structure to be passed to the <i>DeviceResetCompletion</i> callback.
+Points to a caller-supplied context structure to be passed to the *DeviceResetCompletion* callback.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_reset_interface_standard">DEVICE_RESET_INTERFACE_STANDARD</a>
+[DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_reset_interface_standard)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pdevice_reset_handler">DeviceReset</a>
+[DeviceReset](/windows-hardware/drivers/ddi/wdm/nc-wdm-device_reset_handler)
 
 [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard)
-

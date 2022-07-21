@@ -3,7 +3,7 @@ UID: NF:netadapter.NetAdapterWakeSetBitmapCapabilities
 title: NetAdapterWakeSetBitmapCapabilities function (netadapter.h)
 description: The NetAdapterWakeSetBitmapCapabilities function sets a net adapter's bitmap pattern wake on LAN (WoL) capabilities.
 tech.root: netvista
-ms.date: 10/24/2019
+ms.date: 03/30/2022
 keywords: ["NetAdapterWakeSetBitmapCapabilities function"]
 ms.keywords: NetAdapterWakeSetBitmapCapabilities
 req.header: netadapter.h
@@ -49,11 +49,11 @@ The **NetAdapterWakeSetBitmapCapabilities** function sets a net adapter's bitmap
 
 ## -parameters
 
-### -param Adapter
+### -param Adapter [_In_]
 
 A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
-### -param Capabilities
+### -param Capabilities [_In_]
 
 A pointer to a client driver-allocated and initialized [**NET_ADAPTER_WAKE_BITMAP_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_wake_bitmap_capabilities.md) structure.
 

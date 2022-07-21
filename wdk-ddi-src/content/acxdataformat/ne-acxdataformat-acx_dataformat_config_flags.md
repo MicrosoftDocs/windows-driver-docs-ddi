@@ -2,9 +2,9 @@
 UID: NE:acxdataformat._ACX_DATAFORMAT_CONFIG_FLAGS
 tech.root: audio
 title: ACX_DATAFORMAT_CONFIG_FLAGS
-ms.date: 01/10/2022
+ms.date: 05/31/2022
 targetos: Windows
-description: 
+description: The ACX_DATAFORMAT_CONFIG_FLAGS enumeration is used to configure the properties of a data format used by an audio class extension (ACX) driver.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,13 +37,24 @@ dev_langs:
 
 ## -description
 
+The **ACX_DATAFORMAT_CONFIG_FLAGS** enumeration is used to configure the properties of a data format used by an audio class extension (ACX) driver.
+
 ## -enum-fields
 
 ### -field AcxDataFormatConfigNoFlags
 
+Indicates that there are no flags set.
+
 ### -field AcxDataFormatConfigValidFlags
+
+For internal validation, do not use.
 
 ## -remarks
 
 ## -see-also
 
+- [acxdataformat.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

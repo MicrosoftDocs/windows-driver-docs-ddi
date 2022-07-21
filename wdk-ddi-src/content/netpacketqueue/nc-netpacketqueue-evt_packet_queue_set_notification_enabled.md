@@ -3,7 +3,7 @@ UID: NC:netpacketqueue.EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED
 title: EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED (netpacketqueue.h)
 description: The EvtPacketQueueSetNotificationEnabled callback function is implemented by the client driver to perform client-specific processing when there are new packets received in the specified queue's ring buffer.
 tech.root: netvista
-ms.date: 01/23/2019
+ms.date: 04/01/2022
 keywords: ["EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED callback function"]
 req.header: netpacketqueue.h
 req.include-header: netadaptercx.h 
@@ -46,11 +46,11 @@ The *EvtPacketQueueSetNotificationEnabled* callback function is implemented by t
 
 ## -parameters
 
-### -param PacketQueue
+### -param PacketQueue [_In_]
 
 A handle to a packet queue.
 
-### -param NotificationEnabled
+### -param NotificationEnabled [_In_]
 
 A value of **TRUE** requests that the client enable packet queue notification. A value of **FALSE** requests that the client disable packet queue notification.
 

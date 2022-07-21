@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitAllocate
 ms.date: 08/16/2021
 targetos: Windows
-description: TBD - The AcxCircuitInitAllocate function is used to initialize the opaque ACXCIRCUIT_INIT structure that is used by the AcxCircuitCreate function. 
+description: The AcxCircuitInitAllocate function is used to initialize the opaque ACXCIRCUIT_INIT structure that is used by the AcxCircuitCreate function. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitAllocate function is used to initialize the opaque ACXCIRCUIT_INIT structure that is used by the [AcxCircuitCreate function](nf-acxcircuit-acxcircuitcreate.md). 
+The **AcxCircuitInitAllocate** function is used to initialize the opaque ACXCIRCUIT_INIT structure that is used by the [AcxCircuitCreate function](nf-acxcircuit-acxcircuitcreate.md).
 
 ## -parameters
 
@@ -50,22 +50,24 @@ The AcxCircuitInitAllocate function is used to initialize the opaque ACXCIRCUIT_
 
 A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the ACX circuit.
 
-
 ## -returns
 
 ## -remarks
+
+The driver is responsable for deleting the ACXCIRCUIT_INIT object using AcxCircuitInitFree if the AcxCircuitCreate is not invoked or returns an error.
 
 ### Example
 
 Example usage is shown below.
 
 ```cpp
-    PACXCIRCUIT_INIT                circuitInit = NULL;
+    PACXCIRCUIT_INIT    circuitInit = NULL;
 
     circuitInit = AcxCircuitInitAllocate(Device);
 ```
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_TARGET_STREAM_CONFIG
 ms.date: 01/05/2022
 targetos: Windows
-description: 
+description: The ACX_TARGET_STREAM_CONFIG structure is used to define the target stream configuration. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,6 +44,8 @@ dev_langs:
 
 ## -description
 
+The **ACX_TARGET_STREAM_CONFIG** structure is used to define the target stream configuration. 
+
 ## -struct-fields
 
 ### -field Size
@@ -62,7 +64,7 @@ An ACXTARGETCIRCUIT object representing the target circuit.
 
 ### -field PinId
 
-The Pin ID number.
+The remote pin ID number of the remote target.
 
 ### -field DataFormat
 
@@ -75,20 +77,20 @@ audio modes, see [Audio Signal Processing Modes](/windows-hardware/drivers/audio
 
 ### -field OptionalParameters
 
-TBD - An ACXOBJECTBAG ACX object describing optional parameters.
-
-Use this for TBD. 
+An optional ACXOBJECTBAG ACX object describing optional parameters.
 
 ## -remarks
 
 ### Example
 
 ```cpp
-    ACX_TARGET_STREAM_CONFIG            targetStreamCfg;
+    ACX_TARGET_STREAM_CONFIG targetStreamCfg;
 
     ACX_TARGET_STREAM_CONFIG_INIT(&targetStreamCfg);
 ```
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+
+READY2GO

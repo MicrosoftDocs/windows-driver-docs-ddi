@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveSizeT
 tech.root: audio
 title: AcxObjectBagRetrieveSizeT
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveSizeT function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveSizeT function retrieves a SIZE_T value from an existing, intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveSizeT function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveSizeT function retrieves a SIZE_T value from an existing, intialized AcxObjectBag. 
 
 ## -parameters
 
@@ -66,13 +66,31 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
 ```cpp
+        SIZE_T                  sizeValue = 0;
+        ACX_OBJECTBAG_CONFIG    objBagCfg;
 
+        DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_NAME(TestName);
+
+        ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
+        objBagCfg.Handle = CircuitConfig->CompositeProperties;
+        objBagCfg.Flags |= AcxObjectBagConfigOpenWithHandle;
+
+        WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+        ACXOBJECTBAG objBag = NULL;
+
+        RETURN_NTSTATUS_IF_FAILED(AcxObjectBagOpen(&attributes, &objBagCfg, &objBag));
+        auto objBag_free = scope_exit([&objBag]() {
+            WdfObjectDelete(objBag);
+            });
+
+        RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveSizeT(objBag, &TestName, &sizeValue));
 ```
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

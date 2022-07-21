@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_EVENT_VERB
 ms.date: 02/07/2022
 targetos: Windows
-description: The ACX_EVENT_VERB enumeration describes the type of verb support that will be available.
+description: The ACX_EVENT_VERB enumeration describes the type of verb operations suppored on ACX events.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_EVENT_VERB** enumeration describes the type of verb support that will be available.
+The **ACX_EVENT_VERB** enumeration describes the type of verb operations supported on ACX events.
 
 ## -enum-fields
 
@@ -66,7 +66,7 @@ Event Verb support is available.
 
 ### -field AcxEventVerbMax
 
-TBD - For internal validation, do not use.
+For internal validation, do not use.
 
 ## -remarks
 
@@ -92,5 +92,6 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxrequest.h header](index.md)
+- [acxrequest.h header](index.md)
 
+READY2GO

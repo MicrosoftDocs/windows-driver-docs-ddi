@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_CIRCUIT_CREATE_STREAM
 ms.date: 11/02/2021
 targetos: Windows
-description: The driver defines this callback to create circuit stream instances. 
+description: The driver defines the EVT_ACX_CIRCUIT_CREATE_STREAM callback to create circuit stream instances.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The driver defines this callback to create circuit stream instances. 
+The driver defines the **EVT_ACX_CIRCUIT_CREATE_STREAM** callback to create circuit stream instances.
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT. 
+A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT.
 
 ### -param Circuit
 
@@ -64,7 +64,7 @@ The ACXSTREAM_INIT ACX object. This is an opaque structure, that is used to defi
 
 ### -param StreamFormat
 
-An ACXDATAFORMAT ACX object that defines the stream data format. 
+An ACXDATAFORMAT ACX object that defines the stream data format.
 
 ### -param SignalProcessingMode
 
@@ -100,7 +100,6 @@ Once the default target circuit creates the ACXSTREAM object, each circuit will 
 
 - Create and add a Context object to the ACXSTREAM with stream driver specific configuration or data.
 - Return control to the ACX framework, which will perform the same action with the next circuit in the Endpoint Audio Path.
-
 
 ### Example
 
@@ -279,9 +278,8 @@ Return Value:
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
 READY2GO
 
 EDITCOMPLETE
-

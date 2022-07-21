@@ -2,7 +2,7 @@
 UID: NF:acxelements.AcxAudioModuleCreate
 tech.root: audio 
 title: AcxAudioModuleCreate
-ms.date: 10/21/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxAudioModuleCreate function is used to create an audio module that that will be associated with an ACX circuit object parent. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxAudioModuleCreate function is used to create an audio module that that will be associated with an ACX circuit object parent. 
+The **AcxAudioModuleCreate** function is used to create an audio module that that will be associated with an ACX circuit object parent. 
 
 ## -parameters
 
@@ -78,11 +78,6 @@ Example usage is shown below.
     ACX_AUDIOMODULE_CALLBACKS       audioModuleCallbacks;
     ACX_AUDIOMODULE_CONFIG          audioModuleCfg;
     ACXAUDIOMODULE                  audioModuleElement;
-    PCODEC_AUDIOMODULE0_CONTEXT     audioModule0Ctx;
-    PCODEC_AUDIOMODULE1_CONTEXT     audioModule1Ctx;
-    PCODEC_AUDIOMODULE2_CONTEXT     audioModule2Ctx;
-    ACX_PNPEVENT_CONFIG             audioModuleEventCfg;
-    ACXPNPEVENT                     audioModuleEvent;
 
     // Now add audio modules to the circuit
     // module 0
@@ -111,5 +106,9 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE
 

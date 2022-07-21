@@ -2,7 +2,7 @@
 UID: NA:acxmanager
 tech.root: audio
 title: acxmanager
-ms.date: 01/10/2022
+ms.date: 06/23/2022
 targetos: Windows
 description: The acxmanager header is used by the ACX audio class extensions.
 prerelease: true
@@ -51,6 +51,5 @@ For more information, see:
  
 - [Audio](../_audio/index.md)
 
-acxelements.h contains the following programming interfaces:
-
+acxmanager.h contains the following programming interfaces:
 

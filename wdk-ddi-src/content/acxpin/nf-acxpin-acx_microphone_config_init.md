@@ -2,7 +2,7 @@
 UID: NF:acxpin.ACX_MICROPHONE_CONFIG_INIT
 tech.root: audio
 title: ACX_MICROPHONE_CONFIG_INIT
-ms.date: 01/13/2022
+ms.date: 02/17/2022
 targetos: Windows
 description: The ACX_MICROPHONE_CONFIG_INIT function initialized an ACX_MICROPHONE_CONFIG structure for use.
 prerelease: false
@@ -55,3 +55,6 @@ A pointer to the **ACX_MICROPHONE_CONFIG** structure to initialize.
 ## -see-also
 
 - [ACX_MICROPHONE_CONFIG](ns-acxpin-acx_microphone_config.md)
+- [acxpin.h header](index.md)
+
+TBD - Please review this topic

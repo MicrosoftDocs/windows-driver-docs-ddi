@@ -2,9 +2,9 @@
 UID: NE:acxmanager._ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS
 tech.root: audio
 title: ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS
-ms.date: 01/10/2022
+ms.date: 04/27/2022
 targetos: Windows
-description: 
+description: The ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS enumeration is used to configure the properties of a composite template used by the audio class extension (ACX) manager.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,17 +37,32 @@ dev_langs:
 
 ## -description
 
+The **ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS** enumeration is used to configure the properties of a composite template used by the audio class extension (ACX) manager.
+
 ## -enum-fields
 
 ### -field AcxCompositeTemplateConfigNoFlags
 
+Indicates that there are no flags set.
+
 ### -field AcxCompositeTemplateConfigPrivate
+
+For internal use only, do not use.
 
 ### -field AcxCompositeTemplateConfigSingleton
 
+Indicates that the composite template represents a composite singleton, so it does not repeat in the system.
+
 ### -field AcxCompositeTemplateConfigValidFlags
+
+For internal validation, do not use.
 
 ## -remarks
 
 ## -see-also
 
+- [acxmanager.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

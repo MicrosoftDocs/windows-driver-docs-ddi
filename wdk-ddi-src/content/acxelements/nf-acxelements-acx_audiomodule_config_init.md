@@ -2,9 +2,9 @@
 UID: NF:acxelements.ACX_AUDIOMODULE_CONFIG_INIT
 tech.root: audio 
 title: ACX_AUDIOMODULE_CONFIG_INIT
-ms.date: 09/20/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: TBD - The ACX_AUDIOMODULE_CONFIG_INIT function initializes an ACX_AUDIOMODULE_CONFIG structure.
+description: The ACX_AUDIOMODULE_CONFIG_INIT function initializes an [ACX_AUDIOMODULE_CONFIG](ns-acxelements-acx_audiomodule_config.md) structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The ACX_AUDIOMODULE_CONFIG_INIT function initializes an [ACX_AUDIOMODULE_CONFIG](ns-acxelements-acx_audiomodule_config.md) structure.
+The **ACX_AUDIOMODULE_CONFIG_INIT** function initializes an [ACX_AUDIOMODULE_CONFIG](ns-acxelements-acx_audiomodule_config.md) structure.
 
 ## -parameters
 
@@ -58,11 +58,14 @@ Example usage is shown below.
 
 ```cpp
     ACX_AUDIOMODULE_CONFIG          audioModuleCfg;
-
     ACX_AUDIOMODULE_CONFIG_INIT(&audioModuleCfg);
 ```
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE
 

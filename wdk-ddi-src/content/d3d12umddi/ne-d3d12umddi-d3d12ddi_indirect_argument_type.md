@@ -3,7 +3,7 @@ UID: NE:d3d12umddi.D3D12DDI_INDIRECT_ARGUMENT_TYPE
 title: D3D12DDI_INDIRECT_ARGUMENT_TYPE
 description: Specifies the type of the indirect parameter for indirect dispatch.
 tech.root: display
-ms.date: 03/24/2020
+ms.date: 05/24/2022
 keywords: ["D3D12DDI_INDIRECT_ARGUMENT_TYPE enumeration"]
 ms.keywords: D3D12DDI_INDIRECT_ARGUMENT_TYPE, D3D12DDI_INDIRECT_ARGUMENT_TYPE,
 req.header: d3d12umddi.h
@@ -42,10 +42,6 @@ dev_langs:
 Specifies the type of the indirect parameter for indirect dispatch.
 
 ## -enum-fields
-
-### -field D3D12DDI_INDIRECT_ARGUMENT_TYPE_11_0
-
-The driver supports Direct3D version 11 pipeline.
 
 ### -field D3D12_INDIRECT_ARGUMENT_TYPE_DRAW
 

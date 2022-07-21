@@ -2,7 +2,7 @@
 UID: NA:acxtargets
 tech.root: audio
 title: acxtargets
-ms.date:  11/11/2021
+ms.date: 06/22/2022
 targetos: Windows
 description: The acxtargets header is used by the ACX audio class extensions.
 prerelease: true
@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-The acxtargets header is used by the ACX audio class extensions. For more information, see [ACX Audio multi stack cross driver communications](/windows-hardware/drivers/audio/acx-audio-multi-stack).
+The acxtargets header is used by the ACX audio class extensions. For more information, see [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview).
 
 [WdfIoTarget](/windows-hardware/drivers/ddi/wdfiotarget/) is a WDF abstraction to facilitate the communication between two different stacks. ACX uses WdfIoTarget to facilitate communications between ACX objects, circuits, pins, streams, elements and circuit factories.
 
@@ -57,7 +57,7 @@ Drivers use *AcxTargetStream* to communicate with a remote circuit’s stream ex
 
 Drivers use *AcxTargetElement* to communicate with a remote circuit’s element exposed by a different stack. AcxTargetElement is implemented using a WdfIoTarget to send messages to the remote element entity.
 
-Drivers use *AcxTargetFactoryCircuit* to communicate with a remote circuit factory instance. AcxTargetFactoryCircuit is implemented using a WdfTarget to send messages to the remote circuit factory.
+Drivers use *AcxTargetFactoryCircuit* to communicate with a remote circuit factory instance. AcxTargetFactoryCircuit is implemented using a WdfIoTarget to send messages to the remote circuit factory.
 
 To interact with the remote circuit, each of the above ACX types supports:
 
@@ -67,11 +67,10 @@ To interact with the remote circuit, each of the above ACX types supports:
  
 For more information, see:
 
-- [ACX Audio multi stack cross driver communications](/windows-hardware/drivers/audio/acx-audio-multi-stack)
-
 - [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview)
+
+- [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects)
  
 - [Audio](../_audio/index.md)
 
-
-
+READY2GO

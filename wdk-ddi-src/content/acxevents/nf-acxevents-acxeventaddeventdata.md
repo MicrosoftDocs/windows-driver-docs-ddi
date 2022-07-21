@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxEventAddEventData
 tech.root: audio
 title: AcxEventAddEventData
-ms.date: 12/09/2021
+ms.date: 06/22/2022
 targetos: Windows
 description: The AcxEventAddEventData function adds event data to an ACXEVENT object.
 prerelease: true
@@ -56,11 +56,11 @@ The ACXEVENTDATA ACX object.
 
 ## -remarks
 
-An AcxEvent represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally they are exposed as KS events to upper layers. 
+An ACXEVENTDATA represents the EVENT obj from the client.
+
+An ACXEVENT represents an asynchronous notification available at the driver level. Events can be added to ACXCIRCUITs, ACXSTREAMs, ACXELEMENTs and ACXPINs. Internally they are exposed as KS Events to upper layers. For more information about KS Events, see [KS Events](/windows-hardware/drivers/stream/ks-events).
 
 ### Example
-
-TBD - Anything else to add to this code sample?
 
 This sample shows the use of AcxEventAddEventData.
 
@@ -80,7 +80,8 @@ CodecR_EvtMuteElementChangeEventCallback(
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxevents.h header](index.md)
 
+READY2GO
 
-
+EDITCOMPLETE

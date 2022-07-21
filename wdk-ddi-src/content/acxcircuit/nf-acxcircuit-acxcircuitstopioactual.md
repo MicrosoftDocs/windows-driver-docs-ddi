@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitStopIoActual
 tech.root: audio
 title: AcxCircuitStopIoActual
-ms.date: 02/04/2022
+ms.date: 04/28/2022
 targetos: Windows
-description: TBD - The AcxCircuitStopIoActual function is used to stop circuit IO after it has been in a run or TBD pause??? state.
+description: The AcxCircuitStopIoActual function is used to signal to the operating system to temporarily stop circuit I/O.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitStopIoActual** function is used to signal to the operating system to temporarily stop circuit IO. This allows the driver a short period of time to run time sensitive tasks, and then resume IO after the execution of time sensitive code is complete.
+The **AcxCircuitStopIoActual** function is used to signal to the operating system to temporarily stop circuit I/O. This allows the driver a short period of time to run time sensitive tasks, and then resume IO after the execution of time sensitive code is complete.
 
 ## -parameters
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Flags
 
@@ -67,7 +67,6 @@ The Line number in the driver code that can be displayed for diagnostic purposes
 
 The file name in the driver code that can be displayed for diagnostic purposes.
 
-
 ## -returns
 
 ## -remarks
@@ -79,5 +78,6 @@ It is not recommended to use this version of the stop IO call, but rather [AcxCi
 
  [AcxCircuitStopIo](nf-acxcircuit-acxcircuitstopio.md) 
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE
 tech.root: audio 
 title: EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE
-ms.date: 09/03/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE tells the driver that the audio engine is (?? TBD Preparing) to assign an effects state.  
+description: The EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE callback function is implemented by the driver and is called when the global effects state is set for an audio engine node. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,20 +42,17 @@ dev_langs:
 
 ## -description
 
-EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE tells the driver that the audio engine is (?? TBD Preparing) to assign an effects state.  
+The **EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE** callback function is implemented by the driver and is called when the global effects state is set for an audio engine node. The global effects state can be set to TRUE or FALSE, where TRUE indicates that global effect processing in the audio engine node is enabled and FALSE indicates that global effect processing in the audio engine node is disabled. 
 
 ## -parameters
 
 ### -param AudioEngine
 
-An ACXAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXAUDIOENGINE object that is used in a render circuit to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param State
 
-TBD - is this the target effects state?
-
-TODO: This is a ulong, but wondering if it would better to reference a state enum such as ACX_STREAM_STATE in the acxstreams header?
-
+The State value is of type ULONG but gets converted to type BOOLEAN in the callback to indicate whether global effect processing in the audio engine node is enabled. A value of TRUE indicates that processing is enabled. FALSE indicates that it is disabled.
 
 ## -returns
 
@@ -68,31 +65,36 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
+typedef struct _DSP_ENGINE_CONTEXT
+{
+    ACXDATAFORMAT MixFormat;
+    BOOLEAN GFxEnabled;
+} DSP_ENGINE_CONTEXT, *PDSP_ENGINE_CONTEXT;
 
-```
+WDF_DECLARE_CONTEXT_TYPE_WITH_NAME(DSP_ENGINE_CONTEXT, GetDspEngineContext)
 
-### Example
-
-Example usage is shown below.
-
-```cpp
 EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE        DspR_EvtAcxAudioEngineAssignEffectsState;
 
 NTSTATUS
 DspR_EvtAcxAudioEngineAssignEffectsState(
-    ACXAUDIOENGINE,
-    ULONG
+    ACXAUDIOENGINE  AudioEngine,
+    ULONG           State
 )
 {
     PAGED_CODE();
     
-    // Custom Code goes here
+    PDSP_ENGINE_CONTEXT   pAudioEngineCtx;
+    pAudioEngineCtx = GetDspEngineContext(AudioEngine);
+
+    pAudioEngineCtx->GFxEnabled = (BOOLEAN)State;
 
     return STATUS_SUCCESS;
 }
 ```
-
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072
 title: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072
-ms.date: 03/24/2020
+ms.date: 05/24/2022
 tech.root: display
 targetos: Windows
 description: The D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072 structure is a parameter for creating a video processor.
@@ -37,13 +37,13 @@ dev_langs:
 
 ## -description
 
-Used to create a video processor.
+The **D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072** structure contains the arguments used to create a video processor.
 
 ## -struct-fields
 
 ### -field NodeMask
 
-Represents the set of nodes.
+Represents the set of nodes. For single GPU operation, set this value to zero (0). If there are multiple GPU nodes, set a bit to identify the physical adapter of the device to which the command queue applies. Each bit in the mask corresponds to a single node. Only one bit may be set.
 
 ### -field OutputStream
 
@@ -62,6 +62,8 @@ Number of input streams.
 Handle to the protected resource session acquired at object creation time.
 
 ## -remarks
+
+A video processor holds state for a video processing session. State includes required intermediate memory, cached processing data, or other temporary working space.  A separate video processor must be created for each content stream by the application.
 
 ## -see-also
 

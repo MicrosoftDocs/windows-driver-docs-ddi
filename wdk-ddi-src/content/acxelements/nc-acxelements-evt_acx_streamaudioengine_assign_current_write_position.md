@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION
 tech.root: audio 
 title: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION
-ms.date: 09/16/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: TBD - EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION tells the driver that a request to assign the current write position has made???. 
+description: The EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION callback function is implemented by the driver and is called when the current write position for the specified stream audio engine is set. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,19 +42,17 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION tells the driver that a request to assign the current write position has been made???.
+The **EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION** callback function is implemented by the driver and is called when the current write position for the specified stream audio engine is set. 
 
 ## -parameters
 
 ### -param StreamAudioEngine
 
-An ACXSTREAMAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing, initialized, ACXSTREAMAUDIOENGINE object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Position
 
-The stream position in bytes (TBD??). This is a (0/1) based on location.
-
-TBD - Need to better describe if this is relative to the stream, etc. And if still applies [Audio Position Property](/windows-hardware/drivers/audio/audio-position-property)
+The current write position for the ACXSTREAMAUDIOENGINE object in bytes. For more information on the position value, see [KSPROPERTY_AUDIO_WAVERT_CURRENT_WRITE_POSITION](/windows-hardware/drivers/audio/ksproperty-audio-wavert-current-write-position).
 
 ## -returns
 
@@ -98,5 +96,9 @@ CodecR_EvtAcxStreamAudioEngineAssignCurrentWritePosition(
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE
 

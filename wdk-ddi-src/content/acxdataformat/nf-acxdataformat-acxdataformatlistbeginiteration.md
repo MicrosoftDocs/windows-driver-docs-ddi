@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatListBeginIteration
 tech.root: audio
 title: AcxDataFormatListBeginIteration
-ms.date: 01/10/2022
+ms.date: 05/31/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatListBeginIteration function gets an ACX_DATAFORMAT_LIST_ITERATOR to use for iterating through the specified data format list.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,25 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatListBeginIteration** function initializes an [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md) to use for iterating through the specified data format list.
+
 ## -parameters
 
-### -param AcxDataFormatList
+### -param AcxDataFormatList [in]
 
-### -param Iterator
+The data format list to iterate.
+
+### -param Iterator [in, out]
+
+A pointer to an [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md) structure to use for iterating the specified *AcxDataFormatList*.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md)
+- [acxdataformat.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

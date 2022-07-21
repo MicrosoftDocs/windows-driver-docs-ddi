@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_CIRCUIT_POWER_DOWN callback is used by the driver to add functionality in the power down path of a ACXCIRCUIT object.
+The **EVT_ACX_CIRCUIT_POWER_DOWN** callback is used by the driver to add functionality in the power down path of a ACXCIRCUIT object.
 
 ## -parameters
 
@@ -144,11 +144,9 @@ CodecR_EvtCircuitPowerDown (
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
-
+- [acxcircuit.h header](index.md)
 
 [Supporting PnP and Power Management in Function Driver](/windows-hardware/drivers/wdf/supporting-pnp-and-power-management-in-function-drivers)
-
 
 READY2GO
 

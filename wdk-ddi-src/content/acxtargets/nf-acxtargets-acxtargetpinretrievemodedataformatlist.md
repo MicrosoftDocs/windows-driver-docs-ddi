@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetPinRetrieveModeDataFormatList
 tech.root: audio
 title: AcxTargetPinRetrieveModeDataFormatList
-ms.date:  11/11/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: 
+description: The AcxTargetPinRetrieveModeDataFormatList function given an existing ACXTARGETPIN object, returns the ACXDATAFORMATLIST associated to the specified signal-processing-mode data format list.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,21 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetPinRetrieveModeDataFormatList** function given an existing ACXTARGETPIN object, returns the ACXDATAFORMATLIST associated to the specified signal-processing-mode data format list.
+
 ## -parameters
 
 ### -param TargetPin
 
+An existing ACXTARGETPIN Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -param SignalProcessingMode
 
+A GUID identifying the signal processing mode to which the specified data format list belong.
+
 ### -param DataFormatList
+
+Pointer to a location receiving an ACXDATAFORMATLIST handle. For more information about signal processing modes, [Audio Signal Processing Modes](/windows-hardware/drivers/audio/audio-signal-processing-modes).
 
 ## -returns
 
@@ -56,15 +64,16 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+Sample pending
+
 ### Example
 
 ```cpp
-
-TBD
-
 
 ```
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+
+READY2GO

@@ -2,7 +2,7 @@
 UID: NF:acxelements.ACX_PEAKMETER_CONFIG_INIT_ID
 tech.root: audio 
 title: ACX_PEAKMETER_CONFIG_INIT_ID
-ms.date: 10/01/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: As the ACX_PEAKMETER_CONFIG_INIT_ID provides the same functionality as ACX_PEAKMETER_CONFIG_INIT, the use of ACX_PEAKMETER_CONFIG_INIT is recommended.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-At this time, the ACX_PEAKMETER_CONFIG_INIT_ID can only take AcxElementIdDefault as input for the element ID, which is the same as using ACX_PEAKMETER_CONFIG_INIT. Because of this, [ACX_PEAKMETER_CONFIG_INIT](nf-acxelements-acx_peakmeter_config_init.md) is recommended.
+At this time, the **ACX_PEAKMETER_CONFIG_INIT_ID** function can only take AcxElementIdDefault as input for the element ID, which is the same as using ACX_PEAKMETER_CONFIG_INIT. Because of this, [ACX_PEAKMETER_CONFIG_INIT](nf-acxelements-acx_peakmeter_config_init.md) is recommended.
 
 ## -parameters
 
@@ -58,8 +58,11 @@ Set only to AcxElementIdDefault that is defined in the AcxElements header.
 
 As the ACX_PEAKMETER_CONFIG_INIT_ID provides the same functionality as [ACX_PEAKMETER_CONFIG_INIT](nf-acxelements-acx_peakmeter_config_init.md), the use of ACX_PEAKMETER_CONFIG_INIT is recommended.
 
-
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE
 

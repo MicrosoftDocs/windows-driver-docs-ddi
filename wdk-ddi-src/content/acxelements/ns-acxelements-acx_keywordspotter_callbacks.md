@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_KEYWORDSPOTTER_CALLBACKS
 tech.root: audio 
 title: ACX_KEYWORDSPOTTER_CALLBACKS
-ms.date: 10/15/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_KEYWORDSPOTTER_CALLBACKS structure identifies the driver callbacks for key word spotter operations.
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_KEYWORDSPOTTER_CALLBACKS structure identifies the driver callbacks for key word spotter operations.
+The ACX_KEYWORDSPOTTER_CALLBACKS structure identifies the driver callbacks for keyword spotter operations.
 
 ## -struct-fields
 
@@ -86,6 +86,8 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

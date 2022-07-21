@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitStopIo
 tech.root: audio
 title: AcxCircuitStopIo
-ms.date: 02/04/2022
+ms.date: 04/28/2022
 targetos: Windows
-description: TBD - The AcxCircuitStopIo function is used to stop circuit IO after it has been in a run or TBD pause??? state.
+description: The AcxCircuitStopIo function is used to signal to the operating system to temporarily stop circuit I/O. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitStopIo** function is used to signal to the operating system to temporarily stop circuit IO. This allows the driver a short period of time to run time sensitive task, and resume IO after the execution of time sensitive code is complete.
+The **AcxCircuitStopIo** function is used to signal to the operating system to temporarily stop circuit I/O. This allows the driver a short period of time to run time sensitive task, and resume IO after the execution of time sensitive code is complete.
 
 ## -parameters
 
@@ -53,7 +53,7 @@ An existing ACXCIRCUIT circuit object.  For more information about ACX objects, 
 ### -param Flags
 
 Stop IO flags defined by the [ACX_STOP_IO_FLAGS enumeration](ne-acxcircuit-acx_stop_io_flags.md).
-Currently no flags are defined, so set this to `AcxStopIoNoFlags`. 
+Currently no flags are defined, so set this to `AcxStopIoNoFlags`.
 
 ## -remarks
 
@@ -74,5 +74,6 @@ Example usage is shown below.
 
 [AcxCircuitStopIoWithTag macro](nf-acxcircuit-acxcircuitstopiowithtag.md)
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

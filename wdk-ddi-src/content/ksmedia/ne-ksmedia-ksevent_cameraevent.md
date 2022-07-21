@@ -2,9 +2,8 @@
 UID: NE:ksmedia.__unnamed_enum_82
 title: KSEVENT_CAMERAEVENT (ksmedia.h)
 description: KSEVENT_CAMERAEVENT enumerates a kernel streaming event set that can be used by the pipeline to enable or disable camera event notifications from the driver.
-old-location: stream\ksevent_cameraevent.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/11/2022
 keywords: ["KSEVENT_CAMERAEVENT enumeration"]
 ms.keywords: KSEVENT_CAMERAEVENT, KSEVENT_CAMERAEVENT enumeration [Streaming Media Devices], KSEVENT_PHOTO_SAMPLE_SCANNED, ksmedia/KSEVENT_CAMERAEVENT, ksmedia/KSEVENT_PHOTO_SAMPLE_SCANNED, stream.ksevent_cameraevent
 req.header: ksmedia.h
@@ -40,9 +39,6 @@ api_name:
  - KSEVENT_CAMERAEVENT
 ---
 
-# KSEVENT_CAMERAEVENT enumeration
-
-
 ## -description
 
 **KSEVENT_CAMERAEVENT** enumerates a kernel streaming event set that can be used by the pipeline to enable or disable camera event notifications from the driver.
@@ -55,9 +51,9 @@ Event notifications to synchronize the shutter sound playback for a photo captur
 
 ## -remarks
 
-The camera event DDI is defined by **KSEVENTSETID_CameraEvent**, a kernel streaming event set that can be used by the pipeline to enable or disable camera event notifications from the driver. This is a filter level event meaning that the driver must implement and define the event in the filter’s automation table and use [KsFilterGenerateEvents](../ks/nf-ks-ksfiltergenerateevents.md) (or [KsGenerateEvents](../ks/nf-ks-ksgenerateevents.md) with filter object) to generate event notifications.
+The camera event DDI is defined by **KSEVENTSETID_CameraEvent**, a kernel streaming event set that can be used by the pipeline to enable or disable camera event notifications from the driver. This is a filter level event meaning that the driver must implement and define the event in the filter's automation table and use **KsFilterGenerateEvents** (or **KsGenerateEvents** with filter object) to generate event notifications.
 
-KSEVENTSETID_CameraEvent and its related data structures are defined in Ksmedia.h as follows.
+**KSEVENTSETID_CameraEvent** and its related data structures are defined in Ksmedia.h as follows.
 
 ```cpp
 #define STATIC_KSEVENTSETID_CameraEvent \

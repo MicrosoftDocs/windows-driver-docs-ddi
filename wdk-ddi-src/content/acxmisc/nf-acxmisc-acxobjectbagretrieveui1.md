@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveUI1
 tech.root: audio
 title: AcxObjectBagRetrieveUI1
-ms.date: 01/10/2022
+ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveUI1 function retrieves a UCHAR value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveUI1 function retrieves an unsigned int one byte (UCHAR) UI1 value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveUI1 function retrieves a UCHAR value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveUI1 function retrieves an unsigned int one byte (UCHAR) UI1 value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 
@@ -66,13 +66,44 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
+This example shows the use of AcxObjectBagRetrieveUI1.
 
 ```cpp
+    ACXOBJECTBAG objBag     = NULL;
+    UCHAR        ui1Value   = 0;
 
+    //Initialize an object bag configuration
+    ACX_OBJECTBAG_CONFIG objBagCfg;
+    ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
+    
+    // Set the WDF attributes, and create an object bag 
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = Circuit;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
+
+    // Enable deletion of the object bag when the function completes and goes out of scope
+    auto objBag_scope = scope_exit([&objBag]() {
+        if (objBag != NULL)
+        {
+            WdfObjectDelete(objBag);
+        }
+    });
+
+    //Create Properties and add them to an object bag
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI1);
+
+    ui1Value = 1;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI1(objBag, &TestUI1, ui1Value));
+
+    // Retrieve the value from the object bag
+    ui1Value = 0;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveUI1(objBag, &TestUI1, &ui1Value));
 ```
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

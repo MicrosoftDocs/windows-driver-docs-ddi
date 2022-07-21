@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_FLAGS enumeration defines factory circuit remove flags.
+The **ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_FLAGS** enumeration defines factory circuit remove flags.
 
 ## -enum-fields
 
@@ -55,7 +55,7 @@ There are no flags currently defined for this type.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
 READY2GO
 

@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxStreamAudioEngineGetStream
 tech.root: audio 
 title: AcxStreamAudioEngineGetStream
-ms.date: 09/23/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: TBD - The AcxStreamAudioEngineGetStream function retrieves a ACXSTREAM ACX object for a given StreamAudioEngine ACX object. 
+description: The AcxStreamAudioEngineGetStream function retrieves the ACXSTREAM object associated with the given stream audio engine object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxStreamAudioEngineGetStream function retrieves a ACXSTREAM ACX object for a given StreamAudioEngine ACX object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The **AcxStreamAudioEngineGetStream** function retrieves the ACXSTREAM object associated with the given stream audio engine object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
 ### -param StreamAudioEngine
 
-An ACXSTREAMAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. 
+An existing, initialized, ACXSTREAMAUDIOENGINE object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -91,5 +91,9 @@ DspR_EvtAcxStreamAudioEngineRetrievePresentationPosition(
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE
 

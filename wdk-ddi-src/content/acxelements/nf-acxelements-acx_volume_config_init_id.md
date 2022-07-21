@@ -2,7 +2,7 @@
 UID: NF:acxelements.ACX_VOLUME_CONFIG_INIT_ID
 tech.root: audio 
 title: ACX_VOLUME_CONFIG_INIT_ID
-ms.date: 10/01/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: At this time, the ACX_VOLUME_CONFIG_INIT_ID can only take AcxElementIdDefault as input for the element ID, which is the same as using ACX_VOLUME_CONFIG_INIT.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-At this time, the ACX_VOLUME_CONFIG_INIT_ID can only take AcxElementIdDefault as input for the element ID, which is the same as using ACX_VOLUME_CONFIG_INIT. Because of this, [ACX_VOLUME_CONFIG_INIT](nf-acxelements-acx_volume_config_init.md) is recommended.
+At this time, the **ACX_VOLUME_CONFIG_INIT_ID** function can only take AcxElementIdDefault as input for the element ID, which is the same as using ACX_VOLUME_CONFIG_INIT. Because of this, [ACX_VOLUME_CONFIG_INIT](nf-acxelements-acx_volume_config_init.md) is recommended.
 
 ## -parameters
 
@@ -60,5 +60,9 @@ As the ACX_VOLUME_CONFIG_INIT_ID provides the same functionality as [ACX_VOLUME_
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE
 

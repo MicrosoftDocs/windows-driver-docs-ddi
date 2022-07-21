@@ -2,9 +2,9 @@
 UID: NF:acxrequest.ACX_REQUEST_PARAMETERS_INIT_PROPERTY
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS_INIT_PROPERTY
-ms.date: 02/07/2022
+ms.date: 02/22/2022
 targetos: Windows
-description: The ACX_REQUEST_PARAMETERS_INIT_PROPERTY initializes ACX request parameter properties.
+description: The ACX_REQUEST_PARAMETERS_INIT_PROPERTY initializes an ACX_REQUEST_PARAMETERS struct with ACX property parameters.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,37 +42,49 @@ dev_langs:
 
 ## -description
 
-The **ACX_REQUEST_PARAMETERS_INIT_PROPERTY** function initializes ACX request parameter properties.
+The **ACX_REQUEST_PARAMETERS_INIT_PROPERTY** initializes an ACX_REQUEST_PARAMETERS struct with ACX property parameters.
 
 ## -parameters
 
 ### -param Params
 
-An initialized [ACX_REQUEST_PARAMETERS](ns-acxrequest-acx_request_parameters.md) structure that is used to store circuit information.
+A pointer to [ACX_REQUEST_PARAMETERS](ns-acxrequest-acx_request_parameters.md) structure that is used to store property parameters.
 
 ### -param Set
 
-A set of Methods that are TBD.
+A property Set ID (GUID)
 
 ### -param Id
 
-The Method ID that will be TBD.
+A property ID (ULONG) within the property Set ID.
 
 ### -param Verb
 
-The Acx Method Verb to send.
+The ACX property verb to send as defined by the [ACX_PROPERTY_VERB](ne-acxrequest-acx_property_verb.md) enumeration.
 
 ### -param ItemType
 
+The [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) type of item being sent, for example AcxItemTypeCircuit.
+
 ### -param ItemId
+
+The item ID of the ItemType, for example the pin ID if the ItemType is a pin.
 
 ### -param Control
 
+An optional Control buffer holding additional parameters for the specified property. Set to null if not present.
+
 ### -param ControlCb
+
+The count in bytes (size) of the Control buffer. Set to 0 if Control field is not used.
 
 ### -param Value
 
+An optional Value buffer to specify or receive the property's value. Set to null if not present or if *SendProperty needs to allocate it when ValueCb is not zero. Caller is responsable for freeing the allocated buffer.
+
 ### -param ValueCb
+
+The count in bytes (size) of the Value buffer. Set to 0 if Value is not used.
 
 ## -remarks
 
@@ -82,30 +94,35 @@ Example usage is shown below.
 
 ```cpp
 
-    _In_ ACXTARGETCIRCUIT TargetCircuit,
-    _In_ GUID PropertySet,
-    _In_ ULONG PropertyId,
-    _In_ ACX_PROPERTY_VERB Verb,
-    _Inout_ PVOID Value,
-    _In_ ULONG ValueCb
-)
-{
+    NTSTATUS                    status = STATUS_SUCCESS;
+    PKSPIN_PHYSICALCONNECTION   physicalConnection = nullptr;
+    PAUDIO_PATH_DESCRIPTOR      descriptor = nullptr;
 
-    ACX_REQUEST_PARAMETERS requestParams;
+    // For the Audio Circuit, send a request to each Target Pin asking KSPROPERTY_PIN_PHYSICALCONNECTION
+    // This will give us symbolic link of the next circuit in the Audio Path (if there is any)
 
-    ACX_REQUEST_PARAMETERS_INIT_PROPERTY(
-        &requestParams,
-        PropertySet,
-        PropertyId,
-        Verb,
-        AcxItemTypeCircuit,
-        0,
-        NULL, 0,
-        Value, ValueCb
-    );
+    for (ULONG i = 0; i < ARRAYSIZE(AudioCircuit->Pins) && AudioCircuit->Pins[i].TargetPin; ++i)
+    {
+        ACX_REQUEST_PARAMETERS requestParams{ 0 };
 
+        ACX_REQUEST_PARAMETERS_INIT_PROPERTY(
+            &requestParams,
+            KSPROPSETID_Pin,
+            KSPROPERTY_PIN_PHYSICALCONNECTION,
+            AcxPropertyVerbGet,
+            AcxItemTypePin,
+            i,
+            nullptr,
+            0,
+            // null Value so SendProperty will allocate it for us. We'll need to free it.
+            nullptr,
+            0);
+...
 
 ```
 
 ## -see-also
 
+- [acxrequest.h header](index.md)
+
+READY2GO

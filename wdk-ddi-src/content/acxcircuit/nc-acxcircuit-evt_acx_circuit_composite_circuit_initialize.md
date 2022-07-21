@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE callback is used by the driver to do any initialization of a composite circuit when it is detected and initialized by ACX Manager. 
+The **EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE** callback is used by the driver to do any initialization of a composite circuit when it is detected and initialized by ACX Manager. 
 
 ## -parameters
 
@@ -109,7 +109,7 @@ exit:
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
 READY2GO
 

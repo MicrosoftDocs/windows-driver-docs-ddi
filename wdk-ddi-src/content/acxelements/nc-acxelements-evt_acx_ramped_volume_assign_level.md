@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_RAMPED_VOLUME_ASSIGN_LEVEL
 tech.root: audio 
 title: EVT_ACX_RAMPED_VOLUME_ASSIGN_LEVEL
-ms.date: 09/16/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: TBD - EVT_ACX_RAMPED_VOLUME_ASSIGN_LEVEL tells the driver that a request to assign the ramped volume level has made???.
+description: EVT_ACX_RAMPED_VOLUME_ASSIGN_LEVEL is implemented by the driver and is called when the volume level of a channel is set for a volume node.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_RAMPED_VOLUME_ASSIGN_LEVEL tells the driver that a request to assign the ramped volume level has been made???.
+The **EVT_ACX_RAMPED_VOLUME_ASSIGN_LEVEL** callback is implemented by the driver and is called when the volume level of a channel is set for a volume node.
 
 ## -parameters
 
@@ -52,17 +52,21 @@ An existing, initialized, ACXVOLUME object. For more information about ACX objec
 
 ### -param Channel
 
-TBD - A number that represents the channel that is active (present -TBD?)
+A ULONG referring to a channel on the specified volume node. If this value is -1, then it refers to the master channel which represents the volume level for all channels on the volume node.
 
 ### -param VolumeLevel
 
-TBD - assume fields matches KSAUDIOENGINE_VOLUMELEVEL structure???
+A LONG value that specifies the desired final volume level for the given channel. If the channel value is -1 (referring to the master channel), then all channels on this volume node will be set to this volume level. Volume level values use the following scale:
 
-Specifies the desired final volume level using the scale defined for the KSPROPERTY_AUDIOENGINE_VOLUMELEVEL property.
+-2147483648 is -infinity decibels (attenuation),
+
+-2147483647 is -32767.99998474 decibels (attenuation), and
+
++2147483647 is +32767.99998474 decibels (gain).
 
 ### -param CurveType
 
-Uses the AUDIO_CURVE_TYPE enumeration to specify the curve algorithm to apply over the duration specified, in order to reach the desired level. The curve begins at the current volume level and ends at the target volume level specified in the Volume parameter.
+Uses the [AUDIO_CURVE_TYPE enumeration](/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-audio_curve_type) to specify the curve algorithm to apply over the duration specified, in order to reach the desired level. The curve begins at the current volume level and ends at the target volume level specified in the Volume parameter.
 
 ### -param CurveDuration
 
@@ -79,6 +83,12 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
+typedef struct _CODEC_VOLUME_ELEMENT_CONTEXT {
+    LONG            VolumeLevel[MAX_CHANNELS];
+} CODEC_VOLUME_ELEMENT_CONTEXT, *PCODEC_VOLUME_ELEMENT_CONTEXT;
+
+WDF_DECLARE_CONTEXT_TYPE_WITH_NAME(CODEC_VOLUME_ELEMENT_CONTEXT, GetCodecVolumeElementContext)
+
 EVT_ACX_RAMPED_VOLUME_ASSIGN_LEVEL              CodecR_EvtRampedVolumeAssignLevel;
 
 NTSTATUS
@@ -120,5 +130,8 @@ CodecR_EvtRampedVolumeAssignLevel(
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

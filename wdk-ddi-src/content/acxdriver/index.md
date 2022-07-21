@@ -2,7 +2,7 @@
 UID: NA:acxdriver
 tech.root: audio
 title: acxdriver.h header
-ms.date: 10/14/2021
+ms.date: 04/21/2022
 targetos: Windows
 description: acxdriver.h header
 prerelease: false
@@ -43,6 +43,10 @@ dev_langs:
 
 ## -description
 
-This header is used by audio. For more information, see:
+This header is used by the ACX audio class extensions.
+
+For more information, see:
+
+- [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview)
 
 - [Audio](../_audio/index.md)

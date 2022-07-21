@@ -76,3 +76,5 @@ The slice differentiator is directly related to the *SliceServiceType* and is us
 ## -see-also
 
 [WWAN_CONTEXT_STATE](./ns-wwan-_wwan_context_state.md)
+
+[WWAN_SNSSAI_LIST](ns-wwan-wwan_snssai_list.md)

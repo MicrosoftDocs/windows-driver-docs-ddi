@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxFactoryCircuitAddElements
 tech.root: audio
 title: AcxFactoryCircuitAddElements
-ms.date: 08/23/2021
+ms.date: 04/27/2022
 targetos: Windows
-description: The AcxFactoryCircuitAddElements function adds elements to an existing or new TBD? circuit.
+description: The AcxFactoryCircuitAddElements function adds elements to an ACXFACTORYCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,33 +42,30 @@ dev_langs:
 
 ## -description
 
-The AcxFactoryCircuitAddElements function adds elements to an existing circuit factory.
+The **AcxFactoryCircuitAddElements** function adds elements to an ACXFACTORYCIRCUIT.
 
 ## -parameters
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
- 
+An existing ACXCIRCUIT object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -param Elements
 
-TBD - An ACXELEMENT circuit object (TBD - array?). 
- 
-`_In_reads_(ElementsCount) ACXELEMENT*   Elements,`
+One or more ACXELEMENT objects.
 
 ### -param ElementsCount
 
-The number of elements that will be added to the circuit. This is a one based count.
+The number of elements that will be added to the factory circuit. This is a one based count.
 
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
-
 ## -remarks
 
-An AcxFactoryCircuits represents a partial audio path to a user perceived audio device (speakers, mic, etc.). 
-An AcxFactoryCircuits aggregates zero or ‘n’ AcxElements-like objects. By default, AcxElements are ‘connected’ in the same order of assembly. 
+The driver can only add elements to a circuit factory before the factory is added to the device. 
+The driver cannot change the factory's elements at run time.
 
 ### Example
 
@@ -76,18 +73,10 @@ Example usage is shown below.
 
 ```cpp
 
-    ACXAUDIOMODULE                      audioModuleElement;
-
-    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, SYSVAD_PNPEVENT_CONTEXT);
-    attributes.ParentObject = audioModuleElement;
-    status = AcxPnpEventCreate(Device, audioModuleElement, &attributes, &audioModuleEventCfg, &audioModuleEvent);
-
-    audioModuleCtx->Event = audioModuleEvent;
-
-    status = AcxFactoryCircuitAddElements(Factory, (ACXELEMENT *) &audioModuleElement, 1);
 ```
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

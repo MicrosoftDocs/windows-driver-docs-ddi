@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddString
 tech.root: audio
 title: AcxObjectBagAddString
-ms.date: 01/26/2022
+ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagAddString function adds a WDFSTRING object to the object bag, that will be associated with the provided ValueName.
+description: The AcxObjectBagAddString function adds a WDFSTRING object to an existing, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddString function adds a WDFSTRING object to the object bag, that will be associated with the provided ValueName. For more information about WDFSTRING, see [wdfstring.h header](/windows-hardware/drivers/ddi/wdfstring/).
+The AcxObjectBagAddString function adds a WDFSTRING object to an existing, intialized AcxObjectBag. For more information about WDFSTRING, see [wdfstring.h header](/windows-hardware/drivers/ddi/wdfstring/).
 
 ## -parameters
 
@@ -67,5 +67,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

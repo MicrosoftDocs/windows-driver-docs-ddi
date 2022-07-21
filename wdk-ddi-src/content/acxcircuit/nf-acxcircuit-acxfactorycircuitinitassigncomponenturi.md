@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitInitAssignComponentUri
 ms.date: 08/23/2021
 targetos: Windows
-description: The AcxFactoryCircuitInitAssignComponentUri function assigns a ComponentUri that will be used for the circuit initialization.
+description: The AcxFactoryCircuitInitAssignComponentUri function assigns an URI string as identifier for the ACXFACTORYCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxFactoryCircuitInitAssignComponentUri function assigns a ComponentUri that will be used for the circuit initialization.
+The AcxFactoryCircuitInitAssignComponentUri function assigns an URI string as identifier for the ACXFACTORYCIRCUIT.
 
 ## -parameters
 
@@ -53,17 +53,15 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param ComponentUri
 
-TBD - A unicode string describes the component that is used as a URI to TBD TBD TBD.
-
-TBD - The unicode string may match an ACPI value - TBD - DISCO value.
-
-`DECLARE_CONST_UNICODE_STRING(dspFactoryUri, L"acpi:obj-path:\\_SB.PC00.HDAS");`
+A unicode string describes the component.
 
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
+
+The driver must initialize the circuit factory's identity by setting the its URI and/or its ID (AcxCircuitInitSetComponentId).
 
 ### Example
 
@@ -88,5 +86,6 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

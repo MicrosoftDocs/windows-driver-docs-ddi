@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_FACTORY_CIRCUIT_ADD_CIRCUIT structure is used to add circuits by an ACX circuit factory.
+The **ACX_FACTORY_CIRCUIT_ADD_CIRCUIT** structure is used to add circuits by an ACX circuit factory.
 
 ## -struct-fields
 
@@ -54,7 +54,7 @@ The length, in bytes, of this structure.
 
 ### -field Flags
 
-Bitwise OR of [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS](ne-acxcircuit-acx_factory_circuit_add_circuit_flags.md). 
+Bitwise OR of [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS](ne-acxcircuit-acx_factory_circuit_add_circuit_flags.md).
 
 ### -field CircuitUniqueId
 
@@ -92,7 +92,7 @@ Example pending.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
 READY2GO
 

@@ -2,9 +2,8 @@
 UID: NF:stiusd.IStiUSD.RawWriteData
 title: IStiUSD::RawWriteData (stiusd.h)
 description: A still image minidriver's IStiUSD::RawWriteData method writes data to a still image device.
-old-location: image\istiusd_rawwritedata.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 04/19/2022
 keywords: ["IStiUSD::RawWriteData"]
 ms.keywords: IStiUSD interface [Imaging Devices],RawWriteData method, IStiUSD.RawWriteData, IStiUSD::RawWriteData, RawWriteData, RawWriteData method [Imaging Devices], RawWriteData method [Imaging Devices],IStiUSD interface, image.istiusd_rawwritedata, stifnc_32bdc55e-1e54-44ba-be36-e851d333f207.xml, stiusd/IStiUSD::RawWriteData
 req.header: stiusd.h
@@ -40,12 +39,9 @@ api_name:
  - IStiUSD::RawWriteData
 ---
 
-# IStiUSD::RawWriteData
-
-
 ## -description
 
-A still image minidriver's <b>IStiUSD::RawWriteData</b> method writes data to a still image device.
+A still image minidriver's **IStiUSD::RawWriteData** method writes data to a still image device.
 
 ## -parameters
 
@@ -55,28 +51,22 @@ Caller-supplied pointer to a buffer containing data to be sent to the device.
 
 ### -param nNumberOfBytes
 
+Caller-supplied number of bytes to be written. This is the number of bytes in the buffer pointed to by *lpBuffer*.
+
 ### -param lpOverlapped
 
 Optional, caller-supplied pointer to an OVERLAPPED structure (described in the Microsoft Windows SDK documentation).
 
-
-### -param dwNumberOfBytes
-
-Caller-supplied number of bytes to be written. This is the number of bytes in the buffer pointed to by <i>lpBuffer</i>.
-
 ## -returns
 
-If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
+If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in *stierr.h*.
 
 ## -remarks
 
-A still image minidriver typically implements this method by calling <b>WriteFile</b> (described in the Windows SDK documentation).
+A still image minidriver typically implements this method by calling **WriteFile** (described in the Windows SDK documentation).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-rawwritedata">IStiDevice::RawWriteData</a>
+[IStiDevice::RawWriteData](../sti/nf-sti-istidevice-rawwritedata.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
-
+[IStiUSD](../_image/index.md)

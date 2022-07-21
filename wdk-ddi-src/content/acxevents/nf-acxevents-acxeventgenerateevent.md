@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxEventGenerateEvent
 tech.root: audio
 title: AcxEventGenerateEvent
-ms.date: 12/09/2021
+ms.date: 06/22/2022
 targetos: Windows
 description: The AcxEventGenerateEvent function generates an event.
 prerelease: true
@@ -52,11 +52,9 @@ The ACXEVENT object (described in [Summary of ACX Objects](/windows-hardware/dri
 
 ## -remarks
 
-An AcxEvent represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally they are exposed as KS events to upper layers. 
+An ACXEVENT represents an asynchronous notification available at the driver level. Events can be added to ACXCIRCUITs, ACXSTREAMs, ACXELEMENTs and ACXPINs. Internally they are exposed as KS events to upper layers. For more information about KS Events, see [KS Events](/windows-hardware/drivers/stream/ks-events).
 
 ### Example
-
-TBD - Is there anything we should add to this sample code from the test driver?
 
 This sample shows the use of AcxEventGenerateEvent.
 
@@ -64,7 +62,7 @@ This sample shows the use of AcxEventGenerateEvent.
     PCODEC_MUTE_TIMER_CONTEXT timerCtx = GetCodecMuteTimerContext(Timer);
     PCODEC_MUTE_ELEMENT_CONTEXT muteCtx = GetCodecMuteElementContext(timerCtx->MuteElement);
 
-    // update settings 0 <-> 1  
+    // Testing: update settings 0 <-> 1  
     muteCtx->MuteState[0] = !muteCtx->MuteState[0];
     muteCtx->MuteState[1] = !muteCtx->MuteState[1];
     
@@ -73,7 +71,8 @@ This sample shows the use of AcxEventGenerateEvent.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxevents.h header](index.md)
 
+READY2GO
 
-
+EDITCOMPLETE

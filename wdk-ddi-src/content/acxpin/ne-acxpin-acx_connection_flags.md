@@ -2,9 +2,9 @@
 UID: NE:acxpin._ACX_CONNECTION_FLAGS
 tech.root: audio
 title: ACX_CONNECTION_FLAGS
-ms.date: 12/09/2021
+ms.date: 03/25/2022
 targetos: Windows
-description: The ACX_CONNECTION_FLAGS enumeration is used by the ACX_CONNECTION structure to help describe the connection properties of an audio class extension (ACX).
+description: The ACX_CONNECTION_FLAGS enumeration is used by the ACX_CONNECTION structure to specify the ACX object identifier types.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_CONNECTION_FLAGS** enumeration is used by the [ACX_CONNECTION](ns-acxpin-acx_connection.md) structure to help describe the connection properties of an audio class extension (ACX).
+The **ACX_CONNECTION_FLAGS** enumeration is used by the [ACX_CONNECTION](ns-acxpin-acx_connection.md) structure to specify the ACX object identifier types.
 
 ## -enum-fields
 
@@ -68,3 +68,9 @@ For internal validation, do not use.
 ## -remarks
 
 ## -see-also
+
+- [acxpin.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

@@ -2,9 +2,8 @@
 UID: NF:ks.KSEVENT_ITEM_IRP_STORAGE
 title: KSEVENT_ITEM_IRP_STORAGE macro (ks.h)
 description: This macro retrieves a pointer to the KSEVENT_ITEM structure stored in Irp.
-old-location: stream\ksevent_item_irp_storage.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/11/2022
 keywords: ["KSEVENT_ITEM_IRP_STORAGE macro"]
 ms.keywords: KSEVENT_ITEM_IRP_STORAGE, KSEVENT_ITEM_IRP_STORAGE macro [Streaming Media Devices], ks/KSEVENT_ITEM_IRP_STORAGE, ksfunc_dc3f2f9e-fe47-46ac-9f51-9d07b42e5daf.xml, stream.ksevent_item_irp_storage
 req.header: ks.h
@@ -40,18 +39,17 @@ api_name:
  - KSEVENT_ITEM_IRP_STORAGE
 ---
 
-# KSEVENT_ITEM_IRP_STORAGE macro
-
-
 ## -description
 
-This macro retrieves a pointer to the [KSEVENT_ITEM](./ns-ks-ksevent_item.md) structure stored in *Irp*.
+This macro retrieves a pointer to the [**KSEVENT_ITEM**](ns-ks-ksevent_item.md) structure stored in *Irp*.
 
 ## -parameters
 
 ### -param Irp
 
-Contains a pointer to a KSEVENT_ITEM structure.
+Contains a pointer to a **KSEVENT_ITEM** structure.
+
+## -remarks
 
 The macro is defined as follows:
 

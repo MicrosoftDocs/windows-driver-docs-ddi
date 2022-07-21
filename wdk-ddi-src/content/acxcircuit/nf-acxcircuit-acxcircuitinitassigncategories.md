@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitAssignCategories
 ms.date: 02/02/2022
 targetos: Windows
-description: The AcxCircuitInitAssignCategories function assigns a set of KSCATERGORY entries that will be used for the circuit initialization.
+description: The AcxCircuitInitAssignCategories function assigns a set of KSCATERGORY entries for the ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitAssignCategories function assigns a set of KSCATERGORY entries that will be used for the circuit initialization.
+The **AcxCircuitInitAssignCategories** function assigns a set of KSCATERGORY entries for the ACXCIRCUIT.
 
 ## -parameters
 
@@ -52,8 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param Categories
 
-TBD - An array that contains GUIDS of the desired set of KSCATERGORY entries, for example `KSCATEGORY_AUDIO`. For more information about the KSCATERGORY entries, see [Installing Device Interfaces for an Audio Adapter](/windows-hardware/drivers/audio/installing-device-interfaces-for-an-audio-adapter).
-
+An array that contains GUIDS of the desired KSCATERGORY, for example `KSCATEGORY_AUDIO`. For more information about the KSCATERGORY entries, see [Installing Device Interfaces for an Audio Adapter](/windows-hardware/drivers/audio/installing-device-interfaces-for-an-audio-adapter).
 
 ### -param CategoriesCount
 
@@ -65,18 +64,16 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+This call override the default categiry set initialized by ACX which is based on the ACXCIRCUIT type.
+
 ### Example
 
 Example usage is shown below.
 
-TBD - Should we create a config structure example?
-
 ```cpp
 
-    GUID                            captureCategories[] =
+    GUID captureCategories[] =
     {
-        STATICGUIDOF(KSCATEGORY_ACXCIRCUIT_DUP),
-        GUID_NULL,    
         STATICGUIDOF(KSCATEGORY_AUDIO),
         STATICGUIDOF(KSCATEGORY_CAPTURE), 
         STATICGUIDOF(KSCATEGORY_REALTIME),
@@ -90,12 +87,11 @@ TBD - Should we create a config structure example?
 
     AcxCircuitInitAssignName(CircuitInit, &circuitName);
 
-   // TODO: this is an overly simple example should have its own field in config.
-    captureCategories[1] = Config->CircuitTagId;
     status = AcxCircuitInitAssignCategories(CircuitInit, captureCategories, SIZEOF_ARRAY(captureCategories));
 ```
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

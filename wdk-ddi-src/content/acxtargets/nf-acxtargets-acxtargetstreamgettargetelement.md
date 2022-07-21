@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetStreamGetTargetElement
 tech.root: audio
 title: AcxTargetStreamGetTargetElement
-ms.date:  11/11/2021
+ms.date: 04/26/2022
 targetos: Windows
-description: 
+description: The AcxTargetStreamGetTargetElement function, given a valid element index value, returns the corresponding ACXTARGETELEMENT ACX object that is associated with the specified stream.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,27 +42,34 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetStreamGetTargetElement** function, given a valid element index value, returns the corresponding ACXTARGETELEMENT ACX object that is associated with the specified stream.
+
 ## -parameters
 
 ### -param TargetStream
 
+An existing ACXTARGETSTREAM object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -param ElementIndex
+
+The numeric index value for the specified element.
 
 ## -returns
 
-Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+Returns an ACXTARGETELEMENT ACX object that is associated with the specified stream.
 
 ## -remarks
+
+Sample Pending
 
 ### Example
 
 ```cpp
 
-TBD
-
-
 ```
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+
+READY2GO

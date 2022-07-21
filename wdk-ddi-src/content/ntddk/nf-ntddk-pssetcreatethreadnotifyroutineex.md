@@ -4,7 +4,7 @@ title: PsSetCreateThreadNotifyRoutineEx function (ntddk.h)
 description: The PsSetCreateThreadNotifyRoutineEx routine registers a driver-supplied callback that is subsequently notified when a new thread is created and when such a thread is deleted.
 old-location: kernel\pssetcreatethreadnotifyroutineex.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 02/08/2022
 keywords: ["PsSetCreateThreadNotifyRoutineEx function"]
 ms.keywords: PsSetCreateThreadNotifyRoutineEx, PsSetCreateThreadNotifyRoutineEx routine [Kernel-Mode Driver Architecture], kernel.pssetcreatethreadnotifyroutineex, ntddk/PsSetCreateThreadNotifyRoutineEx
 req.header: ntddk.h
@@ -52,13 +52,12 @@ The <b>PsSetCreateThreadNotifyRoutineEx</b> routine registers a driver-supplied 
 ### -param NotifyType [in]
 
 
-A <a href="/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_pscreatethreadnotifytype">PSCREATETHREADNOTIFYTYPE</a> value that   indicates the type of thread notification.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_pscreatethreadnotifytype">PSCREATETHREADNOTIFYTYPE</a> value that indicates the type of thread notification.
 
 ### -param NotifyInformation [in]
 
-
-Provides the address of the notification information
-        for the specified type of thread notification.
+Provides the address of the notification information for the specified type of thread notification.
+If **NotifyType** is **PsCreateThreadNotifyNonSystem** or **PsCreateThreadNotifySubsystems** then **NotifyInformation** should be a pointer to the driver's implementation of [PCREATE_THREAD_NOTIFY_ROUTINE](./nc-ntddk-pcreate_thread_notify_routine.md).
 
 ## -returns
 

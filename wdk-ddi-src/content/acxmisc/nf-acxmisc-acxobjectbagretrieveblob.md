@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveBlob
 tech.root: audio
 title: AcxObjectBagRetrieveBlob
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveBlob function retrieves a blob value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
@@ -84,9 +84,14 @@ This example shows the use of AcxObjectBagRetrieveBlob.
     // Retrieve the vendor blob from the CircuitProperties object bag. 
     //
     RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveBlob(CircuitProperties, &VendorPropertiesBlock, NULL, &vendorPropertiesBlock));
+
+    vendorPropertiesBuffer = WdfMemoryGetBuffer(vendorPropertiesBlock, &vendorPropertiesSize);
 ```
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

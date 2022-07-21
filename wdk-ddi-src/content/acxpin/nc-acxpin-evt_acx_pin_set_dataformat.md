@@ -2,7 +2,7 @@
 UID: NC:acxpin.EVT_ACX_PIN_SET_DATAFORMAT
 tech.root: audio
 title: EVT_ACX_PIN_SET_DATAFORMAT
-ms.date: 10/14/2021
+ms.date: 03/25/2022
 targetos: Windows
 description: The EVT_ACX_PIN_SET_DATAFORMAT callback function is implemented by the driver and is called to set the data format for the specified pin.
 prerelease: false
@@ -61,3 +61,9 @@ A handle to a data format object.
 ## -remarks
 
 ## -see-also
+
+- [acxpin.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

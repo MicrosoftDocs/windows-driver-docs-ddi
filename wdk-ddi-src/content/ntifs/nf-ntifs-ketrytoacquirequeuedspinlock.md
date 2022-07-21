@@ -4,7 +4,7 @@ title: KeTryToAcquireQueuedSpinLock function (ntifs.h)
 description: "Microsoft reserves the KeTryToAcquireQueuedSpinLock function for internal use only. Don't use this function in your code."
 old-location: ifsk\ketrytoacquirequeuedspinlock.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["KeTryToAcquireQueuedSpinLock function"]
 ms.keywords: KeTryToAcquireQueuedSpinLock, KeTryToAcquireQueuedSpinLock function [Installable File System Drivers], ifsk.ketrytoacquirequeuedspinlock, keref_754b75bd-31a8-4447-8ebe-3d24855150bf.xml, ntifs/KeTryToAcquireQueuedSpinLock
 req.header: ntifs.h
@@ -42,18 +42,20 @@ api_name:
 
 # KeTryToAcquireQueuedSpinLock function
 
-
 ## -description
 
-The <b>KeTryToAcquireQueuedSpinLock</b> routine is reserved for system use.
+The **KeTryToAcquireQueuedSpinLock** routine is reserved for system use.
 
 ## -parameters
 
 ### -param Number
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param OldIrql
 
 Reserved.
 
+## -returns
+
+Reserved.

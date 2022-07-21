@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitAddElements
 tech.root: audio
 title: AcxCircuitAddElements
-ms.date: 08/16/2021
+ms.date: 06/16/2022
 targetos: Windows
-description: The AcxCircuitAddElements function adds elements to an existing or new TBD? circuit.
+description: The AcxCircuitAddElements function adds elements to an ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,19 +42,17 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitAddElements function adds elements to an existing or new TBD? circuit.
+The **AcxCircuitAddElements** function adds elements to an ACXCIRCUIT.
 
 ## -parameters
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
- 
+An existing ACXCIRCUIT object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -param Elements
 
-TBD - An ACXELEMENT circuit object (TBD - array?) that will be added to the circuit.  
- 
-`_In_reads_(ElementsCount) ACXELEMENT*   Elements,`
+One or more ACXELEMENT objects that will be added to the circuit.  
 
 ### -param ElementsCount
 
@@ -66,26 +64,34 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+The driver can only add elements to a circuit before the circuit is added to the device. 
+The driver cannot change the circuit's elements at run time. 
+
 ### Example
 
 Example usage is shown below.
 
 ```cpp
+
+    //
+    // Add a second element.
+    //
     ACX_ELEMENT_CONFIG_INIT(&elementCfg);
     WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, CODEC_ELEMENT_CONTEXT);
     attributes.ParentObject = circuit;
     
     status = AcxElementCreate(circuit, &attributes, &elementCfg, &elements[1]);
 
-    elementCtx = GetCodecElementContext(elements[1]);
-
     //
-    // Add the circuit elements
+    // Add the elements to the circuit.
     //
     status = AcxCircuitAddElements(circuit, elements, SIZEOF_ARRAY(elements));
 ```
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

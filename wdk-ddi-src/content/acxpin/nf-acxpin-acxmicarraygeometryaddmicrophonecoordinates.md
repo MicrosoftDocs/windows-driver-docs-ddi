@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxMicArrayGeometryAddMicrophoneCoordinates
 tech.root: audio
 title: AcxMicArrayGeometryAddMicrophoneCoordinates
-ms.date: 01/21/2022
+ms.date: 02/17/2022
 targetos: Windows
 description: The AcxMicArrayGeometryAddMicrophoneCoordinates function adds physical coordinates to a microphone array geometry.
 prerelease: false
@@ -68,3 +68,6 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 - [ACXMICARRAYGEOMETRY](ns-acxpin-acx_mic_array_geometry.md)
 - [ACX_MICROPHONE_COORDINATES](ns-acxpin-acx_microphone_coordinates.md)
+- [acxpin.h header](index.md) 
+
+TBD - Please review this topic

@@ -63,12 +63,11 @@ Pointer to an [ACXDRMFORWARD structure](ns-acxstreams-acxdrmforward.md) specifyi
 
 AcxDrmForwardContentToDeviceObject returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
-
 ## -remarks
 
 ### Example
 
-TBD - no sample driver code found
+Sample pending
 
 Example usage is shown below.
 
@@ -78,5 +77,6 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxstreams.h header](index.md)
+- [acxstreams.h header](index.md)
 
+TBD - Please review this topic

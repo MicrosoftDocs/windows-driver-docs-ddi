@@ -2,9 +2,9 @@
 UID: NF:acxmanager.ACX_COMPOSITE_TEMPLATE_CONFIG_INIT
 tech.root: audio
 title: ACX_COMPOSITE_TEMPLATE_CONFIG_INIT
-ms.date: 01/10/2022
+ms.date: 04/27/2022
 targetos: Windows
-description: 
+description: The ACX_COMPOSITE_TEMPLATE_CONFIG_INIT function initializes an ACX_COMPOSITE_TEMPLATE_CONFIG structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,23 @@ dev_langs:
 
 ## -description
 
+The **ACX_COMPOSITE_TEMPLATE_CONFIG_INIT** function initializes an [ACX_COMPOSITE_TEMPLATE_CONFIG](ns-acxmanager-acx_composite_template_config.md) structure.
+
 ## -parameters
 
-### -param Config
+### -param Config [out]
+
+A pointer to the [ACX_COMPOSITE_TEMPLATE_CONFIG](ns-acxmanager-acx_composite_template_config.md) structure to initialize.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_COMPOSITE_TEMPLATE_CONFIG](ns-acxmanager-acx_composite_template_config.md)
+- [ACX_CIRCUIT_TEMPLATE_CONFIG](ns-acxmanager-acx_circuit_template_config.md)
+- [ACX_CIRCUIT_TEMPLATE_CONFIG_INIT](nf-acxmanager-acx_circuit_template_config_init.md)
+- [acxmanager.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

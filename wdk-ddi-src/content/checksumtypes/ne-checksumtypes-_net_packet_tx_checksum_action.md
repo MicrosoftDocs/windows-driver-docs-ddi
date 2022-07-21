@@ -3,7 +3,7 @@ UID: NE:checksumtypes._NET_PACKET_TX_CHECKSUM_ACTION
 title: NET_PACKET_TX_CHECKSUM_ACTION (checksumtypes.h)
 description: The NET_PACKET_TX_CHECKSUM_ACTION enumeration specifies checksum action flags for a NET_PACKET_CHECKSUM structure during packet transmission.
 tech.root: netvista
-ms.date: 09/25/2019
+ms.date: 03/30/2022
 keywords: ["NET_PACKET_TX_CHECKSUM_ACTION enumeration"]
 ms.keywords: NET_PACKET_TX_CHECKSUM_ACTION, NET_PACKET_TX_CHECKSUM_ACTION,
 req.header: checksumtypes.h
@@ -45,11 +45,11 @@ The **NET_PACKET_TX_CHECKSUM_ACTION** enumeration specifies checksum action flag
 
 ## -enum-fields
 
-### -field NetPacketTxChecksumActionPassthrough 
+### -field NetPacketTxChecksumActionPassthrough:0 
 
 Indicates the client should not perform checksum calculation for this layer.
 
-### -field NetPacketTxChecksumActionRequired 
+### -field NetPacketTxChecksumActionRequired:2 
 
 Indicates the client should perform checksum calculation for this layer.
 

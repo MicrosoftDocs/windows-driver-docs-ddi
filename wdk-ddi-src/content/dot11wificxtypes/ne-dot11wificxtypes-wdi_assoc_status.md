@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_ASSOC_STATUS
 tech.root: netvista
 title: WDI_ASSOC_STATUS (dot11wificxtypes.h)
-ms.date: 10/02/2021
+ms.date: 03/23/2022
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_ASSOC_STATUS enum defines association status values.
@@ -172,6 +172,10 @@ The link quality to the peer is low.
 Reserved.
 
 ### -field WDI_ASSOC_STATUS_RESERVED_1
+
+Reserved.
+
+### -field WDI_ASSOC_STATUS_RESERVED_2
 
 Reserved.
 

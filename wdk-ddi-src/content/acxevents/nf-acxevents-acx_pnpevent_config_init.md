@@ -2,7 +2,7 @@
 UID: NF:acxevents.ACX_PNPEVENT_CONFIG_INIT
 tech.root: audio
 title: ACX_PNPEVENT_CONFIG_INIT
-ms.date: 11/03/2021
+ms.date: 06/22/2022
 targetos: Windows
 description: The ACX_PNPEVENT_CONFIG_INIT function initializes an ACX_PNPEVENT_CONFIG structure.
 prerelease: true
@@ -54,21 +54,19 @@ An initialized [ACX_PNPEVENT_CONFIG structure](ns-acxevents-acx_pnpevent_config.
 
 ### Example
 
-The example shows the use of the ACX_PNPEVENT_CONFIG_INIT. 
-
-TBD - Anything else we should show here?
+The example shows the use of the ACX_PNPEVENT_CONFIG_INIT.
 
 ```cpp
 
-    ACX_PNPEVENT_CONFIG             audioModuleEventCfg;
+    ACX_PNPEVENT_CONFIG audioModuleEventCfg;
 
     ACX_PNPEVENT_CONFIG_INIT(&audioModuleEventCfg);
 ```
 
-
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxevents.h header](index.md)
 
+READY2GO
 
-
+EDITCOMPLETE

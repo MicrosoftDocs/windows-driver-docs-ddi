@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxEventCreate
 tech.root: audio
 title: AcxEventCreate
-ms.date: 12/09/2021
+ms.date: 06/22/2022
 targetos: Windows
 description: The AcxEventCreate function creates an event.
 prerelease: true
@@ -48,7 +48,7 @@ The **AcxEventCreate** function creates an ACX event.
 
 ### -param Object
 
-An ACXOBJECT that is described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). This object is used to TBD.
+An ACXOBJECT that is described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Attributes
 
@@ -68,13 +68,11 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An AcxEvent represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally they are exposed as KS events to upper layers. 
+An ACXEVENT represents an asynchronous notification available at the driver level. Events can be added to ACXCIRCUITs, ACXSTREAMs, ACXELEMENTs and ACXPINs. Internally they are exposed as KS Events to upper layers. For more information about KS Events, see [KS Events](/windows-hardware/drivers/stream/ks-events).
 
 ### Example
 
-This example code snip, shows the use of AcxEventCreate for an audio jack change event.
-
-TBD - I re-wrote the the last line of the sample to show this code without ACXINTERNAL, please check/verify.
+This example code snip, shows how ACX uses AcxEventCreate to create an audio jack change event.
 
 ```cpp
     NTSTATUS status = STATUS_SUCCESS;
@@ -106,7 +104,8 @@ TBD - I re-wrote the the last line of the sample to show this code without ACXIN
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxevents.h header](index.md)
 
+READY2GO
 
-
+EDITCOMPLETE

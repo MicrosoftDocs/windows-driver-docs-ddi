@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTWaitForSynchronizationObject2
 title: D3DKMTWaitForSynchronizationObject2 function (d3dkmthk.h)
 description: The D3DKMTWaitForSynchronizationObject2 function inserts a wait for the specified synchronization objects in the specified context stream.
 old-location: display\d3dkmtwaitforsynchronizationobject2.htm
-ms.date: 05/10/2018
+ms.date: 03/02/2022
 keywords: ["D3DKMTWaitForSynchronizationObject2 function"]
 ms.keywords: D3DKMTWaitForSynchronizationObject2, D3DKMTWaitForSynchronizationObject2 function [Display Devices], OpenGL_Functions_4453dc1e-8824-494e-9a74-2d3628f1ff81.xml, d3dkmthk/D3DKMTWaitForSynchronizationObject2, display.d3dkmtwaitforsynchronizationobject2
 req.header: d3dkmthk.h
@@ -45,31 +45,28 @@ api_name:
 
 # D3DKMTWaitForSynchronizationObject2 function
 
-
 ## -description
 
-The <b>D3DKMTWaitForSynchronizationObject2</b> function inserts a wait for the specified synchronization objects in the specified context stream.
+The **D3DKMTWaitForSynchronizationObject2** function inserts a wait for the specified synchronization objects in the specified context stream.
 
 ## -parameters
 
-### -param D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2
+### -param unnamedParam1 [in]
 
-*pData* [in]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforsynchronizationobject2">D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2</a> structure that describes the synchronization objects and context stream that the wait is set up for.
+A pointer to a [D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2](ns-d3dkmthk-_d3dkmt_waitforsynchronizationobject2.md) structure that describes the synchronization objects and context stream that the wait is set up for.
 
 ## -returns
 
-<b>D3DKMTWaitForSynchronizationObject2</b> returns one of the following values:
+**D3DKMTWaitForSynchronizationObject2** returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|The wait was successfully set up.|
-|STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display context was reset.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The wait was successfully set up. |
+| STATUS_DEVICE_REMOVED | The graphics adapter was stopped or the display context was reset. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
-This function might also return other NTSTATUS values.
+This function might also return other **NTSTATUS** values.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforsynchronizationobject2">D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2</a>
+[D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2](ns-d3dkmthk-_d3dkmt_waitforsynchronizationobject2.md)

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitInitAssignCategories
 ms.date: 02/02/2022
 targetos: Windows
-description: The AcxFactoryCircuitInitAssignCategories function assigns an array of GUIDS that are KSCATERGORY entries, that are used during Acx Circuit Factory initialization. 
+description: The AcxFactoryCircuitInitAssignCategories function assigns a set of driver category (GUID) entries for the ACXFACTORYCIRCUIT. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxFactoryCircuitInitAssignCategories function assigns an array of GUIDS that are the desired set of KSCATERGORY entries, that are used during Acx Circuit Factory initialization. 
+The AcxFactoryCircuitInitAssignCategories function assigns a set of driver category (GUID) entries for the ACXFACTORYCIRCUIT. 
 
 ## -parameters
 
@@ -53,7 +53,7 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param Categories
 
-TBD - An array that contains GUIDS of the desired set of KSCATERGORY entries, for example `KSCATEGORY_AUDIO`. For more information about the KSCATERGORY entries, see [Installing Device Interfaces for an Audio Adapter](/windows-hardware/drivers/audio/installing-device-interfaces-for-an-audio-adapter).
+An array that contains GUIDs of the desired set of driver category entries. For more information about the KSCATERGORY entries, see [Installing Device Interfaces for an Audio Adapter](/windows-hardware/drivers/audio/installing-device-interfaces-for-an-audio-adapter).
 
 ### -param CategoriesCount
 
@@ -64,6 +64,8 @@ The number of categories that will be added to the circuit. This is a one based 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
+
+This call override the default categiry set initialized by ACX.
 
 ### Example
 
@@ -89,5 +91,6 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

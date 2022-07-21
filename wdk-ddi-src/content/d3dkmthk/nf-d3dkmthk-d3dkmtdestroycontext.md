@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTDestroyContext
 title: D3DKMTDestroyContext function (d3dkmthk.h)
 description: The D3DKMTDestroyContext function releases a kernel-mode device context.
 old-location: display\d3dkmtdestroycontext.htm
-ms.date: 05/10/2018
+ms.date: 02/23/2022
 keywords: ["D3DKMTDestroyContext function"]
 ms.keywords: D3DKMTDestroyContext, D3DKMTDestroyContext function [Display Devices], OpenGL_Functions_f7a43a18-cb8c-4b76-8123-d5eeda18d6cb.xml, d3dkmthk/D3DKMTDestroyContext, display.d3dkmtdestroycontext
 req.header: d3dkmthk.h
@@ -45,30 +45,27 @@ api_name:
 
 # D3DKMTDestroyContext function
 
-
 ## -description
 
-The <b>D3DKMTDestroyContext</b> function releases a kernel-mode device context.
+The **D3DKMTDestroyContext** function releases a kernel-mode device context.
 
 ## -parameters
 
-### -param D3DKMT_DESTROYCONTEXT
+### -param unnamedParam1 [in]
 
-*pData* [in]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroycontext">D3DKMT_DESTROYCONTEXT</a> structure that contains the handle to the kernel-mode device context.
+A pointer to a [D3DKMT_DESTROYCONTEXT](ns-d3dkmthk-_d3dkmt_destroycontext.md) structure that contains the handle to the kernel-mode device context.
 
 ## -returns
 
-<b>D3DKMTDestroyContext</b> returns one of the following values:
+**D3DKMTDestroyContext** returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|The device context was successfully released.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The device context was successfully released. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
-This function might also return other NTSTATUS values.
+This function might also return other **NTSTATUS** values.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroycontext">D3DKMT_DESTROYCONTEXT</a>
+[D3DKMT_DESTROYCONTEXT](ns-d3dkmthk-_d3dkmt_destroycontext.md)

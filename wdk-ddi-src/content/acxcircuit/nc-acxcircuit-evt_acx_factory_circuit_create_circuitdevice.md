@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE callback is invoked by ACX when the driver must create a WDFDEVICE for a new ACXCIRCUIT object.
+The **EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE** callback is invoked by ACX when the driver must create a WDFDEVICE for a new ACXCIRCUIT object.
 
 ## -parameters
 
@@ -138,7 +138,7 @@ Dsp_EvtAcxFactoryCircuitCreateCircuitDevice(
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
 READY2GO
 

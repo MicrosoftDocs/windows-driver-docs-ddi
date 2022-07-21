@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitAssignAcxRequestPreprocessCallback
 ms.date: 08/27/2021
 targetos: Windows
-description: The AcxCircuitInitAssignAcxRequestPreprocessCallback function initializes defined AssignAcxRequest Preprocess callbacks.
+description: The AcxCircuitInitAssignAcxRequestPreprocessCallback function add a WDFREQUEST preprocess callback.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitAssignAcxRequestPreprocessCallback function initializes defined AssignAcxRequest Preprocess callbacks.
+The **AcxCircuitInitAssignAcxRequestPreprocessCallback** function add a WDFREQUEST preprocess callback.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param EvtObjectAcxRequestPreprocess
 
-A pointer to a [EVT_ACX_OBJECT_PREPROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_preprocess_request.md) callback. 
+A pointer to a [EVT_ACX_OBJECT_PREPROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_preprocess_request.md) callback.
 
 ### -param DriverContext
 
@@ -60,15 +60,15 @@ The driver context defined by the ACXCONTEXT object.  For more information about
 
 ### -param RequestType
 
-An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_request_type) that defines different request types, such as AcxRequestTypeAny or AcxRequestTypeEvent. 
+An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_request_type) that defines different request types, such as AcxRequestTypeAny, AcxRequestTypeProperty, etc.
 
 ### -param Set
 
-Optional GUID to identify the associated (TBD - what type of?) Set.
+Optional GUID to identify a specific item set ID.
 
 ### -param Id
 
-TBD - An ID value that TBD
+An ID to indentify a specific item in the specified set ID.
 
 ## -returns
 
@@ -76,14 +76,16 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+The driver can invoke this DDI multiple times to setup different preprocess callbacks. ACX invokes the first it finds that matches the specific incoming WDFREQUEST type.
+
 ### Example
 
 Example usage is shown below.
 
 ```cpp
-// Render callbacks.
+    // Render callbacks.
 
-EVT_ACX_OBJECT_PREPROCESS_REQUEST   CodecR_EvtCircuitRequestPreprocess;
+    EVT_ACX_OBJECT_PREPROCESS_REQUEST   CodecR_EvtCircuitRequestPreprocess;
 
 
     //
@@ -114,5 +116,6 @@ EVT_ACX_OBJECT_PREPROCESS_REQUEST   CodecR_EvtCircuitRequestPreprocess;
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

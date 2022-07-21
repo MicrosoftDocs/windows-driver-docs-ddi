@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS structure identifies the driver callbacks for ACX factory operations.
+The **ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS** structure identifies the driver callbacks for ACX factory operations.
 
 ## -struct-fields
 
@@ -86,7 +86,7 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
 READY2GO
 

@@ -69,6 +69,7 @@ This function can only be called from the [EVT_WDF_DEVICE_RELEASE_HARDWARE](/win
 * [AcxDeviceAddFactoryCircuit](nf-acxdevice-acxdeviceaddfactorycircuit.md)
 * [AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
 * [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
+* [acxdevice.h header](index.md)
 
 READY2GO
 

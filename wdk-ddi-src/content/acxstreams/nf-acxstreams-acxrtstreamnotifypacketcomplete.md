@@ -53,9 +53,11 @@ A pointer to a location that receives a handle to the new ACXSTREAM Object.
 An ACXSTREAM Object that represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param CompletedPacket
+
 The packet completion time.
 
 ### -param QPCCompletion
+
 A 0-based Packet index.
 
 ## -returns
@@ -82,5 +84,6 @@ InterlockedExchange64(&m_CurrentPacketStart.QuadPart, QPC.QuadPart);
 
 ## -see-also
 
-[acxstreams.h header](index.md)
+- [acxstreams.h header](index.md)
 
+TBD - Please review this topic

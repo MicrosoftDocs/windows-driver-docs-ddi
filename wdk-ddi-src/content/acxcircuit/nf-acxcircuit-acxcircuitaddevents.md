@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitAddEvents
 ms.date: 02/02/2022
 targetos: Windows
-description: The AcxCircuitAddEvents function adds one or more events to an existing (TBD?) circuit. 
+description: The AcxCircuitAddEvents function adds one or more events to an ACXCIRCUIT. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitAddEvents function adds one or more events to an existing circuit. 
+The **AcxCircuitAddEvents** function adds one or more events to an ACXCIRCUIT.
 
 ## -parameters
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXCIRCUIT object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Events
 
-An existing ACXEVENT object containing one or more events. 
+An existing ACXEVENT object containing one or more events.
 
 ### -param EventsCount
 
@@ -64,13 +64,13 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An AcxEvent represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. Internally they are exposed as KS events to upper layers.
+An AcxEvent represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. They are exposed as KS events to clients (upper user-mode layers).
 
 ### Example
 
 Example usage is shown below.
 
-TBD - No sample code found
+Sample pending.
 
 ```cpp
 
@@ -78,5 +78,8 @@ TBD - No sample code found
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

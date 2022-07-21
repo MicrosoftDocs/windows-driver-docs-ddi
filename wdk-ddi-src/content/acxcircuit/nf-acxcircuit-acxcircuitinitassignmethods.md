@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitAssignMethods
 ms.date: 02/01/2022
 targetos: Windows
-description: The AcxCircuitInitAssignMethods function assigns one or more Methods that will be used for the circuit initialization.
+description: The AcxCircuitInitAssignMethods function assigns one or more ACX methods for the ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitAssignMethods function assigns one or more Methods that will be used for the circuit initialization.
+The **AcxCircuitInitAssignMethods** function assigns one or more ACX methods for the ACXCIRCUIT.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param Methods
 
-An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/acxrequest/ns-acxrequest-acx_method_item) structure that defines a set of methods that will be used for circuit initialization. 
+An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/acxrequest/ns-acxrequest-acx_method_item) structure that defines a set of methods that will be used for circuit initialization.
 
 ### -param MethodsCount
 
@@ -63,6 +63,8 @@ The number of methods that will be added to the circuit. This is a one based cou
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
+
+Drivers should only add driver owned methods.
 
 ### Example
 
@@ -95,5 +97,6 @@ static ULONG CircuitMethodsCount = SIZEOF_ARRAY(CircuitMethods);
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

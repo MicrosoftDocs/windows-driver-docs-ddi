@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveUI2
 tech.root: audio
 title: AcxObjectBagRetrieveUI2
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveUI2 function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveUI2 function retrieves a unsigned int two byte UI2 (USHORT) from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveUI2 function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveUI2 function retrieves a unsigned int two byte UI2 (USHORT) from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 
@@ -69,33 +69,41 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 This example shows the use of AcxObjectBagRetrieveUI2.
 
 ```cpp
-    DECLARE_CONST_UNICODE_STRING(UI2Str,   L"Value_UI2");
+    ACXOBJECTBAG objBag     = NULL;
+    USHORT       ui2Value   = 0;
 
-    // Create a simple object.
-    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
-    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
-    attr.ParentObject = WdfGetDriver();
+    //Initialize an object bag configuration
+    ACX_OBJECTBAG_CONFIG objBagCfg;
+    ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
     
-    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
+    // Set the WDF attributes, and create an object bag 
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = Circuit;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
 
-    status = AcxObjectBagAddUI2(bag1, &UI2Str, usValue);
+    // Enable deletion of the object bag when the function completes and goes out of scope
+    auto objBag_scope = scope_exit([&objBag]() {
+        if (objBag != NULL)
+        {
+            WdfObjectDelete(objBag);
+        }
+    });
 
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
+    //Create Properties and add them to an object bag
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI2);
 
-    // Read written values.
-    status = AcxObjectBagRetrieveUI2(bag1, &UI2Str, &usValue2);
+    ui2Value = 0x55;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI2(objBag, &TestUI2, ui2Value));
+
+    // Retrieve the value from the object bag
+    ui2Value = 0;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveUI2(objBag, &TestUI2, &ui2Value));
 ```
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

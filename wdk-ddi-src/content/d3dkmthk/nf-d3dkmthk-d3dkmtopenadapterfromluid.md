@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTOpenAdapterFromLuid
 title: D3DKMTOpenAdapterFromLuid function (d3dkmthk.h)
 description: Maps a locally unique identifier (LUID) to a graphics adapter handle.
 old-location: display\d3dkmtopenadapterfromluid.htm
-ms.date: 05/10/2018
+ms.date: 03/02/2022
 keywords: ["D3DKMTOpenAdapterFromLuid function"]
 ms.keywords: D3DKMTOpenAdapterFromLuid, D3DKMTOpenAdapterFromLuid function [Display Devices], d3dkmthk/D3DKMTOpenAdapterFromLuid, display.d3dkmtopenadapterfromluid
 req.header: d3dkmthk.h
@@ -44,30 +44,27 @@ api_name:
 
 # D3DKMTOpenAdapterFromLuid function
 
-
 ## -description
 
 Maps a locally unique identifier (LUID) to a graphics adapter handle.
 
 ## -parameters
 
-### -param D3DKMT_OPENADAPTERFROMLUID
+### -param unnamedParam1 [in, out]
 
-*pAdapter* [in, out]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromluid">D3DKMT_OPENADAPTERFROMLUID</a> structure that describes information that is required to perform the mapping.
+A pointer to a [D3DKMT_OPENADAPTERFROMLUID](ns-d3dkmthk-_d3dkmt_openadapterfromluid.md) structure that describes information that is required to perform the mapping.
 
 ## -returns
 
 Returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|The mapping was performed successfully.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The mapping was performed successfully. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
 This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromluid">D3DKMT_OPENADAPTERFROMLUID</a>
+[D3DKMT_OPENADAPTERFROMLUID](ns-d3dkmthk-_d3dkmt_openadapterfromluid.md)

@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PDXGK_INITIAL_COMPONENT_STATE
 title: PDXGK_INITIAL_COMPONENT_STATE (d3dkmthk.h)
 description: The InitialComponentStateCb callback function is implemented by the client driver to initialize the component state.
-ms.date: 10/19/2018
+ms.date: 03/03/2022
 keywords: ["PDXGK_INITIAL_COMPONENT_STATE callback function"]
 req.header: d3dkmthk.h
 req.include-header: 
@@ -40,7 +40,6 @@ product:
 
 # PDXGK_INITIAL_COMPONENT_STATE callback function
 
-
 ## -description
 
 The InitialComponentStateCb callback function is implemented by the client driver to initialize the component state.
@@ -71,13 +70,9 @@ The F-state of a component represented by *ComponentIndex* at the time of the ca
 
 A GUID value which is the component GUID as reported by the graphics driver for this component during its DXGKQAITYPE_POWERCOMPONENTINFO response.
 
-### -param PowerComponentMappingFlag:
+### -param PowerComponentMappingFlag
 
 The HIWORD indicates if this is a custom driver defined value (0 = no, 1 = yes). If 0 (no), then the low word represents a DXGKMT_POWER_SHARED_TYPE enum value. These values are set by the graphics driver during its DXGKQAITYPE_POWERCOMPONENTINFO response, using the new DXGK_POWER_COMPONENT_SHARED_DESC type added to DXGK_POWER_COMPONENT_MAPPING.
-
-## -returns
-
-Does not return a value.
 
 ## -prototype
 
@@ -90,13 +85,13 @@ PDXGK_INITIAL_COMPONENT_STATE PdxgkInitialComponentState;
 
 VOID PdxgkInitialComponentState
 (
-	PVOID GraphicsDeviceHandle
-	PVOID PrivateHandle
-	ULONG ComponentIndex
-	BOOLEAN IsBlockingType
-	UINT InitialFState
-	GUID ComponentGuid
-	UINT PowerComponentMappingFlag
+  PVOID GraphicsDeviceHandle
+  PVOID PrivateHandle
+  ULONG ComponentIndex
+  BOOLEAN IsBlockingType
+  UINT InitialFState
+  GUID ComponentGuid
+  UINT PowerComponentMappingFlag
 )
 {...}
 
@@ -115,4 +110,3 @@ Upon shared power registration (IoCallDriver call), if InitialComponentStateCb w
 * If any F-state transitions are currently in progress, a post-notification FStateNotificationCb will alert the driver of the final state. Such calls will be guaranteed to occur after the InitialComponentStateCb calls. However, it is possible that such callbacks could occur prior to IoCallDriver returning if synchronization is required. A spin lock should be around IoCallDriver and the FStateNotificationCb handler.
 
 ## -see-also
-

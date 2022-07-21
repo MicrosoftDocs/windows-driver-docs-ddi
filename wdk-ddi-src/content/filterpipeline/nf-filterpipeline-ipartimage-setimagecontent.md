@@ -2,13 +2,12 @@
 UID: NF:filterpipeline.IPartImage.SetImageContent
 title: IPartImage::SetImageContent (filterpipeline.h)
 description: The SetImageContent method sets an image property that is based on the content type.
-old-location: print\ipartimage_setimagecontent.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 04/19/2022
 keywords: ["IPartImage::SetImageContent"]
 ms.keywords: IPartImage interface [Print Devices],SetImageContent method, IPartImage.SetImageContent, IPartImage::SetImageContent, SetImageContent, SetImageContent method [Print Devices], SetImageContent method [Print Devices],IPartImage interface, filterpipeline/IPartImage::SetImageContent, filterpipeline_1bbf6da0-f016-486d-a06d-768614fe1d5a.xml, print.ipartimage_setimagecontent
 req.header: filterpipeline.h
-req.include-header: 
+req.include-header: Filterpipeline.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,22 +39,16 @@ api_name:
  - IPartImage::SetImageContent
 ---
 
-# IPartImage::SetImageContent
-
-
 ## -description
 
-The <b>SetImageContent</b> method sets an image property that is based on the content type.
+The **SetImageContent** method sets an image property that is based on the content type.
 
 ## -parameters
 
-### -param pContentType
-
-### -param contentType [in]
+### -param pContentType [in]
 
 The type of content of the image.
 
 ## -returns
 
-<b>SetImageContent</b> returns an <b>HRESULT</b> value.
-
+**SetImageContent** returns an **HRESULT** value.

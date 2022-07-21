@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTDestroyKeyedMutex
 title: D3DKMTDestroyKeyedMutex function (d3dkmthk.h)
 description: The D3DKMTDestroyKeyedMutex function destroys a keyed mutex object.
 old-location: display\d3dkmtdestroykeyedmutex.htm
-ms.date: 05/10/2018
+ms.date: 02/23/2022
 keywords: ["D3DKMTDestroyKeyedMutex function"]
 ms.keywords: D3DKMTDestroyKeyedMutex, D3DKMTDestroyKeyedMutex function [Display Devices], OpenGL_Functions_de5400f1-6ef8-431c-a838-8c82cb03d7f1.xml, d3dkmthk/D3DKMTDestroyKeyedMutex, display.d3dkmtdestroykeyedmutex
 req.header: d3dkmthk.h
@@ -45,30 +45,27 @@ api_name:
 
 # D3DKMTDestroyKeyedMutex function
 
-
 ## -description
 
-The <b>D3DKMTDestroyKeyedMutex</b> function destroys a keyed mutex object.
+The **D3DKMTDestroyKeyedMutex** function destroys a keyed mutex object.
 
 ## -parameters
 
-### -param D3DKMT_DESTROYKEYEDMUTEX
+### -param unnamedParam1 [in]
 
-*pData* [in]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroykeyedmutex">D3DKMT_DESTROYKEYEDMUTEX</a> structure that specifies the keyed mutex object to destroy.
+A pointer to a [D3DKMT_DESTROYKEYEDMUTEX](ns-d3dkmthk-_d3dkmt_destroykeyedmutex.md) structure that specifies the keyed mutex object to destroy.
 
 ## -returns
 
-<b>D3DKMTDestroyKeyedMutex</b> returns one of the following values:
+**D3DKMTDestroyKeyedMutex** returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|The keyed mutex object was successfully destroyed.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The keyed mutex object was successfully destroyed. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
-This function might also return other <b>NTSTATUS</b> values.
+This function might also return other **NTSTATUS** values.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroykeyedmutex">D3DKMT_DESTROYKEYEDMUTEX</a>
+[D3DKMT_DESTROYKEYEDMUTEX](ns-d3dkmthk-_d3dkmt_destroykeyedmutex.md)

@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetElementGetNameTag
 tech.root: audio
 title: AcxTargetElementGetNameTag
-ms.date:  11/11/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: 
+description: The AcxTargetElementGetNameTag given an existing ACXTARGETELEMENT object, returns its name-tag in the form of a GUID.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,17 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetElementGetNameTag** function given an existing ACXTARGETELEMENT object returns, returns its name-tag in the form of a GUID.
+
 ## -parameters
 
 ### -param TargetElement
 
+An existing ACXTARGETELEMENT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ## -returns
 
-Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
+A name-tag in the form of a GUID.
 
 ## -remarks
 
@@ -56,11 +60,15 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ```cpp
 
-TBD
+    GUID elementNameTag;
+...
 
+    elementNameTag = AcxTargetElementGetNameTag(targetElement);
 
 ```
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+ 
+READY2GO

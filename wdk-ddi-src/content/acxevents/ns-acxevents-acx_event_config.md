@@ -2,9 +2,9 @@
 UID: NS:acxevents._ACX_EVENT_CONFIG
 tech.root: audio
 title: ACX_EVENT_CONFIG
-ms.date: 12/09/2021
+ms.date: 06/22/2022
 targetos: Windows
-description: The ACX_EVENT_CONFIG structure is used to define the event configuration. 
+description: The ACX_EVENT_CONFIG structure is used to configure an ACXEVENT. 
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,17 +44,17 @@ dev_langs:
 
 ## -description
 
-The **ACX_EVENT_CONFIG** structure is used to define the ACX event configuration. 
+The **ACX_EVENT_CONFIG** structure is used to configure an ACXEVENT.
 
 ## -struct-fields
 
 ### -field Size
 
-The length, in bytes, of this structure. 
+The length, in bytes, of this structure.
 
 ### -field Flags
 
-Bitwise OR of [ACX_PNPEVENT_CONFIG_FLAGS](ne-acxevents-acx_pnpevent_config_flags.md). 
+Bitwise OR of [ACX_PNPEVENT_CONFIG_FLAGS](ne-acxevents-acx_pnpevent_config_flags.md).
 
 ### -field Set
 
@@ -68,7 +68,7 @@ Specifies the event ID. This member identifies an event item within the event se
 
 ### -field Type
 
-TBD - The (optional?) event value type (operation data) is a [KSEVENTDATA structure](/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata) that specifies the notification method to use for this event.
+The event value type (operation data) is a [KSEVENTDATA structure](/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata) that specifies the notification method to use for this event.
 
 ### -field Callbacks
 
@@ -78,7 +78,7 @@ The [ACX_EVENT_CALLBACKS structure](ns-acxevents-acx_event_callbacks.md) that id
 
 ### Example
 
-The example shows the use of the ACX_EVENT_CONFIG structure.
+The example shows how ACX uses the ACX_EVENT_CONFIG structure.
 
 ```cpp
     ACX_EVENT_CONFIG            eventCfg;
@@ -99,4 +99,8 @@ The example shows the use of the ACX_EVENT_CONFIG structure.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxevents.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

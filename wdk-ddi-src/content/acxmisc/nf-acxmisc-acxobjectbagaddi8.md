@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddI8
 tech.root: audio
 title: AcxObjectBagAddI8
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagAddI8 function adds a unicode string to an existing, intialized AcxObjectBag. 
+description: The AcxObjectBagAddI8 function adds a int eight byte I8 (LONG64) value to an existing, intialized AcxObjectBag. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddI8 function adds a unicode string to an existing, intialized AcxObjectBag. 
+The **AcxObjectBagAddI8** function adds a int eight byte I8 (LONG64) value to an existing, intialized AcxObjectBag. 
 
 ## -parameters
 
@@ -66,15 +66,44 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
 This example shows the use of AcxObjectBagAddI8.
 
 ```cpp
+    ACXOBJECTBAG objBag    = NULL;
+    LONG64       i8Value   = 0;
 
+    //Initialize an object bag configuration
+    ACX_OBJECTBAG_CONFIG objBagCfg;
+    ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
+    
+    // Set the WDF attributes, and create an object bag 
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = Circuit;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
+
+    // Enable deletion of the object bag when the function completes and goes out of scope
+    auto objBag_scope = scope_exit([&objBag]() {
+        if (objBag != NULL)
+        {
+            WdfObjectDelete(objBag);
+        }
+    });
+
+    //Create Properties and add them to an object bag
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestI8);
+
+    i8Value = 0x9876543210;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI8(objBag, &TestI8, i8Value));
+
+    // Retrieve the value from the object bag
+    i8Value = 0;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveI8(objBag, &TestI8, &i8Value));
 ```
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

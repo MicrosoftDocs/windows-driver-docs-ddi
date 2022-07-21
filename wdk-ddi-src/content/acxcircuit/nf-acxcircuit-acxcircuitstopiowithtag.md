@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitStopIoWithTag
 ms.date: 02/04/2022
 targetos: Windows
-description: The AcxCircuitStopIoWithTag function is used used to signal to the operating system to temporarily stop circuit IO. 
+description: The AcxCircuitStopIoWithTag function is used to signal to the operating system to temporarily stop circuit I/O. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,18 +42,19 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitStopIoWithTag** function is used to signal to the operating system to temporarily stop circuit IO. This allows the driver a short period of time to run time sensitive tasks, and then resume IO after the execution of time sensitive code is complete.
+The **AcxCircuitStopIoWithTag** function is used to signal to the operating system to temporarily stop circuit I/O. This allows the driver a short period of time to run time sensitive tasks, and then resume IO after the execution of time sensitive code is complete.
 
 ## -parameters
 
 ### -param Circuit
 
-An existing ACXCIRCUIT circuit object.  (For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing *ACXCIRCUIT* circuit object.  (For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Flags
 
 Stop IO flags defined by the [ACX_STOP_IO_FLAGS enumeration](ne-acxcircuit-acx_stop_io_flags.md).
-Currently no flags are defined, set this to `AcxStopIoNoFlags`. 
+
+Currently no flags are defined, set this to `AcxStopIoNoFlags`.
 
 ### -param Tag
 
@@ -61,12 +62,11 @@ An optional ObjectTag that is a driver-defined value that the framework stores a
 
 ## -remarks
 
-
 ### Example
 
 Example usage is shown below.
 
-TBD - No sample test code found
+Sample pending.
 
 ```cpp
 
@@ -74,5 +74,6 @@ TBD - No sample test code found
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

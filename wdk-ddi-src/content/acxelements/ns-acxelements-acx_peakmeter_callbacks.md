@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_PEAKMETER_CALLBACKS
 tech.root: audio 
 title: ACX_PEAKMETER_CALLBACKS
-ms.date: 09/02/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_PEAKMETER_CALLBACKS structure identifies the driver callbacks for ACX peakmeter operations.
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_PEAKMETER_CALLBACKS structure identifies the driver callbacks for ACX peakmeter operations.
+The **ACX_PEAKMETER_CALLBACKS** structure identifies the driver callbacks for ACX peakmeter operations.
 
 ## -struct-fields
 
@@ -57,8 +57,6 @@ The length, in bytes, of this structure.
 The [ACX_PEAKMETER_RETRIEVE_LEVEL](nc-acxelements-evt_acx_peakmeter_retrieve_level.md) callback.
 
 ### -field EvtAcxPeakMeterProcessRequest
-
-TBD TBD 
 
 The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/acxrequest/nc-acxrequest-evt_acx_object_process_request.md) callback. 
 
@@ -89,5 +87,8 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

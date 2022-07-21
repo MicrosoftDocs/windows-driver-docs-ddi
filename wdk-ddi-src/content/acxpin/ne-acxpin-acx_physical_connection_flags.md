@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_PHYSICAL_CONNECTION_FLAGS
 tech.root: audio
 title: ACX_PHYSICAL_CONNECTION_FLAGS
-ms.date: 12/15/2021
+ms.date: 03/25/2022
 targetos: Windows
 description: The ACX_PHYSICAL_CONNECTION_FLAGS enumeration is used by the ACX_PHYSICAL_CONNECTION structure to initialize a physical connection.
 prerelease: false
@@ -62,5 +62,8 @@ For internal validation, do not use.
 ## -see-also
 
 - [ACX_PHYSICAL_CONNECTION](ns-acxpin-acx_physical_connection.md)
+- [acxpin.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

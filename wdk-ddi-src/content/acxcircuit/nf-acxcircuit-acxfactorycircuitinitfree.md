@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitInitFree
 ms.date: 08/20/2021
 targetos: Windows
-description: The AcxFactoryCircuitInitFree function frees the circuit (TBD - at the end of the initialization process?).
+description: The AcxFactoryCircuitInitFree function deletes the factory circuit initialization object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,23 +42,26 @@ dev_langs:
 
 ## -description
 
-The AcxFactoryCircuitInitFree function frees the circuit (TBD - at the end of the initialization process?).
+The **AcxFactoryCircuitInitFree** function deletes the factory circuit initialization object.
 
 ## -parameters
 
 ### -param FactoryInit
 
 An ACXFACTORYCIRCUIT_INIT structure that is used for circuit factory initialization. This is an opaque structure that is used to store ACX Circuit factory initialization information and associate the factory with a WDF device.
+
 Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuitinitallocate.md) to initialize the ACXFACTORYCIRCUIT_INIT structure.
 
 ## -remarks
+
+This function does not return a value.
+The driver is responsable for deleting the ACXFACTORYCIRCUIT_INIT object using this DDI if the AcxFactoryCircuitCreate is not invoked or returns an error.
 
 ### Example
 
 Example usage is shown below.
 
 ```cpp
-
 // Get a FactoryCircuitInit structure
 
   ctrlInit = AcxFactoryCircuitInitAllocate(Device);
@@ -80,5 +83,6 @@ exit:
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

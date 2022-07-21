@@ -3,7 +3,7 @@ UID: NE:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE
 title: _NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE (netreceivescaling.h)
 description: The NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE enumeration specifies packet encapsulation technologies an RSS-capable NIC is able to bypass.
 tech.root: netvista
-ms.date: 03/07/2018
+ms.date: 04/01/2022
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE enumeration"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE, NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE,
 req.header: netreceivescaling.h
@@ -42,19 +42,19 @@ The **NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE** enumeration specifies pac
 
 ## -enum-fields
 
-### -field NetAdapterReceiveScalingEncapsulationTypeNone : 
+### -field NetAdapterReceiveScalingEncapsulationTypeNone:0x00000000 
 
 Indicates that the hardware cannot bypass any encapsulation technologies.
 
-### -field NetAdapterReceiveScalingEncapsulationTypeNVGre : 
+### -field NetAdapterReceiveScalingEncapsulationTypeNVGre:0x00000001 
 
 Indicates that the hardware understands how to bypass [NV-GRE encapsulation](/windows-server/networking/sdn/technologies/hyper-v-network-virtualization/hyperv-network-virtualization-technical-details-windows-server#generic-routing-encapsulation-nvgre).
 
-### -field NetAdapterReceiveScalingEncapsulationTypeVXLan : 
+### -field NetAdapterReceiveScalingEncapsulationTypeVXLan:0x00000002 
 
 Indicates that the hardware understands how to bypass [VXLan encapsulation](/windows-server/networking/sdn/technologies/hyper-v-network-virtualization/hyperv-network-virtualization-technical-details-windows-server#virtual-extensible-local-area-network-vxlan).
 
-### -field NetAdapterReceiveScalingEncapsulationTypeVLan : 
+### -field NetAdapterReceiveScalingEncapsulationTypeVLan:0x00000004 
 
 Indicates that the hardware understands how to bypass [VLan encapsulation](/windows-server/networking/sdn/technologies/hyper-v-network-virtualization/hyperv-network-virtualization-technical-details-windows-server#VirtualNetworks).
 

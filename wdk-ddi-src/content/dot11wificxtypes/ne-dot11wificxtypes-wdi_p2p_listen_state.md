@@ -2,7 +2,7 @@
 UID: NE:dot11wificxtypes._WDI_P2P_LISTEN_STATE
 tech.root: netvista
 title: WDI_P2P_LISTEN_STATE (dot11wificxtypes.h)
-ms.date: 09/15/2021
+ms.date: 03/23/2022
 ms.topic: language-reference
 targetos: Windows
 description: The WDI_P2P_LISTEN_STATE enum defines the Wi-Fi Direct listen states.
@@ -75,6 +75,10 @@ When this listen state is set:
 * The port must schedule time to explicitly listen on a social channel for incoming Wi-Fi Direct action frames.
 * The port shall respond to probe requests with a "DIRECT-" SSID as a Wi-Fi Direct Adapter when parked on the configured social channel.
 > [!NOTE] The duty cycle for this listen state is 300ms availability every 400ms on the configured social channel.
+
+### -field WDI_P2P_LISTEN_STATE_DUMMY_MAX_VALUE:0xFFFFFFFF
+
+The maximum value for this type.
 
 ## -remarks
 

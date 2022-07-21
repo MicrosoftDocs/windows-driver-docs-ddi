@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatGetValidBitsPerSample
 tech.root: audio
 title: AcxDataFormatGetValidBitsPerSample
-ms.date: 01/10/2022
+ms.date: 05/31/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatGetValidBitsPerSample function gets the valid number of bits per sample for the specified data format.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,24 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetValidBitsPerSample** function gets the valid number of bits per sample for the specified data format.
+
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
+
+The data format for which to retrieve the valid number of bits per sample.
 
 ## -returns
+
+Returns a ULONG value containing the valid number bits per sample for the specified *DataFormat*.
 
 ## -remarks
 
 ## -see-also
 
+- [acxdataformat.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

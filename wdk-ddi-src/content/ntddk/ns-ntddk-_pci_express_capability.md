@@ -1,41 +1,28 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_CAPABILITY
-title: _PCI_EXPRESS_CAPABILITY (ntddk.h)
-description: The _PCI_EXPRESS_CAPABILITY structure (ntddk.h) describes a PCI Express (PCIe) capability structure.
-old-location: pci\pci_express_capability.htm
 tech.root: PCI
-ms.date: 11/29/2021
-keywords: ["PCI_EXPRESS_CAPABILITY structure"]
-ms.keywords: "*PPCI_EXPRESS_CAPABILITY, PCI.pci_express_capability, PCI_EXPRESS_CAPABILITY, PCI_EXPRESS_CAPABILITY structure [Buses], PPCI_EXPRESS_CAPABILITY, PPCI_EXPRESS_CAPABILITY structure pointer [Buses], _PCI_EXPRESS_CAPABILITY, ntddk/PCI_EXPRESS_CAPABILITY, ntddk/PPCI_EXPRESS_CAPABILITY, pci_struct_9c629781-bcee-486d-bab3-5d5b7441ac72.xml"
+title: PCI_EXPRESS_CAPABILITY (ntddk.h)
+ms.date: 03/03/2022
+targetos: Windows
+description: The PCI_EXPRESS_CAPABILITY structure describes a PCI Express (PCIe) capability structure.
+prerelease: false
+req.construct-type: structure
+req.ddi-compliance: 
+req.dll: 
 req.header: ntddk.h
 req.include-header: Ntddk.h, Miniport.h
-req.target-type: Windows
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.redist: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
-targetos: Windows
+req.target-type: 
 req.typenames: PCI_EXPRESS_CAPABILITY, *PPCI_EXPRESS_CAPABILITY
-f1_keywords:
- - _PCI_EXPRESS_CAPABILITY
- - ntddk/_PCI_EXPRESS_CAPABILITY
- - PPCI_EXPRESS_CAPABILITY
- - ntddk/PPCI_EXPRESS_CAPABILITY
- - PCI_EXPRESS_CAPABILITY
- - ntddk/PCI_EXPRESS_CAPABILITY
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
  - HeaderDef
 api_location:
@@ -44,13 +31,22 @@ api_name:
  - _PCI_EXPRESS_CAPABILITY
  - PPCI_EXPRESS_CAPABILITY
  - PCI_EXPRESS_CAPABILITY
+f1_keywords:
+ - _PCI_EXPRESS_CAPABILITY
+ - ntddk/_PCI_EXPRESS_CAPABILITY
+ - PPCI_EXPRESS_CAPABILITY
+ - ntddk/PPCI_EXPRESS_CAPABILITY
+ - PCI_EXPRESS_CAPABILITY
+ - ntddk/PCI_EXPRESS_CAPABILITY
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - _PCI_EXPRESS_CAPABILITY
 ---
-
-# _PCI_EXPRESS_CAPABILITY structure (ntddk.h)
 
 ## -description
 
-The PCI_EXPRESS_CAPABILITY structure describes a PCI Express (PCIe) capability structure.
+The **PCI_EXPRESS_CAPABILITY** structure describes a PCI Express (PCIe) capability structure.
 
 ## -struct-fields
 
@@ -112,30 +108,27 @@ A [PCI_EXPRESS_ROOT_STATUS_REGISTER](./ns-ntddk-_pci_express_root_status_registe
 
 ### -field DeviceCapabilities2
 
+Defines the **PCI_EXPRESS_DEVICE_CAPABILITIES_2_REGISTER** member **DeviceCapabilities2**.
+
 ### -field DeviceControl2
+
+Defines the **PCI_EXPRESS_DEVICE_CONTROL_2_REGISTER** member **DeviceControl2**.
 
 ### -field DeviceStatus2
 
-## -syntax
+Defines the **PCI_EXPRESS_DEVICE_STATUS_2_REGISTER** member **DeviceStatus2**.
 
-```cpp
-typedef struct _PCI_EXPRESS_CAPABILITY {
-  PCI_CAPABILITIES_HEADER                  Header;
-  PCI_EXPRESS_CAPABILITIES_REGISTER        ExpressCapabilities;
-  PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER DeviceCapabilities;
-  PCI_EXPRESS_DEVICE_CONTROL_REGISTER      DeviceControl;
-  PCI_EXPRESS_DEVICE_STATUS_REGISTER       DeviceStatus;
-  PCI_EXPRESS_LINK_CAPABILITIES_REGISTER   LinkCapabilities;
-  PCI_EXPRESS_LINK_CONTROL_REGISTER        LinkControl;
-  PCI_EXPRESS_LINK_STATUS_REGISTER         LinkStatus;
-  PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER   SlotCapabilities;
-  PCI_EXPRESS_SLOT_CONTROL_REGISTER        SlotControl;
-  PCI_EXPRESS_SLOT_STATUS_REGISTER         SlotStatus;
-  PCI_EXPRESS_ROOT_CONTROL_REGISTER        RootControl;
-  PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER   RootCapabilities;
-  PCI_EXPRESS_ROOT_STATUS_REGISTER         RootStatus;
-} PCI_EXPRESS_CAPABILITY, *PPCI_EXPRESS_CAPABILITY;
-```
+### -field LinkCapabilities2
+
+Defines the **PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER** member **LinkCapabilities2**.
+
+### -field LinkControl2
+
+Defines the **PCI_EXPRESS_LINK_CONTROL_2_REGISTER** member **LinkControl2**.
+
+### -field LinkStatus2
+
+Defines the **PCI_EXPRESS_LINK_STATUS_2_REGISTER** member **LinkStatus2**.
 
 ## -remarks
 

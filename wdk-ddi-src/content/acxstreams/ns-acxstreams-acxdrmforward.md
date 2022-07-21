@@ -50,7 +50,7 @@ The ACXDRMFORWARD structure contains the information that the DRM system driver 
 
 ### -field Flags
 
-Flags - TBD are any flags defined?  >> No flag bits are currently defined. Set this member to zero.
+TBD - No flag bits are currently defined. Set this member to zero.
 
 ### -field DeviceObject
 
@@ -62,12 +62,12 @@ Pointer to the file object, which is a system structure of type FILE_OBJECT.
 
 ### -field Context
 
-Pointer to context data. 
-
+Pointer to context data.
 
 ## -remarks
 
 ## -see-also
 
-[acxstreams.h header](index.md)
+- [acxstreams.h header](index.md)
 
+TBD - Please review this topic

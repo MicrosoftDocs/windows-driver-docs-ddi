@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveI2
 tech.root: audio
 title: AcxObjectBagRetrieveI2
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveI2 function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveI2 function retrieves a int two byte I2 (SHORT) value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveI2 function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveI2 function retrieves a int two byte I2 (SHORT) value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 
@@ -56,7 +56,7 @@ The name of the value that will be used to access the value.
 
 ### -param Value
 
-The unicode string Value to be retrieved from the ObjectBag.
+The Value to be retrieved from the ObjectBag.
 
 ## -returns
 
@@ -66,14 +66,44 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ### Example
 
-TBD - Example pending.
-
+This example shows the use of AcxObjectBagRetrieveI2.
 
 ```cpp
+    ACXOBJECTBAG objBag     = NULL;
+    SHORT        i2Value    = 0;
 
+    //Initialize an object bag configuration
+    ACX_OBJECTBAG_CONFIG objBagCfg;
+    ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
+    
+    // Set the WDF attributes, and create an object bag 
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = Circuit;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
+
+    // Enable deletion of the object bag when the function completes and goes out of scope
+    auto objBag_scope = scope_exit([&objBag]() {
+        if (objBag != NULL)
+        {
+            WdfObjectDelete(objBag);
+        }
+    });
+
+    //Create Properties and add them to an object bag
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestI2);
+
+    i2Value = 1;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddI2(objBag, &TestI2, i2Value));
+
+    // Retrieve the value from the object bag
+    i2Value = 0;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveI2(objBag, &TestI2, &i2Value));
 ```
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

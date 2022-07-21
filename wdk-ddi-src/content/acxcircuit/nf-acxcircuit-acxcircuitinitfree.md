@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitInitFree
 tech.root: audio
 title: AcxCircuitInitFree
-ms.date: 08/18/2021
+ms.date: 04/27/2022
 targetos: Windows
-description: The AcxCircuitInitFree function frees the circuit (TBD - at the end of the initialization process?).
+description: The AcxCircuitInitFree function deletes the circuit initialization object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitFree function frees the circuit initialization object and the TBD??? associated with the circuit.
+The **AcxCircuitInitFree** function deletes the circuit initialization object.
 
 ## -parameters
 
@@ -53,6 +53,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 ## -remarks
 
 This function does not return a value.
+The driver is responsable for deleting the ACXCIRCUIT_INIT object using this DDI if the AcxCircuitCreate is not invoked or returns an error.
 
 ### Example
 
@@ -81,5 +82,6 @@ exit:
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

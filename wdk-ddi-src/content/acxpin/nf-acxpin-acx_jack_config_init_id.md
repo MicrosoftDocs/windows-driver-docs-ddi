@@ -2,7 +2,7 @@
 UID: NF:acxpin.ACX_JACK_CONFIG_INIT_ID
 tech.root: audio
 title: ACX_JACK_CONFIG_INIT_ID
-ms.date: 01/13/2022
+ms.date: 02/17/2022
 targetos: Windows
 description: The ACX_JACK_CONFIG_INIT_ID function initializes an ACX_JACK_CONFIG structure with the specified ID.
 prerelease: false
@@ -59,3 +59,6 @@ The ID to use when initializing the **ACX_JACK_CONFIG** structure.
 ## -see-also
 
 - [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md)
+- [acxpin.h header](index.md)
+
+TBD - Please review this topic

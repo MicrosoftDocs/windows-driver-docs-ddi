@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinGetType
 tech.root: audio
 title: AcxPinGetType
-ms.date: 02/03/2022
+ms.date: 04/11/2022
 targetos: Windows
 description: The AcxPinGetType function returns the type of the specified pin.
 prerelease: false
@@ -61,3 +61,8 @@ The return value indicates if the pin is a source, a sink, or some other type.
 ## -see-also
 
 - [ACX_PIN_TYPE](ne-acxpin-acx_pin_type.md)
+- [acxpin.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

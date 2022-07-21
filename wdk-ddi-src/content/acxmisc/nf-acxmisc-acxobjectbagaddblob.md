@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagAddBlob
 tech.root: audio
 title: AcxObjectBagAddBlob
-ms.date: 01/27/2022
+ms.date: 04/29/2022
 targetos: Windows
 description: The AcxObjectBagAddBlob function adds blob data to an existing, intialized AcxObjectBag. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddBlob function adds blob data to an existing, intialized AcxObjectBag. 
+The **AcxObjectBagAddBlob** function adds blob data to an existing, intialized AcxObjectBag. 
 
 ## -parameters
 
@@ -68,21 +68,19 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 This example shows the use of AcxObjectBagAddBlob.
 
-TBD - Is this example code OK?
-
 ```cpp
     NTSTATUS status = STATUS_SUCCESS;
 
-    DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_NAME(VendorPropertiesBlock);
-    STRING vendorBlob;
-    RtlInitString(&vendorBlob, Blob);
-    WDFMEMORY vendorBlobMem;
-    RETURN_NTSTATUS_IF_FAILED(WdfMemoryCreatePreallocated(NULL, vendorBlob.Buffer, vendorBlob.MaximumLength, &vendorBlobMem));
-    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddBlob(ObjBag, &VendorPropertiesBlock, vendorBlobMem));
-
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, PropertiesBlock);
+    WDFMEMORY blobMem;
+    RETURN_NTSTATUS_IF_FAILED(WdfMemoryCreatePreallocated(NULL, Buffer, SizeCb, &blobMem));
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddBlob(ObjBag, &PropertiesBlock, blobMem));
 ```
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

@@ -2,9 +2,9 @@
 UID: NE:acxelements._ACX_CONSTRICTOR_OPTION
 tech.root: audio 
 title: ACX_CONSTRICTOR_OPTION
-ms.date: 08/31/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: The ACX_CONSTRICTOR_OPTION enumeration defines the ACX constrictor options.
+description: The ACX_CONSTRICTOR_OPTION enumeration defines the options for the loopback protection status of a stream audio engine node.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,23 +37,25 @@ dev_langs:
 
 ## -description
 
-The ACX_CONSTRICTOR_OPTION enumeration defines the ACX constrictor options. And audio constrictor is a used to TBD TBD TBD 
+The **ACX_CONSTRICTOR_OPTION** enumeration defines the options for the loopback protection status of a stream audio engine node.
 
 ## -enum-fields
 
 ### -field AcxConstrictorOptionNone
 
-Indicates that there are no constrictor options.
+This is the default state for the loopback protection status of a stream. When all active streams are in this state it indicates that the loopback tap contains meaningful data. 
 
 ### -field AcxConstrictorOptionMute
 
-Indicates that the constrictor option is mute.
+When an active stream is in this state it indicates that the loopback tap for the audio output will emit silence. 
 
 ## -remarks
 
-### Example
-
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE
 

@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitAddPins
 tech.root: audio
 title: AcxCircuitAddPins
-ms.date: 02/01/2022
+ms.date: 06/16/2022
 targetos: Windows
-description: The AcxCircuitAddPins function adds pins to an existing ACX circuit. 
+description: The AcxCircuitAddPins function adds pins to an ACXCIRCUIT. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,14 +42,14 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitAddPins function adds pins to an existing ACX circuit. 
+The **AcxCircuitAddPins** function adds pins to an ACXCIRCUIT.
 
 ## -parameters
 
 ### -param Circuit
 
- An existing ACXCIRCUIT circuit object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
- 
+An existing ACXCIRCUIT object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -param Pins
 
 An existing ACXPIN object that will be added to the circuit.
@@ -64,13 +64,11 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An AcxCircuit has an input pin and an output pin (ACXPIN), and it aggregates one or more AcxElements. 
+An ACXCIRCUIT has at least an input pin (ACXPIN) and an output pin (ACXPIN), and it may aggregate one or more ACXELEMENTs.
 
-TBD - The default pin ID has a value of TBD and is used to TBD...
+Each ACXCIRCUIT has at least one Sink pin and one Source pin. These pins are used by the ACX framework to expose the circuit’s connections to the audio stack. For a Render circuit, the Source pin is used to control the render behavior (device properties) of any stream created from the circuit. For a Capture circuit, the Sink pin is used to control the capture behavior (device properties) of any stream created from the circuit.
 
-Each ACXCIRCUIT has at least one Sink Pin and one Source Pin. These Pins are used by the ACX framework to expose the circuit’s connections to the audio stack. For a Render circuit, the Source Pin is used to control the render behavior of any stream created from the circuit. For a Capture circuit, the Sink Pin is used to control the capture behavior of any stream created from the circuit.
-
-ACXPIN is the object used to control streaming in the Audio Path. The head ACXCIRCUIT is responsible for creating the appropriate ACXPIN object(s) for the Endpoint Audio Path at circuit creation time and registering the ACXPINs with ACX. The ACXCIRCUIT only needs to create the render or capture pin or pins for the Circuit; the ACX framework will create the other pin needed to connect to and communicate with the circuit.
+ACXPIN is the object used to control streaming in the Audio Path. For simple ACXCIRCUIT toplogies, ACX is able to automatically create the other ACXPIN if only one is present.
 
 ### Example
 
@@ -98,5 +96,8 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

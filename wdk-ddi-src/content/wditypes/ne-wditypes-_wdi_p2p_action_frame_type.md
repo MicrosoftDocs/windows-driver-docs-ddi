@@ -85,3 +85,4 @@ Wi-Fi Direct Provision Discovery Response.
 
 ### -field WDI_P2P_ACTION_FRAME_MAX_VALUE
 
+The maximum value for this type.

@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTUnlock2
 title: D3DKMTUnlock2 function (d3dkmthk.h)
 description: The D3DKMTUnlock2 function unlocks a list of allocations.
 old-location: display\d3dkmtunlock2.htm
-ms.date: 05/10/2018
+ms.date: 03/02/2022
 keywords: ["D3DKMTUnlock2 function"]
 ms.keywords: D3DKMTUnlock2, D3DKMTUnlock2 function [Display Devices], d3dkmthk/D3DKMTUnlock2, display.d3dkmtunlock2
 req.header: d3dkmthk.h
@@ -44,28 +44,25 @@ api_name:
 
 # D3DKMTUnlock2 function
 
-
 ## -description
 
-The <b>D3DKMTUnlock2</b> function unlocks a list of allocations.
+The **D3DKMTUnlock2** function unlocks a list of allocations.
 
 ## -parameters
 
-### -param D3DKMT_UNLOCK2
+### -param unnamedParam1 [in]
 
-*pData* [in]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_unlock2">D3DKMT_UNLOCK2</a> structure that describes a list of allocations to unlock.
+A pointer to a [D3DKMT_UNLOCK2](ns-d3dkmthk-_d3dkmt_unlock2.md) structure that describes a list of allocations to unlock.
 
 ## -returns
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|The allocations were successfully unlocked.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The allocations were successfully unlocked. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
-This function might also return other <b>NTSTATUS</b> values.
+This function might also return other **NTSTATUS** values.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_unlock2">D3DKMT_UNLOCK2</a>
+[D3DKMT_UNLOCK2](ns-d3dkmthk-_d3dkmt_unlock2.md)

@@ -7,7 +7,7 @@ metadata:
   description: Windows Driver Kit (WDK) 10 is integrated with Microsoft Visual Studio and Debugging Tools for Windows. This integrated environment gives you the tools you need to develop, build, package, deploy, test, and debug Windows drivers. WDK includes templates for several technologies and driver models, including Windows Driver Frameworks (WDF), Universal Serial Bus (USB), print, networking, and file system filters.
   author: tedhudek
   ms.author: tedhudek
-  ms.date: 11/18/2020
+  ms.date: 03/18/2022
   ms.topic: landing-page
   ms.prod: windows-hardware
   ms.technology: wdk-api-reference

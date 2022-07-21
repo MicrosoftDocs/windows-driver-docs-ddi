@@ -2,9 +2,9 @@
 UID: NF:acxelements.AcxStreamAudioEngineCreate
 tech.root: audio 
 title: AcxStreamAudioEngineCreate
-ms.date: 09/23/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: TBD - The AcxStreamAudioEngineCreate function is used to create a stream audio engine that that will be associated with a stream ACX object parent. 
+description: The AcxStreamAudioEngineCreate function is used to create an ACX stream audio engine object that will be associated with an ACX stream object parent.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - The AcxStreamAudioEngineCreate function is used to create a stream audio engine that that will be associated with a stream ACX object parent. 
+The **AcxStreamAudioEngineCreate** function is used to create an ACX stream audio engine object that will be associated with an ACX stream object parent. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
@@ -52,7 +52,7 @@ An ACXSTREAM object that represents an audio stream on a specific circuit’s ha
 
 ### -param AudioEngine
 
-An ACXAUDIOENGINE audio engine object  that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXAUDIOENGINE object that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Attributes
 
@@ -60,11 +60,11 @@ Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/
 
 ### -param Config
 
-An initialized [ACX_STREAMAUDIOENGINE_CONFIG structure](ns-acxelements-acx_streamaudioengine_config.md) that describes the configuration of the audio engine.
+An initialized [ACX_STREAMAUDIOENGINE_CONFIG structure](ns-acxelements-acx_streamaudioengine_config.md) that describes the configuration of the stream audio engine.
 
 ### -param StreamAudioEngine
 
-A pointer to a location that receives the handle to the newly created ACXSTREAMAUDIOENGINE ACX audio stream engine object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+A pointer to a location that receives the handle to the newly created ACXSTREAMAUDIOENGINE object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -97,5 +97,9 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE
 

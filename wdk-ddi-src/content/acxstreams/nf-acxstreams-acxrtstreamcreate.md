@@ -2,9 +2,9 @@
 UID: NF:acxstreams.AcxRtStreamCreate
 tech.root: audio
 title: AcxRtStreamCreate
-ms.date: 07/09/2021
+ms.date: 02/10/2022
 targetos: Windows
-description: AcxRtStreamCreate creates an ACX RT-based Stream that is used by the OS to stream audio data
+description: AcxRtStreamCreate creates an ACX RT-based Stream that is used by the OS to stream audio data.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-AcxRtStreamCreate creates an ACX RTStream audio stream that is used by the OS to stream audio data
+AcxRtStreamCreate creates an ACX RTStream audio stream that is used by the OS to stream audio data.
 
 ## -parameters
 
@@ -123,6 +123,8 @@ Example Rt stream creation is shown below.
 
 ## -see-also
 
-[acxstreams.h header](index.md)
+- [acxstreams.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

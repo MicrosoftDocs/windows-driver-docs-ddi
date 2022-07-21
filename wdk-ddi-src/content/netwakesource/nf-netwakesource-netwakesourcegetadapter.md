@@ -3,7 +3,7 @@ UID: NF:netwakesource.NetWakeSourceGetAdapter
 title: NetWakeSourceGetAdapter function (netwakesource.h)
 description: The NetWakeSourceGetAdapter function gets the net adapter for a wake-on-LAN (WoL) source.
 tech.root: netvista
-ms.date: 10/07/2019
+ms.date: 04/01/2022
 keywords: ["NetWakeSourceGetAdapter function"]
 ms.keywords: NetWakeSourceGetAdapter
 req.header: netwakesource.h
@@ -49,7 +49,7 @@ The **NetWakeSourceGetAdapter** function gets the net adapter for a wake-on-LAN 
 
 ## -parameters
 
-### -param WakeSource
+### -param WakeSource [_In_]
 
 The NETWAKESOURCE object that represents the source of the wake-up event.
 

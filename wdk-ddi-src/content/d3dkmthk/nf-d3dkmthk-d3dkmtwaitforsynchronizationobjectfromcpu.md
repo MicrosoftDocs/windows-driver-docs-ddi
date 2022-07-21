@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTWaitForSynchronizationObjectFromCpu
 title: D3DKMTWaitForSynchronizationObjectFromCpu function (d3dkmthk.h)
 description: D3DKMTWaitForSynchronizationObjectFromCpu waits for a monitored fence to reach a certain value.
 old-location: display\d3dkmtwaitforsynchronizationobjectfromcpu.htm
-ms.date: 05/10/2018
+ms.date: 03/02/2022
 keywords: ["D3DKMTWaitForSynchronizationObjectFromCpu function"]
 ms.keywords: D3DKMTWaitForSynchronizationObjectFromCpu, D3DKMTWaitForSynchronizationObjectFromCpu function [Display Devices], d3dkmthk/D3DKMTWaitForSynchronizationObjectFromCpu, display.d3dkmtwaitforsynchronizationobjectfromcpu
 req.header: d3dkmthk.h
@@ -44,30 +44,27 @@ api_name:
 
 # D3DKMTWaitForSynchronizationObjectFromCpu function
 
-
 ## -description
 
-<b>D3DKMTWaitForSynchronizationObjectFromCpu</b> waits for a monitored fence to reach a certain value.
+**D3DKMTWaitForSynchronizationObjectFromCpu** waits for a monitored fence to reach a certain value.
 
 ## -parameters
 
-### -param D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
+### -param unnamedParam1 [in]
 
-*pData* [in]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforsynchronizationobjectfromcpu">D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU</a> structure that describes the operation.
+A pointer to a [D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU](ns-d3dkmthk-_d3dkmt_waitforsynchronizationobjectfromcpu.md) structure that describes the operation.
 
 ## -returns
 
 Returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|The operation was performed successfully.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The operation was performed successfully. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
-This function might also return other <b>NTSTATUS</b> values.
+This function might also return other **NTSTATUS** values.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforsynchronizationobjectfromcpu">D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU</a>
+[D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU](ns-d3dkmthk-_d3dkmt_waitforsynchronizationobjectfromcpu.md)

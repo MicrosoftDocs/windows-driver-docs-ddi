@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEHEAPANDRESOURCE_0003
 title: PFND3D12DDI_CREATEHEAPANDRESOURCE_0003 (d3d12umddi.h)
 description: The PFND3D12DDI_CREATEHEAPANDRESOURCE_0003 callback function simultaneously creates a heap and resource.
-ms.date: 10/19/2018
+ms.date: 05/24/2022
 keywords: ["PFND3D12DDI_CREATEHEAPANDRESOURCE_0003 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
@@ -50,23 +50,23 @@ Used to simultaneously create a heap and resource.
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE  
+### -param unnamedParam1  
 
-A handle to the display device (graphics context).
+A **D3D12DDI_HDEVICE** handle to the display device (graphics context).
 
-### -param unnamedParam2 
+### -param unnamedParam2
 
-Arguments used to create a heap.
+Pointer to a **D3D12DDIARG_CREATEHEAP_0001** structure containing arguments used to create a heap.
 
-### -param D3D12DDI_HHEAP 
+### -param UnnamedParam3
 
-A handle to a heap.
+A **D3D12DDI_HHEAP** handle to a heap.
 
-### -param D3D12DDI_HRTRESOURCE 
+### -param UnnamedParam4
 
-The handle of the resource for the driver to use when it calls back into the runtime.
+The **D3D12DDI_HRTRESOURCE** handle of the resource for the driver to use when it calls back into the runtime.
 
-### -param unnamedParam5 
+### -param unnamedParam5
 
 Arguments used to create a resource.
 
@@ -74,9 +74,9 @@ Arguments used to create a resource.
 
 Used to clear the values of the resource.
 
-### -param D3D12DDI_HRESOURCE 
+### -param unnamedParam7
 
-The handle of the resource.
+The **D3D12DDI_HRESOURCE** handle of the resource.
 
 ## -returns
 

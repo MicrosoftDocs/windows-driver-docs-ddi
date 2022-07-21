@@ -2,7 +2,7 @@
 UID: NF:acxmisc.AcxObjectBagAddSizeT
 tech.root: audio
 title: AcxObjectBagAddSizeT
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The AcxObjectBagAddSizeT function adds a SIZE_T entry to an existing, intialized AcxObjectBag.
 prerelease: true
@@ -66,5 +66,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

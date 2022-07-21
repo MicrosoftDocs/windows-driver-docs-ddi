@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatGetSamplesPerBlock
 tech.root: audio
 title: AcxDataFormatGetSamplesPerBlock
-ms.date: 01/10/2022
+ms.date: 05/31/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatGetSamplesPerBlock function gets the number of samples per block for the specified data format.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,27 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetSamplesPerBlock** function gets the number of samples per block for the specified data format.
+
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
+
+The data format for which to retrieve the number of samples per block.
 
 ## -returns
 
+Returns a ULONG value containing the number of samples per block for the specified *DataFormat*.
+
 ## -remarks
+
+Number of samples contained in one compressed block of audio data. This value is used in buffer estimation. This value is used with compressed formats that have a fixed number of samples within each block. This value can be set to zero if a variable number of samples is contained in each block of compressed audio data. In this case, buffer estimation and position information needs to be obtained in other ways.
 
 ## -see-also
 
+- [WAVEFORMATEXTENSIBLE structure](/previous-versions/windows/desktop/legacy/dd390971(v=vs.85))
+- [acxdataformat.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

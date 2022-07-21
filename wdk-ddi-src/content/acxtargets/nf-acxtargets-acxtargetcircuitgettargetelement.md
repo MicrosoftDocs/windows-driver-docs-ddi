@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetCircuitGetTargetElement
 ms.date: 02/02/2022
 targetos: Windows
-description: The AcxTargetCircuitGetTargetElement function, given a valid element index value, will return an ACXTARGETELEMENT ACX Object that is associated with the specified circuit.
+description: The AcxTargetCircuitGetTargetElement function, given a valid element index value, will return the associated ACXTARGETELEMENT object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxTargetCircuitGetTargetElement function, given a valid element index value, will return an ACXTARGETELEMENT ACX Object that is associated with the specified circuit.
+The **AcxTargetCircuitGetTargetElement** function, given a valid element index value, will return the associated ACXTARGETELEMENT object.
 
 ## -parameters
 
 ### -param TargetCircuit
 
-A pointer to a location of an existing ACXTARGETCIRCUIT Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXTARGETCIRCUIT handle. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param ElementIndex
 
@@ -59,8 +59,6 @@ A valid element index value.
 Returns a ACXTARGETELEMENT ACX Object that is associated with the specified circuit.
 
 ## -remarks
-
-Framework request objects represent I/O requests that the I/O manager has sent to a driver. Framework-based drivers process each I/O request by calling framework request object methods. For more information, see [Framework Request Objects](/windows-hardware/drivers/wdf/framework-request-objects).
 
 ### Example
 
@@ -84,4 +82,6 @@ Framework request objects represent I/O requests that the I/O manager has sent t
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+
+READY2GO

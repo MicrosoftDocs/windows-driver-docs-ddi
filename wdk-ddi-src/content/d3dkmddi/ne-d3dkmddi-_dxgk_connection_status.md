@@ -1,9 +1,9 @@
 ---
 UID: NE:d3dkmddi._DXGK_CONNECTION_STATUS
-title: _DXGK_CONNECTION_STATUS (d3dkmddi.h)
+title: DXGK_CONNECTION_STATUS (d3dkmddi.h)
 description: Enumeration indicating the connection status values which can be reported.
 old-location: display\dxgk_connection_status.htm
-ms.date: 05/10/2018
+ms.date: 05/24/2022
 keywords: ["DXGK_CONNECTION_STATUS enumeration"]
 ms.keywords: "*PDXGK_CONNECTION_STATUS, ConnectionStatusUninitialized, DXGK_CONNECTION_STATUS, DXGK_CONNECTION_STATUS enumeration [Display Devices], LinkConfigurationFailed, LinkConfigurationStarted, LinkConfigurationSucceeded, MonitorStatusConnected, MonitorStatusDisconnected, MonitorStatusUnknown, TargetStatusConnected, TargetStatusDisconnected, TargetStatusJoined, _DXGK_CONNECTION_STATUS, d3dkmddi/ConnectionStatusUninitialized, d3dkmddi/DXGK_CONNECTION_STATUS, d3dkmddi/LinkConfigurationFailed, d3dkmddi/LinkConfigurationStarted, d3dkmddi/LinkConfigurationSucceeded, d3dkmddi/MonitorStatusConnected, d3dkmddi/MonitorStatusDisconnected, d3dkmddi/MonitorStatusUnknown, d3dkmddi/TargetStatusConnected, d3dkmddi/TargetStatusDisconnected, d3dkmddi/TargetStatusJoined, display.dxgk_connection_status"
 req.header: d3dkmddi.h
@@ -46,8 +46,7 @@ api_name:
  - DXGK_CONNECTION_STATUS
 ---
 
-# _DXGK_CONNECTION_STATUS enumeration
-
+# DXGK_CONNECTION_STATUS enumeration
 
 ## -description
 
@@ -101,9 +100,6 @@ Indicates that link configuration has completed successfully and that the reques
 
 If the target was previously enabled, then scan-out of pixels has resumed.  The OS will respond by turning v-blank interrupts back on and resuming flips as needed.
 
-### -field UINT
-
 ## -remarks
 
 Other than the uninitialized state, the values fall into three categories: target changes, monitor changes and link configuration changes.  Target changes represent the addition and removal of targets; monitor changes report the connection status of monitors which are attached to targets and link configuration changes report the status of the link to a monitor.
-

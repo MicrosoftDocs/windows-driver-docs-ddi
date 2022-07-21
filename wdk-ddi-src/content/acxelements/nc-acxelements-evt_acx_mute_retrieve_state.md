@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_MUTE_RETRIEVE_STATE
 tech.root: audio 
 title: EVT_ACX_MUTE_RETRIEVE_STATE
-ms.date: 09/16/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: TBD - EVT_ACX_MUTE_RETRIEVE_STATE tells the driver that a request to retrieve the mute state has made???.
+description: The EVT_ACX_MUTE_RETRIEVE_STATE callback function is implemented by the driver and is called when the state of a specified channel on a mute node is requested. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_MUTE_RETRIEVE_STATE tells the driver that a request to retrieve the mute state has been made???.
+The **EVT_ACX_MUTE_RETRIEVE_STATE** callback function is implemented by the driver and is called when the state of a specified channel on a mute node is requested. 
 
 ## -parameters
 
@@ -52,13 +52,11 @@ An existing, initialized, ACXMUTE object. For more information about ACX objects
 
 ### -param Channel
 
-TBD - A number that represents the channel that is active (present -TBD?)
+A ULONG referring to a channel on the specified mute node. If this value is -1, then it refers to the master channel which represents the state of all channels on the mute node.
 
 ### -param State
 
-TBD - is this the desired or current mute state? 
-
-TODO: This is a ulong, but wondering if it would better to reference a state enum such as ACX_STREAM_STATE?
+A ULONG indicating the state of the specified channel on the mute node (i.e. whether or not the channel is muted). A value of 0 (FALSE) indicates the channel is not muted. A value of 1 (TRUE) indicates that the channel is muted. 
 
 ## -returns
 
@@ -71,6 +69,12 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 Example usage is shown below.
 
 ```cpp
+typedef struct _CODEC_MUTE_ELEMENT_CONTEXT {
+    BOOL            MuteState[MAX_CHANNELS]; 
+} CODEC_MUTE_ELEMENT_CONTEXT, *PCODEC_MUTE_ELEMENT_CONTEXT;
+
+WDF_DECLARE_CONTEXT_TYPE_WITH_NAME(CODEC_MUTE_ELEMENT_CONTEXT, GetCodecMuteElementContext)
+
 EVT_ACX_MUTE_RETRIEVE_STATE         CodecR_EvtMuteRetrieveState;
 
 NTAPI
@@ -103,5 +107,8 @@ CodecR_EvtMuteRetrieveState(
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

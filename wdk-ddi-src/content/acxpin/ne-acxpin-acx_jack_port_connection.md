@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_JACK_PORT_CONNECTION
 tech.root: audio
 title: ACX_JACK_PORT_CONNECTION
-ms.date: 10/27/2021
+ms.date: 03/25/2022
 targetos: Windows
 description: The ACX_JACK_PORT_CONNECTION enumeration is used by the ACX_JACK_DESCRIPTION structure and specifies the type of port represented by the jack.
 prerelease: false
@@ -63,3 +63,9 @@ Indicates that the port type is unknown.
 ## -remarks
 
 ## -see-also
+
+- [acxpin.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

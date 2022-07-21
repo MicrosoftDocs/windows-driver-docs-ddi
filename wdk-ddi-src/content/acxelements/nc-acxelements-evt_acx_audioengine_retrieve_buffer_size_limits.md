@@ -2,9 +2,9 @@
 UID: NC:acxelements.EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS
 tech.root: audio 
 title: EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS
-ms.date: 09/03/2021
+ms.date: 04/29/2022
 targetos: Windows
-description: TBD - EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS tells the driver to that the audio engine is (?? TBD has ) retrieving buffer size limits.
+description: The EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS callback is implemented by the driver and is called when the buffer size limits for a given data format are requested for the specified audio engine. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,29 +42,25 @@ dev_langs:
 
 ## -description
 
-TBD - EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS tells the driver to that the audio engine is (?? TBD has ) retrieving buffer size limits.
+The **EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS** callback is implemented by the driver and is called when the buffer size limits for a given data format are requested for the specified audio engine. 
 
 ## -parameters
 
 ### -param AudioEngine
 
-An ACXAUDIOENGINE ACX audio engine object  that is used in a render circuit, to represent a DSP. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The ACXAUDIOENGINE object for which the buffer size limits have been requested. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Format
 
-TBD - An ACXDATAFORMAT object that describes the engine format.
-
-TBD - A TBD type of audio format that is / will be used by the audio engine.
-
-KSPROPERTY_PIN_PROPOSEDATAFORMAT WAVEFORMAT EXTENSIBLE?
+The ACXDATAFORMAT for which the callback is determining the min and max buffer sizes the audio engine can accomodate it with. 
 
 ### -param MinBufferSizeInBytes
 
-The minimum audio engine buffer size in bytes.
+The minimum size of buffer that the hardware audio engine can support for the given data format, at the instance when it is called. The buffer size is specified in bytes. 
 
 ### -param MaxBufferSizeInBytes
 
-The maximum audio engine buffer size in bytes.
+The maximum size of buffer that the hardware audio engine can support for the given data format, at the instance when it is called. The buffer size is specified in bytes. 
 
 ## -returns
 
@@ -80,11 +76,11 @@ Example usage is shown below.
 EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS CodecR_EvtAcxAudioEngineRetrieveBufferSizeLimits;
 
 NTSTATUS
-DspR_EvtAcxAudioEngineRetrieveBufferSizeLimits(
-    ACXAUDIOENGINE,
-    ACXDATAFORMAT   DataFormat,
-    PULONG          MinBufferBytes,
-    PULONG          MaxBufferBytes
+CodecR_EvtAcxAudioEngineRetrieveBufferSizeLimits(
+    _In_    ACXAUDIOENGINE  AudioEngine,
+    _In_    ACXDATAFORMAT   DataFormat,
+    _Out_   PULONG          MinBufferBytes,
+    _Out_   PULONG          MaxBufferBytes
     )
 {
     PAGED_CODE();
@@ -100,5 +96,8 @@ DspR_EvtAcxAudioEngineRetrieveBufferSizeLimits(
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

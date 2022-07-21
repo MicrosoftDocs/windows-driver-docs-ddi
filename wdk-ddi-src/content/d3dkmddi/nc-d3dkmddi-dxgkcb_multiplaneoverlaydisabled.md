@@ -3,7 +3,7 @@ UID: NC:d3dkmddi.DXGKCB_MULTIPLANEOVERLAYDISABLED
 title: DXGKCB_MULTIPLANEOVERLAYDISABLED (d3dkmddi.h)
 description: This callback allows the kernel mode driver to indicate that the current multiplane overlay configuration is no longer supported on the specified VidPnSourceId.
 old-location: display\dxgkcb_multiplaneoverlaydisabled.htm
-ms.date: 10/13/2021
+ms.date: 05/24/2022
 keywords: ["DXGKCB_MULTIPLANEOVERLAYDISABLED callback function"]
 ms.keywords: DXGKCB_MULTIPLANEOVERLAYDISABLED, DXGKCB_MULTIPLANEOVERLAYDISABLED callback, DXGKCB_MULTIPLANEOVERLAYDISABLED callback function [Display Devices], d3dkmddi/DXGKCB_MULTIPLANEOVERLAYDISABLED, display.dxgkcb_multiplaneoverlaydisabled
 req.header: d3dkmddi.h
@@ -57,10 +57,6 @@ Handle to the adapter on which the current MPO hardware configuration is no long
 ### -param VidPnSourceId [in]
 
 The *VidPnSourceId* on which the current MPO hardware configuration is no longer supported.
-
-## -returns
-
-**DXGKCB_MULTIPLANEOVERLAYDISABLED** returns STATUS_SUCCESS on successful completion; otherwise it returns an appropriate NTSTATUS error code.
 
 ## -remarks
 

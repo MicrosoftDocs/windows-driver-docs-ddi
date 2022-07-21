@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetFactoryCircuitFormatRequestForMethod
 tech.root: audio
 title: AcxTargetFactoryCircuitFormatRequestForMethod
-ms.date:  11/11/2021
+ms.date: 04/25/2022
 targetos: Windows
-description: 
+description: The AcxTargetFactoryCircuitFormatRequestForMethod formats a WDFREQUEST as an ACX method request to be used on specified circuit factory target.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,20 +42,21 @@ dev_langs:
 
 ## -description
 
+The **AcxTargetFactoryCircuitFormatRequestForMethod**  formats a WDFREQUEST as an ACX method request to be used on specified circuit factory target.
+
 ## -parameters
 
 ### -param TargetFactoryCircuit
 
+An ACXTARGETFACTORYCIRCUIT handle. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -param Request
+
+A WDFREQUEST handle described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects). For general information about WDF requests, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects).
 
 ### -param Params
 
-TBD 
-
 An initialized [ACX_REQUEST_PARAMETERS](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_request_parameters.md) structure that is used to store request parameter information.
-
-TBD 
-
 
 ## -returns
 
@@ -67,11 +68,10 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ```cpp
 
-TBD
-
-
 ```
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+ 
+READY2GO

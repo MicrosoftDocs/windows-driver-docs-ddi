@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitSetCircuitType
 ms.date: 02/01/2022
 targetos: Windows
-description: The AcxCircuitInitSetCircuitType function is used to set the circuit type for the ACX circuit initialization process.
+description: The AcxCircuitInitSetCircuitType function is used to set the circuit type of the ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCircuitInitSetCircuitType function is used to set the circuit type for the ACX circuit initialization process.
+The **AcxCircuitInitSetCircuitType** function is used to set the circuit type of the ACXCIRCUIT.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param CircuitType
 
-An [ACX_CIRCUIT_TYPE enum](ne-acxcircuit-acx_circuit_type.md) that is used to define the circuit type. For example, AcxCircuitTypeRender, AcxCircuitTypeCapture or AcxCircuitTypeOther. 
+An [ACX_CIRCUIT_TYPE enum](ne-acxcircuit-acx_circuit_type.md) that is used to define the circuit type. For example, AcxCircuitTypeRender, AcxCircuitTypeCapture or AcxCircuitTypeOther.
 
 ## -remarks
 
@@ -72,5 +72,6 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

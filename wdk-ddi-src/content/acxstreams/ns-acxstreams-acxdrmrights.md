@@ -74,12 +74,12 @@ Specifies one of the following digital output protection values:
 
 **FALSE**  Enables digital outputs. Content can be transferred from the host system to an external component without restrictions.
 
-
 ## -remarks
 
-If the driver supports DRMRIGHTS and also implements a proprietary copy protection mechanism, the driver must aggregate the result of the proprietary implementation with the values of CopyProtect and DigitalOutputDisable to determine the final copy protection state. The final copy protection state must be the most restrictive of all outstanding copy protection requests. 
+If the driver supports DRMRIGHTS and also implements a proprietary copy protection mechanism, the driver must aggregate the result of the proprietary implementation with the values of CopyProtect and DigitalOutputDisable to determine the final copy protection state. The final copy protection state must be the most restrictive of all outstanding copy protection requests.
 
 ## -see-also
 
-[acxstreams.h header](index.md)
+- [acxstreams.h header](index.md)
 
+TBD - Please review this topic

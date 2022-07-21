@@ -1,41 +1,28 @@
 ---
 UID: NS:acpitabl._LPI_STATE_FLAGS
-title: _LPI_STATE_FLAGS (acpitabl.h)
-description: Defines LPI state flags, either as a structure or as an integer.
-old-location: acpi\lpi_state_flags.htm
 tech.root: acpi
-ms.date: 02/15/2018
-keywords: ["LPI_STATE_FLAGS structure"]
-ms.keywords: "*PLPI_STATE_FLAGS, LPI_STATE_FLAGS, LPI_STATE_FLAGS union [ACPI Devices], _LPI_STATE_FLAGS, acpi.lpi_state_flags, acpitabl/LPI_STATE_FLAGS"
+title: LPI_STATE_FLAGS (acpitabl.h)
+ms.date: 02/28/2022
+targetos: Windows
+description: Defines LPI state flags, either as a structure or as an integer.
+prerelease: false
+req.construct-type: structure
+req.ddi-compliance: 
+req.dll: 
 req.header: acpitabl.h
 req.include-header: Acpitabl.h
-req.target-type: Windows
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.redist: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
-targetos: Windows
+req.target-type: Windows
 req.typenames: LPI_STATE_FLAGS, *PLPI_STATE_FLAGS
-f1_keywords:
- - _LPI_STATE_FLAGS
- - acpitabl/_LPI_STATE_FLAGS
- - PLPI_STATE_FLAGS
- - acpitabl/PLPI_STATE_FLAGS
- - LPI_STATE_FLAGS
- - acpitabl/LPI_STATE_FLAGS
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
  - HeaderDef
 api_location:
@@ -44,10 +31,18 @@ api_name:
  - _LPI_STATE_FLAGS
  - PLPI_STATE_FLAGS
  - LPI_STATE_FLAGS
+f1_keywords:
+ - _LPI_STATE_FLAGS
+ - acpitabl/_LPI_STATE_FLAGS
+ - PLPI_STATE_FLAGS
+ - acpitabl/PLPI_STATE_FLAGS
+ - LPI_STATE_FLAGS
+ - acpitabl/LPI_STATE_FLAGS
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - _LPI_STATE_FLAGS
 ---
-
-# _LPI_STATE_FLAGS structure
-
 
 ## -description
 
@@ -57,20 +52,20 @@ Defines LPI state flags, either as a structure or as an integer.
 
 ### -field Disabled
 
+Defines the **ULONG** member **Disabled**.
+
 ### -field CounterUnavailable
+
+Defines the **ULONG** member **CounterUnavailable**.
 
 ### -field Reserved
 
+Reserved for future use.
+
 ### -field AsUlong
 
-An LPI state as an integer. 
+Defines the **ULONG** member **AsUlong**.
 
+## -remarks
 
-### -field {
-        ULONG Disabled:1;
-        ULONG CounterUnavailable:1;
-        ULONG Reserved:30;
-    }
-
-An LPI state as a structure.
-
+## -see-also

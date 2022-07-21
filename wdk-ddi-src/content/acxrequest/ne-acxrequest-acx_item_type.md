@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_ITEM_TYPE
 ms.date: 02/07/2022
 targetos: Windows
-description: The ACX_ITEM_TYPE enumeration describes the type of items that will be available.
+description: The ACX_ITEM_TYPE enumeration describes the possible types of items.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_ITEM_TYPE** enumeration describes the type of items that will be available.
+The **ACX_ITEM_TYPE** enumeration describes the possible types of items.
 
 ## -enum-fields
 
@@ -70,7 +70,7 @@ An Element type.
 
 ### -field AcxItemTypeMax
 
-TBD - For internal validation, do not use.
+For internal validation, do not use.
 
 ## -remarks
 
@@ -78,7 +78,7 @@ TBD - For internal validation, do not use.
 
 Example usage is shown below.
 
-TBD - Sample pending
+Sample pending
 
 ```cpp
 
@@ -86,5 +86,6 @@ TBD - Sample pending
 
 ## -see-also
 
-[acxrequest.h header](index.md)
+- [acxrequest.h header](index.md)
 
+READY2GO

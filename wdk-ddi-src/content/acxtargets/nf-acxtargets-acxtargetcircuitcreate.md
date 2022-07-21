@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetCircuitCreate
 ms.date: 01/07/2022
 targetos: Windows
-description: The AcxTargetCircuitCreate function is used to create a target circuit.
+description: The AcxTargetCircuitCreate function is used to create an ACX target circuit.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxTargetCircuitCreate function is used to create a target circuit.
+The **AcxTargetCircuitCreate** function is used to create an ACX target circuit.
 
 ## -parameters
 
@@ -71,16 +71,18 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 ```cpp
-    ACX_TARGET_CIRCUIT_CONFIG targetCktCfg;
-    ACX_TARGET_CIRCUIT_CONFIG_INIT(&targetCktCfg);
-    targetCktCfg.SymbolicLinkName = link;
+    ACX_TARGET_CIRCUIT_CONFIG targetCfg;
+    ACX_TARGET_CIRCUIT_CONFIG_INIT(&targetCfg);
+    targetCfg.SymbolicLinkName = link;
 
     WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
     attributes.ParentObject = Circuit;
 
-    RETURN_NTSTATUS_IF_FAILED(AcxTargetCircuitCreate(AcxCircuitGetWdfDevice(Circuit), &attributes, &targetCktCfg, TargetCircuit));
+    RETURN_NTSTATUS_IF_FAILED(AcxTargetCircuitCreate(AcxCircuitGetWdfDevice(Circuit), &attributes, &targetCfg, TargetCircuit));
 ```
 
 ## -see-also
 
-[acxtargets.h header](index.md)
+- [acxtargets.h header](index.md)
+ 
+READY2GO

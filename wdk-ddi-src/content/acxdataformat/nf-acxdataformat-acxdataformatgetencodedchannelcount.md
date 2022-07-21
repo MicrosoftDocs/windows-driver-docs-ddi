@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatGetEncodedChannelCount
 tech.root: audio
 title: AcxDataFormatGetEncodedChannelCount
-ms.date: 01/10/2022
+ms.date: 05/31/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatGetEncodedChannelCount function gets the channel count for the specified encoded data format.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,25 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetEncodedChannelCount** function gets the channel count for the specified encoded data format.
+
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
+
+The encoded data format for which to retrieve the channel count.
 
 ## -returns
+
+Returns a ULONG value that contains the channel count for the specified *DataFormat*.
 
 ## -remarks
 
 ## -see-also
 
+- [Representing Formats for IEC 61937 Transmissions](/windows/win32/coreaudio/representing-formats-for-iec-61937-transmissions)
+- [acxdataformat.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

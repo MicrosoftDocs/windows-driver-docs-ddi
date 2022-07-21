@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveUI8
 tech.root: audio
 title: AcxObjectBagRetrieveUI8
-ms.date: 01/28/2022
+ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveUI8 function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveUI8 function retrieves an unsigned int eight byte UI8 (ULONG64) value from an existing, intialized AcxObjectBag that contains values. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveUI8 function retrieves a value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveUI8 function retrieves an unsigned int eight byte UI8 (ULONG64) value from an existing, intialized AcxObjectBag that contains values. 
 
 ## -parameters
 
@@ -69,33 +69,41 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 This example shows the use of AcxObjectBagRetrieveUI8.
 
 ```cpp
-    DECLARE_CONST_UNICODE_STRING(UI8Str,   L"Value_UI81");
+    ACXOBJECTBAG objBag     = NULL;
+    ULONG64      ui8Value   = 0;
 
-    // Create a simple object.
-    ACX_OBJECTBAG_CONFIG_INIT(&cfg1);
-    WDF_OBJECT_ATTRIBUTES_INIT(&attr);
-    attr.ParentObject = WdfGetDriver();
+    //Initialize an object bag configuration
+    ACX_OBJECTBAG_CONFIG objBagCfg;
+    ACX_OBJECTBAG_CONFIG_INIT(&objBagCfg);
     
-    status = AcxObjectBagCreate(&attr, &cfg1, &bag1);
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
+    // Set the WDF attributes, and create an object bag 
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+    attributes.ParentObject = Circuit;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagCreate(&attributes, &objBagCfg, &objBag));
 
-    status = AcxObjectBagAddUI8(bag1, &UI8Str, ul64Value);
+    // Enable deletion of the object bag when the function completes and goes out of scope
+    auto objBag_scope = scope_exit([&objBag]() {
+        if (objBag != NULL)
+        {
+            WdfObjectDelete(objBag);
+        }
+    });
 
-    if (!NT_SUCCESS(status))
-    {
-        ASSERT(FALSE);
-        goto exit;
-    }
+    //Create Properties and add them to an object bag
+    DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI8);
 
-    // Read written values.
-    status = AcxObjectBagRetrieveUI8(bag1, &UI8Str, &ul64Value2);
+    ui8Value = 0x9876543210;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddUI8(objBag, &TestUI8, ui8Value));
+
+    // Retrieve the value from the object bag
+    ui8Value = 0;
+    RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveUI8(objBag, &TestUI8, &ui8Value));
 ```
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

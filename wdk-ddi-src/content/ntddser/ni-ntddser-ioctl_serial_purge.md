@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_PURGE (ntddser.h)
 description: The IOCTL_SERIAL_PURGE request cancels the specified requests and deletes data from the specified buffers.
 old-location: serports\ioctl_serial_purge.htm
 tech.root: serports
-ms.date: 04/23/2018
+ms.date: 05/20/2022
 keywords: ["IOCTL_SERIAL_PURGE IOCTL"]
 ms.keywords: IOCTL_SERIAL_PURGE, IOCTL_SERIAL_PURGE control, IOCTL_SERIAL_PURGE control code [Serial Ports], ntddser/IOCTL_SERIAL_PURGE, serports.ioctl_serial_purge, serref_d52cfcec-8098-4319-b601-14187a77e438.xml
 req.header: ntddser.h
@@ -54,6 +54,26 @@ The completion of the purge request does not indicate that the requests canceled
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated ULONG that is used to input a <i>purge mask</i>. The client sets the purge mask to a bitwise-OR of one or more of the following purge flags:
+
+SERIAL_PURGE_RXABORT
+<ul>
+Purges all read (IRP_MJ_READ) requests.
+</ul>
+
+SERIAL_PURGE_RXCLEAR 
+<ul>
+Purges the receive buffer, if one exists.
+</ul>
+
+SERIAL_PURGE_TXABORT 
+<ul>
+Purges all write (IRP_MJ_WRITE) requests.
+</ul>
+
+SERIAL_PURGE_TXCLEAR 
+<ul>
+Purges the transmit buffer, if one exists.
+</ul>
 
 ### -input-buffer-length
 

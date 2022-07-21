@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatListRemoveDataFormat
 tech.root: audio
 title: AcxDataFormatListRemoveDataFormat
-ms.date: 01/10/2022
+ms.date: 05/31/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatListRemoveDataFormat function removes the specified ACX data format from an ACX data format list.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,30 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatListRemoveDataFormat** function removes the specified ACX data format from an ACX data format list.
+
 ## -parameters
 
-### -param AcxDataFormatList
+### -param AcxDataFormatList [in]
 
-### -param AcxDataFormat
+The ACX data format list from which to remove *AcxDataFormat*.
+
+### -param AcxDataFormat [in]
+
+The [ACXDATAFORMAT](index.md) object to remove from *AcxDataFormatList*.
 
 ## -returns
+
+The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this method might return an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** error code.
 
 ## -remarks
 
 ## -see-also
 
+- [AcxDataFormatListAddDataFormat](nf-acxdataformat-acxdataformatlistadddataformat.md)
+- [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
+- [acxdataformat.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

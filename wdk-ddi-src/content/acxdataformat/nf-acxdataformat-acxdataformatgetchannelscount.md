@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.AcxDataFormatGetChannelsCount
 tech.root: audio
 title: AcxDataFormatGetChannelsCount
-ms.date: 01/10/2022
+ms.date: 05/31/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatGetChannelsCount function gets the number of audio channels in the specified data format.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,25 @@ dev_langs:
 
 ## -description
 
+The **AcxDataFormatGetChannelsCount** function gets the number of audio channels in the specified data format.
+
 ## -parameters
 
-### -param DataFormat
+### -param DataFormat [in]
+
+The data format for which to retrieve the count of channels.
 
 ## -returns
+
+Returns a USHORT value containing the number of channels specified in the *DataFormat*.
 
 ## -remarks
 
 ## -see-also
 
+- [WAVEFORMAT structure](/windows/win32/api/mmreg/ns-mmreg-waveformat)
+- [acxdataformat.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE

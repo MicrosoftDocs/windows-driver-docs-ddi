@@ -2,9 +2,9 @@
 UID: NC:acxevents.EVT_ACX_EVENT_DISABLE
 tech.root: audio
 title: EVT_ACX_EVENT_DISABLE
-ms.date: 12/13/2021
+ms.date: 06/22/2022
 targetos: Windows
-description: The EVT_ACX_EVENT_DISABLE callback is used by the driver to add functionality when the ACX engine is requesting that an ACX Event be disabled.
+description: The EVT_ACX_EVENT_DISABLE callback is used by the driver to disable the ACXEVENT source.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_EVENT_DISABLE** callback is used by the driver to add functionality when the ACX engine is requesting that an ACX Event be disabled.
+The **EVT_ACX_EVENT_DISABLE** callback is used by the driver to disable the ACXEVENT source.
 
 ## -parameters
 
@@ -54,35 +54,44 @@ The ACXEVENT object (described in [Summary of ACX Objects](/windows-hardware/dri
 
 ### Example
 
-TBD - Is this code sample OK?
-
 This sample shows the use of the EVT_ACX_EVENT_DISABLE callback.
 
 ```cpp
-EVT_ACX_EVENT_DISABLE               CodecR_EvtMuteElementDisableCallback;
+    //
+    // Add enable/disable callbacks for this element.
+    //
+    ACX_EVENT_CALLBACKS_INIT(&eventCallbacks);
+    eventCallbacks.EvtAcxEventEnable = &TestElement::EvtEventEnableCallback; 
+    eventCallbacks.EvtAcxEventDisable = &TestElement::EvtEventDisableCallback;
 
-VOID
-CodecR_EvtMuteElementDisableCallback(
+    ACX_EVENT_CONFIG_INIT(&eventCfg);
+
+NTSTATUS
+TestElement::EvtEventDisableCallback(
     _In_ ACXEVENT Event
     )
 {
-    CODEC_MUTE_EVENT_CONTEXT *  muteEventCtx;
-
+    TEST_EVENT_CONTEXT * eventCtx;
+    TestElement * This;
+    
     PAGED_CODE();
-    
-    // for testing. 
-    muteEventCtx = GetCodecMuteEventContext(Event);
-    ASSERT(muteEventCtx);
-    
-    ASSERT(muteEventCtx->Timer);
-    WdfTimerStop(muteEventCtx->Timer, TRUE);
+
+    eventCtx = GetTestEventContext(Event);
+    ASSERT(eventCtx != NULL);
+    ASSERT(eventCtx->TestElement != NULL);
+
+    This = eventCtx->TestElement;
+
+    // Add code to disable event source.    
+
+    return STATUS_SUCCESS;
 }
 ```
 
-
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxevents.h header](index.md)
 
+READY2GO
 
-
+EDITCOMPLETE

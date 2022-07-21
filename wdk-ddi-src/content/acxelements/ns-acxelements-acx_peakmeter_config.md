@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_PEAKMETER_CONFIG
 tech.root: audio 
 title: ACX_PEAKMETER_CONFIG
-ms.date: 09/02/2021
+ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_PEAKMETER_CONFIG structure is used to define the audio peakmeter configuration. 
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_PEAKMETER_CONFIG structure is used to define the audio peakmeter configuration. 
+The **ACX_PEAKMETER_CONFIG** structure is used to define the ACX peakmeter configuration.
 
 ## -struct-fields
 
@@ -58,31 +58,29 @@ A number that represents the element ID.
 
 ### -field Name
 
-A pointer to a GUID that represents the name of the element. Can be used for debugging and will default to GUID_NULL if not provided.
+A pointer to a GUID that represents the name of the element. It defaults to KSAUDFNAME_PEAKMETER if not present.
 
 ### -field Flags
 
-Audio engine configuration flags defined by the [ACX_PEAKMETER_CONFIG_FLAGS enum](ne-acxelements-acx_peakmeter_config_flags.md). 
+ACX peakmeter configuration flags defined by the [ACX_PEAKMETER_CONFIG_FLAGS enum](ne-acxelements-acx_peakmeter_config_flags.md).
 
 No flag bits are currently defined. Set this member to zero - AcxPeakMeterConfigNoFlags.
 
 ### -field ChannelsCount
 
-TBD - The number of channels. This is a one based count.
+The number of channels. This is a one based count.
 
 ### -field Maximum
 
-TBD - The maximum TBD for the peakmeter.
-
-TBD - Does the value description here apply in ACX?? [KSPROPERTY_AUDIO_PEAKMETER2](/windows-hardware/drivers/audio/ksproperty-audio-peakmeter2)
+The maximum value for the peakmeter. SignedMaximum must be set to LONG_MAX.
 
 ### -field Minimum
 
-TBD - The minimum TBD for the peakmeter.
+The minimum value for the peakmeter. SignedMinimum must be set to LONG_MIN.
 
 ### -field SteppingDelta
 
-TBD - The stepping value for the peakmeter. This is measured in TBD.
+The stepping value for the peakmeter.
 
 ### -field Callbacks
 
@@ -90,11 +88,24 @@ The [ACX_PEAKMETER_CALLBACKS structure](ns-acxelements-acx_peakmeter_callbacks.m
 
 ## -remarks
 
+For example, you have a waveform with negative and positive peaks at -1 and +1 respectively (on a scale that goes from -1 to +1), then a peak meter value of LONG_MAX accurately reports the maximum waveform value for a given time window. Conversely, a peak meter value of zero (0) should be used to report silence, where all the waveform’s values are zero. But in the case of a waveform whose peak values are between zero (0) and LONG_MAX, the reported waveform values would be linearly reduced from the originals.
+
+Therefore, in the case of the waveform that swings between -0.5 and +0.5 (on a scale that goes from -1 to +1), the peak meter value must be set to LONG_MAX/2.
+
+The driver handles this property request synchronously. If the request succeeds, it resets the peakmeter, which initializes the accumulated peak value to zero. If the request does not succeed, the peakmeter is not changed.
+
+See also [KSPROPERTY_AUDIO_PEAKMETER2](/windows-hardware/drivers/audio/ksproperty-audio-peakmeter2).
+
 ### Example
 
 Example usage is shown below.
 
 ```cpp
+// Default peak meter settings
+#define PEAKMETER_STEPPING_DELTA    0x1000
+#define PEAKMETER_MAXIMUM           LONG_MAX
+#define PEAKMETER_MINIMUM           LONG_MIN
+
     ACX_PEAKMETER_CONFIG            peakmeterCfg;
 
         ACX_PEAKMETER_CALLBACKS peakmeterCallbacks;
@@ -112,5 +123,8 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxelements.h header](index.md)
+- [acxelements.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

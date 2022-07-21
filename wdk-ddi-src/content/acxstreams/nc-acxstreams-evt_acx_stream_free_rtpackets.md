@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_FREE_RTPACKETS
 tech.root: audio
 title: EVT_ACX_STREAM_FREE_RTPACKETS
-ms.date: 01/25/2022
+ms.date: 04/05/2022
 targetos: Windows
 description: The EvtAcxStreamFreeRtPackets event tells the driver to free the RtPackets that were allocated in a previous call to EvtAcxStreamAllocateRtPackets.
 prerelease: true
@@ -60,6 +60,7 @@ Specifies the number of packets to be freed. Valid values are 1 or 2.
 
 ## -remarks
 
+When work with the stream is complete, EvtAcxStreamFreeRtPackets is called after [EvtAcxStreamReleaseHardware](nc-acxstreams-evt_acx_stream_release_hardware.md). This allows the release hardware phase to finish deallocating bandwidth, freeing DMA resources and any other associated cleanup, to occur before te allocated RT buffers are then freed.
 
 ### Example
 
@@ -111,7 +112,7 @@ Codec_EvtStreamFreeRtPackets(
 
 ## -see-also
 
-[acxstreams.h header](index.md)
+- [acxstreams.h header](index.md)
 
 READY2GO
 

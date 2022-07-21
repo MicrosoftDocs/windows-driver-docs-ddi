@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitInitAssignProperties
 ms.date: 08/18/2021
 targetos: Windows
-description: The AcxFactoryCircuitInitAssignProperties function assigns a  set of KSPROPERTY elements that will be used for the circuit factory initialization.
+description: The AcxFactoryCircuitInitAssignProperties function assigns one or more ACX properties for the ACXFACTORYCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxFactoryCircuitInitAssignProperties function assigns a  set of KSPROPERTY elements that will be used for the circuit factory initialization.
+The AcxFactoryCircuitInitAssignProperties function assigns one or more ACX properties for the ACXFACTORYCIRCUIT.
 
 ## -parameters
 
@@ -65,9 +65,11 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+Drivers should only add driver owned properties.
+
 ### Example
  
-TBD - No sample code found.
+Sample pending.
 
 Example usage is shown below.
 
@@ -77,5 +79,6 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxcircuit.h header](index.md)
 
+READY2GO

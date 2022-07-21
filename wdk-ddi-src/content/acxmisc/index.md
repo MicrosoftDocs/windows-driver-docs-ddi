@@ -2,7 +2,7 @@
 UID: NA:acxmisc
 tech.root: audio
 title: acxmisc
-ms.date: 01/31/2022
+ms.date: 06/17/2022
 targetos: Windows
 description: The acxmisc header is used by the ACX audio class extensions.
 prerelease: false
@@ -46,8 +46,6 @@ dev_langs:
 The acxmisc header is used by the ACX audio class extensions. It provides the ability to store an retrieve data in the AcxObjectBag. 
 
 For additional information on working with ACX, see the following topics.
-
-- [ACX Audio multi stack cross driver communications](/windows-hardware/drivers/audio/acx-audio-multi-stack)
 
 - [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview)
  

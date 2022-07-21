@@ -73,3 +73,4 @@ Port must perform device discovery by scanning only Wi-Fi Direct social channels
 
 ### -field WDI_P2P_DISCOVER_TYPE_MAX_VALUE
 
+The maximum value for this type.

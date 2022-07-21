@@ -2,9 +2,9 @@
 UID: NF:acxevents.AcxPnpEventCreate
 tech.root: audio
 title: AcxPnpEventCreate
-ms.date: 11/02/2021
+ms.date: 06/22/2022
 targetos: Windows
-description: The AcxPnpEventCreate function creates an pnp event.
+description: The AcxPnpEventCreate function creates an ACXPNPEVENT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The **AcxPnpEventCreate** function creates an ACX pnp event.
+The **AcxPnpEventCreate** function creates an ACXPNPEVENT.
 
 ## -parameters
 
 ### -param Device
 
-TBD - An existing WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that TBD has/is will be the - TBD TBD 
+An existing WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that be associated with the new event.
 
 ### -param Object
 
-TBD - An ACXAUDIOMODULE object that is described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects) that will be associated with the event.
+An existing ACXAUDIOMODULE object that is described in [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects) that will be associated with the event.
 
 ### -param Attributes
 
@@ -60,7 +60,7 @@ Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/
 
 ### -param Config
 
-An [ACX_PNPEVENT_CONFIG](ns-acxevents-acx_pnpevent_config.md) structure that defines the configuration for an ACX PnP event.
+An [ACX_PNPEVENT_CONFIG](ns-acxevents-acx_pnpevent_config.md) structure that defines the configuration for an ACX PNP event.
 
 ### -param Event
 
@@ -72,7 +72,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An AcxPnpEvent represents an asynchronous notification available at the driver level. PnP events can be added to any objects. Currently they are used with AcxModule and AcxKeywordSpotter objects. Internally AcxPnpEvents are exposed as PnP asynchronous notification to upper layers. 
+An ACXPNPEVENT represents an asynchronous notification available at the driver level. PNP events can be added to any objects. Currently they are used with ACXAUDIOMODULE and ACXKEYWARDSPOTTER objects. Internally AcxPnpEvents are exposed as PNP asynchronous notification to upper layers.
 
 ### Example
 
@@ -85,12 +85,12 @@ This example code shows the use of AcxPnpEventCreate.
     ACX_PNPEVENT_CONFIG             audioModuleEventCfg;
     ACXPNPEVENT                     audioModuleEvent;
 
-    status = AcxAudioModuleCreate(Circuit, &attributes, &audioModuleCfg, &audioModuleElement);
+    ...
 
+    status = AcxAudioModuleCreate(Circuit, &attributes, &audioModuleCfg, &audioModuleElement);
     audioModule0Ctx = GetCodecAudioModule0Context(audioModuleElement);
 
     ACX_PNPEVENT_CONFIG_INIT(&audioModuleEventCfg);
-
     WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, CODEC_PNPEVENT_CONTEXT);
     attributes.ParentObject = audioModuleElement;
     status = AcxPnpEventCreate(Device, audioModuleElement, &attributes, &audioModuleEventCfg, &audioModuleEvent);
@@ -98,7 +98,8 @@ This example code shows the use of AcxPnpEventCreate.
 
 ## -see-also
 
-[acxcircuit.h header](index.md)
+- [acxevents.h header](index.md)
 
+READY2GO
 
-
+EDITCOMPLETE

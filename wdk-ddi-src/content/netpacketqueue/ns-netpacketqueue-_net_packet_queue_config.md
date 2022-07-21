@@ -3,7 +3,7 @@ UID: NS:netpacketqueue._NET_PACKET_QUEUE_CONFIG
 title: _NET_PACKET_QUEUE_CONFIG (netpacketqueue.h)
 description: The NET_PACKET_QUEUE_CONFIG structure describes the configuration options for a NetAdapterCx client driver's packet queue.
 tech.root: netvista
-ms.date: 07/16/2018
+ms.date: 03/23/2022
 keywords: ["NET_PACKET_QUEUE_CONFIG structure"]
 ms.keywords: _NET_PACKET_QUEUE_CONFIG, NET_PACKET_QUEUE_CONFIG, *PNET_PACKET_QUEUE_CONFIG,
 req.header: netpacketqueue.h
@@ -69,6 +69,10 @@ A pointer to the client driver's [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](n
 ### -field EvtCancel
 
 A pointer to the client driver's [*EVT_PACKET_QUEUE_CANCEL*](nc-netpacketqueue-evt_packet_queue_cancel.md) event callback function for this packet queue. This callback function is required.
+
+### -field ExecutionContext
+
+A NETEXECUTIONCONTEXT object.
 
 ## -remarks
 

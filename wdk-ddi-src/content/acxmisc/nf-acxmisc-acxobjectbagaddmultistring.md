@@ -56,6 +56,8 @@ The name of the value that will be used to access the value.
 
 ### -param Values
 
+The Value to be added to the ObjectBag.
+
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
@@ -74,5 +76,8 @@ This example shows the use of AcxObjectBagAddMultiString.
 
 ## -see-also
 
-[acxmisc.h header](index.md)
+- [acxmisc.h header](index.md)
 
+READY2GO
+
+EDITCOMPLETE

@@ -2,9 +2,9 @@
 UID: NF:acxdataformat.ACX_DATAFORMAT_LIST_ITERATOR_INIT
 tech.root: audio
 title: ACX_DATAFORMAT_LIST_ITERATOR_INIT
-ms.date: 01/10/2022
+ms.date: 05/31/2022
 targetos: Windows
-description: 
+description: The ACX_DATAFORMAT_LIST_ITERATOR_INIT function initializes an ACX_DATAFORMAT_LIST_ITERATOR structure for use by an audio class extension (ACX) driver.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,21 @@ dev_langs:
 
 ## -description
 
+The **ACX_DATAFORMAT_LIST_ITERATOR_INIT** function initializes an [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md) structure for use by an audio class extension (ACX) driver.
+
 ## -parameters
 
-### -param Iterator
+### -param Iterator [out]
+
+A pointer to the [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md) structure to initialize.
 
 ## -remarks
 
 ## -see-also
 
+- [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md)
+- [acxdataformat.h header](index.md)
+
+READY2GO
+
+EDITCOMPLETE
