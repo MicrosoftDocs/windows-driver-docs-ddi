@@ -48,7 +48,7 @@ The AcxStreamInitAssignAcxRtStreamCallbacks function sets the RT callbacks using
 
 ### -param StreamInit
 
-Defined by a ACXSTREAM_INIT object, that is used to define the stream initialization. 
+Address of a ACXSTREAM_INIT object used to define the stream initialization parameters. 
 
 ### -param RtStreamCallbacks
 
@@ -86,4 +86,4 @@ Example usage is shown below.
 
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

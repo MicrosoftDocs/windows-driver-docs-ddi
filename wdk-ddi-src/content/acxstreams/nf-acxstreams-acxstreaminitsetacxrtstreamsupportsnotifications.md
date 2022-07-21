@@ -48,7 +48,7 @@ The AcxStreamInitSetAcxRtStreamSupportsNotifications function is used to indicat
 
 ### -param StreamInit
 
-Defined by a ACXSTREAM_INIT object, that is used to define the stream initialization. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+Address of a ACXSTREAM_INIT object used to define the stream initialization parameters. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -72,4 +72,4 @@ Example usage is shown below.
 
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

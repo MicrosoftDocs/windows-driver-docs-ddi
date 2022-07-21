@@ -48,17 +48,15 @@ The driver calls AcxRtStreamNotifyPacketComplete when a packet has completed. Th
 
 ### -param Stream
 
-A pointer to a location that receives a handle to the new ACXSTREAM Object.
-
-An ACXSTREAM Object that represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements.
 
 ### -param CompletedPacket
 
-The packet completion time.
+A 0-based Packet index indicating the packet that was just completed.
 
 ### -param QPCCompletion
 
-A 0-based Packet index.
+The packet completion time, as returned by KeQueryPerformanceCounter. This value should be as close as possible to the actual hardware completion (for example, the driver can call KeQueryPerformanceCounter from in its Interrupt Service Routine).
 
 ## -returns
 
@@ -66,24 +64,24 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+AcxRtStreamNotifyPacketComplete must be called at DISPATCH_LEVEL or below.
+
+### Example
+
 Example usage is shown below.
 
 ```cpp
-while ((completedPacket % m_PacketsCount) != lastPacketBasedOnPosition)
-{
-    completedPacket = (ULONG)InterlockedIncrement((LONG*)&m_CurrentPacket) - 1;
-}
+completedPacket = (ULONG)InterlockedIncrement((LONG*)&m_CurrentPacket) - 1;
 
 InterlockedExchange64(&m_LastPacketStart.QuadPart, m_CurrentPacketStart.QuadPart);
 InterlockedExchange64(&m_CurrentPacketStart.QuadPart, QPC.QuadPart);
 
 // Tell ACX we've completed the packet.
 (void)AcxRtStreamNotifyPacketComplete(m_Stream, completedPacket, QPC.QuadPart);
-}
 ```
 
 ## -see-also
 
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

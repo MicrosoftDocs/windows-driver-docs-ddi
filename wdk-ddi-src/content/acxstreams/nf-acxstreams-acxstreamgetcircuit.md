@@ -48,11 +48,11 @@ The AcxStreamGetCircuit function returns the ACXCIRCUIT Object associated with t
 
 ### -param Stream
 
-A pointer to an existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. 
+An existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream created by a circuit.
 
 ## -returns
 
-A pointer to a location that receives a handle to the ACXCIRCUIT Object associated with the stream.
+The handle to the ACXCIRCUIT Object associated with the stream.
 
 ## -remarks
 
@@ -61,14 +61,11 @@ A pointer to a location that receives a handle to the ACXCIRCUIT Object associat
 Example usage is shown below.
 
 ```cpp
-    streamCtx = GetMyStreamContext(stream);
-    streamCtx->StreamEngine = (PVOID)streamEngine;
-    streamEngine = NULL;
-    ACXCIRCUIT testCircuit = AcxStreamGetCircuit(stream);
+    ACXCIRCUIT circuit = AcxStreamGetCircuit(stream);
 ```
 
 ## -see-also
 
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

@@ -42,19 +42,17 @@ dev_langs:
 
 ## -description
 
-The AcxStreamDispatchAcxRequest dispatches an ACX request using a WDFREQUEST framework request object.
+The AcxStreamDispatchAcxRequest dispatches an ACX request using a WDFREQUEST framework request object. AcxStreamDispatchAcxRequest is called within the context of an [EVT_ACX_OBJECT_PREPROCESS_REQUEST](../acxrequest/nc-acxrequest-evt_acx_object_preprocess_request.md) event handler registered through [AcxStreamInitAssignAcxRequestPreprocessCallback](nf-acxstreams-acxstreaminitassignacxrequestpreprocesscallback.md) to indicate the request should be handled by the ACX framework.
 
 ## -parameters
 
 ### -param Stream
 
-A pointer to a location that receives a handle to the new ACXSTREAM Object.
-
-An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing *ACXSTREAM* Object. An ACXSTREAM object represents an audio stream created by a circuit. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Request
 
-A pointer to a location that receives a handle to a WDFREQUEST framework request object described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects). For general information about WDF requests, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects).
+The WDFREQUEST object handle that was passes to the *EVT_ACX_OBJECT_PREPROCESS_REQUEST* event handler. For general information about WDF requests, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects).
 
 ## -returns
 
@@ -62,18 +60,37 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
+For any call to the driver's EVT_ACX_OBJECT_PREPROCESS_REQUEST for an AcxStream object, the driver should either call WdfRequestComplete or AcxStreamDispatchAcxRequest, but not both.
+
 ### Example
 
 Example usage is shown below.
 
 ```cpp
- status = AcxStreamDispatchAcxRequest((ACXSTREAM)Object, Request);
+VOID
+Codec_EvtStreamRequestPreprocess(
+    _In_    ACXOBJECT  Object,
+    _In_    ACXCONTEXT DriverContext,
+    _In_    WDFREQUEST Request
+    )
+/*++
+
+Routine Description:
+
+    This function is an example of a preprocess routine.
+
+--*/
+{
+    //
+    // Just give the request back to ACX. Normally the driver would take steps to examine
+    // the Request and take action if necessary.
+    //
+    AcxStreamDispatchAcxRequest((ACXSTREAM)Object, Request);
+}
 ```
-
-
 
 ## -see-also
 
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

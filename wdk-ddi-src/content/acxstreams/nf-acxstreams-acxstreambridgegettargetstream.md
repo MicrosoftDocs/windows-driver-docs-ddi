@@ -54,7 +54,7 @@ An [ACXSTREAMBRIDGE] object handle.
 
 An [ACXSTREAM] object handle.
 
-An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. 
+An ACXSTREAM object represents an audio stream created by a circuit. 
 
 ## -returns
 
@@ -84,4 +84,4 @@ Example usage is shown below.
 
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

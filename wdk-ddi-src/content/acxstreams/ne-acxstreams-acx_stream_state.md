@@ -50,7 +50,7 @@ Describes the Acx Stream State is stopped.
 
 ### -field AcxStreamStateAcquire
 
-Describes the Acx Stream State is being acquired.
+Describes the Acx Stream State is being acquired. This state is only used internally; the stream will transition directly from AcxStreamStateStop to AcxStreamStatePause or from AcxStreamStatePause to AcxStreamStateStop.
 
 ### -field AcxStreamStatePause
 
@@ -74,7 +74,13 @@ Once the stream is created and the appropriate buffers are allocated, the stream
 Once the stream is created and the resources are allocated, the application will call Start on the stream to start playback.
 The client starts by pre-rolling a buffer. When the client calls ReleaseBuffer, this will translate to a call in AudioKSE that will call into the ACX layer, which will call EvtAcxStreamSetRenderPacket on the active ACXSTREAM. The property will include the packet index (0-based) and, if appropriate, an EOS flag with the byte offset of the end of the stream in the current packet.
 
-During ACX device power down and removal, if streams are present, ACX SetState callbacks to transition all circuit’s streams to Pause. This is Stream Instance scoped.
+During ACX device power down and removal, if streams are present, ACX SetState callbacks are invoked to transition all circuit’s streams to Pause. This is Stream Instance scoped.
+
+After AcxStreamCreate, the AcxStream is in the AcxStreamStateStop state.
+After EvtAcxStreamPrepareHardware returns successfully the AcxStream will be in the AcxStreamStatePause state.
+After EvtAcxStreamRun returns successfully the AcxStream will be in the AcxStreamStateRun state.
+After EvtAcxStreamPause returns the AcxStream will be in the AcxStreamStatePause state.
+After EvtAcxReleaseHardware returns the AcxStream will be in the AcxStreamStop state.
 
 ### Example
 
@@ -94,4 +100,4 @@ Example usage is shown below.
 
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic 
+READY2GO

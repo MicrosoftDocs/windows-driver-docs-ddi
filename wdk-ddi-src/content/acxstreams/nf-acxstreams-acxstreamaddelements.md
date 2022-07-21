@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamAddElements
 ms.date: 02/02/2022
 targetos: Windows
-description: AcxStreamAddElements is used to add stream elements.
+description: AcxStreamAddElements is used to add stream elements to an AcxStream.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-AcxStreamAddElements is used to add stream elements.
+AcxStreamAddElements is used to add stream elements to an AcxStream.
 
 ## -parameters
 
 ### -param Stream
 
-A pointer to a location that contains an existing *ACXSTREAM* Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing *ACXSTREAM* Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream can include zero or more elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Elements
 
-A pointer to a location that contains an existing *ACXELEMENT* Object. 
+A pointer to an array of one or more existing *ACXELEMENT* Objects.
 
 ### -param ElementsCount
 
@@ -70,6 +70,11 @@ Example usage is shown below.
 
 ```cpp
 
+    ACX_ELEMENT_CONFIG_INIT(&elementCfg);
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, ELEMENT_CONTEXT);
+ 
+    attributes.ParentObject = stream;
+    status = AcxElementCreate(stream, &attributes, &elementCfg, &elements[0]);
     elementCtx = GetElementContext(elements[0]);
  
     ACX_ELEMENT_CONFIG_INIT(&elementCfg);
@@ -88,4 +93,4 @@ Example usage is shown below.
 
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

@@ -56,7 +56,7 @@ AcxStreamAddEvents adds events to an existing stream using an ACXEVENT object. F
 
 ### -param Stream
 
-A pointer to an existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements.
+An existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements.
 
 ### -param Events
 

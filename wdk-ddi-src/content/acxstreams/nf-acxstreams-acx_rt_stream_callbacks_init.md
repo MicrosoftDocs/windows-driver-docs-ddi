@@ -66,4 +66,4 @@ An [ACX_RT_STREAM_CALLBACKS](ns-acxstreams-acx_rt_stream_callbacks.md) structure
 
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

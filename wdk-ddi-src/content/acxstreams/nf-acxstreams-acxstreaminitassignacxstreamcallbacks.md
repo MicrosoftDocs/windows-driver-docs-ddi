@@ -48,7 +48,7 @@ The AcxStreamInitAssignAcxStreamCallbacks function sets the callbacks using an a
 
 ### -param StreamInit
 
-Defined by a ACXSTREAM_INIT object, that is used to define the stream initialization. 
+Address of a ACXSTREAM_INIT object used to define the stream initialization parameters. 
 
 ### -param StreamCallbacks
 
@@ -89,4 +89,4 @@ Example usage is shown below.
 
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

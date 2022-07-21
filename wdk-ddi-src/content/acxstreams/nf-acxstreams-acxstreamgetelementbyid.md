@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamGetElementById
 ms.date: 02/02/2022
 targetos: Windows
-description: The AcxStreamGetElementById function returns ACXELEMENT Object for the requested element ID.
+description: The AcxStreamGetElementById function returns the ACXELEMENT Object handle for the requested element ID.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxStreamGetElementById function returns ACXELEMENT Object for the requested element ID. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The AcxStreamGetElementById function returns the ACXELEMENT Object handle for the requested element ID. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
 ### -param Stream
 
-A pointer to an existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. 
+An existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream created by a circuit.
 
 ### -param ElementId
 
@@ -56,7 +56,7 @@ The Id of the requested element.
 
 ## -returns
 
-A pointer to a location that receives a handle to the new ACXELEMENT Object.
+The ACXELEMENT Object handle of the requested element, or NULL if the ACXSTREAM doesn't have an ACXELEMENT with the given Id.
 
 ## -remarks
 
@@ -78,4 +78,4 @@ Example usage is shown below.
 
 - [acxstreams.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
