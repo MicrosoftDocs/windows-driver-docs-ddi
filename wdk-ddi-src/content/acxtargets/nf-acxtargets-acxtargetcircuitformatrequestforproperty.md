@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetCircuitFormatRequestForProperty
 tech.root: audio
 title: AcxTargetCircuitFormatRequestForProperty
-ms.date:  11/11/2021
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetCircuitFormatRequestForProperty formats a WDFREQUEST as an ACX property request to be used on specified circuit target.
 prerelease: true
@@ -88,3 +88,5 @@ A WDFREQUEST is a driver created I/O requests. Framework-based drivers process e
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE

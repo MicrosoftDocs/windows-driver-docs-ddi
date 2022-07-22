@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetElementFormatRequestForMethod
 tech.root: audio
 title: AcxTargetElementFormatRequestForMethod
-ms.date: 04/22/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetElementFormatRequestForMethod function formats a WDFREQUEST as an ACX method request to be used on specified element target.
 prerelease: true
@@ -103,3 +103,5 @@ This sample code shows the use of the AcxTargetElementFormatRequestForMethod.
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE

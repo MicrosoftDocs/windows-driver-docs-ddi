@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamResumeIo
 tech.root: audio
 title: AcxStreamResumeIo
-ms.date: 02/04/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxStreamResumeIo function is used to resume IO for a stream.
 prerelease: true
@@ -64,3 +64,5 @@ It is not recommended to use this version of the resume IO call, but rather [Acx
 [AcxStreamResumeIoWithTag](nf-acxstreams-acxstreamresumeiowithtag.md)
 
 READY2GO
+
+EDITCOMPLETE

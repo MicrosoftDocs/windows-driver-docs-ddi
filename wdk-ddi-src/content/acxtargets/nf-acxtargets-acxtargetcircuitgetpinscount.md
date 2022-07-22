@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetCircuitGetPinsCount
 tech.root: audio
 title: AcxTargetCircuitGetPinsCount
-ms.date: 04/22/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetCircuitGetPinsCount function returns the count of ACX pins on the remote target.
 prerelease: true
@@ -69,3 +69,5 @@ Returns the number of ACX pins on the remote target.
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE

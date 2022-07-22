@@ -2,13 +2,9 @@
 UID: NS:acxpin._ACX_MICROPHONE_CONFIG
 tech.root: audio
 title: ACX_MICROPHONE_CONFIG
-ms.date: 02/25/2022
+ms.date: 07/22/2022
 targetos: Windows
-<<<<<<< HEAD
-description: The ACX_MICROPHONE_CONFIG structure allows the driver to specify the properties of a microphone.
-=======
 description: The ACX_MICROPHONE_CONFIG structure is used to configure a microphone.
->>>>>>> e350f6ef4028cc41d4aa7b14ca5382c9402e1b85
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -48,11 +44,7 @@ dev_langs:
 
 ## -description
 
-<<<<<<< HEAD
-The ACX_MICROPHONE_CONFIG structure allows the driver to specify the properties of a microphone.
-=======
 The **ACX_MICROPHONE_CONFIG** structure is used to configure a microphone.
->>>>>>> e350f6ef4028cc41d4aa7b14ca5382c9402e1b85
 
 ## -struct-fields
 
@@ -93,3 +85,5 @@ To initialize an ACX_MICROPHONE_CONFIG structure, your driver should call [ACX_M
 - [acxpin.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

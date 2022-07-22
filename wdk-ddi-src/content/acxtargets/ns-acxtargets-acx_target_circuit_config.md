@@ -2,7 +2,7 @@
 UID: NS:acxtargets._ACX_TARGET_CIRCUIT_CONFIG
 tech.root: audio
 title: ACX_TARGET_CIRCUIT_CONFIG
-ms.date: 01/05/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The ACX_TARGET_CIRCUIT_CONFIG structure is used to define the target circuit configuration. 
 prerelease: true
@@ -64,8 +64,6 @@ Pointer to a Unicode string that contains the name of the symbolic link for the 
 
 ## -remarks
 
-Sample Pending
-
 ### Example
 
 ```cpp
@@ -77,3 +75,5 @@ Sample Pending
 - [acxtargets.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

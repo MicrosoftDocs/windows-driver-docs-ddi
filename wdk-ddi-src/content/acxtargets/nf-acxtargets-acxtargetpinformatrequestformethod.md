@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetPinFormatRequestForMethod
 tech.root: audio
 title: AcxTargetPinFormatRequestForMethod
-ms.date: 04/25/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetPinFormatRequestForMethod function formats a WDFREQUEST as an ACX method request to be used on specified pin target.
 prerelease: true
@@ -98,4 +98,6 @@ A WDFREQUEST is a driver created I/O requests. Framework-based drivers process e
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE
  

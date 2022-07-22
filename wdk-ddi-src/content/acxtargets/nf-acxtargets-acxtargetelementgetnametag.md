@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetElementGetNameTag
 tech.root: audio
 title: AcxTargetElementGetNameTag
-ms.date: 04/29/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetElementGetNameTag given an existing ACXTARGETELEMENT object, returns its name-tag in the form of a GUID.
 prerelease: true
@@ -72,3 +72,5 @@ A name-tag in the form of a GUID.
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetPinGetId
 tech.root: audio
 title: AcxTargetPinGetId
-ms.date: 04/26/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetPinGetId given an existing ACXTARGETPIN object returns its associated ID value.
 prerelease: true
@@ -70,3 +70,5 @@ Returns the ID associated with the specified target pin.
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE

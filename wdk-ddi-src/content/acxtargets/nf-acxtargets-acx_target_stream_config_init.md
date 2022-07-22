@@ -2,7 +2,7 @@
 UID: NF:acxtargets.ACX_TARGET_STREAM_CONFIG_INIT
 tech.root: audio
 title: ACX_TARGET_STREAM_CONFIG_INIT
-ms.date: 01/06/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The ACX_TARGET_STREAM_CONFIG_INIT function initializes an ACX target stream config structure.
 prerelease: true
@@ -65,3 +65,5 @@ A pointer to the [ACX_TARGET_STREAM_CONFIG](ns-acxtargets-acx_target_stream_conf
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE

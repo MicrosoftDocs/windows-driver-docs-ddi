@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetElementGetWdfIoTarget
 tech.root: audio
 title: AcxTargetElementGetWdfIoTarget
-ms.date: 04/25/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetElementGetWdfIoTarget given an existing ACXTARGETELEMENT object, returns its corresponding WDFIOTARGET object.
 prerelease: true
@@ -71,3 +71,5 @@ The WDFIOTARGET object associated with the target element.
 - [acxtargets.h header](index.md) 
 
 READY2GO
+
+EDITCOMPLETE

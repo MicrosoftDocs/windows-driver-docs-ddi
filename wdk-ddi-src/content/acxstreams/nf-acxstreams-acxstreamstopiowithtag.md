@@ -2,9 +2,9 @@
 UID: NF:acxstreams.AcxStreamStopIoWithTag
 tech.root: audio
 title: AcxStreamStopIoWithTag
-ms.date: 02/04/2022
+ms.date: 07/22/2022
 targetos: Windows
-description: The AcxStreamStopIo function is used to temporarily stop the IO for a stream.
+description: The AcxStreamStopIoWithTag function is used to temporarily stop the IO for a stream.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -81,3 +81,5 @@ Example usage is shown below.
 - [acxstreams.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

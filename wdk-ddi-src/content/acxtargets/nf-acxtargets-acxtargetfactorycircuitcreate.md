@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetFactoryCircuitCreate
 tech.root: audio
 title: AcxTargetFactoryCircuitCreate
-ms.date: 04/26/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetFactoryCircuitCreate function returns an handle to a new ACXTARGETFACTORYCIRCUIT ACX object. 
 prerelease: true
@@ -79,3 +79,5 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE

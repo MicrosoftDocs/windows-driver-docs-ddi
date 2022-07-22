@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetElementGetId
 tech.root: audio
 title: AcxTargetElementGetId
-ms.date: 04/29/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetElementGetId given an existing ACXTARGETELEMENT object, returns its corresponding ID value.
 prerelease: true
@@ -81,3 +81,5 @@ The ID value associated with the element.
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NS:acxtargets._ACX_TARGET_STREAM_CONFIG
 tech.root: audio
 title: ACX_TARGET_STREAM_CONFIG
-ms.date: 01/05/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The ACX_TARGET_STREAM_CONFIG structure is used to define the target stream configuration. 
 prerelease: true
@@ -94,3 +94,5 @@ An optional ACXOBJECTBAG ACX object describing optional parameters.
 - [acxtargets.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

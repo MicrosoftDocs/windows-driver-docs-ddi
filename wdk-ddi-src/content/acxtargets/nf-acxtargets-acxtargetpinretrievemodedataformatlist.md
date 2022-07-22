@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetPinRetrieveModeDataFormatList
 tech.root: audio
 title: AcxTargetPinRetrieveModeDataFormatList
-ms.date: 04/29/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetPinRetrieveModeDataFormatList function given an existing ACXTARGETPIN object, returns the ACXDATAFORMATLIST associated to the specified signal-processing-mode data format list.
 prerelease: true
@@ -64,8 +64,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-Sample pending
-
 ### Example
 
 ```cpp
@@ -77,3 +75,5 @@ Sample pending
 - [acxtargets.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

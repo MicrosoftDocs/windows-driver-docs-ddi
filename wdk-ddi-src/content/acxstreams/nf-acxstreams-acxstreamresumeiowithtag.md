@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamResumeIoWithTag
 tech.root: audio
 title: AcxStreamResumeIoWithTag
-ms.date: 07/14/2021
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxStreamResumeIoWithTag function is used to resume IO for a stream. 
 prerelease: true
@@ -78,3 +78,5 @@ Example usage is shown below.
 - [acxstreams.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

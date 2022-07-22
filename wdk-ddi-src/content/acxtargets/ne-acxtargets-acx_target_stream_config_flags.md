@@ -2,7 +2,7 @@
 UID: NE:acxtargets._ACX_TARGET_STREAM_CONFIG_FLAGS
 tech.root: audio
 title: ACX_TARGET_STREAM_CONFIG_FLAGS
-ms.date: 01/05/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The ACX_TARGET_STREAM_CONFIG_FLAGS enumeration defines the config flags for the ACX target stream.
 prerelease: true
@@ -58,3 +58,5 @@ There are no flags currently defined for this type.
 - [acxtargets.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetCircuitCreate
 tech.root: audio
 title: AcxTargetCircuitCreate
-ms.date: 01/07/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetCircuitCreate function is used to create an ACX target circuit.
 prerelease: true
@@ -86,3 +86,5 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE

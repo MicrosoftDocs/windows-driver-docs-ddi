@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetCircuitGetTargetElement
 tech.root: audio
 title: AcxTargetCircuitGetTargetElement
-ms.date: 02/02/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetCircuitGetTargetElement function, given a valid element index value, will return the associated ACXTARGETELEMENT object.
 prerelease: true
@@ -85,3 +85,5 @@ Returns a ACXTARGETELEMENT ACX Object that is associated with the specified circ
 - [acxtargets.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

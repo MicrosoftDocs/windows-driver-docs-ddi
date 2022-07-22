@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetStreamGetTargetElement
 tech.root: audio
 title: AcxTargetStreamGetTargetElement
-ms.date: 04/26/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetStreamGetTargetElement function, given a valid element index value, returns the corresponding ACXTARGETELEMENT ACX object that is associated with the specified stream.
 prerelease: true
@@ -73,3 +73,5 @@ Sample Pending
 - [acxtargets.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetElementGetType
 tech.root: audio
 title: AcxTargetElementGetType
-ms.date: 04/29/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetElementGetType function given an existing ACXTARGETELEMENT object, returns its corresponding element type in the form of a GUID.
 prerelease: true
@@ -70,3 +70,5 @@ An element type as a GUID.
 - [acxtargets.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

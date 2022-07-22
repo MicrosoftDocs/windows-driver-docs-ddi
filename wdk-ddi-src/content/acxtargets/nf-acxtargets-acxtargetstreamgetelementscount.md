@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetStreamGetElementsCount
 tech.root: audio
 title: AcxTargetStreamGetElementsCount
-ms.date: 04/27/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetStreamGetElementsCount function given an ACXTARGETSTREAM object, returns its number of ACX elements.
 prerelease: true
@@ -56,8 +56,6 @@ Returns the number of elements for the specified target stream.
 
 ## -remarks
 
-Sample Pending
-
 ### Example
 
 ```cpp
@@ -69,3 +67,5 @@ Sample Pending
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE

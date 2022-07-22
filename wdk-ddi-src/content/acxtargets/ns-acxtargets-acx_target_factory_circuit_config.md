@@ -2,7 +2,7 @@
 UID: NS:acxtargets._ACX_TARGET_FACTORY_CIRCUIT_CONFIG
 tech.root: audio
 title: ACX_TARGET_FACTORY_CIRCUIT_CONFIG
-ms.date: 01/07/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The ACX_TARGET_FACTORY_CIRCUIT_CONFIG structure is used to define the target factory circuit configuration. 
 prerelease: true
@@ -82,3 +82,5 @@ Pointer to a Unicode string that contains the name of the symbolic link for the 
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE

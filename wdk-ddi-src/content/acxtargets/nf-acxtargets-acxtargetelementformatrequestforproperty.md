@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetElementFormatRequestForProperty
 tech.root: audio
 title: AcxTargetElementFormatRequestForProperty
-ms.date: 04/25/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetElementFormatRequestForProperty formats a WDFREQUEST as an ACX property request to be used on specified element target.
 prerelease: true
@@ -84,3 +84,5 @@ A WDFREQUEST is a driver created I/O requests. Framework-based drivers process e
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE

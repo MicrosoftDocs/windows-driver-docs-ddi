@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetFactoryCircuitFormatRequestForMethod
 tech.root: audio
 title: AcxTargetFactoryCircuitFormatRequestForMethod
-ms.date: 04/25/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetFactoryCircuitFormatRequestForMethod formats a WDFREQUEST as an ACX method request to be used on specified circuit factory target.
 prerelease: true
@@ -75,3 +75,5 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetStreamCreate
 tech.root: audio
 title: AcxTargetStreamCreate
-ms.date: 04/26/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetStreamCreate function is used to create a target stream.
 prerelease: true
@@ -109,3 +109,5 @@ Drivers should use the ACXSTREAMBRIDGE to automatically propagate an audio strea
 - [acxtargets.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

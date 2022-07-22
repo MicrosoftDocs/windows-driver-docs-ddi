@@ -2,9 +2,9 @@
 UID: NF:acxtargets.AcxTargetCircuitGetTargetPin
 tech.root: audio
 title: AcxTargetCircuitGetTargetPin
-ms.date: 02/02/2022
+ms.date: 07/22/2022
 targetos: Windows
-description: The AcxTargetCircuitGetTargetPin function, given a valid pin index value, will return the associated *ACXTARGETPIN* object.
+description: The AcxTargetCircuitGetTargetPin function, given a valid pin index value, will return the associated ACXTARGETPIN object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -91,3 +91,5 @@ Returns a ACXTARGETELEMENT ACX Object that is associated with the specified circ
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE

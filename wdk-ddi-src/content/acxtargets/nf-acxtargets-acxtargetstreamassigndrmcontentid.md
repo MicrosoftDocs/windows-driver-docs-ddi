@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetStreamAssignDrmContentId
 tech.root: audio
 title: AcxTargetStreamAssignDrmContentId
-ms.date: 04/29/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetStreamAssignDrmContentId function given an existing ACXTARGETSTREAM object, assigns a DRM Content Id to that stream.
 prerelease: true
@@ -64,8 +64,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-Sample pending
-
 ### Example
 
 ```cpp
@@ -77,3 +75,5 @@ Sample pending
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE

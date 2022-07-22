@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetFactoryCircuitGetWdfIoTarget
 tech.root: audio
 title: AcxTargetFactoryCircuitGetWdfIoTarget
-ms.date: 04/25/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetFactoryCircuitGetWdfIoTarget given an existing ACXTARGETFACTORYCIRCUIT object, returns its corresponding WDFIOTARGET object.
 prerelease: true
@@ -67,4 +67,6 @@ Returns the WDFIOTARGET object associated with the ACXTARGETFACTORYCIRCUIT.
 - [acxtargets.h header](index.md)
  
 READY2GO
+
+EDITCOMPLETE
  

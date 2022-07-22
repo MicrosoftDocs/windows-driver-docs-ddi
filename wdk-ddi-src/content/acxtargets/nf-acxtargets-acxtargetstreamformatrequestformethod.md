@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetStreamFormatRequestForMethod
 tech.root: audio
 title: AcxTargetStreamFormatRequestForMethod
-ms.date: 04/26/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxTargetStreamFormatRequestForMethod formats a WDFREQUEST as an ACX method request to be used on specified stream target.
 prerelease: true
@@ -77,3 +77,5 @@ A WDFREQUEST is a driver created I/O requests. Framework-based drivers process e
 - [acxtargets.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
