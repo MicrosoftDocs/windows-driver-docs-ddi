@@ -2,7 +2,7 @@
 UID: NS:acxpin._ACX_MICROPHONE_COORDINATES
 tech.root: audio
 title: ACX_MICROPHONE_COORDINATES
-ms.date: 02/24/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The ACX_MICROPHONE_COORDINATES structure specifies the 3D location of the microphone in X, Y, and Z coordinates.
 prerelease: false
@@ -80,3 +80,5 @@ Specifies a value between -31416 and +31416. When divided by 10,000, it gives a 
 - [acxpin.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

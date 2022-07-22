@@ -2,7 +2,7 @@
 UID: NS:acxpin._ACX_MIC_ARRAY_GEOMETRY
 tech.root: audio
 title: ACX_MIC_ARRAY_GEOMETRY
-ms.date: 02/24/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The ACX_MIC_ARRAY_GEOMETRY structure specifies the type and the geometry of the microphone array.
 prerelease: false
@@ -97,3 +97,5 @@ For more information about how to process a microphone array in Windows, see the
 - [acxpin.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

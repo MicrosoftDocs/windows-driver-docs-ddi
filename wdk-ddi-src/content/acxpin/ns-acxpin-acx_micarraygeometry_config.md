@@ -2,7 +2,7 @@
 UID: NS:acxpin._ACX_MICARRAYGEOMETRY_CONFIG
 tech.root: audio
 title: ACX_MICARRAYGEOMETRY_CONFIG
-ms.date: 02/24/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The ACX_MICARRAYGEOMETRY_CONFIG structure is used to configure a microphone array.
 prerelease: false
@@ -72,3 +72,5 @@ To initialize an ACX_MICARRAYGEOMETRY_CONFIG structure, your driver should call 
 - [acxpin.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NS:acxpin._ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION
 tech.root: audio
 title: ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION
-ms.date: 02/24/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION structure specifies how loopback audio is interleaved with the microphone audio for KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION.
 prerelease: false
@@ -88,3 +88,5 @@ The WAVEFORMATEXTENSIBLE returned by the driver reports the channel count as a s
 - [acxpin.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

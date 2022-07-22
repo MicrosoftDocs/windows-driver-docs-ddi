@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxMicArrayGeometryCreate
 tech.root: audio
 title: AcxMicArrayGeometryCreate
-ms.date: 02/17/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The AcxMicArrayGeometryCreate function creates and initializes a new ACXMICARRAYGEOMETRY object.
 prerelease: false
@@ -48,7 +48,7 @@ The **AcxMicArrayGeometryCreate** function creates and initializes a new [ACXMIC
 
 ### -param AcxCircuit [in]
 
-The ACXCIRCUIT object to which the mic array geometry will be added.
+The ACXCIRCUIT object to which the mic array geometry will be added. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Attributes [in]
 
@@ -79,3 +79,5 @@ Call the [ACX_MICARRAYGEOMETRY_CONFIG_INIT](nf-acxpin-acx_micarraygeometry_confi
 - [acxpin.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

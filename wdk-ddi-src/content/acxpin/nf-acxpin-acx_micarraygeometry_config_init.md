@@ -2,7 +2,7 @@
 UID: NF:acxpin.ACX_MICARRAYGEOMETRY_CONFIG_INIT
 tech.root: audio
 title: ACX_MICARRAYGEOMETRY_CONFIG_INIT
-ms.date: 02/17/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The ACX_MICARRAYGEOMETRY_CONFIG_INIT function initializes an ACX_MICARRAYGEOMETRY_CONFIG structure for use.
 prerelease: false
@@ -58,3 +58,6 @@ A pointer to the **ACX_MICARRAYGEOMETRY_CONFIG** structure to initialize.
 - [acxpin.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
+

@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_MICROPHONE_CONFIG_FLAGS
 tech.root: audio
 title: ACX_MICROPHONE_CONFIG_FLAGS
-ms.date: 02/17/2022
+ms.date: 07/22/2022
 targetos: Windows
 description: The ACX_MICROPHONE_CONFIG_FLAGS enumeration is used to configure a physical microphone.
 prerelease: false
@@ -56,3 +56,6 @@ For internal validation, do not use.
 - [acxpin.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
+
