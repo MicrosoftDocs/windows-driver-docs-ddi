@@ -228,7 +228,7 @@ If this flag is set, available nondefault VPorts are created and assigned to the
 <div> </div>
 If this flag is not set, the creation and assignment of nondefault VPorts is reserved for VF assignment.  Additional nondefault VPorts  can be created and assigned to the PF. 
 
-For more information about VMQ, see <a href="/windows-hardware/drivers/network/virtual-machine-queue--vmq-">Virtual Machine Queue (VMQ)</a>.
+For more information about VMQ, see <a href="/windows-hardware/drivers/network/virtual-machine-queue-architecture">Virtual Machine Queue (VMQ)</a>.
 
 For more information about VPorts, see <a href="/windows-hardware/drivers/network/managing-virtual-ports">Managing Virtual Ports</a>.
 
