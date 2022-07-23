@@ -82,4 +82,3 @@ Indicates that the microphone pickup pattern is vendor defined.
 READY2GO
 
 EDITCOMPLETE
-

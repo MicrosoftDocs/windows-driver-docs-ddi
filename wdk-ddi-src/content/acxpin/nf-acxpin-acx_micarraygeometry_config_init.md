@@ -60,4 +60,3 @@ A pointer to the **ACX_MICARRAYGEOMETRY_CONFIG** structure to initialize.
 READY2GO
 
 EDITCOMPLETE
-

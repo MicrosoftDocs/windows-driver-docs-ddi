@@ -60,4 +60,3 @@ A pointer to the **ACX_MICROPHONE_CONFIG** structure to initialize.
 READY2GO
 
 EDITCOMPLETE
-
