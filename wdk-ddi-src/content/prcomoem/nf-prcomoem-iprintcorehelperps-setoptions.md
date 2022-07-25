@@ -79,10 +79,6 @@ A pointer to a variable that receives the status of the conflict resolution. The
 | SETOPTIONS_RESULT_CONFLICT_RESOLVED | At least one constraint that was specified in the PPD view of the configuration file was violated, and the caller requested that the method should resolve conflicts. This value results in changed settings with conflicts resolved. |
 | SETOPTIONS_RESULT_CONFLICT_NOT_RESOLVED | At least one constraint that was specified in the PPD view of the configuration file was violated, and the caller requested that the method should not resolve conflicts. The settings do not change, and conflicts remain. |
 
-### -param pFOPairs[] [in]
-
-An array of [PRINT_FEATURE_OPTION](/windows-hardware/drivers/ddi/prcomoem/ns-prcomoem-_print_feature_option) elements, where each element contains a feature-option pair. Each feature-option pair lists a feature and the option to select for that feature. All settings are applied sequentially. Duplicates are not disallowed, but settings that appear later in the array (that is, at a higher index) override those that appear earlier in the array.
-
 ## -returns
 
 **IPrintCoreHelperPS::SetOptions** should return one of the following values.

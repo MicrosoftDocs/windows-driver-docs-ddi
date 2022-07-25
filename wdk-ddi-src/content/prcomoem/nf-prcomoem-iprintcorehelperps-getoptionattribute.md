@@ -69,8 +69,6 @@ A pointer to a callee-allocated buffer containing the requested data. Upon compl
 
 A pointer to a variable that receives the size, in bytes, of the buffer that is pointed to by the *pbData* parameter.
 
-### -param pbData
-
 ## -returns
 
 **IPrintCoreHelperPS::GetOptionAttribute** should return one of the following values.

@@ -58,7 +58,3 @@ Defines the OEMPT_DEFAULT constant.
 ### -field OEMPT_NOSNAPSHOT
 
 Defines the OEMPT_NOSNAPSHOT constant.
-
-### -field OEMPT_NOSHAPSHOT
-
-Defines the OEMPT_NOSHAPSHOT constant.
