@@ -166,7 +166,7 @@ while(NULL != entry)
 
 
 
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-nextentry">NextEntry</a>
+<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis-nextentry">NextEntry</a>
 
 
 
