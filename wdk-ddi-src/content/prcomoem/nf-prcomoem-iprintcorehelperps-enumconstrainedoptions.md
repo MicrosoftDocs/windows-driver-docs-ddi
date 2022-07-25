@@ -2,9 +2,8 @@
 UID: NF:prcomoem.IPrintCoreHelperPS.EnumConstrainedOptions
 title: IPrintCoreHelperPS::EnumConstrainedOptions (prcomoem.h)
 description: The IPrintCoreHelperPS::EnumConstrainedOptions method provides a list of all of the options that are constrained in a particular feature, based on current settings.
-old-location: print\iprintcorehelperps_enumconstrainedoptions.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/25/2022
 keywords: ["IPrintCoreHelperPS::EnumConstrainedOptions"]
 ms.keywords: EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],EnumConstrainedOptions method, IPrintCoreHelperPS.EnumConstrainedOptions, IPrintCoreHelperPS::EnumConstrainedOptions, prcomoem/IPrintCoreHelperPS::EnumConstrainedOptions, print.iprintcorehelperps_enumconstrainedoptions, print_unidrv-pscript_allplugins_28f1a9b6-ab12-4cdc-8682-b411cc920996.xml
 req.header: prcomoem.h
@@ -40,113 +39,46 @@ api_name:
  - IPrintCoreHelperPS::EnumConstrainedOptions
 ---
 
-# IPrintCoreHelperPS::EnumConstrainedOptions
-
-
 ## -description
 
-The <b>IPrintCoreHelperPS::EnumConstrainedOptions</b> method provides a list of all of the options that are constrained in a particular feature, based on current settings.
+The **IPrintCoreHelperPS::EnumConstrainedOptions** method provides a list of all of the options that are constrained in a particular feature, based on current settings.
 
 ## -parameters
 
 ### -param pDevmode [in, optional]
 
-
-A pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure. If this pointer is provided, <b>IPrintCoreHelperPS::EnumConstrainedOptions</b> should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-devmode">IPrintOemPS::DevMode</a>, this parameter is required. In most other situations, the parameter should be <b>NULL</b>. When the core driver sets <i>pDevmode</i> to <b>NULL</b>, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets">DrvDocumentPropertySheets</a>, is being serviced by the core driver's UI module.
+A pointer to a [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure. If this pointer is provided, **IPrintCoreHelperPS::EnumConstrainedOptions** should use the DEVMODEW structure that is pointed to by *pDevmode* instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from [IPrintOemPS::DevMode](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-devmode), this parameter is required. In most other situations, the parameter should be **NULL**. When the core driver sets *pDevmode* to **NULL**, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as [DrvDocumentPropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets), is being serviced by the core driver's UI module.
 
 ### -param cbSize [in]
 
-
-The size, in bytes, of the DEVMODEW structure that is pointed to by the <i>pDevmode</i> parameter.
+The size, in bytes, of the DEVMODEW structure that is pointed to by the *pDevmode* parameter.
 
 ### -param pszFeatureKeyword [in]
 
-
 A string of ANSI characters that contains the feature name.
 
-### -param pConstrainedOptionList
+### -param pConstrainedOptionList [out]
+
+A pointer to an array of ANSI character strings. When **IPrintCoreHelperPS::EnumConstrainedOptions** returns, these strings will contain the names of all of the options that are constrained within the specified feature. The caller is not responsible for freeing the array or the individual strings in the array.
 
 ### -param pdwNumOptions [out]
 
-
-A pointer to a variable that receives the number of constrained options in the array that is pointed to by the <i>pConstrainedOptionList</i> parameter.
-
-
-### -param pConstrainedOptionList[] [out]
-
-A pointer to an array of ANSI character strings. When <b>IPrintCoreHelperPS::EnumConstrainedOptions</b> returns, these strings will contain the names of all of the options that are constrained within the specified feature. The caller is not responsible for freeing the array or the individual strings in the array.
+A pointer to a variable that receives the number of constrained options in the array that is pointed to by the *pConstrainedOptionList* parameter.
 
 ## -returns
 
-<b>IPrintCoreHelperPS::EnumConstrainedOptions</b> should return one of the following values.
+**IPrintCoreHelperPS::EnumConstrainedOptions** should return one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The constrained options were set for the specified feature.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_FAIL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The caller provided information that resulted in an invalid request, such as a request for a feature that does not exist.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-One or more of the arguments were invalid. This value might mean that the feature is not supported.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-There was not enough memory to create the options array or the core driver could not service the request because of lack of memory. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_UNEXPECTED, or other failures not listed here</b></dt>
-</dl>
-</td>
-<td width="60%">
-An unexpected condition occurred. The core driver is probably in an invalid state. The caller should exit with a failure code.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|--|--|
+| **S_OK** | The constrained options were set for the specified feature. |
+| **E_FAIL** | The caller provided information that resulted in an invalid request, such as a request for a feature that does not exist. |
+| **E_INVALIDARG** | One or more of the arguments were invalid. This value might mean that the feature is not supported. |
+| **E_OUTOFMEMORY** | There was not enough memory to create the options array or the core driver could not service the request because of lack of memory. |
+| **E_UNEXPECTED** or other failures not listed here | An unexpected condition occurred. The core driver is probably in an invalid state. The caller should exit with a failure code. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperps">IPrintCoreHelperPS</a>
+[IPrintCoreHelperPS](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperps)
 
-
-
-<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-enumoptions">IPrintCoreHelperPS::EnumOptions</a>
-
+[IPrintCoreHelperPS::EnumOptions](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-enumoptions)
