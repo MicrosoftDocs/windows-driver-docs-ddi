@@ -2,7 +2,7 @@
 UID: NE:acxrequest._ACX_METHOD_VERB
 tech.root: audio
 title: ACX_METHOD_VERB
-ms.date: 02/07/2022
+ms.date: 07/26/2022
 targetos: Windows
 description: The ACX_METHOD_VERB structure describes the type of verb operations suppored on ACX methods.
 prerelease: true
@@ -81,3 +81,5 @@ Sample pending.
 - [acxrequest.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

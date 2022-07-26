@@ -2,7 +2,7 @@
 UID: NF:acxrequest.ACX_REQUEST_PARAMETERS_INIT
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS_INIT
-ms.date: 02/08/2022
+ms.date: 07/26/2022
 targetos: Windows
 description: The ACX_REQUEST_PARAMETERS_INIT function initializes ACX_REQUEST_PARAMETERS struct.
 prerelease: true
@@ -69,3 +69,5 @@ Example usage is shown below.
 - [acxrequest.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

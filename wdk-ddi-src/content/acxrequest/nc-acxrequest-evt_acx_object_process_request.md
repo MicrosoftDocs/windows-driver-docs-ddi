@@ -2,7 +2,7 @@
 UID: NC:acxrequest.EVT_ACX_OBJECT_PROCESS_REQUEST
 tech.root: audio
 title: EVT_ACX_OBJECT_PROCESS_REQUEST
-ms.date: 02/08/2022
+ms.date: 07/26/2022
 targetos: Windows
 description: The EVT_ACX_OBJECT_PROCESS_REQUEST callback is used by the driver to handle a WDFREQUEST. 
 prerelease: true
@@ -48,7 +48,7 @@ The **EVT_ACX_OBJECT_PROCESS_REQUEST** callback is used by the driver to handle 
 
 ### -param Object
 
-An ACX object that is associated with the request. Driver normally casts this handle to the ACX object type this property belongs to.
+An ACX object that is associated with the request. Driver normally casts this handle to the ACX object type this property belongs to. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Request
 
@@ -145,3 +145,5 @@ exit:
 - [acxrequest.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NS:acxrequest._ACX_METHOD_ITEM
 tech.root: audio
 title: ACX_METHOD_ITEM
-ms.date: 03/03/2022
+ms.date: 07/26/2022
 targetos: Windows
 description: The ACX_METHOD_ITEM structure describes a method item that is the target of an ACX request.
 prerelease: true
@@ -116,3 +116,5 @@ static ACX_METHOD_ITEM CircuitMethods[] =
 - [acxrequest.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

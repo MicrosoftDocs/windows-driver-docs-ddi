@@ -2,7 +2,7 @@
 UID: NS:acxrequest._ACX_PROPERTY_ITEM
 tech.root: audio
 title: ACX_PROPERTY_ITEM
-ms.date: 03/04/2022
+ms.date: 07/26/2022
 targetos: Windows
 description: The ACX_PROPERTY_ITEM structure describes a property item that is the target of an ACX request.
 prerelease: true
@@ -129,3 +129,5 @@ static ACX_PROPERTY_ITEM PinProperties[] =
 - [acxrequest.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

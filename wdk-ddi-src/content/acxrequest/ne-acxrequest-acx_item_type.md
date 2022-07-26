@@ -2,7 +2,7 @@
 UID: NE:acxrequest._ACX_ITEM_TYPE
 tech.root: audio
 title: ACX_ITEM_TYPE
-ms.date: 02/07/2022
+ms.date: 07/26/2022
 targetos: Windows
 description: The ACX_ITEM_TYPE enumeration describes the possible types of items.
 prerelease: true
@@ -89,3 +89,5 @@ Sample pending
 - [acxrequest.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

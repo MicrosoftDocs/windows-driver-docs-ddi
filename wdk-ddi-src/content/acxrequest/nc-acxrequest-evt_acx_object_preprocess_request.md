@@ -2,7 +2,7 @@
 UID: NC:acxrequest.EVT_ACX_OBJECT_PREPROCESS_REQUEST
 tech.root: audio
 title: EVT_ACX_OBJECT_PREPROCESS_REQUEST
-ms.date: 02/08/2022
+ms.date: 07/26/2022
 targetos: Windows
 description: The EVT_ACX_OBJECT_PREPROCESS_REQUEST callback is used by the driver to preprocess I/O WDFREQUESTs. 
 prerelease: true
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The EVT_ACX_OBJECT_PREPROCESS_REQUEST callback is used by the driver to preprocess I/O WDFREQUESTs. 
+The **EVT_ACX_OBJECT_PREPROCESS_REQUEST** callback is used by the driver to preprocess I/O WDFREQUESTs. 
 
 ## -parameters
 
 ### -param Object
 
-An ACX object associated with the request.
+An ACX object associated with the request. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param DriverContext
 
-The driver context defined by the ACXCONTEXT object.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The driver context defined by the ACXCONTEXT object.  
 
 ### -param Request
 
@@ -109,3 +109,5 @@ Routine Description:
 - [acxrequest.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

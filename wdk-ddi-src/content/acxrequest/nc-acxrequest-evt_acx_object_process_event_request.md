@@ -2,7 +2,7 @@
 UID: NC:acxrequest.EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST
 tech.root: audio
 title: EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST
-ms.date: 02/08/2022
+ms.date: 07/26/2022
 targetos: Windows
 description: The EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST callback is used by the driver to handle event notifications. 
 prerelease: true
@@ -146,3 +146,6 @@ CodecR_EvtMuteElementChangeEventCallback(
 - [acxrequest.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
+

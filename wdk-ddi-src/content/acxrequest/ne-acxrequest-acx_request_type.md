@@ -2,7 +2,7 @@
 UID: NE:acxrequest._ACX_REQUEST_TYPE
 tech.root: audio
 title: ACX_REQUEST_TYPE
-ms.date: 02/07/2022
+ms.date: 07/26/2022
 targetos: Windows
 description:  The ACX_REQUEST_TYPE enumeration describes the possible types of ACX requests.
 prerelease: true
@@ -112,3 +112,5 @@ Example usage is shown below.
 - [acxrequest.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

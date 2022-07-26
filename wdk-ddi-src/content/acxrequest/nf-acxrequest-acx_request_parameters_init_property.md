@@ -2,7 +2,7 @@
 UID: NF:acxrequest.ACX_REQUEST_PARAMETERS_INIT_PROPERTY
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS_INIT_PROPERTY
-ms.date: 02/22/2022
+ms.date: 07/26/2022
 targetos: Windows
 description: The ACX_REQUEST_PARAMETERS_INIT_PROPERTY initializes an ACX_REQUEST_PARAMETERS struct with ACX property parameters.
 prerelease: true
@@ -52,7 +52,7 @@ A pointer to [ACX_REQUEST_PARAMETERS](ns-acxrequest-acx_request_parameters.md) s
 
 ### -param Set
 
-A property Set ID (GUID)
+A property Set ID (GUID).
 
 ### -param Id
 
@@ -80,7 +80,7 @@ The count in bytes (size) of the Control buffer. Set to 0 if Control field is no
 
 ### -param Value
 
-An optional Value buffer to specify or receive the property's value. Set to null if not present or if *SendProperty needs to allocate it when ValueCb is not zero. Caller is responsable for freeing the allocated buffer.
+An optional Value buffer to specify or receive the property's value. Set to null if not present or if *SendProperty needs to allocate it when ValueCb is not zero. Caller is responsible for freeing the allocated buffer.
 
 ### -param ValueCb
 
@@ -126,3 +126,5 @@ Example usage is shown below.
 - [acxrequest.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE

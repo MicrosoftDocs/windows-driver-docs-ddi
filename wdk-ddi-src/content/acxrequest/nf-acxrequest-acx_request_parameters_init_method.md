@@ -2,7 +2,7 @@
 UID: NF:acxrequest.ACX_REQUEST_PARAMETERS_INIT_METHOD
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS_INIT_METHOD
-ms.date: 02/22/2022
+ms.date: 07/26/2022
 targetos: Windows
 description: The ACX_REQUEST_PARAMETERS_INIT_METHOD initializes an ACX_REQUEST_PARAMETERS struct with ACX method parameters.
 prerelease: true
@@ -52,7 +52,7 @@ A pointer to [ACX_REQUEST_PARAMETERS](ns-acxrequest-acx_request_parameters.md) s
 
 ### -param Set
 
-A method Set ID (GUID)
+A method Set ID (GUID).
 
 ### -param Id
 
@@ -80,7 +80,7 @@ The count in bytes (size) of the Args buffer. Set to 0 if Args field is not used
 
 ### -param Result
 
-An optional Result buffer to old the result of the operation. Set to null if not present or if *SendMethod needs to allocate it when ResultCb is not zero. Caller is responsable for freeing the allocated buffer.
+An optional Result buffer to old the result of the operation. Set to null if not present or if *SendMethod needs to allocate it when ResultCb is not zero. Caller is responsible for freeing the allocated buffer.
 
 ### -param ResultCb
 
@@ -117,3 +117,6 @@ Example usage is shown below.
 - [acxrequest.h header](index.md)
 
 READY2GO
+
+EDITCOMPLETE
+
