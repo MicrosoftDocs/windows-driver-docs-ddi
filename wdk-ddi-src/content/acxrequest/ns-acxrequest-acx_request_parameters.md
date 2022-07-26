@@ -77,15 +77,21 @@ The WDF IRP minor function that is used for this request, for example IRP_MN_QUE
 
 ### -field Type
 
-The [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) enumeration describes the type of items that will be sent in the request.
+The [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) enumeration describes the type of items that will be sent in the request. Depending on the type specified, a subset of the paramters listed below will be used.
 
 ### -field Parameters
 
 ### -field Parameters.Property
 
+A [KS Properties](/windows-hardware/drivers/stream/ks-properties) are being used for the ACX request. For more information, see [KSPROPERTY structure](/windows-hardware/drivers/stream/ksproperty-structure).
+
 ### -field Parameters.Property.Set
 
+Specifies a GUID that identifies a kernel streaming property set. 
+
 ### -field Parameters.Property.Id
+
+Specifies the member of the property set.
 
 ### -field Parameters.Property.Verb
 
@@ -106,6 +112,7 @@ The count in bytes (size) of the Property.Control buffer.
 The count in bytes (size) of the Property.Value buffer.
 
 ### -field Parameters.Method
+
 
 ### -field Parameters.Method.Set
 
@@ -129,9 +136,15 @@ The count in bytes (size) of the Method.Result buffer.
 
 ### -field Parameters.Event
 
+[KS Events](/windows-hardware/drivers/stream/ks-events) are being used for the ACX request. For more information, see [KSEVENT structure](/windows-hardware/drivers/stream/ksevent-structure).
+
 ### -field Parameters.Event.Set
 
+Specifies a GUID that identifies a kernel streaming event set.
+
 ### -field Parameters.Event.Id
+
+Specifies the member of the event set.
 
 ### -field Parameters.Event.Verb
 
@@ -149,7 +162,11 @@ The count in bytes (size) of the Event.Data buffer.
 
 ### -field Parameters.Create
 
+TBD are being used for the ACX request.
+
 ### -field Parameters.Create.Control
+
+
 
 ### -field Parameters.Create.ControlCb
 
