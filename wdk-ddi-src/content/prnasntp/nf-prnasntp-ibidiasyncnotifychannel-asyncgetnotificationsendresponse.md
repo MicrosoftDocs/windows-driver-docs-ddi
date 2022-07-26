@@ -3,7 +3,7 @@ UID: NF:prnasntp.IBidiAsyncNotifyChannel.AsyncGetNotificationSendResponse
 title: IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse (prnasntp.h)
 description: Defines the IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse method.
 tech.root: print
-ms.date: 06/12/2021
+ms.date: 07/25/2022
 keywords: ["IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse"]
 ms.keywords: AsyncGetNotificationSendResponse, AsyncGetNotificationSendResponse method [Print Devices], AsyncGetNotificationSendResponse method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],AsyncGetNotificationSendResponse method, IBidiAsyncNotifyChannel.AsyncGetNotificationSendResponse, IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse, print.ibidiasyncnotifychannel_asyncgetnotificationsendresponse, prnasntp/IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse
 req.header: prnasntp.h
@@ -39,25 +39,19 @@ api_name:
  - IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse
 ---
 
-# IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse
-
 ## -description
 
 Defines the **IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse** method.
 
 ## -parameters
 
-### -param param
+### -param unnamedParam1
+
+Defines the **IPrintAsyncNotifyDataObject** parameter *unnamedParam1*.
 
 ### -param EQUALNULL
 
-### -param pCookie
-
-[in]
-
-### -param pObject
-
-[in]
+Defines the **IAsyncGetSendNotificationCookie** parameter *EQUALNULL*.
 
 ## -returns
 

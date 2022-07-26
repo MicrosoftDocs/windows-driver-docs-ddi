@@ -3,7 +3,7 @@ UID: NF:prnasntp.IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification
 title: IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification (prnasntp.h)
 description: Defines the IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification method.
 tech.root: print
-ms.date: 06/12/2021
+ms.date: 07/26/2022
 keywords: ["IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification"]
 ms.keywords: AsyncGetNotification, AsyncGetNotification method [Print Devices], AsyncGetNotification method [Print Devices],IPrintUnidiAsyncNotifyRegistration interface, IPrintUnidiAsyncNotifyRegistration interface [Print Devices],AsyncGetNotification method, IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification, IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification, print.iprintunidiasyncnotifyregistration_asyncgetnotification, prnasntp/IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
 req.header: prnasntp.h
@@ -39,8 +39,6 @@ api_name:
  - IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
 ---
 
-# IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
-
 ## -description
 
 Defines the **IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification** method.
@@ -49,7 +47,7 @@ Defines the **IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification** method.
 
 ### -param EQUALNULL
 
-### -param pCookie [in]
+Defines the **IAsyncGetSendNotificationCookie** parameter *EQUALNULL*.
 
 ## -returns
 
