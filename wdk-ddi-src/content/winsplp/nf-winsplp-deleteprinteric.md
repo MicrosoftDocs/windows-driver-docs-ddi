@@ -1,10 +1,9 @@
 ---
 UID: NF:winsplp.DeletePrinterIC
 title: DeletePrinterIC function (winsplp.h)
-description: "Learn more about: DeletePrinterIC function"
-old-location: print\deleteprinteric.htm
+description: Describes the DeletePrinterIC function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/27/2022
 keywords: ["DeletePrinterIC function"]
 ms.keywords: DeletePrinterIC, DeletePrinterIC function [Print Devices], print.deleteprinteric, winsplp/DeletePrinterIC
 req.header: winsplp.h
@@ -40,14 +39,16 @@ api_name:
  - DeletePrinterIC
 ---
 
-# DeletePrinterIC function
-
-
 ## -description
+
+Describes the **DeletePrinterIC** function.
 
 ## -parameters
 
 ### -param hPrinterIC [in]
 
+Defines the **HANDLE** parameter *hPrinterIC*.
 
+## -returns
 
+Returns a **BOOL** value.

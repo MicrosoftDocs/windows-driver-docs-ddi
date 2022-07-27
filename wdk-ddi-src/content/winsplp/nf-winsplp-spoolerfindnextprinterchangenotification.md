@@ -1,10 +1,9 @@
 ---
 UID: NF:winsplp.SpoolerFindNextPrinterChangeNotification
 title: SpoolerFindNextPrinterChangeNotification function (winsplp.h)
-description: "Learn more about: SpoolerFindNextPrinterChangeNotification function"
-old-location: print\spoolerfindnextprinterchangenotification.htm
+description: Describes the SpoolerFindNextPrinterChangeNotification function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/27/2022
 keywords: ["SpoolerFindNextPrinterChangeNotification function"]
 ms.keywords: SpoolerFindNextPrinterChangeNotification, SpoolerFindNextPrinterChangeNotification function [Print Devices], print.spoolerfindnextprinterchangenotification, winsplp/SpoolerFindNextPrinterChangeNotification
 req.header: winsplp.h
@@ -40,26 +39,28 @@ api_name:
  - SpoolerFindNextPrinterChangeNotification
 ---
 
-# SpoolerFindNextPrinterChangeNotification function
-
-
 ## -description
+
+Describes the **SpoolerFindNextPrinterChangeNotification** function.
 
 ## -parameters
 
 ### -param hPrinter [in]
 
-
+Defines the **HANDLE** parameter *hPrinter*.
 
 ### -param pfdwChange [out]
 
-
+Defines the **LPDWORD** parameter *pfdwChange*.
 
 ### -param pPrinterNotifyOptions [in, optional]
 
-
+Defines the **LPVOID** parameter *pPrinterNotifyOptions*.
 
 ### -param ppPrinterNotifyInfo [in, out, optional]
 
+Defines the **LPVOID** parameter *ppPrinterNotifyInfo*.
 
+## -returns
 
+Returns a **BOOL** value.

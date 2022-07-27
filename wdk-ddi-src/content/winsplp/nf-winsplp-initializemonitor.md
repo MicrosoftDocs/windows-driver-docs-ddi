@@ -1,10 +1,9 @@
 ---
 UID: NF:winsplp.InitializeMonitor
 title: InitializeMonitor function (winsplp.h)
-description: "Learn more about: InitializeMonitor function"
-old-location: print\initializemonitor.htm
+description: Describes the InitializeMonitor function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/27/2022
 keywords: ["InitializeMonitor function"]
 ms.keywords: InitializeMonitor, InitializeMonitor function [Print Devices], print.initializemonitor, spoolfnc_21afb8f9-70e1-478e-9ad0-cec810216b50.xml, winsplp/InitializeMonitor
 req.header: winsplp.h
@@ -40,14 +39,16 @@ api_name:
  - InitializeMonitor
 ---
 
-# InitializeMonitor function
-
-
 ## -description
+
+Describes the **InitializeMonitor** function.
 
 ## -parameters
 
 ### -param pRegistryRoot [in]
 
+Defines the **LPWSTR** parameter *pRegistryRoot*.
 
+## -returns
 
+Returns a **BOOL** value.

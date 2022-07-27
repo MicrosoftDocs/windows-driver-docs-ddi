@@ -1,10 +1,9 @@
 ---
 UID: NF:winsplp.InitializeMonitorEx
 title: InitializeMonitorEx function (winsplp.h)
-description: "Learn more about: InitializeMonitorEx function"
-old-location: print\initializemonitorex.htm
+description: Describes the InitializeMonitorEx function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/27/2022
 keywords: ["InitializeMonitorEx function"]
 ms.keywords: InitializeMonitorEx, InitializeMonitorEx function [Print Devices], print.initializemonitorex, spoolfnc_ffa71296-8b2a-48b3-a2c7-9765b9d7aed1.xml, winsplp/InitializeMonitorEx
 req.header: winsplp.h
@@ -40,18 +39,20 @@ api_name:
  - InitializeMonitorEx
 ---
 
-# InitializeMonitorEx function
-
-
 ## -description
+
+Describes the InitializeMonitorEx function.
 
 ## -parameters
 
 ### -param pRegistryRoot [in]
 
-
+Defines the **LPWSTR** parameter *pRegistryRoot*.
 
 ### -param pMonitor [out]
 
+Defines the **LPMONITOR** parameter *pMonitor*.
 
+## -returns
 
+Returns a **BOOL** value.

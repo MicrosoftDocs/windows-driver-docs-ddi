@@ -1,10 +1,9 @@
 ---
 UID: NF:winsplp.ProvidorFindFirstPrinterChangeNotification
 title: ProvidorFindFirstPrinterChangeNotification function (winsplp.h)
-description: "Learn more about: ProvidorFindFirstPrinterChangeNotification function"
-old-location: print\providorfindfirstprinterchangenotification.htm
+description: Describes the ProvidorFindFirstPrinterChangeNotification function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/27/2022
 keywords: ["ProvidorFindFirstPrinterChangeNotification function"]
 ms.keywords: ProvidorFindFirstPrinterChangeNotification, ProvidorFindFirstPrinterChangeNotification function [Print Devices], print.providorfindfirstprinterchangenotification, winsplp/ProvidorFindFirstPrinterChangeNotification
 req.header: winsplp.h
@@ -40,30 +39,36 @@ api_name:
  - ProvidorFindFirstPrinterChangeNotification
 ---
 
-# ProvidorFindFirstPrinterChangeNotification function
-
-
 ## -description
+
+Describes the **ProvidorFindFirstPrinterChangeNotification** function.
 
 ## -parameters
 
 ### -param hPrinter [in]
 
-
+Defines the **HANDLE** parameter *hPrinter*.
 
 ### -param fdwFlags
 
+Defines the **DWORD** parameter *fdwFlags*.
+
 ### -param fdwOptions
+
+Defines the **DWORD** parameter *fdwOptions*.
 
 ### -param hNotify [in]
 
-
+Defines the **HANDLE** parameter *hNotify*.
 
 ### -param pPrinterNotifyOptions [in, optional]
 
-
+Defines the **PVOID** parameter *pPrinterNotifyOptions*.
 
 ### -param pvReserved1 [out, optional]
 
+Defines the **PVOID** parameter *pvReserved1*.
 
+## -returns
 
+Returns a **BOOL** value.
