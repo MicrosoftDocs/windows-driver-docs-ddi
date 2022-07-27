@@ -1,10 +1,10 @@
 ---
 UID: NF:ntddk.KeInvalidateRangeAllCaches
 tech.root: 
-title: KeInvalidateRangeAllCaches
+title: KeInvalidateRangeAllCaches function (ntddk.h)
 ms.date: 
 targetos: Windows
-description: 
+description: The KeInvalidateRangeAllCaches routine flushes the specified virtual address range on all processor caches.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,31 @@ helpviewer_keywords:
  - KeInvalidateRangeAllCaches
 ---
 
+# KeInvalidateRangeAllCaches function
+
+
 ## -description
+
+The <b>KeInvalidateRangeAllCaches</b> routine flushes the specified virtual address range on all processor caches.
 
 ## -parameters
 
 ### -param BaseAddress
 
+A pointer to the base of the region to be flushed.
+
 ### -param Length
+
+The size of the region to be flushed, in bytes.
 
 ## -remarks
 
+The <b>KeInvalidateRangeAllCaches</b> routine flushes the specified virtual address range on each processor's caches and marks each cache's contents invalid. The processor caches are guaranteed to have completed the flush operation before <b>KeInvalidateRangeAllCaches</b> returns.
+
+This function is available on all platforms and supersedes <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keinvalidateallcaches">KeInvalidateAllCaches</a>. Not all architectures, such as Arm64, support a reliable way to flush the entire cache, so <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keinvalidateallcaches">KeInvalidateAllCaches</a> is not available on all platforms. It is also significantly more efficient to flush the particular memory range affected than the entire cache contents.
+
+This function will flush the cache for all Virtual Mappings of the same underlying Phisical Memory.
+
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keinvalidateallcaches">KeInvalidateAllCaches</a>
