@@ -107,7 +107,7 @@ The Item ID.
 
 ### -field Parameters.Property.Control
 
-A pointer to a system service parameters that is used to control creation.
+A pointer to system service parameters that are used to control creation of the ACX request.
 
 ### -field Parameters.Property.ControlCb
 
@@ -203,7 +203,7 @@ The structure that contains the create parameters that are being used for the AC
 
 ### -field Parameters.Create.Control
 
-A pointer to a system service parameters that is used to control creation.
+A pointer to system service parameters that are used to control creation of the ACX request.
 
 ### -field Parameters.Create.ControlCb
 
