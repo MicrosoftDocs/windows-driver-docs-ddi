@@ -65,7 +65,7 @@ The <b>KeInvalidateRangeAllCaches</b> routine flushes the specified virtual addr
 
 This function is available on all platforms and supersedes <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keinvalidateallcaches">KeInvalidateAllCaches</a>. Not all architectures, such as Arm64, support a reliable way to flush the entire cache, so <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keinvalidateallcaches">KeInvalidateAllCaches</a> is not available on all platforms. It is also significantly more efficient to flush the particular memory range affected than the entire cache contents.
 
-This function will flush the cache for all Virtual Mappings of the same underlying Phisical Memory.
+This function will flush the cache for all Virtual Mappings of the same underlying Physical Memory.
 
 ## -see-also
 
