@@ -2,7 +2,7 @@
 UID: NF:ntddk.KeInvalidateRangeAllCaches
 tech.root: kernel
 title: KeInvalidateRangeAllCaches function (ntddk.h)
-ms.date: 
+ms.date: 07/27/2022
 targetos: Windows
 description: The KeInvalidateRangeAllCaches routine flushes the specified virtual address range from all processor caches.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: ntddk.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -63,10 +63,10 @@ The size of the region to be flushed, in bytes.
 
 The <b>KeInvalidateRangeAllCaches</b> routine flushes the specified virtual address range on each processor's caches and marks each cache's contents invalid. The processor caches are guaranteed to have completed the flush operation before <b>KeInvalidateRangeAllCaches</b> returns.
 
-This function is available on all platforms and supersedes <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keinvalidateallcaches">KeInvalidateAllCaches</a>. Not all architectures, such as Arm64, support a reliable way to flush the entire cache, so <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keinvalidateallcaches">KeInvalidateAllCaches</a> is not available on all platforms. It is also significantly more efficient to flush the particular memory range affected than the entire cache contents.
+This function is available on all platforms and supersedes <b><a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keinvalidateallcaches">KeInvalidateAllCaches</a></b>. Not all architectures, such as Arm64, support a reliable way to flush the entire cache, so <b><a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keinvalidateallcaches">KeInvalidateAllCaches</a></b> is not available on all platforms. It is also significantly more efficient to flush the particular memory range affected than the entire cache contents.
 
-This function will flush the cache for all Virtual Mappings of the same underlying Phisical Memory.
+This function flushes the cache for all virtual mappings of the same underlying physical memory.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keinvalidateallcaches">KeInvalidateAllCaches</a>
+<b><a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keinvalidateallcaches">KeInvalidateAllCaches</a></b>
