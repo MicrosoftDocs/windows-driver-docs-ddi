@@ -2,7 +2,7 @@
 UID: NS:acxrequest._ACX_REQUEST_PARAMETERS
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS
-ms.date: 07/26/2022
+ms.date: 07/27/2022
 targetos: Windows
 description: The ACX_REQUEST_PARAMETERS structure receives parameters that are associated with an I/O ACX request.
 prerelease: true
@@ -77,13 +77,13 @@ The WDF IRP minor function that is used for this request, for example IRP_MN_QUE
 
 ### -field Type
 
-The [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) enumeration describes the type of items that will be sent in the request. Depending on the type specified, a subset of the paramters listed below will be used.
+The [ACX_REQUEST_TYPE](ne-acxrequest-acx_request_type.md) enumeration describes the type of items that will be sent in the request. Depending on the type specified, a subset of the parameters listed below will be used.
 
 ### -field Parameters
 
 ### -field Parameters.Property
 
-A [KS Properties](/windows-hardware/drivers/stream/ks-properties) are being used for the ACX request. For more information, see [KSPROPERTY structure](/windows-hardware/drivers/stream/ksproperty-structure).
+Parameters for [KS Properties](/windows-hardware/drivers/stream/ks-properties) are being used for the ACX request. For more information, see [KSPROPERTY structure](/windows-hardware/drivers/stream/ksproperty-structure).
 
 ### -field Parameters.Property.Set
 
@@ -95,11 +95,19 @@ Specifies the member of the property set.
 
 ### -field Parameters.Property.Verb
 
+An [ACX_PROPERTY_VERB](ne-acxrequest-acx_property_verb.md) enumeration that describes the property verb.
+
 ### -field Parameters.Property.ItemType
+
+An [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) enumeration that describes the item being sent.
 
 ### -field Parameters.Property.ItemId
 
+The Item ID.
+
 ### -field Parameters.Property.Control
+
+A pointer to a system service parameters that is used to control creation.
 
 ### -field Parameters.Property.ControlCb
 
@@ -113,22 +121,39 @@ The count in bytes (size) of the Property.Value buffer.
 
 ### -field Parameters.Method
 
+Parameters used for a [KS Methods](/windows-hardware/drivers/stream/ks-methods) request. 
 
 ### -field Parameters.Method.Set
 
+Specifies a GUID that identifies a kernel streaming method set.
+
 ### -field Parameters.Method.Id
+
+Specifies the member of the method set.
 
 ### -field Parameters.Method.Verb
 
+An [ACX_METHOD_VERB](ne-acxrequest-acx_method_verb.md) enumeration that describes the item being sent.
+
 ### -field Parameters.Method.ItemType
+
+An [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) enumeration that describes the item being sent.
 
 ### -field Parameters.Method.ItemId
 
+The Item ID of the item being sent.
+
 ### -field Parameters.Method.Args
+
+A pointer to optional arguments for the method.
 
 ### -field Parameters.Method.ArgsCb
 
+The count in bytes (size) of the optional arguments for the method.
+
 ### -field Parameters.Method.Result
+
+A pointer to the result of the method.
 
 ### -field Parameters.Method.ResultCb
 
@@ -136,7 +161,7 @@ The count in bytes (size) of the Method.Result buffer.
 
 ### -field Parameters.Event
 
-[KS Events](/windows-hardware/drivers/stream/ks-events) are being used for the ACX request. For more information, see [KSEVENT structure](/windows-hardware/drivers/stream/ksevent-structure).
+Parameters used for [KS Events](/windows-hardware/drivers/stream/ks-events) that are being used for the ACX request. For more information, see [KSEVENT structure](/windows-hardware/drivers/stream/ksevent-structure).
 
 ### -field Parameters.Event.Set
 
@@ -148,11 +173,19 @@ Specifies the member of the event set.
 
 ### -field Parameters.Event.Verb
 
+An [ACX_EVENT_VERB](ne-acxrequest-acx_event_verb.md) enumeration that describes the item being sent.
+
 ### -field Parameters.Event.ItemType
+
+An [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) enumeration that describes the item being sent.
 
 ### -field Parameters.Event.ItemId
 
+The event Item ID.
+
 ### -field Parameters.Event.Data
+
+A pointer to the event data.
 
 ### -field Parameters.Event.DataCb
 
@@ -160,13 +193,15 @@ The count in bytes (size) of the Event.Data buffer.
 
 ### -field Parameters.Event.EventData
 
+An ACXEVENTDATA Object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+
 ### -field Parameters.Create
 
-TBD are being used for the ACX request.
+The structure that contains the create parameters that are being used for the ACX request.
 
 ### -field Parameters.Create.Control
 
-
+A pointer to a system service parameters that is used to control creation.
 
 ### -field Parameters.Create.ControlCb
 

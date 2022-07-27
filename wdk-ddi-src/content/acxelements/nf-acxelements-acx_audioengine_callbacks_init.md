@@ -2,9 +2,9 @@
 UID: NF:acxelements.ACX_AUDIOENGINE_CALLBACKS_INIT
 tech.root: audio 
 title: ACX_AUDIOENGINE_CALLBACKS_INIT
-ms.date: 04/29/2022
+ms.date: 07/27/2022
 targetos: Windows
-description: The ACX_AUDIOENGINE_CALLBACKS_INIT function initializes a driver's [ACX_AUDIOENGINE_CALLBACKS](ns-acxelements-acx_audioengine_callbacks.md) structure.
+description: The ACX_AUDIOENGINE_CALLBACKS_INIT function initializes a driver's ACX_AUDIOENGINE_CALLBACKS structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function

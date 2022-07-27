@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_AUDIOENGINE_CALLBACKS
 tech.root: audio 
 title: ACX_AUDIOENGINE_CALLBACKS
-ms.date: 04/29/2022
+ms.date: 07/27/2022
 targetos: Windows
 description: The ACX_AUDIOENGINE_CALLBACKS structure defines callbacks for the ACX audio engine. 
 prerelease: true

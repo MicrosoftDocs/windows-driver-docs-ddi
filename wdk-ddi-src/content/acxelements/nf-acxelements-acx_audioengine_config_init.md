@@ -2,9 +2,9 @@
 UID: NF:acxelements.ACX_AUDIOENGINE_CONFIG_INIT
 tech.root: audio 
 title: ACX_AUDIOENGINE_CONFIG_INIT
-ms.date: 04/29/2022
+ms.date: 07/27/2022
 targetos: Windows
-description: The ACX_AUDIOENGINE_CONFIG_INIT function initializes a driver's [ACX_AUDIOENGINE_CONFIG](ns-acxelements-acx_audioengine_config.md) structure.
+description: The ACX_AUDIOENGINE_CONFIG_INIT function initializes a driver's ACX_AUDIOENGINE_CONFIG structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function

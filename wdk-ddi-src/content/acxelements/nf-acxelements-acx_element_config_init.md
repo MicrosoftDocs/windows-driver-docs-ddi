@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_ELEMENT_CONFIG_INIT
 ms.date: 04/29/2022
 targetos: Windows
-description: The ACX_ELEMENT_CONFIG_INIT function initializes an [ACX_ELEMENT_CONFIG](ns-acxelements-acx_element_config.md) structure.
+description: The ACX_ELEMENT_CONFIG_INIT function initializes an ACX_ELEMENT_CONFIG structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
