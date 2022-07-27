@@ -115,6 +115,8 @@ The count in bytes (size) of the Property.Control buffer.
 
 ### -field Parameters.Property.Value
 
+A pointer to the property value.
+
 ### -field Parameters.Property.ValueCb
 
 The count in bytes (size) of the Property.Value buffer.
