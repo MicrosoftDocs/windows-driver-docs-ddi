@@ -1,10 +1,10 @@
 ---
 UID: NF:ntddk.KeInvalidateRangeAllCaches
-tech.root: 
+tech.root: kernel
 title: KeInvalidateRangeAllCaches function (ntddk.h)
 ms.date: 
 targetos: Windows
-description: The KeInvalidateRangeAllCaches routine flushes the specified virtual address range on all processor caches.
+description: The KeInvalidateRangeAllCaches routine flushes the specified virtual address range from all processor caches.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -47,7 +47,7 @@ helpviewer_keywords:
 
 ## -description
 
-The <b>KeInvalidateRangeAllCaches</b> routine flushes the specified virtual address range on all processor caches.
+The <b>KeInvalidateRangeAllCaches</b> routine flushes the specified virtual address range from all processor caches.
 
 ## -parameters
 
