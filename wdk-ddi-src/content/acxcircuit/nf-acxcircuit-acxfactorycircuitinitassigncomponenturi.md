@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitAssignComponentUri
 tech.root: audio
 title: AcxFactoryCircuitInitAssignComponentUri
-ms.date: 08/23/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitAssignComponentUri function assigns an URI string as identifier for the ACXFACTORYCIRCUIT.
 prerelease: true
@@ -49,11 +49,12 @@ The AcxFactoryCircuitInitAssignComponentUri function assigns an URI string as id
 ### -param FactoryInit
 
 An ACXFACTORYCIRCUIT_INIT structure that is used for circuit factory initialization. This is an opaque structure that is used to store ACX Circuit factory initialization information and associate the factory with a WDF device.
+
 Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuitinitallocate.md) to initialize the ACXFACTORYCIRCUIT_INIT structure.
 
 ### -param ComponentUri
 
-A unicode string describes the component.
+A unicode string that describes the component.
 
 ## -returns
 
@@ -88,4 +89,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

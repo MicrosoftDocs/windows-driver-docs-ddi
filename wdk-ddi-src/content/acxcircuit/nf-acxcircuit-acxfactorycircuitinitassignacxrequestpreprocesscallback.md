@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback
 tech.root: audio
 title: AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback
-ms.date: 08/27/2021
+ms.date: 07/28/2022
 targetos: Windows
 description:  The AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback function add a WDFREQUEST preprocess callback.
 prerelease: true
@@ -93,4 +93,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

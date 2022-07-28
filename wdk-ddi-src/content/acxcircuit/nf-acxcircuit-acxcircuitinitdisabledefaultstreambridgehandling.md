@@ -53,6 +53,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 ## -remarks
 
 When the driver invokes this method and the stream doesn't have an associated ACXSTREAMBRIDGE, ACX will not attempt to create a default stream bridge to forward the stream and its states to the next circuit.
+
 This function doesn't have any effect when called on a single-circuit endpoint or on the last circuit of a multi-circuit endpoint.
 
 ### Example
@@ -78,4 +79,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

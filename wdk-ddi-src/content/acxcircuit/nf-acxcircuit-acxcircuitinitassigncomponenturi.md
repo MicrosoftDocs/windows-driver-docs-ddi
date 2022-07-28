@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignComponentUri
 tech.root: audio
 title: AcxCircuitInitAssignComponentUri
-ms.date: 04/27/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxCircuitInitAssignComponentUri function assigns an URI string as identifier for the ACXCIRCUIT.
 prerelease: true
@@ -84,4 +84,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

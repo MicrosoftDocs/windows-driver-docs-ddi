@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitCreate
 tech.root: audio
 title: AcxFactoryCircuitCreate
-ms.date: 02/01/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxFactoryCircuitCreate function is used to create an ACXFACTORYCIRCUIT.
 prerelease: true
@@ -72,7 +72,7 @@ The ACXFACTORYCIRCUIT is used by the ACX framework for 'on-demand' ACXCIRCUITs. 
 
 The ACXFACTORYCIRCUIT is used in a multi-circuit endpoint. A circuit created by an ACXFACTORYCIRCUIT cannot be the 'core' circuit for the endpoint, i.e., the circuit that gives the endpoint identity.
 
-An ACXFACTORYCIRCUIT has a dedicated WDF queue. For more information about WDF queues, see [Framework Queue Objects](/windows-hardware/drivers/wdf/framework-queue-objects)
+An ACXFACTORYCIRCUIT has a dedicated WDF queue. For more information about WDF queues, see [Framework Queue Objects](/windows-hardware/drivers/wdf/framework-queue-objects).
 
 ### Example
 
@@ -120,4 +120,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

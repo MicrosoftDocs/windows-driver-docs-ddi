@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.ACX_CIRCUIT_PNPPOWER_CALLBACKS_INIT
 tech.root: audio
 title: ACX_CIRCUIT_PNPPOWER_CALLBACKS_INIT
-ms.date: 08/13/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_CIRCUIT_PNPPOWER_CALLBACKS_INIT function initializes a ACX_CIRCUIT_PNPPOWER_CALLBACKS structure.
 prerelease: true
@@ -85,4 +85,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

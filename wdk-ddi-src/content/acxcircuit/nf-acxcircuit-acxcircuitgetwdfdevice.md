@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitGetWdfDevice
 tech.root: audio
 title: AcxCircuitGetWdfDevice
-ms.date: 08/16/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: Given an existing ACX Circuit object, the AcxCircuitGetWdfDevice function returns the associated WDFDEVICE object.
 prerelease: true
@@ -71,4 +71,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

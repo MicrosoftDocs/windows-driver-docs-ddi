@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitAssignProperties
 tech.root: audio
 title: AcxFactoryCircuitInitAssignProperties
-ms.date: 08/18/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitAssignProperties function assigns one or more ACX properties for the ACXFACTORYCIRCUIT.
 prerelease: true
@@ -49,6 +49,7 @@ The AcxFactoryCircuitInitAssignProperties function assigns one or more ACX prope
 ### -param FactoryInit
 
 An ACXFACTORYCIRCUIT_INIT structure that is used for circuit factory initialization. This is an opaque structure that is used to store ACX Circuit factory initialization information and associate the factory with a WDF device.
+
 Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuitinitallocate.md) to initialize the ACXFACTORYCIRCUIT_INIT structure.
 
 ### -param Properties
@@ -81,4 +82,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

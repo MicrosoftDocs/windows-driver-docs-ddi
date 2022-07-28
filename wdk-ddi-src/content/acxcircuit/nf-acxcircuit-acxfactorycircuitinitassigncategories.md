@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitAssignCategories
 tech.root: audio
 title: AcxFactoryCircuitInitAssignCategories
-ms.date: 02/02/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitAssignCategories function assigns a set of driver category (GUID) entries for the ACXFACTORYCIRCUIT. 
 prerelease: true
@@ -49,6 +49,7 @@ The AcxFactoryCircuitInitAssignCategories function assigns a set of driver categ
 ### -param FactoryInit
 
 An ACXFACTORYCIRCUIT_INIT structure that is used for circuit factory initialization. This is an opaque structure that is used to store ACX Circuit factory initialization information and associate the factory with a WDF device.
+
 Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuitinitallocate.md) to initialize the ACXFACTORYCIRCUIT_INIT structure.
 
 ### -param Categories
@@ -65,7 +66,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-This call override the default categiry set initialized by ACX.
+This call override the default category set initialized by ACX.
 
 ### Example
 
@@ -93,4 +94,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

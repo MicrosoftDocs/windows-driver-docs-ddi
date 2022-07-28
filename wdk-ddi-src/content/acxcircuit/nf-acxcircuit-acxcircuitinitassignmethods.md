@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignMethods
 tech.root: audio
 title: AcxCircuitInitAssignMethods
-ms.date: 02/01/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxCircuitInitAssignMethods function assigns one or more ACX methods for the ACXCIRCUIT.
 prerelease: true
@@ -91,12 +91,8 @@ static ULONG CircuitMethodsCount = SIZEOF_ARRAY(CircuitMethods);
     status = AcxCircuitInitAssignMethods(circuitInit,
                                          CircuitMethods,
                                          CircuitMethodsCount);
-
-
 ```
 
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-READY2GO

@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitCreate
 tech.root: audio
 title: AcxCircuitCreate
-ms.date: 06/16/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxCircuitCreate function is used to create an ACXCIRCUIT.
 prerelease: true
@@ -111,6 +111,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO 
-
-EDITCOMPLETE

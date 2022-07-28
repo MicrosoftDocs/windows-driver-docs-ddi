@@ -148,6 +148,3 @@ CodecR_EvtCircuitPowerDown (
 
 [Supporting PnP and Power Management in Function Driver](/windows-hardware/drivers/wdf/supporting-pnp-and-power-management-in-function-drivers)
 
-READY2GO
-
-EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAllocate
 tech.root: audio
 title: AcxCircuitInitAllocate
-ms.date: 08/16/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxCircuitInitAllocate function is used to initialize the opaque ACXCIRCUIT_INIT structure that is used by the AcxCircuitCreate function. 
 prerelease: true
@@ -70,4 +70,4 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO
+

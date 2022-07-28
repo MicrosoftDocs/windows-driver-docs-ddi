@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitResumeIoWithTag
 tech.root: audio
 title: AcxCircuitResumeIoWithTag
-ms.date: 02/04/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxCircuitResumeIoWithTag function is used to resume circuit I/O after it has been stopped. 
 prerelease: true
@@ -71,4 +71,3 @@ Sample pending.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

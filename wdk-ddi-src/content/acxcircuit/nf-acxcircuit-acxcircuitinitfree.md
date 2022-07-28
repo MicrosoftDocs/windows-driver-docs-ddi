@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitFree
 tech.root: audio
 title: AcxCircuitInitFree
-ms.date: 04/27/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxCircuitInitFree function deletes the circuit initialization object.
 prerelease: true
@@ -53,7 +53,8 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 ## -remarks
 
 This function does not return a value.
-The driver is responsable for deleting the ACXCIRCUIT_INIT object using this DDI if the AcxCircuitCreate is not invoked or returns an error.
+
+The driver is responsible for deleting the ACXCIRCUIT_INIT object using this DDI if the AcxCircuitCreate is not invoked or returns an error.
 
 ### Example
 
@@ -84,4 +85,3 @@ exit:
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

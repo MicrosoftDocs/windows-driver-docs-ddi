@@ -101,6 +101,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

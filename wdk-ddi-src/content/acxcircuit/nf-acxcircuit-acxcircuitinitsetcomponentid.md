@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitSetComponentId
 tech.root: audio
 title: AcxCircuitInitSetComponentId
-ms.date: 02/01/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxCircuitInitSetComponentId function sets the component ID for the ACXCIRCUIT.
 prerelease: true
@@ -78,4 +78,3 @@ DEFINE_GUID(COMPONENT_GUID,
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

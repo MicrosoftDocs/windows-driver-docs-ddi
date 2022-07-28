@@ -280,6 +280,3 @@ Return Value:
 
 - [acxcircuit.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

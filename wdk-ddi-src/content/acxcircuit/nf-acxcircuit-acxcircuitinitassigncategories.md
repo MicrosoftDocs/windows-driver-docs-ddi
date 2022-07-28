@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignCategories
 tech.root: audio
 title: AcxCircuitInitAssignCategories
-ms.date: 02/02/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxCircuitInitAssignCategories function assigns a set of KSCATERGORY entries for the ACXCIRCUIT.
 prerelease: true
@@ -64,7 +64,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-This call override the default categiry set initialized by ACX which is based on the ACXCIRCUIT type.
+This call overrides the default category set initialized by ACX which is based on the ACXCIRCUIT type.
 
 ### Example
 
@@ -94,4 +94,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

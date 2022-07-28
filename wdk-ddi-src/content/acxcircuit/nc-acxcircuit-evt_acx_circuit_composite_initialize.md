@@ -101,6 +101,3 @@ CodecR_EvtCircuitCompositeInitialize(
 
 - [acxcircuit.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

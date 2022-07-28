@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitStopIo
 tech.root: audio
 title: AcxCircuitStopIo
-ms.date: 04/28/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxCircuitStopIo function is used to signal to the operating system to temporarily stop circuit I/O. 
 prerelease: true
@@ -72,8 +72,8 @@ Example usage is shown below.
 
 ## -see-also
 
-[AcxCircuitStopIoWithTag macro](nf-acxcircuit-acxcircuitstopiowithtag.md)
+- [AcxCircuitStopIoWithTag macro](nf-acxcircuit-acxcircuitstopiowithtag.md)
 
 - [acxcircuit.h header](index.md)
 
-READY2GO
+

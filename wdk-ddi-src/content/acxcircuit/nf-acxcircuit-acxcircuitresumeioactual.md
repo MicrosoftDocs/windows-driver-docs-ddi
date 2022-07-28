@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitResumeIoActual
 tech.root: audio
 title: AcxCircuitResumeIoActual
-ms.date: 02/04/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxCircuitResumeIoActual function is used to resume circuit I/O after it has been stopped.
 prerelease: true
@@ -70,4 +70,3 @@ It is not recommended to use this version of the stop IO call, but rather [AcxCi
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

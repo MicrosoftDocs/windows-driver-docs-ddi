@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitAllocate
 tech.root: audio
 title: AcxFactoryCircuitInitAllocate
-ms.date: 01/31/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitAllocate function is used to initialize the opaque ACXFACTORYCIRCUIT_INIT structure that is used by the AcxFactoryCircuitCreate function. 
 prerelease: true
@@ -56,7 +56,7 @@ A pointer to an initialized ACXFACTORYCIRCUIT_INIT structure. This is an opaque 
 
 ## -remarks
 
-The driver is responsable for deleting the ACXFACTORYCIRCUIT_INIT object using AcxFactoryCircuitInitFree if the AcxFactoryCircuitCreate is not invoked or returns an error.
+The driver is responsible for deleting the ACXFACTORYCIRCUIT_INIT object using AcxFactoryCircuitInitFree if the AcxFactoryCircuitCreate is not invoked or returns an error.
 
 ### Example
 
@@ -75,4 +75,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

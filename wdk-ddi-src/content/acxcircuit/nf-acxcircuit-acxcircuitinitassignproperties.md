@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignProperties
 tech.root: audio
 title: AcxCircuitInitAssignProperties
-ms.date: 08/17/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxCircuitInitAssignProperties function assigns one or more ACX properties for the ACXCIRCUIT.
 prerelease: true
@@ -98,4 +98,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

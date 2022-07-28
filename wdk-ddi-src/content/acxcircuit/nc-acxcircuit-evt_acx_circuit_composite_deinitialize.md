@@ -100,6 +100,3 @@ DspR_EvtCircuitCompositeDeinitialize(
 
 - [acxcircuit.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitFree
 tech.root: audio
 title: AcxFactoryCircuitInitFree
-ms.date: 08/20/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitFree function deletes the factory circuit initialization object.
 prerelease: true
@@ -55,7 +55,8 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 ## -remarks
 
 This function does not return a value.
-The driver is responsable for deleting the ACXFACTORYCIRCUIT_INIT object using this DDI if the AcxFactoryCircuitCreate is not invoked or returns an error.
+
+The driver is responsible for deleting the ACXFACTORYCIRCUIT_INIT object using this DDI if the AcxFactoryCircuitCreate is not invoked or returns an error.
 
 ### Example
 
@@ -85,4 +86,3 @@ exit:
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

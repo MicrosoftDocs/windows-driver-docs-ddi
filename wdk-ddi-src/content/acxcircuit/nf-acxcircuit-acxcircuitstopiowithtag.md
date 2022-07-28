@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitStopIoWithTag
 tech.root: audio
 title: AcxCircuitStopIoWithTag
-ms.date: 02/04/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxCircuitStopIoWithTag function is used to signal to the operating system to temporarily stop circuit I/O. 
 prerelease: true
@@ -76,4 +76,3 @@ Sample pending.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

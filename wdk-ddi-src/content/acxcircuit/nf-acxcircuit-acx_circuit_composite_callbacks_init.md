@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.ACX_CIRCUIT_COMPOSITE_CALLBACKS_INIT
 tech.root: audio
 title: ACX_CIRCUIT_COMPOSITE_CALLBACKS_INIT
-ms.date: 01/31/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_CIRCUIT_COMPOSITE_CALLBACKS_INIT function initializes a ACX_CIRCUIT_COMPOSITE_CALLBACKS structure. 
 prerelease: true
@@ -72,4 +72,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

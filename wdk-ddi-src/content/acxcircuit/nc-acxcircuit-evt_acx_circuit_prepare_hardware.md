@@ -139,6 +139,4 @@ exit:
 
 - [acxcircuit.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

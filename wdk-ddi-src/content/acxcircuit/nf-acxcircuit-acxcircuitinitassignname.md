@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignName
 tech.root: audio
 title: AcxCircuitInitAssignName
-ms.date: 08/17/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxCircuitInitAssignName function assigns a friendly name for the ACXCIRCUIT.
 prerelease: true
@@ -82,4 +82,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

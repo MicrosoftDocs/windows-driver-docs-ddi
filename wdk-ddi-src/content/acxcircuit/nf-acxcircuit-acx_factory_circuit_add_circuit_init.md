@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_INIT
 tech.root: audio
 title: ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_INIT
-ms.date: 02/01/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_INIT function initializes a ACX_FACTORY_CIRCUIT_ADD_CIRCUIT structure.
 prerelease: true
@@ -70,4 +70,3 @@ Example usage is shown below.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO

@@ -81,6 +81,3 @@ An AcxFactoryCircuit has a dedicated WDF queue. For more information about WDF q
 
 - [acxcircuit.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

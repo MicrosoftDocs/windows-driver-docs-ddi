@@ -57,6 +57,3 @@ There are no flags currently defined for this type.
 
 - [acxcircuit.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

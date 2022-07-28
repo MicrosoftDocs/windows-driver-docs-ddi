@@ -140,6 +140,3 @@ Dsp_EvtAcxFactoryCircuitCreateCircuitDevice(
 
 - [acxcircuit.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

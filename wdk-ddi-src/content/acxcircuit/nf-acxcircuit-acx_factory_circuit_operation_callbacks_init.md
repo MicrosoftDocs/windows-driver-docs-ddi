@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT
 tech.root: audio
 title: ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT
-ms.date: 08/13/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT function initializes a ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS config structure. 
 prerelease: true
@@ -85,5 +85,3 @@ Example usage is shown below.
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-READY2GO
