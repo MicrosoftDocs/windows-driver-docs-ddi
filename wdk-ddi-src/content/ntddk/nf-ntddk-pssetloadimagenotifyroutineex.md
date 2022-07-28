@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>PsSetLoadImageNotifyRoutineEx</b> routine registers a driver-supplied callback that is subsequently notified whenever an image is loaded (or mapped into memory).
+The <b>PsSetLoadImageNotifyRoutineEx</b> routine registers a driver-supplied callback that is subsequently notified whenever an image (for example, a DLL or EXE) is loaded (or mapped into memory).
 
 ## -parameters
 

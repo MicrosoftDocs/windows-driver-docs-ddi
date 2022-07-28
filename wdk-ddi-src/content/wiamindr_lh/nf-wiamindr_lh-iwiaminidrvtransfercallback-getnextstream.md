@@ -2,9 +2,8 @@
 UID: NF:wiamindr_lh.IWiaMiniDrvTransferCallback.GetNextStream
 title: IWiaMiniDrvTransferCallback::GetNextStream (wiamindr_lh.h)
 description: Called by the WIA mini-driver to obtain a stream for the current data transfer (download or upload).
-old-location: image\iwiaminidrvtransfercallback_getnextstream.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 07/21/2022
 keywords: ["IWiaMiniDrvTransferCallback::GetNextStream"]
 ms.keywords: GetNextStream, GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices],IWiaMiniDrvTransferCallback interface, IWiaMiniDrvTransferCallback interface [Imaging Devices],GetNextStream method, IWiaMiniDrvTransferCallback.GetNextStream, IWiaMiniDrvTransferCallback::GetNextStream, image.iwiaminidrvtransfercallback_getnextstream, wiamindr_lh/IWiaMiniDrvTransferCallback::GetNextStream
 req.header: wiamindr_lh.h
@@ -40,9 +39,6 @@ api_name:
  - IWiaMiniDrvTransferCallback::GetNextStream
 ---
 
-# IWiaMiniDrvTransferCallback::GetNextStream
-
-
 ## -description
 
 Called by the WIA mini-driver to obtain a stream for the current data transfer (download or upload).
@@ -51,33 +47,33 @@ Called by the WIA mini-driver to obtain a stream for the current data transfer (
 
 ### -param lFlags [in]
 
-
 Represents flag bits. This parameter is unused and should always be set to zero (0) by the caller.
 
 ### -param bstrItemName [in]
 
+The name of the item that will perform the data transfer. 
 
-The name of the item that will perform the data transfer. For more information, see  [WIA_IPA_ITEM_NAME](/windows-hardware/drivers/image/wia-ipa-item-name).
+For more information, see  [WIA_IPA_ITEM_NAME](/windows-hardware/drivers/image/wia-ipa-item-name).
 
 ### -param bstrFullItemName [in]
 
+The full name of the item that will perform the data transfer. 
 
-The full name of the item that will perform the data transfer. For more information, see [WIA_IPA_FULL_ITEM_NAME](/windows-hardware/drivers/image/wia-ipa-full-item-name).
+For more information, see [WIA_IPA_FULL_ITEM_NAME](/windows-hardware/drivers/image/wia-ipa-full-item-name).
 
 ### -param ppIStream [out]
-
 
 A pointer to an **IStream** object.
 
 ## -returns
 
-This method returns S_OK when the call is successful. Otherwise it returns an appropriate HRESULT error code.
+This method returns **S_OK** when the call is successful. Otherwise it returns an appropriate **HRESULT** error code.
 
 ## -remarks
 
-When the client requests to skip the data transfer, the **GetNextStream** method returns WIA_STATUS_SKIP_ITEM. The WIA mini-driver must skip the current image transfer and continue with the next image transfer, if any. For example, for a download transfer, finish scanning the current image and then discard the image data.
+When the client requests to skip the data transfer, the **GetNextStream** method returns **WIA_STATUS_SKIP_ITEM**. The WIA mini-driver must skip the current image transfer and continue with the next image transfer, if any. For example, for a download transfer, finish scanning the current image and then discard the image data.
 
-When the current transfer sequence is cancelled, the **GetNextStream** method returns S_FALSE.
+When the current transfer sequence is cancelled, the **GetNextStream** method returns **S_FALSE**.
 
 ## -see-also
 
@@ -90,4 +86,3 @@ When the current transfer sequence is cancelled, the **GetNextStream** method re
 [WIA_IPA_FULL_ITEM_NAME](/windows-hardware/drivers/image/wia-ipa-full-item-name)
 
 [WIA_IPA_ITEM_NAME](/windows-hardware/drivers/image/wia-ipa-item-name)
-

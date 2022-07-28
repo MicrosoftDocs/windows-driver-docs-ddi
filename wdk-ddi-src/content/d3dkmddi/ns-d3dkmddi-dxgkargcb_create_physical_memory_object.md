@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT
 tech.root: display
 title: DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: The DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT structure contains the information used by the DxgkCbCreatePhysicalMemoryObject callback function to create physical memory.
 req.construct-type: structure
@@ -58,7 +58,7 @@ A pointer-size piece of context data that *Dxgkrnl* will store alongside the phy
 
 ### -field Type
 
-A [**DXGK_PHYSICAL_MEMORY_TYPE**](ne-d3dkmddi-dxgk_physical_memory_type.md) value that specifies the type of physical memory to create.
+A [**DXGK_PHYSICAL_MEMORY_TYPE**](ne-d3dkmddi-dxgk_physical_memory_type.md) value that specifies the type of physical memory to create. If **Type** is **DXGK_PHYSICAL_MEMORY_TYPE_SECTION**, then the allocation attributes of the section object are always SEC_COMMIT (PF-mapped section), and the cache type is determines by **CacheType**.
 
 ### -field CacheType
 
@@ -139,6 +139,8 @@ On a successful call to [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgk
 ## -remarks
 
 The *hAdapter* field is optional when creating a physical memory object, but that object must be opened against an adapter in a call to [**DXGKCB_OPENPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md) before an [ADL can be created](nc-d3dkmddi-dxgkcb_allocateadl.md). This is because an ADL represents logical memory, and each logical adapter has a unique domain. It does not matter which physical adapter the memory is created against. It will be opened by the logical adapter that the physical adapter belongs to and will be mapped to all linked physical adapters.
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 ## -see-also
 

@@ -2,9 +2,9 @@
 UID: NS:wdm._DOMAIN_CONFIGURATION_X64
 tech.root: kernel
 title: DOMAIN_CONFIGURATION_X64
-ms.date: 06/04/2021
+ms.date: 07/13/2022
 targetos: Windows
-description: Reserved for system use only.
+description: The DOMAIN_CONFIGURATION_X64 structure is reserved for system use only.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-Reserved for system use only.
+The **DOMAIN_CONFIGURATION_X64** structure is reserved for system use only.
 
 ## -struct-fields
 

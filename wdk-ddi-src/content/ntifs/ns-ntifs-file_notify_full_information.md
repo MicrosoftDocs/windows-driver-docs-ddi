@@ -2,7 +2,7 @@
 UID: NS:ntifs._FILE_NOTIFY_FULL_INFORMATION
 tech.root: ifsk
 title: FILE_NOTIFY_FULL_INFORMATION
-ms.date: 05/24/2022
+ms.date: 06/21/2022
 targetos: Windows
 description: Learn more about the FILE_NOTIFY_FULL_INFORMATION structure.
 prerelease: false
@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 ## -description
 
-**FILE_NOTIFY_FULL_INFORMATION** describes detailed changes found by the [**ReadDirectoryChangesExW**](/win32/api/winbase/nf-winbase-readdirectorychangesexw) () and [**ZwNotifyChangeDirectoryFileEx**](/previous-versions/mt812581(v%3dvs.85)) functions.
+**FILE_NOTIFY_FULL_INFORMATION** describes detailed changes found by the [**ReadDirectoryChangesExW**](/windows/win32/api/winbase/nf-winbase-readdirectorychangesexw) and [**ZwNotifyChangeDirectoryFileEx**](/previous-versions/mt812581(v%3dvs.85)) functions.
 
 ## -struct-fields
 
@@ -152,4 +152,4 @@ A **FILE_NOTIFY_FULL_INFORMATION** structure is returned in response to an [**IR
 
 [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
-[**ZwNotifyChangeDirectoryFileEx **](/previous-versions/mt812581(v=vs.85))
+[**ZwNotifyChangeDirectoryFileEx**](/previous-versions/mt812581(v=vs.85))

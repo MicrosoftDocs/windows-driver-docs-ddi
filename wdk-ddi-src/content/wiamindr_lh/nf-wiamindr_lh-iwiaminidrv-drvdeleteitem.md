@@ -2,9 +2,8 @@
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvDeleteItem
 title: IWiaMiniDrv::drvDeleteItem (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvDeleteItem method deletes the current driver item.
-old-location: image\iwiaminidrv_drvdeleteitem.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 07/21/2022
 keywords: ["IWiaMiniDrv::drvDeleteItem"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvDeleteItem method, IWiaMiniDrv.drvDeleteItem, IWiaMiniDrv::drvDeleteItem, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml, drvDeleteItem, drvDeleteItem method [Imaging Devices], drvDeleteItem method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvdeleteitem, wiamindr_lh/IWiaMiniDrv::drvDeleteItem
 req.header: wiamindr_lh.h
@@ -40,9 +39,6 @@ api_name:
  - IWiaMiniDrv::drvDeleteItem
 ---
 
-# IWiaMiniDrv::drvDeleteItem
-
-
 ## -description
 
 The **IWiaMiniDrv::drvDeleteItem** method deletes the current driver item.
@@ -51,41 +47,29 @@ The **IWiaMiniDrv::drvDeleteItem** method deletes the current driver item.
 
 ### -param __MIDL__IWiaMiniDrv0053
 
-lFlags [in]
+*lFlags* [in]
 
-- Is currently unused.
+Reserved.
 
 ### -param __MIDL__IWiaMiniDrv0054
 
-pWiasContext [in]
-
-- Pointer to a WIA item context.
-
-### -param __MIDL__IWiaMiniDrv0055
-
-plDevErrVal [out]
-
-- Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-### -param lFlags [in]
-
-Is currently unused.
-
-### -param pWiasContext [in]
+*pWiasContext* [in]
 
 Pointer to a WIA item context.
 
-### -param plDevErrVal [out]
+### -param __MIDL__IWiaMiniDrv0055
+
+*plDevErrVal* [out]
 
 Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 ## -returns
 
-On success, the method should return S_OK and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by *plDevErrVal*. The value pointed to by *plDevErrVal* can be converted to a string by calling [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md).
+On success, the method should return **S_OK** and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by *plDevErrVal*. The value pointed to by *plDevErrVal* can be converted to a string by calling [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md).
 
 ## -remarks
 
-In order to delete a driver item, the WIA service will call the minidriver method **IWiaMiniDrv::drvDeleteItem**. In this method, the minidriver will attempt to delete the item pointed to by the WIA service context parameter *pWiasContext*. If the item is successfully deleted, the method returns S_OK and sets the device error value parameter *plDevErrVal* to zero. If a device error occurs, the method returns E_FAIL and a device-specific error value in the device error value parameter *plDevErrVal*.
+In order to delete a driver item, the WIA service will call the minidriver method **IWiaMiniDrv::drvDeleteItem**. In this method, the minidriver will attempt to delete the item pointed to by the WIA service context parameter *pWiasContext*. If the item is successfully deleted, the method returns **S_OK** and sets the device error value parameter *plDevErrVal* to zero. If a device error occurs, the method returns **E_FAIL** and a device-specific error value in the device error value parameter *plDevErrVal*.
 
 Before the WIA service calls this method, it verifies the following:
 
@@ -102,4 +86,3 @@ Since the WIA service verifies these conditions, it is not necessary for the min
 [IWiaMiniDrv](./nn-wiamindr_lh-iwiaminidrv.md)
 
 [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)
-

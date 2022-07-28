@@ -128,7 +128,7 @@ The maximum number of error source types that can report hardware errors.
 
 ## -remarks
 
-The [WHEA_ERROR_SOURCE_DESCRIPTOR](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor) structure contains a member of type WHEA_ERROR_SOURCE_TYPE that specifies the type of error source that is described by the structure.
+The [WHEA_ERROR_SOURCE_DESCRIPTOR](./ns-ntddk-_whea_error_source_descriptor.md) structure contains a member of type WHEA_ERROR_SOURCE_TYPE that specifies the type of error source that is described by the structure.
 
 The [WHEA_ERROR_PACKET](/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)) structure contains a member of type WHEA_ERROR_SOURCE_TYPE that specifies the type of error source that caused the error condition described by the structure.
 
@@ -138,4 +138,4 @@ The [WHEA_ERROR_PACKET](/previous-versions/windows/hardware/drivers/ff560465(v=v
 
 [WHEA_ERROR_PACKET](/previous-versions/windows/hardware/drivers/ff560465(v=vs.85))
 
-[WHEA_ERROR_SOURCE_DESCRIPTOR](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor)
+[WHEA_ERROR_SOURCE_DESCRIPTOR](./ns-ntddk-_whea_error_source_descriptor.md)

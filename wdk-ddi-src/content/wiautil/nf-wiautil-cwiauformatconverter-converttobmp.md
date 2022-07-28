@@ -63,7 +63,7 @@ Pointer to a memory location that receives the size, in bytes, of the resulting 
 
 ### -param pBmpImageInfo
 
-Pointer to a [BMP_IMAGE_INFO](/windows-hardware/drivers/ddi/wiautil/ns-wiautil-_bmp_image_info) structure that receives information about the resulting image.
+Pointer to a [BMP_IMAGE_INFO](./ns-wiautil-_bmp_image_info.md) structure that receives information about the resulting image.
 
 ### -param iSkipAmt
 
@@ -85,10 +85,10 @@ The caller is responsible for freeing the memory using the **delete []** operato
 
 ## -see-also
 
-[BMP_IMAGE_INFO](/windows-hardware/drivers/ddi/wiautil/ns-wiautil-_bmp_image_info)
+[BMP_IMAGE_INFO](./ns-wiautil-_bmp_image_info.md)
 
 [CWiauFormatConverter](/previous-versions/windows/hardware/drivers/ff540363(v=vs.85))
 
-[CWiauFormatConverter::IsFormatSupported](/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiauformatconverter-isformatsupported)
+[CWiauFormatConverter::IsFormatSupported](./nf-wiautil-cwiauformatconverter-isformatsupported.md)
 
-[SKIP_AMOUNT](/windows-hardware/drivers/ddi/wiautil/ne-wiautil-skip_amount)
+[SKIP_AMOUNT](./ne-wiautil-skip_amount.md)

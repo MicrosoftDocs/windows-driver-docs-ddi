@@ -69,7 +69,7 @@ NDIS receive filters are used in the following NDIS interfaces:
 </li>
 <li>
 
-<a href="/windows-hardware/drivers/network/virtual-machine-queue--vmq-">Virtual Machine Queue (VMQ)</a>. For more information about how to use receive filters in this interface, see <a href="/windows-hardware/drivers/network/setting-and-clearing-vmq-filters">Setting and Clearing VMQ Filters</a>.
+<a href="/windows-hardware/drivers/network/virtual-machine-queue-architecture">Virtual Machine Queue (VMQ)</a>. For more information about how to use receive filters in this interface, see <a href="/windows-hardware/drivers/network/setting-and-clearing-vmq-filters">Setting and Clearing VMQ Filters</a>.
 
 </li>
 </ul>

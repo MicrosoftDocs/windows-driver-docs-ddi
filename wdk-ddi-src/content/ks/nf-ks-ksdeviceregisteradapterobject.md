@@ -2,9 +2,8 @@
 UID: NF:ks.KsDeviceRegisterAdapterObject
 title: KsDeviceRegisterAdapterObject function (ks.h)
 description: The KsDeviceRegisterAdapterObject function registers a DMA adapter object with AVStream for performing scatter/gather DMA on the specified device. All drivers compiled for Win64 should use IKsDeviceFunctions::RegisterAdapterObjectEx instead.
-old-location: stream\ksdeviceregisteradapterobject.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 07/14/2022
 keywords: ["KsDeviceRegisterAdapterObject function"]
 ms.keywords: KsDeviceRegisterAdapterObject, KsDeviceRegisterAdapterObject function [Streaming Media Devices], avfunc_59ad20f2-ca31-4fbb-808e-48df3a0c87a8.xml, ks/KsDeviceRegisterAdapterObject, stream.ksdeviceregisteradapterobject
 req.header: ks.h
@@ -41,64 +40,47 @@ api_name:
  - KsDeviceRegisterAdapterObject
 ---
 
-# KsDeviceRegisterAdapterObject function
-
-
 ## -description
 
-The<b> KsDeviceRegisterAdapterObject</b> function registers a DMA adapter object with AVStream for performing scatter/gather DMA on the specified device. All drivers compiled for Win64 should use <a href="/windows-hardware/drivers/ddi/ks/nf-ks-iksdevicefunctions-registeradapterobjectex">IKsDeviceFunctions::RegisterAdapterObjectEx</a> instead.
+The **KsDeviceRegisterAdapterObject** function registers a DMA adapter object with AVStream for performing scatter/gather DMA on the specified device. All drivers compiled for Win64 should use [IKsDeviceFunctions::RegisterAdapterObjectEx](/windows-hardware/drivers/ddi/ks/nf-ks-iksdevicefunctions-registeradapterobjectex) instead.
 
 ## -parameters
 
 ### -param Device [in]
 
-
-A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure representing the AVStream device for which to register an adapter object.
+A pointer to the [KSDEVICE](/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice) structure representing the AVStream device for which to register an adapter object.
 
 ### -param AdapterObject [in]
 
+A pointer to the [DMA_ADAPTER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter) structure returned by [IoGetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter) that represents the DMA controller..
 
-A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the DMA controller..
+### -param MaxMappingsByteCount [in]
 
-### -param MaxMappingsByteCount
+This parameter specifies the maximum number of bytes that the device can handle for a single mapping. Allows AVStream to automatically break up large chunks of contiguous physical memory into multiple scatter/gather elements for devices that impose a size limit on individual mappings in DMA transfers. *Breaks are not guaranteed to occur on page boundaries.*
 
 ### -param MappingTableStride [in]
 
-
-This parameter specifies how many bytes each entry in the mapping table requires. This must be at least <b>sizeof</b> (<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksmapping">KSMAPPING</a>) and can be as large as necessary.
+This parameter specifies how many bytes each entry in the mapping table requires. This must be at least **sizeof** ([KSMAPPING](/windows-hardware/drivers/ddi/ks/ns-ks-_ksmapping)) and can be as large as necessary.
 
 Additional space can be used by the minidriver as context information.
 
-
-### -param MaxMappingByteCount [in]
-
-This parameter specifies the maximum number of bytes that the device can handle for a single mapping. Allows AVStream to automatically break up large chunks of contiguous physical memory into multiple scatter/gather elements for devices that impose a size limit on individual mappings in DMA transfers. <i>Breaks are not guaranteed to occur on page boundaries.</i>
-
 ## -remarks
 
-A minidriver that calls <b>KsDeviceRegisterAdapterObject</b> is responsible for previously acquiring the adapter object through <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>. 
+A minidriver that calls **KsDeviceRegisterAdapterObject** is responsible for previously acquiring the adapter object through [IoGetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter).
 
-Also note that if the minidriver specifies the KSPIN_FLAG_GENERATE_MAPPINGS flag for any pin on any filter on the device, the minidriver must call <b>KsDeviceRegisterAdapterObject</b> before processing any data. More information about this flag can be found in the reference page for <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex">KSPIN_DESCRIPTOR_EX</a>. Also see <a href="/windows-hardware/drivers/stream/avstream-dma-services">AVStream DMA Services</a>.
+Also note that if the minidriver specifies the KSPIN_FLAG_GENERATE_MAPPINGS flag for any pin on any filter on the device, the minidriver must call **KsDeviceRegisterAdapterObject** before processing any data. More information about this flag can be found in the reference page for [KSPIN_DESCRIPTOR_EX](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex). Also see [AVStream DMA Services](/windows-hardware/drivers/stream/avstream-dma-services).
 
-<div class="alert"><b>Important</b>  
-      If you set <i>MaxMappingByteCount</i> to one physical page in length, mappings are not guaranteed to reside on a single physical page.<p class="note">In addition, as noted in the member description above, setting <i>MaxMappingsByteCount</i> does not guarantee that breaks will occur on page boundaries. If you require breaks on page boundaries, consider not specifying a limit on mapping sizes; instead, break the returned scatter/gather mappings into page-aligned chunks manually.
+> [!IMPORTANT]
+> Essential information required for user successIf you set *MaxMappingByteCount* to one physical page in length, mappings are not guaranteed to reside on a single physical page. In addition, as noted in the member description above, setting *MaxMappingsByteCount* does not guarantee that breaks will occur on page boundaries. If you require breaks on page boundaries, consider not specifying a limit on mapping sizes; instead, break the returned scatter/gather mappings into page-aligned chunks manually.
 
-</div>
-<div> </div>
-Also see <a href="/windows-hardware/drivers/stream/supporting-dma-in-64-bit-avstream-drivers">Supporting DMA in 64-Bit AVStream Drivers</a>.
+Also see [Supporting DMA in 64-Bit AVStream Drivers](/windows-hardware/drivers/stream/supporting-dma-in-64-bit-avstream-drivers).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
+[IoGetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter)
 
+[KSFILTER_DESCRIPTOR](/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor)
 
+[KSMAPPING](/windows-hardware/drivers/ddi/ks/ns-ks-_ksmapping)
 
-<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor">KSFILTER_DESCRIPTOR</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksmapping">KSMAPPING</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex">KSPIN_DESCRIPTOR_EX</a>
+[KSPIN_DESCRIPTOR_EX](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex)

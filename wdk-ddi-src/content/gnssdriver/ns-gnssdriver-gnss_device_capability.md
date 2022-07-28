@@ -1,10 +1,9 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_2
 title: GNSS_DEVICE_CAPABILITY (gnssdriver.h)
-description: This structure is used to determine the device capabilities of the underlying GNSS engine.
-old-location: gnss\gnss_device_capability.htm
+description: The GNSS_DEVICE_CAPABILITY structure is used to determine the device capabilities of the underlying GNSS engine.
 tech.root: gnss
-ms.date: 04/02/2021
+ms.date: 06/20/2022
 keywords: ["GNSS_DEVICE_CAPABILITY structure"]
 ms.keywords: "*PGNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY structure [Sensor Devices], PGNSS_DEVICE_CAPABILITY, PGNSS_DEVICE_CAPABILITY structure pointer [Sensor Devices], gnss.gnss_device_capability, gnssdriver/GNSS_DEVICE_CAPABILITY, gnssdriver/PGNSS_DEVICE_CAPABILITY"
 req.header: gnssdriver.h
@@ -43,11 +42,9 @@ api_name:
  - GNSS_DEVICE_CAPABILITY
 ---
 
-# GNSS_DEVICE_CAPABILITY structure
-
 ## -description
 
-This structure is used to determine the device capabilities of the underlying GNSS engine.
+The **GNSS_DEVICE_CAPABILITY** structure is used to determine the device capabilities of the underlying GNSS engine.
 
 ## -struct-fields
 
@@ -194,13 +191,7 @@ Must greater than or equal to MIN_BREADCRUMBS_SUPPORTED.
 
 ### -field Unused
 
-### -field RequireAgnssInjection
-
-Indicates whether the GNSS driver requires assistance data to be injected for faster TTFF.
-
-### -field Unused[496]
-
-Padding buffer.
+Padding buffer reserved for future use.
 
 ## -remarks
 

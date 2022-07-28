@@ -3,7 +3,7 @@ UID: NS:d3dkmddi._DXGKARG_BUILDPAGINGBUFFER
 title: DXGKARG_BUILDPAGINGBUFFER (d3dkmddi.h)
 description: The DXGKARG_BUILDPAGINGBUFFER structure describes parameters for building a paging buffer that is used in a memory-transfer operation.
 old-location: display\dxgkarg_buildpagingbuffer.htm
-ms.date: 05/13/2021
+ms.date: 06/24/2022
 keywords: ["DXGKARG_BUILDPAGINGBUFFER structure"]
 ms.keywords: "*IN_PDXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER structure [Display Devices], DXGKARG_BUILDPAGINGBUFFER_OPERATION, DXGK_BUILDPAGINGBUFFER_OPERATION, DmStructs_06cb7ec2-482d-41ba-b550-3c4f27d36070.xml, _DXGKARG_BUILDPAGINGBUFFER, d3dkmddi/DXGKARG_BUILDPAGINGBUFFER, display.dxgkarg_buildpagingbuffer"
 req.header: d3dkmddi.h
@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **DXGKARG_BUILDPAGINGBUFFER** structure describes parameters for building a paging buffer that is used in a memory-transfer operation.
+The **DXGKARG_BUILDPAGINGBUFFER** structure describes parameters for the [DxgkDdiBuildPagingBuffer**](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) callback that builds a paging buffer for use in a memory-transfer operation.
 
 ## -struct-fields
 
@@ -307,49 +307,41 @@ The size, in bytes, of the memory information to transfer.
 
 A structure that describes the source allocation. This structure contains a **SegmentId** member and a union that contains either an offset into a segment of the source allocation (**SegmentAddress**) or a pointer to an [**MDL**](../wdm/ns-wdm-_mdl.md) for the source (**pMdl**).
 
-#### Source.(unnamed union)
+### -field SpecialLockTransfer.Source.SegmentId [in]
+
+The identifier of a segment within the source allocation, or zero if the source allocation is described by the **pMdl** member of the union that **Source** contains.
+
+#### SpecialLockTransfer.Source.(unnamed union)
 
 [in] A union that contains either an offset into a segment of the source allocation (**SegmentAddress**) or a pointer to an [**MDL**](../wdm/ns-wdm-_mdl.md) for the source (**pMdl**).
 
 ### -field SpecialLockTransfer.Source.SegmentAddress
 
-#### (unnamed union).SegmentAddress
-
 [in] The source segment address, if the **SegmentId** member of **Source** is nonzero. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: ```SegmentAddress = SegmentOffset + Segment.BaseAddr```.
 
 ### -field SpecialLockTransfer.Source.pMdl
 
-#### (unnamed union).pMdl
-
 [in] A pointer to a buffer that contains the [**MDL**](../wdm/ns-wdm-_mdl.md) structure that describes the system memory pages for the source, if the **SegmentId** member of **Source** is zero.
-
-### -field SpecialLockTransfer.Source.SegmentId [in]
-
-The identifier of a segment within the source allocation, or zero if the source allocation is described by the **pMdl** member of the union that **Source** contains.
 
 ### -field SpecialLockTransfer.Destination [in]
 
 A structure that describes the destination allocation. This structure contains a **SegmentId** member and a union that contains either an offset into a segment of the destination allocation (**SegmentAddress**) or a pointer to an [**MDL**](../wdm/ns-wdm-_mdl.md) for the destination (**pMdl**).
 
-#### Destination.(unnamed union)
+### -field SpecialLockTransfer.Destination.SegmentId [in]
+
+The identifier of a segment within the destination allocation, or zero if the destination allocation is described by the **pMdl** member of the union that **Destination** contains.
+
+#### SpecialLockTransfer.Destination.(unnamed union)
 
 [in] A union that contains either an offset into a segment of the destination allocation (**SegmentAddress**) or a pointer to an [**MDL**](../wdm/ns-wdm-_mdl.md) for the destination (**pMdl**).
 
 ### -field SpecialLockTransfer.Destination.SegmentAddress
 
-#### (unnamed union).SegmentAddress
-
 [in] The destination segment address, if the **SegmentId** member of **Destination** is nonzero. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: ```SegmentAddress = SegmentOffset + Segment.BaseAddr```.
 
 ### -field SpecialLockTransfer.Destination.pMdl
 
-#### (unnamed union).pMdl
-
 [in] A pointer to a buffer that contains the [**MDL**](../wdm/ns-wdm-_mdl.md) structure that describes the system memory pages for the destination, if the **SegmentId** member of **Destination** is zero.
-
-### -field SpecialLockTransfer.Destination.SegmentId [in]
-
-The identifier of a segment within the destination allocation, or zero if the destination allocation is described by the **pMdl** member of the union that **Destination** contains.
 
 ### -field SpecialLockTransfer.Flags [in]
 
@@ -365,9 +357,7 @@ A UINT value that specifies swizzling range data.
 
 ### -field InitContextResource [in]
 
-A structure that describes the context initialization operation.
-
-Supported beginning with Windows 8.
+A structure that describes the context initialization operation. Supported beginning with Windows 8.
 
 ### -field InitContextResource.hAllocation [in]
 
@@ -377,25 +367,21 @@ A handle to the context allocation that was created when the driver called [**Dx
 
 A structure that describes the destination context allocation. This structure contains a **SegmentId** member and a union that contains either an offset into a segment of the destination context allocation (**SegmentAddress**) or a pointer to an [**MDL**](../wdm/ns-wdm-_mdl.md) for the destination (**pMdl**).
 
-#### Destination.(unnamed union)
+### -field InitContextResource.Destination.SegmentId [in]
+
+The identifier of a segment within the destination context allocation, or zero if the destination context allocation is described by the **pMdl** member of the union that **Destination** contains.
+
+#### InitContextResource.Destination.(unnamed union)
 
 [in] A union that contains either an offset into a segment of the destination context allocation (**SegmentAddress**) or a pointer to an [**MDL**](../wdm/ns-wdm-_mdl.md) for the destination (**pMdl**).
 
 ### -field InitContextResource.Destination.SegmentAddress
 
-#### (unnamed union).SegmentAddress
-
 [in] The destination segment address, if the **SegmentId** member of **Destination** is nonzero. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: ```SegmentAddress = SegmentOffset + Segment.BaseAddr```.
 
 ### -field InitContextResource.Destination.pMdl
 
-#### (unnamed union).pMdl
-
 [in] A pointer to a buffer that contains the [**MDL**](../wdm/ns-wdm-_mdl.md) structure that describes the system memory pages for the destination, if the **SegmentId** member of **Destination** is zero.
-
-### -field InitContextResource.Destination.SegmentId [in]
-
-The identifier of a segment within the destination context allocation, or zero if the destination context allocation is described by the **pMdl** member of the union that **Destination** contains.
 
 ### -field InitContextResource.Destination.VirtualAddress [in]
 
@@ -437,11 +423,11 @@ A [**DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY**](ns-d3dkmddi-_dxgk_buildpagingbuff
 
 ### -field SignalMonitoredFence [in]
 
-A [**DXGK_BUILDPAGINGBUFFER_SIGNALMONITOREDFENCE**](ns-d3dkmddi-_dxgkarg_signalmonitoredfence.md) structure that describes a GPU instruction to signal the paging monitored fence object to the DMA buffer. Available starting with Windows 10, version 1703.
+A [**DXGK_BUILDPAGINGBUFFER_SIGNALMONITOREDFENCE**](ns-d3dkmddi-_dxgkarg_signalmonitoredfence.md) structure that describes a GPU instruction to signal the paging monitored fence object to the DMA buffer. Available starting with Windows 10, version 1703 (WDDM 2.2).
 
 ### - field MapApertureSegment2
 
-A structure that describes the map-aperture-segment operation using an ADL.
+A structure that describes the map-aperture-segment operation using an ADL. See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 ### -field MapApertureSegment2.hDevice [in]
 
@@ -453,7 +439,7 @@ For a shared allocation, **hDevice** is set to the device that the video memory 
 
 ### -field MapApertureSegment2.hAllocation [in]
 
-A handle to the allocation that is mapped into the aperture segment that **SegmentId** specifies.
+The driver handle to the allocation that is mapped into the aperture segment that **SegmentId** specifies.
 
 **hAllocation** is **NULL** when a DMA buffer is mapped into the aperture segment because DMA buffers are not explicitly created by the driver.
 
@@ -467,11 +453,11 @@ The offset, in pages, from the beginning of the segment to the first pages to ma
 
 ### -field MapApertureSegment2.NumberOfPages [in]
 
-The number of pages to map.
+The size of the range being mapped within the allocation, in pages.
 
-### -field MapApertureSegment2.pAdl [in]
+### -field MapApertureSegment2.Adl [in]
 
-A pointer to a buffer that contains the [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) structure that describes the logical pages to map into the aperture segment.
+A [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) structure with the address descriptor list (ADL) that describes the logical address mappings (pages) for the allocation memory. This ADL can be either contiguous or a page array; the driver must be able to handle both cases.
 
 ### -field MapApertureSegment2.Flags [in]
 
@@ -479,11 +465,13 @@ A [**DXGK_MAPAPERTUREFLAGS**](ns-d3dkmddi-_dxgk_mapapertureflags.md) structure t
 
 ### -field MapApertureSegment2.AdlOffset [in]
 
-The offset within the **pAdl->**[**ADL**](ns-d3dkmddi-dxgk_adl.md) structure to the first system memory page for the current operation, specified in system memory pages. If the ADL is a contiguous ADL, then **BasePageNumber** is the start address of a contiguous range of memory. Otherwise use **Pages** for non-contiguous memory.
+The offset within the [ADL](ns-d3dkmddi-dxgk_adl.md) to the start of the range of logical addresses being mapped for the current operation, specified in system memory pages. If the ADL is a contiguous ADL, then the ADL's **BasePageNumber** member is the start address of a contiguous range of memory. Otherwise use the ADL's **Pages** member for non-contiguous memory.
 
 ### -field MapApertureSegment2.CpuVisibleAddress
 
-Pointer to a system mapped kernel-mode virtual address on allocations created with the **MapApertureCpuVisible** flag (at allocation creation time). This address is  valid as long as the allocation is mapped into the aperture segment. That is, this address will be freed immediately after the corresponding **DXGK_OPERATION_UNMAP_APERTURE_SEGMENT** call for the same allocation. A driver indicates the need for this address by setting the **MapApertureCpuVisible** flag in [**DXGK_ALLOCATIONINFOFLAGS_WDDM2_0**](ns-d3dkmddi-_dxgk_allocationinfoflags_wddm2_0.md). If **MapApertureCpuVisible** is not specified, **CpuVisibleAddress** is NULL for [**DXGK_OPERATION_MAP_APERTURE_SEGMENT2**](ne-d3dkmddi-_dxgk_buildpagingbuffer_operation.md) operations.
+If a driver's allocation was created with the [**MapApertureCpuVisible**](./ns-d3dkmddi-_dxgk_allocationinfoflags_wddm2_0.md) flag set, **CpuVisibleAddress** is a non-null pointer to a system-mapped, kernel-mode virtual address for [**DXGK_OPERATION_MAP_APERTURE_SEGMENT2**](ne-d3dkmddi-_dxgk_buildpagingbuffer_operation.md) operations. This address is valid as long as the allocation is mapped into the aperture segment and will be freed immediately after the corresponding **DXGK_OPERATION_UNMAP_APERTURE_SEGMENT** call for the same allocation.
+
+If **MapApertureCpuVisible** is not specified, **CpuVisibleAddress** is NULL for [**DXGK_OPERATION_MAP_APERTURE_SEGMENT2**](ne-d3dkmddi-_dxgk_buildpagingbuffer_operation.md) operations.
 
 ### -field Reserved
 

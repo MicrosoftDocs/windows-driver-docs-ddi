@@ -68,29 +68,33 @@ If **HidD_SetOutputReport** succeeds, it returns **TRUE**; otherwise, it returns
 
 ## -remarks
 
+The correct _ReportBufferLength_ is specified by the _OutputReportByteLength_ member of a top-level collection's [HIDP_CAPS](../hidpi/ns-hidpi-_hidp_caps.md) structure returned from [HidP_GetCaps](../hidpi/nf-hidpi-hidp_getcaps.md) call.
+
 Before it calls the **HidD_SetOutputReport** routine, the caller must do the following:
 
 - If the [top-level collection](/windows-hardware/drivers/hid/top-level-collections) includes report IDs, the caller must set the first byte of the *ReportBuffer* parameter to a nonzero report ID.
 - If the [top-level collection](/windows-hardware/drivers/hid/top-level-collections) does not include report IDs, the caller must set the first byte of the *ReportBuffer* parameter to zero.
 - The output report is referenced by the *ReportBuffer* parameter. Depending on the report ID, the caller prepares the report by calling one of the following functions:
-    - [HidP_SetData](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setdata)
-    - [HidP_SetScaledUsageValue](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setscaledusagevalue)
-    - [HidP_SetUsages](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusages)
-    - [HidP_SetUsageValue](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusagevalue)
-    - [HidP_SetUsageValueArray](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusagevaluearray)
+    - [HidP_SetData](../hidpi/nf-hidpi-hidp_setdata.md)
+    - [HidP_SetScaledUsageValue](../hidpi/nf-hidpi-hidp_setscaledusagevalue.md)
+    - [HidP_SetUsages](../hidpi/nf-hidpi-hidp_setusages.md)
+    - [HidP_SetUsageValue](../hidpi/nf-hidpi-hidp_setusagevalue.md)
+    - [HidP_SetUsageValueArray](../hidpi/nf-hidpi-hidp_setusagevaluearray.md)
 
 For an example of how to prepare and a HID report and send it to a [top-level collection](/windows-hardware/drivers/hid/top-level-collections), see the [HClient](/samples/microsoft/windows-driver-samples/hclient-sample-application/) sample application.
 
-Only user-mode applications can call **HidD_SetOutputReport**. Kernel-mode drivers can use an [IOCTL_HID_SET_OUTPUT_REPORT](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_output_report) request.
+Only user-mode applications can call **HidD_SetOutputReport**. Kernel-mode drivers can use an [IOCTL_HID_SET_OUTPUT_REPORT](../hidclass/ni-hidclass-ioctl_hid_set_output_report.md) request.
 
 ## -see-also
 
 - [Sending HID Reports](/windows-hardware/drivers/hid/sending-hid-reports)
 - [Interpreting HID Reports](/windows-hardware/drivers/hid/interpreting-hid-reports)
-- [HidD_GetFeature](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getfeature)
-- [HidD_GetInputReport](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getinputreport)
-- [HidD_SetFeature](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_setfeature)
-- [IOCTL_HID_GET_FEATURE](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_feature)
-- [IOCTL_HID_GET_INPUT_REPORT](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_input_report)
-- [IOCTL_HID_SET_FEATURE](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_feature)
-- [IOCTL_HID_SET_OUTPUT_REPORT](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_output_report)
+- [HidD_GetFeature](./nf-hidsdi-hidd_getfeature.md)
+- [HidD_GetInputReport](./nf-hidsdi-hidd_getinputreport.md)
+- [HidD_SetFeature](./nf-hidsdi-hidd_setfeature.md)
+- [HIDP_CAPS](../hidpi/ns-hidpi-_hidp_caps.md)
+- [HidP_GetCaps](../hidpi/nf-hidpi-hidp_getcaps.md)
+- [IOCTL_HID_GET_FEATURE](../hidclass/ni-hidclass-ioctl_hid_get_feature.md)
+- [IOCTL_HID_GET_INPUT_REPORT](../hidclass/ni-hidclass-ioctl_hid_get_input_report.md)
+- [IOCTL_HID_SET_FEATURE](../hidclass/ni-hidclass-ioctl_hid_set_feature.md)
+- [IOCTL_HID_SET_OUTPUT_REPORT](../hidclass/ni-hidclass-ioctl_hid_set_output_report.md)

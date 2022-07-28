@@ -1,10 +1,9 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_ROOT_ERROR_STATUS
-title: _PCI_EXPRESS_ROOT_ERROR_STATUS (miniport.h)
-description: The _PCI_EXPRESS_ROOT_ERROR_STATUS structure (miniport.h) describes a PCI Express (PCIe) root error status register for advanced error reporting.
-old-location: pci\pci_express_root_error_status.htm
+title: PCI_EXPRESS_ROOT_ERROR_STATUS (miniport.h)
+description: The _PCI_EXPRESS_ROOT_ERROR_STATUS union (miniport.h) describes a PCI Express (PCIe) root error status register for advanced error reporting.
 tech.root: PCI
-ms.date: 02/24/2018
+ms.date: 07/18/2022
 keywords: ["PCI_EXPRESS_ROOT_ERROR_STATUS structure"]
 ms.keywords: "*PPCI_EXPRESS_ROOT_ERROR_STATUS, PCI.pci_express_root_error_status, PCI_EXPRESS_ROOT_ERROR_STATUS, PCI_EXPRESS_ROOT_ERROR_STATUS union [Buses], PPCI_EXPRESS_ROOT_ERROR_STATUS, PPCI_EXPRESS_ROOT_ERROR_STATUS union pointer [Buses], _PCI_EXPRESS_ROOT_ERROR_STATUS, pci_struct_8b730780-dc4a-4873-8efd-fb6df47f7c8f.xml, wdm/PCI_EXPRESS_ROOT_ERROR_STATUS, wdm/PPCI_EXPRESS_ROOT_ERROR_STATUS"
 req.header: miniport.h
@@ -46,92 +45,62 @@ api_name:
  - PCI_EXPRESS_ROOT_ERROR_STATUS
 ---
 
-# _PCI_EXPRESS_ROOT_ERROR_STATUS structure (miniport.h)
-
-
 ## -description
 
-The PCI_EXPRESS_ROOT_ERROR_STATUS structure describes a PCI Express (PCIe) root error status register of a PCIe advanced error reporting capability structure.
+The **PCI_EXPRESS_ROOT_ERROR_STATUS** structure describes a PCI Express (PCIe) root error status register of a PCIe advanced error reporting capability structure.
 
 ## -struct-fields
 
 ### -field DUMMYSTRUCTNAME
 
-### -field AsULONG
+The **DUMMYSTRUCTNAME** structure.
 
-A ULONG representation of the contents of the PCI_EXPRESS_ROOT_ERROR_STATUS structure.
-
-
-### -field AdvancedErrorInterruptMessageNumber
-
-The MSI/MSI-X vector that is used for the interrupt messages that are generated in association with any of the status bits of the advanced error reporting capability.
-
-
-### -field CorrectableErrorReceived
+### -field DUMMYSTRUCTNAME.CorrectableErrorReceived
 
 A single bit that indicates that a correctable error message has been received.
 
-
-### -field FatalErrorMessagesReceived
-
-A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
-
-
-### -field FirstUncorrectableFatal
-
-A single bit that indicates that the first uncorrectable error message that was received was for a fatal error.
-
-
-### -field MultipleCorrectableErrorsReceived
+### -field DUMMYSTRUCTNAME.MultipleCorrectableErrorsReceived
 
 A single bit that indicates that multiple correctable error messages have been received.
 
-
-### -field MultipleUncorrectableErrorsReceived
-
-A single bit that indicates that multiple uncorrectable error messages have been received.
-
-
-### -field NonFatalErrorMessagesReceived
-
-A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
-
-
-### -field Reserved
-
-Reserved.
-
-
-### -field UncorrectableErrorReceived
+### -field DUMMYSTRUCTNAME.UncorrectableErrorReceived
 
 A single bit that indicates that an uncorrectable error message has been received.
 
-## -syntax
+### -field DUMMYSTRUCTNAME.MultipleUncorrectableErrorsReceived
 
-```cpp
-typedef union _PCI_EXPRESS_ROOT_ERROR_STATUS {
-  struct {
-    ULONG CorrectableErrorReceived  :1;
-    ULONG MultipleCorrectableErrorsReceived  :1;
-    ULONG UncorrectableErrorReceived  :1;
-    ULONG MultipleUncorrectableErrorsReceived  :1;
-    ULONG FirstUncorrectableFatal  :1;
-    ULONG NonFatalErrorMessagesReceived  :1;
-    ULONG FatalErrorMessagesReceived  :1;
-    ULONG Reserved  :20;
-    ULONG AdvancedErrorInterruptMessageNumber  :5;
-  };
-  ULONG  AsULONG;
-} PCI_EXPRESS_ROOT_ERROR_STATUS, *PPCI_EXPRESS_ROOT_ERROR_STATUS;
-```
+A single bit that indicates that multiple uncorrectable error messages have been received.
+
+### -field DUMMYSTRUCTNAME.FirstUncorrectableFatal
+
+A single bit that indicates that the first uncorrectable error message that was received was for a fatal error.
+
+### -field DUMMYSTRUCTNAME.NonFatalErrorMessagesReceived
+
+A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
+
+### -field DUMMYSTRUCTNAME.FatalErrorMessagesReceived
+
+A single bit that indicates that one or more non-fatal uncorrectable error messages have been received.
+
+### -field DUMMYSTRUCTNAME.Reserved
+
+Reserved.
+
+### -field DUMMYSTRUCTNAME.AdvancedErrorInterruptMessageNumber
+
+The MSI/MSI-X vector that is used for the interrupt messages that are generated in association with any of the status bits of the advanced error reporting capability.
+
+### -field AsULONG
+
+A **ULONG** representation of the contents of the **PCI_EXPRESS_ROOT_ERROR_STATUS** structure.
 
 ## -remarks
 
-The PCI_EXPRESS_ROOT_ERROR_STATUS structure is available in Windows Server 2008 and later versions of Windows.
+The **PCI_EXPRESS_ROOT_ERROR_STATUS** union is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_ROOT_ERROR_STATUS structure is contained in the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a> structure.
+A **PCI_EXPRESS_ROOT_ERROR_STATUS** union is contained in the [PCI_EXPRESS_ROOTPORT_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
-
+[PCI_EXPRESS_ROOTPORT_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability)

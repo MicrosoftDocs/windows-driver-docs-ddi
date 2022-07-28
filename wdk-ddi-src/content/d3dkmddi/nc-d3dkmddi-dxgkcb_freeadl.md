@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_FREEADL
 tech.root: display
 title: DXGKCB_FREEADL
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: DxgkCbFreeAdl destroys an address descriptor list (ADL) created in a prior call to DxgkCbAllocateAdl.
 req.assembly: 
@@ -54,6 +54,8 @@ Pointer to a [**DXGKARGCB_FREE_ADL**](ns-d3dkmddi-dxgkargcb_free_adl.md) structu
 The [**DXGKCB_ALLOCATEADL**](nc-d3dkmddi-dxgkcb_allocateadl.md) and **DxgkCbFreeAdl** functions are used to create and destroy address descriptor lists that describe memory addresses that can be programmed to the GPU. The underlying memory can point to either logical or physical memory depending on whether the IOMMU is being used, so the driver must not attempt to assume that these addresses represent physical pages.
 
 Once an ADL is freed, the memory referenced by that ADL must not be accessed by the GPU.
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 *DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the members of [**DXGKARGCB_FREE_ADL**](ns-d3dkmddi-dxgkargcb_free_adl.md) and then call **DxgkCbFreeAdl** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 

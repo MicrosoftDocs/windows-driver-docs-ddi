@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_ALLOCATE_ADL
 tech.root: display
 title: DXGKARGCB_ALLOCATE_ADL
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: DXGKARGCB_ALLOCATE_ADL contains the information used by the DxgkCbAllocateAdl callback function to create an address descriptor list (ADL).
 req.construct-type: structure
@@ -77,6 +77,10 @@ An alternative way to access the bits.
 ### -field pAdl [out]
 
 On a successful call to [**DXGKCB_ALLOCATEADL**](nc-d3dkmddi-dxgkcb_allocateadl.md), points to the [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) structure with a list of page addresses that can be used to program the hardware.
+
+## -remarks
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 ## -see-also
 

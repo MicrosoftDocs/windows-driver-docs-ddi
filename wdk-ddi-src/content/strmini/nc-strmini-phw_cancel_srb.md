@@ -51,6 +51,6 @@ Pointer to the stream request that had been canceled.
 
 ## -remarks
 
-The minidriver specifies this routine in the **HwCancelPacket** member of its [HW_INITIALIZATION_DATA](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data) structure. The minidriver passes this structure to the class driver when it registers itself by calling [StreamClassRegisterMinidriver](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter).
+The minidriver specifies this routine in the **HwCancelPacket** member of its [HW_INITIALIZATION_DATA](./ns-strmini-_hw_initialization_data.md) structure. The minidriver passes this structure to the class driver when it registers itself by calling [StreamClassRegisterMinidriver](./nf-strmini-streamclassregisteradapter.md).
 
-Minidrivers that rely on the class driver to handle synchronization should, once they have successfully canceled a request, signal to the class driver that they are ready for another request by using [StreamClassStreamNotification](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification) or [StreamClassDeviceNotification](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassdevicenotification) with the appropriate **ReadyForNext***Xxx***Request**.
+Minidrivers that rely on the class driver to handle synchronization should, once they have successfully canceled a request, signal to the class driver that they are ready for another request by using [StreamClassStreamNotification](./nf-strmini-streamclassstreamnotification.md) or [StreamClassDeviceNotification](./nf-strmini-streamclassdevicenotification.md) with the appropriate **ReadyForNext***Xxx***Request**.

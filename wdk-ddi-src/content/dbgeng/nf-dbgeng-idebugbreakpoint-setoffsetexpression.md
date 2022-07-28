@@ -52,7 +52,7 @@ The <b>SetOffsetExpression</b>  methods set an expression string that evaluates 
 ### -param Expression [in]
 
 
-The expression string that evaluates to the location on the target that triggers the breakpoint.  If the engine icannot evaluate the expression (for example, if the expression contains a symbol that cannot be interpreted), the breakpoint is flagged as deferred. (For more information about deferred breakpoints, see <a href="/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.)  For more information about the expression syntax, see <a href="/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.
+The expression string that evaluates to the location on the target that triggers the breakpoint.  If the engine cannot evaluate the expression (for example, if the expression contains a symbol that cannot be interpreted), the breakpoint is flagged as deferred. (For more information about deferred breakpoints, see <a href="/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.)  For more information about the expression syntax, see <a href="/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.
 
 ## -returns
 

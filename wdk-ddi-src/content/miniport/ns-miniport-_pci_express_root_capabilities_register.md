@@ -1,10 +1,9 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
-title: _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER (miniport.h)
-description: The _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure (miniport.h) describes a PCI Express (PCIe) root capabilities register of a PCIe capability structure.
-old-location: pci\pci_express_root_capabilities_register.htm
+title: PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER (miniport.h)
+description: The PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union (miniport.h) describes a PCI Express (PCIe) root capabilities register of a PCIe capability structure.
 tech.root: PCI
-ms.date: 02/24/2018
+ms.date: 07/18/2022
 keywords: ["PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure"]
 ms.keywords: "*PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI.pci_express_root_capabilities_register, PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union [Buses], PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union pointer [Buses], _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, pci_struct_5b1d9283-10c9-40dc-8dc2-552ab7a2cab5.xml"
 req.header: miniport.h
@@ -46,50 +45,34 @@ api_name:
  - PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
 ---
 
-# _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure (miniport.h)
-
-
 ## -description
 
-The PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) root capabilities register of a PCIe capability structure.
+The **PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER** union describes a PCI Express (PCIe) root capabilities register of a PCIe capability structure.
 
 ## -struct-fields
 
 ### -field DUMMYSTRUCTNAME
 
-### -field AsUSHORT
+The **DUMMYSTRUCTNAME** structure.
 
-A USHORT representation of the contents of the PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure.
-
-
-### -field CRSSoftwareVisibility
+### -field DUMMYSTRUCTNAME.CRSSoftwareVisibility
 
 A single bit that indicates that the root port is capable of returning configuration request retry status (CRS) completion status to software.
 
-
-### -field Rsvd
+### -field DUMMYSTRUCTNAME.Rsvd
 
 Reserved.
 
-## -syntax
+### -field AsUSHORT
 
-```cpp
-typedef union _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER {
-  struct {
-    USHORT CRSSoftwareVisibility  :1;
-    USHORT Rsvd  :15;
-  };
-  USHORT AsUSHORT;
-} PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, *PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER;
-```
+A **USHORT** representation of the contents of the **PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER** structure.
 
 ## -remarks
 
-The PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
+The **PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER** structure is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure is contained in the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a> structure.
+A **PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER** structure is contained in the [PCI_EXPRESS_CAPABILITY](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a>
-
+[PCI_EXPRESS_CAPABILITY](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability)

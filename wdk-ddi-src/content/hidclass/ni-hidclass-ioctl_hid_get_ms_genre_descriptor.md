@@ -42,17 +42,15 @@ api_name:
 
 # IOCTL_HID_GET_MS_GENRE_DESCRIPTOR IOCTL
 
-
 ## -description
 
-The <b>IOCTL_HID_GET_MS_GENRE_DESCRIPTOR</b> 
-   request is used for retrieving the genre descriptor for the device.
+The <b>IOCTL_HID_GET_MS_GENRE_DESCRIPTOR</b> request is used for retrieving the _Genre_ [Microsoft OS 1.0 feature descriptor](/windows-hardware/drivers/usbcon/microsoft-defined-usb-descriptors) for the device. This descriptor is being considered for future versions of Windows, and no specification is currently available.
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-       The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member specifies the size, in bytes, of a requester-allocated output buffer.
+The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member specifies the size, in bytes, of a requester-allocated output buffer.
 
 ### -input-buffer-length
 

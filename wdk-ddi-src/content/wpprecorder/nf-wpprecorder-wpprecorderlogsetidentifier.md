@@ -51,7 +51,7 @@ The <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorde
 
 ### -param RecorderLog [in]
 
-A recorder log handle returned in a previous call to [**WppRecorderLogCreate**](/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate).
+A recorder log handle returned in a previous call to [**WppRecorderLogCreate**](./nf-wpprecorder-wpprecorderlogcreate.md).
 
 ### -param LogIdentifier [in]
 
@@ -60,4 +60,3 @@ A string identifier to set.
 ## -remarks
 
 Do not call <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogsetidentifier">WppRecorderLogSetIdentifier</a> on the default log handle returned by <a href="/previous-versions/windows/hardware/previsioning-framework/dn895240(v=vs.85)">WppRecorderLogGetDefault</a>.
-

@@ -1,14 +1,13 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_4
 title: GNSS_DRIVERCOMMAND_PARAM (gnssdriver.h)
-description: This structure is used to send a command to the GNSS driver.
-old-location: gnss\gnss_drivercommand_param.htm
+description: The GNSS_DRIVERCOMMAND_PARAM structure is used to send a command to the GNSS driver.
 tech.root: gnss
-ms.date: 02/15/2018
+ms.date: 06/20/2022
 keywords: ["GNSS_DRIVERCOMMAND_PARAM structure"]
 ms.keywords: "*PGNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM structure [Sensor Devices], PGNSS_DRIVERCOMMAND_PARAM, PGNSS_DRIVERCOMMAND_PARAM structure pointer [Sensor Devices], gnss.gnss_drivercommand_param, gnssdriver/GNSS_DRIVERCOMMAND_PARAM, gnssdriver/PGNSS_DRIVERCOMMAND_PARAM"
 req.header: gnssdriver.h
-req.include-header: 
+req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,12 +42,9 @@ api_name:
  - GNSS_DRIVERCOMMAND_PARAM
 ---
 
-# GNSS_DRIVERCOMMAND_PARAM structure
-
-
 ## -description
 
-This structure is used to send a command to the GNSS driver.
+The **GNSS_DRIVERCOMMAND_PARAM** structure is used to send a command to the GNSS driver.
 
 The command may involve configuring certain parameters and state variables of the underlying GNSS driver or device, or executing certain defined actions through the driver.
 
@@ -66,9 +62,11 @@ Version number.
 
 Identifies the specific command that the driver is required to execute.
 
-This is a well-defined list of GNSS driver commands, as defined by the <a href="/windows-hardware/drivers/ddi/gnssdriver/ne-gnssdriver-gnss_drivercommand_type">GNSS_DRIVERCOMMAND_TYPE</a> enumeration.
+This is a well-defined list of GNSS driver commands, as defined by the [GNSS_DRIVERCOMMAND_TYPE](./ne-gnssdriver-gnss_drivercommand_type.md) enumeration.
 
 ### -field Reserved
+
+Reserved for future use.
 
 ### -field CommandDataSize
 
@@ -76,28 +74,10 @@ Size of the configuration data being sent to the driver.
 
 ### -field Unused
 
+Padding buffer reserved for future use.
+
 ### -field CommandData
-
- 
-
-
-
-
-### -field CommandData[ANYSIZE_ARRAY]
 
 Data associated with the specific command type.
 
 The driver must cast this buffer to the appropriate data type depending on the specific command.
-
-
-### -field CommandFlag
-
-Bitmask indicating certain aspects of the command.
-
-The flags are defined by the GNSS_DRIVERCOMMAND_FLAG_* macro.
-
-
-### -field Unused[512]
-
-Padding buffer.
-

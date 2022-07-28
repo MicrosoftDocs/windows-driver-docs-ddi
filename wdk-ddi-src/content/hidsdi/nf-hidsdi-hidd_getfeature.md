@@ -68,6 +68,8 @@ If **HidD_GetFeature** succeeds, it returns **TRUE**; otherwise, it returns **FA
 
 ## -remarks
 
+The correct _ReportBufferLength_ is specified by the _FeatureReportByteLength_ member of a top-level collection's [HIDP_CAPS](../hidpi/ns-hidpi-_hidp_caps.md) structure returned from [HidP_GetCaps](../hidpi/nf-hidpi-hidp_getcaps.md) call.
+
 Before it calls the **HidD_GetFeature** routine, the caller must do the following:
 
 - If the [top-level collection](/windows-hardware/drivers/hid/top-level-collections) includes report IDs, the caller must set the first byte of the *ReportBuffer* parameter to a nonzero report ID.
@@ -75,30 +77,32 @@ Before it calls the **HidD_GetFeature** routine, the caller must do the followin
 
 The feature report is returned in the *ReportBuffer*  parameter. Depending on the report ID, the caller parses the report by calling one of the following functions:
 
-- [HidP_GetButtonCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getbuttoncaps)
-- [HidP_GetData](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getdata)
-- [HidP_GetExtendedAttributes](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getextendedattributes)
-- [HidP_GetScaledUsageValue](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getscaledusagevalue)
-- [HidP_GetSpecificButtonCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificbuttoncaps)
-- [HidP_GetSpecificValueCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificvaluecaps)
-- [HidP_GetUsages](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages)
-- [HidP_GetUsagesEx](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagesex)
-- [HidP_GetUsageValue](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevalue)
-- [HidP_GetUsageValueArray](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevaluearray)
-- [HidP_GetValueCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getvaluecaps)
+- [HidP_GetButtonCaps](../hidpi/nf-hidpi-hidp_getbuttoncaps.md)
+- [HidP_GetData](../hidpi/nf-hidpi-hidp_getdata.md)
+- [HidP_GetExtendedAttributes](../hidpi/nf-hidpi-hidp_getextendedattributes.md)
+- [HidP_GetScaledUsageValue](../hidpi/nf-hidpi-hidp_getscaledusagevalue.md)
+- [HidP_GetSpecificButtonCaps](../hidpi/nf-hidpi-hidp_getspecificbuttoncaps.md)
+- [HidP_GetSpecificValueCaps](../hidpi/nf-hidpi-hidp_getspecificvaluecaps.md)
+- [HidP_GetUsages](../hidpi/nf-hidpi-hidp_getusages.md)
+- [HidP_GetUsagesEx](../hidpi/nf-hidpi-hidp_getusagesex.md)
+- [HidP_GetUsageValue](../hidpi/nf-hidpi-hidp_getusagevalue.md)
+- [HidP_GetUsageValueArray](../hidpi/nf-hidpi-hidp_getusagevaluearray.md)
+- [HidP_GetValueCaps](../hidpi/nf-hidpi-hidp_getvaluecaps.md)
 
 For an example of how to parse a HID report, see the [HClient](/samples/browse/?redirectedfrom=MSDN-samples) sample application. This sample is located in the MSDN Code Gallery.
 
-Only user-mode applications can call **HidD_GetFeature**. Kernel-mode drivers can use an [IOCTL_HID_GET_FEATURE](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_feature) request.
+Only user-mode applications can call **HidD_GetFeature**. Kernel-mode drivers can use an [IOCTL_HID_GET_FEATURE](../hidclass/ni-hidclass-ioctl_hid_get_feature.md) request.
 
 ## -see-also
 
 - [Obtaining HID Reports](/windows-hardware/drivers/hid/obtaining-hid-reports)
 - [Interpreting HID Reports](/windows-hardware/drivers/hid/interpreting-hid-reports)
-- [HidD_GetInputReport](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getinputreport)
-- [HidD_SetFeature](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_setfeature)
-- [HidD_SetOutputReport](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_setoutputreport)
-- [IOCTL_HID_GET_FEATURE](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_feature)
-- [IOCTL_HID_GET_INPUT_REPORT](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_input_report)
-- [IOCTL_HID_SET_FEATURE](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_feature)
-- [IOCTL_HID_SET_OUTPUT_REPORT](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_output_report)
+- [HidD_GetInputReport](./nf-hidsdi-hidd_getinputreport.md)
+- [HidD_SetFeature](./nf-hidsdi-hidd_setfeature.md)
+- [HidD_SetOutputReport](./nf-hidsdi-hidd_setoutputreport.md)
+- [HIDP_CAPS](../hidpi/ns-hidpi-_hidp_caps.md)
+- [HidP_GetCaps](../hidpi/nf-hidpi-hidp_getcaps.md)
+- [IOCTL_HID_GET_FEATURE](../hidclass/ni-hidclass-ioctl_hid_get_feature.md)
+- [IOCTL_HID_GET_INPUT_REPORT](../hidclass/ni-hidclass-ioctl_hid_get_input_report.md)
+- [IOCTL_HID_SET_FEATURE](../hidclass/ni-hidclass-ioctl_hid_set_feature.md)
+- [IOCTL_HID_SET_OUTPUT_REPORT](../hidclass/ni-hidclass-ioctl_hid_set_output_report.md)

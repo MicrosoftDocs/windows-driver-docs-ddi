@@ -1,10 +1,9 @@
 ---
 UID: NF:winsplp.CreatePrinterIC
 title: CreatePrinterIC function (winsplp.h)
-description: "Learn more about: CreatePrinterIC function"
-old-location: print\createprinteric.htm
+description: Describes the CreatePrinterIC function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/27/2022
 keywords: ["CreatePrinterIC function"]
 ms.keywords: CreatePrinterIC, CreatePrinterIC function [Print Devices], print.createprinteric, winsplp/CreatePrinterIC
 req.header: winsplp.h
@@ -40,18 +39,20 @@ api_name:
  - CreatePrinterIC
 ---
 
-# CreatePrinterIC function
-
-
 ## -description
+
+Describes the **CreatePrinterIC** function.
 
 ## -parameters
 
 ### -param hPrinter [in]
 
-
+Defines the **HANDLE** parameter *hPrinter*.
 
 ### -param pDevMode [in, optional]
 
+Defines the **LPDEVMODEW** parameter *pDevMode*.
 
+## -returns
 
+Returns a **HANDLE** value.

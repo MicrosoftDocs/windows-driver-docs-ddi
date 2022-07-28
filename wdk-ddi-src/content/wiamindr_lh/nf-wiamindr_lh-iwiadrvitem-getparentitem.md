@@ -2,9 +2,8 @@
 UID: NF:wiamindr_lh.IWiaDrvItem.GetParentItem
 title: IWiaDrvItem::GetParentItem (wiamindr_lh.h)
 description: The IWiaDrvItem::GetParentItem gets the parent item of the current item.
-old-location: image\iwiadrvitem_getparentitem.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 07/21/2022
 keywords: ["IWiaDrvItem::GetParentItem"]
 ms.keywords: DrvItem_47782466-b345-43e7-9fd1-8c4b355c6d46.xml, GetParentItem, GetParentItem method [Imaging Devices], GetParentItem method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetParentItem method, IWiaDrvItem.GetParentItem, IWiaDrvItem::GetParentItem, image.iwiadrvitem_getparentitem, wiamindr_lh/IWiaDrvItem::GetParentItem
 req.header: wiamindr_lh.h
@@ -40,9 +39,6 @@ api_name:
  - IWiaDrvItem::GetParentItem
 ---
 
-# IWiaDrvItem::GetParentItem
-
-
 ## -description
 
 The **IWiaDrvItem::GetParentItem** gets the parent item of the current item.
@@ -51,17 +47,13 @@ The **IWiaDrvItem::GetParentItem** gets the parent item of the current item.
 
 ### -param __MIDL__IWiaDrvItem0012
 
-ppIParentItem [out, optional]
-
-- Returns a pointer to the parent item of the current item.
-
-### -param ppIParentItem [out, optional]
+*ppIParentItem* [out, optional]
 
 Returns a pointer to the parent item of the current item.
 
 ## -returns
 
-If the method succeeds, it stores a pointer to the parent item in *pplParentItem* and returns S_OK. If the parent item is the root item, the method returns S_FALSE. If the method fails, it returns a standard COM error code.
+If the method succeeds, it stores a pointer to the parent item in *pplParentItem* and returns **S_OK**. If the parent item is the root item, the method returns **S_FALSE**. If the method fails, it returns a standard COM error code.
 
 ## -remarks
 
@@ -74,4 +66,3 @@ Minidrivers typically use this method to obtain a pointer to the nonroot parent 
 [IWiaDrvItem::GetFirstChildItem](./nf-wiamindr_lh-iwiadrvitem-getfirstchilditem.md)
 
 [IWiaDrvItem::GetNextSiblingItem](./nf-wiamindr_lh-iwiadrvitem-getnextsiblingitem.md)
-

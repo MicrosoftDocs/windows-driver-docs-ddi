@@ -2,9 +2,8 @@
 UID: NS:miniport._PCI_EXPRESS_CAPABILITY
 title: PCI_EXPRESS_CAPABILITY (miniport.h)
 description: The _PCI_EXPRESS_CAPABILITY structure (miniport.h) describes a PCI Express (PCIe) capability structure.
-old-location: pci\pci_express_capability.htm
 tech.root: PCI
-ms.date: 01/09/2022
+ms.date: 07/18/2022
 keywords: ["PCI_EXPRESS_CAPABILITY structure"]
 ms.keywords: "*PPCI_EXPRESS_CAPABILITY, PCI.pci_express_capability, PCI_EXPRESS_CAPABILITY, PCI_EXPRESS_CAPABILITY structure [Buses], PPCI_EXPRESS_CAPABILITY, PPCI_EXPRESS_CAPABILITY structure pointer [Buses], _PCI_EXPRESS_CAPABILITY, ntddk/PCI_EXPRESS_CAPABILITY, ntddk/PPCI_EXPRESS_CAPABILITY, pci_struct_9c629781-bcee-486d-bab3-5d5b7441ac72.xml"
 req.header: miniport.h
@@ -45,8 +44,6 @@ api_name:
  - PPCI_EXPRESS_CAPABILITY
  - PCI_EXPRESS_CAPABILITY
 ---
-
-# PCI_EXPRESS_CAPABILITY structure (miniport.h)
 
 ## -description
 
@@ -121,6 +118,18 @@ A **PCI_EXPRESS_DEVICE_CONTROL_2_REGISTER** structure that describes the PCIe de
 ### -field DeviceStatus2
 
 A **PCI_EXPRESS_DEVICE_STATUS_2_REGISTER** structure that describes the PCIe device status 2 register of the PCIe capability structure.
+
+### -field LinkCapabilities2
+
+Defines the **PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER** member **LinkCapabilities2**.
+
+### -field LinkControl2
+
+Defines the **PCI_EXPRESS_LINK_CONTROL_2_REGISTER** member **LinkControl2**.
+
+### -field LinkStatus2
+
+Defines the **PCI_EXPRESS_LINK_STATUS_2_REGISTER** member **LinkStatus2**.
 
 ## -remarks
 

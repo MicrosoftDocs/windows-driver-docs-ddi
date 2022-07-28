@@ -92,12 +92,12 @@ Use the following functions and macros to access data in the NET_BUFFER_LIST_CON
 
 
 
-<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-start">
+<a href="/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_context_data_start">
          NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
 
-<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-size">
+<a href="/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_context_data_size">
          NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 ### -field ParentNetBufferList
@@ -448,12 +448,12 @@ To access members of the NET_BUFFER_LIST structure, use the following macros and
 
 
 
-<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-start">
+<a href="/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_context_data_start">
        NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
 
-<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-size">
+<a href="/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_context_data_size">
        NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
@@ -492,12 +492,12 @@ For more information on how to use net buffers, see
 
 
 
-<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-size">
+<a href="/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_context_data_size">
    NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
 
-<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-start">
+<a href="/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_context_data_start">
    NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 

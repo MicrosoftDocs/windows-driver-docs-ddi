@@ -2,7 +2,7 @@
 UID: NE:d3dkmddi._DXGK_PHYSICAL_MEMORY_TYPE
 tech.root: display
 title: DXGK_PHYSICAL_MEMORY_TYPE
-ms.date: 05/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: DXGK_PHYSICAL_MEMORY_TYPE indicates the type of physical memory being created by the driver.
 req.construct-type: enumeration
@@ -12,7 +12,7 @@ req.include-header:
 req.kmdf-ver: 
 req.max-support: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2022
+req.target-min-winversvr: Windows Server 2022 (WDDM 2.9)
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -59,6 +59,8 @@ Wrap an existing IO-space range provided by the driver.
 ## -remarks
 
 **DXGK_PHYSICAL_MEMORY_TYPE** is passed as a member of the [**DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT**](ns-d3dkmddi-dxgkargcb_create_physical_memory_object.md) arguments.
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 ## -see-also
 
