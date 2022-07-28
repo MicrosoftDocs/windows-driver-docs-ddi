@@ -1,7 +1,7 @@
 ---
 UID: NS:ntifs._FILE_ID_EXTD_DIR_INFORMATION
 title: FILE_ID_EXTD_DIR_INFORMATION
-ms.date: 10/16/2020
+ms.date: 07/26/2022
 tech.root: ifsk
 targetos: Windows
 description: The FILE_FULL_DIR_INFORMATION structure is used to query file reference number information for the files in a directory.
@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Available starting with Windows 8.1 Update.
+req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: FILE_ID_EXTD_DIR_INFORMATION, *PFILE_ID_EXTD_DIR_INFORMATION
@@ -118,7 +118,7 @@ Specifies the first character of the file name string. This is followed in memor
 
 This information can be queried in either of the following ways:
 
-* Call [**ZwQueryDirectoryFile**](/previous-versions/ff567047(v=vs.85)), passing **FileIdExtdDirectoryInformation** as the value of **FileInformationClass** and passing a caller-allocated, FILE_ID_EXTD_DIR_INFORMATION-structured buffer as the value of **FileInformation**.
+* Call [**ZwQueryDirectoryFile**](nf-ntifs-zwquerydirectoryfile.md), passing **FileIdExtdDirectoryInformation** as the value of **FileInformationClass** and passing a caller-allocated, FILE_ID_EXTD_DIR_INFORMATION-structured buffer as the value of **FileInformation**.
 
 * Create an IRP with major function code [IRP_MJ_DIRECTORY_CONTROL](/windows-hardware/drivers/ifs/irp-mj-directory-control) and minor function code IRP_MN_QUERY_DIRECTORY.
 
@@ -136,4 +136,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 [IRP_MJ_DIRECTORY_CONTROL](/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
-[**ZwQueryDirectoryFile**](/previous-versions/ff567047(v=vs.85))
+[**ZwQueryDirectoryFile**](nf-ntifs-zwquerydirectoryfile.md)

@@ -4,13 +4,13 @@ title: NtOpenThreadTokenEx function (ntifs.h)
 description: The NtOpenThreadTokenEx routine opens the access token associated with a thread.
 old-location: kernel\zwopenthreadtokenex.htm
 tech.root: kernel
-ms.date: 06/21/2021
+ms.date: 07/26/2022
 keywords: ["NtOpenThreadTokenEx function"]
 ms.keywords: NtOpenThreadTokenEx, ZwOpenThreadTokenEx, ZwOpenThreadTokenEx routine [Kernel-Mode Driver Architecture], k111_657ad702-595c-4422-99be-ca8ecc428bbe.xml, kernel.zwopenthreadtokenex, ntifs/NtOpenThreadTokenEx, ntifs/ZwOpenThreadTokenEx
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -110,4 +110,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [**ZwClose**](./nf-ntifs-ntclose.md)
 
-[**ZwOpenProcessTokenEx**](/previous-versions/ff567024(v=vs.85))
+[**ZwOpenProcessTokenEx**](nf-ntifs-zwopenprocesstokenex.md)

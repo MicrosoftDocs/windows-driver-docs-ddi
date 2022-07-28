@@ -1,10 +1,10 @@
 ---
 UID: NE:ntifs._TOKEN_TYPE
-title: _TOKEN_TYPE (ntifs.h)
+title: TOKEN_TYPE (ntifs.h)
 description: The TOKEN_TYPE enumeration type contains values that differentiate between a primary token and an impersonation token.
 old-location: ifsk\token_type.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/26/2022
 keywords: ["TOKEN_TYPE enumeration"]
 ms.keywords: "*PTOKEN_TYPE, PTOKEN_TYPE, PTOKEN_TYPE enumeration pointer [Installable File System Drivers], TOKEN_TYPE, TOKEN_TYPE enumeration [Installable File System Drivers], TokenImpersonation, TokenPrimary, _TOKEN_TYPE, ifsk.token_type, ntifs/PTOKEN_TYPE, ntifs/TOKEN_TYPE, ntifs/TokenImpersonation, ntifs/TokenPrimary, securitystructures_b570f2e6-2426-4c9d-8552-81131cf4bd66.xml"
 req.header: ntifs.h
@@ -43,12 +43,11 @@ api_name:
  - TOKEN_TYPE
 ---
 
-# _TOKEN_TYPE enumeration
-
+# TOKEN_TYPE enumeration
 
 ## -description
 
-The TOKEN_TYPE enumeration type contains values that differentiate between a primary token and an impersonation token.
+The **TOKEN_TYPE** enumeration type contains values that differentiate between a primary token and an impersonation token.
 
 ## -enum-fields
 
@@ -62,21 +61,12 @@ Indicates an impersonation token.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a>
+[**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md)
 
+[**TOKEN_INFORMATION_CLASS**](ne-ntifs-_token_information_class.md)
 
+[**TOKEN_STATISTICS**](ns-ntifs-_token_statistics.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_information_class">TOKEN_INFORMATION_CLASS</a>
+[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_statistics">TOKEN_STATISTICS</a>
-
-
-
-<a href="/previous-versions/ff567055(v=vs.85)">ZwQueryInformationToken</a>
-
-
-
-<a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>
-
+[**ZwSetInformationToken**](nf-ntifs-zwsetinformationtoken.md)

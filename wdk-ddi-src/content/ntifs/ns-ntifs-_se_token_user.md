@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._SE_TOKEN_USER
-title: _SE_TOKEN_USER (ntifs.h)
+title: SE_TOKEN_USER (ntifs.h)
 description: The SE_TOKEN_USER structure holds the maximum-sized valid user SID that can be returned by SeQueryInformationToken, GetTokenInformation, or ZwQueryInformationToken with the TokenUser information class. This structure is suitable for stack allocation.
 old-location: ifsk\se_token_user.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/26/2022
 keywords: ["SE_TOKEN_USER structure"]
 ms.keywords: PSE_TOKEN_USER, PSE_TOKEN_USER structure pointer [Installable File System Drivers], SE_TOKEN_USER, SE_TOKEN_USER structure [Installable File System Drivers], _SE_TOKEN_USER, ifsk.se_token_user, ntifs/PSE_TOKEN_USER, ntifs/SE_TOKEN_USER
 req.header: ntifs.h
@@ -43,12 +43,11 @@ api_name:
  - SE_TOKEN_USER
 ---
 
-# _SE_TOKEN_USER structure
-
+# SE_TOKEN_USER structure
 
 ## -description
 
-The <b>SE_TOKEN_USER</b> structure holds the maximum-sized valid user SID that can be returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a>, <a href="/windows/win32/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>, or <a href="/previous-versions/ff567055(v=vs.85)">ZwQueryInformationToken</a> with the TokenUser information class. This structure is suitable for stack allocation.
+The **SE_TOKEN_USER** structure holds the maximum-sized valid user SID that can be returned by [**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md), [**GetTokenInformation**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-gettokeninformation), or [**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md) with the **TokenUser** information class. This structure is suitable for stack allocation.
 
 ## -struct-fields
 
@@ -56,17 +55,17 @@ The <b>SE_TOKEN_USER</b> structure holds the maximum-sized valid user SID that c
 
 ### -field DUMMYUNIONNAME.TokenUser
 
-Specifies a <b>TOKEN_USER</b> structure representing the user associated with an access token.
+Specifies a **TOKEN_USER** structure representing the user associated with an access token.
 
 ### -field DUMMYUNIONNAME.User
 
-Specifies an <b>SID_AND_ATTRIBUTES</b> structure representing the user associated with the access token.
+Specifies an **SID_AND_ATTRIBUTES** structure representing the user associated with the access token.
 
 ### -field DUMMYUNIONNAME2
 
 ### -field DUMMYUNIONNAME2.Sid
 
-Specifies a <b>Security Identifier (SID)</b> structure used to uniquely identify users or groups
+Specifies a **Security Identifier (SID)** structure used to uniquely identify users or groups
 
 ### -field DUMMYUNIONNAME2.Buffer
 
@@ -74,13 +73,8 @@ Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
+[**SID**](ns-ntifs-_sid.md)
 
+[**SID_AND_ATTRIBUTES**](ns-ntifs-_sid_and_attributes.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_and_attributes">SID_AND_ATTRIBUTES</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_user">TOKEN_USER</a>
-
+[**TOKEN_USER**](ns-ntifs-_token_user.md)

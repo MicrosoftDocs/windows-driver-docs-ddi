@@ -2,7 +2,7 @@
 UID: NF:ntifs.FsRtlKernelFsControlFile
 tech.root: ifsk
 title: FsRtlKernelFsControlFile
-ms.date: 07/20/2022
+ms.date: 07/26/2022
 targetos: Windows
 description: Learn more about the FsRtlKernelFsControlFile function.
 prerelease: false
@@ -93,4 +93,4 @@ This function assumes that all buffers passed to it are kernel-mode buffers.
 
 ## -see-also
 
-[**ZwFsControlFile**](/previous-versions/ff566462(v=vs.85))
+[**ZwFsControlFile**](nf-ntifs-zwfscontrolfile.md)
