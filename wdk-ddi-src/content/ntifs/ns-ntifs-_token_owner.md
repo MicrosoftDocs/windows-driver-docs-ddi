@@ -74,6 +74,6 @@ If it is a group SID, the **Owner** must match a group SID in the token, where t
 
 [**TOKEN_INFORMATION_CLASS**](ne-ntifs-_token_information_class.md)
 
-[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken)
+[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md)
 
 [**ZwSetInformationToken**](nf-ntifs-zwsetinformationtoken.md)

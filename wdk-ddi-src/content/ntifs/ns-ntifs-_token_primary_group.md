@@ -66,6 +66,6 @@ Pointer to a SID structure representing a group that will become the primary gro
 
 [**TOKEN_INFORMATION_CLASS**](ne-ntifs-_token_information_class.md)
 
-[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken)
+[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md)
 
 [**ZwSetInformationToken**](nf-ntifs-zwsetinformationtoken.md)

@@ -76,6 +76,6 @@ Unlike TOKEN_GROUPS structures, TOKEN_USER structures cannot be passed to **SeFi
 
 [**TOKEN_INFORMATION_CLASS**](ne-ntifs-_token_information_class.md)
 
-[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken)
+[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md)
 
 [**ZwSetInformationToken**](nf-ntifs-zwsetinformationtoken.md)

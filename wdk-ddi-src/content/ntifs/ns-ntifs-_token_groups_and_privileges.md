@@ -130,6 +130,6 @@ The locally unique identifier (LUID) of the authenticator of the token.
 
 [**TOKEN_USER**](ns-ntifs-_token_user.md)
 
-[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken)
+[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md)
 
 [**ZwSetInformationToken**](nf-ntifs-zwsetinformationtoken.md)

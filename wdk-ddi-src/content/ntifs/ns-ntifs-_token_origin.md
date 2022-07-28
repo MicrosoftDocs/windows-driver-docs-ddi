@@ -78,6 +78,6 @@ The locally unique identifier (LUID) for the logon session. If the token resulte
 
 [**TOKEN_INFORMATION_CLASS**](ne-ntifs-_token_information_class.md)
 
-[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken)
+[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md)
 
 [**ZwSetInformationToken**](nf-ntifs-zwsetinformationtoken.md)

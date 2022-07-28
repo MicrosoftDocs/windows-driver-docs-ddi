@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The **TOKEN_STATISTICS** structure contains information about an access token. A driver can retrieve this information by calling [**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md) or [**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken).
+The **TOKEN_STATISTICS** structure contains information about an access token. A driver can retrieve this information by calling [**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md) or [**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md).
 
 ## -struct-fields
 
@@ -110,6 +110,6 @@ Specifies an LUID that changes each time the token is modified. An application c
 
 [**TOKEN_TYPE**](ne-ntifs-_token_type.md)
 
-[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken)
+[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md)
 
 [**ZwSetInformationToken**](nf-ntifs-zwsetinformationtoken.md)
