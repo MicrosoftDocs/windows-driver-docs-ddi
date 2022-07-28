@@ -76,6 +76,4 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 - [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)
 - [acxpin.h header](index.md)
  
-READY2GO
 
-EDITCOMPLETE

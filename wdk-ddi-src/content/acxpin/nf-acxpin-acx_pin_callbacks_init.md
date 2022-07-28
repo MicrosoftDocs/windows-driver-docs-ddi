@@ -57,6 +57,4 @@ A pointer to the **ACX_PIN_CALLBACKS** structure to initialize.
 - [ACX_PIN_CALLBACKS](ns-acxpin-acx_pin_callbacks.md)
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

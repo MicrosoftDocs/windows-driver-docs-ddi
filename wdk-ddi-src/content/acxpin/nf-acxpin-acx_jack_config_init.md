@@ -2,7 +2,7 @@
 UID: NF:acxpin.ACX_JACK_CONFIG_INIT
 tech.root: audio
 title: ACX_JACK_CONFIG_INIT macro
-ms.date: 02/17/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_JACK_CONFIG_INIT macro calls the ACX_JACK_CONFIG_INIT_ID function with the default ID value.
 prerelease: false
@@ -65,4 +65,3 @@ A pointer to the [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md) structure to in
 - [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md)
 - [acxpin.h header](index.md)
 
-READY2GO

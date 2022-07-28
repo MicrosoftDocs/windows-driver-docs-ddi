@@ -60,6 +60,4 @@ For internal validation, do not use.
 - [ACX_MICROPHONE_CONFIG](ns-acxpin-acx_microphone_config.md)
 - [acxpin.h header](index.md)
  
-READY2GO
 
-EDITCOMPLETE

@@ -74,6 +74,4 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 - [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

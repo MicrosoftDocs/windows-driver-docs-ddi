@@ -2,7 +2,7 @@
 UID: NS:acxpin._ACX_JACK_CALLBACKS
 tech.root: audio
 title: ACX_JACK_CALLBACKS
-ms.date: 02/24/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_JACK_CALLBACKS structure specifies audio jack event callback functions.
 prerelease: false
@@ -62,4 +62,3 @@ A pointer to the callback function that determines if the jack is present on the
 
 - [acxpin.h header](index.md)
 
-READY2GO

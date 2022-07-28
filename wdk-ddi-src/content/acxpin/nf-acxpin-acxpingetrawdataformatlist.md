@@ -63,6 +63,4 @@ This DDI returns NULL if the specified pin doesn't have a raw mode data format l
 - [ACXDATAFORMATLIST](../acxdataformat/index.md)
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

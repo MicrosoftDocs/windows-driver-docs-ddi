@@ -64,6 +64,4 @@ A Boolean value indicating if the terminal specified by the *Jack* parameter is 
 
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

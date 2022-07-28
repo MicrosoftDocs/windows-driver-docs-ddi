@@ -70,6 +70,4 @@ For internal validation, do not use.
 
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

@@ -66,6 +66,4 @@ Indicates that the port type is unknown.
 
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

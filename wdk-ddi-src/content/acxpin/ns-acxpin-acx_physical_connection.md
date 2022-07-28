@@ -83,6 +83,4 @@ The ID of the target pin.
 - [ACX_PHYSICAL_CONNECTION_FLAGS](ne-acxpin-acx_physical_connection_flags.md)
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

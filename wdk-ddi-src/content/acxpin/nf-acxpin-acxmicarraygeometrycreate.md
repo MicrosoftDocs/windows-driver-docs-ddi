@@ -78,6 +78,4 @@ Call the [ACX_MICARRAYGEOMETRY_CONFIG_INIT](nf-acxpin-acx_micarraygeometry_confi
 - [ACX_MICARRAYGEOMETRY_CONFIG_INIT](nf-acxpin-acx_micarraygeometry_config_init.md)
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

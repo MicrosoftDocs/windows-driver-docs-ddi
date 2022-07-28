@@ -70,6 +70,4 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 - [ACX_MICROPHONE_COORDINATES](ns-acxpin-acx_microphone_coordinates.md)
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

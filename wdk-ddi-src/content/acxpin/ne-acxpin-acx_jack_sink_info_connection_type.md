@@ -58,6 +58,4 @@ Indicates that the port type is a DisplayPort jack.
 
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

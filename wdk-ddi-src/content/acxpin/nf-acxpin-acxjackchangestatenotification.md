@@ -56,6 +56,4 @@ The jack where the state change occurred.
 
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

@@ -121,6 +121,4 @@ Instances of the **ACX_PIN_CONFIG** structure must be initialized by calling the
 - [ACX_PIN_CALLBACKS](nf-acxpin-acx_pin_callbacks_init.md)
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

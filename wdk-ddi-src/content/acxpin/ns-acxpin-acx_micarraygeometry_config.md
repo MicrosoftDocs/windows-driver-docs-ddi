@@ -71,6 +71,4 @@ To initialize an ACX_MICARRAYGEOMETRY_CONFIG structure, your driver should call 
 - [ACX_MIC_ARRAY_GEOMETRY](ns-acxpin-acx_mic_array_geometry.md)
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

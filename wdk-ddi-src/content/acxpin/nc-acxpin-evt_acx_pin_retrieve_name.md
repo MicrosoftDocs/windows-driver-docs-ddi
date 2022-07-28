@@ -66,6 +66,4 @@ ACX pre-allocates the UNICODE_STRING buffer before invoking this callback. The m
 
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

@@ -68,6 +68,4 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

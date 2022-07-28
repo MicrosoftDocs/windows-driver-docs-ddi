@@ -2,7 +2,7 @@
 UID: NS:acxpin._ACX_JACK_CONFIG
 tech.root: audio
 title: ACX_JACK_CONFIG
-ms.date: 02/24/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_JACK_CONFIG structure is used to configure an audio jack.
 prerelease: false
@@ -77,4 +77,3 @@ An [ACX_JACK_DESCRIPTION](ns-acxpin-acx_jack_description.md) structure that desc
 - [ACX_JACK_DESCRIPTION](ns-acxpin-acx_jack_description.md)
 - [acxpin.h header](index.md)
 
-READY2GO

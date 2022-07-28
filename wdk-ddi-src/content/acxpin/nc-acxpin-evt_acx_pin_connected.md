@@ -66,6 +66,4 @@ This event happens when the composite circuit is fully initialized. From this po
 
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

@@ -87,6 +87,4 @@ The WAVEFORMATEXTENSIBLE returned by the driver reports the channel count as a s
 - [KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation)
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

@@ -63,6 +63,4 @@ The return value indicates if the pin is a source, a sink, or some other type.
 - [ACX_PIN_TYPE](ne-acxpin-acx_pin_type.md)
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

@@ -69,6 +69,4 @@ For internal validation, do not use.
 - [AcxPinGetType](nf-acxpin-acxpingettype.md)
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

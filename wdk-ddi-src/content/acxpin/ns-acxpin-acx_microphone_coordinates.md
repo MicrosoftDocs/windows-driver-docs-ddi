@@ -79,6 +79,4 @@ Specifies a value between -31416 and +31416. When divided by 10,000, it gives a 
 - [ACX_MICROPHONE_TYPE](ne-acxpin-acx_microphone_type.md)
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE

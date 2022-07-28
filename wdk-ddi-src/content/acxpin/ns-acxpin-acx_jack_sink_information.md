@@ -2,7 +2,7 @@
 UID: NS:acxpin._ACX_JACK_SINK_INFORMATION
 tech.root: audio
 title: ACX_JACK_SINK_INFORMATION
-ms.date: 02/24/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_JACK_SINK_INFORMATION structure specifies information about a display-related digital audio device, such as an HDMI device or a display port.
 prerelease: false
@@ -90,5 +90,3 @@ Reserved.
 
 - [ACX_JACK_SINK_INFO_CONNECTION_TYPE](ne-acxpin-acx_jack_sink_info_connection_type.md)
 - [acxpin.h header](index.md)
-
-READY2GO

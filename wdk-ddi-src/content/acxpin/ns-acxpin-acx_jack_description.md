@@ -2,7 +2,7 @@
 UID: NS:acxpin._ACX_JACK_DESCRIPTION
 tech.root: audio
 title: ACX_JACK_DESCRIPTION
-ms.date: 02/24/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_JACK_DESCRIPTION structure describes attributes of an audio jack, such as connection type, physical location, and so on.
 prerelease: false
@@ -127,5 +127,3 @@ When an audio device does not expose a physically accessible jack, the audio dev
 ## -see-also
 
 - [acxpin.h header](index.md)
-
-READY2GO

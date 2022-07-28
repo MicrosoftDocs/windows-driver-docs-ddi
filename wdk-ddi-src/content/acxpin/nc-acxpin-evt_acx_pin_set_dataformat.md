@@ -64,6 +64,4 @@ A handle to a data format object.
 
 - [acxpin.h header](index.md)
 
-READY2GO
 
-EDITCOMPLETE
