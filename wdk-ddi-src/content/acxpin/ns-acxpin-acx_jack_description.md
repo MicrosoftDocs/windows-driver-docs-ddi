@@ -128,4 +128,4 @@ When an audio device does not expose a physically accessible jack, the audio dev
 
 - [acxpin.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

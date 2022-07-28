@@ -54,7 +54,7 @@ The size of all of the data in the **ACX_JACK_CONFIG** structure in bytes.
 
 ### -field Id
 
-An identifier associated with the jack.
+An identifier associated with the jack. Currently not used, set to AcxJackPropertiesIdDefault.
 
 ### -field Flags
 
@@ -77,4 +77,4 @@ An [ACX_JACK_DESCRIPTION](ns-acxpin-acx_jack_description.md) structure that desc
 - [ACX_JACK_DESCRIPTION](ns-acxpin-acx_jack_description.md)
 - [acxpin.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

@@ -91,4 +91,4 @@ Reserved.
 - [ACX_JACK_SINK_INFO_CONNECTION_TYPE](ne-acxpin-acx_jack_sink_info_connection_type.md)
 - [acxpin.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
