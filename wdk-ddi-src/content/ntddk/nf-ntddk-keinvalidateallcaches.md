@@ -55,6 +55,6 @@ The <b>KeInvalidateAllCaches</b> routine flushes all processor caches.
 
 The <b>KeInvalidateAllCaches</b> routine flushes each processor's caches and marks each cache's contents invalid. The processor caches are guaranteed to have completed the flush operation before <b>KeInvalidateAllCaches</b> returns.
 
-<b>KeInvalidateAllCaches</b> has been superseded by <b><a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keinvalidaterangeallcaches">KeInvalidateRangeAllCaches</a></b>.
+<b>KeInvalidateAllCaches</b> has been superseded by <b><a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keinvalidaterangeallcaches">KeInvalidateRangeAllCaches</a></b>. See Remarks of that page for more information about the differences between the routines.
 
 This function is not available on the Arm and Arm64 architectures, where there is no architecturally reliable way to flush the entire cache.
