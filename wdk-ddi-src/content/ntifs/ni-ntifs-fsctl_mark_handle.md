@@ -2,7 +2,7 @@
 UID: NI:ntifs.FSCTL_MARK_HANDLE
 tech.root: ifsk
 title: FSCTL_MARK_HANDLE
-ms.date: 07/14/2021
+ms.date: 07/26/2022
 targetos: Windows
 description: The FSCTL_MARK_HANDLE control code marks a specified file or directory and its change journal record with information about changes to that file or directory.
 prerelease: false
@@ -42,7 +42,7 @@ The **FSCTL_MARK_HANDLE** control code marks a specified file or directory and i
 
 ## -remarks
 
-To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md) or [**ZwFsControlFile**](/previous-versions/ff566462(v=vs.85)) with the following parameters.
+To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md) or [**ZwFsControlFile**](nf-ntifs-zwfscontrolfile.md) with the following parameters.
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -59,4 +59,4 @@ To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel
 
 [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md)
 
-[**ZwFsControlFile**](/previous-versions/ff566462(v=vs.85))
+[**ZwFsControlFile**](nf-ntifs-zwfscontrolfile.md)

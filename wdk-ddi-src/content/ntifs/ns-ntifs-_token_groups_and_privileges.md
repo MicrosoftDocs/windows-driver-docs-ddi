@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._TOKEN_GROUPS_AND_PRIVILEGES
-title: _TOKEN_GROUPS_AND_PRIVILEGES (ntifs.h)
+title: TOKEN_GROUPS_AND_PRIVILEGES (ntifs.h)
 description: TOKEN_GROUPS_AND_PRIVILEGES contains information about the group security identifiers (SIDs) and privileges in an access token.
 old-location: ifsk\token_groups_and_privileges.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/26/2022
 keywords: ["TOKEN_GROUPS_AND_PRIVILEGES structure"]
 ms.keywords: "*PTOKEN_GROUPS_AND_PRIVILEGES, PTOKEN_GROUPS_AND_PRIVILEGES, PTOKEN_GROUPS_AND_PRIVILEGES structure pointer [Installable File System Drivers], TOKEN_GROUPS_AND_PRIVILEGES, TOKEN_GROUPS_AND_PRIVILEGES structure [Installable File System Drivers], _TOKEN_GROUPS_AND_PRIVILEGES, ifsk.token_groups_and_privileges, ntifs/PTOKEN_GROUPS_AND_PRIVILEGES, ntifs/TOKEN_GROUPS_AND_PRIVILEGES, securitystructures_4cab5ceb-66b1-4445-a9b0-a428fc628ab5.xml"
 req.header: ntifs.h
@@ -46,8 +46,7 @@ api_name:
  - TOKEN_GROUPS_AND_PRIVILEGES
 ---
 
-# _TOKEN_GROUPS_AND_PRIVILEGES structure
-
+# TOKEN_GROUPS_AND_PRIVILEGES structure
 
 ## -description
 
@@ -77,7 +76,7 @@ Specifies the length, in bytes, required to hold all of the restricted SIDs.
 
 ### -field RestrictedSids
 
-A pointer to <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_and_attributes">SID_AND_ATTRIBUTES</a> structures that contain a set of restricted SIDs and corresponding attributes.
+A pointer to [**SID_AND_ATTRIBUTES**](ns-ntifs-_sid_and_attributes.md) structures that contain a set of restricted SIDs and corresponding attributes.
 
 ### -field PrivilegeCount
 
@@ -89,7 +88,7 @@ Specifies the length, in bytes, needed to hold all of the privileges.
 
 ### -field Privileges
 
-A pointer to <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_luid_and_attributes">LUID_AND_ATTRIBUTES</a> structures that contain a set of privileges.
+A pointer to [**LUID_AND_ATTRIBUTES**](../wdm/ns-wdm-_luid_and_attributes.md) structures that contain a set of privileges.
 
 ### -field AuthenticationId
 
@@ -97,77 +96,40 @@ The locally unique identifier (LUID) of the authenticator of the token.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>
+[**ACL**](../wdm/ns-wdm-_acl.md)
 
+[**LUID_AND_ATTRIBUTES**](../wdm/ns-wdm-_luid_and_attributes.md)
 
+[**SECURITY_IMPERSONATION_LEVEL**](../wdm/ne-wdm-_security_impersonation_level.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_luid_and_attributes">LUID_AND_ATTRIBUTES</a>
+[**SID**](ns-ntifs-_sid.md)
 
+[**SID_AND_ATTRIBUTES**](ns-ntifs-_sid_and_attributes.md)
 
+[**SeFilterToken**](nf-ntifs-sefiltertoken.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
+[**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md)
 
+[**SeTokenIsRestricted**](nf-ntifs-setokenisrestricted.md)
 
+[**TOKEN_DEFAULT_DACL**](ns-ntifs-_token_default_dacl.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
+[**TOKEN_INFORMATION_CLASS**](ne-ntifs-_token_information_class.md)
 
+[**TOKEN_OWNER**](ns-ntifs-_token_owner.md)
 
+[**TOKEN_PRIMARY_GROUP**](ns-ntifs-_token_primary_group.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_and_attributes">SID_AND_ATTRIBUTES</a>
+[**TOKEN_PRIVILEGES**](ns-ntifs-_token_privileges.md)
 
+[**TOKEN_SOURCE**](ns-ntifs-_token_source.md)
 
+[**TOKEN_STATISTICS**](ns-ntifs-_token_statistics.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sefiltertoken">SeFilterToken</a>
+[**TOKEN_TYPE**](ne-ntifs-_token_type.md)
 
+[**TOKEN_USER**](ns-ntifs-_token_user.md)
 
+[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-setokenisrestricted">SeTokenIsRestricted</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_default_dacl">TOKEN_DEFAULT_DACL</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_information_class">TOKEN_INFORMATION_CLASS</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_owner">TOKEN_OWNER</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_primary_group">TOKEN_PRIMARY_GROUP</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_privileges">TOKEN_PRIVILEGES</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_source">TOKEN_SOURCE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_statistics">TOKEN_STATISTICS</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_type">TOKEN_TYPE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_user">TOKEN_USER</a>
-
-
-
-<a href="/previous-versions/ff567055(v=vs.85)">ZwQueryInformationToken</a>
-
-
-
-<a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>
-
+[**ZwSetInformationToken**](nf-ntifs-zwsetinformationtoken.md)

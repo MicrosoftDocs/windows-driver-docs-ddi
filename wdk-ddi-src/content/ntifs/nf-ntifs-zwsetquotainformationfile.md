@@ -4,13 +4,13 @@ title: ZwSetQuotaInformationFile function (ntifs.h)
 description: The ZwSetQuotaInformationFile routine changes quota entries for the volume associated with the FileHandle parameter. All of the quota entries in the specified buffer are applied to the volume.
 old-location: kernel\zwsetquotainformationfile.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/26/2022
 keywords: ["ZwSetQuotaInformationFile function"]
 ms.keywords: NtSetQuotaInformationFile, ZwSetQuotaInformationFile, ZwSetQuotaInformationFile routine [Kernel-Mode Driver Architecture], k111_87b6e79e-ecd9-47ff-8f0c-7502fc82b8af.xml, kernel.zwsetquotainformationfile, ntifs/NtSetQuotaInformationFile, ntifs/ZwSetQuotaInformationFile
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows 7 and later versions of Windows operating systems.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,120 +42,67 @@ api_name:
 
 # ZwSetQuotaInformationFile function
 
-
 ## -description
 
-The <b>ZwSetQuotaInformationFile</b> routine changes quota entries for the volume associated with the <i>FileHandle</i> parameter. All of the quota entries in the specified buffer are applied to the volume.
+The **ZwSetQuotaInformationFile** routine changes quota entries for the volume associated with the **FileHandle** parameter. All of the quota entries in the specified buffer are applied to the volume.
 
 ## -parameters
 
 ### -param FileHandle [in]
 
-
 A handle for the file object that represents the file or volume for which the quota information is to be modified.
 
 ### -param IoStatusBlock [out]
-
 
 The address of the caller's I/O status block.
 
 ### -param Buffer [in]
 
-
-A buffer containing the new quota entries that should be applied to the volume. The quota information must be formatted as one or more <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information">FILE_QUOTA_INFORMATION</a> structures. The <b>NextEntryOffset</b> field in the <b>FILE_QUOTA_INFORMATION</b> structure contains the offset, in bytes, of the next quota entry in the list. If there are no more entries after the current one, this member is zero.
+A buffer containing the new quota entries that should be applied to the volume. The quota information must be formatted as one or more [**FILE_QUOTA_INFORMATION**](ns-ntifs-_file_quota_information.md) structures. The **NextEntryOffset** field in the **FILE_QUOTA_INFORMATION** structure contains the offset, in bytes, of the next quota entry in the list. If there are no more entries after the current one, this member is zero.
 
 ### -param Length [in]
-
 
 The length in bytes of the buffer.
 
 ## -returns
 
-The <b>ZwSetQuotaInformationFile</b> routine returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+The **ZwSetQuotaInformationFile** routine returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES </b></dt>
-</dl>
-</td>
-<td width="60%">
-There were insufficient resources to complete the operation. This is an error code.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>
-</td>
-<td width="60%">
-Quotas are not enabled on the volume. This is an error code.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_MEDIA_WRITE_PROTECTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The volume is read only. This is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_INSUFFICIENT_RESOURCES | There were insufficient resources to complete the operation. This is an error code. |
+| STATUS_INVALID_DEVICE_REQUEST | Quotas are not enabled on the volume. This is an error code. |
+| STATUS_MEDIA_WRITE_PROTECTED  | The volume is read only. This is an error code. |
 
 ## -remarks
 
-The <b>ZwSetQuotaInformationFile</b> routine applies all of the quota entries in the specified <i>Buffer</i> parameter to the volume.
+The **ZwSetQuotaInformationFile** routine applies all of the quota entries in the specified **Buffer** parameter to the volume.
 
-The <b>IoCheckQuotaBufferValidity</b> function can check whether the specified quota buffer passed as the <i>Buffer</i> parameter is valid.
+The **IoCheckQuotaBufferValidity** function can check whether the specified quota buffer passed as the **Buffer** parameter is valid.
 
-A call to <b>ZwSetQuotaInformationFile</b> will result in an <a href="/windows-hardware/drivers/ifs/irp-mj-set-quota">IRP_MJ_SET_QUOTA</a> request being sent to the device object that is associated with the file object whose handle is stored in the <i>FileHandle</i> parameter.
+A call to **ZwSetQuotaInformationFile** will result in an [**IRP_MJ_SET_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-set-quota) request being sent to the device object that is associated with the file object whose handle is stored in the **FileHandle** parameter.
 
-If the underlying file system does not support quota information (FAT and CDFS file systems, for example), <b>ZwSetQuotaInformationFile</b> will fail returning STATUS_INVALID_DEVICE_REQUEST.
+If the underlying file system does not support quota information (FAT and CDFS file systems, for example), **ZwSetQuotaInformationFile** will fail returning STATUS_INVALID_DEVICE_REQUEST.
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwSetQuotaInformationFile</b> function occurs in user mode, you should use the name "<a href="/previous-versions/ff567105(v=vs.85)">NtSetQuotaInformationFile</a>" instead of "<b>ZwSetQuotaInformationFile</b>".</div>
-<div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+> [!NOTE]
+> If the call to the **ZwSetQuotaInformationFile** function occurs in user mode, you should use the name "[**NtSetQuotaInformationFile**](nf-ntifs-ntsetquotainformationfile.md)" instead of "**ZwSetQuotaInformationFile**".
+
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a>
+[**FILE_GET_QUOTA_INFORMATION**](ns-ntifs-_file_get_quota_information.md)
 
+[**FILE_QUOTA_INFORMATION**](ns-ntifs-_file_quota_information.md)
 
+[**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information">FILE_QUOTA_INFORMATION</a>
+[**IRP_MJ_QUERY_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-query-quota)
 
+[**IRP_MJ_SET_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-set-quota)
 
+[**IoCheckQuotaBufferValidity**](nf-ntifs-iocheckquotabuffervalidity.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a>
+[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-
-
-<a href="/windows-hardware/drivers/ifs/irp-mj-query-quota">IRP_MJ_QUERY_QUOTA</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/irp-mj-set-quota">IRP_MJ_SET_QUOTA</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iocheckquotabuffervalidity">IoCheckQuotaBufferValidity</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="/previous-versions/ff567064(v=vs.85)">ZwQueryQuotaInformationFile</a>
-
+[**ZwQueryQuotaInformationFile**](nf-ntifs-zwqueryquotainformationfile.md)

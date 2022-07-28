@@ -2,7 +2,7 @@
 UID: NS:ntifs._FILE_NOTIFY_FULL_INFORMATION
 tech.root: ifsk
 title: FILE_NOTIFY_FULL_INFORMATION
-ms.date: 06/21/2022
+ms.date: 07/26/2022
 targetos: Windows
 description: Learn more about the FILE_NOTIFY_FULL_INFORMATION structure.
 prerelease: false
