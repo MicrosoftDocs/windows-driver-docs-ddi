@@ -237,5 +237,3 @@ Example usage is shown below.
 ## -see-also
 
 - [acxrequest.h header](index.md)
-
-READY2GO

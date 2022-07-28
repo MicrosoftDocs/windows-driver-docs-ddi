@@ -76,6 +76,3 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)
 - [acxmanager.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

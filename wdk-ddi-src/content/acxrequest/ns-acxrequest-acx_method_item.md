@@ -115,6 +115,3 @@ static ACX_METHOD_ITEM CircuitMethods[] =
 
 - [acxrequest.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

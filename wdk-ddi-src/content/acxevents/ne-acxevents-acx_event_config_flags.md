@@ -56,7 +56,3 @@ There are no flags currently defined for this type.
 ## -see-also
 
 - [acxevents.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

@@ -73,7 +73,3 @@ This example shows the use of ACX_EVENT_CALLBACKS_INIT.
 ## -see-also
 
 - [acxevents.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

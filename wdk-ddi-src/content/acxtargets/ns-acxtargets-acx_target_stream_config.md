@@ -93,6 +93,3 @@ An optional ACXOBJECTBAG ACX object describing optional parameters.
 
 - [acxtargets.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

@@ -103,7 +103,3 @@ This example shows the use of AcxObjectBagRetrieveUI8.
 ## -see-also
 
 - [acxmisc.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

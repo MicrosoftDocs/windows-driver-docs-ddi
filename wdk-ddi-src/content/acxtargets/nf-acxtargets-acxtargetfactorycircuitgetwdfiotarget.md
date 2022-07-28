@@ -66,7 +66,4 @@ Returns the WDFIOTARGET object associated with the ACXTARGETFACTORYCIRCUIT.
 
 - [acxtargets.h header](index.md)
  
-READY2GO
-
-EDITCOMPLETE
  

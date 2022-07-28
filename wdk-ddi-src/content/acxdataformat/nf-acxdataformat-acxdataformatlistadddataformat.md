@@ -68,6 +68,3 @@ If the data format list doesn't have a default data format, this data format bec
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [acxdataformat.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

@@ -115,7 +115,3 @@ CodecC_EvtVolumeAssignLevelCallback(
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

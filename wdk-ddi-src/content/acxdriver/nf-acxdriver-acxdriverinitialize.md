@@ -89,6 +89,3 @@ if (!NT_SUCCESS(status))
 * [ACX_DRIVER_CONFIG_INIT](nf-acxdriver-acx_driver_config_init.md)
 * [acxdriver.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

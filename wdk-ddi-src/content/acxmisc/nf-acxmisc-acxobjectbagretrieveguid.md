@@ -94,7 +94,3 @@ This example shows the use of AcxObjectBagRetrieveGuid.
 ## -see-also
 
 - [acxmisc.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

@@ -64,6 +64,3 @@ Returns TRUE if *DataFormat1* and DataFormat2 are equal, otherwise FALSE.
 
 - [acxdataformat.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

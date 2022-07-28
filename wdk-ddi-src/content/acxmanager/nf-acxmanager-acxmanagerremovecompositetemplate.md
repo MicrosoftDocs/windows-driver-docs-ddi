@@ -66,6 +66,3 @@ When a composite template is removed, all endpoints associated with that composi
 
 - [acxmanager.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

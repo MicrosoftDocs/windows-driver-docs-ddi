@@ -62,7 +62,4 @@ As the ACX_AUDIOENGINE_CONFIG_INIT_ID provides the same functionality as [ACX_AU
 
 - [acxelements.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE
 

@@ -59,6 +59,3 @@ For internal validation, do not use.
 
 * [acxdevice.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

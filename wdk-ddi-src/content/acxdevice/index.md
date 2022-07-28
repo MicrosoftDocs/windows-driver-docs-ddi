@@ -2,7 +2,7 @@
 UID: NA:acxdevice
 tech.root: audio
 title: acxdevice.h header
-ms.date: 04/21/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: acxdevice.h header
 prerelease: false

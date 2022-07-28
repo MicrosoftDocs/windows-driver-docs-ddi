@@ -94,7 +94,4 @@ Example usage is shown below.
 
 - [acxelements.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE
 

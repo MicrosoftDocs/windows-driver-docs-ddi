@@ -123,7 +123,4 @@ EvtStreamReleaseHardware(
 - [EVT_ACX_STREAM_RUN_HARDWARE](nc-acxstreams-evt_acx_stream_run.md)
 - [EVT_ACX_STREAM_PAUSE_HARDWARE](nc-acxstreams-evt_acx_stream_pause.md)
 
-READY2GO
-
-EDITCOMPLETE
 

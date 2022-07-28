@@ -61,6 +61,3 @@ A pointer to an [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_l
 - [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md)
 - [acxdataformat.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

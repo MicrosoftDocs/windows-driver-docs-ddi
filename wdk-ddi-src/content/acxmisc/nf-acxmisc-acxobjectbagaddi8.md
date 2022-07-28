@@ -104,6 +104,3 @@ This example shows the use of AcxObjectBagAddI8.
 
 - [acxmisc.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

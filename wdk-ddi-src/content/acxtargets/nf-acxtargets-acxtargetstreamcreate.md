@@ -108,6 +108,3 @@ Drivers should use the ACXSTREAMBRIDGE to automatically propagate an audio strea
 
 - [acxtargets.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

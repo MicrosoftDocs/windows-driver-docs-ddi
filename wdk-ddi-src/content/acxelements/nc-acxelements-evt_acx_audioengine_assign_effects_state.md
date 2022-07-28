@@ -95,6 +95,3 @@ DspR_EvtAcxAudioEngineAssignEffectsState(
 
 - [acxelements.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

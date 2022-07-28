@@ -116,7 +116,4 @@ Example usage is shown below.
 
 - [acxrequest.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE
 

@@ -68,6 +68,3 @@ Returns the number of ACX pins on the remote target.
 
 - [acxtargets.h header](index.md)
  
-READY2GO
-
-EDITCOMPLETE

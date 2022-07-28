@@ -81,6 +81,3 @@ Pointer to a Unicode string that contains the name of the symbolic link for the 
 
 - [acxtargets.h header](index.md)
  
-READY2GO
-
-EDITCOMPLETE

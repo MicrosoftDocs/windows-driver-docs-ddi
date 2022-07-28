@@ -66,6 +66,3 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [acxdataformat.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

@@ -70,6 +70,3 @@ This structure should not be directly updated. Instances of the **ACX_DATAFORMAT
 - [ACX_DATAFORMAT_LIST_ITERATOR_CONFIG_FLAGS](ne-acxdataformat-acx_dataformat_list_iterator_config_flags.md)
 - [acxdataformat.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

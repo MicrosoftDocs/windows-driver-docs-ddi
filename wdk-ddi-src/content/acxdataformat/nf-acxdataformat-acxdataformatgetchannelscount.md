@@ -61,6 +61,3 @@ Returns a USHORT value containing the number of channels specified in the *DataF
 - [WAVEFORMAT structure](/windows/win32/api/mmreg/ns-mmreg-waveformat)
 - [acxdataformat.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

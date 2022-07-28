@@ -83,6 +83,3 @@ This example shows the use of the ACX_PNPEVENT_CONFIG structure.
 
 - [acxevents.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

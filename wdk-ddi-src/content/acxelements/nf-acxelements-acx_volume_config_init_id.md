@@ -62,7 +62,4 @@ As the ACX_VOLUME_CONFIG_INIT_ID provides the same functionality as [ACX_VOLUME_
 
 - [acxelements.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE
 

@@ -80,6 +80,3 @@ The ID value associated with the element.
 
 - [acxtargets.h header](index.md)
  
-READY2GO
-
-EDITCOMPLETE

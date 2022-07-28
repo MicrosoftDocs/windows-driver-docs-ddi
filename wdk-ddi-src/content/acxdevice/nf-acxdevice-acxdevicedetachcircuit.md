@@ -91,6 +91,3 @@ if (!NT_SUCCESS(status))
 * [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
 * [acxdevice.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

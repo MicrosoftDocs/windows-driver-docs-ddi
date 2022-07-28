@@ -74,6 +74,3 @@ Returns the WDFIOTARGET object associated with the target pin target.
 
 - [acxtargets.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

@@ -63,6 +63,3 @@ It is not recommended to use this version of the resume IO call, but rather [Acx
 [acxstreams.h header](index.md)
 [AcxStreamResumeIoWithTag](nf-acxstreams-acxstreamresumeiowithtag.md)
 
-READY2GO
-
-EDITCOMPLETE

@@ -88,6 +88,3 @@ DspR_EvtAcxStreamAudioEngineRetrieveEffectsState(
 
 - [acxelements.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

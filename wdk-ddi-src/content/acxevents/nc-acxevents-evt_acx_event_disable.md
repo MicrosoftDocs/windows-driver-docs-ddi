@@ -92,6 +92,3 @@ TestElement::EvtEventDisableCallback(
 
 - [acxevents.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

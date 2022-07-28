@@ -85,6 +85,3 @@ This example code snip, shows the use of AcxPnpEventGenerateEvent.
 
 - [acxevents.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

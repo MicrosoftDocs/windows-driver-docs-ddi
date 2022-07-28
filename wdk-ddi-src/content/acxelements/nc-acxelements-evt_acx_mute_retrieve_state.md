@@ -108,7 +108,3 @@ CodecR_EvtMuteRetrieveState(
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

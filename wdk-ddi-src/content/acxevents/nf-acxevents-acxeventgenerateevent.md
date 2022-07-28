@@ -72,7 +72,3 @@ This sample shows the use of AcxEventGenerateEvent.
 ## -see-also
 
 - [acxevents.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

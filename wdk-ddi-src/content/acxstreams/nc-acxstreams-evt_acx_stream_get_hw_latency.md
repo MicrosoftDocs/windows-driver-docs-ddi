@@ -105,6 +105,3 @@ EvtStreamGetHwLatency(
 
 - [acxstreams.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

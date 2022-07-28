@@ -101,6 +101,3 @@ The example shows how ACX uses the ACX_EVENT_CONFIG structure.
 
 - [acxevents.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

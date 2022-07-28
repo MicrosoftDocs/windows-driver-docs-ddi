@@ -1,7 +1,7 @@
 ---
 UID: NA:acxstreams
 title: acxstreams.h header
-ms.date: 01/25/2022
+ms.date: 07/28/2022
 description: This topic describes the acxstreams header that are used to create Microsoft Windows ACX audio drivers. These drivers control audio hardware that render and capture streams containing audio data.
 keywords: ["acxstreams.h header"]
 ms.keywords: 

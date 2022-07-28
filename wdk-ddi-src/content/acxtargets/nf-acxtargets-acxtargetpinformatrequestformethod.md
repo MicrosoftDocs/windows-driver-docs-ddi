@@ -97,7 +97,4 @@ A WDFREQUEST is a driver created I/O requests. Framework-based drivers process e
 
 - [acxtargets.h header](index.md)
  
-READY2GO
-
-EDITCOMPLETE
  

@@ -88,6 +88,3 @@ Sample pending
 
 - [acxrequest.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

@@ -115,6 +115,3 @@ CodecR_EvtVolumeRetrieveLevel(
 
 - [acxelements.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

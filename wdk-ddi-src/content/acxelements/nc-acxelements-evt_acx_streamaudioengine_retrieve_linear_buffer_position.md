@@ -97,7 +97,3 @@ CodecR_EvtAcxStreamAudioEngineRetrieveLinearBufferPosition(
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

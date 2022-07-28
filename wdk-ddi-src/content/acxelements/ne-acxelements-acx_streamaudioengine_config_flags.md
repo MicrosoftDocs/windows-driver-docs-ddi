@@ -60,6 +60,3 @@ There are no flags currently defined for this type.
 
 - [acxelements.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

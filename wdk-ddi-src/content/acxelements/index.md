@@ -1,7 +1,7 @@
 ---
 UID: NA:acxelements
 title: acxelements.h header
-ms.date: 09/02/2021
+ms.date: 07/28/2022
 description: The  acxelements.h header is used by the ACX audio class extensions.
 keywords: ["acxelements.h header"]
 ms.keywords: 

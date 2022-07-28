@@ -61,6 +61,3 @@ Returns a pointer to the [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md) structure a
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [acxdataformat.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

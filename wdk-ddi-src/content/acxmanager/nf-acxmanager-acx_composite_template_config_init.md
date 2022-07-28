@@ -59,6 +59,3 @@ A pointer to the [ACX_COMPOSITE_TEMPLATE_CONFIG](ns-acxmanager-acx_composite_tem
 - [ACX_CIRCUIT_TEMPLATE_CONFIG_INIT](nf-acxmanager-acx_circuit_template_config_init.md)
 - [acxmanager.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

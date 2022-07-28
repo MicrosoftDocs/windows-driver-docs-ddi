@@ -67,6 +67,3 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [AcxDataFormatListRetrieveDefaultDataFormat](nf-acxdataformat-acxdataformatlistretrievedefaultdataformat.md)
 - [acxdataformat.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

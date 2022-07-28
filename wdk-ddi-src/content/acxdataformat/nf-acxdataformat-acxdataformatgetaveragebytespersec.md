@@ -61,6 +61,3 @@ Returns a ULONG value containing the required bytes-per-second transfer rate for
 - [WAVEFORMAT structure](/windows/win32/api/mmreg/ns-mmreg-waveformat)
 - [acxdataformat.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

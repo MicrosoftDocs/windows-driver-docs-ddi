@@ -58,6 +58,3 @@ A pointer to the [ACX_DATAFORMAT_CONFIG](ns-acxdataformat-acx_dataformat_config.
 - [ACX_DATAFORMAT_CONFIG_INIT_KS](nf-acxdataformat-acx_dataformat_config_init_ks.md)
 - [acxdataformat.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

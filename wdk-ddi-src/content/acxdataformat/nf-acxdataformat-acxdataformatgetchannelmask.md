@@ -79,6 +79,3 @@ The following table shows the meaning of each bit in the channel mask:
 - [Channel Mask](/windows-hardware/drivers/audio/channel-mask)
 - [acxdataformat.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

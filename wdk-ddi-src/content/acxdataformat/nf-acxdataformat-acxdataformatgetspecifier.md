@@ -64,6 +64,3 @@ Specifies additional data format type information for a specific setting of Majo
 - [Audio Data Formats](/windows-hardware/drivers/audio/audio-data-formats)
 - [acxdataformat.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

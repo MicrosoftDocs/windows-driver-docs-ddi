@@ -86,6 +86,3 @@ Aggregator_FormatRequestForProperty(
 
 - [acxtargets.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

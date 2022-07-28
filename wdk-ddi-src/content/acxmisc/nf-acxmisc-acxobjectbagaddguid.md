@@ -109,7 +109,3 @@ The code below shows the use of AcxObjectBagAddGuid.
 ## -see-also
 
 - [acxmisc.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

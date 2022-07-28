@@ -69,7 +69,3 @@ This function resets the [ACX_STREAM_BRIDGE_CONFIG structure](ns-acxstreams-acx_
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

@@ -69,6 +69,3 @@ Returns the ID associated with the specified target pin.
 
 - [acxtargets.h header](index.md)
  
-READY2GO
-
-EDITCOMPLETE

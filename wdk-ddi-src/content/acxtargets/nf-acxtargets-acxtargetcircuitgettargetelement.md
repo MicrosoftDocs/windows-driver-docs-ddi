@@ -84,6 +84,3 @@ Returns a ACXTARGETELEMENT ACX Object that is associated with the specified circ
 
 - [acxtargets.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

@@ -105,7 +105,3 @@ CodecR_EvtPeakMeterRetrieveLevelCallback(
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

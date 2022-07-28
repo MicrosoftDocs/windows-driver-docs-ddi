@@ -64,6 +64,3 @@ It is not recommended to use this version of the stop IO call, but rather [AcxSt
 
 - [acxstreams.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

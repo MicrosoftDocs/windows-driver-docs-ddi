@@ -114,6 +114,3 @@ Codec_EvtStreamFreeRtPackets(
 
 - [acxstreams.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

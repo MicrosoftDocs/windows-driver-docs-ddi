@@ -63,6 +63,3 @@ A pointer to the [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md).
 - [ACX_DATAFORMAT_CONFIG_INIT](nf-acxdataformat-acx_dataformat_config_init.md)
 - [acxdataformat.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

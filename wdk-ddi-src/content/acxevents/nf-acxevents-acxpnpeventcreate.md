@@ -100,6 +100,3 @@ This example code shows the use of AcxPnpEventCreate.
 
 - [acxevents.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

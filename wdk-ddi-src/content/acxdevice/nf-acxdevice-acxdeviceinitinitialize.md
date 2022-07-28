@@ -108,6 +108,3 @@ if (!NT_SUCCESS(status))
 * [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values)
 * [acxdevice.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

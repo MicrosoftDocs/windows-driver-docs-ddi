@@ -75,6 +75,3 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 - [ACX_DATAFORMAT_CONFIG](ns-acxdataformat-acx_dataformat_config.md)
 - [acxdataformat.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

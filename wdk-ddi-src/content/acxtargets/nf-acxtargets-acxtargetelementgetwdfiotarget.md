@@ -69,7 +69,3 @@ The WDFIOTARGET object associated with the target element.
 ## -see-also
 
 - [acxtargets.h header](index.md) 
-
-READY2GO
-
-EDITCOMPLETE

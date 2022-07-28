@@ -67,7 +67,3 @@ This example shows the use of DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME.
 ## -see-also
 
 - [acxmisc.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

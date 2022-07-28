@@ -66,6 +66,3 @@ Returns the number of elements for the specified target stream.
 
 - [acxtargets.h header](index.md)
  
-READY2GO
-
-EDITCOMPLETE

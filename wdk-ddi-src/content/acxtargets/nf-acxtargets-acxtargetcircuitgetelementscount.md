@@ -68,6 +68,3 @@ Returns the number of elements for the specified target circuit.
 
 - [acxtargets.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

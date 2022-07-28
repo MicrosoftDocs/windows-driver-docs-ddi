@@ -2,7 +2,7 @@
 UID: NA:acxdriver
 tech.root: audio
 title: acxdriver.h header
-ms.date: 04/21/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: acxdriver.h header
 prerelease: false

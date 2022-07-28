@@ -2,7 +2,7 @@
 UID: NA:acxdataformat
 tech.root: audio
 title: acxdataformat
-ms.date: 06/22/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The acxdataformat header is used by the ACX audio class extensions.
 prerelease: true

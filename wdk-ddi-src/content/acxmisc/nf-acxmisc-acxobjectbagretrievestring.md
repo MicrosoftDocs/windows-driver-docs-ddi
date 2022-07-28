@@ -105,7 +105,3 @@ This example shows the use of AcxObjectBagRetrieveString.
 ## -see-also
 
 - [acxmisc.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

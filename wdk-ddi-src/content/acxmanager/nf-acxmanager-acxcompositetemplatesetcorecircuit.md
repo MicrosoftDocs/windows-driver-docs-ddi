@@ -62,6 +62,3 @@ The core circuit gives the identity to the composite endpoint. If this circuit i
 
 - [acxmanager.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

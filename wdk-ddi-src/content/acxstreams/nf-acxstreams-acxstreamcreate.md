@@ -111,6 +111,3 @@ Example stream creation is shown below.
 
 - [acxstreams.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

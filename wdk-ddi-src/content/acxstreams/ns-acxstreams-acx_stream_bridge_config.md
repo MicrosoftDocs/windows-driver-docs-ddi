@@ -147,7 +147,3 @@ This example shows how to set a stream BRIDGE for RAW and DEFAULT modes.
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

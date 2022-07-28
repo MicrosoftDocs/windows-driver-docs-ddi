@@ -91,7 +91,3 @@ This example shows the use of AcxObjectBagRetrieveBlob.
 ## -see-also
 
 - [acxmisc.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

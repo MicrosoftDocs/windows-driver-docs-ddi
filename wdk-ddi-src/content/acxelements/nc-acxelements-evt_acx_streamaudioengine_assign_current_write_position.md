@@ -98,7 +98,4 @@ CodecR_EvtAcxStreamAudioEngineAssignCurrentWritePosition(
 
 - [acxelements.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE
 

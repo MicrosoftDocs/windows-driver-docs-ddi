@@ -2,7 +2,7 @@
 UID: NA:acxtargets
 tech.root: audio
 title: acxtargets
-ms.date: 07/26/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The acxtargets header is used by the ACX audio class extensions.
 prerelease: true
@@ -73,6 +73,3 @@ For more information, see:
  
 - [Audio](../_audio/index.md)
 
-READY2GO
-
-EDITCOMPLETE

@@ -55,7 +55,4 @@ When an active stream is in this state it indicates that the loopback tap for th
 
 - [acxelements.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE
 

@@ -68,6 +68,3 @@ An optional **ACXOBJECTBAG** of composite template properties. Only for singleto
 - [ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS](ne-acxmanager-acx_composite_template_config_flags.md)
 - [acxmanager.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

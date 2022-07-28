@@ -93,6 +93,3 @@ This example shows the use of ACX_EVENT_CALLBACKS.
 
 - [acxevents.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

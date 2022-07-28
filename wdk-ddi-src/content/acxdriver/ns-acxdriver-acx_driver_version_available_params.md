@@ -70,6 +70,3 @@ Instances of this structure must be initialized by calling the [ACX_DRIVER_VERSI
 * [AcxDriverIsVersionAvailable](nf-acxdriver-acxdriverisversionavailable.md)
 * [acxdriver.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

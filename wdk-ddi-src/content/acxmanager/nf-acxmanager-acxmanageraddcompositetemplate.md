@@ -66,6 +66,3 @@ A composite template tells the ACX manager how to build a composite endpoint. Fo
 
 - [acxmanager.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

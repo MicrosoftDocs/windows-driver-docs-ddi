@@ -65,6 +65,3 @@ ACX_DRIVER_CONFIG_INIT(&acxCfg);
 * [AcxDriverInitialize](nf-acxdriver-acxdriverinitialize.md)
 * [acxdriver.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

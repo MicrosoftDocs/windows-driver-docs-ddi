@@ -71,6 +71,3 @@ A name-tag in the form of a GUID.
 
 - [acxtargets.h header](index.md)
  
-READY2GO
-
-EDITCOMPLETE

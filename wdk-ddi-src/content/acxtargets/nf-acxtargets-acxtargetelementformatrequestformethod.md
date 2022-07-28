@@ -102,6 +102,3 @@ This sample code shows the use of the AcxTargetElementFormatRequestForMethod.
 
 - [acxtargets.h header](index.md)
  
-READY2GO
-
-EDITCOMPLETE

@@ -145,7 +145,4 @@ CodecR_EvtMuteElementChangeEventCallback(
 
 - [acxrequest.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE
 

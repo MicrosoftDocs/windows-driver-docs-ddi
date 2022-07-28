@@ -55,6 +55,3 @@ For internal validation, do not use.
 
 - [acxdataformat.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

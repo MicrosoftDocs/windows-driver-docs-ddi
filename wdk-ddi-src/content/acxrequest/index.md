@@ -2,7 +2,7 @@
 UID: NA:acxrequest
 tech.root: audio
 title: acxrequest
-ms.date: 01/10/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The acxrequest header is used by the ACX audio class extensions.
 prerelease: true

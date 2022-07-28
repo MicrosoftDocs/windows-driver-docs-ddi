@@ -93,7 +93,4 @@ DspR_EvtAcxStreamAudioEngineRetrievePresentationPosition(
 
 - [acxelements.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE
 

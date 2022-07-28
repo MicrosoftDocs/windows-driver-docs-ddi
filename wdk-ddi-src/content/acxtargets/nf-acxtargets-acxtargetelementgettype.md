@@ -69,6 +69,3 @@ An element type as a GUID.
 
 - [acxtargets.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

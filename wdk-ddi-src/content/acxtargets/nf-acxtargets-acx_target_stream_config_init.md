@@ -64,6 +64,3 @@ A pointer to the [ACX_TARGET_STREAM_CONFIG](ns-acxtargets-acx_target_stream_conf
 
 - [acxtargets.h header](index.md)
  
-READY2GO
-
-EDITCOMPLETE

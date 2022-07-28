@@ -70,6 +70,3 @@ This example code shows the use of AcxTargetCircuitGetWdfIoTarget.
 
 - [acxtargets.h header](index.md)
  
-READY2GO
-
-EDITCOMPLETE

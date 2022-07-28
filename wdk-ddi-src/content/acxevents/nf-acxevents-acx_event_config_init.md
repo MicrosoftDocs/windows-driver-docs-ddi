@@ -74,6 +74,3 @@ This example shows the use of ACX_EVENT_CONFIG_INIT.
 
 - [acxevents.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

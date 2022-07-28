@@ -58,7 +58,3 @@ Indicates that the algorithm that is applied to the volume setting must follow t
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

@@ -128,6 +128,3 @@ static ACX_PROPERTY_ITEM PinProperties[] =
 
 - [acxrequest.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

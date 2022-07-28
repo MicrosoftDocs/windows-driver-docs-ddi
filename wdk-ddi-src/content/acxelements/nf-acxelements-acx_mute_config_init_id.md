@@ -62,7 +62,4 @@ As the ACX_MUTE_CONFIG_INIT_ID provides the same functionality as [ACX_MUTE_CONF
 
 - [acxelements.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE
 

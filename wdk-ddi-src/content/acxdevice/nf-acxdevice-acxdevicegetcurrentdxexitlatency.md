@@ -93,6 +93,3 @@ latency = AcxDeviceGetCurrentDxExitLatency(Device, powerAction, TargetState);
 * [Power states](/windows-hardware/drivers/nfc/power-states)
 * [acxdevice.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

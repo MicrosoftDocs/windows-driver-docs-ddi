@@ -87,6 +87,3 @@ if (!AcxDriverIsVersionAvailable(driver, &ver))
 * [ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT](nf-acxdriver-acx_driver_version_available_params_init.md)
 * [acxdriver.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

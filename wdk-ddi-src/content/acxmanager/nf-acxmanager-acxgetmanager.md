@@ -62,6 +62,3 @@ The *Context* parameter must be set to `NULL`.
 
 - [acxmanager.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

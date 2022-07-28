@@ -55,6 +55,3 @@ For internal validation, do not use.
 
 * [acxdriver.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

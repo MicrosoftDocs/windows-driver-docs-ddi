@@ -96,6 +96,3 @@ TestElement::EvtEventEnableCallback(
 
 - [acxevents.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE

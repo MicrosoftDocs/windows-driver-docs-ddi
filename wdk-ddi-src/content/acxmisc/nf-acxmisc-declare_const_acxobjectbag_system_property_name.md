@@ -63,7 +63,3 @@ This example shows the definition of DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_
 ## -see-also
 
 - [acxmisc.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

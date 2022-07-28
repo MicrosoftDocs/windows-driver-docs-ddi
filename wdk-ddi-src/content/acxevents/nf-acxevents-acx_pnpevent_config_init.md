@@ -66,7 +66,3 @@ The example shows the use of the ACX_PNPEVENT_CONFIG_INIT.
 ## -see-also
 
 - [acxevents.h header](index.md)
-
-READY2GO
-
-EDITCOMPLETE

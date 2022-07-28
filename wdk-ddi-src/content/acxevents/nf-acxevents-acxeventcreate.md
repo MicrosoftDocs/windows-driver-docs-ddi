@@ -106,6 +106,3 @@ This example code snip, shows how ACX uses AcxEventCreate to create an audio jac
 
 - [acxevents.h header](index.md)
 
-READY2GO
-
-EDITCOMPLETE
