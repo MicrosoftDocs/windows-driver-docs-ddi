@@ -56,9 +56,11 @@ The ID to use when initializing the **ACX_JACK_CONFIG** structure.
 
 ## -remarks
 
+At this time, driver must use AcxJackPropertiesIdDefault as ID for the Jack.
+
 ## -see-also
 
 - [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md)
 - [acxpin.h header](index.md)
 
-TBD - Please review this topic
+READY2GO

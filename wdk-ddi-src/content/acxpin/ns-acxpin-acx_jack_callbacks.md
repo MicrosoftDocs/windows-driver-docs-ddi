@@ -62,4 +62,4 @@ A pointer to the callback function that determines if the jack is present on the
 
 - [acxpin.h header](index.md)
 
-TBD - Please review this topic
+READY2GO
