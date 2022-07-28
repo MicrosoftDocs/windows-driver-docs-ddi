@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_RELEASE_HARDWARE
 tech.root: audio
 title: EVT_ACX_STREAM_RELEASE_HARDWARE
-ms.date: 06/22/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The EvtAcxStreamReleaseHardware event tells the driver to release any hardware allocated for the stream and put the stream into the Stop state.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EvtAcxStreamReleaseHardware event tells the driver to release any hardware allocated for the stream and put the stream into the Stop state. 
+The **EvtAcxStreamReleaseHardware** event tells the driver to release any hardware allocated for the stream and put the stream into the Stop state. 
 
 ## -parameters
 

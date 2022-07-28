@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_PAUSE
 tech.root: audio
 title: EVT_ACX_STREAM_PAUSE
-ms.date: 01/25/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The EvtAcxStreamPause event tells the driver to transition the stream state from Run to Pause.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EvtAcxStreamPause event tells the driver to transition the stream state from Run to Pause.
+The **EvtAcxStreamPause** event tells the driver to transition the stream state from Run to Pause.
 
 ## -parameters
 

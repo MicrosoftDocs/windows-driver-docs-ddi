@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxDrmDestroyContent
 tech.root: audio
 title: AcxDrmDestroyContent
-ms.date: 06/23/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxDrmDestroyContent function deletes a DRM content ID that was created by AcxDrmCreateContentMixed.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxDrmDestroyContent function deletes a DRM content ID that was created by [AcxDrmCreateContentMixed](nf-acxstreams-acxdrmcreatecontentmixed.md).
+The **AcxDrmDestroyContent** function deletes a DRM content ID that was created by [AcxDrmCreateContentMixed](nf-acxstreams-acxdrmcreatecontentmixed.md).
 
 ## -parameters
 
@@ -59,5 +59,3 @@ AcxDrmDestroyContentMixed returns STATUS_SUCCESS if the call was successful. Oth
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

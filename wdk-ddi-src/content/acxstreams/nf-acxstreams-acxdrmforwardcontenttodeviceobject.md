@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxDrmForwardContentToDeviceObject
 tech.root: audio
 title: AcxDrmForwardContentToDeviceObject
-ms.date: 07/01/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxDrmForwardContentToDeviceObject function accepts a device object representing a device to which the caller intends to forward protected content.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxDrmForwardContentToDeviceObject function accepts a device object representing a device to which the caller intends to forward protected content. The function authenticates the device and sends it the content ID and DRM rights that the system has assigned to the protected content.
+The **AcxDrmForwardContentToDeviceObject** function accepts a device object representing a device to which the caller intends to forward protected content. The function authenticates the device and sends it the content ID and DRM rights that the system has assigned to the protected content.
 
 ## -parameters
 
@@ -68,5 +68,3 @@ AcxDrmForwardContentToDeviceObject returns STATUS_SUCCESS if the call was succes
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

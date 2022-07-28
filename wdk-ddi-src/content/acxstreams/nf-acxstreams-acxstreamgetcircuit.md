@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamGetCircuit
 tech.root: audio
 title: AcxStreamGetCircuit
-ms.date: 07/12/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxStreamGetCircuit function returns the ACXCIRCUIT Object associated with the stream.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamGetCircuit function returns the ACXCIRCUIT Object associated with the stream. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The **AcxStreamGetCircuit** function returns the ACXCIRCUIT Object associated with the stream. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
@@ -67,5 +67,3 @@ Example usage is shown below.
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

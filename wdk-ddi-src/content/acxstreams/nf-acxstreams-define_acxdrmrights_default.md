@@ -2,7 +2,7 @@
 UID: NF:acxstreams.DEFINE_ACXDRMRIGHTS_DEFAULT
 tech.root: audio
 title: DEFINE_ACXDRMRIGHTS_DEFAULT
-ms.date: 07/09/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: This macro provides the default DRM rights
 prerelease: true
@@ -60,5 +60,3 @@ Specifies the DRM content rights that are assigned to the stream that is identif
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

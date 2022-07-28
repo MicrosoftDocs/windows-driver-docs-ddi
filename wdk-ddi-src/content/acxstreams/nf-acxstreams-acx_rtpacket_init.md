@@ -2,7 +2,7 @@
 UID: NF:acxstreams.ACX_RTPACKET_INIT
 tech.root: audio
 title: ACX_RTPACKET_INIT
-ms.date: 07/21/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: ACX_RTPACKET_INIT initializes the ACX RT packet structure. This function is located in the acxstreams header.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The ACX_RTPACKET_INIT initializes the ACX RT packet structure.
+The **ACX_RTPACKET_INIT** function initializes the ACX RT packet structure.
 
 ## -parameters
 
@@ -66,5 +66,3 @@ An [ACX_RTPACKET](ns-acxstreams-acx_rtpacket.md) structure.
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

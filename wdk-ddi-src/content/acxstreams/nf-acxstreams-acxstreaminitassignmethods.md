@@ -2,13 +2,9 @@
 UID: NF:acxstreams.AcxStreamInitAssignMethods
 tech.root: audio
 title: AcxStreamInitAssignMethods
-ms.date: 07/13/2021
+ms.date: 07/28/2022
 targetos: Windows
-<<<<<<< HEAD
 description: The AcxStreamInitAssignMethods function assigns an array of methods to a stream using the ACXSTREAM_INIT object.
-=======
-description: The AcxStreamInitAssignMethods function assigns an array of methods to a stream, device and circuit using an ACXSTREAM_INIT object.
->>>>>>> e350f6ef4028cc41d4aa7b14ca5382c9402e1b85
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -46,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamInitAssignMethods function assigns an array of methods to a stream using the *ACXSTREAM_INIT* object.
+The **AcxStreamInitAssignMethods** function assigns an array of methods to a stream using the *ACXSTREAM_INIT* object.
 
 ## -parameters
 
@@ -96,5 +92,3 @@ Example usage is shown below.
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

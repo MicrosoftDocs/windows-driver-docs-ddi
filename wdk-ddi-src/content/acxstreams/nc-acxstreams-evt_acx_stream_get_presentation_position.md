@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_GET_PRESENTATION_POSITION
 tech.root: audio
 title: EVT_ACX_STREAM_GET_PRESENTATION_POSITION
-ms.date: 01/25/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The EvtAcxStreamGetPresentationPosition tells the driver to indicate the current position along with the QPC value at the time the current position was calculated. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EvtAcxStreamGetPresentationPosition tells the driver to indicate the current position along with the QPC value at the time the current position was calculated. 
+**EvtAcxStreamGetPresentationPosition** tells the driver to indicate the current position along with the QPC value at the time the current position was calculated. 
 
 ## -parameters
 

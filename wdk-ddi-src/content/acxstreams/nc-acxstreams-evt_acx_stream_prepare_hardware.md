@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_PREPARE_HARDWARE
 tech.root: audio
 title: EVT_ACX_STREAM_PREPARE_HARDWARE
-ms.date: 06/22/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The EvtAcxStreamPrepareHardware event tells the driver to prepare the hardware for streaming.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EvtAcxStreamPrepareHardware event tells the driver to prepare the hardware for streaming. 
+The **EvtAcxStreamPrepareHardware** event tells the driver to prepare the hardware for streaming. 
 
 ## -parameters
 

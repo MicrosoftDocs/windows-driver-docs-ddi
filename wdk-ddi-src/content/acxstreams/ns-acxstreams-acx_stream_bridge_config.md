@@ -2,7 +2,7 @@
 UID: NS:acxstreams._ACX_STREAM_BRIDGE_CONFIG
 tech.root: audio
 title: ACX_STREAM_BRIDGE_CONFIG
-ms.date: 07/21/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxStreamBridge structure is used by a circuit to propagate stream creation, states transitions and DRM settings between the endpoints circuit stream segments.
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamBridge structure is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments. 
+The **AcxStreamBridge** structure is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments. 
 
 ## -struct-fields
 

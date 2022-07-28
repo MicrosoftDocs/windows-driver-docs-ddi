@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxDrmGetContentRights
 tech.root: audio
 title: AcxDrmGetContentRights
-ms.date: 07/01/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxDrmGetContentRights function retrieves the DRM content rights assigned to a DRM content ID.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxDrmGetContentRights function retrieves the DRM content rights assigned to a DRM content ID.
+The **AcxDrmGetContentRights** function retrieves the DRM content rights assigned to a DRM content ID.
 
 ## -parameters
 
@@ -63,5 +63,3 @@ AcxDrmGetContentRights returns STATUS_SUCCESS if the call was successful. Otherw
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

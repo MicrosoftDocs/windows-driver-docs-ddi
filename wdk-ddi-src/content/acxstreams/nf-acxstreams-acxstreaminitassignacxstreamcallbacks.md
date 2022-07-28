@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamInitAssignAcxStreamCallbacks
 tech.root: audio
 title: AcxStreamInitAssignAcxStreamCallbacks
-ms.date: 07/14/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxStreamInitAssignAcxStreamCallbacks function sets the callbacks using an an ACX_STREAM_CALLBACKS structure and a ACXSTREAM_INIT object.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamInitAssignAcxStreamCallbacks function sets the callbacks using an an [ACX_STREAM_CALLBACKS structure](ns-acxstreams-acx_stream_callbacks.md) and a ACXSTREAM_INIT object.  For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The **AcxStreamInitAssignAcxStreamCallbacks** function sets the callbacks using an an [ACX_STREAM_CALLBACKS structure](ns-acxstreams-acx_stream_callbacks.md) and a ACXSTREAM_INIT object.  For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
@@ -84,9 +84,6 @@ Example usage is shown below.
     status = AcxStreamInitAssignAcxStreamCallbacks(StreamInit, &streamCallbacks);
 ```
 
-
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

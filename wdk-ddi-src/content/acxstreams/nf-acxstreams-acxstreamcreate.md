@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamCreate
 tech.root: audio
 title: AcxStreamCreate
-ms.date: 02/10/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: AcxStreamCreate creates an ACX Stream that is used to control streaming behavior.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-AcxStreamCreate creates an ACX Stream that can be used to control streaming behavior.
+**AcxStreamCreate** creates an ACX Stream that can be used to control streaming behavior.
 
 ## -parameters
 

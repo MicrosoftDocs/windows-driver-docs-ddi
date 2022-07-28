@@ -2,7 +2,7 @@
 UID: NE:acxstreams._ACX_STREAM_BRIDGE_CONFIG_FLAGS
 tech.root:
 title: ACX_STREAM_BRIDGE_CONFIG_FLAGS
-ms.date: 01/25/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_STREAM_BRIDGE_CONFIG_FLAGS enumeration describes the Acx Stream Bridge config flags.
 prerelease: true
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_STREAM_BRIDGE_CONFIG_FLAGS enumeration describes the Acx Stream Bridge config flags.
+The **ACX_STREAM_BRIDGE_CONFIG_FLAGS** enumeration describes the Acx Stream Bridge config flags.
 
 ## -enum-fields
 

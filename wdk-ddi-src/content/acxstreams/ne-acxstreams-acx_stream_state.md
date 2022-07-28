@@ -2,9 +2,9 @@
 UID: NE:acxstreams._ACX_STREAM_STATE
 tech.root: audio
 title: ACX_STREAM_STATE
-ms.date: 02/02/2022
+ms.date: 07/28/2022
 targetos: Windows
-description: Describes the Acx Stream State flags.
+description: ACX_STREAM_STATE describes the Acx Stream State flags. This function is located in the acxstreams header.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-Describes the Acx Stream State flags.
+**ACX_STREAM_STATE** describes the Acx Stream State flags.
 
 ## -enum-fields
 
@@ -72,15 +72,16 @@ An AcxStream support different states. These states indicate when audio is flowi
 Once the stream is created and the appropriate buffers are allocated, the stream is in the Pause state awaiting stream start. When the client puts the stream into Play state, the ACX framework will call all circuits associated with the stream to indicate the stream state is in Play. The ACXPIN will then be placed in the Play state, at which point data will start flowing.
 
 Once the stream is created and the resources are allocated, the application will call Start on the stream to start playback.
+
 The client starts by pre-rolling a buffer. When the client calls ReleaseBuffer, this will translate to a call in AudioKSE that will call into the ACX layer, which will call EvtAcxStreamSetRenderPacket on the active ACXSTREAM. The property will include the packet index (0-based) and, if appropriate, an EOS flag with the byte offset of the end of the stream in the current packet.
 
 During ACX device power down and removal, if streams are present, ACX SetState callbacks are invoked to transition all circuit’s streams to Pause. This is Stream Instance scoped.
 
-After AcxStreamCreate, the AcxStream is in the AcxStreamStateStop state.
-After EvtAcxStreamPrepareHardware returns successfully the AcxStream will be in the AcxStreamStatePause state.
-After EvtAcxStreamRun returns successfully the AcxStream will be in the AcxStreamStateRun state.
-After EvtAcxStreamPause returns the AcxStream will be in the AcxStreamStatePause state.
-After EvtAcxReleaseHardware returns the AcxStream will be in the AcxStreamStop state.
+- After AcxStreamCreate, the AcxStream is in the AcxStreamStateStop state.
+- After EvtAcxStreamPrepareHardware returns successfully the AcxStream will be in the AcxStreamStatePause state.
+- After EvtAcxStreamRun returns successfully the AcxStream will be in the AcxStreamStateRun state.
+- After EvtAcxStreamPause returns the AcxStream will be in the AcxStreamStatePause state.
+- After EvtAcxReleaseHardware returns the AcxStream will be in the AcxStreamStop state.
 
 ### Example
 
@@ -100,4 +101,3 @@ Example usage is shown below.
 
 - [acxstreams.h header](index.md)
 
-READY2GO

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EvtAcxStreamGetHwLatency event tells the driver to provide stream latency for the specific circuit of this stream (overall latency will be a sum of the latency of the different circuits).
+The **EvtAcxStreamGetHwLatency** event tells the driver to provide stream latency for the specific circuit of this stream (overall latency will be a sum of the latency of the different circuits).
 
 ## -parameters
 

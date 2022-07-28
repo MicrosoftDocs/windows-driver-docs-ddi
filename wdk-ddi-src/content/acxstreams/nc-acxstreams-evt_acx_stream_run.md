@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EvtAcxStreamRun event tells the driver to transition the stream state from Pause to Run.
+The **EvtAcxStreamRun** event tells the driver to transition the stream state from Pause to Run.
 
 ## -parameters
 

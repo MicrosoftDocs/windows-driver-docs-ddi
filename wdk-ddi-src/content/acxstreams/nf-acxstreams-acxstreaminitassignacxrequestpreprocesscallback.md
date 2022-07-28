@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamInitAssignAcxRequestPreprocessCallback
 tech.root: audio
 title: AcxStreamInitAssignAcxRequestPreprocessCallback
-ms.date: 04/28/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxStreamInitAssignAcxRequestPreprocessCallback function assigns an  AcxRequestPreprocessCallback to a stream. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamInitAssignAcxRequestPreprocessCallback function assigns an AcxRequestPreprocessCallback to a stream.
+The **AcxStreamInitAssignAcxRequestPreprocessCallback** function assigns an AcxRequestPreprocessCallback to a stream.
 
 ## -parameters
 
@@ -110,12 +110,9 @@ Example usage is shown below.
                                             AcxRequestTypeProperty,
                                             &KSPROPSETID_RtAudio, 
                                             AcxItemIdAny);
-
-
 ```
 
 ## -see-also
 
 - [acxstreams.h header](index.md)
 
-READY2GO

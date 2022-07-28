@@ -2,13 +2,9 @@
 UID: NF:acxstreams.AcxStreamAddEvents
 tech.root: audio
 title: AcxStreamAddEvents
-ms.date: 02/02/2022
+ms.date: 07/28/2022
 targetos: Windows
-<<<<<<< HEAD
-description: AcxStreamAddEvents adds events to a new or existing stream using ACXEVENT objects. 
-=======
 description: AcxStreamAddEvents adds events to a stream using an an ACXEVENT object. 
->>>>>>> e350f6ef4028cc41d4aa7b14ca5382c9402e1b85
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -46,11 +42,7 @@ dev_langs:
 
 ## -description
 
-<<<<<<< HEAD
-AcxStreamAddEvents adds events to a new or existing stream using ACXEVENT objects. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
-=======
-AcxStreamAddEvents adds events to an existing stream using an ACXEVENT object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
->>>>>>> e350f6ef4028cc41d4aa7b14ca5382c9402e1b85
+**AcxStreamAddEvents** adds events to an existing stream using an ACXEVENT object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
@@ -86,4 +78,3 @@ Example usage is shown below.
 
 - [acxstreams.h header](index.md)
 
-READY2GO

@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamBridgeCreate
 tech.root: audio
 title: AcxStreamBridgeCreate
-ms.date: 07/21/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxStreamBridgeCreate function uses a stream configuration to create a StreamBridge for a circuit.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamBridgeCreate function uses a ACX_STREAM_BRIDGE_CONFIG to create a StreamBridge for a circuit.
+The **AcxStreamBridgeCreate** function uses a ACX_STREAM_BRIDGE_CONFIG to create a StreamBridge for a circuit.
 
 An ACXSTREAMBRIDGE is used by a circuit to propagate a stream creation, stream’s states transitions and DRM settings between the endpoint's circuit stream segments. This object is only used in a multi-circuit (audio composite) scenario.
 

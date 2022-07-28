@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxDrmCreateContentMixed
 tech.root: audio
 title: AcxDrmCreateContentMixed
-ms.date:  06/16/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxCreateContentMixed function creates a DRM content ID to identify an ACX audio stream containing mixed content from a number of streams
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxCreateContentMixed function creates a DRM content ID to identify an ACX audio stream containing mixed content from a number of streams
+The **AcxCreateContentMixed** function creates a DRM content ID to identify an ACX audio stream containing mixed content from a number of streams
 
 ## -parameters
 
@@ -68,5 +68,3 @@ AcxDrmCreateContentMixed returns STATUS_SUCCESS if the call was successful. Othe
 
 - [AcxDrmDestroyContent](nf-acxstreams-acxdrmdestroycontent.md)
 - [acxstreams.h header](index.md)
-
-READY2GO

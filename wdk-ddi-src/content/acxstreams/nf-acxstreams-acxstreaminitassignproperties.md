@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamInitAssignProperties
 tech.root: audio
 title: AcxStreamInitAssignProperties
-ms.date: 02/02/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxStreamInitAssignProperties function assigns an array of properties to a stream using an ACXSTREAM_INIT object.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamInitAssignProperties function assigns an array of properties to a stream using an *ACXSTREAM_INIT* object.
+The **AcxStreamInitAssignProperties** function assigns an array of properties to a stream using an *ACXSTREAM_INIT* object.
 
 ## -parameters
 
@@ -92,7 +92,6 @@ Example usage is shown below.
 
 ## -see-also
 
-[acxstreams.h header](index.md)
-[ACX_PROPERTY_ITEM](..\acxrequest\ns-acxrequest-acx_property_item.md)
+- [acxstreams.h header](index.md)
+- [ACX_PROPERTY_ITEM](..\acxrequest\ns-acxrequest-acx_property_item.md)
 
-READY2GO

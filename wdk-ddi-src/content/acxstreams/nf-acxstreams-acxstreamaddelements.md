@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-AcxStreamAddElements is used to add stream elements to an AcxStream.
+**AcxStreamAddElements** is used to add stream elements to an AcxStream.
 
 ## -parameters
 
@@ -92,5 +92,3 @@ Example usage is shown below.
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamBridgeRemoveStream
 tech.root: audio
 title: AcxStreamBridgeRemoveStream
-ms.date: 07/21/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxStreamBridgeRemoveStream function removes the specified stream from the the associated ACXSTREAMBRIDGE object. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamBridgeRemoveStream function removes the specified ACXSTREAM from the ACXSTREAMBRIDGE object . For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The **AcxStreamBridgeRemoveStream** function removes the specified ACXSTREAM from the ACXSTREAMBRIDGE object . For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 

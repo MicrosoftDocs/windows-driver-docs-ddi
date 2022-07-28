@@ -2,7 +2,7 @@
 UID: NS:acxstreams._ACX_RTPACKET
 tech.root: audio
 title: ACX_RTPACKET
-ms.date: 07/07/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_RTPACKET structure represents a single allocated packet. The PacketBuffer must be an MDL.
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_RTPACKET structure represents a single allocated packet. The PacketBuffer must be a Memory Descriptor List (MDL).  
+The **ACX_RTPACKET** structure represents a single allocated packet. The PacketBuffer must be a Memory Descriptor List (MDL).  
 
 ## -struct-fields
 
@@ -68,13 +68,11 @@ The size in bytes of the allocated packet.
 
 ## -remarks
 
-The ACX framework currenlty only supports WdfMemoryDescriptorTypeMdl packet buffers.
+The ACX framework currently only supports WdfMemoryDescriptorTypeMdl packet buffers.
 
-See documentation for [EVT_ACX_STREAM_ALLOCATE_RTPACKETS](nc-acxstreams-evt_acx_stream_allocate_rtpackets.md) for details on allocating ACX_RTPACKET structures.
+See [EVT_ACX_STREAM_ALLOCATE_RTPACKETS](nc-acxstreams-evt_acx_stream_allocate_rtpackets.md) for details on allocating ACX_RTPACKET structures.
 
 ## -see-also
 
-[acxstreams.h header](index.md)
-[EVT_ACX_STREAM_ALLOCATE_RTPACKETS](nc-acxstreams-evt_acx_stream_allocate_rtpackets.md)
-
-READY2GO
+- [acxstreams.h header](index.md)
+- [EVT_ACX_STREAM_ALLOCATE_RTPACKETS](nc-acxstreams-evt_acx_stream_allocate_rtpackets.md)

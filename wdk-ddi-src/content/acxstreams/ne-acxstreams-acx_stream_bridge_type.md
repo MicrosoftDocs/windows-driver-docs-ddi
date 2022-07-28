@@ -2,7 +2,7 @@
 UID: NE:acxstreams._ACX_STREAM_BRIDGE_TYPE
 tech.root: audio
 title: ACX_STREAM_BRIDGE_TYPE
-ms.date: 07/16/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_STREAM_BRIDGE_TYPE enumeration describes the Acx Stream Bridge Type.
 prerelease: true
@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The ACX_STREAM_BRIDGE_TYPE enumeration describes the Acx Stream Bridge Type.
+The **ACX_STREAM_BRIDGE_TYPE** enumeration describes the Acx Stream Bridge Type.
 
 ## -enum-fields
 

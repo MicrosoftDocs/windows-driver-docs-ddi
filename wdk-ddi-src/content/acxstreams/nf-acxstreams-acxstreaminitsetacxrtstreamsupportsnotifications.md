@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamInitSetAcxRtStreamSupportsNotifications
 tech.root: audio
 title: AcxStreamInitSetAcxRtStreamSupportsNotifications
-ms.date:  06/16/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxStreamInitSetAcxRtStreamSupportsNotifications function is used to indicate that buffer notifications are supported.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamInitSetAcxRtStreamSupportsNotifications function is used to indicate that buffer notifications are supported.
+The **AcxStreamInitSetAcxRtStreamSupportsNotifications** function is used to indicate that buffer notifications are supported.
 
 ## -parameters
 
@@ -71,5 +71,3 @@ Example usage is shown below.
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxRtStreamNotifyPacketComplete
 tech.root: audio
 title: AcxRtStreamNotifyPacketComplete
-ms.date: 07/09/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The driver calls AcxRtStreamNotifyPacketComplete when a packet has completed. 
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The driver calls AcxRtStreamNotifyPacketComplete when a packet has completed. The packet completion time and the 0-based Packet index are included to improve client performance. The ACX framework will set any notification events associated with the stream.
+The driver calls **AcxRtStreamNotifyPacketComplete** when a packet has completed. The packet completion time and the 0-based Packet index are included to improve client performance. The ACX framework will set any notification events associated with the stream.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ A 0-based Packet index indicating the packet that was just completed.
 
 ### -param QPCCompletion
 
-The packet completion time, as returned by KeQueryPerformanceCounter. This value should be as close as possible to the actual hardware completion (for example, the driver can call KeQueryPerformanceCounter from in its Interrupt Service Routine).
+The packet completion time, as returned by [KeQueryPerformanceCounter](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kequeryperformancecounter). This value should be as close as possible to the actual hardware completion (for example, the driver can call KeQueryPerformanceCounter from in its Interrupt Service Routine).
 
 ## -returns
 
@@ -83,5 +83,3 @@ InterlockedExchange64(&m_CurrentPacketStart.QuadPart, QPC.QuadPart);
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

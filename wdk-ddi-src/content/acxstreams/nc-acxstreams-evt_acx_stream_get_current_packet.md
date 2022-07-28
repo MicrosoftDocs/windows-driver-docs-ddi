@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-EvtAcxStreamGetCurrentPacket tells the driver to indicate which packet (0-based) is currently being rendered to the hardware or is currently being filled by the capture hardware. 
+**EvtAcxStreamGetCurrentPacket** tells the driver to indicate which packet (0-based) is currently being rendered to the hardware or is currently being filled by the capture hardware. 
 
 ## -parameters
 

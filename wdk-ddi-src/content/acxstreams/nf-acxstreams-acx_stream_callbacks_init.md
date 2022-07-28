@@ -2,7 +2,7 @@
 UID: NF:acxstreams.ACX_STREAM_CALLBACKS_INIT
 tech.root: audio
 title: ACX_STREAM_CALLBACKS_INIT
-ms.date:  06/16/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_STREAM_CALLBACKS_INIT function initializes the ACX stream callbacks.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The ACX_STREAM_CALLBACKS_INIT function initializes the ACX stream callbacks.
+The **ACX_STREAM_CALLBACKS_INIT** function initializes the ACX stream callbacks.
 
 ## -parameters
 
@@ -77,5 +77,3 @@ A [ACX_STREAM_CALLBACKS](ns-acxstreams-acx_stream_callbacks.md) structure.
 
 - [AcxStreamInitAssignAcxStreamCallbacks](nf-acxstreams-acxstreaminitassignacxstreamcallbacks.md)
 - [acxstreams.h header](index.md)
-
-READY2GO

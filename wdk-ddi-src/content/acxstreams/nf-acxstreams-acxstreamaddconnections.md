@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamAddConnections
 tech.root: audio
 title: AcxStreamAddConnections
-ms.date: 02/02/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxStreamAddConnections function adds explicit connections to a new ACX stream during EvtAcxCircuitCreateStream
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamAddConnections function adds explicit connections to a new ACX stream during [EvtAcxCircuitCreateStream](..\acxcircuit\nc-acxcircuit-evt_acx_circuit_create_stream.md)
+The **AcxStreamAddConnections** function adds explicit connections to a new ACX stream during [EvtAcxCircuitCreateStream](..\acxcircuit\nc-acxcircuit-evt_acx_circuit_create_stream.md)
 
 ## -parameters
 
@@ -97,4 +97,3 @@ Example usage is shown below.
 
 - [acxstreams.h header](index.md)
 
-READY2GO

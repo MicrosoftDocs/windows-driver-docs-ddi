@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamDispatchAcxRequest
 tech.root: audio
 title: AcxStreamDispatchAcxRequest
-ms.date: 07/12/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxStreamDispatchAcxRequest dispatches an ACX request using a WDFREQUEST framework request object.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamDispatchAcxRequest dispatches an ACX request using a WDFREQUEST framework request object. AcxStreamDispatchAcxRequest is called within the context of an [EVT_ACX_OBJECT_PREPROCESS_REQUEST](../acxrequest/nc-acxrequest-evt_acx_object_preprocess_request.md) event handler registered through [AcxStreamInitAssignAcxRequestPreprocessCallback](nf-acxstreams-acxstreaminitassignacxrequestpreprocesscallback.md) to indicate the request should be handled by the ACX framework.
+The **AcxStreamDispatchAcxRequest** dispatches an ACX request using a WDFREQUEST framework request object. AcxStreamDispatchAcxRequest is called within the context of an [EVT_ACX_OBJECT_PREPROCESS_REQUEST](../acxrequest/nc-acxrequest-evt_acx_object_preprocess_request.md) event handler registered through [AcxStreamInitAssignAcxRequestPreprocessCallback](nf-acxstreams-acxstreaminitassignacxrequestpreprocesscallback.md) to indicate the request should be handled by the ACX framework.
 
 ## -parameters
 
@@ -92,5 +92,3 @@ Routine Description:
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

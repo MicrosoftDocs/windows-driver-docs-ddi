@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxDrmAddContentHandlers
 tech.root: audio
 title: AcxDrmAddContentHandlers
-ms.date:  06/16/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxDrmAddContentHandlers function provides the system with a list of functions that handle protected content.
 prerelease: false
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxDrmAddContentHandlers function provides the system with a list of functions that handle protected content.
+The **AcxDrmAddContentHandlers** function provides the system with a list of functions that handle protected content.
 
 ## -parameters
 
@@ -68,5 +68,3 @@ AcxDrmAddContentHandlers returns STATUS_SUCCESS if the call was successful. Othe
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

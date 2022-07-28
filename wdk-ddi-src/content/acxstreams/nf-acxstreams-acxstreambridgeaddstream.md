@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamBridgeAddStream
 tech.root: audio
 title: AcxStreamBridgeAddStream
-ms.date: 07/21/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxStreamBridgeAddStream function adds an existing stream to an existing bridge. This function is located in the acxstream header.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamBridgeAddStream function adds an existing ACXSTREAM to an existing ACXSTREAMBRIDGE.  For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The **AcxStreamBridgeAddStream** function adds an existing ACXSTREAM to an existing ACXSTREAMBRIDGE.  For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 

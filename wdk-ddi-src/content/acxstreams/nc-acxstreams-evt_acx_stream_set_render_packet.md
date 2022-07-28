@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_SET_RENDER_PACKET
 tech.root: audio
 title: EVT_ACX_STREAM_SET_RENDER_PACKET
-ms.date: 02/10/2022
+ms.date: 07/28/2022
 targetos: Windows
 description: The EvtAcxStreamSetRenderPacket event tells the driver which packet was just released by the client.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EvtAcxStreamSetRenderPacket event tells the driver which packet was just released by the client. 
+The **EvtAcxStreamSetRenderPacket** event tells the driver which packet was just released by the client. 
 
 If there are no glitches, this packet should be (CurrentRenderPacket + 1), where CurrentRenderPacket is the packet the driver is currently streaming from. The driver should continue to increase the CurrentRenderPacket as packets are rendered instead of changing its CurrentRenderPacket to match this value. The property will include the packet index (0-based) and, if appropriate, an EOS flag with the byte offset of the end of the stream in the current packet.  
 

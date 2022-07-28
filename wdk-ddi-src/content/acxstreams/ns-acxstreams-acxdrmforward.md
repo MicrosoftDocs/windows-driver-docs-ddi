@@ -2,7 +2,7 @@
 UID: NS:acxstreams._ACXDRMFORWARD
 tech.root: audio
 title: ACXDRMFORWARD
-ms.date:  06/16/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The ACXDRMFORWARD structure contains the information that the DRM system driver needs in order to forward a DRM content ID to a device that handles protected content.
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACXDRMFORWARD structure contains the information that the DRM system driver needs in order to forward a DRM content ID to a device that handles protected content.
+The **ACXDRMFORWARD** structure contains the information that the DRM system driver needs in order to forward a DRM content ID to a device that handles protected content.
 
 ## -struct-fields
 
@@ -69,5 +69,3 @@ Pointer to context data.
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

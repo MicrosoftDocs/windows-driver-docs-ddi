@@ -2,7 +2,7 @@
 UID: NS:acxstreams._ACX_STREAM_CALLBACKS
 tech.root: audio
 title: ACX_STREAM_CALLBACKS
-ms.date: 06/23/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_STREAM_CALLBACKS structure identifies the driver callbacks for streaming to the ACX framework. 
 prerelease: true
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The ACX_STREAM_CALLBACKS structure identifies the driver callbacks for streaming to the ACX framework. This structure is a part of the [ACX_PIN_CONFIG structure](/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_pin_config.md).
+The **ACX_STREAM_CALLBACKS** structure identifies the driver callbacks for streaming to the ACX framework. This structure is a part of the [ACX_PIN_CONFIG structure](/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_pin_config.md).
 
 ## -struct-fields
 
@@ -78,7 +78,6 @@ For RT streaming, the driver will also define and use the [ACX_RT_STREAM_CALLBAC
 
 ## -see-also
 
-[acxstreams.h header](index.md)
-[AcxStreamInitAssignAcxStreamCallbacks](nf-acxstreams-acxstreaminitassignacxstreamcallbacks.md)
+- [acxstreams.h header](index.md)
+- [AcxStreamInitAssignAcxStreamCallbacks](nf-acxstreams-acxstreaminitassignacxstreamcallbacks.md)
 
-READY2GO

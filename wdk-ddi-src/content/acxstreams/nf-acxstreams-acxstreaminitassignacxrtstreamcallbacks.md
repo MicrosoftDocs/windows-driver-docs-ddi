@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamInitAssignAcxRtStreamCallbacks
 tech.root: audio
 title: AcxStreamInitAssignAcxRtStreamCallbacks
-ms.date: 07/13/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxStreamInitAssignAcxRtStreamCallbacks function sets the RT callbacks using an  ACXSTREAM_INIT object.
 prerelease: true
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxStreamInitAssignAcxRtStreamCallbacks function sets the RT callbacks using an ACXSTREAM_INIT object and a [ACX_RT_STREAM_CALLBACKS structure](ns-acxstreams-acx_rt_stream_callbacks.md). For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The **AcxStreamInitAssignAcxRtStreamCallbacks** function sets the RT callbacks using an ACXSTREAM_INIT object and a [ACX_RT_STREAM_CALLBACKS structure](ns-acxstreams-acx_rt_stream_callbacks.md). For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
@@ -85,5 +85,3 @@ Example usage is shown below.
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

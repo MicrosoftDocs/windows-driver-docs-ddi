@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamBridgeGetTargetStream
 tech.root: audio
 title: AcxStreamBridgeGetTargetStream
-ms.date: 07/12/2021
+ms.date: 07/28/2022
 targetos: Windows
 description: The AcxStreamBridgeGetTargetStream function gets the stream associated with a specific ACXSTREAMBRIDGE object. 
 prerelease: true
@@ -42,19 +42,17 @@ dev_langs:
 
 ## -description
 
-The AcxStreamBridgeGetTargetStream function gets the ACXTARGETSTREAM object associated with the input ACXSTREAM object on the specified ACXSTREAMBRIDGE object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+The **AcxStreamBridgeGetTargetStream** function gets the ACXTARGETSTREAM object associated with the input ACXSTREAM object on the specified ACXSTREAMBRIDGE object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
 
 ## -parameters
 
 ### -param Bridge
 
-An [ACXSTREAMBRIDGE] object handle.
+An ACXSTREAMBRIDGE object handle.
 
 ### -param Stream
 
-An [ACXSTREAM] object handle.
-
-An ACXSTREAM object represents an audio stream created by a circuit. 
+An ACXSTREAM object handle. An ACXSTREAM object represents an audio stream created by a circuit. 
 
 ## -returns
 
@@ -83,5 +81,3 @@ Example usage is shown below.
 ## -see-also
 
 - [acxstreams.h header](index.md)
-
-READY2GO

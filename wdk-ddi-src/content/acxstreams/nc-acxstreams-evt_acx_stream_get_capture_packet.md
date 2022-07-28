@@ -2,9 +2,9 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_GET_CAPTURE_PACKET
 tech.root: audio
 title: EVT_ACX_STREAM_GET_CAPTURE_PACKET
-ms.date: 01/25/2022
+ms.date: 07/28/2022
 targetos: Windows
-description: The EvtAcxStreamGetCapturePacket tells the driver to indicate which packet (0-based) was completely filled most recently, including the QPC value at the time the driver started filling the packet. 
+description: EvtAcxStreamGetCapturePacket tells the driver to indicate which packet (0-based) was completely filled most recently, including the QPC value at the time the driver started filling the packet. 
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The EvtAcxStreamGetCapturePacket tells the driver to indicate which packet (0-based) was completely filled most recently, including the QPC value at the time the driver started filling the packet. 
+**EvtAcxStreamGetCapturePacket** tells the driver to indicate which packet (0-based) was completely filled most recently, including the QPC value at the time the driver started filling the packet. 
 
 ## -parameters
 
@@ -107,7 +107,6 @@ CodecC_EvtStreamGetCapturePacket(
 
     return STATUS_SUCCESS;
 }
-
 ```
 
 ## -see-also
