@@ -2,7 +2,7 @@
 UID: NS:d3d10umddi.D3DWDDM2_1DDI_DEVICEFUNCS
 tech.root: display
 title: D3DWDDM2_1DDI_DEVICEFUNCS
-ms.date: 05/25/2022
+ms.date: 07/29/2022
 targetos: Windows
 description: Learn more about the D3DWDDM2_1DDI_DEVICEFUNCS structure.
 prerelease: false
@@ -40,7 +40,7 @@ helpviewer_keywords:
 
 ## -description
 
-This structure contains the user mode device function table for Windows Display Driver Model (WDDM) 2.1.
+This structure contains the user mode device function table for Windows Display Driver Model (WDDM) 2.1. In general, unless a function is commented as optional in *d3d10umdd.h* (or optional under certain conditions), a driver must implement it.
 
 ## -struct-fields
 
