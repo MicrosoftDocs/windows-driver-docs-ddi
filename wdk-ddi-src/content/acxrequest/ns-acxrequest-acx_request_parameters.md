@@ -69,11 +69,11 @@ The size of the structure in bytes.
 
 ### -field MajorFunction
 
-The WDF IRP major function that is used for this request, for example IRP_MJ_DEVICE_CONTROL or IRP_MJ_PNP. For more information about WDF IRP, see [IRP Major Function Codes](/windows-hardware/drivers/kernel/irp-major-function-codes).
+The WDF IRP major function that is used for this request, for example IRP_MJ_DEVICE_CONTROL. For more information about WDF IRP, see [IRP Major Function Codes](/windows-hardware/drivers/kernel/irp-major-function-codes).
 
 ### -field MinorFunction
 
-The WDF IRP minor function that is used for this request, for example IRP_MN_QUERY_CAPABILITIES. For more information about the Minor Function refer to the associated withe major IRP, for example [Plug and Play Minor IRPs](/windows-hardware/drivers/kernel/plug-and-play-minor-irps), [Power Management Minor IRPs](/windows-hardware/drivers/kernel/power-management-minor-irps) and [WMI Minor IRPs](/windows-hardware/drivers/kernel/wmi-minor-irps).
+The WDF IRP minor function that is used for this request. For more information about the Minor Function refer to the associated withe major IRP, for example [Plug and Play Minor IRPs](/windows-hardware/drivers/kernel/plug-and-play-minor-irps), [Power Management Minor IRPs](/windows-hardware/drivers/kernel/power-management-minor-irps) and [WMI Minor IRPs](/windows-hardware/drivers/kernel/wmi-minor-irps).
 
 ### -field Type
 
@@ -99,7 +99,7 @@ An [ACX_PROPERTY_VERB](ne-acxrequest-acx_property_verb.md) enumeration that desc
 
 ### -field Parameters.Property.ItemType
 
-An [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) enumeration that describes the item being sent.
+An [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) enumeration that describes the ACX item type being the target of this request.
 
 ### -field Parameters.Property.ItemId
 
@@ -107,7 +107,7 @@ The Item ID.
 
 ### -field Parameters.Property.Control
 
-A pointer to system service parameters that are used to control creation of the ACX request.
+A pointer to system service parameters that are used as additional input parameters for the ACX request.
 
 ### -field Parameters.Property.ControlCb
 
@@ -139,7 +139,7 @@ An [ACX_METHOD_VERB](ne-acxrequest-acx_method_verb.md) enumeration that describe
 
 ### -field Parameters.Method.ItemType
 
-An [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) enumeration that describes the item being sent.
+An [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) enumeration that describes the ACX item type being the target of this request.
 
 ### -field Parameters.Method.ItemId
 
@@ -179,7 +179,7 @@ An [ACX_EVENT_VERB](ne-acxrequest-acx_event_verb.md) enumeration that describes 
 
 ### -field Parameters.Event.ItemType
 
-An [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) enumeration that describes the item being sent.
+An [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) enumeration that describes the ACX item type being the target of this request.
 
 ### -field Parameters.Event.ItemId
 
@@ -203,13 +203,15 @@ The structure that contains the create parameters that are being used for the AC
 
 ### -field Parameters.Create.Control
 
-A pointer to system service parameters that are used to control creation of the ACX request.
+A pointer to system service parameters that are used as additional input parameters for the ACX request.
 
 ### -field Parameters.Create.ControlCb
 
 The count in bytes (size) of the Create.Control buffer.
 
 ## -remarks
+
+Driver must use ACX_REQUEST_PARAMETERS only when working with I/O ACX Requests. Driver must use WDF request DDIs to handle other type of requests.
 
 ### Example
 
