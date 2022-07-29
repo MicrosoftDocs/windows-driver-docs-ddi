@@ -3,7 +3,7 @@ UID: NF:winsplp.CallRouterFindFirstPrinterChangeNotification
 title: CallRouterFindFirstPrinterChangeNotification function (winsplp.h)
 description: Describes the CallRouterFindFirstPrinterChangeNotification function.
 tech.root: print
-ms.date: 07/27/2022
+ms.date: 07/29/2022
 keywords: ["CallRouterFindFirstPrinterChangeNotification function"]
 ms.keywords: CallRouterFindFirstPrinterChangeNotification, CallRouterFindFirstPrinterChangeNotification function [Print Devices], print.callrouterfindfirstprinterchangenotification, winsplp/CallRouterFindFirstPrinterChangeNotification
 req.header: winsplp.h
@@ -65,6 +65,6 @@ Defines the **HANDLE** parameter *hNotify*.
 
 Defines the **PPRINTER_NOTIFY_OPTIONS** parameter *pPrinterNotifyOptions*.
 
-## - returns
+## -returns
 
 Returns a **DWORD** value.
