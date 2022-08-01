@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_VOLUME_CALLBACKS
 tech.root: audio 
 title: ACX_VOLUME_CALLBACKS
-ms.date: 04/29/2022
+ms.date: 08/01/2022
 targetos: Windows
 description: The ACX_VOLUME_CALLBACKS structure identifies the driver callbacks for ACX volume operations.
 prerelease: true
@@ -66,7 +66,7 @@ The [EVT_ACX_VOLUME_RETRIEVE_LEVEL](nc-acxelements-evt_acx_volume_retrieve_level
 
 ### -field EvtAcxVolumeProcessRequest
 
-The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/acxrequest/nc-acxrequest-evt_acx_object_process_request.md) callback. 
+The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_process_request) callback. 
 
 ## -remarks
 

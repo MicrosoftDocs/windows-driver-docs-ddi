@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_ELEMENT_CONFIG
 tech.root: audio 
 title: ACX_ELEMENT_CONFIG
-ms.date: 04/29/2022
+ms.date: 08/01/2022
 targetos: Windows
 description: The ACX_ELEMENT_CONFIG structure is used to define the audio element configuration. 
 prerelease: true
@@ -80,11 +80,11 @@ The number of methods. This is a one based count.
 
 ### -field Properties
 
-An [ACX_PROPERTY_ITEM structure](/windows-hardware/drivers/ddi/acxrequest/acxrequest/ns-acxrequest-acx_property_item) that defines the properties for this acx element configuration.
+An [ACX_PROPERTY_ITEM structure](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_property_item) that defines the properties for this acx element configuration.
 
 ### -field Methods
 
-An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/acxrequest\ns-acxrequest-acx_method_item.md) structure that defines the methods for this acx element configuration. 
+An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_method_item) structure that defines the methods for this acx element configuration. 
 
 ## -remarks
 

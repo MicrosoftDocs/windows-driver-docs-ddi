@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignMethods
 tech.root: audio
 title: AcxCircuitInitAssignMethods
-ms.date: 07/28/2022
+ms.date: 08/01/2022
 targetos: Windows
 description: The AcxCircuitInitAssignMethods function assigns one or more ACX methods for the ACXCIRCUIT.
 prerelease: true
@@ -52,7 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param Methods
 
-An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/acxrequest/ns-acxrequest-acx_method_item) structure that defines a set of methods that will be used for circuit initialization.
+An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_method_item) structure that defines a set of methods that will be used for circuit initialization.
 
 ### -param MethodsCount
 
