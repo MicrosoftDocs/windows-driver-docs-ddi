@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignAcxRequestPreprocessCallback
 tech.root: audio
 title: AcxCircuitInitAssignAcxRequestPreprocessCallback
-ms.date: 07/28/2022
+ms.date: 08/01/2022
 targetos: Windows
 description: The AcxCircuitInitAssignAcxRequestPreprocessCallback function add a WDFREQUEST preprocess callback.
 prerelease: true
@@ -52,7 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param EvtObjectAcxRequestPreprocess
 
-A pointer to a [EVT_ACX_OBJECT_PREPROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_preprocess_request.md) callback.
+A pointer to a [EVT_ACX_OBJECT_PREPROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_preprocess_request) callback.
 
 ### -param DriverContext
 

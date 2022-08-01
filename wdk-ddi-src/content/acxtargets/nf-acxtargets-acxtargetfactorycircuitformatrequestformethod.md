@@ -56,7 +56,7 @@ A WDFREQUEST handle described in [Summary of Framework Objects](/windows-hardwar
 
 ### -param Params
 
-An initialized [ACX_REQUEST_PARAMETERS](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_request_parameters.md) structure that is used to store request parameter information.
+An initialized [ACX_REQUEST_PARAMETERS](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_request_parameters) structure that is used to store request parameter information.
 
 ## -returns
 
