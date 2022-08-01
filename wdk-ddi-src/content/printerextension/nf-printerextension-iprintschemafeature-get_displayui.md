@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrintSchemaFeature.get_DisplayUI
 title: IPrintSchemaFeature::get_DisplayUI (printerextension.h)
 description: Gets the setting that indicates whether or not to show the print UI.
-old-location: print\iprintschemafeature_displayui.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/01/2022
 keywords: ["IPrintSchemaFeature::get_DisplayUI"]
 ms.keywords: DisplayUI property [Print Devices], DisplayUI property [Print Devices],IPrintSchemaFeature interface, IPrintSchemaFeature interface [Print Devices],DisplayUI property, IPrintSchemaFeature.DisplayUI, IPrintSchemaFeature.get_DisplayUI, IPrintSchemaFeature::DisplayUI, IPrintSchemaFeature::get_DisplayUI, get_DisplayUI, print.iprintschemafeature_displayui, printerextension/IPrintSchemaFeature::DisplayUI, printerextension/IPrintSchemaFeature::get_DisplayUI
 req.header: printerextension.h
@@ -40,20 +39,26 @@ api_name:
  - IPrintSchemaFeature::get_DisplayUI
 ---
 
-# IPrintSchemaFeature::get_DisplayUI
-
-
 ## -description
 
 Gets the setting that indicates whether or not to show the print UI.
 
 This property is read-only.
 
+## -parameters
+
+### -param pbShow
+
+Defines the **BOOL** parameter *pbShow*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
+
 ## -remarks
 
-Note that the <b>DisplayUI</b> property  corresponds to the psk:DisplayUI element. If the XML value is unspecified or set to <i>Show</i>, then the Print system sets  <b>DisplayUI</b> to <b>TRUE.</b>
+Note that the **DisplayUI** property  corresponds to the psk:DisplayUI element. If the XML value is unspecified or set to *Show*, then the Print system sets **DisplayUI** to **TRUE.**
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature">IPrintSchemaFeature</a>
-
+[IPrintSchemaFeature](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature)

@@ -1,10 +1,9 @@
 ---
 UID: NF:printerextension.IPrintJob.get_SubmissionTime
 title: IPrintJob::get_SubmissionTime (printerextension.h)
-description: Gets the submission time, in the “DATE” format, provided in the user’s local time (not in the UTC format that is provided by the spooler).
-old-location: print\iprintjob_submissiontime.htm
+description: Gets the submission time, in the "DATE" format, provided in the user's local time (not in the UTC format that is provided by the spooler).
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/29/2022
 keywords: ["IPrintJob::get_SubmissionTime"]
 ms.keywords: IPrintJob interface [Print Devices],SubmissionTime property, IPrintJob.SubmissionTime, IPrintJob.get_SubmissionTime, IPrintJob::SubmissionTime, IPrintJob::get_SubmissionTime, SubmissionTime property [Print Devices], SubmissionTime property [Print Devices],IPrintJob interface, get_SubmissionTime, print.iprintjob_submissiontime, printerextension/IPrintJob::SubmissionTime, printerextension/IPrintJob::get_SubmissionTime
 req.header: printerextension.h
@@ -40,16 +39,22 @@ api_name:
  - IPrintJob::get_SubmissionTime
 ---
 
-# IPrintJob::get_SubmissionTime
-
-
 ## -description
 
-Gets the submission time, in the “DATE” format, provided in the user’s local time (not in the UTC format that is provided by the spooler).
+Gets the submission time, in the "DATE" format, provided in the user's local time (not in the UTC format that is provided by the spooler).
 
 This property is read-only.
 
+## -parameters
+
+### -param pSubmissionTime
+
+Defines the **DATE** parameter *pSubmissionTime*.
+
+## -returns
+
+Returns an **HRESULT** value.
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
-
+[IPrintJob](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob)

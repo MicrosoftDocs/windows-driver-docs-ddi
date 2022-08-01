@@ -2,7 +2,6 @@
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_WindowModal
 title: IPrinterExtensionEventArgs::get_WindowModal (printerextension.h)
 description: Gets the run mode parameter that determines whether or not the printer extension should be run as modal.
-old-location: print\iprinterextensioneventargs_windowmodal.htm
 tech.root: print
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionEventArgs::get_WindowModal"]
@@ -10,8 +9,8 @@ ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],WindowModal pr
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,9 +39,6 @@ api_name:
  - IPrinterExtensionEventArgs::get_WindowModal
 ---
 
-# IPrinterExtensionEventArgs::get_WindowModal
-
-
 ## -description
 
 Gets the run mode parameter that determines whether or not the printer extension should be run as modal.
@@ -51,5 +47,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
-
+[IPrinterExtensionEventArgs](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs)

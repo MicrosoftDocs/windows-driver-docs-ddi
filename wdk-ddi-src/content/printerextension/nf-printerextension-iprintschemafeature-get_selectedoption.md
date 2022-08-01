@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrintSchemaFeature.get_SelectedOption
 title: IPrintSchemaFeature::get_SelectedOption (printerextension.h)
 description: Gets an IPrintSchemaOption representing the selected option.
-old-location: print\iprintschemafeature_selectedoption.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/01/2022
 keywords: ["IPrintSchemaFeature::get_SelectedOption"]
 ms.keywords: IPrintSchemaFeature interface [Print Devices],SelectedOption property, IPrintSchemaFeature.SelectedOption, IPrintSchemaFeature.get_SelectedOption, IPrintSchemaFeature::SelectedOption, IPrintSchemaFeature::get_SelectedOption, SelectedOption property [Print Devices], SelectedOption property [Print Devices],IPrintSchemaFeature interface, get_SelectedOption, print.iprintschemafeature_selectedoption, printerextension/IPrintSchemaFeature::SelectedOption, printerextension/IPrintSchemaFeature::get_SelectedOption
 req.header: printerextension.h
@@ -40,24 +39,26 @@ api_name:
  - IPrintSchemaFeature::get_SelectedOption
 ---
 
-# IPrintSchemaFeature::get_SelectedOption
-
-
 ## -description
 
-Gets an <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a> representing the selected option.
+Gets an [IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption) representing the selected option.
 
 This property is read-only.
 
+## -parameters
+
+### -param ppOption
+
+Defines the **IPrintSchemaOption** parameter *ppOption*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature">IPrintSchemaFeature</a>
+[IPrintSchemaFeature](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature)
 
+[IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption)
 
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities">IPrintSchemaTicket_GetCapabilities</a>
-
+[IPrintSchemaTicket_GetCapabilities](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities)

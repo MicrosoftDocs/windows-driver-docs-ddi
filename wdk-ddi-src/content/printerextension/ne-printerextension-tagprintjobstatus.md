@@ -1,17 +1,16 @@
 ---
 UID: NE:printerextension.tagPrintJobStatus
-title: tagPrintJobStatus (printerextension.h)
-description: This enumeration is a one-to-one mapping to the spooler flags suppled in the JOB_INFO_X structures.
-old-location: print\printjobstatus.htm
+title: PrintJobStatus (printerextension.h)
+description: This enumeration is a one-to-one mapping to the spooler flags supplied in the JOB_INFO_X structures.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/01/2022
 keywords: ["tagPrintJobStatus enumeration"]
 ms.keywords: PrintJobStatus, PrintJobStatus enumeration [Print Devices], PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_Complete, PrintJobStatus_Deleted, PrintJobStatus_Deleting, PrintJobStatus_Error, PrintJobStatus_Offline, PrintJobStatus_PaperOut, PrintJobStatus_Paused, PrintJobStatus_Printed, PrintJobStatus_Printing, PrintJobStatus_Restarted, PrintJobStatus_Retained, PrintJobStatus_Spooling, PrintJobStatus_UserIntervention, print.printjobstatus, printerextension/PrintJobStatus, printerextension/PrintJobStatus_BlockedDeviceQueue, printerextension/PrintJobStatus_Complete, printerextension/PrintJobStatus_Deleted, printerextension/PrintJobStatus_Deleting, printerextension/PrintJobStatus_Error, printerextension/PrintJobStatus_Offline, printerextension/PrintJobStatus_PaperOut, printerextension/PrintJobStatus_Paused, printerextension/PrintJobStatus_Printed, printerextension/PrintJobStatus_Printing, printerextension/PrintJobStatus_Restarted, printerextension/PrintJobStatus_Retained, printerextension/PrintJobStatus_Spooling, printerextension/PrintJobStatus_UserIntervention, tagPrintJobStatus
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -43,14 +42,11 @@ api_name:
  - PrintJobStatus
 ---
 
-# tagPrintJobStatus enumeration
-
-
 ## -description
 
-This enumeration is a one-to-one mapping to the spooler flags suppled in the JOB_INFO_X structures.
+This enumeration is a one-to-one mapping to the spooler flags supplied in the JOB_INFO_X structures.
 
-For example, <a href="/windows/win32/printdocs/job-info-1">JOB_INFO_1</a> has the same set of status flags as shown in the following list.
+For example, [JOB_INFO_1](/windows/win32/printdocs/job-info-1) has the same set of status flags as shown in the following list.
 
 ## -enum-fields
 
@@ -112,15 +108,12 @@ The job has been retained in the print queue and cannot be deleted.
 
 ## -remarks
 
-A <b>PrintJobStatus_Retained</b> flag can be raised for several reasons. For example, jobs could be kept in the queue if the administrator of the queue used the desktop print queue UI to set the “Keep Printed Jobs” feature to be on.
+A **PrintJobStatus_Retained** flag can be raised for several reasons. For example, jobs could be kept in the queue if the administrator of the queue used the desktop print queue UI to set the "Keep Printed Jobs" feature to be on.
 
 It is possible for a job to have multiple  flag values specified simultaneously.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_status">IPrintJob::Status</a>
+[IPrintJob::Status](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_status)
 
-
-
-<a href="/windows/win32/printdocs/job-info-1">JOB_INFO_1</a>
-
+[JOB_INFO_1](/windows/win32/printdocs/job-info-1)

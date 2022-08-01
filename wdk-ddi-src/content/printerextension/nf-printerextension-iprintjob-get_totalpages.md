@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrintJob.get_TotalPages
 title: IPrintJob::get_TotalPages (printerextension.h)
 description: Gets the total number of pages that the document contains.
-old-location: print\iprintjob_totalpages.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/29/2022
 keywords: ["IPrintJob::get_TotalPages"]
 ms.keywords: IPrintJob interface [Print Devices],TotalPages property, IPrintJob.TotalPages, IPrintJob.get_TotalPages, IPrintJob::TotalPages, IPrintJob::get_TotalPages, TotalPages property [Print Devices], TotalPages property [Print Devices],IPrintJob interface, get_TotalPages, print.iprintjob_totalpages, printerextension/IPrintJob::TotalPages, printerextension/IPrintJob::get_TotalPages
 req.header: printerextension.h
@@ -40,16 +39,22 @@ api_name:
  - IPrintJob::get_TotalPages
 ---
 
-# IPrintJob::get_TotalPages
-
-
 ## -description
 
 Gets the total number of pages that the document contains.
 
 This property is read-only.
 
+## -parameters
+
+### -param pulPages
+
+Defines the **ULONG** parameter *pulPages*.
+
+## -returns
+
+Returns an **HRESULT** value.
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
-
+[IPrintJob](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob)
