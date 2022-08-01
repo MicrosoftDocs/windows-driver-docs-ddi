@@ -1,16 +1,16 @@
 ---
 UID: NS:ntifs._FILE_OBJECTID_INFORMATION
-title: _FILE_OBJECTID_INFORMATION (ntifs.h)
+title: FILE_OBJECTID_INFORMATION (ntifs.h)
 description: The FILE_OBJECTID_INFORMATION structure is used to query for object ID information for the files in a directory on an NTFS volume.
 old-location: ifsk\file_objectid_information.htm
 tech.root: ifsk
-ms.date: 05/20/2019
+ms.date: 07/26/2022
 keywords: ["FILE_OBJECTID_INFORMATION structure"]
 ms.keywords: "*PFILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION structure [Installable File System Drivers], PFILE_OBJECTID_INFORMATION, PFILE_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], _FILE_OBJECTID_INFORMATION, fileinformationstructures_330b72bc-0a91-45d2-b4c9-04d065e0545e.xml, ifsk.file_objectid_information, ntifs/FILE_OBJECTID_INFORMATION, ntifs/PFILE_OBJECTID_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
-req.target-min-winverclnt: This structure is available on Microsoft Windows 2000 and later.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,12 +46,11 @@ api_name:
  - FILE_OBJECTID_INFORMATION
 ---
 
-# _FILE_OBJECTID_INFORMATION structure
-
+# FILE_OBJECTID_INFORMATION structure
 
 ## -description
 
-The FILE_OBJECTID_INFORMATION structure is used to query for object ID information for the files in a directory on an NTFS volume.
+The **FILE_OBJECTID_INFORMATION** structure is used to query for object ID information for the files in a directory on an NTFS volume.
 
 ## -struct-fields
 
@@ -87,7 +86,7 @@ User-provided data. You can use it to contain the **BirthVolumeID**, **BirthObje
 
 This information can be queried in either of the following ways:
 
-* Call [ZwQueryDirectoryFile](/previous-versions/ff567047(v=vs.85)), passing FileObjectIdInformation as the value of *FileInformationClass* and passing a caller-allocated, FILE_OBJECTID_INFORMATION-structured buffer as the value of *FileInformation*.
+* Call [ZwQueryDirectoryFile](nf-ntifs-zwqueryvirtualmemory.md), passing FileObjectIdInformation as the value of *FileInformationClass* and passing a caller-allocated, FILE_OBJECTID_INFORMATION-structured buffer as the value of *FileInformation*.
 
 * Create an IRP with major function code IRP_MJ_DIRECTORY_CONTROL and minor function code IRP_MN_QUERY_DIRECTORY.
 
@@ -105,5 +104,4 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 [IRP_MJ_DIRECTORY_CONTROL](/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
-[ZwQueryDirectoryFile](/previous-versions/ff567047(v=vs.85))
-
+[ZwQueryDirectoryFile](nf-ntifs-zwqueryvirtualmemory.md)

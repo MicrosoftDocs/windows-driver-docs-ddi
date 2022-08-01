@@ -3,7 +3,7 @@ UID: NF:prnasntp.IBidiAsyncNotifyChannel.GetPrintName
 title: IBidiAsyncNotifyChannel::GetPrintName (prnasntp.h)
 description: Defines the IBidiAsyncNotifyChannel::GetPrintName method.
 tech.root: print
-ms.date: 06/12/2021
+ms.date: 07/25/2022
 keywords: ["IBidiAsyncNotifyChannel::GetPrintName"]
 ms.keywords: GetPrintName, GetPrintName method [Print Devices], GetPrintName method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],GetPrintName method, IBidiAsyncNotifyChannel.GetPrintName, IBidiAsyncNotifyChannel::GetPrintName, print.ibidiasyncnotifychannel_getprintname, prnasntp/IBidiAsyncNotifyChannel::GetPrintName
 req.header: prnasntp.h
@@ -44,6 +44,12 @@ api_name:
 ## -description
 
 Defines the **IBidiAsyncNotifyChannel::GetPrintName** method.
+
+## -parameters
+
+### -param unnamedParam1
+
+Defines the **IPrintAsyncNotifyDataObject** parameter *unnamedParam1*.
 
 ## -returns
 

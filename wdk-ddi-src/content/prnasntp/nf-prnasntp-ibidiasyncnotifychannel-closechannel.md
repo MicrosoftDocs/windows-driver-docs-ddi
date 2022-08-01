@@ -3,7 +3,7 @@ UID: NF:prnasntp.IBidiAsyncNotifyChannel.CloseChannel
 title: IBidiAsyncNotifyChannel::CloseChannel (prnasntp.h)
 description: Defines the IBidiAsyncNotifyChannel::CloseChannel method.
 tech.root: print
-ms.date: 06/12/2021
+ms.date: 07/25/2022
 keywords: ["IBidiAsyncNotifyChannel::CloseChannel"]
 ms.keywords: CloseChannel, CloseChannel method [Print Devices], CloseChannel method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],CloseChannel method, IBidiAsyncNotifyChannel.CloseChannel, IBidiAsyncNotifyChannel::CloseChannel, print.ibidiasyncnotifychannel_closechannel, prnasntp/IBidiAsyncNotifyChannel::CloseChannel
 req.header: prnasntp.h
@@ -44,6 +44,12 @@ api_name:
 ## -description
 
 Defines the **IBidiAsyncNotifyChannel::CloseChannel** method.
+
+## -parameters
+
+### -param unnamedParam1
+
+Defines the **IPrintAsyncNotifyDataObject** parameter *unnamedParam1*.
 
 ## -returns
 

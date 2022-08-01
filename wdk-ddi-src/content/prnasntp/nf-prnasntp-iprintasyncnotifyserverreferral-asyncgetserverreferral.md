@@ -3,7 +3,7 @@ UID: NF:prnasntp.IPrintAsyncNotifyServerReferral.AsyncGetServerReferral
 title: IPrintAsyncNotifyServerReferral::AsyncGetServerReferral (prnasntp.h)
 description: Defines the IPrintAsyncNotifyServerReferral::AsyncGetServerReferral method.
 tech.root: print
-ms.date: 06/12/2021
+ms.date: 07/26/2022
 keywords: ["IPrintAsyncNotifyServerReferral::AsyncGetServerReferral"]
 ms.keywords: AsyncGetServerReferral, AsyncGetServerReferral method [Print Devices], AsyncGetServerReferral method [Print Devices],IPrintAsyncNotifyServerReferral interface, IPrintAsyncNotifyServerReferral interface [Print Devices],AsyncGetServerReferral method, IPrintAsyncNotifyServerReferral.AsyncGetServerReferral, IPrintAsyncNotifyServerReferral::AsyncGetServerReferral, print.iprintasyncnotifyserverreferral_asyncgetserverreferral, prnasntp/IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
 req.header: prnasntp.h
@@ -39,8 +39,6 @@ api_name:
  - IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
 ---
 
-# IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
-
 ## -description
 
 Defines the **IPrintAsyncNotifyServerReferral::AsyncGetServerReferral** method.
@@ -49,7 +47,7 @@ Defines the **IPrintAsyncNotifyServerReferral::AsyncGetServerReferral** method.
 
 ### -param EQUALNULL
 
-### -param pCookie [in]
+Defines the **IAsyncGetSrvReferralCookie** parameter *EQUALNULL*
 
 ## -returns
 

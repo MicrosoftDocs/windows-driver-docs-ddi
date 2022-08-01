@@ -4,7 +4,7 @@ title: IsReparseTagNameSurrogate macro (ntifs.h)
 description: The IsReparseTagNameSurrogate macro determines whether a tag's associated reparse point is a surrogate for another named entity, such as a volume mount point.
 old-location: ifsk\isreparsetagnamesurrogate.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/26/2022
 keywords: ["IsReparseTagNameSurrogate macro"]
 ms.keywords: IsReparseTagNameSurrogate, IsReparseTagNameSurrogate function [Installable File System Drivers], ifsk.isreparsetagnamesurrogate, ioref_f44ef76c-2211-43a1-b151-a5804c7cd361.xml, ntifs/IsReparseTagNameSurrogate
 req.header: ntifs.h
@@ -42,60 +42,40 @@ api_name:
 
 # IsReparseTagNameSurrogate macro
 
-
 ## -description
 
-The <b>IsReparseTagNameSurrogate</b> macro determines whether a tag's associated reparse point is a surrogate for another named entity, such as a volume mount point.
+The **IsReparseTagNameSurrogate** macro determines whether a tag's associated reparse point is a surrogate for another named entity, such as a volume mount point.
 
 ## -parameters
 
 ### -param _tag [in]
 
-
 Reparse point tag to be tested.
 
 ## -remarks
 
-If the name surrogate bit is set in the reparse tag, the file or directory represents another named entity in the system, such as a volume mount point. 
+If the name surrogate bit is set in the reparse tag, the file or directory represents another named entity in the system, such as a volume mount point.
 
 For more information about reparse points and volume mount points, see the Microsoft Windows SDK documentation.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ifs/fsctl-delete-reparse-point">FSCTL_DELETE_REPARSE_POINT</a>
+[**FSCTL_DELETE_REPARSE_POINT**](/windows-hardware/drivers/ifs/fsctl-delete-reparse-point)
 
+[**FSCTL_GET_REPARSE_POINT**](/windows-hardware/drivers/ifs/fsctl-get-reparse-point)
 
+[**FSCTL_SET_REPARSE_POINT**](/windows-hardware/drivers/ifs/fsctl-set-reparse-point)
 
-<a href="/windows-hardware/drivers/ifs/fsctl-get-reparse-point">FSCTL_GET_REPARSE_POINT</a>
+[**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md)
 
+[**FltTagFile**](../fltkernel/nf-fltkernel-flttagfile.md)
 
+[**FltUntagFile**](../fltkernel/nf-fltkernel-fltuntagfile.md)
 
-<a href="/windows-hardware/drivers/ifs/fsctl-set-reparse-point">FSCTL_SET_REPARSE_POINT</a>
+[**IsReparseTagMicrosoft**](nf-ntifs-isreparsetagmicrosoft.md)
 
+[**REPARSE_DATA_BUFFER**](ns-ntifs-_reparse_data_buffer.md)
 
+[**REPARSE_GUID_DATA_BUFFER**](ns-ntifs-_reparse_guid_data_buffer.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfscontrolfile">FltFsControlFile</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-flttagfile">FltTagFile</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuntagfile">FltUntagFile</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-isreparsetagmicrosoft">IsReparseTagMicrosoft</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_data_buffer">REPARSE_DATA_BUFFER</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_guid_data_buffer">REPARSE_GUID_DATA_BUFFER</a>
-
-
-
-<a href="/previous-versions/ff566462(v=vs.85)">ZwFsControlFile</a>
+[**ZwFsControlFile**](nf-ntifs-zwfscontrolfile.md)

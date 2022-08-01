@@ -4,13 +4,13 @@ title: NtSetInformationThread function (ntifs.h)
 description: Learn how the ZwSetInformationThread routine sets the priority of a thread.
 old-location: kernel\zwsetinformationthread.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/26/2022
 keywords: ["NtSetInformationThread function"]
 ms.keywords: MEMORY_PRIORITY_BELOW_NORMAL, MEMORY_PRIORITY_LOW, MEMORY_PRIORITY_MEDIUM, MEMORY_PRIORITY_NORMAL, MEMORY_PRIORITY_VERY_LOW, NtSetInformationThread, ZwSetInformationThread, ZwSetInformationThread routine [Kernel-Mode Driver Architecture], k111_6d6657b3-b0f9-4c47-9bb5-d5c692161c53.xml, kernel.zwsetinformationthread, ntddk/NtSetInformationThread, ntddk/ZwSetInformationThread
 req.header: ntifs.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,138 +42,71 @@ api_name:
 
 # NtSetInformationThread function
 
-
 ## -description
 
-The <b>NtSetInformationThread</b> routine sets the priority of a thread.
+The **NtSetInformationThread** routine sets the priority of a thread.
 
 ## -parameters
 
 ### -param ThreadHandle [in]
 
-
-Handle to the thread object. To create a new thread and get a handle to it, call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>. To specify the current thread, use the [ZwCurrentThread](/windows-hardware/drivers/kernel/zwcurrentthread) macro.
+Handle to the thread object. To create a new thread and get a handle to it, call [**PsCreateSystemThread**](../wdm/nf-wdm-pscreatesystemthread.md). To specify the current thread, use the [**ZwCurrentThread**](/windows-hardware/drivers/kernel/zwcurrentthread) macro.
 
 ### -param ThreadInformationClass [in]
 
-
-One of the system-defined values in the THREADINFOCLASS enumeration (see ntddk.h), <b>ThreadPriority</b>,   <b>ThreadBasePriority</b>,  <b>ThreadPagePriority</b>, or <b>ThreadPowerThrottlingState</b>.
+One of the system-defined values in the THREADINFOCLASS enumeration (see ntddk.h), **ThreadPriority**,   **ThreadBasePriority**,  **ThreadPagePriority**, or **ThreadPowerThrottlingState**.
 
 ### -param ThreadInformation [in]
 
+Pointer to a variable that specifies the information to set.
 
-Pointer to a variable that specifies the information to set. 
+If **ThreadInformationClass** is **ThreadPriority**, this value must be > LOW_PRIORITY and <= HIGH_PRIORITY.
 
-If <b>ThreadInformationClass</b> is <b>ThreadPriority</b>, this value must be > LOW_PRIORITY and <= HIGH_PRIORITY. 
+If **ThreadInformationClass** is **ThreadBasePriority**, this value must fall within the system's valid base-priority range and the original priority class for the given thread. That is, if a thread's priority class is variable, that thread's base priority cannot be reset to a real-time priority value, and vice versa.
 
-If <b>ThreadInformationClass</b> is <b>ThreadBasePriority</b>, this value must fall within the system's valid base-priority range and the original priority class for the given thread. That is, if a thread's priority class is variable, that thread's base priority cannot be reset to a real-time priority value, and vice versa.
+If **ThreadInformationClass** is **ThreadPagePriority**, this value is a pointer to a **PAGE_PRIORITY_INFORMATION** structure, see ntddk.h. The **PagePriority** member value must be one of these values.
 
-If <b>ThreadInformationClass</b> is <b>ThreadPagePriority</b>, this value is a pointer to a <b>PAGE_PRIORITY_INFORMATION</b> structure, see ntddk.h. The <b>PagePriority</b> member value must be one of these values. 
+If **ThreadInformationClass** is **ThreadPowerThrottlingState**, this value is a pointer to a [**POWER_THROTTLING_THREAD_STATE**](../ntddk/ns-ntddk-_power_throttling_thread_state.md) structure, see ntddk.h. The **PagePriority** member value must be one of these values.
 
-If <b>ThreadInformationClass</b> is <b>ThreadPowerThrottlingState</b>, this value is a pointer to a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_power_throttling_thread_state">POWER_THROTTLING_THREAD_STATE</a> structure, see ntddk.h. The <b>PagePriority</b> member value must be one of these values. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="MEMORY_PRIORITY_VERY_LOW"></a><a id="memory_priority_very_low"></a><dl>
-<dt><b>MEMORY_PRIORITY_VERY_LOW</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Very low memory priority.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MEMORY_PRIORITY_LOW"></a><a id="memory_priority_low"></a><dl>
-<dt><b>MEMORY_PRIORITY_LOW</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Low memory priority.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MEMORY_PRIORITY_MEDIUM"></a><a id="memory_priority_medium"></a><dl>
-<dt><b>MEMORY_PRIORITY_MEDIUM</b></dt>
-<dt>3</dt>
-</dl>
-</td>
-<td width="60%">
-Medium memory priority.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MEMORY_PRIORITY_BELOW_NORMAL"></a><a id="memory_priority_below_normal"></a><dl>
-<dt><b>MEMORY_PRIORITY_BELOW_NORMAL</b></dt>
-<dt>4</dt>
-</dl>
-</td>
-<td width="60%">
-Below normal memory priority.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MEMORY_PRIORITY_NORMAL"></a><a id="memory_priority_normal"></a><dl>
-<dt><b>MEMORY_PRIORITY_NORMAL</b></dt>
-<dt>5</dt>
-</dl>
-</td>
-<td width="60%">
-Normal memory priority. This is the default priority for all threads and processes on the system.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+| ----- | ------- |
+| MEMORY_PRIORITY_VERY_LOW (1) | Very low memory priority. |
+| MEMORY_PRIORITY_LOW (2)      | Low memory priority. |
+| MEMORY_PRIORITY_MEDIUM (3)   | Medium memory priority. |
+| MEMORY_PRIORITY_BELOW_NORMAL (4) | Below normal memory priority. |
+| MEMORY_PRIORITY_NORMAL (5)   | Normal memory priority. This is the default priority for all threads and processes on the system. |
 
 ### -param ThreadInformationLength [in]
 
-
-The size, in bytes, of <b>ThreadInformation</b>.
+The size, in bytes, of **ThreadInformation**.
 
 ## -returns
 
-<b>NtSetInformationThread</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error codes include STATUS_INFO_LENGTH_MISMATCH or STATUS_INVALID_PARAMETER.
+**NtSetInformationThread** returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error codes include STATUS_INFO_LENGTH_MISMATCH or STATUS_INVALID_PARAMETER.
 
 ## -remarks
 
-<b>NtSetInformationThread</b> can be called by higher-level drivers to set the priority of a thread for which they have a handle.
+**NtSetInformationThread** can be called by higher-level drivers to set the priority of a thread for which they have a handle.
 
 The caller must have THREAD_SET_INFORMATION access rights for the given thread in order to call this routine.
 
-Usually, device and intermediate drivers that set up driver-created threads call <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesetbaseprioritythread">KeSetBasePriorityThread</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetprioritythread">KeSetPriorityThread</a> from their driver-created threads, rather than calling <b>NtSetInformationThread</b>. However, a driver can call <b>NtSetInformationThread</b> to raise the priority of a driver-created thread before that thread runs.
+Usually, device and intermediate drivers that set up driver-created threads call [**KeSetBasePriorityThread**](../ntddk/nf-ntddk-kesetbaseprioritythread.md) or [**KeSetPriorityThread**](../wdm/nf-wdm-kesetprioritythread.md) from their driver-created threads, rather than calling **NtSetInformationThread**. However, a driver can call **NtSetInformationThread** to raise the priority of a driver-created thread before that thread runs.
 
-Kernel mode drivers can call the <b>NtSetInformationThread</b> function with <b>ThreadPagePriority</b> to specify a thread's page priority.
+Kernel mode drivers can call the **NtSetInformationThread** function with **ThreadPagePriority** to specify a thread's page priority.
 
-To help improve system performance, drivers should use the  function with <b>ThreadPagePriority</b> to lower the page priority of threads that perform background operations or access files and data that are not expected to be accessed again soon. For example, an anti-malware application might lower the priority of threads involved in scanning files.
+To help improve system performance, drivers should use the  function with **ThreadPagePriority** to lower the page priority of threads that perform background operations or access files and data that are not expected to be accessed again soon. For example, an anti-malware application might lower the priority of threads involved in scanning files.
 
-To determine the page priority for a thread, call <a href="/previous-versions/windows/hardware/drivers/mt629133(v=vs.85)">ZwQueryInformationThread</a>.
+> [!NOTE]
+> If the call to this function occurs in kernel mode, you should use the name [**ZwSetInformationThread**](../ntddk/nf-ntddk-zwsetinformationthread.md) instead of **NtSetInformationThread**.
 
-<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwsetinformationthread">NtSetInformationThread</a> instead of <b>ZwSetInformationThread</b>. </div>
-<div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)..
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesetbaseprioritythread">KeSetBasePriorityThread</a>
+[**KeSetBasePriorityThread**](../ntddk/nf-ntddk-kesetbaseprioritythread.md)
 
+[**KeSetPriorityThread**](../wdm/nf-wdm-kesetprioritythread.md)
 
+[**PsCreateSystemThread**](../wdm/nf-wdm-pscreatesystemthread.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetprioritythread">KeSetPriorityThread</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
-
+[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).

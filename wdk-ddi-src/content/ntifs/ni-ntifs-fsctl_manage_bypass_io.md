@@ -2,7 +2,7 @@
 UID: NI:ntifs.FSCTL_MANAGE_BYPASS_IO
 tech.root: ifsk
 title: FSCTL_MANAGE_BYPASS_IO
-ms.date: 07/08/2021
+ms.date: 07/26/2022
 targetos: Windows
 description: The FSCTL_MANAGE_BYPASS_IO control code controls BypassIO operations on a given file in the filter and file system stacks.
 prerelease: false
@@ -42,7 +42,7 @@ The **FSCTL_MANAGE_BYPASS_IO** control code controls BypassIO operations on a gi
 
 ## -remarks
 
-To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md) or [**ZwFsControlFile**](/previous-versions/ff566462(v=vs.85)) with the following parameters.
+To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md) or [**ZwFsControlFile**](nf-ntifs-zwfscontrolfile.md) with the following parameters.
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -65,4 +65,4 @@ See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for mo
 
 [**FS_BPIO_OUTPUT**](ns-ntifs-fs_bpio_output.md)
 
-[**ZwFsControlFile**](/previous-versions/ff566462(v=vs.85))
+[**ZwFsControlFile**](nf-ntifs-zwfscontrolfile.md)

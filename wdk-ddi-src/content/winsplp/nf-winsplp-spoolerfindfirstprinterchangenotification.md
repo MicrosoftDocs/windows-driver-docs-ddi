@@ -1,10 +1,9 @@
 ---
 UID: NF:winsplp.SpoolerFindFirstPrinterChangeNotification
 title: SpoolerFindFirstPrinterChangeNotification function (winsplp.h)
-description: "Learn more about: SpoolerFindFirstPrinterChangeNotification function"
-old-location: print\spoolerfindfirstprinterchangenotification.htm
+description: Describes the SpoolerFindFirstPrinterChangeNotification function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/27/2022
 keywords: ["SpoolerFindFirstPrinterChangeNotification function"]
 ms.keywords: SpoolerFindFirstPrinterChangeNotification, SpoolerFindFirstPrinterChangeNotification function [Print Devices], print.spoolerfindfirstprinterchangenotification, winsplp/SpoolerFindFirstPrinterChangeNotification
 req.header: winsplp.h
@@ -40,38 +39,44 @@ api_name:
  - SpoolerFindFirstPrinterChangeNotification
 ---
 
-# SpoolerFindFirstPrinterChangeNotification function
-
-
 ## -description
+
+Describes the **SpoolerFindFirstPrinterChangeNotification** function.
 
 ## -parameters
 
 ### -param hPrinter [in]
 
-
+Defines the **HANDLE** parameter *hPrinter*.
 
 ### -param fdwFilterFlags
 
+Defines the **DWORD** parameter *fdwFilterFlags*.
+
 ### -param fdwOptions
+
+Defines the **DWORD** parameter *fdwOptions*.
 
 ### -param pPrinterNotifyOptions [in]
 
-
+Defines the **PVOID** parameter *pPrinterNotifyOptions*.
 
 ### -param pvReserved [in, optional]
 
-
+Defines the **PVOID** parameter *pvReserved*.
 
 ### -param pNotificationConfig [in]
 
-
+Defines the **PVOID** parameter *pNotificationConfig*.
 
 ### -param phNotify [out, optional]
 
-
+Defines the **PHANDLE** parameter *phNotify*.
 
 ### -param phEvent [out, optional]
 
+Defines the **PHANDLE** parameter *phEvent*.
 
+## -returns
 
+Returns a **BOOL** value.

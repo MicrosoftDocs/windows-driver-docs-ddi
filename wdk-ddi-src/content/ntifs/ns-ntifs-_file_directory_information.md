@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._FILE_DIRECTORY_INFORMATION
-title: _FILE_DIRECTORY_INFORMATION (ntifs.h)
+title: FILE_DIRECTORY_INFORMATION (ntifs.h)
 description: The FILE_DIRECTORY_INFORMATION structure is used to query detailed information for the files in a directory.
 old-location: ifsk\file_directory_information.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/26/2022
 keywords: ["FILE_DIRECTORY_INFORMATION structure"]
 ms.keywords: "*PFILE_DIRECTORY_INFORMATION, FILE_DIRECTORY_INFORMATION, FILE_DIRECTORY_INFORMATION structure [Installable File System Drivers], PFILE_DIRECTORY_INFORMATION, PFILE_DIRECTORY_INFORMATION structure pointer [Installable File System Drivers], _FILE_DIRECTORY_INFORMATION, fileinformationstructures_4ff53e27-9b59-46f0-8ca8-b4e1fb3e3905.xml, ifsk.file_directory_information, ntifs/FILE_DIRECTORY_INFORMATION, ntifs/PFILE_DIRECTORY_INFORMATION"
 req.header: ntifs.h
@@ -46,18 +46,17 @@ api_name:
  - FILE_DIRECTORY_INFORMATION
 ---
 
-# _FILE_DIRECTORY_INFORMATION structure
-
+# FILE_DIRECTORY_INFORMATION structure
 
 ## -description
 
-The FILE_DIRECTORY_INFORMATION structure is used to query detailed information for the files in a directory.
+The **FILE_DIRECTORY_INFORMATION** structure is used to query detailed information for the files in a directory.
 
 ## -struct-fields
 
 ### -field NextEntryOffset
 
-Byte offset of the next FILE_DIRECTORY_INFORMATION entry, if multiple entries are present in a buffer. This member is zero if no other entries follow this one.
+Byte offset of the next **FILE_DIRECTORY_INFORMATION** entry, if multiple entries are present in a buffer. This member is zero if no other entries follow this one.
 
 ### -field FileIndex
 
@@ -112,7 +111,7 @@ Specifies the first character of the file name string. This is followed in memor
 
 This information can be queried in either of the following ways:
 
-* Call <a href="/previous-versions/ff567047(v=vs.85)">ZwQueryDirectoryFile</a>, passing FileDirectoryInformation as the value of *FileInformationClass* and passing a caller-allocated, FILE_DIRECTORY_INFORMATION-structured buffer as the value of *FileInformation*.
+* Call [**ZwQueryDirectoryFile**](nf-ntifs-zwqueryvirtualmemory.md), passing FileDirectoryInformation as the value of **FileInformationClass** and passing a caller-allocated, FILE_DIRECTORY_INFORMATION-structured buffer as the value of **FileInformation**.
 * Create an IRP with major function code IRP_MJ_DIRECTORY_CONTROL and minor function code IRP_MN_QUERY_DIRECTORY.
 
 No specific access rights are required to query this information.
@@ -123,9 +122,8 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory">FsRtlNotifyFullChangeDirectory</a>
+[**FsRtlNotifyFullChangeDirectory**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory.md)
 
-<a href="/windows-hardware/drivers/ifs/irp-mj-directory-control">IRP_MJ_DIRECTORY_CONTROL</a>
+[**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
-<a href="/previous-versions/ff567047(v=vs.85)">ZwQueryDirectoryFile</a>
-
+[**ZwQueryDirectoryFile**](nf-ntifs-zwqueryvirtualmemory.md)

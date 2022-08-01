@@ -1,10 +1,9 @@
 ---
 UID: NF:winsplp.SpoolerRefreshPrinterChangeNotification
 title: SpoolerRefreshPrinterChangeNotification function (winsplp.h)
-description: "Learn more about: SpoolerRefreshPrinterChangeNotification function"
-old-location: print\spoolerrefreshprinterchangenotification.htm
+description: Describes the SpoolerRefreshPrinterChangeNotification function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/27/2022
 keywords: ["SpoolerRefreshPrinterChangeNotification function"]
 ms.keywords: SpoolerRefreshPrinterChangeNotification, SpoolerRefreshPrinterChangeNotification function [Print Devices], print.spoolerrefreshprinterchangenotification, winsplp/SpoolerRefreshPrinterChangeNotification
 req.header: winsplp.h
@@ -40,26 +39,28 @@ api_name:
  - SpoolerRefreshPrinterChangeNotification
 ---
 
-# SpoolerRefreshPrinterChangeNotification function
-
-
 ## -description
+
+Describes the **SpoolerRefreshPrinterChangeNotification** function.
 
 ## -parameters
 
 ### -param hPrinter [in]
 
-
+Defines the **HANDLE** parameter *hPrinter*.
 
 ### -param dwColor [in]
 
-
+Defines the **DWORD** parameter *dwColor*.
 
 ### -param pOptions [in]
 
-
+Defines the **PPRINTER_NOTIFY_OPTIONS** parameter *pOptions*.
 
 ### -param ppInfo [in, out, optional]
 
+Defines the **PPRINTER_NOTIFY_INFO** parameter *ppInfo*.
 
+## -returns
 
+Returns a **BOOL** value.

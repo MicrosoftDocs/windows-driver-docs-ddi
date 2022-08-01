@@ -47,9 +47,6 @@ api_name:
  - PRINTPROVIDOR
 ---
 
-# _PRINTPROVIDOR structure
-
-
 ## -description
 
 > [!WARNING]
@@ -477,6 +474,38 @@ For internal use only. Must be NULL.
 
 For internal use only. Must be NULL.
 
+### -field fpInstallPrinterDriverPackageFromConnection
+
+For internal use only. Must be NULL.
+
+### -field fpPrintSupportOperation
+
+For internal use only. Must be NULL.
+
+### -field fpIppCreateJobOnPrinter
+
+For internal use only. Must be NULL.
+
+### -field fpIppGetJobAttributes
+
+For internal use only. Must be NULL.
+
+### -field fpIppSetJobAttributes
+
+For internal use only. Must be NULL.
+
+### -field fpIppGetPrinterAttributes
+
+For internal use only. Must be NULL.
+
+### -field fpIppSetPrinterAttributes
+
+For internal use only. Must be NULL.
+
+### -field fpIppCreateJobOnPrinterWithAttributes
+
+For internal use only. Must be NULL.
+
 ## -remarks
 
 Function pointers are listed in the order they are specified within the PRINTPROVIDOR structure. To see function descriptions grouped by related capabilities, see [Functions Defined by Print Providers](/windows-hardware/drivers/print/functions-defined-by-print-providers).
@@ -492,4 +521,3 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 [SendRecvBidiData](/previous-versions//ff562068(v=vs.85))
 
 [XcvData](/previous-versions/ff564255(v=vs.85))
-

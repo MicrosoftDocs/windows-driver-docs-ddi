@@ -3,7 +3,7 @@ UID: NF:wiamindr_lh.IWiaMiniDrv.drvNotifyPnpEvent
 title: IWiaMiniDrv::drvNotifyPnpEvent (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvNotifyPnpEvent method responds to the event received from the WIA service.
 tech.root: image
-ms.date: 07/21/2022
+ms.date: 07/25/2022
 keywords: ["IWiaMiniDrv::drvNotifyPnpEvent"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvNotifyPnpEvent method, IWiaMiniDrv.drvNotifyPnpEvent, IWiaMiniDrv::drvNotifyPnpEvent, MiniDrv_7684a7e5-7ca5-4d20-a1a8-fc38400815ce.xml, drvNotifyPnpEvent, drvNotifyPnpEvent method [Imaging Devices], drvNotifyPnpEvent method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvnotifypnpevent, wiamindr_lh/IWiaMiniDrv::drvNotifyPnpEvent
 req.header: wiamindr_lh.h
@@ -45,7 +45,7 @@ The **IWiaMiniDrv::drvNotifyPnpEvent** method responds to the event received fro
 
 ## -parameters
 
-### -param pEventGuid [in]
+### -param pEventGUID [in]
 
 Points to a GUID identifying the event.
 

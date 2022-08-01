@@ -4,7 +4,7 @@ title: FLT_CALLBACK_DATA (fltkernel.h)
 description: The FLT_CALLBACK_DATA structure represents an I/O operation. The Filter Manager and minifilters use this structure to initiate and process I/O operations.
 old-location: ifsk\flt_callback_data.htm
 tech.root: ifsk
-ms.date: 11/29/2021
+ms.date: 07/29/2022
 keywords: ["FLT_CALLBACK_DATA structure"]
 ms.keywords: "*PFLT_CALLBACK_DATA, FLT_CALLBACK_DATA, FLT_CALLBACK_DATA structure [Installable File System Drivers], FltSystemStructures_36133023-b06f-46c9-87fc-04543cade79a.xml, PFLT_CALLBACK_DATA, PFLT_CALLBACK_DATA structure pointer [Installable File System Drivers], _FLT_CALLBACK_DATA, fltkernel/FLT_CALLBACK_DATA, fltkernel/PFLT_CALLBACK_DATA, ifsk.flt_callback_data"
 req.header: fltkernel.h
@@ -94,7 +94,7 @@ When the Filter Manager performs completion processing for the I/O operation tha
 | Flag | Meaning |
 | ---- | ------- |
 | FLTFL_CALLBACK_DATA_DRAINING_IO | The Filter Manager sets this flag to indicate that it is currently draining the completion node for the I/O operation. This flag is valid only during I/O completion. |
-| FLTFL_CALLBACK_DATA_POST_OPERATION | The Filter Manager sets this flag to indicate that it is currently calling registered postoperation callback ([**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)) routines for the operation. This flag is valid only during I/O completion. |
+| FLTFL_CALLBACK_DATA_POST_OPERATION | The Filter Manager sets this flag to indicate that it is currently calling registered post-operation callback ([**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)) routines for the operation. This flag is valid only during I/O completion. |
 
 ### -field Thread
 
@@ -106,11 +106,11 @@ Pointer to an [**FLT_IO_PARAMETER_BLOCK**](ns-fltkernel-_flt_io_parameter_block.
 
 ### -field IoStatus
 
-An [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that contains status and information for the I/O operation. A minifilter can modify the contents of this structure only in a preoperation callback ([**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)) routine from which it is about to return FLT_PREOP_COMPLETE or in a postoperation callback ([**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)) routine from which it is about to return FLT_POSTOP_FINISHED_PROCESSING. Otherwise, the contents of this structure are normally set by the Filter Manager.
+An [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that contains status and information for the I/O operation. A minifilter can modify the contents of this structure only in a pre-operation callback ([**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)) routine from which it is about to return FLT_PREOP_COMPLETE or in a post-operation callback ([**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)) routine from which it is about to return FLT_POSTOP_FINISHED_PROCESSING. Otherwise, the contents of this structure are normally set by the Filter Manager.
 
 ### -field TagData
 
-Pointer to an [**FLT_TAG_DATA_BUFFER**](ns-fltkernel-_flt_tag_data_buffer.md) structure that contains reparse point data for the I/O operation. This pointer is valid only in the post-create path. Thus only a minifilter's postoperation callback routine can change the value of this member. A minifilter's post-create callback routine can change this member to point to a different FLT_TAG_DATA_BUFFER structure. However, if it changes the member to point to a different structure, it must first free the existing structure to prevent a pool memory leak.
+Pointer to an [**FLT_TAG_DATA_BUFFER**](ns-fltkernel-_flt_tag_data_buffer.md) structure that contains reparse point data for the I/O operation. This pointer is valid only in the post-create path. Thus only a minifilter's post-operation callback routine can change the value of this member. A minifilter's post-create callback routine can change this member to point to a different **FLT_TAG_DATA_BUFFER** structure. However, if it changes the member to point to a different structure, it must first call [**ExFreePool**](../wdm/nf-wdm-exfreepool.md) to free the existing structure to prevent a pool memory leak.
 
 ### -field QueueLinks
 
@@ -130,9 +130,9 @@ Indicates the execution mode of the process that initiated the I/O operation, ei
 
 ## -remarks
 
-A minifilter registers preoperation ([**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)) and postoperation ([**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)) callback routines for one or more types of I/O operations. When the Filter Manager calls one of these callback routines, it passes a callback data (FLT_CALLBACK_DATA) structure as the first parameter. This structure represents the I/O operation.
+A minifilter registers pre-operation ([**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)) and post-operation ([**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)) callback routines for one or more types of I/O operations. When the Filter Manager calls one of these callback routines, it passes a callback data (FLT_CALLBACK_DATA) structure as the first parameter. This structure represents the I/O operation.
 
-A minifilter's preoperation or postoperation callback routine can modify the contents of the callback data structure, except for the **Thread** and **RequestorMode** members. If it does, it must then call [**FltSetCallbackDataDirty**](nf-fltkernel-fltsetcallbackdatadirty.md), unless it has also modified the contents of the **IoStatus** member. Otherwise, the modified values are ignored.
+A minifilter's pre-operation or post-operation callback routine can modify the contents of the callback data structure, except for the **Thread** and **RequestorMode** members. If it does, it must then call [**FltSetCallbackDataDirty**](nf-fltkernel-fltsetcallbackdatadirty.md), unless it has also modified the contents of the **IoStatus** member. Otherwise, the modified values are ignored.
 
 A minifilter can initiate an I/O operation by calling a support routine such as [**FltReadFile**](nf-fltkernel-fltreadfile.md) or by calling [**FltAllocateCallbackData**](nf-fltkernel-fltallocatecallbackdata.md) to allocate a callback data structure; initializing the structure's I/O parameters, and passing the structure to [**FltPerformSynchronousIo**](nf-fltkernel-fltperformsynchronousio.md) or [**FltPerformAsynchronousIo**](nf-fltkernel-fltperformasynchronousio.md).
 

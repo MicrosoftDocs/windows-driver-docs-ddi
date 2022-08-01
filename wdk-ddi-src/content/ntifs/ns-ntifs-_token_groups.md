@@ -4,7 +4,7 @@ title: TOKEN_GROUPS (ntifs.h)
 description: TOKEN_GROUPS contains information about the group security identifiers (SID) in an access token.
 old-location: ifsk\token_groups.htm
 tech.root: ifsk
-ms.date: 05/24/2022
+ms.date: 07/26/2022
 keywords: ["TOKEN_GROUPS structure"]
 ms.keywords: "*PTOKEN_GROUPS, PTOKEN_GROUPS, PTOKEN_GROUPS structure pointer [Installable File System Drivers], TOKEN_GROUPS, TOKEN_GROUPS structure [Installable File System Drivers], _TOKEN_GROUPS, ifsk.token_groups, ntifs/PTOKEN_GROUPS, ntifs/TOKEN_GROUPS, securitystructures_97d0491f-87b4-4e76-8252-fad37cc94c1c.xml"
 req.header: ntifs.h
@@ -76,6 +76,6 @@ You can use [**SeFilterToken**](nf-ntifs-sefiltertoken.md) to designate one or m
 
 [**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md)
 
-[**ZwQueryInformationToken**](/previous-versions/ff567055(v=vs.85))
+[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md)
 
-[**ZwSetInformationToken**](/previous-versions/ff567102(v=vs.85))
+[**ZwSetInformationToken**](nf-ntifs-zwsetinformationtoken.md)
