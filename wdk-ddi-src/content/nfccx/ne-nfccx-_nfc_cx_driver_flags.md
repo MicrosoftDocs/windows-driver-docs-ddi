@@ -4,7 +4,7 @@ title: _NFC_CX_DRIVER_FLAGS (nfccx.h)
 description: Specifies run-time driver flags.
 old-location: nfpdrivers\nfc_cx_driver_flags.htm
 tech.root: nfpdrivers
-ms.date: 02/15/2018
+ms.date: 08/02/2022
 keywords: ["NFC_CX_DRIVER_FLAGS enumeration"]
 ms.keywords: "*PNFC_CX_DRIVER_FLAGS, NFC_CX_DRIVER_DISABLE_HOST_CARD_EMULATION, NFC_CX_DRIVER_DISABLE_NFCEE_ACTION_NTF, NFC_CX_DRIVER_DISABLE_NFCEE_DISCOVERY, NFC_CX_DRIVER_DISABLE_RECOVERY_MODE, NFC_CX_DRIVER_DISABLE_WTD_TIMER, NFC_CX_DRIVER_ENABLE_EEPROM_WRITE_PROTECTION, NFC_CX_DRIVER_FLAGS, NFC_CX_DRIVER_HCI_NETWORK_PER_NFCEE, NFC_CX_DRIVER_ISODEP_RNAK_PRESENCE_CHK_SUPPORTED, NFC_CX_DRIVER_RF_ROUTING_POWER_SUB_STATES_SUPPORTED, PNFC_CX_DRIVER_FLAGS, PNFC_CX_DRIVER_FLAGS enumeration pointer [Near-Field Proximity Drivers], _NFC_CX_DRIVER_FLAGS, _NFC_CX_DRIVER_FLAGS enumeration [Near-Field Proximity Drivers], nfccx/NFC_CX_DRIVER_DISABLE_HOST_CARD_EMULATION, nfccx/NFC_CX_DRIVER_DISABLE_NFCEE_ACTION_NTF, nfccx/NFC_CX_DRIVER_DISABLE_NFCEE_DISCOVERY, nfccx/NFC_CX_DRIVER_DISABLE_RECOVERY_MODE, nfccx/NFC_CX_DRIVER_DISABLE_WTD_TIMER, nfccx/NFC_CX_DRIVER_ENABLE_EEPROM_WRITE_PROTECTION, nfccx/NFC_CX_DRIVER_HCI_NETWORK_PER_NFCEE, nfccx/NFC_CX_DRIVER_ISODEP_RNAK_PRESENCE_CHK_SUPPORTED, nfccx/NFC_CX_DRIVER_RF_ROUTING_POWER_SUB_STATES_SUPPORTED, nfccx/PNFC_CX_DRIVER_FLAGS, nfccx/_NFC_CX_DRIVER_FLAGS, nfpdrivers.nfc_cx_driver_flags"
 req.header: nfccx.h
@@ -48,7 +48,6 @@ api_name:
 
 # _NFC_CX_DRIVER_FLAGS enumeration
 
-
 ## -description
 
 Specifies run-time driver flags.
@@ -91,15 +90,19 @@ The R-NAK command for ISO-DEP will be used for presence check.
 
 Indicates support for RF routing switched ON power sub-states.
 
+### -field NFC_CX_DRIVER_SKIP_DEVICE_STOP_IDLE
+
+NFC CX will not call [WdfDeviceStopIdle](../wdfdevice/nf-wdfdevice-wdfdevicestopidle.md) or [WdfDeviceResumeIdle](../wdfdevice/nf-wdfdevice-wdfdeviceresumeidle.md).
+
+### -field NFC_CX_DRIVER_POWER_AND_LINK_CONTROL_SUPPORTED
+
+Indicates that **NFCEE_POWER_AND_LINK_CTRL** is supported for the NCI 1.x protocol as an extension.
+
 ## -remarks
 
 The NFC CX allows the NFC client driver to provide some driver flags that can be used to configure the run-time implementation of the class extension. These flags enable the NFC CX to implement some standard NCI operations slightly differently to support different firmware implementations due to ambiguities in the NCI specification.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
-
-
-<a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
-
+- [NFC class extension design guide](/windows-hardware/drivers/nfc/nfc-class-extension-)
+- [Near field communication (NFC) design guide](/windows-hardware/drivers/nfc/)

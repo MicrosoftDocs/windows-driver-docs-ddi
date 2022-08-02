@@ -4,7 +4,7 @@ title: _SECURE_ELEMENT_CARD_EMULATION_MODE (nfcsedev.h)
 description: This enumeration indicates the card emulation mode of a secure element.
 old-location: nfpdrivers\secure_element_set_card_emulation_mode.htm
 tech.root: nfpdrivers
-ms.date: 02/15/2018
+ms.date: 08/02/2022
 keywords: ["SECURE_ELEMENT_CARD_EMULATION_MODE enumeration"]
 ms.keywords: "*PSECURE_ELEMENT_CARD_EMULATION_MODE, EmulationOff, EmulationOnPowerDependent, EmulationOnPowerIndependent, SECURE_ELEMENT_CARD_EMULATION_MODE, SECURE_ELEMENT_CARD_EMULATION_MODE enumeration [Near-Field Proximity Drivers], _SECURE_ELEMENT_CARD_EMULATION_MODE, nfcsedev/EmulationOff, nfcsedev/EmulationOnPowerDependent, nfcsedev/EmulationOnPowerIndependent, nfcsedev/SECURE_ELEMENT_CARD_EMULATION_MODE, nfpdrivers.secure_element_set_card_emulation_mode"
 req.header: nfcsedev.h
@@ -48,7 +48,6 @@ api_name:
 
 # _SECURE_ELEMENT_CARD_EMULATION_MODE enumeration
 
-
 ## -description
 
 This enumeration indicates the card emulation mode of a secure element.
@@ -67,3 +66,6 @@ The eSE secure element is exposed regardless of the power state of the device/ba
 
 The secure element is exposed only as long as the device is powered on, and is the only secure element exposed. If the battery is removed, the device is powered off, or if power is not available, the secure element must no longer be exposed to the external reader.
 
+### -field EmulationStealthListen
+
+Indicates that the secure element emulates stealth listening mode.
