@@ -4,7 +4,7 @@ title: _SECURE_ELEMENT_AID_ROUTING_INFO (nfcsedev.h)
 description: SECURE_ELEMENT_AID_ROUTING_INFO is a member of SECURE_ELEMENT_ROUTING_TABLE_ENTRY.
 old-location: nfpdrivers\_secure_element_aid_routing_info.htm
 tech.root: nfpdrivers
-ms.date: 02/15/2018
+ms.date: 08/02/2022
 keywords: ["SECURE_ELEMENT_AID_ROUTING_INFO structure"]
 ms.keywords: "*PSECURE_ELEMENT_AID_ROUTING_INFO, P_SECURE_ELEMENT_AID_ROUTING_INFO, P_SECURE_ELEMENT_AID_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_AID_ROUTING_INFO, SECURE_ELEMENT_AID_ROUTING_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_AID_ROUTING_INFO, nfcsedev/P_SECURE_ELEMENT_AID_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_AID_ROUTING_INFO, nfpdrivers._secure_element_aid_routing_info"
 req.header: nfcsedev.h
@@ -48,10 +48,9 @@ api_name:
 
 # _SECURE_ELEMENT_AID_ROUTING_INFO structure
 
-
 ## -description
 
-SECURE_ELEMENT_AID_ROUTING_INFO is a member of <a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_routing_table_entry">SECURE_ELEMENT_ROUTING_TABLE_ENTRY</a>.
+SECURE_ELEMENT_AID_ROUTING_INFO is a member of [SECURE_ELEMENT_ROUTING_TABLE_ENTRY](/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_routing_table_entry).
 
 ## -struct-fields
 
@@ -63,14 +62,10 @@ Secure element unique identifier returned by enumeration DDI.
 
 Length of applet ID buffer.
 
-### -field pbAid
-
- 
-
-
-
-
-### -field pbAid[16]
+### -field pbAid[ISO_7816_MAXIMUM_AID_LENGTH]
 
 Buffer holding ISO 7816 AID.
 
+## see-also
+
+- [SECURE_ELEMENT_ROUTING_TABLE_ENTRY](/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_routing_table_entry)
