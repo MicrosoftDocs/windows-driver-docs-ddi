@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrintSchemaCapabilities.GetOptions
 title: IPrintSchemaCapabilities::GetOptions (printerextension.h)
 description: Gets all the options of a feature.
-old-location: print\iprintschemacapabilities_getoptions.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/01/2022
 keywords: ["IPrintSchemaCapabilities::GetOptions"]
 ms.keywords: GetOptions, GetOptions method [Print Devices], GetOptions method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetOptions method, IPrintSchemaCapabilities.GetOptions, IPrintSchemaCapabilities::GetOptions, print.iprintschemacapabilities_getoptions, printerextension/IPrintSchemaCapabilities::GetOptions
 req.header: printerextension.h
@@ -40,9 +39,6 @@ api_name:
  - IPrintSchemaCapabilities::GetOptions
 ---
 
-# IPrintSchemaCapabilities::GetOptions
-
-
 ## -description
 
 Gets all the options of a feature.
@@ -51,24 +47,18 @@ Gets all the options of a feature.
 
 ### -param pFeature [in]
 
-
 The specified feature.
 
 ### -param ppOptionCollection
-
-### -param ppOptions [out, retval]
 
 The returned options.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a>
+[IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoptioncollection">IPrintSchemaOptionCollection</a>
-
+[IPrintSchemaOptionCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoptioncollection)

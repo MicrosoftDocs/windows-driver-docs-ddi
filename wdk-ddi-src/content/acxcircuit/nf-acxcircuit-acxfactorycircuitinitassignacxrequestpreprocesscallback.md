@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback
 tech.root: audio
 title: AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback
-ms.date: 07/28/2022
+ms.date: 08/01/2022
 targetos: Windows
 description:  The AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback function add a WDFREQUEST preprocess callback.
 prerelease: true
@@ -53,7 +53,7 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param EvtObjectAcxRequestPreprocess
 
-A pointer to a [EVT_ACX_OBJECT_PREPROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_preprocess_request.md) callback. 
+A pointer to a [EVT_ACX_OBJECT_PREPROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_preprocess_request) callback. 
 
 ### -param DriverContext
 
@@ -61,7 +61,7 @@ The driver context defined by the ACXCONTEXT object.  For more information about
 
 ### -param RequestType
 
-An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_request_type.md)  that defines different request types, such as AcxRequestTypeAny, AcxRequestTypeProperty, etc. 
+An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_request_type)  that defines different request types, such as AcxRequestTypeAny, AcxRequestTypeProperty, etc. 
 
 ### -param Set
 

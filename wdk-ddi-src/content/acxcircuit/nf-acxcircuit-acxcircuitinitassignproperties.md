@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignProperties
 tech.root: audio
 title: AcxCircuitInitAssignProperties
-ms.date: 07/28/2022
+ms.date: 08/01/2022
 targetos: Windows
 description: The AcxCircuitInitAssignProperties function assigns one or more ACX properties for the ACXCIRCUIT.
 prerelease: true
@@ -52,7 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param Properties
 
-An [ACX_PROPERTY_ITEM structure](/windows-hardware/drivers/ddi/acxrequest/acxrequest/ns-acxrequest-acx_property_item) that defines a set of properties that will be used for circuit initialization by the circuit factory.
+An [ACX_PROPERTY_ITEM structure](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_property_item) that defines a set of properties that will be used for circuit initialization by the circuit factory.
 
 ### -param PropertiesCount
 

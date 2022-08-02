@@ -1,17 +1,16 @@
 ---
 UID: NE:printerextension.tagPrintSchemaConstrainedSetting
-title: tagPrintSchemaConstrainedSetting (printerextension.h)
+title: PrintSchemaConstrainedSetting (printerextension.h)
 description: The PrintSchemaConstrainedSetting enumeration specifies whether the Option is available based on the current device configuration. The constrained attribute appears only in a PrintCapabilities document.
-old-location: print\printschemaconstrainedsetting.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/01/2022
 keywords: ["tagPrintSchemaConstrainedSetting enumeration"]
 ms.keywords: PrintSchemaConstrainedSetting, PrintSchemaConstrainedSetting enumeration [Print Devices], PrintSchemaConstrainedSetting_Admin, PrintSchemaConstrainedSetting_Device, PrintSchemaConstrainedSetting_None, PrintSchemaConstrainedSetting_PrintTicket, print.printschemaconstrainedsetting, printerextension/PrintSchemaConstrainedSetting, printerextension/PrintSchemaConstrainedSetting_Admin, printerextension/PrintSchemaConstrainedSetting_Device, printerextension/PrintSchemaConstrainedSetting_None, printerextension/PrintSchemaConstrainedSetting_PrintTicket, tagPrintSchemaConstrainedSetting
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -43,12 +42,9 @@ api_name:
  - PrintSchemaConstrainedSetting
 ---
 
-# tagPrintSchemaConstrainedSetting enumeration
-
-
 ## -description
 
-The  PrintSchemaConstrainedSetting enumeration specifies whether the Option is available based on the current device configuration. The <b>constrained</b> attribute appears only in a PrintCapabilities document.
+The  PrintSchemaConstrainedSetting enumeration specifies whether the Option is available based on the current device configuration. The **constrained** attribute appears only in a PrintCapabilities document.
 
 ## -enum-fields
 
@@ -70,5 +66,4 @@ The Option is constrained by the device configuration. The Option should not be 
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaoption-get_constrained">IPrintSchemaOption::Constrained</a>
-
+[IPrintSchemaOption::Constrained](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaoption-get_constrained)

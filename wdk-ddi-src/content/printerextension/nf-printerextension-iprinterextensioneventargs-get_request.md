@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_Request
 title: IPrinterExtensionEventArgs::get_Request (printerextension.h)
 description: Gets the IPrinterExtensionRequest object for the current event.
-old-location: print\iprinterextensioneventargs_request.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/01/2022
 keywords: ["IPrinterExtensionEventArgs::get_Request"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],Request property, IPrinterExtensionEventArgs.Request, IPrinterExtensionEventArgs.get_Request, IPrinterExtensionEventArgs::Request, IPrinterExtensionEventArgs::get_Request, Request property [Print Devices], Request property [Print Devices],IPrinterExtensionEventArgs interface, get_Request, print.iprinterextensioneventargs_request, printerextension/IPrinterExtensionEventArgs::Request, printerextension/IPrinterExtensionEventArgs::get_Request
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,12 +39,9 @@ api_name:
  - IPrinterExtensionEventArgs::get_Request
 ---
 
-# IPrinterExtensionEventArgs::get_Request
-
-
 ## -description
 
-Gets the <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionrequest">IPrinterExtensionRequest</a> object for the current event.
+Gets the [IPrinterExtensionRequest](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionrequest) object for the current event.
 
 This interface is used to complete or cancel the event.
 
@@ -53,9 +49,6 @@ This property is read-only.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
+[IPrinterExtensionEventArgs](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionrequest">IPrinterExtensionRequest</a>
-
+[IPrinterExtensionRequest](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionrequest)

@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitAddConnections
 tech.root: audio
 title: AcxCircuitAddConnections
-ms.date: 06/16/2022
+ms.date: 08/01/2022
 targetos: Windows
 description: The AcxCircuitAddConnections function adds connections to an ACXCIRCUIT. 
 prerelease: true
@@ -52,7 +52,7 @@ An existing ACXCIRCUIT object.  For more information about ACX objects, see [Sum
   
 ### -param Connections
 
-A pointer to an [ACX_CONNECTION structure](/windows-hardware/drivers/ddi/acxrequest/acxpin/ns-acxpin-acx_connection) that describes the pin structure including the pin IDs.
+A pointer to an [ACX_CONNECTION structure](/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_connection) that describes the pin structure including the pin IDs.
 
 ### -param ConnectionsCount
 

@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrintSchemaFeature.get_SelectionType
 title: IPrintSchemaFeature::get_SelectionType (printerextension.h)
 description: Gets the selection type of the Feature.
-old-location: print\iprintschemafeature_selectiontype.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/01/2022
 keywords: ["IPrintSchemaFeature::get_SelectionType"]
 ms.keywords: IPrintSchemaFeature interface [Print Devices],SelectionType property, IPrintSchemaFeature.SelectionType, IPrintSchemaFeature.get_SelectionType, IPrintSchemaFeature::SelectionType, IPrintSchemaFeature::get_SelectionType, SelectionType property [Print Devices], SelectionType property [Print Devices],IPrintSchemaFeature interface, get_SelectionType, print.iprintschemafeature_selectiontype, printerextension/IPrintSchemaFeature::SelectionType, printerextension/IPrintSchemaFeature::get_SelectionType
 req.header: printerextension.h
@@ -40,16 +39,22 @@ api_name:
  - IPrintSchemaFeature::get_SelectionType
 ---
 
-# IPrintSchemaFeature::get_SelectionType
-
-
 ## -description
 
 Gets the selection type of the Feature.
 
 This property is read-only.
 
+## -parameters
+
+### -param pSelectionType
+
+Defines the PrintSchemaSelectionType parameter *pSelectionType*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature">IPrintSchemaFeature</a>
-
+[IPrintSchemaFeature](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature)

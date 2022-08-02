@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_STREAMAUDIOENGINE_CALLBACKS
 tech.root: audio 
 title: ACX_STREAMAUDIOENGINE_CALLBACKS
-ms.date: 04/29/2022
+ms.date: 08/01/2022
 targetos: Windows
 description: The ACX_STREAMAUDIOENGINE_CALLBACKS structure identifies the driver callbacks for ACX audio engine stream operations.
 prerelease: true
@@ -82,7 +82,7 @@ The [EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION](nc-acxelements-evt_ac
 
 ### -field EvtAcxStreamAudioEngineProcessRequest
 
-The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/acxrequest/nc-acxrequest-evt_acx_object_process_request.md) callback. 
+The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_process_request) callback. 
 
 ## -remarks
 

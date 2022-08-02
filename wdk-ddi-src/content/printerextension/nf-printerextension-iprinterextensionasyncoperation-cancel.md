@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrinterExtensionAsyncOperation.Cancel
 title: IPrinterExtensionAsyncOperation::Cancel (printerextension.h)
 description: Cancels the asynchronous operation.
-old-location: print\iprinterextensionasyncoperation_cancel.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/01/2022
 keywords: ["IPrinterExtensionAsyncOperation::Cancel"]
 ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrinterExtensionAsyncOperation interface, IPrinterExtensionAsyncOperation interface [Print Devices],Cancel method, IPrinterExtensionAsyncOperation.Cancel, IPrinterExtensionAsyncOperation::Cancel, print.iprinterextensionasyncoperation_cancel, printerextension/IPrinterExtensionAsyncOperation::Cancel
 req.header: printerextension.h
@@ -40,16 +39,13 @@ api_name:
  - IPrinterExtensionAsyncOperation::Cancel
 ---
 
-# IPrinterExtensionAsyncOperation::Cancel
-
-
 ## -description
 
 Cancels the asynchronous operation.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -remarks
 
@@ -58,5 +54,4 @@ Also, note that this method does not wait for the cancellation to be processed -
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionasyncoperation">IPrinterExtensionAsyncOperation</a>
-
+[IPrinterExtensionAsyncOperation](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionasyncoperation)

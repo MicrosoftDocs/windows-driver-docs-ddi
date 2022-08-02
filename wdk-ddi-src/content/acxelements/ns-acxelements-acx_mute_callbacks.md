@@ -2,7 +2,7 @@
 UID: NS:acxelements._ACX_MUTE_CALLBACKS
 tech.root: audio 
 title: ACX_MUTE_CALLBACKS
-ms.date: 04/29/2022
+ms.date: 08/01/2022
 targetos: Windows
 description: The ACX_MUTE_CALLBACKS structure identifies the driver callbacks for ACX mute operations.
 prerelease: true
@@ -62,7 +62,7 @@ The [EVT_ACX_MUTE_RETRIEVE_STATE](nc-acxelements-evt_acx_mute_retrieve_state.md)
 
 ### -field EvtAcxMuteProcessRequest
 
-The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/acxrequest/nc-acxrequest-evt_acx_object_process_request.md) callback. 
+The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_process_request) callback. 
 
 ## -remarks
 

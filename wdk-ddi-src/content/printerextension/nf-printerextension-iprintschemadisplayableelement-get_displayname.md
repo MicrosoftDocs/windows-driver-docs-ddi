@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrintSchemaDisplayableElement.get_DisplayName
 title: IPrintSchemaDisplayableElement::get_DisplayName (printerextension.h)
 description: Gets a displayable string for this item.
-old-location: print\iprintschemadisplayableelement_displayname.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/01/2022
 keywords: ["IPrintSchemaDisplayableElement::get_DisplayName"]
 ms.keywords: DisplayName property [Print Devices], DisplayName property [Print Devices],IPrintSchemaDisplayableElement interface, IPrintSchemaDisplayableElement interface [Print Devices],DisplayName property, IPrintSchemaDisplayableElement.DisplayName, IPrintSchemaDisplayableElement.get_DisplayName, IPrintSchemaDisplayableElement::DisplayName, IPrintSchemaDisplayableElement::get_DisplayName, get_DisplayName, print.iprintschemadisplayableelement_displayname, printerextension/IPrintSchemaDisplayableElement::DisplayName, printerextension/IPrintSchemaDisplayableElement::get_DisplayName
 req.header: printerextension.h
@@ -40,16 +39,22 @@ api_name:
  - IPrintSchemaDisplayableElement::get_DisplayName
 ---
 
-# IPrintSchemaDisplayableElement::get_DisplayName
-
-
 ## -description
 
 Gets a displayable string for this item.
 
 This property is read-only.
 
+## -parameters
+
+### -param pbstrDisplayName
+
+Defines the **BSTR** parameter *pbstrDisplayName*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemadisplayableelement">IPrintSchemaDisplayableElement</a>
-
+[IPrintSchemaDisplayableElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemadisplayableelement)

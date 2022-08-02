@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrintJobCollection.get_Count
 title: IPrintJobCollection::get_Count (printerextension.h)
 description: Gets the number of jobs in the print queue.
-old-location: print\iprintjobcollection_count.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/29/2022
 keywords: ["IPrintJobCollection::get_Count"]
 ms.keywords: Count property [Print Devices], Count property [Print Devices],IPrintJobCollection interface, IPrintJobCollection interface [Print Devices],Count property, IPrintJobCollection.Count, IPrintJobCollection.get_Count, IPrintJobCollection::Count, IPrintJobCollection::get_Count, get_Count, print.iprintjobcollection_count, printerextension/IPrintJobCollection::Count, printerextension/IPrintJobCollection::get_Count
 req.header: printerextension.h
@@ -40,16 +39,20 @@ api_name:
  - IPrintJobCollection::get_Count
 ---
 
-# IPrintJobCollection::get_Count
-
-
 ## -description
 
 Gets the number of jobs in the print queue.
 
 This property is read-only.
 
+## -parameters
+
+### -param pulCount
+
+Defines the **ULONG** parameter *pulCount*.
+
+## -returns
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a>
-
+[IPrintJobCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection)
