@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_UnitType
 title: IPrintSchemaParameterDefinition::get_UnitType (printerextension.h)
 description: The UnitType property gets the unit type.
-old-location: print\_iprintschemaparameterdefinition_unittype.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrintSchemaParameterDefinition::get_UnitType"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],UnitType property, IPrintSchemaParameterDefinition.UnitType, IPrintSchemaParameterDefinition.get_UnitType, IPrintSchemaParameterDefinition::UnitType, IPrintSchemaParameterDefinition::get_UnitType, UnitType property [Print Devices], UnitType property [Print Devices],IPrintSchemaParameterDefinition interface, get_UnitType, print._iprintschemaparameterdefinition_unittype, printerextension/IPrintSchemaParameterDefinition::UnitType, printerextension/IPrintSchemaParameterDefinition::get_UnitType
 req.header: printerextension.h
@@ -40,16 +39,12 @@ api_name:
  - IPrintSchemaParameterDefinition::get_UnitType
 ---
 
-# IPrintSchemaParameterDefinition::get_UnitType
-
-
 ## -description
 
-The <b>UnitType</b> property gets the unit type.
+The **UnitType** property gets the unit type.
 
 This property is read-only.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>
-
+[IPrintSchemaParameterDefinition](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition)

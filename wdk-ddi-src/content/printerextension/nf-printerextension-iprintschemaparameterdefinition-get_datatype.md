@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_DataType
 title: IPrintSchemaParameterDefinition::get_DataType (printerextension.h)
 description: The DataType property gets the PrintSchemaParameterDataType enumerated value that indicates the expected data type for the Print Schema parameter.
-old-location: print\_iprintschemaparameterdefinition_datatype.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrintSchemaParameterDefinition::get_DataType"]
 ms.keywords: DataType property [Print Devices], DataType property [Print Devices],IPrintSchemaParameterDefinition interface, IPrintSchemaParameterDefinition interface [Print Devices],DataType property, IPrintSchemaParameterDefinition.DataType, IPrintSchemaParameterDefinition.get_DataType, IPrintSchemaParameterDefinition::DataType, IPrintSchemaParameterDefinition::get_DataType, get_DataType, print._iprintschemaparameterdefinition_datatype, printerextension/IPrintSchemaParameterDefinition::DataType, printerextension/IPrintSchemaParameterDefinition::get_DataType
 req.header: printerextension.h
@@ -40,20 +39,14 @@ api_name:
  - IPrintSchemaParameterDefinition::get_DataType
 ---
 
-# IPrintSchemaParameterDefinition::get_DataType
-
-
 ## -description
 
-The <b>DataType</b> property gets the <a href="/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintschemaparameterdatatype">PrintSchemaParameterDataType</a> enumerated value that indicates the expected data type for the Print Schema parameter.
+The **DataType** property gets the [PrintSchemaParameterDataType](/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintschemaparameterdatatype) enumerated value that indicates the expected data type for the Print Schema parameter.
 
 This property is read-only.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>
+[IPrintSchemaParameterDefinition](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintschemaparameterdatatype">PrintSchemaParameterDataType</a>
-
+[PrintSchemaParameterDataType](/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintschemaparameterdatatype)

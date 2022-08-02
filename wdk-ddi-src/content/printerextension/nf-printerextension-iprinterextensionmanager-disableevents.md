@@ -2,15 +2,14 @@
 UID: NF:printerextension.IPrinterExtensionManager.DisableEvents
 title: IPrinterExtensionManager::DisableEvents (printerextension.h)
 description: Disallows events to be generated.
-old-location: print\iprinterextensionmanager_disableevents.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrinterExtensionManager::DisableEvents"]
 ms.keywords: DisableEvents, DisableEvents method [Print Devices], DisableEvents method [Print Devices],IPrinterExtensionManager interface, IPrinterExtensionManager interface [Print Devices],DisableEvents method, IPrinterExtensionManager.DisableEvents, IPrinterExtensionManager::DisableEvents, print.iprinterextensionmanager_disableevents, printerextension/IPrinterExtensionManager::DisableEvents
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
+req.target-min-winverclnt: Windows�8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,22 +39,16 @@ api_name:
  - IPrinterExtensionManager::DisableEvents
 ---
 
-# IPrinterExtensionManager::DisableEvents
-
-
 ## -description
 
 Disallows events to be generated.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensionmanager-enableevents">EnableEvents</a>
+[EnableEvents](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensionmanager-enableevents)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionmanager">IPrinterExtensionManager</a>
-
+[IPrinterExtensionManager](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionmanager)

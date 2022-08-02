@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrintSchemaTicket.GetCapabilities
 title: IPrintSchemaTicket::GetCapabilities (printerextension.h)
 description: Gets an IPrintSchemaCapabilities object that represents the printer capabilities based on the current settings of this IPrintSchemaTicket object.
-old-location: print\iprintschematicket_getcapabilities.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrintSchemaTicket::GetCapabilities"]
 ms.keywords: GetCapabilities, GetCapabilities method [Print Devices], GetCapabilities method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],GetCapabilities method, IPrintSchemaTicket.GetCapabilities, IPrintSchemaTicket::GetCapabilities, print.iprintschematicket_getcapabilities, printerextension/IPrintSchemaTicket::GetCapabilities
 req.header: printerextension.h
@@ -40,46 +39,32 @@ api_name:
  - IPrintSchemaTicket::GetCapabilities
 ---
 
-# IPrintSchemaTicket::GetCapabilities
-
-
 ## -description
 
-Gets an <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a> object that represents the printer capabilities based on the current settings of this <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a> object.
+Gets an [IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities) object that represents the printer capabilities based on the current settings of this [IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket) object.
 
 ## -parameters
 
 ### -param ppCapabilities
 
-### -param ppPrintCapabilities [out, retval]
-
-The returned <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a> object.
+The returned [IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities) object.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -remarks
 
-Because this method retrieves a new PrintCapabilities document every time it is invoked, it is recommended that you invoke this method only when the <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a> object has been modified.
+Because this method retrieves a new PrintCapabilities document every time it is invoked, it is recommended that you invoke this method only when the [IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket) object has been modified.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a>
+[IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities)
 
+[IPrintSchemaElement::XmlNode](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode)
 
+[IPrintSchemaFeature::SelectedOption](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemafeature-get_selectedoption)
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode">IPrintSchemaElement::XmlNode</a>
+[IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemafeature-get_selectedoption">IPrintSchemaFeature::SelectedOption</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
-
-
-
-<a href="/windows/win32/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">IPrintSchemaTicket::put_JobCopiesAllDocuments</a>
-
+[IPrintSchemaTicket::put_JobCopiesAllDocuments](/windows/win32/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize)

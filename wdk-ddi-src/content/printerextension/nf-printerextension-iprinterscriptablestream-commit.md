@@ -10,8 +10,8 @@ ms.keywords: Commit, Commit method [Print Devices], Commit method [Print Devices
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: WindowsÂ 8
-req.target-min-winversvr: Windows ServerÂ 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -53,5 +53,5 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablestream">IPrinterScriptableStream</a>
+[IPrinterScriptableStream](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablestream)
 

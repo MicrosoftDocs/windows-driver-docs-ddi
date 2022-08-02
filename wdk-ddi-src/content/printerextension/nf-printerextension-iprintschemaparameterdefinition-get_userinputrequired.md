@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_UserInputRequired
 title: IPrintSchemaParameterDefinition::get_UserInputRequired (printerextension.h)
 description: The UserInputRequired property gets the Boolean value that indicates whether or not a user input value is required for the Print Schema parameter.
-old-location: print\_iprintschemaparameterdefinition_userinputrequired.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrintSchemaParameterDefinition::get_UserInputRequired"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],UserInputRequired property, IPrintSchemaParameterDefinition.UserInputRequired, IPrintSchemaParameterDefinition.get_UserInputRequired, IPrintSchemaParameterDefinition::UserInputRequired, IPrintSchemaParameterDefinition::get_UserInputRequired, UserInputRequired property [Print Devices], UserInputRequired property [Print Devices],IPrintSchemaParameterDefinition interface, get_UserInputRequired, print._iprintschemaparameterdefinition_userinputrequired, printerextension/IPrintSchemaParameterDefinition::UserInputRequired, printerextension/IPrintSchemaParameterDefinition::get_UserInputRequired
 req.header: printerextension.h
@@ -40,20 +39,16 @@ api_name:
  - IPrintSchemaParameterDefinition::get_UserInputRequired
 ---
 
-# IPrintSchemaParameterDefinition::get_UserInputRequired
-
-
 ## -description
 
-The <b>UserInputRequired</b> property gets the Boolean value that indicates whether or not a user input value is required for the Print Schema parameter.
+The **UserInputRequired** property gets the Boolean value that indicates whether or not a user input value is required for the Print Schema parameter.
 
 This property is read-only.
 
 ## -remarks
 
-The print dialog can use <b>UserInputRequired</b> to determine whether or not it should force the user to enter a valid value for the parameter, before it allows printing to proceed.
+The print dialog can use **UserInputRequired** to determine whether or not it should force the user to enter a valid value for the parameter, before it allows printing to proceed.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>
-
+[IPrintSchemaParameterDefinition](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition)

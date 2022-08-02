@@ -3,7 +3,7 @@ UID: NN:printerextension.IPrinterBidiSetRequestCallback
 title: IPrinterBidiSetRequestCallback (printerextension.h)
 description: Describes the signature of the callback object that receives the Bidi response.
 tech.root: print
-ms.date: 06/11/2021
+ms.date: 08/02/2022
 keywords: ["IPrinterBidiSetRequestCallback interface"]
 ms.keywords: IPrinterBidiSetRequestCallback, IPrinterBidiSetRequestCallback interface [Print Devices], IPrinterBidiSetRequestCallback interface [Print Devices],described, print.iprinterbidisetrequestcallback, printerextension/IPrinterBidiSetRequestCallback
 req.header: printerextension.h
@@ -39,8 +39,6 @@ api_name:
  - IPrinterBidiSetRequestCallback
 ---
 
-# IPrinterBidiSetRequestCallback interface
-
 ## -description
 
 Describes the signature of the callback object that receives the Bidi response.
@@ -51,7 +49,7 @@ The **IPrinterBidiSetRequestCallback** interface inherits from the [IUnknown](/w
 
 ## -remarks
 
-**IPrinterBidiSetRequestCallback** provides the Bidi response string, and **HRESULT** value returned from the [IBidiSpl2::SendRecvXmlString](../bidispl/nf-bidispl-ibidispl2-sendrecvxmlstring.md) method. In other words,  this interface provides the results of the attempt to send data to the device. 
+**IPrinterBidiSetRequestCallback** provides the Bidi response string, and **HRESULT** value returned from the [IBidiSpl2::SendRecvXmlString](../bidispl/nf-bidispl-ibidispl2-sendrecvxmlstring.md) method. In other words,  this interface provides the results of the attempt to send data to the device.
 
 **IPrinterBidiSetRequestCallback**  helps to make it possible to perform device maintenance from a UWP  device app or from a printer extension. For more information, see [Device Maintenance](/windows-hardware/drivers/print/device-maintenance).
 

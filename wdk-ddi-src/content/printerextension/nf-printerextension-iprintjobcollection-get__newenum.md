@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrintJobCollection.get__NewEnum
 title: IPrintJobCollection::get__NewEnum (printerextension.h)
 description: Gets a pointer to the enumerants of IPrintJobCollection objects.
-old-location: print\iprintjobcollection_newenum.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrintJobCollection::get__NewEnum"]
 ms.keywords: IPrintJobCollection interface [Print Devices],NewEnum property, IPrintJobCollection.NewEnum, IPrintJobCollection.get__NewEnum, IPrintJobCollection::NewEnum, IPrintJobCollection::get_NewEnum, IPrintJobCollection::get__NewEnum, NewEnum property [Print Devices], NewEnum property [Print Devices],IPrintJobCollection interface, get__NewEnum, print.iprintjobcollection_newenum, printerextension/IPrintJobCollection::NewEnum, printerextension/IPrintJobCollection::get_NewEnum
 req.header: printerextension.h
@@ -41,16 +40,12 @@ api_name:
  - IPrintJobCollection::get__NewEnum
 ---
 
-# IPrintJobCollection::get__NewEnum
-
-
 ## -description
 
-Gets a pointer to the enumerants of <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a> objects.
+Gets a pointer to the enumerants of [IPrintJobCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection) objects.
 
 This property is read-only.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a>
-
+[IPrintJobCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection)

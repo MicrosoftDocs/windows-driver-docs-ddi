@@ -2,15 +2,14 @@
 UID: NF:printerextension.IPrinterScriptableSequentialStream.Write
 title: IPrinterScriptableSequentialStream::Write (printerextension.h)
 description: The Write method writes the provided JavaScript array to the stream and returns the number of bytes written.
-old-location: print\iprinterscriptablesequentialstream_write.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrinterScriptableSequentialStream::Write"]
 ms.keywords: IPrinterScriptableSequentialStream interface [Print Devices],Write method, IPrinterScriptableSequentialStream.Write, IPrinterScriptableSequentialStream::Write, Write, Write method [Print Devices], Write method [Print Devices],IPrinterScriptableSequentialStream interface, print.iprinterscriptablesequentialstream_write, printerextension/IPrinterScriptableSequentialStream::Write
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,9 +39,6 @@ api_name:
  - IPrinterScriptableSequentialStream::Write
 ---
 
-# IPrinterScriptableSequentialStream::Write
-
-
 ## -description
 
 The Write method writes the provided JavaScript array to the stream and returns the number of bytes written.
@@ -51,21 +47,16 @@ The Write method writes the provided JavaScript array to the stream and returns 
 
 ### -param pArray
 
-### -param pcbWritten [out, retval]
+The array to write.
 
+### -param pcbWritten [out, retval]
 
 The number of bytes written.
 
-
-### -param pdispArray [in]
-
-The array to write.
-
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream">IPrinterScriptableSequentialStream</a>
-
+[IPrinterScriptableSequentialStream](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream)

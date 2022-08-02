@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrinterQueue.get_Handle
 title: IPrinterQueue::get_Handle (printerextension.h)
 description: Gets the underlying native handle for this print queue.
-old-location: print\iprinterqueue_handle.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrinterQueue::get_Handle"]
 ms.keywords: Handle property [Print Devices], Handle property [Print Devices],IPrinterQueue interface, IPrinterQueue interface [Print Devices],Handle property, IPrinterQueue.Handle, IPrinterQueue.get_Handle, IPrinterQueue::Handle, IPrinterQueue::get_Handle, get_Handle, print.iprinterqueue_handle, printerextension/IPrinterQueue::Handle, printerextension/IPrinterQueue::get_Handle
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,9 +39,6 @@ api_name:
  - IPrinterQueue::get_Handle
 ---
 
-# IPrinterQueue::get_Handle
-
-
 ## -description
 
 Gets the underlying native handle for this print queue.
@@ -51,5 +47,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a>
-
+[IPrinterQueue](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue)
