@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrinterPropertyBag.GetInt32
 title: IPrinterPropertyBag::GetInt32 (printerextension.h)
 description: Reads an integer property.
-old-location: print\iprinterpropertybag_getint32.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrinterPropertyBag::GetInt32"]
 ms.keywords: GetInt32, GetInt32 method [Print Devices], GetInt32 method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetInt32 method, IPrinterPropertyBag.GetInt32, IPrinterPropertyBag::GetInt32, print.iprinterpropertybag_getint32, printerextension/IPrinterPropertyBag::GetInt32
 req.header: printerextension.h
@@ -40,9 +39,6 @@ api_name:
  - IPrinterPropertyBag::GetInt32
 ---
 
-# IPrinterPropertyBag::GetInt32
-
-
 ## -description
 
 Reads an integer property.
@@ -51,19 +47,16 @@ Reads an integer property.
 
 ### -param bstrName [in]
 
-
 The property to read.
 
 ### -param pnValue [out, retval]
-
 
 The value read.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>
-
+[IPrinterPropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag)

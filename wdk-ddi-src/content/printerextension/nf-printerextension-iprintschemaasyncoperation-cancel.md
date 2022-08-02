@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrintSchemaAsyncOperation.Cancel
 title: IPrintSchemaAsyncOperation::Cancel (printerextension.h)
 description: Cancels the asynchronous PrintSchema operation.
-old-location: print\iprintschemaasyncoperation_cancel.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrintSchemaAsyncOperation::Cancel"]
 ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrintSchemaAsyncOperation interface, IPrintSchemaAsyncOperation interface [Print Devices],Cancel method, IPrintSchemaAsyncOperation.Cancel, IPrintSchemaAsyncOperation::Cancel, print.iprintschemaasyncoperation_cancel, printerextension/IPrintSchemaAsyncOperation::Cancel
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,18 +39,14 @@ api_name:
  - IPrintSchemaAsyncOperation::Cancel
 ---
 
-# IPrintSchemaAsyncOperation::Cancel
-
-
 ## -description
 
-Cancels the asynchronous PrintSchema operation.
+Cancels the asynchronous **PrintSchema** operation.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperation">IPrintSchemaAsyncOperation</a>
-
+[IPrintSchemaAsyncOperation](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperation)

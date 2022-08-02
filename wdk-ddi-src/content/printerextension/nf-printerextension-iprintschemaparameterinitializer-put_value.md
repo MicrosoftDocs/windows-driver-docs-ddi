@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrintSchemaParameterInitializer.put_Value
 title: IPrintSchemaParameterInitializer::put_Value (printerextension.h)
 description: The Value (put_Value) property modifies the value of the IPrintSchemaParameterInitializer object.
-old-location: print\iprintschemaparameterinitializer_putvalue.htm
 tech.root: print
-ms.date: 10/01/2020
+ms.date: 08/02/2022
 keywords: ["IPrintSchemaParameterInitializer::put_Value"]
 ms.keywords: IPrintSchemaParameterInitializer interface [Print Devices],Value property, IPrintSchemaParameterInitializer,put_Value, IPrintSchemaParameterInitializer.Value, IPrintSchemaParameterInitializer.put_Value, IPrintSchemaParameterInitializer::Value, IPrintSchemaParameterInitializer::put_Value, Value property [Print Devices], Value property [Print Devices],IPrintSchemaParameterInitializer interface, print.iprintschemaparameterinitializer_putvalue, printerextension/IPrintSchemaParameterInitializer::Value, printerextension/IPrintSchemaParameterInitializer::put_Value, put_Value
 req.header: printerextension.h
@@ -40,9 +39,6 @@ api_name:
  - IPrintSchemaParameterInitializer::put_Value
 ---
 
-# IPrintSchemaParameterInitializer::put_Value
-
-
 ## -description
 
 The **Value** (put_Value) property modifies the value of the [IPrintSchemaParameterInitializer](nn-printerextension-iprintschemaparameterinitializer.md) object.
@@ -68,4 +64,3 @@ In the case of the **PrintSchemaParameterDataType_NumericString** parameter data
 ## -see-also
 
 [IPrintSchemaParameterInitializer](nn-printerextension-iprintschemaparameterinitializer.md)
-

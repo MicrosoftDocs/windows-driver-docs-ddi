@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrintSchemaTicket2.GetParameterInitializer
 title: IPrintSchemaTicket2::GetParameterInitializer (printerextension.h)
 description: The GetParameterInitializer method retrieves the IPrintSchemaParameterInitializer object, and it represents the psf:ParameterInit element in the PrintTicket XML.
-old-location: print\iprintschematicket2_getparameterinitializer.htm
 tech.root: print
-ms.date: 06/25/2020
+ms.date: 08/02/2022
 keywords: ["IPrintSchemaTicket2::GetParameterInitializer"]
 ms.keywords: GetParameterInitializer, GetParameterInitializer method [Print Devices], GetParameterInitializer method [Print Devices],IPrintSchematicket2 interface, IPrintSchemaTicket2.GetParameterInitializer, IPrintSchemaTicket2::GetParameterInitializer, IPrintSchematicket2 interface [Print Devices],GetParameterInitializer method, IPrintSchematicket2::GetParameterInitializer, print.iprintschematicket2_getparameterinitializer, printerextension/IPrintSchematicket2::GetParameterInitializer
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,12 +39,9 @@ api_name:
  - IPrintSchemaTicket2::GetParameterInitializer
 ---
 
-# IPrintSchemaTicket2::GetParameterInitializer
-
-
 ## -description
 
-The **GetParameterInitializer** method retrieves the [IPrintSchemaParameterInitializer](./nn-printerextension-iprintschemaparameterinitializer.md) object, and it  represents the \<psf:ParameterInit\> element in the PrintTicket XML.
+The **GetParameterInitializer** method retrieves the [IPrintSchemaParameterInitializer](./nn-printerextension-iprintschemaparameterinitializer.md) object, and it  represents the `<psf:ParameterInit\>` element in the PrintTicket XML.
 
 The keyword name and keyword namespace URI specify the **IPrintSchemaParameterInitializer** object to be retrieved.
 
@@ -53,16 +49,13 @@ The keyword name and keyword namespace URI specify the **IPrintSchemaParameterIn
 
 ### -param bstrName [in]
 
-
 The keyword name.
 
 ### -param bstrNamespaceUri [in]
 
-
 The keyword namespace URI.
 
 ### -param ppParameterInitializer [out, retval]
-
 
 The [IPrintSchemaParameterInitializer](./nn-printerextension-iprintschemaparameterinitializer.md) object.
 
@@ -75,4 +68,3 @@ The **GetParameterInitializer** method returns an **HRESULT** value. If the prop
 [IPrintSchemaParameterInitializer](./nn-printerextension-iprintschemaparameterinitializer.md)
 
 [IPrintSchematicket2](./nn-printerextension-iprintschematicket2.md)
-

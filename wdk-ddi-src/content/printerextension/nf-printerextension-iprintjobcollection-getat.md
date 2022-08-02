@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrintJobCollection.GetAt
 title: IPrintJobCollection::GetAt (printerextension.h)
 description: Gets a pointer to an IPrintJob object.
-old-location: print\iprintjobcollection_getat.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrintJobCollection::GetAt"]
 ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrintJobCollection interface, IPrintJobCollection interface [Print Devices],GetAt method, IPrintJobCollection.GetAt, IPrintJobCollection::GetAt, print.iprintjobcollection_getat, printerextension/IPrintJobCollection::GetAt
 req.header: printerextension.h
@@ -40,34 +39,26 @@ api_name:
  - IPrintJobCollection::GetAt
 ---
 
-# IPrintJobCollection::GetAt
-
-
 ## -description
 
-Gets a pointer to an <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a> object.
+Gets a pointer to an [IPrintJob](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob) object.
 
 ## -parameters
 
 ### -param ulIndex [in]
 
-
-Index of the <b>IPrintJob</b> object within the collection.
+Index of the **IPrintJob** object within the collection.
 
 ### -param ppJob [out, retval]
 
-
-Pointer to an <b>IPrintJob</b> object.
+Pointer to an **IPrintJob** object.
 
 ## -returns
 
-Returns an <b>HRESULT</b> value. If the method call was not successful, it returns the appropriate <b>HRESULT</b> error code.
+Returns an **HRESULT** value. If the method call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
+[IPrintJob](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a>
-
+[IPrintJobCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection)

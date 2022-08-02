@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_RangeMin
 title: IPrintSchemaParameterDefinition::get_RangeMin (printerextension.h)
 description: The RangeMin property gets the minimum value of the allowed data range.
-old-location: print\_iprintschemaparameterdefinition_rangemin.htm
 tech.root: print
-ms.date: 10/01/2020
+ms.date: 08/02/2022
 keywords: ["IPrintSchemaParameterDefinition::get_RangeMin"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],RangeMin property, IPrintSchemaParameterDefinition.RangeMin, IPrintSchemaParameterDefinition.get_RangeMin, IPrintSchemaParameterDefinition::RangeMin, IPrintSchemaParameterDefinition::get_RangeMin, RangeMin property [Print Devices], RangeMin property [Print Devices],IPrintSchemaParameterDefinition interface, get_RangeMin, print._iprintschemaparameterdefinition_rangemin, printerextension/IPrintSchemaParameterDefinition::RangeMin, printerextension/IPrintSchemaParameterDefinition::get_RangeMin
 req.header: printerextension.h
@@ -40,9 +39,6 @@ api_name:
  - IPrintSchemaParameterDefinition::get_RangeMin
 ---
 
-# IPrintSchemaParameterDefinition::get_RangeMin
-
-
 ## -description
 
 The **RangeMin** property gets the minimum value of the allowed data range.
@@ -58,4 +54,3 @@ For the **PrintSchemaParameterDataType_NumericString** and **PrintSchemaParamete
 ## -see-also
 
 [IPrintSchemaParameterDefinition](nn-printerextension-iprintschemaparameterdefinition.md)
-

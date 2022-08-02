@@ -53,7 +53,7 @@ Defines the **ULONG** parameter *pulID*.
 
 ## -returns
 
-Returns an **HRESULT** value.
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -remarks
 

@@ -2,15 +2,14 @@
 UID: NF:printerextension.IPrintSchemaCapabilities.GetFeature
 title: IPrintSchemaCapabilities::GetFeature (printerextension.h)
 description: Gets a named feature from the PrintCapabilities, by name and full namespace URI.
-old-location: print\iprintschemacapabilities_getfeature.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrintSchemaCapabilities::GetFeature"]
 ms.keywords: GetFeature, GetFeature method [Print Devices], GetFeature method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetFeature method, IPrintSchemaCapabilities.GetFeature, IPrintSchemaCapabilities::GetFeature, print.iprintschemacapabilities_getfeature, printerextension/IPrintSchemaCapabilities::GetFeature
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,9 +39,6 @@ api_name:
  - IPrintSchemaCapabilities::GetFeature
 ---
 
-# IPrintSchemaCapabilities::GetFeature
-
-
 ## -description
 
 Gets a named feature from the PrintCapabilities, by name and full namespace URI.
@@ -51,39 +47,31 @@ Gets a named feature from the PrintCapabilities, by name and full namespace URI.
 
 ### -param bstrName [in]
 
-
 The base  value of the "name" attribute of the Feature element. For example, for the Print Schema feature, the tag looks like this <psf:Feature name="psk:JobOutputBin">, showing  a base value of "JobOutputBin".
 
 ### -param bstrNamespaceUri [in]
-
 
 The namespace URI value of the "name" attribute of the Feature element. For example, for the Print Schema feature, the tag looks like this <psf:Feature name="psk:JobOutputBin">, with a base name value of "JobOutputBin", and the namespace URI of the public Print Schema is "https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords".
 If the feature is not defined in the public Print Schema, then this should be the URI of the private namespace that defines the feature.
 
 ### -param ppFeature [out, retval]
 
-
 The returned feature.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -remarks
 
 When the requested feature, option or property is not found, this method returns S_FALSE and sets a NULL pointer on the output object of the feature, option or property.
 
-So if the <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a> object does not contain the specified feature, option or property, the app must obtain an <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a> object and query it via <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemacapabilities-getfeaturebykeyname">IPrintSchemaCapabilities::GetFeatureByKeyName</a> or via <b>IPrintSchemaCapabilities::GetFeature</b>.
+So if the [IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket) object does not contain the specified feature, option or property, the app must obtain an [IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities) object and query it via [IPrintSchemaCapabilities::GetFeatureByKeyName](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemacapabilities-getfeaturebykeyname) or via **IPrintSchemaCapabilities::GetFeature**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a>
+[IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities)
 
+[IPrintSchemaFeature](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature)
 
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature">IPrintSchemaFeature</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
-
+[IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)

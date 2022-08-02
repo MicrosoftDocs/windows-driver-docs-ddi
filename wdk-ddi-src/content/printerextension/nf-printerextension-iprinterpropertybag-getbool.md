@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrinterPropertyBag.GetBool
 title: IPrinterPropertyBag::GetBool (printerextension.h)
 description: Reads a specified boolean property.
-old-location: print\iprinterpropertybag_getbool.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrinterPropertyBag::GetBool"]
 ms.keywords: GetBool, GetBool method [Print Devices], GetBool method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetBool method, IPrinterPropertyBag.GetBool, IPrinterPropertyBag::GetBool, print.iprinterpropertybag_getbool, printerextension/IPrinterPropertyBag::GetBool
 req.header: printerextension.h
@@ -40,9 +39,6 @@ api_name:
  - IPrinterPropertyBag::GetBool
 ---
 
-# IPrinterPropertyBag::GetBool
-
-
 ## -description
 
 Reads a specified boolean property.
@@ -51,19 +47,16 @@ Reads a specified boolean property.
 
 ### -param bstrName [in]
 
-
 The name of the property.
 
 ### -param pbValue [out, retval]
-
 
 The returned property value.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>
-
+[IPrinterPropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag)

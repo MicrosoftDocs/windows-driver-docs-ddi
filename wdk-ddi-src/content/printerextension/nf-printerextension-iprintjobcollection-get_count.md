@@ -53,6 +53,8 @@ Defines the **ULONG** parameter *pulCount*.
 
 ## -returns
 
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
+
 ## -see-also
 
 [IPrintJobCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection)
