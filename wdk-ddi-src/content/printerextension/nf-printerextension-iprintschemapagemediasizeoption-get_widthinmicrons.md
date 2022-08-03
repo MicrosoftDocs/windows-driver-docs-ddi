@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrintSchemaPageMediaSizeOption.get_WidthInMicrons
 title: IPrintSchemaPageMediaSizeOption::get_WidthInMicrons (printerextension.h)
 description: Gets the width of the page in microns.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/03/2022
 keywords: ["IPrintSchemaPageMediaSizeOption::get_WidthInMicrons"]
 ms.keywords: IPrintSchemaPageMediaSizeOption interface [Print Devices],WidthInMicrons property, IPrintSchemaPageMediaSizeOption.WidthInMicrons, IPrintSchemaPageMediaSizeOption.get_WidthInMicrons, IPrintSchemaPageMediaSizeOption::WidthInMicrons, IPrintSchemaPageMediaSizeOption::get_WidthInMicrons, WidthInMicrons property [Print Devices], WidthInMicrons property [Print Devices],IPrintSchemaPageMediaSizeOption interface, get_WidthInMicrons, print.iprintschemapagemediasizeoption_widthinmicrons, printerextension/IPrintSchemaPageMediaSizeOption::WidthInMicrons, printerextension/IPrintSchemaPageMediaSizeOption::get_WidthInMicrons
 req.header: printerextension.h
@@ -44,6 +44,16 @@ api_name:
 Gets the width of the page in microns.
 
 This property is read-only.
+
+## -parameters
+
+### -param pulWidth
+
+Defines the **ULONG** parameter *pulWidth*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 

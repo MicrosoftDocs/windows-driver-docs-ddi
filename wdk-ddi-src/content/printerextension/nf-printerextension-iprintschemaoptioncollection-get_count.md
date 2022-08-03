@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrintSchemaOptionCollection.get_Count
 title: IPrintSchemaOptionCollection::get_Count (printerextension.h)
 description: Gets a count of the number of IPrintSchemaOption objects in the collection.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/03/2022
 keywords: ["IPrintSchemaOptionCollection::get_Count"]
 ms.keywords: Count property [Print Devices], Count property [Print Devices],IPrintSchemaOptionCollection interface, IPrintSchemaOptionCollection interface [Print Devices],Count property, IPrintSchemaOptionCollection.Count, IPrintSchemaOptionCollection.get_Count, IPrintSchemaOptionCollection::Count, IPrintSchemaOptionCollection::get_Count, get_Count, print.iprintschemaoptioncollection_count, printerextension/IPrintSchemaOptionCollection::Count, printerextension/IPrintSchemaOptionCollection::get_Count
 req.header: printerextension.h
@@ -44,6 +44,16 @@ api_name:
 Gets a count of the number of [IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption) objects in the collection.
 
 This property is read-only.
+
+## -parameters
+
+### -param pulCount
+
+Defines the **ULONG** parameter *pulCount*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 

@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrintSchemaPageImageableSize.get_OriginHeightInMicrons
 title: IPrintSchemaPageImageableSize::get_OriginHeightInMicrons (printerextension.h)
 description: Gets the vertical origin of the imageable area relative to the application media size.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/03/2022
 keywords: ["IPrintSchemaPageImageableSize::get_OriginHeightInMicrons"]
 ms.keywords: IPrintSchemaPageImageableSize interface [Print Devices],OriginHeightInMicrons property, IPrintSchemaPageImageableSize.OriginHeightInMicrons, IPrintSchemaPageImageableSize.get_OriginHeightInMicrons, IPrintSchemaPageImageableSize::OriginHeightInMicrons, IPrintSchemaPageImageableSize::get_OriginHeightInMicrons, OriginHeightInMicrons property [Print Devices], OriginHeightInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, get_OriginHeightInMicrons, print.iprintschemapageimageablesize_originheightinmicrons, printerextension/IPrintSchemaPageImageableSize::OriginHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_OriginHeightInMicrons
 req.header: printerextension.h
@@ -44,6 +44,16 @@ api_name:
 Gets the vertical origin of the imageable area relative to the application media size.
 
 This property is read-only.
+
+## -parameters
+
+### -param pulOriginHeight
+
+Defines the **ULONG** parameter *pulOriginHeight*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 

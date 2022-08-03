@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrintSchemaFeature.put_SelectedOption
 title: IPrintSchemaFeature::put_SelectedOption (printerextension.h)
 description: Changes the selected option of the Print Schema Feature element to the specified IPrintSchemaOption element.
 tech.root: print
-ms.date: 08/01/2022
+ms.date: 08/03/2022
 keywords: ["IPrintSchemaFeature::put_SelectedOption"]
 ms.keywords: IPrintSchemaFeature interface [Print Devices],SelectedOption property, IPrintSchemaFeature.SelectedOption, IPrintSchemaFeature.put_SelectedOption, IPrintSchemaFeature::SelectedOption, IPrintSchemaFeature::put_SelectedOption, SelectedOption property [Print Devices], SelectedOption property [Print Devices],IPrintSchemaFeature interface, get_SelectedOption, print.iprintschemafeature_put_selectedoption, printerextension/IPrintSchemaFeature::SelectedOption, printerextension/IPrintSchemaFeature::put_SelectedOption, put_SelectedOption
 req.header: printerextension.h
@@ -43,7 +43,9 @@ api_name:
 
 Changes the selected option of the Print Schema Feature element to the specified [IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption) element.
 
-This property is write-only.## -parameters
+This property is write-only.
+
+## -parameters
 
 ### -param pOption
 

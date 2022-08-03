@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrintSchemaPageImageableSize.get_ExtentHeightInMicrons
 title: IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons (printerextension.h)
 description: Gets the vertical distance between the origin and the bounding limit of the canvas application media size.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/03/2022
 keywords: ["IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons"]
 ms.keywords: ExtentHeightInMicrons property [Print Devices], ExtentHeightInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, IPrintSchemaPageImageableSize interface [Print Devices],ExtentHeightInMicrons property, IPrintSchemaPageImageableSize.ExtentHeightInMicrons, IPrintSchemaPageImageableSize.get_ExtentHeightInMicrons, IPrintSchemaPageImageableSize::ExtentHeightInMicrons, IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons, get_ExtentHeightInMicrons, print.iprintschemapageimageablesize_extentheightinmicrons, printerextension/IPrintSchemaPageImageableSize::ExtentHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons
 req.header: printerextension.h
@@ -44,6 +44,16 @@ api_name:
 Gets the vertical distance between the origin and the bounding limit of the canvas application media size.
 
 This property is read-only.
+
+## -parameters
+
+### -param pulExtentHeight
+
+Defines the ULONG parameter *pulExtentHeight*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 

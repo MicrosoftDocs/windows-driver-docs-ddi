@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrintSchemaPageImageableSize.get_ExtentWidthInMicrons
 title: IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons (printerextension.h)
 description: Gets the horizontal distance between the origin and the bounding limit of the application media size.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/03/2022
 keywords: ["IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons"]
 ms.keywords: ExtentWidthInMicrons property [Print Devices], ExtentWidthInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, IPrintSchemaPageImageableSize interface [Print Devices],ExtentWidthInMicrons property, IPrintSchemaPageImageableSize.ExtentWidthInMicrons, IPrintSchemaPageImageableSize.get_ExtentWidthInMicrons, IPrintSchemaPageImageableSize::ExtentWidthInMicrons, IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons, get_ExtentWidthInMicrons, print.iprintschemapageimageablesize_extentwidthinmicrons, printerextension/IPrintSchemaPageImageableSize::ExtentWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons
 req.header: printerextension.h
@@ -44,6 +44,16 @@ api_name:
 Gets the horizontal distance between the origin and the bounding limit of the application media size.
 
 This property is read-only.
+
+## -parameters
+
+### -param pulExtentWidth
+
+Defines the **ULONG** parameter *pulExtentWidth*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 
