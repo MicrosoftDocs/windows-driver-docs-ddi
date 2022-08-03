@@ -52,7 +52,7 @@ The **EXTENDED_CREATE_INFORMATION** structure is the **EaBuffer** field in [**Nt
 
 ### -field ExtendedCreateFlags
 
-Flags for the extended create. **ExtendedCreateFlags** can be one of the following values. When either of these flags are specified, [**NtCreateFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)'s file object is marked as opened for copy intent in its **FileObjectExtension**. Filters can check for this stored state by calling [**IoCheckFileObjectOpenedAsCopySource**](nf-ntifs-iocheckfileobjectopenedascopysource.md) or [**IoCheckFileObjectOpenedAsCopyDestination**](nf-ntifs-iocheckfileobjectopenedascopydestination.md)
+Flags for the extended create. **ExtendedCreateFlags** can be one of the following values. When either of these flags are specified, [**NtCreateFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)'s file object is marked as opened for copy intent in its **FileObjectExtension**. Filters can check for this stored state by calling [**IoCheckFileObjectOpenedAsCopySource**](../ntifs/nf-ntifs-iocheckfileobjectopenedascopysource.md) or [**IoCheckFileObjectOpenedAsCopyDestination**](../ntifs/nf-ntifs-iocheckfileobjectopenedascopydestination.md)
 
 | Flag | Meaning |
 | ---- | ------- |
@@ -128,4 +128,4 @@ See [Kernel-mode file copy and detecting copy file scenarios](/windows-hardware/
 
 [**NtCopyFileChunk**](/windows-hardware/drivers/ifs/nf-ntifs-ntcopyfilechunk)
 
-[**NtCreateFile**](../ntifs/nf-ntifs-ntcreatefile)
+[**NtCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md)

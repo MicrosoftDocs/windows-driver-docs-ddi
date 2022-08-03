@@ -2,7 +2,7 @@
 UID: NS:wdm._EXTENDED_CREATE_INFORMATION_32
 tech.root: kernel
 title: EXTENDED_CREATE_INFORMATION_32 (wdm.h)
-ms.date: 07/07/2022
+ms.date: 08/02/2022
 targetos: Windows
 description: Describes the 32-bit version of the EXTENDED_CREATE_INFORMATION structure.
 prerelease: false
@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 ## -description
 
-Describes the 32-bit version of the **EXTENDED_CREATE_INFORMATION** structure.
+Describes the 32-bit version of the [**EXTENDED_CREATE_INFORMATION**](ns-wdm-extended_create_information.md) structure.
 
 ## -struct-fields
 

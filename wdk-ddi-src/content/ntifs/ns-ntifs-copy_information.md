@@ -75,7 +75,7 @@ A filter can verify the correctness of the copied data with the source informati
 * Verify that a matching read occurred on **SourceFileObject**.
 * Verify that **SourceFileOffset** matches the write operation's file offset.
 
-See [Copying files in kernel mode](km-file-copy.md) for more information.
+See [Kernel-mode file copy and detecting copy file scenarios](/windows-hardware/drivers/ifs/km-file-copy) for more information.
 
 ## -see-also
 
