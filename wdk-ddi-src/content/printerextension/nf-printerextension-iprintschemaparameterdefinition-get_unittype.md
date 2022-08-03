@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrintSchemaParameterDefinition.get_UnitType
 title: IPrintSchemaParameterDefinition::get_UnitType (printerextension.h)
 description: The UnitType property gets the unit type.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/03/2022
 keywords: ["IPrintSchemaParameterDefinition::get_UnitType"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],UnitType property, IPrintSchemaParameterDefinition.UnitType, IPrintSchemaParameterDefinition.get_UnitType, IPrintSchemaParameterDefinition::UnitType, IPrintSchemaParameterDefinition::get_UnitType, UnitType property [Print Devices], UnitType property [Print Devices],IPrintSchemaParameterDefinition interface, get_UnitType, print._iprintschemaparameterdefinition_unittype, printerextension/IPrintSchemaParameterDefinition::UnitType, printerextension/IPrintSchemaParameterDefinition::get_UnitType
 req.header: printerextension.h
@@ -44,6 +44,16 @@ api_name:
 The **UnitType** property gets the unit type.
 
 This property is read-only.
+
+## -parameters
+
+### -param pbstrUnitType
+
+Defines the **BSTR** parameter *pbstrUnitType*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 

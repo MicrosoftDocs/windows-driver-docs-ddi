@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterPropertyBag.SetBytes
 title: IPrinterPropertyBag::SetBytes (printerextension.h)
 description: Writes a byte array property.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/03/2022
 keywords: ["IPrinterPropertyBag::SetBytes"]
 ms.keywords: IPrinterPropertyBag interface [Print Devices],SetBytes method, IPrinterPropertyBag.SetBytes, IPrinterPropertyBag::SetBytes, SetBytes, SetBytes method [Print Devices], SetBytes method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setbytes, printerextension/IPrinterPropertyBag::SetBytes
 req.header: printerextension.h
@@ -54,8 +54,6 @@ The array to write to.
 The number of bytes to write.
 
 ### -param pValue
-
-### -param rgbValue [in]
 
 The values to write.
 

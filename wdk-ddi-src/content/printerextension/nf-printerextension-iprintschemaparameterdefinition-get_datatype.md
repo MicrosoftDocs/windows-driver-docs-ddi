@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrintSchemaParameterDefinition.get_DataType
 title: IPrintSchemaParameterDefinition::get_DataType (printerextension.h)
 description: The DataType property gets the PrintSchemaParameterDataType enumerated value that indicates the expected data type for the Print Schema parameter.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/03/2022
 keywords: ["IPrintSchemaParameterDefinition::get_DataType"]
 ms.keywords: DataType property [Print Devices], DataType property [Print Devices],IPrintSchemaParameterDefinition interface, IPrintSchemaParameterDefinition interface [Print Devices],DataType property, IPrintSchemaParameterDefinition.DataType, IPrintSchemaParameterDefinition.get_DataType, IPrintSchemaParameterDefinition::DataType, IPrintSchemaParameterDefinition::get_DataType, get_DataType, print._iprintschemaparameterdefinition_datatype, printerextension/IPrintSchemaParameterDefinition::DataType, printerextension/IPrintSchemaParameterDefinition::get_DataType
 req.header: printerextension.h
@@ -44,6 +44,16 @@ api_name:
 The **DataType** property gets the [PrintSchemaParameterDataType](/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintschemaparameterdatatype) enumerated value that indicates the expected data type for the Print Schema parameter.
 
 This property is read-only.
+
+## -parameters
+
+### -param pDataType
+
+Defines the **PrintSchemaParameterDataType** parameter *pDataType*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 

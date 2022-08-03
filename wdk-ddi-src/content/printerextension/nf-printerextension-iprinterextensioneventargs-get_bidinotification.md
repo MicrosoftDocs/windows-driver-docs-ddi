@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterExtensionEventArgs.get_BidiNotification
 title: IPrinterExtensionEventArgs::get_BidiNotification (printerextension.h)
 description: Gets the text of the bidirectional communication (Bidi) notification, if applicable.
 tech.root: print
-ms.date: 08/01/2022
+ms.date: 08/03/2022
 keywords: ["IPrinterExtensionEventArgs::get_BidiNotification"]
 ms.keywords: BidiNotification property [Print Devices], BidiNotification property [Print Devices],IPrinterExtensionEventArgs interface, IPrinterExtensionEventArgs interface [Print Devices],BidiNotification property, IPrinterExtensionEventArgs.BidiNotification, IPrinterExtensionEventArgs.get_BidiNotification, IPrinterExtensionEventArgs::BidiNotification, IPrinterExtensionEventArgs::get_BidiNotification, get_BidiNotification, print.iprinterextensioneventargs_bidinotification, printerextension/IPrinterExtensionEventArgs::BidiNotification, printerextension/IPrinterExtensionEventArgs::get_BidiNotification
 req.header: printerextension.h
@@ -44,6 +44,16 @@ api_name:
 Gets the text of the bidirectional communication (Bidi) notification, if applicable.
 
 This property is read-only.
+
+## -parameters
+
+### -param pbstrBidiNotification
+
+Defines the **BSTR** parameter *pbstrBidiNotification*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 

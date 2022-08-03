@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterPropertyBag.GetReadStream
 title: IPrinterPropertyBag::GetReadStream (printerextension.h)
 description: Gets a stream in order to read from a stream property.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/03/2022
 keywords: ["IPrinterPropertyBag::GetReadStream"]
 ms.keywords: GetReadStream, GetReadStream method [Print Devices], GetReadStream method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetReadStream method, IPrinterPropertyBag.GetReadStream, IPrinterPropertyBag::GetReadStream, print.iprinterpropertybag_getreadstream, printerextension/IPrinterPropertyBag::GetReadStream
 req.header: printerextension.h
@@ -50,8 +50,6 @@ Gets a stream in order to read from a stream property.
 The property to read.
 
 ### -param ppValue
-
-### -param ppValueStream [out]
 
 The returned stream.
 

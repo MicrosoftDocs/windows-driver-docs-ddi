@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterExtensionContext.get_PrintSchemaTicket
 title: IPrinterExtensionContext::get_PrintSchemaTicket (printerextension.h)
 description: Gets the print ticket that is appropriate for the queue and the activation.
 tech.root: print
-ms.date: 08/01/2022
+ms.date: 08/03/2022
 keywords: ["IPrinterExtensionContext::get_PrintSchemaTicket"]
 ms.keywords: IPrinterExtensionContext interface [Print Devices],PrintSchemaTicket property, IPrinterExtensionContext.PrintSchemaTicket, IPrinterExtensionContext.get_PrintSchemaTicket, IPrinterExtensionContext::PrintSchemaTicket, IPrinterExtensionContext::get_PrintSchemaTicket, PrintSchemaTicket property [Print Devices], PrintSchemaTicket property [Print Devices],IPrinterExtensionContext interface, get_PrintSchemaTicket, print.iprinterextensioncontext_printschematicket, printerextension/IPrinterExtensionContext::PrintSchemaTicket, printerextension/IPrinterExtensionContext::get_PrintSchemaTicket
 req.header: printerextension.h
@@ -46,6 +46,8 @@ Gets the print ticket that is appropriate for the queue and the activation.
 This property is read-only.
 
 ## -parameters
+
+### -param ppTicket
 
 The appropriate print ticket.
 

@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterExtensionRequest.Cancel
 title: IPrinterExtensionRequest::Cancel (printerextension.h)
 description: Completes the extension event with a cancellation.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/03/2022
 keywords: ["IPrinterExtensionRequest::Cancel"]
 ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrinterExtensionRequest interface, IPrinterExtensionRequest interface [Print Devices],Cancel method, IPrinterExtensionRequest.Cancel, IPrinterExtensionRequest::Cancel, print.iprinterextensionrequest_cancel, printerextension/IPrinterExtensionRequest::Cancel
 req.header: printerextension.h
@@ -47,13 +47,11 @@ Completes the extension event with a cancellation.
 
 ### -param hrStatus
 
+The operation result.
+
 ### -param bstrLogMessage [in]
 
 The log message.
-
-### -param hr [in]
-
-The operation result.
 
 ## -returns
 

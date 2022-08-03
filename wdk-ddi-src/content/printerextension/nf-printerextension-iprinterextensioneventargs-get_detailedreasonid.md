@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterExtensionEventArgs.get_DetailedReasonId
 title: IPrinterExtensionEventArgs::get_DetailedReasonId (printerextension.h)
 description: Gets a more detailed activation reason than what can be retrieved from ReasonId.
 tech.root: print
-ms.date: 08/01/2022
+ms.date: 08/03/2022
 keywords: ["IPrinterExtensionEventArgs::get_DetailedReasonId"]
 ms.keywords: DetailedReasonId property [Print Devices], DetailedReasonId property [Print Devices],IPrinterExtensionEventArgs interface, IPrinterExtensionEventArgs interface [Print Devices],DetailedReasonId property, IPrinterExtensionEventArgs.DetailedReasonId, IPrinterExtensionEventArgs.get_DetailedReasonId, IPrinterExtensionEventArgs::DetailedReasonId, IPrinterExtensionEventArgs::get_DetailedReasonId, get_DetailedReasonId, print.iprinterextensioneventargs_detailedreasonid, printerextension/IPrinterExtensionEventArgs::DetailedReasonId, printerextension/IPrinterExtensionEventArgs::get_DetailedReasonId
 req.header: printerextension.h
@@ -44,6 +44,16 @@ api_name:
 Gets a more detailed activation reason than what can be retrieved from [ReasonId](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioneventargs-get_reasonid).
 
 This property is read-only.
+
+## -parameters
+
+### -param pDetailedReasonId
+
+Defines the **GUID** parameter *pDetailedReasonId*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -remarks
 

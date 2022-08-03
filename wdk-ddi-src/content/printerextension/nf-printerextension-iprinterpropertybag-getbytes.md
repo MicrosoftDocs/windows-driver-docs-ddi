@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterPropertyBag.GetBytes
 title: IPrinterPropertyBag::GetBytes (printerextension.h)
 description: Reads a byte array property.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/03/2022
 keywords: ["IPrinterPropertyBag::GetBytes"]
 ms.keywords: GetBytes, GetBytes method [Print Devices], GetBytes method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetBytes method, IPrinterPropertyBag.GetBytes, IPrinterPropertyBag::GetBytes, print.iprinterpropertybag_getbytes, printerextension/IPrinterPropertyBag::GetBytes
 req.header: printerextension.h
@@ -56,8 +56,6 @@ The property to read.
 The number of bytes read.
 
 ### -param ppValue
-
-### -param rgbValue [out]
 
 The returned array. This array must be freed by using CoTaskFree.
 

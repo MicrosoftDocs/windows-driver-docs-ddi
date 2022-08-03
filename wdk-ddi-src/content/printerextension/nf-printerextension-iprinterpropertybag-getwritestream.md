@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterPropertyBag.GetWriteStream
 title: IPrinterPropertyBag::GetWriteStream (printerextension.h)
 description: Gets a stream in order to write a stream property.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/03/2022
 keywords: ["IPrinterPropertyBag::GetWriteStream"]
 ms.keywords: GetWriteStream, GetWriteStream method [Print Devices], GetWriteStream method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetWriteStream method, IPrinterPropertyBag.GetWriteStream, IPrinterPropertyBag::GetWriteStream, print.iprinterpropertybag_getwritestream, printerextension/IPrinterPropertyBag::GetWriteStream
 req.header: printerextension.h
@@ -50,8 +50,6 @@ Gets a stream in order to write a stream property.
 The property to write.
 
 ### -param ppValue
-
-### -param ppValueStream [out, retval]
 
 The retrieved stream.
 

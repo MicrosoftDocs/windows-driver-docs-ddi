@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrintSchemaParameterDefinition.get_UserInputRequired
 title: IPrintSchemaParameterDefinition::get_UserInputRequired (printerextension.h)
 description: The UserInputRequired property gets the Boolean value that indicates whether or not a user input value is required for the Print Schema parameter.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/03/2022
 keywords: ["IPrintSchemaParameterDefinition::get_UserInputRequired"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],UserInputRequired property, IPrintSchemaParameterDefinition.UserInputRequired, IPrintSchemaParameterDefinition.get_UserInputRequired, IPrintSchemaParameterDefinition::UserInputRequired, IPrintSchemaParameterDefinition::get_UserInputRequired, UserInputRequired property [Print Devices], UserInputRequired property [Print Devices],IPrintSchemaParameterDefinition interface, get_UserInputRequired, print._iprintschemaparameterdefinition_userinputrequired, printerextension/IPrintSchemaParameterDefinition::UserInputRequired, printerextension/IPrintSchemaParameterDefinition::get_UserInputRequired
 req.header: printerextension.h
@@ -44,6 +44,16 @@ api_name:
 The **UserInputRequired** property gets the Boolean value that indicates whether or not a user input value is required for the Print Schema parameter.
 
 This property is read-only.
+
+## -parameters
+
+### -param pbIsRequired
+
+Defines the **BOOL** parameter *pbIsRequired*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -remarks
 

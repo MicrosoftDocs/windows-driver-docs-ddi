@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterExtensionContextCollection.GetAt
 title: IPrinterExtensionContextCollection::GetAt (printerextension.h)
 description: Gets a pointer to an IPrinterExtensionContext object.
 tech.root: print
-ms.date: 08/01/2022
+ms.date: 08/03/2022
 keywords: ["IPrinterExtensionContextCollection::GetAt"]
 ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrinterExtensionContextCollection interface, IPrinterExtensionContextCollection interface [Print Devices],GetAt method, IPrinterExtensionContextCollection.GetAt, IPrinterExtensionContextCollection::GetAt, get_GetAt, print.iprinterextensioncontextcollection_getat, printerextension/IPrinterExtensionContextCollection::GetAt
 req.header: printerextension.h

@@ -45,6 +45,16 @@ Gets the reason why the printer extension was activated.
 
 This property is read-only.
 
+## -parameters
+
+### -param pReasonId
+
+Defines the **GUID** parameter *pReasonId*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
+
 ## -remarks
 
 In this mode, preferences for a print job or default print preferences is expected to be displayed:

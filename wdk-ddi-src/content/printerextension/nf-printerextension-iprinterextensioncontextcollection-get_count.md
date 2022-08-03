@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterExtensionContextCollection.get_Count
 title: IPrinterExtensionContextCollection::get_Count (printerextension.h)
 description: Gets a count of the number of IPrinterExtensionContext objects in the collection.
 tech.root: print
-ms.date: 07/29/2022
+ms.date: 08/03/2022
 keywords: ["IPrinterExtensionContextCollection::get_Count"]
 ms.keywords: Count property [Print Devices], Count property [Print Devices],IPrinterExtensionContextCollection interface, IPrinterExtensionContextCollection interface [Print Devices],Count property, IPrinterExtensionContextCollection.Count, IPrinterExtensionContextCollection.get_Count, IPrinterExtensionContextCollection::Count, IPrinterExtensionContextCollection::get_Count, get_Count, print.iprinterextensioncontextcollection_count, printerextension/IPrinterExtensionContextCollection::Count, printerextension/IPrinterExtensionContextCollection::get_Count
 req.header: printerextension.h
@@ -50,6 +50,10 @@ This property is read-only.
 ### -param pulCount
 
 Defines the **ULONG** parameter *pulCount*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 

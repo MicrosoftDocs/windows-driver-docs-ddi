@@ -47,6 +47,16 @@ In PrintTicket XML, that's the value of the **psf:Value** child element for the 
 
 This property is write-only.
 
+## -parameters
+
+### -param pVar
+
+Defines the **VARIANT** parameter *pVar*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
+
 ## -remarks
 
 The **Value** (put_Value) property passes the new value as a Variant. Here is what the receiving function expects in the Variant type, and where the function will look for the new value, depending on the different parameter data types:

@@ -47,6 +47,16 @@ This interface is used to complete or cancel the event.
 
 This property is read-only.
 
+## -parameters
+
+### -param ppRequest
+
+Defines the **IPrinterExtensionRequest** parameter *ppRequest*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
+
 ## -see-also
 
 [IPrinterExtensionEventArgs](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs)

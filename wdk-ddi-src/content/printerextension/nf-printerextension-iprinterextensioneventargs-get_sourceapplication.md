@@ -9,8 +9,8 @@ ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],SourceApplicat
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows�8
-req.target-min-winversvr: Windows Server�2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -44,6 +44,16 @@ api_name:
 Gets the name of the application that invoked the printer extension.
 
 This property is read-only.
+
+## -parameters
+
+### -param pbstrApplication
+
+Defines the **BSTR** parameter *pbstrApplication*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 

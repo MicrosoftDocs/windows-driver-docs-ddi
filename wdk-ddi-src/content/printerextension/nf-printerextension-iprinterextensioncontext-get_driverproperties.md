@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterExtensionContext.get_DriverProperties
 title: IPrinterExtensionContext::get_DriverProperties (printerextension.h)
 description: Gets the driver property bag.
 tech.root: print
-ms.date: 08/01/2022
+ms.date: 08/03/2022
 keywords: ["IPrinterExtensionContext::get_DriverProperties"]
 ms.keywords: DriverProperties property [Print Devices], DriverProperties property [Print Devices],IPrinterExtensionContext interface, IPrinterExtensionContext interface [Print Devices],DriverProperties property, IPrinterExtensionContext.DriverProperties, IPrinterExtensionContext.get_DriverProperties, IPrinterExtensionContext::DriverProperties, IPrinterExtensionContext::get_DriverProperties, get_DriverProperties, print.iprinterextensioncontext_driverproperties, printerextension/IPrinterExtensionContext::DriverProperties, printerextension/IPrinterExtensionContext::get_DriverProperties
 req.header: printerextension.h
@@ -44,6 +44,16 @@ api_name:
 Gets the driver property bag.
 
 This property is read-only.
+
+## -parameters
+
+### -param ppPropertyBag
+
+Defines the **IPrinterPropertyBag** parameter *ppPropertyBag*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -remarks
 
