@@ -3,14 +3,14 @@ UID: NN:printerextension.IPrinterScriptableStream
 title: IPrinterScriptableStream (printerextension.h)
 description: The IPrinterScriptableStream interface builds on IPrinterScriptableSequentialStream and adds IStream-like semantics.
 tech.root: print
-ms.date: 06/11/2021
+ms.date: 08/04/2022
 keywords: ["IPrinterScriptableStream interface"]
 ms.keywords: IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], IPrinterScriptableStream interface [Print Devices],described, print.iprinterscriptablestream, printerextension/IPrinterScriptableStream
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -38,8 +38,6 @@ api_location:
 api_name:
  - IPrinterScriptableStream
 ---
-
-# IPrinterScriptableStream interface
 
 ## -description
 

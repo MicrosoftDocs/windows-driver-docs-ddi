@@ -2,9 +2,8 @@
 UID: NN:printerextension.IPrintSchemaNUpOption
 title: IPrintSchemaNUpOption (printerextension.h)
 description: Exposes a Print Schema NUp Option element.
-old-location: print\iprintschemanupoption_interface.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/04/2022
 keywords: ["IPrintSchemaNUpOption interface"]
 ms.keywords: IPrintSchemaNUpOption, IPrintSchemaNUpOption interface [Print Devices], IPrintSchemaNUpOption interface [Print Devices],described, print.iprintschemanupoption_interface, printerextension/IPrintSchemaNUpOption
 req.header: printerextension.h
@@ -40,10 +39,6 @@ api_name:
  - IPrintSchemaNUpOption
 ---
 
-# IPrintSchemaNUpOption interface
-
-
 ## -description
 
 Exposes a Print Schema NUp Option element.
-

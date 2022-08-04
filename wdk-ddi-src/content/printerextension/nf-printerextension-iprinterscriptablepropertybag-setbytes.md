@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterScriptablePropertyBag.SetBytes
 title: IPrinterScriptablePropertyBag::SetBytes (printerextension.h)
 description: Learn how this method writes a byte array property.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/04/2022
 keywords: ["IPrinterScriptablePropertyBag::SetBytes"]
 ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetBytes method, IPrinterScriptablePropertyBag.SetBytes, IPrinterScriptablePropertyBag::SetBytes, SetBytes, SetBytes method [Print Devices], SetBytes method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setbytes, printerextension/IPrinterScriptablePropertyBag::SetBytes
 req.header: printerextension.h
@@ -50,8 +50,6 @@ Writes a byte array property.
 The array to write to.
 
 ### -param pArray
-
-### -param pdispArray [in]
 
 The JavaScript array to write.
 

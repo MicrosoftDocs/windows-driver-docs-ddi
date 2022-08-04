@@ -3,7 +3,7 @@ UID: NN:printerextension.IPrinterScriptableSequentialStream
 title: IPrinterScriptableSequentialStream (printerextension.h)
 description: The IPrinterScriptableSequentialStream interface is an ISequentialStream-like interface that works in JavaScript. Instead of reading and writing byte arrays, it reads and writes JavaScript arrays of bytes, which are values between 0 and 255.
 tech.root: print
-ms.date: 06/11/2021
+ms.date: 08/04/2022
 keywords: ["IPrinterScriptableSequentialStream interface"]
 ms.keywords: IPrinterScriptableSequentialStream, IPrinterScriptableSequentialStream interface [Print Devices], IPrinterScriptableSequentialStream interface [Print Devices],described, print.iprinterscriptablesequentialstream_interface, printerextension/IPrinterScriptableSequentialStream
 req.header: printerextension.h
@@ -38,8 +38,6 @@ api_location:
 api_name:
  - IPrinterScriptableSequentialStream
 ---
-
-# IPrinterScriptableSequentialStream interface
 
 ## -description
 

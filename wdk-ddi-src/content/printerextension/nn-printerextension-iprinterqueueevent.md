@@ -2,16 +2,15 @@
 UID: NN:printerextension.IPrinterQueueEvent
 title: IPrinterQueueEvent (printerextension.h)
 description: Provides the event delegate for printer queue events.
-old-location: print\iprinterqueueevent_interface.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/04/2022
 keywords: ["IPrinterQueueEvent interface"]
 ms.keywords: IPrinterQueueEvent, IPrinterQueueEvent interface [Print Devices], IPrinterQueueEvent interface [Print Devices],described, print.iprinterqueueevent_interface, printerextension/IPrinterQueueEvent
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,14 +39,9 @@ api_name:
  - IPrinterQueueEvent
 ---
 
-# IPrinterQueueEvent interface
-
-
 ## -description
 
 Provides the event delegate for printer queue events.
-
-## -inheritance
 
 ## -remarks
 

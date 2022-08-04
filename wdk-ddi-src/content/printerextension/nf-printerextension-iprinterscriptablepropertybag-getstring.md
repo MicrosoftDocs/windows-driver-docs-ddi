@@ -39,8 +39,6 @@ api_name:
  - IPrinterScriptablePropertyBag::GetString
 ---
 
-# IPrinterScriptablePropertyBag::GetString
-
 ## -description
 
 Gets a string property.

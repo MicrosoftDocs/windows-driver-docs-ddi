@@ -9,8 +9,8 @@ ms.keywords: IPrinterExtensionContextCollection, IPrinterExtensionContextCollect
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -25,7 +25,7 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.product: Windows 10 or later.
 f1_keywords:
  - IPrinterExtensionContextCollection::get__NewEnum
  - printerextension/IPrinterExtensionContextCollection::get__NewEnum

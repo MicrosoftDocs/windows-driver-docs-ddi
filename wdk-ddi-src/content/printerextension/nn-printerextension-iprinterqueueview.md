@@ -2,16 +2,15 @@
 UID: NN:printerextension.IPrinterQueueView
 title: IPrinterQueueView (printerextension.h)
 description: Provides a way to change the range of print jobs being monitored.
-old-location: print\iprinterqueueview.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/04/2022
 keywords: ["IPrinterQueueView interface"]
 ms.keywords: IPrinterQueueView, IPrinterQueueView interface [Print Devices], IPrinterQueueView interface [Print Devices],described, print.iprinterqueueview, printerextension/IPrinterQueueView
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,14 +39,9 @@ api_name:
  - IPrinterQueueView
 ---
 
-# IPrinterQueueView interface
-
-
 ## -description
 
 Provides a way to change the range of print jobs being monitored.
-
-## -inheritance
 
 ## -remarks
 

@@ -9,7 +9,7 @@ ms.keywords: GetOptions, GetOptions method [Print Devices], GetOptions method [P
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

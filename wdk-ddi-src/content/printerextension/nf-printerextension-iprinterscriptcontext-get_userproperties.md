@@ -3,14 +3,14 @@ UID: NF:printerextension.IPrinterScriptContext.get_UserProperties
 title: IPrinterScriptContext::get_UserProperties (printerextension.h)
 description: Provides access to the user property bag, if the property bag is present.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/04/2022
 keywords: ["IPrinterScriptContext::get_UserProperties"]
 ms.keywords: IPrinterScriptContext interface [Print Devices],UserProperties property, IPrinterScriptContext.UserProperties, IPrinterScriptContext.get_UserProperties, IPrinterScriptContext::UserProperties, IPrinterScriptContext::get_UserProperties, UserProperties property [Print Devices], UserProperties property [Print Devices],IPrinterScriptContext interface, get_UserProperties, print.iprinterscriptcontext_userproperties, printerextension/IPrinterScriptContext::UserProperties, printerextension/IPrinterScriptContext::get_UserProperties
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -44,6 +44,16 @@ api_name:
 Provides access to the user property bag, if the property bag is present.
 
 This property is read-only.
+
+## -parameters
+
+### -param ppPropertyBag
+
+Defines the **IPrinterScriptablePropertyBag** parameter *ppPropertyBag*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -remarks
 

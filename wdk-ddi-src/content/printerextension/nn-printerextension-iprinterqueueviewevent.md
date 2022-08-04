@@ -2,16 +2,15 @@
 UID: NN:printerextension.IPrinterQueueViewEvent
 title: IPrinterQueueViewEvent (printerextension.h)
 description: Provides the signature of the event handler.
-old-location: print\iprinterqueueviewevent.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/04/2022
 keywords: ["IPrinterQueueViewEvent interface"]
 ms.keywords: IPrinterQueueViewEvent, IPrinterQueueViewEvent interface [Print Devices], IPrinterQueueViewEvent interface [Print Devices],described, print.iprinterqueueviewevent, printerextension/IPrinterQueueViewEvent
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,14 +39,9 @@ api_name:
  - IPrinterQueueViewEvent
 ---
 
-# IPrinterQueueViewEvent interface
-
-
 ## -description
 
 Provides the signature of the event handler.
-
-## -inheritance
 
 ## -remarks
 

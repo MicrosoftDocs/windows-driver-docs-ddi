@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterQueue.get_Handle
 title: IPrinterQueue::get_Handle (printerextension.h)
 description: Gets the underlying native handle for this print queue.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/04/2022
 keywords: ["IPrinterQueue::get_Handle"]
 ms.keywords: Handle property [Print Devices], Handle property [Print Devices],IPrinterQueue interface, IPrinterQueue interface [Print Devices],Handle property, IPrinterQueue.Handle, IPrinterQueue.get_Handle, IPrinterQueue::Handle, IPrinterQueue::get_Handle, get_Handle, print.iprinterqueue_handle, printerextension/IPrinterQueue::Handle, printerextension/IPrinterQueue::get_Handle
 req.header: printerextension.h
@@ -44,6 +44,16 @@ api_name:
 Gets the underlying native handle for this print queue.
 
 This property is read-only.
+
+## -parameters
+
+### -param phPrinter
+
+Defines the **HANDLE** parameter *phPrinter*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 

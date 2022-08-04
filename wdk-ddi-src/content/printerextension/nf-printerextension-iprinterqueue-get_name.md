@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterQueue.get_Name
 title: IPrinterQueue::get_Name (printerextension.h)
 description: Gets the name of the printer for this print queue.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 08/04/2022
 keywords: ["IPrinterQueue::get_Name"]
 ms.keywords: IPrinterQueue interface [Print Devices],Name property, IPrinterQueue.Name, IPrinterQueue.get_Name, IPrinterQueue::Name, IPrinterQueue::get_Name, Name property [Print Devices], Name property [Print Devices],IPrinterQueue interface, get_Name, print.iprinterqueue_name, printerextension/IPrinterQueue::Name, printerextension/IPrinterQueue::get_Name
 req.header: printerextension.h
@@ -46,6 +46,16 @@ api_name:
 Gets the name of the printer for this print queue.
 
 This property is read-only.
+
+## -parameters
+
+### -param pbstrName
+
+Defines the **BSTR** parameter *pbstrName*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 
