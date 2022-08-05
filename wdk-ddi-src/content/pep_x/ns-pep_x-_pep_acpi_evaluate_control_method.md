@@ -4,7 +4,7 @@ title: _PEP_ACPI_EVALUATE_CONTROL_METHOD (pep_x.h)
 description: Learn how the PEP_ACPI_EVALUATE_CONTROL_METHOD structure specifies an ACPI control method to evaluate, an input argument to supply to this method, and an output buffer for the result of the evaluation.
 old-location: kernel\pep_acpi_evaluate_control_method.htm
 tech.root: kernel
-ms.date: 07/29/2021
+ms.date: 08/05/2022
 keywords: ["PEP_ACPI_EVALUATE_CONTROL_METHOD structure"]
 ms.keywords: "*PPEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD structure [Kernel-Mode Driver Architecture], PPEP_ACPI_EVALUATE_CONTROL_METHOD, PPEP_ACPI_EVALUATE_CONTROL_METHOD structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_EVALUATE_CONTROL_METHOD, kernel.pep_acpi_evaluate_control_method, pepfx/PEP_ACPI_EVALUATE_CONTROL_METHOD, pepfx/PPEP_ACPI_EVALUATE_CONTROL_METHOD"
 req.header: pep_x.h
@@ -110,16 +110,6 @@ On input, the size, in bytes, of the output buffer pointed to by the **OutputArg
 
 A pointer to an output buffer to which the PEP writes an [ACPI_METHOD_ARGUMENT](../acpiioct/ns-acpiioct-_acpi_method_argument_v1.md) structure that contains the result of evaluating the specified ACPI control method.
 
-### -field ( unnamed union )
-
-#### MethodNameUlong
-
-#### MethodNameString
-
-##### - ( unnamed union ).MethodNameString
-
-##### - ( unnamed union ).MethodNameUlong
-
 ## -remarks
 
 This structure is used by the [PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD](../pepfx/ns-pepfx-_pep_acpi_evaluate_control_method.md) notification. The **MethodStatus** member contains an output value that the PEP writes to the structure in response to this notification. The **OutputArgumentSize** member contains an input value supplied by PoFx when the notification is sent. The PEP may overwrite this input value with an output value if the input value is less than the required output buffer size. All other members of this structure contain input values that are supplied by PoFx when the notification is sent.
@@ -128,10 +118,7 @@ This structure defines an unnamed union that contains either the four-character 
 
 ## -see-also
 
-[ACPI_METHOD_ARGUMENT](../acpiioct/ns-acpiioct-_acpi_method_argument_v1.md)
-
-[ANSI_STRING](/windows/win32/api/ntdef/ns-ntdef-string)
-
-[PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD](../pepfx/ns-pepfx-_pep_acpi_evaluate_control_method.md)
-
-[PEP_NOTIFY_ACPI_REGISTER_DEVICE](../pepfx/ns-pepfx-_pep_acpi_register_device.md)
+- [ACPI_METHOD_ARGUMENT](../acpiioct/ns-acpiioct-_acpi_method_argument_v1.md)
+- [ANSI_STRING](/windows/win32/api/ntdef/ns-ntdef-string)
+- [PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD](../pepfx/ns-pepfx-_pep_acpi_evaluate_control_method.md)
+- [PEP_NOTIFY_ACPI_REGISTER_DEVICE](../pepfx/ns-pepfx-_pep_acpi_register_device.md)

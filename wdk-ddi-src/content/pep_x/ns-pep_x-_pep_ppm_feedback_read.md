@@ -48,93 +48,38 @@ api_name:
 
 # _PEP_PPM_FEEDBACK_READ structure (pep_x.h)
 
-
 ## -description
 
-The <b>PEP_PPM_FEEDBACK_READ</b> structure contains the value read from a processor performance feedback counter.
+The **PEP_PPM_FEEDBACK_READ** structure contains the value read from a processor performance feedback counter.
 
 ## -struct-fields
 
 ### -field CounterIndex [in]
 
-The index that identifies which processor performance feedback counter to read. If the platform extension plug-in (PEP) supports N counters for this processor, counter indexes range from 0 to N-1. The PEP previously supplied the number of supported counters in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_capabilities">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification.
+The index that identifies which processor performance feedback counter to read. If the platform extension plug-in (PEP) supports N counters for this processor, counter indexes range from 0 to N-1. The PEP previously supplied the number of supported counters in response to a [PEP_NOTIFY_PPM_QUERY_CAPABILITIES](../pepfx/ns-pepfx-_pep_ppm_query_capabilities.md) notification.
 
 ### -field InstantaneousValue
 
+The current instantaneous value read from the counter, if the counter generates an instantaneous value.
+
 ### -field NominalCount
+
+The nominal accumulated value of the counter. The accumulated value is the sum of all actual values that have so far been read from the counter hardware.
 
 ### -field ActualCount
 
- 
-
-
-
-
-### -field ( unnamed union )
-
-Either an instantaneous counter value, if the counter generates an instantaneous value, or both relative and accumulated counter values, if the counter hardware generates a relative value. For more information, see Remarks.
-
-
-
-#### InstantaneousValue
-
-[out] The current instantaneous value read from the counter, if the counter generates an instantaneous value.
-
-
-
-#### ( unnamed struct )
-
-The nominal accumulated count and actual count, if the counter hardware generates a relative value.
-
-
-
-##### NominalCount
-
-[out] The nominal accumulated value of the counter. The accumulated value is the sum of all actual values that have so far been read from the counter hardware.
-
-
-
-##### ActualCount
-
-[out] The actual value read from the counter.
-
-
-##### - ( unnamed union ).( unnamed struct )
-
-The nominal accumulated count and actual count, if the counter hardware generates a relative value.
-
-
-
-##### ( unnamed struct ).NominalCount
-
-[out] The nominal accumulated value of the counter. The accumulated value is the sum of all actual values that have so far been read from the counter hardware.
-
-
-
-##### ( unnamed struct ).ActualCount
-
-[out] The actual value read from the counter.
-
-
-##### - ( unnamed union ).InstantaneousValue
-
-[out] The current instantaneous value read from the counter, if the counter generates an instantaneous value.
+The actual value read from the counter.
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_feedback_read">PEP_NOTIFY_PPM_FEEDBACK_READ</a> notification. The <b>CounterIndex</b> member of the structure contains an input value supplied by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) when this notification is set. The other members contain output values that the PEP writes to the structure in response to the notification. The PEP writes to the <b>InstantaneousValue</b> member if the counter generates an instantaneous value, or to the <b>NominalCount</b> and <b>ActualCount</b> members if the counter generates a relative value.
+The unnamed union contains rither an instantaneous counter value, if the counter generates an instantaneous value, or both relative and accumulated counter values, if the counter hardware generates a relative value.
 
-Both an instantaneous counter and a relative counter are reset to zero when power is first turned on, but reading a relative counter causes the count to reset to zero, whereas reading an instantaneous counter does not reset the count. The PEP previously indicated whether the counter is instantaneous or relative in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_feedback_counters">PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS</a> notification.
+This structure is used by the [PEP_NOTIFY_PPM_FEEDBACK_READ](../pepfx/ns-pepfx-_pep_ppm_feedback_read.md) notification. The **CounterIndex** member of the structure contains an input value supplied by the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) when this notification is set. The other members contain output values that the PEP writes to the structure in response to the notification. The PEP writes to the **InstantaneousValue** member if the counter generates an instantaneous value, or to the **NominalCount** and **ActualCount** members if the counter generates a relative value.
+
+Both an instantaneous counter and a relative counter are reset to zero when power is first turned on, but reading a relative counter causes the count to reset to zero, whereas reading an instantaneous counter does not reset the count. The PEP previously indicated whether the counter is instantaneous or relative in response to a [PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS](../pepfx/ns-pepfx-_pep_ppm_query_feedback_counters.md) notification.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_feedback_read">PEP_NOTIFY_PPM_FEEDBACK_READ</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_capabilities">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_feedback_counters">PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS</a>
-
+- [PEP_NOTIFY_PPM_FEEDBACK_READ](../pepfx/ns-pepfx-_pep_ppm_feedback_read.md)
+- [PEP_NOTIFY_PPM_QUERY_CAPABILITIES](../pepfx/ns-pepfx-_pep_ppm_query_capabilities.md)
+- [PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS](../pepfx/ns-pepfx-_pep_ppm_query_feedback_counters.md)
