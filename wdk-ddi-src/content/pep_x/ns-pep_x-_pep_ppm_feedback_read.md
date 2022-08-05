@@ -54,7 +54,7 @@ The **PEP_PPM_FEEDBACK_READ** structure contains the value read from a processor
 
 ## -struct-fields
 
-### -field CounterIndex [in]
+### -field CounterIndex
 
 The index that identifies which processor performance feedback counter to read. If the platform extension plug-in (PEP) supports N counters for this processor, counter indexes range from 0 to N-1. The PEP previously supplied the number of supported counters in response to a [PEP_NOTIFY_PPM_QUERY_CAPABILITIES](../pepfx/ns-pepfx-_pep_ppm_query_capabilities.md) notification.
 
