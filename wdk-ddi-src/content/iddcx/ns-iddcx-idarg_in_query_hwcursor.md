@@ -4,14 +4,14 @@ title: IDARG_IN_QUERY_HWCURSOR (iddcx.h)
 description: Gives information about the cursor associated with the monitor.
 old-location: display\idarg_in_query_hwcursor.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/05/2022
 keywords: ["IDARG_IN_QUERY_HWCURSOR structure"]
 ms.keywords: IDARG_IN_QUERY_HWCURSOR, IDARG_IN_QUERY_HWCURSOR structure [Display Devices], PIDARG_IN_QUERY_HWCURSOR, PIDARG_IN_QUERY_HWCURSOR structure pointer [Display Devices], display.idarg_in_query_hwcursor, iddcx/IDARG_IN_QUERY_HWCURSOR, iddcx/PIDARG_IN_QUERY_HWCURSOR
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10
+req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -42,22 +42,26 @@ api_name:
 
 # IDARG_IN_QUERY_HWCURSOR structure
 
-
 ## -description
 
-Gives information about the cursor associated with the monitor.
+The **IDARG_IN_QUERY_HWCURSOR** structure is passed to [**IddCxMonitorQueryHardwareCursor**](nf-iddcx-iddcxmonitorqueryhardwarecursor.md) and [**IddCxMonitorQueryHardwareCursor2**](nf-iddcx-iddcxmonitorqueryhardwarecursor2.md) to provide information about the cursor associated with the monitor.
 
 ## -struct-fields
 
 ### -field LastShapeId [in]
 
-The shape id of the last cursor shape the driver received for this monitor. This is compared against the latest shape the OS has. The new shape is only copied to the buffer if the OS version has been updated since the last image driver was        received.
+The ID of the last cursor shape the driver received for this monitor. This ID is compared against the latest shape ID that the OS has. The new shape is only copied to the buffer that **pShapeBuffer** points to if the OS version has been updated since the last image driver was received.
 
 ### -field ShapeBufferSizeInBytes [in]
 
-Size of the cursor shape buffer <b>pShapeBuffer</b>.
+Size in bytes of the cursor shape buffer that **pShapeBuffer** points to.
 
 ### -field pShapeBuffer [out]
 
-Buffer provided by driver that the OS will copy any new cursor image data into.
+Pointer to a driver-allocated buffer that the OS will copy any new cursor image data into.
 
+## -see-also
+
+[**IddCxMonitorQueryHardwareCursor**](nf-iddcx-iddcxmonitorqueryhardwarecursor.md)
+
+ [**IddCxMonitorQueryHardwareCursor2**](nf-iddcx-iddcxmonitorqueryhardwarecursor2.md)
