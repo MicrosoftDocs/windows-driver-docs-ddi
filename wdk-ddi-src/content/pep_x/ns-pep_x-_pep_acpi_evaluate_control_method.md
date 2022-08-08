@@ -4,7 +4,7 @@ title: _PEP_ACPI_EVALUATE_CONTROL_METHOD (pep_x.h)
 description: Learn how the PEP_ACPI_EVALUATE_CONTROL_METHOD structure specifies an ACPI control method to evaluate, an input argument to supply to this method, and an output buffer for the result of the evaluation.
 old-location: kernel\pep_acpi_evaluate_control_method.htm
 tech.root: kernel
-ms.date: 08/05/2022
+ms.date: 08/08/2022
 keywords: ["PEP_ACPI_EVALUATE_CONTROL_METHOD structure"]
 ms.keywords: "*PPEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD structure [Kernel-Mode Driver Architecture], PPEP_ACPI_EVALUATE_CONTROL_METHOD, PPEP_ACPI_EVALUATE_CONTROL_METHOD structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_EVALUATE_CONTROL_METHOD, kernel.pep_acpi_evaluate_control_method, pepfx/PEP_ACPI_EVALUATE_CONTROL_METHOD, pepfx/PPEP_ACPI_EVALUATE_CONTROL_METHOD"
 req.header: pep_x.h
