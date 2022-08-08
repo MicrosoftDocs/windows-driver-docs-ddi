@@ -76,7 +76,7 @@ A ULONG value that contains the four-character, path-relative name of the ACPI c
 
 An [ANSI_STRING](/windows/win32/api/ntdef/ns-ntdef-string) structure that contains the fully qualified name of the ACPI control method. This name specifies the path and name of the method in the ACPI namespace. For more information, see [Enumerating Child Devices and Control Methods](/windows-hardware/drivers/acpi/enumerating-child-devices-and-control-methods).
 
-### -field MethodStatus [out]
+### -field MethodStatus
 
 An NTSTATUS value that indicates the status of the evaluation of the ACPI control method. Set this member to STATUS_SUCCESS to indicate that the platform extension plug-in (PEP) successfully completed its evaluation of the method. Set to STATUS_NOT_SUPPORTED to indicate that the PEP does not recognize the control method. Set to STATUS_BUFFER_TOO_SMALL to indicate that the output buffer size specified by the **InputArgumentSize** member is not large enough to contain the method results.
 
