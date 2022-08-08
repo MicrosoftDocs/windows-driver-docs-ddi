@@ -4,7 +4,7 @@ title: _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE (pep_x.h)
 description: Learn how the PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure contains an enumeration of the objects in the namespace of the device.
 old-location: kernel\pep_acpi_enumerate_device_namespace.htm
 tech.root: kernel
-ms.date: 08/05/2022
+ms.date: 08/08/2022
 keywords: ["PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure"]
 ms.keywords: "*PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, kernel.pep_acpi_enumerate_device_namespace, pepfx/PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, pepfx/PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE"
 req.header: pep_x.h
@@ -72,7 +72,7 @@ The number of elements in the **Objects** array.
 
 ### -field ObjectBufferSize
 
-The size, in bytes, of the buffer that the Windows [power management framework](../_kernel/index.md#device-power-management.md) (PoFx) allocated for the **Objects** array elements that follow the structure. If the input value of **ObjectBufferSize** is not large enough to contain all the **Objects** array elements, the PEP overwrites the input value with the required size and sets the **Status** member to STATUS_BUFFER_TOO_SMALL. For more information, see [Remarks](#remarks).
+The size, in bytes, of the buffer that the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) allocated for the **Objects** array elements that follow the structure. If the input value of **ObjectBufferSize** is not large enough to contain all the **Objects** array elements, the PEP overwrites the input value with the required size and sets the **Status** member to STATUS_BUFFER_TOO_SMALL. For more information, see [Remarks](#remarks).
 
 ### -field Objects
 
