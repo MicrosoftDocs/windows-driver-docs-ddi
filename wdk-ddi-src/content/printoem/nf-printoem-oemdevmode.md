@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMDevMode
 title: OEMDevMode function (printoem.h)
-description: OEMDevMode function
-old-location: print\oemdevmode.htm
+description: Describes the OEMDevMode function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/08/2022
 keywords: ["OEMDevMode function"]
 ms.keywords: OEMDevMode, OEMDevMode function [Print Devices], print.oemdevmode, print_obsoletefunctions_7a402f29-f8ab-48cc-951f-89b21f45aebd.xml, printoem/OEMDevMode
 req.header: printoem.h
@@ -40,14 +39,20 @@ api_name:
  - OEMDevMode
 ---
 
-# OEMDevMode function
-
-
 ## -description
+
+Describes the **OEMDevMode** function.
 
 ## -parameters
 
 ### -param dwMode
 
+Defines the **DWORD** parameter *dwMode*.
+
 ### -param pOemDMParam
 
+Defines the **POEMDMPARAM** parameter *pOemDMParam*.
+
+## -returns
+
+Returns a **BOOL** value.
