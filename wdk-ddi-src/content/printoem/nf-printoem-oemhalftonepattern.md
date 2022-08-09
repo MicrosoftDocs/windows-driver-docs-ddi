@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMHalftonePattern
 title: OEMHalftonePattern function (printoem.h)
-description: OEMHalftonePattern function
-old-location: print\oemhalftonepattern.htm
+description: Describes the OEMHalftonePattern function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/09/2022
 keywords: ["OEMHalftonePattern function"]
 ms.keywords: OEMHalftonePattern, OEMHalftonePattern function [Print Devices], print.oemhalftonepattern, print_obsoletefunctions_5b15743c-f7ce-4107-a263-5cf28ead726d.xml, printoem/OEMHalftonePattern
 req.header: printoem.h
@@ -40,28 +39,44 @@ api_name:
  - OEMHalftonePattern
 ---
 
-# OEMHalftonePattern function
-
-
 ## -description
+
+Describes the OEMHalftonePattern function.
 
 ## -parameters
 
 ### -param pdevobj
 
+Defines the **PDEVOBJ** parameter *pdevobj*.
+
 ### -param pHTPattern
+
+Defines the **PBYTE** parameter *pHTPattern*.
 
 ### -param dwHTPatternX
 
+Defines the **DWORD** parameter *dwHTPatternX*.
+
 ### -param dwHTPatternY
+
+Defines the **DWORD** parameter *dwHTPatternY*.
 
 ### -param dwHTNumPatterns
 
+Defines the **DWORD** parameter *dwHTNumPatterns*.
+
 ### -param dwCallbackID
+
+Defines the **DWORD** parameter *dwCallbackID*.
 
 ### -param pResource [in]
 
-
+Defines the **PBYTE** parameter *pResource*.
 
 ### -param dwResourceSize
 
+Defines the **DWORD** parameter *dwResourceSize*.
+
+## -returns
+
+Returns a **BOOL** value.
