@@ -4,7 +4,7 @@ title: IDDCX_MONITOR_DESCRIPTION_TYPE (iddcx.h)
 description: Used to describe the monitor description.
 old-location: display\iddcx_monitor_description_type.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/08/2022
 keywords: ["IDDCX_MONITOR_DESCRIPTION_TYPE enumeration"]
 ms.keywords: IDDCX_MONITOR_DESCRIPTION_TYPE, IDDCX_MONITOR_DESCRIPTION_TYPE enumeration [Display Devices], IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED, display.iddcx_monitor_description_type, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED
 req.header: iddcx.h
@@ -42,24 +42,24 @@ api_name:
 
 # IDDCX_MONITOR_DESCRIPTION_TYPE enumeration
 
-
 ## -description
 
-Used to describe the monitor description.
+An **IDDCX_MONITOR_DESCRIPTION_TYPE** value describes the monitor type.
 
 ## -enum-fields
 
-### -field IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED
+### -field IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED:0
 
-Indicates that an <b>IDDCX_MONITOR_DESCRIPTION_TYPE</b> variable has not yet been assigned a meaningful value.
+Indicates that an **IDDCX_MONITOR_DESCRIPTION_TYPE** variable has not yet been assigned a meaningful value.
 
-### -field IDDCX_MONITOR_DESCRIPTION_TYPE_EDID
+### -field IDDCX_MONITOR_DESCRIPTION_TYPE_EDID:1
 
-The monitor description is EdId.
+The monitor description is either EDID or no monitor description is available.
 
-### -field IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID_AND_EDID
+### -field IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID_AND_EDID:2
 
-The monitor description is DisplayId.
+The monitor description is both DisplayId and EDID.
 
-### -field UINT
+## -see-also
 
+[**IDDCX_MONITOR_DESCRIPTION**](ns-iddcx-iddcx_monitor_description.md)

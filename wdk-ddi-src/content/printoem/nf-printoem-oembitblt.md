@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMBitBlt
 title: OEMBitBlt function (printoem.h)
 description: The OEMBitBlt function provides general bit-block transfer capabilities between device-managed surfaces, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
-old-location: print\oembitblt.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/05/2022
 keywords: ["OEMBitBlt function"]
 ms.keywords: OEMBitBlt, OEMBitBlt function [Print Devices], print.oembitblt, print_unidrv-pscript_rendering_972c744c-971c-423f-a4fe-92b87cef8094.xml, printoem/OEMBitBlt
 req.header: printoem.h
@@ -40,33 +39,56 @@ api_name:
  - OEMBitBlt
 ---
 
-# OEMBitBlt function
-
-
 ## -description
 
-The <code>OEMBitBlt</code> function provides general bit-block transfer capabilities between <a href="/windows-hardware/drivers/">device-managed surfaces</a>, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
+The **OEMBitBlt**** function provides general bit-block transfer capabilities between device-managed surfaces, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
 
 ## -parameters
 
 ### -param psoTrg
 
+Defines the **SURFOBJ** parameter *psoTrg*.
+
 ### -param psoSrc
+
+Defines the **SURFOBJ** parameter *psoSrc*.
 
 ### -param psoMask
 
+Defines the **SURFOBJ** parameter *psoMask*.
+
 ### -param pco
+
+Defines the **CLIPOBJ** parameter *pco*.
 
 ### -param pxlo
 
+Defines the **XLATEOBJ** parameter *pxlo*.
+
 ### -param prclTrg
+
+Defines the **RECTL** parameter *prclTrg*.
 
 ### -param pptlSrc
 
+Defines the **POINTL** parameter *pptlSrc*.
+
 ### -param pptlMask
+
+Defines the **POINTL** parameter *pptlMask*.
 
 ### -param pbo
 
+Defines the **BRUSHOBJ** parameter *pbo*.
+
 ### -param pptlBrush
 
+Defines the **POINTL** parameter *pptlBrush*.
+
 ### -param rop4
+
+Defines the **ROP4** parameter *rop4*.
+
+## -returns
+
+Returns a **BOOL** value.
