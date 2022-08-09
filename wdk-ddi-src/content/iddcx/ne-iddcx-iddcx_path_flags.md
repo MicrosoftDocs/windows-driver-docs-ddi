@@ -4,7 +4,7 @@ title: IDDCX_PATH_FLAGS (iddcx.h)
 description: Indicates the state of the path.
 old-location: display\iddcx_path_flags.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/08/2022
 keywords: ["IDDCX_PATH_FLAGS enumeration"]
 ms.keywords: IDDCX_PATH_FLAGS, IDDCX_PATH_FLAGS enumeration [Display Devices], IDDCX_PATH_FLAGS_ACTIVE, IDDCX_PATH_FLAGS_CHANGED, IDDCX_PATH_FLAGS_NONE, display.iddcx_path_flags, iddcx/IDDCX_PATH_FLAGS, iddcx/IDDCX_PATH_FLAGS_ACTIVE, iddcx/IDDCX_PATH_FLAGS_CHANGED, iddcx/IDDCX_PATH_FLAGS_NONE
 req.header: iddcx.h
@@ -42,25 +42,24 @@ api_name:
 
 # IDDCX_PATH_FLAGS enumeration
 
-
 ## -description
 
-Indicates the state of the path.
+A bitwise-OR'd **IDDCX_PATH_FLAGS** value indicates the state of the path.
 
 ## -enum-fields
 
-### -field IDDCX_PATH_FLAGS_NONE
+### -field IDDCX_PATH_FLAGS_NONE:0
 
-                        
-                    Indicates that the path is not active and has not changed.
+Indicates that an **IDDCX_PATH_FLAGS_NONE** variable has not yet been assigned a meaningful value.
 
-### -field IDDCX_PATH_FLAGS_CHANGED
+### -field IDDCX_PATH_FLAGS_CHANGED:1
 
-                        Indicates if this path has changed
+Indicates whether this path has changed.
 
-### -field IDDCX_PATH_FLAGS_ACTIVE
+### -field IDDCX_PATH_FLAGS_ACTIVE:2
 
-                        Indicates if this path is active
+Indicates whether this path is active.
 
-### -field UINT
+## -see-also
 
+[**IDDCX_PATH**](ns-iddcx-iddcx_path.md)

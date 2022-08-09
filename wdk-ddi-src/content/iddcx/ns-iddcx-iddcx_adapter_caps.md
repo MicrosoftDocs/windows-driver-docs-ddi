@@ -4,7 +4,7 @@ title: IDDCX_ADAPTER_CAPS (iddcx.h)
 description: Gives information about the capabilities of the adapter.
 old-location: display\iddcx_adapter_caps.htm
 tech.root: display
-ms.date: 01/11/2021
+ms.date: 08/08/2022
 keywords: ["IDDCX_ADAPTER_CAPS structure"]
 ms.keywords: IDDCX_ADAPTER_CAPS, IDDCX_ADAPTER_CAPS structure [Display Devices], display.iddcx_adapter_caps, iddcx/IDDCX_ADAPTER_CAPS
 req.header: iddcx.h
@@ -68,7 +68,7 @@ The maximum number of monitors that can be connected at the same time.
 
 ### -field EndPointDiagnostics
 
-An [**IDDCX_ENDPOINT_DIAGNOSTIC_INFO**](ns-iddcx-iddcx_endpoint_diagnostic_info.md) structure containing endpoint diagnostics information. This information is used for telemetry; it is not used for runtime OS decision.
+An [**IDDCX_ENDPOINT_DIAGNOSTIC_INFO**](ns-iddcx-iddcx_endpoint_diagnostic_info.md) structure containing endpoint diagnostics information. This information is used for telemetry; it is not used for runtime OS decisions.
 
 ### -field StaticDesktopReencodeFrameCount
 

@@ -4,7 +4,7 @@ title: IDDCX_METADATA (iddcx.h)
 description: IDDCX_METADATA provides information about the current provided surface and what is displayed on it.
 old-location: display\iddcx_metadata.htm
 tech.root: display
-ms.date: 08/05/2022
+ms.date: 08/08/2022
 keywords: ["IDDCX_METADATA structure"]
 ms.keywords: IDDCX_METADATA, IDDCX_METADATA structure, IDDCX_METADATA structure [Display Devices], IDDCX_METADATA structure pointer [Display Devices], IDDCX_METADATA structure structure [Display Devices], display.iddcx_metadata, iddcx/IDDCX_METADATA
 req.header: iddcx.h
@@ -84,3 +84,7 @@ DX surface that contains the image to encode and transmit. The driver can use th
 ## -remarks
 
 A zero **DirtyRectCount** value and **MoveRegionCount** value indicates there were no desktop updates and the **PresentationFrameNumber** is the same as last frame.
+
+### -see-also
+
+[**IDDCX_FRAME_STATISTICS**](ns-iddcx-iddcx_frame_statistics.md)

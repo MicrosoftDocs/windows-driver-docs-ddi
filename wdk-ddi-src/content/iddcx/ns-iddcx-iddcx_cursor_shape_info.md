@@ -4,7 +4,7 @@ title: IDDCX_CURSOR_SHAPE_INFO (iddcx.h)
 description: Gives information about the shape of the cursor.
 old-location: display\iddcx_cursor_shape_info.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/08/2022
 keywords: ["IDDCX_CURSOR_SHAPE_INFO structure"]
 ms.keywords: IDDCX_CURSOR_SHAPE_INFO, IDDCX_CURSOR_SHAPE_INFO structure [Display Devices], display.iddcx_cursor_shape_info, iddcx/IDDCX_CURSOR_SHAPE_INFO
 req.header: iddcx.h
@@ -42,42 +42,46 @@ api_name:
 
 # IDDCX_CURSOR_SHAPE_INFO structure
 
-
 ## -description
 
-Gives information about the shape of the cursor.
+The **IDDCX_CURSOR_SHAPE_INFO** structure describes cursor shape.
 
 ## -struct-fields
 
 ### -field Size
 
-                     Total size of the structure.
+Total size of this structure, in bytes.
 
 ### -field ShapeId
 
-                     Unique id for the current cursor image. This is incremented each time a cursor image is set, even if that image has been set before. The id is used to check if the current cursor image the driver has cached has changed and cannot be used in any way to allow caching for animated cursor sequences.
+Unique ID for the current cursor image. **ShapeId** is incremented each time a cursor image is set, even if that image has been set before. The ID is used to check whether the current cursor image the driver has cached has changed and cannot be used in any way to allow caching for animated cursor sequences.
 
 ### -field CursorType
 
-                     Indicates the type of cursor data written to the cursor shape buffer.
+A [**IDDCX_CURSOR_SHAPE_TYPE**](ne-iddcx-iddcx_cursor_shape_type.md) value that indicates the type of cursor data written to the cursor shape buffer.
 
 ### -field Width
 
-                     Width in pixels of the cursor shape written to the shape buffer.
+Width in pixels of the cursor shape written to the shape buffer.
 
 ### -field Height
 
-                     Height in pixels of the cursor shape written to the shape buffer.
+Height in pixels of the cursor shape written to the shape buffer.
 
 ### -field Pitch
 
-                     Pitch in bytes of the cursor shape written to the shape buffer.
+Pitch in bytes of the cursor shape written to the shape buffer.
 
 ### -field XHot
 
-                     X position of the cursor hotspot relative to the top-left of the cursor.
+ X position of the cursor hotspot relative to the top-left of the cursor.
 
 ### -field YHot
 
-                     Y position of the cursor hotspot relative to the top-left of the cursor.
+Y position of the cursor hotspot relative to the top-left of the cursor.
 
+## -see-also
+
+[**IDARG_IN_QUERY_HWCURSOR**](ns-iddcx-idarg_in_query_hwcursor.md)
+
+[**IDDCX_CURSOR_SHAPE_TYPE**](ne-iddcx-iddcx_cursor_shape_type.md)
