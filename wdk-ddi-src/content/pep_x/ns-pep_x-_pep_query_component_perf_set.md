@@ -4,7 +4,7 @@ title: _PEP_QUERY_COMPONENT_PERF_SET (pep_x.h)
 description: Learn how the PEP_QUERY_COMPONENT_PERF_SET structure contains query information about a set of performance state values (P-state set) for a component.
 old-location: kernel\pep_query_component_perf_set.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 08/09/2022
 keywords: ["PEP_QUERY_COMPONENT_PERF_SET structure"]
 ms.keywords: "*PPEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_QUERY_COMPONENT_PERF_SET, PPEP_QUERY_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_COMPONENT_PERF_SET, kernel.pep_query_component_perf_set, pepfx/PEP_QUERY_COMPONENT_PERF_SET, pepfx/PPEP_QUERY_COMPONENT_PERF_SET"
 req.header: pep_x.h
@@ -48,135 +48,66 @@ api_name:
 
 # _PEP_QUERY_COMPONENT_PERF_SET structure (pep_x.h)
 
-
 ## -description
 
-The <b>PEP_QUERY_COMPONENT_PERF_SET</b> structure contains query information about a set of performance state values (P-state set) for a component.
+The **PEP_QUERY_COMPONENT_PERF_SET** structure contains query information about a set of performance state values (P-state set) for a component.
 
 ## -struct-fields
 
-### -field DeviceHandle [in]
+### -field DeviceHandle
 
-A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
+A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous [PEP_DPM_REGISTER_DEVICE](../pepfx/ns-pepfx-_pep_register_crashdump_device.md) notification.
 
-### -field Component [in]
+### -field Component
 
-The index that identifies the component. This member is an index into the <b>Components</b> array in the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_device_register_v2">PEP_DEVICE_REGISTER_V2</a> structure that the PEP previously supplied in response to the <b>PEP_DPM_REGISTER_DEVICE</b> notification for this device. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+The index that identifies the component. This member is an index into the *Components* array in the [PEP_DEVICE_REGISTER_V2](../pepfx/ns-pepfx-_pep_device_register_v2.md) structure that the PEP previously supplied in response to the **PEP_DPM_REGISTER_DEVICE** notification for this device. If the *Components* array contains N elements, component indexes range from 0 to N–1.
 
-### -field Set [in]
+### -field Set
 
-The index that identifies this P-state set. If this component has M P-state sets, P-state set indexes range from 0 to M–1. The PEP previously specified the number of P-state sets in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_capabilities">PEP_DPM_QUERY_COMPONENT_PERF_CAPABILITIES</a> notification.
+The index that identifies this P-state set. If this component has M P-state sets, P-state set indexes range from 0 to M–1. The PEP previously specified the number of P-state sets in response to a [PEP_DPM_QUERY_COMPONENT_PERF_CAPABILITIES](../pepfx/ns-pepfx-_pep_query_component_perf_capabilities.md) notification.
 
-### -field Flags [in]
+### -field Flags
 
 A set of input flags. No flag bits are currently defined for this member, which is always zero.
 
-### -field Unit [out]
+### -field Unit
 
-A <a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_perf_state_unit">PEP_PERF_STATE_UNIT</a> enumeration value that indicates whether the values for this P-state set are expressed in hertz (frequency units) or bits per second (bandwidth units).
+A [PEP_PERF_STATE_UNIT](../pepfx/ne-pepfx-_pep_perf_state_unit.md) enumeration value that indicates whether the values for this P-state set are expressed in hertz (frequency units) or bits per second (bandwidth units).
 
-### -field Type [out]
+### -field Type
 
-A <a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_perf_state_type">PEP_PERF_STATE_TYPE</a> enumeration value that indicates whether the performance values for this P-state set are expressed as a list of discrete values or as a continuous range of values.
+A [PEP_PERF_STATE_TYPE](../pepfx/ne-pepfx-_pep_perf_state_type.md) enumeration value that indicates whether the performance values for this P-state set are expressed as a list of discrete values or as a continuous range of values.
 
 ### -field Discrete
 
+Use this structure if `Type == PepPerfStateTypeDiscrete`.
+
 ### -field Discrete.Count
+
+The number of discrete performance values in this P-state set.
 
 ### -field Range
 
+Use this structure if `Type == PepPerfStateTypeRange`.
+
 ### -field Range.Minimum
+
+The minimum value in the range of performance values for this P-state set. This value is expressed in the measurement units indicated by the *Unit* member.
 
 ### -field Range.Maximum
 
- 
-
-
-
-
-### -field ( unnamed union )
-
-Either the number of discrete performance values in this P-state set, or the range of values in this P-state set.
-
-
-
-#### Discrete
-
-[out] Use this structure if <b>Type</b> = <b>PepPerfStateTypeDiscrete</b>.
-
-
-
-##### Count
-
-The number of discrete performance values in this P-state set.
-
-
-
-#### Range
-
-[out] Use this structure if <b>Type</b> = <b>PepPerfStateTypeRange</b>.
-
-
-
-##### Minimum
-
-The minimum value in the range of performance values for this P-state set. This value is expressed in the measurement units indicated by the <b>Unit</b> member.
-
-
-
-##### Maximum
-
-The maximum value in the range of performance values for this P-state set. This value is expressed in the measurement units indicated by the <b>Unit</b> member.
-
-
-##### - ( unnamed union ).Discrete
-
-[out] Use this structure if <b>Type</b> = <b>PepPerfStateTypeDiscrete</b>.
-
-
-
-##### Discrete.Count
-
-The number of discrete performance values in this P-state set.
-
-
-##### - ( unnamed union ).Range
-
-[out] Use this structure if <b>Type</b> = <b>PepPerfStateTypeRange</b>.
-
-
-
-##### Range.Minimum
-
-The minimum value in the range of performance values for this P-state set. This value is expressed in the measurement units indicated by the <b>Unit</b> member.
-
-
-
-##### Range.Maximum
-
-The maximum value in the range of performance values for this P-state set. This value is expressed in the measurement units indicated by the <b>Unit</b> member.
+The maximum value in the range of performance values for this P-state set. This value is expressed in the measurement units indicated by the *Unit* member.
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_set">PEP_DPM_QUERY_COMPONENT_PERF_SET</a> notification. The <b>DeviceHandle</b>, <b>Component</b>, <b>Set</b>, and <b>Flags</b> members contain input values that are supplied by the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx) when this notification is sent. The <b>Discrete</b> member or <b>Range</b> member contains an output value that the PEP writes to the structure in response to the notification.
+The unnamed union represents either the number of discrete performance values in this P-state set, or the range of values in this P-state set.
+
+This structure is used by the [PEP_DPM_QUERY_COMPONENT_PERF_SET](../pepfx/ns-pepfx-_pep_query_component_perf_set.md) notification. The *DeviceHandle*, *Component*, *Set*, and *Flags* members contain input values that are supplied by the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) when this notification is sent. The *Discrete* member or *Range* member contains an output value that the PEP writes to the structure in response to the notification.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_device_register_v2">PEP_DEVICE_REGISTER_V2</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_set">PEP_DPM_QUERY_COMPONENT_PERF_SET</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_perf_state_type">PEP_PERF_STATE_TYPE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_perf_state_unit">PEP_PERF_STATE_UNIT</a>
-
+- [PEP_DEVICE_REGISTER_V2](../pepfx/ns-pepfx-_pep_device_register_v2.md)
+- [PEP_DPM_QUERY_COMPONENT_PERF_SET](../pepfx/ns-pepfx-_pep_query_component_perf_set.md)
+- [PEP_DPM_REGISTER_DEVICE](../pepfx/ns-pepfx-_pep_register_crashdump_device.md)
+- [PEP_PERF_STATE_TYPE](../pepfx/ne-pepfx-_pep_perf_state_type.md)
+- [PEP_PERF_STATE_UNIT](../pepfx/ne-pepfx-_pep_perf_state_unit.md)
