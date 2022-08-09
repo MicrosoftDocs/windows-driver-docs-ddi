@@ -4,7 +4,7 @@ title: IDDCX_GAMMARAMP_TYPE (iddcx.h)
 description: An enumeration indicating the type of gamma ramp being set.
 old-location: display\iddcx_gammaramp_type.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/08/2022
 keywords: ["IDDCX_GAMMARAMP_TYPE enumeration"]
 ms.keywords: IDDCX_GAMMARAMP_TYPE, IDDCX_GAMMARAMP_TYPE enumeration [Display Devices], IDDCX_GAMMARAMP_TYPE_DEFAULT, IDDCX_GAMMARAMP_TYPE_RGB256x3x16, IDDCX_GAMMARAMP_TYPE_UNINITIALIZED, display.iddcx_gammaramp_type, iddcx/IDDCX_GAMMARAMP_TYPE, iddcx/IDDCX_GAMMARAMP_TYPE_DEFAULT, iddcx/IDDCX_GAMMARAMP_TYPE_RGB256x3x16, iddcx/IDDCX_GAMMARAMP_TYPE_UNINITIALIZED
 req.header: iddcx.h
@@ -42,25 +42,26 @@ api_name:
 
 # IDDCX_GAMMARAMP_TYPE enumeration
 
-
 ## -description
 
-                     An enumeration indicating the type of gamma ramp being set
+A **IDDCX_GAMMARAMP_TYPE** value indicates the type of gamma ramp being set.
 
 ## -enum-fields
 
-### -field IDDCX_GAMMARAMP_TYPE_UNINITIALIZED
+### -field IDDCX_GAMMARAMP_TYPE_UNINITIALIZED:0
 
-                        
-                    Indicates that an <b>IDDCX_GAMMARAMP_TYPE</b> variable has not yet been assigned a meaningful value.
+Indicates that an **IDDCX_GAMMARAMP_TYPE** variable has not yet been assigned a meaningful value.
 
-### -field IDDCX_GAMMARAMP_TYPE_DEFAULT
+### -field IDDCX_GAMMARAMP_TYPE_DEFAULT:1
 
-                        The gamma ramp is the default ramp
+The gamma ramp is the default ramp.
 
-### -field IDDCX_GAMMARAMP_TYPE_RGB256x3x16
+### -field IDDCX_GAMMARAMP_TYPE_RGB256x3x16:2
 
-                        Indicates that the gamma lookup table contains three arrays, one each for the red, green, and blue color channels. Each array has 256 16-bit values.
+The gamma lookup table contains three arrays, one each for the red, green, and blue color channels. Each array has 256 16-bit values.
 
-### -field UINT
+## -see-also
 
+[**EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP**](nc-iddcx-evt_idd_cx_monitor_set_gamma_ramp.md)
+
+[**IDARG_IN_SET_GAMMARAMP**](ns-iddcx-idarg_in_set_gammaramp.md)

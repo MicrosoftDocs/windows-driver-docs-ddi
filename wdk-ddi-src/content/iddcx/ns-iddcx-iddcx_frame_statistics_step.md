@@ -4,7 +4,7 @@ title: IDDCX_FRAME_STATISTICS_STEP (iddcx.h)
 description: Gives information about the frame processing step being used by the driver.
 old-location: display\iddcx_frame_statistics_step.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/08/2022
 keywords: ["IDDCX_FRAME_STATISTICS_STEP structure"]
 ms.keywords: IDDCX_FRAME_STATISTICS_STEP, IDDCX_FRAME_STATISTICS_STEP structure, IDDCX_FRAME_STATISTICS_STEP structure [Display Devices], IDDCX_FRAME_STATISTICS_STEP structure pointer [Display Devices], IDDCX_FRAME_STATISTICS_STEP structure structure [Display Devices], display.iddcx_frame_statistics_step, iddcx/IDDCX_FRAME_STATISTICS_STEP
 req.header: iddcx.h
@@ -42,26 +42,28 @@ api_name:
 
 # IDDCX_FRAME_STATISTICS_STEP structure
 
-
 ## -description
 
-                 Gives information about the frame processing step being used by the driver.
+The **IDDCX_FRAME_STATISTICS_STEP** structure provides information about the frame processing step being used by the driver.
 
 ## -struct-fields
 
 ### -field Size
 
-                     Total size of the structure
+Total size of this structure, in bytes.
 
 ### -field Type
 
-                     The type of frame processing step
+A [**IDDCX_FRAME_STATISTICS_STEP_TYPE**](ne-iddcx-iddcx_frame_statistics_step_type.md) value that specifies the type of frame processing step.
 
 ### -field QpcTime
 
-                     Provides the system QPC time of the step
+Specifies the system QPC time of the step.
 
 ### -field Data
 
-                     When driver defined processing part is used, then the driver can store additional data here
+When driver-defined processing part is used, then the driver can store additional data here.
 
+## -see-also
+
+[**IDDCX_FRAME_STATISTICS**](ns-iddcx-iddcx_frame_statistics.md)

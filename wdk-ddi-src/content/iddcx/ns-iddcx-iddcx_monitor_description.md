@@ -4,7 +4,7 @@ title: IDDCX_MONITOR_DESCRIPTION (iddcx.h)
 description: Gives information about the current monitor description.
 old-location: display\iddcx_monitor_description.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/08/2022
 keywords: ["IDDCX_MONITOR_DESCRIPTION structure"]
 ms.keywords: IDDCX_MONITOR_DESCRIPTION, IDDCX_MONITOR_DESCRIPTION structure [Display Devices], display.iddcx_monitor_description, iddcx/IDDCX_MONITOR_DESCRIPTION
 req.header: iddcx.h
@@ -42,26 +42,35 @@ api_name:
 
 # IDDCX_MONITOR_DESCRIPTION structure
 
-
 ## -description
 
-Gives information about the current monitor description.
+A **IDDCX_MONITOR_DESCRIPTION** structure provides a monitor description.
 
 ## -struct-fields
 
 ### -field Size
 
-                     Total size of the structure.
+Total size of the structure, in bytes.
 
 ### -field Type
 
-                     Type of this monitor description.
+A [**IDDCX_MONITOR_DESCRIPTION_TYPE**](ne-iddcx-iddcx_monitor_description_type.md) value that describes the monitor's type.
 
 ### -field DataSize
 
-                     The size of the monitor description data.
+The size in bytes of the monitor description data that **pData** points to.
 
 ### -field pData
 
-                     Pointer to the monitor description data.
+Pointer to the monitor description data. The data layout depends on **Type** as follows:
 
+* If **Type** is IDDCX_MONITOR_DESCRIPTION_TYPE_EDID:
+  * If **DataSize** > 0 and **pData** != NULL, **pData** points to an EDID data formatted monitor description.
+  * If **DataSize** = 0 and **pData** = NULL, no monitor description is available.
+* If **Type** is IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID_AND_EDID, the monitor description starts with a DisplayID description followed by EDID without any padding in between. The EDID format should contain all available data blocks and be present. The call to connect the monitor will fail if DisplayID is missing or invalid, or if EDID is missing.
+
+## -see-also
+
+[**EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION**](nc-iddcx-evt_idd_cx_parse_monitor_description.md)
+
+[**IddCxMonitorCreate**](nf-iddcx-iddcxmonitorcreate.md)

@@ -4,7 +4,7 @@ title: IDDCX_CURSOR_SHAPE_TYPE (iddcx.h)
 description: Describes the type of cursor.
 old-location: display\iddcx_cursor_shape_type.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/08/2022
 keywords: ["IDDCX_CURSOR_SHAPE_TYPE enumeration"]
 ms.keywords: IDDCX_CURSOR_SHAPE_TYPE, IDDCX_CURSOR_SHAPE_TYPE enumeration [Display Devices], IDDCX_CURSOR_SHAPE_TYPE_ALPHA, IDDCX_CURSOR_SHAPE_TYPE_MASKED_COLOR, IDDCX_CURSOR_SHAPE_TYPE_UNINITIALIZED, display.iddcx_cursor_shape_type, iddcx/IDDCX_CURSOR_SHAPE_TYPE, iddcx/IDDCX_CURSOR_SHAPE_TYPE_ALPHA, iddcx/IDDCX_CURSOR_SHAPE_TYPE_MASKED_COLOR, iddcx/IDDCX_CURSOR_SHAPE_TYPE_UNINITIALIZED
 req.header: iddcx.h
@@ -42,25 +42,24 @@ api_name:
 
 # IDDCX_CURSOR_SHAPE_TYPE enumeration
 
-
 ## -description
 
-                    Describes the type of cursor.
+A **IDDCX_CURSOR_SHAPE_TYPE** value describes the type of cursor data written to the cursor shape buffer.
 
 ## -enum-fields
 
-### -field IDDCX_CURSOR_SHAPE_TYPE_UNINITIALIZED
+### -field IDDCX_CURSOR_SHAPE_TYPE_UNINITIALIZED:0
 
-                        
-                    Indicates that the cursor shape is uninitialized
+The cursor shape is uninitialized.
 
-### -field IDDCX_CURSOR_SHAPE_TYPE_MASKED_COLOR
+### -field IDDCX_CURSOR_SHAPE_TYPE_MASKED_COLOR:1
 
-                        Indicates this is a masked-color cursor shape
+This is a masked-color cursor shape.
 
-### -field IDDCX_CURSOR_SHAPE_TYPE_ALPHA
+### -field IDDCX_CURSOR_SHAPE_TYPE_ALPHA:2
 
-                        Indicates this is a 32bpp alpha cursor
+This is a 32bpp alpha cursor.
 
-### -field UINT
+## -see-also
 
+[**IDDCX_CURSOR_SHAPE_INFO**](ns-iddcx-iddcx_cursor_shape_info.md)
