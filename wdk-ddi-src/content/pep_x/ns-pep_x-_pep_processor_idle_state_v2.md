@@ -68,7 +68,7 @@ Whether the processor's local cache or caches remain coherent through the durati
 
 ### -field ThreadContextRetained
 
-Whether thread context is retained in this processor idle state. Set this flag bit to 1 if the processor hardware retains the thread context across the idle transition. Set to 0 if the processor uses the multiprocessor parking protocol to exit the idle state and return control to the operating system. For more information about this protocol, see the document titled  [Multiprocessor Startup for ARM Platforms](https://acpica.org/sites/acpica/files/MP%20Startup%20for%20ARM%20platforms.docx) at the [ACPI Component Architecture site](https://www.acpica.org/related-documents).
+Whether thread context is retained in this processor idle state. Set this flag bit to 1 if the processor hardware retains the thread context across the idle transition. Set to 0 if the processor uses the multiprocessor parking protocol to exit the idle state and return control to the operating system. For more information about this protocol, see the document titled [Multiprocessor Startup for ARM Platforms](https://acpica.org/sites/acpica/files/MP%20Startup%20for%20ARM%20platforms.docx) at the [ACPI Component Architecture site](https://www.acpica.org/related-documents).
 
 ### -field CStateType
 
