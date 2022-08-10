@@ -1,7 +1,7 @@
 ---
 UID: NS:iddcx.IDARG_OUT_GETVERSION
 title: IDARG_OUT_GETVERSION
-ms.date: 10/20/2020
+ms.date: 08/09/2022
 tech.root: display
 targetos: Windows
 description: The IDARG_OUT_GETVERSION structure is used to store the IddCx (Indirect Display Driver Class eXtension) version.
@@ -43,22 +43,15 @@ The **IDARG_OUT_GETVERSION** structure identifies the IddCx (Indirect Display Dr
 
 ### -field IddCxVersion
 
-ULONG value that identifies the IddCx version that the driver is running on. **IddCxVersion** can be one of the following values:
-
-| Value                             | Windows 10 Version |
-|-----------------------------------|------------------- |
-| IDDCX_VERSION_MANGANESE (0x1600)  | 21H1               |
-| IDDCX_VERSION_VIBRAINIUM (0x1500) | 2004               |
-| IDDCX_VERSION_19H1 (0x1400)       | 1903               |
-| IDDCX_VERSION_RS5 (0x1380)        | 1809               |
-| IDDCX_VERSION_RS4 (0x1300)        | 1803               |
-| IDDCX_VERSION_RS3 (0x1200)        | 1709               |
+ULONG value that identifies the IddCx version that the driver is running on. See [IddCx versions](/windows-hardware/drivers/display/iddcx-versions) for a complete list of possible version values.
 
 ## -remarks
 
 An ID driver calls [**IddCxGetVersion**](nf-iddcx-iddcxgetversion.md) to determine the IddCx version that the driver is running on.
 
 ## -see-also
+
+[IddCx versions](/windows-hardware/drivers/display/iddcx-versions)
 
 [**IddCxGetVersion**](nf-iddcx-iddcxgetversion.md)
 

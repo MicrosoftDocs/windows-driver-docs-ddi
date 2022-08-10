@@ -2,7 +2,7 @@
 UID: NS:iddcx.IDARG_OUT_QUERY_HWCURSOR2
 tech.root: display
 title: IDARG_OUT_QUERY_HWCURSOR2
-ms.date: 08/05/2022
+ms.date: 08/09/2022
 targetos: Windows
 description: Learn more about the IDARG_OUT_QUERY_HWCURSOR2 structure.
 prerelease: false
@@ -76,7 +76,7 @@ Note that there are cases where the position values might not have changed but t
 
 ## -remarks
 
-Note that**X** and **Y** can be negative; for example, a hot spot in the center of cursor that is placed in the top-left of the screen.
+Note that **X** and **Y** can be negative; for example, a hot spot in the center of cursor that is placed in the top-left of the screen.
 
 ## -see-also
 

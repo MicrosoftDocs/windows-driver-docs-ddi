@@ -4,7 +4,7 @@ title: IDDCX_PATH (iddcx.h)
 description: Call IDDCX_PATH_INIT to initialize this structure.
 old-location: display\iddcx_path.htm
 tech.root: display
-ms.date: 08/08/2022
+ms.date: 08/09/2022
 keywords: ["IDDCX_PATH structure"]
 ms.keywords: IDDCX_PATH, IDDCX_PATH structure, IDDCX_PATH structure [Display Devices], IDDCX_PATH structure pointer [Display Devices], IDDCX_PATH structure structure [Display Devices], display.iddcx_path, iddcx/IDDCX_PATH
 req.header: iddcx.h
@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-                 Call <a href="/windows-hardware/drivers/ddi/index">IDDCX_PATH_INIT</a> to initialize this structure.
+The operating system provides an **IDDCX_PATH** to the driver for every connected monitor, even if that monitor is not active.
 
 ## -struct-fields
 

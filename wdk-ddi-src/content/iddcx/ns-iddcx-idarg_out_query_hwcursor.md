@@ -4,7 +4,7 @@ title: IDARG_OUT_QUERY_HWCURSOR (iddcx.h)
 description: Gives information about the coordinates and shape of the current cursor.
 old-location: display\idarg_out_query_hwcursor.htm
 tech.root: display
-ms.date: 08/05/2022
+ms.date: 08/09/2022
 keywords: ["IDARG_OUT_QUERY_HWCURSOR structure"]
 ms.keywords: IDARG_OUT_QUERY_HWCURSOR, IDARG_OUT_QUERY_HWCURSOR structure [Display Devices], display.idarg_out_query_hwcursor, iddcx/IDARG_OUT_QUERY_HWCURSOR
 req.header: iddcx.h
@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The **IDARG_OUT_QUERY_HWCURSOR** structure is the output parameter used by [**IddCxMonitorQueryHardwareCursor**] (nf-iddcx-iddcxmonitorqueryhardwarecursor.md) to return information about the coordinates and shape of the current cursor.
+The **IDARG_OUT_QUERY_HWCURSOR** structure is the output parameter used by [**IddCxMonitorQueryHardwareCursor**](nf-iddcx-iddcxmonitorqueryhardwarecursor.md) to return information about the coordinates and shape of the current cursor.
 
 ## -struct-fields
 
@@ -70,7 +70,7 @@ The **IDARG_OUT_QUERY_HWCURSOR** structure is the output parameter used by [**Id
 
 ## -remarks
 
-Note that**X** and **Y** can be negative; for example, a hot spot in the center of cursor that is placed in the top-left of the screen.
+Note that **X** and **Y** can be negative; for example, a hot spot in the center of cursor that is placed in the top-left of the screen.
 
 ## -see-also
 

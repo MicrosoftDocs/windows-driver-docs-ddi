@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The IDARG_IN_ADAPTERSETRENDERADAPTER structure identifies the render adapter that the driver wants to be used to render the desktop image for the swapchains on this adapter.
+The **IDARG_IN_ADAPTERSETRENDERADAPTER** structure identifies the render adapter that the driver wants to be used to render the desktop image for the swapchains on this adapter.
 
 ## -struct-fields
 
