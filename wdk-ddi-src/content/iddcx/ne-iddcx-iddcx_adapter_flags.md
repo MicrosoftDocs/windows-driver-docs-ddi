@@ -4,7 +4,7 @@ title: IDDCX_ADAPTER_FLAGS (iddcx.h)
 description: Specifies boolean flags for an indirect display adapter.
 old-location: display\iddcx_adapter_flags.htm
 tech.root: display
-ms.date: 08/05/2022
+ms.date: 08/09/2022
 keywords: ["IDDCX_ADAPTER_FLAGS enumeration"]
 ms.keywords: IDDCX_ADAPTER_FLAGS, IDDCX_ADAPTER_FLAGS enumeration [Display Devices], IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS, IDDCX_ADAPTER_FLAGS_NONE, IDDCX_ADAPTER_FLAGS_USE_SMALLEST_MODE, display.iddcx_adapter_flags, iddcx/IDDCX_ADAPTER_FLAGS, iddcx/IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS, iddcx/IDDCX_ADAPTER_FLAGS_NONE, iddcx/IDDCX_ADAPTER_FLAGS_USE_SMALLEST_MODE
 req.header: iddcx.h
@@ -92,6 +92,6 @@ A driver that sets this flag is requesting the OS to track dirty regions of the 
 
 Supported starting in IddCx version 1.8.
 
-## -see also
+## -see-also
 
 [**IDDCX_ADAPTER_CAPS**](ns-iddcx-iddcx_adapter_caps.md)

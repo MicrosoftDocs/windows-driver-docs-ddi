@@ -1,7 +1,7 @@
 ---
 UID: NF:iddcx.IddCxGetVersion
 title: IddCxGetVersion
-ms.date: 09/24/2020
+ms.date: 08/09/2022
 tech.root: display
 targetos: Windows
 description: IddCxGetVersion is an OS callback function that an indirect display (ID) driver calls to obtain the IddCx version.
@@ -55,8 +55,10 @@ Pointer to an [**IDARG_OUT_GETVERSION**](ns-iddcx-idarg_out_getversion.md) struc
 
 ## -remarks
 
-See [**IDARG_OUT_GETVERSION**](ns-iddcx-idarg_out_getversion.md) for a list of possible version values.
+See [IddCx versions](/windows-hardware/drivers/display/iddcx-versions) for a complete list of possible version values.
 
 ## -see-also
 
 [**IDARG_OUT_GETVERSION**](ns-iddcx-idarg_out_getversion.md)
+
+[IddCx versions](/windows-hardware/drivers/display/iddcx-versions)
