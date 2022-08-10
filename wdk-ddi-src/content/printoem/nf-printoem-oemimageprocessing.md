@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMImageProcessing
 title: OEMImageProcessing function (printoem.h)
-description: OEMImageProcessing function
-old-location: print\oemimageprocessing.htm
+description: Describes the OEMImageProcessing function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/10/2022
 keywords: ["OEMImageProcessing function"]
 ms.keywords: OEMImageProcessing, OEMImageProcessing function [Print Devices], print.oemimageprocessing, print_obsoletefunctions_c65011ae-a69c-4cbe-88a8-13847401c7df.xml, printoem/OEMImageProcessing
 req.header: printoem.h
@@ -40,22 +39,36 @@ api_name:
  - OEMImageProcessing
 ---
 
-# OEMImageProcessing function
-
-
 ## -description
+
+Describes the OEMImageProcessing function.
 
 ## -parameters
 
 ### -param pdevobj
 
+Defines the **PDEVOBJ** parameter *pdevobj*.
+
 ### -param pSrcBitmap
+
+Defines the **PBYTE** parameter *pSrcBitmap*.
 
 ### -param pBitmapInfoHeader
 
+Defines the **PBITMAPINFOHEADER** parameter *pBitmapInfoHeader*.
+
 ### -param pColorTable
+
+Defines the **PBYTE** parameter *pColorTable*.
 
 ### -param dwCallbackID
 
+Defines the **DWORD** parameter *dwCallbackID*.
+
 ### -param pIPParams
 
+Defines the **PIPPARAMS** parameter *pIPParams*.
+
+## -returns
+
+Returns a **PBYTE** value.

@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMQueryFontData
 title: OEMQueryFontData function (printoem.h)
 description: The OEMQueryFontData function retrieves information about a realized font.
-old-location: print\oemqueryfontdata.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/10/2022
 keywords: ["OEMQueryFontData function"]
 ms.keywords: OEMQueryFontData, OEMQueryFontData function [Print Devices], print.oemqueryfontdata, print_unidrv-pscript_rendering_5044e745-e2bf-4047-a8d8-371fc21c33fa.xml, printoem/OEMQueryFontData
 req.header: printoem.h
@@ -40,28 +39,40 @@ api_name:
  - OEMQueryFontData
 ---
 
-# OEMQueryFontData function
-
-
 ## -description
 
-The <code>OEMQueryFontData</code> function retrieves information about a realized font.
+The **OEMQueryFontData** function retrieves information about a realized font.
 
 ## -parameters
 
 ### -param dhpdev
 
+Defines the **DHPDEV** parameter *dhpdev*.
+
 ### -param pfo
+
+Defines the **FONTOBJ** parameter *pfo*.
 
 ### -param iMode
 
+Defines the **ULONG** parameter *iMode*.
+
 ### -param hg
+
+Defines the **HGLYPH** parameter *hg*.
 
 ### -param pgd
 
+Defines the **GLYPHDATA** parameter *pgd*.
+
 ### -param pv [out]
 
-
+Defines the **PVOID** parameter *pv*.
 
 ### -param cjSize
 
+Defines the **ULONG** parameter *cjSize*.
+
+## -returns
+
+Returns a **LONG** value.

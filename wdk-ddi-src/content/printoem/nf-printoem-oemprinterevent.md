@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMPrinterEvent
 title: OEMPrinterEvent function (printoem.h)
-description: OEMPrinterEvent function
-old-location: print\oemprinterevent.htm
+description: Describes the OEMPrinterEvent function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/10/2022
 keywords: ["OEMPrinterEvent function"]
 ms.keywords: OEMPrinterEvent, OEMPrinterEvent function [Print Devices], print.oemprinterevent, print_obsoletefunctions_0eaf5d52-f558-401d-a06f-80925e997e3a.xml, printoem/OEMPrinterEvent
 req.header: printoem.h
@@ -40,18 +39,28 @@ api_name:
  - OEMPrinterEvent
 ---
 
-# OEMPrinterEvent function
-
-
 ## -description
+
+Describes the **OEMPrinterEvent** function.
 
 ## -parameters
 
 ### -param pPrinterName
 
+Defines the **PWSTR** parameter *pPrinterName*.
+
 ### -param iDriverEvent
+
+Defines the **INT** parameter *iDriverEvent*.
 
 ### -param dwFlags
 
+Defines the **DWORD** parameter *dwFlags*.
+
 ### -param lParam
 
+Defines the **LPARAM** parameter *lParam*.
+
+## -returns
+
+Returns a **BOOL** value.

@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMPaint
 title: OEMPaint function (printoem.h)
 description: The OEMPaint function is obsolete, and is no longer called by GDI in Windows 2000 and later. See DrvPaint.
-old-location: print\oempaint.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/10/2022
 keywords: ["OEMPaint function"]
 ms.keywords: OEMPaint, OEMPaint function [Print Devices], print.oempaint, print_unidrv-pscript_rendering_c9624a47-02fd-4eba-80d9-4035713ac594.xml, printoem/OEMPaint
 req.header: printoem.h
@@ -40,25 +39,36 @@ api_name:
  - OEMPaint
 ---
 
-# OEMPaint function
-
-
 ## -description
 
-The <code>OEMPaint</code> function is obsolete, and is no longer called by GDI in Windows 2000 and later. See <a href="/windows/win32/api/winddi/nf-winddi-drvpaint">DrvPaint</a>.
+The **OEMPaint** function is obsolete, and is no longer called by GDI in Windows 2000 and later. See [DrvPaint](/windows/win32/api/winddi/nf-winddi-drvpaint).
 
 ## -parameters
 
 ### -param pso
 
+Defines the **SURFOBJ** parameter *pso*.
+
 ### -param pco
+
+Defines the **CLIPOBJ** parameter *pco*.
 
 ### -param pbo
 
+Defines the **BRUSHOBJ** parameter *pbo*.
+
 ### -param pptlBrushOrg
+
+Defines the **POINTL** parameter *pptlBrushOrg*.
 
 ### -param mix
 
+Defines the **MIX** parameter *mix*.
+
+## -returns
+
+Returns a **BOOL** value.
+
 ## -remarks
 
-If you call into the core driver, cast the call using the <b>PFN_DrvPaint</b> function pointer.
+If you call into the core driver, cast the call using the **PFN_DrvPaint** function pointer.
