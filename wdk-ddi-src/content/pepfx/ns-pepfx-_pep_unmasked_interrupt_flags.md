@@ -56,7 +56,7 @@ The **PEP_UNMASKED_INTERRUPT_FLAGS** union indicates whether an unmasked interru
 
 ### -field SecondaryInterrupt
 
-Whether this interrupt is a primary interrupt or a secondary interrupt. This bit field is 0 if the interrupt source is a primary interrupt, and is 1 is the interrupt source is a secondary interrupt. For more information, see [Primary and Secondary Interrupts](../gpio/primary-and-secondary-interrupts.md).
+Whether this interrupt is a primary interrupt or a secondary interrupt. This bit field is 0 if the interrupt source is a primary interrupt, and is 1 is the interrupt source is a secondary interrupt. For more information, see [Primary and Secondary Interrupts](/windows-hardware/drivers/gpio/primary-and-secondary-interrupts).
 
 ### -field Reserved
 
