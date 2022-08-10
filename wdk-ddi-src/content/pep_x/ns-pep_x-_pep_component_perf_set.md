@@ -56,7 +56,7 @@ The **PEP_COMPONENT_PERF_SET** structure describes the performance states (P-sta
 
 ### -field Name
 
-An optional string that describes the device property controlled by this P-state set.  For example, this string might be "Clock frequency" or "Memory bandwidth". If no such string is available for this P-state, the **Name** member is set to NULL. Otherwise, this member contains a pointer to a [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains the string.
+An optional string that describes the device property controlled by this P-state set. For example, this string might be "Clock frequency" or "Memory bandwidth". If no such string is available for this P-state, the **Name** member is set to NULL. Otherwise, this member contains a pointer to a [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains the string.
 
 ### -field Flags
 
@@ -96,7 +96,7 @@ The maximum value in the range. This value is expressed in the units indicated b
 
 ## -remarks
 
-The unnamed union contains the performance measurement values for this P-state. This union contains either a list of discrete values (if **Type** = **PepPerfStateTypeDiscrete**) or a continuous range of values (if **Type** = **PepPerfStateTypeRange**).
+The unnamed union contains the performance measurement values for this P-state. This union contains either a list of discrete values (if `Type == PepPerfStateTypeDiscrete`) or a continuous range of values (if `Type == PepPerfStateTypeRange`).
 
 The **PerfStateSets** member of the [PEP_COMPONENT_PERF_INFO](../pepfx/ns-pepfx-_pep_component_perf_info.md) is the first element in an array of **PEP_COMPONENT_PERF_SET** structures. All members of the **PEP_COMPONENT_PERF_SET** structure contain input values that are supplied by the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx). The platform extension plug-in (PEP) must not write to this structure.
 
