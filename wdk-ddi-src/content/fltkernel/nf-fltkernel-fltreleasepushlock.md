@@ -4,7 +4,7 @@ title: FltReleasePushLock macro (fltkernel.h)
 description: The FltReleasePushLock routine releases a specified push lock owned by the current thread.
 old-location: ifsk\fltreleasepushlock.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 08/11/2022
 keywords: ["FltReleasePushLock macro"]
 ms.keywords: FltApiRef_p_to_z_31e736a4-7790-443f-a6bf-e43d3823ad27.xml, FltReleasePushLock, FltReleasePushLock routine [Installable File System Drivers], fltkernel/FltReleasePushLock, ifsk.fltreleasepushlock
 req.header: fltkernel.h
@@ -42,54 +42,48 @@ api_name:
 
 # FltReleasePushLock macro
 
-
 ## -description
 
-The <b>FltReleasePushLock</b> routine releases a specified push lock owned by the current thread.
+The **FltReleasePushLock** routine releases a specified push lock owned by the current thread.
 
 ## -parameters
 
-### -param Lock [in, out]
+### -param PushLock [in, out]
 
+Opaque push lock pointer of type **PEX_PUSH_LOCK**. This pointer must have been initialized by a previous call to [**FltInitializePushLock**](nf-fltkernel-fltinitializepushlock.md).
 
-Opaque push lock pointer of type **PEX_PUSH_LOCK**. This pointer must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>.
+## -returns
+
+None.
 
 ## -remarks
 
-<b>FltReleasePushLock</b> releases a push lock that was previously acquired by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockexclusive">FltAcquirePushLockExclusive</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockshared">FltAcquirePushLockShared</a>. 
+**FltReleasePushLock** releases a push lock that was previously acquired by calling [**FltAcquirePushLockExclusive**](nf-fltkernel-fltacquirepushlockexclusive.md) or [**FltAcquirePushLockShared**](nf-fltkernel-fltacquirepushlockshared.md).
 
-Because <b>FltReleasePushLock</b> reenables normal kernel APC delivery, it is not necessary to call <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleavecriticalregion">KeLeaveCriticalRegion</a> or <a href="/windows-hardware/drivers/ifs/fsrtlexitfilesystem">FsRtlExitFileSystem</a> after calling <b>FltReleasePushLock</b>. 
+Because **FltAcquirePushLockExclusive** disables normal kernel APC delivery, it is not necessary to call [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md) or [**FsRtlEnterFileSystem**](/windows-hardware/drivers/ifs/fsrtlenterfilesystem) before calling **FltAcquirePushLockExclusive**.
 
-For more information about push locks, see the reference entry for <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>. 
+For more information about push locks, see the reference entry for [**FltInitializePushLock**](nf-fltkernel-fltinitializepushlock.md).
 
-To acquire a push lock for exclusive access, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockexclusive">FltAcquirePushLockExclusive</a>. 
+To acquire a push lock for exclusive access, call [**FltAcquirePushLockExclusive**](nf-fltkernel-fltacquirepushlockexclusive.md).
 
-To acquire a push lock for shared access, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockshared">FltAcquirePushLockShared</a>. 
+To acquire a push lock for shared access, call [**FltAcquirePushLockShared**](nf-fltkernel-fltacquirepushlockshared.md).
 
-To initialize a push lock, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>. 
+To initialize a push lock, call [**FltInitializePushLock**](nf-fltkernel-fltinitializepushlock.md).
 
-To delete a push lock, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletepushlock">FltDeletePushLock</a>.
+To delete a push lock, call [**FltDeletePushLock**](nf-fltkernel-fltdeletepushlock.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockexclusive">FltAcquirePushLockExclusive</a>
+[**FltAcquirePushLockExclusive**](nf-fltkernel-fltacquirepushlockexclusive.md)
 
+[**FltAcquirePushLockShared**](nf-fltkernel-fltacquirepushlockshared.md)
 
+[**FltDeletePushLock**](nf-fltkernel-fltdeletepushlock.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockshared">FltAcquirePushLockShared</a>
+[**FltInitializePushLock**](nf-fltkernel-fltinitializepushlock.md)
 
+[**FltReleasePushLockEx**](nf-fltkernel-fltreleasepushlockex.md)
 
+[**FsRtlEnterFileSystem**](/windows-hardware/drivers/ifs/fsrtlenterfilesystem)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletepushlock">FltDeletePushLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/fsrtlexitfilesystem">FsRtlExitFileSystem</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleavecriticalregion">KeLeaveCriticalRegion</a>
+[**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md)

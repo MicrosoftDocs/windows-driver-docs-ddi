@@ -2,7 +2,7 @@
 UID: NF:fltkernel.FltReleasePushLockEx
 title: FltReleasePushLockEx function (fltkernel.h)
 description: The FltReleasePushLockEx routine releases a specified push lock owned by the current thread.
-ms.date: 10/19/2018
+ms.date: 08/11/2022
 tech.root: ifsk
 keywords: ["FltReleasePushLockEx function"]
 ms.keywords: FltReleasePushLockEx
@@ -42,7 +42,6 @@ dev_langs:
 
 # FltReleasePushLockEx function
 
-
 ## -description
 
 The **FltReleasePushLockEx** routine releases a specified push lock owned by the current thread.
@@ -51,16 +50,32 @@ The **FltReleasePushLockEx** routine releases a specified push lock owned by the
 
 ### -param PushLock
 
-The <b>FltReleasePushLock</b> routine releases a specified push lock owned by the current thread.
+Opaque push lock pointer of type **PEX_PUSH_LOCK**. This pointer must have been initialized by a previous call to [**FltInitializePushLock**](nf-fltkernel-fltinitializepushlock.md).
 
 ### -param Flags
 
 A bitmask of flags that control the attributes of the lock.
 
+## -returns
+
+None.
+
 ## -remarks
 
-<b>FltReleasePushLock</b> releases a push lock that was previously acquired by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockexclusive">FltAcquirePushLockExclusive</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockshared">FltAcquirePushLockShared</a>. 
+**FltReleasePushLockEx** releases a push lock that was previously acquired by calling [**FltAcquirePushLockExclusive**](nf-fltkernel-fltacquirepushlockexclusive.md) or [**FltAcquirePushLockShared**](nf-fltkernel-fltacquirepushlockshared.md).
 
-Because <b>FltReleasePushLock</b> reenables normal kernel APC delivery, it is not necessary to call <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleavecriticalregion">KeLeaveCriticalRegion</a> or <a href="/windows-hardware/drivers/ifs/fsrtlexitfilesystem">FsRtlExitFileSystem</a> after calling <b>FltReleasePushLock</b>.
+Because **FltReleasePushLockEx** reenables normal kernel APC delivery, it is not necessary to call [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md) or [**FsRtlEnterFileSystem**](/windows-hardware/drivers/ifs/fsrtlenterfilesystem) after calling **FltReleasePushLockEx**.
 
 ## -see-also
+
+[**FltAcquirePushLockExclusive**](nf-fltkernel-fltacquirepushlockexclusive.md)
+
+[**FltAcquirePushLockShared**](nf-fltkernel-fltacquirepushlockshared.md)
+
+[**FltDeletePushLock**](nf-fltkernel-fltdeletepushlock.md)
+
+[**FltInitializePushLock**](nf-fltkernel-fltinitializepushlock.md)
+
+[**FsRtlEnterFileSystem**](/windows-hardware/drivers/ifs/fsrtlenterfilesystem)
+
+[**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md)
