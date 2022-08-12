@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-Describes the OEMHalftonePattern function.
+Describes the **OEMHalftonePattern** function.
 
 ## -parameters
 

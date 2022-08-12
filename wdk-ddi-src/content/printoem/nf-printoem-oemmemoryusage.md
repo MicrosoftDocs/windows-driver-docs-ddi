@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMMemoryUsage
 title: OEMMemoryUsage function (printoem.h)
 description: This function (OEMMemoryUsage) is obsolete.
-old-location: print\oemmemoryusage__function_.htm
 tech.root: print
-ms.date: 11/18/2019
+ms.date: 08/12/2022
 keywords: ["OEMMemoryUsage function"]
 ms.keywords: OEMMemoryUsage, OEMMemoryUsage function [Print Devices], print.oemmemoryusage__function_, print_obsoletefunctions_35165216-4a29-4096-95b6-5f5b00418193.xml, printoem/OEMMemoryUsage
 req.header: printoem.h
@@ -40,9 +39,6 @@ api_name:
  - OEMMemoryUsage
 ---
 
-# OEMMemoryUsage function
-
-
 ## -description
 
 This function is obsolete for Windows XP and later. It is supported only for earlier Unidrv plug-ins.
@@ -56,6 +52,5 @@ Use [IPrintOemUni::MemoryUsage](../prcomoem/nf-prcomoem-iprintoemuni-memoryusage
 Pointer to device object.
 
 ### -param pMemoryUsage [in, out]
-
 
 Pointer to OEMMEMORYUSAGE structure.

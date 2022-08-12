@@ -1,10 +1,9 @@
 ---
 UID: NS:printoem._PUBLISHERINFO
-title: _PUBLISHERINFO (printoem.h)
+title: PUBLISHERINFO (printoem.h)
 description: The PUBLISHERINFO structure is used as an input parameter to the IPrintOemPS::GetInfo method.
-old-location: print\publisherinfo.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/12/2022
 keywords: ["PUBLISHERINFO structure"]
 ms.keywords: "*PPUBLISHERINFO, PPUBLISHERINFO, PPUBLISHERINFO structure pointer [Print Devices], PUBLISHERINFO, PUBLISHERINFO structure [Print Devices], _PUBLISHERINFO, print.publisherinfo, print_unidrv-pscript_rendering_dbd3e74a-00bd-4c21-80e5-80b788f83bb2.xml, printoem/PPUBLISHERINFO, printoem/PUBLISHERINFO"
 req.header: printoem.h
@@ -46,18 +45,15 @@ api_name:
  - PUBLISHERINFO
 ---
 
-# _PUBLISHERINFO structure
-
-
 ## -description
 
-The PUBLISHERINFO structure is used as an input parameter to the <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-getinfo">IPrintOemPS::GetInfo</a> method.
+The **PUBLISHERINFO** structure is used as an input parameter to the [IPrintOemPS::GetInfo](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-getinfo) method.
 
 ## -struct-fields
 
 ### -field dwMode
 
-Is a set of bit flags. The only flag defined is OEM_MODE_PUBLISHER, which must be set if a rendering plug-in for Pscript5 is using "publishing mode".
+Is a set of bit flags. The only flag defined is **OEM_MODE_PUBLISHER**, which must be set if a rendering plug-in for Pscript5 is using "publishing mode".
 
 ### -field wMinoutlinePPEM
 
@@ -69,5 +65,4 @@ Specifies the maximum font size, in pixels, for which the Pscript5 driver will d
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-getinfo">IPrintOemPS::GetInfo</a>
-
+[IPrintOemPS::GetInfo](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-getinfo)

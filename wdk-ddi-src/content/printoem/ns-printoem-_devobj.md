@@ -1,10 +1,9 @@
 ---
 UID: NS:printoem._DEVOBJ
-title: _DEVOBJ (printoem.h)
+title: DEVOBJ (printoem.h)
 description: The DEVOBJ structure is used as an input argument to several of a rendering plug-in's COM interface methods.
-old-location: print\devobj.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/12/2022
 keywords: ["DEVOBJ structure"]
 ms.keywords: "*PDEVOBJ, DEVOBJ, DEVOBJ structure [Print Devices], _DEVOBJ, print.devobj, print_unidrv-pscript_rendering_defda1bb-3862-4b55-a7bf-38b040667c97.xml, printoem/DEVOBJ"
 req.header: printoem.h
@@ -46,30 +45,27 @@ api_name:
  - DEVOBJ
 ---
 
-# _DEVOBJ structure
-
-
 ## -description
 
-The DEVOBJ structure is used as an input argument to several of a rendering plug-in's COM interface methods.
+The **DEVOBJ** structure is used as an input argument to several of a rendering plug-in's COM interface methods.
 
 ## -struct-fields
 
 ### -field dwSize
 
-Specifies the size, in bytes, of the DEVOBJ structure. Supplied by the Unidrv or Pscript5 driver.
+Specifies the size, in bytes, of the **DEVOBJ** structure. Supplied by the Unidrv or Pscript5 driver.
 
 ### -field pdevOEM
 
-Pointer to the rendering plug-in's private PDEV structure, as returned by <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enablepdev">IPrintOemUni::EnablePDEV</a> or <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enablepdev">IPrintOemPS::EnablePDEV</a>. Supplied by the Unidrv or Pscript5 driver.
+Pointer to the rendering plug-in's private PDEV structure, as returned by [IPrintOemUni::EnablePDEV](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enablepdev) or [IPrintOemPS::EnablePDEV](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enablepdev). Supplied by the Unidrv or Pscript5 driver.
 
 ### -field hEngine
 
-GDI handle to the physical device. This handle is received by the printer driver's <a href="/windows/win32/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a> function, as the function's <i>hdev</i> argument.
+GDI handle to the physical device. This handle is received by the printer driver's [DrvCompletePDEV](/windows/win32/api/winddi/nf-winddi-drvcompletepdev) function, as the function's *hdev* argument.
 
 ### -field hPrinter
 
-Spooler's handle to the printer. This handle is received by the printer driver's <a href="/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function, as the function's <i>hDriver</i> argument.
+Spooler's handle to the printer. This handle is received by the printer driver's [DrvEnablePDEV](/windows/win32/api/winddi/nf-winddi-drvenablepdev) function, as the function's *hDriver* argument.
 
 ### -field hOEM
 
@@ -77,7 +73,7 @@ Plug-in instance handle. Supplied by the Unidrv or Pscript5 driver.
 
 ### -field pPublicDM
 
-Pointer to the printer's <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure. Supplied by the Unidrv or Pscript5 driver.
+Pointer to the printer's [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure. Supplied by the Unidrv or Pscript5 driver.
 
 ### -field pOEMDM
 
@@ -85,33 +81,22 @@ Pointer to the rendering plug-in's private DEVMODEW structure members. Supplied 
 
 ### -field pDrvProcs
 
-      Not used. In a previous version of the interface, this was a pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs">DRVPROCS</a> structure.
+      Not used. In a previous version of the interface, this was a pointer to a [DRVPROCS](/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs) structure.
 
 ## -remarks
 
-The DEVOBJ structure is accessible to graphics DDI hooking functions through the <a href="/windows/win32/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure's <b>dhpdev</b> member. For more information, see <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enablepdev">IPrintOemUni::EnablePDEV</a> or <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enablepdev">IPrintOemPS::EnablePDEV</a>.
+The **DEVOBJ** structure is accessible to graphics DDI hooking functions through the [SURFOBJ](/windows/win32/api/winddi/ns-winddi-surfobj) structure's **dhpdev** member. For more information, see [IPrintOemUni::EnablePDEV](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enablepdev) or [IPrintOemPS::EnablePDEV](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enablepdev).
 
 ## -see-also
 
-<a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
+[DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew)
 
+[DrvCompletePDEV](/windows/win32/api/winddi/nf-winddi-drvcompletepdev)
 
+[DrvEnablePDEV](/windows/win32/api/winddi/nf-winddi-drvenablepdev)
 
-<a href="/windows/win32/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a>
+[IPrintOemPS::EnablePDEV](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enablepdev)
 
+[IPrintOemUni::EnablePDEV](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enablepdev)
 
-
-<a href="/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enablepdev">IPrintOemPS::EnablePDEV</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enablepdev">IPrintOemUni::EnablePDEV</a>
-
-
-
-<a href="/windows/win32/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
-
+[SURFOBJ](/windows/win32/api/winddi/ns-winddi-surfobj)

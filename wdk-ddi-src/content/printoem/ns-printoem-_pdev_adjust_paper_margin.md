@@ -1,10 +1,9 @@
 ---
 UID: NS:printoem._PDEV_ADJUST_PAPER_MARGIN
-title: _PDEV_ADJUST_PAPER_MARGIN (printoem.h)
+title: PDEV_ADJUST_PAPER_MARGIN (printoem.h)
 description: The PDEV_ADJUST_PAPER_MARGIN structure specifies the imageable printing area.
-old-location: print\pdev_adjust_paper_margin.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/12/2022
 keywords: ["PDEV_ADJUST_PAPER_MARGIN structure"]
 ms.keywords: PDEV_ADJUST_PAPER_MARGIN, PDEV_ADJUST_PAPER_MARGIN structure [Print Devices], _PDEV_ADJUST_PAPER_MARGIN, print.pdev_adjust_paper_margin, print_unidrv-pscript_rendering_09d49312-b306-40c0-ad25-bc3669e8eedd.xml, printoem/PDEV_ADJUST_PAPER_MARGIN
 req.header: printoem.h
@@ -43,30 +42,24 @@ api_name:
  - PDEV_ADJUST_PAPER_MARGIN
 ---
 
-# _PDEV_ADJUST_PAPER_MARGIN structure
-
-
 ## -description
 
-The PDEV_ADJUST_PAPER_MARGIN structure specifies the imageable printing area.
+The **PDEV_ADJUST_PAPER_MARGIN** structure specifies the imageable printing area.
 
 ## -struct-fields
 
 ### -field rcImageableArea
 
-Is a <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that specifies the rectangular region that can be printed in. This region is specified in units of 0.001 mm.
+Is a [RECTL](/windows/win32/api/windef/ns-windef-rectl) structure that specifies the rectangular region that can be printed in. This region is specified in units of 0.001 mm.
 
 ## -remarks
 
-This structure is available in Windows XP and later. 
+This structure is available in Windows XP and later.
 
-The <i>pBuf</i> parameter of the <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment">IPrintOemPS2::GetPDEVAdjustment</a> method can point to a structure of this type.
+The *pBuf* parameter of the [IPrintOemPS2::GetPDEVAdjustment](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment) method can point to a structure of this type.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment">IPrintOemPS2::GetPDEVAdjustment</a>
+[IPrintOemPS2::GetPDEVAdjustment](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment)
 
-
-
-<a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a>
-
+[RECTL](/windows/win32/api/windef/ns-windef-rectl)

@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-Describes the OEMImageProcessing function.
+Describes the **OEMImageProcessing** function.
 
 ## -parameters
 

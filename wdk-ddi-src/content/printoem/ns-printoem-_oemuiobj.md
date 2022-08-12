@@ -1,10 +1,9 @@
 ---
 UID: NS:printoem._OEMUIOBJ
-title: _OEMUIOBJ (printoem.h)
+title: OEMUIOBJ (printoem.h)
 description: The OEMUIOBJ structure is used as an input argument to several of the methods exported by user interface plug-ins.
-old-location: print\oemuiobj.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/12/2022
 keywords: ["OEMUIOBJ structure"]
 ms.keywords: "*POEMUIOBJ, OEMUIOBJ, OEMUIOBJ structure [Print Devices], POEMUIOBJ, POEMUIOBJ structure pointer [Print Devices], _OEMUIOBJ, print.oemuiobj, print_unidrv-pscript_ui_ce37eb2d-06c0-4bca-88f0-c5ab836c9fd3.xml, printoem/OEMUIOBJ, printoem/POEMUIOBJ"
 req.header: printoem.h
@@ -46,24 +45,22 @@ api_name:
  - OEMUIOBJ
 ---
 
-# _OEMUIOBJ structure
-
-
 ## -description
 
-The OEMUIOBJ structure is used as an input argument to several of the methods exported by user interface plug-ins.
+The **OEMUIOBJ** structure is used as an input argument to several of the methods exported by user interface plug-ins.
 
 ## -struct-fields
 
 ### -field cbSize
 
-Size of the OEMUIOBJ structure.
+Size of the **OEMUIOBJ** structure.
 
 ### -field pOemUIProcs
 
-Pointer to a an <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiprocs">OEMUIPROCS</a> structure, which is a private, internal structure.
+Pointer to a an [**OEMUIPROCS**](/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiprocs) structure, which is a private, internal structure.
 
 ## -remarks
 
-User interface plug-ins do not need to reference an OEMUIOBJ structure's members. Plug-ins receive a pointer to this structure as input to their <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devicecapabilities">IPrintOemUI::DeviceCapabilities</a>, <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devqueryprintex">IPrintOemUI::DevQueryPrintEx</a> and <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-querycolorprofile">IPrintOemUI::QueryColorProfile</a> methods. Additionally, the OEMCUIPPARAM structure contains an OEMUIOBJ structure pointer. Plug-ins must supply the received pointer when calling <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvgetdriversetting">IPrintOemDriverUI::DrvGetDriverSetting</a> or <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvupdateuisetting">IPrintOemDriverUI::DrvUpdateUISetting</a>.
+User interface plug-ins do not need to reference an **OEMUIOBJ** structure's members. Plug-ins receive a pointer to this structure as input to their [IPrintOemUI::DeviceCapabilities](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devicecapabilities), [IPrintOemUI::DevQueryPrintEx](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devqueryprintex) and [IPrintOemUI::QueryColorProfile](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-querycolorprofile) methods.
 
+Additionally, the **OEMCUIPPARAM** structure contains an **OEMUIOBJ** structure pointer. Plug-ins must supply the received pointer when calling [IPrintOemDriverUI::DrvGetDriverSetting](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvgetdriversetting) or [IPrintOemDriverUI::DrvUpdateUISetting](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvupdateuisetting).

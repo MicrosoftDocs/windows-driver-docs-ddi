@@ -1,10 +1,9 @@
 ---
 UID: NS:printoem._PDEV_HOSTFONT_ENABLED
-title: _PDEV_HOSTFONT_ENABLED (printoem.h)
+title: PDEV_HOSTFONT_ENABLED (printoem.h)
 description: The PDEV_HOSTFONT_ENABLED structure indicates whether the Hostfont feature is enabled.
-old-location: print\pdev_hostfont_enabled.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/12/2022
 keywords: ["PDEV_HOSTFONT_ENABLED structure"]
 ms.keywords: PDEV_HOSTFONT_ENABLED, PDEV_HOSTFONT_ENABLED structure [Print Devices], _PDEV_HOSTFONT_ENABLED, print.pdev_hostfont_enabled, print_unidrv-pscript_rendering_81f0441f-4e35-493b-92a9-1836977f9c55.xml, printoem/PDEV_HOSTFONT_ENABLED
 req.header: printoem.h
@@ -43,43 +42,30 @@ api_name:
  - PDEV_HOSTFONT_ENABLED
 ---
 
-# _PDEV_HOSTFONT_ENABLED structure
-
-
 ## -description
 
-The PDEV_HOSTFONT_ENABLED structure indicates whether the Hostfont feature is enabled.
+The **PDEV_HOSTFONT_ENABLED** structure indicates whether the Hostfont feature is enabled.
 
 ## -struct-fields
 
 ### -field bHostfontEnabled
 
-Specifies whether the Hostfont feature is enabled. If set to <b>TRUE</b>, the Hostfont feature is enabled. Otherwise, this feature is disabled.
+Specifies whether the Hostfont feature is enabled. If set to **TRUE**, the Hostfont feature is enabled. Otherwise, this feature is disabled.
 
 ## -remarks
 
-This structure is available in Windows XP and later. 
+This structure is available in Windows XP and later.
 
-The <i>pBuf</i> parameter of the <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment">IPrintOemPS2::GetPDEVAdjustment</a> method can point to a structure of this type.
+The *pBuf* parameter of the [IPrintOemPS2::GetPDEVAdjustment](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment) method can point to a structure of this type.
 
 Hostfont support is designed to improve the performance of a PostScript interpreter running on a host computer system, rather than on a physical printer. When the Hostfont feature is enabled, the Pscript5 driver stops converting and downloading host font data when there is already an identical font resident on the host on which the interpreter is running. This applies only to the following fonts:
 
-<ul>
-<li>
-a TrueType Font (TTF) converted to either a PostScript Type 42 or CID2 font
+- A TrueType Font (TTF) converted to either a PostScript Type 42 or CID2 font
 
-</li>
-<li>
-an OpenType Font (OTF) converted to either a PostScript Type 1 or CID0 font
+- An OpenType Font (OTF) converted to either a PostScript Type 1 or CID0 font
 
-</li>
-<li>
-a Printer Font Binary (PFB)
-
-</li>
-</ul>
+- A Printer Font Binary (PFB)
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment">IPrintOemPS2::GetPDEVAdjustment</a>
-
+[IPrintOemPS2::GetPDEVAdjustment](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment)

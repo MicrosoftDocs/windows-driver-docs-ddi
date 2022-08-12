@@ -7,7 +7,7 @@ ms.date: 08/11/2022
 keywords: ["PFN_DrvWriteAbortBuf callback function"]
 ms.keywords: DrvWriteAbortBuf, DrvWriteAbortBuf callback function [Print Devices], PFN_DrvWriteAbortBuf, PFN_DrvWriteAbortBuf callback, print.drvwriteabortbuf, print_obsoletefunctions_016b6fea-c0ac-47ad-8834-5681e2f4de3d.xml, printoem/DrvWriteAbortBuf
 req.header: printoem.h
-req.include-header: 
+req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,7 +43,7 @@ api_name:
 
 The **DrvWriteAbortBuf** function is obsolete.
 
-Windows 2000 and later Unidrv render plug-ins should use [IPrintOemDriverUni::DrvWriteAbortBuf](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwriteabortbuf). 
+Windows 2000 and later Unidrv render plug-ins should use [IPrintOemDriverUni::DrvWriteAbortBuf](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwriteabortbuf).
 
 This function pointer prototype defines the type of the **DrvWriteAbortBuf** member of the [DRVPROCS](/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs) structure.
 
