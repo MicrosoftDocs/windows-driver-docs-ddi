@@ -4,7 +4,7 @@ title: IWDFMemory::GetDataBuffer (wudfddi.h)
 description: The GetDataBuffer method retrieves the data buffer that is associated with a memory object.
 old-location: wdf\iwdfmemory_getdatabuffer.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 08/12/2022
 keywords: ["IWDFMemory::GetDataBuffer"]
 ms.keywords: GetDataBuffer, GetDataBuffer method, GetDataBuffer method,IWDFMemory interface, IWDFMemory interface,GetDataBuffer method, IWDFMemory.GetDataBuffer, IWDFMemory::GetDataBuffer, UMDFMemoryObjectRef_910791a8-4fd9-47ff-93f9-f8f496e95272.xml, umdf.iwdfmemory_getdatabuffer, wdf.iwdfmemory_getdatabuffer, wudfddi/IWDFMemory::GetDataBuffer
 req.header: wudfddi.h
@@ -42,32 +42,30 @@ api_name:
 
 # IWDFMemory::GetDataBuffer
 
-
 ## -description
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+> [!WARNING]
+> UMDF 2 is the latest version of UMDF and supersedes UMDF 1. All new UMDF drivers should be written using UMDF 2. No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10. Universal Windows drivers must use UMDF 2. For more info, see [Getting Started with UMDF](/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2).
 
-The <b>GetDataBuffer</b> method retrieves the data buffer that is associated with a memory object.
+The **GetDataBuffer** method retrieves the data buffer that is associated with a memory object.
 
 ## -parameters
 
-### -param BufferSize
-
-### -param pBufferSize [out, optional]
+### -param BufferSize [out, optional]
 
 A pointer to a variable that receives information that describes the size of the data buffer.
 
-This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information.
+This parameter is optional. The driver can pass **NULL** if the driver does not require the information.
 
 ## -returns
 
-<b>GetDataBuffer</b> returns a pointer to the data buffer.
+**GetDataBuffer** returns a pointer to the data buffer.
 
 ## -remarks
 
-For a code example of how to use the <b>GetDataBuffer</b> method, see <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-setpnpstate">IWDFDevice::SetPnpState</a>.
+For a code example of how to use the **GetDataBuffer** method, see [IWDFDevice::SetPnpState](./nf-wudfddi-iwdfdevice-setpnpstate.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a>
-
+- [IWDFMemory](./nn-wudfddi-iwdfmemory.md)
+- [IWDFDevice::SetPnpState](./nf-wudfddi-iwdfdevice-setpnpstate.md)
