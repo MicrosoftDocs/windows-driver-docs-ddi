@@ -2,9 +2,8 @@
 UID: NC:printoem.PFN_DrvXMoveTo
 title: PFN_DrvXMoveTo (printoem.h)
 description: The DrvXMoveTo function is obsolete.
-old-location: print\drvxmoveto.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/11/2022
 keywords: ["PFN_DrvXMoveTo callback function"]
 ms.keywords: DrvXMoveTo, DrvXMoveTo callback function [Print Devices], PFN_DrvXMoveTo, PFN_DrvXMoveTo callback, print.drvxmoveto, print_obsoletefunctions_a9d1de5a-71ef-4533-ab48-5e56a113dfb9.xml, printoem/DrvXMoveTo
 req.header: printoem.h
@@ -40,22 +39,28 @@ api_name:
  - PFN_DrvXMoveTo
 ---
 
-# PFN_DrvXMoveTo callback function
-
-
 ## -description
 
-The <b>DrvXMoveTo</b> function is obsolete.
+The **DrvXMoveTo** function is obsolete.
 
- Windows 2000 and later Unidrv plug-ins should use <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvxmoveto">IPrintOemDriverUni::DrvXMoveTo</a>. 
+ Windows 2000 and later Unidrv plug-ins should use [IPrintOemDriverUni::DrvXMoveTo](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvxmoveto).
 
-This function pointer prototype defines the type of the <b>DrvXMoveTo</b> member of the <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs">DRVPROCS</a> structure.
+This function pointer prototype defines the type of the **DrvXMoveTo** member of the [DRVPROCS](/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs) structure.
 
 ## -parameters
 
 ### -param pdevobj
 
+Defines the **PDEVOBJ** parameter *pdevobj*.
+
 ### -param x
+
+Defines the **INT** parameter *x*.
 
 ### -param dwFlags
 
+Defines the **DWORD** parameter *dwFlags*.
+
+## -returns
+
+Returns a **INT** value.

@@ -2,9 +2,8 @@
 UID: NC:printoem.PFN_DrvWriteAbortBuf
 title: PFN_DrvWriteAbortBuf (printoem.h)
 description: The DrvWriteAbortBuf function is obsolete.
-old-location: print\drvwriteabortbuf.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/11/2022
 keywords: ["PFN_DrvWriteAbortBuf callback function"]
 ms.keywords: DrvWriteAbortBuf, DrvWriteAbortBuf callback function [Print Devices], PFN_DrvWriteAbortBuf, PFN_DrvWriteAbortBuf callback, print.drvwriteabortbuf, print_obsoletefunctions_016b6fea-c0ac-47ad-8834-5681e2f4de3d.xml, printoem/DrvWriteAbortBuf
 req.header: printoem.h
@@ -40,24 +39,32 @@ api_name:
  - PFN_DrvWriteAbortBuf
 ---
 
-# PFN_DrvWriteAbortBuf callback function
-
-
 ## -description
 
-The <b>DrvWriteAbortBuf</b> function is obsolete.
+The **DrvWriteAbortBuf** function is obsolete.
 
-Windows 2000 and later Unidrv render plug-ins should use <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwriteabortbuf">IPrintOemDriverUni::DrvWriteAbortBuf</a>. 
+Windows 2000 and later Unidrv render plug-ins should use [IPrintOemDriverUni::DrvWriteAbortBuf](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwriteabortbuf). 
 
-This function pointer prototype defines the type of the <b>DrvWriteAbortBuf</b> member of the <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs">DRVPROCS</a> structure.
+This function pointer prototype defines the type of the **DrvWriteAbortBuf** member of the [DRVPROCS](/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs) structure.
 
 ## -parameters
 
 ### -param pdevobj
 
+Defines the **PDEVOBJ** parameter *pdevobj*.
+
 ### -param pBuffer
+
+Defines the **PVOID** parameter *pBuffer*.
 
 ### -param cbSize
 
+Defines the **DWORD** parameter *cbSize*.
+
 ### -param dwWait
 
+Defines the **DWORD** parameter *dwWait*.
+
+## -returns
+
+Returns a **DWORD** value.
