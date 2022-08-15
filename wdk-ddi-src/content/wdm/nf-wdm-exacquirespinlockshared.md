@@ -1,11 +1,13 @@
 ---
 UID: NF:wdm.ExAcquireSpinLockShared
-tech.root:  kernel
 title: ExAcquireSpinLockShared
+description: The ExAcquireSpinLockShared routine acquires a spin lock for shared access by the caller, and raises the IRQL to DISPATCH_LEVEL.
+tech.root:  kernel
 ms.date: 08/15/2022
 targetos: Windows
-description: 
 prerelease: false
+keywords: ["ExAcquireSpinLockShared function"]
+ms.keywords: ExAcquireSpinLockShared, ExAcquireSpinLockShared routine [Kernel-Mode Driver Architecture], kernel.exacquirespinlockshared_, wdm/ExAcquireSpinLockShared
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -13,22 +15,24 @@ req.dll:
 req.header: wdm.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: DISPATCH_LEVEL (See Remarks.)
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
 req.namespace: 
+req.product: Windows 10 or later.
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Available starting with Windows Vista with SP1.
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
+req.typenames: WORK_QUEUE_TYPE
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - wdm.h
 api_name:
