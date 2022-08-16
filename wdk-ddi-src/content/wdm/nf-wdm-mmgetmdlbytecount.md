@@ -3,7 +3,7 @@ UID: NF:wdm.MmGetMdlByteCount
 title: MmGetMdlByteCount macro (wdm.h)
 description: The MmGetMdlByteCount macro returns the length, in bytes, of the buffer described by the specified MDL.
 tech.root: kernel
-ms.date: 07/12/2022
+ms.date: 08/16/2022
 keywords: ["MmGetMdlByteCount macro"]
 ms.keywords: MmGetMdlByteCount, MmGetMdlByteCount macro [Tools], k106_f750d750-c5ca-44cf-b8f1-f52d2eb8bc27.xml, kernel.mmgetmdlbytecount, wdm/MmGetMdlByteCount
 req.header: wdm.h
@@ -45,7 +45,7 @@ The **MmGetMdlByteCount** macro returns the length, in bytes, of the buffer desc
 
 ## -parameters
 
-### -param Mdl [in]
+### -param Mdl
 
 A pointer to an [MDL](./ns-wdm-_mdl.md) structure that describes the layout of a virtual memory buffer in physical memory. For more information, see [Using MDLs](/windows-hardware/drivers/kernel/using-mdls).
 
@@ -54,6 +54,12 @@ A pointer to an [MDL](./ns-wdm-_mdl.md) structure that describes the layout of a
 **MmGetMdlByteCount** returns the length, in bytes, of the buffer described by Mdl.
 
 ## -remarks
+
+Macro definition:
+
+```cpp
+#define MmGetMdlByteCount(Mdl)  ((Mdl)->ByteCount)
+```
 
 Callers of **MmGetMdlByteCount** can be running at any IRQL. Usually, callers are running at IRQL <= DISPATCH_LEVEL.
 
@@ -67,6 +73,6 @@ Callers of **MmGetMdlByteCount** can be running at any IRQL. Usually, callers ar
 
 ```cpp
 ULONG MmGetMdlByteCount(
-  [in]  Mdl
+  [in] PMDL Mdl
 );
 ```

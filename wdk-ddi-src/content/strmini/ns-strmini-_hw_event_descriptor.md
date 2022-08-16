@@ -3,7 +3,7 @@ UID: NS:strmini._HW_EVENT_DESCRIPTOR
 title: _HW_EVENT_DESCRIPTOR (strmini.h)
 description: When the class driver calls one of the minidriver's StrMiniEvent routines, it passes a pointer to an HW_EVENT_DESCRIPTOR structure to describe the event as enabled or disabled.
 tech.root: stream
-ms.date: 04/22/2022
+ms.date: 08/16/2022
 keywords: ["HW_EVENT_DESCRIPTOR structure"]
 ms.keywords: "*PHW_EVENT_DESCRIPTOR, HW_EVENT_DESCRIPTOR, HW_EVENT_DESCRIPTOR structure [Streaming Media Devices], PHW_EVENT_DESCRIPTOR, PHW_EVENT_DESCRIPTOR structure pointer [Streaming Media Devices], _HW_EVENT_DESCRIPTOR, strclass-struct_ca0c15b2-17d1-4114-9765-5638dd81ca24.xml, stream.hw_event_descriptor, strmini/HW_EVENT_DESCRIPTOR, strmini/PHW_EVENT_DESCRIPTOR"
 req.header: strmini.h
@@ -82,5 +82,9 @@ For device events, this specifies the index of the event set within the **Device
 Pointer to the minidriver's instance extension. The minidriver may use this buffer to record private information global to this instance of the minidriver. The minidriver sets the size of this buffer in the [HW_INITIALIZATION_DATA](./ns-strmini-_hw_initialization_data.md) structure it passes when it registers itself via [StreamClassRegisterMinidriver](./nf-strmini-streamclassregisteradapter.md).
 
 ### -field Reserved
+
+Reserved for system use. Do not use.
+
+### -field Reserved[2]
 
 Reserved for system use. Do not use.
