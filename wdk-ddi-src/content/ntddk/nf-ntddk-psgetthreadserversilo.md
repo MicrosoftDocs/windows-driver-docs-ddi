@@ -49,11 +49,11 @@ Determines whether the given thread is a silo.
 
 ### -param Thread [In]
 
-A pointer to the job being examined.
+A pointer to the thread being examined.
 
 ## -returns
 
-Returns TRUE if the job is a silo, FALSE otherwise.
+Returns TRUE if the thread is a silo, FALSE otherwise.
 
 ## -remarks
 
