@@ -2,7 +2,7 @@
 UID: NF:acxrequest.ACX_REQUEST_PARAMETERS_INIT_METHOD
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS_INIT_METHOD
-ms.date: 07/26/2022
+ms.date: 08/17/2022
 targetos: Windows
 description: The ACX_REQUEST_PARAMETERS_INIT_METHOD initializes an ACX_REQUEST_PARAMETERS struct with ACX method parameters.
 prerelease: true
@@ -14,7 +14,7 @@ req.header: acxrequest.h
 req.idl: 
 req.include-header: 
 req.irql: 
-req.kmdf-ver: 
+req.kmdf-ver: 1.31
 req.lib: 
 req.max-support: 
 req.namespace: 
@@ -64,7 +64,7 @@ The ACX method verb to send as defined by the [ACX_METHOD_VERB](ne-acxrequest-ac
 
 ### -param ItemType
 
-The [ACX_ITEM_TYPE](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_item_type.md) type of item being sent, for example AcxItemTypeCircuit.
+The [ACX_ITEM_TYPE](ne-acxrequest-acx_item_type.md) type of item being sent, for example AcxItemTypeCircuit.
 
 ### -param ItemId
 
