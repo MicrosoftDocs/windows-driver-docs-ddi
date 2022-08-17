@@ -4,7 +4,7 @@ title: IQueueCallbackCreate::OnCreateFile (wudfddi.h)
 description: The OnCreateFile method is called to handle an open file request when an application opens a device through the Microsoft Win32 CreateFile function.
 old-location: wdf\iqueuecallbackcreate_oncreatefile.htm
 tech.root: wdf
-ms.date: 08/11/2022
+ms.date: 08/17/2022
 keywords: ["IQueueCallbackCreate::OnCreateFile"]
 ms.keywords: IQueueCallbackCreate interface,OnCreateFile method, IQueueCallbackCreate.OnCreateFile, IQueueCallbackCreate::OnCreateFile, OnCreateFile, OnCreateFile method, OnCreateFile method,IQueueCallbackCreate interface, UMDFQueueObjectRef_db0b57a0-6086-4e2a-87bd-71e5a1e4f46d.xml, umdf.iqueuecallbackcreate_oncreatefile, wdf.iqueuecallbackcreate_oncreatefile, wudfddi/IQueueCallbackCreate::OnCreateFile
 req.header: wudfddi.h
@@ -53,7 +53,11 @@ The **OnCreateFile** method is called to handle an open file request when an app
 
 ### -param pWdfQueue [in]
 
-A pointer to the [IWDFIoQueue](./nn-wudfddi-iwdfioqueue.md) interface for the I/O queue object that the request arrives from.
+A pointer to the [IWDFIoQueue](./nn-wudfddi-iwdfioqueue.md) interface for the I/O queue object form which the request arrives.
+
+### -param pWDFRequest [in]
+
+A pointer to the [IWDFIoRequest](nn-wudfddi-iwdfiorequest.md) interface for the I/O request object for the device.
 
 ### -param pWdfFileObject [in]
 
