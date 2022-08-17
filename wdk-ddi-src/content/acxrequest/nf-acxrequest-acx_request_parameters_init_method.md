@@ -16,7 +16,7 @@ req.include-header:
 req.irql: 
 req.kmdf-ver: 1.31
 req.lib: 
-req.max-support: 
+req.max-support: 1.1
 req.namespace: 
 req.redist: 
 req.target-min-winverclnt: 
