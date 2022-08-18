@@ -452,7 +452,7 @@ Depending on the value in the **InterruptType** member, the display miniport dri
 
 [**DXGK_MIRACAST_CAPS**](..\dispmprt\ns-dispmprt-_dxgk_miracast_caps.md)
 
-[**DXGK_MIRACAST_CHUNK_INFO**](../d3dukmdt/ns-d3dukmdt-dxgk_miracast_chunk_info.md)
+[**DXGK_MIRACAST_CHUNK_INFO**](..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md)
 
 [**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO**](..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_vsync_info.md)
 
