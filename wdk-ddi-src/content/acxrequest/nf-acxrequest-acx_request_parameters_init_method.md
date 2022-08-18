@@ -14,7 +14,7 @@ req.header: acxrequest.h
 req.idl: 
 req.include-header: 
 req.irql: 
-req.kmdf-ver: 1.31
+req.kmdf-ver: 
 req.lib: 
 req.max-support: 
 req.namespace: 
@@ -111,6 +111,13 @@ Example usage is shown below.
                 );
 ```
 
+
+### ACX Requirements
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.1 |
+
+For more information about ACX versions, see [ACX version overview]().
 
 ## -see-also
 
