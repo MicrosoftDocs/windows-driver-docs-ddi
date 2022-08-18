@@ -4,7 +4,7 @@ title: _IRQ_DEVICE_POLICY (wdm.h)
 description: The _IRQ_DEVICE_POLICY enumeration (wdm.h) type indicates the operating system policy used to assign interrupts from a device to different processors.
 old-location: kernel\irq_device_policy.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 08/18/2022
 keywords: ["IRQ_DEVICE_POLICY enumeration"]
 ms.keywords: "*PIRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], IrqPolicyAllCloseProcessors, IrqPolicyAllProcessorsInMachine, IrqPolicyMachineDefault, IrqPolicyOneCloseProcessor, IrqPolicySpecifiedProcessors, IrqPolicySpreadMessagesAcrossAllProcessors, PIRQ_DEVICE_POLICY, PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], _IRQ_DEVICE_POLICY, kernel.irq_device_policy, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, wdm/IRQ_DEVICE_POLICY, wdm/IrqPolicyAllCloseProcessors, wdm/IrqPolicyAllProcessorsInMachine, wdm/IrqPolicyMachineDefault, wdm/IrqPolicyOneCloseProcessor, wdm/IrqPolicySpecifiedProcessors, wdm/IrqPolicySpreadMessagesAcrossAllProcessors, wdm/PIRQ_DEVICE_POLICY"
 req.header: wdm.h
@@ -48,10 +48,9 @@ api_name:
 
 # _IRQ_DEVICE_POLICY enumeration (wdm.h)
 
-
 ## -description
 
-The <b>IRQ_DEVICE_POLICY</b> enumeration type indicates the policy the operating system can use to assign the interrupts from a device to different processors.
+The **IRQ_DEVICE_POLICY** enumeration type indicates the policy the operating system can use to assign the interrupts from a device to different processors.
 
 ## -enum-fields
 
@@ -61,7 +60,7 @@ The device does not require any particular assignment of interrupts to processor
 
 ### -field IrqPolicyAllCloseProcessors
 
-The operating system should assign interrupts from the device to processors that are close to the device. On non-NUMA computers, the effect of this value is identical to that of <b>IrqPolicyAllProcessorsInMachine</b>.
+The operating system should assign interrupts from the device to processors that are close to the device. On non-NUMA computers, the effect of this value is identical to that of **IrqPolicyAllProcessorsInMachine**.
 
 ### -field IrqPolicyOneCloseProcessor
 
@@ -81,11 +80,12 @@ The operating system should assign different message-signaled interrupts to diff
 
 ### -field IrqPolicyAllProcessorsInMachineWhenSteered
 
+The operating system should assign interrupts from the device to all processors when interrupts are routed to specific PCI devices.
+
 ## -remarks
 
-The <b>Interrupt.AffinityPolicy</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure is an <b>IRQ_DEVICE_POLICY</b> enumeration value.
+The **Interrupt.AffinityPolicy** member of the [IO_RESOURCE_DESCRIPTOR](./ns-wdm-_io_resource_descriptor.md) structure is an **IRQ_DEVICE_POLICY** enumeration value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
-
+- [IO_RESOURCE_DESCRIPTOR](./ns-wdm-_io_resource_descriptor.md)
