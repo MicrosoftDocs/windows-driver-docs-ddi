@@ -8,7 +8,7 @@ description: The ACX_REQUEST_PARAMETERS_INIT_METHOD initializes an ACX_REQUEST_P
 prerelease: true
 req.assembly: 
 req.construct-type: function
-req.ddi-compliance: 
+req.ddi-compliance: 1.1
 req.dll: 
 req.header: acxrequest.h
 req.idl: 
@@ -16,7 +16,7 @@ req.include-header:
 req.irql: 
 req.kmdf-ver: 1.31
 req.lib: 
-req.max-support: 1.1
+req.max-support: 
 req.namespace: 
 req.redist: 
 req.target-min-winverclnt: 
