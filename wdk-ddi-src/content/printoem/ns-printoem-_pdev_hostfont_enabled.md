@@ -56,7 +56,7 @@ Specifies whether the Hostfont feature is enabled. If set to **TRUE**, the Hostf
 
 This structure is available in Windows XP and later.
 
-The *pBuf* parameter of the [IPrintOemPS2::GetPDEVAdjustment](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment) method can point to a structure of this type.
+The *pBuf* parameter of the [IPrintOemPS2::GetPDEVAdjustment](../prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment.md) method can point to a structure of this type.
 
 Hostfont support is designed to improve the performance of a PostScript interpreter running on a host computer system, rather than on a physical printer. When the Hostfont feature is enabled, the Pscript5 driver stops converting and downloading host font data when there is already an identical font resident on the host on which the interpreter is running. This applies only to the following fonts:
 
@@ -68,4 +68,4 @@ Hostfont support is designed to improve the performance of a PostScript interpre
 
 ## -see-also
 
-[IPrintOemPS2::GetPDEVAdjustment](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment)
+[IPrintOemPS2::GetPDEVAdjustment](../prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment.md)

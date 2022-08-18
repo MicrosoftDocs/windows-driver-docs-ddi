@@ -95,5 +95,5 @@ Callers of this routine must be running at IRQL <= DISPATCH_LEVEL. To maintain o
 
 ## -see-also
 
-- [PCMCIA_IS_WRITE_PROTECTED](/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_is_write_protected)
-- [PCMCIA_SET_VPP](/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_set_vpp)
+- [PCMCIA_IS_WRITE_PROTECTED](./nc-ntddpcm-pcmcia_is_write_protected.md)
+- [PCMCIA_SET_VPP](./nc-ntddpcm-pcmcia_set_vpp.md)

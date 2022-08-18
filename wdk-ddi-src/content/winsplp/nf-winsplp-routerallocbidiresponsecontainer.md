@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-**RouterAllocBidiResponseContainer** allocates a [BIDI_RESPONSE_CONTAINER](/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container) structure containing a list of bidi responses. The bidi response list is an array of [BIDI_RESPONSE_DATA](/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_data) structures.
+**RouterAllocBidiResponseContainer** allocates a [BIDI_RESPONSE_CONTAINER](../winspool/ns-winspool-_bidi_response_container.md) structure containing a list of bidi responses. The bidi response list is an array of [BIDI_RESPONSE_DATA](../winspool/ns-winspool-_bidi_response_data.md) structures.
 
 ## -parameters
 
@@ -55,14 +55,14 @@ Specifies the number of BIDI_RESPONSE_DATA structures to be allocated.
 
 ## -remarks
 
-When the memory allocated by this function is no longer needed, use [RouterFreeBidiResponseContainer](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidiresponsecontainer).
+When the memory allocated by this function is no longer needed, use [RouterFreeBidiResponseContainer](./nf-winsplp-routerfreebidiresponsecontainer.md).
 
 ## -see-also
 
-[BIDI_RESPONSE_CONTAINER](/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container)
+[BIDI_RESPONSE_CONTAINER](../winspool/ns-winspool-_bidi_response_container.md)
 
-[BIDI_RESPONSE_DATA](/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_data)
+[BIDI_RESPONSE_DATA](../winspool/ns-winspool-_bidi_response_data.md)
 
-[RouterFreeBidiResponseContainer](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidiresponsecontainer)
+[RouterFreeBidiResponseContainer](./nf-winsplp-routerfreebidiresponsecontainer.md)
 
 [SendRecvBidiDataFromPort](/previous-versions/ff562071(v=vs.85))

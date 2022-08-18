@@ -43,9 +43,9 @@ api_name:
 
 This **DrvGetStandardVariable** function is obsolete.
 
-Windows 2000 and later printer drivers should use [IPrintOemDriverUni::DrvGetStandardVariable](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvgetstandardvariable).
+Windows 2000 and later printer drivers should use [IPrintOemDriverUni::DrvGetStandardVariable](../prcomoem/nf-prcomoem-iprintoemdriveruni-drvgetstandardvariable.md).
 
-This function pointer prototype defines the type of the **BGetStandardVariable** member of the [DRVPROCS](/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs) structure.
+This function pointer prototype defines the type of the **BGetStandardVariable** member of the [DRVPROCS](./ns-printoem-_drvprocs.md) structure.
 
 ## -parameters
 

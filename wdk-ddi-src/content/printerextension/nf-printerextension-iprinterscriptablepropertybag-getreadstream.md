@@ -65,6 +65,6 @@ A call to **GetReadStream** will throw an exception, if the specified property i
 
 ## -see-also
 
-[IPrinterScriptablePropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag)
+[IPrinterScriptablePropertyBag](./nn-printerextension-iprinterscriptablepropertybag.md)
 
-[IPrinterScriptableStream](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablestream)
+[IPrinterScriptableStream](./nn-printerextension-iprinterscriptablestream.md)

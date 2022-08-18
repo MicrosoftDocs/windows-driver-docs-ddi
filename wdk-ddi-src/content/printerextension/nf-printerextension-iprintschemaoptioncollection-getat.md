@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-Gets a pointer to an [IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption) object.
+Gets a pointer to an [IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md) object.
 
 ## -parameters
 
@@ -51,7 +51,7 @@ Index of the **IPrintSchemaOption** object within the collection.
 
 ### -param ppOption [out, retval, optional]
 
-Pointer to an [IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption) object.
+Pointer to an [IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md) object.
 
 ## -returns
 
@@ -59,6 +59,6 @@ Returns an **HRESULT** value. If the method call was not successful,  it returns
 
 ## -see-also
 
-[IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption)
+[IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md)
 
-[IPrintSchemaOptionCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoptioncollection)
+[IPrintSchemaOptionCollection](./nn-printerextension-iprintschemaoptioncollection.md)

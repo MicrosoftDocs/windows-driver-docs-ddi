@@ -114,6 +114,6 @@ It is possible for a job to have multiple  flag values specified simultaneously.
 
 ## -see-also
 
-[IPrintJob::Status](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_status)
+[IPrintJob::Status](./nf-printerextension-iprintjob-get_status.md)
 
 [JOB_INFO_1](/windows/win32/printdocs/job-info-1)

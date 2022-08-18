@@ -57,6 +57,6 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 ## -see-also
 
-[IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption)
+[IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md)
 
-[PrintSchemaConstrainedSetting](/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintschemaconstrainedsetting)
+[PrintSchemaConstrainedSetting](./ne-printerextension-tagprintschemaconstrainedsetting.md)

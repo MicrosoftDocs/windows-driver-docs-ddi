@@ -65,8 +65,8 @@ The *bstrResponse* parameter is formatted according to the schema that is descri
 
 [Bidi Request and Response Schemas](/previous-versions/dd183368(v=vs.85))
 
-[IPrinterQueue](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue)
+[IPrinterQueue](./nn-printerextension-iprinterqueue.md)
 
-[IPrinterQueue::SendBidiQuery](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueue-sendbidiquery)
+[IPrinterQueue::SendBidiQuery](./nf-printerextension-iprinterqueue-sendbidiquery.md)
 
-[IPrinterQueueEvent](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueevent)
+[IPrinterQueueEvent](./nn-printerextension-iprinterqueueevent.md)

@@ -43,7 +43,7 @@ api_name:
 
 Reads a byte array property.
 
-The [IPrinterPropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag) interface is used by all the printer property bags, including driver property bag, user property bag, queue property bag, and DEVMODE property bag.
+The [IPrinterPropertyBag](./nn-printerextension-iprinterpropertybag.md) interface is used by all the printer property bags, including driver property bag, user property bag, queue property bag, and DEVMODE property bag.
 
 ## -parameters
 
@@ -65,4 +65,4 @@ This method returns an **HRESULT** value.
 
 ## -see-also
 
-[IPrinterPropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag)
+[IPrinterPropertyBag](./nn-printerextension-iprinterpropertybag.md)

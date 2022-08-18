@@ -65,4 +65,4 @@ This maps to the Print Schema's StringParamType parameters, with UnitType not eq
 
 ## -see-also
 
-[IPrintSchemaParameterDefinition::DataType](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaparameterdefinition-get_datatype)
+[IPrintSchemaParameterDefinition::DataType](./nf-printerextension-iprintschemaparameterdefinition-get_datatype.md)

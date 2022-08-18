@@ -75,4 +75,4 @@ On input, the new requested energy performance preference for the processor.
 
 ## -see-also
 
-- [Processor power management (PPM) notifications](/windows-hardware/drivers/ddi/index)
+- [Processor power management (PPM) notifications](../index.yml)

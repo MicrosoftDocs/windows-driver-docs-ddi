@@ -59,7 +59,7 @@ This method returns an **HRESULT** value.
 
 ## -remarks
 
-Only the following feature key names are recognized. The key names are equivalent to public Print Schema feature names as shown in the following table. The table also shows the features that have specialized option types (by default the option type is [IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption)).
+Only the following feature key names are recognized. The key names are equivalent to public Print Schema feature names as shown in the following table. The table also shows the features that have specialized option types (by default the option type is [IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md)).
 
 | Name | Print schema feature public name | Specialized option type |
 |--|--|--|
@@ -68,9 +68,9 @@ Only the following feature key names are recognized. The key names are equivalen
 | DocumentDuplex | JobDuplexAllDocumentsContiguously |  |
 | DocumentHolePunch | DocumentHolePunch or JobHolePunch |  |
 | DocumentInputBin | JobInputBin, DocumentInputBin or PageInputBin |  |
-| DocumentNUp | JobNUpAllDocumentsContiguously | [IPrintSchemaNUpOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemanupoption) |
+| DocumentNUp | JobNUpAllDocumentsContiguously | [IPrintSchemaNUpOption](./nn-printerextension-iprintschemanupoption.md) |
 | DocumentStaple | JobStapleAllDocuments or DocumentStaple |  |
-| PageMediaSize | PageMediaSize | [IPrintSchemaPageMediaSizeOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapagemediasizeoption) |
+| PageMediaSize | PageMediaSize | [IPrintSchemaPageMediaSizeOption](./nn-printerextension-iprintschemapagemediasizeoption.md) |
 | PageMediaType | PageMediaType |  |
 | PageOrientation | PageOrientation |  |
 | PageOutputColor | PageOutputColor |  |
@@ -78,14 +78,14 @@ Only the following feature key names are recognized. The key names are equivalen
 
 When the requested feature, option or property is not found, this method returns S_FALSE and sets a NULL pointer on the output object of the feature, option or property.
 
-So if the [IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket) object does not contain the specified feature, option or property, the app must obtain an [IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities) object and query it via **IPrintSchemaCapabilities::GetFeatureByKeyName** or via [IPrintSchemaCapabilities::GetFeature](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemacapabilities-getfeature).
+So if the [IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md) object does not contain the specified feature, option or property, the app must obtain an [IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md) object and query it via **IPrintSchemaCapabilities::GetFeatureByKeyName** or via [IPrintSchemaCapabilities::GetFeature](./nf-printerextension-iprintschemacapabilities-getfeature.md).
 
 ## -see-also
 
-[IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities)
+[IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md)
 
-[IPrintSchemaNUpOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemanupoption)
+[IPrintSchemaNUpOption](./nn-printerextension-iprintschemanupoption.md)
 
-[IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption)
+[IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md)
 
-[IPrintSchemaPageMediaSizeOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapagemediasizeoption)
+[IPrintSchemaPageMediaSizeOption](./nn-printerextension-iprintschemapagemediasizeoption.md)

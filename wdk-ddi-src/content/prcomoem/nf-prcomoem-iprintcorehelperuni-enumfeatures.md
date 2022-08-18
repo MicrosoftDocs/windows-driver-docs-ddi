@@ -63,6 +63,6 @@ For Unidrv features, the feature list is based on the GPD view of the configurat
 
 ## -see-also
 
-[IPrintCoreHelperUni](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperuni)
+[IPrintCoreHelperUni](./nn-prcomoem-iprintcorehelperuni.md)
 
-[IPrintCoreHelperUni::EnumOptions](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperuni-enumoptions)
+[IPrintCoreHelperUni::EnumOptions](./nf-prcomoem-iprintcorehelperuni-enumoptions.md)

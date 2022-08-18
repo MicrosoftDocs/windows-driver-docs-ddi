@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-Is called when asynchronous PrintSchema operation that is represented by an [IPrintSchemaAsyncOperation](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperation) context is completed.
+Is called when asynchronous PrintSchema operation that is represented by an [IPrintSchemaAsyncOperation](./nn-printerextension-iprintschemaasyncoperation.md) context is completed.
 
 ## -parameters
 
@@ -63,6 +63,6 @@ The print ticket passed to the **Completed** method is the final validated, merg
 
 ## -see-also
 
-[IPrintSchemaAsyncOperationEvent](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperationevent)
+[IPrintSchemaAsyncOperationEvent](./nn-printerextension-iprintschemaasyncoperationevent.md)
 
-[IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
+[IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md)

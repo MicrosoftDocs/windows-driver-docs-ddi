@@ -53,19 +53,19 @@ The structure contains the addresses of helper functions that are provided to re
 
 All of the functions pointed to by members of this structure are obsolete. For more information about each, see the following topics:
 
-[**DrvWriteSpoolBuf**](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvwritespoolbuf)
+[**DrvWriteSpoolBuf**](./nc-printoem-pfn_drvwritespoolbuf.md)
 
-[**DrvXMoveTo**](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvxmoveto)
+[**DrvXMoveTo**](./nc-printoem-pfn_drvxmoveto.md)
 
-[**DrvYMoveTo**](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvymoveto)
+[**DrvYMoveTo**](./nc-printoem-pfn_drvymoveto.md)
 
-[**DrvGetDriverSetting**](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetdriversetting)
+[**DrvGetDriverSetting**](./nc-printoem-pfn_drvgetdriversetting.md)
 
-[**DrvGetStandardVariable**](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetstandardvariable) (for information about BGetStandardVariable)
+[**DrvGetStandardVariable**](./nc-printoem-pfn_drvgetstandardvariable.md) (for information about BGetStandardVariable)
 
-[**DrvUnidriverTextOut**](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvunidrivertextout)
+[**DrvUnidriverTextOut**](./nc-printoem-pfn_drvunidrivertextout.md)
 
-[**DrvWriteAbortBuf**](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvwriteabortbuf)
+[**DrvWriteAbortBuf**](./nc-printoem-pfn_drvwriteabortbuf.md)
 
 ## -struct-fields
 

@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-Changes the selected option of the Print Schema Feature element to the specified [IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption) element.
+Changes the selected option of the Print Schema Feature element to the specified [IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md) element.
 
 This property is write-only.
 
@@ -57,6 +57,6 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 ## -see-also
 
-[IPrintSchemaFeature](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature)
+[IPrintSchemaFeature](./nn-printerextension-iprintschemafeature.md)
 
-[IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption)
+[IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md)

@@ -41,13 +41,13 @@ api_name:
 
 ## -description
 
-Provides an [IPrintJobCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection) object that provides a snapshot of a range of print jobs in the queue.
+Provides an [IPrintJobCollection](./nn-printerextension-iprintjobcollection.md) object that provides a snapshot of a range of print jobs in the queue.
 
 ## -parameters
 
 ### -param pCollection [in]
 
-An [IPrintJobCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection) object.
+An [IPrintJobCollection](./nn-printerextension-iprintjobcollection.md) object.
 
 ### -param ulViewOffset [in]
 
@@ -67,14 +67,14 @@ This method returns the appropriate **HRESULT** value.
 
 ## -remarks
 
-The job range is controlled by the [IPrinterQueueView](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueview) interface. Additionally, this method provides the current number of jobs in the print queue, and the indices of the job range being monitored. Information about the number of jobs, and the indices of the jobs is provided in response to the [IPrinterQueueView::SetViewRange](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueview-setviewrange) method being invoked.
+The job range is controlled by the [IPrinterQueueView](./nn-printerextension-iprinterqueueview.md) interface. Additionally, this method provides the current number of jobs in the print queue, and the indices of the job range being monitored. Information about the number of jobs, and the indices of the jobs is provided in response to the [IPrinterQueueView::SetViewRange](./nf-printerextension-iprinterqueueview-setviewrange.md) method being invoked.
 
 ## -see-also
 
-[IPrintJobCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection)
+[IPrintJobCollection](./nn-printerextension-iprintjobcollection.md)
 
-[IPrinterQueueView](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueview)
+[IPrinterQueueView](./nn-printerextension-iprinterqueueview.md)
 
-[IPrinterQueueView::SetViewRange](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueview-setviewrange)
+[IPrinterQueueView::SetViewRange](./nf-printerextension-iprinterqueueview-setviewrange.md)
 
-[IPrinterQueueViewEvent](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueviewevent)
+[IPrinterQueueViewEvent](./nn-printerextension-iprinterqueueviewevent.md)

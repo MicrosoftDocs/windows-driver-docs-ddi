@@ -55,14 +55,14 @@ This method returns an **HRESULT** value.
 
 ## -remarks
 
- To perform the validation operation, call the [IPrintSchemaAsyncOperation::Start](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperation-start) method to validate the settings of the current PrintTicket object and to pass the resulting **PrintTicket** to the [IPrintSchemaAsyncOperationEvent::Completed](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperationevent-completed) event. When the validation operation is completed, or if an error occurs during the validation operation, the **IPrintSchemaAsyncOperationEvent::Completed** event is fired. This method will not change the settings of the current **PrintTicket** object.
+ To perform the validation operation, call the [IPrintSchemaAsyncOperation::Start](./nf-printerextension-iprintschemaasyncoperation-start.md) method to validate the settings of the current PrintTicket object and to pass the resulting **PrintTicket** to the [IPrintSchemaAsyncOperationEvent::Completed](./nf-printerextension-iprintschemaasyncoperationevent-completed.md) event. When the validation operation is completed, or if an error occurs during the validation operation, the **IPrintSchemaAsyncOperationEvent::Completed** event is fired. This method will not change the settings of the current **PrintTicket** object.
 
 ## -see-also
 
-[IPrintSchemaAsyncOperation](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperation)
+[IPrintSchemaAsyncOperation](./nn-printerextension-iprintschemaasyncoperation.md)
 
-[IPrintSchemaAsyncOperation::Start](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperation-start)
+[IPrintSchemaAsyncOperation::Start](./nf-printerextension-iprintschemaasyncoperation-start.md)
 
-[IPrintSchemaAsyncOperationEvent::Completed](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperationevent-completed)
+[IPrintSchemaAsyncOperationEvent::Completed](./nf-printerextension-iprintschemaasyncoperationevent-completed.md)
 
-[IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
+[IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md)

@@ -42,13 +42,13 @@ api_name:
 
 ## -description
 
-If a pin has been placed into injection mode by a call to [KsPinRegisterFrameReturnCallback](/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterframereturncallback), the **KsPinSubmitFrame** function submits a frame directly into the transport circuit.
+If a pin has been placed into injection mode by a call to [KsPinRegisterFrameReturnCallback](./nf-ks-kspinregisterframereturncallback.md), the **KsPinSubmitFrame** function submits a frame directly into the transport circuit.
 
 ## -parameters
 
 ### -param Pin [in]
 
-A pointer to the [KSPIN](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin) structure on which to submit a frame.
+A pointer to the [KSPIN](./ns-ks-_kspin.md) structure on which to submit a frame.
 
 ### -param Data [in, optional]
 
@@ -60,11 +60,11 @@ The size in bytes of the frame buffer to which the *Data* field points. If the *
 
 ### -param StreamHeader [in, optional]
 
-A pointer to a [KSSTREAM_HEADER](/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header) structure. The stream header is copied if this parameter is supplied. Optional.
+A pointer to a [KSSTREAM_HEADER](./ns-ks-ksstream_header.md) structure. The stream header is copied if this parameter is supplied. Optional.
 
 ### -param Context [in, optional]
 
-A pointer to a caller-allocated buffer. AVStream provides this pointer to the frame return callback registered through a call to [KsPinRegisterFrameReturnCallback](/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterframereturncallback). Optional.
+A pointer to a caller-allocated buffer. AVStream provides this pointer to the frame return callback registered through a call to [KsPinRegisterFrameReturnCallback](./nf-ks-kspinregisterframereturncallback.md). Optional.
 
 ## -returns
 
@@ -72,6 +72,6 @@ Returns STATUS_SUCCESS if frame submission is successful. Otherwise returns an a
 
 ## -see-also
 
-[KsPinRegisterFrameReturnCallback](/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterframereturncallback)
+[KsPinRegisterFrameReturnCallback](./nf-ks-kspinregisterframereturncallback.md)
 
-[KsPinSubmitFrameMdl](/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframemdl)
+[KsPinSubmitFrameMdl](./nf-ks-kspinsubmitframemdl.md)

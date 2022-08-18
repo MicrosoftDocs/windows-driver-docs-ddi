@@ -59,4 +59,4 @@ This method returns an **HRESULT** value.
 
 ## -see-also
 
-[IPrinterScriptableSequentialStream](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream)
+[IPrinterScriptableSequentialStream](./nn-printerextension-iprinterscriptablesequentialstream.md)

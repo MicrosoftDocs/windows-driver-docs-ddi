@@ -66,7 +66,7 @@ If the enabling event's KSEVENT_SET.AddHandler for the event set is **NULL**, it
 
 ### -param EventsFlags [in, optional]
 
-Specifies [KSEVENTS_LOCKTYPE](/windows-hardware/drivers/ddi/ks/ne-ks-ksevents_locktype) flags specifying the type of exclusion lock to be used in accessing the event list, if any. If no flag is set, then no lock is taken. If a handler is specified already, this parameter is ignored.
+Specifies [KSEVENTS_LOCKTYPE](./ne-ks-ksevents_locktype.md) flags specifying the type of exclusion lock to be used in accessing the event list, if any. If no flag is set, then no lock is taken. If a handler is specified already, this parameter is ignored.
 
 ### -param EventsLock [in, optional]
 

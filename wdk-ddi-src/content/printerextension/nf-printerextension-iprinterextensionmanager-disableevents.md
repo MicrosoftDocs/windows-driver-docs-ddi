@@ -49,6 +49,6 @@ This method returns an **HRESULT** value.
 
 ## -see-also
 
-[EnableEvents](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensionmanager-enableevents)
+[EnableEvents](./nf-printerextension-iprinterextensionmanager-enableevents.md)
 
-[IPrinterExtensionManager](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionmanager)
+[IPrinterExtensionManager](./nn-printerextension-iprinterextensionmanager.md)

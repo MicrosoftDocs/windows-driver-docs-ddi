@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **FINVOCATION** structure is used as input to the [IPrintOemUni::SendFontCmd](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-sendfontcmd) method. The structure is defined in printoem.h.
+The **FINVOCATION** structure is used as input to the [IPrintOemUni::SendFontCmd](../prcomoem/nf-prcomoem-iprintoemuni-sendfontcmd.md) method. The structure is defined in printoem.h.
 
 ## -struct-fields
 
@@ -61,4 +61,4 @@ Unidrv-supplied pointer to a string containing the printer's font selection comm
 
 ## -see-also
 
-[IPrintOemUni::SendFontCmd](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-sendfontcmd)
+[IPrintOemUni::SendFontCmd](../prcomoem/nf-prcomoem-iprintoemuni-sendfontcmd.md)

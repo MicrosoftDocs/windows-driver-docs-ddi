@@ -65,8 +65,8 @@ This method returns the appropriate **HRESULT** value.
 
 ## -see-also
 
-[IPrinterBidiSetRequestCallback](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterbidisetrequestcallback)
+[IPrinterBidiSetRequestCallback](./nn-printerextension-iprinterbidisetrequestcallback.md)
 
-[IPrinterExtensionAsyncOperation](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionasyncoperation)
+[IPrinterExtensionAsyncOperation](./nn-printerextension-iprinterextensionasyncoperation.md)
 
-[IPrinterQueue2](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue2)
+[IPrinterQueue2](./nn-printerextension-iprinterqueue2.md)

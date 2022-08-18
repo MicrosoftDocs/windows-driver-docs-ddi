@@ -47,11 +47,11 @@ An AVStream minidriver's *AVStrMiniFilterProcess* routine is called when the fil
 
 ### -param Filter [in]
 
-Pointer to the [KSFILTER](/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter) structure that must process frames.
+Pointer to the [KSFILTER](./ns-ks-_ksfilter.md) structure that must process frames.
 
 ### -param Index
 
-Pointer to an array of [KSPROCESSPIN_INDEXENTRY](/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin_indexentry) structures that AVStream orders by pin ID.
+Pointer to an array of [KSPROCESSPIN_INDEXENTRY](./ns-ks-_ksprocesspin_indexentry.md) structures that AVStream orders by pin ID.
 
 ## -returns
 
@@ -59,7 +59,7 @@ Return STATUS_SUCCESS to continue processing. Return STATUS_PENDING to stop proc
 
 ## -remarks
 
-The minidriver specifies this routine's address in the **Process** member of its [KSFILTER_DISPATCH](/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_dispatch) structure.
+The minidriver specifies this routine's address in the **Process** member of its [KSFILTER_DISPATCH](./ns-ks-_ksfilter_dispatch.md) structure.
 
 The routine is called at either IRQL = DISPATCH_LEVEL or PASSIVE_LEVEL depending on the preference expressed in the filter descriptor. Filter descriptors that specify KSFILTER_FLAG_DISPATCH_LEVEL_PROCESSING may have their process callback at DISPATCH_LEVEL; filter descriptors that do not specify this flag will have their process callback at PASSIVE_LEVEL.
 
@@ -69,6 +69,6 @@ This routine is optional.
 
 ## -see-also
 
-[KSFILTER_DISPATCH](/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_dispatch)
+[KSFILTER_DISPATCH](./ns-ks-_ksfilter_dispatch.md)
 
-[KSPROCESSPIN_INDEXENTRY](/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin_indexentry)
+[KSPROCESSPIN_INDEXENTRY](./ns-ks-_ksprocesspin_indexentry.md)

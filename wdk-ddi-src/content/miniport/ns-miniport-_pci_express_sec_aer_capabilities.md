@@ -71,8 +71,8 @@ A ULONG representation of the contents of the **PCI_EXPRESS_SEC_AER_CAPABILITIES
 
 The **PCI_EXPRESS_SEC_AER_CAPABILITIES** union is available in Windows Server 2008 and later versions of Windows.
 
-A **PCI_EXPRESS_SEC_AER_CAPABILITIES** union is contained in the [PCI_EXPRESS_BRIDGE_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability) structure.
+A **PCI_EXPRESS_SEC_AER_CAPABILITIES** union is contained in the [PCI_EXPRESS_BRIDGE_AER_CAPABILITY](../wdm/ns-wdm-_pci_express_bridge_aer_capability.md) structure.
 
 ## -see-also
 
-[PCI_EXPRESS_BRIDGE_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability)
+[PCI_EXPRESS_BRIDGE_AER_CAPABILITY](../wdm/ns-wdm-_pci_express_bridge_aer_capability.md)

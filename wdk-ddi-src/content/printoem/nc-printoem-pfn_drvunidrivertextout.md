@@ -43,9 +43,9 @@ api_name:
 
 The **DrvUnidriverTextOut** function is obsolete.
 
-Windows 2000 and later printer drivers should use [IPrintOemDriverUni::DrvUniTextOut](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvunitextout).
+Windows 2000 and later printer drivers should use [IPrintOemDriverUni::DrvUniTextOut](../prcomoem/nf-prcomoem-iprintoemdriveruni-drvunitextout.md).
 
-This function pointer prototype defines the type of the **DrvUnidriverTextOut** member of the [DRVPROCS](/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs) structure.
+This function pointer prototype defines the type of the **DrvUnidriverTextOut** member of the [DRVPROCS](./ns-printoem-_drvprocs.md) structure.
 
 ## -parameters
 
