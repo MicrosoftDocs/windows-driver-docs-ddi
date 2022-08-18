@@ -2,7 +2,7 @@
 UID: NF:ntifs.FsRtlQueryInformationFile
 tech.root: ifs
 title: FsRtlQueryInformationFile
-ms.date: 07/20/2022
+ms.date: 08/11/2022
 targetos: Windows
 description: Learn more about the FsRtlQueryInformationFile function.
 prerelease: false
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-**FsRtlQueryInformationFile** builds an explicit file query information IRP (IRP_MJ_QUERY_INFORMATION), ends it down the stack, synchronously waits for it to complete, and returns the result. This function allows the caller to complete this action by **FileObject** instead of handle.
+**FsRtlQueryInformationFile** builds an explicit file query information IRP (IRP_MJ_QUERY_INFORMATION), sends it down the stack, synchronously waits for it to complete, and returns the result. This function allows the caller to complete this action by **FileObject** instead of handle.
 
 ## -parameters
 
