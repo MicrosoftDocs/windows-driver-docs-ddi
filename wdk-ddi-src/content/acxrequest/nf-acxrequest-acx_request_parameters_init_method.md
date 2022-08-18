@@ -2,13 +2,13 @@
 UID: NF:acxrequest.ACX_REQUEST_PARAMETERS_INIT_METHOD
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS_INIT_METHOD
-ms.date: 08/17/2022
+ms.date: 08/18/2022
 targetos: Windows
 description: The ACX_REQUEST_PARAMETERS_INIT_METHOD initializes an ACX_REQUEST_PARAMETERS struct with ACX method parameters.
 prerelease: true
 req.assembly: 
 req.construct-type: function
-req.ddi-compliance: 1.1
+req.ddi-compliance: 
 req.dll: 
 req.header: acxrequest.h
 req.idl: 
