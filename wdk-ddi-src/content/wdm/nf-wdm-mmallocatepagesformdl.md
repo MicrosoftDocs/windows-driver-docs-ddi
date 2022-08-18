@@ -81,7 +81,7 @@ The physical memory pages that are returned by **MmAllocatePagesForMdl** are typ
 
 **MmAllocatePagesForMdl** is designed to be used by kernel-mode drivers that do not need corresponding virtual addresses (that is, they need physical pages and do not need the pages to be physically contiguous) or by kernel-mode drivers that can achieve substantial performance gains if physical memory for a device is allocated in a specific physical address range. A driver for an AGP graphics card is an example of such a driver.
 
-Depending on how much physical memory is currently available in the requested ranges, **MmAllocatePagesForMdl** might return an MDL that describes less memory than was requested. The routine returns **NULL** if no memory was allocated. The caller should check the amount of memory that is actually allocated to the MDL. 
+Depending on how much physical memory is currently available in the requested ranges, **MmAllocatePagesForMdl** might return an MDL that describes less memory than was requested. The routine returns **NULL** if no memory was allocated. The caller should check the amount of memory that is actually allocated to the MDL.
 
 The caller must use [MmFreePagesFromMdl](./nf-wdm-mmfreepagesfrommdl.md) to release the memory pages that are described by an MDL that was created by **MmAllocatePagesForMdl**. After calling **MmFreePagesFromMdl**, the caller must also call [ExFreePool](../ntddk/nf-ntddk-exfreepool.md) to release the memory that is allocated for the MDL structure itself.
 
