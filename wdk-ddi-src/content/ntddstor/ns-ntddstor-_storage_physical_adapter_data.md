@@ -1,10 +1,10 @@
 ---
 UID: NS:ntddstor._STORAGE_PHYSICAL_ADAPTER_DATA
-title: _STORAGE_PHYSICAL_ADAPTER_DATA (ntddstor.h)
+title: STORAGE_PHYSICAL_ADAPTER_DATA (ntddstor.h)
 description: Specifies the physical device data of a storage adapter.
 old-location: storage\storage_physical_adapter_data.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 08/18/2022
 keywords: ["STORAGE_PHYSICAL_ADAPTER_DATA structure"]
 ms.keywords: "*PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Storage Devices], STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA structure [Storage Devices], _STORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/PSTORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/STORAGE_PHYSICAL_ADAPTER_DATA, storage.storage_physical_adapter_data"
 req.header: ntddstor.h
@@ -46,12 +46,11 @@ api_name:
  - STORAGE_PHYSICAL_ADAPTER_DATA
 ---
 
-# _STORAGE_PHYSICAL_ADAPTER_DATA structure
-
+# STORAGE_PHYSICAL_ADAPTER_DATA structure
 
 ## -description
 
-Specifies the physical device data of a storage adapter.
+Specifies the physical data of a storage adapter.
 
 ## -struct-fields
 
@@ -61,66 +60,44 @@ The hardware ID of the storage adapter.
 
 ### -field HealthStatus
 
-Indicates the health status of a storage adapter, of type <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_component_health_status">STORAGE_COMPONENT_HEALTH_STATUS</a>.
+A [**STORAGE_COMPONENT_HEALTH_STATUS**](ne-ntddstor-_storage_component_health_status.md) value that indicates the health status of a storage adapter.
 
 ### -field CommandProtocol
 
-Specifies the storage command protocols that are used between software and hardware, of type <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_protocol_type">STORAGE_PROTOCOL_TYPE</a>.
+A [**STORAGE_PROTOCOL_TYPE**](ne-ntddstor-_storage_protocol_type.md) value that specifies the storage command protocols that are used between software and hardware.
 
 ### -field SpecVersion
 
-Indicates the specification of the storage adapter, of type <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_spec_version">STORAGE_SPEC_VERSION</a>.
+A [**STORAGE_SPEC_VERSION**](ns-ntddstor-_storage_spec_version.md) structure that specifies the storage specification version of the storage adapter.
 
-### -field Vendor
+### -field Vendor[8]
 
-### -field Model
-
-### -field FirmwareRevision
-
-### -field PhysicalLocation
-
-### -field ExpanderConnected
-
-### -field Reserved0
-
-### -field Reserved1
-
- 
-
-
-
-
-### -field ExpandedConnector
-
-Specifies if the storage adapter includes an expanded connector.
-
-
-### -field FirmwareRevision[16]
-
-The revision number of the storage adapter.
-
+The vendor name of the storage adapter
 
 ### -field Model[40]
 
 The model name of the storage adapter.
 
+### -field FirmwareRevision[16]
+
+The firmware revision number of the storage adapter.
 
 ### -field PhysicalLocation[32]
 
 This member is reserved for future use.
 
+### -field ExpanderConnected
+
+Indicates whether a storage expander is connected to the storage adapter.
 
 ### -field Reserved0[3]
 
-Specifies if the storage adapter is reserved.
-
+Reserved; do not use.
 
 ### -field Reserved1[3]
 
-Specifies if the storage adapter is reserved.
+Reserved; do not use.
 
+## -see-also
 
-### -field Vendor[8]
-
-The vendor name of the storage adapter.
-
+[**STORAGE_PHYSICAL_NODE_DATA**](ns-ntddstor-_storage_physical_node_data.md)
