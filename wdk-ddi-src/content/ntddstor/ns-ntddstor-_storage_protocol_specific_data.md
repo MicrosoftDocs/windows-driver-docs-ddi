@@ -4,7 +4,7 @@ title: STORAGE_PROTOCOL_SPECIFIC_DATA (ntddstor.h)
 description: Describes protocol-specific device data, provided in the input and output buffer of an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: storage\storage_protocol_specific_data.htm
 tech.root: storage
-ms.date: 05/25/2021
+ms.date: 08/18/2022
 keywords: ["STORAGE_PROTOCOL_SPECIFIC_DATA structure"]
 ms.keywords: "*PSTORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA structure pointer [Storage Devices], STORAGE_PROTOCOL_SPECIFIC_DATA, STORAGE_PROTOCOL_SPECIFIC_DATA structure [Storage Devices], _STORAGE_PROTOCOL_SPECIFIC_DATA, ntddstor/PSTORAGE_PROTOCOL_SPECIFIC_DATA, ntddstor/STORAGE_PROTOCOL_SPECIFIC_DATA, storage.storage_protocol_specific_data"
 req.header: ntddstor.h
@@ -90,6 +90,10 @@ First additional data sub request value.
 ### -field ProtocolDataRequestSubValue3
 
 Second additional data sub request value.
+
+### -field ProtocolDataRequestSubValue4
+
+Third additional data sub request value.
 
 ## -remarks
 

@@ -3,7 +3,7 @@ UID: NS:ntddstor._STORAGE_PROTOCOL_SPECIFIC_DATA_EXT
 title: STORAGE_PROTOCOL_SPECIFIC_DATA_EXT
 description: The **STORAGE_PROTOCOL_SPECIFIC_DATA_EXT** structure describes the protocol-specific device data for IOCTL_STORAGE_QUERY_PROPERTY and IOCTL_STORAGE_SET_PROPERTY requests.
 tech.root: storage
-ms.date: 05/25/2021
+ms.date: 08/18/2022
 keywords: ["STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure"]
 ms.keywords: STORAGE_PROTOCOL_SPECIFIC_DATA_EXT, STORAGE_PROTOCOL_SPECIFIC_DATA_EXT, *PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT,
 req.header: ntddstor.h
@@ -44,7 +44,6 @@ product:
 
 # STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure
 
-
 ## -description
 
 The STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure describes the protocol-specific device data for [IOCTL_STORAGE_QUERY_PROPERTY](./ni-ntddstor-ioctl_storage_query_property.md) and [IOCTL_STORAGE_SET_PROPERTY](./ni-ntddstor-ioctl_storage_set_property.md) requests.
@@ -79,11 +78,11 @@ The length of the protocol data. **ProtocolDataLength** must be >= 512 bytes.
 
 The returned data.
 
-### -field ProtocolDataRequestSubValue2
+### -field ProtocolDataSubValue2
 
 First additional data sub-value.
 
-### -field ProtocolDataRequestSubValue3
+### -field ProtocolDataSubValue3
 
 Second additional data sub-value.
 
@@ -95,7 +94,7 @@ Third additional data sub-value.
 
 Fourth additional data sub-value.
 
-### -field Reserved
+### -field Reserved[5]
 
 Reserved for future use; do not use.
 

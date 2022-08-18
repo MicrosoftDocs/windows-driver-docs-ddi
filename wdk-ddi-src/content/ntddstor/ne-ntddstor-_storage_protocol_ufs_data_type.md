@@ -1,10 +1,10 @@
 ---
 UID: NE:ntddstor._STORAGE_PROTOCOL_UFS_DATA_TYPE
-title: _STORAGE_PROTOCOL_UFS_DATA_TYPE (ntddstor.h)
+title: STORAGE_PROTOCOL_UFS_DATA_TYPE (ntddstor.h)
 description: The UFS (Universal Flash Storage) data type. Describes the type of UFS specific data that's to be queried during an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: storage\storage_protocol_ufs_data_type.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 08/18/2022
 keywords: ["STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration"]
 ms.keywords: "*PSTORAGE_PROTOCOL_UFS_DATA_TYPE, STORAGE_PROTOCOL_UFS_DATA_TYPE, STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration [Storage Devices], UfsDataTypeMax, UfsDataTypeQueryDescriptor, UfsDataTypeUnknown, _STORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/ UfsDataTypeMax, ntddstor/ UfsDataTypeQueryDescriptor, ntddstor/STORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/UfsDataTypeUnknown, storage.storage_protocol_ufs_data_type"
 req.header: ntddstor.h
@@ -46,22 +46,37 @@ api_name:
  - STORAGE_PROTOCOL_UFS_DATA_TYPE
 ---
 
-# _STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration
-
+# STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration
 
 ## -description
 
-The UFS (Universal Flash Storage) data type. Describes the type of UFS specific data that's to be queried during an <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request.
+The UFS (Universal Flash Storage) data type. Describes the type of UFS-specific data that is to be queried during an [**IOCTL_STORAGE_QUERY_PROPERTY*](ni-ntddstor-ioctl_storage_query_property.md) request.
 
 ## -enum-fields
 
-### -field UfsDataTypeUnknown
+### -field UfsDataTypeUnknown:0
 
 Unknown data type.
 
 ### -field UfsDataTypeQueryDescriptor
 
-Query Descriptor data type. Retrieved by command UfsSrbQueryProtocolQueryDescriptor.
+Query the UFS descriptor data. Retrieved by the QUERY UPIU command.
+
+### -field UfsDataTypeQueryAttribute
+
+Query the UFS attributes. Retrieved by the QUERY UPIU command.
+
+### -field UfsDataTypeQueryFlag
+
+Query the UFS flag. Retrieved by the QUERY UPIU command.
+
+### -field UfsDataTypeQueryDmeAttribute
+
+Query the UFS device management entity (DME) attribute. Retrieved by the QUERY UPIU command.
+
+### -field UfsDataTypeQueryDmePeerAttribute
+
+Query the UFS DME peer attribute. Retrieved by the QUERY UPIU command.
 
 ### -field UfsDataTypeMax
 
@@ -69,5 +84,4 @@ Max size of data type.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_protocol_data_descriptor">STORAGE_PROTOCOL_DATA_DESCRIPTOR</a>
-
+[**STORAGE_PROTOCOL_DATA_DESCRIPTOR*](ns-ntddstor-_storage_protocol_data_descriptor.md)

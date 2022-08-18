@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_GET_DEVICE_NUMBER_EX (ntddstor.h)
 description: Returns a STORAGE_DEVICE_NUMBER structure that contains the FILE_DEVICE_XXX type, device number, device GUID, and, for a partitionable device, the partition number assigned to a device by the driver when the device is started.
 old-location: storage\ioctl_storage_get_device_number.htm
 tech.root: storage
-ms.date: 11/08/2019
+ms.date: 08/18/2022
 keywords: ["IOCTL_STORAGE_GET_DEVICE_NUMBER_EX IOCTL"]
 ms.keywords: IOCTL_STORAGE_GET_DEVICE_NUMBER_EX, IOCTL_STORAGE_GET_DEVICE_NUMBER_EX control, IOCTL_STORAGE_GET_DEVICE_NUMBER_EX control code [Storage Devices], ntddstor/IOCTL_STORAGE_GET_DEVICE_NUMBER_EX
 req.header: ntddstor.h
@@ -42,7 +42,6 @@ api_name:
 
 # IOCTL_STORAGE_GET_DEVICE_NUMBER_EX IOCTL
 
-
 ## -description
 
 Returns a [STORAGE_DEVICE_NUMBER_EX](./ns-ntddstor-_storage_device_number_ex.md) structure that contains the FILE_DEVICE_*XXX* type, device number, device GUID, and, for a partitionable device, the partition number assigned to a device by the driver when the device is started. This request is usually issued by a fault-tolerant disk driver.
@@ -64,6 +63,14 @@ The driver returns the [STORAGE_DEVICE_NUMBER_EX](./ns-ntddstor-_storage_device_
 ### -output-buffer-length
 
 **Parameters.DeviceIoControl.OutputBufferLength** in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= **sizeof**(STORAGE_DEVICE_NUMBER_EX).
+
+### -in-out-buffer
+
+n/a
+
+### -inout-buffer-length
+
+n/a
 
 ### -status-block
 
