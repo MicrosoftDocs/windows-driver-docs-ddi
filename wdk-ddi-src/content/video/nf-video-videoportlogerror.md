@@ -4,13 +4,13 @@ title: VideoPortLogError function (video.h)
 description: The VideoPortLogError function logs errors to the system event log when a miniport driver detects a hardware error condition during I/O operations.
 old-location: display\videoportlogerror.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/18/2022
 keywords: ["VideoPortLogError function"]
 ms.keywords: VideoPortLogError, VideoPortLogError function [Display Devices], VideoPort_Functions_18666bd9-b871-4e4c-9f31-bd5cbd505d52.xml, display.videoportlogerror, video/VideoPortLogError
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,10 +42,9 @@ api_name:
 
 # VideoPortLogError function
 
-
 ## -description
 
-The <b>VideoPortLogError</b> function logs errors to the system event log when a miniport driver detects a hardware error condition during I/O operations.
+The **VideoPortLogError** function logs errors to the system event log when a miniport driver detects a hardware error condition during I/O operations.
 
 ## -parameters
 
@@ -53,11 +52,9 @@ The <b>VideoPortLogError</b> function logs errors to the system event log when a
 
 Pointer to the miniport driver's device extension.
 
-### -param OPTIONAL
+### -param Vrp
 
-*Vrp* [optional]
-
-<p>Pointer to the video request packet (<a href="wdkgloss.v#wdkgloss.video_request_packet__vrp_#wdkgloss.video_request_packet__vrp_"><i>VRP</i></a>) if one is associated with the error; otherwise <b>NULL</b>.</p>
+[optional] Pointer to a [**VIDEO_REQUEST_PACKET**] structure that describes the video request packet (VRP) if one is associated with the error; otherwise NULL.
 
 ### -param ErrorCode
 
@@ -65,7 +62,7 @@ Specifies a miniport driver-defined error code that indicates the type of hardwa
 
 ### -param UniqueId
 
-Specifies a unique identifier for the error. This value differentiates the current error from other errors with the same <i>ErrorCode</i>. For some miniport drivers, this identifies the line of code where the error was detected; for others, it is a value returned by the hardware.
+Specifies a unique identifier for the error. This value differentiates the current error from other errors with the same **ErrorCode**. For some miniport drivers, this identifies the line of code where the error was detected; for others, it is a value returned by the hardware.
 
 ## -returns
 
@@ -73,12 +70,12 @@ None
 
 ## -remarks
 
-Miniport drivers should call <b>VideoPortLogError</b> to notify the user if the driver encounters unusual hardware errors during normal operations. Posting such errors to the system event log warns the user that the video adapter might be failing so the user can replace (or reconfigure) the adapter before a total hardware failure occurs.
+Miniport drivers should call **VideoPortLogError** to notify the user if the driver encounters unusual hardware errors during normal operations. Posting such errors to the system event log warns the user that the video adapter might be failing so the user can replace (or reconfigure) the adapter before a total hardware failure occurs.
 
-However, miniport drivers should <i>not</i> log errors, such as "failed to detect hardware," that occur frequently during normal operation.
+However, miniport drivers should *not* log errors, such as "failed to detect hardware," that occur frequently during normal operation.
 
-<b>VideoPortLogError</b> can be called from a miniport driver's <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> or <a href="/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a> function.
+**VideoPortLogError** can be called from a miniport driver's [**HwVidInterrupt**](nc-video-pvideo_hw_interrupt.md) or [**HwVidSynchronizeExecutionCallback**](nc-video-pminiport_synchronize_routine.md) function.
 
 ## -see-also
 
-<a href="/previous-versions/ff570170(v=vs.85)">VideoDebugPrint</a>
+[**VideoDebugPrint**](/previous-versions/ff570170(v=vs.85))
