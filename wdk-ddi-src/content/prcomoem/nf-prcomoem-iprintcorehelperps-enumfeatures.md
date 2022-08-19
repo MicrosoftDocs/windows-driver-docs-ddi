@@ -59,6 +59,6 @@ Returns **S_OK** if the operation succeeds. Otherwise, this method should return
 
 ## -see-also
 
-[IPrintCoreHelperPS](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperps)
+[IPrintCoreHelperPS](./nn-prcomoem-iprintcorehelperps.md)
 
-[IPrintCoreHelperPS::EnumOptions](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-enumoptions)
+[IPrintCoreHelperPS::EnumOptions](./nf-prcomoem-iprintcorehelperps-enumoptions.md)

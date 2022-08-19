@@ -50,7 +50,7 @@ The **PCI_X_CAPABILITY** structure reports the contents of the command and statu
 
 ### -field Header
 
-Contains a structure of type [PCI_CAPABILITIES_HEADER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header) that identifies the capability and provides a link to the next capability description.
+Contains a structure of type [PCI_CAPABILITIES_HEADER](../wdm/ns-wdm-_pci_capabilities_header.md) that identifies the capability and provides a link to the next capability description.
 
 ### -field Command
 
@@ -154,4 +154,4 @@ Reports the data in the device's status register in the form of a unsigned long 
 
 ## -see-also
 
-[PCI_CAPABILITIES_HEADER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header)
+[PCI_CAPABILITIES_HEADER](../wdm/ns-wdm-_pci_capabilities_header.md)

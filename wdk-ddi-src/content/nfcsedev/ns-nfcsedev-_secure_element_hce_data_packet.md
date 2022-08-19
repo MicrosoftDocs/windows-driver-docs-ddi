@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-**SECURE_ELEMENT_HCE_DATA_PACKET** is an input buffer to [IOCTL_NFCSE_HCE_REMOTE_SEND](/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_hce_remote_send) and output buffer for [IOCTL_NFCSE_HCE_REMOTE_RECV](/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_hce_remote_recv).
+**SECURE_ELEMENT_HCE_DATA_PACKET** is an input buffer to [IOCTL_NFCSE_HCE_REMOTE_SEND](./ni-nfcsedev-ioctl_nfcse_hce_remote_send.md) and output buffer for [IOCTL_NFCSE_HCE_REMOTE_RECV](./ni-nfcsedev-ioctl_nfcse_hce_remote_recv.md).
 
 ## -struct-fields
 
 ### -field bConnectionId
 
-The ID of the connection established between the device and the smart card reader, on which to send and receive the HCE packet. This ID is also received from [IOCTL_NFCSE_GET_NEXT_EVENT](/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_get_next_event) when the event type ([SECURE_ELEMENT_EVENT_TYPE](/windows-hardware/drivers/ddi/nfcsedev/ne-nfcsedev-_secure_element_event_type)) is **HceActivated** or **HceDeactivated**. Then the **pbEventData** field of the returned [SECURE_ELEMENT_EVENT_INFO](/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_event_info) structure is a [SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD](/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_hce_activation_payload) structure, which contains a **bConnectionId** member.
+The ID of the connection established between the device and the smart card reader, on which to send and receive the HCE packet. This ID is also received from [IOCTL_NFCSE_GET_NEXT_EVENT](./ni-nfcsedev-ioctl_nfcse_get_next_event.md) when the event type ([SECURE_ELEMENT_EVENT_TYPE](./ne-nfcsedev-_secure_element_event_type.md)) is **HceActivated** or **HceDeactivated**. Then the **pbEventData** field of the returned [SECURE_ELEMENT_EVENT_INFO](./ns-nfcsedev-_secure_element_event_info.md) structure is a [SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD](./ns-nfcsedev-_secure_element_hce_activation_payload.md) structure, which contains a **bConnectionId** member.
 
 ### -field cbPayload
 

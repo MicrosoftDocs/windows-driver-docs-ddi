@@ -53,11 +53,11 @@ A driver's **OnD0ExitPreInterruptsDisabled** event callback function performs de
 
 ### -param pDevice
 
-A pointer to an [IWDFDevice3](/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3) interface.
+A pointer to an [IWDFDevice3](./nn-wudfddi-iwdfdevice3.md) interface.
 
 ### -param TargetState [in]
 
-A [WDF_POWER_DEVICE_STATE](/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_device_state) enumerator value that identifies the target device power state that the device is about to enter.
+A [WDF_POWER_DEVICE_STATE](../wdfdevice/ne-wdfdevice-_wdf_power_device_state.md) enumerator value that identifies the target device power state that the device is about to enter.
 
 ## -returns
 
@@ -66,5 +66,5 @@ If successful, **OnD0ExitPreInterruptsDisabled**, returns S_OK. Otherwise, it re
 ## -see-also
 
 - [Enabling and Disabling Interrupts](/windows-hardware/drivers/wdf/enabling-and-disabling-interrupts)
-- [IPnpCallbackHardwareInterrupt](/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-ipnpcallbackhardwareinterrupt)
-- [OnD0EntryPostInterruptsEnabled](/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackhardwareinterrupt-ond0entrypostinterruptsenabled)
+- [IPnpCallbackHardwareInterrupt](./nn-wudfddi-ipnpcallbackhardwareinterrupt.md)
+- [OnD0EntryPostInterruptsEnabled](./nf-wudfddi-ipnpcallbackhardwareinterrupt-ond0entrypostinterruptsenabled.md)

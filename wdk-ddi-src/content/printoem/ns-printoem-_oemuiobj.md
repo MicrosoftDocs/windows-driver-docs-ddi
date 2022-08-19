@@ -57,10 +57,10 @@ Size of the **OEMUIOBJ** structure.
 
 ### -field pOemUIProcs
 
-Pointer to a an [**OEMUIPROCS**](/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiprocs) structure, which is a private, internal structure.
+Pointer to a an [**OEMUIPROCS**](./ns-printoem-_oemuiprocs.md) structure, which is a private, internal structure.
 
 ## -remarks
 
-User interface plug-ins do not need to reference an **OEMUIOBJ** structure's members. Plug-ins receive a pointer to this structure as input to their [IPrintOemUI::DeviceCapabilities](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devicecapabilities), [IPrintOemUI::DevQueryPrintEx](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devqueryprintex) and [IPrintOemUI::QueryColorProfile](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-querycolorprofile) methods.
+User interface plug-ins do not need to reference an **OEMUIOBJ** structure's members. Plug-ins receive a pointer to this structure as input to their [IPrintOemUI::DeviceCapabilities](../prcomoem/nf-prcomoem-iprintoemui-devicecapabilities.md), [IPrintOemUI::DevQueryPrintEx](../prcomoem/nf-prcomoem-iprintoemui-devqueryprintex.md) and [IPrintOemUI::QueryColorProfile](../prcomoem/nf-prcomoem-iprintoemui-querycolorprofile.md) methods.
 
-Additionally, the **OEMCUIPPARAM** structure contains an **OEMUIOBJ** structure pointer. Plug-ins must supply the received pointer when calling [IPrintOemDriverUI::DrvGetDriverSetting](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvgetdriversetting) or [IPrintOemDriverUI::DrvUpdateUISetting](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvupdateuisetting).
+Additionally, the **OEMCUIPPARAM** structure contains an **OEMUIOBJ** structure pointer. Plug-ins must supply the received pointer when calling [IPrintOemDriverUI::DrvGetDriverSetting](../prcomoem/nf-prcomoem-iprintoemdriverui-drvgetdriversetting.md) or [IPrintOemDriverUI::DrvUpdateUISetting](../prcomoem/nf-prcomoem-iprintoemdriverui-drvupdateuisetting.md).

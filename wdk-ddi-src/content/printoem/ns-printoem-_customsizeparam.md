@@ -69,4 +69,4 @@ The custom page size parameters include Width, Height, WidthOffset, HeightOffset
 
 ## -see-also
 
-[EATTRIBUTE_DATATYPE](/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype)
+[EATTRIBUTE_DATATYPE](./ne-printoem-_eattribute_datatype.md)

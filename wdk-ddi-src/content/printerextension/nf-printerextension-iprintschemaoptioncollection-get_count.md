@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-Gets a count of the number of [IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption) objects in the collection.
+Gets a count of the number of [IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md) objects in the collection.
 
 This property is read-only.
 
@@ -57,6 +57,6 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 ## -see-also
 
-[IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption)
+[IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md)
 
-[IPrintSchemaOptionCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoptioncollection)
+[IPrintSchemaOptionCollection](./nn-printerextension-iprintschemaoptioncollection.md)

@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-Gets a pointer to an [IPrintJob](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob) object.
+Gets a pointer to an [IPrintJob](./nn-printerextension-iprintjob.md) object.
 
 ## -parameters
 
@@ -59,6 +59,6 @@ Returns an **HRESULT** value. If the method call was not successful, it returns 
 
 ## -see-also
 
-[IPrintJob](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob)
+[IPrintJob](./nn-printerextension-iprintjob.md)
 
-[IPrintJobCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection)
+[IPrintJobCollection](./nn-printerextension-iprintjobcollection.md)

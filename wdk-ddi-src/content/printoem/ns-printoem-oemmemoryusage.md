@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The **OEMMEMORYUSAGE** structure is used as an input parameter to a rendering plug-in's [IPrintOemUni::MemoryUsage](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-memoryusage) method.
+The **OEMMEMORYUSAGE** structure is used as an input parameter to a rendering plug-in's [IPrintOemUni::MemoryUsage](../prcomoem/nf-prcomoem-iprintoemuni-memoryusage.md) method.
 
 ## -struct-fields
 
@@ -54,7 +54,7 @@ Specifies the amount, in bytes, of fixed-sized memory required by the **IPrintOe
 
 ### -field dwPercentMemoryUsage
 
-Specifies the amount of variably-sized memory required by the **IPrintOemUni::MemoryUsage** method, expressed as a percentage of the size of the source bitmap received by [IPrintOemUni::ImageProcessing](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing). Supplied by the rendering plug-in.
+Specifies the amount of variably-sized memory required by the **IPrintOemUni::MemoryUsage** method, expressed as a percentage of the size of the source bitmap received by [IPrintOemUni::ImageProcessing](../prcomoem/nf-prcomoem-iprintoemuni-imageprocessing.md). Supplied by the rendering plug-in.
 
 ### -field dwMaxBandSize
 
@@ -62,10 +62,10 @@ Specifies the maximum size, in bytes, that can be used for source bitmaps. This 
 
 ## -remarks
 
-The Unidrv driver uses the values in the **dwFixedMemoryUsage** and **dwPercentMemoryUsage** members of this structure to determine the optimum size for a GDI drawing surface, taking into account any memory requirements of a rendering plug-in's **IPrintOemUni::ImageProcessing** method. For more information about how these members are used, see the Remarks section in [IPrintOemUni::MemoryUsage](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-memoryusage).
+The Unidrv driver uses the values in the **dwFixedMemoryUsage** and **dwPercentMemoryUsage** members of this structure to determine the optimum size for a GDI drawing surface, taking into account any memory requirements of a rendering plug-in's **IPrintOemUni::ImageProcessing** method. For more information about how these members are used, see the Remarks section in [IPrintOemUni::MemoryUsage](../prcomoem/nf-prcomoem-iprintoemuni-memoryusage.md).
 
 ## -see-also
 
-[IPrintOemUni::ImageProcessing](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing)
+[IPrintOemUni::ImageProcessing](../prcomoem/nf-prcomoem-iprintoemuni-imageprocessing.md)
 
-[IPrintOemUni::MemoryUsage](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-memoryusage)
+[IPrintOemUni::MemoryUsage](../prcomoem/nf-prcomoem-iprintoemuni-memoryusage.md)

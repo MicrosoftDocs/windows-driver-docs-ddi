@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-Gets an [IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption) representing the selected option.
+Gets an [IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md) representing the selected option.
 
 This property is read-only.
 
@@ -57,8 +57,8 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 ## -see-also
 
-[IPrintSchemaFeature](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature)
+[IPrintSchemaFeature](./nn-printerextension-iprintschemafeature.md)
 
-[IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption)
+[IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md)
 
-[IPrintSchemaTicket_GetCapabilities](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities)
+[IPrintSchemaTicket_GetCapabilities](./nf-printerextension-iprintschematicket-getcapabilities.md)

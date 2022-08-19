@@ -53,7 +53,7 @@ The **PCI_PM_CAPABILITY** structure reports the power management capabilities of
 
 ### -field Header
 
-Contains a structure of type [PCI_CAPABILITIES_HEADER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header) that identifies the capability and provides a link to the next capability description.
+Contains a structure of type [PCI_CAPABILITIES_HEADER](../wdm/ns-wdm-_pci_capabilities_header.md) that identifies the capability and provides a link to the next capability description.
 
 ### -field PMC
 
@@ -61,7 +61,7 @@ The power management capabilities union (offset = 2).
 
 ### -field PMC.Capabilities
 
-Contains a structure of type [PCI_PMC](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pmc) that specifies the power management capabilities of the device. This information was retrieved from the power management capabilities register (offset 2 in the power management register block). For more information about the contents of the power management capabilities register, see the *PCI Power Management Specification*.
+Contains a structure of type [PCI_PMC](../wdm/ns-wdm-_pci_pmc.md) that specifies the power management capabilities of the device. This information was retrieved from the power management capabilities register (offset 2 in the power management register block). For more information about the contents of the power management capabilities register, see the *PCI Power Management Specification*.
 
 ### -field PMC.AsUSHORT
 
@@ -73,7 +73,7 @@ The power management control/status union (offset = 4).
 
 ### -field PMCSR.ControlStatus
 
-Contains a structure of type [PCI_PMCSR](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pmcsr) that reports the contents of the power management control status register. This register is used to monitor power management event signals and manage the device's power state. For more information about the contents of the power management control status register, see the *PCI Power Management Specification*.
+Contains a structure of type [PCI_PMCSR](../wdm/ns-wdm-_pci_pmcsr.md) that reports the contents of the power management control status register. This register is used to monitor power management event signals and manage the device's power state. For more information about the contents of the power management control status register, see the *PCI Power Management Specification*.
 
 ### -field PMCSR.AsUSHORT
 
@@ -85,7 +85,7 @@ The PMCSR PCI-PCI bridge support extensions union.
 
 ### -field PMCSR_BSE.BridgeSupport
 
-Contains a structure of type [PCI_PMCSR_BSE](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pmcsr_bse) that reports the contents of the power management control status register for PCI bridge support extensions.
+Contains a structure of type [PCI_PMCSR_BSE](../wdm/ns-wdm-_pci_pmcsr_bse.md) that reports the contents of the power management control status register for PCI bridge support extensions.
 
 ### -field PMCSR_BSE.AsUCHAR
 
@@ -97,10 +97,10 @@ Holds the contents of an optional data register that the device uses to report s
 
 ## -see-also
 
-[PCI_PMCSR](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pmcsr)
+[PCI_PMCSR](../wdm/ns-wdm-_pci_pmcsr.md)
 
-[PCI_CAPABILITIES_HEADER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header)
+[PCI_CAPABILITIES_HEADER](../wdm/ns-wdm-_pci_capabilities_header.md)
 
-[PCI_PMC](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pmc)
+[PCI_PMC](../wdm/ns-wdm-_pci_pmc.md)
 
-[PCI_PMCSR_BSE](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pmcsr_bse)
+[PCI_PMCSR_BSE](../wdm/ns-wdm-_pci_pmcsr_bse.md)

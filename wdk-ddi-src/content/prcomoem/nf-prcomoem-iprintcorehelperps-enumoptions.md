@@ -67,8 +67,8 @@ When **IPrintCoreHelperPS::EnumOptions** returns, the option list contains all o
 
 ## -see-also
 
-[IPrintCoreHelperPS](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperps)
+[IPrintCoreHelperPS](./nn-prcomoem-iprintcorehelperps.md)
 
-[IPrintCoreHelperPS::EnumConstrainedOptions](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-enumconstrainedoptions)
+[IPrintCoreHelperPS::EnumConstrainedOptions](./nf-prcomoem-iprintcorehelperps-enumconstrainedoptions.md)
 
-[IPrintCoreHelperPS::EnumFeatures](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-enumfeatures)
+[IPrintCoreHelperPS::EnumFeatures](./nf-prcomoem-iprintcorehelperps-enumfeatures.md)

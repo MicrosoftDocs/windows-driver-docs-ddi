@@ -55,4 +55,4 @@ This method returns an **HRESULT** value.
 
 ## -see-also
 
-[IPrinterScriptableStream](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablestream)
+[IPrinterScriptableStream](./nn-printerextension-iprinterscriptablestream.md)

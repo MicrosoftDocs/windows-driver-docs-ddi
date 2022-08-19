@@ -56,10 +56,10 @@ Specifies whether the PostScript output should be in color mode or in monochrome
 
 This structure is available in Windows XP and later.
 
-The *pBuf* parameter of the [IPrintOemPS2::GetPDEVAdjustment](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment) method can point to a structure of this type.
+The *pBuf* parameter of the [IPrintOemPS2::GetPDEVAdjustment](../prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment.md) method can point to a structure of this type.
 
 A plug-in can use this flag to turn color output on or off for Pscript5 printer output data. If the plug-in chooses to not change the current setting, it can simply return **S_FALSE**.
 
 ## -see-also
 
-[IPrintOemPS2::GetPDEVAdjustment](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment)
+[IPrintOemPS2::GetPDEVAdjustment](../prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment.md)

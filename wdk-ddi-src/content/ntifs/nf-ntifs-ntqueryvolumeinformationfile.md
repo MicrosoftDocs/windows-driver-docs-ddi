@@ -92,7 +92,7 @@ If the **FileHandle** represents a direct device open, only **FileFsDeviceInform
 
 **NtQueryVolumeInformationFile** returns zero in any member of a **FILE_**XXX**_INFORMATION** structure that is not supported by the file system.
 
-For information about other file information query routines, see [File Objects](/windows-hardware/drivers/ddi/_kernel/#file-objects).
+For information about other file information query routines, see [File Objects](../_kernel/index.md#file-objects).
 
 Minifilters should use [**FltQueryVolumeInformationFile**](../fltkernel/nf-fltkernel-fltqueryvolumeinformationfile.md) instead of **NtQueryVolumeInformationFile**.
 

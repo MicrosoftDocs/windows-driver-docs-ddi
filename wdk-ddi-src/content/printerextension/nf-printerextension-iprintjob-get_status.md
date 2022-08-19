@@ -58,6 +58,6 @@ Returns an **HRESULT** value.
 
 ## -see-also
 
-[IPrintJob](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob)
+[IPrintJob](./nn-printerextension-iprintjob.md)
 
-[PrintJobStatus](/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintjobstatus)
+[PrintJobStatus](./ne-printerextension-tagprintjobstatus.md)

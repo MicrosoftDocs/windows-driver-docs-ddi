@@ -64,6 +64,6 @@ None
 
 ## -see-also
 
-[KsAllocateDeviceHeader](/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedeviceheader)
+[KsAllocateDeviceHeader](./nf-ks-ksallocatedeviceheader.md)
 
-[KsRecalculateStackDepth](/windows-hardware/drivers/ddi/ks/nf-ks-ksrecalculatestackdepth)
+[KsRecalculateStackDepth](./nf-ks-ksrecalculatestackdepth.md)

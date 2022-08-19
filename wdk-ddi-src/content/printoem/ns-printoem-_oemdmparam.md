@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **OEMDMPARAM** structure is used as an input parameter to the [IPrintOemUI::DevMode](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devmode), [IPrintOemUni::DevMode](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-devmode), and [IPrintOemPS::DevMode](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-devmode) methods.
+The **OEMDMPARAM** structure is used as an input parameter to the [IPrintOemUI::DevMode](../prcomoem/nf-prcomoem-iprintoemui-devmode.md), [IPrintOemUni::DevMode](../prcomoem/nf-prcomoem-iprintoemuni-devmode.md), and [IPrintOemPS::DevMode](../prcomoem/nf-prcomoem-iprintoemps-devmode.md) methods.
 
 ## -struct-fields
 
@@ -63,7 +63,7 @@ Not used.
 
 #### For IPrintOemUni::DevMode and IPrintOemPS::DevMode
 
-Pointer to a [**DEVOBJ**](/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj) structure.
+Pointer to a [**DEVOBJ**](./ns-printoem-_devobj.md) structure.
 
 ### -field hPrinter
 
@@ -97,4 +97,4 @@ On output, contains the method-supplied size of the current version of the priva
 
 ## -remarks
 
-For more information about the use of **OEMDMPARAM** structure members, see the description of the [IPrintOemUI::DevMode](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devmode) method.
+For more information about the use of **OEMDMPARAM** structure members, see the description of the [IPrintOemUI::DevMode](../prcomoem/nf-prcomoem-iprintoemui-devmode.md) method.

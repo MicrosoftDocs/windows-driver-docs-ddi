@@ -54,7 +54,7 @@ A pointer to the GPIO controller driver's [device context](/windows-hardware/dri
 
 ### -param EnableParameters [in]
 
-A pointer to a [GPIO_ENABLE_INTERRUPT_PARAMETERS](/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_enable_interrupt_parameters) structure that specifies a GPIO pin and describes the interrupt attributes of this pin.
+A pointer to a [GPIO_ENABLE_INTERRUPT_PARAMETERS](./ns-gpioclx-_gpio_enable_interrupt_parameters.md) structure that specifies a GPIO pin and describes the interrupt attributes of this pin.
 
 ## -returns
 
@@ -64,9 +64,9 @@ The *CLIENT_EnableInterrupt* function returns STATUS_SUCCESS if the call is succ
 
 This callback function is implemented by the GPIO controller driver. The GPIO framework extension (GpioClx) calls this function to enable interrupts on a GPIO pin that is configured as an interrupt request input.
 
-To register your driver's *CLIENT_EnableInterrupt* callback function, call the [GPIO_CLX_RegisterClient](/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient) method. This method accepts, as an input parameter, a pointer to a [GPIO_CLIENT_REGISTRATION_PACKET](/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_registration_packet) structure that contains a *CLIENT_EnableInterrupt* function pointer.
+To register your driver's *CLIENT_EnableInterrupt* callback function, call the [GPIO_CLX_RegisterClient](./nf-gpioclx-gpio_clx_registerclient.md) method. This method accepts, as an input parameter, a pointer to a [GPIO_CLIENT_REGISTRATION_PACKET](./ns-gpioclx-_gpio_client_registration_packet.md) structure that contains a *CLIENT_EnableInterrupt* function pointer.
 
-GpioClx always calls the *CLIENT_EnableInterrupt* and [CLIENT_DisableInterrupt](/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_disable_interrupt) callback functions at IRQL = PASSIVE_LEVEL. However, if the GPIO registers are memory-mapped, GpioClx calls the other interrupt-related callback functions from its ISR at DIRQL. In this case, the *CLIENT_EnableInterrupt* and *CLIENT_DisableInterrupt* functions should use the GPIO interrupt lock to synchronize their interrupt-related operations to the ISR. For more information, see [Interrupt Synchronization for GPIO Controller Drivers](/windows-hardware/drivers/gpio/interrupt-synchronization-for-gpio-controller-drivers).
+GpioClx always calls the *CLIENT_EnableInterrupt* and [CLIENT_DisableInterrupt](./nc-gpioclx-gpio_client_disable_interrupt.md) callback functions at IRQL = PASSIVE_LEVEL. However, if the GPIO registers are memory-mapped, GpioClx calls the other interrupt-related callback functions from its ISR at DIRQL. In this case, the *CLIENT_EnableInterrupt* and *CLIENT_DisableInterrupt* functions should use the GPIO interrupt lock to synchronize their interrupt-related operations to the ISR. For more information, see [Interrupt Synchronization for GPIO Controller Drivers](/windows-hardware/drivers/gpio/interrupt-synchronization-for-gpio-controller-drivers).
 
 ### Examples
 
@@ -94,7 +94,7 @@ The GPIO_CLIENT_ENABLE_INTERRUPT function type is defined in the Gpioclx.h heade
 
 ## -see-also
 
-- [CLIENT_DisableInterrupt](/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_disable_interrupt)
-- [GPIO_CLIENT_REGISTRATION_PACKET](/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_registration_packet)
-- [GPIO_CLX_RegisterClient](/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient)
-- [GPIO_ENABLE_INTERRUPT_PARAMETERS](/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_enable_interrupt_parameters)
+- [CLIENT_DisableInterrupt](./nc-gpioclx-gpio_client_disable_interrupt.md)
+- [GPIO_CLIENT_REGISTRATION_PACKET](./ns-gpioclx-_gpio_client_registration_packet.md)
+- [GPIO_CLX_RegisterClient](./nf-gpioclx-gpio_clx_registerclient.md)
+- [GPIO_ENABLE_INTERRUPT_PARAMETERS](./ns-gpioclx-_gpio_enable_interrupt_parameters.md)

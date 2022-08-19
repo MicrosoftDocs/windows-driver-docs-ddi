@@ -53,4 +53,4 @@ The **RequestCancel** method does not wait for the cancellation of a print job t
 
 ## -see-also
 
-[IPrintJob](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob)
+[IPrintJob](./nn-printerextension-iprintjob.md)

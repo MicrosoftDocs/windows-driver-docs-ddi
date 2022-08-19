@@ -41,17 +41,17 @@ api_name:
 
 ## -description
 
-Gets a pointer to an [IPrinterExtensionContext](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext) object.
+Gets a pointer to an [IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md) object.
 
 ## -parameters
 
 ### -param ulIndex [in]
 
-The index of the [IPrinterExtensionContext](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext) object within the collection.
+The index of the [IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md) object within the collection.
 
 ### -param ppContext [out, retval]
 
-Pointer to an [IPrinterExtensionContext](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext) interface.
+Pointer to an [IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md) interface.
 
 ## -returns
 
@@ -59,6 +59,6 @@ This method returns an **HRESULT** value.
 
 ## -see-also
 
-[IPrinterExtensionContext](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext)
+[IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md)
 
-[IPrinterExtensionContextCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection)
+[IPrinterExtensionContextCollection](./nn-printerextension-iprinterextensioncontextcollection.md)

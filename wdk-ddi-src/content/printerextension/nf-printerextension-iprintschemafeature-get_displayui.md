@@ -61,4 +61,4 @@ Note that the **DisplayUI** property  corresponds to the psk:DisplayUI element. 
 
 ## -see-also
 
-[IPrintSchemaFeature](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature)
+[IPrintSchemaFeature](./nn-printerextension-iprintschemafeature.md)

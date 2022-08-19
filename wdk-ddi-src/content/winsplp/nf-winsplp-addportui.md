@@ -67,7 +67,7 @@ If the operation succeeds, the function should return **TRUE**. Otherwise SetLas
 
 ## -remarks
 
-Port monitor UI DLLs are required to define an **AddPortUI** function and include the function's address in a [MONITORUI](/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorui) structure.
+Port monitor UI DLLs are required to define an **AddPortUI** function and include the function's address in a [MONITORUI](./ns-winsplp-_monitorui.md) structure.
 
 The spooler calls **AddPortUI** from within its AddPort function. The first three arguments received by **AddPortUI** are the arguments received by AddPort. (The AddPort function is described in the Microsoft Windows SDK documentation.)
 
@@ -81,7 +81,7 @@ The function should perform the following operations:
 
     The call to OpenPrinter requires a PRINTER_DEFAULTS structure, which is described in the Windows SDK documentation. The structure's **DesiredAccess** member must be set to SERVER_ACCESS_ADMINISTER. Its **pDatatype** and **pDevMode** members can be **NULL**.
 
-    This call causes the print monitor server DLL's [XcvOpenPort](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvopenport) function to be called.
+    This call causes the print monitor server DLL's [XcvOpenPort](./nf-winsplp-xcvopenport.md) function to be called.
 
 1. Obtain a port name from the user by displaying a dialog box.
 
@@ -93,7 +93,7 @@ The function should perform the following operations:
 
     - A customized data name string, such as "PortExists"
 
-    This call causes the server DLL's [XcvDataPort](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvdataport) function to be called. The **XcvDataPort** function should return a value that indicates whether the specified port name has already been used. If it has, the UI DLL should request another name from the user and call [XcvData](/previous-versions/ff564255(v=vs.85)) again.
+    This call causes the server DLL's [XcvDataPort](./nf-winsplp-xcvdataport.md) function to be called. The **XcvDataPort** function should return a value that indicates whether the specified port name has already been used. If it has, the UI DLL should request another name from the user and call [XcvData](/previous-versions/ff564255(v=vs.85)) again.
 
 1. After a valid new port name has been received, call [XcvData](/previous-versions/ff564255(v=vs.85)) again, this time specifying the following input arguments
 
@@ -103,22 +103,22 @@ The function should perform the following operations:
 
     - A data name string of "AddPort"
 
-    This call causes the server DLL's [XcvDataPort](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvdataport) function to be called again.
+    This call causes the server DLL's [XcvDataPort](./nf-winsplp-xcvdataport.md) function to be called again.
 
 1. Obtain port configuration parameters from the user by displaying a dialog box.
 
-1. Call [XcvData](/previous-versions/ff564255(v=vs.85)) one or more times, specifying customized data name strings, to send each configuration parameter to the server DLL. Each **XcvData** call causes the server's [XcvDataPort](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvdataport) function to be called.
+1. Call [XcvData](/previous-versions/ff564255(v=vs.85)) one or more times, specifying customized data name strings, to send each configuration parameter to the server DLL. Each **XcvData** call causes the server's [XcvDataPort](./nf-winsplp-xcvdataport.md) function to be called.
 
-1. Call ClosePrinter, specifying the handle received from OpenPrinter. This causes the server DLL's [XcvClosePort](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvcloseport) function to be called.
+1. Call ClosePrinter, specifying the handle received from OpenPrinter. This causes the server DLL's [XcvClosePort](./nf-winsplp-xcvcloseport.md) function to be called.
 
 ## -see-also
 
-[MONITORUI](/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorui)
+[MONITORUI](./ns-winsplp-_monitorui.md)
 
-[XcvClosePort](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvcloseport)
+[XcvClosePort](./nf-winsplp-xcvcloseport.md)
 
 [XcvData](/previous-versions/ff564255(v=vs.85))
 
-[XcvDataPort](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvdataport)
+[XcvDataPort](./nf-winsplp-xcvdataport.md)
 
-[XcvOpenPort](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvopenport)
+[XcvOpenPort](./nf-winsplp-xcvopenport.md)

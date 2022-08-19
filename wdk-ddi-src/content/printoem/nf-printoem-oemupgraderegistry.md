@@ -63,4 +63,4 @@ Returns a **BOOL** value.
 
 ## -see-also
 
-[DrvUpgradeRegistrySetting](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvupgraderegistrysetting)
+[DrvUpgradeRegistrySetting](./nc-printoem-pfn_drvupgraderegistrysetting.md)

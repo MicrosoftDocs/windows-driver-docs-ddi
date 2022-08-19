@@ -83,4 +83,4 @@ The **IPrintCoreUI2::QuerySimulationSupport** method uses this structure to repo
 
 ## -see-also
 
-[IPrintCoreUI2::QuerySimulationSupport](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-querysimulationsupport)
+[IPrintCoreUI2::QuerySimulationSupport](../prcomoem/nf-prcomoem-iprintcoreui2-querysimulationsupport.md)

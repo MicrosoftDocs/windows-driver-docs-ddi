@@ -82,7 +82,7 @@ Pointer to specific context data for this allocated address range. The driver su
 
 ### -field Fifo
 
-Pointer to the [ADDRESS_FIFO](/windows-hardware/drivers/ddi/1394/ns-1394-_address_fifo) structure that contains the FIFO element just completed. Only used if the driver submitted an ADDRESS_FIFO list in the original REQUEST_ALLOCATE_ADDRESS_RANGE request.
+Pointer to the [ADDRESS_FIFO](./ns-1394-_address_fifo.md) structure that contains the FIFO element just completed. Only used if the driver submitted an ADDRESS_FIFO list in the original REQUEST_ALLOCATE_ADDRESS_RANGE request.
 
 ### -field RequestPacket
 
@@ -106,7 +106,7 @@ If non-**NULL**, **ResponseEvent** points to a memory location that the driver f
 
 ## -remarks
 
-When a driver allocates an address range on the computer's IEEE 1394 address space, it may require that the bus driver notify it for some or all request packets sent to the allocated addresses. As part of the original allocate request, the driver may either require that the bus driver forward each packet for handling, or it may require that the bus driver handle the packet and notify the device driver when it has finished. For more information, see [REQUEST_ALLOCATE_ADDRESS_RANGE](/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class).
+When a driver allocates an address range on the computer's IEEE 1394 address space, it may require that the bus driver notify it for some or all request packets sent to the allocated addresses. As part of the original allocate request, the driver may either require that the bus driver forward each packet for handling, or it may require that the bus driver handle the packet and notify the device driver when it has finished. For more information, see [REQUEST_ALLOCATE_ADDRESS_RANGE](./ni-1394-ioctl_1394_class.md).
 
 If the device driver provides no backing store, the bus driver forwards each packet to the device driver for handling. The bus driver passes **NULL** for **Mdl**, and passes the packet in **RequestPacket**. The bus driver also passes pointers to memory locations that the device driver must fill in with the buffer for the response packet (in **ResponsePacket**), the buffer length (in **ResponseLength**), and an MDL for the buffer (in **ResponseMdl**). The bus driver also supplies a memory location that the driver can use to pass a kernel event object in **ResponseEvent**. If the device driver provides an event object, the bus driver uses it to signal the driver when it has finished sending the response packet.
 
@@ -116,4 +116,4 @@ If the device driver is using a linked list of ADDRESS_FIFO's as the backing sto
 
 ## -see-also
 
-[REQUEST_ALLOCATE_ADDRESS_RANGE](/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class)
+[REQUEST_ALLOCATE_ADDRESS_RANGE](./ni-1394-ioctl_1394_class.md)

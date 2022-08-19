@@ -54,7 +54,7 @@ A handle to a file object returned by [**ZwCreateFile**](../wdm/nf-wdm-zwcreatef
 
 ### -param IoStatusBlock [out]
 
-A pointer to an [**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and information about the query operation. For successful calls that return data, the number of bytes written to the **FsInformation** buffer is returned in the structure's **Information** member.
+A pointer to an [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the query operation. For successful calls that return data, the number of bytes written to the **FsInformation** buffer is returned in the structure's **Information** member.
 
 ### -param FsInformation [out]
 
@@ -92,7 +92,7 @@ If the **FileHandle** represents a direct device open, only **FileFsDeviceInform
 
 **ZwQueryVolumeInformationFile** returns zero in any member of a **FILE_**XXX**_INFORMATION** structure that is not supported by the file system.
 
-For information about other file information query routines, see [File Objects](/windows-hardware/drivers/ddi/_kernel/#file-objects).
+For information about other file information query routines, see [File Objects](../_kernel/index.md#file-objects).
 
 Minifilters should use [**FltQueryVolumeInformationFile**](../fltkernel/nf-fltkernel-fltqueryvolumeinformationfile.md) instead of **ZwQueryVolumeInformationFile**.
 

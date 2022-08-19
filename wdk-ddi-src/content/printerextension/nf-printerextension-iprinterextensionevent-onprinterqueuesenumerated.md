@@ -47,7 +47,7 @@ Called when printer queues are enumerated.
 
 ### -param pContextCollection [in]
 
-Pointer to [IPrinterExtensionContextCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection) object.
+Pointer to [IPrinterExtensionContextCollection](./nn-printerextension-iprinterextensioncontextcollection.md) object.
 
 ## -returns
 
@@ -59,8 +59,8 @@ This method returns an **HRESULT** value.
 
 ## -see-also
 
-[IPrinterExtensionContext](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext)
+[IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md)
 
-[IPrinterExtensionContextCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection)
+[IPrinterExtensionContextCollection](./nn-printerextension-iprinterextensioncontextcollection.md)
 
-[IPrinterExtensionEvent](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionevent)
+[IPrinterExtensionEvent](./nn-printerextension-iprinterextensionevent.md)

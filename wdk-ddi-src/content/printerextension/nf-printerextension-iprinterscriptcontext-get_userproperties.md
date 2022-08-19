@@ -64,6 +64,6 @@ The user property bag is not available in (constraint) JavaScript functions when
 
 ## -see-also
 
-[IPrinterScriptContext](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptcontext)
+[IPrinterScriptContext](./nn-printerextension-iprinterscriptcontext.md)
 
-[IPrinterScriptablePropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag)
+[IPrinterScriptablePropertyBag](./nn-printerextension-iprinterscriptablepropertybag.md)

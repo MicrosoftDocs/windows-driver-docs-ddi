@@ -70,6 +70,6 @@ Specifies whether a blank band was drawn in the source bitmap supplied to **IPri
 
 ## -see-also
 
-[IPrintOemUn::ImageProcessing](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing)
+[IPrintOemUn::ImageProcessing](../prcomoem/nf-prcomoem-iprintoemuni-imageprocessing.md)
 
 [POINT](/windows/win32/api/windef/ns-windef-point)

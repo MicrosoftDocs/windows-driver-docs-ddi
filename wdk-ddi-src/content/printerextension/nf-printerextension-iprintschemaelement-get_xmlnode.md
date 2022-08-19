@@ -61,14 +61,14 @@ When you dereference the *ppXmlNode* parameter (using *ppXmlNode ), you obtain a
 
 ## -see-also
 
-[IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities)
+[IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md)
 
-[IPrintSchemaElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement)
+[IPrintSchemaElement](./nn-printerextension-iprintschemaelement.md)
 
-[IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
+[IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md)
 
-[IPrintSchemaTicket::NotifyXmlChanged](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-notifyxmlchanged)
+[IPrintSchemaTicket::NotifyXmlChanged](./nf-printerextension-iprintschematicket-notifyxmlchanged.md)
 
-[IPrintSchemaTicket_GetCapabilities](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities)
+[IPrintSchemaTicket_GetCapabilities](./nf-printerextension-iprintschematicket-getcapabilities.md)
 
 [IXMLDOMElement](/previous-versions/windows/desktop/ms760248(v=vs.85))

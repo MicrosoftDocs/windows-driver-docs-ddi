@@ -43,9 +43,9 @@ api_name:
 
 The **DrvGetDriverSetting** function is obsolete.
 
- Windows 2000 and later printer drivers should use [IPrintOemDriverUI::DrvGetDriverSetting](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvgetdriversetting), [IPrintCoreUI2::DrvGetDriverSetting](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-drvgetdriversetting) (UI plug-ins), [IPrintOemDriverUni::DrvGetDriverSetting](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvgetdriversetting) (Unidrv plug-ins) or [IPrintOemDriverPS::DrvGetDriverSetting](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverps-drvgetdriversetting) (Pscript plug-ins)
+ Windows 2000 and later printer drivers should use [IPrintOemDriverUI::DrvGetDriverSetting](../prcomoem/nf-prcomoem-iprintoemdriverui-drvgetdriversetting.md), [IPrintCoreUI2::DrvGetDriverSetting](../prcomoem/nf-prcomoem-iprintcoreui2-drvgetdriversetting.md) (UI plug-ins), [IPrintOemDriverUni::DrvGetDriverSetting](../prcomoem/nf-prcomoem-iprintoemdriveruni-drvgetdriversetting.md) (Unidrv plug-ins) or [IPrintOemDriverPS::DrvGetDriverSetting](../prcomoem/nf-prcomoem-iprintoemdriverps-drvgetdriversetting.md) (Pscript plug-ins)
 
-This function pointer type defines the type of the **DrvGetDriverSetting** member of the [OEMUIPROCS](/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiprocs) and [DRVPROCS](/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs) structures.
+This function pointer type defines the type of the **DrvGetDriverSetting** member of the [OEMUIPROCS](./ns-printoem-_oemuiprocs.md) and [DRVPROCS](./ns-printoem-_drvprocs.md) structures.
 
 ## -parameters
 

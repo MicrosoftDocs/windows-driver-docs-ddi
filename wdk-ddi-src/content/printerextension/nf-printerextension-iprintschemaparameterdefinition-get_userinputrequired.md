@@ -61,4 +61,4 @@ The print dialog can use **UserInputRequired** to determine whether or not it sh
 
 ## -see-also
 
-[IPrintSchemaParameterDefinition](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition)
+[IPrintSchemaParameterDefinition](./nn-printerextension-iprintschemaparameterdefinition.md)

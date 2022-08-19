@@ -97,7 +97,7 @@ For more information about the **WdfInterruptAcquireLock** method, see [Synchron
 
 For more information about handling interrupts in framework-based drivers, see [Handling Hardware Interrupts](/windows-hardware/drivers/wdf/handling-hardware-interrupts).
 
-For passive-level interrupt objects, drivers must call [WdfInterruptTryToAcquireLock](../wdfinterrupt/nf-wdfinterrupt-wdfinterrupttrytoacquirelock.md) instead of **WdfInterruptAcquireLock**, when running in an arbitrary thread, such as a [queue object callback function](/windows-hardware/drivers/ddi/wdfio/). For example, the driver might call **WdfInterruptTryToAcquireLock** from [EvtIoRead](../wdfio/nc-wdfio-evt_wdf_io_queue_io_read.md).
+For passive-level interrupt objects, drivers must call [WdfInterruptTryToAcquireLock](../wdfinterrupt/nf-wdfinterrupt-wdfinterrupttrytoacquirelock.md) instead of **WdfInterruptAcquireLock**, when running in an arbitrary thread, such as a [queue object callback function](../wdfio/index.md). For example, the driver might call **WdfInterruptTryToAcquireLock** from [EvtIoRead](../wdfio/nc-wdfio-evt_wdf_io_queue_io_read.md).
 
 Doing so avoids the possibility of deadlock, as described in the following scenario.
 

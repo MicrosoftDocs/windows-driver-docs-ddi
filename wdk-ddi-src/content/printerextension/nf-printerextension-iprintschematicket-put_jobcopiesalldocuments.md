@@ -57,12 +57,12 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 ## -remarks
 
-Be aware of the fact that the [IPrintSchemaTicket::GetCapabilities](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities)  method retrieves a new PrintCapabilities document, which it also caches every time it is invoked. This means that if you use **IPrintSchemaTicket::put_JobCopiesAllDocuments** or [IPrintSchemaFeature::SelectedOption](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemafeature-put_selectedoption) on PrintTicket, the cached PrintCapabilities document gets corrupted or modified and the cache will be purged.
+Be aware of the fact that the [IPrintSchemaTicket::GetCapabilities](./nf-printerextension-iprintschematicket-getcapabilities.md)  method retrieves a new PrintCapabilities document, which it also caches every time it is invoked. This means that if you use **IPrintSchemaTicket::put_JobCopiesAllDocuments** or [IPrintSchemaFeature::SelectedOption](./nf-printerextension-iprintschemafeature-put_selectedoption.md) on PrintTicket, the cached PrintCapabilities document gets corrupted or modified and the cache will be purged.
 
 ## -see-also
 
-[IPrintSchemaFeature::SelectedOption](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemafeature-put_selectedoption)
+[IPrintSchemaFeature::SelectedOption](./nf-printerextension-iprintschemafeature-put_selectedoption.md)
 
-[IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
+[IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md)
 
-[IPrintSchemaTicket::GetCapabilities](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities)
+[IPrintSchemaTicket::GetCapabilities](./nf-printerextension-iprintschematicket-getcapabilities.md)

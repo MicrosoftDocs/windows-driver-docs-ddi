@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-SECURE_ELEMENT_ROUTING_TABLE is an input parameter for [IOCTL_NFCSE_SET_ROUTING_TABLE](/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_set_routing_table).
+SECURE_ELEMENT_ROUTING_TABLE is an input parameter for [IOCTL_NFCSE_SET_ROUTING_TABLE](./ni-nfcsedev-ioctl_nfcse_set_routing_table.md).
 
 ## -struct-fields
 

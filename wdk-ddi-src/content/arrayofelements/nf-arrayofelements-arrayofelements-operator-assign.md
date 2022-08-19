@@ -50,7 +50,7 @@ The **operator=** overloaded assignment operator sets the typed data represented
 
 ## -param unnamedParam1
 
-A pointer to a **[DEBUG_TYPED_DATA](/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_debug_typed_data)** structure that describes the data and type to be assigned to this object.
+A pointer to a **[DEBUG_TYPED_DATA](../wdbgexts/ns-wdbgexts-_debug_typed_data.md)** structure that describes the data and type to be assigned to this object.
 
 ## -returns
 

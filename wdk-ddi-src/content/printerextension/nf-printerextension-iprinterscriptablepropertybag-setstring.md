@@ -63,4 +63,4 @@ A call to **SetString** will throw an exception, if the specified property is no
 
 ## -see-also
 
-[IPrinterScriptablePropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag)
+[IPrinterScriptablePropertyBag](./nn-printerextension-iprinterscriptablepropertybag.md)

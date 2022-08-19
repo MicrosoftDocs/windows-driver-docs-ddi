@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-Retrieves an [IPrinterQueueView](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueview) object, and initializes the object with the range of jobs to be monitored.
+Retrieves an [IPrinterQueueView](./nn-printerextension-iprinterqueueview.md) object, and initializes the object with the range of jobs to be monitored.
 
 This method allows the user to perform job management tasks from within a UWP device app for printers.
 
@@ -72,14 +72,14 @@ Otherwise, if a call to **GetPrinterQueueView** results in an error condition, t
 
 ## -remarks
 
-Only one [IPrinterQueueView](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueview) object can be retrieved per [IPrinterQueue2](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue2) object.
-However it is possible to move around the single view that you retrieve. In other words, it is possible to  change the positions of the monitored jobs by invoking [IPrinterQueueView::SetViewRange](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueview-setviewrange).
+Only one [IPrinterQueueView](./nn-printerextension-iprinterqueueview.md) object can be retrieved per [IPrinterQueue2](./nn-printerextension-iprinterqueue2.md) object.
+However it is possible to move around the single view that you retrieve. In other words, it is possible to  change the positions of the monitored jobs by invoking [IPrinterQueueView::SetViewRange](./nf-printerextension-iprinterqueueview-setviewrange.md).
 
 > [!NOTE]
 > There is work underway to implement a cap on the maximum size of the printer queue view.
 
 ## -see-also
 
-[IPrinterQueue2](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue2)
+[IPrinterQueue2](./nn-printerextension-iprinterqueue2.md)
 
-[IPrinterQueueView](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueview)
+[IPrinterQueueView](./nn-printerextension-iprinterqueueview.md)
