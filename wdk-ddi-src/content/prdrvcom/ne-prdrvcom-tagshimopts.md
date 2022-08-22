@@ -1,10 +1,9 @@
 ---
 UID: NE:prdrvcom.tagSHIMOPTS
-title: tagSHIMOPTS (prdrvcom.h)
-description: "Learn more about: tagSHIMOPTS enumeration"
-old-location: print\shimopts.htm
+title: SHIMOPTS (prdrvcom.h)
+description: Describes the SHIMOPTS enumeration.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/22/2022
 keywords: ["tagSHIMOPTS enumeration"]
 ms.keywords: "*PSHIMOPTS, PSHIMOPTS, PSHIMOPTS enumeration pointer [Print Devices], PTSHIM_DEFAULT, PTSHIM_NOSNAPSHOT, SHIMOPTS, SHIMOPTS enumeration [Print Devices], prdrvcom/PSHIMOPTS, prdrvcom/PTSHIM_DEFAULT, prdrvcom/PTSHIM_NOSNAPSHOT, prdrvcom/SHIMOPTS, print.shimopts, tagSHIMOPTS"
 req.header: prdrvcom.h
@@ -46,14 +45,16 @@ api_name:
  - SHIMOPTS
 ---
 
-# tagSHIMOPTS enumeration
-
-
 ## -description
+
+Describes the **SHIMOPTS** enumeration.
 
 ## -enum-fields
 
 ### -field PTSHIM_DEFAULT
 
+Defines the **PTSHIM_DEFAULT** constant.
+
 ### -field PTSHIM_NOSNAPSHOT
 
+Defines the **PTSHIM_NOSNAPSHOT** constant.

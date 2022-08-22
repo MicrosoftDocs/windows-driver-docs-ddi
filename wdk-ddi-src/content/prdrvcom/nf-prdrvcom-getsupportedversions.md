@@ -1,15 +1,14 @@
 ---
 UID: NF:prdrvcom.GetSupportedVersions
 title: GetSupportedVersions function (prdrvcom.h)
-description: The IPrintTicketProvider::GetSupportedVersions method retrieves major version numbers of the print schemas that are supported by the plug-in provider.
-old-location: print\iprintticketprovider_getsupportedversions.htm
+description: The IPrintOemPrintTicketProvider::GetSupportedVersions method retrieves major version numbers of the print schemas that are supported by the plug-in provider.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/22/2022
 keywords: ["GetSupportedVersions function"]
-ms.keywords: GetSupportedVersions, GetSupportedVersions method [Print Devices], GetSupportedVersions method [Print Devices],IPrintTicketProvider interface, IPrintTicketProvider interface [Print Devices],GetSupportedVersions method, IPrintTicketProvider::GetSupportedVersions, prdrvcom/IPrintTicketProvider::GetSupportedVersions, print.iprintticketprovider_getsupportedversions, print_ticket-package_3c9ed7b7-a38f-49b2-a7fc-7fc78aa39a27.xml
+ms.keywords: GetSupportedVersions, GetSupportedVersions method [Print Devices], GetSupportedVersions method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],GetSupportedVersions method, IPrintOemPrintTicketProvider::GetSupportedVersions, prdrvcom/IPrintOemPrintTicketProvider::GetSupportedVersions, print.IPrintOemPrintTicketProvider_getsupportedversions, print_ticket-package_3c9ed7b7-a38f-49b2-a7fc-7fc78aa39a27.xml
 f1_keywords:
- - "prdrvcom/IPrintTicketProvider.GetSupportedVersions"
- - "IPrintTicketProvider.GetSupportedVersions"
+ - "prdrvcom/IPrintOemPrintTicketProvider.GetSupportedVersions"
+ - "IPrintOemPrintTicketProvider.GetSupportedVersions"
 req.header: prdrvcom.h
 req.include-header: Prdrvcom.h
 req.target-type: Desktop
@@ -35,77 +34,43 @@ api_type:
 api_location:
 - Prdrvcom.h
 api_name:
-- IPrintTicketProvider.GetSupportedVersions
+- IPrintOemPrintTicketProvider.GetSupportedVersions
 targetos: Windows
 req.typenames: 
 ---
 
-# GetSupportedVersions function
-
-
 ## -description
 
-
-The <code>IPrintTicketProvider::GetSupportedVersions</code> method retrieves major version numbers of the print schemas that are supported by the plug-in provider.
-
+The **IPrintOemPrintTicketProvider::GetSupportedVersions** method retrieves major version numbers of the print schemas that are supported by the plug-in provider.
 
 ## -parameters
-
-
-
 
 ### -param hPrinter [in]
 
 A handle to the print device.
 
-
-### -param ppVersions
-
-
-
-
-### -param cVersions [out]
-
-A pointer to a variable that receives the number of elements in the array that is pointed to by *<i>ppVersions</i>. 
-
-
-### -param ppVersions[] [out]
+### -param ppVersions [out]
 
 A pointer to a variable that receives the address of the first element of an array of version numbers. Version numbers in the array can appear in any order. For more information about this parameter, see the following Remarks section.
 
+### -param cVersions [out]
+
+A pointer to a variable that receives the number of elements in the array that is pointed to by **ppVersions*.
 
 ## -returns
 
-
-
-<code>IPrintTicketProvider::GetSupportedVersions</code> should return S_OK if the operation succeeds. If this method fails because of lack of memory or other resources, it should return a standard COM error code.
-
-
-
+**IPrintOemPrintTicketProvider::GetSupportedVersions** should return S_OK if the operation succeeds. If this method fails because of lack of memory or other resources, it should return a standard COM error code.
 
 ## -remarks
 
+**IPrintOemPrintTicketProvider::GetSupportedVersions** returns the major version numbers of the print schemas that are supported by the provider interface. (The only currently defined version number is 1.) Providers can omit intermediate versions
 
+The plug-in is responsible for allocating the array memory that is pointed to by the *ppVersions* parameter. The plug-in should allocate this memory by using the **CoTaskMemAlloc** function (described in the Microsoft Windows SDK documentation), but the plug-in is not responsible for freeing this memory.
 
-<code>IPrintTicketProvider::GetSupportedVersions</code> returns the major version numbers of the print schemas that are supported by the provider interface. (The only currently defined version number is 1.) Providers can omit intermediate versions
-
-The plug-in is responsible for allocating the array memory that is pointed to by the <i>ppVersions</i> parameter. The plug-in should allocate this memory by using the <b>CoTaskMemAlloc</b> function (described in the Microsoft Windows SDK documentation), but the plug-in is not responsible for freeing this memory.
-
-Because <code>IPrintTicketProvider::GetSupportedVersions</code> can be called before the <a href="/previous-versions/windows/hardware/drivers/ff554354(v=vs.85)">IPrintTicketProvider::BindPrinter</a> method is called, the OEM plug-in provider must check version support based on the handle that is passed in the <i>hPrinter</i> parameter. As a result, the OEM plug-in provider should not close the printer handle that is associated with <i>hPrinter</i>.
-
-
-
+Because **IPrintOemPrintTicketProvider::GetSupportedVersions** can be called before the [IPrintOemPrintTicketProvider::BindPrinter](../prcomoem/nf-prcomoem-iprintoemprintticketprovider-bindprinter.md) method is called, the OEM plug-in provider must check version support based on the handle that is passed in the *hPrinter* parameter. As a result, the OEM plug-in provider should not close the printer handle that is associated with *hPrinter*.
 
 ## -see-also
 
+[IPrintOemPrintTicketProvider](../prcomoem/nn-prcomoem-iprintoemprintticketprovider.md)
 
-
-
-<a href="/previous-versions/windows/hardware/drivers/ff554375(v=vs.85)">IPrintTicketProvider</a>
-
-
-
-<a href="/previous-versions/windows/hardware/drivers/ff554354(v=vs.85)">IPrintTicketProvider::BindPrinter</a>
- 
-
- 
+[IPrintOemPrintTicketProvider::BindPrinter](../prcomoem/nf-prcomoem-iprintoemprintticketprovider-bindprinter.md)
