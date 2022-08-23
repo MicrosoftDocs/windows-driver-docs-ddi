@@ -58,11 +58,11 @@ The heap is for high-performance timing data.
 
 ### -field D3D12DDI_QUERY_HEAP_TYPE_PIPELINE_STATISTICS:2
 
-The heap is to contain pre-D3D12 graphics pipeline data. See [**D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS**](ns-d3d10umddi-d3d11_ddi_query_data_pipeline_statistics.md).
+The heap is to contain pre-D3D12 graphics pipeline data. See [**D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS**](../d3d10umddi/ns-d3d10umddi-d3d11_ddi_query_data_pipeline_statistics.md).
 
 ### -field D3D12DDI_QUERY_HEAP_TYPE_SO_STATISTICS:3
 
-The heap is to contain stream output data. See [**D3D10_DDI_QUERY_DATA_SO_STATISTICS**](ns-d3d10umddi-d3d10_ddi_query_data_so_statistics.md)
+The heap is to contain stream output data. See [**D3D10_DDI_QUERY_DATA_SO_STATISTICS**](../d3d10umddi/ns-d3d10umddi-d3d10_ddi_query_data_so_statistics.md)
 
 ### -field D3D12DDI_QUERY_HEAP_TYPE_0020_VIDEO_DECODE_STATISTICS:4
 
@@ -74,7 +74,7 @@ The heap is to contain timestamp queries emitted exclusively by copy command lis
 
 ### -field D3D12DDI_QUERY_HEAP_TYPE_PIPELINE_STATISTICS1:7
 
-The heap is to contain pipeline data. See [**D3D12DDI_QUERY_DATA_PIPELINE_STATISTICS1 **](ns-d3d12umddi-d3d12ddi_query_data_pipeline_statistics1.md).
+The heap is to contain pipeline data. See [**D3D12DDI_QUERY_DATA_PIPELINE_STATISTICS1**](ns-d3d12umddi-d3d12ddi_query_data_pipeline_statistics1.md).
 
 ## -remarks
 
@@ -82,4 +82,4 @@ Queries are used to capture information from the GPU, such as statistics and sta
 
 ## -see-also
 
-[**pfnd3d12ddiCreateQueryHeap0001**](../d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_create_query_heap_0001.md)
+[**pfnd3d12ddiCreateQueryHeap0001**](nc-d3d12umddi-pfnd3d12ddi_create_query_heap_0001.md)

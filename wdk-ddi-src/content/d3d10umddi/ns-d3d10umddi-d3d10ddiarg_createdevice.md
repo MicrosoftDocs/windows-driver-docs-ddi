@@ -3,7 +3,7 @@ UID: NS:d3d10umddi.D3D10DDIARG_CREATEDEVICE
 title: D3D10DDIARG_CREATEDEVICE (d3d10umddi.h)
 description: The D3D10DDIARG_CREATEDEVICE structure describes the display device to create.
 old-location: display\d3d10ddiarg_createdevice.htm
-ms.date: 08/19/2022
+ms.date: 08/23/2022
 keywords: ["D3D10DDIARG_CREATEDEVICE structure"]
 ms.keywords: D3D10DDIARG_CREATEDEVICE, D3D10DDIARG_CREATEDEVICE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_cf670d46-fffb-49ec-8d04-61f73e30e309.xml, d3d10umddi/D3D10DDIARG_CREATEDEVICE, display.d3d10ddiarg_createdevice
 req.header: d3d10umddi.h
@@ -107,11 +107,19 @@ Supported starting with Windows 8.1.
 
 ### -field pWDDM2_0DeviceFuncs
 
+[in/out] A pointer to a [**D3DWDDM2_0DDI_DEVICEFUNCS**](ns-d3d10umddi-d3dwddm2_0ddi_devicefuncs.md) structure that the user-mode display driver fills with a table of its functions. The driver should fill its Direct3D functions in the supplied structure when the value in the **Interface** member is **D3DWDDM2_0_DDI_INTERFACE_VERSION**.
+
 ### -field pWDDM2_1DeviceFuncs
+
+[in/out] A pointer to a [**D3DWDDM2_1DDI_DEVICEFUNCS**](ns-d3d10umddi-d3dwddm2_1ddi_devicefuncs.md) structure that the user-mode display driver fills with a table of its functions. The driver should fill its Direct3D functions in the supplied structure when the value in the **Interface** member is **D3DWDDM2_0_DDI_INTERFACE_VERSION**.
 
 ### -field pWDDM2_2DeviceFuncs
 
+[in/out] A pointer to a [**D3DWDDM2_2DDI_DEVICEFUNCS**](ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md) structure that the user-mode display driver fills with a table of its functions. The driver should fill its Direct3D functions in the supplied structure when the value in the **Interface** member is **D3DWDDM2_0_DDI_INTERFACE_VERSION**.
+
 ### -field pWDDM2_6DeviceFuncs
+
+[in/out] A pointer to a [**D3DWDDM2_6DDI_DEVICEFUNCS**](ns-d3d10umddi-d3dwddm2_6ddi_devicefuncs.md) structure that the user-mode display driver fills with a table of its functions. The driver should fill its Direct3D functions in the supplied structure when the value in the **Interface** member is **D3DWDDM2_0_DDI_INTERFACE_VERSION**.
 
 Supported starting with Windows 10, version 1901.
 
@@ -147,7 +155,7 @@ Supported starting with Windows 7.
 
 ### -field pWDDM2_6UMCallbacks
 
-[in] Pointer to a [**D3DWDDM2_6DDI_CORELAYER_DEVICECALLBACKS**](ns-d3d10umddi-d3dwddm2_6ddi_corelayer_devicecallbacks) structure that contains a table of Direct3D 10, Direct3D 11, WDDM 2.0, WDDM 2.2, and WDDM 2.6 runtime callback functions, which the driver can use to access core user-mode runtime functionality.
+[in] Pointer to a [**D3DWDDM2_6DDI_CORELAYER_DEVICECALLBACKS**](ns-d3d10umddi-d3dwddm2_6ddi_corelayer_devicecallbacks.md) structure that contains a table of Direct3D 10, Direct3D 11, WDDM 2.0, WDDM 2.2, and WDDM 2.6 runtime callback functions, which the driver can use to access core user-mode runtime functionality.
 
 ### -field Flags
 

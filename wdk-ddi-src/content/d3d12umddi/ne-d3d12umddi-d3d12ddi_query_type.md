@@ -64,11 +64,11 @@ The query is for high definition GPU and CPU timestamps.
 
 ### -field D3D12DDI_QUERY_TYPE_PIPELINE_STATISTICS:3
 
-The query type is for pre-D3D12 graphics pipeline statistics. See [**D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS**](ns-d3d10umddi-d3d11_ddi_query_data_pipeline_statistics.md).
+The query type is for pre-D3D12 graphics pipeline statistics. See [**D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS**](../d3d10umddi/ns-d3d10umddi-d3d11_ddi_query_data_pipeline_statistics.md).
 
 ### -field D3D12DDI_QUERY_TYPE_SO_STATISTICS_STREAM0:4
 
-The query type is for stream output (SO) statistics for Stream0. Stream output is the ability of the GPU to write vertices to a buffer. The stream output counters monitor progress. See [**D3D10_DDI_QUERY_DATA_SO_STATISTICS**](ns-d3d10umddi-d3d10_ddi_query_data_so_statistics.md)
+The query type is for stream output (SO) statistics for Stream0. Stream output is the ability of the GPU to write vertices to a buffer. The stream output counters monitor progress. See [**D3D10_DDI_QUERY_DATA_SO_STATISTICS**](../d3d10umddi/ns-d3d10umddi-d3d10_ddi_query_data_so_statistics.md)
 
 ### -field D3D12DDI_QUERY_TYPE_SO_STATISTICS_STREAM1:5
 
