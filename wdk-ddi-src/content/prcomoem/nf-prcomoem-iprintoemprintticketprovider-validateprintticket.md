@@ -3,7 +3,7 @@ UID: NF:prcomoem.IPrintOemPrintTicketProvider.ValidatePrintTicket
 title: IPrintOemPrintTicketProvider::ValidatePrintTicket (prcomoem.h)
 description: The IPrintOemPrintTicketProvider::ValidatePrintTicket method validates a print ticket.
 tech.root: print
-ms.date: 08/22/2022
+ms.date: 08/23/2022
 keywords: ["IPrintOemPrintTicketProvider::ValidatePrintTicket"]
 ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices],ValidatePrintTicket method, IPrintOemPrintTicketProvider.ValidatePrintTicket, IPrintOemPrintTicketProvider::ValidatePrintTicket, ValidatePrintTicket, ValidatePrintTicket method [Print Devices], ValidatePrintTicket method [Print Devices],IPrintOemPrintTicketProvider interface, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket, print.iprintoemprintticketprovider_validateprintticket, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml
 req.header: prcomoem.h
@@ -59,4 +59,4 @@ If necessary, the **IPrintOemPrintTicketProvider::ValidatePrintTicket**  method 
 
 ## -see-also
 
-[IPrintOemPrintTicketProvider](../nn-prcomoem-iprintoemprintticketprovider.md)
+[IPrintOemPrintTicketProvider](./nn-prcomoem-iprintoemprintticketprovider.md)
