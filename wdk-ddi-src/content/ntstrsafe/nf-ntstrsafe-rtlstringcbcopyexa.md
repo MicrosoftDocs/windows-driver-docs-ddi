@@ -186,7 +186,7 @@ Use **RtlStringCbCopyExW** to handle Unicode strings and  **RtlStringCbCopyExA**
 | String data type | String literal | Function |
 |--|--|--|
 | **WCHAR** | L"string" | **RtlStringCbCopyExW** |
-| **char** | L"string" | **RtlStringCbCopyExA** |
+| **char** | "string" | **RtlStringCbCopyExA** |
 
 If *pszSrc* and *pszDest* point to overlapping strings, the behavior of the function is undefined.
 

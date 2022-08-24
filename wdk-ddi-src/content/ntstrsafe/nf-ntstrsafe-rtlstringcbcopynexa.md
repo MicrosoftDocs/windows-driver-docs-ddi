@@ -193,7 +193,7 @@ Use **RtlStringCbCopyNExW** to handle Unicode strings and **RtlStringCbCopyNExA*
 | String data type | String literal | Function |
 |--|--|--|
 | **WCHAR** | L"string" | **RtlStringCbCopyNExW** |
-| **char** | L"string" | **RtlStringCbCopyNExA** |
+| **char** | "string" | **RtlStringCbCopyNExA** |
 
 If *pszSrc* and *pszDest* point to overlapping strings, the behavior of the function is undefined.
 

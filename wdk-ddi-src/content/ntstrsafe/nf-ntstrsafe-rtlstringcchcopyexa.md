@@ -4,7 +4,7 @@ title: RtlStringCchCopyExA function (ntstrsafe.h)
 description: The RtlStringCchCopyExW and RtlStringCchCopyExA functions copy a character-counted string into a buffer.
 old-location: kernel\rtlstringcchcopyex.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 08/23/2022
 keywords: ["RtlStringCchCopyExA function"]
 ms.keywords: RtlStringCchCopyEx, RtlStringCchCopyExA, RtlStringCchCopyExW, RtlStringCchCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcopyex, ntstrsafe/RtlStringCchCopyExA, ntstrsafe/RtlStringCchCopyExW, safestrings_d4303dc8-8b38-4159-a001-04421ccd2548.xml
 req.header: ntstrsafe.h
@@ -132,7 +132,6 @@ If set and the function fails, the destination buffer is set to an empty string 
 </td>
 <td width="60%">
 If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the destination buffer are not modified.
-
 </td>
 </tr>
 </table>

@@ -168,7 +168,7 @@ The size, in characters, of the destination buffer is provided to **RtlStringCch
 | String data type | String literal | Function |
 |--|--|--|
 | **WCHAR** | L"string" | **RtlStringCchCopyExW** |
-| **char** | L"string" | **RtlStringCchCopyExA** |
+| **char** | "string" | **RtlStringCchCopyExA** |
 
 If *pszSrc* and *pszDest* point to overlapping strings, the behavior of the function is undefined.
 
