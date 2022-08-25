@@ -58,7 +58,7 @@ Opaque pointer to a data section object (that is, a <b>CONTROL_AREA</b> structur
 
 ### -field SharedCacheMap
 
-Opaque pointer to a cache map object (that is, a <b>SHARED_CACHE_MAP</b> structure) that is used to track views that are mapped to the data file stream. Cache manager sets this member when the operating system first caches the stream. A <b>NULL</b> value indicates that the data stream is <pre class="syntax">currently</pre> not cached; this value, however, can change at any time.
+Opaque pointer to a cache map object (that is, a <b>SHARED_CACHE_MAP</b> structure) that is used to track views that are mapped to the data file stream. Cache manager sets this member when the operating system first caches the stream. A <b>NULL</b> value indicates that the data stream is <u>currently</u> not cached; this value, however, can change at any time.
 
 ### -field ImageSectionObject
 
