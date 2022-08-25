@@ -4,7 +4,7 @@ title: RtlStringCchCopyExW function (ntstrsafe.h)
 description: Learn how the RtlStringCchCopyExW and RtlStringCchCopyExA functions copy a character-counted string into a buffer.
 old-location: kernel\rtlstringcchcopyex.htm
 tech.root: kernel
-ms.date: 08/23/2022
+ms.date: 08/24/2022
 keywords: ["RtlStringCchCopyExW function"]
 ms.keywords: RtlStringCchCopyEx, RtlStringCchCopyExA, RtlStringCchCopyExW, RtlStringCchCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcopyex, ntstrsafe/RtlStringCchCopyExA, ntstrsafe/RtlStringCchCopyExW, safestrings_d4303dc8-8b38-4159-a001-04421ccd2548.xml
 req.header: ntstrsafe.h
@@ -71,7 +71,7 @@ If the caller supplies a non-**NULL** address pointer, the function loads the ad
 
 ### -param dwFlags [in]
 
-One or more flags and, optionally, a fill byte. The flags are defined as follows: 
+One or more flags and, optionally, a fill byte. The flags are defined as follows:
 
 <table>
   <tr>
