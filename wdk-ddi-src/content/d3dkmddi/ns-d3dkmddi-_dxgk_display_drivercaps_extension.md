@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_DISPLAY_DRIVERCAPS_EXTENSION
-title: _DXGK_DISPLAY_DRIVERCAPS_EXTENSION (d3dkmddi.h)
+title: DXGK_DISPLAY_DRIVERCAPS_EXTENSION (d3dkmddi.h)
 description: Driver capabilities extension for WDDM 2.0 or later drivers.
 ms.date: 08/25/2021
 keywords: ["DXGK_DISPLAY_DRIVERCAPS_EXTENSION structure"]
@@ -39,18 +39,17 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_DISPLAY_DRIVERCAPS_EXTENSION structure
-
+# DXGK_DISPLAY_DRIVERCAPS_EXTENSION structure
 
 ## -description
 
-Driver capabilities extension for WDDM 2.0 or later drivers.
+Driver capabilities extension for WDDM 2.0 and later drivers.
 
 ## -struct-fields
 
 ### -field SecureDisplaySupport
 
-This flag indicates that miniport wants to support secure display connection.
+Indicates that the miniport supports secure display connection.
 
 ### -field VirtualModeSupport
 
@@ -68,9 +67,17 @@ HDR pixel format scanout capability support.
 
 The display is HDR capable.
 
+### -field Hdr10MetadataSupport
+
+The driver supports HDR10 metadata. Available starting in Windows 10 version 2004 (WDDM 2.7).
+
+### -field VirtualRefreshRateSupport
+
+Indicates support for virtual refresh rate. Available starting in Windows Server 2022 (WDDM 2.9).
+
 ### -field SupportUsb4Targets
 
-Indicates USB4 targets support. This value is only valid for WDDM 3.0 drivers.
+Indicates support for USB4 targets. Available starting in Windows 11 (WDDM 3.0).
 
 ### -field Reserved
 
@@ -78,7 +85,4 @@ Reserved.
 
 ### -field Value
 
-## -remarks
-
-## -see-also
-
+An alternative way to access the structure bit fields.
