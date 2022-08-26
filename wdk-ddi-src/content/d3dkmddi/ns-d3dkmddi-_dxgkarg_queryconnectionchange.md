@@ -3,7 +3,7 @@ UID: NS:d3dkmddi._DXGKARG_QUERYCONNECTIONCHANGE
 title: DXGKARG_QUERYCONNECTIONCHANGE (d3dkmddi.h)
 description: Used to hold the arguments for DXGKDDI_QUERYCONNECTIONCHANGE.
 old-location: display\dxgkarg_queryconnectionchange.htm
-ms.date: 08/24/2022
+ms.date: 08/26/2022
 keywords: ["DXGKARG_QUERYCONNECTIONCHANGE structure"]
 ms.keywords: "*IN_PDXGKARG_QUERYCONNECTIONCHANGE, DXGKARG_QUERYCONNECTIONCHANGE, DXGKARG_QUERYCONNECTIONCHANGE structure [Display Devices], _DXGKARG_QUERYCONNECTIONCHANGE, d3dkmddi/DXGKARG_QUERYCONNECTIONCHANGE, display.dxgkarg_queryconnectionchange"
 req.header: d3dkmddi.h

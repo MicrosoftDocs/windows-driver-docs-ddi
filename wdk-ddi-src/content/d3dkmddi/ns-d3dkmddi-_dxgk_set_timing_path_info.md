@@ -50,7 +50,7 @@ dev_langs:
 
 ## -description
 
-Structure to hold information to modify [**SetTiming**](ns-d3dkmddi-_dxgkarg_settimingsfromvidpn) path.
+Structure to hold information to modify [**SetTiming**](ns-d3dkmddi-_dxgkarg_settimingsfromvidpn.md) path.
 
 ## -struct-fields
 

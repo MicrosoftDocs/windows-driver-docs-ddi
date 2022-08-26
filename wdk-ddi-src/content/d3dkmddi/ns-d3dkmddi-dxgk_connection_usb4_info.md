@@ -1,10 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGK_CONNECTION_USB4_INFO
-tech.root: 
+tech.root: display
 title: DXGK_CONNECTION_USB4_INFO
-ms.date: 
+ms.date: 08/26/2022
 targetos: Windows
-description: 
+description: Learn more about the DXGK_CONNECTION_USB4_INFO structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11 (WDDM 3.0)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: DXGK_CONNECTION_USB4_INFO, *PDXGK_CONNECTION_USB4_INFO
@@ -46,15 +46,22 @@ helpviewer_keywords:
 
 ## -description
 
+A driver that supports USB4 returns information in a **DXGK_CONNECTION_USB4_INFO** structure when a new monitor connected over USB4 arrives.
+
 ## -struct-fields
 
 ### -field Dpcd_DP_IN_Adapter_Number
 
+Uniquely identifies the DisplayPort-IN adapter on the USB4 device.
+
 ### -field Dpcd_USB4_Driver_ID
+
+Uniquely identifies the host router in the system.
 
 ### -field Dpcd_USB4_ROUTER_TOPOLOGY_ID[5]
 
-## -remarks
+Uniquely identifies the USB4 device in the host router domain.
 
 ## -see-also
 
+[**DXGKARG_QUERYCONNECTIONCHANGE**](ns-d3dkmddi-_dxgkarg_queryconnectionchange.md)
