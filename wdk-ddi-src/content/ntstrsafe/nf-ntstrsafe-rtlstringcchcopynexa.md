@@ -145,8 +145,7 @@ The function returns one of the NTSTATUS values that are listed in the following
     <td><b>STATUS_BUFFER_OVERFLOW</b></td>
     <td>
       This <i>warning</i> status means the copy operation did not complete due to insufficient space in the destination
-      buffer. If STRSAFE_NO_TRUNCATION is set in <i>dwFlags</i>, the destination buffer is not modified. If the flag is
-      not set, the destination buffer contains a truncated version of the created string.
+      buffer. If STRSAFE_NO_TRUNCATION is set in <i>dwFlags</i>, see the <i>dwFlags</i> parameter for more information.
     </td>
   </tr>
   <tr>

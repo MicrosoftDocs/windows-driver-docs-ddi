@@ -4,7 +4,7 @@ title: RtlUnicodeStringCbCatStringNEx function (ntstrsafe.h)
 description: The RtlUnicodeStringCbCatStringNEx function concatenates two strings when the destination string is contained in a UNICODE_STRING structure, while limiting the size of the appended string.
 old-location: kernel\rtlunicodestringcbcatstringnex.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 08/25/2022
 keywords: ["RtlUnicodeStringCbCatStringNEx function"]
 ms.keywords: RtlUnicodeStringCbCatStringNEx, RtlUnicodeStringCbCatStringNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatstringnex, ntstrsafe/RtlUnicodeStringCbCatStringNEx, safestrings_e032e11b-4526-4f1f-9e1a-3ae387e8c49d.xml
 req.header: ntstrsafe.h
@@ -43,154 +43,116 @@ api_name:
 
 # RtlUnicodeStringCbCatStringNEx function
 
-
 ## -description
 
-The <b>RtlUnicodeStringCbCatStringNEx</b> function concatenates two strings when the destination string is contained in a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure, while limiting the size of the appended string.
+The **RtlUnicodeStringCbCatStringNEx** function concatenates two strings when the destination string is contained in a [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure, while limiting the size of the appended string.
 
 ## -parameters
 
 ### -param DestinationString [in, out]
 
-
-Optional. A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that, on input, contains a destination string to which the source string will be concatenated. On output, this buffer is the destination buffer that contains the entire resultant string. The source string (excluding the terminating null) is added to the end of the destination string. The maximum number of bytes in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR). <i>DestinationString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
+Optional. A pointer to a **UNICODE_STRING** structure. This structure includes a buffer that, on input, contains a destination string to which the source string will be concatenated. On output, this buffer is the destination buffer that contains the entire resultant string. The source string (excluding the terminating null) is added to the end of the destination string. The maximum number of bytes in the structure's string buffer is `NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR)`. *DestinationString* can be **NULL**, but only if STRSAFE_IGNORE_NULLS is set in *dwFlags*.
 
 ### -param pszSrc [in]
 
-
-A caller-supplied pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the <b>UNICODE_STRING</b> structure that <i>DestinationString</i> points to. <i>pszSrc</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
+A caller-supplied pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the **UNICODE_STRING** structure that *DestinationString* points to. *pszSrc* can be **NULL**, but only if STRSAFE_IGNORE_NULLS is set in *dwFlags*.
 
 ### -param cbToAppend [in]
 
-
-The maximum number of bytes to append to the string that the <i>DestinationString</i> parameter describes.
+The maximum number of bytes to append to the string that the *DestinationString* parameter describes.
 
 ### -param RemainingString [out, optional]
 
-
-Optional. If the caller supplies a non-<b>NULL</b> pointer to a <b>UNICODE_STRING</b> structure, the function sets this structure's <b>Buffer</b> member to the end of the concatenated string, sets the structure's <b>Length</b> member to zero, and sets the structure's <b>MaximumLength</b> member to the number of bytes that are remaining in the destination buffer. <i>RemainingString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
+Optional. If the caller supplies a non-**NULL** pointer to a **UNICODE_STRING** structure, the function sets this structure's **Buffer** member to the end of the concatenated string, sets the structure's **Length** member to zero, and sets the structure's **MaximumLength** member to the number of bytes that are remaining in the destination buffer. *RemainingString* can be **NULL**, but only if STRSAFE_IGNORE_NULLS is set in *dwFlags*.
 
 ### -param dwFlags [in]
 
-
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 
-
-
-
-
-#### STRSAFE_FILL_BEHIND
-
-If this flag is set and the function succeeds, the low byte of <i>dwFlags</i> is used to fill the portion of the destination buffer that follows the last character in the string.
-
-
-
-#### STRSAFE_IGNORE_NULLS
-
-If this flag is set, the source or destination pointer, or both, can be <b>NULL</b>. <b>RtlUnicodeStringCbCatStringNEx</b> treats <b>NULL</b> source buffer pointers like empty strings (TEXT("")), which can be copied. <b>NULL</b> destination buffer pointers cannot receive nonempty strings.
-
-
-
-#### STRSAFE_FILL_ON_FAILURE
-
-If this flag is set and the function fails, the low byte of <i>dwFlags</i> is used to fill the entire destination buffer. This operation overwrites any preexisting buffer contents.
-
-
-
-#### STRSAFE_NULL_ON_FAILURE
-
-If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents.
-
-
-
-#### STRSAFE_NO_TRUNCATION
-
-If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the destination buffer are not modified.
-
-
-
-#### STRSAFE_ZERO_LENGTH_ON_FAILURE
-
-If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destination string length is set to zero bytes.
+<table>
+  <tr>
+    <th>Value</th>
+    <th>Meaning</th>
+  </tr>
+  <tr>
+    <td><b>STRSAFE_FILL_BEHIND</b></td>
+    <td>
+      If this flag is set and the function succeeds, the low byte of <i>dwFlags</i> is used to fill the portion of the destination buffer that follows the last character in the string.
+    </td>
+  </tr>
+  <tr>
+    <td><b>STRSAFE_IGNORE_NULLS</b></td>
+    <td>
+      If this flag is set, the source or destination pointer, or both, can be <b>NULL</b>. <b>RtlUnicodeStringCbCatStringNEx</b> treats <b>NULL</b> source buffer pointers like empty strings (TEXT("")), which can be copied. <b>NULL</b> destination buffer pointers cannot receive nonempty strings.
+    </td>
+  </tr>
+  <tr>
+    <td><b>STRSAFE_FILL_ON_FAILURE</b></td>
+    <td>
+      If this flag is set and the function fails, the low byte of <i>dwFlags</i> is used to fill the entire destination buffer. This operation overwrites any preexisting buffer contents.
+    </td>
+  </tr>
+  <tr>
+    <td><b>STRSAFE_NULL_ON_FAILURE</b></td>
+    <td>
+      If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents.
+    </td>
+  </tr>
+  <tr>
+    <td><b>STRSAFE_NO_TRUNCATION</b></td>
+    <td>
+      <p>If set and the function returns STATUS_BUFFER_OVERFLOW:</p>
+      <ul>
+        <li>If STRSAFE_FILL_ON_FAILURE is also specified, STRSAFE_NO_TRUNCATION fills the destination buffer
+          accordingly.</li>
+        <li>Otherwise, the destination buffer will be unmodified.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><b>STRSAFE_ZERO_LENGTH_ON_FAILURE</b></td>
+    <td>
+      If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destination string length is set to zero bytes.
+    </td>
+  </tr>
+</table>
 
 ## -returns
 
-<b>RtlUnicodeStringCbCatStringNEx</b> returns one of the following NTSTATUS values. 
+**RtlUnicodeStringCbCatStringNEx** returns one of the following NTSTATUS values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-This <i>success</i> status means source data was present, and the strings were concatenated without truncation.
+| Return code | Description |
+|--|--|
+| **STATUS_SUCCESS** | This *success* status means source data was present, and the strings were concatenated without truncation. |
+| **STATUS_BUFFER_OVERFLOW** | This *warning* status means that the concatenated operation did not complete because of insufficient space in the destination buffer. If **STRSAFE_NO_TRUNCATION** is set, see the *dwFlags* parameter for more information. |
+| **STATUS_INVALID_PARAMETER** | This *error* status means that the function received an invalid input parameter. For more information, see the following list. |
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_OVERFLOW</b></dt>
-</dl>
-</td>
-<td width="60%">
-This <i>warning</i> status means that the concatenated operation did not complete because of insufficient space in the destination buffer. If STRSAFE_NO_TRUNCATION is set in <i>dwFlags</i>, the destination buffer is not modified. If the flag is not set, the destination buffer contains a truncated version of the intended result.
+**RtlUnicodeStringCbCatStringNEx** returns the STATUS_INVALID_PARAMETER value when one of the following occurs:
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-This <i>error</i> status means that the function received an invalid input parameter. For more information, see the following list.
+- The contents of a **UNICODE_STRING** structure are invalid.
+- An invalid flag is specified in *dwFlags*.
+- The destination buffer is already full.
+- A buffer pointer is **NULL** and the STRSAFE_IGNORE_NULLS flag is not specified.
+- The destination buffer pointer is **NULL**, but the buffer size is not zero.
+- The destination buffer pointer is **NULL**, or its length is zero, but a nonzero length source string is present.
+- The *cbToAppend* parameter's value is greater than `NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR)`.
 
-</td>
-</tr>
-</table>
- 
-
-<b>RtlUnicodeStringCbCatStringNEx</b> returns the STATUS_INVALID_PARAMETER value when one of the following occurs:
-
-<ul>
-<li>The contents of a <b>UNICODE_STRING</b> structure are invalid.</li>
-<li>An invalid flag is specified in <i>dwFlags</i>.</li>
-<li>The destination buffer is already full.</li>
-<li>A buffer pointer is <b>NULL</b> and the STRSAFE_IGNORE_NULLS flag is not specified.</li>
-<li>The destination buffer pointer is <b>NULL</b>, but the buffer size is not zero.</li>
-<li>The destination buffer pointer is <b>NULL</b>, or its length is zero, but a nonzero length source string is present.</li>
-<li>The <i>cbToAppend</i> parameter's value is greater than NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).</li>
-</ul>
-For information about how to test NTSTATUS values, see <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
+For information about how to test NTSTATUS values, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
-The <b>RtlUnicodeStringCbCatStringNEx </b>function uses the destination buffer's size to ensure that the concatenation operation does not write past the end of the buffer. By default, the function does <u>not</u> terminate the resultant string with a null character value (that is, with zero). As an option, the caller can use the STRSAFE_FILL_BEHIND flag and a fill byte value of zero to null-terminate a resultant string that does not occupy the entire destination buffer.
+The **RtlUnicodeStringCbCatStringNEx **function uses the destination buffer's size to ensure that the concatenation operation does not write past the end of the buffer. By default, the function does *not* terminate the resultant string with a null character value (that is, with zero). As an option, the caller can use the STRSAFE_FILL_BEHIND flag and a fill byte value of zero to null-terminate a resultant string that does not occupy the entire destination buffer.
 
-<b>RtlUnicodeStringCbCatStringNEx </b>adds to the functionality of the <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcbcatstringn">RtlUnicodeStringCbCatStringN</a> function by returning a <b>UNICODE_STRING</b> structure that identifies the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to <b>RtlUnicodeStringCbCatStringNEx</b> for additional control.
+**RtlUnicodeStringCbCatStringNEx** adds to the functionality of the [RtlUnicodeStringCbCatStringN](./nf-ntstrsafe-rtlunicodestringcbcatstringn.md) function by returning a **UNICODE_STRING** structure that identifies the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to **RtlUnicodeStringCbCatStringNEx** for additional control.
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
-The <i>pszSrc</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b> unless the STRSAFE_IGNORE_NULLS flag is set in <i>dwFlags</i>. If STRSAFE_IGNORE_NULLS is set, one or both of these pointers can be <b>NULL</b>. If the <i>DestinationString</i> pointer is <b>NULL</b>, the <i>pszSrc</i> pointer must be <b>NULL</b> or point to an empty string.
+The *pszSrc* and *DestinationString* pointers cannot be **NULL** unless the STRSAFE_IGNORE_NULLS flag is set in *dwFlags*. If STRSAFE_IGNORE_NULLS is set, one or both of these pointers can be **NULL**. If the *DestinationString* pointer is **NULL**, the *pszSrc* pointer must be **NULL** or point to an empty string.
 
-For more information about the safe string functions, see <a href="/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
+For more information about the safe string functions, see [Using safe string functions](/windows-hardware/drivers/kernel/using-safe-string-functions).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcbcatstringn">RtlUnicodeStringCbCatStringN</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcchcatstringnex">RtlUnicodeStringCchCatStringNEx</a>
-
-
-
-<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+- [RtlUnicodeStringCbCatStringN](./nf-ntstrsafe-rtlunicodestringcbcatstringn.md)
+- [RtlUnicodeStringCchCatStringNEx](./nf-ntstrsafe-rtlunicodestringcchcatstringnex.md)
+- [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
