@@ -1,15 +1,15 @@
 ---
 UID: NS:d3dkmddi._DXGK_ALLOCATIONINFO
-title: _DXGK_ALLOCATIONINFO (d3dkmddi.h)
+title: DXGK_ALLOCATIONINFO (d3dkmddi.h)
 description: The DXGK_ALLOCATIONINFO structure describes parameters for creating an allocation.
 old-location: display\dxgk_allocationinfo.htm
-ms.date: 08/05/2020
+ms.date: 08/24/2022
 keywords: ["DXGK_ALLOCATIONINFO structure"]
 ms.keywords: DXGK_ALLOCATIONINFO, DXGK_ALLOCATIONINFO structure [Display Devices], DmStructs_f571b666-75fd-477a-a8a7-673033d9284e.xml, _DXGK_ALLOCATIONINFO, d3dkmddi/DXGK_ALLOCATIONINFO, display.dxgk_allocationinfo
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,94 +43,97 @@ api_name:
  - DXGK_ALLOCATIONINFO
 ---
 
-# _DXGK_ALLOCATIONINFO structure
-
+# DXGK_ALLOCATIONINFO structure
 
 ## -description
 
-The DXGK_ALLOCATIONINFO structure describes parameters for creating an allocation.
+The **DXGK_ALLOCATIONINFO** structure describes parameters for creating an allocation.
 
 ## -struct-fields
 
-### -field pPrivateDriverData [in]
+### -field pPrivateDriverData
 
-A pointer to a block of private data. This data is for each allocation and is distinct from the **pPrivateDriverData** member in the [**DXGKARG_CREATEALLOCATION**](ns-d3dkmddi-_dxgkarg_createallocation.md) structure. The user-mode display driver might pass this data to the display miniport driver. However, if  the Microsoft DirectX graphics kernel subsystem passes this data to describe the shared primary or other lockable surface, the data is passed as the first element of the array in the **pAllocationInfo** member of DXGKARG_CREATEALLOCATION.
+[in] A pointer to a block of private data. This data is for each allocation and is distinct from the **pPrivateDriverData** member in the [**DXGKARG_CREATEALLOCATION**](ns-d3dkmddi-_dxgkarg_createallocation.md) structure. The user-mode display driver might pass this data to the display miniport driver. However, if  the Microsoft DirectX graphics kernel subsystem passes this data to describe the shared primary or other lockable surface, the data is passed as the first element of the array in the **pAllocationInfo** member of DXGKARG_CREATEALLOCATION.
 
-### -field PrivateDriverDataSize [in]
+### -field PrivateDriverDataSize
 
-The size, in bytes, of the block of private data in **pPrivateDriverData**.
+[in] The size, in bytes, of the block of private data in **pPrivateDriverData**.
 
-### -field Alignment [out]
+### -field Alignment
 
-The required alignment, in bytes, for the allocation.
+[out] The required alignment, in bytes, for the allocation.
 
-### -field Size [out]
+### -field Size
 
-The size, in bytes, that is required for the allocation. The size value is expanded to a multiple of the native host page size (for example, 4 KB on the x86 architecture). The display miniport driver specifies the allocation size to the video memory manager.
+[out] The size, in bytes, that is required for the allocation. The size value is expanded to a multiple of the native host page size (for example, 4 KB on the x86 architecture). The display miniport driver specifies the allocation size to the video memory manager.
 
-### -field PitchAlignedSize [out]
+### -field PitchAlignedSize
 
-The size, in bytes, of the allocation when it is located in a pitch-aligned segment, which is specified by the **PitchAlignment** bit-field flag in the **Flags** member of the [**DXGK_SEGMENTDESCRIPTOR**](ns-d3dkmddi-_dxgk_segmentdescriptor.md) structure for the segment. If the allocation is not supported in a pitch-aligned segment (graphics processing units [GPUs] commonly do not support this type of segment), the driver should set the value in **PitchAlignedSize** to zero. If the driver specifies a nonzero value in **PitchAlignedSize**, the value must be greater than or equal to the value in the **Size** member.
+[out] The size, in bytes, of the allocation when it is located in a pitch-aligned segment, which is specified by the **PitchAlignment** bit-field flag in the **Flags** member of the [**DXGK_SEGMENTDESCRIPTOR**](ns-d3dkmddi-_dxgk_segmentdescriptor.md) structure for the segment. If the allocation is not supported in a pitch-aligned segment (graphics processing units [GPUs] commonly do not support this type of segment), the driver should set the value in **PitchAlignedSize** to zero. If the driver specifies a nonzero value in **PitchAlignedSize**, the value must be greater than or equal to the value in the **Size** member.
 
-### -field HintedBank [out]
+### -field HintedBank
 
-A [**DXGK_SEGMENTBANKPREFERENCE**](ns-d3dkmddi-_dxgk_segmentbankpreference.md) structure that indicates the bank ordering preferences that the display miniport driver requests that the video memory manager use to page-in the allocation. If this member is specified, the video memory manager uses banking information about the most preferred segment, which is specified by the **SegmentId0** member of the [**DXGK_SEGMENTPREFERENCE**](/previous-versions/windows/hardware/drivers/ff562047(v=vs.85)) structure that the **PreferredSegment** member specifies.
+[out] A [**DXGK_SEGMENTBANKPREFERENCE**](ns-d3dkmddi-_dxgk_segmentbankpreference.md) structure that indicates the bank ordering preferences that the display miniport driver requests that the video memory manager use to page-in the allocation. If this member is specified, the video memory manager uses banking information about the most preferred segment, which is specified by the **SegmentId0** member of the [**DXGK_SEGMENTPREFERENCE**](/previous-versions/windows/hardware/drivers/ff562047(v=vs.85)) structure that the **PreferredSegment** member specifies.
 
-### -field PreferredSegment [out]
+### -field PreferredSegment
 
-A [**DXGK_SEGMENTPREFERENCE**](/previous-versions/windows/hardware/drivers/ff562047(v=vs.85)) structure that indicates preferred segments identifiers that the display miniport driver requests that the video memory manager use to page-in the allocation.
+[out] A [**DXGK_SEGMENTPREFERENCE**](/previous-versions/windows/hardware/drivers/ff562047(v=vs.85)) structure that indicates preferred segments identifiers that the display miniport driver requests that the video memory manager use to page-in the allocation.
 
-### -field SupportedReadSegmentSet [out]
+### -field SupportedReadSegmentSet
 
-Segment identifiers that the display miniport driver can set in the **PreferredSegment** member for read operations. The segments that these identifiers indicate are segments that the display miniport driver requests that the video memory manager use to page-in the allocation for read operations, regardless of performance. Setting bit 0 indicates that the first segment is supported, setting bit 1 indicates that the second segment is supported, and so on.
+[out] Segment identifiers that the display miniport driver can set in the **PreferredSegment** member for read operations. The segments that these identifiers indicate are segments that the display miniport driver requests that the video memory manager use to page-in the allocation for read operations, regardless of performance. Setting bit 0 indicates that the first segment is supported, setting bit 1 indicates that the second segment is supported, and so on.
 
 The display miniport driver can set preferences only for segments that are supported for read operations. The video memory manager asserts if the driver attempts to set preferences for unsupported segments in the **PreferredSegment** member.
 
-### -field SupportedWriteSegmentSet [out]
+### -field SupportedWriteSegmentSet
 
-Segment identifiers that the display miniport driver can set in the **PreferredSegment** member for write operations. The segments that these identifiers indicate are segments that the display miniport driver requests that the video memory manager use to page-in the allocation for write operations, regardless of performance. Setting bit 0 indicates that the first segment is supported, setting bit 1 indicates that the second segment is supported, and so on.
+[out] Segment identifiers that the display miniport driver can set in the **PreferredSegment** member for write operations. The segments that these identifiers indicate are segments that the display miniport driver requests that the video memory manager use to page-in the allocation for write operations, regardless of performance. Setting bit 0 indicates that the first segment is supported, setting bit 1 indicates that the second segment is supported, and so on.
 
 The display miniport driver can set preferences only for segments that are supported for write operations. The video memory manager asserts if the driver attempts to set preferences for unsupported segments in the **PreferredSegment** member.
 
-### -field EvictionSegmentSet [out]
+### -field EvictionSegmentSet
 
-Identifiers of segments that can be used for eviction. Setting bit 0 indicates that the first segment can be used for eviction, setting bit 1 indicates that the second segment can be used for eviction, and so on.
+[out] Identifiers of segments that can be used for eviction. Setting bit 0 indicates that the first segment can be used for eviction, setting bit 1 indicates that the second segment can be used for eviction, and so on.
 
 Only aperture segments can be specified by this member. If the driver specifies valid segments to be used for eviction, the video memory manager attempts to allocate resources in those aperture segments to accelerate the eviction process. If the driver specifies 0, the video memory manager calls the driver to transfer the content of an allocation directly to paged-locked system memory without mapping the underlying pages through an aperture segment.
 
-### -field MaximumRenamingListLength [out]
+### -field MaximumRenamingListLength
 
-The maximum length of the renaming list for the allocation. For more information about the renaming list, see [Requesting to Rename an Allocation](/windows-hardware/drivers/display/requesting-to-rename-an-allocation).
-
-Support for this member started with Windows 10 and the WDDM v2.
-
-### -field PhysicalAdapterIndex [out]
-
-The index of the physical adapter.
+[out] The maximum length of the renaming list for the allocation. For more information about the renaming list, see [Requesting to Rename an Allocation](/windows-hardware/drivers/display/requesting-to-rename-an-allocation).
 
 Support for this member started with Windows 10 and the WDDM v2.
 
-### -field hAllocation [out]
+### -field PhysicalAdapterIndex
 
-A handle to the allocation. The display miniport driver must set this member to a value that it can use to refer to its private tracking structure for the allocation.
+[out] The index of the physical adapter.
 
-### -field Flags [out]
+Support for this member started with Windows 10 and the WDDM v2.
 
-A [**DXGK_ALLOCATIONINFOFLAGS**](ns-d3dkmddi-_dxgk_allocationinfoflags.md) structure that identifies properties for an allocation in bit-field flags. These properties indicate the type of allocation to create. The display miniport driver specifies these flags for the video memory manager. Drivers that target any WDDM version earlier than WDDM 2.0 should use **Flags**; drivers that target any WDDM version >= WDDM 2.0 should use **FlagsWddm2**.
+### -field hAllocation
 
-### -field FlagsWddm2 [out]
+[out] A handle to the allocation. The display miniport driver must set this member to a value that it can use to refer to its private tracking structure for the allocation.
 
-A [**DXGK_ALLOCATIONINFOFLAGS_WDDM2_0**](ns-d3dkmddi-_dxgk_allocationinfoflags_wddm2_0.md) structure that identifies properties for an allocation in bit-field flags. These properties indicate the type of allocation to create. The display miniport driver specifies these flags for the video memory manager. Drivers that target any WDDM version >= WDDM 2.0 should use **FlagsWddm2**; drivers that target any WDDM version earlier than WDDM 2.0 should use **Flags**.
+### -field Flags
 
-### -field pAllocationUsageHint [out]
+[out] A [**DXGK_ALLOCATIONINFOFLAGS**](ns-d3dkmddi-_dxgk_allocationinfoflags.md) structure that identifies properties for an allocation in bit-field flags. These properties indicate the type of allocation to create. The display miniport driver specifies these flags for the video memory manager. Drivers that target any WDDM version earlier than WDDM 2.0 should use **Flags**; drivers that target any WDDM version >= WDDM 2.0 should use **FlagsWddm2**.
 
-A pointer to a [**DXGK_ALLOCATIONUSAGEHINT**](ns-d3dkmddi-_dxgk_allocationusagehint.md) structure that the memory manager uses to determine how to use the allocation.
+### -field FlagsWddm2
 
-### -field AllocationPriority [out]
+[out] A [**DXGK_ALLOCATIONINFOFLAGS_WDDM2_0**](ns-d3dkmddi-_dxgk_allocationinfoflags_wddm2_0.md) structure that identifies properties for an allocation in bit-field flags. These properties indicate the type of allocation to create. The display miniport driver specifies these flags for the video memory manager. Drivers that target any WDDM version >= WDDM 2.0 should use **FlagsWddm2**; drivers that target any WDDM version earlier than WDDM 2.0 should use **Flags**.
 
-A UINT value that specifies the starting priority level of the allocation.
+### -field pAllocationUsageHint
+
+[out] A pointer to a [**DXGK_ALLOCATIONUSAGEHINT**](ns-d3dkmddi-_dxgk_allocationusagehint.md) structure that the memory manager uses to determine how to use the allocation.
+
+### -field AllocationPriority
+
+[out] A UINT value that specifies the starting priority level of the allocation.
 
 The driver determines the appropriate priority level for each allocation. For more information about priority levels, see the Remarks section of the [**pfnSetPriorityCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_setprioritycb.md) function. If priority level for allocations is not an issue to the driver, the driver should set all priority levels to **D3DDDI_ALLOCATIONPRIORITY_NORMAL**. Note that 0 is an invalid initial allocation priority.
+
+### -field Flags2
+
+[out] A [**DXGK_ALLOCATIONINFOFLAGS2**](ns-d3dkmddi-dxgk_allocationinfoflags2.md) structure that contains additional properties for an allocation. Supported starting in Windows 11 (WDDM 3.0).
 
 ## -remarks
 
@@ -159,4 +162,3 @@ Ignoring the supported read segment set does not mean that it is no longer suppo
 [**DxgkDdiRender**](nc-d3dkmddi-dxgkddi_render.md)
 
 [**pfnAllocateCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb.md)
-

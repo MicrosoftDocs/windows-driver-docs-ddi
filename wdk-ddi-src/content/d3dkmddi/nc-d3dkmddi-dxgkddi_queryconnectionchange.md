@@ -3,7 +3,7 @@ UID: NC:d3dkmddi.DXGKDDI_QUERYCONNECTIONCHANGE
 title: DXGKDDI_QUERYCONNECTIONCHANGE (d3dkmddi.h)
 description: The OS calls this in response to a status change reported through DxgkCbIndicateConnectorChange or when the OutputFlags.ConnectorStatusChanges field indicates that a call to SetTimingsFromVidPn has detected connector status changes.
 old-location: display\dxgkddi_queryconnectionchange.htm
-ms.date: 04/16/2018
+ms.date: 08/24/2022
 keywords: ["DXGKDDI_QUERYCONNECTIONCHANGE callback function"]
 ms.keywords: DXGKDDI_QUERYCONNECTIONCHANGE, DXGKDDI_QUERYCONNECTIONCHANGE callback, DXGKDDI_QUERYCONNECTIONCHANGE callback function [Display Devices], d3dkmddi/DXGKDDI_QUERYCONNECTIONCHANGE, display.dxgkddi_queryconnectionchange
 req.header: d3dkmddi.h
@@ -44,10 +44,9 @@ product:
 
 # DXGKDDI_QUERYCONNECTIONCHANGE callback function
 
-
 ## -description
 
-The OS calls this in response to a status change reported through [DxgkCbIndicateConnectorChange](nc-d3dkmddi-dxgkcb_indicate_connector_change.md) or when the OutputFlags.ConnectorStatusChanges field indicates that a call to [SetTimingsFromVidPn](nc-d3dkmddi-dxgkddi_settimingsfromvidpn.md) has detected connector status changes.
+The OS calls **DXGKDDI_QUERYCONNECTIONCHANGE** in response to a status change reported through [**DxgkCbIndicateConnectorChange**](nc-d3dkmddi-dxgkcb_indicate_connector_change.md) or when the **OutputFlags.ConnectorStatusChanges** field indicates that a call to [**SetTimingsFromVidPn**](nc-d3dkmddi-dxgkddi_settimingsfromvidpn.md) has detected connector status changes.
 
 ## -parameters
 
@@ -57,7 +56,7 @@ A handle that identifies the adapter.
 
 ### -param pQueryConnectionChange
 
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryconnectionchange">DXGKARG_QUERYCONNECTIONCHANGE</a> structure that provides the OS allocated buffer into which the oldest change should be copied by the driver. The oldest change is judged by lowest ConnectionChangeId.
+A pointer to a [**DXGKARG_QUERYCONNECTIONCHANGE**](ns-d3dkmddi-_dxgkarg_queryconnectionchange.md) structure that provides the OS allocated buffer into which the oldest change should be copied by the driver. The oldest change is judged by lowest [**ConnectionChangeId**](ns-d3dkmddi-_dxgk_connection_change.md).
 
 ## -returns
 

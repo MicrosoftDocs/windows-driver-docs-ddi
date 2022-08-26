@@ -1,8 +1,8 @@
 ---
 UID: NE:d3dkmddi._DXGK_SYNC_LOCK_STYLE
-title: _DXGK_SYNC_LOCK_STYLE (d3dkmddi.h)
+title: DXGK_SYNC_LOCK_STYLE (d3dkmddi.h)
 description: The sync lock style.
-ms.date: 10/19/2018
+ms.date: 08/25/2022
 keywords: ["DXGK_SYNC_LOCK_STYLE enumeration"]
 ms.keywords: _DXGK_SYNC_LOCK_STYLE, DXGK_SYNC_LOCK_STYLE,
 req.header: d3dkmddi.h
@@ -38,26 +38,21 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_SYNC_LOCK_STYLE enumeration
-
+# DXGK_SYNC_LOCK_STYLE enumeration
 
 ## -description
 
-Used in the call to [DxgkDdiSetTimingsFromVidPn](nc-d3dkmddi-dxgkddi_settimingsfromvidpn.md) to describe the style of display synchronization to be applied.
+Used in the call to [**DxgkDdiSetTimingsFromVidPn**](nc-d3dkmddi-dxgkddi_settimingsfromvidpn.md) to describe the style of display synchronization to be applied.
 
 ## -enum-fields
 
 ### -field DXGK_SYNC_LOCK_STYLE_NONE
 
-Indicates that this path is not synchronized. If the *Input.SyncLockStyle* value of [DXGK_SET_TIMING_PATH_INFO](ns-d3dkmddi-_dxgk_set_timing_path_info.md) is set to this value, then the *Input.SyncLockGroup* should be set to zero.
+Indicates that this path is not synchronized. If the *Input.SyncLockStyle* value of [**DXGK_SET_TIMING_PATH_INFO**](ns-d3dkmddi-_dxgk_set_timing_path_info.md) is set to this value, then the *Input.SyncLockGroup* should be set to zero.
 
 ### -field DXGK_SYNC_LOCK_STYLE_IDENTICAL
 
 Indicates that this path is synchronized with other paths with the *Input.SyncLockGroup* set to the same non-zero value where all the paths have an identical target mode.
-
-### -field UINT
-
-The number of styles.
 
 ## -remarks
 
@@ -65,3 +60,4 @@ The sync styled defined for WDDM 2.4 - WDDM 2.6 do not allow the styles applied 
 
 ## -see-also
 
+[**DXGK_SET_TIMING_PATH_INFO**](ns-d3dkmddi-_dxgk_set_timing_path_info.md)
