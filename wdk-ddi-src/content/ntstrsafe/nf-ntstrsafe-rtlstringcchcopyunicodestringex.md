@@ -81,31 +81,31 @@ One or more flags and, optionally, a fill byte. The flags are defined as follows
   <tr>
     <td><b>STRSAFE_FILL_BEHIND_NULL</b></td>
     <td>
-      If set and the function succeeds, the low byte of <i>dwFlags</i> is used to fill the portion of the destination buffer that follows the terminating null character.
+      If this flag is set and the function succeeds, the low byte of <i>dwFlags</i> is used to fill the portion of the destination buffer that follows the terminating null character.
     </td>
   </tr>
   <tr>
     <td><b>STRSAFE_IGNORE_NULLS</b></td>
     <td>
-      If set, either the source or destination pointer, or both, can be <b>NULL</b>. <b>RtlStringCchCopyUnicodeStringEx</b> treats <b>NULL</b> source buffer pointers like empty strings (TEXT("")), which can be copied. <b>NULL</b> destination buffer pointers cannot receive nonempty strings.
+      If this flag is set, either the source or destination pointer, or both, can be <b>NULL</b>. <b>RtlStringCchCopyUnicodeStringEx</b> treats <b>NULL</b> source buffer pointers like empty strings (TEXT("")), which can be copied. <b>NULL</b> destination buffer pointers cannot receive nonempty strings.
     </td>
   </tr>
   <tr>
     <td><b>STRSAFE_FILL_ON_FAILURE</b></td>
     <td>
-      If set and the function fails, the low byte of <i>dwFlags</i> is used to fill the entire destination buffer, and the buffer is null-terminated. This operation overwrites any preexisting buffer contents.
+      If this flag is set and the function fails, the low byte of <i>dwFlags</i> is used to fill the entire destination buffer, and the buffer is null-terminated. This operation overwrites any preexisting buffer contents.
     </td>
   </tr>
   <tr>
     <td><b>STRSAFE_NULL_ON_FAILURE</b></td>
     <td>
-      If set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents.
+      If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents.
     </td>
   </tr>
   <tr>
     <td><b>STRSAFE_NO_TRUNCATION</b></td>
     <td>
-      <p>If set and the function returns STATUS_BUFFER_OVERFLOW:</p>
+      <p>If this flag is set and the function returns STATUS_BUFFER_OVERFLOW:</p>
       <ul>
         <li>If <b>STRSAFE_FILL_ON_FAILURE</b> is also specified, <b>STRSAFE_NO_TRUNCATION</b> fills the destination buffer accordingly.</li>
         <li>Otherwise, the contents of the destination buffer will be set to an empty string, even if <b>STRSAFE_NULL_ON_FAILURE</b> is not set. <b>STRSAFE_FILL_BEHIND_NULL</b> is ignored.</li>
