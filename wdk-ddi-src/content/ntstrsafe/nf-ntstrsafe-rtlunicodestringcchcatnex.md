@@ -101,7 +101,7 @@ One or more flags and, optionally, a fill byte. The flags are defined as follows
   <tr>
     <td><b>STRSAFE_NO_TRUNCATION</b></td>
     <td>
-      <p>If this flag is set and the function returns STATUS_BUFFER_OVERFLOW:</p>
+      <p>If this flag is set and the function returns <b>STATUS_BUFFER_OVERFLOW</b>:</p>
       <ul>
         <li>If <b>STRSAFE_FILL_ON_FAILURE</b> is also specified, <b>STRSAFE_NO_TRUNCATION</b> fills the destination buffer
           accordingly.</li>

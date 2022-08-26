@@ -151,7 +151,7 @@ The function returns one of the NTSTATUS values that are listed in the following
         <li>An invalid flag was specified.</li>
         <li>The value in <i>cchDest </i> is larger than the maximum buffer size.</li>
         <li>The destination buffer was already full.</li>
-        <li>A <b>NULL</b> pointer was present without the STRSAFE_IGNORE_NULLS flag.</li>
+        <li>A <b>NULL</b> pointer was present without the <b>STRSAFE_IGNORE_NULLS</b> flag.</li>
         <li>The destination buffer pointer was <b>NULL</b>, but the buffer size was not zero.</li>
         <li>The destination buffer pointer was <b>NULL</b>, or its length was zero, but a nonzero length source string
           was present.</li>

@@ -116,7 +116,7 @@ One or more flags and, optionally, a fill byte. The flags are defined as follows
   <tr>
     <td><b>STRSAFE_NO_TRUNCATION</b></td>
     <td>
-      <p>If this flag is set and the function returns STATUS_BUFFER_OVERFLOW:</p>
+      <p>If this flag is set and the function returns <b>STATUS_BUFFER_OVERFLOW</b>:</p>
       <ul>
         <li>If <b>STRSAFE_FILL_ON_FAILURE</b> is also specified, <b>STRSAFE_NO_TRUNCATION</b> fills the destination buffer
           accordingly.</li>
@@ -157,7 +157,7 @@ The function returns one of the NTSTATUS values that are listed in the following
         <li>An invalid flag was specified.</li>
         <li>The value in <i>cbDest</i> is larger than the maximum buffer size.</li>
         <li>The destination buffer was already full.</li>
-        <li>A <b>NULL</b> pointer was present without the STRSAFE_IGNORE_NULLS flag.</li>
+        <li>A <b>NULL</b> pointer was present without the <b>STRSAFE_IGNORE_NULLS</b> flag.</li>
         <li>The destination buffer pointer was <b>NULL</b>, but the buffer size was not zero.</li>
         <li>The destination buffer pointer was <b>NULL</b>, or its length was zero, but a nonzero length source string
           was present.</li>
