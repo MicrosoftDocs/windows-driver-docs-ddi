@@ -4,7 +4,7 @@ title: RtlStringCbCopyNExA function (ntstrsafe.h)
 description: The RtlStringCbCopyNExW and RtlStringCbCopyNExA functions copy a byte-counted string to a buffer while limiting the size of the copied string.
 old-location: kernel\rtlstringcbcopynex.htm
 tech.root: kernel
-ms.date: 08/23/2022
+ms.date: 08/26/2022
 keywords: ["RtlStringCbCopyNExA function"]
 ms.keywords: RtlStringCbCopyNEx, RtlStringCbCopyNExA, RtlStringCbCopyNExW, RtlStringCbCopyNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcopynex, ntstrsafe/RtlStringCbCopyNExA, ntstrsafe/RtlStringCbCopyNExW, safestrings_868bd7e8-88d5-4c41-ba40-ca7934ff86c8.xml
 req.header: ntstrsafe.h
@@ -155,7 +155,7 @@ The function returns one of the NTSTATUS values that are listed in the following
     </td>
     <td>
       This <i>warning</i> status means the copy operation did not complete due to insufficient space in the destination
-      buffer. If STRSAFE_NO_TRUNCATION is set, see the <i>dwFlags</i> parameter for more information.
+      buffer. If <b>STRSAFE_NO_TRUNCATION</b> is set, see the <i>dwFlags</i> parameter for more information.
     </td>
   </tr>
   <tr>

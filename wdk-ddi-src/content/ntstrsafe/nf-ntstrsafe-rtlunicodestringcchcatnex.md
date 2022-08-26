@@ -4,7 +4,7 @@ title: RtlUnicodeStringCchCatNEx function (ntstrsafe.h)
 description: The RtlUnicodeStringCchCatNEx function concatenates two strings that are contained in UNICODE_STRING structures while limiting the size of the copied string.
 old-location: kernel\rtlunicodestringcchcatnex.htm
 tech.root: kernel
-ms.date: 08/25/2022
+ms.date: 08/26/2022
 keywords: ["RtlUnicodeStringCchCatNEx function"]
 ms.keywords: RtlUnicodeStringCchCatNEx, RtlUnicodeStringCchCatNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcatnex, ntstrsafe/RtlUnicodeStringCchCatNEx, safestrings_31ae2a1e-4ec4-4cd3-b5d4-f966860fa50a.xml
 req.header: ntstrsafe.h
@@ -103,7 +103,7 @@ One or more flags and, optionally, a fill byte. The flags are defined as follows
     <td>
       <p>If set and the function returns STATUS_BUFFER_OVERFLOW:</p>
       <ul>
-        <li>If STRSAFE_FILL_ON_FAILURE is also specified, STRSAFE_NO_TRUNCATION fills the destination buffer
+        <li>If <b>STRSAFE_FILL_ON_FAILURE</b> is also specified, <b>STRSAFE_NO_TRUNCATION</b> fills the destination buffer
           accordingly.</li>
         <li>Otherwise, the destination buffer will be unmodified.</li>
       </ul>

@@ -4,7 +4,7 @@ title: RtlStringCchCatExW function (ntstrsafe.h)
 description: Learn how the RtlStringCchCatExW and RtlStringCchCatExA functions concatenate two character-counted strings.
 old-location: kernel\rtlstringcchcatex.htm
 tech.root: kernel
-ms.date: 08/25/2022
+ms.date: 08/26/2022
 keywords: ["RtlStringCchCatExW function"]
 ms.keywords: RtlStringCchCatEx, RtlStringCchCatEx function [Kernel-Mode Driver Architecture], RtlStringCchCatExA, RtlStringCchCatExW, STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcatex, ntstrsafe/RtlStringCchCatEx, ntstrsafe/RtlStringCchCatExA, ntstrsafe/RtlStringCchCatExW, safestrings_8766da59-e5d5-4fc8-af93-73b90c4449ab.xml
 req.header: ntstrsafe.h
@@ -112,7 +112,7 @@ One or more flags and, optionally, a fill byte. The flags are defined as follows
     <td>
       <p>If set and the function returns STATUS_BUFFER_OVERFLOW:</p>
       <ul>
-        <li>If STRSAFE_FILL_ON_FAILURE is also specified, STRSAFE_NO_TRUNCATION fills the destination buffer
+        <li>If <b>STRSAFE_FILL_ON_FAILURE</b> is also specified, <b>STRSAFE_NO_TRUNCATION</b> fills the destination buffer
           accordingly.</li>
         <li>Otherwise, the destination buffer will be unmodified.</li>
       </ul>
@@ -139,7 +139,7 @@ The function returns one of the NTSTATUS values that are listed in the following
     <td><b>STATUS_BUFFER_OVERFLOW</b></td>
     <td>
       This <i>warning</i> status means the operation did not complete due to insufficient space in the destination
-      buffer. If STRSAFE_NO_TRUNCATION is set, see the <i>dwFlags</i> parameter for more information.</td>
+      buffer. If <b>STRSAFE_NO_TRUNCATION</b> is set, see the <i>dwFlags</i> parameter for more information.</td>
   </tr>
   <tr>
     <td><b>STATUS_INVALID_PARAMETER</b></td>

@@ -4,7 +4,7 @@ title: RtlUnicodeStringCbCopyNEx function (ntstrsafe.h)
 description: The RtlUnicodeStringCbCopyNEx function copies a string from one UNICODE_STRING structure to another while limiting the size of the copied string.
 old-location: kernel\rtlunicodestringcbcopynex.htm
 tech.root: kernel
-ms.date: 08/25/2022
+ms.date: 08/26/2022
 keywords: ["RtlUnicodeStringCbCopyNEx function"]
 ms.keywords: RtlUnicodeStringCbCopyNEx, RtlUnicodeStringCbCopyNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcopynex, ntstrsafe/RtlUnicodeStringCbCopyNEx, safestrings_d890ac48-9708-4149-a023-cc5198393084.xml
 req.header: ntstrsafe.h
@@ -135,7 +135,7 @@ One or more flags and, optionally, a fill byte. The flags are defined as follows
     <td><b>STATUS_BUFFER_OVERFLOW</b></td>
     <td>
       This <i>warning</i> status means that the copy operation did not complete because of insufficient space in the
-      destination buffer. If STRSAFE_NO_TRUNCATION is set in <i>dwFlags</i>, the destination buffer is not modified. If
+      destination buffer. If <b>STRSAFE_NO_TRUNCATION</b> is set in <i>dwFlags</i>, the destination buffer is not modified. If
       the flag is not set, the destination buffer contains a truncated version of the copied string.
     </td>
   </tr>

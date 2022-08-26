@@ -4,7 +4,7 @@ title: RtlStringCchCopyNExW function (ntstrsafe.h)
 description: Learn how the RtlStringCchCopyNExW and RtlStringCchCopyNExA functions copy a character-counted string to a buffer while limiting the size of the copied string.
 old-location: kernel\rtlstringcchcopynex.htm
 tech.root: kernel
-ms.date: 08/25/2022
+ms.date: 08/26/2022
 keywords: ["RtlStringCchCopyNExW function"]
 ms.keywords: RtlStringCchCopyNEx, RtlStringCchCopyNExA, RtlStringCchCopyNExW, RtlStringCchCopyNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcopynex, ntstrsafe/RtlStringCchCopyNExA, ntstrsafe/RtlStringCchCopyNExW, safestrings_60ae1ee7-e0ba-407d-8946-a2928d2b9b32.xml
 req.header: ntstrsafe.h
@@ -145,7 +145,7 @@ The function returns one of the NTSTATUS values that are listed in the following
     <td><b>STATUS_BUFFER_OVERFLOW</b></td>
     <td>
       This <i>warning</i> status means the copy operation did not complete due to insufficient space in the destination
-      buffer. If STRSAFE_NO_TRUNCATION is set in <i>dwFlags</i>, see the <i>dwFlags</i> parameter for more information.
+      buffer. If <b>STRSAFE_NO_TRUNCATION</b> is set in <i>dwFlags</i>, see the <i>dwFlags</i> parameter for more information.
     </td>
   </tr>
   <tr>

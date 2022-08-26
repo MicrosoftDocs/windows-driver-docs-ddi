@@ -4,7 +4,7 @@ title: RtlUnicodeStringCatEx function (ntstrsafe.h)
 description: The RtlUnicodeStringCatEx function concatenates two strings that are contained in UNICODE_STRING structures.
 old-location: kernel\rtlunicodestringcatex.htm
 tech.root: kernel
-ms.date: 08/25/2022
+ms.date: 08/26/2022
 keywords: ["RtlUnicodeStringCatEx function"]
 ms.keywords: RtlUnicodeStringCatEx, RtlUnicodeStringCatEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcatex, ntstrsafe/RtlUnicodeStringCatEx, safestrings_6b13f3af-ca18-4b2a-b5f0-04f0f2330701.xml
 req.header: ntstrsafe.h
@@ -104,7 +104,7 @@ One or more flags and, optionally, a fill byte. The flags are defined as follows
     <td>
       <p>If set and the function returns STATUS_BUFFER_OVERFLOW:</p>
       <ul>
-        <li>If STRSAFE_FILL_ON_FAILURE is also specified, STRSAFE_NO_TRUNCATION fills the destination buffer
+        <li>If <b>STRSAFE_FILL_ON_FAILURE</b> is also specified, <b>STRSAFE_NO_TRUNCATION</b> fills the destination buffer
           accordingly.</li>
         <li>Otherwise, the destination buffer will be unmodified.</li>
       </ul>

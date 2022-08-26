@@ -4,7 +4,7 @@ title: RtlStringCbCatExA function (ntstrsafe.h)
 description: The RtlStringCbCatExW and RtlStringCbCatExA functions concatenate two byte-counted strings.
 old-location: kernel\rtlstringcbcatex.htm
 tech.root: kernel
-ms.date: 08/25/2022
+ms.date: 08/26/2022
 keywords: ["RtlStringCbCatExA function"]
 ms.keywords: RtlStringCbCatEx, RtlStringCbCatExA, RtlStringCbCatExW, RtlStringCbCatExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcatex, ntstrsafe/RtlStringCbCatExA, ntstrsafe/RtlStringCbCatExW, safestrings_fd0da08e-4624-41e0-be56-e9018e615725.xml
 req.header: ntstrsafe.h
@@ -116,7 +116,7 @@ One or more flags and, optionally, a fill byte. The flags are defined as follows
     <td>
       <p>If set and the function returns STATUS_BUFFER_OVERFLOW:</p>
       <ul>
-        <li>If STRSAFE_FILL_ON_FAILURE is also specified, STRSAFE_NO_TRUNCATION fills the destination buffer
+        <li>If <b>STRSAFE_FILL_ON_FAILURE</b> is also specified, <b>STRSAFE_NO_TRUNCATION</b> fills the destination buffer
           accordingly.</li>
         <li>Otherwise, the destination buffer will be unmodified.</li>
       </ul>
@@ -144,7 +144,7 @@ The function returns one of the NTSTATUS values that are listed in the following
     <td><b>STATUS_BUFFER_OVERFLOW</b></td>
     <td>
       This <i>warning</i> status means the copy operation did not complete due to insufficient space in the destination
-      buffer. If STRSAFE_NO_TRUNCATION is set, see the <i>dwFlags</i> parameter for more information.
+      buffer. If <b>STRSAFE_NO_TRUNCATION</b> is set, see the <i>dwFlags</i> parameter for more information.
     </td>
   </tr>
   <tr>

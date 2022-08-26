@@ -4,7 +4,7 @@ title: RtlStringCchCopyExW function (ntstrsafe.h)
 description: Learn how the RtlStringCchCopyExW and RtlStringCchCopyExA functions copy a character-counted string into a buffer.
 old-location: kernel\rtlstringcchcopyex.htm
 tech.root: kernel
-ms.date: 08/24/2022
+ms.date: 08/26/2022
 keywords: ["RtlStringCchCopyExW function"]
 ms.keywords: RtlStringCchCopyEx, RtlStringCchCopyExA, RtlStringCchCopyExW, RtlStringCchCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcopyex, ntstrsafe/RtlStringCchCopyExA, ntstrsafe/RtlStringCchCopyExW, safestrings_d4303dc8-8b38-4159-a001-04421ccd2548.xml
 req.header: ntstrsafe.h
@@ -134,7 +134,7 @@ The function returns one of the NTSTATUS values that are listed in the following
   <tr>
     <td><b>STATUS_BUFFER_OVERFLOW</b></td>
     <td>
-      This <i>warning</i> status means the copy operation did not complete due to insufficient space in the destination buffer. If STRSAFE_NO_TRUNCATION is set in <i>dwFlags</i>, the destination buffer is not modified. If the flag is not set, the destination buffer contains a truncated version of the created string.
+      This <i>warning</i> status means the copy operation did not complete due to insufficient space in the destination buffer. If <b>STRSAFE_NO_TRUNCATION</b> is set in <i>dwFlags</i>, the destination buffer is not modified. If the flag is not set, the destination buffer contains a truncated version of the created string.
     </td>
   </tr>
   <tr>
