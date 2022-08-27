@@ -4,7 +4,7 @@ title: RT_PARAMETER_DATA (minitape.h)
 description: The RT_PARAMETER_DATA structure (minitape.h) contains the parameter data for the report timestamp command.
 old-location: storage\rt_parameter_data.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 08/26/2022
 keywords: ["RT_PARAMETER_DATA structure"]
 ms.keywords: "*PRT_PARAMETER_DATA, PRT_PARAMETER_DATA, PRT_PARAMETER_DATA structure pointer [Storage Devices], RT_PARAMETER_DATA, RT_PARAMETER_DATA structure [Storage Devices], scsi/PRT_PARAMETER_DATA, scsi/RT_PARAMETER_DATA, storage.rt_parameter_data"
 req.header: minitape.h
