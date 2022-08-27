@@ -1,16 +1,16 @@
 ---
 UID: NS:ehstorioctl._LBA_FILTER_TABLE
 title: LBA_FILTER_TABLE (ehstorioctl.h)
-description: The LBA_FILTER_TABLE structure contains the LBA ranges whose access is controlled by a silo driver.
+description: Learn more about the LBA_FILTER_TABLE structure.
 old-location: storage\lba_filter_table.htm
 tech.root: storage
-ms.date: 05/20/2022
+ms.date: 08/26/2022
 keywords: ["LBA_FILTER_TABLE structure"]
 ms.keywords: "*PLBA_FILTER_TABLE, LBA_FILTER_TABLE, LBA_FILTER_TABLE structure [Storage Devices], PLBA_FILTER_TABLE, PLBA_FILTER_TABLE structure pointer [Storage Devices], _LBA_FILTER_TABLE, ehstorioctl/LBA_FILTER_TABLE, ehstorioctl/PLBA_FILTER_TABLE, storage.lba_filter_table"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 8
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -82,7 +82,7 @@ The number of filter entries in the filter table.
 
 The size in bytes of a filter table entry. This must be set to **sizeof**(LBA_FILTER_TABLE_ENTRY).
 
-### -field LbaFilterOffset
+### -field LbaFiltersOffset
 
 The offset of the LBA filter table from the beginning of this structure. This will typically be ```sizeof(LBA_FILTER_TABLE)```.
 
