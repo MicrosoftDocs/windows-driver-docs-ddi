@@ -3,7 +3,7 @@ UID: NF:miniport.FIELD_OFFSET
 title: FIELD_OFFSET macro (miniport.h)
 description: The FIELD_OFFSET macro (miniport.h) returns the byte offset of the specified field in the specified known structure type.
 tech.root: kernel
-ms.date: 08/15/2022
+ms.date: 08/29/2022
 keywords: ["FIELD_OFFSET macro"]
 ms.keywords: FIELD_OFFSET, FIELD_OFFSET function [Kernel-Mode Driver Architecture], k106_d6f0b450-e99c-4dd7-94c5-f428e4b1d642.xml, kernel.field_offset, ntdef/FIELD_OFFSET
 req.header: miniport.h
@@ -60,5 +60,3 @@ Returns the byte offset of the caller supplied **Field** in the **Type** structu
 Used by device driver writers to symbolically determine the offset of a known field in a known structure type.
 
 ## -see-also
-
-[**CONTAINING_RECORD**](/windows/win32/api/ntdef/nf-ntdef-containing_record)
