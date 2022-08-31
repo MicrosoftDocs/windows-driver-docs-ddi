@@ -53,7 +53,7 @@ A pointer to the thread being examined.
 
 ## -returns
 
-Returns TRUE if the thread is a silo, FALSE otherwise.
+Returns a pointer to the server silo for the thread or NULL.
 
 ## -remarks
 
