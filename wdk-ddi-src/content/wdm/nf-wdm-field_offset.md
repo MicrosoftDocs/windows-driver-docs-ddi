@@ -58,3 +58,5 @@ Specifies the name of a field in a structure of type *Type*.
 Used by device driver writers to symbolically determine the offset of a known field in a known structure type.
 
 ## -see-also
+
+[**CONTAINING_RECORD**](/windows/win32/api/ntdef/nf-ntdef-containing_record)

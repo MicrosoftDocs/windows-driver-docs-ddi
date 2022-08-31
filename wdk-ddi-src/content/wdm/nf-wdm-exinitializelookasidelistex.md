@@ -188,7 +188,7 @@ PVOID
 }
 ```
 
-The **CONTAINING_RECORD** macro is defined in the Ntdef.h header file. The *LookAsideListFreeEx* routine can similarly use its *Lookaside* parameter to access private data.
+The [**CONTAINING_RECORD**](/windows/win32/api/ntdef/nf-ntdef-containing_record) macro is defined in the Ntdef.h header file. The *LookAsideListFreeEx* routine can similarly use its *Lookaside* parameter to access private data.
 
 After the **MyLookasideListAllocateEx** routine in this example returns, **ExAllocateFromLookasideListEx** inserts the buffer pointed to by the **NewEntry** variable into the lookaside list. To make this insertion operation thread-safe, **ExAllocateFromLookasideListEx** synchronizes its access of the lookaside list with other list insertion and removal operations that might be performed by other threads. Similarly, when **ExFreeFromLookasideListEx** removes a buffer from the lookaside list, it synchronizes its access to the list.
 
