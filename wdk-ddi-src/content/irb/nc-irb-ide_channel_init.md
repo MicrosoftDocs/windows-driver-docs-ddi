@@ -4,7 +4,7 @@ title: IDE_CHANNEL_INIT (irb.h)
 description: The AtaChannelInitRoutine miniport driver routine initializes the miniport driver's channel interface.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\atachannelinitroutine.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 08/26/2022
 keywords: ["IDE_CHANNEL_INIT callback function"]
 ms.keywords: AtaChannelInitRoutine, AtaChannelInitRoutine routine [Storage Devices], IDE_CHANNEL_INIT, atartns_7bbe3bef-24c7-4666-9b83-a29646d92f71.xml, irb/AtaChannelInitRoutine, storage.atachannelinitroutine
 req.header: irb.h
@@ -42,62 +42,45 @@ api_name:
 
 # IDE_CHANNEL_INIT callback function
 
-
 ## -description
 
-The <b><i>AtaChannelInitRoutine</i></b> miniport driver routine initializes the miniport driver's channel interface.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+The **AtaChannelInitRoutine** miniport driver routine initializes the miniport driver's channel interface.
+
+> [!NOTE]
+> The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 
 ## -parameters
 
-### -param ChannelExtension [in]
+### -param ChannelExtension
 
+[in] A pointer to the miniport driver channel extension.
 
-A pointer to the miniport driver channel extension.
+### -param ChannelInterface
 
-### -param ChannelInterface [in, out]
-
-
-A pointer to a structure of type <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_channel_interface">IDE_CHANNEL_INTERFACE</a>.
+[in, out] Pointer to an [**IDE_CHANNEL_INTERFACE**](ns-irb-_ide_channel_interface.md) structure containing interface information for the indicated channel.
 
 ### -param InitContext
 
-### -param Context [in, out]
-
-A pointer to the controller extension.
+[in, out] A pointer to the controller extension.
 
 ## -returns
 
-<b><i>AtaChannelInitRoutine</i></b> returns <b>TRUE</b> if the initialization succeeded. It returns <b>FALSE</b> if the initialization failed.
+**AtaChannelInitRoutine** returns TRUE if the initialization succeeded. It returns FALSE if the initialization failed.
 
 ## -remarks
 
-A vendor-supplied miniport driver that supports the channel interface must implement an <b><i>AtaChannelInitRoutine</i></b> routine to initialize the controller's channels. In particular, the <b><i>AtaChannelInitRoutine</i></b> routine must complete the initialization of the <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_channel_interface">IDE_CHANNEL_INTERFACE</a> structure. The following sequence describes how the miniport driver and the port driver interact to initialize a channel: 
+A vendor-supplied miniport driver that supports the channel interface must implement an **AtaChannelInitRoutine** routine to initialize the controller's channels. In particular, the **AtaChannelInitRoutine** routine must complete the initialization of the [**IDE_CHANNEL_INTERFACE**](ns-irb-_ide_channel_interface.md) structure. The following sequence describes how the miniport driver and the port driver interact to initialize a channel:
 
-<ol>
-<li>
-While in its <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine, the miniport driver calls the port driver's <a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a> library routine to launch the initialization of the controller and the miniport driver. 
+1. While in its [**DriverEntry**](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine, the miniport driver calls the port driver's [**AtaPortInitializeEx**](nf-irb-ataportinitializeex.md) library routine to launch the initialization of the controller and the miniport driver.
 
-</li>
-<li>
-If the miniport driver supports the channel interface, the <b><i>DriverEntry</i></b> routine must initialize the <b>AtaChannelInitRoutine</b> member of <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_controller_interface">IDE_CONTROLLER_INTERFACE</a> to point to the miniport driver's <b><i>AtaChannelInitRoutine</i></b> routine.
+2. If the miniport driver supports the channel interface, the **DriverEntry** routine must initialize the **AtaChannelInitRoutine** member of [**IDE_CONTROLLER_INTERFACE**](ns-irb-_ide_controller_interface.md) to point to the miniport driver's **AtaChannelInitRoutine** routine.
 
-</li>
-<li>
-The port driver calls the <b><i>AtaAdapterControl</i></b> routine by using control action IdeStart. <b><i>AtaChannelInitRoutine</i></b> is called one time for every NumberOfChannels specified in the ControllerConfiguration structure that is returned by the <b><i>AtaAdapterControl</i></b> routine when <b><i>AtaAdapterControl</i></b> handles an <b>IdeStart</b> action.
-
-</li>
-</ol>
+3. The port driver calls the **AtaAdapterControl** routine by using control action IdeStart. **AtaChannelInitRoutine** is called one time for every NumberOfChannels specified in the ControllerConfiguration structure that is returned by the **AtaAdapterControl** routine when **AtaAdapterControl** handles an **IdeStart** action.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a>
+[**AtaPortInitializeEx**](nf-irb-ataportinitializeex.md)
 
+[**IDE_CHANNEL_INTERFACE**](ns-irb-_ide_channel_interface.md)
 
-
-<a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_channel_interface">IDE_CHANNEL_INTERFACE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_controller_interface">IDE_CONTROLLER_INTERFACE</a>
-
+[**IDE_CONTROLLER_INTERFACE**](ns-irb-_ide_controller_interface.md)

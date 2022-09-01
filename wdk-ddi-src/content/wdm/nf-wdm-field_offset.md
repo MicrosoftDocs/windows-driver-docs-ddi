@@ -2,9 +2,8 @@
 UID: NF:wdm.FIELD_OFFSET
 title: FIELD_OFFSET macro (wdm.h)
 description: The FIELD_OFFSET macro (wdm.h) returns the byte offset of the specified field in the specified known structure type.
-old-location: kernel\field_offset.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 08/29/2022
 keywords: ["FIELD_OFFSET macro"]
 ms.keywords: FIELD_OFFSET, FIELD_OFFSET function [Kernel-Mode Driver Architecture], k106_d6f0b450-e99c-4dd7-94c5-f428e4b1d642.xml, kernel.field_offset, ntdef/FIELD_OFFSET
 req.header: wdm.h
@@ -40,25 +39,19 @@ api_name:
  - FIELD_OFFSET
 ---
 
-# FIELD_OFFSET macro (wdm.h)
-
-
 ## -description
 
-The <b>FIELD_OFFSET</b> macro returns the byte offset of a named field in a known structure type.
+The **FIELD_OFFSET** macro returns the byte offset of a named field in a known structure type.
 
 ## -parameters
 
 ### -param type [in]
 
-
-
-Specifies the name of a known structure type containing <i>Field</i>.
+Specifies the name of a known structure type containing *Field*.
 
 ### -param field [in]
 
-
-Specifies the name of a field in a structure of type <i>Type</i>.
+Specifies the name of a field in a structure of type *Type*.
 
 ## -remarks
 

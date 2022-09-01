@@ -1,10 +1,10 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_REMOVABLE_MEDIUM
-title: _FEATURE_DATA_REMOVABLE_MEDIUM (ntddmmc.h)
+title: FEATURE_DATA_REMOVABLE_MEDIUM (ntddmmc.h)
 description: The FEATURE_DATA_REMOVABLE_MEDIUM structure contains data for the removable medium feature.
 old-location: storage\feature_data_removable_medium.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 08/26/2022
 keywords: ["FEATURE_DATA_REMOVABLE_MEDIUM structure"]
 ms.keywords: "*PFEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM structure [Storage Devices], PFEATURE_DATA_REMOVABLE_MEDIUM, PFEATURE_DATA_REMOVABLE_MEDIUM structure pointer [Storage Devices], _FEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/FEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/PFEATURE_DATA_REMOVABLE_MEDIUM, storage.feature_data_removable_medium, structs-CD-ROM_f9ce701e-11b7-478e-969e-c2744477d348.xml"
 req.header: ntddmmc.h
@@ -46,18 +46,17 @@ api_name:
  - FEATURE_DATA_REMOVABLE_MEDIUM
 ---
 
-# _FEATURE_DATA_REMOVABLE_MEDIUM structure
-
+# FEATURE_DATA_REMOVABLE_MEDIUM structure
 
 ## -description
 
-The FEATURE_DATA_REMOVABLE_MEDIUM structure contains data for the removable medium feature.
+The **FEATURE_DATA_REMOVABLE_MEDIUM** structure contains data for the removable medium feature.
 
 ## -struct-fields
 
 ### -field Header
 
-Contains a <a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure with header information for this feature descriptor.
+Contains a [**FEATURE_HEADER**](ns-ntddmmc-_feature_header.md) structure with header information for this feature descriptor.
 
 ### -field Lockable
 
@@ -77,31 +76,18 @@ Indicates, when set to 1, that the device can eject the medium or magazine. When
 
 ### -field LoadingMechanism
 
-Indicates the type of loading mechanism. See the <i>SCSI Multimedia - 4 (MMC-4)</i> specification for the list of values that this member can take.
+Indicates the type of loading mechanism. See the *SCSI Multimedia - 4 (MMC-4)* specification for the list of values that this member can take.
 
-### -field Reserved3
-
-Reserved. 
-
-
-### -field Reserved1
-
-Reserved. 
-
-
-### -field Reserved2
+### -field Reserved3[3]
 
 Reserved.
 
 ## -remarks
 
-This structure holds data for the feature named "Removable Medium" by the <i>MMC-3 </i>specification. Devices that support this feature allow the medium to be removed from the device. They also can communicate to the initiator that the user wants to eject the medium or has inserted a new medium.
+This structure holds data for the feature named "Removable Medium" by the *MMC-3* specification. Devices that support this feature allow the medium to be removed from the device. They also can communicate to the initiator that the user wants to eject the medium or has inserted a new medium.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
+[**FEATURE_HEADER**](ns-ntddmmc-_feature_header.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
-
+[**FEATURE_NUMBER**](ne-ntddmmc-_feature_number.md)

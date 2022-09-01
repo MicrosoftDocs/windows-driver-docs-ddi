@@ -1,16 +1,16 @@
 ---
 UID: NS:srb._STORAGE_REQUEST_BLOCK
 title: STORAGE_REQUEST_BLOCK (srb.h)
-description: The _STORAGE_REQUEST_BLOCK structure (srb.h) describes the extended format of a SCSI Request Block (SRB).
+description: Learn more about the STORAGE_REQUEST_BLOCK structure (srb.h).
 old-location: storage\storage_request_block.htm
 tech.root: storage
-ms.date: 08/17/2022
+ms.date: 08/31/2022
 keywords: ["STORAGE_REQUEST_BLOCK structure"]
 ms.keywords: PSTORAGE_REQUEST_BLOCK, PSTORAGE_REQUEST_BLOCK structure pointer [Storage Devices], SRB_FLAGS_ADAPTER_CACHE_ENABLE, SRB_FLAGS_ALLOCATED_FROM_ZONE, SRB_FLAGS_BYPASS_FROZEN_QUEUE, SRB_FLAGS_BYPASS_LOCKED_QUEUE, SRB_FLAGS_D3_PROCESSING, SRB_FLAGS_DATA_IN, SRB_FLAGS_DATA_OUT, SRB_FLAGS_DISABLE_AUTOSENSE, SRB_FLAGS_DISABLE_DISCONNECT, SRB_FLAGS_DISABLE_SYNCH_TRANSFER, SRB_FLAGS_FREE_SENSE_BUFFER, SRB_FLAGS_IS_ACTIVE, SRB_FLAGS_NO_DATA_TRANSFER, SRB_FLAGS_NO_KEEP_AWAKE, SRB_FLAGS_NO_QUEUE_FREEZE, SRB_FLAGS_QUEUE_ACTION_ENABLE, SRB_FLAGS_SGLIST_FROM_POOL, SRB_FLAGS_UNSPECIFIED_DIRECTION, SRB_FUNCTION_ABORT_COMMAND, SRB_FUNCTION_CRYPTO_OPERATION, SRB_FUNCTION_DUMP_POINTERS, SRB_FUNCTION_EXECUTE_SCSI, SRB_FUNCTION_FLUSH, SRB_FUNCTION_FREE_DUMP_POINTERS, SRB_FUNCTION_IO_CONTROL, SRB_FUNCTION_LOCK_QUEUE, SRB_FUNCTION_PNP, SRB_FUNCTION_POWER, SRB_FUNCTION_QUIESCE_DEVICE, SRB_FUNCTION_RECEIVE_EVENT, SRB_FUNCTION_RELEASE_RECOVERY, SRB_FUNCTION_RESET_BUS, SRB_FUNCTION_RESET_DEVICE, SRB_FUNCTION_RESET_LOGICAL_UNIT, SRB_FUNCTION_SHUTDOWN, SRB_FUNCTION_TERMINATE_IO, SRB_FUNCTION_UNLOCK_QUEUE, SRB_FUNCTION_WMI, SRB_STATUS_ABORTED, SRB_STATUS_ABORT_FAILED, SRB_STATUS_AUTOSENSE_VALID, SRB_STATUS_BAD_FUNCTION, SRB_STATUS_BAD_SRB_BLOCK_LENGTH, SRB_STATUS_BUSY, SRB_STATUS_BUS_RESET, SRB_STATUS_COMMAND_TIMEOUT, SRB_STATUS_DATA_OVERRUN, SRB_STATUS_ERROR, SRB_STATUS_ERROR_RECOVERY, SRB_STATUS_INTERNAL_ERROR, SRB_STATUS_INVALID_LUN, SRB_STATUS_INVALID_PATH_ID, SRB_STATUS_INVALID_REQUEST, SRB_STATUS_INVALID_TARGET_ID, SRB_STATUS_LINK_DOWN, SRB_STATUS_MESSAGE_REJECTED, SRB_STATUS_NOT_POWERED, SRB_STATUS_NO_DEVICE, SRB_STATUS_NO_HBA, SRB_STATUS_PARITY_ERROR, SRB_STATUS_PENDING, SRB_STATUS_PHASE_SEQUENCE_FAILURE, SRB_STATUS_QUEUE_FROZEN, SRB_STATUS_REQUEST_FLUSHED, SRB_STATUS_REQUEST_SENSE_FAILED, SRB_STATUS_SELECTION_TIMEOUT, SRB_STATUS_SUCCESS, SRB_STATUS_TIMEOUT, SRB_STATUS_UNEXPECTED_BUS_FREE, STORAGE_REQUEST_BLOCK, STORAGE_REQUEST_BLOCK structure [Storage Devices], _STORAGE_REQUEST_BLOCK, storage.storage_request_block, storport/PSTORAGE_REQUEST_BLOCK, storport/STORAGE_REQUEST_BLOCK
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows 8 and later versions of Windows.
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -71,37 +71,37 @@ Returns the status of the completed request. This member should be set by the mi
 
 | Value | Meaning |
 | ----- | ------- |
-| SRB_STATUS_PENDING | Indicates the request is in progress. The operating system-specific port driver initializes **SrbStatus** to this value. |
-| SRB_STATUS_SUCCESS | Indicates the request was completed successfully. |
-| SRB_STATUS_ABORTED | Indicates the request was aborted as directed by the port driver. A miniport driver sets this status in the **NextSrb** member for a successful SRB_FUNCTION_ABORT_COMMAND request. |
-| SRB_STATUS_ABORT_FAILED | Indicates an attempt to abort the request failed. Return this status for an SRB_FUNCTION_ABORT_COMMAND request when the specified request cannot be located. |
-| SRB_STATUS_ERROR | Indicates the request was completed with an error in the SCSI bus status. |
-| SRB_STATUS_BUSY | Indicates the miniport driver or target device could not accept the request at this time. The operating system-specific port driver will resubmit the request later. |
-| SRB_STATUS_INTERNAL_ERROR | Indicates that the Storport driver could not deliver the request to the miniport driver or target device. In such cases, status is recorded in **InternalStatus**. |
-| SRB_STATUS_INVALID_REQUEST | Indicates the miniport driver does not support the given request. |
-| SRB_STATUS_NO_DEVICE | Indicates the device did not respond. |
-| SRB_STATUS_TIMEOUT | Indicates the request timed out. |
-| SRB_STATUS_SELECTION_TIMEOUT | Indicates the SCSI device selection timed out. |
-| SRB_STATUS_COMMAND_TIMEOUT | Indicates the target did not complete the command within the time limit. |
-| SRB_STATUS_MESSAGE_REJECTED | Indicates the target rejected a message. This is normally returned only for such message-type requests as SRB_FUNCTION_TERMINATE_IO. |
-| SRB_STATUS_BUS_RESET | Indicates a bus reset occurred while this request was being executed. |
-| SRB_STATUS_PARITY_ERROR | Indicates a parity error occurred on the SCSI bus and that a retry failed. |
-| SRB_STATUS_REQUEST_SENSE_FAILED | Indicates the request-sense command failed. This is returned only if the host bus adapter (HBA) performs auto request sense and the miniport driver set **AutoRequestSense** to TRUE in the [**PORT_CONFIGURATION_INFORMATION**](ns-srb-_port_configuration_information.md) for this HBA. |
-| SRB_STATUS_NO_HBA | Indicates the HBA does not respond. |
-| SRB_STATUS_DATA_OVERRUN | Indicates that a data overrun or underrun error occurred. The miniport driver also must update the SRB's **DataTransferLength** member to indicate how much data actually was transferred if an underrun occurs. |
-| SRB_STATUS_UNEXPECTED_BUS_FREE | Indicates the target disconnected unexpectedly. |
-| SRB_STATUS_PHASE_SEQUENCE_FAILURE | Indicates the HBA detected an illegal phase sequence failure error. |
-| SRB_STATUS_REQUEST_FLUSHED | Indicates the request for status was stopped. |
-| SRB_STATUS_BAD_FUNCTION | Indicates the SRB **Function** code is not supported.|
-| SRB_STATUS_INVALID_PATH_ID | Indicates the **PathId** specified in the SRB does not exist. |
-| SRB_STATUS_INVALID_TARGET_ID | Indicates the **TargetID** value in the SRB is invalid. |
-| SRB_STATUS_INVALID_LUN | Indicates the **Lun** value in the SRB is invalid. |
-| SRB_STATUS_ERROR_RECOVERY | Indicates the request was completed with an error in the SCSI bus status and that the SCSI INITIATE RECOVERY message was received. |
-| SRB_STATUS_AUTOSENSE_VALID | Indicates information returned in the **SenseInfoBuffer** is valid. |
-| SRB_STATUS_QUEUE_FROZEN | A miniport driver should never set the **SrbStatus** member to this value. The Windows  port driver can set this value to inform a storage class driver that its queue of requests for a particular peripheral has been frozen. |
-| SRB_STATUS_NOT_POWERED | A indicates the request failed because the target is not powered. For requests with SRB_FLAGS_NO_KEEP_AWAKE set in **SrbFlags**, requests sent to LUNs that are powered down will fail with this status. |
-| SRB_STATUS_LINK_DOWN | Indicates the request failed because link is down. |
-| SRB_STATUS_BAD_SRB_BLOCK_LENGTH | Indicates the request failed because SRB length was invalid. |
+| SRB_STATUS_PENDING                 (0x00) | Indicates the request is in progress. The operating system-specific port driver initializes **SrbStatus** to this value. |
+| SRB_STATUS_SUCCESS                 (0x01) | Indicates the request was completed successfully. |
+| SRB_STATUS_ABORTED                 (0x02) | Indicates the request was aborted as directed by the port driver. A miniport driver sets this status in the **NextSrb** member for a successful SRB_FUNCTION_ABORT_COMMAND request. |
+| SRB_STATUS_ABORT_FAILED            (0x03) | Indicates an attempt to abort the request failed. Return this status for an SRB_FUNCTION_ABORT_COMMAND request when the specified request cannot be located. |
+| SRB_STATUS_ERROR                   (0x04) | Indicates the request was completed with an error in the SCSI bus status. |
+| SRB_STATUS_BUSY                    (0x05) | Indicates the miniport driver or target device could not accept the request at this time. The operating system-specific port driver will resubmit the request later. |
+| SRB_STATUS_INVALID_REQUEST         (0x06) | Indicates the miniport driver does not support the given request. |
+| SRB_STATUS_INVALID_PATH_ID         (0x07) | Indicates the **PathId** specified in the SRB does not exist. |
+| SRB_STATUS_NO_DEVICE               (0x08) | Indicates the device did not respond. |
+| SRB_STATUS_TIMEOUT                 (0x09) | Indicates the request timed out. |
+| SRB_STATUS_SELECTION_TIMEOUT       (0x0A) | Indicates the SCSI device selection timed out. |
+| SRB_STATUS_COMMAND_TIMEOUT         (0x0B) | Indicates the target did not complete the command within the time limit. |
+| SRB_STATUS_MESSAGE_REJECTED        (0x0D) | Indicates the target rejected a message. This is normally returned only for such message-type requests as SRB_FUNCTION_TERMINATE_IO. |
+| SRB_STATUS_BUS_RESET               (0x0E) | Indicates a bus reset occurred while this request was being executed. |
+| SRB_STATUS_PARITY_ERROR            (0x0F) | Indicates a parity error occurred on the SCSI bus and that a retry failed. |
+| SRB_STATUS_REQUEST_SENSE_FAILED    (0x10) | Indicates the request-sense command failed. This is returned only if the host bus adapter (HBA) performs auto request sense and the miniport driver set **AutoRequestSense** to TRUE in the [**PORT_CONFIGURATION_INFORMATION**](ns-srb-_port_configuration_information.md) for this HBA. |
+| SRB_STATUS_NO_HBA                 (0x11) | Indicates the HBA does not respond. |
+| SRB_STATUS_DATA_OVERRUN           (0x12) | Indicates that a data overrun or underrun error occurred. The miniport driver also must update the SRB's **DataTransferLength** member to indicate how much data actually was transferred if an underrun occurs. |
+| SRB_STATUS_UNEXPECTED_BUS_FREE    (0x13) | Indicates the target disconnected unexpectedly. |
+| SRB_STATUS_PHASE_SEQUENCE_FAILURE (0x14) | Indicates the HBA detected an illegal phase sequence failure error. |
+| SRB_STATUS_BAD_SRB_BLOCK_LENGTH   (0x15) | Indicates the request failed because SRB length was invalid. |
+| SRB_STATUS_REQUEST_FLUSHED        (0x16) | Indicates the request for status was stopped. |
+| SRB_STATUS_INVALID_LUN            (0x20) | Indicates the **Lun** value in the SRB is invalid. |
+| SRB_STATUS_INVALID_TARGET_ID      (0x21) | Indicates the **TargetID** value in the SRB is invalid. |
+| SRB_STATUS_BAD_FUNCTION           (0x22) | Indicates the SRB **Function** code is not supported.|
+| SRB_STATUS_ERROR_RECOVERY         (0x23) | Indicates the request was completed with an error in the SCSI bus status and that the SCSI INITIATE RECOVERY message was received. |
+| SRB_STATUS_NOT_POWERED            (0x24) | A indicates the request failed because the target is not powered. For requests with SRB_FLAGS_NO_KEEP_AWAKE set in **SrbFlags**, requests sent to LUNs that are powered down will fail with this status. |
+| SRB_STATUS_LINK_DOWN             (0x25) | Indicates the request failed because link is down. |
+| SRB_STATUS_INTERNAL_ERROR        (0x30) | Indicates that the Storport driver could not deliver the request to the miniport driver or target device. In such cases, status is recorded in **InternalStatus**. |
+| SRB_STATUS_QUEUE_FROZEN          (0x40) | A miniport driver should never set the **SrbStatus** member to this value. The Windows  port driver can set this value to inform a storage class driver that its queue of requests for a particular peripheral has been frozen. |
+| SRB_STATUS_AUTOSENSE_VALID       (0x80) | Indicates information returned in the **SenseInfoBuffer** is valid. |
 
 ### -field ReservedUlong1
 
@@ -151,24 +151,30 @@ Indicates various parameters and options for the request. **SrbFlags** is read-o
 
 | Flag | Meaning |
 | ---- | ------- |
-| SRB_FLAGS_QUEUE_ACTION_ENABLE | Indicates tagged-queue actions are to be enabled.|
-| SRB_FLAGS_DISABLE_AUTOSENSE | Indicates request-sense information should not be returned. |
-| SRB_FLAGS_DATA_IN | Indicates data will be transferred from the device to the system. |
-| SRB_FLAGS_DATA_OUT |Indicates data will be transferred from the system to the device. |
-| SRB_FLAGS_UNSPECIFIED_DIRECTION | Defined for backward compatibility with the ASPI/CAM SCSI interfaces, this flag indicates that the transfer direction could be either of the preceding, because both of the preceding flags are set. If this flag is set, a miniport driver should determine the transfer direction by examining the data phase for the target on the SCSI bus. |
-| SRB_FLAGS_NO_DATA_TRANSFER | Indicates no data transfer with this request. If this is set, the flags **SRB_FLAGS_DATA_OUT**, **SRB_FLAGS_DATA_IN**, and **SRB_FLAGS_UNSPECIFIED_DIRECTION** are clear. |
-| SRB_FLAGS_DISABLE_SYNCH_TRANSFER | Indicates the HBA, if possible, should perform asynchronous I/O for this transfer request. If synchronous I/O was negotiated previously, the HBA must renegotiate for asynchronous I/O before performing the transfer. |
-| SRB_FLAGS_DISABLE_DISCONNECT | Indicates the HBA should not allow the target to disconnect from the SCSI bus during processing of this request. |
-| SRB_FLAGS_BYPASS_FROZEN_QUEUE | This flag is irrelevant to miniport drivers. |
-| SRB_FLAGS_NO_QUEUE_FREEZE | This flag is irrelevant to miniport drivers. |
-| SRB_FLAGS_IS_ACTIVE | This flag is irrelevant to miniport drivers. |
-| SRB_FLAGS_ALLOCATED_FROM_ZONE | This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call [**ExInterlockedFreeToZone**](/windows-hardware/drivers/kernel/mmcreatemdl) to release the SRB; otherwise, it must call [**ExFreePool**](../ntddk/nf-ntddk-exfreepool.md). New class drivers should use lookaside lists rather than zone buffers. |
-| SRB_FLAGS_SGLIST_FROM_POOL | This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call [**ExFreePool**](../ntddk/nf-ntddk-exfreepool.md) to release the memory after the SRB is completed. |
-| SRB_FLAGS_BYPASS_LOCKED_QUEUE | This flag is irrelevant to miniport drivers. To the port driver, this flag indicates that the request should be processed whether the logical-unit queue is locked or not. A higher-level driver must set this flag to send an **SRB_FUNCTION_UNLOCK_QUEUE** request. |
-| SRB_FLAGS_NO_KEEP_AWAKE | This flag is irrelevant to miniport drivers. A Windows class driver uses this flag to indicate to the port driver to fail the request rather than powering up the device to handle this request. |
-| SRB_FLAGS_FREE_SENSE_BUFFER | Indicates that either the port or the miniport driver has allocated a buffer for sense data. This informs the class driver that it must free the sense data buffer after extracting the data. |
-| SRB_FLAGS_D3_PROCESSING | Indicates that the request is part of D3 processing. Miniports that support runtime power control should not call **StorPortPoFxActivateComponent** or **StorPortPoFxIdleComponent** with these requests. |
-| SRB_FLAGS_ADAPTER_CACHE_ENABLE | Indicates that the adapter can cache data. |
+| SRB_FLAGS_NO_DATA_TRANSFER       (0x00000000) | Indicates no data transfer with this request. If this is set, the flags **SRB_FLAGS_DATA_OUT**, **SRB_FLAGS_DATA_IN**, and **SRB_FLAGS_UNSPECIFIED_DIRECTION** are clear. |
+| SRB_FLAGS_QUEUE_ACTION_ENABLE    (0x00000002) | Indicates tagged-queue actions are to be enabled. |
+| SRB_FLAGS_DISABLE_DISCONNECT     (0x00000004) | Indicates the HBA should not allow the target to disconnect from the SCSI bus during processing of this request. |
+| SRB_FLAGS_DISABLE_SYNCH_TRANSFER (0x00000008) | Indicates the HBA, if possible, should perform asynchronous I/O for this transfer request. If synchronous I/O was negotiated previously, the HBA must renegotiate for asynchronous I/O before performing the transfer. |
+| SRB_FLAGS_BYPASS_FROZEN_QUEUE    (0x00000010) | This flag is irrelevant to miniport drivers. |
+| SRB_FLAGS_DISABLE_AUTOSENSE      (0x00000020) | Indicates request-sense information should not be returned. |
+| SRB_FLAGS_DATA_IN                (0x00000040) | Indicates data will be transferred from the device to the system. |
+| SRB_FLAGS_DATA_OUT               (0x00000080) |Indicates data will be transferred from the system to the device. |
+| SRB_FLAGS_UNSPECIFIED_DIRECTION  (SRB_FLAGS_DATA_IN \| SRB_FLAGS_DATA_OUT) | Defined for backward compatibility with the ASPI/CAM SCSI interfaces, this flag indicates that the transfer direction could be either of the preceding, because both of the preceding flags are set. If this flag is set, a miniport driver should determine the transfer direction by examining the data phase for the target on the SCSI bus. |
+| SRB_FLAGS_NO_QUEUE_FREEZE        (0x00000100) | This flag is irrelevant to miniport drivers. |
+| SRB_FLAGS_ADAPTER_CACHE_ENABLE   (0x00000200) | Indicates that the adapter can cache data. |
+| SRB_FLAGS_FREE_SENSE_BUFFER      (0x00000400) | Indicates that either the port or the miniport driver has allocated a buffer for sense data. This informs the class driver that it must free the sense data buffer after extracting the data. |
+| SRB_FLAGS_D3_PROCESSING          (0x00000800) | Indicates that the request is part of D3 processing. Miniports that support runtime power control should not call **StorPortPoFxActivateComponent** or **StorPortPoFxIdleComponent** with these requests. |
+| SRB_FLAGS_SEQUENTIAL_REQUIRED    (0x00001000) | Indicates that the LBA range falls into the sequential write required zone. |
+| SRB_FLAGS_IS_ACTIVE              (0x00010000) | This flag is irrelevant to miniport drivers. |
+| SRB_FLAGS_ALLOCATED_FROM_ZONE    (0x00020000) | This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call [**ExInterlockedFreeToZone**](/windows-hardware/drivers/kernel/mmcreatemdl) to release the SRB; otherwise, it must call [**ExFreePool**](../ntddk/nf-ntddk-exfreepool.md). New class drivers should use lookaside lists rather than zone buffers. |
+| SRB_FLAGS_SGLIST_FROM_POOL       (0x00040000) | This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call [**ExFreePool**](../ntddk/nf-ntddk-exfreepool.md) to release the memory after the SRB is completed. |
+| SRB_FLAGS_BYPASS_LOCKED_QUEUE    (0x00080000) | This flag is irrelevant to miniport drivers. To the port driver, this flag indicates that the request should be processed whether the logical-unit queue is locked or not. A higher-level driver must set this flag to send an **SRB_FUNCTION_UNLOCK_QUEUE** request. |
+| SRB_FLAGS_NO_KEEP_AWAKE (0x00100000) | This flag is irrelevant to miniport drivers. A Windows class driver uses this flag to indicate to the port driver to fail the request rather than powering up the device to handle this request. |
+| SRB_FLAGS_PORT_DRIVER_ALLOCSENSE (0x00200000) | The port driver needs to allocate the sense buffer for the SRB. |
+| SRB_FLAGS_PORT_DRIVER_SENSEHASPORT (0x00400000) | Deprecated; do not use. |
+| SRB_FLAGS_DONT_START_NEXT_PACKET (0x00800000) | Deprecated; do not use. |
+| SRB_FLAGS_PORT_DRIVER_RESERVED   (0x0F000000) | Reserved for system use. |
+| SRB_FLAGS_CLASS_DRIVER_RESERVED  (0xF0000000) | Reserved for system use. |
 
 ### -field ReservedUlong2
 

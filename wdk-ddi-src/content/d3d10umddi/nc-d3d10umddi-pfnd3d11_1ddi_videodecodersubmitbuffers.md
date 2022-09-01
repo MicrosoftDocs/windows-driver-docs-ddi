@@ -3,7 +3,7 @@ UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS
 title: PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS (d3d10umddi.h)
 description: "The PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback function submits one or more video frame buffers for DirectX Video Acceleration (DXVA) decoding."
 old-location: display\videodecodersubmitbuffers.htm
-ms.date: 05/10/2018
+ms.date: 08/31/2022
 keywords: ["PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS, PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback, d3d10umddi/pfnVideoDecoderSubmitBuffers, display.videodecodersubmitbuffers, pfnVideoDecoderSubmitBuffers, pfnVideoDecoderSubmitBuffers callback function [Display Devices]
 req.header: d3d10umddi.h
@@ -42,7 +42,6 @@ api_name:
 
 # PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback function
 
-
 ## -description
 
 Submits one or more video frame buffers for DirectX Video Acceleration (DXVA) decoding.
@@ -59,23 +58,23 @@ A handle to the display device (graphics context).
 
 *hDecoder* [in]
 
-A handle to the video decoder object that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder">CreateVideoDecoder</a> function.
+A handle to the video decoder object that was created through a call to the [**CreateVideoDecoder**](nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md) function.
 
 ### -param unnamedParam3
 
-*BufferCount* [in]
+**BufferCount** [in]
 
-The number of buffers in the array that is referenced by the <i>pBufferDesc</i> parameter.
+The number of buffers in the array that is referenced by the **pBufferDesc** parameter.
 
 ### -param unnamedParam4
 
-*pBufferDesc* [in]
+**pBufferDesc** [in]
 
-A pointer to an array of one or more  <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a> structures. For more information, see the Remarks section.
+A pointer to an array of one or more  [**D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC**](ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc.md) structures. For more information, see the Remarks section.
 
 ## -returns
 
-<b>VideoDecoderSubmitBuffers</b> returns one of the following values:
+**VideoDecoderSubmitBuffers** returns one of the following values:
 
 |Return code|Description|
 |--- |--- |
@@ -84,10 +83,9 @@ A pointer to an array of one or more  <a href="/windows-hardware/drivers/ddi/d3d
 
 ## -remarks
 
-The <i>pBufferDesc</i> parameter points to an array of one or more  <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a> structures. Each element in the array describes a compressed video frame buffer that is submitted for decoding.
+The **pBufferDesc** parameter points to an array of one or more [**D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC**](ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc.md) structures. Each element in the array describes a compressed video frame buffer that is submitted for decoding.
 
-
-Each <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a> structure includes the following data:
+Each [**D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC**](ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc.md) structure includes the following data:
 
 * The resource that will receive the decrypted and decode frame buffers.
 
@@ -103,17 +101,10 @@ Each <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder">CreateVideoDecoder</a>
+[**CreateVideoDecoder**](nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md)
 
+[**D3D11_1DDI_AES_CTR_IV**](ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md)
 
+[**D3D11_1DDI_ENCRYPTED_BLOCK_INFO**](ns-d3d10umddi-d3d11_1ddi_encrypted_block_info.md)
 
-<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv">D3D11_1DDI_AES_CTR_IV</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_encrypted_block_info">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a>
-
+[**D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC**](ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc.md)

@@ -1,9 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGK_CONNECTION_CHANGE
-title: _DXGK_CONNECTION_CHANGE (d3dkmddi.h)
+title: DXGK_CONNECTION_CHANGE (d3dkmddi.h)
 description: Structure to describe the most recently updated status of the link for a target.
 old-location: display\dxgk_connection_change.htm
-ms.date: 05/10/2018
+ms.date: 08/24/2022
 keywords: ["DXGK_CONNECTION_CHANGE structure"]
 ms.keywords: "*PDXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE structure [Display Devices], PDXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE structure pointer [Display Devices], _DXGK_CONNECTION_CHANGE, d3dkmddi/DXGK_CONNECTION_CHANGE, d3dkmddi/PDXGK_CONNECTION_CHANGE, display.dxgk_connection_change"
 req.header: d3dkmddi.h
@@ -46,61 +46,71 @@ api_name:
  - DXGK_CONNECTION_CHANGE
 ---
 
-# _DXGK_CONNECTION_CHANGE structure
-
+# DXGK_CONNECTION_CHANGE structure
 
 ## -description
 
-Structure to describe the most recently updated status of the link for a target.
+**DXGK_CONNECTION_CHANGE** describes the most recently updated status of the link for a target.
 
 ## -struct-fields
 
 ### -field ConnectionChangeId
 
-The per target unique id for the transition being reported.  This value must be unique across all targets on the adapter and must be monotonically increasing for each change reported.
+The per target unique ID for the transition being reported. This value must be unique across all targets on the adapter and must be monotonically increasing for each change reported.
 
 ### -field TargetId
 
-The target id for which the change is being reported.  This target id must have been reported to the OS before and must be in a state which supports the given change.
+The target ID for which the change is being reported. This target ID must have been reported to the OS before and must be in a state that supports the given change.
 
 ### -field ConnectionStatus
 
-The status of the connection.
+A [**DXGK_CONNECTION_STATUS**](ne-d3dkmddi-_dxgk_connection_status.md) value that specifies the status of the connection.
 
 ### -field Reserved
 
-This value is reserved for system use.
+Reserved for system use.
 
 ### -field MonitorConnect
 
-This is the video output technology of the monitor which has been connected.  Internal and Miracast are not allowed so only the following values are allowed:
+Describes the monitor that has been connected.
 
+### -field MonitorConnect.LinkTargetType
 
-#### MonitorConnect.LinkTargetType
+A [**D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY**](../d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_output_technology.md) value that identifies the video output technology of the monitor that has been connected. The **D3DKMDT_VOT_INTERNAL** and **D3DKMDT_VOT_MIRACAST** values are not allowed.
+
+### -field MonitorConnect.MonitorConnectFlags
+
+A [**DXGK_CONNECTION_MONITOR_CONNECT_FLAGS**](ns-d3dkmddi-dxgk_connection_monitor_connect_flags.md) structure with flags for the connected monitor.
 
 ### -field TargetConnect
 
-#### BaseTargetType
+Describes the current target's connector.
 
-This is the video output technology of connector of the new target.  As with MonitorConnect.LinkTargetType,  Internal and Miracast are not allowed so the same target types as listed above are allowed.
+#### TargetConnect.BaseTargetType
 
+A [**D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY**](../d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_output_technology.md) value that identifies the video output technology of the current target's connector. As with **MonitorConnect.LinkTargetType**, the **D3DKMDT_VOT_INTERNAL** and **D3DKMDT_VOT_MIRACAST** values are not allowed.
 
+#### TargetConnect.NewTargetId
 
-#### NewTargetId
-
-The target id for which the change is being reported.  This target id must have been reported to the OS before and must be in a state which supports the given change.
+The target ID for which the change is being reported. This target ID must have been reported to the OS before and must be in a state which supports the given change.
 
 ### -field TargetJoin
 
-#### BaseTargetType
+Describes the joining target's connector.
 
-This is the video output technology of the connector of the new target.  As with MonitorConnect.LinkTargetType,  Internal and Miracast are not allowed so the same target types as listed above are allowed.  
+#### TargetJoin.BaseTargetType
 
-<div class="alert"><b>Note</b>  The same BaseTargetType must be reported for all targets which are being joined to each other.</div>
-<div> </div>
+This is the video output technology of the connector of the new target. As with **MonitorConnect.LinkTargetType**, the **D3DKMDT_VOT_INTERNAL** and **D3DKMDT_VOT_MIRACAST** values are not allowed.  
 
+> [!NOTE]
+> The same **BaseTargetType** must be reported for all targets that are being joined to each other.
 
-#### NewTargetId
+#### TargetJoin.NewTargetId
 
-The target id for which the change is being reported.  This target id must have been reported to the OS before and must be in a state which supports the given change.
+The target ID for which the change is being reported. This target ID must have been reported to the OS before and must be in a state which supports the given change.
 
+## -see-also
+
+[**D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY**](../d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_output_technology.md)
+
+[**DXGKARG_QUERYCONNECTIONCHANGE**](ns-d3dkmddi-_dxgkarg_queryconnectionchange.md)

@@ -4,7 +4,7 @@ title: IDE_TRANSFER_MODE_SELECT (irb.h)
 description: The AtaControllerTransferModeSelect miniport driver routine selects the transfer mode for all devices on the indicated ATA channel and programs the controller for the selected transfer mode.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\atacontrollertransfermodeselect.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 08/26/2022
 keywords: ["IDE_TRANSFER_MODE_SELECT callback function"]
 ms.keywords: AtaControllerTransferModeSelect, AtaControllerTransferModeSelect routine [Storage Devices], IDE_TRANSFER_MODE_SELECT, atartns_c4d206b0-4a6a-49ce-b729-97c8b01e4089.xml, irb/AtaControllerTransferModeSelect, storage.atacontrollertransfermodeselect
 req.header: irb.h
@@ -42,36 +42,33 @@ api_name:
 
 # IDE_TRANSFER_MODE_SELECT callback function
 
-
 ## -description
 
-The <b><i>AtaControllerTransferModeSelect</i></b> miniport driver routine selects the transfer mode for all devices on the indicated ATA channel and programs the controller for the selected transfer mode.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+The **AtaControllerTransferModeSelect** miniport driver routine selects the transfer mode for all devices on the indicated ATA channel and programs the controller for the selected transfer mode.
+
+> [!NOTE]
+> The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 
 ## -parameters
 
-### -param ControllerExtension [in]
+### -param ControllerExtension
 
-
-A pointer to the controller extension.
+[in] A pointer to the controller extension.
 
 ### -param TransferModeSelect
 
-### -param TransferModeParams 
-[in, out]
-A pointer to a structure of type <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_transfer_mode_parameters">IDE_TRANSFER_MODE_PARAMETERS</a> that indicates to the miniport driver the channel on which to set the transfer modes and which transfer modes are available.
+[in, out] A pointer to a structure of type [**IDE_TRANSFER_MODE_PARAMETERS**](ns-irb-_ide_transfer_mode_parameters.md) that indicates to the miniport driver the channel on which to set the transfer modes and which transfer modes are available.
 
 ## -returns
 
-<b><i>AtaControllerTransferModeSelect</i></b> returns <b>TRUE</b> to acknowledge the receipt of the transfer mode parameters. The miniport driver ignores a return value of <b>FALSE</b>.
+**AtaControllerTransferModeSelect** returns TRUE to acknowledge the receipt of the transfer mode parameters. The miniport driver ignores a return value of FALSE.
 
 ## -remarks
 
-The <b><i>AtaControllerTransferModeSelect</i></b> miniport driver routine must select the appropriate timing modes and program the controller for the selected modes. The miniport driver must select at least one programmed input/output (PIO) mode for the indicated channel, and preferably at least one direct memory access (DMA) timing mode also. To communicate to the caller the transfer modes that it selected, the miniport driver sets the appropriate bits in the <b>TransferModeSelected</b> member of the IDE_TRANSFER_MODE_PARAMETERS structure.
+The **AtaControllerTransferModeSelect** miniport driver routine must select the appropriate timing modes and program the controller for the selected modes. The miniport driver must select at least one programmed input/output (PIO) mode for the indicated channel, and preferably at least one direct memory access (DMA) timing mode also. To communicate to the caller the transfer modes that it selected, the miniport driver sets the appropriate bits in the **TransferModeSelected** member of the IDE_TRANSFER_MODE_PARAMETERS structure.
 
-<b><i>AtaControllerTransferModeSelect</i></b> is an optional routine.
+**AtaControllerTransferModeSelect** is an optional routine.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_transfer_mode_parameters">IDE_TRANSFER_MODE_PARAMETERS</a>
-
+[**IDE_TRANSFER_MODE_PARAMETERS**](ns-irb-_ide_transfer_mode_parameters.md)

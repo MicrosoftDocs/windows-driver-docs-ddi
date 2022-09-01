@@ -3,7 +3,7 @@ UID: NF:prcomoem.IPrintOemPrintTicketProvider.BindPrinter
 title: IPrintOemPrintTicketProvider::BindPrinter (prcomoem.h)
 description: The IPrintOemPrintTicketProvider::BindPrinter method enables the core driver to associate a set of private namespace uniform resource identifiers (URIs) with a device.
 tech.root: print
-ms.date: 08/22/2022
+ms.date: 08/29/2022
 keywords: ["IPrintOemPrintTicketProvider::BindPrinter"]
 ms.keywords: BindPrinter, BindPrinter method [Print Devices], BindPrinter method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],BindPrinter method, IPrintOemPrintTicketProvider.BindPrinter, IPrintOemPrintTicketProvider::BindPrinter, prcomoem/IPrintOemPrintTicketProvider::BindPrinter, print.iprintoemprintticketprovider_bindprinter, print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml
 req.header: prcomoem.h
@@ -100,4 +100,4 @@ An **IPrintOemPrintTicketProvider** object does not have to be able to bind more
 
 [IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode](./nf-prcomoem-iprintoemprintticketprovider-convertprinttickettodevmode.md)
 
-[IPrintOemPrintTicketProvider::GetSupportedVersions](/./nf-prcomoem-iprintoemprintticketprovider-getsupportedversions.md)
+[IPrintOemPrintTicketProvider::GetSupportedVersions](./nf-prcomoem-iprintoemprintticketprovider-getsupportedversions.md)
