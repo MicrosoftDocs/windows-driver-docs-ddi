@@ -4,7 +4,7 @@ title: STORAGE_REQUEST_BLOCK (srb.h)
 description: Learn more about the STORAGE_REQUEST_BLOCK structure (srb.h).
 old-location: storage\storage_request_block.htm
 tech.root: storage
-ms.date: 08/26/2022
+ms.date: 08/31/2022
 keywords: ["STORAGE_REQUEST_BLOCK structure"]
 ms.keywords: PSTORAGE_REQUEST_BLOCK, PSTORAGE_REQUEST_BLOCK structure pointer [Storage Devices], SRB_FLAGS_ADAPTER_CACHE_ENABLE, SRB_FLAGS_ALLOCATED_FROM_ZONE, SRB_FLAGS_BYPASS_FROZEN_QUEUE, SRB_FLAGS_BYPASS_LOCKED_QUEUE, SRB_FLAGS_D3_PROCESSING, SRB_FLAGS_DATA_IN, SRB_FLAGS_DATA_OUT, SRB_FLAGS_DISABLE_AUTOSENSE, SRB_FLAGS_DISABLE_DISCONNECT, SRB_FLAGS_DISABLE_SYNCH_TRANSFER, SRB_FLAGS_FREE_SENSE_BUFFER, SRB_FLAGS_IS_ACTIVE, SRB_FLAGS_NO_DATA_TRANSFER, SRB_FLAGS_NO_KEEP_AWAKE, SRB_FLAGS_NO_QUEUE_FREEZE, SRB_FLAGS_QUEUE_ACTION_ENABLE, SRB_FLAGS_SGLIST_FROM_POOL, SRB_FLAGS_UNSPECIFIED_DIRECTION, SRB_FUNCTION_ABORT_COMMAND, SRB_FUNCTION_CRYPTO_OPERATION, SRB_FUNCTION_DUMP_POINTERS, SRB_FUNCTION_EXECUTE_SCSI, SRB_FUNCTION_FLUSH, SRB_FUNCTION_FREE_DUMP_POINTERS, SRB_FUNCTION_IO_CONTROL, SRB_FUNCTION_LOCK_QUEUE, SRB_FUNCTION_PNP, SRB_FUNCTION_POWER, SRB_FUNCTION_QUIESCE_DEVICE, SRB_FUNCTION_RECEIVE_EVENT, SRB_FUNCTION_RELEASE_RECOVERY, SRB_FUNCTION_RESET_BUS, SRB_FUNCTION_RESET_DEVICE, SRB_FUNCTION_RESET_LOGICAL_UNIT, SRB_FUNCTION_SHUTDOWN, SRB_FUNCTION_TERMINATE_IO, SRB_FUNCTION_UNLOCK_QUEUE, SRB_FUNCTION_WMI, SRB_STATUS_ABORTED, SRB_STATUS_ABORT_FAILED, SRB_STATUS_AUTOSENSE_VALID, SRB_STATUS_BAD_FUNCTION, SRB_STATUS_BAD_SRB_BLOCK_LENGTH, SRB_STATUS_BUSY, SRB_STATUS_BUS_RESET, SRB_STATUS_COMMAND_TIMEOUT, SRB_STATUS_DATA_OVERRUN, SRB_STATUS_ERROR, SRB_STATUS_ERROR_RECOVERY, SRB_STATUS_INTERNAL_ERROR, SRB_STATUS_INVALID_LUN, SRB_STATUS_INVALID_PATH_ID, SRB_STATUS_INVALID_REQUEST, SRB_STATUS_INVALID_TARGET_ID, SRB_STATUS_LINK_DOWN, SRB_STATUS_MESSAGE_REJECTED, SRB_STATUS_NOT_POWERED, SRB_STATUS_NO_DEVICE, SRB_STATUS_NO_HBA, SRB_STATUS_PARITY_ERROR, SRB_STATUS_PENDING, SRB_STATUS_PHASE_SEQUENCE_FAILURE, SRB_STATUS_QUEUE_FROZEN, SRB_STATUS_REQUEST_FLUSHED, SRB_STATUS_REQUEST_SENSE_FAILED, SRB_STATUS_SELECTION_TIMEOUT, SRB_STATUS_SUCCESS, SRB_STATUS_TIMEOUT, SRB_STATUS_UNEXPECTED_BUS_FREE, STORAGE_REQUEST_BLOCK, STORAGE_REQUEST_BLOCK structure [Storage Devices], _STORAGE_REQUEST_BLOCK, storage.storage_request_block, storport/PSTORAGE_REQUEST_BLOCK, storport/STORAGE_REQUEST_BLOCK
 req.header: srb.h
@@ -151,24 +151,30 @@ Indicates various parameters and options for the request. **SrbFlags** is read-o
 
 | Flag | Meaning |
 | ---- | ------- |
-| SRB_FLAGS_QUEUE_ACTION_ENABLE | Indicates tagged-queue actions are to be enabled.|
-| SRB_FLAGS_DISABLE_AUTOSENSE | Indicates request-sense information should not be returned. |
-| SRB_FLAGS_DATA_IN | Indicates data will be transferred from the device to the system. |
-| SRB_FLAGS_DATA_OUT |Indicates data will be transferred from the system to the device. |
-| SRB_FLAGS_UNSPECIFIED_DIRECTION | Defined for backward compatibility with the ASPI/CAM SCSI interfaces, this flag indicates that the transfer direction could be either of the preceding, because both of the preceding flags are set. If this flag is set, a miniport driver should determine the transfer direction by examining the data phase for the target on the SCSI bus. |
-| SRB_FLAGS_NO_DATA_TRANSFER | Indicates no data transfer with this request. If this is set, the flags **SRB_FLAGS_DATA_OUT**, **SRB_FLAGS_DATA_IN**, and **SRB_FLAGS_UNSPECIFIED_DIRECTION** are clear. |
-| SRB_FLAGS_DISABLE_SYNCH_TRANSFER | Indicates the HBA, if possible, should perform asynchronous I/O for this transfer request. If synchronous I/O was negotiated previously, the HBA must renegotiate for asynchronous I/O before performing the transfer. |
-| SRB_FLAGS_DISABLE_DISCONNECT | Indicates the HBA should not allow the target to disconnect from the SCSI bus during processing of this request. |
-| SRB_FLAGS_BYPASS_FROZEN_QUEUE | This flag is irrelevant to miniport drivers. |
-| SRB_FLAGS_NO_QUEUE_FREEZE | This flag is irrelevant to miniport drivers. |
-| SRB_FLAGS_IS_ACTIVE | This flag is irrelevant to miniport drivers. |
-| SRB_FLAGS_ALLOCATED_FROM_ZONE | This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call [**ExInterlockedFreeToZone**](/windows-hardware/drivers/kernel/mmcreatemdl) to release the SRB; otherwise, it must call [**ExFreePool**](../ntddk/nf-ntddk-exfreepool.md). New class drivers should use lookaside lists rather than zone buffers. |
-| SRB_FLAGS_SGLIST_FROM_POOL | This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call [**ExFreePool**](../ntddk/nf-ntddk-exfreepool.md) to release the memory after the SRB is completed. |
-| SRB_FLAGS_BYPASS_LOCKED_QUEUE | This flag is irrelevant to miniport drivers. To the port driver, this flag indicates that the request should be processed whether the logical-unit queue is locked or not. A higher-level driver must set this flag to send an **SRB_FUNCTION_UNLOCK_QUEUE** request. |
-| SRB_FLAGS_NO_KEEP_AWAKE | This flag is irrelevant to miniport drivers. A Windows class driver uses this flag to indicate to the port driver to fail the request rather than powering up the device to handle this request. |
-| SRB_FLAGS_FREE_SENSE_BUFFER | Indicates that either the port or the miniport driver has allocated a buffer for sense data. This informs the class driver that it must free the sense data buffer after extracting the data. |
-| SRB_FLAGS_D3_PROCESSING | Indicates that the request is part of D3 processing. Miniports that support runtime power control should not call **StorPortPoFxActivateComponent** or **StorPortPoFxIdleComponent** with these requests. |
-| SRB_FLAGS_ADAPTER_CACHE_ENABLE | Indicates that the adapter can cache data. |
+| SRB_FLAGS_NO_DATA_TRANSFER (0x00000000) | Indicates no data transfer with this request. If this is set, the flags **SRB_FLAGS_DATA_OUT**, **SRB_FLAGS_DATA_IN**, and **SRB_FLAGS_UNSPECIFIED_DIRECTION** are clear. |
+| SRB_FLAGS_QUEUE_ACTION_ENABLE (0x00000002) | Indicates tagged-queue actions are to be enabled.|
+| SRB_FLAGS_DISABLE_DISCONNECT (0x00000004) | Indicates the HBA should not allow the target to disconnect from the SCSI bus during processing of this request. |
+| SRB_FLAGS_DISABLE_SYNCH_TRANSFER (0x00000008) | Indicates the HBA, if possible, should perform asynchronous I/O for this transfer request. If synchronous I/O was negotiated previously, the HBA must renegotiate for asynchronous I/O before performing the transfer. |
+| SRB_FLAGS_BYPASS_FROZEN_QUEUE (0x00000010) | This flag is irrelevant to miniport drivers. |
+| SRB_FLAGS_DISABLE_AUTOSENSE (0x00000020) | Indicates request-sense information should not be returned. |
+| SRB_FLAGS_DATA_IN (0x00000040) | Indicates data will be transferred from the device to the system. |
+| SRB_FLAGS_DATA_OUT (0x00000080) |Indicates data will be transferred from the system to the device. |
+| SRB_FLAGS_UNSPECIFIED_DIRECTION (SRB_FLAGS_DATA_IN | SRB_FLAGS_DATA_OUT) | Defined for backward compatibility with the ASPI/CAM SCSI interfaces, this flag indicates that the transfer direction could be either of the preceding, because both of the preceding flags are set. If this flag is set, a miniport driver should determine the transfer direction by examining the data phase for the target on the SCSI bus. |
+| SRB_FLAGS_NO_QUEUE_FREEZE (0x00000100) | This flag is irrelevant to miniport drivers. |
+| SRB_FLAGS_ADAPTER_CACHE_ENABLE (0x00000200) | Indicates that the adapter can cache data. |
+| SRB_FLAGS_FREE_SENSE_BUFFER (0x00000400) | Indicates that either the port or the miniport driver has allocated a buffer for sense data. This informs the class driver that it must free the sense data buffer after extracting the data. |
+| SRB_FLAGS_D3_PROCESSING (0x00000800) | Indicates that the request is part of D3 processing. Miniports that support runtime power control should not call **StorPortPoFxActivateComponent** or **StorPortPoFxIdleComponent** with these requests. |
+| SRB_FLAGS_SEQUENTIAL_REQUIRED (0x00001000) | Indicates that the LBA range falls into the sequential write required zone. |
+| SRB_FLAGS_IS_ACTIVE (0x00010000) | This flag is irrelevant to miniport drivers. |
+| SRB_FLAGS_ALLOCATED_FROM_ZONE (0x00020000) | This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call [**ExInterlockedFreeToZone**](/windows-hardware/drivers/kernel/mmcreatemdl) to release the SRB; otherwise, it must call [**ExFreePool**](../ntddk/nf-ntddk-exfreepool.md). New class drivers should use lookaside lists rather than zone buffers. |
+| SRB_FLAGS_SGLIST_FROM_POOL (0x00040000) | This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call [**ExFreePool**](../ntddk/nf-ntddk-exfreepool.md) to release the memory after the SRB is completed. |
+| SRB_FLAGS_BYPASS_LOCKED_QUEUE (0x00080000) | This flag is irrelevant to miniport drivers. To the port driver, this flag indicates that the request should be processed whether the logical-unit queue is locked or not. A higher-level driver must set this flag to send an **SRB_FUNCTION_UNLOCK_QUEUE** request. |
+| SRB_FLAGS_NO_KEEP_AWAKE (0x00100000) | This flag is irrelevant to miniport drivers. A Windows class driver uses this flag to indicate to the port driver to fail the request rather than powering up the device to handle this request. |
+| SRB_FLAGS_PORT_DRIVER_ALLOCSENSE (0x00200000) | The port driver needs to allocate the sense buffer for the SRB. |
+| SRB_FLAGS_PORT_DRIVER_SENSEHASPORT (0x00400000) | Deprecated; do not use. |
+| SRB_FLAGS_DONT_START_NEXT_PACKET (0x00800000) | Deprecated; do not use. |
+| SRB_FLAGS_PORT_DRIVER_RESERVED (0x0F000000) | Reserved for system use. |
+| SRB_FLAGS_CLASS_DRIVER_RESERVED (0xF0000000) | Reserved for system use. |
 
 ### -field ReservedUlong2
 
