@@ -151,30 +151,30 @@ Indicates various parameters and options for the request. **SrbFlags** is read-o
 
 | Flag | Meaning |
 | ---- | ------- |
-| SRB_FLAGS_NO_DATA_TRANSFER (0x00000000) | Indicates no data transfer with this request. If this is set, the flags **SRB_FLAGS_DATA_OUT**, **SRB_FLAGS_DATA_IN**, and **SRB_FLAGS_UNSPECIFIED_DIRECTION** are clear. |
-| SRB_FLAGS_QUEUE_ACTION_ENABLE (0x00000002) | Indicates tagged-queue actions are to be enabled.|
-| SRB_FLAGS_DISABLE_DISCONNECT (0x00000004) | Indicates the HBA should not allow the target to disconnect from the SCSI bus during processing of this request. |
+| SRB_FLAGS_NO_DATA_TRANSFER       (0x00000000) | Indicates no data transfer with this request. If this is set, the flags **SRB_FLAGS_DATA_OUT**, **SRB_FLAGS_DATA_IN**, and **SRB_FLAGS_UNSPECIFIED_DIRECTION** are clear. |
+| SRB_FLAGS_QUEUE_ACTION_ENABLE    (0x00000002) | Indicates tagged-queue actions are to be enabled. |
+| SRB_FLAGS_DISABLE_DISCONNECT     (0x00000004) | Indicates the HBA should not allow the target to disconnect from the SCSI bus during processing of this request. |
 | SRB_FLAGS_DISABLE_SYNCH_TRANSFER (0x00000008) | Indicates the HBA, if possible, should perform asynchronous I/O for this transfer request. If synchronous I/O was negotiated previously, the HBA must renegotiate for asynchronous I/O before performing the transfer. |
-| SRB_FLAGS_BYPASS_FROZEN_QUEUE (0x00000010) | This flag is irrelevant to miniport drivers. |
-| SRB_FLAGS_DISABLE_AUTOSENSE (0x00000020) | Indicates request-sense information should not be returned. |
-| SRB_FLAGS_DATA_IN (0x00000040) | Indicates data will be transferred from the device to the system. |
-| SRB_FLAGS_DATA_OUT (0x00000080) |Indicates data will be transferred from the system to the device. |
-| SRB_FLAGS_UNSPECIFIED_DIRECTION (SRB_FLAGS_DATA_IN | SRB_FLAGS_DATA_OUT) | Defined for backward compatibility with the ASPI/CAM SCSI interfaces, this flag indicates that the transfer direction could be either of the preceding, because both of the preceding flags are set. If this flag is set, a miniport driver should determine the transfer direction by examining the data phase for the target on the SCSI bus. |
-| SRB_FLAGS_NO_QUEUE_FREEZE (0x00000100) | This flag is irrelevant to miniport drivers. |
-| SRB_FLAGS_ADAPTER_CACHE_ENABLE (0x00000200) | Indicates that the adapter can cache data. |
-| SRB_FLAGS_FREE_SENSE_BUFFER (0x00000400) | Indicates that either the port or the miniport driver has allocated a buffer for sense data. This informs the class driver that it must free the sense data buffer after extracting the data. |
-| SRB_FLAGS_D3_PROCESSING (0x00000800) | Indicates that the request is part of D3 processing. Miniports that support runtime power control should not call **StorPortPoFxActivateComponent** or **StorPortPoFxIdleComponent** with these requests. |
-| SRB_FLAGS_SEQUENTIAL_REQUIRED (0x00001000) | Indicates that the LBA range falls into the sequential write required zone. |
-| SRB_FLAGS_IS_ACTIVE (0x00010000) | This flag is irrelevant to miniport drivers. |
-| SRB_FLAGS_ALLOCATED_FROM_ZONE (0x00020000) | This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call [**ExInterlockedFreeToZone**](/windows-hardware/drivers/kernel/mmcreatemdl) to release the SRB; otherwise, it must call [**ExFreePool**](../ntddk/nf-ntddk-exfreepool.md). New class drivers should use lookaside lists rather than zone buffers. |
-| SRB_FLAGS_SGLIST_FROM_POOL (0x00040000) | This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call [**ExFreePool**](../ntddk/nf-ntddk-exfreepool.md) to release the memory after the SRB is completed. |
-| SRB_FLAGS_BYPASS_LOCKED_QUEUE (0x00080000) | This flag is irrelevant to miniport drivers. To the port driver, this flag indicates that the request should be processed whether the logical-unit queue is locked or not. A higher-level driver must set this flag to send an **SRB_FUNCTION_UNLOCK_QUEUE** request. |
+| SRB_FLAGS_BYPASS_FROZEN_QUEUE    (0x00000010) | This flag is irrelevant to miniport drivers. |
+| SRB_FLAGS_DISABLE_AUTOSENSE      (0x00000020) | Indicates request-sense information should not be returned. |
+| SRB_FLAGS_DATA_IN                (0x00000040) | Indicates data will be transferred from the device to the system. |
+| SRB_FLAGS_DATA_OUT               (0x00000080) |Indicates data will be transferred from the system to the device. |
+| SRB_FLAGS_UNSPECIFIED_DIRECTION  (SRB_FLAGS_DATA_IN \| SRB_FLAGS_DATA_OUT) | Defined for backward compatibility with the ASPI/CAM SCSI interfaces, this flag indicates that the transfer direction could be either of the preceding, because both of the preceding flags are set. If this flag is set, a miniport driver should determine the transfer direction by examining the data phase for the target on the SCSI bus. |
+| SRB_FLAGS_NO_QUEUE_FREEZE        (0x00000100) | This flag is irrelevant to miniport drivers. |
+| SRB_FLAGS_ADAPTER_CACHE_ENABLE   (0x00000200) | Indicates that the adapter can cache data. |
+| SRB_FLAGS_FREE_SENSE_BUFFER      (0x00000400) | Indicates that either the port or the miniport driver has allocated a buffer for sense data. This informs the class driver that it must free the sense data buffer after extracting the data. |
+| SRB_FLAGS_D3_PROCESSING          (0x00000800) | Indicates that the request is part of D3 processing. Miniports that support runtime power control should not call **StorPortPoFxActivateComponent** or **StorPortPoFxIdleComponent** with these requests. |
+| SRB_FLAGS_SEQUENTIAL_REQUIRED    (0x00001000) | Indicates that the LBA range falls into the sequential write required zone. |
+| SRB_FLAGS_IS_ACTIVE              (0x00010000) | This flag is irrelevant to miniport drivers. |
+| SRB_FLAGS_ALLOCATED_FROM_ZONE    (0x00020000) | This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call [**ExInterlockedFreeToZone**](/windows-hardware/drivers/kernel/mmcreatemdl) to release the SRB; otherwise, it must call [**ExFreePool**](../ntddk/nf-ntddk-exfreepool.md). New class drivers should use lookaside lists rather than zone buffers. |
+| SRB_FLAGS_SGLIST_FROM_POOL       (0x00040000) | This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call [**ExFreePool**](../ntddk/nf-ntddk-exfreepool.md) to release the memory after the SRB is completed. |
+| SRB_FLAGS_BYPASS_LOCKED_QUEUE    (0x00080000) | This flag is irrelevant to miniport drivers. To the port driver, this flag indicates that the request should be processed whether the logical-unit queue is locked or not. A higher-level driver must set this flag to send an **SRB_FUNCTION_UNLOCK_QUEUE** request. |
 | SRB_FLAGS_NO_KEEP_AWAKE (0x00100000) | This flag is irrelevant to miniport drivers. A Windows class driver uses this flag to indicate to the port driver to fail the request rather than powering up the device to handle this request. |
 | SRB_FLAGS_PORT_DRIVER_ALLOCSENSE (0x00200000) | The port driver needs to allocate the sense buffer for the SRB. |
 | SRB_FLAGS_PORT_DRIVER_SENSEHASPORT (0x00400000) | Deprecated; do not use. |
 | SRB_FLAGS_DONT_START_NEXT_PACKET (0x00800000) | Deprecated; do not use. |
-| SRB_FLAGS_PORT_DRIVER_RESERVED (0x0F000000) | Reserved for system use. |
-| SRB_FLAGS_CLASS_DRIVER_RESERVED (0xF0000000) | Reserved for system use. |
+| SRB_FLAGS_PORT_DRIVER_RESERVED   (0x0F000000) | Reserved for system use. |
+| SRB_FLAGS_CLASS_DRIVER_RESERVED  (0xF0000000) | Reserved for system use. |
 
 ### -field ReservedUlong2
 
