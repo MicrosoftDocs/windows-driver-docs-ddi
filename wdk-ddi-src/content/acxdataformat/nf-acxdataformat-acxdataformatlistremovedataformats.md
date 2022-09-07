@@ -1,10 +1,10 @@
 ---
 UID: NF:acxdataformat.AcxDataFormatListRemoveDataFormats
-tech.root: 
+tech.root: audio
 title: AcxDataFormatListRemoveDataFormats
 ms.date: 09/07/2022
 targetos: Windows
-description: 
+description: The AcxDataFormatListRemoveDataFormats function removes all data formats from the specified ACX data format list.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - LibDef
 api_location:
  - acxdataformat.h
 api_name:
