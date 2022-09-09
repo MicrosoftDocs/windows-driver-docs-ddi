@@ -2,7 +2,7 @@
 UID: NE:acxpin._ACX_PIN_CONFIG_FLAGS
 tech.root: audio
 title: ACX_PIN_CONFIG_FLAGS
-ms.date: 09/08/2022
+ms.date: 09/09/2022
 targetos: Windows
 description: The ACX_PIN_CONFIG_FLAGS enumeration specifies pin configuration settings used in the ACX_PIN_CONFIG structure.
 prerelease: false
@@ -47,7 +47,7 @@ Indicates that there are no flags set.
 
 ### -field AcxPinConfigMicrophoneConfigSpecified
 
-Indicates that an [ACX_MICROPHONE_CONFIG](ns-acxpin-acx_microphone_config.md) structure is available for this pin.
+Indicates that an [ACX_MICROPHONE_CONFIG](./ns-acxpin-acx_microphone_config.md) structure is available for this pin.
 
 ### -field AcxPinConfigNoDefaultDataFormatLists
 
@@ -61,5 +61,7 @@ For internal validation, do not use.
 
 ## -see-also
 
-- [ACX_MICROPHONE_CONFIG](ns-acxpin-acx_microphone_config.md)
-- [acxpin.h header](index.md)
+- [ACX_MICROPHONE_CONFIG](./ns-acxpin-acx_microphone_config.md)
+- [ACX_PIN_CONFIG](./ns-acxpin-acx_pin_config.md)
+- [EVT_ACX_PIN_DATAFORMAT_CHANGE_NOTIFICATION](./nc-acxpin-evt_acx_pin_dataformat_change_notification.md)
+- [acxpin.h header](./index.md)
