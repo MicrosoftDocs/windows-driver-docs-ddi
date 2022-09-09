@@ -1,10 +1,10 @@
 ---
-UID: NF:acxpin.AcxPinRetrieveModeDataFormatList
+UID: NF:acxpin.AcxPinRemoveModeDataFormatList
 tech.root: audio
-title: AcxPinRetrieveModeDataFormatList
+title: AcxPinRemoveModeDataFormatList
 ms.date: 09/08/2022
 targetos: Windows
-description: The AcxPinRetrieveModeDataFormatList function gets the mode data format list for the specified pin.
+description: The AcxPinRemoveModeDataFormatList function deletes the mode data format list for the specified pin.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -32,29 +32,31 @@ api_type:
 api_location:
  - acxpin.h
 api_name:
- - AcxPinRetrieveModeDataFormatList
+ - AcxPinRemoveModeDataFormatList
 f1_keywords:
- - AcxPinRetrieveModeDataFormatList
- - acxpin/AcxPinRetrieveModeDataFormatList
+ - AcxPinRemoveModeDataFormatList
+ - acxpin/AcxPinRemoveModeDataFormatList
 dev_langs:
  - c++
+helpviewer_keywords:
+ - AcxPinRemoveModeDataFormatList
 ---
 
 ## -description
 
-The **AcxPinRetrieveModeDataFormatList** function gets the mode data format list for the specified pin.
+The **AcxPinRemoveModeDataFormatList** function deletes the mode data format list for the specified pin.
 
 ## -parameters
 
 ### -param AcxPin [in]
 
-The pin for which to retrieve the mode data format list.
+The pin for which to remove the mode data format list.
 
 ### -param SignalProcessingMode [in]
 
-The GUID of the signal processing mode for which to retrieve the data format list.
+The GUID of the signal processing mode for which to remove the data format list.
 
-### -param DataFormatList [out]
+### -param DataFormatList [out, optional]
 
 Pointer to an ACXDATAFORMATLIST to receive the data format list object handle.
 
@@ -66,5 +68,5 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -see-also
 
-- [AcxPinRemoveModeDataFormatList](nf-acxpin-acxpinremovemodedataformatlist.md)
+- [AcxPinRetrieveModeDataFormatList](nf-acxpin-acxpinretrievemodedataformatlist.md )
 - [acxpin.h header](index.md)

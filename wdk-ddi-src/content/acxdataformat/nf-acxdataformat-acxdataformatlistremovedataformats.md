@@ -1,11 +1,11 @@
 ---
-UID: NF:acxdataformat.AcxDataFormatListRemoveDataFormat
+UID: NF:acxdataformat.AcxDataFormatListRemoveDataFormats
 tech.root: audio
-title: AcxDataFormatListRemoveDataFormat
+title: AcxDataFormatListRemoveDataFormats
 ms.date: 09/07/2022
 targetos: Windows
-description: The AcxDataFormatListRemoveDataFormat function removes the specified ACX data format from an ACX data format list.
-prerelease: true
+description: The AcxDataFormatListRemoveDataFormats function removes all data formats from the specified ACX data format list.
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -32,27 +32,25 @@ api_type:
 api_location:
  - acxdataformat.h
 api_name:
- - AcxDataFormatListRemoveDataFormat
+ - AcxDataFormatListRemoveDataFormats
 f1_keywords:
- - AcxDataFormatListRemoveDataFormat
- - acxdataformat/AcxDataFormatListRemoveDataFormat
+ - AcxDataFormatListRemoveDataFormats
+ - acxdataformat/AcxDataFormatListRemoveDataFormats
 dev_langs:
  - c++
+helpviewer_keywords:
+ - AcxDataFormatListRemoveDataFormats
 ---
 
 ## -description
 
-The **AcxDataFormatListRemoveDataFormat** function removes the specified ACX data format from an ACX data format list.
+The **AcxDataFormatListRemoveDataFormats** function removes all data formats from the specified ACX data format list.
 
 ## -parameters
 
 ### -param AcxDataFormatList [in]
 
-The ACX data format list from which to remove *AcxDataFormat*.
-
-### -param AcxDataFormat [in]
-
-The [ACXDATAFORMAT](index.md) object to remove from *AcxDataFormatList*.
+The data format list from which to delete all data formats.
 
 ## -returns
 
@@ -62,7 +60,7 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 ## -see-also
 
+- [AcxDataFormatListRemoveDataFormat](./nf-acxdataformat-acxdataformatlistremovedataformat.md)
 - [AcxDataFormatListAddDataFormat](nf-acxdataformat-acxdataformatlistadddataformat.md)
-- [AcxDataFormatListRemoveDataFormats](./nf-acxdataformat-acxdataformatlistremovedataformats.md)
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [acxdataformat.h header](index.md)

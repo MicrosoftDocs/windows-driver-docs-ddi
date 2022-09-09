@@ -2,7 +2,7 @@
 UID: NS:acxpin._ACX_PIN_CALLBACKS
 tech.root: audio
 title: ACX_PIN_CALLBACKS
-ms.date: 04/11/2022
+ms.date: 09/08/2022
 targetos: Windows
 description: The ACX_PIN_CALLBACKS structure specifies pin event callback functions.
 prerelease: false
@@ -54,15 +54,15 @@ The size of all of the data in the **ACX_PIN_CALLBACKS** structure in bytes.
 
 ### -field EvtAcxPinSetDataFormat
 
-A pointer to an [EVT_ACX_PIN_SET_DATAFORMAT](nc-acxpin-evt_acx_pin_set_dataformat.md) callback function.
+A pointer to an [EVT_ACX_PIN_SET_DATAFORMAT](./nc-acxpin-evt_acx_pin_set_dataformat.md) callback function.
 
 ### -field EvtAcxPinRetrieveName
 
-A pointer to an [EVT_ACX_PIN_RETRIEVE_NAME](nc-acxpin-evt_acx_pin_retrieve_name.md) callback function.
+A pointer to an [EVT_ACX_PIN_RETRIEVE_NAME](./nc-acxpin-evt_acx_pin_retrieve_name.md) callback function.
 
 ### -field EvtAcxPinRetrieveJackSinkInfo
 
-A pointer to an [EVT_ACX_PIN_RETRIEVE_JACK_SINK_INFO](nc-acxpin-evt_acx_pin_retrieve_jack_sink_info.md) callback function.
+A pointer to an [EVT_ACX_PIN_RETRIEVE_JACK_SINK_INFO](./nc-acxpin-evt_acx_pin_retrieve_jack_sink_info.md) callback function.
 
 ### -field EvtAcxPinProcessJackRequest
 
@@ -70,16 +70,18 @@ A pointer to an [EVT_ACX_OBJECT_PROCESS_REQUEST](../acxrequest/nc-acxrequest-evt
 
 ### -field EvtAcxPinConnected
 
-A pointer to an [EVT_ACX_PIN_CONNECTED](nc-acxpin-evt_acx_pin_connected.md) callback function.
+A pointer to an [EVT_ACX_PIN_CONNECTED](./nc-acxpin-evt_acx_pin_connected.md) callback function.
 
 ### -field EvtAcxPinDisconnected
 
-A pointer to an [EVT_ACX_PIN_DISCONNECTED](nc-acxpin-evt_acx_pin_disconnected.md) callback function.
+A pointer to an [EVT_ACX_PIN_DISCONNECTED](./nc-acxpin-evt_acx_pin_disconnected.md) callback function.
+
+### -field EvtAcxPinDataFormatChangeNotification
+
+A pointer to an [EVT_ACX_PIN_DATAFORMAT_CHANGE_NOTIFICATION](./nc-acxpin-evt_acx_pin_dataformat_change_notification.md) callback function.
 
 ## -remarks
 
 ## -see-also
 
 - [acxpin.h header](index.md)
-
-
