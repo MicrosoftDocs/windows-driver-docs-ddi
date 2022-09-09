@@ -66,7 +66,7 @@ The address that **pBackingStore** points to is valid until the allocation is de
 
 **DXGKDDI_SETALLOCATIONBACKINGSTORE** is called during [**D3DKMTCreateAllocation**](/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation).
 
-See [Sharing the backing store with KMD](sharing-backing-store-with-kmd) for more information.
+See [Sharing the backing store with KMD](/windows-hardware/drivers/display/sharing-backing-store-with-kmd) for more information.
 
 ## -see-also
 

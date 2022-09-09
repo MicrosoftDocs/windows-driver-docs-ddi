@@ -57,7 +57,7 @@ The **DXGKARG_SETALLOCATIONBACKINGSTORE** structure contains the arguments used 
 
 ## -remarks
 
-See [Sharing the backing store with KMD](sharing-backing-store-with-kmd) for more information.
+See [Sharing the backing store with KMD](/windows-hardware/drivers/display/sharing-backing-store-with-kmd) for more information.
 
 ## -see-also
 
