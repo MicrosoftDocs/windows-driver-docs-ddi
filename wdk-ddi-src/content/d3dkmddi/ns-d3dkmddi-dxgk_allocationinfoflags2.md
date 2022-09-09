@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGK_ALLOCATIONINFOFLAGS2
 tech.root: display
 title: DXGK_ALLOCATIONINFOFLAGS2
-ms.date: 08/24/2022
+ms.date: 09/08/2022
 targetos: Windows
 description: Learn more about the DXGK_ALLOCATIONINFOFLAGS2 structure.
 prerelease: false
@@ -64,3 +64,5 @@ An alternative way to access the bits.
 ## -see-also
 
 [**DXGK_ALLOCATIONINFO**](ns-d3dkmddi-_dxgk_allocationinfo.md)
+
+[**DXGKDDI_CREATEALLOCATION**](nc-d3dkmddi-dxgkddi_createallocation.md)
