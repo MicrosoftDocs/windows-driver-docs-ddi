@@ -52,7 +52,7 @@ The composite template on which to set the core circuit template.
 
 ### -param CircuitTemplates [in]
 
-The circuit template to set as the core on the specified *CompositeTemplate*. This parameter is mistakenly named in the plural. It actually represents the single core circuit.
+The circuit template to set as the core on the specified *CompositeTemplate*. This parameter is mistakenly named in the plural. It actually represents the single core circuit template.
 
 ## -remarks
 
