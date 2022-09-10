@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMUpdateExternalFonts
 title: OEMUpdateExternalFonts function (printoem.h)
-description: OEMUpdateExternalFonts function
-old-location: print\oemupdateexternalfonts.htm
+description: Describes the OEMUpdateExternalFonts function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/11/2022
 keywords: ["OEMUpdateExternalFonts function"]
 ms.keywords: OEMUpdateExternalFonts, OEMUpdateExternalFonts function [Print Devices], print.oemupdateexternalfonts, print_obsoletefunctions_f42779e4-8a2d-45eb-801c-67e7e69cb96a.xml, printoem/OEMUpdateExternalFonts
 req.header: printoem.h
@@ -40,16 +39,24 @@ api_name:
  - OEMUpdateExternalFonts
 ---
 
-# OEMUpdateExternalFonts function
-
-
 ## -description
+
+Describes the **OEMUpdateExternalFonts** function.
 
 ## -parameters
 
 ### -param hPrinter
 
+Defines the **HANDLE** parameter *hPrinter*.
+
 ### -param hHeap
+
+Defines the **HANDLE** parameter *hHeap*.
 
 ### -param pwstrCartridges
 
+Defines the **PWSTR** parameter *pwstrCartridges*.
+
+## -returns
+
+Returns a **BOOL** value.

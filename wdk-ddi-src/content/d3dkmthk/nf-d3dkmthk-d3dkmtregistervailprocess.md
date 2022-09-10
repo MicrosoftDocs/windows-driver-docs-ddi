@@ -19,7 +19,7 @@ req.lib: gdi32.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: WIN11_NEXT
+req.target-min-winverclnt: Windows 11, version 22H2
 req.target-min-winversvr: 
 req.target-type: Universal
 req.type-library: 

@@ -3,7 +3,7 @@ UID: NN:printerextension.IPrinterScriptablePropertyBag2
 title: IPrinterScriptablePropertyBag2 (printerextension.h)
 description: Defines the IPrinterScriptablePropertyBag2 interface.
 tech.root: print
-ms.date: 06/11/2021
+ms.date: 08/04/2022
 keywords: ["IPrinterScriptablePropertyBag2 interface"]
 ms.keywords: IPrinterScriptablePropertyBag2, IPrinterScriptablePropertyBag2 interface [Print Devices], IPrinterScriptablePropertyBag2 interface [Print Devices],described, print.iprinterscriptablepropertybag2, printerextension/IPrinterScriptablePropertyBag2
 req.header: printerextension.h
@@ -38,8 +38,6 @@ api_location:
 api_name:
  - IPrinterScriptablePropertyBag2
 ---
-
-# IPrinterScriptablePropertyBag2 interface
 
 ## -description
 

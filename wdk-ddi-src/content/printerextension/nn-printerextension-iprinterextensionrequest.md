@@ -2,16 +2,15 @@
 UID: NN:printerextension.IPrinterExtensionRequest
 title: IPrinterExtensionRequest (printerextension.h)
 description: Completes the given extension event with either a cancellation or success.
-old-location: print\iprinterextensionrequest_interface.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/04/2022
 keywords: ["IPrinterExtensionRequest interface"]
 ms.keywords: IPrinterExtensionRequest, IPrinterExtensionRequest interface [Print Devices], IPrinterExtensionRequest interface [Print Devices],described, print.iprinterextensionrequest_interface, printerextension/IPrinterExtensionRequest
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,14 +39,9 @@ api_name:
  - IPrinterExtensionRequest
 ---
 
-# IPrinterExtensionRequest interface
-
-
 ## -description
 
 Completes the given extension event with either a cancellation  or success.
-
-## -inheritance
 
 ## -see-also
 

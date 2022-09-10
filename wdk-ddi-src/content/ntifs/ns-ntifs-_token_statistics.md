@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._TOKEN_STATISTICS
-title: _TOKEN_STATISTICS (ntifs.h)
+title: TOKEN_STATISTICS (ntifs.h)
 description: TOKEN_STATISTICS contains information about an access token. A driver can retrieve this information by calling SeQueryInformationToken or ZwQueryInformationToken.
 old-location: ifsk\token_statistics.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/26/2022
 keywords: ["TOKEN_STATISTICS structure"]
 ms.keywords: "*PTOKEN_STATISTICS, PTOKEN_STATISTICS, PTOKEN_STATISTICS structure pointer [Installable File System Drivers], TOKEN_STATISTICS, TOKEN_STATISTICS structure [Installable File System Drivers], _TOKEN_STATISTICS, ifsk.token_statistics, ntifs/PTOKEN_STATISTICS, ntifs/TOKEN_STATISTICS, securitystructures_5934a44f-c54e-44fe-a1c8-50b656b2b1f5.xml"
 req.header: ntifs.h
@@ -46,18 +46,17 @@ api_name:
  - TOKEN_STATISTICS
 ---
 
-# _TOKEN_STATISTICS structure
-
+# TOKEN_STATISTICS structure
 
 ## -description
 
-TOKEN_STATISTICS contains information about an access token. A driver can retrieve this information by calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a> or <a href="/previous-versions/ff567055(v=vs.85)">ZwQueryInformationToken</a>.
+The **TOKEN_STATISTICS** structure contains information about an access token. A driver can retrieve this information by calling [**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md) or [**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md).
 
 ## -struct-fields
 
 ### -field TokenId
 
-Specifies a locally unique identifier (<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) that identifies this instance of the token object.
+Specifies a locally unique identifier ([**LUID**](../igpupvdev/ns-igpupvdev-_luid.md)) that identifies this instance of the token object.
 
 ### -field AuthenticationId
 
@@ -69,11 +68,11 @@ Specifies the time at which this token expires. Expiration times for access toke
 
 ### -field TokenType
 
-Specifies a <a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_type">TOKEN_TYPE</a> enumerated type indicating whether the token is a primary or impersonation token.
+Specifies a [**TOKEN_TYPE**](ne-ntifs-_token_type.md) enumerated type indicating whether the token is a primary or impersonation token.
 
 ### -field ImpersonationLevel
 
-Specifies a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> enumerated type indicating the impersonation level of the token. This member is valid only if the <b>TokenType</b> is TokenImpersonation.
+Specifies a [**SECURITY_IMPERSONATION_LEVEL**](../wdm/ne-wdm-_security_impersonation_level.md) enumerated type indicating the impersonation level of the token. This member is valid only if the **TokenType** is TokenImpersonation.
 
 ### -field DynamicCharged
 
@@ -85,7 +84,7 @@ Specifies the portion of the memory allocated for storing a DACL and primary gro
 
 ### -field GroupCount
 
-Specifies the number of supplemental group security identifiers (<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>) included in the token.
+Specifies the number of supplemental group security identifiers ([**SID**](ns-ntifs-_sid.md)) included in the token.
 
 ### -field PrivilegeCount
 
@@ -97,37 +96,20 @@ Specifies an LUID that changes each time the token is modified. An application c
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>
+[**ACL**](../wdm/ns-wdm-_acl.md)
 
+[**LUID**](../igpupvdev/ns-igpupvdev-_luid.md)
 
+[**SECURITY_IMPERSONATION_LEVEL**](../wdm/ne-wdm-_security_impersonation_level.md)
 
-<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
+[**SID**](ns-ntifs-_sid.md)
 
+[**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md)
 
+[**TOKEN_INFORMATION_CLASS**](ne-ntifs-_token_information_class.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
+[**TOKEN_TYPE**](ne-ntifs-_token_type.md)
 
+[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_information_class">TOKEN_INFORMATION_CLASS</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_type">TOKEN_TYPE</a>
-
-
-
-<a href="/previous-versions/ff567055(v=vs.85)">ZwQueryInformationToken</a>
-
-
-
-<a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>
-
+[**ZwSetInformationToken**](nf-ntifs-zwsetinformationtoken.md)

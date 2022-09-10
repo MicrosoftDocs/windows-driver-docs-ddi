@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMUpgradeRegistry
 title: OEMUpgradeRegistry function (printoem.h)
-description: OEMUpgradeRegistry function
-old-location: print\oemupgraderegistry.htm
+description: Describes the OEMUpgradeRegistry function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/11/2022
 keywords: ["OEMUpgradeRegistry function"]
 ms.keywords: OEMUpgradeRegistry, OEMUpgradeRegistry function [Print Devices], print.oemupgraderegistry, print_obsoletefunctions_5837e384-9879-4909-8dfa-f3c74486bde0.xml, printoem/OEMUpgradeRegistry
 req.header: printoem.h
@@ -40,19 +39,28 @@ api_name:
  - OEMUpgradeRegistry
 ---
 
-# OEMUpgradeRegistry function
-
-
 ## -description
+
+Describes the **OEMUpgradeRegistry** function.
 
 ## -parameters
 
 ### -param dwLevel
 
+Defines the **DWORD** parameter *dwLevel*.
+
 ### -param pDriverUpgradeInfo
+
+Defines the **PBYTE** parameter *pDriverUpgradeInfo*.
 
 ### -param pfnUpgrade
 
+Defines the **PFN_DrvUpgradeRegistrySetting** parameter *pfnUpgrade*.
+
+## -returns
+
+Returns a **BOOL** value.
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvupgraderegistrysetting">DrvUpgradeRegistrySetting</a>
+[DrvUpgradeRegistrySetting](./nc-printoem-pfn_drvupgraderegistrysetting.md)

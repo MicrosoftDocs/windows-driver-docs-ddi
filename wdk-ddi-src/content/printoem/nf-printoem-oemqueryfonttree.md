@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMQueryFontTree
 title: OEMQueryFontTree function (printoem.h)
-description: The OEMQueryFontTree function provides GDI with a pointer to a structure that defines one of the following.
-old-location: print\oemqueryfonttree.htm
+description: The OEMQueryFontTree function provides GDI with a pointer to a structure that defines mapping of glyph and kerning handles.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/10/2022
 keywords: ["OEMQueryFontTree function"]
 ms.keywords: OEMQueryFontTree, OEMQueryFontTree function [Print Devices], print.oemqueryfonttree, print_unidrv-pscript_rendering_f069b851-3104-4cca-8902-d844350a719e.xml, printoem/OEMQueryFontTree
 req.header: printoem.h
@@ -40,32 +39,36 @@ api_name:
  - OEMQueryFontTree
 ---
 
-# OEMQueryFontTree function
-
-
 ## -description
 
-The <code>OEMQueryFontTree</code> function provides GDI with a pointer to a structure that defines one of the following: 
-<ul>
-<li>
-A mapping from Unicode to glyph handles, including glyph variants 
+The **OEMQueryFontTree** function provides GDI with a pointer to a structure that defines one of the following:
 
-</li>
-<li>
-A mapping of kerning pairs to kerning handles
+- A mapping from Unicode to glyph handles, including glyph variants
 
-</li>
-</ul>
+- A mapping of kerning pairs to kerning handles
 
 ## -parameters
 
 ### -param dhpdev
 
+Defines the **DHPDEV** parameter *dhpdev*.
+
 ### -param iFile
+
+Defines the **ULONG_PTR** parameter *iFile*.
 
 ### -param iFace
 
+Defines the **ULONG** parameter *iFace*.
+
 ### -param iMode
+
+Defines the **ULONG** parameter *iMode*.
 
 ### -param pid
 
+Defines the **ULONG_PTR** parameter *pid*.
+
+## -returns
+
+Returns a **PVOID** value.

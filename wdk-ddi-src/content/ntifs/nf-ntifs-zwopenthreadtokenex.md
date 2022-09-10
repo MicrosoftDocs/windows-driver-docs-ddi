@@ -42,159 +42,76 @@ api_name:
 
 # ZwOpenThreadTokenEx function
 
-
 ## -description
 
-The <b>ZwOpenThreadTokenEx</b> routine opens the access token associated with a thread.
+The **ZwOpenThreadTokenEx** routine opens the access token associated with a thread.
 
 ## -parameters
 
 ### -param ThreadHandle [in]
 
-
-Handle to the thread whose access token is to be opened. The handle must have THREAD_QUERY_INFORMATION access. Use the <b>NtCurrentThread</b> macro to specify the current thread.
+Handle to the thread whose access token is to be opened. The handle must have THREAD_QUERY_INFORMATION access. Use the **NtCurrentThread** macro to specify the current thread.
 
 ### -param DesiredAccess [in]
 
-
-
-<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">DACL</a>) to determine which access rights are granted or denied.
+[**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask) structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list ([**DACL**](../wdm/ns-wdm-_acl.md)) to determine which access rights are granted or denied.
 
 ### -param OpenAsSelf [in]
 
+Boolean value specifying whether the access check is to be made against the security context of the thread calling **ZwOpenThreadTokenEx** or against the security context of the process for the calling thread.
 
-Boolean value specifying whether the access check is to be made against the security context of the thread calling <b>ZwOpenThreadTokenEx</b> or against the security context of the process for the calling thread. 
-
-If this parameter is <b>FALSE</b>, the access check is performed using the security context for the calling thread. If the thread is impersonating a client, this security context can be that of a client process. If this parameter is <b>TRUE</b>, the access check is made using the security context of the process for the calling thread.
+If this parameter is **FALSE**, the access check is performed using the security context for the calling thread. If the thread is impersonating a client, this security context can be that of a client process. If this parameter is **TRUE**, the access check is made using the security context of the process for the calling thread.
 
 ### -param HandleAttributes [in]
-
 
 Attributes for the created handle. Only OBJ_KERNEL_HANDLE is currently supported. If the caller is not running in the system process context, it must specify OBJ_KERNEL_HANDLE for this parameter.
 
 ### -param TokenHandle [out]
 
-
 Pointer to a caller-allocated variable that receives a handle to the newly opened access token.
 
 ## -returns
 
-<b>ZwOpenThreadTokenEx</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following: 
+**ZwOpenThreadTokenEx** returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>ThreadHandle</i> did not have THREAD_QUERY_INFORMATION access. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_CANT_OPEN_ANONYMOUS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The client requested the SecurityAnonymous impersonation level. However, an anonymous token cannot be opened. For more information, see <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>ThreadHandle</i> was not a valid handle. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified <i>HandleAttributes</i> did not include OBJ_KERNEL_HANDLE. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_TOKEN</b></dt>
-</dl>
-</td>
-<td width="60%">
-An attempt has been made to open a token associated with a thread that is not currently impersonating a client. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_OBJECT_TYPE_MISMATCH</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>ThreadHandle</i> was not a thread handle. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_ACCESS_DENIED | **ThreadHandle** did not have THREAD_QUERY_INFORMATION access. |
+| STATUS_CANT_OPEN_ANONYMOUS | The client requested the SecurityAnonymous impersonation level. However, an anonymous token cannot be opened. For more information, see [**SECURITY_IMPERSONATION_LEVEL**](../wdm/ne-wdm-_security_impersonation_level.md). |
+| STATUS_INVALID_HANDLE | **ThreadHandle** was not a valid handle. |
+| STATUS_INVALID_PARAMETER | The specified **HandleAttributes** did not include OBJ_KERNEL_HANDLE. |
+| STATUS_NO_TOKEN | An attempt has been made to open a token associated with a thread that is not currently impersonating a client. |
+| STATUS_OBJECT_TYPE_MISMATCH | **ThreadHandle** was not a thread handle. |
 
 ## -remarks
 
-<b>ZwOpenThreadTokenEx</b> opens the access token associated with a thread and returns a handle for that token. 
+**ZwOpenThreadTokenEx** opens the access token associated with a thread and returns a handle for that token.
 
-The <i>OpenAsSelf</i> parameter allows a server process to open the access token for a client process when the client process has specified the SecurityIdentification impersonation level for the <b>SECURITY_IMPERSONATION_LEVEL</b> enumerated type. Without this parameter, the calling process is not be able to open the client's access token using the client's security context because it is impossible to open executive-level objects using the SecurityIdentification impersonation level. 
+The **OpenAsSelf** parameter allows a server process to open the access token for a client process when the client process has specified the SecurityIdentification impersonation level for the **SECURITY_IMPERSONATION_LEVEL** enumerated type. Without this parameter, the calling process is not be able to open the client's access token using the client's security context because it is impossible to open executive-level objects using the SecurityIdentification impersonation level.
 
-Any handle obtained by calling <b>ZwOpenThreadTokenEx</b> must eventually be released by calling <b>ZwClose</b>. 
+Any handle obtained by calling **ZwOpenThreadTokenEx** must eventually be released by calling **ZwClose**.
 
-Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the <i>HandleAttributes</i> parameter of <b>ZwOpenThreadTokenEx</b>. This restricts the use of the handle returned by <b>ZwOpenThreadTokenEx</b> to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. 
+Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the **HandleAttributes** parameter of **ZwOpenThreadTokenEx**. This restricts the use of the handle returned by **ZwOpenThreadTokenEx** to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK.
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwOpenThreadTokenEx</b> function occurs in user mode, you should use the name "<b>NtOpenThreadTokenEx</b>" instead of "<b>ZwOpenThreadTokenEx</b>".</div>
-<div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+> [!NOTE]
+> If the call to the **ZwOpenThreadTokenEx** function occurs in user mode, you should use the name "**NtOpenThreadTokenEx**" instead of "**ZwOpenThreadTokenEx**".
+
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
+<[**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask)
 
+[**ACL**](../wdm/ns-wdm-_acl.md)
 
+[**PsDereferencePrimaryToken**](nf-ntifs-psdereferenceprimarytoken.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>
+[**SECURITY_IMPERSONATION_LEVEL**](../wdm/ne-wdm-_security_impersonation_level.md)
 
+[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
+[**ZwClose**](../wdm/nf-wdm-zwclose.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psdereferenceprimarytoken">PsDereferencePrimaryToken</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
-
-
-
-<a href="/previous-versions/ff567024(v=vs.85)">ZwOpenProcessTokenEx</a>
-
+[**ZwOpenProcessTokenEx**](nf-ntifs-zwopenprocesstokenex.md)

@@ -1,9 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADAPTERINFO
-title: _D3DKMT_ADAPTERINFO (d3dkmthk.h)
+title: D3DKMT_ADAPTERINFO (d3dkmthk.h)
 description: Supplies configuration information about a graphics adapter.
 old-location: display\d3dkmt_adapterinfo.htm
-ms.date: 03/04/2022
+ms.date: 08/30/2022
 keywords: ["D3DKMT_ADAPTERINFO structure"]
 ms.keywords: D3DKMT_ADAPTERINFO, D3DKMT_ADAPTERINFO structure [Display Devices], _D3DKMT_ADAPTERINFO, d3dkmthk/D3DKMT_ADAPTERINFO, display.d3dkmt_adapterinfo
 req.header: d3dkmthk.h
@@ -43,7 +43,7 @@ api_name:
  - D3DKMT_ADAPTERINFO
 ---
 
-# _D3DKMT_ADAPTERINFO structure
+# D3DKMT_ADAPTERINFO structure
 
 ## -description
 
@@ -57,8 +57,7 @@ A handle to the adapter.
 
 ### -field AdapterLuid
 
-A LUID value that uniquely identifies the adapter, typically until the operating system is rebooted.
-The LUID value changes whenever:
+A LUID value that uniquely identifies the adapter, typically until the operating system is rebooted. The LUID value changes whenever:
 
 - the system is rebooted
 - the adapter's driver is updated
@@ -71,8 +70,8 @@ The number of video present sources supported by the adapter.
 
 ### -field bPrecisePresentRegionsPreferred
 
-If **TRUE**, the adapter prefers precise regions.
+If **TRUE**, the adapter prefers precise present regions.
 
 ## -see-also
 
-- [D3DKMT_ENUMADAPTERS2](ns-d3dkmthk-_d3dkmt_enumadapters2.md)
+[**D3DKMT_ENUMADAPTERS2**](ns-d3dkmthk-_d3dkmt_enumadapters2.md)

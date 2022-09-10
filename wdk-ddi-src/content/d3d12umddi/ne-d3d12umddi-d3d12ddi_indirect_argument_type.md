@@ -3,7 +3,7 @@ UID: NE:d3d12umddi.D3D12DDI_INDIRECT_ARGUMENT_TYPE
 title: D3D12DDI_INDIRECT_ARGUMENT_TYPE
 description: Specifies the type of the indirect parameter for indirect dispatch.
 tech.root: display
-ms.date: 03/24/2020
+ms.date: 08/22/2022
 keywords: ["D3D12DDI_INDIRECT_ARGUMENT_TYPE enumeration"]
 ms.keywords: D3D12DDI_INDIRECT_ARGUMENT_TYPE, D3D12DDI_INDIRECT_ARGUMENT_TYPE,
 req.header: d3d12umddi.h
@@ -43,43 +43,39 @@ Specifies the type of the indirect parameter for indirect dispatch.
 
 ## -enum-fields
 
-### -field D3D12DDI_INDIRECT_ARGUMENT_TYPE_11_0
-
-The driver supports Direct3D version 11 pipeline.
-
-### -field D3D12_INDIRECT_ARGUMENT_TYPE_DRAW
+### -field D3D12DDI_INDIRECT_ARGUMENT_TYPE_DRAW
 
 Indicates the type is a Draw call.
 
-### -field D3D12_INDIRECT_ARGUMENT_TYPE_DRAW_INDEXED
+### -field D3D12DDI_INDIRECT_ARGUMENT_TYPE_DRAW_INDEXED
 
 Indicates the type is a DrawIndexed call.
 
-### -field D3D12_INDIRECT_ARGUMENT_TYPE_DISPATCH
+### -field D3D12DDI_INDIRECT_ARGUMENT_TYPE_DISPATCH
 
 Indicates the type is a Dispatch call.
 
-### -field D3D12_INDIRECT_ARGUMENT_TYPE_VERTEX_BUFFER_VIEW
+### -field D3D12DDI_INDIRECT_ARGUMENT_TYPE_VERTEX_BUFFER_VIEW
 
 Indicates the type is a vertex buffer view.
 
-### -field D3D12_INDIRECT_ARGUMENT_TYPE_INDEX_BUFFER_VIEW
+### -field D3D12DDI_INDIRECT_ARGUMENT_TYPE_INDEX_BUFFER_VIEW
 
 Indicates the type is an index buffer view.
 
-### -field D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT
+### -field D3D12DDI_INDIRECT_ARGUMENT_TYPE_CONSTANT
 
 Indicates the type is a constant.
 
-### -field D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT_BUFFER_VIEW
+### -field D3D12DDI_INDIRECT_ARGUMENT_TYPE_CONSTANT_BUFFER_VIEW
 
 Indicates the type is a constant buffer view (CBV).
 
-### -field D3D12_INDIRECT_ARGUMENT_TYPE_SHADER_RESOURCE_VIEW
+### -field D3D12DDI_INDIRECT_ARGUMENT_TYPE_SHADER_RESOURCE_VIEW
 
 Indicates the type is a shader resource view (SRV).
 
-### -field D3D12_INDIRECT_ARGUMENT_TYPE_UNORDERED_ACCESS_VIEW
+### -field D3D12DDI_INDIRECT_ARGUMENT_TYPE_UNORDERED_ACCESS_VIEW
 
 Indicates the type is an unordered access view (UAV).
 

@@ -71,7 +71,7 @@ A [WPP_RECORDER_TRI_STATE](./ne-wpprecorder-wpp_recorder_tri_state.md)-typed val
 * If set to **WppRecorderFalse**, the timestamp will not be recorded.
 * If set to **WppRecorderDefault**, it has the same effect as **WppRecorderFalse**, unless the INF file for the driver package sets **WppRecorder_UseTimeStamp** to 1, in which case it means **WppRecorderTrue**.
 
-This field is available starting in WDK Insider Preview build 22557. For more info, see [Inflight Trace Recorder (IFR) for logging traces](/windows-hardware/drivers/devtest/using-wpp-recorder).
+This field is available starting in Windows 11, version 22H2. For more info, see [Inflight Trace Recorder (IFR) for logging traces](/windows-hardware/drivers/devtest/using-wpp-recorder).
 
 ### -field PreciseTimeStamp
 
@@ -81,7 +81,7 @@ A [WPP_RECORDER_TRI_STATE](./ne-wpprecorder-wpp_recorder_tri_state.md)-typed val
 * If set to **WppRecorderFalse**, the timestamp will not be recorded.
 * If set to **WppRecorderDefault**, it has the same effect as **WppRecorderFalse**, unless the INF file for the driver package sets **WppRecorder_UseTimeStamp** and **WppRecorder_PreciseTimeStamp** to 1, in which case it means **WppRecorderTrue**.
 
-This field is available starting in WDK Insider Preview build 22557. For more info, see [Inflight Trace Recorder (IFR) for logging traces](/windows-hardware/drivers/devtest/using-wpp-recorder).
+This field is available starting in Windows 11, version 22H2. For more info, see [Inflight Trace Recorder (IFR) for logging traces](/windows-hardware/drivers/devtest/using-wpp-recorder).
 
 ## -remarks
 

@@ -1,14 +1,13 @@
 ---
 UID: NS:printoem._PDEV_ADJUST_GRAPHICS_RESOLUTION
-title: _PDEV_ADJUST_GRAPHICS_RESOLUTION (printoem.h)
+title: PDEV_ADJUST_GRAPHICS_RESOLUTION (printoem.h)
 description: The PDEV_ADJUST_GRAPHICS_RESOLUTION structure specifies a graphics resolution value.
-old-location: print\pdev_adjust_graphics_resolution.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/12/2022
 keywords: ["PDEV_ADJUST_GRAPHICS_RESOLUTION structure"]
 ms.keywords: "*PPDEV_ADJUST_GRAPHICS_RESOLUTION, PDEV_ADJUST_GRAPHICS_RESOLUTION, PDEV_ADJUST_GRAPHICS_RESOLUTION structure [Print Devices], PPDEV_ADJUST_GRAPHICS_RESOLUTION, PPDEV_ADJUST_GRAPHICS_RESOLUTION structure pointer [Print Devices], _PDEV_ADJUST_GRAPHICS_RESOLUTION, print.pdev_adjust_graphics_resolution, print_unidrv-pscript_rendering_4e6d42c6-744c-4451-85a3-f5769c0ebfd3.xml, printoem/PDEV_ADJUST_GRAPHICS_RESOLUTION, printoem/PPDEV_ADJUST_GRAPHICS_RESOLUTION"
 req.header: printoem.h
-req.include-header: 
+req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -46,20 +45,16 @@ api_name:
  - PDEV_ADJUST_GRAPHICS_RESOLUTION
 ---
 
-# _PDEV_ADJUST_GRAPHICS_RESOLUTION structure
-
-
 ## -description
 
-The PDEV_ADJUST_GRAPHICS_RESOLUTION structure specifies a graphics resolution value.
+The **PDEV_ADJUST_GRAPHICS_RESOLUTION** structure specifies a graphics resolution value.
 
 ## -struct-fields
 
 ### -field ptGraphicsResolution
 
-A POINT structure that specifies the resolution of the graphics area, in dots per inch (DPI).
+A **POINT** structure that specifies the resolution of the graphics area, in dots per inch (DPI).
 
 ## -remarks
 
-The PDEV_ADJUST_GRAPHICS_RESOLUTION structure is available in Windows Vista and later operating systems.
-
+The **PDEV_ADJUST_GRAPHICS_RESOLUTION** structure is available in Windows Vista and later operating systems.

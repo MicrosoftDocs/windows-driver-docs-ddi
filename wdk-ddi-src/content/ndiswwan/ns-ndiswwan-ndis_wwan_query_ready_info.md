@@ -5,7 +5,7 @@ title: NDIS_WWAN_QUERY_READY_INFO
 ms.date: 02/22/2022
 targetos: Windows
 description: The NDIS_WWAN_QUERY_READY_INFO structure represents a SIM slot ID for OID_WWAN_READY_INFO query requests.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: WIN11_NEXT
+req.target-min-winverclnt: Windows 11, version 22H2
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NDIS_WWAN_QUERY_READY_INFO, *PNDIS_WWAN_QUERY_READY_INFO

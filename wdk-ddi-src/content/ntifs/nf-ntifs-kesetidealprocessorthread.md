@@ -4,7 +4,7 @@ title: KeSetIdealProcessorThread function (ntifs.h)
 description: "Microsoft reserves the KeSetIdealProcessorThread function for internal use only. Don't use this function in your code."
 old-location: ifsk\kesetidealprocessorthread.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["KeSetIdealProcessorThread function"]
 ms.keywords: KeSetIdealProcessorThread, KeSetIdealProcessorThread function [Installable File System Drivers], ifsk.kesetidealprocessorthread, keref_3a412d87-c325-4369-99f6-1b31225eb02e.xml, ntifs/KeSetIdealProcessorThread
 req.header: ntifs.h
@@ -42,18 +42,20 @@ api_name:
 
 # KeSetIdealProcessorThread function
 
-
 ## -description
 
-The <b>KeSetIdealProcessorThread</b> routine is reserved for system use.
+The **KeSetIdealProcessorThread** routine is reserved for system use.
 
 ## -parameters
 
 ### -param Thread
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param Processor
 
 Reserved.
 
+## -returns
+
+Reserved.

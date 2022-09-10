@@ -4,7 +4,7 @@ title: DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION (dispmprt.h)
 description: The DxgkDdiOPMGetCOPPCompatibleInformation function retrieves information that is compatible with the Certified Output Protection Protocol (COPP) from the given protected output object.
 old-location: display\dxgkddiopmgetcoppcompatibleinformation.htm
 tech.root: display
-ms.date: 11/18/2021
+ms.date: 05/31/2022
 keywords: ["DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION callback function"]
 ms.keywords: DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION, DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION callback, Dm_Opm_functions_7873b0b1-3983-49c4-8192-b0c59d5ae01c.xml, DxgkDdiOPMGetCOPPCompatibleInformation, DxgkDdiOPMGetCOPPCompatibleInformation callback function [Display Devices], display.dxgkddiopmgetcoppcompatibleinformation, dispmprt/DxgkDdiOPMGetCOPPCompatibleInformation
 req.header: dispmprt.h
@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The *DxgkDdiOPMGetCOPPCompatibleInformation* function retrieves information that is compatible with the Certified Output Protection Protocol (COPP) from the given protected output object.
+The **DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION** function retrieves information that is compatible with the Certified Output Protection Protocol (COPP) from the given protected output object.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ A handle to a context block associated with a display adapter. Previously, the d
 
 The handle to a protected output object. The [*DxgkDdiOPMCreateProtectedOutput*](nc-dispmprt-dxgkddi_opm_create_protected_output.md) function creates the protected output object and returns the handle to the object. The protected output object that corresponds to this handle should have COPP semantics.
 
-### -param PDXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS
+### -param Parameters [in]
 
 A pointer to a [**DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS**](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md) structure that contains the type of COPP-compatible information to retrieve from the protected output object whose handle is specified in the **ProtectedOutputHandle** parameter. *DxgkDdiOPMGetCOPPCompatibleInformation* determines if the parameters contain a valid request from the application that indirectly created the protected output object. For more information, see the Remarks section.
 

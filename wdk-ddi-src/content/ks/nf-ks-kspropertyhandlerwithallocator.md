@@ -2,9 +2,8 @@
 UID: NF:ks.KsPropertyHandlerWithAllocator
 title: KsPropertyHandlerWithAllocator function (ks.h)
 description: The KsPropertyHandlerWithAllocator performs the same handling as KsPropertyHandler, with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters.
-old-location: stream\kspropertyhandlerwithallocator.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 07/13/2022
 keywords: ["KsPropertyHandlerWithAllocator function"]
 ms.keywords: KsPropertyHandlerWithAllocator, KsPropertyHandlerWithAllocator function [Streaming Media Devices], ks/KsPropertyHandlerWithAllocator, ksfunc_bad2a764-641a-4f28-a7e6-7d9a03d300f3.xml, stream.kspropertyhandlerwithallocator
 req.header: ks.h
@@ -40,36 +39,27 @@ api_name:
  - KsPropertyHandlerWithAllocator
 ---
 
-# KsPropertyHandlerWithAllocator function
-
-
 ## -description
 
-The <b>KsPropertyHandlerWithAllocator </b>performs the same handling as <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspropertyhandler">KsPropertyHandler</a>, with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters. If used, the filter may need to free the buffer in some nonconventional manner. IRP_BUFFERED_IO and IRP_DEALLOCATE_BUFFER flags are not set when using a custom allocator.
+The **KsPropertyHandlerWithAllocator** performs the same handling as [KsPropertyHandler](./nf-ks-kspropertyhandler.md), with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters. If used, the filter may need to free the buffer in some nonconventional manner. IRP_BUFFERED_IO and IRP_DEALLOCATE_BUFFER flags are not set when using a custom allocator.
 
 ## -parameters
 
 ### -param Irp [in]
 
-
 Specifies the IRP with the property request being handled.
 
 ### -param PropertySetsCount [in]
-
 
 Specifies the number of property sets being passed.
 
 ### -param PropertySet [in]
 
-
 Specifies the pointer to an array of property set information.
 
 ### -param Allocator [in, optional]
 
-
 Optionally points to an allocation function used to allocate memory to store the property parameters.
-
-### -param OPTIONAL
 
 ### -param PropertyItemSize [in, optional]
 
@@ -77,18 +67,16 @@ Optionally contains the size of each KSPROPERTY_ITEM structure in the properties
 
 ## -returns
 
-The <b>KsPropertyHandler </b>function returns STATUS_SUCCESS if successful, or an error specific to the property being handled if unsuccessful. The function sets the Irp->IoStatus.Information member, either through setting it to zero because of an internal error, or through a property handler setting it. The function does not set the lrp->IoStatus.Status member nor does it complete the IRP.
+The **KsPropertyHandler** function returns STATUS_SUCCESS if successful, or an error specific to the property being handled if unsuccessful. The function sets the Irp->IoStatus.Information member, either through setting it to zero because of an internal error, or through a property handler setting it. The function does not set the lrp->IoStatus.Status member nor does it complete the IRP.
 
-On 64-bit platforms, if the <i>PropertyItemSize</i> parameter is not a multiple of 8, STATUS_INVALID_PARAMETER is returned, and the call fails.
+On 64-bit platforms, if the *PropertyItemSize* parameter is not a multiple of 8, STATUS_INVALID_PARAMETER is returned, and the call fails.
 
 ## -remarks
 
-<i>KsPropertyHandlerWithAllocator</i> places a pointer to the relevant KSPROPERTY_ITEM structure in the <b>Irp->Tail.Overlay.DriverContext</b> parameter in the IRP. The minidriver can use the KSPROPERTY_ITEM_IRP_STORAGE macro, defined in <i>ks.h</i>, to access this pointer.
+*KsPropertyHandlerWithAllocator* places a pointer to the relevant KSPROPERTY_ITEM structure in the **Irp->Tail.Overlay.DriverContext** parameter in the IRP. The minidriver can use the KSPROPERTY_ITEM_IRP_STORAGE macro, defined in *ks.h*, to access this pointer.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfastpropertyhandler">KsFastPropertyHandler</a>
+[KsFastPropertyHandler](./nf-ks-ksfastpropertyhandler.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspropertyhandler">KsPropertyHandler</a>
+[KsPropertyHandler](./nf-ks-kspropertyhandler.md)

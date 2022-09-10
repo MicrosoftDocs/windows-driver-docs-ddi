@@ -5,7 +5,7 @@ title: NDIS_WWAN_UE_POLICY_INFO
 ms.date: 03/11/2022
 targetos: Windows
 description: The NDIS_WWAN_UE_POLICY_INFO structure represents the UE policy information of the MB device.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: WIN11_NEXT
+req.target-min-winverclnt: Windows 11, version 22H2
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NDIS_WWAN_UE_POLICY_INFO, *PNDIS_WWAN_UE_POLICY_INFO
@@ -61,7 +61,7 @@ The header with type, revision, and size information about the **NDIS_WWAN_UE_PO
 | Revision | NDIS_WWAN_UE_POLICY_INFO_REVISION_1 |
 | Size | sizeof(NDIS_WWAN_UE_POLICY_INFO) |
 
-For more information about these members, see [**NDIS_OBJECT_HEADER**](/objectheader/ns-objectheader-ndis_object_header.md).
+For more information about these members, see [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md).
 
 ### -field uStatus
 

@@ -3,7 +3,7 @@ UID: NS:ntifs._FILE_REMOTE_PROTOCOL_INFORMATION
 title: FILE_REMOTE_PROTOCOL_INFORMATION
 description: The FILE_REMOTE_PROTOCOL_INFORMATION structure contains file remote protocol information.
 tech.root: ifsk
-ms.date: 08/19/2019
+ms.date: 05/24/2022
 keywords: ["FILE_REMOTE_PROTOCOL_INFORMATION structure"]
 ms.keywords: FILE_REMOTE_PROTOCOL_INFORMATION, FILE_REMOTE_PROTOCOL_INFORMATION, *PFILE_REMOTE_PROTOCOL_INFORMATION,
 req.header: ntifs.h
@@ -43,10 +43,9 @@ product:
 
 # FILE_REMOTE_PROTOCOL_INFORMATION structure
 
-
 ## -description
 
-The *FILE_REMOTE_PROTOCOL_INFORMATION* structure contains file remote protocol information.  This structure is returned from [FltQueryInformationFile](../fltkernel/nf-fltkernel-fltqueryinformationfile.md) when **FileRemoteProtocolInformation** is passed in as the *FileInformationClass* parameter.
+The **FILE_REMOTE_PROTOCOL_INFORMATION** structure contains file remote protocol information.  This structure is returned from [**FltQueryInformationFile**](../fltkernel/nf-fltkernel-fltqueryinformationfile.md) when **FileRemoteProtocolInformation** is passed in as the **FileInformationClass** parameter.
 
 ## -struct-fields
 
@@ -122,6 +121,8 @@ Should be set to zero. Do not use this member.
 
 ### -field ProtocolSpecific.Smb2.Share.Capabilities
 
+### -field ProtocolSpecific.Smb2.Share.ShareFlags
+
 ### -field ProtocolSpecific.Smb2.Share.CachingFlags
 
 ### -field ProtocolSpecific.Smb2.Share.ShareType
@@ -139,4 +140,3 @@ Should be set to zero. Do not use this member.
 [FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md)
 
 [FltQueryInformationFile](../fltkernel/nf-fltkernel-fltqueryinformationfile.md)
-

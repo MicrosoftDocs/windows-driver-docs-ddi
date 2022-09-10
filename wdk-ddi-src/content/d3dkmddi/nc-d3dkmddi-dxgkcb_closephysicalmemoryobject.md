@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_CLOSEPHYSICALMEMORYOBJECT
 tech.root: display
 title: DXGKCB_CLOSEPHYSICALMEMORYOBJECT
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: The DxgkCbClosePhysicalMemoryObject closes a physical memory object.
 req.assembly: 
@@ -52,6 +52,8 @@ Pointer to a [**DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT**](ns-d3dkmddi-dxgkargcb_
 ## -remarks
 
 If the driver chooses to specify **hAdapterMemoryObject** as part of the [**DXGKCB_DESTROYPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_destroyphysicalmemoryobject.md) call, then it is not necessary to close it via **DXGKCB_CLOSEPHYSICALMEMORYOBJECT** as well.
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 *DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the members of [**DXGKARGCB_ALLOCATEPAGESFORMDL**](ns-d3dkmddi-_dxgkargcb_allocatepagesformdl.md) and then call **DxgkCbClosePhysicalMemoryObject** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 

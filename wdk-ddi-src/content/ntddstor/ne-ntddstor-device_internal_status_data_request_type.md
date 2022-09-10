@@ -3,7 +3,7 @@ UID: NE:ntddstor._DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
 title: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
 description: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE identifies the data type to be queried.
 tech.root: storage
-ms.date: 11/30/2019
+ms.date: 05/20/2022
 ms.keywords: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE, DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE, *PDEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE,
 req.header: ntddstor.h
 req.include-header: 
@@ -39,10 +39,9 @@ product:
 
 # DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE enumeration
 
-
 ## -description
 
-The DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE enum identifies the internal status data type being queried.
+The **DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE** enum identifies the internal status data type being queried.
 
 ## -enum-fields
 
@@ -58,6 +57,14 @@ Query the device's internal status data header. The data header size is always 5
 
 Query the device's internal status data. The data block size is always a multiple of 512 bytes.
 
+### -field DeviceSavedInternalStatusDataHeader
+
+Query the device's saved internal status data header. The data header size is always 512 bytes. Refer to the SCSI specification for more details about the header format.
+
+### -field DeviceSavedInternalStatusData
+
+Query the device's saved internal status data.  The data block size is always a multiple of 512 bytes.
+
 ## -remarks
 
 DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE is a member of the [GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST](ns-ntddstor-get_device_internal_status_data_request.md) structure, which contains all information about the internal status data being requested through [IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG](ni-ntddstor-ioctl_storage_get_device_internal_log.md).
@@ -71,4 +78,3 @@ The [DEVICE_INTERNAL_STATUS_DATA_SET](ne-ntddstor-device_internal_status_data_se
 [GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST](ns-ntddstor-get_device_internal_status_data_request.md)
 
 [IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG](ni-ntddstor-ioctl_storage_get_device_internal_log.md)
-

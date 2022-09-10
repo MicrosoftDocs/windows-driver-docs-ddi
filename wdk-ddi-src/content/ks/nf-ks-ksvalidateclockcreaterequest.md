@@ -2,9 +2,8 @@
 UID: NF:ks.KsValidateClockCreateRequest
 title: KsValidateClockCreateRequest function (ks.h)
 description: The KsValidateClockCreateRequest function validates the clock creation request and returns the create structure associated with the request.This can only be called at PASSIVE_LEVEL.
-old-location: stream\ksvalidateclockcreaterequest.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 07/13/2022
 keywords: ["KsValidateClockCreateRequest function"]
 ms.keywords: KsValidateClockCreateRequest, KsValidateClockCreateRequest function [Streaming Media Devices], ks/KsValidateClockCreateRequest, ksfunc_e681d03e-44fb-43fb-b317-dc7e63fe6cb2.xml, stream.ksvalidateclockcreaterequest
 req.header: ks.h
@@ -41,12 +40,9 @@ api_name:
  - KsValidateClockCreateRequest
 ---
 
-# KsValidateClockCreateRequest function
-
-
 ## -description
 
-The <b>KsValidateClockCreateRequest</b> function validates the clock creation request and returns the create structure associated with the request.
+The **KsValidateClockCreateRequest** function validates the clock creation request and returns the create structure associated with the request.
 
 This can only be called at PASSIVE_LEVEL.
 
@@ -54,17 +50,12 @@ This can only be called at PASSIVE_LEVEL.
 
 ### -param Irp
 
-### -param ClockCreate [out]
+Specifies the IRP with the clock create request being handled.
 
+### -param ClockCreate [out]
 
 Specifies the clock create structure pointer passed to the create request.
 
-
-### -param lrp [in]
-
-Specifies the IRP with the clock create request being handled.
-
 ## -returns
 
-The <b>KsValidateClockCreateRequest</b> function returns STATUS_SUCCESS if successful, or an error if unsuccessful.
-
+The **KsValidateClockCreateRequest** function returns STATUS_SUCCESS if successful, or an error if unsuccessful.

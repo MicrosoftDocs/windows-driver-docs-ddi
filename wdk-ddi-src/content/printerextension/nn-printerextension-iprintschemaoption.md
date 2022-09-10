@@ -3,14 +3,14 @@ UID: NN:printerextension.IPrintSchemaOption
 title: IPrintSchemaOption (printerextension.h)
 description: Exposes a Print Schema Option object.
 tech.root: print
-ms.date: 06/11/2021
+ms.date: 08/04/2022
 keywords: ["IPrintSchemaOption interface"]
 ms.keywords: IPrintSchemaOption, IPrintSchemaOption interface [Print Devices], IPrintSchemaOption interface [Print Devices],described, print.iprintschemaoption_interface, printerextension/IPrintSchemaOption
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -38,8 +38,6 @@ api_location:
 api_name:
  - IPrintSchemaOption
 ---
-
-# IPrintSchemaOption interface
 
 ## -description
 

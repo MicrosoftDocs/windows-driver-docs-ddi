@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._REPARSE_DATA_BUFFER
-title: _REPARSE_DATA_BUFFER (ntifs.h)
+title: REPARSE_DATA_BUFFER (ntifs.h)
 description: The REPARSE_DATA_BUFFER structure contains reparse point data for a Microsoft reparse point.
 old-location: ifsk\reparse_data_buffer.htm
 tech.root: ifsk
-ms.date: 05/16/2019
+ms.date: 07/26/2022
 keywords: ["REPARSE_DATA_BUFFER structure"]
 ms.keywords: "*PREPARSE_DATA_BUFFER, PREPARSE_DATA_BUFFER, PREPARSE_DATA_BUFFER structure pointer [Installable File System Drivers], REPARSE_DATA_BUFFER, REPARSE_DATA_BUFFER structure [Installable File System Drivers], _REPARSE_DATA_BUFFER, fileinformationstructures_4f1b658e-1833-421f-a726-448b20b1c595.xml, ifsk.reparse_data_buffer, ntifs/PREPARSE_DATA_BUFFER, ntifs/REPARSE_DATA_BUFFER"
 req.header: ntifs.h
@@ -46,8 +46,7 @@ api_name:
  - REPARSE_DATA_BUFFER
 ---
 
-# _REPARSE_DATA_BUFFER structure
-
+# REPARSE_DATA_BUFFER structure
 
 ## -description
 
@@ -171,5 +170,4 @@ For more information about reparse point tags, see the Microsoft Windows SDK doc
 
 [REPARSE_GUID_DATA_BUFFER](ns-ntifs-_reparse_guid_data_buffer.md)
 
-[ZwFsControlFile](/previous-versions/ff566462(v=vs.85))
-
+[**ZwFsControlFile**](nf-ntifs-zwfscontrolfile.md)

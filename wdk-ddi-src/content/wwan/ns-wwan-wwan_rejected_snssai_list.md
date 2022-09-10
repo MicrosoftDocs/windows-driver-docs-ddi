@@ -5,7 +5,7 @@ title: WWAN_REJECTED_SNSSAI_LIST
 ms.date: 01/14/2022
 targetos: Windows
 description: The WWAN_REJECTED_SNSSAI_LIST structure represents a list of single Network Slice Selection Assistance Information (S-NSSAIs) that are not allowed in the current PLMN or registration area.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: WIN11_NEXT
+req.target-min-winverclnt: Windows 11, version 22H2
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: WWAN_REJECTED_SNSSAI_LIST, *PWWAN_REJECTED_SNSSAI_LIST

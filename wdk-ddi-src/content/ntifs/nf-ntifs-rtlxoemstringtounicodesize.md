@@ -4,7 +4,7 @@ title: RtlxOemStringToUnicodeSize function (ntifs.h)
 description: "Microsoft reserves the RtlxOemStringToUnicodeSize function for internal use only. Don't use this function in your code."
 old-location: ifsk\rtlxoemstringtounicodesize.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["RtlxOemStringToUnicodeSize function"]
 ms.keywords: RtlxOemStringToUnicodeSize, RtlxOemStringToUnicodeSize function [Installable File System Drivers], ifsk.rtlxoemstringtounicodesize, ntifs/RtlxOemStringToUnicodeSize, rtlref_87da05b9-0bd7-415d-b6fd-aa7a6f77cbfb.xml
 req.header: ntifs.h
@@ -42,13 +42,16 @@ api_name:
 
 # RtlxOemStringToUnicodeSize function
 
-
 ## -description
 
-The <b>RtlxOemStringToUnicodeSize</b> routine is reserved for system use - use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtloemstringtounicodesize">RtlOemStringToUnicodeSize</a> instead.
+The **RtlxOemStringToUnicodeSize** routine is reserved for system use - use [**RtlOemStringToUnicodeSize**](nf-ntifs-rtloemstringtounicodesize.md) instead.
 
 ## -parameters
 
 ### -param OemString
 
-<p>Reserved.</p>
+Reserved.
+
+## -returns
+
+Reserved.

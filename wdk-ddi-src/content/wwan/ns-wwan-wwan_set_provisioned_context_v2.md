@@ -5,7 +5,7 @@ title: WWAN_SET_PROVISIONED_CONTEXT_V2
 ms.date: 01/19/2022
 targetos: Windows
 description: The WWAN_SET_PROVISIONED_CONTEXT_V2 structure represents a provisioned context that is supported by a mobile broadband (MBB) device. 
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: WIN11_NEXT
+req.target-min-winverclnt: Windows 11, version 22H2
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: WWAN_SET_PROVISIONED_CONTEXT_V2, *PWWAN_SET_PROVISIONED_CONTEXT_V2

@@ -4,7 +4,7 @@ title: STOR_RICH_DEVICE_DESCRIPTION (storport.h)
 description: The STOR_RICH_DEVICE_DESCRIPTION structure describes the attributes of the physical device for which a driver is requesting a DMA (direct memory access) adapter.
 old-location: storage\stor_rich_device_description.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 08/26/2022
 keywords: ["STOR_RICH_DEVICE_DESCRIPTION structure"]
 ms.keywords: "*PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION structure pointer [Storage Devices], STOR_RICH_DEVICE_DESCRIPTION, STOR_RICH_DEVICE_DESCRIPTION structure [Storage Devices], _STOR_RICH_DEVICE_DESCRIPTION, storage.stor_rich_device_description, storport/PSTOR_RICH_DEVICE_DESCRIPTION, storport/STOR_RICH_DEVICE_DESCRIPTION"
 req.header: storport.h
@@ -62,15 +62,15 @@ The version of the structure. Must be **STOR_RICH_DEVICE_DESCRIPTION_STRUCTURE_V
 
 The size of the structure, in bytes.
 
-### -field VendorId
+### -field VendorId[STOR_VENDOR_ID_LENGTH + 1]
 
 A string representing the device’s vendor ID. May be an empty string if **ModelNumber** is provided.
 
-### -field ModelNumber
+### -field ModelNumber[STOR_MODEL_NUMBER_LENGTH + 1]
 
 A string representing the device’s model.
 
-### -field FirmwareRevision
+### -field FirmwareRevision[STOR_FIRMWARE_REVISION_LENGTH + 1]
 
 A string representing the device’s currently active firmware revision.
 

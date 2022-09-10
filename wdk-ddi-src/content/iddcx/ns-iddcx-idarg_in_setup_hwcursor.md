@@ -4,14 +4,14 @@ title: IDARG_IN_SETUP_HWCURSOR (iddcx.h)
 description: Gives information about new cursors associated with a monitor.
 old-location: display\idarg_in_setup_hwcursor.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/05/2022
 keywords: ["IDARG_IN_SETUP_HWCURSOR structure"]
 ms.keywords: IDARG_IN_SETUP_HWCURSOR, IDARG_IN_SETUP_HWCURSOR structure [Display Devices], display.idarg_in_setup_hwcursor, iddcx/IDARG_IN_SETUP_HWCURSOR
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10
+req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -42,18 +42,22 @@ api_name:
 
 # IDARG_IN_SETUP_HWCURSOR structure
 
-
 ## -description
 
-                 Gives information about new cursors associated with a monitor.
+The **IDARG_IN_SETUP_HWCURSOR** structure is an input parameter passed to [**IddCxMonitorSetupHardwareCursor**](nf-iddcx-iddcxmonitorsetuphardwarecursor.md) to provide information about new cursors associated with a monitor.
 
 ## -struct-fields
 
 ### -field CursorInfo
 
-                     [in] Cursor information for this path.
+[in] An [**IDDCX_CURSOR_CAPS**](ns-iddcx-iddcx_cursor_caps.md) structure that provides information about a cursor's capabilities for this path.
 
 ### -field hNewCursorDataAvailable
 
-                     [in] An event handle that will be triggered when new cursor data is available.
+[in] An event handle that will be triggered when new cursor data is available.
 
+## -see-also
+
+[**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa)
+
+[**IddCxMonitorSetupHardwareCursor**](nf-iddcx-iddcxmonitorsetuphardwarecursor.md)

@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrintSchemaOptionCollection.GetAt
 title: IPrintSchemaOptionCollection::GetAt (printerextension.h)
 description: Gets a pointer to an IPrintSchemaOption object.
-old-location: print\iprintschemaoptioncollection_getat.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrintSchemaOptionCollection::GetAt"]
 ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrintSchemaOptionCollection interface, IPrintSchemaOptionCollection interface [Print Devices],GetAt method, IPrintSchemaOptionCollection.GetAt, IPrintSchemaOptionCollection::GetAt, print.iprintschemaoptioncollection_getat, printerextension/IPrintSchemaOptionCollection::GetAt
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,34 +39,26 @@ api_name:
  - IPrintSchemaOptionCollection::GetAt
 ---
 
-# IPrintSchemaOptionCollection::GetAt
-
-
 ## -description
 
-Gets a pointer to an <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a> object.
+Gets a pointer to an [IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md) object.
 
 ## -parameters
 
 ### -param ulIndex [in]
 
-
-Index of the <b>IPrintSchemaOption</b> object within the collection.
+Index of the **IPrintSchemaOption** object within the collection.
 
 ### -param ppOption [out, retval, optional]
 
-
-Pointer to an <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a> object.
+Pointer to an [IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md) object.
 
 ## -returns
 
-Returns an <b>HRESULT</b> value. If the method call was not successful,  it returns the appropriate <b>HRESULT</b> error code.
+Returns an **HRESULT** value. If the method call was not successful,  it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a>
+[IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoptioncollection">IPrintSchemaOptionCollection</a>
-
+[IPrintSchemaOptionCollection](./nn-printerextension-iprintschemaoptioncollection.md)

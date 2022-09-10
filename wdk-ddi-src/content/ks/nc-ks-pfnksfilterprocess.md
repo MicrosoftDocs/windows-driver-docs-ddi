@@ -2,9 +2,8 @@
 UID: NC:ks.PFNKSFILTERPROCESS
 title: PFNKSFILTERPROCESS (ks.h)
 description: An AVStream minidriver's AVStrMiniFilterProcess routine is called when the filter is meant to process frames. It is used to perform Filter-Centric Processing.
-old-location: stream\avstrminifilterprocess.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 07/13/2022
 keywords: ["PFNKSFILTERPROCESS callback function"]
 ms.keywords: AVStrMiniFilterProcess, AVStrMiniFilterProcess routine [Streaming Media Devices], PFNKSFILTERPROCESS, avstclbk_220bff5f-a966-460b-9157-b512cfc9c336.xml, ks/AVStrMiniFilterProcess, stream.avstrminifilterprocess
 req.header: ks.h
@@ -40,25 +39,19 @@ api_name:
  - PFNKSFILTERPROCESS
 ---
 
-# PFNKSFILTERPROCESS callback function
-
-
 ## -description
 
-An AVStream minidriver's <i>AVStrMiniFilterProcess</i> routine is called when the filter is meant to process frames. It is used to perform <a href="/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a>.
+An AVStream minidriver's *AVStrMiniFilterProcess* routine is called when the filter is meant to process frames. It is used to perform [Filter-Centric Processing](/windows-hardware/drivers/stream/filter-centric-processing).
 
 ## -parameters
 
 ### -param Filter [in]
 
-
-Pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure that must process frames.
+Pointer to the [KSFILTER](./ns-ks-_ksfilter.md) structure that must process frames.
 
 ### -param Index
 
-### -param ProcessPinsIndex [in]
-
-Pointer to an array of <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin_indexentry">KSPROCESSPIN_INDEXENTRY</a> structures that AVStream orders by pin ID.
+Pointer to an array of [KSPROCESSPIN_INDEXENTRY](./ns-ks-_ksprocesspin_indexentry.md) structures that AVStream orders by pin ID.
 
 ## -returns
 
@@ -66,19 +59,16 @@ Return STATUS_SUCCESS to continue processing. Return STATUS_PENDING to stop proc
 
 ## -remarks
 
-The minidriver specifies this routine's address in the <b>Process</b> member of its <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_dispatch">KSFILTER_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the **Process** member of its [KSFILTER_DISPATCH](./ns-ks-_ksfilter_dispatch.md) structure.
 
 The routine is called at either IRQL = DISPATCH_LEVEL or PASSIVE_LEVEL depending on the preference expressed in the filter descriptor. Filter descriptors that specify KSFILTER_FLAG_DISPATCH_LEVEL_PROCESSING may have their process callback at DISPATCH_LEVEL; filter descriptors that do not specify this flag will have their process callback at PASSIVE_LEVEL.
 
-For more information, see <a href="/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a> and <a href="/windows-hardware/drivers/stream/restarting-processing-in-avstream">Restarting Processing in AVStream</a>.
+For more information, see [Filter-Centric Processing](/windows-hardware/drivers/stream/filter-centric-processing) and [Restarting Processing in AVStream](/windows-hardware/drivers/stream/restarting-processing-in-avstream).
 
 This routine is optional.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_dispatch">KSFILTER_DISPATCH</a>
+[KSFILTER_DISPATCH](./ns-ks-_ksfilter_dispatch.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin_indexentry">KSPROCESSPIN_INDEXENTRY</a>
-
+[KSPROCESSPIN_INDEXENTRY](./ns-ks-_ksprocesspin_indexentry.md)

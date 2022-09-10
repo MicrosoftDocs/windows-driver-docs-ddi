@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._SE_EXPORTS
-title: _SE_EXPORTS (ntifs.h)
+title: SE_EXPORTS (ntifs.h)
 description: The SeExports structure is a large external static SE_EXPORTS structure that defines a number of well-known security constants for privilege values and security identifiers.
 old-location: ifsk\seexports.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["SE_EXPORTS structure"]
 ms.keywords: "*PSE_EXPORTS, PSE_EXPORTS, PSE_EXPORTS structure pointer [Installable File System Drivers], SE_EXPORTS, SE_EXPORTS structure [Installable File System Drivers], SeExports, SeExports structure [Installable File System Drivers], _SE_EXPORTS, ifsk.seexports, ntifs/PSE_EXPORTS, ntifs/SeExports, securitystructures_39c83c22-bf3d-4755-ac4c-6bd31f8829d3.xml"
 req.header: ntifs.h
@@ -46,12 +46,11 @@ api_name:
  - SE_EXPORTS
 ---
 
-# _SE_EXPORTS structure
-
+# SE_EXPORTS structure
 
 ## -description
 
-The <b>SeExports</b> structure is a large external static SE_EXPORTS structure that defines a number of well-known security constants for privilege values and security identifiers.
+The **SeExports** structure is a large external static SE_EXPORTS structure that defines a number of well-known security constants for privilege values and security identifiers.
 
 ## -struct-fields
 
@@ -97,13 +96,13 @@ User-mode applications represent this privilege as the following user-right stri
 
 ### -field SeTakeOwnershipPrivilege
 
-The privilege that is required to take ownership of an object without being granted discretionary access. This privilege allows the user to take ownership of any securable object in the system, including Active Directory objects, files and folders, printers, registry keys, processes, and threads. This privilege allows the owner value to be set only to those values that the holder might legitimately assign as the owner of an object. 
+The privilege that is required to take ownership of an object without being granted discretionary access. This privilege allows the user to take ownership of any securable object in the system, including Active Directory objects, files and folders, printers, registry keys, processes, and threads. This privilege allows the owner value to be set only to those values that the holder might legitimately assign as the owner of an object.
 
 User-mode applications represent this privilege as the following user-right string: "Take ownership of files or other objects".
 
 ### -field SeLoadDriverPrivilege
 
-The privilege that is required to load or unload a device driver. This privilege allows a user to install and remove drivers for Plug and Play devices. This privilege is not required if a signed driver for the new hardware already exists in the <i>Driver.cab</i> file on the computer.
+The privilege that is required to load or unload a device driver. This privilege allows a user to install and remove drivers for Plug and Play devices. This privilege is not required if a signed driver for the new hardware already exists in the *Driver.cab* file on the computer.
 
 User-mode applications represent this privilege as the following user-right string: "Load and unload device drivers".
 
@@ -145,62 +144,27 @@ User-mode applications represent this privilege as the following user-right stri
 
 ### -field SeBackupPrivilege
 
-The privilege that is required to perform backup operations. This privilege allows the user to circumvent file and directory permissions to back up the system. This privilege causes the system to grant all read access control to any file, regardless of the access control list (ACL) specified for the file. Any access request other than read is still evaluated with the ACL. This privilege is required by the user-mode <a href="/windows/win32/api/winreg/nf-winreg-regsavekeya">RegSaveKey</a> and <a href="/windows/win32/api/winreg/nf-winreg-regsavekeyexa">RegSaveKeyEx</a> routines. The following access rights are granted if this privilege is held:
+The privilege that is required to perform backup operations. This privilege allows the user to circumvent file and directory permissions to back up the system. This privilege causes the system to grant all read access control to any file, regardless of the access control list (ACL) specified for the file. Any access request other than read is still evaluated with the ACL. This privilege is required by the user-mode [**RegSaveKey**](/windows/win32/api/winreg/nf-winreg-regsavekeya) and [**RegSaveKeyEx**](/windows/win32/api/winreg/nf-winreg-regsavekeyexa) routines. The following access rights are granted if this privilege is held:
 
-<ul>
-<li>
-READ_CONTROL 
+* READ_CONTROL
+* ACCESS_SYSTEM_SECURITY
+* FILE_GENERIC_READ
+* FILE_TRAVERSE
 
-</li>
-<li>
-ACCESS_SYSTEM_SECURITY 
-
-</li>
-<li>
-FILE_GENERIC_READ 
-
-</li>
-<li>
-FILE_TRAVERSE
-
-</li>
-</ul>
 User-mode applications represent this privilege as the following user-right string: "Back up files and directories".
 
 ### -field SeRestorePrivilege
 
-The privilege that is required to perform restore operations. This privilege allows a user to circumvent file and directory permissions when restoring backed-up files and directories and to set any valid security principal as the owner of an object. This privilege causes the system to grant all write access control to any file, regardless of the ACL specified for the file. Any access request other than write is still evaluated with the ACL. Additionally, this privilege enables you to set any valid user or group SID as the owner of a file. This privilege is required by the user-mode <a href="/windows/win32/api/winreg/nf-winreg-regloadkeya">RegLoadKey</a> and <a href="/windows/win32/api/winreg/nf-winreg-regunloadkeya">RegUnLoadKey</a> routines that add or remove a hive from the registry. The following access rights are granted if this privilege is held:
+The privilege that is required to perform restore operations. This privilege allows a user to circumvent file and directory permissions when restoring backed-up files and directories and to set any valid security principal as the owner of an object. This privilege causes the system to grant all write access control to any file, regardless of the ACL specified for the file. Any access request other than write is still evaluated with the ACL. Additionally, this privilege enables you to set any valid user or group SID as the owner of a file. This privilege is required by the user-mode [**RegLoadKey**](/windows/win32/api/winreg/nf-winreg-regloadkeya) and [**RegUnLoadKey**](/windows/win32/api/winreg/nf-winreg-regunloadkeya) routines that add or remove a hive from the registry. The following access rights are granted if this privilege is held:
 
-<ul>
-<li>
-WRITE_DAC 
+* WRITE_DAC
+* WRITE_OWNER
+* ACCESS_SYSTEM_SECURITY
+* FILE_GENERIC_WRITE
+* FILE_ADD_FILE
+* FILE_ADD_SUBDIRECTORY
+* DELETE
 
-</li>
-<li>
-WRITE_OWNER 
-
-</li>
-<li>
-ACCESS_SYSTEM_SECURITY 
-
-</li>
-<li>
-FILE_GENERIC_WRITE 
-
-</li>
-<li>
-FILE_ADD_FILE 
-
-</li>
-<li>
-FILE_ADD_SUBDIRECTORY 
-
-</li>
-<li>
-DELETE
-
-</li>
-</ul>
 User-mode applications represent this privilege as the following user-right string: "Restore files and directories".
 
 ### -field SeShutdownPrivilege
@@ -223,7 +187,7 @@ User-mode applications represent this privilege as the following user-right stri
 
 ### -field SeSystemEnvironmentPrivilege
 
-The privilege required to modify the nonvolatile RAM of systems that use this type of memory to store configuration information. 
+The privilege required to modify the nonvolatile RAM of systems that use this type of memory to store configuration information.
 
 User-mode applications represent this privilege as the following user-right string: "Modify firmware environment values".
 
@@ -283,100 +247,32 @@ The SID for an interactive account. This SID is added to the process of a token 
 
 The SID that matches the LocalSystem account, a predefined local account used by the Service Control Manager. This account is not recognized by the security subsystem. It has extensive privileges on the local computer and acts as the computer on the network. Its token includes the Windows NT AUTHORITY\SYSTEM and BUILTIN\Administrators SIDs; these accounts have access to most system objects. The name of the account in all locales is ".\LocalSystem". The name, "LocalSystem" or "ComputerName\LocalSystem" can also be used. This account does not have a password.
 
-A service that runs in the context of the LocalSystem account inherits the security context of the Service Control Manager. The account is not associated with any logged-on user account. 
+A service that runs in the context of the LocalSystem account inherits the security context of the Service Control Manager. The account is not associated with any logged-on user account.
 
 The LocalSystem account has the following privileges:
 
-<ul>
-<li>
-SE_ASSIGNPRIMARYTOKEN_NAME 
+* SE_ASSIGNPRIMARYTOKEN_NAME
+* SE_AUDIT_NAME
+* SE_BACKUP_NAME
+* SE_CHANGE_NOTIFY_NAME
+* SE_CREATE_PAGEFILE_NAME
+* SE_CREATE_PERMANENT_NAME
+* SE_CREATE_TOKEN_NAME
+* SE_DEBUG_NAME
+* SE_INC_BASE_PRIORITY_NAME
+* SE_INCREASE_QUOTA_NAME
+* SE_LOAD_DRIVER_NAME
+* SE_LOCK_MEMORY_NAME
+* SE_PROF_SINGLE_PROCESS_NAME
+* SE_RESTORE_NAME*SE_SECURITY_NAME
+* SE_SHUTDOWN_NAME
+* SE_SYSTEM_ENVIRONMENT_NAME
+* SE_SYSTEM_PROFILE_NAME
+* SE_SYSTEMTIME_NAME
+* SE_TAKE_OWNERSHIP_NAME
+* SE_TCB_NAME
+* SE_UNDOCK_NAME
 
-</li>
-<li>
-SE_AUDIT_NAME 
-
-</li>
-<li>
-SE_BACKUP_NAME 
-
-</li>
-<li>
-SE_CHANGE_NOTIFY_NAME 
-
-</li>
-<li>
-SE_CREATE_PAGEFILE_NAME 
-
-</li>
-<li>
-SE_CREATE_PERMANENT_NAME 
-
-</li>
-<li>
-SE_CREATE_TOKEN_NAME 
-
-</li>
-<li>
-SE_DEBUG_NAME 
-
-</li>
-<li>
-SE_INC_BASE_PRIORITY_NAME 
-
-</li>
-<li>
-SE_INCREASE_QUOTA_NAME 
-
-</li>
-<li>
-SE_LOAD_DRIVER_NAME 
-
-</li>
-<li>
-SE_LOCK_MEMORY_NAME 
-
-</li>
-<li>
-SE_PROF_SINGLE_PROCESS_NAME 
-
-</li>
-<li>
-SE_RESTORE_NAME 
-
-</li>
-<li>
-SE_SECURITY_NAME 
-
-</li>
-<li>
-SE_SHUTDOWN_NAME 
-
-</li>
-<li>
-SE_SYSTEM_ENVIRONMENT_NAME 
-
-</li>
-<li>
-SE_SYSTEM_PROFILE_NAME 
-
-</li>
-<li>
-SE_SYSTEMTIME_NAME 
-
-</li>
-<li>
-SE_TAKE_OWNERSHIP_NAME 
-
-</li>
-<li>
-SE_TCB_NAME 
-
-</li>
-<li>
-SE_UNDOCK_NAME 
-
-</li>
-</ul>
 Most services do not need such a high privilege level. If your service does not need these privileges, and it is not an interactive service, consider using the LocalService account or the NetworkService account.
 
 ### -field SeAliasAdminsSid
@@ -425,7 +321,7 @@ The SID for the anonymous account.
 
 ### -field SeUndockPrivilege
 
-The privilege that is required to remove a computer from a docking station. This privilege allows the user of a portable computer to undock the computer by clicking <b>Start</b>, and then clicking <b>Eject PC</b>.
+The privilege that is required to remove a computer from a docking station. This privilege allows the user of a portable computer to undock the computer by clicking **Start**, and then clicking **Eject PC**.
 
 ### -field SeSyncAgentPrivilege
 
@@ -441,59 +337,35 @@ The SID that matches the LocalService account, a predefined local account. The L
 
 The LocalService account has the following privileges:
 
-<ul>
-<li>
-SE_AUDIT_NAME 
-
-</li>
-<li>
-SE_CHANGE_NOTIFY_NAME 
-
-</li>
-<li>
-SE_UNDOCK_NAME 
-
-</li>
-</ul>
-Any privileges assigned to users and authenticated users 
+* SE_AUDIT_NAME
+* SE_CHANGE_NOTIFY_NAME
+* SE_UNDOCK_NAME
+* Any privileges assigned to users and authenticated users
 
 The LocalService account is available on the Microsoft Windows XP and later operating systems.
 
 ### -field SeNetworkServiceSid
 
-The SID that matches the NetworkService account, a predefined local account. The NetworkService account has minimum privileges on the local computer and acts as the computer on the network. The name of the account in all locales is "NT AUTHORITY\NetworkService". This account does not have a password. 
+The SID that matches the NetworkService account, a predefined local account. The NetworkService account has minimum privileges on the local computer and acts as the computer on the network. The name of the account in all locales is "NT AUTHORITY\NetworkService". This account does not have a password.
 
-A service that runs in the context of the NetworkService account presents the computer's credentials to remote servers. By default, the remote token contains SIDs for the Everyone and Authenticated Users groups. 
+A service that runs in the context of the NetworkService account presents the computer's credentials to remote servers. By default, the remote token contains SIDs for the Everyone and Authenticated Users groups.
 
 The NetworkService account has its own subkey under the HKEY_USERS registry key. Therefore, the HKEY_CURRENT_USER registry key is associated with the NetworkService account.
 
 The NetworkService account has the following privileges:
 
-<ul>
-<li>
-SE_AUDIT_NAME 
-
-</li>
-<li>
-SE_CHANGE_NOTIFY_NAME 
-
-</li>
-<li>
-SE_UNDOCK_NAME
-
-</li>
-</ul>
-Any privileges assigned to users and authenticated users 
-
-The NetworkService account is available on Windows XP and later.
+* SE_AUDIT_NAME
+* SE_CHANGE_NOTIFY_NAME
+* SE_UNDOCK_NAME
+* Any privileges assigned to users and authenticated users
 
 ### -field SeManageVolumePrivilege
 
-The privilege that is required to allow a non-administrative or remote user to manage volumes or disks. The operating system checks for this privilege in a user's access token when a process running in the user's security context calls the user mode <a href="/windows/win32/api/fileapi/nf-fileapi-setfilevaliddata">SetFileValidData</a> routine.
+The privilege that is required to allow a non-administrative or remote user to manage volumes or disks. The operating system checks for this privilege in a user's access token when a process running in the user's security context calls the user-mode [**SetFileValidData**](/windows/win32/api/fileapi/nf-fileapi-setfilevaliddata) routine.
 
 ### -field SeImpersonatePrivilege
 
-The privilege that is required to impersonate a user. This privilege is available on Windows 2000 with Service Pack 4 (SP4) and later.
+The privilege that is required to impersonate a user.
 
 User-mode applications represent this privilege as the following user-right string: "Impersonate a client after authentication".
 
@@ -507,124 +379,112 @@ User-mode applications represent this privilege as the following user-right stri
 
 The privilege that is required to access Credential Manager as a trusted caller.
 
-
 User-mode applications represent this privilege as the following user-right string: "Access Credential Manager as a trusted caller".
-
-
-<div class="alert"><b>Note</b>  Available in Windows Vista and later versions of the Windows operating system.</div>
-<div> </div>
 
 ### -field SeRelabelPrivilege
 
 The privilege that is required to modify the mandatory integrity level of an object.
 
-
 User-mode applications represent this privilege as the following user-right string: "Modify an object label".
 
-
-<div class="alert"><b>Note</b>  Available in Windows Vista and later versions of the Windows operating system.</div>
-<div> </div>
+Available starting in Windows Vista.
 
 ### -field SeIncreaseWorkingSetPrivilege
 
 The privilege that is required to allocate more memory for applications that run in the context of users.
 
-
 User-mode applications represent this privilege as the following user-right string: "Increase a process working set".
 
-
-<div class="alert"><b>Note</b>  Available in Windows Vista and later versions of the Windows operating system.</div>
-<div> </div>
+Available starting in Windows Vista.
 
 ### -field SeTimeZonePrivilege
 
 The privilege that is required to adjust the time zone associated with the computer's internal clock.
 
-
-
 User-mode applications represent this privilege as the following user-right string: "Change the time zone".
 
-<div class="alert"><b>Note</b>  Available in Windows Vista and later versions of the Windows operating system.</div>
-<div> </div>
+Available starting in Windows Vista.
 
 ### -field SeCreateSymbolicLinkPrivilege
 
 The SID that matches the IUSR built-in account and the IIS_IUSRS built-in group.
 
-<div class="alert"><b>Note</b>  Available in Windows Vista and later versions of the Windows operating system.</div>
-<div> </div>
+Available starting in Windows Vista.
 
 ### -field SeIUserSid
 
-The SID for an untrusted integrity level. 
+The SID for an untrusted integrity level.
 
-<div class="alert"><b>Note</b>  Available in Windows Vista and later versions of the Windows operating system.</div>
-<div> </div>
+Available starting in Windows Vista.
 
 ### -field SeUntrustedMandatorySid
 
-The SID for an untrusted integrity level. 
+The SID for an untrusted integrity level.
 
-<div class="alert"><b>Note</b>  Available in Windows Vista and later versions of the Windows operating system.</div>
-<div> </div>
+Available starting in Windows Vista.
 
 ### -field SeLowMandatorySid
 
-The SID for a low integrity level. 
+The SID for a low integrity level.
 
-<div class="alert"><b>Note</b>  Available in Windows Vista and later versions of the Windows operating system.</div>
-<div> </div>
+Available starting in Windows Vista.
 
 ### -field SeMediumMandatorySid
 
-The SID for a medium integrity level. 
+The SID for a medium integrity level.
 
-<div class="alert"><b>Note</b>  Available in Windows Vista and later versions of the Windows operating system.</div>
-<div> </div>
+Available starting in Windows Vista.
 
 ### -field SeHighMandatorySid
 
-The SID for a high integrity level. 
+The SID for a high integrity level.
 
-<div class="alert"><b>Note</b>  Available in Windows Vista and later versions of the Windows operating system.</div>
-<div> </div>
+Available starting in Windows Vista.
 
 ### -field SeSystemMandatorySid
 
-The SID for a system integrity level. 
+The SID for a system integrity level.
 
-<div class="alert"><b>Note</b>  Available in Windows Vista and later versions of the Windows operating system.</div>
-<div> </div>
+Available starting in Windows Vista.
 
 ### -field SeOwnerRightsSid
 
-The SID for a group that represents the current owner of the object. 
+The SID for a group that represents the current owner of the object.
 
-<div class="alert"><b>Note</b>  Available in Windows Vista and later versions of the Windows operating system.</div>
-<div> </div>
+Available starting in Windows Vista.
 
 ### -field SeAllAppPackagesSid
 
-The SID for a group that represents all application packages. 
+The SID for a group that represents all application packages.
 
-<div class="alert"><b>Note</b>  Available in Windows 8 and later versions of the Windows operating system.</div>
-<div> </div>
+Available starting in Windows 8.
 
 ### -field SeUserModeDriversSid
 
+The SID for a user-mode driver.
+
+### -field SeProcTrustWinTcbSid
+
+The SID that identifies its holder as a part of a trusted computer base.
+
 ### -field SeTrustedInstallerSid
+
+The SID for a trusted installer.
 
 ### -field SeDelegateSessionUserImpersonatePrivilege
 
+### -field SeAppSiloSid
+
+### -field SeAppSiloVolumeRootMinimalCapabilitySid
+
+### -field SeAppSiloProfilesRootMinimalCapabilitySid
+
 ## -remarks
 
-<b>SeExports</b> is a large external static SE_EXPORTS structure exported by <i>Ntoskrnl.exe</i>.
+**SeExports** is a large external static SE_EXPORTS structure exported by *Ntoskrnl.exe*.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
+[**LUID**](../igpupvdev/ns-igpupvdev-_luid.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
-
+[**SID**](ns-ntifs-_sid.md)

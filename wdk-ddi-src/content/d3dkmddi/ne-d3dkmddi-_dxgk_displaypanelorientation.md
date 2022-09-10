@@ -1,9 +1,9 @@
 ---
 UID: NE:d3dkmddi._DXGK_DISPLAYPANELORIENTATION
-title: _DXGK_DISPLAYPANELORIENTATION (d3dkmddi.h)
+title: DXGK_DISPLAYPANELORIENTATION (d3dkmddi.h)
 description: Enum used to express the orientation of an integrated panel.
 old-location: display\dxgk_displaypanelorientation.htm
-ms.date: 05/10/2018
+ms.date: 05/24/2022
 keywords: ["DXGK_DISPLAYPANELORIENTATION enumeration"]
 ms.keywords: DXGK_DISPLAYPANELORIENTATION, DXGK_DISPLAYPANELORIENTATION enumeration [Display Devices], DXGK_DPO_0, DXGK_DPO_180, DXGK_DPO_270, DXGK_DPO_90, _DXGK_DISPLAYPANELORIENTATION, d3dkmddi/DXGK_DISPLAYPANELORIENTATION, d3dkmddi/DXGK_DPO_0, d3dkmddi/DXGK_DPO_180, d3dkmddi/DXGK_DPO_270, d3dkmddi/DXGK_DPO_90, display.dxgk_displaypanelorientation
 req.header: d3dkmddi.h
@@ -43,8 +43,7 @@ api_name:
  - DXGK_DISPLAYPANELORIENTATION
 ---
 
-# _DXGK_DISPLAYPANELORIENTATION enumeration
-
+# DXGK_DISPLAYPANELORIENTATION enumeration
 
 ## -description
 
@@ -52,21 +51,18 @@ Enum used to express the orientation of an integrated panel.
 
 ## -enum-fields
 
-### -field DXGK_DPO_0
+### -field DXGK_DPO_0:0
 
 Indicates a 0 degree rotation.
 
-### -field DXGK_DPO_90
+### -field DXGK_DPO_90:1
 
 Indicates a 90 degree rotation.
 
-### -field DXGK_DPO_180
+### -field DXGK_DPO_180:2
 
 Indicates a 180 degree rotation.
 
-### -field DXGK_DPO_270
+### -field DXGK_DPO_270:3
 
 Indicates a 270 degree rotation.
-
-### -field UINT
-

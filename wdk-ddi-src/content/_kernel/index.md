@@ -691,7 +691,7 @@ This section describes kernel-mode support routines that drivers can call:
 
 |Function|Description|
 |---|---|
-|nitializeObjectAttributes |Initializes a parameter of type OBJECT_ATTRIBUTES for a subsequent call to a ZwCreateXxx or ZwOpenXxx routine.|
+|InitializeObjectAttributes |Initializes a parameter of type OBJECT_ATTRIBUTES for a subsequent call to a ZwCreateXxx or ZwOpenXxx routine.|
 |ZwCreateFile |Creates or opens a file object representing a physical, logical, or virtual device, a directory, a data file, or a volume.|
 |ZwQueryInformationFile |Returns information about the state or attributes of an open file.|
 |IoGetFileObjectGenericMapping |Returns information about the mapping between generic access rights and specific access rights for file objects.|

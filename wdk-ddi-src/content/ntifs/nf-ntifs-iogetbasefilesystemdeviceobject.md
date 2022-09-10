@@ -4,7 +4,7 @@ title: IoGetBaseFileSystemDeviceObject function (ntifs.h)
 description: "Microsoft reserves the IoGetBaseFileSystemDeviceObject function for internal use only. Don't use this function in your code."
 old-location: ifsk\iogetbasefilesystemdeviceobject.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["IoGetBaseFileSystemDeviceObject function"]
 ms.keywords: IoGetBaseFileSystemDeviceObject, IoGetBaseFileSystemDeviceObject function [Installable File System Drivers], ifsk.iogetbasefilesystemdeviceobject, ioref_008b0d20-a816-4f24-9439-ffe97ac8dc04.xml, ntifs/IoGetBaseFileSystemDeviceObject
 req.header: ntifs.h
@@ -42,13 +42,16 @@ api_name:
 
 # IoGetBaseFileSystemDeviceObject function
 
-
 ## -description
 
-The <b>IoGetBaseFileSystemDeviceObject</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetdeviceattachmentbaseref">IoGetDeviceAttachmentBaseRef</a>.
+The **IoGetBaseFileSystemDeviceObject** routine is reserved for system use. See [**IoGetDeviceAttachmentBaseRef**](nf-ntifs-iogetdeviceattachmentbaseref.md).
 
 ## -parameters
 
 ### -param FileObject
 
-<p>Reserved.</p>
+Reserved.
+
+## -returns
+
+Reserved.

@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrintSchemaTicket.put_JobCopiesAllDocuments
 title: IPrintSchemaTicket::put_JobCopiesAllDocuments (printerextension.h)
 description: Sets the copy count.
-old-location: print\iprintschematicket_put_jobcopiesalldocuments.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/03/2022
 keywords: ["IPrintSchemaTicket::put_JobCopiesAllDocuments"]
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],JobCopiesAllDocuments property, IPrintSchemaTicket.JobCopiesAllDocuments, IPrintSchemaTicket.put_JobCopiesAllDocuments, IPrintSchemaTicket::JobCopiesAllDocuments, IPrintSchemaTicket::put_JobCopiesAllDocuments, JobCopiesAllDocuments property [Print Devices], JobCopiesAllDocuments property [Print Devices],IPrintSchemaTicket interface, print.iprintschematicket_put_jobcopiesalldocuments, printerextension/IPrintSchemaTicket::JobCopiesAllDocuments, printerextension/IPrintSchemaTicket::put_JobCopiesAllDocuments, put_JobCopiesAllDocuments
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,28 +39,30 @@ api_name:
  - IPrintSchemaTicket::put_JobCopiesAllDocuments
 ---
 
-# IPrintSchemaTicket::put_JobCopiesAllDocuments
-
-
 ## -description
 
 Sets the copy count.
 
 This property is write-only.
 
+## -parameters
+
+### -param ulJobCopiesAllDocuments
+
+Defines the **ULONG** parameter *ulJobCopiesAllDocuments*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
+
 ## -remarks
 
-Be aware of the fact that the <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities">IPrintSchemaTicket::GetCapabilities</a>  method retrieves a new PrintCapabilities document, which it also caches every time it is invoked. This means that if you use <b>IPrintSchemaTicket::put_JobCopiesAllDocuments</b> or <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemafeature-put_selectedoption">IPrintSchemaFeature::SelectedOption</a> on PrintTicket, the cached PrintCapabilities document gets corrupted or modified and the cache will be purged.
+Be aware of the fact that the [IPrintSchemaTicket::GetCapabilities](./nf-printerextension-iprintschematicket-getcapabilities.md)  method retrieves a new PrintCapabilities document, which it also caches every time it is invoked. This means that if you use **IPrintSchemaTicket::put_JobCopiesAllDocuments** or [IPrintSchemaFeature::SelectedOption](./nf-printerextension-iprintschemafeature-put_selectedoption.md) on PrintTicket, the cached PrintCapabilities document gets corrupted or modified and the cache will be purged.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemafeature-put_selectedoption">IPrintSchemaFeature::SelectedOption</a>
+[IPrintSchemaFeature::SelectedOption](./nf-printerextension-iprintschemafeature-put_selectedoption.md)
 
+[IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md)
 
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities">IPrintSchemaTicket::GetCapabilities</a>
-
+[IPrintSchemaTicket::GetCapabilities](./nf-printerextension-iprintschematicket-getcapabilities.md)

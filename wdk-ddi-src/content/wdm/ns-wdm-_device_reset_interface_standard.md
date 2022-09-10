@@ -2,15 +2,14 @@
 UID: NS:wdm._DEVICE_RESET_INTERFACE_STANDARD
 title: _DEVICE_RESET_INTERFACE_STANDARD (wdm.h)
 description: The DEVICE_RESET_INTERFACE_STANDARD structure enables function drivers to reset and recover malfunctioning devices. This structure describes the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
-old-location: kernel\device_reset_interface_standard.htm
 tech.root: kernel
-ms.date: 11/15/2018
+ms.date: 06/06/2022
 keywords: ["DEVICE_RESET_INTERFACE_STANDARD structure"]
 ms.keywords: "*PDEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], PDEVICE_RESET_INTERFACE_STANDARD, PDEVICE_RESET_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], _DEVICE_RESET_INTERFACE_STANDARD, kernel.device_reset_interface_standard, wdm/DEVICE_RESET_INTERFACE_STANDARD, wdm/PDEVICE_RESET_INTERFACE_STANDARD"
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: Windows
-req.target-min-winverclnt: Supported starting with Windows 10.
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -48,11 +47,11 @@ api_name:
 
 # _DEVICE_RESET_INTERFACE_STANDARD structure
 
-
 ## -description
 
-The <b>DEVICE_RESET_INTERFACE_STANDARD</b> structure enables function drivers to reset and recover malfunctioning devices. This structure describes the GUID_DEVICE_RESET_INTERFACE_STANDARD 
-interface. For more information see [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard).
+The **DEVICE_RESET_INTERFACE_STANDARD** structure enables function drivers to reset and recover malfunctioning devices. This structure describes the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
+
+For more information see [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard).
 
 ## -struct-fields
 
@@ -66,55 +65,54 @@ The driver-defined interface version.
 
 ### -field Context
 
-A pointer to interface-specific context information
+A pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference">InterfaceReference</a> routine that increments the interface's reference count.
+A pointer to an [InterfaceReference](./nc-wdm-pinterface_reference.md) routine that increments the interface's reference count.
 
 ### -field InterfaceDereference
 
-A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference">InterfaceDereference</a> routine that decrements the interface's reference count.
+A pointer to an [InterfaceDereference](./nc-wdm-pinterface_dereference.md) routine that decrements the interface's reference count.
 
 ### -field DeviceReset
 
-A pointer to the interface's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pdevice_reset_handler">DeviceReset</a> routine. This routine can be used by function drivers to attempt to reset and recover a malfunctioning device.
+A pointer to the interface's [DeviceReset](./nc-wdm-device_reset_handler.md) routine. This routine can be used by function drivers to attempt to reset and recover a malfunctioning device.
 
 ### -field SupportedResetTypes
 
+Defines the **ULONG** parameter *SupportedResetTypes*.
+
 ### -field Reserved
 
-This member is reserved for future use.
+Reserved for future use.
 
 ### -field QueryBusSpecificResetInfo
 
+Defines the **PDEVICE_QUERY_BUS_SPECIFIC_RESET_HANDLER** parameter *QueryBusSpecificResetInfo*.
+
 ### -field DeviceBusSpecificReset
+
+Defines the **PDEVICE_BUS_SPECIFIC_RESET_HANDLER** parameter *DeviceBusSpecificReset*.
 
 ### -field GetDeviceResetStatus
 
+Defines the **PGET_DEVICE_RESET_STATUS** parameter *GetDeviceResetStatus*.
+
 ## -remarks
 
-The <b>DEVICE_RESET_INTERFACE_STANDARD</b> structure is an extension of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure. A driver obtains a pointer to the <b>DEVICE_RESET_INTERFACE_STANDARD</b> structure by sending an <a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> IRP to its bus driver with <b>InterfaceType</b> set to GUID_DEVICE_RESET_INTERFACE_STANDARD.
+The **DEVICE_RESET_INTERFACE_STANDARD** structure is an extension of the [INTERFACE](./ns-wdm-_interface.md) structure. A driver obtains a pointer to the **DEVICE_RESET_INTERFACE_STANDARD** structure by sending an [IRP_MN_QUERY_INTERFACE](/windows-hardware/drivers/kernel/irp-mn-query-interface) IRP to its bus driver with **InterfaceType** set to GUID_DEVICE_RESET_INTERFACE_STANDARD.
 
 For more information about the purpose of this interface, see [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pdevice_reset_handler">DeviceReset</a>
+[DeviceReset](./nc-wdm-device_reset_handler.md)
 
+[INTERFACE](./ns-wdm-_interface.md)
 
+[IRP_MN_QUERY_INTERFACE](/windows-hardware/drivers/kernel/irp-mn-query-interface)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>
+[InterfaceDereference](./nc-wdm-pinterface_dereference.md)
 
-
-
-<a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference">InterfaceDereference</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference">InterfaceReference</a>
-
+[InterfaceReference](./nc-wdm-pinterface_reference.md)

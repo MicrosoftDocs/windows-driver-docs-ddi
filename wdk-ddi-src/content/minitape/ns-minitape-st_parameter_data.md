@@ -4,7 +4,7 @@ title: ST_PARAMETER_DATA (minitape.h)
 description: The ST_PARAMETER_DATA structure (minitape.h) contains the parameter list for the set timestamp command.
 old-location: storage\st_parameter_data.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 08/26/2022
 keywords: ["ST_PARAMETER_DATA structure"]
 ms.keywords: "*PST_PARAMETER_DATA, PST_PARAMETER_DATA, PST_PARAMETER_DATA structure pointer [Storage Devices], ST_PARAMETER_DATA, ST_PARAMETER_DATA structure [Storage Devices], scsi/PST_PARAMETER_DATA, scsi/ST_PARAMETER_DATA, storage.st_parameter_data"
 req.header: minitape.h
@@ -51,15 +51,15 @@ The **ST_PARAMETER_DATA** structure contains the parameter list for the set time
 
 ## -struct-fields
 
-### -field Reserved1
+### -field Reserved1[4]
 
 Reserved for future use.
 
-### -field Timestamp
+### -field Timestamp[6]
 
 Specifies the value to which a device clock shall be initialized. The timestamp should be the number of milliseconds that have elapsed since midnight, 1 January 1970 UT.
 
-### -field Reserved2
+### -field Reserved2[2]
 
 Reserved for future use.
 

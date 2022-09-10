@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue
 title: IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue (printerextension.h)
 description: Gets the JobCopiesAllDocuments parameter minimum value.
-old-location: print\iprintschemacapabilities_jobcopiesalldocumentsminvalue.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/01/2022
 keywords: ["IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue"]
 ms.keywords: IPrintSchemaCapabilities interface [Print Devices],JobCopiesAllDocumentsMinValue property, IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities::JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue, JobCopiesAllDocumentsMinValue property [Print Devices], JobCopiesAllDocumentsMinValue property [Print Devices],IPrintSchemaCapabilities interface, get_JobCopiesAllDocumentsMinValue, print.iprintschemacapabilities_jobcopiesalldocumentsminvalue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMinValue, printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,18 +39,22 @@ api_name:
  - IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
 ---
 
-# IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
-
-
 ## -description
 
-Gets the <b>JobCopiesAllDocuments</b> parameter minimum value.
-
-This is the copy count minimum.
+Gets the JobCopiesAllDocuments minimum value.
 
 This property is read-only.
 
+## -parameters
+
+### -param pulJobCopiesAllDocumentsMinValue
+
+This is the copy count minimum.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a>
-
+[IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md)

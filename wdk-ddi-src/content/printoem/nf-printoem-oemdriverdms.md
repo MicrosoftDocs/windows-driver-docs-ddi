@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMDriverDMS
 title: OEMDriverDMS function (printoem.h)
-description: OEMDriverDMS function
-old-location: print\oemdriverdms.htm
+description: Describes the OEMDriverDMS function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/08/2022
 keywords: ["OEMDriverDMS function"]
 ms.keywords: OEMDriverDMS, OEMDriverDMS function [Print Devices], print.oemdriverdms, print_obsoletefunctions_2ae5b734-4f6d-4d91-baba-b594a3388d08.xml, printoem/OEMDriverDMS
 req.header: printoem.h
@@ -40,22 +39,28 @@ api_name:
  - OEMDriverDMS
 ---
 
-# OEMDriverDMS function
-
-
 ## -description
+
+Describes the **OEMDriverDMS** function.
 
 ## -parameters
 
 ### -param pDevObj
 
+Defines the **PVOID** parameter *pDevObj*.
+
 ### -param pBuffer [out]
 
-
+Defines the **PVOID** parameter *pBuffer*.
 
 ### -param cbSize
 
+Defines the **DWORD** parameter *cbSize*.
+
 ### -param pcbNeeded [out]
 
+Defines the **PDWORD** parameter *pcbNeeded*.
 
+## -returns
 
+Returns a **BOOL** value.

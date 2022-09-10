@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMQueryFont
 title: OEMQueryFont function (printoem.h)
 description: The OEMQueryFont function is used by GDI to get the IFIMETRICS structure for a given font.
-old-location: print\oemqueryfont.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/10/2022
 keywords: ["OEMQueryFont function"]
 ms.keywords: OEMQueryFont, OEMQueryFont function [Print Devices], print.oemqueryfont, print_unidrv-pscript_rendering_52b50b2d-ab61-420f-be04-7285a5504be6.xml, printoem/OEMQueryFont
 req.header: printoem.h
@@ -40,19 +39,28 @@ api_name:
  - OEMQueryFont
 ---
 
-# OEMQueryFont function
-
-
 ## -description
 
-The <code>OEMQueryFont</code> function is used by GDI to get the <a href="/windows/win32/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure for a given font.
+The **OEMQueryFont** function is used by GDI to get the [IFIMETRICS](/windows/win32/api/winddi/ns-winddi-ifimetrics) structure for a given font.
 
 ## -parameters
 
 ### -param dhpdev
 
+Defines the **DHPDEV** parameter *dhpdev*.
+
 ### -param iFile
+
+Defines the **ULONG_PTR** parameter *iFile*.
 
 ### -param iFace
 
+Defines the **ULONG** parameter *iFace*.
+
 ### -param pid
+
+Defines the **ULONG_PTR** parameter *pid*.
+
+## -returns
+
+Returns a **PIFIMETRICS** value.

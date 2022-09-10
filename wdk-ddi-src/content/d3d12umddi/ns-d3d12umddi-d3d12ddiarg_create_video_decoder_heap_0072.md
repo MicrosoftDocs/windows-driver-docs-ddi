@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0072
 title: D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0072
-ms.date: 03/24/2020
+ms.date: 05/24/2022
 tech.root: display
 targetos: Windows
 description: Structure used to create a video decoder heap for a decode session.
@@ -43,7 +43,7 @@ Structure used to create a video decoder heap for a decode session.
 
 ### -field NodeMask
 
-For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the device's physical adapter) to which the command queue applies. Each bit in the mask corresponds to a single node. Only 1 bit may be set.
+Represents the set of nodes. For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the device's physical adapter) to which the command queue applies. Each bit in the mask corresponds to a single node. Only 1 bit may be set.
 
 ### -field Configuration
 

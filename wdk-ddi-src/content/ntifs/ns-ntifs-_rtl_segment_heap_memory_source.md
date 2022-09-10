@@ -1,8 +1,8 @@
 ---
 UID: NS:ntifs._RTL_SEGMENT_HEAP_MEMORY_SOURCE
-title: _RTL_SEGMENT_HEAP_MEMORY_SOURCE (ntifs.h)
+title: RTL_SEGMENT_HEAP_MEMORY_SOURCE (ntifs.h)
 description: The RTL_SEGMENT_HEAP_MEMORY_SOURCE structure specifies the segment heap memory source.
-ms.date: 10/19/2018
+ms.date: 05/24/2022
 tech.root: ifsk
 keywords: ["RTL_SEGMENT_HEAP_MEMORY_SOURCE structure"]
 ms.keywords: _RTL_SEGMENT_HEAP_MEMORY_SOURCE, RTL_SEGMENT_HEAP_MEMORY_SOURCE, *PRTL_SEGMENT_HEAP_MEMORY_SOURCE,
@@ -38,10 +38,9 @@ api_name:
  - RTL_SEGMENT_HEAP_MEMORY_SOURCE
 ---
 
-# _RTL_SEGMENT_HEAP_MEMORY_SOURCE structure
+# RTL_SEGMENT_HEAP_MEMORY_SOURCE structure
 
 The **RTL_SEGMENT_HEAP_MEMORY_SOURCE** structure specifies the segment heap memory source.
-
 
 ## -description
 
@@ -53,7 +52,6 @@ The flags associated with the segment heap.
 
 ### -field MemoryTypeMask
 
- 
 Contains a mask of the [RTL_MEMORY_TYPE](ne-ntifs-_rtl_memory_type.md) members.
 
 ### -field NumaNode
@@ -64,11 +62,10 @@ Specifies the number of the NUMA node the memory resides on.
 
 Handle to the specified partition.
 
+### -field Callbacks
+
+Pointer to a [**RTL_SEGMENT_HEAP_VA_CALLBACKS**](ns-ntifs-rtl_segment_heap_va_callbacks.md) structure.
+
 ### -field Reserved
 
 Reserved for future use.
-
-## -remarks
-
-## -see-also
-

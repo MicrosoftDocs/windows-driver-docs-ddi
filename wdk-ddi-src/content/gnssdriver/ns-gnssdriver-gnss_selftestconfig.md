@@ -2,13 +2,12 @@
 UID: NS:gnssdriver.__unnamed_struct_49
 title: GNSS_SELFTESTCONFIG (gnssdriver.h)
 description: The GNSS_SELFTESTCONFIG structure defines the specific data elements associated with a carrier wave test results returned from the driver.
-old-location: gnss\gnss_selftestconfig.htm
 tech.root: gnss
-ms.date: 02/15/2018
+ms.date: 06/16/2022
 keywords: ["GNSS_SELFTESTCONFIG structure"]
 ms.keywords: "*PGNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG structure [Sensor Devices], PGNSS_SELFTESTCONFIG, PGNSS_SELFTESTCONFIG structure pointer [Sensor Devices], gnss.gnss_selftestconfig, gnssdriver/GNSS_SELFTESTCONFIG, gnssdriver/PGNSS_SELFTESTCONFIG"
 req.header: gnssdriver.h
-req.include-header: 
+req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,9 +42,6 @@ api_name:
  - GNSS_SELFTESTCONFIG
 ---
 
-# GNSS_SELFTESTCONFIG structure
-
-
 ## -description
 
 This structure defines the specific data elements associated with a carrier wave test results returned from the driver.
@@ -66,23 +62,12 @@ The type of self-test requested.
 
 ### -field Unused
 
+Padding buffer reserved for future use.
+
 ### -field InBufLen
 
 The length of the buffer for passing in any additional information about the self-test.
 
 ### -field InBuffer
 
- 
-
-
-
-
-### -field InBuffer[ANYSIZE_ARRAY]
-
 The buffer that will contain the additional information about the self-test.
-
-
-### -field Unused[512]
-
-Padding buffer.
-

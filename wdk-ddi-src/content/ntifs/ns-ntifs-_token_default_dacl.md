@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._TOKEN_DEFAULT_DACL
-title: _TOKEN_DEFAULT_DACL (ntifs.h)
+title: TOKEN_DEFAULT_DACL (ntifs.h)
 description: The TOKEN_DEFAULT_DACL structure specifies a discretionary access-control list (DACL).
 old-location: ifsk\token_default_dacl.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/26/2022
 keywords: ["TOKEN_DEFAULT_DACL structure"]
 ms.keywords: "*PTOKEN_DEFAULT_DACL, PTOKEN_DEFAULT_DACL, PTOKEN_DEFAULT_DACL structure pointer [Installable File System Drivers], TOKEN_DEFAULT_DACL, TOKEN_DEFAULT_DACL structure [Installable File System Drivers], _TOKEN_DEFAULT_DACL, ifsk.token_default_dacl, ntifs/PTOKEN_DEFAULT_DACL, ntifs/TOKEN_DEFAULT_DACL, securitystructures_a79d9155-eff5-457f-8036-c3d718b36c4e.xml"
 req.header: ntifs.h
@@ -46,8 +46,7 @@ api_name:
  - TOKEN_DEFAULT_DACL
 ---
 
-# _TOKEN_DEFAULT_DACL structure
-
+# TOKEN_DEFAULT_DACL structure
 
 ## -description
 
@@ -61,21 +60,14 @@ Pointer to an access control list (ACL) structure assigned by default to any obj
 
 ## -remarks
 
-The <b>SeQueryInformationToken</b> support routine retrieves the default DACL for an access token, in the form of a TOKEN_DEFAULT_DACL structure.
+The **SeQueryInformationToken** support routine retrieves the default DACL for an access token, in the form of a TOKEN_DEFAULT_DACL structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>
+[**ACL**](../wdm/ns-wdm-_acl.md)
 
+[**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md)
 
+[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a>
-
-
-
-<a href="/previous-versions/ff567055(v=vs.85)">ZwQueryInformationToken</a>
-
-
-
-<a href="/previous-versions/ff567102(v=vs.85)">ZwSetInformationToken</a>
-
+[**ZwSetInformationToken**](nf-ntifs-zwsetinformationtoken.md)

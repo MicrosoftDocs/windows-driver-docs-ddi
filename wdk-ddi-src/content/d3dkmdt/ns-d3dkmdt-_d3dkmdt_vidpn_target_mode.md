@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_VIDPN_TARGET_MODE
-title: _D3DKMDT_VIDPN_TARGET_MODE (d3dkmdt.h)
+title: D3DKMDT_VIDPN_TARGET_MODE (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_TARGET_MODE structure contains information about a video present network (VidPN) target mode.
 old-location: display\d3dkmdt_vidpn_target_mode.htm
 tech.root: display
@@ -10,7 +10,7 @@ ms.keywords: D3DKMDT_VIDPN_TARGET_MODE, D3DKMDT_VIDPN_TARGET_MODE structure [Dis
 req.header: d3dkmdt.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,42 +43,40 @@ api_name:
  - D3DKMDT_VIDPN_TARGET_MODE
 ---
 
-# _D3DKMDT_VIDPN_TARGET_MODE structure
-
+# D3DKMDT_VIDPN_TARGET_MODE structure
 
 ## -description
 
-The D3DKMDT_VIDPN_TARGET_MODE structure contains information about a video present network (VidPN) target mode.
+The **D3DKMDT_VIDPN_TARGET_MODE** structure contains information about a video present network (VidPN) target mode.
 
 ## -struct-fields
 
 ### -field Id
 
-An integer that identifies the target mode. The identifier is generated and filled in by the VidPN manager. However, the display miniport driver has the option of overwriting the identifier. For more information, see <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntargetmodeset_createnewmodeinfo">pfnCreateNewModeInfo</a>.
+An integer that identifies the target mode. The identifier is generated and filled in by the VidPN manager. However, the display miniport driver has the option of overwriting the identifier. For more information, see [**pfnCreateNewModeInfo**](../d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntargetmodeset_createnewmodeinfo.md).
 
 ### -field VideoSignalInfo
 
-A <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_signal_info">D3DKMDT_VIDEO_SIGNAL_INFO</a> structure that contains information about the target mode (for example, video standard, resolution, refresh rate).
+A [**D3DKMDT_VIDEO_SIGNAL_INFO**](ns-d3dkmdt-_d3dkmdt_video_signal_info.md) structure that contains information about the target mode (for example, video standard, resolution, refresh rate).
 
 ### -field WireFormatAndPreference
 
+A [**D3DKMDT_WIRE_FORMAT_AND_PREFERENCE**](ns-d3dkmdt-_d3dkmdt_wire_format_and_preference.md) structure that specifies the wire format and preference.
+
 ### -field Preference
 
-A <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_mode_preference">D3DKMDT_MODE_PREFERENCE</a> enumerator that indicates whether a particular mode is one of the modes that is preferred by the monitor that is connected to the video present target.
+A [**D3DKMDT_MODE_PREFERENCE**](ne-d3dkmdt-_d3dkmdt_mode_preference.md) enumerator that indicates whether a particular mode is one of the modes that is preferred by the monitor that is connected to the video present target.
+
+### -field MinimumVSyncFreq
+
+The minimum vertical sync frequency of the monitor. Available starting in Windows Server 2022 (WDDM 2.9).
 
 ## -remarks
 
-For more information about video present targets and VidPN target modes, see <a href="/windows-hardware/drivers/display/introduction-to-video-present-networks">Introduction to Video Present Networks</a> and <a href="/windows-hardware/drivers/display/enumerating-cofunctional-vidpn-source-and-target-modes">Enumerating Cofunctional VidPN Source and Target Modes</a>.
+For more information about video present targets and VidPN target modes, see [Introduction to Video Present Networks](/windows-hardware/drivers/display/introduction-to-video-present-networks) and [Enumerating Cofunctional VidPN Source and Target Modes](/windows-hardware/drivers/display/enumerating-cofunctional-vidpn-source-and-target-modes).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_monitor_source_mode">D3DKMDT_MONITOR_SOURCE_MODE</a>
+[**D3DKMDT_MONITOR_SOURCE_MODE**](ns-d3dkmdt-_d3dkmdt_monitor_source_mode.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_source_mode">D3DKMDT_VIDPN_SOURCE_MODE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/index">VidPN Target Mode Set Interface</a>
-
+[**D3DKMDT_VIDPN_SOURCE_MODE**](ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md)

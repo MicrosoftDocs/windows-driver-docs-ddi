@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>NtCreateSection</b> routine creates a <a href="/windows-hardware/drivers/">section object</a>.
+The <b>NtCreateSection</b> routine creates a <a href="/windows-hardware/drivers/kernel/section-objects-and-views">section object</a>.
 
 ## -parameters
 
@@ -256,4 +256,3 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwunmapviewofsection">ZwUnmapViewOfSection</a>
-

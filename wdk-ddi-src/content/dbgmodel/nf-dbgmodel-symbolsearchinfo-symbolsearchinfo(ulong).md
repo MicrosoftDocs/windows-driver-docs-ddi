@@ -1,8 +1,8 @@
 ---
 UID: NF:dbgmodel.SymbolSearchInfo.SymbolSearchInfo(ULONG)
-title: SymbolSearchInfo(ULONG) function (dbgmodel.h)
-description: The search record passed to EnumerateChildrenEx in order to restrict symbol searches.
-ms.date: 10/04/2018
+title: SymbolSearchInfo  (derivedSize ULONG) function (dbgmodel.h)
+description: The search record passed to EnumerateChildrenEx in order to restrict symbol searches. This function takes a derivedSize ULONG.
+ms.date: 05/27/2022
 keywords: ["SymbolSearchInfo function"]
 f1_keywords:
  - "dbgmodel/SymbolSearchInfo"
@@ -38,12 +38,12 @@ tech.root: debugger
 ms.custom: RS5
 ---
 
-# SymbolSearchInfo(ULONG) function
+# SymbolSearchInfo derivedSize ULONG function
 
 
 ## -description
 
-The search record passed to EnumerateChildrenEx in order to restrict symbol searches.
+The search record passed to EnumerateChildrenEx in order to restrict symbol searches. This function takes a ULONG that is the derived size.
 
 A given kind of symbol (as indicated by the SymbolKind enumeration) searched may have its own derived type.
 

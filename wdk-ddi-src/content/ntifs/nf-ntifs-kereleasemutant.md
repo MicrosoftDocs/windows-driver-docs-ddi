@@ -4,7 +4,7 @@ title: KeReleaseMutant function (ntifs.h)
 description: "Microsoft reserves the KeReleaseMutant function for internal use only. Don't use this function in your code."
 old-location: ifsk\kereleasemutant.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["KeReleaseMutant function"]
 ms.keywords: KeReleaseMutant, KeReleaseMutant function [Installable File System Drivers], ifsk.kereleasemutant, keref_3bfd3822-4bbe-4d79-844e-afc6511d1bbb.xml, ntifs/KeReleaseMutant
 req.header: ntifs.h
@@ -42,16 +42,15 @@ api_name:
 
 # KeReleaseMutant function
 
-
 ## -description
 
-The <b>KeReleaseMutant</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasemutex">KeReleaseMutex</a>.
+The **KeReleaseMutant** routine is reserved for system use. See [**KeReleaseMutex**](../wdm/nf-wdm-kereleasemutex.md).
 
 ## -parameters
 
 ### -param Mutant
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param Increment
 
@@ -62,5 +61,9 @@ Reserved.
 Reserved.
 
 ### -param Wait
+
+Reserved.
+
+## -returns
 
 Reserved.

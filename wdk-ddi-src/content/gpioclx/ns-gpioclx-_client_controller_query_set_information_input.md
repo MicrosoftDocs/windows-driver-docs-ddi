@@ -4,7 +4,7 @@ title: _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT (gpioclx.h)
 description: The CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure contains a request for the hardware attributes of the general-purpose I/O (GPIO) controller.
 old-location: gpio\client_controller_query_set_information_input.htm
 tech.root: GPIO
-ms.date: 02/15/2018
+ms.date: 07/22/2022
 keywords: ["CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure"]
 ms.keywords: "*PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure [Parallel Ports], GPIO.client_controller_query_set_information_input, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure pointer [Parallel Ports], _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, gpioclx/CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, gpioclx/PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT"
 req.header: gpioclx.h
@@ -48,159 +48,83 @@ api_name:
 
 # _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure
 
-
 ## -description
 
-The <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</b> structure contains a request for the hardware attributes of the general-purpose I/O (GPIO) controller.
+The **CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT** structure contains a request for the hardware attributes of the general-purpose I/O (GPIO) controller.
 
 ## -struct-fields
 
 ### -field RequestType
 
-The type of attribute information that is being requested. This member is set to a <a href="/windows-hardware/drivers/ddi/gpioclx/ne-gpioclx-_client_controller_query_set_request_type">CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE</a> enumeration value.
+The type of attribute information that is being requested. This member is set to a [CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE](./ne-gpioclx-_client_controller_query_set_request_type.md) enumeration value.
 
 ### -field Size
 
-Specifies the size, in bytes, of the <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</b> structure.
+Specifies the size, in bytes, of the **CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT** structure.
 
 ### -field Flags
 
-A set of flag bits that supply additional information about the type of attribute request indicated by the <b>RequestType</b> member. No flags are currently defined for the <b>Flags</b> member.
+A set of flag bits that supply additional information about the type of attribute request indicated by the **RequestType** member. No flags are currently defined for the **Flags** member.
 
 ### -field BankPowerInformation
 
+A structure that contains information about the GPIO bank whose power attributes are being requested.
+
 ### -field BankPowerInformation.BankId
+
+The identifier for a bank of GPIO pins. If M is the number of banks in the GPIO controller, **BankId** is an integer in the range 0 to M–1\. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the [CLIENT_QueryControllerBasicInformation](./nc-gpioclx-gpio_client_query_controller_basic_information.md) event callback function. For more information, see Remarks in [CLIENT_CONTROLLER_BASIC_INFORMATION](./ns-gpioclx-_client_controller_basic_information.md).
 
 ### -field BankInterruptBinding
 
-### -field BankInterruptBinding.ResourcesTranslated
-
-### -field BankInterruptBinding.ResourcesRaw
-
-### -field BankInterruptBinding.TotalBanks
-
-### -field ControllerFunctionBankMapping
-
-### -field ControllerFunctionBankMapping.InputBuffer
-
-### -field ControllerFunctionBankMapping.InputBufferSize
-
-### -field ControllerFunctionBankMapping.OutputBufferSize
-
-### -field ControllerFunctionBankMapping.TotalBanks
-
- 
-
-
-
-
-### -field ( unnamed union )
-
-A union of members that contain input information for the various types of attribute requests. The <b>RequestType</b> member determines which member of this union is used. The following table shows the union member that corresponds to each valid <b>RequestType</b> value.
-
-<table>
-<tr>
-<th><b>RequestType</b> value</th>
-<th>Union member</th>
-</tr>
-<tr>
-<td><b>QueryBankPowerInformation</b></td>
-<td><b>BankPowerInformation</b></td>
-</tr>
-<tr>
-<td><b>QueryBankInterruptBindingInformation</b></td>
-<td><b>BankInterruptBinding</b></td>
-</tr>
-<tr>
-<td><b>QueryControllerFunctionBankMappingInformation</b></td>
-<td><b>ControllerFunctionBankMapping</b></td>
-</tr>
-</table>
- 
-
-
-
-#### BankPowerInformation
-
-A structure that contains information about the GPIO bank whose power attributes are being requested.
-
-
-
-##### BankId
-
-The identifier for a bank of GPIO pins. If M is the number of banks in the GPIO controller, <b>BankId</b> is an integer in the range 0 to M–1. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the <a href="/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_controller_basic_information">CLIENT_QueryControllerBasicInformation</a> event callback function. For more information, see Remarks in <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information">CLIENT_CONTROLLER_BASIC_INFORMATION</a>.
-
-
-
-#### BankInterruptBinding
-
 A structure that contains information about the interrupt resources that are assigned to the GPIO controller.
 
-
-
-##### ResourcesTranslated
+### -field BankInterruptBinding.ResourcesTranslated
 
 A handle to a framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
 
-
-
-##### ResourcesRaw
+### -field BankInterruptBinding.ResourcesRaw
 
 A handle to a framework resource-list object that identifies the raw hardware resources that the Plug and Play manager has assigned to the device.
 
+### -field BankInterruptBinding.TotalBanks
 
+The number of banks in the GPIO controller. This member indicates the expected length of the **BankInterruptBinding.ResourceMapping** array in the caller-allocated [CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT](./ns-gpioclx-_client_controller_query_set_information_output.md) structure, if the caller supplies a non-NULL pointer to this structure.
 
-##### TotalBanks
-
-The number of banks in the GPIO controller. This member indicates the expected length of the <b>BankInterruptBinding.ResourceMapping</b> array in the caller-allocated <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_query_set_information_output">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a> structure, if the caller supplies a non-NULL pointer to this structure.
-
-
-
-#### ControllerFunctionBankMapping
+### -field ControllerFunctionBankMapping
 
 A structure that contains information about an I/O control request (IOCTL).
 
-
-
-##### InputBuffer
+### -field ControllerFunctionBankMapping.InputBuffer
 
 A pointer to the input buffer for the IOCTL.
 
-
-
-##### InputBufferSize
+### -field ControllerFunctionBankMapping.InputBufferSize
 
 The size, in bytes, of the input buffer for the IOCTL.
 
-
-
-##### OutputBufferSize
+### -field ControllerFunctionBankMapping.OutputBufferSize
 
 The size, in bytes, of the output buffer for the IOCTL.
 
+### -field ControllerFunctionBankMapping.TotalBanks
 
-
-##### TotalBanks
-
-The number of banks in the GPIO controller. This member indicates the expected length of the <b>ControllerFunctionBankMapping.Mapping</b> array in the caller-allocated <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_query_set_information_output">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a> structure, if the caller supplies a non-NULL pointer to this structure.
+The number of banks in the GPIO controller. This member indicates the expected length of the **ControllerFunctionBankMapping.Mapping** array in the caller-allocated [CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT](./ns-gpioclx-_client_controller_query_set_information_output.md) structure, if the caller supplies a non-NULL pointer to this structure.
 
 ## -remarks
 
-The <i>InputBuffer</i> parameter of the <a href="/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_set_controller_information">CLIENT_QuerySetControllerInformation</a> function is a pointer to a <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</b> structure.
+The unnamed union contains input information for the various types of attribute requests. The **RequestType** member determines which member of this union is used. The following table shows the union member that corresponds to each valid **RequestType** value.
+
+| RequestType value | Union member |
+|--|--|
+| QueryBankPowerInformation | BankPowerInformation |
+| QueryBankInterruptBindingInformation | BankInterruptBinding |
+| QueryControllerFunctionBankMappingInformation | ControllerFunctionBankMapping |
+
+The *InputBuffer* parameter of the [CLIENT_QuerySetControllerInformation](./nc-gpioclx-gpio_client_query_set_controller_information.md) function is a pointer to a **CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT** structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_query_set_information_output">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_controller_basic_information">CLIENT_QueryControllerBasicInformation</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_set_controller_information">CLIENT_QuerySetControllerInformation</a>
-
+- [CLIENT_CONTROLLER_BASIC_INFORMATION](./ns-gpioclx-_client_controller_basic_information.md)
+- [CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT](./ns-gpioclx-_client_controller_query_set_information_output.md)
+- [CLIENT_QueryControllerBasicInformation](./nc-gpioclx-gpio_client_query_controller_basic_information.md)
+- [CLIENT_QuerySetControllerInformation](./nc-gpioclx-gpio_client_query_set_controller_information.md)

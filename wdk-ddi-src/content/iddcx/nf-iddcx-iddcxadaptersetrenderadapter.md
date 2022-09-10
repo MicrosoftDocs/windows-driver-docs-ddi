@@ -4,7 +4,7 @@ title: IddCxAdapterSetRenderAdapter function
 description: IddCxAdapterSetRenderAdapter sets the preferred render adapter on which to render the swapchains for the specified adapter.
 tech.root: display
 ms.author: windowsdriverdev
-ms.date: 09/24/2020
+ms.date: 08/08/2022
 keywords: ["IddCxAdapterSetRenderAdapter function"]
 ms.keywords: IddCxAdapterSetRenderAdapter
 req.header: iddcx.h
@@ -58,10 +58,6 @@ Adapter object of the adapter for which the rendering adapter preference is bein
 ### -param pInArgs [in]
 
 Pointer to an [**IDARG_IN_ADAPTERSETRENDERADAPTER**](ns-iddcx-idarg_in_adaptersetrenderadapter.md) structure containing input arguments to the function.
-
-## -returns
-
-None
 
 ## -remarks
 

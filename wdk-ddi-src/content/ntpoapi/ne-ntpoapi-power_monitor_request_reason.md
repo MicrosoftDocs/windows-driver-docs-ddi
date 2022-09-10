@@ -3,9 +3,9 @@ UID: NE:ntpoapi.__unnamed_enum_4
 title: POWER_MONITOR_REQUEST_REASON (ntpoapi.h)
 description: Defines values for power transitions reasons for a monitor.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 09/09/2022
 keywords: ["POWER_MONITOR_REQUEST_REASON enumeration"]
-ms.keywords: POWER_MONITOR_REQUEST_REASON, POWER_MONITOR_REQUEST_REASON,
+ms.keywords: POWER_MONITOR_REQUEST_REASON
 req.header: ntpoapi.h
 req.include-header: 
 req.target-type: 
@@ -32,126 +32,124 @@ api_name:
 
 # POWER_MONITOR_REQUEST_REASON enumeration
 
-
 ## -description
 
-Defines values for power transitions reasons for a monitor.
+Defines values for power transition reasons for a monitor.
 
 ## -enum-fields
 
-### -field MonitorRequestReasonUnknown : 
+### -field MonitorRequestReasonUnknown
 
-### -field MonitorRequestReasonPowerButton : 
+### -field MonitorRequestReasonPowerButton
 
-### -field MonitorRequestReasonRemoteConnection : 
+### -field MonitorRequestReasonRemoteConnection
 
-### -field MonitorRequestReasonScMonitorpower : 
+### -field MonitorRequestReasonScMonitorpower
 
-### -field MonitorRequestReasonUserInput : 
+### -field MonitorRequestReasonUserInput
 
-### -field MonitorRequestReasonAcDcDisplayBurst : 
+### -field MonitorRequestReasonAcDcDisplayBurst
 
-### -field MonitorRequestReasonUserDisplayBurst : 
+### -field MonitorRequestReasonUserDisplayBurst
 
-### -field MonitorRequestReasonPoSetSystemState : 
+### -field MonitorRequestReasonPoSetSystemState
 
-### -field MonitorRequestReasonSetThreadExecutionState : 
+### -field MonitorRequestReasonSetThreadExecutionState
 
-### -field MonitorRequestReasonFullWake : 
+### -field MonitorRequestReasonFullWake
 
-### -field MonitorRequestReasonSessionUnlock : 
+### -field MonitorRequestReasonSessionUnlock
 
-### -field MonitorRequestReasonScreenOffRequest : 
+### -field MonitorRequestReasonScreenOffRequest
 
-### -field MonitorRequestReasonIdleTimeout : 
+### -field MonitorRequestReasonIdleTimeout
 
-### -field MonitorRequestReasonPolicyChange : 
+### -field MonitorRequestReasonPolicyChange
 
-### -field MonitorRequestReasonSleepButton : 
+### -field MonitorRequestReasonSleepButton
 
-### -field MonitorRequestReasonLid : 
+### -field MonitorRequestReasonLid
 
-### -field MonitorRequestReasonBatteryCountChange : 
+### -field MonitorRequestReasonBatteryCountChange
 
-### -field MonitorRequestReasonGracePeriod : 
+### -field MonitorRequestReasonGracePeriod
 
-### -field MonitorRequestReasonPnP : 
+### -field MonitorRequestReasonPnP
 
-### -field MonitorRequestReasonDP : 
+### -field MonitorRequestReasonDP
 
-### -field MonitorRequestReasonSxTransition : 
+### -field MonitorRequestReasonSxTransition
 
-### -field MonitorRequestReasonSystemIdle : 
+### -field MonitorRequestReasonSystemIdle
 
-### -field MonitorRequestReasonNearProximity : 
+### -field MonitorRequestReasonNearProximity
 
-### -field MonitorRequestReasonThermalStandby : 
+### -field MonitorRequestReasonThermalStandby
 
-### -field MonitorRequestReasonResumePdc : 
+### -field MonitorRequestReasonResumePdc
 
-### -field MonitorRequestReasonResumeS4 : 
+### -field MonitorRequestReasonResumeS4
 
-### -field MonitorRequestReasonTerminal : 
+### -field MonitorRequestReasonTerminal
 
-### -field MonitorRequestReasonPdcSignal : 
+### -field MonitorRequestReasonPdcSignal
 
-### -field MonitorRequestReasonAcDcDisplayBurstSuppressed : 
+### -field MonitorRequestReasonAcDcDisplayBurstSuppressed
 
-### -field MonitorRequestReasonSystemStateEntered : 
+### -field MonitorRequestReasonSystemStateEntered
 
-### -field MonitorRequestReasonWinrt : 
+### -field MonitorRequestReasonWinrt
 
-### -field MonitorRequestReasonUserInputKeyboard : 
+### -field MonitorRequestReasonUserInputKeyboard
 
-### -field MonitorRequestReasonUserInputMouse : 
+### -field MonitorRequestReasonUserInputMouse
 
-### -field MonitorRequestReasonUserInputTouch : 
+### -field MonitorRequestReasonUserInputTouch
 
-### -field MonitorRequestReasonUserInputPen : 
+### -field MonitorRequestReasonUserInputPen
 
-### -field MonitorRequestReasonUserInputAccelerometer : 
+### -field MonitorRequestReasonUserInputAccelerometer
 
-### -field MonitorRequestReasonUserInputHid : 
+### -field MonitorRequestReasonUserInputHid
 
-### -field MonitorRequestReasonUserInputPoUserPresent : 
+### -field MonitorRequestReasonUserInputPoUserPresent
 
-### -field MonitorRequestReasonUserInputSessionSwitch : 
+### -field MonitorRequestReasonUserInputSessionSwitch
 
-### -field MonitorRequestReasonUserInputInitialization : 
+### -field MonitorRequestReasonUserInputInitialization
 
-### -field MonitorRequestReasonPdcSignalWindowsMobilePwrNotif : 
+### -field MonitorRequestReasonPdcSignalWindowsMobilePwrNotif
 
-### -field MonitorRequestReasonPdcSignalWindowsMobileShell : 
+### -field MonitorRequestReasonPdcSignalWindowsMobileShell
 
-### -field MonitorRequestReasonPdcSignalHeyCortana : 
+### -field MonitorRequestReasonPdcSignalHeyCortana
 
-### -field MonitorRequestReasonPdcSignalHolographicShell : 
+### -field MonitorRequestReasonPdcSignalHolographicShell
 
-### -field MonitorRequestReasonPdcSignalFingerprint : 
+### -field MonitorRequestReasonPdcSignalFingerprint
 
-### -field MonitorRequestReasonDirectedDrips :
+### -field MonitorRequestReasonDirectedDrips
 
-### -field MonitorRequestReasonDim :
+### -field MonitorRequestReasonDim
 
-### -field MonitorRequestReasonBuiltinPanel :
+### -field MonitorRequestReasonBuiltinPanel
 
-### -field MonitorRequestReasonDisplayRequiredUnDim :
+### -field MonitorRequestReasonDisplayRequiredUnDim
 
-### -field MonitorRequestReasonBatteryCountChangeSuppressed :
+### -field MonitorRequestReasonBatteryCountChangeSuppressed
 
-### -field MonitorRequestReasonResumeModernStandby :
+### -field MonitorRequestReasonResumeModernStandby
 
-### -field MonitorRequestReasonTerminalInit :
+### -field MonitorRequestReasonTerminalInit
 
-### -field MonitorRequestReasonPdcSignalSensorsHumanPresence :
+### -field MonitorRequestReasonPdcSignalSensorsHumanPresence
 
-### -field MonitorRequestReasonBatteryPreCritical :
+### -field MonitorRequestReasonBatteryPreCritical
 
-### -field MonitorRequestReasonUserInputTouch :
+### -field MonitorRequestReasonUserInputTouchpad
 
-### -field MonitorRequestReasonMax : 
+### -field MonitorRequestReasonMax
 
 ## -remarks
 
 ## -see-also
-

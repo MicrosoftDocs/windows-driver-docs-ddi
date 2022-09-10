@@ -1,14 +1,13 @@
 ---
 UID: NS:printoem._DRVPROCS
-title: _DRVPROCS (printoem.h)
+title: DRVPROCS (printoem.h)
 description: The DRVPROCS structure is obsolete and is not used with the COM interfaces for Microsoft printer drivers.
-old-location: print\drvprocs.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/12/2022
 keywords: ["DRVPROCS structure"]
 ms.keywords: "*PDRVPROCS, DRVPROCS, DRVPROCS structure [Print Devices], PDRVPROCS, PDRVPROCS structure pointer [Print Devices], _DRVPROCS, print.drvprocs, print_unidrv-pscript_rendering_63cf2b11-04c8-43f3-951b-5755764059f9.xml, printoem/DRVPROCS, printoem/PDRVPROCS"
 req.header: printoem.h
-req.include-header: 
+req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -46,73 +45,54 @@ api_name:
  - DRVPROCS
 ---
 
-# _DRVPROCS structure
-
-
 ## -description
 
-The DRVPROCS structure is obsolete and is not used with the COM interfaces for Microsoft printer drivers.
+The **DRVPROCS** structure is obsolete and is not used with the COM interfaces for Microsoft printer drivers.
 
 The structure contains the addresses of helper functions that are provided to rendering plug-ins by Microsoft printer drivers.
 
-All of the functions pointed to by members of this structure are obsolete. For information about each see:
-<dl>
-<dd>
+All of the functions pointed to by members of this structure are obsolete. For more information about each, see the following topics:
 
-<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvwritespoolbuf">DrvWriteSpoolBuf</a>
+[**DrvWriteSpoolBuf**](./nc-printoem-pfn_drvwritespoolbuf.md)
 
+[**DrvXMoveTo**](./nc-printoem-pfn_drvxmoveto.md)
 
-</dd>
-<dd>
+[**DrvYMoveTo**](./nc-printoem-pfn_drvymoveto.md)
 
-<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvxmoveto">DrvXMoveTo</a>
+[**DrvGetDriverSetting**](./nc-printoem-pfn_drvgetdriversetting.md)
 
+[**DrvGetStandardVariable**](./nc-printoem-pfn_drvgetstandardvariable.md) (for information about BGetStandardVariable)
 
-</dd>
-<dd>
+[**DrvUnidriverTextOut**](./nc-printoem-pfn_drvunidrivertextout.md)
 
-<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvymoveto">DrvYMoveTo</a>
-
-
-</dd>
-<dd>
-
-<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetdriversetting">DrvGetDriverSetting</a>
-
-
-</dd>
-<dd>
-
-<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetstandardvariable">DrvGetStandardVariable</a> (for information about BGetStandardVariable)
-
-</dd>
-<dd>
-
-<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvunidrivertextout">DrvUnidriverTextOut</a>
-
-
-</dd>
-<dd>
-
-<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvwriteabortbuf">DrvWriteAbortBuf</a>
-
-
-</dd>
-</dl>
+[**DrvWriteAbortBuf**](./nc-printoem-pfn_drvwriteabortbuf.md)
 
 ## -struct-fields
 
 ### -field DrvWriteSpoolBuf
 
+Defines the **PFN_DrvWriteSpoolBuf** member **DrvWriteSpoolBuf**.
+
 ### -field DrvXMoveTo
+
+Defines the **PFN_DrvXMoveTo** member **DrvXMoveTo**.
 
 ### -field DrvYMoveTo
 
+Defines the **PFN_DrvYMoveTo** member **DrvYMoveTo**.
+
 ### -field DrvGetDriverSetting
+
+Defines the **PFN_DrvGetDriverSetting** member **DrvGetDriverSetting**.
 
 ### -field BGetStandardVariable
 
+Defines the **PFN_DrvGetStandardVariable** member **BGetStandardVariable**.
+
 ### -field DrvUnidriverTextOut
+
+Defines the **PFN_DrvUnidriverTextOut** member **DrvUnidriverTextOut**.
 
 ### -field DrvWriteAbortBuf
 
+Defines the **PFN_DrvWriteAbortBuf** member **DrvWriteAbortBuf**.

@@ -4,7 +4,7 @@ title: ExAllocatePool macro (smcnt.h)
 description: The ExAllocatePool routine is obsolete, and is only exported for existing binaries. Use ExAllocatePoolWithTag instead. ExAllocatePool allocates pool memory.
 old-location: kernel\exallocatepool.htm
 tech.root: kernel
-ms.date: 02/24/2018
+ms.date: 08/11/2022
 keywords: ["ExAllocatePool macro"]
 ms.keywords: ExAllocatePool, ExAllocatePool routine [Kernel-Mode Driver Architecture], k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, kernel.exallocatepool, wdm/ExAllocatePool
 req.header: smcnt.h
@@ -43,48 +43,44 @@ api_name:
 
 # ExAllocatePool macro (smcnt.h)
 
-
 ## -description
 
-The **ExAllocatePool** routine is **obsolete**, and is exported only for existing binaries. Use [**ExAllocatePoolWithTag**](../wdm/nf-wdm-exallocatepoolwithtag.md) instead.
+The **ExAllocatePool** routine is **obsolete**, and is exported only for existing binaries. Use **[ExAllocatePoolWithTag](../wdm/nf-wdm-exallocatepoolwithtag.md)** instead.
 
 **ExAllocatePool** allocates pool memory of the specified type and returns a pointer to the allocated block.
 
 ## -parameters
 
-### -param PoolType
+### -param a
 
-Type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](../wdm/ne-wdm-_pool_type.md).
+Type of pool memory to allocate. For a description of the available pool memory types, see **[POOL_TYPE](../wdm/ne-wdm-_pool_type.md)**.
 
-You can modify *PoolType* by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
+You can modify *a* by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
 
-### -param NumberOfBytes
+### -param b
 
 Specifies the number of bytes to allocate.
 
 ## -syntax
 
 ```cpp
-PVOID ExAllocatePool(
-  _In_ POOL_TYPE PoolType,
-  _In_ SIZE_T    NumberOfBytes
-);
+#define ExAllocatePool(a,b) ExAllocatePoolWithTag(a,b, SMARTCARD_POOL_TAG)
 ```
 
 ## -remarks
 
 This routine is used for the general pool allocation of memory.
 
-If *NumberOfBytes* is PAGE_SIZE or greater, a page-aligned buffer is allocated. Memory allocations of PAGE_SIZE or less do not cross page boundaries. Memory allocations of less than PAGE_SIZE are not necessarily page-aligned but are aligned to 8-byte boundaries in 32-bit systems and to 16-byte boundaries in 64-bit systems.
+If *b* is PAGE_SIZE or greater, a page-aligned buffer is allocated. Memory allocations of PAGE_SIZE or less do not cross page boundaries. Memory allocations of less than PAGE_SIZE are not necessarily page-aligned but are aligned to 8-byte boundaries in 32-bit systems and to 16-byte boundaries in 64-bit systems.
 
-A successful allocation requesting *NumberOfBytes* < PAGE_SIZE of nonpaged pool gives the caller exactly the number of requested bytes of memory. If an allocation request for *NumberOfBytes* > PAGE_SIZE succeeds and *NumberOfBytes* is not an exact multiple of PAGE_SIZE, the last page in the allocation contains bytes that are not part of the caller's allocation. If possible, the pool allocator uses these bytes. To avoid corrupting data that belongs to other kernel-mode components, drivers must access only storage addresses that they have explicitly allocated.
+A successful allocation requesting *b* < PAGE_SIZE of nonpaged pool gives the caller exactly the number of requested bytes of memory. If an allocation request for *b* > PAGE_SIZE succeeds and *b* is not an exact multiple of PAGE_SIZE, the last page in the allocation contains bytes that are not part of the caller's allocation. If possible, the pool allocator uses these bytes. To avoid corrupting data that belongs to other kernel-mode components, drivers must access only storage addresses that they have explicitly allocated.
 
 If **ExAllocatePool** returns **NULL**, the caller should return the NTSTATUS value STATUS_INSUFFICIENT_RESOURCES or should delay processing to another point in time.
 
-Callers of **ExAllocatePool** must be executing at IRQL <= DISPATCH_LEVEL. A caller executing at DISPATCH_LEVEL must specify a **NonPaged***Xxx* value for *PoolType*. A caller executing at IRQL <= APC_LEVEL can specify any POOL_TYPE value, but the IRQL and environment must also be considered for determining the page type.
+Callers of **ExAllocatePool** must be executing at IRQL <= DISPATCH_LEVEL. A caller executing at DISPATCH_LEVEL must specify a **NonPaged***Xxx* value for *a*. A caller executing at IRQL <= APC_LEVEL can specify any POOL_TYPE value, but the IRQL and environment must also be considered for determining the page type.
 
 > [!NOTE]
-> Do not set *NumberOfBytes* = 0. Avoid zero-length allocations because they waste pool header space and, in many cases, indicate a potential validation issue in the calling code. For this reason, [Driver Verifier](/windows-hardware/drivers/what-s-new-in-driver-development) flags such allocations as possible errors.
+> Do not set `b = 0`. Avoid zero-length allocations because they waste pool header space and, in many cases, indicate a potential validation issue in the calling code. For this reason, [Driver Verifier](/windows-hardware/drivers/what-s-new-in-driver-development) flags such allocations as possible errors.
 
 The system automatically sets certain standard event objects when the amount of pool (paged or nonpaged) is high or low. Drivers can wait for these events to tune their pool usage. For more information, see [Standard Event Objects](/windows-hardware/drivers/kernel/standard-event-objects).
 
@@ -93,8 +89,6 @@ The system automatically sets certain standard event objects when the amount of 
 
 ## -see-also
 
-[**ExAllocatePoolWithTag**](../wdm/nf-wdm-exallocatepoolwithtag.md)
-
-[**ExFreePool**](../wdm/nf-wdm-exfreepool.md)
-
-[POOL_TYPE](../wdm/ne-wdm-_pool_type.md)
+- [ExAllocatePoolWithTag](../wdm/nf-wdm-exallocatepoolwithtag.md)
+- [ExFreePool](../wdm/nf-wdm-exfreepool.md)
+- [POOL_TYPE](../wdm/ne-wdm-_pool_type.md)

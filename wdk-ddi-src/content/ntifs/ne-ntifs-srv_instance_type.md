@@ -1,9 +1,9 @@
 ---
 UID: NE:ntifs._SRV_INSTANCE_TYPE
-title: _SRV_INSTANCE_TYPE (ntifs.h)
+title: SRV_INSTANCE_TYPE (ntifs.h)
 description: The SRV_INSTANCE_TYPE enumeration type describes the SRV instance type for an SRV_OPEN_ECP_CONTEXT.
 tech.root: ifsk
-ms.date: 09/09/2019
+ms.date: 05/24/2022
 keywords: ["SRV_INSTANCE_TYPE enumeration"]
 ms.keywords: "SRV_INSTANCE_TYPE, SRV_INSTANCE_TYPE enumeration [Installable File System Drivers], *PSRV_INSTANCE_TYPE"
 req.header: ntifs.h
@@ -47,12 +47,11 @@ api_name:
  - SRV_INSTANCE_TYPE
 ---
 
-# _SRV_INSTANCE_TYPE enumeration
-
+# SRV_INSTANCE_TYPE enumeration
 
 ## -description
 
-The SRV_INSTANCE_TYPE enumeration type describes the SRV instance type for an [SRV_OPEN_ECP_CONTEXT](ns-ntifs-_srv_open_ecp_context.md).
+The **SRV_INSTANCE_TYPE** enumeration type describes the SRV instance type for an [SRV_OPEN_ECP_CONTEXT](ns-ntifs-_srv_open_ecp_context.md).
 
 ## -enum-fields
 
@@ -76,7 +75,10 @@ The open request came from an internal instance of SRV used by S2D at Software L
 
 The open request came from an internal instance of SRV used by Storage Replica.
 
+### -field SrvInstanceTypeVSMB
+
+The open request came from an internal instance of SRV used by Hyper-V over SMB.
+
 ## -see-also
 
 [SRV_OPEN_ECP_CONTEXT](ns-ntifs-_srv_open_ecp_context.md)
-

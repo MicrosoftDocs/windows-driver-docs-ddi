@@ -4,7 +4,7 @@ title: KeReadStateQueue function (ntifs.h)
 description: "Microsoft reserves the KeReadStateQueue function for internal use only. Don't use this function in your code."
 old-location: ifsk\kereadstatequeue.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["KeReadStateQueue function"]
 ms.keywords: KeReadStateQueue, KeReadStateQueue function [Installable File System Drivers], ifsk.kereadstatequeue, keref_ae112949-4020-4501-8403-da1075d854c6.xml, ntifs/KeReadStateQueue
 req.header: ntifs.h
@@ -42,14 +42,16 @@ api_name:
 
 # KeReadStateQueue function
 
-
 ## -description
 
-The <b>KeReadStateQueue</b> routine is reserved for system use.
+The **KeReadStateQueue** routine is reserved for system use.
 
 ## -parameters
 
 ### -param Queue
 
-<p>Reserved.</p>
+Reserved.
 
+## -returns
+
+Reserved.

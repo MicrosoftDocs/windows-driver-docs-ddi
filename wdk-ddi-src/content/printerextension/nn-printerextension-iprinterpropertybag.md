@@ -2,16 +2,15 @@
 UID: NN:printerextension.IPrinterPropertyBag
 title: IPrinterPropertyBag (printerextension.h)
 description: Provides strongly-typed get and set methods.
-old-location: print\iprinterpropertybag_interface.htm
 tech.root: print
-ms.date: 09/21/2020
+ms.date: 08/04/2022
 keywords: ["IPrinterPropertyBag interface"]
 ms.keywords: IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], IPrinterPropertyBag interface [Print Devices],described, print.iprinterpropertybag_interface, printerextension/IPrinterPropertyBag
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,8 +39,6 @@ api_name:
  - IPrinterPropertyBag
 ---
 
-# IPrinterPropertyBag interface
-
 ## -description
 
 Provides strongly-typed **get** and **set** methods.
@@ -53,8 +50,6 @@ DEFINE_GUID(FMTID_PrinterPropertyBag, 0x75f9adca, 0x097d, 0x45c3, 0xa6, 0xe4, 0x
 ```
 
 The **IPrinterPropertyBag** interface is used by all the printer property bags, including driver property bag, user property bag, queue property bag, and DEVMODE property bag.
-
-## -inheritance
 
 ## -see-also
 

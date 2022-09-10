@@ -1,14 +1,13 @@
 ---
 UID: NS:printoem._PDEV_ADJUST_PHYSICAL_PAPER_SIZE
-title: _PDEV_ADJUST_PHYSICAL_PAPER_SIZE (printoem.h)
+title: PDEV_ADJUST_PHYSICAL_PAPER_SIZE (printoem.h)
 description: The PDEV_ADJUST_PAPER_PHYSICAL_SIZE structure specifies a paper size value.
-old-location: print\pdev_adjust_paper_physical_size.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/12/2022
 keywords: ["PDEV_ADJUST_PHYSICAL_PAPER_SIZE structure"]
 ms.keywords: "*PPDEV_ADJUST_PHYSICAL_PAPER_SIZE, PDEV_ADJUST_PAPER_PHYSICAL_SIZE, PDEV_ADJUST_PAPER_PHYSICAL_SIZE structure [Print Devices], PDEV_ADJUST_PHYSICAL_PAPER_SIZE, PDEV_ADJUST_PHYSICAL_PAPER_SIZE structure [Print Devices], PPDEV_ADJUST_PHYSICAL_PAPER_SIZE, PPDEV_ADJUST_PHYSICAL_PAPER_SIZE structure pointer [Print Devices], _PDEV_ADJUST_PHYSICAL_PAPER_SIZE, print.pdev_adjust_paper_physical_size, print_unidrv-pscript_rendering_6d8529f3-bcb3-48f8-a079-f855cd05d334.xml, printoem/PDEV_ADJUST_PHYSICAL_PAPER_SIZE, printoem/PPDEV_ADJUST_PHYSICAL_PAPER_SIZE"
 req.header: printoem.h
-req.include-header: 
+req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -46,20 +45,16 @@ api_name:
  - PDEV_ADJUST_PHYSICAL_PAPER_SIZE
 ---
 
-# _PDEV_ADJUST_PHYSICAL_PAPER_SIZE structure
-
-
 ## -description
 
-The PDEV_ADJUST_PAPER_PHYSICAL_SIZE structure specifies a paper size value.
+The **PDEV_ADJUST_PAPER_PHYSICAL_SIZE** structure specifies a paper size value.
 
 ## -struct-fields
 
 ### -field szlPhysicalPaperSize
 
-A SIZEL structure that specifies the physical paper size, in graphics device units (pixels).
+A **SIZEL** structure that specifies the physical paper size, in graphics device units (pixels).
 
 ## -remarks
 
-The PDEV_ADJUST_PAPER_PHYSICAL_SIZE structure is available in Windows Vista and later operating systems.
-
+The **PDEV_ADJUST_PAPER_PHYSICAL_SIZE** structure is available in Windows Vista and later operating systems.

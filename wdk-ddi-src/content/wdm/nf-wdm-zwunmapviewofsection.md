@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>ZwUnmapViewOfSection</b> routine unmaps a <a href="/windows-hardware/test/wpt/view">view</a> of a section from the virtual address space of a subject process.
+The <b>ZwUnmapViewOfSection</b> routine unmaps a <a href="/windows-hardware/drivers/kernel/section-objects-and-views">view</a> of a section from the virtual address space of a subject process.
 
 ## -parameters
 

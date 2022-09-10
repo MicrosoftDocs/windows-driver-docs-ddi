@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMFillPath
 title: OEMFillPath function (printoem.h)
 description: The OEMFillPath function handles the filling of closed paths.
-old-location: print\oemfillpath.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/09/2022
 keywords: ["OEMFillPath function"]
 ms.keywords: OEMEscape, OEMEscape function [Print Devices], OEMFillPath, print.oemfillpath, print_unidrv-pscript_rendering_0c8783bf-0e73-4b66-98a2-b71ee177549b.xml, printoem/OEMEscape
 req.header: printoem.h
@@ -40,26 +39,40 @@ api_name:
  - OEMFillPath
 ---
 
-# OEMFillPath function
-
-
 ## -description
 
-The <code>OEMFillPath</code> function handles the filling of closed paths.
+The **OEMFillPath** function handles the filling of closed paths.
 
 ## -parameters
 
 ### -param pso
 
+Defines the **SURFOBJ** parameter *pso*.
+
 ### -param ppo
+
+Defines the **PATHOBJ** parameter *ppo*.
 
 ### -param pco
 
+Defines the **CLIPOBJ** parameter *pco*.
+
 ### -param pbo
+
+Defines the **BRUSHOBJ** parameter *pbo*.
 
 ### -param pptlBrushOrg
 
+Defines the **POINTL** parameter *pptlBrushOrg*.
+
 ### -param mix
+
+Defines the **MIX** parameter *mix*.
 
 ### -param flOptions
 
+Defines the **FLONG** parameter *flOptions*.
+
+## -returns
+
+Returns a **BOOL** value.

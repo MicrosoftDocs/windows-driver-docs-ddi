@@ -3,7 +3,7 @@ UID: NF:storport.StorPortMarkDeviceFailedEx
 title: StorPortMarkDeviceFailedEx function
 description: The StorPortMarkDeviceFailedEx routine marks a device with failed status and provides data that might be needed for diagnosis.
 tech.root: storage
-ms.date: 03/24/2020
+ms.date: 05/24/2022
 ms.keywords: StorPortMarkDeviceFailedEx
 req.header: storport.h
 req.include-header: 
@@ -40,7 +40,6 @@ product:
 ---
 
 # StorPortMarkDeviceFailedEx function
-
 
 ## -description
 
@@ -89,7 +88,7 @@ Size in bytes of the buffer that *CriticalData* points to.
 
 Pointer to a buffer containing critical data associated with the fault condition.
 
-## - returns
+## -returns
 
 **StorPortMarkDeviceFailedEx** returns a valid STOR_STATUS code.
 

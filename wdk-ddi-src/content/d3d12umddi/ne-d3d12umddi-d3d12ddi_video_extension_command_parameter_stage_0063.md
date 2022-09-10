@@ -3,7 +3,7 @@ UID: NE:d3d12umddi.D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063
 title: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063
 description: Video Extensions support different parameterization at creation, initialization, and execution.
 tech.root: display
-ms.date: 04/04/2019
+ms.date: 05/24/2022
 keywords: ["D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063 enumeration"]
 ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063,
 req.header: d3d12umddi.h
@@ -35,34 +35,40 @@ dev_langs:
 
 # D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063 enumeration
 
-
 ## -description
 
-Video Extensions support different parameterization at creation, initialization, and execution.
+**D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063** specifies the parameter stages for video extension commands.
 
 ## -enum-fields
 
-### -field D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_CREATION
+### -field D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_CREATION:0
 
-Used to enumerate parameters passed to extension during creation.
+The parameter stage is in video extension command creation.
 
-### -field D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_INITIALIZATION
+### -field D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_INITIALIZATION:1
 
-Used to enumerate parameters passed to extension during initialization.
+The parameter stage is in video extension command initialization.
 
-### -field D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_EXECUTION
+### -field D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_EXECUTION:2
 
-Used to enumerate parameters passed to extension during execution.
+The parameter stage is in video extension command execution.
 
-### -field D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_CAPS_INPUT
+### -field D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_CAPS_INPUT:3
 
-Used to enumerate input parameters passed to capability queries.
+The parameter stage is input parameters passed to capabilities queries.
 
-### -field D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_CAPS_OUTPUT
+### -field D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_CAPS_OUTPUT:4
 
-Used to enumerate output parameters passed to capability queries.
+The parameter stage is output parameters passed to capabilities queries.
+
+### -field D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0076_DEVICE_EXECUTE_INPUT:5
+
+The parameter stage is device execution input.
+
+### -field D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0076_DEVICE_EXECUTE_OUTPUT:6
+
+The parameter stage is device execution input.
 
 ## -remarks
 
-## -see-also
-
+Video Extensions support different parameterization at creation, initialization, and execution. Values from this enumeration are used when querying for video extension parameter information.

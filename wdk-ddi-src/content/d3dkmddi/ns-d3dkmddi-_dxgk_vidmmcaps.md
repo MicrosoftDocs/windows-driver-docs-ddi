@@ -3,7 +3,7 @@ UID: NS:d3dkmddi._DXGK_VIDMMCAPS
 title: DXGK_VIDMMCAPS (d3dkmddi.h)
 description: The DXGK_VIDMMCAPS structure identifies the video memory management capabilities that a display miniport driver can support.
 old-location: display\dxgk_vidmmcaps.htm
-ms.date: 05/13/2021
+ms.date: 06/24/2022
 keywords: ["DXGK_VIDMMCAPS structure"]
 ms.keywords: DXGK_VIDMMCAPS, DXGK_VIDMMCAPS structure [Display Devices], DmStructs_0ec3e7bb-c14e-41b8-a148-7f77153972e8.xml, _DXGK_VIDMMCAPS, d3dkmddi/DXGK_VIDMMCAPS, display.dxgk_vidmmcaps
 req.header: d3dkmddi.h
@@ -134,7 +134,7 @@ Indicates that IOMMU hardware and isolation support (referred to by the **IommuS
 
 ### -field MapAperture2Supported
 
-Supported starting with Windows Server 2022.
+Indicates that the driver supports the [**DXGK_OPERATION_MAP_APERTURE_SEGMENT2**](ne-d3dkmddi-_dxgk_buildpagingbuffer_operation.md) paging buffer operation, which is required for [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping). Supported starting with WDDM version 2.9.
 
 ### -field CrossAdapterResourceTexture
 

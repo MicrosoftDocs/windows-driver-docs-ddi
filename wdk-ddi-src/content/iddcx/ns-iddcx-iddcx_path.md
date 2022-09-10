@@ -4,7 +4,7 @@ title: IDDCX_PATH (iddcx.h)
 description: Call IDDCX_PATH_INIT to initialize this structure.
 old-location: display\iddcx_path.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/09/2022
 keywords: ["IDDCX_PATH structure"]
 ms.keywords: IDDCX_PATH, IDDCX_PATH structure, IDDCX_PATH structure [Display Devices], IDDCX_PATH structure pointer [Display Devices], IDDCX_PATH structure structure [Display Devices], display.iddcx_path, iddcx/IDDCX_PATH
 req.header: iddcx.h
@@ -42,33 +42,28 @@ api_name:
 
 # IDDCX_PATH structure
 
-
 ## -description
 
-                 Call <a href="/windows-hardware/drivers/ddi/index">IDDCX_PATH_INIT</a> to initialize this structure.
+The operating system provides an **IDDCX_PATH** to the driver for every connected monitor, even if that monitor is not active.
 
 ## -struct-fields
 
 ### -field Size
 
-                     Total size of the structure.
+Total size of this structure, in bytes.
 
 ### -field MonitorObject
 
-                     The handle the driver provides to identify the monitor this path is targeted at.
+An [**IDDCX_MONITOR**](/windows-hardware/drivers/display/iddcx-objects) object with the handle the driver provides to identify the monitor that this path is targeted at.
 
 ### -field Flags
 
-                     Contains flags for this path, like the path's active state and whether it changed.
+A [**IDDCX_PATH_FLAGS**](ne-iddcx-iddcx_path_flags.md) value with flags for this path, like the path's active state and whether it has changed.
 
 ### -field TargetVideoSignalInfo
 
-The details of the target mode signal.
+A [**DISPLAYCONFIG_VIDEO_SIGNAL_INFO**](/windows/win32/api/wingdi/ns-wingdi-displayconfig_video_signal_info) structure with details of the target mode signal.
 
 ## -remarks
 
-The <a href="/windows/win32/api/wingdi/ns-wingdi-displayconfig_video_signal_info">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> value <b>vSyncFreq</b> is the Vsync rate between the Indirect Display device and the connected monitor.  <b>vSyncFreqDivider</b> is used to calculate the rate at which the OS will update the desktop image.
-
-The desktop update rate will be calculated by the formula: <a href="/windows/win32/api/wingdi/ns-wingdi-displayconfig_video_signal_info">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> value <b>vSyncFreq</b>  divided by the <b>DISPLAYCONFIG_VIDEO_SIGNAL_INFO</b> value <b>vSyncFreqDivider</b>. 
-
-The <a href="/windows/win32/api/wingdi/ns-wingdi-displayconfig_video_signal_info">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a>  value <b>vSyncFreqDivider</b> cannot be zero
+[**DISPLAYCONFIG_VIDEO_SIGNAL_INFO**](/windows/win32/api/wingdi/ns-wingdi-displayconfig_video_signal_info)'s **vSyncFreq** value is the Vsync rate between the Indirect Display device and the connected monitor.  **vSyncFreqDivider** is used to calculate the rate at which the OS will update the desktop image. The desktop update rate will be calculated by the formula: ```vSyncFreq / vSyncFreqDivider```. **vSyncFreqDivider** cannot be zero.

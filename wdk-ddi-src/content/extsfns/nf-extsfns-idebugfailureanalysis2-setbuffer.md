@@ -84,7 +84,7 @@ If this method does not find an <a href="/windows-hardware/drivers/debugger/fail
 
 
 
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getbuffer">GetBuffer</a>
+<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis-getbuffer">GetBuffer</a>
 
 
 

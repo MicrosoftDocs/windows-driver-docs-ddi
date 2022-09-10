@@ -48,40 +48,25 @@ api_name:
 
 # _PEP_ACPI_OBJECT_NAME structure (pepfx.h)
 
-
 ## -description
 
-The <b>PEP_ACPI_OBJECT_NAME</b> union contains the four-character name of an ACPI object.
+The **PEP_ACPI_OBJECT_NAME** union contains the four-character name of an ACPI object.
 
 ## -struct-fields
 
 ### -field Name
 
-### -field NameAsUlong
-
- 
-
-
-
-
-### -field ObjectName
-
 The object name stored as an array of four 8-bit unsigned characters.
 
-
-### -field ObjectNameAsUlong
+### -field NameAsUlong
 
 The object name stored as a single 32-bit unsigned integer value.
 
 ## -remarks
 
-The <i>Name</i> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_object_name_with_type">PEP_ACPI_OBJECT_NAME_WITH_TYPE</a> structure is a <b>PEP_ACPI_OBJECT_NAME</b> union. Also, the <i>Name</i> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_query_object_information">PEP_ACPI_QUERY_OBJECT_INFORMATION</a> structure is a <b>PEP_ACPI_OBJECT_NAME</b> union.
+The *Name* member of the [PEP_ACPI_OBJECT_NAME_WITH_TYPE](./ns-pepfx-_pep_acpi_object_name_with_type.md) structure is a **PEP_ACPI_OBJECT_NAME** union. Also, the *Name* member of the [PEP_ACPI_QUERY_OBJECT_INFORMATION](./ns-pepfx-_pep_acpi_query_object_information.md) structure is a **PEP_ACPI_OBJECT_NAME** union.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_object_name_with_type">PEP_ACPI_OBJECT_NAME_WITH_TYPE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_query_object_information">PEP_ACPI_QUERY_OBJECT_INFORMATION</a>
-
+- [PEP_ACPI_OBJECT_NAME_WITH_TYPE](./ns-pepfx-_pep_acpi_object_name_with_type.md)
+- [PEP_ACPI_QUERY_OBJECT_INFORMATION](./ns-pepfx-_pep_acpi_query_object_information.md)

@@ -3,14 +3,14 @@ UID: NN:printerextension.IPrintSchemaCapabilities2
 title: IPrintSchemaCapabilities2 (printerextension.h)
 description: The IPrintSchemaCapabilities2 interface represents an extension to the IPrintSchemaCapabilities object, which provides wrapper methods over a print capabilities document.
 tech.root: print
-ms.date: 06/11/2021
+ms.date: 08/04/2022
 keywords: ["IPrintSchemaCapabilities2 interface"]
 ms.keywords: IPrintSchemaCapabilities2, IPrintSchemaCapabilities2 interface [Print Devices], IPrintSchemaCapabilities2 interface [Print Devices],described, print.iprintschemacapabilities2, printerextension/IPrintSchemaCapabilities2
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -38,8 +38,6 @@ api_location:
 api_name:
  - IPrintSchemaCapabilities2
 ---
-
-# IPrintSchemaCapabilities2 interface
 
 ## -description
 

@@ -3,7 +3,7 @@ UID: NN:printerextension.IPrinterExtensionManager
 title: IPrinterExtensionManager (printerextension.h)
 description: The IPrinterExtensionManager interface is retrieved by CoCreating the PrinterExtensionManager class.
 tech.root: print
-ms.date: 06/11/2021
+ms.date: 08/04/2022
 keywords: ["IPrinterExtensionManager interface"]
 ms.keywords: IPrinterExtensionManager, IPrinterExtensionManager interface [Print Devices], IPrinterExtensionManager interface [Print Devices],described, print.iprinterextensionmanager_interface, printerextension/IPrinterExtensionManager
 req.header: printerextension.h
@@ -38,8 +38,6 @@ api_location:
 api_name:
  - IPrinterExtensionManager
 ---
-
-# IPrinterExtensionManager interface
 
 ## -description
 

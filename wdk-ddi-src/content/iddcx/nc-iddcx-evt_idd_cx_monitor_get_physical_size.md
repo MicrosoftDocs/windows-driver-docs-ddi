@@ -3,7 +3,7 @@ UID: NC:iddcx.EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE
 title: EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE
 description: The OS calls EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE to query the physical size of a remote EDID-less monitor.
 tech.root: display
-ms.date: 04/04/2019
+ms.date: 08/09/2022
 keywords: ["EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE callback function"]
 req.header: iddcx.h
 req.include-header: 
@@ -43,10 +43,9 @@ dev_langs:
 
 # EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE callback function
 
-
 ## -description
 
-The OS calls EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE to query the physical size of a remote EDID-less monitor.
+The OS calls **EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE** to query the physical size of a remote EDID-less monitor.
 
 ## -parameters
 
@@ -56,15 +55,15 @@ The context for the monitor this OPM context should be created on.
 
 ### -param pOutArgs [out]
 
-Pointer to a [IDARG_OUT_MONITORGETPHYSICALSIZE](ns-iddcx-idarg_out_monitorgetphysicalsize.md) structure that contains information about the monitor size.
+Pointer to a [**IDARG_OUT_MONITORGETPHYSICALSIZE**](ns-iddcx-idarg_out_monitorgetphysicalsize.md) structure that contains information about the monitor size.
 
 ## -returns
 
-If the driver knows the physical size of the monitor, it should fill in the *pOutArgs* and return STATUS_SUCCESS. In the event the driver does not know the physical size, it should return STATUS_NO_DATA_DETECTED.
+If the driver knows the physical size of the monitor, it should fill in the **pOutArgs** and return STATUS_SUCCESS. In the event the driver does not know the physical size, it should return STATUS_NO_DATA_DETECTED.
 
 ## -prototype
 
-```
+``` c++
 //Declaration
 
 EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE EvtIddCxMonitorGetPhysicalSize;
@@ -73,8 +72,8 @@ EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE EvtIddCxMonitorGetPhysicalSize;
 
 NTSTATUS EvtIddCxMonitorGetPhysicalSize
 (
-	IDDCX_MONITOR MonitorObject
-	IDARG_OUT_MONITORGETPHYSICALSIZE * pOutArgs
+    IDDCX_MONITOR MonitorObject
+    IDARG_OUT_MONITORGETPHYSICALSIZE * pOutArgs
 )
 {...}
 
@@ -86,10 +85,13 @@ This callback is only called for remote drivers that do not provide a monitor de
 
 **To declare a remote ID driver:**
 
-An ID driver declares that it wants to create a remote ID adapter by setting the [**IDDCX_ADAPTER_FLAGS_REMOTE_SESSION_DRIVER**](ne-iddcx-iddcx_adapter_flags.md) bit in the [IDDCX_ADAPTER_CAPS](ns-iddcx-iddcx_adapter_caps.md).**Flags** field when calling the [IddCxAdapterInitAsync](nf-iddcx-iddcxadapterinitasync.md) function. The OS tracks if the ID driver is being loaded due to the remote desktop stack connecting a remote session and will fail the IddCxAdapterInitAsync() call in the following two cases:
+An ID driver declares that it wants to create a remote ID adapter by setting the [**IDDCX_ADAPTER_FLAGS_REMOTE_SESSION_DRIVER**](ne-iddcx-iddcx_adapter_flags.md) bit in the [**IDDCX_ADAPTER_CAPS**](ns-iddcx-iddcx_adapter_caps.md).**Flags** field when calling the [IddCxAdapterInitAsync](nf-iddcx-iddcxadapterinitasync.md) function. The OS tracks if the ID driver is being loaded due to the remote desktop stack connecting a remote session and will fail the IddCxAdapterInitAsync() call in the following two cases:
 
-* If an ID driver does not set the IDDCX_ADAPTER_FLAGS_REMOTE_SESSION_DRIVER flags for a device that was created by the OS remote desktop stack for a remote session
-* If an ID driver sets the IDDCX_ADAPTER_FLAGS_REMOTE_SESSION_DRIVER flags for a device that was not created by the OS remote desktop stack
+* If an ID driver does not set the **IDDCX_ADAPTER_FLAGS_REMOTE_SESSION_DRIVER** flags for a device that was created by the OS remote desktop stack for a remote session
+* If an ID driver sets the **IDDCX_ADAPTER_FLAGS_REMOTE_SESSION_DRIVER** flags for a device that was not created by the OS remote desktop stack
 
 ## -see-also
 
+[**IDARG_OUT_MONITORGETPHYSICALSIZE**](ns-iddcx-idarg_out_monitorgetphysicalsize.md)
+
+[**IDDCX_ADAPTER_CAPS**](ns-iddcx-iddcx_adapter_caps.md)

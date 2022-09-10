@@ -4,7 +4,7 @@ tech.root: The HUMAN_PRESENCE_DETECTION_TYPE_COUNT enumeration represents the nu
 title: HUMAN_PRESENCE_DETECTION_TYPE_COUNT
 ms.date: 02/09/2022
 targetos: Windows
-description: 
+description: The HUMAN_PRESENCE_DETECTION_TYPE_COUNT enumeration represents the number of human presence detection types in the HUMAN_PRESENCE_DETECTION_TYPE enum.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 

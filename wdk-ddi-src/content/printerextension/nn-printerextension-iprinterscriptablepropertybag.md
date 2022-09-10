@@ -3,14 +3,14 @@ UID: NN:printerextension.IPrinterScriptablePropertyBag
 title: IPrinterScriptablePropertyBag (printerextension.h)
 description: The IPrinterScriptablePropertyBag interface is the property bag interface passed to script clients.
 tech.root: print
-ms.date: 06/11/2021
+ms.date: 08/04/2022
 keywords: ["IPrinterScriptablePropertyBag interface"]
 ms.keywords: IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], IPrinterScriptablePropertyBag interface [Print Devices],described, print.iprinterscriptablepropertybag, printerextension/IPrinterScriptablePropertyBag
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -38,8 +38,6 @@ api_location:
 api_name:
  - IPrinterScriptablePropertyBag
 ---
-
-# IPrinterScriptablePropertyBag interface
 
 ## -description
 

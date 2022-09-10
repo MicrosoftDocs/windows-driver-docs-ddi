@@ -1,10 +1,9 @@
 ---
 UID: NS:printoem._GETINFO_STDVAR
-title: _GETINFO_STDVAR (printoem.h)
+title: GETINFO_STDVAR (printoem.h)
 description: The GETINFO_STDVAR structure is used as input to the UNIFONTOBJ_GetInfo callback function.
-old-location: print\getinfo_stdvar.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/12/2022
 keywords: ["GETINFO_STDVAR structure"]
 ms.keywords: "*PGETINFO_STDVAR, GETINFO_STDVAR, GETINFO_STDVAR structure [Print Devices], PGETINFO_STDVAR, PGETINFO_STDVAR structure pointer [Print Devices], _GETINFO_STDVAR, print.getinfo_stdvar, print_unidrv-pscript_rendering_3a08d48b-215f-4acc-89ef-849a2b826ce7.xml, printoem/GETINFO_STDVAR, printoem/PGETINFO_STDVAR"
 req.header: printoem.h
@@ -46,198 +45,65 @@ api_name:
  - GETINFO_STDVAR
 ---
 
-# _GETINFO_STDVAR structure
-
-
 ## -description
 
-The GETINFO_STDVAR structure is used as input to the <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function.
+The **GETINFO_STDVAR** structure is used as input to the [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function.
 
 ## -struct-fields
 
 ### -field dwSize
 
-Specifies the size, in bytes, of the GETINFO_STDVAR structure. Supplied by the <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> caller.
+Specifies the size, in bytes, of the **GETINFO_STDVAR** structure. Supplied by the [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) caller.
 
 ### -field dwNumOfVariable
 
+Defines the **DWORD** member **dwNumOfVariable**.
+
 ### -field dwStdVarID
+
+Defines the **DWORD** member **dwStdVarID**.
 
 ### -field lStdVariable
 
+Defines the **LONG** member **lStdVariable**.
+
 ### -field StdVar
 
-Is an array specifying standard variable indexes and values. Each array element contains two members: a <b>dwStdVarID</b> member and an <b>lStdVariable</b> member.
-
-
+An array specifying standard variable indexes and values. Each array element contains two members: a **dwStdVarID** member and an **lStdVariable** member.
 
 #### dwStdVarID
 
-Specifies the <a href="/windows-hardware/drivers/print/standard-variables">standard variables</a> for which a value should be returned. Supplied by the <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> caller. Valid values are contained in the following table.
+Specifies the [standard variables](/windows-hardware/drivers/print/standard-variables) for which a value should be returned. Supplied by the [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) caller. Valid values are contained in the following table.
 
-<table>
-<tr>
-<th>Identifier</th>
-<th>Standard Variable</th>
-</tr>
-<tr>
-<td>
-FNT_INFO_CURRENTFONTID
+| Identifier                   | Standard Variable     |
+|------------------------------|-----------------------|
+| FNT_INFO_CURRENTFONTID       | CurrentFontID       |
+| FNT_INFO_FONTBOLD            | FontBold            |
+| FNT_INFO_FONTHEIGHT          | FontHeight          |
+| FNT_INFO_FONTITALIC          | FontItalic          |
+| FNT_INFO_FONTMAXWIDTH        | FontMaxWidth        |
+| FNT_INFO_FONTSTRIKETHRU      | FontStrikeThru      |
+| FNT_INFO_FONTUNDERLINE       | FontUnderline       |
+| FNT_INFO_FONTWIDTH           | FontWidth           |
+| FNT_INFO_GRAYPERCENTAGE      | GrayPercentage      |
+| FNT_INFO_NEXTFONTID          | NextFontID          |
+| FNT_INFO_NEXTGLYPH           | NextGlyph           |
+| FNT_INFO_PRINTDIRINCCDEGREES | PrintDirInCCDegrees |
+| FNT_INFO_TEXTXRES            | TextXRes            |
+| FNT_INFO_TEXTYRES            | TextYRes            |
 
-</td>
-<td>
-<code>CurrentFontID</code>
-
-</td>
-</tr>
-<tr>
-<td>
-FNT_INFO_FONTBOLD
-
-</td>
-<td>
-<code>FontBold</code>
-
-</td>
-</tr>
-<tr>
-<td>
-FNT_INFO_FONTHEIGHT
-
-</td>
-<td>
-<code>FontHeight</code>
-
-</td>
-</tr>
-<tr>
-<td>
-FNT_INFO_FONTITALIC
-
-</td>
-<td>
-<code>FontItalic</code>
-
-</td>
-</tr>
-<tr>
-<td>
-FNT_INFO_FONTMAXWIDTH
-
-</td>
-<td>
-<code>FontMaxWidth</code>
-
-</td>
-</tr>
-<tr>
-<td>
-FNT_INFO_FONTSTRIKETHRU
-
-</td>
-<td>
-<code>FontStrikeThru</code>
-
-</td>
-</tr>
-<tr>
-<td>
-FNT_INFO_FONTUNDERLINE
-
-</td>
-<td>
-<code>FontUnderline</code>
-
-</td>
-</tr>
-<tr>
-<td>
-FNT_INFO_FONTWIDTH
-
-</td>
-<td>
-<code>FontWidth</code>
-
-</td>
-</tr>
-<tr>
-<td>
-FNT_INFO_GRAYPERCENTAGE
-
-</td>
-<td>
-<code>GrayPercentage</code>
-
-</td>
-</tr>
-<tr>
-<td>
-FNT_INFO_NEXTFONTID
-
-</td>
-<td>
-<code>NextFontID</code>
-
-</td>
-</tr>
-<tr>
-<td>
-FNT_INFO_NEXTGLYPH
-
-</td>
-<td>
-<code>NextGlyph</code>
-
-</td>
-</tr>
-<tr>
-<td>
-FNT_INFO_PRINTDIRINCCDEGREES
-
-</td>
-<td>
-<code>PrintDirInCCDegrees</code>
-
-</td>
-</tr>
-<tr>
-<td>
-FNT_INFO_TEXTXRES
-
-</td>
-<td>
-<code>TextXRes</code>
-
-</td>
-</tr>
-<tr>
-<td>
-FNT_INFO_TEXTYRES
-
-</td>
-<td>
-<code>TextYRes</code>
-
-</td>
-</tr>
-</table>
- 
-
-Supplied by the <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> caller.
-
-
+Supplied by the [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) caller.
 
 #### lStdVariable
 
-Specifies the current value of the specified standard variable. Supplied by Unidrv's <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function.
+Specifies the current value of the specified standard variable. Supplied by Unidrv's [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function.
 
 ## -remarks
 
-To obtain the current value for one or more of Unidrv's standard variables, a rendering plug-in can supply the address of a GETINFO_STDVAR structure when calling Unidrv's <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function.
+To obtain the current value for one or more of Unidrv's standard variables, a rendering plug-in can supply the address of a GETINFO_STDVAR structure when calling Unidrv's [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function.
 
-For more information about <a href="/windows-hardware/drivers/print/standard-variables">standard variables</a>, see <a href="/windows-hardware/drivers/print/microsoft-universal-printer-driver">Microsoft Universal Printer Driver</a>.
+For more information about [standard variables](/windows-hardware/drivers/print/standard-variables), see [Microsoft Universal Printer Driver](/windows-hardware/drivers/print/microsoft-universal-printer-driver).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
-
+[UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md)

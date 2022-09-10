@@ -1,10 +1,10 @@
 ---
 UID: NC:pcivirt.SRIOV_GET_VENDOR_AND_DEVICE_IDS
 title: SRIOV_GET_VENDOR_AND_DEVICE_IDS (pcivirt.h)
-description: Supplies the Vendor and Device ID for a PCI Express SR-IOV Virtual Function (VF) to be used for generating a more generic Plug and Play ID for the VF. These IDs cannot be read directly from the VF’s configuration space.
+description: Supplies the Vendor and Device ID for a PCI Express SR-IOV Virtual Function (VF) to be used for generating a more generic Plug and Play ID for the VF. These IDs cannot be read directly from the VF's configuration space.
 old-location: pci\sriov_get_vendor_and_device_ids.htm
 tech.root: PCI
-ms.date: 02/24/2018
+ms.date: 08/04/2022
 keywords: ["SRIOV_GET_VENDOR_AND_DEVICE_IDS callback"]
 ms.keywords: "*PSRIOV_GET_VENDOR_AND_DEVICE_IDS, *PSRIOV_GET_VENDOR_AND_DEVICE_IDS callback function pointer [Buses], PCI.sriov_get_vendor_and_device_ids, SRIOV_GET_VENDOR_AND_DEVICE_IDS, SriovGetVendorAndDeviceIds, SriovGetVendorAndDeviceIds callback function [Buses], pcivirt/SriovGetVendorAndDeviceIds"
 req.header: pcivirt.h
@@ -42,53 +42,37 @@ api_name:
 
 # SRIOV_GET_VENDOR_AND_DEVICE_IDS callback
 
-
 ## -description
 
-Supplies the Vendor and Device ID for a PCI Express SR-IOV Virtual Function (VF) to be used for generating a more generic Plug and Play ID for the VF.  These IDs cannot be read directly from the VF’s configuration space.
+Supplies the Vendor and Device ID for a PCI Express SR-IOV Virtual Function (VF) to be used for generating a more generic Plug and Play ID for the VF.  These IDs cannot be read directly from the VF's configuration space.
 
 ## -parameters
 
 ### -param Context [in]
 
-
 A pointer to a driver-defined context.
 
 ### -param VfIndex [in]
-
 
 A zero-based index of the VF to which this write operation applies.
 
 ### -param VendorId [out]
 
-
-
-
 A pointer to a USHORT variable that is filled with the vendor ID of the VF.
 
 ### -param DeviceId [out]
 
-
-
-
 A pointer to a USHORT variable that is filled with the device ID of the VF.
-
-## -returns
-
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 ## -prototype
 
 ```cpp
-SRIOV_GET_VENDOR_AND_DEVICE_IDS SriovGetVendorAndDeviceIds;
-
-NTSTATUS SriovGetVendorAndDeviceIds(
-  _In_  PVOID   Context,
-  _In_  USHORT  VfIndex,
-  _Out_ PUSHORT VendorId,
-  _Out_ PUSHORT DeviceId
-)
-{ ... }
+VOID SRIOV_GET_VENDOR_AND_DEVICE_IDS (
+    _In_        PVOID           Context,
+    _In_        USHORT          VfIndex,
+    _Out_       PUSHORT         VendorId,
+    _Out_       PUSHORT         DeviceId
+    );
 
 typedef SRIOV_GET_VENDOR_AND_DEVICE_IDS *PSRIOV_GET_VENDOR_AND_DEVICE_IDS;
 ```
@@ -97,15 +81,13 @@ typedef SRIOV_GET_VENDOR_AND_DEVICE_IDS *PSRIOV_GET_VENDOR_AND_DEVICE_IDS;
 
 This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to retrieve the vendor and device identifiers of the specified VF.
 
-The PCI Express SR-IOV Specification requires that all VFs have the same Vendor and Device IDs.  This is a requirement of compliant hardware.  However, it’s possible to provision VFs such that their capabilities differ from each other, and it’s often useful to load different drivers on different hardware.  So Windows allows the  PF driver to supply separate Device and Vendor IDs (with different class codes, through the configuration space interfaces) such that each VF may appear with the Plug and Play IDs that are most appropriate for its use.
+The PCI Express SR-IOV Specification requires that all VFs have the same Vendor and Device IDs.  This is a requirement of compliant hardware.  However, it's possible to provision VFs such that their capabilities differ from each other, and it's often useful to load different drivers on different hardware.  So Windows allows the  PF driver to supply separate Device and Vendor IDs (with different class codes, through the configuration space interfaces) such that each VF may appear with the Plug and Play IDs that are most appropriate for its use.
 
-The PF driver registers its implementation by setting the <b>GetVendorAndDevice</b> member of the <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_device_interface_standard">SRIOV_DEVICE_INTERFACE_STANDARD</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
+The PF driver registers its implementation by setting the **GetVendorAndDevice** member of the [SRIOV_DEVICE_INTERFACE_STANDARD](./ns-pcivirt-_sriov_device_interface_standard.md), configuring a [WDF_QUERY_INTERFACE_CONFIG](..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md) structure, and calling [WdfDeviceAddQueryInterface](..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md).
 
 Here is an example implementation of this callback function.
 
-
-```
-
+``` cpp
 Virtualization_GetVendorAndDevice (
     _In_    PVOID           Context,
     _In_    USHORT          VfIndex,
@@ -122,9 +104,5 @@ Virtualization_GetVendorAndDevice (
 
     *VendorId = deviceContext->VendorId;
     *DeviceId = deviceContext->DeviceId;
-
-    return;
 }
-
 ```
-

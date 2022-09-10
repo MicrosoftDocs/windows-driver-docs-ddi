@@ -1,10 +1,10 @@
 ---
 UID: NS:hbapiwmi._ScsiReportLuns_IN
-title: _ScsiReportLuns_IN (hbapiwmi.h)
+title: ScsiReportLuns_IN (hbapiwmi.h)
 description: The ScsiReportLuns_IN structure is used to deliver input parameter data to the ScsiReportLuns WMI method.
 old-location: storage\scsireportluns_in2.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 08/26/2022
 keywords: ["ScsiReportLuns_IN structure"]
 ms.keywords: "*PScsiReportLuns_IN, PScsiReportLuns_IN, PScsiReportLuns_IN structure pointer [Storage Devices], ScsiReportLuns_IN, ScsiReportLuns_IN structure [Storage Devices], _ScsiReportLuns_IN, hbapiwmi/PScsiReportLuns_IN, hbapiwmi/ScsiReportLuns_IN, storage.scsireportluns_in2, structs-Fibre_29218585-2d91-40f3-bbce-fb23df1e3df9.xml"
 req.header: hbapiwmi.h
@@ -46,37 +46,30 @@ api_name:
  - ScsiReportLuns_IN
 ---
 
-# _ScsiReportLuns_IN structure (hbapiwmi.h)
-
+# ScsiReportLuns_IN structure (hbapiwmi.h)
 
 ## -description
 
-The ScsiReportLuns_IN structure is used to deliver input parameter data to the <a href="/windows-hardware/drivers/storage/scsireportluns6">ScsiReportLuns</a> WMI method.
+The ScsiReportLuns_IN structure is used to deliver input parameter data to the [**ScsiReportLuns**](/windows-hardware/drivers/storage/scsireportluns6) WMI method.
 
 ## -struct-fields
 
-### -field Cdb
+### -field Cdb[12]
 
 Contains the command descriptor block that holds the SCSI report LUNs command to be sent to the target device.
 
-### -field HbaPortWWN
+### -field HbaPortWWN[8]
 
 Contains a worldwise name for the HBA through which the target is accessed.
 
-### -field DiscoveredPortWWN
+### -field DiscoveredPortWWN[8]
 
-Contains a worldwide name for the port through which the target device is accessed. 
-
-
-### -field FcLun
-
-Indicates the logical unit number of the logical unit that will receive the SCSI report luns command.
+Contains a worldwide name for the port through which the target device is accessed.
 
 ## -remarks
 
-The WMI tool suite generates a declaration of the ScsiReportLuns_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
+The WMI tool suite generates a declaration of the ScsiReportLuns_IN structure in *Hbapiwmi.h* when it compiles the [MSFC_HBAAdapterMethods WMI Class](/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/storage/scsireportluns6">ScsiReportLuns</a>
-
+[**ScsiReportLuns**](/windows-hardware/drivers/storage/scsireportluns6)

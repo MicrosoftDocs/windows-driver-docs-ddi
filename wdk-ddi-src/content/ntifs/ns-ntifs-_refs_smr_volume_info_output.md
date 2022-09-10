@@ -1,16 +1,16 @@
 ---
 UID: NS:ntifs._REFS_SMR_VOLUME_INFO_OUTPUT
-title: _REFS_SMR_VOLUME_INFO_OUTPUT (ntifs.h)
+title: REFS_SMR_VOLUME_INFO_OUTPUT (ntifs.h)
 description: The REFS_SMR_VOLUME_INFO_OUTPUT structure describes a Shingled Magnetic Recording (SMR) volume's current state on space and garbage collection activities.
 old-location: ifsk\refs_smr_volume_info_output.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["REFS_SMR_VOLUME_INFO_OUTPUT structure"]
 ms.keywords: "*PREFS_SMR_VOLUME_INFO_OUTPUT, PREFS_SMR_VOLUME_INFO_OUTPUT, PREFS_SMR_VOLUME_INFO_OUTPUT structure pointer [Installable File System Drivers], REFS_SMR_VOLUME_INFO_OUTPUT, REFS_SMR_VOLUME_INFO_OUTPUT structure [Installable File System Drivers], _REFS_SMR_VOLUME_INFO_OUTPUT, ifsk.refs_smr_volume_info_output, ntifs/PREFS_SMR_VOLUME_INFO_OUTPUT, ntifs/REFS_SMR_VOLUME_INFO_OUTPUT"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 10, version 1709.
+req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,12 +46,11 @@ api_name:
  - REFS_SMR_VOLUME_INFO_OUTPUT
 ---
 
-# _REFS_SMR_VOLUME_INFO_OUTPUT structure
-
+# REFS_SMR_VOLUME_INFO_OUTPUT structure
 
 ## -description
 
-The <b>REFS_SMR_VOLUME_INFO_OUTPUT</b> structure describes a Shingled Magnetic Recording (SMR) volume's  current  state on space and garbage collection activities.
+The **REFS_SMR_VOLUME_INFO_OUTPUT** structure describes a Shingled Magnetic Recording (SMR) volume's current state on space and garbage collection activities.
 
 ## -struct-fields
 
@@ -89,9 +88,12 @@ Specifies the current state of the garbage collector.
 
 ### -field VolumeGcLastStatus
 
-Specifies the status of the last garbage collection using the specified method in <a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_refs_smr_volume_gc_method">REFS_SMR_VOLUME_GC_METHOD</a>.
+Specifies the status of the last garbage collection using the specified method in [**REFS_SMR_VOLUME_GC_METHOD**](ne-ntifs-_refs_smr_volume_gc_method.md).
+
+### -field CurrentGcBandFillPercentage
+
+Specifies the current band fill percentage of the garbage collector.
 
 ### -field Unused
 
 Reserved for future use.
-

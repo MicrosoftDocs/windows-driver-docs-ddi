@@ -55,7 +55,7 @@ The size, in bytes, of the WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure.
 
 ### -field Version
 
-The version of the WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure. PSHED plug-ins must set this member to WHEA_PLUGIN_REGISTRATION_PACKET_VERSION.
+The version of the WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure. PSHED plug-ins must set this member to WHEA_PLUGIN_REGISTRATION_PACKET_VERSION, which will be set to the default WHEA_PLUGIN_REGISTRATION_PACKET_V2.
 
 ### -field Context
 
@@ -75,7 +75,11 @@ A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_callb
 
 ### -field PluginHandle
 
+V2 plugins can be unregistered via the PluginHandle. Save this for unregistering. Only V2 plugins have the ability to be unregistered.
+
 ## -remarks
+
+V2 plugins are the default. If you are creating a new PSHED plugin, create a V2 plugin.
 
 ## -see-also
 

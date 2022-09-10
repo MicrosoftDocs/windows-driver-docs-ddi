@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrintSchemaPageMediaSizeOption.get_WidthInMicrons
 title: IPrintSchemaPageMediaSizeOption::get_WidthInMicrons (printerextension.h)
 description: Gets the width of the page in microns.
-old-location: print\iprintschemapagemediasizeoption_widthinmicrons.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/03/2022
 keywords: ["IPrintSchemaPageMediaSizeOption::get_WidthInMicrons"]
 ms.keywords: IPrintSchemaPageMediaSizeOption interface [Print Devices],WidthInMicrons property, IPrintSchemaPageMediaSizeOption.WidthInMicrons, IPrintSchemaPageMediaSizeOption.get_WidthInMicrons, IPrintSchemaPageMediaSizeOption::WidthInMicrons, IPrintSchemaPageMediaSizeOption::get_WidthInMicrons, WidthInMicrons property [Print Devices], WidthInMicrons property [Print Devices],IPrintSchemaPageMediaSizeOption interface, get_WidthInMicrons, print.iprintschemapagemediasizeoption_widthinmicrons, printerextension/IPrintSchemaPageMediaSizeOption::WidthInMicrons, printerextension/IPrintSchemaPageMediaSizeOption::get_WidthInMicrons
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,16 +39,22 @@ api_name:
  - IPrintSchemaPageMediaSizeOption::get_WidthInMicrons
 ---
 
-# IPrintSchemaPageMediaSizeOption::get_WidthInMicrons
-
-
 ## -description
 
 Gets the width of the page in microns.
 
 This property is read-only.
 
+## -parameters
+
+### -param pulWidth
+
+Defines the **ULONG** parameter *pulWidth*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapagemediasizeoption">IPrintSchemaPageMediaSizeOption</a>
-
+[IPrintSchemaPageMediaSizeOption](./nn-printerextension-iprintschemapagemediasizeoption.md)

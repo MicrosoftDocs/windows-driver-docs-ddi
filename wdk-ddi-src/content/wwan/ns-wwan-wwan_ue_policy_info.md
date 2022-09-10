@@ -5,7 +5,7 @@ title: WWAN_UE_POLICY_INFO
 ms.date: 03/11/2022
 targetos: Windows
 description: The WWAN_UE_POLICY_INFO structure represents the UE policy information of the MB device.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: WIN11_NEXT
+req.target-min-winverclnt: Windows 11, version 22H2
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: WWAN_UE_POLICY_INFO, *PWWAN_UE_POLICY_INFO
@@ -57,10 +57,10 @@ The second 4 bytes are the size of the raw data of MBIM_TLV_TYPE_URSP_RULES_TD_O
 
 ## -remarks
 
-**WWAN_UE_POLICY_INFO** is used by the  [**NDIS_WWAN_UE_POLICY_INFO**](/ndiswwan/ns-ndiswwan-ndis_wwan_ue_policy_info.md) structure.
+**WWAN_UE_POLICY_INFO** is used by the  [**NDIS_WWAN_UE_POLICY_INFO**]../ndiswwan/ns-ndiswwan-ndis_wwan_ue_policy_info.md) structure.
 
 ## -see-also
 
-[**NDIS_WWAN_UE_POLICY_INFO**](/ndiswwan/ns-ndiswwan-ndis_wwan_ue_policy_info.md)
+[**NDIS_WWAN_UE_POLICY_INFO**](../ndiswwan/ns-ndiswwan-ndis_wwan_ue_policy_info.md)
 
 [OID_WWAN_UE_POLICY](/windows-hardware/drivers/network/oid-wwan-ue-policy)

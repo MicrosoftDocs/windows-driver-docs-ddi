@@ -4,7 +4,7 @@ title: FltAcquirePushLockShared macro (fltkernel.h)
 description: The FltAcquirePushLockShared routine acquires the given push lock for shared access by the calling thread.
 old-location: ifsk\fltacquirepushlockshared.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 08/11/2022
 keywords: ["FltAcquirePushLockShared macro"]
 ms.keywords: FltAcquirePushLockShared, FltAcquirePushLockShared routine [Installable File System Drivers], FltApiRef_a_to_d_329cb1e6-2fb5-45fa-a533-71a60ce341cf.xml, fltkernel/FltAcquirePushLockShared, ifsk.fltacquirepushlockshared
 req.header: fltkernel.h
@@ -43,74 +43,59 @@ api_name:
 
 # FltAcquirePushLockShared macro
 
-
 ## -description
 
-The <b>FltAcquirePushLockShared</b> routine acquires the given push lock for shared access by the calling thread.
+The **FltAcquirePushLockShared** routine acquires the given push lock for shared access by the calling thread.
 
 ## -parameters
 
-### -param Lock [in, out]
+### -param PushLock [in, out]
 
+Opaque push lock pointer of type **PEX_PUSH_LOCK**. This pointer must have been initialized by a previous call to [**FltInitializePushLock**](nf-fltkernel-fltinitializepushlock.md).
 
-Opaque push lock pointer of type **PEX_PUSH_LOCK**. This pointer must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>.
+## -returns
+
+None.
 
 ## -remarks
 
-This routine is available on Microsoft Windows XP SP2, Microsoft Windows Server 2003 SP1, and later. 
+The **FltAcquirePushLockShared** routine acquires the given push lock for shared access by the calling thread.
 
-The <b>FltAcquirePushLockShared</b> routine acquires the given push lock for shared access by the calling thread. 
+Push locks are similar to ERESOURCE structures (also called resources) in that they can be acquired for shared or exclusive access. For more information about push locks, see the reference entry for [**FltInitializePushLock**](nf-fltkernel-fltinitializepushlock.md).
 
-Push locks are similar to ERESOURCE structures (also called resources) in that they can be acquired for shared or exclusive access. For more information about push locks, see the reference entry for <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>. 
-
-Unlike ERESOURCE structures, push locks cannot be acquired recursively. If the caller already has acquired the push lock for exclusive access, the system will hang. If the caller already has acquired the push lock for shared access, it can receive shared access again. However, each call to <b>FltAcquirePushLockShared</b> must be matched by a subsequent call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasepushlock">FltReleasePushLock</a>. 
+Unlike ERESOURCE structures, push locks cannot be acquired recursively. If the caller already has acquired the push lock for exclusive access, the system will hang. If the caller already has acquired the push lock for shared access, it can receive shared access again. However, each call to **FltAcquirePushLockShared** must be matched by a subsequent call to [**FltReleasePushLock**](nf-fltkernel-fltreleasepushlock.md).
 
 When the caller will be given shared access to the given push lock depends on the following:
 
-<ul>
-<li>
-If the push lock is currently unowned, shared access is granted immediately to the current thread.
+* If the push lock is currently unowned, shared access is granted immediately to the current thread.
 
-</li>
-<li>
-If the push lock has already been acquired for shared access by another thread and no thread is waiting for exclusive access to the push lock, shared access is granted to the caller immediately. The caller is put into a wait state if there is an exclusive waiter. 
+* If the push lock has already been acquired for shared access by another thread and no thread is waiting for exclusive access to the push lock, shared access is granted to the caller immediately. The caller is put into a wait state if there is an exclusive waiter.
 
-</li>
-<li>
-If the push lock has already been acquired for exclusive access by another thread or if there is another thread waiting for exclusive access, the current thread is put into a wait state until the push lock can be acquired. 
+* If the push lock has already been acquired for exclusive access by another thread or if there is another thread waiting for exclusive access, the current thread is put into a wait state until the push lock can be acquired.
 
-</li>
-</ul>
-Because <b>FltAcquirePushLockShared</b> disables normal kernel APC delivery, it is not necessary to call <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a> or <a href="/windows-hardware/drivers/ifs/fsrtlenterfilesystem">FsRtlEnterFileSystem</a> before calling <b>FltAcquirePushLockShared</b>. 
+Because **FltAcquirePushLockShared** disables normal kernel APC delivery, it is not necessary to call [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md)
+ or [**FsRtlEnterFileSystem**](/windows-hardware/drivers/ifs/fsrtlenterfilesystem) before calling **FltAcquirePushLockShared**.
 
-To release the push lock after it is acquired, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasepushlock">FltReleasePushLock</a>. Every call to <b>FltAcquirePushLockShared</b> must be matched by a subsequent call to <b>FltReleasePushLock</b>. 
+To release the push lock after it is acquired, call [**FltReleasePushLock**](nf-fltkernel-fltreleasepushlock.md). Every call to **FltAcquirePushLockShared** must be matched by a subsequent call to **FltReleasePushLock**.
 
-To acquire a push lock for exclusive access, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockexclusive">FltAcquirePushLockExclusive</a>. 
+To acquire a push lock for exclusive access, call [**FltAcquirePushLockExclusive**](nf-fltkernel-fltacquirepushlockexclusive.md).
 
-To initialize a push lock, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>. 
+To initialize a push lock, call [**FltInitializePushLock**](nf-fltkernel-fltinitializepushlock.md).
 
-To delete a push lock, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletepushlock">FltDeletePushLock</a>.
+To delete a push lock, call [**FltDeletePushLock**](nf-fltkernel-fltdeletepushlock.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockexclusive">FltAcquirePushLockExclusive</a>
+[**FltAcquirePushLockExclusive**](nf-fltkernel-fltacquirepushlockexclusive.md)
 
+[**FltAcquirePushLockSharedEx**](nf-fltkernel-fltacquirepushlocksharedex.md)
 
+[**FltDeletePushLock**](nf-fltkernel-fltdeletepushlock.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletepushlock">FltDeletePushLock</a>
+[**FltInitializePushLock**](nf-fltkernel-fltinitializepushlock.md)
 
+[**FltReleasePushLock**](nf-fltkernel-fltreleasepushlock.md)
 
+[**FsRtlEnterFileSystem**](/windows-hardware/drivers/ifs/fsrtlenterfilesystem)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasepushlock">FltReleasePushLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/fsrtlenterfilesystem">FsRtlEnterFileSystem</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>
+[**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md)

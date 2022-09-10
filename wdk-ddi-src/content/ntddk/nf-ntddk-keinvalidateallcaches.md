@@ -4,7 +4,7 @@ title: KeInvalidateAllCaches function (ntddk.h)
 description: The KeInvalidateAllCaches routine flushes all processor caches.
 old-location: kernel\keinvalidateallcaches.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/27/2022
 keywords: ["KeInvalidateAllCaches function"]
 ms.keywords: KeInvalidateAllCaches, KeInvalidateAllCaches routine [Kernel-Mode Driver Architecture], k105_4b59c5bd-70e3-48e1-aa6c-abf4e02925e8.xml, kernel.keinvalidateallcaches, ntddk/KeInvalidateAllCaches
 req.header: ntddk.h
@@ -55,3 +55,6 @@ The <b>KeInvalidateAllCaches</b> routine flushes all processor caches.
 
 The <b>KeInvalidateAllCaches</b> routine flushes each processor's caches and marks each cache's contents invalid. The processor caches are guaranteed to have completed the flush operation before <b>KeInvalidateAllCaches</b> returns.
 
+<b>KeInvalidateAllCaches</b> has been superseded by <b><a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keinvalidaterangeallcaches">KeInvalidateRangeAllCaches</a></b>. See Remarks of that page for more information about the differences between the routines.
+
+This function is not available on the Arm and Arm64 architectures, where there is no architecturally reliable way to flush the entire cache.

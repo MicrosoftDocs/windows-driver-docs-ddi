@@ -116,7 +116,7 @@ WDDM version for Windows 11.
 
 ### -field DXGKDDI_WDDMv3_1
 
-WDDM version for WIN11_NEXT.
+WDDM version for Windows 11, version 22H2.
 
 ### -field DXGKDDI_WDDM_LATEST
 

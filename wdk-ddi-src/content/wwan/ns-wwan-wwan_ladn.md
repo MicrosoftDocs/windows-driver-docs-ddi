@@ -5,7 +5,7 @@ title: WWAN_LADN
 ms.date: 03/14/2022
 targetos: Windows
 description: The WWAN_LADN structure represents a Local Area Data Network (LADN).
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: WIN11_NEXT
+req.target-min-winverclnt: Windows 11, version 22H2
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: WWAN_LADN, *PWWAN_LADN

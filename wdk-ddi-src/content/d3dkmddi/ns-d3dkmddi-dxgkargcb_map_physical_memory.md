@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_MAP_PHYSICAL_MEMORY
 tech.root: display
 title: DXGKARGCB_MAP_PHYSICAL_MEMORY
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: The DXGKARGCB_MAP_PHYSICAL_MEMORY structure contains the information used by the DxgkCbMapPhysicalMemory callback function to map CPU-visible virtual addresses to the underlying physical memory.
 req.construct-type: structure
@@ -67,6 +67,8 @@ On a successful call to [**DXGKCB_MAPPHYSICALMEMORY**](nc-d3dkmddi-dxgkcb_mapphy
 ## -remarks
 
 **Offset** and **Size** are both input and output parameters. As an input, these describe the region of physical memory that is requested by the caller. On output, these describe the actual mapped view. This is because the address that is mapped to the corresponding physical memory may not be exactly at the requested offset. The actual data requested by the caller will be equal to **pMappedAddress** + **Offset**. The size of the virtual address range that was mapped will be the output value of **Size**, which may be larger than the requested size.
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 ## -see-also
 

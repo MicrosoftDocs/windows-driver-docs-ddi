@@ -1,9 +1,9 @@
 ---
 UID: NE:ntifs._VIRTUAL_STORAGE_BEHAVIOR_CODE
-title: _VIRTUAL_STORAGE_BEHAVIOR_CODE (ntifs.h)
+title: VIRTUAL_STORAGE_BEHAVIOR_CODE (ntifs.h)
 description: Configures file system-specific behaviors used on virtual storage devices.
 tech.root: ifsk
-ms.date: 10/19/2018
+ms.date: 05/24/2022
 keywords: ["VIRTUAL_STORAGE_BEHAVIOR_CODE enumeration"]
 ms.keywords: _VIRTUAL_STORAGE_BEHAVIOR_CODE, VIRTUAL_STORAGE_BEHAVIOR_CODE, *PVIRTUAL_STORAGE_BEHAVIOR_CODE,
 req.header: ntifs.h
@@ -36,8 +36,7 @@ api_name:
  - VIRTUAL_STORAGE_BEHAVIOR_CODE
 ---
 
-# _VIRTUAL_STORAGE_BEHAVIOR_CODE enumeration
-
+# VIRTUAL_STORAGE_BEHAVIOR_CODE enumeration
 
 ## -description
 
@@ -45,19 +44,22 @@ Configures file system-specific behaviors used on virtual storage devices.
 
 ## -enum-fields
 
-### -field VirtualStorageBehaviorUndefined 
+### -field VirtualStorageBehaviorUndefined
 
-Specifies the behavior of the virtual storage device is undefined.
+The behavior of the virtual storage device is undefined.
 
-### -field VirtualStorageBehaviorCacheWriteThrough 
+### -field VirtualStorageBehaviorCacheWriteThrough
 
-Specifies to use Write-Through caching on the virtual storage device.
+Use Write-Through caching on the virtual storage device.
 
-### -field VirtualStorageBehaviorCacheWriteBack 
+### -field VirtualStorageBehaviorCacheWriteBack
 
-Specifies to use Write-Back caching on the virtual storage device.
+Use Write-Back caching on the virtual storage device.
 
-## -remarks
+### -field VirtualStorageBehaviorStopIoProcessing
 
-## -see-also
+Stop I/O processing on the virtual storage device.
 
+### -field VirtualStorageBehaviorRestartIoProcessing
+
+Start I/O processing on the virtual storage device.

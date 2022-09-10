@@ -2,15 +2,14 @@
 UID: NC:wdm.DEVICE_RESET_HANDLER
 title: DEVICE_RESET_HANDLER (wdm.h)
 description: The DeviceReset routine is used to reset and recover a malfunctioning device.
-old-location: kernel\devicereset.htm
 tech.root: kernel
-ms.date: 03/10/2022
+ms.date: 05/31/2022
 keywords: ["PDEVICE_RESET_HANDLER callback function"]
 ms.keywords: DeviceReset, PDEVICE_RESET_HANDLER, ResetDevice, ResetDevice routine [Kernel-Mode Driver Architecture], kernel.devicereset, wdm/ResetDevice
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: Desktop
-req.target-min-winverclnt: Supported starting with Windows 10.
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

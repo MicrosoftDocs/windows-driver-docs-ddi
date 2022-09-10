@@ -5,7 +5,7 @@ title: WWAN_OFFSET_SIZE_ELEMENT
 ms.date: 01/13/2022
 targetos: Windows
 description: The WWAN_OFFSET_SIZE_ELEMENT structure contains the size and offset to a data buffer.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: WIN11_NEXT
+req.target-min-winverclnt: Windows 11, version 22H2
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: WWAN_OFFSET_SIZE_ELEMENT, *PWWAN_OFFSET_SIZE_ELEMENT
