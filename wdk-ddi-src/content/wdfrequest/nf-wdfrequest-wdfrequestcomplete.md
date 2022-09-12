@@ -92,9 +92,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 After a driver calls <b>WdfRequestComplete</b>, higher-level drivers on the driver stack can call <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetstatus">WdfRequestGetStatus</a> to obtain the completion status value that was specified for the <i>Status</i> parameter. Typically, drivers call <b>WdfRequestGetStatus</b> from within a <a href="/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function.
 
-After a call to <b>WdfRequestComplete</b> returns, the request handle is no longer valid unless the driver has called <a href="/windows-hardware/drivers/wdf/wdfobjectreference">WdfObjectReference</a> to add one or more additional reference counts to the request object.  Note that after <b>WdfRequestComplete</b> returns, the driver must not attempt to access the associated WDM IRP structure, even if it has called <b>WdfObjectReference</b>.
-
-
+After a call to <b>WdfRequestComplete</b> returns, the request handle is no longer valid unless the driver has called <a href="/windows-hardware/drivers/wdf/wdfobjectreference">WdfObjectReference</a> to add one or more additional reference counts to the request object.  Note that after <b>WdfRequestComplete</b> returns, the driver must not attempt to access the associated WDM IRP structure, even if it has called <b>WdfObjectReference</b>. This requirement extends to accessing the associated WDM IRP structure by calling methods on the WDFREQUEST, like WdfRequestRetrieveOutputBuffer or WdfRequestRetrieveInputBuffer.
 
 After a driver calls <b>WdfRequestComplete</b>, the framework calls the driver's <a href="/windows-hardware/drivers/ddi/wdfobject/nc-wdfobject-evt_wdf_object_context_cleanup">EvtCleanupCallback</a> function for the request, if the driver has supplied one.
 
