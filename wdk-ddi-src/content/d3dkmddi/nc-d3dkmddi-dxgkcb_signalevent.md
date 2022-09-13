@@ -1,8 +1,8 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_SIGNALEVENT
 title: DXGKCB_SIGNALEVENT (d3dkmddi.h)
-description: Allows the kernel mode on the host to signal an event, which is created in the guest during paravirtualization.
-ms.date: 10/13/2021
+description: Learn more about the DXGKCB_SIGNALEVENT callback function.
+ms.date: 09/12/2022
 keywords: ["DXGKCB_SIGNALEVENT callback function"]
 req.header: d3dkmddi.h
 req.include-header: d3dkmddi.h
@@ -43,13 +43,13 @@ dev_langs:
 
 ## -description
 
-A kernel-mode display miniport driver on the host can call **DXGKCB_SIGNALEVENT** to signal an event, which is created on the guest during paravirtualization. This callback can be used to signal events of the host processes as well.
+**DXGKCB_SIGNALEVENT** signals an event.
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param unnamedParam1
 
-Pointer to a [**DXGKARGCB_SIGNALEVENT**](ns-d3dkmddi-_dxgkargcb_signalevent.md) structure that contains arguments for this call.
+[in] Pointer to a [**DXGKARGCB_SIGNALEVENT**](ns-d3dkmddi-_dxgkargcb_signalevent.md) structure that contains arguments for this call.
 
 ## -returns
 
@@ -57,11 +57,13 @@ Pointer to a [**DXGKARGCB_SIGNALEVENT**](ns-d3dkmddi-_dxgkargcb_signalevent.md) 
 
 ## -remarks
 
-*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the members of [**DXGKARGCB_SIGNALEVENT**](ns-d3dkmddi-_dxgkargcb_signalevent.md) and then call **DxgkCbSignalEvent** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
-
 The driver must call **DXGKCB_SIGNALEVENT** with the **LastUse** flag during process or device cleanup.
 
+A kernel-mode display miniport driver (KMD) on the host can call **DXGKCB_SIGNALEVENT** to signal an event, which is created on the guest during paravirtualization. This callback can also be used to signal events of the host processes as well.
+
 In the case of paravirtualization, **DXGKCB_SIGNALEVENT** does not signal the event synchronously, so the event is not signaled when the callback returns. Otherwise, the event is signaled synchronously.
+
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the members of [**DXGKARGCB_SIGNALEVENT**](ns-d3dkmddi-_dxgkargcb_signalevent.md) and then call **DxgkCbSignalEvent** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
 ## -see-also
 
