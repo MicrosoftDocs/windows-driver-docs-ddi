@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_SIGNALEVENT
 title: DXGKARGCB_SIGNALEVENT (d3dkmddi.h)
-description: Arguments used in the call to DXGKCB_SIGNALEVENT.
-ms.date: 10/13/2021
+description: Learn more about the DXGKARGCB_SIGNALEVENT structure.
+ms.date: 09/12/2022
 keywords: ["DXGKARGCB_SIGNALEVENT structure"]
 ms.keywords: _DXGKARGCB_SIGNALEVENT, DXGKARGCB_SIGNALEVENT,
 req.header: d3dkmddi.h
@@ -47,29 +47,31 @@ dev_langs:
 
 ## -struct-fields
 
-### -field hDxgkProcess [in]
+### -field hDxgkProcess
 
-Handle to the DXGK process object that is passed to [**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md). The process must be created for a virtual machine, where DXGK_CREATEPROCESSFLAGS::VirtualMachineProcess is set in **DxgkDdiCreateProcess**.
+[in] Handle to the DXGK process object that is passed to [**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md). The process must be created for a virtual machine, where DXGK_CREATEPROCESSFLAGS::VirtualMachineProcess is set in **DxgkDdiCreateProcess**.
+
+When **CpuEventObject** is set, **hDxgkProcess** must be zero.
 
 The driver must synchronize the callback with [**DxgkDdiDestroyProcess**](nc-d3dkmddi-dxgkddi_destroyprocess.md) to ensure that the process is not destroyed during the callback.
 
-### -field hEvent [in]
+### -field hEvent
 
-The user-mode event handle that needs to be signaled. The handle is valid in the context of the DXGK process, identified by **hDxgkProcess**. The user-mode driver on the guest can send the user-mode event handle to the kernel-mode driver via [**DXGKDDI_ESCAPE**](nc-d3dkmddi-dxgkddi_escape.md) or other APIs that allow private driver data.
+[in] The user-mode event handle that needs to be signaled. The handle is valid in the context of the DXGK process, identified by **hDxgkProcess**. The user-mode driver on the guest can send the user-mode event handle to the kernel-mode driver via [**DXGKDDI_ESCAPE**](nc-d3dkmddi-dxgkddi_escape.md) or other APIs that allow private driver data.
 
-### -field CpuEventObject [in]
+When **CpuEventObject** is set, **hEvent** is equal to the *Dxgkrnl* CPU event object handle, passed in [**DXGKDDI_CREATECPUEVENT**](nc-d3dkmddi-dxgkddi_createcpuevent.md).
 
-When set, indicates the event is a CPU event object. Supported starting in Windows 11 (WDDM 3.0).
+### -field CpuEventObject
 
-### -field Reserved [in]
+[in] When set, indicates the event is a CPU event object. Supported starting in Windows 11 (WDDM 3.0). See [Signaling a CPU event from KMD](/windows-hardware/drivers/display/signaling-cpu-event-from-kmd) for more information.
 
-Reserved; set to zero.
+### -field Reserved
 
-### -field Flags [in]
+[in] Reserved; set to zero.
 
-A single value containing the flags set in the structure.
+### -field Flags
 
-## -remarks
+[in] An alternative way to access the union's flags.
 
 ## -see-also
 
