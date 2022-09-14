@@ -98,9 +98,9 @@ A pointer to a
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">FwpsAllocateCloneNetBufferList0</a> function or the 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0">FwpsAllocateNetBufferAndNetBufferList0</a> function. 
      
-The NET_BUFFER_LIST structure must begin with an IP header if calling this function at the Ethernet layer where `(layerId == FWPS_LAYER_INBOUND_MAC_FRAME_ETHERNET)`.
+When `(layerId == FWPS_LAYER_INBOUND_MAC_FRAME_ETHERNET)`, the NET_BUFFER_LIST must begin with an Ethernet header.
 
-For receive injection in the native case, where `(layerId == FWPS_LAYER_INBOUND_MAC_FRAME_NATIVE)`, the NET_BUFFER_LIST must begin with a MAC header.
+When `(layerId == FWPS_LAYER_INBOUND_MAC_FRAME_NATIVE)`, the NET_BUFFER_LIST must begin with a MAC header.
 
 ### -param completionFn [in]
 
