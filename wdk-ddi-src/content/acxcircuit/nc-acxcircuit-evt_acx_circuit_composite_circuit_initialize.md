@@ -42,21 +42,21 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE** callback is used by the driver to do any initialization of a composite circuit when it is detected and initialized by ACX Manager. 
+The **EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE** callback is used by the driver to do any initialization of a composite circuit when it is detected and initialized by ACX Manager.
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT. 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT.
 
 ### -param Circuit
 
-The ACXCIRCUIT object being initialized.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+The ACXCIRCUIT object being initialized.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param CircuitProperties
 
-Optional handle to CircuitProperties. This is an optional ACXOBJECTBAG object for ACXCIRCUIT's properties. 
+Optional handle to CircuitProperties. This is an optional ACXOBJECTBAG object for ACXCIRCUIT's properties.
 
 ## -returns
 
