@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE
 tech.root: audio
 title: EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE
-ms.date: 09/30/2021
+ms.date: 09/16/2022
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE callback is used by the driver to do any initialization of a composite circuit when it is detected and initialized by ACX Manager. 
 prerelease: true
@@ -107,8 +107,8 @@ exit:
 }
 ```
 
+[!INCLUDE [ACX requirements](../includes/acx-req-1-0.md)]
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-
