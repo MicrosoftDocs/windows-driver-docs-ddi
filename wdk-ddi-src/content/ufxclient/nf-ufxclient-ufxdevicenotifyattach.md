@@ -73,7 +73,6 @@ DeviceInterrupt_EvtInterruptDpc (
 Routine Description:
 
     'EVT_WDF_INTERRUPT_DPC' handler for the device interrupt object.
-    /windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc
 
 Arguments:
 
