@@ -74,6 +74,14 @@ The file name in the driver code that can be displayed for diagnostic purposes.
 It is not recommended to use this version of the stop IO call, but rather [AcxCircuitStopIoWithTag macro](nf-acxcircuit-acxcircuitstopiowithtag.md).
 
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [AcxCircuitStopIo](nf-acxcircuit-acxcircuitstopio.md) 

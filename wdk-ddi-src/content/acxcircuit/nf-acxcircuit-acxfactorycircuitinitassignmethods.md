@@ -120,6 +120,14 @@ static ACX_METHOD_ITEM s_FactoryCircuitMethods[] =
                                                 s_FactoryCircuitMethodsCount);
 ```
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
