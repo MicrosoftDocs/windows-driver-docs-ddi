@@ -1,10 +1,9 @@
 ---
-UID: NS:scsi.__unnamed_struct_12
+UID: NS:scsi.__unnamed_struct_17
 title: PRO_PARAMETER_LIST (scsi.h)
 description: The PRO_PARAMETER_LIST structure (scsi.h) contains reservation information that is sent in a Persistent Reserve Out (PRO) command to a device server.
-old-location: storage\pro_parameter_list.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 09/19/2022
 keywords: ["PRO_PARAMETER_LIST structure"]
 ms.keywords: "*PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST structure pointer [Storage Devices], PRO_PARAMETER_LIST, PRO_PARAMETER_LIST structure [Storage Devices], storage.pro_parameter_list, storport/PPRO_PARAMETER_LIST, storport/PRO_PARAMETER_LIST, structs-general_7481edb0-cc60-44b9-abcc-80bf0f79fbae.xml"
 req.header: scsi.h
@@ -43,12 +42,9 @@ api_name:
  - PRO_PARAMETER_LIST
 ---
 
-# PRO_PARAMETER_LIST structure (scsi.h)
-
-
 ## -description
 
-The PRO_PARAMETER_LIST structure is sent in a Persistent Reserve Out command to a device server.
+The **PRO_PARAMETER_LIST** structure is sent in a Persistent Reserve Out command to a device server.
 
 ## -struct-fields
 
@@ -60,24 +56,13 @@ The ReservationKey field contains an 8-byte value that is provided by the applic
 
 The ServiceActionReservationKey field contains information that is needed for the following four service actions:
 
-<ul>
-<li>
-REGISTER
+- REGISTER
 
-</li>
-<li>
-REGISTER AND IGNORE EXISTING KEY
+- REGISTER AND IGNORE EXISTING KEY
 
-</li>
-<li>
-PREEMPT
+- PREEMPT
 
-</li>
-<li>
-PREEMPT AND ABORT
-
-</li>
-</ul>
+- PREEMPT AND ABORT
 
 ### -field ScopeSpecificAddress
 
@@ -87,16 +72,9 @@ The ScopeSpecificAddress field contains the element address that has zeros place
 
 The ActivatePersistThroughPowerLoss (APTPL) bit is valid only for the following service actions:
 
-<ul>
-<li>
-REGISTER
+- REGISTER
 
-</li>
-<li>
-REGISTER AND IGNORE EXISTING KEY
-
-</li>
-</ul>
+- REGISTER AND IGNORE EXISTING KEY
 
 ### -field Reserved1
 
@@ -112,9 +90,8 @@ Reserved. Must be zero.
 
 ## -remarks
 
-The <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a> request is used to control information about persistent reservations and reservation keys that are active within a device server.
+The [**IOCTL_STORAGE_PERSISTENT_RESERVE_OUT**](/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out) request is used to control information about persistent reservations and reservation keys that are active within a device server.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a>
-
+[**IOCTL_STORAGE_PERSISTENT_RESERVE_OUT**](/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out)
