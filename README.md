@@ -5,7 +5,7 @@ For more information see the [Code of Conduct FAQ](https://opensource.microsoft.
 
 # Windows Driver Documentation DDI Reference
 
-Welcome to the Windows driver docs DDI reference repository, housing the source for the official Windows Driver Kit DDI (device driver interface) documentation available on [Docs.microsoft.com](/windows-hardware/drivers/ddi).
+Welcome to the Windows driver docs DDI reference repository, housing the source for the official Windows Driver Kit DDI (device driver interface) documentation available on [learn.microsoft.com](/windows-hardware/drivers/ddi).
 
 If you're looking for the driver conceptual docs, that's in a [different repo](https://github.com/MicrosoftDocs/windows-driver-docs).
 

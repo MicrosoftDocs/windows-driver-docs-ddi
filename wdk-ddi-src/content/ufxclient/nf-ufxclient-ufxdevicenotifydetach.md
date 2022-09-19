@@ -70,7 +70,7 @@ DeviceInterrupt_EvtInterruptDpc (
 Routine Description:
 
     'EVT_WDF_INTERRUPT_DPC' handler for the device interrupt object.
-    https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc
+    /windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc
 
 Arguments:
 
