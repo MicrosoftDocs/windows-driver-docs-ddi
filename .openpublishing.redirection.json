@@ -1102,152 +1102,152 @@
     },
     {
       "source_path": "wdk-ddi-src/content/netrxqueue/nf-netrxqueue-net_rxqueue_get_packet_context_token.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netrxqueue/nf-netrxqueue-netrxqueuegetpacketcontexttoken",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netrxqueue/nf-netrxqueue-netrxqueuegetpacketcontexttoken",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/nettxqueue/nf-nettxqueue-net_txqueue_get_packet_context_token.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nettxqueue/nf-nettxqueue-nettxqueuegetpacketcontexttoken",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nettxqueue/nf-nettxqueue-nettxqueuegetpacketcontexttoken",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/ns-netadapter-_net_adapter_config.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapter/nf-netadapter-netadapterinitallocate",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapter/nf-netadapter-netadapterinitallocate",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/nf-netadapter-net_adapter_config_init.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapter/nf-netadapter-netadapterinitallocate",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapter/nf-netadapter-netadapterinitallocate",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/nc-netadapter-evt_net_adapter_set_capabilities.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapter/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapter/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetflags.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_flags",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_flags",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetmmiomegabytes.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_mmio_megabytes",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_mmio_megabytes",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetsaverestorepacketcallbacks.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_save_restore_packet_callbacks",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_save_restore_packet_callbacks",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsettargetinterfaceid.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_target_interface_id",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_target_interface_id",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetvmbushandle.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_vmbus_handle",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_vmbus_handle",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/prefix/nf-prefix-rxpacquireprefixtablelockshared.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/prefix/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/prefix/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/prefix/nf-prefix-rxpacquireprefixtablelockexclusive.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/prefix/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/prefix/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/prefix/nf-prefix-rxpreleaseprefixtablelock.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/prefix/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/prefix/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/index.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/nc-netadapter-evt_net_adapter_offload_set_lso.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/nf-netadapter-net_adapter_offload_lso_capabilities_init.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/nf-netadapter-netadapteroffloadsetlsocapabilities.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/ns-netadapter-_net_adapter_offload_lso_capabilities.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/nf-netadapter-netadaptersetcurrentlinkstate.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapter/nf-netadapter-netadaptersetlinkstate",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapter/nf-netadapter-netadaptersetlinkstate",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/nf-netadapter-netadapterwdmgetndishandle.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapter/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapter/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netadapterpacket-net_packet_context_attributes_init_type.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netadapterpacket-net_packet_declare_casting_function.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netadapterpacket-net_packet_declare_context_type_with_name.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netpacketgetcontextfromtoken.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netpacketgettypedcontext.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netringbufferadvancenextpacket.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netringbuffergetnextpacket.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netringbuffergetpacketatindex.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netringbufferreturnallpackets.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netringbufferreturncompletedpackets.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
