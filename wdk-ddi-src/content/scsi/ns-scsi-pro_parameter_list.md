@@ -92,7 +92,11 @@ Defines the **UCHAR** member **SpecifyInitiatorPorts**.
 
 Reserved. Must be zero.
 
-### -field Obsolete[3]
+### -field Reserved3
+
+Reserved. Must be zero.
+
+### -field Obsolete[2]
 
 Reserved. Must be zero.
 
