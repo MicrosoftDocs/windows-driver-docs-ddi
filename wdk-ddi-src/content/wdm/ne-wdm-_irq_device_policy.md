@@ -80,7 +80,7 @@ The operating system should assign different message-signaled interrupts to diff
 
 ### -field IrqPolicyAllProcessorsInMachineWhenSteered:6
 
-IRQ steering allows Windows to assign IRQs to specific PCI devices. The operating system should assign interrupts from the device to all processors when PCI bus IRQ steering is enabled.
+Reserved for system use. Do not use in your driver.
 
 ## -remarks
 
