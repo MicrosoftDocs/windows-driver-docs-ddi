@@ -3,7 +3,7 @@ UID: NS:scsi.__unnamed_struct_17
 title: PRO_PARAMETER_LIST (scsi.h)
 description: The PRO_PARAMETER_LIST structure (scsi.h) contains reservation information that is sent in a Persistent Reserve Out (PRO) command to a device server.
 tech.root: storage
-ms.date: 09/19/2022
+ms.date: 09/20/2022
 keywords: ["PRO_PARAMETER_LIST structure"]
 ms.keywords: "*PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST structure pointer [Storage Devices], PRO_PARAMETER_LIST, PRO_PARAMETER_LIST structure [Storage Devices], storage.pro_parameter_list, storport/PPRO_PARAMETER_LIST, storport/PRO_PARAMETER_LIST, structs-general_7481edb0-cc60-44b9-abcc-80bf0f79fbae.xml"
 req.header: scsi.h
@@ -48,11 +48,11 @@ The **PRO_PARAMETER_LIST** structure is sent in a Persistent Reserve Out command
 
 ## -struct-fields
 
-### -field ReservationKey
+### -field ReservationKey[8]
 
 The ReservationKey field contains an 8-byte value that is provided by the application client to the device server. This value identifies the initiator that is the source of the Persistent Reserve Out command.
 
-### -field ServiceActionReservationKey
+### -field ServiceActionReservationKey[8]
 
 The ServiceActionReservationKey field contains information that is needed for the following four service actions:
 
@@ -64,7 +64,7 @@ The ServiceActionReservationKey field contains information that is needed for th
 
 - PREEMPT AND ABORT
 
-### -field ScopeSpecificAddress
+### -field ScopeSpecificAddress[4]
 
 The ScopeSpecificAddress field contains the element address that has zeros placed in the most significant bits to fit the field. This is true if the scope of a reservation is set to ELEMENT_SCOPE. Otherwise, this field is set to all zeros.
 
@@ -80,11 +80,19 @@ The ActivatePersistThroughPowerLoss (APTPL) bit is valid only for the following 
 
 Reserved. Must be zero.
 
+### -field AllTargetPorts
+
+Defines the **UCHAR** member **AllTargetPorts**.
+
+### -field SpecifyInitiatorPorts
+
+Defines the **UCHAR** member **SpecifyInitiatorPorts**.
+
 ### -field Reserved2
 
 Reserved. Must be zero.
 
-### -field Obsolete
+### -field Obsolete[3]
 
 Reserved. Must be zero.
 
