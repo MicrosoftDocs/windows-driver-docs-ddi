@@ -43,7 +43,6 @@ dev_langs:
 
 # PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0075 callback function
 
-
 ## -description
 
 **PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0075** calculates private heap and resource sizes.
@@ -56,7 +55,7 @@ A handle to the display device (graphics context).
 
 ### -param unnamedParam2 [in, optional]
 
-Pointer to a D3D12DDIARG_CREATEHEAP_0001 structure.
+Pointer to a [**D3D12DDIARG_CREATEHEAP_0001**](ns-d3d12umddi-d3d12ddiarg_createheap_0001.md) structure that describes the heap.
 
 ### -param unnamedParam3 [in, optional]
 
@@ -64,7 +63,7 @@ Pointer to a [**D3D12DDIARG_CREATERESOURCE_0075**](ns-d3d12umddi-d3d12ddiarg_cre
 
 ### -param unnamedParam4
 
-The protected resource session to use for the heap/resource being created. Zero indicates unprotected resources.
+The protected resource session to use for the heap/resource being created. Zero indicates unprotected resources. See the [Protected Resources Specification](https://microsoft.github.io/DirectX-Specs/d3d/ProtectedResources.html) for more information.
 
 ## -returns
 
@@ -93,13 +92,6 @@ PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0075
 
 ```
 
-## -remarks
-
-This user mode DDI for calculating heap and resource sizes includes a protected resource handle.
-
-See the [Protected Resources Specification](https://microsoft.github.io/DirectX-Specs/d3d/ProtectedResources.html) for more information.
-
 ## -see-also
 
 [**D3D12DDIARG_CREATERESOURCE_0075**](ns-d3d12umddi-d3d12ddiarg_createresource_0075.md)
-

@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_RANGED_BARRIER_0088
 tech.root: display
 title: D3D12DDI_RANGED_BARRIER_0088
-ms.date: 05/24/2022
+ms.date: 09/22/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_RANGED_BARRIER_0088 structure.
 prerelease: true
@@ -62,7 +62,7 @@ A [**D3D12DDI_BARRIER_ACCESS**](ne-d3d12umddi-d3d12ddi_barrier_access.md) value 
 
 ### -field Flags
 
-A [**D3D12DDI_RANGED_BARRIER_FLAGS**](ne-d3d12umddi-d3d12ddi_ranged_barrier_flags.md) value that specifies flags.
+A [**D3D12DDI_RANGED_BARRIER_FLAGS**](ne-d3d12umddi-d3d12ddi_ranged_barrier_flags.md) value that specifies flags for the ranged barrier.
 
 ### -field hResource
 

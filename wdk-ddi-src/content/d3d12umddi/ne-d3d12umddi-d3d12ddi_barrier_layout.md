@@ -2,7 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDI_BARRIER_LAYOUT
 tech.root: display
 title: D3D12DDI_BARRIER_LAYOUT
-ms.date: 05/24/2022
+ms.date: 09/22/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_BARRIER_LAYOUT enumeration.
 prerelease: true
@@ -36,9 +36,12 @@ helpviewer_keywords:
 
 ## -description
 
+A **D3D12DDI_BARRIER_LAYOUT** value describes any of the possible layouts used by D3D12 subresources. Layouts apply only to texture resources. Buffer resources have only a linear layout, regardless of access type.
+
 ## -enum-fields
 
-### -field D3D12DDI_BARRIER_LAYOUT_UNDEFINED
+### -field D3D12DDI_BARRIER_LAYOUT_UNDEFINED:0xffffffff
+
 
 ### -field D3D12DDI_BARRIER_LAYOUT_COMMON
 
@@ -114,5 +117,6 @@ helpviewer_keywords:
 
 ## -remarks
 
+Resource layouts must be compatible with the type of queue performing the layout transition.
 ## -see-also
 
