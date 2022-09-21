@@ -58,6 +58,14 @@ Returns the [ACXDATAFORMATLIST](../acxdataformat/index.md) for the pin specified
 
 This DDI returns NULL if the specified pin doesn't have a raw mode data format list.
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACXDATAFORMATLIST](../acxdataformat/index.md)

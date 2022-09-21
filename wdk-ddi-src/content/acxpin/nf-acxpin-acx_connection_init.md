@@ -60,6 +60,14 @@ The **ACXOBJECT** to which the connection ends.
 
 ## -remarks
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_CONNECTION](ns-acxpin-acx_connection.md)

@@ -98,6 +98,14 @@ if (!NT_SUCCESS(status))
 }
 ```
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 * [EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)

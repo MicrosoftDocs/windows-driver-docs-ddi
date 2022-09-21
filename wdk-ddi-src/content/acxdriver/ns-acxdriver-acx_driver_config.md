@@ -60,6 +60,14 @@ An [ACX_DRIVER_CONFIG_FLAGS](ne-acxdriver-acx_driver_config_flags.md) value.
 
 Instances of this structure must be initialized by calling the [ACX_DRIVER_CONFIG_INIT](nf-acxdriver-acx_driver_config_init.md) function. A pointer to an **ACX_DRIVER_CONFIG** structure is passed as a parameter to the [AcxDriverInitialize](nf-acxdriver-acxdriverinitialize.md) function.
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 * [ACX_DRIVER_CONFIG_INIT](nf-acxdriver-acx_driver_config_init.md)

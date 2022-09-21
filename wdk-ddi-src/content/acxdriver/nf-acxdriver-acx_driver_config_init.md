@@ -59,6 +59,14 @@ ACX_DRIVER_CONFIG acxCfg;
 ACX_DRIVER_CONFIG_INIT(&acxCfg);
 ```
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 * [ACX_DRIVER_CONFIG](ne-acxdriver-acx_driver_config_flags.md)

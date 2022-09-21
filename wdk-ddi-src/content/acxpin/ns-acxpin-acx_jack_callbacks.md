@@ -58,6 +58,14 @@ A pointer to the callback function that determines if the jack is present on the
 
 ## -remarks
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxpin.h header](index.md)

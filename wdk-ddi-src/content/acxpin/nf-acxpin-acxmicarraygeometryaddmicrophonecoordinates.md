@@ -64,6 +64,14 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -remarks
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACXMICARRAYGEOMETRY](ns-acxpin-acx_mic_array_geometry.md)

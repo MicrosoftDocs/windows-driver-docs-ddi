@@ -76,6 +76,14 @@ The [EVT_ACX_STREAM_ASSIGN_DRM_CONTENT_ID](nc-acxstreams-evt_acx_stream_assign_d
 
 For RT streaming, the driver will also define and use the [ACX_RT_STREAM_CALLBACKS](ns-acxstreams-acx_rt_stream_callbacks.md).
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxstreams.h header](index.md)

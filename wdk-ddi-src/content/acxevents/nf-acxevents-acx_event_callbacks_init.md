@@ -70,6 +70,14 @@ This example shows the use of ACX_EVENT_CALLBACKS_INIT.
     ACX_EVENT_CONFIG_INIT(&eventCfg);
 ```
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxevents.h header](index.md)

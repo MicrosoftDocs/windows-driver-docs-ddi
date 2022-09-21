@@ -66,6 +66,14 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 After **AcxDataFormatListRetrieveNextFormat** returns, *Iterator* is updated to point to the next data format in the list after *Format*.
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACXDATAFORMAT](index.md)

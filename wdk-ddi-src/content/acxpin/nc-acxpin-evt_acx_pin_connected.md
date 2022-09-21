@@ -62,6 +62,14 @@ The identifier of the pin in the *TargetCircuit* to which the *Pin* was connecte
 
 This event happens when the composite circuit is fully initialized. From this point on, the *TargetCircuit* can be used to send [kernel streaming properties](/windows-hardware/drivers/stream/ks-properties) and [kernel streaming methods](/windows-hardware/drivers/stream/ks-methods) requests.
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxpin.h header](index.md)

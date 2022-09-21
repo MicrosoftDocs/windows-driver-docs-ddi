@@ -62,6 +62,14 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 When a composite template is removed, all endpoints associated with that composite template are also stopped and removed.
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxmanager.h header](index.md)

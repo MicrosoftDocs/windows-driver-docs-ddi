@@ -100,6 +100,14 @@ This example shows the use of AcxObjectBagAddI8.
     RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveI8(objBag, &TestI8, &i8Value));
 ```
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxmisc.h header](index.md)

@@ -87,6 +87,14 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
         RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveSizeT(objBag, &TestName, &sizeValue));
 ```
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxmisc.h header](index.md)

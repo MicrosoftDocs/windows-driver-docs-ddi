@@ -78,6 +78,14 @@ The ID of the target pin.
 
 ## -remarks
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_PHYSICAL_CONNECTION_FLAGS](ne-acxpin-acx_physical_connection_flags.md)

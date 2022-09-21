@@ -52,6 +52,14 @@ A pointer to the **ACX_PHYSICAL_CONNECTION** structure to initialize.
 
 ## -remarks
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_PHYSICAL_CONNECTION](ns-acxpin-acx_physical_connection.md)

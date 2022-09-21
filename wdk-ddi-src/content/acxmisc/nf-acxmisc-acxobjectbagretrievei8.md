@@ -101,6 +101,14 @@ This example shows the use of AcxObjectBagRetrieveI8.
 ```
 
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxmisc.h header](index.md)

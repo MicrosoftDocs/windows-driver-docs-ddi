@@ -96,6 +96,14 @@ Set to `NULL`.
 
 The **ACX_CIRCUIT_TEMPLATE_CONFIG** structure is initialized by calling the [ACX_CIRCUIT_TEMPLATE_CONFIG_INIT](nf-acxmanager-acx_circuit_template_config_init.md) function.
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_CIRCUIT_TEMPLATE_CONFIG_INIT](nf-acxmanager-acx_circuit_template_config_init.md)

@@ -60,6 +60,14 @@ Do not call AcxStreamStopIo from an I/O dispatched thread. This will cause a dea
 
 It is not recommended to use this version of the stop IO call, but rather [AcxStreamStopIoWithTag](nf-acxstreams-acxstreamstopiowithtag.md).
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxstreams.h header](index.md)

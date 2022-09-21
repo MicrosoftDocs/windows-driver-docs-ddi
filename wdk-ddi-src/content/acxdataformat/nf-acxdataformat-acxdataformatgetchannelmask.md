@@ -74,6 +74,14 @@ The following table shows the meaning of each bit in the channel mask:
 | 9          | SL               | Side left             |
 | 10         | SR               | Side right            |
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [Channel Mask](/windows-hardware/drivers/audio/channel-mask)

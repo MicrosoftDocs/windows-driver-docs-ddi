@@ -71,6 +71,14 @@ The specified ACXTARGETCIRCUIT may be already in its stop state b/c the target c
 
 Driver can still access its ACXTARGETCIRCUIT context.
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxpin.h header](index.md)

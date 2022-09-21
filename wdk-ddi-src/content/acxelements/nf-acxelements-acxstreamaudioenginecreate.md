@@ -95,6 +95,14 @@ Example usage is shown below.
         status = AcxStreamAudioEngineCreate(stream, circuitCtx->AudioEngineElement, &attributes, &audioEngineCfg, (ACXSTREAMAUDIOENGINE*)&elements[0]);
 ```
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxelements.h header](index.md)

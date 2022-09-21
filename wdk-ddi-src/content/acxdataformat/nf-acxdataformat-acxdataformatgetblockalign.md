@@ -56,6 +56,14 @@ Returns a ULONG value containing the block alignment, in bytes, for the specifie
 
 ## -remarks
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [WAVEFORMAT structure](/windows/win32/api/mmreg/ns-mmreg-waveformat)

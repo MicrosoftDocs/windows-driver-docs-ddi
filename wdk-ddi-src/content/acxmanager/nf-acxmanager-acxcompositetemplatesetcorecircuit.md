@@ -58,6 +58,14 @@ The circuit template to set as the core on the specified *CompositeTemplate*. Th
 
 The core circuit gives the identity to the composite endpoint. If this circuit is not present, ACX manager doesn't start the endpoint building process.
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxmanager.h header](index.md)

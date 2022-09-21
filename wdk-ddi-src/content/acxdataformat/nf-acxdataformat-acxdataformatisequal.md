@@ -60,6 +60,14 @@ Returns TRUE if *DataFormat1* and DataFormat2 are equal, otherwise FALSE.
 
 ## -remarks
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxdataformat.h header](index.md)

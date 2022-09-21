@@ -59,6 +59,14 @@ ACX_DEVICE_CONFIG devCfg;
 ACX_DEVICE_CONFIG_INIT(&devCfg);
 ```
 
+### ACX requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Minimum ACX version** | 1.0 |
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 * [ACX_DEVICE_CONFIG](ns-acxdevice-acx_device_config.md)
