@@ -1,10 +1,9 @@
 ---
-UID: NS:scsi.__unnamed_struct_20
+UID: NS:scsi.__unnamed_struct_29
 title: BLOCK_DEVICE_TOKEN_DESCRIPTOR (scsi.h)
 description: The BLOCK_DEVICE_TOKEN_DESCRIPTOR structure (storport.h) contains the token returned from the POPULATE TOKEN command for an offload read data operation.
-old-location: storage\block_device_token_descriptor.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 09/19/2022
 keywords: ["BLOCK_DEVICE_TOKEN_DESCRIPTOR structure"]
 ms.keywords: "*PBLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR structure [Storage Devices], PBLOCK_DEVICE_TOKEN_DESCRIPTOR, PBLOCK_DEVICE_TOKEN_DESCRIPTOR structure pointer [Storage Devices], scsi/BLOCK_DEVICE_TOKEN_DESCRIPTOR, scsi/PBLOCK_DEVICE_TOKEN_DESCRIPTOR, storage.block_device_token_descriptor"
 req.header: scsi.h
@@ -43,24 +42,20 @@ api_name:
  - BLOCK_DEVICE_TOKEN_DESCRIPTOR
 ---
 
-# BLOCK_DEVICE_TOKEN_DESCRIPTOR structure (scsi.h)
-
-
 ## -description
 
-<b>BLOCK_DEVICE_TOKEN_DESCRIPTOR</b> contains the token returned from a the POPULATE TOKEN command for an offload read data operation. The token information is included as part of the <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-receive_token_information_response_header">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure.
+**BLOCK_DEVICE_TOKEN_DESCRIPTOR** contains the token returned from a the POPULATE TOKEN command for an offload read data operation. The token information is included as part of the [**RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER**](/windows-hardware/drivers/ddi/minitape/ns-minitape-receive_token_information_response_header) structure.
 
 ## -struct-fields
 
 ### -field TokenIdentifier
 
-An identifier value assigned by the copy provider to provide uniqueness to <b>Token</b> while the value of <b>Token</b> is valid. This member is reserved for system use and must not be modified.
+An identifier value assigned by the copy provider to provide uniqueness to **Token** while the value of **Token** is valid. This member is reserved for system use and must not be modified.
 
 ### -field Token
 
-A data value defining a token as a point-in-time representation of data (ROD) for an offload read data operation. <b>Token</b> is an opaque value and must be used unmodified in offload write data operations.
+A data value defining a token as a point-in-time representation of data (ROD) for an offload read data operation. **Token** is an opaque value and must be used unmodified in offload write data operations.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-receive_token_information_response_header">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
-
+[**RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER**](/windows-hardware/drivers/ddi/minitape/ns-minitape-receive_token_information_response_header)

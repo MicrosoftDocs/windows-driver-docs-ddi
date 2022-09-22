@@ -1,10 +1,9 @@
 ---
-UID: NS:scsi.__unnamed_struct_13
+UID: NS:scsi.__unnamed_struct_18
 title: RT_PARAMETER_DATA (scsi.h)
 description: The RT_PARAMETER_DATA structure (scsi.h) contains the parameter data for the report timestamp command.
-old-location: storage\rt_parameter_data.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 09/19/2022
 keywords: ["RT_PARAMETER_DATA structure"]
 ms.keywords: "*PRT_PARAMETER_DATA, PRT_PARAMETER_DATA, PRT_PARAMETER_DATA structure pointer [Storage Devices], RT_PARAMETER_DATA, RT_PARAMETER_DATA structure [Storage Devices], scsi/PRT_PARAMETER_DATA, scsi/RT_PARAMETER_DATA, storage.rt_parameter_data"
 req.header: scsi.h
@@ -43,8 +42,6 @@ api_name:
  - RT_PARAMETER_DATA
 ---
 
-# RT_PARAMETER_DATA structure (scsi.h)
-
 ## -description
 
 The **RT_PARAMETER_DATA** structure contains the parameter data for the report timestamp command.
@@ -60,12 +57,12 @@ Indicates the number of bytes that follow in the parameter data.
 Indicates the most recent event that initialized the returned device clock.
 
 | Value | Meaning |
-| ----- | ------- |
-| 0     | Device clock initialized to zero at power on or as the result of a hard reset. |
-| 1     | Reserved for future use. |
-| 2     | Device clock initialized by the SET TIMESTAMP command. |
-| 3     | Device clock initialized by an unknown method. |
-| 4 to 7| Reserved for future use. |
+|--|--|
+| 0 | Device clock initialized to zero at power on or as the result of a hard reset. |
+| 1 | Reserved for future use. |
+| 2 | Device clock initialized by the SET TIMESTAMP command. |
+| 3 | Device clock initialized by an unknown method. |
+| 4 to 7 | Reserved for future use. |
 
 ### -field Reserved1
 
