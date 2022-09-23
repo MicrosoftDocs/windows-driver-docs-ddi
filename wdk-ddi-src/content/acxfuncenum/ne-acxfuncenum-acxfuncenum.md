@@ -935,9 +935,7 @@ Indicates the final entry in the functions table.
 
 ### ACX requirements
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.1 |
+**Minimum ACX version:** 1.1
 
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 

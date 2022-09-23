@@ -2,9 +2,9 @@
 UID: NF:acxfuncenum.ACX_IS_FIELD_AVAILABLE
 tech.root: audio
 title: ACX_IS_FIELD_AVAILABLE
-ms.date: 
+ms.date: 09/23/2022
 targetos: Windows
-description: 
+description: The ACX_IS_FIELD_AVAILABLE function enables you to query if the specified field is available in the specified ACX structure on the system.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,13 +44,26 @@ helpviewer_keywords:
 
 ## -description
 
+The **ACX_IS_FIELD_AVAILABLE** function enables you to query if the specified field is available in the specified ACX structure on the system.
+
 ## -parameters
 
 ### -param StructName
 
+The name of the ACX structure that contains the field specified in the *FieldName* parameter.
+
 ### -param FieldName
+
+The name of the field to query in the ACX structure specified in the *StructName* parameter.
 
 ## -remarks
 
-## -see-also
+Returns TRUE if the field exists on the system, otherwise FALSE.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.1
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
+## -see-also

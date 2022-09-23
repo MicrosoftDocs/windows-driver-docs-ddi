@@ -2,9 +2,9 @@
 UID: NF:acxfuncenum.ACX_IS_STRUCTURE_AVAILABLE
 tech.root: audio
 title: ACX_IS_STRUCTURE_AVAILABLE
-ms.date: 
+ms.date: 09/23/2022
 targetos: Windows
-description: 
+description: The ACX_IS_STRUCTURE_AVAILABLE function enables you to query if the specified ACX structure is available on the system.d
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,11 +44,22 @@ helpviewer_keywords:
 
 ## -description
 
+The **ACX_IS_STRUCTURE_AVAILABLE** function enables you to query if the specified ACX structure is available on the system.
+
 ## -parameters
 
 ### -param StructName
 
+The name of the ACX structure for which to query.
+
 ## -remarks
 
-## -see-also
+Returns TRUE if the structure exists on the system, otherwise FALSE.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.1
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
+## -see-also

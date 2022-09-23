@@ -2,9 +2,9 @@
 UID: NF:acxfuncenum.ACX_STRUCTURE_SIZE
 tech.root: audio
 title: ACX_STRUCTURE_SIZE
-ms.date: 
+ms.date: 09/23/2022
 targetos: Windows
-description: 
+description: The ACX_STRUCTURE_SIZE functions gets the size, in bytes, of the specified ACX structure.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,11 +44,22 @@ helpviewer_keywords:
 
 ## -description
 
+The **ACX_STRUCTURE_SIZE** functions gets the size, in bytes, of the specified ACX structure.
+
 ## -parameters
 
 ### -param StructName
 
+The name of the ACX structure for which to get the size.
+
 ## -remarks
 
-## -see-also
+Returns the size, in bytes, of the ACX structure specified by the *StructName* parameter.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.1
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
+## -see-also

@@ -2,9 +2,9 @@
 UID: NF:acxfuncenum.ACX_IS_FUNCTION_AVAILABLE
 tech.root: audio
 title: ACX_IS_FUNCTION_AVAILABLE
-ms.date: 
+ms.date: 09/23/2022
 targetos: Windows
-description: 
+description: The ACX_IS_FUNCTION_AVAILABLE function enables you to query if the specified ACX function is available on the system.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,11 +44,22 @@ helpviewer_keywords:
 
 ## -description
 
+The **ACX_IS_FUNCTION_AVAILABLE** function enables you to query if the specified ACX function is available on the system.
+
 ## -parameters
 
 ### -param FunctionName
 
+The name of the ACX function for which to query.
+
 ## -remarks
 
-## -see-also
+Returns TRUE if the function exists on the system, otherwise FALSE.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.1
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
+## -see-also
