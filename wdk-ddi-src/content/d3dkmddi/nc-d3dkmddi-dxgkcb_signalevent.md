@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_SIGNALEVENT
 title: DXGKCB_SIGNALEVENT (d3dkmddi.h)
 description: Learn more about the DXGKCB_SIGNALEVENT callback function.
-ms.date: 09/12/2022
+ms.date: 09/22/2022
 keywords: ["DXGKCB_SIGNALEVENT callback function"]
 req.header: d3dkmddi.h
 req.include-header: d3dkmddi.h
@@ -13,7 +13,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: <= DISPATCH_LEVEL
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 

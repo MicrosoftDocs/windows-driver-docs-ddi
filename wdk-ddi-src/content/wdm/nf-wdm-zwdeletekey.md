@@ -4,7 +4,7 @@ title: ZwDeleteKey function (wdm.h)
 description: The ZwDeleteKey routine deletes an open key from the registry.
 old-location: kernel\zwdeletekey.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 09/15/2022
 keywords: ["ZwDeleteKey function"]
 ms.keywords: NtDeleteKey, ZwDeleteKey, ZwDeleteKey routine [Kernel-Mode Driver Architecture], k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, kernel.zwdeletekey, wdm/NtDeleteKey, wdm/ZwDeleteKey
 req.header: wdm.h
@@ -64,7 +64,12 @@ Handle to the registry key to be deleted. The handle is created by a successful 
 
 - **STATUS_INVALID_HANDLE**
 
+- **STATUS_CANNOT_DELETE** (see Remarks)
+
 ## -remarks
+
+> [!NOTE]
+> Before calling **ZwDeleteKey**, ensure that all the keys and values under the given key have been deleted. Delete each subkey first, starting with the leaf keys and work your way up.
 
 The handle must have been opened for DELETE access for this routine to succeed. For more information, see the <i>DesiredAccess</i> parameter for <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>.
 

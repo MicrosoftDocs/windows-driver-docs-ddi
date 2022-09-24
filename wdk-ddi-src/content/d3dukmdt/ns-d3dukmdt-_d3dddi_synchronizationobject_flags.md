@@ -4,7 +4,7 @@ title: D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS (d3dukmdt.h)
 description: Learn more about the D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS structure.
 old-location: display\d3dddi_synchronizationobject_flags.htm
 tech.root: display
-ms.date: 09/12/2022
+ms.date: 09/22/2022
 keywords: ["D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS structure"]
 ms.keywords: D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS structure [Display Devices], D3D_other_Structs_3d266c5b-53c9-47d1-abe9-f492d05660a4.xml, _D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, display.d3dddi_synchronizationobject_flags
 req.header: d3dukmdt.h
@@ -124,7 +124,7 @@ When set, the fence will not be mapped into the GPU virtual address space and wi
 
 ### -field SignalByKmd
 
-When set, the fence can be signled by the kernel-mode driver (KMD). This flag can only be used with [**D3DDDI_CPU_NOTIFICATION**](ne-d3dukmdt-_d3dddi_synchronizationobject_type.md) objects. Supported starting with Windows 11 (WDDM 3.0).
+When set, the fence can be signaled by the kernel-mode driver (KMD). This flag can only be used with [**D3DDDI_CPU_NOTIFICATION**](ne-d3dukmdt-_d3dddi_synchronizationobject_type.md) objects. Supported starting with Windows 11 (WDDM 3.0).
 
 ### -field LocalMemoryPreferred
 
@@ -151,7 +151,9 @@ Objects to be shared by using the [**D3DKMTShareObjects**](../d3dkmthk/nf-d3dkmt
 Drivers should follow these guidelines on **D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS** flags:
 
 * If the synchronization object is not shared, set both  **Shared** and **NtSecuritySharing** to 0.
+
 * If the synchronization object is shared with a **D3DKMT_HANDLE** data type, set **Shared** = 1 and **NtSecuritySharing** = 0.
+
 * If the synchronization object is shared with an NT handle to the process (and without a global **D3DKMT_HANDLE** kernel-mode handle to the resource), set **Shared** = 1 and **NtSecuritySharing** = 1.
 
 ## -see-also

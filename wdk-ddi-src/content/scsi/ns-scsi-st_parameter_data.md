@@ -1,10 +1,9 @@
 ---
-UID: NS:scsi.__unnamed_struct_14
+UID: NS:scsi.__unnamed_struct_19
 title: ST_PARAMETER_DATA (scsi.h)
 description: The ST_PARAMETER_DATA structure (scsi.h) contains the parameter list for the set timestamp command that is used to initialize a device clock.
-old-location: storage\st_parameter_data.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 09/19/2022
 keywords: ["ST_PARAMETER_DATA structure"]
 ms.keywords: "*PST_PARAMETER_DATA, PST_PARAMETER_DATA, PST_PARAMETER_DATA structure pointer [Storage Devices], ST_PARAMETER_DATA, ST_PARAMETER_DATA structure [Storage Devices], scsi/PST_PARAMETER_DATA, scsi/ST_PARAMETER_DATA, storage.st_parameter_data"
 req.header: scsi.h
@@ -42,8 +41,6 @@ api_name:
  - PST_PARAMETER_DATA
  - ST_PARAMETER_DATA
 ---
-
-# ST_PARAMETER_DATA structure (scsi.h)
 
 ## -description
 

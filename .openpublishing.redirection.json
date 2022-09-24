@@ -2,1602 +2,1602 @@
   "redirections": [
     {
       "source_path": "wdk-ddi-src/content/wdm/nf-wdm-exallocatefromnpagedlookasidelist-r1.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefromnpagedlookasidelist",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefromnpagedlookasidelist",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/wdm/nf-wdm-exallocatefromlookasidelistex-r1.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefromlookasidelistex",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefromlookasidelistex",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/wdm/nf-wdm-exfreetolookasidelistex-r1.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreetolookasidelistex",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreetolookasidelistex",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/wdm/nf-wdm-exfreetonpagedlookasidelist-r1.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreetonpagedlookasidelist",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreetonpagedlookasidelist",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/lso/nf-lso-netextensiongetpacketlso.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/lsotypes/ns-lsotypes-_net_packet_lso.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/lso/index.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/lsotypes/index.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nc-ndis-net_buffer_allocate_mdl_handler.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_allocate_mdl",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_allocate_mdl",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nc-ndis-net_buffer_free_mdl_handler.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_free_mdl",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_free_mdl",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ntddndis/ne-ntddndis-_ndis_request_type.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/oidtypes/ne-oidtypes-ndis_request_type",
+      "redirect_URL": "/windows-hardware/drivers/ddi/oidtypes/ne-oidtypes-ndis_request_type",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_ndis_oid_request.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request",
+      "redirect_URL": "/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-ndis_oid_request",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ntddndis/ns-ntddndis-_ndis_object_header.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header",
+      "redirect_URL": "/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_ndis_udp_segmentation_offload_net_buffer_list_info.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nbluso/ns-nbluso-ndis_udp_segmentation_offload_net_buffer_list_info",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nbluso/ns-nbluso-ndis_udp_segmentation_offload_net_buffer_list_info",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_net_buffer_list_timestamp.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nbltimestamp/ns-nbltimestamp-net_buffer_list_timestamp",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nbltimestamp/ns-nbltimestamp-net_buffer_list_timestamp",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndissetnbltimestampinfo.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nbltimestamp/nf-nbltimestamp-ndissetnbltimestampinfo",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nbltimestamp/nf-nbltimestamp-ndissetnbltimestampinfo",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisgetnbltimestampinfo.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nbltimestamp/nf-nbltimestamp-ndisgetnbltimestampinfo",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nbltimestamp/nf-nbltimestamp-ndisgetnbltimestampinfo",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndiscopynbltimestampinfo.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nbltimestamp/nf-nbltimestamp-ndiscopynbltimestampinfo",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nbltimestamp/nf-nbltimestamp-ndiscopynbltimestampinfo",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_ndis_rsc_nbl_info.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblrsc/ns-nblrsc-ndis_rsc_nbl_info",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblrsc/ns-nblrsc-ndis_rsc_nbl_info",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_dup_ack_count.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblrsc/nf-nblrsc-net_buffer_list_dup_ack_count",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblrsc/nf-nblrsc-net_buffer_list_dup_ack_count",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_coalesced_seg_count.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblrsc/nf-nblrsc-net_buffer_list_coalesced_seg_count",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblrsc/nf-nblrsc-net_buffer_list_coalesced_seg_count",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_ndis_tcp_large_send_offload_net_buffer_list_info.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nbllso/ns-nbllso-ndis_tcp_large_send_offload_net_buffer_list_info",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nbllso/ns-nbllso-ndis_tcp_large_send_offload_net_buffer_list_info",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ne-ndis-_ndis_net_buffer_list_info.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblinfo/ne-nblinfo-ndis_net_buffer_list_info",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblinfo/ne-nblinfo-ndis_net_buffer_list_info",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_set_hash_value.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblhash/nf-nblhash-net_buffer_list_set_hash_value",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblhash/nf-nblhash-net_buffer_list_set_hash_value",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_set_hash_type.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblhash/nf-nblhash-net_buffer_list_set_hash_type",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblhash/nf-nblhash-net_buffer_list_set_hash_type",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_set_hash_function.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblhash/nf-nblhash-net_buffer_list_set_hash_function",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblhash/nf-nblhash-net_buffer_list_set_hash_function",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_get_hash_value.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblhash/nf-nblhash-net_buffer_list_get_hash_value",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblhash/nf-nblhash-net_buffer_list_get_hash_value",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_get_hash_type.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblhash/nf-nblhash-net_buffer_list_get_hash_type",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblhash/nf-nblhash-net_buffer_list_get_hash_type",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_get_hash_function.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblhash/nf-nblhash-net_buffer_list_get_hash_function",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblhash/nf-nblhash-net_buffer_list_get_hash_function",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_ndis_tcp_ip_checksum_net_buffer_list_info.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblchecksum/ns-nblchecksum-ndis_tcp_ip_checksum_net_buffer_list_info",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblchecksum/ns-nblchecksum-ndis_tcp_ip_checksum_net_buffer_list_info",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_net_buffer_list_pool_parameters.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/ns-nblapi-net_buffer_list_pool_parameters",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/ns-nblapi-net_buffer_list_pool_parameters",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisretreatnetbufferlistdatastart.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisretreatnetbufferlistdatastart",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisretreatnetbufferlistdatastart",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisretreatnetbufferdatastart.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisretreatnetbufferdatastart",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisretreatnetbufferdatastart",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisquerynetbufferphysicalcount.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisquerynetbufferphysicalcount",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisquerynetbufferphysicalcount",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisgetpoolfromnetbufferlist.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisgetpoolfromnetbufferlist",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisgetpoolfromnetbufferlist",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisgetpoolfromnetbuffer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisgetpoolfromnetbuffer",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisgetpoolfromnetbuffer",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisgetnetbufferlistprotocolid.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisgetnetbufferlistprotocolid",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisgetnetbufferlistprotocolid",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisgetdatabuffer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisgetdatabuffer",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisgetdatabuffer",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisfreereassemblednetbufferlist.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreereassemblednetbufferlist",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreereassemblednetbufferlist",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisfreenetbufferpool.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreenetbufferpool",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreenetbufferpool",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisfreenetbufferlistpool.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreenetbufferlistpool",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreenetbufferlistpool",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisfreenetbufferlistcontext.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreenetbufferlistcontext",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreenetbufferlistcontext",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisfreenetbufferlist.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreenetbufferlist",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreenetbufferlist",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisfreenetbuffer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreenetbuffer",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreenetbuffer",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisfreefragmentnetbufferlist.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreefragmentnetbufferlist",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreefragmentnetbufferlist",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisfreeclonenetbufferlist.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreeclonenetbufferlist",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisfreeclonenetbufferlist",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndiscopysendnetbufferlistinfo.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndiscopysendnetbufferlistinfo",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndiscopysendnetbufferlistinfo",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndiscopyreceivenetbufferlistinfo.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndiscopyreceivenetbufferlistinfo",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndiscopyreceivenetbufferlistinfo",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndiscopyfromnetbuffertonetbuffer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndiscopyfromnetbuffertonetbuffer",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndiscopyfromnetbuffertonetbuffer",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisallocatereassemblednetbufferlist.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatereassemblednetbufferlist",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatereassemblednetbufferlist",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisallocatenetbufferpool.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferpool",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferpool",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisallocatenetbuffermdlanddata.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbuffermdlanddata",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbuffermdlanddata",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisallocatenetbufferlistpool.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistpool",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisallocatenetbufferlistcontext.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistcontext",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlistcontext",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisallocatenetbufferlist.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlist",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferlist",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisallocatenetbufferandnetbufferlist.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferandnetbufferlist",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbufferandnetbufferlist",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisallocatenetbuffer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbuffer",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatenetbuffer",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisallocatefragmentnetbufferlist.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatefragmentnetbufferlist",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocatefragmentnetbufferlist",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisallocateclonenetbufferlist.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocateclonenetbufferlist",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisallocateclonenetbufferlist",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisadvancenetbufferlistdatastart.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisadvancenetbufferlistdatastart",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisadvancenetbufferlistdatastart",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisadvancenetbufferdatastart.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisadvancenetbufferdatastart",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisadvancenetbufferdatastart",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisadjustnetbuffercurrentmdl.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisadjustnetbuffercurrentmdl",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblapi/nf-nblapi-ndisadjustnetbuffercurrentmdl",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_shared_mem_offset.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_shared_mem_offset",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_shared_mem_offset",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_shared_mem_next_segment.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_shared_mem_next_segment",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_shared_mem_next_segment",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_shared_mem_length.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_shared_mem_length",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_shared_mem_length",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_shared_mem_handle.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_shared_mem_handle",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_shared_mem_handle",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_shared_mem_flags.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_shared_mem_flags",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_shared_mem_flags",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_protocol_reserved.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_protocol_reserved",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_protocol_reserved",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_next_nb.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_next_nb",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_next_nb",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_miniport_reserved.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_miniport_reserved",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_miniport_reserved",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_status.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_status",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_status",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_protocol_reserved.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_protocol_reserved",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_protocol_reserved",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_next_nbl.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_next_nbl",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_next_nbl",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_nbl_flags.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_nbl_flags",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_nbl_flags",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_miniport_reserved.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_miniport_reserved",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_miniport_reserved",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_info.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_info",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_info",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_flags.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_flags",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_flags",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_first_nb.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_first_nb",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_first_nb",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_first_mdl.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_first_mdl",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_first_mdl",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_data_physical_address.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_data_physical_address",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_data_physical_address",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_data_offset.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_data_offset",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_data_offset",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_data_length.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_data_length",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_data_length",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_current_mdl_offset.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_current_mdl_offset",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_current_mdl_offset",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_current_mdl.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_current_mdl",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_current_mdl",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_checksum_bias.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_checksum_bias",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_checksum_bias",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndistestnblflags.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-ndistestnblflags",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-ndistestnblflags",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndistestnblflag.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-ndistestnblflag",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-ndistestnblflag",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndissetnetbufferlistprotocolid.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-ndissetnetbufferlistprotocolid",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-ndissetnetbufferlistprotocolid",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndissetnblflag.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-ndissetnblflag",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-ndissetnblflag",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisclearnblflag.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-ndisclearnblflag",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-ndisclearnblflag",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_ndis_net_buffer_list_8021q_info.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nbl8021q/ns-nbl8021q-ndis_net_buffer_list_8021q_info",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nbl8021q/ns-nbl8021q-ndis_net_buffer_list_8021q_info",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_net_buffer_shared_memory.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_shared_memory",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_shared_memory",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_net_buffer_list_header.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_header",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_header",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_net_buffer_list_data.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_data",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_data",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_net_buffer_list_context.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list_context",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_net_buffer_header.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_header",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_header",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_net_buffer_data.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_data",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_data",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_net_buffer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisfreemdl.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/mdlapi/nf-mdlapi-ndisfreemdl",
+      "redirect_URL": "/windows-hardware/drivers/ddi/mdlapi/nf-mdlapi-ndisfreemdl",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/nf-ndis-ndisallocatemdl.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/mdlapi/nf-mdlapi-ndisallocatemdl",
+      "redirect_URL": "/windows-hardware/drivers/ddi/mdlapi/nf-mdlapi-ndisallocatemdl",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ntddndis/nf-ntddndis-ndis_rss_hash_type_from_hash_info.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/hashtypes/nf-hashtypes-ndis_rss_hash_type_from_hash_info",
+      "redirect_URL": "/windows-hardware/drivers/ddi/hashtypes/nf-hashtypes-ndis_rss_hash_type_from_hash_info",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ntddndis/nf-ntddndis-ndis_rss_hash_info_from_type_and_func.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/hashtypes/nf-hashtypes-ndis_rss_hash_info_from_type_and_func",
+      "redirect_URL": "/windows-hardware/drivers/ddi/hashtypes/nf-hashtypes-ndis_rss_hash_info_from_type_and_func",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ntddndis/nf-ntddndis-ndis_rss_hash_func_from_hash_info.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/hashtypes/nf-hashtypes-ndis_rss_hash_func_from_hash_info",
+      "redirect_URL": "/windows-hardware/drivers/ddi/hashtypes/nf-hashtypes-ndis_rss_hash_func_from_hash_info",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_ndis_offload_encapsulation.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/encapsulationconfig/ns-encapsulationconfig-ndis_offload_encapsulation",
+      "redirect_URL": "/windows-hardware/drivers/ddi/encapsulationconfig/ns-encapsulationconfig-ndis_offload_encapsulation",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_net_buffer_list.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ntddk/nf-ntddk-kequerynodeactiveaffinity.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerynodeactiveaffinity",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerynodeactiveaffinity",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ntddk/nf-ntddk-kequerynodeactiveaffinity2.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerynodeactiveaffinity2",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerynodeactiveaffinity2",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ntddk/nf-ntddk-kequerylogicalprocessorrelationship.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerylogicalprocessorrelationship",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerylogicalprocessorrelationship",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ntddk/nf-ntddk-kequerynodeactiveprocessorcount.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerynodeactiveprocessorcount",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerynodeactiveprocessorcount",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapteroffload/nf-netadapteroffload-netoffloadisrscipv4enabled.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapteroffload/nf-netadapteroffload-netoffloadisrscipv6enabled.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapteroffload/nf-netadapteroffload-netoffloadisrsctimestampenabled.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapteroffload/ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapteroffload/nf-netadapteroffload-netadapteroffloadsetlsocapabilities.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapteroffload/nf-netadapteroffload-net_adapter_offload_lso_capabilities_init.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_lso.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-netrequestqueuegetadapter.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-netrequestqueuecreate.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/ne-netrequestqueue-_net_request_queue_type.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_set_data_handler_init.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/ns-netrequestqueue-_net_request_queue_set_data_handler.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_query_data_handler_init.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/ns-netrequestqueue-_net_request_queue_query_data_handler.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_method_handler_init.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/ns-netrequestqueue-_net_request_queue_method_handler.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_init_default_sequential.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_init_default_parallel.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_init.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_add_set_data_handler.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_add_query_data_handler.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_add_method_handler.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_add_initialized_set_data_handler.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_add_initialized_query_data_handler.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_add_initialized_method_handler.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/ns-netrequestqueue-_net_request_queue_config.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nc-netrequestqueue-evt_net_request_set_data.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nc-netrequestqueue-evt_net_request_query_data.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nc-netrequestqueue-evt_net_request_method.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nc-netrequestqueue-evt_net_request_default_set_data.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nc-netrequestqueue-evt_net_request_default_query_data.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nc-netrequestqueue-evt_net_request_default_method.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nc-netrequestqueue-evt_net_request_default.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequest/nf-netrequest-netrequestwdmgetndisoidrequest.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequest/nf-netrequest-netrequestsetdatacomplete.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequest/nf-netrequest-netrequestsetbytesneeded.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequest/nf-netrequest-netrequestretrieveinputoutputbuffer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequest/nf-netrequest-netrequestquerydatacomplete.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequest/nf-netrequest-netrequestmethodcomplete.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequest/nf-netrequest-netrequestgetvportid.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequest/nf-netrequest-netrequestgettype.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequest/nf-netrequest-netrequestgetswitchid.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequest/nf-netrequest-netrequestgetportnumber.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequest/nf-netrequest-netrequestgetid.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequest/nf-netrequest-netrequestgetadapter.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequest/nf-netrequest-netrequestcompletewithoutinformation.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrequest/index.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/wdm/nf-wdm-kelowerirql~r1.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kelowerirql",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wdm/nf-wdm-kelowerirql",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelallocate.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_allocate",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_allocate",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelcleanup.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_cleanup",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_cleanup",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrombuffer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_create_gpadl_from_buffer",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_create_gpadl_from_buffer",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrommdl.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_create_gpadl_from_mdl",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_create_gpadl_from_mdl",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchanneldeletegpadl.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_delete_gpadl",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_delete_gpadl",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchanneldisable.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_disable",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_disable",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelenable.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_enable",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_enable",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelgetinterfaceinstance.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_get_interface_instance",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_get_interface_instance",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelgetpointer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_get_pointer",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_get_pointer",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetclientcontextsize.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_client_context_size",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_client_context_size",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetflags.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_flags",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_flags",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetfriendlyname.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_friendly_name",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_friendly_name",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetmaximumexternaldata.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_maximum_external_data",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_maximum_external_data",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetmaximumpacketsize.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_maximum_packet_size",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_maximum_packet_size",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetprocesspacketcallbacks.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_process_packet_callbacks",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_process_packet_callbacks",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetstatechangecallbacks.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_state_change_callbacks",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_state_change_callbacks",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelmapgpadl.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_map_gpadl",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_map_gpadl",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelpacketcomplete.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_complete",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_complete",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelpacketdefertopassive.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_defer_to_passive",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_defer_to_passive",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelpacketfail.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_fail",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_fail",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelpacketgetexternaldata.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_get_external_data",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_get_external_data",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelpause.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_pause",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_pause",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelrestorefrombuffer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_restore_from_buffer",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_restore_from_buffer",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_save_begin",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_save_begin",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavecontinue.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_save_continue",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_save_continue",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsaveend.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_save_end",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_save_end",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsendsynchronousrequest.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_send_synchronous_request",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_send_synchronous_request",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsetincomingprocessingatpassive.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_set_incoming_processing_at_passive",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_set_incoming_processing_at_passive",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsetpointer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_set_pointer",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_set_pointer",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsettransactionquota.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_set_transaction_quota",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_set_transaction_quota",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsizeofpacket.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_sizeof_packet",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_sizeof_packet",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelstart.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_start",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_start",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelunmapgpadl.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_unmap_gpadl",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_unmap_gpadl",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbclientchannelinitsetringbufferpagecount.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_client_channel_init_set_ring_buffer_page_count",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_client_channel_init_set_ring_buffer_page_count",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbclientchannelinitsettargetpnp.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_client_channel_init_set_target_pnp",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_client_channel_init_set_target_pnp",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbconvertvmbushandletokernelhandle.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_convert_vmbus_handle_to_kernel_handle",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_convert_vmbus_handle_to_kernel_handle",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_allocate",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_allocate",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketfree.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_free",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_free",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketgetchannel.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_get_channel",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_get_channel",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketgetpointer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_get_pointer",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_get_pointer",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketinitialize.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_initialize",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_initialize",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketrestore.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_restore",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_restore",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_send",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_send",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalmdl.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_send_with_external_mdl",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_send_with_external_mdl",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalpfns.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_send_with_external_pfns",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_send_with_external_pfns",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsetcompletionroutine.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_set_completion_routine",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_set_completion_routine",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsetpointer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_set_pointer",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_set_pointer",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netdatapathdescriptor/nf-netdatapathdescriptor-netpacketgetfragmentcount.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netdatapathdescriptor/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netdatapathdescriptor/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/nf-netpacket-net_packet_get_fragment_valid.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netreceivescaling/nf-netreceivescaling-netadaptergetreceivescalingprotocoltypes.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netreceivescaling/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netreceivescaling/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netreceivescaling/nf-netreceivescaling-netadaptergetreceivescalinghashtype.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netreceivescaling/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netreceivescaling/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netreceivescaling/nf-netreceivescaling-netadaptergetreceivescalinghashsecretkey.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netreceivescaling/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netreceivescaling/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrxqueue/ns-netrxqueue-_net_rxqueue_config.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netpacketqueue/ns-netpacketqueue-_net_packet_queue_config",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netpacketqueue/ns-netpacketqueue-_net_packet_queue_config",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrxqueue/nf-netrxqueue-net_rxqueue_config_init.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netpacketqueue/nf-netpacketqueue-net_packet_queue_config_init",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netpacketqueue/nf-netpacketqueue-net_packet_queue_config_init",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrxqueue/nc-netrxqueue-evt_rxqueue_advance.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netpacketqueue/nc-netpacketqueue-evt_packet_queue_advance",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netpacketqueue/nc-netpacketqueue-evt_packet_queue_advance",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrxqueue/nc-netrxqueue-evt_rxqueue_set_notification_enabled.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netpacketqueue/nc-netpacketqueue-evt_packet_queue_set_notification_enabled",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netpacketqueue/nc-netpacketqueue-evt_packet_queue_set_notification_enabled",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrxqueue/nc-netrxqueue-evt_rxqueue_cancel.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netpacketqueue/nc-netpacketqueue-evt_packet_queue_cancel",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netpacketqueue/nc-netpacketqueue-evt_packet_queue_cancel",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/nettxqueue/ns-nettxqueue-_net_txqueue_config.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netpacketqueue/ns-netpacketqueue-_net_packet_queue_config",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netpacketqueue/ns-netpacketqueue-_net_packet_queue_config",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/nettxqueue/nf-nettxqueue-net_txqueue_config_init.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netpacketqueue/nf-netpacketqueue-net_packet_queue_config_init",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netpacketqueue/nf-netpacketqueue-net_packet_queue_config_init",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/nettxqueue/nc-nettxqueue-evt_txqueue_advance.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netpacketqueue/nc-netpacketqueue-evt_packet_queue_advance",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netpacketqueue/nc-netpacketqueue-evt_packet_queue_advance",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/nettxqueue/nc-nettxqueue-evt_txqueue_set_notification_enabled.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netpacketqueue/nc-netpacketqueue-evt_packet_queue_set_notification_enabled",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netpacketqueue/nc-netpacketqueue-evt_packet_queue_set_notification_enabled",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/nettxqueue/nc-nettxqueue-evt_txqueue_cancel.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netpacketqueue/nc-netpacketqueue-evt_packet_queue_cancel",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netpacketqueue/nc-netpacketqueue-evt_packet_queue_cancel",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/storport/ns-storport-_hw_initialization_data.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1",
+      "redirect_URL": "/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrxqueue/nf-netrxqueue-net_rxqueue_get_packet_context_token.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netrxqueue/nf-netrxqueue-netrxqueuegetpacketcontexttoken",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netrxqueue/nf-netrxqueue-netrxqueuegetpacketcontexttoken",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/nettxqueue/nf-nettxqueue-net_txqueue_get_packet_context_token.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nettxqueue/nf-nettxqueue-nettxqueuegetpacketcontexttoken",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nettxqueue/nf-nettxqueue-nettxqueuegetpacketcontexttoken",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/ns-netadapter-_net_adapter_config.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapter/nf-netadapter-netadapterinitallocate",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapter/nf-netadapter-netadapterinitallocate",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/nf-netadapter-net_adapter_config_init.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapter/nf-netadapter-netadapterinitallocate",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapter/nf-netadapter-netadapterinitallocate",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/nc-netadapter-evt_net_adapter_set_capabilities.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapter/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapter/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetflags.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_flags",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_flags",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetmmiomegabytes.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_mmio_megabytes",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_mmio_megabytes",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetsaverestorepacketcallbacks.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_save_restore_packet_callbacks",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_save_restore_packet_callbacks",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsettargetinterfaceid.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_target_interface_id",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_target_interface_id",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetvmbushandle.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_vmbus_handle",
+      "redirect_URL": "/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_server_channel_init_set_vmbus_handle",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/prefix/nf-prefix-rxpacquireprefixtablelockshared.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/prefix/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/prefix/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/prefix/nf-prefix-rxpacquireprefixtablelockexclusive.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/prefix/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/prefix/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/prefix/nf-prefix-rxpreleaseprefixtablelock.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/prefix/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/prefix/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/index.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/nc-netadapter-evt_net_adapter_offload_set_lso.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/nf-netadapter-net_adapter_offload_lso_capabilities_init.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/nf-netadapter-netadapteroffloadsetlsocapabilities.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/ns-netadapter-_net_adapter_offload_lso_capabilities.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/nf-netadapter-netadaptersetcurrentlinkstate.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapter/nf-netadapter-netadaptersetlinkstate",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapter/nf-netadapter-netadaptersetlinkstate",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapter/nf-netadapter-netadapterwdmgetndishandle.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapter/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapter/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netadapterpacket-net_packet_context_attributes_init_type.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netadapterpacket-net_packet_declare_casting_function.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netadapterpacket-net_packet_declare_context_type_with_name.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netpacketgetcontextfromtoken.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netpacketgettypedcontext.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netringbufferadvancenextpacket.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netringbuffergetnextpacket.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netringbuffergetpacketatindex.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netringbufferreturnallpackets.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netringbufferreturncompletedpackets.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/nf-netringbufferreturncompletedpacketsthroughindex.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netadapterpacket/ns-netadapterpacket-_net_packet_context_attributes.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapterpacket/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netdatapathdescriptor/index.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/ringcollection/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/ringcollection/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netdatapathdescriptor/ne-netdatapathdescriptor-_net_datpath_ring_buffer_index.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netringiterator/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netringiterator/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netdatapathdescriptor/nf-netdatapathdescriptor-net_datapath_descriptor_get_fragment_ring_buffer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netringiterator/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netringiterator/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netdatapathdescriptor/nf-netdatapathdescriptor-net_datapath_descriptor_get_packet_ring_buffer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netringiterator/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netringiterator/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netdatapathdescriptor/nf-netdatapathdescriptor-net_packet_get_fragment.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netringiterator/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netringiterator/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netdatapathdescriptor/ns-netdatapathdescriptor-_net_datapath_descriptor.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/ringcollection/ns-ringcollection-_net_ring_collection",
+      "redirect_URL": "/windows-hardware/drivers/ddi/ringcollection/ns-ringcollection-_net_ring_collection",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/ns-netpacket-_net_packet.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/packet/ns-packet-_net_packet",
+      "redirect_URL": "/windows-hardware/drivers/ddi/packet/ns-packet-_net_packet",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/nf-netpacket-netpacketisipv4.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/packet/nf-packet-netpacketisipv4",
+      "redirect_URL": "/windows-hardware/drivers/ddi/packet/nf-packet-netpacketisipv4",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/nf-netpacket-netpacketisipv6.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/packet/nf-packet-netpacketisipv6",
+      "redirect_URL": "/windows-hardware/drivers/ddi/packet/nf-packet-netpacketisipv6",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/ns-netpacket-_net_packet_layout.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/packet/ns-packet-_net_packet_layout",
+      "redirect_URL": "/windows-hardware/drivers/ddi/packet/ns-packet-_net_packet_layout",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/nf-netpacket-netpacketgetpacketchecksum.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/checksum/nf-checksum-netextensiongetpacketchecksum",
+      "redirect_URL": "/windows-hardware/drivers/ddi/checksum/nf-checksum-netextensiongetpacketchecksum",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/nf-netpacket-netpacketgetpacketlargesendsegmentation.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/nf-netpacket-netpacketgetpacketreceivesegmentcoalescence.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/rsc",
+      "redirect_URL": "/windows-hardware/drivers/ddi/rsc",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/ns-netpacket-_net_packet_large_send_segmentation.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapteroffload",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netadapteroffload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/ns-netpacket-_net_packet_receive_segment_coalescence.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/rsctypes",
+      "redirect_URL": "/windows-hardware/drivers/ddi/rsctypes",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/ns-netpacket-_net_packet_checksum.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/checksumtypes/ns-checksumtypes-_net_packet_checksum",
+      "redirect_URL": "/windows-hardware/drivers/ddi/checksumtypes/ns-checksumtypes-_net_packet_checksum",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/ns-netpacket-_net_packet_fragment.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/fragment/ns-fragment-_net_fragment",
+      "redirect_URL": "/windows-hardware/drivers/ddi/fragment/ns-fragment-_net_fragment",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/index.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpowersettings/nf-netpowersettings-netpowersettingsgetprotocoloffloadcountfortype.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netpowersettings/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netpowersettings/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpowersettings/nf-netpowersettings-netpowersettingsgetwakepatterncountfortype.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netpowersettings/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netpowersettings/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netringbuffer/index.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/ring/index",
+      "redirect_URL": "/windows-hardware/drivers/ddi/ring/index",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netringbuffer/ns-netringbuffer-_net_ring_buffer.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/ring/ns-ring-_net_ring",
+      "redirect_URL": "/windows-hardware/drivers/ddi/ring/ns-ring-_net_ring",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netringbuffer/nf-netringbuffer-netringbuffergetelementatindex.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/ring/nf-ring-netringgetelementatindex",
+      "redirect_URL": "/windows-hardware/drivers/ddi/ring/nf-ring-netringgetelementatindex",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netringbuffer/nf-netringbuffer-netringbuffergetnumberofelementsinrange.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/ring/nf-ring-netringgetrangecount",
+      "redirect_URL": "/windows-hardware/drivers/ddi/ring/nf-ring-netringgetrangecount",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netringbuffer/nf-netringbuffer-netringbufferincrementindex.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/ring/nf-ring-netringincrementindex",
+      "redirect_URL": "/windows-hardware/drivers/ddi/ring/nf-ring-netringincrementindex",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrxqueue/nf-netrxqueue-netrxqueuegetpacketcontexttoken.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netrxqueue/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netrxqueue/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrxqueue/nf-netrxqueue-netrxqueueinitaddpacketcontextattributes.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netrxqueue/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netrxqueue/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrxqueue/nf-netrxqueue-netrxqueuegetdatapathdescriptor.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netrxqueue/nf-netrxqueue-netrxqueuegetringcollection",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netrxqueue/nf-netrxqueue-netrxqueuegetringcollection",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrxqueue/nf-netrxqueue-netrxqueuegetpacketextensionoffset.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/netrxqueue/nf-netrxqueue-netrxqueuegetextension",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netrxqueue/nf-netrxqueue-netrxqueuegetextension",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/nettxqueue/nf-nettxqueue-nettxqueuegetpacketcontexttoken.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nettxqueue/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nettxqueue/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/nettxqueue/nf-nettxqueue-nettxqueueinitaddpacketcontextattributes.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nettxqueue/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nettxqueue/",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/nettxqueue/nf-nettxqueue-nettxqueuegetdatapathdescriptor.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nettxqueue/nf-nettxqueue-nettxqueuegetringcollection",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nettxqueue/nf-nettxqueue-nettxqueuegetringcollection",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/nettxqueue/nf-nettxqueue-nettxqueuegetpacketextensionoffset.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nettxqueue/nf-nettxqueue-nettxqueuegetextension",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nettxqueue/nf-nettxqueue-nettxqueuegetextension",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/nc-d3dkmthk-pfnd3dkmt_createtrackedworkload.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_createtrackedworkload",
+      "redirect_URL": "/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_createtrackedworkload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/nc-d3dkmthk-pfnd3dkmt_destroytrackedworkload.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_destroytrackedworkload",
+      "redirect_URL": "/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_destroytrackedworkload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/nc-d3dkmthk-pfnd3dkmt_endtrackedworkload.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_endtrackedworkload",
+      "redirect_URL": "/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_endtrackedworkload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/nc-d3dkmthk-pfnd3dkmt_getavailabletrackedworkloadindex.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_getavailabletrackedworkloadindex",
+      "redirect_URL": "/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_getavailabletrackedworkloadindex",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/nc-d3dkmthk-pfnd3dkmt_gettrackedworkloadstatistics.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_gettrackedworkloadstatistics",
+      "redirect_URL": "/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_gettrackedworkloadstatistics",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/nc-d3dkmthk-pfnd3dkmt_resettrackedworkload.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_resettrackedworkload",
+      "redirect_URL": "/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_resettrackedworkload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/nc-d3dkmthk-pfnd3dkmt_updatetrackedworkload.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_updatetrackedworkload",
+      "redirect_URL": "/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_updatetrackedworkload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/ne-d3dkmthk-_d3dkmt_trackedworkloaddeadlinetype.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ne-d3dkmthk-_d3dkmt_trackedworkloaddeadlinetype",
+      "redirect_URL": "/previous-versions/windows/hardware/display/ne-d3dkmthk-_d3dkmt_trackedworkloaddeadlinetype",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/ne-d3dkmthk-_d3dkmt_trackedworkloadpolicy.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ne-d3dkmthk-_d3dkmt_trackedworkloadpolicy",
+      "redirect_URL": "/previous-versions/windows/hardware/display/ne-d3dkmthk-_d3dkmt_trackedworkloadpolicy",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatetrackedworkload.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtcreatetrackedworkload",
+      "redirect_URL": "/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtcreatetrackedworkload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/nf-d3dkmthk-d3dkmtdestroytrackedworkload.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtdestroytrackedworkload",
+      "redirect_URL": "/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtdestroytrackedworkload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/nf-d3dkmthk-d3dkmtendtrackedworkload.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtendtrackedworkload",
+      "redirect_URL": "/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtendtrackedworkload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/nf-d3dkmthk-d3dkmtgetavailabletrackedworkloadindex.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtgetavailabletrackedworkloadindex",
+      "redirect_URL": "/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtgetavailabletrackedworkloadindex",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/nf-d3dkmthk-d3dkmtgettrackedworkloadstatistics.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtgettrackedworkloadstatistics",
+      "redirect_URL": "/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtgettrackedworkloadstatistics",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/nf-d3dkmthk-d3dkmtresettrackedworkload.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtresettrackedworkload",
+      "redirect_URL": "/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtresettrackedworkload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/nf-d3dkmthk-d3dkmtupdatetrackedworkload.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtupdatetrackedworkload",
+      "redirect_URL": "/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtupdatetrackedworkload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_createtrackedworkload.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_createtrackedworkload",
+      "redirect_URL": "/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_createtrackedworkload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroytrackedworkload.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_destroytrackedworkload",
+      "redirect_URL": "/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_destroytrackedworkload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_endtrackedworkload.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_endtrackedworkload",
+      "redirect_URL": "/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_endtrackedworkload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_getavailabletrackedworkloadindex.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_getavailabletrackedworkloadindex",
+      "redirect_URL": "/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_getavailabletrackedworkloadindex",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_gettrackedworkloadstatistics.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_gettrackedworkloadstatistics",
+      "redirect_URL": "/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_gettrackedworkloadstatistics",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_resettrackedworkload.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_resettrackedworkload",
+      "redirect_URL": "/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_resettrackedworkload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_trackedworkload_statistics.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_trackedworkload_statistics",
+      "redirect_URL": "/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_trackedworkload_statistics",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_trackedworkloaddeadline.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_trackedworkloaddeadline",
+      "redirect_URL": "/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_trackedworkloaddeadline",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_trackedworkloadflags.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_trackedworkloadflags",
+      "redirect_URL": "/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_trackedworkloadflags",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_trackedworkloadstateflags.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_trackedworkloadstateflags",
+      "redirect_URL": "/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_trackedworkloadstateflags",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_updatetrackedworkload.md",
-      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_updatetrackedworkload",
+      "redirect_URL": "/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_updatetrackedworkload",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-whea_pshed_plugin_registration_packet_v2",
+      "redirect_URL": "/windows-hardware/drivers/ddi/ntddk/ns-ntddk-whea_pshed_plugin_registration_packet_v2",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/wdm/nf-wdm-kequerysystemtime.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime-r1",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime-r1",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/wudfwdm/ns-wudfwdm-_object_attributes.md",
-      "redirect_URL": "https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_object_attributes",
+      "redirect_URL": "/windows/win32/api/ntdef/ns-ntdef-_object_attributes",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/ntddk/nf-ntddk-zwsetvolumeinformationfile.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwsetvolumeinformationfile",
+      "redirect_URL": "/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwsetvolumeinformationfile",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/wudfwdm/ns-wudfwdm-_unicode_string.md",
-      "redirect_URL": "https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string",
+      "redirect_URL": "/windows/win32/api/ntdef/ns-ntdef-_unicode_string",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/wudfwdm/nf-wudfwdm-initializeobjectattributes.md",
-      "redirect_URL": "https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes",
+      "redirect_URL": "/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/wudfwdm/ne-wudfwdm-device_registry_property.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-device_registry_property",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wdm/ne-wdm-device_registry_property",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/engextcpp/nf-engextcpp-extremotedata-set.md",
-      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-set(constdebug_typed_data)",
+      "redirect_URL": "/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-set(constdebug_typed_data)",
       "redirect_document_id": false
     },
     {

@@ -4,7 +4,7 @@ title: _IRQ_DEVICE_POLICY (wdm.h)
 description: The _IRQ_DEVICE_POLICY enumeration (wdm.h) type indicates the operating system policy used to assign interrupts from a device to different processors.
 old-location: kernel\irq_device_policy.htm
 tech.root: kernel
-ms.date: 08/18/2022
+ms.date: 09/16/2022
 keywords: ["IRQ_DEVICE_POLICY enumeration"]
 ms.keywords: "*PIRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], IrqPolicyAllCloseProcessors, IrqPolicyAllProcessorsInMachine, IrqPolicyMachineDefault, IrqPolicyOneCloseProcessor, IrqPolicySpecifiedProcessors, IrqPolicySpreadMessagesAcrossAllProcessors, PIRQ_DEVICE_POLICY, PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], _IRQ_DEVICE_POLICY, kernel.irq_device_policy, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, wdm/IRQ_DEVICE_POLICY, wdm/IrqPolicyAllCloseProcessors, wdm/IrqPolicyAllProcessorsInMachine, wdm/IrqPolicyMachineDefault, wdm/IrqPolicyOneCloseProcessor, wdm/IrqPolicySpecifiedProcessors, wdm/IrqPolicySpreadMessagesAcrossAllProcessors, wdm/PIRQ_DEVICE_POLICY"
 req.header: wdm.h
@@ -54,33 +54,33 @@ The **IRQ_DEVICE_POLICY** enumeration type indicates the policy the operating sy
 
 ## -enum-fields
 
-### -field IrqPolicyMachineDefault
+### -field IrqPolicyMachineDefault:0
 
 The device does not require any particular assignment of interrupts to processors.
 
-### -field IrqPolicyAllCloseProcessors
+### -field IrqPolicyAllCloseProcessors:1
 
 The operating system should assign interrupts from the device to processors that are close to the device. On non-NUMA computers, the effect of this value is identical to that of **IrqPolicyAllProcessorsInMachine**.
 
-### -field IrqPolicyOneCloseProcessor
+### -field IrqPolicyOneCloseProcessor:2
 
 The operating system should assign a single interrupt for the device to one processor that is close to the device. On non-NUMA computers, the operating system can assign the interrupt to any processor.
 
-### -field IrqPolicyAllProcessorsInMachine
+### -field IrqPolicyAllProcessorsInMachine:3
 
 The operating system should assign interrupts from the device to all processors.
 
-### -field IrqPolicySpecifiedProcessors
+### -field IrqPolicySpecifiedProcessors:4
 
 The operating system should assign interrupts from the device to a specific set of processors.
 
-### -field IrqPolicySpreadMessagesAcrossAllProcessors
+### -field IrqPolicySpreadMessagesAcrossAllProcessors:5
 
 The operating system should assign different message-signaled interrupts to different processors, if possible.
 
-### -field IrqPolicyAllProcessorsInMachineWhenSteered
+### -field IrqPolicyAllProcessorsInMachineWhenSteered:6
 
-IRQ steering allows Windows to assign IRQs to specific PCI devices. The operating system should assign interrupts from the device to all processors when PCI bus IRQ steering is enabled.
+Reserved for system use. Do not use in your driver.
 
 ## -remarks
 

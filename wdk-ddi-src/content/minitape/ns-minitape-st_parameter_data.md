@@ -1,16 +1,15 @@
 ---
-UID: NS:minitape.__unnamed_struct_14
+UID: NS:minitape.__unnamed_struct_19
 title: ST_PARAMETER_DATA (minitape.h)
 description: The ST_PARAMETER_DATA structure (minitape.h) contains the parameter list for the set timestamp command.
-old-location: storage\st_parameter_data.htm
 tech.root: storage
-ms.date: 08/26/2022
+ms.date: 09/23/2022
 keywords: ["ST_PARAMETER_DATA structure"]
 ms.keywords: "*PST_PARAMETER_DATA, PST_PARAMETER_DATA, PST_PARAMETER_DATA structure pointer [Storage Devices], ST_PARAMETER_DATA, ST_PARAMETER_DATA structure [Storage Devices], scsi/PST_PARAMETER_DATA, scsi/ST_PARAMETER_DATA, storage.st_parameter_data"
 req.header: minitape.h
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows 10, version 1709 and later versions of Windows.
+req.target-min-winverclnt: Available in Windows 10, version 1709 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,8 +41,6 @@ api_name:
  - PST_PARAMETER_DATA
  - ST_PARAMETER_DATA
 ---
-
-# ST_PARAMETER_DATA structure (minitape.h)
 
 ## -description
 
