@@ -1,7 +1,7 @@
 ---
 UID: NS:dispmprt._DXGK_DP_INTERFACE
 title: DXGK_DP_INTERFACE
-ms.date: 05/31/2022
+ms.date: 09/26/2022
 targetos: Windows
 description: A kernel-mode component that needs to use the DXGK_DP_INTERFACE DisplayPort (DP) interface calls the display miniport driver's DxgkDdiQueryInterface function.
 tech.root: display
@@ -41,8 +41,6 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DP_INTERFACE structure
-
 ## -description
 
 A kernel-mode component that needs to use the **DXGK_DP_INTERFACE** DisplayPort (DP) interface calls the display miniport driver's [DxgkDdiQueryInterface](nc-dispmprt-dxgkddi_query_interface.md) function.
@@ -69,7 +67,7 @@ Pointer to a private context block provided by the display miniport driver.
 
 [**PINTERFACE_DEREFERENCE**](../wdm/nc-wdm-pinterface_dereference.md) interface dereference function that is implemented by the display miniport driver.
 
-### -field DsiQueryDPCaps
+### -field DxgkDdiQueryDPCaps
 
 Pointer to the display miniport driver's [DXGKDDI_QUERYDPCAPS](nc-dispmprt-dxgkddi_querydpcaps.md) function.
 
@@ -91,9 +89,9 @@ Pointer to the display miniport driver's [DXGKDDI_DPSBMTRANSMISSION](nc-dispmprt
 
 ## -remarks
 
-|Minimum supported client|Header|IRQL|
-|:----------------------:|:----:|:--:|
-|Available in WDDM 2.7 and later version|dispmprt.h(include Dispmprt.h)|PASSIVE_LEVEL|
+| Minimum supported client | Header | IRQL |
+|--|--|--|
+| Available in WDDM 2.7 and later version | dispmprt.h(include Dispmprt.h) | PASSIVE_LEVEL |
 
 ## -see-also
 
