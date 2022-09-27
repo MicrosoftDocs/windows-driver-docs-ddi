@@ -46,7 +46,7 @@ api_name:
 ---
 ## -description
 
-The **INQUIRYDATA** structure is used in conjunction with the [TapeMiniExtensionInit](/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_extension_init_routine) and [TapeMiniVerifyInquiry](/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_verify_inquiry_routine) routines to report SCSI inquiry data associated with a tape device.
+The **INQUIRYDATA** structure is used in conjunction with the [TapeMiniExtensionInit](../minitape/nc-minitape-tape_extension_init_routine.md) and [TapeMiniVerifyInquiry](../minitape/nc-minitape-tape_verify_inquiry_routine.md) routines to report SCSI inquiry data associated with a tape device.
 
 ## -struct-fields
 
@@ -222,6 +222,6 @@ Indicates, when set to one, that the target supports the SCSI CONTINUE TASK and 
 
 ## -see-also
 
-[TapeMiniExtensionInit](/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_extension_init_routine)
+[TapeMiniExtensionInit](../minitape/nc-minitape-tape_extension_init_routine.md)
 
-[TapeMiniVerifyInquiry](/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_verify_inquiry_routine)
+[TapeMiniVerifyInquiry](../minitape/nc-minitape-tape_verify_inquiry_routine.md)
