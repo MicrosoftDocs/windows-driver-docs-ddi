@@ -59,12 +59,12 @@ This method returns an **HRESULT** value.
 
 ## -remarks
 
-To perform the commit operation, call the [IPrintSchemaAsyncOperation::Start](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperation-start) method to validate the given *pPrintTicketCommit* and then apply the validated PrintTicket settings to the current PrintTicket object. When the commit operation is completed or if an error occurs during the commit operation, the [IPrintSchemaAsyncOperationEvent::Completed](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperationevent-completed) event is fired.
+To perform the commit operation, call the [IPrintSchemaAsyncOperation::Start](./nf-printerextension-iprintschemaasyncoperation-start.md) method to validate the given *pPrintTicketCommit* and then apply the validated PrintTicket settings to the current PrintTicket object. When the commit operation is completed or if an error occurs during the commit operation, the [IPrintSchemaAsyncOperationEvent::Completed](./nf-printerextension-iprintschemaasyncoperationevent-completed.md) event is fired.
 
 ## -see-also
 
-[IPrintSchemaAsyncOperation::Start](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperation-start)
+[IPrintSchemaAsyncOperation::Start](./nf-printerextension-iprintschemaasyncoperation-start.md)
 
-[IPrintSchemaAsyncOperationEvent::Completed](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperationevent-completed)
+[IPrintSchemaAsyncOperationEvent::Completed](./nf-printerextension-iprintschemaasyncoperationevent-completed.md)
 
-[IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
+[IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md)

@@ -42,17 +42,17 @@ api_name:
 
 ## -description
 
-The **KsDeviceRegisterAdapterObject** function registers a DMA adapter object with AVStream for performing scatter/gather DMA on the specified device. All drivers compiled for Win64 should use [IKsDeviceFunctions::RegisterAdapterObjectEx](/windows-hardware/drivers/ddi/ks/nf-ks-iksdevicefunctions-registeradapterobjectex) instead.
+The **KsDeviceRegisterAdapterObject** function registers a DMA adapter object with AVStream for performing scatter/gather DMA on the specified device. All drivers compiled for Win64 should use [IKsDeviceFunctions::RegisterAdapterObjectEx](./nf-ks-iksdevicefunctions-registeradapterobjectex.md) instead.
 
 ## -parameters
 
 ### -param Device [in]
 
-A pointer to the [KSDEVICE](/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice) structure representing the AVStream device for which to register an adapter object.
+A pointer to the [KSDEVICE](./ns-ks-_ksdevice.md) structure representing the AVStream device for which to register an adapter object.
 
 ### -param AdapterObject [in]
 
-A pointer to the [DMA_ADAPTER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter) structure returned by [IoGetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter) that represents the DMA controller..
+A pointer to the [DMA_ADAPTER](../wdm/ns-wdm-_dma_adapter.md) structure returned by [IoGetDmaAdapter](../wdm/nf-wdm-iogetdmaadapter.md) that represents the DMA controller..
 
 ### -param MaxMappingsByteCount [in]
 
@@ -60,15 +60,15 @@ This parameter specifies the maximum number of bytes that the device can handle 
 
 ### -param MappingTableStride [in]
 
-This parameter specifies how many bytes each entry in the mapping table requires. This must be at least **sizeof** ([KSMAPPING](/windows-hardware/drivers/ddi/ks/ns-ks-_ksmapping)) and can be as large as necessary.
+This parameter specifies how many bytes each entry in the mapping table requires. This must be at least **sizeof** ([KSMAPPING](./ns-ks-_ksmapping.md)) and can be as large as necessary.
 
 Additional space can be used by the minidriver as context information.
 
 ## -remarks
 
-A minidriver that calls **KsDeviceRegisterAdapterObject** is responsible for previously acquiring the adapter object through [IoGetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter).
+A minidriver that calls **KsDeviceRegisterAdapterObject** is responsible for previously acquiring the adapter object through [IoGetDmaAdapter](../wdm/nf-wdm-iogetdmaadapter.md).
 
-Also note that if the minidriver specifies the KSPIN_FLAG_GENERATE_MAPPINGS flag for any pin on any filter on the device, the minidriver must call **KsDeviceRegisterAdapterObject** before processing any data. More information about this flag can be found in the reference page for [KSPIN_DESCRIPTOR_EX](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex). Also see [AVStream DMA Services](/windows-hardware/drivers/stream/avstream-dma-services).
+Also note that if the minidriver specifies the KSPIN_FLAG_GENERATE_MAPPINGS flag for any pin on any filter on the device, the minidriver must call **KsDeviceRegisterAdapterObject** before processing any data. More information about this flag can be found in the reference page for [KSPIN_DESCRIPTOR_EX](./ns-ks-_kspin_descriptor_ex.md). Also see [AVStream DMA Services](/windows-hardware/drivers/stream/avstream-dma-services).
 
 > [!IMPORTANT]
 > Essential information required for user successIf you set *MaxMappingByteCount* to one physical page in length, mappings are not guaranteed to reside on a single physical page. In addition, as noted in the member description above, setting *MaxMappingsByteCount* does not guarantee that breaks will occur on page boundaries. If you require breaks on page boundaries, consider not specifying a limit on mapping sizes; instead, break the returned scatter/gather mappings into page-aligned chunks manually.
@@ -77,10 +77,10 @@ Also see [Supporting DMA in 64-Bit AVStream Drivers](/windows-hardware/drivers/s
 
 ## -see-also
 
-[IoGetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter)
+[IoGetDmaAdapter](../wdm/nf-wdm-iogetdmaadapter.md)
 
-[KSFILTER_DESCRIPTOR](/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor)
+[KSFILTER_DESCRIPTOR](./ns-ks-_ksfilter_descriptor.md)
 
-[KSMAPPING](/windows-hardware/drivers/ddi/ks/ns-ks-_ksmapping)
+[KSMAPPING](./ns-ks-_ksmapping.md)
 
-[KSPIN_DESCRIPTOR_EX](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex)
+[KSPIN_DESCRIPTOR_EX](./ns-ks-_kspin_descriptor_ex.md)

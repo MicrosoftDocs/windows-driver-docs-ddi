@@ -49,13 +49,13 @@ api_name:
 
 The **OEMUIPROCS** structure is obsolete.
 
-The **OEMUIPROCS** structure contains the address of the [DrvGetDriverSetting](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetdriversetting) and [DrvUpdateUISetting](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvupdateuisetting) functions that are exported by Microsoft printer drivers.
+The **OEMUIPROCS** structure contains the address of the [DrvGetDriverSetting](./nc-printoem-pfn_drvgetdriversetting.md) and [DrvUpdateUISetting](./nc-printoem-pfn_drvupdateuisetting.md) functions that are exported by Microsoft printer drivers.
 
 ## -struct-fields
 
 ### -field DrvGetDriverSetting
 
-Pointer to the printer driver's **DrvGetDriverSetting** function. (To obtain this function's address in kernel mode, see [DRVPROCS](/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs).
+Pointer to the printer driver's **DrvGetDriverSetting** function. (To obtain this function's address in kernel mode, see [DRVPROCS](./ns-printoem-_drvprocs.md).
 
 ### -field DrvUpdateUISetting
 
@@ -63,6 +63,6 @@ Pointer to the printer driver's **DrvUpdateUISetting** function.
 
 ## -remarks
 
-[DrvGetDriverSetting](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetdriversetting) and [DrvUpdateUISetting](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvupdateuisetting) have been superseded by COM-based interfaces.
+[DrvGetDriverSetting](./nc-printoem-pfn_drvgetdriversetting.md) and [DrvUpdateUISetting](./nc-printoem-pfn_drvupdateuisetting.md) have been superseded by COM-based interfaces.
 
-The **OEMUIPROCS** structure's address is contained in an [OEMUIOBJ](/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj) structure.
+The **OEMUIPROCS** structure's address is contained in an [OEMUIOBJ](./ns-printoem-_oemuiobj.md) structure.

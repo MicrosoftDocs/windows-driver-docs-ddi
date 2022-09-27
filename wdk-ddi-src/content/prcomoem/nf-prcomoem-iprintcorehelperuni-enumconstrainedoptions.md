@@ -47,7 +47,7 @@ The **IPrintCoreHelperUni::EnumConstrainedOptions** method provides a list of al
 
 ### -param pDevmode [in, optional]
 
-A pointer to a [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure. If this pointer is provided, **IPrintCoreHelperUni::EnumConstrainedOptions** should use the DEVMODEW structure that is pointed to by *pDevmode* instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from [IPrintOemUni::DevMode](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-devmode), this parameter is required. In most other situations, the parameter should be **NULL**. When the core driver sets *pDevmode* to **NULL**, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as [DrvDocumentPropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets), is being serviced by the core driver's UI module.
+A pointer to a [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure. If this pointer is provided, **IPrintCoreHelperUni::EnumConstrainedOptions** should use the DEVMODEW structure that is pointed to by *pDevmode* instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from [IPrintOemUni::DevMode](./nf-prcomoem-iprintoemuni-devmode.md), this parameter is required. In most other situations, the parameter should be **NULL**. When the core driver sets *pDevmode* to **NULL**, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as [DrvDocumentPropertySheets](../winddiui/nf-winddiui-drvdocumentpropertysheets.md), is being serviced by the core driver's UI module.
 
 ### -param cbSize [in]
 
@@ -79,6 +79,6 @@ A pointer to a variable that receives the number of constrained options in the a
 
 ## -see-also
 
-[IPrintCoreHelperUni](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperuni)
+[IPrintCoreHelperUni](./nn-prcomoem-iprintcorehelperuni.md)
 
-[IPrintCoreHelperUni::EnumOptions](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperuni-enumoptions)
+[IPrintCoreHelperUni::EnumOptions](./nf-prcomoem-iprintcorehelperuni-enumoptions.md)

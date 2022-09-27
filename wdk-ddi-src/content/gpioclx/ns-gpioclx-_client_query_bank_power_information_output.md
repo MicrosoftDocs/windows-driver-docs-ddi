@@ -64,17 +64,17 @@ Not used.
 
 ### -field F1IdleStateParameters
 
-A **PO_FX_COMPONENT_IDLE_STATE** structure that describes the parameters (transition latency, residency requirement, and so on) for the F1 power state of the GPIO bank. For more information about these parameters, see [PO_FX_COMPONENT_IDLE_STATE](/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_idle_state).
+A **PO_FX_COMPONENT_IDLE_STATE** structure that describes the parameters (transition latency, residency requirement, and so on) for the F1 power state of the GPIO bank. For more information about these parameters, see [PO_FX_COMPONENT_IDLE_STATE](../wdm/ns-wdm-_po_fx_component_idle_state.md).
 
 ## -remarks
 
 The unnamed struct inside _CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT contains a set of power-management flag bits.
 
-The **BankPowerInformation** member of the [CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT](/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_query_set_information_output) structure is a structure of type **CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT**.
+The **BankPowerInformation** member of the [CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT](./ns-gpioclx-_client_controller_query_set_information_output.md) structure is a structure of type **CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT**.
 
 For more information about GPIO banks, see [Partioning a GPIO Controller into Banks of Pins](/windows-hardware/drivers/gpio/partitioning-a-gpio-controller-into-banks-of-pins).
 
 ## -see-also
 
-- [CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT](/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_query_set_information_output)
-- [PO_FX_COMPONENT_IDLE_STATE](/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_idle_state)
+- [CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT](./ns-gpioclx-_client_controller_query_set_information_output.md)
+- [PO_FX_COMPONENT_IDLE_STATE](../wdm/ns-wdm-_po_fx_component_idle_state.md)

@@ -43,9 +43,9 @@ api_name:
 
 The **DrvYMoveTo** function is obsolete.
 
-Windows 2000 and later Unidrv plug-ins should use [IPrintOemDriverUni::DrvYMoveTo](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvymoveto).
+Windows 2000 and later Unidrv plug-ins should use [IPrintOemDriverUni::DrvYMoveTo](../prcomoem/nf-prcomoem-iprintoemdriveruni-drvymoveto.md).
 
-This function pointer prototype defines the type of the **DrvYMoveTo** member of the [DRVPROCS](/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs) structure.
+This function pointer prototype defines the type of the **DrvYMoveTo** member of the [DRVPROCS](./ns-printoem-_drvprocs.md) structure.
 
 ## -parameters
 

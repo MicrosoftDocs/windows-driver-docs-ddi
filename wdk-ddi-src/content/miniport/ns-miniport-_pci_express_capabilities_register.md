@@ -57,7 +57,7 @@ The **DUMMYSTRUCTNAME** structure.
 
 ### -field DUMMYSTRUCTNAME.CapabilityVersion
 
-The version number of the [PCI_EXPRESS_CAPABILITY](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability) structure that contains the PCI_EXPRESS_CAPABILITIES_REGISTER structure.
+The version number of the [PCI_EXPRESS_CAPABILITY](../ntddk/ns-ntddk-_pci_express_capability.md) structure that contains the PCI_EXPRESS_CAPABILITIES_REGISTER structure.
 
 ### -field DUMMYSTRUCTNAME.DeviceType
 
@@ -110,8 +110,8 @@ A USHORT representation of the contents of the PCI_EXPRESS_CAPABILITIES_REGISTER
 
 The PCI_EXPRESS_CAPABILITIES_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_CAPABILITIES_REGISTER structure is contained in the [PCI_EXPRESS_CAPABILITY](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability) structure.
+A PCI_EXPRESS_CAPABILITIES_REGISTER structure is contained in the [PCI_EXPRESS_CAPABILITY](../ntddk/ns-ntddk-_pci_express_capability.md) structure.
 
 ## -see-also
 
-[PCI_EXPRESS_CAPABILITY](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability)
+[PCI_EXPRESS_CAPABILITY](../ntddk/ns-ntddk-_pci_express_capability.md)

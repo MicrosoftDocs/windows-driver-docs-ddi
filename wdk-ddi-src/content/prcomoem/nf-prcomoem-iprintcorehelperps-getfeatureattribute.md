@@ -47,7 +47,7 @@ The **IPrintCoreHelperPS::GetFeatureAttribute** method retrieves the feature att
 
 ### -param pszFeatureKeyword [in]
 
-A pointer to a caller-supplied buffer that contains an ANSI string that specifies the feature keyword to query for. This value can be obtained from a prior call to [IPrintCoreHelperPS::EnumFeatures](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-enumfeatures).
+A pointer to a caller-supplied buffer that contains an ANSI string that specifies the feature keyword to query for. This value can be obtained from a prior call to [IPrintCoreHelperPS::EnumFeatures](./nf-prcomoem-iprintcorehelperps-enumfeatures.md).
 
 ### -param pszAttribute [in]
 
@@ -55,7 +55,7 @@ A pointer to a caller-supplied buffer that contains an ANSI string that specifie
 
 ### -param pdwDataType [out]
 
-A pointer to a variable that receives a value that specifies the data type of the requested attribute. This value is an enumerator of the [EATTRIBUTE_DATATYPE](/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype) enumeration type, which is defined in printoem.h.
+A pointer to a variable that receives a value that specifies the data type of the requested attribute. This value is an enumerator of the [EATTRIBUTE_DATATYPE](../printoem/ne-printoem-_eattribute_datatype.md) enumeration type, which is defined in printoem.h.
 
 ### -param ppbData [out]
 
@@ -78,14 +78,14 @@ A pointer to a variable that receives the size, in bytes, of the buffer that is 
 
 ## -remarks
 
-If **IPrintCoreHelperPS::GetFeatureAttribute** is called with its *pszAttribute* and *pbData* parameters set to **NULL**, the method returns with *pcbSize* set to the number of bytes that are needed for the list of all of the supported attribute names for the feature. If this method is called a second time, with *pszAttribute* set to **NULL** and *pbData* pointing to a buffer of the size that was specified in *pcbSize* in the previous call, the method returns with *pdwDataType* set to kADT_ASCII (an enumerator of the [EATTRIBUTE_DATATYPE](/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype) enumeration type) and *pbData* pointing to a NULL-delimited list of all of the supported attribute names for the feature. This list is terminated with two null characters.
+If **IPrintCoreHelperPS::GetFeatureAttribute** is called with its *pszAttribute* and *pbData* parameters set to **NULL**, the method returns with *pcbSize* set to the number of bytes that are needed for the list of all of the supported attribute names for the feature. If this method is called a second time, with *pszAttribute* set to **NULL** and *pbData* pointing to a buffer of the size that was specified in *pcbSize* in the previous call, the method returns with *pdwDataType* set to kADT_ASCII (an enumerator of the [EATTRIBUTE_DATATYPE](../printoem/ne-printoem-_eattribute_datatype.md) enumeration type) and *pbData* pointing to a NULL-delimited list of all of the supported attribute names for the feature. This list is terminated with two null characters.
 
 For more information about **IPrintCoreHelperPS::GetFeatureAttribute**, see [Using GetFeatureAttribute](/windows-hardware/drivers/print/using-getfeatureattribute).
 
 ## -see-also
 
-[IPrintCoreHelperPS](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperps)
+[IPrintCoreHelperPS](./nn-prcomoem-iprintcorehelperps.md)
 
-[IPrintCoreHelperPS::GetGlobalAttribute](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-getglobalattribute)
+[IPrintCoreHelperPS::GetGlobalAttribute](./nf-prcomoem-iprintcorehelperps-getglobalattribute.md)
 
-[IPrintCoreHelperPS::GetOptionAttribute](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-getoptionattribute)
+[IPrintCoreHelperPS::GetOptionAttribute](./nf-prcomoem-iprintcorehelperps-getoptionattribute.md)

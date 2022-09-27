@@ -61,4 +61,4 @@ You must not use the **IPrintJob::Id** property to invoke spooler Job APIs. This
 
 ## -see-also
 
-[IPrintJob](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob)
+[IPrintJob](./nn-printerextension-iprintjob.md)

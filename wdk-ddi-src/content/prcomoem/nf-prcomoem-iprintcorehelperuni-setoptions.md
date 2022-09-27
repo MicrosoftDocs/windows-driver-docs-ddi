@@ -47,7 +47,7 @@ The **IPrintCoreHelperUni::SetOptions** method sets multiple feature-option pair
 
 ### -param pDevmode [in, optional]
 
-A pointer to a [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure. If this pointer is provided, **IPrintCoreHelperUni::SetOptions** should use the DEVMODEW structure that is pointed to by *pDevmode* instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from [IPrintOemPS::DevMode](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-devmode), this parameter is required. In most other situations, the parameter should be **NULL**. When the core driver sets *pDevmode* to **NULL**, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as [DrvDocumentPropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets), is being serviced by the core driver's UI module.
+A pointer to a [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure. If this pointer is provided, **IPrintCoreHelperUni::SetOptions** should use the DEVMODEW structure that is pointed to by *pDevmode* instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from [IPrintOemPS::DevMode](./nf-prcomoem-iprintoemps-devmode.md), this parameter is required. In most other situations, the parameter should be **NULL**. When the core driver sets *pDevmode* to **NULL**, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as [DrvDocumentPropertySheets](../winddiui/nf-winddiui-drvdocumentpropertysheets.md), is being serviced by the core driver's UI module.
 
 ### -param cbSize [in]
 
@@ -59,7 +59,7 @@ A Boolean value that indicates whether **IPrintCoreHelperUni::SetOptions** shoul
 
 ### -param pFOPairs [in]
 
-An array of [PRINT_FEATURE_OPTION](/windows-hardware/drivers/ddi/prcomoem/ns-prcomoem-_print_feature_option) elements, where each element contains a feature-option pair. Each feature-option pair lists a feature and the option to select for that feature. All settings are applied sequentially. Duplicates are not disallowed, but settings that appear later in the array (that is, at a higher index) override those that appear earlier in the array.
+An array of [PRINT_FEATURE_OPTION](./ns-prcomoem-_print_feature_option.md) elements, where each element contains a feature-option pair. Each feature-option pair lists a feature and the option to select for that feature. All settings are applied sequentially. Duplicates are not disallowed, but settings that appear later in the array (that is, at a higher index) override those that appear earlier in the array.
 
 ### -param cPairs [in]
 
@@ -99,6 +99,6 @@ For most scenarios the *bResolveConflicts* parameter should be set to **TRUE**. 
 
 ## -see-also
 
-[IPrintCoreHelperUni](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperuni)
+[IPrintCoreHelperUni](./nn-prcomoem-iprintcorehelperuni.md)
 
-[IPrintCoreHelperUni::GetOption](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperuni-getoption)
+[IPrintCoreHelperUni::GetOption](./nf-prcomoem-iprintcorehelperuni-getoption.md)

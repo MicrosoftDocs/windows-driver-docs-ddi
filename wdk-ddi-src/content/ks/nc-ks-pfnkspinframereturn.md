@@ -47,19 +47,19 @@ An AVStream minidriver's *AVStrMiniFrameReturn* routine is called when an inject
 
 ### -param Pin [in]
 
-Pointer to a [KSPIN](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin) structure representing the pin on which the frame was injected.
+Pointer to a [KSPIN](./ns-ks-_kspin.md) structure representing the pin on which the frame was injected.
 
 ### -param Data [in, optional]
 
-Pointer to the buffer originally specified in the call to [KsPinSubmitFrame](/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframe).
+Pointer to the buffer originally specified in the call to [KsPinSubmitFrame](./nf-ks-kspinsubmitframe.md).
 
 ### -param Size [in, optional]
 
-Specifies the size in bytes of*Data* as originally specified in [KsPinSubmitFrame](/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframe).
+Specifies the size in bytes of*Data* as originally specified in [KsPinSubmitFrame](./nf-ks-kspinsubmitframe.md).
 
 ### -param Mdl [in, optional]
 
-Pointer to a memory descriptor list describing the injected frame as in the call to [KsPinSubmitFrameMdl](/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframemdl).
+Pointer to a memory descriptor list describing the injected frame as in the call to [KsPinSubmitFrameMdl](./nf-ks-kspinsubmitframemdl.md).
 
 ### -param Context [in, optional]
 
@@ -71,10 +71,10 @@ Contains a copy of*Irp->IoStatus.Status* for the IRP to which the requested fram
 
 ## -remarks
 
-The minidriver specifies this routine's address in the*FrameReturn* parameter of a call to [KsPinRegisterFrameReturnCallback](/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterframereturncallback).
+The minidriver specifies this routine's address in the*FrameReturn* parameter of a call to [KsPinRegisterFrameReturnCallback](./nf-ks-kspinregisterframereturncallback.md).
 
 ## -see-also
 
-[KsPinRegisterFrameReturnCallback](/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterframereturncallback)
+[KsPinRegisterFrameReturnCallback](./nf-ks-kspinregisterframereturncallback.md)
 
-[KsPinSubmitFrameMdl](/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframemdl)
+[KsPinSubmitFrameMdl](./nf-ks-kspinsubmitframemdl.md)

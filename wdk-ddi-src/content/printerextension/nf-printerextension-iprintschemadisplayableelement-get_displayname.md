@@ -57,4 +57,4 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 ## -see-also
 
-[IPrintSchemaDisplayableElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemadisplayableelement)
+[IPrintSchemaDisplayableElement](./nn-printerextension-iprintschemadisplayableelement.md)

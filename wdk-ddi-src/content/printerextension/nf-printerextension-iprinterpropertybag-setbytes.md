@@ -73,4 +73,4 @@ A call to set a property on a queue property bag will fail with ERROR_ACCESS_DEN
 
 ## -see-also
 
-[IPrinterPropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag)
+[IPrinterPropertyBag](./nn-printerextension-iprinterpropertybag.md)

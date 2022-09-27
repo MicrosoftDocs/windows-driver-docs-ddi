@@ -66,7 +66,7 @@ If the operation succeeds, the function returns **TRUE**. Otherwise, the functio
 
 ## -remarks
 
-A print provider's [RefreshPrinterChangeNotification](/previous-versions/ff561930(v=vs.85)) function should call **AppendPrinterNotifyInfoData** as often as necessary to populate a **PRINTER_NOTIFY_INFO_DATA** structure array, after first calling [RouterAllocPrinterNotifyInfo](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerallocprinternotifyinfo) to allocate storage for the array and its associated PRINTER_NOTIFY_INFO structure.
+A print provider's [RefreshPrinterChangeNotification](/previous-versions/ff561930(v=vs.85)) function should call **AppendPrinterNotifyInfoData** as often as necessary to populate a **PRINTER_NOTIFY_INFO_DATA** structure array, after first calling [RouterAllocPrinterNotifyInfo](./nf-winsplp-routerallocprinternotifyinfo.md) to allocate storage for the array and its associated PRINTER_NOTIFY_INFO structure.
 
 Based on whether the PRINTER_NOTIFY_INFO_DATA_COMPACT flag is set, the function either appends the specified **PRINTER_NOTIFY_INFO_DATA** structure to the end of the structure array or overwrites an existing array element. If the structure is appended, the function increments the **PRINTER_NOTIFY_INFO** structure's **Count** member.
 
@@ -82,4 +82,4 @@ For additional information, see [Supporting Printer Change Notifications](/windo
 
 [RefreshPrinterChangeNotification](/previous-versions/ff561930(v=vs.85))
 
-[RouterAllocPrinterNotifyInfo](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerallocprinternotifyinfo)
+[RouterAllocPrinterNotifyInfo](./nf-winsplp-routerallocprinternotifyinfo.md)

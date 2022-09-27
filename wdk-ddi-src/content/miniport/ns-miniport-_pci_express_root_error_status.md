@@ -99,8 +99,8 @@ A **ULONG** representation of the contents of the **PCI_EXPRESS_ROOT_ERROR_STATU
 
 The **PCI_EXPRESS_ROOT_ERROR_STATUS** union is available in Windows Server 2008 and later versions of Windows.
 
-A **PCI_EXPRESS_ROOT_ERROR_STATUS** union is contained in the [PCI_EXPRESS_ROOTPORT_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability) structure.
+A **PCI_EXPRESS_ROOT_ERROR_STATUS** union is contained in the [PCI_EXPRESS_ROOTPORT_AER_CAPABILITY](../wdm/ns-wdm-_pci_express_rootport_aer_capability.md) structure.
 
 ## -see-also
 
-[PCI_EXPRESS_ROOTPORT_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability)
+[PCI_EXPRESS_ROOTPORT_AER_CAPABILITY](../wdm/ns-wdm-_pci_express_rootport_aer_capability.md)

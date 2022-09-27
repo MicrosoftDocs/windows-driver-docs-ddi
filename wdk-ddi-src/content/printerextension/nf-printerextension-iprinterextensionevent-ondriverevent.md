@@ -55,6 +55,6 @@ This method returns an **HRESULT** value.
 
 ## -see-also
 
-[IPrinterExtensionEvent](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionevent)
+[IPrinterExtensionEvent](./nn-printerextension-iprinterextensionevent.md)
 
-[IPrinterExtensionEventArgs](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs)
+[IPrinterExtensionEventArgs](./nn-printerextension-iprinterextensioneventargs.md)

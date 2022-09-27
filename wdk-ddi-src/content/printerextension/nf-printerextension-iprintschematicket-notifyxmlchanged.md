@@ -49,10 +49,10 @@ This method returns an **HRESULT** value.
 
 ## -remarks
 
-If the client retrieves the XML DOM object of the PrintTicket by calling [IPrintSchemaElement::XmlNode](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode), and makes direct modifications to the PrintTicket using XMLDOM APIs, then it is the responsibility of the client to call **IPrintSchemaTicket::NotifyXmlChanged** to notify the system that the PrintTicket content has been modified.
+If the client retrieves the XML DOM object of the PrintTicket by calling [IPrintSchemaElement::XmlNode](./nf-printerextension-iprintschemaelement-get_xmlnode.md), and makes direct modifications to the PrintTicket using XMLDOM APIs, then it is the responsibility of the client to call **IPrintSchemaTicket::NotifyXmlChanged** to notify the system that the PrintTicket content has been modified.
 
 ## -see-also
 
-[IPrintSchemaElement::XmlNode](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode)
+[IPrintSchemaElement::XmlNode](./nf-printerextension-iprintschemaelement-get_xmlnode.md)
 
-[IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
+[IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md)

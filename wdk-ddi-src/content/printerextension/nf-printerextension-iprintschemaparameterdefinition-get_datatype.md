@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-The **DataType** property gets the [PrintSchemaParameterDataType](/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintschemaparameterdatatype) enumerated value that indicates the expected data type for the Print Schema parameter.
+The **DataType** property gets the [PrintSchemaParameterDataType](./ne-printerextension-tagprintschemaparameterdatatype.md) enumerated value that indicates the expected data type for the Print Schema parameter.
 
 This property is read-only.
 
@@ -57,6 +57,6 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 ## -see-also
 
-[IPrintSchemaParameterDefinition](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition)
+[IPrintSchemaParameterDefinition](./nn-printerextension-iprintschemaparameterdefinition.md)
 
-[PrintSchemaParameterDataType](/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintschemaparameterdatatype)
+[PrintSchemaParameterDataType](./ne-printerextension-tagprintschemaparameterdatatype.md)

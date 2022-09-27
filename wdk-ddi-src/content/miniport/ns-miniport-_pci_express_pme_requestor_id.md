@@ -75,8 +75,8 @@ A USHORT representation of the contents of the **PCI_EXPRESS_PME_REQUESTOR_ID** 
 
 The **PCI_EXPRESS_PME_REQUESTOR_ID** structure is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_PME_REQUESTOR_ID structure is contained in the **PMERequestorId** member of the [PCI_EXPRESS_ROOT_STATUS_REGISTER](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_root_status_register) structure.
+A PCI_EXPRESS_PME_REQUESTOR_ID structure is contained in the **PMERequestorId** member of the [PCI_EXPRESS_ROOT_STATUS_REGISTER](../ntddk/ns-ntddk-_pci_express_root_status_register.md) structure.
 
 ## -see-also
 
-[PCI_EXPRESS_ROOT_STATUS_REGISTER](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_root_status_register)
+[PCI_EXPRESS_ROOT_STATUS_REGISTER](../ntddk/ns-ntddk-_pci_express_root_status_register.md)

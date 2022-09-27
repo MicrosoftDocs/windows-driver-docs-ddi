@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-The **KsPropertyHandlerWithAllocator** performs the same handling as [KsPropertyHandler](/windows-hardware/drivers/ddi/ks/nf-ks-kspropertyhandler), with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters. If used, the filter may need to free the buffer in some nonconventional manner. IRP_BUFFERED_IO and IRP_DEALLOCATE_BUFFER flags are not set when using a custom allocator.
+The **KsPropertyHandlerWithAllocator** performs the same handling as [KsPropertyHandler](./nf-ks-kspropertyhandler.md), with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters. If used, the filter may need to free the buffer in some nonconventional manner. IRP_BUFFERED_IO and IRP_DEALLOCATE_BUFFER flags are not set when using a custom allocator.
 
 ## -parameters
 
@@ -77,6 +77,6 @@ On 64-bit platforms, if the *PropertyItemSize* parameter is not a multiple of 8,
 
 ## -see-also
 
-[KsFastPropertyHandler](/windows-hardware/drivers/ddi/ks/nf-ks-ksfastpropertyhandler)
+[KsFastPropertyHandler](./nf-ks-ksfastpropertyhandler.md)
 
-[KsPropertyHandler](/windows-hardware/drivers/ddi/ks/nf-ks-kspropertyhandler)
+[KsPropertyHandler](./nf-ks-kspropertyhandler.md)

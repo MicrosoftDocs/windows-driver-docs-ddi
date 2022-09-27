@@ -57,6 +57,6 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 ## -see-also
 
-[IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities)
+[IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md)
 
-[IPrintSchemaPageImageableSize](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapageimageablesize)
+[IPrintSchemaPageImageableSize](./nn-printerextension-iprintschemapageimageablesize.md)

@@ -57,7 +57,7 @@ The **DUMMYSTRUCTNAME** structure.
 
 ### -field DUMMYSTRUCTNAME.PMERequestorId
 
-A [PCI_EXPRESS_PME_REQUESTOR_ID](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_pme_requestor_id) structure that describes the power management event (PME) requester identifier of the last PME requester.
+A [PCI_EXPRESS_PME_REQUESTOR_ID](../ntddk/ns-ntddk-_pci_express_pme_requestor_id.md) structure that describes the power management event (PME) requester identifier of the last PME requester.
 
 ### -field DUMMYSTRUCTNAME.PMEStatus
 
@@ -79,10 +79,10 @@ A **ULONG** representation of the contents of the **PCI_EXPRESS_ROOT_STATUS_REGI
 
 The **PCI_EXPRESS_ROOT_STATUS_REGISTER** union is available in Windows Server 2008 and later versions of Windows.
 
-A **PCI_EXPRESS_ROOT_STATUS_REGISTER** union is contained in the [PCI_EXPRESS_CAPABILITY](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability) structure.
+A **PCI_EXPRESS_ROOT_STATUS_REGISTER** union is contained in the [PCI_EXPRESS_CAPABILITY](../ntddk/ns-ntddk-_pci_express_capability.md) structure.
 
 ## -see-also
 
-[PCI_EXPRESS_CAPABILITY](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability)
+[PCI_EXPRESS_CAPABILITY](../ntddk/ns-ntddk-_pci_express_capability.md)
 
-[PCI_EXPRESS_PME_REQUESTOR_ID](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_pme_requestor_id)
+[PCI_EXPRESS_PME_REQUESTOR_ID](../ntddk/ns-ntddk-_pci_express_pme_requestor_id.md)

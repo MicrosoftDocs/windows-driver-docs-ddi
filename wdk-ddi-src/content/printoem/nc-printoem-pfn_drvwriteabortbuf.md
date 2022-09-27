@@ -43,9 +43,9 @@ api_name:
 
 The **DrvWriteAbortBuf** function is obsolete.
 
-Windows 2000 and later Unidrv render plug-ins should use [IPrintOemDriverUni::DrvWriteAbortBuf](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwriteabortbuf).
+Windows 2000 and later Unidrv render plug-ins should use [IPrintOemDriverUni::DrvWriteAbortBuf](../prcomoem/nf-prcomoem-iprintoemdriveruni-drvwriteabortbuf.md).
 
-This function pointer prototype defines the type of the **DrvWriteAbortBuf** member of the [DRVPROCS](/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs) structure.
+This function pointer prototype defines the type of the **DrvWriteAbortBuf** member of the [DRVPROCS](./ns-printoem-_drvprocs.md) structure.
 
 ## -parameters
 

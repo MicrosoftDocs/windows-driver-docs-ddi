@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-Gets the [IPrinterExtensionRequest](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionrequest) object for the current event.
+Gets the [IPrinterExtensionRequest](./nn-printerextension-iprinterextensionrequest.md) object for the current event.
 
 This interface is used to complete or cancel the event.
 
@@ -59,6 +59,6 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 ## -see-also
 
-[IPrinterExtensionEventArgs](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs)
+[IPrinterExtensionEventArgs](./nn-printerextension-iprinterextensioneventargs.md)
 
-[IPrinterExtensionRequest](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionrequest)
+[IPrinterExtensionRequest](./nn-printerextension-iprinterextensionrequest.md)

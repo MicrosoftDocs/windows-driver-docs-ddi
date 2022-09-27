@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-Gets a count of the number of [IPrinterExtensionContext](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext) objects in the collection.
+Gets a count of the number of [IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md) objects in the collection.
 
 This property is read-only.
 
@@ -57,6 +57,6 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 ## -see-also
 
-[IPrinterExtensionContext](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext)
+[IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md)
 
-[IPrinterExtensionContextCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection)
+[IPrinterExtensionContextCollection](./nn-printerextension-iprinterextensioncontextcollection.md)

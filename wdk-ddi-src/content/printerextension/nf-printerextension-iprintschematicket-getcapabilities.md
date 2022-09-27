@@ -41,13 +41,13 @@ api_name:
 
 ## -description
 
-Gets an [IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities) object that represents the printer capabilities based on the current settings of this [IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket) object.
+Gets an [IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md) object that represents the printer capabilities based on the current settings of this [IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md) object.
 
 ## -parameters
 
 ### -param ppCapabilities
 
-The returned [IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities) object.
+The returned [IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md) object.
 
 ## -returns
 
@@ -55,16 +55,16 @@ This method returns an **HRESULT** value.
 
 ## -remarks
 
-Because this method retrieves a new PrintCapabilities document every time it is invoked, it is recommended that you invoke this method only when the [IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket) object has been modified.
+Because this method retrieves a new PrintCapabilities document every time it is invoked, it is recommended that you invoke this method only when the [IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md) object has been modified.
 
 ## -see-also
 
-[IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities)
+[IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md)
 
-[IPrintSchemaElement::XmlNode](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode)
+[IPrintSchemaElement::XmlNode](./nf-printerextension-iprintschemaelement-get_xmlnode.md)
 
-[IPrintSchemaFeature::SelectedOption](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemafeature-get_selectedoption)
+[IPrintSchemaFeature::SelectedOption](./nf-printerextension-iprintschemafeature-get_selectedoption.md)
 
-[IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
+[IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md)
 
 [IPrintSchemaTicket::put_JobCopiesAllDocuments](/windows/win32/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize)

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This structure is a CIP data format which is used by [CMP_CONNECT_VER2](/windows-hardware/drivers/ddi/61883/ns-61883-_cmp_connect_ver2).
+This structure is a CIP data format which is used by [CMP_CONNECT_VER2](./ns-61883-_cmp_connect_ver2.md).
 
 ## -struct-fields
 
@@ -74,4 +74,4 @@ This structure is a CIP data format which is used by [CMP_CONNECT_VER2](/windows
 
 ## -see-also
 
-- [AV_61883_REQUEST](/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request)
+- [AV_61883_REQUEST](./ns-61883-_av_61883_request.md)

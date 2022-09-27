@@ -59,6 +59,6 @@ This method returns an **HRESULT** value.
 
 ## -see-also
 
-[IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities)
+[IPrintSchemaCapabilities](./nn-printerextension-iprintschemacapabilities.md)
 
-[IPrintSchemaOptionCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoptioncollection)
+[IPrintSchemaOptionCollection](./nn-printerextension-iprintschemaoptioncollection.md)

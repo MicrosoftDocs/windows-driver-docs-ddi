@@ -59,15 +59,15 @@ This method returns the appropriate **HRESULT** value.
 
 ## -remarks
 
-Invoking this method causes the events for status change to the jobs to be fired. The [IPrinterQueueViewEvent::OnChanged](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueviewevent-onchanged) event method returns the live queue in response, using the specified maximum range size.
+Invoking this method causes the events for status change to the jobs to be fired. The [IPrinterQueueViewEvent::OnChanged](./nf-printerextension-iprinterqueueviewevent-onchanged.md) event method returns the live queue in response, using the specified maximum range size.
 
 > [!NOTE]
 > *ulViewSize* must be specified as a value less than or equal to 25. If the caller specifies a size which exceeds 25,  this method will return E_INVALIDARG.
 
 ## -see-also
 
-[IPrinterQueue2::GetPrinterQueueView](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueue2-getprinterqueueview)
+[IPrinterQueue2::GetPrinterQueueView](./nf-printerextension-iprinterqueue2-getprinterqueueview.md)
 
-[IPrinterQueueView](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueview)
+[IPrinterQueueView](./nn-printerextension-iprinterqueueview.md)
 
-[IPrinterQueueViewEvent::OnChanged](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueviewevent-onchanged)
+[IPrinterQueueViewEvent::OnChanged](./nf-printerextension-iprinterqueueviewevent-onchanged.md)

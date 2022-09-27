@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **OEMUIPSPARAM** structure is passed to a user interface plug-in's [IPrintOemUI::DevicePropertySheets](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets) and [IPrintOemUI::DocumentPropertySheets](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets) methods.
+The **OEMUIPSPARAM** structure is passed to a user interface plug-in's [IPrintOemUI::DevicePropertySheets](../prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets.md) and [IPrintOemUI::DocumentPropertySheets](../prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets.md) methods.
 
 ## -struct-fields
 
@@ -95,15 +95,15 @@ Not used.
 
 ### -field pOEMUserData
 
-Pointer, supplied by user interface plug-in, to a location containing private information. This pointer is returned to the plug-in's [_CPSUICALLBACK](/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback)-typed callback function when a property sheet item has changed.
+Pointer, supplied by user interface plug-in, to a location containing private information. This pointer is returned to the plug-in's [_CPSUICALLBACK](../compstui/nc-compstui-_cpsuicallback.md)-typed callback function when a property sheet item has changed.
 
 ### -field dwFlags
 
 **For calls to IPrintOemUI::DocumentPropertySheets**  
-Contains the contents of the **fMode** member of the **DOCUMENTPROPERTYHEADER** structure received by the printer driver's [DrvDocumentPropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets) function.
+Contains the contents of the **fMode** member of the **DOCUMENTPROPERTYHEADER** structure received by the printer driver's [DrvDocumentPropertySheets](../winddiui/nf-winddiui-drvdocumentpropertysheets.md) function.
 
 **For calls to IPrintOemUI::DevicePropertySheets**  
-Contains the contents of the **Flags** member of the **DEVICEPROPERTYHEADER** structure received by the printer driver's [DrvDevicePropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicepropertysheets) function.
+Contains the contents of the **Flags** member of the **DEVICEPROPERTYHEADER** structure received by the printer driver's [DrvDevicePropertySheets](../winddiui/nf-winddiui-drvdevicepropertysheets.md) function.
 
 ### -field pOemEntry
 
@@ -111,12 +111,12 @@ Reserved for system use.
 
 ## -see-also
 
-[DrvDevicePropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicepropertysheets)
+[DrvDevicePropertySheets](../winddiui/nf-winddiui-drvdevicepropertysheets.md)
 
-[DrvDocumentPropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets)
+[DrvDocumentPropertySheets](../winddiui/nf-winddiui-drvdocumentpropertysheets.md)
 
-[IPrintOemUI::DevicePropertySheets](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets)
+[IPrintOemUI::DevicePropertySheets](../prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets.md)
 
-[IPrintOemUI::DocumentPropertySheets](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets)
+[IPrintOemUI::DocumentPropertySheets](../prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets.md)
 
-[_CPSUICALLBACK](/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback)
+[_CPSUICALLBACK](../compstui/nc-compstui-_cpsuicallback.md)

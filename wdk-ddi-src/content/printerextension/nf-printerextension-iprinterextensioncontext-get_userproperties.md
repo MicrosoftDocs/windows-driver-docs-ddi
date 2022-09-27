@@ -59,6 +59,6 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 ## -see-also
 
-[IPrinterExtensionContext](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext)
+[IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md)
 
-[IPrinterPropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag)
+[IPrinterPropertyBag](./nn-printerextension-iprinterpropertybag.md)

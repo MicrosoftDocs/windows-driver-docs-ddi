@@ -57,4 +57,4 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 ## -see-also
 
-[IPrintSchemaPageMediaSizeOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapagemediasizeoption)
+[IPrintSchemaPageMediaSizeOption](./nn-printerextension-iprintschemapagemediasizeoption.md)

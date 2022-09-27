@@ -59,4 +59,4 @@ This method returns an **HRESULT** value.
 
 ## -see-also
 
-[IPrinterPropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag)
+[IPrinterPropertyBag](./nn-printerextension-iprinterpropertybag.md)
