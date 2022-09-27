@@ -2,9 +2,8 @@
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.GetSupportedVersions
 title: IPrintOemPrintTicketProvider::GetSupportedVersions (prcomoem.h)
 description: The IPrintOemPrintTicketProvider::GetSupportedVersions method retrieves major versions of the print schemas that are supported by the plug-in provider.
-old-location: print\iprintoemprintticketprovider_getsupportedversions.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/22/2022
 keywords: ["IPrintOemPrintTicketProvider::GetSupportedVersions"]
 ms.keywords: GetSupportedVersions, GetSupportedVersions method [Print Devices], GetSupportedVersions method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],GetSupportedVersions method, IPrintOemPrintTicketProvider.GetSupportedVersions, IPrintOemPrintTicketProvider::GetSupportedVersions, prcomoem/IPrintOemPrintTicketProvider::GetSupportedVersions, print.iprintoemprintticketprovider_getsupportedversions, print_ticket-package_f20858fb-a11d-45b4-a8db-6a492b761cfc.xml
 req.header: prcomoem.h
@@ -40,47 +39,38 @@ api_name:
  - IPrintOemPrintTicketProvider::GetSupportedVersions
 ---
 
-# IPrintOemPrintTicketProvider::GetSupportedVersions
-
-
 ## -description
 
-The <code>IPrintOemPrintTicketProvider::GetSupportedVersions</code> method retrieves major versions of the print schemas that are supported by the plug-in provider.
+The **IPrintOemPrintTicketProvider::GetSupportedVersions** method retrieves major versions of the print schemas that are supported by the plug-in provider.
 
 ## -parameters
 
 ### -param hPrinter [in]
 
-
 A handle to the print device.
 
 ### -param ppVersions [out]
-
 
 A pointer to a variable that receives the address of the first element of an array of version numbers. Version numbers in the array can appear in any order. For more information about this parameter, see the following Remarks section.
 
 ### -param cVersions [out]
 
-
-A pointer to a variable that receives the number of elements in the array that is pointed to by *<i>ppVersions</i>.
+A pointer to a variable that receives the number of elements in the array that is pointed to by **ppVersions*.
 
 ## -returns
 
-<code>IPrintOemPrintTicketProvider::GetSupportedVersions</code> should return S_OK if the operation succeeds. Otherwise, this method should return a standard COM error code.
+**IPrintOemPrintTicketProvider::GetSupportedVersions** should return S_OK if the operation succeeds. Otherwise, this method should return a standard COM error code.
 
 ## -remarks
 
-<code>IPrintOemPrintTicketProvider::GetSupportedVersions</code> returns the major version numbers of the print schemas that are supported by the provider interface. (The only currently defined version number is 1.) Providers can omit intermediate versions.
+**IPrintOemPrintTicketProvider::GetSupportedVersions** returns the major version numbers of the print schemas that are supported by the provider interface. (The only currently defined version number is 1.) Providers can omit intermediate versions.
 
-The plug-in is responsible for allocating the array memory that is pointed to by the <i>ppVersions</i> parameter. The plug-in should allocate this memory by using the <b>CoTaskMemAlloc</b> function (described in the Microsoft Windows SDK documentation), but it is not responsible for freeing this memory.
+The plug-in is responsible for allocating the array memory that is pointed to by the *ppVersions* parameter. The plug-in should allocate this memory by using the **CoTaskMemAlloc** function (described in the Microsoft Windows SDK documentation), but it is not responsible for freeing this memory.
 
-<code>IPrintOemPrintTicketProvider::GetSupportedVersions</code> can be called before the <a href="/previous-versions/windows/hardware/drivers/ff553151(v=vs.85)">IPrintOemPrintTicketProvider::BindPrinter</a> method is called. As a result, the OEM plug-in provider should not close the printer handle that is associated with the <i>hPrinter</i> parameter.
+**IPrintOemPrintTicketProvider::GetSupportedVersions** can be called before the [IPrintOemPrintTicketProvider::BindPrinter](./nf-prcomoem-iprintoemprintticketprovider-bindprinter.md) method is called. As a result, the OEM plug-in provider should not close the printer handle that is associated with the *hPrinter* parameter.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemprintticketprovider">IPrintOemPrintTicketProvider</a>
+[IPrintOemPrintTicketProvider](./nn-prcomoem-iprintoemprintticketprovider.md)
 
-
-
-<a href="/previous-versions/windows/hardware/drivers/ff553151(v=vs.85)">IPrintOemPrintTicketProvider::BindPrinter</a>
-
+[IPrintOemPrintTicketProvider::BindPrinter](./nf-prcomoem-iprintoemprintticketprovider-bindprinter.md)

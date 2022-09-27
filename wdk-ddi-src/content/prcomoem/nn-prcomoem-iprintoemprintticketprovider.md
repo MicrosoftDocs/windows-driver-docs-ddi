@@ -3,7 +3,7 @@ UID: NN:prcomoem.IPrintOemPrintTicketProvider
 title: IPrintOemPrintTicketProvider (prcomoem.h)
 description: This section describes the methods that are defined for the IPrintOemPrintTicketProvider COM interface.
 tech.root: print
-ms.date: 06/11/2021
+ms.date: 08/22/2022
 keywords: ["IPrintOemPrintTicketProvider interface"]
 ms.keywords: IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], IPrintOemPrintTicketProvider interface [Print Devices],described, prcomoem/IPrintOemPrintTicketProvider, print.iprintoemprintticketprovider_interface, print_ticket-package_73ff5919-5d89-4fe1-b10f-03f2b14b716f.xml
 req.header: prcomoem.h
@@ -38,8 +38,6 @@ api_location:
 api_name:
  - IPrintOemPrintTicketProvider
 ---
-
-# IPrintOemPrintTicketProvider interface
 
 ## -description
 

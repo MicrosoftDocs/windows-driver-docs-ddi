@@ -169,7 +169,7 @@ The zero-based identification number of the video present target in a path of a 
 
 ### -field MiracastEncodeChunkCompleted.ChunkInfo
 
-A [**DXGK_MIRACAST_CHUNK_INFO**](../d3dukmdt/ns-d3dukmdt-dxgk_miracast_chunk_info.md) encode chunk information structure that the display miniport driver wants to report. Supported starting with Windows 8.1.
+A [**DXGK_MIRACAST_CHUNK_INFO**](..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md) encode chunk information structure that the display miniport driver wants to report. Supported starting with Windows 8.1.
 
 ### -field MiracastEncodeChunkCompleted.pPrivateDriverData
 
@@ -452,7 +452,7 @@ Depending on the value in the **InterruptType** member, the display miniport dri
 
 [**DXGK_MIRACAST_CAPS**](..\dispmprt\ns-dispmprt-_dxgk_miracast_caps.md)
 
-[**DXGK_MIRACAST_CHUNK_INFO**](../d3dukmdt/ns-d3dukmdt-dxgk_miracast_chunk_info.md)
+[**DXGK_MIRACAST_CHUNK_INFO**](..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md)
 
 [**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO**](..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_vsync_info.md)
 

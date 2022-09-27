@@ -3,7 +3,7 @@ UID: NC:d3dkmddi.DXGKCB_ISFEATUREENABLED
 title: DXGKCB_ISFEATUREENABLED
 description: Queries for the enabled state of the feature.
 tech.root: display
-ms.date: 10/13/2021
+ms.date: 09/08/2022
 keywords: ["DXGKCB_ISFEATUREENABLED callback function"]
 req.header: d3dkmddi.h
 req.include-header: 
@@ -45,7 +45,7 @@ dev_langs:
 
 ## -description
 
-A kernel-mode display miniport driver calls **DXGKCB_ISFEATUREENABLED** to query for the enabled state of a feature.
+A kernel-mode display miniport driver (KMD) calls **DXGKCB_ISFEATUREENABLED** to query whether the OS will permit it to enable support for a feature.
 
 ## -parameters
 
@@ -59,12 +59,16 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropria
 
 ## -remarks
 
-The **Enabled** member of [**DXGKARGCB_ISFEATUREENABLED**](ns-d3dkmddi-_dxgkargcb_isfeatureenabled.md) is set to TRUE when the OS allows the driver to enable the feature, and is set to FALSE to instruct the driver to not enable the feature.
+Starting in WDDM 2.9, drivers can call [**DXGKCB_QUERYFEATURESUPPORT**](nc-d3dkmddi-dxgkcb_queryfeaturesupport.md) to provide additional information to the OS.
 
-*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the appropriate members of [**DXGKARGCB_ISFEATUREENABLED**](ns-d3dkmddi-_dxgkargcb_isfeatureenabled.md) and then call **DxgkCbIsFeatureEnabled** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
+The OS sets the **Enabled** member of [**DXGKARGCB_ISFEATUREENABLED**](ns-d3dkmddi-_dxgkargcb_isfeatureenabled.md) to TRUE when it allows the driver to enable support for the queried feature. **Enabled** is set to FALSE to instruct the driver to not enable its support for the feature.
+
+**DXGKCB_*XXX*** functions are implemented by *Dxgkrnl*. To use this callback function, set the appropriate members of [**DXGKARGCB_ISFEATUREENABLED**](ns-d3dkmddi-_dxgkargcb_isfeatureenabled.md) and then call **DxgkCbIsFeatureEnabled** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
 ## -see-also
 
 [**DXGKARGCB_ISFEATUREENABLED**](ns-d3dkmddi-_dxgkargcb_isfeatureenabled.md)
+
+[**DXGKCB_QUERYFEATURESUPPORT**](nc-d3dkmddi-dxgkcb_queryfeaturesupport.md)
 
 [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md)

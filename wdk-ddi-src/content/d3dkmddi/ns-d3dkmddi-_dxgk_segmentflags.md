@@ -1,9 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGK_SEGMENTFLAGS
-title: _DXGK_SEGMENTFLAGS (d3dkmddi.h)
+title: DXGK_SEGMENTFLAGS (d3dkmddi.h)
 description: The DXGK_SEGMENTFLAGS structure identifies properties for a segment that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_segmentflags.htm
-ms.date: 05/10/2018
+ms.date: 08/25/2022
 keywords: ["DXGK_SEGMENTFLAGS structure"]
 ms.keywords: DXGK_SEGMENTFLAGS, DXGK_SEGMENTFLAGS structure [Display Devices], DmStructs_a7239928-eb4e-42d0-8ced-9e37d28e9464.xml, _DXGK_SEGMENTFLAGS, d3dkmddi/DXGK_SEGMENTFLAGS, display.dxgk_segmentflags
 req.header: d3dkmddi.h
@@ -43,169 +43,167 @@ api_name:
  - DXGK_SEGMENTFLAGS
 ---
 
-# _DXGK_SEGMENTFLAGS structure
-
+# DXGK_SEGMENTFLAGS structure
 
 ## -description
 
-The DXGK_SEGMENTFLAGS structure identifies properties for a segment that the driver provides through a call to its <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function.
+The **DXGK_SEGMENTFLAGS** structure identifies properties for a segment that the driver provides through a call to its [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function.
 
 ## -struct-fields
 
-### -field Aperture [out]
+### -field Aperture
 
-A UINT value that specifies whether the segment is an aperture segment instead of a memory segment. An aperture segment does not have physical pages that can hold content for an allocation. When the video memory manager pages an allocation into a memory segment, the memory manager transfers the content of the allocation from the system memory backing store to the segment location. When the video memory manager pages an allocation into an aperture segment, the memory manager maps the physical pages of the allocation backing store into the segment. 
+[out] A UINT value that specifies whether the segment is an aperture segment instead of a memory segment. An aperture segment does not have physical pages that can hold content for an allocation. When the video memory manager pages an allocation into a memory segment, the memory manager transfers the content of the allocation from the system memory backing store to the segment location. When the video memory manager pages an allocation into an aperture segment, the memory manager maps the physical pages of the allocation backing store into the segment.
 
-If the driver specifies this member, it must also implement the map-aperture-segment and unmap-aperture-segment operation types for its <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_buildpagingbuffer">DxgkDdiBuildPagingBuffer</a> function. 
+If the driver specifies this member, it must also implement the map-aperture-segment and unmap-aperture-segment operation types for its [**DxgkDdiBuildPagingBuffer**](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) function.
 
-Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
+Setting this member is equivalent to setting the first bit of the 32-bit **Value** member (0x00000001).
 
-### -field Agp [out]
+### -field Agp
 
-A UINT value that specifies whether the segment is an <a href="/windows-hardware/drivers/display/agp-support">AGP</a>-type aperture segment, which uses a portion of the AGP aperture that the chipset exposes. The video memory manager allocates the page for the underlying aperture and communicates with the graphic address remapping table (GART) driver to map and unmap memory for the aperture. Because only one AGP segment can exist, the driver should not specify the <b>Agp</b> bit-field flag with any other DXGK_SEGMENTFLAGS bit-field flags. 
+[out] A UINT value that specifies whether the segment is an [AGP**](/windows-hardware/drivers/display/agp-support)-type aperture segment, which uses a portion of the AGP aperture that the chipset exposes. The video memory manager allocates the page for the underlying aperture and communicates with the graphic address remapping table (GART) driver to map and unmap memory for the aperture. Because only one AGP segment can exist, the driver should not specify the **Agp** bit-field flag with any other DXGK_SEGMENTFLAGS bit-field flags.
 
-Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
+Setting this member is equivalent to setting the second bit of the 32-bit **Value** member (0x00000002).
 
-### -field CpuVisible [out]
+### -field CpuVisible
 
-A UINT value that specifies whether the memory segment is accessible to the CPU at the address that is specified by the <b>CpuTranslatedAddress</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_segmentdescriptor">DXGK_SEGMENTDESCRIPTOR</a> structure that describes the memory segment.
+[out] A UINT value that specifies whether the memory segment is accessible to the CPU at the address that is specified by the **CpuTranslatedAddress** member of the [**DXGK_SEGMENTDESCRIPTOR**](ns-d3dkmddi-_dxgk_segmentdescriptor.md) structure that describes the memory segment.
 
- This member has no meaning for an aperture segment, including the AGP-type aperture segment. The only exception occurs when the  user-mode display driver has not set up an alternate virtual address for a primary allocation (that is, when the driver has not set <b>UseAlternateVA</b> in the <b>Flags</b> member of the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddicb_lockflags">D3DDDICB_LOCKFLAGS</a> structure during a call to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a> function).
+ This member has no meaning for an aperture segment, including the AGP-type aperture segment. The only exception occurs when the  user-mode display driver has not set up an alternate virtual address for a primary allocation (that is, when the driver has not set **UseAlternateVA** in the **Flags** member of the [**D3DDDICB_LOCKFLAGS**](../d3dukmdt/ns-d3dukmdt-_d3dddicb_lockflags.md) structure during a call to the [**pfnLockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb.md) function).
 
 See Remarks for more info.
 
-Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
+Setting this member is equivalent to setting the third bit of the 32-bit **Value** member (0x00000004).
 
-### -field UseBanking [out]
+### -field UseBanking
 
-A UINT value that specifies whether the segment is divided into banks that the driver uses to provide hints to the video memory manager about the placement of allocations within the segment. The driver should also specify valid bank information in the <b>NbOfBanks</b> and <b>pBankRangeTable</b> members of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_segmentdescriptor">DXGK_SEGMENTDESCRIPTOR</a> structure that describes the segment.
+[out] A UINT value that specifies whether the segment is divided into banks that the driver uses to provide hints to the video memory manager about the placement of allocations within the segment. The driver should also specify valid bank information in the **NbOfBanks** and **pBankRangeTable** members of the [**DXGK_SEGMENTDESCRIPTOR**](ns-d3dkmddi-_dxgk_segmentdescriptor.md) structure that describes the segment.
 
-Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
+Setting this member is equivalent to setting the fourth bit of the 32-bit **Value** member (0x00000008).
 
-### -field CacheCoherent [out]
+### -field CacheCoherent
 
-A UINT value that specifies whether the aperture segment can maintain cache coherency with cacheable pages that are mapped into the aperture. This member can be set only with setting the <b>Aperture</b> member (that is, <b>CacheCoherent</b> has no meaning for a memory segment).
+[out] A UINT value that specifies whether the aperture segment can maintain cache coherency with cacheable pages that are mapped into the aperture. This member can be set only with setting the **Aperture** member (that is, **CacheCoherent** has no meaning for a memory segment).
 
-Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Value</b> member (0x00000010).
+Setting this member is equivalent to setting the fifth bit of the 32-bit **Value** member (0x00000010).
 
-### -field PitchAlignment [out]
+### -field PitchAlignment
 
-A UINT value that specifies whether an allocation that is mapped into the segment must be pitch aligned. For this type of segment, the video memory manager uses the <b>Size</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationinfo">DXGK_ALLOCATIONINFO</a> structure for the allocation to allocate a backing store for the allocation. However, the video memory manager uses the <b>PitchAlignedSize</b> member of DXGK_ALLOCATIONINFO to allocate resources for the segment. An allocation that is targeted for this type of segment typically has a different size for the backing store and for the segment. When the backing-store size does not match the segment size, the driver must determine how to correctly move the data in the allocation. This type of segment cannot be used for eviction. 
+[out] A UINT value that specifies whether an allocation that is mapped into the segment must be pitch aligned. For this type of segment, the video memory manager uses the **Size** member of the [**DXGK_ALLOCATIONINFO**](ns-d3dkmddi-_dxgk_allocationinfo.md) structure for the allocation to allocate a backing store for the allocation. However, the video memory manager uses the **PitchAlignedSize** member of DXGK_ALLOCATIONINFO to allocate resources for the segment. An allocation that is targeted for this type of segment typically has a different size for the backing store and for the segment. When the backing-store size does not match the segment size, the driver must determine how to correctly move the data in the allocation. This type of segment cannot be used for eviction.
 
-Setting this member is equivalent to setting the sixth bit of the 32-bit <b>Value</b> member (0x00000020).
+Setting this member is equivalent to setting the sixth bit of the 32-bit **Value** member (0x00000020).
 
-### -field PopulatedFromSystemMemory [out]
+### -field PopulatedFromSystemMemory
 
-A UINT value that specifies whether the memory segment is actually populated from system memory that the driver allocated during initialization. If the memory segment is populated from system memory that the BIOS reserved and is not accessible to the operating system (that is, the operating system does not count this system memory when the operating system reports total amount of system memory), the driver should not set this flag. This flag is invalid and ignored on aperture segments.
+[out] A UINT value that specifies whether the memory segment is actually populated from system memory that the driver allocated during initialization. If the memory segment is populated from system memory that the BIOS reserved and is not accessible to the operating system (that is, the operating system does not count this system memory when the operating system reports total amount of system memory), the driver should not set this flag. This flag is invalid and ignored on aperture segments.
 
-Setting this member is equivalent to setting the seventh bit of the 32-bit <b>Value</b> member (0x00000040).
+Setting this member is equivalent to setting the seventh bit of the 32-bit **Value** member (0x00000040).
 
-### -field PreservedDuringStandby [out]
+### -field PreservedDuringStandby
 
-A UINT value that specifies whether the segment is preserved in a transition to a standby system power state.
+[out] A UINT value that specifies whether the segment is preserved in a transition to a standby system power state.
 
 For more information on power transition options, see Remarks.
 
-Setting this member is equivalent to setting the eighth bit of the 32-bit <b>Value</b> member (0x00000080).
+Setting this member is equivalent to setting the eighth bit of the 32-bit **Value** member (0x00000080).
 
 Supported starting with Windows 8.
 
-### -field PreservedDuringHibernate [out]
+### -field PreservedDuringHibernate
 
-A UINT value that specifies whether the segment is preserved in a transition to a hibernate system power state.
+[out] A UINT value that specifies whether the segment is preserved in a transition to a hibernate system power state. Do not set this flag unless the **PreservedDuringStandby** member is also set. For more information on power transition options, see Remarks.
 
-<div class="alert"><b>Note</b>  Do not set this flag unless the <b>PreservedDuringStandby</b> member is also set.</div>
-<div> </div>
-For more information on power transition options, see Remarks.
-
-Setting this member is equivalent to setting the ninth bit of the 32-bit <b>Value</b> member (0x00000100).
+Setting this member is equivalent to setting the ninth bit of the 32-bit **Value** member (0x00000100).
 
 Supported starting with Windows 8.
 
-### -field PartiallyPreservedDuringHibernate [out]
+### -field PartiallyPreservedDuringHibernate
 
-A UINT value that specifies whether the segment is  partially preserved in a transition to a hibernate system power state. 
+[out] A UINT value that specifies whether the segment is  partially preserved in a transition to a hibernate system power state. Do not set this flag unless the **PreservedDuringStandby** member is also set. For more information on power transition options, see Remarks.
 
-<div class="alert"><b>Note</b>  Do not set this flag unless the <b>PreservedDuringStandby</b> member is also set.</div>
-<div> </div>
-For more information on power transition options, see Remarks.
-
-Setting this member is equivalent to setting the tenth bit of the 32-bit <b>Value</b> member (0x00000200).
+Setting this member is equivalent to setting the tenth bit of the 32-bit **Value** member (0x00000200).
 
 Supported starting with Windows 8.
 
-### -field DirectFlip [out]
+### -field DirectFlip
 
-A UINT value that specifies whether a segment supports Direct Flip allocations. In this case, the driver must ensure that Direct Flip allocations can be pinned and scanned out from this segment.
+[out] A UINT value that specifies whether a segment supports Direct Flip allocations. In this case, the driver must ensure that Direct Flip allocations can be pinned and scanned out from this segment.
 
-Setting this member is equivalent to setting the eleventh bit of the 32-bit <b>Value</b> member (0x00000400).
+Setting this member is equivalent to setting the eleventh bit of the 32-bit **Value** member (0x00000400).
 
 Supported starting with Windows 8.
 
-### -field Use64KBPages [out]
+### -field Use64KBPages
 
-When set, the GPU memory segment supports 64 KB pages. Otherwise, 4 KB pages are supported. When the driver sets the cap and an allocation can be paged-in to the segment, the allocation alignment, returned by the kernel mode driver from <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationinfo">DXGK_ALLOCATIONINFO</a>, must be multiple a of 64 KB.
-
-Supported starting with Windows 10.
-
-### -field ReservedSysMem [out]
-
-Reserved for system use and should not be set by the kernel mode driver.
+[out] When set, the GPU memory segment supports 64 KB pages. Otherwise, 4 KB pages are supported. When the driver sets the cap and an allocation can be paged-in to the segment, the allocation alignment, returned by the kernel mode driver from [**DXGK_ALLOCATIONINFO**](ns-d3dkmddi-_dxgk_allocationinfo.md), must be multiple a of 64 KB.
 
 Supported starting with Windows 10.
 
-### -field SupportsCpuHostAperture [out]
+### -field ReservedSysMem
 
-When set, the segment can be mapped through the CPU host aperture. This flag cannot be used in combination with the <b>CpuVisible</b> flag.
-
-Supported starting with Windows 10.
-
-### -field SupportsCachedCpuHostAperture [out]
-
-When set, this indicates that the hardware supports CPU cache coherent CPU host aperture. Additionally, the <b>SupportsCpuHostAperture</b> flag must be set. The flag is typically set by the software GPU emulation drivers.
+[out] Reserved for system use and should not be set by the kernel mode driver.
 
 Supported starting with Windows 10.
 
-### -field ApplicationTarget [out]
+### -field SupportsCpuHostAperture
 
-When set, it indicates that this segment should be targeted by application budgets.
+[out] When set, the segment can be mapped through the CPU host aperture. This flag cannot be used in combination with the **CpuVisible** flag.
+
+Supported starting with Windows 10.
+
+### -field SupportsCachedCpuHostAperture
+
+[out] When set, this indicates that the hardware supports CPU cache coherent CPU host aperture. Additionally, the **SupportsCpuHostAperture** flag must be set. The flag is typically set by the software GPU emulation drivers.
+
+Supported starting with Windows 10.
+
+### -field ApplicationTarget
+
+[out] When set, it indicates that this segment should be targeted by application budgets.
 
 Supported starting with Windows 10.
 
 ### -field VprSupported
 
+[out] When set, indicates that Video Protected Region (VPR) is supported.
+
 ### -field VprPreservedDuringStandby
+
+[out] When set, indicates that content of VPRs is preserved during standby.
 
 ### -field EncryptedPagingSupported
 
+[out] When set, indicates that hardware-protected allocations are encrypted during paging.
+
 ### -field LocalBudgetGroup
+
+[out] When set, indicates that this segment counts against the local memory segment budget group.
 
 ### -field NonLocalBudgetGroup
 
-### -field Reserved [out]
+[out] When set, indicates that this segment counts against the non-local memory segment budget group.
 
-This member is reserved and should be set to zero.
+### -field Reserved
 
-[out] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 21 bits (0xFFFFF800) of the 32-bit <b>Value</b> member to zeros.
+[out] This member is reserved and should be set to zero.
 
-[out] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 22 bits (0xFFFFFC00) of the 32-bit <b>Value</b> member to zeros.
+### -field Value
 
-### -field Value [out]
-
-A member in the union that DXGK_SEGMENTFLAGS contains that can hold a 32-bit value that identifies properties of the segment.
+[out] A member in the union that DXGK_SEGMENTFLAGS contains that can hold a 32-bit value that identifies properties of the segment.
 
 ## -remarks
 
-The driver can specify properties of the segment by setting bits in the 32-bit <b>Value</b> member or by setting individual members of the structure in the union that DXGK_SEGMENTFLAGS contains.
+The driver can specify properties of the segment by setting bits in the 32-bit **Value** member or by setting individual members of the structure in the union that DXGK_SEGMENTFLAGS contains.
 
-Note that for an AGP-type aperture segment, the driver must exclusively set the <b>Agp</b> member of the structure in the union that DXGK_SEGMENTFLAGS contains. Although the AGP-type aperture segment is an aperture and visible to the CPU, if any other members are set, the adapter fails to initialize.
+Note that for an AGP-type aperture segment, the driver must exclusively set the **Agp** member of the structure in the union that DXGK_SEGMENTFLAGS contains. Although the AGP-type aperture segment is an aperture and visible to the CPU, if any other members are set, the adapter fails to initialize.
 
-In the special case where the allocation uses an aperture segment on a shared primary allocation (<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata">DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA</a>.<b>StandardAllocationType</b> is <b>D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE</b>), and <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationinfoflags">DXGK_ALLOCATIONINFOFLAGS</a>.<b>UseAlternateVA</b> is not set,  the driver should use a section-backed primary allocation (<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_vidmmcaps">DXGK_VIDMMCAPS</a>.<b>SectionBackedPrimary</b> is set) when the driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function is called. By using a section-backed primary you can avoid the limitations of <b>CpuVisible</b> for the aperture segment.
+In the special case where the allocation uses an aperture segment on a shared primary allocation ([**DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA**](ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata.md).**StandardAllocationType** is **D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE**), and [**DXGK_ALLOCATIONINFOFLAGS**](ns-d3dkmddi-_dxgk_allocationinfoflags.md).**UseAlternateVA** is not set,  the driver should use a section-backed primary allocation ([**DXGK_VIDMMCAPS**](ns-d3dkmddi-_dxgk_vidmmcaps.md).**SectionBackedPrimary** is set) when the driver's [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function is called. By using a section-backed primary you can avoid the limitations of **CpuVisible** for the aperture segment.
 
-You can avoid the limitations of <b>CpuVisible</b> for an aperture segment by using a shared, section-backed primary allocation. In this case, use an aperture segment on a shared primary allocation (<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata">DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA</a>.<b>StandardAllocationType</b> is <b>D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE</b>), do not set <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationinfoflags">DXGK_ALLOCATIONINFOFLAGS</a>.<b>UseAlternateVA</b>,  and use a section-backed primary allocation (set <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_vidmmcaps">DXGK_VIDMMCAPS</a>.<b>SectionBackedPrimary</b>) when the driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function is called. 
+You can avoid the limitations of **CpuVisible** for an aperture segment by using a shared, section-backed primary allocation. In this case, use an aperture segment on a shared primary allocation ([**DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA**](ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata.md).**StandardAllocationType** is **D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE**), do not set [**DXGK_ALLOCATIONINFOFLAGS**](ns-d3dkmddi-_dxgk_allocationinfoflags.md).**UseAlternateVA**,  and use a section-backed primary allocation (set [**DXGK_VIDMMCAPS**](ns-d3dkmddi-_dxgk_vidmmcaps.md).**SectionBackedPrimary**) when the driver's [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function is called.
 
-<h3><a id="optimized_standby_settings"></a><a id="OPTIMIZED_STANDBY_SETTINGS"></a>Optimized standby settings</h3>
-The combination of values for the <b>PreservedDuringStandby</b>, <b>PreservedDuringHibernate</b>, and  <b>PartiallyPreservedDuringHibernate</b> members determines whether a segment is purged of its content when the system enters a low-power (standby) system state, as follows.
+### Optimized standby settings
+
+The combination of values for the **PreservedDuringStandby**, **PreservedDuringHibernate**, and  **PartiallyPreservedDuringHibernate** members determines whether a segment is purged of its content when the system enters a low-power (standby) system state, as follows.
 
 |Preserved During Standby|Preserved During Hibernate|Partially Preserved During Hibernate|Standby State|Hibernate State|
 |--- |--- |--- |--- |--- |
@@ -218,39 +216,22 @@ The combination of values for the <b>PreservedDuringStandby</b>, <b>PreservedDur
 |0|0|1|invalid|invalid|
 |0|0|0|purged|purged|
 
+The operating system does not recognize combinations in this table that are marked "invalid".
 
-The operating system does not recognize combinations in this table that are marked "invalid."
-
-If the <a href="/windows-hardware/customize/power-settings/sleep-settings-hybrid-sleep">hybrid sleep</a> mode is enabled, the system acts as if it is hibernating: it purges segments that are not preserved during hibernate, even if it is going into a low-power state.
-
-
-The following are common combinations of member values.
+If the [hybrid sleep](/windows-hardware/customize/power-settings/sleep-settings-hybrid-sleep) mode is enabled, the system acts as if it is hibernating: it purges segments that are not preserved during hibernate, even if it is going into a low-power state.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo">DXGKARG_QUERYADAPTERINFO</a>
+[**DXGKARG_QUERYADAPTERINFO**](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)
 
+[**DXGK_ALLOCATIONINFO**](ns-d3dkmddi-_dxgk_allocationinfo.md)
 
+[**DXGK_QUERYSEGMENTIN**](ns-d3dkmddi-_dxgk_querysegmentin.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationinfo">DXGK_ALLOCATIONINFO</a>
+[**DXGK_SEGMENTDESCRIPTOR**](ns-d3dkmddi-_dxgk_segmentdescriptor.md)
 
+[**DXGK_SEGMENTDESCRIPTOR3**](ns-d3dkmddi-_dxgk_segmentdescriptor3.md)
 
+[**DxgkDdiBuildPagingBuffer**](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_querysegmentin">DXGK_QUERYSEGMENTIN</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_segmentdescriptor">DXGK_SEGMENTDESCRIPTOR</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_segmentdescriptor3">DXGK_SEGMENTDESCRIPTOR3</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_buildpagingbuffer">DxgkDdiBuildPagingBuffer</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a>
-
+[**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md)

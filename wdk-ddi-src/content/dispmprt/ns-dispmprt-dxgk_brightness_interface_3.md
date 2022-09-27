@@ -1,8 +1,8 @@
 ---
-UID: NS:dispmprt.DXGK_BRIGHTNESS_INTERFACE_3
+UID: NS:dispmprt.__unnamed_struct_2
 title: DXGK_BRIGHTNESS_INTERFACE_3 (dispmprt.h)
 description: "Learn more about: DXGK_BRIGHTNESS_INTERFACE_3 structure"
-ms.date: 10/19/2018
+ms.date: 09/23/2022
 keywords: ["DXGK_BRIGHTNESS_INTERFACE_3 structure"]
 f1_keywords:
  - "dispmprt/DXGK_BRIGHTNESS_INTERFACE_3"
@@ -35,8 +35,6 @@ targetos: Windows
 tech.root: display
 ---
 
-# DXGK_BRIGHTNESS_INTERFACE_3 structure
-
 ## -description
 
 Contains pointers to functions in the Panel Brightness Control Interface Version 3. Used by Windows Display Driver Model (WDDM) 2.4 and later display miniport drivers that supports multiple displays that can be set to calibrated nit-based brightness levels.
@@ -65,20 +63,20 @@ A pointer to an interface dereference function that is implemented by the displa
 
 ### -field SetBrightness [out]
 
-A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_3.md">DxgkDdiSetBrightness3</a> function.
+A pointer to the display miniport driver's [DxgkDdiSetBrightness3](..\dispmprt\nc-dispmprt-dxgk_brightness_set_3.md) function.
 
 ### -field GetBrightness [out]
 
-A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_3.md">DxgkDdiGetBrightness3</a> function.
+A pointer to the display miniport driver's [DxgkDdiGetBrightness3](..\dispmprt\nc-dispmprt-dxgk_brightness_get_3.md) function.
 
 ### -field GetBrightnessCaps [out]
 
-A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_caps_3.md">DxgkDdiGetBrightnessCaps3</a> function. This function is available starting with Windows 10.
+A pointer to the display miniport driver's [DxgkDdiGetBrightnessCaps3](..\dispmprt\nc-dispmprt-dxgk_brightness_get_caps_3.md) function. This function is available starting with Windows 10.
 
 ### -field GetNitRanges [out]
 
-A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_nit_ranges.md">DxgkDdiGetNitRanges</a> function. This function is available starting with Windows 10.
+A pointer to the display miniport driver's [DxgkDdiGetNitRanges](..\dispmprt\nc-dispmprt-dxgk_brightness_get_nit_ranges.md) function. This function is available starting with Windows 10.
 
 ### -field SetBacklightOptimization [out]
 
-A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_backlight_optimization_3.md">DxgkBrightnessSetBacklightOptimization3</a> function. This function is available starting with Windows 10.
+A pointer to the display miniport driver's [DxgkBrightnessSetBacklightOptimization3](..\dispmprt\nc-dispmprt-dxgk_brightness_set_backlight_optimization_3.md) function. This function is available starting with Windows 10.

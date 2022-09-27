@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinRetrieveModeDataFormatList
 tech.root: audio
 title: AcxPinRetrieveModeDataFormatList
-ms.date: 04/12/2022
+ms.date: 09/08/2022
 targetos: Windows
 description: The AcxPinRetrieveModeDataFormatList function gets the mode data format list for the specified pin.
 prerelease: false
@@ -56,7 +56,7 @@ The GUID of the signal processing mode for which to retrieve the data format lis
 
 ### -param DataFormatList [out]
 
-Pointer to an ACXDATAFORMATLIST to receive the object handle.
+Pointer to an ACXDATAFORMATLIST to receive the data format list object handle.
 
 ## -returns
 
@@ -66,6 +66,5 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -see-also
 
+- [AcxPinRemoveModeDataFormatList](nf-acxpin-acxpinremovemodedataformatlist.md)
 - [acxpin.h header](index.md)
-
-

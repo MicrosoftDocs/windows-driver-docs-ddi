@@ -3,13 +3,13 @@ UID: NC:d3d10umddi.PFND3DWDDM1_3DDI_RESIZETILEPOOL
 title: PFND3DWDDM1_3DDI_RESIZETILEPOOL (d3d10umddi.h)
 description: Resizes a tile pool.
 old-location: display\resizetilepool.htm
-ms.date: 05/10/2018
+ms.date: 08/22/2022
 keywords: ["PFND3DWDDM1_3DDI_RESIZETILEPOOL callback function"]
 ms.keywords: PFND3DWDDM1_3DDI_RESIZETILEPOOL, PFND3DWDDM1_3DDI_RESIZETILEPOOL callback, ResizeTilePool, ResizeTilePool callback function [Display Devices], d3d10umddi/ResizeTilePool, display.resizetilepool
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8.1,WDDM 1.3
+req.target-min-winverclnt: Windows 8.1 (WDDM 1.3)
 req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,7 +42,6 @@ api_name:
 
 # PFND3DWDDM1_3DDI_RESIZETILEPOOL callback function
 
-
 ## -description
 
 Resizes a tile pool.
@@ -61,15 +60,13 @@ A handle to the tile pool to resize.
 
 The new size, in bytes, of the tile pool. The size must be a multiple of 64 KB or zero.
 
-## -returns
+## -remarks
 
-The driver can use the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. Returns <b>S_OK</b> if successful; otherwise, returns one of the following:
+The driver can use the [**pfnSetErrorCb**](nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md) callback function to set an error code, setting S_OK if successful; otherwise, returning one of the following:
 
 |Return code|Description|
 |--- |--- |
 |E_INVALIDARG|The new tile pool size isn't a multiple of 64 KB or zero. The existing tile pool remains unchanged, which includes existing mappings.|
 |E_OUTOFMEMORY|The driver had to allocate space for new page table mappings but ran out of memory. The existing tile pool remains unchanged, which includes existing mappings.|
 
-
 The Direct3D runtime performs minimal validation of parameters, but it will fail the call if the new tile pool size isn't a multiple of the tile size, or zero.
-

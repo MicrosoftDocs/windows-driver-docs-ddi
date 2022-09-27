@@ -1,10 +1,10 @@
 ---
 UID: NS:ntddstor._STORAGE_PHYSICAL_NODE_DATA
-title: _STORAGE_PHYSICAL_NODE_DATA (ntddstor.h)
+title: STORAGE_PHYSICAL_NODE_DATA (ntddstor.h)
 description: Specifies the physical device data of a storage node.
 old-location: storage\storage_physical_node_data.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 08/18/2022
 keywords: ["STORAGE_PHYSICAL_NODE_DATA structure"]
 ms.keywords: "*PSTORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA structure pointer [Storage Devices], STORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA structure [Storage Devices], _STORAGE_PHYSICAL_NODE_DATA, ntddstor/PSTORAGE_PHYSICAL_NODE_DATA, ntddstor/STORAGE_PHYSICAL_NODE_DATA, storage.storage_physical_node_data"
 req.header: ntddstor.h
@@ -46,8 +46,7 @@ api_name:
  - STORAGE_PHYSICAL_NODE_DATA
 ---
 
-# _STORAGE_PHYSICAL_NODE_DATA structure
-
+# STORAGE_PHYSICAL_NODE_DATA structure
 
 ## -description
 
@@ -65,32 +64,28 @@ A value of 0 or 1 that indicates the adapter count in the storage node.
 
 ### -field AdapterDataLength
 
-The data length of the storage adapter in the storage node,  in units of kilobytes (1024 bytes).
+The data length of the storage adapter in the storage node, in units of kilobytes (1024 bytes).
 
 ### -field AdapterDataOffset
 
-The data offset from the beginning of the data structure. The buffer contains an array of <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_physical_adapter_data">STORAGE_PHYSICAL_ADAPTER_DATA</a>.
+The data offset from the beginning of the data structure. The buffer contains an array of [**STORAGE_PHYSICAL_ADAPTER_DATA**](ns-ntddstor-_storage_physical_adapter_data.md).
 
 ### -field DeviceCount
 
-A value less than or equal to 1.
+A value equal to or greater than 1 that indicates the device count in the storage node.
 
 ### -field DeviceDataLength
 
-The data length of the storage device in the storage node,  in units of kilobytes (1024 bytes).
+The data length of the storage device in the storage node, in units of kilobytes (1024 bytes).
 
 ### -field DeviceDataOffset
 
-The data offset from the beginning of the data structure. The buffer contains an array of <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_physical_device_data">STORAGE_PHYSICAL_DEVICE_DATA</a>.
-
-### -field Reserved
-
- 
-
-
-
+The data offset from the beginning of the data structure. The buffer contains an array of [**STORAGE_PHYSICAL_DEVICE_DATA**](ns-ntddstor-_storage_physical_device_data.md).
 
 ### -field Reserved[3]
 
-Specifies if the storage adapter is reserved.
+Reserved; do not use.
 
+## -see-also
+
+[**STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR**](ns-ntddstor-_storage_physical_topology_descriptor.md)

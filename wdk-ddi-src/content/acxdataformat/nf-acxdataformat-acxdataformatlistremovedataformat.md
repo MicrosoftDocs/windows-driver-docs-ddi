@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatListRemoveDataFormat
 tech.root: audio
 title: AcxDataFormatListRemoveDataFormat
-ms.date: 05/31/2022
+ms.date: 09/07/2022
 targetos: Windows
 description: The AcxDataFormatListRemoveDataFormat function removes the specified ACX data format from an ACX data format list.
 prerelease: true
@@ -63,6 +63,6 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 ## -see-also
 
 - [AcxDataFormatListAddDataFormat](nf-acxdataformat-acxdataformatlistadddataformat.md)
+- [AcxDataFormatListRemoveDataFormats](./nf-acxdataformat-acxdataformatlistremovedataformats.md)
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [acxdataformat.h header](index.md)
-

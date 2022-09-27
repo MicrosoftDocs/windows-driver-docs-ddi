@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ENUMADAPTERS2
-title: _D3DKMT_ENUMADAPTERS2 (d3dkmthk.h)
-description: The D3DKMTEnumAdapters2 structure contains information used by the D3DKMTEnumAdapters2 function to enumerate all graphics adapters on the system.
-ms.date: 11/21/2018
+title: D3DKMT_ENUMADAPTERS2 (d3dkmthk.h)
+description: Learn more about the D3DKMTEnumAdapters2 structure.
+ms.date: 08/30/2022
 keywords: ["D3DKMT_ENUMADAPTERS2 structure"]
 ms.keywords: _D3DKMT_ENUMADAPTERS2, D3DKMT_ENUMADAPTERS2,
 req.header: d3dkmthk.h
@@ -39,31 +39,21 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_ENUMADAPTERS2 structure
-
+# D3DKMT_ENUMADAPTERS2 structure
 
 ## -description
 
-Supplies information about adapters on the system.
+The **D3DKMT_ENUMADAPTERS2** structure is a parameter passed to [**D3DKMTEnumAdapters2**](nf-d3dkmthk-d3dkmtenumadapters2.md) to acquire information about adapters on the system.
 
 ## -struct-fields
 
 ### -field NumAdapters
 
-*\_Inout\_* *ULONG NumAdapters*
-
-The number of adapters.
-
-On input, NumAdapters specifies how many adapters can be returned in the empty pAdapters array.
-After a successful return when pAdapters is non-null, NumAdapters contains how many adapters were returned in the pAdapters array.
-After a failed return when pAdapters is non-null, NumAdapters is undefined.
-After a successful return when pAdapters is null, NumAdapters contains the maximum supported adapter count.
+[in, out] The number of adapters.
 
 ### -field pAdapters
 
-*\_Out\_opt\_* *[D3DKMT_ADAPTERINFO](ns-d3dkmthk-_d3dkmt_adapterinfo.md)* * *pAdapters*
- 
-An optional array to receive information for each adapter.
+[out, optional] Pointer to an array of [**D3DKMT_ADAPTERINFO**](ns-d3dkmthk-_d3dkmt_adapterinfo.md) structures in which to receive information for each adapter.
 
 ## -remarks
 

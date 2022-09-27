@@ -3,7 +3,7 @@ UID: NS:ntddstor._DEVICE_STORAGE_RANGE_ATTRIBUTES
 title: DEVICE_STORAGE_RANGE_ATTRIBUTES
 description: "Learn more about: DEVICE_STORAGE_RANGE_ATTRIBUTES structure"
 tech.root: storage
-ms.date: 08/23/2019
+ms.date: 08/18/2022
 keywords: ["DEVICE_STORAGE_RANGE_ATTRIBUTES structure"]
 ms.keywords: DEVICE_STORAGE_RANGE_ATTRIBUTES, DEVICE_STORAGE_RANGE_ATTRIBUTES, *PDEVICE_STORAGE_RANGE_ATTRIBUTES,
 req.header: ntddstor.h
@@ -43,10 +43,9 @@ f1_keywords:
 
 # DEVICE_STORAGE_RANGE_ATTRIBUTES structure
 
-
 ## -description
 
-The DEVICE_STORAGE_RANGE_ATTRIBUTES structure contains the media error status for a logical block range.
+The **DEVICE_STORAGE_RANGE_ATTRIBUTES** structure contains the media error status for a logical block range.
 
 ## -struct-fields
 
@@ -54,11 +53,15 @@ The DEVICE_STORAGE_RANGE_ATTRIBUTES structure contains the media error status fo
 
 Length of the logical block range, in bytes, that the error status in *IsRangeBad* applies to.
 
-### -field AllFlags
+### -field DUMMYUNIONNAME
+
+### -field DUMMYUNIONNAME.AllFlags
 
 Do not use.
 
-### -field IsRangeBad
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.IsRangeBad
 
 Indicates whether the logical block range contains a media error. Set to 1 when the logical block range contains an error; otherwise, set to 0.
 
@@ -79,4 +82,3 @@ See [DEVICE_DSM_ACTION Descriptions](/windows-hardware/drivers/storage/device-ds
 [DEVICE_DSM_RANGE_ERROR_OUTPUT](./ns-ntddstor-_device_dsm_range_error_info.md)
 
 [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md)
-
