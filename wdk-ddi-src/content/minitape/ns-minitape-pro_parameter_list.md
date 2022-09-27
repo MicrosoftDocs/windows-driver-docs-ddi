@@ -102,8 +102,8 @@ Reserved. Must be zero.
 
 ## -remarks
 
-The [IOCTL_STORAGE_PERSISTENT_RESERVE_OUT](/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out) request is used to control information about persistent reservations and reservation keys that are active within a device server.
+The [IOCTL_STORAGE_PERSISTENT_RESERVE_OUT](../ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out.md) request is used to control information about persistent reservations and reservation keys that are active within a device server.
 
 ## -see-also
 
-[IOCTL_STORAGE_PERSISTENT_RESERVE_OUT](/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out)
+[IOCTL_STORAGE_PERSISTENT_RESERVE_OUT](../ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out.md)

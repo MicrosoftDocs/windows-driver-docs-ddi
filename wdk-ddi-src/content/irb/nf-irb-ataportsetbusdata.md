@@ -84,4 +84,4 @@ ConfigDataOffest[i] =
 
 ## -see-also
 
-[**AtaPortGetBusData**](/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetbusdata)
+[**AtaPortGetBusData**](./nf-irb-ataportgetbusdata.md)

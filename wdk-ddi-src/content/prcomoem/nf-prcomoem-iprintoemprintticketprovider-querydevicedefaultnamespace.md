@@ -67,6 +67,6 @@ The plug-in should specify the name of the private namespace URI that the core d
 
 ## -see-also
 
-[IPrintOemPrintTicketProvider](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemprintticketprovider)
+[IPrintOemPrintTicketProvider](./nn-prcomoem-iprintoemprintticketprovider.md)
 
 [IPrintOemPrintTicketProvider::BindPrinter](./nf-prcomoem-iprintoemprintticketprovider-bindprinter.md)

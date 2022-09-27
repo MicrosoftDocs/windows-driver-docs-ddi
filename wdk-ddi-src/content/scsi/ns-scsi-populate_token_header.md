@@ -74,18 +74,18 @@ Reserved.
 
 ### -field BlockDeviceRangeDescriptorListLength
 
-The length, in bytes, for all  of the [**BLOCK_DEVICE_RANGE_DESCRIPTOR**](/windows-hardware/drivers/ddi/scsi/ns-scsi-block_device_range_descriptor) structures in the **BlockDeviceRangeDescriptor** array.
+The length, in bytes, for all  of the [**BLOCK_DEVICE_RANGE_DESCRIPTOR**](./ns-scsi-block_device_range_descriptor.md) structures in the **BlockDeviceRangeDescriptor** array.
 
 ### -field BlockDeviceRangeDescriptor
 
-An array of [**BLOCK_DEVICE_RANGE_DESCRIPTOR**](/windows-hardware/drivers/ddi/scsi/ns-scsi-block_device_range_descriptor) structures which describe the logical blocks representing the file being read from the LUN.
+An array of [**BLOCK_DEVICE_RANGE_DESCRIPTOR**](./ns-scsi-block_device_range_descriptor.md) structures which describe the logical blocks representing the file being read from the LUN.
 
 ## -remarks
 
-The **POPULATE_TOKEN_HEADER** structure contains a series of [**BLOCK_DEVICE_RANGE_DESCRIPTOR**](/windows-hardware/drivers/ddi/scsi/ns-scsi-block_device_range_descriptor) structures which describe the token ROD.
+The **POPULATE_TOKEN_HEADER** structure contains a series of [**BLOCK_DEVICE_RANGE_DESCRIPTOR**](./ns-scsi-block_device_range_descriptor.md) structures which describe the token ROD.
 
 All multibyte values are in big endian format. Prior to setting, these values must be converted from the endian format of the current platform.
 
 ## -see-also
 
-[**BLOCK_DEVICE_RANGE_DESCRIPTOR**](/windows-hardware/drivers/ddi/scsi/ns-scsi-block_device_range_descriptor)
+[**BLOCK_DEVICE_RANGE_DESCRIPTOR**](./ns-scsi-block_device_range_descriptor.md)

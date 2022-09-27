@@ -68,6 +68,6 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 
 ## -see-also
 
-[**POPULATE_TOKEN_HEADER**](/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header)
+[**POPULATE_TOKEN_HEADER**](../storport/ns-storport-populate_token_header.md)
 
-[**WRITE_USING_TOKEN_HEADER**](/windows-hardware/drivers/ddi/minitape/ns-minitape-write_using_token_header)
+[**WRITE_USING_TOKEN_HEADER**](./ns-minitape-write_using_token_header.md)
