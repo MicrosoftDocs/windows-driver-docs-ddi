@@ -74,11 +74,11 @@ A [**D3D12DDI_BARRIER_SUBRESOURCE_RANGE_0088**](ns-d3d12umddi-d3d12ddi_barrier_s
 
 ### -field Range
 
-A [**D3D12DDI_RANGE**](ns-d3d12umddi-d3d12ddi_range) structure that describes a memory range.
+A [**D3D12DDI_RANGE**](ns-d3d12umddi-d3d12ddi_range.md) structure that describes a memory range.
 
 ## -remarks
 
-Enhanced Barriers fully deprecate the legacy ResourceBarrier DDIs. This includes the ranged barriers used internally by AtomicCopy commands.
+Enhanced barriers fully deprecate the legacy ResourceBarrier DDIs. This includes the ranged barriers used internally by AtomicCopy commands.
 
 See [Enhanced Barriers](/windows-hardware/drivers/display/enhanced-barriers) for general information.
 
@@ -88,7 +88,7 @@ See [Enhanced Barriers](/windows-hardware/drivers/display/enhanced-barriers) for
 
 [**D3D12DDI_BARRIER_SYNC**](ne-d3d12umddi-d3d12ddi_barrier_sync.md)
 
-[**D3D12DDI_RANGE**](ns-d3d12umddi-d3d12ddi_range)
+[**D3D12DDI_RANGE**](ns-d3d12umddi-d3d12ddi_range.md)
 
 [**D3D12DDIARG_BARRIER_0088**](ns-d3d12umddi-d3d12ddiarg_barrier_0088.md)
 

@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_D3D12_OPTIONS_DATA_0089
 tech.root: display
 title: D3D12DDI_D3D12_OPTIONS_DATA_0089
-ms.date: 09/22/2022
+ms.date: 09/29/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_D3D12_OPTIONS_DATA_0089 structure.
 prerelease: true
@@ -173,4 +173,4 @@ Set TRUE when the driver supports enhanced barriers; otherwise, set FALSE.
 
 [**D3D12DDICAPS_TYPE**](ne-d3d12umddi-d3d12ddicaps_type.md)
 
-[**PFND3DDDI_GETCAPS**](nc-d3dumddi-pfnd3dddi_getcaps.md)
+[**PFND3DDDI_GETCAPS**](../d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps.md)

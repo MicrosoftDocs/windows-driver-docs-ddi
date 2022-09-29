@@ -44,9 +44,11 @@ A **D3D12DDI_BARRIER_SYNC** value is a bit-wise OR of the following fields that 
 
 Synchronization is not needed either before or after a barrier. When used, **D3D12DDI_BARRIER_SYNC_NONE** must be the only bit set.
 
-A **SyncBefore** value of **D3D12DDI_BARRIER_SYNC_NONE**, then **AccessBefore** must be [**D3D12DDI_BARRIER_ACCESS_NO_ACCESS**](ne-d3d12umddi-d3d12ddi_barrier_access.md). In this case, there must have been no preceding barriers or accesses made to that resource in the same [ExecuteCommandLists](nc-d3d12umddi-pfnd3d12ddi_executecommandlists.md) scope.
+A **SyncBefore** value of **D3D12DDI_BARRIER_SYNC_NONE** implies there has been no preceding barriers or accesses made to the resource in the same [ExecuteCommandLists](nc-d3d12umddi-pfnd3d12ddi_executecommandlists.md) scope.
 
-A **SyncAfter** value of **D3D12DDI_BARRIER_SYNC_NONE** indicates that **AccessAfter** must be **D3D12DDI_BARRIER_ACCESS_NO_ACCESS**. After barrier execution is completed, there must be no subsequent barriers or accesses made to the associated resource in the same [ExecuteCommandLists](nc-d3d12umddi-pfnd3d12ddi_executecommandlists.md) scope.
+A **SyncAfter** value of **D3D12DDI_BARRIER_SYNC_NONE** implies that the corresponding subresources are not accessed after the barrier in the same [ExecuteCommandLists](nc-d3d12umddi-pfnd3d12ddi_executecommandlists.md) scope.
+
+In both cases, **AccessAfter** must be [**D3D12DDI_BARRIER_ACCESS_NO_ACCESS**](ne-d3d12umddi-d3d12ddi_barrier_access.md).
 
 ### -field D3D12DDI_BARRIER_SYNC_ALL:0x1
 

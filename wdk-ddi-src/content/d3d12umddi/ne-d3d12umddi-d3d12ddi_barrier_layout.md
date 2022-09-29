@@ -182,19 +182,19 @@ Supports common (barrier free) usage on video queues only. May be more optimal t
 
 ### -field D3D12DDI_BARRIER_LAYOUT_LEGACY_COPY_SOURCE:0x80000000
 
-Matches the layout used by [**D3D12_RESOURCE_STATE_COPY_SOURCE**](ne-d3d12umddi-d3d12ddi_resource_states.md).
+Supports an internally-translated legacy resource state. No enhanced barrier APIs map to this value.
 
 ### -field D3D12DDI_BARRIER_LAYOUT_LEGACY_COPY_DEST
 
-Matches the layout used by [**D3D12_RESOURCE_STATE_COPY_DEST**](ne-d3d12umddi-d3d12ddi_resource_states.md).
+Supports an internally-translated legacy resource state. No enhanced barrier APIs map to this value.
 
 ### -field D3D12DDI_BARRIER_LAYOUT_LEGACY_SHADER_RESOURCE
 
-Matches the layout used by [**D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE**](ne-d3d12umddi-d3d12ddi_resource_states.md) and **D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE**.
+Supports an internally-translated legacy resource state. No enhanced barrier APIs map to this value.
 
 ### -field D3D12DDI_BARRIER_LAYOUT_LEGACY_PIXEL_SHADER_RESOURCE
 
-Matches the layout used by [**D3D12DDI_RESOURCE_STATE_PIXEL_SHADER_RESOURCE**](ne-d3d12umddi-d3d12ddi_resource_states.md).
+Supports an internally-translated legacy resource state. No enhanced barrier APIs map to this value.
 
 ## -remarks
 

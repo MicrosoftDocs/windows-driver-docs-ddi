@@ -1,10 +1,10 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_BUFFER_PLACEMENT
-tech.root: 
+tech.root: display
 title: D3D12DDIARG_BUFFER_PLACEMENT
-ms.date: 
+ms.date: 09/29/2022
 targetos: Windows
-description: 
+description: Learn more about the D3D12DDIARG_BUFFER_PLACEMENT structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -40,13 +40,14 @@ helpviewer_keywords:
 
 ## -description
 
+The **D3D12DDIARG_BUFFER_PLACEMENT** structure specifies the GPU-side virtual address that a resource should have.
+
 ## -struct-fields
 
 ### -field BaseAddress
 
 ### -field BaseAddress.UMD
 
-## -remarks
-
 ## -see-also
 
+[**D3D12DDIARG_CREATERESOURCE_0088**](ns-d3d12umddi-d3d12ddiarg_createresource_0088.md)

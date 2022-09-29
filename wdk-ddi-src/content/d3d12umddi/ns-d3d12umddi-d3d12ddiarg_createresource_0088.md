@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDIARG_CREATERESOURCE_0088
 tech.root: display
 title: D3D12DDIARG_CREATERESOURCE_0088
-ms.date: 09/22/2022
+ms.date: 09/29/2022
 targetos: Windows
 description: Learn more about the D3D12DDIARG_CREATERESOURCE_0088 structure.
 prerelease: true
