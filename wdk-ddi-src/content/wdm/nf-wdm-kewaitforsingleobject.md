@@ -52,7 +52,7 @@ The **KeWaitForSingleObject** routine puts the current thread into a wait state 
 ### -param Object [in]
 
 
-Pointer to an initialized dispatcher object (event, mutex, semaphore, thread, or timer) for which the caller supplies the storage. The dispatcher objects must reside in nonpaged system memory. For more information, see Remarks.
+Pointer to an initialized dispatcher object (event, mutex, semaphore, thread, or timer) for which the caller supplies the storage. The dispatcher object must reside in nonpaged system memory. For more information, see Remarks.
 
 ### -param WaitReason [in]
 
