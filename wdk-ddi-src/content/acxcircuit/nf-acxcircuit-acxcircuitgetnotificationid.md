@@ -62,23 +62,6 @@ Returns a GUID representing the Plug-n-Play notification ID for the specified *C
 
 **Minimum ACX version:** 1.1
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.1 |
-
-<table>
-  <thead>
-    <th>&nbsp;</th>
-    <th>&nbsp;</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Minimum ACX version</strong></td>
-      <td style="text-align: left;">1.1</td>
-    </tr>
-  </tbody>
-</table>
-
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
