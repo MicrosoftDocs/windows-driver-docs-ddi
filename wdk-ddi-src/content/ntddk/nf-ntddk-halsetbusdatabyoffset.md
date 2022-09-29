@@ -1,10 +1,10 @@
 ---
 UID: NF:ntddk.HalSetBusDataByOffset
-tech.root: 
+tech.root: kernel
 title: HalSetBusDataByOffset
 ms.date: 09/22/2022
 targetos: Windows
-description: 
+description: This function sets bus-configuration data for a device on a dynamically configurable I/O bus with a published, standard interface.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -12,7 +12,7 @@ req.ddi-compliance:
 req.dll: 
 req.header: ntddk.h
 req.idl: 
-req.include-header: 
+req.include-header: Ntddk.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: 
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - ntddk.h
 api_name:
@@ -96,4 +96,4 @@ When accessing the device-specific area of the PCI configuration space, HalSetBu
 
 [HalTranslateBusAddress](/previous-versions/windows/embedded/ms899361(v=msdn.10))
 
-[PCI_COMMON_CONFIG](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_common_config)
+[**PCI_COMMON_CONFIG**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_common_config)

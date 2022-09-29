@@ -58,12 +58,12 @@ The data containing a token created as the offload read ROD.
 
 ## -remarks
 
-The **RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER** structure is included with a [**RECEIVE_TOKEN_INFORMATION_HEADER**](/windows-hardware/drivers/ddi/storport/ns-storport-receive_token_information_header)structure  as a response to a POPULATE TOKEN command. The **RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER** structure follows the **SenseData** member of **RECEIVE_TOKEN_INFORMATION_HEADER**.
+The **RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER** structure is included with a [**RECEIVE_TOKEN_INFORMATION_HEADER**](../storport/ns-storport-receive_token_information_header.md)structure  as a response to a POPULATE TOKEN command. The **RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER** structure follows the **SenseData** member of **RECEIVE_TOKEN_INFORMATION_HEADER**.
 
 All multibyte values are in big endian format. Prior to evaluation, these values must be converted to match the endian format of the current platform.
 
 ## -see-also
 
-[**POPULATE_TOKEN_HEADER**](/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header)
+[**POPULATE_TOKEN_HEADER**](../storport/ns-storport-populate_token_header.md)
 
-[**RECEIVE_TOKEN_INFORMATION_HEADER**](/windows-hardware/drivers/ddi/storport/ns-storport-receive_token_information_header)
+[**RECEIVE_TOKEN_INFORMATION_HEADER**](../storport/ns-storport-receive_token_information_header.md)

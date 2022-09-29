@@ -1,8 +1,7 @@
 ---
-UID: NS:minitape.__unnamed_struct_12
+UID: NS:minitape.__unnamed_struct_17
 title: PRO_PARAMETER_LIST (minitape.h)
 description: The PRO_PARAMETER_LIST structure (minitape.h) contains reservation information that is sent in a Persistent Reserve Out (PRO) command to a device server.
-old-location: storage\pro_parameter_list.htm
 tech.root: storage
 ms.date: 08/26/2022
 keywords: ["PRO_PARAMETER_LIST structure"]
@@ -43,8 +42,6 @@ api_name:
  - PRO_PARAMETER_LIST
 ---
 
-# PRO_PARAMETER_LIST structure (minitape.h)
-
 ## -description
 
 The **PRO_PARAMETER_LIST** structure is sent in a Persistent Reserve Out command to a device server.
@@ -59,10 +56,13 @@ The ReservationKey field contains an 8-byte value that is provided by the applic
 
 Contains information that is needed for the following four service actions:
 
-* REGISTER
-* REGISTER AND IGNORE EXISTING KEY
-* PREEMPT
-* PREEMPT AND ABORT
+- REGISTER
+
+- REGISTER AND IGNORE EXISTING KEY
+
+- PREEMPT
+
+- PREEMPT AND ABORT
 
 ### -field ScopeSpecificAddress[4]
 
@@ -72,8 +72,9 @@ The ScopeSpecificAddress field contains the element address that has zeros place
 
 The ActivatePersistThroughPowerLoss (APTPL) bit is valid only for the following service actions:
 
-* REGISTER
-* REGISTER AND IGNORE EXISTING KEY
+- REGISTER
+
+- REGISTER AND IGNORE EXISTING KEY
 
 ### -field Reserved1
 
@@ -101,9 +102,8 @@ Reserved. Must be zero.
 
 ## -remarks
 
-The <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a> request is used to control information about persistent reservations and reservation keys that are active within a device server.
+The [IOCTL_STORAGE_PERSISTENT_RESERVE_OUT](../ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out.md) request is used to control information about persistent reservations and reservation keys that are active within a device server.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a>
-
+[IOCTL_STORAGE_PERSISTENT_RESERVE_OUT](../ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out.md)

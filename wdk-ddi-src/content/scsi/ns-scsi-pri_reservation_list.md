@@ -62,8 +62,8 @@ An array of reservation descriptors.
 
 ## -remarks
 
-The [**IOCTL_STORAGE_PERSISTENT_RESERVE_IN**](/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in) request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
+The [**IOCTL_STORAGE_PERSISTENT_RESERVE_IN**](../ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in.md) request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
 
 ## -see-also
 
-[**IOCTL_STORAGE_PERSISTENT_RESERVE_IN**](/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in)
+[**IOCTL_STORAGE_PERSISTENT_RESERVE_IN**](../ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in.md)
