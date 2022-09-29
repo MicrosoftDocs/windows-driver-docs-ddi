@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATERESOURCE_0075
 title: D3D12DDIARG_CREATERESOURCE_0075
-ms.date: 03/24/2020
+ms.date: 09/22/2022
 tech.root: display
 targetos: Windows
 description: The D3D12DDIARG_CREATERESOURCE_0075 structure contains information used to create or calculate the size of a resource.
@@ -37,17 +37,17 @@ dev_langs:
 
 ## -description
 
-A structure containing information needed to describe the creation or size calculation of a resource.
+The **D3D12DDIARG_CREATERESOURCE_0075** structure contains the information needed to create or calculate the size of a resource.
 
 ## -struct-fields
 
 ### -field ReuseBufferGPUVA
 
-The GPU-side virtual address this resource should have, if it does not need a new one assigned.
+A [**D3D12DDIARG_BUFFER_PLACEMENT**](ns-d3d12umddi-d3d12ddiarg_buffer_placement.md) structure that specifies the GPU-side virtual address this resource should have, if it does not need a new one assigned.
 
 ### -field ResourceType
 
-The dimension of this resource. That is, whether it is a buffer, one-dimensional texture, two-dimensional texture, or so on.
+A [**D3D12DDI_RESOURCE_TYPE**](ne-d3d12umddi-d3d12ddi_resource_type.md) value that identifies the type of this resource.
 
 ### -field Width
 
@@ -71,15 +71,15 @@ Specifies how the resource's data is to be interpreted, using a [**DXGI_FORMAT**
 
 ### -field SampleDesc
 
-Specifies the sample count and quality level of this resource, as it relates to multisampling.
+A [**DXGI_SAMPLE_DESC**](/windows/win32/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc) structure that describes the multi-sampling parameters for the resource.
 
 ### -field Layout
 
-Specifies details related to how the memory which comprises the resource is arranged.
+A [**D3D12DDI_TEXTURE_LAYOUT**](ne-d3d12umddi-d3d12ddi_texture_layout.md) value that specifies details related to how the memory which comprises the resource is arranged.
 
 ### -field Flags
 
-Specifies bitwise-OR-ed flags which describe the ways the resource is to be used.
+A [**D3D12DDI_RESOURCE_FLAGS_0003**](ne-d3d12umddi-d3d12ddi_resource_flags_0003.md) value with bitwise-OR'd flags that describe the ways the resource is to be used.
 
 ### -field InitialResourceState
 

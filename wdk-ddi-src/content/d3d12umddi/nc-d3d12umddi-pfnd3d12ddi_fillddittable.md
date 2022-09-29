@@ -1,8 +1,8 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_FILLDDITTABLE
 title: PFND3D12DDI_FILLDDITTABLE (d3d12umddi.h)
-description: Implemented by the client driver to retrieve the D3D12DDI_DEVICE_FUNCS_VIDEO structure.
-ms.date: 02/02/2022
+description: Learn more about the PFND3D12DDI_FILLDDITTABLE function.
+ms.date: 09/29/2022
 keywords: ["PFND3D12DDI_FILLDDITTABLE callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
@@ -45,7 +45,7 @@ dev_langs:
 
 ## -description
 
-A client driver's **PFND3D12DDI_FILLDDITTABLE** callback function retrieves the [D3D12DDI_DEVICE_FUNCS_VIDEO](ns-d3d12umddi-d3d12ddi_device_funcs_video_0082_0.md) structure.
+The **PFND3D12DDI_FILLDDITTABLE** callback function retrieves a list of function pointers implemented by the user-mode driver.
 
 ## -parameters
 
@@ -55,11 +55,11 @@ A client driver's **PFND3D12DDI_FILLDDITTABLE** callback function retrieves the 
 
 ### -param unnamedParam2 [in]
 
-**tableType** is a [**D3D12DDI_TABLE_TYPE**](ne-d3d12umddi-d3d12ddi_table_type.md) value that indicates the video implementation to retrieve.
+**tableType** is a [**D3D12DDI_TABLE_TYPE**](ne-d3d12umddi-d3d12ddi_table_type.md) value that indicates the type of function pointers to retrieve.
 
 ### -param unnamedParam3 [in/out]
 
-**pTable** is a pointer to the returned table of callback functions that define the queried video implementation.
+**pTable** is a pointer to the returned table of callback functions that define the queried implementation.
 
 ### -param unnamedParam4 [in]
 
@@ -80,3 +80,5 @@ Returns an [**HRESULT**](/windows-hardware/drivers/debugger/hresult-values) valu
 ## -see-also
 
 [**D3DDDI_ADAPTERFUNCS**](../d3dumddi/ns-d3dumddi-_d3dddi_adapterfuncs.md)
+
+[**D3D12DDI_TABLE_TYPE**](ne-d3d12umddi-d3d12ddi_table_type.md)
