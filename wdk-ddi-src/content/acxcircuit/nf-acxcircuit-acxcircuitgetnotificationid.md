@@ -67,10 +67,6 @@ Returns a GUID representing the Plug-n-Play notification ID for the specified *C
 | **Minimum ACX version** | 1.1 |
 
 <table>
-  <colgroup>
-    <col width="40%">
-    <col width="60%">
-  </colgroup>
   <thead>
     <th>&nbsp;</th>
     <th>&nbsp;</th>
@@ -78,7 +74,7 @@ Returns a GUID representing the Plug-n-Play notification ID for the specified *C
   <tbody>
     <tr>
       <td><strong>Minimum ACX version</strong></td>
-      <td>1.1</td>
+      <td style="text-align: left;">1.1</td>
     </tr>
   </tbody>
 </table>
