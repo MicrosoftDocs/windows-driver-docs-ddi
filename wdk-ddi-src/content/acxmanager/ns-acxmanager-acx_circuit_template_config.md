@@ -98,9 +98,7 @@ The **ACX_CIRCUIT_TEMPLATE_CONFIG** structure is initialized by calling the [ACX
 
 ### ACX requirements
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.0 |
+**Minimum ACX version:** 1.0
 
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 

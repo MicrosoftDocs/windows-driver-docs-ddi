@@ -60,9 +60,7 @@ Specifies the general format type. The data formats that are currently supported
 
 ### ACX requirements
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.0 |
+**Minimum ACX version:** 1.0
 
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 

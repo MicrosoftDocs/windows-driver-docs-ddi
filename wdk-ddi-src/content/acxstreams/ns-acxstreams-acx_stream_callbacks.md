@@ -78,9 +78,7 @@ For RT streaming, the driver will also define and use the [ACX_RT_STREAM_CALLBAC
 
 ### ACX requirements
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.0 |
+**Minimum ACX version:** 1.0
 
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 

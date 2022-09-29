@@ -66,9 +66,7 @@ A pointer to the [ACX_TARGET_CIRCUIT_CONFIG](ns-acxtargets-acx_target_circuit_co
 
 ### ACX requirements
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.0 |
+**Minimum ACX version:** 1.0
 
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 

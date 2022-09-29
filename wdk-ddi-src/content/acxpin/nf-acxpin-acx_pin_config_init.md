@@ -63,9 +63,7 @@ This call uses AcxPinIdDefault as the ID for all newly added ACXPINs. When AcxPi
 
 ### ACX requirements
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.0 |
+**Minimum ACX version:** 1.0
 
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 

@@ -61,9 +61,7 @@ A pointer to the [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md) structure to in
 
 ### ACX requirements
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.0 |
+**Minimum ACX version:** 1.0
 
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 

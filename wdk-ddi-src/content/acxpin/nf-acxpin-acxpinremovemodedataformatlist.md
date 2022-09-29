@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinRemoveModeDataFormatList
 tech.root: audio
 title: AcxPinRemoveModeDataFormatList
-ms.date: 09/20/2022
+ms.date: 09/29/2022
 targetos: Windows
 description: The AcxPinRemoveModeDataFormatList function deletes the mode data format list for the specified pin.
 prerelease: false
@@ -68,9 +68,7 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ### ACX requirements
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.1 |
+**Minimum ACX version:** 1.1
 
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 

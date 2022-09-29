@@ -64,9 +64,7 @@ A pointer to the [ACX_TARGET_FACTORY_CIRCUIT_CONFIG](ns-acxtargets-acx_target_fa
 
 ### ACX requirements
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.0 |
+**Minimum ACX version:** 1.0
 
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 

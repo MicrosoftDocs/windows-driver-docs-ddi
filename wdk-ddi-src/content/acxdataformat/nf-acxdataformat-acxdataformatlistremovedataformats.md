@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatListRemoveDataFormats
 tech.root: audio
 title: AcxDataFormatListRemoveDataFormats
-ms.date: 09/20/2022
+ms.date: 09/29/2022
 targetos: Windows
 description: The AcxDataFormatListRemoveDataFormats function removes all data formats from the specified ACX data format list.
 prerelease: false
@@ -60,9 +60,7 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 ### ACX requirements
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.1 |
+**Minimum ACX version:** 1.1
 
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 

@@ -62,9 +62,7 @@ This example shows the definition of DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_
 
 ### ACX requirements
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.0 |
+**Minimum ACX version:** 1.0
 
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 

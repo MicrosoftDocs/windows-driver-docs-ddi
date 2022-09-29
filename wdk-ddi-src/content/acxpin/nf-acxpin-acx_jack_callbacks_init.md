@@ -54,9 +54,7 @@ A pointer to the [ACX_JACK_CALLBACKS](ns-acxpin-acx_jack_callbacks.md) structure
 
 ### ACX requirements
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.0 |
+**Minimum ACX version:** 1.0
 
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 

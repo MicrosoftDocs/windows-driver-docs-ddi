@@ -58,9 +58,7 @@ Returns a pointer to the WAVEFORMATEXTENSIBLE_IEC61937 structure associated with
 
 ### ACX requirements
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.0 |
+**Minimum ACX version:** 1.0
 
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 

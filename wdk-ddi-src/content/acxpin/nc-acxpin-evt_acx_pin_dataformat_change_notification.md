@@ -2,7 +2,7 @@
 UID: NC:acxpin.EVT_ACX_PIN_DATAFORMAT_CHANGE_NOTIFICATION
 tech.root: audio
 title: EVT_ACX_PIN_DATAFORMAT_CHANGE_NOTIFICATION
-ms.date: 09/20/2022
+ms.date: 09/29/2022
 targetos: Windows
 description: The EVT_ACX_PIN_DATAFORMAT_CHANGE_NOTIFICATION callback function is implemented by the driver and is called when a data format change occurs on the specified pin.
 prerelease: false
@@ -66,9 +66,7 @@ The change is triggered by a change in the corresponding (connected) remote pin 
 
 ### ACX requirements
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.1 |
+**Minimum ACX version:** 1.1
 
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
