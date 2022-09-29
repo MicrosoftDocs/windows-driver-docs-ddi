@@ -2,7 +2,7 @@
 UID: NS:wdm._PCI_VIRTUALIZATION_INTERFACE
 tech.root: pci
 title: PCI_VIRTUALIZATION_INTERFACE
-ms.date: 09/27/2022
+ms.date: 09/29/2022
 targetos: Windows
 description: Learn more about the PCI_VIRTUALIZATION_INTERFACE structure
 prerelease: false
@@ -66,53 +66,53 @@ A pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-A pointer to an [*InterfaceReference*](/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface) routine that increments the interface's reference count.
+A pointer to an [*InterfaceReference*](ns-wdm-_interface.md) routine that increments the interface's reference count.
 
 ### -field InterfaceDereference
 
-A pointer to an [*InterfaceDereference*](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference) routine that decrements the interface's reference count.
+A pointer to an [*InterfaceDereference*](nc-wdm-pinterface_dereference.md) routine that decrements the interface's reference count.
 
 ### -field SetVirtualFunctionData
 
-A pointer to a [*SetVirtualFunctionData*](/windows-hardware/drivers/ddi/wdm/nc-wdm-set_virtual_device_data) routine that writes data to the PCIe configuration space of an SR-IOV device's VF.
+A pointer to a [*SetVirtualFunctionData*](nc-wdm-set_virtual_device_data.md) routine that writes data to the PCIe configuration space of an SR-IOV device's VF.
 
 ### -field GetVirtualFunctionData
 
-A pointer to a [*GetVirtualFunctionData*](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data) routine that reads data from the PCIe configuration space of an SR-IOV device's VF.
+A pointer to a [*GetVirtualFunctionData*](nc-wdm-get_virtual_device_data.md) routine that reads data from the PCIe configuration space of an SR-IOV device's VF.
 
 ### -field GetLocation
 
-A pointer to a [*GetLocation*](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location) routine that provides information about the current device location of a VF in the PCIe hierarchy. This information is necessary for a virtualization system that is using an I/O memory management unit (IOMMU) to route traffic to or from the device.
+A pointer to a [*GetLocation*](nc-wdm-get_virtual_device_location.md) routine that provides information about the current device location of a VF in the PCIe hierarchy. This information is necessary for a virtualization system that is using an I/O memory management unit (IOMMU) to route traffic to or from the device.
 
 ### -field GetResources
 
-A pointer to a [*GetResources*](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_resources) routine that provides information about the resources that are available for virtualization on an SR-IOV device.
+A pointer to a [*GetResources*](nc-wdm-get_virtual_device_resources.md) routine that provides information about the resources that are available for virtualization on an SR-IOV device.
 
 ### -field EnableVirtualization
 
-A pointer to an [*EnableVirtualization*](/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization) routine that enables or disables virtualization on an SR-IOV device.
+A pointer to an [*EnableVirtualization*](nc-wdm-enable_virtualization.md) routine that enables or disables virtualization on an SR-IOV device.
 
 ### -field GetVirtualFunctionProbedBars
 
-A pointer to a [*GetVirtualFunctionProbedBars*](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars) routine that allows a non-privileged Hyper-V virtual machine (VM) to determine what would be read from the PCIe Base Address Registers (BARs) of a VF after a query by the PCI bus driver. The PCI driver performs this query to determine the memory or I/O address space that the device requires.
+A pointer to a [*GetVirtualFunctionProbedBars*](nc-wdm-get_virtual_function_probed_bars.md) routine that allows a non-privileged Hyper-V virtual machine (VM) to determine what would be read from the PCIe Base Address Registers (BARs) of a VF after a query by the PCI bus driver. The PCI driver performs this query to determine the memory or I/O address space that the device requires.
 
 ## -remarks
 
 For devices that support the SR-IOV interface, drivers occasionally have to access and manage the PCIe configuration space of the device's VFs. Drivers call routines from the GUID\_PCI\_VIRTUALIZATION\_INTERFACE interface to access the PCIe configuration space of the VFs on the device.
 
 > [!NOTE]
-> Since a device's VFs do not appear as complete PCIe devices on the PCI bus, the [GUID\_BUS\_INTERFACE\_STANDARD](/windows-hardware/drivers/ddi/wdm/ns-wdm-_bus_interface_standard) interface cannot be used for the management of a VF.
+> Since a device's VFs do not appear as complete PCIe devices on the PCI bus, the [GUID\_BUS\_INTERFACE\_STANDARD](ns-wdm-_bus_interface_standard.md) interface cannot be used for the management of a VF.
 
-The **PCI\_VIRTUALIZATION\_INTERFACE** structure is an extension of the [**INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface) structure.
+The **PCI\_VIRTUALIZATION\_INTERFACE** structure is an extension of the [**INTERFACE**](ns-wdm-_interface.md) structure.
 
 A driver obtains a pointer to the **PCI\_VIRTUALIZATION\_INTERFACE** structure by sending an [**IRP\_MN\_QUERY\_INTERFACE**](/windows-hardware/drivers/kernel/irp-mn-query-interface) I/O request packet (IRP) to its bus driver with *InterfaceType* set to GUID\_PCI\_VIRTUALIZATION\_INTERFACE.
 
 ## -see-also
 
-[GUID\_BUS\_INTERFACE\_STANDARD](/windows-hardware/drivers/ddi/wdm/ns-wdm-_bus_interface_standard)
+[GUID\_BUS\_INTERFACE\_STANDARD](ns-wdm-_bus_interface_standard.md)
 
-[*InterfaceDereference*](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference)
+[*InterfaceDereference*](nc-wdm-pinterface_dereference.md)
 
-[*InterfaceReference*](/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface)
+[*InterfaceReference*](ns-wdm-_interface.md)
 
 [**IRP\_MN\_QUERY\_INTERFACE**](/windows-hardware/drivers/kernel/irp-mn-query-interface)

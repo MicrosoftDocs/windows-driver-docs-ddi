@@ -2,7 +2,7 @@
 UID: NS:vpci._VPCI_INTERFACE_STANDARD
 tech.root: pci
 title: VPCI_INTERFACE_STANDARD
-ms.date: 09/27/2022
+ms.date: 09/29/2022
 targetos: Windows
 description: Learn more about the VPCI_INTERFACE_STANDARD structure
 prerelease: false
@@ -69,19 +69,19 @@ A pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-A pointer to an [*InterfaceReference*](/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface) routine that increments the interface's reference count.
+A pointer to an [*InterfaceReference*](../wdm/ns-wdm-_interface.md) routine that increments the interface's reference count.
 
 ### -field InterfaceDereference
 
-A pointer to an [*InterfaceDereference*](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference) routine that decrements the interface's reference count.
+A pointer to an [*InterfaceDereference*](../wdm/nc-wdm-pinterface_dereference.md) routine that decrements the interface's reference count.
 
 ### -field WriteVfConfigBlock
 
-A pointer to a [*WriteVfConfigBlock*](/windows-hardware/drivers/ddi/vpci/nc-vpci-vpci_write_block) routine that writes a block of configuration data for a PCIe VF.
+A pointer to a [*WriteVfConfigBlock*](nc-vpci-vpci_write_block.md) routine that writes a block of configuration data for a PCIe VF.
 
 ### -field ReadVfConfigBlock
 
-A pointer to a [*ReadVfConfigBlock*](/windows-hardware/drivers/ddi/vpci/nc-vpci-vpci_read_block) routine that reads a block of configuration data for a PCIe VF.
+A pointer to a [*ReadVfConfigBlock*](nc-vpci-vpci_read_block.md) routine that reads a block of configuration data for a PCIe VF.
 
 ### -field SerialNumber
 
@@ -95,12 +95,12 @@ A driver obtains a pointer to the **VPCI\_INTERFACE\_STANDARD** structure by sen
 
 ## -see-also
 
-[*InterfaceDereference*](/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference)
+[*InterfaceDereference*](../wdm/nc-wdm-pinterface_dereference.md)
 
-[*InterfaceReference*](/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface)
+[*InterfaceReference*](../wdm/ns-wdm-_interface.md)
 
 [**IRP\_MN\_QUERY\_INTERFACE**](/windows-hardware/drivers/kernel/irp-mn-query-interface)
 
-[*ReadVfConfigBlock*](/windows-hardware/drivers/ddi/vpci/nc-vpci-vpci_read_block)
+[*ReadVfConfigBlock*](nc-vpci-vpci_read_block.md)
 
-[*WriteVfConfigBlock*](/windows-hardware/drivers/ddi/vpci/nc-vpci-vpci_write_block)
+[*WriteVfConfigBlock*](nc-vpci-vpci_write_block.md)

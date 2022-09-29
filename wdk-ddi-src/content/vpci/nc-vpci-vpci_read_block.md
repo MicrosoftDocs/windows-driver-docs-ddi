@@ -13,7 +13,7 @@ req.dll:
 req.header: vpci.h
 req.idl: 
 req.include-header: 
-req.irql: APC_LEVEL
+req.irql: <= APC_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -50,19 +50,19 @@ The *ReadVfConfigBlock* routine reads a block of configuration data for a PCI Ex
 
 ### -param Context
 
-A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [**VPCI\_INTERFACE\_STANDARD**](/windows-hardware/drivers/ddi/vpci/ns-vpci-vpci_interface_standard) structure for the interface.
+[in] A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [**VPCI\_INTERFACE\_STANDARD**](ns-vpci-vpci_interface_standard.md) structure for the interface.
 
 ### -param BlockId
 
-The identifier of the VF configuration block to be read. This identifier is proprietary to the independent hardware vendor (IHV) and is used only by the drivers for the PCIe physical function (PF) and VF on the device.
+[in] The identifier of the VF configuration block to be read. This identifier is proprietary to the independent hardware vendor (IHV) and is used only by the drivers for the PCIe physical function (PF) and VF on the device.
 
 ### -param Buffer
 
-A pointer to a caller-allocated buffer that will contain the configuration data to be read. For more information, see Remarks.
+[out] A pointer to a caller-allocated buffer that will contain the configuration data to be read. For more information, see Remarks.
 
 ### -param Length
 
-The number of bytes to be read from the VF configuration block.
+[in] The number of bytes to be read from the VF configuration block.
 
 > [!NOTE]
 > The value of this parameter must not exceed **VPCI\_MAX\_READ\_WRITE\_BLOCK\_SIZE**.
@@ -85,10 +85,10 @@ VF configuration data can be exchanged between the following drivers in a protec
 Data from each VF configuration block is used only by the drivers of the PF and VF.
 
 > [!NOTE]
-> The [**IOCTL\_VPCI\_READ\_BLOCK**](/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block) IOCTL offers an asynchronous alternative to the *ReadVfConfigBlock* routine.
+> The [**IOCTL\_VPCI\_READ\_BLOCK**](ni-vpci-ioctl_vpci_read_block.md) IOCTL offers an asynchronous alternative to the *ReadVfConfigBlock* routine.
 
 ## -see-also
 
-[**IOCTL\_VPCI\_READ\_BLOCK**](/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_read_block)
+[**IOCTL\_VPCI\_READ\_BLOCK**](ni-vpci-ioctl_vpci_read_block.md)
 
-[**VPCI\_INTERFACE\_STANDARD**](/windows-hardware/drivers/ddi/vpci/ns-vpci-vpci_interface_standard)
+[**VPCI\_INTERFACE\_STANDARD**](ns-vpci-vpci_interface_standard.md)
