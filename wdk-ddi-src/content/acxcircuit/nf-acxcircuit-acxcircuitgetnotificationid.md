@@ -68,8 +68,8 @@ Returns a GUID representing the Plug-n-Play notification ID for the specified *C
 
 <table>
   <colgroup>
-    <col width="25%">
-    <col width="75%">
+    <col width="40%">
+    <col width="60%">
   </colgroup>
   <thead>
     <th>&nbsp;</th>
