@@ -52,7 +52,7 @@ The **KeWaitForSingleObject** routine puts the current thread into a wait state 
 ### -param Object [in]
 
 
-Pointer to an initialized dispatcher object (event, mutex, semaphore, thread, or timer) for which the caller supplies the storage.
+Pointer to an initialized dispatcher object (event, mutex, semaphore, thread, or timer) for which the caller supplies the storage. The dispatcher objects must reside in nonpaged system memory. For more information, see Remarks.
 
 ### -param WaitReason [in]
 
@@ -112,6 +112,8 @@ The current state of the specified *Object* is examined to determine whether the
 The *Alertable* parameter determines when the thread can be alerted and its wait state consequently aborted. For additional information, see <a href="/windows-hardware/drivers/kernel/waits-and-apcs">Waits and APCs</a>.
 
 A special consideration applies when the *Object* parameter passed to **KeWaitForSingleObject** is a mutex. If the dispatcher object waited on is a mutex, APC delivery is the same as for all other dispatcher objects <u>during the wait</u>. However, after **KeWaitForSingleObject** returns with STATUS_SUCCESS and the thread actually holds the mutex, only special kernel-mode APCs are delivered. Delivery of all other APCs, both kernel-mode and user-mode, is disabled. This restriction on the delivery of APCs persists until the mutex is released.
+
+The dispatcher object pointed to by the *Object* parameter must reside in nonpaged system memory. 
 
 If the *WaitMode* parameter is **UserMode**, the kernel stack can be swapped out during the wait. Consequently, a caller must <u>never</u> attempt to pass parameters on the stack when calling **KeWaitForSingleObject** using the **UserMode** argument. If you allocate the event on the stack, you must set the *WaitMode* parameter to **KernelMode**.
 
