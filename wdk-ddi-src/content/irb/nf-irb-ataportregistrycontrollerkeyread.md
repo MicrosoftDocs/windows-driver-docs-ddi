@@ -50,24 +50,24 @@ The <b>AtaPortRegistryControllerKeyRead</b> routine reads the data that is assoc
 
 ## -parameters
 
-### -param ChannelExtension 
+### -param ChannelExtension [in]
 
-[in]
+
 A pointer to the channel extension.
 
-### -param ControllerNumber 
+### -param ControllerNumber [in]
 
-[in]
+
 Contains the controller number.
 
-### -param ValueName 
+### -param ValueName [in]
 
-[in]
+
 Contains the name of the registry value to read.
 
-### -param ValueType 
+### -param ValueType [in]
 
-[in]
+
 Indicates the type of the data that is contained in the registry value. This parameter should be assigned one of values indicated in the following table.
 
 <table>
@@ -107,9 +107,9 @@ A null-terminated, Unicode string.
 </tr>
 </table>
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 A pointer to the buffer where the results are to be copied.
 
 ### -param BufferLength

@@ -47,8 +47,6 @@ api_name:
 
 The <b>IStiDevice::DeviceReset</b> method resets a still image device to a known state.
 
-## -parameters
-
 ## -returns
 
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.

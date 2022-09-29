@@ -4,13 +4,13 @@ title: ZwSetSecurityObject function (ntifs.h)
 description: The ZwSetSecurityObject routine sets an object's security state.
 old-location: kernel\zwsetsecurityobject.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/26/2022
 keywords: ["ZwSetSecurityObject function"]
 ms.keywords: NtSetSecurityObject, ZwSetSecurityObject, ZwSetSecurityObject routine [Kernel-Mode Driver Architecture], k111_38d4fa7c-4fc6-467c-9be2-ca997d739f44.xml, kernel.zwsetsecurityobject, ntifs/NtSetSecurityObject, ntifs/ZwSetSecurityObject
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows XP.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,185 +42,46 @@ api_name:
 
 # ZwSetSecurityObject function
 
-
 ## -description
 
-The <b>ZwSetSecurityObject</b> routine sets an object's security state.
+The **ZwSetSecurityObject** routine sets an object's security state.
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
-Handle for the object whose security state is to be set. This handle must have the access specified in the Meaning column of the table shown in the description of the <i>SecurityInformation</i> parameter.
+Handle for the object whose security state is to be set. This handle must have the access specified in the Meaning column of the table shown in the description of the **SecurityInformation** parameter.
 
-### -param SecurityInformation 
+### -param SecurityInformation [in]
 
-[in]
+A [**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information)value specifying the information to be set. Can be a combination of one or more of the following values.
 
-<a href="/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value specifying the information to be set. Can be a combination of one or more of the following. 
+| Value | Meaning |
+| ----- | ------- |
+| DACL_SECURITY_INFORMATION  | Indicates the discretionary access control list (DACL) of the object is to be set. Requires WRITE_DAC access. |
+| GROUP_SECURITY_INFORMATION | Indicates the primary group identifier of the object is to be set. Requires WRITE_OWNER access. |
+| OWNER_SECURITY_INFORMATION | Indicates the owner identifier of the object is to be set. Requires WRITE_OWNER access. |
+| SACL_SECURITY_INFORMATION  | Indicates the system ACL (SACL) of the object is to be set. Requires ACCESS_SYSTEM_SECURITY access. |
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DACL_SECURITY_INFORMATION
+### -param SecurityDescriptor [in]
 
-</td>
-<td>
-Indicates the discretionary access control list (DACL) of the object is to be set. Requires WRITE_DAC access.
-
-</td>
-</tr>
-<tr>
-<td>
-GROUP_SECURITY_INFORMATION
-
-</td>
-<td>
-Indicates the primary group identifier of the object is to be set. Requires WRITE_OWNER access.
-
-</td>
-</tr>
-<tr>
-<td>
-OWNER_SECURITY_INFORMATION
-
-</td>
-<td>
-Indicates the owner identifier of the object is to be set. Requires WRITE_OWNER access.
-
-</td>
-</tr>
-<tr>
-<td>
-SACL_SECURITY_INFORMATION
-
-</td>
-<td>
-Indicates the system ACL (SACL) of the object is to be set. Requires ACCESS_SYSTEM_SECURITY access.
-
-</td>
-</tr>
-</table>
-
-### -param SecurityDescriptor 
-
-[in]
 Pointer to the security descriptor to be set for the object.
 
 ## -returns
 
-<b>ZwSetSecurityObject</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
+**ZwSetSecurityObject** returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>Handle</i> does not have the required access rights.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ACCESS_VIOLATION</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>SecurityDescriptor</i> is a <b>NULL</b> pointer.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-The object's security descriptor could not be captured.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_ACL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The object's security descriptor contains an invalid ACL.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>Handle</i> is not a valid handle.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_SECURITY_DESCR</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>SecurityDescriptor</i> does not point to a valid security descriptor.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_SID</b></dt>
-</dl>
-</td>
-<td width="60%">
-The object's security descriptor contains an invalid <b>SID</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_OBJECT_TYPE_MISMATCH</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>Handle</i> is not a handle of the expected type.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_UNKNOWN_REVISION</b></dt>
-</dl>
-</td>
-<td width="60%">
-The revision level of the object's security descriptor is unknown or is not supported.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_ACCESS_DENIED          | **Handle** does not have the required access rights. |
+| STATUS_ACCESS_VIOLATION       | **SecurityDescriptor** is a **NULL** pointer. |
+| STATUS_INSUFFICIENT_RESOURCES | The object's security descriptor could not be captured. |
+| STATUS_INVALID_ACL            | The object's security descriptor contains an invalid ACL. |
+| STATUS_INVALID_HANDLE         | **Handle** is not a valid handle. |
+| STATUS_INVALID_SECURITY_DESCR | **SecurityDescriptor** does not point to a valid security descriptor. |
+| STATUS_INVALID_SID            | The object's security descriptor contains an invalid **SID**. |
+| STATUS_OBJECT_TYPE_MISMATCH   | **Handle** is not a handle of the expected type. |
+| STATUS_UNKNOWN_REVISION       | The revision level of the object's security descriptor is unknown or is not supported. |
 
 ## -remarks
 
@@ -228,31 +89,23 @@ A security descriptor can be in absolute or self-relative form. In self-relative
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK.
 
-Minifilters should use <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetsecurityobject">FltSetSecurityObject</a> instead of <b>ZwSetSecurityObject</b>. 
+Minifilters should use [**FltSetSecurityObject**](../fltkernel/nf-fltkernel-fltsetsecurityobject.md) instead of **ZwSetSecurityObject**.
 
-Callers of <b>ZwSetSecurityObject</b> must be running at IRQL = PASSIVE_LEVEL and <a href="/windows-hardware/drivers/kernel/disabling-apcs">with special kernel APCs enabled</a>.
+Callers of **ZwSetSecurityObject** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwSetSecurityObject</b> function occurs in user mode, you should use the name "<a href="/previous-versions/ff567106(v=vs.85)">NtSetSecurityObject</a>" instead of "<b>ZwSetSecurityObject</b>".</div>
-<div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+> [!NOTE]
+> If the call to the **ZwSetSecurityObject** function occurs in user mode, you should use the name "[**NtSetSecurityObject**](nf-ntifs-ntsetsecurityobject.md)" instead of "**ZwSetSecurityObject**".
+
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetsecurityobject">FltSetSecurityObject</a>
+[**FltSetSecurityObject**](../fltkernel/nf-fltkernel-fltsetsecurityobject.md)
 
+[**SECURITY_DESCRIPTOR**](ns-ntifs-_security_descriptor.md)
 
+[**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
+[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-
-
-<a href="/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="/previous-versions/ff567066(v=vs.85)">ZwQuerySecurityObject</a>
-
+[**ZwQuerySecurityObject**](nf-ntifs-zwquerysecurityobject.md)

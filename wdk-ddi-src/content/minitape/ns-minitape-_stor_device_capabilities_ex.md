@@ -1,16 +1,16 @@
 ---
 UID: NS:minitape._STOR_DEVICE_CAPABILITIES_EX
-title: _STOR_DEVICE_CAPABILITIES_EX (minitape.h)
+title: STOR_DEVICE_CAPABILITIES_EX (minitape.h)
 description: The _STOR_DEVICE_CAPABILITIES_EX structure (minitape.h) contains extended device capabilities information relevant to storage devices.
 old-location: storage\stor_device_capabilities_ex.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/20/2022
 keywords: ["STOR_DEVICE_CAPABILITIES_EX structure"]
 ms.keywords: "*PSTOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX structure pointer [Storage Devices], STOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX structure [Storage Devices], _STOR_DEVICE_CAPABILITIES_EX, storage.stor_device_capabilities_ex, storport/PSTOR_DEVICE_CAPABILITIES_EX, storport/STOR_DEVICE_CAPABILITIES_EX"
 req.header: minitape.h
 req.include-header: Storport.h, Minitape.h, Srb.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 8.
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,22 +46,21 @@ api_name:
  - STOR_DEVICE_CAPABILITIES_EX
 ---
 
-# _STOR_DEVICE_CAPABILITIES_EX structure (minitape.h)
-
+# STOR_DEVICE_CAPABILITIES_EX structure (minitape.h)
 
 ## -description
 
-The <b>STOR_DEVICE_CAPABILITIES_EX</b> structure reports device capabilities to the Storport driver in response to a capabilities query in a SCSI request block (SRB) with a function of SRB_FUNCTION_PNP.<b> STOR_DEVICE_CAPABILITIES_EX</b> is a subset of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a> structure containing the members relevant to storage devices.
+The **STOR_DEVICE_CAPABILITIES_EX** structure reports device capabilities to the Storport driver in response to a capabilities query in a SCSI request block (SRB) with a function of SRB_FUNCTION_PNP. **STOR_DEVICE_CAPABILITIES** is a subset of the [**DEVICE_CAPABILITIES**](../wdm/ns-wdm-_device_capabilities.md) structure containing the members relevant to storage devices.
 
 ## -struct-fields
 
 ### -field Version
 
-Specifies the version of the structure. Set to STOR_DEVICE_CAPABILITIES_EX_VERSION_1 by Storport.
+Specifies the version of the structure. Storport sets this field to STOR_DEVICE_CAPABILITIES_EX_VERSION_1.
 
 ### -field Size
 
-Specifies the size of the structure. Set to <b>sizeof</b>(STOR_DEVICE_CAPABILITIES_EX) by Storport.
+Specifies the size of the structure. Storport sets this field to ```sizeof(STOR_DEVICE_CAPABILITIES_EX)```.
 
 ### -field DeviceD1
 
@@ -77,9 +76,13 @@ Specifies whether the device supports physical-device locking that prevents devi
 
 ### -field EjectSupported
 
-Specifies whether the device supports software-controlled device ejection while the system is in the <b>PowerSystemWorking</b> state. This member pertains to ejecting a LUN or unit device.
+Specifies whether the device supports software-controlled device ejection while the system is in the **PowerSystemWorking** state. This member pertains to ejecting a LUN or unit device.
 
 ### -field Removable
+
+Specifies whether the device can be dynamically removed from its immediate parent. If **Removable** is set to **TRUE**, the device does not belong to the same physical object as its parent.
+
+If **Removable** is set to **TRUE**, the device is displayed in the Unplug or Eject Hardware program, unless **SurpriseRemovalOK** is also set to **TRUE**.
 
 ### -field DockDevice
 
@@ -91,7 +94,7 @@ Specifies whether the device's instance ID is unique system-wide. This bit is cl
 
 ### -field SilentInstall
 
-Specifies whether <b>Device Manager</b> should suppress all installation dialog boxes; except required dialog boxes such as "no compatible drivers found."
+Specifies whether **Device Manager** should suppress all installation dialog boxes; except required dialog boxes such as "no compatible drivers found."
 
 ### -field RawDeviceOK
 
@@ -99,7 +102,7 @@ Specifies whether the driver for the underlying bus can drive the device if ther
 
 ### -field SurpriseRemovalOK
 
-Specifies whether the miniport driver for the device can handle the case where the device is removed before Storport can send SRB_FUNCTION_PNP with <b>StorRemoveDevice</b> as the <b>PnPAction</b> in the <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_pnp_request_block">SCSI_PNP_REQUEST_BLOCK</a> structure. If <b>SurpriseRemovalOK</b> is set to <b>TRUE</b>, the device can be safely removed from its immediate parent regardless of the state that its driver is in.
+Specifies whether the miniport driver for the device can handle the case where the device is removed before Storport can send SRB_FUNCTION_PNP with **StorRemoveDevice** as the **PnPAction** in the [**SCSI_PNP_REQUEST_BLOCK**](../storport/ns-storport-_scsi_pnp_request_block.md) structure. If **SurpriseRemovalOK** is set to **TRUE**, the device can be safely removed from its immediate parent regardless of the state that its driver is in.
 
 ### -field NoDisplayInUI
 
@@ -119,40 +122,25 @@ LUN address of the storage unit device.
 
 ### -field UINumber
 
-Specifies a number associated with the device that can be displayed in the user interface. 
+Specifies a number associated with the device that can be displayed in the user interface.
 
-This number might be an ID value chosen to make locating the physical device easier for the user. When the <b>UINumber</b> is unknown, the miniport driver can set this member to its default value of 0xFFFFFFFF.
+This number might be an ID value chosen to make locating the physical device easier for the user. When the **UINumber** is unknown, the miniport driver can set this member to its default value of 0xFFFFFFFF.
 
 ### -field Reserved1
 
 Reserved bits.
 
-
-#### - Removeable
-
-Specifies whether the device can be dynamically removed from its immediate parent. If <b>Removable</b> is set to <b>TRUE</b>, the device does not belong to the same physical object as its parent. 
-
-If <b>Removable</b> is set to <b>TRUE</b>, the device is displayed in the Unplug or Eject Hardware program, unless <b>SurpriseRemovalOK</b> is also set to <b>TRUE</b>.
-
 ## -remarks
 
-When a miniport driver receives an SRB in its <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine where the SRB function is SRB_FUNCTION_PNP, the SRB is formatted as a <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_pnp_request_block">SCSI_PNP_REQUEST_BLOCK</a> structure. If the <b>PnPAction</b> member of the SRB is <b>StorQueryCapabilities</b>, the miniport can return a <b>STOR_DEVICE_CAPABILITIES_EX</b> structure in the <b>DataBuffer</b> member of the SRB.
+When a miniport driver receives an SRB in its [**HwStorStartIo**](../storport/nc-storport-hw_startio.md) routine where the SRB function is SRB_FUNCTION_PNP, the SRB is formatted as a [**SCSI_PNP_REQUEST_BLOCK**](../storport/ns-storport-_scsi_pnp_request_block.md) structure. If the **PnPAction** member of the SRB is **StorQueryCapabilities**, the miniport can return a **STOR_DEVICE_CAPABILITIES_EX** structure in the **DataBuffer** member of the SRB.
 
-The eject, removal, and install characteristics for the device are set in the <b>STOR_DEVICE_CAPABILITIES_EX</b> structure. To support the use of this structure, the miniport must set the  STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES flag in the  <b>FeatureSupport</b> flags member in <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> before calling <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>.
+The eject, removal, and install characteristics for the device are set in the **STOR_DEVICE_CAPABILITIES_EX** structure. To support the use of this structure, the miniport must set the  STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES flag in the  **FeatureSupport** flags member in [**HW_INITIALIZATION_DATA**](../storport/ns-storport-_hw_initialization_data-r1.md) before calling [**StorPortInitialize**](../storport/nf-storport-storportinitialize.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a>
+[**DEVICE_CAPABILITIES**](../wdm/ns-wdm-_device_capabilities.md)
 
+[**HW_INITIALIZATION_DATA**](../storport/ns-storport-_hw_initialization_data-r1.md)
+[**SCSI_PNP_REQUEST_BLOCK**](../storport/ns-storport-_scsi_pnp_request_block.md)
 
-
-<a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_pnp_request_block">SCSI_PNP_REQUEST_BLOCK</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>
-
+[**StorPortInitialize**](../storport/nf-storport-storportinitialize.md)

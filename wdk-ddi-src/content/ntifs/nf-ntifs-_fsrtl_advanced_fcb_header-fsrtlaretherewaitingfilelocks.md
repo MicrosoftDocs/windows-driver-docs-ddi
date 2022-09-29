@@ -49,9 +49,9 @@ The <b>FsRtlAreThereWaitingFileLocks</b> routine checks a file lock queue for an
 
 ## -parameters
 
-### -param FileLock 
+### -param FileLock [in]
 
-[in]
+
 The file lock that specifies locked ranges.
 
 ## -returns

@@ -6,8 +6,6 @@ ms.assetid: b4acf337-75d5-37f2-8097-812ec2347de2
 ms.date: 05/09/2018
 keywords: ["Pointofservicecommontypes.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: pos
 f1_keywords:

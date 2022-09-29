@@ -4,7 +4,7 @@ title: MmAllocatePagesForMdl function (wdm.h)
 description: The MmAllocatePagesForMdl routine allocates zero-filled, nonpaged, physical memory pages to an MDL.
 old-location: kernel\mmallocatepagesformdl.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 08/18/2022
 keywords: ["MmAllocatePagesForMdl function"]
 ms.keywords: MmAllocatePagesForMdl, MmAllocatePagesForMdl routine [Kernel-Mode Driver Architecture], k106_bb9bac91-62a6-45f8-9133-0d23eda07b1e.xml, kernel.mmallocatepagesformdl, wdm/MmAllocatePagesForMdl
 req.header: wdm.h
@@ -42,94 +42,59 @@ api_name:
 
 # MmAllocatePagesForMdl function
 
-
 ## -description
 
-The <b>MmAllocatePagesForMdl</b> routine allocates zero-filled, nonpaged, physical memory pages to an MDL.
+The **MmAllocatePagesForMdl** routine allocates zero-filled, non-paged, physical memory pages to an MDL.
 
 ## -parameters
 
-### -param LowAddress 
+### -param LowAddress [in]
 
-[in]
-Specifies the physical address of the start of the first address range from which the allocated pages can come. If <b>MmAllocatePagesForMdl</b> cannot allocate the requested number of bytes in the first address range, it iterates through additional address ranges to get more pages. At each iteration, <b>MmAllocatePagesForMdl</b> adds the value of <i>SkipBytes</i> to the previous start address to obtain the start of the next address range.
+Specifies the physical address of the start of the first address range from which the allocated pages can come. If **MmAllocatePagesForMdl** cannot allocate the requested number of bytes in the first address range, it iterates through additional address ranges to get more pages. At each iteration, **MmAllocatePagesForMdl** adds the value of *SkipBytes* to the previous start address to obtain the start of the next address range.
 
-### -param HighAddress 
+### -param HighAddress [in]
 
-[in]
 Specifies the physical address of the end of the first address range from which the allocated pages can come.
 
-### -param SkipBytes 
+### -param SkipBytes [in]
 
-[in]
-Specifies the number of bytes to skip from the start of the previous address range from which the allocated pages can come. <i>SkipBytes</i> must be an integer multiple of the virtual memory page size, in bytes.
+Specifies the number of bytes to skip from the start of the previous address range from which the allocated pages can come. *SkipBytes* must be an integer multiple of the virtual memory page size, in bytes.
 
-### -param TotalBytes 
+### -param TotalBytes [in]
 
-[in]
 Specifies the total number of bytes to allocate for the MDL.
 
 ## -returns
 
-<b>MmAllocatePagesForMdl</b> returns one of the following:
+**MmAllocatePagesForMdl** returns one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>MDL pointer</b></dt>
-</dl>
-</td>
-<td width="60%">
-The MDL pointer describes a set of physical pages in the specified address range. If the requested number of bytes is not available, the MDL describes as much physical memory as is available. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b><b>NULL</b></b></dt>
-</dl>
-</td>
-<td width="60%">
-There are no physical memory pages in the specified address ranges, or there is not enough memory pool for the MDL itself. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|--|--|
+| **MDL pointer** | The MDL pointer describes a set of physical pages in the specified address range. If the requested number of bytes is not available, the MDL describes as much physical memory as is available. |
+| **NULL** | There are no physical memory pages in the specified address ranges, or there is not enough memory pool for the MDL itself. |
 
 ## -remarks
 
-Drivers that are running in Windows Server 2003 Service Pack 1 (SP1) and later versions of Windows should use the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex">MmAllocatePagesForMdlEx</a> routine instead of <b>MmAllocatePagesForMdl</b>. <b>MmAllocatePagesForMdlEx</b> provides better performance than <b>MmAllocatePagesForMdl</b> by avoiding unnecessary flushes of the <a href="/windows-hardware/drivers/">TLB</a> and cache memory.
+Drivers that are running in Windows Server 2003 Service Pack 1 (SP1) and later versions of Windows should use the [MmAllocatePagesForMdlEx](./nf-wdm-mmallocatepagesformdlex.md) routine instead of **MmAllocatePagesForMdl**. **MmAllocatePagesForMdlEx** provides better performance than **MmAllocatePagesForMdl** by avoiding unnecessary flushes of the translation lookaside buffer (TLB) and cache memory.
 
-The physical memory pages that are returned by <b>MmAllocatePagesForMdl</b> are typically not contiguous pages. <b>MmAllocatePagesForMdl</b> always fills the allocated pages in the returned MDL with zeros.
+The physical memory pages that are returned by **MmAllocatePagesForMdl** are typically not contiguous pages. **MmAllocatePagesForMdl** always fills the allocated pages in the returned MDL with zeros.
 
-<b>MmAllocatePagesForMdl</b> is designed to be used by kernel-mode drivers that do not need corresponding virtual addresses (that is, they need physical pages and do not need the pages to be physically contiguous) or by kernel-mode drivers that can achieve substantial performance gains if physical memory for a device is allocated in a specific physical address range. A driver for an AGP graphics card is an example of such a driver.
+**MmAllocatePagesForMdl** is designed to be used by kernel-mode drivers that do not need corresponding virtual addresses (that is, they need physical pages and do not need the pages to be physically contiguous) or by kernel-mode drivers that can achieve substantial performance gains if physical memory for a device is allocated in a specific physical address range. A driver for an AGP graphics card is an example of such a driver.
 
-Depending on how much physical memory is currently available in the requested ranges, <b>MmAllocatePagesForMdl</b> might return an MDL that describes less memory than was requested. The routine returns <b>NULL</b> if no memory was allocated. The caller should check the amount of memory that is actually allocated to the MDL. 
+Depending on how much physical memory is currently available in the requested ranges, **MmAllocatePagesForMdl** might return an MDL that describes less memory than was requested. The routine returns **NULL** if no memory was allocated. The caller should check the amount of memory that is actually allocated to the MDL.
 
-The caller must use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreepagesfrommdl">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocatePagesForMdl</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a> to release the memory that is allocated for the MDL structure itself.
+The caller must use [MmFreePagesFromMdl](./nf-wdm-mmfreepagesfrommdl.md) to release the memory pages that are described by an MDL that was created by **MmAllocatePagesForMdl**. After calling **MmFreePagesFromMdl**, the caller must also call [ExFreePool](../ntddk/nf-ntddk-exfreepool.md) to release the memory that is allocated for the MDL structure itself.
 
-In Windows 2000 and later versions of Windows, the maximum amount of memory that <b>MmAllocatePagesForMdl</b> can allocate in a single call is (4 gigabytes - PAGE_SIZE). The routine can satisfy an allocation request for this amount only if enough pages are available.
+In Windows 2000 and later versions of Windows, the maximum amount of memory that **MmAllocatePagesForMdl** can allocate in a single call is (4 gigabytes - PAGE_SIZE). The routine can satisfy an allocation request for this amount only if enough pages are available.
 
-<b>MmAllocatePagesForMdl</b> runs at IRQL <= APC_LEVEL. Windows Server 2008 and later versions of the Windows operating system enable <b>MmAllocatePagesForMdl</b> callers to call at DISPATCH_LEVEL. However, you can improve driver performance by calling at APC_LEVEL or below.
+**MmAllocatePagesForMdl** runs at IRQL <= APC_LEVEL. Windows Server 2008 and later versions of the Windows operating system enable **MmAllocatePagesForMdl** callers to call at DISPATCH_LEVEL. However, you can improve driver performance by calling at APC_LEVEL or below.
+
+> [!NOTE]
+> Calling **MmAllocatePagesForMdl** from a special kernel asynchronous procedure call (APC) can lead to a recursive acquisition of an exclusive lock, which is only in a critical region (user or normal kernel APCs disabled) but not in a guarded region (all APCs disabled).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex">MmAllocatePagesForMdlEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreepagesfrommdl">MmFreePagesFromMdl</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpages">MmMapLockedPages</a>
+- [ExFreePool](../ntddk/nf-ntddk-exfreepool.md)
+- [MmAllocatePagesForMdlEx](./nf-wdm-mmallocatepagesformdlex.md)
+- [MmFreePagesFromMdl](./nf-wdm-mmfreepagesfrommdl.md)
+- [MmMapLockedPages](./nf-wdm-mmmaplockedpages.md)

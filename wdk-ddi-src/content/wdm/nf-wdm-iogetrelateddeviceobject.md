@@ -49,9 +49,9 @@ Given a file object, the <b>IoGetRelatedDeviceObject</b> routine returns a point
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to the file object.
 
 ## -returns

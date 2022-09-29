@@ -4,7 +4,7 @@ title: SpbIoctl (spb.h)
 description: Defines values to indicate the type I/O control request.
 old-location: spb\spbioctl.htm
 tech.root: SPB
-ms.date: 09/13/2021
+ms.date: 11/11/2021
 keywords: ["SpbIoctl enumeration"]
 ms.keywords: "*PSpbIoctl, *PSpbIoctl enumeration [Buses], IOCTL_SPB_EXECUTE_SEQUENCE, IOCTL_SPB_FULL_DUPLEX, IOCTL_SPB_LOCK_CONNECTION, IOCTL_SPB_LOCK_CONTROLLER, IOCTL_SPB_UNLOCK_CONNECTION, IOCTL_SPB_UNLOCK_CONTROLLER, SPB.spbioctl, SpbIoctl, SpbIoctl enumeration [Buses], spb/*PSpbIoctl, spb/IOCTL_SPB_EXECUTE_SEQUENCE, spb/IOCTL_SPB_FULL_DUPLEX, spb/IOCTL_SPB_LOCK_CONNECTION, spb/IOCTL_SPB_LOCK_CONTROLLER, spb/IOCTL_SPB_UNLOCK_CONNECTION, spb/IOCTL_SPB_UNLOCK_CONTROLLER, spb/SpbIoctl"
 req.header: spb.h
@@ -74,3 +74,7 @@ The [IOCTL_SPB_UNLOCK_CONNECTION](/windows-hardware/drivers/spb/spb-ioctls#ioctl
 ### -field IOCTL_SPB_FULL_DUPLEX
 
 The [IOCTL_SPB_FULL_DUPLEX](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_full_duplex-control-code) control code is used by a client (peripheral driver) to request a full-duplex I/O operation. Full-duplex I/O operations are supported by controllers for buses such as SPI that can simultaneously read and write data.
+
+### -field IOCTL_SPB_MULTI_SPI_TRANSFER
+
+The **IOCTL_SPB_MULTI_SPI_TRANSFER** control code is used by a client (peripheral driver) to request a SPI I/O operation to use a multi-SPI transfer mode such as Dual or Quad SPI. Multi-SPI I/O operations are supported by controllers for SPI buses that support data transfer in Dual or Quad SPI line modes.

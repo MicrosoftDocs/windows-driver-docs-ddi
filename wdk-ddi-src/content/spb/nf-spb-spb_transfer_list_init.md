@@ -4,7 +4,7 @@ title: SPB_TRANSFER_LIST_INIT function (spb.h)
 description: The SPB_TRANSFER_LIST_INIT function initializes an SPB_TRANSFER_LIST structure.
 old-location: spb\spb_transfer_list_init.htm
 tech.root: SPB
-ms.date: 04/30/2018
+ms.date: 11/15/2021
 keywords: ["SPB_TRANSFER_LIST_INIT function"]
 ms.keywords: SPB.spb_transfer_list_init, SPB_TRANSFER_LIST_INIT, SPB_TRANSFER_LIST_INIT function [Buses], spb/SPB_TRANSFER_LIST_INIT
 req.header: spb.h
@@ -42,39 +42,27 @@ api_name:
 
 # SPB_TRANSFER_LIST_INIT function
 
-
 ## -description
 
-The <b>SPB_TRANSFER_LIST_INIT</b> function initializes an <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list">SPB_TRANSFER_LIST</a> structure.
+The **SPB_TRANSFER_LIST_INIT** function initializes an [SPB_TRANSFER_LIST](./ns-spb-spb_transfer_list.md) structure.
 
 ## -parameters
 
-### -param TransferList 
+### -param TransferList [out]
 
-[out]
-A pointer to the <b>SPB_TRANSFER_LIST</b> structure that is to be initialized.
+A pointer to the **SPB_TRANSFER_LIST** structure that is to be initialized.
 
-### -param TransferCount 
+### -param TransferCount [in]
 
-[in]
-The number of entries in the transfer list. The function writes this value to the <b>TransferCount</b> member of the  <b>SPB_TRANSFER_LIST</b> structure.
+The number of entries in the transfer list. The function writes this value to the **TransferCount** member of the **SPB_TRANSFER_LIST** structure.
 
 ## -remarks
 
-To initialize the elements in the <b>SPB_TRANSFER_LIST</b> structure's <b>Transfers</b> array, use the <a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_simple">SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE</a>, <a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_non_paged">SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</a>, or <a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_buffer_list">SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST</a> function.
+To initialize the elements in the **SPB_TRANSFER_LIST** structure's **Transfers** array, use the [SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE](./nf-spb-spb_transfer_list_entry_init_simple.md), [SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED](./nf-spb-spb_transfer_list_entry_init_non_paged.md), or [SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST](./nf-spb-spb_transfer_list_entry_init_buffer_list.md) function.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list">SPB_TRANSFER_LIST</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_buffer_list">SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_non_paged">SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_simple">SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE</a>
+- [SPB_TRANSFER_LIST](./ns-spb-spb_transfer_list.md)
+- [SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST](./nf-spb-spb_transfer_list_entry_init_buffer_list.md)
+- [SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED](./nf-spb-spb_transfer_list_entry_init_non_paged.md)
+- [SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE](./nf-spb-spb_transfer_list_entry_init_simple.md)

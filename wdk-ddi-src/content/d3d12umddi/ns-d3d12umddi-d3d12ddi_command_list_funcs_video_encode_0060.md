@@ -5,8 +5,6 @@ description: Command list functions for video encode, version D3D12DDI_FEATURE_V
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0060 structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0060, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0060,
 req.header: d3d12umddi.h
 req.include-header: 

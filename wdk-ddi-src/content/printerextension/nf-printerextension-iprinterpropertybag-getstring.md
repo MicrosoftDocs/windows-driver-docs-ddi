@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrinterPropertyBag.GetString
 title: IPrinterPropertyBag::GetString (printerextension.h)
 description: Reads a string property.
-old-location: print\iprinterpropertybag_getstring.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrinterPropertyBag::GetString"]
 ms.keywords: GetString, GetString method [Print Devices], GetString method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetString method, IPrinterPropertyBag.GetString, IPrinterPropertyBag::GetString, print.iprinterpropertybag_getstring, printerextension/IPrinterPropertyBag::GetString
 req.header: printerextension.h
@@ -40,30 +39,24 @@ api_name:
  - IPrinterPropertyBag::GetString
 ---
 
-# IPrinterPropertyBag::GetString
-
-
 ## -description
 
 Reads a string property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
 The property to read.
 
-### -param pbstrValue 
+### -param pbstrValue [out, retval]
 
-[out, retval]
 The value read.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>
-
+[IPrinterPropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag)

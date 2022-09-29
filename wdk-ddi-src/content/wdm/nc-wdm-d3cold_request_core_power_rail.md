@@ -45,13 +45,13 @@ Enables the function device object (FDO) to indicate whether the core power rail
 
 ## -parameters
 
-### -param Context
+### -param Context [_In_reads_opt_(_Inexpressible_("varies"))]
 
-[_In_reads_opt_(_Inexpressible_("varies"))] The handle to the device.
+The handle to the device.
 
-### -param CorePowerRailNeeded: 
+### -param CorePowerRailNeeded: [_In_]
 
-[_In_] A flag that indicates whether or not the driver needs the core power rail.
+A flag that indicates whether or not the driver needs the core power rail.
 
 ## -prototype
 

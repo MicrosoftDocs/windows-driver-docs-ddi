@@ -5,8 +5,6 @@ description: Used to query how a GPU can be partitioned for use in Virtual Machi
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_GPU_PARTITION_INTERFACE structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKDDI_GPU_PARTITION_INTERFACE, DXGKDDI_GPU_PARTITION_INTERFACE, *PDXGKDDI_GPU_PARTITION_INTERFACE,
 req.header: dispmprt.h
 req.include-header: 
@@ -57,73 +55,73 @@ A miniport driver must support all functions in this group.
 
 ## -struct-fields
 
-### -field Size
+### -field Size [in]
 
-[in] Size of a virtual GPU.
+Size of a virtual GPU.
 
-### -field Version
+### -field Version [in]
 
-[in] Version.
+Version.
 
-### -field Context
+### -field Context [out]
 
-[out] The context.
+The context.
 
-### -field InterfaceReference
+### -field InterfaceReference [out]
 
-[out]
 
-### -field InterfaceDereference
 
-[out]
+### -field InterfaceDereference [out]
 
-### -field DxgkDdiGetGpuPartitionInfo
 
-[out]
 
-### -field DxgkDdiSetGpuPartitionCount
+### -field DxgkDdiGetGpuPartitionInfo [out]
 
-[out]
 
-### -field DxgkDdiGetGpuEngines
 
-[out]
+### -field DxgkDdiSetGpuPartitionCount [out]
 
-### -field DxgkDdiGetVirtualGpuProfile
 
-[out]
 
-### -field DxgkDdiCreateVirtualGpu
+### -field DxgkDdiGetGpuEngines [out]
 
-[out]
 
-### -field DxgkDdiGetVirtualGpuInfo
 
-[out]
+### -field DxgkDdiGetVirtualGpuProfile [out]
 
-### -field DxgkDdiSetVirtualGpuResources
 
-[out]
 
-### -field DxgkDdiDestroyVirtualGpu
+### -field DxgkDdiCreateVirtualGpu [out]
 
-[out]
 
-### -field DxgkDdiSuspendVirtualGpu
 
-[out]
+### -field DxgkDdiGetVirtualGpuInfo [out]
 
-### -field DxgkDdiResumeVirtualGpu
 
-[out]
 
-### -field DxgkDdiVirtualGpuDriverEscape
+### -field DxgkDdiSetVirtualGpuResources [out]
 
-[out]
 
-### -field DxgkDdiSetVirtualGpuVmBus
 
-[out]
+### -field DxgkDdiDestroyVirtualGpu [out]
+
+
+
+### -field DxgkDdiSuspendVirtualGpu [out]
+
+
+
+### -field DxgkDdiResumeVirtualGpu [out]
+
+
+
+### -field DxgkDdiVirtualGpuDriverEscape [out]
+
+
+
+### -field DxgkDdiSetVirtualGpuVmBus [out]
+
+
 
 ## -remarks
 

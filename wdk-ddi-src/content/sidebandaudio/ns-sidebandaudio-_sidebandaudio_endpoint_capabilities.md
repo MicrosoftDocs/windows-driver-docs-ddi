@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio._SIDEBANDAUDIO_ENDPOINT_CAPABILITIES
 title: _SIDEBANDAUDIO_ENDPOINT_CAPABILITIES (sidebandaudio.h)
 description: "Learn more about: _SIDEBANDAUDIO_ENDPOINT_CAPABILITIES structure"
-ms.date: 09/06/2018
+ms.date: 10/19/2021
 keywords: ["SIDEBANDAUDIO_ENDPOINT_CAPABILITIES structure"]
 ms.keywords: _SIDEBANDAUDIO_ENDPOINT_CAPABILITIES, SIDEBANDAUDIO_ENDPOINT_CAPABILITIES,
 req.header: sidebandaudio.h
@@ -42,25 +42,25 @@ api_name:
 
 ## -description
 
-TBD
+Describes the capabilities of the sideband audio endpoint driver.
 
 ## -struct-fields
 
 ### -field Volume
 
-TBD
+Indicates if Volume is supported on the endpoint. 
 
 ### -field Mute
 
-TBD
+Indicates if Mute is supported on the endpoint. 
 
 ### -field Sidetone
 
-TBD
+Indicates if Sidetone is supported on the endpoint. 
 
 ### -field Feedback
 
-TBD
+Indicates if Feedback is supported on the endpoint. 
 
 ## -remarks
 

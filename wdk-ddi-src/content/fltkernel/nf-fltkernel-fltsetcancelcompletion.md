@@ -49,14 +49,14 @@ A minifilter driver calls <b>FltSetCancelCompletion</b> to specify a cancel rout
 
 ## -parameters
 
-### -param CallbackData 
+### -param CallbackData [in]
 
-[in]
+
 Pointer to the callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation. The operation must be an IRP-based I/O operation and must not be a paging I/O operation. To determine whether a given callback data structure represents an IRP-based I/O operation, use the <a href="/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a> macro. This parameter is required and cannot be <b>NULL</b>.
 
-### -param CanceledCallback 
+### -param CanceledCallback [in]
 
-[in]
+
 Pointer to a caller-supplied cancel routine. The Filter Manager calls this routine if the I/O operation represented by <i>CallbackData</i> is canceled. 
 
 This routine is declared as follows: 

@@ -6,8 +6,6 @@ ms.assetid: d1e1b40a-26b6-3527-9981-b4f25be1e45f
 ms.date: 11/08/2018
 keywords: ["portabledevice.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: wpd_dk
 f1_keywords:

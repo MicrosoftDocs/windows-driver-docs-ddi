@@ -52,21 +52,21 @@ The <b>DXVAHDDDI_VPCAPS</b> structure describes a video processor and its capabi
 
 ## -struct-fields
 
-### -field VPGuid
+### -field VPGuid [out]
 
-[out] A <b>GUID</b> that identifies the video processor.
+A <b>GUID</b> that identifies the video processor.
 
-### -field PastFrames
+### -field PastFrames [out]
 
-[out] The number of past reference frames that are required to perform the optimal video processing.
+The number of past reference frames that are required to perform the optimal video processing.
 
-### -field FutureFrames
+### -field FutureFrames [out]
 
-[out] The number of future reference frames that are required to perform the optimal video processing.
+The number of future reference frames that are required to perform the optimal video processing.
 
-### -field ProcessorCaps
+### -field ProcessorCaps [out]
 
-[out] A bitwise <b>OR</b> of the following values from the DXVAHDDDI_PROCESSOR_CAPS enumeration to indicate video processor-specific capabilities.
+A bitwise <b>OR</b> of the following values from the DXVAHDDDI_PROCESSOR_CAPS enumeration to indicate video processor-specific capabilities.
 
 | **Value** | **Meaning** | 
 |:--|:--|
@@ -84,9 +84,9 @@ When the driver uses inverse telecine with normal rate de-interlacing, because t
 
 For more information about blend and Bob de-interlacing, see <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_stream_data">DXVAHDDDI_STREAM_DATA</a>.
 
-### -field ITelecineCaps
+### -field ITelecineCaps [out]
 
-[out] A bitwise <b>OR</b> of the following values from the DXVAHDDDI_ITELECINE_CAPS enumeration to indicate inverse telecine-specific capabilities.
+A bitwise <b>OR</b> of the following values from the DXVAHDDDI_ITELECINE_CAPS enumeration to indicate inverse telecine-specific capabilities.
 
 | **Value** | **Meaning** | 
 |:--|:--|
@@ -101,9 +101,9 @@ For more information about blend and Bob de-interlacing, see <a href="/windows-h
 | DXVAHDDDI_ITELECINE_CAPS_222222222223 (0x100) | The driver can perform reverse 2:2:2:2:2:2:2:2:2:2:2:3 telecine, PAL(50i) -> Film(24p). | 
 | DXVAHDDDI_ITELECINE_CAPS_OTHER (0x80000000) | The driver can perform reverse non-standard telecine. |
 
-### -field CustomRateCount
+### -field CustomRateCount [out]
 
-[out] The number of supported custom output rates. The driver returns an array of <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_custom_rate_data">DXVAHDDDI_CUSTOM_RATE_DATA</a> structures for the custom output rates that the video processor supports when the driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPCUSTOMRATES value set.
+The number of supported custom output rates. The driver returns an array of <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_custom_rate_data">DXVAHDDDI_CUSTOM_RATE_DATA</a> structures for the custom output rates that the video processor supports when the driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPCUSTOMRATES value set.
 
 ## -remarks
 

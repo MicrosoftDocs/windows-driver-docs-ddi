@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMEndDoc
 title: OEMEndDoc function (printoem.h)
 description: The OEMEndDoc function is called by the GDI when it has finished sending a document to the driver for rendering.
-old-location: print\oemenddoc.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/08/2022
 keywords: ["OEMEndDoc function"]
 ms.keywords: OEMEndDoc, OEMEndDoc function [Print Devices], print.oemenddoc, print_unidrv-pscript_rendering_1b17db2b-0ea4-4acb-9130-bbc7fe3a0b4a.xml, printoem/OEMEndDoc
 req.header: printoem.h
@@ -40,16 +39,20 @@ api_name:
  - OEMEndDoc
 ---
 
-# OEMEndDoc function
-
-
 ## -description
 
-The <code>OEMEndDoc</code> function is called by the GDI when it has finished sending a document to the driver for rendering.
+The **OEMEndDoc** function is called by the GDI when it has finished sending a document to the driver for rendering.
 
 ## -parameters
 
 ### -param pso
 
+Defines the **SURFOBJ** parameter *pso*.
+
 ### -param fl
 
+Defines the **FLONG** parameter *f1*.
+
+## -returns
+
+Returns a **BOOL** value.

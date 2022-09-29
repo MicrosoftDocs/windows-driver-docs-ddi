@@ -52,9 +52,9 @@ The <b>WdfFileObjectGetFlags</b> method returns the flags that a specified frame
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A handle to a framework file object.
 
 ## -returns

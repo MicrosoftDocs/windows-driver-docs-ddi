@@ -4,7 +4,7 @@ title: WUDF_INTERRUPT_DISABLE (wudfinterrupt.h)
 description: A driver's OnInterruptDisable event callback function disables a specified hardware interrupt.
 old-location: wdf\oninterruptdisable.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 08/12/2022
 keywords: ["WUDF_INTERRUPT_DISABLE callback function"]
 ms.keywords: OnInterruptDisable, OnInterruptDisable callback function, WUDF_INTERRUPT_DISABLE, WUDF_INTERRUPT_DISABLE callback, umdf.oninterruptdisable, wdf.oninterruptdisable, wudfinterrupt/OnInterruptDisable
 req.header: wudfinterrupt.h
@@ -42,52 +42,42 @@ api_name:
 
 # WUDF_INTERRUPT_DISABLE callback function
 
-
 ## -description
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+> [!WARNING]
+> UMDF 2 is the latest version of UMDF and supersedes UMDF 1. All new UMDF drivers should be written using UMDF 2. No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10. Universal Windows drivers must use UMDF 2. For more info, see [Getting Started with UMDF](/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2).
 
-A driver's <i>OnInterruptDisable</i> event callback function disables a specified hardware interrupt.
+A driver's *OnInterruptDisable* event callback function disables a specified hardware interrupt.
 
 ## -parameters
 
-### -param Interrupt
+### -param Interrupt [in]
 
-### -param AssociatedDevice
+A pointer to the [IWDFInterrupt](../wudfddi/nn-wudfddi-iwdfinterrupt.md) interface.
 
-#### - pAssociatedDevice [in]
+### -param AssociatedDevice [in]
 
-A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface that the driver used to call <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-createinterrupt">CreateInterrupt</a>. 
-
-
-#### - pInterrupt [in]
-
-A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a> interface.
+A pointer to the [IWDFDevice](../wudfddi/nn-wudfddi-iwdfdevice.md) interface that the driver used to call [CreateInterrupt](../wudfddi/nf-wudfddi-iwdfdevice3-createinterrupt.md).
 
 ## -returns
 
-<i>OnInterruptDisable</i>  must return S_OK if the operation succeeds. Otherwise, the callback should return one of the error codes that are defined in Winerror.h.
+*OnInterruptDisable*  must return S_OK if the operation succeeds. Otherwise, the callback should return one of the error codes that are defined in Winerror.h.
 
 ## -remarks
 
-To register an <i>OnInterruptDisable</i> callback function, your driver must place the callback function's address in a <a href="/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wudf_interrupt_config">WUDF_INTERRUPT_CONFIG</a> structure before calling <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-createinterrupt">IWDFDevice::CreateInterrupt</a>.
+To register an *OnInterruptDisable* callback function, your driver must place the callback function's address in a [WUDF_INTERRUPT_CONFIG](./ns-wudfinterrupt-_wudf_interrupt_config.md) structure before calling [IWDFDevice::CreateInterrupt](../wudfddi/nf-wudfddi-iwdfdevice3-createinterrupt.md).
 
+The framework calls the driver's *OnInterruptDisable* callback function each time the device leaves its working (D0) state. Additionally, a driver can cause the framework to call the *OnInterruptDisable* callback function by calling [IWDFInterrupt::Disable](../wudfddi/nf-wudfddi-iwdfinterrupt-disable.md).
 
-The framework calls the driver's <i>OnInterruptDisable</i> callback function each time the device leaves its working (D0) state. Additionally, a driver can cause the framework to call the <i>OnInterruptDisable</i> callback function by calling <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfinterrupt-disable">IWDFInterrupt::Disable</a>.
+Before calling the *OnInterruptDisable* callback function, the framework calls the driver's [OnD0ExitPreInterruptsDisabled](../wudfddi/nf-wudfddi-ipnpcallbackhardwareinterrupt-ond0exitpreinterruptsdisabled.md) event callback function and acquires the user-mode interrupt lock.
 
+For more information about handling interrupts in UMDF drivers, see [Accessing Hardware and Handling Interrupts](/windows-hardware/drivers/wdf/accessing-hardware-and-handling-interrupts).
 
-Before calling the <i>OnInterruptDisable</i> callback function, the framework calls the driver's <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackhardwareinterrupt-ond0exitpreinterruptsdisabled">OnD0ExitPreInterruptsDisabled</a> event callback function and acquires the user-mode interrupt lock.
+### Examples
 
+The function type is declared in *Wudfinterrupt.h*, as follows.
 
-For more information about handling interrupts in UMDF drivers, see <a href="/windows-hardware/drivers/wdf/accessing-hardware-and-handling-interrupts">Accessing Hardware and Handling Interrupts</a>.
-
-
-#### Examples
-
-The function type is declared in <i>Wudfinterrupt.h</i>, as follows.
-
-
-```
+```cpp
 typedef
 __drv_functionClass(WUDF_INTERRUPT_DISABLE)
 HRESULT
@@ -101,17 +91,15 @@ WUDF_INTERRUPT_DISABLE(
 typedef WUDF_INTERRUPT_DISABLE *PFN_WUDF_INTERRUPT_DISABLE;
 ```
 
-To define an <i>OnInterruptDisable</i> callback function that is named <i>MyInterruptDisable</i>, you must first provide a function declaration that SDV and other verification tools require, as follows:
+To define an *OnInterruptDisable* callback function that is named *MyInterruptDisable*, you must first provide a function declaration that SDV and other verification tools require, as follows:
 
-
-```
+```cpp
 WUDF_INTERRUPT_DISABLE  MyInterruptDisable;
 ```
 
 Then, implement your callback function as follows:
 
-
-```
+```cpp
 HRESULT
   MyInterruptDisable (
     IN IWDFInterrupt* pInterrupt,
@@ -119,18 +107,10 @@ HRESULT
     )
   {…}
 
-
 ```
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-createinterrupt">IWDFDevice::CreateInterrupt</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wudfinterrupt/nc-wudfinterrupt-wudf_interrupt_enable">OnInterruptEnable</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wudf_interrupt_config">WUDF_INTERRUPT_CONFIG</a>
-
+- [IWDFDevice::CreateInterrupt](../wudfddi/nf-wudfddi-iwdfdevice3-createinterrupt.md)
+- [OnInterruptEnable](./nc-wudfinterrupt-wudf_interrupt_enable.md)
+- [WUDF_INTERRUPT_CONFIG](./ns-wudfinterrupt-_wudf_interrupt_config.md)

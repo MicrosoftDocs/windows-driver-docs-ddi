@@ -45,13 +45,13 @@ This callback function joins the specified DMA domain.
 
 ## -parameters
 
-### -param DmaAdapter
+### -param DmaAdapter [in]
 
-[in] A pointer to a DMA_ADAPTER structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the [**IoGetDmaAdapter**](nf-wdm-iogetdmaadapter.md) routine.
+A pointer to a DMA_ADAPTER structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the [**IoGetDmaAdapter**](nf-wdm-iogetdmaadapter.md) routine.
 
-### -param DomainHandle 
+### -param DomainHandle [in]
 
-[in] The handle to the DMA domain that the caller previous obtained through [*PGET_DMA_DOMAIN*](nc-wdm-pget_dma_domain.md).
+The handle to the DMA domain that the caller previous obtained through [*PGET_DMA_DOMAIN*](nc-wdm-pget_dma_domain.md).
 
 ## -returns
 

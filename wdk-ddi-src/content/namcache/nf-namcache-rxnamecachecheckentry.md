@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param NameCache 
+### -param NameCache [in]
 
-[in]
+
 A pointer to the NAME_CACHE structure to check.
 
-### -param MRxContext 
+### -param MRxContext [in]
 
-[in]
+
 A value of context supplied by the network mini-redirector for equality checking when making a valid entry check.
 
 ## -returns

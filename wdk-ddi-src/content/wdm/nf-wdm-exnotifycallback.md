@@ -49,19 +49,19 @@ The <b>ExNotifyCallback</b> routine causes all callback routines registered for 
 
 ## -parameters
 
-### -param CallbackObject 
+### -param CallbackObject [in]
 
-[in]
+
 A pointer to the callback object for which all registered callback routines will be called.
 
-### -param Argument1 
+### -param Argument1 [in, optional]
 
-[in, optional]
+
 Specifies the parameter that is passed as <i>Argument1</i> of the callback routine.
 
-### -param Argument2 
+### -param Argument2 [in, optional]
 
-[in, optional]
+
 Specifies the parameter that is passed as <i>Argument2</i> of the callback routine.
 
 ## -remarks

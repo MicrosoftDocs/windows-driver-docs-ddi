@@ -51,9 +51,9 @@ A driver's <i>EvtDmaEnablerSelfManagedIoStop</i> event callback function stops a
 
 ## -parameters
 
-### -param DmaEnabler 
+### -param DmaEnabler [in]
 
-[in]
+
 A handle to a DMA enabler object.
 
 ## -returns

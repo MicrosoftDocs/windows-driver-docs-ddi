@@ -49,9 +49,9 @@ The <b>KeGetCurrentProcessorNumberEx</b> routine gets the processor number of th
 
 ## -parameters
 
-### -param ProcNumber 
+### -param ProcNumber [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated buffer into which the routine writes a <a href="/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number">PROCESSOR_NUMBER</a> structure that identifies the current logical processor. This structure contains the group number and the group-relative processor number. You can set this parameter to <b>NULL</b> if you do not need this information.
 
 ## -returns

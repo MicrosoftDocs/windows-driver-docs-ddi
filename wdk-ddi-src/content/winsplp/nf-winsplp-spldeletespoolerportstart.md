@@ -1,10 +1,9 @@
 ---
 UID: NF:winsplp.SplDeleteSpoolerPortStart
 title: SplDeleteSpoolerPortStart function (winsplp.h)
-description: "Learn more about: SplDeleteSpoolerPortStart function"
-old-location: print\spldeletespoolerportstart.htm
+description: Describes the SplDeleteSpoolerPortStart function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/27/2022
 keywords: ["SplDeleteSpoolerPortStart function"]
 ms.keywords: SplDeleteSpoolerPortStart, SplDeleteSpoolerPortStart function [Print Devices], print.spldeletespoolerportstart, winsplp/SplDeleteSpoolerPortStart
 req.header: winsplp.h
@@ -40,14 +39,16 @@ api_name:
  - SplDeleteSpoolerPortStart
 ---
 
-# SplDeleteSpoolerPortStart function
-
-
 ## -description
+
+Describes the **SplDeleteSpoolerPortStart** function.
 
 ## -parameters
 
-### -param pPortName 
+### -param pPortName [in]
 
-[in]
+Defines the **PCWSTR** parameter *pPortName*.
 
+## -returns
+
+Returns a **BOOL** value.

@@ -135,7 +135,7 @@ The <b>ExtRemoteData</b> class includes the following constructors and methods:
 </dd>
 <dd>
 
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getulong">GetUlong</a>
+<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis-getulong">GetUlong</a>
 
 
 </dd>
@@ -147,7 +147,7 @@ The <b>ExtRemoteData</b> class includes the following constructors and methods:
 </dd>
 <dd>
 
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getulong64">GetUlong64</a>
+<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis-getulong64">GetUlong64</a>
 
 
 </dd>
@@ -195,7 +195,7 @@ The <b>ExtRemoteData</b> class includes the following constructors and methods:
 </dd>
 <dd>
 
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getstring">GetString</a>
+<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis-getstring">GetString</a>
 
 
 </dd>
@@ -255,8 +255,6 @@ The DEBUG_PHYSICAL_<i>XXX</i> flags used for accessing physical memory on the ta
 
 </dd>
 </dl>
-
-## -parameters
 
 ## -see-also
 

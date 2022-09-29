@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param UcxController 
+### -param UcxController [in]
 
-[in]
+
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
-### -param UcxControllerTransportCharacteristics 
+### -param UcxControllerTransportCharacteristics [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_transport_characteristics">UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS</a> structure that the client driver for the host controller fills with transport characteristics.
 
 ## -returns

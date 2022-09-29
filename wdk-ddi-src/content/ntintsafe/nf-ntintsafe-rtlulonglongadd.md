@@ -49,14 +49,14 @@ Adds two values of type <b>ULONGLONG</b>.
 
 ## -parameters
 
-### -param ullAugend 
+### -param ullAugend [in]
 
-[in]
+
 The first value in the equation.
 
-### -param ullAddend 
+### -param ullAddend [in]
 
-[in]
+
 The value to add to <i>ullAugend</i>.
 
 ### -param pullResult

@@ -5,8 +5,6 @@ description: Used to create a synchronized object.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3D12DDICB_CREATESYNCHRONIZATIONOBJECT2 structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: D3D12DDICB_CREATESYNCHRONIZATIONOBJECT2, D3D12DDICB_CREATESYNCHRONIZATIONOBJECT2,
 req.header: d3d12umddi.h
 req.include-header: 
@@ -49,14 +47,14 @@ Used to create a synchronized object.
 
 ## -struct-fields
 
-### -field Info
+### -field Info [in, out]
 
-[in, out] Attributes of the synchronization object to create.
+Attributes of the synchronization object to create.
 
-### -field hSyncObject
+### -field hSyncObject [out]
 
  
-[out] Handle to the created object.
+Handle to the created object.
 
 ## -remarks
 

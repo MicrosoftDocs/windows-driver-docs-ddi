@@ -49,29 +49,29 @@ Writes configuration data to a PCI Express SR-IOV Virtual Function (VF).
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a driver-defined context.
 
-### -param Data 
+### -param Data [in]
 
-[in]
+
 A pointer to buffer that contains the data to be written to the configuration space.
 
-### -param VfIndex 
+### -param VfIndex [in]
 
-[in]
+
 A zero-based index of the VF to which this write operation applies.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 An offset in bytes to the start of the VF’s configuration space where the write begins.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length, in bytes, of the data to write to the configuration space.
 
 ## -returns

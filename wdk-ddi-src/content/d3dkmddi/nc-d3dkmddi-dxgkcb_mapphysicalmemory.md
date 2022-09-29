@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_MAPPHYSICALMEMORY
 tech.root: display
 title: DXGKCB_MAPPHYSICALMEMORY
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: The DxgkCbMapPhysicalMemory callback function maps CPU-visible virtual addresses to the underlying physical memory.
 req.assembly: 
@@ -45,9 +45,9 @@ A kernel-mode display miniport driver calls **DXGKCB_MAPPHYSICALMEMORY** to map 
 
 ## -parameters
 
-### -param pArgs
+### -param pArgs [in/out]
 
-[in/out] Pointer to a [**DXGKARGCB_MAP_PHYSICAL_MEMORY**](ns-d3dkmddi-dxgkargcb_map_physical_memory.md) structure that contains information about the physical memory to map.
+Pointer to a [**DXGKARGCB_MAP_PHYSICAL_MEMORY**](ns-d3dkmddi-dxgkargcb_map_physical_memory.md) structure that contains information about the physical memory to map.
 
 ## -returns
 
@@ -58,6 +58,8 @@ A kernel-mode display miniport driver calls **DXGKCB_MAPPHYSICALMEMORY** to map 
 *DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the appropriate members of [**DXGKARGCB_MAP_PHYSICAL_MEMORY**](ns-d3dkmddi-dxgkargcb_map_physical_memory.md) and then call **DxgkCbMapPhysicalMemory** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
 The cache type used for the mappings will be based on the **CacheType** specified when the physical memory object was created in a call to [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md).
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 ## -see-also
 

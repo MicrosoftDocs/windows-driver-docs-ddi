@@ -52,17 +52,17 @@ The D3DKMT_ESCAPE structure describes information that is exchanged with the dis
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] A handle to the graphics adapter that information is exchanged on.
+A handle to the graphics adapter that information is exchanged on.
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to a display device that is optionally specified if the information to be exchanged is specific to a particular device.
+A handle to a display device that is optionally specified if the information to be exchanged is specific to a particular device.
 
-### -field Type
+### -field Type [in]
 
-[in] A value of type D3DKMT_ESCAPETYPE that indicates either to exchange information with the display miniport driver or to control kernel-mode components. The following table shows the possible values.
+A value of type D3DKMT_ESCAPETYPE that indicates either to exchange information with the display miniport driver or to control kernel-mode components. The following table shows the possible values.
 
 | **Value** | **Meaning** | 
 |:--|:--|
@@ -96,13 +96,13 @@ The D3DKMT_ESCAPE structure describes information that is exchanged with the dis
 | D3DKMT_ESCAPE_WIN32K_PRESENTER_VIEW_INFO (1027) | **Do not use. For testing purposes only.** Supported starting with Windows 8.1. | 
 | D3DKMT_ESCAPE_WIN32K_SYSTEM_DPI (1028) | **Do not use. For testing purposes only.** Supported starting with Windows 8.1. |
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_escapeflags">D3DDDI_ESCAPEFLAGS</a> structure that indicates, in bit-field flags, how to share information. The OpenGL ICD should specify the <b>HardwareAccess</b> bit-field flag to indicate that the display miniport driver must access graphics hardware in such a way that the operating system must perform the <a href="/windows-hardware/drivers/display/threading-and-synchronization-second-level">second level of synchronization</a> into the display miniport driver for the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a> call.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_escapeflags">D3DDDI_ESCAPEFLAGS</a> structure that indicates, in bit-field flags, how to share information. The OpenGL ICD should specify the <b>HardwareAccess</b> bit-field flag to indicate that the display miniport driver must access graphics hardware in such a way that the operating system must perform the <a href="/windows-hardware/drivers/display/threading-and-synchronization-second-level">second level of synchronization</a> into the display miniport driver for the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a> call.
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [in/out]
 
-[in/out] A pointer to a buffer that the OpenGL ICD allocates that contains information that the OpenGL ICD either exchanges with the display miniport driver or uses to control kernel-mode components. The following table describes the content of the buffer that <b>pPrivateDriverData</b> points to, depending on the value of <b>Type</b>.
+A pointer to a buffer that the OpenGL ICD allocates that contains information that the OpenGL ICD either exchanges with the display miniport driver or uses to control kernel-mode components. The following table describes the content of the buffer that <b>pPrivateDriverData</b> points to, depending on the value of <b>Type</b>.
 
 | **Value of the Type member** | **Content of the pPrivateDriverData buffer** | 
 |:--|:--|
@@ -114,13 +114,13 @@ The D3DKMT_ESCAPE structure describes information that is exchanged with the dis
 | D3DKMT_ESCAPE_DMM | **Do not use. For testing purposes only.** A [D3DKMT_DMM_ESCAPE](./ns-d3dkmthk-_d3dkmt_dmm_escape.md)  structure. | 
 | D3DKMT_ESCAPE_DEBUG_SNAPSHOT | **Do not use. For testing purposes only.** A [D3DKMT_DEBUG_SNAPSHOT_ESCAPE](./ns-d3dkmthk-_d3dkmt_debug_snapshot_escape.md) structure. |
 
-### -field PrivateDriverDataSize
+### -field PrivateDriverDataSize [in]
 
-[in] The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to. The OpenGL ICD must specify the size of the buffer when it calls the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtescape">D3DKMTEscape</a> function.
+The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to. The OpenGL ICD must specify the size of the buffer when it calls the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtescape">D3DKMTEscape</a> function.
 
-### -field hContext
+### -field hContext [in]
 
-[in] A handle to a context that is optionally specified if the information to be exchanged is specific to a particular device context. If the OpenGL ICD sets <b>hContext</b> to a non-NULL value, the ICD must have also set <b>hDevice</b> to a non-NULL value, and <b>hDevice</b> must correspond to the device that owns the context.
+A handle to a context that is optionally specified if the information to be exchanged is specific to a particular device context. If the OpenGL ICD sets <b>hContext</b> to a non-NULL value, the ICD must have also set <b>hDevice</b> to a non-NULL value, and <b>hDevice</b> must correspond to the device that owns the context.
 
 ## -remarks
 

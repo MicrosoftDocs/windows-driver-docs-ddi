@@ -53,9 +53,9 @@ channel.
 
 ## -parameters
 
-### -param Channel 
+### -param Channel [in]
 
-[in]
+
 The channel that the guest virtual machine closes.
 
 ## -remarks

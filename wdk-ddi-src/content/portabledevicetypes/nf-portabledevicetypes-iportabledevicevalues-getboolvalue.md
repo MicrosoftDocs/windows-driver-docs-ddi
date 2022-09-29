@@ -50,14 +50,14 @@ Retrieves a <b>Boolean</b> value (type VT_BOOL) specified by a key.
 
 ## -parameters
 
-### -param key 
+### -param key [in]
 
-[in]
+
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
-### -param pValue 
+### -param pValue [out]
 
-[out]
+
 Pointer to the retrieved <b>BOOL</b> value.
 
 ## -returns

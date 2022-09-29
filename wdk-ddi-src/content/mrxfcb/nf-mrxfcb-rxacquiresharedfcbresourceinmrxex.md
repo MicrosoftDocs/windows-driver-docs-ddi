@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param pRxContext 
+### -param pRxContext [in]
 
-[in]
+
 A pointer to the RX_CONTEXT. This parameter supplies the context of the operation for special treatment by internal RDBSS tracking if this feature is enabled.
 
 ### -param Fcb

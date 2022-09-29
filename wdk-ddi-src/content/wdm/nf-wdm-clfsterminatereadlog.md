@@ -50,9 +50,9 @@ The <b>ClfsTerminateReadLog</b> routine invalidates a specified read context aft
 
 ## -parameters
 
-### -param pvCursorContext 
+### -param pvCursorContext [in]
 
-[in]
+
 A pointer to the read context to be invalidated. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadlogrecord">ClfsReadLogRecord</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadrestartarea">ClfsReadRestartArea</a>.
 
 ## -returns

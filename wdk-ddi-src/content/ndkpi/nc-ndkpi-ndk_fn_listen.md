@@ -49,28 +49,28 @@ The <i>NdkListen</i> (<i>NDK_FN_LISTEN</i>) function puts an NDK listener object
 
 ## -parameters
 
-### -param pNdkListener 
+### -param pNdkListener [in]
 
-[in]
+
 A pointer to an NDK listener object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener">NDK_LISTENER</a>).
 
-### -param PSOCKADDR
+### -param pAddress
 
 A local address to listen on. For AF_INET or AF_INET6 <i>pAddress</i> contains the local IP address and local ND port.
 
-### -param AddressLength 
+### -param AddressLength [in]
 
-[in]
+
 The size, in bytes, of local address data at the <i>pAddress</i> parameter.
 
-### -param RequestCompletion 
+### -param RequestCompletion [in]
 
-[in]
+
 A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>).
 
-### -param RequestContext 
+### -param RequestContext [in, optional]
 
-[in, optional]
+
 A context value to pass to the <i>Context</i> parameter of the  callback function that is specified in the <i>RequestCompletion</i> parameter.
 
 ## -returns

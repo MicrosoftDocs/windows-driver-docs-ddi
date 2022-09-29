@@ -49,9 +49,9 @@ The <b>GetRequestCount</b> method gets the number of requests in the request lis
 
 ## -parameters
 
-### -param puCount 
+### -param puCount [out]
 
-[out]
+
 Pointer to a variable that receives the number of requests.
 
 ## -returns

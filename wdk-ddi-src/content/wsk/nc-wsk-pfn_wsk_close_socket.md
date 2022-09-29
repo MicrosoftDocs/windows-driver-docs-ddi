@@ -50,16 +50,16 @@ The
 
 ## -parameters
 
-### -param Socket 
+### -param Socket [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket that is being closed.
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the close operation
      asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock

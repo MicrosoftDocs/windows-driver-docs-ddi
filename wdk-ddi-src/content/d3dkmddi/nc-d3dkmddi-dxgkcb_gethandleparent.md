@@ -48,9 +48,9 @@ api_name:
 
 ## -parameters
 
-### -param hAllocation
+### -param hAllocation [in]
 
-[in] A handle to an allocation. This handle must be the kernel-mode handle that the DirectX graphics kernel subsystem (*Dxgkrnl.sys*) assigned for the allocation.
+A handle to an allocation. This handle must be the kernel-mode handle that the DirectX graphics kernel subsystem (*Dxgkrnl.sys*) assigned for the allocation.
 
 ## -returns
 

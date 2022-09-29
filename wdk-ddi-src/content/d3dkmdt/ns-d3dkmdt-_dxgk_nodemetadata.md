@@ -5,8 +5,6 @@ description: Contains the engine type and friendly name of an engine on a GPU no
 tech.root: display
 ms.date: 02/01/2019
 keywords: ["DXGK_NODEMETADATA structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_NODEMETADATA, DXGK_NODEMETADATA, DXGKARG_GETNODEMETADATA
 req.header: d3dkmdt.h
 req.include-header: 

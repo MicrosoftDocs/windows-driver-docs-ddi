@@ -52,9 +52,9 @@ The <b>WdfControlFinishInitializing</b> method informs the framework that a driv
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a control device object.
 
 ## -remarks

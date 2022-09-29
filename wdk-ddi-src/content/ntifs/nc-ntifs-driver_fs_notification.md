@@ -49,14 +49,14 @@ A PDRIVER_FS_NOTIFICATION-typed routine is called by the operating system when a
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to a file system device object for which the notification was called.
 
-### -param FsActive 
+### -param FsActive [in]
 
-[in]
+
 A Boolean value that indicates whether the file system has registered (TRUE) or unregistered (FALSE) itself as an active file system.
 
 ## -remarks

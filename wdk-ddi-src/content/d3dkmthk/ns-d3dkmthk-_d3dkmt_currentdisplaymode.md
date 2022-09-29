@@ -52,13 +52,13 @@ The D3DKMT_CURRENTDISPLAYMODE structure describes the current display mode of th
 
 ## -struct-fields
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the display mode applies to.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the display mode applies to.
 
-### -field DisplayMode
+### -field DisplayMode [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_displaymode">D3DKMT_DISPLAYMODE</a> structure that represents the current display mode.
+A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_displaymode">D3DKMT_DISPLAYMODE</a> structure that represents the current display mode.
 
 ## -see-also
 

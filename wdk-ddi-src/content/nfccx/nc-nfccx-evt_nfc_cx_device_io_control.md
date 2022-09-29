@@ -49,29 +49,29 @@ Called by the NFC CX to send an unhandled IOCTL to the client driver.
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
-### -param OutputBufferLength 
+### -param OutputBufferLength [in]
 
-[in]
+
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
-### -param InputBufferLength 
+### -param InputBufferLength [in]
 
-[in]
+
 The length, in bytes, of the request's input buffer, if an input buffer is available.
 
-### -param IoControlCode 
+### -param IoControlCode [in]
 
-[in]
+
 The driver-defined or system-defined I/O control code (<a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">IOCTL</a>) that is associated with the request.
 
 ## -remarks

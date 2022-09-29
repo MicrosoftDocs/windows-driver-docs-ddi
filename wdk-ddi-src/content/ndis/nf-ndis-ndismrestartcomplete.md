@@ -53,17 +53,17 @@ A miniport driver must call the
 
 ## -parameters
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 The final status of the restart operation. The following status values are supported:
      
 

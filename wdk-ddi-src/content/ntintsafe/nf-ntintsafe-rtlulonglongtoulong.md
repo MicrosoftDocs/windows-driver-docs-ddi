@@ -49,9 +49,9 @@ Converts a value of type <b>ULONGLONG</b> to a value of type <b>ULONG</b>.
 
 ## -parameters
 
-### -param ullOperand 
+### -param ullOperand [in]
 
-[in]
+
 The value to be converted.
 
 ### -param pulResult

@@ -46,9 +46,9 @@ The **BYTE_OFFSET** macro takes a virtual address and returns the byte offset of
 
 ## -parameters
 
-### -param Va
+### -param Va [in]
 
-[in]
+
 Pointer to the virtual address.
 
 ## -remarks

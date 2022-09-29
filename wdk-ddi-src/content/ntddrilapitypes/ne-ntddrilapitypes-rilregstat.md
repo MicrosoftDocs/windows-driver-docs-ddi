@@ -65,7 +65,7 @@ api_name:
 
 ### -field RIL_REGSTAT_MAX
 
-#### - RIL_REGSTAT_ROAMING_INTL
+### -field RIL_REGSTAT_ROAMING_INTL
 
 ## -syntax
 

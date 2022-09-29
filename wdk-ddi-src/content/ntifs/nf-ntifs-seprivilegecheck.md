@@ -48,19 +48,19 @@ The **SePrivilegeCheck** routine determines whether a specified set of privilege
 
 ## -parameters
 
-### -param RequiredPrivileges
+### -param RequiredPrivileges [in, out]
 
-[in, out] Pointer to a PRIVILEGE_SET structure. The **Privilege** member of this structure is an array of LUID_AND_ATTRIBUTES structures. Before calling **SePrivilegeCheck**, use the **Privilege** array to indicate the set of privileges to check. Set the **Control** member to PRIVILEGE_SET_ALL_NECESSARY if all of the privileges must be enabled; or set it to zero if it is sufficient that any one of the privileges be enabled.
+Pointer to a PRIVILEGE_SET structure. The **Privilege** member of this structure is an array of LUID_AND_ATTRIBUTES structures. Before calling **SePrivilegeCheck**, use the **Privilege** array to indicate the set of privileges to check. Set the **Control** member to PRIVILEGE_SET_ALL_NECESSARY if all of the privileges must be enabled; or set it to zero if it is sufficient that any one of the privileges be enabled.
 
 When **SePrivilegeCheck** returns, the **Attributes** member of each LUID_AND_ATTRIBUTES structure is set to SE_PRIVILEGE_USED_FOR_ACCESS if the corresponding privilege is enabled.
 
-### -param SubjectSecurityContext
+### -param SubjectSecurityContext [in]
 
-[in] Pointer to the subject's captured security context.
+Pointer to the subject's captured security context.
 
-### -param AccessMode
+### -param AccessMode [in]
 
-[in] The access mode to use for the privilege check. Either **UserMode** or **KernelMode**. If **AccessMode** is set to **KernelMode**, then all privileges are marked as being possessed by the subject, and **SePrivilegeCheck** returns **TRUE**.
+The access mode to use for the privilege check. Either **UserMode** or **KernelMode**. If **AccessMode** is set to **KernelMode**, then all privileges are marked as being possessed by the subject, and **SePrivilegeCheck** returns **TRUE**.
 
 ## -returns
 

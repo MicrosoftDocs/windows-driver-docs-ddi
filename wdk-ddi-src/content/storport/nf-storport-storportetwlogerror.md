@@ -50,29 +50,29 @@ dev_langs:
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] A pointer to the miniport's device extension.
+A pointer to the miniport's device extension.
 
-### -param Address
+### -param Address [in, optional]
 
-[in, optional] The storage unit device address. This parameter is NULL for adapter devices.
+The storage unit device address. This parameter is NULL for adapter devices.
 
-### -param Id
+### -param Id [in]
 
-[in] A miniport-defined event ID that uniquely identifies the event.
+A miniport-defined event ID that uniquely identifies the event.
 
-### -param Description
+### -param Description [in]
 
-[in] The description text for the error. This parameter is required.
+The description text for the error. This parameter is required.
 
-### -param DataBufferLength
+### -param DataBufferLength [in]
 
-[in] Size of *DataBuffer*, in bytes.
+Size of *DataBuffer*, in bytes.
 
-### -param DataBuffer
+### -param DataBuffer [in]
 
-[in] A variable-size buffer that contains driver-specific binary data that is useful in identifying the cause of the error. Drivers must specify the size of this buffer in the *DataBufferLength* parameter.
+A variable-size buffer that contains driver-specific binary data that is useful in identifying the cause of the error. Drivers must specify the size of this buffer in the *DataBufferLength* parameter.
 
 ## -returns
 

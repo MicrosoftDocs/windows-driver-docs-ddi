@@ -52,19 +52,19 @@ When the last handle to a file object is released, the <b>FsRtlNotifyCleanup</b>
 
 ## -parameters
 
-### -param NotifySync 
+### -param NotifySync [in]
 
-[in]
+
 A pointer to an opaque synchronization object for <i>NotifyList</i>.
 
-### -param NotifyList 
+### -param NotifyList [in]
 
-[in]
+
 A pointer to the head of a notify list. Each element in the list is an opaque notify structure.
 
-### -param FsContext 
+### -param FsContext [in]
 
-[in]
+
 A unique value assigned by the file system to identify a notify structure as belonging to a particular file object.
 
 ## -remarks

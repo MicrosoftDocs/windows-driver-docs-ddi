@@ -49,9 +49,9 @@ The <b>SetInputData</b> method sets the data to send to the printer.
 
 ## -parameters
 
-### -param dwType 
+### -param dwType [in]
 
-[in]
+
 The type of data to be sent. This parameter can be one of the following values.
 
 <table>
@@ -141,14 +141,14 @@ Binary data.
 </tr>
 </table>
 
-### -param pData 
+### -param pData [in]
 
-[in]
+
 A pointer to the byte array that contains the data. For example, if <i>dwType</i> is BIDI_BOOL, <i>pData</i> points to a buffer that contains a Boolean value and if <i>dwType</i> is BIDI_BLOB, <i>pData</i> points to a buffer that contains the binary data.
 
-### -param uSize 
+### -param uSize [in]
 
-[in]
+
 Size, in bytes, of the byte array specified by <i>pData</i>.
 
 ## -returns

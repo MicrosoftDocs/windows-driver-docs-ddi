@@ -49,9 +49,9 @@ Initializes a to the <a href="/windows-hardware/drivers/ddi/ucmtypes/ns-ucmtypes
 
 ## -parameters
 
-### -param Pdo 
+### -param Pdo [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object">UCM_PD_POWER_DATA_OBJECT</a> structure in which the <b>FixedSupplyPdo.FixedSupply</b> member is set to <b>UcmPdPdoTypeFixedSupply</b>.
 
 ## -remarks

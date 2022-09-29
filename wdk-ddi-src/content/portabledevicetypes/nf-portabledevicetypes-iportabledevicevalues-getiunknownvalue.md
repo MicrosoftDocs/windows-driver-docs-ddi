@@ -50,14 +50,14 @@ Retrieves an <b>IUnknown</b> interface value (type VT_UNKNOWN) that is specified
 
 ## -parameters
 
-### -param key 
+### -param key [in]
 
-[in]
+
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
-### -param ppValue 
+### -param ppValue [out]
 
-[out]
+
 Address of a variable that receives a pointer to the retrieved <b>IUnknown</b> interface. The caller is responsible for calling <b>Release</b> on the retrieved interface.
 
 ## -returns

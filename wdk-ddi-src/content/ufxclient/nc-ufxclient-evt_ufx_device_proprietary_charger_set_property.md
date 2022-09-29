@@ -49,12 +49,12 @@ The client driver's implementation to set charger information that it uses to en
 
 ## -parameters
 
-#### - UfxDevice [in]
+### -param unnamedParam1 [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 
-#### - WdfRequest [in]
+### -param unnamedParam2 [in]
 
 The handle framework request object that for an <a href="/windows-hardware/drivers/ddi/charging/ni-charging-ioctl_internal_configure_charger_property">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a> request from the battery minidriver.
 

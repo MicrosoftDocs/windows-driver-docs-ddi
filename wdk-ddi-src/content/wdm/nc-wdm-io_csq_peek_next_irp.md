@@ -49,19 +49,19 @@ The <i>CsqPeekNextIrp</i> routine is used by the system to find the next matchin
 
 ## -parameters
 
-### -param Csq 
+### -param Csq [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure for the cancel-safe IRP queue.
 
-### -param Irp 
+### -param Irp [in, optional]
 
-[in, optional]
+
 Pointer to an IRP in the driver's IRP queue, or <b>NULL</b> to specify the beginning of the queue.
 
-### -param PeekContext 
+### -param PeekContext [in, optional]
 
-[in, optional]
+
 Pointer to driver-defined context information. The <i>CsqPeekNextIrp</i> routine returns the first IRP that follows <i>Irp</i> and matches <i>PeekContext</i>.
 
 ## -returns

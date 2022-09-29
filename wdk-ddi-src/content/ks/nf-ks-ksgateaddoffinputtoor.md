@@ -49,9 +49,9 @@ The<b> KsGateAddOffInputToOr</b> function adds a new input in the OFF state to a
 
 ## -parameters
 
-### -param OrGate 
+### -param OrGate [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure representing the OR gate to which to add a new OFF input.
 
 ## -remarks

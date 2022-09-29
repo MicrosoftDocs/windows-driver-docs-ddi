@@ -44,9 +44,9 @@ Arguments used to abandon the swap chain effect.
 
 ## -struct-fields
 
-### -field hNtSwapChain
+### -field hNtSwapChain [in]
  
-[in] NT handle for the swap chain in this process.
+NT handle for the swap chain in this process.
 
 ## -remarks
 

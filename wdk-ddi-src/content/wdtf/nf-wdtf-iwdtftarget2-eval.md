@@ -49,14 +49,14 @@ Evaluate whether this target matches an SDEL statement.
 
 ## -parameters
 
-### -param SDEL 
+### -param SDEL [in]
 
-[in]
+
 The SDEL statement.
 
-### -param pResult 
+### -param pResult [out, retval]
 
-[out, retval]
+
 True if the SDEL statement matches this target; 
 otherwise, alse.
 

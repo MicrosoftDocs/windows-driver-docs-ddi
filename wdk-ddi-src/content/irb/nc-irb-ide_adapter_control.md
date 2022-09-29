@@ -52,13 +52,13 @@ The *AtaAdapterControl* miniport driver routine is called to perform Plug and Pl
 
 ## -parameters
 
-### -param ControllerExtension
+### -param ControllerExtension [in]
 
-[in] A pointer to the controller extension.
+A pointer to the controller extension.
 
-### -param ControlAction
+### -param ControlAction [in]
 
-[in] One of five actions that the miniport driver must perform as defined in the following table.
+One of five actions that the miniport driver must perform as defined in the following table.
   
 | ControlAction | Parameters | Description |
 | ------------- | ---------- | ----------- |
@@ -68,9 +68,9 @@ The *AtaAdapterControl* miniport driver routine is called to perform Plug and Pl
 | IdePowerDown | None | Indicates that the adapter is being turned off. |
 | IdeVendorDefined | None | Indicates that the miniport driver should perform a vendor-defined control action. |
 
-### -param Parameters
+### -param Parameters [in, out]
 
-[in, out] Parameters associated with the given action.
+Parameters associated with the given action.
 
 ## -returns
 

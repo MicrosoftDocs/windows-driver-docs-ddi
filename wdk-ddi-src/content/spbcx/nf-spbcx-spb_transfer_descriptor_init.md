@@ -49,9 +49,9 @@ The <b>SPB_TRANSFER_DESCRIPTOR_INIT</b> function initializes an  <a href="/windo
 
 ## -parameters
 
-### -param Descriptor 
+### -param Descriptor [out]
 
-[out]
+
 A pointer to the <b>SPB_TRANSFER_DESCRIPTOR</b> structure that is to be initialized.
 
 ## -remarks

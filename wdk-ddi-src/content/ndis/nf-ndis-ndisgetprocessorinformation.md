@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param SystemProcessorInfo 
+### -param SystemProcessorInfo [in, out]
 
-[in, out]
+
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_system_processor_info">
      NDIS_SYSTEM_PROCESSOR_INFO</a> structure that NDIS fills with the information about the CPU topology

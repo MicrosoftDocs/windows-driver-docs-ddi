@@ -52,24 +52,24 @@ api_name:
 
 ## -parameters
 
-### -param hIhvExtAdapter 
+### -param hIhvExtAdapter [in, optional]
 
-[in, optional]
+
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
      handle value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
-### -param msOneXResult 
+### -param msOneXResult [in]
 
-[in]
+
 The result of the 802.1X authentication operation specified through a
      <a href="..\wlanihv\ne-wlanihv-_dot11_msonex_result.md">DOT11_MSONEX_RESULT</a> enumeration
      value.
 
-### -param pDot11MsOneXResultParams 
+### -param pDot11MsOneXResultParams [in, optional]
 
-[in, optional]
+
 A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11_msonex_result_params.md">
      DOT11_MSONEX_RESULT_PARAMS</a> structure that contains result parameters.

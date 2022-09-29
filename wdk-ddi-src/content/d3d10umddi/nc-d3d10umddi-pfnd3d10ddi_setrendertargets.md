@@ -51,27 +51,27 @@ The **SetRenderTargets** callback function sets render target surfaces.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
-[in] **hDevice**: A handle to the display device (graphics context).
+**hDevice**: A handle to the display device (graphics context).
 
-### -param unnamedParam2
+### -param unnamedParam2 [in]
 
-[in] **phRenderTargetView**: An array of handles to the render target view objects to set. Note that some handle values can be **NULL**.
+**phRenderTargetView**: An array of handles to the render target view objects to set. Note that some handle values can be **NULL**.
 
-### -param NumViews
+### -param NumViews [in]
 
-[in] : The number of elements in the array that **phRenderTargetView** specifies.
+: The number of elements in the array that **phRenderTargetView** specifies.
 
-### -param ClearSlots
+### -param ClearSlots [in]
 
-[in] The number of render target slots after the number of slots that **NumViews** specifies to be set to **NULL**. This number represents the difference between the previous number of render target view objects (that is, when the Microsoft Direct3D runtime previously called **SetRenderTargets**) and the new number of render target view objects.
+The number of render target slots after the number of slots that **NumViews** specifies to be set to **NULL**. This number represents the difference between the previous number of render target view objects (that is, when the Microsoft Direct3D runtime previously called **SetRenderTargets**) and the new number of render target view objects.
 
 Note that the number that **ClearTargets** specifies is only an optimization aid because the user-mode display driver could calculate this number.
 
-### -param unnamedParam5
+### -param unnamedParam5 [in]
 
-[in] **hDepthStencilView**: Handle to the depth stencil view.
+**hDepthStencilView**: Handle to the depth stencil view.
 
 ## -remarks
 

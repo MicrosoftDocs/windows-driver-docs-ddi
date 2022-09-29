@@ -72,20 +72,6 @@ The index of the deepest Fx state from which the component can wake. Specify 0 f
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_idle_state">PO_FX_COMPONENT_IDLE_STATE</a> array. The length of this array is specified by the <b>IdleStateCount</b> member. Each array element specifies the attributes of an Fx power state that is supported by the component. Element 0 describes F0, element 1 describes F1, and so on.
 
 
-#### - Flags
-
-This member can be set to the following flag bit: <b>PO_FX_COMPONENT_FLAG_F0_ON_DX</b>. For more information, see Remarks.
-
-
-#### - ProviderCount
-
-A value that specifies the number of components this component depends on. For more information, see <i>Component dependencies</i> under Remarks.
-
-
-#### - Providers
-
-A pointer to an array of component indexes this component depends on. For more information, see <i>Component dependencies</i> under Remarks.
-
 ## -remarks
 
 When a device driver registers a device with PoFx, the driver supplies a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that holds the registration information. This structure contains an array of <b>PO_FX_COMPONENT</b> structures. The elements in this array describe the power attributes of the individual components in the device. PoFx uses the information in this array to manage the power settings of these components.

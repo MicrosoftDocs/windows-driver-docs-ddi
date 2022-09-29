@@ -49,14 +49,14 @@ The <i>CsqInsertIrp</i> routine is used by the system to insert an IRP into a dr
 
 ## -parameters
 
-### -param Csq 
+### -param Csq [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure for the cancel-safe IRP queue.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Pointer to the IRP to insert into the IRP queue.
 
 ## -remarks

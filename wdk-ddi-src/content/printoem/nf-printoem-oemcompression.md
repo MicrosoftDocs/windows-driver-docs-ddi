@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMCompression
 title: OEMCompression function (printoem.h)
-description: OEMCompression function
-old-location: print\oemcompression.htm
+description: Describes the OEMCompression function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/08/2022
 keywords: ["OEMCompression function"]
 ms.keywords: OEMCompression, OEMCompression function [Print Devices], print.oemcompression, print_obsoletefunctions_e5318981-34d5-4d97-97fe-c0bdf9ca8f97.xml, printoem/OEMCompression
 req.header: printoem.h
@@ -40,24 +39,32 @@ api_name:
  - OEMCompression
 ---
 
-# OEMCompression function
-
-
 ## -description
+
+Describes the **OEMCompression** function.
 
 ## -parameters
 
 ### -param pdevobj
 
-### -param pInBuf 
+Defines the **PDEVOBJ** parameter *pdevobj*.
 
-[in]
+### -param pInBuf [in]
 
-### -param pOutBuf 
+Defines the **PBYTE** parameter *pInBuf*.
 
-[out]
+### -param pOutBuf [out]
+
+Defines the **PBYTE** parameter *pOutBuf*.
 
 ### -param dwInLen
 
+Defines the **DWORD** parameter *dwInLen*.
+
 ### -param dwOutLen
 
+Defines the **DWORD** parameter *dwOutLen*.
+
+## -returns
+
+Returns a **INT** value.

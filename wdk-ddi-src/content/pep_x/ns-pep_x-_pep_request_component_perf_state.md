@@ -54,29 +54,29 @@ The **PEP_REQUEST_COMPONENT_PERF_STATE** structure contains a list of performanc
 
 ## -struct-fields
 
-### -field DeviceHandle
+### -field DeviceHandle [in]
 
-[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous [PEP_DPM_REGISTER_DEVICE](../pepfx/ns-pepfx-_pep_register_crashdump_device.md) notification.
+A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous [PEP_DPM_REGISTER_DEVICE](../pepfx/ns-pepfx-_pep_register_crashdump_device.md) notification.
 
-### -field Component
+### -field Component [in]
 
-[in] The index that identifies the component. This member is an index into the **Components** array in the [PEP_DEVICE_REGISTER_V2](../pepfx/ns-pepfx-_pep_device_register_v2.md) structure that the PEP previously supplied in response to the **PEP_DPM_REGISTER_DEVICE** notification for this device. If the **Components** array contains N elements, component indexes range from 0 to N–1.
+The index that identifies the component. This member is an index into the **Components** array in the [PEP_DEVICE_REGISTER_V2](../pepfx/ns-pepfx-_pep_device_register_v2.md) structure that the PEP previously supplied in response to the **PEP_DPM_REGISTER_DEVICE** notification for this device. If the **Components** array contains N elements, component indexes range from 0 to N–1.
 
-### -field Completed
+### -field Completed [out]
 
-[out] Whether the PEP has completed the requested P-state changes. Set to TRUE to indicate that the P-state changes completed synchronously. Set to FALSE to indicate that the requested P-state changes are pending and will be completed asynchronously by a PEP worker thread. For more information, see Remarks.
+Whether the PEP has completed the requested P-state changes. Set to TRUE to indicate that the P-state changes completed synchronously. Set to FALSE to indicate that the requested P-state changes are pending and will be completed asynchronously by a PEP worker thread. For more information, see Remarks.
 
-### -field Succeeded
+### -field Succeeded [out]
 
-[out] Whether the requested P-state changes successfully completed. Set to TRUE if the PEP successfully completed all P-state changes requested in the **PerfRequests** array. Set to FALSE if the PEP was unable to perform all the requested P-state changes, in which case the P-states in the hardware were left unchanged. The **Succeeded** member is used only for *synchronous* P-state changes. If the PEP sets **Completed** to FALSE, PoFx ignores the value in the **Succeeded** member.
+Whether the requested P-state changes successfully completed. Set to TRUE if the PEP successfully completed all P-state changes requested in the **PerfRequests** array. Set to FALSE if the PEP was unable to perform all the requested P-state changes, in which case the P-states in the hardware were left unchanged. The **Succeeded** member is used only for *synchronous* P-state changes. If the PEP sets **Completed** to FALSE, PoFx ignores the value in the **Succeeded** member.
 
-### -field PerfRequestsCount
+### -field PerfRequestsCount [in]
 
-[in] The number of P-state changes requested in the array pointed to by the **PerfRequests** member.
+The number of P-state changes requested in the array pointed to by the **PerfRequests** member.
 
-### -field PerfRequests
+### -field PerfRequests [in]
 
-[in] A pointer to an array of [PEP_COMPONENT_PERF_STATE_REQUEST](../pepfx/ns-pepfx-_pep_component_perf_state_request.md) structures. Each element in the array specifies a new performance level to assign to a P-state set. The number of array elements is specified by the **PerfRequestsCount** member.
+A pointer to an array of [PEP_COMPONENT_PERF_STATE_REQUEST](../pepfx/ns-pepfx-_pep_component_perf_state_request.md) structures. Each element in the array specifies a new performance level to assign to a P-state set. The number of array elements is specified by the **PerfRequestsCount** member.
 
 ## -remarks
 

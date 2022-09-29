@@ -49,9 +49,9 @@ The <b>GetUri</b> method gets the URI of the fixed document.
 
 ## -parameters
 
-### -param uri 
+### -param uri [out]
 
-[out]
+
 The URI of the fixed document.
 
 ## -returns

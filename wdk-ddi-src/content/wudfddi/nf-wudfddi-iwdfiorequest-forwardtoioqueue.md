@@ -51,9 +51,9 @@ The <b>ForwardToIoQueue</b> method forwards (that is, requeues) an I/O request t
 
 ## -parameters
 
-### -param pDestination 
+### -param pDestination [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a> interface for the destination queue object.
 
 ## -returns

@@ -45,15 +45,15 @@ api_name:
 
 ## -description
 
-			For internal use only.
+For internal use only.
 
 ## -parameters
 
-### -param Companion 
+### -param Companion [in]
 
-[in]
 
-### -param TargetState 
 
-[in]
+### -param TargetState [in]
 
+
+## -returns

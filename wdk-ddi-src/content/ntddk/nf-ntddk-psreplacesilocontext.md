@@ -49,24 +49,24 @@ This routine inserts an object in a <i>Silo</i>.
 
 ## -parameters
 
-### -param Silo 
+### -param Silo [in]
 
-[in]
+
 A pointer to a silo.  This parameter is required and it cannot be <b>NULL</b>.
 
-### -param ContextSlot 
+### -param ContextSlot [in]
 
-[in]
+
 A slot allocated by the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine.
 
-### -param NewSiloContext 
+### -param NewSiloContext [in]
 
-[in]
+
 A pointer to the object created by the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pscreatesilocontext">PsCreateSiloContext</a> routine. The object must be created using the same silo pointer as the one specified in this routine. This parameter is required and it cannot be <b>NULL</b>.
 
-### -param OldSiloContext 
+### -param OldSiloContext [optional]
 
-[optional]
+
 A pointer to a caller-allocated variable that receives the address of the existing object. This parameter is optional and can be <b>NULL</b>. The address that the parameter receives can be <b>NULL</b>.
 
 ## -returns

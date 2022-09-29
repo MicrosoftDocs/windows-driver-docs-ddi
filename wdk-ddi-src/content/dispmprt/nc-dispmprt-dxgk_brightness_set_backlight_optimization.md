@@ -49,14 +49,14 @@ Called by the Microsoft DirectX graphics kernel subsystem to set the level of op
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
-### -param OptimizationLevel 
+### -param OptimizationLevel [in]
 
-[in]
+
 A value of type <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-dxgk_backlight_optimization_level">DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</a> that indicates the optimization level of brightness control.
 
 ## -returns

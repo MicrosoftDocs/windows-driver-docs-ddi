@@ -57,9 +57,9 @@ Use this method to disable real batteries if they are present in the
 
 ## -parameters
 
-### -param pbSuccess 
+### -param pbSuccess [out, retval]
 
-[out, retval]
+
 
 ## -returns
 

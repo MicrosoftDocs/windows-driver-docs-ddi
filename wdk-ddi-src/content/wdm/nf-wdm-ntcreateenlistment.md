@@ -49,14 +49,14 @@ The <b>ZwCreateEnlistment</b> routine creates a new <a href="/windows-hardware/d
 
 ## -parameters
 
-### -param EnlistmentHandle 
+### -param EnlistmentHandle [out]
 
-[out]
+
 A pointer to a caller-allocated variable that receives a handle to the new enlistment object if the call to <b>ZwCreateEnlistment</b> succeeds.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that specifies the caller's requested access to the enlistment object. In addition to the access rights that are defined for all kinds of objects (see <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>), the caller can specify any of the following access right flags for enlistment objects:
 
 <table>
@@ -166,24 +166,24 @@ STANDARD_RIGHTS_REQUIRED, ENLISTMENT_GENERIC_READ, ENLISTMENT_GENERIC_WRITE, and
 </tr>
 </table>
 
-### -param ResourceManagerHandle 
+### -param ResourceManagerHandle [in]
 
-[in]
+
 A handle to the caller's <a href="/windows-hardware/drivers/kernel/resource-manager-objects">resource manager object</a> that was obtained by a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateresourcemanager">ZwCreateResourceManager</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopenresourcemanager">ZwOpenResourceManager</a>.
 
-### -param TransactionHandle 
+### -param TransactionHandle [in]
 
-[in]
+
 A handle to a <a href="/windows-hardware/drivers/kernel/transaction-objects">transaction object</a> that was obtained by a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransaction">ZwCreateTransaction</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopentransaction">ZwOpenTransaction</a>. KTM adds this transaction to the list of transactions that the calling resource manager is handling.
 
-### -param ObjectAttributes 
+### -param ObjectAttributes [in, optional]
 
-[in, optional]
+
 A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. This parameter is optional and can be <b>NULL</b>.
 
-### -param CreateOptions 
+### -param CreateOptions [in, optional]
 
-[in, optional]
+
 Enlistment option flags. The following table contains the only available flag. 
 
 <table>
@@ -206,14 +206,14 @@ The caller is enlisting as a <a href="/windows-hardware/drivers/kernel/creating-
 
 This parameter is optional and can be zero.
 
-### -param NotificationMask 
+### -param NotificationMask [in]
 
-[in]
+
 A bitwise OR of TRANSACTION_NOTIFY_<i>XXX</i> values that are defined in Ktmtypes.h. This mask specifies the types of <a href="/windows-hardware/drivers/kernel/transaction-notifications">transaction notifications</a> that KTM sends to the caller.
 
-### -param EnlistmentKey 
+### -param EnlistmentKey [in, optional]
 
-[in, optional]
+
 A pointer to caller-defined information that uniquely identifies the enlistment. The resource manager receives this pointer when it calls <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntgetnotificationresourcemanager">ZwGetNotificationResourceManager</a> or when KTM calls the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ptm_rm_notification">ResourceManagerNotification</a> callback routine. The resource manager can maintain a reference count for this key by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-tmreferenceenlistmentkey">TmReferenceEnlistmentKey</a> and <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-tmdereferenceenlistmentkey">TmDereferenceEnlistmentKey</a>. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

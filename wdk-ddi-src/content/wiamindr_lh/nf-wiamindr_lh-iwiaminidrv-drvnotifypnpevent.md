@@ -2,9 +2,8 @@
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvNotifyPnpEvent
 title: IWiaMiniDrv::drvNotifyPnpEvent (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvNotifyPnpEvent method responds to the event received from the WIA service.
-old-location: image\iwiaminidrv_drvnotifypnpevent.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 07/25/2022
 keywords: ["IWiaMiniDrv::drvNotifyPnpEvent"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvNotifyPnpEvent method, IWiaMiniDrv.drvNotifyPnpEvent, IWiaMiniDrv::drvNotifyPnpEvent, MiniDrv_7684a7e5-7ca5-4d20-a1a8-fc38400815ce.xml, drvNotifyPnpEvent, drvNotifyPnpEvent method [Imaging Devices], drvNotifyPnpEvent method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvnotifypnpevent, wiamindr_lh/IWiaMiniDrv::drvNotifyPnpEvent
 req.header: wiamindr_lh.h
@@ -40,34 +39,27 @@ api_name:
  - IWiaMiniDrv::drvNotifyPnpEvent
 ---
 
-# IWiaMiniDrv::drvNotifyPnpEvent
-
-
 ## -description
 
 The **IWiaMiniDrv::drvNotifyPnpEvent** method responds to the event received from the WIA service.
 
 ## -parameters
 
-### -param pEventGUID
-
-### -param bstrDeviceID 
-
-[in]
-Specifies a string containing the device's unique identifier.
-
-### -param ulReserved 
-
-[in]
-Is reserved for system use.
-
-#### - pEventGuid [in]
+### -param pEventGUID [in]
 
 Points to a GUID identifying the event.
 
+### -param bstrDeviceID [in]
+
+Specifies a string containing the device's unique identifier.
+
+### -param ulReserved [in]
+
+Reserved.
+
 ## -returns
 
-On success, the method should return S_OK. If the method fails, it should return a standard COM error code.
+On success, the method should return **S_OK**. If the method fails, it should return a standard COM error code.
 
 ## -remarks
 
@@ -80,4 +72,3 @@ If this method is called with **pEventGuid* set to [WIA_EVENT_CANCEL_IO](/window
 [IWiaMiniDrv](./nn-wiamindr_lh-iwiaminidrv.md)
 
 [IWiaMiniDrv::drvGetCapabilities](./nf-wiamindr_lh-iwiaminidrv-drvgetcapabilities.md)
-

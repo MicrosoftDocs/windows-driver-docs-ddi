@@ -50,29 +50,29 @@ The <b>ChangerClassSendSrbSynchronous</b> routine synchronously sends an SRB to 
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the functional device object of the target device.
 
-### -param Srb 
+### -param Srb [in]
 
-[in]
+
 Pointer to a partially initialized SCSI request block (SRB) to be sent to the target device.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Specifies address of the buffer that <i>Srb-></i><b>DataBuffer</b> should point to. <b>ChangerClassSendSrbSynchronous</b> creates an MDL for this buffer and passes it to the target device driver in the SRB IRP.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies length, in bytes, of the buffer.
 
-### -param WriteToDevice 
+### -param WriteToDevice [in]
 
-[in]
+
 Indicates a write operation when <b>TRUE</b> and read operation when <b>FALSE</b>.
 
 ## -returns

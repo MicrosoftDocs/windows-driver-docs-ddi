@@ -1,7 +1,7 @@
 ---
 UID: NS:dispmprt._DXGK_MIPI_DSI_INTERFACE
 title: DXGK_MIPI_DSI_INTERFACE
-ms.date: 03/24/2020
+ms.date: 05/31/2022
 targetos: Windows
 description: DXGK_MIPI_DSI_INTERFACE allows the OS to request Display Serial Interface (DSI) operations to be performed on a target using a control interface to the target owned by the graphics adapter.
 tech.root: display
@@ -43,44 +43,43 @@ dev_langs:
 
 # DXGK_MIPI_DSI_INTERFACE structure
 
-
 ## -description
 
 DXGK_MIPI_DSI_INTERFACE allows the OS to request Display Serial Interface (DSI) operations to be performed on a target using a control interface to the target owned by the graphics adapter.
 
 ## -struct-fields
 
-### -field Size
+### -field Size [in]
 
-[in] The size, in bytes, of this structure.
+The size, in bytes, of this structure.
 
-### -field Version
+### -field Version [in]
 
-[in] The version number of the DSI interface. Version number constants are defined in *Dispmprt.h* (for example, DXGK_MIPI_DSI_INTERFACE_VERSION_1).
+The version number of the DSI interface. Version number constants are defined in *Dispmprt.h* (for example, DXGK_MIPI_DSI_INTERFACE_VERSION_1).
 
-### -field Context
+### -field Context [in]
 
-[in] Pointer to a private context block.
+Pointer to a private context block.
 
-### -field InterfaceReference
+### -field InterfaceReference [out]
 
-[out] Pointer to an interface reference function that is implemented by the display miniport driver.
+Pointer to an interface reference function that is implemented by the display miniport driver.
 
-### -field InterfaceDereference
+### -field InterfaceDereference [out]
 
-[out] Pointer to an interface dereference function that is implemented by the display miniport driver.
+Pointer to an interface dereference function that is implemented by the display miniport driver.
 
-### -field DsiQueryCaps
+### -field DxgkDdiDsiCaps [out]
 
-[out] Pointer to a display miniport driver [DsiCaps](nc-dispmprt-dxgkddi_dsicaps.md) function to query capabilities for a particular target. `pArgs` is a [DXGI_DSI_CAPS](ns-dispmprt-dxgk_dsi_caps.md) structure.
+Pointer to a display miniport driver [DsiCaps](nc-dispmprt-dxgkddi_dsicaps.md) function to query capabilities for a particular target. `pArgs` is a [DXGI_DSI_CAPS](ns-dispmprt-dxgk_dsi_caps.md) structure.
 
-### -field DsiTransmission
+### -field DxgkDdiDsiTransmission [out]
 
-[out] Pointer to a display miniport driver [DsiTransmission](nc-dispmprt-dxgkddi_dsitransmission.md) function to perform a DSI transmission. `pArgs` is a [DXGI_DSI_TRANSMISSION](ns-dispmprt-dxgk_dsi_transmission.md) structure.
+Pointer to a display miniport driver [DsiTransmission](nc-dispmprt-dxgkddi_dsitransmission.md) function to perform a DSI transmission. `pArgs` is a [DXGI_DSI_TRANSMISSION](ns-dispmprt-dxgk_dsi_transmission.md) structure.
 
-### -field DsiReset
+### -field DxgkDdiDsiReset [out]
 
-[out] Pointer to a display miniport driver [DsiReset](nc-dispmprt-dxgkddi_dsireset.md) function to perform a DSI reset. `pArgs` is a [DXGI_DSI_RESET](ns-dispmprt-dxgk_dsi_reset.md) structure.
+Pointer to a display miniport driver [DsiReset](nc-dispmprt-dxgkddi_dsireset.md) function to perform a DSI reset. `pArgs` is a [DXGI_DSI_RESET](ns-dispmprt-dxgk_dsi_reset.md) structure.
 
 ## -remarks
 
@@ -101,4 +100,3 @@ A kernel-mode component that needs to use the MIPI DSI Display Control interface
 [DsiReset](nc-dispmprt-dxgkddi_dsireset.md)
 
 [DsiTransmission](nc-dispmprt-dxgkddi_dsitransmission.md)
-

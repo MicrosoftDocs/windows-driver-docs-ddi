@@ -45,21 +45,21 @@ dev_langs:
 
 ## -parameters
 
-### -param Dest
+### -param Dest [out]
 
-[out] Pointer to the destination buffer to copy to.
+Pointer to the destination buffer to copy to.
 
-### -param DestSizeInBytes
+### -param DestSizeInBytes [in]
 
-[in] Size of the buffer that **Dest** points to, in bytes.
+Size of the buffer that **Dest** points to, in bytes.
 
-### -param Src
+### -param Src [in]
 
-[in] Pointer to the source buffer to copy from.
+Pointer to the source buffer to copy from.
 
-### -param Count
+### -param Count [in]
 
-[in] Number of bytes to copy from **Src** to **Dest**.
+Number of bytes to copy from **Src** to **Dest**.
 
 ## -returns
 

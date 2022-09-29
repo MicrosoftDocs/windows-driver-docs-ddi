@@ -49,9 +49,9 @@ Clears and reinitializes the engine's managed code debugging support of the runt
 
 ## -parameters
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Flags for the debugging API.
 
 ## -returns

@@ -47,8 +47,6 @@ api_name:
 
 The <b>FsRtlIncrementCcFastMdlReadWait </b>routine increments the cache manager's <b>CcFastMdlReadWait</b> performance counter member in a processor control block (<a href="/windows-hardware/drivers/">PRCB</a>) object.
 
-## -parameters
-
 ## -remarks
 
 <b>FsRtlIncrementCcFastMdlReadWait </b>increments the cache manager's <b>CcFastMdlReadWait</b> performance counter in the per-processor control block for the processor on which <b>FsRtlIncrementCcFastMdlReadWait</b> is called. This counter records the number of fast I/O <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a> read operations (FsRtlMdlRead) serviced by a file system driver.  

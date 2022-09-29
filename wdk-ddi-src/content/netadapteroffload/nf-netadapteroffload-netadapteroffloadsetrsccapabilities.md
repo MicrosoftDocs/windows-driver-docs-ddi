@@ -3,7 +3,7 @@ UID: NF:netadapteroffload.NetAdapterOffloadSetRscCapabilities
 title: NetAdapterOffloadSetRscCapabilities function (netadapteroffload.h)
 description: The NetAdapterOffloadSetRscCapabilities function sets the hardware receive segment coalescence (RSC) offload capabilities of a network adapter.
 tech.root: netvista
-ms.date: 11/07/2019
+ms.date: 03/30/2022
 keywords: ["NetAdapterOffloadSetRscCapabilities function"]
 ms.keywords: NetAdapterOffloadSetRscCapabilities
 req.header: netadapteroffload.h
@@ -49,17 +49,13 @@ The **NetAdapterOffloadSetRscCapabilities** function sets the hardware receive s
 
 ## -parameters
 
-### -param Adapter
+### -param Adapter [_In_]
 
 A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
-### -param HardwareCapabilities
+### -param HardwareCapabilities [_In_]
 
 A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rsc_capabilities.md) structure that describes the hardware's RSC offload capabilities.
-
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

@@ -48,25 +48,25 @@ The StorPortInterlockedInsertHeadList routine atomically inserts an entry at the
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] A pointer to the hardware device extension for the host bus adapter (HBA).
+A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param ListHead
+### -param ListHead [in, out]
 
-[in, out] Pointer to the [**STOR_LIST_ENTRY**](ns-storport-_stor_list_entry.md) structure that represents the head of the list.
+Pointer to the [**STOR_LIST_ENTRY**](ns-storport-_stor_list_entry.md) structure that represents the head of the list.
 
-### -param ListEntry
+### -param ListEntry [in, out]
 
-[in, out] Pointer to a [**STOR_LIST_ENTRY**](ns-storport-_stor_list_entry.md) structure that represents the entry to be inserted into the list.
+Pointer to a [**STOR_LIST_ENTRY**](ns-storport-_stor_list_entry.md) structure that represents the entry to be inserted into the list.
 
-### -param Result
+### -param Result [in, out]
 
-[in, out] Pointer to a [**STOR_LIST_ENTRY**](ns-storport-_stor_list_entry.md) structure that represents the first entry of the list before the new entry was inserted.
+Pointer to a [**STOR_LIST_ENTRY**](ns-storport-_stor_list_entry.md) structure that represents the first entry of the list before the new entry was inserted.
 
-### -param Lock
+### -param Lock [in, out]
 
-[in, out] A pointer to a **STOR_KSPIN_LOCK** structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling [**StorPortInitializeSpinLock**](nf-storport-storportinitializespinlock.md).
+A pointer to a **STOR_KSPIN_LOCK** structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling [**StorPortInitializeSpinLock**](nf-storport-storportinitializespinlock.md).
 
 You must use this spin lock only with the **StorPortInterlocked*Xxx*List** routines.
 

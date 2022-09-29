@@ -49,19 +49,19 @@ The **HidD_GetProductString** routine returns the embedded string of a [top-leve
 
 ## -parameters
 
-### -param HidDeviceObject
+### -param HidDeviceObject [in]
 
-[in]
+
 Specifies an open handle to a top-level collection.
 
-### -param Buffer
+### -param Buffer [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that the routine uses to return the requested product string. The routine returns a NULL-terminated wide character string.
 
-### -param BufferLength
+### -param BufferLength [in]
 
-[in]
+
 Specifies the length, in bytes, of a caller-allocated buffer provided at *Buffer*. If the buffer is not large enough to return the entire NULL-terminated embedded string, the routine returns nothing in the buffer. The supplied buffer must be <= 4093 bytes (2^12 – 3).
 
 ## -returns
@@ -74,11 +74,11 @@ Only user-mode applications can call **HidD_GetProductString**. Kernel-mode driv
 
 The maximum possible number of characters in an embedded string is device specific. For USB devices, the maximum string length is 126 wide characters (not including the terminating NULL character).
 
-The **iProduct** member of a [USB_DEVICE_DESCRIPTOR](../usbspec/ns-usbspec-_usb_device_descriptor.md) structure for a particular interface is set by the [USB common class generic parent driver](../index.yml) based on the following rules:
+The **iProduct** member of a [USB_DEVICE_DESCRIPTOR](../usbspec/ns-usbspec-_usb_device_descriptor.md) structure for a particular interface is set by the [USB common class generic parent driver](/windows-hardware/drivers/usbcon/usb-common-class-generic-parent-driver) based on the following rules:
 
 - If the **iInterface** member of the [USB_INTERFACE_DESCRIPTOR](../usbspec/ns-usbspec-_usb_interface_descriptor.md) structure for the interface is nonzero, the **iProduct** member of the USB_DEVICE_DESCRIPTOR structure for the interface is set to the **iInterface** member of the USB_INTERFACE_DESCRIPTOR structure.
 
-- If the interface is grouped by a [USB interface association descriptor](../index.yml) and the **iFunction** member of the interface association descriptor for the interface is nonzero, the **iProduct** member of the USB_DEVICE_DESCRIPTOR structure for the interface is set to the **iFunction** member of the interface association descriptor.
+- If the interface is grouped by a [USB interface association descriptor](/windows-hardware/drivers/usbcon/usb-interface-association-descriptor) and the **iFunction** member of the interface association descriptor for the interface is nonzero, the **iProduct** member of the USB_DEVICE_DESCRIPTOR structure for the interface is set to the **iFunction** member of the interface association descriptor.
 
 If the supplied buffer is not <= 4093 bytes (2^12 – 3) the call may fail (depending on the underlying protocol, HID/Bluetooth/SPI) with error code ERROR_GEN_FAILURE (0x0000001f)
 

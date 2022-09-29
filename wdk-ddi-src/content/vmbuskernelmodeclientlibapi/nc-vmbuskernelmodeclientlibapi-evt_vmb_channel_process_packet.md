@@ -51,29 +51,29 @@ The <i>EvtVmbChannelProcessPacket</i> callback function is invoked when a packet
 
 ## -parameters
 
-### -param Channel 
+### -param Channel [in]
 
-[in]
+
 The channel on which the packet arrives.
 
-### -param Packet 
+### -param Packet [in]
 
-[in]
+
 The completion context, which identifies this packet to Kernel Mode Client Library (KMCL) when the transaction can be retired.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 The packet which was sent by the opposite endpoint.  This value does not contain the VMBus and KMCL headers.
 
-### -param BufferLength 
+### -param BufferLength [in]
 
-[in]
+
 The length of the <i>Buffer</i> parameter, in bytes.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Flags. Possible values include the following: 
 
 <table>

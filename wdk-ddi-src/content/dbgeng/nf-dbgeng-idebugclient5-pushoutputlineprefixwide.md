@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param NewPrefix 
+### -param NewPrefix [in, optional]
 
-[in, optional]
+
 A pointer to the new output line Unicode character prefix.
 
-### -param Handle 
+### -param Handle [out]
 
-[out]
+
 The handle of the previous output line prefix.
 
 ## -returns

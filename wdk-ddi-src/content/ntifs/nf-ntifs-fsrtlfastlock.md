@@ -65,49 +65,49 @@ FsRtlFastLock( A1,   /* FileLock            */
 
 ## -parameters
 
-### -param A1
+### -param A1 [in]
 
-[in] **FileLock**: Pointer to the [**FILE_LOCK**](/windows-hardware/drivers/ifs/file-lock) structure for the file. This structure must have been initialized by a previous call to [**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
+**FileLock**: Pointer to the [**FILE_LOCK**](/windows-hardware/drivers/ifs/file-lock) structure for the file. This structure must have been initialized by a previous call to [**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
 
-### -param A2
+### -param A2 [in]
 
-[in] **FileObject**: Pointer to the [**FILE_OBJECT**](../wdm/ns-wdm-_file_object.md) for the open file. The file object must have been created with GENERIC_READ or GENERIC_WRITE access to the file (or both).
+**FileObject**: Pointer to the [**FILE_OBJECT**](../wdm/ns-wdm-_file_object.md) for the open file. The file object must have been created with GENERIC_READ or GENERIC_WRITE access to the file (or both).
 
-### -param A3
+### -param A3 [in]
 
-[in] **FileOffset**: Pointer to a variable that specifies the starting byte offset within the file of the range to be locked.
+**FileOffset**: Pointer to a variable that specifies the starting byte offset within the file of the range to be locked.
 
-### -param A4
+### -param A4 [in]
 
-[in] **Length**: Pointer to a variable that specifies the length in bytes of the range to be locked.
+**Length**: Pointer to a variable that specifies the length in bytes of the range to be locked.
 
-### -param A5
+### -param A5 [in]
 
-[in] **ProcessId**: Pointer to the [**EPROCESS**](/windows-hardware/drivers/kernel/eprocess) process ID for the process requesting the byte-range lock.
+**ProcessId**: Pointer to the [**EPROCESS**](/windows-hardware/drivers/kernel/eprocess) process ID for the process requesting the byte-range lock.
 
-### -param A6
+### -param A6 [in]
 
-[in] **Key**: The key to be assigned to the byte-range lock.
+**Key**: The key to be assigned to the byte-range lock.
 
-### -param A7
+### -param A7 [in]
 
-[in] **FailImmediately**: Boolean value that specifies whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set **FailImmediately** to **FALSE**. If it cannot, set **FailImmediately** to **TRUE**.
+**FailImmediately**: Boolean value that specifies whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set **FailImmediately** to **FALSE**. If it cannot, set **FailImmediately** to **TRUE**.
 
-### -param A8
+### -param A8 [in]
 
-[in] **ExclusiveLock**: Set to **TRUE** if an exclusive lock is requested, **FALSE** if a shared lock is requested.
+**ExclusiveLock**: Set to **TRUE** if an exclusive lock is requested, **FALSE** if a shared lock is requested.
 
-### -param A9
+### -param A9 [out]
 
-[out] **Iosb**: Pointer to a caller-allocated [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives status information about the lock request.
+**Iosb**: Pointer to a caller-allocated [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives status information about the lock request.
 
-### -param A10
+### -param A10 [in]
 
-[in] **Context**: Optional pointer to a context to use when releasing the byte-range lock.
+**Context**: Optional pointer to a context to use when releasing the byte-range lock.
 
-### -param A11
+### -param A11 [in]
 
-[in] **AlreadySynchronized**: This parameter is obsolete, but is retained for compatibility with legacy drivers.
+**AlreadySynchronized**: This parameter is obsolete, but is retained for compatibility with legacy drivers.
 
 ## -returns
 

@@ -52,17 +52,17 @@ The DXVAHDDDI_STREAM_STATE_PRIVATE_DATA structure describes stream-state data th
 
 ## -struct-fields
 
-### -field Guid
+### -field Guid [in]
 
-[in] A GUID that identifies the private stream state.
+A GUID that identifies the private stream state.
 
-### -field DataSize
+### -field DataSize [in]
 
-[in] The size, in bytes, of the private stream-state data.
+The size, in bytes, of the private stream-state data.
 
-### -field pData
+### -field pData [in/out]
 
-[in/out] A pointer to the private stream-state data. The caller sets <b>pData</b> to <b>NULL</b> to retrieve the size of the private stream-state data.
+A pointer to the private stream-state data. The caller sets <b>pData</b> to <b>NULL</b> to retrieve the size of the private stream-state data.
 
 ## -remarks
 

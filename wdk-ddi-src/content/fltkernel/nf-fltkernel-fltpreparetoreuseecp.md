@@ -49,14 +49,14 @@ The <b>FltPrepareToReuseEcp</b> routine resets an extra create parameter (ECP) c
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 An opaque filter pointer for the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
-### -param EcpContext 
+### -param EcpContext [in]
 
-[in]
+
 A pointer to the ECP to prepare for reuse.
 
 ## -returns

@@ -49,9 +49,9 @@ The <b>InitializeListHead</b> routine initializes a <a href="/windows/win32/api/
 
 ## -parameters
 
-### -param ListHead 
+### -param ListHead [out]
 
-[out]
+
 Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that serves as the list header.
 
 ## -remarks

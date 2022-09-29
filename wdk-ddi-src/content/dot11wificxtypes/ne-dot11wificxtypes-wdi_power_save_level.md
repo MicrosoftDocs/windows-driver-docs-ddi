@@ -1,17 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_POWER_SAVE_LEVEL
 tech.root: netvista
-title: WDI_POWER_SAVE_LEVEL
-ms.date: 04/30/2021
+title: WDI_POWER_SAVE_LEVEL (dot11wificxtypes.h)
+ms.date: 07/23/2021
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WDI_POWER_SAVE_LEVEL enumeration for internal use only. Don't use this enumeration in your code."
+description: The WDI_POWER_SAVE_LEVEL enum defines the power save levels.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 11Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -36,30 +37,33 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!IMPORTANT]
+> This topic is part of the [WiFiCx driver model](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx). WiFiCx is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features. The previous Wi-Fi driver model [WDI](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) is in maintenance mode and will only receive high priority fixes.
 
-This function is reserved for system use and should not be called in your code.
+The **WDI_POWER_SAVE_LEVEL** enumeration defines the power save levels.
 
 ## -enum-fields
 
-### -field WDI_POWER_SAVE_LEVEL_NO_POWER_SAVE
+### -field WDI_POWER_SAVE_LEVEL_NO_POWER_SAVE:0
 
-Reserved.
+No power saving.
 
-### -field WDI_POWER_SAVE_LEVEL_FAST_PSP
+### -field WDI_POWER_SAVE_LEVEL_FAST_PSP:8
 
-Reserved.
+Fast PSP.
 
-### -field WDI_POWER_SAVE_LEVEL_MAX_PSP
+### -field WDI_POWER_SAVE_LEVEL_MAX_PSP:16
 
-Reserved.
+Maximum PSP.
 
-### -field WDI_POWER_SAVE_LEVEL_MAXIMUM_LEVEL
+### -field WDI_POWER_SAVE_LEVEL_MAXIMUM_LEVEL:24
 
-Reserved.
+Maximum power saving level.
 
 ## -remarks
 
+The **WDI_POWER_SAVE_LEVEL** enumeration is a value in the [**WDI_TLV_GET_AUTO_POWER_SAVE**](/windows-hardware/drivers/netcx/wdi-tlv-get-auto-power-save) TLV.
+
 ## -see-also
 
+[**WDI_TLV_GET_AUTO_POWER_SAVE**](/windows-hardware/drivers/netcx/wdi-tlv-get-auto-power-save)

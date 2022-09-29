@@ -54,14 +54,14 @@ The <b>WdfCollectionGetItem</b> method returns a handle to the object that is co
 
 ## -parameters
 
-### -param Collection 
+### -param Collection [in]
 
-[in]
+
 A handle to a collection object.
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 A zero-based index value that identifies an object in the collection.
 
 ## -returns

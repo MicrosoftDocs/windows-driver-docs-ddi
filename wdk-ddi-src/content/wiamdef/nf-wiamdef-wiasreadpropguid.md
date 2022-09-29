@@ -2,15 +2,14 @@
 UID: NF:wiamdef.wiasReadPropGuid
 title: wiasReadPropGuid function (wiamdef.h)
 description: The wiasReadPropGuid function retrieves a GUID property value from a WIA item.
-old-location: image\wiasreadpropguid.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 04/19/2022
 keywords: ["wiasReadPropGuid function"]
 ms.keywords: image.wiasreadpropguid, wiamdef/wiasReadPropGuid, wiasFncs_80e78a38-5f47-4bd3-b071-62eebc65fd6f.xml, wiasReadPropGuid, wiasReadPropGuid function [Imaging Devices]
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,41 +39,31 @@ api_name:
  - wiasReadPropGuid
 ---
 
-# wiasReadPropGuid function
-
-
 ## -description
 
-The <b>wiasReadPropGuid </b>function retrieves a GUID property value from a WIA item.
+The **wiasReadPropGuid** function retrieves a GUID property value from a WIA item.
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
 Pointer to a WIA item context.
 
 ### -param propid
 
 Specifies the property identifier.
 
-### -param pguidVal
-
-### -param pguidValOld
-
-### -param bMustExist
-
-Indicates whether the property must exist. If set to <b>TRUE</b>, the property must exist; if set to <b>FALSE</b>, the property does not have to exist.
-
-
-#### - pgVal [out]
+### -param pguidVal [out]
 
 Pointer to a memory location that receives the GUID property value.
 
+### -param pguidValOld [out, optional]
 
-#### - pgValOld [out, optional]
+Pointer to a memory location that receives the previous value of the GUID property data. If this information is not needed, this parameter can be set to **NULL**.
 
-Pointer to a memory location that receives the previous value of the GUID property data. If this information is not needed, this parameter can be set to <b>NULL</b>.
+### -param bMustExist
+
+Indicates whether the property must exist. If set to **TRUE**, the property must exist; if set to **FALSE**, the property does not have to exist.
 
 ## -returns
 
@@ -82,20 +71,12 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasreadpropbin">wiasReadPropBin</a>
+[wiasReadPropBin](./nf-wiamdef-wiasreadpropbin.md)
 
+[wiasReadPropFloat](./nf-wiamdef-wiasreadpropfloat.md)
 
+[wiasReadPropLong](./nf-wiamdef-wiasreadproplong.md)
 
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasreadpropfloat">wiasReadPropFloat</a>
+[wiasReadPropStr](./nf-wiamdef-wiasreadpropstr.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasreadproplong">wiasReadPropLong</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasreadpropstr">wiasReadPropStr</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropguid">wiasWritePropGuid</a>
+[wiasWritePropGuid](./nf-wiamdef-wiaswritepropguid.md)

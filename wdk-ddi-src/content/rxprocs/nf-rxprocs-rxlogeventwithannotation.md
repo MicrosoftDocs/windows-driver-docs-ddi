@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to the RDBSS device object.
 
 ### -param EventId
@@ -74,9 +74,9 @@ A pointer to the RDBSS device object.
 
 <p>A pointer to any annotation strings to add to the I/O error log structure.</p>
 
-### -param AnnotationCount 
+### -param AnnotationCount [in]
 
-[in]
+
 The count of the number of annotation strings to add to the I/O error log structure.
 
 ## -remarks

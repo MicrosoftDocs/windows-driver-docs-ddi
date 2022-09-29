@@ -55,25 +55,25 @@ The <b>PEP_ACPI_REGISTER_DEVICE</b> structure contains registration information 
 
 ## -struct-fields
 
-### -field AcpiDeviceName
+### -field AcpiDeviceName [in]
 
-[in] An <a href="/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a> structure that contains the fully qualified BIOS name for the device. The same name was previously supplied as an input value in the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_prepare_device">PEP_ACPI_PREPARE_DEVICE</a> notification for the device. This name specifies the path and name of the device in the ACPI namespace. For more information, see <a href="/windows-hardware/drivers/acpi/enumerating-child-devices-and-control-methods">Enumerating Child Devices and Control Methods</a>.
+An <a href="/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a> structure that contains the fully qualified BIOS name for the device. The same name was previously supplied as an input value in the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_prepare_device">PEP_ACPI_PREPARE_DEVICE</a> notification for the device. This name specifies the path and name of the device in the ACPI namespace. For more information, see <a href="/windows-hardware/drivers/acpi/enumerating-child-devices-and-control-methods">Enumerating Child Devices and Control Methods</a>.
 
-### -field InputFlags
+### -field InputFlags [in]
 
-[in] A set of input flags. No flags are currently defined for this member, which is always set to PEP_ACPI_REGISTER_DEVICE_INPUT_FLAG_NONE (0x0).
+A set of input flags. No flags are currently defined for this member, which is always set to PEP_ACPI_REGISTER_DEVICE_INPUT_FLAG_NONE (0x0).
 
-### -field KernelHandle
+### -field KernelHandle [in]
 
-[in] A POHANDLE value that represents the registration of the device with the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The PEP can use this handle to identify the device in subsequent communications with PoFx.
+A POHANDLE value that represents the registration of the device with the Windows <a href="/windows-hardware/drivers/ddi/_kernel/#device-power-management">power management framework</a> (PoFx). The PEP can use this handle to identify the device in subsequent communications with PoFx.
 
-### -field DeviceHandle
+### -field DeviceHandle [out]
 
-[out] A PEPHANDLE value that identifies the registration of this device for ACPI services. This handle is created by the PEP. In subsequent ACPI service notifications, PoFx will use this handle to identify the device.
+A PEPHANDLE value that identifies the registration of this device for ACPI services. This handle is created by the PEP. In subsequent ACPI service notifications, PoFx will use this handle to identify the device.
 
-### -field OutputFlags
+### -field OutputFlags [out]
 
-[out] A set of output flags. No flags are currently defined for this member. Set this member to PEP_ACPI_REGISTER_DEVICE_OUTPUT_FLAG_NONE (0x0).
+A set of output flags. No flags are currently defined for this member. Set this member to PEP_ACPI_REGISTER_DEVICE_OUTPUT_FLAG_NONE (0x0).
 
 ## -remarks
 

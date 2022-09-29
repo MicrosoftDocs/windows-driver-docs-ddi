@@ -49,19 +49,19 @@ The <b>ZwWaitForSingleObject</b> routine waits until the specified object attain
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 A handle to the object.
 
-### -param Alertable 
+### -param Alertable [in]
 
-[in]
+
 A boolean value that specifies whether the wait is alertable.
 
-### -param Timeout 
+### -param Timeout [in, optional]
 
-[in, optional]
+
 An optional pointer to a time-out value that specifies the absolute or relative time at which the wait is to be completed. A negative value specifies an interval relative to the current time. The value should be expressed in units of 100 nanoseconds. Absolute expiration times track any changes in the system time. Relative expiration times are not affected by system time changes.
 
 ## -returns

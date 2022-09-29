@@ -1,10 +1,9 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_SEC_AER_CAPABILITIES
-title: _PCI_EXPRESS_SEC_AER_CAPABILITIES (miniport.h)
-description: The _PCI_EXPRESS_SEC_AER_CAPABILITIES structure (miniport.h) describes a PCI Express (PCIe) secondary error capabilities and control register.
-old-location: pci\pci_express_sec_aer_capabilities.htm
+title: PCI_EXPRESS_SEC_AER_CAPABILITIES (miniport.h)
+description: The _PCI_EXPRESS_SEC_AER_CAPABILITIES union (miniport.h) describes a PCI Express (PCIe) secondary error capabilities and control register.
 tech.root: PCI
-ms.date: 02/24/2018
+ms.date: 07/19/2022
 keywords: ["PCI_EXPRESS_SEC_AER_CAPABILITIES structure"]
 ms.keywords: "*PPCI_EXPRESS_SEC_AER_CAPABILITIES, PCI.pci_express_sec_aer_capabilities, PCI_EXPRESS_SEC_AER_CAPABILITIES, PCI_EXPRESS_SEC_AER_CAPABILITIES union [Buses], PPCI_EXPRESS_SEC_AER_CAPABILITIES, PPCI_EXPRESS_SEC_AER_CAPABILITIES union pointer [Buses], _PCI_EXPRESS_SEC_AER_CAPABILITIES, pci_struct_22bcb7f0-e690-414b-ba51-37c8783a6fad.xml, wdm/PCI_EXPRESS_SEC_AER_CAPABILITIES, wdm/PPCI_EXPRESS_SEC_AER_CAPABILITIES"
 req.header: miniport.h
@@ -46,50 +45,34 @@ api_name:
  - PCI_EXPRESS_SEC_AER_CAPABILITIES
 ---
 
-# _PCI_EXPRESS_SEC_AER_CAPABILITIES structure (miniport.h)
-
-
 ## -description
 
-The PCI_EXPRESS_SEC_AER_CAPABILITIES structure describes a PCI Express (PCIe) secondary error capabilities and control register of a PCIe advanced error reporting capability structure.
+The **PCI_EXPRESS_SEC_AER_CAPABILITIES** union describes a PCI Express (PCIe) secondary error capabilities and control register of a PCIe advanced error reporting capability structure.
 
 ## -struct-fields
 
 ### -field DUMMYSTRUCTNAME
 
-### -field AsULONG
+The **DUMMYSTRUCTNAME** structure.
 
-A ULONG representation of the contents of the PCI_EXPRESS_SEC_AER_CAPABILITIES structure.
-
-
-#### - Reserved
-
-Reserved for system use.
-
-
-#### - SecondaryUncorrectableFirstErrorPtr
+### -field DUMMYSTRUCTNAME.SecondaryUncorrectableFirstErrorPtr
 
 The bit position of the first error that was reported in the PCIe secondary uncorrectable error status register.
 
-## -syntax
+### -field DUMMYSTRUCTNAME.Reserved
 
-```cpp
-typedef union _PCI_EXPRESS_SEC_AER_CAPABILITIES {
-  struct {
-    ULONG SecondaryUncorrectableFirstErrorPtr  :5;
-    ULONG Reserved  :27;
-  };
-  ULONG  AsULONG;
-} PCI_EXPRESS_SEC_AER_CAPABILITIES, *PPCI_EXPRESS_SEC_AER_CAPABILITIES;
-```
+Reserved.
+
+### -field AsULONG
+
+A ULONG representation of the contents of the **PCI_EXPRESS_SEC_AER_CAPABILITIES** union.
 
 ## -remarks
 
-The PCI_EXPRESS_SEC_AER_CAPABILITIES structure is available in Windows Server 2008 and later versions of Windows.
+The **PCI_EXPRESS_SEC_AER_CAPABILITIES** union is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_SEC_AER_CAPABILITIES structure is contained in the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a> structure.
+A **PCI_EXPRESS_SEC_AER_CAPABILITIES** union is contained in the [PCI_EXPRESS_BRIDGE_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
-
+[PCI_EXPRESS_BRIDGE_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability)

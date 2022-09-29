@@ -4,7 +4,7 @@ title: PUSB_BUSIFFN_QUERY_BUS_TIME (usbbusif.h)
 description: The QueryBusTime function gets the current 32-bit USB frame number.
 old-location: buses\querybustime.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 02/04/2022
 keywords: ["PUSB_BUSIFFN_QUERY_BUS_TIME callback function"]
 ms.keywords: PUSB_BUSIFFN_QUERY_BUS_TIME, QueryBusTime, QueryBusTime callback function [Buses], USB_BUSIFFN_QUERY_BUS_TIME, USB_BUSIFFN_QUERY_BUS_TIME callback, buses.querybustime, usbbusif/QueryBusTime, usbinterKR_857e67cf-8b61-43e3-b07f-25968e2672d4.xml
 req.header: usbbusif.h
@@ -42,19 +42,27 @@ api_name:
 
 # PUSB_BUSIFFN_QUERY_BUS_TIME callback function
 
-
 ## -description
 
-The <i>QueryBusTime</i> function gets the current 32-bit USB frame number.
+The *QueryBusTime* function gets the current 32-bit USB frame number.
+
+## -syntax
+
+```cpp
+typedef NTSTATUS
+  (USB_BUSIFFN *PUSB_BUSIFFN_QUERY_BUS_TIME) (
+    IN PVOID,
+    IN PULONG
+  );
+```
 
 ## -parameters
 
-#### - BusContext [in]
+### -param unnamedParam1 [in]
 
-Handle returned in the <b>BusContext</b> member of the <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v0">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
+Handle returned in the **BusContext** member of the [USB_BUS_INTERFACE_USBDI_V0](ns-usbbusif-_usb_bus_interface_usbdi_v0.md) structure by an IRP_MN_QUERY_INTERFACE request.
 
-
-#### - CurrentFrame [out, optional]
+### -param unnamedParam2 [out, optional]
 
 Receives the current USB frame number.
 
@@ -64,17 +72,8 @@ Returns STATUS_SUCCESS on success, and the appropriate error code on failure.
 
 ## -remarks
 
-This routine replaces the <b>USBD_QueryBusTime</b>  library function provided by usbd.sys. 
-
-The function definition that is provided on this reference page is an example function whose parameters are just placeholder names. The actual prototype of the function is declared in usbbusif.h as follows:
-
-<pre class="syntax"><code>typedef NTSTATUS
-  (USB_BUSIFFN *PUSB_BUSIFFN_QUERY_BUS_TIME) (
-    IN PVOID,
-    IN PULONG</code></pre>
-  );
+This routine replaces the **USBD_QueryBusTime**  library function provided by *usbd.sys*.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v0">USB_BUS_INTERFACE_USBDI_V0</a>
-
+- [USB_BUS_INTERFACE_USBDI_V0](ns-usbbusif-_usb_bus_interface_usbdi_v0.md)

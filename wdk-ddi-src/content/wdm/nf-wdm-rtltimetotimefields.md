@@ -43,22 +43,19 @@ api_name:
 
 # RtlTimeToTimeFields function
 
-
 ## -description
 
 The RtlTimeToTimeFields routine converts system time into a <b>TIME_FIELDS</b> structure.
 
 ## -parameters
 
-### -param Time 
+### -param Time [in]
 
-[in]
 Pointer to a buffer containing the absolute system time as a large integer, accurate to 100-nanosecond resolution.
 
-### -param TimeFields 
+### -param TimeFields [out]
 
-[out]
-Pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<b>TIME_FIELDS</b>), to contain the returned information.
+Pointer to a structure of type [**TIME_FIELDS**](./ns-wdm-time_fields.md) to contain the returned information.
 
 ## -returns
 
@@ -68,20 +65,14 @@ None
 
 Callers of <b>RtlTimeToTimeFields</b> can be running at any IRQL if both input buffers are resident.
 
-For more info about the **TIME_FIELDS** structure, see [RtlTimeFieldsToTime function](./nf-wdm-rtltimefieldstotime.md).
-
 ## -see-also
+
+[**TIME_FIELDS** structure](./ns-wdm-time_fields.md)
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exlocaltimetosystemtime">ExLocalTimeToSystemTime</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exsystemtimetolocaltime">ExSystemTimeToLocalTime</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime">KeQuerySystemTime</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtltimefieldstotime">RtlTimeFieldsToTime</a>

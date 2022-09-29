@@ -4,7 +4,7 @@ title: _WWAN_ACTIVATION_COMMAND (wwan.h)
 description: The WWAN_ACTIVATION_COMMAND enumeration lists the Packet Data Protocol (PDP) activation commands that are supported by the MB device.
 old-location: netvista\wwan_activation_command.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/29/2021
 keywords: ["WWAN_ACTIVATION_COMMAND enumeration"]
 ms.keywords: "*PWWAN_ACTIVATION_COMMAND, PWWAN_ACTIVATION_COMMAND, PWWAN_ACTIVATION_COMMAND enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_ACTIVATION_COMMAND, WWAN_ACTIVATION_COMMAND enumeration [Network Drivers Starting with Windows Vista], WwanActivationCommandActivate, WwanActivationCommandDeactivate, WwanActivationCommandMax, WwanRef_55137856-bb05-49ac-b318-cc6922a90445.xml, _WWAN_ACTIVATION_COMMAND, netvista.wwan_activation_command, wwan/PWWAN_ACTIVATION_COMMAND, wwan/WWAN_ACTIVATION_COMMAND, wwan/WwanActivationCommandActivate, wwan/WwanActivationCommandDeactivate, wwan/WwanActivationCommandMax"
 req.header: wwan.h
@@ -68,6 +68,10 @@ Activate PDP context.
 ### -field WwanActivationCommandMax
 
 The total number of supported activation commands.
+
+### -field WwanActivationCommandCancel
+
+Cancel a currently activated PDP context.
 
 ## -see-also
 

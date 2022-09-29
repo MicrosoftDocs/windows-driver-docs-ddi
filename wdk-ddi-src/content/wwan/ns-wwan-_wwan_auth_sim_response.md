@@ -4,7 +4,7 @@ title: _WWAN_AUTH_SIM_RESPONSE (wwan.h)
 description: The WWAN_AUTH_SIM_RESPONSE structure represents a response to a SIM authentication challenge.
 old-location: netvista\wwan_auth_sim_response.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 03/11/2022
 keywords: ["WWAN_AUTH_SIM_RESPONSE structure"]
 ms.keywords: "*PWWAN_AUTH_SIM_RESPONSE, PWWAN_AUTH_SIM_RESPONSE, PWWAN_AUTH_SIM_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_SIM_RESPONSE, WWAN_AUTH_SIM_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_SIM_RESPONSE, netvista.wwan_auth_sim_response, wwan/PWWAN_AUTH_SIM_RESPONSE, wwan/WWAN_AUTH_SIM_RESPONSE"
 req.header: wwan.h
@@ -55,49 +55,39 @@ The WWAN_AUTH_SIM_RESPONSE structure represents a response to a SIM authenticati
 
 ## -struct-fields
 
-### -field Sres1
 
-### -field Kc1
-
-### -field Sres2
-
-### -field Kc2
-
-### -field Sres3
-
-### -field Kc3
 
 ### -field n
 
 The number of responses.
 
 
-#### - Kc1[WWAN_AUTH_KC_LEN]
+### -field Kc1
 
 Encryption key 1 of 64 bit. This member represents a multi-byte value in little-endian format.
 
 
-#### - Kc2[WWAN_AUTH_KC_LEN]
+### -field Kc2
 
 Encryption key 2 of 64 bit. This member represents a multi-byte value in little-endian format.
 
 
-#### - Kc3[WWAN_AUTH_KC_LEN]
+### -field Kc3
 
 Encryption key 3 of 64 bit. This member represents a multi-byte value in little-endian format.
 
 
-#### - Sres1[WWAN_AUTH_SRES_LEN]
+### -field Sres1
 
 Response 1 of 32 bit. This member represents a multi-byte value in little-endian format.
 
 
-#### - Sres2[WWAN_AUTH_SRES_LEN]
+### -field Sres2
 
 Response 2 of 32 bit. This member represents a multi-byte value in little-endian format.
 
 
-#### - Sres3[WWAN_AUTH_SRES_LEN]
+### -field Sres3
 
 Response 3 of 32 bit. This member represents a multi-byte value in little-endian format.
 

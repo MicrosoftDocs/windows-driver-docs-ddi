@@ -4,7 +4,7 @@ title: IDebugClient5::GetRunningProcessDescriptionWide (dbgeng.h)
 description: The IDebugClient5::GetRunningProcessDescriptionWide method returns a description of the process that includes several elements.
 old-location: debugger\getrunningprocessdescriptionwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugClient5::GetRunningProcessDescriptionWide"]
 ms.keywords: GetRunningProcessDescriptionWide, GetRunningProcessDescriptionWide method [Windows Debugging], GetRunningProcessDescriptionWide method [Windows Debugging],IDebugClient3 interface, GetRunningProcessDescriptionWide method [Windows Debugging],IDebugClient4 interface, GetRunningProcessDescriptionWide method [Windows Debugging],IDebugClient5 interface, IDebugClient3 interface [Windows Debugging],GetRunningProcessDescriptionWide method, IDebugClient3::GetRunningProcessDescriptionWide, IDebugClient4 interface [Windows Debugging],GetRunningProcessDescriptionWide method, IDebugClient4::GetRunningProcessDescriptionWide, IDebugClient5 interface [Windows Debugging],GetRunningProcessDescriptionWide method, IDebugClient5.GetRunningProcessDescriptionWide, IDebugClient5::GetRunningProcessDescriptionWide, dbgeng/IDebugClient3::GetRunningProcessDescriptionWide, dbgeng/IDebugClient4::GetRunningProcessDescriptionWide, dbgeng/IDebugClient5::GetRunningProcessDescriptionWide, debugger.getrunningprocessdescriptionwide
 req.header: dbgeng.h
@@ -49,19 +49,19 @@ The <b>GetRunningProcessDescriptionWide</b> method returns a description of the 
 
 ## -parameters
 
-### -param Server 
+### -param Server [in]
 
-[in]
+
 Specifies the process server to query for the process description.  If <i>Server</i> is zero, the engine will query information about the local process directly.
 
-### -param SystemId 
+### -param SystemId [in]
 
-[in]
+
 Specifies the process ID of the process whose description is desired.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies a bit-set containing options that affect the behavior of this method.  <i>Flags</i> can contain the following bit flags:
 
 <table>
@@ -111,35 +111,35 @@ Do not retrieve the command line.
 </tr>
 </table>
 
-### -param ExeName 
+### -param ExeName [out, optional]
 
-[out, optional]
+
 Receives the name of the executable file used to start the process.  If <i>ExeName</i> is <b>NULL</b>, this information is not returned.
 
-### -param ExeNameSize 
+### -param ExeNameSize [in]
 
-[in]
-Specifies the size in characters of the buffer <i>ExeNameSize</i>.
 
-### -param ActualExeNameSize 
+Specifies the size in characters of the buffer <i>ExeNameSize</i>. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the executable file name.  If <i>ExeNameSize</i> is <b>NULL</b>, this information is not returned.
+### -param ActualExeNameSize [out, optional]
 
-### -param Description 
 
-[out, optional]
+Receives the size in characters of the executable file name. This size includes the space for the '\0' terminating character. If <i>ExeNameSize</i> is <b>NULL</b>, this information is not returned.
+
+### -param Description [out, optional]
+
+
 Receives extra information about the process, including service names, MTS package names, and the command line.  If <i>Description</i> is <b>NULL</b>, this information is not returned.
 
-### -param DescriptionSize 
+### -param DescriptionSize [in]
 
-[in]
-Specifies the size in characters of the buffer <i>Description</i>.
 
-### -param ActualDescriptionSize 
+Specifies the size in characters of the buffer <i>Description</i>. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the extra information.  If <i>ActualDescriptionSize</i> is <b>NULL</b>, this information is not returned.
+### -param ActualDescriptionSize [out, optional]
+
+
+Receives the size in characters of the extra information. This size includes the space for the '\0' terminating character. If <i>ActualDescriptionSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

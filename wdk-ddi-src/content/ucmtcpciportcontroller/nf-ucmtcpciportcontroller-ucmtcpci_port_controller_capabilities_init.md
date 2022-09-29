@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param Capabilities 
+### -param Capabilities [out]
 
-[out]
+
 A pointer to the driver-allocated <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpci_port_controller_capabilities_init">UCMTCPCI_PORT_CONTROLLER_CAPABILITIE</a>S structure.
 
 ## -see-also

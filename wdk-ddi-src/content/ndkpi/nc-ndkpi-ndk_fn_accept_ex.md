@@ -45,53 +45,53 @@ The *NdkAcceptEx* (*NDK_FN_ACCEPT_EX*) function accepts an incoming connection r
 
 ## -parameters
 
-### -param pNdkConnector 
+### -param pNdkConnector [in]
 
-[in]
+
 A pointer to an NDK connector object ([NDK_CONNECTOR](./ns-ndkpi-_ndk_connector.md)).
 
-### -param pNdkQp 
+### -param pNdkQp [in]
 
-[in]
+
 A pointer to an NDK queue pair (QP) object ([NDK_QP](./ns-ndkpi-_ndk_qp.md)) to associate with the connection.
 
-### -param InboundReadLimit 
+### -param InboundReadLimit [in]
 
-[in]
+
 The consumer-supplied maximum number of incoming in-progress read operations to allow on the QP. If the underlying provider has a lower **MaxInboundReadLimit** value in the [NDK_ADAPTER_INFO](/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info) structure, then the provider will cap the consumer-supplied value to the provider maximum. If the peer has a lower *OutboundReadLimit* value, then the provider will use that value as the effective *InboundReadLimit*. The consumer can retrieve the effective *InboundReadLimit* by calling the *NdkGetConnectionData* function ([NDK_FN_GET_CONNECTION_DATA](./nc-ndkpi-ndk_fn_get_connection_data.md)).
 
-### -param OutboundReadLimit 
+### -param OutboundReadLimit [in]
 
-[in]
+
 The consumer-supplied maximum number of outgoing in-progress read operations to allow on the QP. If the underlying provider has a lower **MaxOutboundReadLimit** value  in the [NDK_ADAPTER_INFO](/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info) structure, then the provider will cap the consumer supplied value to the provider maximum. If the peer has a lower *InboundReadLimit*, then the provider will use that value as the effective *OutboundReadLimit*. The consumer can retrieve the effective *OutboundReadLimit* by calling the *NdkGetConnectionData* function ([NDK_FN_GET_CONNECTION_DATA](./nc-ndkpi-ndk_fn_get_connection_data.md)).
 
-### -param PVOID
+### -param pPrivateData [_In_reads_bytes_opt_(PrivateDataLength)]
 
 Private data that is sent back with the accept request.
 
-### -param PrivateDataLength 
+### -param PrivateDataLength [in]
 
-[in]
+
 The length, in bytes, of the private data that is provided in the *pPrivateData* parameter.
 
-### -param DisconnectEvent
+### -param DisconnectEvent [in, optional]
 
-[in, optional]
+
 An entry point for an optional disconnect notification callback function NdkDisconnectEventCallbackEx [NDK_FN_DISCONNECT_EVENT_CALLBACK_EX](nc-ndkpi-ndk_fn_disconnect_event_callback_ex.md). The provider calls this callback function when the peer disconnects.
 
-### -param DisconnectEventContext 
+### -param DisconnectEventContext [in, optional]
 
-[in, optional]
+
 A context value to pass to the *DisconnectEventContext* parameter of the  callback function that is specified in the *DisconnectEvent* parameter.
 
-### -param RequestCompletion 
+### -param RequestCompletion [in]
 
-[in]
+
 A pointer to a request completion callback routine *NdkRequestCompletion* ([NDK_FN_REQUEST_COMPLETION](./nc-ndkpi-ndk_fn_request_completion.md)).
 
-### -param RequestContext 
+### -param RequestContext [in, optional]
 
-[in, optional]
+
 A context value to pass to the *Context* parameter of the  callback function that is specified in the *RequestCompletion* parameter.
 
 ## -returns

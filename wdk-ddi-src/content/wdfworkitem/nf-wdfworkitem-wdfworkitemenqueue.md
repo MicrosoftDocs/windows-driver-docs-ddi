@@ -54,9 +54,9 @@ The <b>WdfWorkItemEnqueue</b> method adds a specified framework work-item object
 
 ## -parameters
 
-### -param WorkItem 
+### -param WorkItem [in]
 
-[in]
+
 A handle to a framework work-item object that is obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>.
 
 ## -remarks

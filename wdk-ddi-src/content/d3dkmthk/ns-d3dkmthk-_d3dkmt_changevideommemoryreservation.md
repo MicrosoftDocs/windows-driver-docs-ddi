@@ -48,26 +48,26 @@ Used to change the video memory management reservation.
 
 ## -struct-fields
 
-### -field hProcess
+### -field hProcess [in, opt]
 
-[in, opt] A handle to a process. If NULL, the current process is used. The process handle must be opened with PROCESS_SET_INFORMATION privileges.
+A handle to a process. If NULL, the current process is used. The process handle must be opened with PROCESS_SET_INFORMATION privileges.
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] A handle to the graphics adapter.
+A handle to the graphics adapter.
 
-### -field MemorySegmentGroup
+### -field MemorySegmentGroup [in]
 
-[in] The memory segment group to change reservation for.
+The memory segment group to change reservation for.
 
-### -field Reservation
+### -field Reservation [in]
 
-[in] Desired reservation in the range between 0 and AvailableForReservation returned by [QueryVideoMemoryInfo](nf-d3dkmthk-d3dkmtqueryvideomemoryinfo.md).
+Desired reservation in the range between 0 and AvailableForReservation returned by [QueryVideoMemoryInfo](nf-d3dkmthk-d3dkmtqueryvideomemoryinfo.md).
 
-### -field PhysicalAdapterIndex
+### -field PhysicalAdapterIndex [in]
 
  
-[in] Zero based physical adapter index in the LDA (linked display adapter) configuration.
+Zero based physical adapter index in the LDA (linked display adapter) configuration.
 
 ## -remarks
 

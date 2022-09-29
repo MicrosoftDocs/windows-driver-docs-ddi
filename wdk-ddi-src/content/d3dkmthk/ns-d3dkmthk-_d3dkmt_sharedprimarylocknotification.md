@@ -52,17 +52,17 @@ The D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure describes the shared primary 
 
 ## -struct-fields
 
-### -field AdapterLuid
+### -field AdapterLuid [in]
 
-[in] The locally unique identifier (<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists.
+The locally unique identifier (<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology on which the GDI shared primary surface exists.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology on which the GDI shared primary surface exists.
 
-### -field LockRect
+### -field LockRect [in]
 
-[in] A <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that indicates the upper-left and lower-right points of a rectangle on the shared primary surface; the operating system disables all sprites that intersect with this rectangle. If the OpenGL ICD specifies zero for each member of RECTL, the operating system disables all sprites on the shared primary surface.
+A <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that indicates the upper-left and lower-right points of a rectangle on the shared primary surface; the operating system disables all sprites that intersect with this rectangle. If the OpenGL ICD specifies zero for each member of RECTL, the operating system disables all sprites on the shared primary surface.
 
 ## -see-also
 

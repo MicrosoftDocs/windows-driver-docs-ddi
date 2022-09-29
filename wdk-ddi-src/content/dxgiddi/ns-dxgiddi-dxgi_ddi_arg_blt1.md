@@ -49,65 +49,65 @@ Describes the parameters of a bit-block transfer (bitblt) that include specifica
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the display device (graphics context) on which the driver performs the bitblt. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createdevice">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function to create the display device.
+A handle to the display device (graphics context) on which the driver performs the bitblt. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createdevice">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function to create the display device.
 
-### -field hDstResource
+### -field hDstResource [in]
 
-[in] A handle to the destination resource.
+A handle to the destination resource.
 
-### -field DstSubresource
+### -field DstSubresource [in]
 
-[in] The index to the destination surface within the resource.
+The index to the destination surface within the resource.
 
-### -field DstLeft
+### -field DstLeft [in]
 
-[in] The <i>x</i>-coordinate of the upper-left corner of the destination rectangle.
+The <i>x</i>-coordinate of the upper-left corner of the destination rectangle.
 
-### -field DstTop
+### -field DstTop [in]
 
-[in] The <i>y</i>-coordinate of the upper-left corner of the destination rectangle.
+The <i>y</i>-coordinate of the upper-left corner of the destination rectangle.
 
-### -field DstRight
+### -field DstRight [in]
 
-[in] The <i>x</i>-coordinate of the lower-right corner of the destination rectangle.
+The <i>x</i>-coordinate of the lower-right corner of the destination rectangle.
 
-### -field DstBottom
+### -field DstBottom [in]
 
-[in] The <i>y</i>-coordinate of the lower-right corner of the destination rectangle.
+The <i>y</i>-coordinate of the lower-right corner of the destination rectangle.
 
-### -field hSrcResource
+### -field hSrcResource [in]
 
-[in] A handle to the source resource.
+A handle to the source resource.
 
-### -field SrcSubresource
+### -field SrcSubresource [in]
 
-[in] The index to the source surface within the resource.
+The index to the source surface within the resource.
 
-### -field SrcLeft
+### -field SrcLeft [in]
 
-[in] The <i>x</i>-coordinate of the upper-left corner of the source rectangle.
+The <i>x</i>-coordinate of the upper-left corner of the source rectangle.
 
-### -field SrcTop
+### -field SrcTop [in]
 
-[in] The <i>y</i>-coordinate of the upper-left corner of the source rectangle.
+The <i>y</i>-coordinate of the upper-left corner of the source rectangle.
 
-### -field SrcRight
+### -field SrcRight [in]
 
-[in] The <i>x</i>-coordinate of the lower-right corner of the source rectangle.
+The <i>x</i>-coordinate of the lower-right corner of the source rectangle.
 
-### -field SrcBottom
+### -field SrcBottom [in]
 
-[in] The <i>y</i>-coordinate of the lower-right corner of the destination rectangle.
+The <i>y</i>-coordinate of the lower-right corner of the destination rectangle.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_blt_flags">DXGI_DDI_ARG_BLT_FLAGS</a> structure that identifies the type of bitblt to perform.
+A <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_blt_flags">DXGI_DDI_ARG_BLT_FLAGS</a> structure that identifies the type of bitblt to perform.
 
-### -field Rotate
+### -field Rotate [in]
 
-[in] A value of type <a href="/windows-hardware/drivers/ddi/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_rotation">DXGI_DDI_MODE_ROTATION</a> that identifies the orientation of the display mode.
+A value of type <a href="/windows-hardware/drivers/ddi/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_rotation">DXGI_DDI_MODE_ROTATION</a> that identifies the orientation of the display mode.
 
 ## -remarks
 

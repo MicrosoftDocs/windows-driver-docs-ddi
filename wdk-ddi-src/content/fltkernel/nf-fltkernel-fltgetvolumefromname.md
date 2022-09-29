@@ -4,7 +4,7 @@ title: FltGetVolumeFromName function (fltkernel.h)
 description: The FltGetVolumeFromName routine returns an opaque pointer for the volume whose name matches the value of the VolumeName parameter.
 old-location: ifsk\fltgetvolumefromname.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 08/10/2022
 keywords: ["FltGetVolumeFromName function"]
 ms.keywords: FltApiRef_e_to_o_1132de70-bc75-48a2-b0ae-d5b6d67a0a07.xml, FltGetVolumeFromName, FltGetVolumeFromName routine [Installable File System Drivers], fltkernel/FltGetVolumeFromName, ifsk.fltgetvolumefromname
 req.header: fltkernel.h
@@ -42,113 +42,55 @@ api_name:
 
 # FltGetVolumeFromName function
 
-
 ## -description
 
-\The <b>FltGetVolumeFromName</b> routine returns an opaque pointer for the volume whose name matches the value of the <i>VolumeName</i> parameter.
+The **FltGetVolumeFromName** routine returns an opaque pointer for the volume whose name matches the value of the **VolumeName** parameter.
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
-Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
+Opaque filter pointer for the caller. This parameter is required and cannot be **NULL**.
 
-### -param VolumeName 
+### -param VolumeName [in]
 
-[in]
-Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the volume name (for example, "\Device\HarddiskVolume1", "\DosDevices\D:", "\\??\D:", or "D:"). This parameter is required and cannot be <b>NULL</b>.
+Pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains the volume name (for example, "\Device\HarddiskVolume1", "\DosDevices\D:", "\\??\D:", or "D:"). This parameter is required and cannot be **NULL**.
 
-### -param RetVolume 
+### -param RetVolume [out]
 
-[out]
-Pointer to a caller-allocated variable that receives an opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>.
+Pointer to a caller-allocated variable that receives an opaque pointer for the volume. This parameter is required and cannot be **NULL**.
 
 ## -returns
 
-<b>FltGetVolumeFromName</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following: 
+**FltGetVolumeFromName** returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The caller did not have FILE_READ_DATA access to the volume. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The volume is being torn down. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid value was specified for the <i>VolumeName</i> parameter. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_VOLUME_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-No matching volume was found. This is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_ACCESS_DENIED | The caller did not have FILE_READ_DATA access to the volume. This is an error code. |
+| STATUS_FLT_DELETING_OBJECT | The volume is being torn down. This is an error code. |
+| STATUS_INVALID_PARAMETER | An invalid value was specified for the **VolumeName** parameter. This is an error code. |
+| STATUS_FLT_VOLUME_NOT_FOUND | No matching volume was found. This is an error code. |
 
 ## -remarks
 
-<b>FltGetVolumeFromName</b> searches the Filter Manager's global list of volumes for a volume whose name matches <i>VolumeName</i>. The caller must have FILE_READ_DATA access to the volume. To locate the volume structure, <b>FltGetVolumeFromName</b> must first open the volume.
+**FltGetVolumeFromName** searches the Filter Manager's global list of volumes for a volume whose name matches **VolumeName**. The caller must have FILE_READ_DATA access to the volume. To locate the volume structure, **FltGetVolumeFromName** must first open the volume.
 
-<b>FltGetVolumeFromName</b> adds a rundown reference to the opaque volume pointer returned in the <i>RetVolume</i> parameter. When this pointer is no longer needed, the caller must release it by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>. Thus every successful call to <b>FltGetVolumeFromName</b> must be matched by a subsequent call to <b>FltObjectDereference</b>. 
+**FltGetVolumeFromName** adds a rundown reference to the opaque volume pointer returned in the **RetVolume** parameter. When this pointer is no longer needed, the caller must release it by calling [**FltObjectDereference**](nf-fltkernel-fltobjectdereference.md). Thus every successful call to **FltGetVolumeFromName** must be matched by a subsequent call to **FltObjectDereference**.
 
-To get the volume name for a given volume, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumename">FltGetVolumeName</a>. 
+To get the volume name for a given volume, call [**FltGetVolumeName**](nf-fltkernel-fltgetvolumename.md).
 
-To get the volume GUID name for a given volume, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeguidname">FltGetVolumeGuidName</a>.
+To get the volume GUID name for a given volume, call [**FltGetVolumeGuidName**](nf-fltkernel-fltgetvolumeguidname.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilterfromname">FltGetFilterFromName</a>
+[**FltGetFilterFromName**](nf-fltkernel-fltgetfilterfromname.md)
 
+[**FltGetVolumeGuidName**](nf-fltkernel-fltgetvolumeguidname.md)
 
+[**FltGetVolumeInstanceFromName**](nf-fltkernel-fltgetvolumeinstancefromname.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeguidname">FltGetVolumeGuidName</a>
+[**FltGetVolumeName**](nf-fltkernel-fltgetvolumename.md)
 
+[**FltObjectDereference**](nf-fltkernel-fltobjectdereference.md)
 
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeinstancefromname">FltGetVolumeInstanceFromName</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumename">FltGetVolumeName</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>
-
-
-
-<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+[**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)

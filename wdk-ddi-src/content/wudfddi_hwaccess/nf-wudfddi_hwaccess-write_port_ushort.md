@@ -51,19 +51,19 @@ The <b>WRITE_PORT_USHORT</b> function writes a USHORT value to the specified por
 
 ## -parameters
 
-### -param pDevice 
+### -param pDevice [in]
 
-[in]
+
 Specifies a pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a> interface for the device object of the device to access.
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 A pointer to the port, which must be a mapped memory range in I/O space.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies a USHORT value to be written to the port.
 
 ## -remarks

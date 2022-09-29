@@ -4,7 +4,7 @@ title: FltGetVolumeGuidName function (fltkernel.h)
 description: The FltGetVolumeGuidName routine returns the volume name for a given volume, in volume globally unique identifier (GUID) format.
 old-location: ifsk\fltgetvolumeguidname.htm
 tech.root: ifsk
-ms.date: 02/01/2021
+ms.date: 08/10/2022
 keywords: ["FltGetVolumeGuidName function"]
 ms.keywords: FltApiRef_e_to_o_b3c6abed-dbf8-44a2-92d6-470806b9a80f.xml, FltGetVolumeGuidName, FltGetVolumeGuidName routine [Installable File System Drivers], fltkernel/FltGetVolumeGuidName, ifsk.fltgetvolumeguidname
 req.header: fltkernel.h
@@ -44,21 +44,23 @@ api_name:
 
 ## -description
 
-**FltGetVolumeGuidName** returns the volume name for a given volume, in volume globally unique identifier (GUID) format.
+**FltGetVolumeGuidName** gets the volume name for a given volume, in volume globally unique identifier (GUID) format.
 
 ## -parameters
 
-### -param Volume
+### -param Volume [in]
 
-[in] Opaque pointer for the volume. Must be a local file system volume. This parameter is required and cannot be **NULL**.
+Opaque pointer for the volume. Must be a local file system volume. This parameter is required and cannot be **NULL**.
 
-### -param VolumeGuidName
+### -param VolumeGuidName [in/out, optional]
 
-[in/out, optional] Pointer to a caller-allocated [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that receives the volume's GUID name. If **VolumeGuidName** is **NULL** and **BufferSizeNeeded** is not **NULL**, **FltGetVolumeGuidName** stores the buffer size needed for the requested volume GUID in the **BufferSizeNeeded** parameter and returns STATUS_BUFFER_TOO_SMALL. See Remarks.
+Pointer to a caller-allocated [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that receives the volume's GUID name when STATUS_SUCCESS is returned. Be aware that pool for **VolumeGuidName->Buffer** is also caller-allocated.
 
-### -param BufferSizeNeeded
+If **VolumeGuidName** is **NULL** and **BufferSizeNeeded** is not **NULL**, **FltGetVolumeGuidName** stores the buffer size needed for the requested volume GUID in the **BufferSizeNeeded** parameter and returns STATUS_BUFFER_TOO_SMALL. See Remarks.
 
-[out, optional] Pointer to a caller-allocated variable that receives the size, in bytes, of the requested volume GUID name. This parameter is optional and can be **NULL**. If **BufferSizeNeeded** is not **NULL** and **FltGetVolumeGuidName** returns STATUS_BUFFER_TOO_SMALL, you can use the value stored in **BufferSizeNeeded** to determine the required size of the structure that **VolumeGuidName** points to.
+### -param BufferSizeNeeded [out, optional]
+
+Pointer to a caller-allocated variable that receives the size, in bytes, of the requested volume GUID name. This parameter is optional and can be **NULL**; however, it must be non-**NULL** if **VolumeGuidName** is **NULL** so that **FltGetVolumeGuidName** can store the buffer size needed for the requested volume GUID.
 
 ## -returns
 

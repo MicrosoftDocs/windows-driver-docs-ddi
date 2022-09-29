@@ -4,7 +4,7 @@ title: StorPortQueueWorkItem function (storport.h)
 description: Schedules a Storport work item to execute within the context of a system worker thread.
 old-location: storage\storportqueueworkitem.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 06/24/2022
 keywords: ["StorPortQueueWorkItem function"]
 ms.keywords: StorPortQueueWorkItem, StorPortQueueWorkItem routine [Storage Devices], storage.storportqueueworkitem, storport/StorPortQueueWorkItem
 req.header: storport.h
@@ -42,96 +42,44 @@ api_name:
 
 # StorPortQueueWorkItem function
 
-
 ## -description
 
-Schedules a Storport work item to execute within the context of  a system worker thread.
+**StorPortQueueWorkItem** queues a Storport work item to execute within the context of a system (kernel) worker thread.
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param WorkItemCallback 
+### -param WorkItemCallback [in]
 
-[in]
-A pointer to a work item callback routine supplied by the miniport. This routine is called in context of the system thread to process the scheduled <i>WorkItem</i>.
+A pointer to a work item callback routine supplied by the miniport. This routine is called in context of the system thread to process the scheduled work item that **Worker** points to.
 
-### -param Worker 
+### -param Worker [in]
 
-[in]
-A pointer to an opaque buffer for the worker returned by <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>.
+A pointer to an opaque buffer for the allocated and initialized work item returned by [**StorPortInitializeWorker**](nf-storport-storportinitializeworker.md).
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
-Optional context for the <i>WorkItem</i> that is processed by the callback routine in <i>WorkItemCallback</i>.
+Optional context for the **Worker** that is processed by the callback routine in **WorkItemCallback**.
 
 ## -returns
 
-The <b>StorPortQueueWorkItem</b> routine returns one of these status codes:
+**StorPortQueueWorkItem** routine returns one of these status codes:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_INVALID_IRQL</b></dt>
-</dl>
-</td>
-<td width="60%">
-Current IRQL > DISPATCH_LEVEL.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>HwDeviceExtension</i>, <i>Worker</i>, or <i>WorkItemCallback</i> is NULL.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_BUSY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The work item was is already queued for processing.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The work item was successfully queued.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STOR_STATUS_BUSY | The work item is already queued for processing. |
+| STOR_STATUS_INVALID_DEVICE_STATE | The work item cannot be queued as the device is in process of removal. |
+| STOR_STATUS_INVALID_IRQL | The current IRQL is greater than DISPATCH_LEVEL. |
+| STOR_STATUS_INVALID_PARAMETER | **HwDeviceExtension**, **Worker**, or **WorkItemCallback** is NULL. |
+| STOR_STATUS_SUCCESS | The work item was successfully queued. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_workitem">HwStorWorkItem</a>
+[**HwStorWorkItem**](nc-storport-hw_workitem.md)
 
+[**StorPortFreeWorker**](nf-storport-storportfreeworker.md)
 
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportfreeworker">StorPortFreeWorker</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>
+[**StorPortInitializeWorker**](nf-storport-storportinitializeworker.md)

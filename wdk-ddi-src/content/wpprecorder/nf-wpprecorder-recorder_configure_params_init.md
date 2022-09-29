@@ -49,9 +49,9 @@ The <b>RECORDER_CONFIGURE_PARAMS_INIT</b> function is used to initialize the <a 
 
 ## -parameters
 
-### -param Params 
+### -param Params [out]
 
-[out]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_recorder_configure_params">RECORDER_CONFIGURE_PARAMS</a> structure to initialize.
 
 ## -see-also

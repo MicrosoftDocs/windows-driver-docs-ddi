@@ -4,7 +4,7 @@ title: _PEP_KERNEL_INFORMATION_STRUCT_V1 (pep_x.h)
 description: The PEP_KERNEL_INFORMATION_STRUCT_V1 structure specifies the interface that the power extension plug-in (PEP) uses to request services from the Windows power management framework (PoFx).
 old-location: kernel\pep_kernel_information.htm
 tech.root: kernel
-ms.date: 07/29/2021
+ms.date: 08/05/2022
 keywords: ["PEP_KERNEL_INFORMATION_STRUCT_V1 structure"]
 ms.keywords: "*PPEP_KERNEL_INFORMATION, *PPEP_KERNEL_INFORMATION_STRUCT_V1, PEP_KERNEL_INFORMATION, PEP_KERNEL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PEP_KERNEL_INFORMATION_STRUCT_V1, PEP_KERNEL_INFORMATION_STRUCT_V1 structure [Kernel-Mode Driver Architecture], PPEP_KERNEL_INFORMATION_STRUCT_V1, PPEP_KERNEL_INFORMATION_STRUCT_V1 structure pointer [Kernel-Mode Driver Architecture], _PEP_KERNEL_INFORMATION_STRUCT_V1, kernel.pep_kernel_information, pep_x/PEP_KERNEL_INFORMATION, pep_x/PEP_KERNEL_INFORMATION_STRUCT_V1, pep_x/PPEP_KERNEL_INFORMATION_STRUCT_V1"
 req.header: pep_x.h
@@ -86,56 +86,21 @@ A pointer to a [RequestInterrupt](../pepfx/nc-pepfx-pofxcallbackrequestinterrupt
 
 A pointer to a [TransitionCriticalResource](../pepfx/nc-pepfx-pofxcallbackcriticalresource.md) routine. PoFx sets the value of this member. The **TransitionCriticalResource** routine is implemented by PoFx. The PEP calls this routine to transition critical system resources to the idle condition.
 
-#### - CompleteWork
-
-A pointer to a **CompleteWork** routine. PoFx sets the value of this member. The **CompleteWork** routine is implemented by PoFx. The PEP calls this routine to notify PoFx that the PEP has completed a work item.
-
-#### - PlatformIdleVeto
-
-A pointer to a [PlatformIdleVeto](../pepfx/nc-pepfx-pofxcallbackplatformidleveto.md) routine. PoFx sets the value of this member. The **PlatformIdleVeto** routine is implemented by PoFx. The PEP calls this routine to increment or decrement the veto count for a pending transition to a platform idle state.
-
-#### - ProcessorIdleVeto
-
-A pointer to a [ProcessorIdleVeto](../pepfx/nc-pepfx-pofxcallbackprocessoridleveto.md) routine. PoFx sets the value of this member. The **ProcessorIdleVeto** routine is implemented by PoFx. The PEP calls this routine to increment or decrement the veto count for a pending transition to a processor idle state.
-
-#### - RequestCommon
-
-A pointer to an [RequestCommon](../pepfx/nc-pepfx-pofxcallbackrequestcommon.md) routine. PoFx sets the value of this member. The **RequestCommon** routine is implemented by PoFx. The PEP calls this routine to perform a processing operation that is specified by a request ID.
-
-#### - UpdatePlatformIdleState
-
-A pointer to an [UpdatePlatformIdleState](../pepfx/nc-pepfx-pofxcallbackupdateplatformidlestate.md) routine. PoFx sets the value of this member. The **UpdatePlatformIdleState** routine is implemented by PoFx. The PEP calls this routine to update the properties of the specified platform idle state.
-
-#### - UpdateProcessorIdleState
-
-A pointer to an [UpdateProcessorIdleState](../pepfx/nc-pepfx-pofxcallbackupdateprocessoridlestate.md) routine. PoFx sets the value of this member. The **UpdateProcessorIdleState** routine is implemented by PoFx. The PEP calls this routine to update the properties of the specified processor idle state.
-
 ## -remarks
 
 The **KernelInformation** parameter to the [PoFxRegisterPlugin](../pepfx/nf-pepfx-pofxregisterplugin.md) or [PoFxRegisterPluginEx](../pepfx/nf-pepfx-pofxregisterpluginex.md) routine is a pointer to a **PEP_KERNEL_INFORMATION** structure. The PEP allocates this structure and sets the values of the **Version** and **Size** members of this structure before calling **PoFxRegisterPlugin** or **PoFxRegisterPluginEx**. During the call to this routine, PoFx fills in the remaining members of the structure.
 
 ## -see-also
 
-[EnumerateUnmaskedInterrupts](../pepfx/nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md)
-
-[PlatformIdleVeto](../pepfx/nc-pepfx-pofxcallbackplatformidleveto.md)
-
-[PoFxRegisterPlugin](../pepfx/nf-pepfx-pofxregisterplugin.md)
-
-[PoFxRegisterPluginEx](../pepfx/nf-pepfx-pofxregisterpluginex.md)
-
-[ProcessorHalt](../pepfx/nc-pepfx-pofxcallbackprocessorhalt.md)
-
-[ProcessorIdleVeto](../pepfx/nc-pepfx-pofxcallbackprocessoridleveto.md)
-
-[RequestCommon](../pepfx/nc-pepfx-pofxcallbackrequestcommon.md)
-
-[RequestInterrupt](../pepfx/nc-pepfx-pofxcallbackrequestinterrupt.md)
-
-[RequestWorker](../pepfx/nc-pepfx-pofxcallbackrequestworker.md)
-
-[TransitionCriticalResource](../pepfx/nc-pepfx-pofxcallbackcriticalresource.md)
-
-[UpdatePlatformIdleState](../pepfx/nc-pepfx-pofxcallbackupdateplatformidlestate.md)
-
-[UpdateProcessorIdleState](../pepfx/nc-pepfx-pofxcallbackupdateprocessoridlestate.md)
+- [EnumerateUnmaskedInterrupts](../pepfx/nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md)
+- [PlatformIdleVeto](../pepfx/nc-pepfx-pofxcallbackplatformidleveto.md)
+- [PoFxRegisterPlugin](../pepfx/nf-pepfx-pofxregisterplugin.md)
+- [PoFxRegisterPluginEx](../pepfx/nf-pepfx-pofxregisterpluginex.md)
+- [ProcessorHalt](../pepfx/nc-pepfx-pofxcallbackprocessorhalt.md)
+- [ProcessorIdleVeto](../pepfx/nc-pepfx-pofxcallbackprocessoridleveto.md)
+- [RequestCommon](../pepfx/nc-pepfx-pofxcallbackrequestcommon.md)
+- [RequestInterrupt](../pepfx/nc-pepfx-pofxcallbackrequestinterrupt.md)
+- [RequestWorker](../pepfx/nc-pepfx-pofxcallbackrequestworker.md)
+- [TransitionCriticalResource](../pepfx/nc-pepfx-pofxcallbackcriticalresource.md)
+- [UpdatePlatformIdleState](../pepfx/nc-pepfx-pofxcallbackupdateplatformidlestate.md)
+- [UpdateProcessorIdleState](../pepfx/nc-pepfx-pofxcallbackupdateprocessoridlestate.md)

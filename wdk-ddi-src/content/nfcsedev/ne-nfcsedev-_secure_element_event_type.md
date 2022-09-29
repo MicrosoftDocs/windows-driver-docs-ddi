@@ -4,7 +4,7 @@ title: _SECURE_ELEMENT_EVENT_TYPE (nfcsedev.h)
 description: Indicates the type of secure element events.
 old-location: nfpdrivers\_secure_element_event_type.htm
 tech.root: nfpdrivers
-ms.date: 02/15/2018
+ms.date: 08/16/2022
 keywords: ["SECURE_ELEMENT_EVENT_TYPE enumeration"]
 ms.keywords: "*PSECURE_ELEMENT_EVENT_TYPE, ApplicationSelected, ExternalReaderArrival, ExternalReaderDeparture, HceActivated, HceDeactivated, SECURE_ELEMENT_EVENT_TYPE, Transaction, _SECURE_ELEMENT_EVENT_TYPE, _SECURE_ELEMENT_EVENT_TYPE enumeration [Near-Field Proximity Drivers], nfcsedev/ApplicationSelected, nfcsedev/ExternalReaderArrival, nfcsedev/ExternalReaderDeparture, nfcsedev/HceActivated, nfcsedev/HceDeactivated, nfcsedev/Transaction, nfcsedev/_SECURE_ELEMENT_EVENT_TYPE, nfpdrivers._secure_element_event_type"
 req.header: nfcsedev.h
@@ -48,7 +48,6 @@ api_name:
 
 # _SECURE_ELEMENT_EVENT_TYPE enumeration
 
-
 ## -description
 
 Indicates the type of secure element events.
@@ -65,7 +64,7 @@ This event is fired when an external reader has terminated a connection with the
 
 ### -field ApplicationSelected
 
-This event is fired when the external reader has issued a “SELECT” command to select an application on the specified secure element. Additionally, the event notification includes the application ID (AID) of the selected application. Not all types of secure elements support the ability to raise this event.
+This event is fired when the external reader has issued a "SELECT" command to select an application on the specified secure element. Additionally, the event notification includes the application ID (AID) of the selected application. Not all types of secure elements support the ability to raise this event.
 
 ### -field Transaction
 
@@ -79,3 +78,10 @@ This event is fired when a listen mode interface is activated to the device host
 
 This event is fired when a current active HCE session is terminated. This event sends the currently terminated connection ID.
 
+### -field ExternalFieldEnter
+
+This event is fired upon entering an external field.
+
+### -field ExternalFieldExit
+
+This event is fired upon exiting an external field.

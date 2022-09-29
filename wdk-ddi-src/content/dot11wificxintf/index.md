@@ -6,8 +6,6 @@ title: dot11wificxintf.h header
 ms.date: 04/30/2021
 keywords: ["Dot11wificxintf.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 f1_keywords:
  - dot11wificxintf

@@ -48,30 +48,30 @@ The **FltSetTransactionContext** routine sets a context on a transaction.
 
 ## -parameters
 
-### -param Instance
+### -param Instance [in]
 
-[in] Opaque instance pointer for the caller.
+Opaque instance pointer for the caller.
 
-### -param Transaction
+### -param Transaction [in]
 
-[in] Opaque transaction pointer for the transaction on which the context is being set.
+Opaque transaction pointer for the transaction on which the context is being set.
 
-### -param Operation
+### -param Operation [in]
 
-[in] Flag that specifies the details of the operation to be performed. This parameter must be one of the following:
+Flag that specifies the details of the operation to be performed. This parameter must be one of the following:
 
 | Flag | Meaning |
 | ---- | ------- |
 | FLT_SET_CONTEXT_REPLACE_IF_EXISTS | If a context is already set for the transaction pointed to by the *Transaction* parameter, **FltSetTransactionContext** will replace it with the context pointed to by the *NewContext* parameter. Otherwise, it will set the context pointed to by the *NewContext* parameter as the context for the transaction pointed to by the *Transaction* parameter. |
 | FLT_SET_CONTEXT_KEEP_IF_EXISTS | If a context is already set for the transaction pointed to by the *Transaction* parameter, **FltSetTransactionContext** will return STATUS_FLT_CONTEXT_ALREADY_DEFINED, and will not replace the existing context or increment the reference count. If a context has not already been set, this routine will set the context pointed to by the *NewContext* parameter as the context for transaction pointed to by the *Transaction* parameter, and will increment the reference count. |
 
-### -param NewContext
+### -param NewContext [in]
 
-[in] Pointer to the new context to be set for the transaction. This parameter is required and cannot be **NULL**.
+Pointer to the new context to be set for the transaction. This parameter is required and cannot be **NULL**.
 
-### -param OldContext
+### -param OldContext [out, optional]
 
-[out, optional] Pointer to a caller-allocated variable that receives the address of the existing transaction context, if one is already set. This parameter is optional and can be **NULL**. For more information about this parameter, see the following Remarks section.
+Pointer to a caller-allocated variable that receives the address of the existing transaction context, if one is already set. This parameter is optional and can be **NULL**. For more information about this parameter, see the following Remarks section.
 
 ## -returns
 

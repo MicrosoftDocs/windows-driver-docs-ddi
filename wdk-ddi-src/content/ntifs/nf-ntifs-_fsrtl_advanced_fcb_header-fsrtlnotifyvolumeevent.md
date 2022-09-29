@@ -52,14 +52,14 @@ The <b>FsRtlNotifyVolumeEvent</b> routine notifies any registered applications t
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 A pointer to a file object for the given volume.
 
-### -param EventCode 
+### -param EventCode [in]
 
-[in]
+
 Specifies an event code for the event that is occurring. This code can be one of the following values.
 
 <table>

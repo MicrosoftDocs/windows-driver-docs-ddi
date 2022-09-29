@@ -49,9 +49,9 @@ The <i>EvtSerCxWaitmask</i> event callback function configures the serial contro
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 ## -returns

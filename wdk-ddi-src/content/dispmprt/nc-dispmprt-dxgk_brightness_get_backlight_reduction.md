@@ -49,14 +49,14 @@ Retrieves the current level of backlight reduction that is applied to the integr
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A handle to a <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> context block that is associated with a display adapter. The display miniport driver's  function previously provided this handle to the DirectX graphics kernel subsystem.
 
-### -param BacklightInfo 
+### -param BacklightInfo [out]
 
-[out]
+
 A value of type <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgk_backlight_info">DXGK_BACKLIGHT_INFO</a> that provides the current absolute level of backlight reduction.
 
 ## -returns

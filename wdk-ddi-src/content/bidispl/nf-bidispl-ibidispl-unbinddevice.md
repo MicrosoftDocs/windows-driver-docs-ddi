@@ -47,8 +47,6 @@ api_name:
 
 The <b>UnbindDevice</b> method unbinds a printer from a bidi request.
 
-## -parameters
-
 ## -returns
 
 The method returns one of the following values. For more information about COM error codes, see <a href="/windows/win32/com/com-error-codes">COM Error Codes</a>.

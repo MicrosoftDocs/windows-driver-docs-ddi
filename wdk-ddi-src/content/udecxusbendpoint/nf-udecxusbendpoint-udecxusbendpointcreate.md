@@ -54,14 +54,14 @@ Creates a UDE endpoint object.
 
 <p>A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate"><b>UdecxUsbSimpleEndpointInitAllocate</b></a>.</p>
 
-### -param Attributes 
+### -param Attributes [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the USB device object.
 
-### -param UdecxUsbEndpoint 
+### -param UdecxUsbEndpoint [out]
 
-[out]
+
 A pointer to a variable that receives a handle to the new UDE endpoint object that represents the simple endpoint on the  USB device.
 
 ## -returns

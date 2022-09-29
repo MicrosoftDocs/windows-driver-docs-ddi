@@ -3,7 +3,7 @@ UID: NF:netadapter.NET_ADAPTER_WAKE_REASON_PACKET_INIT
 title: NET_ADAPTER_WAKE_REASON_PACKET_INIT function (netadapter.h)
 description: The NET_ADAPTER_WAKE_REASON_PACKET_INIT function initializes a NET_ADAPTER_WAKE_REASON_PACKET structure.
 tech.root: netvista
-ms.date: 10/25/2019
+ms.date: 03/30/2022
 keywords: ["NET_ADAPTER_WAKE_REASON_PACKET_INIT function"]
 ms.keywords: NET_ADAPTER_WAKE_REASON_PACKET_INIT
 req.header: netadaptercx.h
@@ -49,13 +49,10 @@ The **NET_ADAPTER_WAKE_REASON_PACKET_INIT** function initializes a [**NET_ADAPTE
 
 ## -parameters
 
-### -param Reason
+### -param Reason [_Out_]
 
 A pointer to a driver allocated [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

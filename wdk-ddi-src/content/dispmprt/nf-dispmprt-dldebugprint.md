@@ -3,7 +3,7 @@ UID: NF:dispmprt.DlDebugPrint
 title: DlDebugPrint function
 description: Prints the specified debug message to the kernel debugger.
 tech.root: display
-ms.date: 04/04/2019
+ms.date: 05/31/2022
 keywords: ["DlDebugPrint function"]
 ms.keywords: DlDebugPrint
 req.header: dispmprt.h
@@ -45,7 +45,6 @@ dev_langs:
 
 # DlDebugPrint function
 
-
 ## -description
 
 Prints the specified debug message to the kernel debugger.
@@ -60,13 +59,6 @@ Specifies the level of debug messages to be printed.
 
 Pointer to a string containing the debug message to be printed.
 
-### -param unnamedParam3
-
 ### -param ...
 
-Additional Parameters.
-
-## -remarks
-
-## -see-also
-
+Additional parameters.

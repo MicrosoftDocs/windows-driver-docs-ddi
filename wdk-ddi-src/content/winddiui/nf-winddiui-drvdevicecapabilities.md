@@ -2,9 +2,8 @@
 UID: NF:winddiui.DrvDeviceCapabilities
 title: DrvDeviceCapabilities function (winddiui.h)
 description: A printer interface DLL's DrvDeviceCapabilities function returns requested information about a printer's capabilities.
-old-location: print\drvdevicecapabilities.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 04/19/2022
 keywords: ["DrvDeviceCapabilities function"]
 ms.keywords: DrvDeviceCapabilities, DrvDeviceCapabilities function [Print Devices], print.drvdevicecapabilities, print_interface-graphics_cbe99c7b-a94f-47b2-8c51-d99bdcdec7d3.xml, winddiui/DrvDeviceCapabilities
 req.header: winddiui.h
@@ -40,12 +39,9 @@ api_name:
  - DrvDeviceCapabilities
 ---
 
-# DrvDeviceCapabilities function
-
-
 ## -description
 
-A printer interface DLL's <b>DrvDeviceCapabilities</b> function returns requested information about a printer's capabilities.
+A printer interface DLL's **DrvDeviceCapabilities** function returns requested information about a printer's capabilities.
 
 ## -parameters
 
@@ -53,15 +49,11 @@ A printer interface DLL's <b>DrvDeviceCapabilities</b> function returns requeste
 
 Caller-supplied printer handle.
 
-### -param pszDeviceName
+### -param pszDeviceName [in]
+
+Caller-supplied pointer to a printer name string.
 
 ### -param Capability
-
-### -param pOutput
-
-### -param pDevmode
-
-#### - iDevCap
 
 Caller-supplied bit flag indicating the information being requested. This can be one of the flags listed in the following table. (The flags are defined in header file Wingdi.h.)
 
@@ -86,11 +78,11 @@ DC_BINNAMES
 
 </td>
 <td>
-The <i>pvOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 24 characters in length. Each string buffer in the array should contain a wide-character, NULL-terminated string specifying the name of a paper source bin.
+The <i>pOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 24 characters in length. Each string buffer in the array should contain a wide-character, NULL-terminated string specifying the name of a paper source bin.
 
 The function's return value should be the number of elements in the returned array.
 
-If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
+If <i>pOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
 
 </td>
 </tr>
@@ -100,11 +92,11 @@ DC_BINS
 
 </td>
 <td>
-The <i>pvOutput</i> parameter points to a buffer that the function should fill with a WORD array. Each array element should contain a DMBIN-prefixed constant (or customized value) representing a supported paper source bin.
+The <i>pOutput</i> parameter points to a buffer that the function should fill with a WORD array. Each array element should contain a DMBIN-prefixed constant (or customized value) representing a supported paper source bin.
 
 The function's return value should be the number of elements in the returned array.
 
-If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
+If <i>pOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
 
 </td>
 </tr>
@@ -114,7 +106,7 @@ DC_COLLATE
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
 The function's return value should be 1 if the printer supports collating; otherwise, the return value should be zero.
 
@@ -126,7 +118,7 @@ DC_COLORDEVICE
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
 The function's return value should be 1 if the printer supports color printing; otherwise, the return value should be zero.
 
@@ -138,7 +130,7 @@ DC_COPIES
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
 The function's return value should be the maximum number of copies the printer can support.
 
@@ -160,9 +152,9 @@ DC_DRIVER
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
-The function's return value should be the <b>dmDriverVersion</b> member of the driver's internal <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
+The function's return value should be the <b>dmDriverVersion</b> member of the driver's internal [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure.
 
 </td>
 </tr>
@@ -172,7 +164,7 @@ DC_DUPLEX
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
 The function's return value should be 1 if the printer supports duplex printing; otherwise, the return value should be zero.
 
@@ -194,11 +186,11 @@ DC_ENUMRESOLUTIONS
 
 </td>
 <td>
-The <i>pvOutput</i> parameter points to a buffer that the function should fill with a LONG array. For each resolution supported by the printer, the function should return two long words (one for the <i>x</i> dimension and one for the <i>y</i> dimension) of the resolution, in dots per inch.
+The <i>pOutput</i> parameter points to a buffer that the function should fill with a LONG array. For each resolution supported by the printer, the function should return two long words (one for the <i>x</i> dimension and one for the <i>y</i> dimension) of the resolution, in dots per inch.
 
 The function's return value should be the number of resolutions supported.
 
-If <b>pvOutput</b> is <b>NULL</b>, the function should just return the number of resolutions supported.
+If <b>pOutput</b> is <b>NULL</b>, the function should just return the number of resolutions supported.
 
 </td>
 </tr>
@@ -208,9 +200,9 @@ DC_EXTRA
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
-The function's return value should be the <b>dmDriverExtra</b> member of the driver's internal <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
+The function's return value should be the <b>dmDriverExtra</b> member of the driver's internal [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure.
 
 </td>
 </tr>
@@ -220,9 +212,9 @@ DC_FIELDS
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
-The function's return value should be the <b>dmFields</b> member of the driver's internal <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure. The <b>dmFields</b> member indicates which members in the device-independent portion of the DEVMODEW structure are supported by the printer driver.
+The function's return value should be the <b>dmFields</b> member of the driver's internal [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure. The <b>dmFields</b> member indicates which members in the device-independent portion of the DEVMODEW structure are supported by the printer driver.
 
 </td>
 </tr>
@@ -232,11 +224,11 @@ DC_FILEDEPENDENCIES
 
 </td>
 <td>
-The <i>pvOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each string buffer in the array should contain a wide-character, NULL-terminated string specifying the name of a file that must be installed with the driver.
+The <i>pOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each string buffer in the array should contain a wide-character, NULL-terminated string specifying the name of a file that must be installed with the driver.
 
 The function's return value should be the number of elements in the returned array.
 
-If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
+If <i>pOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
 
 </td>
 </tr>
@@ -256,7 +248,7 @@ DC_MAXEXTENT
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
 The function should return a POINTS structure (described in the Microsoft Windows SDK documentation). The structure should contain the maximum allowable values for the <b>dmPaperWidth</b> (<i>x</i> dimension) and <b>dmPaperLength</b> (<i>y</i> dimension) members of the printer's DEVMODEW structure.
 
@@ -268,11 +260,11 @@ DC_MEDIAREADY
 
 </td>
 <td>
-The <i>pvOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each string buffer in the array should contain a wide-character, NULL-terminated string specifying the name of a paper form that is available for use.
+The <i>pOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each string buffer in the array should contain a wide-character, NULL-terminated string specifying the name of a paper form that is available for use.
 
 The function's return value should be the number of elements in the returned array.
 
-If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
+If <i>pOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
 
 </td>
 </tr>
@@ -282,11 +274,11 @@ DC_MEDIATYPENAMES
 
 </td>
 <td>
-The <i>pvOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each string buffer in the array should contain a wide-character, NULL-terminated string specifying the name of a supported media type. 
+The <i>pOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each string buffer in the array should contain a wide-character, NULL-terminated string specifying the name of a supported media type.
 
 The function's return value should be the number of elements in the returned array.
 
-If <i>pvOutput</i> is <b>NULL</b>, the function should simply return the number of array elements required.
+If <i>pOutput</i> is <b>NULL</b>, the function should simply return the number of array elements required.
 
 </td>
 </tr>
@@ -296,11 +288,11 @@ DC_MEDIATYPES
 
 </td>
 <td>
-The <i>pvOutput</i> parameter points to a buffer that the function should fill with a DWORD array. Each array element should contain a DMMEDIA-prefixed constant (see the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure) or customized value representing a supported media type. 
+The <i>pOutput</i> parameter points to a buffer that the function should fill with a DWORD array. Each array element should contain a DMMEDIA-prefixed constant (see the [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure) or customized value representing a supported media type.
 
 The function's return value should be the number of elements in the returned array.
 
-If <i>pvOutput</i> is <b>NULL</b>, the function should simply return the number of array elements required.
+If <i>pOutput</i> is <b>NULL</b>, the function should simply return the number of array elements required.
 
 </td>
 </tr>
@@ -310,7 +302,7 @@ DC_MINEXTENT
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
 The function should return a POINTS structure (described in the Windows SDK documentation). The structure should contain the minimum allowable values for the <b>dmPaperWidth</b> (<i>x</i> dimension) and <b>dmPaperLength</b> (<i>y</i> dimension) members of the printer's DEVMODEW structure.
 
@@ -332,11 +324,11 @@ DC_NUP
 
 </td>
 <td>
-The <i>pvOutput</i> parameter points to a buffer that the function should fill with a DWORD array. Each array element should contain an integer representing an N-up option (that is, each integer should represent a supported number of document pages per physical page).
+The <i>pOutput</i> parameter points to a buffer that the function should fill with a DWORD array. Each array element should contain an integer representing an N-up option (that is, each integer should represent a supported number of document pages per physical page).
 
 The function's return value should be the number of elements in the returned array.
 
-If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
+If <i>pOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
 
 </td>
 </tr>
@@ -346,7 +338,7 @@ DC_ORIENTATION
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
 The function's return value should be the number of degrees of rotation required to produce landscape orientation from portrait orientation. A value of zero indicates landscape orientation is not supported.
 
@@ -358,11 +350,11 @@ DC_PAPERNAMES
 
 </td>
 <td>
-The <i>pvOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each string buffer in the array should contain a wide-character, NULL-terminated string specifying the name of a paper form.
+The <i>pOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each string buffer in the array should contain a wide-character, NULL-terminated string specifying the name of a paper form.
 
 The function's return value should be the number of elements in the returned array.
 
-If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
+If <i>pOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
 
 </td>
 </tr>
@@ -372,11 +364,11 @@ DC_PAPERS
 
 </td>
 <td>
-The <i>pvOutput</i> parameter points to a buffer that the function should fill with a WORD array. Each array element should contain a DMPAPER-prefixed constant (or customized value) representing a supported paper form.
+The <i>pOutput</i> parameter points to a buffer that the function should fill with a WORD array. Each array element should contain a DMPAPER-prefixed constant (or customized value) representing a supported paper form.
 
 The function's return value should be the number of elements in the returned array.
 
-If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
+If <i>pOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
 
 </td>
 </tr>
@@ -386,11 +378,11 @@ DC_PAPERSIZE
 
 </td>
 <td>
-The <i>pvOutput</i> parameter points to a buffer that the function should fill with a POINT array. Each array element should contain the <i>x</i> and <i>y</i> dimensions of a form's paper size, in 0.1 mm units, in portrait orientation.
+The <i>pOutput</i> parameter points to a buffer that the function should fill with a POINT array. Each array element should contain the <i>x</i> and <i>y</i> dimensions of a form's paper size, in 0.1 mm units, in portrait orientation.
 
 The function's return value should be the number of elements in the returned array.
 
-If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
+If <i>pOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
 
 </td>
 </tr>
@@ -400,11 +392,11 @@ DC_PERSONALITY
 
 </td>
 <td>
-The <i>pvOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 32 characters in length. Each string buffer in the array should contain a wide-character, NULL-terminated string specifying the printer description language supported by the printer (for example, L"HP-GL/2").
+The <i>pOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 32 characters in length. Each string buffer in the array should contain a wide-character, NULL-terminated string specifying the printer description language supported by the printer (for example, L"HP-GL/2").
 
 The function's return value should be the number of elements in the returned array.
 
-If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
+If <i>pOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
 
 </td>
 </tr>
@@ -414,7 +406,7 @@ DC_PRINTERMEM
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
 The function's return value should be an integer representing the amount of available printer memory, in kilobytes.
 
@@ -426,7 +418,7 @@ DC_PRINTRATE
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
 The function's return value should be an integer representing the print rate, in the units specified for DC_PRINTRATEUNIT.
 
@@ -438,7 +430,7 @@ DC_PRINTRATEPPM
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
 The function's return value should be an integer representing the print rate, in pages per minute.
 
@@ -450,9 +442,9 @@ DC_PRINTRATEUNIT
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
-The function's return value should identify the units used for specifying the value returned for DC_PRINTRATE. One of the following constants must be specified: 
+The function's return value should identify the units used for specifying the value returned for DC_PRINTRATE. One of the following constants must be specified:
 
 PRINTRATEUNIT_PPM - pages/min.
 
@@ -470,9 +462,9 @@ DC_SIZE
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
-The function's return value should be the <b>dmSize</b> member of the driver's internal <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
+The function's return value should be the <b>dmSize</b> member of the driver's internal [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure.
 
 </td>
 </tr>
@@ -482,7 +474,7 @@ DC_STAPLE
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
 The function's return value should be <b>TRUE</b> if the printer supports stapling, and <b>FALSE</b> if the printer does not support stapling.
 
@@ -494,7 +486,7 @@ DC_TRUETYPE
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
 The function's return value can be zero, one, or more of the following flags:
 
@@ -514,30 +506,22 @@ DC_VERSION
 
 </td>
 <td>
-The <i>pvOutput</i> parameter is not used.
+The <i>pOutput</i> parameter is not used.
 
-The function's return value should be the <b>dmSpecVersion</b> member of the driver's internal <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
+The function's return value should be the <b>dmSpecVersion</b> member of the driver's internal [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure.
 
 </td>
 </tr>
 </table>
- 
 
+### -param pOutput [out]
 
-#### - pDevMode [in]
+A caller-supplied pointer to a buffer to receive function-supplied information. The buffer's use is dependent on the value received for the *Capability* parameter.
 
-A caller-supplied pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that describes the current print job characteristics. If this parameter is <b>NULL</b>, <b>DrvDeviceCapabilities</b> retrieves the current default initialization values for the specified printer driver, such as the user default DEVMODEW structure of the print queue.
+### -param pDevmode [in, optional]
 
-
-#### - pDeviceName [in]
-
-Caller-supplied pointer to a printer name string.
-
-
-#### - pvOutput [out]
-
-A caller-supplied pointer to a buffer to receive function-supplied information. The buffer's use is dependent on the value received for the <i>iDevCap</i> parameter.
+A caller-supplied pointer to a [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure that describes the current print job characteristics. If this parameter is **NULL**, **DrvDeviceCapabilities** retrieves the current default initialization values for the specified printer driver, such as the user default DEVMODEW structure of the print queue.
 
 ## -returns
 
-The function's return value is dependent on the value received for the <i>iDevCap</i> parameter. If the received <i>iDevCap</i> value represents a capability that the driver does not support, or if an error is encountered, the function should return GDI_ERROR.
+The function's return value is dependent on the value received for the *Capability* parameter. If the received *Capability* value represents a capability that the driver does not support, or if an error is encountered, the function should return GDI_ERROR.

@@ -4,13 +4,13 @@ title: FsRtlGetSupportedFeatures function (ntifs.h)
 description: The FsRtlGetSupportedFeatures routine returns the supported features of a volume attached to the specified device object.
 old-location: ifsk\fsrtlgetsupportedfeatures.htm
 tech.root: ifsk
-ms.date: 05/29/2020
+ms.date: 02/22/2022
 keywords: ["FsRtlGetSupportedFeatures function"]
 ms.keywords: FsRtlGetSupportedFeatures, FsRtlGetSupportedFeatures routine [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, ifsk.fsrtlgetsupportedfeatures, ntifs/FsRtlGetSupportedFeatures
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in starting with Windows 8.
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,30 +42,28 @@ api_name:
 
 # FsRtlGetSupportedFeatures function
 
-
 ## -description
 
 The **FsRtlGetSupportedFeatures** routine returns the supported features of a volume attached to the specified device object.
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
 The target device object attached to a volume.
 
-### -param SupportedFeatures 
+### -param SupportedFeatures [out]
 
-[out]
-A pointer to a caller-supplied **ULONG** value. On return, this value contains the supported feature flags for the attached volume.
+A pointer to a caller-supplied **ULONG** value. On return, this value contains the supported feature flags for the attached volume. See Remarks.
 
 The supported features are a bitwise OR combination of the following flags.
 
 | Value | Meaning |
 | ----- | ------- |
-| **SUPPORTED_FS_FEATURES_OFFLOAD_READ**  0x00000001 | The volume supports offloaded read operations.  |
-| **SUPPORTED_FS_FEATURES_OFFLOAD_WRITE** 0x00000002 | The volume supports offloaded write operations. |
-| **SUPPORTED_FS_FEATURES_QUERY_OPEN**    0x00000004 | The volume supports query open operations. |
+| **SUPPORTED_FS_FEATURES_OFFLOAD_READ**  0x01 | The volume supports offloaded read operations.  |
+| **SUPPORTED_FS_FEATURES_OFFLOAD_WRITE** 0x02 | The volume supports offloaded write operations. |
+| **SUPPORTED_FS_FEATURES_QUERY_OPEN**    0x04 | The volume supports query open operations. |
+| **SUPPORTED_FS_FEATURES_BYPASS_IO**     0x08 | The volume supports [BypassIO](/windows-hardware/drivers/ifs/bypassio). This flag is available starting in Windows 11. |
 
 ## -returns
 
@@ -78,5 +76,4 @@ The supported features are a bitwise OR combination of the following flags.
 
 ## -remarks
 
-Filter Manager looks at the supported features, specified by a minifilter's **SupportedFeatures** Registry value, for every minifilter attached to the volume. Every attached minifilter must support a specific feature in order for that feature bit to be set. The **SupportedFeatures** value does not apply to file systems.
-
+Filter Manager looks at the supported features, specified by a minifilter's **SupportedFeatures** Registry value, for every minifilter attached to the volume. Every attached minifilter must support a specific feature in order for that feature bit to be set. The **SupportedFeatures** value does not apply to file systems. Supported features ("SprtFtrs") can be queried by running ```fltmc instances``` in an elevated command prompt window.

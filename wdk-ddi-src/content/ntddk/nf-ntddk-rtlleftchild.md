@@ -49,9 +49,9 @@ The <b>RtlLeftChild</b> routine returns a pointer to the left child of the speci
 
 ## -parameters
 
-### -param Links 
+### -param Links [in]
 
-[in]
+
 Pointer to the node whose left child is to be returned. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
 ## -remarks

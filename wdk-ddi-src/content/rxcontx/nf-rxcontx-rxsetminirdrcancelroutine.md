@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param RxContext 
+### -param RxContext [in, out]
 
-[in, out]
+
 A pointer to the RX_CONTEXT structure.
 
-### -param MRxCancelRoutine 
+### -param MRxCancelRoutine [in]
 
-[in]
+
 A pointer to a cancel routine.
 
 ## -returns

@@ -3,7 +3,7 @@ UID: NI:ntddstor.IOCTL_STORAGE_SET_PROPERTY
 title: IOCTL_STORAGE_SET_PROPERTY (ntddstor.h)
 description: A driver can use IOCTL_STORAGE_SET_PROPERTY to set the properties of a storage device or adapter.
 tech.root: storage
-ms.date: 07/12/2019
+ms.date: 08/18/2022
 keywords: ["IOCTL_STORAGE_SET_PROPERTY IOCTL"]
 req.header: ntddstor.h
 req.include-header: 
@@ -34,7 +34,7 @@ api_name:
 
 # IOCTL_STORAGE_SET_PROPERTY IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+## Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -60,6 +60,14 @@ Depends on the specified **PropertyId**. For example, if **PropertyId** is **Sto
 ### -output-buffer-length
 
 Size, in bytes, of the output buffer.
+
+### -in-out-buffer
+
+n/a
+
+### -inout-buffer-length
+
+n/a
 
 ### -status-block
 

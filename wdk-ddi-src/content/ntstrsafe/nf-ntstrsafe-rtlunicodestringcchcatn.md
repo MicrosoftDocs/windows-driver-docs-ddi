@@ -50,19 +50,19 @@ The <b>RtlUnicodeStringCchCatN</b> function concatenates two strings that are co
 
 ## -parameters
 
-### -param DestinationString 
+### -param DestinationString [in, out]
 
-[in, out]
+
 A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that, on input, contains a destination string to which the source string will be concatenated. On output, this buffer is the destination buffer that contains the entire resultant string. The source string is added to the end of the destination string. The maximum number of characters in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH.
 
-### -param SourceString 
+### -param SourceString [in]
 
-[in]
+
 A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that contains the source string. This string will be added to the end of the destination string. The maximum number of characters in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH.
 
-### -param cchToAppend 
+### -param cchToAppend [in]
 
-[in]
+
 The maximum number of characters to append to the string that the <i>DestinationString</i> parameter describes.
 
 ## -returns

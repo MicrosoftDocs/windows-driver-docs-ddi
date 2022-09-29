@@ -6,8 +6,6 @@ ms.assetid: 53a5312f-9f75-3637-bb7f-d79817f00a15
 ms.date: 11/18/2020
 keywords: ["Winddiui.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: print
 f1_keywords:

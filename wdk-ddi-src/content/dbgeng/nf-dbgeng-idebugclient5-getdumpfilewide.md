@@ -4,7 +4,7 @@ title: IDebugClient5::GetDumpFileWide (dbgeng.h)
 description: The IDebugClient5::GetDumpFileWide method describes the files containing supporting information that were used when opening the current dump target.
 old-location: debugger\getdumpfilewide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugClient5::GetDumpFileWide"]
 ms.keywords: GetDumpFileWide, GetDumpFileWide method [Windows Debugging], GetDumpFileWide method [Windows Debugging],IDebugClient4 interface, GetDumpFileWide method [Windows Debugging],IDebugClient5 interface, IDebugClient4 interface [Windows Debugging],GetDumpFileWide method, IDebugClient4::GetDumpFileWide, IDebugClient5 interface [Windows Debugging],GetDumpFileWide method, IDebugClient5.GetDumpFileWide, IDebugClient5::GetDumpFileWide, dbgeng/IDebugClient4::GetDumpFileWide, dbgeng/IDebugClient5::GetDumpFileWide, debugger.getdumpfilewide
 req.header: dbgeng.h
@@ -49,34 +49,34 @@ The <b>GetDumpFileWide</b> method describes the files containing supporting info
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies which file to describe.  <i>Index</i> can take values between zero and the number of files minus one; the number of files can be found by using <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-getnumberdumpfiles">GetNumberDumpFiles</a>.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the file name.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
-Specifies the size in characters of the buffer <i>Buffer</i>.
 
-### -param NameSize 
+Specifies the size in characters of the buffer <i>Buffer</i>. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size of the file name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+### -param NameSize [out, optional]
 
-### -param Handle 
 
-[out, optional]
+Receives the size of the file name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+
+### -param Handle [out, optional]
+
+
 Receives the file handle of the file.  If <i>Handle</i> is <b>NULL</b>, this information is not returned.
 
-### -param Type 
+### -param Type [out]
 
-[out]
+
 Receives the type of the file.
 
 ## -returns

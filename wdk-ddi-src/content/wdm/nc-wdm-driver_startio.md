@@ -49,14 +49,14 @@ The <i>StartIo</i> routine starts the I/O operation described by an IRP.
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in, out]
 
-[in, out]
+
 Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure that describes the requested I/O operation.
 
 ## -remarks

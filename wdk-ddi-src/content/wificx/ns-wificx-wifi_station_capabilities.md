@@ -1,10 +1,11 @@
 ---
 UID: NS:wificx._WIFI_STATION_CAPABILITIES
 tech.root: netvista
-title: WIFI_STATION_CAPABILITIES
-ms.date: 04/30/2021
+title: WIFI_STATION_CAPABILITIES (wificx.h)
+ms.date: 03/23/2022
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WIFI_STATION_CAPABILITIES structure for internal use only. Don't use this structure in your code."
+description: The WIFI_STATION_CAPABILITIES structure describes the station capabilities for a WiFiCx device.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -14,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: WIFI_STATION_CAPABILITIES
@@ -40,114 +41,134 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WIFI_STATION_CAPABILITIES** structure describes the station capabilities for a WiFiCx device.
 
 ## -struct-fields
 
 ### -field Size
 
-Reserved.
+The sum (in bytes) of the sizes of all contained elements.
 
 ### -field ScanSSIDListSize
 
-Reserved.
+The scan SSID list size.
 
 ### -field DesiredSSIDListSize
 
-Reserved.
+The desired SSID list size.
 
 ### -field PrivacyExemptionListSize
 
-Reserved.
+The privacy exemption list size.
 
 ### -field KeyMappingTableSize
 
-Reserved.
+The key mapping table size.
 
 ### -field DefaultKeyTableSize
 
-Reserved.
+The default key table size.
 
 ### -field WEPKeyValueMaxLength
 
-Reserved.
+The maximum length of the WEP key value.
 
 ### -field MaxNumPerSTA
 
-Reserved.
+The maximum number of per STA default key tables.
 
 ### -field SupportedQOSFlags
 
-Reserved.
+Specifies whether WMM QOS is supported. Valid values are 0 (not supported) and 1 (supported).
 
 ### -field HostFIPSModeImplemented
 
-Reserved.
+Specifies whether host FIPS mode is supported. Valid values are 0 (not supported) and 1 (supported).
 
 ### -field MFPCapable
 
-Reserved.
+Specifies whether management frame protection (MFP) is supported. Valid values are 0 (not supported) and 1 (supported).
 
 ### -field AutoPowerSaveMode
 
-Reserved.
+Specifies whether auto power save is supported. Valid values are 0 (not supported) and 1 (supported).
 
 ### -field BSSListCachemanagement
 
-Reserved.
+Specifies if the adapter would maintain the station BSS list cache. Valid values are 0 (no) and 1 (yes).
 
 ### -field ConnectBSSSelectionOverride
 
-Reserved.
+Specifies if on a Station connect the adapter may attempt association to a BSSID that is not specified in the Preferred BSSID list. Valid values are 0 (no) and 1 (yes).
 
 ### -field MaxNetworkOffloadListSize
 
-Reserved.
+Specifies the supported number of network offload entries.
 
 ### -field HESSIDConnectionSupported
 
-Reserved.
+Specifies whether the ability to connect to HESSIDs is supported. Valid values are 0 (not supported) and 1 (supported).
 
 ### -field FTMAsInitiatorSupport
 
-Reserved.
+Specifies whether the FTM procedures as initiator are supported. Valid values are 0 (not supported) and 1 (supported).
 
 ### -field FTMNumberOfSupportedTargets
 
-Reserved.
+Number of target STAs supported per FTM request task.
 
 ### -field HostWPA3FIPSModeEnabled
 
-Reserved.
+Specifies whether host-FIPS mode for WPA3 is enabled. Valid values are 0 (disabled) and 1 (enabled).
 
 ### -field NumSupportedUnicastAlgorithms
 
-Reserved.
+The number of unicast algorithms supported.
 
 ### -field UnicastAlgorithmsList
 
-Reserved.
+A pointer to an array of unicast cipher algorithms formatted as [**DOT11_AUTH_CIPHER_PAIR**](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md) structures. The length of this array is specified by the **NumSupportedUnicastAlgorithms** member.
 
 ### -field NumSupportedMulticastDataAlgorithms
 
-Reserved.
+The number of multicast data cipher algorithms supported.
 
 ### -field MulticastDataAlgorithmsList
 
-Reserved.
+A pointer to an array of multicast data cipher algorithms formatted as [**DOT11_AUTH_CIPHER_PAIR**](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md) structures. The length of this array is specified by the **NumSupportedMulticastDataAlgorithms** member.
 
 ### -field NumSupportedMulticastMgmtAlgorithms
 
-Reserved.
+The number of multicast management algorithms supported.
 
 ### -field MulticastMgmtAlgorithmsList
 
-Reserved.
+A pointer to an array of multicast management algorithms formatted as [**DOT11_AUTH_CIPHER_PAIR**](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md) structures. The length of this array is specified by the **NumSupportedMulticastMgmtAlgorithms** member.
+
+### -field NumSecondaryStaBandCombinations
+
+The number of secondary STA band combinations. If this value is **0**, then the Secondary STA capability will not be set.
+
+### -field SecondaryStaBandsCombinations
+
+A pointer to an array of [**WIFI_STA_BANDS_COMBINATION**](ns-wificx-wifi_sta_bands_combination.md) structures. If this value is **NULL**, then the Secondary STA capability will not be set.
+
+### -field MaxMultiLinkConnectionsSupported
+
+The maximum number of links supported by hardware for MLO connections.
+
+### -field MultiLinkConnectionsEnabled
+
+Specifies whether multi-Link connectivity is enabled. Valid values are 0 (disabled) and 1 (enabled).
+
+### -field MultiLinkAddressesList
+
+A pointer to an array of [**WDI_MAC_ADDRESS**](../dot11wificxintf/ns-dot11wificxintf-wdi_mac_address.md) structure that represent multiLink MAC addresses with **MaxMultiLinkConnectionsSupported** elements.
 
 ## -remarks
 
+Client drivers pass **WIFI_STATION_CAPABILITIES** as a parameter to [**WifiDeviceSetStationCapabilities**](nf-wificx-wifidevicesetstationcapabilities.md) to report station capabilities to WiFiCx.
+
 ## -see-also
 
+[**WifiDeviceSetStationCapabilities**](nf-wificx-wifidevicesetstationcapabilities.md)

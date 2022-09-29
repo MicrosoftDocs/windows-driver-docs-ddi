@@ -53,9 +53,9 @@ The <b>SetString</b> method searches a <a href="/windows-hardware/drivers/ddi/ex
 
 A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
-### -param Str 
+### -param Str [in]
 
-[in]
+
 A pointer to a null-terminated ANSI string to be written to the data block of the new or existing <a href="/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a>.
 
 ## -returns
@@ -71,11 +71,6 @@ If this method does not find an <a href="/windows-hardware/drivers/debugger/fail
 ## -see-also
 
 <a href="/windows-hardware/drivers/print/iprinterbidischemaresponses-addstring">AddString</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getstring">GetString</a>
-
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">IDebugFailureAnalysis2</a>

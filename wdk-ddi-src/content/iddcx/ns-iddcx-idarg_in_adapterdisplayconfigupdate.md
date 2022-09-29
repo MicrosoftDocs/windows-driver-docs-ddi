@@ -6,8 +6,6 @@ tech.root: display
 ms.author: windowsdriverdev
 ms.date: 09/24/2020
 keywords: ["IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE
 req.header: iddcx.h
 req.include-header: 
@@ -50,13 +48,13 @@ dev_langs:
 
 ## -struct-fields
 
-### -field PathCount
+### -field PathCount [in]
 
-[in] The number of paths in the pPaths array. **PathCount** cannot be zero.
+The number of paths in the pPaths array. **PathCount** cannot be zero.
 
-### -field pPaths
+### -field pPaths [in]
 
-[in] Pointer to array of [**IDDCX_DISPLAYCONFIGPATH**](ns-iddcx-iddcx_displayconfigpath.md) structures containing path display configuration information.
+Pointer to array of [**IDDCX_DISPLAYCONFIGPATH**](ns-iddcx-iddcx_displayconfigpath.md) structures containing path display configuration information.
 
 ## -remarks
 

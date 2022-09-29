@@ -49,9 +49,9 @@ The  <b>RemoveSymbolByNameWide</b> method removes the specified symbol from a sy
 
 ## -parameters
 
-### -param Name 
+### -param Name [in]
 
-[in]
+
 The name of the symbol to remove from the symbol group.
 
 ## -returns

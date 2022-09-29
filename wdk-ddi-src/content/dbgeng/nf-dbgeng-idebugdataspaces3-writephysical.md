@@ -49,24 +49,24 @@ The <b>WritePhysical</b> method writes data to the specified physical address in
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the physical address of the memory to write the data to.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Specifies the data to write.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be written.
 
-### -param BytesWritten 
+### -param BytesWritten [out, optional]
 
-[out, optional]
+
 Receives the number of bytes written to the target's memory.  If <i>BytesWritten</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

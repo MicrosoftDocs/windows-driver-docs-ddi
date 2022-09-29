@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PFND3DKMT_CREATEPROTECTEDSESSION
 title: PFND3DKMT_CREATEPROTECTEDSESSION (d3dkmthk.h)
 description: Implemented by the client driver to create a protected session.
-ms.date: 10/19/2018
+ms.date: 03/04/2022
 keywords: ["PFND3DKMT_CREATEPROTECTEDSESSION callback function"]
 req.header: d3dkmthk.h
 req.include-header: 
@@ -40,14 +40,24 @@ product:
 
 # PFND3DKMT_CREATEPROTECTEDSESSION callback function
 
-
 ## -description
 
 Implemented by the client driver to create a protected session.
 
+## -syntax
+
+```cpp
+PFND3DKMT_CREATEPROTECTEDSESSION PfnD3dkmtCreateProtectedSession;
+
+NTSTATUS PfnD3dkmtCreateProtectedSession(
+    D3DKMT_CREATEPROTECTEDSESSION *unnamedParam1
+)
+{...}
+```
+
 ## -parameters
 
-### -param D3DKMT_CREATEPROTECTEDSESSION *
+### -param unnamedParam1
 
 Pointer to a [D3DKMT_CREATEPROTECTEDSESSION](ns-d3dkmthk-_d3dkmt_createprotectedsession.md) structure that contains the information needed to create a protected session.
 
@@ -55,27 +65,10 @@ Pointer to a [D3DKMT_CREATEPROTECTEDSESSION](ns-d3dkmthk-_d3dkmt_createprotected
 
 Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code.
 
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3DKMT_CREATEPROTECTEDSESSION Pfnd3dkmtCreateprotectedsession;
-
-// Definition
-
-NTSTATUS Pfnd3dkmtCreateprotectedsession
-(
-	D3DKMT_CREATEPROTECTEDSESSION *
-)
-{...}
-
-PFND3DKMT_CREATEPROTECTEDSESSION
-
-
-```
-
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of [D3DKMT_CREATEPROTECTEDSESSION](ns-d3dkmthk-_d3dkmt_createprotectedsession.md) and then calling Pfnd3DkmtCreateProtectedSession.
+Register your implementation of this callback function by setting the appropriate member of [D3DKMT_CREATEPROTECTEDSESSION](ns-d3dkmthk-_d3dkmt_createprotectedsession.md) and then calling **PfnD3dkmtCreateProtectedSession**.
 
+## -returns
+
+The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this method might return an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** error code.

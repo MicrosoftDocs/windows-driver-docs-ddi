@@ -51,9 +51,9 @@ The <b>Stop</b> method stops sending queued requests to a <a href="/windows-hard
 
 ## -parameters
 
-### -param Action 
+### -param Action [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfiotarget/ne-wdfiotarget-_wdf_io_target_sent_io_action">WDF_IO_TARGET_SENT_IO_ACTION</a>-typed value that identifies how to handle sent I/O when the I/O target object is stopped.
 
 ## -returns

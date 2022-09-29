@@ -55,9 +55,9 @@ A callout driver calls
 
 ## -parameters
 
-### -param classifyHandle 
+### -param classifyHandle [in]
 
-[in]
+
 The classification handle that identifies the callout driver's processing at the current layer.
      This handle is obtained by calling 
      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">

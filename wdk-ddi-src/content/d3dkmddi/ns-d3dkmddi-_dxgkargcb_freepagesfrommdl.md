@@ -46,9 +46,9 @@ The **DXGKARGCB_FREEPAGESFROMMDL** structure contains the arguments used in the 
 
 ## -struct-fields
 
-### -field hMemoryHandle
+### -field hMemoryHandle [in]
 
-[in] A *Dxgkrnl* tracking handle for the memory allocation.
+A *Dxgkrnl* tracking handle for the memory allocation.
 
 ## -remarks
 

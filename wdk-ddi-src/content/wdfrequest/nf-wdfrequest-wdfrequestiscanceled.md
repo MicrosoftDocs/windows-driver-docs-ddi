@@ -54,9 +54,9 @@ The <b>WdfRequestIsCanceled</b> method determines whether the I/O manager has at
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
 ## -returns

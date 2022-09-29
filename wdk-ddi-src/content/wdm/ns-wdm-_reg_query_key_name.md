@@ -82,11 +82,6 @@ A pointer to driver-defined context information that the driver has associated w
 
 This member is reserved for future use. 
 
-
-#### - ResultLength
-
-Pointer to a variable that receives (from the system) the amount of valid data, in bytes, in the <b>ObjectNameInfo</b> buffer.
-
 ## -remarks
 
 The system passes this structure to the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine every time a thread attempts to query the full name of the registry key. 

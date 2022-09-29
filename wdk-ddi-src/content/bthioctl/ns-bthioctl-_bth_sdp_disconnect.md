@@ -4,7 +4,7 @@ title: _BTH_SDP_DISCONNECT (bthioctl.h)
 description: The BTH_SDP_DISCONNECT structure contains input information about a connection handle to the remote SDP connection to terminate. This structure is passed as the input buffer of IOCTL_BTH_SDP_DISCONNECT.
 old-location: bltooth\bth_sdp_disconnect.htm
 tech.root: bltooth
-ms.date: 04/27/2018
+ms.date: 12/01/2021
 keywords: ["BTH_SDP_DISCONNECT structure"]
 ms.keywords: "*PBTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT structure [Bluetooth Devices], PBTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT structure pointer [Bluetooth Devices], _BTH_SDP_DISCONNECT, bltooth.bth_sdp_disconnect, bth_structs_049df802-3bad-49b0-b80e-f3b0a1579b72.xml, bthioctl/BTH_SDP_DISCONNECT, bthioctl/PBTH_SDP_DISCONNECT"
 req.header: bthioctl.h
@@ -48,40 +48,18 @@ api_name:
 
 # _BTH_SDP_DISCONNECT structure
 
-
 ## -description
 
-The BTH_SDP_DISCONNECT structure contains input information about a connection handle to the remote
-  SDP connection to terminate. This structure is passed as the input buffer of 
-  <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_disconnect">IOCTL_BTH_SDP_DISCONNECT</a>.
+The BTH_SDP_DISCONNECT structure contains input information about a connection handle to the remote SDP connection to terminate. This structure is passed as the input buffer of [IOCTL_BTH_SDP_DISCONNECT](./ni-bthioctl-ioctl_bth_sdp_disconnect.md).
 
 ## -struct-fields
 
 ### -field HANDLE_SDP_FIELD_NAME
 
- 
-
-
-
-
-#### - hConnection
-
-A handle for the SDP connection on the remote server to terminate. This should be a value returned
-     in the 
-     <b>hConnection</b> member of the 
-     <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_connect">BTH_SDP_CONNECT</a> structure of a previous call
-     to 
-     <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>.
+When the connect request returns, this specifies the handle to the SDP connection to the remote server.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_connect">BTH_SDP_CONNECT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_disconnect">IOCTL_BTH_SDP_DISCONNECT</a>
-
+- [BTH_SDP_CONNECT](./ns-bthioctl-_bth_sdp_connect.md)
+- [IOCTL_BTH_SDP_CONNECT](./ni-bthioctl-ioctl_bth_sdp_connect.md)
+- [IOCTL_BTH_SDP_DISCONNECT](./ni-bthioctl-ioctl_bth_sdp_disconnect.md)

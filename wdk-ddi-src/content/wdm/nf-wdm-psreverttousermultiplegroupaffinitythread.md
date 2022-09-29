@@ -18,7 +18,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
@@ -47,9 +47,9 @@ The given affinity token must have been filled in by a successful call to [**PsS
 
 ## -parameters
 
-### -param AffinityToken
+### -param AffinityToken [in]
 
-[in]
+
 Supplies a pointer to an affinity token.
 
 ## -remarks

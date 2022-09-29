@@ -4,7 +4,7 @@ title: IOCTL_SCSI_MINIPORT (ntddscsi.h)
 description: Sends a special control function to an HBA-specific miniport driver.
 old-location: storage\ioctl_scsi_miniport.htm
 tech.root: storage
-ms.date: 12/20/2019
+ms.date: 08/18/2022
 keywords: ["IOCTL_SCSI_MINIPORT IOCTL"]
 ms.keywords: IOCTL_SCSI_MINIPORT, IOCTL_SCSI_MINIPORT control, IOCTL_SCSI_MINIPORT control code [Storage Devices], k307_49b821f3-1a79-44aa-a6a1-92543177181d.xml, ntddscsi/IOCTL_SCSI_MINIPORT, storage.ioctl_scsi_miniport
 req.header: ntddscsi.h
@@ -42,7 +42,6 @@ api_name:
 
 # IOCTL_SCSI_MINIPORT IOCTL
 
-
 ## -description
 
 Sends a special control function to a host bus adapter-specific (HBA) miniport driver. Results vary, depending on the particular miniport driver to which this request is forwarded. If the caller specifies a nonzero **Length**, either the input or output buffer must be at least (**sizeof**(SRB_IO_CONTROL) + *DataBufferLength*)).
@@ -69,6 +68,14 @@ An updated [SRB_IO_CONTROL](./ns-ntddscsi-_srb_io_control.md) structure is retur
 ### -output-buffer-length
 
 The length of the [SRB_IO_CONTROL](./ns-ntddscsi-_srb_io_control.md) structure.
+
+### -in-out-buffer
+
+None.
+
+### -inout-buffer-length
+
+Not applicable.
 
 ### -status-block
 

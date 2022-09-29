@@ -53,19 +53,19 @@ The <b>AtaPortMoveMemory</b> routine copies data from one location to another.
 
 ## -parameters
 
-### -param WriteBuffer 
+### -param WriteBuffer [out]
 
-[out]
+
 A pointer to the destination buffer.
 
-### -param ReadBuffer 
+### -param ReadBuffer [in]
 
-[in]
+
 A pointer to the source buffer.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the number of bytes to transfer from <i>ReadBuffer</i> to <i>WriteBuffer</i>.
 
 ## -remarks

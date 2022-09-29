@@ -47,9 +47,9 @@ Arguments used to submit a command to the hardware queue.
 
 ## -struct-fields
 
-### -field hHwQueue
+### -field hHwQueue [in]
 
-[in] Hardware queue being submitted to.
+Hardware queue being submitted to.
 
 ### -field HwQueueProgressFenceId
 

@@ -3,7 +3,7 @@ UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_GETCAPS
 title: PFND3D12DDI_VIDEO_GETCAPS (d3d12umddi.h)
 description: The pfnGetCaps callback function defines an entry point for video specific caps.
 old-location: display\pfnd3d12ddi_video_getcaps.htm
-ms.date: 04/16/2018
+ms.date: 02/16/2022
 keywords: ["PFND3D12DDI_VIDEO_GETCAPS callback function"]
 ms.keywords: PFND3D12DDI_VIDEO_GETCAPS, PFND3D12DDI_VIDEO_GETCAPS callback, d3d12umddi/pfnGetCaps, display.pfnd3d12ddi_video_getcaps, pfnGetCaps, pfnGetCaps callback function [Display Devices]
 req.header: d3d12umddi.h
@@ -44,20 +44,19 @@ product:
 
 # PFND3D12DDI_VIDEO_GETCAPS callback function
 
-
 ## -description
 
-The <i>pfnGetCaps</i> callback function defines an entry point for video specific capabilities.
+The D3D runtime calls a client driver's **PFND3D12DDI_VIDEO_GETCAPS** callback function to query for video-related support provided by the driver for a specified type.
 
 ## -parameters
 
-### -param hDrvDevice
+### -param hDrvDevice [in]
 
 The handle of a device.
 
-### -param pArgs
+### -param pArgs [in, out]
 
-[in] Values used to get capabilities.
+Pointer to a caller-allocated [**D3D12DDIARG_VIDEO_GETCAPS_0020**](ns-d3d12umddi-d3d12ddiarg_video_getcaps_0020.md) structure used to request a video-specific capability.
 
 ## -returns
 
@@ -65,118 +64,19 @@ If this callback function succeeds, it returns **S_OK**. Otherwise, it returns a
 
 ## -remarks
 
-Access this function though the <a href="/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_decode_support_data_0020">D3D12DDI_VIDEO_DECODE_SUPPORT_DATA</a> structure.
+The following table provides a few examples of the meaning/values of **pData** and **DataSize** for various **D3D12DDICAPS_TYPE_VIDEO_0020** values. Note that **pInfo** points to NULL in all of these examples, so is not shown in the table.
 
-The following list describes the mapping of D3D12DDICAPS_TYPE_VIDEO_0010 type to the meaning of the pInfo, pData, and DataSize parameters.
-
-D3D12DDICAPS_TYPE_VIDEO_DECODE_SUPPORT
-
-|Member|Value|
-|--- |--- |
-|pInfo|nullptr|
-|pData|D3D12DDI_VIDEO_DECODE_SUPPORT_DATA*|
-|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_SUPPORT_DATA)|
-
-
-D3D12DDICAPS_TYPE_VIDEO_DECODE_PROFILES
-
-|Member|Value|
-|--- |--- |
-|pInfo|nullptr|
-|pData|D3D12DDI_VIDEO_DECODE_PROFILES_DATA*|
-|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_PROFILES_DATA)|
-
-
-D3D12DDICAPS_TYPE_VIDEO_DECODE_FORMATS
-
-|Member|Value|
-|--- |--- |
-|pInfo|nullptr|
-|pData|D3D12DDI_VIDEO_DECODE_FORMATS_DATA *|
-|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_FORMATS_DATA)|
-
-
-D3D12DDICAPS_TYPE_VIDEO_DECODE_CONVERSION_SUPPORT
-
-|Member|Value|
-|--- |--- |
-|pInfo|nullptr|
-|pData|D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA *|
-|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA)|
-
-
-D3D12DDICAPS_TYPE_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES
-
-|Member|Value|
-|--- |--- |
-|pInfo|nullptr|
-|pData|D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA*|
-|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA)|
-
-
-D3D12DDICAPS_TYPE_VIDEO_PROCESS_SUPPORT
-
-|Member|Value|
-|--- |--- |
-|pInfo|nullptr|
-|pData|D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA*|
-|DataSize|sizeof(D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA)|
-
-
-D3D12DDICAPS_TYPE_VIDEO_PROCESS_MAX_INPUT_STREAMS
-
-|Member|Value|
-|--- |--- |
-|pInfo|nullptr|
-|pData|D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA *|
-|DataSize|sizeof(D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA)|
-
-
-D3D12DDICAPS_TYPE_VIDEO_PROCESS_REFERENCE_INFO
-
-|Member|Value|
-|--- |--- |
-|pInfo|nullptr|
-|pData|D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA *|
-|DataSize|sizeof(D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA)|
-
-
-D3D12DDICAPS_TYPE_VIDEO_0032_DECODER_HEAP_SIZE
-
-|Member|Value|
-|--- |--- |
-|pInfo|nullptr|
-|pData|D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA *|
-|DataSize|sizeof(D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA)|
-
-
-D3D12DDICAPS_TYPE_VIDEO_DECODE_PROFILE_COUNT
-
-|Member|Value|
-|--- |--- |
-|pInfo|nullptr|
-|pData|D3D12DDI_VIDEO_ DECODE_PROFILE_COUNT_DATA *|
-|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA)|
-
-
-D3D12DDICAPS_TYPE_VIDEO_DECODE_PROFILE_FORMAT_COUNT
-
-|Member|Value|
-|--- |--- |
-|pInfo|nullptr|
-|pData|D3D12DDI_VIDEO_ DECODE_PROFILE_FORMAT_COUNT_DATA *|
-|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_PROFILE_FORMAT_COUNT_DATA)|
-
-
-D3D12DDICAPS_TYPE_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT
-
-|Member|Value|
-|--- |--- |
-|pInfo|nullptr|
-|pData|D3D12DDI_VIDEO_ DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA *|
-|DataSize|sizeof(D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA)|
+| D3D12DDICAPS_TYPE_*XXX*  | pData | DataSize |
+| -----------------------  | ----- | -------- |
+| *VIDEO_0020_DECODE_SUPPORT*   | D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020 *  | sizeof(D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020)  |
+| *VIDEO_0020_DECODE_PROFILES*  | D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020 * | sizeof(D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020) |
+| *VIDEO_0020_PROCESS_SUPPORT*  | D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032 * | sizeof(D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032) |
+| *VIDEO_0032_DECODER_HEAP_SIZE*    | D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0072 * | sizeof(D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0072) |
+| *VIDEO_0053_MOTION_ESTIMATOR* | D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053 * | sizeof(D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053) |
+| *VIDEO_0080_ENCODER_CODEC* | D3D12DDICAPS_VIDEO_ENCODER_CODEC_DATA_0080 | sizeof(D3D12DDICAPS_VIDEO_ENCODER_CODEC_DATA_0080) |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_decode_support_data_0020">D3D12DDI_VIDEO_DECODE_SUPPORT_DATA</a>
+[**D3D12DDIARG_VIDEO_GETCAPS_0020**](ns-d3d12umddi-d3d12ddiarg_video_getcaps_0020.md)
 
+[**PFND3D12DDI_FILLDDITTABLE**](nc-d3d12umddi-pfnd3d12ddi_fillddittable.md)

@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param calloutKey 
+### -param calloutKey [in]
 
-[in]
+
 A pointer to a GUID that uniquely identifies the callout that is being unregistered from the
      filter engine. This must be a pointer to the same GUID that was specified when the callout driver called
      either the 

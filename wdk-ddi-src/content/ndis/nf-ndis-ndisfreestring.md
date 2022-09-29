@@ -52,9 +52,9 @@ The
 
 ## -parameters
 
-### -param String 
+### -param String [in]
 
-[in]
+
 An NDIS_STRING type value that describes the string to free. For Windows 2000 and later, NDIS
      defines the NDIS_STRING type as a 
      <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.

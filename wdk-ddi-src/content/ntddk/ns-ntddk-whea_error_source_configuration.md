@@ -63,7 +63,7 @@ Reserved for system use.
 
 ### -field Uninitialize
 
-### -field Ready
+### -field Reserved
 
 ## -remarks
 

@@ -49,9 +49,9 @@ The <b>FsRtlBalanceReads</b> routine signals to a fault-tolerant disk driver tha
 
 ## -parameters
 
-### -param TargetDevice 
+### -param TargetDevice [in]
 
-[in]
+
 A pointer to the device object from which the device starts the balanced read.
 
 ## -returns

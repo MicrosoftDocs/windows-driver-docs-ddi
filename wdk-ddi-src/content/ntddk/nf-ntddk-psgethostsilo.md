@@ -47,8 +47,6 @@ api_name:
 
 This routine returns the host silo.
 
-## -parameters
-
 ## -returns
 
 The host silo.

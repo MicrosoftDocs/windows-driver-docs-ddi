@@ -107,13 +107,6 @@ For more information about these members, see
 
 ### -field SetDeviceSlotMappingInfo
 
- 
-
-
-
-
-#### - DeviceSlotMappings
-
 A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_slot_mapping_info">WWAN_DEVICE_SLOT_MAPPING_INFO</a> structure that represents the executor-to-slot mapping relationship of the MB device.
 
 ## -see-also

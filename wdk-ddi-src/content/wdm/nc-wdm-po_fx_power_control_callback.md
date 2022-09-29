@@ -51,40 +51,35 @@ The <i>PowerControlCallback</i> callback routine performs a power control operat
 
 ### -param DeviceContext
 
-### -param PowerControlCode 
+### -param PowerControlCode [in]
 
-[in]
+
 A pointer to the power control code. This code is a GUID value that specifies the requested operation.
 
-### -param InBuffer 
+### -param InBuffer [in, optional]
 
-[in, optional]
+
 A pointer to the buffer that contains the input data for the operation. The format for the data in this buffer depends on the power control code specified by the <i>PowerControlCode</i> parameter. The <i>InBuffer</i> parameter is optional and can be specified as NULL if the specified operation requires no input data.
 
-### -param InBufferSize 
+### -param InBufferSize [in]
 
-[in]
+
 The size, in bytes, of the input buffer that is pointed to by the <i>InBuffer</i> parameter. If <i>InBuffer</i> is NULL, this parameter is zero.
 
-### -param OutBuffer 
+### -param OutBuffer [out, optional]
 
-[out, optional]
+
 A pointer to the buffer to which the callback routine writes the output data from the operation. The format for the data in this buffer depends on the power control code specified by the <i>PowerControlCode</i> parameter.  The <i>OutBuffer</i> parameter is optional and can be specified as NULL if the specified operation produces no output data.
 
-### -param OutBufferSize 
+### -param OutBufferSize [in]
 
-[in]
+
 The size, in bytes, of the output buffer that is pointed to by the <i>OutBuffer</i> parameter. If <i>OutBuffer</i> is NULL, this parameter is zero.
 
-### -param BytesReturned 
+### -param BytesReturned [out, optional]
 
-[out, optional]
+
 A pointer to a location into which the routine writes the number of bytes of data that were written to the buffer that is pointed to by <i>OutBuffer</i>. The number of bytes written must be less than or equal to <i>OutBufferSize</i>. This parameter is optional and can be specified as NULL if the caller does not need to know how many bytes were written to the output buffer.
-
-
-#### - Context [in]
-
-A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that the driver used to register the device with PoFx. This context is opaque to PoFx.
 
 ## -returns
 

@@ -50,24 +50,24 @@ The <b>ClfsRemoveLogContainerSet</b> routine atomically removes a set of contain
 
 ## -parameters
 
-### -param plfoLog 
+### -param plfoLog [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log from which the containers will be removed. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>.
 
-### -param cContainers 
+### -param cContainers [in]
 
-[in]
+
 The number of containers in the set. This is the number of elements in the <i>rgwszContainerPath</i> array.
 
-### -param rgwszContainerPath 
+### -param rgwszContainerPath [in]
 
-[in]
+
 A pointer to an array of <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structures, each of which supplies the path name for one of the containers to be removed. The number of elements in the array is given by <i>cContainers</i>. A given path can be absolute or relative to the location of the base log file for the CLFS log represented by <i>plfoLog</i>. Paths that are relative to the base log file must begin with CLFS_CONTAINER_RELATIVE_PREFIX, which is the string literal (L"%BLF%\\"). The directories "." and ".." are not allowed in a relative path.
 
-### -param fForce 
+### -param fForce [in]
 
-[in]
+
 A Boolean value that specifies whether the container removal is forced (<b>TRUE</b>) or lazy (<b>FALSE</b>).
 
 ## -returns

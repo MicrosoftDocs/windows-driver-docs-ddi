@@ -50,9 +50,9 @@ Adds an item to the collection.
 
 ## -parameters
 
-### -param pValue 
+### -param pValue [in]
 
-[in]
+
 Pointer to a new <b>PROPVARIANT</b> object to add to the collection. This method copies the <b>PROPVARIANT</b> to the collection. You can release your local copy of the variable by calling <b>PropVariantClear</b> after calling this method.
 
 ## -returns

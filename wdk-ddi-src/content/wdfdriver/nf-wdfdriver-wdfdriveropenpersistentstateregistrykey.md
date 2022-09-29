@@ -2,7 +2,7 @@
 UID: NF:wdfdriver.WdfDriverOpenPersistentStateRegistryKey
 title: WdfDriverOpenPersistentStateRegistryKey
 tech.root: wdf
-ms.date: 07/06/2021
+ms.date: 06/15/2022
 targetos: Windows
 description: "Learn more about: WdfDriverOpenPersistentStateRegistryKey"
 req.assembly: 
@@ -18,7 +18,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 1909
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -45,27 +45,27 @@ Drivers should use **WdfDriverOpenPersistentStateRegistryKey** to write driver w
 
 ## -parameters
 
-### -param Driver
+### -param Driver [in]
 
-[in]
+
 A handle to the driver's framework driver object that the driver obtained from a previous call to [**WdfDriverCreate**](./nf-wdfdriver-wdfdrivercreate.md) or [**WdfGetDriver**](./nf-wdfdriver-wdfgetdriver.md).
 
-### -param DesiredAccess
+### -param DesiredAccess [in]
 
-[in]
+
 An [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) typed value that specifies an access mask for the registry key.
 A KMDF driver typically requests **KEY_READ**, **KEY_WRITE**, or **KEY_READ** | **KEY_WRITE**.
 If you are writing a UMDF driver, use **KEY_READ** or **KEY_READ** | **KEY_SET_VALUE**.
 As a best practice, ask for only the types of access that your driver needs.
 
-### -param KeyAttributes
+### -param KeyAttributes [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure that specifies object attributes for the framework registry-key object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
  
-### -param Key
+### -param Key [out]
 
-[out]
+
 A pointer to a location that receives a handle to a framework registry-key object.
 
 ## -returns

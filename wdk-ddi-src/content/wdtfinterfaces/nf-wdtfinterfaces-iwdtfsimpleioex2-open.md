@@ -49,9 +49,9 @@ Opens the device.
 
 ## -parameters
 
-### -param pResult 
+### -param pResult [out, retval]
 
-[out, retval]
+
 True if the operation succeeds; otherwise, false.
 
 ## -returns

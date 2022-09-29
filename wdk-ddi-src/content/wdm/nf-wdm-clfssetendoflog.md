@@ -50,14 +50,14 @@ The <b>ClfsSetEndOfLog</b> routine truncates a CLFS stream.
 
 ## -parameters
 
-### -param plfoLog 
+### -param plfoLog [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. This stream must be the only stream of a dedicated log. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>.
 
-### -param plsnEnd 
+### -param plsnEnd [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that supplies the LSN of the record that is to become the last record of the stream. This must be the exact LSN of one of the records in the stream.
 
 ## -returns

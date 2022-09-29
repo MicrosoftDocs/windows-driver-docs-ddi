@@ -50,24 +50,24 @@ The <b>ClfsCreateScanContext</b> routine creates a scan context that can be used
 
 ## -parameters
 
-### -param plfoLog 
+### -param plfoLog [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The scan context is created for the log that provides the underlying storage for that stream. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>.
 
-### -param cFromContainer 
+### -param cFromContainer [in]
 
-[in]
+
 The index of the first container to be scanned. Containers are indexed starting at zero.
 
-### -param cContainers 
+### -param cContainers [in]
 
-[in]
+
 The number of containers to be scanned with each call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsscanlogcontainers">ClfsScanLogContainers</a>.
 
-### -param eScanMode 
+### -param eScanMode [in]
 
-[in]
+
  A set of flags that specify whether the scan context is set up for scanning forward or backward and whether the scan context should be reinitialized. The following three flags are available for callers of this routine.
 
 <table>
@@ -112,9 +112,9 @@ If <i>pcxScan</i> points to a CLFS_SCAN_CONTEXT structure that is being passed t
 
 If <i>pcxScan</i> points to a CLFS_SCAN_CONTEXT structure that has been passed to this routine previously, the CLFS_SCAN_INIT flag must be set. Also, one and only one of the direction flags (CLFS_SCAN_FORWARD or CLFS_SCAN_BACKWARD) must be set.
 
-### -param pcxScan 
+### -param pcxScan [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_scan_context">CLFS_SCAN_CONTEXT</a> structure whose members are initialized by this routine. This structure is later passed to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsscanlogcontainers">ClfsScanLogContainers</a>.
 
 ## -returns

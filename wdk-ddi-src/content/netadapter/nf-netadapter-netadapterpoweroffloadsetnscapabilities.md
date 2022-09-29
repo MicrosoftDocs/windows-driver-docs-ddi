@@ -3,7 +3,7 @@ UID: NF:netadapter.NetAdapterPowerOffloadSetNSCapabilities
 title: NetAdapterPowerOffloadSetNSCapabilities function (netadapter.h)
 description: The NetAdapterPowerOffloadSetNsCapabilities function sets a net adapter's capabilities for IPv6 Neighbor Solicitation (NS) low power protocol offload.
 tech.root: netvista
-ms.date: 11/06/2019
+ms.date: 03/30/2022
 keywords: ["NetAdapterPowerOffloadSetNSCapabilities function"]
 ms.keywords: NetAdapterPowerOffloadSetNSCapabilities
 req.header: netadapter.h
@@ -49,17 +49,13 @@ The **NetAdapterPowerOffloadSetNsCapabilities** function sets a net adapter's ca
 
 ## -parameters
 
-### -param Adapter
+### -param Adapter [_In_]
 
 A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
-### -param Capabilities
+### -param Capabilities [_In_]
 
 A pointer to a client driver-allocated and initialized [**NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_power_offload_ns_capabilities.md) structure.
-
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

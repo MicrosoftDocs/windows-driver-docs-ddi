@@ -3,7 +3,7 @@ UID: NF:prnasntp.IPrintAsyncCookie.CancelAsyncCall
 title: IPrintAsyncCookie::CancelAsyncCall (prnasntp.h)
 description: Defines the IPrintAsyncCookie::CancelAsyncCall method.
 tech.root: print
-ms.date: 06/12/2021
+ms.date: 07/26/2022
 keywords: ["IPrintAsyncCookie::CancelAsyncCall"]
 ms.keywords: CancelAsyncCall, CancelAsyncCall method [Print Devices], CancelAsyncCall method [Print Devices],IPrintAsyncCookie interface, IPrintAsyncCookie interface [Print Devices],CancelAsyncCall method, IPrintAsyncCookie.CancelAsyncCall, IPrintAsyncCookie::CancelAsyncCall, print.iprintasyncnotify_cancelasynccall, prnasntp/IPrintAsyncCookie::CancelAsyncCall
 req.header: prnasntp.h
@@ -39,13 +39,15 @@ api_name:
  - IPrintAsyncCookie::CancelAsyncCall
 ---
 
-# IPrintAsyncCookie::CancelAsyncCall
-
 ## -description
 
 Defines the **IPrintAsyncCookie::CancelAsyncCall** method.
 
 ## -parameters
+
+### -param unnamedParam1
+
+Defines the **HRESULT** parameter *unnamedParam1*.
 
 ## -returns
 

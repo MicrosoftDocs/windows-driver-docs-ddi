@@ -2,15 +2,14 @@
 UID: NF:bdasup.BdaPropertyGetPinControl
 title: BdaPropertyGetPinControl function (bdasup.h)
 description: The BdaPropertyGetPinControl function retrieves either the identifier or type of a pin.
-old-location: stream\bdapropertygetpincontrol.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/25/2022
 keywords: ["BdaPropertyGetPinControl function"]
 ms.keywords: BdaPropertyGetPinControl, BdaPropertyGetPinControl function [Streaming Media Devices], bdaref_f2db3de1-bfa0-4ad9-a537-6cc46f972984.xml, bdasup/BdaPropertyGetPinControl, stream.bdapropertygetpincontrol
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. This routine is available on the Windows 2000 platform only if Microsoft DirectX 9.0 and later is installed on that platform.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,31 +40,23 @@ api_name:
  - BdaPropertyGetPinControl
 ---
 
-# BdaPropertyGetPinControl function
-
-
 ## -description
 
-The <b>BdaPropertyGetPinControl</b> function retrieves either the identifier or type of a pin.
+The **BdaPropertyGetPinControl** function retrieves either the identifier or type of a pin.
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
-Points to the IRP for the request to retrieve pin information. The BDA minidriver receives this IRP with either the <a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-id">KSPROPERTY_BDA_PIN_ID</a> or <a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-type">KSPROPERTY_BDA_PIN_TYPE</a> request.
+Points to the IRP for the request to retrieve pin information. The BDA minidriver receives this IRP with either the [KSPROPERTY_BDA_PIN_ID](/windows-hardware/drivers/stream/ksproperty-bda-pin-id) or [KSPROPERTY_BDA_PIN_TYPE](/windows-hardware/drivers/stream/ksproperty-bda-pin-type) request.
 
-### -param Property
+### -param Property [in]
 
-### -param pulProperty 
+Points to a [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure) structure that describes the property and request type of the property request.
 
-[out, optional]
-Points to a variable that receives either the identifier or type of a pin. 
+### -param pulProperty [out, optional]
 
-
-#### - pKSProperty [in]
-
-Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property and request type of the property request.
+Points to a variable that receives either the identifier or type of a pin.
 
 ## -returns
 
@@ -73,20 +64,14 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 ## -remarks
 
-A BDA minidriver calls the <b>BdaPropertyGetPinControl</b> function to retrieve either the identifier or type of a pin after the minidriver receives either a <a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-id">KSPROPERTY_BDA_PIN_ID</a> or <a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-type">KSPROPERTY_BDA_PIN_TYPE</a> request of the <a href="/windows-hardware/drivers/stream/kspropsetid-bdapincontrol">KSPROPSETID_BdaPinControl</a> property set. Most BDA minidrivers can define pin-automation tables so that those minidrivers dispatch the <b>BdaPropertyGetPinControl</b> function directly, without intercepting this request using an internal get-handler (<a href="/previous-versions/ff567177(v=vs.85)">KStrGetPropertyHandler</a>).
+A BDA minidriver calls the **BdaPropertyGetPinControl** function to retrieve either the identifier or type of a pin after the minidriver receives either a [KSPROPERTY_BDA_PIN_ID](/windows-hardware/drivers/stream/ksproperty-bda-pin-id) or [KSPROPERTY_BDA_PIN_TYPE](/windows-hardware/drivers/stream/ksproperty-bda-pin-type) request of the [KSPROPSETID_BdaPinControl](/windows-hardware/drivers/stream/kspropsetid-bdapincontrol) property set. Most BDA minidrivers can define pin-automation tables so that those minidrivers dispatch the **BdaPropertyGetPinControl** function directly, without intercepting this request using an internal get-handler ([KStrGetPropertyHandler](/previous-versions/ff567177(v=vs.85))).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
+[KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)
 
+[KSPROPERTY_BDA_PIN_ID](/windows-hardware/drivers/stream/ksproperty-bda-pin-id)
 
+[KSPROPERTY_BDA_PIN_TYPE](/windows-hardware/drivers/stream/ksproperty-bda-pin-type)
 
-<a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-id">KSPROPERTY_BDA_PIN_ID</a>
-
-
-
-<a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-type">KSPROPERTY_BDA_PIN_TYPE</a>
-
-
-
-<a href="/windows-hardware/drivers/stream/kspropsetid-bdapincontrol">KSPROPSETID_BdaPinControl</a>
+[KSPROPSETID_BdaPinControl](/windows-hardware/drivers/stream/kspropsetid-bdapincontrol)

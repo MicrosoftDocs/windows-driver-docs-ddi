@@ -4,7 +4,7 @@ title: ExGetFirmwareType function (wdm.h)
 description: Returns the system firmware type.
 old-location: kernel\exgetfirmwaretype.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 10/28/2021
 keywords: ["ExGetFirmwareType function"]
 ms.keywords: ExGetFirmwareType, ExGetFirmwareType function [Kernel-Mode Driver Architecture], kernel.exgetfirmwaretype, wdm/ExGetFirmwareType
 req.header: wdm.h
@@ -47,7 +47,6 @@ api_name:
 
 Returns the system firmware type.
 
-## -parameters
 
 ## -returns
 

@@ -3,7 +3,7 @@ UID: NI:ntddstor.IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG
 title: IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG
 description: A driver can use IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG to get the internal status data from the device.
 tech.root: storage
-ms.date: 08/04/2020
+ms.date: 08/18/2022
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: 
@@ -34,10 +34,9 @@ product:
 
 # IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG IOCTL
 
-### Major Code
+## Major Code
 
 [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 
 ## -description
 
@@ -60,6 +59,14 @@ The driver returns output to the buffer at **Irp->AssociatedIrp.SystemBuffer**. 
 ### -output-buffer-length
 
 **Parameters.DeviceIoControl.OutputBufferLength** in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= **sizeof(DEVICE_INTERNAL_STATUS_DATA)**.
+
+### -in-out-buffer
+
+n/a
+
+### -inout-buffer-length
+
+n/a
 
 ### -status-block
 

@@ -52,13 +52,13 @@ The D3DKMT_OPENKEYEDMUTEX structure describes a keyed mutex that the <a href="/w
 
 ## -struct-fields
 
-### -field hSharedHandle
+### -field hSharedHandle [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode shared global handle to the keyed mutex object.
+A D3DKMT_HANDLE data type that represents a kernel-mode shared global handle to the keyed mutex object.
 
-### -field hKeyedMutex
+### -field hKeyedMutex [out]
 
-[out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the keyed mutex object in the current process.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the keyed mutex object in the current process.
 
 ## -see-also
 

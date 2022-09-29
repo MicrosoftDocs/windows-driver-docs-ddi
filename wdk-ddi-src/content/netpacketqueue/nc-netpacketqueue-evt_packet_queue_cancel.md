@@ -3,7 +3,7 @@ UID: NC:netpacketqueue.EVT_PACKET_QUEUE_CANCEL
 title: EVT_PACKET_QUEUE_CANCEL (netpacketqueue.h)
 description: The EvtPacketQueueCancel callback function is implemented by the client driver to handle operations that must be performed before a packet queue is deleted.
 tech.root: netvista
-ms.date: 01/24/2019
+ms.date: 04/01/2022
 keywords: ["EVT_PACKET_QUEUE_CANCEL callback function"]
 req.header: netpacketqueue.h
 req.include-header: netadaptercx.h 
@@ -46,7 +46,7 @@ The *EvtPacketQueueCancel* callback function is implemented by the client driver
 
 ## -parameters
 
-### -param PacketQueue
+### -param PacketQueue [_In_]
 
 A handle to a packet queue.
 

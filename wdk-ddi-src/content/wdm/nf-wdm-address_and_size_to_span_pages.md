@@ -46,14 +46,14 @@ The **ADDRESS_AND_SIZE_TO_SPAN_PAGES** macro returns the number of pages spanned
 
 ## -parameters
 
-### -param Va
+### -param Va [in]
 
-[in]
+
 Pointer to the virtual address that is the base of the range.
 
-### -param Size
+### -param Size [in]
 
-[in]
+
 Specifies the size in bytes of the transfer request.
 
 ## -remarks

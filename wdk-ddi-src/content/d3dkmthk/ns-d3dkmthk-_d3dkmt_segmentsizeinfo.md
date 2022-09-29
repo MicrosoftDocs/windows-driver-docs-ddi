@@ -52,17 +52,17 @@ The D3DKMT_SEGMENTSIZEINFO structure describes the size, in bytes, of memory and
 
 ## -struct-fields
 
-### -field DedicatedVideoMemorySize
+### -field DedicatedVideoMemorySize [out]
 
-[out] The size, in bytes, of memory that is dedicated from video memory.
+The size, in bytes, of memory that is dedicated from video memory.
 
-### -field DedicatedSystemMemorySize
+### -field DedicatedSystemMemorySize [out]
 
-[out] The size, in bytes, of memory that is dedicated from system memory.
+The size, in bytes, of memory that is dedicated from system memory.
 
-### -field SharedSystemMemorySize
+### -field SharedSystemMemorySize [out]
 
-[out] The size, in bytes, of memory from system memory that can be shared by many users.
+The size, in bytes, of memory from system memory that can be shared by many users.
 
 ## -see-also
 

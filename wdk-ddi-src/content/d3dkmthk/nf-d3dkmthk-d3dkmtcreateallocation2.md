@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTCreateAllocation2
 title: D3DKMTCreateAllocation2 function (d3dkmthk.h)
 description: "Microsoft reserves the D3DKMTCreateAllocation2 function for internal use only. Don't use this function in your driver."
 old-location: display\d3dkmtcreateallocation2.htm
-ms.date: 05/10/2018
+ms.date: 02/23/2022
 keywords: ["D3DKMTCreateAllocation2 function"]
 ms.keywords: D3DKMTCreateAllocation2, D3DKMTCreateAllocation2 callback function [Display Devices], PFND3DKMT_CREATEALLOCATION2, PFND3DKMT_CREATEALLOCATION2 callback, d3dkmthk/D3DKMTCreateAllocation2, display.d3dkmtcreateallocation2
 req.header: d3dkmthk.h
@@ -42,14 +42,16 @@ api_name:
 
 # D3DKMTCreateAllocation2 function
 
-
 ## -description
 
 Reserved for system use. Do not use in your driver.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in, out]
 
-*pData* [in, out]
+Reserved for system use.
 
+## -returns
+
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.

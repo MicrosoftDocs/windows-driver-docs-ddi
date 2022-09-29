@@ -52,14 +52,14 @@ A WPD driver calls this method one time during driver initialization (for exampl
 
 ## -parameters
 
-### -param pWdfDeviceUnknown 
+### -param pWdfDeviceUnknown [in]
 
-[in]
+
 A pointer to the <b>IWDFDevice</b> object that represents the devnode for that device.
 
-### -param pOptions 
+### -param pOptions [in]
 
-[in]
+
 An <b>IPortableDeviceValues</b> object that contains one or more of the initialization options described in the <a href="/previous-versions/windows/hardware/drivers/ff597738(v=vs.85)">Class Extension Properties</a>  section.
 
 ## -returns

@@ -1,10 +1,10 @@
 ---
 UID: NS:ata._ATA_ZONE_DESCRIPTOR
-title: _ATA_ZONE_DESCRIPTOR (ata.h)
+title: ATA_ZONE_DESCRIPTOR (ata.h)
 description: "Microsoft reserves the The ATA_ZONE_DESCRIPTOR structure for internal use only. Don't use this structure in your code."
 old-location: storage\ata_zone_descriptor.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/20/2022
 keywords: ["ATA_ZONE_DESCRIPTOR structure"]
 ms.keywords: "*PATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR structure [Storage Devices], PATA_ZONE_DESCRIPTOR, PATA_ZONE_DESCRIPTOR structure pointer [Storage Devices], _ATA_ZONE_DESCRIPTOR, ata/ATA_ZONE_DESCRIPTOR, ata/PATA_ZONE_DESCRIPTOR, storage.ata_zone_descriptor"
 req.header: ata.h
@@ -46,8 +46,7 @@ api_name:
  - ATA_ZONE_DESCRIPTOR
 ---
 
-# _ATA_ZONE_DESCRIPTOR structure
-
+# ATA_ZONE_DESCRIPTOR structure
 
 ## -description
 
@@ -57,95 +56,56 @@ This structure is for internal use only and should not be called from your code.
 
 ### -field ZoneType
 
+Reserved.
+
 ### -field Reserved0
+
+Reserved.
 
 ### -field Reset
 
+Reserved.
+
 ### -field NonSeq
+
+Reserved.
 
 ### -field Reserved1
 
+Reserved.
+
 ### -field ZoneCondition
+
+Reserved.
 
 ### -field Reserved2
 
-N/A
+Reserved.
 
 ### -field ZoneLength
 
+Reserved.
+
 ### -field Reserved3
+
+Reserved.
 
 ### -field ZoneStartLBA
 
+Reserved.
+
 ### -field Reserved4
+
+Reserved.
 
 ### -field WritePointerLBA
 
+Reserved.
+
 ### -field Reserved5
+
+Reserved.
 
 ### -field Reserved6
 
-N/A
-
-
-#### - NonSeq : 1
-
-N/A
-
-
-#### - Reserved0  : 4
-
-N/A
-
-
-#### - Reserved1  : 2
-
-N/A
-
-
-#### - Reserved3  : 16
-
-N/A
-
-N/A
-
-
-#### - Reserved4  : 16
-
-N/A
-
-
-#### - Reserved5  : 16
-
-N/A
-
-
-#### - Reset  : 1
-
-N/A
-
-
-#### - WritePointerLBA  : 48
-
-N/A
-
-
-#### - ZoneCondition  : 4
-
-N/A
-
-
-#### - ZoneLength  : 48
-
-N/A
-
-
-#### - ZoneStartLBA  : 48
-
-N/A
-
-
-#### - ZoneType  : 4
-
-N/A
-
+Reserved.

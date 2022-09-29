@@ -49,8 +49,6 @@ api_name:
 
 The <b>QueueWorkItemForIsr</b> method queues a work item to process interrupt-related work outside of the interrupt service routine.
 
-## -parameters
-
 ## -returns
 
 The method returns TRUE if a work item was successfully queued. If a work item is already in the queue, the method returns FALSE.

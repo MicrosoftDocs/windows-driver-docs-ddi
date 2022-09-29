@@ -4,7 +4,7 @@ title: IoQueryVolumeInformation function (ntifs.h)
 description: "Microsoft reserves the IoQueryVolumeInformation function for internal use only. Don't use this function in your code."
 old-location: ifsk\ioqueryvolumeinformation.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["IoQueryVolumeInformation function"]
 ms.keywords: IoQueryVolumeInformation, IoQueryVolumeInformation function [Installable File System Drivers], ifsk.ioqueryvolumeinformation, ioref_c048e59e-2f1e-4327-9f7f-b18e9a8e5724.xml, ntifs/IoQueryVolumeInformation
 req.header: ntifs.h
@@ -42,16 +42,15 @@ api_name:
 
 # IoQueryVolumeInformation function
 
-
 ## -description
 
-The <b>IoQueryVolumeInformation</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwqueryvolumeinformationfile">ZwQueryVolumeInformationFile</a>.
+The **IoQueryVolumeInformation** routine is reserved for system use. See [**ZwQueryVolumeInformationFile**](nf-ntifs-zwqueryvolumeinformationfile.md).
 
 ## -parameters
 
 ### -param FileObject
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param FsInformationClass
 
@@ -66,5 +65,9 @@ Reserved.
 Reserved.
 
 ### -param ReturnedLength
+
+Reserved.
+
+## -returns
 
 Reserved.

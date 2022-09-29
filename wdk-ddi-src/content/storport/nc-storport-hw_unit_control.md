@@ -48,17 +48,17 @@ A miniport driver's **HwStorUnitControl** routine is called to perform synchrono
 
 ## -parameters
 
-### -param DeviceExtension
+### -param DeviceExtension [in]
 
-[in] A pointer to the miniport driver's per-unit storage area.
+A pointer to the miniport driver's per-unit storage area.
 
-### -param ControlType
+### -param ControlType [in]
 
-[in] A [**SCSI_UNIT_CONTROL_TYPE**](ne-storport-scsi_unit_control_type.md) value that specifies a unit control operation, where each control type initiates an action by the miniport driver. See **SCSI_UNIT_CONTROL_TYPE** for details.
+A [**SCSI_UNIT_CONTROL_TYPE**](ne-storport-scsi_unit_control_type.md) value that specifies a unit control operation, where each control type initiates an action by the miniport driver. See **SCSI_UNIT_CONTROL_TYPE** for details.
 
-### -param Parameters
+### -param Parameters [in]
 
-[in] Pointer to a structure or value that contains information related to the **ControlType**. All structures are caller-allocated. See [**SCSI_UNIT_CONTROL_TYPE**](ne-storport-scsi_unit_control_type.md)  for details.
+Pointer to a structure or value that contains information related to the **ControlType**. All structures are caller-allocated. See [**SCSI_UNIT_CONTROL_TYPE**](ne-storport-scsi_unit_control_type.md)  for details.
 
 #### Address
 

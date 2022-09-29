@@ -49,9 +49,9 @@ The <b>GetCurrentScopeFrameIndex</b> method returns the index of the current sta
 
 ## -parameters
 
-### -param Index 
+### -param Index [out]
 
-[out]
+
 Receives the index of the stack frame corresponding to the current scope.  The index counts the number of frames from the top of the call stack.  The frame at the top of the stack, representing the current call, has index zero.
 
 ## -returns

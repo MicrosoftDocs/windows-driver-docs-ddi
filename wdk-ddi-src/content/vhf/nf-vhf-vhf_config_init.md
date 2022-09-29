@@ -4,7 +4,7 @@ title: VHF_CONFIG_INIT function (vhf.h)
 description: Use the VHF_CONFIG_INIT function to initialize the required members of the VHF_CONFIG structure allocated by the HID source driver.
 old-location: hid\vhf_config_init.htm
 tech.root: hid
-ms.date: 04/30/2018
+ms.date: 10/26/2021
 keywords: ["VHF_CONFIG_INIT function"]
 ms.keywords: VHF_CONFIG_INIT, VHF_CONFIG_INIT function [Human Input Devices], hid.vhf_config_init, vhf/VHF_CONFIG_INIT
 req.header: vhf.h
@@ -48,21 +48,45 @@ api_name:
 
 Use the <b>VHF_CONFIG_INIT</b> function to initialize the required members of the <a href="/windows-hardware/drivers/ddi/vhf/ns-vhf-_vhf_config">VHF_CONFIG</a> structure allocated by the HID source driver.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+VHF_CONFIG_INIT(
+    _Out_
+        PVHF_CONFIG     Config,
+#ifdef _KERNEL_MODE
+    _In_
+        PDEVICE_OBJECT  DeviceObject,
+#else
+    _In_
+        HANDLE          FileHandle,
+#endif
+    _In_
+        USHORT          ReportDescriptorLength,
+    _In_reads_bytes_(ReportDescriptorLength)
+        PUCHAR          ReportDescriptor    
+    )
+```
+
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/vhf/ns-vhf-_vhf_config">VHF_CONFIG</a> structure to initialize.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure for the HID source driver. Get that pointer by calling  <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmgetdeviceobject">WdfDeviceWdmGetDeviceObject</a> and passing the WDFDEVICE handle that the driver received in the <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> call.
 
-### -param ReportDescriptorLength 
+A user-mode driver would instead provide a *FileHandle*. For more info, see [**VHF_CONFIG**](./ns-vhf-_vhf_config.md).
 
-[in]
+### -param ReportDescriptorLength [in]
+
+
 The length of the HID Report Descriptor contained in a buffer pointer by <i>ReportDescriptor</i>.
 
 ### -param ReportDescriptor

@@ -2,12 +2,9 @@
 description: "Learn more about: Ntifs.h header"
 UID: NA:ntifs
 title: Ntifs.h header
-ms.assetid: e3d525ec-4b50-3580-9b86-a44d770e9b1d
-ms.date: 05/09/2018
+ms.date: 06/30/2022
 keywords: ["Ntifs.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: ifsk
 f1_keywords:
@@ -15,14 +12,15 @@ f1_keywords:
  - ntifs/ntifs
 api_name:
  - ntifs
+mscustom: contperf-fy22q4
 ---
 
 # Ntifs.h header
 
-
 ## -description
 
-This header is used by ifsk. For more information, see:
+This header file is used by Windows file system and filter driver developers. For a complete list of associated header files, see:
 
-- [Installable file system](../_ifsk/index.md)
+- [File system and minifilter drivers](../_ifsk/index.md)
 
+For the programming guide, see the [File system and minifilter design guide](/windows-hardware/drivers/ifs).

@@ -54,19 +54,19 @@ The <b>WdfIoQueueReadyNotify</b> method registers (or deregisters) an event call
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to a framework queue object.
 
-### -param QueueReady 
+### -param QueueReady [in, optional]
 
-[in, optional]
+
 A pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_state">EvtIoQueueState</a> callback function, if the driver is registering for ready notification, or <b>NULL</b> if the driver is deregistering.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 An untyped pointer to driver-supplied context information that the framework passes to the <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_state">EvtIoQueueState</a> callback function, if the driver is registering for ready notification, or <b>NULL</b> if the driver is deregistering.
 
 ## -returns

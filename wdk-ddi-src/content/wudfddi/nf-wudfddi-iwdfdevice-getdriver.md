@@ -51,9 +51,9 @@ The <b>GetDriver</b> method retrieves the interface to the parent driver object 
 
 ## -parameters
 
-### -param ppWdfDriver 
+### -param ppWdfDriver [out]
 
-[out]
+
 A pointer to a variable that receives a pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdriver">IWDFDriver</a> interface for the parent driver object.
 
 ## -remarks

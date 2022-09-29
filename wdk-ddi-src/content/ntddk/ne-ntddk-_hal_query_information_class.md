@@ -1,30 +1,22 @@
 ---
 UID: NE:ntddk._HAL_QUERY_INFORMATION_CLASS
-title: _HAL_QUERY_INFORMATION_CLASS (ntddk.h)
-description: The _HAL_QUERY_INFORMATION_CLASS enumeration defines values used by the pHalQuerySystemInformation callback function that are reserved for internal use.
 tech.root: kernel
-ms.date: 09/30/2018
-keywords: ["HAL_QUERY_INFORMATION_CLASS enumeration"]
-ms.keywords: _HAL_QUERY_INFORMATION_CLASS, HAL_QUERY_INFORMATION_CLASS, *PHAL_QUERY_INFORMATION_CLASS,
+title: HAL_QUERY_INFORMATION_CLASS (ntddk.h)
+ms.date: 03/03/2022
+targetos: Windows
+description: The HAL_QUERY_INFORMATION_CLASS enumeration is reserved for system use only. Do not use.
+prerelease: false
+req.construct-type: enumeration
+req.ddi-compliance: 
 req.header: ntddk.h
-req.include-header: 
-req.target-type: 
+req.include-header: Ntddk.h
+req.kmdf-ver: 
+req.max-support: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.kmdf-ver: 
+req.target-type: 
+req.typenames: 
 req.umdf-ver: 
-req.ddi-compliance: 
-req.max-support: 
-req.typenames: HAL_QUERY_INFORMATION_CLASS, *PHAL_QUERY_INFORMATION_CLASS
-targetos: Windows
-ms.custom: RS5
-f1_keywords:
- - _HAL_QUERY_INFORMATION_CLASS
- - ntddk/_HAL_QUERY_INFORMATION_CLASS
- - PHAL_QUERY_INFORMATION_CLASS
- - ntddk/PHAL_QUERY_INFORMATION_CLASS
- - HAL_QUERY_INFORMATION_CLASS
- - ntddk/HAL_QUERY_INFORMATION_CLASS
 topic_type:
  - apiref
 api_type:
@@ -35,118 +27,131 @@ api_name:
  - _HAL_QUERY_INFORMATION_CLASS
  - PHAL_QUERY_INFORMATION_CLASS
  - HAL_QUERY_INFORMATION_CLASS
+f1_keywords:
+ - _HAL_QUERY_INFORMATION_CLASS
+ - ntddk/_HAL_QUERY_INFORMATION_CLASS
+ - PHAL_QUERY_INFORMATION_CLASS
+ - ntddk/PHAL_QUERY_INFORMATION_CLASS
+ - HAL_QUERY_INFORMATION_CLASS
+ - ntddk/HAL_QUERY_INFORMATION_CLASS
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - _HAL_QUERY_INFORMATION_CLASS
 ---
-
-# _HAL_QUERY_INFORMATION_CLASS enumeration
-
 
 ## -description
 
-Defines values used by [**pHalQuerySystemInformation**](nc-ntddk-phalquerysysteminformation.md). The values are reserved for internal use.
+The **HAL_QUERY_INFORMATION_CLASS** enumeration is reserved for system use only. Do not use.
 
 ## -enum-fields
 
-### -field HalInstalledBusInformation 
+### -field HalInstalledBusInformation
 
-### -field HalProfileSourceInformation 
+### -field HalProfileSourceInformation
 
-### -field HalInformationClassUnused1 
+### -field HalInformationClassUnused1
 
-### -field HalPowerInformation 
+### -field HalPowerInformation
 
-### -field HalProcessorSpeedInformation 
+### -field HalProcessorSpeedInformation
 
-### -field HalCallbackInformation 
+### -field HalCallbackInformation
 
-### -field HalMapRegisterInformation 
+### -field HalMapRegisterInformation
 
-### -field HalMcaLogInformation 
+### -field HalMcaLogInformation
 
-### -field HalFrameBufferCachingInformation 
+### -field HalFrameBufferCachingInformation
 
-### -field HalDisplayBiosInformation 
+### -field HalDisplayBiosInformation
 
-### -field HalProcessorFeatureInformation 
+### -field HalProcessorFeatureInformation
 
-### -field HalNumaTopologyInterface 
+### -field HalNumaTopologyInterface
 
-### -field HalErrorInformation 
+### -field HalErrorInformation
 
-### -field HalCmcLogInformation 
+### -field HalCmcLogInformation
 
-### -field HalCpeLogInformation 
+### -field HalCpeLogInformation
 
-### -field HalQueryMcaInterface 
+### -field HalQueryMcaInterface
 
-### -field HalQueryAMLIIllegalIOPortAddresses 
+### -field HalQueryAMLIIllegalIOPortAddresses
 
-### -field HalQueryMaxHotPlugMemoryAddress 
+### -field HalQueryMaxHotPlugMemoryAddress
 
-### -field HalPartitionIpiInterface 
+### -field HalPartitionIpiInterface
 
-### -field HalPlatformInformation 
+### -field HalPlatformInformation
 
-### -field HalQueryProfileSourceList 
+### -field HalQueryProfileSourceList
 
-### -field HalInitLogInformation 
+### -field HalInitLogInformation
 
-### -field HalFrequencyInformation 
+### -field HalFrequencyInformation
 
-### -field HalProcessorBrandString 
+### -field HalProcessorBrandString
 
-### -field HalHypervisorInformation 
+### -field HalHypervisorInformation
 
-### -field HalPlatformTimerInformation 
+### -field HalPlatformTimerInformation
 
-### -field HalAcpiAuditInformation 
+### -field HalAcpiAuditInformation
 
-### -field HalIrtInformation 
+### -field HalIrtInformation
 
-### -field HalSecondaryInterruptInformation 
+### -field HalSecondaryInterruptInformation
 
-### -field HalParkingPageInformation 
+### -field HalParkingPageInformation
 
-### -field HalNumaRangeTableInformation 
+### -field HalNumaRangeTableInformation
 
-### -field HalChannelTopologyInformation 
+### -field HalChannelTopologyInformation
 
-### -field HalExternalCacheInformation 
+### -field HalExternalCacheInformation
 
-### -field HalQueryDebuggerInformation 
+### -field HalQueryDebuggerInformation
 
-### -field HalFwBootPerformanceInformation 
+### -field HalFwBootPerformanceInformation
 
-### -field HalFwS3PerformanceInformation 
+### -field HalFwS3PerformanceInformation
 
-### -field HalGetChannelPowerInformation 
+### -field HalGetChannelPowerInformation
 
-### -field HalQueryStateElementInformation 
+### -field HalQueryStateElementInformation
 
-### -field HalPsciInformation 
+### -field HalPsciInformation
 
-### -field HalInterruptControllerInformation 
+### -field HalInterruptControllerInformation
 
-### -field HalQueryIommuReservedRegionInformation 
+### -field HalQueryIommuReservedRegionInformation
 
-### -field HalQueryArmErrataInformation 
+### -field HalQueryArmErrataInformation
 
-### -field HalQueryProcessorEfficiencyInformation 
+### -field HalQueryProcessorEfficiencyInformation
 
-### -field HalQueryAcpiWakeAlarmSystemPowerStateInformation 
+### -field HalQueryAcpiWakeAlarmSystemPowerStateInformation
 
-### -field HalQueryProfileNumberOfCounters 
+### -field HalQueryProfileNumberOfCounters
 
-### -field HalQueryHyperlaunchEntrypoint 
+### -field HalQueryHyperlaunchEntrypoint
 
-### -field HalHardwareWatchdogInformation 
+### -field HalHardwareWatchdogInformation
 
-### -field HalDmaRemappingInformation 
+### -field HalDmaRemappingInformation
 
-### -field HalQueryRuntimeServicesBlockInformation 
+### -field HalQueryUnused0001
 
-### -field HalHeterogeneousMemoryAttributesInterface 
+### -field HalHeterogeneousMemoryAttributesInterface
+
+### -field HalQueryPerDeviceMsiLimitInformation
+
+### -field HalQueryProfileCorruptionStatus
+
+### -field HalQueryProfileCounterOwnership
 
 ## -remarks
 
 ## -see-also
-

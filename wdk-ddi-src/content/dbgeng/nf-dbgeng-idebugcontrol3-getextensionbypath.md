@@ -49,14 +49,14 @@ The <b>GetExtensionByPath</b>  method returns the handle for an already loaded e
 
 ## -parameters
 
-### -param Path 
+### -param Path [in]
 
-[in]
+
 Specifies the fully qualified path and file name of the extension library.
 
-### -param Handle 
+### -param Handle [out]
 
-[out]
+
 Receives the handle of the extension library.
 
 ## -returns

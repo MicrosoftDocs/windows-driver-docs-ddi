@@ -52,19 +52,19 @@ The
 
 ## -parameters
 
-### -param _ListHead 
+### -param _ListHead [in]
 
-[in]
+
 A pointer to the head of the doubly linked list into which an entry is to be inserted.
 
-### -param _ListEntry 
+### -param _ListEntry [in]
 
-[in]
+
 A pointer to the entry to be inserted at the end of the list.
 
-### -param _SpinLock 
+### -param _SpinLock [in]
 
-[in]
+
 A pointer to a caller-supplied spin lock, used to synchronize access to the list.
 
 ## -remarks

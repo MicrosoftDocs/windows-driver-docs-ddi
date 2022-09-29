@@ -50,9 +50,9 @@ The <b>PcUnregisterAdapterPnpManagement</b> function unregisters the audio adapt
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Specifies a pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 ## -returns

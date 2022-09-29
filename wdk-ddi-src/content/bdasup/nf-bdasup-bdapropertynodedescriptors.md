@@ -2,9 +2,8 @@
 UID: NF:bdasup.BdaPropertyNodeDescriptors
 title: BdaPropertyNodeDescriptors function (bdasup.h)
 description: The BdaPropertyNodeDescriptors function retrieves a list of nodes in a template topology.
-old-location: stream\bdapropertynodedescriptors.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/25/2022
 keywords: ["BdaPropertyNodeDescriptors function"]
 ms.keywords: BdaPropertyNodeDescriptors, BdaPropertyNodeDescriptors function [Streaming Media Devices], bdaref_67976a51-5f21-4369-be96-ab6a2b758e85.xml, bdasup/BdaPropertyNodeDescriptors, stream.bdapropertynodedescriptors
 req.header: bdasup.h
@@ -41,30 +40,21 @@ api_name:
  - BdaPropertyNodeDescriptors
 ---
 
-# BdaPropertyNodeDescriptors function
-
-
 ## -description
 
-The <b>BdaPropertyNodeDescriptors</b> function retrieves a list of nodes in a template topology.
+The **BdaPropertyNodeDescriptors** function retrieves a list of nodes in a template topology.
 
 ## -parameters
 
-### -param pIrp
+### -param pIrp [in]
 
-### -param pKSProperty 
+Points to the IRP for the request to retrieve the list of nodes. The BDA minidriver receives this IRP with the [KSPROPERTY_BDA_NODE_DESCRIPTORS](/windows-hardware/drivers/stream/ksproperty-bda-node-descriptors) request.
 
-[in]
-Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property and request type of the property request.
+### -param pKSProperty [in]
 
-### -param pNodeDescriptorProperty
+Points to a [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure) structure that describes the property and request type of the property request.
 
-#### - Irp [in]
-
-Points to the IRP for the request to retrieve the list of nodes. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksproperty-bda-node-descriptors">KSPROPERTY_BDA_NODE_DESCRIPTORS</a> request.
-
-
-#### - pguidProperty [out, optional]
+### -param pNodeDescriptorProperty [out, optional]
 
 Points to an array that receives the list of GUIDs for the nodes in a template topology.
 
@@ -74,18 +64,14 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 ## -remarks
 
-A BDA minidriver calls the <b>BdaPropertyNodeDescriptors</b> function to retrieve the list of nodes after the minidriver receives a <a href="/windows-hardware/drivers/stream/ksproperty-bda-node-descriptors">KSPROPERTY_BDA_NODE_DESCRIPTORS</a> request of the <a href="/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a> property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the <b>BdaPropertyNodeDescriptors</b> function directly, without intercepting this request using an internal get-handler (<a href="/previous-versions/ff567177(v=vs.85)">KStrGetPropertyHandler</a>). See <a href="/windows-hardware/drivers/stream/defining-automation-tables">Defining Automation Tables</a> and <a href="/windows-hardware/drivers/stream/determining-bda-device-topology">Determining BDA Device Topology</a> for more information. 
+A BDA minidriver calls the **BdaPropertyNodeDescriptors** function to retrieve the list of nodes after the minidriver receives a [KSPROPERTY_BDA_NODE_DESCRIPTORS](/windows-hardware/drivers/stream/ksproperty-bda-node-descriptors) request of the [KSPROPSETID_BdaTopology](/windows-hardware/drivers/stream/kspropsetid-bdatopology) property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the **BdaPropertyNodeDescriptors** function directly, without intercepting this request using an internal get-handler ([KStrGetPropertyHandler](/previous-versions/ff567177(v=vs.85))). See [Defining Automation Tables](/windows-hardware/drivers/stream/defining-automation-tables) and [Determining BDA Device Topology](/windows-hardware/drivers/stream/determining-bda-device-topology) for more information.
 
-For a list of BDA nodes that are available to create in a template topology, see <a href="/windows-hardware/drivers/stream/bda-node-category-guids">BDA Node Category GUIDs</a>.
+For a list of BDA nodes that are available to create in a template topology, see [BDA Node Category GUIDs](/windows-hardware/drivers/stream/bda-node-category-guids).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
+[KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)
 
+[KSPROPERTY_BDA_NODE_DESCRIPTORS](/windows-hardware/drivers/stream/ksproperty-bda-node-descriptors)
 
-
-<a href="/windows-hardware/drivers/stream/ksproperty-bda-node-descriptors">KSPROPERTY_BDA_NODE_DESCRIPTORS</a>
-
-
-
-<a href="/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a>
+[KSPROPSETID_BdaTopology](/windows-hardware/drivers/stream/kspropsetid-bdatopology)

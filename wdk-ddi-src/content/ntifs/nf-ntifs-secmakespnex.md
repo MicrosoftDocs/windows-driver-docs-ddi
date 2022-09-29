@@ -4,7 +4,7 @@ title: SecMakeSPNEx function (ntifs.h)
 description: SecMakeSPNEx creates a service provider name string that can be used when communicating with specific security service providers.
 old-location: ifsk\secmakespnex.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["SecMakeSPNEx function"]
 ms.keywords: SecMakeSPNEx, SecMakeSPNEx function [Installable File System Drivers], ifsk.secmakespnex, ksecddref_3c4441b9-ed78-473f-ac3c-35a644018499.xml, ntifs/SecMakeSPNEx
 req.header: ntifs.h
@@ -43,93 +43,64 @@ api_name:
 
 # SecMakeSPNEx function
 
-
 ## -description
 
-<b>SecMakeSPNEx</b> creates a service provider name string that can be used when communicating with specific security service providers.
+**SecMakeSPNEx** creates a service provider name string that can be used when communicating with specific security service providers.
 
 ## -parameters
 
-### -param ServiceClass 
+### -param ServiceClass [in]
 
-[in]
 A pointer to a Unicode string specifying the service class for the security service provider.
 
-### -param ServiceName 
+### -param ServiceName [in]
 
-[in]
 A pointer to a Unicode string specifying the service name for the security service provider.
 
-### -param OPTIONAL
+### -param InstanceName [in]
 
-<p>A pointer to an optional Unicode string specifying the instance name for connecting with the security service provider. </p>
+A pointer to an optional Unicode string specifying the instance name for connecting with the security service provider.
 
-### -param Spn 
+### -param InstancePort [in, optional]
 
-[in, out]
+Port number for an instance of the service. Use 0 for the default port. If this parameter is zero, the SPN does not include a port number.
+
+### -param Referrer [in, optional]
+
+Pointer to a constant null-terminated string that specifies the DNS name of the host that gave an IP address referral. This parameter is ignored unless the **ServiceName** parameter specifies an IP address.
+
+### -param TargetInfo [in, optional]
+
+A pointer to a null-terminated string that indicates the target of the context.
+
+### -param Spn [in, out]
+
 A pointer to a Unicode string for storing the security service provider name string created by this function.
 
-### -param Allocate 
+### -param Length [out, optional]
 
-[in]
-A Boolean variable indicating if the memory for storing the <i>Spn</i> Unicode string should be allocated by this function. If this parameter is true, memory for <i>Spn</i> will be allocated from paged pool.
+Pointer to a ULONG that receives the actual length of the SPN created, including the terminating null character.
+
+### -param Allocate [in]
+
+A Boolean variable indicating if the memory for storing the **Spn** Unicode string should be allocated by this function. If this parameter is true, memory for **Spn** will be allocated from paged pool.
 
 ## -returns
 
-<b>SecMakeSPNEx</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+**SecMakeSPNEx** returns STATUS_SUCCESS on success or one of the following error codes on failure.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_OVERFLOW</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>Allocate</i> parameter was set to false and one of the following conditions occurred:
-
-The <i>Spn </i>parameter was a null pointer.
-
-The maximum length for the <i>Spn</i> Unicode string parameter was too small.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-A total length of the <i>Spn</i> parameter exceeds 65535 bytes.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>Allocate</i> parameter was set to true, but the memory allocation request failed.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_BUFFER_OVERFLOW | The **Allocate** parameter was set to false and one of the following conditions occurred: (1) The **Spn** parameter was a NULL pointer. (2) The maximum length for the **Spn** Unicode string parameter was too small. |
+| STATUS_INVALID_PARAMETER | A total length of the **Spn** parameter exceeds 65535 bytes. |
+| STATUS_NO_MEMORY | The **Allocate** parameter was set to true, but the memory allocation request failed. |
 
 ## -remarks
 
-<b>SecMakeSPNEx</b> is an enhanced version of <b>SecMakeSPN</b>.
+**SecMakeSPNEx** is an enhanced version of **SecMakeSPN**.
 
 ## -see-also
 
-<a href="/previous-versions/ff556584(v=vs.85)">SecMakeSPN</a>
+[**SecMakeSPN**](nf-ntifs-secmakespn.md)
 
-
-
-<a href="/previous-versions/ff556592(v=vs.85)">SecMakeSPNEx2</a>
+[**SecMakeSPNEx2**](nf-ntifs-secmakespnex2.md)

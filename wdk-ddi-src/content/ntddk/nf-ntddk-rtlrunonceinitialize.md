@@ -49,9 +49,9 @@ The <b>RtlRunOnceInitialize</b> routine initializes a <a href="/windows-hardware
 
 ## -parameters
 
-### -param RunOnce 
+### -param RunOnce [out]
 
-[out]
+
 Pointer to the <b>RTL_RUN_ONCE</b> one-time initialization structure.
 
 ## -returns

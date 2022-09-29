@@ -50,9 +50,9 @@ The <b>BdaUninitFilter</b> function removes the BDA filter context from the asso
 
 ## -parameters
 
-### -param pKSFilter 
+### -param pKSFilter [in]
 
-[in]
+
 Points to the filter from which to remove the BDA filter context.
 
 ## -returns

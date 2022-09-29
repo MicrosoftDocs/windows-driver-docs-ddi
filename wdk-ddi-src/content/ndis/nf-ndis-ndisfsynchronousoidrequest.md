@@ -52,14 +52,14 @@ This function is supported in NDIS 6.81 and later.
 
 ## -parameters
 
-### -param NdisFilterModuleHandle 
+### -param NdisFilterModuleHandle [in]
 
-[in]
+
 An NDIS handle that identifies a filter module. NDIS passed the handle to the filter driver in a call to the [*FilterAttach*](nc-ndis-filter_attach.md) function.
 
-### -param OidRequest 
+### -param OidRequest [in]
 
-[in]
+
 A pointer to an [**NDIS_OID_REQUEST**](../oidrequest/ns-oidrequest-ndis_oid_request.md) structure that specifies the operation that is requested with a given *OID_Xxx* code. The structure can specify an OID query, set, or method request.
 
 ## -returns

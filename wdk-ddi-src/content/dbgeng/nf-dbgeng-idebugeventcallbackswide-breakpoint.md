@@ -49,9 +49,9 @@ The <b>Breakpoint</b> callback method is called by the engine when the target is
 
 ## -parameters
 
-### -param Bp 
+### -param Bp [in]
 
-[in]
+
 Specifies a pointer to the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugbreakpoint">IDebugBreakpoint</a> object corresponding to the breakpoint that was triggered.
 
 ## -returns

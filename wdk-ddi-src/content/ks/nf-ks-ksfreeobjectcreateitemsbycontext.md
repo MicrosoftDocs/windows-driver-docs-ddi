@@ -50,14 +50,14 @@ Frees all create items with a specific context.
 
 ## -parameters
 
-### -param Header 
+### -param Header [in]
 
-[in]
+
 Points to the device header on which the create items are attached.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Contains the context of the create items to free. All create items with this context value will be freed.
 
 ## -returns

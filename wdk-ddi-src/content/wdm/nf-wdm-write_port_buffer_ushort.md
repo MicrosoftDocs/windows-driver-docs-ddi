@@ -48,21 +48,21 @@ api_name:
 
 The <b>WRITE_PORT_BUFFER_USHORT</b> routine writes a number of USHORT values from a buffer to the specified port address.
 
-## -parameters
+### -parameters
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 Pointer to the port, which must be a mapped memory range in I/O space.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 Pointer to a buffer from which an array of USHORT values is to be written.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of USHORT values to be written to the port.
 
 ## -returns

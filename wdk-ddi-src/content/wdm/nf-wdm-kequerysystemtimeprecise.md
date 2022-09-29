@@ -49,9 +49,9 @@ The <b>KeQuerySystemTimePrecise</b> routine retrieves the current <a href="/wind
 
 ## -parameters
 
-### -param CurrentTime 
+### -param CurrentTime [out]
 
-[out]
+
 A pointer to a LARGE_INTEGER variable into which the routine writes the current system time.
 
 ## -remarks

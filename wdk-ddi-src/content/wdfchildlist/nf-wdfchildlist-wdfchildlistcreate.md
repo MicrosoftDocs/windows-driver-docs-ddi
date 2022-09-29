@@ -52,24 +52,24 @@ The <b>WdfChildListCreate</b> method creates a child list for a specified parent
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object that represents the parent device.
 
-### -param Config 
+### -param Config [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_list_config">WDF_CHILD_LIST_CONFIG</a> structure that contains driver-supplied configuration information for the child list.
 
-### -param ChildListAttributes 
+### -param ChildListAttributes [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied object attributes for the framework child-list object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.)
 
-### -param ChildList 
+### -param ChildList [out]
 
-[out]
+
 A pointer to a caller-allocated location that receives a handle to a framework child-list object.
 
 ## -returns

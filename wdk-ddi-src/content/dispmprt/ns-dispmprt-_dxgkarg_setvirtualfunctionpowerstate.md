@@ -5,8 +5,6 @@ description: Used to set virtual function power state.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE, DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE, *PDXGKARG_SETVIRTUALFUNCTIONPOWERSTATE,
 req.header: dispmprt.h
 req.include-header: 

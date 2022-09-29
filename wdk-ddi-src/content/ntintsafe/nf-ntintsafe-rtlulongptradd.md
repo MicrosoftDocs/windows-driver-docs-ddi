@@ -49,19 +49,19 @@ Adds two values of type <b>ULONG_PTR</b>.
 
 ## -parameters
 
-### -param ulAugend 
+### -param ulAugend [in]
 
-[in]
+
 The first value in the equation.
 
-### -param ulAddend 
+### -param ulAddend [in]
 
-[in]
+
 The value to add to <i>ulAugend</i>.
 
-### -param pulResult 
+### -param pulResult [out]
 
-[out]
+
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

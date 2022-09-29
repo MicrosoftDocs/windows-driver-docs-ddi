@@ -62,22 +62,22 @@ The PCI_EXPRESS_ROOT_STATUS_REGISTER structure describes a PCI Express (PCIe) ro
 A ULONG representation of the contents of the PCI_EXPRESS_ROOT_STATUS_REGISTER structure.
 
 
-#### - PMEPending
+### -field DUMMYSTRUCTNAME.PMEPending
 
 A single bit that indicates that another power management event (PME) is pending while the <b>PMEStatus</b> bit is set.
 
 
-#### - PMERequestorId
+### -field DUMMYSTRUCTNAME.PMERequestorId
 
 A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_pme_requestor_id">PCI_EXPRESS_PME_REQUESTOR_ID</a> structure that describes the power management event (PME) requester identifier of the last PME requester.
 
 
-#### - PMEStatus
+### -field DUMMYSTRUCTNAME.PMEStatus
 
 A single bit that indicates that a power management event (PME) was asserted by the requester identified by the <b>PMERequestorId</b> member.
 
 
-#### - Rsvd
+### -field DUMMYSTRUCTNAME.Rsvd
 
 Reserved.
 

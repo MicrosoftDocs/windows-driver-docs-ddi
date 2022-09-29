@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTSubmitCommandToHwQueue
 title: D3DKMTSubmitCommandToHwQueue function (d3dkmthk.h)
 description: Used to submit a command to the hardware queue.
 old-location: display\d3dkmtsubmitcommandtohwqueue.htm
-ms.date: 05/10/2018
+ms.date: 03/02/2022
 keywords: ["D3DKMTSubmitCommandToHwQueue function"]
 ms.keywords: D3DKMTSubmitCommandToHwQueue, D3DKMTSubmitCommandToHwQueue function [Display Devices], d3dkmthk/D3DKMTSubmitCommandToHwQueue, display.d3dkmtsubmitcommandtohwqueue
 req.header: d3dkmthk.h
@@ -42,18 +42,25 @@ api_name:
 
 # D3DKMTSubmitCommandToHwQueue function
 
-
 ## -description
 
 Used to submit a command to the hardware queue.
 
 ## -parameters
 
-### -param D3DKMT_SUBMITCOMMANDTOHWQUEUE
+### -param unnamedParam1 [in]
 
-[in] A structure holding the information needed to submit a command to the hardware queue.
+A [D3DKMT_SUBMITCOMMANDTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitcommandtohwqueue.md) structure holding the information needed to submit a command to the hardware queue.
 
 ## -returns
 
-Returns STATUS_SUCCESS if called successfully.
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The device context was called successfully. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
+This function might also return other **NTSTATUS** values.
+
+## -see-also
+
+[D3DKMT_SUBMITCOMMANDTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitcommandtohwqueue.md)

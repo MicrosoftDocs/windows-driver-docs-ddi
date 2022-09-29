@@ -52,14 +52,14 @@ Miniport drivers call this function during an NDIS selective suspend operation. 
 
 ## -parameters
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 The network adapter handle that NDIS passed to the <i>MiniportAdapterHandle</i> parameter of <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-### -param IdlePowerState 
+### -param IdlePowerState [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_device_power_state">NDIS_DEVICE_POWER_STATE</a> enumeration value that specifies the lowest power state that the network adapter supports for a low-power state transition.
 
 <div class="alert"><b>Note</b>  For USB network adapters, this parameter must be <b>NdisDeviceStateD2</b>.

@@ -52,29 +52,29 @@ The <b>WdfDeviceInitAssignWdmIrpPreprocessCallback</b> method registers a callba
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-### -param EvtDeviceWdmIrpPreprocess 
+### -param EvtDeviceWdmIrpPreprocess [in]
 
-[in]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess">EvtDeviceWdmIrpPreprocess</a> callback function.
 
-### -param MajorFunction 
+### -param MajorFunction [in]
 
-[in]
+
 One of the IRP major function codes that are defined in <i>wdm.h</i>.
 
-### -param MinorFunctions 
+### -param MinorFunctions [in, optional]
 
-[in, optional]
+
 A pointer to an array of one or more IRP minor function codes that are associated with the specified major function code. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
-### -param NumMinorFunctions 
+### -param NumMinorFunctions [in]
 
-[in]
+
 The number of minor function codes that are contained in the <i>MinorFunctions</i> array.
 
 ## -returns

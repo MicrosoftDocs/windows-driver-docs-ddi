@@ -50,25 +50,25 @@ The <b>SeTokenGetNoChildProcessRestricted</b> routine determines the state of th
 
 ## -parameters
 
-### -param Token 
+### -param Token [in]
 
-[in]
+
 Specifies a pointer to the access token.
 
-### -param Enforced 
+### -param Enforced [out]
 
-[out]
+
 A pointer to a boolean that returns whether the mitigation is in enforcement mode.
 
-### -param UnlessSecure 
+### -param UnlessSecure [out]
 
-[out]
+
 A pointer to a boolean that returns whether secure process creation is enabled even if
         process creation is restricted.
 
-### -param AuditOnly 
+### -param AuditOnly [out]
 
-[out]
+
 A pointer to a boolean that returns whether the mitigation is in audit-only mode.
 
 ## -see-also

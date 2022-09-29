@@ -50,9 +50,9 @@ The <b>StorPortPause</b> routine pauses an adapter for the specified period of t
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the hardware device extension of the adapter to pause. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 ### -param Timeout

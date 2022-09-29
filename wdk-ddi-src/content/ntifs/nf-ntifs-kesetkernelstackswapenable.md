@@ -49,9 +49,9 @@ The **KeSetKernelStackSwapEnable** routine enables and disables swapping of the 
 
 ## -parameters
 
-### -param Enable
+### -param Enable [in]
 
-[in] Specifies whether to enable swapping of the stack that belongs to the calling thread. If **TRUE**, swapping is enabled and the contents of the stack can be paged in and out of memory. If **FALSE**, swapping is disabled and the stack is memory-resident.
+Specifies whether to enable swapping of the stack that belongs to the calling thread. If **TRUE**, swapping is enabled and the contents of the stack can be paged in and out of memory. If **FALSE**, swapping is disabled and the stack is memory-resident.
 
 ## -returns
 

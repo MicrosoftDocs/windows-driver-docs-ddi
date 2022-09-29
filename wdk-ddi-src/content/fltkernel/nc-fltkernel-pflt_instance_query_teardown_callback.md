@@ -49,14 +49,14 @@ A minifilter driver can register a routine of type <i>PFLT_INSTANCE_QUERY_TEARDO
 
 ## -parameters
 
-### -param FltObjects 
+### -param FltObjects [in]
 
-[in]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure that contains opaque pointers for the objects related to the current operation.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Bitmask of flags that describe why the given instance query teardown callback routine was called. No flags are currently defined.
 
 ## -returns

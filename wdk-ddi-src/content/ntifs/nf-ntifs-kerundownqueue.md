@@ -48,9 +48,9 @@ The **KeRundownQueue** routine cleans up a queue object, flushing any queued ent
 
 ## -parameters
 
-### -param Queue
+### -param Queue [in, out]
 
-[in, out] Pointer to an initialized queue object for which the caller provides resident storage in nonpaged pool.
+Pointer to an initialized queue object for which the caller provides resident storage in nonpaged pool.
 
 ## -returns
 
@@ -68,7 +68,7 @@ Starting in Windows 7, **KeRundownQueue** wakes any threads currently waiting on
 
 Prior to Windows 7, **KeRundownQueue** did not wake waiting threads when the queue was rundown. To avoid the possibility of leaving threads waiting forever on these OS versions, **KeRundownQueue** should never be called for a queue if any threads are waiting on the queue object.
 
-For more information about using driver-managed internal queues, see [Driver-Managed Queues](/windows-hardware/drivers/ddi/_kernel/#driver-managed-queues).
+For more information about using driver-managed internal queues, see [Driver-Managed Queues](../_kernel/index.md#driver-managed-queues).
 
 ## -see-also
 

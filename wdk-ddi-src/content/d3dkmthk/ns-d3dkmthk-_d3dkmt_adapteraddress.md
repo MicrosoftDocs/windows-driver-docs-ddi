@@ -52,17 +52,17 @@ The D3DKMT_ADAPTERADDRESS structure describes the physical location of the graph
 
 ## -struct-fields
 
-### -field BusNumber
+### -field BusNumber [out]
 
-[out] The number of the bus that the graphics adapter's physical device is located on.
+The number of the bus that the graphics adapter's physical device is located on.
 
-### -field DeviceNumber
+### -field DeviceNumber [out]
 
-[out] The index of the graphics adapter's physical device on the bus.
+The index of the graphics adapter's physical device on the bus.
 
-### -field FunctionNumber
+### -field FunctionNumber [out]
 
-[out] The function number of the graphics adapter on the physical device.
+The function number of the graphics adapter on the physical device.
 
 ## -see-also
 

@@ -59,27 +59,27 @@ Miniport drivers call the
 
 ## -parameters
 
-### -param MiniportDmaHandle 
+### -param MiniportDmaHandle [in]
 
-[in]
+
 A handle to a context area that NDIS uses to manage a DMA resource. The caller obtained this
      handle by calling the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
      NdisMRegisterScatterGatherDma</a> function.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The number of bytes to allocate.
 
-### -param Cached 
+### -param Cached [in]
 
-[in]
+
 This parameter is ignored (cached memory is always used on x86 and x64 systems).
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to driver-determined context to be passed to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_allocate_shared_mem_complete">MiniportSharedMemoryAllocateComplete</a> function when it is called.
 

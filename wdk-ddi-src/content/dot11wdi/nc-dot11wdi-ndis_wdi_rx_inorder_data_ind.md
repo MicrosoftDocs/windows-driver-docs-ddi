@@ -45,6 +45,9 @@ api_name:
 
 ## -description
 
+> [!IMPORTANT]
+> This topic is part of the [WDI driver model](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) released in Windows 10. The WDI driver model is in maintenance mode and will only receive high priority fixes. [WiFiCx](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx) is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features.
+
 The 
   NdisWdiRxInorderDataIndication callback function informs the RxMgr that a list of specified RX frames in the correct order are present.
 
@@ -52,34 +55,34 @@ This is a callback inside <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot
 
 ## -parameters
 
-### -param NdisMiniportDataPathHandle 
+### -param NdisMiniportDataPathHandle [in]
 
-[in]
+
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-### -param IndicationLevel 
+### -param IndicationLevel [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_rx_indication_level">WDI_RX_INDICATION_LEVEL</a> enumeration value that specifies the RX indication level.
 
-### -param PeerId 
+### -param PeerId [in]
 
-[in]
+
 The peer ID.
 
-### -param ExTid 
+### -param ExTid [in]
 
-[in]
+
 The extended TID.
 
-### -param pRxThrottleParams 
+### -param pRxThrottleParams [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_throttle_parameters">NDIS_RECEIVE_THROTTLE_PARAMETERS</a> structure.
 
-### -param pWifiStatus 
+### -param pWifiStatus [out]
 
-[out]
+
 Status from WDI for the <i>NdisWdiRxInorderDataIndication</i>.  See the <i>Remarks</i> section for more information.
 
 ## -remarks

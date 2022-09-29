@@ -49,24 +49,24 @@ api_name:
 
 ## -parameters
 
-### -param lFlags 
+### -param lFlags [in]
 
-[in]
+
 Currently unused. Should be set to zero.
 
-### -param pWiaItem2 
+### -param pWiaItem2 [in]
 
-[in]
+
 Pointer to the <b>IWiaItem2</b> item being transferred. <b>IWiaItem2</b> is described in the Microsoft Windows SDK documentation.
 
-### -param hrStatus 
+### -param hrStatus [in]
 
-[in]
+
 HRESULT variable that contains the status code received by the WIA transfer method, for example the <b>IWiaDataCallback::BandedDataCallback</b> method (described in the Windows SDK documentation).
 
-### -param pbstrDescription 
+### -param pbstrDescription [out]
 
-[out]
+
 Pointer to a BSTR that receives a description of the status or error encountered during the transfer. This parameter cannot be <b>NULL</b>. The driver must allocate the string using the <b>SysAllocString</b> function and the caller must free the string using the <b>SysFreeString</b> function. The <b>SysFreeString</b> and <b>SysAllocString </b>functions are described in the Windows SDK documentation.
 
 ## -returns

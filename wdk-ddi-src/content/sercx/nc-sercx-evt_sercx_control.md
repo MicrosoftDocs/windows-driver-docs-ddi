@@ -49,29 +49,29 @@ The <i>EvtSerCxControl</i> event callback function handles an I/O control reques
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A WDFREQUEST handle to the framework request object that represents the I/O control request.
 
-### -param OutputBufferLength 
+### -param OutputBufferLength [in]
 
-[in]
+
 Specifies the length, in bytes, of the output buffer for the I/O control request specified by the <i>Request</i> parameter.
 
-### -param InputBufferLength 
+### -param InputBufferLength [in]
 
-[in]
+
 Specifies the length, in bytes, of the input buffer for the I/O control request specified by the <i>Request</i> parameter.
 
-### -param IoControlCode 
+### -param IoControlCode [in]
 
-[in]
+
 Specifies the IOCTL from the I/O control request specified by the <i>Request</i> parameter.
 
 ## -returns

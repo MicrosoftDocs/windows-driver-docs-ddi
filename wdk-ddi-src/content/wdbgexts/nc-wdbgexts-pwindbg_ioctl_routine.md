@@ -59,7 +59,7 @@ Points to the address of a data structure. The type of structure that is require
 
 ### -param cbSize
 
-#### - cbSizeOfContext
+### -param cbSizeOfContext
 
 Specifies the size of the structure that <i>lpvData</i> points to.
 

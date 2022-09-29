@@ -52,21 +52,21 @@ The D3DKMT_GETSCANLINE structure contains information about a video present sour
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] A handle to a graphics adapter.
+A handle to a graphics adapter.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The identifier of a graphics adapter's video present source.
+The identifier of a graphics adapter's video present source.
 
-### -field InVerticalBlank
+### -field InVerticalBlank [out]
 
-[out] A Boolean variable that receives <b>TRUE</b> if the video present source is in vertical blanking mode and <b>FALSE</b> if the video present source is not in vertical blanking mode.
+A Boolean variable that receives <b>TRUE</b> if the video present source is in vertical blanking mode and <b>FALSE</b> if the video present source is not in vertical blanking mode.
 
-### -field ScanLine
+### -field ScanLine [out]
 
-[out] The video present source's current scan line.
+The video present source's current scan line.
 
 ## -remarks
 

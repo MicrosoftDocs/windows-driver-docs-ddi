@@ -45,9 +45,9 @@ Flushes the TLB for all entries which match this domain.
 
 ## -parameters
 
-### -param Domain 
+### -param Domain [_In_]
 
-[_In_] A pointer to the handle to the domain.
+A pointer to the handle to the domain.
 
 ## -returns
 

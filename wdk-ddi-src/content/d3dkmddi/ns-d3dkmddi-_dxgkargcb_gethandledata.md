@@ -51,17 +51,17 @@ The **DXGKARGCB_GETHANDLEDATA** structure contains the arguments used in the [**
 
 ## -struct-fields
 
-### -field hObject
+### -field hObject [in]
 
-[in] A handle to the private data. This handle is the kernel-mode handle that the DirectX graphics kernel subsystem (part of *Dxgkrnl.sys*) assigned for the private data.
+A handle to the private data. This handle is the kernel-mode handle that the DirectX graphics kernel subsystem (part of *Dxgkrnl.sys*) assigned for the private data.
 
-### -field Type
+### -field Type [in]
 
-[in] A [**DXGK_HANDLE_TYPE**](ne-d3dkmddi-dxgk_handle_type.md) value that indicates the type of handle to retrieve data about.
+A [**DXGK_HANDLE_TYPE**](ne-d3dkmddi-dxgk_handle_type.md) value that indicates the type of handle to retrieve data about.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A [**DXGKCB_GETHANDLEDATAFLAGS**](ns-d3dkmddi-_dxgkcb_gethandledataflags.md) structure that indicates if allocations belong to a resource.
+A [**DXGKCB_GETHANDLEDATAFLAGS**](ns-d3dkmddi-_dxgkcb_gethandledataflags.md) structure that indicates if allocations belong to a resource.
 
 ## -see-also
 

@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_UNMAP_PHYSICAL_MEMORY
 tech.root: display
 title: DXGKARGCB_UNMAP_PHYSICAL_MEMORY
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: The DXGKARGCB_UNMAP_PHYSICAL_MEMORY structure contains information about the physical memory object from which the CPU-visible addresses are being unmapped by the DxgkCbUnmapPhysicalMemory callback function.
 req.construct-type: structure
@@ -55,6 +55,10 @@ The base address returned from [**DXGKCB_MAPPHYSICALMEMORY**](nc-d3dkmddi-dxgkcb
 ### -field Size
 
 The size, in bytes, of the mapped region. This should match the mapped **Size** parameter that was output from the corresponding map call.
+
+## -remarks
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 ## -see-also
 

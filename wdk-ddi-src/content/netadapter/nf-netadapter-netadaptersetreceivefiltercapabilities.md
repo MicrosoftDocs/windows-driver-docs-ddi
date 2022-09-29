@@ -45,13 +45,13 @@ The **NetAdapterSetReceiveFilterCapabilities** function sets the receive filteri
 
 ## -parameters
 
-### -param Adapter
+### -param Adapter [_In_]
 
-[_In_] A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
+A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
-### -param Capabilities
+### -param Capabilities [_In_]
 
-[_In_] A pointer to a driver-allocated and initialized [**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_adapter_receive_filter_capabilities.md) structure that describes the network adapter's receive filtering capabilities.
+A pointer to a driver-allocated and initialized [**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_adapter_receive_filter_capabilities.md) structure that describes the network adapter's receive filtering capabilities.
 
 ## -remarks
 

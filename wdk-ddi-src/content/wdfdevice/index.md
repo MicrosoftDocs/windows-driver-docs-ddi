@@ -6,8 +6,6 @@ ms.assetid: 24b2e402-56ef-3f36-b4f0-426a9d758500
 ms.date: 05/09/2018
 keywords: ["Wdfdevice.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: wdf
 f1_keywords:

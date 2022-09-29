@@ -52,17 +52,17 @@ The DXGKARG_GETSCANLINE structure contains information about a video present tar
 
 ## -struct-fields
 
-### -field VidPnTargetId
+### -field VidPnTargetId [in]
 
-[in] The identifier of a display adapter's video present target.
+The identifier of a display adapter's video present target.
 
-### -field InVerticalBlank
+### -field InVerticalBlank [out]
 
-[out] A Boolean variable that receives <b>TRUE</b> if the video present target is in vertical blanking mode and <b>FALSE</b> if the video present target is not in vertical blanking mode.
+A Boolean variable that receives <b>TRUE</b> if the video present target is in vertical blanking mode and <b>FALSE</b> if the video present target is not in vertical blanking mode.
 
-### -field ScanLine
+### -field ScanLine [out]
 
-[out] The video present target's current scan line.
+The video present target's current scan line.
 
 ## -remarks
 

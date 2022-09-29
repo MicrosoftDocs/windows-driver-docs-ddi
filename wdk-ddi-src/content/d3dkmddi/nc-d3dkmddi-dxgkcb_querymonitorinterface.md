@@ -50,17 +50,17 @@ product:
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle that represents a display adapter. The VidPN manager provided this handle to the display miniport driver in a call to [**DxgkDdiRecommendFunctionalVidPn**](nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md), [**DxgkDdiIsSupportedVidPn**](nc-d3dkmddi-dxgkddi_issupportedvidpn.md), [**DxgkDdiEnumVidPnCofuncModality**](nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md), or [**DxgkDdiCommitVidPn**](nc-d3dkmddi-dxgkddi_commitvidpn.md).
+A handle that represents a display adapter. The VidPN manager provided this handle to the display miniport driver in a call to [**DxgkDdiRecommendFunctionalVidPn**](nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md), [**DxgkDdiIsSupportedVidPn**](nc-d3dkmddi-dxgkddi_issupportedvidpn.md), [**DxgkDdiEnumVidPnCofuncModality**](nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md), or [**DxgkDdiCommitVidPn**](nc-d3dkmddi-dxgkddi_commitvidpn.md).
 
-### -param MonitorInterfaceVersion
+### -param MonitorInterfaceVersion [in]
 
-[in] A value from the [**DXGK_MONITOR_INTERFACE_VERSION**](ne-d3dkmddi-_dxgk_monitor_interface_version.md) enumeration that specifies the version of the monitor interface being requested.
+A value from the [**DXGK_MONITOR_INTERFACE_VERSION**](ne-d3dkmddi-_dxgk_monitor_interface_version.md) enumeration that specifies the version of the monitor interface being requested.
 
-### -param ppMonitorInterface
+### -param ppMonitorInterface [out]
 
-[out] A pointer to a pointer to the [**DXGK_MONITOR_INTERFACE**](ns-d3dkmddi-_dxgk_monitor_interface.md) structure.
+A pointer to a pointer to the [**DXGK_MONITOR_INTERFACE**](ns-d3dkmddi-_dxgk_monitor_interface.md) structure.
 
 ## -returns
 

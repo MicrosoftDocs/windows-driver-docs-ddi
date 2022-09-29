@@ -50,17 +50,17 @@ product:
 
 ## -parameters
 
-### -param hVidPn
+### -param hVidPn [in]
 
-[in] A handle to a VidPN object. The VidPN manager previously provided the display miniport driver with this handle by calling [DxgkDdiEnumVidPnCofuncModality](nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md), [DxgkDdiIsSupportedVidPn](nc-d3dkmddi-dxgkddi_issupportedvidpn.md), or [DxgkDdiRecommendFunctionalVidPn](nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md).
+A handle to a VidPN object. The VidPN manager previously provided the display miniport driver with this handle by calling [DxgkDdiEnumVidPnCofuncModality](nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md), [DxgkDdiIsSupportedVidPn](nc-d3dkmddi-dxgkddi_issupportedvidpn.md), or [DxgkDdiRecommendFunctionalVidPn](nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md).
 
-### -param VidPnInterfaceVersion
+### -param VidPnInterfaceVersion [in]
 
-[in] A [DXGK_VIDPN_INTERFACE_VERSION](ne-d3dkmddi-_dxgk_vidpn_interface_version.md) enumerator that specifies the version of the VidPN interface being requested. Callers must set this parameter to **DXGK_VIDPN_INTERFACE_VERSION_V1**.
+A [DXGK_VIDPN_INTERFACE_VERSION](ne-d3dkmddi-_dxgk_vidpn_interface_version.md) enumerator that specifies the version of the VidPN interface being requested. Callers must set this parameter to **DXGK_VIDPN_INTERFACE_VERSION_V1**.
 
-### -param ppVidPnInterface
+### -param ppVidPnInterface [out]
 
-[out] A pointer to a variable that receives a pointer to the [DXGK_VIDPN_INTERFACE](ns-d3dkmddi-_dxgk_vidpn_interface.md) structure.
+A pointer to a variable that receives a pointer to the [DXGK_VIDPN_INTERFACE](ns-d3dkmddi-_dxgk_vidpn_interface.md) structure.
 
 ## -returns
 

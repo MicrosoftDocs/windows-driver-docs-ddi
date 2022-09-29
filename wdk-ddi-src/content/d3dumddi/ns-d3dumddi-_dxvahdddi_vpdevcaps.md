@@ -52,13 +52,13 @@ The DXVAHDDDI_VPDEVCAPS structure describes the video processor capabilities tha
 
 ## -struct-fields
 
-### -field Reserved
+### -field Reserved [in]
 
-[in] Reserved. Must be zero.
+Reserved. Must be zero.
 
-### -field DeviceCaps
+### -field DeviceCaps [out]
 
-[out] A bitwise OR of the following values from the DXVAHDDDI_DEVICE_CAPS enumeration to indicate device-specific capabilities.
+A bitwise OR of the following values from the DXVAHDDDI_DEVICE_CAPS enumeration to indicate device-specific capabilities.
 
 
 
@@ -98,9 +98,9 @@ Supported starting with Windows 8.1.
 
 The driver determines that the XR_BIAS, FP16, and FP32 formats (wide gamut formats) are in linear space and so can retain the extended gamut color regardless of whether the preceding capability values are set.
 
-### -field FeatureCaps
+### -field FeatureCaps [out]
 
-[out] A bitwise OR of the following values from the DXVAHDDDI_FEATURE_CAPS enumeration to indicate feature-specific capabilities.
+A bitwise OR of the following values from the DXVAHDDDI_FEATURE_CAPS enumeration to indicate feature-specific capabilities.
 
 
 
@@ -136,9 +136,9 @@ The driver can apply discrete display rotation values to the display output surf
 
 Supported starting with Windows 8.
 
-### -field FilterCaps
+### -field FilterCaps [out]
 
-[out] A bitwise OR of the following values from the DXVAHDDDI_FILTER_CAPS enumeration to indicate filter-specific capabilities.
+A bitwise OR of the following values from the DXVAHDDDI_FILTER_CAPS enumeration to indicate filter-specific capabilities.
 
 
 
@@ -184,9 +184,9 @@ The driver supports edge-enhancement filter.
 
 The driver can scale from the source rectangle to the destination rectangle linearly or nonlinearly. If the driver has this capability, it can stretch 4:3 standard video content to 16:9 widescreen.
 
-### -field InputFormatCaps
+### -field InputFormatCaps [out]
 
-[out] A bitwise OR of the following values from the DXVAHDDDI_INPUT_FORMAT_CAPS enumeration to indicate input-format-specific capabilities.
+A bitwise OR of the following values from the DXVAHDDDI_INPUT_FORMAT_CAPS enumeration to indicate input-format-specific capabilities.
 
 
 
@@ -220,29 +220,29 @@ If the driver supports these capabilities, the driver might require a certain co
 
 For example, when the driver sets the <b>RGB_Range</b> and <b>YCbCr_Matrix</b> members of <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_stream_state_input_color_space_data">DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA</a> to 0 and 1 respectively, the driver converts from full range RGB to BT.709 YCbCr before the driver applies ProcAmp, and then converts the input stream back to full range RGB.
 
-### -field InputPool
+### -field InputPool [out]
 
-[out] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_pool">D3DDDI_POOL</a>-typed value that indicates the memory pool from which the input surfaces should be allocated.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_pool">D3DDDI_POOL</a>-typed value that indicates the memory pool from which the input surfaces should be allocated.
 
-### -field OutputFormatCount
+### -field OutputFormatCount [out]
 
-[out] The number of supported output formats. The driver returns an array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration types for the output formats that the decode device supports when the driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPOUTPUTFORMATS value set.
+The number of supported output formats. The driver returns an array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration types for the output formats that the decode device supports when the driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPOUTPUTFORMATS value set.
 
-### -field InputFormatCount
+### -field InputFormatCount [out]
 
-[out] The number of supported input formats. The driver returns an array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration types for the input formats that the decode device supports when the driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPINPUTFORMATS value set.
+The number of supported input formats. The driver returns an array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration types for the input formats that the decode device supports when the driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPINPUTFORMATS value set.
 
-### -field VideoProcessorCount
+### -field VideoProcessorCount [out]
 
-[out] The number of supported video processors. The driver returns an array of <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpcaps">DXVAHDDDI_VPCAPS</a> structures for the capabilities for each video processor that the decode device supports when the driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPCAPS value set.
+The number of supported video processors. The driver returns an array of <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpcaps">DXVAHDDDI_VPCAPS</a> structures for the capabilities for each video processor that the decode device supports when the driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPCAPS value set.
 
-### -field MaxInputStreams
+### -field MaxInputStreams [out]
 
-[out] The driver can enable the maximum number of input streams at a time.
+The driver can enable the maximum number of input streams at a time.
 
-### -field MaxStreamStates
+### -field MaxStreamStates [out]
 
-[out] The maximum number of stream states.
+The maximum number of stream states.
 
 ## -remarks
 

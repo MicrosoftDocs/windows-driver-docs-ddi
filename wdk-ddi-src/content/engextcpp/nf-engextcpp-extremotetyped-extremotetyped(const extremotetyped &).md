@@ -50,9 +50,9 @@ The <b>ExtRemoteTyped</b> copy constructor creates a new instance of the <b>ExtR
 
 ## -parameters
 
-### -param Typed 
+### -param Typed [in, ref]
 
-[in, ref]
+
 An existing <a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a> object.
 
 ## -see-also

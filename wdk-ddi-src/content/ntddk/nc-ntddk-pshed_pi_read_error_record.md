@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
+req.irql: IRQL = DISPATCH_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -49,34 +49,34 @@ A PSHED plug-in's <i>ReadErrorRecord </i>callback function reads an error record
 
 ## -parameters
 
-### -param PluginContext 
+### -param PluginContext [in, out, optional]
 
-[in, out, optional]
+
 A pointer to the context area that was specified in the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure when the PSHED plug-in called the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a> function to register itself with the PSHED.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bit-wise OR'ed combination of flags that affect the read operation. No flags are currently defined.
 
-### -param ErrorRecordId 
+### -param ErrorRecordId [in]
 
-[in]
+
 The identifier of the error record to be read from the system's persistent data storage. If there is not an error record stored in the system's persistent data storage that matches this identifier, the <i>ReadErrorRecord</i> callback function must return STATUS_OBJECT_NOT_FOUND.
 
-### -param NextErrorRecordId 
+### -param NextErrorRecordId [out]
 
-[out]
+
 A pointer to a ULONGLONG-typed variable that receives the identifier of the next error record that is stored in the system's persistent data storage. If there are no other error records stored in the system's persistent data storage, the identifier for the error record that is currently being read should be returned in this parameter.
 
-### -param RecordLength 
+### -param RecordLength [in, out]
 
-[in, out]
+
 A pointer to a ULONG-typed variable that contains the size, in bytes, of the buffer pointed to by the <i>ErrorRecord</i> parameter. If the size of the buffer is large enough to contain the error record that is being read, the <i>ReadErrorRecord</i> callback function sets this variable to the size, in bytes, of the error record that is returned in the buffer. However, if the size of the buffer is too small to contain the error record that is being read, the <i>ReadErrorRecord</i> callback function sets this variable to the size, in bytes, that is required to contain the error record. In this situation the <i>ReadErrorRecord</i> callback function must return STATUS_BUFFER_TOO_SMALL.
 
-### -param ErrorRecord 
+### -param ErrorRecord [out]
 
-[out]
+
 A pointer to a buffer that receives the error record that is read from the system's persistent data storage.
 
 ## -returns

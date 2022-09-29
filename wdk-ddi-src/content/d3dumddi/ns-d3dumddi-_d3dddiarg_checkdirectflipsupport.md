@@ -52,21 +52,21 @@ Specifies resources used for Direct Flip operations, in which video memory is se
 
 ## -struct-fields
 
-### -field hAppSwapchainResource
+### -field hAppSwapchainResource [in]
 
-[in] A resource in the application's swapchain.
+A resource in the application's swapchain.
 
-### -field hDWMSwapchainResource
+### -field hDWMSwapchainResource [in]
 
-[in] A resource in the DWM's swapchain.
+A resource in the DWM's swapchain.
 
-### -field CheckDirectFlipFlags
+### -field CheckDirectFlipFlags [in]
 
-[in] If this member has a value of <b>D3DDDI_CHECKDIRECTFLIP_IMMEDIATE</b>, seamless flipping should occur immediately and does not have to be synchronized with a VSync interrupt.
+If this member has a value of <b>D3DDDI_CHECKDIRECTFLIP_IMMEDIATE</b>, seamless flipping should occur immediately and does not have to be synchronized with a VSync interrupt.
 
-### -field Supported
+### -field Supported [out]
 
-[out] Set to <b>TRUE</b> if the driver can seamlessly flip video memory between  an application's managed primary allocations and the DWM's managed primary allocations. Otherwise, set to <b>FALSE</b>.
+Set to <b>TRUE</b> if the driver can seamlessly flip video memory between  an application's managed primary allocations and the DWM's managed primary allocations. Otherwise, set to <b>FALSE</b>.
 
 ## -see-also
 

@@ -54,9 +54,9 @@ The <b>WdfCollectionGetCount</b> method returns the number of objects that are c
 
 ## -parameters
 
-### -param Collection 
+### -param Collection [in]
 
-[in]
+
 A handle to a collection object.
 
 ## -returns

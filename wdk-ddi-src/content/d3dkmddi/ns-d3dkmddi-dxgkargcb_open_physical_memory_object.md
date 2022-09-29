@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT
 tech.root: display
 title: DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: The DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT structure contains the information used by the DxgkCbOpenPhysicalMemoryObject callback function to open a physical memory object.
 req.construct-type: structure
@@ -44,17 +44,17 @@ The **DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT** structure contains the information
 
 ## -struct-fields
 
-### -field hPhysicalMemoryObject
+### -field hPhysicalMemoryObject [in]
 
-[in] The physical memory object handle that was returned from a call to [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md).
+The physical memory object handle that was returned from a call to [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md).
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] A handle to any adapter that is part of the logical adapter to open the physical object against. This can be any physical adapter that is linked together in a linked display adapter (LDA) chain.
+A handle to any adapter that is part of the logical adapter to open the physical object against. This can be any physical adapter that is linked together in a linked display adapter (LDA) chain.
 
-### -field hAdapterMemoryObject
+### -field hAdapterMemoryObject [out]
 
-[out] Field in which a handle to the opened physical memory object for this adapter is returned.
+Field in which a handle to the opened physical memory object for this adapter is returned.
 
 ## -remarks
 
@@ -63,6 +63,8 @@ If the driver [creates a physical memory object](nc-d3dkmddi-dxgkcb_createphysic
 At this time, a physical memory object may only be opened by a single adapter. Attempting to open the object on a second adapter will fail.
 
 Opening a physical memory object against one physical adapter is sufficient. This guarantees that all physical adapters in the logical adapter (all linked adapters) have a mirrored view of this memory.
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 ## -see-also
 

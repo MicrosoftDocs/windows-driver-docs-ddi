@@ -44,33 +44,33 @@ Used to get swap chain metadata.
 
 ## -struct-fields
 
-### -field hNtSwapChain
+### -field hNtSwapChain [in]
 
-[in] NT handle for swap chain in this process.
+NT handle for swap chain in this process.
 
-### -field bSetMetaData
+### -field bSetMetaData [in]
 
-[in] Indicates if caller is setting or getting the metadata.
+Indicates if caller is setting or getting the metadata.
 
-### -field bProducer
+### -field bProducer [in]
 
-[in] Indicates if producer or consumer.
+Indicates if producer or consumer.
 
-### -field bGlobalMetaData
+### -field bGlobalMetaData [in]
 
-[in] Indicates if the caller is setting the swap-chain global metadata, or surface metadata.
+Indicates if the caller is setting the swap-chain global metadata, or surface metadata.
 
-### -field BufferSize
+### -field BufferSize [in]
 
-[in] Size of buffer for metadata to be copied to.
+Size of buffer for metadata to be copied to.
 
-### -field pBuffer
+### -field pBuffer [in, out]
 
-[in, out] Buffer metadata should be copied to.
+Buffer metadata should be copied to.
 
-### -field DataCopied
+### -field DataCopied [out]
  
-[out] Number of bytes copied to the buffer.
+Number of bytes copied to the buffer.
 
 ## -remarks
 

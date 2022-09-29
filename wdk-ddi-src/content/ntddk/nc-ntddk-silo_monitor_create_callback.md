@@ -49,9 +49,9 @@ This is callback is invoked when a new silo is created.
 
 ## -parameters
 
-### -param Silo 
+### -param Silo [in]
 
-[in]
+
 The silo that was created.
 
 ## -returns

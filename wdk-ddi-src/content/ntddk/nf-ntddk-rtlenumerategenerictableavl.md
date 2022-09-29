@@ -49,14 +49,14 @@ The <b>RtlEnumerateGenericTableAvl</b> routine is used to enumerate the elements
 
 ## -parameters
 
-### -param Table 
+### -param Table [in]
 
-[in]
+
 A pointer to the generic table (<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>). The table must have been initialized by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a>.
 
-### -param Restart 
+### -param Restart [in]
 
-[in]
+
 Set to <b>TRUE</b> if the enumeration is to start at the first element in the table. Set to <b>FALSE</b> if resuming the enumeration from a previous call.
 
 To enumerate all elements in the table, use <b>RtlEnumerateGenericTableAvl</b> as follows:

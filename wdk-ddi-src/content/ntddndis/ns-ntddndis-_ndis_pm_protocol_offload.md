@@ -4,7 +4,7 @@ title: _NDIS_PM_PROTOCOL_OFFLOAD (ntddndis.h)
 description: The NDIS_PM_PROTOCOL_OFFLOAD structure specifies parameters for a low power protocol offload to a network adapter.
 old-location: netvista\ndis_pm_protocol_offload.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 06/03/2022
 keywords: ["NDIS_PM_PROTOCOL_OFFLOAD structure"]
 ms.keywords: "*PNDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PROTOCOL_OFFLOAD, PNDIS_PM_PROTOCOL_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_PROTOCOL_OFFLOAD, miniport_power_management_ref_f8a5be81-c46e-41cd-ac96-9877e1f9ebec.xml, netvista.ndis_pm_protocol_offload, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD, ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD"
 req.header: ntddndis.h
@@ -58,13 +58,21 @@ The <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure specifies parameters for a low pow
 
 ### -field Header
 
-The 
-     <a href="/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
-     structure (NDIS_PM_PROTOCOL_OFFLOAD). The driver sets the 
-     <b>Type</b> member of the structure that 
-     <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
-     <b>Revision</b> member to NDIS_PM_PROTOCOL_OFFLOAD_REVISION_1, and the 
-     <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_PROTOCOL_OFFLOAD_REVISION_1.
+The [NDIS_OBJECT_HEADER](../objectheader/ns-objectheader-ndis_object_header.md)  structure for the **NDIS_PM_PROTOCOL_OFFLOAD** structure. The driver sets the **Type** member to NDIS_OBJECT_TYPE_DEFAULT.
+
+To indicate the version of the **NDIS_PM_PROTOCOL_OFFLOAD** structure, set the **Revision** member of **Header** to one of the following values:
+
+#### NDIS_PM_PROTOCOL_OFFLOAD_REVISION_2
+
+Added the **Dot11RSNRekeyParametersV2** structure for NDIS 6.84.
+
+Set the **Size** member to NDIS_SIZEOF_NDIS_PM_PROTOCOL_OFFLOAD_REVISION_2.
+
+#### NDIS_PM_PROTOCOL_OFFLOAD_REVISION_1
+
+Original version for NDIS 6.20 and later.
+
+Set the **Size** member to NDIS_SIZEOF_NDIS_PM_PROTOCOL_OFFLOAD_REVISION_1.
 
 ### -field Flags
 
@@ -235,41 +243,23 @@ A <b>ULONGLONG</b> value that contains a replay counter.
 
 ### -field _PROTOCOL_OFFLOAD_PARAMETERS
 
-## -syntax
+### -field ProtocolOffloadParameters.Dot11RSNRekeyParametersV2
 
-```C++
-typedef struct _NDIS_PM_PROTOCOL_OFFLOAD {
-  NDIS_OBJECT_HEADER            Header;
-  ULONG                         Flags;
-  ULONG                         Priority;
-  NDIS_PM_PROTOCOL_OFFLOAD_TYPE ProtocolOffloadType;
-  NDIS_PM_COUNTED_STRING        FriendlyName;
-  ULONG                         ProtocolOffloadId;
-  ULONG                         NextProtocolOffloadOffset;
-  union {
-    struct {
-      ULONG Flags;
-      UCHAR RemoteIPv4Address[4];
-      UCHAR HostIPv4Address[4];
-      UCHAR MacAddress[6];
-    } IPv4ARPParameters;
-    struct {
-      ULONG Flags;
-      UCHAR RemoteIPv6Address[16];
-      UCHAR SolicitedNodeIPv6Address[16];
-      UCHAR MacAddress[6];
-      UCHAR TargetIPv6Addresses[2][16];
-    } IPv6NSParameters;
-    struct {
-      ULONG     Flags;
-      UCHAR     KCK[DOT11_RSN_KCK_LENGTH];
-      UCHAR     KEK[DOT11_RSN_KEK_LENGTH];
-      ULONGLONG KeyReplayCounter;
-    } Dot11RSNRekeyParameters;
-  } ProtocolOffloadParameters;
-  _PROTOCOL_OFFLOAD_PARAMETERS  _PROTOCOL_OFFLOAD_PARAMETERS;
-} NDIS_PM_PROTOCOL_OFFLOAD, *PNDIS_PM_PROTOCOL_OFFLOAD;
-```
+A structure that contains V2 IEEE 802.11i Robust Security Network (RSN) handshake parameters. Available in NDIS 6.84 and later. This structure contains the following members:
+
+### -field ProtocolOffloadParameters.Dot11RSNRekeyParametersV2.Flags
+
+### -field ProtocolOffloadParameters.Dot11RSNRekeyParametersV2.KeyReplayCounter
+
+### -field ProtocolOffloadParameters.Dot11RSNRekeyParametersV2.AuthAlgo
+
+### -field ProtocolOffloadParameters.Dot11RSNRekeyParametersV2.KCKLength
+
+### -field ProtocolOffloadParameters.Dot11RSNRekeyParametersV2.KEKLength
+
+### -field ProtocolOffloadParameters.Dot11RSNRekeyParametersV2.KCK
+
+### -field ProtocolOffloadParameters.Dot11RSNRekeyParametersV2.KEK
 
 ## -remarks
 

@@ -1,12 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGK_WDDMDEVICECAPS
-title: _DXGK_WDDMDEVICECAPS
+title: DXGK_WDDMDEVICECAPS
 description: Contains the WDDM capabilities that was returned from the KMD in response to the DxgkDdiQueryAdapterInfo request for a DXGK_QUERYADAPTERINFOTYPE value of type DXGKQAITYPE_WDDMDEVICECAPS.
 tech.root: display
-ms.date: 04/04/2019
+ms.date: 04/26/2022
 keywords: ["DXGK_WDDMDEVICECAPS structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_WDDMDEVICECAPS, DXGK_WDDMDEVICECAPS,
 req.header: d3dkmddi.h
 req.include-header: 
@@ -43,23 +41,20 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_WDDMDEVICECAPS structure
-
+# DXGK_WDDMDEVICECAPS structure
 
 ## -description
 
-Contains the WDDM capabilities that was returned from the KMD, in response to the [DxgkDdiQueryAdapterInfo](../d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo.md) request for a [DXGK_QUERYADAPTERINFOTYPE](../d3dkmddi/ne-d3dkmddi-_dxgk_queryadapterinfotype.md) value of type **DXGKQAITYPE_WDDMDEVICECAPS**.
-
-These capabilities are queried by the OS during device initialization after [DxgkDdiAddDevice](../dispmprt/nc-dispmprt-dxgkddi_add_device.md) returns, and before [DxgkDdiStartDevice](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) is called.
+The **DXGK_WDDMDEVICECAPS** structure identifies the kernel-mode driver's WDDM capabilities.
 
 ## -struct-fields
 
 ### -field WDDMVersion
 
- 
-The capabilities of a display miniport driver that the driver provides through a call to its DxgkDdiQueryAdapterInfo function. This value is the same as the **WDDMVersion** value in [DXGK_DRIVERCAPS](../d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps.md) structure.
+The capabilities of a display miniport driver that the driver provides through a call to its [**DxgkDdiQueryAdapterInfo**](../d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function. This value is the same as the **WDDMVersion** value in [**DXGK_DRIVERCAPS**](../d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps.md) structure.
 
 ## -remarks
 
-## -see-also
+A kernel-mode driver returns its WDDM capabilities in this structure, in response to a [**DxgkDdiQueryAdapterInfo**](../d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo.md) request for a [**DXGK_QUERYADAPTERINFOTYPE**](../d3dkmddi/ne-d3dkmddi-_dxgk_queryadapterinfotype.md) value of type **DXGKQAITYPE_WDDMDEVICECAPS**.
 
+The OS queries for these capabilities during device initialization, after [**DxgkDdiAddDevice**](../dispmprt/nc-dispmprt-dxgkddi_add_device.md) returns but before [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) is called.

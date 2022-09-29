@@ -49,14 +49,14 @@ The <b>IoGetBootDiskInformation</b> routine returns information describing the b
 
 ## -parameters
 
-### -param BootDiskInformation 
+### -param BootDiskInformation [in, out]
 
-[in, out]
+
 Pointer to a caller-allocated buffer that the routine uses to return information about the boot and system disks. The routine fills this buffer in with either a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_bootdisk_information">BOOTDISK_INFORMATION</a> or a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_bootdisk_information_ex">BOOTDISK_INFORMATION_EX</a> structure.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 Specifies the size, in bytes, of the buffer specified by <i>BootDiskInformation</i>. Should be either <b>sizeof</b>(<b>BOOTDISK_INFORMATION</b>) or <b>sizeof</b>(<b>BOOTDISK_INFORMATION_EX</b>).
 
 ## -returns

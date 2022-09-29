@@ -2,15 +2,14 @@
 UID: NF:bdasup.BdaPropertyNodeTypes
 title: BdaPropertyNodeTypes function (bdasup.h)
 description: The BdaPropertyNodeTypes function retrieves a list of node types in a template topology.
-old-location: stream\bdapropertynodetypes.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/25/2022
 keywords: ["BdaPropertyNodeTypes function"]
 ms.keywords: BdaPropertyNodeTypes, BdaPropertyNodeTypes function [Streaming Media Devices], bdaref_cec37979-eb0c-4914-86fe-6dc613c61ae8.xml, bdasup/BdaPropertyNodeTypes, stream.bdapropertynodetypes
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. This routine is available on the Windows 2000 platform only if Microsoft DirectX 9.0 and later is installed on that platform.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,31 +40,23 @@ api_name:
  - BdaPropertyNodeTypes
 ---
 
-# BdaPropertyNodeTypes function
-
-
 ## -description
 
-The <b>BdaPropertyNodeTypes</b> function retrieves a list of node types in a template topology.
+The **BdaPropertyNodeTypes** function retrieves a list of node types in a template topology.
 
 ## -parameters
 
-### -param pIrp
+### -param pIrp [in]
 
-### -param pKSProperty 
+Points to the IRP for the request to retrieve the list of node types. The BDA minidriver receives this IRP with the [KSPROPERTY_BDA_NODE_TYPES](/windows-hardware/drivers/stream/ksproperty-bda-node-types) request.
 
-[in]
-Points to a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property and request type of the property request.
+### -param pKSProperty [in]
 
-### -param pulProperty 
+Points to a [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure) structure that describes the property and request type of the property request.
 
-[out]
-Points to an array that receives the list of node types. 
+### -param pulProperty [out]
 
-
-#### - Irp [in]
-
-Points to the IRP for the request to retrieve the list of node types. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksproperty-bda-node-types">KSPROPERTY_BDA_NODE_TYPES</a> request.
+Points to an array that receives the list of node types.
 
 ## -returns
 
@@ -73,16 +64,12 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 ## -remarks
 
-A BDA minidriver calls the <b>BdaPropertyNodeTypes</b> function to retrieve the list of node types after the minidriver receives a <a href="/windows-hardware/drivers/stream/ksproperty-bda-node-types">KSPROPERTY_BDA_NODE_TYPES</a> request of the <a href="/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a> property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the <b>BdaPropertyNodeTypes</b> function directly, without intercepting this request using an internal get-handler (<a href="/previous-versions/ff567177(v=vs.85)">KStrGetPropertyHandler</a>). See <a href="/windows-hardware/drivers/stream/defining-automation-tables">Defining Automation Tables</a> and <a href="/windows-hardware/drivers/stream/determining-bda-device-topology">Determining BDA Device Topology</a> for more information.
+A BDA minidriver calls the **BdaPropertyNodeTypes** function to retrieve the list of node types after the minidriver receives a [KSPROPERTY_BDA_NODE_TYPES](/windows-hardware/drivers/stream/ksproperty-bda-node-types) request of the [KSPROPSETID_BdaTopology](/windows-hardware/drivers/stream/kspropsetid-bdatopology) property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the **BdaPropertyNodeTypes** function directly, without intercepting this request using an internal get-handler ([KStrGetPropertyHandler](/previous-versions/ff567177(v=vs.85))). See [Defining Automation Tables](/windows-hardware/drivers/stream/defining-automation-tables) and [Determining BDA Device Topology](/windows-hardware/drivers/stream/determining-bda-device-topology) for more information.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
+[KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)
 
+[KSPROPERTY_BDA_NODE_TYPES](/windows-hardware/drivers/stream/ksproperty-bda-node-types)
 
-
-<a href="/windows-hardware/drivers/stream/ksproperty-bda-node-types">KSPROPERTY_BDA_NODE_TYPES</a>
-
-
-
-<a href="/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a>
+[KSPROPSETID_BdaTopology](/windows-hardware/drivers/stream/kspropsetid-bdatopology)

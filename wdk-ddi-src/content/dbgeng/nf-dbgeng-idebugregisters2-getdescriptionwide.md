@@ -4,7 +4,7 @@ title: IDebugRegisters2::GetDescriptionWide (dbgeng.h)
 description: The GetDescriptionWide method returns the description of a register.
 old-location: debugger\getdescriptionwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugRegisters2::GetDescriptionWide"]
 ms.keywords: GetDescriptionWide, GetDescriptionWide method [Windows Debugging], GetDescriptionWide method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetDescriptionWide method, IDebugRegisters2.GetDescriptionWide, IDebugRegisters2::GetDescriptionWide, dbgeng/IDebugRegisters2::GetDescriptionWide, debugger.getdescriptionwide
 req.header: dbgeng.h
@@ -49,29 +49,29 @@ The <b>GetDescriptionWide</b>  method returns the description of a register.
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Specifies the index of the register for which the description is requested.
 
-### -param NameBuffer 
+### -param NameBuffer [out, optional]
 
-[out, optional]
+
 Specifies the buffer in which to store the name of the register.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param NameBufferSize 
+### -param NameBufferSize [in]
 
-[in]
-Specifies the size, in characters, of the buffer that  <i>NameBuffer</i> specifies.
 
-### -param NameSize 
+Specifies the size, in characters, of the buffer that  <i>NameBuffer</i> specifies. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size, in characters, of the register's name in <i>NameBuffer</i> buffer.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+### -param NameSize [out, optional]
 
-### -param Desc 
 
-[out, optional]
+Receives the size, in characters, of the register's name in <i>NameBuffer</i> buffer. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+
+### -param Desc [out, optional]
+
+
 Receives the description of the register.  See <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_register_description">DEBUG_REGISTER_DESCRIPTION</a> for more details.
 
 ## -returns

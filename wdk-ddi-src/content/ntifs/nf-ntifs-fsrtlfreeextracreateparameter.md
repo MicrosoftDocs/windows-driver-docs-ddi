@@ -49,9 +49,9 @@ The <b>FsRtlFreeExtraCreateParameter</b> routine frees the memory for an ECP con
 
 ## -parameters
 
-### -param EcpContext 
+### -param EcpContext [in]
 
-[in]
+
 Pointer to the extra create parameter (ECP) context structure to be freed.
 
 ## -remarks

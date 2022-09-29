@@ -49,29 +49,29 @@ The <b>ReadTagged</b> method reads the tagged data that might be associated with
 
 ## -parameters
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 Specifies the GUID identifying the data requested.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the offset within the data to read.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the data.  If <i>Buffer</i> is <b>NULL</b>, the data is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be returned.
 
-### -param TotalSize 
+### -param TotalSize [out, optional]
 
-[out, optional]
+
 Receives the total size in bytes of the data specified by <i>Tag</i>.
 
 ## -returns

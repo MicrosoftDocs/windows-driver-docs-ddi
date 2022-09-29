@@ -49,14 +49,14 @@ The <b>GetBreakpointById2</b>  method returns the breakpoint with the specified 
 
 ## -parameters
 
-### -param Id 
+### -param Id [in]
 
-[in]
+
 Specifies the breakpoint ID of the breakpoint to return.
 
-### -param Bp 
+### -param Bp [out]
 
-[out]
+
 Receives the breakpoint.
 
 ## -returns

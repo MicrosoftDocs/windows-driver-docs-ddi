@@ -49,9 +49,9 @@ The<b> KsFilterGetOuterUnknown </b>function returns the outer <b>IUnknown</b> in
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to return the outer <b>IUnknown</b>.
 
 ## -returns

@@ -51,9 +51,9 @@ A UMDF-based driver's <b>OnRemoteInterfaceRemoval</b> event callback function no
 
 ## -parameters
 
-### -param pWdfRemoteInterface 
+### -param pWdfRemoteInterface [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremoteinterface">IWDFRemoteInterface</a> interface of a remote interface object that represents a device interface. The driver obtains this pointer when it calls <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-createremoteinterface">IWDFDevice2::CreateRemoteInterface</a>.
 
 ## -remarks

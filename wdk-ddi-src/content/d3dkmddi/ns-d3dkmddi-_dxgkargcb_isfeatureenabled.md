@@ -5,8 +5,6 @@ description: Arguments used to query the driver feature is enabled.
 tech.root: display
 ms.date: 10/13/2021
 keywords: ["DXGKARGCB_ISFEATUREENABLED structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARGCB_ISFEATUREENABLED, DXGKARGCB_ISFEATUREENABLED, *INOUT_PDXGKARGCB_ISFEATUREENABLED
 req.header: d3dkmddi.h
 req.include-header: 
@@ -51,17 +49,17 @@ The **DXGKARGCB_ISFEATUREENABLED** structure contains the arguments used in the 
 
 ## -struct-fields
 
-### -field DeviceHandle
+### -field DeviceHandle [in]
 
-[in] Device handle that was passed to the driver [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
+Device handle that was passed to the driver [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
 
-### -field FeatureId
+### -field FeatureId [in]
 
-[in] Feature ID to query enabled state for.
+Feature ID to query enabled state for.
 
-### -field Enabled
+### -field Enabled [out]
 
-[out] FALSE if the OS instructs the driver not to enable the feature. TRUE if the OS allows the driver to enable the feature.
+FALSE if the OS instructs the driver not to enable the feature. TRUE if the OS allows the driver to enable the feature.
 
 ## -see-also
 

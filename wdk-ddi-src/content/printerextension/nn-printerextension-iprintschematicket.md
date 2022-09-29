@@ -2,16 +2,15 @@
 UID: NN:printerextension.IPrintSchemaTicket
 title: IPrintSchemaTicket (printerextension.h)
 description: Provides the primary method to access and validate a PrintTicket.
-old-location: print\iprintschematicket_interface.htm
 tech.root: print
-ms.date: 06/11/2021
+ms.date: 08/04/2022
 keywords: ["IPrintSchemaTicket interface"]
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], IPrintSchemaTicket interface [Print Devices],described, print.iprintschematicket_interface, printerextension/IPrintSchemaTicket
 req.header: printerextension.h
 req.include-header: Printerextension.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -39,8 +38,6 @@ api_location:
 api_name:
  - IPrintSchemaTicket
 ---
-
-# IPrintSchemaTicket interface
 
 ## -description
 

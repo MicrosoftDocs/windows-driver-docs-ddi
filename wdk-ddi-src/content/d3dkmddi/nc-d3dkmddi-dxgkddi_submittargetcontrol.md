@@ -65,13 +65,13 @@ NTSTATUS DxgkddiSubmittargetcontrol
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] WDDM display miniport adapter handle.
+WDDM display miniport adapter handle.
 
-### -param pSubmitTargetControl
+### -param pSubmitTargetControl [in, out]
 
-[in, out] Pointer to a [DXGKARG_SUBMITTARGETCONTROL](ns-d3dkmddi-dxgkarg_submittargetcontrol.md) structure.
+Pointer to a [DXGKARG_SUBMITTARGETCONTROL](ns-d3dkmddi-dxgkarg_submittargetcontrol.md) structure.
 
 ## -returns
 

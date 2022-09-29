@@ -49,21 +49,21 @@ The **NtFreeVirtualMemory** routine releases, decommits, or both releases and de
 
 ## -parameters
 
-### -param ProcessHandle 
+### -param ProcessHandle [in]
 
-[in]
+
 A handle for the process in whose context the pages to be freed reside. Use the **NtCurrentProcess** macro, defined in *Ntddk.h*, to specify the current process.
 
-### -param BaseAddress 
+### -param BaseAddress [in, out]
 
-[in, out]
+
 A pointer to a variable that will receive the base virtual address of the freed region of pages.
 
 If the MEM_RELEASE flag is set in the *FreeType* parameter, *\*BaseAddress* must be the base address returned by [**NtAllocateVirtualMemory**](./nf-ntifs-ntallocatevirtualmemory.md) when the region was reserved.
 
-### -param RegionSize 
+### -param RegionSize [in, out]
 
-[in, out]
+
 A pointer to a variable that will receive the actual size, in bytes, of the freed region of pages. The routine rounds the initial value of this variable up to the next host page size boundary and writes the rounded value back to this variable.
 
 If the MEM_RELEASE flag is set in *\*FreeType*, *\*RegionSize* must be zero. **NtFreeVirtualMemory** frees the entire region that was reserved in the initial allocation call to **NtAllocateVirtualMemory**.
@@ -76,9 +76,9 @@ If the MEM_DECOMMIT flag is set in *\*FreeType*, **NtFreeVirtualMemory** decommi
 * *\*BaseAddress* is the base address returned by **NtAllocateVirtualMemory** when the region was reserved.
 * *\*RegionSize* is zero.
 
-### -param FreeType 
+### -param FreeType [in]
 
-[in]
+
 A bitmask containing flags that describe the type of free operation that **NtFreeVirtualMemory** will perform for the specified region of pages. The possible values are listed in the following table.
 
 <table>

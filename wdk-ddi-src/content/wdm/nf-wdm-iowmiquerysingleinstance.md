@@ -49,24 +49,24 @@ The <b>IoWMIQuerySingleInstance</b> routine returns the specified instance of a 
 
 ## -parameters
 
-### -param DataBlockObject 
+### -param DataBlockObject [in]
 
-[in]
+
 Pointer to a WMI data block object. The caller opens the data block object for the WMI class with the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a> routine. The object must be opened with the WMIGUID_QUERY access right.
 
-### -param InstanceName 
+### -param InstanceName [in]
 
-[in]
+
 Specifies the name of the instance of the data block. This value corresponds to the value of the <b>InstanceName</b> property for the block.
 
-### -param InOutBufferSize 
+### -param InOutBufferSize [in, out]
 
-[in, out]
+
 Pointer to a memory location that specifies the size of the buffer passed in the <i>OutBuffer</i> parameter. If the routine succeeds, it updates the memory location to specify the number of bytes actually stored in <i>OutBuffer</i>. If the routine fails with status code of STATUS_BUFFER_TOO_SMALL, it returns the number of bytes required to return the data.
 
-### -param OutBuffer 
+### -param OutBuffer [out, optional]
 
-[out, optional]
+
 Pointer to the buffer where the routine returns the WMI data. The routine returns a variable-sized <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_single_instance">WNODE_SINGLE_INSTANCE</a> structure. <i>OutBuffer</i> must point to a buffer allocated from nonpaged pool.
 
 ## -returns

@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param RxDeviceObject 
+### -param RxDeviceObject [in]
 
-[in]
+
 A pointer to the RDBSS device object for this network mini-redirector.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 A pointer to the I/O request packet being processed.
 
 ## -returns

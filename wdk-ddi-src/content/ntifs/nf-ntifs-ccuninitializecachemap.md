@@ -49,14 +49,14 @@ The <b>CcUninitializeCacheMap</b> routine stops the caching of a cached file.
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to a file object for the cached file.
 
-### -param TruncateSize 
+### -param TruncateSize [in, optional]
 
-[in, optional]
+
 If specified, the file was truncated to the specified size, and the cache should be purged accordingly.
 
 ### -param UninitializeEvent

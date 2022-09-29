@@ -49,14 +49,14 @@ The <b>SetType</b> method sets the data type that is associated with a tag in a 
 
 ## -parameters
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
-### -param EntryType 
+### -param EntryType [in]
 
-[in]
+
 A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_ENTRY_TYPE</a> enumeration.
 
 ## -returns

@@ -4,7 +4,7 @@ title: EVT_UCX_ENDPOINT_START (ucxendpoint.h)
 description: The client driver's implementation that UCX calls to start the queue associated with the endpoint.
 old-location: buses\evt_ucx_endpoint_start.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/14/2022
 keywords: ["EVT_UCX_ENDPOINT_START callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_START, EVT_UCX_ENDPOINT_START callback, EvtUcxEndpointStart, EvtUcxEndpointStart callback function [Buses], PEVT_UCX_ENDPOINT_START, PEVT_UCX_ENDPOINT_START callback function pointer [Buses], buses.evt_ucx_endpoint_start, ucxendpoint/EvtUcxEndpointStart
 req.header: ucxendpoint.h
@@ -42,34 +42,27 @@ api_name:
 
 # EVT_UCX_ENDPOINT_START callback function
 
-
 ## -description
 
 The client driver's implementation that UCX calls to start the queue associated with the endpoint.
 
 ## -parameters
 
-### -param UcxController 
+### -param UcxController [in]
 
-[in]
- A handle to the UCX controller that the client driver received in a previous call to  the <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
+ A handle to the UCX controller that the client driver received in a previous call to  the [UcxControllerCreate](../ucxcontroller/nf-ucxcontroller-ucxcontrollercreate.md) method.
 
-### -param UcxEndpoint
-
-#### - Endpoint [in]
+### -param UcxEndpoint [in]
 
 A handle to a UCXENDPOINT object that represents the endpoint.
 
 ## -remarks
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
- method.
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the [UcxEndpointCreate](nf-ucxendpoint-ucxendpointcreate.md) method.
 
+### Examples
 
-#### Examples
-
-
-```
+```cpp
 VOID
 Endpoint_EvtUcxEndpointStart(
     UCXCONTROLLER   UcxController,
@@ -83,4 +76,3 @@ Endpoint_EvtUcxEndpointStart(
     DbgTrace(TL_INFO, Endpoint, "Endpoint_EvtUcxEndpointStart");
 }
 ```
-

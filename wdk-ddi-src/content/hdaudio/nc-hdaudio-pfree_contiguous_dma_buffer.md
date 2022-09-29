@@ -51,14 +51,14 @@ The function pointer type for a <code>FreeContiguousDmaBuffer</code> routine is 
 
 ## -parameters
 
-### -param _context 
+### -param _context [in]
 
-[in]
+
 Specifies the context value from the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_bdl">HDAUDIO_BUS_INTERFACE_BDL</a> structure.
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 Handle identifying the DMA engine. This handle value was obtained from a previous call to <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pallocate_capture_dma_engine">AllocateCaptureDmaEngine</a> or <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pallocate_render_dma_engine">AllocateRenderDmaEngine</a>.
 
 ## -returns

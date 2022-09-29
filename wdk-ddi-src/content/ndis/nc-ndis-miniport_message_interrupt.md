@@ -52,18 +52,18 @@ NDIS calls the
 
 ## -parameters
 
-### -param MiniportInterruptContext 
+### -param MiniportInterruptContext [in]
 
-[in]
+
 A handle to a block of interrupt context information. The miniport driver supplied this handle in
      the 
      <i>MiniportInterruptContext</i> parameter that the miniport driver passed to the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">
      NdisMRegisterInterruptEx</a> function.
 
-### -param MessageId 
+### -param MessageId [in]
 
-[in]
+
 A message-signaled interrupt (MSI) message identifier. 
      <i>MessageId</i> is an index to an 
      <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info_entry">
@@ -74,18 +74,18 @@ A message-signaled interrupt (MSI) message identifier.
      <b>MessageInfoTable</b> member when the driver successfully registers for MSI with the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">NdisMRegisterInterruptEx</a> function.
 
-### -param QueueDefaultInterruptDpc 
+### -param QueueDefaultInterruptDpc [out]
 
-[out]
+
 A pointer to a Boolean variable that the miniport driver sets before returning from this call. A
      miniport driver sets this value to <b>TRUE</b> to indicate that the driver requires a DPC on the default
      (current) CPU. If set to <b>TRUE</b>, NDIS ignores the value of the 
      <i>TargetProcessors</i> parameter. If set to <b>FALSE</b>, NDIS uses the value of the 
      <i>TargetProcessors</i> parameter to schedule DPCs.
 
-### -param TargetProcessors 
+### -param TargetProcessors [out]
 
-[out]
+
 A bitmask that indicates the target processors for which NDIS should schedule a DPC. This bitmask represents the first 32 processors in processor group 0. Each bit in 
      the bitmask identifies a CPU. If the caller sets bit 0, NDIS schedules a DPC for CPU 0. If the caller sets bit 1, NDIS
      schedules a DPC for CPU 1, and so on. 

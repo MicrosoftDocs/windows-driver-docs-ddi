@@ -49,9 +49,9 @@ The<b> KsGateTurnInputOn</b> function turns on an existing input to <i>Gate</i>.
 
 ## -parameters
 
-### -param Gate 
+### -param Gate [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure representing the gate that currently has an input in the OFF state to transition to the ON state. May be an AND gate or an OR gate.
 
 ## -remarks

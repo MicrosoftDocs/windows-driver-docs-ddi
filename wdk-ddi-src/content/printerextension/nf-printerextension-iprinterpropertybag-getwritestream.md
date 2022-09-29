@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrinterPropertyBag.GetWriteStream
 title: IPrinterPropertyBag::GetWriteStream (printerextension.h)
 description: Gets a stream in order to write a stream property.
-old-location: print\iprinterpropertybag_getwritestream.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/03/2022
 keywords: ["IPrinterPropertyBag::GetWriteStream"]
 ms.keywords: GetWriteStream, GetWriteStream method [Print Devices], GetWriteStream method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetWriteStream method, IPrinterPropertyBag.GetWriteStream, IPrinterPropertyBag::GetWriteStream, print.iprinterpropertybag_getwritestream, printerextension/IPrinterPropertyBag::GetWriteStream
 req.header: printerextension.h
@@ -40,29 +39,23 @@ api_name:
  - IPrinterPropertyBag::GetWriteStream
 ---
 
-# IPrinterPropertyBag::GetWriteStream
-
-
 ## -description
 
 Gets a stream in order to write a stream property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
 The property to write.
 
 ### -param ppValue
-
-#### - ppValueStream [out, retval]
 
 The retrieved stream.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -remarks
 
@@ -70,5 +63,4 @@ This method does not work with non-stream properties.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>
-
+[IPrinterPropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag)

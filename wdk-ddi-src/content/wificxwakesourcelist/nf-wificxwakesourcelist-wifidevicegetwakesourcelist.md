@@ -1,10 +1,10 @@
 ---
 UID: NF:wificxwakesourcelist.WifiDeviceGetWakeSourceList
 tech.root: netvista
-title: WifiDeviceGetWakeSourceList
-ms.date: 04/30/2021
+title: WifiDeviceGetWakeSourceList (wificxwakesourcelist.h)
+ms.date: 09/14/2021
 targetos: Windows
-description: "Microsoft reserves the WifiDeviceGetWakeSourceList function for internal use only. Don't use this function in your code."
+description: The WifiDeviceGetWakeSourceList function gets the list of wake sources for a WiFiCx net adapter.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -18,7 +18,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
@@ -41,22 +41,26 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WifiDeviceGetWakeSourceList** function gets the list of wake sources for a WiFiCx net adapter.
 
 ## -parameters
 
 ### -param Device
 
-Reserved.
+The WDFDEVICE object that is associated with the net adapter (or multiple adapters if the client driver has more than one for this device).
 
 ### -param List
 
-Reserved.
+A pointer to a driver-allocated and initialized [**WIFI_WAKE_SOURCE_LIST**](ns-wificxwakesourcelist-wifi_wake_source_list.md) structure.
 
 ## -remarks
 
+Call [**WIFI_WAKE_SOURCE_LIST_INIT**](nf-wificxwakesourcelist-wifi_wake_source_list_init.md) to initialize the [**WIFI_WAKE_SOURCE_LIST**](ns-wificxwakesourcelist-wifi_wake_source_list.md) structure, then call this function to retrieve the wake source list.
+
+The client driver must only call **WifiDeviceGetWakeSourceList** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE](../netdevice/nc-netdevice-evt_net_device_preview_wake_source.md)* callback function. Otherwise, the call results in a system bugcheck.
+
 ## -see-also
 
+[**WIFI_WAKE_SOURCE_LIST**](ns-wificxwakesourcelist-wifi_wake_source_list.md)
+
+[**WIFI_WAKE_SOURCE_LIST_INIT**](nf-wificxwakesourcelist-wifi_wake_source_list_init.md)

@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio._SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
 title: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR (sidebandaudio.h)
 description: Describes the characteristics of the audio Endpoint driver.
-ms.date: 09/06/2018
+ms.date: 10/18/2021
 keywords: ["SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure"]
 ms.keywords: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, *PSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR,
 req.header: sidebandaudio.h
@@ -67,7 +67,7 @@ Specifies either KSPIN_DATAFLOW_IN or KSPIN_DATAFLOW_OUT. See <a href="/windows-
 
 ### -field Capabilities
 
- Capabilities of the endpoint like (mute, volume, sidetone, etc.). See See <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_capabilities">SIDEBANDAUDIO_ENDPOINT_CAPABILITIES</a>.
+Capabilities of the endpoint like (mute, volume, sidetone, etc.). See See <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_capabilities">SIDEBANDAUDIO_ENDPOINT_CAPABILITIES</a>.
 
 ### -field FriendlyName
 
@@ -80,6 +80,10 @@ If remote volume control is supported, this member contains the size of the data
 ### -field SidetoneVolumePropertyValueSize
 
 If remote volume control is supported, this member contains the size of the data returned by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_sidetone_volumepropertyvalues">IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES</a> request.
+
+### -field MutePropertyValuesSize
+
+If remote mute is supported, the member contains the size of data returned by IOCTL_SBAUD_GET_MUTEPROPERTYVALUES.
 
 ## -remarks
 

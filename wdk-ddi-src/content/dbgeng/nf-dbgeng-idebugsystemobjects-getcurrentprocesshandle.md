@@ -49,9 +49,9 @@ The <b>GetCurrentProcessHandle</b> method returns the system handle for the curr
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [out]
 
-[out]
+
 Receives the system handle of the current process.
 
 ## -returns

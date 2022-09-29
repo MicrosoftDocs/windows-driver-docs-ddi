@@ -53,9 +53,9 @@ Determines whether the target supports a given interface.
 
 ### -param Args
 
-### -param MonikerSuffix 
+### -param MonikerSuffix [in, optional]
 
-[in, optional]
+
 An optional moniker that defines more options about how 
 the interface should be instantiated. 
 
@@ -63,13 +63,13 @@ This parameter is not yet implemented.
 Set <i>MonikerSuffix </i>to a <b>VARIANT</b> that 
 contains <b>VT_EMPTY</b>.
 
-### -param pResult 
+### -param pResult [out, retval]
 
-[out, retval]
+
 True if the target supports the interface; otherwise false.
 
 
-#### - MoreTargets [in, optional]
+### -param MoreTargets [in, optional]
 
 Optional extra arguments that you can use to 
 define additional targets to attach to the returned interface. 
@@ -79,7 +79,7 @@ currently implemented. Set <i>MoreTargets</i>o a <b>VARIANT</b>
 that contains <b>VT_EMPTY</b>.
 
 
-#### - ProgID [in]
+### -param ProgID [in]
 
 The WDTF ProgID of the requested interface.
 

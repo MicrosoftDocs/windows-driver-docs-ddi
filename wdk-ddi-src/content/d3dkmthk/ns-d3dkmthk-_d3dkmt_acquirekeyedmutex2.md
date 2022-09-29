@@ -52,29 +52,29 @@ Describes a keyed mutex object that the <a href="/windows-hardware/drivers/ddi/d
 
 ## -struct-fields
 
-### -field hKeyedMutex
+### -field hKeyedMutex [in]
 
-[in] A D3DKMT_HANDLE data type that represents a handle to the keyed mutex.
+A D3DKMT_HANDLE data type that represents a handle to the keyed mutex.
 
-### -field Key
+### -field Key [in]
 
-[in] The key value to acquire.
+The key value to acquire.
 
-### -field pTimeout
+### -field pTimeout [in]
 
-[in] An NT-style timeout value.
+An NT-style timeout value.
 
-### -field FenceValue
+### -field FenceValue [out]
 
-[out] The current fence value of the GPU sync object.
+The current fence value of the GPU sync object.
 
-### -field pPrivateRuntimeData
+### -field pPrivateRuntimeData [out]
 
-[out] A pointer to a buffer to copy private data to.
+A pointer to a buffer to copy private data to.
 
-### -field PrivateRuntimeDataSize
+### -field PrivateRuntimeDataSize [in]
 
-[in] The size, in bytes, of the <b>pPrivateRuntimeData</b> member.
+The size, in bytes, of the <b>pPrivateRuntimeData</b> member.
 
 ## -see-also
 

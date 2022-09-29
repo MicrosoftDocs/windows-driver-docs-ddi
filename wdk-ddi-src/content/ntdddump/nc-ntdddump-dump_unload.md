@@ -49,9 +49,9 @@ The <i>Dump_Unload</i> callback routine is called when the dump stack is unloade
 
 ## -parameters
 
-### -param FilterExtension 
+### -param FilterExtension [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a> structure.
 
 ## -returns

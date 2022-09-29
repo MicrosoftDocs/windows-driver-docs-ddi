@@ -51,31 +51,11 @@ Reserved for system use.
 
 ## -struct-fields
 
-### -field DUMMYSTRUCTNAME
+### -field CommonBits
 
-### -field DUMMYSTRUCTNAME.McaErrorCode
+### -field AmdBits
 
-### -field DUMMYSTRUCTNAME.ModelErrorCode
-
-### -field DUMMYSTRUCTNAME.OtherInformation
-
-### -field DUMMYSTRUCTNAME.ActionRequired
-
-### -field DUMMYSTRUCTNAME.Signalling
-
-### -field DUMMYSTRUCTNAME.ContextCorrupt
-
-### -field DUMMYSTRUCTNAME.AddressValid
-
-### -field DUMMYSTRUCTNAME.MiscValid
-
-### -field DUMMYSTRUCTNAME.ErrorEnabled
-
-### -field DUMMYSTRUCTNAME.UncorrectedError
-
-### -field DUMMYSTRUCTNAME.StatusOverFlow
-
-### -field DUMMYSTRUCTNAME.Valid
+### -field IntelBits
 
 ### -field QuadPart
 

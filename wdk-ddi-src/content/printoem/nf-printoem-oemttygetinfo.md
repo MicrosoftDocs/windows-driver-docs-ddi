@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMTTYGetInfo
 title: OEMTTYGetInfo function (printoem.h)
-description: OEMTTYGetInfo function
-old-location: print\oemttygetinfo.htm
+description: Describes the OEMTTYGetInfo function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/11/2022
 keywords: ["OEMTTYGetInfo function"]
 ms.keywords: OEMTTYGetInfo, OEMTTYGetInfo function [Print Devices], print.oemttygetinfo, print_obsoletefunctions_7da21ed3-626e-454f-9357-0ab0a0640a27.xml, printoem/OEMTTYGetInfo
 req.header: printoem.h
@@ -40,24 +39,32 @@ api_name:
  - OEMTTYGetInfo
 ---
 
-# OEMTTYGetInfo function
-
-
 ## -description
+
+Describes the **OEMTTYGetInfo** function.
 
 ## -parameters
 
 ### -param pdevobj
 
+Defines the **PDEVOBJ** parameter *pdevobj*.
+
 ### -param dwInfoIndex
 
-### -param pOutputBuf 
+Defines the **DWORD** parameter *dwInfoIndex*.
 
-[out]
+### -param pOutputBuf [out]
+
+Defines the **PVOID** parameter *pOutputBuf*.
 
 ### -param dwSize
 
-### -param pcbcNeeded 
+Defines the **DWORD** parameter *dwSize*.
 
-[out]
+### -param pcbcNeeded [out]
 
+Defines the **DWORD** parameter *pcbcNeeded*.
+
+## -returns
+
+Returns a **INT** value.

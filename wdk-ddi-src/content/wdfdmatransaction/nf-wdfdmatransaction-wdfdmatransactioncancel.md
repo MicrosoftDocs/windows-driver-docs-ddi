@@ -52,9 +52,9 @@ The <b>WdfDmaTransactionCancel</b> method attempts to cancel a DMA transaction t
 
 ## -parameters
 
-### -param DmaTransaction 
+### -param DmaTransaction [in]
 
-[in]
+
 A handle to the DMA transaction object that represents the transaction that is being canceled. This transaction must have already been initialized by the driver.
 
 ## -returns

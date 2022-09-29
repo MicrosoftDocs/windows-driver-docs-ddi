@@ -4,7 +4,7 @@ title: _PEP_DEVICE_ACCEPTANCE_TYPE (pepfx.h)
 description: The PEP_DEVICE_ACCEPTANCE_TYPE enumeration indicates whether a PEP accepts ownership of a device.
 old-location: kernel\pep_device_acceptance_type.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 08/10/2022
 keywords: ["PEP_DEVICE_ACCEPTANCE_TYPE enumeration"]
 ms.keywords: "*PPEP_DEVICE_ACCEPTANCE_TYPE, PEP_DEVICE_ACCEPTANCE_TYPE, PEP_DEVICE_ACCEPTANCE_TYPE enumeration [Kernel-Mode Driver Architecture], PepDeviceAccepted, PepDeviceAcceptedMax, PepDeviceAcceptedReserved, PepDeviceNotAccepted, _PEP_DEVICE_ACCEPTANCE_TYPE, kernel.pep_device_acceptance_type, pepfx/PEP_DEVICE_ACCEPTANCE_TYPE, pepfx/PepDeviceAccepted, pepfx/PepDeviceAcceptedMax, pepfx/PepDeviceAcceptedReserved, pepfx/PepDeviceNotAccepted"
 req.header: pepfx.h
@@ -48,10 +48,9 @@ api_name:
 
 # _PEP_DEVICE_ACCEPTANCE_TYPE enumeration (pepfx.h)
 
-
 ## -description
 
-The <b>PEP_DEVICE_ACCEPTANCE_TYPE</b> enumeration indicates whether a PEP accepts ownership of a device.
+The **PEP_DEVICE_ACCEPTANCE_TYPE** enumeration indicates whether a PEP accepts ownership of a device.
 
 ## -enum-fields
 
@@ -65,20 +64,12 @@ The PEP claims ownership of this device.
 
 ### -field PepDeviceAceptedMax
 
-#### - PepDeviceAcceptedMax
-
 Reserved for use by operating system.
-
-
-#### - PepDeviceAcceptedReserved
-
-The PEP claims ownership of the device on behalf of the default PEP. The default PEP is implemented by the Windows kernel to manage devices for which hardware-specific PEPs are not available.
 
 ## -remarks
 
-This enumeration is used by <b>DeviceAccepted</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_device_v2">PEP_REGISTER_DEVICE_V2</a> structure to indicate whether a PEP accepts ownership of a device.
+This enumeration is used by *DeviceAccepted* member of the [PEP_REGISTER_DEVICE_V2](./ns-pepfx-_pep_register_device_v2.md) structure to indicate whether a PEP accepts ownership of a device.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_device_v2">PEP_REGISTER_DEVICE_V2</a>
-
+- [PEP_REGISTER_DEVICE_V2](./ns-pepfx-_pep_register_device_v2.md)

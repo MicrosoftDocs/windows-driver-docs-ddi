@@ -49,9 +49,9 @@ The <b>GetAdder</b> method returns the client that owns the breakpoint.
 
 ## -parameters
 
-### -param Adder 
+### -param Adder [out]
 
-[out]
+
 An <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a> interface pointer to the client object that added the breakpoint.
 
 ## -returns

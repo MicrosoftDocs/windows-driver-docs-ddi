@@ -47,30 +47,29 @@ api_name:
 
 The **READ_REGISTER_BUFFER_USHORT** routine dereferences the supplied pointer, inserts a memory barrier, and reads a set of USHORT values from the specified register address into a buffer.
 
-## -parameters
+### -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the register, which must be a mapped range in memory space.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Pointer to a buffer into which an array of USHORT values is read.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of USHORT values to be read into the buffer.
 
 ## -remarks
 
 This routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to this routine will complete before any operation that appears after the call.
 
-For more info about memory barriers, see [**KeMemoryBarrier**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kememorybarrier).
+For more info about memory barriers, see [**KeMemoryBarrier**](./nf-wdm-kememorybarrier.md).
 
 The size of the buffer must be large enough to contain at least the specified number of USHORT values.
 
 Callers of <b>READ_REGISTER_BUFFER_USHORT</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Register</i> is resident, mapped device memory.
-

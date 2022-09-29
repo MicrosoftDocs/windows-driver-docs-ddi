@@ -52,13 +52,13 @@ The DXVADDI_QUERYEXTENSIONCAPSINPUT structure describes a capability of an exten
 
 ## -struct-fields
 
-### -field pGuid
+### -field pGuid [in]
 
-[in] A pointer to a GUID that represents the extension device type.
+A pointer to a GUID that represents the extension device type.
 
-### -field CapType
+### -field CapType [in]
 
-[in] A capability type that information is requested for. A capability type can apply to one of the following categories of video acceleration:
+A capability type that information is requested for. A capability type can apply to one of the following categories of video acceleration:
 
 <ul>
 <li>
@@ -80,9 +80,9 @@ DXVADDI_EXTENSION_CATEGORY_ALL (0x0007)
 </ul>
 Extension capability types can be defined from DXVADDI_EXTENSION_CAPTYPE_MIN (300) to DXVADDI_EXTENSION_CAPTYPE_MAX (400).
 
-### -field pPrivate
+### -field pPrivate [in]
 
-[in] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to retrieve information about the extension capability.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to retrieve information about the extension capability.
 
 ## -see-also
 

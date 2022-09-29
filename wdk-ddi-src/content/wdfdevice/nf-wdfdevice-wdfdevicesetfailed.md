@@ -54,14 +54,14 @@ The <b>WdfDeviceSetFailed</b> method informs the framework that the driver encou
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param FailedAction 
+### -param FailedAction [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_failed_action">WDF_DEVICE_FAILED_ACTION</a>-typed enumerator that indicates whether the framework should attempt to reload the specified device's drivers.
 
 ## -remarks

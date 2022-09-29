@@ -1,10 +1,9 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_UPDATE_KEY
-title: _MSR_UPDATE_KEY (pointofservicedriverinterface.h)
+title: MSR_UPDATE_KEY (pointofservicedriverinterface.h)
 description: This structure contains the information necessary to set a new encryption key.
-old-location: pos\msr_update_key.htm
 tech.root: pos
-ms.date: 02/23/2018
+ms.date: 04/19/2022
 keywords: ["MSR_UPDATE_KEY structure"]
 ms.keywords: "*PMSR_UPDATE_KEY, MSR_UPDATE_KEY, MSR_UPDATE_KEY structure, PMSR_UPDATE_KEY, PMSR_UPDATE_KEY structure pointer, _MSR_UPDATE_KEY, pointofservicedriverinterface/MSR_UPDATE_KEY, pointofservicedriverinterface/PMSR_UPDATE_KEY, pos.msr_update_key"
 req.header: pointofservicedriverinterface.h
@@ -46,9 +45,6 @@ api_name:
  - MSR_UPDATE_KEY
 ---
 
-# _MSR_UPDATE_KEY structure
-
-
 ## -description
 
 This structure contains the information necessary to set a new encryption key.
@@ -69,12 +65,4 @@ The new encryption key.
 
 ### -field KeyName
 
- 
-
-
-
-
-#### - char KeyName
-
 The name of the new encryption key.
-

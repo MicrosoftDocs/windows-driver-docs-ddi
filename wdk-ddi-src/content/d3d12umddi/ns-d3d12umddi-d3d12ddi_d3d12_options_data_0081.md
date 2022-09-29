@@ -37,14 +37,13 @@ dev_langs:
 
 ## -description
 
-The D3D12DDI_D3D12_OPTIONS_DATA_0081 structure contains display options data supported by the driver/hardware.
+The **D3D12DDI_D3D12_OPTIONS_DATA_0081** structure contains display options data supported by the driver/hardware.
 
 ## -struct-fields
 
 ### -field ResourceBindingTier
 
-The [**D3D12DDI_RESOURCE_BINDING_TIER**](./ne-d3d12umddi-d3d12ddi_resource_binding_tier.md
-) value.
+The [**D3D12DDI_RESOURCE_BINDING_TIER**](./ne-d3d12umddi-d3d12ddi_resource_binding_tier.md) value.
 
 ### -field ConservativeRasterizationTier
 
@@ -107,7 +106,7 @@ Set TRUE when deterministic 64KB undefined swizzle is supported; otherwise, set 
 
 Set TRUE when the hardware supports SRV-only sparse volume textures; otherwise, set FALSE.
 
-#### -field RenderPassTier
+### -field RenderPassTier
 
 The [**D3D12DDI_RENDER_PASS_TIER**](ne-d3d12umddi-d3d12ddi_render_pass_tier.md) that the hardware supports.
 

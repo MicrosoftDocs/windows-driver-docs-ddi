@@ -49,14 +49,14 @@ The <i>GetLastTransitionStatus</i> routine enables the driver for a device to qu
 
 ## -parameters
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_d3cold_support_interface">D3COLD_SUPPORT_INTERFACE</a> structure for the interface.
 
-### -param LastTransitionStatus 
+### -param LastTransitionStatus [out]
 
-[out]
+
 A pointer to a variable into which the routine writes one of the following <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_d3cold_last_transition_status">D3COLD_LAST_TRANSITION_STATUS</a> enumeration values:
 
 <ul>

@@ -1,14 +1,13 @@
 ---
 UID: NS:bdatypes._BDA_CAS_CLOSE_MMIDIALOG
-title: _BDA_CAS_CLOSE_MMIDIALOG (bdatypes.h)
-description: "Learn more about: _BDA_CAS_CLOSE_MMIDIALOG structure"
-old-location: stream\bda_cas_close_mmidialog.htm
+title: BDA_CAS_CLOSE_MMIDIALOG (bdatypes.h)
+description: This topic describes the BDA_CAS_CLOSE_MMIDIALOG structure.
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/18/2022
 keywords: ["BDA_CAS_CLOSE_MMIDIALOG structure"]
 ms.keywords: "*PBDA_CAS_CLOSE_MMIDIALOG, BDA_CAS_CLOSE_MMIDIALOG, BDA_CAS_CLOSE_MMIDIALOG structure [Streaming Media Devices], PBDA_CAS_CLOSE_MMIDIALOG, PBDA_CAS_CLOSE_MMIDIALOG structure pointer [Streaming Media Devices], _BDA_CAS_CLOSE_MMIDIALOG, bdatypes/BDA_CAS_CLOSE_MMIDIALOG, bdatypes/PBDA_CAS_CLOSE_MMIDIALOG, stream.bda_cas_close_mmidialog"
 req.header: bdatypes.h
-req.include-header: 
+req.include-header: Bdatypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -46,21 +45,16 @@ api_name:
  - BDA_CAS_CLOSE_MMIDIALOG
 ---
 
-# _BDA_CAS_CLOSE_MMIDIALOG structure
-
-
 ## -description
+
+This topic describes the **BDA_CAS_CLOSE_MMIDIALOG** structure.
 
 ## -struct-fields
 
 ### -field lResult
 
+Defines the **PBDARESULT** member **lResult**.
+
 ### -field SessionResult
 
- 
-
-
-
-
-#### - ulDescrambleStatus
-
+Defines the **ULONG** member **SessionResult**.

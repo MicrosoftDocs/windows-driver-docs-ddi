@@ -51,19 +51,19 @@ The <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestre
 
 ## -parameters
 
-### -param MinimumRequiredCb 
+### -param MinimumRequiredCb [in]
 
-[in]
+
 The minimum buffer size, in bytes, that the driver needs to process the I/O request. This value can be zero if there is no minimum buffer size.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer to a location that receives the buffer's address.
 
-### -param BufferCb 
+### -param BufferCb [out, optional]
 
-[out, optional]
+
 A pointer to a location that receives the buffer's size, in bytes. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

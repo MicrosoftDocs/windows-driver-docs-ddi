@@ -51,14 +51,14 @@ A driver's <i>EvtIoCanceledOnQueue</i> event callback function informs the drive
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to an I/O queue object.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a request object.
 
 ## -remarks

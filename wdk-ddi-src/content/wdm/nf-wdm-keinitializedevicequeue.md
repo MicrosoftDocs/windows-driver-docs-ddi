@@ -49,9 +49,9 @@ The <b>KeInitializeDeviceQueue</b> routine initializes a device queue object to 
 
 ## -parameters
 
-### -param DeviceQueue 
+### -param DeviceQueue [out]
 
-[out]
+
 Pointer to a device queue object for which the caller provides the storage.
 
 ## -remarks

@@ -49,9 +49,9 @@ The<b> KsPinGetOuterUnknown</b> function returns the outer <b>IUnknown</b> of th
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which to return the outer <b>IUnknown</b>.
 
 ## -returns

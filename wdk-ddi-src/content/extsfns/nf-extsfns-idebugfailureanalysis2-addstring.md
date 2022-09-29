@@ -53,9 +53,9 @@ The <b>AddString</b> method adds a new <a href="/windows-hardware/drivers/debugg
 
 A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. The data type associated with this tag must be <b>DEBUG_FA_ENTRY_ANSI_STRING</b>.
 
-### -param Str 
+### -param Str [in]
 
-[in]
+
 A pointer to a null-terminated ANSI string to be written to the data block of the new <a href="/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a>.
 
 ## -returns
@@ -71,9 +71,6 @@ Each tag is associated with one of the data types in the <a href="/windows-hardw
 To get a pointer to an <a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfaentrytags">IDebugFAEntryTags</a> interface, call the <a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getdebugfatagcontrol">GetDebugFATagControl</a> method of the <a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">IDebugFailureAnalysis2</a> interface.
 
 ## -see-also
-
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getstring">GetString</a>
-
 
 
 <a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfaentrytags">IDebugFAEntryTags</a>

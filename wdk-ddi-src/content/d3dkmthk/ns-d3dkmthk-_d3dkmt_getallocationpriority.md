@@ -48,26 +48,26 @@ Used to get allocation priorities.
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the device.
+A handle to the device.
 
-### -field hResource
+### -field hResource [in]
 
-[in] A handle for this resource in this process.
+A handle for this resource in this process.
 
-### -field phAllocationList
+### -field phAllocationList [in]
 
-[in] Pointer to an array allocation to get priorities of.
+Pointer to an array allocation to get priorities of.
 
-### -field AllocationCount
+### -field AllocationCount [in]
 
-[in] Number of allocations in *phAllocationList*.
+Number of allocations in *phAllocationList*.
 
-### -field pPriorities
+### -field pPriorities [out]
 
  
-[out] Priority for each of the allocation in the array.
+Priority for each of the allocation in the array.
 
 ## -remarks
 

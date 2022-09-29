@@ -53,9 +53,9 @@ NDIS calls the
 
 ## -parameters
 
-### -param ProtocolBindingContext 
+### -param ProtocolBindingContext [in]
 
-[in]
+
 The handle to a protocol-driver-allocated context area in which this driver maintains per-binding
      run-time state information. The protocol driver supplied this handle when it called the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function. A 
@@ -65,9 +65,7 @@ The handle to a protocol-driver-allocated context area in which this driver main
      <b>NetEventReconfigure</b> can be indicated with a specified 
      <i>ProtocolBindingContext</i> or with a <b>NULL</b><i>ProtocolBindingContext</i>.
 
-### -param NetPnPEventNotification
-
-#### - NetPnPEvent [in]
+### -param NetPnPEventNotification [in]
 
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">

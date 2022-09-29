@@ -50,9 +50,9 @@ The<b> KsStreamPointerGetNextClone </b>function returns the clone stream pointer
 
 ## -parameters
 
-### -param StreamPointer 
+### -param StreamPointer [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the clone stream pointer for which the clone stream pointer cloned immediately after it on the same pin is returned.
 
 ## -returns

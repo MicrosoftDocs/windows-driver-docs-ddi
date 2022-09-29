@@ -51,18 +51,18 @@ The <b>WDF_WRITE_PORT_USHORT</b> function writes a USHORT value to the specified
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 A pointer to the port, which must be a mapped memory range in I/O space.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies a USHORT value to be written to the port.
 

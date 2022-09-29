@@ -54,24 +54,24 @@ The <b>WdfRegistryQueryMultiString</b> method retrieves the strings that are cur
 
 ## -parameters
 
-### -param Key 
+### -param Key [in]
 
-[in]
+
 A handle to a registry-key object that represents an opened registry key.
 
-### -param ValueName 
+### -param ValueName [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name.
 
-### -param StringsAttributes 
+### -param StringsAttributes [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for each new string object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param Collection 
+### -param Collection [in]
 
-[in]
+
 A handle to a driver-supplied framework collection object.
 
 ## -returns

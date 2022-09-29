@@ -3,7 +3,7 @@ UID: NF:netrxqueue.NetRxQueueGetRingCollection
 title: NetRxQueueGetRingCollection function (netrxqueue.h)
 description: The NetRxQueueGetRingCollection function retrieves the NET_RING_COLLECTION structure for a receive (Rx) queue.
 tech.root: netvista
-ms.date: 01/31/2019
+ms.date: 04/01/2022
 keywords: ["NetRxQueueGetRingCollection function"]
 ms.keywords: NetRxQueueGetRingCollection
 req.header: netrxqueue.h
@@ -46,7 +46,7 @@ The **NetRxQueueGetRingCollection** function retrieves the [**NET_RING_COLLECTIO
 
 ## -parameters
 
-### -param PacketQueue
+### -param PacketQueue [_In_]
 
 A **NETPACKETQUEUE** structure. The client driver receives a pointer to this **NETPACKETQUEUE** structure in its *[EVT_NET_ADAPTER_CREATE_RXQUEUE](../netadapter/nc-netadapter-evt_net_adapter_create_rxqueue.md)* callback function.
 

@@ -52,9 +52,9 @@ The <b>WdfDeviceClearRemovalRelationsDevices</b> method removes all devices from
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
 ## -remarks

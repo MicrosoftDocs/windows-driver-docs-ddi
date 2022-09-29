@@ -49,9 +49,9 @@ The <b>FsRtlIsEcpAcknowledged</b> routine is used to determine if a given extra 
 
 ## -parameters
 
-### -param EcpContext 
+### -param EcpContext [in]
 
-[in]
+
 Pointer to the ECP context structure to test for acknowledgment.
 
 ## -returns

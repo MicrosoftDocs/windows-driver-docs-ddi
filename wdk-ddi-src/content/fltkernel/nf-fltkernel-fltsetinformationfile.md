@@ -49,29 +49,29 @@ api_name:
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 File object pointer for the file. This parameter is required and cannot be <b>NULL</b>.
 
-### -param FileInformation 
+### -param FileInformation [in]
 
-[in]
+
 Pointer to a caller-allocated buffer that contains information to be set for the file. The <i>FileInformationClass</i> parameter specifies the type of information. This parameter is required and cannot be <b>NULL</b>.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Size, in bytes, of the <i>FileInformation</i> buffer.
 
-### -param FileInformationClass 
+### -param FileInformationClass [in]
 
-[in]
+
 Specifies the type of information to be set for the file. The following values are defined. 
 
 <table>

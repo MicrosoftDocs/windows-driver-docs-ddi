@@ -53,24 +53,24 @@ The <b>USBD_SelectConfigUrbAllocateAndBuild</b> routine allocates and formats a 
 
 ## -parameters
 
-### -param USBDHandle 
+### -param USBDHandle [in]
 
-[in]
+
 USBD handle that is retrieved by the client driver in a previous call to  the <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_createhandle">USBD_CreateHandle</a> routine.
 
-### -param ConfigurationDescriptor 
+### -param ConfigurationDescriptor [in]
 
-[in]
+
 Pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_configuration_descriptor">USB_CONFIGURATION_DESCRIPTOR</a> structure that contains the configuration descriptor for the configuration to be selected. Typically, the client driver submits an URB  of the type  URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (see <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_descriptor_request">_URB_CONTROL_DESCRIPTOR_REQUEST</a>)     to retrieve information about configurations, interfaces, endpoints, the vendor, and class-specific descriptors from a USB device. When the client driver specifies USB_CONFIGURATION_DESCRIPTOR_TYPE as the descriptor type, the request retrieves all device information in a <b>USB_CONFIGURATION_DESCRIPTOR</b> structure. The driver then passes the received pointer to    the <b>USB_CONFIGURATION_DESCRIPTOR</b> structure in the <i>ConfigurationDescriptor</i> parameter.
 
-### -param InterfaceList 
+### -param InterfaceList [in]
 
-[in]
+
 Pointer to the first element of a caller-allocated array of <a href="/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_usbd_interface_list_entry">USBD_INTERFACE_LIST_ENTRY</a>    structures. The length of the array depends on the number of interfaces in the configuration descriptor. For more information, see Remarks.
 
-### -param Urb 
+### -param Urb [out]
 
-[out]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure that receives the URB allocated by <b>USBD_SelectConfigUrbAllocateAndBuild</b>. The client driver must free the URB when the driver has finished using it by calling <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_urbfree">USBD_UrbFree</a>.
 
 ## -returns

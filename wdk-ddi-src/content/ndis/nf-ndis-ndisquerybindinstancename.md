@@ -52,18 +52,18 @@ The
 
 ## -parameters
 
-### -param pAdapterInstanceName 
+### -param pAdapterInstanceName [out]
 
-[out]
+
 A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode string. This
      string specifies the friendly name of the interface to which the binding refers. This interface is
      either a physical NIC or a virtual adapter. For Microsoft Windows 2000 and later operating systems, NDIS
      defines the NDIS_STRING type as a 
      <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
-### -param BindingContext 
+### -param BindingContext [in]
 
-[in]
+
 A handle that identifies the NDIS context area for the bind operation. NDIS passed this handle to
      the 
      <i>BindContext</i> parameter of the 

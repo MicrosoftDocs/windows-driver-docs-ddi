@@ -45,18 +45,18 @@ api_name:
 
 ## -description
 
-The <b>PsSetLoadImageNotifyRoutineEx</b> routine registers a driver-supplied callback that is subsequently notified whenever an image is loaded (or mapped into memory).
+The <b>PsSetLoadImageNotifyRoutineEx</b> routine registers a driver-supplied callback that is subsequently notified whenever an image (for example, a DLL or EXE) is loaded (or mapped into memory).
 
 ## -parameters
 
-### -param NotifyRoutine 
+### -param NotifyRoutine [in]
 
-[in]
+
 A pointer to the caller-implemented <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pload_image_notify_routine">PLOAD_IMAGE_NOTIFY_ROUTINE</a> callback routine for load-image notifications.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Supplies a bitmask of flags that control the callback function. Here are the possible values:
 
 <ul>

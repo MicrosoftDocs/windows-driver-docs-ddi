@@ -52,37 +52,37 @@ The DXVAHDDDI_STREAM_DATA structure describes an input stream that is processed.
 
 ## -struct-fields
 
-### -field Enable
+### -field Enable [in]
 
-[in] A Boolean value that specifies whether the input stream is enabled. The number of input streams that the runtime enables must not be more than the number, which the driver sets in the <b>MaxStreamStates</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpdevcaps">DXVAHDDDI_VPDEVCAPS</a> structure.
+A Boolean value that specifies whether the input stream is enabled. The number of input streams that the runtime enables must not be more than the number, which the driver sets in the <b>MaxStreamStates</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpdevcaps">DXVAHDDDI_VPDEVCAPS</a> structure.
 
-### -field OutputIndex
+### -field OutputIndex [in]
 
-[in] A zero-based cyclic frame index number of the output frames that are composed.
+A zero-based cyclic frame index number of the output frames that are composed.
 
-### -field InputFrameOrField
+### -field InputFrameOrField [in]
 
-[in] A zero-based frame number of the input frames or fields that are processed.
+A zero-based frame number of the input frames or fields that are processed.
 
-### -field PastFrames
+### -field PastFrames [in]
 
-[in] The number of past reference frames. This number must not be more than the number that the driver sets in the <b>PastFrames</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpcaps">DXVAHDDDI_VPCAPS</a> structure.
+The number of past reference frames. This number must not be more than the number that the driver sets in the <b>PastFrames</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpcaps">DXVAHDDDI_VPCAPS</a> structure.
 
-### -field FutureFrames
+### -field FutureFrames [in]
 
-[in] The number of future reference frames. This number must not be more than the number that the driver sets in the <b>FutureFrames</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpcaps">DXVAHDDDI_VPCAPS</a> structure.
+The number of future reference frames. This number must not be more than the number that the driver sets in the <b>FutureFrames</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpcaps">DXVAHDDDI_VPCAPS</a> structure.
 
-### -field pPastSurfaces
+### -field pPastSurfaces [in]
 
-[in] An array of <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_surface">DXVAHDDDI_SURFACE</a> structures that describe the past reference surfaces.
+An array of <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_surface">DXVAHDDDI_SURFACE</a> structures that describe the past reference surfaces.
 
-### -field InputSurface
+### -field InputSurface [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_surface">DXVAHDDDI_SURFACE</a> structure that describes the input surface.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_surface">DXVAHDDDI_SURFACE</a> structure that describes the input surface.
 
-### -field pFutureSurfaces
+### -field pFutureSurfaces [in]
 
-[in] An array of <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_surface">DXVAHDDDI_SURFACE</a> structures that describe the future reference surfaces.
+An array of <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_surface">DXVAHDDDI_SURFACE</a> structures that describe the future reference surfaces.
 
 ## -remarks
 

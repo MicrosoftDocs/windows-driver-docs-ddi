@@ -50,29 +50,29 @@ A miniport driver's <b>HwScsiWmiFunctionControl</b> routine is called to enable 
 
 ## -parameters
 
-### -param DeviceContext 
+### -param DeviceContext [in]
 
-[in]
+
 Points to the miniport driver-defined context value passed to <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>.
 
-### -param RequestContext 
+### -param RequestContext [in]
 
-[in]
+
 Points to a value containing an enumerator value of type <a href="/windows-hardware/drivers/ddi/scsiwmi/ns-scsiwmi-scsiwmi_request_context">SCSIWMI_REQUEST_CONTEXT</a> that the miniport driver passed to <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>.
 
-### -param GuidIndex 
+### -param GuidIndex [in]
 
-[in]
+
 Specifies the block by its index into the list of GUIDs in the SCSI_WMILIB_CONTEXT structure that the miniport driver passed to <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>.
 
-### -param Function 
+### -param Function [in]
 
-[in]
+
 Specifies <b>ScsiWmiEventControl</b> to enable or disable an event, or <b>ScsiWmiDataBlockControl</b> to enable or disable data collection for a block that was registered as expensive to collect (that is, a block for which the miniport driver set WMIREG_FLAG_EXPENSIVE in <b>Flags</b> of the SCSIWMIGUIDREGINFO structure used to register the block).
 
-### -param Enable 
+### -param Enable [in]
 
-[in]
+
 Specifies <b>TRUE</b> to enable the event or data collection, or <b>FALSE</b> to disable it.
 
 ## -returns

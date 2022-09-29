@@ -48,21 +48,21 @@ api_name:
 
 The <b>READ_PORT_BUFFER_ULONG</b> routine reads a number of ULONG values from the specified port address into a buffer.
 
-## -parameters
+### -parameters
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 Specifies the port address, which must be a mapped memory range in I/O space.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Pointer to a buffer into which an array of ULONG values is read.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of ULONG values to be read into the buffer.
 
 ## -returns

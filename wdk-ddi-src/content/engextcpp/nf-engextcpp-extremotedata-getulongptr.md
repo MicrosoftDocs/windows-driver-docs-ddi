@@ -47,8 +47,6 @@ api_name:
 
 The <b>GetUlongPtr</b> method returns an unsigned integer version (extended to ULONG64) of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory. The size of the unsigned integer from the target is the same size as a pointer on the target.
 
-## -parameters
-
 ## -returns
 
 <b>GetUlongPtr</b> returns an unsigned integer version of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, extended to ULONG64.

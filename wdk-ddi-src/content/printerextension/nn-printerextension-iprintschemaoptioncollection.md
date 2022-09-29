@@ -2,16 +2,15 @@
 UID: NN:printerextension.IPrintSchemaOptionCollection
 title: IPrintSchemaOptionCollection (printerextension.h)
 description: Exposes a collection of IPrintSchemaOption objects.
-old-location: print\iprintschemaoptioncollection.htm
 tech.root: print
-ms.date: 09/21/2020
+ms.date: 08/04/2022
 keywords: ["IPrintSchemaOptionCollection interface"]
 ms.keywords: IPrintSchemaOptionCollection, IPrintSchemaOptionCollection interface [Print Devices], IPrintSchemaOptionCollection interface [Print Devices],described, print.iprintschemaoptioncollection, printerextension/IPrintSchemaOptionCollection
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,13 +39,9 @@ api_name:
  - IPrintSchemaOptionCollection
 ---
 
-# IPrintSchemaOptionCollection interface
-
 ## -description
 
 Exposes a collection of [IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md) objects.
-
-## -inheritance
 
 ## -see-also
 

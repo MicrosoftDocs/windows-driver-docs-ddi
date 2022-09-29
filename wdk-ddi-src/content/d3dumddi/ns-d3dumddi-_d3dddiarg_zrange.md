@@ -52,13 +52,13 @@ The D3DDDIARG_ZRANGE structure specifies z-range minimum and maximum values.
 
 ## -struct-fields
 
-### -field MinZ
+### -field MinZ [in]
 
-[in] A FLOAT value that indicates the minimum z value for the range.
+A FLOAT value that indicates the minimum z value for the range.
 
-### -field MaxZ
+### -field MaxZ [in]
 
-[in] A FLOAT value that indicates the maximum z value for the range.
+A FLOAT value that indicates the maximum z value for the range.
 
 ## -see-also
 

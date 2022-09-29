@@ -53,14 +53,14 @@ api_name:
 
 <p>On input, this parameter contains a pointer to an uninitialized RDBSS transport with which this transport name is to be associated. On output when this call is successful, the transport is associated with the specified transport name and the transport is properly initialized.</p>
 
-### -param pTransportName 
+### -param pTransportName [in]
 
-[in]
+
 A pointer to the Unicode binding string for the desired transport.
 
-### -param QualityOfService 
+### -param QualityOfService [in]
 
-[in]
+
 The quality of service desired from the transport.
 
 ## -returns

@@ -2,15 +2,14 @@
 UID: NF:printerextension.IPrintSchemaAsyncOperationEvent.Completed
 title: IPrintSchemaAsyncOperationEvent::Completed (printerextension.h)
 description: Is called when asynchronous PrintSchema operation that is represented by an IPrintSchemaAsyncOperation context is completed.
-old-location: print\iprintschemaasyncoperationevent_completed.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrintSchemaAsyncOperationEvent::Completed"]
 ms.keywords: Completed, Completed method [Print Devices], Completed method [Print Devices],IPrintSchemaAsyncOperationEvent interface, IPrintSchemaAsyncOperationEvent interface [Print Devices],Completed method, IPrintSchemaAsyncOperationEvent.Completed, IPrintSchemaAsyncOperationEvent::Completed, print.iprintschemaasyncoperationevent_completed, printerextension/IPrintSchemaAsyncOperationEvent::Completed
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,38 +39,30 @@ api_name:
  - IPrintSchemaAsyncOperationEvent::Completed
 ---
 
-# IPrintSchemaAsyncOperationEvent::Completed
-
-
 ## -description
 
-Is called when asynchronous PrintSchema operation that is represented by an <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperation">IPrintSchemaAsyncOperation</a> context is completed.
+Is called when asynchronous PrintSchema operation that is represented by an [IPrintSchemaAsyncOperation](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperation) context is completed.
 
 ## -parameters
 
-### -param pTicket 
+### -param pTicket [in]
 
-[in]
 The print ticket.
 
-### -param hrOperation 
+### -param hrOperation [in]
 
-[in]
 The result of the completed operation.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -remarks
 
-The print ticket passed to the <b>Completed</b> method is the final validated, merged, or committed print ticket.
+The print ticket passed to the **Completed** method is the final validated, merged, or committed print ticket.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperationevent">IPrintSchemaAsyncOperationEvent</a>
+[IPrintSchemaAsyncOperationEvent](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperationevent)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
-
+[IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)

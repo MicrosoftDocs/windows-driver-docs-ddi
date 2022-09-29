@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrintSchemaParameterInitializer.get_Value
 title: IPrintSchemaParameterInitializer::get_Value (printerextension.h)
 description: The Value (get_Value) property gets the current value of the IPrintSchemaParameterInitializer object.
-old-location: print\iprintschemaparameterinitializer_getvalue.htm
 tech.root: print
-ms.date: 10/01/2020
+ms.date: 08/03/2022
 keywords: ["IPrintSchemaParameterInitializer::get_Value"]
 ms.keywords: IPrintSchemaParameterInitializer interface [Print Devices],Value property, IPrintSchemaParameterInitializer,get_Value, IPrintSchemaParameterInitializer.Value, IPrintSchemaParameterInitializer.get_Value, IPrintSchemaParameterInitializer::Value, IPrintSchemaParameterInitializer::get_Value, Value property [Print Devices], Value property [Print Devices],IPrintSchemaParameterInitializer interface, get_Value, print.iprintschemaparameterinitializer_getvalue, printerextension/IPrintSchemaParameterInitializer::Value, printerextension/IPrintSchemaParameterInitializer::get_Value
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,9 +39,6 @@ api_name:
  - IPrintSchemaParameterInitializer::get_Value
 ---
 
-# IPrintSchemaParameterInitializer::get_Value
-
-
 ## -description
 
 The **Value** (get_Value) property gets the current value of the [IPrintSchemaParameterInitializer](nn-printerextension-iprintschemaparameterinitializer.md) object.
@@ -52,6 +48,14 @@ The **Value** (get_Value) property gets the current value of the [IPrintSchemaPa
 This property is read-only.
 
 ## -parameters
+
+### -param pVar
+
+Defines the **VARIANT** parameter *pVar*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -remarks
 
@@ -66,4 +70,3 @@ The **Value** (get_Value) property returns the current value of the **IPrintSche
 ## -see-also
 
 [IPrintSchemaParameterInitializer](nn-printerextension-iprintschemaparameterinitializer.md)
-

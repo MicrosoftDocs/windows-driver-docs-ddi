@@ -49,24 +49,24 @@ The <b>AgpCommitVirtual</b> function maps reserved virtual memory to an associat
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the device extension of the miniport driver'.
 
-### -param VirtualReserveContext 
+### -param VirtualReserveContext [in]
 
-[in]
+
 Identifies a reserved virtual address range. The context handle was obtained from <a href="/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_virtual">AgpReserveVirtual</a>.
 
-### -param Pages 
+### -param Pages [in]
 
-[in]
+
 Specifies the number of pages of virtual memory to map.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the page offset at which to commit the pages. The offset is applied to the reserved virtual address range that is identified by <b>VirtualReserveContext</b>.
 
 ## -returns

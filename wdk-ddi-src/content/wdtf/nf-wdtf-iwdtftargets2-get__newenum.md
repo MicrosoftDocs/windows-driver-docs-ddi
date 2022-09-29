@@ -50,8 +50,6 @@ loop structure implicitly uses.
 
 This property is read-only.
 
-## -parameters
-
 ## -remarks
 
 You cannot access the <b>_NewEnum</b> property from the 

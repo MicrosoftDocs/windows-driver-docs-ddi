@@ -4,13 +4,13 @@ title: FltQueueDeferredIoWorkItem function (fltkernel.h)
 description: The FltQueueDeferredIoWorkItem routine posts an IRP-based I/O operation to a work queue.
 old-location: ifsk\fltqueuedeferredioworkitem.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 04/18/2022
 keywords: ["FltQueueDeferredIoWorkItem function"]
 ms.keywords: FltApiRef_p_to_z_df42429d-485c-4c28-a9e7-b334d7ad52d7.xml, FltQueueDeferredIoWorkItem, FltQueueDeferredIoWorkItem routine [Installable File System Drivers], fltkernel/FltQueueDeferredIoWorkItem, ifsk.fltqueuedeferredioworkitem
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available in Microsoft Windows 2000 and later versions of all Windows operating systems.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,245 +42,115 @@ api_name:
 
 # FltQueueDeferredIoWorkItem function
 
-
 ## -description
 
-The <b>FltQueueDeferredIoWorkItem</b> routine posts an IRP-based I/O operation to a work queue.
+The **FltQueueDeferredIoWorkItem** routine posts an IRP-based I/O operation to a work queue.
 
 ## -parameters
 
-### -param FltWorkItem 
+### -param FltWorkItem [in]
 
-[in]
-A pointer to the work item to add to the work queue. The work item must have been allocated by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatedeferredioworkitem">FltAllocateDeferredIoWorkItem</a>.
+A pointer to the work item to add to the work queue. The work item must have been allocated by calling [**FltAllocateDeferredIoWorkItem**](nf-fltkernel-fltallocatedeferredioworkitem.md).
 
-### -param Data 
+### -param Data [in]
 
-[in]
-A pointer to the callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation. The operation must be an IRP-based I/O operation. To determine whether a given callback data structure represents an IRP-based I/O operation, use the <a href="/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a> macro.
+A pointer to the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure for the I/O operation. The operation must be an IRP-based I/O operation. To determine whether a given callback data structure represents an IRP-based I/O operation, use the [**FLT_IS_IRP_OPERATION**](/previous-versions/ff544654(v=vs.85)) macro.
 
-### -param WorkerRoutine 
+### -param WorkerRoutine [in]
 
-[in]
-A pointer to a caller-supplied worker routine. This routine is declared as follows: 
+A pointer to a caller-supplied worker callback routine. This routine is declared as follows:
 
-
-```
+``` C
 typedef VOID
 (*PFLT_DEFERRED_IO_WORKITEM_ROUTINE) (
-      _in PFLT_DEFERRED_IO_WORKITEM  FltWorkItem,
-      __in PFLT_CALLBACK_DATA  CallbackData,
-      __in_opt PVOID  Context
-      );
+    _In_ PFLT_DEFERRED_IO_WORKITEM FltWorkItem,
+    _In_ PFLT_CALLBACK_DATA CallbackData,
+    _In_opt_ PVOID Context
+    );
 ```
 
+where:
 
+* **FltWorkItem** is an opaque pointer to a deferred work item structure.
+* **CallbackData** is a pointer to the callback data structure for the I/O operation.
+* **Context** is an optional context information pointer that was passed as the **Context** parameter of **FltQueueDeferredIoWorkItem**.
 
+### -param QueueType [in]
 
+Specifies the queue into which the work item that **FltWorkItem** points to is to be inserted. **QueueType** can be one of the following values.
 
-#### FltWorkItem
+| Value | Meaning |
+| ----- | ------- |
+| **CriticalWorkQueue** | Insert the work item into the queue from which a system thread with a real-time priority attribute processes the work item. |
+| **DelayedWorkQueue**  | Insert the work item into the queue from which a system thread with a variable priority attribute processes the work item. |
 
-An opaque pointer to a deferred work item structure. 
+The **QueueType** value **HyperCriticalWorkQueue** is reserved for system use.
 
+### -param Context [in]
 
-
-#### CallbackData
-
-A pointer to the callback data structure for the I/O operation. 
-
-
-
-#### Context
-
-An optional context information pointer that was passed as the <i>Context</i> parameter of <b>FltQueueDeferredIoWorkItem</b>.
-
-### -param QueueType 
-
-[in]
-This parameter specifies the queue into which the work item that <i>FltWorkItem</i> points to is to be inserted. <i>QueueType</i> can be either of the following. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-<b>CriticalWorkQueue</b>
-
-</td>
-<td>
-Insert the work item into the queue from which a system thread with a real-time priority attribute processes the work item. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>DelayedWorkQueue</b>
-
-</td>
-<td>
-Insert the work item into the queue from which a system thread with a variable priority attribute processes the work item. 
-
-</td>
-</tr>
-</table>
- 
-
-The <i>QueueType</i> value <b>HyperCriticalWorkQueue</b> is reserved for system use.
-
-### -param Context 
-
-[in]
-A pointer to caller-defined context information to be passed as the <i>Context</i> parameter of the callback routine specified in the <i>WorkerRoutine</i> parameter.
+A pointer to caller-defined context information to be passed as the **Context** parameter of the callback routine specified in the **WorkerRoutine** parameter.
 
 ## -returns
 
-The <b>FltQueueDeferredIoWorkItem</b> routine returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+The **FltQueueDeferredIoWorkItem** routine returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_DELETING_OBJECT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The target instance for the I/O operation (<i>Data->Iopb->TargetInstance</i>) is being torn down. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_NOT_SAFE_TO_POST_OPERATION</b></dt>
-</dl>
-</td>
-<td width="60%">
-The I/O operation cannot be posted safely to a worker thread. Possible reasons include the following: 
-
-<ul>
-<li>
-<b>FltQueueDeferredIoWorkItem</b> cannot post an I/O operation to a worker thread if the <b>TopLevelIrp</b> field of the current thread is not <b>NULL</b>, because the resulting file system recursion could cause deadlocks or stack overflows. (For more information, see <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogettoplevelirp">IoGetTopLevelIrp</a>.) 
-
-</li>
-<li>
-<b>FltQueueDeferredIoWorkItem</b> cannot post a paging I/O operation to a worker thread. 
-
-</li>
-</ul>
-STATUS_FLT_NOT_SAFE_TO_POST_OPERATION is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_FLT_DELETING_OBJECT | The target instance for the I/O operation (**Data->Iopb->TargetInstance**) is being torn down. This is an error code. |
+| STATUS_FLT_NOT_SAFE_TO_POST_OPERATION | The I/O operation cannot be posted safely to a worker thread. See Remarks for possible reasons why this error code is returned. |
 
 ## -remarks
 
-The <b>FltQueueDeferredIoWorkItem</b> routine posts an I/O operation to a system work queue. The specified <i>WorkerRoutine</i> callback routine is called in the context of a system thread, at IRQL PASSIVE_LEVEL. 
+The **FltQueueDeferredIoWorkItem** routine posts an I/O operation to a system work queue. The specified **WorkerRoutine** callback routine is called in the context of a system thread, at IRQL PASSIVE_LEVEL.
 
-The operation must be an IRP-based I/O operation. To determine whether a given callback data structure represents an IRP-based I/O operation, use the <a href="/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a> macro. 
+The operation must be an IRP-based I/O operation. To determine whether a given callback data structure represents an IRP-based I/O operation, use the [**FLT_IS_IRP_OPERATION**](/previous-versions/ff544654(v=vs.85)) macro.
 
-A minifilter driver can use <b>FltQueueDeferredIoWorkItem</b> in a preoperation callback (<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>) routine as follows: 
+**FltQueueDeferredIoWorkItem** returns STATUS_FLT_NOT_SAFE_TO_POST_OPERATION when the I/O operation cannot be posted safely to a worker thread. Possible reasons include the following:
 
-<ol>
-<li>
-The preoperation callback calls <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatedeferredioworkitem">FltAllocateDeferredIoWorkItem</a> to allocate the work item. 
+* **FltQueueDeferredIoWorkItem** cannot post a paging I/O operation to a worker thread.
 
-</li>
-<li>
-The preoperation callback calls <b>FltQueueDeferredIoWorkItem</b> to post the operation to the work queue. 
+* **FltQueueDeferredIoWorkItem** cannot post an I/O operation to a worker thread if the **TopLevelIrp** field of the current thread is not **NULL**, because the resulting file system recursion could cause deadlocks or stack overflows. For more information, see [**IoGetTopLevelIrp**](../ntifs/nf-ntifs-iogettoplevelirp.md).
 
-</li>
-<li>
-The preoperation callback returns FLT_PREOP_PENDING. 
+A minifilter driver can use **FltQueueDeferredIoWorkItem** in a preoperation callback ([**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)) routine as follows:
 
-</li>
-<li>
-After processing the I/O operation, the work routine calls <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcompletependedpreoperation">FltCompletePendedPreOperation</a> to return the I/O operation to the Filter Manager. 
+1. The preoperation callback calls [**FltAllocateDeferredIoWorkItem**](nf-fltkernel-fltallocatedeferredioworkitem.md) to allocate the work item.
 
-</li>
-<li>
-The work routine calls <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreedeferredioworkitem">FltFreeDeferredIoWorkItem</a> to free the work item. 
+2. The preoperation callback calls **FltQueueDeferredIoWorkItem** to post the operation to the work queue.
 
-</li>
-</ol>
-A minifilter driver can use <b>FltQueueDeferredIoWorkItem</b> in a post-operation callback (<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>) routine as follows: 
+3. The preoperation callback returns FLT_PREOP_PENDING.
 
-<ol>
-<li>
-The post-operation callback calls <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatedeferredioworkitem">FltAllocateDeferredIoWorkItem</a> to allocate the work item. 
+4. After processing the I/O operation, the work routine calls [**FltCompletePendedPreOperation**](nf-fltkernel-fltcompletependedpreoperation.md) to return the I/O operation to the Filter Manager.
 
-</li>
-<li>
-The post-operation callback calls <b>FltQueueDeferredIoWorkItem</b> to post the operation to the work queue. 
+5. The work routine calls [**FltFreeDeferredIoWorkItem**](nf-fltkernel-fltfreedeferredioworkitem.md) to free the work item.
 
-</li>
-<li>
-The post-operation callback returns FLT_POSTOP_MORE_PROCESSING_REQUIRED. 
+A minifilter driver can use **FltQueueDeferredIoWorkItem** in a post-operation callback ([**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)) routine as follows:
 
-</li>
-<li>
-After processing the I/O operation, the work routine calls <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcompletependedpostoperation">FltCompletePendedPostOperation</a> to return the I/O operation to the Filter Manager. 
+1. The post-operation callback calls [**FltAllocateDeferredIoWorkItem**](nf-fltkernel-fltallocatedeferredioworkitem.md) to allocate the work item.
 
-</li>
-</ol>
-The work routine calls <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreedeferredioworkitem">FltFreeDeferredIoWorkItem</a> to free the work item. 
+2. The post-operation callback calls **FltQueueDeferredIoWorkItem** to post the operation to the work queue.
 
-<div class="alert"><b>Caution</b>  
-     To avoid deadlocks, a minifilter must not post an I/O operation to a system work queue in the post-operation callback for any I/O operations that a driver can complete  directly in the storage stack, such as the following:<ul>
-<li>
-IRP_MJ_READ
+3. The post-operation callback returns FLT_POSTOP_MORE_PROCESSING_REQUIRED.
 
-</li>
-<li>
-IRP_MJ_WRITE
+4. After processing the I/O operation, the work routine calls [**FltCompletePendedPostOperation**](nf-fltkernel-fltcompletependedpostoperation.md) to return the I/O operation to the Filter Manager.
 
-</li>
-<li>
-IRP_MJ_FLUSH_BUFFERS
-
-</li>
-</ul>
-</div>
-<div> </div>
+The work routine calls [**FltFreeDeferredIoWorkItem**](nf-fltkernel-fltfreedeferredioworkitem.md) to free the work item.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
+[**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)
 
+[**FLT_IS_IRP_OPERATION**](/previous-versions/ff544654(v=vs.85))
 
+[**FltAllocateDeferredIoWorkItem**](nf-fltkernel-fltallocatedeferredioworkitem.md)
 
-<a href="/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a>
+[**FltCompletePendedPostOperation**](nf-fltkernel-fltcompletependedpostoperation.md)
 
+[**FltCompletePendedPreOperation**](nf-fltkernel-fltcompletependedpreoperation.md)
 
+[**FltFreeDeferredIoWorkItem**](nf-fltkernel-fltfreedeferredioworkitem.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatedeferredioworkitem">FltAllocateDeferredIoWorkItem</a>
+[**IoGetTopLevelIrp**](../ntifs/nf-ntifs-iogettoplevelirp.md)
 
+[**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)
 
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcompletependedpostoperation">FltCompletePendedPostOperation</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcompletependedpreoperation">FltCompletePendedPreOperation</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreedeferredioworkitem">FltFreeDeferredIoWorkItem</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogettoplevelirp">IoGetTopLevelIrp</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>
+[**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)

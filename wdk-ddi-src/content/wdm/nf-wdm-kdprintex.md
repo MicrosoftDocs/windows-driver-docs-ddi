@@ -55,11 +55,6 @@ A call to <b>KdPrintEx</b> requires double parentheses.
 
 Specifies arguments for the format string, as in <b>printf</b>.
 
-
-#### - arguments
-
-Specifies arguments for the format string, as in <b>printf</b>.
-
 ## -remarks
 
 <b>KdPrintEx</b> is identical to the <b>DbgPrintEx</b> routine in code that is compiled for a debug configuration. This routine has no effect in code that is compiled for a release build. Only kernel-mode drivers can call the <b>KdPrintEx</b> routine.<div class="alert"><b>Note</b>  The Windows Driver Kit (WDK) 8 and WDK 7 manage the <b>DBG</b> preprocessor constant define appropriately for debug (check) and release (free) builds. For more information, see <a href="/windows-hardware/drivers/devtest/conditional-compilation-and-the-build-environment">Conditional Compilation and the Build Environment</a>.</div>

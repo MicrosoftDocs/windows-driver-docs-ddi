@@ -54,9 +54,9 @@ api_name:
 
 ## -parameters
 
-### -param Interrupt 
+### -param Interrupt [in]
 
-[in]
+
 A handle to a framework interrupt object.
 
 ## -remarks

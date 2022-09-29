@@ -2,9 +2,8 @@
 UID: NF:strmini.StreamClassStreamNotification
 title: StreamClassStreamNotification function (strmini.h)
 description: Streams use the StreamClassStreamNotification routine to notify the class driver that it has completed a stream request, or that an event has occurred.
-old-location: stream\streamclassstreamnotification.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/22/2022
 keywords: ["StreamClassStreamNotification function"]
 ms.keywords: StreamClassStreamNotification, StreamClassStreamNotification routine [Streaming Media Devices], strclass-routines_22bc1b48-b75e-4dce-9aae-16e16b1ca1f9.xml, stream.streamclassstreamnotification, strmini/StreamClassStreamNotification
 req.header: strmini.h
@@ -41,89 +40,50 @@ api_name:
  - StreamClassStreamNotification
 ---
 
-# StreamClassStreamNotification function
-
-
 ## -description
 
-Streams use the <b>StreamClassStreamNotification</b> routine to notify the class driver that it has completed a stream request, or that an event has occurred.
+Streams use the **StreamClassStreamNotification** routine to notify the class driver that it has completed a stream request, or that an event has occurred.
 
 ## -parameters
 
-### -param NotificationType 
+### -param NotificationType [in]
 
-[in]
 This is an enumeration value that contains the type of notification that the minidriver is sending.
-
-
-
-
 
 #### StreamRequestComplete
 
-Indicates that the minidriver has completed its handling of the stream-oriented stream request block that is pointed to by the optional third argument of this routine, <i>pSrb</i>.
-
-
+Indicates that the minidriver has completed its handling of the stream-oriented stream request block that is pointed to by an optional argument of this routine.
 
 #### ReadyForNextStreamDataRequest
 
-Indicates that this stream is ready to receive another data request. 
-
-
+Indicates that this stream is ready to receive another data request.
 
 #### ReadyForNextStreamControlRequest
 
-Indicates that this stream is ready to receive another control request. 
-
-
+Indicates that this stream is ready to receive another control request.
 
 #### SignalStreamEvent
 
-Signals that the event specified by the <i>EventEntry</i> parameter has occurred.
-
-
+Signals that the event specified by an optional argument has occurred.
 
 #### SignalMultipleStreamEvents
 
-Signals that all events that match the criteria specified in the <i>EventSet</i> and <i>EventId</i> parameters have occurred.
-
-
+Signals that all events that match the criteria specified in optional arguments have occurred.
 
 #### DeleteStreamEvent
 
-Deletes the event specified by the <i>EventEntry</i> parameter.
+Deletes the event specified by an optional parameter.
 
-### -param StreamObject 
+### -param StreamObject [in]
 
-[in]
 Points to the stream object of the stream that the class driver is being notified about.
 
 ### -param ...
 
-#### - EventEntry
-
-Specify only if <i>NotificationType</i> equals either <b>SignalStreamEvent</b> or <b>DeleteStreamEvent</b>. Pointer to the event to be signaled or deleted. This parameter is optional. 
-
-
-#### - EventId
-
-Indicates the event ID against which to match in the event queue for this stream. Specify only if <i>NotificationType</i> equals <b>SignalMultipleStreamEvents</b>. This parameter is optional.
-
-
-#### - EventSet
-
-Identifies the event set against which to match in the event queue for this stream. Specify only if <i>NotificationType</i> equals <b>SignalMultipleStreamEvents</b>. This parameter is optional. 
-
-
-#### - pSrb
-
-Pointer to an <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a> structure. Specify only if <i>NotificationType</i> equals <b>StreamRequestComplete</b>. Pointer to the stream request block that the minidriver has completed processing. Once this routine completes, this address is no longer valid. This parameter is optional.
-
 ## -remarks
 
-The minidriver uses this routine for requests or events that apply to the minidriver as a whole. Stream-specific requests or events use <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassdevicenotification">StreamClassDeviceNotification</a>.
+The minidriver uses this routine for requests or events that apply to the minidriver as a whole. Stream-specific requests or events use [StreamClassDeviceNotification](./nf-strmini-streamclassdevicenotification.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassdevicenotification">StreamClassDeviceNotification</a>
-
+[StreamClassDeviceNotification](./nf-strmini-streamclassdevicenotification.md)

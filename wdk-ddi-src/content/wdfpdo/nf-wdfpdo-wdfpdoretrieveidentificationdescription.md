@@ -52,14 +52,14 @@ The <b>WdfPdoRetrieveIdentificationDescription</b> method retrieves the <a href=
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object that represents the device's physical device object (PDO).
 
-### -param IdentificationDescription 
+### -param IdentificationDescription [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated buffer that will receive the identification description. The identification description must contain a <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_identification_description_header">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure.
 
 ## -returns

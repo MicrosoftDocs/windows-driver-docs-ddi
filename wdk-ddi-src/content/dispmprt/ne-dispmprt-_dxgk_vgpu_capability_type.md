@@ -6,8 +6,6 @@ tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGK_VGPU_CAPABILITY_TYPE enumeration"]
 ms.keywords: _DXGK_VGPU_CAPABILITY_TYPE, DXGK_VGPU_CAPABILITY_TYPE,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: 

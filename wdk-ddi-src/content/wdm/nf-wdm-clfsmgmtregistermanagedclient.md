@@ -50,26 +50,19 @@ The <b>ClfsMgmtRegisterManagedClient</b> routine creates a client that will mana
 
 ## -parameters
 
-### -param LogFile 
+### -param LogFile [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log stream that the client created by <b>ClfsMgmtRegisterManagedClient</b> will manage.
 
-### -param RegistrationData 
+### -param RegistrationData [in]
 
-[in]
+
 An instance of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_client_registration">CLFS_MGMT_CLIENT_REGISTRATION</a> structure that contains the functions that will be used to manage the log.
 
 ### -param ClientCookie
 
 The cookie we give back to the caller for future use of the API.
-
-
-
-
-#### - Client [out]
-
-A pointer to the client.
 
 ## -returns
 

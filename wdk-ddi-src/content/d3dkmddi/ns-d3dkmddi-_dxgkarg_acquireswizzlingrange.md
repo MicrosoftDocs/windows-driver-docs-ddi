@@ -52,29 +52,29 @@ The DXGKARG_ACQUIRESWIZZLINGRANGE structure describes parameters for making an a
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [in]
 
-[in] A handle to the allocation that the display miniport driver assigned and that is returned through its <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a> function.
+A handle to the allocation that the display miniport driver assigned and that is returned through its <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a> function.
 
-### -field PrivateDriverData
+### -field PrivateDriverData [in]
 
-[in] A UINT value of private data that the user-mode display driver sends when it calls the Microsoft Direct3D runtime's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a> function. The private data should be an index that lets the display miniport driver determine the accessible part of the allocation (for example, the MIP level). This member should not contain a pointer.
+A UINT value of private data that the user-mode display driver sends when it calls the Microsoft Direct3D runtime's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a> function. The private data should be an index that lets the display miniport driver determine the accessible part of the allocation (for example, the MIP level). This member should not contain a pointer.
 
-### -field RangeId
+### -field RangeId [in]
 
-[in] The zero-based identifier of the swizzling range that the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_acquireswizzlingrange">DxgkDdiAcquireSwizzlingRange</a> function programs.
+The zero-based identifier of the swizzling range that the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_acquireswizzlingrange">DxgkDdiAcquireSwizzlingRange</a> function programs.
 
-### -field SegmentId
+### -field SegmentId [in]
 
-[in] The identifier of a segment in which the allocation is currently paged.
+The identifier of a segment in which the allocation is currently paged.
 
-### -field RangeSize
+### -field RangeSize [in]
 
-[in] The size, in bytes, of the range to acquire. This range size is identical to the size of the allocation that <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_acquireswizzlingrange">DxgkDdiAcquireSwizzlingRange</a> acquires a range for. The driver can modify the value in <b>RangeSize</b> when the <b>UseAlternateVA</b> bit-field flag is specified in the <b>Flags</b> member of the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddicb_lockflags">D3DDDICB_LOCKFLAGS</a> structure in a call to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a> function. If the <b>UseAlternateVA</b> flag is not specified, the driver cannot change <b>RangeSize</b>.
+The size, in bytes, of the range to acquire. This range size is identical to the size of the allocation that <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_acquireswizzlingrange">DxgkDdiAcquireSwizzlingRange</a> acquires a range for. The driver can modify the value in <b>RangeSize</b> when the <b>UseAlternateVA</b> bit-field flag is specified in the <b>Flags</b> member of the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddicb_lockflags">D3DDDICB_LOCKFLAGS</a> structure in a call to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a> function. If the <b>UseAlternateVA</b> flag is not specified, the driver cannot change <b>RangeSize</b>.
 
-### -field CPUTranslatedAddress
+### -field CPUTranslatedAddress [in/out]
 
-[in/out] The base physical address where the CPU should map the allocation. The display miniport driver must set this information when a call to its <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_acquireswizzlingrange">DxgkDdiAcquireSwizzlingRange</a> function succeeds.
+The base physical address where the CPU should map the allocation. The display miniport driver must set this information when a call to its <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_acquireswizzlingrange">DxgkDdiAcquireSwizzlingRange</a> function succeeds.
 
 ## -see-also
 

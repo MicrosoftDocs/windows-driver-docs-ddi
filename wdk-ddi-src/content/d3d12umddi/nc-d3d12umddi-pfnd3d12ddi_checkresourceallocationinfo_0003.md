@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0003
 title: PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0003 (d3d12umddi.h)
 description: The PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0003 callback function checks resource allocation information.
-ms.date: 10/19/2018
+ms.date: 05/24/2022
 keywords: ["PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0003 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
@@ -43,22 +43,21 @@ dev_langs:
 
 # PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0003 callback function
 
-
 ## -description
 
-The pfnCheckResourceAllocationInfo callback function supports checking resource allocation information.
+The **PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0003** callback function supports checking resource allocation information.
 
 ## -parameters
 
-### -param D3D12DDI_HDEVICE  
+### -param unnamedParam1  
 
-A handle to the display device (graphics context).
+[in] A handle to the display device (graphics context).
 
 ### -param unnamedParam2
 
-Pointer to a D3D12DDIARG_CREATERESOURCE_0003 structure.
+[in] Pointer to a D3D12DDIARG_CREATERESOURCE_0003 structure.
 
-### -param D3D12DDI_RESOURCE_OPTIMIZATION_FLAGS
+### -param unnamedParam3
 
 Resource optimization flags.
 
@@ -72,7 +71,7 @@ Indicates the visible node mask.
 
 ### -param unnamedParam6
 
-Pointer to a D3D12DDI_RESOURCE_ALLOCATION_INFO structure.
+[out] Pointer to a D3D12DDI_RESOURCE_ALLOCATION_INFO structure.
 
 ## -prototype
 
@@ -98,4 +97,3 @@ PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0003
 
 
 ```
-

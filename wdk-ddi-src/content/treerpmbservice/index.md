@@ -6,8 +6,6 @@ ms.assetid: d533804f-f73d-32e6-aad0-ff62f2f926b7
 ms.date: 11/20/2020
 keywords: ["Treerpmbservice.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: treedrv
 ms.custom: RS5

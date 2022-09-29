@@ -18,7 +18,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
@@ -45,10 +45,10 @@ The **PsAllocateAffinityToken** function allocates a thread affinity token. Afte
 
 ## -parameters
 
-### -param AffinityToken
+### -param AffinityToken [out]
 
-[out]
-Supplies a pointer to a buffer which, on success, receives a pointer to the newly allocate affinity token.
+
+Supplies a pointer to a buffer which, on success, receives a pointer to the newly allocated affinity token.
 
 ## -returns
 

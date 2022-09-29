@@ -50,19 +50,19 @@ The <b><i>AtaChannelInitRoutine</i></b> miniport driver routine initializes the 
 
 ## -parameters
 
-### -param ChannelExtension 
+### -param ChannelExtension [in]
 
-[in]
+
 A pointer to the miniport driver channel extension.
 
-### -param ChannelInterface 
+### -param ChannelInterface [in, out]
 
-[in, out]
+
 A pointer to a structure of type <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_channel_interface">IDE_CHANNEL_INTERFACE</a>.
 
 ### -param InitContext
 
-#### - Context [in, out]
+### -param Context [in, out]
 
 A pointer to the controller extension.
 

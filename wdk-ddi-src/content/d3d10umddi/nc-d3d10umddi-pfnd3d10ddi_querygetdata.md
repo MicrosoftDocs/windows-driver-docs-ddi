@@ -69,13 +69,13 @@ A handle to the query object to poll.
 
 A pointer to a region of memory that receives the data from a query operation. The user-mode display driver can set <i>pData</i> to <b>NULL</b> and set the <i>DataSize</i> parameter to zero. If <i>pData</i> is <b>NULL</b>, <i>QueryGetData</i> can indicate the state of the query operation (for example, whether the query operation is finished).
 
-### -param DataSize
+### -param DataSize [out]
 
-[out] The size, in bytes, of the query data that the <i>pData</i> parameter points to. The user-mode display driver can set <i>DataSize</i> to zero and set <i>pData</i> to <b>NULL</b>. If <i>DataSize</i> is zero, <i>QueryGetData</i> can indicate the state of the query operation (for example, through return codes).
+The size, in bytes, of the query data that the <i>pData</i> parameter points to. The user-mode display driver can set <i>DataSize</i> to zero and set <i>pData</i> to <b>NULL</b>. If <i>DataSize</i> is zero, <i>QueryGetData</i> can indicate the state of the query operation (for example, through return codes).
 
-### -param Flags
+### -param Flags [in]
 
-[in] D3D10_DDI_GET_DATA_FLAG flags.
+D3D10_DDI_GET_DATA_FLAG flags.
 
 ## -remarks
 

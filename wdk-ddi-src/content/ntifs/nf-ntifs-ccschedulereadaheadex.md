@@ -49,24 +49,24 @@ The <b>CcScheduleReadAheadEx</b> routine performs read-ahead (also called "lazy 
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to a file object for the file on which read-ahead is to be performed.
 
-### -param FileOffset 
+### -param FileOffset [in]
 
-[in]
+
 Pointer to a variable that specifies the starting byte offset within the cached file where the last read occurred.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Length in bytes of the range that was last read.
 
-### -param IoIssuerThread 
+### -param IoIssuerThread [in]
 
-[in]
+
 The thread issuing the read ahead request. For a file system with disk I/O accounting enabled, this is the thread the I/O is charged to. If <i>IoIssuerThread</i> is NULL, the I/O is charged to the current thread.
 
 ## -remarks

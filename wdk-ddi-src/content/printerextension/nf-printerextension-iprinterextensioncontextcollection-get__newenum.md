@@ -1,17 +1,16 @@
 ---
 UID: NF:printerextension.IPrinterExtensionContextCollection.get__NewEnum
 title: IPrinterExtensionContextCollection::get__NewEnum method (printerextension.h)
-description: Gets a pointer to the enumerants of IPrinterExtensionContextCollection objects.
-old-location: print\iprinterextensioncontextcollection_newenum.htm
+description: Gets a pointer to the enumerants of IPrinterExtensionContextCollection objects
 tech.root: print
-ms.date: 02/26/2018
+ms.date: 07/29/2022
 keywords: ["IPrinterExtensionContextCollection::get__NewEnum method"]
 ms.keywords: IPrinterExtensionContextCollection, IPrinterExtensionContextCollection interface [Print Devices], NewEnum method, IPrinterExtensionContextCollection,get_NewEnum, NewEnum, IPrinterExtensionContextCollection::NewEnum, IPrinterExtensionContextCollection::get__NewEnum, NewEnum method [Print Devices], NewEnum method [Print Devices], IPrinterExtensionContextCollection interface, get__NewEnum,IPrinterExtensionContextCollection.get__NewEnum, print.iprinterextensioncontextcollection_newenum, printerextension/IPrinterExtensionContextCollection::NewEnum
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,7 +25,7 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.product: Windows 10 or later.
 f1_keywords:
  - IPrinterExtensionContextCollection::get__NewEnum
  - printerextension/IPrinterExtensionContextCollection::get__NewEnum
@@ -41,24 +40,20 @@ api_name:
  - IPrinterExtensionContextCollection::get__NewEnum
 ---
 
-# IPrinterExtensionContextCollection::get__NewEnum method
-
-
 ## -description
 
-Gets a pointer to the enumerants of <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a> objects.
+Gets a pointer to the enumerants of [IPrinterExtensionContextCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection) objects.
 
 ## -parameters
 
-### -param ppUnk 
+### -param ppUnk [out, retval]
 
-[out, retval]
+Defines the **IUnknown** parameter *ppUnk*.
 
 ## -returns
 
-Returns an <b>HRESULT</b> value. If the property call was not successful,  it returns the appropriate <b>HRESULT</b> error code.
+Returns an **HRESULT** value. If the property call was not successful,  it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a>
-
+[IPrinterExtensionContextCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection)

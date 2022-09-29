@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param ThisNetRoot 
+### -param ThisNetRoot [out]
 
-[out]
+
 A pointer to the NET_ROOT structure to finalize.
 
-### -param RecursiveFinalize 
+### -param RecursiveFinalize [in]
 
-[in]
+
 The value indicating whether the finalization should be done recursively.
 
-### -param ForceFinalize 
+### -param ForceFinalize [in]
 
-[in]
+
 The value indicating whether the finalization should be forced, regardless of the reference count. 
 
 If <i>ForceFinalize</i> is <b>FALSE</b>, then the <b>NodeReferenceCount</b> member of the NET_ROOT strcuture pointed to by <i>ThisNetRoot </i>must be 1 for the NET_ROOT to be finalized.

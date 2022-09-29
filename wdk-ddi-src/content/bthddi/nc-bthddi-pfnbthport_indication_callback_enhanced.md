@@ -50,24 +50,24 @@ Profile drivers implement an enhanced L2CAP callback function to provide the Blu
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 For
      changes to existing L2CAP connections, this is the 
      <b>CallbackContext</b> member specified by the profile driver when it built and sent a 
      <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_enhanced_channel">_BRB_L2CA_OPEN_ENHANCED_CHANNEL</a> structure.
 
-### -param Indication 
+### -param Indication [in]
 
-[in]
+
 An 
      <a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_indication_code">INDICATION_CODE</a> value that indicates the type
      of L2CAP event.
 
-### -param Parameters 
+### -param Parameters [in]
 
-[in]
+
 An 
      <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_indication_parameters_enhanced">INDICATION_PARAMETERS_ENHANCED</a> structure that
      contains event-specific parameters.

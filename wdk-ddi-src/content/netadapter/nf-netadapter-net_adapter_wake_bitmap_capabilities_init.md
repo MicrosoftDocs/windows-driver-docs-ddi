@@ -3,7 +3,7 @@ UID: NF:netadapter.NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT
 title: NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT function (netadapter.h)
 description: The NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT function initializes a NET_ADAPTER_WAKE_BITMAP_CAPABILITIES structure.
 tech.root: netvista
-ms.date: 10/24/2019
+ms.date: 03/30/2022
 keywords: ["NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT
 req.header: netadapter.h
@@ -49,13 +49,9 @@ The **NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT** function initializes a [**NET_
 
 ## -parameters
 
-### -param Capabilities
+### -param Capabilities [_Out_]
 
 A pointer to a client driver-allocated [*NET_ADAPTER_WAKE_BITMAP_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_wake_bitmap_capabilities.md) structure.
-
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

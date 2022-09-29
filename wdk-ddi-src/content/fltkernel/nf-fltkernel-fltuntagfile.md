@@ -49,24 +49,24 @@ api_name:
 
 ## -parameters
 
-### -param InitiatingInstance 
+### -param InitiatingInstance [in]
 
-[in]
+
 Opaque instance pointer for the minifilter driver instance that initiated this I/O request. This parameter is required and cannot be <b>NULL</b>.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to a file object for the file or directory from which the reparse point is to be removed. The file object must be opened for FILE_WRITE_DATA access. This parameter is required and cannot be <b>NULL</b>.
 
-### -param FileTag 
+### -param FileTag [in]
 
-[in]
+
 Reparse point tag. The tag specified in this parameter must match the tag of the reparse point to be removed.
 
-### -param Guid 
+### -param Guid [in, optional]
 
-[in, optional]
+
 Globally unique identifier (GUID) that uniquely identifies the type of reparse point. If <i>FileTag</i> is not a Microsoft tag, this parameter is required and cannot be <b>NULL</b>. The GUID specified in this parameter must match the GUID of the reparse point to be removed.
 
 ## -returns

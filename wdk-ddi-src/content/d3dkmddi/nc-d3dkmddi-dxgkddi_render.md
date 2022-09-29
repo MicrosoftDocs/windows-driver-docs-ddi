@@ -50,15 +50,15 @@ The *DxgkDdiRender* function generates a direct memory access (DMA) buffer from 
 
 ## -parameters
 
-### -param hContext
+### -param hContext [in]
 
-[in] A handle to the device context for the DMA and command buffers. The display miniport driver's [DxgkDdiCreateContext](nc-d3dkmddi-dxgkddi_createcontext.md) function previously returned this handle in the **hContext** member of the [DXGKARG_CREATECONTEXT](ns-d3dkmddi-_dxgkarg_createcontext.md) structure that the *pCreateContext* parameter of *DxgkDdiCreateContext* points to.
+A handle to the device context for the DMA and command buffers. The display miniport driver's [DxgkDdiCreateContext](nc-d3dkmddi-dxgkddi_createcontext.md) function previously returned this handle in the **hContext** member of the [DXGKARG_CREATECONTEXT](ns-d3dkmddi-_dxgkarg_createcontext.md) structure that the *pCreateContext* parameter of *DxgkDdiCreateContext* points to.
 
 If the driver does not support context creation, the Microsoft DirectX graphics kernel subsystem replaces the handle to the context with a handle to the device. The display miniport driver's [DxgkDdiCreateDevice](nc-d3dkmddi-dxgkddi_createdevice.md) function previously returned the device handle in the **hDevice** member of the [DXGKARG_CREATEDEVICE](ns-d3dkmddi-_dxgkarg_createdevice.md) structure that the *pCreateDevice* parameter of *DxgkDdiCreateDevice* points to.
 
-### -param pRender
+### -param pRender [in/out]
 
-[in/out] A pointer to a [DXGKARG_RENDER](ns-d3dkmddi-_dxgkarg_render.md) structure that contains information about the DMA and command buffers.
+A pointer to a [DXGKARG_RENDER](ns-d3dkmddi-_dxgkarg_render.md) structure that contains information about the DMA and command buffers.
 
 ## -returns
 

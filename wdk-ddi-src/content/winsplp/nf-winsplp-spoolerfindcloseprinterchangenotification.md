@@ -1,10 +1,9 @@
 ---
 UID: NF:winsplp.SpoolerFindClosePrinterChangeNotification
 title: SpoolerFindClosePrinterChangeNotification function (winsplp.h)
-description: "Learn more about: SpoolerFindClosePrinterChangeNotification function"
-old-location: print\spoolerfindcloseprinterchangenotification.htm
+description: Describes the SpoolerFindClosePrinterChangeNotification function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/27/2022
 keywords: ["SpoolerFindClosePrinterChangeNotification function"]
 ms.keywords: SpoolerFindClosePrinterChangeNotification, SpoolerFindClosePrinterChangeNotification function [Print Devices], print.spoolerfindcloseprinterchangenotification, winsplp/SpoolerFindClosePrinterChangeNotification
 req.header: winsplp.h
@@ -40,14 +39,16 @@ api_name:
  - SpoolerFindClosePrinterChangeNotification
 ---
 
-# SpoolerFindClosePrinterChangeNotification function
-
-
 ## -description
+
+Describes the **SpoolerFindClosePrinterChangeNotification** function.
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
+Defines the **HANDLE** parameter *hPrinter*.
 
+## -returns
+
+Returns a **BOOL** value.

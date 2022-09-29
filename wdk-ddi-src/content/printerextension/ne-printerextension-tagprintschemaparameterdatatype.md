@@ -1,17 +1,16 @@
 ---
 UID: NE:printerextension.tagPrintSchemaParameterDataType
-title: tagPrintSchemaParameterDataType (printerextension.h)
+title: PrintSchemaParameterDataType (printerextension.h)
 description: The PrintSchemaParameterDataType enumeration identifies the allowed data types for the Print Schema parameter.
-old-location: print\tagprintschemaparameterdatatype.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/01/2022
 keywords: ["tagPrintSchemaParameterDataType enumeration"]
 ms.keywords: PrintSchemaParameterDataType, PrintSchemaParameterDataType enumeration [Print Devices], PrintSchemaParameterDataType_Integer, PrintSchemaParameterDataType_NumericString, PrintSchemaParameterDataType_String, print.tagprintschemaparameterdatatype, printerextension/PrintSchemaParameterDataType, printerextension/PrintSchemaParameterDataType_Integer, printerextension/PrintSchemaParameterDataType_NumericString, printerextension/PrintSchemaParameterDataType_String, tagPrintSchemaParameterDataType
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -43,9 +42,6 @@ api_name:
  - PrintSchemaParameterDataType
 ---
 
-# tagPrintSchemaParameterDataType enumeration
-
-
 ## -description
 
 The PrintSchemaParameterDataType enumeration identifies the allowed data types for the Print Schema parameter.
@@ -55,19 +51,18 @@ The PrintSchemaParameterDataType enumeration identifies the allowed data types f
 ### -field PrintSchemaParameterDataType_Integer
 
 Integer data type.
-This maps to the Print Schema’s IntegerParamType parameters.
+This maps to the Print Schema's IntegerParamType parameters.
 
 ### -field PrintSchemaParameterDataType_NumericString
 
 String data type with only numeric chars allowed.
-This maps to the Print Schema’s StringParamType parameters, with UnitType = “numeric”.
+This maps to the Print Schema's StringParamType parameters, with UnitType = "numeric".
 
 ### -field PrintSchemaParameterDataType_String
 
 String data type with arbitrary chars allowed.
-This maps to the Print Schema’s StringParamType parameters, with UnitType not equal to “numeric”.
+This maps to the Print Schema's StringParamType parameters, with UnitType not equal to "numeric".
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaparameterdefinition-get_datatype">IPrintSchemaParameterDefinition::DataType</a>
-
+[IPrintSchemaParameterDefinition::DataType](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaparameterdefinition-get_datatype)

@@ -2,9 +2,8 @@
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvReadItemProperties
 title: IWiaMiniDrv::drvReadItemProperties (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvReadItemProperties method reads the driver item properties that need to be updated.
-old-location: image\iwiaminidrv_drvreaditemproperties.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 07/21/2022
 keywords: ["IWiaMiniDrv::drvReadItemProperties"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvReadItemProperties method, IWiaMiniDrv.drvReadItemProperties, IWiaMiniDrv::drvReadItemProperties, MiniDrv_515d9cc7-c76a-4a15-9cc1-59be834382fe.xml, drvReadItemProperties, drvReadItemProperties method [Imaging Devices], drvReadItemProperties method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvreaditemproperties, wiamindr_lh/IWiaMiniDrv::drvReadItemProperties
 req.header: wiamindr_lh.h
@@ -40,9 +39,6 @@ api_name:
  - IWiaMiniDrv::drvReadItemProperties
 ---
 
-# IWiaMiniDrv::drvReadItemProperties
-
-
 ## -description
 
 The **IWiaMiniDrv::drvReadItemProperties** method reads the driver item properties that need to be updated.
@@ -51,57 +47,37 @@ The **IWiaMiniDrv::drvReadItemProperties** method reads the driver item properti
 
 ### -param __MIDL__IWiaMiniDrv0025
 
-lFlags [in]
+*lFlags* [in]
 
-- Is reserved. Set to zero.
+Reserved. Set to zero.
 
 ### -param __MIDL__IWiaMiniDrv0026
 
-nPropSpec [in]
-
-- Indicates the number of items in the *pPropSpec* array.
-
-### -param __MIDL__IWiaMiniDrv0027
-
-pPropSpec [in]
-
-- Points to the first element of an array of [PROPSPEC](/windows/win32/api/propidlbase/ns-propidlbase-propspec) structures.
-
-### -param __MIDL__IWiaMiniDrv0028
-
-pWiasContext [in]
-
-- Pointer to a WIA item context.
-
-### -param __MIDL__IWiaMiniDrv0029
-
-plDevErrVal [out]
-
-- Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-#### - lFlags [in]
-
-Is reserved. Set to zero.
-
-#### - nPropSpec [in]
+*nPropSpec* [in]
 
 Indicates the number of items in the *pPropSpec* array.
 
-#### - pPropSpec [in]
+### -param __MIDL__IWiaMiniDrv0027
+
+*pPropSpec* [in]
 
 Points to the first element of an array of [PROPSPEC](/windows/win32/api/propidlbase/ns-propidlbase-propspec) structures.
 
-#### - pWiasContext [in]
+### -param __MIDL__IWiaMiniDrv0028
+
+*pWiasContext* [in]
 
 Pointer to a WIA item context.
 
-#### - plDevErrVal [out]
+### -param __MIDL__IWiaMiniDrv0029
 
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+*plDevErrVal* [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns **S_OK**, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 ## -returns
 
-On success, the method should return S_OK and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by *plDevErrVal*.
+On success, the method should return **S_OK** and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by *plDevErrVal*.
 
 The value pointed to by *plDevErrVal* can be converted to a string by calling [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md).
 
@@ -128,4 +104,3 @@ In this method, the minidriver should read the requested properties from the dev
 [wiasWritePropLong](../wiamdef/nf-wiamdef-wiaswriteproplong.md)
 
 [wiasWritePropStr](../wiamdef/nf-wiamdef-wiaswritepropstr.md)
-

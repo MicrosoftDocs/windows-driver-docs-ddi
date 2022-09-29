@@ -50,9 +50,9 @@ The <b>FltFreeFileLock</b> routine uninitializes and frees an initialized FILE_L
 
 ## -parameters
 
-### -param FileLock 
+### -param FileLock [in]
 
-[in]
+
 Pointer to the FILE_LOCK structure. This structure must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializefilelock">FltInitializeFileLock</a>.
 
 ## -returns

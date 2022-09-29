@@ -49,9 +49,9 @@ The <b>GetCurrentProcessUpTime</b> method returns the length of time the current
 
 ## -parameters
 
-### -param UpTime 
+### -param UpTime [out]
 
-[out]
+
 Receives the number of seconds the current process has been running.
 
 ## -returns

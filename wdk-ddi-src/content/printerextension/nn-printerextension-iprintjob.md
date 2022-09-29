@@ -3,14 +3,14 @@ UID: NN:printerextension.IPrintJob
 title: IPrintJob (printerextension.h)
 description: Contains properties that represent a print job.
 tech.root: print
-ms.date: 06/11/2021
+ms.date: 08/04/2022
 keywords: ["IPrintJob interface"]
 ms.keywords: IPrintJob, IPrintJob interface [Print Devices], IPrintJob interface [Print Devices],described, print.iprintjob, printerextension/IPrintJob
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -38,8 +38,6 @@ api_location:
 api_name:
  - IPrintJob
 ---
-
-# IPrintJob interface
 
 ## -description
 

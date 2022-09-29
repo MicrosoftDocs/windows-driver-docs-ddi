@@ -83,13 +83,6 @@ A pointer to a callback that is invoked whenever a new server silo is created on
 
 A pointer to a callback that is invoked whenever a server silo is terminated (about to be destroyed) on the system.  This value may be <b>NULL</b>.  This gives drivers the opportunity to complete work within the silo and begin tearing down their per-silo data structures.
 
-
-#### - DUMMYUNIONNAME
-
-Unnamed union.
-
-
-
 #### DriverObjectName
 
 A pointer to the unicode name for the driver object registering for notifications.

@@ -49,14 +49,14 @@ The <b>KsDeliver</b> method delivers a media sample from an output pin to an inp
 
 ## -parameters
 
-### -param Sample 
+### -param Sample [in]
 
-[in]
+
 Pointer to the <b>IMediaSample</b> interface for the associated media sample.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies a bitmask enumerating information about the stream header of the media sample. A bitwise OR combination of the following flags is possible:
 
 KSSTREAM_HEADER_OPTIONSF_SPLICEPOINT

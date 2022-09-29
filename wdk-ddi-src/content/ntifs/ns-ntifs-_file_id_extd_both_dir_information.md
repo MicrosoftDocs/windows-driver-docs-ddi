@@ -1,16 +1,16 @@
 ---
 UID: NS:ntifs._FILE_ID_EXTD_BOTH_DIR_INFORMATION
-title: _FILE_ID_EXTD_BOTH_DIR_INFORMATION (ntifs.h)
+title: FILE_ID_EXTD_BOTH_DIR_INFORMATION (ntifs.h)
 description: The FILE_ID_EXTD_BOTH_DIR_INFORMATION structure is used to query file reference number information for the files in a directory.
 old-location: ifsk\file_id_extd_both_dir_information.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/26/2022
 keywords: ["FILE_ID_EXTD_BOTH_DIR_INFORMATION structure"]
 ms.keywords: "*PFILE_ID_EXTD_BOTH_DIR_INFORMATION, FILE_ID_EXTD_BOTH_DIR_INFORMATION, FILE_ID_EXTD_BOTH_DIR_INFORMATION structure [Installable File System Drivers], PFILE_ID_EXTD_BOTH_DIR_INFORMATION, PFILE_ID_EXTD_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_ID_EXTD_BOTH_DIR_INFORMATION, ifsk.file_id_extd_both_dir_information, ntifs/FILE_ID_EXTD_BOTH_DIR_INFORMATION, ntifs/PFILE_ID_EXTD_BOTH_DIR_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 8.1 Update.
+req.target-min-winverclnt: Windows 8.1 Update
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -47,7 +47,6 @@ api_name:
 ---
 
 # FILE_ID_EXTD_BOTH_DIR_INFORMATION structure
-
 
 ## -description
 
@@ -132,7 +131,7 @@ Specifies the first character of the file name string. This is followed in memor
 
 This information can be queried in either of the following ways:
 
-* Call [**ZwQueryDirectoryFile**](/previous-versions/ff567047(v=vs.85)), passing **FileIdExtdBothDirectoryInformation** as the value of **FileInformationClass** and passing a caller-allocated, FILE_ID_EXTD_BOTH_DIR_INFORMATION-structured buffer as the value of **FileInformation**.
+* Call [**ZwQueryDirectoryFile**](nf-ntifs-zwqueryvirtualmemory.md), passing **FileIdExtdBothDirectoryInformation** as the value of **FileInformationClass** and passing a caller-allocated, FILE_ID_EXTD_BOTH_DIR_INFORMATION-structured buffer as the value of **FileInformation**.
 
 * Create an IRP with major function code [IRP_MJ_DIRECTORY_CONTROL](/windows-hardware/drivers/ifs/irp-mj-directory-control) and minor function code IRP_MN_QUERY_DIRECTORY.
 
@@ -150,5 +149,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 [IRP_MJ_DIRECTORY_CONTROL](/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
-[**ZwQueryDirectoryFile**](/previous-versions/ff567047(v=vs.85))
-
+[**ZwQueryDirectoryFile**](nf-ntifs-zwqueryvirtualmemory.md)

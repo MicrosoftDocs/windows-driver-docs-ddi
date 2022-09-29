@@ -1,15 +1,15 @@
 ---
 UID: NS:d3dkmddi._DXGK_ALLOCATIONLIST
-title: _DXGK_ALLOCATIONLIST (d3dkmddi.h)
+title: DXGK_ALLOCATIONLIST (d3dkmddi.h)
 description: The DXGK_ALLOCATIONLIST structure describes an allocation specification that is used in direct memory access (DMA) buffering.
 old-location: display\dxgk_allocationlist.htm
-ms.date: 05/10/2018
+ms.date: 05/24/2022
 keywords: ["DXGK_ALLOCATIONLIST structure"]
 ms.keywords: DXGK_ALLOCATIONLIST, DXGK_ALLOCATIONLIST structure [Display Devices], DmStructs_ed92f9cf-ad3f-4566-89ff-31d6b162f755.xml, _DXGK_ALLOCATIONLIST, d3dkmddi/DXGK_ALLOCATIONLIST, display.dxgk_allocationlist
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,83 +43,80 @@ api_name:
  - DXGK_ALLOCATIONLIST
 ---
 
-# _DXGK_ALLOCATIONLIST structure
-
+# DXGK_ALLOCATIONLIST structure
 
 ## -description
 
-The <b>DXGK_ALLOCATIONLIST</b> structure describes an allocation specification that is used in direct memory access (DMA) buffering.
+The **DXGK_ALLOCATIONLIST** structure describes an allocation specification that is used in direct memory access (DMA) buffering.
+
+## -syntax
+
+``` C
+typedef struct _DXGK_ALLOCATIONLIST
+{
+    HANDLE              hDeviceSpecificAllocation;
+    struct
+    {
+        UINT            WriteOperation  : 1;    // 0x00000001
+        UINT            SegmentId       : 5;    // 0x0000002E
+        UINT            Reserved        : 26;   // 0xFFFFFFC0
+    };
+#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
+    union
+    {
+        PHYSICAL_ADDRESS        PhysicalAddress;
+        D3DGPU_VIRTUAL_ADDRESS  VirtualAddress;
+    };
+#else // (DXGKDDI_INTERFACE_VERSION < DXGKDDI_INTERFACE_VERSION_WDDM2_0)
+    PHYSICAL_ADDRESS    PhysicalAddress;
+#endif // (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
+} DXGK_ALLOCATIONLIST;
+```
 
 ## -struct-fields
 
-### -field hDeviceSpecificAllocation
+### -field hDeviceSpecificAllocation [in/out]
 
-[in/out] An open handle to the allocation that is being referenced (that is, the handle that the driver returned in the <b>hDeviceSpecificAllocation</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_openallocationinfo">DXGK_OPENALLOCATIONINFO</a> structure for the allocation in a call to the driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a> function).
+An open handle to the allocation that is being referenced (that is, the handle that the driver returned in the **hDeviceSpecificAllocation** member of the [**DXGK_OPENALLOCATIONINFO**](ns-d3dkmddi-_dxgk_openallocationinfo.md) structure for the allocation in a call to the driver's [**DxgkDdiOpenAllocation**](nc-d3dkmddi-dxgkddi_openallocationinfo.md) function).
 
-The following members are embedded in the structure:
+### -field WriteOperation [in/out]
 
-#### WriteOperation
+Identifies whether the allocation can be written to. Setting this member to 1 indicates that the allocation can be written to anywhere in the DMA buffer. Setting this member is equivalent to setting the first bit of a 32-bit value (0x00000001).
 
-[in/out] A member in the structure that <b>DXGK_ALLOCATIONLIST</b> contains that can hold information about whether the allocation can be written to. Setting this member to 1 indicates that the allocation can be written to anywhere in the DMA buffer.
+### -field SegmentId [in/out]
 
-Setting this member is equivalent to setting the first bit of a 32-bit value (0x00000001). 
+Specifies the identifier of a segment that the allocation was last paged in at. Setting this member to 0 indicates that no pre-patching information is available. Setting this member is equivalent to setting the second through sixth bit of a 32-bit value (0x0000002E).
 
-#### SegmentId
+### -field Reserved [in]
 
-[in/out] A member in the structure that <b>DXGK_ALLOCATIONLIST</b> contains that can hold information about the identifier of a segment that the allocation was last paged in at. Setting this member to 0 indicates that no pre-patching information is available.
+Reserved. This member should be set to 0. Setting this member is equivalent to setting the remaining 26 bits (0xFFFFFFC0) of a 32-bit value to zeros.
 
-Setting this member is equivalent to setting the second through sixth bit of a 32-bit value (0x0000002E). 
+### -field PhysicalAddress [in/out]
 
-
-#### Reserved
-
-[in] A member in the structure that <b>DXGK_ALLOCATIONLIST</b> contains that is reserved. This member should be set to 0.
-
-Setting this member is equivalent to setting the remaining 26 bits (0xFFFFFFC0) of a 32-bit value to zeros. 
-
-The following members are embedded in a union:
-
-#### PhysicalAddress
-
-[in/out] A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the allocation was last paged-in at. This member is set to zero if no pre-patching information is available.
+A **PHYSICAL_ADDRESS** data type (which is defined as **LARGE_INTEGER**) that indicates the physical address, within the segment that **SegmentId** specifies, where the allocation was last paged-in at. This member is set to zero if no pre-patching information is available.
 
 Supported starting with Windows 10.
 
-#### VirtualAddress
+### -field VirtualAddress [in/out]
 
-[in/out] A <b>D3DGPU_VIRTUAL_ADDRESS</b> data type that indicates the virtual address.
+A **D3DGPU_VIRTUAL_ADDRESS** data type (which is defined as a **ULONGLONG**) that indicates the virtual address.
 
 Supported starting with Windows 10.
-
-### -field PhysicalAddress
-
-[in/out] A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the allocation was last paged-in at. This member is set to zero if no pre-patching information is available.
 
 ## -remarks
 
-In the display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a> function, the driver generates a list of <b>DXGK_ALLOCATIONLIST</b> structures for allocation specifications that will be used in a direct memory access (DMA) buffer. The video memory manager uses the list to split and patch DMA buffers appropriately.
+In the display miniport driver's [**DxgkDdiRender**](nc-d3dkmddi-dxgkddi_render.md) function, the driver generates a list of **DXGK_ALLOCATIONLIST** structures for allocation specifications that will be used in a direct memory access (DMA) buffer. The video memory manager uses the list to split and patch DMA buffers appropriately.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createallocation">DXGKARG_CREATEALLOCATION</a>
+[**DXGKARG_CREATEALLOCATION**](ns-d3dkmddi-_dxgkarg_createallocation.md)
 
+[**DXGK_ALLOCATIONINFO**](ns-d3dkmddi-_dxgk_allocationinfo.md)
 
+[**DXGK_OPENALLOCATIONINFO**](ns-d3dkmddi-_dxgk_openallocationinfo.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationinfo">DXGK_ALLOCATIONINFO</a>
+[**DxgkDdiCreateAllocation**](nc-d3dkmddi-dxgkddi_createallocation.md)
 
+[**DxgkDdiOpenAllocation**](nc-d3dkmddi-dxgkddi_openallocationinfo.md)
 
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_openallocationinfo">DXGK_OPENALLOCATIONINFO</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a>
-
+[**DxgkDdiRender**](nc-d3dkmddi-dxgkddi_render.md)

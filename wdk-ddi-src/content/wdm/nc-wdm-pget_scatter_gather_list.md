@@ -49,44 +49,44 @@ The <b>GetScatterGatherList</b> routine prepares the system for a DMA scatter/ga
 
 ## -parameters
 
-### -param DmaAdapter 
+### -param DmaAdapter [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object that represents the target device for the DMA operation.
 
-### -param Mdl 
+### -param Mdl [in]
 
-[in]
+
 Pointer to the MDL that describes the buffer at <i>MdlAddress</i> in the current IRP.
 
-### -param CurrentVa 
+### -param CurrentVa [in]
 
-[in]
+
 Pointer to the current virtual address in the MDL for the buffer to be mapped for a DMA transfer operation.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the length, in bytes, to be mapped.
 
-### -param ExecutionRoutine 
+### -param ExecutionRoutine [in]
 
-[in]
+
 Pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_list_control">AdapterListControl</a> routine, which is called at DISPATCH_LEVEL when the system DMA controller or bus-master adapter is available.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to the driver-determined context passed to the driver's <i>AdapterListControl</i> routine when it is called.
 
-### -param WriteToDevice 
+### -param WriteToDevice [in]
 
-[in]
+
 Indicates the direction of the DMA transfer: <b>TRUE</b> for a transfer from the buffer to the device, and <b>FALSE</b> otherwise.
 
 ## -returns

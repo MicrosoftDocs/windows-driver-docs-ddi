@@ -4,7 +4,7 @@ title: _UCM_CONNECTOR_CONFIG (ucmmanager.h)
 description: Describes the configuration options for a Type-C connector object. An initialized UCM_MANAGER_CONFIG structure is an input parameter value to UcmInitializeDevice.
 old-location: buses\ucm_connector_config.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/05/2022
 keywords: ["UCM_CONNECTOR_CONFIG structure"]
 ms.keywords: "*PUCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG structure pointer [Buses], UCM_CONNECTOR_CONFIG, UCM_CONNECTOR_CONFIG structure [Buses], _UCM_CONNECTOR_CONFIG, buses.ucm_connector_config, ucmmanager/PUCM_CONNECTOR_CONFIG, ucmmanager/UCM_CONNECTOR_CONFIG"
 req.header: ucmmanager.h
@@ -48,16 +48,15 @@ api_name:
 
 # _UCM_CONNECTOR_CONFIG structure
 
-
 ## -description
 
-Describes the configuration options for a Type-C connector object. An initialized <a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_manager_config">UCM_MANAGER_CONFIG</a> structure is an input parameter value to   <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucminitializedevice">UcmInitializeDevice</a>.
+Describes the configuration options for a Type-C connector object. An initialized [UCM_MANAGER_CONFIG](./ns-ucmmanager-_ucm_manager_config.md) structure is an input parameter value to [UcmInitializeDevice](./nf-ucmmanager-ucminitializedevice.md).
 
 ## -struct-fields
 
 ### -field Size
 
-Size of the <b>UCM_CONNECTOR_CONFIG</b> structure.
+Size of the **UCM_CONNECTOR_CONFIG** structure.
 
 ### -field ConnectorId
 
@@ -65,24 +64,16 @@ Connector identifier.
 
 ### -field TypeCConfig
 
-A pointer to an initialized <a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_typec_config">UCM_CONNECTOR_TYPEC_CONFIG</a> structure that contains the configuration options for the connector.
+A pointer to an initialized [UCM_CONNECTOR_TYPEC_CONFIG](./ns-ucmmanager-_ucm_connector_typec_config.md) structure that contains the configuration options for the connector.
 
 ### -field PdConfig
 
- 
-
-
-
-
-#### - PDConfig
-
-A pointer to an initialized <a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_pd_config">UCM_CONNECTOR_PD_CONFIG</a> structure that contains the power roles supported by the connector.
+A pointer to an initialized [UCM_CONNECTOR_PD_CONFIG](./ns-ucmmanager-_ucm_connector_pd_config.md) structure that contains the power roles supported by the connector.
 
 ## -remarks
 
-Initialize this structure by calling <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucm_connector_config_init">UCM_CONNECTOR_CONFIG_INIT</a>. An initialized <b>UCM_CONNECTOR_CONFIG</b> structure is an input parameter value to <a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a> that is used by the client driver to create a connector object.
+Initialize this structure by calling [UCM_CONNECTOR_CONFIG_INIT](./nf-ucmmanager-ucm_connector_config_init.md). An initialized **UCM_CONNECTOR_CONFIG** structure is an input parameter value to [UcmConnectorCreate](./nf-ucmmanager-ucmconnectorcreate.md) that is used by the client driver to create a connector object.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>
-
+- [UcmConnectorCreate](./nf-ucmmanager-ucmconnectorcreate.md)

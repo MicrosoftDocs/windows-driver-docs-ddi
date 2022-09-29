@@ -51,21 +51,21 @@ The <b>WdfObjectQuery</b> method is not implemented.
 
 ## -parameters
 
-### -param Object 
+### -param Object [in]
 
-[in]
 
-### -param Guid 
 
-[in]
+### -param Guid [in]
 
-### -param QueryBufferLength 
 
-[in]
 
-### -param QueryBuffer 
+### -param QueryBufferLength [in]
 
-[out]
+
+
+### -param QueryBuffer [out]
+
+## -returns
 
 ## -remarks
 

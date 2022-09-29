@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrinterQueue2.SendBidiSetRequestAsync
 title: IPrinterQueue2::SendBidiSetRequestAsync (printerextension.h)
 description: Uses an XML string value to send a Bidi Set request as an asynchronous operation.
-old-location: print\iprinterqueue2_sendbidisetrequestasync.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrinterQueue2::SendBidiSetRequestAsync"]
 ms.keywords: IPrinterQueue2 interface [Print Devices],SendBidiSetRequestAsync method, IPrinterQueue2.SendBidiSetRequestAsync, IPrinterQueue2::SendBidiSetRequestAsync, SendBidiSetRequestAsync, SendBidiSetRequestAsync method [Print Devices], SendBidiSetRequestAsync method [Print Devices],IPrinterQueue2 interface, print.iprinterqueue2_sendbidisetrequestasync, printerextension/IPrinterQueue2::SendBidiSetRequestAsync
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8.1
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,9 +39,6 @@ api_name:
  - IPrinterQueue2::SendBidiSetRequestAsync
 ---
 
-# IPrinterQueue2::SendBidiSetRequestAsync
-
-
 ## -description
 
 Uses an XML string value to send a Bidi Set request as an asynchronous operation.
@@ -51,34 +47,26 @@ This method allows the user to perform device maintenance tasks from within a UW
 
 ## -parameters
 
-### -param bstrBidiRequest 
+### -param bstrBidiRequest [in]
 
-[in]
 XML string that is used to transfer the data for the  Set request.
 
-### -param pCallback 
+### -param pCallback [in]
 
-[in]
 Callback object for the Bidi Set request.
 
-### -param ppAsyncOperation 
+### -param ppAsyncOperation [out, retval]
 
-[out, retval]
 Context object associated with the asynchronous Bidi Set  request (operation).
 
 ## -returns
 
-This method returns the appropriate <b>HRESULT</b> value.
+This method returns the appropriate **HRESULT** value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterbidisetrequestcallback">IPrinterBidiSetRequestCallback</a>
+[IPrinterBidiSetRequestCallback](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterbidisetrequestcallback)
 
+[IPrinterExtensionAsyncOperation](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionasyncoperation)
 
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionasyncoperation">IPrinterExtensionAsyncOperation</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue2">IPrinterQueue2</a>
-
+[IPrinterQueue2](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue2)

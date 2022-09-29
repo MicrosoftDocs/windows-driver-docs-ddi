@@ -49,39 +49,39 @@ The port class driver (PortCls) uses the <code>SendPowerControl</code>  method t
 
 ## -parameters
 
-### -param _DeviceObject 
+### -param _DeviceObject [in]
 
-[in]
+
 The device object.
 
-### -param _PowerControlCode 
+### -param _PowerControlCode [in]
 
-[in]
+
 The power control code to be sent to the audio adapter.
 
-### -param _InBuffer 
+### -param _InBuffer [in, optional]
 
-[in, optional]
+
 The input buffer.
 
-### -param _InBufferSize 
+### -param _InBufferSize [in]
 
-[in]
+
 The size of the input buffer.
 
-### -param _OutBuffer 
+### -param _OutBuffer [out, optional]
 
-[out, optional]
+
 The output buffer.
 
-### -param _OutBufferSize 
+### -param _OutBufferSize [in]
 
-[in]
+
 The size of the output buffer.
 
-### -param _BytesReturned 
+### -param _BytesReturned [out, optional]
 
-[out, optional]
+
 The number of bytes returned.
 
 ## -returns

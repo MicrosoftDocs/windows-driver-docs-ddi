@@ -5,8 +5,6 @@ description: Contains info about a virtual GPU capability.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGK_VGPU_CAPABILITY structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_VGPU_CAPABILITY, DXGK_VGPU_CAPABILITY, *PDXGK_VGPU_CAPABILITY,
 req.header: dispmprt.h
 req.include-header: 

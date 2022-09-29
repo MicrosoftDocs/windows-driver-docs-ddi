@@ -52,17 +52,17 @@ The _GETENCRYPTIONBLTKEY structure describes an encrypted bit-block transfer (bi
 
 ## -struct-fields
 
-### -field hCryptoSession
+### -field hCryptoSession [in]
 
-[in] A handle to the encryption session that is created in a call to the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a> function.
+A handle to the encryption session that is created in a call to the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a> function.
 
-### -field pReadBackKey
+### -field pReadBackKey [in]
 
-[in] A pointer to a buffer that contains the encryption key.
+A pointer to a buffer that contains the encryption key.
 
-### -field KeySize
+### -field KeySize [in]
 
-[in] The size, in bytes, of the encryption key that the <b>pReadBackKey</b> member points to.
+The size, in bytes, of the encryption key that the <b>pReadBackKey</b> member points to.
 
 ## -see-also
 

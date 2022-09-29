@@ -49,9 +49,9 @@ The <b>IoIsValidIrpStatus</b> routine validates the specified NTSTATUS status co
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 The status code to be validated.
 
 ## -returns

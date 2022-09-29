@@ -58,9 +58,9 @@ The
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Specifies the final status of the client's request to deregister its SAP, which can be one of the
      following:
      
@@ -94,9 +94,9 @@ The call manager failed the request to close the SAP for some CM-determined reas
        <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_deregister_sap">
        ProtocolCmDeregisterSap</a> function to the client.
 
-### -param ProtocolSapContext 
+### -param ProtocolSapContext [in]
 
-[in]
+
 Specifies the client-supplied handle to its per-SAP context area, originally passed to NDIS with 
      <b>NdisClRegisterSap</b>. After the call manager has successfully deregistered this SAP, the client can
      release its context area or prepare this context area for reuse.

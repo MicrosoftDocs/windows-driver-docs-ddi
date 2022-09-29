@@ -48,8 +48,6 @@ api_name:
 
 Deletes all items from the collection.
 
-## -parameters
-
 ## -returns
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.

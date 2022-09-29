@@ -47,9 +47,9 @@ This routine is similar to [CollectionsListCopyAndMarshall](nf-sensorsutils-coll
 
 ## -parameters
 
-### -param Target
+### -param Target [in]
 
-[in] Pointer to a collection list.
+Pointer to a collection list.
 
 ## -returns
 

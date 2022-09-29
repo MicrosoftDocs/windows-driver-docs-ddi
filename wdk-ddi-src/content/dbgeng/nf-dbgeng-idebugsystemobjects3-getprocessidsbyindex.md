@@ -49,24 +49,24 @@ The <b>GetProcessIdsByIndex</b> method returns the engine process ID and system 
 
 ## -parameters
 
-### -param Start 
+### -param Start [in]
 
-[in]
+
 Specifies the index of the first process whose ID is requested.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of processes whose IDs are requested.
 
-### -param Ids 
+### -param Ids [out, optional]
 
-[out, optional]
+
 Receives the engine process IDs.  If <i>Ids</i> is <b>NULL</b>, this information is not returned; otherwise, <i>Ids</i> is treated as an array of <i>Count</i> ULONG values.
 
-### -param SysIds 
+### -param SysIds [out, optional]
 
-[out, optional]
+
 Receives the system process IDs.  If <i>SysIds</i> is <b>NULL</b>, this information is not returned; otherwise, <i>SysIds</i> is treated as an array of <i>Count</i> ULONG values.
 
 ## -returns

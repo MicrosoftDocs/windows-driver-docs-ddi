@@ -4,7 +4,7 @@ title: IDebugControl2::GetSpecificFilterArgument (dbgeng.h)
 description: Learn about the GetSpecificFilterArgument method, which returns the value of filter argument for the specific filters that have an argument.
 old-location: debugger\getspecificfilterargument.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl2::GetSpecificFilterArgument"]
 ms.keywords: GetSpecificFilterArgument, GetSpecificFilterArgument method [Windows Debugging], GetSpecificFilterArgument method [Windows Debugging],IDebugControl interface, GetSpecificFilterArgument method [Windows Debugging],IDebugControl2 interface, GetSpecificFilterArgument method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetSpecificFilterArgument method, IDebugControl2 interface [Windows Debugging],GetSpecificFilterArgument method, IDebugControl2.GetSpecificFilterArgument, IDebugControl2::GetSpecificFilterArgument, IDebugControl3 interface [Windows Debugging],GetSpecificFilterArgument method, IDebugControl3::GetSpecificFilterArgument, IDebugControl::GetSpecificFilterArgument, IDebugControl_ab3a5161-b3e1-47fe-bc97-1f75af363cff.xml, dbgeng/IDebugControl2::GetSpecificFilterArgument, dbgeng/IDebugControl3::GetSpecificFilterArgument, dbgeng/IDebugControl::GetSpecificFilterArgument, debugger.getspecificfilterargument
 req.header: dbgeng.h
@@ -49,25 +49,25 @@ The <b>GetSpecificFilterArgument</b>  method returns the value of filter argumen
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the specific filter whose argument will be returned.  <i>Index</i> must be the index of a specific filter that has an argument.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the argument for the specific filter.  The interpretation of the argument depends on the specific filter.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
-Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
-### -param ArgumentSize 
+Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size, in characters, of the argument for the specific filter.
+### -param ArgumentSize [out, optional]
+
+
+Receives the size, in characters, of the argument for the specific filter. This size includes the space for the '\0' terminating character.
 
 ## -returns
 

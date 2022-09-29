@@ -49,9 +49,9 @@ The <b>IStillImage::UnregisterLaunchApplication</b> method removes an applicatio
 
 ## -parameters
 
-### -param pwszAppName 
+### -param pwszAppName [in]
 
-[in]
+
 Caller-supplied pointer to the application's "short name".
 
 ## -returns

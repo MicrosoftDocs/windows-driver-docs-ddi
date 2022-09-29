@@ -4,7 +4,7 @@ title: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE (usbbusif.h)
 description: The QueryControllerType routine gets information about the USB host controller to which the USB device is attached.
 old-location: buses\querycontrollertype.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 02/04/2022
 keywords: ["PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE callback function"]
 ms.keywords: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE, QueryControllerType, QueryControllerType callback function [Buses], USB_BUSIFFN_QUERY_CONTROLLER_TYPE, USB_BUSIFFN_QUERY_CONTROLLER_TYPE callback, buses.querycontrollertype, usbbusif/QueryControllerType
 req.header: usbbusif.h
@@ -42,42 +42,57 @@ api_name:
 
 # PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE callback function
 
-
 ## -description
 
 The **QueryControllerType** routine gets information about the USB host controller to which the USB device is attached.
 
+## -syntax
+
+```cpp
+typedef NTSTATUS
+  (USB_BUSIFFN *PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE) (
+    IN PVOID,
+    OUT PULONG,
+    OUT PUSHORT,
+    OUT PUSHORT,
+    OUT PUCHAR,
+    OUT PUCHAR,
+    OUT PUCHAR,
+    OUT PUCHAR
+  );
+```
+
 ## -parameters
 
-#### - BusContext [in]
+### -param unnamedParam1 [in]
 
 Handle returned in the **BusContext** member of the [USB_BUS_INTERFACE_USBDI_V3](./ns-usbbusif-_usb_bus_interface_usbdi_v3.md) structure by an IRP_MN_QUERY_INTERFACE request.
 
-#### - HcdiOptionFlags [out]
+### -param unnamedParam2 [out]
 
 Reserved. Do not use.
 
-#### - PciClass [out]
+### -param unnamedParam3 [out]
 
 Pointer to a UCHAR variable that receives the PCI class for the USB host controller.
 
-#### - PciDeviceId [out]
+### -param unnamedParam4 [out]
 
 Pointer to a USHORT variable that  receives the PCI device ID for the USB host controller.
 
-#### - PciProgIf [out]
+### -param unnamedParam5 [out]
 
 Pointer to a UCHAR variable that receives the PCI programming interface  for the USB host controller.
 
-#### - PciRevisionId [out]
+### -param unnamedParam6 [out]
 
 Pointer to a UCHAR variable that receives the PCI revision number for the USB host controller.
 
-#### - PciSubClass [out]
+### -param unnamedParam7 [out]
 
 Pointer to a UCHAR variable that receives the PCI subclass  for the USB host controller.
 
-#### - PciVendorId [out]
+### -param unnamedParam8 [out]
 
 Pointer to a USHORT variable that  receives the PCI vendor ID for the USB host controller.
 
@@ -97,22 +112,6 @@ Returns STATUS_SUCCESS on success, and the appropriate error code on failure.
 - 0x10 - Open Host Controller Interface (OHCI)
 - 0x20 - Enhanced Host Controller Interface (EHCI)
 
-The function definition that is provided on this reference page is an example function whose parameters are just placeholder names. The actual prototype of the function is declared in usbbusif.h as follows:
-
-```cpp
-typedef NTSTATUS
-  (USB_BUSIFFN *PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE) (
-    IN PVOID,
-    OUT PULONG,
-    OUT PUSHORT,
-    OUT PUSHORT,
-    OUT PUCHAR,
-    OUT PUCHAR,
-    OUT PUCHAR,
-    OUT PUCHAR
-```
-
 ## -see-also
 
-[USB_BUS_INTERFACE_USBDI_V3](./ns-usbbusif-_usb_bus_interface_usbdi_v3.md)
-
+- [USB_BUS_INTERFACE_USBDI_V3](./ns-usbbusif-_usb_bus_interface_usbdi_v3.md)

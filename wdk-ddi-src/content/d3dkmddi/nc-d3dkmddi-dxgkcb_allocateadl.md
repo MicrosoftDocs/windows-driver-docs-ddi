@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_ALLOCATEADL
 tech.root: display
 title: DXGKCB_ALLOCATEADL
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: DxgkCbAllocateAdl creates an address descriptor list (ADL).
 req.assembly: 
@@ -45,9 +45,9 @@ dev_langs:
 
 ## -parameters
 
-### -param pArgs
+### -param pArgs [in/out]
 
-[in/out] Pointer to a [**DXGKARGCB_ALLOCATE_ADL**](ns-d3dkmddi-dxgkargcb_allocate_adl.md) structure that contains information about the ADL to create. On success, returns a [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) structure with a list of page addresses that can be used to program the hardware.
+Pointer to a [**DXGKARGCB_ALLOCATE_ADL**](ns-d3dkmddi-dxgkargcb_allocate_adl.md) structure that contains information about the ADL to create. On success, returns a [**DXGK_ADL**](ns-d3dkmddi-dxgk_adl.md) structure with a list of page addresses that can be used to program the hardware.
 
 ## -returns
 
@@ -58,6 +58,8 @@ Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropri
 The **DXGKCB_ALLOCATEADL** and [**DXGKCB_FREEADL**](nc-d3dkmddi-dxgkcb_freeadl.md) functions are used to create and destroy ADLs that describe memory addresses that can be programmed (mapped) to the GPU. The underlying memory can point to either logical or physical memory depending on whether the IOMMU is being used, so the driver must not attempt to assume that these addresses represent physical pages.
 
 When an ADL is allocated from the physical object, *Dxgkrnl* guarantees that this memory remains locked and is non-pageable for the lifetime of the ADL.
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 *DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the appropriate members of [**DXGKARGCB_ALLOCATE_ADL**](ns-d3dkmddi-dxgkargcb_allocate_adl.md) and then call **DxgkCbAllocateAdl** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 

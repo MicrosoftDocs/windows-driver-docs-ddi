@@ -52,17 +52,17 @@ The D3DDDIARG_SETDECODERENDERTARGET structure describes the decode render target
 
 ## -struct-fields
 
-### -field hDecode
+### -field hDecode [in]
 
-[in] A handle to the Microsoft DirectX Video Acceleration (DirectX VA) decode device. The user-mode display driver returns this handle in a call to its <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createdecodedevice">CreateDecodeDevice</a> function.
+A handle to the Microsoft DirectX Video Acceleration (DirectX VA) decode device. The user-mode display driver returns this handle in a call to its <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createdecodedevice">CreateDecodeDevice</a> function.
 
-### -field hRenderTarget
+### -field hRenderTarget [in]
 
-[in] A handle to the decode render target surface.
+A handle to the decode render target surface.
 
-### -field SubResourceIndex
+### -field SubResourceIndex [in]
 
-[in] An index into the resource for the decode render target surface.
+An index into the resource for the decode render target surface.
 
 ## -see-also
 

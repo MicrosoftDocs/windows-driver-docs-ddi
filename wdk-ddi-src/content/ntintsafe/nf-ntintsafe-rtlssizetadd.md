@@ -49,19 +49,19 @@ Adds two values of type <b>SSIZE_T</b>.
 
 ## -parameters
 
-### -param Augend 
+### -param Augend [in]
 
-[in]
+
 The first value in the equation.
 
-### -param Addend 
+### -param Addend [in]
 
-[in]
+
 The value to add to <i>Augend</i>.
 
-### -param pResult 
+### -param pResult [out]
 
-[out]
+
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

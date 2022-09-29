@@ -49,14 +49,14 @@ The <b>RtlCreateAcl</b> routine creates and initializes an access control list (
 
 ## -parameters
 
-### -param Acl 
+### -param Acl [out]
 
-[out]
+
 Pointer to a caller-allocated buffer to receive the initialized ACL structure. This buffer must be at least <b>sizeof</b>(ACL),
 
-### -param AclLength 
+### -param AclLength [in]
 
-[in]
+
 Length, in bytes, of the buffer pointed to by the <i>Acl</i> parameter. This value must be large enough to contain the ACL header and all of the access-control entries (ACE) to be stored in the ACL. See the following Remarks section for information about calculating the size of an ACL.
 
 ### -param AclRevision

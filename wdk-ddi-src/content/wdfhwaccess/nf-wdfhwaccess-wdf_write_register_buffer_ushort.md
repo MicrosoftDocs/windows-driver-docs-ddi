@@ -51,24 +51,24 @@ The <b>WDF_WRITE_REGISTER_BUFFER_USHORT</b> routine writes a number of USHORT va
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 A pointer to the register, which must be a mapped range in memory space.
 
-### -param Buffer 
+### -param Buffer [in]
 
-[in]
+
 A pointer to a buffer into which an array of USHORT values is to be written.
 
-### -param Count 
+### -param Count [in]
 
-[in]
+
 Specifies the number of USHORT values to write to the register.
 
 ## -remarks

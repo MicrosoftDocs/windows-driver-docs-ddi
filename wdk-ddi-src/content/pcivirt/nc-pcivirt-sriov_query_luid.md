@@ -49,14 +49,14 @@ Gets the local unique identifier of the SR-IOV device.
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a driver-defined context.
 
-### -param Luid 
+### -param Luid [out]
 
-[out]
+
 A pointer to the local unique
 identifier of the SR_IOV device implementing the interface.
 

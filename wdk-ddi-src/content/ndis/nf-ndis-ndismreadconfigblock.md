@@ -51,26 +51,26 @@ A miniport driver for a PCI Express (PCIe) Virtual Function (VF) calls the <b>Nd
 
 ## -parameters
 
-### -param NdisMiniportHandle 
+### -param NdisMiniportHandle [in]
 
-[in]
+
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-### -param BlockId 
+### -param BlockId [in]
 
-[in]
+
 A ULONG value that specifies the identifier of the VF configuration block to be read. This identifier is proprietary to the independent hardware vendor (IHV) and is used only by the PF and VF miniport drivers.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer to a caller-allocated buffer that will contain the requested configuration data.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The number of bytes to be read from the VF configuration block.
 
 ## -returns
@@ -121,9 +121,9 @@ For more information about backchannel communication within the single root I/O 
 For more information about the SR-IOV interface, see 	<a href="/windows-hardware/drivers/network/overview-of-single-root-i-o-virtualization--sr-iov-">Overview of Single Root I/O Virtualization (SR-IOV)</a>.
 
 <h3><a id="Interfacing_to_a_Virtual_Bus_Driver"></a><a id="interfacing_to_a_virtual_bus_driver"></a><a id="INTERFACING_TO_A_VIRTUAL_BUS_DRIVER"></a>Interfacing to a Virtual Bus Driver</h3>
-If an independent hardware vendor (IHV) provides a virtual bus driver (VBD) as part of its SR-IOV <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>, its miniport driver must not call <b>NdisMReadConfigBlock</b>. Instead, the driver must interface with the VBD through a private communication channel, and request that the VBD call <a href="/previous-versions/windows/hardware/drivers/hh439637(v=vs.85)">ReadVfConfigBlock</a>. This function is exposed from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451146">GUID_VPCI_INTERFACE_STANDARD</a> interface that is supported by the underlying virtual PCI (VPCI) bus driver.
+If an independent hardware vendor (IHV) provides a virtual bus driver (VBD) as part of its SR-IOV <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>, its miniport driver must not call <b>NdisMReadConfigBlock</b>. Instead, the driver must interface with the VBD through a private communication channel, and request that the VBD call <a href="/previous-versions/windows/hardware/drivers/hh439637(v=vs.85)">ReadVfConfigBlock</a>. This function is exposed from the <a href="/previous-versions/windows/hardware/drivers/hh451580(v=vs.85)">GUID_VPCI_INTERFACE_STANDARD</a> interface that is supported by the underlying virtual PCI (VPCI) bus driver.
 
-The VBD that runs in a Hyper-V child partition's guest operating system can query the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451146">GUID_VPCI_INTERFACE_STANDARD</a> interface by issuing an <a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> request to its physical device object (PDO) on the VPCI bus. This request must be made from IRQL = PASSIVE_LEVEL. In this request, the driver must  set the <i>InterfaceType</i> parameter to GUID_VPCI_INTERFACE_STANDARD.
+The VBD that runs in a Hyper-V child partition's guest operating system can query the <a href="/previous-versions/windows/hardware/drivers/hh451580(v=vs.85)">GUID_VPCI_INTERFACE_STANDARD</a> interface by issuing an <a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> request to its physical device object (PDO) on the VPCI bus. This request must be made from IRQL = PASSIVE_LEVEL. In this request, the driver must  set the <i>InterfaceType</i> parameter to GUID_VPCI_INTERFACE_STANDARD.
 
 ## -see-also
 
@@ -131,7 +131,7 @@ The VBD that runs in a Hyper-V child partition's guest operating system can quer
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451146">GUID_VPCI_INTERFACE_STANDARD</a>
+<a href="/previous-versions/windows/hardware/drivers/hh451580(v=vs.85)">GUID_VPCI_INTERFACE_STANDARD</a>
 
 
 

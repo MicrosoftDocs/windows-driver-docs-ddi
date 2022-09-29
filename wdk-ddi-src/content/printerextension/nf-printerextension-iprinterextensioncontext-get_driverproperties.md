@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrinterExtensionContext.get_DriverProperties
 title: IPrinterExtensionContext::get_DriverProperties (printerextension.h)
 description: Gets the driver property bag.
-old-location: print\iprinterextensioncontext_driverproperties.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/03/2022
 keywords: ["IPrinterExtensionContext::get_DriverProperties"]
 ms.keywords: DriverProperties property [Print Devices], DriverProperties property [Print Devices],IPrinterExtensionContext interface, IPrinterExtensionContext interface [Print Devices],DriverProperties property, IPrinterExtensionContext.DriverProperties, IPrinterExtensionContext.get_DriverProperties, IPrinterExtensionContext::DriverProperties, IPrinterExtensionContext::get_DriverProperties, get_DriverProperties, print.iprinterextensioncontext_driverproperties, printerextension/IPrinterExtensionContext::DriverProperties, printerextension/IPrinterExtensionContext::get_DriverProperties
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,9 +39,6 @@ api_name:
  - IPrinterExtensionContext::get_DriverProperties
 ---
 
-# IPrinterExtensionContext::get_DriverProperties
-
-
 ## -description
 
 Gets the driver property bag.
@@ -51,17 +47,24 @@ This property is read-only.
 
 ## -parameters
 
+### -param ppPropertyBag
+
+Defines the **IPrinterPropertyBag** parameter *ppPropertyBag*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
+
 ## -remarks
 
 The driver property bag uses the following GUID for its property store format ID:
 
-<code>DEFINE_GUID(FMTID_PrinterPropertyBag, 0x75f9adca, 0x097d, 0x45c3, 0xa6, 0xe4, 0xba, 0xb2, 0x9e, 0x27, 0x6f, 0x3e);</code>
+```cpp
+DEFINE_GUID(FMTID_PrinterPropertyBag, 0x75f9adca, 0x097d, 0x45c3, 0xa6, 0xe4, 0xba, 0xb2, 0x9e, 0x27, 0x6f, 0x3e);
+```
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a>
+[IPrinterExtensionContext](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>
-
+[IPrinterPropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag)

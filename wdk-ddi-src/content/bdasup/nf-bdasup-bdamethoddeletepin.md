@@ -2,15 +2,14 @@
 UID: NF:bdasup.BdaMethodDeletePin
 title: BdaMethodDeletePin function (bdasup.h)
 description: The BdaMethodDeletePin function deletes a pin factory.
-old-location: stream\bdamethoddeletepin.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/25/2022
 keywords: ["BdaMethodDeletePin function"]
 ms.keywords: BdaMethodDeletePin, BdaMethodDeletePin function [Streaming Media Devices], bdaref_6d81ac60-26e8-4cdb-ba9c-05f73cea187d.xml, bdasup/BdaMethodDeletePin, stream.bdamethoddeletepin
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. This routine is available on the Windows 2000 platform only if Microsoft DirectX 9.0 and later is installed on that platform.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,30 +40,23 @@ api_name:
  - BdaMethodDeletePin
 ---
 
-# BdaMethodDeletePin function
-
-
 ## -description
 
-The <b>BdaMethodDeletePin</b> function deletes a pin factory.
+The **BdaMethodDeletePin** function deletes a pin factory.
 
 ## -parameters
 
-### -param pIrp
+### -param pIrp [in]
 
-### -param pKSMethod 
+Points to the IRP for the request to delete a pin factory. The BDA minidriver receives this IRP with the [KSMETHOD_BDA_DELETE_PIN_FACTORY](/windows-hardware/drivers/stream/ksmethod-bda-delete-pin-factory) request.
 
-[in]
-Points to a <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a> structure that describes the method and request type of a method request.
+### -param pKSMethod [in]
+
+Points to a [KSMETHOD](/windows-hardware/drivers/stream/ksmethod-structure) structure that describes the method and request type of a method request.
 
 ### -param pvIgnored
 
 Points to a buffer that is ignored.
-
-
-#### - Irp [in]
-
-Points to the IRP for the request to delete a pin factory. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksmethod-bda-delete-pin-factory">KSMETHOD_BDA_DELETE_PIN_FACTORY</a> request.
 
 ## -returns
 
@@ -72,30 +64,20 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 ## -remarks
 
-A BDA minidriver calls the <b>BdaMethodDeletePin</b> function to delete a pin factory after the minidriver receives a <a href="/windows-hardware/drivers/stream/ksmethod-bda-delete-pin-factory">KSMETHOD_BDA_DELETE_PIN_FACTORY</a> request of the <a href="/windows-hardware/drivers/stream/ksmethodsetid-bdadeviceconfiguration">KSMETHODSETID_BdaDeviceConfiguration</a> method set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the <b>BdaMethodDeletePin</b> function directly, without intercepting this request using an internal method (<a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkshandler">KStrMethodHandler</a>). See <a href="/windows-hardware/drivers/stream/defining-automation-tables">Defining Automation Tables</a> and <a href="/windows-hardware/drivers/stream/configuring-a-bda-filter">Configuring a BDA Filter</a> for more information. 
+A BDA minidriver calls the **BdaMethodDeletePin** function to delete a pin factory after the minidriver receives a [KSMETHOD_BDA_DELETE_PIN_FACTORY](/windows-hardware/drivers/stream/ksmethod-bda-delete-pin-factory) request of the [KSMETHODSETID_BdaDeviceConfiguration](/windows-hardware/drivers/stream/ksmethodsetid-bdadeviceconfiguration) method set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the **BdaMethodDeletePin** function directly, without intercepting this request using an internal method ([KStrMethodHandler](../ks/nc-ks-pfnkshandler.md)). See [Defining Automation Tables](/windows-hardware/drivers/stream/defining-automation-tables) and [Configuring a BDA Filter](/windows-hardware/drivers/stream/configuring-a-bda-filter) for more information.
 
-If a BDA minidriver must delete a pin without relying on the network provider, the BDA minidriver should call the <a href="/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdadeletepin">BdaDeletePin</a> function.
+If a BDA minidriver must delete a pin without relying on the network provider, the BDA minidriver should call the [BdaDeletePin](./nf-bdasup-bdadeletepin.md) function.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdadeletepin">BdaDeletePin</a>
+[BdaDeletePin](./nf-bdasup-bdadeletepin.md)
 
+[BdaMethodCreatePin](./nf-bdasup-bdamethodcreatepin.md)
 
+[KSMETHOD](/windows-hardware/drivers/stream/ksmethod-structure)
 
-<a href="/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdamethodcreatepin">BdaMethodCreatePin</a>
+[KSMETHODSETID_BdaDeviceConfiguration](/windows-hardware/drivers/stream/ksmethodsetid-bdadeviceconfiguration)
 
+[KSMETHOD_BDA_DELETE_PIN_FACTORY](/windows-hardware/drivers/stream/ksmethod-bda-delete-pin-factory)
 
-
-<a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a>
-
-
-
-<a href="/windows-hardware/drivers/stream/ksmethodsetid-bdadeviceconfiguration">KSMETHODSETID_BdaDeviceConfiguration</a>
-
-
-
-<a href="/windows-hardware/drivers/stream/ksmethod-bda-delete-pin-factory">KSMETHOD_BDA_DELETE_PIN_FACTORY</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkshandler">KStrMethodHandler</a>
+[KStrMethodHandler](../ks/nc-ks-pfnkshandler.md)

@@ -2,12 +2,9 @@
 description: "Learn more about: Miniport.h header"
 UID: NA:miniport
 title: Miniport.h header
-ms.assetid: a0a0b4a0-7bc0-3610-8f94-30f1e1e1cc06
-ms.date: 05/09/2018
+ms.date: 03/23/2022
 keywords: ["Miniport.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: kernel
 f1_keywords:
@@ -19,10 +16,10 @@ api_name:
 
 # Miniport.h header
 
-
 ## -description
 
-This header is used by storage. For more information, see:
+This header is used by kernel.
 
-- [Storage](../_storage/index.md)
+For more information, see:
 
+- [Kernel](../_kernel/index.md)

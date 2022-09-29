@@ -53,9 +53,9 @@ NDIS calls the
 
 ## -parameters
 
-### -param FilterModuleContext 
+### -param FilterModuleContext [in]
 
-[in]
+
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
@@ -68,17 +68,17 @@ A pointer to a linked list of
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structures. Each <b>NET_BUFFER</b> in the
      list maps a chain of MDLs that contain the transmit data.
 
-### -param PortNumber 
+### -param PortNumber [in]
 
-[in]
+
 A port number that identifies a miniport adapter port. Miniport adapter port numbers are assigned
      by calling the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function. A zero
      value identifies the default port of a miniport adapter.
 
-### -param SendFlags 
+### -param SendFlags [in]
 
-[in]
+
 Flags that define attributes for the send operation. The flags can be combined with an OR operation.
       To clear all the flags, set this member to zero. This function supports the following flags:
 

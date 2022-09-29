@@ -50,19 +50,19 @@ Allows navigation within the
 
 ## -parameters
 
-### -param FromEntry 
+### -param FromEntry [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_source_entry">DEBUG_SYMBOL_SOURCE_ENTRY</a> as the input entry.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bit-set that contains options that affect the behavior of this method.
 
-### -param ToEntry 
+### -param ToEntry [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_source_entry">DEBUG_SYMBOL_SOURCE_ENTRY</a> as the output entry.
 
 ## -returns

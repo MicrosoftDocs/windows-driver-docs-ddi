@@ -49,8 +49,6 @@ api_name:
 
 The <b>IsFrom32BitProcess</b> method determines whether a request originated from a 32-bit process.
 
-## -parameters
-
 ## -returns
 
 <b>IsFrom32BitProcess</b> returns a BOOL value that indicates whether the request originated from a 32-bit process. <b>TRUE</b> indicates the request originated from a 32-bit process. <b>FALSE</b> indicates the request did not originate from a 32-bit process.

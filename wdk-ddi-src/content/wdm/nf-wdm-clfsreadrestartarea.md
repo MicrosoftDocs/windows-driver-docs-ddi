@@ -50,29 +50,29 @@ The <b>ClfsReadRestartArea</b> routine reads the restart record that was most re
 
 ## -parameters
 
-### -param pvMarshalContext 
+### -param pvMarshalContext [in, out]
 
-[in, out]
+
 A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatemarshallingarea">ClfsCreateMarshallingArea</a>.
 
-### -param ppvRestartBuffer 
+### -param ppvRestartBuffer [out]
 
-[out]
+
 A pointer to a variable that receives a pointer to the data buffer of the restart record.
 
-### -param pcbRestartBuffer 
+### -param pcbRestartBuffer [out]
 
-[out]
+
 A pointer to a ULONG-typed variable that receives the size, in bytes, of the data buffer pointed to by <i>pcbRestartBuffer</i>. This is the length of the data buffer of the restart record.
 
-### -param plsn 
+### -param plsn [out]
 
-[out]
+
 A pointer to a CLFS_LSN structure that receives the LSN of the restart record that was read.
 
-### -param ppvReadContext 
+### -param ppvReadContext [out]
 
-[out]
+
 A pointer to a variable that receives a pointer to an opaque read context. The caller can pass this context to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadpreviousrestartarea">ClfsReadPreviousRestartArea</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadnextlogrecord">ClfsReadNextLogRecord</a>. When the caller has finished using the read context, it must free the context by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsterminatereadlog">ClfsTerminateReadLog</a>.
 
 ## -returns

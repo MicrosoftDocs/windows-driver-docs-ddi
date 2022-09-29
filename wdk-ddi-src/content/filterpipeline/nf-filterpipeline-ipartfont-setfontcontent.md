@@ -2,13 +2,12 @@
 UID: NF:filterpipeline.IPartFont.SetFontContent
 title: IPartFont::SetFontContent (filterpipeline.h)
 description: The SetFontContent method sets the content of the font.
-old-location: print\ipartfont_setfontcontent.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 04/19/2022
 keywords: ["IPartFont::SetFontContent"]
 ms.keywords: IPartFont interface [Print Devices],SetFontContent method, IPartFont.SetFontContent, IPartFont::SetFontContent, SetFontContent, SetFontContent method [Print Devices], SetFontContent method [Print Devices],IPartFont interface, filterpipeline/IPartFont::SetFontContent, filterpipeline_1639cc2b-b1b6-4fa3-997b-3c98e32d2783.xml, print.ipartfont_setfontcontent
 req.header: filterpipeline.h
-req.include-header: 
+req.include-header: Filterpipeline.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,22 +39,16 @@ api_name:
  - IPartFont::SetFontContent
 ---
 
-# IPartFont::SetFontContent
-
-
 ## -description
 
-The <b>SetFontContent</b> method sets the content of the font.
+The **SetFontContent** method sets the content of the font.
 
 ## -parameters
 
-### -param pContentType
-
-#### - contentType [in]
+### -param pContentType [in]
 
 The type of the content for the font to be set.
 
 ## -returns
 
-<b>SetFontContent</b> returns an <b>HRESULT</b> value.
-
+**SetFontContent** returns an **HRESULT** value.

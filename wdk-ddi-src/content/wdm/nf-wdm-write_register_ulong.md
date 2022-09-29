@@ -47,14 +47,14 @@ api_name:
 
 The **WRITE_REGISTER_ULONG** routine dereferences the supplied pointer, inserts a memory barrier, and writes a ULONG value to the specified address.
 
-## -parameters
+### -parameters
 
-#### - Register [in]
+### -param Register [in]
 
 Pointer to the register which must be a mapped range in memory space.
 
 
-#### - Value [in]
+### -param Value [in]
 
 Specifies a ULONG value to be written to the register.
 
@@ -62,7 +62,6 @@ Specifies a ULONG value to be written to the register.
 
 This routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to this routine will complete before any operation that appears after the call.
 
-For more info about memory barriers, see [**KeMemoryBarrier**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kememorybarrier).
+For more info about memory barriers, see [**KeMemoryBarrier**](./nf-wdm-kememorybarrier.md).
 
 Callers of <b>WRITE_REGISTER_ULONG</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory.
-

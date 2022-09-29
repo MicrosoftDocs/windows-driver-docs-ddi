@@ -52,25 +52,25 @@ The D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure describes a Microsoft DirectX V
 
 ## -struct-fields
 
-### -field pVideoProcGuid
+### -field pVideoProcGuid [in]
 
-[in] A pointer to the GUID that represents a DirectX VA video processing device to create. The Microsoft Direct3D runtime can call the user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function to query for the video processing GUIDs that the driver supports.
+A pointer to the GUID that represents a DirectX VA video processing device to create. The Microsoft Direct3D runtime can call the user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function to query for the video processing GUIDs that the driver supports.
 
-### -field VideoDesc
+### -field VideoDesc [in]
 
-[in] The <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a> structure for the video stream that the video processing device should process.
+The <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a> structure for the video stream that the video processing device should process.
 
-### -field RenderTargetFormat
+### -field RenderTargetFormat [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the render target for the video processing device.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the render target for the video processing device.
 
-### -field MaxSubStreams
+### -field MaxSubStreams [in]
 
-[in] The maximum number of video substreams that can be sent to the video processing device. If this value is set to zero, the device never receives any video substreams.
+The maximum number of video substreams that can be sent to the video processing device. If this value is set to zero, the device never receives any video substreams.
 
-### -field hVideoProcess
+### -field hVideoProcess [in/out]
 
-[in/out] A handle to the video processing device. The user-mode display driver must set this handle to a value that the Microsoft Direct3D runtime can use to identify the video processing device in subsequent calls.
+A handle to the video processing device. The user-mode display driver must set this handle to a value that the Microsoft Direct3D runtime can use to identify the video processing device in subsequent calls.
 
 ## -see-also
 

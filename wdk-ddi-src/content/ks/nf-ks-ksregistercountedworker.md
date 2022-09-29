@@ -50,19 +50,19 @@ Handles clients registering for use of a thread.
 
 ## -parameters
 
-### -param WorkQueueType 
+### -param WorkQueueType [in]
 
-[in]
+
 Contains the priority of the work thread. This is normally one of the following: CriticalWorkQueue, DelayedWorkQueue, or HyperCriticalWorkQueue.
 
-### -param CountedWorkItem 
+### -param CountedWorkItem [in]
 
-[in]
+
 Contains a pointer to the work queue item that will be queued as needed based on the current count value.
 
-### -param Worker 
+### -param Worker [out]
 
-[out]
+
 Contains the opaque context that must be used when scheduling a work item. Also contains the queue type, and is used to synchronize completion of work items.
 
 ## -returns

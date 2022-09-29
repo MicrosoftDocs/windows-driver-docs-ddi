@@ -51,9 +51,9 @@ api_name:
 
 ## -parameters
 
-### -param NdisVcHandle 
+### -param NdisVcHandle [in]
 
-[in]
+
 Specifies the handle identifying the VC. This handle was supplied by NDIS to the MCM driver either
      when it called 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a> for an incoming call or

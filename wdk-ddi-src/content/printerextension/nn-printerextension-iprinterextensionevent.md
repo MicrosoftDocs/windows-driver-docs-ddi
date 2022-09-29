@@ -3,7 +3,7 @@ UID: NN:printerextension.IPrinterExtensionEvent
 title: IPrinterExtensionEvent (printerextension.h)
 description: The IPrinterExtensionEvent interface represents the event delegate implemented by desktop printer extensions for activation.
 tech.root: print
-ms.date: 06/11/2021
+ms.date: 08/04/2022
 keywords: ["IPrinterExtensionEvent interface"]
 ms.keywords: IPrinterExtensionEvent, IPrinterExtensionEvent interface [Print Devices], IPrinterExtensionEvent interface [Print Devices],described, print.iprinterextensionevent_interface, printerextension/IPrinterExtensionEvent
 req.header: printerextension.h
@@ -38,8 +38,6 @@ api_location:
 api_name:
  - IPrinterExtensionEvent
 ---
-
-# IPrinterExtensionEvent interface
 
 ## -description
 

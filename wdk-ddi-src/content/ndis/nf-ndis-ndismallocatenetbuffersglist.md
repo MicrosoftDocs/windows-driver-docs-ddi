@@ -61,17 +61,17 @@ Bus-master miniport drivers call the
 
 ## -parameters
 
-### -param NdisMiniportDmaHandle 
+### -param NdisMiniportDmaHandle [in]
 
-[in]
+
 A handle to a context area that NDIS uses to manage a DMA resource. The caller obtained this
      handle by calling the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
      NdisMRegisterScatterGatherDma</a> function.
 
-### -param NetBuffer 
+### -param NetBuffer [in]
 
-[in]
+
 A pointer to a NET_BUFFER structure. 
      <b>NdisMAllocateNetBufferSGList</b> allocates a scatter/gather list for the network data that is
      associated with this NET_BUFFER structure. The scatter/gather list is generated from the data starting
@@ -79,16 +79,16 @@ A pointer to a NET_BUFFER structure.
      <b>CurrentMdl</b> member of the associated 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_data">NET_BUFFER_DATA</a> structure.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a context area that the caller created. HAL passes this pointer to 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_process_sg_list">MiniportProcessSGList</a> after HAL
      creates the scatter/gather list. The caller can use this context area for its own purposes.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to
      zero. This function supports the NDIS_SG_LIST_WRITE_TO_DEVICE flag which; if set, indicates the
      direction of the DMA transfer is from the NET_BUFFER to the device. If NDIS_SG_LIST_WRITE_TO_DEVICE is
@@ -97,16 +97,16 @@ NDIS flags that can be combined with an OR operation. To clear all the flags, se
      from the device to a pre-allocated NET_BUFFER, for example chimney offload capable NICs during receive
      operations, should clear this flag.
 
-### -param ScatterGatherListBuffer 
+### -param ScatterGatherListBuffer [in, optional]
 
-[in, optional]
+
 If not <b>NULL</b>, 
      <i>ScatterGatherListBuffer</i> specifies a pointer to storage that the caller allocates to hold the
      scatter/gather list. If <b>NULL</b>, NDIS allocates storage for the scatter/gather list.
 
-### -param ScatterGatherListBufferSize 
+### -param ScatterGatherListBufferSize [in]
 
-[in]
+
 If the 
      <i>ScatterGatherListBuffer</i> parameter is not <b>NULL</b>, 
      <i>ScatterGatherListBufferSize</i> specifies the size of the buffer that contains the scatter/gather

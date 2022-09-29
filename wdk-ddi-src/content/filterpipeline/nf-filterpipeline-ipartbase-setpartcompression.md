@@ -49,9 +49,9 @@ The <b>SetPartCompression</b> method sets the compression of the part.
 
 ## -parameters
 
-### -param compression 
+### -param compression [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/filterpipeline/ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0001">ExpsCompressionOptions</a>-typed value that describes the compression option for the part.
 
 ## -returns

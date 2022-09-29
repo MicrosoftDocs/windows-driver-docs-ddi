@@ -48,33 +48,33 @@ The **DxgkCbMapMemory** function maps a range of translated physical addresses (
 
 ## -parameters
 
-### -param DeviceHandle
+### -param DeviceHandle [in]
 
-[in] A handle that represents a display adapter. The display miniport driver previously obtained this handle in the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](ns-dispmprt-_dxgkrnl_interface.md) structure that was passed to [**DxgkDdiStartDevice**](nc-dispmprt-dxgkddi_start_device.md).
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the **DeviceHandle** member of the [**DXGKRNL_INTERFACE**](ns-dispmprt-_dxgkrnl_interface.md) structure that was passed to [**DxgkDdiStartDevice**](nc-dispmprt-dxgkddi_start_device.md).
 
-### -param TranslatedAddress
+### -param TranslatedAddress [in]
 
-[in] The base translated physical address of the memory range to be mapped. The display miniport driver previously obtained this address by calling [**DxgkCbGetDeviceInformation**](nc-dispmprt-dxgkcb_get_device_information.md).
+The base translated physical address of the memory range to be mapped. The display miniport driver previously obtained this address by calling [**DxgkCbGetDeviceInformation**](nc-dispmprt-dxgkcb_get_device_information.md).
 
-### -param Length
+### -param Length [in]
 
-[in] The size, in bytes, of the range to be mapped.
+The size, in bytes, of the range to be mapped.
 
-### -param InIoSpace
+### -param InIoSpace [in]
 
-[in] A Boolean value that specifies whether the range is in I/O space (**TRUE**) or memory space (**FALSE**).
+A Boolean value that specifies whether the range is in I/O space (**TRUE**) or memory space (**FALSE**).
 
-### -param MapToUserMode
+### -param MapToUserMode [in]
 
-[in] A Boolean value that specifies whether the range is mapped into user-mode space or system space. If **TRUE**, the range is mapped into the (user-mode) virtual address space of the current process. If **FALSE**, the range is mapped into system space. If **InIoSpace** is **TRUE**, this parameter is ignored.
+A Boolean value that specifies whether the range is mapped into user-mode space or system space. If **TRUE**, the range is mapped into the (user-mode) virtual address space of the current process. If **FALSE**, the range is mapped into system space. If **InIoSpace** is **TRUE**, this parameter is ignored.
 
-### -param CacheType
+### -param CacheType [in]
 
-[in] A [**MEMORY_CACHING_TYPE**](../wdm/ne-wdm-_memory_caching_type.md) enumerator that specifies the caching behavior of the mapped range.
+A [**MEMORY_CACHING_TYPE**](../wdm/ne-wdm-_memory_caching_type.md) enumerator that specifies the caching behavior of the mapped range.
 
-### -param VirtualAddress
+### -param VirtualAddress [out]
 
-[out] A pointer to a variable that receives the address of the beginning of the mapped range. The way that the mapped range is accessed depends on the values of **InIoSpace** and **MapToUserMode**. The following table summarizes the different ways that the mapped range is accessed.
+A pointer to a variable that receives the address of the beginning of the mapped range. The way that the mapped range is accessed depends on the values of **InIoSpace** and **MapToUserMode**. The following table summarizes the different ways that the mapped range is accessed.
 
 | Value of InIoSpace | MapToUserMode is FALSE           | MapToUserMode is TRUE |
 | ------------------ |-----------------------           | --------------------- |

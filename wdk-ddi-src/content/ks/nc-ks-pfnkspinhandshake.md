@@ -2,9 +2,8 @@
 UID: NC:ks.PFNKSPINHANDSHAKE
 title: PFNKSPINHANDSHAKE (ks.h)
 description: An AVStream minidriver's AVStrMiniPinHandshake routine is called when AVStream receives a protocol handshake request that it does not handle.
-old-location: stream\avstrminipinhandshake.htm
 tech.root: stream
-ms.date: 07/15/2021
+ms.date: 07/13/2022
 keywords: ["PFNKSPINHANDSHAKE callback function"]
 ms.keywords: AVStrMiniPinHandshake, AVStrMiniPinHandshake routine [Streaming Media Devices], PFNKSPINHANDSHAKE, avstclbk_3a87dcb0-5825-4ba0-b9b3-dfb6a1af20a2.xml, ks/AVStrMiniPinHandshake, stream.avstrminipinhandshake
 req.header: ks.h
@@ -40,8 +39,6 @@ api_name:
  - PFNKSPINHANDSHAKE
 ---
 
-# PFNKSPINHANDSHAKE callback function
-
 ## -description
 
 An AVStream minidriver's *AVStrMiniPinHandshake* routine is called when AVStream receives a protocol handshake request that it does not handle.
@@ -50,21 +47,15 @@ An AVStream minidriver's *AVStrMiniPinHandshake* routine is called when AVStream
 
 ### -param Pin
 
+Describes the **PKSPIN** parameter Pin.
+
 ### -param In
+
+Describes the **PKSHANDSHAKE** parameter *In*.
 
 ### -param Out
 
-#### - Data [in]
-
-Pointer to a caller-allocated buffer. If the pin supports the requested protocol, *AVStrMiniPinHandshake* should fill in this parameter with a pointer to a [**KSHANDSHAKE**](./ns-ks-kshandshake.md) structure.
-
-#### - Irp [in]
-
-Pointer to the IRP containing the handshake request.
-
-#### - Request [in]
-
-Pointer to a [**KSIDENTIFIER**](./ns-ks-ksidentifier.md) structure that contains a GUID identifying the requested protocol.
+Describes the **PKSHANDSHAKE** parameter *Out*.
 
 ## -returns
 

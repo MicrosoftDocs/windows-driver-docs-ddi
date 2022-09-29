@@ -49,43 +49,43 @@ Reads or writes to mitigated address spaces.
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a driver-defined context.
 
-### -param VfIndex 
+### -param VfIndex [in]
 
-[in]
+
 A zero-based index of the VF to which this read/write operation applies.
 
-### -param Read 
+### -param Read [in]
 
-[in]
+
 
 
 A boolean that indicates whether to perform a read or a write operation. TRUE indicates read, FALSE otherwise.
 
-### -param BarIndex 
+### -param BarIndex [in]
 
-[in]
+
 The BAR that maps the address space being mitigated.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 The offset in number of bytes into the BAR at which this access begins.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 
 
 The length in bytes of this read or write operation.
 
-### -param Data 
+### -param Data [in, out]
 
-[in, out]
+
 A pointer to a buffer that contains the data to read or write.
 
 ## -returns

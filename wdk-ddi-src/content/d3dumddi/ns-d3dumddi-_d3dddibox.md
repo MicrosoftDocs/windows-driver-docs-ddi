@@ -52,29 +52,29 @@ Describes the bounds of a volume texture.
 
 ## -struct-fields
 
-### -field Left
+### -field Left [in]
 
-[in] The position of the left side of the box on the x-axis.
+The position of the left side of the box on the x-axis.
 
-### -field Top
+### -field Top [in]
 
-[in] The position of the top of the box on the y-axis.
+The position of the top of the box on the y-axis.
 
-### -field Right
+### -field Right [in]
 
-[in] The position of the right side of the box on the x-axis.
+The position of the right side of the box on the x-axis.
 
-### -field Bottom
+### -field Bottom [in]
 
-[in] The position of the bottom of the box on the y-axis.
+The position of the bottom of the box on the y-axis.
 
 ### -field Front
 
       [in] The position of the front of the box on the z-axis.
 
-### -field Back
+### -field Back [in]
 
-[in] The position of the back of the box on the z-axis.
+The position of the back of the box on the z-axis.
 
 ## -remarks
 

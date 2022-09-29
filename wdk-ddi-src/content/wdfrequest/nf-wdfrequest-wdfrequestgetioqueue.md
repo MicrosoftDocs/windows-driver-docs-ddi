@@ -54,9 +54,9 @@ The <b>WdfRequestGetIoQueue</b> method returns a handle to the framework queue o
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
 ## -returns

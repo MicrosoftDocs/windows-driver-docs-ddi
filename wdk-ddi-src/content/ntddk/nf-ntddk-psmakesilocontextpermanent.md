@@ -49,14 +49,14 @@ This routine makes the slot in a silo instance read-only, allowing the object in
 
 ## -parameters
 
-### -param Silo 
+### -param Silo [in]
 
-[in]
+
 The silo in which the slot resides. This parameter is required and it cannot be <b>NULL</b>.
 
-### -param ContextSlot 
+### -param ContextSlot [in]
 
-[in]
+
 The slot to make read-only. The slot must be previously allocated by the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine.
 
 ## -returns

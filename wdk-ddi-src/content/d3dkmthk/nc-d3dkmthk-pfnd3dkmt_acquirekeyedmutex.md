@@ -3,7 +3,7 @@ UID: NC:d3dkmthk.PFND3DKMT_ACQUIREKEYEDMUTEX
 title: PFND3DKMT_ACQUIREKEYEDMUTEX (d3dkmthk.h)
 description: The PFND3DKMT_ACQUIREKEYEDMUTEX callback function acquires a keyed mutex object. The function returns STATUS_SUCCESS if the keyed mutex object was successfully acquired.
 old-location: display\d3dkmtacquirekeyedmutex.htm
-ms.date: 05/10/2018
+ms.date: 03/03/2022
 keywords: ["PFND3DKMT_ACQUIREKEYEDMUTEX callback function"]
 ms.keywords: D3DKMTAcquireKeyedMutex, D3DKMTAcquireKeyedMutex callback function [Display Devices], OpenGL_Functions_547da245-f41b-4e73-bf9c-7a72f6104def.xml, PFND3DKMT_ACQUIREKEYEDMUTEX, PFND3DKMT_ACQUIREKEYEDMUTEX callback, d3dkmthk/D3DKMTAcquireKeyedMutex, display.d3dkmtacquirekeyedmutex
 req.header: d3dkmthk.h
@@ -42,31 +42,29 @@ api_name:
 
 # PFND3DKMT_ACQUIREKEYEDMUTEX callback function
 
-
 ## -description
 
-The <b>D3DKMTAcquireKeyedMutex</b> function acquires a keyed mutex object.
+The **D3DKMTAcquireKeyedMutex** function acquires a keyed mutex object.
 
 ## -parameters
 
-### -param pData
+### -param unnamedParam1 [in, out]
 
-[in, out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_acquirekeyedmutex">D3DKMT_ACQUIREKEYEDMUTEX</a> structure that specifies the keyed mutex object to acquire.
+A pointer to a [D3DKMT_ACQUIREKEYEDMUTEX](ns-d3dkmthk-_d3dkmt_acquirekeyedmutex.md) structure that specifies the keyed mutex object to acquire.
 
 ## -returns
 
-<b>D3DKMTAcquireKeyedMutex</b> returns one of the following values:
+**D3DKMTAcquireKeyedMutex** returns one of the following values:
 
-| **Return code** | **Description** | 
-|:--|:--|
-| **STATUS_SUCCESS** | The keyed mutex object was successfully acquired. | 
-| **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
-| **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
-| **STATUS_NO_MEMORY** | [D3DKMTAcquireKeyedMutex](./nf-d3dkmthk-d3dkmtacquirekeyedmutex.md)  could not complete because of insufficient memory. | 
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The keyed mutex object was successfully acquired. |
+| STATUS_DEVICE_REMOVED | The graphics adapter was stopped or the display device was reset. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
+| STATUS_NO_MEMORY | [D3DKMTAcquireKeyedMutex](nf-d3dkmthk-d3dkmtacquirekeyedmutex.md) could not complete because of insufficient memory. |
 
-This function might also return other <b>NTSTATUS</b> values.
+This function might also return other **NTSTATUS** values.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_acquirekeyedmutex">D3DKMT_ACQUIREKEYEDMUTEX</a>
-
+[D3DKMT_ACQUIREKEYEDMUTEX](ns-d3dkmthk-_d3dkmt_acquirekeyedmutex.md)

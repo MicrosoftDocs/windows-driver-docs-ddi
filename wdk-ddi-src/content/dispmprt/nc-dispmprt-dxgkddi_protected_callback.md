@@ -49,17 +49,17 @@ The <i>DxgkProtectedCallback</i> callback routine is implemented by the display 
 
 ## -parameters
 
-### -param MiniportDeviceContext
+### -param MiniportDeviceContext [in]
 
-[in] A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
-### -param ProtectedCallbackContext 
+### -param ProtectedCallbackContext [in]
 
-[in] A pointer to driver-defined information that was specified in a previous call to <a href="..\dispmprt\nc-dispmprt-dxgkcb_exclude_adapter_access.md">DxgkCbExcludeAdapterAccess</a>.
+A pointer to driver-defined information that was specified in a previous call to <a href="..\dispmprt\nc-dispmprt-dxgkcb_exclude_adapter_access.md">DxgkCbExcludeAdapterAccess</a>.
 
-### -param ProtectionStatus 
+### -param ProtectionStatus [in]
 
-[in] Status of the display adapter's protected state. If STATUS_SUCCESS, the adapter was successfully protected from access. A failure status code indicates that the adapter is not protected.
+Status of the display adapter's protected state. If STATUS_SUCCESS, the adapter was successfully protected from access. A failure status code indicates that the adapter is not protected.
 
 ## -prototype
 

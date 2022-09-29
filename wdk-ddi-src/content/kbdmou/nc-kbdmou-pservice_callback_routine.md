@@ -49,24 +49,24 @@ A function driver calls the class service callback in its ISR dispatch completio
 
 ## -parameters
 
-### -param NormalContext 
+### -param NormalContext [in]
 
-[in]
+
 Pointer to the class device object.
 
-### -param SystemArgument1 
+### -param SystemArgument1 [in]
 
-[in]
+
 Pointer to the first keyboard input data packet in the input data buffer of the port device.
 
-### -param SystemArgument2 
+### -param SystemArgument2 [in]
 
-[in]
+
 Pointer to the keyboard input data packet that immediately follows the last data packet in the input data buffer of the port device.
 
-### -param SystemArgument3 
+### -param SystemArgument3 [in, out]
 
-[in, out]
+
 Pointer to the number of keyboard input data packets that are transferred by the routine.
 
 ## -remarks

@@ -6,8 +6,6 @@ ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
 ms.date: 10/30/2021
 keywords: ["Networking drivers for Windows Vista and later"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 ms.custom: contperf-fy22q2
 ---
@@ -47,6 +45,7 @@ This is a complete list of all headers in the WDK for network drivers; headers t
 - [Mdl.h](../mdl/index.md)
 - [Mdlapi.h](../mdlapi/index.md)
 - [Mdltypes.h](../mdltypes/index.md)
+- [Miniport.h](../miniport/index.md)
 - [Nbl.h](../nbl/index.md)
 - [Nbl8021q.h](../nbl8021q/index.md)
 - [Nblaccessors.h](../nblaccessors/index.md)
@@ -121,13 +120,16 @@ Header files that support NetAdapterCx include the following:
 - [Checksumtypes.h](../checksumtypes/index.md)
 - [Extension.h](../extension/index.md)
 - [Fragment.h](../fragment/index.md)
-- [ieee8021q.h](../ieee8021q/index.md)
-- [ieee8021qtypes.h](../ieee8021qtypes/index.md)
+- [Gso.h](../gso/index.md)
+- [Gsotypes.h](../gsotypes/index.md)
+- [Ieee8021q.h](../ieee8021q/index.md)
+- [Ieee8021qtypes.h](../ieee8021qtypes/index.md)
 - [Logicaladdress.h](../logicaladdress/index.md)
 - [Logicaladdresstypes.h](../logicaladdresstypes/index.md)
 - [Mdl.h](../mdl/index.md)
 - [Mdltypes.h](../mdltypes/index.md)
 - [Netadapter.h](../netadapter/index.md)
+- [Netadaptercxtypes.h](../netadaptercxtypes/index.md)
 - [Netadapteroffload.h](../netadapteroffload/index.md)
 - [Netadapterpacket.h](../netadapterpacket/index.md)
 - [Netconfiguration.h](../netconfiguration/index.md)
@@ -190,9 +192,40 @@ Header files that support virtualized networking include the following:
 
 ## Wireless Networking
 
-Windows network drivers support both Wi-Fi and Mobile Broadband. For Windows Vista, Windows 7, Windows 8, and Windows 8.1, Wi-Fi drivers use the Native 802.11 Wireless LAN model. For Windows 10 and later, Wi-Fi drivers use the WLAN Universal Windows driver model, or WDI.
+Windows network drivers support both Wi-Fi and Mobile Broadband. 
 
-For more info about wireless networking, see [Wireless Networking](/windows-hardware/drivers/network/wireless-networking2).
+### MBBCx
+
+Starting in Windows 10, version 1809, the Windows Driver Kit (WDK) includes a class extension module (MBBCx) that enables you to write a KMDF-based mobile broadband (MBB) client driver for MBB devices. The client driver interacts with MBBCx for mobile broadband media-specific functionality in addition to being based on [NetAdapterCx](#netadaptercx) and WDF.
+
+For more info about MBBCx, see [Mobile Broadband (MBB) WDF class extension](/windows-hardware/drivers/netcx/mobile-broadband-mbb-wdf-class-extension-mbbcx).
+
+Header files that support MBBCx include the following:
+
+- [Mbbcx.h](../mbbcx/index.md)
+
+### WiFiCx
+
+Starting in Windows 11, the Windows Driver Kit (WDK) includes a Wi-Fi WDF class extension (WiFiCx) that enables you to write a KMDF-based Wi-Fi client driver for Wi-Fi devices. The client driver interacts with WiFiCx for Wi-Fi media-specific functionality in addition to being based on [NetAdapterCx](#netadaptercx) and WDF.
+
+For more info about WiFiCx, see [Introduction to the Wi-Fi WDF class extension (WiFiCx)](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx).
+
+Header files that support WiFiCx include the following:
+
+- [Dot11wificxintf.h](../dot11wificxintf/index.md)
+- [Dot11wificxtypes.h](../dot11wificxtypes/index.md)
+- [Wificx.h](../wificx/index.md)
+- [Wificxpoweroffload.h](../wificxpoweroffload/index.md)
+- [Wificxpoweroffloadlist.h](../wificxpoweroffloadlist/index.md)
+- [Wificxtypes.h](../wificxtypes/index.md)
+- [Wificxwakesource.h](../wificxwakesource/index.md)
+- [Wificxwakesourcelist.h](../wificxwakesourcelist/index.md)
+
+### Older wireless networking models
+
+For Windows Vista, Windows 7, Windows 8, and Windows 8.1, Wi-Fi drivers use the Native 802.11 Wireless LAN model. For Windows 10 and later, Wi-Fi drivers use the WLAN Universal Windows driver model, or WDI.
+
+For more info, see [Wireless Networking](/windows-hardware/drivers/network/wireless-networking2).
 
 Header files that support wireless networking include the following:
 
@@ -206,16 +239,6 @@ Header files that support wireless networking include the following:
 - [Wlantypes.h](../wlantypes/index.md)
 - [Wlclient.h](../wlclient/index.md)
 - [Wwan.h](../wwan/index.md)
-
-## MBBCx
-
-Starting in Windows 10, version 1809, the Windows Driver Kit (WDK) includes a class extension module (MBBCx) that enables you to write a KMDF-based mobile broadband (MBB) client driver for MBB devices. The client driver interacts with MBBCx for mobile broadband media-specific functionality in addition to being based on [NetAdapterCx](#netadaptercx) and WDF.
-
-For more info about MBBCx, see [Mobile Broadband (MBB) WDF class extension](/windows-hardware/drivers/netcx/mobile-broadband-mbb-wdf-class-extension-mbbcx).
-
-Header files that support MBBCx include the following:
-
-- [Mbbcx.h](../mbbcx/index.md)
 
 ## Network Module Registrar
 

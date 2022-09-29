@@ -49,14 +49,14 @@ The <b>FltGetFilterFromName</b> routine returns an opaque filter pointer for a r
 
 ## -parameters
 
-### -param FilterName 
+### -param FilterName [in]
 
-[in]
+
 Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the minifilter driver name. (The name comparison is case-insensitive.)
 
-### -param RetFilter 
+### -param RetFilter [out]
 
-[out]
+
 Pointer to a caller-allocated variable that receives an opaque filter pointer for the minifilter driver whose name matches the name in the <i>FilterName</i> parameter. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns

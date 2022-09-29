@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetFieldNameWide (dbgeng.h)
 description: The GetFieldNameWide method returns the name of a field within a structure.
 old-location: debugger\getfieldnamewide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetFieldNameWide"]
 ms.keywords: GetFieldNameWide, GetFieldNameWide method [Windows Debugging], GetFieldNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFieldNameWide method, IDebugSymbols3.GetFieldNameWide, IDebugSymbols3::GetFieldNameWide, dbgeng/IDebugSymbols3::GetFieldNameWide, debugger.getfieldnamewide
 req.header: dbgeng.h
@@ -49,35 +49,35 @@ The <b>GetFieldNameWide</b>  method returns the name of a field within a structu
 
 ## -parameters
 
-### -param Module 
+### -param Module [in]
 
-[in]
+
 Specifies the base address of the module in which the structure was defined.
 
-### -param TypeId 
+### -param TypeId [in]
 
-[in]
+
 Specifies the type ID of the structure.
 
-### -param FieldIndex 
+### -param FieldIndex [in]
 
-[in]
+
 Specifies the index of the desired field within the structure.
 
-### -param NameBuffer 
+### -param NameBuffer [out, optional]
 
-[out, optional]
+
 Receives the field's name.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param NameBufferSize 
+### -param NameBufferSize [in]
 
-[in]
-Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
-### -param NameSize 
+Specifies the size in characters of the buffer <i>NameBuffer</i>. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the field's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+### -param NameSize [out, optional]
+
+
+Receives the size in characters of the field's name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

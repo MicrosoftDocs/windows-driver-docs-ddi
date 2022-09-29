@@ -1,10 +1,10 @@
 ---
 UID: NS:storport._MINIPORT_DUMP_POINTERS
-title: _MINIPORT_DUMP_POINTERS (storport.h)
+title: MINIPORT_DUMP_POINTERS (storport.h)
 description: A Storport miniport driver uses this structure to support the SCSI_REQUEST_BLOCK (SRB) function code SRB_FUNCTION_DUMP_POINTERS.
 old-location: storage\miniport_dump_pointers.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/24/2022
 keywords: ["MINIPORT_DUMP_POINTERS structure"]
 ms.keywords: "*PMINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS structure [Storage Devices], PMINIPORT_DUMP_POINTERS, PMINIPORT_DUMP_POINTERS structure pointer [Storage Devices], _MINIPORT_DUMP_POINTERS, storage.miniport_dump_pointers, storport/MINIPORT_DUMP_POINTERS, storport/PMINIPORT_DUMP_POINTERS, structs-virtual_34ca963f-93fe-4e7d-8e02-02bde32cf2ef.xml"
 req.header: storport.h
@@ -46,8 +46,7 @@ api_name:
  - MINIPORT_DUMP_POINTERS
 ---
 
-# _MINIPORT_DUMP_POINTERS structure
-
+# MINIPORT_DUMP_POINTERS structure
 
 ## -description
 
@@ -109,7 +108,7 @@ Specifies the number of **AccessRanges** elements in the array. For more informa
 
 ### -field AccessRanges
 
-Pointer to an array of access range elements.
+A pointer to an array of ACCESS_RANGE-type elements. The Storport driver initializes this member. Miniport drivers that work with the Storport driver must not change this member. For more information, see the **AccessRanges** member of [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md).
 
 ### -field NumberOfBuses
 
@@ -127,10 +126,6 @@ Indicates whether the Storport driver maps SRB data buffer addresses to system v
 
 Specifies the number of target peripherals that the adapter can control. For more information, see the **MaximumNumberOfTargets** member of [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md).
 
-#### - (*AccessRanges)
-
-A pointer to an array of ACCESS_RANGE-type elements. The Storport driver initializes this member. Miniport drivers that work with the Storport driver must not change this member. For more information, see the **AccessRanges** member of [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md).
-
 ## -remarks
 
 Starting with Windows 8, physical minport drivers can optionally support SRB_FUNCTION_DUMP_POINTERS. If a physical miniport supports this function, it must set the STOR_FEATURE_DUMP_POINTERS flag in the **FeatureSupport** member of the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md) structure before calling [**StorPortInitialize**](nf-storport-storportinitialize.md). Physical miniports are required to set at least the **Version** and **Size** members of **MINIPORT_DUMP_POINTERS**. Also, if different from the value given in [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md), the **MaximumTransferLength** member is required for a physical miniport.
@@ -144,4 +139,3 @@ Starting with Windows 8, physical minport drivers can optionally support SRB_FU
 [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md)
 
 [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md)
-

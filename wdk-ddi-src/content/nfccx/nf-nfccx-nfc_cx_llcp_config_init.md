@@ -50,9 +50,9 @@ The <b>NFC_CX_LLCP_CONFIG_INIT</b> function initializes the <a href="/windows-ha
 
 ## -parameters
 
-### -param Config 
+### -param Config [out]
 
-[out]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/nfccx/ns-nfccx-_nfc_cx_llcp_config">NFC_CX_LLCP_CONFIG</a> structure that the function will initialize.
 
 ## -see-also

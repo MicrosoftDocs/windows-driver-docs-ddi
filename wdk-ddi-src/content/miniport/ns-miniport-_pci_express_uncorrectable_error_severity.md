@@ -1,10 +1,9 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY
-title: _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY (miniport.h)
-description: The _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure (miniport.h) describes a PCI Express (PCIe) uncorrectable error severity register.
-old-location: pci\pci_express_uncorrectable_error_severity.htm
+title: PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY (miniport.h)
+description: The _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union (miniport.h) describes a PCI Express (PCIe) uncorrectable error severity register.
 tech.root: PCI
-ms.date: 02/24/2018
+ms.date: 07/19/2022
 keywords: ["PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure"]
 ms.keywords: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PCI.pci_express_uncorrectable_error_severity, PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union pointer [Buses], _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, pci_struct_49aec790-2c99-489c-b0ca-0653ebe5b52c.xml, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY"
 req.header: miniport.h
@@ -46,136 +45,110 @@ api_name:
  - PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY
 ---
 
-# _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure (miniport.h)
-
-
 ## -description
 
-The PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure describes a PCI Express (PCIe) uncorrectable error severity register of a PCIe advanced error reporting capability structure.
+The **PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY** union describes a PCI Express (PCIe) uncorrectable error severity register of a PCIe advanced error reporting capability structure.
 
 ## -struct-fields
 
 ### -field DUMMYSTRUCTNAME
 
-### -field AsULONG
+The **DUMMYSTRUCTNAME** structure.
 
-A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure.
-
-
-#### - CompleterAbort
-
-A single bit that indicates that a reported completer abort is a fatal error.
-
-
-#### - CompletionTimeout
-
-A single bit that indicates that a reported completion timeout is a fatal error.
-
-
-#### - DataLinkProtocolError
-
-A single bit that indicates that a reported data link protocol error is a fatal error.
-
-
-#### - ECRCError
-
-A single bit that indicates that a reported end-to-end cyclic redundancy check (ECRC) error is a fatal error.
-
-
-#### - FlowControlProtocolError
-
-A single bit that indicates that a reported flow control protocol error is a fatal error.
-
-
-#### - MalformedTLP
-
-A single bit that indicates that a reported malformed transaction layer packet (TLP) is a fatal error.
-
-
-#### - PoisonedTLP
-
-A single bit that indicates that a reported poisoned transaction layer packet (TLP) is a fatal error.
-
-
-#### - ReceiverOverflow
-
-A single bit that indicates that a reported receiver overflow is a fatal error.
-
-
-#### - Reserved1
-
-Reserved.
-
-
-#### - Reserved2
-
-Reserved.
-
-
-#### - Reserved3
-
-Reserved.
-
-
-#### - SurpriseDownError
-
-A single bit that indicates that a reported surprise down error is a fatal error.
-
-
-#### - Undefined
+### -field DUMMYSTRUCTNAME.Undefined
 
 A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a reported link training error is a fatal error.
 
+### -field DUMMYSTRUCTNAME.Reserved1
 
-#### - UnexpectedCompletion
+Reserved.
+
+### -field DUMMYSTRUCTNAME.DataLinkProtocolError
+
+A single bit that indicates that a reported data link protocol error is a fatal error.
+
+### -field DUMMYSTRUCTNAME.SurpriseDownError
+
+A single bit that indicates that a reported surprise down error is a fatal error.
+
+### -field DUMMYSTRUCTNAME.Reserved2
+
+Reserved.
+
+### -field DUMMYSTRUCTNAME.PoisonedTLP
+
+A single bit that indicates that a reported poisoned transaction layer packet (TLP) is a fatal error.
+
+### -field DUMMYSTRUCTNAME.FlowControlProtocolError
+
+A single bit that indicates that a reported flow control protocol error is a fatal error.
+
+### -field DUMMYSTRUCTNAME.CompletionTimeout
+
+A single bit that indicates that a reported completion timeout is a fatal error.
+
+### -field DUMMYSTRUCTNAME.CompleterAbort
+
+A single bit that indicates that a reported completer abort is a fatal error.
+
+### -field DUMMYSTRUCTNAME.UnexpectedCompletion
 
 A single bit that indicates that a reported unexpected completion is a fatal error.
 
+### -field DUMMYSTRUCTNAME.ReceiverOverflow
 
-#### - UnsupportedRequestError
+A single bit that indicates that a reported receiver overflow is a fatal error.
+
+### -field DUMMYSTRUCTNAME.MalformedTLP
+
+A single bit that indicates that a reported malformed transaction layer packet (TLP) is a fatal error.
+
+### -field DUMMYSTRUCTNAME.ECRCError
+
+A single bit that indicates that a reported end-to-end cyclic redundancy check (ECRC) error is a fatal error.
+
+### -field DUMMYSTRUCTNAME.UnsupportedRequestError
 
 A single bit that indicates that a reported unsupported request error is a fatal error.
 
-## -syntax
+### -field DUMMYSTRUCTNAME.AcsViolation
 
-```cpp
-typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY {
-  struct {
-    ULONG Undefined  :1;
-    ULONG Reserved1  :3;
-    ULONG DataLinkProtocolError  :1;
-    ULONG SurpriseDownError  :1;
-    ULONG Reserved2  :6;
-    ULONG PoisonedTLP  :1;
-    ULONG FlowControlProtocolError  :1;
-    ULONG CompletionTimeout  :1;
-    ULONG CompleterAbort  :1;
-    ULONG UnexpectedCompletion  :1;
-    ULONG ReceiverOverflow  :1;
-    ULONG MalformedTLP  :1;
-    ULONG ECRCError  :1;
-    ULONG UnsupportedRequestError  :1;
-    ULONG Reserved3  :11;
-  };
-  ULONG  AsULONG;
-} PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY;
-```
+Defines the **ULONG** member **AcsViolation**.
+
+### -field DUMMYSTRUCTNAME.UncorrectableInternalError
+
+Defines the **ULONG** member **UncorrectableInternalError**.
+
+### -field DUMMYSTRUCTNAME.MCBlockedTlp
+
+Defines the **ULONG** member **MCBlockedTlp**.
+
+### -field DUMMYSTRUCTNAME.AtomicOpEgressBlocked
+
+Defines the **ULONG** member **AtomicOpEgressBlocked**.
+
+### -field DUMMYSTRUCTNAME.TlpPrefixBlocked
+
+Defines the **ULONG** member **TlpPrefixBlocked**.
+
+### -field DUMMYSTRUCTNAME.Reserved3
+
+Reserved.
+
+### -field AsULONG
+
+A **ULONG** representation of the contents of the **PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY** structure.
 
 ## -remarks
 
 The PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure is contained in the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a>, <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>, and <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a> structures.
+A PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure is contained in the [PCI_EXPRESS_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability), [PCI_EXPRESS_BRIDGE_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability), and [PCI_EXPRESS_ROOTPORT_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability) structures.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a>
+[PCI_EXPRESS_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability)
 
+[PCI_EXPRESS_BRIDGE_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
-
+[PCI_EXPRESS_ROOTPORT_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability)

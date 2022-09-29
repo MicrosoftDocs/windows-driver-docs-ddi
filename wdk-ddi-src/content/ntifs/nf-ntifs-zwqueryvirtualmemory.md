@@ -4,13 +4,13 @@ title: ZwQueryVirtualMemory function (ntifs.h)
 description: The ZwQueryVirtualMemory routine determines the state, protection, and type of a region of pages within the virtual address space of the subject process.
 old-location: kernel\zwqueryvirtualmemory.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/26/2022
 keywords: ["ZwQueryVirtualMemory function"]
 ms.keywords: NtQueryVirtualMemory, ZwQueryVirtualMemory, ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwqueryvirtualmemory, ntifs/NtQueryVirtualMemory, ntifs/ZwQueryVirtualMemory
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 10.
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,132 +42,57 @@ api_name:
 
 # ZwQueryVirtualMemory function
 
-
 ## -description
 
-The <b>ZwQueryVirtualMemory</b> routine determines the state,
-    protection, and type of a region of pages within the virtual address
-    space of the subject process.
+The **ZwQueryVirtualMemory** routine determines the state, protection, and type of a region of pages within the virtual address space of the subject process.
 
 ## -parameters
 
-### -param ProcessHandle 
+### -param ProcessHandle [in]
 
-[in]
-A handle for the process in whose context the pages to be queried reside. Use the [ZwCurrentProcess](/windows-hardware/drivers/kernel/zwcurrentprocess) macro to specify the current process.
+A handle for the process in whose context the pages to be queried reside. Use the [**ZwCurrentProcess**](/windows-hardware/drivers/kernel/zwcurrentprocess) macro to specify the current process.
 
-### -param BaseAddress 
+### -param BaseAddress [in, optional]
 
-[in, optional]
-The base address of the region of pages to be
-                  queried. This value is rounded down to the next host-page-
-                  address boundary.
+The base address of the region of pages to be queried. This value is rounded down to the next host-page address boundary.
 
-### -param MemoryInformationClass 
+### -param MemoryInformationClass [in]
 
-[in]
-The memory information class about which
-                             to retrieve information. Currently, the only supported <a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_memory_information_class">MEMORY_INFORMATION_CLASS</a> value is <b>MemoryBasicInformation</b>.
+The memory information class about which to retrieve information. Currently, the only supported [**MEMORY_INFORMATION_CLASS**](ne-ntifs-_memory_information_class.md) value is **MemoryBasicInformation**.
 
-### -param MemoryInformation 
+### -param MemoryInformation [out]
 
-[out]
-A pointer to a buffer that receives the specified
-                        information.  The format and content of the buffer
-                        depend on the specified information class specified in the <i>MemoryInformationClass</i> parameter. When the value <b>MemoryBasicInformation</b> is passed to <i>MemoryInformationClass</i>, the <i>MemoryInformationClass</i> parameter value is a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
+A pointer to a buffer that receives the specified information.  The format and content of the buffer depend on the specified information class specified in the **MemoryInformationClass** parameter. When the value **MemoryBasicInformation** is passed to **MemoryInformationClass**, the **MemoryInformationClass** parameter value is a [**MEMORY_INFORMATION_CLASS**](ne-ntifs-_memory_information_class.md).
 
-### -param MemoryInformationLength 
+### -param MemoryInformationLength [in]
 
-[in]
-Specifies the length in bytes of
-                              the memory information buffer.
+Specifies the length in bytes of the memory information buffer.
 
-### -param ReturnLength 
+### -param ReturnLength [out, optional]
 
-[out, optional]
-An optional pointer which, if specified, receives the
-                   number of bytes placed in the memory information buffer.
+An optional pointer which, if specified, receives the number of bytes placed in the memory information buffer.
 
 ## -returns
 
 Returns STATUS_SUCCESS if the call is successful. If the call fails, possible error codes include the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified base address is outside the range of accessible addresses.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The caller had insufficient access rights to perform the requested action.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INFO_LENGTH_MISMATCH</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>MemoryInformation</i> buffer is larger than <i>MemoryInformationLength.</i>
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_INFO_CLASS</b></dt>
-</dl>
-</td>
-<td width="60%">
-A value other than <b>MemoryBasicInformation</b> was passed to the <i>MemoryInformationClass</i>  parameter.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_INVALID_PARAMETER    | The specified base address is outside the range of accessible addresses. |
+| STATUS_ACCESS_DENIED        | The caller had insufficient access rights to perform the requested action. |
+| STATUS_INFO_LENGTH_MISMATCH | The **MemoryInformation** buffer is larger than **MemoryInformationLength.** |
+| STATUS_INVALID_INFO_CLASS   | A value other than **MemoryBasicInformation** was passed to the **MemoryInformationClass**  parameter. |
 
 ## -remarks
 
-<b>ZwQueryVirtualMemory</b> determines the state of the first page within the region and then
-    scans subsequent entries in the process address map from the
-    base address upward until either the entire range of pages has been
-    scanned or until a page with a non-matching set of attributes is
-    encountered. The region attributes, the length of the region of pages
-    with matching attributes, and an appropriate status value are
-    returned.
+**ZwQueryVirtualMemory** determines the state of the first page within the region and then scans subsequent entries in the process address map from the base address upward until either the entire range of pages has been scanned or until a page with a non-matching set of attributes is encountered. The region attributes, the length of the region of pages with matching attributes, and an appropriate status value are returned.
 
-If the entire region of pages does not have a matching set of
-    attributes, then the <i>ReturnLength</i> parameter value can be used to
-    compute the address and length of the region of pages that was not
-    scanned.
+If the entire region of pages does not have a matching set of attributes, then the **ReturnLength** parameter value can be used to compute the address and length of the region of pages that was not scanned.
 
+[**NtQueryVirtualMemory**](nf-ntifs-ntqueryvirtualmemory.md) and **ZwQueryVirtualMemory** are two versions of the same Windows Native System Services routine.
 
-<a href="/previous-versions/dn957455(v=vs.85)">NtQueryVirtualMemory</a> and <b>ZwQueryVirtualMemory</b> are two versions of the same Windows Native System Services routine.
-
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+For calls from kernel-mode drivers, the **Nt**Xxx**** and **Zw**Xxx**** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information">POWER_PLATFORM_INFORMATION</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
-
+[**POWER_PLATFORM_INFORMATION**](../wdm/ns-wdm-_power_platform_information.md)

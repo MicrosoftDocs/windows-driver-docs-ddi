@@ -49,9 +49,9 @@ The <b>SendRecv</b> method sends a bidi request to the printer.
 
 ## -parameters
 
-### -param pszAction 
+### -param pszAction [in]
 
-[in]
+
 A pointer to a NULL-terminated string that specifies the action for this bidi request. It can be one of the following constants.
 
 <table>
@@ -87,9 +87,9 @@ A pointer to a NULL-terminated string that specifies the action for this bidi re
 </tr>
 </table>
 
-### -param pRequest 
+### -param pRequest [in]
 
-[in]
+
 A pointer to a single bidi request.
 
 ## -returns

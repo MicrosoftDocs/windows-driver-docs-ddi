@@ -52,49 +52,49 @@ The D3DKMT_POLLDISPLAYCHILDREN structure describes parameters for querying for c
 
 ## -struct-fields
 
-### -field hAdapter
+### -field hAdapter [in]
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle to the graphics adapter to query for connectivity status of child devices.
+A D3DKMT_HANDLE data type that represents the kernel-mode handle to the graphics adapter to query for connectivity status of child devices.
 
-### -field NonDestructiveOnly
+### -field NonDestructiveOnly [in]
 
-[in] A UINT value that specifies whether the call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpolldisplaychildren">D3DKMTPollDisplayChildren</a> function should be only nondestructive. A nonzero value indicates only a nondestructive call; a zero value indicates the call can be destructive (that is, the call can cause visual artifacts on the screen).
+A UINT value that specifies whether the call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpolldisplaychildren">D3DKMTPollDisplayChildren</a> function should be only nondestructive. A nonzero value indicates only a nondestructive call; a zero value indicates the call can be destructive (that is, the call can cause visual artifacts on the screen).
 
-### -field SynchronousPolling
+### -field SynchronousPolling [in]
 
 Supported beginning with Windows 7 operating system.
 
-[in] A UINT value that specifies whether the connectivity status of all child devices is reported within 1 second of the call to <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpolldisplaychildren">D3DKMTPollDisplayChildren</a>. If set to a nonzero value, connectivity status is reported within 1 second. Otherwise, there is no time limit on when the display miniport can complete and report the polling.
+A UINT value that specifies whether the connectivity status of all child devices is reported within 1 second of the call to <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpolldisplaychildren">D3DKMTPollDisplayChildren</a>. If set to a nonzero value, connectivity status is reported within 1 second. Otherwise, there is no time limit on when the display miniport can complete and report the polling.
 
 If the display miniport driver needs to poll child devices after receiving notice of an ACPI event, the runtime should set <b>SynchronousPolling</b> to a nonzero value.
 
-### -field DisableModeReset
+### -field DisableModeReset [in]
 
 Supported beginning with Windows 7 operating system.
 
-[in] A UINT value that specifies whether any reactions of the display miniport driver to discoveries of new child devices are disabled during the polling interval. If set to a nonzero value, such reactions of the driver are disabled during the polling interval. In this case, set the <b>SynchronousPolling</b>parameter when setting <b>DisableModeReset</b>. Otherwise, normal reactions of the driver to discoveries of new child devices are allowed.
+A UINT value that specifies whether any reactions of the display miniport driver to discoveries of new child devices are disabled during the polling interval. If set to a nonzero value, such reactions of the driver are disabled during the polling interval. In this case, set the <b>SynchronousPolling</b>parameter when setting <b>DisableModeReset</b>. Otherwise, normal reactions of the driver to discoveries of new child devices are allowed.
 
-### -field PollAllAdapters
-
-Supported beginning with Windows 7 operating system.
-
-[in] A UINT value that specifies whether all child devices are polled. If set to a nonzero value, all child devices are polled. Otherwise, only the child devices that are on the specified adapter are discovered in the polling.
-
-### -field PollInterruptible
+### -field PollAllAdapters [in]
 
 Supported beginning with Windows 7 operating system.
 
-[in] A UINT value that specifies whether child devices that are aware of hot-plug detection (HPD) are polled. If set to a nonzero value, HPD-aware child devices are polled. Otherwise, HPD-aware child devices might not be discovered in the polling.
+A UINT value that specifies whether all child devices are polled. If set to a nonzero value, all child devices are polled. Otherwise, only the child devices that are on the specified adapter are discovered in the polling.
+
+### -field PollInterruptible [in]
+
+Supported beginning with Windows 7 operating system.
+
+A UINT value that specifies whether child devices that are aware of hot-plug detection (HPD) are polled. If set to a nonzero value, HPD-aware child devices are polled. Otherwise, HPD-aware child devices might not be discovered in the polling.
 
 HPD-aware devices are those for which, in a call to <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a>, the <b>ChildRelations</b>.<b>ChildCapabilities</b>.<b>HpdAwareness</b> member has a value not equal to HpdAwarenessUninitialized or HpdAwarenessNone.
 
 For more information on HPD-aware devices, see <a href="/windows-hardware/drivers/display/monitor-hot-plug-detection">Monitor Hot Plug Detection</a>.
 
-### -field Reserved
+### -field Reserved [in]
 
 Supported beginning with Windows 7 operating system.
 
-[in] This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 26 bits (0xFFFFFFC0) of a 32-bit value to zeros.
+This member is reserved and should be set to zero. Setting this member is equivalent to setting the remaining 26 bits (0xFFFFFFC0) of a 32-bit value to zeros.
 
 ## -see-also
 

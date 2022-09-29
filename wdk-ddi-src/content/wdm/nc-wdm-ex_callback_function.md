@@ -4,7 +4,7 @@ title: EX_CALLBACK_FUNCTION (wdm.h)
 description: A filter driver's RegistryCallback routine can monitor, block, or modify a registry operation.
 old-location: kernel\registrycallback.htm
 tech.root: kernel
-ms.date: 07/29/2021
+ms.date: 01/31/2022
 keywords: ["EX_CALLBACK_FUNCTION callback function"]
 ms.keywords: DrvrRtns_988f8f3d-4ee8-4351-8fc0-703a88bd8421.xml, EX_CALLBACK_FUNCTION, RegistryCallback, RegistryCallback routine [Kernel-Mode Driver Architecture], kernel.registrycallback, wdm/RegistryCallback
 req.header: wdm.h
@@ -48,20 +48,20 @@ A filter driver's *RegistryCallback* routine can monitor, block, or modify a reg
 
 ## -parameters
 
-### -param CallbackContext
+### -param CallbackContext [in]
 
-[in]
+
 The value that the driver passed as the *Context* parameter to [CmRegisterCallback](./nf-wdm-cmregistercallback.md) or [CmRegisterCallbackEx](./nf-wdm-cmregistercallbackex.md) when it registered this *RegistryCallback* routine.
 
-### -param Argument1
+### -param Argument1 [in, optional]
 
-[in, optional]
+
 A [REG_NOTIFY_CLASS](./ne-wdm-_reg_notify_class.md)-typed value that identifies the type of registry operation that is being performed and whether the *RegistryCallback* routine is being called before or after the registry operation is performed.
 
-### -param Argument2
+### -param Argument2 [in, optional]
 
-[in, optional]
-A pointer to a structure that contains information that is specific to the type of registry operation. The structure type depends on the REG_NOTIFY_CLASS-typed value for *Argument1*, as shown in the following table. For information about which REG_NOTIFY_CLASS-typed values are available for which operating system versions, see [REG_NOTIFY_CLASS](./ne-wdm-_reg_notify_class.md).
+
+A pointer to a structure that contains information that is specific to the type of registry operation. The structure type depends on the [REG_NOTIFY_CLASS](./ne-wdm-_reg_notify_class.md)-typed value for *Argument1*, as shown in the following table. For information about which REG_NOTIFY_CLASS-typed values are available for which operating system versions, see [REG_NOTIFY_CLASS](./ne-wdm-_reg_notify_class.md).
 
 | REG_NOTIFY_CLASS value | Structure type |
 |--|--|
@@ -125,6 +125,8 @@ A pointer to a structure that contains information that is specific to the type 
 | **RegNtPostReplaceKey** | [REG_POST_OPERATION_INFORMATION](./ns-wdm-_reg_post_operation_information.md) |
 | **RegNtPreQueryKeyName** | [REG_QUERY_KEY_NAME](./ns-wdm-_reg_query_key_name.md) |
 | **RegNtPostQueryKeyName** | [REG_POST_OPERATION_INFORMATION](./ns-wdm-_reg_post_operation_information.md) |
+| **RegNtPreSaveMergedKey** | [REG_SAVE_MERGED_KEY_INFORMATION](./ns-wdm-reg_save_merged_key_information.md) |
+| **RegNtPostSaveMergedKey** | [REG_SAVE_MERGED_KEY_INFORMATION](./ns-wdm-reg_save_merged_key_information.md) |
 
 Starting with Windows 7, the actual data structure passed in when the notify class is RegNtPreCreateKeyEx or RegNtPreOpenKeyEx is the V1 version of this structure, [REG_CREATE_KEY_INFORMATION_V1](./ns-wdm-_reg_create_key_information_v1.md)  or **REG_OPEN_KEY_INFORMATION_V1**, respectively. Check the Reserved member to determine the version of the structure.
 
@@ -153,7 +155,7 @@ The following table summarizes the requirements for buffer accesses by the *Regi
 |--|--|--|--|--|
 | User-mode input | Windows 8 and later | Points to captured data. | Yes | Yes |
 | User-mode input | Windows 7 and earlier | Points to captured data or original user-mode buffer. | No. Must read under try/except. | No. Must allocate kernel memory, copy data from the original buffer under try/except, and pass the copied data to the system routine. |
-| User-mode input | All | Points to original user-mode buffer. | No. Must write under try/except. | No. Must allocate kernel memory, pass kernel memory to the system routine, and copy the results back to the original buffer under try/except. |
+| User-mode output | All | Points to original user-mode buffer. | No. Must write under try/except. | No. Must allocate kernel memory, pass kernel memory to the system routine, and copy the results back to the original buffer under try/except. |
 | Kernel-mode input and output | All | Points to original kernel-mode buffer. | Yes | Yes |
 
 For more information about *RegistryCallback* routines and registry filter drivers, see [Filtering Registry Calls](/windows-hardware/drivers/kernel/filtering-registry-calls).

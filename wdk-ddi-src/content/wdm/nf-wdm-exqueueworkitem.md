@@ -50,14 +50,14 @@ api_name:
 
 ## -parameters
 
-### -param WorkItem 
+### -param WorkItem [in, out]
 
-[in, out]
+
 Pointer to the work item. This work item must have been initialized by a preceding call to <a href="/windows-hardware/drivers/kernel/mmcreatemdl">ExInitializeWorkItem</a>.
 
-### -param QueueType 
+### -param QueueType [in]
 
-[in]
+
 Specifies the queue into which the work item pointed to by <i>WorkItem</i> is to be inserted. <i>QueueType</i> can be either of the following: 
 
 <table>

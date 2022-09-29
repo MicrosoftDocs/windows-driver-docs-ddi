@@ -4,7 +4,7 @@ title: RILRADIOSTATEITEM (rilapitypes.h)
 description: "Don't use this structure in your code. Microsoft reserves the RILRADIOSTATEITEM structure for internal use only."
 old-location: netvista\rilradiostateitem.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/10/2021
 keywords: ["RILRADIOSTATEITEM structure"]
 ms.keywords: "*LPRILRADIOSTATEITEM, RILRADIOSTATEITEM, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista], netvista.rilradiostateitem, ntddrilapitypes/RILRADIOSTATEITEM"
 req.header: rilapitypes.h
@@ -60,38 +60,23 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 ### -field itemValueUnion
 
-### -field itemValueUnion.intVal
-
-### -field itemValueUnion.uintVal
-
-### -field itemValueUnion.wszVal
-
-### -field itemValueUnion.intArray
-
-### -field itemValueUnion.uintArray
-
-### -field itemValueUnion.byteArray
 
 ### -field RILITEMVALUEUNION
+
+### -field RILITEMVALUEUNION.intVal
+
+### -field RILITEMVALUEUNION.uintVal
+
+### -field RILITEMVALUEUNION.wszVal
+
+### -field RILITEMVALUEUNION.intArray
+
+### -field RILITEMVALUEUNION.uintArray
+
+### -field RILITEMVALUEUNION.byteArray
 
 ### -field wszFriendlyName
 
 ### -field wszItemValueOptions
 
-#### - byteArray
-
-
-#### - intArray
-
-
-#### - intVal
-
-
-#### - uintArray
-
-
-#### - uintVal
-
-
-#### - wszVal
 

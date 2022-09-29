@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTShareObjects
 title: D3DKMTShareObjects function (d3dkmthk.h)
 description: Shares resource objects that were created with the D3DKMTCreateAllocation, D3DKMTCreateKeyedMutex2, and D3DKMTCreateSynchronizationObject2 functions.
 old-location: display\d3dkmtshareobjects.htm
-ms.date: 05/10/2018
+ms.date: 03/01/2022
 keywords: ["D3DKMTShareObjects function"]
 ms.keywords: D3DKMTShareObjects, D3DKMTShareObjects function [Display Devices], d3dkmthk/D3DKMTShareObjects, display.d3dkmtshareobjects
 req.header: d3dkmthk.h
@@ -45,77 +45,63 @@ api_name:
 
 # D3DKMTShareObjects function
 
-
 ## -description
 
-Shares resource objects that were created with  the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation">D3DKMTCreateAllocation</a>, <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatekeyedmutex2">D3DKMTCreateKeyedMutex2</a>, and  <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatesynchronizationobject2">D3DKMTCreateSynchronizationObject2</a> functions.
-
+Shares resource objects that were created with the [D3DKMTCreateAllocation](nf-d3dkmthk-d3dkmtcreateallocation.md), [D3DKMTCreateKeyedMutex2](nf-d3dkmthk-d3dkmtcreatekeyedmutex2.md), and [D3DKMTCreateSynchronizationObject2](nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md) functions.
 ## -parameters
 
-### -param cObjects 
+### -param cObjects [in]
 
-[in]
-The number of resource objects specified by the <i>hObjects</i> parameter.
+The number of resource objects specified by the *hObjects* parameter.
 
-The number of resource objects must be ≤<b>D3DKMT_MAX_OBJECTS_PER_HANDLE</b>.
+The number of resource objects must be less than or equal to **D3DKMT_MAX_OBJECTS_PER_HANDLE**.
 
-### -param hObjects 
+### -param hObjects [in]
 
-[in]
 A pointer to an array of local kernel-mode handles that specify the resource objects to be shared.
 
-For more information on using <i>hObjects</i>, see the Remarks section.
+For more information on using *hObjects*, see the [Remarks](#remarks) section.
 
-### -param pObjectAttributes 
+### -param pObjectAttributes [in]
 
-[in]
-A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies attributes of the  resource objects.
+A pointer to an [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that specifies attributes of the resource objects.
 
-### -param dwDesiredAccess 
+### -param dwDesiredAccess [in]
 
-[in]
 Specifies read and write access for the resource.
 
-### -param phSharedNtHandle 
+### -param phSharedNtHandle [out]
 
-[out]
 A pointer to a shared NT handle  that specifies the resource objects.
 
-This parameter must be <b>NULL</b> if the <b>NtSecuritySharing</b> flag value is not set. For more information, see the Remarks section.
+This parameter must be **NULL** if the **NtSecuritySharing** flag value is not set. For more information, see the [Remarks](#remarks) section.
+
+## -returns
+
+The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this method might return an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** error code.
 
 ## -remarks
 
-Objects to be shared using  <b>D3DKMTShareObjects</b>  must first be created with the <b>NtSecuritySharing</b> flag value set. This flag value is available in the <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createallocationflags">D3DKMT_CREATEALLOCATIONFLAGS</a>, <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a>, and <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobject_flags">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a> structures.
+Objects to be shared using  **D3DKMTShareObjects**  must first be created with the **NtSecuritySharing** flag value set. This flag value is available in the [D3DKMT_CREATEALLOCATIONFLAGS](ns-d3dkmthk-_d3dkmt_createallocationflags.md), [D3DKMT_CREATEKEYEDMUTEX2_FLAGS](ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md), and [D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS](../d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md) structures.
 
-This function must specify handles through the <i>hObjects</i> parameter only to the following  combinations of input object array types:
+This function must specify handles through the *hObjects* parameter only to the following  combinations of input object array types:
 
-<ul>
-<li>an allocation</li>
-<li>an allocation, a keyed mutex, and a synchronization object</li>
-<li>a synchronization object</li>
-</ul>
+- an allocation
+- an allocation, a keyed mutex, and a synchronization object
+- a synchronization object
+
 The operating system will reject any other input handle combinations.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobject_flags">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a>
+[D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS](../d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md)
 
+[D3DKMTCreateAllocation](nf-d3dkmthk-d3dkmtcreateallocation.md)
 
+[D3DKMTCreateKeyedMutex2](nf-d3dkmthk-d3dkmtcreatekeyedmutex2.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation">D3DKMTCreateAllocation</a>
+[D3DKMTCreateSynchronizationObject2](nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md)
 
+[D3DKMT_CREATEALLOCATIONFLAGS](ns-d3dkmthk-_d3dkmt_createallocationflags.md)
 
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatekeyedmutex2">D3DKMTCreateKeyedMutex2</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatesynchronizationobject2">D3DKMTCreateSynchronizationObject2</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createallocationflags">D3DKMT_CREATEALLOCATIONFLAGS</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a>
+[D3DKMT_CREATEKEYEDMUTEX2_FLAGS](ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md)

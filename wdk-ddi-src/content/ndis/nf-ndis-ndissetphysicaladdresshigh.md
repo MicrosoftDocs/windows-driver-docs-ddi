@@ -50,14 +50,14 @@ api_name:
 
 ## -parameters
 
-### -param _PhysicalAddress 
+### -param _PhysicalAddress [in]
 
-[in]
+
 Specifies a physical address of an OS-dependent size.
 
-### -param _Value 
+### -param _Value [in]
 
-[in]
+
 Specifies the value to be written into the high-order part of the address.
 
 ## -see-also

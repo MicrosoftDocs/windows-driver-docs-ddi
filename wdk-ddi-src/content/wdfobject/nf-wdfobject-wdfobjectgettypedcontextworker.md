@@ -51,13 +51,13 @@ The <b>WdfObjectGetTypedContextWorker</b> method is reserved for internal use on
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
 
-### -param TypeInfo 
 
-[in]
+### -param TypeInfo [in]
+
+## -returns
 
 ## -remarks
 

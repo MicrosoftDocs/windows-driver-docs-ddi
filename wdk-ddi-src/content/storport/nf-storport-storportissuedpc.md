@@ -49,24 +49,24 @@ The <b>StorPortIssueDpc</b> routine issues a deferred procedure call (DPC).
 
 ## -parameters
 
-### -param DeviceExtension 
+### -param DeviceExtension [in]
 
-[in]
+
 Pointer to the per-adapter device extension.
 
-### -param Dpc 
+### -param Dpc [in]
 
-[in]
+
 Pointer to a buffer containing an initialized DPC object of type <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_stor_dpc">STOR_DPC</a> returned by the <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializedpc">StorPortInitializeDpc</a> routine.
 
-### -param SystemArgument1 
+### -param SystemArgument1 [in]
 
-[in]
+
 Pointer to caller-supplied information that will be passed to the deferred routine.
 
-### -param SystemArgument2 
+### -param SystemArgument2 [in]
 
-[in]
+
 Pointer to caller-supplied information that will be passed to the deferred routine.
 
 ## -returns

@@ -3,7 +3,7 @@ UID: NF:netwakesourcelist.NET_WAKE_SOURCE_LIST_INIT
 title: NET_WAKE_SOURCE_LIST_INIT function (netwakesourcelist.h)
 description: The NET_WAKE_SOURCE_LIST_INIT function initializes a NET_WAKE_SOURCE_LIST structure.
 tech.root: netvista
-ms.date: 10/08/2019
+ms.date: 04/01/2022
 keywords: ["NET_WAKE_SOURCE_LIST_INIT function"]
 ms.keywords: NET_WAKE_SOURCE_LIST_INIT
 req.header: netwakesourcelist.h
@@ -49,13 +49,10 @@ The **NET_WAKE_SOURCE_LIST_INIT** function initializes a [**NET_WAKE_SOURCE_LIST
 
 ## -parameters
 
-### -param List
+### -param List [_Out_]
 
 A pointer to a driver-allocated [**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

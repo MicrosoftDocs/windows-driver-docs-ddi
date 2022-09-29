@@ -54,9 +54,9 @@ The <b>WdfDriverGetRegistryPath</b> method retrieves the path to the driver's re
 
 ## -parameters
 
-### -param Driver 
+### -param Driver [in]
 
-[in]
+
 A handle to the driver's framework driver object, obtained by a previous call to <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a> or <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfgetdriver">WdfGetDriver</a>.
 
 ## -returns

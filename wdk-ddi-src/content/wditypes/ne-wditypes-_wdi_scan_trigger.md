@@ -4,7 +4,7 @@ title: _WDI_SCAN_TRIGGER (wditypes.h)
 description: The WDI_SCAN_TRIGGER enumeration defines the scan trigger values.
 old-location: netvista\wdi_scan_trigger.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/28/2021
 keywords: ["WDI_SCAN_TRIGGER enumeration"]
 ms.keywords: WDI_SCAN_TRIGGER, WDI_SCAN_TRIGGER enumeration [Device and Driver Installation], WDI_SCAN_TRIGGER_ANQP_QUERY, WDI_SCAN_TRIGGER_BACKGROUND, WDI_SCAN_TRIGGER_CONNECT, WDI_SCAN_TRIGGER_FAST_ROAM, WDI_SCAN_TRIGGER_MANUAL, WDI_SCAN_TRIGGER_ROAM, _WDI_SCAN_TRIGGER, netvista.wdi_scan_trigger, netvista.wifi_scan_trigger, wditypes/WDI_SCAN_TRIGGER, wditypes/WDI_SCAN_TRIGGER_ANQP_QUERY, wditypes/WDI_SCAN_TRIGGER_BACKGROUND, wditypes/WDI_SCAN_TRIGGER_CONNECT, wditypes/WDI_SCAN_TRIGGER_FAST_ROAM, wditypes/WDI_SCAN_TRIGGER_MANUAL, wditypes/WDI_SCAN_TRIGGER_ROAM
 req.header: wditypes.hpp
@@ -48,6 +48,9 @@ api_name:
 
 ## -description
 
+> [!IMPORTANT]
+> This topic is part of the [WDI driver model](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) released in Windows 10. The WDI driver model is in maintenance mode and will only receive high priority fixes. [WiFiCx](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx) is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features.
+
 The WDI_SCAN_TRIGGER enumeration defines the scan trigger values.
 
 ## -enum-fields
@@ -76,3 +79,6 @@ The scan was initiated for performing an ANQP query.
 
 This scan was initiated for roaming purposes, and the host has additional information (for example, neighbor reports or instant connect last channel) to put in specific values in the scan request (such as SSID, BSSID, or band channel).
 
+### -field WDI_SCAN_TRIGGER_FTM
+
+The scan was initiated to search for FTM enabled STAs and the host has additional information (such as channel, BSSID, etc). The port must always honor this request to perform a scan.

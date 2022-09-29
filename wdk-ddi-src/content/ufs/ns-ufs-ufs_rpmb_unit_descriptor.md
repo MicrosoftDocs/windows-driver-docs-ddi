@@ -153,7 +153,7 @@ Specifies the total physical memory resources available in the logical unit.
 
 
 
-#### - bBootLUNID
+### -field bBootLUNID
 
 Specifies the boot LUN id.
 

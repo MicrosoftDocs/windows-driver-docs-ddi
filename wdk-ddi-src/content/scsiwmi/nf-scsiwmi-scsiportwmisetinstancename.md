@@ -50,24 +50,24 @@ The <b>ScsiPortWmiSetInstanceName</b> routine updates the <a href="/windows-hard
 
 ## -parameters
 
-### -param RequestContext 
+### -param RequestContext [in]
 
-[in]
+
 Pointer to a structure of type <a href="/windows-hardware/drivers/ddi/scsiwmi/ns-scsiwmi-scsiwmi_request_context">SCSIWMI_REQUEST_CONTEXT</a> that contains the request context for a WMI SRB.
 
-### -param InstanceIndex 
+### -param InstanceIndex [in]
 
-[in]
+
 Contains an index that indicates the instance for which the position and length of the instance name are to be specified.
 
-### -param InstanceNameLength 
+### -param InstanceNameLength [in]
 
-[in]
+
 Specifies the size in bytes of the instance name.
 
-### -param BufferAvail 
+### -param BufferAvail [out]
 
-[out]
+
 Must contain, on input, the number of bytes of buffer space in the <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_all_data">WNODE_ALL_DATA</a> structure that can be used for describing instance names and data. On return, this member contains the number of bytes of buffer space that remain. 
 
 There are three SCSI Port WMI routines that return a value for the available buffer size in their <i>BufferAvail </i>parameter:
@@ -86,9 +86,9 @@ The miniport driver must call <b>ScsiPortWmiSetInstanceCount</b> first, but afte
 
 If there is not enough memory available to add an instance name of length <i>InstanceNameLength</i>, a zero will be returned in the <i>BufferAvail</i> member.
 
-### -param SizeNeeded 
+### -param SizeNeeded [in, out]
 
-[in, out]
+
 Indicates, on input, the number of bytes needed to describe the WNODE <i>before </i>adding the descriptive data for the instance specified by <i>InstanceIndex</i>. On return, this member will contain the size of the entire WNODE, including the data for the new instance.
 
 ## -returns

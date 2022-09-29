@@ -3,7 +3,7 @@ UID: NS:storport._HW_INITIALIZATION_DATA~r1
 title: HW_INITIALIZATION_DATA (storport.h)
 description: The HW_INITIALIZATION_DATA (Storport) structure contains information particular to each miniport driver and the hardware that the miniport driver manages.
 tech.root: storage
-ms.date: 04/09/2021
+ms.date: 10/22/2021
 keywords: ["HW_INITIALIZATION_DATA structure"]
 ms.keywords: _HW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA, ADDRESS_TYPE_FLAG_BTL8, HW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA structure [Storage Devices], PHW_INITIALIZATION_DATA, PHW_INITIALIZATION_DATA structure pointer [Storage Devices], SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK, SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK, STOR_FEATURE_ATA_PASS_THROUGH, STOR_FEATURE_DEVICE_DESCRIPTOR_FROM_ATA_INFO_VPD, STOR_FEATURE_DEVICE_NAME_NO_SUFFIX, STOR_FEATURE_DUMP_POINTERS, STOR_FEATURE_DUMP_RESUME_CAPABLE, STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES, STOR_FEATURE_SET_ADAPTER_INTERFACE_TYPE, STOR_FEATURE_VIRTUAL_MINIPORT, STOR_MAP_ALL_BUFFERS, STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE, STOR_MAP_NON_READ_WRITE_BUFFERS, STOR_MAP_NO_BUFFERS, _HW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA structure [Storage Devices], storage.hw_initialization_data__storport_, storport/HW_INITIALIZATION_DATA, storport/PHW_INITIALIZATION_DATA, structs-storport_c3d0ed59-9662-409d-acc3-6c2358837a01.xml
 req.header: storport.h
@@ -72,7 +72,7 @@ Pointer to the miniport driver's [**HwStorInterrupt**](nc-storport-hw_interrupt.
 
 ### -field HwFindAdapter
 
-Pointer to the miniport driver's [**HwStorFindAdapter**]nc-storport-hw_find_adapter.md) routine, which is a required entry point for all miniport drivers.
+Pointer to the miniport driver's [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routine, which is a required entry point for all miniport drivers.
 
 ### -field HwResetBus
 
@@ -169,7 +169,7 @@ Pointer to the miniport driver's [**HwStorAdapterControl**](nc-storport-hw_adapt
 
 ### -field HwBuildIo
 
-Pointer to an optional [**HwStorBuildIo**](nc-storport-hw_buildio.md) routine that the port driver calls to do unsynchronized processing prior to calling the miniport driver's [**HwStorStartIo**](nc-storport-hw_startio.md) routine. This callback is specific to physical miniports and should be set to NULL for virtual miniports.
+Pointer to an optional [**HwStorBuildIo**](nc-storport-hw_buildio.md) routine that the port driver calls to do unsynchronized processing prior to calling the miniport driver's [**HwStorStartIo**](nc-storport-hw_startio.md) routine. This callback is specific to physical miniports and should be set to NULL by virtual miniports.
 
 ### -field HwFreeAdapterResources
 

@@ -49,14 +49,14 @@ The <b>RtlZeroMemory</b> routine fills a block of memory with zeros, given a poi
 
 ## -parameters
 
-### -param Destination 
+### -param Destination [out]
 
-[out]
+
 A pointer to the memory block to be filled with zeros.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The number of bytes to fill with zeros.
 
 ## -syntax

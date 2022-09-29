@@ -43,13 +43,15 @@ Defines values for the type of extended parameters.
 
 ## -enum-fields
 
-### -field MemSectionExtendedParameterInvalidType 
+### -field MemSectionExtendedParameterInvalidType:0
 
-### -field MemSectionExtendedParameterUserPhysicalFlags 
+### -field MemSectionExtendedParameterUserPhysicalFlags
 
-### -field MemSectionExtendedParameterNumaNode 
+### -field MemSectionExtendedParameterNumaNode
 
-### -field MemSectionExtendedParameterMax 
+### -field MemSectionExtendedParameterSigningLevel
+
+### -field MemSectionExtendedParameterMax
 
 ## -remarks
 

@@ -2,9 +2,8 @@
 UID: NF:winddiui.DrvSplDeviceCaps
 title: DrvSplDeviceCaps function (winddiui.h)
 description: A printer interface DLL's DrvSplDeviceCaps function queries a printer for its capabilities.
-old-location: print\drvspldevicecaps.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 04/19/2022
 keywords: ["DrvSplDeviceCaps function"]
 ms.keywords: DrvSplDeviceCaps, DrvSplDeviceCaps function [Print Devices], print.drvspldevicecaps, print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml, winddiui/DrvSplDeviceCaps
 req.header: winddiui.h
@@ -40,12 +39,9 @@ api_name:
  - DrvSplDeviceCaps
 ---
 
-# DrvSplDeviceCaps function
-
-
 ## -description
 
-A printer interface DLL's <b>DrvSplDeviceCaps</b> function queries a printer for its capabilities.
+A printer interface DLL's **DrvSplDeviceCaps** function queries a printer for its capabilities.
 
 ## -parameters
 
@@ -53,17 +49,11 @@ A printer interface DLL's <b>DrvSplDeviceCaps</b> function queries a printer for
 
 Caller-supplied handle to the printer.
 
-### -param pszDeviceName
+### -param pszDeviceName [in]
+
+Caller-supplied pointer to a Unicode string that contains the printer name.
 
 ### -param Capability
-
-### -param pOutput
-
-### -param cchBufSize
-
-### -param pDevmode
-
-#### - DeviceCap
 
 Caller-supplied bit flag that indicates the capability to query for. (The flags are defined in header file wingdi.h.) This function is not required to support all of the DC_<i>XXX</i> flags, but it must support those listed in the following table.
 
@@ -78,11 +68,11 @@ DC_MEDIAREADY
 
 </td>
 <td>
-The <i>pvOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each array element should contain a NULL-terminated string representing a name for a paper form that is available for use. 
+The <i>pOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each array element should contain a NULL-terminated string representing a name for a paper form that is available for use.
 
 The function's return value should be the number of elements in the returned array.
 
-If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
+If <i>pOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
 
 </td>
 </tr>
@@ -92,49 +82,38 @@ DC_PAPERNAMES
 
 </td>
 <td>
-The <i>pvOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each array element should contain a NULL-terminated string representing a name for a paper form. 
+The <i>pOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each array element should contain a NULL-terminated string representing a name for a paper form.
 
 The function's return value should be the number of elements in the returned array.
 
-If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
+If <i>pOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
 
 </td>
 </tr>
 </table>
- 
 
+### -param pOutput  [out, optional]
 
-#### - cchBuf
+Caller-supplied pointer to a buffer that receives function-supplied information. The buffer's use depends on the value of  the *Capability* parameter. The caller is responsible for allocating and freeing this buffer.
 
-Caller-supplied size (in characters) of the buffer pointed to by the <i>pvOutput</i> parameter.
+### -param cchBufSize
 
+Caller-supplied size (in characters) of the buffer pointed to by the *pOutput* parameter.
 
-#### - pDM [in, optional]
+### -param pDevmode  [in, optional]
 
-Caller-supplied pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that describes the current print job characteristics. If <b>NULL</b>, the function should use the driver's internal default DEVMODEW structure. 
-
-
-#### - pvOutput [out, optional]
-
-Caller-supplied pointer to a buffer that receives function-supplied information. The buffer's use depends on the value of  the <i>DeviceCap</i> parameter. The caller is responsible for allocating and freeing this buffer. 
-
-
-#### - pwDeviceName [in]
-
-Caller-supplied pointer to a Unicode string that contains the printer name.
+Caller-supplied pointer to a [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure that describes the current print job characteristics. If **NULL**, the function should use the driver's internal default DEVMODEW structure.
 
 ## -returns
 
-The return value depends on the <i>DeviceCap</i> parameter. If <i>DeviceCap</i> indicates a capability that the driver does not support, or if an error is encountered, the function should return GDI_ERROR.
+The return value depends on the *Capability* parameter. If *Capability* indicates a capability that the driver does not support, or if an error is encountered, the function should return GDI_ERROR.
 
 ## -remarks
 
-The <b>DrvSplDeviceCaps</b> function is available in Microsoft Windows Server 2003 and later.
-
-For descriptions of the DC_<i>XXX</i> flags, see <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>.
+For descriptions of the DC_*XXX* flags, see [DrvDeviceCapabilities](./nf-winddiui-drvdevicecapabilities.md).
 
 This function must be defined in the .def file as DrvSplDeviceCaps @ 254, because the spooler uses the ordinal number 254 to obtain the driver function pointer.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>
+[DrvDeviceCapabilities](./nf-winddiui-drvdevicecapabilities.md)

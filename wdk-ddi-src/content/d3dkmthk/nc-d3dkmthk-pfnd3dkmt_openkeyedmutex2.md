@@ -49,11 +49,11 @@ Opens a keyed mutex object that includes private data.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in, out]
 
 *pData* 
 
-[in, out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openkeyedmutex2">D3DKMT_OPENKEYEDMUTEX2</a> structure that describes a keyed mutex object that includes private data.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openkeyedmutex2">D3DKMT_OPENKEYEDMUTEX2</a> structure that describes a keyed mutex object that includes private data.
 
 ## -returns
 

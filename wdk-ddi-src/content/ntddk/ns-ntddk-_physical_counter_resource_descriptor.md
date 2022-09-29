@@ -111,6 +111,8 @@ A pointer to the driver-supplied [*PPHYSICAL_COUNTER_OVERFLOW_HANDLER*](nc-ntddk
 
 A configuration for event buffer based sampling (such as Intel's PEBS). The configuration fields are defined by the [PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION](ns-ntddk-physical_counter_event_buffer_configuration.md) type.
 
+### -field u.IdentificationTag
+
 ## -remarks
 
 Most processors have performance monitor units that contain a number of hardware counters for measuring various aspects of system performance. The <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure describes a counter resource, which can be a single hardware counter, a block of contiguous counters, a counter overflow interrupt, or an event buffer configuration. This structure's <b>Type</b> member indicates which type of counter resource is described by the structure.

@@ -47,8 +47,6 @@ api_name:
 
 The <code>IPrintOemPS::DisableDriver</code> method allows a rendering plug-in for <a href="/windows-hardware/drivers/">Pscript</a> to free resources that were allocated by the plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enabledriver">IPrintOemPS::EnableDriver</a> method.
 
-## -parameters
-
 ## -returns
 
 The method must return one of the following values.

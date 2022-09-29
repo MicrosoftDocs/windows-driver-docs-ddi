@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMCommand
 title: OEMCommand function (printoem.h)
-description: OEMCommand function
-old-location: print\oemcommand.htm
+description: Describes the OEMCommand function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/05/2022
 keywords: ["OEMCommand function"]
 ms.keywords: OEMCommand, OEMCommand function [Print Devices], print.oemcommand, print_obsoletefunctions_f6d1a0f9-6560-4e4c-9826-c2714b7c1ad3.xml, printoem/OEMCommand
 req.header: printoem.h
@@ -40,20 +39,28 @@ api_name:
  - OEMCommand
 ---
 
-# OEMCommand function
-
-
 ## -description
+
+Describes the **OEMCommand** function.
 
 ## -parameters
 
 ### -param pdevobj
 
+Defines the **PDEVOBJ** parameter *pdevobj*.
+
 ### -param dwIndex
 
-### -param pData 
+Defines the **DWORD** parameter *dwIndex*.
 
-[in]
+### -param pData [in]
+
+Defines the **PVOID** parameter *pData*.
 
 ### -param cbSize
 
+Defines the **DWORD** parameter cbSi**ze.
+
+## -returns
+
+Returns a **DWORD** value.

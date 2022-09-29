@@ -52,9 +52,13 @@ Contains information to set the fault report on a device. This structure is used
 
 A [**FAULT_INFORMATION_ARCH**](ne-wdm-_fault_information_arch.md)-type value that indicates the system architecture.
 
+### -field IsStage1
+
 ### -field Arm64
 
 A [**FAULT_INFORMATION_ARM64**](ns-wdm-_fault_information_arm64.md) structure that contains fault information on an ARM64 system.
+
+### -field X64
 
 ## -remarks
 

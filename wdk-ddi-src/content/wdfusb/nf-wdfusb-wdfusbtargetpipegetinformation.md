@@ -54,14 +54,14 @@ The <b>WdfUsbTargetPipeGetInformation</b> method retrieves information about a U
 
 ## -parameters
 
-### -param Pipe 
+### -param Pipe [in]
 
-[in]
+
 A handle to a framework pipe object that was obtained by calling <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>.
 
-### -param PipeInformation 
+### -param PipeInformation [out]
 
-[out]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_pipe_information">WDF_USB_PIPE_INFORMATION</a> structure that receives information about the pipe and endpoint.
 
 ## -remarks

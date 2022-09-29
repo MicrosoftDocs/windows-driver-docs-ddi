@@ -45,6 +45,9 @@ api_name:
 
 ## -description
 
+> [!IMPORTANT]
+> This topic is part of the [WDI driver model](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) released in Windows 10. The WDI driver model is in maintenance mode and will only receive high priority fixes. [WiFiCx](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx) is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features.
+
 The NdisWdiTxSendCompleteIndication callback function specifies an array of frame IDs associated with the target's sent frames.
 
 This is a callback inside <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_data_api">NDIS_WDI_DATA_API</a>.
@@ -53,29 +56,29 @@ Frames with different TX status values are completed in separate indications.
 
 ## -parameters
 
-### -param NdisMiniportDataPathHandle 
+### -param NdisMiniportDataPathHandle [in]
 
-[in]
+
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-### -param WifiTxFrameStatus 
+### -param WifiTxFrameStatus [in]
 
-[in]
+
 The TX status, specified as a <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_frame_status">WDI_TX_FRAME_STATUS</a> value.
 
-### -param NumCompletedSends 
+### -param NumCompletedSends [in]
 
-[in]
+
 The number of completed sends.
 
-### -param WifiTxFrameIdList 
+### -param WifiTxFrameIdList [in]
 
-[in]
+
 An array of frame IDs. The size of the array is the value of <i>NumCompletedSends</i>.
 
-### -param WifiTxCompleteList 
+### -param WifiTxCompleteList [in, optional]
 
-[in, optional]
+
 An array of TX completion data. The size of the array is the value of <i>NumCompletedSends</i>.
 
 ## -remarks

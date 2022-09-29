@@ -48,13 +48,13 @@ api_name:
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to the graphics adapter where the tear-down event is occurring.
+A handle to the graphics adapter where the tear-down event is occurring.
 
-### -param Flags
+### -param Flags [in]
 
-[in] Additional flags defined by the [**DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS**](ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags.md) enumeration.
+Additional flags defined by the [**DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS**](ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags.md) enumeration.
 
 ## -remarks
 

@@ -4,7 +4,7 @@ title: IDebugControl3::GetExpressionSyntaxNames (dbgeng.h)
 description: The GetExpressionSyntaxNames method returns the full and abbreviated names of an expression syntax.
 old-location: debugger\getexpressionsyntaxnames.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl3::GetExpressionSyntaxNames"]
 ms.keywords: GetExpressionSyntaxNames, GetExpressionSyntaxNames method [Windows Debugging], GetExpressionSyntaxNames method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetExpressionSyntaxNames method, IDebugControl3.GetExpressionSyntaxNames, IDebugControl3::GetExpressionSyntaxNames, IDebugControl_9556ddd4-d38f-4c56-8456-81c12afb177e.xml, dbgeng/IDebugControl3::GetExpressionSyntaxNames, debugger.getexpressionsyntaxnames
 req.header: dbgeng.h
@@ -49,40 +49,40 @@ The <b>GetExpressionSyntaxNames</b>  method returns the full and abbreviated nam
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the expression syntax.  <i>Index</i> should be between zero and the number of expression syntaxes returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getnumberexpressionsyntaxes">GetNumberExpressionSyntaxes</a> minus one.
 
-### -param FullNameBuffer 
+### -param FullNameBuffer [out, optional]
 
-[out, optional]
-Receives the full name of the expression syntax.  If <i>FullNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param FullNameBufferSize 
+Receives the full name of the expression syntax. If <i>FullNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-[in]
-Specifies the size, in characters, of the buffer <i>FullNameBuffer</i>.
+### -param FullNameBufferSize [in]
 
-### -param FullNameSize 
 
-[out, optional]
-Receives the size, in characters, of the full name of the expression syntax.  If <i>FullNameSize</i> is <b>NULL</b>, this information is not returned.
+Specifies the size, in characters, of the buffer <i>FullNameBuffer</i>. This size includes the space for the '\0' terminating character.
 
-### -param AbbrevNameBuffer 
+### -param FullNameSize [out, optional]
 
-[out, optional]
-Receives the abbreviated name of the expression syntax.  If <i>AbbrevNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param AbbrevNameBufferSize 
+Receives the size, in characters, of the full name of the expression syntax. This size includes the space for the '\0' terminating character. If <i>FullNameSize</i> is <b>NULL</b>, this information is not returned.
 
-[in]
-Specifies the size, in characters, of the buffer <i>AbbrevNameBufferSize</i>.
+### -param AbbrevNameBuffer [out, optional]
 
-### -param AbbrevNameSize 
 
-[out, optional]
-Receives the size, in characters, of the abbreviated name of the expression syntax.  If <i>AbbrevNameSize</i> is <b>NULL</b>, this information is not returned.
+Receives the abbreviated name of the expression syntax. This size includes the space for the '\0' terminating character. If <i>AbbrevNameBuffer</i> is <b>NULL</b>, this information is not returned.
+
+### -param AbbrevNameBufferSize [in]
+
+
+Specifies the size, in characters, of the buffer <i>AbbrevNameBufferSize</i>. This size includes the space for the '\0' terminating character.
+
+### -param AbbrevNameSize [out, optional]
+
+
+Receives the size, in characters, of the abbreviated name of the expression syntax. This size includes the space for the '\0' terminating character. If <i>AbbrevNameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

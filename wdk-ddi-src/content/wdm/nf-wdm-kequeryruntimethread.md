@@ -49,14 +49,14 @@ The <b>KeQueryRuntimeThread</b> routine reports the accumulated kernel-mode and 
 
 ## -parameters
 
-### -param Thread 
+### -param Thread [in]
 
-[in]
+
 Pointer to a dispatcher object of type KTHREAD.
 
-### -param UserTime 
+### -param UserTime [out]
 
-[out]
+
 Pointer to the memory location where <b>KeQueryRuntimeThread</b> returns the accumulated user-mode run time of the current thread, in clock ticks.
 
 ## -returns

@@ -4,7 +4,7 @@ title: SeAuditingHardLinkEvents function (ntifs.h)
 description: "Microsoft reserves the SeAuditingHardLinkEvents function for internal use only. Don't use this function in your code."
 old-location: ifsk\seauditinghardlinkevents.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["SeAuditingHardLinkEvents function"]
 ms.keywords: SeAuditingHardLinkEvents, SeAuditingHardLinkEvents function [Installable File System Drivers], ifsk.seauditinghardlinkevents, ntifs/SeAuditingHardLinkEvents, seref_b63ee159-df1c-405e-9ac2-44e56b2bd51c.xml
 req.header: ntifs.h
@@ -42,7 +42,6 @@ api_name:
 
 # SeAuditingHardLinkEvents function
 
-
 ## -description
 
 This routine is reserved for system use.
@@ -51,9 +50,12 @@ This routine is reserved for system use.
 
 ### -param AccessGranted
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param SecurityDescriptor
 
 Reserved.
 
+## -returns
+
+Reserved.

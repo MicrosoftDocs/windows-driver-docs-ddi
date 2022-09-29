@@ -49,9 +49,9 @@ This routine  will check if the supplied <i>Silo</i> is the host silo.
 
 ## -parameters
 
-### -param Silo 
+### -param Silo [in]
 
-[in]
+
 The  silo to evaluate.
 
 ## -returns

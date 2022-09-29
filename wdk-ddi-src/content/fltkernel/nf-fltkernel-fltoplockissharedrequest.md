@@ -49,9 +49,9 @@ The <b>FltOplockIsSharedRequest</b> routine determines if a request for an oppor
 
 ## -parameters
 
-### -param CallbackData 
+### -param CallbackData [in]
 
-[in]
+
 A pointer to the callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation. The caller must ensure that the I/O operation has a major code of IRP_MJ_FILE_SYSTEM_CONTROL and a minor code of IRP_MN_USER_FS_REQUEST.
 
 ## -returns

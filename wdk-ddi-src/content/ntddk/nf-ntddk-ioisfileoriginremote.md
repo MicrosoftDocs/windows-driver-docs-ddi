@@ -49,9 +49,9 @@ The <b>IoIsFileOriginRemote</b> routine determines whether a given file object i
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to a file object for the file.
 
 ## -returns

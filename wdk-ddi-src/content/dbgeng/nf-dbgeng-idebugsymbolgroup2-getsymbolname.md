@@ -4,7 +4,7 @@ title: IDebugSymbolGroup2::GetSymbolName (dbgeng.h)
 description: The GetSymbolName method returns the name of a symbol in a symbol group. This method belongs to the IDebugSymbolGroup2 interface.
 old-location: debugger\getsymbolname.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbolGroup2::GetSymbolName"]
 ms.keywords: ComOther_e12d7aee-985e-4770-8567-7c3748a79905.xml, GetSymbolName, GetSymbolName method [Windows Debugging], GetSymbolName method [Windows Debugging],IDebugSymbolGroup interface, GetSymbolName method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup interface [Windows Debugging],GetSymbolName method, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolName method, IDebugSymbolGroup2.GetSymbolName, IDebugSymbolGroup2::GetSymbolName, IDebugSymbolGroup::GetSymbolName, dbgeng/IDebugSymbolGroup2::GetSymbolName, dbgeng/IDebugSymbolGroup::GetSymbolName, debugger.getsymbolname
 req.header: dbgeng.h
@@ -49,25 +49,25 @@ The <b>GetSymbolName</b>  method returns the name of a symbol in a symbol group.
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 The index of the symbol whose name you want.  The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 The symbol name.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
-The size of the buffer that <i>Buffer </i>points to.
 
-### -param NameSize 
+The size of the buffer that <i>Buffer </i>points to. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-The size of the symbol name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+### -param NameSize [out, optional]
+
+
+The size of the symbol name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

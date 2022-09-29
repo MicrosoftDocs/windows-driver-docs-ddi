@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param SwapChainObject 
+### -param SwapChainObject [in]
 
-[in]
+
 The swap-chain object whose current frame is being queried.
 
 ## -returns

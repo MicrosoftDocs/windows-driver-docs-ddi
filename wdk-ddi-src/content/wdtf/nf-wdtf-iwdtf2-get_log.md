@@ -49,8 +49,6 @@ Gets the WDTF log object.
 
 This property is read-only.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtf2">IWDTF2</a>

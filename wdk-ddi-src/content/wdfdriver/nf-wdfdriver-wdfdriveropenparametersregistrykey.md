@@ -54,14 +54,14 @@ The <b>WdfDriverOpenParametersRegistryKey</b> method opens the driver's <b>Param
 
 ## -parameters
 
-### -param Driver 
+### -param Driver [in]
 
-[in]
+
 A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a> or <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfgetdriver">WdfGetDriver</a>.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>-typed value that specifies an access mask for the <b>Parameters</b> registry key.
 
 A KMDF driver typically requests <b>KEY_READ</b>, <b>KEY_WRITE</b>, or <b>KEY_READ | KEY_WRITE</b>.
@@ -70,14 +70,14 @@ If you are writing a UMDF driver, use <b>KEY_READ</b> or <b>KEY_READ | KEY_SET_V
 
 As a best practice, ask for only the types of access that your driver needs.
 
-### -param KeyAttributes 
+### -param KeyAttributes [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the framework registry-key object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param Key 
+### -param Key [out]
 
-[out]
+
 A pointer to a location that receives a handle to a framework registry-key object.
 
 ## -returns
@@ -102,7 +102,6 @@ A pointer to a location that receives a handle to a framework registry-key objec
 <li>WRITE_DAC</li>
 </ul>
 
-
 Because the above values are invalid for UMDF drivers, universal flags such as GENERIC_ALL and STANDARD_RIGHTS_ALL also cause <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdriveropenparametersregistrykey">WdfDriverOpenParametersRegistryKey</a> to fail with this return value.
 
 </td>
@@ -121,6 +120,9 @@ A system bug check occurs if a KMDF driver specifies an invalid handle in <i>Dri
 The driver's <b>Parameters</b> key is located in the registry's <a href="/windows-hardware/test/wpt/services">Services</a> tree. If the driver's <b>Parameters</b> key does not exist, the <b>WdfDriverOpenParametersRegistryKey</b> method creates it. 
 
 When the driver has finished using the <b>Parameters</b> registry key, the driver must call <a href="/windows-hardware/drivers/ddi/wdfregistry/nf-wdfregistry-wdfregistryclose">WdfRegistryClose</a>.
+
+> [!NOTE]
+> UMDF does not support creating subkeys.
 
 For more information about the registry, see <a href="/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 

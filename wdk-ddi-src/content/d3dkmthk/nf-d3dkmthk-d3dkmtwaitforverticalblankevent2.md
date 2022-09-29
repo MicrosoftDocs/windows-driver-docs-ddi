@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTWaitForVerticalBlankEvent2
 title: D3DKMTWaitForVerticalBlankEvent2 function (d3dkmthk.h)
 description: Waits for specified wait objects, including a vertical blank event, to occur and then returns. Supported starting with Windows 8.
 old-location: display\d3dkmtwaitforverticalblankevent2.htm
-ms.date: 05/10/2018
+ms.date: 03/02/2022
 keywords: ["D3DKMTWaitForVerticalBlankEvent2 function"]
 ms.keywords: D3DKMTWaitForVerticalBlankEvent2, D3DKMTWaitForVerticalBlankEvent2 function [Display Devices], d3dkmthk/D3DKMTWaitForVerticalBlankEvent2, display.d3dkmtwaitforverticalblankevent2
 req.header: d3dkmthk.h
@@ -42,24 +42,26 @@ api_name:
 
 # D3DKMTWaitForVerticalBlankEvent2 function
 
-
 ## -description
 
-Waits for specified wait objects, including a vertical blank event, to occur and then returns. Supported starting with Windows 8.
+Waits for specified wait objects, including a vertical blank event, to occur and then returns.
 
 ## -parameters
 
-### -param D3DKMT_WAITFORVERTICALBLANKEVENT2
+### -param unnamedParam1 [in]
 
-[in] Specifies parameters for waiting on multiple wait objects, including a vertical blank event.
+A [D3DKMT_WAITFORVERTICALBLANKEVENT2](ns-d3dkmthk-_d3dkmt_waitforverticalblankevent2.md) structure that specifies parameters for waiting on multiple wait objects, including a vertical blank event.
 
 ## -returns
 
 Returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_WAIT_0|The vertical blank event caused the wait object to return.|
-|STATUS_WAIT_1–STATUS_WAIT_8|The number of the user-mode event that caused the wait object to return.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code | Description |
+|--|--|
+| STATUS_WAIT_0 | The vertical blank event caused the wait object to return. |
+| STATUS_WAIT_1–STATUS_WAIT_8 | The number of the user-mode event that caused the wait object to return. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
+## -see-also
+
+[D3DKMT_WAITFORVERTICALBLANKEVENT2](ns-d3dkmthk-_d3dkmt_waitforverticalblankevent2.md)

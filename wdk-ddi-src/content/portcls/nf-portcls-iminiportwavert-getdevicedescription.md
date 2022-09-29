@@ -49,9 +49,9 @@ The <code>GetDeviceDescription</code> method returns a pointer to a <a href="/wi
 
 ## -parameters
 
-### -param DeviceDescription 
+### -param DeviceDescription [out]
 
-[out]
+
 Pointer to a DEVICE_DESCRIPTION structure to be filled in by the miniport. The caller specifies a valid, non-NULL pointer value for this parameter.
 
 ## -returns

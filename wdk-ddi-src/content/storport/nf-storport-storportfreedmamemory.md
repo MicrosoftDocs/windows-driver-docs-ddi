@@ -3,7 +3,7 @@ UID: NF:storport.StorPortFreeDmaMemory
 title: StorPortFreeDmaMemory function (storport.h)
 description: This function is the extended version of the StorPortFreeContiguousMemorySpecifyCache function. It deallocates a range of noncached memory in the nonpaged portion of the system address space.
 tech.root: storage
-ms.date: 10/19/2018
+ms.date: 05/24/2022
 keywords: ["StorPortFreeDmaMemory function"]
 ms.keywords: StorPortFreeDmaMemory
 req.header: storport.h
@@ -39,66 +39,41 @@ api_name:
 
 # StorPortFreeDmaMemory function
 
-
 ## -description
 
 This function is the extended version of the [StorPortFreeContiguousMemorySpecifyCache function](./nf-storport-storportfreecontiguousmemoryspecifycache.md). It deallocates a range of noncached memory in the nonpaged portion of the system address space.
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param BaseAddress 
+### -param BaseAddress [in]
 
-[in]
 The base virtual address to free.
 
-### -param NumberOfBytes 
+### -param NumberOfBytes [in]
 
-[in]
 The number of bytes that are allocated to the request. This must be the same number that was supplied as a parameter when the [StorPortAllocateContiguousMemorySpecifyCacheNode](./nf-storport-storportallocatecontiguousmemoryspecifycachenode.md) routine was previously called.
 
-### -param CacheType 
+### -param CacheType [in]
 
-[in]
 The cache type that is used in the call to the [StorPortAllocateContiguousMemorySpecifyCacheNode](./nf-storport-storportallocatecontiguousmemoryspecifycachenode.md) routine.
+
+### -param PhysicalAddress [in_opt]
+
+The physical address of the starting address of the memory block to be deallocated.
 
 ## -returns
 
-This function returns one of the following status codes:
+This function returns a STOR_STATUS code such as one of the following.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This function is not implemented on the active operating system.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation was successful.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STOR_STATUS_NOT_IMPLEMENTED | This function is not implemented on the active operating system. |
+| STOR_STATUS_SUCCESS         | The operation was successful.                                    |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode">StorPortAllocateContiguousMemorySpecifyCacheNode</a>
+[**StorPortAllocateContiguousMemorySpecifyCacheNode**](nf-storport-storportallocatecontiguousmemoryspecifycachenode.md)

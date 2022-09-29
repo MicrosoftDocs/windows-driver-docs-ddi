@@ -46,9 +46,9 @@ The **ROUND_TO_PAGES** macro takes a size in bytes and rounds it up to the next 
 
 ## -parameters
 
-### -param Size
+### -param Size [in]
 
-[in]
+
 Specifies the size in bytes to round up to a page multiple.
 
 ## -remarks

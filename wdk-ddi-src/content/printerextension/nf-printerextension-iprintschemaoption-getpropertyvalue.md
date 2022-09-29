@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrintSchemaOption.GetPropertyValue
 title: IPrintSchemaOption::GetPropertyValue (printerextension.h)
 description: Gets the XML node for the value child element of a Property or a ScoredProperty element with the given name.
-old-location: print\iprintschemaoption_getpropertyvalue.htm
 tech.root: print
-ms.date: 06/25/2020
+ms.date: 08/01/2022
 keywords: ["IPrintSchemaOption::GetPropertyValue"]
 ms.keywords: GetPropertyValue, GetPropertyValue method [Print Devices], GetPropertyValue method [Print Devices],IPrintSchemaOption interface, IPrintSchemaOption, IPrintSchemaOption interface [Print Devices],GetPropertyValue method, IPrintSchemaOption.GetPropertyValue, IPrintSchemaOption::GetPropertyValue, print.iprintschemaoption_getpropertyvalue, printerextension/IPrintSchemaOption::GetPropertyValue
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,28 +39,21 @@ api_name:
  - IPrintSchemaOption::GetPropertyValue
 ---
 
-# IPrintSchemaOption::GetPropertyValue
-
-
 ## -description
 
 Gets the XML node for the value child element of a Property  or a ScoredProperty element with the given name.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
 The base value of the name attribute of the Property or the ScoredProperty element.
 
-### -param bstrNamespaceUri 
+### -param bstrNamespaceUri [in]
 
-[in]
 The namespace URI value of the name attribute of the Property or the ScoredProperty element.
 
 ### -param ppXmlValueNode
-
-#### - ppXmlNodeValue [out, retval]
 
 The XML node for the value child element.
 
@@ -82,4 +74,3 @@ If the [IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md) object 
 [IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md)
 
 [IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md)
-

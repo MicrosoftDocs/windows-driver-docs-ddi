@@ -45,9 +45,9 @@ The **NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES_INIT** function initializes a [
 
 ## -parameters
 
-### -param Capabilities
+### -param Capabilities [_Out_]
 
-[_Out_] A pointer to a driver-allocated [**NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES**](ns-netadapter-net_adapter_wake_eapol_packet_capabilities.md) structure.
+A pointer to a driver-allocated [**NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES**](ns-netadapter-net_adapter_wake_eapol_packet_capabilities.md) structure.
 
 ## -remarks
 

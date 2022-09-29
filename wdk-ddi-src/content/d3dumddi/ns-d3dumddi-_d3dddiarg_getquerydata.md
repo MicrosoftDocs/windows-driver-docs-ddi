@@ -52,13 +52,13 @@ The D3DDDIARG_GETQUERYDATA structure contains query information that was retriev
 
 ## -struct-fields
 
-### -field hQuery
+### -field hQuery [in]
 
-[in] The handle to the query that was created by the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createquery">CreateQuery</a> function.
+The handle to the query that was created by the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createquery">CreateQuery</a> function.
 
-### -field pData
+### -field pData [out]
 
-[out] A pointer to a buffer that the driver fills with data that is related to a query, if the query type is one that requires data.
+A pointer to a buffer that the driver fills with data that is related to a query, if the query type is one that requires data.
 
 ## -see-also
 

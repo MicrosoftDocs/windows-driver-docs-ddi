@@ -49,39 +49,39 @@ The <b>OutputContextStackTrace</b> method prints the call stack specified by an 
 
 ## -parameters
 
-### -param OutputControl 
+### -param OutputControl [in]
 
-[in]
+
 Specifies where to send the output.  For possible values, see <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
-### -param Frames 
+### -param Frames [in]
 
-[in]
+
 Specifies the array of stack frames to output.  The number of elements in this array is <i>FramesSize</i>.  If <i>Frames</i> is <b>NULL</b>, the current stack frame is used.
 
-### -param FramesSize 
+### -param FramesSize [in]
 
-[in]
+
 Specifies the number of frames to output.
 
-### -param FrameContexts 
+### -param FrameContexts [in]
 
-[in]
+
 Specifies the register context for each frame in the stack.  The entries in this array correspond to the entries in the <i>Frames</i> array.  The type of the thread context is the CONTEXT structure for the target's effective processor.
 
-### -param FrameContextsSize 
+### -param FrameContextsSize [in]
 
-[in]
+
 Specifies the size, in bytes, of the memory pointed to by <i>FrameContexts</i>.  The number of stack frames must equal the number of contexts, and <i>FrameContextsSize</i> must equal <i>FramesSize</i> multiplied by <i>FrameContextsEntrySize</i>.
 
-### -param FrameContextsEntrySize 
+### -param FrameContextsEntrySize [in]
 
-[in]
+
 Specifies the size, in bytes, of each frame context in <i>FrameContexts</i>.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies bit flags that determine what information to output for each frame.  <i>Flags</i> can be any combination of values from the following table.
 
 <table>

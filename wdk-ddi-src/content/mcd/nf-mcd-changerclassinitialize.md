@@ -50,14 +50,14 @@ The <b>ChangerClassInitialize</b> routine initializes the driver.
 
 ## -parameters
 
-### -param DriverObject 
+### -param DriverObject [in]
 
-[in]
+
 Pointer to the changer miniclass driver object.  This is passed as a parameter to the miniclass driver's <b>DriverEntry</b> routine. The format of this object is operating system-specific and should not be interpreted by the miniclass driver.
 
-### -param RegistryPath 
+### -param RegistryPath [in]
 
-[in]
+
 Pointer to the registry path for changer miniclass driver. This is also passed as a parameter to the miniclass driver's <b>DriverEntry</b> routine. The format of this is operating system-specific and should not be interpreted by the miniclass driver.
 
 ### -param ChangerInitData

@@ -49,8 +49,6 @@ Gets an <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFT
 
 This property is read-only.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfsystemdepot2">IWDTFSystemDepot2</a>

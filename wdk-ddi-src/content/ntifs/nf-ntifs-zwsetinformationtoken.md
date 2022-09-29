@@ -4,13 +4,13 @@ title: ZwSetInformationToken function (ntifs.h)
 description: The ZwSetInformationToken routine modifies information in a specified token. The calling process must have appropriate access rights to set the information.
 old-location: kernel\zwsetinformationtoken.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/26/2022
 keywords: ["ZwSetInformationToken function"]
 ms.keywords: NtSetInformationToken, ZwSetInformationToken, ZwSetInformationToken routine [Kernel-Mode Driver Architecture], k111_1122461b-dab8-4a40-8f05-db62ca25763b.xml, kernel.zwsetinformationtoken, ntifs/NtSetInformationToken, ntifs/ZwSetInformationToken
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,363 +42,109 @@ api_name:
 
 # ZwSetInformationToken function
 
-
 ## -description
 
-The <b>ZwSetInformationToken</b> routine modifies information in a specified token. The calling process must have appropriate access rights to set the information.
+The **ZwSetInformationToken** routine modifies information in a specified token. The calling process must have appropriate access rights to set the information.
 
 ## -parameters
 
-### -param TokenHandle 
+### -param TokenHandle [in]
 
-[in]
 Handle for an access token in which information is to be modified.
 
-### -param TokenInformationClass 
+### -param TokenInformationClass [in]
 
-[in]
-A value from the <a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_information_class">TOKEN_INFORMATION_CLASS</a> enumerated type identifying the type of information to be modified. The possible values for this parameter are listed in the <i>TokenInformationClass</i> Value column of the table shown in the description of the <i>TokenInformation</i> parameter.
+A value from the [**TOKEN_INFORMATION_CLASS**](ne-ntifs-_token_information_class.md) enumerated type identifying the type of information to be modified. The possible values for this parameter are listed in the **TokenInformationClass** Value column of the table shown in the description of the **TokenInformation** parameter.
 
-### -param TokenInformation 
+### -param TokenInformation [in]
 
-[in]
-Pointer to a caller-supplied buffer containing the information to be modified in the token. The structure of the information in this buffer depends upon the value of <i>TokenInformationClass</i>, as shown in the following table. All structures must be aligned on a 32-bit boundary. 
+Pointer to a caller-supplied buffer containing the information to be modified in the token. The structure of the information in this buffer depends upon the value of **TokenInformationClass**, as shown in the following table. All structures must be aligned on a 32-bit boundary.
 
-<table>
-<tr>
-<th><i>TokenInformationClass</i> value</th>
-<th>Effect on <i>TokenInformation</i> buffer</th>
-</tr>
-<tr>
-<td>
-<b>TokenDefaultDacl</b>
+| TokenInformationClass value | Effect on TokenInformation buffer |
+| --------------------------- | --------------------------------- |
+| **TokenDefaultDacl**  | The buffer contains a [**TOKEN_DEFAULT_DACL**](ns-ntifs-_token_default_dacl.md) structure specifying the default [**DACL**](../wdm/ns-wdm-_acl.md) for newly created objects. TOKEN_ADJUST_DEFAULT access is required to set this information. The buffer contents are not validated for structural correctness or consistency. |
+| **TokenGroups**  | Not a valid information class. This information is read-only. |
+| **TokenOwner** | The buffer contains a [**TOKEN_OWNER**](ns-ntifs-_token_owner.md) structure specifying the default owner [**SID**](ns-ntifs-_sid.md) for newly created objects. TOKEN_ADJUST_DEFAULT access is required to set this information. The owner values that may be specified are restricted to the user and group IDs with an attribute indicating they can be assigned as the owner of objects. |
+| **TokenPrimaryGroup** | The buffer contains a [**TOKEN_PRIMARY_GROUP**](ns-ntifs-_token_primary_group.md) structure specifying the default primary group **SID** for newly created objects. TOKEN_ADJUST_DEFAULT access is required to set this information. Must be one of the group IDs already in the token. |
+| **TokenPrivileges** | Not a valid information class. This information is read-only. |
+| **TokenSource** | Not a valid information class. This information is read-only. |
+| **TokenStatistics** | Not a valid information class. This information is read-only. |
+| **TokenUser** | Not a valid information class. This information is read-only. |
 
-</td>
-<td>
-The buffer contains a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_default_dacl">TOKEN_DEFAULT_DACL</a> structure specifying the default <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">DACL</a> for newly created objects. TOKEN_ADJUST_DEFAULT access is required to set this information. The buffer contents are not validated for structural correctness or consistency. 
+### -param TokenInformationLength [in]
 
-</td>
-</tr>
-<tr>
-<td>
-<b>TokenGroups</b>
+Size, in bytes, of the structure passed in the **TokenInformation** buffer. Must be greater than or equal to the minimum value given in the following table.
 
-</td>
-<td>
-Not a valid information class. This information is read-only. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>TokenOwner</b>
-
-</td>
-<td>
-The buffer contains a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_owner">TOKEN_OWNER</a> structure specifying the default owner <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a> for newly created objects. TOKEN_ADJUST_DEFAULT access is required to set this information. The owner values that may be specified are restricted to the user and group IDs with an attribute indicating they can be assigned as the owner of objects. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>TokenPrimaryGroup</b>
-
-</td>
-<td>
-The buffer contains a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_primary_group">TOKEN_PRIMARY_GROUP</a> structure specifying the default primary group <b>SID</b> for newly created objects. TOKEN_ADJUST_DEFAULT access is required to set this information. Must be one of the group IDs already in the token. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>TokenPrivileges</b>
-
-</td>
-<td>
-Not a valid information class. This information is read-only. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>TokenSource</b>
-
-</td>
-<td>
-Not a valid information class. This information is read-only. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>TokenStatistics</b>
-
-</td>
-<td>
-Not a valid information class. This information is read-only. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>TokenUser</b>
-
-</td>
-<td>
-Not a valid information class. This information is read-only. 
-
-</td>
-</tr>
-</table>
-
-### -param TokenInformationLength 
-
-[in]
-Size, in bytes, of the structure passed in the <i>TokenInformation</i> buffer. Must be greater than or equal to the minimum value given in the following table. 
-
-<table>
-<tr>
-<th><i>TokenInformationClass</i> value</th>
-<th>Minimum <i>TokenInformationLength</i></th>
-</tr>
-<tr>
-<td>
-<b>TokenDefaultDacl</b>
-
-</td>
-<td>
-<b>sizeof</b>(<b>TOKEN_DEFAULT_DACL</b>) 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>TokenOwner</b>
-
-</td>
-<td>
-<b>sizeof</b>(<b>TOKEN_OWNER</b>) 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>TokenPrimaryGroup</b>
-
-</td>
-<td>
-<b>sizeof</b>(<b>TOKEN_PRIMARY_GROUP</b>) 
-
-</td>
-</tr>
-</table>
+| TokenInformationClass value | Minimum TokenInformationLength |
+| --------------------------- | ------------------------------ |
+| **TokenDefaultDacl**        | **sizeof**(**TOKEN_DEFAULT_DACL**) |
+| **TokenOwner**              | **sizeof**(**TOKEN_OWNER**) |
+| **TokenPrimaryGroup**       | **sizeof**(**TOKEN_PRIMARY_GROUP**) |
 
 ## -returns
 
-<b>ZwSetInformationToken</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
+**ZwSetInformationToken** returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>TokenHandle</i> did not have the required access.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ALLOTTED_SPACE_EXCEEDED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The space allotted for storage of the default discretionary access control and the primary group ID is not large enough to accept the new value of one of these fields.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INFO_LENGTH_MISMATCH</b></dt>
-</dl>
-</td>
-<td width="60%">
-The value of <i>TokenInformationLength</i> was less than the required minimum.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified default owner's security information could not be captured.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>TokenHandle</i> was not a valid handle.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_INFO_CLASS</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>TokenInformationClass</i> was not a valid token information class.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_OWNER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The caller cannot set the specified ID to be an owner (or default owner) of an object.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PRIMARY_GROUP</b></dt>
-</dl>
-</td>
-<td width="60%">
-The caller cannot set the specified ID to be the primary group of an object.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_SID</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified default owner's security information was not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_OBJECT_TYPE_MISMATCH</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>TokenHandle</i> was not a token handle.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_ACCESS_DENIED           | **TokenHandle** did not have the required access. |
+| STATUS_ALLOTTED_SPACE_EXCEEDED | The space allotted for storage of the default discretionary access control and the primary group ID is not large enough to accept the new value of one of these fields. |
+| STATUS_INFO_LENGTH_MISMATCH    | The value of **TokenInformationLength** was less than the required minimum. |
+| STATUS_INSUFFICIENT_RESOURCES  | The specified default owner's security information could not be captured. |
+| STATUS_INVALID_HANDLE          | **TokenHandle** was not a valid handle. |
+| STATUS_INVALID_INFO_CLASS      | **TokenInformationClass** was not a valid token information class. |
+| STATUS_INVALID_OWNER           | The caller cannot set the specified ID to be an owner (or default owner) of an object. |
+| STATUS_INVALID_PRIMARY_GROUP   | The caller cannot set the specified ID to be the primary group of an object. |
+| STATUS_INVALID_SID             | The specified default owner's security information was not valid. |
+| STATUS_OBJECT_TYPE_MISMATCH    | **TokenHandle** was not a token handle. |
 
 ## -remarks
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK.
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwSetInformationToken</b> function occurs in user mode, you should use the name "<a href="/previous-versions/ff567102(v=vs.85)">NtSetInformationToken</a>" instead of "<b>ZwSetInformationToken</b>".</div>
-<div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+> [!NOTE]
+> If the call to the **ZwSetInformationToken** function occurs in user mode, you should use the name [**NtSetInformationToken**](nf-ntifs-ntsetinformationtoken.md)" instead of "**ZwSetInformationToken**".
+>
+> For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psdereferenceimpersonationtoken">PsDereferenceImpersonationToken</a>
+[**PsDereferenceImpersonationToken**](nf-ntifs-psdereferenceimpersonationtoken.md)
 
+[**PsDereferencePrimaryToken**](nf-ntifs-psdereferenceprimarytoken.md)
 
+[**SECURITY_IMPERSONATION_LEVEL**](../wdm/ne-wdm-_security_impersonation_level.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psdereferenceprimarytoken">PsDereferencePrimaryToken</a>
+[**SID**](ns-ntifs-_sid.md)
 
+[**SeQueryAuthenticationIdToken**](nf-ntifs-sequeryauthenticationidtoken.md)
 
+[**SeQuerySubjectContextToken**](nf-ntifs-sequerysubjectcontexttoken.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
+[**SeTokenIsAdmin**](nf-ntifs-setokenisadmin.md)
 
+[**SeTokenIsRestricted**](nf-ntifs-setokenisrestricted.md)
 
+[**TOKEN_DEFAULT_DACL**](ns-ntifs-_token_default_dacl.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
+[**TOKEN_GROUPS**](ns-ntifs-_token_groups.md)
 
+[**TOKEN_INFORMATION_CLASS**](ne-ntifs-_token_information_class.md)
 
+[**TOKEN_OWNER**](ns-ntifs-_token_owner.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryauthenticationidtoken">SeQueryAuthenticationIdToken</a>
+[**TOKEN_PRIMARY_GROUP**](ns-ntifs-_token_primary_group.md)
 
+[**TOKEN_PRIVILEGES**](ns-ntifs-_token_privileges.md)
 
+[**TOKEN_SOURCE**](ns-ntifs-_token_source.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequerysubjectcontexttoken">SeQuerySubjectContextToken</a>
+[**TOKEN_STATISTICS**](ns-ntifs-_token_statistics.md)
 
+[**TOKEN_TYPE**](ne-ntifs-_token_type.md)
 
+[**TOKEN_USER**](ns-ntifs-_token_user.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-setokenisadmin">SeTokenIsAdmin</a>
+[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-setokenisrestricted">SeTokenIsRestricted</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_default_dacl">TOKEN_DEFAULT_DACL</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_groups">TOKEN_GROUPS</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_information_class">TOKEN_INFORMATION_CLASS</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_owner">TOKEN_OWNER</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_primary_group">TOKEN_PRIMARY_GROUP</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_privileges">TOKEN_PRIVILEGES</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_source">TOKEN_SOURCE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_statistics">TOKEN_STATISTICS</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_type">TOKEN_TYPE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_user">TOKEN_USER</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="/previous-versions/ff567055(v=vs.85)">ZwQueryInformationToken</a>
-
+[**ZwQueryInformationToken**](nf-ntifs-zwqueryinformationtoken.md)

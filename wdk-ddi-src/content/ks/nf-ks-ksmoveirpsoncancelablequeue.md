@@ -50,39 +50,39 @@ The <b>KsMoveIrpsOnCancelableQueue</b> function moves the specified IRPs from th
 
 ## -parameters
 
-### -param SourceList 
+### -param SourceList [in, out]
 
-[in, out]
+
 Specifies the head of the queue from which to remove the IRPs.
 
-### -param SourceLock 
+### -param SourceLock [in]
 
-[in]
+
 Pointer to the driver's spin lock for source queue access.
 
-### -param DestinationList 
+### -param DestinationList [in, out]
 
-[in, out]
+
 Specifies the head of the queue on which to add the IRPs.
 
-### -param DestinationLock 
+### -param DestinationLock [in, optional]
 
-[in, optional]
+
 Optionally contains a pointer to driver's spin lock for destination queue access. If this is not provided, the <i>SourceLock</i> parameter is assumed to control both queues. If provided, this lock is always acquired after the <i>SourceLock</i> parameter. If the destination list has a separate spin lock, the system-wide Cancel Spin Lock is first acquired in order to move IRPs and allow the KSQUEUE_SPINLOCK_IRP_STORAGE() spin lock to be updated.
 
-### -param ListLocation 
+### -param ListLocation [in]
 
-[in]
+
 Indicates whether the IRPs should be enumerated from the head or the tail of the source queue. Any IRPs that are moved are placed on the destination queue's opposite end so that ordering is maintained.
 
-### -param ListCallback 
+### -param ListCallback [in]
 
-[in]
+
 Specifies the minidriver-defined <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksirplistcallback">KStrIrpListCallback</a> function to call to indicate whether a specific IRP should be moved from <i>SourceList</i> to <i>DestinationList</i>, or if enumeration should be terminated.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Context passed to <i>ListCallback</i>.
 
 ## -returns

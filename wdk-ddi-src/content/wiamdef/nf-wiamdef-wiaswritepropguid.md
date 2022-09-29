@@ -2,15 +2,14 @@
 UID: NF:wiamdef.wiasWritePropGuid
 title: wiasWritePropGuid function (wiamdef.h)
 description: The wiasWritePropGuid function writes a single GUID property value to a WIA item.
-old-location: image\wiaswritepropguid.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 04/19/2022
 keywords: ["wiasWritePropGuid function"]
 ms.keywords: image.wiaswritepropguid, wiamdef/wiasWritePropGuid, wiasFncs_2d4110e9-d2e5-47a2-8213-d221e77c527d.xml, wiasWritePropGuid, wiasWritePropGuid function [Imaging Devices]
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,18 +39,14 @@ api_name:
  - wiasWritePropGuid
 ---
 
-# wiasWritePropGuid function
-
-
 ## -description
 
-The <b>wiasWritePropGuid </b>function writes a single GUID property value to a WIA item.
+The **wiasWritePropGuid** function writes a single GUID property value to a WIA item.
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
 Pointer to a WIA item context.
 
 ### -param propid
@@ -59,8 +54,6 @@ Pointer to a WIA item context.
 Specifies the property identifier.
 
 ### -param guidVal
-
-#### - gVal
 
 Specifies a GUID property value to write to the item.
 
@@ -70,20 +63,12 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasreadpropguid">wiasReadPropGuid</a>
+[wiasReadPropGuid](./nf-wiamdef-wiasreadpropguid.md)
 
+[wiasWritePropBin](./nf-wiamdef-wiaswritepropbin.md)
 
+[wiasWritePropFloat](./nf-wiamdef-wiaswritepropfloat.md)
 
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropbin">wiasWritePropBin</a>
+[wiasWritePropLong](./nf-wiamdef-wiaswriteproplong.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropfloat">wiasWritePropFloat</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswriteproplong">wiasWritePropLong</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropstr">wiasWritePropStr</a>
+[wiasWritePropStr](./nf-wiamdef-wiaswritepropstr.md)

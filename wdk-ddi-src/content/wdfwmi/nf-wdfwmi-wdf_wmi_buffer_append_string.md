@@ -52,24 +52,24 @@ The <b>WDF_WMI_BUFFER_APPEND_STRING</b> function copies a specified Unicode stri
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer to a destination buffer that receives the string.
 
-### -param BufferLength 
+### -param BufferLength [in]
 
-[in]
+
 The length, in bytes, of the destination buffer that receives the string.
 
-### -param String 
+### -param String [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the string to be copied.
 
-### -param RequiredSize 
+### -param RequiredSize [out]
 
-[out]
+
 A pointer to a location that receives the number of bytes that are required to store the specified string in the destination buffer.
 
 ## -returns

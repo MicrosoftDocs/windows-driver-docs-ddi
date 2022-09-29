@@ -4,7 +4,7 @@ title: IDENTIFY_DEVICE_DATA (ata.h)
 description: The IDENTIFY_DEVICE_DATA structure contains the data retrieved by an ATA identify device data command (0xEC).Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\identify_device_data.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/20/2022
 keywords: ["IDENTIFY_DEVICE_DATA structure"]
 ms.keywords: "*PIDENTIFY_DEVICE_DATA, IDENTIFY_DEVICE_DATA, IDENTIFY_DEVICE_DATA structure [Storage Devices], PIDENTIFY_DEVICE_DATA, PIDENTIFY_DEVICE_DATA structure pointer [Storage Devices], _IDENTIFY_DEVICE_DATA, ata/IDENTIFY_DEVICE_DATA, ata/PIDENTIFY_DEVICE_DATA, storage.identify_device_data, structs-ATA_904f6e71-4dd9-4ecb-9928-0d7ce44b83ef.xml"
 req.header: ata.h
@@ -50,14 +50,16 @@ api_name:
 
 ## -description
 
-The IDENTIFY_DEVICE_DATA structure contains the data retrieved by an ATA identify device data command (0xEC).
+The **IDENTIFY_DEVICE_DATA** structure contains the data retrieved by an ATA identify device data command (0xEC).
 
-> [!NOTE\
+> [!NOTE]
 > The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 
 ## -struct-fields
 
 ### -field GeneralConfiguration
+
+Contains general configuration information.
 
 ### -field GeneralConfiguration.Reserved1
 
@@ -96,6 +98,8 @@ Indicates when set to 1 that the device is an ATA device.
 Indicates the number of cylinders on the device.
 
 ### -field SpecificConfiguration
+
+Specific configuration.
 
 ### -field NumHeads
 
@@ -143,13 +147,23 @@ Contains the second ID of the device's vendor.
 
 ### -field TrustedComputing
 
+Trusted computing.
+
 ### -field TrustedComputing.FeatureSupported
+
+Indicates whether the device supports trusted computing.
 
 ### -field TrustedComputing.Reserved
 
+Reserved.
+
 ### -field Capabilities
 
+Capabilities.
+
 ### -field Capabilities.CurrentLongPhysicalSectorAlignment
+
+Current long physical sector alignment.
 
 ### -field Capabilities.ReservedByte49
 
@@ -201,6 +215,8 @@ Reserved.
 
 ### -field FreeFallControlSensitivity
 
+Free fall control sensitivity.
+
 ### -field NumberOfCurrentCylinders
 
 Indicates the number of cylinders on the device.
@@ -231,11 +247,19 @@ Reserved.
 
 ### -field SanitizeFeatureSupported
 
+Indicates whether the device supports sanitize.
+
 ### -field CryptoScrambleExtCommandSupported
+
+Indicates whether the device supports the crypto scramble command.
 
 ### -field OverwriteExtCommandSupported
 
+Indicates whether the device supports the overwrite command.
+
 ### -field BlockEraseExtCommandSupported
+
+Indicates whether the device supports block erase.
 
 ### -field UserAddressableSectors
 
@@ -254,6 +278,8 @@ Indicates which DMA modes the device supports.
 Indicates which DMA modes are currently selected.
 
 ### -field AdvancedPIOModes
+
+Indicates PIO mode support.
 
 ### -field ReservedByte64
 
@@ -1010,41 +1036,3 @@ Indicates the disk signature.
 ### -field CheckSum
 
 Indicates the checksum.
-
-#### - CfaPowerModel
-
-#### - ReservedForCfaWord170
-
-Words 170-175
-
-#### - ReservedWord105
-
-#### - ReservedWord1274
-
-#### - ReservedWord2
-
-Reserved.
-
-#### - ReservedWord206
-
-Word 206
-
-#### - ReservedWord48
-
-Reserved.
-
-#### - ReservedWord89
-
-Reserved.
-
-#### - ReservedWord95
-
-Reserved.
-
-#### - ReservedWords69
-
-Reserved.
-
-#### - ReservedWords76
-
-Reserved.

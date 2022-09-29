@@ -49,9 +49,9 @@ The <b>IKsReferenceClock::GetState</b> method queries the associated reference c
 
 ## -parameters
 
-### -param State 
+### -param State [out]
 
-[out]
+
 Points to a <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> structure that indicates the streaming state of the underlying clock.
 
 ## -returns

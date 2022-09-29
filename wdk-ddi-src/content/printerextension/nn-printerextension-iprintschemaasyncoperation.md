@@ -2,16 +2,15 @@
 UID: NN:printerextension.IPrintSchemaAsyncOperation
 title: IPrintSchemaAsyncOperation (printerextension.h)
 description: Represents an asynchronous operation context for validation, merge or commit operations.
-old-location: print\iprintschemaasyncoperation_interface.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/04/2022
 keywords: ["IPrintSchemaAsyncOperation interface"]
 ms.keywords: IPrintSchemaAsyncOperation, IPrintSchemaAsyncOperation interface [Print Devices], IPrintSchemaAsyncOperation interface [Print Devices],described, print.iprintschemaasyncoperation_interface, printerextension/IPrintSchemaAsyncOperation
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,14 +39,9 @@ api_name:
  - IPrintSchemaAsyncOperation
 ---
 
-# IPrintSchemaAsyncOperation interface
-
-
 ## -description
 
 Represents an asynchronous operation context for validation, merge or commit operations.
-
-## -inheritance
 
 ## -remarks
 

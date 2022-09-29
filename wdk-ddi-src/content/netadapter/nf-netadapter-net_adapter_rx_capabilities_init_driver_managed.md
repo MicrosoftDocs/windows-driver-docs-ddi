@@ -3,7 +3,7 @@ UID: NF:netadapter.NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED
 title: NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED function (netadapter.h)
 description: The NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED function initializes a NET_ADAPTER_RX_CAPABILITIES structure for a net adapter that would like to specify driver-managed receive buffer allocation and attachment.
 tech.root: netvista
-ms.date: 02/14/2018
+ms.date: 03/30/2022
 keywords: ["NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED function"]
 ms.keywords: NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED
 req.header: netadapter.h
@@ -46,19 +46,19 @@ The **NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED** function initializes a [
 
 ## -parameters
 
-### -param RxCapabilities
+### -param RxCapabilities [_Out_]
 
 A pointer to a driver-allocated [**NET_ADAPTER_RX_CAPABILITIES**](ns-netadapter-_net_adapter_rx_capabilities.md) structure.
 
-### -param EvtAdapterReturnRxBuffer
+### -param EvtAdapterReturnRxBuffer [_In_]
 
 A pointer to the client driver's *EVT_NET_ADAPTER_RETURN_RX_BUFFER* callback function. For more information, see the Remarks section.
 
-### -param MaximumFragmentBufferSize
+### -param MaximumFrameSize [_In_]
 
-The maximum fragment buffer size, in bytes, that the adapter can receive.
+The maximum frame size, in bytes, that the adapter can receive.
 
-### -param MaximumNumberOfQueues
+### -param MaximumNumberOfQueues [_In_]
 
 The maximum number of receive queues that the adapter supports.
 

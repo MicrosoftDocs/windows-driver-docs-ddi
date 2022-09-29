@@ -49,14 +49,14 @@ The <b>IoStartNextPacket</b> routine dequeues the next IRP, if any, from the giv
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object for which the IRP is to be dequeued.
 
-### -param Cancelable 
+### -param Cancelable [in]
 
-[in]
+
 Specifies whether IRPs in the device queue can be canceled.
 
 ## -remarks

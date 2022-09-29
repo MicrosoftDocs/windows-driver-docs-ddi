@@ -51,14 +51,14 @@ The Bluetooth
 
 ## -parameters
 
-### -param lVal 
+### -param lVal [in]
 
-[in]
+
 The 32-bit integer value that is used to initialize the SDP_NODE structure.
 
-### -param tag 
+### -param tag [in]
 
-[in]
+
 A profile driver defined tag to associate with the node.
 
 ## -returns

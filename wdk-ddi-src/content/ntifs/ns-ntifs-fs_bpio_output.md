@@ -2,7 +2,7 @@
 UID: NS:ntifs._FS_BPIO_OUTPUT
 tech.root: ifsk
 title: FS_BPIO_OUTPUT
-ms.date: 07/08/2021
+ms.date: 12/08/2021
 targetos: Windows
 description: The FS_BPIO_OUTPUT structure is used to return information about the BypassIO operation for the FSCTL_MANAGE_BYPASS_IO control code.
 prerelease: false
@@ -66,33 +66,33 @@ Reserved for system use. Set to zero.
 
 ### -field Enable
 
-A [**FS_BPIO_RESULTS**](ns-ntifs-fs_bpio_results.md) structure in which to write the results when a [FS_BPIO_OP_ENABLE](ne-ntifs-fs_bpio_operations.md) operation was requested.
+A caller-allocated [**FS_BPIO_RESULTS**](ns-ntifs-fs_bpio_results.md) structure in which to write the results when a [**FS_BPIO_OP_ENABLE**](ne-ntifs-fs_bpio_operations.md) operation was requested.
 
 ### -field Query
 
-A [**FS_BPIO_RESULTS**](ns-ntifs-fs_bpio_results.md) structure in which to write the results when a [FS_BPIO_OP_QUERY](ne-ntifs-fs_bpio_operations.md) operation was requested.
+A caller-allocated [**FS_BPIO_RESULTS**](ns-ntifs-fs_bpio_results.md) structure in which to write the results when a [**FS_BPIO_OP_QUERY**](ne-ntifs-fs_bpio_operations.md) operation was requested.
 
 ### -field VolumeStackResume
 
-A [**FS_BPIO_RESULTS**](ns-ntifs-fs_bpio_results.md) structure in which to write the results when a [FS_BPIO_OP_VOLUME_STACK_RESUME](ne-ntifs-fs_bpio_operations.md) operation was requested.
+A caller-allocated [**FS_BPIO_RESULTS**](ns-ntifs-fs_bpio_results.md) structure in which to write the results when a [**FS_BPIO_OP_VOLUME_STACK_RESUME**](ne-ntifs-fs_bpio_operations.md) operation was requested.
 
 ### -field StreamResume
 
-A [**FS_BPIO_RESULTS**](ns-ntifs-fs_bpio_results.md) structure in which to write the results when a [FS_BPIO_OP_STREAM_RESUME](ne-ntifs-fs_bpio_operations.md) operation was requested.
+A caller-allocated [**FS_BPIO_RESULTS**](ns-ntifs-fs_bpio_results.md) structure in which to write the results when a [**FS_BPIO_OP_STREAM_RESUME**](ne-ntifs-fs_bpio_operations.md) operation was requested.
 
 ### -field GetInfo
 
-A [*FS_BPIO_INFO**](ns-ntifs-fs_bpio_info.md) structure in which to return information about the requested operation.
+A caller-allocated [**FS_BPIO_INFO**](ns-ntifs-fs_bpio_info.md) structure in which to return information about the requested operation when a [**FS_BPIO_OP_GET_INFO**](ne-ntifs-fs_bpio_operations.md) operation was requested.
 
 ## -remarks
 
 **FS_BPIO_OUTPUT** is a variable length structure.
 
-See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
+See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) and [Supporting BypassIO operations](/windows-hardware/drivers/ifs/bypassio-operations) for more information.
 
 ## -see-also
 
-[*FS_BPIO_INFO**](ns-ntifs-fs_bpio_info.md)
+[**FS_BPIO_INFO**](ns-ntifs-fs_bpio_info.md)
 
 [**FS_BPIO_OPERATIONS**](ne-ntifs-fs_bpio_operations.md)
 

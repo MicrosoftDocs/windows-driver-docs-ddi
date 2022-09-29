@@ -45,6 +45,9 @@ api_name:
 
 ## -description
 
+> [!IMPORTANT]
+> This topic is part of the [WDI driver model](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) released in Windows 10. The WDI driver model is in maintenance mode and will only receive high priority fixes. [WiFiCx](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx) is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features.
+
 The 
   MiniportWdiRxFlush handler function is issued after the <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_rx_stop">MiniportWdiRxStop</a> operation is completed. Upon receiving the flush request, the target/RxEngine must  discard all unindicated frames on the port/adapter before indicating <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_rx_flush_confirm">RxFlushConfirm</a>.
 
@@ -54,14 +57,14 @@ This is a WDI miniport handler inside <a href="/windows-hardware/drivers/ddi/dot
 
 ## -parameters
 
-### -param MiniportTalTxRxContext 
+### -param MiniportTalTxRxContext [in]
 
-[in]
+
 TAL device handle returned by the IHV miniport in <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-### -param PortId 
+### -param PortId [in]
 
-[in]
+
 The port ID.
 
 ## -see-also

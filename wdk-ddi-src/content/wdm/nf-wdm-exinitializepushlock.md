@@ -47,9 +47,9 @@ Initializes a push lock variable.
 
 ## -parameters
 
-### -param PushLock
+### -param PushLock [Out]
 
-[Out] Pointer to the caller-supplied storage, which must be at least the value of sizeof(EX_PUSH_LOCK), for the push lock variable to be initialized. The storage must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
+Pointer to the caller-supplied storage, which must be at least the value of sizeof(EX_PUSH_LOCK), for the push lock variable to be initialized. The storage must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
 
 ## -remarks
 

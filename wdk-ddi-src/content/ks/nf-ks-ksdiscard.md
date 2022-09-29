@@ -2,9 +2,8 @@
 UID: NF:ks.KsDiscard
 title: KsDiscard macro (ks.h)
 description: The KsDiscard macro removes a given item from an object bag.
-old-location: stream\ksdiscard.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/11/2022
 keywords: ["KsDiscard macro"]
 ms.keywords: KsDiscard, KsDiscard function [Streaming Media Devices], avfunc_645e5574-6c6b-4336-87fe-fe777f7d1c91.xml, ks/KsDiscard, stream.ksdiscard
 req.header: ks.h
@@ -41,28 +40,23 @@ api_name:
  - KsDiscard
 ---
 
-# KsDiscard macro
-
-
 ## -description
 
-The **KsDiscard**macro removes a given item from an object bag.
+The **KsDiscard** macro removes a given item from an object bag.
 
 ## -parameters
 
-### -param Object 
+### -param Object [in]
 
-[in]
-The item pointed to by *Pointer* is removed from the object bag associated with this object. Can be of type [KSDEVICE](./ns-ks-_ksdevice.md), [KSFILTERFACTORY](./ns-ks-_ksfilterfactory.md), [KSFILTER](./ns-ks-_ksfilter.md), or [KSPIN](./ns-ks-_kspin.md).
+The item pointed to by *Pointer* is removed from the object bag associated with this object. Can be of type [**KSDEVICE**](ns-ks-_ksdevice.md), [**KSFILTERFACTORY**](ns-ks-_ksfilterfactory.md), [**KSFILTER**](ns-ks-_ksfilter.md), or [**KSPIN**](ns-ks-_kspin.md).
 
-### -param Pointer 
+### -param Pointer [in]
 
-[in]
 A pointer to the item to be removed from the requested object's bag.
 
 ## -remarks
 
-This macro wraps and assumes the return value of [KsRemoveItemFromObjectBag](./nf-ks-ksremoveitemfromobjectbag.md), which is **ULONG**.
+This macro wraps and assumes the return value of [KsRemoveItemFromObjectBag](nf-ks-ksremoveitemfromobjectbag.md), which is **ULONG**.
 
 This function is implemented as a C-style preprocessing macro in the *Ks.h* header.
 
@@ -70,12 +64,12 @@ This function is implemented as a C-style preprocessing macro in the *Ks.h* head
 
 ## -see-also
 
-[KSDEVICE](./ns-ks-_ksdevice.md)
+[**KSDEVICE**](ns-ks-_ksdevice.md)
 
-[KSFILTER](./ns-ks-_ksfilter.md)
+[**KSFILTER**](ns-ks-_ksfilter.md)
 
-[KSFILTERFACTORY](./ns-ks-_ksfilterfactory.md)
+[**KSFILTERFACTORY**](ns-ks-_ksfilterfactory.md)
 
-[KSPIN](./ns-ks-_kspin.md)
+[**KSPIN**](ns-ks-_kspin.md)
 
-[KsRemoveItemFromObjectBag](./nf-ks-ksremoveitemfromobjectbag.md)
+[KsRemoveItemFromObjectBag](nf-ks-ksremoveitemfromobjectbag.md)

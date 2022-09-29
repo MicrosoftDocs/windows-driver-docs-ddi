@@ -49,14 +49,14 @@ The <b>OutputCurrentState</b> method prints the current state of the current tar
 
 ## -parameters
 
-### -param OutputControl 
+### -param OutputControl [in]
 
-[in]
+
 Specifies which clients to send the output to.  For possible values see <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies the bit set that determines the information to print to the debugger console.  <i>Flags</i> can be any combination of values from the following table.
 
 <table>

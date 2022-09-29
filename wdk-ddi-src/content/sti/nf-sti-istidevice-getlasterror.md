@@ -49,9 +49,9 @@ The <b>IStiDevice::GetLastError</b> method returns the last known error associat
 
 ## -parameters
 
-### -param pdwLastDeviceError 
+### -param pdwLastDeviceError [out]
 
-[out]
+
 Caller-supplied pointer to a buffer in which the error code will be stored.
 
 ## -returns

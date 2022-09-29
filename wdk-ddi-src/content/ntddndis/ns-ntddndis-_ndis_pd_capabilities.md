@@ -158,7 +158,7 @@ The number of elements for an array of NDIS_GFP_WILDCARD_MATCH_PROFILE structure
 
 
 
-#### - DmaAddressWidth
+### -field DmaAddressWidth
 
 The DMA address width that the provider supports. Ideally, providers would support a 64-bit wide DMA address width, and setting this value to 0 indicates that a 64-bit wide DMA address. Providers must support a minimum of 32-bits in width, this means that valid values are either 0 or between 32-64 inclusive.
 

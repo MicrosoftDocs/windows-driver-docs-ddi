@@ -49,24 +49,24 @@ api_name:
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 Opaque instance pointer for the minifilter driver instance that the SetEa operation is to be sent to. The instance must be attached to the volume where the file resides.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 File object pointer for the file.
 
-### -param EaBuffer 
+### -param EaBuffer [in]
 
-[in]
+
 Pointer to a caller-supplied, <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute (EA) values to be set.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Length, in bytes, of the buffer that the <i>EaBuffer</i> parameter points to.
 
 ## -returns

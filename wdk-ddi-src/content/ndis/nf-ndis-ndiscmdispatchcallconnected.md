@@ -52,9 +52,9 @@ api_name:
 
 ## -parameters
 
-### -param NdisVcHandle 
+### -param NdisVcHandle [in]
 
-[in]
+
 Specifies the handle to the VC that represents the connection, which was created with 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> when the call manager's 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_receive_net_buffer_lists">

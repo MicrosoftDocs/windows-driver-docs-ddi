@@ -54,19 +54,19 @@ The <b>WdfDeviceConfigureRequestDispatching</b> method causes the framework to q
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 Supplies a handle to a framework device object.
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 Supplies a handle to a framework queue object.
 
-### -param RequestType 
+### -param RequestType [in]
 
-[in]
+
 Supplies a <a href="/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_type">WDF_REQUEST_TYPE</a>-typed enumerator that identifies the type of request to be queued. The only valid enumerators are: 
 
 <b>WdfRequestTypeCreate</b>

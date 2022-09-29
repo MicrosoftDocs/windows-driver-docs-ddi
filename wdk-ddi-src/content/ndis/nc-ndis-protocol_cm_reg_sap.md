@@ -53,28 +53,28 @@ The
 
 ## -parameters
 
-### -param CallMgrAfContext 
+### -param CallMgrAfContext [in]
 
-[in]
+
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-open AF state. The call manager supplied this handle to NDIS from its 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.
 
-### -param Sap 
+### -param Sap [in]
 
-[in]
+
 Pointer to a media-specific CO_SAP structure that contains the specific SAP that a
      connection-oriented client is registering.
 
-### -param NdisSapHandle 
+### -param NdisSapHandle [in]
 
-[in]
+
 Specifies a handle, supplied by NDIS, that uniquely identifies this SAP. This handle is opaque to
      the call manager and reserved for NDIS library use.
 
-### -param CallMgrSapContext 
+### -param CallMgrSapContext [out]
 
-[out]
+
 On return, specifies the handle to a call manager-supplied context area in which the call manager
      maintains state about this SAP.
 

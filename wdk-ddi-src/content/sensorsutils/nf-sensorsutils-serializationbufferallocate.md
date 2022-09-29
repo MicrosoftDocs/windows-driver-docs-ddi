@@ -49,13 +49,13 @@ Exported memory allocation function for allocating a serialized buffer.
 
 ## -parameters
 
-### -param SizeInBytes
+### -param SizeInBytes [in]
 
-[in] The size (in bytes) of the buffer to allocate.
+The size (in bytes) of the buffer to allocate.
 
-### -param pBuffer
+### -param pBuffer [in/out]
 
-[in/out] Pointer to the buffer to allocate.
+Pointer to the buffer to allocate.
 
 ## -returns
 

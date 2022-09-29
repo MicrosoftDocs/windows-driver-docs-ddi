@@ -3,7 +3,7 @@ UID: NF:ksproxy.IKsAllocatorEx.KsSetProperties
 title: IKsAllocatorEx::KsSetProperties (ksproxy.h)
 description: Sets the properties for an allocator.
 tech.root: stream
-ms.date: 06/11/2021
+ms.date: 04/18/2022
 keywords: ["IKsAllocatorEx::KsSetProperties"]
 ms.keywords: IKsAllocatorEx interface [Streaming Media Devices],KsSetProperties method, IKsAllocatorEx.KsSetProperties, IKsAllocatorEx::KsSetProperties, KsSetProperties, KsSetProperties method [Streaming Media Devices], KsSetProperties method [Streaming Media Devices],IKsAllocatorEx interface, ksproxy/IKsAllocatorEx::KsSetProperties, stream.iksallocatorex_kssetproperties
 req.header: ksproxy.h
@@ -39,13 +39,15 @@ api_name:
  - IKsAllocatorEx::KsSetProperties
 ---
 
-# IKsAllocatorEx::KsSetProperties
-
 ## -description
 
 Sets the properties for an allocator.
 
 ## -parameters
+
+### -param unnamedParam1
+
+[in] Defines the **PALLOCATOR_PROPERTIES_EX** parameter *unnamedParam1*.
 
 ## -see-also
 

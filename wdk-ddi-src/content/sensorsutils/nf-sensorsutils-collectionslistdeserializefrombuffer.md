@@ -47,17 +47,17 @@ This routine deserializes a collection list from the input buffer.
 
 ## -parameters
 
-### -param SourceBufferSizeInBytes
+### -param SourceBufferSizeInBytes [in]
 
-[in] The input buffer size (in bytes).
+The input buffer size (in bytes).
 
-### -param SourceBuffer
+### -param SourceBuffer [in]
 
-[in] A buffer containing the serialized collection list data.
+A buffer containing the serialized collection list data.
 
-### -param TargetCollection
+### -param TargetCollection [in/out]
 
-[in/out] The caller-allocated collection list with AllocatedSizeInBytes set to the allocation size.
+The caller-allocated collection list with AllocatedSizeInBytes set to the allocation size.
 
 ## -returns
 

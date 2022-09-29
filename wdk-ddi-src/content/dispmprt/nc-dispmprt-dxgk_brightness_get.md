@@ -49,13 +49,13 @@ The <i>DxgkDdiGetBrightness</i> function retrieves the currently active brightne
 
 ## -parameters
 
-### -param Context
+### -param Context [in]
 
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
+A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
-### -param Brightness
+### -param Brightness [in]
 
-[in] A pointer to a variable that receives the brightness level.
+A pointer to a variable that receives the brightness level.
 
 ## -returns
 

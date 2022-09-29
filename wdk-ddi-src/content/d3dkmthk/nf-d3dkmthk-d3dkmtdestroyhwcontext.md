@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTDestroyHwContext
 title: D3DKMTDestroyHwContext function (d3dkmthk.h)
 description: Used to destroy a hardware context.
 old-location: display\d3dkmtdestroyhwcontext.htm
-ms.date: 05/10/2018
+ms.date: 02/23/2022
 keywords: ["D3DKMTDestroyHwContext function"]
 ms.keywords: D3DKMTDestroyHwContext, D3DKMTDestroyHwContext function [Display Devices], d3dkmthk/D3DKMTDestroyHwContext, display.d3dkmtdestroyhwcontext
 req.header: d3dkmthk.h
@@ -42,20 +42,20 @@ api_name:
 
 # D3DKMTDestroyHwContext function
 
-
 ## -description
 
 Used to destroy a hardware context.
 
 ## -parameters
 
-### -param D3DKMT_DESTROYHWCONTEXT
+### -param unnamedParam1 [in]
 
-*destroyHwContext* [in]
-
-A structure holding the information needed to destroy a hardware context.
+A pointer to a [D3DKMT_DESTROYHWCONTEXT](ns-d3dkmthk-_d3dkmt_destroyhwcontext.md) structure holding the information needed to destroy a hardware context.
 
 ## -returns
 
-Returns STATUS_SUCCESS if called successfully.
+The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this method might return an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** error code.
 
+## -see-also
+
+[D3DKMT_DESTROYHWCONTEXT](ns-d3dkmthk-_d3dkmt_destroyhwcontext.md)

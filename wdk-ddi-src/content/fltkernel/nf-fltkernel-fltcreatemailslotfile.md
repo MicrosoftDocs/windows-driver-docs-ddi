@@ -49,25 +49,25 @@ Minifilter drivers call **FltCreateMailslotFile** to create a new pipe or open a
 
 ## -parameters
 
-### -param Filter
+### -param Filter [in]
 
-[in] An opaque filter pointer for the caller.
+An opaque filter pointer for the caller.
 
-### -param Instance
+### -param Instance [in, optional]
 
-[in, optional] An opaque instance pointer for the minifilter driver instance that the create request is to be sent to. The instance must be attached to the volume for the mailslot file system. This parameter is optional and can be **NULL**. If this parameter is **NULL**, the request is sent to the device object at the top of the file system driver stack for the volume. If it is non-**NULL**, the request is sent only to minifilter driver instances that are attached below the specified instance.
+An opaque instance pointer for the minifilter driver instance that the create request is to be sent to. The instance must be attached to the volume for the mailslot file system. This parameter is optional and can be **NULL**. If this parameter is **NULL**, the request is sent to the device object at the top of the file system driver stack for the volume. If it is non-**NULL**, the request is sent only to minifilter driver instances that are attached below the specified instance.
 
-### -param FileHandle
+### -param FileHandle [out]
 
-[out] A pointer to a caller-allocated variable that receives the file handle if the call to  **FltCreateMailslotFile** is successful.
+A pointer to a caller-allocated variable that receives the file handle if the call to  **FltCreateMailslotFile** is successful.
 
-### -param FileObject
+### -param FileObject [out, optional]
 
-[out, optional] A pointer to a caller-allocated variable that receives the file object pointer if the call to **FltCreateMailslotFile** is successful. This parameter is optional and can be **NULL**.
+A pointer to a caller-allocated variable that receives the file object pointer if the call to **FltCreateMailslotFile** is successful. This parameter is optional and can be **NULL**.
 
-### -param DesiredAccess
+### -param DesiredAccess [in]
 
-[in] A bitmask of flags that specify the type of access that the caller requires to the file or directory. The set of system-defined **DesiredAccess** flags determines the following specific access rights for file objects.
+A bitmask of flags that specify the type of access that the caller requires to the file or directory. The set of system-defined **DesiredAccess** flags determines the following specific access rights for file objects.
 
 | DesiredAccess Flag | Meaning |
 | ------------------ | ------- |
@@ -89,9 +89,9 @@ Alternatively, for any file object that does not represent a directory, you can 
 | GENERIC_READ | STANDARD_RIGHTS_READ, FILE_READ_DATA, and SYNCHRONIZE. |
 | GENERIC_WRITE | STANDARD_RIGHTS_WRITE, FILE_WRITE_DATA, FILE_APPEND_DATA, and SYNCHRONIZE. |
 
-### -param ObjectAttributes
+### -param ObjectAttributes [in]
 
-[in] Pointer to an opaque [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that is already initialized with [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes). If the caller is running in the system process context, this parameter can be **NULL**. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to **InitializeObjectAttributes**. Members of this structure for a file object are listed in the following table.
+Pointer to an opaque [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that is already initialized with [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes). If the caller is running in the system process context, this parameter can be **NULL**. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to **InitializeObjectAttributes**. Members of this structure for a file object are listed in the following table.
 
 | Member | Value |
 | ------ | ----- |
@@ -101,16 +101,16 @@ Alternatively, for any file object that does not represent a directory, you can 
 | **PSECURITY_DESCRIPTOR SecurityDescriptor** | Optional [**SECURITY_DESCRIPTOR**](../ntifs/ns-ntifs-_security_descriptor.md) to be applied to a mailslot. [ACLs](../wdm/ns-wdm-_acl.md) specified by such a security descriptor are only applied to the mailslot when it is created. If the value is **NULL** when a mailslot is created, the ACL placed on the mailslot is dependant on the mailslot file system and may allow a client with any access to create an instance. |
 | **ULONG Attributes** | A set of flags that controls the file object attributes. If the caller is running in the system process context, this parameter can be zero. Otherwise, the caller must set the OBJ_KERNEL_HANDLE flag. The caller can also optionally set the OBJ_CASE_INSENSITIVE flag, which indicates that name-lookup code should ignore the case of **ObjectName** rather than performing an exact-match search. |
 
-### -param IoStatusBlock
+### -param IoStatusBlock [out]
 
-[out] Pointer to an [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested operation. On return from **FltCreateMailslotFile**, the **Information** member of the variable contains one of the following values:
+Pointer to an [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested operation. On return from **FltCreateMailslotFile**, the **Information** member of the variable contains one of the following values:
 
 * FILE_CREATED
 * FILE_OPENED
 
-### -param CreateOptions
+### -param CreateOptions [in]
 
-[in] The options to be applied when creating or opening the mailslot, as a compatible combination of the following flags.
+The options to be applied when creating or opening the mailslot, as a compatible combination of the following flags.
 
 | Flags | Meaning |
 | ----- | ------- |
@@ -118,26 +118,26 @@ Alternatively, for any file object that does not represent a directory, you can 
 | FILE_SYNCHRONOUS_IO_ALERT | All operations on the mailslot are performed synchronously. Any wait on behalf of the caller is subject to premature termination from alerts. This flag also causes the I/O system to maintain the mailslot position context. If this flag is set, the **DesiredAccess** SYNCHRONIZE flag also must be set so that the I/O Manager uses the file object as a synchronization object. |
 | FILE_SYNCHRONOUS_IO_NONALERT | All operations on the mailslot are performed synchronously. Waits in the system to synchronize I/O queuing and completion are not subject to alerts. This flag also causes the I/O system to maintain the file position context. If this flag is set, the **DesiredAccess** SYNCHRONIZE flag also must be set so that the I/O Manager uses the file object as a synchronization object. |
 
-### -param MailslotQuota
+### -param MailslotQuota [in]
 
-[in] The size, in bytes, of the buffer for writes to the mailslot.
+The size, in bytes, of the buffer for writes to the mailslot.
 
-### -param MaximumMessageSize
+### -param MaximumMessageSize [in]
 
-[in] The maximum size, in bytes, of a message to write to the mailslot. A message of any size is specified by the value 0.
+The maximum size, in bytes, of a message to write to the mailslot. A message of any size is specified by the value 0.
 
-### -param ReadTimeout
+### -param ReadTimeout [in]
 
-[in] The time a read operation waits for a message to be available in the mailslot. The default timeout is expressed in 100-nanosecond increments as a negative integer. For example, 250 milliseconds is specified as ```–10*1000*250```. Additionally, the following values have special meanings.
+The time a read operation waits for a message to be available in the mailslot. The default timeout is expressed in 100-nanosecond increments as a negative integer. For example, 250 milliseconds is specified as ```–10*1000*250```. Additionally, the following values have special meanings.
 
 | Value | Meaning |
 | ----- | ------- |
 | 0  | Returns immediately if no message is present. |
 | -1 | Waits forever for a message. |
 
-### -param DriverContext
+### -param DriverContext [in, optional]
 
-[in, optional] Optional pointer to an [**IO_DRIVER_CREATE_CONTEXT**](../ntddk/ns-ntddk-_io_driver_create_context.md) structure already initialized by [**IoInitializeDriverCreateContext**](../ntddk/nf-ntddk-ioinitializedrivercreatecontext.md).
+Optional pointer to an [**IO_DRIVER_CREATE_CONTEXT**](../ntddk/ns-ntddk-_io_driver_create_context.md) structure already initialized by [**IoInitializeDriverCreateContext**](../ntddk/nf-ntddk-ioinitializedrivercreatecontext.md).
 
 ## -returns
 

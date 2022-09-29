@@ -49,34 +49,34 @@ The **FsRtlAllocateExtraCreateParameterFromLookasideList** routine allocates mem
 
 ## -parameters
 
-### -param EcpType 
+### -param EcpType [in]
 
-[in]
+
 Pointer to a GUID that indicates the type of ECP for whicha context structure should be allocated. For more information about ECPs, see [Using Extra Create Parameters with an IRP_MJ_CREATE Operation](/windows-hardware/drivers/ifs/using-extra-create-parameters-with-an-irp-mj-create-operation).
 
-### -param SizeOfContext 
+### -param SizeOfContext [in]
 
-[in]
+
 The size, in bytes, of the ECP context structure.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Defines pool allocation options. If the value of the *SizeOfContext* parameter is larger than the size, in bytes, of the lookaside list that the *LookasideList* parameter points to, **FsRtlAllocateExtraCreateParameterFromLookasideList** allocates the ECP context structure from system pool instead of the lookaside list. In this case, if the *Flags* parameter contains the FSRTL_ALLOCATE_ECP_FLAG_CHARGE_QUOTA bit flag value, system pool allocated by **FsRtlAllocateExtraCreateParameterFromLookasideList** is charged against the current process' memory quota. For more information about bit flag values, see the *Flags* parameter of [FsRtlAllocateExtraCreateParameter](./nf-ntifs-fsrtlallocateextracreateparameter.md). In the more typical case, when **FsRtlAllocateExtraCreateParameterFromLookasideList** allocates memory for the ECP context structure from the lookaside list, **FsRtlAllocateExtraCreateParameterFromLookasideList** ignores the FSRTL_ALLOCATE_ECP_FLAG_CHARGE_QUOTA bit flag.
 
-### -param CleanupCallback 
+### -param CleanupCallback [in, optional]
 
-[in, optional]
+
 Optional pointer to a minifilter-defined cleanup callback routine of type [PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK](./nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md). The cleanup callback routine is called when the ECP context structure is deleted. Set this parameter to **NULL** if a cleanup callback routine is not applicable.
 
-### -param LookasideList 
+### -param LookasideList [in, out]
 
-[in, out]
+
 Pointer to an initialized lookaside list from which **FsRtlAllocateExtraCreateParameterFromLookasideList** attempts to allocate pool (for the ECP context structure). To initialize the lookaside list, use the [FsRtlInitExtraCreateParameterLookasideList](./nf-ntifs-fsrtlinitextracreateparameterlookasidelist.md) routine.
 
-### -param EcpContext 
+### -param EcpContext [out]
 
-[out]
+
 Pointer to a location that receives a pointer to the allocated ECP context structure. If **FsRtlAllocateExtraCreateParameterFromLookasideList** failed to allocate sufficient pool for the ECP context structure, **FsRtlAllocateExtraCreateParameterFromLookasideList** sets *EcpContext* to **NULL** and returns status code STATUS_INSUFFICIENT_RESOURCES.
 
 ## -returns

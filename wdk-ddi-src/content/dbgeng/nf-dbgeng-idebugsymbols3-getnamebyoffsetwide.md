@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetNameByOffsetWide (dbgeng.h)
 description: The GetNameByOffsetWide method returns the name of the symbol at the specified location in the target's virtual address space.
 old-location: debugger\getnamebyoffsetwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetNameByOffsetWide"]
 ms.keywords: GetNameByOffsetWide, GetNameByOffsetWide method [Windows Debugging], GetNameByOffsetWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetNameByOffsetWide method, IDebugSymbols3.GetNameByOffsetWide, IDebugSymbols3::GetNameByOffsetWide, dbgeng/IDebugSymbols3::GetNameByOffsetWide, debugger.getnamebyoffsetwide
 req.header: dbgeng.h
@@ -49,29 +49,29 @@ The <b>GetNameByOffsetWide</b>  method returns the name of the symbol at the spe
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location in the target's virtual address space of the symbol whose name is requested.  <i>Offset</i> does not need to specify the base location of the symbol; it only needs to specify a location within the symbol's memory allocation.
 
-### -param NameBuffer 
+### -param NameBuffer [out, optional]
 
-[out, optional]
+
 Receives the symbol's name.  The name is qualified by the module to which the symbol belongs (for example, <b>mymodule!main</b>).  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param NameBufferSize 
+### -param NameBufferSize [in]
 
-[in]
-Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
-### -param NameSize 
+Specifies the size in characters of the buffer <i>NameBuffer</i>. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the symbol's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+### -param NameSize [out, optional]
 
-### -param Displacement 
 
-[out, optional]
+Receives the size in characters of the symbol's name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+
+### -param Displacement [out, optional]
+
+
 Receives the difference between the value of <i>Offset</i> and the base location of the symbol.  If <i>Displacement</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

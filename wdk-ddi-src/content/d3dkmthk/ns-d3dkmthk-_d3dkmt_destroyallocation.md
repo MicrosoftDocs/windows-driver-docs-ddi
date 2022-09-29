@@ -52,21 +52,21 @@ The D3DKMT_DESTROYALLOCATION structure describes parameters for releasing alloca
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that the resource, allocations, or both are associated with.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that the resource, allocations, or both are associated with.
 
-### -field hResource
+### -field hResource [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the resource that is associated with the allocations when releasing a resource. If a resource handle is specified, all of the allocations that are associated with it are automatically released.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the resource that is associated with the allocations when releasing a resource. If a resource handle is specified, all of the allocations that are associated with it are automatically released.
 
-### -field phAllocationList
+### -field phAllocationList [in]
 
-[in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations. If any allocation in the list is associated with a resource, all of the allocations in the list must also be associated with the same resource. If the OpenGL ICD sets the handle in the <b>hResource</b> member to a non-<b>NULL</b> value, the ICD must set <b>phAllocationList</b> to <b>NULL</b>.
+An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations. If any allocation in the list is associated with a resource, all of the allocations in the list must also be associated with the same resource. If the OpenGL ICD sets the handle in the <b>hResource</b> member to a non-<b>NULL</b> value, the ICD must set <b>phAllocationList</b> to <b>NULL</b>.
 
-### -field AllocationCount
+### -field AllocationCount [in]
 
-[in] The number of allocations in the array that <b>phAllocationList</b> specifies. If the OpenGL ICD sets the handle in the <b>hResource</b> member to a non-<b>NULL</b> value, the <b>AllocationCount</b> member is ignored by the OpenGL runtime.
+The number of allocations in the array that <b>phAllocationList</b> specifies. If the OpenGL ICD sets the handle in the <b>hResource</b> member to a non-<b>NULL</b> value, the <b>AllocationCount</b> member is ignored by the OpenGL runtime.
 
 ## -see-also
 

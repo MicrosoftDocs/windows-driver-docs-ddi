@@ -52,24 +52,24 @@ The <b>FsRtlLookupLastLargeMcbEntryAndIndex</b> routine retrieves the last mappi
 
 ## -parameters
 
-### -param OpaqueMcb 
+### -param OpaqueMcb [in]
 
-[in]
+
 Pointer to an initialized MCB structure to be searched.
 
-### -param LargeVbn 
+### -param LargeVbn [out]
 
-[out]
+
 Pointer to a variable that receives the last virtual block number (VBN) that was mapped.
 
-### -param LargeLbn 
+### -param LargeLbn [out]
 
-[out]
+
 Pointer to a variable that receives the logical block number (LBN) that is mapped to the VBN pointed to by <i>LargeVbn</i>, or -1 if no such LBN exists.
 
-### -param Index 
+### -param Index [out]
 
-[out]
+
 Pointer to a variable that receives the index of the last run in the MCB.
 
 ## -returns

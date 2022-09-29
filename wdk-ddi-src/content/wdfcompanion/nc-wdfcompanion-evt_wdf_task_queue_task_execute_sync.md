@@ -4,7 +4,7 @@ title: EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC (wdfcompanion.h)
 description: This EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC article is for internal use only.
 old-location: wdf\evt_wdf_task_queue_task_execute_sync.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 11/01/2021
 keywords: ["EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback function"]
 ms.keywords: EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback function, wdf.evt_wdf_task_queue_task_execute_sync, wdfcompanion/EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
 req.header: wdfcompanion.h
@@ -49,31 +49,31 @@ api_name:
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
 
-### -param InputBuffer 
 
-[in, optional]
+### -param InputBuffer [in, optional]
 
-### -param OutputBuffer 
 
-[out, optional]
 
-### -param InputBufferLength 
+### -param OutputBuffer [out, optional]
 
-[in]
 
-### -param OutputBufferLength 
 
-[in]
+### -param InputBufferLength [in]
 
-### -param BytesWritten 
 
-[in]
 
-### -param TaskOperationCode 
+### -param OutputBufferLength [in]
 
-[in]
 
+
+### -param BytesWritten [in]
+
+
+
+### -param TaskOperationCode [in]
+
+
+## -returns

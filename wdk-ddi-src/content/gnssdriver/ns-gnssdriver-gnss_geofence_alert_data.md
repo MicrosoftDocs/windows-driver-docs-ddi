@@ -1,14 +1,13 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_28
 title: GNSS_GEOFENCE_ALERT_DATA (gnssdriver.h)
-description: This structure is used by the GNSS engine to notify a geofence breach alert.
-old-location: gnss\gnss_geofence_alert_data.htm
+description: The GNSS_GEOFENCE_ALERT_DATA structure is used by the GNSS engine to notify a geofence breach alert.
 tech.root: gnss
-ms.date: 02/15/2018
+ms.date: 06/17/2022
 keywords: ["GNSS_GEOFENCE_ALERT_DATA structure"]
 ms.keywords: "*PGNSS_GEOFENCE_ALERT_DATA, GNSS_GEOFENCE_ALERT_DATA, GNSS_GEOFENCE_ALERT_DATA structure [Sensor Devices], PGNSS_GEOFENCE_ALERT_DATA, PGNSS_GEOFENCE_ALERT_DATA structure pointer [Sensor Devices], gnss.gnss_geofence_alert_data, gnssdriver/GNSS_GEOFENCE_ALERT_DATA, gnssdriver/PGNSS_GEOFENCE_ALERT_DATA"
 req.header: gnssdriver.h
-req.include-header: 
+req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,12 +42,9 @@ api_name:
  - GNSS_GEOFENCE_ALERT_DATA
 ---
 
-# GNSS_GEOFENCE_ALERT_DATA structure
-
-
 ## -description
 
-This structure is used by the GNSS engine to notify a geofence breach alert.
+The **GNSS_GEOFENCE_ALERT_DATA** structure is used by the GNSS engine to notify a geofence breach alert.
 
 ## -struct-fields
 
@@ -78,12 +74,4 @@ The fix used to determine the geofence breach. Instead of the full set of fix da
 
 ### -field Unused
 
- 
-
-
-
-
-#### - Unused[512]
-
-Padding buffer.
-
+Padding buffer reserved for future use.

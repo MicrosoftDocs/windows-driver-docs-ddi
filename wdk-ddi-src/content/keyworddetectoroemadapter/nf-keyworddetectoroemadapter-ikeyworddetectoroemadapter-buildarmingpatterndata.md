@@ -49,24 +49,24 @@ The <b>BuildArmingPatternData</b> method is called by the operating system to bu
 
 ## -parameters
 
-### -param UserModelData 
+### -param UserModelData [in]
 
-[in]
+
 A pointer to <b>IStream</b> bound to model data for the <a href="/windows-hardware/drivers/ddi/keyworddetectoroemadapter/ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003">KEYWORDSELECTOR</a> values in the <i>KeywordSelectors</i> parameter.
 
-### -param KeywordSelectors 
+### -param KeywordSelectors [in]
 
-[in]
+
 An array of <a href="/windows-hardware/drivers/ddi/keyworddetectoroemadapter/ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003">KEYWORDSELECTOR</a> structures identifying the desired set of matches for the keyword detector to arm.
 
-### -param NumKeywordSelectors 
+### -param NumKeywordSelectors [in]
 
-[in]
+
 The number of items in the <i>KeywordSelectors</i> array. Only one key word selector is supported and this field must be set to one.
 
-### -param ppPatternData 
+### -param ppPatternData [out]
 
-[out]
+
 The pattern data for the operating system to pass to the audio driver. The OEMDLL allocates the memory calling <a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. The operating system will free the memory by calling <a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns

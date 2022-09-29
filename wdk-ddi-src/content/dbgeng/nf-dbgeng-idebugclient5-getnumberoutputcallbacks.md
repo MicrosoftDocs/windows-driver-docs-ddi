@@ -49,9 +49,9 @@ The <b>GetNumberOutputCallbacks</b> method returns the number of <a href="/windo
 
 ## -parameters
 
-### -param Count 
+### -param Count [out]
 
-[out]
+
 Receives the number of output callbacks that have been registered.
 
 ## -returns

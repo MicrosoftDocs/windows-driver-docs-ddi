@@ -4,7 +4,7 @@ title: IDebugControl4::GetExceptionFilterSecondCommand method (dbgeng.h)
 description: The IDebugControl4::GetExceptionFilterSecondCommandWide method returns the command that will be executed upon the second chance of an exception.
 old-location: debugger\getexceptionfiltersecondcommandwide.htm
 tech.root: debugger
-ms.date: 03/26/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl4::GetExceptionFilterSecondCommand method"]
 ms.keywords: GetExceptionFilterSecondCommand,IDebugControl4.GetExceptionFilterSecondCommand, GetExceptionFilterSecondCommandWide method [Windows Debugging], GetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetExceptionFilterSecondCommandWide method, IDebugControl4::GetExceptionFilterSecondCommand, IDebugControl4::GetExceptionFilterSecondCommandWide, dbgeng/IDebugControl4::GetExceptionFilterSecondCommandWide, debugger.getexceptionfiltersecondcommandwide
 req.header: dbgeng.h
@@ -49,25 +49,25 @@ The <b>GetExceptionFilterSecondCommandWide</b>  method returns the command that 
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the exception filter whose second-chance command will be returned.  <i>Index</i> can also refer to the default exception filter to return the second-chance command for those exceptions that do not have a specific or arbitrary exception filter.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the second-chance command for the exception filter.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
-Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
-### -param CommandSize 
+Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size, in characters, of the second-chance command for the exception filter.  If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
+### -param CommandSize [out, optional]
+
+
+Receives the size, in characters, of the second-chance command for the exception filter. This size includes the space for the '\0' terminating character. If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

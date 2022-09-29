@@ -5,8 +5,6 @@ description: "Learn more about: Gsotypes.h header"
 ms.date: 05/13/2021
 keywords: ["Gsotypes.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: netvista
 f1_keywords:

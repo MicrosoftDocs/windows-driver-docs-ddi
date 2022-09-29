@@ -1,10 +1,10 @@
 ---
 UID: NS:ntddstor._STORAGE_PHYSICAL_DEVICE_DATA
-title: _STORAGE_PHYSICAL_DEVICE_DATA (ntddstor.h)
+title: STORAGE_PHYSICAL_DEVICE_DATA (ntddstor.h)
 description: Specifies the physical device data of a storage device.
 old-location: storage\storage_physical_device_data.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 08/18/2022
 keywords: ["STORAGE_PHYSICAL_DEVICE_DATA structure"]
 ms.keywords: "*PSTORAGE_PHYSICAL_DEVICE_DATA, PSTORAGE_PHYSICAL_DEVICE_DATA, PSTORAGE_PHYSICAL_DEVICE_DATA structure pointer [Storage Devices], STORAGE_PHYSICAL_DEVICE_DATA, STORAGE_PHYSICAL_DEVICE_DATA structure [Storage Devices], _STORAGE_PHYSICAL_DEVICE_DATA, ntddstor/PSTORAGE_PHYSICAL_DEVICE_DATA, ntddstor/STORAGE_PHYSICAL_DEVICE_DATA, storage.storage_physical_device_data"
 req.header: ntddstor.h
@@ -46,12 +46,11 @@ api_name:
  - STORAGE_PHYSICAL_DEVICE_DATA
 ---
 
-# _STORAGE_PHYSICAL_DEVICE_DATA structure
-
+# STORAGE_PHYSICAL_DEVICE_DATA structure
 
 ## -description
 
-Specifies the physical device data of a storage device.
+Specifies the physical data of a storage device.
 
 ## -struct-fields
 
@@ -61,64 +60,52 @@ The hardware ID of the storage device.
 
 ### -field Role
 
-The role of the storage device. A bitmask can be use to specify multiple roles, including <b>STORAGE_COMPONENT_ROLE_CACHE</b> (0x00000001), <b>STORAGE_COMPONENT_ROLE_TIERING</b> (0x00000002), and <b>STORAGE_COMPONENT_ROLE_DATA</b> (0x00000004).
+The role of the storage device. This value can be a bitmask of the following values to specify multiple roles:
+
+* STORAGE_COMPONENT_ROLE_CACHE (0x00000001)
+* STORAGE_COMPONENT_ROLE_TIERING (0x00000002)
+* STORAGE_COMPONENT_ROLE_DATA (0x00000004)
 
 ### -field HealthStatus
 
-Indicates the health status of a storage device, of type <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_component_health_status">STORAGE_COMPONENT_HEALTH_STATUS</a>.
+A [**STORAGE_COMPONENT_HEALTH_STATUS**](ne-ntddstor-_storage_component_health_status.md) value that indicates the health status of a storage device.
 
 ### -field CommandProtocol
 
-Specifies the storage command protocols that are used between software and hardware, of type <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_protocol_type">STORAGE_PROTOCOL_TYPE</a>.
+A [**STORAGE_PROTOCOL_TYPE**](ne-ntddstor-_storage_protocol_type.md) value that specifies the storage command protocols that are used between software and hardware.
 
 ### -field SpecVersion
 
-Indicates the specification of the storage device, of type <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_spec_version">STORAGE_SPEC_VERSION</a>.
+A [**STORAGE_SPEC_VERSION**](ns-ntddstor-_storage_spec_version.md) structure that specifies the storage specification version of the storage device.
 
 ### -field FormFactor
 
-Indicates the form factor of a storage device, of type <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_device_form_factor">STORAGE_DEVICE_FORM_FACTOR</a>.
+A [**STORAGE_DEVICE_FORM_FACTOR**](ne-ntddstor-_storage_device_form_factor.md) value that indicates the form factor of a storage device.
 
-### -field Vendor
+### -field Vendor[8]
 
-### -field Model
+The vendor name of the storage device.
 
-### -field FirmwareRevision
+### -field Model[40]
+
+The model name of the storage device.
+
+### -field FirmwareRevision[16]
+
+The revision number of the storage device.
 
 ### -field Capacity
 
 The capacity of the storage device in units of kilobytes (1024 bytes).
 
-### -field PhysicalLocation
-
-### -field Reserved
-
- 
-
-
-
-
-#### - FirmwareRevision[16]
-
-The revision number of the storage device.
-
-
-#### - Model[40]
-
-The model name of the storage device.
-
-
-#### - PhysicalLocation[32]
+### -field PhysicalLocation[32]
 
 This member is reserved for future use.
 
+### -field Reserved[2]
 
-#### - Reserved[2]
+Reserved; do not use.
 
-Specifies if the storage device is reserved.
+## -see-also
 
-
-#### - Vendor[8]
-
-The vendor name of the storage device.
-
+[**STORAGE_PHYSICAL_NODE_DATA**](ns-ntddstor-_storage_physical_node_data.md)

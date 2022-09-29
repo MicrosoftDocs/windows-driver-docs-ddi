@@ -3,7 +3,7 @@ UID: NF:netwakesource.NetWakeSourceGetMediaChangeParameters
 title: NetWakeSourceGetMediaChangeParameters function (netwakesource.h)
 description: The NetWakeSourceGetMediaChangeParameters function gets parameters for a media change wake source.
 tech.root: netvista
-ms.date: 10/07/2019
+ms.date: 04/01/2022
 keywords: ["NetWakeSourceGetMediaChangeParameters function"]
 ms.keywords: NetWakeSourceGetMediaChangeParameters
 req.header: netwakesource.h
@@ -49,17 +49,14 @@ The **NetWakeSourceGetMediaChangeParameters** function gets parameters for a med
 
 ## -parameters
 
-### -param WakeSource
+### -param WakeSource [_In_]
 
 A NETWAKESOURCE object that represents this media change wake source.
 
-### -param Parameters
+### -param Parameters [_Inout_]
 
 A pointer to a driver-allocated and initialized [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS**](../netwakesource/ns-netwakesource-_net_wake_source_media_change_parameters.md) structure that receives the media change parameters.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

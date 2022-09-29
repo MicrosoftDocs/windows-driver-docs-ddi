@@ -49,9 +49,9 @@ The <b>UPSTurnOff</b> function turns off the UPS unit's power outlets, after a s
 
 ## -parameters
 
-### -param aTurnOffDelay 
+### -param aTurnOffDelay [in]
 
-[in]
+
 Specifies the minimum amount of time, in seconds, to wait before turning off the UPS unit's power outlets.
 
 ## -remarks

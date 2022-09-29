@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMResetPDEV
 title: OEMResetPDEV function (printoem.h)
-description: OEMResetPDEV function
-old-location: print\oemresetpdev.htm
+description: Describes the OEMResetPDEV function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/10/2022
 keywords: ["OEMResetPDEV function"]
 ms.keywords: OEMResetPDEV, OEMResetPDEV function [Print Devices], print.oemresetpdev, print_obsoletefunctions_c49829da-bbf6-4438-b291-c8dd93856311.xml, printoem/OEMResetPDEV
 req.header: printoem.h
@@ -40,14 +39,20 @@ api_name:
  - OEMResetPDEV
 ---
 
-# OEMResetPDEV function
-
-
 ## -description
+
+Describes the **OEMResetPDEV** function.
 
 ## -parameters
 
 ### -param pdevobjOld
 
+Defines the **PDEVOBJ** parameter *pdevobjOld*.
+
 ### -param pdevobjNew
 
+Defines the **PDEVOBJ** parameter *pdevobjNew*.
+
+## -returns
+
+Returns a **BOOL** value.

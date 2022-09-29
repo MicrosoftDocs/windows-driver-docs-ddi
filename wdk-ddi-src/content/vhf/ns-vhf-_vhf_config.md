@@ -4,7 +4,7 @@ title: _VHF_CONFIG (vhf.h)
 description: Contains initial configuration information that is provided by the HID source driver when it calls VhfCreate to create a virtual HID device.
 old-location: hid\vhf_config.htm
 tech.root: hid
-ms.date: 04/30/2018
+ms.date: 10/26/2021
 keywords: ["VHF_CONFIG structure"]
 ms.keywords: "*PVHF_CONFIG, PVHF_CONFIG, PVHF_CONFIG structure pointer [Human Input Devices], VHF_CONFIG, VHF_CONFIG structure [Human Input Devices], _VHF_CONFIG, hid.vhf_config, vhf/PVHF_CONFIG, vhf/VHF_CONFIG"
 req.header: vhf.h
@@ -53,6 +53,51 @@ api_name:
 
 Contains initial configuration information that is provided by the HID source driver when it calls <a href="/windows-hardware/drivers/ddi/vhf/nf-vhf-vhfcreate">VhfCreate</a> to create a virtual HID device.
 
+## -syntax
+
+```cpp
+typedef struct _VHF_CONFIG {
+
+    ULONG                               Size;
+
+    PVOID                               VhfClientContext;
+
+    ULONG                               OperationContextSize;
+
+#ifdef _KERNEL_MODE
+    PDEVICE_OBJECT                      DeviceObject;
+#else
+    HANDLE                              FileHandle;
+#endif
+
+    USHORT                              VendorID;
+    USHORT                              ProductID;
+    USHORT                              VersionNumber;
+
+    GUID                                ContainerID;
+
+    USHORT                              InstanceIDLength;
+    _Field_size_bytes_full_(InstanceIDLength)   
+    PWSTR                               InstanceID;
+
+    USHORT                              ReportDescriptorLength;
+    _Field_size_full_(ReportDescriptorLength)
+    PUCHAR                              ReportDescriptor;
+
+    PEVT_VHF_READY_FOR_NEXT_READ_REPORT EvtVhfReadyForNextReadReport;
+    PEVT_VHF_ASYNC_OPERATION            EvtVhfAsyncOperationGetFeature;
+    PEVT_VHF_ASYNC_OPERATION            EvtVhfAsyncOperationSetFeature;
+    PEVT_VHF_ASYNC_OPERATION            EvtVhfAsyncOperationWriteReport;
+    PEVT_VHF_ASYNC_OPERATION            EvtVhfAsyncOperationGetInputReport;
+    PEVT_VHF_CLEANUP                    EvtVhfCleanup;
+
+    USHORT                              HardwareIDsLength;
+    _Field_size_bytes_full_(HardwareIDsLength)
+    PWSTR                               HardwareIDs;
+
+} VHF_CONFIG, *PVHF_CONFIG;
+```
+
 ## -struct-fields
 
 ### -field Size
@@ -69,9 +114,13 @@ Optional. Size of the buffer that VHF must allocate for an asynchronous operatio
 
 ### -field DeviceObject
 
-Required. A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure for the HID source driver. Get that pointer by calling  <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmgetdeviceobject">WdfDeviceWdmGetDeviceObject</a> and passing the WDFDEVICE handle that the driver received in the <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> call.
+Required for kernel-mode drivers. A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure for the HID source driver. Get that pointer by calling  <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmgetdeviceobject">WdfDeviceWdmGetDeviceObject</a> and passing the WDFDEVICE handle that the driver received in the <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> call.
 
-### -field Reserved
+### -field FileHandle
+
+Required for user-mode drivers. A file handle obtained by calling [**WdfIoTargetWdmGetTargetFileHandle**](../wdfiotarget/nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle.md).
+To open a WDFIOTARGET, a user-mode (UMDF) VHF source driver should call [**WdfIoTargetOpen**](../wdfiotarget/nf-wdfiotarget-wdfiotargetopen.md) with **OpenParams.Type** set
+ to **WdfIoTargetOpenLocalTargetByFile**.
 
 ### -field VendorID
 
@@ -133,4 +182,3 @@ Optional. A pointer to a <a href="/windows-hardware/drivers/ddi/vhf/nc-vhf-evt_v
 ## -see-also
 
 <a href="/windows-hardware/drivers/hid/virtual-hid-framework--vhf-">Write a HID source driver by using Virtual HID Framework (VHF)</a>
-

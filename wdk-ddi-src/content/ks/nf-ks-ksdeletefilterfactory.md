@@ -2,9 +2,8 @@
 UID: NF:ks.KsDeleteFilterFactory
 title: KsDeleteFilterFactory macro (ks.h)
 description: KsDeleteFilterFactory deletes a given filter factory.
-old-location: stream\ksdeletefilterfactory.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/11/2022
 keywords: ["KsDeleteFilterFactory macro"]
 ms.keywords: KsDeleteFilterFactory, KsDeleteFilterFactory function [Streaming Media Devices], avfunc_60aeaa09-5563-47ea-a117-4b65a468b058.xml, ks/KsDeleteFilterFactory, stream.ksdeletefilterfactory
 req.header: ks.h
@@ -40,30 +39,26 @@ api_name:
  - KsDeleteFilterFactory
 ---
 
-# KsDeleteFilterFactory macro
-
-
 ## -description
 
 **KsDeleteFilterFactory** deletes a given filter factory.
 
 ## -parameters
 
-### -param FilterFactory 
+### -param FilterFactory [in]
 
-[in]
-A pointer to a [KSFILTERFACTORY](./ns-ks-_ksfilterfactory.md) structure that represents the filter factory to be deleted.
+A pointer to a [**KSFILTERFACTORY**](ns-ks-_ksfilterfactory.md) structure that represents the filter factory to be deleted.
 
-## -returns
+## -remarks
 
-This macro wraps and assumes the return value of [KsFreeObjectCreateItemsByContext](./nf-ks-ksfreeobjectcreateitemsbycontext.md), which is NTSTATUS.
+This macro wraps and assumes the return value of [KsFreeObjectCreateItemsByContext](nf-ks-ksfreeobjectcreateitemsbycontext.md), which is **NTSTATUS**.
 
 ## -see-also
 
-[KSFILTERFACTORY](./ns-ks-_ksfilterfactory.md)
+[KSFILTERFACTORY](ns-ks-_ksfilterfactory.md)
 
-[KsCreateFilterFactory](./nf-ks-kscreatefilterfactory.md)
+[KsCreateFilterFactory](nf-ks-kscreatefilterfactory.md)
 
-[KsFilterFactoryAddCreateItem](./nf-ks-ksfilterfactoryaddcreateitem.md)
+[KsFilterFactoryAddCreateItem](nf-ks-ksfilterfactoryaddcreateitem.md)
 
-[KsFilterFactorySetDeviceClassesState](./nf-ks-ksfilterfactorysetdeviceclassesstate.md)
+[KsFilterFactorySetDeviceClassesState](nf-ks-ksfilterfactorysetdeviceclassesstate.md)

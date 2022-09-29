@@ -47,8 +47,6 @@ api_name:
 
 The <code>NumberOfEntries</code> method returns the number of resource items in the resource list.
 
-## -parameters
-
 ## -returns
 
 <code>NumberOfEntries</code> returns the number of items in the resource list.

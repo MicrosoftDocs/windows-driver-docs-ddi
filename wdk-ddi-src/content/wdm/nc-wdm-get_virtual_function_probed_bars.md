@@ -51,13 +51,13 @@ The [GetVirtualFunctionProbedBars]() routine returns the values of the PCI Expre
 
 ## -parameters
 
-### -param Context
+### -param Context [in, out]
 
-[in, out] A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)) structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)) structure for the interface.
 
-### -param BaseRegisterValues
+### -param BaseRegisterValues [out]
 
-[out] A pointer to an array of ULONG values. The [GetVirtualFunctionProbedBars]() routine returns a value for each BAR of the device.
+A pointer to an array of ULONG values. The [GetVirtualFunctionProbedBars]() routine returns a value for each BAR of the device.
 
 > [!NOTE]
 > [GetVirtualFunctionProbedBars]() returns a maximum of **PCI_TYPE0_ADDRESSES** values within this array.

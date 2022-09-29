@@ -4,7 +4,7 @@ title: _PEP_PPM_QUERY_CAPABILITIES (pepfx.h)
 description: The PEP_PPM_QUERY_CAPABILITIES structure contains information about the processor power management (PPM) capabilities of the platform extension plug-in (PEP).
 old-location: kernel\pep_ppm_query_capabilities.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 08/10/2022
 keywords: ["PEP_PPM_QUERY_CAPABILITIES structure"]
 ms.keywords: "*PPEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_CAPABILITIES, kernel.pep_ppm_query_capabilities, pepfx/PEP_PPM_QUERY_CAPABILITIES, pepfx/PPEP_PPM_QUERY_CAPABILITIES"
 req.header: pepfx.h
@@ -48,36 +48,40 @@ api_name:
 
 # _PEP_PPM_QUERY_CAPABILITIES structure (pepfx.h)
 
-
 ## -description
 
-The <b>PEP_PPM_QUERY_CAPABILITIES</b> structure contains information about the processor power management (PPM) capabilities of the platform extension plug-in (PEP).
+The **PEP_PPM_QUERY_CAPABILITIES** structure contains information about the processor power management (PPM) capabilities of the platform extension plug-in (PEP).
 
 ## -struct-fields
 
 ### -field FeedbackCounterCount
 
-[out] The number of processor performance feedback counters supported by the PEP for this processor. On x86/AMD64 platforms, this must be zero.
+The number of processor performance feedback counters supported by the PEP for this processor. On x86/AMD64 platforms, this must be zero.
 
 ### -field IdleStateCount
 
-[out] The number of processor idle states that the PEP supports. The PEP is not required to support the same number of idle states for all processors. The PEP can set <b>IdleStateCount</b> = 0 to indicate that it doesn't support any idle states, in which case the PEP doesn't need to implement any other notifications that deal with processor idle states.
+The number of processor idle states that the PEP supports. The PEP is not required to support the same number of idle states for all processors. The PEP can set `IdleStateCount = 0` to indicate that it doesn't support any idle states, in which case the PEP doesn't need to implement any other notifications that deal with processor idle states.
 
 ### -field PerformanceStatesSupported
 
-[out] Whether the PEP supports performance state controls. Set to TRUE if the PEP supports performance states, or to FALSE if it does not.
+Whether the PEP supports performance state controls. Set to TRUE if the PEP supports performance states, or to FALSE if it does not.
 
 ### -field ParkingSupported
 
-[out] Whether the PEP supports supplying core parking hints. Set to TRUE if the PEP can indicate which cores to park, or to FALSE if it cannot.
+Whether the PEP supports supplying core parking hints. Set to TRUE if the PEP can indicate which cores to park, or to FALSE if it cannot.
 
 ### -field DiscretePerformanceStateCount
 
+The number of discrete performance states that the PEP supports.
+
+### -field Reserved
+
+Reserved for future use. Set to zero.
+
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_capabilities">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification. All four members contain output values that the PEP writes to the structure in response to this notification.
+This structure is used by the [PEP_NOTIFY_PPM_QUERY_CAPABILITIES](./ns-pepfx-_pep_ppm_query_capabilities.md) notification. All four members contain output values that the PEP writes to the structure in response to this notification.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_capabilities">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a>
-
+- [PEP_NOTIFY_PPM_QUERY_CAPABILITIES](./ns-pepfx-_pep_ppm_query_capabilities.md)

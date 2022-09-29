@@ -2,9 +2,8 @@
 UID: NF:ksproxy.IKsDataTypeHandler.KsSetMediaType
 title: IKsDataTypeHandler::KsSetMediaType (ksproxy.h)
 description: The KsSetMediaType method sets the media type for a data type handler.
-old-location: stream\iksdatatypehandler_kssetmediatype.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 04/18/2022
 keywords: ["IKsDataTypeHandler::KsSetMediaType"]
 ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsSetMediaType method, IKsDataTypeHandler.KsSetMediaType, IKsDataTypeHandler::KsSetMediaType, KsSetMediaType, KsSetMediaType method [Streaming Media Devices], KsSetMediaType method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsSetMediaType, ksproxy_5992cc35-8912-4e1e-8712-ebb6f36f5193.xml, stream.iksdatatypehandler_kssetmediatype
 req.header: ksproxy.h
@@ -40,20 +39,15 @@ api_name:
  - IKsDataTypeHandler::KsSetMediaType
 ---
 
-# IKsDataTypeHandler::KsSetMediaType
-
-
 ## -description
 
-The <b>KsSetMediaType</b> method sets the media type for a data type handler.
+The **KsSetMediaType** method sets the media type for a data type handler.
 
 ## -parameters
 
-### -param AmMediaType
+### -param AmMediaType [in]
 
-#### - MediaType [in]
-
-Pointer to a <b>CMediaType</b> object associated with the media type.
+Defines the **AM_MEDIA_TYPE** parameter *AmMediaType*.
 
 ## -returns
 
@@ -61,11 +55,8 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -remarks
 
-Clients can call <b>KsSetMediaType</b> of a single data type handler to initialize this data type handler to a particular media type from a group of many disparate media types.
-
-For more information about <b>CMediaType</b> class, see the Microsoft Windows SDK documentation.
+Clients can call **KsSetMediaType** of a single data type handler to initialize this data type handler to a particular media type from a group of many disparate media types.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypehandler">IKsDataTypeHandler</a>
-
+[IKsDataTypeHandler](./nn-ksproxy-iksdatatypehandler.md)

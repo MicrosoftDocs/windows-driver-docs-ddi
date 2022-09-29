@@ -49,8 +49,6 @@ api_name:
 
 The <b>StopSynchronously</b> method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests. The method returns after all delivered requests have been canceled or completed.
 
-## -parameters
-
 ## -remarks
 
 The <b>StopSynchronously</b> method is the synchronous version of the <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfioqueue-stop">IWDFIoQueue::Stop</a> method. That is, <b>StopSynchronously</b> does not return to the driver until the queue stops.

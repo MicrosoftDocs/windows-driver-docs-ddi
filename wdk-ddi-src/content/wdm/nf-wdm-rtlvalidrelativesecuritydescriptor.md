@@ -49,19 +49,19 @@ The <b>RtlValidRelativeSecurityDescriptor</b> routine checks the validity of a s
 
 ## -parameters
 
-### -param SecurityDescriptorInput 
+### -param SecurityDescriptorInput [in]
 
-[in]
+
 A pointer to the buffer that contains the security descriptor in self-relative format. The buffer must begin with a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure, which is followed by the rest of the security descriptor data.
 
-### -param SecurityDescriptorLength 
+### -param SecurityDescriptorLength [in]
 
-[in]
+
 The size of the <i>SecurityDescriptorInput</i> structure.
 
-### -param RequiredInformation 
+### -param RequiredInformation [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value that specifies the information that is required to be contained in the security descriptor.
 
 ## -returns

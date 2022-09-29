@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT
 tech.root: display
 title: DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: The DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT structure contains the information used by the DxgkCbDestroyPhysicalMemoryObject callback function to destroy physical memory.
 req.construct-type: structure
@@ -44,17 +44,19 @@ The **DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT** structure contains the informat
 
 ## -struct-fields
 
-### -field hPhysicalMemoryObject
+### -field hPhysicalMemoryObject [in]
 
-[in] Handle to the physical memory object created via [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md) to destroy.
+Handle to the physical memory object created via [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md) to destroy.
 
-### -field hAdapterMemoryObject
+### -field hAdapterMemoryObject [in]
 
-[in] Optional handle to an adapter memory object to close at the same time. This handle is provided for the purpose of creating a convenient mirror mapping with destroy. If **hAdapterMemoryObject** is not NULL, the driver must not also call [**DXGKCB_CLOSEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md).
+Optional handle to an adapter memory object to close at the same time. This handle is provided for the purpose of creating a convenient mirror mapping with destroy. If **hAdapterMemoryObject** is not NULL, the driver must not also call [**DXGKCB_CLOSEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md).
 
 ## -remarks
 
 If the driver attempts to destroy a physical object that still has an existing ADL created against it, the call will bugcheck the machine since the driver is leaking locked pages.
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 ## -see-also
 

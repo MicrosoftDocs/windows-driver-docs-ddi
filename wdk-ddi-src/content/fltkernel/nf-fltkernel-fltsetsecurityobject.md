@@ -48,17 +48,17 @@ api_name:
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in] Opaque instance pointer for the caller. This parameter is required and cannot be **NULL**.
+Opaque instance pointer for the caller. This parameter is required and cannot be **NULL**.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in] File object pointer for the object whose security state is to be set. The caller must have the access specified in the Meaning column of the table shown in the description of the **SecurityInformation** parameter. This parameter is required and cannot be **NULL**.
+File object pointer for the object whose security state is to be set. The caller must have the access specified in the Meaning column of the table shown in the description of the **SecurityInformation** parameter. This parameter is required and cannot be **NULL**.
 
-### -param SecurityInformation 
+### -param SecurityInformation [in]
 
-[in] [**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information) value specifying the information to be set as a combination of one or more of the following. 
+[**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information) value specifying the information to be set as a combination of one or more of the following. 
 
 | Value | Meaning |
 | ----- | ------- |
@@ -67,9 +67,9 @@ api_name:
 | DACL_SECURITY_INFORMATION | Indicates the discretionary access control list (DACL) of the object is to be set. Requires WRITE_DAC access. |
 | SACL_SECURITY_INFORMATION | Indicates the system ACL (SACL) of the object is to be set. Requires ACCESS_SYSTEM_SECURITY access. |
 
-### -param SecurityDescriptor 
+### -param SecurityDescriptor [in]
 
-[in] Pointer to the security descriptor to be set for the object.
+Pointer to the security descriptor to be set for the object.
 
 ## -returns
 

@@ -1,42 +1,24 @@
 ---
 UID: NE:ntddk._WHEA_ERROR_SOURCE_TYPE
-title: _WHEA_ERROR_SOURCE_TYPE (ntddk.h)
-description: The WHEA_ERROR_SOURCE_TYPE enumeration defines the different types of error sources that can report hardware errors.
-old-location: whea\whea_error_source_type.htm
 tech.root: whea
-ms.date: 02/20/2018
-keywords: ["WHEA_ERROR_SOURCE_TYPE enumeration"]
-ms.keywords: "*PWHEA_ERROR_SOURCE_TYPE, PWHEA_ERROR_SOURCE_TYPE, PWHEA_ERROR_SOURCE_TYPE enumeration pointer [WHEA Drivers and Applications], WHEA_ERROR_SOURCE_TYPE, WHEA_ERROR_SOURCE_TYPE enumeration [WHEA Drivers and Applications], WheaErrSrcTypeBOOT, WheaErrSrcTypeCMC, WheaErrSrcTypeCPE, WheaErrSrcTypeGeneric, WheaErrSrcTypeINIT, WheaErrSrcTypeIPFCMC, WheaErrSrcTypeIPFCPE, WheaErrSrcTypeIPFMCA, WheaErrSrcTypeMCE, WheaErrSrcTypeMax, WheaErrSrcTypeNMI, WheaErrSrcTypePCIe, WheaErrSrcTypeSCIGeneric, _WHEA_ERROR_SOURCE_TYPE, ntddk/PWHEA_ERROR_SOURCE_TYPE, ntddk/WHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeBOOT, ntddk/WheaErrSrcTypeCMC, ntddk/WheaErrSrcTypeCPE, ntddk/WheaErrSrcTypeGeneric, ntddk/WheaErrSrcTypeINIT, ntddk/WheaErrSrcTypeIPFCMC, ntddk/WheaErrSrcTypeIPFCPE, ntddk/WheaErrSrcTypeIPFMCA, ntddk/WheaErrSrcTypeMCE, ntddk/WheaErrSrcTypeMax, ntddk/WheaErrSrcTypeNMI, ntddk/WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeSCIGeneric, whea.whea_error_source_type, whearef_786d549e-14b1-4945-a1ce-23c7112ff0c8.xml"
+title: WHEA_ERROR_SOURCE_TYPE (ntddk.h)
+ms.date: 03/03/2022
+targetos: Windows
+description: The WHEA_ERROR_SOURCE_TYPE enumeration defines the different types of error sources that can report hardware errors.
+prerelease: false
+req.construct-type: enumeration
+req.ddi-compliance: 
 req.header: ntddk.h
 req.include-header: Ntddk.h
-req.target-type: Windows
-req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
-req.target-min-winversvr: 
 req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
 req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
-targetos: Windows
-req.typenames: WHEA_ERROR_SOURCE_TYPE, *PWHEA_ERROR_SOURCE_TYPE
-ms.custom: 19H1
-f1_keywords:
- - _WHEA_ERROR_SOURCE_TYPE
- - ntddk/_WHEA_ERROR_SOURCE_TYPE
- - PWHEA_ERROR_SOURCE_TYPE
- - ntddk/PWHEA_ERROR_SOURCE_TYPE
- - WHEA_ERROR_SOURCE_TYPE
- - ntddk/WHEA_ERROR_SOURCE_TYPE
+req.target-min-winverclnt:
+req.target-min-winversvr: 
+req.target-type: 
+req.typenames: 
+req.umdf-ver: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
  - HeaderDef
 api_location:
@@ -45,14 +27,22 @@ api_name:
  - _WHEA_ERROR_SOURCE_TYPE
  - PWHEA_ERROR_SOURCE_TYPE
  - WHEA_ERROR_SOURCE_TYPE
+f1_keywords:
+ - _WHEA_ERROR_SOURCE_TYPE
+ - ntddk/_WHEA_ERROR_SOURCE_TYPE
+ - PWHEA_ERROR_SOURCE_TYPE
+ - ntddk/PWHEA_ERROR_SOURCE_TYPE
+ - WHEA_ERROR_SOURCE_TYPE
+ - ntddk/WHEA_ERROR_SOURCE_TYPE
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - _WHEA_ERROR_SOURCE_TYPE
 ---
-
-# _WHEA_ERROR_SOURCE_TYPE enumeration
-
 
 ## -description
 
-The WHEA_ERROR_SOURCE_TYPE enumeration defines the different types of error sources that can report hardware errors.
+The **WHEA_ERROR_SOURCE_TYPE** enumeration defines the different types of error sources that can report hardware errors.
 
 ## -enum-fields
 
@@ -106,7 +96,11 @@ An Itanium processor corrected platform error (CPE).
 
 ### -field WheaErrSrcTypeGenericV2
 
+Defines the **WheaErrSrcTypeGenericV2** constant.
+
 ### -field WheaErrSrcTypeSCIGenericV2
+
+Defines the **WheaErrSrcTypeSCIGenericV2** constant.
 
 ### -field WheaErrSrcTypeBMC
 
@@ -120,23 +114,28 @@ An ARS PMEM error.
 
 A driver-specific error.
 
+### -field WheaErrSrcTypeSea
+
+Defines the **WheaErrSrcTypeSea** constant.
+
+### -field WheaErrSrcTypeSei
+
+Defines the **WheaErrSrcTypeSei** constant.
+
 ### -field WheaErrSrcTypeMax
 
 The maximum number of error source types that can report hardware errors.
 
 ## -remarks
 
-The <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure contains a member of type WHEA_ERROR_SOURCE_TYPE that specifies the type of error source that is described by the structure.
+The [WHEA_ERROR_SOURCE_DESCRIPTOR](./ns-ntddk-_whea_error_source_descriptor.md) structure contains a member of type WHEA_ERROR_SOURCE_TYPE that specifies the type of error source that is described by the structure.
 
-The <a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a> structure contains a member of type WHEA_ERROR_SOURCE_TYPE that specifies the type of error source that caused the error condition described by the structure.
+The [WHEA_ERROR_PACKET](/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)) structure contains a member of type WHEA_ERROR_SOURCE_TYPE that specifies the type of error source that caused the error condition described by the structure.
 
 ## -see-also
 
 [Windows Hardware Error Architecture Definitions](/windows-hardware/drivers/whea/windows-hardware-error-architecture-definitions)
 
-<a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a>
+[WHEA_ERROR_PACKET](/previous-versions/windows/hardware/drivers/ff560465(v=vs.85))
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
-
+[WHEA_ERROR_SOURCE_DESCRIPTOR](./ns-ntddk-_whea_error_source_descriptor.md)

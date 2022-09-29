@@ -47,8 +47,6 @@ api_name:
 
 The <b>OutTypeName</b> method prints the type name of the typed data represented by this object.
 
-## -parameters
-
 ## -returns
 
 This method does not return a value.

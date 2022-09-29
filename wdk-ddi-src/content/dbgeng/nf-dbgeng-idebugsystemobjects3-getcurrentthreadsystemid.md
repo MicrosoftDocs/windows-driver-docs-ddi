@@ -49,9 +49,9 @@ The <b>GetCurrentThreadSystemId</b> method returns the system thread ID of the c
 
 ## -parameters
 
-### -param SysId 
+### -param SysId [out]
 
-[out]
+
 Receives the system thread ID.
 
 ## -returns

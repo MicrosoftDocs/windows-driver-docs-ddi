@@ -51,16 +51,16 @@ The
 
 ## -parameters
 
-### -param Socket 
+### -param Socket [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket that is being disconnected.
 
-### -param Buffer 
+### -param Buffer [in, optional]
 
-[in, optional]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure. This structure describes a data
      buffer that contains data to be transmitted by the WSK subsystem to the remote transport address before
@@ -69,9 +69,9 @@ A pointer to a
      <i>Flags</i> parameter, the 
      <i>Buffer</i> parameter must be <b>NULL</b>.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A ULONG value that contains the following flag, or zero:
      
 
@@ -84,9 +84,9 @@ A ULONG value that contains the following flag, or zero:
 Directs the WSK subsystem to perform an abortive disconnect of the socket. If a WSK application
        does not specify this flag, the WSK subsystem will perform a graceful disconnect of the socket.
 
-### -param Irp 
+### -param Irp [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the disconnect
      operation asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock

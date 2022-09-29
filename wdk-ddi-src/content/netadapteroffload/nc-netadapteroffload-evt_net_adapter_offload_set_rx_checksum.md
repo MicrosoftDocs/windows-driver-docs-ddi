@@ -55,13 +55,13 @@ The client driver implements the *EvtNetAdapterOffloadSetRxChecksum* callback fu
 
 ## -parameters
 
-### -param Adapter
+### -param Adapter [_In_]
 
-[_In_] A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
+A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
-### -param Offload 
+### -param Offload [_In_]
 
-[_In_] A handle to a NETOFFLOAD object that describes the adapter's offload capabilities.
+A handle to a NETOFFLOAD object that describes the adapter's offload capabilities.
 
 ## -remarks
 

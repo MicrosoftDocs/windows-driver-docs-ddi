@@ -3,7 +3,7 @@ UID: NF:netwakesourcelist.NetDeviceGetWakeSourceList
 title: NetDeviceGetWakeSourceList function (netwakesourcelist.h)
 description: The NetDeviceGetWakeSourceList function gets the list of wake sources for a net adapter.
 tech.root: netvista
-ms.date: 10/08/2019
+ms.date: 04/01/2022
 keywords: ["NetDeviceGetWakeSourceList function"]
 ms.keywords: NetDeviceGetWakeSourceList
 req.header: netwakesourcelist.h
@@ -49,17 +49,14 @@ The **NetDeviceGetWakeSourceList** function gets the list of wake sources for a 
 
 ## -parameters
 
-### -param Device
+### -param Device [_In_]
 
 The WDFDEVICE object that is associated with the net adapter (or multiple adapters if the client driver has more than one for this device).
 
-### -param List
+### -param List [_Inout_]
 
 A pointer to a driver-allocated and initialized [**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

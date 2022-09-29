@@ -51,25 +51,25 @@ Call the
 
 ## -parameters
 
-### -param ReassembledNetBufferList 
+### -param ReassembledNetBufferList [in]
 
-[in]
+
 A pointer to a NET_BUFFER_LIST structure that the driver allocated by calling the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatereassemblednetbufferlist">
      NdisAllocateReassembledNetBufferList</a> function.
 
-### -param DataOffsetDelta 
+### -param DataOffsetDelta [in]
 
-[in]
+
 The number of bytes to advance (add to) the 
      <b>DataOffset</b> member of the reassembled NET_BUFFER structure before freeing the structure. This value
      should match 
      <i>DataOffsetDelta</i> that the driver passed to 
      <b>NdisAllocateReassembledNetBufferList</b>.
 
-### -param FreeReassembleFlags 
+### -param FreeReassembleFlags [in]
 
-[in]
+
 NDIS flags that can be combined with an OR operation. Set this parameter to zero. There are
      currently no flags defined for this function.
 

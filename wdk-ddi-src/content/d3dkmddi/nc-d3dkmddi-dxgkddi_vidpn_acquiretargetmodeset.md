@@ -51,21 +51,21 @@ The <b>pfnAcquireTargetModeSet</b> function returns a handle to a particular tar
 
 ## -parameters
 
-### -param hVidPn
+### -param hVidPn [in]
 
-[in] A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>, <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_issupportedvidpn">DxgkDdiIsSupportedVidPn</a>, or <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a>.
+A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>, <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_issupportedvidpn">DxgkDdiIsSupportedVidPn</a>, or <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a>.
 
-### -param VidPnTargetId
+### -param VidPnTargetId [in]
 
-[in] An integer that identifies one of the video present targets associated with the VidPN object.
+An integer that identifies one of the video present targets associated with the VidPN object.
 
-### -param phVidPnTargetModeSet
+### -param phVidPnTargetModeSet [out]
 
-[out] A pointer to a variable that receives a handle to the requested target mode set object.
+A pointer to a variable that receives a handle to the requested target mode set object.
 
-### -param ppVidPnTargetModeSetInterface
+### -param ppVidPnTargetModeSetInterface [out]
 
-[out] A pointer to a variable that receives a pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_vidpntargetmodeset_interface">DXGK_VIDPNTARGETMODESET_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the target mode set object.
+A pointer to a variable that receives a pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_vidpntargetmodeset_interface">DXGK_VIDPNTARGETMODESET_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the target mode set object.
 
 ## -returns
 

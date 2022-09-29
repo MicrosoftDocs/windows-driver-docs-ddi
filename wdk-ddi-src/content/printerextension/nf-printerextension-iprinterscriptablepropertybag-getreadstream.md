@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrinterScriptablePropertyBag.GetReadStream
 title: IPrinterScriptablePropertyBag::GetReadStream (printerextension.h)
 description: Gets a read stream and uses it to read from a property.
-old-location: print\iprinterscriptablepropertybag_getreadstream.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrinterScriptablePropertyBag::GetReadStream"]
 ms.keywords: GetReadStream, GetReadStream method [Print Devices], GetReadStream method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetReadStream method, IPrinterScriptablePropertyBag.GetReadStream, IPrinterScriptablePropertyBag::GetReadStream, print.iprinterscriptablepropertybag_getreadstream, printerextension/IPrinterScriptablePropertyBag::GetReadStream
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,40 +39,32 @@ api_name:
  - IPrinterScriptablePropertyBag::GetReadStream
 ---
 
-# IPrinterScriptablePropertyBag::GetReadStream
-
-
 ## -description
 
 Gets a read stream and uses it to read  from a property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
 The property to read.
 
-### -param ppStream 
+### -param ppStream [out, retval]
 
-[out, retval]
-        The returned stream.
+The returned stream.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -remarks
 
-<b>GetReadStream</b> does not work with non-stream properties.
+**GetReadStream** does not work with non-stream properties.
 
-A call to <b>GetReadStream</b> will throw an exception, if the specified property is not found. We recommend that you use a try-catch statement around calls to this method, to allow your app to handle any failures gracefully.
+A call to **GetReadStream** will throw an exception, if the specified property is not found. We recommend that you use a try-catch statement around calls to this method, to allow your app to handle any failures gracefully.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>
+[IPrinterScriptablePropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablestream">IPrinterScriptableStream</a>
-
+[IPrinterScriptableStream](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablestream)

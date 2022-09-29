@@ -1,17 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_WPS_CONFIGURATION_METHOD
 tech.root: netvista
-title: WDI_WPS_CONFIGURATION_METHOD
-ms.date: 04/30/2021
+title: WDI_WPS_CONFIGURATION_METHOD (dot11wificxtypes.h)
+ms.date: 09/15/2021
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WDI_WPS_CONFIGURATION_METHOD enumeration for internal use only. Don't use this enumeration in your code."
+description: The WDI_WPS_CONFIGURATION_METHOD enum defines WPS configuration methods.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 11Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -36,46 +37,49 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!IMPORTANT]
+> This topic is part of the [WiFiCx driver model](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx). WiFiCx is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features. The previous Wi-Fi driver model [WDI](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) is in maintenance mode and will only receive high priority fixes.
 
-This function is reserved for system use and should not be called in your code.
+The **WDI_WPS_CONFIGURATION_METHOD** enumeration defines WPS configuration methods.
 
 ## -enum-fields
 
-### -field WDI_WPS_CONFIGURATION_METHOD_NULL
+### -field WDI_WPS_CONFIGURATION_METHOD_NULL:0
 
-Reserved.
+WFDS.
 
-### -field WDI_WPS_CONFIGURATION_METHOD_DISPLAY
+### -field WDI_WPS_CONFIGURATION_METHOD_DISPLAY:0x0008
 
-Reserved.
+Pin display.
 
-### -field WDI_WPS_CONFIGURATION_METHOD_NFC_TAG
+### -field WDI_WPS_CONFIGURATION_METHOD_NFC_TAG:0x0020
 
-Reserved.
+NFC tag.
 
-### -field WDI_WPS_CONFIGURATION_METHOD_NFC_INTERFACE
+### -field WDI_WPS_CONFIGURATION_METHOD_NFC_INTERFACE:0x0040
 
-Reserved.
+NFC interface.
 
-### -field WDI_WPS_CONFIGURATION_METHOD_PUSHBUTTON
+### -field WDI_WPS_CONFIGURATION_METHOD_PUSHBUTTON:0x0080
 
-Reserved.
+Push button.
 
-### -field WDI_WPS_CONFIGURATION_METHOD_KEYPAD
+### -field WDI_WPS_CONFIGURATION_METHOD_KEYPAD:0x0100
 
-Reserved.
+Pin keypad.
 
-### -field WDI_WPS_CONFIGURATION_METHOD_WFDS_DEFAULT
+### -field WDI_WPS_CONFIGURATION_METHOD_WFDS_DEFAULT:0x1000
 
-Reserved.
+WFDS.
 
-### -field WDI_WPS_CONFIGURATION_METHOD_DUMMY_MAX_VALUE
+### -field WDI_WPS_CONFIGURATION_METHOD_DUMMY_MAX_VALUE:0xFFFF
 
 Reserved.
 
 ## -remarks
 
+The **WDI_WPS_CONFIGURATION_METHOD** enum is a value in the [WDI_TLV_P2P_CONFIG_METHODS](/windows-hardware/drivers/netcx/wdi-tlv-p2p-config-methods) TLV. 
+
 ## -see-also
 
+[WDI_TLV_P2P_CONFIG_METHODS](/windows-hardware/drivers/netcx/wdi-tlv-p2p-config-methods)

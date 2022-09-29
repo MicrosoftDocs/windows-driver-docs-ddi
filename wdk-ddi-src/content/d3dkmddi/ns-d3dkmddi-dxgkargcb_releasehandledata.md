@@ -45,13 +45,13 @@ The **DXGKARGCB_RELEASEHANDLEDATA** structure contains the information used by t
 
 ## -struct-fields
 
-### -field ReleaseHandle
+### -field ReleaseHandle [in]
 
-[in] The release handle obtained from a prior call to [**DXGKCB_ACQUIREHANDLEDATA**](nc-d3dkmddi-dxgkcb_acquirehandledata.md).
+The release handle obtained from a prior call to [**DXGKCB_ACQUIREHANDLEDATA**](nc-d3dkmddi-dxgkcb_acquirehandledata.md).
 
-### -field Type
+### -field Type [in]
 
-[in] A [**DXGK_HANDLE_TYPE**](ne-d3dkmddi-dxgk_handle_type.md) value that identifies the handle type of the allocation.
+A [**DXGK_HANDLE_TYPE**](ne-d3dkmddi-dxgk_handle_type.md) value that identifies the handle type of the allocation.
 
 ## -see-also
 

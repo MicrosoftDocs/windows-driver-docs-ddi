@@ -49,14 +49,14 @@ The <b>QueryVirtual</b> method provides information about the specified pages in
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the location in the target's virtual address space of the pages whose information is requested.
 
-### -param Info 
+### -param Info [out]
 
-[out]
+
 Receives the information about the memory page.
 
 ## -returns

@@ -49,19 +49,19 @@ The <b>IoWMIAllocateInstanceIds</b> routine allocates one or more instance IDs t
 
 ## -parameters
 
-### -param Guid 
+### -param Guid [in]
 
-[in]
+
 Pointer to the GUID for which to generate instance identifiers.
 
-### -param InstanceCount 
+### -param InstanceCount [in]
 
-[in]
+
 Specifies how many instance identifiers should be provided.
 
-### -param FirstInstanceId 
+### -param FirstInstanceId [out]
 
-[out]
+
 Pointer to the first instance identifier that the driver should use.
 
 ## -returns

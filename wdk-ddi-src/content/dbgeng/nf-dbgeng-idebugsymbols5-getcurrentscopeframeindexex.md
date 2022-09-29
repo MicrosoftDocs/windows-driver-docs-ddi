@@ -49,14 +49,14 @@ Gets the index of the current frame.
 
 ## -parameters
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bit-set that contains options that affect the behavior of this method.
 
-### -param Index 
+### -param Index [out]
 
-[out]
+
 A pointer to an index that this function gets.
 
 ## -returns

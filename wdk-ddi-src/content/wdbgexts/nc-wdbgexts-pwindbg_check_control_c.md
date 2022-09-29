@@ -47,8 +47,6 @@ api_name:
 
 The <b>PWINDBG_CHECK_CONTROL_C</b> (<b>CheckControlC</b>) function checks to see if the user pressed CTRL+C. Use <b>PWINDBG_CHECK_CONTROL_C</b> in all loops to allow the user to press CTRL+C to end long processes.
 
-## -parameters
-
 ## -returns
 
 If the user has pressed CTRL+C, the return value is <b>TRUE</b>; otherwise, it is <b>FALSE</b>.

@@ -49,29 +49,29 @@ The D3D10_DDI_BOX structure describes a volume.
 
 ## -struct-fields
 
-### -field left
+### -field left [in]
 
-[in] The position of the left side of the box on the x-axis.
+The position of the left side of the box on the x-axis.
 
-### -field top
+### -field top [in]
 
-[in] The position of the top of the box on the y-axis.
+The position of the top of the box on the y-axis.
 
 ### -field front
 
       [in] The position of the front of the box on the z-axis.
 
-### -field right
+### -field right [in]
 
-[in] The position of the right side of the box on the x-axis. Note that the width of the volume equals the value in the <b>right</b> member minus the value in the <b>left</b> member (that is, width = right – left).
+The position of the right side of the box on the x-axis. Note that the width of the volume equals the value in the <b>right</b> member minus the value in the <b>left</b> member (that is, width = right – left).
 
-### -field bottom
+### -field bottom [in]
 
-[in] The position of the bottom of the box on the y-axis. Note that the height of the volume equals the value in the <b>bottom</b> member minus the value in the <b>top</b> member (that is, height = bottom – top).
+The position of the bottom of the box on the y-axis. Note that the height of the volume equals the value in the <b>bottom</b> member minus the value in the <b>top</b> member (that is, height = bottom – top).
 
-### -field back
+### -field back [in]
 
-[in] The position of the back of the box on the z-axis. Note that the depth of the volume equals the value in the <b>back</b> member minus the value in the <b>front</b> member (that is, depth = back – front).
+The position of the back of the box on the z-axis. Note that the depth of the volume equals the value in the <b>back</b> member minus the value in the <b>front</b> member (that is, depth = back – front).
 
 ## -see-also
 

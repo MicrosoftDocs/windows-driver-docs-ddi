@@ -49,9 +49,9 @@ The <b>FsRtlTeardownPerStreamContexts</b> routine frees all per-stream context s
 
 ## -parameters
 
-### -param AdvancedHeader 
+### -param AdvancedHeader [in]
 
-[in]
+
 Pointer to the FSRTL_ADVANCED_FCB_HEADER structure.
 
 ## -remarks

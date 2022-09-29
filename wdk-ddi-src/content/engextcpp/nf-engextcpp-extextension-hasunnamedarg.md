@@ -49,9 +49,9 @@ The <b>HasUnnamedArg</b> method indicates whether a specified unnamed argument i
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the argument.  <i>Index</i> should be between zero and the number of unnamed arguments returned by <a href="/previous-versions/windows/hardware/previsioning-framework/ff548001(v=vs.85)">GetNumUnnamedArgs</a> minus one (unnamed arguments - 1).
 
 ## -returns

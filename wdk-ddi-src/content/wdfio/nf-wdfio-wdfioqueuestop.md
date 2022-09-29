@@ -54,19 +54,19 @@ The <b>WdfIoQueueStop</b> method prevents an I/O queue from delivering I/O reque
 
 ## -parameters
 
-### -param Queue 
+### -param Queue [in]
 
-[in]
+
 A handle to a framework queue object.
 
-### -param StopComplete 
+### -param StopComplete [in, optional]
 
-[in, optional]
+
 A pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_state">EvtIoQueueState</a> callback function. This parameter is optional and can be <b>NULL</b>.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 An untyped pointer to driver-supplied context information that the framework passes to the <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_state">EvtIoQueueState</a> callback function. This parameter is optional and can be <b>NULL</b>.
 
 ## -remarks

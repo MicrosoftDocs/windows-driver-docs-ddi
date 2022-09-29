@@ -49,14 +49,14 @@ The <b>ZwQueryInformationTransactionManager</b> routine retrieves information ab
 
 ## -parameters
 
-### -param TransactionManagerHandle 
+### -param TransactionManagerHandle [in]
 
-[in]
+
 A handle to a <a href="/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a> that was obtained by a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransactionmanager">ZwCreateTransactionManager</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopentransactionmanager">ZwOpenTransactionManager</a>. The handle must have TRANSACTIONMANAGER_QUERY_INFORMATION access to the object.
 
-### -param TransactionManagerInformationClass 
+### -param TransactionManagerInformationClass [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_transactionmanager_information_class">TRANSACTIONMANAGER_INFORMATION_CLASS</a>-typed enumeration value that specifies the information to be obtained. This value must be one of the following:
 
 <ul>
@@ -75,19 +75,19 @@ A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_transactionmanager_informat
 </ul>
 The enumeration's <b>TransactionManagerOnlineProbeInformation</b> value is not used with <b>ZwQueryInformationTransactionManager</b>.
 
-### -param TransactionManagerInformation 
+### -param TransactionManagerInformation [out]
 
-[out]
+
 A pointer to a caller-allocated buffer that receives the information that the <i>TransactionManagerInformationClass</i> parameter specifies. The buffer's structure type must be <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_transactionmanager_basic_information">TRANSACTIONMANAGER_BASIC_INFORMATION</a>, <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_transactionmanager_log_information">TRANSACTIONMANAGER_LOG_INFORMATION</a>, <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_transactionmanager_logpath_information">TRANSACTIONMANAGER_LOGPATH_INFORMATION</a>, or <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_transactionmanager_recovery_information">TRANSACTIONMANAGER_RECOVERY_INFORMATION</a>.
 
-### -param TransactionManagerInformationLength 
+### -param TransactionManagerInformationLength [in]
 
-[in]
+
 The length, in bytes, of the buffer that the <i>TransactionManagerInformation</i> parameter points to, including the length of any additional array elements that the caller has allocated to receive information.
 
-### -param ReturnLength 
+### -param ReturnLength [out, optional]
 
-[out, optional]
+
 A pointer to a caller-allocated variable that receives the length, in bytes, of the information that KTM writes to the <i>TransactionManagerInformation</i> buffer. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

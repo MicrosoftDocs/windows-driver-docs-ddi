@@ -52,9 +52,9 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
 
 ## -parameters
 
-### -param NdisPDQueue 
+### -param NdisPDQueue [in]
 
-[in]
+
 Any empty queue that needs to be freed from memory. For more information, see the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_pd_queue">NDIS_PD_QUEUE</a> structure.
 
 ## -returns

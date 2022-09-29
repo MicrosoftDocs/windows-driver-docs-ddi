@@ -49,13 +49,13 @@ The <b>NtRenameTransactionManager</b> routine changes the identity of the transa
 
 ## -parameters
 
-### -param LogFileName 
+### -param LogFileName [in]
 
-[in]
 
-### -param ExistingTransactionManagerGuid 
 
-[in]
+### -param ExistingTransactionManagerGuid [in]
+
+## -returns
 
 ## -see-also
 

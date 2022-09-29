@@ -50,19 +50,19 @@ Allows navigation within the
 
 ## -parameters
 
-### -param FromId 
+### -param FromId [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a> structure as the input ID.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bit-set that contains options that affect the behavior of this method.
 
-### -param ToId 
+### -param ToId [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a> structure as the output ID.
 
 ## -returns

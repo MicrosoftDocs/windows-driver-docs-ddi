@@ -49,14 +49,14 @@ api_name:
 
 ## -parameters
 
-### -param VNetRoot 
+### -param VNetRoot [in]
 
-[in]
+
 A pointer to the V_NET_ROOT structure.
 
-### -param Fcb 
+### -param Fcb [in, out]
 
-[in, out]
+
 A pointer to the associated FCB structure.
 
 ## -returns

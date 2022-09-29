@@ -49,9 +49,9 @@ The <b>GetFieldOffset</b> method returns the offset of a member from the base ad
 
 ## -parameters
 
-### -param Field 
+### -param Field [in]
 
-[in]
+
 The name of the member whose offset is requested.  Sub-members can be specified using a dot-separated path (for example, <b>mymember.mysubmember</b>).
 
 ## -returns

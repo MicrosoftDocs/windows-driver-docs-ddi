@@ -49,9 +49,9 @@ The <b>RemoveSymbolOptions</b> method turns off some of the engine's global symb
 
 ## -parameters
 
-### -param Options 
+### -param Options [in]
 
-[in]
+
 Specifies the symbol options to turn off.  <i>Options</i> is a bit-set; the new value of the symbol options will equal the old value AND NOT the value of <i>Options</i>.  For a description of the bit flags, see <a href="/windows-hardware/drivers/debugger/symbol-options">Setting Symbol Options</a>.
 
 ## -returns

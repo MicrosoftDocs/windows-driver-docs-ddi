@@ -5,8 +5,6 @@ description: Used by the D3DKMTOutputDuplPresentToHwQueue function to output the
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE, D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE,
 req.header: d3dkmthk.h
 req.include-header: 

@@ -49,21 +49,21 @@ The D3D10DDIARG_STAGE_IO_SIGNATURES structure describes an I/O signature.
 
 ## -struct-fields
 
-### -field pInputSignature
+### -field pInputSignature [in]
 
-[in] An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_signature_entry">D3D10DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature.
+An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_signature_entry">D3D10DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature.
 
-### -field NumInputSignatureEntries
+### -field NumInputSignatureEntries [in]
 
-[in] The number of entries in the array that the <b>pInputSignature</b> member specifies.
+The number of entries in the array that the <b>pInputSignature</b> member specifies.
 
-### -field pOutputSignature
+### -field pOutputSignature [in]
 
-[in] An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_signature_entry">D3D10DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature.
+An array of <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_signature_entry">D3D10DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature.
 
-### -field NumOutputSignatureEntries
+### -field NumOutputSignatureEntries [in]
 
-[in] The number of entries in the array that the <b>pOutputSignature</b> member specifies.
+The number of entries in the array that the <b>pOutputSignature</b> member specifies.
 
 ## -remarks
 

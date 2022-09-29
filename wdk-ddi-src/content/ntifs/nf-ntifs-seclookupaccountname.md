@@ -4,7 +4,7 @@ title: SecLookupAccountName function (ntifs.h)
 description: SecLookupAccountName accepts an account as input and retrieves a security identifier (SID) for the account and the name of the domain on which the account was found.
 old-location: ifsk\seclookupaccountname.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["SecLookupAccountName function"]
 ms.keywords: SecLookupAccountName, SecLookupAccountName function [Installable File System Drivers], ifsk.seclookupaccountname, ksecddref_1f4959e5-ea3b-440d-af1b-df05782eefce.xml, ntifs/SecLookupAccountName
 req.header: ntifs.h
@@ -43,138 +43,67 @@ api_name:
 
 # SecLookupAccountName function
 
-
 ## -description
 
-<b>SecLookupAccountName</b> accepts an account as input and retrieves a security identifier (SID) for the account and the name of the domain on which the account was found.
+**SecLookupAccountName** accepts an account as input and retrieves a security identifier (SID) for the account and the name of the domain on which the account was found.
 
 ## -parameters
 
-### -param Name 
+### -param Name [in]
 
-[in]
-A pointer to a Unicode string that specifies the account name. Use a fully qualified string in the domain_name\user_name format to ensure that <b>SecLookupAccountName</b> finds the account in the desired domain.
+A pointer to a Unicode string that specifies the account name. Use a fully qualified string in the domain_name\user_name format to ensure that **SecLookupAccountName** finds the account in the desired domain.
 
-### -param SidSize 
+### -param SidSize [in, out]
 
-[in, out]
-A pointer to a variable that specifies the size of the <i>Sid</i> buffer. On input, this value specifies the size in bytes of the input <i>Sid</i> buffer. If the function fails because the buffer is too small or if <i>SidSize</i> is zero, this variable receives the required buffer size. On success, this variable contains the size of the returned <i>Sid</i>.
+A pointer to a variable that specifies the size of the **Sid** buffer. On input, this value specifies the size in bytes of the input **Sid** buffer. If the function fails because the buffer is too small or if **SidSize** is zero, this variable receives the required buffer size. On success, this variable contains the size of the returned **Sid**.
 
-### -param Sid 
+### -param Sid [out]
 
-[out]
-A pointer to a buffer that receives the SID structure that corresponds to the account name pointed to by the <i>Name</i> parameter. If this parameter is <b>NULL</b>, <i>SidSize</i> must be zero.
+A pointer to a buffer that receives the SID structure that corresponds to the account name pointed to by the **Name** parameter. If this parameter is **NULL**, **SidSize** must be zero.
 
-### -param NameUse 
+### -param NameUse [out]
 
-[out]
-A pointer to a SID_NAME_USE enumerated type that indicates the type of the account when the function returns.
+A pointer to a [**SID_NAME_USE**](ne-ntifs-_sid_name_use.md) enumerated type that receives the type of the account.
 
-### -param OPTIONAL
+### -param DomainSize [out]
 
-<p>A pointer to an optional variable that specifies the size of the <i>ReferencedDomain</i> parameter. On input, this value specifies the size of the <i>ReferencedDomain</i> buffer. If the function fails because the buffer is too small, this variable receives the required buffer size. If the <i>ReferencedDomain</i> parameter is <b>NULL</b>, this parameter must be zero.</p>
+A pointer to A ULONG that receives the size of the **ReferencedDomain** parameter. If the function fails because the buffer is too small, this variable receives the required buffer size. If the input **ReferencedDomain** parameter is NULL, this parameter will receive zero.
+
+### -param ReferencedDomain [in_out, optional]
+
+Pointer to a buffer for the name of the domain where the account name is found. This parameter is optional and can be NULL. For computers that are not joined to a domain, this buffer receives the computer name.
 
 ## -returns
 
-<b>SecLookupAccountName</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+**SecLookupAccountName** returns STATUS_SUCCESS on success or one of the following error codes on failure.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>SEC_E_INTERNAL_ERROR</b></dt>
-</dl>
-</td>
-<td width="60%">
-An internal error occurred while trying to connect to the Local System Authority (LSA) or the local procedure call (LPC) to the security provider failed. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The process ID associated with the currently executing thread does not match the current process ID. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The buffer size for the <i>Sid</i> or the <i>ReferencedDomain</i> parameter was too small.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The length of the <i>Name</i> parameter exceeded the length allowed in a message to the Local System Authority. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NONE_MAPPED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>Name</i> parameter could not be found. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_PROCESS_IS_TERMINATING</b></dt>
-</dl>
-</td>
-<td width="60%">
-This process has terminated so it is not possible to establish the local procedure call (LPC) connection.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| SEC_E_INTERNAL_ERROR | An internal error occurred while trying to connect to the Local System Authority (LSA) or the local procedure call (LPC) to the security provider failed. |
+| STATUS_ACCESS_DENIED | The process ID associated with the currently executing thread does not match the current process ID. |
+| STATUS_BUFFER_TOO_SMALL | The buffer size for the **Sid** or the **ReferencedDomain** parameter was too small. |
+| STATUS_INVALID_PARAMETER | The length of the **Name** parameter exceeded the length allowed in a message to the Local System Authority. |
+| STATUS_NONE_MAPPED | The **Name** parameter could not be found. |
+| STATUS_PROCESS_IS_TERMINATING | This process has terminated so it is not possible to establish the local procedure call (LPC) connection. |
 
 ## -remarks
 
-<b>SecLookupAccountName</b> attempts to find a SID for the specified name. The function checks built-in and administratively defined local accounts. Next, the function checks the primary domain. If the name is not found there, trusted domains are checked.
+**SecLookupAccountName** attempts to find a SID for the specified name. The function checks built-in and administratively defined local accounts. Next, the function checks the primary domain. If the name is not found there, trusted domains are checked.
 
 Use fully qualified account names (for example, domain_name\user_name) instead of isolated names (for example, user_name). Fully qualified names are unambiguous and provide better performance when the lookup is performed. This function also supports fully qualified DNS names (for example, example.example.com\user_name) and user principal names (UPN) (for example, someone@example.com).
 
-In addition to looking up local accounts, local domain accounts, and explicitly trusted domain accounts, <b>SecLookupAccountName</b> can look up the name for any account in any domain in the forest.
+In addition to looking up local accounts, local domain accounts, and explicitly trusted domain accounts, **SecLookupAccountName** can look up the name for any account in any domain in the forest.
 
-<b>SecLookupAccountName</b> is equivalent to the Win32 <b>LookupAccountName</b> function. 
+**SecLookupAccountName** is equivalent to the Win32 **LookupAccountName** function.
 
-<b>SecLookupAccountName</b> is exported by the ksecdd driver, which implements this function by using user-mode helper services. Accordingly, the use of this function within file systems must obey the usual rules for communication with user-mode services. <b>SecLookupAccountName</b> cannot be used during paging file I/O.
+**SecLookupAccountName** is exported by the ksecdd driver, which implements this function by using user-mode helper services. Accordingly, the use of this function within file systems must obey the usual rules for communication with user-mode services. **SecLookupAccountName** cannot be used during paging file I/O.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
+[**SID**](ns-ntifs-_sid.md)
 
+[**SID_NAME_USE**](ne-ntifs-_sid_name_use.md)
 
+[**SecLookupAccountSid**](nf-ntifs-seclookupaccountsid.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_sid_name_use">SID_NAME_USE</a>
-
-
-
-<a href="/previous-versions/ff556579(v=vs.85)">SecLookupAccountSid</a>
-
-
-
-<a href="/previous-versions/ff556582(v=vs.85)">SecLookupWellKnownSid</a>
+[**SecLookupWellKnownSid**](nf-ntifs-seclookupwellknownsid.md)

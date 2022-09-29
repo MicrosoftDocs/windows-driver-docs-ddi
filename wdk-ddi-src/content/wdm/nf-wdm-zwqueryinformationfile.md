@@ -48,25 +48,25 @@ The **ZwQueryInformationFile** routine returns various kinds of information abou
 
 ## -parameters
 
-### -param FileHandle
+### -param FileHandle [in]
 
-[in] Handle to a file object. The handle is created by a successful call to [**ZwCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md) or [**ZwOpenFile**](../ntifs/nf-ntifs-ntopenfile.md).
+Handle to a file object. The handle is created by a successful call to [**ZwCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md) or [**ZwOpenFile**](../ntifs/nf-ntifs-ntopenfile.md).
 
-### -param IoStatusBlock
+### -param IoStatusBlock [out]
 
-[out] Pointer to an [**IO_STATUS_BLOCK**](ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the operation. The **Information** member receives the number of bytes that this routine actually writes to the **FileInformation** buffer.
+Pointer to an [**IO_STATUS_BLOCK**](ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the operation. The **Information** member receives the number of bytes that this routine actually writes to the **FileInformation** buffer.
 
-### -param FileInformation
+### -param FileInformation [out]
 
-[out] Pointer to a caller-allocated buffer into which the routine writes the requested information about the file object. The **FileInformationClass** parameter specifies the type of information that the caller requests.
+Pointer to a caller-allocated buffer into which the routine writes the requested information about the file object. The **FileInformationClass** parameter specifies the type of information that the caller requests.
 
-### -param Length
+### -param Length [in]
 
-[in] The size, in bytes, of the buffer pointed to by **FileInformation**.
+The size, in bytes, of the buffer pointed to by **FileInformation**.
 
-### -param FileInformationClass
+### -param FileInformationClass [in]
 
-[in] Specifies the type of information to be returned about the file, in the buffer that **FileInformation** points to. Device and intermediate drivers can specify any of the following [**FILE_INFORMATION_CLASS**](ne-wdm-_file_information_class.md) values.
+Specifies the type of information to be returned about the file, in the buffer that **FileInformation** points to. Device and intermediate drivers can specify any of the following [**FILE_INFORMATION_CLASS**](ne-wdm-_file_information_class.md) values.
 
 | FILE_INFORMATION_CLASS value | Type of information returned |
 | ---------------------------- | ---------------------------- |

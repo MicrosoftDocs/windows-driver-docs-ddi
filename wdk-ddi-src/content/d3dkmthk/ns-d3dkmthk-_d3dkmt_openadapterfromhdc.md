@@ -52,21 +52,21 @@ The D3DKMT_OPENADAPTERFROMHDC structure describes the mapping of a device contex
 
 ## -struct-fields
 
-### -field hDc
+### -field hDc [in]
 
-[in] The HDC for the graphics adapter and monitor output that are retrieved.
+The HDC for the graphics adapter and monitor output that are retrieved.
 
-### -field hAdapter
+### -field hAdapter [out]
 
-[out] A handle to the graphics adapter for the HDC that <b>hDc</b> specifies. The adapter handle is returned from the call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenadapterfromhdc">D3DKMTOpenAdapterFromHdc</a> function.
+A handle to the graphics adapter for the HDC that <b>hDc</b> specifies. The adapter handle is returned from the call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenadapterfromhdc">D3DKMTOpenAdapterFromHdc</a> function.
 
-### -field AdapterLuid
+### -field AdapterLuid [out]
 
-[out] The locally unique identifier (<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) of the graphics adapter for the HDC that <b>hDc</b> specifies. The LUID is returned from the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenadapterfromhdc">D3DKMTOpenAdapterFromHdc</a> call.
+The locally unique identifier (<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) of the graphics adapter for the HDC that <b>hDc</b> specifies. The LUID is returned from the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenadapterfromhdc">D3DKMTOpenAdapterFromHdc</a> call.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [out]
 
-[out] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology for the HDC that <b>hDc</b> specifies. The identification number is returned from the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenadapterfromhdc">D3DKMTOpenAdapterFromHdc</a> call.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology for the HDC that <b>hDc</b> specifies. The identification number is returned from the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenadapterfromhdc">D3DKMTOpenAdapterFromHdc</a> call.
 
 ## -see-also
 

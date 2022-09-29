@@ -3,7 +3,7 @@ UID: NF:ring.NetRingAdvanceIndex
 title: NetRingAdvanceIndex function (ring.h)
 description: The NetRingAdvanceIndex function advances the index in a net ring forward, wrapping around if necessary.
 tech.root: netvista
-ms.date: 09/25/2019
+ms.date: 04/01/2022
 keywords: ["NetRingAdvanceIndex function"]
 ms.keywords: NetRingAdvanceIndex
 req.header: ring.h
@@ -49,15 +49,15 @@ The **NetRingAdvanceIndex** function advances the index in a net ring forward, w
 
 ## -parameters
 
-### -param Ring
+### -param Ring [_In_]
 
 A pointer to a [**NET_RING**](../ring/ns-ring-_net_ring.md) to access.
 
-### -param Index
+### -param Index [_In_]
 
 The index value to advance.
 
-### -param Distance
+### -param Distance [_In_]
 
 The distance to advance the index.
 

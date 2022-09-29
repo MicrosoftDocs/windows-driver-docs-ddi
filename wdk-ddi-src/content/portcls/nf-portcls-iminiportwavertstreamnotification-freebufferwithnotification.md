@@ -49,14 +49,14 @@ The <code>FreeBufferWithNotification</code> method is used to free an audio buff
 
 ## -parameters
 
-### -param AudioBufferMdl 
+### -param AudioBufferMdl [in]
 
-[in]
+
 Specifies a memory descriptor list (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>) previously allocated with a call to <b>IMiniportWaveRTStreamNotification::AllocateBufferWithNotification</b>.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Output pointer for the number of bytes the method has written to the Attributes buffer. This parameter points to a ULONG variable into which the method writes the byte count.
 
 ## -remarks

@@ -4,7 +4,7 @@ title: IDDCX_FRAME_STATUS (iddcx.h)
 description: Defines the processing status of the frame.
 old-location: display\iddcx_frame_status.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/08/2022
 keywords: ["IDDCX_FRAME_STATUS enumeration"]
 ms.keywords: IDDCX_FRAME_STATUS, IDDCX_FRAME_STATUS enumeration [Display Devices], IDDCX_FRAME_STATUS_COMPLETED, IDDCX_FRAME_STATUS_DROPPED, IDDCX_FRAME_STATUS_ERROR, IDDCX_FRAME_STATUS_UNINITIALIZED, display.iddcx_frame_status, iddcx/IDDCX_FRAME_STATUS, iddcx/IDDCX_FRAME_STATUS_COMPLETED, iddcx/IDDCX_FRAME_STATUS_DROPPED, iddcx/IDDCX_FRAME_STATUS_ERROR, iddcx/IDDCX_FRAME_STATUS_UNINITIALIZED
 req.header: iddcx.h
@@ -42,29 +42,32 @@ api_name:
 
 # IDDCX_FRAME_STATUS enumeration
 
-
 ## -description
 
-                     Defines the processing status of the frame.
+A **IDDCX_FRAME_STATUS** value indicates the processing status of the frame.
 
 ## -enum-fields
 
-### -field IDDCX_FRAME_STATUS_UNINITIALIZED
+### -field IDDCX_FRAME_STATUS_UNINITIALIZED:0
 
-                        
-                    Indicates that an <b>IDDCX_FRAME_STATUS</b> variable has not yet been assigned a meaningful value.
+Indicates that an **IDDCX_FRAME_STATUS** variable has not yet been assigned a meaningful value.
 
-### -field IDDCX_FRAME_STATUS_COMPLETED
+### -field IDDCX_FRAME_STATUS_COMPLETED:1
 
-                        Indicates that the frame was processed completely and sent to the device
+Indicates that the frame was processed completely and sent to the device.
 
-### -field IDDCX_FRAME_STATUS_DROPPED
+### -field IDDCX_FRAME_STATUS_DROPPED:2
 
-                        Indicates that the driver stopped processing this frame to start on a newer frame. This normally happens if it is taking a long time to process/transmit the frame
+Indicates that the driver stopped processing this frame to start on a newer frame. This normally happens if it is taking a long time to process/transmit the frame.
 
-### -field IDDCX_FRAME_STATUS_ERROR
+### -field IDDCX_FRAME_STATUS_ERROR:3
 
-                        Indicates that the driver stopped processing this frame because the driver hit an internal error
+Indicates that the driver stopped processing this frame because the driver hit an internal error.
 
-### -field UINT
+## -see-also
 
+[**IDDCX_FRAME_STATISTICS**](ns-iddcx-iddcx_frame_statistics.md)
+
+[**IddCxSwapChainReleaseAndAcquireBuffer**](nf-iddcx-iddcxswapchainreleaseandacquirebuffer.md)
+
+[**IddCxSwapChainReleaseAndAcquireSystemBuffer**](nf-iddcx-iddcxswapchainreleaseandacquiresystembuffer.md)

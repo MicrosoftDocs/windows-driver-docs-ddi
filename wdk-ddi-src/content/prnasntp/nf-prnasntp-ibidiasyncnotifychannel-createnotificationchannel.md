@@ -3,7 +3,7 @@ UID: NF:prnasntp.IBidiAsyncNotifyChannel.CreateNotificationChannel
 title: IBidiAsyncNotifyChannel::CreateNotificationChannel (prnasntp.h)
 description: Defines the IBidiAsyncNotifyChannel::CreateNotificationChannel method.
 tech.root: print
-ms.date: 06/12/2021
+ms.date: 07/25/2022
 keywords: ["IBidiAsyncNotifyChannel::CreateNotificationChannel"]
 ms.keywords: CreateNotificationChannel, CreateNotificationChannel method [Print Devices], CreateNotificationChannel method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],CreateNotificationChannel method, IBidiAsyncNotifyChannel.CreateNotificationChannel, IBidiAsyncNotifyChannel::CreateNotificationChannel, print.ibidiasyncnotifychannel_createnotificationchannel, prnasntp/IBidiAsyncNotifyChannel::CreateNotificationChannel
 req.header: prnasntp.h
@@ -39,13 +39,9 @@ api_name:
  - IBidiAsyncNotifyChannel::CreateNotificationChannel
 ---
 
-# IBidiAsyncNotifyChannel::CreateNotificationChannel
-
 ## -description
 
 Defines the **IBidiAsyncNotifyChannel::CreateNotificationChannel** method.
-
-## -parameters
 
 ## -returns
 

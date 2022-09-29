@@ -49,9 +49,9 @@ Describes an entry for a signature.
 
 ## -struct-fields
 
-### -field SystemValue
+### -field SystemValue [in]
 
-[in] The <b>D3D10_SB_NAME</b>-typed value that indicates the system name of the signature entry. The <b>D3D10_SB_NAME</b> enumeration is defined in the D3d10tokenizedprogramformat.hpp header file. One of the following values can be set.
+The <b>D3D10_SB_NAME</b>-typed value that indicates the system name of the signature entry. The <b>D3D10_SB_NAME</b> enumeration is defined in the D3d10tokenizedprogramformat.hpp header file. One of the following values can be set.
 
 |Value|System name|
 |--- |--- |
@@ -66,13 +66,13 @@ Describes an entry for a signature.
 |D3D10_SB_NAME_INSTANCE_ID (8)|Instance ID.|
 |D3D10_SB_NAME_IS_FRONT_FACE (9)|Is front face.|
 
-### -field Register
+### -field Register [in]
 
-[in] The number of the register for the signature entry.
+The number of the register for the signature entry.
 
-### -field Mask
+### -field Mask [in]
 
-[in] The xyzw mask for the signature entry. The four least significant bits (LSBs) of the mask represent xyzw respectively.
+The xyzw mask for the signature entry. The four least significant bits (LSBs) of the mask represent xyzw respectively.
 
 ### -field RegisterComponentType
 

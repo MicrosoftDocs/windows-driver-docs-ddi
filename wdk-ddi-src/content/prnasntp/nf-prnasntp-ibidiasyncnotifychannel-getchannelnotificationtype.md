@@ -3,7 +3,7 @@ UID: NF:prnasntp.IBidiAsyncNotifyChannel.GetChannelNotificationType
 title: IBidiAsyncNotifyChannel::GetChannelNotificationType (prnasntp.h)
 description: Defines the IBidiAsyncNotifyChannel::GetChannelNotificationType method.
 tech.root: print
-ms.date: 06/12/2021
+ms.date: 07/25/2022
 keywords: ["IBidiAsyncNotifyChannel::GetChannelNotificationType"]
 ms.keywords: GetChannelNotificationType, GetChannelNotificationType method [Print Devices], GetChannelNotificationType method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],GetChannelNotificationType method, IBidiAsyncNotifyChannel.GetChannelNotificationType, IBidiAsyncNotifyChannel::GetChannelNotificationType, print.ibidiasyncnotifychannel_getchannelnotificationtype, prnasntp/IBidiAsyncNotifyChannel::GetChannelNotificationType
 req.header: prnasntp.h
@@ -39,13 +39,15 @@ api_name:
  - IBidiAsyncNotifyChannel::GetChannelNotificationType
 ---
 
-# IBidiAsyncNotifyChannel::GetChannelNotificationType
-
 ## -description
 
 Defines the **IBidiAsyncNotifyChannel::GetChannelNotificationType** method.
 
 ## -parameters
+
+### -param unnamedParam1
+
+Defines the **IPrintAsyncNotifyDataObject** parameter *unnamedParam1*.
 
 ## -returns
 

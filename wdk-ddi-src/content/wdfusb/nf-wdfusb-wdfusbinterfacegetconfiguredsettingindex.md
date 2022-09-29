@@ -54,9 +54,9 @@ The <b>WdfUsbInterfaceGetConfiguredSettingIndex</b> method returns the alternate
 
 ## -parameters
 
-### -param Interface 
+### -param Interface [in]
 
-[in]
+
 A handle to a USB interface object that was obtained by calling <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>.
 
 ## -returns

@@ -54,9 +54,9 @@ The <b>WdfRequestUnmarkCancelable</b> method disables cancellation of a specifie
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
 ## -returns

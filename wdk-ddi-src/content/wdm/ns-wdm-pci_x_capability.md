@@ -2,15 +2,14 @@
 UID: NS:wdm.__unnamed_struct_15
 title: PCI_X_CAPABILITY (wdm.h)
 description: The PCI_X_CAPABILITY structure (wdm.h) reports the contents of the command and status registers of a device that is compliant with the PCI-X Addendum to the PCI Local Bus Specification.
-old-location: pci\pci_x_capability.htm
 tech.root: PCI
-ms.date: 07/30/2021
+ms.date: 03/11/2022
 keywords: ["PCI_X_CAPABILITY structure"]
 ms.keywords: "*PPCI_X_CAPABILITY, PCI.pci_x_capability, PCI_X_CAPABILITY, PCI_X_CAPABILITY structure [Buses], PPCI_X_CAPABILITY, PPCI_X_CAPABILITY structure pointer [Buses], pci_struct_171a6a86-48fe-4955-8f12-43df82659f7a.xml, wdm/PCI_X_CAPABILITY, wdm/PPCI_X_CAPABILITY"
 req.header: wdm.h
 req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,8 +43,6 @@ api_name:
  - PCI_X_CAPABILITY
 ---
 
-# PCI_X_CAPABILITY structure (wdm.h)
-
 ## -description
 
 The PCI_X_CAPABILITY structure reports the contents of the command and status registers of a device that is compliant with the *PCI-X Addendum to the PCI Local Bus Specification*.
@@ -54,15 +51,15 @@ The PCI_X_CAPABILITY structure reports the contents of the command and status re
 
 ### -field Header
 
-Contains a structure of type [PCI_CAPABILITIES_HEADER](./ns-wdm-_pci_capabilities_header.md) that identifies the capability and provides a link to the next capability description.
+Contains a structure of type [PCI_CAPABILITIES_HEADER](ns-wdm-_pci_capabilities_header.md) that identifies the capability and provides a link to the next capability description.
 
 ### -field Command
 
-#### AsUSHORT
-
-Reports the data in the device's command register in the form of a unsigned long integer.
+Defines the **Command** union.
 
 ### -field Command.bits
+
+Defines the **bits** structure.
 
 ### -field Command.bits.DataParityErrorRecoveryEnable
 
@@ -82,15 +79,19 @@ Reports the maximum number of split transactions, recorded in the command regist
 
 ### -field Command.bits.Reserved
 
-Reserved.
+Reserved for future use.
+
+### -field Command.AsUSHORT
+
+Reports the data in the device's command register in the form of a unsigned long integer.
 
 ### -field Status
 
-#### AsULONG
-
-Reports the data in the device's status register in the form of a unsigned long integer.
+Defines the **Status** union.
 
 ### -field Status.bits
+
+Defines the **bits** structure.
 
 ### -field Status.bits.FunctionNumber
 
@@ -142,45 +143,16 @@ Indicates when 1 that the device has received a split completion error message. 
 
 ### -field Status.bits.CapablePCIX266
 
+Defines the **ULONG** member **CapablePCIX266**.
+
 ### -field Status.bits.CapablePCIX533
 
-## -syntax
+Defines the **ULONG** member **CapablePCIX533**.
 
-```cpp
-typedef struct {
-  PCI_CAPABILITIES_HEADER Header;
-  union {
-    struct {
-      USHORT DataParityErrorRecoveryEnable  :1;
-      USHORT EnableRelaxedOrdering  :1;
-      USHORT MaxMemoryReadByteCount  :2;
-      USHORT MaxOutstandingSplitTransactions  :3;
-      USHORT Reserved  :9;
-    } bits;
-    USHORT AsUSHORT;
-  } Command;
-  union {
-    struct {
-      ULONG FunctionNumber;
-      ULONG DeviceNumber;
-      ULONG BusNumber;
-      ULONG Device64Bit;
-      ULONG Capable133MHz;
-      ULONG SplitCompletionDiscarded;
-      ULONG UnexpectedSplitCompletion;
-      ULONG DeviceComplexity;
-      ULONG DesignedMaxMemoryReadByteCount;
-      ULONG DesignedMaxOutstandingSplitTransactions;
-      ULONG DesignedMaxCumulativeReadSize;
-      ULONG ReceivedSplitCompletionErrorMessage;
-      ULONG CapablePCIX266;
-      ULONG CapablePCIX533;
-    } bits;
-    ULONG  AsULONG;
-  } Status;
-} PCI_X_CAPABILITY, *PPCI_X_CAPABILITY;
-```
+### -field Status.AsULONG
+
+Reports the data in the device's status register in the form of a unsigned long integer.
 
 ## -see-also
 
-[PCI_CAPABILITIES_HEADER](./ns-wdm-_pci_capabilities_header.md)
+[PCI_CAPABILITIES_HEADER](ns-wdm-_pci_capabilities_header.md)

@@ -49,29 +49,29 @@ The <b>WmiTraceMessage</b> routine adds a message to the output log of a <a href
 
 ## -parameters
 
-### -param LoggerHandle 
+### -param LoggerHandle [in]
 
-[in]
+
 Specifies a trace handle for a software tracing session.
 
-### -param MessageFlags 
+### -param MessageFlags [in]
 
-[in]
+
 Specifies a bitwise OR of one or more message flags. See the Remarks section for details.
 
-### -param MessageGuid 
+### -param MessageGuid [in]
 
-[in]
+
 Specifies a GUID that identifies the class of software trace messages.
 
-### -param MessageNumber 
+### -param MessageNumber [in]
 
-[in]
+
 Identifies the message subtype. The meaning of subtypes is specific to the software trace class and the provider.
 
-### -param ...
+### -param ... [in]
 
-[in]
+
 Provides a required list of message parameters that specify a set of message parts. The parameters are organized as a sequence of parameter pairs, where each pair specifies one part of the complete message. Each parameter pair consists of a PVOID pointer to data, followed immediately by a ULONG value that specifies the length of the data. The parameter list must be terminated by a <b>NULL</b> PVOID pointer followed by a ULONG(0).
 
 ## -returns

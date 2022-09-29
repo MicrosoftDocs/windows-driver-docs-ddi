@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMStrokePath
 title: OEMStrokePath function (printoem.h)
 description: The OEMStrokePath function strokes a path.
-old-location: print\oemstrokepath.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/11/2022
 keywords: ["OEMStrokePath function"]
 ms.keywords: OEMStrokePath, OEMStrokePath function [Print Devices], print.oemstrokepath, print_unidrv-pscript_rendering_8bc38d91-34ed-4225-baf1-6ca18026b7d0.xml, printoem/OEMStrokePath
 req.header: printoem.h
@@ -40,28 +39,44 @@ api_name:
  - OEMStrokePath
 ---
 
-# OEMStrokePath function
-
-
 ## -description
 
-The <code>OEMStrokePath</code> function strokes a path.
+The **OEMStrokePath** function strokes a path.
 
 ## -parameters
 
 ### -param pso
 
+Defines the **SURFOBJ** parameter *pso*.
+
 ### -param ppo
+
+Defines the **PATHOBJ** parameter *ppo*.
 
 ### -param pco
 
+Defines the **CLIPOBJ** parameter *pco*.
+
 ### -param pxo
+
+Defines the **XFORMOBJ** parameter *pxo*.
 
 ### -param pbo
 
+Defines the **BRUSHOBJ** parameter *pbo*.
+
 ### -param pptlBrushOrg
+
+Defines the **POINTL** parameter *pptlBrushOrg*.
 
 ### -param plineattrs
 
+Defines the **LINEATTRS** parameter *plineattrs*.
+
 ### -param mix
 
+Defines the **MIX** parameter *mix*.
+
+## -returns
+
+Returns a **BOOL** value.

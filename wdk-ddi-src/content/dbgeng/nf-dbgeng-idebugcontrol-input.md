@@ -4,7 +4,7 @@ title: IDebugControl::Input (dbgeng.h)
 description: The Input method requests an input string from the debugger engine.
 old-location: debugger\input.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl::Input"]
 ms.keywords: IDebugControl interface [Windows Debugging],Input method, IDebugControl.Input, IDebugControl::Input, IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, Input, Input method [Windows Debugging], Input method [Windows Debugging],IDebugControl interface, dbgeng/IDebugControl::Input, debugger.input
 req.header: dbgeng.h
@@ -49,20 +49,20 @@ The <b>Input</b>  method requests an input string from the <a href="/windows-har
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Receives the input string from the engine.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
-Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
-### -param InputSize 
+Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the number of characters returned in <i>Buffer</i>.  If <i>InputSize</i> is <b>NULL</b>, this information is not returned.
+### -param InputSize [out, optional]
+
+
+Receives the number of characters returned in <i>Buffer</i>. This size includes the space for the '\0' terminating character. If <i>InputSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

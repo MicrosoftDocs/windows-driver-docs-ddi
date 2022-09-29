@@ -50,9 +50,9 @@ The <b>KeReleaseGuardedMutex</b> routine releases a guarded mutex acquired with 
 
 ## -parameters
 
-### -param Mutex 
+### -param Mutex [in, out]
 
-[in, out]
+
 Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">KGUARDED_MUTEX</a> structure for the guarded mutex.
 
 ## -remarks

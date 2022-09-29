@@ -4,7 +4,7 @@ title: IWDFMemory::CopyToBuffer (wudfddi.h)
 description: The CopyToBuffer method safely copies data from a memory object to the specified target buffer.
 old-location: wdf\iwdfmemory_copytobuffer.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 08/12/2022
 keywords: ["IWDFMemory::CopyToBuffer"]
 ms.keywords: CopyToBuffer, CopyToBuffer method, CopyToBuffer method,IWDFMemory interface, IWDFMemory interface,CopyToBuffer method, IWDFMemory.CopyToBuffer, IWDFMemory::CopyToBuffer, UMDFMemoryObjectRef_40ff2a7e-f93c-4f95-ba14-b7ade765ab2d.xml, umdf.iwdfmemory_copytobuffer, wdf.iwdfmemory_copytobuffer, wudfddi/IWDFMemory::CopyToBuffer
 req.header: wudfddi.h
@@ -42,37 +42,31 @@ api_name:
 
 # IWDFMemory::CopyToBuffer
 
-
 ## -description
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+> [!WARNING]
+> UMDF 2 is the latest version of UMDF and supersedes UMDF 1. All new UMDF drivers should be written using UMDF 2. No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10. Universal Windows drivers must use UMDF 2. For more info, see [Getting Started with UMDF](/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2).
 
-The <b>CopyToBuffer</b> method safely copies data from a memory object to the specified target buffer.
+The **CopyToBuffer** method safely copies data from a memory object to the specified target buffer.
 
 ## -parameters
 
-### -param SourceOffset 
+### -param SourceOffset [in]
 
-[in]
-The offset, in bytes, into the memory object to start to copy data from.
+The offset, in bytes, into the memory object from which to start copying data.
 
-### -param TargetBuffer
+### -param TargetBuffer [out]
 
-### -param NumOfBytesToCopyTo 
+A pointer to the target buffer to which data is copied.
 
-[in]
-The number of bytes to copy to the buffer that <i>pTargetBuffer</i> points to.
+### -param NumOfBytesToCopyTo [in]
 
-
-#### - pTargetBuffer [out]
-
-A pointer to the target buffer that data is copied to.
+The number of bytes to copy to the *TargetBuffer*.
 
 ## -returns
 
-<b>CopyToBuffer</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
+**CopyToBuffer** returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a>
-
+- [IWDFMemory](./nn-wudfddi-iwdfmemory.md)

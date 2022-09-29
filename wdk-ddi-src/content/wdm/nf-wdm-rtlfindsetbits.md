@@ -49,19 +49,19 @@ The <b>RtlFindSetBits</b> routine searches for a range of set bits of a requeste
 
 ## -parameters
 
-### -param BitMapHeader 
+### -param BitMapHeader [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
 
-### -param NumberToFind 
+### -param NumberToFind [in]
 
-[in]
+
 Specifies how many contiguous set bits will satisfy this request.
 
-### -param HintIndex 
+### -param HintIndex [in]
 
-[in]
+
 Specifies a zero-based bit position around which to start looking for a set bit range of the given size.
 
 ## -returns

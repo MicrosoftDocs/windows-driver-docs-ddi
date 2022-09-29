@@ -47,9 +47,9 @@ This routine returns the size of the entire collection list, including size of m
 
 ## -parameters
 
-### -param Collection
+### -param Collection [in]
 
-[in] Pointer to a sensor collection list.
+Pointer to a sensor collection list.
 
 ## -returns
 

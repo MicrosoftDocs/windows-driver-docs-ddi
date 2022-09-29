@@ -1,10 +1,9 @@
 ---
 UID: NS:printoem._USERDATA
-title: _USERDATA (printoem.h)
+title: USERDATA (printoem.h)
 description: The USERDATA structure is used by Unidrv and Pscript to specify additional information about printer features. A USERDATA structure pointer is supplied as the UserData member for each OPTITEM structure.
-old-location: print\userdata.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/12/2022
 keywords: ["USERDATA structure"]
 ms.keywords: "*PUSERDATA, PUSERDATA, PUSERDATA structure pointer [Print Devices], USERDATA, USERDATA structure [Print Devices], _USERDATA, print.userdata, print_unidrv-pscript_ui_d0e62306-f4b7-491e-83b3-b1e2ddaddfb5.xml, printoem/PUSERDATA, printoem/USERDATA"
 req.header: printoem.h
@@ -46,18 +45,15 @@ api_name:
  - USERDATA
 ---
 
-# _USERDATA structure
-
-
 ## -description
 
-The USERDATA structure is used by <a href="/windows-hardware/drivers/">Unidrv</a> and <a href="/windows-hardware/drivers/">Pscript</a> to specify additional information about printer features. A USERDATA structure pointer is supplied as the <b>UserData</b> member for each <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structure.
+The **USERDATA** structure is used by [Unidrv](/windows-hardware/drivers/) and [Pscript](/windows-hardware/drivers/) to specify additional information about printer features. A **USERDATA** structure pointer is supplied as the **UserData** member for each [**OPTITEM**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) structure.
 
 ## -struct-fields
 
 ### -field dwSize
 
-Size, in bytes, of the USERDATA structure.
+Size, in bytes, of the **USERDATA** structure.
 
 ### -field dwItemID
 
@@ -65,9 +61,8 @@ Printer feature identifier.
 
 ### -field pKeyWordName
 
-Pointer to a nonlocalized text string identifying a printer feature.
+Pointer to a non-localized text string identifying a printer feature.
 
 ### -field dwReserved
 
 Reserved.
-

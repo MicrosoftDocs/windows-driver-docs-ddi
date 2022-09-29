@@ -51,19 +51,19 @@ A bus driver's<i>EvtChildListCreateDevice</i> event callback function creates a 
 
 ## -parameters
 
-### -param ChildList 
+### -param ChildList [in]
 
-[in]
+
 A handle to the framework child-list object that the driver specified when it called <a href="/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>.
 
-### -param IdentificationDescription 
+### -param IdentificationDescription [in]
 
-[in]
+
 A pointer to a copy of the <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_identification_description_header">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure that the driver specified when it called <a href="/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>.
 
-### -param ChildInit 
+### -param ChildInit [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 ## -returns

@@ -51,13 +51,13 @@ The <b>pfnReleaseModeInfo</b> function releases a <a href="/windows-hardware/dri
 
 ## -parameters
 
-### -param hVidPnSourceModeSet
+### -param hVidPnSourceModeSet [in]
 
-[in] A handle to a VidPN source mode set object. The display miniport driver previously obtained this handle by calling the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_acquiresourcemodeset">pfnAcquireSourceModeSet</a> function of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_vidpn_interface">DXGK_VIDPN_INTERFACE</a> interface.
+A handle to a VidPN source mode set object. The display miniport driver previously obtained this handle by calling the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_acquiresourcemodeset">pfnAcquireSourceModeSet</a> function of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_vidpn_interface">DXGK_VIDPN_INTERFACE</a> interface.
 
-### -param pVidPnSourceModeInfo
+### -param pVidPnSourceModeInfo [in]
 
-[in] A pointer to the D3DKMDT_VIDPN_SOURCE_MODE structure that is to be released.
+A pointer to the D3DKMDT_VIDPN_SOURCE_MODE structure that is to be released.
 
 ## -returns
 

@@ -62,6 +62,14 @@ Reserved for system use.
 
 ### -field IpmiOsSelRecordTypeMax 
 
+### -field IpmiOsSelRecordTypeRaw
+
+### -field IpmiOsSelRecordTypeDriver
+
+### -field IpmiOsSelRecordTypeBugcheckRecovery
+
+### -field IpmiOsSelRecordTypeBugcheckData
+
 ## -remarks
 
 ## -see-also

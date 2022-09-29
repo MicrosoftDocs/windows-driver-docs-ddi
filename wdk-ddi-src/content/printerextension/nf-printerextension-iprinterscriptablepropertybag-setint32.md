@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrinterScriptablePropertyBag.SetInt32
 title: IPrinterScriptablePropertyBag::SetInt32 (printerextension.h)
 description: Learn how this method writes an integer property.
-old-location: print\iprinterscriptablepropertybag_setint32.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrinterScriptablePropertyBag::SetInt32"]
 ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetInt32 method, IPrinterScriptablePropertyBag.SetInt32, IPrinterScriptablePropertyBag::SetInt32, SetInt32, SetInt32 method [Print Devices], SetInt32 method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setint32, printerextension/IPrinterScriptablePropertyBag::SetInt32
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,34 +39,28 @@ api_name:
  - IPrinterScriptablePropertyBag::SetInt32
 ---
 
-# IPrinterScriptablePropertyBag::SetInt32
-
-
 ## -description
 
 Writes an integer property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
 The property to set.
 
-### -param nValue 
+### -param nValue [in]
 
-[in]
 The new value to set.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -remarks
 
-A call to <b>SetInt32</b> will throw an exception, if the specified property is not found. We recommend that you use a try-catch statement around calls to this method, to allow your app to handle any failures gracefully.
+A call to **SetInt32** will throw an exception, if the specified property is not found. We recommend that you use a try-catch statement around calls to this method, to allow your app to handle any failures gracefully.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>
-
+[IPrinterScriptablePropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag)

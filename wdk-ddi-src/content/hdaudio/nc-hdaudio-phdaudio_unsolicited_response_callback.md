@@ -53,12 +53,12 @@ HDAudio codec unsolicited response callback function. <b>PHDAUDIO_UNSOLICITED_RE
 
 ### -param unnamedParam2
 
-#### - Context
+### -param Context
 
 This is the callbackContext value that was passed previously to <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pregister_event_callback">PREGISTER_EVENT_CALLBACK</a>.
 
 
-#### - HDAudioCodecResponse
+### -param HDAudioCodecResponse
 
 This is a structure of type <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_codec_response">HDAUDIO_CODEC_RESPONSE</a> that specifies the codec's response to the command. This structure is passed by value.
 

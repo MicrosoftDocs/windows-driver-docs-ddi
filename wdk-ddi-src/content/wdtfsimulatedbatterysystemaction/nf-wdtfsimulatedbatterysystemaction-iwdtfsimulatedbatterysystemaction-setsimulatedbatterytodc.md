@@ -55,9 +55,9 @@ Sets the simulated battery status to DC power.
 
 ## -parameters
 
-### -param pbSuccess 
+### -param pbSuccess [out, retval]
 
-[out, retval]
+
 
 ## -returns
 

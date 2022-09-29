@@ -46,23 +46,25 @@ api_name:
 ## -description
 
 Process-creation callback implemented by a driver  to track the system-wide creation and deletion of processes against the driver's internal state.
-<div class="alert"><b>Warning</b>  The actions that  you can perform in this routine are restricted for safe calls. See <a href="/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager#best">Best Practices</a>. </div><div> </div>
+
+> [!WARNING]
+> The actions that you can perform in this routine are restricted for safe calls. See <a href="/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager#best">Best Practices</a>.
 
 ## -parameters
 
-### -param ParentId 
+### -param ParentId [in]
 
-[in]
+
 The process ID of the parent process.
 
-### -param ProcessId 
+### -param ProcessId [in]
 
-[in]
+
 The process ID of the process.
 
-### -param Create 
+### -param Create [in]
 
-[in]
+
 Indicates whether the process was created (<b>TRUE</b>) or deleted (<b>FALSE</b>).
 
 ## -remarks

@@ -51,14 +51,14 @@ The <b>RtlVolumeDeviceToDosName</b> routine is <u>obsolete</u> for Windows XP an
 
 ## -parameters
 
-### -param VolumeDeviceObject 
+### -param VolumeDeviceObject [in]
 
-[in]
+
 Pointer to a device object that represents a volume device object created by a storage class driver.
 
-### -param DosName 
+### -param DosName [out]
 
-[out]
+
 Pointer to a Unicode string containing the MS-DOS path of the volume device object specified by <i>VolumeDeviceObject</i>.
 
 ## -returns

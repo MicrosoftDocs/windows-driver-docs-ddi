@@ -46,13 +46,13 @@ A kernel-mode display miniport driver calls **DXGKCB_MAPMDLTOIOMMU** to map a me
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to a display adapter. The driver provides this handle for the master/lead device in the LDA chain.
+A handle to a display adapter. The driver provides this handle for the master/lead device in the LDA chain.
 
-### -param pMapMdlToIoMmu
+### -param pMapMdlToIoMmu [in/out]
 
-[in/out] Pointer to a [**DXGKARGCB_MAPMDLTOIOMMU**](ns-d3dkmddi-_dxgkargcb_mapmdltoiommu.md) structure that contains a handle to the memory.
+Pointer to a [**DXGKARGCB_MAPMDLTOIOMMU**](ns-d3dkmddi-_dxgkargcb_mapmdltoiommu.md) structure that contains a handle to the memory.
 
 ## -returns
 

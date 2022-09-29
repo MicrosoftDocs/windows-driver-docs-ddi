@@ -51,13 +51,13 @@ The **DXGKARGCB_PROTECTEDSESSIONSTATUS** structure contains arguments used by th
 
 ## -struct-fields
 
-### -field hProtectedSession
+### -field hProtectedSession [in]
 
-[in] A handle for the protected session that was passed to [**DxgkDdiCreateProtectedSession**](nc-d3dkmddi-dxgkddi_createprotectedsession.md).
+A handle for the protected session that was passed to [**DxgkDdiCreateProtectedSession**](nc-d3dkmddi-dxgkddi_createprotectedsession.md).
 
-### -field Status
+### -field Status [in]
 
-[in] A [**DXGK_PROTECTED_SESSION_STATUS**](ne-d3dkmddi-_dxgk_protected_session_status.md) value that indicates the status of the protected session.
+A [**DXGK_PROTECTED_SESSION_STATUS**](ne-d3dkmddi-_dxgk_protected_session_status.md) value that indicates the status of the protected session.
 
 ## -see-also
 

@@ -6,8 +6,6 @@ ms.assetid: 637ff180-be8d-3314-8689-f61b40309939
 ms.date: 05/09/2018
 keywords: ["Rxlog.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: ifsk
 f1_keywords:

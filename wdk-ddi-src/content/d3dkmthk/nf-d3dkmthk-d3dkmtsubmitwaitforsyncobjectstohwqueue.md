@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTSubmitWaitForSyncObjectsToHwQueue
 title: D3DKMTSubmitWaitForSyncObjectsToHwQueue function (d3dkmthk.h)
 description: Used to submit a wait to the hardware queue.
 old-location: display\d3dkmtsubmitwaitforsyncobjectstohwqueue.htm
-ms.date: 05/10/2018
+ms.date: 03/02/2022
 keywords: ["D3DKMTSubmitWaitForSyncObjectsToHwQueue function"]
 ms.keywords: D3DKMTSubmitWaitForSyncObjectsToHwQueue, D3DKMTSubmitWaitForSyncObjectsToHwQueue function [Display Devices], d3dkmthk/D3DKMTSubmitWaitForSyncObjectsToHwQueue, display.d3dkmtsubmitwaitforsyncobjectstohwqueue
 req.header: d3dkmthk.h
@@ -42,18 +42,25 @@ api_name:
 
 # D3DKMTSubmitWaitForSyncObjectsToHwQueue function
 
-
 ## -description
 
 Used to submit a wait to the hardware queue.
 
 ## -parameters
 
-### -param D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
+### -param unnamedParam1 [in]
 
-[in] A structure holding the information needed to submit a wait to the hardware queue.
+A [D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitwaitforsyncobjectstohwqueue.md) structure holding the information needed to submit a wait to the hardware queue.
 
 ## -returns
 
-Returns STATUS_SUCCESS if called successfully.
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The device context was called successfully. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
+This function might also return other **NTSTATUS** values.
+
+## -see-also
+
+[D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitwaitforsyncobjectstohwqueue.md)

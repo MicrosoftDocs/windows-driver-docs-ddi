@@ -53,9 +53,9 @@ The
 
 ## -parameters
 
-### -param CallMgrSapContext 
+### -param CallMgrSapContext [in]
 
-[in]
+
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-SAP state information. The call manager supplied this handle to NDIS from its 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">

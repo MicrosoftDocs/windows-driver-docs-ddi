@@ -59,15 +59,15 @@ The <i>MiniportPnpIrp</i> function enables a miniport driver to optionally manag
 
 ## -parameters
 
-### -param MiniportAddDeviceContext 
+### -param MiniportAddDeviceContext [in]
 
-[in]
+
 A handle for a driver-allocated context area that the miniport driver registered with NDIS in the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a> function.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 If this function is defined as <i>
    MiniportFilterResourceRequirements</i>, this parameter is a pointer to the <a href="/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">
      IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> for the driver to handle.

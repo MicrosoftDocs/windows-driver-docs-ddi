@@ -1,12 +1,12 @@
 ---
 UID: NF:printoem.GET_UNIDRV_PRIVATE_DEVMODE_SIZE
 title: GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro (printoem.h)
-description: "Learn more about: GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro"
-ms.date: 11/18/2020
+description: Returns PScript5's private DEVMODE structure to allow its plugins to determine its size.
+ms.date: 08/12/2022
 keywords: ["GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro"]
 ms.keywords: GET_UNIDRV_PRIVATE_DEVMODE_SIZE
 req.header: printoem.h
-req.include-header: 
+req.include-header: Printoem.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -23,7 +23,6 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
-ms.custom: RS5
 tech.root: print
 f1_keywords:
  - GET_UNIDRV_PRIVATE_DEVMODE_SIZE
@@ -50,16 +49,12 @@ Returns PScript5's private DEVMODE structure to allow its plugins to determine i
 
 ### -param pdm
 
-Contains the size of the private DEVMODE structure.
+Contains the size of the private **DEVMODE** structure.
 
-The macro is defined as follows:
+## -remarks
 
 ```cpp
 #define GET_UNIDRV_PRIVATE_DEVMODE_SIZE(pdm) \
     ( ( (pdm)->dmDriverExtra > (FIELD_OFFSET(UNIDRV_PRIVATE_DEVMODE, wSize) + sizeof(WORD)) ) ? \
         ((PUNIDRV_PRIVATE_DEVMODE)((PBYTE)(pdm) + (pdm)->dmSize))->wSize : 0 )
 ```
-
-## -remarks
-
-## -see-also

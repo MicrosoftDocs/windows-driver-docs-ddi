@@ -51,14 +51,14 @@ The <b>RetrieveUnifiedDevicePropertyStore</b> method retrieves a unified propert
 
 ## -parameters
 
-### -param RootSpecifier 
+### -param RootSpecifier [in]
 
-[in]
+
 The address of a driver-allocated <a href="/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdf_property_store_root">WDF_PROPERTY_STORE_ROOT</a> structure. The driver fills in this structure to identify the unified property store that <b>RetrieveUnifiedDevicePropertyStore</b> retrieves.
 
-### -param PropertyStore 
+### -param PropertyStore [out]
 
-[out]
+
 The address of a location that receives a pointer to an <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfunifiedpropertystore">IWDFUnifiedPropertyStore</a> interface.
 
 ## -returns

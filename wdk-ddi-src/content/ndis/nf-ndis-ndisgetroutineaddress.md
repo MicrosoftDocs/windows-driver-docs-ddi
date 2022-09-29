@@ -51,9 +51,9 @@ The
 
 ## -parameters
 
-### -param NdisRoutineName 
+### -param NdisRoutineName [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that specifies the
      string that contains the name of a routine.

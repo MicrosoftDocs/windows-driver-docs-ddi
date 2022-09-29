@@ -51,29 +51,29 @@ The <b>IoWritePartitionTable</b> routine is <b>obsolete</b> and is provided only
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object representing the disk whose partition tables are to be written.
 
-### -param SectorSize 
+### -param SectorSize [in]
 
-[in]
+
 Specifies the size in bytes of sectors on the device.
 
-### -param SectorsPerTrack 
+### -param SectorsPerTrack [in]
 
-[in]
+
 Specifies the track size on the device.
 
-### -param NumberOfHeads 
+### -param NumberOfHeads [in]
 
-[in]
+
 Specifies the number of tracks per cylinder.
 
-### -param PartitionBuffer 
+### -param PartitionBuffer [in]
 
-[in]
+
 Pointer to the drive layout buffer that contains the partition list entries. For more detailed information see <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_drive_layout_information">DRIVE_LAYOUT_INFORMATION</a>.
 
 ## -returns

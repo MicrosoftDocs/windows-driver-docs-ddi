@@ -49,9 +49,9 @@ The <b>RtlRandom</b> routine returns a random number that was generated from a g
 
 ## -parameters
 
-### -param Seed 
+### -param Seed [in, out]
 
-[in, out]
+
 Unsigned long value from which to generate a random number.
 
 ## -returns

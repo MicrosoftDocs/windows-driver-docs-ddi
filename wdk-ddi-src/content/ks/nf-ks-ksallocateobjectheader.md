@@ -50,29 +50,29 @@ The **KsAllocateObjectHeader** function initializes the required file context he
 
 ## -parameters
 
-### -param Header 
+### -param Header [out]
 
-[out]
+
 Points to the caller-allocated location in which to return a pointer to the initialized **KSOBJECT_HEADER** if successful.
 
-### -param ItemsCount 
+### -param ItemsCount [in]
 
-[in]
+
 Specifies the number of object create items in the *ItemsList* to be added to the object header once the header is allocated. This value should be zero if *ItemsList* is **NULL**.
 
-### -param ItemsList 
+### -param ItemsList [in, optional]
 
-[in, optional]
+
 Optionally specifies a pointer to a caller-allocated buffer containing a series of [KSOBJECT_CREATE_ITEM](./ns-ks-ksobject_create_item.md) structures to be added to the object header. Must be set to **NULL** if there are no object create items.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Points to the IRP, of major function [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create), that contains the necessary information to complete the creation of the object header.
 
-### -param Table 
+### -param Table [in]
 
-[in]
+
 Points to an initialized dispatch table for this file object.
 
 ## -returns

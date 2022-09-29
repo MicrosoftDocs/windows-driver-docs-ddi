@@ -52,14 +52,14 @@ The <b>FsRtlNormalizeNtstatus</b> routine translates an arbitrary exception into
 
 ## -parameters
 
-### -param Exception 
+### -param Exception [in]
 
-[in]
+
 Status value of the exception.
 
-### -param GenericException 
+### -param GenericException [in]
 
-[in]
+
 Generic status value to return if <i>Exception</i> is not within the set of exceptions handled by the filter.
 
 ## -returns

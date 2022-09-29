@@ -49,19 +49,19 @@ The <b>AttachProcess</b> method connects the <a href="/windows-hardware/drivers/
 
 ## -parameters
 
-### -param Server 
+### -param Server [in]
 
-[in]
+
 Specifies the process server to use to attach to the process.  If <i>Server</i> is zero, the engine will connect to a local process without using a process server.
 
-### -param ProcessId 
+### -param ProcessId [in]
 
-[in]
+
 Specifies the process ID of the target process the debugger will attach to.
 
-### -param AttachFlags 
+### -param AttachFlags [in]
 
-[in]
+
 Specifies the flags that control how the debugger attaches to the target process.  For details on these flags, see Remarks.
 
 ## -returns

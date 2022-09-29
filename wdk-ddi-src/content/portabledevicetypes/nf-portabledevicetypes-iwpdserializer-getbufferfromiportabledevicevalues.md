@@ -50,19 +50,19 @@ Serializes a submitted <b>IPortableDeviceValues</b> interface to an allocated by
 
 ## -parameters
 
-### -param pSource 
+### -param pSource [in]
 
-[in]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interface to serialize.
 
-### -param ppBuffer 
+### -param ppBuffer [out]
 
-[out]
+
 Pointer to a <b>BYTE</b>* that contains the serialized data. Windows Portable Devices allocates this memory; the caller must free it by calling <b>CoTaskMemFree</b>.
 
-### -param pdwBufferSize 
+### -param pdwBufferSize [out]
 
-[out]
+
 Pointer to a <b>DWORD</b> that specifies the size of allocated buffer, in bytes.
 
 ## -returns

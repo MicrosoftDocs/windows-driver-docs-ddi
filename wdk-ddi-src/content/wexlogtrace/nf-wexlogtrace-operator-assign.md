@@ -60,7 +60,7 @@ ExtRemoteTyped & operator=(
 
 ## -parameters
 
-#### - Typed [in]
+### -param Typed [in]
 
 A pointer to a [ExtRemoteTyped](../engextcpp/nl-engextcpp-extremotetyped.md) structure that describes the data and type to be assigned to this object.
 

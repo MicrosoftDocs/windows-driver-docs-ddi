@@ -49,29 +49,29 @@ The <b>FltQueryVolumeInformation</b> routine retrieves information about the vol
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 An opaque instance pointer for a minifilter driver instance that is attached to the volume.
 
-### -param Iosb 
+### -param Iosb [out]
 
-[out]
+
 A pointer to caller-allocated IO_STATUS_BLOCK structure that receives the final completion status and information about the query operation. For successful calls that return data, the number of bytes written to the <i>FsInformation</i> buffer is returned in the structure's <b>Information</b> member.
 
-### -param FsInformation 
+### -param FsInformation [out]
 
-[out]
+
 A pointer to a caller-allocated buffer that receives the desired information about the volume. The structure of the information returned in the buffer is defined by the <i>FsInformationClass</i> parameter.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The size in bytes of the buffer that <i>FsInformation</i> points to. The caller should set this parameter according to the given <i>FsInformationClass</i>. For example, if the value of <i>FsInformationClass</i> is FileFsControlInformation, <i>Length</i> must be at least <b>sizeof</b>(FILE_FS_CONTROL_INFORMATION).
 
-### -param FsInformationClass 
+### -param FsInformationClass [in]
 
-[in]
+
 The type of information requested. One of the following value. 
 
 <table>

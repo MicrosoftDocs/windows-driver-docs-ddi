@@ -1,10 +1,10 @@
 ---
 UID: NS:ntddstor._STORAGE_ZONE_DESCRIPTOR
-title: _STORAGE_ZONE_DESCRIPTOR (ntddstor.h)
+title: STORAGE_ZONE_DESCRIPTOR (ntddstor.h)
 description: "Microsoft reserves the STORAGE_ZONE_DESCRIPTOR structure for internal use only. Don't use this structure in your code."
 old-location: storage\storage_zone_descriptor.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 08/18/2022
 keywords: ["STORAGE_ZONE_DESCRIPTOR structure"]
 ms.keywords: "*PSTORAGE_ZONE_DESCRIPTOR, PSTORAGE_ZONE_DESCRIPTOR, PSTORAGE_ZONE_DESCRIPTOR structure pointer [Storage Devices], STORAGE_ZONE_DESCRIPTOR, STORAGE_ZONE_DESCRIPTOR structure [Storage Devices], _STORAGE_ZONE_DESCRIPTOR, ntddstor/PSTORAGE_ZONE_DESCRIPTOR, ntddstor/STORAGE_ZONE_DESCRIPTOR, storage.storage_zone_descriptor"
 req.header: ntddstor.h
@@ -46,51 +46,39 @@ api_name:
  - STORAGE_ZONE_DESCRIPTOR
 ---
 
-# _STORAGE_ZONE_DESCRIPTOR structure
-
+# STORAGE_ZONE_DESCRIPTOR structure
 
 ## -description
 
-<div class="alert"><b>Note</b>  This  structure is for internal use only and should not be called from your code.</div>
-<div> </div>
+This structure is for internal use only and should not be called from your code.
+
 
 ## -struct-fields
 
 ### -field Size
 
-N/A
+Reserved for internal use only.
 
 ### -field ZoneType
 
-N/A
+Reserved for internal use only.
 
 ### -field ZoneCondition
 
+Reserved for internal use only.
+
 ### -field ResetWritePointerRecommend
 
-### -field Reserved0
+Reserved for internal use only.
 
-N/A
+### -field Reserved0[3]
+
+Reserved for internal use only.
 
 ### -field ZoneSize
 
-N/A
+Reserved for internal use only.
 
 ### -field WritePointerOffset
 
- 
-
-
-
-
-#### - ResetWritePointerRecomend
-
-N/A
-
-N/A
-
-
-#### - WriterPointerOffset
-
-N/A
-
+Reserved for internal use only.

@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTOfferAllocations
 title: D3DKMTOfferAllocations function (d3dkmthk.h)
 description: The D3DKMTOfferAllocations function offers video memory allocations for reuse. The function returns STATUS_SUCCESS if allocations were successfully offered.
 old-location: display\d3dkmtofferallocations.htm
-ms.date: 05/10/2018
+ms.date: 02/25/2022
 keywords: ["D3DKMTOfferAllocations function"]
 ms.keywords: D3DKMTOfferAllocations, D3DKMTOfferAllocations callback function [Display Devices], PFND3DKMT_OFFERALLOCATIONS, PFND3DKMT_OFFERALLOCATIONS callback, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations
 req.header: d3dkmthk.h
@@ -42,33 +42,28 @@ api_name:
 
 # D3DKMTOfferAllocations function
 
-
 ## -description
 
 Offers video memory allocations for reuse.
 
 ## -parameters
 
-### -param D3DKMT_OFFERALLOCATIONS
+### -param unnamedParam1 [in]
 
-*pData* [in]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_offerallocations">D3DKMT_OFFERALLOCATIONS</a> structure that defines memory allocations that the driver offers for reuse.
+A pointer to a [D3DKMT_OFFERALLOCATIONS](ns-d3dkmthk-_d3dkmt_offerallocations.md) structure that defines memory allocations that the driver offers for reuse.
 
 ## -returns
 
 Returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|The allocations were successfully offered.|
-|STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display device was reset.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The allocations were successfully offered. |
+| STATUS_DEVICE_REMOVED | The graphics adapter was stopped or the display device was reset. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtreclaimallocations">D3DKMTReclaimAllocations</a>
+[D3DKMTReclaimAllocations](nf-d3dkmthk-d3dkmtreclaimallocations.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_offerallocations">D3DKMT_OFFERALLOCATIONS</a>
+[D3DKMT_OFFERALLOCATIONS](ns-d3dkmthk-_d3dkmt_offerallocations.md)

@@ -54,9 +54,9 @@ The  PcRegisterAdapterPnpManagement function registers the adapter's PnP-managem
 
 <p>Pointer to an adapter driver object's <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown"><b>IUnknown</b></a> interface. The PortCls system driver queries this object for its <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpnpmanagement">IAdapterPnpManagement</a> interface.</p>
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Specifies a pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 ## -returns

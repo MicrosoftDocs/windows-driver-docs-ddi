@@ -52,9 +52,9 @@ The <b>WdfDpcWdmGetDpc</b> method returns a pointer to the <a href="/windows-har
 
 ## -parameters
 
-### -param Dpc 
+### -param Dpc [in]
 
-[in]
+
 A handle to a framework DPC object.
 
 ## -returns

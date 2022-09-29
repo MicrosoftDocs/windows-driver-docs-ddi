@@ -49,19 +49,19 @@ Subtracts one value of type <b>UINT</b> from another.
 
 ## -parameters
 
-### -param uMinuend 
+### -param uMinuend [in]
 
-[in]
+
 The value from which <i>u8Subtrahend</i> is subtracted.
 
-### -param uSubtrahend 
+### -param uSubtrahend [in]
 
-[in]
+
 The value to subtract from <i>u8Minuend</i>.
 
-### -param puResult 
+### -param puResult [out]
 
-[out]
+
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

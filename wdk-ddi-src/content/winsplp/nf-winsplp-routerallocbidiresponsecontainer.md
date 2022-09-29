@@ -2,9 +2,8 @@
 UID: NF:winsplp.RouterAllocBidiResponseContainer
 title: RouterAllocBidiResponseContainer function (winsplp.h)
 description: RouterAllocBidiResponseContainer allocates a BIDI_RESPONSE_CONTAINER structure containing a list of bidi responses. The bidi response list is an array of BIDI_RESPONSE_DATA structures.
-old-location: print\routerallocbidiresponsecontainer.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/27/2022
 keywords: ["RouterAllocBidiResponseContainer function"]
 ms.keywords: RouterAllocBidiResponseContainer, RouterAllocBidiResponseContainer function [Print Devices], print.routerallocbidiresponsecontainer, spoolfnc_05ba5d83-8913-4591-9ada-2e57440354b9.xml, winsplp/RouterAllocBidiResponseContainer
 req.header: winsplp.h
@@ -40,41 +39,30 @@ api_name:
  - RouterAllocBidiResponseContainer
 ---
 
-# RouterAllocBidiResponseContainer function
-
-
 ## -description
 
-<code>RouterAllocBidiResponseContainer</code> allocates a <a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a> structure containing a list of bidi responses. The bidi response list is an array of <a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_data">BIDI_RESPONSE_DATA</a> structures.
+**RouterAllocBidiResponseContainer** allocates a [BIDI_RESPONSE_CONTAINER](/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container) structure containing a list of bidi responses. The bidi response list is an array of [BIDI_RESPONSE_DATA](/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_data) structures.
 
 ## -parameters
 
 ### -param Count
 
-#### - cSize [in]
-
 Specifies the number of BIDI_RESPONSE_DATA structures to be allocated.
 
 ## -returns
 
-<code>RouterAllocBidiResponseContainer</code> returns a pointer to the allocated structure, on success. If the function fails to allocate the structure, the caller can obtain the error code from <b>GetLastError</b> (described in the Microsoft Windows SDK documentation).
+**RouterAllocBidiResponseContainer** returns a pointer to the allocated structure, on success. If the function fails to allocate the structure, the caller can obtain the error code from **GetLastError**.
 
 ## -remarks
 
-When the memory allocated by this function is no longer needed, use <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidiresponsecontainer">RouterFreeBidiResponseContainer</a>.
+When the memory allocated by this function is no longer needed, use [RouterFreeBidiResponseContainer](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidiresponsecontainer).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a>
+[BIDI_RESPONSE_CONTAINER](/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container)
 
+[BIDI_RESPONSE_DATA](/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_data)
 
+[RouterFreeBidiResponseContainer](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidiresponsecontainer)
 
-<a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_data">BIDI_RESPONSE_DATA</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidiresponsecontainer">RouterFreeBidiResponseContainer</a>
-
-
-
-<a href="/previous-versions/ff562071(v=vs.85)">SendRecvBidiDataFromPort</a>
+[SendRecvBidiDataFromPort](/previous-versions/ff562071(v=vs.85))

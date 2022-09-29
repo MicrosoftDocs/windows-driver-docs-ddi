@@ -6,8 +6,6 @@ ms.assetid: 132e3c9a-f3dc-3ba8-ba36-20d82a3b6b03
 ms.date: 05/09/2018
 keywords: ["Wdtfsystemaction.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: dtf
 f1_keywords:

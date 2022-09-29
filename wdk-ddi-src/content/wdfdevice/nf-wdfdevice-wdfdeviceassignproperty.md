@@ -54,29 +54,29 @@ The <b>WdfDeviceAssignProperty</b> method modifies the current setting of a devi
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param DeviceProperty 
+### -param DeviceProperty [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_property_data">WDF_DEVICE_PROPERTY_DATA</a> structure that identifies the device property to modify.
 
-### -param Type 
+### -param Type [in]
 
-[in]
+
 A <b>DEVPROPTYPE</b>-typed variable that specifies the type of the data stored in <i>Data</i>.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 The size, in bytes, of the buffer that is pointed to by <i>Data</i>.
 
-### -param Data 
+### -param Data [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated buffer that contains the device property data. Set this parameter to <b>NULL</b> to delete the specified property.
 
 ## -returns

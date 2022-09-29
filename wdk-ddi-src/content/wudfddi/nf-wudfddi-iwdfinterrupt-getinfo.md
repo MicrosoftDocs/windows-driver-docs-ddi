@@ -4,7 +4,7 @@ title: IWDFInterrupt::GetInfo (wudfddi.h)
 description: The GetInfo method retrieves information about a specified interrupt.
 old-location: wdf\iwdfinterrupt_getinfo.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 08/11/2022
 keywords: ["IWDFInterrupt::GetInfo"]
 ms.keywords: GetInfo, GetInfo method, GetInfo method,IWDFInterrupt interface, IWDFInterrupt interface,GetInfo method, IWDFInterrupt.GetInfo, IWDFInterrupt::GetInfo, umdf.iwdfinterrupt_getinfo, wdf.iwdfinterrupt_getinfo, wudfddi/IWDFInterrupt::GetInfo
 req.header: wudfddi.h
@@ -42,61 +42,41 @@ api_name:
 
 # IWDFInterrupt::GetInfo
 
-
 ## -description
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+> [!WARNING]
+> UMDF 2 is the latest version of UMDF and supersedes UMDF 1. All new UMDF drivers should be written using UMDF 2. No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10. Universal Windows drivers must use UMDF 2. For more info, see [Getting Started with UMDF](/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2).
 
-The <b>GetInfo</b> method retrieves information about a specified interrupt.
+The **GetInfo** method retrieves information about a specified interrupt.
 
 ## -parameters
 
 ### -param InterruptInfo
 
-#### - Info
-
-A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a> structure that the driver has previously initialized by calling <a href="/windows-hardware/drivers/ddi/wudfinterrupt/nf-wudfinterrupt-wdf_interrupt_info_init">WDF_INTERRUPT_INFO_INIT</a>.
+A pointer to a caller-allocated [WDF_INTERRUPT_INFO](../wudfinterrupt/ns-wudfinterrupt-_wdf_interrupt_info.md) structure that the driver has previously initialized by calling [WDF_INTERRUPT_INFO_INIT](../wudfinterrupt/nf-wudfinterrupt-wdf_interrupt_info_init.md).
 
 ## -remarks
 
-The <b>GetInfo</b> method can obtain interrupt information only if your driver calls it after the framework has called the driver's <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onpreparehardware">OnPrepareHardware</a> callback function and before the framework has called the driver's <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onreleasehardware">OnReleaseHardware</a> callback function.
+The **GetInfo** method can obtain interrupt information only if your driver calls it after the framework has called the driver's [OnPrepareHardware](./nf-wudfddi-ipnpcallbackhardware2-onpreparehardware.md) callback function and before the framework has called the driver's [OnReleaseHardware](./nf-wudfddi-ipnpcallbackhardware2-onreleasehardware.md) callback function.
 
-For information about the order in which a driver's callback functions are called, see <a href="/windows-hardware/drivers/wdf/pnp-and-power-management-scenarios-in-umdf">PnP and Power Management Scenarios in UMDF</a>.
+For information about the order in which a driver's callback functions are called, see [PnP and Power Management Scenarios in UMDF](/windows-hardware/drivers/wdf/pnp-and-power-management-scenarios-in-umdf).
 
-For more information about handling interrupts in UMDF drivers, see <a href="/windows-hardware/drivers/wdf/accessing-hardware-and-handling-interrupts">Accessing Hardware and Handling Interrupts</a>.
+For more information about handling interrupts in UMDF drivers, see [Accessing Hardware and Handling Interrupts](/windows-hardware/drivers/wdf/accessing-hardware-and-handling-interrupts).
 
+### Examples
 
-#### Examples
-
-
-```
-
+``` cpp
 IWDFInterrupt* pInterrupt;
 WDF_INTERRUPT_INFO  Info;
 
 WDF_INTERRUPT_INFO_INIT(&Info);
-
-pInterrupt>GetInfo(&Info);
-
+pInterrupt->GetInfo(&Info);
 ```
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onpreparehardware">OnPrepareHardware</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onreleasehardware">OnReleaseHardware</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wudfinterrupt/nf-wudfinterrupt-wdf_interrupt_info_init">WDF_INTERRUPT_INFO_INIT</a>
-
+- [IWDFInterrupt](./nn-wudfddi-iwdfinterrupt.md)
+- [OnPrepareHardware](./nf-wudfddi-ipnpcallbackhardware2-onpreparehardware.md)
+- [OnReleaseHardware](./nf-wudfddi-ipnpcallbackhardware2-onreleasehardware.md)
+- [WDF_INTERRUPT_INFO](../wudfinterrupt/ns-wudfinterrupt-_wdf_interrupt_info.md)
+- [WDF_INTERRUPT_INFO_INIT](../wudfinterrupt/nf-wudfinterrupt-wdf_interrupt_info_init.md)

@@ -52,17 +52,17 @@ Reserved for system use. Do not use in your driver.
 
 A handle to the display adapter.
 
-### -field VidPnSourceId
+### -field VidPnSourceId [in]
 
-[in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the display mode applies to.
+The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the display mode applies to.
 
-### -field KeyedMutexCount
+### -field KeyedMutexCount [in]
 
-[in] The number of keyed mutexs. If zero, then this the pre-create check.
+The number of keyed mutexs. If zero, then this the pre-create check.
 
-### -field RequiredKeyedMutexCount
+### -field RequiredKeyedMutexCount [out]
 
-[out] The number of keyed mutexs needed.
+The number of keyed mutexs needed.
 
 ### -field KeyedMutexs
 

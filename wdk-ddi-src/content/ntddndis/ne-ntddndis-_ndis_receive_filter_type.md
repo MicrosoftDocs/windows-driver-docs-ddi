@@ -79,7 +79,7 @@ The NDIS_RECEIVE_FILTER_TYPE enumeration is used in the
     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_parameters">
     NDIS_RECEIVE_FILTER_PARAMETERS</a> structure.
 
-For more information about VMQ, see <a href="/windows-hardware/drivers/network/virtual-machine-queue--vmq-">Virtual Machine Queue (VMQ)</a>.
+For more information about VMQ, see <a href="/windows-hardware/drivers/network/virtual-machine-queue-architecture">Virtual Machine Queue (VMQ)</a>.
 
 For more information about SR-IOV, see <a href="/windows-hardware/drivers/network/single-root-i-o-virtualization--sr-iov-">Single Root I/O Virtualization (SR-IOV)</a>.
 

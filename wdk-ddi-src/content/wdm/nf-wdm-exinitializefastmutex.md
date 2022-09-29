@@ -49,9 +49,9 @@ The <b>ExInitializeFastMutex</b> routine initializes a fast mutex variable, used
 
 ## -parameters
 
-### -param FastMutex 
+### -param FastMutex [out]
 
-[out]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/kernel/eprocess">FAST_MUTEX</a> structure, which represents the fast mutex, in the nonpaged memory pool. The allocation must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
 
 ## -remarks

@@ -49,8 +49,6 @@ api_name:
 
 The <b>Requeue</b> method returns an I/O request to the head of the I/O queue from which it was delivered to the driver.
 
-## -parameters
-
 ## -returns
 
 <b>Requeue</b> returns S_OK if the operation succeeds. Otherwise, this method might return one of the following values:

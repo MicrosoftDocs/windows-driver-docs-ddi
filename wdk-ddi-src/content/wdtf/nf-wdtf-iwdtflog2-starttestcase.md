@@ -49,9 +49,9 @@ Marks the start of a test case.
 
 ## -parameters
 
-### -param sTestCaseName 
+### -param sTestCaseName [in]
 
-[in]
+
 The test case name.
 
 ## -returns

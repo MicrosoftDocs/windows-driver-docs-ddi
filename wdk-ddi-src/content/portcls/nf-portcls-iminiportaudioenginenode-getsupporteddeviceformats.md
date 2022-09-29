@@ -49,19 +49,19 @@ Gets the supported audio data formats for the audio device.
 
 ## -parameters
 
-### -param ulNodeId 
+### -param ulNodeId [in]
 
-[in]
+
 The ID of the node that represents the audio device.
 
-### -param pFormats 
+### -param pFormats [out]
 
-[out]
+
 A structure of type <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a> that points to the array of audio data formats supported by the audio device.
 
-### -param ulBufferSize 
+### -param ulBufferSize [in]
 
-[in]
+
 The buffer size for the audio data format information.
 
 ## -returns

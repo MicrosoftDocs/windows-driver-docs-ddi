@@ -67,8 +67,6 @@ The identifier of the type subcategory.
 
 ### -field OUI
 
-#### - OUI[4]
-
 The Organizationally Unique Identifier (OUI) assigned to a device.
 
 ## -syntax

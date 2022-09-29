@@ -1,31 +1,36 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2
-title: _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2 (acpiioct.h)
-description: This topic describes the ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2 structure.
-old-location: acpi\acpi_eval_input_buffer_simple_string_v2.htm
 tech.root: acpi
-ms.date: 02/15/2018
-keywords: ["ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2 structure"]
-ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2 structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2, PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2 structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2, acpi.acpi_eval_input_buffer_simple_string_v2, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2, acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2"
+title: ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2 (acpiioct.h)
+ms.date: 02/28/2022
+targetos: Windows
+description: This topic describes the ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2 structure.
+prerelease: false
+req.construct-type: structure
+req.ddi-compliance: 
+req.dll: 
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
-req.target-type: Windows
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.redist: 
 req.target-min-winverclnt: Windows 10, version 1709 and later versions.
 req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
-targetos: Windows
+req.target-type: Windows
 req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - acpiioct.h
+api_name:
+ - _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2
+ - PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2
+ - ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2
 f1_keywords:
  - _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2
  - acpiioct/_ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2
@@ -33,52 +38,43 @@ f1_keywords:
  - acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2
  - ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2
  - acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - HeaderDef
-api_location:
- - Acpiioct.h
-api_name:
+dev_langs:
+ - c++
+helpviewer_keywords:
  - _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2
- - PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2
- - ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2
 ---
-
-# _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2 structure
-
 
 ## -description
 
-This topic describes the  <b>ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2</b> structure.
+This topic describes the **ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2** structure.
 
 ## -struct-fields
 
 ### -field Signature
 
-Defines the <b>ULONG</b> member <b>Signature</b>.
+Defines the **ULONG** member **Signature**.
 
 ### -field DUMMYUNIONNAME
 
-Defines the method name member of <b>DUMMYUNIONNAME</b>.
+Defines the method name member of **DUMMYUNIONNAME**.
 
 ### -field DUMMYUNIONNAME.MethodName
 
+Defines the method name member of **DUMMYUNIONNAME.MethodName**.
+
 ### -field DUMMYUNIONNAME.MethodNameAsUlong
+
+Defines the method name member of **DUMMYUNIONNAME.MethodNameAsUlong**.
 
 ### -field StringLength
 
-Defines the <b>ULONG</b> member <b>StringLength</b>.
+Defines the **ULONG** member **StringLength**.
 
 ### -field String
 
- 
+Defines the **UCHAR** member **String[ANYSIZE_ARRAY]**.
 
+## -remarks
 
-
-
-#### - String[ANYSIZE_ARRAY]
-
-Defines the <b>UCHAR</b> member <b>String[ANYSIZE_ARRAY]</b>.
+## -see-also
 

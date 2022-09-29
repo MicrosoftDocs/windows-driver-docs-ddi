@@ -3,11 +3,9 @@ description: "Learn more about: Debugger"
 UID: TP:debugger
 title: Debugger overview
 ms.assetid: 025d7cc4-309d-33e6-8813-f58445c3acaf
-ms.date: 09/18/2020
+ms.date: 06/09/2022
 keywords: ["Debugger"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: debugger
 ---
@@ -949,17 +947,7 @@ For the programming guide information, see [Debugging Resources](/windows-hardwa
 | [IDebugFailureAnalysis2::AddString](../extsfns/nf-extsfns-idebugfailureanalysis2-addstring.md) | The AddExtensionCommand method adds a new FA entry to a DebugFailureAnalysis object and sets the data block of the FA entry to a specified debugger command. |
 | [IDebugFailureAnalysis2::AddUlong64](../extsfns/nf-extsfns-idebugfailureanalysis2-addulong64.md) | The AddUlong64 method adds a new FA entry to a DebugFailureAnalysis object and sets the data block of the FA entry to a specified 64-bit value. |
 | [IDebugFailureAnalysis2::AddUlong](../extsfns/nf-extsfns-idebugfailureanalysis2-addulong.md) | The AddUlong method adds a new FA entry to a DebugFailureAnalysis object and sets the data block of the FA entry to a specified ULONG value. |
-| [IDebugFailureAnalysis2::GetBuffer](../extsfns/nf-extsfns-idebugfailureanalysis2-getbuffer.md) | The GetBuffer method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it gets the entry's data block. |
 | [IDebugFailureAnalysis2::GetDebugFATagControl](../extsfns/nf-extsfns-idebugfailureanalysis2-getdebugfatagcontrol.md) | The GetDebugFATagControl method gets a pointer to an IDebugFAEntryTags interface, which provides access to the tags in a DebugFailureAnalysisTags object. |
-| [IDebugFailureAnalysis2::GetFailureClass](../extsfns/nf-extsfns-idebugfailureanalysis2-getfailureclass.md) | The GetFailureClass method gets the failure class of a DebugFailureAnalysis object. The failure class indicates whether the debugging session that created the DebugFailureAnalysis object is a kernel mode session or a user mode session. |
-| [IDebugFailureAnalysis2::GetFailureCode](../extsfns/nf-extsfns-idebugfailureanalysis2-getfailurecode.md) | The GetFailureCode method gets the bug check code or exception code of a DebugFailureAnalysis object. |
-| [IDebugFailureAnalysis2::GetFailureType](../extsfns/nf-extsfns-idebugfailureanalysis2-getfailuretype.md) | The GetFailureType method gets the failure type of a DebugFailureAnalysis object. The failure type indicates whether the code being analyzed was running in kernel mode or user mode. |
-| [IDebugFailureAnalysis2::GetNext](../extsfns/nf-extsfns-idebugfailureanalysis2-getnext.md) | The GetNext method searches a DebugFailureAnalysis object for the next FA entry, after a given FA entry, that satisfies conditions specified by the Tag and TagMask parameters. |
-| [IDebugFailureAnalysis2::GetString method](../extsfns/nf-extsfns-idebugfailureanalysis2-getstring.md) | The GetString method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it gets the ANSI string value from the entry's data block. |
-| [IDebugFailureAnalysis2::GetUlong64 method](../extsfns/nf-extsfns-idebugfailureanalysis2-getulong64.md) | The GetUlong64 method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it gets the ULONG64 value from the entry's data block. |
-| [IDebugFailureAnalysis2::GetUlong](../extsfns/nf-extsfns-idebugfailureanalysis2-getulong.md) | The GetString method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it gets the ANSI string value from the entry's data block. |
-| [IDebugFailureAnalysis2::Get](../extsfns/nf-extsfns-idebugfailureanalysis2-get.md) | The Get method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. |
-| [IDebugFailureAnalysis2::NextEntry](../extsfns/nf-extsfns-idebugfailureanalysis2-nextentry.md) | The NextEntry method gets the next FA entry, after a given FA entry, in a DebugFailureAnalysis object. |
 | [IDebugFailureAnalysis2::SetBuffer](../extsfns/nf-extsfns-idebugfailureanalysis2-setbuffer.md) | The SetBuffer method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it overwrites the data block of the FA entry with the bytes in a specified buffer. |
 | [IDebugFailureAnalysis2::SetExtensionCommand](../extsfns/nf-extsfns-idebugfailureanalysis2-setextensioncommand.md) | The SetExtensionCommand method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. |
 | [IDebugFailureAnalysis2::SetString](../extsfns/nf-extsfns-idebugfailureanalysis2-setstring.md) | The SetString method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it sets (overwrites) the data block of the FA entry to a specified string value. |

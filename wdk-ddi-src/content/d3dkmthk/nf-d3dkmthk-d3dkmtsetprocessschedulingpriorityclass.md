@@ -3,13 +3,13 @@ UID: NF:d3dkmthk.D3DKMTSetProcessSchedulingPriorityClass
 title: D3DKMTSetProcessSchedulingPriorityClass function (d3dkmthk.h)
 description: The D3DKMTSetProcessSchedulingPriorityClass function sets the scheduling priority for a process.
 old-location: display\d3dkmtsetprocessschedulingpriorityclass.htm
-ms.date: 05/10/2018
+ms.date: 04/14/2022
 keywords: ["D3DKMTSetProcessSchedulingPriorityClass function"]
 ms.keywords: D3DKMTSetProcessSchedulingPriorityClass, D3DKMTSetProcessSchedulingPriorityClass function [Display Devices], OpenGL_Functions_757bbe38-6623-4438-8af3-a2282bec6c78.xml, d3dkmthk/D3DKMTSetProcessSchedulingPriorityClass, display.d3dkmtsetprocessschedulingpriorityclass
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -45,36 +45,33 @@ api_name:
 
 # D3DKMTSetProcessSchedulingPriorityClass function
 
-
 ## -description
 
-The <b>D3DKMTSetProcessSchedulingPriorityClass</b> function sets the scheduling priority for a process.
+The **D3DKMTSetProcessSchedulingPriorityClass** function sets the scheduling priority for a process.
 
 ## -parameters
 
-### -param Priority
+### -param unnamedParam1 [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_schedulingpriorityclass">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level to set for the process.
+A handle to the process that scheduling priority is set for.
 
-### -param hProcess
+### -param unnamedParam2 [in]
 
-[in] A handle to the process that scheduling priority is set for.
+A [**D3DKMT_SCHEDULINGPRIORITYCLASS**](ne-d3dkmthk-_d3dkmt_schedulingpriorityclass.md) enum value that indicates the priority level to set for the process.
 
 ## -returns
 
-<b>D3DKMTSetProcessSchedulingPriorityClass</b> returns one of the following values:
+**D3DKMTSetProcessSchedulingPriorityClass** returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|The scheduling priority was successfully set.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code              | Description |
+| -----------              | ----------- |
+| STATUS_SUCCESS           | The scheduling priority was successfully set. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
-This function might also return other NTSTATUS values.
+This function might also return other **NTSTATUS** values.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetprocessschedulingpriorityclass">D3DKMTGetProcessSchedulingPriorityClass</a>
+[**D3DKMTGetProcessSchedulingPriorityClass**](nf-d3dkmthk-d3dkmtgetprocessschedulingpriorityclass.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_schedulingpriorityclass">D3DKMT_SCHEDULINGPRIORITYCLASS</a>
+[**D3DKMT_SCHEDULINGPRIORITYCLASS**](ne-d3dkmthk-_d3dkmt_schedulingpriorityclass.md)

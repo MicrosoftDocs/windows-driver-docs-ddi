@@ -1,17 +1,18 @@
 ---
 UID: NE:dot11wificxtypes._WDI_P2P_LISTEN_STATE
 tech.root: netvista
-title: WDI_P2P_LISTEN_STATE
-ms.date: 04/30/2021
+title: WDI_P2P_LISTEN_STATE (dot11wificxtypes.h)
+ms.date: 03/23/2022
+ms.topic: language-reference
 targetos: Windows
-description: "Microsoft reserves the WDI_P2P_LISTEN_STATE enumeration for internal use only. Don't use this enumeration in your code."
+description: The WDI_P2P_LISTEN_STATE enum defines the Wi-Fi Direct listen states.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dot11wificxtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 11Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -34,36 +35,55 @@ dev_langs:
  - c++
 ---
 
+
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!IMPORTANT]
+> This topic is part of the [WiFiCx driver model](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx). WiFiCx is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features. The previous Wi-Fi driver model [WDI](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) is in maintenance mode and will only receive high priority fixes.
 
-This function is reserved for system use and should not be called in your code.
+The **WDI_P2P_LISTEN_STATE** enumeration defines the Wi-Fi Direct listen states.
 
 ## -enum-fields
 
-### -field WDI_P2P_LISTEN_STATE_OFF
+### -field WDI_P2P_LISTEN_STATE_OFF:0
 
-Reserved.
+When this listen state is set:
 
-### -field WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY
+* The port shall not schedule any time to explicitly listen on social channels for incoming Wi-Fi Direct action frames.
+* The port shall not respond to probe requests as a Wi-Fi Direct Adapter.
 
-Reserved.
+### -field WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY:8
 
-### -field WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY
+When this listen state is set:
 
-Reserved.
+* The port must enter into listen state periodically as specified by the ListenDuration parameters.
+* The port shall respond to probe requests with a "DIRECT-" SSID as a Wi-Fi Direct Adapter when parked on the specified channel.
 
-### -field WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY
+### -field WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY:16
 
-Reserved.
+When this listen state is set:
 
-### -field WDI_P2P_LISTEN_STATE_DUMMY_MAX_VALUE
+* The port must schedule time to explicitly listen on a social channel for incoming Wi-Fi Direct action frames.
+* The port shall respond to probe requests with a "DIRECT-" SSID as a Wi-Fi Direct Adapter when parked on the configured social channel.
 
-Reserved.
+> [!NOTE] The optimized duty cycle for automatic availability listen state is outside the scope of this specification. The most aggressive power saving schedule that may be implemented by the port is being available for a contiguous 500ms out of every 5 seconds.
+
+### -field WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY:24
+
+When this listen state is set:
+
+* The port must schedule time to explicitly listen on a social channel for incoming Wi-Fi Direct action frames.
+* The port shall respond to probe requests with a "DIRECT-" SSID as a Wi-Fi Direct Adapter when parked on the configured social channel.
+> [!NOTE] The duty cycle for this listen state is 300ms availability every 400ms on the configured social channel.
+
+### -field WDI_P2P_LISTEN_STATE_DUMMY_MAX_VALUE:0xFFFFFFFF
+
+The maximum value for this type.
 
 ## -remarks
 
+This enumeration is a value in the [**WDI_TLV_P2P_LISTEN_STATE**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-listen-state) TLV.
+
 ## -see-also
 
+[**WDI_TLV_P2P_LISTEN_STATE**](/windows-hardware/drivers/netcx/wdi-tlv-p2p-listen-state)

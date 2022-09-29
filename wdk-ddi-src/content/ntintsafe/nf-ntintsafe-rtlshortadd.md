@@ -49,19 +49,19 @@ Adds two values of type <b>SHORT</b>.
 
 ## -parameters
 
-### -param sAugend 
+### -param sAugend [in]
 
-[in]
+
 The first value in the equation.
 
-### -param sAddend 
+### -param sAddend [in]
 
-[in]
+
 The value to add to <i>sAugend</i>.
 
-### -param psResult 
+### -param psResult [out]
 
-[out]
+
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

@@ -4,7 +4,7 @@ title: WppRecorderLinkCounters macro (wpprecorder.h)
 description: Learn how the WppRecorderLinkCounters method uses a sequence number to merge logs captured in different buffers by a driver.
 old-location: devtest\wpprecorderlinkcounters.htm
 tech.root: devtest
-ms.date: 02/23/2018
+ms.date: 04/19/2022
 keywords: ["WppRecorderLinkCounters macro"]
 ms.keywords: WppRecorderLinkCounters, devtest.wpprecorderlinkcounters, imp_WppRecorderLinkCounters, imp_WppRecorderLinkCounters function [Driver Development Tools], wpprecorder/imp_WppRecorderLinkCounters
 req.header: wpprecorder.h
@@ -47,10 +47,24 @@ api_name:
 
 The <b>WppRecorderLinkCounters</b> method  uses a sequence number to merge logs captured in different buffers by a driver.
 
+## -syntax
+
+```cpp
+__drv_maxIRQL(DISPATCH_LEVEL)
+NTSTATUS
+WppRecorderLinkCounters(
+    _In_
+        WPP_RECORDER_COUNTER        CounterOwner
+    );
+```
+
 ## -parameters
 
-### -param CounterOwner 
+### -param CounterOwner [in]
 
-[in]
+
 ID of the counter whose current value is to be read.
 
+## -remarks
+
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, one of appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> values

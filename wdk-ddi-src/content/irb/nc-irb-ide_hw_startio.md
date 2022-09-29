@@ -50,14 +50,14 @@ The <b><i>IdeHwStartIo</i></b> miniport driver routine processes the synchronize
 
 ## -parameters
 
-### -param ChannelExtension 
+### -param ChannelExtension [in]
 
-[in]
+
 A pointer to the miniport driver per channel device extension.
 
-### -param Irb 
+### -param Irb [in]
 
-[in]
+
 A pointer to a structure of type <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a> that defines the IDE request block (IRB) to process.
 
 ## -returns

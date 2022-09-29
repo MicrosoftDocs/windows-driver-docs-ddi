@@ -49,9 +49,9 @@ Updates the tracked workload.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
-[in] Pointer to a [D3DKMT_UPDATETRACKEDWORKLOAD](ns-d3dkmthk-_d3dkmt_updatetrackedworkload.md) structure to update the tracked workload.
+Pointer to a [D3DKMT_UPDATETRACKEDWORKLOAD](ns-d3dkmthk-_d3dkmt_updatetrackedworkload.md) structure to update the tracked workload.
 
 ## -returns
 

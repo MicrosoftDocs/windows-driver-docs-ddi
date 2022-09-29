@@ -49,29 +49,29 @@ api_name:
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 File object pointer for an open file, directory, storage device, or volume. This parameter is required and cannot be <b>NULL</b>.
 
-### -param FsInformation 
+### -param FsInformation [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that receives information about the file. The <i>FsInformationClass</i> parameter specifies the type of information. This parameter is required and cannot be <b>NULL</b>.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Size, in bytes, of the <i>FsInformation</i> buffer.
 
-### -param FsInformationClass 
+### -param FsInformationClass [in]
 
-[in]
+
 Type of volume information to be returned. One of the following:
 
 <table>
@@ -171,9 +171,9 @@ Return a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_sector_s
 </tr>
 </table>
 
-### -param LengthReturned 
+### -param LengthReturned [out, optional]
 
-[out, optional]
+
 Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in the <i>FsInformation</i> buffer. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

@@ -4,13 +4,13 @@ title: MmDoesFileHaveUserWritableReferences function (ntifs.h)
 description: The MmDoesFileHaveUserWritableReferences function returns the number of writable references for a file object.
 old-location: ifsk\mmdoesfilehaveuserwritablereferences.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 11/23/2021
 keywords: ["MmDoesFileHaveUserWritableReferences function"]
 ms.keywords: MmDoesFileHaveUserWritableReferences, MmDoesFileHaveUserWritableReferences function [Installable File System Drivers], ifsk.mmdoesfilehaveuserwritablereferences, mmref_fb87e0fa-60db-498e-8a17-a1bd366c3df6.xml, ntifs/MmDoesFileHaveUserWritableReferences
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows Vista and later versions of Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,54 +42,39 @@ api_name:
 
 # MmDoesFileHaveUserWritableReferences function
 
-
 ## -description
 
-The <b>MmDoesFileHaveUserWritableReferences </b>function returns the number of writable references for a file object.
+The **MmDoesFileHaveUserWritableReferences** function returns the number of writable references for a file object.
 
 ## -parameters
 
-### -param SectionPointer 
+### -param SectionPointer [in]
 
-[in]
-Pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_section_object_pointers">SECTION_OBJECT_POINTERS</a> structure that contains the file object's section object pointers.  This parameter is required and cannot be <b>NULL</b>.
+Pointer to a [**SECTION_OBJECT_POINTERS**](../wdm/ns-wdm-_section_object_pointers.md) structure that contains the file object's section object pointers.  This parameter is required and cannot be **NULL**.
 
 ## -returns
 
-<b>MmDoesFileHaveUserWritableReferences </b>returns the number of writable references for the file object associated with the <i>SectionPointer </i>parameter.
+**MmDoesFileHaveUserWritableReferences** returns the number of writable references for the file object associated with the **SectionPointer** parameter.
 
 ## -remarks
 
-<b>MmDoesFileHaveUserWritableReferences</b> returns the number of writable references for the file object that is associated with the <i>SectionPointer </i>parameter.  This return value is the sum of the following numbers:
+**MmDoesFileHaveUserWritableReferences** returns the number of writable references for the file object that is associated with the **SectionPointer** parameter.  This return value is the sum of the following numbers:
 
-<ul>
-<li>
- The number of writable file handles for the associated file object.
+* The number of writable file handles for the associated file object.
 
-</li>
-<li>
- The number of writable sections for the associated file object.
+* The number of writable sections for the associated file object.
 
-</li>
-<li>
- The number of writable views for the associated file object.
+* The number of writable views for the associated file object.
 
-</li>
-<li>
- The number of outstanding <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>s, which are mapping regions for the associated file object.
+* The number of outstanding [**MDL**](../wdm/ns-wdm-_mdl.md)s, which are mapping regions for the associated file object.
 
-</li>
-</ul>
-For transactional file systems, you can use this function to determine if a given transaction is referencing a file object that can change.  If so, the transaction must be rolled back because <a href="/windows-hardware/drivers/kernel/using-kernel-transaction-manager">atomicity</a> cannot be guaranteed.
+For transactional file systems, you can use this function to determine if a given transaction is referencing a file object that can change.  If so, the transaction must be rolled back because [atomicity](/windows-hardware/drivers/kernel/using-kernel-transaction-manager) cannot be guaranteed.
 
-Prior to calling <b>MmDoesFileHaveUserWritableReferences</b>, transactional file systems must check and intercept the creation of file objects that specify write access.  Specifically, prior to starting a transaction, transactional file systems must ensure that there are no writable file objects that currently exist for the given file in the transaction.  While the transaction is ongoing, transactional file systems must fail the requests to create file objects with write access for the transacted files.
+Prior to calling **MmDoesFileHaveUserWritableReferences**, transactional file systems must check and intercept the creation of file objects that specify write access.  Specifically, prior to starting a transaction, transactional file systems must ensure that there are no writable file objects that currently exist for the given file in the transaction.  While the transaction is ongoing, transactional file systems must fail the requests to create file objects with write access for the transacted files.
 
-<div class="alert"><b>Note</b>   This function can be used to detect if there are writable views for a file object even when all file handles and section handles for the file object have been closed.</div>
-<div> </div>
-For more information about transactions, see <a href="/windows-hardware/drivers/kernel/using-kernel-transaction-manager">Kernel Transaction Manager Design Guide</a> and <a href="/windows-hardware/drivers/ddi/index">Kernel Transaction Manager Routines</a>.
+> [!NOTE]
+> This function can be used to detect if there are writable views for a file object even when all file handles and section handles for the file object have been closed.
 
-For more information about file objects, see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>.
+For more information about transactions, see [Kernel Transaction Manager](/windows-hardware/drivers/kernel/introduction-to-ktm).
 
-## -see-also
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>
+For more information about file objects, see [**FILE_OBJECT**](../wdm/ns-wdm-_file_object.md).

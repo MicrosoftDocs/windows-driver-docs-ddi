@@ -49,9 +49,9 @@ The <b>GetPartCompression</b> method gets the compression of the part.
 
 ## -parameters
 
-### -param pCompression 
+### -param pCompression [out]
 
-[out]
+
 A pointer to the compression option data for the part.
 
 ## -returns

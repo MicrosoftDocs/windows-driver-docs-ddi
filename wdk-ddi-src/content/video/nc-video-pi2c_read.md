@@ -49,24 +49,24 @@ The <i>I2CRead</i> function reads data over the <a href="/windows-hardware/drive
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's per-adapter device extension.
 
-### -param I2CCallbacks 
+### -param I2CCallbacks [in]
 
-[in]
+
 Pointer to an <a href="/windows-hardware/drivers/ddi/video/ns-video-_i2c_callbacks">I2C_CALLBACKS</a> structure, containing pointers to miniport driver-defined functions that read and write data and clock lines.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Pointer to the data to be read.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the number of bytes to be read.
 
 ## -returns

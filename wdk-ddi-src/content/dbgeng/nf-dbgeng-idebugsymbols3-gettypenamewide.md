@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetTypeNameWide (dbgeng.h)
 description: The GetTypeNameWide method returns the name of the type symbol specified by its type ID and module.
 old-location: debugger\gettypenamewide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetTypeNameWide"]
 ms.keywords: GetTypeNameWide, GetTypeNameWide method [Windows Debugging], GetTypeNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetTypeNameWide method, IDebugSymbols3.GetTypeNameWide, IDebugSymbols3::GetTypeNameWide, dbgeng/IDebugSymbols3::GetTypeNameWide, debugger.gettypenamewide
 req.header: dbgeng.h
@@ -49,30 +49,30 @@ The <b>GetTypeNameWide</b>  method returns the name of the type symbol specified
 
 ## -parameters
 
-### -param Module 
+### -param Module [in]
 
-[in]
+
 Specifies the base address of the module to which the type belongs.  For more information, see <a href="/windows-hardware/drivers/debugger/modules">Modules</a>.
 
-### -param TypeId 
+### -param TypeId [in]
 
-[in]
+
 Specifies the type ID of the type.
 
-### -param NameBuffer 
+### -param NameBuffer [out, optional]
 
-[out, optional]
+
 Receives the name of the type.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param NameBufferSize 
+### -param NameBufferSize [in]
 
-[in]
-Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
-### -param NameSize 
+Specifies the size in characters of the buffer <i>NameBuffer</i>. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the type's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+### -param NameSize [out, optional]
+
+
+Receives the size in characters of the type's name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

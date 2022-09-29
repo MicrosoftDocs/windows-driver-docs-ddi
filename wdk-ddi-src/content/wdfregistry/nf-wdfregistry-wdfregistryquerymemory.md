@@ -54,34 +54,34 @@ The <b>WdfRegistryQueryMemory</b> method retrieves the data that is currently as
 
 ## -parameters
 
-### -param Key 
+### -param Key [in]
 
-[in]
+
 A handle to a registry-key object that represents an opened registry key.
 
-### -param ValueName 
+### -param ValueName [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name.
 
-### -param PoolType 
+### -param PoolType [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>-typed value that specifies the type of memory to be allocated for the data buffer.
 
-### -param MemoryAttributes 
+### -param MemoryAttributes [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for the new memory object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param Memory 
+### -param Memory [out]
 
-[out]
+
 A pointer to a location that receives a handle to the new memory object.
 
-### -param ValueType 
+### -param ValueType [out, optional]
 
-[out, optional]
+
 A pointer to a location that receives the data type. For a list of data type values, see the <b>Type</b> member of <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>. This pointer is optional and can be <b>NULL</b>.
 
 ## -returns

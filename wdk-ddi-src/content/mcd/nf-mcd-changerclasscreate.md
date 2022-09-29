@@ -49,14 +49,14 @@ The <b>ChangerClassCreate</b> routine is called by a changer minidriver to allow
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object of the device to be created or closed.
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
+
 Pointer to the I/O request packet (IRP) that initiated the create or close operation.
 
 ## -returns

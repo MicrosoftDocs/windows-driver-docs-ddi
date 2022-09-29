@@ -52,9 +52,9 @@ The <b>WdfDeviceInterfaceDereferenceNoOp</b> method can be used for driver-defin
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 This parameter is not used.
 
 ## -remarks

@@ -2,9 +2,8 @@
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvFreeDrvItemContext
 title: IWiaMiniDrv::drvFreeDrvItemContext (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvFreeDrvItemContext method frees a device-specific context.
-old-location: image\iwiaminidrv_drvfreedrvitemcontext.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 07/21/2022
 keywords: ["IWiaMiniDrv::drvFreeDrvItemContext"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvFreeDrvItemContext method, IWiaMiniDrv.drvFreeDrvItemContext, IWiaMiniDrv::drvFreeDrvItemContext, MiniDrv_59a7d220-cd1d-4cc2-870a-3260feaba7e9.xml, drvFreeDrvItemContext, drvFreeDrvItemContext method [Imaging Devices], drvFreeDrvItemContext method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvfreedrvitemcontext, wiamindr_lh/IWiaMiniDrv::drvFreeDrvItemContext
 req.header: wiamindr_lh.h
@@ -40,9 +39,6 @@ api_name:
  - IWiaMiniDrv::drvFreeDrvItemContext
 ---
 
-# IWiaMiniDrv::drvFreeDrvItemContext
-
-
 ## -description
 
 The **IWiaMiniDrv::drvFreeDrvItemContext** method frees a device-specific context.
@@ -51,37 +47,25 @@ The **IWiaMiniDrv::drvFreeDrvItemContext** method frees a device-specific contex
 
 ### -param __MIDL__IWiaMiniDrv0056
 
-lFlags [in]
+*lFlags* [in]
 
-- Is currently unused.
+Reserved.
 
 ### -param __MIDL__IWiaMiniDrv0057
 
-pSpecContext [in]
-
-- Points to a device-specific context.
-
-### -param __MIDL__IWiaMiniDrv0058
-
-plDevErrVal [out]
-
-- Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-#### - lFlags [in]
-
-Is currently unused.
-
-#### - pSpecContext [in]
+*pSpecContext* [in]
 
 Points to a device-specific context.
 
-#### - plDevErrVal [out]
+### -param __MIDL__IWiaMiniDrv0058
 
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+*plDevErrVal* [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns **S_OK**, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 ## -returns
 
-On success, the method should return S_OK and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code in the memory pointed to by *plDevErrVal*.
+On success, the method should return **S_OK** and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code in the memory pointed to by *plDevErrVal*.
 
 The value pointed to by *plDevErrVal* can be converted to a string by calling  [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md).
 
@@ -96,4 +80,3 @@ When a driver item is deleted, the WIA service frees the driver item context. Th
  [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)
 
  [IWiaMiniDrv::drvReadItemProperties](./nf-wiamindr_lh-iwiaminidrv-drvreaditemproperties.md)
-

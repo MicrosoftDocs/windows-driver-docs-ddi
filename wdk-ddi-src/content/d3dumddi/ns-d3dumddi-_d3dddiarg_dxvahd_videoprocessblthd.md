@@ -52,25 +52,25 @@ The D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure describes a Microsoft DirectX V
 
 ## -struct-fields
 
-### -field hVideoProcessor
+### -field hVideoProcessor [in]
 
-[in] A handle to the DirectX VA video processing device. The user-mode display driver returns this handle in a call to its <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor">CreateVideoProcessor</a> function.
+A handle to the DirectX VA video processing device. The user-mode display driver returns this handle in a call to its <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor">CreateVideoProcessor</a> function.
 
-### -field OutputSurface
+### -field OutputSurface [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_surface">DXVAHDDDI_SURFACE</a> structure that describes the output surface to which the video processor composes.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_surface">DXVAHDDDI_SURFACE</a> structure that describes the output surface to which the video processor composes.
 
-### -field OutputFrame
+### -field OutputFrame [in]
 
-[in] A zero-based frame number of the composed output frames.
+A zero-based frame number of the composed output frames.
 
-### -field StreamCount
+### -field StreamCount [in]
 
-[in] The number of streams to process. This number must be less than the number that the driver set in the <b>MaxStreamStates</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpdevcaps">DXVAHDDDI_VPDEVCAPS</a> structure.
+The number of streams to process. This number must be less than the number that the driver set in the <b>MaxStreamStates</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_vpdevcaps">DXVAHDDDI_VPDEVCAPS</a> structure.
 
-### -field pStreams
+### -field pStreams [in]
 
-[in] An array of <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_stream_data">DXVAHDDDI_STREAM_DATA</a> structures that describe the input streams to process.
+An array of <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_stream_data">DXVAHDDDI_STREAM_DATA</a> structures that describe the input streams to process.
 
 ## -remarks
 

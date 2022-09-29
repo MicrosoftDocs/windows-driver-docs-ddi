@@ -50,14 +50,14 @@ The <b><i>AtaControllerChannelEnabled</i></b> miniport driver routine indicates 
 
 ## -parameters
 
-### -param ControllerExtension 
+### -param ControllerExtension [in]
 
-[in]
+
 A pointer to the controller extension.
 
 ### -param Channel
 
-#### - ChannelNumber [in]
+### -param ChannelNumber [in]
 
 Specifies the channel number whose state will be determined.
 

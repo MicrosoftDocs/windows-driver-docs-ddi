@@ -1,7 +1,7 @@
 ---
 UID: NS:iddcx.IDARG_IN_GETSRMLISTVERSION
 title: IDARG_IN_GETSRMLISTVERSION
-ms.date: 10/02/2020
+ms.date: 08/05/2022
 tech.root: display
 targetos: Windows
 description: IDARG_IN_GETSRMLISTVERSION is an input structure for IddCxMonitorGetSrmListVersion.
@@ -37,24 +37,23 @@ dev_langs:
 
 # IDARG_IN_GETSRMLISTVERSION structure
 
-
 ## -description
 
 **IDARG_IN_GETSRMLISTVERSION** is an input structure for [**IddCxMonitorGetSrmListVersion**](nf-iddcx-iddcxmonitorgetsrmlistversion.md).
 
 ## -struct-fields
 
-### -field SrmListVersionBufferInputCount
+### -field SrmListVersionBufferInputCount [in]
 
-[in] Size in bytes of the buffer being passed by the driver to the OS through **pSrmListVersion**. A value of zero indicates that the driver is simply querying the size of the SRM list version buffer that should be provided by the driver. In this case, the OS will set the buffer size in the output structure.
+Size in bytes of the buffer being passed by the driver to the OS through **pSrmListVersion**. A value of zero indicates that the driver is simply querying the size of the SRM list version buffer that should be provided by the driver. In this case, the OS will set the buffer size in the output structure.
 
 Either **SrmListVersionBufferInputCount** needs to be zero and **pSrmListVersion** set to null, or **SrmListVersionBufferInputCount** needs to be non-zero and **pSrmListVerion** needs to be non-null.
 
-### -field pSrmListVersion
+### -field pSrmListVerion
 
 Pointer to a buffer in which the OS should copy the SRM list version if the value is non-NULL. In this case, the format of the version is defined by the PlayReady Porting Kit 4.0.
 
-If **pSrmListVersion** is NULL then the OS will not copy any data and will set the value **[IDARG_OUT_GETSRMLISTVERSION](ns-iddcx-idarg_out_getsrmlistversion.md).SrmListVersionBufferOutputCount** to indicate the size of buffer required to store the SRM list version.
+If **pSrmListVerion** is NULL then the OS will not copy any data and will set the value **[IDARG_OUT_GETSRMLISTVERSION](ns-iddcx-idarg_out_getsrmlistversion.md).SrmListVersionBufferOutputCount** to indicate the size of buffer required to store the SRM list version.
 
 ## -remarks
 
@@ -63,4 +62,3 @@ If **pSrmListVersion** is NULL then the OS will not copy any data and will set t
 [**IDARG_OUT_GETSRMLISTVERSION**](ns-iddcx-idarg_out_getsrmlistversion.md)
 
 [**IddCxMonitorGetSrmListVersion**](nf-iddcx-iddcxmonitorgetsrmlistversion.md)
-

@@ -52,34 +52,34 @@ The <b>WdfIoTargetQueryForInterface</b> method obtains access to the GUID-identi
 
 ## -parameters
 
-### -param IoTarget 
+### -param IoTarget [in]
 
-[in]
+
 A handle to a remote I/O target object that was obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>.
 
-### -param InterfaceType 
+### -param InterfaceType [in]
 
-[in]
+
 A pointer to a GUID that identifies the interface.
 
-### -param Interface 
+### -param Interface [out]
 
-[out]
+
 A pointer to a driver-allocated structure that receives the requested interface. This structure is defined by the driver that exports the requested interface and must begin with an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 The size, in bytes, of the driver-allocated structure that <i>Interface</i> points to.
 
-### -param Version 
+### -param Version [in]
 
-[in]
+
 The version number of the requested interface. The driver that exports the requested interface defines the format of this value.
 
-### -param InterfaceSpecificData 
+### -param InterfaceSpecificData [in, optional]
 
-[in, optional]
+
 Additional interface-specific information. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

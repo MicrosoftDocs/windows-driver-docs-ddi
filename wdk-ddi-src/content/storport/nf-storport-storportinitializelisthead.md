@@ -48,13 +48,13 @@ The **StorPortInitializeListHead** routine initializes a [**STOR_LIST_ENTRY**](n
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] A pointer to the hardware device extension for the host bus adapter (HBA).
+A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param ListHead
+### -param ListHead [out]
 
-[out] Pointer to the [**STOR_LIST_ENTRY**](ns-storport-_stor_list_entry.md) structure that represents the head of the list.
+Pointer to the [**STOR_LIST_ENTRY**](ns-storport-_stor_list_entry.md) structure that represents the head of the list.
 
 ## -see-also
 

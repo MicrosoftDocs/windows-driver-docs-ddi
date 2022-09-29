@@ -52,29 +52,29 @@ Describes a keyed mutex that the <a href="/windows-hardware/drivers/ddi/d3dkmthk
 
 ## -struct-fields
 
-### -field InitialValue
+### -field InitialValue [in]
 
-[in] A 64-bit value that specifies the initial value to create the keyed mutex for.
+A 64-bit value that specifies the initial value to create the keyed mutex for.
 
-### -field hSharedHandle
+### -field hSharedHandle [out]
 
-[out] A value of type <b>D3DKMT_HANDLE</b> that represents a kernel-mode shared global handle to the keyed mutex object.
+A value of type <b>D3DKMT_HANDLE</b> that represents a kernel-mode shared global handle to the keyed mutex object.
 
-### -field hKeyedMutex
+### -field hKeyedMutex [out]
 
-[out] A value of type <b>D3DKMT_HANDLE</b> that represents a kernel-mode handle to the keyed mutex object in the current process.
+A value of type <b>D3DKMT_HANDLE</b> that represents a kernel-mode handle to the keyed mutex object in the current process.
 
-### -field pPrivateRuntimeData
+### -field pPrivateRuntimeData [in]
 
-[in] A pointer to a caller-supplied buffer where the runtime private data associated with the resource is stored.
+A pointer to a caller-supplied buffer where the runtime private data associated with the resource is stored.
 
-### -field PrivateRuntimeDataSize
+### -field PrivateRuntimeDataSize [in]
 
-[in] The size, in bytes, of the buffer pointed to by the <b>pPrivateRuntimeData</b> member.
+The size, in bytes, of the buffer pointed to by the <b>pPrivateRuntimeData</b> member.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a> structure that indicates how to specify a handle to a keyed mutex object.
+A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a> structure that indicates how to specify a handle to a keyed mutex object.
 
 ## -see-also
 

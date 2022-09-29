@@ -1,10 +1,10 @@
 ---
 UID: NS:fltkernel._FLT_PARAMETERS
-title: _FLT_PARAMETERS (fltkernel.h)
+title: FLT_PARAMETERS (fltkernel.h)
 description: The FLT_PARAMETERS union defines, for a minifilter, the request-type-specific parameters associated with an I/O operation.
 old-location: ifsk\flt_parameters.htm
 tech.root: ifsk
-ms.date: 11/06/2019
+ms.date: 08/11/2022
 keywords: ["FLT_PARAMETERS union"]
 ms.keywords: "*PFLT_PARAMETERS, FLT_PARAMETERS, FLT_PARAMETERS union [Installable File System Drivers], FltSystemStructures_2ebb0ec7-76cc-49a3-b2ec-186f67369bbb.xml, PFLT_PARAMETERS, PFLT_PARAMETERS union pointer [Installable File System Drivers], _FLT_PARAMETERS, fltkernel/FLT_PARAMETERS, fltkernel/PFLT_PARAMETERS, ifsk.flt_parameters"
 req.header: fltkernel.h
@@ -46,8 +46,7 @@ api_name:
  - FLT_PARAMETERS
 ---
 
-# _FLT_PARAMETERS union
-
+# FLT_PARAMETERS union
 
 ## -description
 
@@ -113,4 +112,3 @@ The following I/O operations do not have parameters, and therefore do not have a
 [FLT_IO_PARAMETER_BLOCK](./ns-fltkernel-_flt_io_parameter_block.md)
 
 [**FltSetCallbackDataDirty**](./nf-fltkernel-fltsetcallbackdatadirty.md)
-

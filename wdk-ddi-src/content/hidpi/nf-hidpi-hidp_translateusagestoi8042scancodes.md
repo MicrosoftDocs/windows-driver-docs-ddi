@@ -50,19 +50,19 @@ The <b>HidP_TranslateUsagesToI8042ScanCodes</b> routine maps a list of <a href="
 
 ## -parameters
 
-### -param ChangedUsageList 
+### -param ChangedUsageList [in]
 
-[in]
+
 Pointer to a list of keyboard (button) usages. The translate usages routine interprets a zero as a delimiter that ends the usage list.
 
-### -param UsageListLength 
+### -param UsageListLength [in]
 
-[in]
+
 Specifies the maximum possible number of usages in the changed usage list.
 
-### -param KeyAction 
+### -param KeyAction [in]
 
-[in]
+
 Identifies the key direction for the specified change usage list. 
 
 
@@ -87,9 +87,9 @@ Specifies a <i>break</i> direction (key up). The changed usage list contains the
 
 Specifies a <i>make</i> direction (key down). The changed usage list contains the usages set to ON that were previously set to OFF (which corresponds to the keys that were previously up, but now are down).
 
-### -param ModifierState 
+### -param ModifierState [in, out]
 
-[in, out]
+
 Pointer to a _HIDP_KEYBOARD_MODIFIER_STATE structure that the caller maintains for use by the translate usages routine. The modifier state structure identifies the state of the keyboard modifier keys. 
 
 
@@ -118,9 +118,9 @@ Each member of the modifier state structure identifies whether the corresponding
 
 See the Remarks section for more information about how a modifier state structure is used with the translate usage routine.
 
-### -param InsertCodesProcedure 
+### -param InsertCodesProcedure [in]
 
-[in]
+
 Pointer to a caller-supplied PHIDP_INSERT_SCANCODES-typed callback routine that the translate usage routine uses to return the mapped scan codes to the caller of the translate usage routine.
 
 
@@ -152,9 +152,9 @@ Pointer to the first byte of a scan code that the translate usage routine return
 
 Specifies the length, in bytes, of the scan code. A scan code cannot exceed four bytes.
 
-### -param InsertCodesContext 
+### -param InsertCodesContext [in, optional]
 
-[in, optional]
+
 Pointer to a caller-defined context that the translate usage routine passes to the <i>InsertCodesProcedure</i> routine.
 
 ## -returns

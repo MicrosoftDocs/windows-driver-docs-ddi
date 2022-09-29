@@ -51,7 +51,7 @@ The <b>PWINDBG_GET_EXPRESSION</b> (<b>GetExpression</b>) function returns the va
 
 ### -param lpExpression
 
-#### - expression [in]
+### -param expression [in]
 
 Specifies the expression to evaluate.
 

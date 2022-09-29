@@ -4,7 +4,7 @@ title: NtCreateFile function (ntifs.h)
 description: The NtCreateFile routine creates a new file or opens an existing file.
 old-location: kernel\zwcreatefile.htm
 tech.root: kernel
-ms.date: 04/05/2021
+ms.date: 05/24/2022
 keywords: ["NtCreateFile function"]
 ms.keywords: NtCreateFile, ZwCreateFile, ZwCreateFile routine [Kernel-Mode Driver Architecture], k111_80b1882a-8617-45d4-a783-dbc3bfc9aad4.xml, kernel.zwcreatefile, wdm/NtCreateFile, wdm/ZwCreateFile
 req.header: ntifs.h
@@ -48,13 +48,13 @@ The **NtCreateFile** routine creates a new file or opens an existing file.
 
 ## -parameters
 
-### -param FileHandle
+### -param FileHandle [out]
 
-[out] A pointer to a HANDLE variable that receives a handle to the file.
+A pointer to a HANDLE variable that receives a handle to the file.
 
-### -param DesiredAccess
+### -param DesiredAccess [in]
 
-[in] Specifies an [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the object.
+Specifies an [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the object.
 
 In addition to the *standard* access rights that are defined for all types of objects, the caller can specify any of the following *specific* access rights; that is, rights that are specific to files.
 
@@ -97,13 +97,13 @@ If the file is actually a directory, the caller can also specify the following g
 
 For more information about access rights, see [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) and [Access Rights](/windows-hardware/drivers/kernel/access-rights).
 
-### -param ObjectAttributes
+### -param ObjectAttributes [in]
 
-[in] A pointer to an [OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_object_attributes) structure that specifies the object name and other attributes. Use [InitializeObjectAttributes](/windows-hardware/drivers/ddi/wudfwdm/nf-wudfwdm-initializeobjectattributes) to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls **InitializeObjectAttributes**.
+A pointer to an [OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_object_attributes) structure that specifies the object name and other attributes. Use [InitializeObjectAttributes](/windows-hardware/drivers/ddi/wudfwdm/nf-wudfwdm-initializeobjectattributes) to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls **InitializeObjectAttributes**.
 
-### -param IoStatusBlock
+### -param IoStatusBlock [out]
 
-[out] A pointer to an [IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and other information about the requested operation. In particular, the **Information** member receives one of the following values:
+A pointer to an [IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and other information about the requested operation. In particular, the **Information** member receives one of the following values:
 
 * FILE_CREATED
 * FILE_OPENED
@@ -112,17 +112,17 @@ For more information about access rights, see [ACCESS_MASK](/windows-hardware/dr
 * FILE_EXISTS
 * FILE_DOES_NOT_EXIST
 
-### -param AllocationSize
+### -param AllocationSize [in, optional]
 
-[in, optional] A pointer to a LARGE_INTEGER that contains the initial allocation size, in bytes, for a file that is created or overwritten. If *AllocationSize* is **NULL**, no allocation size is specified. If no file is created or overwritten, *AllocationSize* is ignored.
+A pointer to a LARGE_INTEGER that contains the initial allocation size, in bytes, for a file that is created or overwritten. If *AllocationSize* is **NULL**, no allocation size is specified. If no file is created or overwritten, *AllocationSize* is ignored.
 
-### -param FileAttributes
+### -param FileAttributes [in]
 
-[in] Specifies one or more FILE_ATTRIBUTE_*XXX* flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_*XXX* flags, see the [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilea) routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, *FileAttributes* is ignored.
+Specifies one or more FILE_ATTRIBUTE_*XXX* flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_*XXX* flags, see the [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilea) routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, *FileAttributes* is ignored.
 
-### -param ShareAccess
+### -param ShareAccess [in]
 
-[in] Type of share access, which is specified as zero or any combination of the following flags.
+Type of share access, which is specified as zero or any combination of the following flags.
 
 | *ShareAccess* flag | Allows other threads to do this |
 | ------------------ | ------------------------------- |
@@ -132,9 +132,9 @@ For more information about access rights, see [ACCESS_MASK](/windows-hardware/dr
 
 Device and intermediate drivers usually set *ShareAccess* to zero, which gives the caller exclusive access to the open file.
 
-### -param CreateDisposition
+### -param CreateDisposition [in]
 
-[in] Specifies the action to perform if the file does or does not exist. *CreateDisposition* can be one of the values in the following table.
+Specifies the action to perform if the file does or does not exist. *CreateDisposition* can be one of the values in the following table.
 
 | *CreateDisposition* value | Action if file exists            | Action if file does not exist |
 | ------------------------- | ---------------------            | ----------------------------- |
@@ -145,38 +145,44 @@ Device and intermediate drivers usually set *ShareAccess* to zero, which gives t
 | FILE_OVERWRITE            | Open the file, and overwrite it. | Return an error. |
 | FILE_OVERWRITE_IF         | Open the file, and overwrite it. | Create the file. |
 
-### -param CreateOptions
+### -param CreateOptions [in]
 
-[in] Specifies the options to apply when the driver creates or opens the file. Use one or more of the flags in the following table.
+Specifies the options to apply when the driver creates or opens the file. Use one or more of the flags in the following table.
 
 | CreateOptions flag | Meaning |
 | -------------------- | ------- |
-| FILE_DIRECTORY_FILE | The file is a directory. Compatible **CreateOptions** flags are FILE_SYNCHRONOUS_IO_ALERT, FILE_SYNCHRONOUS_IO_NONALERT, FILE_WRITE_THROUGH, FILE_OPEN_FOR_BACKUP_INTENT, and FILE_OPEN_BY_FILE_ID. The **CreateDisposition** parameter must be set to FILE_CREATE, FILE_OPEN, or FILE_OPEN_IF. |
-| FILE_NON_DIRECTORY_FILE | The file is *not* a directory. The file object to open can represent a data file; a logical, virtual, or physical device; or a volume. |
-| FILE_WRITE_THROUGH | System services, file-system drivers, and drivers that write data to the file must actually transfer the data to the file before any requested write operation is considered complete. |
-| FILE_SEQUENTIAL_ONLY | All access to the file will be sequential. |
-| FILE_RANDOM_ACCESS | Access to the file can be random, so no sequential read-ahead operations should be performed by file-system drivers or by the system. |
-| FILE_NO_INTERMEDIATE_BUFFERING | The file cannot be cached or buffered in a driver's internal buffers. This flag is incompatible with the **DesiredAccess** parameter's FILE_APPEND_DATA flag. |
-| FILE_SYNCHRONOUS_IO_ALERT | All operations on the file are performed synchronously. Any wait on behalf of the caller is subject to premature termination from alerts. This flag also causes the I/O system to maintain the file-position pointer. If this flag is set, the SYNCHRONIZE flag must be set in the **DesiredAccess** parameter. |
-| FILE_SYNCHRONOUS_IO_NONALERT | All operations on the file are performed synchronously. Waits in the system that synchronize I/O queuing and completion are not subject to alerts. This flag also causes the I/O system to maintain the file-position context. If this flag is set, the SYNCHRONIZE flag must be set in the **DesiredAccess** parameter. |
-| FILE_CREATE_TREE_CONNECTION | Create a tree connection for this file in order to open it over the network. This flag is not used by device and intermediate drivers. |
-| FILE_COMPLETE_IF_OPLOCKED | Complete this operation immediately with an alternate success code of STATUS_OPLOCK_BREAK_IN_PROGRESS if the target file is oplocked, rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file. This flag is not used by device and intermediate drivers. |
-| FILE_NO_EA_KNOWLEDGE | If the extended attributes (EAs) for an existing file being opened indicate that the caller must understand EAs to properly interpret the file, **NtCreateFile** should return an error. This flag is irrelevant for device and intermediate drivers. |
-| FILE_OPEN_REPARSE_POINT | Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. |
-| FILE_DELETE_ON_CLOSE | The system deletes the file when the last handle to the file is passed to [**NtClose**](nf-ntifs-ntclose.md). If this flag is set, the DELETE flag must be set in the **DesiredAccess** parameter. |
-| FILE_OPEN_BY_FILE_ID | The file name that is specified by the **ObjectAttributes** parameter includes a binary 8-byte or 16-byte file reference number or object ID for the file, depending on the file system. Optionally, a device name followed by a backslash character may proceed these binary values. See Remarks for additional details and an example. |
-| FILE_OPEN_FOR_BACKUP_INTENT | The file is being opened for backup intent. Therefore, the system should check for certain access rights and grant the caller the appropriate access to the file—before checking the **DesiredAccess** parameter against the file's security descriptor. This flag not used by device and intermediate drivers. |
-| FILE_RESERVE_OPFILTER | This flag allows an application to request a Filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED. For more information, see the following Remarks section. |
-| FILE_OPEN_REQUIRING_OPLOCK | The file is being opened and an opportunistic lock (oplock) on the file is being requested as a single atomic operation. The file system checks for oplocks before it performs the create operation, and will fail the create with a return code of STATUS_CANNOT_BREAK_OPLOCK if the result would be to break an existing oplock. This flag is available starting with Windows 7 and Windows Server 2008 R2. |
-| FILE_SESSION_AWARE | The client opening the file or device is session aware and per session access is validated if necessary. This flag is available starting with Windows 8. |
+| FILE_DIRECTORY_FILE (0x00000001) | The file is a directory. Compatible **CreateOptions** flags are FILE_SYNCHRONOUS_IO_ALERT, FILE_SYNCHRONOUS_IO_NONALERT, FILE_WRITE_THROUGH, FILE_OPEN_FOR_BACKUP_INTENT, and FILE_OPEN_BY_FILE_ID. The **CreateDisposition** parameter must be set to FILE_CREATE, FILE_OPEN, or FILE_OPEN_IF. |
+| FILE_WRITE_THROUGH (0x00000002) | System services, file-system drivers, and drivers that write data to the file must actually transfer the data to the file before any requested write operation is considered complete. |
+| FILE_SEQUENTIAL_ONLY (0x00000004) | All access to the file will be sequential. |
+| FILE_NO_INTERMEDIATE_BUFFERING (0x00000008) | The file cannot be cached or buffered in a driver's internal buffers. This flag is incompatible with the **DesiredAccess** parameter's FILE_APPEND_DATA flag. |
+| FILE_SYNCHRONOUS_IO_ALERT (0x00000010) | All operations on the file are performed synchronously. Any wait on behalf of the caller is subject to premature termination from alerts. This flag also causes the I/O system to maintain the file-position pointer. If this flag is set, the SYNCHRONIZE flag must be set in the **DesiredAccess** parameter. |
+| FILE_SYNCHRONOUS_IO_NONALERT (0x00000020) | All operations on the file are performed synchronously. Waits in the system that synchronize I/O queuing and completion are not subject to alerts. This flag also causes the I/O system to maintain the file-position context. If this flag is set, the SYNCHRONIZE flag must be set in the **DesiredAccess** parameter. |
+| FILE_NON_DIRECTORY_FILE (0x00000040) | The file is *not* a directory. The file object to open can represent a data file; a logical, virtual, or physical device; or a volume. |
+| FILE_CREATE_TREE_CONNECTION (0x00000080) | Create a tree connection for this file in order to open it over the network. This flag is not used by device and intermediate drivers. |
+| FILE_COMPLETE_IF_OPLOCKED (0x00000100) | Complete this operation immediately with an alternate success code of STATUS_OPLOCK_BREAK_IN_PROGRESS if the target file is oplocked, rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file. This flag is not used by device and intermediate drivers. |
+| FILE_NO_EA_KNOWLEDGE (0x00000200) | If the extended attributes (EAs) for an existing file being opened indicate that the caller must understand EAs to properly interpret the file, **NtCreateFile** should return an error. This flag is irrelevant for device and intermediate drivers. |
+| FILE_OPEN_REMOTE_INSTANCE (0x00000400) | Reserved for system use; do not use. |
+| FILE_RANDOM_ACCESS (0x00000800) | Access to the file can be random, so no sequential read-ahead operations should be performed by file-system drivers or by the system. |
+| FILE_DELETE_ON_CLOSE (0x00001000) | The system deletes the file when the last handle to the file is passed to [**NtClose**](nf-ntifs-ntclose.md). If this flag is set, the DELETE flag must be set in the **DesiredAccess** parameter. |
+| FILE_OPEN_BY_FILE_ID (0x00002000) | The file name that is specified by the **ObjectAttributes** parameter includes a binary 8-byte or 16-byte file reference number or object ID for the file, depending on the file system. Optionally, a device name followed by a backslash character may proceed these binary values. See Remarks for additional details and an example. |
+| FILE_OPEN_FOR_BACKUP_INTENT (0x00004000) | The file is being opened for backup intent. Therefore, the system should check for certain access rights and grant the caller the appropriate access to the file—before checking the **DesiredAccess** parameter against the file's security descriptor. This flag not used by device and intermediate drivers. |
+| FILE_NO_COMPRESSION (0x00008000) | Suppress inheritance of FILE_ATTRIBUTE_COMPRESSED from the parent directory. This allows creation of a non-compressed file in a directory that is marked compressed. |
+| FILE_OPEN_REQUIRING_OPLOCK (0x00010000) | The file is being opened and an opportunistic lock (oplock) on the file is being requested as a single atomic operation. The file system checks for oplocks before it performs the create operation, and will fail the create with a return code of STATUS_CANNOT_BREAK_OPLOCK if the result would be to break an existing oplock. This flag is available starting with Windows 7 and Windows Server 2008 R2. |
+| FILE_DISALLOW_EXCLUSIVE (0x00020000) | When opening an existing file, if FILE_SHARE_READ is not specified and file system access checks would not grant the caller write access to the file, fail this open with STATUS_ACCESS_DENIED. This was default behavior prior to Windows 7. This flag is available starting with Windows 7 and Windows Server 2008 R2. |
+| FILE_SESSION_AWARE (0x00040000) | The client opening the file or device is session aware and per session access is validated if necessary. This flag is available starting with Windows 8. |
+| FILE_RESERVE_OPFILTER (0x00100000) | This flag allows an application to request a Filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED. For more information, see the following Remarks section. |
+| FILE_OPEN_REPARSE_POINT (0x00200000) | Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. |
+| FILE_OPEN_NO_RECALL (0x00400000) | Instructs any filters that perform offline storage or virtualization to not recall the contents of the file as a result of this open. |
+| FILE_OPEN_FOR_FREE_SPACE_QUERY (0x00800000) | This flag instructs the file system to capture the user associated with the calling thread. Any subsequent calls to FltQueryVolumeInformation or ZwQueryVolumeInformationFile using the returned handle will assume the captured user, rather than the calling user at the time, for purposes of computing the free space available to the caller. This applies to the following FsInformationClass values: FileFsSizeInformation, FileFsFullSizeInformation, and FileFsFullSizeInformationEx. |
+| FILE_CONTAINS_EXTENDED_CREATE_INFORMATION (0x10000000) | Interpret the **EaBuffer** parameter as an instance of [**EXTENDED_CREATE_INFORMATION**](/windows-hardware/drivers/ifs/ns-ntifs-extended_create_information). This flag is available starting in Windows 11, version 22H2. |
 
-### -param EaBuffer
+### -param EaBuffer [in, optional]
 
-[in, optional] For device and intermediate drivers, this parameter must be a **NULL** pointer.
+For device and intermediate drivers, this parameter must be a **NULL** pointer.
 
-### -param EaLength
+### -param EaLength [in]
 
-[in] For device and intermediate drivers, this parameter must be zero.
+For device and intermediate drivers, this parameter must be zero.
 
 ## -returns
 

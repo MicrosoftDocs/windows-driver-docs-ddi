@@ -54,17 +54,17 @@ The IHV Extensions DLL calls the
 
 ## -parameters
 
-### -param hDot11SvcHandle 
+### -param hDot11SvcHandle [in, optional]
 
-[in, optional]
+
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
-### -param dwMulticastCipherAlgo 
+### -param dwMulticastCipherAlgo [in]
 
-[in]
+
 A
      <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a> enumerator
      value that identifies the multicast cipher algorithm.

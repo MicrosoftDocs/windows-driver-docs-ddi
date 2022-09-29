@@ -2,9 +2,8 @@
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvAnalyzeItem
 title: IWiaMiniDrv::drvAnalyzeItem (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvAnalyzeItem method inspects an item, and creates subitems, if necessary.
-old-location: image\iwiaminidrv_drvanalyzeitem.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 07/21/2022
 keywords: ["IWiaMiniDrv::drvAnalyzeItem"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvAnalyzeItem method, IWiaMiniDrv.drvAnalyzeItem, IWiaMiniDrv::drvAnalyzeItem, MiniDrv_dfa93eeb-ea39-44b6-b465-5bff0f056763.xml, drvAnalyzeItem, drvAnalyzeItem method [Imaging Devices], drvAnalyzeItem method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvanalyzeitem, wiamindr_lh/IWiaMiniDrv::drvAnalyzeItem
 req.header: wiamindr_lh.h
@@ -40,9 +39,6 @@ api_name:
  - IWiaMiniDrv::drvAnalyzeItem
 ---
 
-# IWiaMiniDrv::drvAnalyzeItem
-
-
 ## -description
 
 The **IWiaMiniDrv::drvAnalyzeItem** method inspects an item, and creates subitems, if necessary.
@@ -51,37 +47,25 @@ The **IWiaMiniDrv::drvAnalyzeItem** method inspects an item, and creates subitem
 
 ### -param __MIDL__IWiaMiniDrv0036
 
-lFlags [in]
+*lFlags* [in]
 
-- Is currently unused.
+Reserved.
 
 ### -param __MIDL__IWiaMiniDrv0037
 
-pWiasContext [in]
-
-- Pointer to a WIA item context.
-
-### -param __MIDL__IWiaMiniDrv0038
-
-plDevErrVal [in]
-
-- Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-#### - lFlags [in]
-
-Is currently unused.
-
-#### - pWiasContext [in]
+*pWiasContext* [in]
 
 Pointer to a WIA item context.
 
-#### - plDevErrVal [in]
+### -param __MIDL__IWiaMiniDrv0038
 
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+*plDevErrVal* [in]
+
+Points to a memory location that will receive a status code for this method. If this method returns **S_OK**, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 ## -returns
 
-On success, the method should return S_OK and clear the device error value pointed to by *plDevErrVal*. If the method is not fully implemented, it can return E_NOTIMPL. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by *plDevErrVal*.
+On success, the method should return **S_OK** and clear the device error value pointed to by *plDevErrVal*. If the method is not fully implemented, it can return **E_NOTIMPL**. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by *plDevErrVal*.
 
 The value pointed to by *plDevErrVal* can be converted to a string by calling [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md).
 
@@ -90,4 +74,3 @@ The value pointed to by *plDevErrVal* can be converted to a string by calling [I
 [IWiaMiniDrv](./nn-wiamindr_lh-iwiaminidrv.md)
 
 [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)
-

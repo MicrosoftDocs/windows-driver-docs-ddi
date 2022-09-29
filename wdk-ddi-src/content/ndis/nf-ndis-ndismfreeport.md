@@ -59,9 +59,9 @@ The miniport adapter handle that NDIS passed to the
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
-### -param PortNumber 
+### -param PortNumber [in]
 
-[in]
+
 The number of the NDIS port that NDIS should free. The 
      <i>PortNumber</i> value is an NDIS_PORT_NUMBER value, which has a ULONG data type. NDIS provided the port
      number in the 

@@ -4,7 +4,7 @@ title: RtlDescribeChunk function (ntifs.h)
 description: "Microsoft reserves the RtlDescribeChunk function for internal use only. Don't use this function in your code."
 old-location: ifsk\rtldescribechunk.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["RtlDescribeChunk function"]
 ms.keywords: RtlDescribeChunk, RtlDescribeChunk function [Installable File System Drivers], ifsk.rtldescribechunk, ntifs/RtlDescribeChunk, rtlref_03ffe48d-5d72-4f8b-ac88-e79909151d2f.xml
 req.header: ntifs.h
@@ -42,16 +42,15 @@ api_name:
 
 # RtlDescribeChunk function
 
-
 ## -description
 
-The <b>RtlDescribeChunk</b> routine is reserved for system use.
+The **RtlDescribeChunk** routine is reserved for system use.
 
 ## -parameters
 
 ### -param CompressionFormat
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param CompressedBuffer
 
@@ -69,3 +68,6 @@ Reserved.
 
 Reserved.
 
+## -returns
+
+Reserved.

@@ -49,8 +49,6 @@ api_name:
 
 The <b>GetParentObject</b> method returns the parent framework object of this interface's  work item.
 
-## -parameters
-
 ## -returns
 
 A pointer to the parent object interface.

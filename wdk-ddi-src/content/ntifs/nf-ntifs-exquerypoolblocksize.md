@@ -4,7 +4,7 @@ title: ExQueryPoolBlockSize function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\exquerypoolblocksize.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["ExQueryPoolBlockSize function"]
 ms.keywords: ExQueryPoolBlockSize, ExQueryPoolBlockSize function [Installable File System Drivers], exref_c8686b81-2d69-4bbf-a1fb-143574579cff.xml, ifsk.exquerypoolblocksize, ntifs/ExQueryPoolBlockSize
 req.header: ntifs.h
@@ -42,18 +42,20 @@ api_name:
 
 # ExQueryPoolBlockSize function
 
-
 ## -description
 
-<b>ExQueryPoolBlockSize</b> is obsolete and has never been documented. This routine is exported only to support a small number of legacy drivers. Also, if you call it in Microsoft Windows 2000 and the block is in special pool, the system will crash. Do not use this routine in your driver.
+**ExQueryPoolBlockSize** is obsolete and has never been documented. This routine is exported only to support a small number of legacy drivers. If you call it in Microsoft Windows 2000 and the block is in special pool, the system will crash. Do not use this routine in your driver.
 
 ## -parameters
 
 ### -param PoolBlock
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param QuotaCharged
 
 Reserved.
 
+## -returns
+
+Reserved.

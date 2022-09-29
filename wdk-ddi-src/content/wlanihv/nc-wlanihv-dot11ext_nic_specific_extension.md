@@ -54,29 +54,29 @@ The IHV Extensions DLL calls the
 
 ## -parameters
 
-### -param hDot11SvcHandle 
+### -param hDot11SvcHandle [in, optional]
 
-[in, optional]
+
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
-### -param dwInBufferSize 
+### -param dwInBufferSize [in]
 
-[in]
+
 The size, in bytes, of the caller-allocated data buffer referenced by the
      <i>pvInBuffer</i> parameter.
 
-### -param pvInBuffer 
+### -param pvInBuffer [in]
 
-[in]
+
 A pointer to a caller-allocated input buffer that contains the data required to perform the
      operation. The format of this data is defined by the IHV.
 
-### -param pdwOutBufferSize 
+### -param pdwOutBufferSize [in, out]
 
-[in, out]
+
 A pointer to a caller-allocated DWORD variable. When the
      <b>Dot11ExtNicSpecificExtension</b> function is called, the IHV Extensions DLL
      must set this variable to the size, in bytes, of the caller-allocated data buffer referenced by the
@@ -84,9 +84,9 @@ A pointer to a caller-allocated DWORD variable. When the
      actual number of bytes returned in the data buffer referenced by the
      <i>pvOutBuffer</i> parameter.
 
-### -param pvOutBuffer 
+### -param pvOutBuffer [out]
 
-[out]
+
 A pointer to a caller-allocated buffer that contains data returned from the Native 802.11 miniport
      driver for the specified request. The format of this data is defined by the IHV. This parameter can be
      <b>NULL</b> if data is not to be returned by the Native 802.11 miniport driver.

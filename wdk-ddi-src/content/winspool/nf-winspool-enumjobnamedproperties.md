@@ -1,14 +1,13 @@
 ---
 UID: NF:winspool.EnumJobNamedProperties
 title: EnumJobNamedProperties function (winspool.h)
-description: "Learn more about: EnumJobNamedProperties function"
-old-location: print\enumjobnamedproperties.htm
+description: This topic describes the EnumJobNamedProperties function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 04/20/2022
 keywords: ["EnumJobNamedProperties function"]
 ms.keywords: EnumJobNamedProperties, EnumJobNamedProperties function [Print Devices], print.enumjobnamedproperties, winspool/EnumJobNamedProperties
 req.header: winspool.h
-req.include-header: 
+req.include-header: Winspool.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,26 +39,28 @@ api_name:
  - EnumJobNamedProperties
 ---
 
-# EnumJobNamedProperties function
-
-
 ## -description
+
+This topic describes the **EnumJobNamedProperties** function.
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
+Defines the **HANDLE** parameter *hPrinter*.
 
-### -param JobId 
+### -param JobId [in]
 
-[in]
+Defines the **DWORD** parameter *JobId*.
 
-### -param pcProperties 
+### -param pcProperties [out]
 
-[out]
+Defines the **DWORD** parameter *pcProperties*.
 
-### -param ppProperties 
+### -param ppProperties [out]
 
-[out]
+Defines the **PrintNamedProperty** parameter *ppProperties*.
 
+## -returns
+
+Returns a **DWORD** containing the number of named properties.

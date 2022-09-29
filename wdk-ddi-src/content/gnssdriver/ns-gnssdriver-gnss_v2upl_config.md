@@ -2,13 +2,12 @@
 UID: NS:gnssdriver.__unnamed_struct_46
 title: GNSS_V2UPL_CONFIG (gnssdriver.h)
 description: This structure contains V2UPL configuration information.
-old-location: gnss\gnss_v2upl_config.htm
 tech.root: gnss
-ms.date: 02/15/2018
+ms.date: 06/16/2022
 keywords: ["GNSS_V2UPL_CONFIG structure"]
 ms.keywords: "*PGNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG structure [Sensor Devices], PGNSS_V2UPL_CONFIG, PGNSS_V2UPL_CONFIG structure pointer [Sensor Devices], gnss.gnss_v2upl_config, gnssdriver/GNSS_V2UPL_CONFIG, gnssdriver/PGNSS_V2UPL_CONFIG"
 req.header: gnssdriver.h
-req.include-header: 
+req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,9 +42,6 @@ api_name:
  - GNSS_V2UPL_CONFIG
 ---
 
-# GNSS_V2UPL_CONFIG structure
-
-
 ## -description
 
 This structure contains V2UPL configuration information.
@@ -74,17 +70,4 @@ Application type indicator for any mobile originated location request to the MPC
 
 ### -field Unused
 
- 
-
-
-
-
-#### - MPC[MAX_SERVER_URL_NAME]
-
-MPC address and port number.
-
-
-#### - PDE[MAX_SERVER_URL_NAME]
-
-PDE address and port number.
-
+Padding buffer reserved for future use.

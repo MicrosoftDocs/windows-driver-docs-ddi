@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTUnlock
 title: D3DKMTUnlock function (d3dkmthk.h)
 description: The D3DKMTUnlock function unlocks a list of allocations.
 old-location: display\d3dkmtunlock.htm
-ms.date: 05/10/2018
+ms.date: 03/02/2022
 keywords: ["D3DKMTUnlock function"]
 ms.keywords: D3DKMTUnlock, D3DKMTUnlock function [Display Devices], OpenGL_Functions_6741960d-1f19-4000-948c-aeb71330eb1e.xml, d3dkmthk/D3DKMTUnlock, display.d3dkmtunlock
 req.header: d3dkmthk.h
@@ -45,37 +45,34 @@ api_name:
 
 # D3DKMTUnlock function
 
-
 ## -description
 
-The <b>D3DKMTUnlock</b> function unlocks a list of allocations.
+The **D3DKMTUnlock** function unlocks a list of allocations.
 
 ## -parameters
 
-### -param D3DKMT_UNLOCK
+### -param unnamedParam1 [in]
 
-*pData* [in]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_unlock">D3DKMT_UNLOCK</a> structure that describes a list of allocations to unlock.
+A pointer to a [D3DKMT_UNLOCK](ns-d3dkmthk-_d3dkmt_unlock.md) structure that describes a list of allocations to unlock.
 
 ## -returns
 
-<b>D3DKMTUnlock</b> returns one of the following values;
+**D3DKMTUnlock** returns one of the following values;
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|The allocations were successfully unlocked.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The allocations were successfully unlocked. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
-This function might also return other NTSTATUS values.
+This function might also return other **NTSTATUS** values.
 
 ## -remarks
 
-All of the allocations that the <b>D3DKMTUnlock</b> function unlocks must belong to the same device.
+All of the allocations that the **D3DKMTUnlock** function unlocks must belong to the same device.
 
-#### Examples
+### Examples
 
-The following code examples demonstrates how an OpenGL ICD can use <b>D3DKMTUnlock</b> to unlock three allocations.
+The following code examples demonstrates how an OpenGL ICD can use **D3DKMTUnlock** to unlock three allocations.
 
 ```cpp
 HRESULT UnlockThree(D3DKMT_HANDLE hDevice, 
@@ -103,4 +100,4 @@ HRESULT UnlockThree(D3DKMT_HANDLE hDevice,
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_unlock">D3DKMT_UNLOCK</a>
+[D3DKMT_UNLOCK](ns-d3dkmthk-_d3dkmt_unlock.md)

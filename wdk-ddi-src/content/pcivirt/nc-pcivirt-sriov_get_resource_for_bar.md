@@ -49,24 +49,24 @@ Gets the translated resource for a specific Base Address Register (BAR)
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to a driver-defined context.
 
-### -param VfIndex 
+### -param VfIndex [in]
 
-[in]
+
 A zero-based index of the VF that is being queried.
 
-### -param BarIndex 
+### -param BarIndex [in]
 
-[in]
+
 The index of the BAR (between 0 and 5).
 
-### -param Resource 
+### -param Resource [out]
 
-[out]
+
 
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that is filled with the translated hardware resources for the specified BAR.

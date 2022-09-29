@@ -4,7 +4,7 @@ title: _PEP_WORK_INFORMATION (pep_x.h)
 description: Learn how the PEP_WORK_INFORMATION structure describes a work item that the PEP is submitting to the Windows power management framework (PoFx).
 old-location: kernel\pep_work_information.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 08/09/2022
 keywords: ["PEP_WORK_INFORMATION structure"]
 ms.keywords: "*PPEP_WORK_INFORMATION, PEP_WORK_INFORMATION, PEP_WORK_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_WORK_INFORMATION, PPEP_WORK_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_INFORMATION, kernel.pep_work_information, pepfx/PEP_WORK_INFORMATION, pepfx/PPEP_WORK_INFORMATION"
 req.header: pep_x.h
@@ -48,136 +48,52 @@ api_name:
 
 # _PEP_WORK_INFORMATION structure (pep_x.h)
 
-
 ## -description
 
-The <b>PEP_WORK_INFORMATION</b> structure describes a work item that the PEP is submitting to the Windows <a href="/windows-hardware/drivers/kernel/overview-of-the-power-management-framework">power management framework</a> (PoFx).
+The **PEP_WORK_INFORMATION** structure describes a work item that the PEP is submitting to the Windows [power management framework](/windows-hardware/drivers/kernel/overview-of-the-power-management-framework) (PoFx).
 
 ## -struct-fields
 
 ### -field WorkType
 
-A <a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_work_type">PEP_WORK_TYPE</a> enumeration value. This member indicates the type of work requested by the PEP, which also determines the type of structure that is contained in the unnamed union in the <b>PEP_WORK_INFORMATION</b> structure.
+A [PEP_WORK_TYPE](../pepfx/ne-pepfx-_pep_work_type.md) enumeration value. This member indicates the type of work requested by the PEP, which also determines the type of structure that is contained in the unnamed union in the **PEP_WORK_INFORMATION** structure.
 
 ### -field PowerControl
 
+A [PEP_WORK_POWER_CONTROL](../pepfx/ns-pepfx-_pep_work_power_control.md) structure. This structure is used if `WorkType == PepWorkRequestPowerControl`.
+
 ### -field CompleteIdleState
+
+A [PEP_WORK_COMPLETE_IDLE_STATE](../pepfx/ns-pepfx-_pep_work_complete_idle_state.md) structure. This structure is used if `WorkType == PepWorkCompleteIdleState`.
 
 ### -field CompletePerfState
 
+A [PEP_WORK_COMPLETE_PERF_STATE](../pepfx/ns-pepfx-_pep_work_complete_perf_state.md) structure. This structure is used if `WorkType == PepWorkCompletePerfState`.
+
 ### -field AcpiNotify
+
+A [PEP_WORK_ACPI_NOTIFY](../pepfx/ns-pepfx-_pep_work_acpi_notify.md) structure. This structure is used if `WorkType == PepWorkAcpiNotify`.
 
 ### -field ControlMethodComplete
 
- 
-
-
-
-
-#### - ( unnamed union )
-
-The data structure that is associated with the type of work specified by the <b>WorkType</b> member.
-
-
-
-#### PowerControl
-
-A <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_power_control">PEP_WORK_POWER_CONTROL</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkRequestPowerControl</b>.
-
-
-
-#### CompleteIdleState
-
-A <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_complete_idle_state">PEP_WORK_COMPLETE_IDLE_STATE</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkCompleteIdleState</b>.
-
-
-
-#### CompletePerfState
-
-A <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_complete_perf_state">PEP_WORK_COMPLETE_PERF_STATE</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkCompletePerfState</b>.
-
-
-
-#### AcpiNotify
-
-A <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_acpi_notify">PEP_WORK_ACPI_NOTIFY</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkAcpiNotify</b>.
-
-
-
-#### ControlMethodComplete
-
-A <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_acpi_evaluate_control_method_complete">PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkAcpiEvaluateControlMethodComplete</b>.
-
-
-##### - ( unnamed union ).AcpiNotify
-
-A <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_acpi_notify">PEP_WORK_ACPI_NOTIFY</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkAcpiNotify</b>.
-
-
-##### - ( unnamed union ).CompleteIdleState
-
-A <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_complete_idle_state">PEP_WORK_COMPLETE_IDLE_STATE</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkCompleteIdleState</b>.
-
-
-##### - ( unnamed union ).CompletePerfState
-
-A <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_complete_perf_state">PEP_WORK_COMPLETE_PERF_STATE</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkCompletePerfState</b>.
-
-
-##### - ( unnamed union ).ControlMethodComplete
-
-A <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_acpi_evaluate_control_method_complete">PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkAcpiEvaluateControlMethodComplete</b>.
-
-
-##### - ( unnamed union ).PowerControl
-
-A <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_power_control">PEP_WORK_POWER_CONTROL</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkRequestPowerControl</b>.
+A [PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE](../pepfx/ns-pepfx-_pep_work_acpi_evaluate_control_method_complete.md) structure. This structure is used if `WorkType == PepWorkAcpiEvaluateControlMethodComplete`.
 
 ## -remarks
 
-The <b>WorkInformation</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work">PEP_WORK</a> structure is a pointer to a <b>PEP_WORK_INFORMATION</b> structure.
+The unnamed union is the data structure associated with the type of work specified by the *WorkType* member.
+
+The *WorkInformation* member of the [PEP_WORK](../pepfx/ns-pepfx-_pep_work.md) structure is a pointer to a **PEP_WORK_INFORMATION** structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work">PEP_WORK</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_acpi_notify">PEP_WORK_ACPI_NOTIFY</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_work_active_complete">PEP_WORK_ACTIVE_COMPLETE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_complete_idle_state">PEP_WORK_COMPLETE_IDLE_STATE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_complete_perf_state">PEP_WORK_COMPLETE_PERF_STATE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_work_device_idle">PEP_WORK_DEVICE_IDLE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_work_device_power">PEP_WORK_DEVICE_POWER</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_work_idle_state">PEP_WORK_IDLE_STATE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_power_control">PEP_WORK_POWER_CONTROL</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_work_type">PEP_WORK_TYPE</a>
-
+- [PEP_DPM_WORK](/windows-hardware/drivers/kernel/using-peps-for-acpi-services)
+- [PEP_WORK](../pepfx/ns-pepfx-_pep_work.md)
+- [PEP_WORK_ACPI_NOTIFY](../pepfx/ns-pepfx-_pep_work_acpi_notify.md)
+- [PEP_WORK_ACTIVE_COMPLETE](ns-pep_x-_pep_work_active_complete.md)
+- [PEP_WORK_COMPLETE_IDLE_STATE](../pepfx/ns-pepfx-_pep_work_complete_idle_state.md)
+- [PEP_WORK_COMPLETE_PERF_STATE](../pepfx/ns-pepfx-_pep_work_complete_perf_state.md)
+- [PEP_WORK_DEVICE_IDLE](ns-pep_x-_pep_work_device_idle.md)
+- [PEP_WORK_DEVICE_POWER](ns-pep_x-_pep_work_device_power.md)
+- [PEP_WORK_IDLE_STATE](ns-pep_x-_pep_work_idle_state.md)
+- [PEP_WORK_POWER_CONTROL](../pepfx/ns-pepfx-_pep_work_power_control.md)
+- [PEP_WORK_TYPE](../pepfx/ne-pepfx-_pep_work_type.md)

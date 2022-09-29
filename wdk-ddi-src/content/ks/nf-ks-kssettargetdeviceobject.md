@@ -50,14 +50,14 @@ The <b>KsSetTargetDeviceObject</b> function sets the target device object of an 
 
 ## -parameters
 
-### -param Header 
+### -param Header [in]
 
-[in]
+
 Points to a header previously allocated by <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocateobjectheader">KsAllocateObjectHeader</a>.
 
-### -param TargetDevice 
+### -param TargetDevice [in, optional]
 
-[in, optional]
+
 Optionally contains the target device object that will be used when recalculating the stack depth for the underlying device object. If the value is <b>NULL</b>, any current setting is removed. If the value is any setting other than <b>NULL</b>, the current setting is replaced.
 
 ## -returns

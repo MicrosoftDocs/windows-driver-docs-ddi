@@ -52,17 +52,17 @@ The D3DKMT_OPENSYNCHRONIZATIONOBJECT structure describes a synchronization objec
 
 ## -struct-fields
 
-### -field hSharedHandle
+### -field hSharedHandle [in]
 
-[in] A shared handle to the synchronization object to be opened.
+A shared handle to the synchronization object to be opened.
 
-### -field hSyncObject
+### -field hSyncObject [out]
 
-[out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the kernel-mode synchronization object in the current process.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the kernel-mode synchronization object in the current process.
 
-### -field Reserved
+### -field Reserved [in]
 
-[in] An array of 64-bit values that are reserved for future use.
+An array of 64-bit values that are reserved for future use.
 
 ## -see-also
 

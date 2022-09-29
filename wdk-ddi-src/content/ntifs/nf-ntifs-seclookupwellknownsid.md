@@ -4,7 +4,7 @@ title: SecLookupWellKnownSid function (ntifs.h)
 description: SecLookupWellKnownSid accepts a well-known security identifier (SID) type as input and retrieves the local security identifier (SID) for this well known SID.
 old-location: ifsk\seclookupwellknownsid.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["SecLookupWellKnownSid function"]
 ms.keywords: SecLookupWellKnownSid, SecLookupWellKnownSid function [Installable File System Drivers], ifsk.seclookupwellknownsid, ksecddref_4c0053b3-cdaa-4cdc-a4d3-6329ccf64f98.xml, ntifs/SecLookupWellKnownSid
 req.header: ntifs.h
@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param SidType
+### -param SidType [in]
 
-[in] An enumerated type that indicates the type of security identifier (SID) the function returns. This parameter can be one of the following enumerations for WELL_KNOWN_SID_TYPE.
+An enumerated type that indicates the type of security identifier (SID) the function returns. This parameter can be one of the following enumerations for WELL_KNOWN_SID_TYPE.
 
 | Value | Meaning |
 | ----- | ------- |
@@ -118,17 +118,17 @@ api_name:
 | WinBuiltinTerminalServerLicenseServersSid | Indicates a SID is present in a server that can issue Terminal Server licenses. |
 | WinBuiltinDCOMUsersSid | Indicates a SID that matches the DCOM users group. |
 
-### -param Sid
+### -param Sid [out]
 
-[out] A pointer to a buffer that receives the SID structure that corresponds to the *SidType* parameter. If this parameter is **NULL**, *SidBufferSize* must be zero.
+A pointer to a buffer that receives the [SID](ns-ntifs-_sid.md) structure that corresponds to the **SidType** parameter. If this parameter is **NULL**, **SidBufferSize** is zero.
 
-### -param SidBufferSize
+### -param SidBufferSize [in]
 
-[in] A variable that specifies the size of the *Sid* buffer in bytes.
+A variable that specifies the size of the **Sid** buffer in bytes.
 
-### -param OPTIONAL
+### -param SidSize [in_out, optional]
 
-An optional pointer to a variable that specifies the size of the *Sid* buffer. If the function fails because the buffer is too small or if *SidBufferSize* is zero, this variable receives the required buffer size. On success, this variable contains the size of the returned *Sid*.
+An optional pointer to a variable that specifies the size of the **Sid** buffer. If the function fails because the buffer is too small or if **SidBufferSize** is zero, this variable receives the required buffer size. On success, this variable contains the size of the returned **Sid**.
 
 ## -returns
 
@@ -138,15 +138,15 @@ An optional pointer to a variable that specifies the size of the *Sid* buffer. I
 | ----------- | ----------- |
 | SEC_E_INTERNAL_ERROR | An internal error occurred while trying to connect to the Local System Authority (LSA) or the local procedure call (LPC) to the security provider failed. |
 | STATUS_ACCESS_DENIED | The process ID associated with the currently executing thread does not match the current process ID. |
-| STATUS_BUFFER_TOO_SMALL | The buffer size for the *Sid*, the *SidBufferSize* parameter, was too small. |
+| STATUS_BUFFER_TOO_SMALL | The buffer size for the **Sid**, the *SidBufferSize* parameter, was too small. |
 | STATUS_INVALID_PARAMETER | A **NULL** pointer was passed for *Sid* parameter or a well-known SID could not be found for the *SidType* specified. |
 | STATUS_PROCESS_IS_TERMINATING | This process has terminated so it is not possible to establish a local procedure call (LPC) connection. |
 
 ## -remarks
 
-**SecLookupWellKnownSid** attempts to find a well known SID using a *SidType* parameter. In addition to looking up well-known SIDs on the local machine, **SecLookupWellKnownSid** can look up well-known SIDs on the local domain. **SecLookupWellKnownSid**first checks a list of well-known local SIDs. If the *SidType* does not correspond to a local well-known SID, the function checks for well-known SIDs on the primary domain.
+**SecLookupWellKnownSid** attempts to find a well known SID using a *SidType* parameter. In addition to looking up well-known SIDs on the local machine, **SecLookupWellKnownSid** can look up well-known SIDs on the local domain. **SecLookupWellKnownSid**first checks a list of well-known local SIDs. If the **SidType** does not correspond to a local well-known SID, the function checks for well-known SIDs on the primary domain.
 
-If the function cannot find the well known SID for the *SidType* specified, **SecLookupWellKnownSid** fails. This can occur if a network time-out prevents the function from finding the SID on the primary domain. It also occurs for a *SidType* that has no corresponding well-known SID.
+If the function cannot find the well known SID for the *SidType* specified, **SecLookupWellKnownSid** fails. This can occur if a network time-out prevents the function from finding the SID on the primary domain. It also occurs for a **SidType** that has no corresponding well-known SID.
 
 **SecLookupWellKnownSid** is equivalent to the Win32   **CreateWellKnownSid** function. For user-mode applications, the WELL_KNOWN_SID_TYPE enumeration is defined in *winbase.h*.
 

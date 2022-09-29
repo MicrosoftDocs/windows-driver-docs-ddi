@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetNextSymbolMatchWide (dbgeng.h)
 description: The GetNextSymbolMatchWide method returns the next symbol found in a symbol search.
 old-location: debugger\getnextsymbolmatchwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetNextSymbolMatchWide"]
 ms.keywords: GetNextSymbolMatchWide, GetNextSymbolMatchWide method [Windows Debugging], GetNextSymbolMatchWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetNextSymbolMatchWide method, IDebugSymbols3.GetNextSymbolMatchWide, IDebugSymbols3::GetNextSymbolMatchWide, dbgeng/IDebugSymbols3::GetNextSymbolMatchWide, debugger.getnextsymbolmatchwide
 req.header: dbgeng.h
@@ -49,29 +49,29 @@ The <b>GetNextSymbolMatchWide</b>  method returns the next symbol found in a sym
 
 ## -parameters
 
-### -param Handle 
+### -param Handle [in]
 
-[in]
+
 Specifies the handle returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-startsymbolmatch">StartSymbolMatch</a> when the search was initialized.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the name of the symbol.  If <i>Buffer</i> is <b>NULL</b>, the same symbol will be returned again next time one of these methods are called (with the same handle); this can be used to determine the size of the name of the symbol.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
-Specifies the size in characters of the buffer.
 
-### -param MatchSize 
+Specifies the size in characters of the buffer. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the name of the symbol.  If <i>MatchSize</i> is <b>NULL</b>, this information is not returned.
+### -param MatchSize [out, optional]
 
-### -param Offset 
 
-[out, optional]
+Receives the size in characters of the name of the symbol. This size includes the space for the '\0' terminating character. If <i>MatchSize</i> is <b>NULL</b>, this information is not returned.
+
+### -param Offset [out, optional]
+
+
 Receives the location in the target's virtual address space of the symbol.  If <i>Offset</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

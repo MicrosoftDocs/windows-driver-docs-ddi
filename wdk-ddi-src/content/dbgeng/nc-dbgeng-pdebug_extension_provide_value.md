@@ -53,39 +53,39 @@ The <b>DebugExtensionProvideValue</b> callback function sets <a href="/windows-h
 
 ## -parameters
 
-### -param Client 
+### -param Client [in]
 
-[in]
+
 A client to use if the extension needs DbgEng functions.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Provides behavioral flags. This parameter is currently reserved.
 
-### -param Name 
+### -param Name [in]
 
-[in]
+
 The name of the value to return. This name might be one of the names that the <a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_query_value_names">DebugExtensionQueryValueNames</a> function returned or a name that the caller might already be aware of.
 
-### -param Value 
+### -param Value [out]
 
-[out]
+
 A pointer to the value to be set.
 
-### -param TypeModBase 
+### -param TypeModBase [out]
 
-[out]
+
 The base starting address for <i>Client.</i>
 
-### -param TypeId 
+### -param TypeId [out]
 
-[out]
+
 A pointer to the ID for the type of <i>Value</i>.
 
-### -param TypeFlags 
+### -param TypeFlags [out]
 
-[out]
+
 A parameter that you can use to return one of the following flags: 
 
 <table>

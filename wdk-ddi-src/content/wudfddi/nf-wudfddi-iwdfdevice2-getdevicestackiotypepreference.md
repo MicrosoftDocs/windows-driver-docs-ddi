@@ -51,14 +51,14 @@ The <b>GetDeviceStackIoTypePreference</b> method retrieves the buffer access met
 
 ## -parameters
 
-### -param ReadWritePreference 
+### -param ReadWritePreference [out]
 
-[out]
+
 A pointer to a driver-allocated location that receives a <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_io_type">WDF_DEVICE_IO_TYPE</a>-typed value. This value identifies the buffer access method that the framework is using for a device's read and write requests.
 
-### -param IoControlPreference 
+### -param IoControlPreference [out]
 
-[out]
+
 A pointer to a driver-allocated location that receives a <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_io_type">WDF_DEVICE_IO_TYPE</a>-typed value. This value that identifies the buffer access method that the framework is using for a device's I/O control requests.
 
 ## -remarks

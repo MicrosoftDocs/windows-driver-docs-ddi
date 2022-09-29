@@ -49,14 +49,14 @@ The <b>CcMdlWriteAbort</b> routine frees memory descriptor lists (MDL) created b
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 File object pointer that was passed to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparemdlwrite">CcPrepareMdlWrite</a>.
 
-### -param MdlChain 
+### -param MdlChain [in]
 
-[in]
+
 Address of the MDL chain returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparemdlwrite">CcPrepareMdlWrite</a>.
 
 ## -remarks

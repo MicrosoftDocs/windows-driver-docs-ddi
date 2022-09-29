@@ -53,19 +53,19 @@ The <b>AddBuffer</b> method adds a new <a href="/windows-hardware/drivers/debugg
 
 A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
-### -param EntryType 
+### -param EntryType [in]
 
-[in]
+
 A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_ENTRY_TYPE</a> enumeration. This parameter specifies the data type of the data in <i>Buf</i>.
 
-### -param Buf 
+### -param Buf [in]
 
-[in]
+
 A pointer to a buffer that contains the bytes to be written to the data block of the new <a href="/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a>.
 
-### -param Size 
+### -param Size [in]
 
-[in]
+
 The size, in bytes, of the buffer pointed to by <i>Buf</i>.
 
 ## -returns
@@ -78,7 +78,7 @@ This method creates a new <a href="/windows-hardware/drivers/debugger/failure-an
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getbuffer">GetBuffer</a>
+<a href="/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis-getbuffer">GetBuffer</a>
 
 
 

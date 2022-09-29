@@ -50,19 +50,19 @@ The **KsFilterRegisterPowerCallbacks** function registers power management callb
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 A pointer to the [KSFILTER](./ns-ks-_ksfilter.md) structure for which to register power callbacks. In order to receive power notification messages, *Filter* must be filter-centric.
 
-### -param Sleep 
+### -param Sleep [in, optional]
 
-[in, optional]
+
 A pointer to a function that handles sleep requests for the device. If **NULL**, no sleep callback is registered. For more information, see the Remarks section below.
 
-### -param Wake 
+### -param Wake [in, optional]
 
-[in, optional]
+
 A pointer to a function that handles wake requests for the device. If **NULL**, no wake callback is specified. For more information, see the Remarks section below.
 
 ## -remarks

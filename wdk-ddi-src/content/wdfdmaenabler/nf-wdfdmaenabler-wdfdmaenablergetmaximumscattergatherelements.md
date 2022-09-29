@@ -52,9 +52,9 @@ The <b>WdfDmaEnablerGetMaximumScatterGatherElements</b> method returns the maxim
 
 ## -parameters
 
-### -param DmaEnabler 
+### -param DmaEnabler [in]
 
-[in]
+
 A handle to a DMA enabler object that the driver obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>.
 
 ## -returns

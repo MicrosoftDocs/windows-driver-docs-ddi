@@ -49,19 +49,19 @@ The <code>AddEntryFromParent</code> method adds to a resource list an entry foun
 
 ## -parameters
 
-### -param Parent 
+### -param Parent [in]
 
-[in]
+
 Pointer to parent <b>IResourceList</b> object from which the entry is to be taken.
 
-### -param Type 
+### -param Type [in]
 
-[in]
+
 Identifies the resource type of the entry that is to be added. For a list of valid resource-type values, see the description of the <b>Type</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index in the parent list of the entry to add. If the parent's <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iresourcelist-numberofentriesoftype">IResourceList::NumberOfEntriesOfType</a> method returns a value <i>n</i> for the number of entries of type <i>Type</i>, valid indices range from 0 to <i>n</i>-1. If <i>Index</i> is zero, for example, the method adds the first occurrence of an entry of the specified type from the parent list.
 
 ## -returns

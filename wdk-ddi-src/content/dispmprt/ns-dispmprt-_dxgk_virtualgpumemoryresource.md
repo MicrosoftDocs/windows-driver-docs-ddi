@@ -5,8 +5,6 @@ description: Virtual GPU memory resource.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGK_VIRTUALGPUMEMORYRESOURCE structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGK_VIRTUALGPUMEMORYRESOURCE, DXGK_VIRTUALGPUMEMORYRESOURCE, *PDXGK_VIRTUALGPUMEMORYRESOURCE,
 req.header: dispmprt.h
 req.include-header: 

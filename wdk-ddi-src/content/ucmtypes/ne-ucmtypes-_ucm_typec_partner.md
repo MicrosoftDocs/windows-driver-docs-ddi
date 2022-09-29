@@ -4,7 +4,7 @@ title: _UCM_TYPEC_PARTNER (ucmtypes.h)
 description: Defines the state of the Type-C connector.
 old-location: buses\ucm_type_c_port_state.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/05/2022
 keywords: ["UCM_TYPEC_PARTNER enumeration"]
 ms.keywords: UCM_TYPEC_PARTNER, UCM_TYPEC_PARTNER enumeration [Buses], UcmTypeCPartnerStateAudioAccessory, UcmTypeCPartnerStateDebugAccessory, UcmTypeCPartnerStateDfp, UcmTypeCPartnerStateInvalid, UcmTypeCPartnerStatePoweredCableNoUfp, UcmTypeCPartnerStatePoweredCableWithUfp, UcmTypeCPartnerStateUfp, _UCM_TYPEC_PARTNER, buses.ucm_type_c_port_state, ucmtypes/UCM_TYPEC_PARTNER, ucmtypes/UcmTypeCPartnerStateAudioAccessory, ucmtypes/UcmTypeCPartnerStateDebugAccessory, ucmtypes/UcmTypeCPartnerStateDfp, ucmtypes/UcmTypeCPartnerStateInvalid, ucmtypes/UcmTypeCPartnerStatePoweredCableNoUfp, ucmtypes/UcmTypeCPartnerStatePoweredCableWithUfp, ucmtypes/UcmTypeCPartnerStateUfp
 req.header: ucmtypes.h
@@ -45,7 +45,6 @@ api_name:
 
 # _UCM_TYPEC_PARTNER enumeration
 
-
 ## -description
 
 Defines the state of the Type-C connector.
@@ -54,57 +53,33 @@ Defines the state of the Type-C connector.
 
 ### -field UcmTypeCPartnerInvalid
 
+The partner port state is invalid.
+
 ### -field UcmTypeCPartnerUfp
+
+The partner is an upstream facing port (UFP).
 
 ### -field UcmTypeCPartnerDfp
 
+The partner is a downstream facing port (DFP).
+
 ### -field UcmTypeCPartnerPoweredCableNoUfp
-
-### -field UcmTypeCPartnerPoweredCableWithUfp
-
-### -field UcmTypeCPartnerAudioAccessory
-
-### -field UcmTypeCPartnerDebugAccessory
-
-#### - UcmTypeCPartnerStateAudioAccessory
-
-The partner is used as an audio accessory.
-
-
-#### - UcmTypeCPartnerStateDebugAccessory
-
-The partner is a debug accessory.
-
-
-#### - UcmTypeCPartnerStateDfp
-
-The partner is a Downstream Facing Port (DFP).
-
-
-#### - UcmTypeCPartnerStateInvalid
-
-The partner port state is invalid.
-
-
-#### - UcmTypeCPartnerStatePoweredCableNoUfp
 
 The partner is a powered cable that requires VConn, that currently does not have a UFP attached on the other end.
 
-
-#### - UcmTypeCPartnerStatePoweredCableWithUfp
+### -field UcmTypeCPartnerPoweredCableWithUfp
 
 The partner is a powered and upstream facing.
 
+### -field UcmTypeCPartnerAudioAccessory
 
-#### - UcmTypeCPartnerStateUfp
+The partner is used as an audio accessory.
 
-The partner is an Upstream Facing Port (UFP).
+### -field UcmTypeCPartnerDebugAccessory
+
+The partner is a debug accessory.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_typec_attach_params">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectortypecattach">UcmConnectorTypeCAttach</a>
-
+- [UCM_CONNECTOR_TYPEC_ATTACH_PARAMS](../ucmmanager/ns-ucmmanager-_ucm_connector_typec_attach_params.md)
+- [UcmConnectorTypeCAttach](../ucmmanager/nf-ucmmanager-ucmconnectortypecattach.md)

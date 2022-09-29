@@ -49,14 +49,14 @@ This inline function is a wrapper for <a href="/windows-hardware/drivers/ddi/ks/
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure representing the specified AVStream device.
 
-### -param ClientUnknown 
+### -param ClientUnknown [in]
 
-[in]
+
 A pointer to the client's undelegated <b>IUnknown</b> interface.
 
 ## -returns

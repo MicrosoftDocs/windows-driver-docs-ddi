@@ -58,33 +58,33 @@ api_name:
 
 ## -parameters
 
-### -param MiniportAdapterHandle 
+### -param MiniportAdapterHandle [in]
 
-[in]
+
 Specifies the handle input to 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Specifies the number of bytes to allocate.
 
-### -param Cached 
+### -param Cached [in]
 
-[in]
+
 This parameter is ignored (cached memory is always used on x86 and x64 systems).
 
-### -param VirtualAddress 
+### -param VirtualAddress [out]
 
-[out]
+
 Pointer to a caller-supplied variable in which this function returns the base virtual address of
      the allocation for use by the miniport driver. If 
      <b>NdisMAllocateSharedMemory</b> cannot satisfy its caller, it returns <b>NULL</b> to indicate that no memory
      was allocated.
 
-### -param PhysicalAddress 
+### -param PhysicalAddress [out]
 
-[out]
+
 Pointer to a caller-supplied variable in which this function returns a physical address, suitable
      for use by the NIC, that corresponds to that returned at 
      <i>VirtualAddress</i>, or it returns <b>NULL</b>.

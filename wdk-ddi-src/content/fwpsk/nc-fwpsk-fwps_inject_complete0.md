@@ -53,25 +53,25 @@ The filter engine calls a callout's
 
 ## -parameters
 
-### -param context 
+### -param context [in]
 
-[in]
+
 A pointer to the 
      <i>completionContext</i> parameter of one of the 
      <a href="/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a> called
      by the callout driver.
 
-### -param netBufferList 
+### -param netBufferList [in, out]
 
-[in, out]
+
 The pointer passed in the 
      <i>netBufferList</i> parameter of one of the 
      <a href="/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a> called
      by the callout driver.
 
-### -param dispatchLevel 
+### -param dispatchLevel [in]
 
-[in]
+
 A value that indicates the IRQL at which the 
      <i>completionFn</i> callout function is being called. If this parameter is <b>TRUE</b>, the 
      <i>completionFn</i> callout function is being called at IRQL = DISPATCH_LEVEL. If this parameter is

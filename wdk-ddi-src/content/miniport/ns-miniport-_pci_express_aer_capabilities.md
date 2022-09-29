@@ -1,10 +1,9 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_AER_CAPABILITIES
-title: _PCI_EXPRESS_AER_CAPABILITIES (miniport.h)
-description: The _PCI_EXPRESS_AER_CAPABILITIES structure (miniport.h) describes a PCI Express (PCIe) advanced error capabilities and control register.
-old-location: pci\pci_express_aer_capabilities.htm
+title: PCI_EXPRESS_AER_CAPABILITIES (miniport.h)
+description: The _PCI_EXPRESS_AER_CAPABILITIES union (miniport.h) describes a PCI Express (PCIe) advanced error capabilities and control register.
 tech.root: PCI
-ms.date: 02/24/2018
+ms.date: 07/18/2022
 keywords: ["PCI_EXPRESS_AER_CAPABILITIES structure"]
 ms.keywords: "*PPCI_EXPRESS_AER_CAPABILITIES, PCI.pci_express_aer_capabilities, PCI_EXPRESS_AER_CAPABILITIES, PCI_EXPRESS_AER_CAPABILITIES union [Buses], PPCI_EXPRESS_AER_CAPABILITIES, PPCI_EXPRESS_AER_CAPABILITIES union pointer [Buses], _PCI_EXPRESS_AER_CAPABILITIES, pci_struct_e316ea91-d32a-4726-ba80-8fc6bd8e3163.xml, wdm/PCI_EXPRESS_AER_CAPABILITIES, wdm/PPCI_EXPRESS_AER_CAPABILITIES"
 req.header: miniport.h
@@ -46,82 +45,66 @@ api_name:
  - PCI_EXPRESS_AER_CAPABILITIES
 ---
 
-# _PCI_EXPRESS_AER_CAPABILITIES structure (miniport.h)
-
-
 ## -description
 
-The PCI_EXPRESS_AER_CAPABILITIES structure describes a PCI Express (PCIe) advanced error capabilities and control register of a PCIe advanced error reporting capability structure.
+The **PCI_EXPRESS_AER_CAPABILITIES** union describes a PCI Express (PCIe) advanced error capabilities and control register of a PCIe advanced error reporting capability structure.
 
 ## -struct-fields
 
 ### -field DUMMYSTRUCTNAME
 
-### -field AsULONG
+The **DUMMYSTRUCTNAME** structure.
 
-A ULONG representation of the contents of the PCI_EXPRESS_AER_CAPABILITIES structure.
-
-
-#### - ECRCCheckCapable
-
-A single bit that indicates that the device is capable of checking ECRC.
-
-
-#### - ECRCCheckEnable
-
-A single bit that indicates that ECRC checking is enabled.
-
-
-#### - ECRCGenerationCapable
-
-A single bit that indicates that the device is capable of generating end-to-end cyclic redundancy checks (ECRC).
-
-
-#### - ECRCGenerationEnable
-
-A single bit that indicates that ECRC generation is enabled.
-
-
-#### - FirstErrorPointer
+### -field DUMMYSTRUCTNAME.FirstErrorPointer
 
 The bit position of the first error that was reported in the PCIe uncorrectable error status register.
 
+### -field DUMMYSTRUCTNAME.ECRCGenerationCapable
 
-#### - Reserved
+A single bit that indicates that the device is capable of generating end-to-end cyclic redundancy checks (ECRC).
 
-Reserved.
+### -field DUMMYSTRUCTNAME.ECRCGenerationEnable
 
-## -syntax
+A single bit that indicates that ECRC generation is enabled.
 
-```cpp
-typedef union _PCI_EXPRESS_AER_CAPABILITIES {
-  struct {
-    ULONG FirstErrorPointer  :5;
-    ULONG ECRCGenerationCapable  :1;
-    ULONG ECRCGenerationEnable  :1;
-    ULONG ECRCCheckCapable  :1;
-    ULONG ECRCCheckEnable  :1;
-    ULONG Reserved  :23;
-  };
-  ULONG  AsULONG;
-} PCI_EXPRESS_AER_CAPABILITIES, *PPCI_EXPRESS_AER_CAPABILITIES;
-```
+### -field DUMMYSTRUCTNAME.ECRCCheckCapable
+
+A single bit that indicates that the device is capable of checking ECRC.
+
+### -field DUMMYSTRUCTNAME.ECRCCheckEnable
+
+A single bit that indicates that ECRC checking is enabled.
+
+### -field DUMMYSTRUCTNAME.MultipleHeaderRecordingCapable
+
+Defines the **ULONG** member **MultipleHeaderRecordingCapable**.
+
+### -field DUMMYSTRUCTNAME.MultipleHeaderRecordingEnable
+
+Defines the **ULONG** member **MultipleHeaderRecordingEnable**.
+
+### -field DUMMYSTRUCTNAME.TlpPrefixLogPresent
+
+Defines the **ULONG** member **TlpPrefixLogPresent**.
+
+### -field DUMMYSTRUCTNAME.Reserved
+
+Reserved for future use.
+
+### -field AsULONG
+
+A ULONG representation of the contents of the PCI_EXPRESS_AER_CAPABILITIES structure.
 
 ## -remarks
 
 The PCI_EXPRESS_AER_CAPABILITIES structure is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_AER_CAPABILITIES structure is contained in the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a>, <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>, and <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a> structures.
+A PCI_EXPRESS_AER_CAPABILITIES structure is contained in the [PCI_EXPRESS_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability), [PCI_EXPRESS_BRIDGE_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability), and [PCI_EXPRESS_ROOTPORT_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability) structures.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a>
+[PCI_EXPRESS_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability)
 
+[PCI_EXPRESS_BRIDGE_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
-
+[PCI_EXPRESS_ROOTPORT_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability)

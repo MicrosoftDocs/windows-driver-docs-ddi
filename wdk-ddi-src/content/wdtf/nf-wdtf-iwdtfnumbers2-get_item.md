@@ -49,8 +49,6 @@ Gets an individual number in the collection.
 
 This property is read-only.
 
-## -parameters
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfnumbers2">IWDTFNumbers2</a>

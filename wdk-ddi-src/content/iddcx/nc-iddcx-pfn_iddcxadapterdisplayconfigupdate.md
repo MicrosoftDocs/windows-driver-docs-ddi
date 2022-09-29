@@ -7,8 +7,6 @@ tech.root: display
 ms.author: windowsdriverdev
 ms.date: 09/28/2020
 keywords: ["PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE callback pointer"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: iddcx.h
 req.include-header: 
 req.target-type: 
@@ -53,17 +51,17 @@ dev_langs:
 
 ## -parameters
 
-### -param DriverGlobals
+### -param DriverGlobals [in]
 
-[in] Pointer to an [**IDD_DRIVER_GLOBALS**](./ns-iddcx-idd_driver_globals.md) structure containing system-defined per-driver data.
+Pointer to an [**IDD_DRIVER_GLOBALS**](./ns-iddcx-idd_driver_globals.md) structure containing system-defined per-driver data.
 
-### -param AdapterObject
+### -param AdapterObject [in]
 
-[in] The adapter object of the remote adapter that the display configuration is specified for.
+The adapter object of the remote adapter that the display configuration is specified for.
 
-### -param pInArgs
+### -param pInArgs [in]
 
-[in] Input arguments.
+Input arguments.
 
 ## -returns
 

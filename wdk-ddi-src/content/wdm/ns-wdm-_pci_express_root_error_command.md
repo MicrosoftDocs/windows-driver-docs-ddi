@@ -63,22 +63,22 @@ The PCI_EXPRESS_ROOT_ERROR_COMMAND structure describes a PCI Express (PCIe) root
 A ULONG representation of the contents of the PCI_EXPRESS_ROOT_ERROR_COMMAND structure.
 
 
-#### - CorrectableErrorReportingEnable
+### -field DUMMYSTRUCTNAME.CorrectableErrorReportingEnable
 
 A single bit that indicates that interrupts are enabled for when a correctable error is reported by any of the devices in the hierarchy that are associated with this root port.
 
 
-#### - FatalErrorReportingEnable
+### -field DUMMYSTRUCTNAME.FatalErrorReportingEnable
 
 A single bit that indicates that interrupts are enabled for when a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port.
 
 
-#### - NonFatalErrorReportingEnable
+### -field DUMMYSTRUCTNAME.NonFatalErrorReportingEnable
 
 A single bit that indicates that interrupts are enabled for when a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port.
 
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved.
 

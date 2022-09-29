@@ -45,9 +45,9 @@ The client driver calls the  **NET_ADAPTER_WAKE_REASON_EAPOL_PACKET_INIT** funct
 
 ## -parameters
 
-### -param Reason
+### -param Reason [out]
 
-[out] A pointer to a driver allocated [**NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES**](ns-netadapter-net_adapter_wake_eapol_packet_capabilities.md) structure.
+A pointer to a driver allocated [**NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES**](ns-netadapter-net_adapter_wake_eapol_packet_capabilities.md) structure.
 
 ## -remarks
 

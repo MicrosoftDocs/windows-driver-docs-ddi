@@ -3,7 +3,7 @@ UID: NE:wditypes._WDI_SAE_STATUS
 title: WDI_SAE_STATUS
 description: The WDI_SAE_STATUS enumeration defines SAE authentication failure error status codes.
 tech.root: netvista
-ms.date: 02/14/2019
+ms.date: 12/28/2021
 keywords: ["WDI_SAE_STATUS enumeration"]
 ms.keywords: WDI_SAE_STATUS, WDI_SAE_STATUS,
 req.header: wditypes.hpp
@@ -37,6 +37,9 @@ api_name:
 
 
 ## -description
+
+> [!IMPORTANT]
+> This topic is part of the [WDI driver model](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) released in Windows 10. The WDI driver model is in maintenance mode and will only receive high priority fixes. [WiFiCx](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx) is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features.
 
 The **WDI_SAE_STATUS** enumeration defines SAE authentication failure error status codes. This enumeration is used to provide failure codes from the OS to the miniport driver, or from the driver to the OS.
 
@@ -129,6 +132,34 @@ WDI failed to match the Verifier from the Confirm frame.
 ### -field WDI_SAE_STATUS_CONFIRM_MESSAGE_RESEND_REQUEST 
 
 The driver requests a new set of Confirm frame parameters to resend the Confirm request to the AP.
+
+### -field WDI_SAE_STATUS_INITIALIZATION_H2E_NOT_SUPPORTED
+
+AP requires Hash-To-Element support but the driver doesn't support Hash-To-Element.
+
+### -field WDI_SAE_STATUS_INITIALIZATION_PWD_ID_NOT_SUPPORTED
+
+AP requires Password-Identifier, but no Password-Identifier is available.
+
+### -field WDI_SAE_STATUS_TIMEOUT_WAITING_FOR_COMMIT_REQUEST
+
+The driver timed out waiting for a Commit Request from the OS.
+
+### -field WDI_SAE_STATUS_TIMEOUT_WAITING_FOR_CONFIRM_REQUEST
+
+The driver timed out waiting for a Confirm Request from the OS.
+
+### -field WDI_SAE_STATUS_TIMEOUT_WAITING_FOR_STATUS
+
+The driver timed out waiting for a Status from the OS.
+
+### -field WDI_SAE_STATUS_CONNECTION_CLEANED_UP
+
+Internal handling code.
+
+### -field WDI_SAE_STATUS_CLEAN_UP_CONTEXT
+
+Internal handling code.
 
 ## -remarks
 

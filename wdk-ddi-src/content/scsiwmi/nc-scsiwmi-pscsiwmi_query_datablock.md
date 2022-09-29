@@ -50,44 +50,44 @@ A miniport driver's <b>HwScsiWmiQueryDataBlock</b> routine is called to obtain e
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Points to the miniport driver-defined context value passed to <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>.
 
-### -param DispatchContext 
+### -param DispatchContext [in]
 
-[in]
+
 Points to the SCSIWMI_REQUEST_CONTEXT structure that the miniport driver passed to <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>.
 
-### -param GuidIndex 
+### -param GuidIndex [in]
 
-[in]
+
 Specifies the data block by its index into the list of GUIDs in the SCSI_WMILIB_CONTEXT structure that the miniport driver passed to <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>.
 
-### -param InstanceIndex 
+### -param InstanceIndex [in]
 
-[in]
+
 If <b>HwScsiWmiQueryDataBlock</b> is called in response to an IRP_MN_QUERY_SINGLE_INSTANCE request, <i>InstanceIndex</i> specifies the instance to be queried. If <b>HwScsiWmiQueryDataBlock</b> is called in response to an IRP_MN_QUERY_ALL_DATA REQUEST, <i>InstanceIndex</i> is zero.
 
-### -param InstanceCount 
+### -param InstanceCount [in]
 
-[in]
+
 If <b>HwScsiWmiQueryDataBlock</b> is called in response to an IRP_MN_QUERY_SINGLE_INSTANCE request, <i>InstanceCount</i> is 1. If <b>HwScsiWmiQueryDataBlock</b> is called in response to an IRP_MN_QUERY_ALL_DATA REQUEST, <i>InstanceCount</i> is the number of instances to be returned.
 
-### -param InstanceLengthArray 
+### -param InstanceLengthArray [in, out]
 
-[in, out]
+
 Points to an array of ULONGs that indicate the length of each instance of the data block to be returned. This array has <i>InstanceCount</i> elements. This value may be <b>NULL</b> when there is not enough space in the output buffer to fulfill the request.
 
-### -param BufferAvail 
+### -param BufferAvail [in]
 
-[in]
+
 Specifies the maximum number of bytes available to receive data in the buffer at <i>Buffer</i>.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Points to the buffer to receive instance data. If the buffer is large enough to receive all of the data, the miniport driver writes instance data to the buffer with each instance aligned on an 8-byte boundary. If the buffer is too small to receive all of the data, the miniport driver calls <a href="/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess">ScsiPortWmiPostProcess</a> with a status of SRB_STATUS_DATA_OVERRUN and sets <i>BufferUsed</i>  to the size of the output buffer needed to fulfill the request.
 
 ## -returns

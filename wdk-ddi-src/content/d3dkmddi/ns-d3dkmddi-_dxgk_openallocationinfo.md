@@ -52,21 +52,21 @@ The DXGK_OPENALLOCATIONINFO structure contains handles to nondevice-specific and
 
 ## -struct-fields
 
-### -field hAllocation
+### -field hAllocation [in]
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the nondevice-specific allocation that the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a> function created. The Microsoft DirectX graphics kernel subsystem (which is part of <i>Dxgkrnl.sys</i>) assigned this handle for the allocation.
+A D3DKMT_HANDLE data type that represents a kernel-mode handle to the nondevice-specific allocation that the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a> function created. The Microsoft DirectX graphics kernel subsystem (which is part of <i>Dxgkrnl.sys</i>) assigned this handle for the allocation.
 
-### -field pPrivateDriverData
+### -field pPrivateDriverData [in/out]
 
-[in/out] A pointer to a block of private data that is passed between the user-mode display driver and the display miniport driver. This block of private data is the same allocation-specific data that is passed in the <b>pPrivateDriverData</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationinfo">DXGK_ALLOCATIONINFO</a> structure in the call to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a> function. The display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a> function can modify this block of private data if the <b>Create</b> bit-field flag is set in the <b>Flags</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_openallocation">DXGKARG_OPENALLOCATION</a> structure. The user-mode display driver can access modifications to the block of private data.
+A pointer to a block of private data that is passed between the user-mode display driver and the display miniport driver. This block of private data is the same allocation-specific data that is passed in the <b>pPrivateDriverData</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationinfo">DXGK_ALLOCATIONINFO</a> structure in the call to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a> function. The display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a> function can modify this block of private data if the <b>Create</b> bit-field flag is set in the <b>Flags</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_openallocation">DXGKARG_OPENALLOCATION</a> structure. The user-mode display driver can access modifications to the block of private data.
 
-### -field PrivateDriverDataSize
+### -field PrivateDriverDataSize [in]
 
-[in] The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
+The size, in bytes, of the block of private data that <b>pPrivateDriverData</b> points to.
 
-### -field hDeviceSpecificAllocation
+### -field hDeviceSpecificAllocation [out]
 
-[out] A handle to the device-specific allocation that corresponds to the non device-specific allocation that <b>hAllocation</b> specifies. The display miniport driver must set <b>hDeviceSpecificAllocation</b> to a handle value that it can use to refer to its private tracking structure for the allocation.
+A handle to the device-specific allocation that corresponds to the non device-specific allocation that <b>hAllocation</b> specifies. The display miniport driver must set <b>hDeviceSpecificAllocation</b> to a handle value that it can use to refer to its private tracking structure for the allocation.
 
 ## -see-also
 

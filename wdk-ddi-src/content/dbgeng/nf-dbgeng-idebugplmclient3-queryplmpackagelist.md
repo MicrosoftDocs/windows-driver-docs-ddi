@@ -49,14 +49,14 @@ Query a Process Lifecycle Management (PLM) package list.
 
 ## -parameters
 
-### -param Server 
+### -param Server [in]
 
-[in]
+
 The server of the package.
 
-### -param Stream 
+### -param Stream [in]
 
-[in]
+
 A pointer to an output stream for results.
 
 ## -returns

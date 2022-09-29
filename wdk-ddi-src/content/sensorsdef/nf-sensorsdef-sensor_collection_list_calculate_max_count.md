@@ -49,9 +49,9 @@ This function calculates the number of <a href="/windows-hardware/drivers/ddi/se
 
 ## -parameters
 
-### -param pCollectionList 
+### -param pCollectionList [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a> structure.
 
 ## -returns

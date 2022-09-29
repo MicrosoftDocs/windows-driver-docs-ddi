@@ -49,19 +49,19 @@ Gets a Unicode character string prefix for output lines.
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 The pointer to the buffer of the prefix.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 The length of the buffer.
 
-### -param PrefixSize 
+### -param PrefixSize [out, optional]
 
-[out, optional]
+
 A pointer to the length of the prefix.
 
 ## -returns

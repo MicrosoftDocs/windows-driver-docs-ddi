@@ -50,9 +50,9 @@ The <b>KsQueryObjectCreateItem</b> function returns the create item assigned to 
 
 ## -parameters
 
-### -param Header 
+### -param Header [in]
 
-[in]
+
 Indicates the header previously allocated.
 
 ## -returns

@@ -52,24 +52,24 @@ The <b>WdfWmiProviderCreate</b> method creates a WMI provider object that repres
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object that will be the new provider object's parent object. The device object cannot be a <a href="/windows-hardware/drivers/wdf/using-control-device-objects">control device object</a>.
 
-### -param WmiProviderConfig 
+### -param WmiProviderConfig [in]
 
-[in]
+
 A pointer to a caller-initialized <a href="/windows-hardware/drivers/ddi/wdfwmi/ns-wdfwmi-_wdf_wmi_provider_config">WDF_WMI_PROVIDER_CONFIG</a> structure that contains configuration information about the WMI data block.
 
-### -param ProviderAttributes 
+### -param ProviderAttributes [in, optional]
 
-[in, optional]
+
 A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied object attributes for the new WMI provider object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param WmiProvider 
+### -param WmiProvider [out]
 
-[out]
+
 A pointer to a location that receives a handle to the new WMI provider object.
 
 ## -returns

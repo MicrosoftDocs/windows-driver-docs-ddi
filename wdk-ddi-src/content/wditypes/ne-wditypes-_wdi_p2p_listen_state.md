@@ -48,6 +48,9 @@ api_name:
 
 ## -description
 
+> [!IMPORTANT]
+> This topic is part of the [WDI driver model](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) released in Windows 10. The WDI driver model is in maintenance mode and will only receive high priority fixes. [WiFiCx](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx) is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features.
+
 The WDI_P2P_LISTEN_STATE enumeration defines the Wi-Fi Direct listen states.
 
 ## -enum-fields
@@ -94,3 +97,4 @@ When this listen state is set:
 
 ### -field WDI_P2P_LISTEN_STATE_DUMMY_MAX_VALUE
 
+The maximum value for this type.

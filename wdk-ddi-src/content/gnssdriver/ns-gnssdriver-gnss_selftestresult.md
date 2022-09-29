@@ -2,13 +2,12 @@
 UID: NS:gnssdriver.__unnamed_struct_50
 title: GNSS_SELFTESTRESULT (gnssdriver.h)
 description: The GNSS_SELFTESTRESULT structure defines the specific data elements associated with a carrier wave test results returned from the driver.
-old-location: gnss\gnss_selftestresult.htm
 tech.root: gnss
-ms.date: 02/15/2018
+ms.date: 06/16/2022
 keywords: ["GNSS_SELFTESTRESULT structure"]
 ms.keywords: "*PGNSS_SELFTESTRESULT, GNSS_SELFTESTRESULT, GNSS_SELFTESTRESULT structure [Sensor Devices], PGNSS_SELFTESTRESULT, PGNSS_SELFTESTRESULT structure pointer [Sensor Devices], gnss.gnss_selftestresult, gnssdriver/GNSS_SELFTESTRESULT, gnssdriver/PGNSS_SELFTESTRESULT"
 req.header: gnssdriver.h
-req.include-header: 
+req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -43,9 +42,6 @@ api_name:
  - GNSS_SELFTESTRESULT
 ---
 
-# GNSS_SELFTESTRESULT structure
-
-
 ## -description
 
 This structure defines the specific data elements associated with a carrier wave test results returned from the driver.
@@ -64,16 +60,9 @@ Version number.
 
 NTSTATUS value indicating:
 
-<ul>
-<li>
-Success (self-test passed).
+- Success (self-test passed).
 
-</li>
-<li>
-Failed (indicating the problem detected or indicating that the is test not implemented).
-
-</li>
-</ul>
+- Failed (indicating the problem detected or indicating that the is test not implemented).
 
 ### -field Result
 
@@ -85,23 +74,12 @@ The bit mask for adapter pins that failed the test.
 
 ### -field Unused
 
+Padding buffer reserved for future use.
+
 ### -field OutBufLen
 
 The length of the buffer for returning any additional information about the self-test.
 
 ### -field OutBuffer
 
- 
-
-
-
-
-#### - OutBuffer[BYTE]
-
 The buffer that will contain the additional information about the self-test.
-
-
-#### - Unused[512]
-
-Padding buffer.
-

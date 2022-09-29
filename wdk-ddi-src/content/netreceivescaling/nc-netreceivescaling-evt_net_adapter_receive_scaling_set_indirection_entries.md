@@ -3,7 +3,7 @@ UID: NC:netreceivescaling.EVT_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIE
 title: EVT_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIES (netreceivescaling.h)
 description: The EvtNetAdapterReceiveScalingSetIndirectionEntries callback function is implemented by the client driver to perform moves of individual receive side scaling (RSS) indirection table entries to new processors.
 tech.root: netvista
-ms.date: 03/07/2018
+ms.date: 04/01/2022
 keywords: ["EVT_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIES callback function"]
 req.header: netreceivescaling.h
 req.include-header: netadaptercx.h 
@@ -45,11 +45,11 @@ The *EvtNetAdapterReceiveScalingSetIndirectionEntries* callback function is impl
 
 ## -parameters
 
-### -param Adapter 
+### -param Adapter [_In_]
 
 The NETADAPTER object the client driver obtained in a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
-### -param IndirectionEntries 
+### -param IndirectionEntries [_Inout_]
 
 A pointer to a [**NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES**](ns-netreceivescaling-_net_adapter_receive_scaling_indirection_entries.md) structure that represents the indirection table.
 

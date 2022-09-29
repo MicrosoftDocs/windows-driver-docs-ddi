@@ -49,19 +49,19 @@ The <b>IoGetDmaAdapter</b> routine returns a pointer to the DMA adapter structur
 
 ## -parameters
 
-### -param PhysicalDeviceObject 
+### -param PhysicalDeviceObject [in, optional]
 
-[in, optional]
+
 Pointer to the physical device object for the device requesting the DMA adapter structure.
 
-### -param DeviceDescription 
+### -param DeviceDescription [in]
 
-[in]
+
 Pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_description">DEVICE_DESCRIPTION</a> structure, which describes the attributes of the physical device. Regardless of the version set in the DEVICE_DESCRIPTION structure, this function always returns `DMA_ADAPTER->Version == 1`.
 
-### -param NumberOfMapRegisters 
+### -param NumberOfMapRegisters [out]
 
-[out]
+
 A pointer to, on output, the maximum number of map registers that the driver can allocate for any DMA transfer operation.
 
 ## -returns
@@ -72,7 +72,7 @@ A pointer to, on output, the maximum number of map registers that the driver can
 
 Before calling this routine, a driver must zero-initialize the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_description">DEVICE_DESCRIPTION</a> structure pointed to by <i>DeviceDescription</i> and then add the relevant information for its device to this structure.
 
-On success, the <b>DmaOperations</b> member of the routine's return value points to a <b>DMA_ADAPTER</b> structure. This structure contains a pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations">DMA_OPERATIONS</a> structure, which is a table of pointers to functions that the driver can subsequently use to perform DMA operations. The version of this structure that the routine returns is determined as follows:
+On success, the routine's return value points to a <b>DMA_ADAPTER</b> structure. This structure contains a pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations">DMA_OPERATIONS</a> structure, which is a table of pointers to functions that the driver can subsequently use to perform DMA operations. The version of this structure that the routine returns is determined as follows:
 
 <ul>
 <li> If the driver sets the <b>Version</b> member of the <b>DEVICE_DESCRIPTION</b> structure to DEVICE_DESCRIPTION_VERSION or DEVICE_DESCRIPTION_VERSION1, the returned <b>DMA_ADAPTER</b> structure points to version 1 of the <b>DMA_OPERATIONS</b> structure.</li>

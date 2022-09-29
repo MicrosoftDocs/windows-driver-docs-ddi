@@ -51,9 +51,9 @@ The <b>ScsiPortReadRegisterUlong</b> routine reads a ULONG value from the HBA.
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 ## -returns

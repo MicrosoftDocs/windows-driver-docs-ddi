@@ -4,7 +4,7 @@ title: PFN_WSK_CLIENT_EVENT (wsk.h)
 description: The WskClientEvent event callback function notifies a WSK application about events that are not specific to a particular socket.
 old-location: netvista\wskclientevent.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/29/2021
 keywords: ["PFN_WSK_CLIENT_EVENT callback function"]
 ms.keywords: PFN_WSK_CLIENT_EVENT, PFN_WSK_CLIENT_EVENT callback, WskClientEvent, WskClientEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskclientevent, wsk/WskClientEvent, wskref_c9f563f1-19c1-4f8d-ab44-04eedd74763f.xml
 req.header: wsk.h
@@ -51,33 +51,29 @@ The
 
 ## -parameters
 
-### -param ClientContext 
+### -param ClientContext [in, optional]
 
-[in, optional]
+
 A pointer to the context value that was specified by the 
      <i>WskClientNpi</i> parameter passed to the 
      <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> function.
 
-### -param EventType
+### -param EventType [in]
 
-### -param Information 
+The specific event about which the WSK application is being notified. There are currently no events defined.
 
-[in, optional]
+### -param Information [in, optional]
+
+
 A pointer to a buffer that contains additional information that is associated with the event. If
      there is no additional information associated with the event, this pointer will be <b>NULL</b>.
 
-### -param InformationLength 
+### -param InformationLength [in]
 
-[in]
+
 The length of the additional information that is contained in the buffer that is pointed to by the     
      <i>Information</i> parameter. If there is no additional information associated with the event, this value
      will be zero.
-
-
-#### - Event [in]
-
-The specific event about which the WSK application is being notified. There are currently no
-     events defined.
 
 ## -returns
 

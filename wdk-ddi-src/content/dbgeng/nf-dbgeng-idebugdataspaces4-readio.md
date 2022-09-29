@@ -49,39 +49,39 @@ The <b>ReadIo</b> method reads from the system and bus I/O memory.
 
 ## -parameters
 
-### -param InterfaceType 
+### -param InterfaceType [in]
 
-[in]
+
 Specifies the interface type of the I/O bus.  This parameter may take values in the INTERFACE_TYPE enumeration defined in wdm.h.
 
-### -param BusNumber 
+### -param BusNumber [in]
 
-[in]
+
 Specifies the system-assigned number of the bus.  This is usually zero, unless the system has more than one bus of the same interface type.
 
-### -param AddressSpace 
+### -param AddressSpace [in]
 
-[in]
+
 This parameter must be equal to one.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 Specifies the I/O address within the address space.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Receives the data read from the I/O bus.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be read.  At present, this must be 1, 2, or 4.
 
-### -param BytesRead 
+### -param BytesRead [out, optional]
 
-[out, optional]
+
 Receives the number of bytes returned read from the I/O bus.  If <i>BytesRead</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns

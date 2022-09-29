@@ -52,18 +52,18 @@ The <b>FsRtlRegisterUncProvider</b> routine registers a network redirector as a 
 
 ## -parameters
 
-### -param MupHandle 
+### -param MupHandle [out]
 
-[out]
+
 A pointer to a location in which to return a MUP handle to be used when calling <b>FsRtlRegisterUncProvider</b> to deregister the network redirector. The returned handle is valid only if <b>FsRtlRegisterUncProvider</b> returns STATUS_SUCCESS.
 
 ### -param RedirectorDeviceName
 
 <p>A pointer to a Unicode string that contains the device name of the network redirector. </p>
 
-### -param MailslotsSupported 
+### -param MailslotsSupported [in]
 
-[in]
+
 Set to <b>TRUE</b> if the network redirector supports mailslots. This option is normally reserved for use by the Microsoft SMB redirector.
 
 ## -returns

@@ -50,13 +50,13 @@ The <b>ExtRemoteData</b> constructor creates a new instance of the[ExtRemoteData
 
 ## -parameters
 
-### -param Offset 
+### -param Offset [in]
 
-[in]Location of the beginning of the memory region in the target's virtual address space.
+Location of the beginning of the memory region in the target's virtual address space.
 
-### -param Bytes 
+### -param Bytes [in]
 
-[in]Number of bytes in the memory region.
+Number of bytes in the memory region.
 
 ## -remarks
 

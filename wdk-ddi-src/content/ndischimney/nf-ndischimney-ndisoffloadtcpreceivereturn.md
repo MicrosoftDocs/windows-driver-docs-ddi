@@ -54,18 +54,18 @@ A protocol driver or intermediate driver calls the
 
 ## -parameters
 
-### -param NdisBindingHandle 
+### -param NdisBindingHandle [in]
 
-[in]
+
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of the 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function. This handle
      identifies the binding between the caller and the underlying intermediate driver or offload
      target.
 
-### -param NetBufferList 
+### -param NetBufferList [in]
 
-[in]
+
 A pointer to a 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
      can be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.

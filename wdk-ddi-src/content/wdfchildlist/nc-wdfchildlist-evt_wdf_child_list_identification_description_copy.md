@@ -51,19 +51,19 @@ A driver's <i>EvtChildListIdentificationDescriptionCopy</i> event callback funct
 
 ## -parameters
 
-### -param ChildList 
+### -param ChildList [in]
 
-[in]
+
 A handle to a framework child-list object.
 
-### -param SourceIdentificationDescription 
+### -param SourceIdentificationDescription [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_identification_description_header">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure that identifies the source location of the child identification description.
 
-### -param DestinationIdentificationDescription 
+### -param DestinationIdentificationDescription [out]
 
-[out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_identification_description_header">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure that identifies the destination location of the child identification description.
 
 ## -remarks

@@ -49,9 +49,9 @@ The <b>VideoPortZeroMemory</b> function fills a block of system memory with zero
 
 ## -parameters
 
-### -param Destination 
+### -param Destination [out]
 
-[out]
+
 Specifies the starting address of the block of memory. This value must be in a mapped logical range returned by <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>.
 
 ### -param Length

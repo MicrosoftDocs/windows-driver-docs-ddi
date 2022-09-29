@@ -23,5 +23,5 @@
     "scavengr.h",
     "wdm.h"
   ],
-  "displayName": "Installable file system"
+  "displayName": "File systems and minifilters"
 }

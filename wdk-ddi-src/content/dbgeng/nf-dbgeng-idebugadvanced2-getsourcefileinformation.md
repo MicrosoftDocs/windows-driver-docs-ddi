@@ -49,9 +49,9 @@ The <b>GetSourceFileInformation</b> method returns specified information about a
 
 ## -parameters
 
-### -param Which 
+### -param Which [in]
 
-[in]
+
 Specifies the piece of information to return.  The <i>Which</i> parameter can take one of the values in the following table.
 
 
@@ -68,34 +68,34 @@ Returns a token representing the specified source file on a source server.  This
 
 Queries a source server for the command to extract the source file from source control.  This includes the name of the executable file and its command-line parameters. The command is returned to the <i>Buffer</i> buffer as a Unicode string.
 
-### -param SourceFile 
+### -param SourceFile [in]
 
-[in]
+
 Specifies the source file whose information is being requested.  The source file is looked up on all the source servers in the source path.
 
-### -param Arg64 
+### -param Arg64 [in]
 
-[in]
+
 Specifies a 64-bit argument.  The value of <i>Which</i> specifies the module whose symbol token is requested.  Regardless of the value of <i>Which</i>, <i>Arg64</i> is a location within the memory allocation of the module.
 
-### -param Arg32 
+### -param Arg32 [in]
 
-[in]
+
 Specifies a 32-bit argument.  This parameter is currently unused.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the requested symbol information.  The type of the data returned depends on the value of <i>Which</i>.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
+
 Specifies the size in bytes of the <i>Buffer</i> buffer. If <i>Buffer</i> is <b>NULL</b>, <i>BufferSize</i> must also be <b>NULL</b>.
 
-### -param InfoSize 
+### -param InfoSize [out, optional]
 
-[out, optional]
+
 Specifies the size in bytes of the information returned to the <i>Buffer</i> buffer.  This parameter can be <b>NULL</b> if the data is not required.
 
 ## -returns

@@ -46,17 +46,17 @@ Starts retrieving the history recorded so far in the sensor.
 
 ## -parameters
 
-### -param Sensor
+### -param Sensor [in]
 
-[in] A reference to a sensor object.
+A reference to a sensor object.
 
-### -param pHistory
+### -param pHistory [in, out]
 
-[in, out] Pointer to the sensor collection list.
+Pointer to the sensor collection list.
 
-### -param HistorySizeInBytes
+### -param HistorySizeInBytes [in]
 
-[in] The size of the *pHistory*, in bytes.
+The size of the *pHistory*, in bytes.
 
 ## -returns
 

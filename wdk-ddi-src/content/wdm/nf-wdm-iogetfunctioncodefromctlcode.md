@@ -49,9 +49,9 @@ The <b>IoGetFunctionCodeFromCtlCode</b> macro returns the value of the function 
 
 ## -parameters
 
-### -param ControlCode 
+### -param ControlCode [in]
 
-[in]
+
 The IOCTL_<i>XXX</i> (or FSCTL_<i>XXX</i>) value, which can be obtained from the driver's I/O stack location of the IRP at <b>Parameters.DeviceIoControl.IoControlCode</b>.
 
 ## -remarks

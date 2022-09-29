@@ -3,7 +3,7 @@ UID: NF:netadapter.NetAdapterSetCurrentLinkLayerAddress
 title: NetAdapterSetCurrentLinkLayerAddress function (netadapter.h)
 description: The NetAdapterSetCurrentLinkLayerAddress function sets the current link layer address for the network adapter.
 tech.root: netvista
-ms.date: 02/06/2018
+ms.date: 03/30/2022
 keywords: ["NetAdapterSetCurrentLinkLayerAddress function"]
 ms.keywords: NetAdapterSetCurrentLinkLayerAddress
 req.header: netadapter.h
@@ -49,11 +49,11 @@ The **NetAdapterSetCurrentLinkLayerAddress** function sets the current link laye
 
 ## -parameters
 
-### -param Adapter
+### -param Adapter [_In_]
 
 The network adapter object that the driver created in a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
 
-### -param LinkLayerAddress
+### -param LinkLayerAddress [_In_]
 
 A pointer to a NET_ADAPTER_LINK_LAYER_ADDRESS object that the driver initialized in a prior call to [NET_ADAPTER_LINK_LAYER_ADDRESS_INIT](nf-netadapter-net_adapter_link_layer_address_init.md).
 

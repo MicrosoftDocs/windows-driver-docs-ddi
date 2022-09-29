@@ -2,9 +2,8 @@
 UID: NC:printoem.PFNGETINFO
 title: PFNGETINFO (printoem.h)
 description: The UNIFONTOBJ_GetInfo callback function is provided by the Unidrv driver so that rendering plug-ins can obtain font or glyph information.
-old-location: print\unifontobj_getinfo.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/11/2022
 keywords: ["PFNGETINFO callback function"]
 ms.keywords: PFNGETINFO, UNIFONTOBJ_GetInfo, UNIFONTOBJ_GetInfo routine [Print Devices], print.unifontobj_getinfo, print_unidrv-pscript_rendering_7dc55246-beaa-4058-87a3-5438db3368c4.xml, printoem/UNIFONTOBJ_GetInfo
 req.header: printoem.h
@@ -40,222 +39,62 @@ api_name:
  - PFNGETINFO
 ---
 
-# PFNGETINFO callback function
-
-
 ## -description
 
-The <b>UNIFONTOBJ_GetInfo</b> callback function is provided by the Unidrv driver so that rendering plug-ins can obtain font or glyph information.
+The **UNIFONTOBJ_GetInfo** callback function is provided by the Unidrv driver so that rendering plug-ins can obtain font or glyph information.
 
 ## -parameters
 
-### -param 
-
 ### -param unnamedParam1
+
+Pointer to the [UNIFONTOBJ](/windows-hardware/drivers/ddi/printoem/ns-printoem-_unifontobj) structure received by the function that is making the callback to **UNIFONTOBJ_GetInfo**. Supplied by the caller.
 
 ### -param unnamedParam2
 
+Specifies the size, in bytes, of the buffer pointed to by *pData*. Supplied by the caller.
+
 ### -param unnamedParam3
-
-### -param unnamedParam4
-
-#### - dwDataSize
-
-Specifies the size, in bytes, of the buffer pointed to by <i>pData</i>. Supplied by the caller.
-
-
-#### - dwInfoID
-
-Specifies the type of structure pointed to by <i>pData</i>. Supplied by the caller. See the following table.
-
-
-#### - pData
 
 Pointer to a structure, as indicated in the following table. Supplied by the caller.
 
-<table>
-<tr>
-<th>dwInfoID Value</th>
-<th><i>pData</i> Structure</th>
-</tr>
-<tr>
-<td>
-UFO_GETINFO_FONTOBJ
+| dwInfoID Value | *pData* Structure |
+|--|--|
+| UFO_GETINFO_FONTOBJ | [GETINFO_FONTOBJ](/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_fontobj) |
+| UFO_GETINFO_GLYPHBITMAP | [GETINFO_GLYPHBITMAP](/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphbitmap) |
+| UFO_GETINFO_GLYPHSTRING | [GETINFO_GLYPHSTRING](/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphstring) |
+| UFO_GETINFO_GLYPHWIDTH | [GETINFO_GLYPHWIDTH](/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphwidth) |
+| UFO_GETINFO_MEMORY | [GETINFO_MEMORY](/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_memory) |
+| UFO_GETINFO_STDVARIABLE | [GETINFO_STDVAR](/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_stdvar) |
 
-</td>
-<td>
+For more information, see the table in the **Remarks** section.
 
-<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_fontobj">GETINFO_FONTOBJ</a>
+### -param unnamedParam4
 
+Specifies the type of structure pointed to by *pData*. Supplied by the caller. For more information, see the table in the **Remarks** section.
 
-</td>
-</tr>
-<tr>
-<td>
-UFO_GETINFO_GLYPHBITMAP
+### -param unnamedParam5
 
-</td>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphbitmap">GETINFO_GLYPHBITMAP</a>
-
-
-</td>
-</tr>
-<tr>
-<td>
-UFO_GETINFO_GLYPHSTRING
-
-</td>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphstring">GETINFO_GLYPHSTRING</a>
-
-
-</td>
-</tr>
-<tr>
-<td>
-UFO_GETINFO_GLYPHWIDTH
-
-</td>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphwidth">GETINFO_GLYPHWIDTH</a>
-
-
-</td>
-</tr>
-<tr>
-<td>
-UFO_GETINFO_MEMORY
-
-</td>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_memory">GETINFO_MEMORY</a>
-
-
-</td>
-</tr>
-<tr>
-<td>
-UFO_GETINFO_STDVARIABLE
-
-</td>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_stdvar">GETINFO_STDVAR</a>
-
-
-</td>
-</tr>
-</table>
- 
-
-For a summary of structure contents, see the following <b>Remarks</b> section.
-
-
-#### - pUFObj
-
-Pointer to the <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_unifontobj">UNIFONTOBJ</a> structure received by the function that is making the callback to <b>UNIFONTOBJ_GetInfo</b>. Supplied by the caller.
-
-
-#### - pcbNeeded
-
-Pointer to a location that receives the minimum buffer size, in bytes, required to contain the structure identified by <i>dwInfoID</i>. Supplied by the caller.
+Pointer to a location that receives the minimum buffer size, in bytes, required to contain the structure identified by *dwInfoID*. Supplied by the caller.
 
 ## -returns
 
-If the operation succeeds, the function returns <b>TRUE</b>. Otherwise it returns <b>FALSE</b>.
+Returns a **BOOL** value. If the operation succeeds, the function returns **TRUE**. Otherwise it returns **FALSE**.
 
 ## -remarks
 
-The <b>UNIFONTOBJ_GetInfo</b> callback function allows a <a href="/windows-hardware/drivers/print/rendering-plug-ins">rendering plug-in</a> to call back into Unidrv to obtain font or glyph information from GDI, needed for handling <a href="/windows-hardware/drivers/print/customized-font-management">customized font management</a> operations.
+The **UNIFONTOBJ_GetInfo** callback function allows a [rendering plug-in](/windows-hardware/drivers/print/rendering-plug-ins) to call back into Unidrv to obtain font or glyph information from GDI, needed for handling [customized font management](/windows-hardware/drivers/print/customized-font-management) operations.
 
-A rendering plug-in receives the <b>UNIFONTOBJ_GetInfo</b> function's address in the <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_unifontobj">UNIFONTOBJ</a> structure that is passed to the font customization methods.
+A rendering plug-in receives the **UNIFONTOBJ_GetInfo** function's address in the [UNIFONTOBJ](/windows-hardware/drivers/ddi/printoem/ns-printoem-_unifontobj) structure that is passed to the font customization methods.
 
-The type of information returned by the function is dependent on the input arguments. The caller supplies values for <i>dwInfoID</i>, <i>pData</i>, and <i>dwDataSize</i> to indicate the type of information wanted. The following table summarizes the types of information returned. For more information, see the structure descriptions.
+The type of information returned by the function is dependent on the input arguments. The caller supplies values for *dwInfoID*, *pData*, and *dwDataSize* to indicate the type of information wanted. The following table summarizes the types of information returned. For more information, see the structure descriptions.
 
-<table>
-<tr>
-<th><i>pData</i> Structure</th>
-<th>Returned Information</th>
-</tr>
-<tr>
-<td>
+| *pData* Structure | Returned Information |
+|--|--|
+| [GETINFO_FONTOBJ](/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_fontobj) | A FONTOBJ structure describing the current font. |
+| [GETINFO_GLYPHBITMAP](/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphbitmap) | A single glyph bitmap. |
+| [GETINFO_GLYPHSTRING](/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphstring) | An array of glyph specifiers in a specified format. |
+| [GETINFO_GLYPHWIDTH](/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphwidth) | Total width of a set of glyphs. |
+| [GETINFO_MEMORY](/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_memory) | Amount of available printer memory remaining. |
+| [GETINFO_STDVAR](/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_stdvar) | The current value for one or more of Unidrv's [standard variables](/windows-hardware/drivers/print/standard-variables). |
 
-<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_fontobj">GETINFO_FONTOBJ</a>
-
-
-</td>
-<td>
-A FONTOBJ structure describing the current font.
-
-</td>
-</tr>
-<tr>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphbitmap">GETINFO_GLYPHBITMAP</a>
-
-
-</td>
-<td>
-A single glyph bitmap.
-
-</td>
-</tr>
-<tr>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphstring">GETINFO_GLYPHSTRING</a>
-
-
-</td>
-<td>
-An array of glyph specifiers in a specified format.
-
-</td>
-</tr>
-<tr>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphwidth">GETINFO_GLYPHWIDTH</a>
-
-
-</td>
-<td>
-Total width of a set of glyphs.
-
-</td>
-</tr>
-<tr>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_memory">GETINFO_MEMORY</a>
-
-
-</td>
-<td>
-Amount of available printer memory remaining.
-
-</td>
-</tr>
-<tr>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_stdvar">GETINFO_STDVAR</a>
-
-
-</td>
-<td>
-The current value for one or more of Unidrv's <a href="/windows-hardware/drivers/print/standard-variables">standard variables</a>.
-
-</td>
-</tr>
-</table>
- 
-
-If the buffer described by <i>pData</i> and <i>dwDataSize</i> is too small to receive the structure indicated by <i>dwInfoID</i>, the function loads the required buffer size into the location pointed by <i>pcbNeeded</i> and returns <b>FALSE</b>.
-
+If the buffer described by *pData* and *dwDataSize* is too small to receive the structure indicated by *dwInfoID*, the function loads the required buffer size into the location pointed by *pcbNeeded* and returns **FALSE**.

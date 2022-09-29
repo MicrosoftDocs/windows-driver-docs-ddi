@@ -1,10 +1,9 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_ROOT_CONTROL_REGISTER
-title: _PCI_EXPRESS_ROOT_CONTROL_REGISTER (miniport.h)
-description: The _PCI_EXPRESS_ROOT_CONTROL_REGISTER structure (miniport.h) describes a PCI Express (PCIe) root control register of a PCIe capability structure.
-old-location: pci\pci_express_root_control_register.htm
+title: PCI_EXPRESS_ROOT_CONTROL_REGISTER (miniport.h)
+description: The _PCI_EXPRESS_ROOT_CONTROL_REGISTER union (miniport.h) describes a PCI Express (PCIe) root control register of a PCIe capability structure.
 tech.root: PCI
-ms.date: 02/24/2018
+ms.date: 07/18/2022
 keywords: ["PCI_EXPRESS_ROOT_CONTROL_REGISTER structure"]
 ms.keywords: "*PPCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI.pci_express_root_control_register, PCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI_EXPRESS_ROOT_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_ROOT_CONTROL_REGISTER, PPCI_EXPRESS_ROOT_CONTROL_REGISTER union pointer [Buses], _PCI_EXPRESS_ROOT_CONTROL_REGISTER, ntddk/PCI_EXPRESS_ROOT_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_ROOT_CONTROL_REGISTER, pci_struct_ef335e30-c046-4066-8411-27bf96cbcd08.xml"
 req.header: miniport.h
@@ -46,74 +45,50 @@ api_name:
  - PCI_EXPRESS_ROOT_CONTROL_REGISTER
 ---
 
-# _PCI_EXPRESS_ROOT_CONTROL_REGISTER structure (miniport.h)
-
-
 ## -description
 
-The PCI_EXPRESS_ROOT_CONTROL_REGISTER structure describes a PCI Express (PCIe) root control register of a PCIe capability structure.
+The **PCI_EXPRESS_ROOT_CONTROL_REGISTER** union describes a PCI Express (PCIe) root control register of a PCIe capability structure.
 
 ## -struct-fields
 
 ### -field DUMMYSTRUCTNAME
 
-### -field AsUSHORT
+The **DUMMYSTRUCTNAME** structure.
 
-A USHORT representation of the contents of the PCI_EXPRESS_ROOT_CONTROL_REGISTER structure.
-
-
-#### - CRSSoftwareVisibilityEnable
-
-A single bit that indicates that the root port is enabled to return configuration request retry status (CRS) completion status to software.
-
-
-#### - CorrectableSerrEnable
+### -field DUMMYSTRUCTNAME.CorrectableSerrEnable
 
 A single bit that indicates that a system error should be generated if a correctable error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
 
-
-#### - FatalSerrEnable
-
-A single bit that indicates that a system error should be generated if a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
-
-
-#### - NonFatalSerrEnable
+### -field DUMMYSTRUCTNAME.NonFatalSerrEnable
 
 A single bit that indicates that a system error should be generated if a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
 
+### -field DUMMYSTRUCTNAME.FatalSerrEnable
 
-#### - PMEInterruptEnable
+A single bit that indicates that a system error should be generated if a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
+
+### -field DUMMYSTRUCTNAME.PMEInterruptEnable
 
 A single bit that indicates that interrupts are enabled for power management events.
 
+### -field DUMMYSTRUCTNAME.CRSSoftwareVisibilityEnable
 
-#### - Rsvd
+A single bit that indicates that the root port is enabled to return configuration request retry status (CRS) completion status to software.
+
+### -field DUMMYSTRUCTNAME.Rsvd
 
 Reserved.
 
-## -syntax
+### -field AsUSHORT
 
-```cpp
-typedef union _PCI_EXPRESS_ROOT_CONTROL_REGISTER {
-  struct {
-    USHORT CorrectableSerrEnable  :1;
-    USHORT NonFatalSerrEnable  :1;
-    USHORT FatalSerrEnable  :1;
-    USHORT PMEInterruptEnable  :1;
-    USHORT CRSSoftwareVisibilityEnable  :1;
-    USHORT Rsvd  :11;
-  };
-  USHORT AsUSHORT;
-} PCI_EXPRESS_ROOT_CONTROL_REGISTER, *PPCI_EXPRESS_ROOT_CONTROL_REGISTER;
-```
+A **USHORT** representation of the contents of the **PCI_EXPRESS_ROOT_CONTROL_REGISTER** structure.
 
 ## -remarks
 
-The PCI_EXPRESS_ROOT_CONTROL_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
+The **PCI_EXPRESS_ROOT_CONTROL_REGISTER** structure is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_ROOT_CONTROL_REGISTER structure is contained in the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a> structure.
+A **PCI_EXPRESS_ROOT_CONTROL_REGISTER** structure is contained in the [PCI_EXPRESS_CAPABILITY](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a>
-
+[PCI_EXPRESS_CAPABILITY](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability)

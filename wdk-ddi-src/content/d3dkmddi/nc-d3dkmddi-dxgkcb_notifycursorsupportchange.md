@@ -45,9 +45,9 @@ A kernel-mode display miniport driver calls **DXGKCB_NOTIFYCURSORSUPPORTCHANGE**
 
 ## -parameters
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] Pointer to a [**DXGKARGCB_NOTIFYCURSORSUPPORTCHANGE**](ns-d3dkmddi-dxgkargcb_notifycursorsupportchange.md) structure that contains the arguments for this callback.
+Pointer to a [**DXGKARGCB_NOTIFYCURSORSUPPORTCHANGE**](ns-d3dkmddi-dxgkargcb_notifycursorsupportchange.md) structure that contains the arguments for this callback.
 
 ## -returns
 

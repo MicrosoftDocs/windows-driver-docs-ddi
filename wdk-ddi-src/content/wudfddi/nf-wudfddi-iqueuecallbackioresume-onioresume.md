@@ -51,14 +51,14 @@ The <b>OnIoResume</b> method resumes the processing of the specified I/O request
 
 ## -parameters
 
-### -param pWdfQueue 
+### -param pWdfQueue [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a> interface for the I/O queue object that processing of the I/O request is resumed from.
 
-### -param pWdfRequest 
+### -param pWdfRequest [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface that represents the framework request object that is resumed.
 
 ## -remarks

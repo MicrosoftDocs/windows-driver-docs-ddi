@@ -4,14 +4,14 @@ title: _USBD_ENDPOINT_OFFLOAD_INFORMATION (usb.h)
 description: Stores xHCI-specific information that is used by client drivers to transfer data to and from the offloaded endpoints.
 old-location: buses\usbd_endpoint_offload_information.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/19/2022
 keywords: ["USBD_ENDPOINT_OFFLOAD_INFORMATION structure"]
 ms.keywords: "*PUSBD_ENDPOINT_OFFLOAD_INFORMATION, PUSBD_ENDPOINT_OFFLOAD_INFORMATION, PUSBD_ENDPOINT_OFFLOAD_INFORMATION structure pointer [Buses], USBD_ENDPOINT_OFFLOAD_INFORMATION, USBD_ENDPOINT_OFFLOAD_INFORMATION structure [Buses], _USBD_ENDPOINT_OFFLOAD_INFORMATION, buses.usbd_endpoint_offload_information, usb/PUSBD_ENDPOINT_OFFLOAD_INFORMATION, usb/USBD_ENDPOINT_OFFLOAD_INFORMATION"
 req.header: usb.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, version 1709
-req.target-min-winversvr: Windows Server 2016
+req.target-min-winverclnt: Windows 10, version 1709
+req.target-min-winversvr: Windows Server 2016
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -48,7 +48,6 @@ api_name:
 
 # _USBD_ENDPOINT_OFFLOAD_INFORMATION structure
 
-
 ## -description
 
 Stores xHCI-specific information that is used by client drivers to transfer data to and from the offloaded endpoints.
@@ -69,7 +68,7 @@ The resource identifier.
 
 ### -field Mode
 
-A <a href="/windows-hardware/drivers/ddi/usb/ne-usb-_usbd_endpoint_offload_mode">USBD_ENDPOINT_OFFLOAD_MODE</a>-type value that indicates whether endpoint offloading is handled in software or the USB device or host controller.
+A [USBD_ENDPOINT_OFFLOAD_MODE](ne-usb-_usbd_endpoint_offload_mode.md)-type value that indicates whether endpoint offloading is handled in software or the USB device or host controller.
 
 ### -field RootHubPortNumber
 
@@ -81,7 +80,7 @@ The route string.
 
 ### -field Speed
 
-The route string.
+The speed.
 
 ### -field UsbDeviceAddress
 
@@ -94,6 +93,8 @@ The slot identifier.
 ### -field MultiTT
 
 Transaction Translator (TT) hub.
+
+### -field LSOrFSDeviceConnectedToTTHub
 
 ### -field Reserved0
 
@@ -116,39 +117,3 @@ Reserved.
 ### -field EventRingSize
 
 ### -field EventRingInitialCycleBit
-
- 
-
-
-
-
-#### - PHYSICAL_ADDRESS
-
-The logical address of the current segment of the transfer data.
-
-The logical address of the current segment of the transfer data.
-
-
-#### - PVOID
-
-The virtual address of the current segment of the transfer data.
-
-The virtual address of the current segment of the transfer data.
-
-
-#### - ULONG
-
-The cycle state of the transfer.
-
-Reserved message for endpoint offload mode.
-
-
-The cycle state of the transfer.
-
-
-#### - size_t
-
-The size of the requested data.
-
-The size of the requested data.
-

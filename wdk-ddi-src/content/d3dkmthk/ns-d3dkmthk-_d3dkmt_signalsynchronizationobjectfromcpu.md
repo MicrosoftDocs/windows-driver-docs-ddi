@@ -52,21 +52,21 @@ api_name:
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] The handle to the device.
+The handle to the device.
 
-### -field ObjectCount
+### -field ObjectCount [in]
 
-[in] The number of synchronization objects in the <b>ObjectHandleArray</b> and fence values in the <b>FenceValueArray</b>.
+The number of synchronization objects in the <b>ObjectHandleArray</b> and fence values in the <b>FenceValueArray</b>.
 
-### -field ObjectHandleArray
+### -field ObjectHandleArray [in]
 
-[in] An array of kernel-mode handles to the synchronization events to signal.
+An array of kernel-mode handles to the synchronization events to signal.
 
-### -field FenceValueArray
+### -field FenceValueArray [in]
 
-[in] An array of 64 bit monitored fence values to signal, each corresponding to an object in the <b>ObjectHandleArray</b>.
+An array of 64 bit monitored fence values to signal, each corresponding to an object in the <b>ObjectHandleArray</b>.
 
 ### -field Flags
 

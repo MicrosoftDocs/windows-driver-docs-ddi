@@ -4,7 +4,7 @@ title: IDebugClient5::GetKernelConnectionOptionsWide (dbgeng.h)
 description: The GetKernelConnectionOptionsWide method returns the connection options for the current kernel target.
 old-location: debugger\getkernelconnectionoptionswide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugClient5::GetKernelConnectionOptionsWide"]
 ms.keywords: GetKernelConnectionOptionsWide, GetKernelConnectionOptionsWide method [Windows Debugging], GetKernelConnectionOptionsWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetKernelConnectionOptionsWide method, IDebugClient5.GetKernelConnectionOptionsWide, IDebugClient5::GetKernelConnectionOptionsWide, dbgeng/IDebugClient5::GetKernelConnectionOptionsWide, debugger.getkernelconnectionoptionswide
 req.header: dbgeng.h
@@ -49,20 +49,20 @@ The <b>GetKernelConnectionOptionsWide</b> method returns the connection options 
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Specifies the buffer to receive the connection options.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
-Specifies the size in characters of the buffer <i>Buffer</i>.
 
-### -param OptionsSize 
+Specifies the size in characters of the buffer <i>Buffer</i>. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the connection options.  If <i>OptionsSize</i> is <b>NULL</b>, this information is not returned.
+### -param OptionsSize [out, optional]
+
+
+Receives the size in characters of the connection options. This size includes the space for the '\0' terminating character. If <i>OptionsSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

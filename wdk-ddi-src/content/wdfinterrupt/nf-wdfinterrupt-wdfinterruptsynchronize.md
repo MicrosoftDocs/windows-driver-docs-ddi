@@ -56,19 +56,19 @@ For passive level interrupt objects, this method executes a specified callback f
 
 ## -parameters
 
-### -param Interrupt 
+### -param Interrupt [in]
 
-[in]
+
 A handle to a framework interrupt object.
 
-### -param Callback 
+### -param Callback [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a> callback function.
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 An untyped pointer to driver-supplied information that the framework passes to the <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a> callback function.
 
 ## -returns

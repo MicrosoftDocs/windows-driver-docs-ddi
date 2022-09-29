@@ -4,7 +4,7 @@ title: IDebugControl::GetExceptionFilterSecondCommand (dbgeng.h)
 description: Learn how the GetExceptionFilterSecondCommand method returns the command that's executed by the debugger engine upon the second chance of a specified exception.
 old-location: debugger\getexceptionfiltersecondcommand.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl::GetExceptionFilterSecondCommand"]
 ms.keywords: GetExceptionFilterSecondCommand, GetExceptionFilterSecondCommand method [Windows Debugging], GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl interface, GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl2 interface, GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl.GetExceptionFilterSecondCommand, IDebugControl2 interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl2::GetExceptionFilterSecondCommand, IDebugControl3 interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl3::GetExceptionFilterSecondCommand, IDebugControl::GetExceptionFilterSecondCommand, IDebugControl_fba6b716-8dba-4581-87c3-b808d3ab40a1.xml, dbgeng/IDebugControl2::GetExceptionFilterSecondCommand, dbgeng/IDebugControl3::GetExceptionFilterSecondCommand, dbgeng/IDebugControl::GetExceptionFilterSecondCommand, debugger.getexceptionfiltersecondcommand
 req.header: dbgeng.h
@@ -49,25 +49,25 @@ The <b>GetExceptionFilterSecondCommand</b>  method returns the command that will
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the exception filter whose second-chance command will be returned.  <i>Index</i> can also refer to the default exception filter to return the second-chance command for those exceptions that do not have a specific or arbitrary exception filter.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the second-chance command for the exception filter.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
-Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
-### -param CommandSize 
+Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size, in characters, of the second-chance command for the exception filter.  If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
+### -param CommandSize [out, optional]
+
+
+Receives the size, in characters, of the second-chance command for the exception filter. This size includes the space for the '\0' terminating character. If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

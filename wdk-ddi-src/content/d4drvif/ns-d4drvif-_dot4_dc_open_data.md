@@ -1,14 +1,13 @@
 ---
 UID: NS:d4drvif._DOT4_DC_OPEN_DATA
-title: _DOT4_DC_OPEN_DATA (d4drvif.h)
+title: DOT4_DC_OPEN_DATA (d4drvif.h)
 description: This topic describes the DOT4_DC_OPEN_DATA structure.
-old-location: print\dot4_dc_open_data.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 04/18/2022
 keywords: ["DOT4_DC_OPEN_DATA structure"]
 ms.keywords: "*PDOT4_DC_OPEN_DATA, DOT4_DC_OPEN_DATA, DOT4_DC_OPEN_DATA structure [Print Devices], PDOT4_DC_OPEN_DATA, PDOT4_DC_OPEN_DATA structure pointer [Print Devices], _DOT4_DC_OPEN_DATA, d4drvif/DOT4_DC_OPEN_DATA, d4drvif/PDOT4_DC_OPEN_DATA, print.dot4_dc_open_data"
 req.header: d4drvif.h
-req.include-header: 
+req.include-header: D4drvif.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -46,27 +45,20 @@ api_name:
  - DOT4_DC_OPEN_DATA
 ---
 
-# _DOT4_DC_OPEN_DATA structure
-
-
 ## -description
 
-This topic describes the <b>DOT4_DC_OPEN_DATA</b> structure.
+This topic describes the **DOT4_DC_OPEN_DATA** structure.
 
 ## -struct-fields
 
 ### -field bHsid
 
-Specifies the host socket created by CREATE_SOCKET.
+Specifies if the host socket created by CREATE_SOCKET.
 
 ### -field fAddActivity
+
+Set to TRUE to immediately add activity broadcast upon creation.
 
 ### -field hChannelHandle
 
 Specifies the handle to the channel returned.
-
-
-#### - unsigned char
-
-Specify TRUE to immediately add activity broadcast upon creation.
-

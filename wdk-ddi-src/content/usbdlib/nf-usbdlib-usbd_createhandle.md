@@ -54,29 +54,29 @@ The  <b>USBD_CreateHandle</b> routine is called by a WDM USB client driver to ob
 
 ## -parameters
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 Pointer to the device object for the client driver.
 
-### -param TargetDeviceObject 
+### -param TargetDeviceObject [in]
 
-[in]
+
 Pointer to the next lower device object in the device stack. The client driver receives a pointer to that device object in a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>.
 
-### -param USBDClientContractVersion 
+### -param USBDClientContractVersion [in]
 
-[in]
+
 The contract version that the client driver supports. <i>USBDClientContractVersion</i> must be  USBD_CLIENT_CONTRACT_VERSION_602. For more information, see Remarks.
 
-### -param PoolTag 
+### -param PoolTag [in]
 
-[in]
+
 The pool tag used for memory allocations.
 
-### -param USBDHandle 
+### -param USBDHandle [out]
 
-[out]
+
 Opaque handle that indicates that the client driver was registered with the USB driver stack. For more information, see Remarks.
 
 ## -returns

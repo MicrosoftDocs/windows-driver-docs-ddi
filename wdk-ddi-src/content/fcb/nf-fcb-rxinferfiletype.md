@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param RxContext 
+### -param RxContext [in]
 
-[in]
+
 A pointer to the RX_CONTEXT structure.
 
 ## -returns

@@ -49,9 +49,9 @@ The <b>GetCurrentPassCount</b> method returns the remaining number of times that
 
 ## -parameters
 
-### -param Count 
+### -param Count [out]
 
-[out]
+
 The remaining number of times that the target must hit the breakpoint before it is triggered.  The number of times that the target must pass the breakpoint <u>without</u> triggering it is the value that is returned to <i>Count</i>, minus one.
 
 ## -returns

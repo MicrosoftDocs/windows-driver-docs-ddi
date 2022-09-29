@@ -41,13 +41,13 @@ dev_langs:
 
 ## -struct-fields
 
-### -field pMetaData
+### -field pMetaData [out]
 
-[out] Pointer to a [**IDDCX_METADATA**](ns-iddcx-iddcx_metadata.md) structure containing per-frame metadata and frame information.
+Pointer to a [**IDDCX_METADATA**](ns-iddcx-iddcx_metadata.md) structure containing per-frame metadata and frame information.
 
-### -field pBufferInfo
+### -field pBufferInfo [out]
 
-[out] Pointer to a [**IDDCX_SYSTEM_BUFFER_INFO**](ns-iddcx-iddcx_system_buffer_info.md) structure containing a buffer's surface information.
+Pointer to a [**IDDCX_SYSTEM_BUFFER_INFO**](ns-iddcx-iddcx_system_buffer_info.md) structure containing a buffer's surface information.
 
 ## -remarks
 

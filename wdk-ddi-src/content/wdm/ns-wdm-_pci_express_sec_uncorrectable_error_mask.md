@@ -63,77 +63,77 @@ The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK structure describes a PCI Express (
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK structure.
 
 
-#### - DelayedTransactionDiscardTimerExpired
+### -field DUMMYSTRUCTNAME.DelayedTransactionDiscardTimerExpired
 
 A single bit that indicates that the reporting of the expiration of the delayed transaction discard timer is masked.
 
 
-#### - InternalBridgeError
+### -field DUMMYSTRUCTNAME.InternalBridgeError
 
 A single bit that indicates that the reporting of internal bridge errors is masked.
 
 
-#### - MasterAbortOnSplitCompletion
+### -field DUMMYSTRUCTNAME.MasterAbortOnSplitCompletion
 
 A single bit that indicates that the reporting of master aborts on split completion is masked.
 
 
-#### - PERRAsserted
+### -field DUMMYSTRUCTNAME.PERRAsserted
 
 A single bit that indicates that the reporting of PERR# assertions is masked.
 
 
-#### - ReceivedMasterAbort
+### -field DUMMYSTRUCTNAME.ReceivedMasterAbort
 
 A single bit that indicates that the reporting of master aborts is masked.
 
 
-#### - ReceivedTargetAbort
+### -field DUMMYSTRUCTNAME.ReceivedTargetAbort
 
 A single bit that indicates that the reporting of target aborts is masked.
 
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
 
 
-#### - RsvdZ
+### -field DUMMYSTRUCTNAME.RsvdZ
 
 Reserved for system use.
 
 
-#### - SERRAsserted
+### -field DUMMYSTRUCTNAME.SERRAsserted
 
 A single bit that indicates that the reporting of SERR# assertions is masked.
 
 
-#### - TargetAbortOnSplitCompletion
+### -field DUMMYSTRUCTNAME.TargetAbortOnSplitCompletion
 
 A single bit that indicates that the reporting of target aborts on split completion is masked.
 
 
-#### - UncorrectableAddressError
+### -field DUMMYSTRUCTNAME.UncorrectableAddressError
 
 A single bit that indicates that the reporting of uncorrectable address errors is masked.
 
 
-#### - UncorrectableAttributeError
+### -field DUMMYSTRUCTNAME.UncorrectableAttributeError
 
 A single bit that indicates that the reporting of uncorrectable attribute errors is masked.
 
 
-#### - UncorrectableDataError
+### -field DUMMYSTRUCTNAME.UncorrectableDataError
 
 A single bit that indicates that the reporting of uncorrectable data errors is masked.
 
 
-#### - UncorrectableSplitCompletion
+### -field DUMMYSTRUCTNAME.UncorrectableSplitCompletion
 
 A single bit that indicates that the reporting of uncorrectable split completion message data errors is masked.
 
 
-#### - UnexpectedSplitCompletionError
+### -field DUMMYSTRUCTNAME.UnexpectedSplitCompletionError
 
 A single bit that indicates that the reporting of unexpected split completion errors is masked.
 

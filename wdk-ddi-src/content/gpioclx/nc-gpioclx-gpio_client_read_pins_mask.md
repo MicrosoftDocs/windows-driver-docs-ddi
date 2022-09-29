@@ -49,14 +49,14 @@ The <i>CLIENT_ReadGpioPinsUsingMask</i> event callback function reads a bank of 
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to the GPIO controller driver's <a href="/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
-### -param ReadParameters 
+### -param ReadParameters [in, out]
 
-[in, out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_read_pins_mask_parameters">GPIO_READ_PINS_MASK_PARAMETERS</a> structure that, on entry, describes the GPIO pins to read, and, on exit, contains the data read from the GPIO pins.
 
 ## -returns

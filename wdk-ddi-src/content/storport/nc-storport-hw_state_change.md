@@ -4,7 +4,7 @@ title: HW_STATE_CHANGE (storport.h)
 description: A miniport-provided callback that is called after a notification from StorPortStateChangeDetected is processed.
 old-location: storage\hwstorstatechange.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/23/2022
 keywords: ["HW_STATE_CHANGE callback function"]
 ms.keywords: HW_STATE_CHANGE, HwStorStateChange, HwStorStateChange routine [Storage Devices], storage.hwstorstatechange, storport/HwStorStateChange
 req.header: storport.h
@@ -50,26 +50,23 @@ A miniport-provided callback that is called after a notification from [**StorPor
 
 ### -param HwDeviceExtension
 
-### -param Context
+[in] A pointer to the miniport driver's per-HBA storage area.
 
-[in, optional] The context supplied as **HwStateChangeContext** by the miniport in the call to [**StorPortStateChangeDetected**](nf-storport-storportstatechangedetected.md).
+### -param Context [in, optional]
 
-### -param AddressType
+The context supplied as **HwStateChangeContext** by the miniport in the call to [**StorPortStateChangeDetected**](nf-storport-storportstatechangedetected.md).
 
-[in] The type of the address in **Address**.
+### -param AddressType [in]
 
-### -param Address
+The type of the address in **Address**.
 
-[in]
+### -param Address [in]
+
 A pointer to a [**STOR_ADDRESS**](../scsi/ns-scsi-_stor_address.md) structure for the entity whose state change was processed.
 
-### -param Status
+### -param Status [in]
 
-[in] The processing status for the state change notification.
-
-#### - DeviceExtension
-
-[in] A pointer to the miniport driver's per-HBA storage area.
+The processing status for the state change notification.
 
 ## -remarks
 

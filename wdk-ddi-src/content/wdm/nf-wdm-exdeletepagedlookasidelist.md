@@ -49,9 +49,9 @@ The <b>ExDeletePagedLookasideList</b> routine destroys a paged lookaside list.
 
 ## -parameters
 
-### -param Lookaside 
+### -param Lookaside [in, out]
 
-[in, out]
+
 A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">PAGED_LOOKASIDE_LIST</a> structure for the lookaside list, which the caller already initialized with <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializepagedlookasidelist">ExInitializePagedLookasideList</a>, which the caller originally set up with <b>ExInitializePagedLookasideList</b>.
 
 ## -remarks

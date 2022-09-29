@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMUpgradePrinter
 title: OEMUpgradePrinter function (printoem.h)
-description: OEMUpgradePrinter function
-old-location: print\oemupgradeprinter.htm
+description: Describes the OEMUpgradePrinter function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/11/2022
 keywords: ["OEMUpgradePrinter function"]
 ms.keywords: OEMUpgradePrinter, OEMUpgradePrinter function [Print Devices], print.oemupgradeprinter, print_obsoletefunctions_188db86f-1544-410e-ae88-c15c0e26cc3c.xml, printoem/OEMUpgradePrinter
 req.header: printoem.h
@@ -40,14 +39,20 @@ api_name:
  - OEMUpgradePrinter
 ---
 
-# OEMUpgradePrinter function
-
-
 ## -description
+
+Describes the **OEMUpgradePrinter** function.
 
 ## -parameters
 
 ### -param dwLevel
 
+Defines the **DWORD** parameter *dwLevel*.
+
 ### -param pDriverUpgradeInfo
 
+Defines the **PBYTE** parameter *pDriverUpgradeInfo*.
+
+## -returns
+
+Returns a **BOOL** value.

@@ -2,9 +2,8 @@
 UID: NF:wiamdef.CWiaLogProc.CWiaLogProc
 title: CWiaLogProc::CWiaLogProc (wiamdef.h)
 description: The CWiaLogProc constructor is called when the function or method being logged is entered.
-old-location: image\cwialogproc_cwialogproc.htm
 tech.root: image
-ms.date: 08/26/2020
+ms.date: 04/19/2022
 keywords: ["CWiaLogProc::CWiaLogProc"]
 ms.keywords: CWiaLogProc, CWiaLogProc interface [Imaging Devices],CWiaLogProc method, CWiaLogProc method [Imaging Devices], CWiaLogProc method [Imaging Devices],CWiaLogProc interface, CWiaLogProc.CWiaLogProc, CWiaLogProc::CWiaLogProc, image.cwialogproc_cwialogproc, wiamdef/CWiaLogProc::CWiaLogProc
 req.header: wiamdef.h
@@ -40,36 +39,28 @@ api_name:
  - CWiaLogProc::CWiaLogProc
 ---
 
-# CWiaLogProc::CWiaLogProc
-
-
 ## -description
 
-The [CWiaLogProc](./nf-wiamdef-cwialogproc--cwialogproc.md) constructor is called when the function or method being logged is entered.
+The **CWiaLogProc** constructor is called when the function or method being logged is entered.
 
 ## -parameters
 
 ### -param pIWiaLog
 
+Defines the **IWiaLog** parameter **pIWiaLog*.
+
 ### -param ResourceID
 
-Defines the **INT** parameter _ResourceID_.
+Defines the **INT** parameter *ResourceID*.
 
 ### -param DetailLevel
 
-Defines the **INT** parameter _DetailLevel_.
+Defines the **INT** parameter *DetailLevel*.
 
 ### -param pszMsg
 
-#### - *pIWiaLog
-
-Defines the **IWiaLog** parameter _*pIWiaLog_.
-
-#### - *pszMsg
-
-Defines the **CHAR** parameter _*pszMsg_.
+Defines the **CHAR** parameter **pszMsg*.
 
 ## -see-also
 
-[CWiaLogProc]()
-
+[CWiaLogProcEx](./nf-wiamdef-cwialogprocex-cwialogprocex.md)

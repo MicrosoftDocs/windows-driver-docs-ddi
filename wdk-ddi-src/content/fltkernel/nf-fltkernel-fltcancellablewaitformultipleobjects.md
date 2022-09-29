@@ -4,13 +4,13 @@ title: FltCancellableWaitForMultipleObjects function (fltkernel.h)
 description: The FltCancellableWaitForMultipleObjects executes a cancelable wait operation (a wait that can be terminated) on one or more dispatcher objects.
 old-location: ifsk\fltcancellablewaitformultipleobjects.htm
 tech.root: ifsk
-ms.date: 04/02/2021
+ms.date: 12/09/2021
 keywords: ["FltCancellableWaitForMultipleObjects function"]
 ms.keywords: FltApiRef_a_to_d_3f130d06-8af0-46c1-9db3-bd70d1cbabe1.xml, FltCancellableWaitForMultipleObjects, FltCancellableWaitForMultipleObjects function [Installable File System Drivers], ifsk.fltcancellablewaitformultipleobjects, ntifs/FltCancellableWaitForMultipleObjects
 req.header: fltkernel.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Microsoft Windows Vista
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,21 +49,21 @@ The **FltCancellableWaitForMultipleObjects** executes a cancelable wait operatio
 
 ## -parameters
 
-### -param Count
+### -param Count [in]
 
-[in] The number of objects to be waited on.
+The number of objects to be waited on.
 
-### -param ObjectArray
+### -param ObjectArray [in]
 
-[in] A pointer to an array of pointers to dispatcher objects (events, mutexes, semaphores, threads, and timers) for which the caller supplies the storage.
+A pointer to an array of pointers to dispatcher objects (events, mutexes, semaphores, threads, and timers) for which the caller supplies the storage.
 
-### -param WaitType
+### -param WaitType [in]
 
-[in] An enumumeration with the value of either **WaitAll**, which indicates that all of the specified objects must attain a signaled state before the wait is satisfied; or **WaitAny**, which indicates that any one of the objects must attain a signaled state before the wait is satisfied.
+An enumumeration with the value of either **WaitAll**, which indicates that all of the specified objects must attain a signaled state before the wait is satisfied; or **WaitAny**, which indicates that any one of the objects must attain a signaled state before the wait is satisfied.
 
-### -param Timeout
+### -param Timeout [in, optional]
 
-[in, optional] A pointer to an optional time-out value. This parameter specifies the absolute or relative time in 100 nanosecond units at which the wait is to be completed.
+A pointer to an optional time-out value. This parameter specifies the absolute or relative time in 100 nanosecond units at which the wait is to be completed.
 
 If Timeout points to a zero value (that is, *Timeout == 0), the routine returns without waiting. If the caller supplies a NULL pointer (that is, Timeout == NULL), the routine waits indefinitely until any or all of the dispatcher objects are set to the signaled state.
 
@@ -73,13 +73,13 @@ If Timeout is specified, the wait is automatically satisfied if none of the spec
 
 A time-out value of zero (that is, *Timeout == 0) allows you to test a set of wait conditions, and to conditionally perform any additional actions if the wait can be immediately satisfied, as in the acquisition of a mutex.
 
-### -param WaitBlockArray
+### -param WaitBlockArray [in, optional]
 
-[in, optional] If Count <= THREAD_WAIT_OBJECTS, WaitBlockArray can be NULL. Otherwise, this parameter must point to a memory buffer of ```sizeof(KWAIT_BLOCK) * Count``` bytes. The routine uses this buffer for record-keeping while performing the wait operation.
+If Count <= THREAD_WAIT_OBJECTS, WaitBlockArray can be NULL. Otherwise, this parameter must point to a memory buffer of ```sizeof(KWAIT_BLOCK) * Count``` bytes. The routine uses this buffer for record-keeping while performing the wait operation.
 
-### -param CallbackData
+### -param CallbackData [in]
 
-[in] A pointer to the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure that represents the I/O operation that was issued by the user and that can be canceled by the user. This parameter is optional and can be NULL. The caller must ensure that the I/O operation will remain valid for the duration of this routine and that the I/O must not have a cancel routine set (for example, [**FltSetCancelCompletion**](nf-fltkernel-fltsetcancelcompletion.md) function must not have been called on the I/O operation). Note that the **CallbackData** must be held by the caller as it cannot be passed to a lower-level driver.
+A pointer to the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure that represents the I/O operation that was issued by the user and that can be canceled by the user. This parameter is optional and can be NULL. The caller must ensure that the I/O operation will remain valid for the duration of this routine and that the I/O must not have a cancel routine set (for example, [**FltSetCancelCompletion**](nf-fltkernel-fltsetcancelcompletion.md) function must not have been called on the I/O operation). Note that the **CallbackData** must be held by the caller as it cannot be passed to a lower-level driver.
 
 ## -returns
 
@@ -141,7 +141,5 @@ The **FltCancellableWaitForMultipleObjects** routine must be called at IRQL PASS
 [**KeInitializeTimer**](../wdm/nf-wdm-keinitializetimer.md)
 
 [**KeWaitForMultipleObjects**](../wdm/nf-wdm-kewaitformultipleobjects.md)
-
-[**KeWaitForMutexObject**](https://msdn.microsoft.com/library/windows/hardware/ff553344)
 
 [**KeWaitForSingleObject**](../wdm/nf-wdm-kewaitforsingleobject.md)

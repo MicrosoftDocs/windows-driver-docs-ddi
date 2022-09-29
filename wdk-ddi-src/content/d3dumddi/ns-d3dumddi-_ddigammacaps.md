@@ -52,9 +52,9 @@ The DDIGAMMACAPS structure describes gamma-ramp capabilities that the user-mode 
 
 ## -struct-fields
 
-### -field GammaCaps
+### -field GammaCaps [out]
 
-[out] A valid bitwise OR of the following capability bits that the driver supports.
+A valid bitwise OR of the following capability bits that the driver supports.
 
 | **Capability bit** | **Meaning** | 
 |:--|:--|

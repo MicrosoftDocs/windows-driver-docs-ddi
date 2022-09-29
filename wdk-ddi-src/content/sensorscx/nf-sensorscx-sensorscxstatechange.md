@@ -49,13 +49,13 @@ Used to initialize a state change.
 
 ## -parameters
 
-### -param Sensor 
+### -param Sensor [in]
 
-[in]
+
 Holds information on the sensor being managed by the driver.
 
-### -param State 
+### -param State [in]
 
-[in]
+
 Holds information on the state of the sensor.
 

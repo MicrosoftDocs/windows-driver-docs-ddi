@@ -52,25 +52,25 @@ api_name:
 
 ## -struct-fields
 
-### -field hContext
+### -field hContext [in]
 
-[in] A kernel-mode handle to the context stream in which a wait for the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies is inserted.
+A kernel-mode handle to the context stream in which a wait for the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies is inserted.
 
-### -field ObjectCount
+### -field ObjectCount [in]
 
-[in] The number of synchronization events in the <b>ObjectHandleArray</b> array and fence values in <b>MonitoredFenceValueArray</b> arrays.
+The number of synchronization events in the <b>ObjectHandleArray</b> array and fence values in <b>MonitoredFenceValueArray</b> arrays.
 
-### -field ObjectHandleArray
+### -field ObjectHandleArray [in]
 
-[in] An array of kernel-mode handles to the synchronization events that the context that is specified by the <b>hContext</b> member waits for.
+An array of kernel-mode handles to the synchronization events that the context that is specified by the <b>hContext</b> member waits for.
 
-### -field MonitoredFenceValueArray
+### -field MonitoredFenceValueArray [in]
 
-[in] An array of 64-bit monitored fence values to wait for, each value corresponding to a synchronization object in <b>ObjectHandleArray</b>.
+An array of 64-bit monitored fence values to wait for, each value corresponding to a synchronization object in <b>ObjectHandleArray</b>.
 
-### -field FenceValue
+### -field FenceValue [in]
 
-[in] Fence value to wait for when the input object is of type <b>D3DDDI_FENCE</b>.
+Fence value to wait for when the input object is of type <b>D3DDDI_FENCE</b>.
 
 ### -field Reserved
 

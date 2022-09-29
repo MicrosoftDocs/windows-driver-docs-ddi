@@ -49,9 +49,9 @@ The <b>ExRaiseStatus</b> routine is called by drivers that supply structured exc
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Specifies one of the system-defined STATUS_<i>XXX</i> values.
 
 ## -remarks

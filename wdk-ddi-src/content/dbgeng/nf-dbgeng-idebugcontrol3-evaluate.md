@@ -49,24 +49,24 @@ The <b>Evaluate</b>  method evaluates an expression, returning the result.
 
 ## -parameters
 
-### -param Expression 
+### -param Expression [in]
 
-[in]
+
 Specifies the expression to be evaluated.
 
-### -param DesiredType 
+### -param DesiredType [in]
 
-[in]
+
 Specifies the desired return type.  Possible values are described in <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a>; with the addition of DEBUG_VALUE_INVALID, which indicates that the return type should be the expression's natural type.
 
-### -param Value 
+### -param Value [out]
 
-[out]
+
 Receives the value of the expression.
 
-### -param RemainderIndex 
+### -param RemainderIndex [out, optional]
 
-[out, optional]
+
 Receives the index of the first character of the expression not used in the evaluation.  If <i>RemainderIndex</i> is <b>NULL</b>, this information isn't returned.
 
 ## -returns

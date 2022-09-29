@@ -49,19 +49,19 @@ The <i>Int10FreeBuffer</i> function frees a buffer previously allocated by <i>In
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to a video port driver-defined context for the interface. This should be the same as the value in the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_port_int10_interface">VIDEO_PORT_INT10_INTERFACE</a> structure after <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a> returns.
 
-### -param Seg 
+### -param Seg [in]
 
-[in]
+
 Specifies the segment address of the buffer to be freed.
 
-### -param Off 
+### -param Off [in]
 
-[in]
+
 Specifies the offset within the segment indicated by the <i>Seg</i> parameter.
 
 ## -returns

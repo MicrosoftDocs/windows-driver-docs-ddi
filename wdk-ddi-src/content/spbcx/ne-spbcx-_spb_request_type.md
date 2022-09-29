@@ -60,23 +60,23 @@ For internal use only.
 
 ### -field SpbRequestTypeRead
 
- A read operation. The transfer direction for read data is from the target device to the client (peripheral driver). Your SPB controller driver will see requests of this type only if it registers an [EvtSpbControllerIoRead](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_read) callback function.
+ A read operation. The transfer direction for read data is from the target device to the client (peripheral driver). Your SPB controller driver will see requests of this type only if it registers an [EvtSpbControllerIoRead](./nc-spbcx-evt_spb_controller_read.md) callback function.
 
 ### -field SpbRequestTypeWrite
 
-A write operation. The transfer direction for write data is from the client to the target device. Your SPB controller driver receives requests of this type only if it registers an [EvtSpbControllerIoWrite](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_write) callback function.
+A write operation. The transfer direction for write data is from the client to the target device. Your SPB controller driver receives requests of this type only if it registers an [EvtSpbControllerIoWrite](./nc-spbcx-evt_spb_controller_write.md) callback function.
 
 ### -field SpbRequestTypeSequence
 
-A sequence of transfer (read and write) operations combined into a single request. Your SPB controller driver receives requests of this type only if it registers an [EvtSpbControllerIoSequence](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_sequence) callback function. Otherwise, the SPB framework extension (SpbCx) will convert an I/O transfer sequence into a series of I/O requests of type **SpbRequestTypeRead** and **SpbRequestTypeWrite**, and send these requests to the SPB controller driver's *EvtSpbControllerIoRead* and *EvtSpbControllerIoWrite* callback functions.
+A sequence of transfer (read and write) operations combined into a single request. Your SPB controller driver receives requests of this type only if it registers an [EvtSpbControllerIoSequence](./nc-spbcx-evt_spb_controller_sequence.md) callback function. Otherwise, the SPB framework extension (SpbCx) will convert an I/O transfer sequence into a series of I/O requests of type **SpbRequestTypeRead** and **SpbRequestTypeWrite**, and send these requests to the SPB controller driver's *EvtSpbControllerIoRead* and *EvtSpbControllerIoWrite* callback functions.
 
 ### -field SpbRequestTypeLockController
 
-A request to lock the controller exclusively for bus transfers to or from the specified target device. Your SPB controller driver receives requests of this type only if it registers an [EvtSpbControllerLock](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_lock) callback function.
+A request to lock the controller exclusively for bus transfers to or from the specified target device. Your SPB controller driver receives requests of this type only if it registers an [EvtSpbControllerLock](./nc-spbcx-evt_spb_controller_lock.md) callback function.
 
 ### -field SpbRequestTypeUnlockController
 
-A request to unlock the controller for the specified target device. Your SPB controller driver receives requests of this type through its [EvtSpbControllerUnlock](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_unlock) callback function.
+A request to unlock the controller for the specified target device. Your SPB controller driver receives requests of this type through its [EvtSpbControllerUnlock](./nc-spbcx-evt_spb_controller_unlock.md) callback function.
 
 ### -field SpbRequestTypeLockConnection
 
@@ -88,7 +88,7 @@ A request to unlock the specified target device. This request is handled entirel
 
 ### -field SpbRequestTypeOther
 
-An unknown I/O control (IOCTL) request sent by a client (peripheral driver) to a target device on the bus. Call the [WdfRequestGetParameters](/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetparameters) method to retrieve the parameters for this request; for this call, use the SPBREQUEST handle for the *Request* parameter. Your SPB controller driver receives requests of this type only if it registers an [EvtSpbControllerIoOther](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_other) callback function. Otherwise, SpbCx rejects unknown IOCTL requests.
+An unknown I/O control (IOCTL) request sent by a client (peripheral driver) to a target device on the bus. Call the [WdfRequestGetParameters](../wdfrequest/nf-wdfrequest-wdfrequestgetparameters.md) method to retrieve the parameters for this request; for this call, use the SPBREQUEST handle for the *Request* parameter. Your SPB controller driver receives requests of this type only if it registers an [EvtSpbControllerIoOther](./nc-spbcx-evt_spb_controller_other.md) callback function. Otherwise, SpbCx rejects unknown IOCTL requests.
 
 ### -field SpbRequestTypeMax
 
@@ -100,13 +100,13 @@ The [SPB_REQUEST_PARAMETERS](/previous-versions/hh406209(v=vs.85)) structure con
 
 ## -see-also
 
-* [EvtSpbControllerIoOther](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_other)
-* [EvtSpbControllerIoRead](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_read)
-* [EvtSpbControllerIoSequence](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_sequence)
-* [EvtSpbControllerIoWrite](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_write)
-* [EvtSpbControllerLock](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_lock)
-* [EvtSpbControllerUnlock](/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_controller_unlock)
+* [EvtSpbControllerIoOther](./nc-spbcx-evt_spb_controller_other.md)
+* [EvtSpbControllerIoRead](./nc-spbcx-evt_spb_controller_read.md)
+* [EvtSpbControllerIoSequence](./nc-spbcx-evt_spb_controller_sequence.md)
+* [EvtSpbControllerIoWrite](./nc-spbcx-evt_spb_controller_write.md)
+* [EvtSpbControllerLock](./nc-spbcx-evt_spb_controller_lock.md)
+* [EvtSpbControllerUnlock](./nc-spbcx-evt_spb_controller_unlock.md)
 * [IOCTL_SPB_LOCK_CONNECTION](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_lock_connection-control-code)
 * [IOCTL_SPB_UNLOCK_CONNECTION](/windows-hardware/drivers/spb/spb-ioctls#ioctl_spb_unlock_connection-control-code)
 * [SPB_REQUEST_PARAMETERS](/previous-versions/hh406209(v=vs.85))
-* [WdfRequestGetParameters](/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetparameters)
+* [WdfRequestGetParameters](../wdfrequest/nf-wdfrequest-wdfrequestgetparameters.md)

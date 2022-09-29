@@ -49,9 +49,9 @@ The <b>ZwRecoverResourceManager</b> routine tries to recover the transaction tha
 
 ## -parameters
 
-### -param ResourceManagerHandle 
+### -param ResourceManagerHandle [in]
 
-[in]
+
 A handle to a resource manager object that was obtained by a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateresourcemanager">ZwCreateResourceManager</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopenresourcemanager">ZwOpenResourceManager</a>. The handle must have RESOURCEMANAGER_RECOVER access to the object.
 
 ## -returns

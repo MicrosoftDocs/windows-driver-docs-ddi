@@ -4,7 +4,7 @@ title: ExReleaseResourceForThreadLite function (wdm.h)
 description: The ExReleaseResourceForThreadLite routine releases the input resource of the indicated thread.
 old-location: kernel\exreleaseresourceforthreadlite.htm
 tech.root: kernel
-ms.date: 03/28/2018
+ms.date: 12/09/2021
 keywords: ["ExReleaseResourceForThreadLite function"]
 ms.keywords: ExReleaseResourceForThreadLite, ExReleaseResourceForThreadLite routine [Kernel-Mode Driver Architecture], k102_799a8ff7-3996-470d-97b2-e1c18bbcb486.xml, kernel.exreleaseresourceforthreadlite, wdm/ExReleaseResourceForThreadLite
 req.header: wdm.h
@@ -49,14 +49,14 @@ The **ExReleaseResourceForThreadLite** routine releases the input resource of th
 
 ## -parameters
 
-### -param param
+### -param Resource [in, out]
 
-[in, out]
+
 A pointer to the resource to release.
 
-### -param ResourceThreadId
+### -param ResourceThreadId [in]
 
-[in]
+
 Identifies the thread that originally acquired the resource. If this is not the currently executing thread, the caller must have transferred ownership of the resource by calling the [ExSetResourceOwnerPointerEx](nf-wdm-exsetresourceownerpointerex.md) routine first on the thread that originally acquired the resource.
 
 ## -remarks

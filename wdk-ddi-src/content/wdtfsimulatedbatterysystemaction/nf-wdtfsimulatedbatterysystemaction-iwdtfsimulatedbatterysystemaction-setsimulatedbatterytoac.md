@@ -56,9 +56,9 @@ Use this method to set the simulated battery status to AC power.  If
 
 ## -parameters
 
-### -param pbSuccess 
+### -param pbSuccess [out, retval]
 
-[out, retval]
+
 
 ## -returns
 

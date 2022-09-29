@@ -49,14 +49,14 @@ The <b>AgpSetRate</b> function reprograms the data transfer rate of the AGP chip
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 Pointer to the miniport driver's device extension.
 
-### -param AgpRate 
+### -param AgpRate [in]
 
-[in]
+
 Specifies the transfer rate to be set. This value can be one of the following:
 
 |Value|Meaning|

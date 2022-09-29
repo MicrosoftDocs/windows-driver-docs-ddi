@@ -2,7 +2,7 @@
 UID: NS:srb._SRBEX_DATA_NVME_COMMAND
 tech.root: storage
 title: SRBEX_DATA_NVME_COMMAND (srb.h)
-ms.date: 05/13/2021
+ms.date: 08/17/2022
 targetos: Windows
 description: The SRBEX_DATA_NVME_COMMAND (srb.h) structure enables the user to frame and issue a command in NVMe format.
 req.construct-type: structure
@@ -63,7 +63,7 @@ Command Dword 0 within the NVMe command (see the NVMe specification).
 
 Namespace identifier within the NVMe command (see the NVMe specification).
 
-### -field Reserved0
+### -field Reserved0[2]
 
 Reserved; do not use.
 
@@ -150,6 +150,10 @@ User-specified queue ID (see the NVMe spec). If unspecified, set this value to 0
 ### -field CommandTag
 
 Unique, user-specified identifier for the command identifier to mark a specific command. A user can use **CommandTag** to trace the result of the command in an Event Tracing for Windows (ETW) trace (for example, in Event Viewer's Storage log).
+
+### -field CQEntryDW0
+
+Completion queue entry DW0.
 
 ## -remarks
 

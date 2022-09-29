@@ -50,19 +50,19 @@ The <i>IdeHwControl</i> miniport driver routine notifies the miniport driver abo
 
 ## -parameters
 
-### -param ChannelExtension 
+### -param ChannelExtension [in]
 
-[in]
+
 A pointer to the channel extension.
 
-### -param ControlAction 
+### -param ControlAction [in]
 
-[in]
+
 Contains an enumerator value of type <a href="/windows-hardware/drivers/ddi/irb/ne-irb-ide_control_action">IDE_CONTROL_ACTION</a> that indicates the control action to perform.
 
-### -param Parameters 
+### -param Parameters [in, out]
 
-[in, out]
+
 A pointer to a buffer that contains the parameters that are associated with the control action. This parameter can have one of the values in the following table.
 
 <table>

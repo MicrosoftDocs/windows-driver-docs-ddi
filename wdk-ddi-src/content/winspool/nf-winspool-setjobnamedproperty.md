@@ -1,14 +1,13 @@
 ---
 UID: NF:winspool.SetJobNamedProperty
 title: SetJobNamedProperty function (winspool.h)
-description: Describes the SetJobNamedProperty function.
-old-location: print\setjobnamedproperty.htm
+description: This topic describes the SetJobNamedProperty function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 04/20/2022
 keywords: ["SetJobNamedProperty function"]
 ms.keywords: SetJobNamedProperty, SetJobNamedProperty function [Print Devices], print.setjobnamedproperty, winspool/SetJobNamedProperty
 req.header: winspool.h
-req.include-header: 
+req.include-header: Winspool.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,24 +39,24 @@ api_name:
  - SetJobNamedProperty
 ---
 
-# SetJobNamedProperty function
-
-
 ## -description
 
-Describes the SetJobNamedProperty function.
+This topic describes the **SetJobNamedProperty** function.
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
+Describes the **HANDLE** parameter *hPrinter*.
 
-### -param JobId 
+### -param JobId [in]
 
-[in]
+Describes the **DWORD** parameter *JobId*.
 
-### -param pProperty 
+### -param pProperty [in]
 
-[in]
+Describes the **PrintNamedProperty** parameter *pProperty*.
 
+## -returns
+
+DWORD

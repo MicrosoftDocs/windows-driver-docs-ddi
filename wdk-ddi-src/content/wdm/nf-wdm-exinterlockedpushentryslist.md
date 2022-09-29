@@ -1,10 +1,10 @@
 ---
-UID: NF:wdm.ExInterlockedPushEntrySList
+UID: NF:wdm.ExInterlockedPushEntrySList~r1
 title: ExInterlockedPushEntrySList macro (wdm.h)
 description: The ExInterlockedPushEntrySList routine atomically inserts an entry at the beginning of a sequenced singly linked list.
 old-location: kernel\exinterlockedpushentryslist.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/09/2021
 keywords: ["ExInterlockedPushEntrySList macro"]
 ms.keywords: ExInterlockedPushEntrySList, ExInterlockedPushEntrySList routine [Kernel-Mode Driver Architecture], k102_53da8507-cae3-4a71-9c59-49676a8b7a95.xml, kernel.exinterlockedpushentryslist, wdm/ExInterlockedPushEntrySList
 req.header: wdm.h
@@ -57,9 +57,9 @@ A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">SLIST_HEADE
 
 A pointer to the caller-allocated entry to be inserted.
 
-### -param Lock 
+### -param Lock [in, out]
 
-[in, out]
+
 A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
 
 ## -syntax
@@ -74,6 +74,11 @@ ExInterlockedPushEntrySList (
     _Inout_opt_ _Requires_lock_not_held_(*_Curr_) PKSPIN_LOCK Lock
     );
 ```
+
+## -returns
+
+If there were entries on the specified list, **ExInterlockedPushEntrySList** returns a pointer to the first [**SLIST_ENTRY**](./ns-wdm-_slist_entry.md) structure that was an entry on the list; otherwise, it returns NULL.
+
 
 ## -remarks
 

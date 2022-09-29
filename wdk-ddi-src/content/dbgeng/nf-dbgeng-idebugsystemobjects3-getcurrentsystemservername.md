@@ -4,7 +4,7 @@ title: IDebugSystemObjects3::GetCurrentSystemServerName (dbgeng.h)
 description: Gets the server name for the current process. This method belongs to the IDebugSystemObjects3 interface.
 old-location: debugger\idebugsystemobjects3_getcurrentsystemservername.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSystemObjects3::GetCurrentSystemServerName"]
 ms.keywords: GetCurrentSystemServerName, GetCurrentSystemServerName method [Windows Debugging], GetCurrentSystemServerName method [Windows Debugging],IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentSystemServerName method, IDebugSystemObjects3.GetCurrentSystemServerName, IDebugSystemObjects3::GetCurrentSystemServerName, dbgeng/IDebugSystemObjects3::GetCurrentSystemServerName, debugger.idebugsystemobjects3_getcurrentsystemservername
 req.header: dbgeng.h
@@ -49,20 +49,20 @@ Gets the server name for the current process.
 
 ## -parameters
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer to an output buffer.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
-The size of the buffer.
 
-### -param NameSize 
+The size of the buffer. This size includes the space for the '\0' terminating character. 
 
-[out, optional]
-A pointer to the name size.
+### -param NameSize [out, optional]
+
+
+A pointer to the name size. This size includes the space for the '\0' terminating character. 
 
 ## -returns
 

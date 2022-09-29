@@ -1,10 +1,10 @@
 ---
 UID: NS:wificx._WIFI_ADAPTER_WAKE_CAPABILITIES
 tech.root: netvista
-title: WIFI_ADAPTER_WAKE_CAPABILITIES
-ms.date: 04/30/2021
+title: WIFI_ADAPTER_WAKE_CAPABILITIES (wificx.h)
+ms.date: 09/14/2021
 targetos: Windows
-description: "Microsoft reserves the WIFI_ADAPTER_WAKE_CAPABILITIES structure for internal use only. Don't use this structure in your code."
+description: The WIFI_ADAPTER_WAKE_CAPABILITIES structure describes a WiFiCx net adapter's wake-on-LAN (WoL) capabilities.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11
+req.target-min-winverclnt: Windows 11 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: WIFI_ADAPTER_WAKE_CAPABILITIES
@@ -40,34 +40,37 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it is commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-This function is reserved for system use and should not be called in your code.
+The **WIFI_ADAPTER_WAKE_CAPABILITIES** structure describes a WiFiCx net adapter's wake-on-LAN (WoL) capabilities.
 
 ## -struct-fields
 
 ### -field Size
 
-Reserved.
+The size of this structure, in bytes.
 
 ### -field NloDiscovery
 
-Reserved.
+A boolean value indicating if the net adapter can generate wake-up events due to NLO discovery.
 
 ### -field ApAssociationLost
 
-Reserved.
+A boolean value indicating if the net adapter can generate wake-up events when access point association is lost.
 
 ### -field GtkHandshakeError
 
-Reserved.
+A boolean value indicating if the net adapter can generate wake-up events when there is a GTK handshake error.
 
 ### -field FourWayHandshakeRequest
 
-Reserved.
+A boolean value indicating if the net adapter can generate wake-up events when it receives a 4-Way Handshake request.
 
 ## -remarks
 
+Call [**WIFI_ADAPTER_WAKE_CAPABILITIES_INIT**](nf-wificx-wifi_adapter_wake_capabilities_init.md) to initialize this structure. An initialized **WIFI_ADAPTER_WAKE_CAPABILITIES** structure is passed as an input method to [**WifiAdapterSetWakeCapabilities**](nf-wificx-wifiadaptersetwakecapabilities.md).
+
 ## -see-also
+
+[**WIFI_ADAPTER_WAKE_CAPABILITIES_INIT**](nf-wificx-wifi_adapter_wake_capabilities_init.md)
+
+[**WifiAdapterSetWakeCapabilities**](nf-wificx-wifiadaptersetwakecapabilities.md)
 

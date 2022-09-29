@@ -52,14 +52,14 @@ The <b>WdfPdoInitAddCompatibleID</b> method adds a compatible ID to the list of 
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-### -param CompatibleID 
+### -param CompatibleID [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a compatible ID string. The driver can allocate the string's buffer from paged pool.
 
 ## -returns

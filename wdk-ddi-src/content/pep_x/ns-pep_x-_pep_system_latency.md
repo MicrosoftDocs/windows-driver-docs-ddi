@@ -55,9 +55,9 @@ The <b>PEP_SYSTEM_LATENCY</b> structure specifies the new value for the system l
 
 ## -struct-fields
 
-### -field Latency
+### -field Latency [in]
 
-[in] The overall system latency tolerance, in 100-nanosecond units. This member specifies the maximum latency that the operating system can tolerate in the time required to move a component from a low-power F<i>x</i> state to F0.
+The overall system latency tolerance, in 100-nanosecond units. This member specifies the maximum latency that the operating system can tolerate in the time required to move a component from a low-power F<i>x</i> state to F0.
 
 ## -remarks
 

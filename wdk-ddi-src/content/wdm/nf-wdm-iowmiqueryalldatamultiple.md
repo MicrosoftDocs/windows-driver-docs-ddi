@@ -49,24 +49,24 @@ The <b>IoWMIQueryAllDataMultiple</b> routine returns all WMI data blocks that im
 
 ## -parameters
 
-### -param DataBlockObjectList 
+### -param DataBlockObjectList [in]
 
-[in]
+
 Pointer to an array of pointers to WMI data block objects. The caller opens a data block object for each WMI class with the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a> routine. Each object must be opened with the WMIGUID_QUERY access right.
 
-### -param ObjectCount 
+### -param ObjectCount [in]
 
-[in]
+
 Specifies the number of entries in the array passed in the <i>DataBlockObjectList</i> parameter.
 
-### -param InOutBufferSize 
+### -param InOutBufferSize [in, out]
 
-[in, out]
+
 Pointer to a memory location that specifies the size of the buffer passed in the <i>OutBuffer</i> parameter. If the routine succeeds, it updates the memory location to specify the number of bytes actually stored in <i>OutBuffer</i>. If the routine fails with status code of STATUS_BUFFER_TOO_SMALL, it returns the number of bytes required to return the data.
 
-### -param OutBuffer 
+### -param OutBuffer [out, optional]
 
-[out, optional]
+
 Pointer to the buffer where the routine returns the WMI data. The routine returns a sequence of variable-sized <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_all_data">WNODE_ALL_DATA</a> structures, one for each set of returned data blocks. The <b>WnodeHeader.Linkage</b> member of each <b>WNODE_ALL_DATA</b> structure contains the offset from the beginning of the current <b>WNODE_ALL_DATA</b> to the beginning of the next <b>WNODE_ALL_DATA</b>. The final block in the chain has <b>WnodeHeader.Linkage</b> set to zero. <i>OutBuffer</i> must point to a buffer allocated from nonpaged pool.
 
 ## -returns

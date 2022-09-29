@@ -52,21 +52,21 @@ The D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE structure describes the bit-block t
 
 ## -struct-fields
 
-### -field hVideoProcessor
+### -field hVideoProcessor [in]
 
-[in] A handle to the video processor whose bitblt state is changed.
+A handle to the video processor whose bitblt state is changed.
 
-### -field State
+### -field State [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_blt_state">DXVAHDDDI_BLT_STATE</a>-typed value that indicates the type of bitblt to set.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_blt_state">DXVAHDDDI_BLT_STATE</a>-typed value that indicates the type of bitblt to set.
 
-### -field DataSize
+### -field DataSize [in]
 
-[in] The size, in bytes, of the data that is used to change the bitblt state.
+The size, in bytes, of the data that is used to change the bitblt state.
 
-### -field pData
+### -field pData [in]
 
-[in] A pointer to the data that is used to change the bitblt state. For more information about the types of data that <b>pData</b> can point to, see the values of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_blt_state">DXVAHDDDI_BLT_STATE</a> enumeration.
+A pointer to the data that is used to change the bitblt state. For more information about the types of data that <b>pData</b> can point to, see the values of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_blt_state">DXVAHDDDI_BLT_STATE</a> enumeration.
 
 ## -see-also
 

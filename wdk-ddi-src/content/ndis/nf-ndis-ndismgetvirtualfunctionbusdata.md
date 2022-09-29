@@ -52,31 +52,31 @@ A miniport driver calls the <b>NdisMGetVirtualFunctionBusData</b> function to re
 
 ## -parameters
 
-### -param NdisMiniportHandle 
+### -param NdisMiniportHandle [in]
 
-[in]
+
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-### -param VFId 
+### -param VFId [in]
 
-[in]
+
 The identifier of the VF from which the data from the PCI configuration space is returned.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 A pointer to a buffer that receives the data that is read from the VF's PCI configuration space.
 
-### -param Offset 
+### -param Offset [in]
 
-[in]
+
 The offset, in units of bytes, in the VF's PCI configuration space from which data is read.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 The length, in units of bytes, of the data to be read.
 
 <div class="alert"><b>Note</b>  The size of the buffer referenced by <i>Buffer</i> must be at least as large as the value of the <i>Length</i> parameter.</div>
@@ -96,9 +96,9 @@ For more information on how to query the VF's PCI configuration space, see <a hr
 For more information about the SR-IOV interface, see 	<a href="/windows-hardware/drivers/network/overview-of-single-root-i-o-virtualization--sr-iov-">Overview of Single Root I/O Virtualization (SR-IOV)</a>.
 
 <h3><a id="Interfacing_to_a_Virtual_Bus_Driver"></a><a id="interfacing_to_a_virtual_bus_driver"></a><a id="INTERFACING_TO_A_VIRTUAL_BUS_DRIVER"></a>Interfacing to a Virtual Bus Driver</h3>
-If an independent hardware vendor (IHV) provides a virtual bus driver (VBD) as part of its SR-IOV <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>, its miniport driver must not call <b>NdisMGetVirtualFunctionBusData</b>. Instead, the driver must interface with the VBD through a private communication channel, and request that the VBD call <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a>. This function is exposed from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface that is supported by the underlying PCI bus driver.
+If an independent hardware vendor (IHV) provides a virtual bus driver (VBD) as part of its SR-IOV <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>, its miniport driver must not call <b>NdisMGetVirtualFunctionBusData</b>. Instead, the driver must interface with the VBD through a private communication channel, and request that the VBD call <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a>. This function is exposed from the <a href="/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface that is supported by the underlying PCI bus driver.
 
-The VBD that runs in the Hyper-V parent partition's management operating system can query the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface by issuing an <a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> request to its physical device object (PDO) on the PCI bus. This request must be made from IRQL = PASSIVE_LEVEL. In this request, the driver must  set the <i>InterfaceType</i> parameter to GUID_PCI_VIRTUALIZATION_INTERFACE.
+The VBD that runs in the Hyper-V parent partition's management operating system can query the <a href="/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface by issuing an <a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> request to its physical device object (PDO) on the PCI bus. This request must be made from IRQL = PASSIVE_LEVEL. In this request, the driver must  set the <i>InterfaceType</i> parameter to GUID_PCI_VIRTUALIZATION_INTERFACE.
 
 ## -see-also
 
@@ -106,7 +106,7 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+<a href="/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 

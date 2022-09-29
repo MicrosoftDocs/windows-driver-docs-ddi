@@ -52,13 +52,13 @@ The D3DDDICB_UPDATEOVERLAY structure describes parameters for modifying an overl
 
 ## -struct-fields
 
-### -field hKernelOverlay
+### -field hKernelOverlay [in]
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlaycb">pfnCreateOverlayCb</a> function and that identifies the kernel-mode overlay object to modify.
+A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlaycb">pfnCreateOverlayCb</a> function and that identifies the kernel-mode overlay object to modify.
 
-### -field OverlayInfo
+### -field OverlayInfo [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_kerneloverlayinfo">D3DDDI_KERNELOVERLAYINFO</a> structure that describes modification information for the kernel-mode overlay object.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_kerneloverlayinfo">D3DDDI_KERNELOVERLAYINFO</a> structure that describes modification information for the kernel-mode overlay object.
 
 ## -see-also
 

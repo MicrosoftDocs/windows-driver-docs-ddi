@@ -1,7 +1,7 @@
 ---
 UID: NS:nblapi._NET_BUFFER_LIST_POOL_PARAMETERS
 title: NET_BUFFER_LIST_POOL_PARAMETERS
-ms.date: 11/30/2020
+ms.date: 03/17/2022
 targetos: Windows
 description: The NET_BUFFER_LIST_POOL_PARAMETERS structure defines the parameters for a pool of NET_BUFFER_LIST structures.
 tech.root: netvista
@@ -132,6 +132,11 @@ The default data size, in bytes, for data buffers that are associated with this
        
 
 For more information, see the Remarks section.
+
+### -field Flags
+The following flag is defined:
+#### NET_BUFFER_LIST_POOL_FLAG_VERIFY 0x00000001
+If this flag is set, NDIS will not immediately reuse NET_BUFFER_LISTs from this pool. Instead, allocations will be marked as no-access when they are freed so that drivers can detect use-after-free bugs.
 
 ## -remarks
 

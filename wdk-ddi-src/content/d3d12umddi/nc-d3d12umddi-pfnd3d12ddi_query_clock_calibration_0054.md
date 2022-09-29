@@ -5,8 +5,6 @@ description: Queries for clock calibration information.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_QUERY_CLOCK_CALIBRATION_0054 callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

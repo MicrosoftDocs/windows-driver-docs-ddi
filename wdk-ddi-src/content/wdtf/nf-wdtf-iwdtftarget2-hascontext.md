@@ -49,14 +49,14 @@ Determines whether a given context exists for the target.
 
 ## -parameters
 
-### -param Tag 
+### -param Tag [in]
 
-[in]
+
 The context name.
 
-### -param pResult 
+### -param pResult [out, retval]
 
-[out, retval]
+
 True if the named context exists; otherwise, false.
 
 ## -returns

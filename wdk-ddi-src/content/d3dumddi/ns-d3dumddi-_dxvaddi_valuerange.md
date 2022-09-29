@@ -52,21 +52,21 @@ The DXVADDI_VALUERANGE structure describes values of a property (such as, the va
 
 ## -struct-fields
 
-### -field MinValue
+### -field MinValue [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the minimum value that is allowed for a given property.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the minimum value that is allowed for a given property.
 
-### -field MaxValue
+### -field MaxValue [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the maximum value that is allowed for a given property.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the maximum value that is allowed for a given property.
 
-### -field DefaultValue
+### -field DefaultValue [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the default value for a given property.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the default value for a given property.
 
-### -field StepSize
+### -field StepSize [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the step size increment for a given property.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the step size increment for a given property.
 
 ## -see-also
 

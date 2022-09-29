@@ -45,17 +45,17 @@ dev_langs:
 
 ## -parameters
 
-### -param DriverGlobals
+### -param DriverGlobals [in]
 
-[in] Pointer to an [**IDD_DRIVER_GLOBALS**](./ns-iddcx-idd_driver_globals.md) structure containing system-defined per-driver data.
+Pointer to an [**IDD_DRIVER_GLOBALS**](./ns-iddcx-idd_driver_globals.md) structure containing system-defined per-driver data.
 
-### -param SwapChainObject
+### -param SwapChainObject [in]
 
-[in] The [IDDCX_SWAPCHAIN](/windows-hardware/drivers/display/iddcx-objects) object passed to the [**EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN**](nc-iddcx-evt_idd_cx_monitor_assign_swapchain.md) call.
+The [IDDCX_SWAPCHAIN](/windows-hardware/drivers/display/iddcx-objects) object passed to the [**EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN**](nc-iddcx-evt_idd_cx_monitor_assign_swapchain.md) call.
 
-### -param pSurfaceAddresss
+### -param pSurfaceAddresss [out]
 
-[out] Output arguments. On success, **pSurfaceAddress** is filled with the physical address of the surface.
+Output arguments. On success, **pSurfaceAddress** is filled with the physical address of the surface.
 
 ## -returns
 

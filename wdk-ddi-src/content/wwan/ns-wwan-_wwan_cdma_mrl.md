@@ -4,7 +4,7 @@ title: _WWAN_CDMA_MRL (wwan.h)
 description: The WWAN_CDMA_MRL structure represents the measured results list (MRL) of both serving and neighboring CDMA cells.
 old-location: netvista\wwan_cdma_mrl.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 03/11/2022
 keywords: ["WWAN_CDMA_MRL structure"]
 ms.keywords: "*PWWAN_CDMA_MRL, PWWAN_CDMA_MRL, PWWAN_CDMA_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_CDMA_MRL, WWAN_CDMA_MRL structure [Network Drivers Starting with Windows Vista], _WWAN_CDMA_MRL, netvista.wwan_cdma_mrl, wwan/PWWAN_CDMA_MRL, wwan/WWAN_CDMA_MRL"
 req.header: wwan.h
@@ -60,13 +60,6 @@ The <b>WWAN_CDMA_MRL</b> structure represents the measured results list (MRL) of
 The count of MRL entries following this member.
 
 ### -field CDMAMrl
-
- 
-
-
-
-
-#### - CDMAMrl[ANYSIZE_ARRAY]
 
 The array of MRL records, each specified as a <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_cdma_mrl_info">WWAN_CDMA_MRL_INFO</a> structure.
 

@@ -50,14 +50,14 @@ The <b>WRITE_PORT_UCHAR</b> routine writes a byte to the specified port address.
 
 ## -parameters
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 Pointer to the port, which must be a mapped memory range in I/O space.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies a byte to be written to the port.
 
 ## -remarks

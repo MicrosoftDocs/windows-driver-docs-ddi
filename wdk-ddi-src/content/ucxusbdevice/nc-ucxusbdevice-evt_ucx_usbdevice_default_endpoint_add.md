@@ -4,7 +4,7 @@ title: EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD (ucxusbdevice.h)
 description: The client driver's implementation that UCX calls to add a new default endpoint for a USB device.
 old-location: buses\evt_ucx_usbdevice_default_endpoint_add.htm
 tech.root: usbref
-ms.date: 05/07/2018
+ms.date: 01/14/2022
 keywords: ["EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function"]
 ms.keywords: EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback, EvtUcxUsbDeviceDefaultEndpointAdd, EvtUcxUsbDeviceDefaultEndpointAdd callback function [Buses], PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ucx_usbdevice_default_endpoint_add, ucxusbdevice/EvtUcxUsbDeviceDefaultEndpointAdd
 req.header: ucxusbdevice.h
@@ -42,35 +42,27 @@ api_name:
 
 # EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function
 
-
 ## -description
 
 The client driver's implementation that UCX calls to add a new default endpoint for a USB device.
 
 ## -parameters
 
-### -param UcxController 
+### -param UcxController [in]
 
-[in]
- A handle to the UCX controller that the client driver received in a previous call to  the <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
+A handle to the UCX controller that the client driver received in a previous call to  the [UcxControllerCreate](../ucxcontroller/nf-ucxcontroller-ucxcontrollercreate.md) method.
 
-### -param UcxUsbDevice 
+### -param UcxUsbDevice [in]
 
-[in]
 A handle to a UCX object that represents the USB device.
 
-### -param MaxPacketSize 
+### -param MaxPacketSize [in]
 
-[in]
 Maximum packet size for transfers on this endpoint.
 
-### -param UcxEndpointInit
+### -param UcxEndpointInit [in]
 
-#### - EndpointInit [in]
-
-A pointer to an opaque structure containing initialization
-        information.  Callbacks for the endpoint object are associated with this
-        structure.  This structure is managed by UCX.
+A pointer to an opaque structure containing initialization information. Callbacks for the endpoint object are associated with this structure. This structure is managed by UCX.
 
 ## -returns
 
@@ -78,19 +70,15 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 ## -remarks
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a> method.
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the [UcxUsbDeviceCreate](nf-ucxusbdevice-ucxusbdevicecreate.md) method.
 
-The callback function calls <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a> to create a new default endpoint object and register its default endpoint object callback functions.
+The callback function calls [UcxEndpointCreate](../ucxendpoint/nf-ucxendpoint-ucxendpointcreate.md) to create a new default endpoint object and register its default endpoint object callback functions.
 
-Then, the callback  function typically creates a WDF queue associated with the endpoint
-    object.   The  queue does not receive any requests until the class extension
-    starts it.
+Then, the callback function typically creates a WDF queue associated with the endpoint object. The  queue does not receive any requests until the class extension starts it.
 
+### Examples
 
-#### Examples
-
-
-```
+```cpp
 NTSTATUS
 Endpoint_EvtUcxUsbDeviceDefaultEndpointAdd(
     UCXCONTROLLER           UcxController,
@@ -167,25 +155,9 @@ EvtUsbDeviceDefaultEndpointAddEnd:
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucx_default_endpoint_event_callbacks_init">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks">UcxDefaultEndpointInitSetEventCallbacks</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init">WDF_IO_QUEUE_CONFIG_INIT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>
-
+- [UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT](../ucxendpoint/nf-ucxendpoint-ucx_default_endpoint_event_callbacks_init.md)
+- [UcxDefaultEndpointInitSetEventCallbacks](../ucxendpoint/nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md)
+- [UcxEndpointCreate](../ucxendpoint/nf-ucxendpoint-ucxendpointcreate.md)
+- [UcxUsbDeviceCreate](nf-ucxusbdevice-ucxusbdevicecreate.md)
+- [WDF_IO_QUEUE_CONFIG_INIT](../wdfio/nf-wdfio-wdf_io_queue_config_init.md)
+- [WdfIoQueueCreate](../wdfio/nf-wdfio-wdfioqueuecreate.md)

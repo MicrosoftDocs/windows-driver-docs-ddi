@@ -52,9 +52,9 @@ The <b>WdfCommonBufferGetLength</b> method returns the length of a specified com
 
 ## -parameters
 
-### -param CommonBuffer 
+### -param CommonBuffer [in]
 
-[in]
+
 A handle to a common buffer object that the driver obtained by a previous call to <a href="/windows-hardware/drivers/ddi/wdfcommonbuffer/nf-wdfcommonbuffer-wdfcommonbuffercreate">WdfCommonBufferCreate</a>.
 
 ## -returns

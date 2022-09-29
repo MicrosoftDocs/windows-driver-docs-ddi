@@ -49,14 +49,14 @@ The <b>FltIsVolumeWritable</b> routine determines whether the disk device that c
 
 ## -parameters
 
-### -param FltObject 
+### -param FltObject [in]
 
-[in]
+
 An opaque pointer for the volume or instance. Be aware that the associated volume must be a local file system volume.
 
-### -param IsWritable 
+### -param IsWritable [out]
 
-[out]
+
 A pointer to a caller-allocated Boolean variable that receives <b>TRUE</b> if the volume is writable; <b>FALSE</b> otherwise.
 
 ## -returns

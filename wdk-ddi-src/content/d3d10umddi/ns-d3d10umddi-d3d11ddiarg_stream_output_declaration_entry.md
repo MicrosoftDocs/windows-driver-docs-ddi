@@ -49,19 +49,19 @@ The D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure describes a portion of
 
 ## -struct-fields
 
-### -field Stream
+### -field Stream [in]
 
-[in] The stream to output from, which is a value between zero and the maximum number of streams that are specified by the driver.
+The stream to output from, which is a value between zero and the maximum number of streams that are specified by the driver.
 
-### -field OutputSlot
+### -field OutputSlot [in]
 
-[in] The number of the slot for the portion of the stream output.
+The number of the slot for the portion of the stream output.
 
-### -field RegisterIndex
+### -field RegisterIndex [in]
 
-[in] The number of the register for the portion of the stream output.
+The number of the register for the portion of the stream output.
 
-### -field RegisterMask
+### -field RegisterMask [in]
 
-[in] The xyzw register mask for the portion of the stream output. That is, the four least significant bits (LSBs) of the mask represent xyzw respectively.
+The xyzw register mask for the portion of the stream output. That is, the four least significant bits (LSBs) of the mask represent xyzw respectively.
 

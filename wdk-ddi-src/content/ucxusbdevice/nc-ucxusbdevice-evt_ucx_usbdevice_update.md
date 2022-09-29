@@ -50,14 +50,14 @@ The client driver's implementation that UCX calls to
 
 ## -parameters
 
-### -param UcxController 
+### -param UcxController [in]
 
-[in]
+
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 Contains the <a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_update">USBDEVICE_UPDATE</a> structure.
 
 ## -remarks

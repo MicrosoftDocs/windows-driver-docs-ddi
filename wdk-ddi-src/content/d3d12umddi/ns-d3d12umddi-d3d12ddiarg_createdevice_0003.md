@@ -3,7 +3,7 @@ UID: NS:d3d12umddi.D3D12DDIARG_CREATEDEVICE_0003
 title: D3D12DDIARG_CREATEDEVICE_0003 (d3d12umddi.h)
 description: The D3D10DDIARG_CREATEDEVICE_0003 structure describes the display device to create.
 old-location: display\d3d12ddiarg_createdevice_0003.htm
-ms.date: 05/10/2018
+ms.date: 05/24/2022
 keywords: ["D3D12DDIARG_CREATEDEVICE_0003 structure"]
 ms.keywords: D3D12DDIARG_CREATEDEVICE_0003, D3D12DDIARG_CREATEDEVICE_0003 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATEDEVICE_0003, display.d3d12ddiarg_createdevice_0003
 req.header: d3d12umddi.h
@@ -42,28 +42,27 @@ api_name:
 
 # D3D12DDIARG_CREATEDEVICE_0003 structure
 
-
 ## -description
 
-The D3D10DDIARG_CREATEDEVICE_0003 structure describes the display device to create.
+The **D3D12DDIARG_CREATEDEVICE_0003** structure describes the display device to create.
 
 ## -struct-fields
 
-### -field hRTDevice
+### -field hRTDevice [in]
 
-[in] A handle to the display device (graphics context) that specifies the handle that the driver should use when it calls back into the Direct3D runtime.
+A handle to the display device (graphics context) that specifies the handle that the driver should use when it calls back into the Direct3D runtime.
 
-### -field Interface
+### -field Interface [in]
 
-[in] The Direct3D interface version.
+The Direct3D interface version.
 
-### -field Version
+### -field Version [in]
 
-[in] A UINT value that the driver can use to identify when the Direct3D runtime was built (the runtime version).
+A UINT value that the driver can use to identify when the Direct3D runtime was built (the runtime version).
 
 ### -field pKTCallbacks
 
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicecallbacks">D3DDDI_DEVICECALLBACKS</a> structure that contains a table of Direct3D runtime callback functions that the driver can use to access kernel services.
+A pointer to a [**D3DDDI_DEVICECALLBACKS**](..//d3dumddi/ns-d3dumddi-_d3dddi_devicecallbacks.md) structure that contains a table of Direct3D runtime callback functions that the driver can use to access kernel services.
 
 ### -field hDrvDevice
 
@@ -81,6 +80,14 @@ A pointer to a [D3D12DDI_CORELAYER_DEVICECALLBACKS_0022](ns-d3d12umddi-d3d12ddi_
 
 A pointer to a [D3D12DDI_CORELAYER_DEVICECALLBACKS_0050](ns-d3d12umddi-d3d12ddi_corelayer_devicecallbacks_0050.md) structure that contains a table of Direct3D runtime callback functions that the driver can use to access core user-mode runtime functionality.
 
+### -field p12UMCallbacks_0062
+
+A pointer to a [D3D12DDI_CORELAYER_DEVICECALLBACKS_0062](ns-d3d12umddi-d3d12ddi_corelayer_devicecallbacks_0062.md) structure that contains a table of Direct3D runtime callback functions that the driver can use to access core user-mode runtime functionality.
+
 ### -field Flags
 
 Flag values that identify how to create the display device.
+
+## -see-also
+
+[**PFND3D12DDI_CREATEDEVICE_0003**](nc-d3d12umddi-pfnd3d12ddi_createdevice_0003.md)

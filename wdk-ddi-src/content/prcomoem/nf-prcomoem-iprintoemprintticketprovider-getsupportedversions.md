@@ -49,19 +49,19 @@ The <code>IPrintOemPrintTicketProvider::GetSupportedVersions</code> method retri
 
 ## -parameters
 
-### -param hPrinter 
+### -param hPrinter [in]
 
-[in]
+
 A handle to the print device.
 
-### -param ppVersions 
+### -param ppVersions [out]
 
-[out]
+
 A pointer to a variable that receives the address of the first element of an array of version numbers. Version numbers in the array can appear in any order. For more information about this parameter, see the following Remarks section.
 
-### -param cVersions 
+### -param cVersions [out]
 
-[out]
+
 A pointer to a variable that receives the number of elements in the array that is pointed to by *<i>ppVersions</i>.
 
 ## -returns

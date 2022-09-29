@@ -1,10 +1,10 @@
 ---
 UID: NS:ntddstor._STORAGE_TEMPERATURE_DATA_DESCRIPTOR
-title: _STORAGE_TEMPERATURE_DATA_DESCRIPTOR (ntddstor.h)
+title: STORAGE_TEMPERATURE_DATA_DESCRIPTOR (ntddstor.h)
 description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROPERTY to return temperature data from a storage device or adapter.
 old-location: storage\storage_temperature_data_descriptor.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 08/18/2022
 keywords: ["STORAGE_TEMPERATURE_DATA_DESCRIPTOR structure"]
 ms.keywords: "*PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR structure pointer [Storage Devices], STORAGE_TEMPERATURE_DATA_DESCRIPTOR, STORAGE_TEMPERATURE_DATA_DESCRIPTOR structure [Storage Devices], _STORAGE_TEMPERATURE_DATA_DESCRIPTOR, ntddstor/PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, ntddstor/STORAGE_TEMPERATURE_DATA_DESCRIPTOR, storage.storage_temperature_data_descriptor"
 req.header: ntddstor.h
@@ -46,12 +46,11 @@ api_name:
  - STORAGE_TEMPERATURE_DATA_DESCRIPTOR
 ---
 
-# _STORAGE_TEMPERATURE_DATA_DESCRIPTOR structure
-
+# STORAGE_TEMPERATURE_DATA_DESCRIPTOR structure
 
 ## -description
 
-This structure is used in conjunction with <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to return temperature data from a storage device or adapter.
+This structure is used in conjunction with [**IOCTL_STORAGE_QUERY_PROPERTY**](ni-ntddstor-ioctl_storage_query_property.md) to return temperature data from a storage device or adapter.
 
 ## -struct-fields
 
@@ -73,40 +72,26 @@ Indicates the maximum temperature in degrees Celsius at which the device is capa
 
 ### -field InfoCount
 
-Specifies the number of <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_info">STORAGE_TEMPERATURE_INFO</a> structures reported in <b>TemperatureInfo</b>. More than one set of temperature data may be returned when there are multiple sensors in the drive.
+Specifies the number of [**STORAGE_TEMPERATURE_INFO*](ns-ntddstor-_storage_temperature_info.md) structures reported in **TemperatureInfo**. More than one set of temperature data may be returned when there are multiple sensors in the drive.
 
-### -field Reserved0
-
-Reserved for future use.
-
-### -field Reserved1
+### -field Reserved0[2]
 
 Reserved for future use.
 
-### -field TemperatureInfo
+### -field Reserved1[2]
 
- 
+Reserved for future use.
 
+### -field TemperatureInfo[ANYSIZE_ARRAY]
 
-
-
-#### - TemperatureInfo[ANYSIZE_ARRAY]
-
-Device temperature data, of type <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>.
+Device temperature data, of type [**STORAGE_TEMPERATURE_INFO*](ns-ntddstor-_storage_temperature_info.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
+[**IOCTL_STORAGE_QUERY_PROPERTY**](ni-ntddstor-ioctl_storage_query_property.md)
 
+[**STORAGE_PROPERTY_ID*](ne-ntddstor-storage_property_id.md)
 
+[**STORAGE_PROPERTY_QUERY*](ns-ntddstor-_storage_property_query.md)
 
-<a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-storage_property_id">STORAGE_PROPERTY_ID</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_property_query">STORAGE_PROPERTY_QUERY</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>
-
+[**STORAGE_TEMPERATURE_INFO*](ns-ntddstor-_storage_temperature_info.md)

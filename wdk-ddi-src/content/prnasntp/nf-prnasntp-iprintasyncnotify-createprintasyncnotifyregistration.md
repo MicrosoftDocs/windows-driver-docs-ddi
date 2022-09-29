@@ -3,7 +3,7 @@ UID: NF:prnasntp.IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration
 title: IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration (prnasntp.h)
 description: Defines the IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration method.
 tech.root: print
-ms.date: 06/12/2021
+ms.date: 07/26/2022
 keywords: ["IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration"]
 ms.keywords: CreatePrintAsyncNotifyRegistration, CreatePrintAsyncNotifyRegistration method [Print Devices], CreatePrintAsyncNotifyRegistration method [Print Devices],IPrintAsyncNotify interface, IPrintAsyncNotify interface [Print Devices],CreatePrintAsyncNotifyRegistration method, IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration, IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration, print.iprintasyncnotify_createprintasyncnotifyregistration, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
 req.header: prnasntp.h
@@ -39,25 +39,31 @@ api_name:
  - IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
 ---
 
-# IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
-
 ## -description
 
 Defines the **IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration** method.
 
 ## -parameters
 
-## -param
+### -param unnamedParam1
 
-#### - filter [in]
+Defines the **PrintAsyncNotificationType** parameter *unnamedParam1*.
 
-#### - pCallback [in]
+### -param unnamedParam2
 
-#### - pStyle [in]
+Defines the **PrintAsyncNotifyUserFilter** parameter *unnamedParam2*.
 
-#### - pType [in]
+### -param unnamedParam3
 
-#### - ppRegistration [out]
+Defines the **PrintAsyncNotifyConversationStyle** parameter *unnamedParam3*.
+
+### -param unnamedParam4
+
+Defines the **IPrintAsyncNotifyCallback** parameter *unnamedParam4*.
+
+### -param unnamedParam5
+
+Defines the **IPrintAsyncNotifyRegistration** parameter *unnamedParam5*.
 
 ## -returns
 

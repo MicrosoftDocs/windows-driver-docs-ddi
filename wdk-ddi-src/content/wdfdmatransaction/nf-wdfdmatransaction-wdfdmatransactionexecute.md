@@ -52,14 +52,14 @@ The <b>WdfDmaTransactionExecute</b> method begins the execution of a specified D
 
 ## -parameters
 
-### -param DmaTransaction 
+### -param DmaTransaction [in]
 
-[in]
+
 A handle to a DMA transaction object that the driver obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioncreate">WdfDmaTransactionCreate</a>.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 Driver-defined context information. The framework passes the value specified for <i>Context</i>, which can be a pointer, to the driver's <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_program_dma">EvtProgramDma</a> event callback function. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns

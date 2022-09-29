@@ -5,8 +5,6 @@ description: Arguments used to read virtual function config.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKARG_READVIRTUALFUNCTIONCONFIG structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_READVIRTUALFUNCTIONCONFIG, DXGKARG_READVIRTUALFUNCTIONCONFIG, *PDXGKARG_READVIRTUALFUNCTIONCONFIG,
 req.header: dispmprt.h
 req.include-header: 

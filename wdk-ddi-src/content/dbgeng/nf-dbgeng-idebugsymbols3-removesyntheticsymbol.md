@@ -49,9 +49,9 @@ The <b>RemoveSyntheticSymbol</b> method removes a synthetic symbol from a module
 
 ## -parameters
 
-### -param Id 
+### -param Id [in]
 
-[in]
+
 Specifies the synthetic symbol to remove.  This must be the same value returned in the <i>Id</i> parameter of <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-addsyntheticsymbol">AddSyntheticSymbol</a>.  See <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a> for details about the type of this parameter.
 
 ## -returns

@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param HwDeviceExtension 
+### -param HwDeviceExtension [in]
 
-[in]
+
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param Srb 
+### -param Srb [in]
 
-[in]
+
 A pointer to the SRB to be queried.
 
-### -param RequestInfo 
+### -param RequestInfo [out]
 
-[out]
+
 A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_stor_request_info_v1">STOR_REQUEST_INFO</a> structure.
 
 ## -returns

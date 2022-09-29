@@ -49,14 +49,14 @@ The <b>Exception</b> callback method is called by the engine when an exception d
 
 ## -parameters
 
-### -param Exception 
+### -param Exception [in]
 
-[in]
+
 Specifies the nature of the exception.  EXCEPTION_RECORD64 is defined in winnt.h.
 
-### -param FirstChance 
+### -param FirstChance [in]
 
-[in]
+
 Specifies whether this exception has been previously encountered.  A nonzero value means that this is the first time the exception has been encountered ("first chance").  A zero value means that the exception has already been offered to all possible handlers, and each one declined to handle it ("second chance").
 
 ## -returns

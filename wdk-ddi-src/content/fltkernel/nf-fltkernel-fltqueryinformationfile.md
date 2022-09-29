@@ -49,34 +49,34 @@ api_name:
 
 ## -parameters
 
-### -param Instance 
+### -param Instance [in]
 
-[in]
+
 Opaque instance pointer for the caller. This parameter is required and cannot be **NULL**.
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 File object pointer for the file. This parameter is required and cannot be **NULL**.
 
-### -param FileInformation 
+### -param FileInformation [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that receives information about the file. The *FileInformationClass* parameter specifies the type of information. This parameter is required and cannot be **NULL**.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Size, in bytes, of the *FileInformation* buffer.
 
-### -param FileInformationClass 
+### -param FileInformationClass [in]
 
-[in]
+
 A [FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md) value that specifies the type of file information to be returned in the *FileInformation* buffer.
 
-### -param LengthReturned 
+### -param LengthReturned [out, optional]
 
-[out, optional]
+
 Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in the *FileInformation* buffer. This parameter is optional and can be **NULL**.
 
 ## -returns

@@ -51,9 +51,9 @@ The <b>Stop</b> method temporarily stops a <a href="/windows-hardware/drivers/wd
 
 ## -parameters
 
-### -param Action 
+### -param Action [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wdfiotarget/ne-wdfiotarget-_wdf_io_target_sent_io_action">WDF_IO_TARGET_SENT_IO_ACTION</a>-typed value that specifies how the framework should handle I/O requests that the driver has sent to the remote I/O target, if the target has not completed the requests.
 
 ## -returns

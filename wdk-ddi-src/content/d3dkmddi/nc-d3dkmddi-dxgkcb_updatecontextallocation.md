@@ -50,13 +50,13 @@ product:
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to the display adapter.
+A handle to the display adapter.
 
-### -param pArgs
+### -param pArgs [in]
 
-[in] The [**DXGKARGCB_UPDATECONTEXTALLOCATION**](ns-d3dkmddi-_dxgkargcb_updatecontextallocation.md) structure that describes the operation.
+The [**DXGKARGCB_UPDATECONTEXTALLOCATION**](ns-d3dkmddi-_dxgkargcb_updatecontextallocation.md) structure that describes the operation.
 
 ## -returns
 

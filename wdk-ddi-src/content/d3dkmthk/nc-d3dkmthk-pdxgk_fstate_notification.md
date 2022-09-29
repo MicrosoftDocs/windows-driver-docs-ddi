@@ -2,7 +2,7 @@
 UID: NC:d3dkmthk.PDXGK_FSTATE_NOTIFICATION
 title: PDXGK_FSTATE_NOTIFICATION (d3dkmthk.h)
 description: Implemented by the client driver to issue a state notification.
-ms.date: 10/19/2018
+ms.date: 03/03/2022
 keywords: ["PDXGK_FSTATE_NOTIFICATION callback function"]
 req.header: d3dkmthk.h
 req.include-header: 
@@ -43,36 +43,31 @@ dev_langs:
 
 # PDXGK_FSTATE_NOTIFICATION callback function
 
-
 ## -description
 
 Implemented by the client driver to issue a state notification.
 
 ## -parameters
 
-### -param GraphicsDeviceHandle:
+### -param GraphicsDeviceHandle
 
 An opaque handle which should be provided when making callbacks to the graphics device.
 
-### -param ComponentIndex:
+### -param ComponentIndex
 
 The index of the component. Generally, this will be the index used by the graphics adapter. The exception is for LDA scenarios, where the HIWORD of the ComponentIndex indicates the adapter index, as is done when the graphics driver is called by graphics kernel for F-state changes in LDA scenarios.
 
-### -param NewFState:
+### -param NewFState
 
 The F-state to transition to.
 
-### -param PreNotification:
+### -param PreNotification
 
 Indicates that a notification should be provided.
 
-### -param PrivateHandle:
+### -param PrivateHandle
 
-An opaque handle which will be provided in any callbacks. This handle must be globally unique, therefore, a pointer to the calling driver’s PDO or FDO should be used.
-
-## -returns
-
-Returns VOID.
+An opaque handle which will be provided in any callbacks. This handle must be globally unique, therefore, a pointer to the calling driver's PDO or FDO should be used.
 
 ## -prototype
 
@@ -85,11 +80,11 @@ PDXGK_FSTATE_NOTIFICATION PdxgkFstateNotification;
 
 VOID PdxgkFstateNotification
 (
-	PVOID GraphicsDeviceHandle
-	ULONG ComponentIndex
-	UINT NewFState
-	BOOLEAN PreNotification
-	PVOID PrivateHandle
+  PVOID GraphicsDeviceHandle
+  ULONG ComponentIndex
+  UINT NewFState
+  BOOLEAN PreNotification
+  PVOID PrivateHandle
 )
 {...}
 
@@ -99,7 +94,6 @@ VOID PdxgkFstateNotification
 
 All callbacks made from Dxgkrnl to this callback may be called at up to DISPATCH_LEVEL (e.g., the non-graphics driver should not block on any of these notifications). Callbacks will only be made for [DXGK_POWER_COMPONENT_SHARED](../d3dkmddi/ne-d3dkmddi-_dxgk_power_component_type.md) type power components.
 
-Pre-notifications will be provided prior to transitioning F-states. Completion notification callbacks (PreNotification==FALSE) are issued as part of the graphics driver’s [DxgkCbCompleteFStateTransition](../d3dkmddi/nc-d3dkmddi-dxgkcb_completefstatetransition.md) callback. That is, all shared power components will be notified of the F-state transition completion prior to DxgkCbCompleteFStateTransition returning.
+Pre-notifications will be provided prior to transitioning F-states. Completion notification callbacks (PreNotification==FALSE) are issued as part of the graphics driver's [DxgkCbCompleteFStateTransition](../d3dkmddi/nc-d3dkmddi-dxgkcb_completefstatetransition.md) callback. That is, all shared power components will be notified of the F-state transition completion prior to DxgkCbCompleteFStateTransition returning.
 
 ## -see-also
-

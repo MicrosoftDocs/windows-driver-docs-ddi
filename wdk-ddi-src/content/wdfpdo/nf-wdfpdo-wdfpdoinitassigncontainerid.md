@@ -52,14 +52,14 @@ The <b>WdfPdoInitAssignContainerID</b> method updates the container ID for a chi
 
 ## -parameters
 
-### -param DeviceInit 
+### -param DeviceInit [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
-### -param ContainerID 
+### -param ContainerID [in]
 
-[in]
+
 A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a container ID string. The driver can allocate the string's buffer from paged pool.
 
 ## -returns

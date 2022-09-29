@@ -4,7 +4,7 @@ title: EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP (iddcx.h)
 description: EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP is called by the OS to set a gamma ramp on the specified monitor.
 old-location: display\evt_idd_cx_monitor_set_gamma_ramp.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/08/2022
 keywords: ["EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP, EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP callback, EvtIddCxMonitorSetGammaRamp, EvtIddCxMonitorSetGammaRamp callback function [Display Devices], PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP, PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP callback function pointer [Display Devices], display.evt_idd_cx_monitor_set_gamma_ramp, iddcx/EvtIddCxMonitorSetGammaRamp
 req.header: iddcx.h
@@ -42,24 +42,20 @@ api_name:
 
 # EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP callback function
 
-
 ## -description
 
-<b>EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP</b> is called by the OS to set a gamma ramp on the specified monitor.
+The operating system calls **EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP** to set a gamma ramp on the specified monitor.
 
 ## -parameters
 
-### -param MonitorObject 
+### -param MonitorObject [in]
 
-[in]
-A handle by the OS to identify the monitor to set a gamma ramp for.
+An [**IDDCX_MONITOR**](/windows-hardware/drivers/display/iddcx-objects) object which is the OS's context handle that identifies the monitor to set a gamma ramp for.
 
-### -param pInArgs 
+### -param pInArgs [in]
 
-[in]
-Input arguments used by <b>EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP</b>.
+An [**IDARG_IN_SET_GAMMARAMP**](ns-iddcx-idarg_in_set_gammaramp.md) structure containing information about the gamma ramp being set.
 
 ## -returns
 
-(NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
-
+If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.

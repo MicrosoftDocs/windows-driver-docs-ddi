@@ -47,9 +47,9 @@ The
 
 ## -parameters
 
-### -param Mdl 
+### -param Mdl [in]
 
-[in]
+
 A pointer to the MDL that is to be freed.
 
 ## -remarks

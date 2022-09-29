@@ -58,9 +58,9 @@ The
 
 ## -parameters
 
-### -param Status 
+### -param Status [in]
 
-[in]
+
 Specifies the final status of the client's asynchronous request to modify the call parameters for
      this VC as one of the following:
      
@@ -101,18 +101,18 @@ The call manager could not change the QoS because of a failure on the network or
 The call manager failed to change the QoS, and NDIS propagated the CM-determined failure status
        to the client.
 
-### -param ProtocolVcContext 
+### -param ProtocolVcContext [in]
 
-[in]
+
 Specifies the handle to the client's per-VC context area, which the client originally supplied to
      NDIS when it called 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> to set up the VC for its
      outgoing call request or from its 
      <i>ProtocolCoCreateVc</i> function if the client accepted an incoming call on this VC.
 
-### -param CallParameters 
+### -param CallParameters [in]
 
-[in]
+
 Pointer to a buffered CO_CALL_PARAMETERS structure containing the client-specified QoS change it
      requested, or, possibly, the original QoS for this VC established when the connection was activated,
      which the call manager has restored.

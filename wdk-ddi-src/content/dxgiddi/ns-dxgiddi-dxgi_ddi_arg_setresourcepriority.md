@@ -49,17 +49,17 @@ The DXGI_DDI_ARG_SETRESOURCEPRIORITY structure describes parameters for setting 
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the display device (graphics context) on which the driver sets the eviction-from-memory priority for a resource. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createdevice">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function to create the display device.
+A handle to the display device (graphics context) on which the driver sets the eviction-from-memory priority for a resource. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createdevice">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function to create the display device.
 
-### -field hResource
+### -field hResource [in]
 
-[in] A handle to the resource to set the priority level for.
+A handle to the resource to set the priority level for.
 
-### -field Priority
+### -field Priority [in]
 
-[in] The priority level to set for the resource that the <b>hResource</b> member specifies. A resource's priority level can be set anywhere in the range from 0 through 0xFFFFFFFF.
+The priority level to set for the resource that the <b>hResource</b> member specifies. A resource's priority level can be set anywhere in the range from 0 through 0xFFFFFFFF.
 
 ## -remarks
 

@@ -45,17 +45,17 @@ dev_langs:
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] A pointer to the miniport's device extension.
+A pointer to the miniport's device extension.
 
-### -param MessageId
+### -param MessageId [in]
 
-[in] The index of the table entry in the MSI-X hardware interrupt table.
+The index of the table entry in the MSI-X hardware interrupt table.
 
-### -param Mask
+### -param Mask [in]
 
-[in] Indicates whether to mask (TRUE) or unmask (FALSE) the interrupt.
+Indicates whether to mask (TRUE) or unmask (FALSE) the interrupt.
 
 ## -returns
 

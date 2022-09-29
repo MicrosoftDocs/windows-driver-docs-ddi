@@ -51,13 +51,13 @@ The <b>pfnReleaseFrequencyRangeInfo</b> function releases a <a href="/windows-ha
 
 ## -parameters
 
-### -param hMonitorFrequencyRangeSet
+### -param hMonitorFrequencyRangeSet [in]
 
-[in] A handle to a monitor frequency range set object. The display miniport driver previously obtained this handle by calling the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_getmonitorfrequencyrangeset">pfnGetMonitorFrequencyRangeSet</a> function of the <a href="/windows-hardware/drivers/ddi/index">Monitor interface</a>.
+A handle to a monitor frequency range set object. The display miniport driver previously obtained this handle by calling the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_getmonitorfrequencyrangeset">pfnGetMonitorFrequencyRangeSet</a> function of the <a href="/windows-hardware/drivers/ddi/index">Monitor interface</a>.
 
-### -param pMonitorFrequencyRangeInfo
+### -param pMonitorFrequencyRangeInfo [in]
 
-[in] A pointer to the D3DKMDT_MONITOR_FREQUENCY_RANGE structure that is to be released.
+A pointer to the D3DKMDT_MONITOR_FREQUENCY_RANGE structure that is to be released.
 
 ## -returns
 

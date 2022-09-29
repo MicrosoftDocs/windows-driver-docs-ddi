@@ -49,13 +49,13 @@ An extended version of [**NtCreateSection**](nf-ntifs-ntcreatesection.md) that c
 
 ## -parameters
 
-### -param SectionHandle
+### -param SectionHandle [out]
 
-[out] Pointer to a HANDLE variable that receives a handle to the section object.
+Pointer to a HANDLE variable that receives a handle to the section object.
 
-### -param DesiredAccess 
+### -param DesiredAccess [out]
 
-[out] 
+
 Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects (see <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>), the caller can specify any of the following access rights, which are specific to section objects:
 
 
@@ -68,34 +68,34 @@ Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK<
 |SECTION_QUERY|Query the section object for information about the section. Drivers should set this flag.|
 |SECTION_ALL_ACCESS|All of the previous flags combined with STANDARD_RIGHTS_REQUIRED.|
 
-### -param ObjectAttributes 
+### -param ObjectAttributes [in, optional]
 
-[in, optional]
+
 Pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
-### -param MaximumSize 
+### -param MaximumSize [in, optional]
 
-[in, optional]
+
 Specifies the maximum size, in bytes, of the section. <b>NtCreateSection</b> rounds this value up to the nearest multiple of PAGE_SIZE. If the section is backed by the paging file, <i>MaximumSize</i> specifies the actual size of the section. If the section is backed by an ordinary file, <i>MaximumSize</i> specifies the maximum size that the file can be extended or mapped to.
 
-### -param SectionPageProtection 
+### -param SectionPageProtection [in]
 
-[in]
+
 Specifies the protection to place on each page in the section. Use one of the following four values: PAGE_READONLY, PAGE_READWRITE, PAGE_EXECUTE, or PAGE_WRITECOPY. For a description of these values, see <a href="/windows/win32/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>.
 
-### -param AllocationAttributes 
+### -param AllocationAttributes [in]
 
-[in]
+
 Specifies a bitmask of SEC_<i>XXX</i> flags that determines the allocation attributes of the section. For a description of these flags, see <a href="/windows/win32/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>.
 
-### -param FileHandle 
+### -param FileHandle [in, optional]
 
-[in, optional]
+
 Optionally specifies a handle for an open file object. If the value of <i>FileHandle</i> is <b>NULL</b>, the section is backed by the paging file. Otherwise, the section is backed by the specified file.
 
-### -param ExtendedParameters 
+### -param ExtendedParameters [in/out]
 
-[in/out]A pointer to an array of [**MEM_EXTENDED_PARAMETER**](../wdm/ns-wdm-mem_extended_parameter.md) structures the contains the extended paramters to create the section.
+A pointer to an array of [**MEM_EXTENDED_PARAMETER**](../wdm/ns-wdm-mem_extended_parameter.md) structures the contains the extended paramters to create the section.
 
 ### -param ExtendedParameterCount
 
@@ -103,7 +103,7 @@ The size of the _ExtendedParameters_ array.
 
 ## -returns
 
-eturns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error status codes include the following:
+Returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error status codes include the following:
 
 <table>
 <tr>

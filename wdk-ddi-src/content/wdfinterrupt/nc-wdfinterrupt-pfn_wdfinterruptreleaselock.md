@@ -2,9 +2,9 @@
 UID: NC:wdfinterrupt.PFN_WDFINTERRUPTRELEASELOCK
 title: PFN_WDFINTERRUPTRELEASELOCK (wdfinterrupt.h)
 description: The WdfInterruptReleaseLock method ends a code sequence that executes at the device's DIRQL while holding an interrupt object's spin lock.
-old-location: wdf\wdfinterruptreleaselock.htm
+old-location: wdf/wdfinterruptreleaselock.htm
 tech.root: wdf
-ms.date: 01/11/2018
+ms.date: 08/11/2022
 keywords: ["PFN_WDFINTERRUPTRELEASELOCK callback"]
 ms.keywords: wdf.wdfinterruptreleaselock, PFN_WDFINTERRUPTRELEASELOCK, WdfInterruptReleaseLock callback function, WdfInterruptReleaseLock, wdfinterrupt/WdfInterruptReleaseLock, DFInterruptObjectRef_70637f8b-a7d9-4637-b02c-1ebed3e363c7.xml, kmdf.wdfinterruptreleaselock
 req.header: wdfinterrupt.h
@@ -43,12 +43,11 @@ api_name:
 
 # PFN_WDFINTERRUPTRELEASELOCK callback
 
-
 ## -description
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
+**[Applies to KMDF and UMDF]**
 
-The <b>WdfInterruptReleaseLock</b> method ends a code sequence that executes at the device's DIRQL while holding an interrupt object's spin lock.
+The **WdfInterruptReleaseLock** method ends a code sequence that executes at the device's DIRQL while holding an interrupt object's spin lock.
 
 For passive level interrupt objects, the method ends a code sequence that executes at passive level while holding an interrupt object's passive lock.
 
@@ -56,43 +55,41 @@ For passive level interrupt objects, the method ends a code sequence that execut
 
 ### -param DriverGlobals
 
-### -param WDFINTERRUPT
-
-#### - Interrupt [in]
+### -param Interrupt [in]
 
 A handle to a framework interrupt object.
 
 ## -prototype
 
 ```cpp
-VOID WdfInterruptReleaseLock(
-  _In_ WDFINTERRUPT Interrupt
-);
+VOID
+(*PFN_WDFINTERRUPTRELEASELOCK)(
+    IN PWDF_DRIVER_GLOBALS DriverGlobals,
+    WDFINTERRUPT Interrupt
+    );
 ```
+
+## -returns
 
 ## -remarks
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-The <b>WdfInterruptReleaseLock</b> method releases the specified interrupt object's spin lock or wait lock and returns the processor's IRQL to the level that it was set to before the driver called <a href="/previous-versions/ff547340(v=vs.85)">WdfInterruptAcquireLock</a>.
+The **WdfInterruptReleaseLock** method releases the specified interrupt object's spin lock or wait lock and returns the processor's IRQL to the level that it was set to before the driver called [WdfInterruptAcquireLock](/previous-versions/ff547340(v=vs.85)).
 
-Your driver cannot call <b>WdfInterruptReleaseLock</b> before the framework has called the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a> callback function or after the framework has called the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md">EvtInterruptDisable</a> callback function.
+Your driver cannot call **WdfInterruptReleaseLock** before the framework has called the driver's [EvtInterruptEnable](../wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_enable.md) callback function or after the framework has called the driver's [EvtInterruptDisable](../wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_disable.md) callback function.
 
-For more information about the <b>WdfInterruptReleaseLock</b> method, see <a href="/windows-hardware/drivers/wdf/synchronizing-interrupt-code">Synchronizing Interrupt Code</a>.
+For more information about the **WdfInterruptReleaseLock** method, see [Synchronizing Interrupt Code](/windows-hardware/drivers/wdf/synchronizing-interrupt-code).
 
-For more information about handling interrupts in framework-based drivers, see <a href="/windows-hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>.
+For more information about handling interrupts in framework-based drivers, see [Handling Hardware Interrupts](/windows-hardware/drivers/wdf/handling-hardware-interrupts).
 
-This method must be called at the DIRQL that was set by <a href="/previous-versions/ff547340(v=vs.85)">WdfInterruptAcquireLock</a>.
+This method must be called at the DIRQL that was set by [WdfInterruptAcquireLock](/previous-versions/ff547340(v=vs.85)).
 
-For passive level interrupts, the driver must call <b>WdfInterruptReleaseLock</b> at IRQL = PASSIVE_LEVEL.
+For passive level interrupts, the driver must call **WdfInterruptReleaseLock** at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsynchronize.md">WdfInterruptSynchronize</a>
-
-<a href="/previous-versions/ff547340(v=vs.85)">WdfInterruptAcquireLock</a>
-
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a>
-
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md">EvtInterruptDisable</a>
-
+- [WdfInterruptSynchronize](../wdfinterrupt/nf-wdfinterrupt-wdfinterruptsynchronize.md)
+- [WdfInterruptAcquireLock](/previous-versions/ff547340(v=vs.85))
+- [EvtInterruptEnable](../wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_enable.md)
+- [EvtInterruptDisable](../wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_disable.md)

@@ -49,9 +49,9 @@ Called by the Microsoft Direct3D runtime to retrieve info that describes a count
 
 ## -parameters
 
-### -param hDevice 
+### -param hDevice [in]
 
-[in] A handle to the display device (graphics context).
+A handle to the display device (graphics context).
 
 ### -param unnamedParam1
 
@@ -86,9 +86,9 @@ An optional pointer that the driver returns a <b>NULL</b>-terminated string to t
 
 Can be <b>NULL</b>, in which case the app doesn't need the name.
 
-### -param pNameLength 
+### -param pNameLength [in, out, optional]
 
-[in, out, optional]
+
 An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszName</i> parameter specifies.
 
 Here are limitations on the values of the <i>pNameLength</i> and  <i>pszName</i> parameters:
@@ -107,9 +107,9 @@ An optional pointer that the driver returns a <b>NULL</b>-terminated string to t
 
 Can be <b>NULL</b>, in which case the app doesn't need the units info. See more info in the explanation of the <i>pUnitsLength</i> parameter.
 
-### -param pUnitsLength 
+### -param pUnitsLength [in, out, optional]
 
-[in, out, optional]
+
  An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszUnits</i> parameter specifies.
 
 Here are limitations on the values of the <i>pUnitsLength</i> and  <i>pszUnits</i> parameters:
@@ -128,9 +128,9 @@ An optional pointer that the driver returns a <b>NULL</b>-terminated string to t
 
 Can be <b>NULL</b>, in which case the app doesn't need the description info. See more info in the explanation of the <i>pDescriptionLength</i> parameter.
 
-### -param pDescriptionLength 
+### -param pDescriptionLength [in, out, optional]
 
-[in, out, optional]
+
  An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszDescription</i> parameter specifies.
 
 Here are limitations on the values of the <i>pDescriptionLength</i> and  <i>pszDescription</i> parameters:

@@ -49,19 +49,19 @@ The <b>FltOplockBreakH</b> routine breaks CACHE_HANDLE_LEVEL opportunistic locks
 
 ## -parameters
 
-### -param Oplock 
+### -param Oplock [in]
 
-[in]
+
 An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializeoplock">FltInitializeOplock</a>.
 
-### -param CallbackData 
+### -param CallbackData [in]
 
-[in]
+
 A pointer to the callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 A bitmask for the associated file I/O operation. A minifilter driver sets bits to specify the behavior of <b>FltOplockBreakH</b>. The <i>Flags</i> parameter has the following options:
 
 
@@ -78,14 +78,14 @@ Allows an oplock break to proceed without blocking or pending the operation that
 
 Allows CACHE_HANDLE_LEVEL oplock breaks to proceed regardless of the oplock key.
 
-### -param Context 
+### -param Context [in, optional]
 
-[in, optional]
+
 A pointer to caller-defined context information to be passed to the callback routines that the <i>WaitCompletionRoutine</i> and <i>PrePostCallbackDataRoutine </i>parameters point to.
 
-### -param WaitCompletionRoutine 
+### -param WaitCompletionRoutine [in, optional]
 
-[in, optional]
+
 A pointer to a caller-supplied callback routine. If an oplock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the oplock break is completed. 
 
 This routine is declared as follows: 
@@ -115,9 +115,9 @@ A pointer to the callback data structure for the I/O operation.
 
 A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakH</b>.
 
-### -param PrePostCallbackDataRoutine 
+### -param PrePostCallbackDataRoutine [in, optional]
 
-[in, optional]
+
 A pointer to a caller-supplied callback routine to be called if the I/O operation must be pended. The routine is called before the oplock package pends the IRP. This parameter is optional and can be <b>NULL</b>. 
 
 This routine is declared as follows: 

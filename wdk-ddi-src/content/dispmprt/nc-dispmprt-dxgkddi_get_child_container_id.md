@@ -49,19 +49,19 @@ api_name:
 
 ## -parameters
 
-### -param MiniportDeviceContext 
+### -param MiniportDeviceContext [in]
 
-[in]
+
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
-### -param ChildUid 
+### -param ChildUid [in]
 
-[in]
+
 A ULONG value that uniquely identifies the child device. The display miniport driver  previously provided this identifier when its  <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a> function was called.
 
-### -param ContainerId 
+### -param ContainerId [in, out]
 
-[in, out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_child_container_id">DXGK_CHILD_CONTAINER_ID</a> structure. For more information, see the Remarks section.
 
 ## -returns

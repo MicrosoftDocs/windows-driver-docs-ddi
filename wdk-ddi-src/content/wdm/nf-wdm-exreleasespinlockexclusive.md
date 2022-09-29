@@ -50,14 +50,14 @@ The <b>ExReleaseSpinLockExclusive</b> routine releases a <a href="/windows-hardw
 
 ## -parameters
 
-### -param param 
+### -param SpinLock [in, out]
 
-[in, out]
+
  A pointer to the spin lock to release. The caller must own this spin lock for exclusive access.
 
-### -param OldIrql 
+### -param OldIrql [in]
 
-[in]
+
 The interrupt request level (IRQL) to restore. Set this parameter to the KIRQL value that was returned by the <a href="/previous-versions/windows/hardware/drivers/hh451007(v=vs.85)">ExAcquireSpinLockExclusive</a> call that acquired the spin lock.
 
 ## -remarks

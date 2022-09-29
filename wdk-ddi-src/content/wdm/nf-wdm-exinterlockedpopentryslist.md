@@ -1,10 +1,10 @@
 ---
-UID: NF:wdm.ExInterlockedPopEntrySList
+UID: NF:wdm.ExInterlockedPopEntrySList~r1
 title: ExInterlockedPopEntrySList function (wdm.h)
 description: The ExInterlockedPopEntrySList routine atomically removes the first entry from a sequenced singly linked list.
 old-location: kernel\exinterlockedpopentryslist.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/08/2021
 keywords: ["ExInterlockedPopEntrySList macro"]
 ms.keywords: ExInterlockedPopEntrySList, ExInterlockedPopEntrySList routine [Kernel-Mode Driver Architecture], k102_fc9dbcb7-5cb0-405c-9a65-f7d6b60d2fee.xml, kernel.exinterlockedpopentryslist, wdm/ExInterlockedPopEntrySList
 req.header: wdm.h
@@ -49,14 +49,14 @@ The <b>ExInterlockedPopEntrySList</b> routine atomically removes the first entry
 
 ## -parameters
 
-### -param ListHead 
+### -param ListHead [in, out]
 
-[in, out]
+
 A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list. <i>ListHead</i> must have been initialized by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-initializeslisthead">ExInitializeSListHead</a>.
 
-### -param Lock 
+### -param Lock [in, out]
 
-[in, out]
+
 A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
 
 ## -syntax
@@ -70,11 +70,11 @@ ExInterlockedPopEntrySList (
     _Inout_opt_ _Requires_lock_not_held_(*_Curr_) PKSPIN_LOCK Lock
     );
 ```
-
-## -remarks
+## -returns
 
 **ExInterlockedPopEntrySList** returns a pointer to the first [**SLIST_ENTRY**](./ns-wdm-_slist_entry.md) structure on the list. If the list was empty, the routine returns NULL.
 
+## -remarks
 
 For more information about using this routine to implement a sequenced singly linked list, see <a href="/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>. 
 

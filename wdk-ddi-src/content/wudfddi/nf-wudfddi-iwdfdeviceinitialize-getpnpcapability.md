@@ -51,9 +51,9 @@ The <b>GetPnpCapability</b> method determines the state of the specified  Plug a
 
 ## -parameters
 
-### -param Capability 
+### -param Capability [in]
 
-[in]
+
 A <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_capability">WDF_PNP_CAPABILITY</a>-typed value that identifies the PnP capability to retrieve status about.
 
 ## -returns

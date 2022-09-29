@@ -5,8 +5,6 @@ description: Used to write a virtual function configuration block.
 tech.root: display
 ms.date: 04/04/2019
 keywords: ["DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK structure"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: _DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK, DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK, *PDXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK,
 req.header: dispmprt.h
 req.include-header: 

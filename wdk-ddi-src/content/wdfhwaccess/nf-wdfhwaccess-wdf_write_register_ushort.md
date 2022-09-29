@@ -51,18 +51,18 @@ The <b>WDF_WRITE_REGISTER_USHORT</b> routine writes a USHORT value to the specif
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 A pointer to the register address, which must be a mapped range in memory space.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies a USHORT value to write to the register.
 

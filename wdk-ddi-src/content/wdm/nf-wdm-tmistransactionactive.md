@@ -51,9 +51,9 @@ The <b>TmIsTransactionActive</b> routine indicates whether a specified transacti
 
 ## -parameters
 
-### -param Transaction 
+### -param Transaction [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/kernel/transaction-objects">transaction object</a>. To obtain this pointer, your component must call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransaction">ZwCreateTransaction</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopentransaction">ZwOpenTransaction</a> provided.
 
 ## -returns

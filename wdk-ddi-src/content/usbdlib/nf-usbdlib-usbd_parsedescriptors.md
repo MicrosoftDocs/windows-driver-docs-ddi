@@ -50,24 +50,24 @@ api_name:
 
 ## -parameters
 
-### -param DescriptorBuffer 
+### -param DescriptorBuffer [in]
 
-[in]
+
 Pointer to a configuration descriptor that contains the descriptor for which to search.
 
-### -param TotalLength 
+### -param TotalLength [in]
 
-[in]
+
 Specifies the size, in bytes, of the buffer pointed to by <i>DescriptorBuffer</i>.
 
-### -param StartPosition 
+### -param StartPosition [in]
 
-[in]
+
 Pointer to the address within the configuration descriptor, provided at <i>DescriptorBuffer</i>, to begin searching from. To search from the beginning of the configuration descriptor, the parameters <i>DescriptorBuffer</i> and <i>StartPosition</i> must be the same address.
 
-### -param DescriptorType 
+### -param DescriptorType [in]
 
-[in]
+
 Specifies the descriptor type code as assigned by USB. The following values are valid for USB-defined descriptor types:
 
 

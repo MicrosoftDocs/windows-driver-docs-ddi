@@ -52,3 +52,32 @@ This structure is not supported.
 
 ## -struct-fields
 
+### -field Type
+
+### -field PolicyId
+
+### -field u
+
+### -field u.None
+
+### -field u.BoolValue
+
+### -field u.Int8Value
+
+### -field u.UInt8Value
+
+### -field u.Int16Value
+
+### -field u.UInt16Value
+
+### -field u.Int32Value
+
+### -field u.UInt32Value
+
+### -field u.Int64Value
+
+### -field u.UInt64Value
+
+### -field u.AnsiStringValue
+
+### -field u.UnicodeStringValue

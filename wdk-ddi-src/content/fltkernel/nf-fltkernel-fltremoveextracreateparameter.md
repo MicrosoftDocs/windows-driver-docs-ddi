@@ -49,29 +49,29 @@ The <b>FltRemoveExtraCreateParameter</b> routine searches an ECP list for an ECP
 
 ## -parameters
 
-### -param Filter 
+### -param Filter [in]
 
-[in]
+
 Opaque filter pointer for the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
-### -param EcpList 
+### -param EcpList [in, out]
 
-[in, out]
+
 Pointer to the extra create parameter (ECP) list that contains the ECP context structure to be detached from the given list.
 
-### -param EcpType 
+### -param EcpType [in]
 
-[in]
+
 Pointer to a user-defined GUID that uniquely identifies the ECP context structure to be detached from the list.
 
-### -param EcpContext 
+### -param EcpContext [out]
 
-[out]
+
 Pointer to the detached ECP context structure.  If the ECP context structure is successfully detached from the given list, this parameter will be set to point to the detached ECP context structure.  If the ECP context structure is not found in the given ECP list, this parameter is set to <b>NULL</b>.
 
-### -param EcpContextSize 
+### -param EcpContextSize [out, optional]
 
-[out, optional]
+
 Optional parameter that receives the size of the detached ECP context structure.  If this parameter is present when the routine is called, the parameter will receive the size, in bytes, of the detached ECP context structure.  If the given ECP context structure was not found in the given ECP list, this parameter is undefined.
 
 ## -returns

@@ -4,7 +4,7 @@ title: IDebugControl4::GetProcessorTypeNamesWide (dbgeng.h)
 description: The GetProcessorTypeNamesWide method returns the full name and abbreviated name of the specified processor type.
 old-location: debugger\getprocessortypenameswide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl4::GetProcessorTypeNamesWide"]
 ms.keywords: GetProcessorTypeNamesWide, GetProcessorTypeNamesWide method [Windows Debugging], GetProcessorTypeNamesWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetProcessorTypeNamesWide method, IDebugControl4.GetProcessorTypeNamesWide, IDebugControl4::GetProcessorTypeNamesWide, dbgeng/IDebugControl4::GetProcessorTypeNamesWide, debugger.getprocessortypenameswide
 req.header: dbgeng.h
@@ -49,40 +49,40 @@ The <b>GetProcessorTypeNamesWide</b>  method returns the full name and abbreviat
 
 ## -parameters
 
-### -param Type 
+### -param Type [in]
 
-[in]
+
 Specifies the type of the processor whose name is requested.  See <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getactualprocessortype">GetActualProcessorType</a> for a list of possible values.
 
-### -param FullNameBuffer 
+### -param FullNameBuffer [out, optional]
 
-[out, optional]
+
 Receives the full name of the processor type.  If <i>FullNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param FullNameBufferSize 
+### -param FullNameBufferSize [in]
 
-[in]
-Specifies the size, in characters, of the buffer that <i>FullNameBuffer</i> specifies.
 
-### -param FullNameSize 
+Specifies the size, in characters, of the buffer that <i>FullNameBuffer</i> specifies. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the full name of the processor type.  If <i>FullNameSize</i> is <b>NULL</b>, this information is not returned.
+### -param FullNameSize [out, optional]
 
-### -param AbbrevNameBuffer 
 
-[out, optional]
+Receives the size in characters of the full name of the processor type. This size includes the space for the '\0' terminating character. If <i>FullNameSize</i> is <b>NULL</b>, this information is not returned.
+
+### -param AbbrevNameBuffer [out, optional]
+
+
 Receives the abbreviated name of the processor type.  If <i>AbbrevNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param AbbrevNameBufferSize 
+### -param AbbrevNameBufferSize [in]
 
-[in]
-Specifies the size, in characters, of the buffer that <i>AbbrevNameBuffer</i> specifies.
 
-### -param AbbrevNameSize 
+Specifies the size, in characters, of the buffer that <i>AbbrevNameBuffer</i> specifies. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the abbreviated name of the processor type.  If <i>AbbrevNameSize</i> is <b>NULL</b>, this information is not returned.
+### -param AbbrevNameSize [out, optional]
+
+
+Receives the size in characters of the abbreviated name of the processor type. This size includes the space for the '\0' terminating character. If <i>AbbrevNameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

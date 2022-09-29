@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetConstantNameWide (dbgeng.h)
 description: The GetConstantNameWide method returns the name of the specified constant.
 old-location: debugger\getconstantnamewide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetConstantNameWide"]
 ms.keywords: GetConstantNameWide, GetConstantNameWide method [Windows Debugging], GetConstantNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetConstantNameWide method, IDebugSymbols3.GetConstantNameWide, IDebugSymbols3::GetConstantNameWide, dbgeng/IDebugSymbols3::GetConstantNameWide, debugger.getconstantnamewide
 req.header: dbgeng.h
@@ -49,35 +49,35 @@ The <b>GetConstantNameWide</b>  method returns the name of the specified constan
 
 ## -parameters
 
-### -param Module 
+### -param Module [in]
 
-[in]
+
 Specifies the base address of the module in which the constant was defined.
 
-### -param TypeId 
+### -param TypeId [in]
 
-[in]
+
 Specifies the type ID of the constant.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies the value of the constant.
 
-### -param NameBuffer 
+### -param NameBuffer [out, optional]
 
-[out, optional]
+
 Receives the constant's name.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param NameBufferSize 
+### -param NameBufferSize [in]
 
-[in]
-Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
-### -param NameSize 
+Specifies the size in characters of the buffer <i>NameBuffer</i>. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the constant's name.
+### -param NameSize [out, optional]
+
+
+Receives the size in characters of the constant's name. This size includes the space for the '\0' terminating character.
 
 ## -returns
 

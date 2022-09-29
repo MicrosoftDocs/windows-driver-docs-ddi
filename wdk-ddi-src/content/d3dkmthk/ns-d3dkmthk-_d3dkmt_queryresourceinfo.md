@@ -52,33 +52,33 @@ The D3DKMT_QUERYRESOURCEINFO structure describes parameters for retrieving infor
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] A handle to the device that the resource and allocations are associated with.
+A handle to the device that the resource and allocations are associated with.
 
-### -field hGlobalShare
+### -field hGlobalShare [in]
 
-[in] A handle to the shared resource to open.
+A handle to the shared resource to open.
 
-### -field pPrivateRuntimeData
+### -field pPrivateRuntimeData [in]
 
-[in] If non-<b>NULL</b>, a pointer to a buffer that receives the runtime-private data that is supplied at create time. The OpenGL ICD should first call the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryresourceinfo">D3DKMTQueryResourceInfo</a> function with <b>pPrivateRuntimeData</b> set to <b>NULL</b> to obtain the buffer size and then call again with the correct size buffer.
+If non-<b>NULL</b>, a pointer to a buffer that receives the runtime-private data that is supplied at create time. The OpenGL ICD should first call the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryresourceinfo">D3DKMTQueryResourceInfo</a> function with <b>pPrivateRuntimeData</b> set to <b>NULL</b> to obtain the buffer size and then call again with the correct size buffer.
 
-### -field PrivateRuntimeDataSize
+### -field PrivateRuntimeDataSize [in/out]
 
-[in/out] The size, in bytes, of the buffer that <b>pPrivateRuntimeData</b> points to. If <b>pPrivateRuntimeData</b> is <b>NULL</b>, <b>PrivateRuntimeDataSize</b> is set to the size, in bytes, that is required for the buffer to store the runtime-private data.
+The size, in bytes, of the buffer that <b>pPrivateRuntimeData</b> points to. If <b>pPrivateRuntimeData</b> is <b>NULL</b>, <b>PrivateRuntimeDataSize</b> is set to the size, in bytes, that is required for the buffer to store the runtime-private data.
 
-### -field TotalPrivateDriverDataSize
+### -field TotalPrivateDriverDataSize [out]
 
-[out] The size, in bytes, of the buffer that is required to hold the private driver data for all of the allocations that are associated with the resource.
+The size, in bytes, of the buffer that is required to hold the private driver data for all of the allocations that are associated with the resource.
 
-### -field ResourcePrivateDriverDataSize
+### -field ResourcePrivateDriverDataSize [out]
 
-[out] The size, in bytes, of the buffer that is required to hold the private driver data for the resource.
+The size, in bytes, of the buffer that is required to hold the private driver data for the resource.
 
-### -field NumAllocations
+### -field NumAllocations [out]
 
-[out] The number of allocations that are associated with the resource.
+The number of allocations that are associated with the resource.
 
 ## -see-also
 

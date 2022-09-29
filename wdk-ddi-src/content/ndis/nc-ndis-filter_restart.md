@@ -52,17 +52,14 @@ The
 
 ## -parameters
 
-### -param FilterModuleContext 
+### -param FilterModuleContext [in]
 
-[in]
+
 A handle to the context area for the filter module that the filter driver should restart. The
      filter driver created and initialized this context area in the 
      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-### -param RestartParameters
-
-#### - FilterRestartParameters 
-[in]
+### -param RestartParameters [in]
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_restart_parameters">
      NDIS_FILTER_RESTART_PARAMETERS</a> structure that defines the restart parameters for the filter

@@ -52,17 +52,17 @@ The DXVADDI_FILTERVALUES structure describes values that are related to a filter
 
 ## -struct-fields
 
-### -field Level
+### -field Level [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the level of the filter.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the level of the filter.
 
-### -field Threshold
+### -field Threshold [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the threshold of the filter.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the threshold of the filter.
 
-### -field Radius
+### -field Radius [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the radius of the filter.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_fixed32">DXVADDI_FIXED32</a> structure that specifies the radius of the filter.
 
 ## -see-also
 

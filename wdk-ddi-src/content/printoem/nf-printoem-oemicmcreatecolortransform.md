@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMIcmCreateColorTransform
 title: OEMIcmCreateColorTransform function (printoem.h)
 description: The OEMIcmCreateColorTransform function creates an ICM color transform.
-old-location: print\oemicmcreatecolortransform.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/09/2022
 keywords: ["OEMIcmCreateColorTransform function"]
 ms.keywords: OEMIcmCreateColorTransform, OEMIcmCreateColorTransform function [Print Devices], print.oemicmcreatecolortransform, print_unidrv-pscript_rendering_102b853d-78f9-4e06-a3e5-c76f55caa42e.xml, printoem/OEMIcmCreateColorTransform
 req.header: printoem.h
@@ -40,36 +39,48 @@ api_name:
  - OEMIcmCreateColorTransform
 ---
 
-# OEMIcmCreateColorTransform function
-
-
 ## -description
 
-The <code>OEMIcmCreateColorTransform</code> function creates an ICM color transform.
+The **OEMIcmCreateColorTransform** function creates an ICM color transform.
 
 ## -parameters
 
 ### -param dhpdev
 
+Defines the **DHPDEV** parameter *dhpdev*.
+
 ### -param pLogColorSpace
 
-### -param pvSourceProfile 
+Defines the **LPLOGCOLORSPACEW** parameter *pLogColorSpace*.
 
-[in, optional]
+### -param pvSourceProfile [in, optional]
+
+Defines the **PVOID** parameter *pvSourceProfile*.
 
 ### -param cjSourceProfile
 
-### -param pvDestProfile 
+Defines the **ULONG** parameter *cjSourceProfile*.
 
-[in]
+### -param pvDestProfile [in]
+
+Defines the **PVOID** parameter *pvDestProfile*.
 
 ### -param cjDestProfile
 
-### -param pvTargetProfile 
+Defines the **ULONG** parameter *cjDestProfile*.
 
-[in, optional]
+### -param pvTargetProfile [in, optional]
+
+Defines the **PVOID** parameter *pvTargetProfile*.
 
 ### -param cjTargetProfile
 
+Defines the **ULONG** parameter *cjTargetProfile*.
+
 ### -param dwReserved
 
+Defines the **DWORD** parameter *dwReserved*.
+
+## -returns
+
+Returns a **HANDLE** value.

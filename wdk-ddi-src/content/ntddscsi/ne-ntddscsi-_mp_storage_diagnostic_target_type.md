@@ -1,16 +1,16 @@
 ---
 UID: NE:ntddscsi._MP_STORAGE_DIAGNOSTIC_TARGET_TYPE
-title: _MP_STORAGE_DIAGNOSTIC_TARGET_TYPE (ntddscsi.h)
+title: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE (ntddscsi.h)
 description: The MP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration specifies the target type of a storage diagnostic.
 old-location: storage\mp_storage_diagnostic_target_type.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/20/2022
 keywords: ["MP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration"]
 ms.keywords: "*PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration [Storage Devices], PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration pointer [Storage Devices], StorageDiagnosticTargetTypeHbaFirmware, StorageDiagnosticTargetTypeMax, StorageDiagnosticTargetTypeMiniport, StorageDiagnosticTargetTypePort, StorageDiagnosticTargetTypeUndefined, _MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddscsi/MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddscsi/PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddscsi/StorageDiagnosticTargetTypeHbaFirmware, ntddscsi/StorageDiagnosticTargetTypeMax, ntddscsi/StorageDiagnosticTargetTypeMiniport, ntddscsi/StorageDiagnosticTargetTypePort, ntddscsi/StorageDiagnosticTargetTypeUndefined, storage.mp_storage_diagnostic_target_type"
 req.header: ntddscsi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 10, version 1709.
+req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,44 +46,26 @@ api_name:
  - MP_STORAGE_DIAGNOSTIC_TARGET_TYPE
 ---
 
-# _MP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration
-
+# MP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration
 
 ## -description
 
-The <b>MP_STORAGE_DIAGNOSTIC_TARGET_TYPE</b> enumeration specifies the target type of a storage diagnostic.
+The **MP_STORAGE_DIAGNOSTIC_TARGET_TYPE** enumeration specifies the target type of a storage diagnostic.
 
 ## -enum-fields
 
-### -field MpStorageDiagnosticTargetTypeUndefined
+### -field MpStorageDiagnosticTargetTypeUndefined:0
 
-### -field MpStorageDiagnosticTargetTypeMiniport
+The diagnostic target is undefined.
+
+### -field MpStorageDiagnosticTargetTypeMiniport:2
+
+The diagnostic target is a miniport driver.
 
 ### -field MpStorageDiagnosticTargetTypeHbaFirmware
 
+The diagnostic target is an Hba Firmware driver.
+
 ### -field MpStorageDiagnosticTargetTypeMax
 
-#### - StorageDiagnosticTargetTypeHbaFirmware
-
-Specifies the target type is a Hba Firmware driver.
-
-
-#### - StorageDiagnosticTargetTypeMax
-
-Specifies the target type is a Max driver.
-
-
-#### - StorageDiagnosticTargetTypeMiniport
-
-Specifies the target type is a Miniport driver.
-
-
-#### - StorageDiagnosticTargetTypePort
-
-Specifies the target type is a port driver.
-
-
-#### - StorageDiagnosticTargetTypeUndefined
-
-Specifies the target type is undefined.
-
+Maximum allowed value for this enumeration.

@@ -52,24 +52,24 @@ The <b>WdfDmaEnablerCreate</b> method creates a DMA enabler object.
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param Config 
+### -param Config [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_enabler_config">WDF_DMA_ENABLER_CONFIG</a> structure. Drivers must initialize this structure by calling <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdf_dma_enabler_config_init">WDF_DMA_ENABLER_CONFIG_INIT</a>.
 
-### -param Attributes 
+### -param Attributes [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the new DMA enabler object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
-### -param DmaEnablerHandle 
+### -param DmaEnablerHandle [out]
 
-[out]
+
 A handle to a new DMA enabler object.
 
 ## -returns

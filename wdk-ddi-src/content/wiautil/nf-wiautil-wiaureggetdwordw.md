@@ -52,19 +52,19 @@ The <b>wiauRegGetDword</b> function gets a <b>DWORD</b> value from the <b>Device
 
 ## -parameters
 
-### -param hkKey 
+### -param hkKey [in]
 
-[in]
+
 Specifies the registry key handle. This parameter should be set to the value pointed to by the <i>phkeyDeviceData </i>parameter when <a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw">wiauRegOpenData</a> returns.
 
 
-#### - pwszValueName [in]
+### -param pwszValueName [in]
 
 Points to the first byte of a Unicode string containing the name of the registry entry.
 
-### -param pdwValue 
+### -param pdwValue [out]
 
-[out]
+
 Pointer to a memory location that receives the returned DWORD value.
 
 ## -returns

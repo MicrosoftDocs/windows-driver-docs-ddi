@@ -52,41 +52,41 @@ The DDICHECKOVERLAYSUPPORTINPUT structure describes an overlay display mode that
 
 ## -struct-fields
 
-### -field OverlayWidth
+### -field OverlayWidth [in]
 
-[in] The width of the overlay in pixels.
+The width of the overlay in pixels.
 
-### -field OverlayHeight
+### -field OverlayHeight [in]
 
-[in] The height of the overlay in pixels.
+The height of the overlay in pixels.
 
 ### -field OverlayFormat
 
       [in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the overlay.
 
-### -field DisplayWidth
+### -field DisplayWidth [in]
 
-[in] The screen width of the display in pixels.
+The screen width of the display in pixels.
 
-### -field DisplayHeight
+### -field DisplayHeight [in]
 
-[in] The screen height of the display in pixels.
+The screen height of the display in pixels.
 
-### -field DisplayRefreshRate
+### -field DisplayRefreshRate [in]
 
-[in] The refresh rate of the display.
+The refresh rate of the display.
 
-### -field DisplayFormat
+### -field DisplayFormat [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the display.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the display.
 
-### -field DisplayScanLineOrdering
+### -field DisplayScanLineOrdering [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-d3dddi_scanlineordering">D3DDDI_SCANLINEORDERING</a>-typed value that indicates how the scan lines are drawn on the display.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-d3dddi_scanlineordering">D3DDDI_SCANLINEORDERING</a>-typed value that indicates how the scan lines are drawn on the display.
 
-### -field DisplayRotation
+### -field DisplayRotation [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_rotation">D3DDDI_ROTATION</a>-typed value that indicates how the display is oriented.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_rotation">D3DDDI_ROTATION</a>-typed value that indicates how the display is oriented.
 
 ## -remarks
 

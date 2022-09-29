@@ -2,9 +2,8 @@
 UID: NF:ks.KSMETHOD_TYPE_IRP_STORAGE
 title: KSMETHOD_TYPE_IRP_STORAGE macro (ks.h)
 description: This macro accesses the type of method as described in the KSMETHOD_ITEM. If the method will be processed asynchronously using KsDispatchSpecificMethod, this storage must be maintained intact.
-old-location: stream\ksmethod_type_irp_storage.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/11/2022
 keywords: ["KSMETHOD_TYPE_IRP_STORAGE macro"]
 ms.keywords: KSMETHOD_TYPE_IRP_STORAGE, KSMETHOD_TYPE_IRP_STORAGE macro [Streaming Media Devices], ks/KSMETHOD_TYPE_IRP_STORAGE, ksfunc_de99d882-5298-4972-9d16-fa4478d6229c.xml, stream.ksmethod_type_irp_storage
 req.header: ks.h
@@ -40,23 +39,19 @@ api_name:
  - KSMETHOD_TYPE_IRP_STORAGE
 ---
 
-# KSMETHOD_TYPE_IRP_STORAGE macro
-
-
 ## -description
 
-This macro accesses the type of method as described in the [KSMETHOD_ITEM](./ns-ks-ksmethod_item.md). If the method will be processed asynchronously using [KsDispatchSpecificMethod](./nf-ks-ksdispatchspecificmethod.md), this storage must be maintained intact.
+This macro accesses the type of method as described in the [**KSMETHOD_ITEM**](ns-ks-ksmethod_item.md). If the method will be processed asynchronously using [KsDispatchSpecificMethod](nf-ks-ksdispatchspecificmethod.md), this storage must be maintained intact.
 
 ## -parameters
 
-### -param Irp 
+### -param Irp [in]
 
-[in]
 Specifies the IRP passed to the handler routine.
 
 ## -remarks
 
-The relevant KSMETHOD_ITEM structure is extracted from **Irp->Tail.Overlay.DriverContext**. Parameters in **DriverContext** are initialized by [KsMethodHandler](./nf-ks-ksmethodhandler.md) and [KsMethodHandlerWithAllocator](./nf-ks-ksmethodhandlerwithallocator.md).
+The relevant KSMETHOD_ITEM structure is extracted from **Irp->Tail.Overlay.DriverContext**. Parameters in **DriverContext** are initialized by [KsMethodHandler](nf-ks-ksmethodhandler.md) and [KsMethodHandlerWithAllocator](nf-ks-ksmethodhandlerwithallocator.md).
 
 The macro is defined as follows:
 
@@ -66,14 +61,14 @@ The macro is defined as follows:
 
 ## -see-also
 
-[KSMETHOD](/windows-hardware/drivers/stream/ksmethod-structure)
+[**KSMETHOD**](/windows-hardware/drivers/stream/ksmethod-structure)
 
-[KSMETHOD_ITEM](./ns-ks-ksmethod_item.md)
+[**KSMETHOD_ITEM**](ns-ks-ksmethod_item.md)
 
-[KSMETHOD_SET](./ns-ks-ksmethod_set.md)
+[**KSMETHOD_SET**](ns-ks-ksmethod_set.md)
 
-[KsFastMethodHandler](./nf-ks-ksfastmethodhandler.md)
+[KsFastMethodHandler](nf-ks-ksfastmethodhandler.md)
 
-[KsMethodHandler](./nf-ks-ksmethodhandler.md)
+[KsMethodHandler](nf-ks-ksmethodhandler.md)
 
-[KsMethodHandlerWithAllocator](./nf-ks-ksmethodhandlerwithallocator.md)
+[KsMethodHandlerWithAllocator](nf-ks-ksmethodhandlerwithallocator.md)

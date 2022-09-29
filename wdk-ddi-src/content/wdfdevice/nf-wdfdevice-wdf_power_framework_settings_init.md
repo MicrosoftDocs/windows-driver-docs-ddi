@@ -51,9 +51,9 @@ The <b>WDF_POWER_FRAMEWORK_SETTINGS_INIT</b> function initializes a <a href="/wi
 
 ## -parameters
 
-### -param PowerFrameworkSettings 
+### -param PowerFrameworkSettings [out]
 
-[out]
+
 A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_power_framework_settings">WDF_POWER_FRAMEWORK_SETTINGS</a> structure.
 
 ## -remarks

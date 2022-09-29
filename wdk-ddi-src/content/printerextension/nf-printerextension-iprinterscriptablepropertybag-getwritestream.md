@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrinterScriptablePropertyBag.GetWriteStream
 title: IPrinterScriptablePropertyBag::GetWriteStream (printerextension.h)
 description: Gets a stream and uses it to write to a stream property.
-old-location: print\iprinterscriptablepropertybag_getwritestream.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/02/2022
 keywords: ["IPrinterScriptablePropertyBag::GetWriteStream"]
 ms.keywords: GetWriteStream, GetWriteStream method [Print Devices], GetWriteStream method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetWriteStream method, IPrinterScriptablePropertyBag.GetWriteStream, IPrinterScriptablePropertyBag::GetWriteStream, print.iprinterscriptablepropertybag_getwritestream, printerextension/IPrinterScriptablePropertyBag::GetWriteStream
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,40 +39,32 @@ api_name:
  - IPrinterScriptablePropertyBag::GetWriteStream
 ---
 
-# IPrinterScriptablePropertyBag::GetWriteStream
-
-
 ## -description
 
 Gets a stream and uses it  to write to a stream property.
 
 ## -parameters
 
-### -param bstrName 
+### -param bstrName [in]
 
-[in]
 The property to write.
 
-### -param ppStream 
+### -param ppStream [out, retval]
 
-[out, retval]
 The retrieved stream.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -remarks
 
-<b>GetWriteStream</b> does not work with non-stream properties.
+**GetWriteStream** does not work with non-stream properties.
 
-A call to <b>GetWriteStream</b> will throw an exception, if the specified property is not found. We recommend that you use a try-catch statement around calls to this method, to allow your app to handle any failures gracefully.
+A call to **GetWriteStream** will throw an exception, if the specified property is not found. We recommend that you use a try-catch statement around calls to this method, to allow your app to handle any failures gracefully.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>
+[IPrinterScriptablePropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablestream">IPrinterScriptableStream</a>
-
+[IPrinterScriptableStream](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablestream)

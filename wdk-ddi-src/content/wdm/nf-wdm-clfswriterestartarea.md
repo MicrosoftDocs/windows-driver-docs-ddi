@@ -50,29 +50,29 @@ The <b>ClfsWriteRestartArea</b> routine atomically appends a new restart record 
 
 ## -parameters
 
-### -param pvMarshalContext 
+### -param pvMarshalContext [in, out]
 
-[in, out]
+
 A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatemarshallingarea">ClfsCreateMarshallingArea</a>.
 
-### -param pvRestartBuffer 
+### -param pvRestartBuffer [in]
 
-[in]
+
 A pointer to a buffer that contains the data for the restart record.
 
-### -param cbRestartBuffer 
+### -param cbRestartBuffer [in]
 
-[in]
+
 The size, in bytes, of the buffer pointed to by <i>pvRestartBuffer</i>. This is the size of the restart data.
 
-### -param plsnBase 
+### -param plsnBase [in, optional]
 
-[in, optional]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that specifies a new base LSN for the stream. If this parameter is <b>NULL</b>, the base LSN is not changed.
 
-### -param fFlags 
+### -param fFlags [in]
 
-[in]
+
 This parameter must be one of the following values.
 
 <table>
@@ -102,14 +102,14 @@ The restart record is placed in previously reserved space in an I/O block. The n
 </tr>
 </table>
 
-### -param pcbWritten 
+### -param pcbWritten [out, optional]
 
-[out, optional]
+
 A pointer to a ULONG-typed variable that receives the number of bytes actually forced to stable storage. This parameter can be <b>NULL</b>.
 
-### -param plsnNext 
+### -param plsnNext [out, optional]
 
-[out, optional]
+
 A pointer to a <b>CLFS_LSN</b> structure that receives the LSN of the newly written restart record.
 
 ## -returns

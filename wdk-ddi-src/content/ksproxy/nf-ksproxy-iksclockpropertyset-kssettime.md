@@ -49,9 +49,9 @@ The <b>KsSetTime</b> method sets the current time on the underlying clock.
 
 ## -parameters
 
-### -param Time 
+### -param Time [in]
 
-[in]
+
 Time to which to set the underlying clock.
 
 ## -returns

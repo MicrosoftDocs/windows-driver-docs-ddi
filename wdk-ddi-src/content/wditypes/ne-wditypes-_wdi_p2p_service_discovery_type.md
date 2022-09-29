@@ -48,6 +48,9 @@ api_name:
 
 ## -description
 
+> [!IMPORTANT]
+> This topic is part of the [WDI driver model](/windows-hardware/drivers/network/wdi-miniport-driver-design-guide) released in Windows 10. The WDI driver model is in maintenance mode and will only receive high priority fixes. [WiFiCx](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx) is the Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest  features.
+
 The WDI_P2P_SERVICE_DISCOVERY_TYPE enumeration defines the types of service discovery.
 
 ## -enum-fields
@@ -66,14 +69,16 @@ The adapter encodes the service hashes in the IEs, tracks the service names from
 
 ### -field WDI_P2P_SERVICE_DISCOVERY_TYPE_MAX_VALUE
 
-#### - WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_INFORMATION
+The maximum value for this type.
+
+### -field WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_INFORMATION
 
 Added in Windows 10, version 1607, WDI version 1.0.21.
 
 The adapter encodes ASP2 service hashes in the P2P IEs, tracks  service names (service type and instance name) from the probe responses, and does GAS queries to get service information for each responding device.  This is only applicable if the adapter supports the P2P ASP2 Service Information Discovery capability.
 
 
-#### - WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_NAME_ONLY
+### -field WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_NAME_ONLY
 
 Added in Windows 10, version 1607, WDI version 1.0.21.
 

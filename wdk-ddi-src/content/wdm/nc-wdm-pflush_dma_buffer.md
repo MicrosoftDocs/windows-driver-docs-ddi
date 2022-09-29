@@ -45,17 +45,17 @@ The callback routine flushes any data remaining in the memory region described b
 
 ## -parameters
 
-### -param DmaAdapter: 
+### -param DmaAdapter: [in]
 
-[in] A pointer to a DMA_ADAPTER structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the [**IoGetDmaAdapter**](nf-wdm-iogetdmaadapter.md) routine.
+A pointer to a DMA_ADAPTER structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the [**IoGetDmaAdapter**](nf-wdm-iogetdmaadapter.md) routine.
 
-### -param Mdl: 
+### -param Mdl: [in]
 
-[in] A pointer to the MDL that describes the buffer previously passed in the driver's call to [*MapTransfer*](nc-wdm-pmap_transfer.md).
+A pointer to the MDL that describes the buffer previously passed in the driver's call to [*MapTransfer*](nc-wdm-pmap_transfer.md).
 
-### -param ReadOperation: 
+### -param ReadOperation: [in]
 
-[in] Specifies TRUE if the flush is being performed for a read operation, and FALSE for a write operation. For more information, see the following Remarks section.
+Specifies TRUE if the flush is being performed for a read operation, and FALSE for a write operation. For more information, see the following Remarks section.
 
 ## -returns
 

@@ -2,9 +2,8 @@
 UID: NF:wiamindr_lh.IWiaDrvItem.GetDeviceSpecContext
 title: IWiaDrvItem::GetDeviceSpecContext (wiamindr_lh.h)
 description: The IWiaDrvItem::GetDeviceSpecContext method gets a device-specific context.
-old-location: image\iwiadrvitem_getdevicespeccontext.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 07/21/2022
 keywords: ["IWiaDrvItem::GetDeviceSpecContext"]
 ms.keywords: DrvItem_c9edf09c-212c-456c-9eb2-c6c87adf59f3.xml, GetDeviceSpecContext, GetDeviceSpecContext method [Imaging Devices], GetDeviceSpecContext method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetDeviceSpecContext method, IWiaDrvItem.GetDeviceSpecContext, IWiaDrvItem::GetDeviceSpecContext, image.iwiadrvitem_getdevicespeccontext, wiamindr_lh/IWiaDrvItem::GetDeviceSpecContext
 req.header: wiamindr_lh.h
@@ -40,9 +39,6 @@ api_name:
  - IWiaDrvItem::GetDeviceSpecContext
 ---
 
-# IWiaDrvItem::GetDeviceSpecContext
-
-
 ## -description
 
 The **IWiaDrvItem::GetDeviceSpecContext** method gets a device-specific context.
@@ -51,17 +47,13 @@ The **IWiaDrvItem::GetDeviceSpecContext** method gets a device-specific context.
 
 ### -param __MIDL__IWiaDrvItem0001
 
-ppSpecContext [out, optional]
-
-- Points to a memory location that will receive the address of a device-specific context.
-
-#### - ppSpecContext [out, optional]
+*ppSpecContext* [out, optional]
 
 Points to a memory location that will receive the address of a device-specific context.
 
 ## -returns
 
-If the method succeeds, it stores a pointer to the device-specific context in *ppSpecContext* and returns S_OK. If the method fails because the parameter *ppSpecContext* specifies an invalid pointer, the method returns E_INVALIDARG. If the method fails for another reason, it returns a standard COM error code.
+If the method succeeds, it stores a pointer to the device-specific context in *ppSpecContext* and returns **S_OK**. If the method fails because the parameter *ppSpecContext* specifies an invalid pointer, the method returns **E_INVALIDARG**. If the method fails for another reason, it returns a standard COM error code.
 
 ## -remarks
 
@@ -72,4 +64,3 @@ Minidrivers typically use this method to obtain a pointer to a device-specific c
 [IWiaDrvItem](./nn-wiamindr_lh-iwiadrvitem.md)
 
 [wiasCreateDrvItem](../wiamdef/nf-wiamdef-wiascreatedrvitem.md)
-

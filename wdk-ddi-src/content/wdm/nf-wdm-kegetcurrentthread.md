@@ -47,8 +47,6 @@ api_name:
 
 The <b>KeGetCurrentThread</b> routine identifies the current thread.
 
-## -parameters
-
 ## -returns
 
 <b>KeGetCurrentThread</b> returns a pointer to an opaque thread object.

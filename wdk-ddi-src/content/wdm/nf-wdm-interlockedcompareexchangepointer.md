@@ -49,19 +49,19 @@ The <b>InterlockedCompareExchangePointer</b> routine performs an atomic operatio
 
 ## -parameters
 
-### -param Destination 
+### -param Destination [in, out]
 
-[in, out]
+
 A pointer to a PVOID value. If (*<i>Destination</i>) = <i>Comperand</i>, then the routine sets (*<i>Destination</i>) to <i>Exchange</i>.
 
-### -param Exchange 
+### -param Exchange [in]
 
-[in]
+
 Specifies the PVOID value to set (*<i>Destination</i>) to.
 
-### -param Comperand
+### -param Comperand [in]
 
-[in]
+
 Specifies the PVOID value to compare with (*<i>Destination</i>).
 
 ## -returns

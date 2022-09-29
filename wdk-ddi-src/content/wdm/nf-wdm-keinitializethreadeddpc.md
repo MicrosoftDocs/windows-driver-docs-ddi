@@ -48,17 +48,17 @@ The **KeInitializeThreadedDpc** routine initializes a threaded DPC object, and r
 
 ## -parameters
 
-### -param Dpc
+### -param Dpc [out]
 
-[out] Pointer to a [KDPC](/windows-hardware/drivers/kernel/eprocess) structure that represents the DPC object to initialize. The caller must allocate storage for the structure from resident memory.
+Pointer to a [KDPC](/windows-hardware/drivers/kernel/eprocess) structure that represents the DPC object to initialize. The caller must allocate storage for the structure from resident memory.
 
-### -param DeferredRoutine
+### -param DeferredRoutine [in]
 
-[in] Pointer to the *CustomThreadedDpc* routine to associate with the DPC.
+Pointer to the *CustomThreadedDpc* routine to associate with the DPC.
 
-### -param DeferredContext
+### -param DeferredContext [in, optional]
 
-[in, optional] Specifies the value to pass as the *DeferredContext* parameter to *CustomThreadedDpc*.
+Specifies the value to pass as the *DeferredContext* parameter to *CustomThreadedDpc*.
 
 ## -remarks
 

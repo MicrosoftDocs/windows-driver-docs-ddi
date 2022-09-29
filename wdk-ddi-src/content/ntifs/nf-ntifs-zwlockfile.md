@@ -4,7 +4,7 @@ title: ZwLockFile function (ntifs.h)
 description: The ZwLockFile routine requests a byte-range lock for the specified file.
 old-location: kernel\zwlockfile.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/26/2022
 keywords: ["ZwLockFile function"]
 ms.keywords: NtLockFile, ZwLockFile, ZwLockFile routine [Kernel-Mode Driver Architecture], k111_267331a3-5339-46ce-a0b6-d7b2e0aba68f.xml, kernel.zwlockfile, ntifs/NtLockFile, ntifs/ZwLockFile
 req.header: ntifs.h
@@ -42,109 +42,73 @@ api_name:
 
 # ZwLockFile function
 
-
 ## -description
 
-The <b>ZwLockFile</b> routine requests a byte-range lock for the specified file.
+The **ZwLockFile** routine requests a byte-range lock for the specified file.
 
 ## -parameters
 
-### -param FileHandle 
+### -param FileHandle [in]
 
-[in]
 A handle for the file on which a byte-range lock is requested.
 
-### -param Event 
+### -param Event [in, optional]
 
-[in, optional]
-A handle to a caller-created event. If not <b>NULL</b>, the caller is placed into a wait state until the operation succeeds, at which time the event is set into the Signaled state.
+A handle to a caller-created event. If not **NULL**, the caller is placed into a wait state until the operation succeeds, at which time the event is set into the Signaled state.
 
-### -param ApcRoutine 
+### -param ApcRoutine [in, optional]
 
-[in, optional]
-A pointer to a caller-supplied APC routine that is executed after the operation completes. Can be <b>NULL</b>.
+A pointer to a caller-supplied APC routine that is executed after the operation completes. Can be **NULL**.
 
-### -param ApcContext 
+### -param ApcContext [in, optional]
 
-[in, optional]
-A pointer to a caller-specified context for the APC routine. This value is passed to the APC routine when it is executed. Can be <b>NULL</b>.
+A pointer to a caller-specified context for the APC routine. This value is passed to the APC routine when it is executed. Can be **NULL**.
 
-### -param IoStatusBlock 
+### -param IoStatusBlock [out]
 
-[out]
-A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that contains the final status.
+A pointer to an [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that contains the final status.
 
-### -param ByteOffset 
+### -param ByteOffset [in]
 
-[in]
 A pointer to a variable that specifies the starting byte offset of the range to lock.
 
-### -param Length 
+### -param Length [in]
 
-[in]
 A pointer to a variable that specifies the length in bytes of the range to lock.
 
-### -param Key 
+### -param Key [in]
 
-[in]
 A caller-assigned value used to describe groups of related locks. This value should be set to zero.
 
-### -param FailImmediately 
+### -param FailImmediately [in]
 
-[in]
-If <b>TRUE</b>, immediately return if the file cannot be locked. If <b>FALSE</b>, wait for the lock request to be granted.
+If **TRUE**, immediately return if the file cannot be locked. If **FALSE**, wait for the lock request to be granted.
 
-### -param ExclusiveLock 
+### -param ExclusiveLock [in]
 
-[in]
-If <b>TRUE</b>, byte-range lock is exclusive; otherwise, shared lock.
+If **TRUE**, byte-range lock is exclusive; otherwise, shared lock.
 
 ## -returns
 
-The <b>ZwLockFile</b> routine returns STATUS_SUCCESS or an appropriate error NTSTATUS value. Possible NTSTATUS values include the following:
+The **ZwLockFile** routine returns STATUS_SUCCESS or an appropriate error NTSTATUS value such as one of the following.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-Insufficient resources exist to grant the byte-range lock for the specified file.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_LOCK_NOT_GRANTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The byte-range lock was not granted for the specified file.
-
-</td>
-</tr>
-</table>
+| Error code | Description |
+| ---------- | ----------- |
+| STATUS_INSUFFICIENT_RESOURCES | Insufficient resources exist to grant the byte-range lock for the specified file. |
+| STATUS_LOCK_NOT_GRANTED       | The byte-range lock was not granted for the specified file. |
 
 ## -remarks
 
-Callers of <b>ZwLockFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="/windows-hardware/drivers/kernel/disabling-apcs">with special kernel APCs enabled</a>.
+Callers of **ZwLockFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwLockFile</b> function occurs in user mode, you should use the name "<b>NtLockFile</b>" instead of "<b>ZwLockFile</b>".</div>
-<div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+> [!NOTE]
+>
+> If the call to the **ZwLockFile** function occurs in user mode, you should use the name "**NtLockFile**" instead of "**ZwLockFile**".
+
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
+[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-
-
-<a href="/previous-versions/ff567118(v=vs.85)">ZwUnlockFile</a>
-
+[**ZwUnlockFile**](nf-ntifs-zwunlockfile.md)

@@ -49,14 +49,14 @@ The <b>FltSetActivityIdCallbackData</b> routine sets the a activity ID for an IR
 
 ## -parameters
 
-### -param CallbackData 
+### -param CallbackData [in, out]
 
-[in, out]
+
 A pointer to the callback data containing the request with an associated activity ID.
 
-### -param Guid 
+### -param Guid [in, optional]
 
-[in, optional]
+
 A optional pointer to the <b>GUID</b> structure receiving the activity ID. if <i>Guid</i> is <b>NULL</b>, the system will attempt to assign an ETW activity ID for the request.
 
 ## -returns

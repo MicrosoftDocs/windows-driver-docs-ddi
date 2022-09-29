@@ -6,8 +6,6 @@ tech.root: display
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_MEMORY_SEGMENT_GROUP_0054 enumeration"]
 ms.keywords: D3D12DDI_MEMORY_SEGMENT_GROUP_0054, D3D12DDI_MEMORY_SEGMENT_GROUP_0054,
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

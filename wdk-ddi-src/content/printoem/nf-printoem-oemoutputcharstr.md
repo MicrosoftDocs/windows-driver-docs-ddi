@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMOutputCharStr
 title: OEMOutputCharStr function (printoem.h)
 description: This function (OEMOutputCharStr) is obsolete.
-old-location: print\oemoutputcharstr.htm
 tech.root: print
-ms.date: 11/18/2019
+ms.date: 08/12/2022
 keywords: ["OEMOutputCharStr function"]
 ms.keywords: OEMOutputCharStr, OEMOutputCharStr function [Print Devices], print.oemoutputcharstr, print_obsoletefunctions_250a623a-d7ce-48ba-9163-c24f52eb687d.xml, printoem/OEMOutputCharStr
 req.header: printoem.h
@@ -40,9 +39,6 @@ api_name:
  - OEMOutputCharStr
 ---
 
-# OEMOutputCharStr function
-
-
 ## -description
 
 This function is obsolete for Windows XP and later. It is supported only for earlier Unidrv plug-ins.
@@ -53,12 +49,20 @@ Use [IPrintOemUni::OutputCharStr](../prcomoem/nf-prcomoem-iprintoemuni-outputcha
 
 ### -param pdevobj
 
+Defines the **PDEVOBJ** parameter *pdevobj*.
+
 ### -param pUFObj
+
+Defines the **PUNIFONTOBJ** parameter *pUFObj*.
 
 ### -param dwType
 
+Defines the **DWORD** parameter *dwType*.
+
 ### -param dwCount
 
-### -param pGlyph 
+Defines the **DWORD** parameter *dwCount*.
 
-[in]
+### -param pGlyph [in]
+
+Defines the **PVOID** parameter *pGlyph*.

@@ -49,17 +49,14 @@ The **NetAdapterWakeSetPacketFilterCapabilities** function sets a net adapter's 
 
 ## -parameters
 
-### -param Adapter
+### -param Adapter [_In_]
 
 A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
-### -param Capabilities
+### -param Capabilities [_In_]
 
 A pointer to a client driver-allocated and initialized [**NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_wake_packet_filter_capabilities.md) structure.
 
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

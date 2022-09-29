@@ -49,14 +49,14 @@ Converts a value of type <b>LONG</b> to a value of type <b>UINT_PTR</b>.
 
 ## -parameters
 
-### -param lOperand 
+### -param lOperand [in]
 
-[in]
+
 The value to be converted.
 
-### -param puResult 
+### -param puResult [out]
 
-[out]
+
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

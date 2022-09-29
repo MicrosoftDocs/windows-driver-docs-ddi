@@ -51,29 +51,29 @@ A UMDF-based driver's <b>OnRemoteInterfaceEvent</b> event callback function hand
 
 ## -parameters
 
-### -param pWdfRemoteInterface 
+### -param pWdfRemoteInterface [in]
 
-[in]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremoteinterface">IWDFRemoteInterface</a> interface of a remote interface object that represents a device interface. The driver obtains this pointer when it calls <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-createremoteinterface">IWDFDevice2::CreateRemoteInterface</a>.
 
-### -param EventGuid 
+### -param EventGuid [in]
 
-[in]
+
 A GUID that identifies the event type. Event GUIDs are defined by the components that support such GUIDs. Some <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface classes</a> provide event GUIDs, and some driver provide custom events.
 
-### -param pbData 
+### -param pbData [in, optional]
 
-[in, optional]
+
 A pointer to a buffer that contains event-specific data. Typically, components that define event GUIDs also define event-specific structures for event buffers.
 
-### -param cbDataSize 
+### -param cbDataSize [in]
 
-[in]
+
 The size, in bytes, of the buffer that <i>pbData</i> points to.
 
-### -param NameBufferOffset 
+### -param NameBufferOffset [in]
 
-[in]
+
 An offset, in bytes, from the beginning of the buffer that <i>pbData</i> points to. Bytes from 0 to <i>NameBufferOffset</i>-1 of the buffer contain binary data. Bytes from <i>NameBufferOffset</i> to the end of the buffer contain Unicode string data.
 
 ## -remarks

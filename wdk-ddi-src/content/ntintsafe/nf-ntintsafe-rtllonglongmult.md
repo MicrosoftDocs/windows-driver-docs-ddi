@@ -49,19 +49,19 @@ Multiplies one value of type <b>LONGLONG</b> by another.
 
 ## -parameters
 
-### -param llMultiplicand 
+### -param llMultiplicand [in]
 
-[in]
+
 The value to be multiplied by <i>llMultiplier</i>.
 
-### -param llMultiplier 
+### -param llMultiplier [in]
 
-[in]
+
 The value by which to multiply <i>llMultiplicand</i>.
 
-### -param pllResult 
+### -param pllResult [out]
 
-[out]
+
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

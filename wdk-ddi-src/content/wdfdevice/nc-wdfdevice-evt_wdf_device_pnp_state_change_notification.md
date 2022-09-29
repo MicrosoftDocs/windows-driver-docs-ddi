@@ -54,14 +54,14 @@ A driver's <i>EvtDevicePnpStateChange</i> event callback function informs the dr
 
 ## -parameters
 
-### -param Device 
+### -param Device [in]
 
-[in]
+
 A handle to a framework device object.
 
-### -param NotificationData 
+### -param NotificationData [in]
 
-[in]
+
 A pointer to a framework-supplied <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_pnp_notification_data">WDF_DEVICE_PNP_NOTIFICATION_DATA</a> structure that identifies the state machine's old and new states.
 
 ## -remarks

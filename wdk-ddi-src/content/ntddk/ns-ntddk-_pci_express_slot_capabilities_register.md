@@ -62,62 +62,62 @@ The PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure describes a PCI Express (PC
 A ULONG representation of the contents of the PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure.
 
 
-#### - AttentionButtonPresent
+### -field DUMMYSTRUCTNAME.AttentionButtonPresent
 
 A single bit that indicates that an attention button exists for the slot.
 
 
-#### - AttentionIndicatorPresent
+### -field DUMMYSTRUCTNAME.AttentionIndicatorPresent
 
 A single bit that indicates that an attention indicator exists for the slot.
 
 
-#### - ElectromechanicalLockPresent
+### -field DUMMYSTRUCTNAME.ElectromechanicalLockPresent
 
 A single bit that indicates that an electromechanical interlock exists for the slot.
 
 
-#### - HotPlugCapable
+### -field DUMMYSTRUCTNAME.HotPlugCapable
 
 A single bit that indicates that the slot is capable of supporting hot-plug operations.
 
 
-#### - HotPlugSurprise
+### -field DUMMYSTRUCTNAME.HotPlugSurprise
 
 A single bit that indicates that an adapter that is present in the slot can be removed from the system without any prior notification.
 
 
-#### - MRLSensorPresent
+### -field DUMMYSTRUCTNAME.MRLSensorPresent
 
 A single bit that indicates that a manually operated retention latch (MRL) sensor exists for the slot.
 
 
-#### - NoCommandCompletedSupport
+### -field DUMMYSTRUCTNAME.NoCommandCompletedSupport
 
 A single bit that indicates that the slot does not generate software notification when an issued command is completed by the hot-plug controller.
 
 
-#### - PhysicalSlotNumber
+### -field DUMMYSTRUCTNAME.PhysicalSlotNumber
 
 The physical slot number in the system chassis that is attached to this port. This value is zero for ports that are connected to devices that are either integrated on the system board or integrated within the same physical component as the switch device or root port.
 
 
-#### - PowerControllerPresent
+### -field DUMMYSTRUCTNAME.PowerControllerPresent
 
 A single bit that indicates that a software programmable power controller exists for the slot or for the adapter that is plugged into the slot.
 
 
-#### - PowerIndicatorPresent
+### -field DUMMYSTRUCTNAME.PowerIndicatorPresent
 
 A single bit that indicates that a power indicator exists for the slot.
 
 
-#### - SlotPowerLimit
+### -field DUMMYSTRUCTNAME.SlotPowerLimit
 
 The maximum amount of power that can be supplied by the slot. This value is used in combination with the value of the <b>SlotPowerLimitScale</b> member to compute the power in watts.
 
 
-#### - SlotPowerLimitScale
+### -field DUMMYSTRUCTNAME.SlotPowerLimitScale
 
 The scale used for the value contained in the <b>SlotPowerLimit</b> member to compute the maximum power, in watts, that can be supplied by the slot. Possible values are:
 

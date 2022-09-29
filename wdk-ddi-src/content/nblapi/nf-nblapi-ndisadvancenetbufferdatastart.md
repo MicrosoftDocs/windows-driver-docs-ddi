@@ -53,29 +53,29 @@ Call the
 
 ## -parameters
 
-### -param NetBuffer 
+### -param NetBuffer [in]
 
-[in]
+
 A pointer to a previously allocated 
      <a href="/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer">NET_BUFFER</a> structure.
 
-### -param DataOffsetDelta 
+### -param DataOffsetDelta [in]
 
-[in]
+
 The amount of 
      <i>used data space</i> to release. NDIS adjusts the value of the 
      <b>DataOffset</b> member of the NET_BUFFER structure accordingly.
 
-### -param FreeMdl 
+### -param FreeMdl [in]
 
-[in]
+
 A BOOLEAN value that, if <b>TRUE</b>, requests NDIS to free any MDLs that become unused in the advance
      operation. If 
      <i>FreeMdl</i> is <b>FALSE</b>, NDIS retains unused MDLs for use in subsequent retreat operations.
 
-### -param FreeMdlHandler 
+### -param FreeMdlHandler [in, optional]
 
-[in, optional]
+
 An optional entry point for an 
      <a href="/windows-hardware/drivers/ddi/nblapi/nc-nblapi-net_buffer_free_mdl">NetFreeMdl</a> function. If the caller
      specifies an entry point for the 

@@ -57,26 +57,9 @@ The <b>MM_COPY_ADDRESS</b> structure contains either a virtual memory address or
 
 ### -field VirtualAddress
 
-### -field PhysicalAddress
-
- 
-
-
-
-
-#### - ( unnamed union )
-
-Either a virtual address or a physical address.
-
-
-
-#### VirtualAddress
-
 A virtual memory address.
 
-
-
-#### PhysicalAddress
+### -field PhysicalAddress
 
 A physical memory address.
 

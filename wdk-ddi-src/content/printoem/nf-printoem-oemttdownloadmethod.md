@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMTTDownloadMethod
 title: OEMTTDownloadMethod function (printoem.h)
-description: OEMTTDownloadMethod function
-old-location: print\oemttdownloadmethod.htm
+description: Describes the OEMTTDownloadMethod function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/11/2022
 keywords: ["OEMTTDownloadMethod function"]
 ms.keywords: OEMTTDownloadMethod, OEMTTDownloadMethod function [Print Devices], print.oemttdownloadmethod, print_obsoletefunctions_cae8b020-17a2-4345-8d48-3138eeba2a1d.xml, printoem/OEMTTDownloadMethod
 req.header: printoem.h
@@ -40,14 +39,20 @@ api_name:
  - OEMTTDownloadMethod
 ---
 
-# OEMTTDownloadMethod function
-
-
 ## -description
+
+Describes the **OEMTTDownloadMethod** function.
 
 ## -parameters
 
 ### -param pdevobj
 
+Defines the **PDEVOBJ** parameter *pdevobj*.
+
 ### -param pUFObj
 
+Defines the **PUNIFONTOBJ** parameter *pUFObj*.
+
+## -returns
+
+Returns a **DWORD** value.

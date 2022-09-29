@@ -49,14 +49,14 @@ The PI8042_ISR_WRITE_PORT-typed callback routine writes data to an i8042 port. I
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 Pointer to the function device object that represents a keyboard or mouse device.
 
-### -param Value 
+### -param Value [in]
 
-[in]
+
 Specifies the data to write to an i8042 port.
 
 ## -remarks

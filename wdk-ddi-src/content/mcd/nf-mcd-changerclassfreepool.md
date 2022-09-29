@@ -50,9 +50,9 @@ The <b>ChangerClassFreePool</b> routine frees pool memory previously allocated u
 
 ## -parameters
 
-### -param PoolToFree 
+### -param PoolToFree [in]
 
-[in]
+
 Pointer to the block of memory to be freed.
 
 ## -see-also

@@ -52,14 +52,14 @@ The <i>ObjectPreCallback</i> routine is called by the operating system when a pr
 
 ## -parameters
 
-### -param RegistrationContext 
+### -param RegistrationContext [in]
 
-[in]
+
 The context that the driver specifies as the <i>CallBackRegistration</i>-><b>RegistrationContext</b> parameter of the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obregistercallbacks">ObRegisterCallbacks</a> routine. The meaning of this value is driver-defined.
 
-### -param OperationInformation 
+### -param OperationInformation [in]
 
-[in]
+
 A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_pre_operation_information">OB_PRE_OPERATION_INFORMATION</a> structure that specifies the parameters of the handle operation.
 
 ## -returns

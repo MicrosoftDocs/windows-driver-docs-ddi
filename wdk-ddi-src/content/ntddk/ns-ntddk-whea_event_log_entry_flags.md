@@ -53,7 +53,21 @@ Reserved for system use.
 
 ### -field DUMMYSTRUCTNAME
 
-### -field DUMMYSTRUCTNAME.Reserved
+### -field DUMMYSTRUCTNAME.Reserved1
+
+### -field DUMMYSTRUCTNAME.LogInternalEtw
+
+### -field DUMMYSTRUCTNAME.LogBlackbox
+
+### -field DUMMYSTRUCTNAME.LogSel
+
+### -field DUMMYSTRUCTNAME.RawSel
+
+### -field DUMMYSTRUCTNAME.NoFormat
+
+### -field DUMMYSTRUCTNAME.Driver
+
+### -field DUMMYSTRUCTNAME.Reserved2
 
 ### -field AsULONG
 

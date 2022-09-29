@@ -92,4 +92,4 @@ The HID minidriver sets the following fields of <b>Irp->IoStatus</b>:
 
 
 
-<a href="/previous-versions/hh439622(v=vs.85)">IOCTL_HID_GET_DEVICE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_hid_get_device_descriptor">IOCTL_HID_GET_DEVICE_DESCRIPTOR</a>

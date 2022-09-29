@@ -95,11 +95,6 @@ A pointer to a caller-allocated device context. This pointer is passed as a para
 
 This member is the first element in an array of one or more <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_v1">PO_FX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>PO_FX_DEVICE</b> structure. The array contains one element for each component in the device.  The Fx power state of each component can be controlled independently of the Fx power states of the other components in the device. The <b>ANYSIZE_ARRAY</b> constant is defined to be 1 in the Ntdef.h header file.
 
-
-#### - Flags
-
-Set to 0. Currently, no flags are defined for this member.
-
 ## -remarks
 
 To register a device with PoFx, a driver calls the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine and supplies, as a parameter, a pointer to a <b>PO_FX_DEVICE</b> structure that describes the device.

@@ -208,6 +208,8 @@ Contains the IRQL at which a driver is running when <a href="/previous-versions/
 
 ### -field UserIosb
 
+### -field IoRingContext
+
 ### -field UserEvent
 
 ### -field Overlay
@@ -219,6 +221,8 @@ Contains the IRQL at which a driver is running when <a href="/previous-versions/
 ### -field Overlay.AsynchronousParameters.IssuingProcess
 
 ### -field Overlay.AsynchronousParameters.UserApcContext
+
+### -field Overlay.AsynchronousParameters.IoRing
 
 ### -field Overlay.AllocationSize
 

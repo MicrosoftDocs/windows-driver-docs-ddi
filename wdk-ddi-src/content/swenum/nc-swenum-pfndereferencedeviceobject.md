@@ -2,9 +2,8 @@
 UID: NC:swenum.PFNDEREFERENCEDEVICEOBJECT
 title: PFNDEREFERENCEDEVICEOBJECT (swenum.h)
 description: The PFNDEREFERENCEDEVICEOBJECT callback function (swenum.h) can be invoked by the driver to decrement the reference count of the Physical Device Object (PDO).
-old-location: stream\kstrdereferencedeviceobject.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/11/2022
 keywords: ["PFNDEREFERENCEDEVICEOBJECT callback function"]
 ms.keywords: KStrDereferenceDeviceObject, KStrDereferenceDeviceObject routine [Streaming Media Devices], PFNDEREFERENCEDEVICEOBJECT, ks/KStrDereferenceDeviceObject, ksfunc_521a642c-7a09-416b-a883-09ec5af4f026.xml, stream.kstrdereferencedeviceobject
 req.header: swenum.h
@@ -40,23 +39,18 @@ api_name:
  - PFNDEREFERENCEDEVICEOBJECT
 ---
 
-# PFNDEREFERENCEDEVICEOBJECT callback function (swenum.h)
-
-
 ## -description
 
 The driver can use this routine to decrement the reference count of the PDO.
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
 Pointer to a device extension of the device's PDO.
 
 ## -remarks
 
-Minidrivers access this method through the **>DereferenceDeviceObject** member of the [BUS_INTERFACE_REFERENCE](../ks/ns-ks-bus_interface_reference.md) structure.
+Minidrivers access this method through the **>DereferenceDeviceObject** member of the **BUS_INTERFACE_REFERENCE** structure.
 
 When the PDO's reference count is 0, it becomes eligible for removal. Note that this condition does not guarantee removal.
-

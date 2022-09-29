@@ -4,7 +4,7 @@ title: _WWAN_ASYNC_GETSET_TYPE (wwan.h)
 description: The WWAN_ASYNC_GETSET_TYPE enumeration lists the different asynchronous OID get/set requests.
 old-location: netvista\wwan_async_getset_type.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 12/29/2021
 keywords: ["WWAN_ASYNC_GETSET_TYPE enumeration"]
 ms.keywords: "*PWWAN_ASYNC_GETSET_TYPE, WWAN_ASYNC_GETSET_TYPE, WWAN_ASYNC_GETSET_TYPE enumeration [Network Drivers Starting with Windows Vista], WWAN_ASYNC_GETSET_TYPE_MAX, WwanAsyncAuthChallenge, WwanAsyncGetConnect, WwanAsyncGetDeviceCaps, WwanAsyncGetDeviceServiceCommand get request., WwanAsyncGetDeviceServices, WwanAsyncGetHomeProvider, WwanAsyncGetPacketService, WwanAsyncGetPin, WwanAsyncGetPinEx get request., WwanAsyncGetPinList, WwanAsyncGetPreferredProviders, WwanAsyncGetProvisionedContexts, WwanAsyncGetRadioState, WwanAsyncGetReadyInfo, WwanAsyncGetRegisterState, WwanAsyncGetSignalState, WwanAsyncGetSmsConfiguration, WwanAsyncGetVisibleProviders, WwanAsyncSetConnect, WwanAsyncSetDeviceServiceCommand, WwanAsyncSetHomeProvider, WwanAsyncSetPacketService, WwanAsyncSetPin, WwanAsyncSetPinEx, WwanAsyncSetPreferredProviders, WwanAsyncSetProfileIndex, WwanAsyncSetProvisionedContext, WwanAsyncSetRadioState, WwanAsyncSetRegisterState, WwanAsyncSetServiceActivation, WwanAsyncSetSignalState, WwanAsyncSetSmsConfiguration, WwanAsyncSetVendorSpecific, WwanAsyncSmsDelete, WwanAsyncSmsRead, WwanAsyncSmsSend, WwanAsyncSmsStatus, WwanAsyncSubscribeDeviceServiceEvents, WwanAsyncUssdRequest, _WWAN_ASYNC_GETSET_TYPE, netvista.wwan_async_getset_type, wwan/WWAN_ASYNC_GETSET_TYPE, wwan/WWAN_ASYNC_GETSET_TYPE_MAX, wwan/WwanAsyncAuthChallenge, wwan/WwanAsyncGetConnect, wwan/WwanAsyncGetDeviceCaps, wwan/WwanAsyncGetDeviceServiceCommand get request., wwan/WwanAsyncGetDeviceServices, wwan/WwanAsyncGetHomeProvider, wwan/WwanAsyncGetPacketService, wwan/WwanAsyncGetPin, wwan/WwanAsyncGetPinEx get request., wwan/WwanAsyncGetPinList, wwan/WwanAsyncGetPreferredProviders, wwan/WwanAsyncGetProvisionedContexts, wwan/WwanAsyncGetRadioState, wwan/WwanAsyncGetReadyInfo, wwan/WwanAsyncGetRegisterState, wwan/WwanAsyncGetSignalState, wwan/WwanAsyncGetSmsConfiguration, wwan/WwanAsyncGetVisibleProviders, wwan/WwanAsyncSetConnect, wwan/WwanAsyncSetDeviceServiceCommand, wwan/WwanAsyncSetHomeProvider, wwan/WwanAsyncSetPacketService, wwan/WwanAsyncSetPin, wwan/WwanAsyncSetPinEx, wwan/WwanAsyncSetPreferredProviders, wwan/WwanAsyncSetProfileIndex, wwan/WwanAsyncSetProvisionedContext, wwan/WwanAsyncSetRadioState, wwan/WwanAsyncSetRegisterState, wwan/WwanAsyncSetServiceActivation, wwan/WwanAsyncSetSignalState, wwan/WwanAsyncSetSmsConfiguration, wwan/WwanAsyncSetVendorSpecific, wwan/WwanAsyncSmsDelete, wwan/WwanAsyncSmsRead, wwan/WwanAsyncSmsSend, wwan/WwanAsyncSmsStatus, wwan/WwanAsyncSubscribeDeviceServiceEvents, wwan/WwanAsyncUssdRequest"
 req.header: wwan.h
@@ -371,6 +371,71 @@ Asynchronous [OID_WWAN_MPDP](/windows-hardware/drivers/network/oid-wwan-mpdp) se
 ### -field WWAN_ASYNC_GETSET_TYPE_MAX
 
 The maximum number of entries in the **WWAN_ASYNC_GETSET_TYPE** enumeration.
+
+### -field WwanAsyncGetProvisionedContextsV2
+
+### -field WwanAsyncSetProvisionedContextV2
+
+### -field WwanAsyncGetNitzInfo
+
+Asynchronous [OID_WWAN_NITZ](/windows-hardware/drivers/network/oid-wwan-nitz) get request.
+
+### -field WwanAsyncGetModemLoggingConfig
+
+Asynchronous [OID_WWAN_MODEM_LOGGING_CONFIG](/windows-hardware/drivers/network/oid-wwan-modem-logging-config) get request.
+
+### -field WwanAsyncSetModemLoggingConfig
+
+Asynchronous [OID_WWAN_MODEM_LOGGING_CONFIG](/windows-hardware/drivers/network/oid-wwan-modem-logging-config) set request.
+
+### -field WwanAsyncGetUiccAppList
+
+Asynchronous [OID_WWAN_UICC_APP_LIST](/windows-hardware/drivers/network/oid-wwan-uicc-app-list) get request.
+
+### -field WwanAsyncGetUiccFileStatus
+
+Asynchronous [OID_WWAN_UICC_FILE_STATUS](/windows-hardware/drivers/network/oid-wwan-uicc-file-status) get request.
+
+### -field WwanAsyncGetUiccBinary
+
+Asynchronous [OID_WWAN_UICC_ACCESS_BINARY](/windows-hardware/drivers/network/oid-wwan-uicc-access-binary) get request.
+
+### -field WwanAsyncSetUiccBinary
+
+Asynchronous [OID_WWAN_UICC_ACCESS_BINARY](/windows-hardware/drivers/network/oid-wwan-uicc-access-binary) set request.
+
+### -field WwanAsyncGetUiccRecord
+
+Asynchronous [OID_WWAN_UICC_ACCESS_RECORD](/windows-hardware/drivers/network/oid-wwan-uicc-access-record) get request.
+
+### -field WwanAsyncSetUiccRecord
+
+Asynchronous [OID_WWAN_UICC_ACCESS_RECORD](/windows-hardware/drivers/network/oid-wwan-uicc-access-record) set request.
+
+### -field WwanAsyncGetPinEx2
+
+Asynchronous [OID_WWAN_PIN_EX2](/windows-hardware/drivers/network/oid-wwan-pin-ex2) get request. 
+
+### -field WwanAsyncSetPinEx2
+
+Asynchronous [OID_WWAN_PIN_EX2](/windows-hardware/drivers/network/oid-wwan-pin-ex2) set request.
+
+### -field WwanAsyncGetRegisterParams
+
+Asynchronous [OID_WWAN_REGISTER_PARAMS](/windows-hardware/drivers/network/oid-wwan-register-params) get request.
+
+### -field WwanAsyncSetRegisterParams
+
+Asynchronous [OID_WWAN_REGISTER_PARAMS](/windows-hardware/drivers/network/oid-wwan-register-params) set request.
+
+### -field WwanAsyncGetNetworkParams
+
+Asynchronous [OID_WWAN_NETWORK_PARAMS](/windows-hardware/drivers/network/oid-wwan-network-params) get request.
+
+### -field WwanAsyncGetUePolicy
+
+Asynchronous [OID_WWAN_UE_POLICY](/windows-hardware/drivers/network/oid-wwan-ue-policy) get request.
+
 
 ## -see-also
 

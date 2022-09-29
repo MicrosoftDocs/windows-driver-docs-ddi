@@ -49,9 +49,9 @@ api_name:
 
 ## -parameters
 
-### -param pMemPointer 
+### -param pMemPointer [in]
 
-[in]
+
 Pointer to the memory to be freed.
 
 ## -see-also

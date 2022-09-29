@@ -45,13 +45,12 @@ api_name:
 
 ## -description
 
-The <b>HidD_GetHidGuid</b> routine returns the <a href="/windows-hardware/drivers/">device interface</a> <a href="/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-notificationarea-promotedicon2-guid">GUID</a> for HIDClass devices.
+The <b>HidD_GetHidGuid</b> routine returns the <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface</a> <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> for HIDClass devices.
 
 ## -parameters
 
-### -param HidGuid 
+### -param HidGuid [out]
 
-[out]
 Pointer to a caller-allocated GUID buffer that the routine uses to return the <a href="/windows-hardware/drivers/install/guid-devinterface-hid">device interface GUID for HIDClass devices</a>.
 
 ## -remarks

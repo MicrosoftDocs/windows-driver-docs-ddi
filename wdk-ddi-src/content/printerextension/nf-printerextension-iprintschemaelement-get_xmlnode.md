@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrintSchemaElement.get_XmlNode
 title: IPrintSchemaElement::get_XmlNode (printerextension.h)
 description: Gets the IXMLDOMNode object associated with this item.
-old-location: print\iprintschemaelement_xmlnode.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/01/2022
 keywords: ["IPrintSchemaElement::get_XmlNode"]
 ms.keywords: IPrintSchemaElement interface [Print Devices],XmlNode property, IPrintSchemaElement.XmlNode, IPrintSchemaElement.get_XmlNode, IPrintSchemaElement::XmlNode, IPrintSchemaElement::get_XmlNode, XmlNode property [Print Devices], XmlNode property [Print Devices],IPrintSchemaElement interface, get_XmlNode, print.iprintschemaelement_xmlnode, printerextension/IPrintSchemaElement::XmlNode, printerextension/IPrintSchemaElement::get_XmlNode
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,9 +39,6 @@ api_name:
  - IPrintSchemaElement::get_XmlNode
 ---
 
-# IPrintSchemaElement::get_XmlNode
-
-
 ## -description
 
 Gets the IXMLDOMNode object associated with this item.
@@ -51,31 +47,28 @@ This property is read-only.
 
 ## -parameters
 
+### -param ppXmlNode
+
+Defines the **IUnknown** parameter *ppXmlNode*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
+
 ## -remarks
 
-When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obtain a pointer to an interface of type <b>IUnknown</b>. Use this pointer to  call the <b>QueryInterface</b> method, to access the underlying <a href="/previous-versions/windows/desktop/ms760248(v=vs.85)">IXMLDOMElement</a> object.print.
+When you dereference the *ppXmlNode* parameter (using *ppXmlNode ), you obtain a pointer to an interface of type **IUnknown**. Use this pointer to  call the **QueryInterface** method, to access the underlying [IXMLDOMElement](/previous-versions/windows/desktop/ms760248(v=vs.85)) object.print.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a>
+[IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities)
 
+[IPrintSchemaElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement)
 
+[IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement">IPrintSchemaElement</a>
+[IPrintSchemaTicket::NotifyXmlChanged](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-notifyxmlchanged)
 
+[IPrintSchemaTicket_GetCapabilities](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities)
 
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-notifyxmlchanged">IPrintSchemaTicket::NotifyXmlChanged</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities">IPrintSchemaTicket_GetCapabilities</a>
-
-
-
-<a href="/previous-versions/windows/desktop/ms760248(v=vs.85)">IXMLDOMElement</a>
-
+[IXMLDOMElement](/previous-versions/windows/desktop/ms760248(v=vs.85))

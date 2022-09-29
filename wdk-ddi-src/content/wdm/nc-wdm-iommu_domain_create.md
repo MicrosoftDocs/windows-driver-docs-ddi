@@ -45,9 +45,9 @@ Creates a new DMA remapping device domain (a container for a set of page tables)
 
 ## -parameters
 
-### -param OsManagedPageTable
+### -param OsManagedPageTable [_In_]
 
-[_In_] A boolean value that indicates whether the page table is managed by the caller or by the HAL. 
+A boolean value that indicates whether the page table is managed by the caller or by the HAL. 
 
 - TRUE, indicates the HAL owns the page table. 
         - Map/Unmap are available.      
@@ -57,9 +57,9 @@ Creates a new DMA remapping device domain (a container for a set of page tables)
     - Map/Unmap are unavailable.
     - Configure/Flush are available.
 
-### -param DomainOut: 
+### -param DomainOut: [_Out_]
 
-[_Out_] A pointer to IOMMU_DMA_DOMAIN variable that receives an opaque handle used to reference the domain.
+A pointer to IOMMU_DMA_DOMAIN variable that receives an opaque handle used to reference the domain.
 
 ## -returns
 

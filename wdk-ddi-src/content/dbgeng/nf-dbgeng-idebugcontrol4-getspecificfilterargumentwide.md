@@ -4,7 +4,7 @@ title: IDebugControl4::GetSpecificFilterArgumentWide (dbgeng.h)
 description: The GetSpecificFilterArgumentWide method returns the value of filter argument for thespecific filters that have an argument.
 old-location: debugger\getspecificfilterargumentwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl4::GetSpecificFilterArgumentWide"]
 ms.keywords: GetSpecificFilterArgumentWide, GetSpecificFilterArgumentWide method [Windows Debugging], GetSpecificFilterArgumentWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetSpecificFilterArgumentWide method, IDebugControl4.GetSpecificFilterArgumentWide, IDebugControl4::GetSpecificFilterArgumentWide, dbgeng/IDebugControl4::GetSpecificFilterArgumentWide, debugger.getspecificfilterargumentwide
 req.header: dbgeng.h
@@ -49,25 +49,25 @@ The <b>GetSpecificFilterArgumentWide</b>  method returns the value of filter arg
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the specific filter whose argument will be returned.  <i>Index</i> must be the index of a specific filter that has an argument.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the argument for the specific filter.  The interpretation of the argument depends on the specific filter.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
-Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
-### -param ArgumentSize 
+Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size, in characters, of the argument for the specific filter.
+### -param ArgumentSize [out, optional]
+
+
+Receives the size, in characters, of the argument for the specific filter. This size includes the space for the '\0' terminating character.
 
 ## -returns
 

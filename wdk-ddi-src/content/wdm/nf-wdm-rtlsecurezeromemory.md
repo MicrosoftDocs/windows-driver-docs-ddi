@@ -49,14 +49,14 @@ The <b>RtlSecureZeroMemory</b> routine fills a block of memory with zeros in a w
 
 ## -parameters
 
-### -param ptr 
+### -param ptr [out]
 
-[out]
+
 Pointer to the memory buffer to be filled with zeros.
 
-### -param cnt 
+### -param cnt [in]
 
-[in]
+
 Specifies the number of bytes to be filled with zeros.
 
 ## -returns

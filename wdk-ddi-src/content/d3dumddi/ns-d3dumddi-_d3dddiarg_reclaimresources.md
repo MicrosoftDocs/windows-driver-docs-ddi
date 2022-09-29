@@ -52,13 +52,13 @@ Describes video memory resources that are to be reclaimed and that the user-mode
 
 ## -struct-fields
 
-### -field pResources
+### -field pResources [in]
 
-[in] A pointer to an array of handles to the resources that are to be reclaimed.
+A pointer to an array of handles to the resources that are to be reclaimed.
 
-### -field pDiscarded
+### -field pDiscarded [out]
 
-[out] An optional array of Boolean values that specify whether each resource or allocation was discarded.
+An optional array of Boolean values that specify whether each resource or allocation was discarded.
 
 Each Boolean value in this array corresponds to a resource at the same index location in the structure pointed to by <b>pResources</b>.
 
@@ -66,9 +66,9 @@ The driver sets each Boolean value to <b>TRUE</b> if the corresponding resource 
 
 If <b>pDiscarded</b> is <b>NULL</b>, the driver can ignore it.
 
-### -field Resources
+### -field Resources [in]
 
-[in] The number of elements in the arrays pointed to by <b>pResources</b> and <b>pDiscarded</b>.
+The number of elements in the arrays pointed to by <b>pResources</b> and <b>pDiscarded</b>.
 
 ## -see-also
 

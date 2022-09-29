@@ -45,39 +45,39 @@ The **ExSecurePoolUpdate** function updates the contents of the secure pool allo
 
 ## -parameters
 
-### -param SecurePoolHandle
+### -param SecurePoolHandle [in]
 
-[in]
+
 Supplies the handle for the heap.
 
-### -param Tag
+### -param Tag [in]
 
-[in]
+
 Supplies the tag for this allocation.
 
-### -param Allocation
+### -param Allocation [in]
 
-[in]
+
 Supplies a pointer to the allocation it wants to update.
 
-### -param Cookie
+### -param Cookie [in]
 
-[in]
+
 Supplies a cookie value used for identifying this allocation.
 
-### -param Offset
+### -param Offset [in]
 
-[in]
+
 Supplies the offset into the buffer to be modified.
 
-### -param Size
+### -param Size [in]
 
-[in]
+
 Supplies size of the allocation. Offset + size must be within the original allocation.
 
-### -param Buffer
+### -param Buffer [in]
 
-[in]
+
 Supplies new contents of the secure pool block.
 
 ## -returns

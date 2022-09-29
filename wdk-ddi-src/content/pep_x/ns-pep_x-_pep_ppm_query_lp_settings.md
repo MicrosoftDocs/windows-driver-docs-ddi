@@ -55,9 +55,9 @@ The <b>PEP_PPM_QUERY_LP_SETTINGS</b> structure contains a kernel handle to the r
 
 ## -struct-fields
 
-### -field RegistryRoot
+### -field RegistryRoot [out]
 
-[out] The kernel handle to the registry root that contains the settings for a platform power scenario. For more information, see Remarks.
+The kernel handle to the registry root that contains the settings for a platform power scenario. For more information, see Remarks.
 
 ## -remarks
 

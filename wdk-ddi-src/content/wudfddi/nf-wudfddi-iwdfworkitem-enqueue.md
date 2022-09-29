@@ -50,8 +50,6 @@ api_name:
 
    The <b>Enqueue</b> method adds this interface's framework work-item object to the system's work-item queue.
 
-## -parameters
-
 ## -remarks
 
 If your driver reuses its work-item objects, the driver can call <b>Enqueue</b> again for the same work item before a worker thread has removed the work item from the queue and called the driver’s <a href="/windows-hardware/drivers/ddi/wudfworkitem/nc-wudfworkitem-wudf_workitem_function">OnWorkItem</a> callback function.

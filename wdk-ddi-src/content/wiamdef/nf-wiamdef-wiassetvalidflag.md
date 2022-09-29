@@ -49,9 +49,9 @@ The <b>wiasSetValidFlag </b>function sets the valid values for a WIA_PROP_FLAG p
 
 ## -parameters
 
-### -param pWiasContext 
+### -param pWiasContext [in]
 
-[in]
+
 Pointer to a WIA item context.
 
 ### -param propid

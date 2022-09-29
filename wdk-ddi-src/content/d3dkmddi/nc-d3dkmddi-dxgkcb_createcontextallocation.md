@@ -48,9 +48,9 @@ api_name:
 
 ## -parameters
 
-### -param ContextAllocation
+### -param unnamedParam1 [in/out]
 
-[in/out] A pointer to a [**DXGKARGCB_CREATECONTEXTALLOCATION**](ns-d3dkmddi-_dxgkargcb_createcontextallocation.md) structure that specifies the attributes of the context to be allocated.
+A pointer to a [**DXGKARGCB_CREATECONTEXTALLOCATION**](ns-d3dkmddi-_dxgkargcb_createcontextallocation.md) structure that specifies the attributes of the context to be allocated.
 
 ## -returns
 

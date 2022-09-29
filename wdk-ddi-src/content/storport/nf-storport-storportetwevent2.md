@@ -48,25 +48,25 @@ api_name:
 
 ## -parameters
 
-### -param HwDeviceExtension
+### -param HwDeviceExtension [in]
 
-[in] A pointer to the miniport's device extension.
+A pointer to the miniport's device extension.
 
-### -param Address
+### -param Address [in, optional]
 
-[in, optional] The storage unit device address. This parameter is NULL for adapter devices.
+The storage unit device address. This parameter is NULL for adapter devices.
 
-### -param EventId
+### -param EventId [in]
 
-[in] A miniport-defined identifier for the ETW event.
+A miniport-defined identifier for the ETW event.
 
-### -param EventDescription
+### -param EventDescription [in]
 
-[in] The description text for the event. This text string must be <= STORPORT_ETW_MAX_DESCRIPTION_LENGTH.
+The description text for the event. This text string must be <= STORPORT_ETW_MAX_DESCRIPTION_LENGTH.
 
-### -param EventKeywords
+### -param EventKeywords [in]
 
-[in] Keyword flags for event categorization. Set to 0 if no keyword is desired. The keywords are a bitwise OR combination of the following.
+Keyword flags for event categorization. Set to 0 if no keyword is desired. The keywords are a bitwise OR combination of the following.
 
 | Value | Meaning |
 | ----- | ------- |
@@ -75,9 +75,9 @@ api_name:
 | STORPORT_ETW_EVENT_KEYWORD_POWER | The event is related to device power. |
 | STORPORT_ETW_EVENT_KEYWORD_ENUMERATION | The event is related to device enumeration. |
 
-### -param EventLevel
+### -param EventLevel [in]
 
-[in] The event level. This value can indicate the importance or severity of the event. This is one of the following values.
+The event level. This value can indicate the importance or severity of the event. This is one of the following values.
 
 | Value | Meaning |
 | ----- | ------- |
@@ -88,9 +88,9 @@ api_name:
 | StorportEtwLevelInformational | Informational event. |
 | StorportEtwLevelVerbose | Verbose event information provided. |
 
-### -param EventOpcode
+### -param EventOpcode [in]
 
-[in] The operational nature of the event. This is one of the following values.
+The operational nature of the event. This is one of the following values.
 
 | Value | Meaning |
 | ----- | ------- |
@@ -105,25 +105,25 @@ api_name:
 | StorportEtwEventOpcodeSuspend | Device or unit is suspended pending completion of another operation. |
 | StorportEtwEventOpcodeReceive | Transfer of activity is received from another component. |
 
-### -param Srb
+### -param Srb [in, optional]
 
-[in, optional] A pointer to the SRB associated with the logged event. If this parameter contains a valid SRB, this SRB pointer and the associated SRB pointer are logged.
+A pointer to the SRB associated with the logged event. If this parameter contains a valid SRB, this SRB pointer and the associated SRB pointer are logged.
 
-### -param Parameter1Name
+### -param Parameter1Name [in, optional]
 
-[in, optional] A description of the meaning of *Parameter1Value*. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+A description of the meaning of *Parameter1Value*. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
-### -param Parameter1Value
+### -param Parameter1Value [in]
 
-[in] The value for parameter 1.
+The value for parameter 1.
 
-### -param Parameter2Name
+### -param Parameter2Name [in, optional]
 
-[in, optional] A description of the meaning of *Parameter2Value*. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+A description of the meaning of *Parameter2Value*. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
-### -param Parameter2Value
+### -param Parameter2Value [in]
 
-[in] The value for parameter 2.
+The value for parameter 2.
 
 ## -returns
 

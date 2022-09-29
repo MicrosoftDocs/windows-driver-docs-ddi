@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetModuleNames (dbgeng.h)
 description: The GetModuleNames method returns the names of the specified module. This method belongs to the IDebugSymbols3 interface.
 old-location: debugger\getmodulenames.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetModuleNames"]
 ms.keywords: GetModuleNames, GetModuleNames method [Windows Debugging], GetModuleNames method [Windows Debugging],IDebugSymbols interface, GetModuleNames method [Windows Debugging],IDebugSymbols2 interface, GetModuleNames method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetModuleNames method, IDebugSymbols2 interface [Windows Debugging],GetModuleNames method, IDebugSymbols2::GetModuleNames, IDebugSymbols3 interface [Windows Debugging],GetModuleNames method, IDebugSymbols3.GetModuleNames, IDebugSymbols3::GetModuleNames, IDebugSymbols::GetModuleNames, IDebugSymbols_b200104b-e0e6-4470-80f9-d6904c346737.xml, dbgeng/IDebugSymbols2::GetModuleNames, dbgeng/IDebugSymbols3::GetModuleNames, dbgeng/IDebugSymbols::GetModuleNames, debugger.getmodulenames
 req.header: dbgeng.h
@@ -49,60 +49,60 @@ The <b>GetModuleNames</b> method returns the names of the specified module.
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the module whose names are requested.  If it is set to DEBUG_ANY_ID, the module is specified by <i>Base</i>.
 
-### -param Base 
+### -param Base [in]
 
-[in]
+
 Specifies the base address of the module whose names are requested.  This parameter is only used if <i>Index</i> is set to DEBUG_ANY_ID.
 
-### -param ImageNameBuffer 
+### -param ImageNameBuffer [out, optional]
 
-[out, optional]
+
 Receives the image name of the module.  If <i>ImageNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param ImageNameBufferSize 
+### -param ImageNameBufferSize [in]
 
-[in]
-Specifies the size in characters of the buffer <i>ImageNameBuffer</i> in characters.
 
-### -param ImageNameSize 
+Specifies the size in characters of the buffer <i>ImageNameBuffer</i> in characters. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the image name.  If <i>ImageNameSize</i> is <b>NULL</b>, this information is not returned.
+### -param ImageNameSize [out, optional]
 
-### -param ModuleNameBuffer 
 
-[out, optional]
-Receives the module name of the module.  If <i>ModuleNameBuffer</i> is <b>NULL</b>, this information is not returned.
+Receives the size in characters of the image name. This size includes the space for the '\0' terminating character. If <i>ImageNameSize</i> is <b>NULL</b>, this information is not returned.
 
-### -param ModuleNameBufferSize 
+### -param ModuleNameBuffer [out, optional]
 
-[in]
-Specifies the size in characters of the buffer <i>ModuleNameBuffer</i>.
 
-### -param ModuleNameSize 
+Receives the module name of the module. This size includes the space for the '\0' terminating character. If <i>ModuleNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-[out, optional]
-Receives the size in characters of the module name.  If <i>ModuleNameSize</i> is <b>NULL</b>, this information is not returned.
+### -param ModuleNameBufferSize [in]
 
-### -param LoadedImageNameBuffer 
 
-[out, optional]
+Specifies the size in characters of the buffer <i>ModuleNameBuffer</i>. This size includes the space for the '\0' terminating character.
+
+### -param ModuleNameSize [out, optional]
+
+
+Receives the size in characters of the module name. This size includes the space for the '\0' terminating character. If <i>ModuleNameSize</i> is <b>NULL</b>, this information is not returned.
+
+### -param LoadedImageNameBuffer [out, optional]
+
+
 Receives the loaded image name of the module.  If <i>LoadedImageNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param LoadedImageNameBufferSize 
+### -param LoadedImageNameBufferSize [in]
 
-[in]
-Specifies the size in characters of the buffer <i>LoadedImageNameBuffer</i>.
 
-### -param LoadedImageNameSize 
+Specifies the size in characters of the buffer <i>LoadedImageNameBuffer</i>. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the loaded image name.  If <i>LoadedImageNameSize</i> is <b>NULL</b>, this information is not returned.
+### -param LoadedImageNameSize [out, optional]
+
+
+Receives the size in characters of the loaded image name. This size includes the space for the '\0' terminating character. If <i>LoadedImageNameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

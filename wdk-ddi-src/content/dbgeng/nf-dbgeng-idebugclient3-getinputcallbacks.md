@@ -49,9 +49,9 @@ The <b>GetInputCallbacks</b> method returns the <a href="/windows-hardware/drive
 
 ## -parameters
 
-### -param Callbacks 
+### -param Callbacks [out]
 
-[out]
+
 Receives an interface pointer for the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebuginputcallbacks">IDebugInputCallbacks</a> object registered with the client.
 
 ## -returns

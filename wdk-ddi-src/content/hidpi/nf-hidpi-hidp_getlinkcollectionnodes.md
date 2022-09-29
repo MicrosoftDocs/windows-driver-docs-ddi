@@ -50,19 +50,19 @@ The <b>HidP_GetLinkCollectionNodes</b> routine returns a <a href="/windows-hardw
 
 ## -parameters
 
-### -param LinkCollectionNodes 
+### -param LinkCollectionNodes [out]
 
-[out]
+
 Pointer to a caller-allocated array of HIDP_LINK_COLLECTION_NODE structures in which <b>HidP_GetLinkCollectionNodes</b> returns a top-level collection's link collection array.
 
-### -param LinkCollectionNodesLength 
+### -param LinkCollectionNodesLength [in, out]
 
-[in, out]
+
 Specifies, on input, the length, in array elements, of the <i>LinkCollectionNodes</i> buffer. On output, the routine sets <i>LinkCollectionNodesLength</i> to the number of entries in the array that it set.
 
-### -param PreparsedData 
+### -param PreparsedData [in]
 
-[in]
+
 Pointer to the preparsed data of the top-level collection for which this routine returns a link collection array.
 
 ## -returns
@@ -82,6 +82,17 @@ Pointer to the preparsed data of the top-level collection for which this routine
 </td>
 <td width="60%">
 The routine successfully returned the specified collection's link collection array.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HIDP_STATUS_INVALID_PREPARSED_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The preparsed data is not valid.
 
 </td>
 </tr>

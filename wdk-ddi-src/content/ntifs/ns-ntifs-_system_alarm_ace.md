@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._SYSTEM_ALARM_ACE
-title: _SYSTEM_ALARM_ACE (ntifs.h)
+title: SYSTEM_ALARM_ACE (ntifs.h)
 description: Reserved for future use.
 old-location: ifsk\system_alarm_ace.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 05/24/2022
 keywords: ["SYSTEM_ALARM_ACE structure"]
 ms.keywords: "*PSYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE structure [Installable File System Drivers], _SYSTEM_ALARM_ACE, ifsk.system_alarm_ace, ntifs/SYSTEM_ALARM_ACE, securitystructures_8a768255-9e14-48eb-83ba-66b212a1dcc1.xml"
 req.header: ntifs.h
@@ -43,8 +43,7 @@ api_name:
  - SYSTEM_ALARM_ACE
 ---
 
-# _SYSTEM_ALARM_ACE structure
-
+# SYSTEM_ALARM_ACE structure
 
 ## -description
 
@@ -52,3 +51,14 @@ Reserved for future use.
 
 ## -struct-fields
 
+### -field Header
+
+Reserved.
+
+### -field Mask
+
+Reserved.
+
+### -field SidStart
+
+Reserved.

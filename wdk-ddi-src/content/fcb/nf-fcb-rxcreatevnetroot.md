@@ -49,34 +49,34 @@ api_name:
 
 ## -parameters
 
-### -param RxContext 
+### -param RxContext [in]
 
-[in]
+
 A pointer to the RDBSS RX_CONTEXT containing the IRP describing a create operation.
 
-### -param NetRoot 
+### -param NetRoot [in]
 
-[in]
+
 A pointer to the associated NET_ROOT structure.
 
-### -param CanonicalName 
+### -param CanonicalName [in]
 
-[in]
+
 A pointer to the canonical name to be inserted in the name table.
 
-### -param LocalNetRootName 
+### -param LocalNetRootName [in]
 
-[in]
+
 A pointer to the local NET_ROOT name without the prefix name.
 
-### -param FilePath 
+### -param FilePath [in]
 
-[in]
+
 A pointer to a file pathname. This parameter is not currently used and can be <b>NULL</b>.
 
-### -param RxConnectionId 
+### -param RxConnectionId [in]
 
-[in]
+
 A pointer to the connection ID to be associated with the name to be inserted in the prefix name table. This parameter can be <b>NULL</b> in which case no connection ID will be associated with the name inserted in the name table.
 
 ## -returns

@@ -55,29 +55,29 @@ The <b>PEP_ACPI_QUERY_OBJECT_INFORMATION</b> structure contains information abou
 
 ## -struct-fields
 
-### -field DeviceHandle
+### -field DeviceHandle [in]
 
-[in] A PEPHANDLE value that identifies the device's registration for ACPI services. The platform extension plug-in (PEP) supplied this handle in response to a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_register_device">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a> notification.
+A PEPHANDLE value that identifies the device's registration for ACPI services. The platform extension plug-in (PEP) supplied this handle in response to a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_register_device">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a> notification.
 
-### -field Name
+### -field Name [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_object_name">PEP_ACPI_OBJECT_NAME</a> union that specifies the path-relative, four-character name of the object.
+A <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_object_name">PEP_ACPI_OBJECT_NAME</a> union that specifies the path-relative, four-character name of the object.
 
-### -field Type
+### -field Type [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_acpi_object_type">PEP_ACPI_OBJECT_TYPE</a> enumeration value that specifies the object type. Currently, a control method is the only object type that is defined for this member (<b>Type</b> = <b>PepAcpiObjectTypeMethod</b>).
+A <a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_acpi_object_type">PEP_ACPI_OBJECT_TYPE</a> enumeration value that specifies the object type. Currently, a control method is the only object type that is defined for this member (<b>Type</b> = <b>PepAcpiObjectTypeMethod</b>).
 
-### -field ObjectFlags
+### -field ObjectFlags [in]
 
-[in] A set of input flags. No flags are currently defined for this member, which is always set to PEP_ACPI_OBJECT_FLAG_NONE (0x0).
+A set of input flags. No flags are currently defined for this member, which is always set to PEP_ACPI_OBJECT_FLAG_NONE (0x0).
 
 ### -field DUMMYUNIONNAME
 
 The query result. If the specified object is a control method, the platform extension plug-in (PEP) writes the query result to the <b>MethodObject</b> member of this union.
 
-### -field DUMMYUNIONNAME.MethodObject
+### -field DUMMYUNIONNAME.MethodObject [out]
 
-[out] Information about a control method object.
+Information about a control method object.
 
 ### -field DUMMYUNIONNAME.MethodObject.InputArgumentCount
 

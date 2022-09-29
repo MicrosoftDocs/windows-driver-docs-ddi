@@ -49,9 +49,9 @@ AVStream calls a minidriver's <i>AVStrMiniCancelCallback</i> routine when the IR
 
 ## -parameters
 
-### -param StreamPointer 
+### -param StreamPointer [in]
 
-[in]
+
 A pointer to the clone <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> that is associated with the IRP that was canceled. <i>StreamPointer</i> was created by a call to <a href="/windows-hardware/drivers/devtest/ks-ksstreampointerclone">KsStreamPointerClone</a>.
 
 ## -remarks

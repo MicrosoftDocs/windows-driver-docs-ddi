@@ -49,14 +49,14 @@ The client driver's implementation that UCX calls when it receives a request for
 
 ## -parameters
 
-### -param UcxRootHub 
+### -param UcxRootHub [in]
 
-[in]
+
 A handle to a UCX object that represents the root hub.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 Contains the <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> for the root hub interrupt transfer request.
 
 ## -remarks

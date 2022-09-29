@@ -2,9 +2,8 @@
 UID: NF:ks.KsSynchronousIoControlDevice
 title: KsSynchronousIoControlDevice function (ks.h)
 description: The KsSynchronousIoControlDevice function performs a synchronous device I/O control on the target device object. It waits in a nonalertable state until the I/O completes. This function can only be called at PASSIVE_LEVEL.
-old-location: stream\kssynchronousiocontroldevice.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 07/13/2022
 keywords: ["KsSynchronousIoControlDevice function"]
 ms.keywords: KsSynchronousIoControlDevice, KsSynchronousIoControlDevice function [Streaming Media Devices], ks/KsSynchronousIoControlDevice, ksfunc_b3bba8f7-d9fb-4372-bfff-f39b4d925561.xml, stream.kssynchronousiocontroldevice
 req.header: ks.h
@@ -43,56 +42,44 @@ api_name:
 
 # KsSynchronousIoControlDevice function
 
-
 ## -description
 
-The <b>KsSynchronousIoControlDevice</b> function performs a synchronous device I/O control on the target device object. It waits in a nonalertable state until the I/O completes. This function can only be called at PASSIVE_LEVEL.
+The **KsSynchronousIoControlDevice** function performs a synchronous device I/O control on the target device object. It waits in a nonalertable state until the I/O completes. This function can only be called at PASSIVE_LEVEL.
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
 Indicates the file object to fill in the first stack location with.
 
 ### -param RequestorMode
 
-### -param IoControl 
+Indicates the processor mode to place in the IRP if one needs to be generated.
 
-[in]
+### -param IoControl [in]
+
 Specifies the I/O control to send.
 
-### -param InBuffer 
+### -param InBuffer [in]
 
-[in]
 Points to the device input buffer.
 
-### -param InSize 
+### -param InSize [in]
 
-[in]
 Specifies the size in bytes of the device input buffer.
 
-### -param OutBuffer 
+### -param OutBuffer [out]
 
-[out]
 Points to the device output buffer.
 
-### -param OutSize 
+### -param OutSize [in]
 
-[in]
 Specifies the size in bytes of the device output buffer.
 
-### -param BytesReturned 
+### -param BytesReturned [out]
 
-[out]
 Points to the place in which to put the number of bytes returned.
-
-
-#### - RequesorMode [in]
-
-Indicates the processor mode to place in the IRP if one needs to be generated.
 
 ## -returns
 
-<b>KsSynchronousIoControlDevice </b>returns the result of the device I/O control.
-
+**KsSynchronousIoControlDevice** returns the result of the device I/O control.

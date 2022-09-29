@@ -6,8 +6,6 @@ ms.assetid: 8944c625-f5bf-3b9f-9d36-13dc0a6d840c
 ms.date: 05/09/2018
 keywords: ["Wdmsec.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: portal
 tech.root: kernel
 f1_keywords:

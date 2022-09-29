@@ -54,9 +54,9 @@ The <b>WdfUsbTargetDeviceGetNumInterfaces</b> method returns the number of USB d
 
 ## -parameters
 
-### -param UsbDevice 
+### -param UsbDevice [in]
 
-[in]
+
 A handle to a USB device object that was obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 ## -returns

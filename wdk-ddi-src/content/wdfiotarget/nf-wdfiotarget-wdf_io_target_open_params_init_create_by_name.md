@@ -51,19 +51,19 @@ The <b>WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME</b> function initializes a 
 
 ## -parameters
 
-### -param Params 
+### -param Params [out]
 
-[out]
+
 A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfiotarget/ns-wdfiotarget-_wdf_io_target_open_params">WDF_IO_TARGET_OPEN_PARAMS</a> structure, which the function initializes.
 
-### -param TargetDeviceName 
+### -param TargetDeviceName [in]
 
-[in]
+
 A value for the <b>TargetDeviceName</b> member of the <a href="/windows-hardware/drivers/ddi/wdfiotarget/ns-wdfiotarget-_wdf_io_target_open_params">WDF_IO_TARGET_OPEN_PARAMS</a> structure.
 
-### -param DesiredAccess 
+### -param DesiredAccess [in]
 
-[in]
+
 A value for the <b>DesiredAccess</b> member of the <a href="/windows-hardware/drivers/ddi/wdfiotarget/ns-wdfiotarget-_wdf_io_target_open_params">WDF_IO_TARGET_OPEN_PARAMS</a> structure.
 
 ## -remarks

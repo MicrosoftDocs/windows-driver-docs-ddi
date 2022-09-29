@@ -4,7 +4,7 @@ title: IddCxMonitorQueryHardwareCursor function (iddcx.h)
 description: An OS callback function the driver calls when it wants obtain the updated cursor information. The driver normally only calls this when the event that signals cursor update has triggered.
 old-location: display\iddcxmonitorqueryhardwarecursor.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/05/2022
 keywords: ["IddCxMonitorQueryHardwareCursor function"]
 ms.keywords: IddCxMonitorQueryHardwareCursor, IddCxMonitorQueryHardwareCursor method [Display Devices], display.iddcxmonitorqueryhardwarecursor, iddcx/IddCxMonitorQueryHardwareCursor
 req.header: iddcx.h
@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: IddCxStub.lib
 req.dll: IddCx.dll
-req.irql: _Must_inspect_result_
+req.irql: 
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -42,28 +42,42 @@ api_name:
 
 # IddCxMonitorQueryHardwareCursor function
 
-
 ## -description
 
-                 An OS callback function the driver calls when it wants obtain the updated cursor information. The driver normally only calls this when the event that signals cursor update has triggered
+An indirect display driver calls **IddCxMonitorQueryHardwareCursor** to obtain updated hardware cursor information for the specified monitor.
 
 ## -parameters
 
-### -param MonitorObject 
+### -param MonitorObject [in]
 
-[in]
-This is the OS context handle for this monitor returned by the <a href="/windows-hardware/drivers/ddi/iddcx/nf-iddcx-iddcxmonitorarrival">IddCxMonitorArrival</a> call
+An [**IDDCX_MONITOR**](/windows-hardware/drivers/display/iddcx-objects) object which is the monitor's OS context handle created by [**IddCxMonitorCreate**](nf-iddcx-iddcxmonitorcreate.md).
 
-### -param pInArgs 
+### -param pInArgs [in]
 
-[in]
-Input arguments of the function
+An [**IDARG_IN_QUERY_HWCURSOR**](ns-iddcx-idarg_in_query_hwcursor.md) structure containing this function's input arguments.
 
-### -param pOutArgs 
+### -param pOutArgs [out]
 
-[out]
-Output arguments of the function
+An [**IDARG_OUT_QUERY_HWCURSOR**](ns-iddcx-idarg_out_query_hwcursor.md) structure in which the monitor's current hardware cursor information is returned.
 
 ## -returns
 
-(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
+**IddCxMonitorQueryHardwareCursor** returns STATUS_SUCCESS if the operation succeeds; otherwise, it returns an [appropriate NTSTATUS error code](/windows-hardware/drivers/kernel/ntstatus-values).
+
+## -remarks
+
+The driver normally only calls this function when [the event that signals cursor update](ns-iddcx-idarg_in_setup_hwcursor.md) has triggered.
+
+For additional cursor information beyond what this function returns, call [**IddCxMonitorQueryHardwareCursor2**](nf-iddcx-iddcxmonitorqueryhardwarecursor2.md).
+
+## -see-also
+
+[**IDDCX_MONITOR**](/windows-hardware/drivers/display/iddcx-objects)
+
+[**IDARG_IN_QUERY_HWCURSOR**](ns-iddcx-idarg_in_query_hwcursor.md)
+
+[**IDARG_OUT_QUERY_HWCURSOR**](ns-iddcx-idarg_out_query_hwcursor.md)
+
+[**IddCxMonitorQueryHardwareCursor2**](nf-iddcx-iddcxmonitorqueryhardwarecursor2.md)
+
+[**IddCxMonitorSetupHardwareCursor**](nf-iddcx-iddcxmonitorsetuphardwarecursor.md)

@@ -89,4 +89,4 @@ HID minidrivers that call other drivers with this IRP to carry out the I/O to th
 
 ## -see-also
 
-<a href="/previous-versions/hh439611(v=vs.85)">IOCTL_HID_ACTIVATE_DEVICE</a>
+<a href="/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_hid_activate_device">IOCTL_HID_ACTIVATE_DEVICE</a>

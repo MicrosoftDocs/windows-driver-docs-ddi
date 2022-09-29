@@ -49,19 +49,19 @@ Subtracts one value of type <b>SHORT</b> from another.
 
 ## -parameters
 
-### -param sMinuend 
+### -param sMinuend [in]
 
-[in]
+
 The value from which <i>sSubtrahend</i> is subtracted.
 
-### -param sSubtrahend 
+### -param sSubtrahend [in]
 
-[in]
+
 The value to subtract from <i>sMinuend</i>.
 
-### -param psResult 
+### -param psResult [out]
 
-[out]
+
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 ## -returns

@@ -52,9 +52,9 @@ The D3DKMT_CHECKOCCLUSION structure contains the handle to the window to check f
 
 ## -struct-fields
 
-### -field hWindow
+### -field hWindow [in]
 
-[in] A handle to the window to check for occlusion.
+A handle to the window to check for occlusion.
 
 ## -see-also
 

@@ -49,9 +49,9 @@ The <b>KeReadStateMutex</b> routine returns the current state, signaled or not-s
 
 ## -parameters
 
-### -param Mutex 
+### -param Mutex [in]
 
-[in]
+
 Pointer to an initialized mutex object for which the caller provides the storage.
 
 ## -returns

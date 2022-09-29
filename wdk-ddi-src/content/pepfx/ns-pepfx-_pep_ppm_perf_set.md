@@ -55,25 +55,25 @@ The <b>PEP_PPM_PERF_SET</b> structure specifies the new performance level that t
 
 ## -struct-fields
 
-### -field MinimumPerformance
+### -field MinimumPerformance [in]
 
-[in] The new minimum performance level in platform-specific units. This member indicates the absolute minimum performance level that the processor can run at.
+The new minimum performance level in platform-specific units. This member indicates the absolute minimum performance level that the processor can run at.
 
-### -field MaximumPerformance
+### -field MaximumPerformance [in]
 
-[in] The new maximum performance level in platform-specific units. This member indicates the absolute maximum performance level that the processor can run at.
+The new maximum performance level in platform-specific units. This member indicates the absolute maximum performance level that the processor can run at.
 
-### -field DesiredPerformance
+### -field DesiredPerformance [in]
 
-[in] The new desired performance level in platform-specific units. This member is set to a value in the range <b>MinimumPerformance</b> to <b>MaximumPerformance</b>.
+The new desired performance level in platform-specific units. This member is set to a value in the range <b>MinimumPerformance</b> to <b>MaximumPerformance</b>.
 
-### -field TimeWindow
+### -field TimeWindow [in]
 
-[in] The width, in milliseconds, of the new time window over which the platform must provide the required average performance. If this time window is nonzero, the instantaneous performance provided by the platform does not need to match the desired performance level, and only needs to fall within the constraints specified by the minimum and maximum performance level.
+The width, in milliseconds, of the new time window over which the platform must provide the required average performance. If this time window is nonzero, the instantaneous performance provided by the platform does not need to match the desired performance level, and only needs to fall within the constraints specified by the minimum and maximum performance level.
 
-### -field PerformanceTolerance
+### -field PerformanceTolerance [in]
 
-[in] The new performance tolerance in platform-specific units. This member contains the minimum performance level that the platform can deliver and still meet the operating system's performance requirements.
+The new performance tolerance in platform-specific units. This member contains the minimum performance level that the platform can deliver and still meet the operating system's performance requirements.
 
 ## -remarks
 

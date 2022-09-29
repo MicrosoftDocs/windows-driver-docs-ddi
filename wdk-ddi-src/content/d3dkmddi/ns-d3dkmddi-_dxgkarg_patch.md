@@ -52,27 +52,27 @@ The DXGKARG_PATCH structure describes a direct memory access (DMA) buffer that r
 
 ## -struct-fields
 
-### -field hDevice
+### -field hDevice [in]
 
-[in] If a driver is not multiple-engine aware (that is, the driver does not support context creation), a handle to the display device (graphics context) that the submission request originated from. A device handle is supplied to the driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch">DxgkDdiPatch</a> function in the union that DXGKARG_PATCH contains.
+If a driver is not multiple-engine aware (that is, the driver does not support context creation), a handle to the display device (graphics context) that the submission request originated from. A device handle is supplied to the driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch">DxgkDdiPatch</a> function in the union that DXGKARG_PATCH contains.
 
 For some paging operations, <b>hDevice</b> is <b>NULL</b> (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the <b>Paging</b> bit-field flag in the <b>Flags</b> member.
 
-### -field hContext
+### -field hContext [in]
 
-[in] If the driver is multiple-engine aware (that is, the driver supports context creation), a handle to the device context that the submission request originated from. A context handle is supplied to the driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch">DxgkDdiPatch</a> function in the union that DXGKARG_PATCH contains. 
+If the driver is multiple-engine aware (that is, the driver supports context creation), a handle to the device context that the submission request originated from. A context handle is supplied to the driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_patch">DxgkDdiPatch</a> function in the union that DXGKARG_PATCH contains. 
 
 For some paging operations, <b>hContext</b> is <b>NULL</b> (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the <b>Paging</b> bit-field flag in the <b>Flags</b> member.
 
-### -field DmaBufferSegmentId
+### -field DmaBufferSegmentId [in]
 
-[in] The identifier of the memory segment that the DMA buffer was paged in. 
+The identifier of the memory segment that the DMA buffer was paged in. 
 
 The identifier can be zero if the driver indicated not to map the DMA buffer into the segment by setting the <b>DmaBufferSegmentSet</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_contextinfo">DXGK_CONTEXTINFO</a> structure to 0 in a call to the driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a> function. If <b>DmaBufferSegmentId</b> is zero, the DMA buffer was allocated as a contiguous block of system memory.
 
-### -field DmaBufferPhysicalAddress
+### -field DmaBufferPhysicalAddress [in]
 
-[in] A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates the physical address where the DMA buffer was paged in. 
+A PHYSICAL_ADDRESS data type (which is defined as LARGE_INTEGER) that indicates the physical address where the DMA buffer was paged in. 
 
 If <b>DmaBufferSegmentId</b> is zero, <b>DmaBufferPhysicalAddress</b> is the physical address in system memory where the DMA buffer is located. 
 
@@ -80,97 +80,97 @@ If <b>DmaBufferSegmentId</b> is nonzero, <b>DmaBufferPhysicalAddress</b> is the 
 
 Note that <b>DmaBufferPhysicalAddress</b> always refers to the beginning of the DMA buffer even though the driver might be required to patch or submit a section of the DMA buffer that does not include the beginning of the DMA buffer (that is, if the <b>DmaBufferSubmissionStartOffset</b> member is nonzero).
 
-### -field pDmaBuffer
+### -field pDmaBuffer [in]
 
-[in] A pointer to the start of the DMA buffer (that is, the virtual address of the beginning of the DMA buffer).
+A pointer to the start of the DMA buffer (that is, the virtual address of the beginning of the DMA buffer).
 
-### -field DmaBufferSize
+### -field DmaBufferSize [in]
 
-[in] The size, in bytes, of the DMA buffer that <b>pDmaBuffer</b> points to.
+The size, in bytes, of the DMA buffer that <b>pDmaBuffer</b> points to.
 
 Note that <b>DmaBufferSize</b> represents the entire length of the DMA buffer; however, the request to patch or submit might refer to only a portion of the DMA buffer.
 
-### -field DmaBufferSubmissionStartOffset
+### -field DmaBufferSubmissionStartOffset [in]
 
-[in] The offset, in bytes, from the beginning of the DMA buffer that <b>pDmaBuffer</b> specifies to the start of the portion of the DMA buffer that requires patching or submitting. The offset that is received at patch time matches the offset that is received at submission time.
+The offset, in bytes, from the beginning of the DMA buffer that <b>pDmaBuffer</b> specifies to the start of the portion of the DMA buffer that requires patching or submitting. The offset that is received at patch time matches the offset that is received at submission time.
 
-### -field DmaBufferSubmissionEndOffset
+### -field DmaBufferSubmissionEndOffset [in]
 
-[in] The offset, in bytes, from the beginning of the DMA buffer that <b>pDmaBuffer</b> specifies to the end of the portion of the DMA buffer that requires patching or submitting. The offset that is received at patch time matches the offset that is received at submission time.
+The offset, in bytes, from the beginning of the DMA buffer that <b>pDmaBuffer</b> specifies to the end of the portion of the DMA buffer that requires patching or submitting. The offset that is received at patch time matches the offset that is received at submission time.
 
-### -field pDmaBufferPrivateData
+### -field pDmaBufferPrivateData [in]
 
-[in] A pointer to the driver-resident private data that is associated with the DMA buffer that <b>pDmaBuffer</b> points to. 
+A pointer to the driver-resident private data that is associated with the DMA buffer that <b>pDmaBuffer</b> points to. 
 
 For paging operations, a single paging buffer is used for multiple independent submissions. In that scenario, the driver can indicate—by returning the appropriate private driver data pointer in a call to its <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_buildpagingbuffer">DxgkDdiBuildPagingBuffer</a> function—to have either a single driver private data range for all submissions or one for each submission.
 
-### -field DmaBufferPrivateDataSize
+### -field DmaBufferPrivateDataSize [in]
 
-[in] The size, in bytes, of the private driver data at <b>pDmaBufferPrivateData</b>.
+The size, in bytes, of the private driver data at <b>pDmaBufferPrivateData</b>.
 
 Note that <b>DmaBufferPrivateDataSize</b> represents the entire length of the private driver data buffer; however, the portion that is associated with the current submission might be smaller.
 
-### -field DmaBufferPrivateDataSubmissionStartOffset
+### -field DmaBufferPrivateDataSubmissionStartOffset [in]
 
-[in] The offset, in bytes, from the beginning of the DMA buffer private data that <b>pDmaBufferPrivateData</b> specifies to the start of the portion of the private data that is associated with the current submission. <b>DmaBufferPrivateDataSubmissionStartOffset</b> is always zero for a nonpaging request.
+The offset, in bytes, from the beginning of the DMA buffer private data that <b>pDmaBufferPrivateData</b> specifies to the start of the portion of the private data that is associated with the current submission. <b>DmaBufferPrivateDataSubmissionStartOffset</b> is always zero for a nonpaging request.
 
-### -field DmaBufferPrivateDataSubmissionEndOffset
+### -field DmaBufferPrivateDataSubmissionEndOffset [in]
 
-[in] The offset, in bytes, from the beginning of the DMA buffer private data that <b>pDmaBufferPrivateData</b> specifies to the end of the portion of the private data that is associated with the current submission.
+The offset, in bytes, from the beginning of the DMA buffer private data that <b>pDmaBufferPrivateData</b> specifies to the end of the portion of the private data that is associated with the current submission.
 
-### -field pAllocationList
+### -field pAllocationList [in]
 
-[in] A pointer to an array of <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationlist">DXGK_ALLOCATIONLIST</a> structures for the list of allocations that is associated with the DMA buffer that <b>pDmaBuffer</b> points to. 
+A pointer to an array of <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationlist">DXGK_ALLOCATIONLIST</a> structures for the list of allocations that is associated with the DMA buffer that <b>pDmaBuffer</b> points to. 
 
 For paging operations, <b>pAllocationList</b> is <b>NULL</b> because paging buffers are not associated with allocation lists.
 
-### -field AllocationListSize
+### -field AllocationListSize [in]
 
-[in] The number of elements in the array that <b>pAllocationList</b> specifies.
+The number of elements in the array that <b>pAllocationList</b> specifies.
 
 Note that <b>AllocationListSize</b> represents the total size of the allocation list; however, the portion of the allocation list that is associated with the current submission might be smaller. 
 
 Note that for paging operations <b>AllocationListSize</b> is zero because paging buffers are not associated with allocation lists.
 
-### -field pPatchLocationList
+### -field pPatchLocationList [in]
 
-[in] A pointer to an array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist">D3DDDI_PATCHLOCATIONLIST</a> structures for the list of patch locations that is associated with the DMA buffer that <b>pDmaBuffer</b> points to.
+A pointer to an array of <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist">D3DDDI_PATCHLOCATIONLIST</a> structures for the list of patch locations that is associated with the DMA buffer that <b>pDmaBuffer</b> points to.
 
 Note that the array can begin with an element that is before the range that is used to patch the DMA buffer.
 
 For paging operations, <b>pPatchLocationList</b> is <b>NULL</b> because paging buffers are not associated with patch-location lists.
 
-### -field PatchLocationListSize
+### -field PatchLocationListSize [in]
 
-[in] The number of elements in the array that <b>pPatchLocationList</b> specifies.
+The number of elements in the array that <b>pPatchLocationList</b> specifies.
 
 Note that <b>PatchLocationListSize</b> represents the total size of the patch-location list; however, the range that the driver must process is typically smaller. 
 
 For paging operations, <b>PatchLocationListSize</b> is zero because paging buffers are not associated with patch-location lists.
 
-### -field PatchLocationListSubmissionStart
+### -field PatchLocationListSubmissionStart [in]
 
-[in] The index of the first element in the patch-location list that <b>pPatchLocationList</b> specifies that must be processed. 
+The index of the first element in the patch-location list that <b>pPatchLocationList</b> specifies that must be processed. 
 
 For paging operations, <b>PatchLocationListSubmissionStart</b> is zero.
 
-### -field PatchLocationListSubmissionLength
+### -field PatchLocationListSubmissionLength [in]
 
-[in] The number of elements in the patch-location list that <b>pPatchLocationList</b> specifies that must be processed.
+The number of elements in the patch-location list that <b>pPatchLocationList</b> specifies that must be processed.
 
 For paging operations, <b>PatchLocationListSubmissionLength</b> is zero.
 
-### -field SubmissionFenceId
+### -field SubmissionFenceId [in]
 
-[in] A unique identifier that the driver can write into the fence command at the end of the DMA buffer. For more information about this type of identifier, see <a href="/windows-hardware/drivers/display/supplying-fence-identifiers">Supplying Fence Identifiers</a>.
+A unique identifier that the driver can write into the fence command at the end of the DMA buffer. For more information about this type of identifier, see <a href="/windows-hardware/drivers/display/supplying-fence-identifiers">Supplying Fence Identifiers</a>.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_patchflags">DXGK_PATCHFLAGS</a> structure that identifies information about the DMA buffer that requires patching.
+A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_patchflags">DXGK_PATCHFLAGS</a> structure that identifies information about the DMA buffer that requires patching.
 
-### -field EngineOrdinal
+### -field EngineOrdinal [in]
 
-[in] Reserved for future use.
+Reserved for future use.
 
 ## -remarks
 

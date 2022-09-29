@@ -49,9 +49,9 @@ The <b>KsFlushClient</b> method flushes information from a pin.
 
 ## -parameters
 
-### -param Pin 
+### -param Pin [in]
 
-[in]
+
 Pointer to the <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin">IKsPin</a> interface for the pin from which to flush information.
 
 ## -see-also

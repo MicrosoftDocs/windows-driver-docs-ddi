@@ -51,9 +51,9 @@ For more information, see the <a href="/windows-hardware/drivers/ddi/iointex/nf-
 
 ## -parameters
 
-### -param Parameters 
+### -param Parameters [in, out]
 
-[in, out]
+
 For more information, see the <a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibioconnectinterruptex">WdmlibIoConnectInterruptEx</a> function.
 
 ## -returns

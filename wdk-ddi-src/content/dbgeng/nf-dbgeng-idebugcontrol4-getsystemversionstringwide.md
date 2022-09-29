@@ -4,7 +4,7 @@ title: IDebugControl4::GetSystemVersionStringWide (dbgeng.h)
 description: The GetSystemVersionStringWide method returns a string that describes the target's operating system version.
 old-location: debugger\getsystemversionstringwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl4::GetSystemVersionStringWide"]
 ms.keywords: GetSystemVersionStringWide, GetSystemVersionStringWide method [Windows Debugging], GetSystemVersionStringWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetSystemVersionStringWide method, IDebugControl4.GetSystemVersionStringWide, IDebugControl4::GetSystemVersionStringWide, dbgeng/IDebugControl4::GetSystemVersionStringWide, debugger.getsystemversionstringwide
 req.header: dbgeng.h
@@ -49,9 +49,9 @@ The <b>GetSystemVersionStringWide</b>  method returns a string that describes th
 
 ## -parameters
 
-### -param Which 
+### -param Which [in]
 
-[in]
+
 Specifies which version string to return.  The possible values are listed in the following table.
 
 <table>
@@ -81,20 +81,20 @@ Returns a description of the target's operating system build version.  For examp
 </tr>
 </table>
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the version string.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
-Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
-### -param StringSize 
+Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size, in characters, of the string that identifies the build.  If <i>SizeString</i> is <b>NULL</b>, this information is not returned.
+### -param StringSize [out, optional]
+
+
+Receives the size, in characters, of the string that identifies the build. This size includes the space for the '\0' terminating character. If <i>SizeString</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

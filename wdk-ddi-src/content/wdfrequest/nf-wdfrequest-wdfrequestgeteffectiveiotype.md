@@ -51,9 +51,9 @@ The <b>WdfRequestGetEffectiveIoType</b> method returns the buffer access method 
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
 ## -returns

@@ -52,21 +52,21 @@ The D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure contains information about the 
 
 ## -struct-fields
 
-### -field hContext
+### -field hContext [in]
 
-[in] A kernel-mode handle to a context that signals the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies.
+A kernel-mode handle to a context that signals the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies.
 
-### -field ObjectCount
+### -field ObjectCount [in]
 
-[in] The number of synchronization events in the <b>ObjectHandleArray</b> array.
+The number of synchronization events in the <b>ObjectHandleArray</b> array.
 
-### -field ObjectHandleArray
+### -field ObjectHandleArray [in]
 
-[in] An array of kernel-mode handles to the synchronization events that the context that is specified by the <b>hContext</b> member signals. The D3DDDI_MAX_OBJECT_SIGNALED constant, which is defined as 32, indicates the maximum number of synchronization events that the context can signal.
+An array of kernel-mode handles to the synchronization events that the context that is specified by the <b>hContext</b> member signals. The D3DDDI_MAX_OBJECT_SIGNALED constant, which is defined as 32, indicates the maximum number of synchronization events that the context can signal.
 
-### -field Flags
+### -field Flags [in]
 
-[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddicb_signalflags">D3DDDICB_SIGNALFLAGS</a> structure that indicates, in bit-field flags, signaling behavior.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddicb_signalflags">D3DDDICB_SIGNALFLAGS</a> structure that indicates, in bit-field flags, signaling behavior.
 
 ## -see-also
 

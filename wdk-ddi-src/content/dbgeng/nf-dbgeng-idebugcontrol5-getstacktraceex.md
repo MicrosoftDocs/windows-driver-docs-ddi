@@ -49,35 +49,35 @@ The GetStackTraceEx method returns the frames at the top of the specified call s
 
 ## -parameters
 
-### -param FrameOffset 
+### -param FrameOffset [in]
 
-[in]
+
 Specifies the location of the stack frame at the top of the stack.  If <i>FrameOffset</i> is set to zero, the current frame pointer is used instead.
 
-### -param StackOffset 
+### -param StackOffset [in]
 
-[in]
+
 Specifies the location of the current stack.  If <i>StackOffset</i> is set to zero, the current stack pointer is used instead.
 
-### -param InstructionOffset 
+### -param InstructionOffset [in]
 
-[in]
+
 Specifies the location of the instruction of interest for the function that is represented by the stack frame at the top of the stack.  If <i>InstructionOffset</i> is set to zero, the current instruction is used instead.
 
-### -param Frames 
+### -param Frames [out]
 
-[out]
+
 Receives the stack frames.  The number of elements this array holds is <i>FrameSize</i>.
 
 ### -param FramesSize
 
-### -param FramesFilled 
+### -param FramesFilled [out, optional]
 
-[out, optional]
+
 Receives the number of frames that were placed in the array <i>Frames</i>.  If <i>FramesFilled</i> is <b>NULL</b>, this information is not returned.
 
 
-#### - FrameSize [in]
+### -param FrameSize [in]
 
 Specifies the number of items in the <i>Frames</i> array.
 

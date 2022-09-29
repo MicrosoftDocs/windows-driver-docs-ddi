@@ -49,34 +49,34 @@ An SPB controller driver's <i>EvtSpbControllerIoOther</i> event callback functio
 
 ## -parameters
 
-### -param Controller 
+### -param Controller [in]
 
-[in]
+
 A WDFDEVICE handle to the <a href="/windows-hardware/drivers/wdf/framework-device-object">framework device object</a> that represents the SPB controller.
 
-### -param Target 
+### -param Target [in]
 
-[in]
+
 An <a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to the target for this I/O request. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the <a href="/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a> callback that opened the connection to the target.
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 The <a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request. Your SPB controller driver must complete this request. For more information, see Remarks.
 
-### -param OutputBufferLength 
+### -param OutputBufferLength [in]
 
-[in]
+
 The length, in bytes, of the output buffer, if an output buffer is supplied with the request.
 
-### -param InputBufferLength 
+### -param InputBufferLength [in]
 
-[in]
+
 The length, in bytes, of the input buffer, if an input buffer is supplied with the request.
 
-### -param IoControlCode 
+### -param IoControlCode [in]
 
-[in]
+
 The I/O control code (IOCTL) for the request. This value is an IOCTL that the SPB framework extension (SpbCx) does not recognize.  For more information, see Remarks.
 
 ## -remarks

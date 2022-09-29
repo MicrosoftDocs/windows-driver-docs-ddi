@@ -3,7 +3,7 @@ UID: NF:d3dkmthk.D3DKMTDestroyOverlay
 title: D3DKMTDestroyOverlay function (d3dkmthk.h)
 description: The D3DKMTDestroyOverlay function destroys a kernel-mode overlay object.
 old-location: display\d3dkmtdestroyoverlay.htm
-ms.date: 05/10/2018
+ms.date: 02/23/2022
 keywords: ["D3DKMTDestroyOverlay function"]
 ms.keywords: D3DKMTDestroyOverlay, D3DKMTDestroyOverlay function [Display Devices], OpenGL_Functions_57efc2f4-dbbe-4f91-b724-036b5231c058.xml, d3dkmthk/D3DKMTDestroyOverlay, display.d3dkmtdestroyoverlay
 req.header: d3dkmthk.h
@@ -45,30 +45,27 @@ api_name:
 
 # D3DKMTDestroyOverlay function
 
-
 ## -description
 
-The <b>D3DKMTDestroyOverlay</b> function destroys a kernel-mode overlay object.
+The **D3DKMTDestroyOverlay** function destroys a kernel-mode overlay object.
 
 ## -parameters
 
-### -param D3DKMT_DESTROYOVERLAY
+### -param unnamedParam1 [in]
 
-*pData* [in]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroyoverlay">D3DKMT_DESTROYOVERLAY</a> structure that contains the handle to the overlay to destroy.
+A pointer to a [D3DKMT_DESTROYOVERLAY](ns-d3dkmthk-_d3dkmt_destroyoverlay.md) structure that contains the handle to the overlay to destroy.
 
 ## -returns
 
-<b>D3DKMTDestroyOverlay</b> returns one of the following values:
+**D3DKMTDestroyOverlay** returns one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|The kernel-mode overlay object was successfully destroyed.|
-|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
+| Return code | Description |
+|--|--|
+| STATUS_SUCCESS | The kernel-mode overlay object was successfully destroyed. |
+| STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
 
-This function might also return other <b>NTSTATUS</b> values.
+This function might also return other **NTSTATUS** values.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroyoverlay">D3DKMT_DESTROYOVERLAY</a>
+[D3DKMT_DESTROYOVERLAY](ns-d3dkmthk-_d3dkmt_destroyoverlay.md)

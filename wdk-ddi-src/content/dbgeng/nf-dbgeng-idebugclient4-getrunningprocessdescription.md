@@ -4,7 +4,7 @@ title: IDebugClient4::GetRunningProcessDescription (dbgeng.h)
 description: The IDebugClient4::GetRunningProcessDescription method returns a description of the process that includes several elements.
 old-location: debugger\getrunningprocessdescription.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugClient4::GetRunningProcessDescription"]
 ms.keywords: GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], GetRunningProcessDescription method [Windows Debugging],IDebugClient interface, GetRunningProcessDescription method [Windows Debugging],IDebugClient2 interface, GetRunningProcessDescription method [Windows Debugging],IDebugClient3 interface, GetRunningProcessDescription method [Windows Debugging],IDebugClient4 interface, GetRunningProcessDescription method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetRunningProcessDescription method, IDebugClient2 interface [Windows Debugging],GetRunningProcessDescription method, IDebugClient2::GetRunningProcessDescription, IDebugClient3 interface [Windows Debugging],GetRunningProcessDescription method, IDebugClient3::GetRunningProcessDescription, IDebugClient4 interface [Windows Debugging],GetRunningProcessDescription method, IDebugClient4.GetRunningProcessDescription, IDebugClient4::GetRunningProcessDescription, IDebugClient5 interface [Windows Debugging],GetRunningProcessDescription method, IDebugClient5::GetRunningProcessDescription, IDebugClient::GetRunningProcessDescription, IDebugClient_e5736881-635f-4998-809b-d210bf447a36.xml, dbgeng/IDebugClient2::GetRunningProcessDescription, dbgeng/IDebugClient3::GetRunningProcessDescription, dbgeng/IDebugClient4::GetRunningProcessDescription, dbgeng/IDebugClient5::GetRunningProcessDescription, dbgeng/IDebugClient::GetRunningProcessDescription, debugger.getrunningprocessdescription
 req.header: dbgeng.h
@@ -49,19 +49,19 @@ The <b>GetRunningProcessDescription</b>  method returns a description of the pro
 
 ## -parameters
 
-### -param Server 
+### -param Server [in]
 
-[in]
+
 Specifies the process server to query for the process description.  If <i>Server</i> is zero, the engine will query information about the local process directly.
 
-### -param SystemId 
+### -param SystemId [in]
 
-[in]
+
 Specifies the process ID of the process whose description is desired.
 
-### -param Flags 
+### -param Flags [in]
 
-[in]
+
 Specifies a bit-set containing options that affect the behavior of this method.  <i>Flags</i> can contain the following bit flags:
 
 <table>
@@ -111,35 +111,35 @@ Do not retrieve the command line.
 </tr>
 </table>
 
-### -param ExeName 
+### -param ExeName [out, optional]
 
-[out, optional]
+
 Receives the name of the executable file used to start the process.  If <i>ExeName</i> is <b>NULL</b>, this information is not returned.
 
-### -param ExeNameSize 
+### -param ExeNameSize [in]
 
-[in]
-Specifies the size in characters of the buffer <i>ExeNameSize</i>.
 
-### -param ActualExeNameSize 
+Specifies the size in characters of the buffer <i>ExeNameSize</i>. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the executable file name.  If <i>ExeNameSize</i> is <b>NULL</b>, this information is not returned.
+### -param ActualExeNameSize [out, optional]
 
-### -param Description 
 
-[out, optional]
+Receives the size in characters of the executable file name. This size includes the space for the '\0' terminating character. If <i>ExeNameSize</i> is <b>NULL</b>, this information is not returned.
+
+### -param Description [out, optional]
+
+
 Receives extra information about the process, including service names, MTS package names, and the command line.  If <i>Description</i> is <b>NULL</b>, this information is not returned.
 
-### -param DescriptionSize 
+### -param DescriptionSize [in]
 
-[in]
-Specifies the size in characters of the buffer <i>Description</i>.
 
-### -param ActualDescriptionSize 
+Specifies the size in characters of the buffer <i>Description</i>. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the extra information.  If <i>ActualDescriptionSize</i> is <b>NULL</b>, this information is not returned.
+### -param ActualDescriptionSize [out, optional]
+
+
+Receives the size in characters of the extra information. This size includes the space for the '\0' terminating character. If <i>ActualDescriptionSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

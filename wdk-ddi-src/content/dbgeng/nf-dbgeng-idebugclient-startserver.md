@@ -49,9 +49,9 @@ The <b>StartServer</b>  method starts a debugging server.
 
 ## -parameters
 
-### -param Options 
+### -param Options [in]
 
-[in]
+
 Specifies the connections options for this server.  These are the same options given to the <b>.server</b> debugger command or the WinDbg and CDB <b>-server</b> command-line option.  For details on the syntax of this string, see <a href="/windows-hardware/drivers/debugger/activating-a-debugging-server">Activating a Debugging Server</a>.
 
 ## -returns

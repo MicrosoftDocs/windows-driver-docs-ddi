@@ -4,7 +4,7 @@ title: _MDL (wdm.h)
 description: An MDL structure is a partially opaque structure that represents a memory descriptor list (MDL).
 old-location: kernel\mdl.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 08/15/2022
 keywords: ["MDL structure"]
 ms.keywords: "*PMDLX, MDL, MDL structure [Kernel-Mode Driver Architecture], PMDL, _MDL, kernel.mdl, kstruct_c_2c589a9a-d775-4fa6-8a37-37212798a215.xml, wdm/MDL"
 req.header: wdm.h
@@ -48,16 +48,15 @@ api_name:
 
 # _MDL structure
 
-
 ## -description
 
-An <b>MDL</b> structure is a partially opaque structure that represents a memory descriptor list (MDL).
+An **MDL** structure is a partially opaque structure that represents a memory descriptor list (MDL).
 
 ## -struct-fields
 
 ### -field Next
 
-Pointer to the next MDL in an MDL chain. For more information about MDL chains, see <a href="/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
+Pointer to the next MDL in an MDL chain. For more information about MDL chains, see [Using MDLs](/windows-hardware/drivers/kernel/using-mdls).
 
 ### -field Size
 
@@ -75,29 +74,13 @@ Pointer to the next MDL in an MDL chain. For more information about MDL chains, 
 
 ## -remarks
 
-An MDL describes the layout of a virtual memory buffer in physical memory. For more information, see <a href="/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
+An MDL describes the layout of a virtual memory buffer in physical memory. For more information, see [Using MDLs](/windows-hardware/drivers/kernel/using-mdls).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocatemdl">IoAllocateMdl</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmgetmdlbytecount">MmGetMdlByteCount</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetmdlbyteoffset">MmGetMdlByteOffset</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetmdlpfnarray">MmGetMdlPfnArray</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetmdlvirtualaddress">MmGetMdlVirtualAddress</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/mm-bad-pointer#mminitializemdl">MmInitializeMdl</a>
-
+- [IoAllocateMdl](./nf-wdm-ioallocatemdl.md)
+- [MmGetMdlByteCount](./nf-wdm-mmgetmdlbytecount.md)
+- [MmGetMdlByteOffset](./nf-wdm-mmgetmdlbyteoffset.md)
+- [MmGetMdlPfnArray](./nf-wdm-mmgetmdlpfnarray.md)
+- [MmGetMdlVirtualAddress](./nf-wdm-mmgetmdlvirtualaddress.md)
+- [MmInitializeMdl](./nf-wdm-mminitializemdl.md)

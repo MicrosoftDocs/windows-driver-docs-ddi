@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMEnablePDEV
 title: OEMEnablePDEV function (printoem.h)
-description: OEMEnablePDEV function
-old-location: print\oemenablepdev.htm
+description: Describes the OEMEnablePDEV function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/08/2022
 keywords: ["OEMEnablePDEV function"]
 ms.keywords: OEMEnablePDEV, OEMEnablePDEV function [Print Devices], print.oemenablepdev, print_obsoletefunctions_f6d0b164-0458-442f-ac6a-791592883196.xml, printoem/OEMEnablePDEV
 req.header: printoem.h
@@ -40,38 +39,48 @@ api_name:
  - OEMEnablePDEV
 ---
 
-# OEMEnablePDEV function
-
-
 ## -description
+
+Describes the **OEMEnablePDEV** function.
 
 ## -parameters
 
 ### -param pdevobj
 
-### -param pPrinterName 
+Defines the **PDEVOBJ** parameter *pdevobj*.
 
-[in]
+### -param pPrinterName [in]
+
+Defines the **PWSTR** parameter *pPrinterName*.
 
 ### -param cPatterns
 
-### -param phsurfPatterns 
+Defines the **ULONG** parameter *cPatterns*.
 
-[in]
+### -param phsurfPatterns [in]
+
+Defines the **HSURF** parameter *phsurfPatterns*.
 
 ### -param cjGdiInfo
 
-### -param pGdiInfo 
+Defines the **ULONG** parameter *cjGdiInfo*.
 
-[in, out]
+### -param pGdiInfo [in, out]
+
+Defines the **GDIINFO** parameter *pGdiInfo*.
 
 ### -param cjDevInfo
 
-### -param pDevInfo 
+Defines the **ULONG** parameter *cjDevInfo*.
 
-[in, out]
+### -param pDevInfo [in, out]
 
-### -param pded 
+Defines the **DEVINFO** parameter *pDevInfo*.
 
-[in]
+### -param pded [in]
 
+Defines the **DRVENABLEDATA** parameter *pded*.
+
+## -returns
+
+Returns a **PDEVOEM** value.

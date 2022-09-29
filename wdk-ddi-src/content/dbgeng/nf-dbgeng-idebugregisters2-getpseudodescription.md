@@ -4,7 +4,7 @@ title: IDebugRegisters2::GetPseudoDescription (dbgeng.h)
 description: The GetPseudoDescription method returns a description of a pseudo-register, including its name and type.
 old-location: debugger\getpseudodescription.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugRegisters2::GetPseudoDescription"]
 ms.keywords: GetPseudoDescription, GetPseudoDescription method [Windows Debugging], GetPseudoDescription method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoDescription method, IDebugRegisters2.GetPseudoDescription, IDebugRegisters2::GetPseudoDescription, IDebugRegisters_7b1f8069-32d0-4fb4-9cee-7fd045bae8d3.xml, dbgeng/IDebugRegisters2::GetPseudoDescription, debugger.getpseudodescription
 req.header: dbgeng.h
@@ -49,34 +49,34 @@ The <b>GetPseudoDescription</b>  method returns a description of a pseudo-regist
 
 ## -parameters
 
-### -param Register 
+### -param Register [in]
 
-[in]
+
 Specifies the index of the pseudo-register whose description is requested.  The index is always between zero and the number of pseudo-registers (returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getnumberpseudoregisters">GetNumberPseudoRegisters</a>) minus one.
 
-### -param NameBuffer 
+### -param NameBuffer [out, optional]
 
-[out, optional]
+
 Receives the name of the pseudo-register.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param NameBufferSize 
+### -param NameBufferSize [in]
 
-[in]
-Specifies the size, in characters, of the buffer that <i>NameBuffer </i>specifies.
 
-### -param NameSize 
+Specifies the size, in characters, of the buffer that <i>NameBuffer </i>specifies. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the name of the pseudo-register.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+### -param NameSize [out, optional]
 
-### -param TypeModule 
 
-[out, optional]
+Receives the size in characters of the name of the pseudo-register. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+
+### -param TypeModule [out, optional]
+
+
 Receives the base address of the module to which the register's type belongs.  If the type of the register is not known, zero is returned.  If <i>TypeModule</i> is <b>NULL</b>, no information is returned.
 
-### -param TypeId 
+### -param TypeId [out, optional]
 
-[out, optional]
+
 Receives the type ID of the type within the module returned in <i>TypeModule</i>.  If the type ID is not known, zero is returned.  If <i>TypeId</i> is <b>NULL</b>, no information is returned.
 
 ## -returns

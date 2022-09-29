@@ -49,9 +49,9 @@ The GetNumberSupportedProcessorTypes method returns the number of processor type
 
 ## -parameters
 
-### -param Number 
+### -param Number [out]
 
-[out]
+
 Receives the number of processor types.
 
 ## -returns

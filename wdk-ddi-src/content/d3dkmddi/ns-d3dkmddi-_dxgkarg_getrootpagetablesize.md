@@ -52,9 +52,9 @@ api_name:
 
 ## -struct-fields
 
-### -field NumberOfPte
+### -field NumberOfPte [in]
 
-[in] A pointer to the number of page table entries which are required to be in the root page table.
+A pointer to the number of page table entries which are required to be in the root page table.
 
 [out] The actual number of page table entries in the page table with the returned size.
 

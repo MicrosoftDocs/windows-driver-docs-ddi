@@ -52,17 +52,17 @@ The D3DDDIARG_SETVIDEOPROCESSRENDERTARGET structure describes the render target 
 
 ## -struct-fields
 
-### -field hVideoProcess
+### -field hVideoProcess [in]
 
-[in] A handle to the Microsoft DirectX Video Acceleration (DirectX VA) video processing device. The user-mode display driver returns this handle in a call to its <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createvideoprocessdevice">CreateVideoProcessDevice</a> function.
+A handle to the Microsoft DirectX Video Acceleration (DirectX VA) video processing device. The user-mode display driver returns this handle in a call to its <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createvideoprocessdevice">CreateVideoProcessDevice</a> function.
 
-### -field hRenderTarget
+### -field hRenderTarget [in]
 
-[in] A handle to the render target surface for video processing.
+A handle to the render target surface for video processing.
 
-### -field SubResourceIndex
+### -field SubResourceIndex [in]
 
-[in] An index into the resource for the render target surface.
+An index into the resource for the render target surface.
 
 ## -see-also
 

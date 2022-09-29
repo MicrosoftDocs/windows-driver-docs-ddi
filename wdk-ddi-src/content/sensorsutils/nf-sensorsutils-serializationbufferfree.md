@@ -49,9 +49,9 @@ Exported memory allocation function for freeing a serialization buffer.
 
 ## -parameters
 
-### -param Buffer
+### -param Buffer [in]
 
-[in] The buffer to free.
+The buffer to free.
 
 ## -remarks
 

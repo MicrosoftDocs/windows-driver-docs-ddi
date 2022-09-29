@@ -44,13 +44,13 @@ api_name:
 
 ## -description
 
-The **CmSetCallbackObjectContext** routine associates specified context information with a specified registry object.
+The **CmSetCallbackObjectContext** routine associates new context information with a specified registry object and callback routine.
 
 ## -parameters
 
-### -param Object
+### -param Object [in, out]
 
-[in, out]
+
 A pointer to the registry key object that the driver is providing context information for. The driver obtains this pointer from the **ResultObject** member of one of the following structures:
 
 - [REG_CREATE_KEY_INFORMATION](./ns-wdm-_reg_create_key_information.md)
@@ -61,17 +61,17 @@ A pointer to the registry key object that the driver is providing context inform
 
 - REG_OPEN_KEY_INFORMATION_V1
 
-### -param Cookie
+### -param Cookie [in]
 
-[in] A pointer to a LARGE_INTEGER value that identifies the callback routine to associate the context with. The [CmRegisterCallbackEx](./nf-wdm-cmregistercallbackex.md) routine provided this value when you registered the callback routine.
+A pointer to a LARGE_INTEGER value that identifies the callback routine to associate the context with. The [CmRegisterCallbackEx](./nf-wdm-cmregistercallbackex.md) routine provided this value when you registered the callback routine.
 
-### -param NewContext
+### -param NewContext [in]
 
-[in] A pointer to driver-defined context information.
+A pointer to driver-defined context information.
 
-### -param OldContext
+### -param OldContext [out, optional]
 
-[out, optional] A pointer to a location that receives a pointer to context information that the driver previously associated with the specified object and cookie. This parameter is optional and can be **NULL**.
+A pointer to a location that receives a pointer to context information that the driver previously associated with the specified object and cookie. This parameter is optional and can be **NULL**.
 
 ## -returns
 
@@ -84,6 +84,8 @@ The **CmSetCallbackObjectContext** routine is available starting with Windows V
 A driver's [RegistryCallback](./nc-wdm-ex_callback_function.md) routine can call **CmSetCallbackObjectContext** for any registry key object after the object has been created or opened (that is, during a post-notification for a create operation, an open operation, or any subsequent notification up to the pre-notification of handle closure).
 
 If a driver calls **CmSetCallbackObjectContext**, the driver's *RegistryCallback* routine will receive a **RegNtCallbackObjectContextCleanup** notification after the key object's handle has been closed or after the driver calls [CmUnRegisterCallback](./nf-wdm-cmunregistercallback.md) to unregister the *RegistryCallback* routine. When the *RegistryCallback* routine receives this notification, the routine should release any resources that it allocated for the object's context.
+
+If **CmSetCallbackObjectContext** is called before **RegNtCallbackObjectContextCleanup** notification, *OldContext* can still be referred by *RegistryCallback* which receives another notification. *OldContext* should not be released before **RegNtCallbackObjectContextCleanup** notification.
 
 For more information about **CmSetCallbackObjectContext** and filtering registry operations, see [Filtering Registry Calls](/windows-hardware/drivers/kernel/filtering-registry-calls).
 

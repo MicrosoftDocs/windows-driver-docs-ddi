@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_PINFRAMEBUFFERFORSAVE2
 tech.root: display
 title: DXGKCB_PINFRAMEBUFFERFORSAVE2
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: The DxgkCbPinFrameBufferForSave2 callback function pins an entire frame buffer at once.
 req.assembly: 
@@ -45,13 +45,13 @@ A kernel-mode display miniport driver calls **DXGKCB_PINFRAMEBUFFERFORSAVE2** to
 
 ## -parameters
 
-### -param hAdapter
+### -param hAdapter [in]
 
-[in] A handle to a display adapter. The driver provides this handle for the main/lead device in the linked display adapter (LDA) chain.
+A handle to a display adapter. The driver provides this handle for the main/lead device in the linked display adapter (LDA) chain.
 
-### -param pPinFrameBufferForSave2
+### -param pPinFrameBufferForSave2 [in/out]
 
-[in/out] Pointer to a [**DXGKARGCB_PINFRAMEBUFFERFORSAVE2**](ns-d3dkmddi-dxgkargcb_open_physical_memory_object.md) structure that contains information about the frame buffer to save.
+Pointer to a [**DXGKARGCB_PINFRAMEBUFFERFORSAVE2**](ns-d3dkmddi-dxgkargcb_open_physical_memory_object.md) structure that contains information about the frame buffer to save.
 
 ## -returns
 
@@ -59,13 +59,15 @@ A kernel-mode display miniport driver calls **DXGKCB_PINFRAMEBUFFERFORSAVE2** to
 
 ## -remarks
 
-The original IOMMU specification included a pair of callback functions to query memory needed to save the frame buffer. The frame buffer save area was created as a section object during initialization, and the driver used these callbacks to obtain an IOMMU mapped region when needed.
+The original [WDDM 2.4 IOMMU implementation](/windows-hardware/drivers/display/iommu-based-gpu-isolation) included a pair of callback functions to query memory needed to save the frame buffer. The frame buffer save area was created as a section object during initialization, and the driver used these callbacks to obtain an IOMMU mapped region when needed.
 
 Drivers that use address descriptor lists (ADLs) to support logical DMA remapping implement **DXGKCB_PINFRAMEBUFFERFORSAVE2** instead of [**DXGKARGCB_PINFRAMEBUFFERFORSAVE**](nc-d3dkmddi-dxgkcb_pinframebufferforsave.md).
 
-*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the appropriate members of [**DXGKARGCB_PINFRAMEBUFFERFORSAVE2**](nc-d3dkmddi-dxgkcb_pinframebufferforsave2.md) and then call **DxgkCbPinFrameBufferForSave2** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
-
 The memory pinned using **DXGKCB_PINFRAMEBUFFERFORSAVE2** can be unpinned using the original [**DXGKCB_UNPINFRAMEBUFFERFORSAVE**](nc-d3dkmddi-dxgkcb_unpinframebufferforsave.md) callback.
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
+
+*DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the appropriate members of [**DXGKARGCB_PINFRAMEBUFFERFORSAVE2**](nc-d3dkmddi-dxgkcb_pinframebufferforsave2.md) and then call **DxgkCbPinFrameBufferForSave2** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 
 ## -see-also
 

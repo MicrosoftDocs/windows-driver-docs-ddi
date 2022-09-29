@@ -3,7 +3,7 @@ UID: NF:netadapter.NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED
 title: NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED function (netadapter.h)
 description: The NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED function initializes a NET_ADAPTER_RX_CAPABILITIES structure for a net adapter that would like to specify operating system-managed receive buffer allocation and attachment, but not the use of DMA memory mapping.
 tech.root: netvista
-ms.date: 02/15/2018
+ms.date: 03/30/2022
 keywords: ["NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED function"]
 ms.keywords: NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED
 req.header: netadapter.h
@@ -46,15 +46,15 @@ The **NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED** function initializes a [
 
 ## -parameters
 
-### -param RxCapabilities
+### -param RxCapabilities [_Out_]
 
 A pointer to a driver-allocated [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md) structure.
 
-### -param MaximumFragmentBufferSize
+### -param MaximumFrameSize [_In_]
 
-The maximum fragment buffer size, in bytes, that the adapter can receive.
+The maximum frame size, in bytes, that the adapter can receive.
 
-### -param MaximumNumberOfQueues
+### -param MaximumNumberOfQueues [_In_]
 
 The maximum number of receive queues that the adapter supports.
 

@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetTypeName (dbgeng.h)
 description: The GetTypeName method returns the name of the type symbol specified by its type ID and module. This method belongs to the IDebugSymbols3 interface.
 old-location: debugger\gettypename.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetTypeName"]
 ms.keywords: GetTypeName, GetTypeName method [Windows Debugging], GetTypeName method [Windows Debugging],IDebugSymbols interface, GetTypeName method [Windows Debugging],IDebugSymbols2 interface, GetTypeName method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetTypeName method, IDebugSymbols2 interface [Windows Debugging],GetTypeName method, IDebugSymbols2::GetTypeName, IDebugSymbols3 interface [Windows Debugging],GetTypeName method, IDebugSymbols3.GetTypeName, IDebugSymbols3::GetTypeName, IDebugSymbols::GetTypeName, IDebugSymbols_01f0496a-ce0e-442b-88c9-2a92c15a1237.xml, dbgeng/IDebugSymbols2::GetTypeName, dbgeng/IDebugSymbols3::GetTypeName, dbgeng/IDebugSymbols::GetTypeName, debugger.gettypename
 req.header: dbgeng.h
@@ -49,30 +49,30 @@ The <b>GetTypeName</b>  method returns the name of the type symbol specified by 
 
 ## -parameters
 
-### -param Module 
+### -param Module [in]
 
-[in]
+
 Specifies the base address of the module to which the type belongs.  For more information, see <a href="/windows-hardware/drivers/debugger/modules">Modules</a>.
 
-### -param TypeId 
+### -param TypeId [in]
 
-[in]
+
 Specifies the type ID of the type.
 
-### -param NameBuffer 
+### -param NameBuffer [out, optional]
 
-[out, optional]
+
 Receives the name of the type.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param NameBufferSize 
+### -param NameBufferSize [in]
 
-[in]
-Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
-### -param NameSize 
+Specifies the size in characters of the buffer <i>NameBuffer</i>. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the type's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+### -param NameSize [out, optional]
+
+
+Receives the size in characters of the type's name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

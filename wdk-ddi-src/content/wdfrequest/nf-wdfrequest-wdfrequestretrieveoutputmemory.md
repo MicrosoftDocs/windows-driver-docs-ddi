@@ -54,14 +54,14 @@ The <b>WdfRequestRetrieveOutputMemory</b> method retrieves a handle to a framewo
 
 ## -parameters
 
-### -param Request 
+### -param Request [in]
 
-[in]
+
 A handle to a framework request object.
 
-### -param Memory 
+### -param Memory [out]
 
-[out]
+
 A pointer to a location that receives a handle to a framework memory object.
 
 ## -returns

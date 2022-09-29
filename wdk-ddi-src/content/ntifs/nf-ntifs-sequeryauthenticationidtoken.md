@@ -49,14 +49,14 @@ The <b>SeQueryAuthenticationIdToken</b> routine retrieves the authentication ID 
 
 ## -parameters
 
-### -param Token 
+### -param Token [in]
 
-[in]
+
 Pointer to an access token.
 
-### -param AuthenticationId 
+### -param AuthenticationId [out]
 
-[out]
+
 Authentication ID of the access token. (An Authentication ID is the locally unique identifier, or <a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>, that is assigned to the logon session that the access token represents. There can be many tokens representing a single logon session.)
 
 ## -returns

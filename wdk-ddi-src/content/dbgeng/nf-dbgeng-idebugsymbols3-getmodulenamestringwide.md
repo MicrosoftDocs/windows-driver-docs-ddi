@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetModuleNameStringWide (dbgeng.h)
 description: The GetModuleNameStringWide method returns the name of the specified module.
 old-location: debugger\getmodulenamestringwide.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugSymbols3::GetModuleNameStringWide"]
 ms.keywords: GetModuleNameStringWide, GetModuleNameStringWide method [Windows Debugging], GetModuleNameStringWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleNameStringWide method, IDebugSymbols3.GetModuleNameStringWide, IDebugSymbols3::GetModuleNameStringWide, dbgeng/IDebugSymbols3::GetModuleNameStringWide, debugger.getmodulenamestringwide
 req.header: dbgeng.h
@@ -49,9 +49,9 @@ The <b>GetModuleNameStringWide</b>  method returns the name of the specified mod
 
 ## -parameters
 
-### -param Which 
+### -param Which [in]
 
-[in]
+
 Specifies which of the module's names to return, possible values are:
 
 <table>
@@ -111,30 +111,30 @@ The mapped image name.  In most cases, this is <b>NULL</b>. If the debugger is m
 </tr>
 </table>
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the module.  If it is set to DEBUG_ANY_ID, the <i>Base</i> parameter is used to specify the location of the module instead.
 
-### -param Base 
+### -param Base [in]
 
-[in]
+
 If <i>Index</i> is DEBUG_ANY_ID, specifies the location in the target's memory address space of the base of the module.  Otherwise it is ignored.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the name of the module.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
-Specifies the size in characters of the buffer <i>Buffer</i>.
 
-### -param NameSize 
+Specifies the size in characters of the buffer <i>Buffer</i>. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the module's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
+### -param NameSize [out, optional]
+
+
+Receives the size in characters of the module's name. This size includes the space for the '\0' terminating character. If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

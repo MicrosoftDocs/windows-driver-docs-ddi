@@ -49,24 +49,24 @@ The <b>WritePhysical</b> function writes to physical memory.
 
 ## -parameters
 
-### -param address 
+### -param address [in]
 
-[in]
+
 Specifies the physical address to write.
 
-### -param buf 
+### -param buf [in]
 
-[in]
+
 Specifies the address of an array of bytes to hold the data that is written.
 
-### -param size 
+### -param size [in]
 
-[in]
+
 Specifies the number of bytes to write.
 
-### -param sizew 
+### -param sizew [out, optional]
 
-[out, optional]
+
 Receives the number of bytes actually written.
 
 ## -remarks

@@ -46,9 +46,9 @@ The **DXGKARGCB_UNPINFRAMEBUFFERFORSAVE** structure contains the arguments used 
 
 ## -struct-fields
 
-### -field PhysicalAdapterIndex
+### -field PhysicalAdapterIndex [in]
 
-[in] The index of the physical adapter.
+The index of the physical adapter.
 
 ## -remarks
 

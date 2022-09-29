@@ -49,14 +49,14 @@ The **ExAcquireResourceSharedLite** routine acquires the given resource for shar
 
 ## -parameters
 
-### -param Resource 
+### -param Resource [in, out]
 
-[in, out]
+
 A pointer to the resource to acquire.
 
-### -param Wait 
+### -param Wait [in]
 
-[in]
+
 Specifies the routine's behavior whenever the resource cannot be acquired immediately. If **TRUE**, the caller is put into a wait state until the resource can be acquired. If **FALSE**, the routine immediately returns, regardless of whether the resource can be acquired.
 
 ## -returns

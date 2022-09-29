@@ -2,13 +2,12 @@
 UID: NS:gnssdriver.__unnamed_struct_9
 title: GNSS_FIXSESSION_PARAM (gnssdriver.h)
 description: This structure defines the parameters used by the GNSS adapter to start a fix session.
-old-location: gnss\gnss_fixsession_param.htm
 tech.root: gnss
-ms.date: 02/15/2018
+ms.date: 06/16/2022
 keywords: ["GNSS_FIXSESSION_PARAM structure"]
 ms.keywords: "*PGNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM structure [Sensor Devices], PGNSS_FIXSESSION_PARAM, PGNSS_FIXSESSION_PARAM structure pointer [Sensor Devices], gnss.gnss_fixsession_param, gnssdriver/GNSS_FIXSESSION_PARAM, gnssdriver/PGNSS_FIXSESSION_PARAM, sensors.gnss_fixsesson_param"
 req.header: gnssdriver.h
-req.include-header: 
+req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -42,9 +41,6 @@ api_name:
  - PGNSS_FIXSESSION_PARAM
  - GNSS_FIXSESSION_PARAM
 ---
-
-# GNSS_FIXSESSION_PARAM structure
-
 
 ## -description
 
@@ -86,6 +82,8 @@ The platform expects fixes with a 95% confidence. The GNSS driver should honor t
 
 ### -field Reserved
 
+Padding buffer reserved for future use.
+
 ### -field FixLevelOfDetails
 
 Indicates the level of detail needed when the GNSS driver returns the fix information.
@@ -96,39 +94,28 @@ This flag is OR-ed with the bit-values defined in GNSS_FIXDETAIL_* mask.
 
 ### -field SingleShotParam
 
-The <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_singleshot_param">GNSS_SINGLESHOT_PARAM</a> structure defines the parameters for a single-shot fix session.
+The [GNSS_SINGLESHOT_PARAM](./ns-gnssdriver-gnss_singleshot_param.md) structure defines the parameters for a single-shot fix session.
 
 ### -field DistanceParam
 
-The <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_distancetracking_param">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
+The [GNSS_DISTANCETRACKING_PARAM](./ns-gnssdriver-gnss_distancetracking_param.md) structure defines the parameters for a distance-based tracking fix session.
 
 ### -field ContinuousParam
 
-The <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_continuoustracking_param">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
+The [GNSS_CONTINUOUSTRACKING_PARAM](./ns-gnssdriver-gnss_continuoustracking_param.md) structure defines the parameters for a continuous tracking fix session.
 
 ### -field LkgFixParam
 
-The <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_lkgfix_param">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
+The [GNSS_LKGFIX_PARAM](./ns-gnssdriver-gnss_lkgfix_param.md)  structure is not used currently by the system.
 
 ### -field UnusedParam
 
+Padding buffer reserved for future use.
+
 ### -field Unused
 
- 
-
-
-
-
-#### - Reserved[9]
-
-Reserved for future use.
-
-
-#### - Unused[512]
-
-Padding buffer.
+Padding buffer reserved for future use.
 
 ## -remarks
 
 The fix session parameters are different for different types of sessions. This structure contains a common set of parameters applicable for all fix sessions, followed by an overloaded structure (union) for each fix session type. The GNSS driver must use the appropriate structure from the union depending on the session type.
-

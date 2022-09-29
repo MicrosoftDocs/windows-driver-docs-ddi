@@ -49,9 +49,9 @@ The <b>RtlNumberGenericTableElementsAvl</b> routine returns the number of elemen
 
 ## -parameters
 
-### -param Table 
+### -param Table [in]
 
-[in]
+
 Pointer to the generic table (<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>). The table must have been initialized by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a>.
 
 ## -returns

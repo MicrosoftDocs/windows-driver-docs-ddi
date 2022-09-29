@@ -49,9 +49,9 @@ The <b>RtlSplay</b> routine rebalances, or "splays," a splay link tree around th
 
 ## -parameters
 
-### -param Links 
+### -param Links [in, out]
 
-[in, out]
+
 A pointer to the node that is to become the root node of the rebalanced splay link tree. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
 ## -returns

@@ -49,14 +49,14 @@ The <i>CLIENT_ReadGpioPins</i> event callback function reads a set of general-pu
 
 ## -parameters
 
-### -param Context 
+### -param Context [in]
 
-[in]
+
 A pointer to the GPIO controller driver's <a href="/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
-### -param ReadParameters 
+### -param ReadParameters [in, out]
 
-[in, out]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_read_pins_parameters">GPIO_READ_PINS_PARAMETERS</a> structure that, on entry, describes the GPIO pins to read, and, on exit, contains the data that was read from the GPIO pins.
 
 ## -returns

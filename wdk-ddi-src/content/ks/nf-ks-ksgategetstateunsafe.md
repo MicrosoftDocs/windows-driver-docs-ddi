@@ -49,9 +49,9 @@ The<b> KsGateGetStateUnsafe</b> function returns the state of the given gate (op
 
 ## -parameters
 
-### -param Gate 
+### -param Gate [in]
 
-[in]
+
 A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure representing the gate for which to return the state.
 
 ## -returns

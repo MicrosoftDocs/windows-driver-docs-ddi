@@ -50,14 +50,14 @@ api_name:
 
 ## -parameters
 
-### -param Instance1 
+### -param Instance1 [in]
 
-[in]
+
 Pointer to the first instance.
 
-### -param Instance2 
+### -param Instance2 [in]
 
-[in]
+
 Pointer to the second instance.
 
 ## -returns

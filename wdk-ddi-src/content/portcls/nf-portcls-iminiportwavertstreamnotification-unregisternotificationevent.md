@@ -49,9 +49,9 @@ The <code>UnregisterNotificationEvent</code> method unregisters an event from DM
 
 ## -parameters
 
-### -param NotificationEvent 
+### -param NotificationEvent [in]
 
-[in]
+
 A pointer to a previously registered kernel event (PKEVENT) to be unregistered from notification as DMA progresses.
 
 ## -returns

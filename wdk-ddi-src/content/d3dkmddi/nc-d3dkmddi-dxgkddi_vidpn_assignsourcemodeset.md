@@ -51,17 +51,17 @@ The <b>pfnAssignSourceModeSet</b> function assigns a source mode set to a partic
 
 ## -parameters
 
-### -param hVidPn
+### -param hVidPn [in]
 
-[in] A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a> or <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a>.
+A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a> or <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a>.
 
-### -param VidPnSourceId
+### -param VidPnSourceId [in]
 
-[in] An integer that identifies one of the video present sources associated with the VidPN object.
+An integer that identifies one of the video present sources associated with the VidPN object.
 
-### -param hVidPnSourceModeSet
+### -param hVidPnSourceModeSet [in]
 
-[in] A handle to the source mode set object that is to be assigned to the source identified by <i>VidPnSourceId</i>. The display miniport driver previously obtained this handle by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_createnewsourcemodeset">pfnCreateNewSourceModeSet</a>.
+A handle to the source mode set object that is to be assigned to the source identified by <i>VidPnSourceId</i>. The display miniport driver previously obtained this handle by calling <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_createnewsourcemodeset">pfnCreateNewSourceModeSet</a>.
 
 ## -returns
 

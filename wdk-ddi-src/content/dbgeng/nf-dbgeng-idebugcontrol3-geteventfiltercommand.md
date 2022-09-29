@@ -4,7 +4,7 @@ title: IDebugControl3::GetEventFilterCommand (dbgeng.h)
 description: The GetEventFilterCommand method returns the debugger command that the engine will execute when a specified event occurs.
 old-location: debugger\geteventfiltercommand.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 02/06/2022
 keywords: ["IDebugControl3::GetEventFilterCommand"]
 ms.keywords: GetEventFilterCommand, GetEventFilterCommand method [Windows Debugging], GetEventFilterCommand method [Windows Debugging],IDebugControl interface, GetEventFilterCommand method [Windows Debugging],IDebugControl2 interface, GetEventFilterCommand method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetEventFilterCommand method, IDebugControl2 interface [Windows Debugging],GetEventFilterCommand method, IDebugControl2::GetEventFilterCommand, IDebugControl3 interface [Windows Debugging],GetEventFilterCommand method, IDebugControl3.GetEventFilterCommand, IDebugControl3::GetEventFilterCommand, IDebugControl::GetEventFilterCommand, IDebugControl_a0acf45f-8741-48a0-9eb0-f8a9aa55c476.xml, dbgeng/IDebugControl2::GetEventFilterCommand, dbgeng/IDebugControl3::GetEventFilterCommand, dbgeng/IDebugControl::GetEventFilterCommand, debugger.geteventfiltercommand
 req.header: dbgeng.h
@@ -49,25 +49,25 @@ The <b>GetEventFilterCommand</b>  method returns the debugger command that the e
 
 ## -parameters
 
-### -param Index 
+### -param Index [in]
 
-[in]
+
 Specifies the index of the event filter.  <i>Index</i> can take any value between zero and one less than the total number of event filters returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getnumbereventfilters">GetNumberEventFilters</a> (inclusive).  For more information about the index of the filters, see Index and Exception Code.
 
-### -param Buffer 
+### -param Buffer [out, optional]
 
-[out, optional]
+
 Receives the debugger command that the engine will execute when the event occurs.
 
-### -param BufferSize 
+### -param BufferSize [in]
 
-[in]
-Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
-### -param CommandSize 
+Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies. This size includes the space for the '\0' terminating character.
 
-[out, optional]
-Receives the size in characters of the command.  If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
+### -param CommandSize [out, optional]
+
+
+Receives the size in characters of the command. This size includes the space for the '\0' terminating character. If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

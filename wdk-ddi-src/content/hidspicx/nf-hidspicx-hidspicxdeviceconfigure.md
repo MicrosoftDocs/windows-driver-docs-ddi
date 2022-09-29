@@ -2,7 +2,7 @@
 UID: NF:hidspicx.HidSpiCxDeviceConfigure
 tech.root: hid
 title: HidSpiCxDeviceConfigure
-ms.date: 06/14/2021
+ms.date: 12/02/2021
 targetos: Windows
 description: "Learn more about: HidSpiCxDeviceConfigure"
 prerelease: false
@@ -44,13 +44,13 @@ dev_langs:
 
 After calling [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md), and still in its [**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback, the client driver calls this function with a pointer to a [**HIDSPICX_DEVICE_CONFIG**](ns-hidspicx-hidspicx_device_config.md) structure, specifying interfaces the class extension will use to communicate with the device. The class extension initializes its internal state, returning whether or not this is successful.
 
-## -parametersDone
+## -parameters
 
-### -param Device
+### -param Device [in]
 
 A handle to a framework device object the client driver obtained from a previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
-### -param DeviceConfiguration
+### -param DeviceConfiguration [in]
 
 Pointer to an initialized [**HIDSPICX_DEVICE_CONFIG**](ns-hidspicx-hidspicx_device_config.md) structure, specifying the details of the callbacks and queues to be used for communication between the class extension and client driver.
 
@@ -64,14 +64,11 @@ The class extension initializes the internal state, returning whether or not thi
 
 The client driver may create a default queue before or after making this callback, in order to handle IOCTLs not handled by the class extension.
 
-Client drivers should not attempt to acquire power policy ownership to configure power policy settings. [HidClass](../hidclass/index.md) and [HidSpiCx](index.md) are responsible for managing the power policy of the device.
+Client drivers should not attempt to acquire power policy ownership to configure power policy settings. [**HidClass**](../hidclass/index.md) and [**HidSpiCx**](index.md) are responsible for managing the power policy of the device.
 
 ## -see-also
 
-[**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
-
-[**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
-
-[**HIDSPICX_DEVICE_CONFIG**](ns-hidspicx-hidspicx_device_config.md)
-
-[HIDSPICX_REPORT](ns-hidspicx-hidspicx_report.md)
+- [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
+- [**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
+- [**HIDSPICX_DEVICE_CONFIG**](ns-hidspicx-hidspicx_device_config.md)
+- [**HIDSPICX_REPORT**](ns-hidspicx-hidspicx_report.md)

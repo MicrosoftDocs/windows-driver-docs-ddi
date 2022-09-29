@@ -48,17 +48,17 @@ The **KeSetEvent** routine sets an event object to a signaled state if the event
 
 ## -parameters
 
-### -param Event
+### -param Event [in, out]
 
-[in, out] A pointer to an initialized event object for which the caller provides the storage.
+A pointer to an initialized event object for which the caller provides the storage.
 
-### -param Increment
+### -param Increment [in]
 
-[in] Specifies the priority increment to be applied if setting the event causes a wait to be satisfied.
+Specifies the priority increment to be applied if setting the event causes a wait to be satisfied.
 
-### -param Wait
+### -param Wait [in]
 
-[in] Specifies whether the call to **KeSetEvent** is to be followed immediately by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KeSetEvent** call must be followed by a call to [KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md), **KeWaitForMutexObject**, or [KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md). For more information, see the following Remarks section.
+Specifies whether the call to **KeSetEvent** is to be followed immediately by a call to one of the **KeWait*Xxx*** routines. If **TRUE**, the **KeSetEvent** call must be followed by a call to [KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md), **KeWaitForMutexObject**, or [KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md). For more information, see the following Remarks section.
 
 ## -returns
 

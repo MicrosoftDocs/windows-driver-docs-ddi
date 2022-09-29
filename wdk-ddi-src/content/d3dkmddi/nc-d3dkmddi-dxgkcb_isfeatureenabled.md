@@ -5,8 +5,6 @@ description: Queries for the enabled state of the feature.
 tech.root: display
 ms.date: 10/13/2021
 keywords: ["DXGKCB_ISFEATUREENABLED callback function"]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
@@ -51,9 +49,9 @@ A kernel-mode display miniport driver calls **DXGKCB_ISFEATUREENABLED** to query
 
 ## -parameters
 
-### -param pArgs
+### -param unnamedParam1 [in/out]
 
-[in/out] Pointer to a [**DXGKARGCB_ISFEATUREENABLED**](ns-d3dkmddi-_dxgkargcb_isfeatureenabled.md) structure that contains information about the feature being queried.
+Pointer to a [**DXGKARGCB_ISFEATUREENABLED**](ns-d3dkmddi-_dxgkargcb_isfeatureenabled.md) structure that contains information about the feature being queried.
 
 ## -returns
 

@@ -54,9 +54,9 @@ The <b>WdfIoTargetGetState</b> method returns state information for a local or r
 
 ## -parameters
 
-### -param IoTarget 
+### -param IoTarget [in]
 
-[in]
+
 A handle to a local or remote I/O target object that was obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetiotarget">WdfDeviceGetIoTarget</a> or <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a> or from a method that a specialized I/O target supplies.
 
 ## -returns

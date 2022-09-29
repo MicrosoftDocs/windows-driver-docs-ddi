@@ -49,9 +49,9 @@ Sets the current cursor position in the last audio data stream that was written 
 
 ## -parameters
 
-### -param _ulWritePosition 
+### -param _ulWritePosition [in]
 
-[in]
+
 The current cursor position in the last audio data stream.
 
 ## -returns

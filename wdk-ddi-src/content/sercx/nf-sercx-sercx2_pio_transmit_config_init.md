@@ -49,24 +49,24 @@ The <b>SERCX2_PIO_TRANSMIT_CONFIG_INIT</b> function initializes a <a href="/wind
 
 ## -parameters
 
-### -param PioTransmitConfig 
+### -param PioTransmitConfig [out]
 
-[out]
+
 A pointer to the <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_pio_transmit_config">SERCX2_PIO_TRANSMIT_CONFIG</a> structure that is to be initialized.
 
-### -param EvtSerCx2PioTransmitWriteBuffer 
+### -param EvtSerCx2PioTransmitWriteBuffer [in]
 
-[in]
+
 The value to load into the <b>EvtSerCx2PioTransmitWriteBuffer</b> member of the <b>SERCX2_PIO_TRANSMIT_CONFIG</b> structure. For more information, see the description of this member in <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_pio_transmit_config">SERCX2_PIO_TRANSMIT_CONFIG</a>.
 
-### -param EvtSerCx2PioTransmitEnableReadyNotification 
+### -param EvtSerCx2PioTransmitEnableReadyNotification [in]
 
-[in]
+
 The value to load into the <b>EvtSerCx2PioTransmitEnableReadyNotification</b> member of the <b>SERCX2_PIO_TRANSMIT_CONFIG</b> structure. For more information, see the description of this member in <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_pio_transmit_config">SERCX2_PIO_TRANSMIT_CONFIG</a>.
 
-### -param EvtSerCx2PioTransmitCancelReadyNotification 
+### -param EvtSerCx2PioTransmitCancelReadyNotification [in]
 
-[in]
+
 The value to load into the <b>EvtSerCx2PioTransmitCancelReadyNotification</b> member of the <b>SERCX2_PIO_TRANSMIT_CONFIG</b> structure. For more information, see the description of this member in <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_pio_transmit_config">SERCX2_PIO_TRANSMIT_CONFIG</a>.
 
 ## -remarks

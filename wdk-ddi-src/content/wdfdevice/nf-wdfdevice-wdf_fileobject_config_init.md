@@ -51,24 +51,24 @@ The <b>WDF_FILEOBJECT_CONFIG_INIT</b> function initializes a driver's <a href="/
 
 ## -parameters
 
-### -param FileEventCallbacks 
+### -param FileEventCallbacks [out]
 
-[out]
+
 A pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_fileobject_config">WDF_FILEOBJECT_CONFIG</a> structure.
 
-### -param EvtDeviceFileCreate 
+### -param EvtDeviceFileCreate [in, optional]
 
-[in, optional]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_file_create">EvtDeviceFileCreate</a> event callback function.
 
-### -param EvtFileClose 
+### -param EvtFileClose [in, optional]
 
-[in, optional]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_close">EvtFileClose</a> event callback function.
 
-### -param EvtFileCleanup 
+### -param EvtFileCleanup [in, optional]
 
-[in, optional]
+
 A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_cleanup">EvtFileCleanup</a> event callback function.
 
 ## -remarks

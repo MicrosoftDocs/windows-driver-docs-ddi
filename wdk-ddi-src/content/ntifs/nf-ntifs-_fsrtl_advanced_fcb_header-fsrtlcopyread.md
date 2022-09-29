@@ -52,44 +52,44 @@ The <b>FsRtlCopyRead</b> routine copies data from a cached file to a user buffer
 
 ## -parameters
 
-### -param FileObject 
+### -param FileObject [in]
 
-[in]
+
 Pointer to a file object for the cached file from which the data is to be read.
 
-### -param FileOffset 
+### -param FileOffset [in]
 
-[in]
+
 Starting byte offset within the cached file.
 
-### -param Length 
+### -param Length [in]
 
-[in]
+
 Length in bytes of the data to be read.
 
-### -param Wait 
+### -param Wait [in]
 
-[in]
+
 Set to <b>TRUE</b> if the caller can be put into a wait state until all the data has been copied, <b>FALSE</b> otherwise.
 
-### -param LockKey 
+### -param LockKey [in]
 
-[in]
+
 A value that is associated with the byte range to lock. If the range to lock overlaps another range that is already locked with a nonexclusive lock, or if the range to read is a subrange of another range that is already locked nonexclusively, the value in this parameter must be the key for that nonexclusive lock The lock must be held by the parent process of the calling thread. Otherwise, this parameter has no effect.
 
-### -param Buffer 
+### -param Buffer [out]
 
-[out]
+
 Pointer to a buffer into which the data is to be copied.
 
-### -param IoStatus 
+### -param IoStatus [out]
 
-[out]
+
 Pointer to a caller-allocated structure that receives the final completion status and information about the operation. If the data is copied successfully, <i>IoStatus.Status</i> contains STATUS_SUCCESS. If not all of the data is copied successfully, <i>IoStatus.Information</i> contains the actual number of bytes that were copied.
 
-### -param DeviceObject 
+### -param DeviceObject [in]
 
-[in]
+
 The device object for the device that holds the file data.
 
 ## -returns

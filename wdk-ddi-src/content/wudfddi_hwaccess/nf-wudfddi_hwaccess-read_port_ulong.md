@@ -51,14 +51,14 @@ The <b>READ_PORT_ULONG</b>  function reads a ULONG value from the specified port
 
 ## -parameters
 
-### -param pDevice 
+### -param pDevice [in]
 
-[in]
+
 Specifies a pointer to the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a> interface for the device object of the device to access.
 
-### -param Port 
+### -param Port [in]
 
-[in]
+
 Specifies the port address, which must be a mapped memory range in I/O space.
 
 ## -returns

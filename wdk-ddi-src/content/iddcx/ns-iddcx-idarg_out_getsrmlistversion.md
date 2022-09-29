@@ -44,9 +44,9 @@ dev_langs:
 
 ## -struct-fields
 
-### -field SrmListVersionBufferOutputCount
+### -field SrmListVersionBufferOutputCount [out]
 
-[out] If **[IDARG_IN_GETSRMLISTVERSION](ns-iddcx-idarg_in_getsrmlistversion.md).pSrmListVersion** is NULL, the OS will set **SrmListVersionBufferOutputCount** to the size, in bytes, of the buffer needed to read the SRM list version description. If **IDARG_IN_GETSRMLISTVERSION.pSrmListVersion** is non-NULL, then **SrmListVersionBufferOutputCount** is the number of bytes returned in **IDARG_IN_GETSRMLISTVERSION.pSrmListVersion** buffer. If there was no SRM list set, the OS will set **SrmListVersionBufferOutputCount** to zero.
+If **[IDARG_IN_GETSRMLISTVERSION](ns-iddcx-idarg_in_getsrmlistversion.md).pSrmListVersion** is NULL, the OS will set **SrmListVersionBufferOutputCount** to the size, in bytes, of the buffer needed to read the SRM list version description. If **IDARG_IN_GETSRMLISTVERSION.pSrmListVersion** is non-NULL, then **SrmListVersionBufferOutputCount** is the number of bytes returned in **IDARG_IN_GETSRMLISTVERSION.pSrmListVersion** buffer. If there was no SRM list set, the OS will set **SrmListVersionBufferOutputCount** to zero.
 
 ## -remarks
 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ntddstor._STORAGE_DIAGNOSTIC_DATA
-title: _STORAGE_DIAGNOSTIC_DATA (ntddstor.h)
+title: STORAGE_DIAGNOSTIC_DATA (ntddstor.h)
 description: Describes diagnostic data about the storage driver stack. The STORAGE_DIAGNOSTIC_DATA structure is provided in the output buffer of an IOCTL_STORAGE_DIAGNOSTIC request.
 old-location: storage\storage_diagnostic_data.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 12/16/2021
 keywords: ["STORAGE_DIAGNOSTIC_DATA structure"]
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_DATA, PSTORAGE_DIAGNOSTIC_DATA, PSTORAGE_DIAGNOSTIC_DATA structure pointer [Storage Devices], STORAGE_DIAGNOSTIC_DATA, STORAGE_DIAGNOSTIC_DATA structure [Storage Devices], _STORAGE_DIAGNOSTIC_DATA, ntddstor/PSTORAGE_DIAGNOSTIC_DATA, ntddstor/STORAGE_DIAGNOSTIC_DATA, storage.storage_diagnostic_data"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 10, version 1709.
+req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,22 +46,21 @@ api_name:
  - STORAGE_DIAGNOSTIC_DATA
 ---
 
-# _STORAGE_DIAGNOSTIC_DATA structure
-
+# STORAGE_DIAGNOSTIC_DATA structure
 
 ## -description
 
-Describes  diagnostic data about the storage driver stack. The <b>STORAGE_DIAGNOSTIC_DATA</b> structure is provided in the output buffer of an  <a href="https://msdn.microsoft.com/5F71CCBE-F93F-4DCD-A673-1D6DE49C7400">IOCTL_STORAGE_DIAGNOSTIC</a> request.
+**STORAGE_DIAGNOSTIC_DATA** describes diagnostic data about the storage driver stack. It is provided in the output buffer of an [**IOCTL_STORAGE_DIAGNOSTIC**](ni-ntddstor-ioctl_storage_diagnostic.md) request.
 
 ## -struct-fields
 
 ### -field Version
 
-Version of this structure.
+Version of this structure. Set to ```sizeof(STORAGE_DIAGNOSTIC_DATA)```.
 
 ### -field Size
 
-Specifies the whole size of the structure and the associated data buffer.
+Specifies the whole size of the structure and the associated data buffer, in bytes.
 
 ### -field ProviderId
 
@@ -69,10 +68,11 @@ Specifies the GUID of a diagnostic data provider.
 
 ### -field BufferSize
 
-If the request failed because of buffer too small, this field should be filled with the required buffer
-    size for a <i>DiagnosticDataBuffer</i> needed by provider;
-     if the request is successful, it should be filled with returned buffer size of <i>DiagnosticDataBuffer</i>;
-     it should be cleared to zero for other cases.
+The driver should set **BufferSize** as follows:
+
+* If the request is successful, set with the returned buffer size of **DiagnosticDataBuffer**.
+* If the request failed because of buffer too small, set with the required buffer size for a **DiagnosticDataBuffer** needed by the provider.
+* If the request failed for any other reason, clear to zero.
 
 ### -field Reserved
 
@@ -84,9 +84,6 @@ Specifies the Diagnostic data buffer.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/5F71CCBE-F93F-4DCD-A673-1D6DE49C7400">IOCTL_STORAGE_DIAGNOSTIC</a>
+[**IOCTL_STORAGE_DIAGNOSTIC**](ni-ntddstor-ioctl_storage_diagnostic.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_diagnostic_request">STORAGE_DIAGNOSTIC_REQUEST</a>
-
+[**STORAGE_DIAGNOSTIC_REQUEST**](ns-ntddstor-_storage_diagnostic_request.md)

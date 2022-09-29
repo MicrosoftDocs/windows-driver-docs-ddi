@@ -50,19 +50,19 @@ The <b>RtlAbsoluteToSelfRelativeSD</b> routine creates a new security descriptor
 
 ## -parameters
 
-### -param AbsoluteSecurityDescriptor 
+### -param AbsoluteSecurityDescriptor [in]
 
-[in]
+
 Pointer to a caller-allocated buffer that contains a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure in absolute format. <b>RtlAbsoluteToSelfRelativeSD</b> creates a version of this security descriptor in self-relative format without modifying the original.
 
-### -param SelfRelativeSecurityDescriptor 
+### -param SelfRelativeSecurityDescriptor [out]
 
-[out]
+
 Pointer to a caller-allocated buffer that receives a security descriptor in self-relative format.
 
-### -param BufferLength 
+### -param BufferLength [in, out]
 
-[in, out]
+
 Pointer to a caller-allocated variable that specifies the size, in bytes, of the buffer pointed to by the <i>SelfRelativeSecurityDescriptor</i> parameter. If the buffer is not large enough to hold the security descriptor, <b>RtlAbsoluteToSelfRelativeSD</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the minimum required size.
 
 ## -returns

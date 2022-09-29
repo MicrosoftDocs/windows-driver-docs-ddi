@@ -49,9 +49,9 @@ This routine tries to start the server silo monitor.
 
 ## -parameters
 
-### -param Monitor 
+### -param Monitor [in]
 
-[in]
+
 A pointer to the silo monitor.
 
 ## -returns

@@ -4,7 +4,7 @@ title: _T1_DATA (smclib.h)
 description: The T1_DATA structure is used by the smart card driver library to process T1 I/O.
 old-location: smartcrd\t1_data.htm
 tech.root: smartcrd
-ms.date: 02/22/2018
+ms.date: 08/11/2022
 keywords: ["T1_DATA structure"]
 ms.keywords: "*PT1_DATA, T1_DATA, T1_DATA structure [Smart Card Reader Devices], T1_DATA,*PT1_DATA, T1_DATA,*PT1_DATA structure [Smart Card Reader Devices], _T1_DATA, scstruct_d4b3fe1d-28d8-45dc-86f1-2cb75a5bec85.xml, smartcrd.t1_data, smclib/T1_DATA"
 req.header: smclib.h
@@ -48,7 +48,6 @@ api_name:
 
 # _T1_DATA structure
 
-
 ## -description
 
 The T1_DATA structure is used by the smart card driver library to process T1 I/O.
@@ -57,7 +56,11 @@ The T1_DATA structure is used by the smart card driver library to process T1 I/O
 
 ### -field IFSC
 
+Contains the field size that can be transmitted.
+
 ### -field IFSD
+
+Contains the field size that can be received.
 
 ### -field BytesReceived
 
@@ -83,6 +86,8 @@ Contains the node address byte to send to the smart card.
 
 ### -field OriginalState
 
+Contains teh state before an error occurred.
+
 ### -field Resend
 
 Contains the resend counter.
@@ -93,11 +98,11 @@ Contains the resynch counter.
 
 ### -field RSN
 
-Contains the number of sent I-Blocks, as defined in the <i>ISO 7816-3 Specification</i>.
+Contains the number of sent I-Blocks, as defined in the *ISO 7816-3 Specification*.
 
 ### -field SSN
 
-Contains the send sequence number (SSN). This member has a value of 0 or 1 as defined in the <i>ISO 7816-3 Specification</i>.
+Contains the send sequence number (SSN). This member has a value of 0 or 1 as defined in the *ISO 7816-3 Specification*.
 
 ### -field State
 
@@ -105,7 +110,7 @@ Contains the current state of the protocol.
 
 ### -field Wtx
 
-Contains the waiting time extension for a T=1 transmission. If nonzero, this is a multiplier for the block waiting time. Usually, the driver will time out if the block waiting time expires. Several smart card operations require more time. The smart card answers with a waiting time extension. Therefore, the block waiting time must be multiplied with the <b>Wtx</b> value. If this value is nonzero, it applies as a waiting extension.
+Contains the waiting time extension for a T=1 transmission. If nonzero, this is a multiplier for the block waiting time. Usually, the driver will time out if the block waiting time expires. Several smart card operations require more time. The smart card answers with a waiting time extension. Therefore, the block waiting time must be multiplied with the **Wtx** value. If this value is nonzero, it applies as a waiting extension.
 
 ### -field ReplyData
 
@@ -113,27 +118,14 @@ A pointer to the buffer that contains the result of the operation.
 
 ### -field WaitForReply
 
-If <b>TRUE</b>, execute the operation synchronously.
+If **TRUE**, execute the operation synchronously.
 
 ### -field InfBytesSent
 
 ### -field Reserved
 
- 
-
-
-
-
-#### - InfSize
-
-Contains the current information field size to transmit. 
-
-
-#### - PrevState
-
-Contains the state before the error occurred.
+Reserved, do not use.
 
 ## -remarks
 
 This structure must not be directly modified by a reader driver.
-
