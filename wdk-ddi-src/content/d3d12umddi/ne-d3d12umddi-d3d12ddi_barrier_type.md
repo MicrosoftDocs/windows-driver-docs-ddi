@@ -2,7 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDI_BARRIER_TYPE
 tech.root: display
 title: D3D12DDI_BARRIER_TYPE
-ms.date: 05/24/2022
+ms.date: 09/29/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_BARRIER_TYPE enumeration.
 prerelease: false
@@ -12,7 +12,7 @@ req.header: d3d12umddi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: WIN11_NEXT
+req.target-min-winverclnt: Windows 11 (WDDM 3.0)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -42,19 +42,19 @@ A **D3D12DDI_BARRIER_TYPE** enumeration value indicates the type of resource bar
 
 ### -field D3D12DDI_BARRIER_TYPE_GLOBAL
 
-Indicates a global barrier type. A global barrier applies to all resource memory. Global barriers do not transition texture layouts or force any data decompression.
+The barrier is a global barrier. A global barrier applies to all resource memory. Global barriers do not transition texture layouts or force any data decompression.
 
 ### -field D3D12DDI_BARRIER_TYPE_TEXTURE
 
-Indicates a texture barrier type. A texture barrier applies to a specific range of texture subresources.
+The barrier is a texture barrier. A texture barrier applies to a specific range of texture subresources.
 
 ### -field D3D12DDI_BARRIER_TYPE_BUFFER
 
-Indicates a buffer barrier type. A buffer barrier applies to a specific buffer resource.
+The barrier is a buffer barrier. A buffer barrier applies to a specific buffer resource.
 
 ### -field D3D12DDI_BARRIER_TYPE_RANGED
 
-Indicates a ranged barrier type. A ranged barrier replaces the legacy D3D12DDI_RESOURCE_RANGED_BARRIER_0022.
+The buffer is a ranged barrier. A ranged barrier replaces the legacy [**D3D12DDI_RESOURCE_RANGED_BARRIER_0022**](nc-d3d12umddi-pfnd3d12ddi_resourcebarrier_0022.md).
 
 ## -remarks
 

@@ -2,7 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDI_RANGED_BARRIER_FLAGS
 tech.root: display
 title: D3D12DDI_RANGED_BARRIER_FLAGS
-ms.date: 05/24/2022
+ms.date: 09/29/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_RANGED_BARRIER_FLAGS enumeration.
 prerelease: true
@@ -12,7 +12,7 @@ req.header: d3d12umddi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: WIN11_NEXT
+req.target-min-winverclnt: Windows 11 (WDDM 3.0)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 

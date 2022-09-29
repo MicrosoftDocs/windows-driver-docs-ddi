@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_RANGED_BARRIER_0088
 tech.root: display
 title: D3D12DDI_RANGED_BARRIER_0088
-ms.date: 09/22/2022
+ms.date: 09/29/2022
 targetos: Windows
 description: Learn more about the D3D12DDI_RANGED_BARRIER_0088 structure.
 prerelease: true
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: WIN11_NEXT
+req.target-min-winverclnt: Windows 11 (WDDM 3.0)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: D3D12DDI_RANGED_BARRIER_0088

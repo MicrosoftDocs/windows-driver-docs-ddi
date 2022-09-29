@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_BARRIER_0088
 tech.root: display
 title: PFND3D12DDI_BARRIER_0088
-ms.date: 05/24/2022
+ms.date: 09/29/2022
 targetos: Windows
 description: Learn more about the PFND3D12DDI_BARRIER_0088 callback function.
 prerelease: true
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: WIN11_NEXT
+req.target-min-winverclnt: Windows 11 (WDDM 3.0)
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -62,10 +62,9 @@ Pointer to an array of [**D3D12DDIARG_BARRIER_0088**](ns-d3d12umddi-d3d12ddiarg_
 
 ## -remarks
 
-Drivers that report support for enhanced barriers must implement the **PFND3D12DDI_BARRIER** function. How drivers implement the **PFND3D12DDI_BARRIER** function is up to the hardware vendor, as long as they meet the design specifications and pass all related conformance tests.
+Drivers that [report support for enhanced barriers](ns-d3d12umddi-d3d12ddi_d3d12_options_data_0089.md) must implement the **PFND3D12DDI_BARRIER** function. How drivers implement the function is up to the hardware vendor, as long as they meet the design specifications and pass all related conformance tests.
 
-Interestingly, a driver supporting enhanced barriers must expect even legacy ResourceBarrier API calls will also use the new PFND3D12DDI_BARRIER function. The legacy PFND3D12DDI_RESOURCEBARRIER_* table entry may be left as NULL. 
-
+A driver supporting enhanced barriers must expect that legacy ResourceBarrier calls will also use the **PFND3D12DDI_BARRIER** function. The legacy PFND3D12DDI_RESOURCEBARRIER_* table entry can be left as NULL.
 
 Access **PFND3D12DDI_BARRIER_0088** by using a command list functions structure such as the [**D3D12DDI_COMMAND_LIST_FUNCS_3D_0088**](ns-d3d12umddi-d3d12ddi_command_list_funcs_3d_0088.md) structure.
 
@@ -80,5 +79,7 @@ See [Enhanced Barriers](/windows-hardware/drivers/display/enhanced-barriers) for
 [**D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0088**](ns-d3d12umddi-d3d12ddi_command_list_funcs_video_encode_0088.md)
 
 [**D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0088**](ns-d3d12umddi-d3d12ddi_command_list_funcs_video_process_0088.md)
+
+[**D3D12DDI_D3D12_OPTIONS_DATA_0089**](ns-d3d12umddi-d3d12ddi_d3d12_options_data_0089.md)
 
 [**D3D12DDIARG_BARRIER_0088**](ns-d3d12umddi-d3d12ddiarg_barrier_0088.md)

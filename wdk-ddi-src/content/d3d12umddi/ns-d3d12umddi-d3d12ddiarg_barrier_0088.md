@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDIARG_BARRIER_0088
 tech.root: display
 title: D3D12DDIARG_BARRIER_0088
-ms.date: 05/24/2022
+ms.date: 09/29/2022
 targetos: Windows
 description: Learn more about the D3D12DDIARG_BARRIER_0088 structure.
 prerelease: true
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: WIN11_NEXT
+req.target-min-winverclnt: Windows 11 (WDDM 3.0)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: D3D12DDIARG_BARRIER_0088
@@ -50,19 +50,19 @@ A [**D3D12DDI_BARRIER_TYPE**](ne-d3d12umddi-d3d12ddi_barrier_type.md) value that
 
 ### -field GlobalBarrier
 
-A [**D3D12DDI_GLOBAL_BARRIER_0088**](ns-d3d12umddi-d3d12ddi_global_barrier_0088.md) structure that describes a resource memory access barrier.
+A [**D3D12DDI_GLOBAL_BARRIER_0088**](ns-d3d12umddi-d3d12ddi_global_barrier_0088.md) structure that describes the global barrier. Use this structure when **Type** is **D3D12DDI_BARRIER_TYPE_GLOBAL**.
 
 ### -field TextureBarrier
 
-A [**D3D12DDI_TEXTURE_BARRIER_0088**](ns-d3d12umddi-d3d12ddi_texture_barrier_0088.md) structure that describes a texture barrier.
+A [**D3D12DDI_TEXTURE_BARRIER_0088**](ns-d3d12umddi-d3d12ddi_texture_barrier_0088.md) structure that describes a texture barrier. Use this structure when **Type** is **D3D12DDI_BARRIER_TYPE_TEXTURE**.
 
 ### -field BufferBarrier
 
-A [**D3D12DDI_BUFFER_BARRIER_0088**](ns-d3d12umddi-d3d12ddi_buffer_barrier_0088.md) structure that describes a buffer barrier.
+A [**D3D12DDI_BUFFER_BARRIER_0088**](ns-d3d12umddi-d3d12ddi_buffer_barrier_0088.md) structure that describes a buffer barrier. Use this structure when **Type** is **D3D12DDI_BARRIER_TYPE_BUFFER**.
 
 ### -field RangedBarrier
 
-A [**D3D12DDI_RANGED_BARRIER_0088**](ns-d3d12umddi-d3d12ddi_ranged_barrier_0088.md) structure that describes a resource ranged barrier.
+A [**D3D12DDI_RANGED_BARRIER_0088**](ns-d3d12umddi-d3d12ddi_ranged_barrier_0088.md) structure that describes a resource ranged barrier. Use this structure when **Type** is **D3D12DDI_BARRIER_TYPE_RANGED**.
 
 ## -remarks
 

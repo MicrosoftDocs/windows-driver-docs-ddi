@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0088
 tech.root: display
 title: PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0088
-ms.date: 09/22/2022
+ms.date: 09/29/2022
 targetos: Windows
 description: Learn more about the PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0088 callback function.
 prerelease: true
@@ -50,22 +50,22 @@ helpviewer_keywords:
 
 ### -param unnamedParam1
 
-A handle to the display device (graphics context).
+[in] A handle to the display device (graphics context).
 
 ### -param unnamedParam2
 
-Pointer to a [**D3D12DDIARG_CREATEHEAP_0001**](ns-d3d12umddi-d3d12ddiarg_createheap_0001.md) structure that describes the heap.
+[in/optional] Pointer to a [**D3D12DDIARG_CREATEHEAP_0001**](ns-d3d12umddi-d3d12ddiarg_createheap_0001.md) structure that describes the heap.
 
 ### -param unnamedParam3
 
-Pointer to a [**D3D12DDIARG_CREATERESOURCE_0088**](ns-d3d12umddi-d3d12ddiarg_createresource_0088.md) structure.
+[in/optional] Pointer to a [**D3D12DDIARG_CREATERESOURCE_0088**](ns-d3d12umddi-d3d12ddiarg_createresource_0088.md) structure.
 
 ### -param unnamedParam4
 
-The protected resource session to use for the heap/resource being created. Zero indicates unprotected resources. See the [Protected Resources Specification](https://microsoft.github.io/DirectX-Specs/d3d/ProtectedResources.html) for more information.
-
-## -remarks
+[in] The protected resource session to use for the heap/resource being created. Zero indicates unprotected resources. See the [Protected Resources Specification](https://microsoft.github.io/DirectX-Specs/d3d/ProtectedResources.html) for more information.
 
 ## -see-also
 
 [**D3D12DDIARG_CREATERESOURCE_0088**](ns-d3d12umddi-d3d12ddiarg_createresource_0088.md)
+
+[**PFND3D12DDI_CREATEHEAPANDRESOURCE_0088**](nc-d3d12umddi-pfnd3d12ddi_createheapandresource_0088.md)
