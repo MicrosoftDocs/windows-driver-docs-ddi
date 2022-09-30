@@ -78,6 +78,12 @@ Specifies one of the following digital output protection values:
 
 If the driver supports DRMRIGHTS and also implements a proprietary copy protection mechanism, the driver must aggregate the result of the proprietary implementation with the values of CopyProtect and DigitalOutputDisable to determine the final copy protection state. The final copy protection state must be the most restrictive of all outstanding copy protection requests.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxstreams.h header](index.md)

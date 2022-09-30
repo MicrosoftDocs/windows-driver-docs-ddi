@@ -102,6 +102,12 @@ This example code snip, shows how ACX uses AcxEventCreate to create an audio jac
     status = AcxEventCreate(GetObjectHandle(), &attributes, &eventCfg, &jackEvent);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxevents.h header](index.md)

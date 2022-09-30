@@ -89,6 +89,12 @@ This example shows the use of AcxObjectBagRetrieveUnicodeString.
         RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveUnicodeString(objBag, &testName, &unicodeStringValue));
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxmisc.h header](index.md)

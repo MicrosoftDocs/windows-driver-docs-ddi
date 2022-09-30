@@ -60,6 +60,12 @@ A pointer to an [ACX_JACK_SINK_INFORMATION](ns-acxpin-acx_jack_sink_information.
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxpin.h header](index.md)

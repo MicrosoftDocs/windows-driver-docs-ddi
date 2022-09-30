@@ -66,6 +66,12 @@ The ACX_MICARRAYGEOMETRY_CONFIG structure is used as input to the AcxMicArrayGeo
 
 To initialize an ACX_MICARRAYGEOMETRY_CONFIG structure, your driver should call [ACX_MICARRAYGEOMETRY_CONFIG_INIT](nf-acxpin-acx_micarraygeometry_config_init.md).
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_MIC_ARRAY_GEOMETRY](ns-acxpin-acx_mic_array_geometry.md)

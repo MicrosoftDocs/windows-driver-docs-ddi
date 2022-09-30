@@ -93,6 +93,12 @@ Example usage is shown below.
     status = AcxCircuitInitAssignAcxCreateStreamCallback(CircuitInit, EvtCircuitCreateStream);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 [ACX_CIRCUIT_PNPPOWER_CALLBACKS_INIT](nf-acxcircuit-acx_circuit_pnppower_callbacks_init.md)

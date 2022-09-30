@@ -75,6 +75,12 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 It is not recommended to use this version of the stop IO call, but rather [AcxStreamStopIoWithTag](nf-acxstreams-acxstreamstopiowithtag.md).
 
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 [acxstreams.h header](index.md)

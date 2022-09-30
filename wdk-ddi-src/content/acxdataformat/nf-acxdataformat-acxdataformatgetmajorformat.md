@@ -58,6 +58,12 @@ Returns a GUID value representing the major format for the specified *DataFormat
 
 Specifies the general format type. The data formats that are currently supported can be found in the KSDATAFORMAT_TYPE_XXX symbolic constants in the ksmedia.h header file that is included in the Windows Driver Kit (WDK). A data stream that has no particular format should use KSDATAFORMAT_TYPE_STREAM (defined in ks.h) as the value for its major format.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)

@@ -58,6 +58,12 @@ The ID to use when initializing the **ACX_PIN_CONFIG** structure.
 
 At this time the only valid accepted ID is AcxPinIdDefault.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)

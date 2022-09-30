@@ -56,6 +56,12 @@ Returns the [ACXCIRCUIT](../acxcircuit/index.md) object representing the circuit
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACXCIRCUIT](../acxcircuit/index.md)

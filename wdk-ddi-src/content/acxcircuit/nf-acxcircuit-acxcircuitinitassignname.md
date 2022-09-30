@@ -78,6 +78,12 @@ Example usage is shown below.
     AcxCircuitInitAssignName(CircuitInit, &circuitName);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)

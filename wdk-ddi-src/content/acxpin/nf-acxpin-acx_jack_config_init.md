@@ -59,6 +59,12 @@ A pointer to the [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md) structure to in
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_JACK_CONFIG_INIT_ID](nf-acxpin-acx_jack_config_init_id.md)

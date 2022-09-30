@@ -58,6 +58,12 @@ Returns a value from the [ACX_PIN_TYPE](ne-acxpin-acx_pin_type.md) enum.
 
 The return value indicates if the pin is a source, a sink, or some other type.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_PIN_TYPE](ne-acxpin-acx_pin_type.md)

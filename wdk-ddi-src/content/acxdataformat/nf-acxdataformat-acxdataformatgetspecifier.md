@@ -58,6 +58,12 @@ Returns a GUID value representing the audio format specifier for the *DataFormat
 
 Specifies additional data format type information for a specific setting of MajorFormat and SubFormat. The significance of this field is determined by the major format and subformat. For example, the specifier can represent a particular encoding of a subformat, or it can be used to specify what type of data structure follows [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md) in memory.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)

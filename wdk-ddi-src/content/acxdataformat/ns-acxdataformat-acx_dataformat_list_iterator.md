@@ -64,6 +64,12 @@ Reserved.
 
 This structure should not be directly updated. Instances of the **ACX_DATAFORMAT_LIST_ITERATOR** structure must be initialized by calling the [ACX_DATAFORMAT_LIST_ITERATOR_INIT](nf-acxdataformat-acx_dataformat_list_iterator_init.md) function.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_DATAFORMAT_LIST_ITERATOR_INIT](nf-acxdataformat-acx_dataformat_list_iterator_init.md)

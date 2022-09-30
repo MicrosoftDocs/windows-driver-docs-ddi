@@ -64,6 +64,12 @@ The minor version of the audio driver for which to check.
 
 Instances of this structure must be initialized by calling the [ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT](nf-acxdriver-acx_driver_version_available_params_init.md) function. A pointer to an **ACX_DRIVER_VERSION_AVAILABLE_PARAMS** structure is passed as a parameter to the [AcxDriverIsVersionAvailable](nf-acxdriver-acxdriverisversionavailable.md) function.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 * [ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT](nf-acxdriver-acx_driver_version_available_params_init.md)

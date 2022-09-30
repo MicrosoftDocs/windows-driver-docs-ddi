@@ -56,6 +56,12 @@ Returns a pointer to the [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-wavefo
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-waveformatex)
