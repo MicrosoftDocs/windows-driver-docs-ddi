@@ -4,7 +4,7 @@ title: IWDTFDeviceDepot2::get_Item (wdtf.h)
 description: Gets an individual device in the DeviceDepot.
 old-location: dtf\iwdtfdevicedepot2_item.htm
 tech.root: dtf
-ms.date: 04/04/2018
+ms.date: 09/29/2022
 keywords: ["IWDTFDeviceDepot2::get_Item"]
 ms.keywords: IWDTFDeviceDepot2 interface [Windows Device Testing Framework],Item property, IWDTFDeviceDepot2.Item, IWDTFDeviceDepot2.get_Item, IWDTFDeviceDepot2::Item, IWDTFDeviceDepot2::get_Item, Item property [Windows Device Testing Framework], Item property [Windows Device Testing Framework],IWDTFDeviceDepot2 interface, Microsoft.WDTF.IWDTFDeviceDepot2.Item, Microsoft::WDTF::IWDTFDeviceDepot2::Item, dtf.iwdtfdevicedepot2_item, get_Item, wdtf/IWDTFDeviceDepot2::Item, wdtf/IWDTFDeviceDepot2::get_Item
 req.header: wdtf.h
@@ -48,6 +48,14 @@ api_name:
 Gets an individual device in the DeviceDepot.
 
 This property is read-only.
+
+## -parameters
+
+### -param Index
+
+### -param ppTarget
+
+### -returns
 
 ## -see-also
 
