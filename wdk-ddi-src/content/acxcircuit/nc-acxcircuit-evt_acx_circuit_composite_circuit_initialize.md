@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE
 tech.root: audio
 title: EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE
-ms.date: 09/30/2021
+ms.date: 09/23/2022
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE callback is used by the driver to do any initialization of a composite circuit when it is detected and initialized by ACX Manager. 
 prerelease: true
@@ -42,21 +42,21 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE** callback is used by the driver to do any initialization of a composite circuit when it is detected and initialized by ACX Manager. 
+The **EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_INITIALIZE** callback is used by the driver to do any initialization of a composite circuit when it is detected and initialized by ACX Manager.
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT. 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT.
 
 ### -param Circuit
 
-The ACXCIRCUIT object being initialized.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+The ACXCIRCUIT object being initialized.  For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param CircuitProperties
 
-Optional handle to CircuitProperties. This is an optional ACXOBJECTBAG object for ACXCIRCUIT's properties. 
+Optional handle to CircuitProperties. This is an optional ACXOBJECTBAG object for ACXCIRCUIT's properties.
 
 ## -returns
 
@@ -107,8 +107,12 @@ exit:
 }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-

@@ -85,6 +85,12 @@ Example usage is shown below.
     status = AcxFactoryCircuitInitAssignName(factoryInit, &dspFactoryName);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)

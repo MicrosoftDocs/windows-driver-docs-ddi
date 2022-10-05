@@ -58,6 +58,12 @@ Returns a ULONG value containing the sample size for the specified *DataFormat*.
 
 Specifies the sample size of the data, for fixed sample sizes, or zero, if the format has a variable sample size.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxdataformat.h header](index.md)

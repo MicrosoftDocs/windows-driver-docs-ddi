@@ -1,10 +1,10 @@
 ---
 UID: NF:ntddk.HalGetBusDataByOffset
-tech.root: 
+tech.root: kernel
 title: HalGetBusDataByOffset
 ms.date: 09/22/2022
 targetos: Windows
-description: 
+description: This function retrieves information, starting at the offset, about a slot or address on an I/O bus.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -12,7 +12,7 @@ req.ddi-compliance:
 req.dll: 
 req.header: ntddk.h
 req.idl: 
-req.include-header: 
+req.include-header:  Ntddk.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: 
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - ntddk.h
 api_name:
@@ -64,12 +64,11 @@ Logical slot number or location of the device. If you specify PCIConfiguration a
 
 Pointer to a caller-supplied buffer for configuration information specific to BusDataType.
 
-If you specify PCIConfiguration, the buffer contains the PCI config space information for the specifed SlotNumber and function number. The specified Offset and Length determine how much information to supply. Certain members of PCI config space have read-only values The caller is responsible for preserving the system-supplied values of read-only members. Note that for a Type-1 PCI device, HalSetBusDataByOffset prevents writes to registers inside the common header (first 256bytes of the config space).
+If you specify PCIConfiguration, the buffer contains the PCI config space information for the specified SlotNumber and function number. The specified Offset and Length determine how much information to supply. Certain members of PCI config space have read-only values The caller is responsible for preserving the system-supplied values of read-only members. Note that for a Type-1 PCI device, HalSetBusDataByOffset prevents writes to registers inside the common header (first 256bytes of the config space).
 
 ### -param Offset [in]
 
 Byte offset in the PCI_COMMON_CONFIG structure for which the requested information should be returned. Callers can use the system-defined constant PCI_COMMON_HDR_LENGTH to specify the device-specific area of PCI_COMMON_CONFIG.
-
 
 ### -param Length [in]
 
@@ -97,4 +96,4 @@ When accessing the device-specific area of the PCI configuration space, HalGetBu
 
 [HalTranslateBusAddress](/previous-versions/windows/embedded/ms899361(v=msdn.10))
 
-[PCI_COMMON_CONFIG](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_common_config)
+[**PCI_COMMON_CONFIG**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_common_config)

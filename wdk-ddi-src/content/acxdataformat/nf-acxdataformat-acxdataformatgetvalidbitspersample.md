@@ -56,6 +56,12 @@ Returns a ULONG value containing the valid number bits per sample for the specif
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxdataformat.h header](index.md)

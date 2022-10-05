@@ -70,6 +70,12 @@ An [ACX_JACK_DESCRIPTION](ns-acxpin-acx_jack_description.md) structure that desc
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_JACK_CONFIG_FLAGS](ne-acxpin-acx_jack_config_flags.md)

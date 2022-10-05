@@ -62,6 +62,12 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 If the data format list doesn't have a default data format, this data format becomes the default data format for that list.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [AcxDataFormatListRemoveDataFormat](nf-acxdataformat-acxdataformatlistremovedataformat.md)

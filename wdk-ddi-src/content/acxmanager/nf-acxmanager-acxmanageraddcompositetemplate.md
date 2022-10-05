@@ -62,6 +62,12 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 A composite template tells the ACX manager how to build a composite endpoint. For example, build an audio endpoint using two or more ACXCIRCUIT objects.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxmanager.h header](index.md)

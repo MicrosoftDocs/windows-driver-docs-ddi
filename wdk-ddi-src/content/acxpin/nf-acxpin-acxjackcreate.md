@@ -68,6 +68,12 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md)

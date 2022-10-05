@@ -52,6 +52,12 @@ A pointer to the **ACX_PIN_CALLBACKS** structure to initialize.
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_PIN_CALLBACKS](ns-acxpin-acx_pin_callbacks.md)

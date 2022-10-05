@@ -106,6 +106,12 @@ The code below shows the use of AcxObjectBagAddGuid.
     RETURN_NTSTATUS_IF_FAILED(AcxObjectBagAddGuid(objBag, &UniqueID, uniqueID));
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxmisc.h header](index.md)

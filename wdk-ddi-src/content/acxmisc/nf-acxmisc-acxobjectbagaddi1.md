@@ -100,6 +100,12 @@ This example shows the use of AcxObjectBagAddI1.
     RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveI1(objBag, &TestI1, &i1Value));
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxmisc.h header](index.md)

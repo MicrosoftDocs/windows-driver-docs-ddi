@@ -89,6 +89,12 @@ An optional ACXOBJECTBAG ACX object describing optional parameters.
     ACX_TARGET_STREAM_CONFIG_INIT(&targetStreamCfg);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxtargets.h header](index.md)

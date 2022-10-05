@@ -78,6 +78,12 @@ The ACX_MICROPHONE_CONFIG structure should be assigned to the MicrophoneConfig m
 
 To initialize an ACX_MICROPHONE_CONFIG structure, your driver should call [ACX_MICROPHONE_CONFIG_INIT](nf-acxpin-acx_microphone_config_init.md).
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_MICROPHONE_CONFIG_FLAGS](ne-acxpin-acx_microphone_config_flags.md)

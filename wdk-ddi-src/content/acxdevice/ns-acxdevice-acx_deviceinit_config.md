@@ -76,6 +76,12 @@ Pointer to the context space for the class extension.
 
 Instances of this structure must be initialized by calling the [ACX_DEVICEINIT_CONFIG_INIT](nf-acxdevice-acx_deviceinit_config_init.md) function. A pointer to an **ACX_DEVICEINIT_CONFIG** structure is passed as a parameter to the [AcxDeviceInitInitialize](nf-acxdevice-acxdeviceinitinitialize.md) function.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 * [ACX_DEVICE_CONFIG_INIT](nf-acxdevice-acx_device_config_init.md)

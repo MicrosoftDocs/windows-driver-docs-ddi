@@ -2,7 +2,7 @@
 UID: NF:acxrequest.ACX_REQUEST_PARAMETERS_INIT_METHOD
 tech.root: audio
 title: ACX_REQUEST_PARAMETERS_INIT_METHOD
-ms.date: 08/18/2022
+ms.date: 09/29/2022
 targetos: Windows
 description: The ACX_REQUEST_PARAMETERS_INIT_METHOD initializes an ACX_REQUEST_PARAMETERS struct with ACX method parameters.
 prerelease: true
@@ -111,13 +111,11 @@ Example usage is shown below.
                 );
 ```
 
+### ACX requirements
 
-### ACX Requirements
-| &nbsp; | &nbsp; |
-| ---- |:---- |
-| **Minimum ACX version** | 1.1 |
+**Minimum ACX version:** 1.0
 
-For more information about ACX versions, see [ACX version overview]().
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

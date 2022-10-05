@@ -58,6 +58,12 @@ Set only to AcxElementIdDefault that is defined in the AcxElements header.
 
 As the ACX_AUDIOMODULE_CONFIG_INIT_ID provides the same functionality as [ACX_AUDIOMODULE_CONFIG_INIT](nf-acxelements-acx_AUDIOMODULE_config_init.md), the use of ACX_AUDIOMODULE_CONFIG_INIT is recommended.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxelements.h header](index.md)

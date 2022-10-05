@@ -66,6 +66,12 @@ This function resets the [ACX_STREAM_BRIDGE_CONFIG structure](ns-acxstreams-acx_
     streamCfg.OutMode      = &AUDIO_SIGNALPROCESSINGMODE_DEFAULT;
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxstreams.h header](index.md)

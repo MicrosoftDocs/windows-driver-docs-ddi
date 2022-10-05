@@ -60,6 +60,12 @@ A combination of values from the [ACX_DATAFORMAT_LIST_CONFIG_FLAGS](ne-acxdatafo
 
 Instances of the **ACX_DATAFORMAT_LIST_CONFIG** structure must be initialized by calling the [ACX_DATAFORMAT_LIST_CONFIG_INIT](nf-acxdataformat-acx_dataformat_list_config_init.md) function.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_DATAFORMAT_LIST_CONFIG_INIT](nf-acxdataformat-acx_dataformat_list_config_init.md)

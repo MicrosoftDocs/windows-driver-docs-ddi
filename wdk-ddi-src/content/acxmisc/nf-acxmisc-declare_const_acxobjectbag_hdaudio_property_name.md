@@ -60,6 +60,12 @@ This example shows the definition of DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY
 	DECLARE_CONST_ACXOBJECTBAG_HDAUDIO_PROPERTY_NAME(HdAudName);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxmisc.h header](index.md)

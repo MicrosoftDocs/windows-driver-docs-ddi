@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-**BLOCK_DEVICE_TOKEN_DESCRIPTOR** contains the token returned from a the POPULATE TOKEN command for an offload read data operation. The token information is included as part of the [**RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER**](/windows-hardware/drivers/ddi/minitape/ns-minitape-receive_token_information_response_header) structure.
+**BLOCK_DEVICE_TOKEN_DESCRIPTOR** contains the token returned from a the POPULATE TOKEN command for an offload read data operation. The token information is included as part of the [**RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER**](../minitape/ns-minitape-receive_token_information_response_header.md) structure.
 
 ## -struct-fields
 
@@ -58,4 +58,4 @@ A data value defining a token as a point-in-time representation of data (ROD) fo
 
 ## -see-also
 
-[**RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER**](/windows-hardware/drivers/ddi/minitape/ns-minitape-receive_token_information_response_header)
+[**RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER**](../minitape/ns-minitape-receive_token_information_response_header.md)

@@ -136,10 +136,10 @@ Sense data returned for the copy operation.
 
 ## -remarks
 
-If **RECEIVE_TOKEN_INFORMATION_HEADER** is for a POPULATE TOKEN command operation, and the command completed successfully, a [**RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER**](/windows-hardware/drivers/ddi/minitape/ns-minitape-receive_token_information_response_header) structure will also be present after **SenseData** at an offset of **SenseDataFieldLength** from the beginning of the **SenseData** array. The **RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER** structure will contain the token created as a representation of data (ROD) for the range parameters sent with the command.
+If **RECEIVE_TOKEN_INFORMATION_HEADER** is for a POPULATE TOKEN command operation, and the command completed successfully, a [**RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER**](../minitape/ns-minitape-receive_token_information_response_header.md) structure will also be present after **SenseData** at an offset of **SenseDataFieldLength** from the beginning of the **SenseData** array. The **RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER** structure will contain the token created as a representation of data (ROD) for the range parameters sent with the command.
 
 All multibyte values are in big endian format. Prior to evaluation, these values must be converted to match the endian format of the current platform.
 
 ## -see-also
 
-[**RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER**](/windows-hardware/drivers/ddi/minitape/ns-minitape-receive_token_information_response_header)
+[**RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER**](../minitape/ns-minitape-receive_token_information_response_header.md)

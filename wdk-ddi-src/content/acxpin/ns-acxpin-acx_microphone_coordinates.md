@@ -74,6 +74,12 @@ Specifies a value between -31416 and +31416. When divided by 10,000, it gives a 
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_MICROPHONE_TYPE](ne-acxpin-acx_microphone_type.md)

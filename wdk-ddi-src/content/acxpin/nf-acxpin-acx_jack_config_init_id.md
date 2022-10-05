@@ -58,6 +58,12 @@ The ID to use when initializing the **ACX_JACK_CONFIG** structure.
 
 At this time, driver must use AcxJackPropertiesIdDefault as ID for the Jack.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md)
