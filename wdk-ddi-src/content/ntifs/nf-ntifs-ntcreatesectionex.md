@@ -3,18 +3,18 @@ UID: NF:ntifs.NtCreateSectionEx
 title: NtCreateSectionEx function (ntifs.h)
 description: Creates a section object.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 10/06/2022
 keywords: ["NtCreateSectionEx function"]
 ms.keywords: NtCreateSectionEx
 req.header: ntifs.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: 
 req.ddi-compliance: 
 req.unicode-ansi: 
@@ -42,10 +42,9 @@ dev_langs:
 
 # NtCreateSectionEx function
 
-
 ## -description
 
-An extended version of [**NtCreateSection**](nf-ntifs-ntcreatesection.md) that creates a section object by specifying to indicate that this is actually an AWE section.
+**NtCreateSectionEx** creates a [section object**](/windows-hardware/drivers/kernel/section-objects-and-views) and opens a handle to the object with the specified desired access. It is an extended version of [**NtCreateSection**](nf-ntifs-ntcreatesection.md) that creates a section object by specifying to indicate that this is actually an Address Windowing Extensions (AWE) section.
 
 ## -parameters
 
@@ -55,9 +54,7 @@ Pointer to a HANDLE variable that receives a handle to the section object.
 
 ### -param DesiredAccess [out]
 
-
-Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects (see <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>), the caller can specify any of the following access rights, which are specific to section objects:
-
+Specifies an [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects, the caller can specify any of the following access rights, which are specific to section objects:
 
 |DesiredAccess flag|Allows caller to do this|
 |---|---|
@@ -70,120 +67,75 @@ Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK<
 
 ### -param ObjectAttributes [in, optional]
 
-
-Pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
+Pointer to an [**OBJECT_ATTRIBUTES**](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that specifies the object name and other attributes. Use [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls **InitializeObjectAttributes**.
 
 ### -param MaximumSize [in, optional]
 
-
-Specifies the maximum size, in bytes, of the section. <b>NtCreateSection</b> rounds this value up to the nearest multiple of PAGE_SIZE. If the section is backed by the paging file, <i>MaximumSize</i> specifies the actual size of the section. If the section is backed by an ordinary file, <i>MaximumSize</i> specifies the maximum size that the file can be extended or mapped to.
+Specifies the maximum size, in bytes, of the section. **NtCreateSection** rounds this value up to the nearest multiple of PAGE_SIZE. If the section is backed by the paging file, **MaximumSize** specifies the actual size of the section. If the section is backed by an ordinary file, **MaximumSize** specifies the maximum size that the file can be extended or mapped to.
 
 ### -param SectionPageProtection [in]
 
-
-Specifies the protection to place on each page in the section. Use one of the following four values: PAGE_READONLY, PAGE_READWRITE, PAGE_EXECUTE, or PAGE_WRITECOPY. For a description of these values, see <a href="/windows/win32/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>.
+Specifies the protection to place on each page in the section. Use one of the following four values: PAGE_READONLY, PAGE_READWRITE, PAGE_EXECUTE, or PAGE_WRITECOPY. For a description of these values, see [**CreateFileMapping**](/windows/win32/api/winbase/nf-winbase-createfilemappinga).
 
 ### -param AllocationAttributes [in]
 
-
-Specifies a bitmask of SEC_<i>XXX</i> flags that determines the allocation attributes of the section. For a description of these flags, see <a href="/windows/win32/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>.
+Specifies a bitmask of SEC_*XXX* flags that determines the allocation attributes of the section. For a description of these flags, see [**CreateFileMapping**](/windows/win32/api/winbase/nf-winbase-createfilemappinga).
 
 ### -param FileHandle [in, optional]
 
-
-Optionally specifies a handle for an open file object. If the value of <i>FileHandle</i> is <b>NULL</b>, the section is backed by the paging file. Otherwise, the section is backed by the specified file.
+Optionally specifies a handle for an open file object. If the value of **FileHandle** is **NULL**, the section is backed by the paging file. Otherwise, the section is backed by the specified file.
 
 ### -param ExtendedParameters [in/out]
 
-A pointer to an array of [**MEM_EXTENDED_PARAMETER**](../wdm/ns-wdm-mem_extended_parameter.md) structures the contains the extended paramters to create the section.
+A pointer to an array of [**MEM_EXTENDED_PARAMETER**](../wdm/ns-wdm-mem_extended_parameter.md) structures the contains the extended parameters to create the section.
 
 ### -param ExtendedParameterCount
 
-The size of the _ExtendedParameters_ array.
+The size of the array that **ExtendedParameters** points to.
 
 ## -returns
 
-Returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error status codes include the following:
+**NtCreateSectionEx** returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error status codes include the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FILE_LOCK_CONFLICT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file specified by the <i>FileHandle</i> parameter is locked.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_FILE_FOR_SECTION</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file specified by <i>FileHandle</i> does not support sections.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PAGE_PROTECTION</b></dt>
-</dl>
-</td>
-<td width="60%">
-The value specified for the <i>SectionPageProtection</i> parameter is invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_MAPPED_FILE_SIZE_ZERO</b></dt>
-</dl>
-</td>
-<td width="60%">
-The size of the file specified by <i>FileHandle</i> is zero, and <i>MaximumSize</i> is zero.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SECTION_TOO_BIG</b></dt>
-</dl>
-</td>
-<td width="60%">
-The value of <i>MaximumSize</i> is too big. This occurs when either <i>MaximumSize</i> is greater than the system-defined maximum for sections, or if <i>MaximumSize</i> is greater than the specified file and the section is not writable.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_FILE_LOCK_CONFLICT       | The file specified by the **FileHandle** parameter is locked. |
+| STATUS_INVALID_FILE_FOR_SECTION | The file specified by **FileHandle** does not support sections. |
+| STATUS_INVALID_PAGE_PROTECTION  | The value specified for the **SectionPageProtection** parameter is invalid. |
+| STATUS_MAPPED_FILE_SIZE_ZERO    | The size of the file specified by **FileHandle** is zero, and **MaximumSize** is zero. |
+| STATUS_SECTION_TOO_BIG          | The value of **MaximumSize** is too big. This occurs when either **MaximumSize** is greater than the system-defined maximum for sections, or if **MaximumSize** is greater than the specified file and the section is not writable. |
 
 ## -remarks
 
-Once the handle pointed to by <i>SectionHandle</i> is no longer in use, the driver must call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">NtClose</a> to close it.
+Once the handle pointed to by **SectionHandle** is no longer in use, the driver must call [**NtClose**](nf-ntifs-ntclose.md) to close it.
 
-If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="/windows-hardware/drivers/kernel/object-handles">Object Handles</a>. 
+If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see [Object Handles](/windows-hardware/drivers/kernel/object-handles).
 
-For more information about setting up mapped sections and views of memory, see <a href="/windows-hardware/drivers/ddi/_kernel/#sections-and-views">Sections and Views</a>. 
+For more information about setting up mapped sections and views of memory, see [Sections and Views](/windows-hardware/drivers/ddi/_kernel/#sections-and-views).
 
-<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtCreateSection</b>" instead of "<b>ZwCreateSection</b>".</div>
-<div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+> [!NOTE]
+> If the call to this function occurs in user mode, you should use the name "**NtCreateSectionEx**" instead of "**ZwCreateSectionEx**".
 
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
-stack-based extended parameter if preferred NUMA node was specified.
+**ExtendedParameters** is a stack-based extended parameter if preferred NUMA node was specified.
 
 Only one instance of an extended parameter can be specified.
 
 Convert to a 1-based numa node number that is expected downstream of this API.
 
 ## -see-also
+
+[**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask)
+
+[**CreateFileMapping**](/windows/win32/api/winbase/nf-winbase-createfilemappinga)
+
+[**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)
+
+[**ZwClose**](nf-ntifs-ntclose.md)
+
+[**ZwMapViewOfSection**](../wdm/nf-wdm-zwmapviewofsection.md)
+
+[**ZwOpenSection**](../wdm/nf-wdm-zwopensection.md)
+
+[**ZwUnmapViewOfSection**](../wdm/nf-wdm-zwunmapviewofsection.md)
