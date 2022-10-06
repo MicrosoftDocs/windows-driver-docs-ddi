@@ -53,9 +53,9 @@ Specifies the GUID Partition Table type of partition table.
 
 ### -field PARTITION_STYLE_RAW
 
-## -remarks
+The partition is not formatted in either of the recognized formats — MBR or GPT.
 
-This enumeration is only defined for Windows XP and later.
+## -remarks
 
 The GUID Partition Table format conforms to the Extensible Firmware Interface (EFI) standard developed by Intel. For further information, see Intel's *Extensible Firmware Interface* specification.
 

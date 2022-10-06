@@ -49,11 +49,11 @@ The system cannot report the write cache change capability of the device.
 
 ### -field WriteCacheNotChangeable
 
-Host software cannot change the characteristics of the device's write cache
+Host software cannot change the characteristics of the device's write cache.
 
 ### -field WriteCacheChangeable
 
-Host software can change the characteristics of the device's write cache
+Host software can change the characteristics of the device's write cache.
 
 ## -remarks
 

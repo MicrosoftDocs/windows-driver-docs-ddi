@@ -68,9 +68,15 @@ Indicates that the identifier type depends on the port.
 
 ### -field StorageIdTypeTargetPortGroup
 
+The storage identifier is a target port group number.
+
 ### -field StorageIdTypeLogicalUnitGroup
 
+The storage identifier is a logical unit group number.
+
 ### -field StorageIdTypeMD5LogicalUnitIdentifier
+
+The storage identifier is an MD5 logical unit number (LUN).
 
 ### -field StorageIdTypeScsiNameString
 
