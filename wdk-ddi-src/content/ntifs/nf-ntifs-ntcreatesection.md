@@ -4,7 +4,7 @@ title: NtCreateSection function (ntifs.h)
 description: The NtCreateSection routine in ntifs.h creates a section object. Once the handle pointed to is no longer in use, the driver must close it.
 old-location: kernel\zwcreatesection.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 10/06/2022
 keywords: ["NtCreateSection function"]
 ms.keywords: NtCreateSection, ZwCreateSection, ZwCreateSection routine [Kernel-Mode Driver Architecture], k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml, kernel.zwcreatesection, wdm/NtCreateSection, wdm/ZwCreateSection
 req.header: ntifs.h
@@ -38,6 +38,7 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - NtCreateSection
+ms.custom: engagement-fy23
 ---
 
 # NtCreateSection function

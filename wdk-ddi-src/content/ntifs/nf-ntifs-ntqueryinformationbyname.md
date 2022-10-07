@@ -36,6 +36,7 @@ api_name:
  - NtQueryInformationByName
 product:
  - Windows
+ms.custom: engagement-fy23
 ---
 
 # NtQueryInformationByName function

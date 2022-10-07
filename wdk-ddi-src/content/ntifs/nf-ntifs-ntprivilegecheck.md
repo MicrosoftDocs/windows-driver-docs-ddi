@@ -38,6 +38,7 @@ f1_keywords:
  - ntifs/NtPrivilegeCheck
 dev_langs:
  - c++
+ms.custom: engagement-fy23
 ---
 
 ## -description
