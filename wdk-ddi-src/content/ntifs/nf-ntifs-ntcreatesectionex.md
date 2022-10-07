@@ -38,6 +38,7 @@ api_name:
  - NtCreateSectionEx
 dev_langs:
  - c++
+ms.custom: engagement-fy23
 ---
 
 # NtCreateSectionEx function
