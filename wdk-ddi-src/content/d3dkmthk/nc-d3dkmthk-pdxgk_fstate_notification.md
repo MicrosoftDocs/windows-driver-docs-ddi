@@ -2,18 +2,18 @@
 UID: NC:d3dkmthk.PDXGK_FSTATE_NOTIFICATION
 title: PDXGK_FSTATE_NOTIFICATION (d3dkmthk.h)
 description: Implemented by the client driver to issue a state notification.
-ms.date: 03/03/2022
+ms.date: 10/07/2022
 keywords: ["PDXGK_FSTATE_NOTIFICATION callback function"]
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 tech.root: display
-ms.custom: RS5
+ms.custom: engagement-fy23
 f1_keywords:
  - PDXGK_FSTATE_NOTIFICATION
  - d3dkmthk/PDXGK_FSTATE_NOTIFICATION
