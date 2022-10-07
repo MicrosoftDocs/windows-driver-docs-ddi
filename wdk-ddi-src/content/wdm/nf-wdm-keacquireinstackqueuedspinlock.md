@@ -2,7 +2,7 @@
 UID: NF:wdm.KeAcquireInStackQueuedSpinLock
 tech.root: kernel
 title: KeAcquireInStackQueuedSpinLock
-ms.date: 10/05/2022
+ms.date: 10/07/2022
 targetos: Windows
 description: Learn more about the KeAcquireInStackQueuedSpinLock routine.
 prerelease: false
@@ -12,7 +12,7 @@ req.ddi-compliance:
 req.dll: 
 req.header: wdm.h
 req.idl: 
-req.include-header: 
+req.include-header: Wdm.h
 req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
@@ -54,7 +54,7 @@ The **KeAcquireInStackQueuedSpinLock** routine acquires a queued spin lock.
 
 ### -param LockHandle
 
-[out] A pointer to a caller-supplied [**KLOCK\_QUEUE\_HANDLE**](/windows-hardware/drivers/kernel/eprocess) variable that the routine can use to return the spin lock queue handle. The caller passes this value to [**KeReleaseInStackQueuedSpinLock**](nf-wdm-kereleaseinstackqueuedspinlock.md) when releasing the lock.
+[out] A pointer to a caller-supplied [**KLOCK_QUEUE_HANDLE**](/windows-hardware/drivers/kernel/eprocess) variable that the routine can use to return the spin lock queue handle. The caller passes this value to [**KeReleaseInStackQueuedSpinLock**](nf-wdm-kereleaseinstackqueuedspinlock.md) when releasing the lock.
 
 ## -remarks
 
@@ -62,19 +62,17 @@ The **KeAcquireInStackQueuedSpinLock** routine acquires a queued spin lock.
 
 Like ordinary spin locks, queued spin locks must only be used in very special circumstances. For a description of when to use spin locks, see [**KeAcquireSpinLock**](nf-wdm-keacquirespinlock.md).
 
-This routine raises the IRQL level to DISPATCH\_LEVEL when acquiring the spin lock. If the caller is guaranteed to already be running at DISPATCH\_LEVEL, it is more efficient to call [**KeAcquireInStackQueuedSpinLockAtDpcLevel**](nf-wdm-keacquireinstackqueuedspinlockatdpclevel.md).
+This routine raises the IRQL level to DISPATCH_LEVEL when acquiring the spin lock. If the caller is guaranteed to already be running at DISPATCH_LEVEL, it is more efficient to call **KeAcquireInStackQueuedSpinLockAtDpcLevel**.
 
-The call to **KeReleaseInStackQueuedSpinLock** that releases the spin lock must occur at IRQL = DISPATCH\_LEVEL. This call restores the original IRQL that the operating system saved at the beginning of the **KeAcquireInStackQueuedSpinLock** call.
+The call to **KeReleaseInStackQueuedSpinLock** that releases the spin lock must occur at IRQL = DISPATCH_LEVEL. This call restores the original IRQL that the operating system saved at the beginning of the **KeAcquireInStackQueuedSpinLock** call.
 
 Drivers must not combine calls to **KeAcquireSpinLock** and **KeAcquireInStackQueuedSpinLock** on the same spin lock. A spin lock must always be acquired or released as either a queued spin lock, or as an ordinary spin lock.
 
 ## -see-also
 
-[**KLOCK\_QUEUE\_HANDLE**](/windows-hardware/drivers/kernel/eprocess)
+[**KLOCK_QUEUE_HANDLE**](/windows-hardware/drivers/kernel/eprocess)
 
 [**KeAcquireSpinLock**](nf-wdm-keacquirespinlock.md)
-
-[**KeAcquireInStackQueuedSpinLockAtDpcLevel**](nf-wdm-keacquireinstackqueuedspinlockatdpclevel.md)
 
 [**KeInitializeSpinLock**](nf-wdm-keinitializespinlock.md)
 

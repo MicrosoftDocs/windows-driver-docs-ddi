@@ -4,7 +4,7 @@ tech.root: kernel
 title: KeAcquireSpinLockRaiseToDpc
 ms.date: 10/05/2022
 targetos: Windows
-description: 
+description: The KeAcquireSpinLockRaiseToDpc routine is a faster version of the KeAcquireSpinLock routine.
 prerelease: false
 req.assembly: 
 req.construct-type: function
