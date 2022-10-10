@@ -75,12 +75,14 @@ If the operation succeeds, the method returns S\_OK. Otherwise, it returns one o
 
 For an application to use the **IStillImage** interface, it must first call **IStillImage::StiCreateInstance** to get a pointer to the interface. The pointer received in *ppSti* is used subsequently when calling **IStillImage** methods, as illustrated in the following example:
 
-    PSTI pSti = NULL;
-    DWORD dwStiTotal = 0;     // total number of STI devices found
-    PVOID pStiInfo = NULL;    // STI device info buffer
-    HRESULT hres = StiCreateInstance(GetModuleHandle(NULL), STI_VERSION, &pSti, NULL);
-    ...
-    hhes = pSti->GetDeviceList(0, 0, &dwStiTotal, &pStiInfo);
+```cpp
+PSTI pSti = NULL;
+DWORD dwStiTotal = 0;     // total number of STI devices found
+PVOID pStiInfo = NULL;    // STI device info buffer
+HRESULT hres = StiCreateInstance(GetModuleHandle(NULL), STI_VERSION, &pSti, NULL);
+...
+hhes = pSti->GetDeviceList(0, 0, &dwStiTotal, &pStiInfo);
+```
 
 If you want to create an aggregate COM object that includes **IStillImage**, you must supply a pointer to the "controlling unknown" in *punkOuter*. In most cases you will not be creating an aggregate object, so *punkOuter* should be **NULL**. Object aggregation and the controlling unknown are described in the Microsoft Windows SDK documentation and in the *Component Object Model Specification*.
 
