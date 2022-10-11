@@ -1,10 +1,10 @@
 ---
 UID: NS:ntddstor._STORAGE_DEVICE_POWER_CAP
-title: _STORAGE_DEVICE_POWER_CAP (ntddstor.h)
+title: STORAGE_DEVICE_POWER_CAP (ntddstor.h)
 description: This structure is used as an input and output buffer for the IOCTL_STORAGE_DEVICE_POWER_CAP.
 old-location: storage\storage_device_power_cap.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 10/11/2022
 keywords: ["STORAGE_DEVICE_POWER_CAP structure"]
 ms.keywords: "*PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP structure pointer [Storage Devices], STORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP structure [Storage Devices], _STORAGE_DEVICE_POWER_CAP, ntddstor/PSTORAGE_DEVICE_POWER_CAP, ntddstor/STORAGE_DEVICE_POWER_CAP, storage.storage_device_power_cap"
 req.header: ntddstor.h
@@ -44,30 +44,33 @@ api_name:
  - _STORAGE_DEVICE_POWER_CAP
  - PSTORAGE_DEVICE_POWER_CAP
  - STORAGE_DEVICE_POWER_CAP
+ms.custom: engagement-fy23 
 ---
 
-# _STORAGE_DEVICE_POWER_CAP structure
-
+# STORAGE_DEVICE_POWER_CAP structure
 
 ## -description
 
-This structure is used as an input and output buffer for the <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_device_power_cap">IOCTL_STORAGE_DEVICE_POWER_CAP</a>.
+This structure is used as an input and output buffer for the [**IOCTL_STORAGE_DEVICE_POWER_CAP**](ni-ntddstor-ioctl_storage_device_power_cap.md).
 
 ## -struct-fields
 
 ### -field Version
 
-The version of this structure. This should be set to STORAGE_DEVICE_POWER_CAP_VERSION_V1.
+The version of this structure. This should be set to **STORAGE_DEVICE_POWER_CAP_VERSION_V1**.
 
 ### -field Size
 
-The size of this structure.
+The size of this structure, in bytes.
 
 ### -field Units
 
-The units of the MaxPower value.
+The units of the **MaxPower** value. This value can be either a percentage (0-100%) or an absolute value in milliwatts. The output buffer's **Units** value will match the value from the input buffer.
 
 ### -field MaxPower
 
-Contains the value of the actual maximum power consumption level of the device. This may be equal to, less than, or greater than the desired threshold, depending on what the device supports.
+On input, **MaxPower** specifies the desired maximum power consumption value for the storage device. On output, **MaxPower** contains the value of the actual maximum power consuption level of the device. The output buffer value may be equal to, less than, or greater than the desired threshold, depending on what the device supports.
 
+## -see-also
+
+[**IOCTL_STORAGE_DEVICE_POWER_CAP**](ni-ntddstor-ioctl_storage_device_power_cap.md)

@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_DEVICE_POWER_CAP (ntddstor.h)
 description: A driver can use IOCTL_STORAGE_DEVICE_POWER_CAP to specify a maximum operational power consumption level for a storage device.
 old-location: storage\ioctl_storage_device_power_cap.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 10/11/2022
 keywords: ["IOCTL_STORAGE_DEVICE_POWER_CAP IOCTL"]
 ms.keywords: IOCTL_STORAGE_DEVICE_POWER_CAP, IOCTL_STORAGE_DEVICE_POWER_CAP control, IOCTL_STORAGE_DEVICE_POWER_CAP control code [Storage Devices], ntddstor/IOCTL_STORAGE_DEVICE_POWER_CAP, storage.ioctl_storage_device_power_cap
 req.header: ntddstor.h
@@ -38,40 +38,32 @@ api_location:
  - Ntddstor.h
 api_name:
  - IOCTL_STORAGE_DEVICE_POWER_CAP
+ms.custom: engagement-fy23 
 ---
 
 # IOCTL_STORAGE_DEVICE_POWER_CAP IOCTL
 
-
 ## -description
 
-A driver can use <b>IOCTL_STORAGE_DEVICE_POWER_CAP</b> to specify a maximum operational power  consumption level for a storage device. The OS will do it's best to transition the device to a power state that will not exceed the given maximum. However, this depends on what the device supports. The actual maximum may be less than or greater than the desired maximum.
+A driver can use **IOCTL_STORAGE_DEVICE_POWER_CAP** to specify a maximum operational power consumption level for a storage device. The OS will do its best to transition the device to a power state that will not exceed the given maximum; however, this depends on what the device supports. The actual maximum may be less than or greater than the desired maximum.
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-<b>
-       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the parameter buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be >= <b>sizeof</b>(<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>).
-
-<b>
-       Irp->AssociatedIrp.SystemBuffer</b> contains <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a> data that specifies the maximum power. 
-
-<b>
-       Parameters.DeviceIoControl.OutputBufferLength</b> indicates the number of bytes that can be written to <b>Irp->AssociatedIrp.SystemBuffer</b>. <b>OutputBufferLength</b> must be <b>sizeof</b>(<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>).
+[**Irp->AssociatedIrp.SystemBuffer**](../wdm/ns-wdm-_irp.md) contains a [**STORAGE_DEVICE_POWER_CAP**](ns-ntddstor-_storage_device_power_cap.md) structure that specifies the maximum power.
 
 ### -input-buffer-length
 
-The length of .
+* **Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of the input parameter buffer at **Irp->AssociatedIrp.SystemBuffer**, which must be greater than or equal to ```sizeof(STORAGE_DEVICE_POWER_CAP)```.
 
 ### -output-buffer
 
-If the operation is successful, the output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> will contain a <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a> structure.
+If the operation is successful, the output buffer at **Irp->AssociatedIrp.SystemBuffer** will contain a [**STORAGE_DEVICE_POWER_CAP**](ns-ntddstor-_storage_device_power_cap.md) structure.
 
 ### -output-buffer-length
 
-<b>
-       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the parameter buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be >= <b>sizeof</b>(<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>).
+**Parameters.DeviceIoControl.OutputBufferLength** indicates the size, in bytes, of the output parameter buffer at **Irp->AssociatedIrp.SystemBuffer**. **OutputBufferLength** must be greater than or equal to ```sizeof(STORAGE_DEVICE_POWER_CAP)```.
 
 ### -in-out-buffer
 
@@ -79,12 +71,16 @@ If the operation is successful, the output buffer at <b>Irp->AssociatedIrp.Syste
 
 ### -status-block
 
-The <b>Information</b> field is set to the number of bytes returned. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_INVALID_DEVICE_REQUEST, STATUS_INVALID_PARAMETER, or STATUS_NOT_SUPPORTED.
+The [**Information**](../wdm/ns-wdm-_io_status_block.md) field is set to the number of bytes returned. The **Status** field is set to STATUS_SUCCESS, or possibly to STATUS_INVALID_DEVICE_REQUEST, STATUS_INVALID_PARAMETER, or STATUS_NOT_SUPPORTED.
+
+## -remarks
+
+For a reboot, the **IOCTL_STORAGE_DEVICE_POWER_CAP** effect is not persistent. For an NVMe device reset/power cycle, the IOCTL’s effect is persistent.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>
+[**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md)
 
+[**STORAGE_DEVICE_POWER_CAP**](ns-ntddstor-_storage_device_power_cap.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_device_power_cap_units">STORAGE_DEVICE_POWER_CAP_UNITS</a>
+[**STORAGE_DEVICE_POWER_CAP_UNITS**](ne-ntddstor-_storage_device_power_cap_units.md)
