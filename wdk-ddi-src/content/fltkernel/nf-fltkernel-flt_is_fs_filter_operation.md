@@ -1,8 +1,8 @@
 ---
 UID: NF:fltkernel.FLT_IS_FS_FILTER_OPERATION
-tech.root: ifs
+tech.root: ifsk
 title: FLT_IS_FS_FILTER_OPERATION
-ms.date: 10/07/2022
+ms.date: 10/11/2022
 targetos: Windows
 description: Learn more about the FLT_IS_FS_FILTER_OPERATION macro.
 prerelease: false

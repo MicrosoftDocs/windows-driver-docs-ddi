@@ -1,8 +1,8 @@
 ---
 UID: NF:fltkernel.FLT_IS_REISSUED_IO
-tech.root: ifs
+tech.root: ifsk
 title: FLT_IS_REISSUED_IO
-ms.date: 10/07/2022
+ms.date: 10/11/2022
 targetos: Windows
 description: Learn more about the FLT_IS_REISSUED_IO macro.
 prerelease: false

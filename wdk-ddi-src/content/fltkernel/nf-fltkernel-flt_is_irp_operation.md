@@ -1,8 +1,8 @@
 ---
 UID: NF:fltkernel.FLT_IS_IRP_OPERATION
-tech.root: ifs
+tech.root: ifsk
 title: FLT_IS_IRP_OPERATION
-ms.date: 10/07/2022
+ms.date: 10/11/2022
 targetos: Windows
 description: Learn more about the FLT_IS_IRP_OPERATION macro.
 prerelease: false
@@ -48,7 +48,9 @@ The FLT\_IS\_IRP\_OPERATION macro determines whether the given callback data str
 
 ## -parameters
 
-[in] A pointer to a callback data ([**FLT\_CALLBACK\_DATA**](ns-fltkernel-_flt_callback_data.md)) structure.### -param Data
+### -param Data
+
+[in] A pointer to a callback data ([**FLT\_CALLBACK\_DATA**](ns-fltkernel-_flt_callback_data.md)) structure.
 
 ## -returns
 
