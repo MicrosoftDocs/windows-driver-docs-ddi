@@ -260,7 +260,14 @@ Step 3 makes this practical only for Filter oplocks. The handle opened in step 3
 
 NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
-For the *CreateOptions* FILE_OPEN_BY_FILE_ID flag, an example device name will have the format: ```\??\C:\FileID\device\HardDiskVolume1\ObjectID```, where FileID is 8 bytes and ObjectID is 16 bytes:
+For the *CreateOptions* FILE_OPEN_BY_FILE_ID flag, an example device name will have the format: 
+
+```
+\??\C:\<FileID>
+\device\HardDiskVolume1\<ObjectID>
+```
+
+where *FileID* is 8 bytes and *ObjectID* is 16 bytes:
 
 * On NTFS, this can be a 8-byte or 16-byte reference number or object ID. A 16-byte reference number is the same as an 8-byte number padded with zeros.
 * On ReFS, this can be an 8-byte or 16-byte reference number. A 16-byte number is not related to an 8-byte number. Object IDs are not supported.
