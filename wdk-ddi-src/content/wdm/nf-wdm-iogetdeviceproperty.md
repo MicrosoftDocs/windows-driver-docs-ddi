@@ -65,6 +65,19 @@ Requests the address of the device on the bus. *PropertyBuffer* points to a ULON
 
 The interpretation of this address is bus-specific. The caller of this routine should call the routine again to request the **DevicePropertyBusTypeGuid**, or possibly the **DevicePropertyLegacyBusType**, so it can interpret the address. An address value of 0xFFFFFFFF indicates that the underlying bus driver did not supply a bus address for the device.
 
+The following list describes the information certain bus drivers store in the *PropertyBuffer* for their child devices:
+
+| Bus | Description |
+|-----|-------------|
+| 1394 | Does not supply an address because the addresses are volatile. Defaults to 0xFFFFFFFF. |
+| EISA | Slot Number (0-F). |
+| IDE | For an IDE device, the address contains the target ID and LUN. For an IDE channel, the address is zero or one (0 = primary channel and 1 = secondary channel). |
+| ISApnp | Does not supply an address. Defaults to 0xFFFFFFFF. |
+| PC Card (PCMCIA) | The socket number (typically 0x00 or 0x40). |
+| PCI | The device number in the high word and the function number in the low word. |
+| SCSI | The target ID. |
+| USB | The port number. |
+
 #### DevicePropertyBootConfiguration
 
 Requests the hardware resources assigned to the device by the firmware, in raw form. *PropertyBuffer* points to a [CM_RESOURCE_LIST](./ns-wdm-_cm_resource_list.md) structure.
