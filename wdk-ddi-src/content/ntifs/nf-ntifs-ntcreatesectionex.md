@@ -24,7 +24,6 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
-ms.custom: RS5
 f1_keywords:
  - NtCreateSectionEx
  - ntifs/NtCreateSectionEx
