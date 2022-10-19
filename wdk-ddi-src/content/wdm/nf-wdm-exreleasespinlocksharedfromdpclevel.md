@@ -2,7 +2,7 @@
 UID: NF:wdm.ExReleaseSpinLockSharedFromDpcLevel
 tech.root: kernel
 title: ExReleaseSpinLockSharedFromDpcLevel
-ms.date: 10/05/2022
+ms.date: 10/18/2022
 targetos: Windows
 description: Learn more about the ExReleaseSpinLockSharedFromDpcLevel routine.
 prerelease: false
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows Vista SP1
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -62,4 +62,4 @@ The caller should hold the spin lock only briefly before releasing it. For more 
 
 ## -see-also
 
-[**ExAcquireSpinLockSharedAtDpcLevel**](hh45nf-wdm-exacquirespinlocksharedatdpclevel.md)
+[**ExAcquireSpinLockSharedAtDpcLevel**](nf-wdm-exacquirespinlocksharedatdpclevel.md)

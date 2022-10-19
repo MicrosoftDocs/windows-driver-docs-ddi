@@ -2,7 +2,7 @@
 UID: NS:sddef._SD_RW_EXTENDED_ARGUMENT
 tech.root: sd
 title: SD_RW_EXTENDED_ARGUMENT
-ms.date: 10/06/2022
+ms.date: 10/18/2022
 targetos: Windows
 description: Learn more about the SD_RW_EXTENDED_ARGUMENT structure.
 prerelease: false
@@ -46,13 +46,13 @@ helpviewer_keywords:
 
 ## -description
 
-The SD\_RW\_DIRECT\_ARGUMENT structure is used in conjunction with the [**SdBusSubmitRequest**](../ntddsd/nf-ntddsd-sdbussubmitrequest.md) routine or the [**SdBusSubmitRequestAsync**](../ntddsd/nf-ntddsd-sdbussubmitrequestasync.md) routine to send a Secure Digital (SD) request to the bus driver that reads or writes to multiple registers.
+The SD_RW_DIRECT_ARGUMENT structure is used in conjunction with the [**SdBusSubmitRequest**](../ntddsd/nf-ntddsd-sdbussubmitrequest.md) routine or the [**SdBusSubmitRequestAsync**](../ntddsd/nf-ntddsd-sdbussubmitrequestasync.md) routine to send a Secure Digital (SD) request to the bus driver that reads or writes to multiple registers.
 
 ## -struct-fields
 
 ### -field u.bits.Count
 
-This member is ignored when submitting a device command to the bus driver. The transfer length is determined by SDBUS\_REQUEST\_PACKET.Parameters.DeviceCommand.Length, which is always in bytes irrespective of whether BlockMode is set to 0 or 1.
+This member is ignored when submitting a device command to the bus driver. The transfer length is determined by SDBUS_REQUEST_PACKET.Parameters.DeviceCommand.Length, which is always in bytes irrespective of whether BlockMode is set to 0 or 1.
 
 ### -field u.bits.Address
 
@@ -64,7 +64,7 @@ Indicates, when 0, that the operation reads or writes data at a single I/O regis
 
 ### -field u.bits.BlockMode
 
-Indicates, when set to 1, that this transfer is using block mode. The function block length property (SDP\_FUNCTION\_BLOCK\_LENGTH) specifies the size, in bytes, of a block.
+Indicates, when set to 1, that this transfer is using block mode. The function block length property (SDP_FUNCTION_BLOCK_LENGTH) specifies the size, in bytes, of a block.
 
 ### -field u.bits.Function
 
@@ -72,11 +72,11 @@ Contains the number of the function on the I/O card whose data space is accessed
 
 To retrieve a function number for an SD device, a device driver must do the following:
 
-1. Set the **RequestFunction** member of [**SDBUS\_REQUEST\_PACKET**](../ntddsd/ns-ntddsd-sdbus_request_packet.md) to an [**SD\_REQUEST\_FUNCTION**](../ntddsd/ne-ntddsd-sd_request_function.md) enumeration value of SDRF\_GET\_PROPERTY.
+1. Set the **RequestFunction** member of [**SDBUS_REQUEST_PACKET**](/previous-versions/windows/hardware/device-stage/drivers/ff537931(v=vs.85)) to an [**SD_REQUEST_FUNCTION**](../ntddsd/ne-ntddsd-sd_request_function.md) enumeration value of SDRF_GET_PROPERTY.
 
-1. Set the **Property** member of [**SDBUS\_REQUEST\_PACKET**](../ntddsd/ns-ntddsd-sdbus_request_packet.md) to SDP\_FUNCTION\_NUMBER.
+1. Set the **Property** member of [**SDBUS_REQUEST_PACKET**](/previous-versions/windows/hardware/device-stage/drivers/ff537931(v=vs.85)) to SDP_FUNCTION_NUMBER.
 
-1. Send the request to the bus driver by passing the initialized SDBUS\_REQUEST\_PACKET structure to either [**SdBusSubmitRequest**](../ntddsd/nf-ntddsd-sdbussubmitrequest.md) or [**SdBusSubmitRequestAsync**](../ntddsd/nf-ntddsd-sdbussubmitrequestasync.md).
+1. Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACKET structure to either [**SdBusSubmitRequest**](../ntddsd/nf-ntddsd-sdbussubmitrequest.md) or [**SdBusSubmitRequestAsync**](../ntddsd/nf-ntddsd-sdbussubmitrequestasync.md).
 
 ### -field u.bits.WriteToDevice
 
