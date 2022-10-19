@@ -2,7 +2,7 @@
 UID: NS:ntifs._FILE_REGION_OUTPUT
 tech.root: ifsk
 title: FILE_REGION_OUTPUT
-ms.date:10/18/2022
+ms.date: 10/18/2022
 targetos: Windows
 description: Learn more about the FILE_REGION_OUTPUT structure.
 prerelease: false
