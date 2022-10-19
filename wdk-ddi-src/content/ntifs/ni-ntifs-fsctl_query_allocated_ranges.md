@@ -61,7 +61,7 @@ To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel
 
 **FSCTL_QUERY_ALLOCATED_RANGES** returns an array of zero or more [**FILE_ALLOCATED_RANGE_BUFFER**](ns-ntifs-file_allocated_range_buffer.md) data elements in the buffer that **OutputBuffer** points to. The number of **FILE_ALLOCATED_RANGE_BUFFER** elements returned is computed by dividing the value returned in **LengthReturned** by ```sizeof(FILE_ALLOCATED_RANGE_BUFFER)```. The returned ranges must intersect the range specified in **InputBuffer**. Zero **FILE_ALLOCATED_RANGE_BUFFER** data elements are returned when the file has no allocated ranges.
 
-### Return values
+## Return values
 
 **FSCTL_QUERY_ALLOCATED_RANGES** returns STATUS_SUCCESS upon successful completion; otherwise it returns an error code. Common error codes follow.
 
