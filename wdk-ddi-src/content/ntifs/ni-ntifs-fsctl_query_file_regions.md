@@ -1,6 +1,6 @@
 ---
 UID: NI:ntifs.FSCTL_QUERY_FILE_REGIONS
-tech.root:ifsk
+tech.root: ifsk
 title: FSCTL_QUERY_FILE_REGIONS
 ms.date: 10/18/2022
 targetos: Windows
