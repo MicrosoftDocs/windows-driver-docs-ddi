@@ -51,35 +51,17 @@ To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel
 | **Instance** | [in] For **FltFsControlFile** only. An opaque instance pointer for the caller. This parameter is required and cannot be NULL. |
 | **FileObject** | [in] For **FltFsControlFile** only. A file object pointer for the file or directory that is the target of this request. This parameter is required and cannot be NULL. |
 | **FileHandle** | [in] For **ZwFsControlFile** only. File handle of the file or directory that is the target of this request. This parameter is required and cannot be NULL. |
+| **IoStatusBlock** | [out] For **ZwFsControlFile** only. Pointer to an [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure in which the final status of the request is returned. |
 | **FsControlCode** | [in] Set to **FSCTL_QUERY_FILE_REGIONS**. |
+| **InputBuffer** | [in/optional] Pointer to a [**FILE_REGION_INPUT**](ns-ntifs-file_region_input.md) structure that indicates the file region(s) to query. |
+|  **InputBufferLength** | [in] Size of the buffer that **InputBuffer** points to, in bytes. |
+| **OutputBuffer** | [out] Pointer to a [**FILE_REGION_OUTPUT**](ns-ntifs-file_region_output.md) structure in which the results of the query are returned. |
+| **OutputBufferLength** | [out] Size of the buffer that **OutputBuffer** points to, in bytes. |
+| **LengthReturned** | [out] Pointer to a caller-allocated variable that receives the size in bytes of the information returned in the buffer at **OutputBuffer**. |
 
-See below for the remaining FSCTL parameters.
+## Return values
 
-## -ioctlparameters
-
-### -input-buffer
-
-[in/optional] **InputBuffer** is a pointer to a [**FILE_REGION_INPUT**](ns-ntifs-file_region_input.md) structure that indicates the file region(s) to query.
-
-### -input-buffer-length
-
-[in] **InputBufferLength** is the size of the buffer that **InputBuffer** points to, in bytes.
-
-### -output-buffer
-
-[out] **OutputBuffer** is a pointer to a [**FILE_REGION_OUTPUT**](ns-ntifs-file_region_output.md) structure in which the results of the query are returned.
-
-### -output-buffer-length
-
-[out] **OutputBufferLength** is the size of the buffer that **OutputBuffer** points to, in bytes.
-
-### -in-out-buffer
-
-### -inout-buffer-length
-
-### -status-block
-
-[out] **LengthReturned** is a pointer to a caller-allocated variable that receives the size in bytes of the information returned in the buffer at **OutputBuffer**. |
+**FSCTL_QUERY_FILE_REGIONS** returns STATUS_SUCCESS upon successful completion; otherwise it returns an error code. On successful completion, the caller should first verify that **IoStatus.Information** is greater than or equal to **LengthReturned** before accessing the information returned in **OutputBuffer**.
 
 ## -see-also
 
