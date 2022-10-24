@@ -3,7 +3,7 @@ UID: NF:wdm.KeAcquireSpinLockAtDpcLevel~r1
 title: KeAcquireSpinLockAtDpcLevel macro (wdm.h)
 description: The KeAcquireSpinLockAtDpcLevel routine acquires a spin lock when the caller is already running at IRQL >= DISPATCH_LEVEL.
 tech.root: kernel
-ms.date: 10/24/2022
+ms.date: 10/23/2022
 keywords: ["KeAcquireSpinLockAtDpcLevel macro"]
 ms.keywords: KeAcquireSpinLockAtDpcLevel, KeAcquireSpinLockAtDpcLevel routine [Kernel-Mode Driver Architecture], KefAcquireSpinLockAtDpcLevel, k105_4b7eb718-f04d-42de-9dfc-92355cd2ebc9.xml, kernel.keacquirespinlockatdpclevel, wdm/KeAcquireSpinLockAtDpcLevel, wdm/KefAcquireSpinLockAtDpcLevel
 req.header: wdm.h
@@ -57,7 +57,7 @@ If a driver is running at IRQL <= APC_LEVEL, it should call **KeAcquireSpinLock*
 
 The caller should release the spin lock with [KeReleaseSpinLockFromDpcLevel](nf-wdm-kereleasespinlockfromdpclevel.md) as quickly as possible.
 
-For more information about spin locks, see [Spin Locks](/windows-hardware/drivers/kernel/introduction-to-spin-locks.md).
+For more information about spin locks, see [Spin Locks](/windows-hardware/drivers/kernel/introduction-to-spin-locks).
 
 ## -see-also
 
