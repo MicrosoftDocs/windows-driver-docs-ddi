@@ -44,7 +44,10 @@ api_name:
 
 ## -description
 
-Call [**IoCallDriver**](nf-wdm-iocalldriver.md) instead. Sends an IRP to the driver associated with a specified device object.
+> [!IMPORTANT]
+> Call [**IoCallDriver**](./nf-wdm-iocalldriver.md) instead.
+
+Sends an IRP to the driver associated with a specified device object.
 
 ## -parameters
 
