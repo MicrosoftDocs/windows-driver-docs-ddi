@@ -1,8 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugClient8.OpenDumpFileWide2
 title: IDebugClient8::OpenDumpFileWide2 (dbgeng.h)
-description: The OpenDumpFileWide2 
-old-location: debugger\idebugclient8_OpenDumpFileWide2.htm
+description: The OpenDumpFileWide2  method opens a dump file as a debugger target.
 tech.root: debugger
 ms.date: 10/26/2022
 keywords: ["IDebugClient8::OpenDumpFileWide2"]

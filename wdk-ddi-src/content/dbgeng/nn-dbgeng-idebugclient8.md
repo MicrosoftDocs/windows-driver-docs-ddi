@@ -1,7 +1,7 @@
 ---
 UID: NN:dbgeng.IDebugClient8
 title: IDebugClient8 (dbgeng.h)
-description: The IDebugClient8 interface is reserved for internal use.
+description: The IDebugClient8 interface
 tech.root: debugger
 ms.date: 10/26/2022
 keywords: ["IDebugClient8 interface"]
@@ -43,8 +43,6 @@ api_name:
 
 
 ## -description
-
-The <b>IDebugClient8</b> interface is reserved for internal use.
 
 ## -inheritance
 
