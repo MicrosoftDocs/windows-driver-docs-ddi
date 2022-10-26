@@ -58,7 +58,7 @@ Specifies the name of the dump file to open -- unless <i>FileHandle</i> is not z
 
 Specifies the file handle of the dump file to open.  If <i>FileHandle</i> is zero, <i>FileName</i> is used to open the dump file.  Otherwise, if <i>FileName</i> is not <b>NULL</b>, the engine returns it when queried for the name of the dump file.  If <i>FileHandle</i> is not zero and <i>FileName</i> is <b>NULL</b>, the engine will return <b>HandleOnly</b> for the file name.
 
-### -param FileHandle [in]
+### -param AlternateArch [in]
 
 Specifies the The AlternateArch argument which is an IMAGE_FILE_MACHINE_* constant. For more information, see [Image File Machine Constants](/windows/win32/sysinfo/image-file-machine-constants).
 
