@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>OpenDumpFileWide2</b> method is reserved for internal use.
+The <b>OpenDumpFileWide2</b> method opens a dump file as a debugger target.
 
 ## -parameters
 
