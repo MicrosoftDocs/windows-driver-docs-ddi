@@ -60,11 +60,11 @@ Specifies the file handle of the dump file to open.  If <i>FileHandle</i> is zer
 
 ### -param AlternateArch [in]
 
-Specifies the The AlternateArch argument which is an IMAGE_FILE_MACHINE_* constant. For more information, see [Image File Machine Constants](/windows/win32/sysinfo/image-file-machine-constants).
+Specifies the AlternateArch argument which is an IMAGE_FILE_MACHINE_* constant. For more information, see [Image File Machine Constants](/windows/win32/sysinfo/image-file-machine-constants).
 
 This parameter is only relevant if you are using OpenDumpFileWide2 to open an image file (not a dump file) which can be mapped into different architectures. For example ARM64X, where the DLL can be loaded into an x64/EC process or an ARM64 process. 
 
-By default, information about the DLL is presented using whatever architecture the image headers have defined.  If you call OpenDumpFileWide2 with a different architecture, the information will be presented using the the architecture that was passed.  This allows you to see the “fixups” which the OS would have applied if the DLL were loaded into that architecture of process.
+By default, information about the DLL is presented using whatever architecture the image headers have defined.  If you call OpenDumpFileWide2 with a different architecture, the information will be presented using the architecture that was passed.  This allows you to see the “fixups” which the OS would have applied if the DLL were loaded into that architecture of process.
 
 For more information about ARM64X, see [Arm64X PE files](/windows/arm/arm64x-pe).
 
