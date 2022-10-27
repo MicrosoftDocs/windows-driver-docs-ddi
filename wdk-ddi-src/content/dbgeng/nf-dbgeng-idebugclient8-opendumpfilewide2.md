@@ -3,7 +3,7 @@ UID: NF:dbgeng.IDebugClient8.OpenDumpFileWide2
 title: IDebugClient8::OpenDumpFileWide2 (dbgeng.h)
 description: The OpenDumpFileWide2  method opens a dump file as a debugger target.
 tech.root: debugger
-ms.date: 10/26/2022
+ms.date: 10/27/2022
 keywords: ["IDebugClient8::OpenDumpFileWide2"]
 ms.keywords: IDebugClient8 interface [Windows Debugging],OpenDumpFileWide2 method, IDebugClient8.OpenDumpFileWide2, IDebugClient8::OpenDumpFileWide2, OpenDumpFileWide2, OpenDumpFileWide2 method [Windows Debugging], OpenDumpFileWide2 method [Windows Debugging],IDebugClient8 interface, dbgeng/IDebugClient8::OpenDumpFileWide2, debugger.idebugclient8_OpenDumpFileWide2
 req.header: dbgeng.h
@@ -60,6 +60,12 @@ Specifies the file handle of the dump file to open.  If <i>FileHandle</i> is zer
 ### -param AlternateArch [in]
 
 Specifies the AlternateArch argument which is an IMAGE_FILE_MACHINE_* constant. For more information, see [Image File Machine Constants](/windows/win32/sysinfo/image-file-machine-constants).
+
+These two constants are supported.
+
+- IMAGE_FILE_MACHINE_AMD64: Load as if the image is running in an x64 process
+
+- IMAGE_FILE_MACHINE_ARM64: Load as if the image is running in an ARM64 process
 
 This parameter is only relevant if you are using OpenDumpFileWide2 to open an image file (not a dump file) which can be mapped into different architectures. For example ARM64X, where the DLL can be loaded into an x64/EC process or an ARM64 process. 
 
