@@ -582,7 +582,7 @@
     },
     {
       "source_path": "wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-netrequestqueuegetadapter.md",
-      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_URL": "/windows-hardware/drivers/ddi/_netvista",
       "redirect_document_id": false
     },
     {
