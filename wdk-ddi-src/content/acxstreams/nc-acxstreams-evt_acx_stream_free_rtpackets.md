@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_FREE_RTPACKETS
 tech.root: audio
 title: EVT_ACX_STREAM_FREE_RTPACKETS
-ms.date: 04/05/2022
+ms.date: 10/31/2022
 targetos: Windows
 description: The EvtAcxStreamFreeRtPackets event tells the driver to free the RtPackets that were allocated in a previous call to EvtAcxStreamAllocateRtPackets.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: IRQL <=PASSIVE_LEVEL (Requires Same)  
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

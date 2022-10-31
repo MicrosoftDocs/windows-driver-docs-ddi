@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_GET_CURRENT_PACKET
 tech.root: audio
 title: EVT_ACX_STREAM_GET_CURRENT_PACKET
-ms.date: 01/25/2022
+ms.date: 10/31/2022
 targetos: Windows
 description: EvtAcxStreamGetCurrentPacket tells the driver to indicate which packet (0-based) is currently being rendered to the hardware or is currently being filled by the capture hardware. 
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: IRQL <=PASSIVE_LEVEL (Requires Same) 
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

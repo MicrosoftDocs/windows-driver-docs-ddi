@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_PREPARE_HARDWARE
 tech.root: audio
 title: EVT_ACX_STREAM_PREPARE_HARDWARE
-ms.date: 07/28/2022
+ms.date: 10/31/2022
 targetos: Windows
 description: The EvtAcxStreamPrepareHardware event tells the driver to prepare the hardware for streaming.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: IRQL <=PASSIVE_LEVEL (Requires Same) 
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

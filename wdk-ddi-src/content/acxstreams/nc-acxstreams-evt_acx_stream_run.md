@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_RUN
 tech.root: audio
 title: EVT_ACX_STREAM_RUN
-ms.date: 01/25/2022
+ms.date: 10/31/2022
 targetos: Windows
 description: The EvtAcxStreamRun event tells the driver to transition the stream state from Pause to Run.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: IRQL <=PASSIVE_LEVEL (Requires Same) 
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

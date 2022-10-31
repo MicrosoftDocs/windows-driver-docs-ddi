@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_GET_CAPTURE_PACKET
 tech.root: audio
 title: EVT_ACX_STREAM_GET_CAPTURE_PACKET
-ms.date: 07/28/2022
+ms.date: 10/31/2022
 targetos: Windows
 description: EvtAcxStreamGetCapturePacket tells the driver to indicate which packet (0-based) was completely filled most recently, including the QPC value at the time the driver started filling the packet. 
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: IRQL <=PASSIVE_LEVEL (Requires Same) 
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
