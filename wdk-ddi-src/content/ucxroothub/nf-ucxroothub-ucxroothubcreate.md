@@ -48,21 +48,21 @@ Creates a root hub object for the specified host controller.
 
 ## -parameters
 
-### -param Controller
+### -param Controller [in]
 
-[in] A handle to the controller object. The client driver retrieved the handle in a previous call to [**UcxControllerCreate**](../ucxcontroller/nf-ucxcontroller-ucxcontrollercreate.md).
+A handle to the controller object. The client driver retrieved the handle in a previous call to [**UcxControllerCreate**](../ucxcontroller/nf-ucxcontroller-ucxcontrollercreate.md).
 
-### -param Config
+### -param Config [in]
 
-[in] A pointer to a [**UCX\_ROOTHUB\_CONFIG**](ns-ucxroothub-_ucx_roothub_config.md) structure that describes various configuration operations for creating the root hub object.
+A pointer to a [**UCX\_ROOTHUB\_CONFIG**](ns-ucxroothub-_ucx_roothub_config.md) structure that describes various configuration operations for creating the root hub object.
 
-### -param Attributes
+### -param Attributes [in, optional]
 
-[in, optional] A pointer to a caller-allocated [**WDF\_OBJECT\_ATTRIBUTES**](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure that specifies attributes for the root hub object.
+A pointer to a caller-allocated [**WDF\_OBJECT\_ATTRIBUTES**](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure that specifies attributes for the root hub object.
 
-### -param RootHub
+### -param RootHub [out]
 
-[out] A pointer to a variable that receives a handle to the new root hub object.
+A pointer to a variable that receives a handle to the new root hub object.
 
 ## -returns
 

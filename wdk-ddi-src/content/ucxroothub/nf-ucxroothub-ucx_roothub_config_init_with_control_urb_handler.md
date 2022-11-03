@@ -48,29 +48,29 @@ Initializes a [**UCX\_ROOTHUB\_CONFIG**](ns-ucxroothub-_ucx_roothub_config.md) w
 
 ## -parameters
 
-### -param Config
+### -param Config [out]
 
-[out] A pointer to a [**UCX\_ROOTHUB\_CONFIG**](ns-ucxroothub-_ucx_roothub_config.md) structure to initialize.
+A pointer to a [**UCX\_ROOTHUB\_CONFIG**](ns-ucxroothub-_ucx_roothub_config.md) structure to initialize.
 
-### -param EvtRootHubControlUrb
+### -param EvtRootHubControlUrb [in]
 
-[in] A pointer to client driver's implementation of the [*EVT\_UCX\_ROOTHUB\_CONTROL\_URB*](nc-ucxroothub-evt_ucx_roothub_control_urb.md) event callback.
+A pointer to client driver's implementation of the [*EVT\_UCX\_ROOTHUB\_CONTROL\_URB*](nc-ucxroothub-evt_ucx_roothub_control_urb.md) event callback.
 
-### -param EvtRootHubInterruptTx
+### -param EvtRootHubInterruptTx [in]
 
-[in] A pointer to client driver's implementation of the [*EVT\_UCX\_ROOTHUB\_INTERRUPT\_TX*](nc-ucxroothub-evt_ucx_roothub_interrupt_tx.md) event callback.
+A pointer to client driver's implementation of the [*EVT\_UCX\_ROOTHUB\_INTERRUPT\_TX*](nc-ucxroothub-evt_ucx_roothub_interrupt_tx.md) event callback.
 
-### -param EvtRootHubGetInfo
+### -param EvtRootHubGetInfo [in]
 
-[in] A pointer to client driver's implementation of the [*EVT\_UCX\_ROOTHUB\_GET\_INFO*](nc-ucxroothub-evt_ucx_roothub_get_info.md) event callback.
+A pointer to client driver's implementation of the [*EVT\_UCX\_ROOTHUB\_GET\_INFO*](nc-ucxroothub-evt_ucx_roothub_get_info.md) event callback.
 
-### -param EvtRootHubGet20PortInfo
+### -param EvtRootHubGet20PortInfo [in]
 
-[in] A pointer to client driver's implementation of the [*EVT\_UCX\_ROOTHUB\_GET\_20PORT\_INFO*](nc-ucxroothub-evt_ucx_roothub_get_20port_info.md) event callback.
+A pointer to client driver's implementation of the [*EVT\_UCX\_ROOTHUB\_GET\_20PORT\_INFO*](nc-ucxroothub-evt_ucx_roothub_get_20port_info.md) event callback.
 
-### -param EvtRootHubGet30PortInfo
+### -param EvtRootHubGet30PortInfo [in]
 
-[in] A pointer to client driver's implementation of the [*EVT\_UCX\_ROOTHUB\_GET\_30PORT\_INFO*](nc-ucxroothub-evt_ucx_roothub_get_30port_info.md) event callback.
+A pointer to client driver's implementation of the [*EVT\_UCX\_ROOTHUB\_GET\_30PORT\_INFO*](nc-ucxroothub-evt_ucx_roothub_get_30port_info.md) event callback.
 
 ## -remarks
 
