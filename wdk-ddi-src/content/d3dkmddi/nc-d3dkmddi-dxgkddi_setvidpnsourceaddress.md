@@ -4,7 +4,7 @@ tech.root: display
 title: DXGKDDI_SETVIDPNSOURCEADDRESS
 ms.date: 11/03/2022
 targetos: Windows
-description: 
+description: Learn more about the DXGKDDI_SETVIDPNSOURCEADDRESS function.
 prerelease: false
 req.assembly: 
 req.construct-type: function
