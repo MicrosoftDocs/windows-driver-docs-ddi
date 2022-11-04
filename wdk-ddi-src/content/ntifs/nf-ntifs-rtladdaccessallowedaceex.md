@@ -10,7 +10,7 @@ ms.keywords: RtlAddAccessAllowedAceEx, RtlAddAccessAllowedAceEx routine [Install
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available in Microsoft Windows 2000 and later Windows operating systems.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

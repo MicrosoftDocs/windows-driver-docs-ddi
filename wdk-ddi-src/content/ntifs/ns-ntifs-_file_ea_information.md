@@ -10,7 +10,7 @@ ms.keywords: "*PFILE_EA_INFORMATION, FILE_EA_INFORMATION, FILE_EA_INFORMATION st
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
-req.target-min-winverclnt: Supported in Windows XP and later versions of Windows.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

@@ -10,7 +10,7 @@ ms.keywords: CcSetLogHandleForFile, CcSetLogHandleForFile routine [Installable F
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available on Microsoft Windows XP and later.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

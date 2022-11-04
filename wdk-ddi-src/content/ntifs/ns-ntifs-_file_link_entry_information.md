@@ -10,7 +10,7 @@ ms.keywords: "*PFILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION, FILE_L
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating system.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

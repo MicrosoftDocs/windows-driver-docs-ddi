@@ -10,8 +10,8 @@ ms.keywords: SecMakeSPNEx2, SecMakeSPNEx2 function [Installable File System Driv
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
-req.target-min-winverclnt: This function is available on Windows Vista, Windows Server 2008, and later versions of the Windows operating systems.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

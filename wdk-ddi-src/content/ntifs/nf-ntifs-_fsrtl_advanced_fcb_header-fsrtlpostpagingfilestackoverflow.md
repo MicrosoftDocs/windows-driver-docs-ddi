@@ -10,7 +10,7 @@ ms.keywords: FsRtlPostPagingFileStackOverflow, FsRtlPostPagingFileStackOverflow 
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 and later versions of Windows operating systems.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

@@ -10,7 +10,7 @@ ms.keywords: FsRtlMupGetProviderInfoFromFileObject, FsRtlMupGetProviderInfoFromF
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: The FsRtlMupGetProviderInfoFromFileObject function is available in Windows Vista and later versions of Windows.
+req.target-min-winverclnt: The FsRtlMupGetProviderInfoFromFileObject function is Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

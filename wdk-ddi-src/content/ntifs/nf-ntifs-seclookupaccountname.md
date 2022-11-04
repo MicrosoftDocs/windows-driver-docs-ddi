@@ -10,7 +10,7 @@ ms.keywords: SecLookupAccountName, SecLookupAccountName function [Installable Fi
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: The SecLookupAccountName function is only available on Windows XP and later.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

@@ -4,6 +4,7 @@ title: D3D10DDIARG_CREATERESOURCE (d3d10umddi.h)
 description: The D3D10DDIARG_CREATERESOURCE structure describes the parameters that the user-mode display driver uses to create a resource.
 old-location: display\d3d10ddiarg_createresource.htm
 ms.date: 11/03/2022
+ms.custom: content-health
 keywords: ["D3D10DDIARG_CREATERESOURCE structure"]
 ms.keywords: D3D10DDIARG_CREATERESOURCE, D3D10DDIARG_CREATERESOURCE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3f91ee50-2bdd-4206-afe6-d8b79d3b7d80.xml, d3d10umddi/D3D10DDIARG_CREATERESOURCE, display.d3d10ddiarg_createresource
 req.header: d3d10umddi.h
