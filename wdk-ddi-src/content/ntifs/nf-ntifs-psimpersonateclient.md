@@ -10,7 +10,7 @@ ms.keywords: PsImpersonateClient, PsImpersonateClient routine [Installable File 
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

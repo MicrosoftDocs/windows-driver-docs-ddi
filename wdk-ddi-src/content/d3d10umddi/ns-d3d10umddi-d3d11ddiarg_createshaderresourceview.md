@@ -4,6 +4,7 @@ title: D3D11DDIARG_CREATESHADERRESOURCEVIEW (d3d10umddi.h)
 description: The D3D11DDIARG_CREATESHADERRESOURCEVIEW structure describes the shader resource view to create.
 old-location: display\d3d11ddiarg_createshaderresourceview.htm
 ms.date: 11/03/2022
+ms.custom: content-health
 keywords: ["D3D11DDIARG_CREATESHADERRESOURCEVIEW structure"]
 ms.keywords: D3D11DDIARG_CREATESHADERRESOURCEVIEW, D3D11DDIARG_CREATESHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_e1d9908f-af17-4d66-ba86-4782bb22458e.xml, d3d10umddi/D3D11DDIARG_CREATESHADERRESOURCEVIEW, display.d3d11ddiarg_createshaderresourceview
 req.header: d3d10umddi.h

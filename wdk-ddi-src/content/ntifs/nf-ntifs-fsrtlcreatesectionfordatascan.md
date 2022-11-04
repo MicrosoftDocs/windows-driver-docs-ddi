@@ -10,8 +10,8 @@ ms.keywords: FsRtlCreateSectionForDataScan, FsRtlCreateSectionForDataScan routin
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: The FsRtlCreateSectionForDataScan routine is available on Microsoft Windows Server 2003 SP1 and later, the Update Rollup for Windows 2000 Service Pack 4 (SP4), and the Filter Manager Rollup for Windows XP Service Pack 2 (SP2).
-req.target-min-winversvr: 
+req.target-min-winverclnt: Update Rollup for Windows 2000 Service Pack 4 (SP4); Filter Manager Rollup for Windows XP Service Pack 2 (SP2).
+req.target-min-winversvr: Microsoft Windows Server 2003 SP1
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

@@ -10,7 +10,7 @@ ms.keywords: FsRtlGetPerStreamContextPointer, FsRtlGetPerStreamContextPointer fu
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop
-req.target-min-winverclnt: The FsRtlGetPerStreamContextPointer macro is available on Microsoft Windows XP and later, and on the Update Rollup for Windows 2000 Service Pack 4 (SP4).
+req.target-min-winverclnt: Windows XP; Windows 2000 SP4 Update Rollup
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

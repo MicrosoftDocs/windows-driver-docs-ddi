@@ -10,7 +10,7 @@ ms.keywords: FilterCallbacks_afe97c84-8818-4577-ad94-8f8fdf044570.xml, PFSRTL_EX
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Vista and later versions of all Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
