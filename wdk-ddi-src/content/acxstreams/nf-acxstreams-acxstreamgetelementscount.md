@@ -58,6 +58,12 @@ Returns the number of elements for the object specified by the *Stream* paramete
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.1
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxstreams.h header](index.md)

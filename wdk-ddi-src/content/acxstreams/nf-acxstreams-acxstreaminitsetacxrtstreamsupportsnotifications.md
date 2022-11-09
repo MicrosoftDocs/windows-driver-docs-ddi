@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamInitSetAcxRtStreamSupportsNotifications
 tech.root: audio
 title: AcxStreamInitSetAcxRtStreamSupportsNotifications
-ms.date: 07/28/2022
+ms.date: 11/09/2022
 targetos: Windows
 description: The AcxStreamInitSetAcxRtStreamSupportsNotifications function is used to indicate that buffer notifications are supported.
 prerelease: true
@@ -50,10 +50,6 @@ The **AcxStreamInitSetAcxRtStreamSupportsNotifications** function is used to ind
 
 Address of a ACXSTREAM_INIT object used to define the stream initialization parameters. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
-## -returns
-
-VOID.
-
 ## -remarks
 
 ### Example
@@ -66,7 +62,6 @@ Example usage is shown below.
     //
     AcxStreamInitSetAcxRtStreamSupportsNotifications(StreamInit);
 ```
-
 
 ### ACX requirements
 

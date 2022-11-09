@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamResumeIoWithTag
 tech.root: audio
 title: AcxStreamResumeIoWithTag
-ms.date: 07/22/2022
+ms.date: 11/09/2022
 targetos: Windows
 description: The AcxStreamResumeIoWithTag function is used to resume IO for a stream. 
 prerelease: true
@@ -54,10 +54,6 @@ An existing ACXSTREAM Object. For more information, see [ACX - Summary of ACX Ob
 
 An optional Tag that is a driver-defined value that the framework includes with diagnostic tracing.
 
-## -returns
-
-Void
-
 ## -remarks
 
 ### Example
@@ -82,4 +78,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxstreams.h header](index.md)
-

@@ -58,6 +58,12 @@ Returns a string containing the symbolic link name for the ACX factory circuit o
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.1
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)

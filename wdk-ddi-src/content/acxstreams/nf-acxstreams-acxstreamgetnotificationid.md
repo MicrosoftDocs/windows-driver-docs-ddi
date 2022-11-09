@@ -58,6 +58,12 @@ Returns a GUID containing the Plug and Play notification ID for the object speci
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.1
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxstreams.h header](index.md)
