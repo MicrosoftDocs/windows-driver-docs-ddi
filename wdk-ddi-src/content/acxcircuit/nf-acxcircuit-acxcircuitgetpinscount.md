@@ -54,7 +54,7 @@ The circuit object for which to get the number of pins.
 
 ## -returns
 
-Returns the number of pins for the object specified on the *Circuit* parameter.
+Returns the number of pins for the object specified by the *Circuit* parameter.
 
 ## -remarks
 
