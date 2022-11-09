@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitGetPinsCount
 ms.date: 11/09/2022
 targetos: Windows
-description: Retrieves the number of pins for the specified circuit object.
+description: The AcxCircuitGetPinsCount function retrieves the number of pins for the specified circuit object.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Retrieves the number of pins for the specified circuit object.
+The **AcxCircuitGetPinsCount** function retrieves the number of pins for the specified circuit object.
 
 ## -parameters
 

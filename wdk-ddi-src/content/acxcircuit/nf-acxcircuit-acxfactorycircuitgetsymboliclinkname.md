@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitGetSymbolicLinkName
 ms.date: 11/09/2022
 targetos: Windows
-description: Retrieves the symbolic link name for the specified ACX factory circuit.
+description: The AcxFactoryCircuitGetSymbolicLinkName function retrieves the symbolic link name for the specified ACX factory circuit.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Retrieves the symbolic link name for the specified ACX factory circuit.
+The **AcxFactoryCircuitGetSymbolicLinkName** function retrieves the symbolic link name for the specified ACX factory circuit.
 
 ## -parameters
 

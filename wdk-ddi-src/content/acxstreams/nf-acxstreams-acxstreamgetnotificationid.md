@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamGetNotificationId
 ms.date: 11/09/2022
 targetos: Windows
-description: Retrieves the Plug and Play notification ID for the specified audio stream.
+description: The AcxStreamGetNotificationId function retrieves the Plug and Play notification ID for the specified audio stream.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Retrieves the Plug and Play notification ID for the specified audio stream.
+The **AcxStreamGetNotificationId** function retrieves the Plug and Play notification ID for the specified audio stream.
 
 ## -parameters
 

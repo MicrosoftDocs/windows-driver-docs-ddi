@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitGetSymbolicLinkName
 ms.date: 11/09/2022
 targetos: Windows
-description: Retrieves the symbolic link name for the specified circuit object.
+description: The AcxCircuitGetSymbolicLinkName function retrieves the symbolic link name for the specified circuit object.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Retrieves the symbolic link name for the specified circuit object.
+The **AcxCircuitGetSymbolicLinkName** function retrieves the symbolic link name for the specified circuit object.
 
 ## -parameters
 

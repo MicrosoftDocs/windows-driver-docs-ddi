@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamGetElementsCount
 ms.date: 11/09/2022
 targetos: Windows
-description: Retrieves the number of elements for the specified audio stream.
+description: The AcxStreamGetElementsCount function retrieves the number of elements for the specified audio stream.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Retrieves the number of elements for the specified audio stream.
+The **AcxStreamGetElementsCount** function retrieves the number of elements for the specified audio stream.
 
 ## -parameters
 
