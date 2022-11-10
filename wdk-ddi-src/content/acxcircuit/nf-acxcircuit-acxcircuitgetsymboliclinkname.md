@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitGetSymbolicLinkName
 tech.root: audio
 title: AcxCircuitGetSymbolicLinkName
-ms.date: 11/09/2022
+ms.date: 11/10/2022
 targetos: Windows
 description: The AcxCircuitGetSymbolicLinkName function retrieves the symbolic link name for the specified circuit object.
 prerelease: false
@@ -57,6 +57,11 @@ The circuit object for which to get the symbolic link name.
 Returns a string containing the symbolic link name for the object specified by the *Circuit* parameter.
 
 ## -remarks
+
+The symbolic link is valid:
+
+1. After the driver adds the circuit to the device, for single-circuit endpoints.
+1. When the ACX manager invokes ACX circuit initialization, for multi-circuit endpoints.
 
 ### Example
 

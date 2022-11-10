@@ -52,11 +52,11 @@ A pointer to an existing ACXSTREAM Object. For more information, see [ACX - Summ
 
 ### -param ObjectTag [in, optional]
 
-An optional Tag that is a driver-defined value that the framework includes with diagnostic tracing.
+An optional tag that is a driver-defined value that the framework includes with diagnostic tracing.
 
 ### -param Line [in]
 
-The Line number in the driver code that can be displayed for diagnostic purposes.
+The line number in the driver code that can be displayed for diagnostic purposes.
 
 ### -param File [in]
 
