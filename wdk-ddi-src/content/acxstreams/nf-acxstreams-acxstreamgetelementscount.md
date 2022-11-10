@@ -48,7 +48,7 @@ The **AcxStreamGetElementsCount** function retrieves the number of elements for 
 
 ## -parameters
 
-### -param Stream
+### -param Stream [in]
 
 The ACX stream object for which to retrieve the number of audio streams.
 

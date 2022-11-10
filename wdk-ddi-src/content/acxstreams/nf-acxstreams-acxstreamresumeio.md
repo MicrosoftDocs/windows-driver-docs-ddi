@@ -46,7 +46,7 @@ The **AcxStreamResumeIo** function is used to resume IO for a stream.
 
 ## -parameters
 
-### -param Stream
+### -param Stream [in]
 
 An existing ACXSTREAM Object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 

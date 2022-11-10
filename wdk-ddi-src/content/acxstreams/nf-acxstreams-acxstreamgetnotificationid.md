@@ -48,7 +48,7 @@ The **AcxStreamGetNotificationId** function retrieves the Plug and Play notifica
 
 ## -parameters
 
-### -param Stream
+### -param Stream [in]
 
 The ACX stream object for which to retrieve the Plug and Play notification ID.
 
@@ -57,6 +57,21 @@ The ACX stream object for which to retrieve the Plug and Play notification ID.
 Returns a GUID containing the Plug and Play notification ID for the object specified by the *Stream* parameter.
 
 ## -remarks
+
+### Example
+
+Example usage is shown below.
+
+```cpp
+...
+    _In_ ACXSTREAM Stream,
+...
+
+    GUID        notificationId;
+...
+
+    notificationId = AcxStreamGetNotificationId(Stream);
+```
 
 ### ACX requirements
 

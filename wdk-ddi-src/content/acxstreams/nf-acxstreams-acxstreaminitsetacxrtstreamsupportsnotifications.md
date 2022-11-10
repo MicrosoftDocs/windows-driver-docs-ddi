@@ -46,7 +46,7 @@ The **AcxStreamInitSetAcxRtStreamSupportsNotifications** function is used to ind
 
 ## -parameters
 
-### -param StreamInit
+### -param StreamInit [in]
 
 Address of a ACXSTREAM_INIT object used to define the stream initialization parameters. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 

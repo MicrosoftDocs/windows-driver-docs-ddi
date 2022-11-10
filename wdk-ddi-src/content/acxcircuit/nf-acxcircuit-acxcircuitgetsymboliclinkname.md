@@ -48,7 +48,7 @@ The **AcxCircuitGetSymbolicLinkName** function retrieves the symbolic link name 
 
 ## -parameters
 
-### -param Circuit
+### -param Circuit [in]
 
 The circuit object for which to get the symbolic link name.
 
@@ -57,6 +57,18 @@ The circuit object for which to get the symbolic link name.
 Returns a string containing the symbolic link name for the object specified by the *Circuit* parameter.
 
 ## -remarks
+
+### Example
+
+Example usage is shown below.
+
+```cpp
+...
+    _In_ ACXCIRCUIT Circuit,
+...
+
+    WDFSTRING wdfLink = AcxCircuitGetSymbolicLinkName(Circuit);
+```
 
 ### ACX requirements
 

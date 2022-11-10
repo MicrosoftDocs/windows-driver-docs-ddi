@@ -48,7 +48,7 @@ The **AcxCircuitGetPinsCount** function retrieves the number of pins for the spe
 
 ## -parameters
 
-### -param Circuit
+### -param Circuit [in]
 
 The circuit object for which to get the number of pins.
 

@@ -46,25 +46,25 @@ The **AcxStreamResumeIoActual** function is used to resume IO for a stream.
 
 ## -parameters
 
-### -param Stream
+### -param Stream [in]
 
 A pointer to an existing ACXSTREAM Object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
-### -param ObjectTag
+### -param ObjectTag [in, optional]
 
 An optional Tag that is a driver-defined value that the framework includes with diagnostic tracing.
 
-### -param Line
+### -param Line [in]
 
 The Line number in the driver code that can be displayed for diagnostic purposes.
 
-### -param File
+### -param File [in]
 
 The file name in the driver code that can be displayed for diagnostic purposes.
 
 ## -remarks
 
-It is not recommended to use this version of the resume IO call, but rather [AcxStreamResumeIoWithTag](nf-acxstreams-acxstreamresumeiowithtag.md).
+Don't use this version of the resume IO call, but rather [AcxStreamResumeIoWithTag](nf-acxstreams-acxstreamresumeiowithtag.md).
 
 ### ACX requirements
 

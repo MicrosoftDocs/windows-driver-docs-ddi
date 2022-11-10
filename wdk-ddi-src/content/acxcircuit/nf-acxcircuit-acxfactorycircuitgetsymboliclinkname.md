@@ -48,7 +48,7 @@ The **AcxFactoryCircuitGetSymbolicLinkName** function retrieves the symbolic lin
 
 ## -parameters
 
-### -param Circuit
+### -param Circuit [in]
 
 The ACX factory circuit for which to retrieve the symbolic link name.
 
