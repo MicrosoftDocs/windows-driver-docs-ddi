@@ -42,7 +42,7 @@ api_name:
 ## -description
 
 > [!IMPORTANT]
-> The The **IWiaLog::Log** method is obsolete and is no longer supported. Use the [**Diagnostic Log Macros**](/windows-hardware/drivers/image/wia-diagnostic-log-macros) instead.
+> The **IWiaLog::Log** method is obsolete and is no longer supported. Use the [**Diagnostic Log Macros**](/windows-hardware/drivers/image/wia-diagnostic-log-macros) instead.
 
 The **IWiaLog::Log** method writes a diagnostic log message to *Wiaservc.log*.
 
