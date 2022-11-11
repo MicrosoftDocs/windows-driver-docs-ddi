@@ -2,7 +2,7 @@
 UID: NC:acxrequest.EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST
 tech.root: audio
 title: EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST
-ms.date: 10/31/2022
+ms.date: 11/10/2022
 targetos: Windows
 description: The EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST callback is used by the driver to handle event notifications. 
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxrequest.h
 req.idl:
 req.include-header: 
-req.irql: IRQL <=PASSIVE_LEVEL
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

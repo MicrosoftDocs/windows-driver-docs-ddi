@@ -13,7 +13,7 @@ req.dll:
 req.header: acxrequest.h
 req.idl: 
 req.include-header: 
-req.irql: IRQL <=PASSIVE_LEVEL
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

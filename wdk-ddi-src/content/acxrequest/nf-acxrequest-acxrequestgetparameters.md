@@ -2,7 +2,7 @@
 UID: NF:acxrequest.AcxRequestGetParameters
 tech.root: audio
 title: AcxRequestGetParameters
-ms.date: 07/26/2022
+ms.date: 11/10/2022
 targetos: Windows
 description: The AcxRequestGetParameters function gets ACX request parameters from a WDFREQUEST.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxrequest.h
 req.idl: 
 req.include-header: 
-req.irql: IRQL <=DISPATCH_LEVEL
+req.irql: DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
