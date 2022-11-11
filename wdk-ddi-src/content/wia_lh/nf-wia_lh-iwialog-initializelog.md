@@ -58,4 +58,4 @@ If the method succeeds, it returns S_OK. If the method fails, it returns a stand
 
 ## -remarks
 
-The minidriver should call [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) or [CoCreateInstanceEx](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstanceex) to obtain the [IWiaLog](/windows/win32/api/wia_xp/nn-wia_xp-iwialog) interface.
+The minidriver should call [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) or [CoCreateInstanceEx](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstanceex) to obtain the [**IWiaLog**](/windows/win32/api/wia_xp/nn-wia_xp-iwialog) interface.

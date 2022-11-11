@@ -1,9 +1,8 @@
 ---
-description: "Learn more about: Wia_Lh.h header"
 UID: NA:wia_lh
 title: Wia_Lh.h header
-ms.assetid: 99eafa9d-3584-3ffa-9589-0fb46987965a
-ms.date: 05/09/2018
+description: "Learn more about: Wia_Lh.h header"
+ms.date: 11/10/2022
 keywords: ["Wia_Lh.h header"]
 ms.keywords: 
 ms.topic: portal
@@ -17,10 +16,8 @@ api_name:
 
 # Wia_Lh.h header
 
-
 ## -description
 
 This header is used by image. For more information, see:
 
 - [Imaging devices](../_image/index.md)
-
