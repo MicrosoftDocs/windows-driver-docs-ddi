@@ -1,11 +1,11 @@
 ---
-UID: NF:acxstreams.AcxStreamResumeIo
+UID: NF:acxstreams.AcxStreamGetElementsCount
 tech.root: audio
-title: AcxStreamResumeIo
+title: AcxStreamGetElementsCount
 ms.date: 11/09/2022
 targetos: Windows
-description: The AcxStreamResumeIo function is used to resume IO for a stream.
-prerelease: true
+description: The AcxStreamGetElementsCount function retrieves the number of elements for the specified audio stream.
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -32,35 +32,38 @@ api_type:
 api_location:
  - acxstreams.h
 api_name:
- - AcxStreamResumeIo
+ - AcxStreamGetElementsCount
 f1_keywords:
- - AcxStreamResumeIo
- - acxstreams/AcxStreamResumeIo
+ - AcxStreamGetElementsCount
+ - acxstreams/AcxStreamGetElementsCount
 dev_langs:
  - c++
+helpviewer_keywords:
+ - AcxStreamGetElementsCount
 ---
 
 ## -description
 
-The **AcxStreamResumeIo** function is used to resume IO for a stream.
+The **AcxStreamGetElementsCount** function retrieves the number of elements for the specified audio stream.
 
 ## -parameters
 
 ### -param Stream [in]
 
-An existing ACXSTREAM Object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+The ACX stream object for which to retrieve the number of audio streams.
+
+## -returns
+
+Returns the number of elements for the object specified by the *Stream* parameter.
 
 ## -remarks
 
-It is not recommended to use this version of the resume IO call, but rather [AcxStreamResumeIoWithTag](nf-acxstreams-acxstreamresumeiowithtag.md).
-
 ### ACX requirements
 
-**Minimum ACX version:** 1.0
+**Minimum ACX version:** 1.1
 
 For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 
-[acxstreams.h header](index.md)
-[AcxStreamResumeIoWithTag](nf-acxstreams-acxstreamresumeiowithtag.md)
+- [acxstreams.h header](index.md)
