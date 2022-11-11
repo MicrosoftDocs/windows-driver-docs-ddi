@@ -1,10 +1,10 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_CORE
-title: _FEATURE_DATA_CORE (ntddmmc.h)
+title: FEATURE_DATA_CORE (ntddmmc.h)
 description: The FEATURE_DATA_CORE structure holds data for the Core feature descriptor.
 old-location: storage\feature_data_core.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 11/10/2022
 keywords: ["FEATURE_DATA_CORE structure"]
 ms.keywords: "*PFEATURE_DATA_CORE, FEATURE_DATA_CORE, FEATURE_DATA_CORE structure [Storage Devices], PFEATURE_DATA_CORE, PFEATURE_DATA_CORE structure pointer [Storage Devices], _FEATURE_DATA_CORE, ntddmmc/FEATURE_DATA_CORE, ntddmmc/PFEATURE_DATA_CORE, storage.feature_data_core, structs-CD-ROM_1b2608f2-398d-4733-b319-a92d932504e7.xml"
 req.header: ntddmmc.h
@@ -46,40 +46,44 @@ api_name:
  - FEATURE_DATA_CORE
 ---
 
-# _FEATURE_DATA_CORE structure
-
+# FEATURE_DATA_CORE structure
 
 ## -description
 
-The FEATURE_DATA_CORE structure holds data for the Core feature descriptor.
+The **FEATURE_DATA_CORE** structure holds data for the feature named "Core" by the *Multimedia Commands - 3 (MMC-3)* specification.
 
 ## -struct-fields
 
 ### -field Header
 
-Contains a <a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure with header information for this feature descriptor.
+Contains a [**FEATURE_HEADER**](ns-ntddmmc-_feature_header.md) structure with header information for this feature descriptor.
 
 ### -field PhysicalInterface
 
-Must be set to the current communication path between initiator and device, as defined in the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. The bytes of this array are arranged in big-endian order. <b>PhysicalInterface</b>[0] contains the most significant byte, and <b>PhysicalInterface</b>[3] contains the least significant byte.
+Must be set to the current communication path between initiator and device, as defined in the *Multimedia Commands - 4 (MMC-4)* specification. The bytes of this array are arranged in big-endian order. **PhysicalInterface**[0] contains the most significant byte, and **PhysicalInterface**[3] contains the least significant byte.
 
 ### -field DeviceBusyEvent
 
+Value that specifies a *Device Busy Event* Descriptor, as defined in the *Multimedia Commands - 4 (MMC-4)* specification. Device busy events notify the initiator of commands that are executing but that require an abnormally long time to complete.
+
 ### -field INQUIRY2
+
+Value that specifies the INQUIRY command operation code, as defined in the *Multimedia Commands - 4 (MMC-4)* specification.
 
 ### -field Reserved1
 
+Reserved; do not use.
+
 ### -field Reserved2
+
+Reserved; do not use.
 
 ## -remarks
 
-Indicates the feature named "Core" by the <i>MMC-3 </i>specification. This feature encompasses the basic functionality which is mandatory for all devices that support the <i>MMC-3</i> standard. See the <i>MMC-3</i> specification for a description of the capabilities included in the Core feature.
+The MMC-3 Core feature encompasses the basic functionality which is mandatory for all devices that support the *MMC-3* standard. See the *MMC-3* specification for a description of the capabilities included in the Core feature.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
+[**FEATURE_HEADER**](ns-ntddmmc-_feature_header.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
-
+[**FEATURE_NUMBER**](ne-ntddmmc-_feature_number.md)
