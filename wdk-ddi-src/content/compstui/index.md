@@ -2,8 +2,7 @@
 description: "Learn more about: Compstui.h header"
 UID: NA:compstui
 title: Compstui.h header
-ms.assetid: b7caed49-be56-3b9d-90b7-dce65c62402e
-ms.date: 05/09/2018
+ms.date: 11/14/2022
 keywords: ["Compstui.h header"]
 ms.keywords: 
 ms.topic: portal
@@ -17,10 +16,10 @@ api_name:
 
 # Compstui.h header
 
-
 ## -description
 
-This header is used by print. For more information, see:
+This header is used by print drivers.
+
+For more information, see:
 
 - [Print devices](../_print/index.md)
-

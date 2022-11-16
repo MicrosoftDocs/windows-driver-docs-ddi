@@ -1,9 +1,9 @@
 ---
 UID: NS:acpitabl._PCC_REDUCED_1_SUBSPACE
-title: _PCC_REDUCED_1_SUBSPACE (acpitabl.h)
-ms.date: 08/12/2020
+title: PCC_REDUCED_1_SUBSPACE (acpitabl.h)
+ms.date: 11/11/2022
 ms.keywords: _PCC_REDUCED_1_SUBSPACE, PCC_REDUCED_1_SUBSPACE, *PPCC_REDUCED_1_SUBSPACE
-description: Contains information about the the ACPI Platform Communication Channel (PCC) HW-reduced Type 1 subspace.
+description: Contains information about the ACPI Platform Communication Channel (PCC) HW-reduced Type 1 subspace.
 tech.root: acpi
 req.construct-type: structure
 req.ddi-compliance: 
@@ -40,12 +40,9 @@ f1_keywords:
  - acpitabl/PCC_REDUCED_1_SUBSPACE
 ---
 
-# _PCC_REDUCED_1_SUBSPACE structure
-
-
 ## -description
 
-The **PCC_REDUCED_1_SUBSPACE** structure contains information about the the ACPI Platform Communication Channel (PCC) HW-reduced Type 1 subspace.
+The **PCC_REDUCED_1_SUBSPACE** structure contains information about the ACPI Platform Communication Channel (PCC) HW-reduced Type 1 subspace.
 
 ## -struct-fields
 
@@ -112,4 +109,3 @@ The minimum request turnaround time value.
 ## -remarks
 
 ## -see-also
-

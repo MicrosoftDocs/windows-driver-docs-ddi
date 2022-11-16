@@ -1,10 +1,10 @@
 ---
 UID: NF:sti.StiCreateInstanceW
 tech.root: image
-title: StiCreateInstanceW
-ms.date: 10/06/2022
+title: StiCreateInstanceW (sti.h)
+ms.date: 11/14/2022
 targetos: Windows
-description: Learn more about the IStillImage::StiCreateInstance method.
+description: Learn more about the StiCreateInstance function.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -12,7 +12,7 @@ req.ddi-compliance:
 req.dll: 
 req.header: sti.h
 req.idl: 
-req.include-header: 
+req.include-header: Sti.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: 
@@ -47,7 +47,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **IStillImage::StiCreateInstance** method creates an instance of the COM object that defines the **IStillImage** interface, and returns a pointer to the interface.
+The **StiCreateInstance** function creates an instance of the COM object that defines the **IStillImage** interface, and returns a pointer to the interface.
 
 ## -parameters
 
@@ -73,7 +73,7 @@ If the operation succeeds, the method returns S\_OK. Otherwise, it returns one o
 
 ## -remarks
 
-For an application to use the **IStillImage** interface, it must first call **IStillImage::StiCreateInstance** to get a pointer to the interface. The pointer received in *ppSti* is used subsequently when calling **IStillImage** methods, as illustrated in the following example:
+For an application to use the **IStillImage** interface, it must first call the **StiCreateInstance** function to get a pointer to the interface. The pointer received in *ppSti* is used subsequently when calling **IStillImage** methods, as illustrated in the following example:
 
 ```cpp
 PSTI pSti = NULL;
@@ -84,7 +84,7 @@ HRESULT hres = StiCreateInstance(GetModuleHandle(NULL), STI_VERSION, &pSti, NULL
 hhes = pSti->GetDeviceList(0, 0, &dwStiTotal, &pStiInfo);
 ```
 
-If you want to create an aggregate COM object that includes **IStillImage**, you must supply a pointer to the "controlling unknown" in *punkOuter*. In most cases you will not be creating an aggregate object, so *punkOuter* should be **NULL**. Object aggregation and the controlling unknown are described in the Microsoft Windows SDK documentation and in the *Component Object Model Specification*.
+If you want to create an aggregate COM object that includes **IStillImage**, you must supply a pointer to the "controlling unknown" in *punkOuter*. In most cases you will not be creating an aggregate object, so *punkOuter* should be **NULL**. Object aggregation and the controlling unknown are described in the [Aggregation](/windows/win32/com/aggregation) article and in the *Component Object Model Specification*.
 
 ## -see-also
 

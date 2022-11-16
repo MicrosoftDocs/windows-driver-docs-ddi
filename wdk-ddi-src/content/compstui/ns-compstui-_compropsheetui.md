@@ -1,10 +1,9 @@
 ---
 UID: NS:compstui._COMPROPSHEETUI
-title: _COMPROPSHEETUI (compstui.h)
+title: COMPROPSHEETUI (compstui.h)
 description: The COMPROPSHEETUI structure is used as an input parameter to CPSUI's ComPropSheet function, if the function code is CPSFUNC_ADD_PCOMPROPSHEETUI. All structure members must be supplied by the caller of ComPropSheet.
-old-location: print\compropsheetui.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 11/15/2022
 keywords: ["COMPROPSHEETUI structure"]
 ms.keywords: "*PCOMPROPSHEETUI, COMPROPSHEETUI, COMPROPSHEETUI structure [Print Devices], PCOMPROPSHEETUI, PCOMPROPSHEETUI structure pointer [Print Devices], _COMPROPSHEETUI, compstui/COMPROPSHEETUI, compstui/PCOMPROPSHEETUI, cpsuifnc_9b1aab20-fcd7-41b5-8bc5-959ae606d6b8.xml, print.compropsheetui"
 req.header: compstui.h
@@ -46,44 +45,29 @@ api_name:
  - COMPROPSHEETUI
 ---
 
-# _COMPROPSHEETUI structure
-
-
 ## -description
 
-The COMPROPSHEETUI structure is used as an input parameter to CPSUI's <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function, if the function code is <a href="/previous-versions/ff546388(v=vs.85)">CPSFUNC_ADD_PCOMPROPSHEETUI</a>. All structure members must be supplied by the caller of <i>ComPropSheet</i>.
+The **COMPROPSHEETUI** structure is used as an input parameter to CPSUI's [ComPropSheet](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet) function, if the function code is [CPSFUNC_ADD_PCOMPROPSHEETUI](/previous-versions/ff546388(v=vs.85)). All structure members must be supplied by the caller of *ComPropSheet*.
 
 ## -struct-fields
 
 ### -field cbSize
 
-Caller-supplied size, in bytes, of the COMPROPSHEETUI structure.
+Caller-supplied size, in bytes, of the **COMPROPSHEETUI** structure.
 
 ### -field Flags
 
 Optional caller-supplied bit flags, as described in the following list:
 
-
-
-
-
 #### CPSUIF_ABOUT_CALLBACK
 
-If set, the page's callback function (pointed to by the structure's <b>pfnCallback</b> member), supports CPSUICB_REASON_ABOUT, so CPSUI will call the callback function if the user clicks on the page's <b>About</b> button. (CPSUI supplies an <b>About</b> button for each treeview root node.)
-
-
-
-
+If set, the page's callback function (pointed to by the structure's **pfnCallback** member), supports CPSUICB_REASON_ABOUT, so CPSUI will call the callback function if the user clicks on the page's **About** button. (CPSUI supplies an **About** button for each treeview root node.)
 
 #### CPSUIF_ICONID_AS_HICON
 
-If set, the structure's <b>IconID</b> member contains an icon handle.
+If set, the structure's **IconID** member contains an icon handle.
 
-If not set, the <b>IconID</b> member contains an icon resource identifier.
-
-
-
-
+If not set, the **IconID** member contains an icon resource identifier.
 
 #### CPSUIF_UPDATE_PERMISSION
 
@@ -99,103 +83,64 @@ Caller-supplied pointer to a NULL-terminated text string representing the applic
 
 ### -field UserData
 
-Optional caller-supplied value, which CPSUI places in a <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_cpsuicbparam">CPSUICBPARAM</a> structure's <b>UserData</b> member when calling the function pointed to by <b>pfnCallBack</b>.
+Optional caller-supplied value, which CPSUI places in a [CPSUICBPARAM](/windows-hardware/drivers/ddi/compstui/ns-compstui-_cpsuicbparam) structure's **UserData** member when calling the function pointed to by **pfnCallBack**.
 
 ### -field pHelpFile
 
-Caller-supplied pointer to a NULL-terminated text string representing a path to a help file. For printer interface DLLs, this is typically the help file path obtained by calling GetPrinterDriver (described in the Microsoft Windows SDK documentation).
+Caller-supplied pointer to a NULL-terminated text string representing a path to a help file. For printer interface DLLs, this is typically the help file path obtained by calling [GetPrinterDriver](/windows/win32/printdocs/getprinterdriver).
 
-The help file is indexed by values contained in the <b>HelpIndex</b> member of <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structures.
+The help file is indexed by values contained in the **HelpIndex** member of [OPTITEM](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) structures.
 
 ### -field pfnCallBack
 
-Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback">_CPSUICALLBACK</a>-typed callback function, which CPSUI calls when a user modifies the page's option values.
+Caller-supplied pointer to a [_CPSUICALLBACK](/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback)-typed callback function, which CPSUI calls when a user modifies the page's option values.
 
-Can be used only if <b>pDlgPage</b> identifies a CPSUI-supplied <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage">DLGPAGE</a> structure, or if the <b>DlgProc</b> member of an application-supplied DLGPAGE structure is <b>NULL</b>.
+Can be used only if **pDlgPage** identifies a CPSUI-supplied [DLGPAGE](/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage) structure, or if the **DlgProc** member of an application-supplied DLGPAGE structure is **NULL**.
 
 ### -field pOptItem
 
-Caller-supplied pointer to an array of <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structures describing the page's options.
+Caller-supplied pointer to an array of [OPTITEM](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) structures describing the page's options.
 
 ### -field pDlgPage
 
-This member specifies <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage">DLGPAGE</a> structures that describe pages to be added to the property sheet. It can be either of the following:
+This member specifies [DLGPAGE](/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage) structures that describe pages to be added to the property sheet. It can be either of the following:
 
-<ul>
-<li>
-A pointer to an array of DLGPAGE structures.
+- A pointer to an array of DLGPAGE structures.
 
-</li>
-<li>
-One of the pointers that is described in the following list. These pointers reference predefined DLGPAGE structures, supplied by CPSUI for use by printer interface DLLs.
+- One of the pointers that is described in the following list. These pointers reference predefined DLGPAGE structures, supplied by CPSUI for use by printer interface DLLs.
 
-<dl>
-<dt><a id="CPSUI_PDLGPAGE_ADVDOCPROP"></a><a id="cpsui_pdlgpage_advdocprop"></a>CPSUI_PDLGPAGE_ADVDOCPROP</dt>
-<dd>
-Defines one treeview page whose tab reads <b>Advanced</b>.
+  - CPSUI_PDLGPAGE_ADVDOCPROP
 
-For use only by a <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets">DrvDocumentPropertySheets</a> function.
+    Defines one treeview page whose tab reads **Advanced**. For use only by a [DrvDocumentPropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets) function.
 
-</dd>
-</dl>
+  - CPSUI_PDLGPAGE_DOCPROP  
+  
+    Defines three pages, whose tabs are **Layout**, **Paper/Quality**, and **Advanced**. The **Advanced** page is a treeview. For use only by a [DrvDocumentPropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets) function.
 
+  - CPSUI_PDLGPAGE_PRINTERPROP  
+  
+    Defines one treeview page whose tab reads **Device Settings**. For use only by a [DrvDevicePropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicepropertysheets) function.
 
-<dl>
-<dt><a id="CPSUI_PDLGPAGE_DOCPROP"></a><a id="cpsui_pdlgpage_docprop"></a>CPSUI_PDLGPAGE_DOCPROP</dt>
-<dd>
-Defines three pages, whose tabs are <b>Layout</b>, <b>Paper/Quality</b>, and <b>Advanced</b>. The <b>Advanced</b> page is a treeview.
+  - CPSUI_PDLGPAGE_TREEVIEWONLY
 
-For use only by a <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets">DrvDocumentPropertySheets</a> function.
-
-</dd>
-</dl>
-
-
-<dl>
-<dt><a id="CPSUI_PDLGPAGE_PRINTERPROP"></a><a id="cpsui_pdlgpage_printerprop"></a>CPSUI_PDLGPAGE_PRINTERPROP</dt>
-<dd>
-Defines one treeview page whose tab reads <b>Device Settings</b>.
-
-For use only by a <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicepropertysheets">DrvDevicePropertySheets</a> function.
-
-</dd>
-</dl>
-
-
-<dl>
-<dt><a id="CPSUI_PDLGPAGE_TREEVIEWONLY"></a><a id="cpsui_pdlgpage_treeviewonly"></a>CPSUI_PDLGPAGE_TREEVIEWONLY</dt>
-<dd>
-Defines one treeview page.
-
-</dd>
-</dl>
-
-
-</li>
-</ul>
+    Defines one treeview page.
 
 ### -field cOptItem
 
-Caller-supplied number of <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structures pointed to by <b>pOptItem</b>.
+Caller-supplied number of [OPTITEM](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) structures pointed to by **pOptItem**.
 
 ### -field cDlgPage
 
-Caller-supplied number of <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage">DLGPAGE</a> structures pointed to by <b>pDlgPage</b>. Not used if <b>pDlgPage</b> specifies a predefined CPSUI_PDLGPAGE-prefixed structure.
+Caller-supplied number of [DLGPAGE](/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage) structures pointed to by **pDlgPage**. Not used if **pDlgPage** specifies a predefined CPSUI_PDLGPAGE-prefixed structure.
 
 ### -field IconID
 
 Caller-supplied, can be one of the following:
 
-<ul>
-<li>
-An icon resource identifier. This can be application-defined, or it can be one of the CPSUI-supplied, IDI_CPSUI-prefixed icon resource identifiers.
+- An icon resource identifier. This can be application-defined, or it can be one of the CPSUI-supplied, IDI_CPSUI-prefixed icon resource identifiers.
 
-</li>
-<li>
-An icon handle. If a handle is specified, CPSUIF_ICONID_AS_HICON must be set in the <b>Flags</b> member.
+- An icon handle. If a handle is specified, CPSUIF_ICONID_AS_HICON must be set in the **Flags** member.
 
-</li>
-</ul>
 The specified icon is displayed in the root node of the property sheet page's treeview.
 
 ### -field pOptItemName
@@ -204,13 +149,12 @@ Caller-supplied pointer to a NULL-terminated string to be displayed in the root 
 
 ### -field CallerVersion
 
-Caller-supplied version number, representing the calling application's current version. The high byte identifies the major version, and the low byte is the minor version. For example, a <b>CallerVersion</b> value of 0x310 specifies a caller version number of 3.16. The version number is displayed when a user clicks on a page's <b>About</b> button.
+Caller-supplied version number, representing the calling application's current version. The high byte identifies the major version, and the low byte is the minor version. For example, a **CallerVersion** value of 0x310 specifies a caller version number of 3.16. The version number is displayed when a user clicks on a page's **About** button.
 
 ### -field OptItemVersion
 
-Caller-supplied version number, representing the root-level option item's current version. For printer interface DLLs, this typically represents a printer device version. The high byte identifies the major version, and the low byte is the minor version. For example, an <b>OptItemVersion</b> value of 0x3ff specifies a caller version number of 3.255. The version number is displayed when a user clicks on a page's <b>About</b> button.
+Caller-supplied version number, representing the root-level option item's current version. For printer interface DLLs, this typically represents a printer device version. The high byte identifies the major version, and the low byte is the minor version. For example, an **OptItemVersion** value of 0x3ff specifies a caller version number of 3.255. The version number is displayed when a user clicks on a page's **About** button.
 
 ### -field dwReserved
 
 Reserved. This array must be set to zero.
-
