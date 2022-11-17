@@ -2,9 +2,8 @@
 UID: NF:ks.KsPinRegisterPowerCallbacks
 title: KsPinRegisterPowerCallbacks function (ks.h)
 description: The KsPinRegisterPowerCallbacks function registers power management callbacks for Pin.
-old-location: stream\kspinregisterpowercallbacks.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 11/16/2022
 keywords: ["KsPinRegisterPowerCallbacks function"]
 ms.keywords: KsPinRegisterPowerCallbacks, KsPinRegisterPowerCallbacks function [Streaming Media Devices], avfunc_2e133cdb-6afa-47a7-8d3b-8293b63428b5.xml, ks/KsPinRegisterPowerCallbacks, stream.kspinregisterpowercallbacks
 req.header: ks.h
@@ -41,40 +40,33 @@ api_name:
  - KsPinRegisterPowerCallbacks
 ---
 
-# KsPinRegisterPowerCallbacks function
-
-
 ## -description
 
-The<b> KsPinRegisterPowerCallbacks </b>function registers power management callbacks for <i>Pin</i>.
+The KsPinRegisterPowerCallbacks function registers power management callbacks for *Pin*.
 
 ## -parameters
 
 ### -param Pin [in]
 
-
-A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which to register power callbacks. Note that the pin must actually process (be pin-centric) in order to receive power notification messages.
+A pointer to the [**KSPIN**](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin) structure for which to register power callbacks. Note that the pin must actually process (be pin-centric) in order to receive power notification messages.
 
 ### -param Sleep [in, optional]
 
-
-This parameter supplies the address of a <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspinpower">AVStrMiniPinPower</a>  function that handles sleep requests for the device. Optional.
+This parameter supplies the address of a [AVStrMiniPinPower](/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspinpower)  function that handles sleep requests for the device. Optional.
 
 ### -param Wake [in, optional]
 
-
-This parameter supplies the address of a <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspinpower">AVStrMiniPinPower</a>  function that handles wake requests for the device. Optional.
+This parameter supplies the address of a [AVStrMiniPinPower](/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspinpower)  function that handles wake requests for the device. Optional.
 
 ## -remarks
 
-<div class="alert"><b>Warning</b>  <i>Do not attempt to obtain the filter control mutex</i> from within either the Sleep or Wake callback, or deadlock may occur. For more information about mutexes, read <a href="/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.</div>
-<div> </div>
-At least one of the callbacks must be specified when calling <b>KsPinRegisterPowerCallbacks</b>.
+> [!WARNING]
+> Do not attempt to obtain the filter control mutex from within either the Sleep or Wake callback, or deadlock may occur. For more information about mutexes, read [Mutexes in AVStream](/windows-hardware/drivers/stream/mutexes-in-avstream).
+
+At least one of the callbacks must be specified when calling KsPinRegisterPowerCallbacks.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspinpower">AVStrMiniPinPower</a>
+[AVStrMiniPinPower](/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspinpower)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterregisterpowercallbacks">KsFilterRegisterPowerCallbacks</a>
+[KsFilterRegisterPowerCallbacks](/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterregisterpowercallbacks)

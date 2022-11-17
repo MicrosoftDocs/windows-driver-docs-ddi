@@ -2,13 +2,12 @@
 UID: NF:ksproxy.IKsPropertySet.Set
 title: IKsPropertySet::Set (ksproxy.h)
 description: The Set method sets a property identified by a property-set GUID and a property identifier. This method belongs to IKsPropertySet in ksproxy.h.
-old-location: stream\ikspropertyset_set.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 11/17/2022
 keywords: ["IKsPropertySet::Set"]
 ms.keywords: IKsPropertySet interface [Streaming Media Devices],Set method, IKsPropertySet.Set, IKsPropertySet::Set, Set, Set method [Streaming Media Devices], Set method [Streaming Media Devices],IKsPropertySet interface, ksproxy/IKsPropertySet::Set, ksproxy_957cf2a5-1dc6-4e89-86c5-b2f01d913b66.xml, stream.ikspropertyset_set
 req.header: ksproxy.h
-req.include-header: Ksproxy.h, Ksproxy.h, Dsound.h, Ksproxy.h, Ksproxy.h, Dsound.h
+req.include-header: Ksproxy.h, Dsound.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,12 +39,9 @@ api_name:
  - IKsPropertySet::Set
 ---
 
-# IKsPropertySet::Set (ksproxy.h)
-
-
 ## -description
 
-The <b>Set</b> method sets a property identified by a property-set GUID and a property identifier.
+The **Set** method sets a property identified by a property-set GUID and a property identifier.
 
 ## -parameters
 
@@ -53,30 +49,25 @@ The <b>Set</b> method sets a property identified by a property-set GUID and a pr
 
 GUID that identifies the property set.
 
-
 ### -param Id [in]
 
-Identifier of the property within the property set. 
-
+Identifier of the property within the property set.
 
 ### -param InstanceData [in]
 
-Pointer to instance data for the property. 
-
+Pointer to instance data for the property.
 
 ### -param InstanceLength [in]
 
-Size, in bytes, of the buffer at <i>InstanceData</i>. 
-
+Size, in bytes, of the buffer at *InstanceData*.
 
 ### -param PropertyData [in]
 
-Pointer to a buffer that contains the value of the property to set. 
-
+Pointer to a buffer that contains the value of the property to set.
 
 ### -param DataLength [in]
 
-Size, in bytes, of the buffer at <i>PropertyData</i>.
+Size, in bytes, of the buffer at *PropertyData*.
 
 ## -returns
 
@@ -84,18 +75,9 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -remarks
 
-<div class="alert"><b>Warning</b>  <p class="note">Header files <i>ksproxy.h</i> and <i>dsound.h</i> define similar but incompatible versions of the <b>IKsPropertySet</b> interface. Applications that require the KS proxy module should use the version defined in <i>ksproxy.h</i>. The DirectSound version of <b>IKsPropertySet</b> is described in the DirectSound reference pages in the Microsoft Windows SDK documentation.
-
-<p class="note">
-
-If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whichever header file the compiler scans first is the one whose definition of <b>IKsPropertySet</b> is used by the compiler.
-
-
-
-</div>
-<div> </div>
+> [!WARNING]
+> Header files *ksproxy.h* and *dsound.h* define similar but incompatible versions of the **IKsPropertySet** interface. Applications that require the KS proxy module should use the version defined in *ksproxy.h*. If an application must include both *ksproxy.h* and *dsound.h*, whichever header file the compiler scans first is the one whose definition of **IKsPropertySet** is used by the compiler.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspropertyset-get">IKsPropertySet::Get</a>
-
+[IKsPropertySet::Get](/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspropertyset-get)

@@ -2,9 +2,8 @@
 UID: NE:poscx._POS_CX_EVENT_ATTRIBUTES
 title: _POS_CX_EVENT_ATTRIBUTES (poscx.h)
 description: The POS_CX_EVENT_ATTRIBUTES describes the priority and access rights for the POS events coming from the device. The values are a combination of the values defined in POS_CX_EVENT_DEST and POS_CX_EVENT_PRIORITY.
-old-location: pos\pos_cx_event_attributes.htm
 tech.root: pos
-ms.date: 02/23/2018
+ms.date: 11/17/2022
 keywords: ["POS_CX_EVENT_ATTRIBUTES enumeration"]
 ms.keywords: POS_CX_EVENT_ATTRIBUTES, POS_CX_EVENT_ATTRIBUTES enumeration, POS_CX_EVENT_ATTR_BCAST_CONTROL, POS_CX_EVENT_ATTR_CONTROL, POS_CX_EVENT_ATTR_DATA, _POS_CX_EVENT_ATTRIBUTES, pos.pos_cx_event_attributes, poscx/POS_CX_EVENT_ATTRIBUTES, poscx/POS_CX_EVENT_ATTR_BCAST_CONTROL, poscx/POS_CX_EVENT_ATTR_CONTROL, poscx/POS_CX_EVENT_ATTR_DATA
 req.header: poscx.h
@@ -44,12 +43,9 @@ api_name:
  - POS_CX_EVENT_ATTRIBUTES
 ---
 
-# _POS_CX_EVENT_ATTRIBUTES enumeration
-
-
 ## -description
 
-The POS_CX_EVENT_ATTRIBUTES describes the priority and access rights for the POS events coming from the device. The values are a combination of the values defined in <a href="/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_dest">POS_CX_EVENT_DEST</a> and <a href="/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_priority">POS_CX_EVENT_PRIORITY</a>.
+The POS_CX_EVENT_ATTRIBUTES enumeration describes the priority and access rights for the POS events coming from the device. The values are a combination of the values defined in [POS_CX_EVENT_DEST](/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_dest) and [POS_CX_EVENT_PRIORITY](/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_priority).
 
 ## -enum-fields
 
@@ -67,14 +63,11 @@ Control level priority delivered in FIFO to ALL open handles on the driver.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  PosCx will deliver all Control level events before Data level events.</div>
-<div> </div>
+> [!NOTE]
+> PosCx will deliver all Control level events before Data level events.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_dest">POS_CX_EVENT_DEST</a>
+[POS_CX_EVENT_DEST](/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_dest)
 
-
-
-<a href="/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_priority">POS_CX_EVENT_PRIORITY</a>
-
+[POS_CX_EVENT_PRIORITY](/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_priority)

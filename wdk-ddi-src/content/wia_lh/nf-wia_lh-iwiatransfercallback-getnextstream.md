@@ -3,7 +3,7 @@ UID: NF:wia_lh.IWiaTransferCallback.GetNextStream
 title: IWiaTransferCallback::GetNextStream (wia_lh.h)
 description: The IWiaTransferCallback::GetNextStream method is implemented by an image processing filter.
 tech.root: image
-ms.date: 11/10/2022
+ms.date: 11/17/2022
 keywords: ["IWiaTransferCallback::GetNextStream"]
 ms.keywords: GetNextStream, GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices],IWiaTransferCallback interface, IWiaTransferCallback interface [Imaging Devices],GetNextStream method, IWiaTransferCallback.GetNextStream, IWiaTransferCallback::GetNextStream, IWiaTransfercallback_155c3198-1ed9-46a9-b6d8-0d6029bf0803.xml, image.iwiatransfercallback_getnextstream, wia_lh/IWiaTransferCallback::GetNextStream
 req.header: wia_lh.h
@@ -47,7 +47,7 @@ The **IWiaTransferCallback::GetNextStream** method is implemented by an image pr
 
 ### -param lFlags [in]
 
-Is reserved. Set to zero.
+Reserved, set to zero.
 
 ### -param bstrItemName [in]
 
