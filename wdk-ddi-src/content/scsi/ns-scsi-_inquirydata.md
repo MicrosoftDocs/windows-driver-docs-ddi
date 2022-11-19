@@ -3,7 +3,7 @@ UID: NS:scsi._INQUIRYDATA
 title: INQUIRYDATA (scsi.h)
 description: The INQUIRYDATA structure (scsi.h) contains information about the SCSI inquiry data associated with a tape device.
 tech.root: storage
-ms.date: 09/20/2022
+ms.date: 11/14/2022
 keywords: ["INQUIRYDATA structure"]
 ms.keywords: "*PINQUIRYDATA, INQUIRYDATA, INQUIRYDATA structure [Storage Devices], PINQUIRYDATA, PINQUIRYDATA structure pointer [Storage Devices], _INQUIRYDATA, scsi/INQUIRYDATA, scsi/PINQUIRYDATA, storage.inquirydata, structs-tape_be59bcac-0d77-4186-99a6-97c34bb37793.xml"
 req.header: scsi.h
@@ -52,11 +52,33 @@ The **INQUIRYDATA** structure is used in conjunction with the [TapeMiniExtension
 
 ### -field DeviceType
 
-Specifies the type of device. For a complete list of symbolic constants that indicate the various device types, see [Specifying Device Types](/windows-hardware/drivers/kernel/specifying-device-types).
+Specifies the type of device. **DeviceType** can be one of the following values, defined in *scsi.h*.
+
+| Value | Meaning |
+| ----- | ------- |
+| DIRECT_ACCESS_DEVICE            0x00    | Disk |
+| SEQUENTIAL_ACCESS_DEVICE        0x01    | Tape device |
+| PRINTER_DEVICE                  0x02    | Printer |
+| PROCESSOR_DEVICE                0x03    | Scanner, printer, etc |
+| WRITE_ONCE_READ_MULTIPLE_DEVICE 0x04    | WORM |
+| READ_ONLY_DIRECT_ACCESS_DEVICE  0x05    | CD-ROM |
+| SCANNER_DEVICE                  0x06    | Scanner |
+| OPTICAL_DEVICE                  0x07    | Optical disk |
+| MEDIUM_CHANGER                  0x08    | Jukebox |
+| COMMUNICATION_DEVICE            0x09    | Network device |
+| ARRAY_CONTROLLER_DEVICE         0x0C    | Array controller |
+| SCSI_ENCLOSURE_DEVICE           0x0D    | SCSI enclosure device |
+| REDUCED_BLOCK_DEVICE            0x0E    | For example, 1394 disk |
+| OPTICAL_CARD_READER_WRITER_DEVICE 0x0F  | Optical card reader/writer |
+| BRIDGE_CONTROLLER_DEVICE        0x10    | Bridge controller |
+| OBJECT_BASED_STORAGE_DEVICE     0x11    | OSD device |
+| HOST_MANAGED_ZONED_BLOCK_DEVICE 0x14    | Host managed zoned block device |
+| UNKNOWN_OR_NO_DEVICE            0x1F    | Unknown or no device type |
+| LOGICAL_UNIT_NOT_PRESENT_DEVICE 0x7F    | A logical unit is not present |
 
 ### -field DeviceTypeQualifier
 
-Indicates whether the device is present or not. The values that this member can take are as follows:
+Qualifier for **DeviceType**. The values that this member can take are as follows:
 
 | Value | Meaning |
 |--|--|
