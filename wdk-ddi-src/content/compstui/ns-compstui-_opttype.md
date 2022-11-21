@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **OPTTYPE** structure is used by CPSUI applications (including printer interface DLLs) for describing the type and other characteristics of a [property sheet option](/windows-hardware/drivers/print/property-sheet-options), if the option is specified by an [**OPTITEM**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) structure.
+The **OPTTYPE** structure is used by CPSUI applications (including printer interface DLLs) for describing the type and other characteristics of a [property sheet option](/windows-hardware/drivers/print/property-sheet-options), if the option is specified by an [**OPTITEM**](./ns-compstui-_optitem.md) structure.
 
 ## -struct-fields
 
@@ -65,7 +65,7 @@ Optional bit flags that modify the option's characteristics. The following flags
 
 #### OPTTF_NOSPACE_BEFORE_POSTFIX
 
-CPSUI should not add a space character between the string specified by the [**OPTITEM**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) structure's **pName** string and the [**OPTPARAM**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optparam) structure's **pData** string, when displaying the option.
+CPSUI should not add a space character between the string specified by the [**OPTITEM**](./ns-compstui-_optitem.md) structure's **pName** string and the [**OPTPARAM**](./ns-compstui-_optparam.md) structure's **pData** string, when displaying the option.
 
 Valid only if the option type is or [TVOT_SCROLLBAR](/windows-hardware/drivers/print/tvot-scrollbar) or [TVOT_TRACKBAR](/windows-hardware/drivers/print/tvot-trackbar).
 
@@ -75,17 +75,17 @@ All the **OPTPARAM** structures to which **pOptParam** points are disabled, so t
 
 ### -field Count
 
-Specifies the number of [**OPTPARAM**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optparam) structures to which **pOptParam** points. This member's value is dependent on the [CPSUI option type](/windows-hardware/drivers/print/cpsui-option-types).
+Specifies the number of [**OPTPARAM**](./ns-compstui-_optparam.md) structures to which **pOptParam** points. This member's value is dependent on the [CPSUI option type](/windows-hardware/drivers/print/cpsui-option-types).
 
 ### -field BegCtrlID
 
-If **pDlgPage** in [**COMPROPSHEETUI**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) identifies a CPSUI-supplied page, or if **DlgTemplateID** in [**DLGPAGE**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage) identifies a CPSUI-supplied template, **BegCtrlID** is not used.
+If **pDlgPage** in [**COMPROPSHEETUI**](./ns-compstui-_compropsheetui.md) identifies a CPSUI-supplied page, or if **DlgTemplateID** in [**DLGPAGE**](./ns-compstui-_dlgpage.md) identifies a CPSUI-supplied template, **BegCtrlID** is not used.
 
 Otherwise, **BegCtrlID** must contain the first of a sequentially numbered set of Windows control identifiers. Control identifier usage is dependent on the [CPSUI option type](/windows-hardware/drivers/print/cpsui-option-types).
 
 ### -field pOptParam
 
-Pointer to an array of [**OPTPARAM**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optparam) structures describing the parameter values that a user can select for the option.
+Pointer to an array of [**OPTPARAM**](./ns-compstui-_optparam.md) structures describing the parameter values that a user can select for the option.
 
 ### -field Style
 

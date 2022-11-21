@@ -64,7 +64,7 @@ Each profile within a given **ProfileId** group must have a unique **Index** val
 
 ### -field PinCount
 
-The number of [**KSCAMERA_PROFILE_PININFO**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_kscamera_profile_pininfo) structures pointed to by **Pins**.  This value must be greater than 0.
+The number of [**KSCAMERA_PROFILE_PININFO**](./ns-ksmedia-_kscamera_profile_pininfo.md) structures pointed to by **Pins**.  This value must be greater than 0.
 
 ### -field Pins
 

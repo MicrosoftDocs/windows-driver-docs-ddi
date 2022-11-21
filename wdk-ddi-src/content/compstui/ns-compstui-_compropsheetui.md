@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **COMPROPSHEETUI** structure is used as an input parameter to CPSUI's [ComPropSheet](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet) function, if the function code is [CPSFUNC_ADD_PCOMPROPSHEETUI](/previous-versions/ff546388(v=vs.85)). All structure members must be supplied by the caller of *ComPropSheet*.
+The **COMPROPSHEETUI** structure is used as an input parameter to CPSUI's [ComPropSheet](./nc-compstui-pfncompropsheet.md) function, if the function code is [CPSFUNC_ADD_PCOMPROPSHEETUI](/previous-versions/ff546388(v=vs.85)). All structure members must be supplied by the caller of *ComPropSheet*.
 
 ## -struct-fields
 
@@ -83,27 +83,27 @@ Caller-supplied pointer to a NULL-terminated text string representing the applic
 
 ### -field UserData
 
-Optional caller-supplied value, which CPSUI places in a [CPSUICBPARAM](/windows-hardware/drivers/ddi/compstui/ns-compstui-_cpsuicbparam) structure's **UserData** member when calling the function pointed to by **pfnCallBack**.
+Optional caller-supplied value, which CPSUI places in a [CPSUICBPARAM](./ns-compstui-_cpsuicbparam.md) structure's **UserData** member when calling the function pointed to by **pfnCallBack**.
 
 ### -field pHelpFile
 
 Caller-supplied pointer to a NULL-terminated text string representing a path to a help file. For printer interface DLLs, this is typically the help file path obtained by calling [GetPrinterDriver](/windows/win32/printdocs/getprinterdriver).
 
-The help file is indexed by values contained in the **HelpIndex** member of [OPTITEM](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) structures.
+The help file is indexed by values contained in the **HelpIndex** member of [OPTITEM](./ns-compstui-_optitem.md) structures.
 
 ### -field pfnCallBack
 
-Caller-supplied pointer to a [_CPSUICALLBACK](/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback)-typed callback function, which CPSUI calls when a user modifies the page's option values.
+Caller-supplied pointer to a [_CPSUICALLBACK](./nc-compstui-_cpsuicallback.md)-typed callback function, which CPSUI calls when a user modifies the page's option values.
 
-Can be used only if **pDlgPage** identifies a CPSUI-supplied [DLGPAGE](/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage) structure, or if the **DlgProc** member of an application-supplied DLGPAGE structure is **NULL**.
+Can be used only if **pDlgPage** identifies a CPSUI-supplied [DLGPAGE](./ns-compstui-_dlgpage.md) structure, or if the **DlgProc** member of an application-supplied DLGPAGE structure is **NULL**.
 
 ### -field pOptItem
 
-Caller-supplied pointer to an array of [OPTITEM](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) structures describing the page's options.
+Caller-supplied pointer to an array of [OPTITEM](./ns-compstui-_optitem.md) structures describing the page's options.
 
 ### -field pDlgPage
 
-This member specifies [DLGPAGE](/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage) structures that describe pages to be added to the property sheet. It can be either of the following:
+This member specifies [DLGPAGE](./ns-compstui-_dlgpage.md) structures that describe pages to be added to the property sheet. It can be either of the following:
 
 - A pointer to an array of DLGPAGE structures.
 
@@ -111,15 +111,15 @@ This member specifies [DLGPAGE](/windows-hardware/drivers/ddi/compstui/ns-compst
 
   - CPSUI_PDLGPAGE_ADVDOCPROP
 
-    Defines one treeview page whose tab reads **Advanced**. For use only by a [DrvDocumentPropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets) function.
+    Defines one treeview page whose tab reads **Advanced**. For use only by a [DrvDocumentPropertySheets](../winddiui/nf-winddiui-drvdocumentpropertysheets.md) function.
 
   - CPSUI_PDLGPAGE_DOCPROP  
   
-    Defines three pages, whose tabs are **Layout**, **Paper/Quality**, and **Advanced**. The **Advanced** page is a treeview. For use only by a [DrvDocumentPropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets) function.
+    Defines three pages, whose tabs are **Layout**, **Paper/Quality**, and **Advanced**. The **Advanced** page is a treeview. For use only by a [DrvDocumentPropertySheets](../winddiui/nf-winddiui-drvdocumentpropertysheets.md) function.
 
   - CPSUI_PDLGPAGE_PRINTERPROP  
   
-    Defines one treeview page whose tab reads **Device Settings**. For use only by a [DrvDevicePropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicepropertysheets) function.
+    Defines one treeview page whose tab reads **Device Settings**. For use only by a [DrvDevicePropertySheets](../winddiui/nf-winddiui-drvdevicepropertysheets.md) function.
 
   - CPSUI_PDLGPAGE_TREEVIEWONLY
 
@@ -127,11 +127,11 @@ This member specifies [DLGPAGE](/windows-hardware/drivers/ddi/compstui/ns-compst
 
 ### -field cOptItem
 
-Caller-supplied number of [OPTITEM](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) structures pointed to by **pOptItem**.
+Caller-supplied number of [OPTITEM](./ns-compstui-_optitem.md) structures pointed to by **pOptItem**.
 
 ### -field cDlgPage
 
-Caller-supplied number of [DLGPAGE](/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage) structures pointed to by **pDlgPage**. Not used if **pDlgPage** specifies a predefined CPSUI_PDLGPAGE-prefixed structure.
+Caller-supplied number of [DLGPAGE](./ns-compstui-_dlgpage.md) structures pointed to by **pDlgPage**. Not used if **pDlgPage** specifies a predefined CPSUI_PDLGPAGE-prefixed structure.
 
 ### -field IconID
 

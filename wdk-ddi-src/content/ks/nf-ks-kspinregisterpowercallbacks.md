@@ -48,15 +48,15 @@ The KsPinRegisterPowerCallbacks function registers power management callbacks fo
 
 ### -param Pin [in]
 
-A pointer to the [**KSPIN**](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin) structure for which to register power callbacks. Note that the pin must actually process (be pin-centric) in order to receive power notification messages.
+A pointer to the [**KSPIN**](./ns-ks-_kspin.md) structure for which to register power callbacks. Note that the pin must actually process (be pin-centric) in order to receive power notification messages.
 
 ### -param Sleep [in, optional]
 
-This parameter supplies the address of a [AVStrMiniPinPower](/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspinpower)  function that handles sleep requests for the device. Optional.
+This parameter supplies the address of a [AVStrMiniPinPower](./nc-ks-pfnkspinpower.md)  function that handles sleep requests for the device. Optional.
 
 ### -param Wake [in, optional]
 
-This parameter supplies the address of a [AVStrMiniPinPower](/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspinpower)  function that handles wake requests for the device. Optional.
+This parameter supplies the address of a [AVStrMiniPinPower](./nc-ks-pfnkspinpower.md)  function that handles wake requests for the device. Optional.
 
 ## -remarks
 
@@ -67,6 +67,6 @@ At least one of the callbacks must be specified when calling KsPinRegisterPowerC
 
 ## -see-also
 
-[AVStrMiniPinPower](/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspinpower)
+[AVStrMiniPinPower](./nc-ks-pfnkspinpower.md)
 
-[KsFilterRegisterPowerCallbacks](/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterregisterpowercallbacks)
+[KsFilterRegisterPowerCallbacks](./nf-ks-ksfilterregisterpowercallbacks.md)

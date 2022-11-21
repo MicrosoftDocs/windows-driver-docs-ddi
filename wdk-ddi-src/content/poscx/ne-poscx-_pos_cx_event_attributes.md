@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The POS_CX_EVENT_ATTRIBUTES enumeration describes the priority and access rights for the POS events coming from the device. The values are a combination of the values defined in [POS_CX_EVENT_DEST](/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_dest) and [POS_CX_EVENT_PRIORITY](/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_priority).
+The POS_CX_EVENT_ATTRIBUTES enumeration describes the priority and access rights for the POS events coming from the device. The values are a combination of the values defined in [POS_CX_EVENT_DEST](./ne-poscx-_pos_cx_event_dest.md) and [POS_CX_EVENT_PRIORITY](./ne-poscx-_pos_cx_event_priority.md).
 
 ## -enum-fields
 
@@ -68,6 +68,6 @@ Control level priority delivered in FIFO to ALL open handles on the driver.
 
 ## -see-also
 
-[POS_CX_EVENT_DEST](/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_dest)
+[POS_CX_EVENT_DEST](./ne-poscx-_pos_cx_event_dest.md)
 
-[POS_CX_EVENT_PRIORITY](/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_priority)
+[POS_CX_EVENT_PRIORITY](./ne-poscx-_pos_cx_event_priority.md)

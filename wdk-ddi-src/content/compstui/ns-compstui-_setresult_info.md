@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **SETRESULT_INFO** structure is used as an input parameter to an application's [PFNPROPSHEETUI](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui)-typed callback function.
+The **SETRESULT_INFO** structure is used as an input parameter to an application's [PFNPROPSHEETUI](./nc-compstui-pfnpropsheetui.md)-typed callback function.
 
 ## -struct-fields
 
@@ -69,7 +69,7 @@ CPSUI-supplied handle to an added property sheet page, obtained from the applica
 
 ## -remarks
 
-When an application calls CPSUI's [ComPropSheet](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet) function, specifying a function code of [CPSFUNC_SET_RESULT](/previous-versions/ff547087(v=vs.85)), CPSUI calls all registered [PFNPROPSHEETUI](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui)-typed functions, specifying a reason of PROPSHEETUI_REASON_SET_RESULT. When specifying this reason, CPSUI also supplies a **SETRESULT_INFO** structure.
+When an application calls CPSUI's [ComPropSheet](./nc-compstui-pfncompropsheet.md) function, specifying a function code of [CPSFUNC_SET_RESULT](/previous-versions/ff547087(v=vs.85)), CPSUI calls all registered [PFNPROPSHEETUI](./nc-compstui-pfnpropsheetui.md)-typed functions, specifying a reason of PROPSHEETUI_REASON_SET_RESULT. When specifying this reason, CPSUI also supplies a **SETRESULT_INFO** structure.
 
 The values contained in the structure's **hSetResult** and **Result** members are the *lParam1* and *lParam2* values, respectively, that were supplied to CPSUI's **ComPropSheet** function.
 

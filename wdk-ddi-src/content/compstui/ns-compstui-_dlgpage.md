@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **DLGPAGE** structure is used for specifying a property sheet page to CPSUI's [ComPropSheet](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet) function. The structure's address is included in a [**COMPROPSHEETUI**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) structure, and all member values are supplied by the **ComPropSheet** caller.
+The **DLGPAGE** structure is used for specifying a property sheet page to CPSUI's [ComPropSheet](./nc-compstui-pfncompropsheet.md) function. The structure's address is included in a [**COMPROPSHEETUI**](./ns-compstui-_compropsheetui.md) structure, and all member values are supplied by the **ComPropSheet** caller.
 
 ## -struct-fields
 
@@ -108,6 +108,6 @@ Used only if DPF_USE_HDLGTEMPLATE is set in **Flags**.
 
 CPSUI creates a property sheet page by allocating a [**PROPSHEETPAGE**](/windows/win32/controls/pss-propsheetpage) structure and passing it to [CreatePropertySheetPage](/windows/win32/api/prsht/nf-prsht-createpropertysheetpagew). If the caller has specified a DLGPROC-typed pointer to a dialog box procedure in [DlgProc](/windows/win32/api/winuser/nc-winuser-dlgproc), that procedure is used for handling the page's window messages. If DlgProc is **NULL**, CPSUI's own dialog box procedures are used.
 
-When the dialog box procedure pointed to by DlgProc is called with a message value of [WM_INITDIALOG](/windows/win32/dlgbox/wm-initdialog), it receives the **PROPSHEETPAGE** structure as input, and it also receives a [**PSPINFO**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_pspinfo) structure.
+When the dialog box procedure pointed to by DlgProc is called with a message value of [WM_INITDIALOG](/windows/win32/dlgbox/wm-initdialog), it receives the **PROPSHEETPAGE** structure as input, and it also receives a [**PSPINFO**](./ns-compstui-_pspinfo.md) structure.
 
 If a caller-supplied dialog box procedure handles a message, it should return a nonzero value. If the function does not handle the message it should return zero, which causes CPSUI to handle the message.

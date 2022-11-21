@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The CPSUICBPARAM structure is used as the input parameter to [_CPSUICALLBACK](/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback)-typed callback functions.
+The CPSUICBPARAM structure is used as the input parameter to [_CPSUICALLBACK](./nc-compstui-_cpsuicallback.md)-typed callback functions.
 
 ## -struct-fields
 
@@ -61,7 +61,7 @@ CPSUI-supplied value indicating the reason it is calling the callback function. 
 
 #### CPSUICB_REASON_ABOUT
 
-The user has clicked on the page's **About** button, and the application previously set the CPSUIF_ABOUT_CALLBACK flag in a [**COMPROPSHEETUI**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) structure. CPSUI sets *pCurItem* to the value contained in **pOptItem**, and sets **pOldSel** to point to the **COMPROPSHEETUI** structure.
+The user has clicked on the page's **About** button, and the application previously set the CPSUIF_ABOUT_CALLBACK flag in a [**COMPROPSHEETUI**](./ns-compstui-_compropsheetui.md) structure. CPSUI sets *pCurItem* to the value contained in **pOptItem**, and sets **pOldSel** to point to the **COMPROPSHEETUI** structure.
 
 #### CPSUICB_REASON_APPLYNOW
 
@@ -87,7 +87,7 @@ The user clicked on the page's **Undo** button, and CPSUI has reverted all selec
 
 #### CPSUICB_REASON_KILLACTIVE
 
-The property sheet page is about to lose activation, and CPSUI has received a [PSN_KILLACTIVE](/windows/win32/controls/psn-killactive) notification message. CPSUI sets **pCurItem** to the value contained in **pOptItem**, and sets **pOldSel** to point to the [**COMPROPSHEETUI**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) structure.
+The property sheet page is about to lose activation, and CPSUI has received a [PSN_KILLACTIVE](/windows/win32/controls/psn-killactive) notification message. CPSUI sets **pCurItem** to the value contained in **pOptItem**, and sets **pOldSel** to point to the [**COMPROPSHEETUI**](./ns-compstui-_compropsheetui.md) structure.
 
 #### CPSUICB_REASON_OPTITEM_SETFOCUS
 
@@ -97,7 +97,7 @@ The option identified by **pCurItem** has received input focus.
 
 The option identified by **pCurItem** is a push button ([TVOT_PUSHBUTTON](/windows-hardware/drivers/print/tvot-pushbutton) option type), and the user has clicked on the button.
 
-The push button item's [**OPTPARAM**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optparam) **Style**  field is set to PUSHBUTTON_TYPE_CALLBACK.
+The push button item's [**OPTPARAM**](./ns-compstui-_optparam.md) **Style**  field is set to PUSHBUTTON_TYPE_CALLBACK.
 
 #### CPSUICB_REASON_SEL_CHANGED
 
@@ -105,7 +105,7 @@ The user has changed the selected value for the option pointed to by **pCurItem*
 
 #### CPSUICB_REASON_SETACTIVE
 
-The property sheet page is about to become active, and CPSUI has received a [PSN_SETACTIVE](/windows/win32/controls/psn-setactive) notification message. CPSUI sets **pCurItem** to the value contained in **pOptItem**, and sets **pOldSel** to point to the [**COMPROPSHEETUI**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) structure.
+The property sheet page is about to become active, and CPSUI has received a [PSN_SETACTIVE](/windows/win32/controls/psn-setactive) notification message. CPSUI sets **pCurItem** to the value contained in **pOptItem**, and sets **pOldSel** to point to the [**COMPROPSHEETUI**](./ns-compstui-_compropsheetui.md) structure.
 
 ### -field hDlg
 
@@ -113,15 +113,15 @@ CPSUI-supplied handle to the currently active dialog box.
 
 ### -field pOptItem
 
-CPSUI-supplied pointer to an array of [**OPTITEM**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) structures. This is the same pointer that the application previously supplied in a [**COMPROPSHEETUI**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) structure.
+CPSUI-supplied pointer to an array of [**OPTITEM**](./ns-compstui-_optitem.md) structures. This is the same pointer that the application previously supplied in a [**COMPROPSHEETUI**](./ns-compstui-_compropsheetui.md) structure.
 
 ### -field cOptItem
 
-CPSUI-supplied number of OPTITEM structures in the array pointed to by **pOptItem**. This is the same number that the application previously supplied in a [**COMPROPSHEETUI**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) structure.
+CPSUI-supplied number of OPTITEM structures in the array pointed to by **pOptItem**. This is the same number that the application previously supplied in a [**COMPROPSHEETUI**](./ns-compstui-_compropsheetui.md) structure.
 
 ### -field Flags
 
-CPSUI-supplied flags. This is the same set of flags that the application previously supplied in a [**COMPROPSHEETUI**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) structure.
+CPSUI-supplied flags. This is the same set of flags that the application previously supplied in a [**COMPROPSHEETUI**](./ns-compstui-_compropsheetui.md) structure.
 
 ### -field pCurItem
 
@@ -133,22 +133,22 @@ Defines the **DUMMYUNIONNAME** union.
 
 ### -field DUMMYUNIONNAME.OldSel
 
-If the **Reason** member contains CPSUICB_REASON_SEL_CHANGED, CPSUI sets this union to the previous contents of the **OldSel**/**pOldSel** member of the [**OPTITEM**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) structure pointed to by **pCurItem**.
+If the **Reason** member contains CPSUICB_REASON_SEL_CHANGED, CPSUI sets this union to the previous contents of the **OldSel**/**pOldSel** member of the [**OPTITEM**](./ns-compstui-_optitem.md) structure pointed to by **pCurItem**.
 
 For all other **Reason** values, the contents of this union should be ignored.
 
 ### -field DUMMYUNIONNAME.pOldSel
 
-If the **Reason** member contains CPSUICB_REASON_SEL_CHANGED, CPSUI sets this union to the previous contents of the **OldSel**/**pOldSel** member of the [**OPTITEM**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) structure pointed to by **pCurItem**.
+If the **Reason** member contains CPSUICB_REASON_SEL_CHANGED, CPSUI sets this union to the previous contents of the **OldSel**/**pOldSel** member of the [**OPTITEM**](./ns-compstui-_optitem.md) structure pointed to by **pCurItem**.
 
 For all other **Reason** values, the contents of this union should be ignored.
 
 ### -field UserData
 
-CPSUI-supplied user data. This is the same value that the application previously supplied in a [**COMPROPSHEETUI**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) structure.
+CPSUI-supplied user data. This is the same value that the application previously supplied in a [**COMPROPSHEETUI**](./ns-compstui-_compropsheetui.md) structure.
 
 ### -field Result
 
-Result value supplied by the [_CPSUICALLBACK](/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback)-typed callback function. By default, CPSUI sets this value to CPSUI_OK. After the callback function returns, CPSUI calls its [ComPropSheet](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet) function with a function code of [CPSFUNC_SET_RESULT](/previous-versions/ff547087(v=vs.85)), supplying the **Reason** member contents as the result value.
+Result value supplied by the [_CPSUICALLBACK](./nc-compstui-_cpsuicallback.md)-typed callback function. By default, CPSUI sets this value to CPSUI_OK. After the callback function returns, CPSUI calls its [ComPropSheet](./nc-compstui-pfncompropsheet.md) function with a function code of [CPSFUNC_SET_RESULT](/previous-versions/ff547087(v=vs.85)), supplying the **Reason** member contents as the result value.
 
 This member is used only if the **Reason** member is CPSUICB_REASON_APPLYNOW and the callback function does not return CPSUI_ACTION_NO_APPLY_EXIT.

@@ -183,4 +183,4 @@ For a PCM format with a 16-bit sample size, each block of audio data occupies 12
 
 [KSPROPERTY_AUDIO_CHANNEL_CONFIG](/windows-hardware/drivers/audio/ksproperty-audio-channel-config)
 
-[WAVEFORMATEXTENSIBLE](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-waveformatextensible)
+[WAVEFORMATEXTENSIBLE](./ns-ksmedia-waveformatextensible.md)

@@ -86,4 +86,4 @@ To retrieve a property, allocate a buffer, which **Get** fills with the property
 
 ## -see-also
 
-[IKsPropertySet::Set](/windows-hardware/drivers/ddi/dsound/nf-dsound-ikspropertyset-set)
+[IKsPropertySet::Set](../dsound/nf-dsound-ikspropertyset-set.md)

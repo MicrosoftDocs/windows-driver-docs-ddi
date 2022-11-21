@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **OIEXT** structure supplies additional, optional information about a property sheet page option that is described by an [OPTITEM](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) structure.
+The **OIEXT** structure supplies additional, optional information about a property sheet page option that is described by an [OPTITEM](./ns-compstui-_optitem.md) structure.
 
 ## -struct-fields
 
@@ -65,11 +65,11 @@ Can contain the following bit flag:
 
 ### -field hInstCaller
 
-Instance handle to a DLL containing string and icon resources belonging to the [OPTITEM](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem), [**OPTTYPE**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_opttype), and [**OPTPARAM**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optparam) structures associated with the OIEXT structure. If **NULL**, CPSUI obtains resources from the DLL identified by the **hInstCaller** member of a [**COMPROPSHEETUI**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) structure.
+Instance handle to a DLL containing string and icon resources belonging to the [OPTITEM](./ns-compstui-_optitem.md), [**OPTTYPE**](./ns-compstui-_opttype.md), and [**OPTPARAM**](./ns-compstui-_optparam.md) structures associated with the OIEXT structure. If **NULL**, CPSUI obtains resources from the DLL identified by the **hInstCaller** member of a [**COMPROPSHEETUI**](./ns-compstui-_compropsheetui.md) structure.
 
 ### -field pHelpFile
 
-Pointer to a NULL-terminated string representing a path to a help file containing help information for the option. This can be a 32-bit pointer to a NULL-terminated string, or it can be a 16-bit string resource identifier with HIWORD set to zero. If **NULL**, CPSUI uses the help file identified by the **pHelpFile** member of a [**COMPROPSHEETUI**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) structure.
+Pointer to a NULL-terminated string representing a path to a help file containing help information for the option. This can be a 32-bit pointer to a NULL-terminated string, or it can be a 16-bit string resource identifier with HIWORD set to zero. If **NULL**, CPSUI uses the help file identified by the **pHelpFile** member of a [**COMPROPSHEETUI**](./ns-compstui-_compropsheetui.md) structure.
 
 ### -field dwReserved
 

@@ -59,8 +59,8 @@ The  function returns **TRUE** if it is successful in associating the non-displa
 
 ## -remarks
 
-The **SetCPSUIUserData** function should be called only from within a dialog box procedure that has been associated with a dialog box by using a [**DLGPAGE**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage) or an [**EXTPUSH**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_extpush) structure.
+The **SetCPSUIUserData** function should be called only from within a dialog box procedure that has been associated with a dialog box by using a [**DLGPAGE**](./ns-compstui-_dlgpage.md) or an [**EXTPUSH**](./ns-compstui-_extpush.md) structure.
 
-A value that is stored by calling SetCPSUIUserData can be later retrieved by calling [GetCPSUIUserData](/windows-hardware/drivers/ddi/compstui/nf-compstui-getcpsuiuserdata).
+A value that is stored by calling SetCPSUIUserData can be later retrieved by calling [GetCPSUIUserData](./nf-compstui-getcpsuiuserdata.md).
 
 The handle specified for *hDlg* must be the handle received as input to the [dialog box procedure](/windows-hardware/drivers/print/dialog-box-procedures-and-cpsui).

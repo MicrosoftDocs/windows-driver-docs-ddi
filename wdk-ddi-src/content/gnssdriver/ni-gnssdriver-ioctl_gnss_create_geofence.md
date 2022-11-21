@@ -50,7 +50,7 @@ The **IOCTL_GNSS_CREATE_GEOFENCE** control code is used by the GNSS adapter to c
 
 ### -input-buffer
 
-A pointer to a [GNSS_GEOFENCE_CREATE_PARAM](/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_geofence_create_param) structure that defines the geofence to be created.
+A pointer to a [GNSS_GEOFENCE_CREATE_PARAM](./ns-gnssdriver-gnss_geofence_create_param.md) structure that defines the geofence to be created.
 
 ### -input-buffer-length
 
@@ -58,7 +58,7 @@ Set to sizeof(**GNSS_GEOFENCE_CREATE_PARAM**).
 
 ### -output-buffer
 
-A pointer to a [GNSS_GEOFENCE_CREATE_RESPONSE](/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_geofence_create_response) structure.
+A pointer to a [GNSS_GEOFENCE_CREATE_RESPONSE](./ns-gnssdriver-gnss_geofence_create_response.md) structure.
 
 ### -output-buffer-length
 
@@ -106,8 +106,8 @@ The GNSS engine must adhere to the following guidelines for geofence tracking:
 
 [Creating IOCTL Requests in Drivers](/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers)
 
-[WdfIoTargetSendInternalIoctlOthersSynchronously](/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously)
+[WdfIoTargetSendInternalIoctlOthersSynchronously](../wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md)
 
-[WdfIoTargetSendInternalIoctlSynchronously](/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously)
+[WdfIoTargetSendInternalIoctlSynchronously](../wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md)
 
-[WdfIoTargetSendIoctlSynchronously](/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously)
+[WdfIoTargetSendIoctlSynchronously](../wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md)

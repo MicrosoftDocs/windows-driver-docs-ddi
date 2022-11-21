@@ -59,8 +59,8 @@ Pointer to a variable that receives a bitmask enumerating the flags that indicat
 
 | Value | Description |
 |---|---|
-| KSPROPERTY_SUPPORT_GET | Supports retrieving a property. Use the [IKsPropertySet::Get](/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspropertyset-get) method to retrieve the property. |
-| KSPROPERTY_SUPPORT_SET | Supports setting a property. Use the [IKsPropertySet::Set](/windows-hardware/drivers/ddi/dsound/nf-dsound-ikspropertyset-set) method to set the property. |
+| KSPROPERTY_SUPPORT_GET | Supports retrieving a property. Use the [IKsPropertySet::Get](./nf-ksproxy-ikspropertyset-get.md) method to retrieve the property. |
+| KSPROPERTY_SUPPORT_SET | Supports setting a property. Use the [IKsPropertySet::Set](../dsound/nf-dsound-ikspropertyset-set.md) method to set the property. |
 
 ## -returns
 
@@ -81,6 +81,6 @@ KS objects include, for example, KS filters, KS pins, and KS clocks.
 
 ## -see-also
 
-[IKsPropertySet::Get](/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspropertyset-get)
+[IKsPropertySet::Get](./nf-ksproxy-ikspropertyset-get.md)
 
-[IKsPropertySet::Set](/windows-hardware/drivers/ddi/dsound/nf-dsound-ikspropertyset-set)
+[IKsPropertySet::Set](../dsound/nf-dsound-ikspropertyset-set.md)

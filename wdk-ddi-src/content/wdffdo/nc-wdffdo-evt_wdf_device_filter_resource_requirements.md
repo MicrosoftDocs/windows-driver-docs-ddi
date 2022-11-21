@@ -83,9 +83,8 @@ For more information about these callback functions, see <a href="/windows-hardw
 
 For more information about hardware resources and resource requirements lists, see <a href="/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
-For information about modifying interrupt resources (for example processor affinity), see the Remarks section of [**WdfInterruptSetPolicy**](/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetpolicy).
+For information about modifying interrupt resources (for example processor affinity), see the Remarks section of [**WdfInterruptSetPolicy**](../wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetpolicy.md).
 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_remove_added_resources">EvtDeviceRemoveAddedResources</a>
-
