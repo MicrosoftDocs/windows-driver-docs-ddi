@@ -52,7 +52,7 @@ The <b>ExInterlockedPopEntryList</b> routine atomically removes an entry from th
 ### -param ListHead [in, out]
 
 
-A pointer to the <a href="/windows/win32/api/ntdef/ns-ntdef-single_list_entry">SINGLE_LIST_ENTRY</a> structure that serves as the list header.
+A pointer to the <a href="/windows/win32/api/ntdef/ns-ntdef-single_list_entry">SINGLE_LIST_ENTRY</a> structure that serves as the list header.  The storage for <i>ListHead</i> must be resident at all IRQLs.
 
 ### -param Lock [in, out]
 
