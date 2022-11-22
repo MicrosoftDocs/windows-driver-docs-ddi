@@ -4,7 +4,7 @@ title: KeGetCurrentIrql function (wdm.h)
 description: The KeGetCurrentIrql routine returns the current IRQL.
 old-location: kernel\kegetcurrentirql.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 11/22/2022
 keywords: ["KeGetCurrentIrql function"]
 ms.keywords: KeGetCurrentIrql, KeGetCurrentIrql routine [Kernel-Mode Driver Architecture], k105_04c845e8-a239-4400-8a5f-15996754494a.xml, kernel.kegetcurrentirql, wdm/KeGetCurrentIrql
 req.header: wdm.h
@@ -21,7 +21,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Hal.lib
+req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 targetos: Windows
