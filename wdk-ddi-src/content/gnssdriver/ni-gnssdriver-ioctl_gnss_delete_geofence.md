@@ -50,7 +50,7 @@ The **IOCTL_GNSS_DELETE_GEOFENCE** control code is used by the GNSS adapter to d
 
 ### -input-buffer
 
-A pointer to a [GNSS_GEOFENCE_DELETE_PARAM](/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_geofence_delete_param) structure that defines the geofence to be deleted.
+A pointer to a [GNSS_GEOFENCE_DELETE_PARAM](./ns-gnssdriver-gnss_geofence_delete_param.md) structure that defines the geofence to be deleted.
 
 ### -input-buffer-length
 
@@ -94,8 +94,8 @@ If the geofence is successfully removed, the driver returns STATUS_SUCCESS. If t
 
 [Creating IOCTL Requests in Drivers](/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers)
 
-[WdfIoTargetSendInternalIoctlOthersSynchronously](/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously)
+[WdfIoTargetSendInternalIoctlOthersSynchronously](../wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md)
 
-[WdfIoTargetSendInternalIoctlSynchronously](/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously)
+[WdfIoTargetSendInternalIoctlSynchronously](../wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md)
 
-[WdfIoTargetSendIoctlSynchronously](/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously)
+[WdfIoTargetSendIoctlSynchronously](../wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md)

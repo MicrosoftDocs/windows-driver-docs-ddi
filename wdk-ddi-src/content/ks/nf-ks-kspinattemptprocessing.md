@@ -48,7 +48,7 @@ The KsPinAttemptProcessing function is used to resume processing on a specific p
 
 ### -param Pin [in]
 
-A pointer to a [KSPIN](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin) structure that represents the AVStream pin object on which to attempt processing.
+A pointer to a [KSPIN](./ns-ks-_kspin.md) structure that represents the AVStream pin object on which to attempt processing.
 
 > [!WARNING]
 > This parameter is mandatory. If you call KsPinAttemptProcessing with a *Pin* value of **NULL**, system instability may result.
@@ -59,14 +59,14 @@ This parameter indicates the minidriver's preference whether the processing shou
 
 ## -remarks
 
-A minidriver may need to call KsPinAttemptProcessing to resume processing in various situations. For example, if the client has shut off the processing control gate with [KsGateTurnInputOff](/windows-hardware/drivers/ddi/ks/nf-ks-ksgateturninputoff), call this function when ready to attempt processing. Note that this only causes a processing dispatch if the process control gate is in the open state. Another situation involves the minidriver having previously returning STATUS_PENDING to a processing dispatch. For more details, see [Restarting Processing in AVStream](/windows-hardware/drivers/stream/restarting-processing-in-avstream) and [Flow Control Gates in AVStream](/windows-hardware/drivers/stream/flow-control-gates-in-avstream).
+A minidriver may need to call KsPinAttemptProcessing to resume processing in various situations. For example, if the client has shut off the processing control gate with [KsGateTurnInputOff](./nf-ks-ksgateturninputoff.md), call this function when ready to attempt processing. Note that this only causes a processing dispatch if the process control gate is in the open state. Another situation involves the minidriver having previously returning STATUS_PENDING to a processing dispatch. For more details, see [Restarting Processing in AVStream](/windows-hardware/drivers/stream/restarting-processing-in-avstream) and [Flow Control Gates in AVStream](/windows-hardware/drivers/stream/flow-control-gates-in-avstream).
 
 The processing dispatch occurs either synchronously or asynchronously, and *only* if the processing control gate is open. The *Asynchronous* flag specifies the minidriver's preference. If the minidriver requests an asynchronous process dispatch, the dispatch is always asynchronous. However, even if the caller sets *Asynchronous* to **FALSE**, a synchronous dispatch only occurs if the system is currently running at an IRQL less than the maximum processing IRQL. In other words, if the minidriver does not specify dispatch level processing and the call is made at IRQL = DISPATCH_LEVEL, then the call occurs in an asynchronous work item at PASSIVE_LEVEL regardless of the value of *Asynchronous*. For more information, see [Filter-Centric Processing](/windows-hardware/drivers/stream/filter-centric-processing) and [Pin-Centric Processing](/windows-hardware/drivers/stream/pin-centric-processing).
 
 ## -see-also
 
-[**KSFILTER_DISPATCH**](/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_dispatch)
+[**KSFILTER_DISPATCH**](./ns-ks-_ksfilter_dispatch.md)
 
-[KsFilterAttemptProcessing](/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterattemptprocessing)
+[KsFilterAttemptProcessing](./nf-ks-ksfilterattemptprocessing.md)
 
-[KsGateCaptureThreshold](/windows-hardware/drivers/ddi/ks/nf-ks-ksgatecapturethreshold)
+[KsGateCaptureThreshold](./nf-ks-ksgatecapturethreshold.md)

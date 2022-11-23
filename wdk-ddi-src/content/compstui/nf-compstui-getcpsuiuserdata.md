@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-CPSUI's **GetCPSUIUserData** function retrieves data that was previously stored using the [SetCPSUIUserData](/windows-hardware/drivers/ddi/compstui/nf-compstui-setcpsuiuserdata) function.
+CPSUI's **GetCPSUIUserData** function retrieves data that was previously stored using the [SetCPSUIUserData](./nf-compstui-setcpsuiuserdata.md) function.
 
 ## -parameters
 
@@ -51,10 +51,10 @@ Caller-supplied handle to a property sheet dialog box. For more information, see
 
 ## -returns
 
-If the operation succeeds, the function returns the value that was previously supplied to [SetCPSUIUserData](/windows-hardware/drivers/ddi/compstui/nf-compstui-setcpsuiuserdata); otherwise the function returns zero.
+If the operation succeeds, the function returns the value that was previously supplied to [SetCPSUIUserData](./nf-compstui-setcpsuiuserdata.md); otherwise the function returns zero.
 
 ## -remarks
 
-The **GetCPSUIUserData** function should only be called from within a dialog box procedure that has been associated with a dialog box by using a [DLGPAGE](/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage) or an [EXTPUSH](/windows-hardware/drivers/ddi/compstui/ns-compstui-_extpush) structure.
+The **GetCPSUIUserData** function should only be called from within a dialog box procedure that has been associated with a dialog box by using a [DLGPAGE](./ns-compstui-_dlgpage.md) or an [EXTPUSH](./ns-compstui-_extpush.md) structure.
 
 The handle specified for *hDlg* must be the handle received as input to the dialog box procedure. For more information, see [Dialog box programming considerations](/windows/win32/dlgbox/dlgbox-programming-considerations).

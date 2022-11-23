@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **CPSUIDATABLOCK** structure is used as a parameter for the [ComPropSheet](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet) function, if the function code is [CPSFUNC_SET_DATABLOCK](/previous-versions/ff547036(v=vs.85)) or [CPSFUNC_QUERY_DATABLOCK](/previous-versions/ff546425(v=vs.85)).
+The **CPSUIDATABLOCK** structure is used as a parameter for the [ComPropSheet](./nc-compstui-pfncompropsheet.md) function, if the function code is [CPSFUNC_SET_DATABLOCK](/previous-versions/ff547036(v=vs.85)) or [CPSFUNC_QUERY_DATABLOCK](/previous-versions/ff546425(v=vs.85)).
 
 ## -struct-fields
 

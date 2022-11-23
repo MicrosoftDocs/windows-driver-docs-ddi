@@ -47,7 +47,7 @@ An AVStream minidriver's *AVStrMiniPinPower* routine is called for pin-centric p
 
 ### -param Pin [in]
 
-Points to a pin-centric [**KSPIN**](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin) structure for which to register the callback.
+Points to a pin-centric [**KSPIN**](./ns-ks-_kspin.md) structure for which to register the callback.
 
 ### -param State [in]
 
@@ -58,10 +58,10 @@ Specifies the device power state being requested. Set this parameter to one of t
 > [!WARNING]
 > Do not attempt to obtain the filter control mutex from within either the Sleep or Wake callback. Doing so induces a risk of deadlock. For more information about mutexes, see [Mutexes in AVStream](/windows-hardware/drivers/stream/mutexes-in-avstream).
 
-The minidriver specifies an address for routines of this type in the *Sleep* and/or *Wake* parameters of the [KsPinRegisterPowerCallbacks](/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterpowercallbacks) routine.
+The minidriver specifies an address for routines of this type in the *Sleep* and/or *Wake* parameters of the [KsPinRegisterPowerCallbacks](./nf-ks-kspinregisterpowercallbacks.md) routine.
 
 ## -see-also
 
-[KsFilterRegisterPowerCallbacks](/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterregisterpowercallbacks)
+[KsFilterRegisterPowerCallbacks](./nf-ks-ksfilterregisterpowercallbacks.md)
 
-[KsPinRegisterPowerCallbacks](/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterpowercallbacks)
+[KsPinRegisterPowerCallbacks](./nf-ks-kspinregisterpowercallbacks.md)

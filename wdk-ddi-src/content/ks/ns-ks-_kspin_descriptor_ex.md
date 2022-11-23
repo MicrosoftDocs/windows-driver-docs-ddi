@@ -53,15 +53,15 @@ The **KSPIN_DESCRIPTOR_EX** structure describes the characteristics of a pin typ
 
 ### -field Dispatch
 
-A pointer to the [**KSPIN_DISPATCH**](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch) structure for this pin. This pointer is optional and should only be provided by clients that wish to receive notifications. Clients that need to perform pin-centric processing (filters concerned with the routing of data, in other words hardware drivers) must provide this dispatch table and a process dispatch. See [**KSPIN_DISPATCH**](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch) for more information.
+A pointer to the [**KSPIN_DISPATCH**](./ns-ks-_kspin_dispatch.md) structure for this pin. This pointer is optional and should only be provided by clients that wish to receive notifications. Clients that need to perform pin-centric processing (filters concerned with the routing of data, in other words hardware drivers) must provide this dispatch table and a process dispatch. See [**KSPIN_DISPATCH**](./ns-ks-_kspin_dispatch.md) for more information.
 
 ### -field AutomationTable
 
-A pointer to the [KSAUTOMATION_TABLE](/windows-hardware/drivers/ddi/ks/ns-ks-ksautomation_table_) structure for this pin. The automation table contains the properties, methods, and events supported by the pin. This automation table is merged with the automation table provided by AVStream for all pins. If the client supplies any property, event, or method handlers that are already provided by AVStream, the client's implementation supersedes that of AVStream.
+A pointer to the [KSAUTOMATION_TABLE](./ns-ks-ksautomation_table_.md) structure for this pin. The automation table contains the properties, methods, and events supported by the pin. This automation table is merged with the automation table provided by AVStream for all pins. If the client supplies any property, event, or method handlers that are already provided by AVStream, the client's implementation supersedes that of AVStream.
 
 ### -field PinDescriptor
 
-This member specifies a structure of type [**KSPIN_DESCRIPTOR**](/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor).
+This member specifies a structure of type [**KSPIN_DESCRIPTOR**](./ns-ks-kspin_descriptor.md).
 
 ### -field Flags
 
@@ -101,11 +101,11 @@ Specifying this flag causes the queue to force IRPs to be handled in a first-in-
 
 #### KSPIN_FLAG_GENERATE_MAPPINGS
 
-Specifying this flag causes AVStream to automatically generate scatter/gather mappings for a queued frame when the minidriver locks a stream pointer referencing that frame. Clients that intend to use this feature need to register their DMA adapter object with AVStream via the [KsDeviceRegisterAdapterObject](/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteradapterobject) function. See the **DataUsed** member of [**KSSTREAM_HEADER**](/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header) for the effect of this flag on the KSSTREAM_HEADER structure. Also see [**KSSTREAM_POINTER_OFFSET**](/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer_offset).
+Specifying this flag causes AVStream to automatically generate scatter/gather mappings for a queued frame when the minidriver locks a stream pointer referencing that frame. Clients that intend to use this feature need to register their DMA adapter object with AVStream via the [KsDeviceRegisterAdapterObject](./nf-ks-ksdeviceregisteradapterobject.md) function. See the **DataUsed** member of [**KSSTREAM_HEADER**](./ns-ks-ksstream_header.md) for the effect of this flag on the KSSTREAM_HEADER structure. Also see [**KSSTREAM_POINTER_OFFSET**](./ns-ks-_ksstream_pointer_offset.md).
 
 #### KSPIN_FLAG_DISTINCT_TRAILING_EDGE
 
-Indicates that the queue associated with the pin should have a trailing edge stream pointer. The trailing edge pointer is a special stream pointer that points to the oldest data in the queue unless clone pointers exist on older data. Any data frames in the window between the leading and trailing edge stream pointers are considered to have at least one reference count on them and are not completed until they move out of the window by advancing the trailing edge with [KsPinGetTrailingEdgeStreamPointer](/windows-hardware/drivers/ddi/ks/nf-ks-kspingettrailingedgestreampointer) and one of the **KsStreamPointerAdvance***Xxx* or [KsStreamPointerUnlock](/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerunlock) functions. Pins that do not specify this flag do not have a trailing edge stream pointer.
+Indicates that the queue associated with the pin should have a trailing edge stream pointer. The trailing edge pointer is a special stream pointer that points to the oldest data in the queue unless clone pointers exist on older data. Any data frames in the window between the leading and trailing edge stream pointers are considered to have at least one reference count on them and are not completed until they move out of the window by advancing the trailing edge with [KsPinGetTrailingEdgeStreamPointer](./nf-ks-kspingettrailingedgestreampointer.md) and one of the **KsStreamPointerAdvance***Xxx* or [KsStreamPointerUnlock](./nf-ks-ksstreampointerunlock.md) functions. Pins that do not specify this flag do not have a trailing edge stream pointer.
 
 #### KSPIN_FLAG_PROCESS_IN_RUN_STATE_ONLY
 
@@ -139,9 +139,9 @@ Specifies that this pin is capable of rendering frames.
 
 When specified on a filter-centric filter pin, indicates that one or more instances of the pin type in question must have frames available in order to process data. Mutually exclusive with KSPIN_FLAG_FRAMES_NOT_REQUIRED_FOR_PROCESSING.
 
-Note that this behavior can be obtained through [KsPinAttachOrGate](/windows-hardware/drivers/ddi/ks/nf-ks-kspinattachorgate) by manually setting up an OR gate as the frame gate for every instance of the pin and attaching this OR gate to the filter's AND gate.
+Note that this behavior can be obtained through [KsPinAttachOrGate](./nf-ks-kspinattachorgate.md) by manually setting up an OR gate as the frame gate for every instance of the pin and attaching this OR gate to the filter's AND gate.
 
-When using this flag, minidrivers cannot call [KsPinAttachAndGate](/windows-hardware/drivers/ddi/ks/nf-ks-kspinattachandgate) or **KsPinAttachOrGate** on the associated pin instances. (The flag effectively does this for you for the simple OR case.) Also see [Filter-Centric Processing](/windows-hardware/drivers/stream/filter-centric-processing).
+When using this flag, minidrivers cannot call [KsPinAttachAndGate](./nf-ks-kspinattachandgate.md) or **KsPinAttachOrGate** on the associated pin instances. (The flag effectively does this for you for the simple OR case.) Also see [Filter-Centric Processing](/windows-hardware/drivers/stream/filter-centric-processing).
 
 #### KSPIN_FLAG_PROCESS_IF_ANY_IN_RUN_STATE
 
@@ -165,7 +165,7 @@ Specifies a value of type ULONG that contains the minimum number of pins of a gi
 
 ### -field AllocatorFraming
 
-A pointer to a [**KSALLOCATOR_FRAMING_EX**](/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing_ex) structure containing the allocator framing requirements for this pin type. Allocator framing specifies items such as memory alignment requirements, maximum frame size, and minimum frame size. This member can be **NULL**, which indicates that this pin does not support the allocator framing property.
+A pointer to a [**KSALLOCATOR_FRAMING_EX**](./ns-ks-ksallocator_framing_ex.md) structure containing the allocator framing requirements for this pin type. Allocator framing specifies items such as memory alignment requirements, maximum frame size, and minimum frame size. This member can be **NULL**, which indicates that this pin does not support the allocator framing property.
 
 ### -field IntersectHandler
 
@@ -184,10 +184,10 @@ Furthermore, if you specify KSPIN_FLAG_DO_NOT_INITIATE_PROCESSING and the pin us
 
 ## -see-also
 
-[**KSALLOCATOR_FRAMING_EX**](/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing_ex)
+[**KSALLOCATOR_FRAMING_EX**](./ns-ks-ksallocator_framing_ex.md)
 
-[**KSPIN_DESCRIPTOR**](/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor)
+[**KSPIN_DESCRIPTOR**](./ns-ks-kspin_descriptor.md)
 
-[**KSPIN_DISPATCH**](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch)
+[**KSPIN_DISPATCH**](./ns-ks-_kspin_dispatch.md)
 
-[KsDeviceRegisterAdapterObject](/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteradapterobject)
+[KsDeviceRegisterAdapterObject](./nf-ks-ksdeviceregisteradapterobject.md)

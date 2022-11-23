@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-An array of **OPTPARAM** structures is used by CPSUI applications (including printer interface DLLs) for describing all the parameter values associated with a [property sheet option](/windows-hardware/drivers/print/property-sheet-options). The array's address is included in an [**OPTTYPE**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_opttype) structure.
+An array of **OPTPARAM** structures is used by CPSUI applications (including printer interface DLLs) for describing all the parameter values associated with a [property sheet option](/windows-hardware/drivers/print/property-sheet-options). The array's address is included in an [**OPTTYPE**](./ns-compstui-_opttype.md) structure.
 
 ## -struct-fields
 

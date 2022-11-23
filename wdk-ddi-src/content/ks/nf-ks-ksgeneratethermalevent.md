@@ -50,7 +50,7 @@ There is a check that verifies whether the miniport driver has the query interfa
 
 ### -param Object [in]
 
-Can be [**KSDEVICE**](/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice), [**KSFILTER**](/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter), or [**KSPIN**](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin). Depending on the object passed, the thermal notification is sent device-wide, filter-wide, or to the pin.
+Can be [**KSDEVICE**](./ns-ks-_ksdevice.md), [**KSFILTER**](./ns-ks-_ksfilter.md), or [**KSPIN**](./ns-ks-_kspin.md). Depending on the object passed, the thermal notification is sent device-wide, filter-wide, or to the pin.
 
 ### -param Value [in]
 

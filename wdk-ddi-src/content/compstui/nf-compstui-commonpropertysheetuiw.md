@@ -54,7 +54,7 @@ Caller-supplied window handle identifying the window into which new property she
 
 ### -param pfnPropSheetUI
 
-Caller-supplied pointer to a [PFNPROPSHEETUI](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui)-typed callback function.
+Caller-supplied pointer to a [PFNPROPSHEETUI](./nc-compstui-pfnpropsheetui.md)-typed callback function.
 
 ### -param lParam
 
@@ -82,11 +82,11 @@ The **CommonPropertySheetUI** function is CPSUI's entry point for applications. 
 
 The NT-based operating system print spooler calls the **CommonPropertySheetUI** function when a Win32 application calls the spooler's [DocumentProperties](/windows/win32/printdocs/documentproperties) or [PrinterProperties](/windows/win32/printdocs/printerproperties) functions.
 
-The callback function specified by the *pfnPropSheetUI* parameter is responsible for describing the property sheet pages to be added. For more information, see the description of the [PFNPROPSHEETUI](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui) function type.
+The callback function specified by the *pfnPropSheetUI* parameter is responsible for describing the property sheet pages to be added. For more information, see the description of the [PFNPROPSHEETUI](./nc-compstui-pfnpropsheetui.md) function type.
 
 The sequence of operation is as follows:
 
-1. The **CommonPropertySheetUI** function calls the *pfnPropSheetUI* callback so the callback can describe the pages to be added by calling CPSUI's [ComPropSheet](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet) function.
+1. The **CommonPropertySheetUI** function calls the *pfnPropSheetUI* callback so the callback can describe the pages to be added by calling CPSUI's [ComPropSheet](./nc-compstui-pfncompropsheet.md) function.
 
 1. If the *pfnPropSheetUI* callback succeeds, the **CommonPropertySheetUI** function displays the new property sheet pages and allows the user to modify page values.
 
@@ -96,4 +96,4 @@ The sequence of operation is as follows:
 
 For more information about the sequence of operation, see [Using CPSUI with Printer Drivers](/windows-hardware/drivers/print/using-cpsui-with-printer-drivers), in the section entitled [CPSUI](/windows-hardware/drivers/print/common-property-sheet-user-interface).
 
-The **CommonPropertySheetUI** function actually calls the *pfnPropSheetUI* callback several times, specifying different **Reason** member values in the callback's [PROPSHEETUI_INFO](/windows-hardware/drivers/ddi/compstui/ns-compstui-_propsheetui_info) structure. Each time the callback returns, it places a result status in the PROPSHEETUI_INFO structure's **Result** member. When the **CommonPropertySheetUI** function returns, it copies the final contents of **Result** into the location pointed to by *pResult*.
+The **CommonPropertySheetUI** function actually calls the *pfnPropSheetUI* callback several times, specifying different **Reason** member values in the callback's [PROPSHEETUI_INFO](./ns-compstui-_propsheetui_info.md) structure. Each time the callback returns, it places a result status in the PROPSHEETUI_INFO structure's **Result** member. When the **CommonPropertySheetUI** function returns, it copies the final contents of **Result** into the location pointed to by *pResult*.

@@ -90,12 +90,12 @@ Caller-supplied pointer, the use of which is dependent on the value supplied for
 |---|---|
 | DOCUMENTEVENT_ABORTDOC | Not used. |
 | DOCUMENTEVENT_CREATEDCPOST | *pvIn* contains the address of a pointer to the [**DEVMODEW**](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure specified in the *pvOut* parameter in a previous call to this function, for which the *iEsc* parameter was set to DOCUMENTEVENT_CREATEDCPRE. |
-| DOCUMENTEVENT_CREATEDCPRE | *pvIn* points to a [**DOCEVENT_CREATEDCPRE**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_docevent_createdcpre) structure. |
+| DOCUMENTEVENT_CREATEDCPRE | *pvIn* points to a [**DOCEVENT_CREATEDCPRE**](./ns-winddiui-_docevent_createdcpre.md) structure. |
 | DOCUMENTEVENT_DELETEDC | Not used. |
 | DOCUMENTEVENT_ENDDOCPOST | Not used. |
 | DOCUMENTEVENT_ENDDOCPRE or DOCUMENTEVENT_ENDDOC | Not used. |
 | DOCUMENTEVENT_ENDPAGE | Not used. |
-| DOCUMENTEVENT_ESCAPE | *pvIn* points to a [**DOCEVENT_ESCAPE**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_docevent_escape) structure. |
+| DOCUMENTEVENT_ESCAPE | *pvIn* points to a [**DOCEVENT_ESCAPE**](./ns-winddiui-_docevent_escape.md) structure. |
 | DOCUMENTEVENT_QUERYFILTER | Same as for DOCUMENTEVENT_CREATEDCPRE. |
 | DOCUMENTEVENT_RESETDCPOST | *pvIn* contains the address of a pointer to the [**DEVMODEW**](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure specified in the *pvOut* parameter in a previous call to this function, for which the *iEsc* parameter was set to DOCUMENTEVENT_RESETDCPRE. |
 | DOCUMENTEVENT_RESETDCPRE | *pvIn* contains the address of a pointer to the [**DEVMODEW**](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure supplied by the caller of the [**ResetDC**](/windows/win32/api/wingdi/nf-wingdi-resetdca) function. |
@@ -125,7 +125,7 @@ Function-supplied pointer to an output buffer, the use of which is dependent on 
 |---|---|
 | DOCUMENTEVENT_CREATEDCPRE | Pointer to a driver-supplied DEVMODEW structure, which GDI uses instead of the one supplied by the [**CreateDC**](/windows/win32/api/wingdi/nf-wingdi-createdca) caller. (If **NULL**, GDI uses the caller-supplied structure.) |
 | DOCUMENTEVENT_ESCAPE | Buffer pointer that is used as the *lpszOutData* parameter for the [**ExtEscape**](/windows/win32/api/wingdi/nf-wingdi-extescape) function. |
-| DOCUMENTEVENT_QUERYFILTER | Caller-supplied pointer to buffer containing a [**DOCEVENT_FILTER**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_docevent_filter) structure. |
+| DOCUMENTEVENT_QUERYFILTER | Caller-supplied pointer to buffer containing a [**DOCEVENT_FILTER**](./ns-winddiui-_docevent_filter.md) structure. |
 | DOCUMENTEVENT_RESETDCPRE | Pointer to a driver-supplied DEVMODEW structure, which GDI uses instead of the one supplied by the [**ResetDC**](/windows/win32/api/wingdi/nf-wingdi-resetdca) function caller. (If **NULL**, GDI uses the caller-supplied structure.) |
 | All other *iEsc* values | Not used. |
 
@@ -143,12 +143,12 @@ The function's return value is dependent on the escape supplied for *iEsc*. For 
 
 A [printer interface DLL](/windows-hardware/drivers/print/printer-interface-dll) can optionally provide a **DrvDocumentEvent** function to perform preprocessing or postprocessing of GDI calls associated with rendering a document. Calls to the **DrvDocumentEvent** function are made from the user-mode GDI client, when an application makes calls into the GDI client.
 
-For an *iEsc* value of DOCUMENTEVENT_QUERYFILTER, the spooler can interpret a DOCUMENTEVENT_SUCCESS value returned by **DrvDocumentEvent** in two ways, depending on whether the driver modified certain members of the [**DOCEVENT_FILTER**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_docevent_filter) structure. (The *pvOut* parameter points to this structure.) When the spooler allocates memory for a structure of this type, it initializes two members of this structure, **cElementsReturned** and **cElementsNeeded**, to known values. After **DrvDocumentEvent** returns, the spooler determines whether the values of these members have changed, and uses that information to interpret the **DrvDocumentEvent** return value. The following table summarizes this situation.
+For an *iEsc* value of DOCUMENTEVENT_QUERYFILTER, the spooler can interpret a DOCUMENTEVENT_SUCCESS value returned by **DrvDocumentEvent** in two ways, depending on whether the driver modified certain members of the [**DOCEVENT_FILTER**](./ns-winddiui-_docevent_filter.md) structure. (The *pvOut* parameter points to this structure.) When the spooler allocates memory for a structure of this type, it initializes two members of this structure, **cElementsReturned** and **cElementsNeeded**, to known values. After **DrvDocumentEvent** returns, the spooler determines whether the values of these members have changed, and uses that information to interpret the **DrvDocumentEvent** return value. The following table summarizes this situation.
 
 | Return value | Status of cElementsReturned, cElementsNeeded | Meaning |
 |---|---|---|
 | DOCUMENTEVENT_SUCCESS | Driver made no change to either member. | The spooler interprets this return value as equivalent to DOCUMENTEVENT_UNSUPPORTED. The spooler is unable to retrieve the event filter from the driver, so it persists in calling **DrvDocumentEvent** for all events. |
-| DOCUMENTEVENT_SUCCESS | Driver wrote to one or both members. | The spooler accepts this return value without interpretation. If the driver wrote to only one of **cElementsNeeded** and **cElementsReturned**, the spooler considers the unchanged member to have a value of zero. The spooler filters out all events listed in the **aDocEventCall** member of [**DOCEVENT_FILTER**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_docevent_filter). |
+| DOCUMENTEVENT_SUCCESS | Driver wrote to one or both members. | The spooler accepts this return value without interpretation. If the driver wrote to only one of **cElementsNeeded** and **cElementsReturned**, the spooler considers the unchanged member to have a value of zero. The spooler filters out all events listed in the **aDocEventCall** member of [**DOCEVENT_FILTER**](./ns-winddiui-_docevent_filter.md). |
 | DOCUMENTEVENT_UNSUPPORTED | Not applicable | The driver does not support DOCUMENTEVENT_QUERYFILTER. The spooler is unable to retrieve the event filter from the driver, so it persists in calling **DrvDocumentEvent** for all events. |
 | DOCUMENTEVENT_FAILURE | Not applicable | The driver supports DOCUMENTEVENT_QUERYFILTER, but encountered an internal error. The spooler is unable to retrieve the event filter from the driver, so it persists in calling **DrvDocumentEvent** for all events. |
 
@@ -156,7 +156,7 @@ If the escape code name has no suffix or is suffixed with PRE, the GDI client ca
 
 If the escape code supplied in the *iEsc* parameter is DOCUMENTEVENT_CREATEDCPRE, the following rules apply:
 
-- If the job is being sent directly to the printer without spooling, *pvIn* --> pszDevice points to the printer name. (See the [**DOCEVENT_CREATEDCPRE**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_docevent_createdcpre) structure for more information.)
+- If the job is being sent directly to the printer without spooling, *pvIn* --> pszDevice points to the printer name. (See the [**DOCEVENT_CREATEDCPRE**](./ns-winddiui-_docevent_createdcpre.md) structure for more information.)
 
 - If the job is being spooled, *pvIn* --> pszDevice points to the printer port name.
 
@@ -170,8 +170,8 @@ The **DrvDocumentEvent** function executes in the context of the user-mode calle
 
 ## -see-also
 
-[**DOCEVENT_CREATEDCPRE**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_docevent_createdcpre)
+[**DOCEVENT_CREATEDCPRE**](./ns-winddiui-_docevent_createdcpre.md)
 
-[**DOCEVENT_ESCAPE**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_docevent_escape)
+[**DOCEVENT_ESCAPE**](./ns-winddiui-_docevent_escape.md)
 
-[**DOCEVENT_FILTER**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_docevent_filter)
+[**DOCEVENT_FILTER**](./ns-winddiui-_docevent_filter.md)

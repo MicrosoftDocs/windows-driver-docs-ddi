@@ -66,21 +66,21 @@ Caller-supplied value that depends on the *ComPropSheet* function code supplied 
 
 ## -returns
 
-The return value depends on the [ComPropSheet function code](/windows-hardware/drivers/ddi/_print/index) supplied for *Function*.
+The return value depends on the [ComPropSheet function code](../_print/index.md) supplied for *Function*.
 
 ## -remarks
 
-When CPSUI calls one of an application's [PFNPROPSHEETUI](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui)-typed functions, it passes a pointer to the *ComPropSheet* function in a [PROPSHEETUI_INFO](/windows-hardware/drivers/ddi/compstui/ns-compstui-_propsheetui_info) structure. A **PFNPROPSHEETUI**-typed function can call the *ComPropSheet* function to describe property sheet pages to CPSUI.
+When CPSUI calls one of an application's [PFNPROPSHEETUI](./nc-compstui-pfnpropsheetui.md)-typed functions, it passes a pointer to the *ComPropSheet* function in a [PROPSHEETUI_INFO](./ns-compstui-_propsheetui_info.md) structure. A **PFNPROPSHEETUI**-typed function can call the *ComPropSheet* function to describe property sheet pages to CPSUI.
 
-A [printer interface DLL](/windows-hardware/drivers/print/printer-interface-dll) can call *ComPropSheet* from within its [DrvDocumentPropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets) function or its [DrvDevicePropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicepropertysheets) function.
+A [printer interface DLL](/windows-hardware/drivers/print/printer-interface-dll) can call *ComPropSheet* from within its [DrvDocumentPropertySheets](../winddiui/nf-winddiui-drvdocumentpropertysheets.md) function or its [DrvDevicePropertySheets](../winddiui/nf-winddiui-drvdevicepropertysheets.md) function.
 
-[User interface plug-ins](/windows-hardware/drivers/print/user-interface-plug-ins) for Microsoft's [Unidrv](/windows-hardware/drivers/) and [Pscript](/windows-hardware/drivers/) drivers can call *ComPropSheet* from within their [IPrintOemUI::DocumentPropertySheets](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets) and [IPrintOemUI::DevicePropertySheets](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets) methods.
+[User interface plug-ins](/windows-hardware/drivers/print/user-interface-plug-ins) for Microsoft's [Unidrv](/windows-hardware/drivers/) and [Pscript](/windows-hardware/drivers/) drivers can call *ComPropSheet* from within their [IPrintOemUI::DocumentPropertySheets](../prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets.md) and [IPrintOemUI::DevicePropertySheets](../prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets.md) methods.
 
 The [group parent](/windows-hardware/drivers/print/group-parent) handle specified for the *hComPropSheet* parameter can be either of the following:
 
-- The handle received in the *hComPropSheet* member of a [PROPSHEETUI_INFO](/windows-hardware/drivers/ddi/compstui/ns-compstui-_propsheetui_info) structure.
+- The handle received in the *hComPropSheet* member of a [PROPSHEETUI_INFO](./ns-compstui-_propsheetui_info.md) structure.
 
-- The handle received as a result of previously calling *ComPropSheet* with a [CPSFUNC_INSERT_PSUIPAGE](/previous-versions/ff546414(v=vs.85)) function code, and specifying PSUIPAGEINSERT_GROUP_PARENT as the **Type** member for an [INSERTPSUIPAGE_INFO](/windows-hardware/drivers/ddi/compstui/ns-compstui-_insertpsuipage_info) structure.
+- The handle received as a result of previously calling *ComPropSheet* with a [CPSFUNC_INSERT_PSUIPAGE](/previous-versions/ff546414(v=vs.85)) function code, and specifying PSUIPAGEINSERT_GROUP_PARENT as the **Type** member for an [INSERTPSUIPAGE_INFO](./ns-compstui-_insertpsuipage_info.md) structure.
 
 ### ComPropSheet function codes
 

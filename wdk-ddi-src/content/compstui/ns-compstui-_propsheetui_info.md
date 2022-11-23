@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **PROPSHEETUI_INFO** structure is used as an input parameter to [PFNPROPSHEETUI](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui)-typed functions.
+The **PROPSHEETUI_INFO** structure is used as an input parameter to [PFNPROPSHEETUI](./nc-compstui-pfnpropsheetui.md)-typed functions.
 
 ## -struct-fields
 
@@ -69,7 +69,7 @@ CPSUI-supplied bit flags. The following flag is defined:
 
 ### -field Reason
 
-CPSUI-supplied constant specifying the action to be performed on the property sheet by the [PFNPROPSHEETUI](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui)-typed function to which the PROPSHEETUI_INFO structure was passed. One of the following constants will be supplied:
+CPSUI-supplied constant specifying the action to be performed on the property sheet by the [PFNPROPSHEETUI](./nc-compstui-pfnpropsheetui.md)-typed function to which the PROPSHEETUI_INFO structure was passed. One of the following constants will be supplied:
 
 - PROPSHEETUI_REASON_DESTROY
 
@@ -81,28 +81,28 @@ CPSUI-supplied constant specifying the action to be performed on the property sh
 
 - PROPSHEETUI_REASON_SET_RESULT
 
-For information about the meaning of each constant, see the Remarks section of the [PFNPROPSHEETUI](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui) description.
+For information about the meaning of each constant, see the Remarks section of the [PFNPROPSHEETUI](./nc-compstui-pfnpropsheetui.md) description.
 
 ### -field hComPropSheet
 
-CPSUI-supplied handle to a property sheet [group parent](/windows-hardware/drivers/print/group-parent). This handle can be passed to CPSUI's [ComPropSheet](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet) function.
+CPSUI-supplied handle to a property sheet [group parent](/windows-hardware/drivers/print/group-parent). This handle can be passed to CPSUI's [ComPropSheet](./nc-compstui-pfncompropsheet.md) function.
 
 ### -field pfnComPropSheet
 
-Address of CPSUI's [ComPropSheet](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet) function.
+Address of CPSUI's [ComPropSheet](./nc-compstui-pfncompropsheet.md) function.
 
 ### -field lParamInit
 
-Value received as the *lParam* parameter for the associated PFNPROPSHEETUI-typed function, when the function was first called with a **Reason** of PROPSHEETUI_REASON_INIT. For information about what this value can be, see the description of [PFNPROPSHEETUI](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui).
+Value received as the *lParam* parameter for the associated PFNPROPSHEETUI-typed function, when the function was first called with a **Reason** of PROPSHEETUI_REASON_INIT. For information about what this value can be, see the description of [PFNPROPSHEETUI](./nc-compstui-pfnpropsheetui.md).
 
 This value is supplied by CPSUI, and is valid for all **Reason** values.
 
 ### -field UserData
 
-Optional, private value or pointer supplied by the associated [PFNPROPSHEETUI](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui)-typed function, initially set to zero by CPSUI. If the function stores a value in **UserData**, then for subsequent calls to the function, the stored value or pointer is unchanged unless changed by the function.
+Optional, private value or pointer supplied by the associated [PFNPROPSHEETUI](./nc-compstui-pfnpropsheetui.md)-typed function, initially set to zero by CPSUI. If the function stores a value in **UserData**, then for subsequent calls to the function, the stored value or pointer is unchanged unless changed by the function.
 
 ### -field Result
 
-Result value supplied by the associated [PFNPROPSHEETUI](/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui)-typed function, initially set to zero by CPSUI. If the function stores a result value in **Result**, then for subsequent calls to the function, the stored value is unchanged unless changed by the function.
+Result value supplied by the associated [PFNPROPSHEETUI](./nc-compstui-pfnpropsheetui.md)-typed function, initially set to zero by CPSUI. If the function stores a result value in **Result**, then for subsequent calls to the function, the stored value is unchanged unless changed by the function.
 
-If the PFNPROPSHEETUI-typed function's address was specified as an argument to [CommonPropertySheetUI](/windows-hardware/drivers/ddi/compstui/nf-compstui-commonpropertysheetuia), the last value stored in **Result** is returned to **CommonPropertySheetUI** in the location pointed to by its *pResult* argument.
+If the PFNPROPSHEETUI-typed function's address was specified as an argument to [CommonPropertySheetUI](./nf-compstui-commonpropertysheetuia.md), the last value stored in **Result** is returned to **CommonPropertySheetUI** in the location pointed to by its *pResult* argument.

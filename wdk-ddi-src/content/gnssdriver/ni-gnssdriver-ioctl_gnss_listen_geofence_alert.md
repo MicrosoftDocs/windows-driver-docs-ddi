@@ -58,7 +58,7 @@ Set to 0.
 
 ### -output-buffer
 
-A pointer to a [GNSS_EVENT](/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_event) structure.
+A pointer to a [GNSS_EVENT](./ns-gnssdriver-gnss_event.md) structure.
 
 The EventType must be set to **GNSS_Event_GeofenceAlertData** and the **GeofenceAlertData** member filled in.
 
@@ -98,8 +98,8 @@ This IO request is kept pending until an alert is received from the GNSS engine.
 
 [Creating IOCTL Requests in Drivers](/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers)
 
-[WdfIoTargetSendInternalIoctlOthersSynchronously](/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously)
+[WdfIoTargetSendInternalIoctlOthersSynchronously](../wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md)
 
-[WdfIoTargetSendInternalIoctlSynchronously](/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously)
+[WdfIoTargetSendInternalIoctlSynchronously](../wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md)
 
-[WdfIoTargetSendIoctlSynchronously](/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously)
+[WdfIoTargetSendIoctlSynchronously](../wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md)
