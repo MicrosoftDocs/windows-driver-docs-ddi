@@ -65,8 +65,7 @@ Specifies the number of bytes to be filled with zeros.
 A miniport driver can call 
     <b>NdisZeroMappedMemory</b> to zero-initialize mapped device memory. The given 
     <i>Destination</i> and 
-    <i>Length</i> must be a proper subrange of the range specified when the driver called 
-    <a href="/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>.
+    <i>Length</i> must be a proper subrange of the range specified when the driver called [**NdisMMapIoSpace**](nf-ndis-ndismmapiospace.md).
 
 <b>NdisZeroMappedMemory</b> is optimized, and a miniport driver can call this function any time that it
     needs to clear a mapped memory range.
@@ -76,8 +75,7 @@ A miniport driver can call
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
-
-<a href="/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>
+[**NdisMMapIoSpace**](nf-ndis-ndismmapiospace.md)
 
 
 
