@@ -46,8 +46,7 @@ api_name:
 
 ## -description
 
-<b>NdisMUnmapIoSpace</b> releases a virtual range mapped by an initialization-time call to 
-  <a href="/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>.
+<b>NdisMUnmapIoSpace</b> releases a virtual range mapped by an initialization-time call to [**NdisMMapIoSpace**](nf-ndis-ndismmapiospace.md).
 
 ## -parameters
 
@@ -71,8 +70,7 @@ Specifies the number of bytes in the range that was mapped with
 
 ## -remarks
 
-When a miniport driver is unloading, any memory range that it mapped during initialization with 
-    <a href="/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a> must be released with a
+When a miniport driver is unloading, any memory range that it mapped during initialization with [**NdisMMapIoSpace**](nf-ndis-ndismmapiospace.md) must be released with a
     call to 
     <b>NdisMUnmapIoSpace</b>.
 
@@ -96,4 +94,4 @@ The
 
 
 
-<a href="/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>
+[**NdisMMapIoSpace**](nf-ndis-ndismmapiospace.md)
