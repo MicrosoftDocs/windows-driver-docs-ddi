@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>REG_SET_VALUE_INFORMATION</b> structure describes a new setting for a registry key's value entry.
+The <b>REG_SET_VALUE_KEY_INFORMATION</b> structure describes a new setting for a registry key's value entry.
 
 ## -struct-fields
 
