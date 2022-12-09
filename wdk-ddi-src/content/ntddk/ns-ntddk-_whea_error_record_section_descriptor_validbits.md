@@ -1,10 +1,9 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
-title: _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS (ntddk.h)
+title: WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS (ntddk.h)
 description: The WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union describes which members of a WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure contain valid data.
-old-location: whea\whea_error_record_section_descriptor_validbits.htm
 tech.root: whea
-ms.date: 02/20/2018
+ms.date: 12/09/2022
 keywords: ["WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS structure"]
 ms.keywords: "*PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union [WHEA Drivers and Applications], _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, ntddk/PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, ntddk/WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, whea.whea_error_record_section_descriptor_validbits, whearef_0e13e9d6-57cb-44bd-825e-d9cab5c138c8.xml"
 req.header: ntddk.h
@@ -46,24 +45,23 @@ api_name:
  - WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
 ---
 
-# _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS structure
-
-
 ## -description
 
-The WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union describes which members of a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure contain valid data.
+The WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union describes which members of a [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor) structure contain valid data.
 
 ## -struct-fields
 
 ### -field DUMMYSTRUCTNAME
 
+Defines the **DUMMYSTRUCTNAME** structure.
+
 ### -field DUMMYSTRUCTNAME.FRUId
 
-A single bit that indicates that the <b>FRUId</b> member of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure contains valid data.
+A single bit that indicates that the **FRUId** member of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure contains valid data.
 
 ### -field DUMMYSTRUCTNAME.FRUText
 
-A single bit that indicates that the <b>FRUText</b> member of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure contains valid data.
+A single bit that indicates that the **FRUText** member of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure contains valid data.
 
 ### -field DUMMYSTRUCTNAME.Reserved
 
@@ -71,13 +69,12 @@ Reserved for system use.
 
 ### -field AsUCHAR
 
-A UCHAR representation of the contents of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union.
+A UCHAR representation of the contents of the **WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS** union.
 
 ## -remarks
 
-A WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure.
+A WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union is contained within the [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
-
+[**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor)

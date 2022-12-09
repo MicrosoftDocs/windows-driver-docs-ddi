@@ -2,9 +2,8 @@
 UID: NF:ntddk.PsGetJobServerSilo
 title: PsGetJobServerSilo function (ntddk.h)
 description: This routine returns the effective ServerSilo for the job. The returned pointer is valid as long as the supplied Job object remains referenced.
-old-location: kernel\psgetjobserversilo.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/07/2022
 keywords: ["PsGetJobServerSilo function"]
 ms.keywords: PsGetJobServerSilo, PsGetJobServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgetjobserversilo, ntddk/PsGetJobServerSilo
 req.header: ntddk.h
@@ -40,26 +39,19 @@ api_name:
  - PsGetJobServerSilo
 ---
 
-# PsGetJobServerSilo function
-
-
 ## -description
 
-This routine returns the effective <i>ServerSilo</i> for the job. The returned pointer is valid as long as the supplied <i>Job</i> object remains referenced.
+This routine returns the effective *ServerSilo* for the job. The returned pointer is valid as long as the supplied *Job* object remains referenced.
 
-
-<div class="alert"><b>Note</b>  This returns a <i>ServerSilo</i> or a value indicating the host silo. Unlike <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetjobsilo">PsGetJobSilo</a>, it will not return an app silo, even if one is present.</div>
-<div> </div>
+This returns a *ServerSilo* or a value indicating the host silo. Unlike [PsGetJobSilo](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetjobsilo), it will not return an app silo, even if one is present.
 
 ## -parameters
 
 ### -param Job [in, optional]
 
-
 A job object.
 
 ### -param ServerSilo [out]
-
 
  A pointer that receives the server silo for the job.
 
@@ -67,35 +59,11 @@ A job object.
 
 The following NT status codes are returned.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>Job</i> parameter is <b>NULL</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-A PESILO is returned successfully.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|---|---|
+| **STATUS_INVALID_PARAMETER** | The *Job* parameter is **NULL**. |
+| **STATUS_SUCCESS** | A PESILO is returned successfully. |
 
 ## -remarks
 
-<b>STATUS_SUCCESS</b> is returned even if a server silo is not in effect for the job. In that case, it will return the default host silo.
+**STATUS_SUCCESS** is returned even if a server silo is not in effect for the job. In that case, it will return the default host silo.

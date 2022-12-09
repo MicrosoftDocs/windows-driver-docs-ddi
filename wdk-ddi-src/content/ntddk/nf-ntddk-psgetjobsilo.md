@@ -2,9 +2,8 @@
 UID: NF:ntddk.PsGetJobSilo
 title: PsGetJobSilo function (ntddk.h)
 description: This routine returns the first job in the hierarchy that is a Silo. The returned pointer is valid as long as the supplied Job object remains referenced.
-old-location: kernel\psgetjobsilo.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/07/2022
 keywords: ["PsGetJobSilo function"]
 ms.keywords: PsGetJobSilo, PsGetJobSilo routine [Kernel-Mode Driver Architecture], kernel.psgetjobsilo, ntddk/PsGetJobSilo
 req.header: ntddk.h
@@ -40,70 +39,28 @@ api_name:
  - PsGetJobSilo
 ---
 
-# PsGetJobSilo function
-
-
 ## -description
 
-This routine returns the first job in the hierarchy that is a <i>Silo</i>.  The returned pointer is valid as long as the supplied <i>Job</i> object remains referenced.
+This routine returns the first job in the hierarchy that is a *Silo*.  The returned pointer is valid as long as the supplied *Job* object remains referenced.
 
-
-<div class="alert"><b>Note</b>  This returns both app silos and server silos, whichever is first.</div>
-<div> </div>
+This returns both app silos and server silos, whichever is first.
 
 ## -parameters
 
 ### -param Job [in]
 
-
 A job object.
 
 ### -param Silo [out]
-
 
  A pointer that receives the silo for the job.
 
 ## -returns
 
-The following NT status codes are returned.
+The following NT status codes are returned:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>Job</i> parameter is <b>NULL</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_JOB_NO_CONTAINER</b></dt>
-</dl>
-</td>
-<td width="60%">
-No silo is present.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-A PESILO is returned successfully.
-
-</td>
-</tr>
-</table>
-
+| Return code | Description |
+|---|---|
+| **STATUS_INVALID_PARAMETER** | The *Job* parameter is **NULL**. |
+| **STATUS_JOB_NO_CONTAINER** | No silo is present. |
+| **STATUS_SUCCESS** | A PESILO is returned successfully. |

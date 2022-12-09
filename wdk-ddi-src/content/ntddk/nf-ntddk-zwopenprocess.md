@@ -2,15 +2,14 @@
 UID: NF:ntddk.ZwOpenProcess
 title: ZwOpenProcess function (ntddk.h)
 description: Learn how the ZwOpenProcess routine opens a handle to a process object and sets the access rights to this object.
-old-location: kernel\zwopenprocess.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/07/2022
 keywords: ["ZwOpenProcess function"]
 ms.keywords: NtOpenProcess, ZwOpenProcess, ZwOpenProcess routine [Kernel-Mode Driver Architecture], k111_cf01d6cd-b10e-46b6-9b78-984aac1ef96d.xml, kernel.zwopenprocess, ntddk/NtOpenProcess, ntddk/ZwOpenProcess
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,109 +39,51 @@ api_name:
  - ZwOpenProcess
 ---
 
-# ZwOpenProcess function
-
-
 ## -description
 
-The <b>ZwOpenProcess</b> routine opens a handle to a process object and sets the access rights to this object.
+The **ZwOpenProcess** routine opens a handle to a process object and sets the access rights to this object.
 
 ## -parameters
 
 ### -param ProcessHandle [out]
 
-
-A pointer to a variable of type HANDLE. The <b>ZwOpenProcess</b> routine writes the process handle to the variable that this parameter points to.
+A pointer to a variable of type HANDLE. The **ZwOpenProcess** routine writes the process handle to the variable that this parameter points to.
 
 ### -param DesiredAccess [in]
 
-
-An <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that contains the access rights that the caller has requested to the process object.
+An [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) value that contains the access rights that the caller has requested to the process object.
 
 ### -param ObjectAttributes [in]
 
-
-A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the attributes to apply to the process object handle. In Windows Vista and later versions of Windows, the <b>ObjectName</b> field of this structure must be set to <b>NULL</b>. In Windows Server 2003, Windows XP, and Windows 2000, this field can, as an option, point to an object name. For more information, see the following Remarks section.
+A pointer to an [**OBJECT_ATTRIBUTES**](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that specifies the attributes to apply to the process object handle. The **ObjectName** field of this structure must be set to **NULL**. For more information, see the following Remarks section.
 
 ### -param ClientId [in, optional]
 
-
-A pointer to a client ID that identifies the thread whose process is to be opened. In Windows Vista and later versions of Windows, this parameter must be a non-<b>NULL</b> pointer to a valid client ID. In Windows Server 2003, Windows XP, and Windows 2000, this parameter is optional and can be set to <b>NULL</b> if the <b>OBJECT_ATTRIBUTES</b> structure that <i>ObjectAttributes</i> points to specifies an object name. For more information, see the following Remarks section.
+A pointer to a client ID that identifies the thread whose process is to be opened. This parameter must be a non-**NULL** pointer to a valid client ID. For more information, see the following Remarks section.
 
 ## -returns
 
-<b>ZwOpenProcess</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error status codes.
+**ZwOpenProcess** returns STATUS_SUCCESS if the call is successful. Possible return values include the following error status codes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER_MIX</b></dt>
-</dl>
-</td>
-<td width="60%">
-In Windows Vista and later versions of Windows, the caller either supplied an object name or failed to supply a client ID. In Windows Server 2003, Windows XP, and Windows 2000, the caller supplied both an object name and a client ID.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_CID</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified client ID is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The requested access rights are not valid for a process object.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The requested access rights cannot be granted.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|---|---|
+| **STATUS_INVALID_PARAMETER_MIX** | The caller either supplied an object name or failed to supply a client ID. |
+| **STATUS_INVALID_CID** | The specified client ID is not valid. |
+| **STATUS_INVALID_PARAMETER** | The requested access rights are not valid for a process object. |
+| **STATUS_ACCESS_DENIED** | The requested access rights cannot be granted. |
 
 ## -remarks
 
-In Windows Vista and later versions of Windows, the <i>ClientId</i> parameter must point to a client ID that identifies the thread whose process is to be opened. In addition, the <b>ObjectName</b> field of the structure pointed to by <i>ObjectAttributes</i> must be set to <b>NULL</b>.
+The *ClientId* parameter must point to a client ID that identifies the thread whose process is to be opened. In addition, the **ObjectName** field of the structure pointed to by *ObjectAttributes* must be set to **NULL**.
 
-In Windows Server 2003, Windows XP, and Windows 2000, the caller has the option of supplying either a client ID or an object name (but not both). If the <b>ObjectName</b> field of the structure pointed to by <i>ObjectAttributes</i> contains a non-<b>NULL</b> pointer to an object name, <i>ClientId</i> must be <b>NULL</b>.
+If the call to this function occurs in user mode, you should use the name "**NtOpenProcess**" instead of "**ZwOpenProcess**".
 
-<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtOpenProcess</b>" instead of "<b>ZwOpenProcess</b>".</div>
-<div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
+[ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask)
 
+[**OBJECT_ATTRIBUTES**](/windows/win32/api/ntdef/ns-ntdef-_object_attributes)
 
-
-<a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
-
+[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
