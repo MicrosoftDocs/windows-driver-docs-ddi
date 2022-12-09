@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_POWER_UP
 tech.root: audio
 title: EVT_ACX_CIRCUIT_POWER_UP
-ms.date: 11/02/2021
+ms.date: 12/08/2022
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_POWER_UP callback is used by the driver to add functionality in the power up path of an ACXCIRCUIT object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

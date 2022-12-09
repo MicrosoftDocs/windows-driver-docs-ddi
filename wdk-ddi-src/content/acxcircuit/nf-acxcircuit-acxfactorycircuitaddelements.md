@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitAddElements
 tech.root: audio
 title: AcxFactoryCircuitAddElements
-ms.date: 07/28/2022
+ms.date: 12/08/2022
 targetos: Windows
 description: The AcxFactoryCircuitAddElements function adds elements to an ACXFACTORYCIRCUIT.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

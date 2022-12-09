@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN
-ms.date: 06/16/2022
+ms.date: 12/08/2022
 targetos: Windows
 description: The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to add functionality in the power down path of an ACXFACTORYCIRCUIT object. 
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

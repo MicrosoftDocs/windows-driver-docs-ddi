@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitGetSymbolicLinkName
 tech.root: audio
 title: AcxFactoryCircuitGetSymbolicLinkName
-ms.date: 11/10/2022
+ms.date: 12/08/2022
 targetos: Windows
 description: The AcxFactoryCircuitGetSymbolicLinkName function retrieves the symbolic link name for the specified ACX factory circuit.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

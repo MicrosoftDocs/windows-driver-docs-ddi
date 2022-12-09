@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT
-ms.date: 01/25/2022
+ms.date: 12/08/2022
 targetos: Windows
 description: The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback is invoked by ACX when the driver must create an ACXCIRCUIT object with the specified configuration.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

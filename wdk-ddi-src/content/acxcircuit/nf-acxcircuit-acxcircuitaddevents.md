@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitAddEvents
 tech.root: audio
 title: AcxCircuitAddEvents
-ms.date: 02/02/2022
+ms.date: 12/08/2022
 targetos: Windows
 description: The AcxCircuitAddEvents function adds one or more events to an ACXCIRCUIT. 
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

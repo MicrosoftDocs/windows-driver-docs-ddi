@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitAddElements
 tech.root: audio
 title: AcxCircuitAddElements
-ms.date: 06/16/2022
+ms.date: 12/08/2022
 targetos: Windows
 description: The AcxCircuitAddElements function adds elements to an ACXCIRCUIT.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

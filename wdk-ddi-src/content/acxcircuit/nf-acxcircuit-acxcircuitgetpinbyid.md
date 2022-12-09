@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitGetPinById
 tech.root: audio
 title: AcxCircuitGetPinById
-ms.date: 08/16/2021
+ms.date: 12/08/2022
 targetos: Windows
 description: When provided a valid PinID number, the AcxCircuitGetPinById function returns the corresponding ACXPIN object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitCreate
 tech.root: audio
 title: AcxCircuitCreate
-ms.date: 07/28/2022
+ms.date: 12/08/2022
 targetos: Windows
 description: The AcxCircuitCreate function is used to create an ACXCIRCUIT.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -52,7 +52,7 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) that are used to set the various object’s values: cleanup and destroy callbacks, context type, and to specify its parent WDF object.
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) that are used to set the various object's values: cleanup and destroy callbacks, context type, and to specify its parent WDF object.
 
 ### -param Config
 
@@ -71,7 +71,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 An ACXCIRCUIT represents a full or partial (multi-circuit) audio path to a user perceived audio device (speakers, mic, etc.). 
 
-An ACXCIRCUIT has at least one input pin (ACXPIN) and one output pin (ACXPIN), and it may aggregate one or more ACXELEMENTS objects. By default, ACXELEMENTs are ‘connected’ in the same order of assembly. 
+An ACXCIRCUIT has at least one input pin (ACXPIN) and one output pin (ACXPIN), and it may aggregate one or more ACXELEMENTS objects. By default, ACXELEMENTs are 'connected' in the same order of assembly. 
 
 ### Example
 

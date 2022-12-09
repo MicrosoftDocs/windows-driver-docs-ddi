@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignCategories
 tech.root: audio
 title: AcxCircuitInitAssignCategories
-ms.date: 07/28/2022
+ms.date: 12/08/2022
 targetos: Windows
 description: The AcxCircuitInitAssignCategories function assigns a set of KSCATERGORY entries for the ACXCIRCUIT.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

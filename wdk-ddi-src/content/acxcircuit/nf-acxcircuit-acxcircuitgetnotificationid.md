@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitGetNotificationId
 tech.root: audio
 title: AcxCircuitGetNotificationId
-ms.date: 10/17/2022
+ms.date: 12/08/2022
 targetos: Windows
 description: The AcxCircuitGetNotificationId function retrieves the Plug and Play notification ID that is used for audio module notifications for the specified ACX circuit.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
