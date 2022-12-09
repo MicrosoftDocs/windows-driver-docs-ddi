@@ -3,7 +3,7 @@ UID: NF:wia_lh.IWiaTransferCallback.TransferCallback
 title: IWiaTransferCallback::TransferCallback (wia_lh.h)
 description: The IWiaTransferCallback::TransferCallback method is implemented by an image processing filter. It is called by the WIA service as a result of an application calling IWiaTransfer::Download or the preview component's IWiaPreview::GetNewPreview.
 tech.root: image
-ms.date: 04/19/2022
+ms.date: 11/10/2022
 keywords: ["IWiaTransferCallback::TransferCallback"]
 ms.keywords: IWiaTransferCallback interface [Imaging Devices],TransferCallback method, IWiaTransferCallback.TransferCallback, IWiaTransferCallback::TransferCallback, IWiaTransfercallback_8e8bdc78-ce93-4fe1-98aa-91ffe608ee52.xml, TransferCallback, TransferCallback method [Imaging Devices], TransferCallback method [Imaging Devices],IWiaTransferCallback interface, image.iwiatransfercallback_transfercallback, wia_lh/IWiaTransferCallback::TransferCallback
 req.header: wia_lh.h
@@ -51,7 +51,7 @@ Currently unused. Should be set to zero.
 
 ### -param pWiaTransferParams [in]
 
-Specifies a pointer to a WiaTransferParams structure. This structure is defined in the Microsoft Windows SDK documentation.
+Specifies a pointer to a [**WiaTransferParams**](/windows/win32/wia/-wia-wiatransferparams) structure.
 
 ## -returns
 

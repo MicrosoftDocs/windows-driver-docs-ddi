@@ -10,7 +10,7 @@ ms.keywords: RtlUnicodeToUTF8N, RtlUnicodeToUTF8N routine [Kernel-Mode Driver Ar
 req.header: ntifs.h
 req.include-header: Ntifs.h, Wdm.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

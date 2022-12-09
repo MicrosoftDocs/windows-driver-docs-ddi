@@ -10,7 +10,7 @@ ms.keywords: "*PNETWORK_APP_INSTANCE_ECP_CONTEXT, NETWORK_APP_INSTANCE_ECP_CONTE
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
-req.target-min-winverclnt: This structure is available in Windows 8 and later versions of Windows.
+req.target-min-winverclnt: This structure is Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

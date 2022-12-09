@@ -10,7 +10,7 @@ ms.keywords: RtlGetCompressionWorkSpaceSize, RtlGetCompressionWorkSpaceSize func
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows XP and all later versions of Windows operating systems.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

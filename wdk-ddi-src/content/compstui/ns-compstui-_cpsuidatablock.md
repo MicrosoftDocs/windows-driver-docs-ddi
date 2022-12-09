@@ -1,10 +1,9 @@
 ---
 UID: NS:compstui._CPSUIDATABLOCK
-title: _CPSUIDATABLOCK (compstui.h)
+title: CPSUIDATABLOCK (compstui.h)
 description: The CPSUIDATABLOCK structure is used as a parameter for the ComPropSheet function, if the function code is CPSFUNC_SET_DATABLOCK or CPSFUNC_QUERY_DATABLOCK.
-old-location: print\cpsuidatablock.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 11/15/2022
 keywords: ["CPSUIDATABLOCK structure"]
 ms.keywords: "*PCPSUIDATABLOCK, CPSUIDATABLOCK, CPSUIDATABLOCK structure [Print Devices], PCPSUIDATABLOCK, PCPSUIDATABLOCK structure pointer [Print Devices], _CPSUIDATABLOCK, compstui/CPSUIDATABLOCK, compstui/PCPSUIDATABLOCK, cpsuifnc_c9e406f5-1d6a-403d-a286-89cf199a09d2.xml, print.cpsuidatablock"
 req.header: compstui.h
@@ -46,20 +45,16 @@ api_name:
  - CPSUIDATABLOCK
 ---
 
-# _CPSUIDATABLOCK structure
-
-
 ## -description
 
-The CPSUIDATABLOCK structure is used as a parameter for the <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function, if the function code is <a href="/previous-versions/ff547036(v=vs.85)">CPSFUNC_SET_DATABLOCK</a> or <a href="/previous-versions/ff546425(v=vs.85)">CPSFUNC_QUERY_DATABLOCK</a>.
+The **CPSUIDATABLOCK** structure is used as a parameter for the [ComPropSheet](./nc-compstui-pfncompropsheet.md) function, if the function code is [CPSFUNC_SET_DATABLOCK](/previous-versions/ff547036(v=vs.85)) or [CPSFUNC_QUERY_DATABLOCK](/previous-versions/ff546425(v=vs.85)).
 
 ## -struct-fields
 
 ### -field cbData
 
-Size, in bytes of the buffer pointed to by <b>pbData</b>.
+Size, in bytes of the buffer pointed to by **pbData**.
 
 ### -field pbData
 
 Pointer to a caller-allocated buffer.
-

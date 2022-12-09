@@ -54,8 +54,7 @@ api_name:
 
 
 Pointer to the memory-mapped register. This virtual address must fall within a range returned by
-     an initialization-time call to 
-     <a href="/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>.
+     an initialization-time call to [**NdisMMapIoSpace**](nf-ndis-ndismmapiospace.md).
 
 ### -param Data [out]
 
@@ -74,7 +73,7 @@ If a driver calls this function, a NIC's device registers must be mapped to nonc
 
 
 
-<a href="/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>
+[**NdisMMapIoSpace**](nf-ndis-ndismmapiospace.md)
 
 
 

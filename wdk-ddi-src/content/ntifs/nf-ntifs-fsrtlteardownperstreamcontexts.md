@@ -10,7 +10,7 @@ ms.keywords: FsRtlTeardownPerStreamContexts, FsRtlTeardownPerStreamContexts rout
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Update Rollup for Windows 2000 Service Pack 4 (SP4) and on Microsoft Windows XP and later.
+req.target-min-winverclnt: Windows 2000 SP4 Update Rollup; Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

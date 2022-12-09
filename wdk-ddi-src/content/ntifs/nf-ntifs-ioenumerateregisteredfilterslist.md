@@ -10,7 +10,7 @@ ms.keywords: IoEnumerateRegisteredFiltersList, IoEnumerateRegisteredFiltersList 
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Update Rollup for Windows 2000 Service Pack 4 (SP4) and on Windows Server 2003 Service Pack 1 (SP1) and later.
+req.target-min-winverclnt: Update Rollup for Windows 2000 SP4; Windows Server 2003 SP1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

@@ -3,11 +3,10 @@ description: "Learn more about: Kernel"
 UID: TP:kernel
 title: Windows kernel
 ms.assetid: f7c71d77-9a5b-3320-80a1-302b75314d1e
-ms.date: 03/18/2022
+ms.date: 11/22/2022
 keywords: ["Windows kernel"]
 ms.keywords: 
 ms.topic: portal
-ms.custom: 19H1
 ---
 
 # Kernel
@@ -294,10 +293,6 @@ For more information about power management, see [Power Management for Windows D
 |PoUnregisterSystemState| The PoUnregisterSystemState routine cancels a system state registration created by PoRegisterSystemState.
 
 ### Device Power Management
-
-Starting with Windows 8, drivers can divide their device hardware into multiple logical components to enable fine-grained power management. A component has a set of power states that can be managed independently of the power states of other components in the same device. In the F0 state, the component is fully turned on. The component might support additional, low-power states F1, F2, and so on.
-
-The power policy owner for a device is typically the device's function driver. To enable component-level power management, this driver registers the device with the power management framework (PoFx). By registering the device, the driver assumes the responsibility for informing PoFx when a component is actively being used and when the component is idle. PoFx makes intelligent idle state choices for the device based on information about the component activity, latency tolerance, expected idle durations, and wake requirements. By controlling power usage at the component level, PoFx can reduce power requirements while preserving system responsiveness. For more information, see Component-Level Power Management.
 
 Starting with Windows 8, drivers can divide their device hardware into multiple logical components to enable fine-grained power management. A component has a set of power states that can be managed independently of the power states of other components in the same device. In the F0 state, the component is fully turned on. The component might support additional, low-power states F1, F2, and so on.
 

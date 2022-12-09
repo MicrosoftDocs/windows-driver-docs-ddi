@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamResumeIo
 tech.root: audio
 title: AcxStreamResumeIo
-ms.date: 07/22/2022
+ms.date: 11/09/2022
 targetos: Windows
 description: The AcxStreamResumeIo function is used to resume IO for a stream.
 prerelease: true
@@ -46,13 +46,9 @@ The **AcxStreamResumeIo** function is used to resume IO for a stream.
 
 ## -parameters
 
-### -param Stream
+### -param Stream [in]
 
 An existing ACXSTREAM Object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
-
-## -returns
-
-Void
 
 ## -remarks
 
@@ -68,4 +64,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 [acxstreams.h header](index.md)
 [AcxStreamResumeIoWithTag](nf-acxstreams-acxstreamresumeiowithtag.md)
-

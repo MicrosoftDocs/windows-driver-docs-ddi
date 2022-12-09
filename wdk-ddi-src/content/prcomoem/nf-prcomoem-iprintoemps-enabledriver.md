@@ -2,9 +2,8 @@
 UID: NF:prcomoem.IPrintOemPS.EnableDriver
 title: IPrintOemPS::EnableDriver (prcomoem.h)
 description: The IPrintOemPS::EnableDriver method allows a rendering plug-in for Pscript to hook out some graphics DDI functions.
-old-location: print\iprintoemps_enabledriver.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 11/30/2022
 keywords: ["IPrintOemPS::EnableDriver"]
 ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],EnableDriver method, IPrintOemPS.EnableDriver, IPrintOemPS::EnableDriver, prcomoem/IPrintOemPS::EnableDriver, print.iprintoemps_enabledriver, print_unidrv-pscript_rendering_2e2fe90b-66ce-4f39-adfa-ebb187700aac.xml
 req.header: prcomoem.h
@@ -40,12 +39,9 @@ api_name:
  - IPrintOemPS::EnableDriver
 ---
 
-# IPrintOemPS::EnableDriver
-
-
 ## -description
 
-The <code>IPrintOemPS::EnableDriver</code> method allows a rendering plug-in for <a href="/windows-hardware/drivers/">Pscript</a> to hook out some graphics DDI functions.
+The **IPrintOemPS::EnableDriver** method allows a rendering plug-in for [Pscript](/windows-hardware/drivers/print/microsoft-postscript-printer-driver) to hook out some graphics DDI functions.
 
 ## -parameters
 
@@ -55,122 +51,110 @@ Caller-supplied interface version number. This value is defined by PRINTER_OEMIN
 
 ### -param cbSize
 
-Caller-supplied size, in bytes, of the structure pointed to by <i>pded</i>.
+Caller-supplied size, in bytes, of the structure pointed to by *pded*.
 
 ### -param pded
 
-Caller-supplied pointer to a <a href="/windows/win32/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a> structure.
+Caller-supplied pointer to a [DRVENABLEDATA](/windows/win32/api/winddi/ns-winddi-drvenabledata) structure.
 
 ## -returns
 
-The method must return one of the following values.
+The method must return one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_FAIL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation failed
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_NOTIMPL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The method is not implemented.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|---|---|
+| **S_OK** | The operation succeeded. |
+| **E_FAIL** | The operation failed |
+| **E_NOTIMPL** | The method is not implemented. |
 
 ## -remarks
 
-The <code>IPrintOemPS::EnableDriver</code> method allows a rendering plug-in to perform the same types of operations as the <a href="/windows/win32/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a> function that is exported by printer graphics DLLs.
+The **IPrintOemPS::EnableDriver** method allows a rendering plug-in to perform the same types of operations as the [DrvEnableDriver](/windows/win32/api/winddi/nf-winddi-drvenabledriver) function that is exported by printer graphics DLLs.
 
-Like the <b>DrvEnableDriver</b> function, the <code>IPrintOemPS::EnableDriver</code> method is responsible for providing addresses of internally supported graphics DDI functions, known as hooking functions. It can also perform other one-time initialization operations. Unlike the <b>DrvEnableDriver</b> function, implementation of the <code>IPrintOemPS::EnableDriver</code> method is optional. 
+Like the **DrvEnableDriver** function, the **IPrintOemPS::EnableDriver** method is responsible for providing addresses of internally supported graphics DDI functions, known as hooking functions. It can also perform other one-time initialization operations. Unlike the **DrvEnableDriver** function, implementation of the **IPrintOemPS::EnableDriver** method is optional.
 
-<div class="alert"><b>Note</b>     If you implement <code>IPrintOemPS::EnableDriver</code>, you must also implement <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-disabledriver">IPrintOemPS::DisableDriver</a>. Actions begun in the former method might need to be completed in the latter method. For example, if a large buffer is allocated in <code>IPrintOemPS::EnableDriver</code>, but not deallocated in <b>IPrintOemPS::DisableDriver</b>, a memory leak can occur.</div>
-<div> </div>
-The method should fill the supplied <a href="/windows/win32/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a> structure and allocate an array of <a href="/windows/win32/api/winddi/ns-winddi-drvfn">DRVFN</a> structures. It should fill the array with pointers to hooking functions, along with winddi.h-defined index values that identify the hooked out graphics DDI functions.
+> [!NOTE]
+> If you implement **IPrintOemPS::EnableDriver**, you must also implement [IPrintOemPS::DisableDriver](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-disabledriver). Actions begun in the former method might need to be completed in the latter method. For example, if a large buffer is allocated in **IPrintOemPS::EnableDriver**, but not deallocated in **IPrintOemPS::DisableDriver**, a memory leak can occur.
+
+The method should fill the supplied [DRVENABLEDATA](/windows/win32/api/winddi/ns-winddi-drvenabledata) structure and allocate an array of [DRVFN](/windows/win32/api/winddi/ns-winddi-drvfn) structures. It should fill the array with pointers to hooking functions, along with winddi.h-defined index values that identify the hooked out graphics DDI functions.
 
 A rendering plug-in for Pscript5 can hook out a graphics DDI function only if the Pscript5 driver defines the function. The following graphics DDI functions are defined in Pscript5 and or Unidrv and can therefore be hooked out:
 
-<a href="/windows/win32/api/winddi/nf-winddi-drvalphablend">DrvAlphaBlend</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvcopybits">DrvCopyBits</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvdithercolor">DrvDitherColor</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvenddoc">DrvEndDoc</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvescape">DrvEscape</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvfillpath">DrvFillPath</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvfontmanagement">DrvFontManagement</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvgetglyphmode">DrvGetGlyphMode</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvgradientfill">DrvGradientFill</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvicmdeletecolortransform">DrvIcmDeleteColorTransform</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvlineto">DrvLineTo</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvnextband">DrvNextBand</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvplgblt">DrvPlgBlt</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvquerydevicesupport">DrvQueryDeviceSupport</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvqueryadvancewidths">DrvQueryAdvanceWidths</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvqueryfontdata">DrvQueryFontData</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvqueryfonttree">DrvQueryFontTree</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvrealizebrush">DrvRealizeBrush</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvsendpage">DrvSendPage</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvstartbanding">DrvStartBanding</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvstartdoc">DrvStartDoc</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvstartpage">DrvStartPage</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvstretchblt">DrvStretchBlt</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvstretchbltrop">DrvStretchBltROP</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvstrokeandfillpath">DrvStrokeAndFillPath</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvstrokepath">DrvStrokePath</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
-<a href="/windows/win32/api/winddi/nf-winddi-drvtransparentblt">DrvTransparentBlt</a>
-If you provide a customized hooking function, it preempts the driver's equivalent graphics DDI function. Hooking functions can also call back into the driver's graphics DDI functions. For more information, see <a href="/windows-hardware/drivers/print/customized-graphics-ddi-functions">Customized Graphics DDI Functions</a>.
+- [DrvAlphaBlend](/windows/win32/api/winddi/nf-winddi-drvalphablend)
 
-Customized hooking functions have the same input and output parameters as the equivalent graphics DDI function, with one exception - where graphics DDI functions receive PDEV pointers, customized hooking functions receive <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> pointers. There are two ways for these functions to receive PDEV pointers:
+- [DrvBitBlt](/windows/win32/api/winddi/nf-winddi-drvbitblt)
 
-<ol>
-<li>
-As the contents of the <b>dhpdev</b> member of a <a href="/windows/win32/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure for the destination surface.
+- [DrvCopyBits](/windows/win32/api/winddi/nf-winddi-drvcopybits)
 
-For the equivalent customized hooking function, the destination SURFOBJ structure's <b>dhpdev</b> member points to a DEVOBJ structure, and must be cast to type PDEVOBJ when referenced. An example graphics DDI function is <b>DrvBitBlt</b>.
+- [DrvDitherColor](/windows/win32/api/winddi/nf-winddi-drvdithercolor)
 
-</li>
-<li>
-As an input argument for a <i>dhpdev</i> parameter.
+- [DrvEndDoc](/windows/win32/api/winddi/nf-winddi-drvenddoc)
 
-The equivalent customized hooking function must cast this input parameter to type PDEVOBJ when referencing it. An example graphics DDI function is <b>DrvDitherColor</b>.
+- [DrvEscape](/windows/win32/api/winddi/nf-winddi-drvescape)
 
-</li>
-</ol>
-Note that while a <a href="/windows-hardware/drivers/print/printer-graphics-dll">printer graphics DLL</a> includes the addresses of its <a href="/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>, <a href="/windows/win32/api/winddi/nf-winddi-drvdisablepdev">DrvDisablePDEV</a>, and <a href="/windows/win32/api/winddi/nf-winddi-drvresetpdev">DrvResetPDEV</a> functions in the DRVENABLEDATA structure, a rendering plug-in for Pscript5 implements <b>EnablePDEV</b>, <b>DisablePDEV</b>, and <b>ResetPDEV</b> as methods of the <b>IPrintOemPS</b> interface and does not place their addresses in the DRVENABLEDATA structure.
+- [DrvFillPath](/windows/win32/api/winddi/nf-winddi-drvfillpath)
 
-If <code>IPrintOemPS::EnableDriver</code> methods are exported by multiple rendering plug-ins, the methods are called in the order that the plug-ins are specified for installation.
+- [DrvFontManagement](/windows/win32/api/winddi/nf-winddi-drvfontmanagement)
 
-<div class="alert"><b>Note</b>    Each graphics DDI function can be hooked out by one rendering plug-in. If multiple plug-ins attempt to hook out the same graphics DDI function, all hook-outs after the first one are ignored.</div>
-<div> </div>
-For more information about creating and installing rendering plug-ins, see <a href="/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
+- [DrvGetGlyphMode](/windows/win32/api/winddi/nf-winddi-drvgetglyphmode)
 
+- [DrvGradientFill](/windows/win32/api/winddi/nf-winddi-drvgradientfill)
+
+- [DrvIcmCreateColorTransform](/windows/win32/api/winddi/nf-winddi-drvicmcreatecolortransform)
+
+- [DrvIcmDeleteColorTransform](/windows/win32/api/winddi/nf-winddi-drvicmdeletecolortransform)
+
+- [DrvLineTo](/windows/win32/api/winddi/nf-winddi-drvlineto)
+
+- [DrvNextBand](/windows/win32/api/winddi/nf-winddi-drvnextband)
+
+- [DrvPlgBlt](/windows/win32/api/winddi/nf-winddi-drvplgblt)
+
+- [DrvQueryDeviceSupport](/windows/win32/api/winddi/nf-winddi-drvquerydevicesupport)
+
+- [DrvQueryAdvanceWidths](/windows/win32/api/winddi/nf-winddi-drvqueryadvancewidths)
+
+- [DrvQueryFont](/windows/win32/api/winddi/nf-winddi-drvqueryfont)
+
+- [DrvQueryFontData](/windows/win32/api/winddi/nf-winddi-drvqueryfontdata)
+
+- [DrvQueryFontTree](/windows/win32/api/winddi/nf-winddi-drvqueryfonttree)
+
+- [DrvRealizeBrush](/windows/win32/api/winddi/nf-winddi-drvrealizebrush)
+
+- [DrvSendPage](/windows/win32/api/winddi/nf-winddi-drvsendpage)
+
+- [DrvStartBanding](/windows/win32/api/winddi/nf-winddi-drvstartbanding)
+
+- [DrvStartDoc](/windows/win32/api/winddi/nf-winddi-drvstartdoc)
+
+- [DrvStartPage](/windows/win32/api/winddi/nf-winddi-drvstartpage)
+
+- [DrvStretchBlt](/windows/win32/api/winddi/nf-winddi-drvstretchblt)
+
+- [DrvStretchBltROP](/windows/win32/api/winddi/nf-winddi-drvstretchbltrop)
+
+- [DrvStrokeAndFillPath](/windows/win32/api/winddi/nf-winddi-drvstrokeandfillpath)
+
+- [DrvStrokePath](/windows/win32/api/winddi/nf-winddi-drvstrokepath)
+
+- [DrvTextOut](/windows/win32/api/winddi/nf-winddi-drvtextout)
+
+- [DrvTransparentBlt](/windows/win32/api/winddi/nf-winddi-drvtransparentblt)
+
+If you provide a customized hooking function, it preempts the driver's equivalent graphics DDI function. Hooking functions can also call back into the driver's graphics DDI functions. For more information, see [Customized Graphics DDI Functions](/windows-hardware/drivers/print/customized-graphics-ddi-functions).
+
+Customized hooking functions have the same input and output parameters as the equivalent graphics DDI function, with one exception - where graphics DDI functions receive PDEV pointers, customized hooking functions receive [DEVOBJ](/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj) pointers. There are two ways for these functions to receive PDEV pointers:
+
+1. As the contents of the **dhpdev** member of a [SURFOBJ](/windows/win32/api/winddi/ns-winddi-surfobj) structure for the destination surface. For the equivalent customized hooking function, the destination SURFOBJ structure's **dhpdev** member points to a DEVOBJ structure, and must be cast to type PDEVOBJ when referenced. An example graphics DDI function is **DrvBitBlt**.
+
+1. As an input argument for a *dhpdev* parameter. The equivalent customized hooking function must cast this input parameter to type PDEVOBJ when referencing it. An example graphics DDI function is **DrvDitherColor**.
+
+Note that while a [printer graphics DLL](/windows-hardware/drivers/print/printer-graphics-dll) includes the addresses of its [DrvEnablePDEV](/windows/win32/api/winddi/nf-winddi-drvenablepdev), [DrvDisablePDEV](/windows/win32/api/winddi/nf-winddi-drvdisablepdev), and [DrvResetPDEV](/windows/win32/api/winddi/nf-winddi-drvresetpdev) functions in the DRVENABLEDATA structure, a rendering plug-in for Pscript5 implements **EnablePDEV**, **DisablePDEV**, and **ResetPDEV** as methods of the **IPrintOemPS** interface and does not place their addresses in the DRVENABLEDATA structure.
+
+If **IPrintOemPS::EnableDriver** methods are exported by multiple rendering plug-ins, the methods are called in the order that the plug-ins are specified for installation.
+
+> [!NOTE]
+> Each graphics DDI function can be hooked out by one rendering plug-in. If multiple plug-ins attempt to hook out the same graphics DDI function, all hook-outs after the first one are ignored.
+
+For more information about creating and installing rendering plug-ins, see [Customizing Microsoft's Printer Drivers](/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers).

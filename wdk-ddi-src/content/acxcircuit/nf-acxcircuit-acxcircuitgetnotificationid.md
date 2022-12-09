@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitGetNotificationId
 ms.date: 10/17/2022
 targetos: Windows
-description: The AcxCircuitGetNotificationId function retrieves the Plug-n-Play notification ID that is used for audio module notifications for the specified ACX circuit.
+description: The AcxCircuitGetNotificationId function retrieves the Plug and Play notification ID that is used for audio module notifications for the specified ACX circuit.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,17 +44,17 @@ helpviewer_keywords:
 
 ## -description
 
-The **AcxCircuitGetNotificationId** function retrieves the Plug-n-Play notification ID that is used for audio module notifications for the specified ACX circuit.
+The **AcxCircuitGetNotificationId** function retrieves the Plug and Play notification ID that is used for audio module notifications for the specified ACX circuit.
 
 ## -parameters
 
 ### -param Circuit
 
-The existing ACXCIRCUIT object from which to retrieve the Plug-n-Play notification ID.
+The existing ACXCIRCUIT object from which to retrieve the Plug and Play notification ID.
 
 ## -returns
 
-Returns a GUID representing the Plug-n-Play notification ID for the specified *Circuit*.
+Returns a GUID representing the Plug and Play notification ID for the specified *Circuit*.
 
 ## -remarks
 

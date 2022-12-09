@@ -180,7 +180,7 @@ Drivers of NICs with device registers in the host memory space call
 
 
 
-<a href="/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>
+[NdisMMapIoSpace](nf-ndis-ndismmapiospace.md)
 
 
 

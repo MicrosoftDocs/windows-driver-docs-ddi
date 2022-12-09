@@ -10,7 +10,7 @@ ms.keywords: RtlInitializeSidEx, RtlInitializeSidEx routine [Installable File Sy
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Windows 10 and later.
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

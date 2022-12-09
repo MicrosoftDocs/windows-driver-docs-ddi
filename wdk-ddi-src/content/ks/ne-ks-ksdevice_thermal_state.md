@@ -2,13 +2,12 @@
 UID: NE:ks.__unnamed_enum_29
 title: KSDEVICE_THERMAL_STATE (ks.h)
 description: A KS-defined enumeration for thermal state changes.
-old-location: stream\ksdevice_thermal_state.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 11/11/2022
 keywords: ["KSDEVICE_THERMAL_STATE enumeration"]
 ms.keywords: KSDEVICE_THERMAL_STATE, KSDEVICE_THERMAL_STATE enumeration [Streaming Media Devices], KSDEVICE_THERMAL_STATE_HIGH, KSDEVICE_THERMAL_STATE_LOW, ks/KSDEVICE_THERMAL_STATE, ks/KSDEVICE_THERMAL_STATE_HIGH, ks/KSDEVICE_THERMAL_STATE_LOW, stream.ksdevice_thermal_state
 req.header: ks.h
-req.include-header: 
+req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,9 +39,6 @@ api_name:
  - KSDEVICE_THERMAL_STATE
 ---
 
-# KSDEVICE_THERMAL_STATE enumeration
-
-
 ## -description
 
  A KS-defined enumeration for thermal state changes.
@@ -56,4 +52,3 @@ This represents the LOW value for thermal notifications. This is usually determi
 ### -field KSDEVICE_THERMAL_STATE_HIGH
 
 This represents the HIGH value for thermal notifications. This is usually determined by the Avstream driver and conveyed to KS in response to the thermal notification callbacks.
-

@@ -1,16 +1,15 @@
 ---
 UID: NF:winsplp.GetJobAttributes
 title: GetJobAttributes function (winsplp.h)
-description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
-old-location: print\getjobattributes.htm
+description: A print provider's GetJobAttributes function gets information about a print job.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 11/30/2022
 keywords: ["GetJobAttributes function"]
 ms.keywords: GetJobAttributes, GetJobAttributes function [Print Devices], print.getjobattributes, spoolfnc_5f511391-a38e-4d0b-8d45-4464b798a7c9.xml, winsplp/GetJobAttributes
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
-req.target-min-winverclnt: This function is available in Microsoft Windows Server 2003 and later operating system versions.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,44 +39,35 @@ api_name:
  - GetJobAttributes
 ---
 
-# GetJobAttributes function
-
-
 ## -description
 
-<div class="alert"><b>Warning</b>  <p class="note">Starting with Windows 10, the APIs which support third-party print providers are deprecated. Microsoft does not recommend any investment into third-party print providers. Additionally, on Windows 8 and newer products where the v4 print driver model is available, third-party print providers may not create or manage queues which use v4 print drivers.
+> [!WARNING]
+> Starting with Windows 10, the APIs which support third-party print providers are deprecated. Microsoft does not recommend any investment into third-party print providers. Additionally, on Windows 8 and newer products where the v4 print driver model is available, third-party print providers may not create or manage queues which use v4 print drivers.
 
-</div><div> </div>A print provider's <b>GetJobAttributes</b> function gets information about a print job.
+A print provider's **GetJobAttributes** function gets information about a print job.
 
 ## -parameters
 
 ### -param pPrinterName [in]
 
-
 Caller-supplied pointer to a NULL-terminated Unicode string containing the printer name.
 
 ### -param pDevmode [in]
 
-
-Caller-supplied pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that is passed to the print processor or printer driver.
+Caller-supplied pointer to a [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure that is passed to the print processor or printer driver.
 
 ### -param pAttributeInfo [out]
 
-
-Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3">ATTRIBUTE_INFO_3</a> structure that receives information about the print job.
+Caller-supplied pointer to an [ATTRIBUTE_INFO_3](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3) structure that receives information about the print job.
 
 ## -returns
 
-<b>GetJobAttributes</b> returns <b>TRUE</b> if it is successful in obtaining the print job attributes; otherwise it returns <b>FALSE</b>.
+**GetJobAttributes** returns **TRUE** if it is successful in obtaining the print job attributes; otherwise it returns **FALSE**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3">ATTRIBUTE_INFO_3</a>
+[**ATTRIBUTE_INFO_3**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3)
 
+[**DEVMODEW**](/windows/win32/api/wingdi/ns-wingdi-devmodew)
 
-
-<a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-getjobattributesex">GetJobAttributesEx</a>
+[GetJobAttributesEx](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-getjobattributesex)

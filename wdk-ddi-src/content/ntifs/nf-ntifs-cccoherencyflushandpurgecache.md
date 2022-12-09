@@ -10,7 +10,7 @@ ms.keywords: CcCoherencyFlushAndPurgeCache, CcCoherencyFlushAndPurgeCache routin
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows 7 and later
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

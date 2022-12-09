@@ -10,7 +10,7 @@ ms.keywords: RtlGetOwnerSecurityDescriptor, RtlGetOwnerSecurityDescriptor routin
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 and later.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

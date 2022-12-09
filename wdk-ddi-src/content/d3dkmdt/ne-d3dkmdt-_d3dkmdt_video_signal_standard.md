@@ -1,16 +1,16 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDEO_SIGNAL_STANDARD
-title: _D3DKMDT_VIDEO_SIGNAL_STANDARD (d3dkmdt.h)
+title: D3DKMDT_VIDEO_SIGNAL_STANDARD (d3dkmdt.h)
 description: The D3DKMDT_VIDEO_SIGNAL_STANDARD enumeration contains constants that represent video signal standards.
 old-location: display\d3dkmdt_video_signal_standard.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 11/28/2022
 keywords: ["D3DKMDT_VIDEO_SIGNAL_STANDARD enumeration"]
 ms.keywords: D3DKMDT_VIDEO_SIGNAL_STANDARD, D3DKMDT_VIDEO_SIGNAL_STANDARD enumeration [Display Devices], D3DKMDT_VSS_APPLE, D3DKMDT_VSS_EIA_861, D3DKMDT_VSS_EIA_861A, D3DKMDT_VSS_EIA_861B, D3DKMDT_VSS_IBM, D3DKMDT_VSS_NTSC_443, D3DKMDT_VSS_NTSC_J, D3DKMDT_VSS_NTSC_M, D3DKMDT_VSS_OTHER, D3DKMDT_VSS_PAL_B, D3DKMDT_VSS_PAL_B1, D3DKMDT_VSS_PAL_D, D3DKMDT_VSS_PAL_G, D3DKMDT_VSS_PAL_H, D3DKMDT_VSS_PAL_I, D3DKMDT_VSS_PAL_K, D3DKMDT_VSS_PAL_K1, D3DKMDT_VSS_PAL_L, D3DKMDT_VSS_PAL_M, D3DKMDT_VSS_PAL_N, D3DKMDT_VSS_PAL_NC, D3DKMDT_VSS_SECAM_B, D3DKMDT_VSS_SECAM_D, D3DKMDT_VSS_SECAM_G, D3DKMDT_VSS_SECAM_H, D3DKMDT_VSS_SECAM_K, D3DKMDT_VSS_SECAM_K1, D3DKMDT_VSS_SECAM_L, D3DKMDT_VSS_SECAM_L1, D3DKMDT_VSS_UNINITIALIZED, D3DKMDT_VSS_VESA_CVT, D3DKMDT_VSS_VESA_DMT, D3DKMDT_VSS_VESA_GTF, DmEnums_8174e59a-c264-4642-b770-d4e38236a6b7.xml, _D3DKMDT_VIDEO_SIGNAL_STANDARD, d3dkmdt/D3DKMDT_VIDEO_SIGNAL_STANDARD, d3dkmdt/D3DKMDT_VSS_APPLE, d3dkmdt/D3DKMDT_VSS_EIA_861, d3dkmdt/D3DKMDT_VSS_EIA_861A, d3dkmdt/D3DKMDT_VSS_EIA_861B, d3dkmdt/D3DKMDT_VSS_IBM, d3dkmdt/D3DKMDT_VSS_NTSC_443, d3dkmdt/D3DKMDT_VSS_NTSC_J, d3dkmdt/D3DKMDT_VSS_NTSC_M, d3dkmdt/D3DKMDT_VSS_OTHER, d3dkmdt/D3DKMDT_VSS_PAL_B, d3dkmdt/D3DKMDT_VSS_PAL_B1, d3dkmdt/D3DKMDT_VSS_PAL_D, d3dkmdt/D3DKMDT_VSS_PAL_G, d3dkmdt/D3DKMDT_VSS_PAL_H, d3dkmdt/D3DKMDT_VSS_PAL_I, d3dkmdt/D3DKMDT_VSS_PAL_K, d3dkmdt/D3DKMDT_VSS_PAL_K1, d3dkmdt/D3DKMDT_VSS_PAL_L, d3dkmdt/D3DKMDT_VSS_PAL_M, d3dkmdt/D3DKMDT_VSS_PAL_N, d3dkmdt/D3DKMDT_VSS_PAL_NC, d3dkmdt/D3DKMDT_VSS_SECAM_B, d3dkmdt/D3DKMDT_VSS_SECAM_D, d3dkmdt/D3DKMDT_VSS_SECAM_G, d3dkmdt/D3DKMDT_VSS_SECAM_H, d3dkmdt/D3DKMDT_VSS_SECAM_K, d3dkmdt/D3DKMDT_VSS_SECAM_K1, d3dkmdt/D3DKMDT_VSS_SECAM_L, d3dkmdt/D3DKMDT_VSS_SECAM_L1, d3dkmdt/D3DKMDT_VSS_UNINITIALIZED, d3dkmdt/D3DKMDT_VSS_VESA_CVT, d3dkmdt/D3DKMDT_VSS_VESA_DMT, d3dkmdt/D3DKMDT_VSS_VESA_GTF, display.d3dkmdt_video_signal_standard
 req.header: d3dkmdt.h
-req.include-header: 
+req.include-header: d3dkmddi.h, d3dkmthk.h, dmmdiag.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,18 +43,17 @@ api_name:
  - D3DKMDT_VIDEO_SIGNAL_STANDARD
 ---
 
-# _D3DKMDT_VIDEO_SIGNAL_STANDARD enumeration
-
+# D3DKMDT_VIDEO_SIGNAL_STANDARD enumeration
 
 ## -description
 
-The D3DKMDT_VIDEO_SIGNAL_STANDARD enumeration contains constants that represent video signal standards.
+The **D3DKMDT_VIDEO_SIGNAL_STANDARD** enumeration contains constants that represent video signal standards.
 
 ## -enum-fields
 
 ### -field D3DKMDT_VSS_UNINITIALIZED
 
-Indicates that a variable of type D3DKMDT_VIDEO_SIGNAL_STANDARD has not yet been assigned a meaningful value.
+Indicates that a variable of type **D3DKMDT_VIDEO_SIGNAL_STANDARD** has not yet been assigned a meaningful value.
 
 ### -field D3DKMDT_VSS_VESA_DMT
 
@@ -186,11 +185,12 @@ Represents any video standard other than those represented by the previous const
 
 ## -remarks
 
-The <b>SignalInfo</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_target_mode">D3DKMDT_VIDPN_TARGET_MODE</a> structure is a <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_signal_info">D3DKMDT_VIDEO_SIGNAL_MODE</a> structure.
+This enumeration is used with the [**D3DKMDT_VIDPN_TARGET_MODE**](ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md) structure. This structure's **VideoSignalInfo** member is a [**D3DKMDT_VIDEO_SIGNAL_MODE**](ns-d3dkmdt-_d3dkmdt_video_signal_info.md) structure whose **VideoStandard** member is a **D3DKMDT_VIDEO_SIGNAL_STANDARD** value.
 
-The <b>VideoStandard</b> member of the D3DKMDT_VIDEO_SIGNAL_MODE structure is a D3DKMDT_VIDEO_SIGNAL_STANDARD value.
+For more information, see [VidPN Objects and Interfaces](/windows-hardware/drivers/display/vidpn-objects-and-interfaces).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/index">VidPn Target Mode Set Interface</a>
+[**D3DKMDT_VIDEO_SIGNAL_MODE**](ns-d3dkmdt-_d3dkmdt_video_signal_info.md)
 
+[**D3DKMDT_VIDPN_TARGET_MODE**](ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md)

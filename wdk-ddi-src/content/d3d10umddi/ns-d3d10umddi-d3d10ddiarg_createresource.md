@@ -3,13 +3,14 @@ UID: NS:d3d10umddi.D3D10DDIARG_CREATERESOURCE
 title: D3D10DDIARG_CREATERESOURCE (d3d10umddi.h)
 description: The D3D10DDIARG_CREATERESOURCE structure describes the parameters that the user-mode display driver uses to create a resource.
 old-location: display\d3d10ddiarg_createresource.htm
-ms.date: 02/18/2022
+ms.date: 11/03/2022
+ms.custom: content-health
 keywords: ["D3D10DDIARG_CREATERESOURCE structure"]
 ms.keywords: D3D10DDIARG_CREATERESOURCE, D3D10DDIARG_CREATERESOURCE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3f91ee50-2bdd-4206-afe6-d8b79d3b7d80.xml, d3d10umddi/D3D10DDIARG_CREATERESOURCE, display.d3d10ddiarg_createresource
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,7 +45,7 @@ api_name:
 
 ## -description
 
-Describes a resource to create.
+**D3D10DDIARG_CREATERESOURCE** contains the arguments used by [**PFND3D10DDI_CREATERESOURCE**](nc-d3d10umddi-pfnd3d10ddi_createresource.md) to create a resource.
 
 ## -struct-fields
 
@@ -58,7 +59,7 @@ An array of [**D3D10_DDIARG_SUBRESOURCE_UP**](ns-d3d10umddi-d3d10_ddiarg_subreso
 
 ### -field ResourceDimension [in]
 
-A value of type [**D3D10DDIRESOURCE_TYPE**](/previous-versions/windows/hardware/drivers/ff541810(v=vs.85)) that indicates the resource type and dimensionality.
+A value of type [**D3D10DDIRESOURCE_TYPE**](/windows-hardware/drivers/display/ne-d3d10umddi-d3d10ddiresource_type) that indicates the resource type and dimensionality.
 
 ### -field Usage [in]
 

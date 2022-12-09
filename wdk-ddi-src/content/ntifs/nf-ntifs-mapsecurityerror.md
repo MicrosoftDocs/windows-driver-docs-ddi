@@ -10,7 +10,7 @@ ms.keywords: IFSMiscRef_41a163d7-81d1-4877-b1c2-ae90b203177a.xml, MapSecurityErr
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Microsoft Windows 2000 and later.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

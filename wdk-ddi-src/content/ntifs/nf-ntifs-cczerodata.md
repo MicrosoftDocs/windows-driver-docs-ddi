@@ -10,7 +10,7 @@ ms.keywords: CcZeroData, CcZeroData routine [Installable File System Drivers], c
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Windows 2000 and later Windows operating systems. See Remarks for changes for Vista and later operating systems.
+req.target-min-winverclnt: Windows 2000. See Remarks for changes for Vista and later operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

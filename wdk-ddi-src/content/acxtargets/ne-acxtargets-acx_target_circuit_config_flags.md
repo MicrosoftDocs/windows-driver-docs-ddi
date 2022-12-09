@@ -2,7 +2,7 @@
 UID: NE:acxtargets._ACX_TARGET_CIRCUIT_CONFIG_FLAGS
 tech.root: audio
 title: ACX_TARGET_CIRCUIT_CONFIG_FLAGS
-ms.date: 07/22/2022
+ms.date: 11/09/2022
 targetos: Windows
 description: The ACX_TARGET_CIRCUIT_CONFIG_FLAGS enumeration defines the config flags for the ACX target circuit.
 prerelease: true
@@ -45,6 +45,10 @@ The **ACX_TARGET_CIRCUIT_CONFIG_FLAGS** enumeration defines the config flags for
 
 Indicates that no config flags are set.
 
+### -field AcxTargetCircuitConfigLazyDataLoad
+
+Specifies to use lazy data loading.
+
 ### -field AcxTargetCircuitConfigValidFlags
 
 For internal validation, do not use.
@@ -62,4 +66,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxtargets.h header](index.md)
-

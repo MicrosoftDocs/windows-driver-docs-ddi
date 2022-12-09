@@ -54,11 +54,13 @@ Total size of the structure, in bytes.
 
 ### -field PresentationFrameNumber
 
-Presentation frame number of this surface. If the frame number is the same as the previous frame, then it indicates that there has not been any image updates from the previous frame. This is an opportunity for the driver to re-encode the desktop image again to increase the visual quality. Once there are no more updates, the OS presents the same frame as many times indicated by the [**IDDCX_ADAPTER_CAPS**](ns-iddcx-iddcx_adapter_caps.md) value **StaticDesktopReencodeFrameCount** , then stops presenting until the next .
+Presentation frame number of this surface.
 
 ### -field DirtyRectCount
 
 Number of dirty rects for this frame. Call [**IddCxSwapChainGetDirtyRects**](nf-iddcx-iddcxswapchaingetdirtyrects.md) to get the dirty rects.
+
+A MoveRegionCount of zero and DirtyRectCount of 1, where the single dirty rect has all values set to zero, indicates that there has not been any image updates from the previous frame. This is an opportunity for the driver to re-encode the desktop image again to increase the visual quality. Once there are no more updates, the OS presents the same frame as many times as indicated by the [**IDDCX_ADAPTER_CAPS**](ns-iddcx-iddcx_adapter_caps.md) value **StaticDesktopReencodeFrameCount**, then stops presenting until the next update.
 
 ### -field MoveRegionCount
 

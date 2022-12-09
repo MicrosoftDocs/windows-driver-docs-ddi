@@ -10,7 +10,7 @@ ms.keywords: IoSetStartIoAttributes, IoSetStartIoAttributes routine [Kernel-Mode
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available for Microsoft Windows XP and later versions of the Windows operating system.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

@@ -8,7 +8,7 @@ ms.keywords: RtlQueryPackageIdentityEx
 req.header: ntifs.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Available on Windows 8.1 and later versions
+req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

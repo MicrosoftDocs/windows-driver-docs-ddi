@@ -1,9 +1,9 @@
 ---
 UID: NF:wia_lh.IWiaLog.Log
 title: IWiaLog::Log (wia_lh.h)
-description: The IWiaLog interface is obsolete and is no longer supported. Use the Diagnostic Log Macros instead.The IWiaLog::Log method writes a diagnostic log message to Wiaservc.log.
+description: The IWiaLog::Log (wia_lh.h) method is obsolete and is no longer supported. Use the Diagnostic Log Macros instead.
 tech.root: image
-ms.date: 04/19/2022
+ms.date: 11/09/2022
 keywords: ["IWiaLog::Log"]
 ms.keywords: IWiaLog interface [Imaging Devices],Log method, IWiaLog.Log, IWiaLog::Log, IWiaLog_e3605b5e-0494-46a7-85c1-3a0707a74764.xml, Log, Log method [Imaging Devices], Log method [Imaging Devices],IWiaLog interface, image.iwialog_log, wia_lh/IWiaLog::Log
 req.header: wia_lh.h
@@ -41,13 +41,16 @@ api_name:
 
 ## -description
 
-The **IWiaLog** interface is obsolete and is no longer supported. Use the [Diagnostic Log Macros](../_image/index.md) instead.The **IWiaLog::Log** method writes a diagnostic log message to *Wiaservc.log*.
+> [!IMPORTANT]
+> The **IWiaLog::Log** method is obsolete and is no longer supported. Use the [**Diagnostic Log Macros**](/windows-hardware/drivers/image/wia-diagnostic-log-macros) instead.
+
+The **IWiaLog::Log** method writes a diagnostic log message to *Wiaservc.log*.
 
 ## -parameters
 
 ### -param lFlags [in]
 
-Specifies the type of diagnostic message. This parameter can be WIA_WARNING, WIA_TRACE or WIA_ERROR.
+Specifies the type of diagnostic message. This parameter can be WIALOG_TRACE, WIALOG_WARNING or WIALOG_ERROR.
 
 ### -param lResID [in]
 
@@ -58,7 +61,7 @@ Specifies the resource id. This parameter should be set to WIALOG_NO_RESOURCE_ID
 Specifies the diagnostic detail level of the message. This parameter can be one of the following values.
 
 | Level | Description |
-|--|--|
+|---|---|
 | WIALOG_LEVEL1 | Logs entry and exit points for all WIA methods and functions. |
 | WIALOG_LEVEL2 | Logs additional details for WIALOG_LEVEL1. |
 | WIALOG_LEVEL3 | Logs entry and exit points for all WIA methods and functions and additional vendor-supplied functions. |
