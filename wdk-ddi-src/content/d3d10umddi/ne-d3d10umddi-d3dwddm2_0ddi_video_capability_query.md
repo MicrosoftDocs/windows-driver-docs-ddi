@@ -2,8 +2,7 @@
 UID: NE:d3d10umddi.D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY
 title: D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY (d3d10umddi.h)
 description: Describes the video capabilities to query.
-old-location: display\d3dwddm2_0ddi_video_capability_query.htm
-ms.date: 05/10/2018
+ms.date: 12/09/2022
 keywords: ["D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY enumeration"]
 ms.keywords: D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY, D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY enumeration [Display Devices], D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_DECODER_CAPS, D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_DECODER_DOWNSAMPLING, D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_RECOMMEND_DECODER_DOWNSAMPLING, d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY, d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_DECODER_CAPS, d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_DECODER_DOWNSAMPLING, d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_RECOMMEND_DECODER_DOWNSAMPLING, display.d3dwddm2_0ddi_video_capability_query
 req.header: d3d10umddi.h
@@ -42,51 +41,42 @@ api_name:
 
 # D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY enumeration
 
-
 ## -description
 
-Describes the video capabilities to query.
+A **D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY** value describes the video capabilities being queried through a call to the driver's [**PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES**](nc-d3d10umddi-pfnd3dwddm2_0ddi_queryvideocapabilities.md) function.
 
 ## -enum-fields
 
-### -field D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_DECODER_DOWNSAMPLING
+### -field D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_DECODER_DOWNSAMPLING:2
 
-Indicates that the driver should return support for the specified down sampling parameters specified.
+Query the driver's support for the specified down sampling parameters.
 
+### -field D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_RECOMMEND_DECODER_DOWNSAMPLING:3
 
+Query the driver's support for the specified down sampling parameters recommended by the user-mode driver.
 
-The input structure is of type <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_capability_decoder_downsampling">D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLING</a>.
+### -field D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_DECODER_CAPS:4
 
-### -field D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_RECOMMEND_DECODER_DOWNSAMPLING
+Query the driver's video decoder capabilities.
 
-Indicates that the driver should recommend down sampling parameters.
+### -field D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_DECODER_DOWNSAMPLE_OUTPUT_FORMAT:5
 
+Query the driver's support for the specified down sample output format.
 
+### -field D3DWDDM2_4DDI_VIDEO_CAPABILITY_QUERY_DECODER_HISTOGRAM:6
 
-The input structure is of type <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_capability_recommend_decoder_downsampling">D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING</a>.
-
-### -field D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_DECODER_CAPS
-
-Indicates that the driver should return video decoder capabilities.
-
-
-
-The input structure is of type <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_capability_decoder_caps">D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS</a>.
-
-### -field D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY_DECODER_DOWNSAMPLE_OUTPUT_FORMAT
-
-### -field D3DWDDM2_4DDI_VIDEO_CAPABILITY_QUERY_DECODER_HISTOGRAM
-
-Query driver for decoder histogram support. The associated data structure is D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM.
+Query the driver's support for the specified decoder histogram.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_capability_decoder_caps">D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS</a>
+[**D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS**](ns-d3d10umddi-d3dwddm2_0ddi_video_capability_decoder_caps.md)
 
+[**D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLE_OUTPUT_FORMAT**](ns-d3d10umddi-d3dwddm2_0ddi_video_capability_decoder_downsample_output_format.md)
 
+[**D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLING**](ns-d3d10umddi-d3dwddm2_0ddi_video_capability_decoder_downsampling.md)
 
-<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_capability_decoder_downsampling">D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLING</a>
+[**D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM**](ns-d3d10umddi-d3dwddm2_4ddi_video_capability_decoder_histogram.md)
 
+[**D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING**](ns-d3d10umddi-d3dwddm2_0ddi_video_capability_recommend_decoder_downsampling.md)
 
-
-<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_capability_recommend_decoder_downsampling">D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING</a>
+[**PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES**](nc-d3d10umddi-pfnd3dwddm2_0ddi_queryvideocapabilities.md)
