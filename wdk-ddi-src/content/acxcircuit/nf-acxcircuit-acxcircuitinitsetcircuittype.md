@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitSetCircuitType
 tech.root: audio
 title: AcxCircuitInitSetCircuitType
-ms.date: 07/28/2022
+ms.date: 12/13/2022
 targetos: Windows
 description: The AcxCircuitInitSetCircuitType function is used to set the circuit type of the ACXCIRCUIT.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: DISPATCH_LEVEL
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

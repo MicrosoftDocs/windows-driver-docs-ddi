@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitGetElementById
 tech.root: audio
 title: AcxCircuitGetElementById
-ms.date: 12/08/2022
+ms.date: 12/13/2022
 targetos: Windows
 description: When provided a valid ElementID number, the AcxCircuitGetElementById function returns the corresponding ACXELEMENT object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: DISPATCH_LEVEL
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
