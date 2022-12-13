@@ -38,6 +38,7 @@ api_location:
  - NtDll.dll
  - NtosKrnl.exe
  - API-MS-Win-Core-rtlsupport-l1-1-0.dll
+ - Kernel32.dll
 api_name:
  - RtlFillMemory
 ---
