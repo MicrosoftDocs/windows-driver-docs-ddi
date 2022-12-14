@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_COMPOSITE_DEINITIALIZE
 tech.root: audio
 title: EVT_ACX_CIRCUIT_COMPOSITE_DEINITIALIZE
-ms.date: 12/08/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE callback is used by the driver to do any de-initialiation of a composite circuit when it is de-initialized by ACX Manager.
 prerelease: true
@@ -105,4 +105,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitSetAcxCircuitCompositeCallbacks
 tech.root: audio
 title: AcxCircuitInitSetAcxCircuitCompositeCallbacks
-ms.date: 12/08/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitInitSetAcxCircuitCompositeCallbacks function sets the driver's composite callbacks for the ACXCIRCUIT.
 prerelease: true
@@ -85,4 +85,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

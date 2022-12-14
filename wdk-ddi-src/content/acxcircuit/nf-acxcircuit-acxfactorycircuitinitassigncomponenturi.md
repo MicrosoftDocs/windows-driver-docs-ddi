@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitAssignComponentUri
 tech.root: audio
 title: AcxFactoryCircuitInitAssignComponentUri
-ms.date: 12/08/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitAssignComponentUri function assigns an URI string as identifier for the ACXFACTORYCIRCUIT.
 prerelease: true
@@ -94,4 +94,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

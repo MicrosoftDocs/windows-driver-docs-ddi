@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitAssignMethods
 tech.root: audio
 title: AcxFactoryCircuitInitAssignMethods
-ms.date: 12/08/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitFactoryInitAssignMethods function assigns one or more ACX methods for the ACXFACTORYCIRCUIT.
 prerelease: true
@@ -129,4 +129,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

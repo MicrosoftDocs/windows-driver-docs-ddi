@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks
 tech.root: audio
 title: AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks
-ms.date: 12/08/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks function sets the driver's PNP callbacks for the ACXFACTORYCIRCUIT.
 prerelease: true
@@ -90,4 +90,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

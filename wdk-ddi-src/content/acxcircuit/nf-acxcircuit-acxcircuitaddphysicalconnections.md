@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitAddPhysicalConnections
 tech.root: audio
 title: AcxCircuitAddPhysicalConnections
-ms.date: 12/08/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitAddPhysicalConnections function adds physical connections to an ACXCIRCUIT. 
 prerelease: true
@@ -83,5 +83,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-

@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitDisableDefaultStreamBridgeHandling
 tech.root: audio
 title: AcxCircuitInitDisableDefaultStreamBridgeHandling
-ms.date: 12/13/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitInitDisableDefaultStreamBridgeHandling function disables the ACX default stream bridge handling in a multi-circuit environment. 
 prerelease: true
@@ -84,4 +84,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

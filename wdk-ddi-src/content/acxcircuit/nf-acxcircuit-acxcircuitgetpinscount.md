@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitGetPinsCount
 tech.root: audio
 title: AcxCircuitGetPinsCount
-ms.date: 12/13/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitGetPinsCount function retrieves the number of pins for the specified circuit object.
 prerelease: false

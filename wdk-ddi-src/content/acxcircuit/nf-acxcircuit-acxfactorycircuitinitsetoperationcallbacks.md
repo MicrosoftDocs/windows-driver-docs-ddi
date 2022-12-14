@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitSetOperationCallbacks
 tech.root: audio
 title: AcxFactoryCircuitInitSetOperationCallbacks
-ms.date: 12/13/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitSetOperationCallbacks sets the driver factory operation callbacks for the ACXFACTORYCIRCUIT.
 prerelease: true
@@ -97,4 +97,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

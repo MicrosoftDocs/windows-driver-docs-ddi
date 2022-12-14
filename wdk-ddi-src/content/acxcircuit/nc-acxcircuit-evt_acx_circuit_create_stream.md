@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_CREATE_STREAM
 tech.root: audio
 title: EVT_ACX_CIRCUIT_CREATE_STREAM
-ms.date: 12/08/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The driver defines the EVT_ACX_CIRCUIT_CREATE_STREAM callback to create circuit stream instances.
 prerelease: true
@@ -285,4 +285,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

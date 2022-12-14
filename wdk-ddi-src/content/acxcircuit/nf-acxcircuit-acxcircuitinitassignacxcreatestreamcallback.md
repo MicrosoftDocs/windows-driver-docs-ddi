@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignAcxCreateStreamCallback
 tech.root: audio
 title: AcxCircuitInitAssignAcxCreateStreamCallback
-ms.date: 12/08/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitInitAssignAcxCreateStreamCallback function is used to assign an ACX create stream callback.
 prerelease: true

@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitAddEvents
 tech.root: audio
 title: AcxCircuitAddEvents
-ms.date: 12/08/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitAddEvents function adds one or more events to an ACXCIRCUIT. 
 prerelease: true
@@ -85,5 +85,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-

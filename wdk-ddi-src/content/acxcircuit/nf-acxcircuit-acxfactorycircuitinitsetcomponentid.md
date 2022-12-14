@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitSetComponentId
 tech.root: audio
 title: AcxFactoryCircuitInitSetComponentId
-ms.date: 12/13/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitSetComponentId function sets the component ID for the ACXFACTORYCIRCUIT.
 prerelease: true
@@ -87,4 +87,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

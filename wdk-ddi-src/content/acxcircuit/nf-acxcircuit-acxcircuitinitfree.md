@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitFree
 tech.root: audio
 title: AcxCircuitInitFree
-ms.date: 12/13/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitInitFree function deletes the circuit initialization object.
 prerelease: true
@@ -90,4 +90,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

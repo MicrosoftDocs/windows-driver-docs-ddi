@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitStopIoActual
 tech.root: audio
 title: AcxCircuitStopIoActual
-ms.date: 12/08/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitStopIoActual function is used to signal to the operating system to temporarily stop circuit I/O.
 prerelease: true

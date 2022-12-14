@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE
-ms.date: 12/08/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The EVT_ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE callback is invoked by ACX when the driver must delete a previously created WDFDEVICE associated with an ACXCIRCUIT object.
 prerelease: true
@@ -86,4 +86,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

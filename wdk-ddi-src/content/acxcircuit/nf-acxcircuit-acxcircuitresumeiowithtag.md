@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitResumeIoWithTag
 tech.root: audio
 title: AcxCircuitResumeIoWithTag
-ms.date: 07/28/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitResumeIoWithTag function is used to resume circuit I/O after it has been stopped. 
 prerelease: true
@@ -56,7 +56,6 @@ An optional ObjectTag that is a driver-defined value that the framework stores a
 
 ## -remarks
 
-
 ### Example
 
 Example usage is shown below.
@@ -76,4 +75,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

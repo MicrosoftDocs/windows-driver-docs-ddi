@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitAddConnections
 tech.root: audio
 title: AcxCircuitAddConnections
-ms.date: 12/08/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitAddConnections function adds connections to an ACXCIRCUIT. 
 prerelease: true
@@ -106,5 +106,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-

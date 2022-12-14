@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE
-ms.date: 12/08/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The EVT_ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to add functionality when a circuit factory is in the prepare hardware phase. 
 prerelease: true
@@ -111,4 +111,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

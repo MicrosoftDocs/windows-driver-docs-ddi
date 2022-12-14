@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitCreate
 tech.root: audio
 title: AcxFactoryCircuitCreate
-ms.date: 12/08/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxFactoryCircuitCreate function is used to create an ACXFACTORYCIRCUIT.
 prerelease: true
@@ -125,4 +125,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_POWER_UP
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_POWER_UP
-ms.date: 12/08/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The EVT_ACX_FACTORY_CIRCUIT_POWER_UP callback is used by the driver to add functionality in the power up path of an ACXFACTORYCIRCUIT object. 
 prerelease: true
@@ -101,5 +101,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-

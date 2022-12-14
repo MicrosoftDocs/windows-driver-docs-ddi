@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitGetElementsCount
 tech.root: audio
 title: AcxCircuitGetElementsCount
-ms.date: 12/13/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitGetElementsCount function retrieves the number of elements attached to the specified ACX circuit.
 prerelease: false

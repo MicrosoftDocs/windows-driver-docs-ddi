@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitAddPins
 tech.root: audio
 title: AcxCircuitAddPins
-ms.date: 06/16/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitAddPins function adds pins to an ACXCIRCUIT. 
 prerelease: true
@@ -103,4 +103,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
