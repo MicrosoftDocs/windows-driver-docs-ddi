@@ -1,10 +1,9 @@
 ---
 UID: NS:ntddk._WHEA_TIMESTAMP
-title: _WHEA_TIMESTAMP (ntddk.h)
+title: WHEA_TIMESTAMP (ntddk.h)
 description: The WHEA_TIMESTAMP union describes the time that an error was reported to the operating system.
-old-location: whea\whea_timestamp.htm
 tech.root: whea
-ms.date: 02/20/2018
+ms.date: 12/09/2022
 keywords: ["WHEA_TIMESTAMP structure"]
 ms.keywords: "*PWHEA_TIMESTAMP, PWHEA_TIMESTAMP, PWHEA_TIMESTAMP union pointer [WHEA Drivers and Applications], WHEA_TIMESTAMP, WHEA_TIMESTAMP union [WHEA Drivers and Applications], _WHEA_TIMESTAMP, ntddk/PWHEA_TIMESTAMP, ntddk/WHEA_TIMESTAMP, whea.whea_timestamp, whearef_d0fafe3b-0cea-4adf-a68a-b565e04ae258.xml"
 req.header: ntddk.h
@@ -46,16 +45,15 @@ api_name:
  - WHEA_TIMESTAMP
 ---
 
-# _WHEA_TIMESTAMP structure
-
-
 ## -description
 
-The WHEA_TIMESTAMP union describes the time that an error was reported to the operating system.
+The **WHEA_TIMESTAMP** union describes the time that an error was reported to the operating system.
 
 ## -struct-fields
 
 ### -field DUMMYSTRUCTNAME
+
+Defines the **DUMMYSTRUCTNAME** structure.
 
 ### -field DUMMYSTRUCTNAME.Seconds
 
@@ -73,8 +71,7 @@ The hour in the day.
 
 If this member is set to 1, the timestamp correlates precisely to the time of the error event.
 
-<div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div>
-<div> </div>
+This member is supported in Windows 7 and later versions of Windows.
 
 ### -field DUMMYSTRUCTNAME.Reserved
 
@@ -98,13 +95,12 @@ The century.
 
 ### -field AsLARGE_INTEGER
 
-A LARGE_INTEGER representation of the contents of the WHEA_TIMESTAMP union.
+A LARGE_INTEGER representation of the contents of the **WHEA_TIMESTAMP** union.
 
 ## -remarks
 
-A WHEA_TIMESTAMP union is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a> structure.
+A **WHEA_TIMESTAMP** union is contained within the [WHEA_ERROR_RECORD_HEADER](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a>
-
+[WHEA_ERROR_RECORD_HEADER](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header)

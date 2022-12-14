@@ -22,7 +22,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
-req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
+req.dll: Kernel32.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: Any level (See Remarks section)
 targetos: Windows
 req.typenames: 
@@ -38,6 +38,7 @@ api_location:
  - NtDll.dll
  - NtosKrnl.exe
  - API-MS-Win-Core-rtlsupport-l1-1-0.dll
+ - Kernel32.dll
 api_name:
  - RtlFillMemory
 ---
