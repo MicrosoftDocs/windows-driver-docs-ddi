@@ -82,16 +82,6 @@ For more information about drivers that provide this callback function, see [Sup
 
 The EvtFactoryCircuitPowerUp callback function is called at IRQL = PASSIVE_LEVEL. You should not make this callback function pageable.
 
-### Example
-
-Example usage is shown below.
-
-Sample pending
-
-```cpp
-
-```
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0

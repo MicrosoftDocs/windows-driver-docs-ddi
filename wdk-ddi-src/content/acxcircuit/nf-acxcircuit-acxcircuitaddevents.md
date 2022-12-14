@@ -66,16 +66,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 An AcxEvent represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. They are exposed as KS events to clients (upper user-mode layers).
 
-### Example
-
-Example usage is shown below.
-
-Sample pending.
-
-```cpp
-
-```
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0

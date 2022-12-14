@@ -92,16 +92,6 @@ For more information about when the ACX and WDF framework call these callback fu
 
 For more information about drivers that provide this callback function, see [Supporting PnP and Power Management in Function Driver](/windows-hardware/drivers/wdf/supporting-pnp-and-power-management-in-function-drivers).
 
-### Example
-
-Sample pending.
-
-Example usage is shown below.
-
-```cpp
-
-```
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0

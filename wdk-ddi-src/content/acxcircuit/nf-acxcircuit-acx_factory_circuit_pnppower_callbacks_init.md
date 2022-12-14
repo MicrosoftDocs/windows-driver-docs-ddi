@@ -53,18 +53,7 @@ A pointer to an initialized [ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS structure](n
 
 ## -remarks
 
-NOTE: at this time ACX doesn't support the PNP callbacks for a circuit factory object.
-
-### Example
-
-Example usage is shown below.
-
-Sample pending.
-
-```cpp
-
-
-```
+ACX doesn't support the PNP callbacks for a circuit factory object.
 
 ### ACX requirements
 

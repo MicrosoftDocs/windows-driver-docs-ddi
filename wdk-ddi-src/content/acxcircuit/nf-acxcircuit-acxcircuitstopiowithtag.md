@@ -62,16 +62,6 @@ An optional ObjectTag that is a driver-defined value that the framework stores a
 
 ## -remarks
 
-### Example
-
-Example usage is shown below.
-
-Sample pending.
-
-```cpp
-
-```
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0

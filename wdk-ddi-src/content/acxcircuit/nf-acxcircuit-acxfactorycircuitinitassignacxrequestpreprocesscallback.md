@@ -79,16 +79,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 The driver can invoke this DDI multiple times to setup different preprocess callbacks. ACX invokes the first it finds that matches the specific incoming WDFREQUEST type.
 
-### Example
-
-Sample pending.
-
-Example usage is shown below.
-
-```cpp
-
-```
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0

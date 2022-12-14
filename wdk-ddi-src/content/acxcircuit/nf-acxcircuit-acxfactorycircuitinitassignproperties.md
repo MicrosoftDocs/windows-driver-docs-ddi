@@ -68,16 +68,6 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 Drivers should only add driver owned properties.
 
-### Example
- 
-Sample pending.
-
-Example usage is shown below.
-
-```cpp
-
-```
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0

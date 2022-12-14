@@ -85,16 +85,6 @@ If TargetState is WdfPowerDeviceD3Final, you should assume that the system is be
 For more information about drivers that provide this callback function, see 
 [Supporting PnP and Power Management in Function Driver](/windows-hardware/drivers/wdf/supporting-pnp-and-power-management-in-function-drivers).
 
-### Example
-
-Example usage is shown below.
-
-Sample pending
-
-```cpp
-
-```
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0
