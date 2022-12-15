@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatCreate
 tech.root: audio
 title: AcxDataFormatCreate
-ms.date: 12/14/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatCreate function is used to create a data format for use by an audio class extension (ACX) driver.
 prerelease: true

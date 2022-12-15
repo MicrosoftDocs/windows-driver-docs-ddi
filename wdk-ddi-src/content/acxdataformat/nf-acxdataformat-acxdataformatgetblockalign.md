@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetBlockAlign
 tech.root: audio
 title: AcxDataFormatGetBlockAlign
-ms.date: 12/14/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetBlockAlign function gets the block alignment of the specified data format.
 prerelease: true

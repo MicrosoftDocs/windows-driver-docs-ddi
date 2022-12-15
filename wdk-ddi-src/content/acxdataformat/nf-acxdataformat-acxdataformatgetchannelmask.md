@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetChannelMask
 tech.root: audio
 title: AcxDataFormatGetChannelMask
-ms.date: 12/14/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetChannelMask function gets the channel mask for the specified data format.
 prerelease: true

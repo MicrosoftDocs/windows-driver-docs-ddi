@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetEncodedChannelCount
 tech.root: audio
 title: AcxDataFormatGetEncodedChannelCount
-ms.date: 12/14/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetEncodedChannelCount function gets the channel count for the specified encoded data format.
 prerelease: true

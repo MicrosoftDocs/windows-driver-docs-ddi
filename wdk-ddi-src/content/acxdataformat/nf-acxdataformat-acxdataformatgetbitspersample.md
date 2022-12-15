@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetBitsPerSample
 tech.root: audio
 title: AcxDataFormatGetBitsPerSample
-ms.date: 12/14/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetBitsPerSample function gets the bits per audio sample for the specified data format.
 prerelease: true

@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetSubFormat
 tech.root: audio
 title: AcxDataFormatGetSubFormat
-ms.date: 05/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetSubFormat function gets the subformat for the specified data format.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdataformat.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -69,4 +69,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [Stream Categories](/windows-hardware/drivers/stream/stream-categories)
 - [acxdataformat.h header](index.md)
-
