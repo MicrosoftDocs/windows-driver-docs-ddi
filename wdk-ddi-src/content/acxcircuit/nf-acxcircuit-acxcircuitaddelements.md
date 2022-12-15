@@ -64,8 +64,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-The driver can only add elements to a circuit before the circuit is added to the device. 
-The driver cannot change the circuit's elements at run time. 
+The driver can only add elements to a circuit before the circuit is added to the device.
+The driver cannot change the circuit's elements at run time.
 
 ### Example
 
