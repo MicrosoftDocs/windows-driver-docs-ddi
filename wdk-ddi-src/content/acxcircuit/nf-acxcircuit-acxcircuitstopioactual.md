@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitStopIoActual
 tech.root: audio
 title: AcxCircuitStopIoActual
-ms.date: 12/14/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxCircuitStopIoActual function is used to signal to the operating system to temporarily stop circuit I/O.
 prerelease: true
@@ -53,7 +53,7 @@ An existing ACXCIRCUIT object.  For more information about ACX objects, see [Sum
 ### -param Flags
 
 Stop IO flags defined by the [ACX_STOP_IO_FLAGS enumeration](ne-acxcircuit-acx_stop_io_flags.md).
-Currently no flags are defined, so set this to `AcxStopIoNoFlags`. 
+Currently no flags are defined, so set this to `AcxStopIoNoFlags`.
 
 ### -param ObjectTag
 
@@ -71,8 +71,7 @@ The file name in the driver code that can be displayed for diagnostic purposes.
 
 ## -remarks
 
-It is not recommended to use this version of the stop IO call, but rather [AcxCircuitStopIoWithTag macro](nf-acxcircuit-acxcircuitstopiowithtag.md).
-
+Use the [AcxCircuitStopIoWithTag macro](nf-acxcircuit-acxcircuitstopiowithtag.md) version of the stop IO call instead of this one.
 
 ### ACX requirements
 
@@ -82,6 +81,5 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 ## -see-also
 
-- [AcxCircuitStopIo](nf-acxcircuit-acxcircuitstopio.md) 
-
+- [AcxCircuitStopIo](nf-acxcircuit-acxcircuitstopio.md)
 - [acxcircuit.h header](index.md)

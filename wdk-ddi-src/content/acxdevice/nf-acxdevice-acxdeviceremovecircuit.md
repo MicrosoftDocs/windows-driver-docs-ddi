@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdevice.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -95,7 +95,6 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 ## -see-also
 
-* [AcxDeviceAddCircuit](nf-acxdevice-acxdeviceaddcircuit.md)
-* [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
-* [acxdevice.h header](index.md)
-
+- [AcxDeviceAddCircuit](nf-acxdevice-acxdeviceaddcircuit.md)
+- [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
+- [acxdevice.h header](index.md)

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxFactoryCircuitInitAssignCategories function assigns a set of driver category (GUID) entries for the ACXFACTORYCIRCUIT. 
+The AcxFactoryCircuitInitAssignCategories function assigns a set of driver category (GUID) entries for the ACXFACTORYCIRCUIT.
 
 ## -parameters
 

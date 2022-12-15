@@ -53,7 +53,7 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param Methods
 
-An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_method_item) structure that defines a set of methods that will be used for circuit initialization. 
+An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_method_item) structure that defines a set of methods that will be used for circuit initialization.
 
 ### -param MethodsCount
 

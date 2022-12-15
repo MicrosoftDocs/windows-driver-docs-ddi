@@ -64,7 +64,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-The driver can only add elements to a circuit factory before the factory is added to the device. 
+The driver can only add elements to a circuit factory before the factory is added to the device.
+
 The driver cannot change the factory's elements at run time.
 
 ### Example
