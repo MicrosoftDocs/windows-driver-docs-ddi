@@ -2,7 +2,7 @@
 UID: NF:acxmanager.AcxCompositeTemplateSetCoreCircuit
 tech.root: audio
 title: AcxCompositeTemplateSetCoreCircuit
-ms.date: 09/09/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxCompositeTemplateSetCoreCircuit function sets the core circuit template for the specified composite template.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxmanager.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

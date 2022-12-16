@@ -44,13 +44,13 @@ dev_langs:
 
 ## -description
 
-The **ACX_PNPEVENT_CONFIG** structure is used to configure an ACXPNPEVENT. 
+The **ACX_PNPEVENT_CONFIG** structure is used to configure an ACXPNPEVENT.
 
 ## -struct-fields
 
 ### -field Size
 
-The length, in bytes, of this structure. 
+The length, in bytes, of this structure.
 
 ### -field Flags
 
@@ -62,7 +62,7 @@ A GUID that is used to identify the event.
 
 ## -remarks
 
-The Event GUID is automatically retrieved from the ACXAUDIOMODULE and ACXKEYWORDSPOTTER when the event is associated with these two types of objects. 
+The Event GUID is automatically retrieved from the ACXAUDIOMODULE and ACXKEYWORDSPOTTER when the event is associated with these two types of objects.
 
 ### Example
 

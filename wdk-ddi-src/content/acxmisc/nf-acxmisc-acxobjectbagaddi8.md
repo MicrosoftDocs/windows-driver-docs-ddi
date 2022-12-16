@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxObjectBagAddI8** function adds a int eight byte I8 (LONG64) value to an existing, intialized AcxObjectBag. 
+The **AcxObjectBagAddI8** function adds a int eight byte I8 (LONG64) value to an existing, intialized AcxObjectBag.
 
 ## -parameters
 

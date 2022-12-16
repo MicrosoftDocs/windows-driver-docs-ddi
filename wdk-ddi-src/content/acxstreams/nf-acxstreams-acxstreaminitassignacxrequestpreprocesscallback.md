@@ -70,7 +70,6 @@ A pointer to a GUID that represents a KSPROPERTY SET, for example [KSPROPSETID_R
 
 A value that represents a KSPROPERTY Id. For example a A [KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT](/windows-hardware/drivers/audio/ksproperty-rtaudio-register-notification-event) that uses a [KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksrtaudio_notification_event_property). If AcxItemIdAny is specified, EvtObjectAcxRequestPreprocess will be called for each property for the specified Set.
 
-
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).

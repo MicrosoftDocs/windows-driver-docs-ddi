@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **AcxMuteChangeStateNotification** function sends a notification of a mute state change on an ACXMUTE object so that acx can generate a corresponding event. 
+The **AcxMuteChangeStateNotification** function sends a notification of a mute state change on an ACXMUTE object so that acx can generate a corresponding event.
 
 ## -parameters
 
 ### -param Mute
 
-An ACXMUTE object whose mute state has changed. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+An ACXMUTE object whose mute state has changed. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -remarks
 

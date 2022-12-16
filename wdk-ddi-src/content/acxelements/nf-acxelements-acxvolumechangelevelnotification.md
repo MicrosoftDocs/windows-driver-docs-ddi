@@ -48,7 +48,7 @@ The **AcxVolumeChangeLevelNotification** function sends a notification of a volu
 
 ### -param Volume
 
-An ACXVOLUME object whose volume level has changed. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+An ACXVOLUME object whose volume level has changed. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -remarks
 

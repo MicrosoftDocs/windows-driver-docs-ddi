@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_VOLUME_CONFIG** structure is used to define the acx volume configuration. 
+The **ACX_VOLUME_CONFIG** structure is used to define the acx volume configuration.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 ### -field Flags
 
-Acx volume configuration flags defined by the [ACX_VOLUME_CONFIG_FLAGS enum](ne-acxelements-acx_volume_config_flags.md). 
+Acx volume configuration flags defined by the [ACX_VOLUME_CONFIG_FLAGS enum](ne-acxelements-acx_volume_config_flags.md).
 
 No flag bits are currently defined. Set this member to zero - AcxVolumeConfigNoFlags
 

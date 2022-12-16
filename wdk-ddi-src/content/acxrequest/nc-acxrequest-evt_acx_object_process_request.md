@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_OBJECT_PROCESS_REQUEST** callback is used by the driver to handle a WDFREQUEST. 
+The **EVT_ACX_OBJECT_PROCESS_REQUEST** callback is used by the driver to handle a WDFREQUEST.
 
 ## -parameters
 

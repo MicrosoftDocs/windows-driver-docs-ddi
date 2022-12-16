@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxObjectBagAddUI4** function adds an unsigned int four byte I4 (ULONG) value to an existing, intialized AcxObjectBag. 
+The **AcxObjectBagAddUI4** function adds an unsigned int four byte I4 (ULONG) value to an existing, intialized AcxObjectBag.
 
 ## -parameters
 

@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_AUDIOENGINE_CALLBACKS** structure defines callbacks for the ACX audio engine. 
+The **ACX_AUDIOENGINE_CALLBACKS** structure defines callbacks for the ACX audio engine.
 
 ## -struct-fields
 
@@ -74,7 +74,7 @@ The [EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT](nc-acxelements-evt_acx_audioengin
 
 ### -field EvtAcxAudioEngineProcessRequest
 
-The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_process_request) callback. 
+The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_process_request) callback.
 
 ## -remarks
 

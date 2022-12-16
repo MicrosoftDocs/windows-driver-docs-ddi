@@ -56,7 +56,7 @@ An [ACX_CONNECTION structure](..\acxpin\ns-acxpin-acx_connection.md) that contai
 
 ### -param ConnectionsCount
 
-The number of connections that are in the stream. This is a 1 based count. 
+The number of connections that are in the stream. This is a 1 based count.
 
 ## -returns
 

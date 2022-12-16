@@ -54,7 +54,7 @@ Specifies a GUID that identifies a KS (kernel streaming) property item set. For 
 
 ### -field Id
 
-Specifies the member of the property set. For example, KSPROPERTY_TOPOLOGY_NODES of the topology property set is used to retrieve the list of KS NODES (ACXELEMENTS). 
+Specifies the member of the property set. For example, KSPROPERTY_TOPOLOGY_NODES of the topology property set is used to retrieve the list of KS NODES (ACXELEMENTS).
 
 ### -field Flags
 

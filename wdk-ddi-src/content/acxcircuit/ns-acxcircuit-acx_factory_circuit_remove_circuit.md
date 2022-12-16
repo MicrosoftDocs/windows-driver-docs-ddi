@@ -50,11 +50,11 @@ The **ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT** structure is used to remove ACX circu
 
 ### -field Size
 
-The length, in bytes, of this structure. 
+The length, in bytes, of this structure.
 
 ### -field Flags
 
-Bitwise OR of [ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_FLAGS](ne-acxcircuit-acx_factory_circuit_remove_circuit_flags.md) 
+Bitwise OR of [ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_FLAGS](ne-acxcircuit-acx_factory_circuit_remove_circuit_flags.md)
 
 ### -field CircuitUniqueId
 

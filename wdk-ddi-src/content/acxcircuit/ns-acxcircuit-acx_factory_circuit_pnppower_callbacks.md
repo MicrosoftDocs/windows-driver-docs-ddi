@@ -57,13 +57,16 @@ The size, in bytes, of this structure.
 A pointer to the driver's [ACX_FACTORY_CIRCUIT_PREPARE_HARDWARE callback](nc-acxcircuit-evt_acx_factory_circuit_prepare_hardware.md) event callback function, or NULL.  
 
 ### -field EvtAcxFactoryCircuitReleaseHardware
+
 A pointer to the driver's [ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE callback](nc-acxcircuit-evt_acx_factory_circuit_release_hardware.md) event callback function, or NULL.
 
 ### -field EvtAcxFactoryCircuitPowerUp
+
 A pointer to the [ACX_FACTORY_CIRCUIT_POWER_UP callback](nc-acxcircuit-evt_acx_factory_circuit_power_up.md) event callback function, or NULL.
 
 ### -field EvtAcxFactoryCircuitPowerDown
-A pointer to the [ACX_FACTORY_CIRCUIT_POWER_DOWN callback](nc-acxcircuit-evt_acx_factory_circuit_power_down.md) event callback function, or NULL. 
+
+A pointer to the [ACX_FACTORY_CIRCUIT_POWER_DOWN callback](nc-acxcircuit-evt_acx_factory_circuit_power_down.md) event callback function, or NULL.
 
 ## -remarks
 
@@ -95,5 +98,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-[AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks](nf-acxcircuit-acxfactorycircuitinitsetacxcircuitpnppowercallbacks.md) 
-
+- [AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks](nf-acxcircuit-acxfactorycircuitinitsetacxcircuitpnppowercallbacks.md)

@@ -53,9 +53,6 @@ For internal validation, do not use.
 
 There are no flags currently defined for this type.
 
-### Example
-
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0

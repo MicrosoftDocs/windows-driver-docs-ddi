@@ -60,10 +60,9 @@ Describes the Acx Stream State as paused.
 
 Describes the Acx Stream State as running.
 
-
 ### -field AcxStreamStateMaximum
 
-Describes the Acx Stream State Maximum. This value is used for internal validation. 
+Describes the Acx Stream State Maximum. This value is used for internal validation.
 
 ## -remarks
 
@@ -75,7 +74,7 @@ Once the stream is created and the resources are allocated, the application will
 
 The client starts by pre-rolling a buffer. When the client calls ReleaseBuffer, this will translate to a call in AudioKSE that will call into the ACX layer, which will call EvtAcxStreamSetRenderPacket on the active ACXSTREAM. The property will include the packet index (0-based) and, if appropriate, an EOS flag with the byte offset of the end of the stream in the current packet.
 
-During ACX device power down and removal, if streams are present, ACX SetState callbacks are invoked to transition all circuit’s streams to Pause. This is Stream Instance scoped.
+During ACX device power down and removal, if streams are present, ACX SetState callbacks are invoked to transition all circuit's streams to Pause. This is Stream Instance scoped.
 
 - After AcxStreamCreate, the AcxStream is in the AcxStreamStateStop state.
 - After EvtAcxStreamPrepareHardware returns successfully the AcxStream will be in the AcxStreamStatePause state.

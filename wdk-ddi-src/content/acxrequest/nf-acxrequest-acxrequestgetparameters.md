@@ -48,7 +48,7 @@ The **AcxRequestGetParameters** function gets ACX request parameters from a WDFR
 
 ### -param Request
 
-An I/O WDFREQUEST object. 
+An I/O WDFREQUEST object.
 
 For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).
 

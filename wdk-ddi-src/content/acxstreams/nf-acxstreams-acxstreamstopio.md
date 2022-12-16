@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxStreamStopIo** function is used to stop the IO for a stream. 
+The **AcxStreamStopIo** function is used to stop the IO for a stream.
 
 ## -parameters
 

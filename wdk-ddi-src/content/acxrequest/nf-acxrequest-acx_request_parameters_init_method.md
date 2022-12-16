@@ -56,7 +56,7 @@ A method Set ID (GUID).
 
 ### -param Id
 
-A method ID (ULONG) within the method Set ID. 
+A method ID (ULONG) within the method Set ID.
 
 ### -param Verb
 

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_OBJECT_PREPROCESS_REQUEST** callback is used by the driver to preprocess I/O WDFREQUESTs. 
+The **EVT_ACX_OBJECT_PREPROCESS_REQUEST** callback is used by the driver to preprocess I/O WDFREQUESTs.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ The driver context defined by the ACXCONTEXT object.
 
 ### -param Request
 
-An WDFREQUEST object. 
+An WDFREQUEST object.
 
 For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).
 
@@ -102,7 +102,6 @@ Routine Description:
     (VOID)AcxCircuitDispatchAcxRequest((ACXCIRCUIT)Object, Request);
 }
 ```
-
 
 ### ACX requirements
 

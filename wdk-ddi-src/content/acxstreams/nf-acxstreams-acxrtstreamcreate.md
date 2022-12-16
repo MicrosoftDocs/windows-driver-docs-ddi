@@ -56,7 +56,7 @@ The ACXCIRCUIT that this stream will be associated with.
 
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) that are used to set the various object’s values: cleanup and destroy callbacks, context type, and to specify its parent object.
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) that are used to set the various object's values: cleanup and destroy callbacks, context type, and to specify its parent object.
 
 ### -param Config
 
@@ -76,7 +76,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 After the ACXSTREAM has been created, the driver can add one or more ACX elements to the stream. By default, ACX elements are connected in the same order of assembly. An ACXSTREAM is associated with only one ACXCIRCUIT. ACX supports two types of streams: basic ACX stream objects used by non-streaming circuits, and ACX RealTime (RT) stream objects used by streaming circuits.
 
-The ACXSTREAM created by AcxRtStreamCreate will allow the driver to receive control signals and state changes associated with a stream. The ACXSTREAM will also support streaming audio data to or from the OS. A driver that supports streaming audio data should use AcxRtStreamCreate to create an ACXSTREAM with support for streaming. 
+The ACXSTREAM created by AcxRtStreamCreate will allow the driver to receive control signals and state changes associated with a stream. The ACXSTREAM will also support streaming audio data to or from the OS. A driver that supports streaming audio data should use AcxRtStreamCreate to create an ACXSTREAM with support for streaming.
 
 For an endpoint that is made from multiple ACXCIRCUITs across multiple drivers, the ACXCIRCUIT that hosts the streaming pin would create an ACX RT Stream while the other ACXCIRCUITs in the endpoint would create non-RT ACX Streams.
 

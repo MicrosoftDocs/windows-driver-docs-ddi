@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_AUDIOENGINE_CONFIG** structure is used to define the audio engine configuration. 
+The **ACX_AUDIOENGINE_CONFIG** structure is used to define the audio engine configuration.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 ### -field Flags
 
-Audio engine configuration flags defined by the [ACX_AUDIOENGINE_CONFIG_FLAGS enum](ne-acxelements-acx_audioengine_config_flags.md). 
+Audio engine configuration flags defined by the [ACX_AUDIOENGINE_CONFIG_FLAGS enum](ne-acxelements-acx_audioengine_config_flags.md).
 
 No flag bits are currently defined. Set this member to zero - AcxAudioEngineConfigNoFlags
 
@@ -92,7 +92,7 @@ An existing ACXPEAKMETER object that is used for peakmeter operations by the aud
 
 ### -field Callbacks
 
-An [ACX_AUDIOENGINE_CALLBACKS structure](ns-acxelements-acx_audioengine_callbacks.md) that defines the callbacks for the audio engine. 
+An [ACX_AUDIOENGINE_CALLBACKS structure](ns-acxelements-acx_audioengine_callbacks.md) that defines the callbacks for the audio engine.
 
 ## -remarks
 

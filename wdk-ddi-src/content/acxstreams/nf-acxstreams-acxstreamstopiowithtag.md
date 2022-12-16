@@ -75,7 +75,6 @@ Example usage is shown below.
 
 ```
 
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0

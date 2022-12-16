@@ -62,7 +62,7 @@ The [EVT_ACX_MUTE_RETRIEVE_STATE](nc-acxelements-evt_acx_mute_retrieve_state.md)
 
 ### -field EvtAcxMuteProcessRequest
 
-The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_process_request) callback. 
+The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_process_request) callback.
 
 ## -remarks
 

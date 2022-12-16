@@ -42,21 +42,21 @@ dev_langs:
 
 ## -description
 
-**EvtAcxStreamGetCapturePacket** tells the driver to indicate which packet (0-based) was completely filled most recently, including the QPC value at the time the driver started filling the packet. 
+**EvtAcxStreamGetCapturePacket** tells the driver to indicate which packet (0-based) was completely filled most recently, including the QPC value at the time the driver started filling the packet.
 
 ## -parameters
 
 ### -param Stream
 
-An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit's elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param LastCapturePacket
 
-A value indicating the position of the last captured packet. This is a 0-based index indicating how many complete packets of data have been captured. 
+A value indicating the position of the last captured packet. This is a 0-based index indicating how many complete packets of data have been captured.
 
 ### -param QPCPacketStart
 
-A value indicating the start time of the last captured packet. 
+A value indicating the start time of the last captured packet.
 
 ### -param MoreData
 

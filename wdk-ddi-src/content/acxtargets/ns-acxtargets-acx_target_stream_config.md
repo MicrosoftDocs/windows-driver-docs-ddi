@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_TARGET_STREAM_CONFIG** structure is used to define the target stream configuration. 
+The **ACX_TARGET_STREAM_CONFIG** structure is used to define the target stream configuration.
 
 ## -struct-fields
 
@@ -54,7 +54,7 @@ The length, in bytes, of this structure.
 
 ### -field Flags
 
-Target stream configuration flags defined by the [ACX_TARGET_STREAM_CONFIG_FLAGS enum](ne-acxtargets-acx_target_stream_config_flags.md). 
+Target stream configuration flags defined by the [ACX_TARGET_STREAM_CONFIG_FLAGS enum](ne-acxtargets-acx_target_stream_config_flags.md).
 
 No flag bits are currently defined. Set this member to zero - AcxTargetStreamConfigNoFlags
 

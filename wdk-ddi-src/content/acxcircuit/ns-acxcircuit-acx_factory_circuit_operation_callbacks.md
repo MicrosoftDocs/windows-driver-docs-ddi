@@ -50,7 +50,7 @@ The **ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS** structure identifies the driver 
 
 ### -field Size
 
-The length, in bytes, of this structure. 
+The length, in bytes, of this structure.
 
 ### -field EvtAcxFactoryCircuitCreateCircuitDevice
 
