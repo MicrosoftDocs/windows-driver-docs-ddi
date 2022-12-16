@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinAddStreamBridges
 tech.root: audio
 title: AcxPinAddStreamBridges
-ms.date: 03/25/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxPinAddStreamBridges function adds stream bridges to the specified pin.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxpin.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

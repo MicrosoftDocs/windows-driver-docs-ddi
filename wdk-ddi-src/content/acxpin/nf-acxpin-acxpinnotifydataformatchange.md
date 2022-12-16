@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinNotifyDataFormatChange
 tech.root: audio
 title: AcxPinNotifyDataFormatChange
-ms.date: 04/11/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxPinNotifyDataFormatChange function is called to generate a data format change notification event for the specified pin.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxpin.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

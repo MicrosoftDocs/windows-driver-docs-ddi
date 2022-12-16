@@ -2,7 +2,7 @@
 UID: NC:acxpin.EVT_ACX_PIN_RETRIEVE_JACK_SINK_INFO
 tech.root: audio
 title: EVT_ACX_PIN_RETRIEVE_JACK_SINK_INFO
-ms.date: 10/14/2021
+ms.date: 12/16/2022
 targetos: Windows
 description: The EVT_ACX_PIN_RETRIEVE_JACK_SINK_INFO callback function is implemented by the driver and is called when sink information is requested for the specified pin.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxpin.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
