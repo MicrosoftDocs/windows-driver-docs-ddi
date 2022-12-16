@@ -94,4 +94,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 - [acxstreams.h header](index.md)
 - [AcxStreamInitAssignAcxRtStreamCallbacks](nf-acxstreams-acxstreaminitassignacxrtstreamcallbacks.md)
-
