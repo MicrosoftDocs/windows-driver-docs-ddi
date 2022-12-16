@@ -1,10 +1,10 @@
 ---
 UID: NC:acxelements.EVT_ACX_MUTE_RETRIEVE_STATE
-tech.root: audio 
+tech.root: audio
 title: EVT_ACX_MUTE_RETRIEVE_STATE
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
-description: The EVT_ACX_MUTE_RETRIEVE_STATE callback function is implemented by the driver and is called when the state of a specified channel on a mute node is requested. 
+description: The EVT_ACX_MUTE_RETRIEVE_STATE callback function is implemented by the driver and is called when the state of a specified channel on a mute node is requested.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_MUTE_RETRIEVE_STATE** callback function is implemented by the driver and is called when the state of a specified channel on a mute node is requested. 
+The **EVT_ACX_MUTE_RETRIEVE_STATE** callback function is implemented by the driver and is called when the state of a specified channel on a mute node is requested.
 
 ## -parameters
 
 ### -param Mute
 
-An existing, initialized, ACXMUTE object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+An existing, initialized, ACXMUTE object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Channel
 
@@ -56,7 +56,7 @@ A ULONG referring to a channel on the specified mute node. If this value is -1, 
 
 ### -param State
 
-A ULONG indicating the state of the specified channel on the mute node (i.e. whether or not the channel is muted). A value of 0 (FALSE) indicates the channel is not muted. A value of 1 (TRUE) indicates that the channel is muted. 
+A ULONG indicating the state of the specified channel on the mute node (i.e. whether or not the channel is muted). A value of 0 (FALSE) indicates the channel is not muted. A value of 1 (TRUE) indicates that the channel is muted.
 
 ## -returns
 
@@ -70,7 +70,7 @@ Example usage is shown below.
 
 ```cpp
 typedef struct _CODEC_MUTE_ELEMENT_CONTEXT {
-    BOOL            MuteState[MAX_CHANNELS]; 
+    BOOL            MuteState[MAX_CHANNELS];
 } CODEC_MUTE_ELEMENT_CONTEXT, *PCODEC_MUTE_ELEMENT_CONTEXT;
 
 WDF_DECLARE_CONTEXT_TYPE_WITH_NAME(CODEC_MUTE_ELEMENT_CONTEXT, GetCodecMuteElementContext)

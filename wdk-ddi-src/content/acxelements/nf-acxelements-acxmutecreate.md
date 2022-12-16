@@ -1,10 +1,10 @@
 ---
 UID: NF:acxelements.AcxMuteCreate
-tech.root: audio 
+tech.root: audio
 title: AcxMuteCreate
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
-description: The AcxMuteCreate function is used to create an ACX mute object that that will be associated with a circuit object parent. 
+description: The AcxMuteCreate function is used to create an ACX mute object that that will be associated with a circuit object parent.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **AcxMuteCreate** function is used to create an ACX mute object that that will be associated with a circuit object parent. 
+The **AcxMuteCreate** function is used to create an ACX mute object that that will be associated with a circuit object parent.
 
 ## -parameters
 
 ### -param Object
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit. 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit.
 
 ### -param Attributes
 
@@ -60,7 +60,7 @@ An initialized [ACX_MUTE_CONFIG structure](ns-acxelements-acx_mute_config.md) th
 
 ### -param Mute
 
-A pointer to a location that receives the handle to the newly created ACXMUTE object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+A pointer to a location that receives the handle to the newly created ACXMUTE object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -104,5 +104,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-
