@@ -88,7 +88,6 @@ For more information about hardware resources, see [Introduction to Hardware Res
 
 For more information about drivers that provide this callback function, see [Supporting PnP and Power Management in Function Driver](/windows-hardware/drivers/wdf/supporting-pnp-and-power-management-in-function-drivers).
 
-
 ### Example
 
 Example usage is shown below.

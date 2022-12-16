@@ -81,7 +81,6 @@ Example usage is shown below.
     status = AcxStreamInitAssignAcxRtStreamCallbacks(StreamInit, &rtCallbacks);
 ```
 
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0

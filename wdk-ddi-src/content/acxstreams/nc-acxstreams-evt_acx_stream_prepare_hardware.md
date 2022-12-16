@@ -75,11 +75,11 @@ ACX Events are analogous to KS states as described in this table.
 
 [EvtAcxStreamAllocateRtPackets](nc-acxstreams-evt_acx_stream_allocate_rtpackets.md) is called before EvtAcxStreamPrepareHardware to allow the RT packet allocation to occur before EvtAcxStreamPrepareHardware.
 
-**Buffer allocations and DMA**
+### Buffer allocations and DMA
 
 The buffer allocation typically only involves allocating system memory in such a way that it can be used with the DMA hardware. Typically, the buffer allocation will not have any effect on the streaming hardware. The prepare hardware phase is used as the driver is getting the stream ready to run, by completing tasks such as reserving bandwidth, programming DMA, and completing the preparation for the request to run the stream. Typically, the prepare hardware code will make use of the allocated buffers for preparing the DMA and related activities to be ready to start the stream.
 
-**Memory Cleanup**
+### Memory Cleanup
 
 The packet allocations (physical memory on the system) is done before the EvtAcxStreamPrepareHardware, and their release (EvtAcxStreamFreeRtPackets) is done after EvtAcxStreamReleaseHardware. This pattern is an existing legacy behavior that is embedded in the upper layers audio stream setup flow (ks allocate buffer prop init).
 
@@ -138,4 +138,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 - [EVT_ACX_STREAM_RUN_HARDWARE](nc-acxstreams-evt_acx_stream_run.md)
 - [EVT_ACX_STREAM_PAUSE_HARDWARE](nc-acxstreams-evt_acx_stream_pause.md)
 - [EVT_ACX_STREAM_RELEASE_HARDWARE](nc-acxstreams-evt_acx_stream_release_hardware.md)
-

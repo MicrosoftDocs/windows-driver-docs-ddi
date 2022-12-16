@@ -43,7 +43,7 @@ dev_langs:
 ## -description
 
 The AcxObjectBagAddUI1 function adds an unsigned int one byte (UCHAR) I1 value to an existing, intialized AcxObjectBag.
- 
+
 ## -parameters
 
 ### -param ObjectBag
