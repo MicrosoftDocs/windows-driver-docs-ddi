@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetPinFlushModeDataFormatListCache
 tech.root: audio
 title: AcxTargetPinFlushModeDataFormatListCache
-ms.date: 11/09/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetPinFlushModeDataFormatListCache function flushes the mode data format list cache for the specified target pin.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxtargets.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

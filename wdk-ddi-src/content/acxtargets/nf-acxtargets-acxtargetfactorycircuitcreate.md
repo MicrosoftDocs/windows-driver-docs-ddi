@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetFactoryCircuitCreate
 tech.root: audio
 title: AcxTargetFactoryCircuitCreate
-ms.date: 07/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetFactoryCircuitCreate function returns an handle to a new ACXTARGETFACTORYCIRCUIT ACX object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxtargets.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -67,12 +67,6 @@ A pointer to a location that receives a handle to the new ACXTARGETFACTORYCIRCUI
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
-
-### Example
-
-```cpp
-
-```
 
 ### ACX requirements
 

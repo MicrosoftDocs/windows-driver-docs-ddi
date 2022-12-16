@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetStreamFormatRequestForProperty
 tech.root: audio
 title: AcxTargetStreamFormatRequestForProperty
-ms.date: 08/01/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetStreamFormatRequestForProperty formats a WDFREQUEST as an ACX property request to be used on specified stream target.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxtargets.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

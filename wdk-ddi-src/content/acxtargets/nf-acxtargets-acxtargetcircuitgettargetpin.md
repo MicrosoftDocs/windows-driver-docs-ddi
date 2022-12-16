@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetCircuitGetTargetPin
 tech.root: audio
 title: AcxTargetCircuitGetTargetPin
-ms.date: 07/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetCircuitGetTargetPin function, given a valid pin index value, will return the associated ACXTARGETPIN object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxtargets.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -95,4 +95,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxtargets.h header](index.md)
- 

@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetCircuitGetTargetElement
 tech.root: audio
 title: AcxTargetCircuitGetTargetElement
-ms.date: 07/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetCircuitGetTargetElement function, given a valid element index value, will return the associated ACXTARGETELEMENT object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxtargets.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

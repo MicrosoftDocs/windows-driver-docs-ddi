@@ -64,12 +64,6 @@ Pointer to a Unicode string that contains the name of the symbolic link for the 
 
 ## -remarks
 
-### Example
-
-```cpp
-
-```
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0

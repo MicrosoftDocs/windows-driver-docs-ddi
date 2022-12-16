@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetStreamCreate
 tech.root: audio
 title: AcxTargetStreamCreate
-ms.date: 07/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetStreamCreate function is used to create a target stream.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxtargets.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
