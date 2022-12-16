@@ -2,15 +2,14 @@
 UID: NF:wdm.CmUnRegisterCallback
 title: CmUnRegisterCallback function (wdm.h)
 description: The CmUnRegisterCallback routine unregisters a RegistryCallback routine that a CmRegisterCallback or CmRegisterCallbackEx routine previously registered.
-old-location: kernel\cmunregistercallback.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/09/2022
 keywords: ["CmUnRegisterCallback function"]
 ms.keywords: CmUnRegisterCallback, CmUnRegisterCallback routine [Kernel-Mode Driver Architecture], ConfigMgrRef_13cbc14e-4652-4a3d-a87e-f6eef883f912.xml, kernel.cmunregistercallback, wdm/CmUnRegisterCallback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,40 +39,32 @@ api_name:
  - CmUnRegisterCallback
 ---
 
-# CmUnRegisterCallback function
-
-
 ## -description
 
-The <b>CmUnRegisterCallback</b> routine unregisters a <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine that a <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a> routine previously registered.
+The **CmUnRegisterCallback** routine unregisters a [RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) routine that a [CmRegisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback) or [CmRegisterCallbackEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex) routine previously registered.
 
 ## -parameters
 
 ### -param Cookie [in]
 
-
-A LARGE_INTEGER value that identifies the callback routine to unregister. <b>CmRegisterCallback</b> provided this value when you registered the callback routine.
+A LARGE_INTEGER value that identifies the callback routine to unregister. **CmRegisterCallback** provided this value when you registered the callback routine.
 
 ## -returns
 
-<b>CmUnRegisterCallback</b> returns STATUS_SUCCESS if it succeeds or the appropriate <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> error code if it fails. If the <i>Cookie</i> parameter does not match any registered callback routines, <b>CmUnRegisterCallback</b> returns STATUS_INVALID_PARAMETER.
+**CmUnRegisterCallback** returns STATUS_SUCCESS if it succeeds or the appropriate [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) error code if it fails. If the *Cookie* parameter does not match any registered callback routines, **CmUnRegisterCallback** returns STATUS_INVALID_PARAMETER.
 
 ## -remarks
 
-A driver that calls <b>CmRegisterCallback</b> or <b>CmRegisterCallbackEx</b> should call <b>CmUnRegisterCallback</b> before the driver is unloaded. 
+A driver that calls **CmRegisterCallback** or **CmRegisterCallbackEx** should call **CmUnRegisterCallback** before the driver is unloaded.
 
-<div class="alert"><b>Note</b>  A driver must not call <b>CmUnRegisterCallback</b> from its implementation of the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine. That call will result in a deadlock.</div>
-<div> </div>
-For more information about <b>CmUnRegisterCallback</b> and filtering registry operations, see <a href="/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
+A driver must not call **CmUnRegisterCallback** from its implementation of the [RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) routine. That call will result in a deadlock.
+
+For more information about **CmUnRegisterCallback** and filtering registry operations, see [Filtering Registry Calls](/windows-hardware/drivers/kernel/filtering-registry-calls).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a>
+[CmRegisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback)
 
+[CmRegisterCallbackEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
+[RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function)

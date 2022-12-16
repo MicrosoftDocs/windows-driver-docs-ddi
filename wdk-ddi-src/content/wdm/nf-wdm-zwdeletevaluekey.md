@@ -2,15 +2,14 @@
 UID: NF:wdm.ZwDeleteValueKey
 title: ZwDeleteValueKey function (wdm.h)
 description: The ZwDeleteValueKey routine deletes a value entry matching a name from an open key in the registry. If no such entry exists, an error is returned.
-old-location: kernel\zwdeletevaluekey.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/14/2022
 keywords: ["ZwDeleteValueKey function"]
 ms.keywords: NtDeleteValueKey, ZwDeleteValueKey, ZwDeleteValueKey routine [Kernel-Mode Driver Architecture], k111_81ff5c8c-442c-4ddd-9166-5445b964893a.xml, kernel.zwdeletevaluekey, wdm/NtDeleteValueKey, wdm/ZwDeleteValueKey
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,115 +41,55 @@ api_name:
 
 # ZwDeleteValueKey function
 
-
 ## -description
 
-The <b>ZwDeleteValueKey</b> routine deletes a value entry matching a name from an open key in the registry. If no such entry exists, an error is returned.
+The **ZwDeleteValueKey** routine deletes a value entry matching a name from an open key in the registry. If no such entry exists, an error is returned.
 
 ## -parameters
 
 ### -param KeyHandle [in]
 
-
-The handle to the registry key containing the value entry of interest. This key must have been opened with KEY_SET_VALUE set for the desired access. This handle is created by a successful call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>.
+The handle to the registry key containing the value entry of interest. This key must have been opened with KEY_SET_VALUE set for the desired access. This handle is created by a successful call to [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) or [ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey).
 
 ### -param ValueName [in]
 
-
-Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the value entry to delete. This parameter can be an empty string if the value entry has no name.
+Pointer to a [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains the name of the value entry to delete. This parameter can be an empty string if the value entry has no name.
 
 ## -returns
 
-<b>ZwDeleteValueKey</b> returns STATUS_SUCCESS or an appropriate error status representing the final completion status of the operation. Possible error status codes include the following: 
+**ZwDeleteValueKey** returns STATUS_SUCCESS or an appropriate error status representing the final completion status of the operation. Possible error status codes include the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>KeyHandle</i> handle does not have the KEY_SET_VALUE access. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-Additional resources required by this function were not available. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified <i>KeyHandle</i> parameter was a <b>NULL</b> pointer or not a valid pointer to an open registry key. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_OBJECT_NAME_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>ValueName</i> registry key entry was not found. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|---|---|
+| **STATUS_ACCESS_DENIED** | The *KeyHandle* handle does not have the KEY_SET_VALUE access. |
+| **STATUS_INSUFFICIENT_RESOURCES** | Additional resources required by this function were not available. |
+| **STATUS_INVALID_HANDLE** | The specified *KeyHandle* parameter was a **NULL** pointer or not a valid pointer to an open registry key. |
+| **STATUS_OBJECT_NAME_NOT_FOUND** | The *ValueName* registry key entry was not found. |
 
 ## -remarks
 
-The <i>KeyHandle</i> passed to <b>ZwDeleteValueKey</b> must have been opened for delete access to succeed. The <i>DesiredAccess</i> values of KEY_SET_VALUE, KEY_WRITE, and KEY_ALL_ACCESS include the KEY_SET_VALUE access mask required for delete access. For a description of possible values for <i>DesiredAccess</i>, see <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>.
+The *KeyHandle* passed to **ZwDeleteValueKey** must have been opened for delete access to succeed. The *DesiredAccess* values of KEY_SET_VALUE, KEY_WRITE, and KEY_ALL_ACCESS include the KEY_SET_VALUE access mask required for delete access. For a description of possible values for *DesiredAccess*, see [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey).
 
 If callback functions are registered for this registry key, then these callback functions will be called.
 
-Device drivers should not attempt to call <b>ZwDeleteValueKey</b> directly to delete value entries in a subkey of the <b>\Registry..\ResourceMap</b> key. Only the system can write or delete value entries in the <b>\Registry..\HardwareDescription</b> tree.
+Device drivers should not attempt to call **ZwDeleteValueKey** directly to delete value entries in a subkey of the **\Registry..\ResourceMap** key. Only the system can write or delete value entries in the **\Registry..\HardwareDescription** tree.
 
-<div class="alert"><b>Note</b>    If the call to this function occurs in user mode, you should use the name "<b>NtDeleteValueKey</b>" instead of "<b>ZwDeleteValueKey</b>".</div>
-<div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+If the call to this function occurs in user mode, you should use the name "**NtDeleteValueKey**" instead of "**ZwDeleteValueKey**".
+
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
+[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
+[ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey)
 
+[ZwDeleteKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwdeletekey)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>
+[ZwEnumerateValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratevaluekey)
 
+[ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey)
 
+[ZwQueryValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwqueryvaluekey)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwdeletekey">ZwDeleteKey</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratevaluekey">ZwEnumerateValueKey</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwqueryvaluekey">ZwQueryValueKey</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a>
-
+[ZwSetValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey)
