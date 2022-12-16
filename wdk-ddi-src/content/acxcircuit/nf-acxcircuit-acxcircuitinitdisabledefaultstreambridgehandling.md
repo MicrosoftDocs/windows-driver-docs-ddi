@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitInitDisableDefaultStreamBridgeHandling
 ms.date: 12/14/2022
 targetos: Windows
-description: The AcxCircuitInitDisableDefaultStreamBridgeHandling function disables the ACX default stream bridge handling in a multi-circuit environment. 
+description: The AcxCircuitInitDisableDefaultStreamBridgeHandling function disables the ACX default stream bridge handling in a multi-circuit environment.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: <= DISPATCH_LEVEL
+req.irql: DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

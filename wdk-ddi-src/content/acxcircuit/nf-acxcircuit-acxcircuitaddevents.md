@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitAddEvents
 ms.date: 12/14/2022
 targetos: Windows
-description: The AcxCircuitAddEvents function adds one or more events to an ACXCIRCUIT. 
+description: The AcxCircuitAddEvents function adds one or more events to an ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function

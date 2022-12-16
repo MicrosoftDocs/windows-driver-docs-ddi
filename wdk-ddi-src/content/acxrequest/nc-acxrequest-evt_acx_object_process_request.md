@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_OBJECT_PROCESS_REQUEST
 ms.date: 10/31/2022
 targetos: Windows
-description: The EVT_ACX_OBJECT_PROCESS_REQUEST callback is used by the driver to handle a WDFREQUEST. 
+description: The EVT_ACX_OBJECT_PROCESS_REQUEST callback is used by the driver to handle a WDFREQUEST.
 prerelease: true
 req.assembly: 
 req.construct-type: function

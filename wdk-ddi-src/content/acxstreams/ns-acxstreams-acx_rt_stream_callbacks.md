@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_RT_STREAM_CALLBACKS
 ms.date: 07/28/2022
 targetos: Windows
-description: The ACX_RT_STREAM_CALLBACKS structure defines callbacks for RT streaming to the ACX framework. 
+description: The ACX_RT_STREAM_CALLBACKS structure defines callbacks for RT streaming to the ACX framework.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_RT_STREAM_CALLBACKS** structure defines callbacks for RT streaming to the ACX framework. 
+The **ACX_RT_STREAM_CALLBACKS** structure defines callbacks for RT streaming to the ACX framework.
 
 ## -struct-fields
 

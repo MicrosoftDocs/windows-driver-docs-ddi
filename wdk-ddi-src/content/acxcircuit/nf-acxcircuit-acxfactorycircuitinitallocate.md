@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxFactoryCircuitInitAllocate
 ms.date: 12/14/2022
 targetos: Windows
-description: The AcxFactoryCircuitInitAllocate function is used to initialize the opaque ACXFACTORYCIRCUIT_INIT structure that is used by the AcxFactoryCircuitCreate function. 
+description: The AcxFactoryCircuitInitAllocate function is used to initialize the opaque ACXFACTORYCIRCUIT_INIT structure that is used by the AcxFactoryCircuitCreate function.
 prerelease: true
 req.assembly: 
 req.construct-type: function

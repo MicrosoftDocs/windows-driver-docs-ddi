@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_STREAM_CALLBACKS
 ms.date: 08/01/2022
 targetos: Windows
-description: The ACX_STREAM_CALLBACKS structure identifies the driver callbacks for streaming to the ACX framework. 
+description: The ACX_STREAM_CALLBACKS structure identifies the driver callbacks for streaming to the ACX framework.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 

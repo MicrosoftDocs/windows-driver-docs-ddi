@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagRetrieveUnicodeString
 ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveUnicodeString function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveUnicodeString function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveUnicodeString function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveUnicodeString function retrieves a unicode string value from an existing, intialized AcxObjectBag that contains values.
 
 ## -parameters
 

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitAddPins
 ms.date: 12/14/2022
 targetos: Windows
-description: The AcxCircuitAddPins function adds pins to an ACXCIRCUIT. 
+description: The AcxCircuitAddPins function adds pins to an ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -89,7 +89,7 @@ Example usage is shown below.
     status = AcxDataFormatListAddDataFormat(formatList, formatPcm16000c1);
   
     //
-    // Add the default streaming pin, using default pin id. 
+    // Add the default streaming pin, using default pin id.
     //
     status = AcxCircuitAddPins(circuit, &(pin[1]), 1);
 ```

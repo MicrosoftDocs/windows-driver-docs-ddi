@@ -61,7 +61,7 @@ A WDF_POWER_DEVICE_STATE-typed enumerator that identifies the previous device po
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
-If the driver fails this callback, the ACX framework shutdowns the associated ACXSTREAMS if any, and tags the ACXCIRCUIT as pending-delete. The ACX framework doesn't fail the underline ACX EvtDeviceD0Entry callback, this allows existing working ACXCIRCUITs from this device to be used to build working audio paths. 
+If the driver fails this callback, the ACX framework shutdowns the associated ACXSTREAMS if any, and tags the ACXCIRCUIT as pending-delete. The ACX framework doesn't fail the underline ACX EvtDeviceD0Entry callback, this allows existing working ACXCIRCUITs from this device to be used to build working audio paths.
 
 ## -remarks
 
@@ -115,7 +115,7 @@ CodecR_EvtCircuitPowerUp (
 
     PAGED_CODE();
 
-    // for testing. 
+    // for testing.
     circuitCtx = GetRenderCircuitContext(Circuit);
     ASSERT(circuitCtx);
 

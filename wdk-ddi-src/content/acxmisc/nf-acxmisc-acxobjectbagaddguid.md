@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddGuid
 ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagAddGuid function adds Guid data to an existing, intialized AcxObjectBag. 
+description: The AcxObjectBagAddGuid function adds Guid data to an existing, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddGuid function adds Guid data to an existing, intialized AcxObjectBag. 
+The AcxObjectBagAddGuid function adds Guid data to an existing, intialized AcxObjectBag.
 
 ## -parameters
 

@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT
 ms.date: 12/15/2022
 targetos: Windows
-description: The EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT callback function is implemented by the driver and is called when the internal mix format is set for an audio engine node. 
+description: The EVT_ACX_AUDIOENGINE_ASSIGN_ENGINE_FORMAT callback function is implemented by the driver and is called when the internal mix format is set for an audio engine node.
 prerelease: true
 req.assembly: 
 req.construct-type: function

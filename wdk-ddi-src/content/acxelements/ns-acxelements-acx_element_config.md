@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_ELEMENT_CONFIG
 ms.date: 08/01/2022
 targetos: Windows
-description: The ACX_ELEMENT_CONFIG structure is used to define the audio element configuration. 
+description: The ACX_ELEMENT_CONFIG structure is used to define the audio element configuration.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 

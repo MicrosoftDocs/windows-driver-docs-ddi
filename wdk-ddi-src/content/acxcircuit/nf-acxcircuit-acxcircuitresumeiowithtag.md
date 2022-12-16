@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitResumeIoWithTag
 ms.date: 12/14/2022
 targetos: Windows
-description: The AcxCircuitResumeIoWithTag function is used to resume circuit I/O after it has been stopped. 
+description: The AcxCircuitResumeIoWithTag function is used to resume circuit I/O after it has been stopped.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxCircuitResumeIoWithTag** function is used to resume circuit I/O after it has been stopped. It is different from [AcxCircuitResumeIo](nf-acxcircuit-acxcircuitresumeio.md) in that it can contain additional Tag parameter that is used to display diagnostic information. 
+The **AcxCircuitResumeIoWithTag** function is used to resume circuit I/O after it has been stopped. It is different from [AcxCircuitResumeIo](nf-acxcircuit-acxcircuitresumeio.md) in that it can contain additional Tag parameter that is used to display diagnostic information.
 
 ## -parameters
 

@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_AUDIOENGINE_CALLBACKS
 ms.date: 08/01/2022
 targetos: Windows
-description: The ACX_AUDIOENGINE_CALLBACKS structure defines callbacks for the ACX audio engine. 
+description: The ACX_AUDIOENGINE_CALLBACKS structure defines callbacks for the ACX audio engine.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 

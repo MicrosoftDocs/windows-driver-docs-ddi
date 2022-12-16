@@ -48,11 +48,11 @@ The **AcxStreamInitAssignAcxRtStreamCallbacks** function sets the RT callbacks u
 
 ### -param StreamInit
 
-Address of a ACXSTREAM_INIT object used to define the stream initialization parameters. 
+Address of a ACXSTREAM_INIT object used to define the stream initialization parameters.
 
 ### -param RtStreamCallbacks
 
-An [ACX_RT_STREAM_CALLBACKS structure](ns-acxstreams-acx_rt_stream_callbacks.md) that defines the list of callbacks. 
+An [ACX_RT_STREAM_CALLBACKS structure](ns-acxstreams-acx_rt_stream_callbacks.md) that defines the list of callbacks.
 
 ## -returns
 

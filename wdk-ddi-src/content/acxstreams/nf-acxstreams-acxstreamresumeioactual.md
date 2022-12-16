@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxStreamResumeIoActual** function is used to resume IO for a stream. 
+The **AcxStreamResumeIoActual** function is used to resume IO for a stream.
 
 ## -parameters
 

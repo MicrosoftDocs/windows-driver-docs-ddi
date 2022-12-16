@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddUI2
 ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagAddUI2 function adds an unsigned int two byte I2 (USHORT) value to an existing, intialized AcxObjectBag. 
+description: The AcxObjectBagAddUI2 function adds an unsigned int two byte I2 (USHORT) value to an existing, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddUI2 function adds an unsigned int two byte I2 (USHORT) value to an existing, intialized AcxObjectBag. 
+The AcxObjectBagAddUI2 function adds an unsigned int two byte I2 (USHORT) value to an existing, intialized AcxObjectBag.
 
 ## -parameters
 

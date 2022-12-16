@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: <= DISPATCH_LEVEL
+req.irql: DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -65,7 +65,7 @@ Example usage is shown below.
 
         // The driver uses this DDI to specify the circuit type. The
         // circuit type can be AcxCircuitTypeRender, AcxCircuitTypeCapture,
-        // AcxCircuitTypeOther, or AcxCircuitTypeMaximum (for validation). 
+        // AcxCircuitTypeOther, or AcxCircuitTypeMaximum (for validation).
         //
         AcxCircuitInitSetCircuitType(circuitInit, AcxCircuitTypeRender);
 ```

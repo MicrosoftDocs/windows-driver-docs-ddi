@@ -43,11 +43,11 @@ The **ACX_CONSTRICTOR_OPTION** enumeration defines the options for the loopback 
 
 ### -field AcxConstrictorOptionNone
 
-This is the default state for the loopback protection status of a stream. When all active streams are in this state it indicates that the loopback tap contains meaningful data. 
+This is the default state for the loopback protection status of a stream. When all active streams are in this state it indicates that the loopback tap contains meaningful data.
 
 ### -field AcxConstrictorOptionMute
 
-When an active stream is in this state it indicates that the loopback tap for the audio output will emit silence. 
+When an active stream is in this state it indicates that the loopback tap for the audio output will emit silence.
 
 ## -remarks
 

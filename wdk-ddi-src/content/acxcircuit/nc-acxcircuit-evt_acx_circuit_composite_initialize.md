@@ -48,15 +48,15 @@ The **EVT_ACX_CIRCUIT_COMPOSITE_INITIALIZE** callback is used by the driver to d
 
 ### -param Device
 
-A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT. 
+A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT.
 
 ### -param Circuit
 
-The ACXCIRCUIT object being initialized. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+The ACXCIRCUIT object being initialized. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param CompositeProperties
 
-Optional handle to CompositeProperties that describes the composite circuit. This is an optional ACXOBJECTBAG object for composite endpoint's properties. 
+Optional handle to CompositeProperties that describes the composite circuit. This is an optional ACXOBJECTBAG object for composite endpoint's properties.
 
 ## -returns
 

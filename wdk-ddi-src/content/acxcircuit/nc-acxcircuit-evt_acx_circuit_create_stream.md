@@ -89,7 +89,7 @@ The Stream Creation Request is sent to the appropriate ACXPIN exposed as part of
 The driver receiving the stream creation callback performs the following operations:
 
 - It initializes the ACXSTREAM_INIT opaque structure by using ACX defined DDIs (AcxStreamInit*)
-- It creates the ACXSTREAM object using the AcxStreamCreate or AcxRtStreamCreate ACX DDI. The AcxRtStreamCreate is only used for streaming ACXPIN connected to upper user mode audio pipeline, all other circuits of the endpoint path must use the AcxStreamCreate DDI instead. 
+- It creates the ACXSTREAM object using the AcxStreamCreate or AcxRtStreamCreate ACX DDI. The AcxRtStreamCreate is only used for streaming ACXPIN connected to upper user mode audio pipeline, all other circuits of the endpoint path must use the AcxStreamCreate DDI instead.
 - It creates any stream-specific elements, for example ACXAUDIOENGINE.
 - It adds the elements to the ACXSTREAM object.
 - It returns STATUS_SUCCESS to indicate that the stream creation callback completed successfully.

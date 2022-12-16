@@ -64,7 +64,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An AcxFactoryCircuit represents a factory object capable of creating an ACXCIRCUIT on demand. 
+An AcxFactoryCircuit represents a factory object capable of creating an ACXCIRCUIT on demand.
 
 A driver can register one or more ACXFACTORYCIRCUIT with ACX, this action will let ACX know that the driver is capable of creating ACXCIRCUITs of a well defined type.
 

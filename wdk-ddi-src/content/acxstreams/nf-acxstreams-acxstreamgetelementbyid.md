@@ -52,7 +52,7 @@ An existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream cre
 
 ### -param ElementId
 
-The Id of the requested element. 
+The Id of the requested element.
 
 ## -returns
 

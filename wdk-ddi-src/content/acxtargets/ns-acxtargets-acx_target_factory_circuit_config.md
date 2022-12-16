@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_TARGET_FACTORY_CIRCUIT_CONFIG
 ms.date: 07/22/2022
 targetos: Windows
-description: The ACX_TARGET_FACTORY_CIRCUIT_CONFIG structure is used to define the target factory circuit configuration. 
+description: The ACX_TARGET_FACTORY_CIRCUIT_CONFIG structure is used to define the target factory circuit configuration.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 

@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_STREAM_GET_HW_LATENCY
 ms.date: 10/31/2022
 targetos: Windows
-description: The EvtAcxStreamGetHwLatency event tells the driver to provide stream latency for the specific circuit of this stream (overall latency will be a sum of the latency of the different circuits). 
+description: The EvtAcxStreamGetHwLatency event tells the driver to provide stream latency for the specific circuit of this stream (overall latency will be a sum of the latency of the different circuits).
 prerelease: true
 req.assembly: 
 req.construct-type: function

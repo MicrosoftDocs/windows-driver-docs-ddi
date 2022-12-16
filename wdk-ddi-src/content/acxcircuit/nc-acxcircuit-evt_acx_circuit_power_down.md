@@ -48,7 +48,7 @@ The **EVT_ACX_CIRCUIT_POWER_DOWN** callback is used by the driver to add functio
 
 ### -param Device
 
-A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT. 
+A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT.
 
 ### -param Circuit
 
@@ -76,7 +76,7 @@ If the driver has registered an EvtCircuitPowerDown callback function, the ACX f
 
 For more information about when the framework calls this callback function, see PnP and Power Management Scenarios.
 
-Unless the device has been surprise-removed, the ACX framework calls this callback function immediately after it disables the device's interrupts, but before the device's power is reduced from D0 and before WDF invokes the driver's EvtDeviceD0Exit callback on the associated devices. The TargetState parameter identifies the device power state that the device is about to enter. 
+Unless the device has been surprise-removed, the ACX framework calls this callback function immediately after it disables the device's interrupts, but before the device's power is reduced from D0 and before WDF invokes the driver's EvtDeviceD0Exit callback on the associated devices. The TargetState parameter identifies the device power state that the device is about to enter.
 
 The EvtCircuitPowerDown callback function must perform any operations that are necessary before the ACXCIRCUT's hardware enters the specified low-power state, such as saving any information that the driver will need later to restore the ACXCIRCUIT's hardware to its D0 power state.
 
@@ -120,7 +120,7 @@ CodecR_EvtCircuitPowerDown (
 
     PAGED_CODE();
     
-    // for testing. 
+    // for testing.
     circuitCtx = GetRenderCircuitContext(Circuit);
     ASSERT(circuitCtx);
 

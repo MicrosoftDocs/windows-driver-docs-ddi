@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN
 ms.date: 12/14/2022
 targetos: Windows
-description: The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to add functionality in the power down path of an ACXFACTORYCIRCUIT object. 
+description: The EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN callback is used by the driver to add functionality in the power down path of an ACXFACTORYCIRCUIT object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -76,7 +76,7 @@ If the driver has registered an EvtCircuitPowerDown callback function, the ACX f
 
 For more information about when the framework calls this callback function, see [PnP and Power Management Scenarios](/windows-hardware/drivers/wdf/pnp-and-power-management-scenarios).
 
-Unless the device has been surprise-removed, the ACX framework calls this callback function immediately after it disables the device's interrupts, but before the device's power is reduced from D0 and before WDF invokes the driver's EvtDeviceD0Exit callback on the associated devices. The TargetState parameter identifies the device power state that the device is about to enter. 
+Unless the device has been surprise-removed, the ACX framework calls this callback function immediately after it disables the device's interrupts, but before the device's power is reduced from D0 and before WDF invokes the driver's EvtDeviceD0Exit callback on the associated devices. The TargetState parameter identifies the device power state that the device is about to enter.
 
 The EvtFactoryCircuitPowerDown callback function must perform any operations that are necessary before the ACXFACTORYCIRCUT's hardware enters the specified low-power state, such as saving any information that the driver will need later to restore the ACXFACTORYCIRCUIT's hardware to its D0 power state.
 

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagRetrieveBlob
 ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveBlob function retrieves a blob value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveBlob function retrieves a blob value from an existing, intialized AcxObjectBag that contains values.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveBlob function retrieves a blob value from an existing, intialized AcxObjectBag that contains values. 
+The AcxObjectBagRetrieveBlob function retrieves a blob value from an existing, intialized AcxObjectBag that contains values.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ The name of the value that will be used to access the value.
 
 ### -param ValueAttributes
 
-Optional WDF_OBJECT_ATTRIBUTES that can be used to define additional ValueAttributes. 
+Optional WDF_OBJECT_ATTRIBUTES that can be used to define additional ValueAttributes.
 
 ### -param Value
 
@@ -81,7 +81,7 @@ This example shows the use of AcxObjectBagRetrieveBlob.
     PAGED_CODE();
 
     //
-    // Retrieve the vendor blob from the CircuitProperties object bag. 
+    // Retrieve the vendor blob from the CircuitProperties object bag.
     //
     RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveBlob(CircuitProperties, &VendorPropertiesBlock, NULL, &vendorPropertiesBlock));
 

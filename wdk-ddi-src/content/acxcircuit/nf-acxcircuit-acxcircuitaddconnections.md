@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitAddConnections
 ms.date: 12/14/2022
 targetos: Windows
-description: The AcxCircuitAddConnections function adds connections to an ACXCIRCUIT. 
+description: The AcxCircuitAddConnections function adds connections to an ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function

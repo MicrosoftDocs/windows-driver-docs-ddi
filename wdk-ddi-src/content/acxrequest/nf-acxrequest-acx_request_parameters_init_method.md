@@ -97,7 +97,7 @@ Example usage is shown below.
             result  = 0;
 
             //
-            // Format and send the request. 
+            // Format and send the request.
             //
             ACX_REQUEST_PARAMETERS_INIT_METHOD(
                 &params,

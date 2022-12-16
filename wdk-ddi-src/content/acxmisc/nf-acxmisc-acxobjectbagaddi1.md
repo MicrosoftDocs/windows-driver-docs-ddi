@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddI1
 ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagAddI1 function adds a int one byte (CHAR) I1 value  to an existing, intialized AcxObjectBag. 
+description: The AcxObjectBagAddI1 function adds a int one byte (CHAR) I1 value  to an existing, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddI1 function adds a int one byte (CHAR) I1 value to an existing, intialized AcxObjectBag. 
+The AcxObjectBagAddI1 function adds a int one byte (CHAR) I1 value to an existing, intialized AcxObjectBag.
 
 ## -parameters
 

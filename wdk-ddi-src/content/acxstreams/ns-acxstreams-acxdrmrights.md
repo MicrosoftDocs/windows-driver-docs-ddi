@@ -52,7 +52,7 @@ The **ACXDRMRIGHTS** structure specifies the DRM content rights assigned to an A
 
 Specifies one of the following copy-protection values: 
 
-**TRUE**  Enables copy protection. 
+**TRUE**  Enables copy protection.
 
 An audio application must not do the following: 
 

@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE
 ms.date: 12/15/2022
 targetos: Windows
-description: The EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE callback function is implemented by the driver and is called when the global effects state is set for an audio engine node. 
+description: The EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE callback function is implemented by the driver and is called when the global effects state is set for an audio engine node.
 prerelease: true
 req.assembly: 
 req.construct-type: function

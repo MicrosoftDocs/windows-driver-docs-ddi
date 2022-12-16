@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddMultiString function adds a MultiString to an existing, intialized AcxObjectBag. 
+The AcxObjectBagAddMultiString function adds a MultiString to an existing, intialized AcxObjectBag.
 
 ## -parameters
 

@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddBlob
 tech.root: audio
 title: AcxObjectBagAddBlob
-ms.date: 04/29/2022
+ms.date: 12/16/2022
 targetos: Windows
-description: The AcxObjectBagAddBlob function adds blob data to an existing, intialized AcxObjectBag. 
+description: The AcxObjectBagAddBlob function adds blob data to an existing, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxmisc.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxObjectBagAddBlob** function adds blob data to an existing, intialized AcxObjectBag. 
+The **AcxObjectBagAddBlob** function adds blob data to an existing, intialized AcxObjectBag.
 
 ## -parameters
 

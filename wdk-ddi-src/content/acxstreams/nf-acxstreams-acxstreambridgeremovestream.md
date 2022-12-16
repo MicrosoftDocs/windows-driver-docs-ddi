@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamBridgeRemoveStream
 ms.date: 07/28/2022
 targetos: Windows
-description: The AcxStreamBridgeRemoveStream function removes the specified stream from the the associated ACXSTREAMBRIDGE object. 
+description: The AcxStreamBridgeRemoveStream function removes the specified stream from the the associated ACXSTREAMBRIDGE object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -64,7 +64,7 @@ This DDI can only be called from the driver's stream cleanup handler context. Th
 
 Drivers call AcxStreamBridgeRemoveStream in these scenarios:
 
-(a) drivers want to manually remove the ACXSTREAM from the ACXSTREAMBRIDGE. 
+(a) drivers want to manually remove the ACXSTREAM from the ACXSTREAMBRIDGE.
 
 (b) drivers (and thier h/w requirements) need for the upper level ACXSTREAMs i.e., the circuit streams closer to the streaming bridge pin, to take action before downlevel ACXSTREAMs.
 

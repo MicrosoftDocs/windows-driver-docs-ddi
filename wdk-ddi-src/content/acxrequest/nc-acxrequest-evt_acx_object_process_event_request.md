@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST
 ms.date: 11/10/2022
 targetos: Windows
-description: The EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST callback is used by the driver to handle event notifications. 
+description: The EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST callback is used by the driver to handle event notifications.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -99,7 +99,7 @@ CodecR_EvtMuteElementChangeEventCallback(
     muteCtx = GetCodecMuteElementContext(Object);
     ASSERT(muteCtx);
 
-    // for testing. 
+    // for testing.
     muteEventCtx = GetCodecMuteEventContext(Event);
     ASSERT(muteEventCtx);
 

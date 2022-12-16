@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagRetrieveSizeT
 ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveSizeT function retrieves a SIZE_T value from an existing, intialized AcxObjectBag. 
+description: The AcxObjectBagRetrieveSizeT function retrieves a SIZE_T value from an existing, intialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveSizeT function retrieves a SIZE_T value from an existing, intialized AcxObjectBag. 
+The AcxObjectBagRetrieveSizeT function retrieves a SIZE_T value from an existing, intialized AcxObjectBag.
 
 ## -parameters
 

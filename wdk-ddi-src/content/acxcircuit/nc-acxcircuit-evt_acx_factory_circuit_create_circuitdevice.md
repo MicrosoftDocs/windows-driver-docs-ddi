@@ -60,7 +60,7 @@ An [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT](ns-acxcircuit-acx_factory_circuit_add_circu
 
 ### -param Device
 
-A pointer to a location that receives a handle to the new  WDFDEVICE framework object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)). 
+A pointer to a location that receives a handle to the new  WDFDEVICE framework object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)).
 
 ## -returns
 

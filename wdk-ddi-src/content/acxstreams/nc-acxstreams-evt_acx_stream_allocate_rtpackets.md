@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-The **EvtAcxStreamAllocateRtPackets** event tells the driver to allocate RtPackets for streaming. 
+The **EvtAcxStreamAllocateRtPackets** event tells the driver to allocate RtPackets for streaming.
 
 ## -parameters
 

@@ -96,7 +96,7 @@ Example usage is shown below.
     streamCfg.OutMode      = NULL;  // no mode, i.e., default (1st) and raw (2nd).
     streamCfg.OutStreamVarArguments = objBag;
 
-    // Reverse the change-state sequence notifications. 
+    // Reverse the change-state sequence notifications.
     streamCfg.Flags       |= AcxStreamBridgeInvertChangeStateSequence;
 
     status = AcxStreamBridgeCreate(circuit, &attributes, &streamCfg, &streamBridge);

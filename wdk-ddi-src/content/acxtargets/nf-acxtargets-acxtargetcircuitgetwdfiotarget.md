@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetCircuitGetWdfIoTarget
 ms.date: 07/22/2022
 targetos: Windows
-description: The AcxTargetCircuitGetWdfIoTarget function will return the associated WDFIOTARGET object. 
+description: The AcxTargetCircuitGetWdfIoTarget function will return the associated WDFIOTARGET object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetCircuitGetWdfIoTarget** function will return the associated WDFIOTARGET object. 
+The **AcxTargetCircuitGetWdfIoTarget** function will return the associated WDFIOTARGET object.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Returns a  WDFIOTARGET Object that is associated with the specified circuit.
 
 ### Example
  
-This example code shows the use of AcxTargetCircuitGetWdfIoTarget. 
+This example code shows the use of AcxTargetCircuitGetWdfIoTarget.
 
 ```cpp
     WDFIOTARGET ioTarget;

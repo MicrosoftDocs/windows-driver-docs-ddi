@@ -48,7 +48,7 @@ The **AcxStreamBridgeAddStream** function adds an existing ACXSTREAM to an exist
 
 ### -param Bridge
 
-An *ACXSTREAMBRIDGE* object is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments. This object is only used in a multi-circuit (audio composite) scenario. 
+An *ACXSTREAMBRIDGE* object is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments. This object is only used in a multi-circuit (audio composite) scenario.
 
 ### -param Stream
 
@@ -62,7 +62,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 Drivers call AcxStreamBridgeAddStream in these scenarios:
 
-(a) drivers want to manually select the ACXSTREAMBRIDGE to use for the current ACXSTREAM. 
+(a) drivers want to manually select the ACXSTREAMBRIDGE to use for the current ACXSTREAM.
 
 (b) drivers (and their hardware requirements) have a need for the downlevel ACXCIRCUITs, i.e., the circuits closer to the device bridge pin, to take action before upper level ACXCIRCUITs take action.
 

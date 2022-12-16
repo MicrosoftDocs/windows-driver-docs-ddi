@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetStreamGetWdfIoTarget
 ms.date: 07/22/2022
 targetos: Windows
-description: The AcxTargetStreamGetWdfIoTarget function returns a WDFIOTARGET WDF object that is associated with the specified stream. 
+description: The AcxTargetStreamGetWdfIoTarget function returns a WDFIOTARGET WDF object that is associated with the specified stream.
 prerelease: true
 req.assembly: 
 req.construct-type: function

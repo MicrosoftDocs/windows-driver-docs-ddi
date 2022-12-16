@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_OBJECT_PREPROCESS_REQUEST
 ms.date: 11/10/2022
 targetos: Windows
-description: The EVT_ACX_OBJECT_PREPROCESS_REQUEST callback is used by the driver to preprocess I/O WDFREQUESTs. 
+description: The EVT_ACX_OBJECT_PREPROCESS_REQUEST callback is used by the driver to preprocess I/O WDFREQUESTs.
 prerelease: true
 req.assembly: 
 req.construct-type: function

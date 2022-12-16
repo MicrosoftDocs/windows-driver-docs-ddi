@@ -48,7 +48,7 @@ The **AcxTargetCircuitCreate** function is used to create an ACX target circuit.
 
 ### -param Device
 
-A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT. 
+A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT.
 
 ### -param Attributes
 

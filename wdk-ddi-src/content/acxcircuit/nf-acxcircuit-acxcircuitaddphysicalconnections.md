@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxCircuitAddPhysicalConnections
 ms.date: 12/14/2022
 targetos: Windows
-description: The AcxCircuitAddPhysicalConnections function adds physical connections to an ACXCIRCUIT. 
+description: The AcxCircuitAddPhysicalConnections function adds physical connections to an ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function

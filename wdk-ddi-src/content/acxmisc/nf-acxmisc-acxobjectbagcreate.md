@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagCreate
 ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagCreate function creates a new AcxObjectBag. 
+description: The AcxObjectBagCreate function creates a new AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagCreate function creates a new AcxObjectBag. 
+The AcxObjectBagCreate function creates a new AcxObjectBag.
 
 ## -parameters
 

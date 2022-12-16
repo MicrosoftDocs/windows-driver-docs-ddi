@@ -58,7 +58,7 @@ The [ACX_PEAKMETER_RETRIEVE_LEVEL](nc-acxelements-evt_acx_peakmeter_retrieve_lev
 
 ### -field EvtAcxPeakMeterProcessRequest
 
-The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_process_request) callback. 
+The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_process_request) callback.
 
 ## -remarks
 

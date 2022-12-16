@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_OBJECTBAG_CONFIG
 ms.date: 07/01/2022
 targetos: Windows
-description: The ACX_OBJECTBAG_CONFIG structure defines the configuration for an AcxObjectBag. 
+description: The ACX_OBJECTBAG_CONFIG structure defines the configuration for an AcxObjectBag.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,13 +44,13 @@ dev_langs:
 
 ## -description
 
-The ACX_OBJECTBAG_CONFIG structure defines the configuration for an AcxObjectBag. 
+The ACX_OBJECTBAG_CONFIG structure defines the configuration for an AcxObjectBag.
 
 ## -struct-fields
 
 ### -field Size
 
-The length, in bytes, of this structure. 
+The length, in bytes, of this structure.
 
 ### -field Flags
 

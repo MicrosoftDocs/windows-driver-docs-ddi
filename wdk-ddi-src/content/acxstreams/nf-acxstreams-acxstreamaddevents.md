@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamAddEvents
 ms.date: 07/28/2022
 targetos: Windows
-description: AcxStreamAddEvents adds events to a stream using an an ACXEVENT object. 
+description: AcxStreamAddEvents adds events to a stream using an an ACXEVENT object.
 prerelease: true
 req.assembly: 
 req.construct-type: function

@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamInitAssignAcxRequestPreprocessCallback
 ms.date: 07/28/2022
 targetos: Windows
-description: The AcxStreamInitAssignAcxRequestPreprocessCallback function assigns an  AcxRequestPreprocessCallback to a stream. 
+description: The AcxStreamInitAssignAcxRequestPreprocessCallback function assigns an  AcxRequestPreprocessCallback to a stream.
 prerelease: true
 req.assembly: 
 req.construct-type: function

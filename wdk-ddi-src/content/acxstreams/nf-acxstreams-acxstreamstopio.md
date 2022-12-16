@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamStopIo
 ms.date: 07/22/2022
 targetos: Windows
-description: The AcxStreamStopIo function is used to temporarily stop the IO for a stream. 
+description: The AcxStreamStopIo function is used to temporarily stop the IO for a stream.
 prerelease: true
 req.assembly: 
 req.construct-type: function

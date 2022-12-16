@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: <= DISPATCH_LEVEL
+req.irql: DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -52,7 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param ComponentId
 
-A pointer to a defined GUID that serves as the component ID for the circuit. 
+A pointer to a defined GUID that serves as the component ID for the circuit.
 
 ## -remarks
 

@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_CIRCUIT_PREPARE_HARDWARE
 ms.date: 12/14/2022
 targetos: Windows
-description: The EVT_ACX_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to add functionality when a circuit is in the prepare hardware phase. 
+description: The EVT_ACX_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to add functionality when a circuit is in the prepare hardware phase.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -48,7 +48,7 @@ The **EVT_ACX_CIRCUIT_PREPARE_HARDWARE** callback is used by the driver to add f
 
 ### -param Device
 
-A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT. 
+A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT.
 
 ### -param Circuit
 

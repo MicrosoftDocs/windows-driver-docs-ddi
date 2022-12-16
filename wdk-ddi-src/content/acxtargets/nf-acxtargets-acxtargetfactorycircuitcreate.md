@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetFactoryCircuitCreate
 ms.date: 07/22/2022
 targetos: Windows
-description: The AcxTargetFactoryCircuitCreate function returns an handle to a new ACXTARGETFACTORYCIRCUIT ACX object. 
+description: The AcxTargetFactoryCircuitCreate function returns an handle to a new ACXTARGETFACTORYCIRCUIT ACX object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetFactoryCircuitCreate** function returns an handle to a new ACXTARGETFACTORYCIRCUIT ACX object. 
+The **AcxTargetFactoryCircuitCreate** function returns an handle to a new ACXTARGETFACTORYCIRCUIT ACX object.
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT. 
+A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the specified ACXCIRCUIT.
 
 ### -param Attributes
 
