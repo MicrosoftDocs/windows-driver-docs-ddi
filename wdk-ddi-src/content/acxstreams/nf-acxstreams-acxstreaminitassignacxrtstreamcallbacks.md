@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamInitAssignAcxRtStreamCallbacks
 tech.root: audio
 title: AcxStreamInitAssignAcxRtStreamCallbacks
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamInitAssignAcxRtStreamCallbacks function sets the RT callbacks using an  ACXSTREAM_INIT object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

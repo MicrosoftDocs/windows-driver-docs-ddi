@@ -56,7 +56,6 @@ Specifies the DRM content rights that are assigned to the stream that is identif
 
 ## -remarks
 
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0

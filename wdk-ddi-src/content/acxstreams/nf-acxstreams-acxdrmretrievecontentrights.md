@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxDrmRetrieveContentRights
 tech.root: audio
 title: AcxDrmRetrieveContentRights
-ms.date: 09/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxDrmRetrieveContentRights function gets the DRM content rights assigned to a DRM content ID.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

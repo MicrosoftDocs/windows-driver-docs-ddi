@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamBridgeAddStream
 tech.root: audio
 title: AcxStreamBridgeAddStream
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamBridgeAddStream function adds an existing stream to an existing bridge. This function is located in the acxstream header.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -48,11 +48,11 @@ The **AcxStreamBridgeAddStream** function adds an existing ACXSTREAM to an exist
 
 ### -param Bridge
 
-An *ACXSTREAMBRIDGE* object is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments. This object is only used in a multi-circuit (audio composite) scenario.
+An *ACXSTREAMBRIDGE* object is used by a circuit to propagate stream creation, the stream's states transitions and DRM settings between the endpoint's circuit stream segments. This object is only used in a multi-circuit (audio composite) scenario.
 
 ### -param Stream
 
-An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements.
+An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit's elements.
 
 ## -returns
 

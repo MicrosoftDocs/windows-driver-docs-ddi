@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamBridgeRemoveStream
 tech.root: audio
 title: AcxStreamBridgeRemoveStream
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamBridgeRemoveStream function removes the specified stream from the the associated ACXSTREAMBRIDGE object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -48,7 +48,7 @@ The **AcxStreamBridgeRemoveStream** function removes the specified ACXSTREAM fro
 
 ### -param Bridge
 
-An ACXSTREAMBRIDGE object is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments. This object is only used in a multi-circuit (audio composite) scenario.
+An ACXSTREAMBRIDGE object is used by a circuit to propagate stream creation, the stream's states transitions and DRM settings between the endpoint's circuit stream segments. This object is only used in a multi-circuit (audio composite) scenario.
 
 ### -param Stream
 
@@ -87,7 +87,6 @@ Example usage is shown below.
     // Target stream is closed if this was last input ACXSTREAM removed.
     status = AcxStreamBridgeRemoveStream(bridge, stream);
 ```
-
 
 ### ACX requirements
 

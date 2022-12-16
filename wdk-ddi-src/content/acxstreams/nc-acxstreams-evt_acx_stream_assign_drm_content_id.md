@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: PASSIVE_LEVEL 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -49,7 +49,6 @@ The **EVT_ACX_STREAM_ASSIGN_DRM_CONTENT_ID** event tells the driver to assign a 
 ### -param Stream
 
 An existing ACXSTREAM Object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
-
 
 ### -param ContentId
 

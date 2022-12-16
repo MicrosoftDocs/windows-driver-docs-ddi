@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamAddElements
 tech.root: audio
 title: AcxStreamAddElements
-ms.date: 02/02/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: AcxStreamAddElements is used to add stream elements to an AcxStream.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

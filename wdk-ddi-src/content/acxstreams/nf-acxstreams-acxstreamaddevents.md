@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamAddEvents
 tech.root: audio
 title: AcxStreamAddEvents
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: AcxStreamAddEvents adds events to a stream using an an ACXEVENT object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -48,7 +48,7 @@ dev_langs:
 
 ### -param Stream
 
-An existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements.
+An existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit's elements.
 
 ### -param Events
 

@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxDrmForwardContentToDeviceObject
 tech.root: audio
 title: AcxDrmForwardContentToDeviceObject
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxDrmForwardContentToDeviceObject function accepts a device object representing a device to which the caller intends to forward protected content.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -49,7 +49,6 @@ The **AcxDrmForwardContentToDeviceObject** function accepts a device object repr
 ### -param ContentId
 
 Specifies a nonzero DRM content ID assigned to an ACX audio stream by [AcxDrmCreateContentMixed](nf-acxstreams-acxdrmcreatecontentmixed.md). Note that a content ID of zero represents an audio stream with default DRM content rights, and cannot be used with this function.
-
 
 ### -param Reserved
 

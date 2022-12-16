@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxRtStreamCreate
 tech.root: audio
 title: AcxRtStreamCreate
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: AcxRtStreamCreate creates an ACX RT-based Stream that is used by the OS to stream audio data.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

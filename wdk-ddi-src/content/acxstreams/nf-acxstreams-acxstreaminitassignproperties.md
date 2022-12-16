@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamInitAssignProperties
 tech.root: audio
 title: AcxStreamInitAssignProperties
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamInitAssignProperties function assigns an array of properties to a stream using an ACXSTREAM_INIT object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -100,4 +100,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 - [acxstreams.h header](index.md)
 - [ACX_PROPERTY_ITEM](..\acxrequest\ns-acxrequest-acx_property_item.md)
-

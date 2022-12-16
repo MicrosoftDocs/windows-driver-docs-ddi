@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamCreate
 tech.root: audio
 title: AcxStreamCreate
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: AcxStreamCreate creates an ACX Stream that is used to control streaming behavior.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -56,7 +56,7 @@ The ACXCIRCUIT that this stream will be associated with.
 
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) that are used to set the various object’s values: cleanup and destroy callbacks, context type, and to specify its parent object.
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) that are used to set the various object's values: cleanup and destroy callbacks, context type, and to specify its parent object.
 
 ### -param Config
 

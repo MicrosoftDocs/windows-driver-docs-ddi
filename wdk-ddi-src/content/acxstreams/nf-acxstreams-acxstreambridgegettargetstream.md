@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamBridgeGetTargetStream
 tech.root: audio
 title: AcxStreamBridgeGetTargetStream
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamBridgeGetTargetStream function gets the stream associated with a specific ACXSTREAMBRIDGE object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -60,12 +60,11 @@ An ACXTARGETSTREAM object handle.
 
 ## -remarks
 
-An ACXSTREAMBRIDGE object is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments.  This object is only used in a multi-circuit (audio composite) scenario.
+An ACXSTREAMBRIDGE object is used by a circuit to propagate stream creation, the stream's states transitions and DRM settings between the endpoint's circuit stream segments.  This object is only used in a multi-circuit (audio composite) scenario.
 
 This DDI can only be called from the driver's input stream property handler context. The caller invokes this DDI to manually send I/O to the out-stream of this stream-bridge object.
 
 The returned target stream is only valid in the context of the input stream property handler. Note that the target stream may be already busy sending other I/O (such as state change) as directed by other ks property stream operations.
-
 
 ### Example
 
@@ -76,7 +75,6 @@ Example usage is shown below.
 
     targetStream = AcxStreamBridgeGetTargetStream(bridge, stream);
 ```
-
 
 ### ACX requirements
 
