@@ -48,7 +48,7 @@ The **ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT** function initializes a [ACX_FACT
 
 ### -param Parameters
 
-A pointer to a [ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT](ns-acxcircuit-acx_factory_circuit_remove_circuit.md) structure that will be intialized.
+A pointer to a [ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT](ns-acxcircuit-acx_factory_circuit_remove_circuit.md) structure that will be initialized.
 
 ## -remarks
 

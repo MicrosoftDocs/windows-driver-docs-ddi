@@ -48,7 +48,7 @@ The ACX_OBJECTBAG_CONFIG_INIT function initializes an [ACX_OBJECTBAG_CONFIG](ns-
 
 ### -param Config
 
-A pointer to the [ACX_OBJECTBAG_CONFIG](ns-acxmisc-acx_objectbag_config.md) structure that will be intialized.
+A pointer to the [ACX_OBJECTBAG_CONFIG](ns-acxmisc-acx_objectbag_config.md) structure that will be initialized.
 
 ## -remarks
 

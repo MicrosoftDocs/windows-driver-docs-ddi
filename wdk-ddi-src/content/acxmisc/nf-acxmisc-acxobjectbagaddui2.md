@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddUI2
 ms.date: 06/17/2022
 targetos: Windows
-description: The AcxObjectBagAddUI2 function adds an unsigned int two byte I2 (USHORT) value to an existing, intialized AcxObjectBag.
+description: The AcxObjectBagAddUI2 function adds an unsigned int two byte I2 (USHORT) value to an existing, initialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxmisc.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddUI2 function adds an unsigned int two byte I2 (USHORT) value to an existing, intialized AcxObjectBag.
+The AcxObjectBagAddUI2 function adds an unsigned int two byte I2 (USHORT) value to an existing, initialized AcxObjectBag.
 
 ## -parameters
 
 ### -param ObjectBag
 
-An intialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An initialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param ValueName
 
