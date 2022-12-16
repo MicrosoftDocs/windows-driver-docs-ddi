@@ -87,6 +87,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [ACX_PHYSICAL_CONNECTION_FLAGS](ne-acxpin-acx_physical_connection_flags.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

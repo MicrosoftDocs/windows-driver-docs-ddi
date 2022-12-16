@@ -132,4 +132,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxstreams.h header](index.md)
-

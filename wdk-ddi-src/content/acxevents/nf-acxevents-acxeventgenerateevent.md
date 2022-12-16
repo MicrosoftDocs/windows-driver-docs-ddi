@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxEventGenerateEvent
 tech.root: audio
 title: AcxEventGenerateEvent
-ms.date: 06/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxEventGenerateEvent function generates an event.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxevents.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

@@ -67,6 +67,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [ACX_PIN_TYPE](ne-acxpin-acx_pin_type.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

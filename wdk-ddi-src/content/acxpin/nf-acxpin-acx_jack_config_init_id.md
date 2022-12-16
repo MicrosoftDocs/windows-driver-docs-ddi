@@ -68,4 +68,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 - [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md)
 - [acxpin.h header](index.md)
-

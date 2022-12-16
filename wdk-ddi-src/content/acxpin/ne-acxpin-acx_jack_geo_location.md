@@ -119,6 +119,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [ACX_JACK_GEN_LOCATION](ne-acxpin-acx_jack_gen_location.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

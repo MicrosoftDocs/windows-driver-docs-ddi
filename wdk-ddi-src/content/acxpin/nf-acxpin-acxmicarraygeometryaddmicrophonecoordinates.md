@@ -74,6 +74,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 - [ACXMICARRAYGEOMETRY](ns-acxpin-acx_mic_array_geometry.md)
 - [ACX_MICROPHONE_COORDINATES](ns-acxpin-acx_microphone_coordinates.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

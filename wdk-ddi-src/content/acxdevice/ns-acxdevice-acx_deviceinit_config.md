@@ -87,4 +87,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 * [ACX_DEVICE_CONFIG_INIT](nf-acxdevice-acx_device_config_init.md)
 * [AcxDeviceInitInitialize](nf-acxdevice-acxdeviceinitinitialize.md)
 * [acxdevice.h header](index.md)
-

@@ -72,6 +72,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 - [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)
 - [ACX_PIN_CONFIG_INIT](nf-acxpin-acx_pin_config_init.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

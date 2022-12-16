@@ -64,4 +64,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 - [ACX_CIRCUIT_TEMPLATE_CONFIG](ns-acxmanager-acx_circuit_template_config.md)
 - [ACX_CIRCUIT_TEMPLATE_CONFIG_INIT](nf-acxmanager-acx_circuit_template_config_init.md)
 - [acxmanager.h header](index.md)
-

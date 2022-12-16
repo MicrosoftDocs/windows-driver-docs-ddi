@@ -64,4 +64,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 - [ACX_COMPOSITE_TEMPLATE_CONFIG](ns-acxmanager-acx_composite_template_config.md)
 - [ACX_COMPOSITE_TEMPLATE_CONFIG_INIT](nf-acxmanager-acx_composite_template_config_init.md)
 - [acxmanager.h header](index.md)
-

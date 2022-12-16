@@ -64,4 +64,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 * [acxdevice.h header](index.md)
-

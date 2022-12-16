@@ -66,4 +66,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 - [Representing Formats for IEC 61937 Transmissions](/windows/win32/coreaudio/representing-formats-for-iec-61937-transmissions)
 - [acxdataformat.h header](index.md)
-

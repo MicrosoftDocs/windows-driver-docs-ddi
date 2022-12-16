@@ -83,6 +83,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [ACX_MICROPHONE_TYPE](ne-acxpin-acx_microphone_type.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

@@ -69,4 +69,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 * [System Power States](/windows-hardware/drivers/kernel/system-power-states)
 * [PC_EXIT_LATENCY](../portcls/ne-portcls-_pc_exit_latency.md)
 * [acxdevice.h header](index.md)
-

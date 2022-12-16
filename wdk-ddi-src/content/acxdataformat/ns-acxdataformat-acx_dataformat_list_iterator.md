@@ -75,4 +75,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 - [ACX_DATAFORMAT_LIST_ITERATOR_INIT](nf-acxdataformat-acx_dataformat_list_iterator_init.md)
 - [ACX_DATAFORMAT_LIST_ITERATOR_CONFIG_FLAGS](ne-acxdataformat-acx_dataformat_list_iterator_config_flags.md)
 - [acxdataformat.h header](index.md)
-

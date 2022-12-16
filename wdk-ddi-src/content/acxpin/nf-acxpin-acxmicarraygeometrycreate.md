@@ -82,6 +82,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 - [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
 - [ACX_MICARRAYGEOMETRY_CONFIG](ns-acxpin-acx_micarraygeometry_config.md)
 - [ACX_MICARRAYGEOMETRY_CONFIG_INIT](nf-acxpin-acx_micarraygeometry_config_init.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

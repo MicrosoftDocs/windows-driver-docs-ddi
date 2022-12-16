@@ -92,4 +92,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

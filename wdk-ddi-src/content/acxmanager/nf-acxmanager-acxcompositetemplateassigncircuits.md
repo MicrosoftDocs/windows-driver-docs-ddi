@@ -75,4 +75,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 - [AcxCircuitTemplateCreate](nf-acxmanager-acxcircuittemplatecreate.md)
 - [AcxCompositeTemplateCreate](nf-acxmanager-acxcompositetemplatecreate.md)
 - [acxmanager.h header](index.md)
-

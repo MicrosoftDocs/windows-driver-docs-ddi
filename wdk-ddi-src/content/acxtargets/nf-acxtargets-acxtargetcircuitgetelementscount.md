@@ -73,4 +73,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxtargets.h header](index.md)
-

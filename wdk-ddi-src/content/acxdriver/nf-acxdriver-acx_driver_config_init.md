@@ -70,4 +70,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 * [ACX_DRIVER_CONFIG](ne-acxdriver-acx_driver_config_flags.md)
 * [AcxDriverInitialize](nf-acxdriver-acxdriverinitialize.md)
 * [acxdriver.h header](index.md)
-

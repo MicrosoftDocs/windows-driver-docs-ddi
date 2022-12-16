@@ -66,4 +66,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 - [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-waveformatex)
 - [acxdataformat.h header](index.md)
-

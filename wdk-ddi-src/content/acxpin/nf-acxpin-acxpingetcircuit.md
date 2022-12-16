@@ -65,6 +65,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [ACXCIRCUIT](../acxcircuit/index.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

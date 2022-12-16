@@ -81,4 +81,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 - [ACX_COMPOSITE_TEMPLATE_CONFIG](ns-acxmanager-acx_composite_template_config.md)
 - [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)
 - [acxmanager.h header](index.md)
-

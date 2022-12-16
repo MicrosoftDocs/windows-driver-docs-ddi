@@ -84,4 +84,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 - [ACX_DATAFORMAT_CONFIG_FLAGS](ne-acxdataformat-acx_dataformat_config_flags.md)
 - [ACX_DATAFORMAT_CONFIG_INIT_KS](nf-acxdataformat-acx_dataformat_config_init_ks.md)
 - [acxdataformat.h header](index.md)
-
