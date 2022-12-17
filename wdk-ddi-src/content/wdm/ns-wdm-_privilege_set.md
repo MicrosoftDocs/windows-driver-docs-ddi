@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._PRIVILEGE_SET
 title: PRIVILEGE_SET (wdm.h)
-description: The PRIVILEGE_SET structure specifies a set of security privileges. For more information, see the reference page for PRIVILEGE_SET in the Microsoft Windows SDK documentation.
+description: The PRIVILEGE_SET structure specifies a set of security privileges.
 old-location: kernel\privilege_set.htm
 tech.root: kernel
 ms.date: 07/15/2022
@@ -79,3 +79,5 @@ A privilege is used to control access to an object or service more strictly than
 ## -see-also
 
 [**SeAccessCheck**](nf-wdm-seaccesscheck.md)
+
+[**PRIVILEGE_SET** structure (winnt.h)](/windows/win32/api/winnt/ns-winnt-privilege_set)

@@ -51,7 +51,7 @@ Handle to a section object. This handle is created by a successful call to [ZwCr
 
 ### -param ProcessHandle [in]
 
-Handle to the object that represents the process that the view should be mapped into. Use the [ZwCurrentProcess](/windows-hardware/drivers/kernel/zwcurrentprocess) macro to specify the current process. The handle must have been opened with PROCESS_VM_OPERATION access (described in the Microsoft Windows SDK documentation).
+Handle to the object that represents the process that the view should be mapped into. Use the [ZwCurrentProcess](/windows-hardware/drivers/kernel/zwcurrentprocess) macro to specify the current process. The handle must have been opened with [**PROCESS_VM_OPERATION**](/windows/win32/procthread/process-security-and-access-rights) access.
 
 ### -param BaseAddress [in, out]
 
