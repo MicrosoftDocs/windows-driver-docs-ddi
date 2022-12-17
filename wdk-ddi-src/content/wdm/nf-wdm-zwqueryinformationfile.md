@@ -102,7 +102,7 @@ When **FileInformationClass** = **FileNameInformation**, the file name is return
 
 * If the **ObjectAttributes->RootDirectory** handle was opened by file ID (using the FILE_OPEN_BY_FILE_ID flag) in a call to **ZwCreateFile**, and subsequently the file was opened by **ZwCreateFile** relative to this root-directory handle, **ZwQueryInformationFile** returns the relative path.
 
-* However, if the user has **SeChangeNotifyPrivilege** (described in the Microsoft Windows SDK documentation), **ZwQueryInformationFile** returns the full path in all cases.
+* However, if the user has [**SeChangeNotifyPrivilege**](/windows/win32/secauthz/privilege-constants), **ZwQueryInformationFile** returns the full path in all cases.
 
 * If only the relative path is returned, the file name string will not begin with a backslash.
 
