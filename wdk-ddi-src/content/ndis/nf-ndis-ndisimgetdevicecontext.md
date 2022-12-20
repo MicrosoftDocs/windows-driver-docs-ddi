@@ -28,8 +28,9 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport - 
 api_location:
+ - Kernel32.dll
  - ndis.h
 api_name:
  - NdisIMGetDeviceContext
