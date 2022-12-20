@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - DllExport - 
+ - DllExport
 api_location:
  - Kernel32.dll
  - ndis.h
