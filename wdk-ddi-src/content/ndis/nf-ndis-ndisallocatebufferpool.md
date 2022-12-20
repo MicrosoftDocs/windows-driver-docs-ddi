@@ -43,17 +43,57 @@ helpviewer_keywords:
  - NdisAllocateBufferPool
 ---
 
+# NdisAllocateBufferPool
+
+
+
 ## -description
+
+This function returns a handle with which the caller can allocate buffer descriptors by calling the [NdisAllocateBuffer](nf-ndis-ndisallocatebuffer.md) function.
+
+    VOID NdisAllocateBufferPool(
+      PNDIS_STATUS Status,
+      PNDIS_HANDLE PoolHandle,
+      UINT NumberOfDescriptors
+    );
 
 ## -parameters
 
-### -param Status
+### -param Status [out]
 
-### -param PoolHandle
+Pointer to a caller-supplied variable in which this function returns the final status of the buffer pool allocation.
 
-### -param NumberOfDescriptors
+### -param PoolHandle [out]
+
+Pointer to a caller-supplied variable in which this function returns a handle to the buffer pool. This handle is a required parameter to the NDIS buffer functions that the driver calls subsequently.
+
+### -param NumberOfDescriptors [in]
+
+Specifies the number of buffer descriptors that the caller expects to allocate from the buffer pool without releasing any allocated buffer descriptors back to the pool.
+
+## Return Values
+
+Always returns NDIS\_STATUS\_SUCCESS.
 
 ## -remarks
 
+After this function returns, the driver calls the **NdisAllocateBuffer** function one or more times to allocate the buffer descriptors that it requires. A driver should call this function during initialization.
+
+The *NumberOfDescriptors* parameter specified by an NIC driver usually depends on the features of the NIC. For example, the driver of a bus master DMA NIC with ring buffers would specify at least a large enough *NumberOfDescriptors* to map the full ring.
+
+The *NumberOfDescriptors* specified in the call to this function is the effective limit on how many times the driver can call **NdisAllocateBuffer** before it must call the [NdisFreeBuffer](/previous-versions/windows/hardware/network/ms921059\(v=msdn.10\) function to return a buffer descriptor to the free list for the buffer pool.
+
+When a driver no longer needs the buffer pool that it allocated, it calls the [NdisFreeBufferPool](/previous-versions/windows/hardware/network/ms921060\(v=msdn.10\)) function to release the buffer pool handle.
+
+The driver must release any spin lock that it is holding before calling this function.
+
+All lower-level NDIS drivers must allocate all buffer descriptors that they chain to packets from a buffer pool. Only highest-level protocol drivers can be given OS-dependent descriptors mapping virtual memory ranges. If these memory descriptors are equivalent to NDIS buffer descriptors, a highest-level protocol can pass such descriptors as parameters to NDIS functions.
+
+## Requirements
+
+**OS Versions:** Windows CE .NET 4.0 and later.  
+**Header:** Ndis.h.
+
 ## -see-also
 
+[NdisAdjustBufferLength](ms920735\(v=msdn.10\).md) | [NdisAllocateBuffer](ms920736\(v=msdn.10\).md) | [NdisChainBufferAtBack](ms920842\(v=msdn.10\).md) | [NdisChainBufferAtFront](ms920912\(v=msdn.10\).md) | [NdisFreeBuffer](ms921059\(v=msdn.10\).md) | [NdisFreeBufferPool](ms921060\(v=msdn.10\).md) | [NdisQueryBuffer](https://msdn.microsoft.com/en-us/library/aa520905\(v=msdn.10\)) | [NdisReleaseSpinLock](https://msdn.microsoft.com/en-us/library/aa520935\(v=msdn.10\))
