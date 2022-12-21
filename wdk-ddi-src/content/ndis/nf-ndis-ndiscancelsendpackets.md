@@ -80,7 +80,8 @@ Transport protocols map IRPs received from higher-level software to NDIS packets
 
 The **NdisCancelSendPackets** function cancels packet transmissions on a single binding. To cancel packet transmissions on more than one binding, a protocol or intermediate driver must call the **NdisCancelSendPackets** function once for each binding.
 
-The protocol or intermediate driver must ensure that *NdisBindingHandle*, which represents the driver's binding to the adapter, remains valid for the duration of the call to **NdisCancelSendPackets**. That is, the protocol or intermediate driver must not call the [**NdisCloseAdapter**](ff550904\(v=vs.85\).md) function to close the binding before **NdisCancelSendPackets** returns.
+The protocol or intermediate driver must ensure that *NdisBindingHandle*, which represents the driver's binding to the adapter, remains valid for the duration of the call to **NdisCancelSendPackets**. That is, the protocol or intermediate driver must not call the [**NdisCloseAdapter**](nf-ndis-ndiscloseadapter.md)
+ function to close the binding before **NdisCancelSendPackets** returns.
 
 There is no guarantee that calling **NdisCancelSendPackets** will cancel the pending transmission of all packets with the specified cancellation ID. For example, if the next-lower driver to which the protocol or intermediate driver is bound does not provide a [**MiniportCancelSendPackets**](ff549359\(v=vs.85\).md) function, a call to **NdisCancelSendPackets** does nothing.
 

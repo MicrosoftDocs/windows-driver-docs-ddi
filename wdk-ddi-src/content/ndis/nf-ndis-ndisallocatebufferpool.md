@@ -81,9 +81,9 @@ After this function returns, the driver calls the **NdisAllocateBuffer** functio
 
 The *NumberOfDescriptors* parameter specified by an NIC driver usually depends on the features of the NIC. For example, the driver of a bus master DMA NIC with ring buffers would specify at least a large enough *NumberOfDescriptors* to map the full ring.
 
-The *NumberOfDescriptors* specified in the call to this function is the effective limit on how many times the driver can call **NdisAllocateBuffer** before it must call the [NdisFreeBuffer](/previous-versions/windows/hardware/network/ms921059\(v=msdn.10\) function to return a buffer descriptor to the free list for the buffer pool.
+The *NumberOfDescriptors* specified in the call to this function is the effective limit on how many times the driver can call **NdisAllocateBuffer** before it must call the [NdisFreeBuffer](ff551981\(v=vs.85\).md) function to return a buffer descriptor to the free list for the buffer pool.
 
-When a driver no longer needs the buffer pool that it allocated, it calls the [NdisFreeBufferPool](/previous-versions/windows/hardware/network/ms921060\(v=msdn.10\)) function to release the buffer pool handle.
+When a driver no longer needs the buffer pool that it allocated, it calls the [NdisFreeBufferPool](ms921060\(v=msdn.10\).md) function to release the buffer pool handle.
 
 The driver must release any spin lock that it is holding before calling this function.
 
