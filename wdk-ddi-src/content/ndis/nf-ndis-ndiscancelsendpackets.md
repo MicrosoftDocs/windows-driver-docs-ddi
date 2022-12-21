@@ -51,15 +51,6 @@ helpviewer_keywords:
 
 **NdisCancelSendPackets** cancels transmission of all packets marked with the specified cancellation identifier on the miniport driver identified by the binding handle.
 
-## Syntax
-
-```cpp
-VOID NdisCancelSendPackets(
-  _In_ NDIS_HANDLE NdisBindingHandle,
-  _In_ PVOID       CancelId
-);
-```
-
 ## -parameters
 
 ### -param NdisBindingHandle [in]
@@ -70,11 +61,9 @@ Specifies the handle returned by [**NdisOpenAdapter**](ff553673\(v=vs.85\).md) t
 
 Pointer to the cancellation identifier. This identifier specifies the packet or group of packets for which transmission is being canceled.
 
-## Return value
-
-None
-
 ## -remarks
+
+Return value: None
 
 Transport protocols map IRPs received from higher-level software to NDIS packets, which the protocols then send to lower-level drivers for transmission. If an IRP is canceled, a transport protocol can call the **NdisCancelSendPackets** function to cancel the pending transmission of the corresponding NDIS packet.
 
@@ -86,8 +75,6 @@ The protocol or intermediate driver must ensure that *NdisBindingHandle*, which 
 There is no guarantee that calling **NdisCancelSendPackets** will cancel the pending transmission of all packets with the specified cancellation ID. For example, if the next-lower driver to which the protocol or intermediate driver is bound does not provide a [**MiniportCancelSendPackets**](ff549359\(v=vs.85\).md) function, a call to **NdisCancelSendPackets** does nothing.
 
 In all cases, packets submitted for transmission are returned to the originating protocol or intermediate driver through a call to the driver's [**ProtocolSendComplete**](ff563256\(v=vs.85\).md) or [**ProtocolCoSendComplete**](ff563230\(v=vs.85\).md) function. Canceled send packets are returned with a completion status of NDIS\_STATUS\_ABORTED. The delay between calling **NdisCancelSendPackets** and the return of the canceled packets can vary and therefore cannot be exactly specified.
-
-## Requirements
 
 <table>
 <colgroup>
@@ -120,12 +107,7 @@ In all cases, packets submitted for transmission are returned to the originating
 
 ## -see-also
 
-[**MiniportCancelSendPackets**](ff549359\(v=vs.85\).md)
-
-[**NdisGeneratePartialCancelId**](https://msdn.microsoft.com/library/Ff562623)
-
-[**NDIS\_GET\_PACKET\_CANCEL\_ID**](ff556988\(v=vs.85\).md)
-
-[**NDIS\_SET\_PACKET\_CANCEL\_ID**](ff557195\(v=vs.85\).md)
-
-[Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=documentation%20feedback%20%5Bnetxp\\netxp%5D:%20ndiscancelsendpackets%20function%20%20release:%20\(6/19/2017\)&body=%0a%0aprivacy%20statement%0a%0awe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20we%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20while%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0a%0afor%20more%20info%20about%20microsoft's%20privacy%20policy,%20see%20https://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
+- [**MiniportCancelSendPackets**](ff549359\(v=vs.85\).md)
+- [**NdisGeneratePartialCancelId**](https://msdn.microsoft.com/library/Ff562623)
+- [**NDIS\_GET\_PACKET\_CANCEL\_ID**](ff556988\(v=vs.85\).md)
+- [**NDIS\_SET\_PACKET\_CANCEL\_ID**](ff557195\(v=vs.85\).md)

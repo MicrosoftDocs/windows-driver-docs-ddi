@@ -45,17 +45,9 @@ helpviewer_keywords:
 
 # NdisAllocateBufferPool
 
-
-
 ## -description
 
 This function returns a handle with which the caller can allocate buffer descriptors by calling the [NdisAllocateBuffer](nf-ndis-ndisallocatebuffer.md) function.
-
-    VOID NdisAllocateBufferPool(
-      PNDIS_STATUS Status,
-      PNDIS_HANDLE PoolHandle,
-      UINT NumberOfDescriptors
-    );
 
 ## -parameters
 
@@ -71,11 +63,9 @@ Pointer to a caller-supplied variable in which this function returns a handle to
 
 Specifies the number of buffer descriptors that the caller expects to allocate from the buffer pool without releasing any allocated buffer descriptors back to the pool.
 
-## Return Values
+## -remarks
 
 Always returns NDIS\_STATUS\_SUCCESS.
-
-## -remarks
 
 After this function returns, the driver calls the **NdisAllocateBuffer** function one or more times to allocate the buffer descriptors that it requires. A driver should call this function during initialization.
 
@@ -89,11 +79,16 @@ The driver must release any spin lock that it is holding before calling this fun
 
 All lower-level NDIS drivers must allocate all buffer descriptors that they chain to packets from a buffer pool. Only highest-level protocol drivers can be given OS-dependent descriptors mapping virtual memory ranges. If these memory descriptors are equivalent to NDIS buffer descriptors, a highest-level protocol can pass such descriptors as parameters to NDIS functions.
 
-## Requirements
-
 **OS Versions:** Windows CE .NET 4.0 and later.  
 **Header:** Ndis.h.
 
 ## -see-also
 
-[NdisAdjustBufferLength](ms920735\(v=msdn.10\).md) | [NdisAllocateBuffer](ms920736\(v=msdn.10\).md) | [NdisChainBufferAtBack](ms920842\(v=msdn.10\).md) | [NdisChainBufferAtFront](ms920912\(v=msdn.10\).md) | [NdisFreeBuffer](ms921059\(v=msdn.10\).md) | [NdisFreeBufferPool](ms921060\(v=msdn.10\).md) | [NdisQueryBuffer](https://msdn.microsoft.com/en-us/library/aa520905\(v=msdn.10\)) | [NdisReleaseSpinLock](https://msdn.microsoft.com/en-us/library/aa520935\(v=msdn.10\))
+- [NdisAdjustBufferLength](ms920735\(v=msdn.10\).md)
+- [NdisAllocateBuffer](ms920736\(v=msdn.10\).md)
+- [NdisChainBufferAtBack](ms920842\(v=msdn.10\).md)
+- [NdisChainBufferAtFront](ms920912\(v=msdn.10\).md)
+- [NdisFreeBuffer](ms921059\(v=msdn.10\).md)
+- [NdisFreeBufferPool](ms921060\(v=msdn.10\).md)
+- [NdisQueryBuffer](https://msdn.microsoft.com/library/aa520905\(v=msdn.10\))
+- [NdisReleaseSpinLock](https://msdn.microsoft.com/library/aa520935\(v=msdn.10\))

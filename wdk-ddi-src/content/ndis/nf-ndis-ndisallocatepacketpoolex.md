@@ -47,13 +47,7 @@ helpviewer_keywords:
 
 ## -description
 
-[Send Feedback](mailto:medfdbk@microsoft.com?subject=product:%20windows%20ce%20%7C%20version:%205.0%20fp%20nmd%20%7C%20release:%20platform%20builder%20%7C%20title:%20ndisallocatepacketpoolex%20%7C%20filename:%20wce50lrfndisallocatepacketpoolex.htm%20%7C%20built%20on:%20thursday,%20february%2002,%202006&body=we%20cannot%20answer%20technical%20support%20questions,%20but%20we%20welcome%20your%20suggestions%20and%20comments%20about%20the%20documentation.%20for%20technical%20support,%20see%20https://go.microsoft.com/fwlink/?linkid=3939.%20all%20feedback%20is%20monitored%20regularly%20by%20the%20windows%20ce%20documentation%20team%20and%20typically%20answered%20within%20two%20business%20days.%20%20if%20you%20have%20any%20questions%20about%20how%20the%20feedback%20process%20works,%20please%20see%20the%20topic%20questions%20about%20submitting%20feedback.)
-
 This function allocates and initializes a block of storage for a pool of packet descriptors.
-
-```cpp
-VOID NdisAllocatePacketPoolEx(PNDIS_STATUSStatus,PNDIS_HANDLEPoolHandle,UINTNumberOfDescriptors,UINTNumberOfOverflowDescriptors,UINTProtocolReservedLength);
-```
 
 ## -parameters
 
@@ -77,7 +71,7 @@ Specifies the number of packet descriptors reserved for an overflow situation, t
 
 Specifies the number of bytes to be allocated for the **ProtocolReserved** array of each packet descriptor. For packet descriptors to be used in receive indications, this parameter is 4\*size of (PVOID).
 
-## Return values
+## -remarks
 
 The following table shows the possible return values for this function.
 
@@ -100,8 +94,6 @@ The following table shows the possible return values for this function.
 </tbody>
 </table>
 
-## -remarks
-
 A successful call to **NdisAllocatePacketPoolEx** returns a handle to the packet pool, which the caller should save. Usually, the driver next calls **NdisAllocatePacket** one or more times with this handle to allocate a set of packet descriptors.
 
 **NdisAllocatePacketPoolEx** statically allocates only enough memory to accommodate the number of packet descriptors specified by *NumberOfDescriptors*. The total number of packet descriptors that can be allocated from the pool with calls to **NdisAllocatePacket** is the lesser of 0xFFFF or the sum of *NumberOfDescriptors* and *NumberOfOverflowDescriptors* originally passed to **NdisAllocatePacketPoolEx**. Overflow descriptors are allocated dynamically only during an overflow situation — that is, when the given *NumberOfDescriptors* have already been allocated and are still in use.
@@ -114,18 +106,20 @@ As packets sent or indicated are returned to the allocating driver, it can reuse
 
 When a driver no longer needs packet descriptors, it calls [NdisFreePacketPool](aa447956\(v=msdn.10\).md) to release the storage that it allocated with **NdisAllocatePacketPoolEx**.
 
-#### Requirements
-
 **OS Versions:** Windows CE .NET 4.0 and later.  
 **Header:** Ndis.h.  
 **Link Library:** Ndis.lib
 
 ## -see-also
 
-[NdisAllocatePacket](aa447907\(v=msdn.10\).md) | [NdisDprAllocatePacket](aa447938\(v=msdn.10\).md) | [NdisDprAllocatePacketNonInterlocked](aa447939\(v=msdn.10\).md) | [NdisFreePacketPool](aa447956\(v=msdn.10\).md) | [NdisMIndicateReceivePacket](aa448038\(v=msdn.10\).md) | [NDIS\_PACKET](ms904084\(v=msdn.10\).md) | [NDIS\_PACKET\_OOB\_DATA](ms904087\(v=msdn.10\).md) | [NdisReinitializePacket](ms904135\(v=msdn.10\).md) | [NdisSendPackets](ms904962\(v=msdn.10\).md) | [NdisUnchainBufferAtBack](ms905036\(v=msdn.10\).md) | [NdisUnchainBufferAtFront](ms905037\(v=msdn.10\).md)
-
-  
-
-[Send Feedback](mailto:medfdbk@microsoft.com?subject=product:%20windows%20ce%20%7C%20version:%205.0%20fp%20nmd%20%7C%20release:%20platform%20builder%20%7C%20title:%20ndisallocatepacketpoolex%20%7C%20filename:%20wce50lrfndisallocatepacketpoolex.htm%20%7C%20built%20on:%20thursday,%20february%2002,%202006&body=we%20cannot%20answer%20technical%20support%20questions,%20but%20we%20welcome%20your%20suggestions%20and%20comments%20about%20the%20documentation.%20for%20technical%20support,%20see%20https://go.microsoft.com/fwlink/?linkid=3939.%20all%20feedback%20is%20monitored%20regularly%20by%20the%20windows%20ce%20documentation%20team%20and%20typically%20answered%20within%20two%20business%20days.%20%20if%20you%20have%20any%20questions%20about%20how%20the%20feedback%20process%20works,%20please%20see%20the%20topic%20faqs%20about%20submitting%20feedback.) on this topic to the authors
-
-[Feedback FAQs](ms905217\(v=msdn.10\).md)
+- [NdisAllocatePacket](aa447907\(v=msdn.10\).md)
+- [NdisDprAllocatePacket](aa447938\(v=msdn.10\).md)
+- [NdisDprAllocatePacketNonInterlocked](aa447939\(v=msdn.10\).md)
+- [NdisFreePacketPool](aa447956\(v=msdn.10\).md)
+- [NdisMIndicateReceivePacket](aa448038\(v=msdn.10\).md)
+- [NDIS\_PACKET](ms904084\(v=msdn.10\).md)
+- [NDIS\_PACKET\_OOB\_DATA](ms904087\(v=msdn.10\).md)
+- [NdisReinitializePacket](ms904135\(v=msdn.10\).md)
+- [NdisSendPackets](ms904962\(v=msdn.10\).md)
+- [NdisUnchainBufferAtBack](ms905036\(v=msdn.10\).md)
+- [NdisUnchainBufferAtFront](ms905037\(v=msdn.10\).md)

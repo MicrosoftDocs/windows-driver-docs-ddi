@@ -43,25 +43,91 @@ helpviewer_keywords:
  - NdisCopyFromPacketToPacketSafe
 ---
 
+# NdisCopyFromPacketToPacket function
+
+
+
 ## -description
+**Note**   NDIS 5. *x* has been deprecated and is superseded by NDIS 6. *x*. For new NDIS driver development, see [Network Drivers Starting with Windows Vista](https://msdn.microsoft.com/library/Ff570021). For information about porting NDIS 5. *x* drivers to NDIS 6. *x*, see [Porting NDIS 5.x Drivers to NDIS 6.0](https://msdn.microsoft.com/library/Ff570059).
+
+**NdisCopyFromPacketToPacket** copies a specified range of data from one packet to another.
 
 ## -parameters
 
-### -param Destination
+### -param Destination [in]
 
-### -param DestinationOffset
+Pointer to the destination packet descriptor.
 
-### -param BytesToCopy
+### -param DestinationOffset [in]
 
-### -param Source
+Specifies the byte offset within the destination packet at which to begin writing the copied data.
 
-### -param SourceOffset
+### -param BytesToCopy [in]
 
-### -param BytesCopied
+Specifies the number of bytes to copy.
+
+### -param Source [in]
+
+Pointer to the source packet descriptor.
+
+### -param SourceOffset [in]
+
+Specifies the byte offset within the source packet at which to begin copying the data.
+
+### -param BytesCopied [out]
+
+Pointer to the caller-supplied variable in which this function returns the number of bytes actually copied. This number can be less than the value of *BytesToCopy* if the source packet runs out of data or the destination packet runs out of space.
 
 ### -param Priority
 
 ## -remarks
 
+Return value: None
+
+Drivers should call [**NdisCopyFromPacketToPacketSafe**](ff551071\(v=vs.85\).md) instead of **NdisCopyFromPacketToPacket**. NDIS 5.1 miniport drivers must call **NdisCopyFromPacketToPacketSafe** instead of **NdisCopyFromPacketToPacket**. Unlike **NdisCopyFromPacketToPacket**, **NdisCopyFromPacketToPacketSafe** does not cause a bug check if system resources are low or exhausted.
+
+The caller of **NdisCopyFromPacketToPacket** allocates the destination packet, if not the source packet as well. The packet descriptor of the destination packet should have enough chained buffer descriptors to receive the data.
+
+If the source packet runs out of data or the destination packet out of space before the specified number of bytes has been copied, the copy operation stops. In either case, **NdisCopyFromPacketToPacket** returns the number of bytes successfully copied from the source to the destination packet.
+
+**NdisCopyFromPacketToPacket** does not copy any out-of-band information associated with the given *Source* to the *Destination*. To copy this information, the driver can use pointers returned by [**NDIS\_OOB\_DATA\_FROM\_PACKET**](ff557084\(v=vs.85\).md) and then call [**NdisMoveMemory**](https://msdn.microsoft.com/library/Ff563625).
+
+The driver must release any spin lock it is holding before calling **NdisCopyFromPacketToPacket**.
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Target platform</p></td>
+<td><a href="https://go.microsoft.com/fwlink/p/?linkid=531356">Universal</a></td>
+</tr>
+<tr class="even">
+<td><p>Version</p></td>
+<td><p>Not supported for NDIS 6.0 drivers in Windows Vista. Use <a href="https://msdn.microsoft.com/library/Ff561718"><strong>NdisCopyFromNetBufferToNetBuffer</strong></a>instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP, but use NdisCopyFromPacketToPacketSafe instead.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Header</p></td>
+<td>Ndis.h (include Ndis.h)</td>
+</tr>
+<tr class="even">
+<td><p>Library</p></td>
+<td>Ndis.lib</td>
+</tr>
+<tr class="odd">
+<td><p>IRQL</p></td>
+<td><p>&lt;= DISPATCH_LEVEL.</p></td>
+</tr>
+</tbody>
+</table>
+
 ## -see-also
 
+- [**NdisAllocateBuffer**](ff550736\(v=vs.85\).md)
+- [**NdisAllocatePacket**](ff550774\(v=vs.85\).md)
+- [**NdisCopyFromPacketToPacketSafe**](ff551071\(v=vs.85\).md)
+- [**NdisMoveMemory**](https://msdn.microsoft.com/library/Ff563625)
+- [**NDIS\_OOB\_DATA\_FROM\_PACKET**](ff557084\(v=vs.85\).md)
+- [**NDIS\_PACKET\_OOB\_DATA**](ff557105\(v=vs.85\).md)
