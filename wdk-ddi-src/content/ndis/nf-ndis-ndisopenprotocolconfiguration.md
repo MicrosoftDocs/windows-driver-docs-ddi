@@ -65,7 +65,7 @@ Pointer to a caller-supplied variable in which this function returns the handle 
 
 Pointer to a caller-supplied NDIS\_STRING type containing a counted string, specified in the system-default character set. This counted string names the NDIS NIC driver, effectively the adapter, for which the per-adapter parameters key in the registry protocol section should be opened. For Windows 2000 and later protocols, this counted string contains Unicode characters. That is, for Windows 2000 and later, NDIS defines the NDIS\_STRING type as a [**UNICODE\_STRING**](https://msdn.microsoft.com/library/Ff564879) type.
 
-This pointer is the *SystemSpecific1* input parameter to the caller's [**ProtocolBindAdapter**](ff562465\(v=vs.85\).md) function.
+This pointer is the *SystemSpecific1* input parameter to the caller's [**ProtocolBindAdapter**](https://msdn.microsoft.com/library/ff562465\(v=vs.85\)) function.
 
 ## -remarks
 
@@ -92,5 +92,5 @@ Windows 2000 and later protocols call kernel-mode support routines to open their
 - [**NdisOpenConfigurationKeyByName**](https://msdn.microsoft.com/library/Ff563725)
 - [**NdisReadConfiguration**](https://msdn.microsoft.com/library/Ff564511)
 - [**NdisWriteConfiguration**](https://msdn.microsoft.com/library/Ff564659)
-- [**ProtocolBindAdapter**](ff562465\(v=vs.85\).md)
+- [**ProtocolBindAdapter**](https://msdn.microsoft.com/library/ff562465\(v=vs.85\))
 - [**UNICODE\_STRING**](https://msdn.microsoft.com/library/Ff564879)

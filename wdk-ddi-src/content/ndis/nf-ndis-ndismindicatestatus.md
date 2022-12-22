@@ -55,7 +55,7 @@ helpviewer_keywords:
 
 ### -param MiniportHandle [in]
 
-Specifies the handle originally input to [**MiniportInitialize**](ff550472\(v=vs.85\).md).
+Specifies the handle originally input to [**MiniportInitialize**](https://msdn.microsoft.com/library/ff550472\(v=vs.85\)).
 
 ### -param GeneralStatus [in]
 
@@ -71,9 +71,9 @@ Specifies the size in bytes of the buffer at *StatusBuffer*.
 
 ## -remarks
 
-When a miniport driver calls **NdisMIndicateStatus**, NDIS calls each bound protocol's [**ProtocolStatus**](ff563257\(v=vs.85\).md) function. This allows a bound protocol driver or, possibly, the configuration manager to log the change in status of an underlying NIC or to take corrective action. For example, a protocol might call [**NdisReset**](ff554691\(v=vs.85\).md), depending on the NDIS\_STATUS\_ *XXX* indicated.
+When a miniport driver calls **NdisMIndicateStatus**, NDIS calls each bound protocol's [**ProtocolStatus**](https://msdn.microsoft.com/library/ff563257\(v=vs.85\)) function. This allows a bound protocol driver or, possibly, the configuration manager to log the change in status of an underlying NIC or to take corrective action. For example, a protocol might call [**NdisReset**](https://msdn.microsoft.com/library/ff554691\(v=vs.85\)), depending on the NDIS\_STATUS\_ *XXX* indicated.
 
-When a miniport driver calls **NdisMIndicateStatus** to report a change in NIC status, NDIS can call the [*MiniportReset*](ff550502\(v=vs.85\).md) function to try restoring the NIC to a working condition. In these circumstances, NDIS can call bound protocols only with NDIS\_STATUS\_RESET\_START and later with NDIS\_STATUS\_RESET\_END, rather than with the *GeneralStatus* indicated by the miniport driver.
+When a miniport driver calls **NdisMIndicateStatus** to report a change in NIC status, NDIS can call the [*MiniportReset*](https://msdn.microsoft.com/library/ff550502\(v=vs.85\)) function to try restoring the NIC to a working condition. In these circumstances, NDIS can call bound protocols only with NDIS\_STATUS\_RESET\_START and later with NDIS\_STATUS\_RESET\_END, rather than with the *GeneralStatus* indicated by the miniport driver.
 
 **NdisMIndicateStatus** provides two pieces of information:
 
@@ -91,7 +91,7 @@ A miniport driver also can call **NdisMIndicateStatus** to indicate problems suc
 
 After such a change in status has been signaled with an indication, any associated thresholds or statistics counters remain unchanged.
 
-A miniport driver cannot call **NdisMIndicateStatus** in the context of its [**MiniportISR**](ff550478\(v=vs.85\).md), [**MiniportHalt**](ff549451\(v=vs.85\).md), or [**MiniportShutdown**](ff550533\(v=vs.85\).md) function. Only a deserialized miniport driver can call **NdisMIndicateStatus** in the context of its [**MiniportInitialize**](ff550472\(v=vs.85\).md) function.
+A miniport driver cannot call **NdisMIndicateStatus** in the context of its [**MiniportISR**](https://msdn.microsoft.com/library/ff550478\(v=vs.85\)), [**MiniportHalt**](https://msdn.microsoft.com/library/ff549451\(v=vs.85\)), or [**MiniportShutdown**](https://msdn.microsoft.com/library/ff550533\(v=vs.85\)) function. Only a deserialized miniport driver can call **NdisMIndicateStatus** in the context of its [**MiniportInitialize**](https://msdn.microsoft.com/library/ff550472\(v=vs.85\)) function.
 
 A miniport driver must release any spin lock that it is holding before calling **NdisMIndicateStatus**.
 
@@ -101,7 +101,7 @@ Serialized callers of **NdisMIndicateStatus** must run at IRQL = DISPATCH\_LEVEL
 
 When a miniport driver senses that the network connection has been lost, it should call **NdisMIndicateStatus** with NDIS\_STATUS\_MEDIA\_DISCONNECT. When the connection is restored, the miniport driver should call **NdisMIndicateStatus** with NDIS\_STATUS\_MEDIA\_CONNECT.
 
-**Note**   802.11 miniport drivers must follow the media status guidelines for wireless LANs when generating network connection indications. For more information about these guidelines, see [Media Status Indications for 802.11 Networks](ff549301\(v=vs.85\).md).
+**Note**   802.11 miniport drivers must follow the media status guidelines for wireless LANs when generating network connection indications. For more information about these guidelines, see [Media Status Indications for 802.11 Networks](https://msdn.microsoft.com/library/ff549301\(v=vs.85\)).
 
 **802.11 Wireless LAN Miniport Driver Calls to NdisMIndicateStatus**
 
@@ -112,13 +112,13 @@ When a miniport driver senses that the network connection has been lost, it shou
 
 The following types of WLAN-specific indications can be made by 802.11 miniport drivers with **NdisMIndicateStatus**:
 
-- [RSSI Indications](ff564096\(v=vs.85\).md)
-- [Authentication Indications](ff544134\(v=vs.85\).md)
-- [PMKID Candidate List Indications](ff562383\(v=vs.85\).md)
-- [Media Streaming Indications](ff549317\(v=vs.85\).md)
-- [Radio State Indications](ff563284\(v=vs.85\).md)
+- [RSSI Indications](https://msdn.microsoft.com/library/ff564096\(v=vs.85\))
+- [Authentication Indications](https://msdn.microsoft.com/library/ff544134\(v=vs.85\))
+- [PMKID Candidate List Indications](https://msdn.microsoft.com/library/ff562383\(v=vs.85\))
+- [Media Streaming Indications](https://msdn.microsoft.com/library/ff549317\(v=vs.85\))
+- [Radio State Indications](https://msdn.microsoft.com/library/ff563284\(v=vs.85\))
 
-For more information about these media specific indications, see [802.11 Media-Specific Status Indications](ff543911\(v=vs.85\).md).
+For more information about these media specific indications, see [802.11 Media-Specific Status Indications](https://msdn.microsoft.com/library/ff543911\(v=vs.85\)).
 
 **WAN Miniport Driver Calls to NdisMIndicateStatus**
 
@@ -135,21 +135,21 @@ The following four types of WAN-specific indications can be sent to bound protoc
 
 A WAN miniport driver makes a line-up indication whenever a new link becomes active. Until this occurs, the NIC will accept frames and let them succeed or fail, but it is unlikely that they will actually be received by any remote node. Until this occurs, protocols should reduce their timers and retry counts to quickly fail any outgoing connection attempts.
 
-The WAN miniport driver makes this indication with **NdisMIndicateStatus** before it returns from the [OID\_TAPI\_GET\_ID](ff561166\(v=vs.85\).md) request.
+The WAN miniport driver makes this indication with **NdisMIndicateStatus** before it returns from the [OID\_TAPI\_GET\_ID](https://msdn.microsoft.com/library/ff561166\(v=vs.85\)) request.
 
-The status code for the line-up indication is NDIS\_STATUS\_WAN\_LINE\_UP. The buffer at *StatusBuffer* is formatted as an [**NDIS\_MAC\_LINE\_UP**](ff557058\(v=vs.85\).md) structure.
+The status code for the line-up indication is NDIS\_STATUS\_WAN\_LINE\_UP. The buffer at *StatusBuffer* is formatted as an [**NDIS\_MAC\_LINE\_UP**](https://msdn.microsoft.com/library/ff557058\(v=vs.85\)) structure.
 
 **NDIS\_STATUS\_WAN\_LINE\_DOWN**
 
 A WAN miniport driver makes a line-down indication whenever a link goes down. When this occurs, bound protocols should reduce their timers and retry counts until the next line-up indication.
 
-The status code for the line-down indication is NDIS\_STATUS\_WAN\_LINE\_DOWN. The buffer at *StatusBuffer* is formatted as an [**NDIS\_MAC\_LINE\_DOWN**](ff557057\(v=vs.85\).md) structure.
+The status code for the line-down indication is NDIS\_STATUS\_WAN\_LINE\_DOWN. The buffer at *StatusBuffer* is formatted as an [**NDIS\_MAC\_LINE\_DOWN**](https://msdn.microsoft.com/library/ff557057\(v=vs.85\)) structure.
 
 **NDIS\_STATUS\_WAN\_FRAGMENT**
 
 A WAN miniport driver makes a fragment indication whenever it receives a partial packet from the remote node. When this occurs, a bound protocol should send frames to the remote node that will notify it of this situation, rather than waiting for a time-out to occur.
 
-The status code for the fragment indication is NDIS\_STATUS\_WAN\_FRAGMENT. The buffer at *StatusBuffer* is formatted as an [**NDIS\_MAC\_FRAGMENT**](ff557055\(v=vs.85\).md) structure.
+The status code for the fragment indication is NDIS\_STATUS\_WAN\_FRAGMENT. The buffer at *StatusBuffer* is formatted as an [**NDIS\_MAC\_FRAGMENT**](https://msdn.microsoft.com/library/ff557055\(v=vs.85\)) structure.
 
 NDISWAN monitors dropped packets by counting the number of fragment indications on each link.
 
@@ -162,13 +162,13 @@ A WAN miniport driver must use a *GeneralStatus* value of NDIS\_STATUS\_TAPI\_IN
 
 ## -see-also
 
-- [**MiniportInitialize**](ff550472\(v=vs.85\).md)
-- [*MiniportReset*](ff550502\(v=vs.85\).md)
-- [**NDIS\_MAC\_FRAGMENT**](ff557055\(v=vs.85\).md)
-- [**NDIS\_MAC\_LINE\_DOWN**](ff557057\(v=vs.85\).md)
-- [**NDIS\_MAC\_LINE\_UP**](ff557058\(v=vs.85\).md)
-- [**NdisMIndicateStatusComplete**](ff553540\(v=vs.85\).md)
-- [**NDIS\_TAPI\_EVENT**](ff558986\(v=vs.85\).md)
-- [**ProtocolStatus**](ff563257\(v=vs.85\).md)
-- [Media Status Indications for 802.11 Networks](ff549301\(v=vs.85\).md)
-- [802.11 Media-Specific Status Indications](ff543911\(v=vs.85\).md)
+- [**MiniportInitialize**](https://msdn.microsoft.com/library/ff550472\(v=vs.85\))
+- [*MiniportReset*](https://msdn.microsoft.com/library/ff550502\(v=vs.85\))
+- [**NDIS\_MAC\_FRAGMENT**](https://msdn.microsoft.com/library/ff557055\(v=vs.85\))
+- [**NDIS\_MAC\_LINE\_DOWN**](https://msdn.microsoft.com/library/ff557057\(v=vs.85\))
+- [**NDIS\_MAC\_LINE\_UP**](https://msdn.microsoft.com/library/ff557058\(v=vs.85\))
+- [**NdisMIndicateStatusComplete**](https://msdn.microsoft.com/library/ff553540\(v=vs.85\))
+- [**NDIS\_TAPI\_EVENT**](https://msdn.microsoft.com/library/ff558986\(v=vs.85\))
+- [**ProtocolStatus**](https://msdn.microsoft.com/library/ff563257\(v=vs.85\))
+- [Media Status Indications for 802.11 Networks](https://msdn.microsoft.com/library/ff549301\(v=vs.85\))
+- [802.11 Media-Specific Status Indications](https://msdn.microsoft.com/library/ff543911\(v=vs.85\))

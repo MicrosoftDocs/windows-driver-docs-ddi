@@ -125,34 +125,34 @@ The driver should initialize this structure with zeros before setting up the fol
   This member is reserved for system use.
 
 - **OpenAdapterCompleteHandler**  
-  Specifies the entry point of the caller's [**ProtocolOpenAdapterComplete**](ff563238\(v=vs.85\).md) function.
+  Specifies the entry point of the caller's [**ProtocolOpenAdapterComplete**](https://msdn.microsoft.com/library/ff563238\(v=vs.85\)) function.
 
 - **CloseAdapterCompleteHandler**  
-  Specifies the entry point of the caller's [**ProtocolCloseAdapterComplete**](ff562502\(v=vs.85\).md) function.
+  Specifies the entry point of the caller's [**ProtocolCloseAdapterComplete**](https://msdn.microsoft.com/library/ff562502\(v=vs.85\)) function.
 
 - **SendCompleteHandler**  
-  Specifies the entry point of the caller's [**ProtocolSendComplete**](ff563256\(v=vs.85\).md) function, if any.
+  Specifies the entry point of the caller's [**ProtocolSendComplete**](https://msdn.microsoft.com/library/ff563256\(v=vs.85\)) function, if any.
 
 - **TransferDataCompleteHandler**  
-  Specifies the entry point of the caller's [**ProtocolTransferDataComplete**](ff563259\(v=vs.85\).md) function, if any.
+  Specifies the entry point of the caller's [**ProtocolTransferDataComplete**](https://msdn.microsoft.com/library/ff563259\(v=vs.85\)) function, if any.
 
 - **ResetCompleteHandler**  
-  Specifies the entry point of the caller's [**ProtocolResetComplete**](ff563255\(v=vs.85\).md) function.
+  Specifies the entry point of the caller's [**ProtocolResetComplete**](https://msdn.microsoft.com/library/ff563255\(v=vs.85\)) function.
 
 - **RequestCompleteHandler**  
-  Specifies the entry point of the caller's [**ProtocolRequestComplete**](ff563254\(v=vs.85\).md) function.
+  Specifies the entry point of the caller's [**ProtocolRequestComplete**](https://msdn.microsoft.com/library/ff563254\(v=vs.85\)) function.
 
 - **ReceiveHandler**  
-  Specifies the entry point of the caller's [**ProtocolReceive**](ff563246\(v=vs.85\).md) function, if any.
+  Specifies the entry point of the caller's [**ProtocolReceive**](https://msdn.microsoft.com/library/ff563246\(v=vs.85\)) function, if any.
 
 - **ReceiveCompleteHandler**  
-  Specifies the entry point of the caller's [**ProtocolReceiveComplete**](ff563249\(v=vs.85\).md) function.
+  Specifies the entry point of the caller's [**ProtocolReceiveComplete**](https://msdn.microsoft.com/library/ff563249\(v=vs.85\)) function.
 
 - **StatusHandler**  
-  Specifies the entry point of the caller's [**ProtocolStatus**](ff563257\(v=vs.85\).md) function, if any.
+  Specifies the entry point of the caller's [**ProtocolStatus**](https://msdn.microsoft.com/library/ff563257\(v=vs.85\)) function, if any.
 
 - **StatusCompleteHandler**  
-  Specifies the entry point of the caller's [**ProtocolStatusComplete**](ff563258\(v=vs.85\).md) function.
+  Specifies the entry point of the caller's [**ProtocolStatusComplete**](https://msdn.microsoft.com/library/ff563258\(v=vs.85\)) function.
 
 - **Name**  
   An NDIS\_STRING type containing a caller-initialized counted string, in the system-default character set, naming the driver. For Windows 2000 and later drivers, this string contains Unicode characters. That is, for Windows 2000 and later, NDIS defines the NDIS\_STRING type as a [**UNICODE\_STRING**](https://msdn.microsoft.com/library/Ff564879) type. This string must match that specified in the registry (under *Services*) when the protocol was installed.
@@ -160,28 +160,28 @@ The driver should initialize this structure with zeros before setting up the fol
   **NdisRegisterProtocol** converts the supplied string to upper case, so a protocol driver writer cannot assume that changing the case of an already registered protocol name creates a unique name for the driver.
 
 - **ReceivePacketHandler**  
-  Specifies the entry point of the caller's [**ProtocolReceivePacket**](ff563251\(v=vs.85\).md) function, if any, or **NULL**. Protocols that bind to any NIC driver that supports multipacket receive indications should supply a *ProtocolReceivePacket* function to enhance their performance. However, a protocol that binds itself exclusively to connection-oriented miniports also can set this member to **NULL**.
+  Specifies the entry point of the caller's [**ProtocolReceivePacket**](https://msdn.microsoft.com/library/ff563251\(v=vs.85\)) function, if any, or **NULL**. Protocols that bind to any NIC driver that supports multipacket receive indications should supply a *ProtocolReceivePacket* function to enhance their performance. However, a protocol that binds itself exclusively to connection-oriented miniports also can set this member to **NULL**.
 
 - **BindAdapterHandler**  
-  Specifies the entry point of the caller's [**ProtocolBindAdapter**](ff562465\(v=vs.85\).md) function. Callers that set the value in the **MajorNdisVersion** member to 0x05 or 0x04 must supply a *ProtocolBindAdapter* function and support Plug and Play. NDIS intermediate drivers also must supply a *ProtocolBindAdapter* function, which allows those intermediate drivers to call [**NdisIMRegisterLayeredMiniport**](ff552205\(v=vs.85\).md) and to defer full driver initialization until underlying NIC drivers have initialized.
+  Specifies the entry point of the caller's [**ProtocolBindAdapter**](https://msdn.microsoft.com/library/ff562465\(v=vs.85\)) function. Callers that set the value in the **MajorNdisVersion** member to 0x05 or 0x04 must supply a *ProtocolBindAdapter* function and support Plug and Play. NDIS intermediate drivers also must supply a *ProtocolBindAdapter* function, which allows those intermediate drivers to call [**NdisIMRegisterLayeredMiniport**](nf-ndis-ndisimregisterlayeredminiport) and to defer full driver initialization until underlying NIC drivers have initialized.
 
 - **UnbindAdapterHandler**  
-  Specifies the entry point of the caller's [**ProtocolUnbindAdapter**](ff563260\(v=vs.85\).md) function. NDIS drivers that supply a *ProtocolBindAdapter* function also must supply a *ProtocolUnbindAdapter* function.
+  Specifies the entry point of the caller's [**ProtocolUnbindAdapter**](https://msdn.microsoft.com/library/ff563260\(v=vs.85\)) function. NDIS drivers that supply a *ProtocolBindAdapter* function also must supply a *ProtocolUnbindAdapter* function.
 
 - **PnPEventHandler**  
-  Specifies the entry point of the caller's [**ProtocolPnPEvent**](ff563243\(v=vs.85\).md) function, if any.
+  Specifies the entry point of the caller's [**ProtocolPnPEvent**](https://msdn.microsoft.com/library/ff563243\(v=vs.85\)) function, if any.
 
 - **UnloadHandler**  
   Specifies the entry point of the caller's **ProtocolUnbind** function, if any, or **NULL**.
 
 - **CoSendCompleteHandler**  
-  Specifies the entry point of the caller's [**ProtocolCoSendComplete**](ff563230\(v=vs.85\).md) function, which a connection-oriented client or call manager must supply. A connection-oriented client supplies a [**ProtocolSendComplete**](ff563256\(v=vs.85\).md) function if it also binds itself to connectionless miniports.
+  Specifies the entry point of the caller's [**ProtocolCoSendComplete**](https://msdn.microsoft.com/library/ff563230\(v=vs.85\)) function, which a connection-oriented client or call manager must supply. A connection-oriented client supplies a [**ProtocolSendComplete**](https://msdn.microsoft.com/library/ff563256\(v=vs.85\)) function if it also binds itself to connectionless miniports.
 
 - **CoStatusHandlerCoStatusHandler**  
-  Specifies the entry point of the caller's [**ProtocolCoStatus**](ff563235\(v=vs.85\).md) function, which a connection-oriented client or call manager must supply. A connection-oriented client supplies a [**ProtocolStatus**](ff563257\(v=vs.85\).md) function if it also binds itself to connectionless miniports.
+  Specifies the entry point of the caller's [**ProtocolCoStatus**](https://msdn.microsoft.com/library/ff563235\(v=vs.85\)) function, which a connection-oriented client or call manager must supply. A connection-oriented client supplies a [**ProtocolStatus**](https://msdn.microsoft.com/library/ff563257\(v=vs.85\)) function if it also binds itself to connectionless miniports.
 
 - **CoReceivePacketHandler**  
-  Specifies the entry point of the caller's [**ProtocolCoReceivePacket**](ff563224\(v=vs.85\).md) function, which a connection-oriented client or call manager must supply. A connection-oriented client supplies a [**ProtocolReceivePacket**](ff563251\(v=vs.85\).md) function and/or [**ProtocolReceive**](ff563246\(v=vs.85\).md) and [**ProtocolTransferDataComplete**](ff563259\(v=vs.85\).md) functions if it also binds itself to connectionless miniports.
+  Specifies the entry point of the caller's [**ProtocolCoReceivePacket**](https://msdn.microsoft.com/library/ff563224\(v=vs.85\)) function, which a connection-oriented client or call manager must supply. A connection-oriented client supplies a [**ProtocolReceivePacket**](ff563251\(v=vs.85\).md) function and/or [**ProtocolReceive**](https://msdn.microsoft.com/library/ff563246\(v=vs.85\).md) and [**ProtocolTransferDataComplete**](https://msdn.microsoft.com/library/ff563259\(v=vs.85\)) functions if it also binds itself to connectionless miniports.
 
 - **CoAfRegisterNotifyHandler**  
   Specifies the entry point of the caller's **ProtocolAfRegisterNotify** function, which a connection-oriented client must supply.
@@ -198,15 +198,15 @@ A protocol driver must specify an **MajorNdisVersion** of 0x05 (the current vers
 
 All protocols must be Plug and Play (PnP) capable. A protocol must therefore specify entry points for **BindAdapterHandler** and **UnbindAdapterHandler**. NDIS does not load a protocol that specifies **NULL** for these handlers.
 
-For the best possible performance, any protocol that will layer itself above a connectionless NIC driver that supports multipacket receives should provide a [**ProtocolReceivePacket**](ff563251\(v=vs.85\).md) function. Such a protocol driver also must provide a *ProtocolReceive* function. Any connectionless NIC driver that supports multipacket sends is also likely to indicate multipacket receives.
+For the best possible performance, any protocol that will layer itself above a connectionless NIC driver that supports multipacket receives should provide a [**ProtocolReceivePacket**](https://msdn.microsoft.com/library/ff563251\(v=vs.85\)) function. Such a protocol driver also must provide a *ProtocolReceive* function. Any connectionless NIC driver that supports multipacket sends is also likely to indicate multipacket receives.
 
-All connection-oriented protocols, whether clients or call managers, must register a [**ProtocolCoReceivePacket**](ff563224\(v=vs.85\).md) function. Client protocols that also bind themselves to connectionless NIC drivers provide *ProtocolReceivePacket* and [**ProtocolReceive**](ff563246\(v=vs.85\).md) functions as well. Connection-oriented protocols must register additional connection-oriented entry points with NDIS by calling either [**NdisClOpenAddressFamily**](ff550895\(v=vs.85\).md) for clients or [**NdisCmRegisterAddressFamily**](ff551006\(v=vs.85\).md) for call managers from their *ProtocolBindAdapter* functions.
+All connection-oriented protocols, whether clients or call managers, must register a [**ProtocolCoReceivePacket**](https://msdn.microsoft.com/library/ff563224\(v=vs.85\)) function. Client protocols that also bind themselves to connectionless NIC drivers provide *ProtocolReceivePacket* and [**ProtocolReceive**](https://msdn.microsoft.com/library/ff563246\(v=vs.85\).md) functions as well. Connection-oriented protocols must register additional connection-oriented entry points with NDIS by calling either [**NdisClOpenAddressFamily**](https://msdn.microsoft.com/library/ff550895\(v=vs.85\).md) for clients or [**NdisCmRegisterAddressFamily**](https://msdn.microsoft.com/library/ff551006\(v=vs.85\)) for call managers from their *ProtocolBindAdapter* functions.
 
 After a successful call to **NdisRegisterProtocol**, a driver cannot alter the set of *ProtocolXxx* functions it supplied.
 
 A successfully registered driver should save the handle returned at *NdisProtocolHandle*. It is a required parameter to other *NdisXxx* functions that the driver calls subsequently.
 
-After a successful call to **NdisRegisterProtocol**, the **DriverEntry** function of a PnP-aware or connection-oriented protocol returns control because such a driver's *ProtocolBindAdapter* function will be called subsequently one or more times to set up bindings to underlying NIC(s). Otherwise, the protocol driver can call [**NdisOpenAdapter**](ff553673\(v=vs.85\).md) to set up a binding to the underlying NIC driver or to layer itself above any NDIS driver that registered a set of NDIS *MiniportXxx* functions.
+After a successful call to **NdisRegisterProtocol**, the **DriverEntry** function of a PnP-aware or connection-oriented protocol returns control because such a driver's *ProtocolBindAdapter* function will be called subsequently one or more times to set up bindings to underlying NIC(s). Otherwise, the protocol driver can call [**NdisOpenAdapter**](nf-ndis-ndisopenadapter.md) to set up a binding to the underlying NIC driver or to layer itself above any NDIS driver that registered a set of NDIS *MiniportXxx* functions.
 
 ## Requirements
 
@@ -217,31 +217,31 @@ After a successful call to **NdisRegisterProtocol**, the **DriverEntry** functio
 
 - [**ANSI\_STRING**](https://msdn.microsoft.com/library/Ff540605)
 - [**DriverEntry of NDIS Protocol Drivers**](https://msdn.microsoft.com/library/Ff548821)
-- [**NdisClOpenAddressFamily**](ff550895\(v=vs.85\).md)
-- [**NdisCmRegisterAddressFamily**](ff551006\(v=vs.85\).md)
-- [**NdisDeregisterProtocol**](ff551909\(v=vs.85\).md)
-- [**NdisIMRegisterLayeredMiniport**](ff552205\(v=vs.85\).md)
+- [**NdisClOpenAddressFamily**](https://msdn.microsoft.com/library/ff550895\(v=vs.85\))
+- [**NdisCmRegisterAddressFamily**](https://msdn.microsoft.com/library/ff551006\(v=vs.85\))
+- [**NdisDeregisterProtocol**](nf-ndis-ndisderegisterprotocol.md)
+- [**NdisIMRegisterLayeredMiniport**](nf-ndis-ndisimregisterlayeredminiport.md)
 - [**NdisInitializeString**](https://msdn.microsoft.com/library/Ff562741)
 - [**NdisInitUnicodeString**](https://msdn.microsoft.com/library/Ff562745)
-- [**NdisMCmRegisterAddressFamily**](ff553429\(v=vs.85\).md)
-- [**NdisOpenAdapter**](ff553673\(v=vs.85\).md)
+- [**NdisMCmRegisterAddressFamily**](https://msdn.microsoft.com/library/ff553429\(v=vs.85\))
+- [**NdisOpenAdapter**](nf-ndis-ndisopenadapter.md)
 - [**NdisZeroMemory**](https://msdn.microsoft.com/library/Ff564698)
-- [**ProtocolBindAdapter**](ff562465\(v=vs.85\).md)
-- [**ProtocolCloseAdapterComplete**](ff562502\(v=vs.85\).md)
+- [**ProtocolBindAdapter**](https://msdn.microsoft.com/library/ff562465\(v=vs.85\))
+- [**ProtocolCloseAdapterComplete**](https://msdn.microsoft.com/library/ff562502\(v=vs.85\))
 - [**ProtocolCoAfRegisterNotify**](https://msdn.microsoft.com/library/Ff570251)
-- [**ProtocolCoReceivePacket**](ff563224\(v=vs.85\).md)
-- [**ProtocolCoSendComplete**](ff563230\(v=vs.85\).md)
-- [**ProtocolCoStatus**](ff563235\(v=vs.85\).md)
-- [**ProtocolOpenAdapterComplete**](ff563238\(v=vs.85\).md)
-- [**ProtocolPnPEvent**](ff563243\(v=vs.85\).md)
-- [**ProtocolReceive**](ff563246\(v=vs.85\).md)
-- [**ProtocolReceiveComplete**](ff563249\(v=vs.85\).md)
-- [**ProtocolReceivePacket**](ff563251\(v=vs.85\).md)
-- [**ProtocolRequestComplete**](ff563254\(v=vs.85\).md)
-- [**ProtocolResetComplete**](ff563255\(v=vs.85\).md)
-- [**ProtocolSendComplete**](ff563256\(v=vs.85\).md)
-- [**ProtocolStatus**](ff563257\(v=vs.85\).md)
-- [**ProtocolStatusComplete**](ff563258\(v=vs.85\).md)
-- [**ProtocolTransferDataComplete**](ff563259\(v=vs.85\).md)
-- [**ProtocolUnbindAdapter**](ff563260\(v=vs.85\).md)
+- [**ProtocolCoReceivePacket**](https://msdn.microsoft.com/library/ff563224\(v=vs.85\))
+- [**ProtocolCoSendComplete**](https://msdn.microsoft.com/library/ff563230\(v=vs.85\))
+- [**ProtocolCoStatus**](https://msdn.microsoft.com/library/ff563235\(v=vs.85\))
+- [**ProtocolOpenAdapterComplete**](https://msdn.microsoft.com/library/ff563238\(v=vs.85\))
+- [**ProtocolPnPEvent**](https://msdn.microsoft.com/library/ff563243\(v=vs.85\))
+- [**ProtocolReceive**](https://msdn.microsoft.com/library/ff563246\(v=vs.85\))
+- [**ProtocolReceiveComplete**](https://msdn.microsoft.com/library/ff563249\(v=vs.85\))
+- [**ProtocolReceivePacket**](https://msdn.microsoft.com/library/ff563251\(v=vs.85\))
+- [**ProtocolRequestComplete**](https://msdn.microsoft.com/library/ff563254\(v=vs.85\))
+- [**ProtocolResetComplete**](https://msdn.microsoft.com/library/ff563255\(v=vs.85\))
+- [**ProtocolSendComplete**](https://msdn.microsoft.com/library/ff563256\(v=vs.85\))
+- [**ProtocolStatus**](https://msdn.microsoft.com/library/ff563257\(v=vs.85\))
+- [**ProtocolStatusComplete**](https://msdn.microsoft.com/library/ff563258\(v=vs.85\))
+- [**ProtocolTransferDataComplete**](https://msdn.microsoft.com/library/ff563259\(v=vs.85\))
+- [**ProtocolUnbindAdapter**](https://msdn.microsoft.com/library/ff563260\(v=vs.85\))
 - [**UNICODE\_STRING**](https://msdn.microsoft.com/library/Ff564879)

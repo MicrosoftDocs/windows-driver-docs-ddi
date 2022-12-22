@@ -61,7 +61,7 @@ Pointer to a caller-supplied variable that is set on return from this function. 
   The requested operation completed successfully.
 
 - NDIS\_STATUS\_PENDING  
-  The request is being handled asynchronously, and the caller's [**ProtocolRequestComplete**](ff563254\(v=vs.85\).md) function will be called when it is completed.
+  The request is being handled asynchronously, and the caller's [**ProtocolRequestComplete**](https://msdn.microsoft.com/library/ff563254\(v=vs.85\)) function will be called when it is completed.
 
 - NDIS\_STATUS\_INVALID\_OID  
   The OID\_*XXX* code specified in the **Oid** member of the NDIS\_REQUEST-structured buffer at *NdisRequest* is invalid or unsupported by the underlying driver.
@@ -70,7 +70,7 @@ Pointer to a caller-supplied variable that is set on return from this function. 
   The value specified in the **InformationBufferLength** member of the NDIS\_REQUEST-structured buffer at *NdisRequest* does not match the requirements for the given OID\_*XXX* code. If the information buffer is too small, the **BytesNeeded** member contains the correct value for **InformationBufferLength** on return from **NdisRequest**.
 
 - NDIS\_STATUS\_INVALID\_DATA  
-  The data supplied at **InformationBuffer** in the given [**NDIS\_REQUEST**](ff557179\(v=vs.85\).md) structure is invalid for the given OID\_*XXX* code.
+  The data supplied at **InformationBuffer** in the given [**NDIS\_REQUEST**](https://msdn.microsoft.com/library/ff557179\(v=vs.85\)) structure is invalid for the given OID\_*XXX* code.
 
 - NDIS\_STATUS\_NOT\_SUPPORTED or NDIS\_STATUS\_NOT\_RECOGNIZED  
   The underlying driver does not support the requested operation.
@@ -85,14 +85,14 @@ Pointer to a caller-supplied variable that is set on return from this function. 
   The underlying driver failed the requested operation because a close is in progress.
 
 - NDIS\_STATUS\_RESET\_IN\_PROGRESS  
-  The underlying NIC driver cannot satisfy the request at this time because it is currently resetting the netcard. The caller's [**ProtocolStatus**](ff563257\(v=vs.85\).md) function was or will be called with NDIS\_STATUS\_RESET\_START to indicate that a reset is in progress. This return value does not necessarily indicate that the same request, submitted later, will be failed for the same reason.
+  The underlying NIC driver cannot satisfy the request at this time because it is currently resetting the netcard. The caller's [**ProtocolStatus**](https://msdn.microsoft.com/library/ff563257\(v=vs.85\)) function was or will be called with NDIS\_STATUS\_RESET\_START to indicate that a reset is in progress. This return value does not necessarily indicate that the same request, submitted later, will be failed for the same reason.
 
 - NDIS\_STATUS\_FAILURE  
   This value usually is a nonspecific default, returned when none of the more specific NDIS\_STATUS\_*XXX* caused the underlying driver to fail the request.
 
 ### -param NdisBindingHandle [in]
 
-Specifies the handle returned by [**NdisOpenAdapter**](ff553673\(v=vs.85\).md) that identifies the target NIC or the virtual adapter of the next-lower driver to which the caller is bound.
+Specifies the handle returned by [**NdisOpenAdapter**](nf-ndis-ndisopenadapter.md) that identifies the target NIC or the virtual adapter of the next-lower driver to which the caller is bound.
 
 ### -param NdisRequest [in]
 
@@ -122,7 +122,7 @@ That is, a driver can modify the packet at *NdisRequest* appropriately to correc
 
 The NDIS library maintains bindings for underlying miniport drivers. NDIS can return information for binding-specific queries if a given OID is associated with a system-defined medium type for which the system provides a filter library.
 
-For more information about the general and media-specific OIDs and their respective associated information buffers, see [NDIS Object Identifiers](ff557081\(v=vs.85\).md).
+For more information about the general and media-specific OIDs and their respective associated information buffers, see [NDIS Object Identifiers](https://msdn.microsoft.com/library/ff557081\(v=vs.85\)).
 
 ## Requirements
 
@@ -131,9 +131,9 @@ For more information about the general and media-specific OIDs and their respect
 
 ## -see-also
 
-- [**MiniportQueryInformation**](ff550490\(v=vs.85\).md)
-- [**MiniportSetInformation**](ff550530\(v=vs.85\).md)
-- [**NdisOpenAdapter**](ff553673\(v=vs.85\).md)
-- [**NDIS\_REQUEST**](ff557179\(v=vs.85\).md)
-- [**ProtocolRequestComplete**](ff563254\(v=vs.85\).md)
-- [**ProtocolStatus**](ff563257\(v=vs.85\).md)
+- [**MiniportQueryInformation**](https://msdn.microsoft.com/library/ff550490\(v=vs.85\))
+- [**MiniportSetInformation**](https://msdn.microsoft.com/library/ff550530\(v=vs.85\))
+- [**NdisOpenAdapter**](nf-ndis-ndisopenadapter.md)
+- [**NDIS\_REQUEST**](https://msdn.microsoft.com/library/ff557179\(v=vs.85\))
+- [**ProtocolRequestComplete**](https://msdn.microsoft.com/library/ff563254\(v=vs.85\))
+- [**ProtocolStatus**](https://msdn.microsoft.com/library/ff563257\(v=vs.85\))

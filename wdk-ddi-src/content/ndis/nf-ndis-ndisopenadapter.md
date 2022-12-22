@@ -61,7 +61,7 @@ Pointer to a caller-supplied variable that can be one of the following values on
   The requested binding is now set up so the caller can use the values returned at *NdisBindingHandle* and *SelectedMediumIndex* in subsequent calls to *NdisXxx*.
 
 - NDIS\_STATUS\_PENDING  
-  The requested operation is being handled asynchronously, and the caller's [**ProtocolOpenAdapterComplete**](ff563238\(v=vs.85\).md) function will be called when the open is completed.
+  The requested operation is being handled asynchronously, and the caller's [**ProtocolOpenAdapterComplete**](https://msdn.microsoft.com/library/ff563238\(v=vs.85\)) function will be called when the open is completed.
 
 - NDIS\_STATUS\_RESOURCES  
   The requested operation failed because NDIS could not allocate sufficient memory or initialize state it uses to track an open binding.
@@ -163,21 +163,21 @@ If it is supplied, the addressing information must remain valid until the open o
 
 ## -remarks
 
-A protocol driver calls **NdisOpenAdapter** from its [**ProtocolBindAdapter**](ff562465\(v=vs.85\).md) function. NDIS no longer supports calling **NdisOpenAdapter** from the **DriverEntry** function, which was an option available to legacy (V3.0) protocols. NDIS no longer supports V3.0 protocols. NDIS fails any attempt to call **NdisOpenAdapter** outside the context of *ProtocolBindAdapter*.
+A protocol driver calls **NdisOpenAdapter** from its [**ProtocolBindAdapter**](https://msdn.microsoft.com/library/ff562465\(v=vs.85\)) function. NDIS no longer supports calling **NdisOpenAdapter** from the **DriverEntry** function, which was an option available to legacy (V3.0) protocols. NDIS no longer supports V3.0 protocols. NDIS fails any attempt to call **NdisOpenAdapter** outside the context of *ProtocolBindAdapter*.
 
 The string at *AdapterName* remains valid only until **NdisOpenAdapter** returns control, even if it returns NDIS\_STATUS\_PENDING at *Status*.
 
-The variables at *NdisBindingHandle* and *SelectedMediumIndex* should be ignored until the [**ProtocolOpenAdapterComplete**](ff563238\(v=vs.85\).md) function is called if **NdisOpenAdapter** returns NDIS\_STATUS\_PENDING. Because these variables can remain invalid until *ProtocolOpenAdapterComplete* is called, they cannot be on the stack. Usually, these variables reside in the *ProtocolBindingContext* area since this handle is an input parameter to *ProtocolOpenAdapterComplete*.
+The variables at *NdisBindingHandle* and *SelectedMediumIndex* should be ignored until the [**ProtocolOpenAdapterComplete**](https://msdn.microsoft.com/library/ff563238\(v=vs.85\)) function is called if **NdisOpenAdapter** returns NDIS\_STATUS\_PENDING. Because these variables can remain invalid until *ProtocolOpenAdapterComplete* is called, they cannot be on the stack. Usually, these variables reside in the *ProtocolBindingContext* area since this handle is an input parameter to *ProtocolOpenAdapterComplete*.
 
 A protocol driver should keep the handle returned at *NdisProtocolHandle*. It is a required parameter to other *NdisXxx* functions that the driver calls subsequently. The supplied *ProtocolBindingContext* is an input parameter to the caller's *ProtocolXxx* functions, so protocols usually pass an *NdisProtocolHandle* pointer to a variable somewhere in the caller-allocated context area in their calls to **NdisOpenAdapter**.
 
-The caller uses the value returned at *SelectedMediumIndex* in subsequent calls to [**NdisRequest**](ff554681\(v=vs.85\).md) and/or [**NdisCoRequest**](ff551877\(v=vs.85\).md). The OIDs it sets in the request packet depend on the returned *NdisMediumXxx*. For example, if **NdisMediumAtm** is returned at *SelectedMediumIndex*, the protocol driver calls **NdisCoRequest** when specifying OID\_ATM\_ *XXX* or OID\_CO\_*XXX* codes, and **NdisRequest** when specifying OID\_GEN\_*XXX* codes.
+The caller uses the value returned at *SelectedMediumIndex* in subsequent calls to [**NdisRequest**](nf-ndis-ndisrequest.md) and/or [**NdisCoRequest**](https://msdn.microsoft.com/library/ff551877\(v=vs.85\)). The OIDs it sets in the request packet depend on the returned *NdisMediumXxx*. For example, if **NdisMediumAtm** is returned at *SelectedMediumIndex*, the protocol driver calls **NdisCoRequest** when specifying OID\_ATM\_ *XXX* or OID\_CO\_*XXX* codes, and **NdisRequest** when specifying OID\_GEN\_*XXX* codes.
 
-If **NdisMediumWan** is returned at *SelectedMediumIndex*, the protocol driver calls **NdisRequest** specifying [OID\_WAN\_MEDIUM\_SUBTYPE](ff561216\(v=vs.85\).md) in a query to determine which of the WAN media types the underlying driver uses.
+If **NdisMediumWan** is returned at *SelectedMediumIndex*, the protocol driver calls **NdisRequest** specifying [OID\_WAN\_MEDIUM\_SUBTYPE](https://msdn.microsoft.com/library/ff561216\(v=vs.85\)) in a query to determine which of the WAN media types the underlying driver uses.
 
 If a previously issued global query of OID\_NETWORK\_TYPE for wireless media indicates that the driver and underlying NIC support more than one **NdisMediumWirelessWan**-type medium, the protocol must select one of the supported media as soon as NDIS has set up the binding and before the protocol selects the header format.
 
-For more information about the general and medium-specific OIDs that protocol drivers use to negotiate with a just-bound NDIS driver, see [NDIS Object Identifiers](ff557081\(v=vs.85\).md).
+For more information about the general and medium-specific OIDs that protocol drivers use to negotiate with a just-bound NDIS driver, see [NDIS Object Identifiers](https://msdn.microsoft.com/library/ff557081\(v=vs.85\)).
 
 ## Requirements
 
@@ -188,22 +188,22 @@ For more information about the general and medium-specific OIDs that protocol dr
 
 - [**ANSI\_STRING**](https://msdn.microsoft.com/library/Ff540605)
 - [**DriverEntry of NDIS Protocol Drivers**](https://msdn.microsoft.com/library/Ff548821)
-- [**MiniportInitialize**](ff550472\(v=vs.85\).md)
-- [**MiniportQueryInformation**](ff550490\(v=vs.85\).md)
-- [**MiniportSendPackets**](ff550524\(v=vs.85\).md)
-- [**MiniportSetInformation**](ff550530\(v=vs.85\).md)
-- [**NdisCloseAdapter**](ff550904\(v=vs.85\).md)
-- [**NdisClOpenAddressFamily**](ff550895\(v=vs.85\).md)
-- [**NdisCoRequest**](ff551877\(v=vs.85\).md)
-- [**NdisCmRegisterAddressFamily**](ff551006\(v=vs.85\).md)
-- [**NdisIMInitializeDeviceInstance**](ff552161\(v=vs.85\).md)
-- [**NdisIMRegisterLayeredMiniport**](ff552205\(v=vs.85\).md)
-- [**NdisMIndicateReceivePacket**](ff553533\(v=vs.85\).md)
-- [**NDIS\_PACKET\_OOB\_DATA**](ff557105\(v=vs.85\).md)
-- [**NdisRegisterProtocol**](ff554653\(v=vs.85\).md)
-- [**NdisRequest**](ff554681\(v=vs.85\).md)
-- [**NdisSendPackets**](ff554715\(v=vs.85\).md)
-- [**ProtocolBindAdapter**](ff562465\(v=vs.85\).md)
-- [**ProtocolOpenAdapterComplete**](ff563238\(v=vs.85\).md)
-- [**ProtocolReceivePacket**](ff563251\(v=vs.85\).md)
+- [**MiniportInitialize**](https://msdn.microsoft.com/library/ff550472\(v=vs.85\))
+- [**MiniportQueryInformation**](https://msdn.microsoft.com/library/ff550490\(v=vs.85\))
+- [**MiniportSendPackets**](https://msdn.microsoft.com/library/ff550524\(v=vs.85\))
+- [**MiniportSetInformation**](https://msdn.microsoft.com/library/ff550530\(v=vs.85\))
+- [**NdisCloseAdapter**](nf-ndis-ndiscloseadapter.md)
+- [**NdisClOpenAddressFamily**](https://msdn.microsoft.com/library/ff550895\(v=vs.85\))
+- [**NdisCoRequest**](https://msdn.microsoft.com/library/ff551877\(v=vs.85\))
+- [**NdisCmRegisterAddressFamily**](https://msdn.microsoft.com/library/ff551006\(v=vs.85\))
+- [**NdisIMInitializeDeviceInstance**](https://msdn.microsoft.com/library/ff552161\(v=vs.85\))
+- [**NdisIMRegisterLayeredMiniport**](nf-ndis-ndisimregisterlayeredminiport.md)
+- [**NdisMIndicateReceivePacket**](https://msdn.microsoft.com/library/ff553533\(v=vs.85\))
+- [**NDIS\_PACKET\_OOB\_DATA**](https://msdn.microsoft.com/library/ff557105\(v=vs.85\))
+- [**NdisRegisterProtocol**](nf-ndis-ndisregisterprotocol.md)
+- [**NdisRequest**](nf-ndis-ndisrequest.md)
+- [**NdisSendPackets**](https://msdn.microsoft.com/library/ff554715\(v=vs.85\))
+- [**ProtocolBindAdapter**](https://msdn.microsoft.com/library/ff562465\(v=vs.85\))
+- [**ProtocolOpenAdapterComplete**](https://msdn.microsoft.com/library/ff563238\(v=vs.85\))
+- [**ProtocolReceivePacket**](https://msdn.microsoft.com/library/ff563251\(v=vs.85\))
 - [**UNICODE\_STRING**](https://msdn.microsoft.com/library/Ff564879)

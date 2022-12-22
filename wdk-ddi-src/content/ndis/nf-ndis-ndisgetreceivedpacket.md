@@ -55,11 +55,11 @@ helpviewer_keywords:
 
 ### -param NdisBindingHandle [in]
 
-Specifies the handle that was returned by [**NdisOpenAdapter**](ff553673\(v=vs.85\).md) that identifies the target NIC or the virtual adapter of the underlying driver to which the calling driver is bound.
+Specifies the handle that was returned by [**NdisOpenAdapter**](nf-ndis-ndisopenadapter.md) that identifies the target NIC or the virtual adapter of the underlying driver to which the calling driver is bound.
 
 ### -param MacContext [in]
 
-Specifies a context handle that the underlying driver associates with the packet received from the network. This handle was passed as an input parameter to the calling driver's [**ProtocolReceive**](ff563246\(v=vs.85\).md) function. This handle is opaque to the calling driver and reserved for use by the underlying driver that made the indication.
+Specifies a context handle that the underlying driver associates with the packet received from the network. This handle was passed as an input parameter to the calling driver's [**ProtocolReceive**](https://msdn.microsoft.com/library/ff563246\(v=vs.85\)) function. This handle is opaque to the calling driver and reserved for use by the underlying driver that made the indication.
 
 ## -returns
 
@@ -74,4 +74,4 @@ Several protocol or intermediate drivers can be bound to a single underlying NIC
 
 ## -see-also
 
-- [**NdisOpenAdapter**](ff553673\(v=vs.85\).md)
+- [**NdisOpenAdapter**](nf-ndis-ndisopenadapter.md)

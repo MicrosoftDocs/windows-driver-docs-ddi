@@ -53,7 +53,7 @@ This function returns the number of packet descriptors currently allocated from 
 
 ### -param PoolHandle [in]
 
-Specifies a handle returned by [NdisAllocatePacketPool](aa447908\(v=msdn.10\).md) or [NdisAllocatePacketPoolEx](aa447909\(v=msdn.10\).md).
+Specifies a handle returned by [NdisAllocatePacketPool](aa447908\(v=msdn.10\).md) or [NdisAllocatePacketPoolEx](nf-ndis-ndisallocatepacketpoolex.md).
 
 ## -returns
 
@@ -63,7 +63,7 @@ Returns the number of packet descriptors currently allocated from the given pack
 
 Before allocating packet descriptors for a send or receive indication, an NDIS driver can call **NdisPacketPoolUsage** to determine whether it has enough spare packet descriptors available for the send/receive, particularly if the driver has allocated more than one packet pool.
 
-An NDIS driver also can call this function to be sure that all descriptors have been returned to the given packet pool before it calls [NdisFreePacketPool](aa447956\(v=msdn.10\).md).
+An NDIS driver also can call this function to be sure that all descriptors have been returned to the given packet pool before it calls [NdisFreePacketPool](nf-ndis-ndisfreepacketpool.md).
 
 **OS Versions:** Windows CE .NET 4.0 and later.  
 
@@ -71,8 +71,8 @@ An NDIS driver also can call this function to be sure that all descriptors have 
 
 - [NdisAllocatePacket](aa447907\(v=msdn.10\).md)
 - [NdisAllocatePacketPool](aa447908\(v=msdn.10\).md)
-- [NdisAllocatePacketPoolEx](aa447909\(v=msdn.10\).md)
+- [NdisAllocatePacketPoolEx](nf-ndis-ndisallocatepacketpoolex.md)
 - [NdisDprAllocatePacket](aa447938\(v=msdn.10\).md)
 - [NdisDprAllocatePacketNonInterlocked](aa447939\(v=msdn.10\).md)
-- [NdisFreePacketPool](aa447956\(v=msdn.10\).md)
+- [NdisFreePacketPool](nf-ndis-ndisfreepacketpool.md)
 - [NdisPacketSize](aa448321\(v=msdn.10\).md)

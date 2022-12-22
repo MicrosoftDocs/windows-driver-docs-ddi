@@ -84,13 +84,13 @@ Pointer to the caller-supplied variable in which this function returns the numbe
 
 Return value: None
 
-Drivers should call [**NdisCopyFromPacketToPacketSafe**](ff551071\(v=vs.85\).md) instead of **NdisCopyFromPacketToPacket**. NDIS 5.1 miniport drivers must call **NdisCopyFromPacketToPacketSafe** instead of **NdisCopyFromPacketToPacket**. Unlike **NdisCopyFromPacketToPacket**, **NdisCopyFromPacketToPacketSafe** does not cause a bug check if system resources are low or exhausted.
+Drivers should call [**NdisCopyFromPacketToPacketSafe**](nf-ndis-ndiscopyfrompackettopacketsafe.md) instead of **NdisCopyFromPacketToPacket**. NDIS 5.1 miniport drivers must call **NdisCopyFromPacketToPacketSafe** instead of **NdisCopyFromPacketToPacket**. Unlike **NdisCopyFromPacketToPacket**, **NdisCopyFromPacketToPacketSafe** does not cause a bug check if system resources are low or exhausted.
 
 The caller of **NdisCopyFromPacketToPacket** allocates the destination packet, if not the source packet as well. The packet descriptor of the destination packet should have enough chained buffer descriptors to receive the data.
 
 If the source packet runs out of data or the destination packet out of space before the specified number of bytes has been copied, the copy operation stops. In either case, **NdisCopyFromPacketToPacket** returns the number of bytes successfully copied from the source to the destination packet.
 
-**NdisCopyFromPacketToPacket** does not copy any out-of-band information associated with the given *Source* to the *Destination*. To copy this information, the driver can use pointers returned by [**NDIS\_OOB\_DATA\_FROM\_PACKET**](ff557084\(v=vs.85\).md) and then call [**NdisMoveMemory**](https://msdn.microsoft.com/library/Ff563625).
+**NdisCopyFromPacketToPacket** does not copy any out-of-band information associated with the given *Source* to the *Destination*. To copy this information, the driver can use pointers returned by [**NDIS\_OOB\_DATA\_FROM\_PACKET**](https://msdn.microsoft.com/library/ff557084\(v=vs.85\)) and then call [**NdisMoveMemory**](https://msdn.microsoft.com/library/Ff563625).
 
 The driver must release any spin lock it is holding before calling **NdisCopyFromPacketToPacket**.
 
@@ -99,9 +99,9 @@ The driver must release any spin lock it is holding before calling **NdisCopyFro
 
 ## -see-also
 
-- [**NdisAllocateBuffer**](ff550736\(v=vs.85\).md)
-- [**NdisAllocatePacket**](ff550774\(v=vs.85\).md)
-- [**NdisCopyFromPacketToPacketSafe**](ff551071\(v=vs.85\).md)
+- [**NdisAllocateBuffer**](nf-ndis-ndisallocatebuffer.md)
+- [**NdisAllocatePacket**](https://msdn.microsoft.com/library/ff550774\(v=vs.85\))
+- [**NdisCopyFromPacketToPacketSafe**](nf-ndis-ndiscopyfrompackettopacketsafe.md)
 - [**NdisMoveMemory**](https://msdn.microsoft.com/library/Ff563625)
-- [**NDIS\_OOB\_DATA\_FROM\_PACKET**](ff557084\(v=vs.85\).md)
-- [**NDIS\_PACKET\_OOB\_DATA**](ff557105\(v=vs.85\).md)
+- [**NDIS\_OOB\_DATA\_FROM\_PACKET**](https://msdn.microsoft.com/library/ff557084\(v=vs.85\))
+- [**NDIS\_PACKET\_OOB\_DATA**](https://msdn.microsoft.com/library/ff557105\(v=vs.85\))

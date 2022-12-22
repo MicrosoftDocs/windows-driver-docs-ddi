@@ -55,7 +55,7 @@ helpviewer_keywords:
 
 ### -param NdisBindingHandle [in]
 
-Specifies the handle returned by [**NdisOpenAdapter**](ff553673\(v=vs.85\).md) that identifies the NIC or virtual adapter to which the cancellation applies.
+Specifies the handle returned by [**NdisOpenAdapter**](nf-ndis-ndisopenadapter.md) that identifies the NIC or virtual adapter to which the cancellation applies.
 
 ### -param CancelId [in]
 
@@ -70,16 +70,16 @@ The **NdisCancelSendPackets** function cancels packet transmissions on a single 
 The protocol or intermediate driver must ensure that *NdisBindingHandle*, which represents the driver's binding to the adapter, remains valid for the duration of the call to **NdisCancelSendPackets**. That is, the protocol or intermediate driver must not call the [**NdisCloseAdapter**](nf-ndis-ndiscloseadapter.md)
  function to close the binding before **NdisCancelSendPackets** returns.
 
-There is no guarantee that calling **NdisCancelSendPackets** will cancel the pending transmission of all packets with the specified cancellation ID. For example, if the next-lower driver to which the protocol or intermediate driver is bound does not provide a [**MiniportCancelSendPackets**](ff549359\(v=vs.85\).md) function, a call to **NdisCancelSendPackets** does nothing.
+There is no guarantee that calling **NdisCancelSendPackets** will cancel the pending transmission of all packets with the specified cancellation ID. For example, if the next-lower driver to which the protocol or intermediate driver is bound does not provide a [**MiniportCancelSendPackets**](https://msdn.microsoft.com/library/ff549359\(v=vs.85\)) function, a call to **NdisCancelSendPackets** does nothing.
 
-In all cases, packets submitted for transmission are returned to the originating protocol or intermediate driver through a call to the driver's [**ProtocolSendComplete**](ff563256\(v=vs.85\).md) or [**ProtocolCoSendComplete**](ff563230\(v=vs.85\).md) function. Canceled send packets are returned with a completion status of NDIS\_STATUS\_ABORTED. The delay between calling **NdisCancelSendPackets** and the return of the canceled packets can vary and therefore cannot be exactly specified.
+In all cases, packets submitted for transmission are returned to the originating protocol or intermediate driver through a call to the driver's [**ProtocolSendComplete**](https://msdn.microsoft.com/library/ff563256\(v=vs.85\)) or [**ProtocolCoSendComplete**](https://msdn.microsoft.com/library/ff563230\(v=vs.85\)) function. Canceled send packets are returned with a completion status of NDIS\_STATUS\_ABORTED. The delay between calling **NdisCancelSendPackets** and the return of the canceled packets can vary and therefore cannot be exactly specified.
 
 - Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
 - Version: Not supported for NDIS 6.0 drivers in Windows Vista. Use NdisCancelSendNetBufferLists instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.
 
 ## -see-also
 
-- [**MiniportCancelSendPackets**](ff549359\(v=vs.85\).md)
+- [**MiniportCancelSendPackets**](https://msdn.microsoft.com/library/ff549359\(v=vs.85\))
 - [**NdisGeneratePartialCancelId**](https://msdn.microsoft.com/library/Ff562623)
-- [**NDIS\_GET\_PACKET\_CANCEL\_ID**](ff556988\(v=vs.85\).md)
-- [**NDIS\_SET\_PACKET\_CANCEL\_ID**](ff557195\(v=vs.85\).md)
+- [**NDIS\_GET\_PACKET\_CANCEL\_ID**](https://msdn.microsoft.com/library/ff556988\(v=vs.85\))
+- [**NDIS\_SET\_PACKET\_CANCEL\_ID**](https://msdn.microsoft.com/library/ff557195\(v=vs.85\))

@@ -104,7 +104,7 @@ The caller of **NdisAllocatePacketPoolEx** should set *NumberOfDescriptors* to t
 
 As packets sent or indicated are returned to the allocating driver, it can reuse each packet descriptor after calling [NdisReinitializePacket](ms904135\(v=msdn.10\).md) and setting it up again with a chain of buffer descriptors, or the driver can call **NdisFreePacket** to return that packet to the free list. Reinitializing and reusing packets allocated from packet pool is far faster than freeing and, then, having to reallocate them again. Before a driver calls **NdisReinitializePacket** with a packet descriptor, it must save the pointers to buffer descriptors that are chained to the packet descriptor, because **NdisReinitializePacket** sets the head of the buffer chain to NULL.
 
-When a driver no longer needs packet descriptors, it calls [NdisFreePacketPool](aa447956\(v=msdn.10\).md) to release the storage that it allocated with **NdisAllocatePacketPoolEx**.
+When a driver no longer needs packet descriptors, it calls [(nf-ndis-ndisfreepacketpool.md) to release the storage that it allocated with **NdisAllocatePacketPoolEx**.
 
 **OS Versions:** Windows CE .NET 4.0 and later.  
 

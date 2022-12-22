@@ -55,7 +55,7 @@ helpviewer_keywords:
 
 ### -param MiniportAdapterHandle [in]
 
-Specifies the handle input to [**MiniportInitialize**](ff550472\(v=vs.85\).md).
+Specifies the handle input to [**MiniportInitialize**](https://msdn.microsoft.com/library/ff550472\(v=vs.85\)).
 
 ### -param MiniportAdapterContext [in]
 
@@ -63,7 +63,7 @@ Specifies a handle for a resident context area allocated by *MiniportInitialize*
 
 ### -param CheckForHangTimeInSeconds [in, optional]
 
-Specifies the interval, in seconds, at which NDIS should call the [**MiniportCheckForHang**](ff549367\(v=vs.85\).md) function. If a driver has not responded to an OID request or sent request within two successive calls to *MiniportCheckForHang*, NDIS can call the driver's [*MiniportReset*](ff550502\(v=vs.85\).md) function.
+Specifies the interval, in seconds, at which NDIS should call the [**MiniportCheckForHang**](https://msdn.microsoft.com/library/ff549367\(v=vs.85\)) function. If a driver has not responded to an OID request or sent request within two successive calls to *MiniportCheckForHang*, NDIS can call the driver's [*MiniportReset*](https://msdn.microsoft.com/library/ff550502\(v=vs.85\)) function.
 
 The actual interval that NDIS uses when calling *MiniportCheckForHang* is always a multiple of 2 seconds. For example, if you specifiy 5 seconds, the actual interval will be approximately 4 seconds.
 
@@ -94,18 +94,18 @@ Specifies a bitmask that can be set with one or more (ORed) of the following fla
   Set if NDIS should not call a Token Ring NIC driver's *MiniportReset* function if Token Ring errors are indicated.
 
 - NDIS\_ATTRIBUTE\_NO\_HALT\_ON\_SUSPEND  
-  Set if NDIS should not call a driver's [**MiniportHalt**](ff549451\(v=vs.85\).md) function before the system transitions to a low-power (sleeping) state. Drivers that rely on hardware-maintained state should not set this flag.
+  Set if NDIS should not call a driver's [**MiniportHalt**](https://msdn.microsoft.com/library/ff549451\(v=vs.85\)) function before the system transitions to a low-power (sleeping) state. Drivers that rely on hardware-maintained state should not set this flag.
 
   **Note**   Setting this flag disables the **Allow the computer to turn off this device to save power** check box in the Power Management Tab of the **Properties** dialog box for the network interface card (NIC). Power management is disabled even if the NIC is capable of power management.
 
 - NDIS\_ATTRIBUTE\_SURPRISE\_REMOVE\_OK  
-  Set if the driver can handle removal of its NIC without user notification. Such a driver exports a [**MiniportPnPEventNotify**](ff550487\(v=vs.85\).md) function. System support for NDIS\_ATTRIBUTE\_SURPRISE\_REMOVE\_OK is available in Windows XP and later operating systems.
+  Set if the driver can handle removal of its NIC without user notification. Such a driver exports a [**MiniportPnPEventNotify**](https://msdn.microsoft.com/library/ff550487\(v=vs.85\)) function. System support for NDIS\_ATTRIBUTE\_SURPRISE\_REMOVE\_OK is available in Windows XP and later operating systems.
 
 - NDIS\_ATTRIBUTE\_NOT\_CO\_NDIS  
   Set by a driver that can support both connection-oriented and connectionless devices to indicate that the device is a connectionless device. System support for NDIS\_ATTRIBUTE\_NOT\_CO\_NDIS is available in Windows XP and later operating systems.
 
 - NDIS\_ATTRIBUTE\_USES\_SAFE\_BUFFER\_APIS  
-  Set by a driver that uses [**NdisBufferVirtualAddressSafe**](ff550818\(v=vs.85\).md), [**NdisGetFirstBufferFromPacketSafe**](ff552066\(v=vs.85\).md), and [**NdisQueryBufferSafe**](ff554417\(v=vs.85\).md) exclusively to access system virtual addresses for send packet buffers. NDIS\_ATTRIBUTE\_USES\_SAFE\_BUFFER\_APIS is also set by a driver that exclusively uses physical addresses to access such buffers. Setting NDIS\_ATTRIBUTE\_USES\_SAFE\_BUFFER\_APIS can improve performance since the operating system will not have to map send packet buffers to system virtual addresses. System support for NDIS\_ATTRIBUTE\_USES\_SAFE\_BUFFER\_APIS is available in Windows XP and later versions.
+  Set by a driver that uses [**NdisBufferVirtualAddressSafe**](https://msdn.microsoft.com/library/ff550818\(v=vs.85\).md), [**NdisGetFirstBufferFromPacketSafe**](https://msdn.microsoft.com/library/ff552066\(v=vs.85\).md), and [**NdisQueryBufferSafe**](https://msdn.microsoft.com/library/ff554417\(v=vs.85\)) exclusively to access system virtual addresses for send packet buffers. NDIS\_ATTRIBUTE\_USES\_SAFE\_BUFFER\_APIS is also set by a driver that exclusively uses physical addresses to access such buffers. Setting NDIS\_ATTRIBUTE\_USES\_SAFE\_BUFFER\_APIS can improve performance since the operating system will not have to map send packet buffers to system virtual addresses. System support for NDIS\_ATTRIBUTE\_USES\_SAFE\_BUFFER\_APIS is available in Windows XP and later versions.
 
 - NDIS\_ATTRIBUTE\_DO\_NOT\_BIND\_TO\_ALL\_CO  
   Set by a CoNDIS miniport driver that does not provide TAPI services. Setting NDIS\_ATTRIBUTE\_DO\_NOT\_BIND\_TO\_ALL\_CO prevents NDIS from binding the miniport driver to the NDIS TAPI proxy driver (NDPROXY). By default, NDIS binds NDPROXY to all CoNDIS miniport drivers.
@@ -139,7 +139,7 @@ This parameter is irrelevant for intermediate drivers, which should pass zero fo
 
 ## -remarks
 
-A [**MiniportInitialize**](ff550472\(v=vs.85\).md) function must call **NdisMSetAttributesEx**(or [**NdisMSetAttributes**](ff553619\(v=vs.85\).md)) before calling any other *NdisMRegisterXxx* or *NdisXxx* function that depends on the information supplied to **NdisMSetAttributesEx**. For example, a NIC driver's call to [**NdisMAllocateMapRegisters**](ff552300\(v=vs.85\).md) will fail if *MiniportInitialize* has not yet called **NdisMSetAttributesEx** with the *AttributeFlags* set with NDIS\_ATTRIBUTE\_BUS\_MASTER.
+A [**MiniportInitialize**](https://msdn.microsoft.com/library/ff550472\(v=vs.85\).md) function must call **NdisMSetAttributesEx**(or [**NdisMSetAttributes**](https://msdn.microsoft.com/library/ff553619\(v=vs.85\).md)) before calling any other *NdisMRegisterXxx* or *NdisXxx* function that depends on the information supplied to **NdisMSetAttributesEx**. For example, a NIC driver's call to [**NdisMAllocateMapRegisters**](https://msdn.microsoft.com/library/ff552300\(v=vs.85\)) will fail if *MiniportInitialize* has not yet called **NdisMSetAttributesEx** with the *AttributeFlags* set with NDIS\_ATTRIBUTE\_BUS\_MASTER.
 
 Intermediate drivers must call **NdisMSetAttributesEx**, rather than **NdisMSetAttributes**, and they must set NDIS\_ATTRIBUTE\_INTERMEDIATE\_DRIVER in the *AttributeFlags*. Setting this flag causes NDIS to treat an intermediate driver as a full-duplex miniport driver, which prevents rare but intermittent deadlocks from occurring in the intermediate driver. Consequently, every intermediate driver must be capable of handling concurrent sends and indications.
 
@@ -148,11 +148,11 @@ Deserialized drivers also must call **NdisMSetAttributesEx**, and they must set 
 - Accepting all incoming send requests
 - Queuing incoming send packets internally if necessary, as, for example, if a deserialized NIC driver currently has insufficient resources available to transmit an incoming send packet immediately
 - Synchronizing access to its internal queue(s) as necessary among the driver's routines
-- Completing all requested sends asynchronously by subsequently calling [**NdisMSendComplete**](ff553613\(v=vs.85\).md) with each protocol-supplied packet descriptor passed in to its **Miniport(Co)Send(Packets)** function
+- Completing all requested sends asynchronously by subsequently calling [**NdisMSendComplete**](https://msdn.microsoft.com/library/ff553613\(v=vs.85\)) with each protocol-supplied packet descriptor passed in to its **Miniport(Co)Send(Packets)** function
 
-NDIS assumes that all connection-oriented miniports are deserialized drivers, regardless of the *AttributeFlags* that they pass to **NdisMSetAttributesEx**. That is, any driver that calls [**NdisMRegisterMiniport**](ff553602\(v=vs.85\).md) with 0x05 as the **MajorNdisVersion** must be a deserialized miniport driver.
+NDIS assumes that all connection-oriented miniports are deserialized drivers, regardless of the *AttributeFlags* that they pass to **NdisMSetAttributesEx**. That is, any driver that calls [**NdisMRegisterMiniport**](https://msdn.microsoft.com/library/ff553602\(v=vs.85\)) with 0x05 as the **MajorNdisVersion** must be a deserialized miniport driver.
 
-Serialized NIC drivers can call either of these functions from *MiniportInitialize*, but **NdisMSetAttributes** does not allow its caller to adjust the interval at which a NIC driver's [**MiniportCheckForHang**](ff549367\(v=vs.85\).md) and/or [*MiniportReset*](ff550502\(v=vs.85\).md) function(s) are called.
+Serialized NIC drivers can call either of these functions from *MiniportInitialize*, but **NdisMSetAttributes** does not allow its caller to adjust the interval at which a NIC driver's [**MiniportCheckForHang**](https://msdn.microsoft.com/library/ff549367\(v=vs.85\).md) and/or [*MiniportReset*](ff550502\(v=vs.85\)) function(s) are called.
 
 The value of *CheckForHangTimeInSeconds* determines the NDIS library's time-out interval on sends, if any, and requests that it holds queued to the caller. By default, NDIS times out queued sends (only for serialized drivers) and requests at twice the check-for-hang interval, after which it calls the *MiniportReset* function, unless the driver sets *AttributeFlags* with NDIS\_ATTRIBUTE\_IGNORE\_PACKET\_TIMEOUT and NDIS\_ATTRIBUTE\_IGNORE\_REQUEST\_TIMEOUT when it calls **NdisMSetAttributesEx**. Intermediate drivers should set these flags when calling **NdisMSetAttributesEx** because such a driver cannot determine or control when the underlying NIC driver will process sends and requests.
 
@@ -162,44 +162,44 @@ An intermediate driver must set the NDIS\_ATTRIBUTE\_NO\_HALT\_ON\_SUSPEND flag.
 
 A legacy miniport driver that manages a non-PnP-aware NIC can set the NDIS\_ATTRIBUTE\_NO\_HALT\_ON\_SUSPEND flag to prevent NDIS from halting the driver before the system transitions to a low-power state. If the miniport driver sets this flag, NDIS queries the miniport driver with [OID\_PNP\_CAPABILITIES](https://msdn.microsoft.com/library/Ff569774) even though the bus driver for the miniport driver's NIC may have indicated that the NIC is not PM-aware. The miniport driver must succeed the OID\_PNP\_CAPABILITIES request with NDIS\_STATUS\_SUCCESS. In the NDIS\_PM\_WAKE\_UP\_CAPABILITIES structure returned by this OID, the miniport driver must also specify a device power state of **NdisDeviceStateUnspecified** for each wake-up capability. When the system transitions to a low-power state, NDIS will not call such a miniport driver's *MiniportHalt* function. Before the system transitions to a lower-power state, the miniport driver must save any hardware context that it maintains. On receiving an [OID\_PNP\_SET\_POWER](https://msdn.microsoft.com/library/Ff569780) request to the D3 state, the miniport driver must set its NIC to the appropriate state for the low-power state. On receiving an OID\_PNP\_SET\_POWER request to the D0 state, the miniport driver must set its NIC to the appropriate state for the working state.
 
-A miniport driver that supports surprise removal of its device (removal without notification through the user interface) must set NDIS\_ATTRIBUTE\_SURPRISE\_REMOVE\_OK. Doing so causes NDIS to call the driver's [**MiniportPnPEventNotify**](ff550487\(v=vs.85\).md) function with *PnPEvent* set to **NdisDevicePnPEventSurpriseRemoved** when the miniport's device is removed without notification. In addition, setting NDIS\_ATTRIBUTE\_SURPRISE\_REMOVE\_OK suppresses the display of a warning dialog box that asks the user to stop the device before removing it.
+A miniport driver that supports surprise removal of its device (removal without notification through the user interface) must set NDIS\_ATTRIBUTE\_SURPRISE\_REMOVE\_OK. Doing so causes NDIS to call the driver's [**MiniportPnPEventNotify**](https://msdn.microsoft.com/library/ff550487\(v=vs.85\)) function with *PnPEvent* set to **NdisDevicePnPEventSurpriseRemoved** when the miniport's device is removed without notification. In addition, setting NDIS\_ATTRIBUTE\_SURPRISE\_REMOVE\_OK suppresses the display of a warning dialog box that asks the user to stop the device before removing it.
 
-A miniport driver that can support both connectionless and connection-oriented devices must set NDIS\_ATTRIBUTE\_NOT\_CO\_NDIS if its device is a connectionless device. Otherwise, NDIS will mistakenly assume that its device is connection-oriented since the driver registers connection-oriented miniport driver functions with [**NdisMRegisterMiniport**](ff553602\(v=vs.85\).md).
+A miniport driver that can support both connectionless and connection-oriented devices must set NDIS\_ATTRIBUTE\_NOT\_CO\_NDIS if its device is a connectionless device. Otherwise, NDIS will mistakenly assume that its device is connection-oriented since the driver registers connection-oriented miniport driver functions with [**NdisMRegisterMiniport**](https://msdn.microsoft.com/library/ff553602\(v=vs.85\)).
 
 In general, a NIC driver must call **NdisMSetAttributesEx** before it calls any *NdisXxx* function that claims hardware resources in the registry for its NIC, because NDIS must have the *AttributeFlags* value before such a call is made and because the driver usually needs the memory at *MiniportAdapterContext* to store information for these calls. This restriction implies that a NIC driver's *MiniportInitialize* function cannot call the following *NdisXxx* before it calls **NdisMSetAttributesEx**:
 
-- [**NdisMAllocateMapRegisters**](ff552300\(v=vs.85\).md) and [**NdisMAllocateSharedMemory**](https://msdn.microsoft.com/library/Ff562782)
+- [**NdisMAllocateMapRegisters**](https://msdn.microsoft.com/library/ff552300\(v=vs.85\)) and [**NdisMAllocateSharedMemory**](https://msdn.microsoft.com/library/Ff562782)
 - [**NdisMMapIoSpace**](https://msdn.microsoft.com/library/Ff563613) and, consequently, the *NdisReadRegisterXxx* and *NdisWriteRegisterXxx* functions
 - [**NdisMRegisterDmaChannel**](https://msdn.microsoft.com/library/Ff563646)
-- [**NdisMRegisterInterrupt**](ff553596\(v=vs.85\).md)
+- [**NdisMRegisterInterrupt**](https://msdn.microsoft.com/library/ff553596\(v=vs.85\))
 - [**NdisMRegisterIoPortRange**](https://msdn.microsoft.com/library/Ff563651) and, consequently, the *NdisRaw..PortXxx* functions
 
-However, before calling **NdisMSetAttributesEx**, any driver's *MiniportInitialize* function can call the *Ndis..Configuration* functions to retrieve configuration information installed in the registry. *MiniportInitialize* also can call the bus-type-specific *NdisReadXxx* functions, such as [**NdisReadPciSlotInformation**](ff554554\(v=vs.85\).md), as long as the installed registry entry for the driver's interface type matches the bus-type-specific *NdisReadXxxMiniportInitialize* calls.
+However, before calling **NdisMSetAttributesEx**, any driver's *MiniportInitialize* function can call the *Ndis..Configuration* functions to retrieve configuration information installed in the registry. *MiniportInitialize* also can call the bus-type-specific *NdisReadXxx* functions, such as [**NdisReadPciSlotInformation**](https://msdn.microsoft.com/library/ff554554\(v=vs.85\)), as long as the installed registry entry for the driver's interface type matches the bus-type-specific *NdisReadXxxMiniportInitialize* calls.
 
-The *MiniportAdapterContext* handle supplied to **NdisMSetAttributesEx** becomes an input parameter to all *MiniportXxx* functions that were registered, along with *MiniportInitialize*, in the call to [**NdisMRegisterMiniport**](ff553602\(v=vs.85\).md) or [**NdisIMRegisterLayeredMiniport**](ff552205\(v=vs.85\).md). Usually, this handle is a pointer to resident memory, allocated by *MiniportInitialize*, in which the driver maintains NIC-specific run-time state.
+The *MiniportAdapterContext* handle supplied to **NdisMSetAttributesEx** becomes an input parameter to all *MiniportXxx* functions that were registered, along with *MiniportInitialize*, in the call to [**NdisMRegisterMiniport**](https://msdn.microsoft.com/library/ff553602\(v=vs.85\).md) or [**NdisIMRegisterLayeredMiniport**](nf-ndis-ndisimregisterlayeredminiport). Usually, this handle is a pointer to resident memory, allocated by *MiniportInitialize*, in which the driver maintains NIC-specific run-time state.
 
 - Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
 - Version: Not supported for NDIS 6.0 drivers in Windows Vista. Use <a href="https://msdn.microsoft.com/library/Ff563672"><strong>NdisMSetMiniportAttributes</strong></a>instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.
 
 ## -see-also
 
-- [**MiniportInitialize**](ff550472\(v=vs.85\).md)
-- [**MiniportPnPEventNotify**](ff550487\(v=vs.85\).md)
-- [**NdisAllocateMemoryWithTag**](ff550767\(v=vs.85\).md)
-- [**NdisImmediateReadPciSlotInformation**](ff552167\(v=vs.85\).md)
-- [**NdisImmediateReadPortUchar**](ff552171\(v=vs.85\).md)
-- [**NdisImmediateReadPortUlong**](ff552174\(v=vs.85\).md)
-- [**NdisImmediateReadPortUshort**](ff552177\(v=vs.85\).md)
-- [**NdisImmediateReadSharedMemory**](ff552181\(v=vs.85\).md)
-- [**NdisIMRegisterLayeredMiniport**](ff552205\(v=vs.85\).md)
-- [**NdisMAllocateMapRegisters**](ff552300\(v=vs.85\).md)
+- [**MiniportInitialize**](https://msdn.microsoft.com/library/ff550472\(v=vs.85\))
+- [**MiniportPnPEventNotify**](https://msdn.microsoft.com/library/ff550487\(v=vs.85\))
+- [**NdisAllocateMemoryWithTag**](https://msdn.microsoft.com/library/ff550767\(v=vs.85\))
+- [**NdisImmediateReadPciSlotInformation**](https://msdn.microsoft.com/library/ff552167\(v=vs.85\))
+- [**NdisImmediateReadPortUchar**](https://msdn.microsoft.com/library/ff552171\(v=vs.85\))
+- [**NdisImmediateReadPortUlong**](https://msdn.microsoft.com/library/ff552174\(v=vs.85\))
+- [**NdisImmediateReadPortUshort**](https://msdn.microsoft.com/library/ff552177\(v=vs.85\))
+- [**NdisImmediateReadSharedMemory**](https://msdn.microsoft.com/library/ff552181\(v=vs.85\))
+- [**NdisIMRegisterLayeredMiniport**](nf-ndis-ndisimregisterlayeredminiport.md)
+- [**NdisMAllocateMapRegisters**](https://msdn.microsoft.com/library/ff552300\(v=vs.85\))
 - [**NdisMAllocateSharedMemory**](https://msdn.microsoft.com/library/Ff562782)
 - [**NdisMMapIoSpace**](https://msdn.microsoft.com/library/Ff563613)
-- [**NdisMPciAssignResources**](ff553562\(v=vs.85\).md)
+- [**NdisMPciAssignResources**](https://msdn.microsoft.com/library/ff553562\(v=vs.85\))
 - [**NdisMRegisterDmaChannel**](https://msdn.microsoft.com/library/Ff563646)
-- [**NdisMRegisterInterrupt**](ff553596\(v=vs.85\).md)
+- [**NdisMRegisterInterrupt**](https://msdn.microsoft.com/library/ff553596\(v=vs.85\))
 - [**NdisMRegisterIoPortRange**](https://msdn.microsoft.com/library/Ff563651)
-- [**NdisMRegisterMiniport**](ff553602\(v=vs.85\).md)
-- [**NdisOpenConfiguration**](ff553676\(v=vs.85\).md)
-- [**NdisReadEisaSlotInformation**](ff554540\(v=vs.85\).md)
-- [**NdisReadEisaSlotInformationEx**](ff554544\(v=vs.85\).md)
+- [**NdisMRegisterMiniport**](https://msdn.microsoft.com/library/ff553602\(v=vs.85\))
+- [**NdisOpenConfiguration**](https://msdn.microsoft.com/library/ff553676\(v=vs.85\))
+- [**NdisReadEisaSlotInformation**](https://msdn.microsoft.com/library/ff554540\(v=vs.85\))
+- [**NdisReadEisaSlotInformationEx**](https://msdn.microsoft.com/library/ff554544\(v=vs.85\))

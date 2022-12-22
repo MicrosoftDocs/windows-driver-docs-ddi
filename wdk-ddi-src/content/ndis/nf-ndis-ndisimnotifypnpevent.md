@@ -55,7 +55,7 @@ helpviewer_keywords:
 
 ### -param MiniportHandle [in]
 
-The handle input to [**MiniportInitialize**](ff550472\(v=vs.85\).md). This handle represents the miniport driver affected by the Plug and Play or Power Management event passed to the caller's [**ProtocolPnPEvent**](ff563243\(v=vs.85\).md) function.
+The handle input to [**MiniportInitialize**](https://msdn.microsoft.com/library/ff550472\(v=vs.85\)). This handle represents the miniport driver affected by the Plug and Play or Power Management event passed to the caller's [**ProtocolPnPEvent**](ff563243\(v=vs.85\)) function.
 
 ### -param NetPnPEvent [in]
 
@@ -92,7 +92,7 @@ The return value is significant only when the propagated event is a **NetEventQu
 
 ## -remarks
 
-An NDIS intermediate driver calls **NdisIMNotifyPnPEvent** in the context of the driver's [**ProtocolPnPEvent**](ff563243\(v=vs.85\).md) function to propagate notification of a Plug and Play or Power Management event to the overlying driver.
+An NDIS intermediate driver calls **NdisIMNotifyPnPEvent** in the context of the driver's [**ProtocolPnPEvent**](https://msdn.microsoft.com/library/ff563243\(v=vs.85\)) function to propagate notification of a Plug and Play or Power Management event to the overlying driver.
 
 If the propagated event is a **NetEventQueryPower** or a **NetEventQueryRemove**, the intermediate driver must check the NDIS\_STATUS value returned by **NdisIMNotifyPnPEvent**. If the returned status is NDIS\_STATUS\_SUCCESS, the intermediate driver should handle the event internally as usual and then return NDIS\_STATUS\_SUCCESS from its *ProtocolPnPEvent* function. If the returned status is NDIS\_STATUS\_FAILURE, the intermediate driver should return NDIS\_STATUS\_FAILURE from its *ProtocolPnPEvent* without further processing.
 
@@ -112,4 +112,4 @@ System support for **NdisIMNotifyPnPEvent** is available in Windows XP and later
 ## -see-also
 
 - [**NET\_PNP\_EVENT**](https://msdn.microsoft.com/library/Ff568751)
-- [**ProtocolPnPEvent**](ff563243\(v=vs.85\).md)
+- [**ProtocolPnPEvent**](https://msdn.microsoft.com/library/ff563243\(v=vs.85\))

@@ -49,7 +49,7 @@ helpviewer_keywords:
 
 **Note**   NDIS 5. *x* has been deprecated and is superseded by NDIS 6. *x*. For new NDIS driver development, see [Network Drivers Starting with Windows Vista](https://msdn.microsoft.com/library/Ff570021). For information about porting NDIS 5. *x* drivers to NDIS 6. *x*, see [Porting NDIS 5.x Drivers to NDIS 6.0](https://msdn.microsoft.com/library/Ff570059).
 
-**NdisCloseAdapter** releases the binding established and the resources allocated when the protocol called [**NdisOpenAdapter**](ff553673\(v=vs.85\).md).
+**NdisCloseAdapter** releases the binding established and the resources allocated when the protocol called [**NdisOpenAdapter**](nf-ndis-ndisopenadapter.md).
 
 ## -parameters
 
@@ -61,7 +61,7 @@ Pointer to a caller-supplied variable in which this function returns the status 
   The binding was closed and all resources pertaining to that binding have been released.
 
 - NDIS\_STATUS\_PENDING  
-  A close-adapter request is being handled asynchronously, and the caller's [**ProtocolCloseAdapterComplete**](ff562502\(v=vs.85\).md) function will be called when the close operation is done.
+  A close-adapter request is being handled asynchronously, and the caller's [**ProtocolCloseAdapterComplete**](https://msdn.microsoft.com/library/ff562502\(v=vs.85\)) function will be called when the close operation is done.
 
 ### -param NdisBindingHandle [in]
 
@@ -71,7 +71,7 @@ Specifies the handle returned by **NdisOpenAdapter** that identifies the virtual
 
 Return value: None
 
-A protocol driver typically calls **NdisCloseAdapter** from its [**ProtocolUnbindAdapter**](ff563260\(v=vs.85\).md) function. It can also call **NdisCloseAdapter** from its [**ProtocolBindAdapter**](ff562465\(v=vs.85\).md) function, for example, if it failed to set an OID value after calling [**NdisOpenAdapter**](ff553673\(v=vs.85\).md) to set up a binding.
+A protocol driver typically calls **NdisCloseAdapter** from its [**ProtocolUnbindAdapter**](https://msdn.microsoft.com/library/ff563260\(v=vs.85\)) function. It can also call **NdisCloseAdapter** from its [**ProtocolBindAdapter**](https://msdn.microsoft.com/library/ff562465\(v=vs.85\)) function, for example, if it failed to set an OID value after calling [**NdisOpenAdapter**](nf-ndis-ndisopenadapter) to set up a binding.
 
 As soon as a protocol calls **NdisCloseAdapter**, the handle at *NdisBindingHandle* should be considered invalid by the caller. It is a programming error to pass this handle in any subsequent call to an *NdisXxx* function.
 
@@ -80,7 +80,7 @@ As soon as a protocol calls **NdisCloseAdapter**, the handle at *NdisBindingHand
 
 ## -see-also
 
-- [**NdisCompleteUnbindAdapter**](ff551048\(v=vs.85\).md)
-- [**NdisOpenAdapter**](ff553673\(v=vs.85\).md)
-- [**ProtocolCloseAdapterComplete**](ff562502\(v=vs.85\).md)
-- [**ProtocolUnbindAdapter**](ff563260\(v=vs.85\).md)
+- [**NdisCompleteUnbindAdapter**](https://msdn.microsoft.com/library/ff551048\(v=vs.85\))
+- [**NdisOpenAdapter**](nf-ndis-ndisopenadapter.md)
+- [**ProtocolCloseAdapterComplete**](https://msdn.microsoft.com/library/ff562502\(v=vs.85\))
+- [**ProtocolUnbindAdapter**](https://msdn.microsoft.com/library/ff563260\(v=vs.85\))

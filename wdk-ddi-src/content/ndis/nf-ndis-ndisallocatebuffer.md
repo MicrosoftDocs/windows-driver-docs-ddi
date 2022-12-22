@@ -87,6 +87,6 @@ All lower-level NDIS drivers must allocate all buffer descriptors that they chai
 
 ## -see-also
 
-- [**NdisAllocateBufferPool**](ff550741\(v=vs.85\).md)
-- [**NdisAllocateMemoryWithTag**](ff550767\(v=vs.85\).md)
-- [**NdisFreeBuffer**](ff551981\(v=vs.85\).md)
+- [**NdisAllocateBufferPool**](nf-ndis-ndisallocatebufferpool.md)
+- [**NdisAllocateMemoryWithTag**](https://msdn.microsoft.com/library/ff550767\(v=vs.85\))
+- [**NdisFreeBuffer**](https://msdn.microsoft.com/library/ff551981\(v=vs.85\))

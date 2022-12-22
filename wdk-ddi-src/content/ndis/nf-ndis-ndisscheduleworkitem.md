@@ -49,7 +49,7 @@ helpviewer_keywords:
 
 **Note**   NDIS 5. *x* has been deprecated and is superseded by NDIS 6. *x*. For new NDIS driver development, see [Network Drivers Starting with Windows Vista](https://msdn.microsoft.com/library/Ff570021). For information about porting NDIS 5. *x* drivers to NDIS 6. *x*, see [Porting NDIS 5.x Drivers to NDIS 6.0](https://msdn.microsoft.com/library/Ff570059).
 
-*NdisScheduleWorkItem* inserts a given work item into a queue from which a system worker thread removes the item and gives control to the callback function that the driver previously supplied to [**NdisInitializeWorkItem**](ff552258\(v=vs.85\).md).
+*NdisScheduleWorkItem* inserts a given work item into a queue from which a system worker thread removes the item and gives control to the callback function that the driver previously supplied to [**NdisInitializeWorkItem**](https://msdn.microsoft.com/library/ff552258\(v=vs.85\)).
 
 ## -parameters
 
@@ -78,6 +78,6 @@ A serialized miniport driver should never attempt to queue a worker-thread callb
 
 ## -see-also
 
-- [**NdisAllocateMemoryWithTag**](ff550767\(v=vs.85\).md)
+- [**NdisAllocateMemoryWithTag**](https://msdn.microsoft.com/library/ff550767\(v=vs.85\))
 - [**NdisFreeMemory**](https://msdn.microsoft.com/library/Ff562577)
-- [**NdisInitializeWorkItem**](ff552258\(v=vs.85\).md)
+- [**NdisInitializeWorkItem**](https://msdn.microsoft.com/library/ff552258\(v=vs.85\))

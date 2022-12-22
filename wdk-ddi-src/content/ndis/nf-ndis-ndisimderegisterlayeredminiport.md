@@ -55,13 +55,13 @@ helpviewer_keywords:
 
 ### -param DriverHandle [in]
 
-Specifies the handle returned by [**NdisIMRegisterLayeredMiniport**](ff552205\(v=vs.85\).md).
+Specifies the handle returned by [**NdisIMRegisterLayeredMiniport**](nf-ndis-ndisimregisterlayeredminiport.md).
 
 ## -remarks
 
 An intermediate driver that called **NdisIMRegisterLayeredMiniport** from its **DriverEntry** routine must call **NdisIMDeregisterLayeredMiniport** when it cleans up the resources it allocated before it is unloaded. If the intermediate driver encounters a fatal initialization error within its **DriverEntry** routine, such as an inability to obtain system resources, it must call **NdisIMDeregisterLayeredMiniport**.
 
-The **NdisIMDeregisterLayeredMiniport** function is the reciprocal of **NdisIMRegisterLayeredMiniport**. An intermediate driver typically calls **NdisIMDeregisterLayeredMiniport** from its *ProtocolUnbindAdapter* function after calling [**NdisDeregisterProtocol**](ff551909\(v=vs.85\).md).
+The **NdisIMDeregisterLayeredMiniport** function is the reciprocal of **NdisIMRegisterLayeredMiniport**. An intermediate driver typically calls **NdisIMDeregisterLayeredMiniport** from its *ProtocolUnbindAdapter* function after calling [**NdisDeregisterProtocol**](nf-ndis-ndisderegisterprotocol.md).
 
 ## Requirements
 
@@ -70,4 +70,4 @@ The **NdisIMDeregisterLayeredMiniport** function is the reciprocal of **NdisIMRe
 
 ## -see-also
 
-- [**NdisDeregisterProtocolNdisIMRegisterLayeredMiniport**](ff551909\(v=vs.85\).md)
+- [**NdisDeregisterProtocolNdisIMRegisterLayeredMiniport**](nf-ndis-ndisimregisterlayeredminiport.md)

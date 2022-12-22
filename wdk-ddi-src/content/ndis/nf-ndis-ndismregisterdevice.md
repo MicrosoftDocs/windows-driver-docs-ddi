@@ -55,7 +55,7 @@ The **NdisMRegisterDevice** function creates a named device object and a symboli
 
 ### -param NdisWrapperHandle [in]
 
-Specifies the handle returned by [**NdisMInitializeWrapper**](ff553547\(v=vs.85\).md).
+Specifies the handle returned by [**NdisMInitializeWrapper**](https://msdn.microsoft.com/library/ff553547\(v=vs.85\)).
 
 ### -param DeviceName [in]
 
@@ -85,7 +85,7 @@ Pointer to the newly created device object if the call succeeds.
 
 ### -param NdisDeviceHandle [out]
 
-Pointer to a caller-supplied variable in which this function, if it succeeds, returns a handle to the device object. This handle is a required parameter to the [**NdisMDeregisterDevice**](ff553490\(v=vs.85\).md) function that the driver calls subsequently.
+Pointer to a caller-supplied variable in which this function, if it succeeds, returns a handle to the device object. This handle is a required parameter to the [**NdisMDeregisterDevice**](nf-ndis-ndismderegisterdevice.md) function that the driver calls subsequently.
 
 ## -returns
 
@@ -95,7 +95,7 @@ Pointer to a caller-supplied variable in which this function, if it succeeds, re
 
 An intermediate driver or miniport driver may require a separate, stand-alone device object. For example, an intermediate miniport driver might require a stand-alone device object to monitor the status of an underlying NIC when the NIC's miniport driver is not up and running. To obtain the NIC's status in such a case, a user-mode application or environmental subsystem sends an IRP to the device object. The IRP is processed by the intermediate driver. Without the stand-alone device object, the NIC's status is available only when the NIC's miniport driver is up and running.
 
-An intermediate driver or miniport driver creates a device object by calling **NdisMRegisterDevice** from its **DriverEntry** function after **DriverEntry** has called [**NdisMInitializeWrapper**](ff553547\(v=vs.85\).md). **NdisMRegisterDevice** creates a named device object and also a symbolic link between the device object name and a user-visible name for that device. If the call to **NdisMRegisterDevice** succeeds, the I/O manager allocates storage in nonpaged pool for the device object itself and for all other data structures associated with the device object, including the driver's device extension. The device extension for an object created with **NdisMRegisterDevice** is reserved for use by NDIS and cannot be used by the driver.
+An intermediate driver or miniport driver creates a device object by calling **NdisMRegisterDevice** from its **DriverEntry** function after **DriverEntry** has called [**NdisMInitializeWrapper**](https://msdn.microsoft.com/library/ff553547\(v=vs.85\)). **NdisMRegisterDevice** creates a named device object and also a symbolic link between the device object name and a user-visible name for that device. If the call to **NdisMRegisterDevice** succeeds, the I/O manager allocates storage in nonpaged pool for the device object itself and for all other data structures associated with the device object, including the driver's device extension. The device extension for an object created with **NdisMRegisterDevice** is reserved for use by NDIS and cannot be used by the driver.
 
 A device object created with **NdisMRegisterDevice** functions in the same way as a device object and symbolic link that were created with [**IoCreateDevice**](https://msdn.microsoft.com/library/Ff548397) and [**IoCreateSymbolicLink**](https://msdn.microsoft.com/library/Ff549043), respectively. The miniport driver is responsible for processing all IRPs that it receives for the device object. (NDIS processes all Plug and Play and power management IRPs sent to the device object.) The driver processes IRPs sent to the device object using dispatch routines that it registered when it supplied the *MajorFunctions* pointer to **NdisMRegisterDevice**. For more information about device objects, IRPs, and dispatch routines, see [Device Objects and Device Stacks](https://msdn.microsoft.com/library/Ff543153), [Handling IRPs](https://msdn.microsoft.com/library/Ff546847), and [Writing Dispatch Routines](https://msdn.microsoft.com/library/Ff566407).
 
@@ -120,7 +120,7 @@ If a driver's call to **NdisMRegisterDevice** fails, the driver can continue to 
 - [**IoAttachDevice**](https://msdn.microsoft.com/library/Ff548294)
 - [**IoCreateDevice**](https://msdn.microsoft.com/library/Ff548397)
 - [**IoCreateSymbolicLink**](https://msdn.microsoft.com/library/Ff549043)
-- [**NdisMDeregisterDevice**](ff553490\(v=vs.85\).md)
-- [**NdisMInitializeWrapper**](ff553547\(v=vs.85\).md)
+- [**NdisMDeregisterDevice**](nf-ndis-ndismderegisterdevice.md)
+- [**NdisMInitializeWrapper**](https://msdn.microsoft.com/library/ff553547\(v=vs.85\))
 - [**NdisRegisterDeviceEx**](https://msdn.microsoft.com/library/Ff564518)
 - [**UNICODE\_STRING**](https://msdn.microsoft.com/library/Ff564879)

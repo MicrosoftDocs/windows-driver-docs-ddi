@@ -54,7 +54,7 @@ helpviewer_keywords:
 
 ### -param NdisWrapperHandle [in]
 
-Specifies the handle returned by [**NdisMInitializeWrapper**](ff553547\(v=vs.85\).md).
+Specifies the handle returned by [**NdisMInitializeWrapper**](https://msdn.microsoft.com/library/ff553547\(v=vs.85\)).
 
 ### -param MiniportCharacteristics [in]
 
@@ -115,7 +115,7 @@ An NDIS intermediate driver should initialize this structure with zeros before s
   This member is reserved for system use.
 
 - **CheckForHangHandler**  
-  Specifies the entry point of the caller's [**MiniportCheckForHang**](ff549367\(v=vs.85\).md) function, if any, or **NULL**.
+  Specifies the entry point of the caller's [**MiniportCheckForHang**](https://msdn.microsoft.com/library/ff549367\(v=vs.85\)) function, if any, or **NULL**.
 
 - **DisableInterruptHandler**  
   Specifies **NULL**.
@@ -124,36 +124,36 @@ An NDIS intermediate driver should initialize this structure with zeros before s
   Specifies **NULL**.
 
 - **HaltHandler**  
-  Specifies the entry point of the caller's [**MiniportHalt**](ff549451\(v=vs.85\).md) function.
+  Specifies the entry point of the caller's [**MiniportHalt**](https://msdn.microsoft.com/library/ff549451\(v=vs.85\)) function.
 
 - **HandleInterruptHandler**  
   Specifies **NULL**.
 
 - **InitializeHandler**  
-  Specifies the entry point of the caller's [**MiniportInitialize**](ff550472\(v=vs.85\).md) function.
+  Specifies the entry point of the caller's [**MiniportInitialize**](https://msdn.microsoft.com/library/ff550472\(v=vs.85\)) function.
 
 - **ISRHandler**  
   Specifies **NULL**.
 
 - **QueryInformationHandler**  
-  Specifies the entry point of the caller's [**MiniportQueryInformation**](ff550490\(v=vs.85\).md) function.
+  Specifies the entry point of the caller's [**MiniportQueryInformation**](https://msdn.microsoft.com/library/ff550490\(v=vs.85\)) function.
 
 - **ReconfigureHandler**  
   Specifies **NULL**.
 
 - **ResetHandler**  
-  Specifies the entry point of the caller's [*MiniportReset*](ff550502\(v=vs.85\).md) function.
+  Specifies the entry point of the caller's [*MiniportReset*](https://msdn.microsoft.com/library/ff550502\(v=vs.85\)) function.
 
 - **SendHandler**  
-  Specifies the entry point of the caller's [**MiniportSend**](ff550518\(v=vs.85\).md) function, [**MiniportWanSend**](ff550561\(v=vs.85\).md) function, or **NULL** if the caller supplies a [**MiniportSendPackets**](ff550524\(v=vs.85\).md) function.
+  Specifies the entry point of the caller's [**MiniportSend**](https://msdn.microsoft.com/library/ff550518\(v=vs.85\)) function, [**MiniportWanSend**](https://msdn.microsoft.com/library/ff550561\(v=vs.85\)) function, or **NULL** if the caller supplies a [**MiniportSendPackets**](https://msdn.microsoft.com/library/ff550524\(v=vs.85\)) function.
 
   If the driver supports multipacket sends or media-specific information, it sets the **SendPacketsHandler** member instead and sets this member to **NULL**.
 
 - **SetInformationHandler**
-  Specifies the entry point of the caller's [**MiniportSetInformation**](ff550530\(v=vs.85\).md) function.
+  Specifies the entry point of the caller's [**MiniportSetInformation**](https://msdn.microsoft.com/library/ff550530\(v=vs.85\)) function.
 
 - **TransferDataHandler**  
-  Specifies the entry point of the caller's [**MiniportTransferData**](ff550556\(v=vs.85\).md) function, if any, or **NULL**. This miniport driver function is required unless the caller is the driver of a WAN NIC or the caller supports multipacket receives and, therefore, supplies the entry point of its [**MiniportReturnPacket**](ff550510\(v=vs.85\).md) function at **ReturnPacketHandler**.
+  Specifies the entry point of the caller's [**MiniportTransferData**](https://msdn.microsoft.com/library/ff550556\(v=vs.85\)) function, if any, or **NULL**. This miniport driver function is required unless the caller is the driver of a WAN NIC or the caller supports multipacket receives and, therefore, supplies the entry point of its [**MiniportReturnPacket**](https://msdn.microsoft.com/library/ff550510\(v=vs.85\)) function at **ReturnPacketHandler**.
 
 - **ReturnPacketHandler**  
   Specifies the entry point of the caller's *MiniportReturnPacket* function, if any, or **NULL**.
@@ -183,13 +183,13 @@ An NDIS intermediate driver should initialize this structure with zeros before s
   Specifies **NULL**.
 
 - **CancelSendPacketsHandler**  
-  Specifies the entry point of the caller's [**MiniportCancelSendPackets**](ff549359\(v=vs.85\).md) function, if any, or **NULL**. Intermediate drivers that queue send packets for more than one second should register a *MiniportCancelSendPackets* function.
+  Specifies the entry point of the caller's [**MiniportCancelSendPackets**](https://msdn.microsoft.com/library/ff549359\(v=vs.85\)) function, if any, or **NULL**. Intermediate drivers that queue send packets for more than one second should register a *MiniportCancelSendPackets* function.
 
 - **PnPEventNotifyHandler**  
-  Specifies the entry point of the caller's [**MiniportPnPEventNotify**](ff550487\(v=vs.85\).md) function. NDIS 5.1 miniport drivers must register a *MiniportPnPEventNotify* function. Miniport drivers ''that have a WDM lower edge should register a *MiniportPnPEventNotify* function.
+  Specifies the entry point of the caller's [**MiniportPnPEventNotify**](https://msdn.microsoft.com/library/ff550487\(v=vs.85\)) function. NDIS 5.1 miniport drivers must register a *MiniportPnPEventNotify* function. Miniport drivers ''that have a WDM lower edge should register a *MiniportPnPEventNotify* function.
 
 - **AdapterShutdownHandler**  
-  Specifies the entry point of the caller's [**MiniportShutdown**](ff550533\(v=vs.85\).md) function, if any, or **NULL**. NDIS 5.1 intermediate drivers must register a *MiniportShutdown* function. NDIS 5.1 intermediate drivers should register a *MiniportShutdown* function by calling **NdisIMRegisterLayeredMiniport**--not by calling [**NdisMRegisterAdapterShutdownHandler**](ff553584\(v=vs.85\).md).
+  Specifies the entry point of the caller's [**MiniportShutdown**](https://msdn.microsoft.com/library/ff550533\(v=vs.85\)) function, if any, or **NULL**. NDIS 5.1 intermediate drivers must register a *MiniportShutdown* function. NDIS 5.1 intermediate drivers should register a *MiniportShutdown* function by calling **NdisIMRegisterLayeredMiniport**--not by calling [**NdisMRegisterAdapterShutdownHandler**](https://msdn.microsoft.com/library/ff553584\(v=vs.85\)).
 
 ### -param CharacteristicsLength [in]
 
@@ -199,7 +199,7 @@ If the driver includes the build instruction NDIS50\_MINIPORT (or NDIS40\_MINIPO
 
 ### -param DriverHandle [out]
 
-Pointer to a variable in which **NdisIMRegisterLayeredMiniport**, if this call is successful, returns a handle that the caller should save. The caller subsequently must pass this handle to [**NdisIMInitializeDeviceInstance**](ff552161\(v=vs.85\).md), usually from its [**ProtocolBindAdapter**](ff562465\(v=vs.85\).md) function.
+Pointer to a variable in which **NdisIMRegisterLayeredMiniport**, if this call is successful, returns a handle that the caller should save. The caller subsequently must pass this handle to [**NdisIMInitializeDeviceInstance**](https://msdn.microsoft.com/library/ff552161\(v=vs.85\)), usually from its [**ProtocolBindAdapter**](https://msdn.microsoft.com/library/ff562465\(v=vs.85\)) function.
 
 ## -returns
 
@@ -238,11 +238,11 @@ Pointer to a variable in which **NdisIMRegisterLayeredMiniport**, if this call i
 
 ## -remarks
 
-Any NDIS intermediate driver that exports both *MiniportXxx* and *ProtocolXxx* functions sets up a characteristics structure and calls **NdisIMRegisterLayeredMiniport** from its **DriverEntry** function after **DriverEntry** calls [**NdisMInitializeWrapper**](ff553547\(v=vs.85\).md). This structure is copied in the **NdisIMRegisterLayeredMiniport** request to the NDIS library's internal storage. Thus, once it has registered, such a driver cannot change its handler functions.
+Any NDIS intermediate driver that exports both *MiniportXxx* and *ProtocolXxx* functions sets up a characteristics structure and calls **NdisIMRegisterLayeredMiniport** from its **DriverEntry** function after **DriverEntry** calls [**NdisMInitializeWrapper**](https://msdn.microsoft.com/library/ff553547\(v=vs.85\)). This structure is copied in the **NdisIMRegisterLayeredMiniport** request to the NDIS library's internal storage. Thus, once it has registered, such a driver cannot change its handler functions.
 
-After such an NDIS intermediate driver has called **NdisIMRegisterLayeredMiniport** successfully, it must call [**NdisRegisterProtocol**](ff554653\(v=vs.85\).md) to register its *ProtocolXxx* functions with the NDIS library. Such a driver usually has both [**ProtocolBindAdapter**](ff562465\(v=vs.85\).md) and [**ProtocolUnbindAdapter**](ff563260\(v=vs.85\).md) functions. Its *ProtocolBindAdapter* function will be called next when the underlying NIC driver has initialized successfully. *ProtocolBindAdapter* then can establish a binding to that NIC driver with [**NdisOpenAdapter**](ff553673\(v=vs.85\).md).
+After such an NDIS intermediate driver has called **NdisIMRegisterLayeredMiniport** successfully, it must call [**NdisRegisterProtocol**](nf-ndis-ndisregisterprotocol.md) to register its *ProtocolXxx* functions with the NDIS library. Such a driver usually has both [**ProtocolBindAdapter**](https://msdn.microsoft.com/library/ff562465\(v=vs.85\)) and [**ProtocolUnbindAdapter**](https://msdn.microsoft.com/library/ff563260\(v=vs.85\)) functions. Its *ProtocolBindAdapter* function will be called next when the underlying NIC driver has initialized successfully. *ProtocolBindAdapter* then can establish a binding to that NIC driver with [**NdisOpenAdapter**](nf-ndis-ndisopenadapter).
 
-An NDIS intermediate driver should have a [**MiniportSendPackets**](ff550524\(v=vs.85\).md) function if an underlying NIC driver might support multipacket sends or consume media-specific information, such as packet priorities, sent down in a packet array from a higher-level protocol. An NDIS intermediate driver should have a [**MiniportReturnPacket**](ff550510\(v=vs.85\).md) function if an underlying NIC driver might support multipacket receive indications or indicate packet arrays containing media-specific information. The NDIS library handles packet arrays transferred between an underlying NIC driver and higher-level protocol that support only single-packet transfers on behalf of such an intermediate driver.
+An NDIS intermediate driver should have a [**MiniportSendPackets**](https://msdn.microsoft.com/library/ff550524\(v=vs.85\)) function if an underlying NIC driver might support multipacket sends or consume media-specific information, such as packet priorities, sent down in a packet array from a higher-level protocol. An NDIS intermediate driver should have a [**MiniportReturnPacket**](https://msdn.microsoft.com/library/ff550510\(v=vs.85\)) function if an underlying NIC driver might support multipacket receive indications or indicate packet arrays containing media-specific information. The NDIS library handles packet arrays transferred between an underlying NIC driver and higher-level protocol that support only single-packet transfers on behalf of such an intermediate driver.
 
 - Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
 - Version: Not supported for NDIS 6.0 drivers in Windows Vista. Use <a href="https://msdn.microsoft.com/library/Ff563654"><strong>NdisMRegisterMiniportDriver</strong></a>instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.
@@ -251,23 +251,23 @@ An NDIS intermediate driver should have a [**MiniportSendPackets**](ff550524\(v=
 
 - [**DriverEntry of NDIS Miniport Drivers**](https://msdn.microsoft.com/library/Ff548818)
 - [**DriverEntry of NDIS Protocol Drivers**](https://msdn.microsoft.com/library/Ff548821)
-- [**MiniportCheckForHang**](ff549367\(v=vs.85\).md)
-- [**MiniportHalt**](ff549451\(v=vs.85\).md)
-- [**MiniportInitialize**](ff550472\(v=vs.85\).md)
-- [**MiniportQueryInformation**](ff550490\(v=vs.85\).md)
-- [*MiniportReset*](ff550502\(v=vs.85\).md)
-- [**MiniportReturnPacket**](ff550510\(v=vs.85\).md)
-- [**MiniportSend**](ff550518\(v=vs.85\).md)
-- [**MiniportSendPackets**](ff550524\(v=vs.85\).md)
-- [**MiniportSetInformation**](ff550530\(v=vs.85\).md)
-- [**MiniportTransferData**](ff550556\(v=vs.85\).md)
-- [**MiniportWanSend**](ff550561\(v=vs.85\).md)
-- [**NdisIMInitializeDeviceInstance**](ff552161\(v=vs.85\).md)
-- [**NdisMRegisterAdapterShutdownHandler**](ff553584\(v=vs.85\).md)
-- [**NdisMRegisterMiniport**](ff553602\(v=vs.85\).md)
-- [**NdisOpenAdapter**](ff553673\(v=vs.85\).md)
-- [**NdisRegisterProtocol**](ff554653\(v=vs.85\).md)
+- [**MiniportCheckForHang**](https://msdn.microsoft.com/library/ff549367\(v=vs.85\))
+- [**MiniportHalt**](https://msdn.microsoft.com/library/ff549451\(v=vs.85\))
+- [**MiniportInitialize**](https://msdn.microsoft.com/library/ff550472\(v=vs.85\))
+- [**MiniportQueryInformation**](https://msdn.microsoft.com/library/ff550490\(v=vs.85\))
+- [*MiniportReset*](https://msdn.microsoft.com/library/ff550502\(v=vs.85\))
+- [**MiniportReturnPacket**](https://msdn.microsoft.com/library/ff550510\(v=vs.85\))
+- [**MiniportSend**](https://msdn.microsoft.com/library/ff550518\(v=vs.85\))
+- [**MiniportSendPackets**](https://msdn.microsoft.com/library/ff550524\(v=vs.85\))
+- [**MiniportSetInformation**](https://msdn.microsoft.com/library/ff550530\(v=vs.85\))
+- [**MiniportTransferData**](https://msdn.microsoft.com/library/ff550556\(v=vs.85\))
+- [**MiniportWanSend**](https://msdn.microsoft.com/library/ff550561\(v=vs.85\))
+- [**NdisIMInitializeDeviceInstance**](https://msdn.microsoft.com/library/ff552161\(v=vs.85\))
+- [**NdisMRegisterAdapterShutdownHandler**](https://msdn.microsoft.com/library/ff553584\(v=vs.85\))
+- [**NdisMRegisterMiniport**](https://msdn.microsoft.com/library/ff553602\(v=vs.85\))
+- [**NdisOpenAdapter**](nf-ndis-ndisopenadapter.md)
+- [**NdisRegisterProtocol**](nf-ndis-ndisregisterprotocol.md)
 - [**NdisZeroMemory**](https://msdn.microsoft.com/library/Ff564698)
-- [**ProtocolBindAdapter**](ff562465\(v=vs.85\).md)
-- [**ProtocolReceivePacket**](ff563251\(v=vs.85\).md)
-- [**ProtocolUnbindAdapter**](ff563260\(v=vs.85\).md)
+- [**ProtocolBindAdapter**](https://msdn.microsoft.com/library/ff562465\(v=vs.85\))
+- [**ProtocolReceivePacket**](https://msdn.microsoft.com/library/ff563251\(v=vs.85\))
+- [**ProtocolUnbindAdapter**](https://msdn.microsoft.com/library/ff563260\(v=vs.85\))

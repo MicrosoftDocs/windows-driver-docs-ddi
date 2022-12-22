@@ -55,7 +55,7 @@ The **NdisMRegisterUnloadHandler** function registers an unload handler for a dr
 
 ### -param NdisWrapperHandle [in]
 
-Specifies the handle returned by [**NdisMInitializeWrapper**](ff553547\(v=vs.85\).md).
+Specifies the handle returned by [**NdisMInitializeWrapper**](https://msdn.microsoft.com/library/ff553547\(v=vs.85\)).
 
 ### -param UnloadHandler [in]
 
@@ -70,11 +70,11 @@ VOID
 
 ## -remarks
 
-A driver calls **NdisMRegisterUnloadHandler** from its **DriverEntry** function after **DriverEntry** has called [**NdisMRegisterMiniport**](ff553602\(v=vs.85\).md) or [**NdisIMRegisterLayeredMiniport**](ff552205\(v=vs.85\).md). **NdisMRegisterUnloadHandler** registers an unload handler for the driver.
+A driver calls **NdisMRegisterUnloadHandler** from its **DriverEntry** function after **DriverEntry** has called [**NdisMRegisterMiniport**](https://msdn.microsoft.com/library/ff553602\(v=vs.85\)) or [**NdisIMRegisterLayeredMiniport**](nf-ndis-ndisimregisterlayeredminiport). **NdisMRegisterUnloadHandler** registers an unload handler for the driver.
 
-The functionality of the unload handler is driver-specific. For example, an intermediate driver should register an unload handler that calls [**NdisDeregisterProtocol**](ff551909\(v=vs.85\).md) to deregister the protocol portion of the intermediate driver. The unload handler should also perform any necessary cleanup operations, such as deallocating resources used by the protocol portion of the driver.
+The functionality of the unload handler is driver-specific. For example, an intermediate driver should register an unload handler that calls [**NdisDeregisterProtocol**](nf-ndis-ndisderegisterprotocol.md) to deregister the protocol portion of the intermediate driver. The unload handler should also perform any necessary cleanup operations, such as deallocating resources used by the protocol portion of the driver.
 
-A miniport driver, such as a load-balancing miniport driver, that monitors more than one miniport driver instance should register an unload handler that cleans up state information and deallocates resources after the miniport driver instances that it monitors are halted. Note that an unload handler differs from a [**MiniportHalt**](ff549451\(v=vs.85\).md) function: the unload handler has a more global scope, whereas the scope of the MiniportHalt function is restricted to a particular miniport driver instance.
+A miniport driver, such as a load-balancing miniport driver, that monitors more than one miniport driver instance should register an unload handler that cleans up state information and deallocates resources after the miniport driver instances that it monitors are halted. Note that an unload handler differs from a [**MiniportHalt**](https://msdn.microsoft.com/library/ff549451\(v=vs.85\)) function: the unload handler has a more global scope, whereas the scope of the MiniportHalt function is restricted to a particular miniport driver instance.
 
 ## Requirements
 
@@ -84,7 +84,7 @@ A miniport driver, such as a load-balancing miniport driver, that monitors more 
 ## -see-also
 
 - [**DriverEntry of NDIS Miniport Drivers**](https://msdn.microsoft.com/library/Ff548818)
-- [**MiniportHalt**](ff549451\(v=vs.85\).md)
-- [**NdisDeregisterProtocol**](ff551909\(v=vs.85\).md)
-- [**NdisIMRegisterLayeredMiniport**](ff552205\(v=vs.85\).md)
-- [**NdisMRegisterMiniport**](ff553602\(v=vs.85\).md)
+- [**MiniportHalt**](https://msdn.microsoft.com/library/ff549451\(v=vs.85\))
+- [**NdisDeregisterProtocol**](nf-ndis-ndisderegisterprotocol.md)
+- [**NdisIMRegisterLayeredMiniport**](nf-ndis-ndisimregisterlayeredminiport.md)
+- [**NdisMRegisterMiniport**](https://msdn.microsoft.com/library/ff553602\(v=vs.85\))
