@@ -12,10 +12,10 @@ req.ddi-compliance:
 req.dll: 
 req.header: ndis.h
 req.idl: 
-req.include-header: 
-req.irql: 
+req.include-header: Ndis.h
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
-req.lib: 
+req.lib: Ndis.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -63,8 +63,6 @@ Pointer to the cancellation identifier. This identifier specifies the packet or 
 
 ## -remarks
 
-Return value: None
-
 Transport protocols map IRPs received from higher-level software to NDIS packets, which the protocols then send to lower-level drivers for transmission. If an IRP is canceled, a transport protocol can call the **NdisCancelSendPackets** function to cancel the pending transmission of the corresponding NDIS packet.
 
 The **NdisCancelSendPackets** function cancels packet transmissions on a single binding. To cancel packet transmissions on more than one binding, a protocol or intermediate driver must call the **NdisCancelSendPackets** function once for each binding.
@@ -76,34 +74,8 @@ There is no guarantee that calling **NdisCancelSendPackets** will cancel the pen
 
 In all cases, packets submitted for transmission are returned to the originating protocol or intermediate driver through a call to the driver's [**ProtocolSendComplete**](ff563256\(v=vs.85\).md) or [**ProtocolCoSendComplete**](ff563230\(v=vs.85\).md) function. Canceled send packets are returned with a completion status of NDIS\_STATUS\_ABORTED. The delay between calling **NdisCancelSendPackets** and the return of the canceled packets can vary and therefore cannot be exactly specified.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Target platform</p></td>
-<td><a href="https://go.microsoft.com/fwlink/p/?linkid=531356">Universal</a></td>
-</tr>
-<tr class="even">
-<td><p>Version</p></td>
-<td><p>Not supported for NDIS 6.0 drivers in Windows Vista. Use NdisCancelSendNetBufferLists instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Header</p></td>
-<td>Ndis.h (include Ndis.h)</td>
-</tr>
-<tr class="even">
-<td><p>Library</p></td>
-<td>Ndis.lib</td>
-</tr>
-<tr class="odd">
-<td><p>IRQL</p></td>
-<td><p>&lt;= DISPATCH_LEVEL.</p></td>
-</tr>
-</tbody>
-</table>
+- Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
+- Version: Not supported for NDIS 6.0 drivers in Windows Vista. Use NdisCancelSendNetBufferLists instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.
 
 ## -see-also
 

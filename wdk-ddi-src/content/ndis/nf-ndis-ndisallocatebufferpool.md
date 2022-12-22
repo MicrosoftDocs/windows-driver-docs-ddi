@@ -80,7 +80,6 @@ The driver must release any spin lock that it is holding before calling this fun
 All lower-level NDIS drivers must allocate all buffer descriptors that they chain to packets from a buffer pool. Only highest-level protocol drivers can be given OS-dependent descriptors mapping virtual memory ranges. If these memory descriptors are equivalent to NDIS buffer descriptors, a highest-level protocol can pass such descriptors as parameters to NDIS functions.
 
 **OS Versions:** Windows CE .NET 4.0 and later.  
-**Header:** Ndis.h.
 
 ## -see-also
 

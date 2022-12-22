@@ -12,10 +12,10 @@ req.ddi-compliance:
 req.dll: 
 req.header: ndis.h
 req.idl: 
-req.include-header: 
-req.irql: 
+req.include-header: Ndis.h
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
-req.lib: 
+req.lib: Ndis.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -43,15 +43,48 @@ helpviewer_keywords:
  - NdisMRegisterUnloadHandler
 ---
 
+# NdisMRegisterUnloadHandler function
+
 ## -description
+
+**Note**   NDIS 5. *x* has been deprecated and is superseded by NDIS 6. *x*. For new NDIS driver development, see [Network Drivers Starting with Windows Vista](https://msdn.microsoft.com/library/Ff570021). For information about porting NDIS 5. *x* drivers to NDIS 6. *x*, see [Porting NDIS 5.x Drivers to NDIS 6.0](https://msdn.microsoft.com/library/Ff570059).
+
+The **NdisMRegisterUnloadHandler** function registers an unload handler for a driver.
 
 ## -parameters
 
-### -param NdisWrapperHandle
+### -param NdisWrapperHandle [in]
 
-### -param UnloadHandler
+Specifies the handle returned by [**NdisMInitializeWrapper**](ff553547\(v=vs.85\).md).
+
+### -param UnloadHandler [in]
+
+Specifies the entry point for the driver's unload routine. An unload routine is declared as follows:
+
+```cpp
+VOID
+(*PDRIVER_UNLOAD) (
+    IN struct _DRIVER_OBJECT *DriverObject
+    );
+```
 
 ## -remarks
 
+A driver calls **NdisMRegisterUnloadHandler** from its **DriverEntry** function after **DriverEntry** has called [**NdisMRegisterMiniport**](ff553602\(v=vs.85\).md) or [**NdisIMRegisterLayeredMiniport**](ff552205\(v=vs.85\).md). **NdisMRegisterUnloadHandler** registers an unload handler for the driver.
+
+The functionality of the unload handler is driver-specific. For example, an intermediate driver should register an unload handler that calls [**NdisDeregisterProtocol**](ff551909\(v=vs.85\).md) to deregister the protocol portion of the intermediate driver. The unload handler should also perform any necessary cleanup operations, such as deallocating resources used by the protocol portion of the driver.
+
+A miniport driver, such as a load-balancing miniport driver, that monitors more than one miniport driver instance should register an unload handler that cleans up state information and deallocates resources after the miniport driver instances that it monitors are halted. Note that an unload handler differs from a [**MiniportHalt**](ff549451\(v=vs.85\).md) function: the unload handler has a more global scope, whereas the scope of the MiniportHalt function is restricted to a particular miniport driver instance.
+
+## Requirements
+
+- Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
+- Version: Not supported for NDIS 6.0 drivers in Windows Vista. Use <a href="https://msdn.microsoft.com/library/Ff563654"><strong>NdisMRegisterMiniportDriver</strong></a>instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.
+
 ## -see-also
 
+- [**DriverEntry of NDIS Miniport Drivers**](https://msdn.microsoft.com/library/Ff548818)
+- [**MiniportHalt**](ff549451\(v=vs.85\).md)
+- [**NdisDeregisterProtocol**](ff551909\(v=vs.85\).md)
+- [**NdisIMRegisterLayeredMiniport**](ff552205\(v=vs.85\).md)
+- [**NdisMRegisterMiniport**](ff553602\(v=vs.85\).md)

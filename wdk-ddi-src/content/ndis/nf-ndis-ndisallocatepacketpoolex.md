@@ -15,7 +15,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Ndis.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -107,8 +107,6 @@ As packets sent or indicated are returned to the allocating driver, it can reuse
 When a driver no longer needs packet descriptors, it calls [NdisFreePacketPool](aa447956\(v=msdn.10\).md) to release the storage that it allocated with **NdisAllocatePacketPoolEx**.
 
 **OS Versions:** Windows CE .NET 4.0 and later.  
-**Header:** Ndis.h.  
-**Link Library:** Ndis.lib
 
 ## -see-also
 

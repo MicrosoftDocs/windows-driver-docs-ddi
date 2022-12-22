@@ -12,10 +12,10 @@ req.ddi-compliance:
 req.dll: 
 req.header: ndis.h
 req.idl: 
-req.include-header: 
-req.irql: 
+req.include-header: Ndis.h
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
-req.lib: 
+req.lib: Ndis.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -83,34 +83,7 @@ Buffer descriptor allocation draws on the buffer pool that [NdisAllocateBufferPo
 
 All lower-level NDIS drivers must allocate all buffer descriptors that they chain to packets from buffer pool. Only highest-level protocol drivers can be given OS-dependent descriptors mapping virtual memory ranges, and, if these memory descriptors are equivalent to NDIS buffer descriptors, a highest-level protocol can pass such descriptors as parameters to *NdisXxx* functions.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Target platform</p></td>
-<td><a href="https://go.microsoft.com/fwlink/p/?linkid=531356">Universal</a></td>
-</tr>
-<tr class="even">
-<td><p>Version</p></td>
-<td><p>Not supported for NDIS 6.0 drivers in Windows Vista. Use NdisAllocateMdl instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Header</p></td>
-<td>Ndis.h (include Ndis.h)</td>
-</tr>
-<tr class="even">
-<td><p>Library</p></td>
-<td>Ndis.lib</td>
-</tr>
-<tr class="odd">
-<td><p>IRQL</p></td>
-<td><p>&lt;= DISPATCH_LEVEL.</p></td>
-</tr>
-</tbody>
-</table>
+- Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
 
 ## -see-also
 

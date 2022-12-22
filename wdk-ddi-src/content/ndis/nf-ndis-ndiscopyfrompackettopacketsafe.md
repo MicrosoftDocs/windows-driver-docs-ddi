@@ -12,10 +12,10 @@ req.ddi-compliance:
 req.dll: 
 req.header: ndis.h
 req.idl: 
-req.include-header: 
-req.irql: 
+req.include-header: Ndis.h
+req.irql: <= DISPATCH_LEVEL>
 req.kmdf-ver: 
-req.lib: 
+req.lib: Ndis.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -94,34 +94,8 @@ If the source packet runs out of data or the destination packet out of space bef
 
 The driver must release any spin lock it is holding before calling **NdisCopyFromPacketToPacket**.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Target platform</p></td>
-<td><a href="https://go.microsoft.com/fwlink/p/?linkid=531356">Universal</a></td>
-</tr>
-<tr class="even">
-<td><p>Version</p></td>
-<td><p>Not supported for NDIS 6.0 drivers in Windows Vista. Use <a href="https://msdn.microsoft.com/library/Ff561718"><strong>NdisCopyFromNetBufferToNetBuffer</strong></a>instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP, but use NdisCopyFromPacketToPacketSafe instead.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Header</p></td>
-<td>Ndis.h (include Ndis.h)</td>
-</tr>
-<tr class="even">
-<td><p>Library</p></td>
-<td>Ndis.lib</td>
-</tr>
-<tr class="odd">
-<td><p>IRQL</p></td>
-<td><p>&lt;= DISPATCH_LEVEL.</p></td>
-</tr>
-</tbody>
-</table>
+- Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
+- Version: Not supported for NDIS 6.0 drivers in Windows Vista. Use <a href="https://msdn.microsoft.com/library/Ff561718"><strong>NdisCopyFromNetBufferToNetBuffer</strong></a>instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP, but use NdisCopyFromPacketToPacketSafe instead.
 
 ## -see-also
 

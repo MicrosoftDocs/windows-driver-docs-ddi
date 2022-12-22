@@ -12,10 +12,10 @@ req.ddi-compliance:
 req.dll: 
 req.header: ndis.h
 req.idl: 
-req.include-header: 
-req.irql: 
+req.include-header: Ndis.h
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
-req.lib: 
+req.lib: Ndis.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -43,13 +43,31 @@ helpviewer_keywords:
  - NdisIMDeregisterLayeredMiniport
 ---
 
+# NdisIMDeregisterLayeredMiniport function
+
 ## -description
+
+**Note**   NDIS 5. *x* has been deprecated and is superseded by NDIS 6. *x*. For new NDIS driver development, see [Network Drivers Starting with Windows Vista](https://msdn.microsoft.com/library/Ff570021). For information about porting NDIS 5. *x* drivers to NDIS 6. *x*, see [Porting NDIS 5.x Drivers to NDIS 6.0](https://msdn.microsoft.com/library/Ff570059).
+
+**NdisIMDeregisterLayeredMiniport** releases a previously registered intermediate driver.
 
 ## -parameters
 
-### -param DriverHandle
+### -param DriverHandle [in]
+
+Specifies the handle returned by [**NdisIMRegisterLayeredMiniport**](ff552205\(v=vs.85\).md).
 
 ## -remarks
 
+An intermediate driver that called **NdisIMRegisterLayeredMiniport** from its **DriverEntry** routine must call **NdisIMDeregisterLayeredMiniport** when it cleans up the resources it allocated before it is unloaded. If the intermediate driver encounters a fatal initialization error within its **DriverEntry** routine, such as an inability to obtain system resources, it must call **NdisIMDeregisterLayeredMiniport**.
+
+The **NdisIMDeregisterLayeredMiniport** function is the reciprocal of **NdisIMRegisterLayeredMiniport**. An intermediate driver typically calls **NdisIMDeregisterLayeredMiniport** from its *ProtocolUnbindAdapter* function after calling [**NdisDeregisterProtocol**](ff551909\(v=vs.85\).md).
+
+## Requirements
+
+- Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
+- Version: Not supported for NDIS 6.0 drivers in Windows Vista. Use <a href="https://msdn.microsoft.com/library/Ff563578"><strong>NdisMDeregisterMiniportDriver</strong></a>instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.
+
 ## -see-also
 
+- [**NdisDeregisterProtocolNdisIMRegisterLayeredMiniport**](ff551909\(v=vs.85\).md)
