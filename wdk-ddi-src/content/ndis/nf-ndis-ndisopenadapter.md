@@ -179,8 +179,6 @@ If a previously issued global query of OID\_NETWORK\_TYPE for wireless media ind
 
 For more information about the general and medium-specific OIDs that protocol drivers use to negotiate with a just-bound NDIS driver, see [NDIS Object Identifiers](https://msdn.microsoft.com/library/ff557081\(v=vs.85\)).
 
-## Requirements
-
 - Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
 - Version: Not supported for NDIS 6.0 drivers in Windows Vista. Use <a href="https://msdn.microsoft.com/library/Ff563715"><strong>NdisOpenAdapterEx</strong></a>instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.
 

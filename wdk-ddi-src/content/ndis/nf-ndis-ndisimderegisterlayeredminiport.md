@@ -63,8 +63,6 @@ An intermediate driver that called **NdisIMRegisterLayeredMiniport** from its **
 
 The **NdisIMDeregisterLayeredMiniport** function is the reciprocal of **NdisIMRegisterLayeredMiniport**. An intermediate driver typically calls **NdisIMDeregisterLayeredMiniport** from its *ProtocolUnbindAdapter* function after calling [**NdisDeregisterProtocol**](nf-ndis-ndisderegisterprotocol.md).
 
-## Requirements
-
 - Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
 - Version: Not supported for NDIS 6.0 drivers in Windows Vista. Use <a href="https://msdn.microsoft.com/library/Ff563578"><strong>NdisMDeregisterMiniportDriver</strong></a>instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.
 

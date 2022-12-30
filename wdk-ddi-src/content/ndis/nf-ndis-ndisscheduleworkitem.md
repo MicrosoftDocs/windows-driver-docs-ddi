@@ -71,8 +71,6 @@ A driver must not wait for its callback routine to complete an operation if it i
 
 A serialized miniport driver should never attempt to queue a worker-thread callback routine, because there is no way for such a driver to synchronize access to its NIC context area(s) with a worker-thread callback. Consequently, such a serialized NDIS driver cannot share anything in its per-adapter context area with a worker-thread callback function without causing intermittent system crashes.
 
-## Requirements
-
 - Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
 - Version: Not supported for NDIS 6.0 drivers in Windows Vista. Use <a href="https://msdn.microsoft.com/library/Ff563775"><strong>NdisQueueIoWorkItem</strong></a>instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.
 

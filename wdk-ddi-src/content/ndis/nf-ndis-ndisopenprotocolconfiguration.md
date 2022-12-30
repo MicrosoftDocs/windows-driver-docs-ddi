@@ -77,8 +77,6 @@ A protocol can call [**NdisOpenConfigurationKeyByName**](https://msdn.microsoft.
 
 Windows 2000 and later protocols call kernel-mode support routines to open their own protocol-specific registry keys. For more information about these support routines, see the [Summary of Kernel-Mode Support Routines](https://msdn.microsoft.com/library/Ff563889) and [Power Management Support Routines](https://msdn.microsoft.com/library/Ff559835).
 
-## Requirements
-
 - Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
 - Version: Not supported for NDIS 6.0 drivers in Windows Vista. Use <a href="https://msdn.microsoft.com/library/Ff563717"><strong>NdisOpenConfigurationEx</strong></a>instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.
 

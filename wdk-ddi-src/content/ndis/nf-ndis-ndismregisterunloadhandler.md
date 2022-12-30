@@ -76,8 +76,6 @@ The functionality of the unload handler is driver-specific. For example, an inte
 
 A miniport driver, such as a load-balancing miniport driver, that monitors more than one miniport driver instance should register an unload handler that cleans up state information and deallocates resources after the miniport driver instances that it monitors are halted. Note that an unload handler differs from a [**MiniportHalt**](https://msdn.microsoft.com/library/ff549451\(v=vs.85\)) function: the unload handler has a more global scope, whereas the scope of the MiniportHalt function is restricted to a particular miniport driver instance.
 
-## Requirements
-
 - Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
 - Version: Not supported for NDIS 6.0 drivers in Windows Vista. Use <a href="https://msdn.microsoft.com/library/Ff563654"><strong>NdisMRegisterMiniportDriver</strong></a>instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.
 

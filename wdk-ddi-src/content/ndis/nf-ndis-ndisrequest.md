@@ -124,8 +124,6 @@ The NDIS library maintains bindings for underlying miniport drivers. NDIS can re
 
 For more information about the general and media-specific OIDs and their respective associated information buffers, see [NDIS Object Identifiers](https://msdn.microsoft.com/library/ff557081\(v=vs.85\)).
 
-## Requirements
-
 - Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
 - Version: Not supported for NDIS 6.0 drivers in Windows Vista. Use <a href="https://msdn.microsoft.com/library/Ff563710"><strong>NdisOidRequest</strong></a>instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.
 

@@ -73,11 +73,9 @@ Drivers can also use the [**NDIS\_PACKET\_EXTENSION\_FROM\_PACKET**](https://msd
 
 To copy a range of data from one packet to another, use the [**NdisCopyFromPacketToPacket**](https://msdn.microsoft.com/library/ff551066\(v=vs.85\)) function.
 
-## Requirements
-
 - Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
 - Version: Not supported for NDIS 6.0 drivers in Windows Vista. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.
-- 
+
 ## -see-also
 
 - [**NdisCopyFromPacketToPacket**](https://msdn.microsoft.com/library/ff551066\(v=vs.85\))

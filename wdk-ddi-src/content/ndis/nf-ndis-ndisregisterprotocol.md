@@ -208,8 +208,6 @@ A successfully registered driver should save the handle returned at *NdisProtoco
 
 After a successful call to **NdisRegisterProtocol**, the **DriverEntry** function of a PnP-aware or connection-oriented protocol returns control because such a driver's *ProtocolBindAdapter* function will be called subsequently one or more times to set up bindings to underlying NIC(s). Otherwise, the protocol driver can call [**NdisOpenAdapter**](nf-ndis-ndisopenadapter.md) to set up a binding to the underlying NIC driver or to layer itself above any NDIS driver that registered a set of NDIS *MiniportXxx* functions.
 
-## Requirements
-
 - Target platform: [Universal](https://go.microsoft.com/fwlink/p/?linkid=531356)
 - Version: Not supported for NDIS 6.0 drivers in Windows Vista. Use <a href="https://msdn.microsoft.com/library/Ff564520"><strong>NdisRegisterProtocolDriver</strong></a>instead. Supported for NDIS 5.1 drivers in Windows Vista and Windows XP.
 
