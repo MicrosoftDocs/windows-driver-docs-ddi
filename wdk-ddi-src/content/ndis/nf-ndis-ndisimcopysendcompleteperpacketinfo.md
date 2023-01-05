@@ -1,10 +1,10 @@
 ---
 UID: NF:ndis.NdisIMCopySendCompletePerPacketInfo
-tech.root: 
+tech.root: netvista
 title: NdisIMCopySendCompletePerPacketInfo
-ms.date: 
+ms.date: 01/04/2023
 targetos: Windows
-description: 
+description: NdisIMCopySendCompletePerPacketInfo copies per-packet information from a packet returned up by a lower miniport driver into a new packet that is to be returned to an upper-level driver.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -47,7 +47,7 @@ helpviewer_keywords:
 
 ## -description
 
-**Note**   NDIS 5. *x* has been deprecated and is superseded by NDIS 6. *x*. For new NDIS driver development, see [Network Drivers Starting with Windows Vista](https://msdn.microsoft.com/library/Ff570021). For information about porting NDIS 5. *x* drivers to NDIS 6. *x*, see [Porting NDIS 5.x Drivers to NDIS 6.0](https://msdn.microsoft.com/library/Ff570059).
+**Note**   NDIS 5. *x* has been deprecated and is superseded by NDIS 6. *x*. For new NDIS driver development, see [Network Drivers Starting with Windows Vista](../_netvista/index.md). For information about porting NDIS 5. *x* drivers to NDIS 6. *x*, see [Porting NDIS 5.x Drivers to NDIS 6.0](https://msdn.microsoft.com/library/Ff570059).
 
 **NdisIMCopySendCompletePerPacketInfo** copies per-packet information from a packet returned up by a lower miniport driver into a new packet that is to be returned to an upper-level driver.
 

@@ -1,10 +1,10 @@
 ---
 UID: NF:ndis.NdisRequest
-tech.root: 
+tech.root: netvista
 title: NdisRequest
-ms.date: 
+ms.date: 01/04/2023
 targetos: Windows
-description: 
+description: NdisRequest forwards a request to the underlying driver that it query the capabilities or status of its NIC or that it set the state of its NIC.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: ndis.h
 req.idl: 
 req.include-header: Ndis.h
-req.irql: <= DISPATCH_LEVEL
+req.irql: IRQL <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: Ndis.lib
 req.max-support: 
@@ -47,7 +47,7 @@ helpviewer_keywords:
 
 ## -description
 
-**Note**   NDIS 5. *x* has been deprecated and is superseded by NDIS 6. *x*. For new NDIS driver development, see [Network Drivers Starting with Windows Vista](https://msdn.microsoft.com/library/Ff570021). For information about porting NDIS 5. *x* drivers to NDIS 6. *x*, see [Porting NDIS 5.x Drivers to NDIS 6.0](https://msdn.microsoft.com/library/Ff570059).
+**Note**   NDIS 5. *x* has been deprecated and is superseded by NDIS 6. *x*. For new NDIS driver development, see [Network Drivers Starting with Windows Vista](../_netvista/index.md). For information about porting NDIS 5. *x* drivers to NDIS 6. *x*, see [Porting NDIS 5.x Drivers to NDIS 6.0](https://msdn.microsoft.com/library/Ff570059).
 
 **NdisRequest** forwards a request to the underlying driver that it query the capabilities or status of its NIC or that it set the state of its NIC.
 
