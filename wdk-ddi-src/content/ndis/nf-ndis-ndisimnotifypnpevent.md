@@ -55,7 +55,7 @@ helpviewer_keywords:
 
 ### -param MiniportHandle [in]
 
-The handle input to [**MiniportInitialize**](https://msdn.microsoft.com/library/ff550472\(v=vs.85\)). This handle represents the miniport driver affected by the Plug and Play or Power Management event passed to the caller's [**ProtocolPnPEvent**]\(/previous-versions/ms904757(v=msdn.10)) function.
+The handle input to [**MiniportInitialize**](https://msdn.microsoft.com/library/ff550472\(v=vs.85\)). This handle represents the miniport driver affected by the Plug and Play or Power Management event passed to the caller's [**ProtocolPnPEvent**](/previous-versions/ms904757(v=msdn.10)) function.
 
 ### -param NetPnPEvent [in]
 

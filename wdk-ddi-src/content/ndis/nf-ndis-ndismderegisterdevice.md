@@ -71,6 +71,6 @@ When **NdisMRegisterDevice** is called, there cannot be any outstanding user-mod
 
 ## -see-also
 
-- [**MiniportHalt**]\(/previous-versions/windows/embedded/aa447845(v=msdn.10))
+- [**MiniportHalt**](/previous-versions/windows/embedded/aa447845(v=msdn.10))
 - [**NdisMRegisterDevice**](nf-ndis-ndismregisterdevice.md)
 - [**NdisMRegisterUnloadHandler**](nf-ndis-ndismregisterunloadhandler.md)

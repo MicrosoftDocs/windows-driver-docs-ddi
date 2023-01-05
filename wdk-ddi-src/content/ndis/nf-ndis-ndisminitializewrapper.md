@@ -34,6 +34,7 @@ api_location:
  - ndis.h
 api_name:
  - NdisMInitializeWrapper
+ - NdisInitializeWrapper
 f1_keywords:
  - NdisMInitializeWrapper
  - ndis/NdisMInitializeWrapper

@@ -87,7 +87,7 @@ The following table shows the possible return values for this function.
 <tbody>
 <tr class="odd">
 <td>NDIS_STATUS_SUCCESS</td>
-<td>The driver can make calls to <a href="previous-versions/windows/hardware/network/ff550774(v=vs.85)">NdisAllocatePacket</a> when it needs packet descriptors to make indications up to higher-level drivers or to send packets down to lower-level drivers.</td>
+<td>The driver can make calls to <a href="/previous-versions/windows/hardware/network/ff550774(v=vs.85)">NdisAllocatePacket</a> when it needs packet descriptors to make indications up to higher-level drivers or to send packets down to lower-level drivers.</td>
 </tr>
 <tr class="even">
 <td>NDIS_STATUS_RESOURCES</td>
@@ -100,11 +100,11 @@ A successful call to **NdisAllocatePacketPoolEx** returns a handle to the packet
 
 **NdisAllocatePacketPoolEx** statically allocates only enough memory to accommodate the number of packet descriptors specified by *NumberOfDescriptors*. The total number of packet descriptors that can be allocated from the pool with calls to **NdisAllocatePacket** is the lesser of 0xFFFF or the sum of *NumberOfDescriptors* and *NumberOfOverflowDescriptors* originally passed to **NdisAllocatePacketPoolEx**. Overflow descriptors are allocated dynamically only during an overflow situation — that is, when the given *NumberOfDescriptors* have already been allocated and are still in use.
 
-The sum of *NumberOfDescriptors* and *NumberOfOverflowDescriptors* is the effective limit on how many times the driver can call **NdisAllocatePacket** before it must call [NdisFreePacket]\(/previous-versions/windows/hardware/network/ff551993(v=vs.85)) to return a packet descriptor to the free list for the packet pool. When no overflow descriptor has yet been allocated, **NdisFreePacket** returns the packet descriptor to the statically allocated pool. If one or more overflow descriptors have already been allocated, **NdisFreePacket** returns the packet descriptor to system memory — not to the pool.
+The sum of *NumberOfDescriptors* and *NumberOfOverflowDescriptors* is the effective limit on how many times the driver can call **NdisAllocatePacket** before it must call [NdisFreePacket](/previous-versions/windows/hardware/network/ff551993(v=vs.85)) to return a packet descriptor to the free list for the packet pool. When no overflow descriptor has yet been allocated, **NdisFreePacket** returns the packet descriptor to the statically allocated pool. If one or more overflow descriptors have already been allocated, **NdisFreePacket** returns the packet descriptor to system memory — not to the pool.
 
 The caller of **NdisAllocatePacketPoolEx** should set *NumberOfDescriptors* to the number of packet descriptors needed for anticipated normal loads. The driver should set *NumberOfOverflowDescriptors* to the number of additional descriptors needed to accommodate anticipated peak loads. If the total possible number of packet descriptors (*NumberOfDescriptors* plus *NumberOfOverflowDescriptors*) has been allocated from the pool, a call to **NdisAllocatePacket** returns NDIS\_STATUS\_RESOURCES.
 
-As packets sent or indicated are returned to the allocating driver, it can reuse each packet descriptor after calling [NdisReinitializePacket]\(/previous-versions/windows/hardware/network/ff554658(v=vs.85)) and setting it up again with a chain of buffer descriptors, or the driver can call **NdisFreePacket** to return that packet to the free list. Reinitializing and reusing packets allocated from packet pool is far faster than freeing and, then, having to reallocate them again. Before a driver calls **NdisReinitializePacket** with a packet descriptor, it must save the pointers to buffer descriptors that are chained to the packet descriptor, because **NdisReinitializePacket** sets the head of the buffer chain to NULL.
+As packets sent or indicated are returned to the allocating driver, it can reuse each packet descriptor after calling [NdisReinitializePacket](/previous-versions/windows/hardware/network/ff554658(v=vs.85)) and setting it up again with a chain of buffer descriptors, or the driver can call **NdisFreePacket** to return that packet to the free list. Reinitializing and reusing packets allocated from packet pool is far faster than freeing and, then, having to reallocate them again. Before a driver calls **NdisReinitializePacket** with a packet descriptor, it must save the pointers to buffer descriptors that are chained to the packet descriptor, because **NdisReinitializePacket** sets the head of the buffer chain to NULL.
 
 When a driver no longer needs packet descriptors, it calls [(nf-ndis-ndisfreepacketpool.md) to release the storage that it allocated with **NdisAllocatePacketPoolEx**.
 
@@ -112,14 +112,14 @@ When a driver no longer needs packet descriptors, it calls [(nf-ndis-ndisfreepac
 
 ## -see-also
 
-- [NdisAllocatePacket]\(/previous-versions/windows/hardware/network/ff550774(v=vs.85))
-- [NdisDprAllocatePacket]\(/previous-versions/windows/hardware/network/ff551932(v=vs.85))
-- [NdisDprAllocatePacketNonInterlocked]\(/previous-versions/windows/hardware/network/ff551937(v=vs.85))
+- [NdisAllocatePacket](/previous-versions/windows/hardware/network/ff550774(v=vs.85))
+- [NdisDprAllocatePacket](/previous-versions/windows/hardware/network/ff551932(v=vs.85))
+- [NdisDprAllocatePacketNonInterlocked](/previous-versions/windows/hardware/network/ff551937(v=vs.85))
 - [NdisFreePacketPool](nf-ndis-ndisfreepacketpool.md)
-- [NdisMIndicateReceivePacket]\(/previous-versions/windows/hardware/network/ff553533(v=vs.85))
-- [NDIS\_PACKET]\(/previous-versions/windows/hardware/network/ff557086(v=vs.85))
-- [NDIS\_PACKET\_OOB\_DATA]\(/previous-versions/windows/hardware/network/ff557105(v=vs.85))
-- [NdisReinitializePacket]\(/previous-versions/windows/hardware/network/ff554658(v=vs.85))
-- [NdisSendPackets]\(/previous-versions/windows/hardware/network/ff554715(v=vs.85))
-- [NdisUnchainBufferAtBack]\(/previous-versions/windows/hardware/network/ff554822(v=vs.85))
-- [NdisUnchainBufferAtFront]\(/previous-versions/windows/hardware/network/ff554826(v=vs.85))
+- [NdisMIndicateReceivePacket](/previous-versions/windows/hardware/network/ff553533(v=vs.85))
+- [NDIS\_PACKET](/previous-versions/windows/hardware/network/ff557086(v=vs.85))
+- [NDIS\_PACKET\_OOB\_DATA](/previous-versions/windows/hardware/network/ff557105(v=vs.85))
+- [NdisReinitializePacket](/previous-versions/windows/hardware/network/ff554658(v=vs.85))
+- [NdisSendPackets](/previous-versions/windows/hardware/network/ff554715(v=vs.85))
+- [NdisUnchainBufferAtBack](/previous-versions/windows/hardware/network/ff554822(v=vs.85))
+- [NdisUnchainBufferAtFront](/previous-versions/windows/hardware/network/ff554826(v=vs.85))

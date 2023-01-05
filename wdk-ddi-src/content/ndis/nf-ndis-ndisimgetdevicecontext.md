@@ -49,7 +49,7 @@ helpviewer_keywords:
 
 **Note**   NDIS 5. *x* has been deprecated and is superseded by NDIS 6. *x*. For new NDIS driver development, see [Network Drivers Starting with Windows Vista](../_netvista/index.md). For information about porting NDIS 5. *x* drivers to NDIS 6. *x*, see [Porting NDIS 5.x Drivers to NDIS 6.0](https://msdn.microsoft.com/library/Ff570059).
 
-This function allows an NDIS intermediate driver's [MiniportInitialize]\(/previous-versions/windows/embedded/aa447847(v=msdn.10)) function to access the device context area allocated by its [ProtocolBindAdapter]\(/previous-versions/windows/embedded/ms919689(v=msdn.10)) function.
+This function allows an NDIS intermediate driver's [MiniportInitialize](/previous-versions/windows/embedded/aa447847(v=msdn.10)) function to access the device context area allocated by its [ProtocolBindAdapter](/previous-versions/windows/embedded/ms919689(v=msdn.10)) function.
 
 ## -parameters
 
@@ -92,7 +92,7 @@ Still higher level NDIS protocols bound to the same virtual NIC subsequently can
 
 ## -see-also
 
-- [MiniportInitialize]\(/previous-versions/windows/embedded/aa447847(v=msdn.10))
+- [MiniportInitialize](/previous-versions/windows/embedded/aa447847(v=msdn.10))
 - [NdisIMGetBindingContext](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisimgetbindingcontext)
 - [NdisIMInitializeDeviceInstanceEx](/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisiminitializedeviceinstanceex)
-- [ProtocolBindAdapter]\(/previous-versions/windows/embedded/ms919689(v=msdn.10))
+- [ProtocolBindAdapter](/previous-versions/windows/embedded/ms919689(v=msdn.10))

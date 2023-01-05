@@ -75,7 +75,7 @@ The *NumberOfDescriptors* parameter specified by an NIC driver usually depends o
 
 The *NumberOfDescriptors* specified in the call to this function is the effective limit on how many times the driver can call **NdisAllocateBuffer** before it must call the [NdisFreeBuffer](https://msdn.microsoft.com/library/ff551981\(v=vs.85\)) function to return a buffer descriptor to the free list for the buffer pool.
 
-When a driver no longer needs the buffer pool that it allocated, it calls the [NdisFreeBufferPool]\(/previous-versions/windows/hardware/network/ff551984(v=vs.85)) function to release the buffer pool handle.
+When a driver no longer needs the buffer pool that it allocated, it calls the [NdisFreeBufferPool](/previous-versions/windows/hardware/network/ff551984(v=vs.85)) function to release the buffer pool handle.
 
 The driver must release any spin lock that it is holding before calling this function.
 
@@ -85,11 +85,11 @@ All lower-level NDIS drivers must allocate all buffer descriptors that they chai
 
 ## -see-also
 
-- [NdisAdjustBufferLength]\(/previous-versions/windows/hardware/network/ff550733(v=vs.85))
+- [NdisAdjustBufferLength](/previous-versions/windows/hardware/network/ff550733(v=vs.85))
 - [NdisAllocateBuffer](nf-ndis-ndisallocatebuffer.md)
-- [NdisChainBufferAtBack]\(/previous-versions/windows/hardware/network/ff550830(v=vs.85))
-- [NdisChainBufferAtFront]\(/previous-versions/windows/hardware/network/ff550837(v=vs.85))
-- [NdisFreeBuffer]\(/previous-versions/windows/hardware/network/ff551981(v=vs.85))
-- [NdisFreeBufferPool]\(/previous-versions/windows/hardware/network/ff551984(v=vs.85))
+- [NdisChainBufferAtBack](/previous-versions/windows/hardware/network/ff550830(v=vs.85))
+- [NdisChainBufferAtFront](/previous-versions/windows/hardware/network/ff550837(v=vs.85))
+- [NdisFreeBuffer](/previous-versions/windows/hardware/network/ff551981(v=vs.85))
+- [NdisFreeBufferPool](/previous-versions/windows/hardware/network/ff551984(v=vs.85))
 - [NdisQueryBuffer](https://msdn.microsoft.com/library/aa520905\(v=msdn.10\))
 - [NdisReleaseSpinLock](https://msdn.microsoft.com/library/aa520935\(v=msdn.10\))
