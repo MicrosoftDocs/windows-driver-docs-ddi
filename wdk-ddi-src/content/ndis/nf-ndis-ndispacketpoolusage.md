@@ -55,7 +55,7 @@ This function returns the number of packet descriptors currently allocated from 
 
 ### -param PoolHandle [in]
 
-Specifies a handle returned by [NdisAllocatePacketPool](previous-versions/windows/embedded/aa447908(v=msdn.10)) or [NdisAllocatePacketPoolEx](nf-ndis-ndisallocatepacketpoolex.md).
+Specifies a handle returned by [NdisAllocatePacketPool]\(/previous-versions/windows/embedded/aa447908(v=msdn.10)) or [NdisAllocatePacketPoolEx](nf-ndis-ndisallocatepacketpoolex.md).
 
 ## -returns
 
@@ -71,10 +71,10 @@ An NDIS driver also can call this function to be sure that all descriptors have 
 
 ## -see-also
 
-- [NdisAllocatePacket](previous-versions/windows/hardware/network/ff550774(v=vs.85))
-- [NdisAllocatePacketPool](previous-versions/windows/embedded/aa447908(v=msdn.10))
+- [NdisAllocatePacket]\(/previous-versions/windows/hardware/network/ff550774(v=vs.85))
+- [NdisAllocatePacketPool]\(/previous-versions/windows/embedded/aa447908(v=msdn.10))
 - [NdisAllocatePacketPoolEx](nf-ndis-ndisallocatepacketpoolex.md)
-- [NdisDprAllocatePacket](previous-versions/windows/hardware/network/ff551932(v=vs.85))
-- [NdisDprAllocatePacketNonInterlocked](previous-versions/windows/hardware/network/ff551937(v=vs.85))
+- [NdisDprAllocatePacket]\(/previous-versions/windows/hardware/network/ff551932(v=vs.85))
+- [NdisDprAllocatePacketNonInterlocked]\(/previous-versions/windows/hardware/network/ff551937(v=vs.85))
 - [NdisFreePacketPool](nf-ndis-ndisfreepacketpool.md)
-- [NdisPacketSize](previous-versions/windows/embedded/aa448321(v=msdn.10))
+- [NdisPacketSize]\(/previous-versions/windows/embedded/aa448321(v=msdn.10))
