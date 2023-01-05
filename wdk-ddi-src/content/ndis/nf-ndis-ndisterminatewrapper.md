@@ -63,7 +63,7 @@ Pointer to an OS-specific type. For Windows 2000 and later drivers, this paramet
 
 ## -remarks
 
-From its **DriverEntry** function, a miniport driver calls [**NdisMInitializeWrapper**](https://msdn.microsoft.com/library/ff553547\(v=vs.85\)) to notify NDIS that the driver is about to register itself as a miniport driver. After **NdisMInitializeWrapper** successfully returns, the miniport driver calls either [**NdisMRegisterMiniport**](https://msdn.microsoft.com/library/ff553602\(v=vs.85\).md) or [**NdisIMRegisterLayeredMiniport**](nf-ndis-ndisimregisterlayeredminiport) to register its entry points with NDIS.
+From its **DriverEntry** function, a miniport driver calls [**NdisMInitializeWrapper**](https://msdn.microsoft.com/library/ff553547\(v=vs.85\)) to notify NDIS that the driver is about to register itself as a miniport driver. After **NdisMInitializeWrapper** successfully returns, the miniport driver calls either [**NdisMRegisterMiniport**](https://msdn.microsoft.com/library/ff553602\(v=vs.85\).md) or [**NdisIMRegisterLayeredMiniport**](nf-ndis-ndisimregisterlayeredminiport.md) to register its entry points with NDIS.
 
 If a miniport driver's call to **NdisMRegisterMiniport** or **NdisIMRegisterLayeredMiniport** does not return NDIS\_STATUS\_SUCCESS, the miniport driver must call **NdisTerminateWrapper**. Calling **NdisTerminateWrapper** causesNDIS to clean up the resources that it allocated when the miniport driver called **NdisMInitializeWrapper**.
 

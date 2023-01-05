@@ -70,7 +70,7 @@ VOID
 
 ## -remarks
 
-A driver calls **NdisMRegisterUnloadHandler** from its **DriverEntry** function after **DriverEntry** has called [**NdisMRegisterMiniport**](https://msdn.microsoft.com/library/ff553602\(v=vs.85\)) or [**NdisIMRegisterLayeredMiniport**](nf-ndis-ndisimregisterlayeredminiport). **NdisMRegisterUnloadHandler** registers an unload handler for the driver.
+A driver calls **NdisMRegisterUnloadHandler** from its **DriverEntry** function after **DriverEntry** has called [**NdisMRegisterMiniport**](https://msdn.microsoft.com/library/ff553602\(v=vs.85\)) or [**NdisIMRegisterLayeredMiniport**](nf-ndis-ndisimregisterlayeredminiport.md). **NdisMRegisterUnloadHandler** registers an unload handler for the driver.
 
 The functionality of the unload handler is driver-specific. For example, an intermediate driver should register an unload handler that calls [**NdisDeregisterProtocol**](nf-ndis-ndisderegisterprotocol.md) to deregister the protocol portion of the intermediate driver. The unload handler should also perform any necessary cleanup operations, such as deallocating resources used by the protocol portion of the driver.
 

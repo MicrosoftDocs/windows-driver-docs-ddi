@@ -71,7 +71,7 @@ Specifies the handle returned by **NdisOpenAdapter** that identifies the virtual
 
 Return value: None
 
-A protocol driver typically calls **NdisCloseAdapter** from its [**ProtocolUnbindAdapter**](https://msdn.microsoft.com/library/ff563260\(v=vs.85\)) function. It can also call **NdisCloseAdapter** from its [**ProtocolBindAdapter**](https://msdn.microsoft.com/library/ff562465\(v=vs.85\)) function, for example, if it failed to set an OID value after calling [**NdisOpenAdapter**](nf-ndis-ndisopenadapter) to set up a binding.
+A protocol driver typically calls **NdisCloseAdapter** from its [**ProtocolUnbindAdapter**](https://msdn.microsoft.com/library/ff563260\(v=vs.85\)) function. It can also call **NdisCloseAdapter** from its [**ProtocolBindAdapter**](https://msdn.microsoft.com/library/ff562465\(v=vs.85\)) function, for example, if it failed to set an OID value after calling [**NdisOpenAdapter**](nf-ndis-ndisopenadapter.md) to set up a binding.
 
 As soon as a protocol calls **NdisCloseAdapter**, the handle at *NdisBindingHandle* should be considered invalid by the caller. It is a programming error to pass this handle in any subsequent call to an *NdisXxx* function.
 

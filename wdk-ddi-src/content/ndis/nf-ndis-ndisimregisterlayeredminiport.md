@@ -205,42 +205,18 @@ Pointer to a variable in which **NdisIMRegisterLayeredMiniport**, if this call i
 
 **NdisIMRegisterLayeredMiniport** returns NDIS\_STATUS\_SUCCESS if it registered the caller as a miniport driver, or it can return one of the following status values:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Return code</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>NDIS_STATUS_BAD_CHARACTERISTICS</strong></td>
-<td><p>The <em>CharacteristicsLength</em> is too small for the <strong>MajorNdisVersion</strong> specified in the buffer at <em>MiniportCharacteristics</em>.</p></td>
-</tr>
-<tr class="even">
-<td><strong>NDIS_STATUS_BAD_VERSION</strong></td>
-<td><p>The <strong>MajorNdisVersion</strong> or <strong>MajorNdisVersion</strong> specified in the characteristics structure is invalid.</p></td>
-</tr>
-<tr class="odd">
-<td><strong>NDIS_STATUS_RESOURCES</strong></td>
-<td><p>A shortage of resources, possibly memory, prevented the NDIS library from registering the caller as a miniport driver.</p></td>
-</tr>
-<tr class="even">
-<td><strong>NDIS_STATUS_FAILURE</strong></td>
-<td><p>This is a default error status, returned when none of the preceding errors caused the registration to fail. For example, if the NDIS library cannot load the driver's image and lock it into system memory, it returns this error.</p></td>
-</tr>
-</tbody>
-</table>
+|Return code|Description|
+|--- |--- |
+|**NDIS_STATUS_BAD_CHARACTERISTICS**|The _CharacteristicsLength_ is too small for the **MajorNdisVersion** specified in the buffer at _MiniportCharacteristics_.|
+|**NDIS_STATUS_BAD_VERSION**|The **MajorNdisVersion** or **MajorNdisVersion** specified in the characteristics structure is invalid.|
+|**NDIS_STATUS_RESOURCES**|A shortage of resources, possibly memory, prevented the NDIS library from registering the caller as a miniport driver.|
+|**NDIS_STATUS_FAILURE**|This is a default error status, returned when none of the preceding errors caused the registration to fail. For example, if the NDIS library cannot load the driver's image and lock it into system memory, it returns this error.|
 
 ## -remarks
 
 Any NDIS intermediate driver that exports both *MiniportXxx* and *ProtocolXxx* functions sets up a characteristics structure and calls **NdisIMRegisterLayeredMiniport** from its **DriverEntry** function after **DriverEntry** calls [**NdisMInitializeWrapper**](https://msdn.microsoft.com/library/ff553547\(v=vs.85\)). This structure is copied in the **NdisIMRegisterLayeredMiniport** request to the NDIS library's internal storage. Thus, once it has registered, such a driver cannot change its handler functions.
 
-After such an NDIS intermediate driver has called **NdisIMRegisterLayeredMiniport** successfully, it must call [**NdisRegisterProtocol**](nf-ndis-ndisregisterprotocol.md) to register its *ProtocolXxx* functions with the NDIS library. Such a driver usually has both [**ProtocolBindAdapter**](https://msdn.microsoft.com/library/ff562465\(v=vs.85\)) and [**ProtocolUnbindAdapter**](https://msdn.microsoft.com/library/ff563260\(v=vs.85\)) functions. Its *ProtocolBindAdapter* function will be called next when the underlying NIC driver has initialized successfully. *ProtocolBindAdapter* then can establish a binding to that NIC driver with [**NdisOpenAdapter**](nf-ndis-ndisopenadapter).
+After such an NDIS intermediate driver has called **NdisIMRegisterLayeredMiniport** successfully, it must call [**NdisRegisterProtocol**](nf-ndis-ndisregisterprotocol.md) to register its *ProtocolXxx* functions with the NDIS library. Such a driver usually has both [**ProtocolBindAdapter**](https://msdn.microsoft.com/library/ff562465\(v=vs.85\)) and [**ProtocolUnbindAdapter**](https://msdn.microsoft.com/library/ff563260\(v=vs.85\)) functions. Its *ProtocolBindAdapter* function will be called next when the underlying NIC driver has initialized successfully. *ProtocolBindAdapter* then can establish a binding to that NIC driver with [**NdisOpenAdapter**](nf-ndis-ndisopenadapter.md).
 
 An NDIS intermediate driver should have a [**MiniportSendPackets**](https://msdn.microsoft.com/library/ff550524\(v=vs.85\)) function if an underlying NIC driver might support multipacket sends or consume media-specific information, such as packet priorities, sent down in a packet array from a higher-level protocol. An NDIS intermediate driver should have a [**MiniportReturnPacket**](https://msdn.microsoft.com/library/ff550510\(v=vs.85\)) function if an underlying NIC driver might support multipacket receive indications or indicate packet arrays containing media-specific information. The NDIS library handles packet arrays transferred between an underlying NIC driver and higher-level protocol that support only single-packet transfers on behalf of such an intermediate driver.
 

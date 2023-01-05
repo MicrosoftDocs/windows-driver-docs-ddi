@@ -90,7 +90,7 @@ A driver that calls this function runs at IRQL \<= DISPATCH\_LEVEL.
 
 ## -see-also
 
-- [NdisAllocatePacket](ms892685\(v=msdn.10\).md)
-- [NdisAllocatePacketPool](ms892686\(v=msdn.10\).md)
-- [NdisFreePacket](ms892703\(v=msdn.10\).md)
-- [NdisReleaseSpinLock](ms892867\(v=msdn.10\).md)
+- [NdisAllocatePacket](previous-versions/windows/hardware/network/ff550774(v=vs.85))
+- [NdisAllocatePacketPool](previous-versions/windows/hardware/network/ff550780(v=vs.85))
+- [NdisFreePacket](previous-versions/windows/hardware/network/ff551993(v=vs.85))
+- [NdisReleaseSpinLock](windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreleasespinlock)

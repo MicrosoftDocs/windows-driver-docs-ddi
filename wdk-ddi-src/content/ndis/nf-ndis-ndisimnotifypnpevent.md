@@ -55,7 +55,7 @@ helpviewer_keywords:
 
 ### -param MiniportHandle [in]
 
-The handle input to [**MiniportInitialize**](https://msdn.microsoft.com/library/ff550472\(v=vs.85\)). This handle represents the miniport driver affected by the Plug and Play or Power Management event passed to the caller's [**ProtocolPnPEvent**](ff563243\(v=vs.85\)) function.
+The handle input to [**MiniportInitialize**](https://msdn.microsoft.com/library/ff550472\(v=vs.85\)). This handle represents the miniport driver affected by the Plug and Play or Power Management event passed to the caller's [**ProtocolPnPEvent**](previous-versions/ms904757(v=msdn.10)) function.
 
 ### -param NetPnPEvent [in]
 
@@ -64,29 +64,10 @@ Pointer to a NET\_PNP\_EVENT structure, which describes the Plug and Play event 
 ## -returns
 
 **NdisIMNotifyPnPEvent** can return either of the following:
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Return code</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>NDIS_STATUS_SUCCESS</strong></td>
-<td><p>The overlying driver succeeded propagated Plug and Play event was succeeded.</p></td>
-</tr>
-<tr class="even">
-<td><strong>NDIS_STATUS_FAILURE</strong></td>
-<td><p>The overlying driver failed the propagated Plug and Play event.</p></td>
-</tr>
-</tbody>
-</table>
+|Return code|Description|
+|--|--|
+|NDIS_STATUS_SUCCESS|The overlying driver succeeded propagated Plug and Play event was succeeded.|
+|NDIS_STATUS_FAILURE|The overlying driver failed the propagated Plug and Play event.|
 
 The return value is significant only when the propagated event is a **NetEventQueryPower** or a **NetEventQueryRemove**. For all other propagated events, the return value is always NDIS\_STATUS\_SUCCESS.
 
