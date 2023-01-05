@@ -2,15 +2,14 @@
 UID: NF:wdm.TmRenameTransactionManager
 title: TmRenameTransactionManager function (wdm.h)
 description: The TmRenameTransactionManager routine changes the identity of the transaction manager object that is stored in the CLFS log file stream contained in the log file name.
-old-location: kernel\tmrenametransactionmanager_.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/13/2022
 keywords: ["TmRenameTransactionManager function"]
 ms.keywords: TmRenameTransactionManager, TmRenameTransactionManager , TmRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tmrenametransactionmanager_, wdm/TmRenameTransactionManager
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows Vista.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,26 +41,23 @@ api_name:
  - TmRenameTransactionManager
 ---
 
-# TmRenameTransactionManager function
-
-
 ## -description
 
-The <b>TmRenameTransactionManager</b> routine changes the identity of the transaction manager object that is stored in the <a href="/windows-hardware/drivers/kernel/windows-kernel-mode-clfs-library">CLFS</a> log file stream contained in the log file name.
-<div class="alert"><b>Warning</b>  Changing the identity of the transaction manger object might break any cross-log transactional links that may exist.</div><div> </div>
+The **TmRenameTransactionManager** routine changes the identity of the transaction manager object that is stored in the [CLFS](/windows-hardware/drivers/kernel/windows-kernel-mode-clfs-library) log file stream contained in the log file name.
+
+> [!WARNING]
+> Changing the identity of the transaction manger object might break any cross-log transactional links that may exist.
 
 ## -parameters
 
 ### -param LogFileName [in]
 
-
-A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path and file name of a <a href="/windows-hardware/drivers/kernel/windows-kernel-mode-clfs-library">CLFS</a> log file stream to be associated with the transaction manager object.
+A pointer to a [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains the path and file name of a [CLFS](/windows-hardware/drivers/kernel/windows-kernel-mode-clfs-library) log file stream to be associated with the transaction manager object.
 
 ### -param ExistingTransactionManagerGuid [in]
-
 
 A pointer to a GUID structure that represents the current name of the transaction manager object.
 
 ## -returns
 
-The <b>TmRenameTransactionManager</b> routine returns an NTSTATUS value. If the routine fails, it returns one of the following error codes:
+The **TmRenameTransactionManager** routine returns an NTSTATUS value. If the routine fails, it returns an error code.

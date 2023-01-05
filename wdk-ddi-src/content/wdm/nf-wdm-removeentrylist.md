@@ -2,15 +2,14 @@
 UID: NF:wdm.RemoveEntryList
 title: RemoveEntryList function (wdm.h)
 description: The RemoveEntryList routine removes an entry from a doubly linked list of LIST_ENTRY structures.
-old-location: kernel\removeentrylist.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/13/2022
 keywords: ["RemoveEntryList function"]
 ms.keywords: RemoveEntryList, RemoveEntryList routine [Kernel-Mode Driver Architecture], k109_138ddf01-d13f-4e36-9b66-c2e58914c170.xml, kernel.removeentrylist, wdm/RemoveEntryList
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,51 +41,38 @@ api_name:
 
 # RemoveEntryList function
 
-
 ## -description
 
-The <b>RemoveEntryList</b> routine removes an entry from a doubly linked list of <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structures.
+The **RemoveEntryList** routine removes an entry from a doubly linked list of [LIST_ENTRY](/windows/win32/api/ntdef/ns-ntdef-list_entry) structures.
 
 ## -parameters
 
 ### -param Entry [in]
 
-
-Pointer to the <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the entry to be removed.
+Pointer to the [LIST_ENTRY](/windows/win32/api/ntdef/ns-ntdef-list_entry) structure that represents the entry to be removed.
 
 ## -returns
 
-<b>RemoveEntryList</b> returns <b>TRUE</b> if, after removal of the designated entry, the list is empty. Otherwise, the routine returns <b>FALSE</b> to indicate that the resulting list still contains one or more entries. For information, see Remarks.
-
-<div class="alert"><b>Note</b>  Before Microsoft Windows Server 2003, <b>RemoveEntryList</b> was defined to return VOID, not BOOLEAN.</div>
-<div> </div>
+**RemoveEntryList** returns **TRUE** if, after removal of the designated entry, the list is empty. Otherwise, the routine returns **FALSE** to indicate that the resulting list still contains one or more entries. For information, see the **Remarks** section below.
 
 ## -remarks
 
-<b>RemoveEntryList</b> removes the entry by setting the <b>Flink</b> member of the entry before <i>Entry</i> to point to the entry after <i>Entry</i>, and the <b>Blink</b> member of the entry after <i>Entry</i> to point to the entry before <i>Entry</i>.
+**RemoveEntryList** removes the entry by setting the **Flink** member of the entry before *Entry* to point to the entry after *Entry*, and the **Blink** member of the entry after *Entry* to point to the entry before *Entry*.
 
 The return value can be used to detect when the last entry is removed from the list. An empty list consists of a list head only and no list entries.
 
-<div class="alert"><b>Note</b>  Typically, <i>Entry</i> points to an entry in a list and not to the list head. However, <i>Entry</i> can point to a list head, in which case the routine removes the list head from the list to produce a headless list. When <b>RemoveEntryList</b> is used in this way, the return value should typically be ignored. To determine whether a list is empty, use the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-islistempty">IsListEmpty</a> routine.</div>
-<div> </div>
-For information about using this routine when implementing a doubly linked list, see <a href="/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
+Typically, *Entry* points to an entry in a list and not to the list head. However, *Entry* can point to a list head, in which case the routine removes the list head from the list to produce a headless list. When **RemoveEntryList** is used in this way, the return value should typically be ignored. To determine whether a list is empty, use the [IsListEmpty](/windows-hardware/drivers/ddi/wdm/nf-wdm-islistempty) routine.
 
-In Windows XP and Windows 2000, <b>RemoveEntryList</b> did not return a value. Starting with Windows Server 2003, <b>RemoveEntryList</b> returns a BOOLEAN value.
+For information about using this routine when implementing a doubly linked list, see [Singly and Doubly Linked Lists](/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists).
 
-Callers of <b>RemoveEntryList</b> can be running at any IRQL. If <b>RemoveEntryList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for the list entries must be resident.
+Callers of **RemoveEntryList** can be running at any IRQL. If **RemoveEntryList** is called at IRQL >= DISPATCH_LEVEL, the storage for the list entries must be resident.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-initializelisthead">InitializeListHead</a>
+[InitializeListHead](/windows-hardware/drivers/ddi/wdm/nf-wdm-initializelisthead)
 
+[IsListEmpty](/windows-hardware/drivers/ddi/wdm/nf-wdm-islistempty)
 
+[RemoveHeadList](/windows-hardware/drivers/ddi/wdm/nf-wdm-removeheadlist)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-islistempty">IsListEmpty</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-removeheadlist">RemoveHeadList</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-removetaillist">RemoveTailList</a>
+[RemoveTailList](/windows-hardware/drivers/ddi/wdm/nf-wdm-removetaillist)

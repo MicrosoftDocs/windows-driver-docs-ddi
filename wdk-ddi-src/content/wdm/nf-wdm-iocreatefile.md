@@ -77,7 +77,7 @@ Optionally specifies the initial allocation size in bytes for the file. A nonzer
 ### -param FileAttributes [in]
 
 
-Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is FILE_ATTRIBUTE_NORMAL, which can be overridden by an ORed combination of one or more FILE_ATTRIBUTE_*XXX* flags, which are defined in Wdm.h. For a list of flags that can be used with **IoCreateFile**, see [**CreateFile**](/windows/win32/api/fileapi/nf-fileapi-createfilea) in the Microsoft Windows SDK documentation.
+Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is FILE_ATTRIBUTE_NORMAL, which can be overridden by an ORed combination of one or more FILE_ATTRIBUTE_*XXX* flags, which are defined in Wdm.h. For a list of flags that can be used with **IoCreateFile**, see [**CreateFile**](/windows/win32/api/fileapi/nf-fileapi-createfilea).
 
 ### -param ShareAccess [in]
 

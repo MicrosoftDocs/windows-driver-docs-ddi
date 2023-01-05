@@ -2,15 +2,14 @@
 UID: NF:wdm.ZwUnloadDriver
 title: ZwUnloadDriver function (wdm.h)
 description: The ZwUnloadDriver routine unloads a driver from the system.
-old-location: kernel\zwunloaddriver.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/15/2022
 keywords: ["ZwUnloadDriver function"]
 ms.keywords: NtUnloadDriver, ZwUnloadDriver, ZwUnloadDriver routine [Kernel-Mode Driver Architecture], k111_72ac4415-d46c-4ea2-9d6c-d66903082808.xml, kernel.zwunloaddriver, wdm/NtUnloadDriver, wdm/ZwUnloadDriver
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,45 +39,42 @@ api_name:
  - ZwUnloadDriver
 ---
 
-# ZwUnloadDriver function
-
 ## -description
 
-The <b>ZwUnloadDriver</b> routine unloads a driver from the system. <i>Use this routine with extreme caution. (See the following </i><b>Remarks</b><i> section.)</i>
+The **ZwUnloadDriver** routine unloads a driver from the system. Use this routine with extreme caution (see the **Remarks** section below).
 
 ## -parameters
 
 ### -param DriverServiceName [in]
 
-
-Pointer to a counted Unicode string that specifies a path to the driver's registry key, `\Registry\Machine\System\CurrentControlSet\Services\<DriverName>`, where <i>DriverName</i> is the name of the driver.
+Pointer to a counted Unicode string that specifies a path to the driver's registry key, `\Registry\Machine\System\CurrentControlSet\Services\<DriverName>`, where *DriverName* is the name of the driver.
 
 ## -returns
 
-<b>ZwUnloadDriver</b> returns STATUS_SUCCESS or an error NTSTATUS value such as STATUS_INVALID_DEVICE_REQUEST.
+**ZwUnloadDriver** returns STATUS_SUCCESS or an error NTSTATUS value such as STATUS_INVALID_DEVICE_REQUEST.
 
-If the driver specified in <i>DriverServiceName</i> has no <i>DriverUnload</i> callback routine set in its [DRIVER_OBJECT](./ns-wdm-_driver_object.md) structure, <b>ZwUnloadDriver</b> returns STATUS_INVALID_DEVICE_REQUEST.
+If the driver specified in *DriverServiceName* has no *DriverUnload* callback routine set in its [**DRIVER_OBJECT**](./ns-wdm-_driver_object.md) structure, **ZwUnloadDriver** returns STATUS_INVALID_DEVICE_REQUEST.
 
 ## -remarks
 
-<b>ZwUnloadDriver</b> dynamically unloads a device or file system driver from the currently running system. It is not recommended that a driver call <b>ZwUnloadDriver</b> on itself.
+**ZwUnloadDriver** dynamically unloads a device or file system driver from the currently running system. It is not recommended that a driver call **ZwUnloadDriver** on itself.
 
-<i>Note that a file system filter driver cannot safely be unloaded from a running system. Thus a filter should only use </i><b><i>ZwUnloadDriver</i></b><i> for debugging purposes. It should not call this routine in a retail version of the filter. </i>
+A file system filter driver cannot safely be unloaded from a running system. Thus a filter should only use **ZwUnloadDriver** for debugging purposes. It should not call this routine in a retail version of the filter.
 
-If <i>DriverName</i> is the name of a PnP device driver, <b>ZwUnloadDriver</b> returns STATUS_INVALID_DEVICE_REQUEST and does not unload the driver.
+If *DriverName* is the name of a PnP device driver, **ZwUnloadDriver** returns STATUS_INVALID_DEVICE_REQUEST and does not unload the driver.
 
-A minifilter should use <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltunloadfilter">FltUnloadFilter</a> instead of <b>ZwUnloadDriver</b> to unload a supporting minifilter.
+A minifilter should use [FltUnloadFilter](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltunloadfilter) instead of **ZwUnloadDriver** to unload a supporting minifilter.
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwUnloadDriver</b> function occurs in user mode, you should use the name "<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwunloaddriver">NtUnloadDriver</a>" instead of "<b>ZwUnloadDriver</b>".</div>
-<div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+If the call to the **ZwUnloadDriver** function occurs in user mode, you should use the name "[NtUnloadDriver](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwunloaddriver)" instead of "**ZwUnloadDriver**".
+
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltunloadfilter">FltUnloadFilter</a>
+[FltUnloadFilter](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltunloadfilter)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitunicodestring">RtlInitUnicodeString</a>
+[RtlInitUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitunicodestring)
 
-<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+[**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
-<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
+[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)

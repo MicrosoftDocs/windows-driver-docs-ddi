@@ -1,16 +1,15 @@
 ---
 UID: NF:wdm.IoUnregisterPlugPlayNotification
 title: IoUnregisterPlugPlayNotification function (wdm.h)
-description: This routine is obsolete in Windows 7 and later versions of Windows. For more information, see the following Remarks section.The IoUnregisterPlugPlayNotification routine removes the registration of a driver's callback routine for a PnP event.
-old-location: kernel\iounregisterplugplaynotification.htm
+description: This routine is obsolete in Windows 7 and later versions of Windows. The IoUnregisterPlugPlayNotification routine removes the registration of a driver's callback routine for a PnP event.
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/12/2022
 keywords: ["IoUnregisterPlugPlayNotification function"]
 ms.keywords: IoUnregisterPlugPlayNotification, IoUnregisterPlugPlayNotification routine [Kernel-Mode Driver Architecture], k104_7235d17c-b6f8-406a-b896-36478354ca73.xml, kernel.iounregisterplugplaynotification, wdm/IoUnregisterPlugPlayNotification
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,33 +39,29 @@ api_name:
  - IoUnregisterPlugPlayNotification
 ---
 
-# IoUnregisterPlugPlayNotification function
-
-
 ## -description
 
-This routine is <u>obsolete</u> in Windows 7 and later versions of Windows. For more information, see the following Remarks section.
+This routine is obsolete in Windows 7 and later versions of Windows. For more information, see the **Remarks** section below.
 
-The <b>IoUnregisterPlugPlayNotification</b> routine removes the registration of a driver's callback routine for a PnP event.
+The **IoUnregisterPlugPlayNotification** routine removes the registration of a driver's callback routine for a PnP event.
 
 ## -parameters
 
 ### -param NotificationEntry [in]
 
-
-Pointer to an opaque value representing the registration to be removed. The value was returned by a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>.
+Pointer to an opaque value representing the registration to be removed. The value was returned by a previous call to [IoRegisterPlugPlayNotification](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification).
 
 ## -returns
 
-<b>IoUnregisterPlugPlayNotification</b> always returns STATUS_SUCCESS if <i>NotificationEntry </i>is valid.
+**IoUnregisterPlugPlayNotification** always returns STATUS_SUCCESS if *NotificationEntry* is valid.
 
 ## -remarks
 
-In Windows 7 and later versions of Windows, this function is obsolete and is provided only to support existing drivers. Use the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotificationex">IoUnregisterPlugPlayNotificationEx</a> routine instead.
+In Windows 7 and later versions of Windows, this function is obsolete and is provided only to support existing drivers. Use the [IoUnregisterPlugPlayNotificationEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotificationex) routine instead.
 
-<div class="alert"><b>Note</b>    The system does not synchronize between the execution of the notification routine and <b>IoUnregisterPlugPlayNotification</b>. Therefore, the routine can be called after the <b>IoUnregisterPlugPlayNotification</b> method has returned. If necessary, a driver should implement its own mechanism to ignore any notifications after <b>IoUnregisterPlugPlayNotification</b> has been called.</div>
-<div> </div>
-<b>IoUnregisterPlugPlayNotification</b> removes one PnP notification registration; that is, the registration of one driver callback routine for one PnP event category.
+The system does not synchronize between the execution of the notification routine and **IoUnregisterPlugPlayNotification**. Therefore, the routine can be called after the **IoUnregisterPlugPlayNotification** method has returned. If necessary, a driver should implement its own mechanism to ignore any notifications after **IoUnregisterPlugPlayNotification** has been called.
+
+**IoUnregisterPlugPlayNotification** removes one PnP notification registration; that is, the registration of one driver callback routine for one PnP event category.
 
 Drivers should unregister a notification first, then free any related context buffer.
 
@@ -74,8 +69,6 @@ A driver cannot be unloaded until it removes all of its PnP notification registr
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>
+[IoRegisterPlugPlayNotification](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotificationex">IoUnregisterPlugPlayNotificationEx</a>
+[IoUnregisterPlugPlayNotificationEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotificationex)
