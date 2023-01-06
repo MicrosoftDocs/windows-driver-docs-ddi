@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatListRetrieveNextFormat
 tech.root: audio
 title: AcxDataFormatListRetrieveNextFormat
-ms.date: 05/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatListRetrieveNextFormat function gets the next ACX data format when iterating an ACX data format list.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdataformat.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -81,4 +81,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 - [AcxDataFormatListRemoveDataFormat](nf-acxdataformat-acxdataformatlistremovedataformat.md)
 - [AcxDataFormatListRetrieveDefaultDataFormat](nf-acxdataformat-acxdataformatlistretrievedefaultdataformat.md)
 - [acxdataformat.h header](index.md)
-

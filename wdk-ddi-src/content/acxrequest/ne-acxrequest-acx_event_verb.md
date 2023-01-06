@@ -76,7 +76,7 @@ Example usage is shown below.
 
 ```cpp
             //
-            // Format and send the request. 
+            // Format and send the request.
             //
             ACX_REQUEST_PARAMETERS_INIT_METHOD(
                 &params,
@@ -99,4 +99,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxrequest.h header](index.md)
-

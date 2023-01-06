@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamGetNotificationId
 tech.root: audio
 title: AcxStreamGetNotificationId
-ms.date: 11/09/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamGetNotificationId function retrieves the Plug and Play notification ID for the specified audio stream.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

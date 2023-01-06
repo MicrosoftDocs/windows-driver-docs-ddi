@@ -48,7 +48,7 @@ The **ACX_AUDIOMODULE_CALLBACKS_INIT** function initializes the [ACX_AUDIOMODULE
 
 ### -param Callbacks
 
-An [ACX_AUDIOMODULE_CALLBACKS](ns-acxelements-acx_audiomodule_callbacks.md) structure. 
+An [ACX_AUDIOMODULE_CALLBACKS](ns-acxelements-acx_audiomodule_callbacks.md) structure.
 
 ## -remarks
 
@@ -69,6 +69,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 ## -see-also
 
-- [acxelements.h header](index.md)
-
-
+- [acxelements.h header\]\(index.md\)

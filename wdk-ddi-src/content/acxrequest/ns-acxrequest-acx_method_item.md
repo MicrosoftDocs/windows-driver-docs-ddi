@@ -50,7 +50,7 @@ The **ACX_METHOD_ITEM** structure describes a method item that is the target of 
 
 ### -field Set
 
-Specifies a GUID that identifies a KS (kernel streaming) method item set. 
+Specifies a GUID that identifies a KS (kernel streaming) method item set.
 
 ### -field Id
 
@@ -120,4 +120,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxrequest.h header](index.md)
-

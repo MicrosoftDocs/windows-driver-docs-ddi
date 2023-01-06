@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetStreamGetElementsCount
 tech.root: audio
 title: AcxTargetStreamGetElementsCount
-ms.date: 07/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetStreamGetElementsCount function given an ACXTARGETSTREAM object, returns its number of ACX elements.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxtargets.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -56,12 +56,6 @@ Returns the number of elements for the specified target stream.
 
 ## -remarks
 
-### Example
-
-```cpp
-
-```
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0
@@ -71,4 +65,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxtargets.h header](index.md)
- 

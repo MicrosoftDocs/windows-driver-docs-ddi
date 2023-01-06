@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **AcxStreamBridge** structure is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments. 
+The **AcxStreamBridge** structure is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments.
 
 ## -struct-fields
 
@@ -64,11 +64,11 @@ The [ACX_STREAM_BRIDGE_TYPE](ne-acxstreams-acx_stream_bridge_type.md) enum that 
 
 The number of AUDIO_SIGNALPROCESSINGMODEs listed in InModes. These are the signal processing modes accepted as input by ACXSTREAMBRIDGE. For more information about audio modes, see [Audio Signal Processing Modes](/windows-hardware/drivers/audio/audio-signal-processing-modes).
 
-This field can be zero only if the InModes field is set to NULL. 
+This field can be zero only if the InModes field is set to NULL.
 
 ### -field InModes
 
-A pointer to a list of AUDIO_SIGNALPROCESSINGMODE pointers supported by ACXSTREAMBRIDGE. 
+A pointer to a list of AUDIO_SIGNALPROCESSINGMODE pointers supported by ACXSTREAMBRIDGE.
 This field can be NULL. A NULL GUID is a wild card value and it matches any AUDIO_SIGNALPROCESSINGMODEs.
 
 If the input signal processing modes are not defined, the ACXSTREAMBRIDGE does not automatically match any mode. In this case, it is up to the driver to manually add the input stream to the stream bridge.
@@ -107,7 +107,7 @@ Example usage is shown below.
         ACX_STREAM_BRIDGE_CONFIG    bridgeCfg;
     
         ACX_STREAM_BRIDGE_CONFIG_INIT(&bridgeCfg);
-        bridgeCfg.InModesCount = 0;     // no in-modes. this stream-bridge is manually managed. 
+        bridgeCfg.InModesCount = 0;     // no in-modes. this stream-bridge is manually managed.
         bridgeCfg.InModes      = NULL; 
         bridgeCfg.OutMode      = NULL;  // no mode, i.e., default (1st), raw (2nd) or no mode (3rd).
         bridgeCfg.Flags       |= AcxStreamBridgeInvertChangeStateSequence;

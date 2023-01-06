@@ -53,7 +53,7 @@ A pointer to the [ACX_STREAM_BRIDGE_CONFIG](ns-acxstreams-acx_stream_bridge_conf
 ## -remarks
 
 Drivers should call ACX_STREAM_BRIDGE_CONFIG_INIT when creating an ACXSTREAMBRIDGE.
-This function resets the [ACX_STREAM_BRIDGE_CONFIG structure](ns-acxstreams-acx_stream_bridge_config.md) and initializes the Type field to AcxStreamBridgeDefaultType. 
+This function resets the [ACX_STREAM_BRIDGE_CONFIG structure](ns-acxstreams-acx_stream_bridge_config.md) and initializes the Type field to AcxStreamBridgeDefaultType.
 
 ### Example
 

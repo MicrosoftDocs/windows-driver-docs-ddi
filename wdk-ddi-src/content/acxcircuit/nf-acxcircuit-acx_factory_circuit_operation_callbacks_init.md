@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT
 ms.date: 07/28/2022
 targetos: Windows
-description: The ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT function initializes a ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS config structure. 
+description: The ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT function initializes a ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS config structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function

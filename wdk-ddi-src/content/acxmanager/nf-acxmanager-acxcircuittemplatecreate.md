@@ -2,7 +2,7 @@
 UID: NF:acxmanager.AcxCircuitTemplateCreate
 tech.root: audio
 title: AcxCircuitTemplateCreate
-ms.date: 04/27/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxCircuitTemplateCreate function is used to create a circuit template for use by the audio class extension (ACX) manager.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxmanager.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -81,4 +81,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 - [ACX_CIRCUIT_TEMPLATE_CONFIG](ns-acxmanager-acx_circuit_template_config.md)
 - [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)
 - [acxmanager.h header](index.md)
-

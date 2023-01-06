@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceRemoveFactoryCircuit
 tech.root: audio
 title: AcxDeviceRemoveFactoryCircuit
-ms.date: 01/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDeviceRemoveFactoryCircuit function removes a factory circuit for creating audio circuits from a WDFDEVICE.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdevice.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -72,8 +72,7 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 ## -see-also
 
-* [AcxDeviceAddFactoryCircuit](nf-acxdevice-acxdeviceaddfactorycircuit.md)
-* [AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
-* [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
-* [acxdevice.h header](index.md)
-
+- [AcxDeviceAddFactoryCircuit](nf-acxdevice-acxdeviceaddfactorycircuit.md)
+- [AcxDeviceRemoveCircuit](nf-acxdevice-acxdeviceremovecircuit.md)
+- [AcxDeviceRemoveCircuitDevice](nf-acxdevice-acxdeviceremovecircuitdevice.md)
+- [acxdevice.h header](index.md)

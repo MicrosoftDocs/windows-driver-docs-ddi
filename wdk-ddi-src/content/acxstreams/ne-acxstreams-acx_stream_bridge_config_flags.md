@@ -47,11 +47,11 @@ The Acx Stream Bridge config has no flags.
 
 ### -field AcxStreamBridgeInvertChangeStateSequence
 
-Use this flag to invert the stream state change notification sequence. 
+Use this flag to invert the stream state change notification sequence.
 
 **Default endpoint stream state change when going from STOP to RUN:**
 
-- For a render endpoints, ACX notifies each circuit's stream of a multi-circuit endpoint, starting with the stream of the streaming circuit and ending with the stream of circuit with the device bring pin. 
+- For a render endpoints, ACX notifies each circuit's stream of a multi-circuit endpoint, starting with the stream of the streaming circuit and ending with the stream of circuit with the device bring pin.
 
 - For a capture endpoints, ACX notifies each circuit's stream of a multi-circuit endpoint, starting with the stream of the circuit with the device bridge pin and ending with the stream of the streaming circuit.
 
@@ -59,7 +59,7 @@ Use this flag to invert the stream state change notification sequence.
 
 - For a render endpoints, ACX notifies each circuit's stream of a multi-circuit endpoint, starting with the stream of the circuit with the device bridge pin and ending with the stream of the streaming circuit.
 
-- For a capture endpoints, ACX notifies each circuit's stream of a multi-circuit endpoint, starting with the stream of the streaming circuit and ending with the stream of circuit with the device bring pin. 
+- For a capture endpoints, ACX notifies each circuit's stream of a multi-circuit endpoint, starting with the stream of the streaming circuit and ending with the stream of circuit with the device bring pin.
 
 **Inverted sequence when going from STOP to RUN:**
 
@@ -69,7 +69,7 @@ For a capture endpoints, ACX notifies each circuit's stream of a multi-circuit e
 
 **Inverted sequence when going from RUN to STOP:**
 
-- For a render endpoints, ACX notifies each circuit's stream of a multi-circuit endpoint, starting with the stream of the streaming circuit and ending with the stream of circuit with the device bring pin. 
+- For a render endpoints, ACX notifies each circuit's stream of a multi-circuit endpoint, starting with the stream of the streaming circuit and ending with the stream of circuit with the device bring pin.
 
 - For a capture endpoints, ACX notifies each circuit's stream of a multi-circuit endpoint, starting with the stream of the circuit with the device bridge pin and ending with the stream of the streaming circuit.
 
@@ -96,12 +96,11 @@ Example usage is shown below.
     streamCfg.OutMode      = NULL;  // no mode, i.e., default (1st) and raw (2nd).
     streamCfg.OutStreamVarArguments = objBag;
 
-    // Reverse the change-state sequence notifications. 
+    // Reverse the change-state sequence notifications.
     streamCfg.Flags       |= AcxStreamBridgeInvertChangeStateSequence;
 
     status = AcxStreamBridgeCreate(circuit, &attributes, &streamCfg, &streamBridge);
 ```
-
 
 ### ACX requirements
 
@@ -112,4 +111,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxstreams.h header](index.md)
-

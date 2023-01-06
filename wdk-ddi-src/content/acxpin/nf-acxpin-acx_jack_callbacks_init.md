@@ -62,4 +62,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 - [ACX_JACK_CALLBACKS](ns-acxpin-acx_jack_callbacks.md)
 - [acxpin.h header](index.md)
-

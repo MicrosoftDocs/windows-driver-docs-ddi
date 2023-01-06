@@ -91,6 +91,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

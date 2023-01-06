@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxEventCreate
 tech.root: audio
 title: AcxEventCreate
-ms.date: 06/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxEventCreate function creates an event.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxevents.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -52,7 +52,7 @@ An ACXOBJECT that is described in [Summary of ACX Objects](/windows-hardware/dri
 
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) that are used to set the various object’s values: cleanup and destroy callbacks, context type, and to specify its parent object.
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) that are used to set the various object's values: cleanup and destroy callbacks, context type, and to specify its parent object.
 
 ### -param Config
 
@@ -111,4 +111,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxevents.h header](index.md)
-

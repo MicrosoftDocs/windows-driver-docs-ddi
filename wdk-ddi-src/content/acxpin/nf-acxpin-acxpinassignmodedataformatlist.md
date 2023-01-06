@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinAssignModeDataFormatList
 tech.root: audio
 title: AcxPinAssignModeDataFormatList
-ms.date: 03/25/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxPinAssignModeDataFormatList function assigns a mode data format list to the specified pin.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxpin.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -72,6 +72,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 ## -see-also
 
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

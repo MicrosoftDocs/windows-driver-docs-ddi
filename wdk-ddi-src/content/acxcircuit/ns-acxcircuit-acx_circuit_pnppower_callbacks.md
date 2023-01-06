@@ -106,4 +106,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 [AcxCircuitInitSetAcxCircuitPnpPowerCallbacks method](nf-acxcircuit-acxcircuitinitsetacxcircuitpnppowercallbacks.md)
 
 - [acxcircuit.h header](index.md)
-

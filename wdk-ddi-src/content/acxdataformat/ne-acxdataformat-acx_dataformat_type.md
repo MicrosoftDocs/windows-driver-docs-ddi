@@ -64,4 +64,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [acxdataformat.h header](index.md)
-

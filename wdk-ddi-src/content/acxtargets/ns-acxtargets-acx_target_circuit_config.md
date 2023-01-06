@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_TARGET_CIRCUIT_CONFIG
 ms.date: 07/22/2022
 targetos: Windows
-description: The ACX_TARGET_CIRCUIT_CONFIG structure is used to define the target circuit configuration. 
+description: The ACX_TARGET_CIRCUIT_CONFIG structure is used to define the target circuit configuration.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -64,12 +64,6 @@ Pointer to a Unicode string that contains the name of the symbolic link for the 
 
 ## -remarks
 
-### Example
-
-```cpp
-
-```
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0
@@ -79,4 +73,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxtargets.h header](index.md)
-

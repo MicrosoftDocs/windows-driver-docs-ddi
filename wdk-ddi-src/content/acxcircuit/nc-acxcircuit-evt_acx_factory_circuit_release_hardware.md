@@ -2,9 +2,9 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE
-ms.date: 06/16/2022
+ms.date: 12/14/2022
 targetos: Windows
-description: The EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to add functionality when an ACXFACTORYCIRCUIT is in the release hardware phase. 
+description: The EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to add functionality when an ACXFACTORYCIRCUIT is in the release hardware phase.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE** callback is used by the driver to add functionality when an ACXFACTORYCIRCUIT is in the release hardware phase. 
+The **EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE** callback is used by the driver to add functionality when an ACXFACTORYCIRCUIT is in the release hardware phase.
 
 ## -parameters
 
@@ -88,16 +88,6 @@ For more information about hardware resources, see [Introduction to Hardware Res
 
 For more information about drivers that provide this callback function, see [Supporting PnP and Power Management in Function Driver](/windows-hardware/drivers/wdf/supporting-pnp-and-power-management-in-function-drivers).
 
-### Example
-
-Example usage is shown below.
-
-Sample pending.
-
-```cpp
-
-```
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0
@@ -107,5 +97,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-

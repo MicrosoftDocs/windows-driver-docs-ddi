@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_AUDIOMODULE_CONFIG
 ms.date: 04/29/2022
 targetos: Windows
-description: The ACX_AUDIOMODULE_CONFIG structure is used to define the audio module configuration. 
+description: The ACX_AUDIOMODULE_CONFIG structure is used to define the audio module configuration.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_AUDIOMODULE_CONFIG** structure is used to define the audio module configuration. 
+The **ACX_AUDIOMODULE_CONFIG** structure is used to define the audio module configuration.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 ### -field Flags
 
-Audio module configuration flags defined by the [ACX_AUDIOMODULE_CONFIG_FLAGS enum](ne-acxelements-acx_audiomodule_config_flags.md). 
+Audio module configuration flags defined by the [ACX_AUDIOMODULE_CONFIG_FLAGS enum](ne-acxelements-acx_audiomodule_config_flags.md).
 
 No flag bits are currently defined. Set this member to zero - AcxAudioModuleConfigNoFlags
 
@@ -113,6 +113,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 ## -see-also
 
-- [acxelements.h header](index.md)
-
-
+- [acxelements.h header\]\(index.md\)

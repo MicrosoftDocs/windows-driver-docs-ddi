@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxJackCreate
 tech.root: audio
 title: AcxJackCreate
-ms.date: 03/25/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxJackCreate function creates and initializes a new audio jack object.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxpin.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -78,6 +78,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 - [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md)
 - [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

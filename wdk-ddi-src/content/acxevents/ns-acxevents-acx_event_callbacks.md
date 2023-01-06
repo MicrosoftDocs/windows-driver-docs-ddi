@@ -50,7 +50,7 @@ The **ACX_EVENT_CALLBACKS** structure identifies the driver callbacks for ACX ev
 
 ### -field Size
 
-The length, in bytes, of this structure. 
+The length, in bytes, of this structure.
 
 ### -field EvtAcxEventEnable
 
@@ -98,4 +98,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxevents.h header](index.md)
-

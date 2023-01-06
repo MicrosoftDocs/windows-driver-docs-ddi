@@ -96,6 +96,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 ## -see-also
 
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

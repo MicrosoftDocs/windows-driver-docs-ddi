@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitAddPins
 tech.root: audio
 title: AcxCircuitAddPins
-ms.date: 06/16/2022
+ms.date: 12/14/2022
 targetos: Windows
-description: The AcxCircuitAddPins function adds pins to an ACXCIRCUIT. 
+description: The AcxCircuitAddPins function adds pins to an ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -66,7 +66,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 An ACXCIRCUIT has at least an input pin (ACXPIN) and an output pin (ACXPIN), and it may aggregate one or more ACXELEMENTs.
 
-Each ACXCIRCUIT has at least one Sink pin and one Source pin. These pins are used by the ACX framework to expose the circuit’s connections to the audio stack. For a Render circuit, the Source pin is used to control the render behavior (device properties) of any stream created from the circuit. For a Capture circuit, the Sink pin is used to control the capture behavior (device properties) of any stream created from the circuit.
+Each ACXCIRCUIT has at least one Sink pin and one Source pin. These pins are used by the ACX framework to expose the circuit's connections to the audio stack. For a Render circuit, the Source pin is used to control the render behavior (device properties) of any stream created from the circuit. For a Capture circuit, the Sink pin is used to control the capture behavior (device properties) of any stream created from the circuit.
 
 ACXPIN is the object used to control streaming in the Audio Path. For simple ACXCIRCUIT toplogies, ACX is able to automatically create the other ACXPIN if only one is present.
 
@@ -89,7 +89,7 @@ Example usage is shown below.
     status = AcxDataFormatListAddDataFormat(formatList, formatPcm16000c1);
   
     //
-    // Add the default streaming pin, using default pin id. 
+    // Add the default streaming pin, using default pin id.
     //
     status = AcxCircuitAddPins(circuit, &(pin[1]), 1);
 ```
@@ -103,4 +103,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

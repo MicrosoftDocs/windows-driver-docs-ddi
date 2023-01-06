@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitInitDisableDefaultStreamBridgeHandling
 tech.root: audio
 title: AcxCircuitInitDisableDefaultStreamBridgeHandling
-ms.date: 08/17/2021
+ms.date: 12/14/2022
 targetos: Windows
-description: The AcxCircuitInitDisableDefaultStreamBridgeHandling function disables the ACX default stream bridge handling in a multi-circuit environment. 
+description: The AcxCircuitInitDisableDefaultStreamBridgeHandling function disables the ACX default stream bridge handling in a multi-circuit environment.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -84,4 +84,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

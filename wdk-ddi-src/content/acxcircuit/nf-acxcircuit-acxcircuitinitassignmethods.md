@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignMethods
 tech.root: audio
 title: AcxCircuitInitAssignMethods
-ms.date: 08/01/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitInitAssignMethods function assigns one or more ACX methods for the ACXCIRCUIT.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

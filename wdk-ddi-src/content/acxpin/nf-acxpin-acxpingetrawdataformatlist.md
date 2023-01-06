@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinGetRawDataFormatList
 tech.root: audio
 title: AcxPinGetRawDataFormatList
-ms.date: 04/11/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxPinGetRawDataFormatList function returns the raw mode data format list for the specified pin.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxpin.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -67,6 +67,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [ACXDATAFORMATLIST](../acxdataformat/index.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

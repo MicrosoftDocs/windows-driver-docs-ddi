@@ -61,6 +61,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [ACX_MICROPHONE_CONFIG](ns-acxpin-acx_microphone_config.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

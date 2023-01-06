@@ -2,7 +2,7 @@
 UID: NF:acxdriver.AcxDriverIsVersionAvailable
 tech.root: audio
 title: AcxDriverIsVersionAvailable
-ms.date: 01/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDriverIsVersionAvailable function returns a Boolean value indicating if the specified driver version is available.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdriver.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -89,7 +89,6 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 ## -see-also
 
-* [ACX_DRIVER_VERSION_AVAILABLE_PARAMS](ns-acxdriver-acx_driver_version_available_params.md)
-* [ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT](nf-acxdriver-acx_driver_version_available_params_init.md)
-* [acxdriver.h header](index.md)
-
+- [ACX_DRIVER_VERSION_AVAILABLE_PARAMS](ns-acxdriver-acx_driver_version_available_params.md)
+- [ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT](nf-acxdriver-acx_driver_version_available_params_init.md)
+- [acxdriver.h header](index.md)

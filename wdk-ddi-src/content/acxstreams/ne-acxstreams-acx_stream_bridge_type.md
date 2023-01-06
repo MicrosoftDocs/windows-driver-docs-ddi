@@ -43,7 +43,7 @@ The **ACX_STREAM_BRIDGE_TYPE** enumeration describes the Acx Stream Bridge Type.
 
 ### -field AcxStreamBridgeInvalidType
 
-The Acx Stream Bridge is an InvalidType. 
+The Acx Stream Bridge is an InvalidType.
 
 ### -field AcxStreamBridgeMux
 

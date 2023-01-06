@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitSetComponentId
 tech.root: audio
 title: AcxCircuitInitSetComponentId
-ms.date: 07/28/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitInitSetComponentId function sets the component ID for the ACXCIRCUIT.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -52,7 +52,7 @@ The ACXCIRCUIT_INIT structure that defines the circuit initialization. ACXCIRCUI
 
 ### -param ComponentId
 
-A pointer to a defined GUID that serves as the component ID for the circuit. 
+A pointer to a defined GUID that serves as the component ID for the circuit.
 
 ## -remarks
 
@@ -83,4 +83,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

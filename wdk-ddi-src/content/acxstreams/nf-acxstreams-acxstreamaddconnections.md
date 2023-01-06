@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamAddConnections
 tech.root: audio
 title: AcxStreamAddConnections
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamAddConnections function adds explicit connections to a new ACX stream during EvtAcxCircuitCreateStream
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -56,7 +56,7 @@ An [ACX_CONNECTION structure](..\acxpin\ns-acxpin-acx_connection.md) that contai
 
 ### -param ConnectionsCount
 
-The number of connections that are in the stream. This is a 1 based count. 
+The number of connections that are in the stream. This is a 1 based count.
 
 ## -returns
 
@@ -102,4 +102,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxstreams.h header](index.md)
-

@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitSetCircuitType
 tech.root: audio
 title: AcxCircuitInitSetCircuitType
-ms.date: 07/28/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitInitSetCircuitType function is used to set the circuit type of the ACXCIRCUIT.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -65,7 +65,7 @@ Example usage is shown below.
 
         // The driver uses this DDI to specify the circuit type. The
         // circuit type can be AcxCircuitTypeRender, AcxCircuitTypeCapture,
-        // AcxCircuitTypeOther, or AcxCircuitTypeMaximum (for validation). 
+        // AcxCircuitTypeOther, or AcxCircuitTypeMaximum (for validation).
         //
         AcxCircuitInitSetCircuitType(circuitInit, AcxCircuitTypeRender);
 ```
@@ -79,4 +79,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

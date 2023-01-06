@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_VOLUME_CONFIG
 ms.date: 04/29/2022
 targetos: Windows
-description: The ACX_VOLUME_CONFIG structure is used to define the acx volume configuration. 
+description: The ACX_VOLUME_CONFIG structure is used to define the acx volume configuration.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_VOLUME_CONFIG** structure is used to define the acx volume configuration. 
+The **ACX_VOLUME_CONFIG** structure is used to define the acx volume configuration.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 ### -field Flags
 
-Acx volume configuration flags defined by the [ACX_VOLUME_CONFIG_FLAGS enum](ne-acxelements-acx_volume_config_flags.md). 
+Acx volume configuration flags defined by the [ACX_VOLUME_CONFIG_FLAGS enum](ne-acxelements-acx_volume_config_flags.md).
 
 No flag bits are currently defined. Set this member to zero - AcxVolumeConfigNoFlags
 
@@ -117,6 +117,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 ## -see-also
 
-- [acxelements.h header](index.md)
-
-
+- [acxelements.h header\]\(index.md\)

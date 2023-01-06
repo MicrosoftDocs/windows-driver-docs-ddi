@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_ELEMENT_CONFIG
 ms.date: 08/01/2022
 targetos: Windows
-description: The ACX_ELEMENT_CONFIG structure is used to define the audio element configuration. 
+description: The ACX_ELEMENT_CONFIG structure is used to define the audio element configuration.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_ELEMENT_CONFIG** structure is used to define the acx element configuration. 
+The **ACX_ELEMENT_CONFIG** structure is used to define the acx element configuration.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 ### -field Flags
 
-Acx element configuration flags defined by the [ACX_ELEMENT_CONFIG_FLAGS enum](ne-acxelements-acx_element_config_flags.md). 
+Acx element configuration flags defined by the [ACX_ELEMENT_CONFIG_FLAGS enum](ne-acxelements-acx_element_config_flags.md).
 
 No flag bits are currently defined. Set this member to zero - AcxAudioElementConfigNoFlags
 
@@ -84,7 +84,7 @@ An [ACX_PROPERTY_ITEM structure](/windows-hardware/drivers/ddi/acxrequest/ns-acx
 
 ### -field Methods
 
-An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_method_item) structure that defines the methods for this acx element configuration. 
+An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_method_item) structure that defines the methods for this acx element configuration.
 
 ## -remarks
 
@@ -112,6 +112,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 ## -see-also
 
-- [acxelements.h header](index.md)
-
-
+- [acxelements.h header\]\(index.md\)

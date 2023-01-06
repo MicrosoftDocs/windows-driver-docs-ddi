@@ -62,4 +62,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 - [ACX_DATAFORMAT_LIST_CONFIG](ns-acxdataformat-acx_dataformat_list_config.md)
 - [acxdataformat.h header](index.md)
-

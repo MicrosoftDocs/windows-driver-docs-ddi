@@ -2,7 +2,7 @@
 UID: NF:acxmanager.AcxManagerAddCompositeTemplate
 tech.root: audio
 title: AcxManagerAddCompositeTemplate
-ms.date: 04/27/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxManagerAddCompositeTemplate function adds the specified composite template to the specified ACXMANAGER.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxmanager.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -71,4 +71,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxmanager.h header](index.md)
-

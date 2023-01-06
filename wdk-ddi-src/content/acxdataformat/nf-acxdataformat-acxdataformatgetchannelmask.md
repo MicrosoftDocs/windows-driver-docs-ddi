@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetChannelMask
 tech.root: audio
 title: AcxDataFormatGetChannelMask
-ms.date: 05/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetChannelMask function gets the channel mask for the specified data format.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdataformat.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -84,4 +84,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 - [Channel Mask](/windows-hardware/drivers/audio/channel-mask)
 - [acxdataformat.h header](index.md)
-

@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetCircuitGetSymbolicLinkName
 tech.root: audio
 title: AcxTargetCircuitGetSymbolicLinkName
-ms.date: 11/09/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetCircuitGetSymbolicLinkName function retrieves the symbolic link name for the specifies ACX target circuit.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxtargets.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

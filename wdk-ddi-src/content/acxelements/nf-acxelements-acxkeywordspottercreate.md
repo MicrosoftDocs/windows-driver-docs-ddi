@@ -1,10 +1,10 @@
 ---
 UID: NF:acxelements.AcxKeywordSpotterCreate
-tech.root: audio 
+tech.root: audio
 title: AcxKeywordSpotterCreate
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
-description: The AcxKeywordSpotterCreate function is used to create an ACX keyword spotter object that that will be associated with a circuit device object parent. 
+description: The AcxKeywordSpotterCreate function is used to create an ACX keyword spotter object that that will be associated with a circuit device object parent.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **AcxKeywordSpotterCreate** function is used to create an ACX keyword spotter object that that will be associated with a circuit device object parent. 
+The **AcxKeywordSpotterCreate** function is used to create an ACX keyword spotter object that that will be associated with a circuit device object parent.
 
 ## -parameters
 
 ### -param Object
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit. 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit.
 
 ### -param Attributes
 
@@ -60,7 +60,7 @@ An initialized [ACX_KEYWORDSPOTTER_CONFIG structure](ns-acxelements-acx_keywords
 
 ### -param KeywordSpotter
 
-A pointer to a location that receives the handle to the newly created ACXKEYWORDSPOTTER object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+A pointer to a location that receives the handle to the newly created ACXKEYWORDSPOTTER object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -78,14 +78,14 @@ Example usage is shown below.
     keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignArm = CodecC_EvtAcxKeywordSpotterAssignArm;
     keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignPatterns = CodecC_EvtAcxKeywordSpotterAssignPatterns;
     keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignReset = CodecC_EvtAcxKeywordSpotterAssignReset;
-    
+
     ACX_KEYWORDSPOTTER_CONFIG_INIT(&keywordSpotterCfg);
     keywordSpotterCfg.Pattern = &CONTOSO_KEYWORDCONFIGURATION_IDENTIFIER2;
     keywordSpotterCfg.Callbacks = &keywordSpotterCallbacks;
-    
+
     WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, CODEC_KEYWORDSPOTTER_CONTEXT);
     attributes.ParentObject = Circuit;
-    
+
     status = AcxKeywordSpotterCreate(Circuit, &attributes, &keywordSpotterCfg, Element);
 ```
 
@@ -98,5 +98,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-

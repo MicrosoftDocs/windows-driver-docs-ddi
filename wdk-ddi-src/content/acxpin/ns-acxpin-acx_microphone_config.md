@@ -88,6 +88,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 - [ACX_MICROPHONE_CONFIG_FLAGS](ne-acxpin-acx_microphone_config_flags.md)
 - [ACX_MIC_ARRAY_GEOMETRY](ns-acxpin-acx_mic_array_geometry.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

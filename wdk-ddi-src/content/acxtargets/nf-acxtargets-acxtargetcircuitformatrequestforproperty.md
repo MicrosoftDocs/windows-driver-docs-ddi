@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetCircuitFormatRequestForProperty
 tech.root: audio
 title: AcxTargetCircuitFormatRequestForProperty
-ms.date: 08/01/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetCircuitFormatRequestForProperty formats a WDFREQUEST as an ACX property request to be used on specified circuit target.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxtargets.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -92,4 +92,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxtargets.h header](index.md)
- 

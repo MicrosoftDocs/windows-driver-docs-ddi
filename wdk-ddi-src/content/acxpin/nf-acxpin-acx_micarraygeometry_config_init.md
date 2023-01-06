@@ -61,6 +61,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [ACX_MICARRAYGEOMETRY_CONFIG](ns-acxpin-acx_micarraygeometry_config.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

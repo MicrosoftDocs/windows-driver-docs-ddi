@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **ACX_PEAKMETER_CALLBACKS_INIT** function initializes a [ACX_PEAKMETER_CALLBACKS structure](ns-acxelements-acx_peakmeter_callbacks.md). 
+The **ACX_PEAKMETER_CALLBACKS_INIT** function initializes a [ACX_PEAKMETER_CALLBACKS structure](ns-acxelements-acx_peakmeter_callbacks.md).
 
 ## -parameters
 
 ### -param Callbacks
 
-A pointer to an initialized [ACX_PEAKMETER_CALLBACKS structure](ns-acxelements-acx_peakmeter_callbacks.md). 
+A pointer to an initialized [ACX_PEAKMETER_CALLBACKS structure](ns-acxelements-acx_peakmeter_callbacks.md).
 
 ## -remarks
 
@@ -69,6 +69,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 ## -see-also
 
-- [acxelements.h header](index.md)
-
-
+- [acxelements.h header\]\(index.md\)

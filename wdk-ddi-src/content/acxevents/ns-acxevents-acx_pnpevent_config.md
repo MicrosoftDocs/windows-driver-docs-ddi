@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_PNPEVENT_CONFIG
 ms.date: 06/22/2022
 targetos: Windows
-description: The ACX_PNPEVENT_CONFIG structure is used to configure an ACXPNPEVENT. 
+description: The ACX_PNPEVENT_CONFIG structure is used to configure an ACXPNPEVENT.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,13 +44,13 @@ dev_langs:
 
 ## -description
 
-The **ACX_PNPEVENT_CONFIG** structure is used to configure an ACXPNPEVENT. 
+The **ACX_PNPEVENT_CONFIG** structure is used to configure an ACXPNPEVENT.
 
 ## -struct-fields
 
 ### -field Size
 
-The length, in bytes, of this structure. 
+The length, in bytes, of this structure.
 
 ### -field Flags
 
@@ -62,7 +62,7 @@ A GUID that is used to identify the event.
 
 ## -remarks
 
-The Event GUID is automatically retrieved from the ACXAUDIOMODULE and ACXKEYWORDSPOTTER when the event is associated with these two types of objects. 
+The Event GUID is automatically retrieved from the ACXAUDIOMODULE and ACXKEYWORDSPOTTER when the event is associated with these two types of objects.
 
 ### Example
 
@@ -88,4 +88,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxevents.h header](index.md)
-

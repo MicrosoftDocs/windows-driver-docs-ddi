@@ -2,9 +2,9 @@
 UID: NF:acxstreams.AcxStreamStopIo
 tech.root: audio
 title: AcxStreamStopIo
-ms.date: 07/22/2022
+ms.date: 12/16/2022
 targetos: Windows
-description: The AcxStreamStopIo function is used to temporarily stop the IO for a stream. 
+description: The AcxStreamStopIo function is used to temporarily stop the IO for a stream.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxStreamStopIo** function is used to stop the IO for a stream. 
+The **AcxStreamStopIo** function is used to stop the IO for a stream.
 
 ## -parameters
 
@@ -69,4 +69,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxstreams.h header](index.md)
-

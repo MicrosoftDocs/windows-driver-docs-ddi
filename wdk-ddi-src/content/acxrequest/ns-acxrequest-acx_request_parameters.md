@@ -87,7 +87,7 @@ Parameters for [KS Properties](/windows-hardware/drivers/stream/ks-properties) a
 
 ### -field Parameters.Property.Set
 
-Specifies a GUID that identifies a kernel streaming property set. 
+Specifies a GUID that identifies a kernel streaming property set.
 
 ### -field Parameters.Property.Id
 
@@ -123,7 +123,7 @@ The count in bytes (size) of the Property.Value buffer.
 
 ### -field Parameters.Method
 
-Parameters used for a [KS Methods](/windows-hardware/drivers/stream/ks-methods) request. 
+Parameters used for a [KS Methods](/windows-hardware/drivers/stream/ks-methods) request.
 
 ### -field Parameters.Method.Set
 

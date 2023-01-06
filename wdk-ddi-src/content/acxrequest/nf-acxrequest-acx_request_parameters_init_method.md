@@ -56,7 +56,7 @@ A method Set ID (GUID).
 
 ### -param Id
 
-A method ID (ULONG) within the method Set ID. 
+A method ID (ULONG) within the method Set ID.
 
 ### -param Verb
 
@@ -97,7 +97,7 @@ Example usage is shown below.
             result  = 0;
 
             //
-            // Format and send the request. 
+            // Format and send the request.
             //
             ACX_REQUEST_PARAMETERS_INIT_METHOD(
                 &params,
@@ -119,6 +119,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 ## -see-also
 
-- [acxrequest.h header](index.md)
-
-
+- [acxrequest.h header\]\(index.md\)

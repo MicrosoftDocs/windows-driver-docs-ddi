@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_KEYWORDSPOTTER_CONFIG
 ms.date: 04/29/2022
 targetos: Windows
-description: The ACX_KEYWORDSPOTTER_CONFIG structure is used to define the audio keyword spotter configuration. 
+description: The ACX_KEYWORDSPOTTER_CONFIG structure is used to define the audio keyword spotter configuration.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_KEYWORDSPOTTER_CONFIG** structure is used to define the acx keyword spotter configuration. 
+The **ACX_KEYWORDSPOTTER_CONFIG** structure is used to define the acx keyword spotter configuration.
 
 ## -struct-fields
 

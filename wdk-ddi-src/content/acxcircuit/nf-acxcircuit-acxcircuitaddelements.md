@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitAddElements
 tech.root: audio
 title: AcxCircuitAddElements
-ms.date: 06/16/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitAddElements function adds elements to an ACXCIRCUIT.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -64,8 +64,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-The driver can only add elements to a circuit before the circuit is added to the device. 
-The driver cannot change the circuit's elements at run time. 
+The driver can only add elements to a circuit before the circuit is added to the device.
+The driver cannot change the circuit's elements at run time.
 
 ### Example
 
@@ -97,5 +97,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-

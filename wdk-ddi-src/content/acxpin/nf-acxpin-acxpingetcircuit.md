@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinGetCircuit
 tech.root: audio
 title: AcxPinGetCircuit
-ms.date: 04/11/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxPinGetCircuit function returns the circuit to which the pin is connected.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxpin.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -65,6 +65,4 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [ACXCIRCUIT](../acxcircuit/index.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

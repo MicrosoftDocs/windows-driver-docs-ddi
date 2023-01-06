@@ -50,7 +50,7 @@ The **ACX_CIRCUIT_COMPOSITE_CALLBACKS** structure identifies the driver callback
 
 ### -field Size
 
-The length, in bytes, of this structure. 
+The length, in bytes, of this structure.
 
 ### -field EvtAcxCircuitCompositeCircuitInitialize
 
@@ -92,4 +92,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

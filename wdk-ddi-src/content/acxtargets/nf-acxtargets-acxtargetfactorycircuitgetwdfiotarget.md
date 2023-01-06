@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetFactoryCircuitGetWdfIoTarget
 tech.root: audio
 title: AcxTargetFactoryCircuitGetWdfIoTarget
-ms.date: 07/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetFactoryCircuitGetWdfIoTarget given an existing ACXTARGETFACTORYCIRCUIT object, returns its corresponding WDFIOTARGET object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxtargets.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -56,12 +56,6 @@ Returns the WDFIOTARGET object associated with the ACXTARGETFACTORYCIRCUIT.
 
 ## -remarks
 
-### Example
-
-```cpp
-
-```
-
 ### ACX requirements
 
 **Minimum ACX version:** 1.0
@@ -71,5 +65,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxtargets.h header](index.md)
- 
- 

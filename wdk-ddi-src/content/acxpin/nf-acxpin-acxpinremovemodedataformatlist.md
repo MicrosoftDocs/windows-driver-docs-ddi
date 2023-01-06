@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinRemoveModeDataFormatList
 tech.root: audio
 title: AcxPinRemoveModeDataFormatList
-ms.date: 09/29/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxPinRemoveModeDataFormatList function deletes the mode data format list for the specified pin.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxpin.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

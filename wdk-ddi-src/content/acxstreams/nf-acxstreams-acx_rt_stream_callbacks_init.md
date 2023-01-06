@@ -2,7 +2,7 @@
 UID: NF:acxstreams.ACX_RT_STREAM_CALLBACKS_INIT
 tech.root: audio
 title: ACX_RT_STREAM_CALLBACKS_INIT
-ms.date: 07/28/2022
+ms.date: 10/31/2022
 targetos: Windows
 description: The ACX_RT_STREAM_CALLBACKS_INIT function method initializes the ACX RT stream callbacks. This function is located in the acxstreams header.
 prerelease: true
@@ -48,7 +48,7 @@ The **ACX_RT_STREAM_CALLBACKS_INIT** function initializes the ACX RT stream call
 
 ### -param Callbacks
 
-An [ACX_RT_STREAM_CALLBACKS](ns-acxstreams-acx_rt_stream_callbacks.md) structure. 
+An [ACX_RT_STREAM_CALLBACKS](ns-acxstreams-acx_rt_stream_callbacks.md) structure.
 
 ## -remarks
 

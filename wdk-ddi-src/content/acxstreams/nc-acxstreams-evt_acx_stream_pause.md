@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_PAUSE
 tech.root: audio
 title: EVT_ACX_STREAM_PAUSE
-ms.date: 07/28/2022
+ms.date: 10/31/2022
 targetos: Windows
 description: The EvtAcxStreamPause event tells the driver to transition the stream state from Run to Pause.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -48,7 +48,7 @@ The **EvtAcxStreamPause** event tells the driver to transition the stream state 
 
 ### -param Stream
 
-An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit's elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -72,7 +72,6 @@ ACX Events are analogous to KS states as described in this table.
 | RUN         | PAUSE     | Pause                   |                                                       |
 | PAUSE       | ACQUIRE   | (No call)               |                                                       |
 | ACQUIRE     | STOP      | ReleaseHardware         | Driver releases hardware allocations                  |
-
 
 ### Example
 
@@ -120,5 +119,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 - [EVT_ACX_STREAM_PREPARE_HARDWARE](nc-acxstreams-evt_acx_stream_prepare_hardware.md)
 - [EVT_ACX_STREAM_RUN_HARDWARE](nc-acxstreams-evt_acx_stream_run.md)
 - [EVT_ACX_STREAM_RELEASE_HARDWARE](nc-acxstreams-evt_acx_stream_release_hardware.md)
-
-

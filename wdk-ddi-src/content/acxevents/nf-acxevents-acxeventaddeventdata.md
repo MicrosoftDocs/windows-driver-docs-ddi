@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxEventAddEventData
 tech.root: audio
 title: AcxEventAddEventData
-ms.date: 06/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxEventAddEventData function adds event data to an ACXEVENT object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxevents.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -76,6 +76,8 @@ CodecR_EvtMuteElementChangeEventCallback(
 {
 ...
         AcxEventAddEventData(Event, EventData);
+...
+}
 ```
 
 ### ACX requirements
@@ -87,4 +89,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxevents.h header](index.md)
-

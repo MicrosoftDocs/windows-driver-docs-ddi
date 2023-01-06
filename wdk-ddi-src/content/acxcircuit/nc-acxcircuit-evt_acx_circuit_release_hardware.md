@@ -2,9 +2,9 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_RELEASE_HARDWARE
 tech.root: audio
 title: EVT_ACX_CIRCUIT_RELEASE_HARDWARE
-ms.date: 11/02/2021
+ms.date: 12/14/2022
 targetos: Windows
-description: The EVT_ACX_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to add functionality when an ACXCIRCUIT is in the release hardware phase. 
+description: The EVT_ACX_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to add functionality when an ACXCIRCUIT is in the release hardware phase.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_CIRCUIT_RELEASE_HARDWARE** callback is used by the driver to add functionality when an ACXCIRCUIT is in the release hardware phase. 
+The **EVT_ACX_CIRCUIT_RELEASE_HARDWARE** callback is used by the driver to add functionality when an ACXCIRCUIT is in the release hardware phase.
 
 ## -parameters
 
 ### -param Device
 
-A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT. 
+A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT.
 
 ### -param Circuit
 
@@ -87,7 +87,6 @@ For more information about when the ACX and WDF framework call these callback fu
 For more information about hardware resources, see [Introduction to Hardware Resources](/windows-hardware/drivers/wdf/introduction-to-hardware-resources).
 
 For more information about drivers that provide this callback function, see [Supporting PnP and Power Management in Function Driver](/windows-hardware/drivers/wdf/supporting-pnp-and-power-management-in-function-drivers).
-
 
 ### Example
 
@@ -131,5 +130,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-

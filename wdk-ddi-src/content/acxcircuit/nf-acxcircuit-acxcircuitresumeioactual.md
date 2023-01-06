@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitResumeIoActual
 tech.root: audio
 title: AcxCircuitResumeIoActual
-ms.date: 07/28/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitResumeIoActual function is used to resume circuit I/O after it has been stopped.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -75,4 +75,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

@@ -42,8 +42,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT** function initializes a 
-[ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS](ns-acxcircuit-acx_factory_circuit_pnppower_callbacks.md) structure. No inputs are used with this function.
+The **ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT** function initializes a [ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS](ns-acxcircuit-acx_factory_circuit_pnppower_callbacks.md) structure. No inputs are used with this function.
 
 ## -parameters
 
@@ -53,18 +52,7 @@ A pointer to an initialized [ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS structure](n
 
 ## -remarks
 
-NOTE: at this time ACX doesn't support the PNP callbacks for a circuit factory object.
-
-### Example
-
-Example usage is shown below.
-
-Sample pending.
-
-```cpp
-
-
-```
+ACX doesn't support the PNP callbacks for a circuit factory object.
 
 ### ACX requirements
 
@@ -75,4 +63,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

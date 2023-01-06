@@ -93,4 +93,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxrequest.h header](index.md)
-

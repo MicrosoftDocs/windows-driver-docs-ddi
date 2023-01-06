@@ -2,9 +2,9 @@
 UID: NF:acxstreams.AcxStreamResumeIoWithTag
 tech.root: audio
 title: AcxStreamResumeIoWithTag
-ms.date: 11/09/2022
+ms.date: 12/16/2022
 targetos: Windows
-description: The AcxStreamResumeIoWithTag function is used to resume IO for a stream. 
+description: The AcxStreamResumeIoWithTag function is used to resume IO for a stream.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

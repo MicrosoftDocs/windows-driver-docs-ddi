@@ -50,7 +50,7 @@ The **ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS** structure identifies the driver 
 
 ### -field Size
 
-The length, in bytes, of this structure. 
+The length, in bytes, of this structure.
 
 ### -field EvtAcxFactoryCircuitCreateCircuitDevice
 
@@ -93,4 +93,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

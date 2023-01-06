@@ -1,8 +1,8 @@
 ---
 UID: NF:acxelements.AcxStreamAudioEngineCreate
-tech.root: audio 
+tech.root: audio
 title: AcxStreamAudioEngineCreate
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxStreamAudioEngineCreate function is used to create an ACX stream audio engine object that will be associated with an ACX stream object parent.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -48,7 +48,7 @@ The **AcxStreamAudioEngineCreate** function is used to create an ACX stream audi
 
 ### -param Stream
 
-An ACXSTREAM object that represents an audio stream on a specific circuit’s hardware. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXSTREAM object that represents an audio stream on a specific circuit's hardware. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param AudioEngine
 
@@ -104,5 +104,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-

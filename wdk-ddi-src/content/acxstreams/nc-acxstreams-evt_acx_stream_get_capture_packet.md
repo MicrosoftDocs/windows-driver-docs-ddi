@@ -2,9 +2,9 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_GET_CAPTURE_PACKET
 tech.root: audio
 title: EVT_ACX_STREAM_GET_CAPTURE_PACKET
-ms.date: 07/28/2022
+ms.date: 10/31/2022
 targetos: Windows
-description: EvtAcxStreamGetCapturePacket tells the driver to indicate which packet (0-based) was completely filled most recently, including the QPC value at the time the driver started filling the packet. 
+description: EvtAcxStreamGetCapturePacket tells the driver to indicate which packet (0-based) was completely filled most recently, including the QPC value at the time the driver started filling the packet.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,21 +42,21 @@ dev_langs:
 
 ## -description
 
-**EvtAcxStreamGetCapturePacket** tells the driver to indicate which packet (0-based) was completely filled most recently, including the QPC value at the time the driver started filling the packet. 
+**EvtAcxStreamGetCapturePacket** tells the driver to indicate which packet (0-based) was completely filled most recently, including the QPC value at the time the driver started filling the packet.
 
 ## -parameters
 
 ### -param Stream
 
-An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit's elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param LastCapturePacket
 
-A value indicating the position of the last captured packet. This is a 0-based index indicating how many complete packets of data have been captured. 
+A value indicating the position of the last captured packet. This is a 0-based index indicating how many complete packets of data have been captured.
 
 ### -param QPCPacketStart
 
-A value indicating the start time of the last captured packet. 
+A value indicating the start time of the last captured packet.
 
 ### -param MoreData
 
@@ -118,4 +118,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxstreams.h header](index.md)
-

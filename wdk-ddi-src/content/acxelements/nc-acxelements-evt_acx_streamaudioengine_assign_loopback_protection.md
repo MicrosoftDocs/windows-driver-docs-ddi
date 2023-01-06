@@ -1,10 +1,10 @@
 ---
 UID: NC:acxelements.EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION
-tech.root: audio 
+tech.root: audio
 title: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
-description: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION is implemented by the driver and is called when the loopback protection status is set for a stream audio engine node. 
+description: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION is implemented by the driver and is called when the loopback protection status is set for a stream audio engine node.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -52,7 +52,7 @@ An existing, initialized, ACXSTREAMAUDIOENGINE object. For more information abou
 
 ### -param ConstrictorOption
 
-The [ACX_CONSTRICTOR_OPTION](ne-acxelements-acx_constrictor_option.md) that specifies the loopback protection status of the stream audio engine. The status can either be set to AcxConstrictorOptionNone or AcxConstrictorOptionMute. If there are any active streams with AcxConstrictorOptionMute in effect, then the loopback tap for this audio output will emit silence. If all the active stream have AcxConstrictorOptionNone in effect, then the loopback tap contains meaningful data. 
+The [ACX_CONSTRICTOR_OPTION](ne-acxelements-acx_constrictor_option.md) that specifies the loopback protection status of the stream audio engine. The status can either be set to AcxConstrictorOptionNone or AcxConstrictorOptionMute. If there are any active streams with AcxConstrictorOptionMute in effect, then the loopback tap for this audio output will emit silence. If all the active stream have AcxConstrictorOptionNone in effect, then the loopback tap contains meaningful data.
 
 ## -returns
 
@@ -104,5 +104,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-

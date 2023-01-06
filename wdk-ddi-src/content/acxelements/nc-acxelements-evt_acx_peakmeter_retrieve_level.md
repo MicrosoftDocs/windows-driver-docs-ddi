@@ -1,8 +1,8 @@
 ---
 UID: NC:acxelements.EVT_ACX_PEAKMETER_RETRIEVE_LEVEL
-tech.root: audio 
+tech.root: audio
 title: EVT_ACX_PEAKMETER_RETRIEVE_LEVEL
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The EVT_ACX_PEAKMETER_RETRIEVE_LEVEL callback function is implemented by the driver and is called when the level of a specified channel on a peakmeter node is requested.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -48,15 +48,15 @@ The **EVT_ACX_PEAKMETER_RETRIEVE_LEVEL** callback function is implemented by the
 
 ### -param PeakMeter
 
-An existing, initialized, ACXPEAKMETER object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+An existing, initialized, ACXPEAKMETER object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Channel
 
-A ULONG referring to a channel on the specified peakmeter node. If this value is -1, then it refers to the master channel which sets the level for all channels on the peakmeter node. 
+A ULONG referring to a channel on the specified peakmeter node. If this value is -1, then it refers to the master channel which sets the level for all channels on the peakmeter node.
 
 ### -param Level
 
-A LONG value that indicates the maximum audio signal level that occurred for the specified channel on the peakmeter node since the last time the peakmeter node was reset. 
+A LONG value that indicates the maximum audio signal level that occurred for the specified channel on the peakmeter node since the last time the peakmeter node was reset.
 
 ## -returns
 

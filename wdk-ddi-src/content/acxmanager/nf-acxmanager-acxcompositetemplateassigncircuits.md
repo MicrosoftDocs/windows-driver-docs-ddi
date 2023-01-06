@@ -13,7 +13,7 @@ req.dll:
 req.header: acxmanager.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -75,4 +75,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 - [AcxCircuitTemplateCreate](nf-acxmanager-acxcircuittemplatecreate.md)
 - [AcxCompositeTemplateCreate](nf-acxmanager-acxcompositetemplatecreate.md)
 - [acxmanager.h header](index.md)
-

@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatCreate
 tech.root: audio
 title: AcxDataFormatCreate
-ms.date: 05/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatCreate function is used to create a data format for use by an audio class extension (ACX) driver.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdataformat.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -80,4 +80,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 - [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
 - [ACX_DATAFORMAT_CONFIG](ns-acxdataformat-acx_dataformat_config.md)
 - [acxdataformat.h header](index.md)
-

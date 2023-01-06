@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignAcxRequestPreprocessCallback
 tech.root: audio
 title: AcxCircuitInitAssignAcxRequestPreprocessCallback
-ms.date: 08/01/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitInitAssignAcxRequestPreprocessCallback function add a WDFREQUEST preprocess callback.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -123,4 +123,3 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

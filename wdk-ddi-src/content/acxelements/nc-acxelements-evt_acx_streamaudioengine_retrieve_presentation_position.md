@@ -1,8 +1,8 @@
 ---
 UID: NC:acxelements.EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_PRESENTATION_POSITION
-tech.root: audio 
+tech.root: audio
 title: EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_PRESENTATION_POSITION
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_PRESENTATION_POSITION callback function is implemented by the driver and is called to retrieve the current position within the audio data being rended to the stream audio engine node.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -52,11 +52,11 @@ An existing, initialized, ACXSTREAMAUDIOENGINE object. For more information abou
 
 ### -param PositionInBlocks
 
-Specifies the block offset from the start of the stream to the current post-decoded, uncompressed position in the stream. See [KSAUDIO_PRESENTATION_POSITION structure](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_presentation_position) for more information on this value. 
+Specifies the block offset from the start of the stream to the current post-decoded, uncompressed position in the stream. See [KSAUDIO_PRESENTATION_POSITION structure](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_presentation_position) for more information on this value.
 
 ### -param QPCPosition
 
-Specifies the value of the performance counter at the time that the audio driver reads the presentation position in response to the callback.  See [KSAUDIO_PRESENTATION_POSITION structure](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_presentation_position) for more information on this value. 
+Specifies the value of the performance counter at the time that the audio driver reads the presentation position in response to the callback.  See [KSAUDIO_PRESENTATION_POSITION structure](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_presentation_position) for more information on this value.
 
 ## -returns
 
