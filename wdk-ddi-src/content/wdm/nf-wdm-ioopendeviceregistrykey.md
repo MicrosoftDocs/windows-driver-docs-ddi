@@ -3,7 +3,7 @@ UID: NF:wdm.IoOpenDeviceRegistryKey
 title: IoOpenDeviceRegistryKey function (wdm.h)
 description: The IoOpenDeviceRegistryKey routine returns a handle to a registry state location for a particular device instance.
 tech.root: kernel
-ms.date: 11/11/2022
+ms.date: 01/03/2023
 keywords: ["IoOpenDeviceRegistryKey function"]
 ms.keywords: IoOpenDeviceRegistryKey, IoOpenDeviceRegistryKey routine [Kernel-Mode Driver Architecture], k104_7b6ab819-56e3-4d4a-956a-51e4a83300f0.xml, kernel.ioopendeviceregistrykey, wdm/IoOpenDeviceRegistryKey
 req.header: wdm.h
@@ -65,7 +65,7 @@ Open the device's software key, a device-specific registry state location for st
 
 #### PLUGPLAY_REGKEY_CURRENT_HWPROFILE
 
-**Note**: Hardware profiles are deprecated and state should not be stored relative to a hardware profile.
+Hardware profiles are deprecated and state should not be stored relative to a hardware profile.
 
 Open a key relative to the current hardware profile for device or driver information. This allows the driver to access configuration information that is hardware-profile-specific. The caller must specify either PLUGPLAY_REGKEY_DEVICE or PLUGPLAY_REGKEY_DRIVER with this flag.
 

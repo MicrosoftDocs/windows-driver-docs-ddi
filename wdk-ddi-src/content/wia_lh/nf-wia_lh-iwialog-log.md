@@ -3,7 +3,7 @@ UID: NF:wia_lh.IWiaLog.Log
 title: IWiaLog::Log (wia_lh.h)
 description: The IWiaLog::Log (wia_lh.h) method is obsolete and is no longer supported. Use the Diagnostic Log Macros instead.
 tech.root: image
-ms.date: 11/09/2022
+ms.date: 01/04/2023
 keywords: ["IWiaLog::Log"]
 ms.keywords: IWiaLog interface [Imaging Devices],Log method, IWiaLog.Log, IWiaLog::Log, IWiaLog_e3605b5e-0494-46a7-85c1-3a0707a74764.xml, Log, Log method [Imaging Devices], Log method [Imaging Devices],IWiaLog interface, image.iwialog_log, wia_lh/IWiaLog::Log
 req.header: wia_lh.h
@@ -41,8 +41,7 @@ api_name:
 
 ## -description
 
-> [!IMPORTANT]
-> The **IWiaLog::Log** method is obsolete and is no longer supported. Use the [**Diagnostic Log Macros**](/windows-hardware/drivers/image/wia-diagnostic-log-macros) instead.
+The **IWiaLog::Log** method is obsolete and is no longer supported. Use the [**Diagnostic Log Macros**](/windows-hardware/drivers/image/wia-diagnostic-log-macros) instead.
 
 The **IWiaLog::Log** method writes a diagnostic log message to *Wiaservc.log*.
 

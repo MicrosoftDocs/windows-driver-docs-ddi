@@ -3,7 +3,7 @@ UID: NS:miniport._IO_RESOURCE_DESCRIPTOR
 title: IO_RESOURCE_DESCRIPTOR (miniport.h)
 description: The _IO_RESOURCE_DESCRIPTOR structure (miniport.h) describes a range of raw hardware resources, of one type, that can be used by a device.
 tech.root: kernel
-ms.date: 11/17/2022
+ms.date: 01/04/2023
 keywords: ["IO_RESOURCE_DESCRIPTOR structure"]
 ms.keywords: "*PIO_RESOURCE_DESCRIPTOR, 0, CM_RESOURCE_CONNECTION_CLASS_GPIO, CM_RESOURCE_CONNECTION_CLASS_SERIAL, CM_RESOURCE_CONNECTION_TYPE_GPIO_IO, CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C, CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI, CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART, CM_RESOURCE_INTERRUPT_LATCHED, CM_RESOURCE_INTERRUPT_LEVEL_SENSITIVE, CM_RESOURCE_INTERRUPT_MESSAGE, CM_RESOURCE_INTERRUPT_POLICY_INCLUDED, CM_RESOURCE_INTERRUPT_SECONDARY_INTERRUPT, CM_RESOURCE_INTERRUPT_WAKE_HINT, IO_RESOURCE_ALTERNATIVE, IO_RESOURCE_DEFAULT, IO_RESOURCE_DESCRIPTOR, IO_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], IO_RESOURCE_PREFERRED, PIO_RESOURCE_DESCRIPTOR, PIO_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], _IO_RESOURCE_DESCRIPTOR, kernel.io_resource_descriptor, kstruct_b_6b096887-dd89-43b8-abb8-4f3582392573.xml, wdm/IO_RESOURCE_DESCRIPTOR, wdm/PIO_RESOURCE_DESCRIPTOR"
 req.header: miniport.h
@@ -358,12 +358,11 @@ The connection class. This member is set to one of the following values:
 
 The connection type. If *Class* = CM_RESOURCE_CONNECTION_CLASS_GPIO, *Type* is set to the following value:
 
-|Value  |Meaning  |
-|---------|---------|
-|**CM_RESOURCE_CONNECTION_TYPE_GPIO_IO**     |     Access the device through GPIO pins that are configured for I/O.    |
+| Value | Meaning |
+|---|---|
+| **CM_RESOURCE_CONNECTION_TYPE_GPIO_IO** | Access the device through GPIO pins that are configured for I/O. |
 
-> [!NOTE]
-> A GPIO pin that is configured as an interrupt request input is accessed as an ordinary interrupt resource (**CmResourceTypeInterrupt**).
+A GPIO pin that is configured as an interrupt request input is accessed as an ordinary interrupt resource (**CmResourceTypeInterrupt**).
 
 If **Class** = CM_RESOURCE_CONNECTION_CLASS_SERIAL, **Type** is set to one of the following values:
 

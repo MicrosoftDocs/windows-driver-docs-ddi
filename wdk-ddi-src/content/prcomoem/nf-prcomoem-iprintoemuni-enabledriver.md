@@ -3,7 +3,7 @@ UID: NF:prcomoem.IPrintOemUni.EnableDriver
 title: IPrintOemUni::EnableDriver (prcomoem.h)
 description: The IPrintOemUni::EnableDriver method allows a rendering plug-in for Unidrv to hook out some graphics DDI functions.
 tech.root: print
-ms.date: 11/30/2022
+ms.date: 01/04/2023
 keywords: ["IPrintOemUni::EnableDriver"]
 ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],EnableDriver method, IPrintOemUni.EnableDriver, IPrintOemUni::EnableDriver, prcomoem/IPrintOemUni::EnableDriver, print.iprintoemuni_enabledriver, print_unidrv-pscript_rendering_804d9469-6ac6-4220-b123-25a2d226b609.xml
 req.header: prcomoem.h
@@ -74,8 +74,7 @@ The **IPrintOemUni::EnableDriver** method allows a rendering plug-in to perform 
 
 Like the **DrvEnableDriver** function, the **IPrintOemUni::EnableDriver** method is responsible for providing addresses of internally supported graphics DDI functions, known as hooking functions. It can also perform other one-time initialization operations. Unlike the **DrvEnableDriver** function, implementation of **IPrintOemUni::EnableDriver** is optional.
 
-> [!NOTE]
-> If you implement **IPrintOemUni::EnableDriver**, you must also implement [IPrintOemUni::DisableDriver](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-disabledriver). Actions begun in the former method might need to be completed in the latter method. For example, if a large buffer is allocated in **IPrintOemUni::EnableDriver**, but not deallocated in **IPrintOemUni::DisableDriver**, a memory leak can occur.
+If you implement **IPrintOemUni::EnableDriver**, you must also implement [IPrintOemUni::DisableDriver](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-disabledriver). Actions begun in the former method might need to be completed in the latter method. For example, if a large buffer is allocated in **IPrintOemUni::EnableDriver**, but not deallocated in **IPrintOemUni::DisableDriver**, a memory leak can occur.
 
 The method should fill the supplied [DRVENABLEDATA](/windows/win32/api/winddi/ns-winddi-drvenabledata) structure and allocate an array of [DRVFN](/windows/win32/api/winddi/ns-winddi-drvfn) structures. It should fill the array with pointers to hooking functions, along with winddi.h-defined index values that identify the hooked out graphics DDI functions.
 
@@ -155,7 +154,6 @@ Note that while a [printer graphics DLL](/windows-hardware/drivers/print/printer
 
 If **IPrintOemUni::EnableDriver** methods are exported by multiple rendering plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
-> [!NOTE]
-> Each graphics DDI function can be hooked out by only one rendering plug-in. If multiple plug-ins attempt to hook out the same graphics DDI function, all hook-outs after the first one are ignored.
+Each graphics DDI function can be hooked out by only one rendering plug-in. If multiple plug-ins attempt to hook out the same graphics DDI function, all hook-outs after the first one are ignored.
 
 For more information about creating and installing rendering plug-ins, see [Customizing Microsoft's Printer Drivers](/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers).

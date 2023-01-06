@@ -1,10 +1,10 @@
 ---
 UID: NS:winsplp._MONITOR2
-title: _MONITOR2 (winsplp.h)
+title: MONITOR2 (winsplp.h)
 description: The MONITOR2 structure contains pointers to the functions defined by print monitors.
 old-location: print\monitor2.htm
 tech.root: print
-ms.date: 03/21/2019
+ms.date: 01/04/2023
 keywords: ["MONITOR2 structure"]
 ms.keywords: "*LPMONITOR2, *PMONITOR2, LPMONITOR2, LPMONITOR2 structure pointer [Print Devices], MONITOR2, MONITOR2 structure [Print Devices], PMONITOR2, PMONITOR2 structure pointer [Print Devices], _MONITOR2, print.monitor2, spoolfnc_db4ec1e7-1368-4695-bae0-91fd5dcd8a1a.xml, winsplp/LPMONITOR2, winsplp/MONITOR2, winsplp/PMONITOR2"
 req.header: winsplp.h
@@ -45,9 +45,6 @@ api_name:
  - PMONITOR2
  - MONITOR2
 ---
-
-# _MONITOR2 structure
-
 
 ## -description
 
@@ -93,8 +90,8 @@ Pointer to the print monitor's [ClosePort](./nf-winsplp-closeport.md) function.
 
 ### -field pfnAddPort
 
-> [!IMPORTANT]
-> The [AddPort](/previous-versions/ff545022(v=vs.85)) function is obsolete and shoiuld not be used.
+> [!CAUTION]
+> The [AddPort](/previous-versions/ff545022(v=vs.85)) function is obsolete and should not be used.
 
 **AddPort** creates a port and adds it to the list of ports currently supported by the specified monitor in the spooler environment.
 
@@ -104,14 +101,14 @@ Pointer to the print monitor's [ClosePort](./nf-winsplp-closeport.md) function.
 
 ### -field pfnConfigurePort
 
-> [!IMPORTANT]
+> [!CAUTION]
 > The [ConfigurePort](/previous-versions/ff546286(v=vs.85)) function is obsolete and should not be used. Use [ConfigurePortUI](./nf-winsplp-configureportui.md) instead.
 
 **ConfigurePort** is a port management function that configures the specified port.
 
 ### -field pfnDeletePort
 
-> [!IMPORTANT]
+> [!CAUTION]
 > The [DeletePort](/windows/win32/printdocs/deleteport) function is obsolete and should not be used.
 
 **DeletePort** deletes a port from the monitor's environment.
@@ -205,5 +202,4 @@ if ( Is_Win2000( ) )
 
 [InitializePrintMonitor2](./nf-winsplp-initializeprintmonitor2.md)
 
-[MONITORUI](./ns-winsplp-_monitorui.md)
-
+[**MONITORUI**](./ns-winsplp-_monitorui.md)

@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterQueueView.SetViewRange
 title: IPrinterQueueView::SetViewRange (printerextension.h)
 description: Sets the range of print jobs being monitored.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 01/04/2023
 keywords: ["IPrinterQueueView::SetViewRange"]
 ms.keywords: IPrinterQueueView interface [Print Devices],SetViewRange method, IPrinterQueueView.SetViewRange, IPrinterQueueView::SetViewRange, SetViewRange, SetViewRange method [Print Devices], SetViewRange method [Print Devices],IPrinterQueueView interface, print.iprinterqueueview_setviewrange, printerextension/IPrinterQueueView::SetViewRange
 req.header: printerextension.h
@@ -61,8 +61,7 @@ This method returns the appropriate **HRESULT** value.
 
 Invoking this method causes the events for status change to the jobs to be fired. The [IPrinterQueueViewEvent::OnChanged](./nf-printerextension-iprinterqueueviewevent-onchanged.md) event method returns the live queue in response, using the specified maximum range size.
 
-> [!NOTE]
-> *ulViewSize* must be specified as a value less than or equal to 25. If the caller specifies a size which exceeds 25,  this method will return E_INVALIDARG.
+*ulViewSize* must be specified as a value less than or equal to 25. If the caller specifies a size which exceeds 25,  this method will return E_INVALIDARG.
 
 ## -see-also
 

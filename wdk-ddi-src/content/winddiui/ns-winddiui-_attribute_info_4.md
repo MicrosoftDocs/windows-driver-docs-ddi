@@ -3,7 +3,7 @@ UID: NS:winddiui._ATTRIBUTE_INFO_4
 title: ATTRIBUTE_INFO_4 (winddiui.h)
 description: The ATTRIBUTE_INFO_4 structure is used as a parameter for a printer interface DLL's DrvQueryJobAttributes function.
 tech.root: print
-ms.date: 11/28/2022
+ms.date: 01/04/2023
 keywords: ["ATTRIBUTE_INFO_4 structure"]
 ms.keywords: "*PATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4 structure [Print Devices], PATTRIBUTE_INFO_4, PATTRIBUTE_INFO_4 structure pointer [Print Devices], _ATTRIBUTE_INFO_4, print.attribute_info_4, print_interface-graphics_7fa07014-1d16-48c0-be12-cb5026d8f285.xml, winddiui/ATTRIBUTE_INFO_4, winddiui/PATTRIBUTE_INFO_4"
 req.header: winddiui.h
@@ -148,15 +148,13 @@ This flag is considered only if the **dwJobPageOrderFlags** member is set to BOO
 
 Scaling percentage in the horizontal (x) direction with respect to the normal paper size. Must be in the range of 1 to 1000. Set to 100 if scaling will not be done.
 
-> [!NOTE]
-> To ensure predictable printing results, **dwScalingPercentX** and **dwScalingPercentY** must have the same value.
+To ensure predictable printing results, **dwScalingPercentX** and **dwScalingPercentY** must have the same value.
 
 ### -field dwScalingPercentY
 
 Scaling percentage in the vertical (y) direction with respect to the normal paper size. Must be in the range of 1 to 1000. Set to 100 if scaling will not be done.
 
-> [!NOTE]
-> To ensure predictable printing results, **dwScalingPercentX** and **dwScalingPercentY** must have the same value.
+To ensure predictable printing results, **dwScalingPercentX** and **dwScalingPercentY** must have the same value.
 
 ## -remarks
 

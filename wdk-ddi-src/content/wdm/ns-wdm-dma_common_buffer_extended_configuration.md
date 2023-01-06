@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION
 title: DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION
-ms.date: 05/18/2021
+ms.date: 01/05/2023
 targetos: Windows
 description: "Learn more about: DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION structure"
 req.construct-type: structure
@@ -40,8 +40,6 @@ dev_langs:
  - c++
 ---
 
-# DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION structure
-
 ## -description
 
 Defines a configuration that further describes constraints and features when creating a common buffer. The driver can provide an array of **DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION** structures in the [*CreateCommonBufferFromMdl*](nc-wdm-pcreate-common-buffer-from-mdl.md) callback routine.
@@ -68,8 +66,7 @@ Provides the (inclusive) maximum final logical address of the common buffer bein
 
 When *ConfigType* is **CommonBufferConfigTypeSubSection**, describes the subsection within a backing MDL that should be used to back the common buffer being created.
 
-> [!NOTE]
-> A subsection must only be contained within a single MDL in an MDL chain.
+A subsection must only be contained within a single MDL in an MDL chain.
 
 ### -field SubSection.Offset
 
@@ -83,8 +80,7 @@ Provides the length of the common buffer subsection. **Must be page-aligned.**
 
 When *ConfigType* is **CommonBufferConfigTypeHardwareAccessPermissions**, this is a [**DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE**](ne-wdm-dma_common_buffer_extended_configuration_access_type.md)-typed value that describes the hardware access permissions for the common buffer being created.
 
-> [!NOTE]
-> Common buffer creation fails if the access type is not possible on the system. **ReadOnly** and **WriteOnly** are only permissible if the DMA Adapter is using DMA Remapping.
+Common buffer creation fails if the access type is not possible on the system. **ReadOnly** and **WriteOnly** are only permissible if the DMA Adapter is using DMA Remapping.
 
 ### -field Reserved
 

@@ -3,7 +3,7 @@ UID: NF:wia_lh.IWiaTransferCallback.GetNextStream
 title: IWiaTransferCallback::GetNextStream (wia_lh.h)
 description: The IWiaTransferCallback::GetNextStream method is implemented by an image processing filter.
 tech.root: image
-ms.date: 11/17/2022
+ms.date: 01/04/2023
 keywords: ["IWiaTransferCallback::GetNextStream"]
 ms.keywords: GetNextStream, GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices],IWiaTransferCallback interface, IWiaTransferCallback interface [Imaging Devices],GetNextStream method, IWiaTransferCallback.GetNextStream, IWiaTransferCallback::GetNextStream, IWiaTransfercallback_155c3198-1ed9-46a9-b6d8-0d6029bf0803.xml, image.iwiatransfercallback_getnextstream, wia_lh/IWiaTransferCallback::GetNextStream
 req.header: wia_lh.h
@@ -73,8 +73,7 @@ An image processing filter's implementation of **IWiaTransferCallback::GetNextSt
 
 In its **IWiaTransferCallback::GetNextStream** implementation, the image processing filter should read which properties are needed for its image processing from the item for which the image is being acquired. The filter must not read the properties directly from the *pWiaItem2* passed into [**IWiaImageFilter::InitializeFilter**](nf-wia_lh-iwiaimagefilter-initializefilter.md); rather it must call **IWiaItem2::FindItemByName**](/windows/win32/wia/-wia-iwiaitem2-finditembyname) on this WIA item to obtain the actual WIA item. The reason is that during a folder transfer the images acquired correspond to the child items of *pWiaItem2* rather than to *pWiaItem2* itself.
 
-> [!NOTE]
-> This method is not called by the preview component during [**IWiaPreview::UpdatePreview**](/windows/win32/wia/-wia-iwiapreview-updatepreview).
+This method is not called by the preview component during [**IWiaPreview::UpdatePreview**](/windows/win32/wia/-wia-iwiapreview-updatepreview).
 
 ## -see-also
 

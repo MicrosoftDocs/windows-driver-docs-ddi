@@ -3,7 +3,7 @@ UID: NS:ks._KSPIN_DESCRIPTOR_EX
 title: KSPIN_DESCRIPTOR_EX (ks.h)
 description: The KSPIN_DESCRIPTOR_EX structure describes the characteristics of a pin type on a given filter type.
 tech.root: stream
-ms.date: 11/16/2022
+ms.date: 01/04/2023
 keywords: ["KSPIN_DESCRIPTOR_EX structure"]
 ms.keywords: "*PKSPIN_DESCRIPTOR_EX, KSPIN_DESCRIPTOR_EX, KSPIN_DESCRIPTOR_EX structure [Streaming Media Devices], KSPIN_FLAG_ASYNCHRONOUS_PROCESSING, KSPIN_FLAG_CRITICAL_PROCESSING, KSPIN_FLAG_DENY_USERMODE_ACCESS, KSPIN_FLAG_DISPATCH_LEVEL_PROCESSING, KSPIN_FLAG_DISTINCT_TRAILING_EDGE, KSPIN_FLAG_DO_NOT_INITIATE_PROCESSING, KSPIN_FLAG_DO_NOT_USE_STANDARD_TRANSPORT, KSPIN_FLAG_ENFORCE_FIFO, KSPIN_FLAG_FIXED_FORMAT, KSPIN_FLAG_FRAMES_NOT_REQUIRED_FOR_PROCESSING, KSPIN_FLAG_GENERATE_EOS_EVENTS, KSPIN_FLAG_GENERATE_MAPPINGS, KSPIN_FLAG_HYPERCRITICAL_PROCESSING, KSPIN_FLAG_IMPLEMENT_CLOCK, KSPIN_FLAG_INITIATE_PROCESSING_ON_EVERY_ARRIVAL, KSPIN_FLAG_PROCESS_IF_ANY_IN_RUN_STATE, KSPIN_FLAG_PROCESS_IN_RUN_STATE_ONLY, KSPIN_FLAG_RENDERER, KSPIN_FLAG_SOME_FRAMES_REQUIRED_FOR_PROCESSING, KSPIN_FLAG_SPLITTER, KSPIN_FLAG_USE_STANDARD_TRANSPORT, PKSPIN_DESCRIPTOR_EX, PKSPIN_DESCRIPTOR_EX structure pointer [Streaming Media Devices], _KSPIN_DESCRIPTOR_EX, avstruct_6a73afe1-d131-47fc-877b-1abff4a75833.xml, ks/KSPIN_DESCRIPTOR_EX, ks/PKSPIN_DESCRIPTOR_EX, stream.kspin_descriptor_ex"
 req.header: ks.h
@@ -173,8 +173,7 @@ A pointer to a driver-defined [KStrIntersectHandlerEx](/previous-versions/window
 
 ## -remarks
 
-> [!NOTE]
-> AMCap and Blink might not be able to find tuner and crossbar interfaces on your AVStream driver if the **InstancesNecessary** member of KSPIN_DESCRIPTOR_EX is set to zero for the analog video input pin. To fix this problem, set **InstancesNecessary** for this pin to one.
+AMCap and Blink might not be able to find tuner and crossbar interfaces on your AVStream driver if the **InstancesNecessary** member of KSPIN_DESCRIPTOR_EX is set to zero for the analog video input pin. To fix this problem, set **InstancesNecessary** for this pin to one.
 
 Note that the allocator framing requirements of your pin may be ignored despite the fact that your allocator framing specifies that alignment or size is absolutely required to be a certain value. If your kernel-mode driver is connected to an upstream user-mode filter that allocates for it and the particular upstream filter's allocator does not understand framing requirements, this can happen (current particular examples include the MPEG-2 splitter).
 

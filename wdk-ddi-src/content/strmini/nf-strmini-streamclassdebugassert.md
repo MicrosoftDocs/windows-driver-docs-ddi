@@ -2,9 +2,8 @@
 UID: NF:strmini.StreamClassDebugAssert
 title: StreamClassDebugAssert function (strmini.h)
 description: This function (StreamClassDebugAssert) is obsolete.
-old-location: stream\streamclassdebugassert.htm
 tech.root: stream
-ms.date: 06/02/2020
+ms.date: 01/04/2023
 keywords: ["StreamClassDebugAssert function"]
 ms.keywords: StreamClassDebugAssert, StreamClassDebugAssert routine [Streaming Media Devices], strclass-routines_6f9302e6-592f-4097-830c-83b05a54d335.xml, stream.streamclassdebugassert, strmini/StreamClassDebugAssert
 req.header: strmini.h
@@ -41,35 +40,27 @@ api_name:
  - StreamClassDebugAssert
 ---
 
-# StreamClassDebugAssert function
-
-
 ## -description
 
-> [!NOTE]
-> This function is obsolete.
->
-> Checked builds were available on older versions of Windows, before Windows 10 version 1803. Use tools such as Driver Verifier and GFlags to check driver code in later versions of Windows.
+This function is obsolete.
+
+Checked builds were available on older versions of Windows, before Windows 10 version 1803. Use tools such as Driver Verifier and GFlags to check driver code in later versions of Windows.
 
 ## -parameters
 
 ### -param File [in]
 
-
 Pointer to a NULL-terminated string containing the file name in which the assert occurred.
 
 ### -param Line [in]
-
 
 Specifies the line number of the assert.
 
 ### -param AssertText [in]
 
-
 Pointer to a NULL-terminated string containing text to be printed in the debug message.
 
 ### -param AssertValue [in]
-
 
 Specifies a value to be printed in the debug message.
 
@@ -80,4 +71,3 @@ None
 ## -remarks
 
 ## -see-also
-

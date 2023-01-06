@@ -3,7 +3,7 @@ UID: NF:winddiui.DrvPrinterEvent
 title: DrvPrinterEvent function (winddiui.h)
 description: A printer interface DLL's DrvPrinterEvent function is called by the print spooler when processing printer-specific events that might require action by the printer driver.
 tech.root: print
-ms.date: 11/28/2022
+ms.date: 01/04/2023
 keywords: ["DrvPrinterEvent function"]
 ms.keywords: DrvPrinterEvent, DrvPrinterEvent function [Print Devices], print.drvprinterevent, print_interface-graphics_5bfc5cb2-1835-4659-afa7-7b3bbb7ee051.xml, winddiui/DrvPrinterEvent
 req.header: winddiui.h
@@ -73,7 +73,7 @@ Caller-supplied bit flag, defined as follows:
 |---|---|
 | PRINTER_EVENT_FLAG_NO_UI | If set, the function **must not** display a user interface. During the installation of a print processor, print monitor, or printer driver, the only way in which a user interface is permitted is through the use of the **VendorSetup** directive. See [Printer INF File Entries](/windows-hardware/drivers/print/printer-inf-file-entries) and [Customized Printer Setup Operations](/windows-hardware/drivers/print/customized-printer-setup-operations) for more information. |
 
-> [!IMPORTANT]
+> [!CAUTION]
 > The **VendorSetup** directive is deprecated and should not be used by any *new* v3 or v4 drivers that you develop. This information about **VendorSetup** is provided for reference only, or for the maintenance of existing v3 drivers that already use this INF directive.
 
 ### -param lParam

@@ -2,15 +2,14 @@
 UID: NF:wdm.RtlFindClearBits
 title: RtlFindClearBits function (wdm.h)
 description: The RtlFindClearBits routine searches for a range of clear bits of a requested size within a bitmap.
-old-location: kernel\rtlfindclearbits.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/06/2023
 keywords: ["RtlFindClearBits function"]
 ms.keywords: RtlFindClearBits, RtlFindClearBits routine [Kernel-Mode Driver Architecture], k109_bf520772-12d8-403e-8b57-31a24e9a27b6.xml, kernel.rtlfindclearbits, wdm/RtlFindClearBits
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -23,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL (See Remarks section)
+req.irql: IRQL <= APC_LEVEL (See Remarks section)
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -40,72 +39,52 @@ api_name:
  - RtlFindClearBits
 ---
 
-# RtlFindClearBits function
-
-
 ## -description
 
-The <b>RtlFindClearBits</b> routine searches for a range of clear bits of a requested size within a bitmap.
+The **RtlFindClearBits** routine searches for a range of clear bits of a requested size within a bitmap.
 
 ## -parameters
 
 ### -param BitMapHeader [in]
 
-
-A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
+A pointer to the [RTL_BITMAP](/windows-hardware/drivers/kernel/eprocess) structure that describes the bitmap. This structure must have been initialized by the [RtlInitializeBitMap](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap) routine.
 
 ### -param NumberToFind [in]
-
 
 Specifies how many contiguous clear bits will satisfy this request.
 
 ### -param HintIndex [in]
 
-
 Specifies a zero-based bit position from which to start looking for a clear bit range of the given size.
 
 ## -returns
 
-<b>RtlFindClearBits</b> either returns the zero-based starting bit index for a clear bit range of at least the requested size, or it returns 0xFFFFFFFF if it cannot find such a range within the given bitmap.
+**RtlFindClearBits** either returns the zero-based starting bit index for a clear bit range of at least the requested size, or it returns 0xFFFFFFFF if it cannot find such a range within the given bitmap.
 
 ## -remarks
 
-For a successful call, the returned bit position is not necessarily equivalent to the given <i>HintIndex</i>. If necessary, <b>RtlFindClearBits</b> searches the whole bitmap to locate a clear bit range of the requested size. Callers can find such a range more quickly when they can supply appropriate hints about where to start looking. 
+For a successful call, the returned bit position is not necessarily equivalent to the given *HintIndex*. If necessary, **RtlFindClearBits** searches the whole bitmap to locate a clear bit range of the requested size. Callers can find such a range more quickly when they can supply appropriate hints about where to start looking.
 
-> [!NOTE]
-> If a matching range is not found between the hint index and the end of the bitmap, **RtlFindClearBits** continues searching from the beginning of the bitmap back to the hint index.
-> If you only want an index returned that is greater than or equal to some value, use [**RtlFindNextForwardRunClear**](./nf-wdm-rtlfindnextforwardrunclear.md) instead.
+If a matching range is not found between the hint index and the end of the bitmap, **RtlFindClearBits** continues searching from the beginning of the bitmap back to the hint index.
 
-Callers of <b>RtlFindClearBits</b> must be running at IRQL <= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlFindClearBits</b> can be called at any IRQL.
+If you only want an index returned that is greater than or equal to some value, use [**RtlFindNextForwardRunClear**](./nf-wdm-rtlfindnextforwardrunclear.md) instead.
+
+Callers of **RtlFindClearBits** must be running at IRQL <= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at *BitMapHeader* is pageable. Otherwise, **RtlFindClearBits** can be called at any IRQL.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a>
+[RTL_BITMAP](/windows-hardware/drivers/kernel/eprocess)
 
+[RtlAreBitsClear](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlarebitsclear)
 
+[RtlFindClearBitsAndSet](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindclearbitsandset)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlarebitsclear">RtlAreBitsClear</a>
+[RtlFindFirstRunClear](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindfirstrunclear)
 
+[RtlFindLongestRunClear](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindlongestrunclear)
 
+[RtlFindSetBits](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindsetbits)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindclearbitsandset">RtlFindClearBitsAndSet</a>
+[RtlInitializeBitMap](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindfirstrunclear">RtlFindFirstRunClear</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindlongestrunclear">RtlFindLongestRunClear</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindsetbits">RtlFindSetBits</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlnumberofclearbits">RtlNumberOfClearBits</a>
+[RtlNumberOfClearBits](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlnumberofclearbits)

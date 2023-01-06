@@ -2,7 +2,7 @@
 UID: NF:wdm.MmGetMdlPfnArray
 tech.root: kernel
 title: MmGetMdlPfnArray (wdm.h)
-ms.date: 08/16/2022
+ms.date: 01/06/2023
 targetos: Windows
 description: The MmGetMdlPfnArray macro returns a pointer to the beginning of the array of physical page numbers that are associated with a memory descriptor list (MDL).
 prerelease: false
@@ -70,8 +70,7 @@ Each array element is an integer value of type PFN_NUMBER, which is defined in t
 typedef ULONG PFN_NUMBER, *PPFN_NUMBER;
 ```
 
-> [!NOTE]
-> Changing the contents of the array can cause subtle system problems that are difficult to diagnose. We recommend that you do not read or change the contents of this array.
+Changing the contents of the array can cause subtle system problems that are difficult to diagnose. We recommend that you do not read or change the contents of this array.
 
 For pageable memory, the contents of the array are valid only for a buffer locked with [**MmProbeAndLockPages**](./nf-wdm-mmprobeandlockpages.md).
 

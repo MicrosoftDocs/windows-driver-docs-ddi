@@ -3,7 +3,7 @@ UID: NS:ksmedia.__unnamed_struct_42
 title: KSAUDIO_CHANNEL_CONFIG (ksmedia.h)
 description: The KSAUDIO_CHANNEL_CONFIG structure specifies the configuration of channels within the data format of an audio stream.
 tech.root: audio
-ms.date: 11/17/2022
+ms.date: 01/04/2023
 keywords: ["KSAUDIO_CHANNEL_CONFIG structure"]
 ms.keywords: "*PKSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG structure [Audio Devices], PKSAUDIO_CHANNEL_CONFIG, PKSAUDIO_CHANNEL_CONFIG structure pointer [Audio Devices], aud-prop_e81a721c-474b-4b51-8bed-df294a477050.xml, audio.ksaudio_channel_config, ksmedia/KSAUDIO_CHANNEL_CONFIG, ksmedia/PKSAUDIO_CHANNEL_CONFIG"
 req.header: ksmedia.h
@@ -139,8 +139,7 @@ The following table shows the speaker configurations that are defined for Direct
 |  | SPEAKER_SIDE_LEFT |
 |  | SPEAKER_SIDE_RIGHT |
 
-> [!NOTE]
-> The KSAUDIO_SPEAKER_7POINT1 speaker configuration, is obsolete and no longer supported in Windows Vista and later versions of Windows.
+The KSAUDIO_SPEAKER_7POINT1 speaker configuration, is obsolete and no longer supported.
 
 In the preceding table, the constant KSAUDIO_SPEAKER_DIRECTOUT has a value of zero, which means that no speaker positions are assigned to the channels in the multichannel stream. For example, channel zero might represent percussion, channel 1 might represent trumpet, channel 2 might represent voice, and so on. In this configuration, the channels in the input stream are output directly to the hardware without modification and without being interpreted as speaker positions. For more information, see [DSSPEAKER_DIRECTOUT Speaker Configuration](/windows-hardware/drivers/audio/dsspeaker-directout-speaker-configuration).
 

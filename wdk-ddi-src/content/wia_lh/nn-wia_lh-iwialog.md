@@ -3,7 +3,7 @@ UID: NN:wia_lh.IWiaLog
 title: IWiaLog (wia_lh.h)
 description: The IWiaLog interface is obsolete and is no longer supported. Use the Diagnostic Log Macros instead.
 tech.root: image
-ms.date: 11/10/2022
+ms.date: 01/04/2023
 keywords: ["IWiaLog interface"]
 ms.keywords: IWiaLog, IWiaLog interface [Imaging Devices], IWiaLog interface [Imaging Devices],described, IWiaLog_0284e394-6bc5-40b8-8174-0041bfc0d5dd.xml, image.iwialog_interface, wia_lh/IWiaLog
 req.header: wia_lh.h
@@ -41,8 +41,7 @@ api_name:
 
 ## -description
 
-> [!IMPORTANT]
-> The **IWiaLog** interface is obsolete and is no longer supported. Use the [**Diagnostic Log Macros**](/windows-hardware/drivers/image/wia-diagnostic-log-macros) instead.
+The **IWiaLog** interface is obsolete and is no longer supported. Use the [**Diagnostic Log Macros**](/windows-hardware/drivers/image/wia-diagnostic-log-macros) instead.
 
 The **IWiaLog** interface provides methods to enable minidrivers to log trace, error, and warning messages to the diagnostic log file Wiaservc.log.
 

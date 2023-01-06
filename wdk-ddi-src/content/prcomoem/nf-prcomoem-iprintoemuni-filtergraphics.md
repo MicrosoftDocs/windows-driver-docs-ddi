@@ -3,7 +3,7 @@ UID: NF:prcomoem.IPrintOemUni.FilterGraphics
 title: IPrintOemUni::FilterGraphics (prcomoem.h)
 description: The IPrintOemUni::FilterGraphics method can be used with Unidrv-supported printers to modify scan line data and send it to the spooler.
 tech.root: print
-ms.date: 11/30/2022
+ms.date: 01/04/2023
 keywords: ["IPrintOemUni::FilterGraphics"]
 ms.keywords: FilterGraphics, FilterGraphics method [Print Devices], FilterGraphics method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],FilterGraphics method, IPrintOemUni.FilterGraphics, IPrintOemUni::FilterGraphics, prcomoem/IPrintOemUni::FilterGraphics, print.iprintoemuni_filtergraphics, print_unidrv-pscript_rendering_7e6c6ada-fa4a-4188-b7c2-0ac95869bcdc.xml
 req.header: prcomoem.h
@@ -109,8 +109,7 @@ The following list describes several common scenarios for implementing **IPrintO
 
 The **IPrintOemUni::FilterGraphics** method gives you access to the scan line data itself and gives you the ability to post-process the raster data.
 
-> [!NOTE]
-> The number of scan lines is equal to the height of the image. For example, a 1 bit per pixel (bpp) thickness of each scan line is equal to the  width of 1 pixel, so the number of scan lines is equal to the height of the image.
+The number of scan lines is equal to the height of the image. For example, a 1 bit per pixel (bpp) thickness of each scan line is equal to the  width of 1 pixel, so the number of scan lines is equal to the height of the image.
 
 For more information about customizing Unidrv's rendering operations, see [Unidrv-Specific Customized Rendering](/windows-hardware/drivers/print/unidrv-specific-customized-rendering).
 

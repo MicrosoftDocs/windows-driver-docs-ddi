@@ -1,10 +1,9 @@
 ---
 UID: NS:wdm._INTERFACE
-title: _INTERFACE (wdm.h)
+title: INTERFACE (wdm.h)
 description: The _INTERFACE structure (wdm.h) describes an interface that is exported by a driver for use by other drivers.
-old-location: kernel\interface.htm
 tech.root: kernel
-ms.date: 08/03/2021
+ms.date: 01/06/2023
 keywords: ["INTERFACE structure"]
 ms.keywords: "*PINTERFACE, INTERFACE, INTERFACE structure [Kernel-Mode Driver Architecture], PINTERFACE, PINTERFACE structure pointer [Kernel-Mode Driver Architecture], _INTERFACE, kernel.interface, kstruct_b_667d57fa-a959-4904-a15e-af4d4f44988e.xml, wdm/INTERFACE, wdm/PINTERFACE"
 req.header: wdm.h
@@ -46,8 +45,6 @@ api_name:
  - INTERFACE
 ---
 
-# _INTERFACE structure (wdm.h)
-
 ## -description
 
 The **INTERFACE** structure describes an interface that is exported by a driver for use by other drivers.
@@ -82,8 +79,7 @@ The *InterfaceReference* routine must be called by the driver that exports the i
 
 Each driver that imports the interface (whether by sending **IRP_MN_QUERY_INTERFACE** or by receiving the interface from another driver) must call the *InterfaceDereference* routine after it has finished using the interface. After calling the *InterfaceDereference* routine, a driver cannot use the interface again without first reobtaining it.
 
-> [!NOTE]
-> When introducing a new version of an existing interface, create a new GUID instead of revising the **Size** or **Version** fields of this structure. For more info, see [Using Driver-Defined Interfaces](/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
+When introducing a new version of an existing interface, create a new GUID instead of revising the **Size** or **Version** fields of this structure. For more info, see [Using Driver-Defined Interfaces](/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
 
 ## -see-also
 

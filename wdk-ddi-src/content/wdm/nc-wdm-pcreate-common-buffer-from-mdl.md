@@ -2,7 +2,6 @@
 UID: NC:wdm.PCREATE_COMMON_BUFFER_FROM_MDL
 title: PCREATE_COMMON_BUFFER_FROM_MDL (wdm.h)
 description: The CreateCommonBufferFromMdl routine will attempt to create a common buffer from an MDL by testing for device access compatibility and potentially mapping the memory to a contiguous logical range depending on the translation type. Like all other common buffer allocation functions, this function does not provide a forward progress guarantee.
-ms.assetid: c8ac4c34-2b7a-4fa1-82d5-ac802498dbd9
 ms.date: 05/18/2021
 keywords: ["PCREATE_COMMON_BUFFER_FROM_MDL callback function"]
 f1_keywords:
@@ -37,9 +36,6 @@ api_name:
 targetos: Windows
 ---
 
-
-# PCREATE_COMMON_BUFFER_FROM_MDL callback function
-
 ## -description
 
 The CreateCommonBufferFromMdl routine will attempt to create a common buffer from an MDL by testing for device access compatibility and potentially mapping the memory to a contiguous logical range depending on the translation type. Like all other common buffer allocation functions, this function does not provide a forward progress guarantee.
@@ -48,15 +44,13 @@ The CreateCommonBufferFromMdl routine will attempt to create a common buffer fro
 
 ### -param DmaAdapter [in]
 
-
 Provides a pointer to the DMA Adapter that is performing the operation.
 
 ### -param Mdl [in]
 
-
 Provides the MDL that will be mapped to a common buffer.
 
-*For an MDL to be able to back a common buffer, the following conditions must be met:*
+For an MDL to be able to back a common buffer, the following conditions must be met:
 
 - The MDL must have pages that are always resident for the lifetime of the common buffer and that are mapped into the system address space. This can be accomplished by the following approaches:
 
@@ -78,19 +72,15 @@ Provides the MDL that will be mapped to a common buffer.
 
 ### -param ExtendedConfigs [in]
 
-
 Provides an optional array of [DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION](ns-wdm-dma_common_buffer_extended_configuration.md) structures to further configure the creation of the MDL backed common buffer.
 
-> [!NOTE]
-> If multiple configurations of the same [DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE](ne-wdm-_dma_common_buffer_extended_configuration_type.md) are provided in the array, creation will fail.
+If multiple configurations of the same [DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE](ne-wdm-_dma_common_buffer_extended_configuration_type.md) are provided in the array, creation will fail.
 
 ### -param ExtendedConfigsCount [in]
-
 
 Provides the number of extended configurations in the *ExtendedConfigs* array.
 
 ### -param LogicalAddress [out]
-
 
 On success provides the logical address of the resulting common buffer.
 
@@ -99,7 +89,7 @@ On success provides the logical address of the resulting common buffer.
 **CreateCommonBufferFromMdl** return **STATUS_SUCCESS** if the call is successful. Possible error return values include the following status codes.
 
 | Return code | Description |
-|--|--|
+|---|---|
 | **STATUS_INVALID_PARAMETER** | The caller has provided an incompatible MDL or extended configuration. |
 | **STATUS_NOT_SUPPORTED** | The caller has provided an extended configuration that is not supported on the current system. |
 | **STATUS_INSUFFICIENT_RESOURCES** | The system does not have enough memory to create book-keeping and mapping metadata. |
@@ -114,13 +104,13 @@ To create a common buffer where the HAL is responsible for maintaining the backi
 
 ## -see-also
 
-[DMA_ADAPTER](ns-wdm-_dma_adapter.md)
+[**DMA_ADAPTER**](ns-wdm-_dma_adapter.md)
 
-[DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION](ns-wdm-dma_common_buffer_extended_configuration.md)
+[**DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION**](ns-wdm-dma_common_buffer_extended_configuration.md)
 
 [DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE](ne-wdm-_dma_common_buffer_extended_configuration_type.md)
 
-[DMA_OPERATIONS](ns-wdm-_dma_operations.md)
+[**DMA_OPERATIONS**](ns-wdm-_dma_operations.md)
 
 [FreeCommonBuffer](nc-wdm-pfree_common_buffer.md)
 

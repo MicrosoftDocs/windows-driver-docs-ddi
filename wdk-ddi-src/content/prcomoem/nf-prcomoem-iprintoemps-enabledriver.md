@@ -3,7 +3,7 @@ UID: NF:prcomoem.IPrintOemPS.EnableDriver
 title: IPrintOemPS::EnableDriver (prcomoem.h)
 description: The IPrintOemPS::EnableDriver method allows a rendering plug-in for Pscript to hook out some graphics DDI functions.
 tech.root: print
-ms.date: 11/30/2022
+ms.date: 01/04/2023
 keywords: ["IPrintOemPS::EnableDriver"]
 ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],EnableDriver method, IPrintOemPS.EnableDriver, IPrintOemPS::EnableDriver, prcomoem/IPrintOemPS::EnableDriver, print.iprintoemps_enabledriver, print_unidrv-pscript_rendering_2e2fe90b-66ce-4f39-adfa-ebb187700aac.xml
 req.header: prcomoem.h
@@ -73,8 +73,7 @@ The **IPrintOemPS::EnableDriver** method allows a rendering plug-in to perform t
 
 Like the **DrvEnableDriver** function, the **IPrintOemPS::EnableDriver** method is responsible for providing addresses of internally supported graphics DDI functions, known as hooking functions. It can also perform other one-time initialization operations. Unlike the **DrvEnableDriver** function, implementation of the **IPrintOemPS::EnableDriver** method is optional.
 
-> [!NOTE]
-> If you implement **IPrintOemPS::EnableDriver**, you must also implement [IPrintOemPS::DisableDriver](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-disabledriver). Actions begun in the former method might need to be completed in the latter method. For example, if a large buffer is allocated in **IPrintOemPS::EnableDriver**, but not deallocated in **IPrintOemPS::DisableDriver**, a memory leak can occur.
+If you implement **IPrintOemPS::EnableDriver**, you must also implement [IPrintOemPS::DisableDriver](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-disabledriver). Actions begun in the former method might need to be completed in the latter method. For example, if a large buffer is allocated in **IPrintOemPS::EnableDriver**, but not deallocated in **IPrintOemPS::DisableDriver**, a memory leak can occur.
 
 The method should fill the supplied [DRVENABLEDATA](/windows/win32/api/winddi/ns-winddi-drvenabledata) structure and allocate an array of [DRVFN](/windows/win32/api/winddi/ns-winddi-drvfn) structures. It should fill the array with pointers to hooking functions, along with winddi.h-defined index values that identify the hooked out graphics DDI functions.
 
@@ -150,11 +149,10 @@ Customized hooking functions have the same input and output parameters as the eq
 
 1. As an input argument for a *dhpdev* parameter. The equivalent customized hooking function must cast this input parameter to type PDEVOBJ when referencing it. An example graphics DDI function is **DrvDitherColor**.
 
-Note that while a [printer graphics DLL](/windows-hardware/drivers/print/printer-graphics-dll) includes the addresses of its [DrvEnablePDEV](/windows/win32/api/winddi/nf-winddi-drvenablepdev), [DrvDisablePDEV](/windows/win32/api/winddi/nf-winddi-drvdisablepdev), and [DrvResetPDEV](/windows/win32/api/winddi/nf-winddi-drvresetpdev) functions in the DRVENABLEDATA structure, a rendering plug-in for Pscript5 implements **EnablePDEV**, **DisablePDEV**, and **ResetPDEV** as methods of the **IPrintOemPS** interface and does not place their addresses in the DRVENABLEDATA structure.
+While a [printer graphics DLL](/windows-hardware/drivers/print/printer-graphics-dll) includes the addresses of its [DrvEnablePDEV](/windows/win32/api/winddi/nf-winddi-drvenablepdev), [DrvDisablePDEV](/windows/win32/api/winddi/nf-winddi-drvdisablepdev), and [DrvResetPDEV](/windows/win32/api/winddi/nf-winddi-drvresetpdev) functions in the DRVENABLEDATA structure, a rendering plug-in for Pscript5 implements **EnablePDEV**, **DisablePDEV**, and **ResetPDEV** as methods of the **IPrintOemPS** interface and does not place their addresses in the DRVENABLEDATA structure.
 
 If **IPrintOemPS::EnableDriver** methods are exported by multiple rendering plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
-> [!NOTE]
-> Each graphics DDI function can be hooked out by one rendering plug-in. If multiple plug-ins attempt to hook out the same graphics DDI function, all hook-outs after the first one are ignored.
+Each graphics DDI function can be hooked out by one rendering plug-in. If multiple plug-ins attempt to hook out the same graphics DDI function, all hook-outs after the first one are ignored.
 
 For more information about creating and installing rendering plug-ins, see [Customizing Microsoft's Printer Drivers](/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers).

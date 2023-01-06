@@ -3,7 +3,7 @@ UID: NF:winsplp.GetPrintProcessorCapabilities
 title: GetPrintProcessorCapabilities function (winsplp.h)
 description: A print processor's GetPrintProcessorCapabilities function returns capabilities associated with a specified input data type.
 tech.root: print
-ms.date: 11/30/2022
+ms.date: 01/04/2023
 keywords: ["GetPrintProcessorCapabilities function"]
 ms.keywords: GetPrintProcessorCapabilities, GetPrintProcessorCapabilities function [Print Devices], print.getprintprocessorcapabilities, spoolfnc_4ca0ae34-060f-4144-91de-a2556d1b5261.xml, winsplp/GetPrintProcessorCapabilities
 req.header: winsplp.h
@@ -63,8 +63,7 @@ Caller-supplied value that represents the size of the buffer pointed to by *pDat
 
 If the value is less than sizeof(PRINTPROCESSOR_CAPS_1), this function should supply a value that is equal to sizeof(PRINTPROCESSOR_CAPS_1) or sizeof(PRINTPROCESSOR_CAPS_2), depending on which structure is supported by the print processor.
 
-> [!NOTE]
-> If the value is less than sizeof(PRINTPROCESSOR_CAPS_1), the winprint print processor will supply a value of sizeof(PRINTPROCESSOR_CAPS_2).
+If the value is less than sizeof(PRINTPROCESSOR_CAPS_1), the winprint print processor will supply a value of sizeof(PRINTPROCESSOR_CAPS_2).
 
 ### -param pcbNeeded [out]
 

@@ -3,7 +3,7 @@ UID: NF:wia_lh.IWiaLog.hResult
 title: IWiaLog::hResult (wia_lh.h)
 description: The IWiaLog::hResult (wia_lh.h) method is obsolete and is no longer supported. Use the Diagnostic Log Macros instead.
 tech.root: image
-ms.date: 11/09/2022
+ms.date: 01/04/2023
 keywords: ["IWiaLog::hResult"]
 ms.keywords: IWiaLog interface [Imaging Devices],hResult method, IWiaLog.hResult, IWiaLog::hResult, IWiaLog_e581a82d-60c1-45e3-9d5a-fcac2b4d9c9c.xml, hResult, hResult method [Imaging Devices], hResult method [Imaging Devices],IWiaLog interface, image.iwialog_hresult, wia_lh/IWiaLog::hResult
 req.header: wia_lh.h
@@ -41,8 +41,7 @@ api_name:
 
 ## -description
 
-> [!IMPORTANT]
-> The **IWiaLog::hResult** method is obsolete and is no longer supported. Use the [**Diagnostic Log Macros**](/windows-hardware/drivers/image/wia-diagnostic-log-macros) instead.
+The **IWiaLog::hResult** method is obsolete and is no longer supported. Use the [**Diagnostic Log Macros**](/windows-hardware/drivers/image/wia-diagnostic-log-macros) instead.
 
 The **IWiaLog::hResult** method translates an HRESULT value into a string and writes the string to *Wiaservc.log*.
 

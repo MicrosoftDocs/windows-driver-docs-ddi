@@ -3,7 +3,7 @@ UID: NF:ks.KsFilterFactoryUpdateCacheData
 title: KsFilterFactoryUpdateCacheData function (ks.h)
 description: The KsFilterFactoryUpdateCacheData function updates the FilterData registry key and the Medium cache (a set of registry keys) for a given filter factory.
 tech.root: stream
-ms.date: 11/16/2022
+ms.date: 01/04/2023
 keywords: ["KsFilterFactoryUpdateCacheData function"]
 ms.keywords: KsFilterFactoryUpdateCacheData, KsFilterFactoryUpdateCacheData function [Streaming Media Devices], avfunc_2fdbd12c-b074-415e-8de3-bfbe61ef198a.xml, ks/KsFilterFactoryUpdateCacheData, stream.ksfilterfactoryupdatecachedata
 req.header: ks.h
@@ -70,8 +70,7 @@ In addition, **KsRegisterFilterWithNoKSPins** only allows one medium per registe
 
 For more information, see [AVStream Object Hierarchy](/windows-hardware/drivers/stream/avstream-object-hierarchy).
 
-> [!NOTE]
-> The KsFilterFactoryUpdateCacheData function can only be called in PASSIVE_LEVEL.
+The KsFilterFactoryUpdateCacheData function can only be called in PASSIVE_LEVEL.
 
 ## -see-also
 

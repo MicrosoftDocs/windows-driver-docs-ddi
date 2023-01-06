@@ -2,15 +2,14 @@
 UID: NF:wdm.IoCallDriver
 title: IoCallDriver macro (wdm.h)
 description: The IoCallDriver routine sends an IRP to the driver associated with a specified device object.
-old-location: kernel\iocalldriver.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/05/2023
 keywords: ["IoCallDriver macro"]
 ms.keywords: IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture], k104_8579a946-2f96-455f-825c-c3f86caba99c.xml, kernel.iocalldriver, wdm/IoCallDriver
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -23,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
+req.irql: IRQL <= DISPATCH_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -40,26 +39,21 @@ api_name:
  - IoCallDriver
 ---
 
-# IoCallDriver macro
-
-
 ## -description
 
-The <b>IoCallDriver</b> routine, wraps **IofCallDriver** that sends an IRP to the driver associated with a specified device object.
-For more information, see [**IofCallDriver**](nf-wdm-iofcalldriver.md).
+The **IoCallDriver** routine, wraps **IofCallDriver** that sends an IRP to the driver associated with a specified device object.
 
-> [!NOTE]
-> Do not call **IofCallDriver**. Call **IoCallDriver** instead.
+Do not call **IofCallDriver**. Call **IoCallDriver** instead. For more information, see [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 ## -parameters
 
 ### -param a [in]
 
-
 See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 ### -param b [in, out]
 
+See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 ## -syntax
 
@@ -73,26 +67,14 @@ See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
+[IoAllocateIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp)
 
+[IoBuildAsynchronousFsdRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp">IoAllocateIrp</a>
+[IoBuildDeviceIoControlRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest)
 
+[IoBuildSynchronousFsdRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest)
 
+[IoSetCompletionRoutine](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest">IoBuildAsynchronousFsdRequest</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest">IoBuildSynchronousFsdRequest</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine">IoSetCompletionRoutine</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocalldriver">PoCallDriver</a>
+[PoCallDriver](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocalldriver)

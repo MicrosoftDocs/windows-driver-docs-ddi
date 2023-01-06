@@ -41,8 +41,7 @@ api_name:
 
 ## -description
 
-> [!IMPORTANT]
-> The **IWiaLog::InitializeLog** method is obsolete and is no longer supported. Use the [**Diagnostic Log Macros**](/windows-hardware/drivers/image/wia-diagnostic-log-macros) instead.
+The **IWiaLog::InitializeLog** method is obsolete and is no longer supported. Use the [**Diagnostic Log Macros**](/windows-hardware/drivers/image/wia-diagnostic-log-macros) instead.
 
 The **IWiaLog::InitializeLog** method initializes the **lWiaLog** interface.
 

@@ -3,7 +3,7 @@ UID: NN:printerextension.IPrintSchemaAsyncOperationEvent
 title: IPrintSchemaAsyncOperationEvent (printerextension.h)
 description: Exposes a validation, merge, or commit completion event delegate.
 tech.root: print
-ms.date: 08/04/2022
+ms.date: 01/04/2023
 keywords: ["IPrintSchemaAsyncOperationEvent interface"]
 ms.keywords: IPrintSchemaAsyncOperationEvent, IPrintSchemaAsyncOperationEvent interface [Print Devices], IPrintSchemaAsyncOperationEvent interface [Print Devices],described, print.iprintschemaasyncoperationevent_interface, printerextension/IPrintSchemaAsyncOperationEvent
 req.header: printerextension.h
@@ -47,8 +47,7 @@ Exposes a validation, merge, or commit completion event delegate.
 
 An event sink that implements **IPrintSchemaAsyncOperationEvent** and the event source, [IPrintSchemaAsyncOperation](./nn-printerextension-iprintschemaasyncoperation.md) are connected via the [IConnectionPoint](/windows/win32/api/ocidl/nn-ocidl-iconnectionpoint) mechanism. You must retrieve a pointer to the **IConnectionPoint** interface by invoking **QueryInterface** on the **IPrinterQueue** object.
 
-> [!NOTE]
-> It is mandatory to implement **IDispatch::Invoke** on the event sink that implements **IPrinterQueueEvent**, since that is the mechanism via which events are raised. It is sufficient to provide stub implementations of the other methods on the **IDispatch** interface.
+It is mandatory to implement **IDispatch::Invoke** on the event sink that implements **IPrinterQueueEvent**, since that is the mechanism via which events are raised. It is sufficient to provide stub implementations of the other methods on the **IDispatch** interface.
 
 ## -see-also
 

@@ -3,7 +3,7 @@ UID: NF:ks.KsStreamPointerScheduleTimeout
 title: KsStreamPointerScheduleTimeout function (ks.h)
 description: The KsStreamPointerScheduleTimeout function registers a timeout callback with AVStream for the given stream pointer.
 tech.root: stream
-ms.date: 11/16/2022
+ms.date: 01/04/2023
 keywords: ["KsStreamPointerScheduleTimeout function"]
 ms.keywords: KsStreamPointerScheduleTimeout, KsStreamPointerScheduleTimeout function [Streaming Media Devices], avfunc_bde904b2-cfb8-45d1-80a1-ef1046d60276.xml, ks/KsStreamPointerScheduleTimeout, stream.ksstreampointerscheduletimeout
 req.header: ks.h
@@ -62,8 +62,7 @@ Specifies the interval in 100-nanosecond units from the current time to the time
 
 It is safe to call KsStreamPointerScheduleTimeout on a stream pointer that already has a timeout scheduled. In this case, AVStream cancels the previous timeout and replaces it with the new timeout.
 
-> [!NOTE]
-> If you call KsStreamPointerScheduleTimeout while the pin associated with the [**KSSTREAM_POINTER**](./ns-ks-_ksstream_pointer.md) is still in the pause state, the scheduled timeout may not fire unless another timeout is scheduled later in the run state. At that point, it is possible for all the timeouts that were scheduled during pause to become active and fire immediately in a chain. Also see [Stream Pointers](/windows-hardware/drivers/stream/stream-pointers).
+If you call KsStreamPointerScheduleTimeout while the pin associated with the [**KSSTREAM_POINTER**](./ns-ks-_ksstream_pointer.md) is still in the pause state, the scheduled timeout may not fire unless another timeout is scheduled later in the run state. At that point, it is possible for all the timeouts that were scheduled during pause to become active and fire immediately in a chain. Also see [Stream Pointers](/windows-hardware/drivers/stream/stream-pointers).
 
 ## -see-also
 

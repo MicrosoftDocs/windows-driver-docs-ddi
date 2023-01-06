@@ -3,7 +3,7 @@ UID: NF:wdm.IoGetIommuInterface
 title: IoGetIommuInterface function (wdm.h)
 description: Retrieves a pointer to the interface that contains pointers to IOMMU routines.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 01/06/2023
 keywords: ["IoGetIommuInterface function"]
 ms.keywords: IoGetIommuInterface
 req.header: wdm.h
@@ -37,14 +37,12 @@ api_name:
  - IoGetIommuInterface
 ---
 
-# IoGetIommuInterface function
-
 ## -description
 
-Retrieves a pointer to the interface that contains pointers to IOMMU routines.
+> [!CAUTION]
+> `IoGetIommuInterface` has been deprecated in Windows 10, version 2103 and has been replaced by [IoGetIommuInterfaceEx](nf-wdm-iogetiommuinterfaceex.md).
 
->[!IMPORTANT]
-> `IoGetIommuInterface` has been deprecated in Windows 10, version 2103 and has been replaced by [**IoGetIommuInterfaceEx**](nf-wdm-iogetiommuinterfaceex.md).
+Retrieves a pointer to the interface that contains pointers to IOMMU routines.
 
 ## -parameters
 
@@ -66,4 +64,4 @@ This function returns NTKERNELAPI NTSTATUS.
 
 [**DMA_IOMMU_INTERFACE**](ns-wdm-_dma_iommu_interface.md)
 
-[**IoGetIommuInterfaceEx**](nf-wdm-iogetiommuinterfaceex.md)
+[IoGetIommuInterfaceEx](nf-wdm-iogetiommuinterfaceex.md)

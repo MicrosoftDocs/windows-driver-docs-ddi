@@ -1,8 +1,8 @@
 ---
 UID: NF:wdm.PoSetDeviceBusy
-tech.root: 
+tech.root: kernel
 title: PoSetDeviceBusy
-ms.date: 07/16/2021
+ms.date: 01/06/2023
 targetos: Windows
 description: "Learn more about: PoSetDeviceBusy"
 prerelease: false
@@ -12,14 +12,14 @@ req.ddi-compliance:
 req.dll: 
 req.header: wdm.h
 req.idl: 
-req.include-header: 
+req.include-header: Wdm.h
 req.irql: Any level
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 2000
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -48,13 +48,11 @@ The **PoSetDeviceBusy** macro notifies the [power manager](/windows-hardware/dri
 
 ### -param IdlePointer [in, out]
 
-
 Specifies a non-**NULL** idle pointer that was previously returned by [**PoRegisterDeviceForIdleDetection**](../ntifs/nf-ntifs-poregisterdeviceforidledetection.md). Note that **PoRegisterDeviceForIdleDetection** might return a **NULL** pointer. A caller of **PoSetDeviceBusy** must verify that the pointer is non-**NULL** before passing it to **PoSetDeviceBusy**.
 
 ## -remarks
 
-> [!NOTE]
-> The [**PoSetDeviceBusyEx**](../ntifs/nf-ntifs-posetdevicebusyex.md) routine is a direct replacement for the **PoSetDeviceBusy** macro. If you are writing new driver code for Windows Vista with Service Pack 1 (SP1) and later versions of Windows, call **PoSetDeviceBusyEx** instead of **PoSetDeviceBusy**.
+The [**PoSetDeviceBusyEx**](../ntifs/nf-ntifs-posetdevicebusyex.md) routine is a direct replacement for the **PoSetDeviceBusy** macro. If you are writing new driver code for Windows Vista with Service Pack 1 (SP1) and later versions of Windows, call **PoSetDeviceBusyEx** instead of **PoSetDeviceBusy**.
 
 A driver uses **PoSetDeviceBusy** along with **PoRegisterDeviceForIdleDetection** to enable system idle detection for its device. If a device that is registered for idle detection becomes idle, the power manager sends an [**IRP_MN_SET_POWER**](/windows-hardware/drivers/kernel/irp-mn-set-power) request to put the device in a requested sleep state.
 

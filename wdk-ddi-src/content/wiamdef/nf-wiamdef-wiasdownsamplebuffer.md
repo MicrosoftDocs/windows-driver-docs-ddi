@@ -2,9 +2,8 @@
 UID: NF:wiamdef.wiasDownSampleBuffer
 title: wiasDownSampleBuffer function (wiamdef.h)
 description: The wiasDownSampleBuffer function takes in a buffer of DWORD-aligned pixel data and downsamples it (produces image data of lower resolution) to the specified size and resolution.
-old-location: image\wiasdownsamplebuffer.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 01/04/2023
 keywords: ["wiasDownSampleBuffer function"]
 ms.keywords: image.wiasdownsamplebuffer, wiamdef/wiasDownSampleBuffer, wiasDownSampleBuffer, wiasDownSampleBuffer function [Imaging Devices], wiasFncs_a109a3d9-e801-4332-bc89-65432023eecb.xml
 req.header: wiamdef.h
@@ -40,9 +39,6 @@ api_name:
  - wiasDownSampleBuffer
 ---
 
-# wiasDownSampleBuffer function
-
-
 ## -description
 
 The **wiasDownSampleBuffer** function takes in a buffer of DWORD-aligned pixel data and downsamples it (produces image data of lower resolution) to the specified size and resolution.
@@ -54,11 +50,10 @@ The **wiasDownSampleBuffer** function takes in a buffer of DWORD-aligned pixel d
 Specifies a set of flags that determine the behavior of this function. Currently, only the following flag is defined.
 
 | Flag | Meaning |
-| --- | --- |
+|---|---|
 | **WIAS_GET_DOWNSAMPLED_SIZE_ONLY** | Do not copy the downsampled data to the destination buffer. Instead, set the following members of the [WIAS_DOWN_SAMPLE_INFO](../wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info.md) structure: **ulDownSampledHeight**, **ulDownSampleWidth**, **ulAlignedHeight**, **ulAlignedWidth**. |
 
 ### -param pInfo [in, out]
-
 
 Pointer to the [WIAS_DOWN_SAMPLE_INFO](../wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info.md) structure that contains all of the information needed for the downsampling operation.
 
@@ -81,19 +76,25 @@ To see what output width and height values the function chooses, call this funct
 The caller of this function is required to fill in the following members of the **WIA_DOWN_SAMPLE_INFO** structure:
 
 - **ulOriginalWidth**
+
 - **ulOriginal Height**
+
 - **ulBitsPerPixel**
+
 - **ulXRes**
+
 - **ulYRes**
+
 - **pSrcBuffer**
 
-> [!NOTE]
-> The **wiasDownSampleBuffer** function expects **ulBitsPerPixel** to be 1, 8, or 24, corresponding to 1-, 8-, and 24-bit-per-pixel data. The caller can also specify the size of the downsampled data by filling in the following **WIA_DOWN_SAMPLE_INFO** structure members: - **ulDownSampledWidth** **ulDownSampledHeight**
+The **wiasDownSampleBuffer** function expects **ulBitsPerPixel** to be 1, 8, or 24, corresponding to 1-, 8-, and 24-bit-per-pixel data. The caller can also specify the size of the downsampled data by filling in the following **WIA_DOWN_SAMPLE_INFO** structure members: - **ulDownSampledWidth** **ulDownSampledHeight**
 
 If the buffer that receives the downsampled data has already been allocated, the caller should fill in these **WIA_DOWN_SAMPLE_INFO** structure members:
 
 - **ulDestBufSize**
+
 - **ulSrcBufSize**
+
 - **pDestBuffer**
 
 If the caller sets **pDestBuffer** to **NULL**, the destination buffer is allocated by the WIA service. On return from this function, **pDestBuffer** points to the destination buffer. The caller is responsible for freeing this memory when the operation is finished, and does this by calling [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) on the buffer.

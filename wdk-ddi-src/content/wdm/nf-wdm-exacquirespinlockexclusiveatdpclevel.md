@@ -2,7 +2,7 @@
 UID: NF:wdm.ExAcquireSpinLockExclusiveAtDpcLevel
 tech.root: kernel
 title: ExAcquireSpinLockExclusiveAtDpcLevel
-ms.date: 10/03/2022
+ms.date: 01/05/2023
 targetos: Windows
 description: Learn more about the ExAcquireSpinLockExclusiveAtDpcLevel routine.
 prerelease: false
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows Vista SP1
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -44,27 +44,26 @@ helpviewer_keywords:
 
 ## -description
 
-The **ExAcquireSpinLockExclusiveAtDpcLevel** routine acquires a [spin lock](/windows-hardware/drivers/kernel/introduction-to-spin-locks) for exclusive access by a caller that is already running at IRQL \>= DISPATCH\_LEVEL.
+The **ExAcquireSpinLockExclusiveAtDpcLevel** routine acquires a [spin lock](/windows-hardware/drivers/kernel/introduction-to-spin-locks) for exclusive access by a caller that is already running at IRQL \>= DISPATCH_LEVEL.
 
 ## -parameters
 
-### -param SpinLock
+### -param SpinLock [in, out]
 
-[in, out] A pointer to the spin lock to acquire. The caller must not already own this spin lock.
+A pointer to the spin lock to acquire. The caller must not already own this spin lock.
 
 ## -remarks
 
-On entry to this routine, the caller must be running at IRQL \>= DISPATCH\_LEVEL. This routine does not change the IRQL.
+On entry to this routine, the caller must be running at IRQL \>= DISPATCH_LEVEL. This routine does not change the IRQL.
 
 To release the spin lock, the driver calls the [**ExReleaseSpinLockExclusiveFromDpcLevel**](nf-wdm-exreleasespinlockexclusivefromdpclevel.md) routine.
 
-A spin lock is a 32-bit variable of type EX\_SPIN\_LOCK. The driver must allocate the storage for the spin lock and initialize the spin lock to zero. This storage must be located in nonpaged system-space memory.
+A spin lock is a 32-bit variable of type EX_SPIN_LOCK. The driver must allocate the storage for the spin lock and initialize the spin lock to zero. This storage must be located in nonpaged system-space memory.
 
 The caller should hold the spin lock only briefly before releasing it. For more information, see [Introduction to Spin Locks](/windows-hardware/drivers/kernel/introduction-to-spin-locks).
 
-> [!NOTE]
-> Recursive acquisition of a spin lock causes deadlock and is not allowed.
+Recursive acquisition of a spin lock causes deadlock and is not allowed.
 
 ## -see-also
 
-[**ExReleaseSpinLockExclusiveFromDpcLevel**](nf-wdm-exreleasespinlockexclusivefromdpclevel.md)
+[ExReleaseSpinLockExclusiveFromDpcLevel](nf-wdm-exreleasespinlockexclusivefromdpclevel.md)

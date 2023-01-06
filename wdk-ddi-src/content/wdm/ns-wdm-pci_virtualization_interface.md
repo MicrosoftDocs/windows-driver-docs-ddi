@@ -2,15 +2,15 @@
 UID: NS:wdm._PCI_VIRTUALIZATION_INTERFACE
 tech.root: pci
 title: PCI_VIRTUALIZATION_INTERFACE
-ms.date: 09/29/2022
+ms.date: 01/06/2023
 targetos: Windows
-description: Learn more about the PCI_VIRTUALIZATION_INTERFACE structure
+description: Learn more about the PCI_VIRTUALIZATION_INTERFACE structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -46,9 +46,9 @@ helpviewer_keywords:
 
 ## -description
 
-The **PCI\_VIRTUALIZATION\_INTERFACE** structure enables drivers to manage and configure the PCI Express (PCIe) configuration space for a virtual function (VF). VFs are exposed on the PCI bus by devices that support the single root I/O virtualization (SR-IOV) interface.
+The **PCI_VIRTUALIZATION_INTERFACE** structure enables drivers to manage and configure the PCI Express (PCIe) configuration space for a virtual function (VF). VFs are exposed on the PCI bus by devices that support the single root I/O virtualization (SR-IOV) interface.
 
-This structure describes the **GUID\_PCI\_VIRTUALIZATION\_INTERFACE** interface.
+This structure describes the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface.
 
 ## -struct-fields
 
@@ -98,21 +98,20 @@ A pointer to a [*GetVirtualFunctionProbedBars*](nc-wdm-get_virtual_function_prob
 
 ## -remarks
 
-For devices that support the SR-IOV interface, drivers occasionally have to access and manage the PCIe configuration space of the device's VFs. Drivers call routines from the GUID\_PCI\_VIRTUALIZATION\_INTERFACE interface to access the PCIe configuration space of the VFs on the device.
+For devices that support the SR-IOV interface, drivers occasionally have to access and manage the PCIe configuration space of the device's VFs. Drivers call routines from the GUID_PCI_VIRTUALIZATION_INTERFACE interface to access the PCIe configuration space of the VFs on the device.
 
-> [!NOTE]
-> Since a device's VFs do not appear as complete PCIe devices on the PCI bus, the [GUID\_BUS\_INTERFACE\_STANDARD](ns-wdm-_bus_interface_standard.md) interface cannot be used for the management of a VF.
+Since a device's VFs do not appear as complete PCIe devices on the PCI bus, the [**GUID_BUS_INTERFACE_STANDARD**](ns-wdm-_bus_interface_standard.md) interface cannot be used for the management of a VF.
 
-The **PCI\_VIRTUALIZATION\_INTERFACE** structure is an extension of the [**INTERFACE**](ns-wdm-_interface.md) structure.
+The **PCI_VIRTUALIZATION_INTERFACE** structure is an extension of the [**INTERFACE**](ns-wdm-_interface.md) structure.
 
-A driver obtains a pointer to the **PCI\_VIRTUALIZATION\_INTERFACE** structure by sending an [**IRP\_MN\_QUERY\_INTERFACE**](/windows-hardware/drivers/kernel/irp-mn-query-interface) I/O request packet (IRP) to its bus driver with *InterfaceType* set to GUID\_PCI\_VIRTUALIZATION\_INTERFACE.
+A driver obtains a pointer to the **PCI_VIRTUALIZATION_INTERFACE** structure by sending an [**IRP_MN_QUERY_INTERFACE**](/windows-hardware/drivers/kernel/irp-mn-query-interface) I/O request packet (IRP) to its bus driver with *InterfaceType* set to GUID_PCI_VIRTUALIZATION_INTERFACE.
 
 ## -see-also
 
-[GUID\_BUS\_INTERFACE\_STANDARD](ns-wdm-_bus_interface_standard.md)
+[**GUID_BUS_INTERFACE_STANDARD**](ns-wdm-_bus_interface_standard.md)
 
 [*InterfaceDereference*](nc-wdm-pinterface_dereference.md)
 
-[*InterfaceReference*](ns-wdm-_interface.md)
+[**InterfaceReference**](ns-wdm-_interface.md)
 
-[**IRP\_MN\_QUERY\_INTERFACE**](/windows-hardware/drivers/kernel/irp-mn-query-interface)
+[**IRP_MN_QUERY_INTERFACE**](/windows-hardware/drivers/kernel/irp-mn-query-interface)

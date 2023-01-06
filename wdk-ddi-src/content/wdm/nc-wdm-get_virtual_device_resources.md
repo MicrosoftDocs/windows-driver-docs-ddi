@@ -2,9 +2,8 @@
 UID: NC:wdm.GET_VIRTUAL_DEVICE_RESOURCES
 title: GET_VIRTUAL_DEVICE_RESOURCES (wdm.h)
 description: The GetResources routine returns the resources that the PCI Express (PCIe) physical function (PF) requires in order to enable virtualization on a device that supports the single root I/O virtualization (SR-IOV) interface.
-old-location: pci\getresources.htm
 tech.root: PCI
-ms.date: 07/29/2021
+ms.date: 01/05/2023
 keywords: ["GET_VIRTUAL_DEVICE_RESOURCES callback"]
 ms.keywords: GET_VIRTUAL_DEVICE_RESOURCES, GetResources, GetResources routine, PCI.getresources, wdm/GetResources
 req.header: wdm.h
@@ -41,17 +40,15 @@ api_name:
  - GET_VIRTUAL_DEVICE_RESOURCES
 ---
 
-# GET_VIRTUAL_DEVICE_RESOURCES callback
-
 ## -description
 
-The [GetResources]() routine returns the resources that the PCI Express (PCIe) physical function (PF) requires in order to enable virtualization on a device that supports the single root I/O virtualization (SR-IOV) interface.
+The **GetResources** routine returns the resources that the PCI Express (PCIe) physical function (PF) requires in order to enable virtualization on a device that supports the single root I/O virtualization (SR-IOV) interface.
 
 ## -parameters
 
 ### -param Context [in, out]
 
-A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)) structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [**PCI_VIRTUALIZATION_INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-pci_virtualization_interface) structure for the interface.
 
 ### -param CapturedBusNumbers [out]
 
@@ -83,8 +80,7 @@ A device that supports the SR-IOV interface  must capture PCI buses if at least 
 
 - The device supports ARI and has more than 256 functions, and the upstream bridge port does  support ARI.
 
-> [!NOTE]
-> Regardless of ARI support, each captured bus can support 256 functions.
+Regardless of ARI support, each captured bus can support 256 functions.
 
 If the device needs more PCIe Requestor IDs (RIDs) in order to enable all  of its VFs, the PCI bus driver does the following:
 
@@ -94,8 +90,8 @@ If the device needs more PCIe Requestor IDs (RIDs) in order to enable all  of it
 
 The difference between these two register values represents the number of captured bus numbers.
 
-The [GetResources]() routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface.
+The **GetResources** routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface.
 
 ## -see-also
 
-[PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85))
+[**PCI_VIRTUALIZATION_INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-pci_virtualization_interface)

@@ -3,7 +3,7 @@ UID: NF:winppi.GdiGetPageCount
 title: GdiGetPageCount function (winppi.h)
 description: The GdiGetPageCount function returns the number of pages in a print job.
 tech.root: print
-ms.date: 11/17/2022
+ms.date: 01/04/2023
 keywords: ["GdiGetPageCount function"]
 ms.keywords: GdiGetPageCount, GdiGetPageCount function [Print Devices], gdifnc_f34bbc65-29f2-47b1-aec3-523af01a804c.xml, print.gdigetpagecount, winppi/GdiGetPageCount
 req.header: winppi.h
@@ -59,9 +59,8 @@ If the operation succeeds, the function returns the number of pages in the curre
 
 The GdiGetPageCount function is exported by gdi32.dll for use within a print processor's [PrintDocumentOnPrintProcessor](../winsplp/nf-winsplp-printdocumentonprintprocessor.md) function.
 
-> [!NOTE]
-> The GdiGetPageCount function does not return until all pages have been spooled, even if the print server administrator has specified that print jobs should be printed during spooling. Therefore, this function should not be used unless it is necessary to obtain the total page count before document processing can begin, such as for printing pages in reverse order.
->
-> Usually, a better method for determining the page count is to count the number of calls made to [GdiGetPageHandle](./nf-winppi-gdigetpagehandle.md).
+The GdiGetPageCount function does not return until all pages have been spooled, even if the print server administrator has specified that print jobs should be printed during spooling. Therefore, this function should not be used unless it is necessary to obtain the total page count before document processing can begin, such as for printing pages in reverse order.
+
+Usually, a better method for determining the page count is to count the number of calls made to [GdiGetPageHandle](./nf-winppi-gdigetpagehandle.md).
 
 For additional information about this set of functions, see [Using GDI Functions in Print Processors](/windows-hardware/drivers/print/using-gdi-functions-in-print-processors).

@@ -3,7 +3,7 @@ UID: NF:winddiui.DrvDocumentEvent
 title: DrvDocumentEvent function (winddiui.h)
 description: A printer interface DLL's DrvDocumentEvent function can handle certain events associated with printing a document.
 tech.root: print
-ms.date: 11/17/2022
+ms.date: 01/04/2023
 keywords: ["DrvDocumentEvent function"]
 ms.keywords: DrvDocumentEvent, DrvDocumentEvent function [Print Devices], print.drvdocumentevent, print_interface-graphics_ffc39ed1-d1b8-4e3d-b0a3-515b90cd6c8f.xml, winddiui/DrvDocumentEvent
 req.header: winddiui.h
@@ -162,11 +162,11 @@ If the escape code supplied in the *iEsc* parameter is DOCUMENTEVENT_CREATEDCPRE
 
 The **DrvDocumentEvent** function executes in the context of the user-mode caller of the GDI client function. When EMF spooling is disabled, the function can display a user interface. For example, the **DrvDocumentEvent** function for a FAX driver might display a dialog box to the user before GDI's [**StartDoc**](/windows/win32/api/wingdi/nf-wingdi-startdoca) function is processed.
 
-> [!NOTE]
-> The following restrictions apply when running a 32-bit application on a 64-bit version of Windows:
->
-> - The only GDI function that **DrvDocumentEvent** should call is [**ExtEscape**](/windows/win32/api/wingdi/nf-wingdi-extescape), and only private escapes should be used.
-> - **DrvDocumentEvent** calls to other GDI functions may produce undefined behavior.
+The following restrictions apply when running a 32-bit application on a 64-bit version of Windows:
+
+- The only GDI function that **DrvDocumentEvent** should call is [**ExtEscape**](/windows/win32/api/wingdi/nf-wingdi-extescape), and only private escapes should be used.
+
+- **DrvDocumentEvent** calls to other GDI functions may produce undefined behavior.
 
 ## -see-also
 

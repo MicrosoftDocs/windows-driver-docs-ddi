@@ -51,10 +51,7 @@ Caller-supplied handle to a property sheet [group parent](/windows-hardware/driv
 
 ### -param Function [in]
 
-Caller-supplied, CPSFUNC_-prefixed ComPropSheet function codes specifying the operation to be performed by the *ComPropSheet* function.
-
-> [!NOTE]
-> See the *ComPropSheet* function codes table in the **Remarks** section below.
+Caller-supplied, CPSFUNC_-prefixed ComPropSheet function codes specifying the operation to be performed by the *ComPropSheet* function. See the *ComPropSheet* function codes table in the **Remarks** section below.
 
 ### -param lParam1 [in]
 

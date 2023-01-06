@@ -3,7 +3,7 @@ UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_GEOFENCE_ALERT
 title: IOCTL_GNSS_LISTEN_GEOFENCE_ALERT (gnssdriver.h)
 description: The IOCTL_GNSS_LISTEN_GEOFENCE_ALERT control code is used to start listening for geofence alerts from the driver.
 tech.root: gnss
-ms.date: 11/16/2022
+ms.date: 01/03/2023
 keywords: ["IOCTL_GNSS_LISTEN_GEOFENCE_ALERT IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_GEOFENCE_ALERT, IOCTL_GNSS_LISTEN_GEOFENCE_ALERT control, IOCTL_GNSS_LISTEN_GEOFENCE_ALERT control code [Sensor Devices], gnss.ioctl_gnss_listen_geofence_alert, gnssdriver/IOCTL_GNSS_LISTEN_GEOFENCE_ALERT
 req.header: gnssdriver.h
@@ -43,8 +43,7 @@ api_name:
 
 The IOCTL_GNSS_LISTEN_GEOFENCE_ALERT control code is used to start listening for geofence alerts from the driver.
 
-> [!NOTE]
-> Applies to GNSS DDI version 2 and later.
+Applies to GNSS DDI version 2 and later.
 
 ## -ioctlparameters
 

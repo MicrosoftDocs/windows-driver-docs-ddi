@@ -3,7 +3,7 @@ UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
 title: IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS (gnssdriver.h)
 description: The IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control code is used to receive geofence tracking status from the driver.
 tech.root: gnss
-ms.date: 11/16/2022
+ms.date: 01/03/2023
 keywords: ["IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS, IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control, IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control code [Sensor Devices], gnss.ioctl_gnss_listen_geofences_trackingstatus, gnssdriver/IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
 req.header: gnssdriver.h
@@ -43,8 +43,7 @@ api_name:
 
 The **IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS** control code is used to receive geofence tracking status from the driver.
 
-> [!NOTE]
-> Applies to GNSS DDI version 2 and later.
+Applies to GNSS DDI version 2 and later.
 
 ## -ioctlparameters
 

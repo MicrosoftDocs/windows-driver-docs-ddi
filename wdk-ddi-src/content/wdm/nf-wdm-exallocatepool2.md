@@ -12,7 +12,7 @@ req.dll: NtosKrnl.exe
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.idl: 
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
+req.irql: IRQL <= DISPATCH_LEVEL (see Remarks section)
 req.kmdf-ver: 
 req.lib: NtosKrnl.lib
 req.max-support: 
@@ -59,12 +59,12 @@ The pool tag to use for the allocated memory. Specify the pool tag as a non-zero
 
 ## -returns
 
-**ExAllocatePool2** returns a pointer to the allocated memory. 
+**ExAllocatePool2** returns a pointer to the allocated memory.
 
 The following conditions cause the function to return NULL by default. If **POOL_FLAG_RAISE_ON_FAILURE** is specified, the function raises an exception.
 
-* Insufficient memory
-* **Tag** is set to 0 or invalid POOL_FLAGS are specified
+- Insufficient memory
+- **Tag** is set to 0 or invalid POOL_FLAGS are specified
 
 ## -remarks
 
@@ -73,11 +73,12 @@ If you are building a driver that targets versions of Windows prior to Windows 1
 This routine has the following differences from the earlier allocation routines (**ExAllocatePoolWithTag**, **ExAllocatePoolWithQuotaTag**, **ExAllocatePoolWithTagPriority**):
 
 1. Memory is zero initialized unless **POOL_FLAG_UNINITIALIZED** is specified.
-2. Return behavior in the event of unsuccessful allocation.  **ExAllocatePoolWithQuotaTag** raises an exception by default.
-3. Tags with a value of 0 are invalid.
 
-> [!NOTE]
-> When replacing [**ExAllocatePoolWithQuotaTag**](./nf-wdm-exallocatepoolwithquotatag.md) with **ExAllocatePool2**, you must specify the **POOL_FLAG_USE_QUOTA** flag. For more info about pool flags, see [POOL_FLAGS](/windows-hardware/drivers/kernel/pool_flags).
+1. Return behavior in the event of unsuccessful allocation.  **ExAllocatePoolWithQuotaTag** raises an exception by default.
+
+1. Tags with a value of 0 are invalid.
+
+When replacing [**ExAllocatePoolWithQuotaTag**](./nf-wdm-exallocatepoolwithquotatag.md) with **ExAllocatePool2**, you must specify the **POOL_FLAG_USE_QUOTA** flag. For more info about pool flags, see [POOL_FLAGS](/windows-hardware/drivers/kernel/pool_flags).
 
 If **NumberOfBytes** is `PAGE_SIZE` or greater, a page-aligned buffer is allocated. Memory allocations of `PAGE_SIZE` or less are allocated within a page and do not cross page boundaries. Memory allocations of less than `PAGE_SIZE` are not necessarily page-aligned but are aligned to 8-byte boundaries in 32-bit systems and to 16-byte boundaries in 64-bit systems.
 
@@ -93,9 +94,8 @@ Callers of **ExAllocatePool2** must be running at IRQL <= DISPATCH_LEVEL. A 
 
 In a non-uniform memory access (NUMA) multiprocessor architecture, **ExAllocatePool2** attempts to allocate memory that is local to the processor that is calling **ExAllocatePool2**. If no local memory is available, **ExAllocatePool2** allocates the closest available memory.
 
-> [!NOTE]
-> Memory that **ExAllocatePool2** allocates is zero initialized. Kernel-mode drivers should not opt-out of zeroing for allocations that will be copied to an untrusted location (user-mode, over the network, etc.) to avoid disclosing sensitive information.
+Memory that **ExAllocatePool2** allocates is zero initialized. Kernel-mode drivers should not opt-out of zeroing for allocations that will be copied to an untrusted location (user-mode, over the network, etc.) to avoid disclosing sensitive information.
 
 ## -see-also
 
-[**ExAllocatePool3**](nf-wdm-exallocatepool3.md)
+[ExAllocatePool3](nf-wdm-exallocatepool3.md)
