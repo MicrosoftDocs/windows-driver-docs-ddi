@@ -74,7 +74,7 @@ DbgPrintEx ( DPFLTR_DEFAULT_ID, DPFLTR_INFO_LEVEL, Format, arguments )
 
 For more information about message filtering, components, and message importance level, see [Reading and Filtering Debugging Messages](/windows-hardware/drivers/devtest/reading-and-filtering-debugging-messages).
 
-Regardless of which version of Windows you are using, it is recommended that you use **DbgPrintEx** instead of **DbgPrint**, since this allows you to control the conditions under which the message is sent.
+It is recommended that you use **DbgPrintEx** instead of **DbgPrint**, since this allows you to control the conditions under which the message is sent.
 
 Unless it is absolutely necessary, you should not obtain a string from user input or another process and pass it to **DbgPrint**. If you do use a string that you did not create, you must verify that this is a valid format string, and that the format codes match the argument list in type and quantity. The best coding practice is for all *Format* strings to be static and defined at compile time.
 
