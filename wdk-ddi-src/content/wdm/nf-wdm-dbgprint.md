@@ -3,7 +3,7 @@ UID: NF:wdm.DbgPrint
 title: DbgPrint function (wdm.h)
 description: The DbgPrint routine sends a message to the kernel debugger.
 tech.root: devtest
-ms.date: 12/12/2022
+ms.date: 01/10/2023
 keywords: ["DbgPrint function"]
 ms.keywords: DbgPrint, DbgPrint routine [Driver Development Tools], DebugFns_5e11bbcc-adc2-46c0-b371-0e54c50bb2dc.xml, ULONG, devtest.dbgprint, wdm/DbgPrint
 req.header: wdm.h
@@ -42,9 +42,7 @@ api_name:
 
 ## -description
 
-The **DbgPrint** routine sends a message to the kernel debugger.
-
- In Windows Vista and later versions of Windows, **DbgPrint** sends a message only when the conditions that you specify apply (see the **Remarks** section below).
+The **DbgPrint** routine sends a message to the kernel debugger when the conditions that you specify apply (see the **Remarks** section below).
 
 ## -parameters
 
@@ -62,11 +60,11 @@ If successful, **DbgPrint** returns the NTSTATUS code STATUS_SUCCESS; otherwise 
 
 ## -remarks
 
-**DbgPrint** and **DbgPrintEx** can be called at IRQL&lt;=DIRQL. However, Unicode format codes (%wc and %ws) can be used only at IRQL=PASSIVE_LEVEL. Also, because the debugger uses interprocess interrupts (IPIs) to communicate with other processors, calling **DbgPrint** at IRQL&gt;DIRQL can cause deadlocks.
+**DbgPrint** and **DbgPrintEx** can be called at IRQL&lt;=DIRQL. However, Unicode format codes (**%C**, **%S**, **%lc**, **%ls**, **%wc**, **%ws**, and **%wZ**) can be used only at IRQL=PASSIVE_LEVEL. Also, because the debugger uses interprocess interrupts (IPIs) to communicate with other processors, calling **DbgPrint** at IRQL&gt;DIRQL can cause deadlocks.
 
 Only kernel-mode drivers can call the **DbgPrint** routine.
 
-In Microsoft Windows Server 2003 and earlier versions of Windows, the **DbgPrint** routine sends a message to the kernel debugger. In Windows Vista and later versions of Windows, **DbgPrint** sends a message only if certain conditions apply. Specifically, it behaves like the [DbgPrintEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgprintex) routine with the DEFAULT component and a message importance level of DPFLTR_INFO_LEVEL. In other words, the following two function calls are identical:
+**DbgPrint** sends a message only if certain conditions apply. Specifically, it behaves like the [DbgPrintEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgprintex) routine with the DEFAULT component and a message importance level of DPFLTR_INFO_LEVEL. In other words, the following two function calls are identical:
 
 ```cpp
 DbgPrint ( Format, arguments )
