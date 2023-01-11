@@ -54,11 +54,11 @@ helpviewer_keywords:
 
 ### -param PrimaryTokenInformation
 
-[in] Pointer to the [**TOKEN_ACCESS_INFORMATION**](ns-ntifs-token_access_information.md.md) structure captured from the primary token. This structure provides the token's information needed to perform an access check.
+[in] Pointer to the [**TOKEN_ACCESS_INFORMATION**](ns-ntifs-token_access_information.md) structure captured from the primary token. This structure provides the token's information needed to perform an access check.
 
 ### -param ClientTokenInformation
 
-[in_opt] Optional pointer to the [**TOKEN_ACCESS_INFORMATION**](ns-ntifs-token_access_information.md.md) structure captured from the client token.
+[in_opt] Optional pointer to the [**TOKEN_ACCESS_INFORMATION**](ns-ntifs-token_access_information.md) structure captured from the client token.
 
 ### -param DesiredAccess
 
