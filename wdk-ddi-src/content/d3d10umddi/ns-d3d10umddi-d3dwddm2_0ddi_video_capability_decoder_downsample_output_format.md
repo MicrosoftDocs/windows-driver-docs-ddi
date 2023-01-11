@@ -4,7 +4,7 @@ tech.root: display
 title: D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLE_OUTPUT_FORMAT
 ms.date: 12/09/2022
 targetos: Windows
-description: 
+description: Learn more about the D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLE_OUTPUT_FORMAT structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
