@@ -1,10 +1,9 @@
 ---
 UID: NS:wdm._PO_FX_PERF_STATE
-title: _PO_FX_PERF_STATE (wdm.h)
+title: PO_FX_PERF_STATE (wdm.h)
 description: The PO_FX_PERF_STATE structure represents a performance state for a single component within a device.
-old-location: kernel\po_fx_perf_state.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/16/2022
 keywords: ["PO_FX_PERF_STATE structure"]
 ms.keywords: "*PPO_FX_PERF_STATE, PO_FX_PERF_STATE, PO_FX_PERF_STATE structure [Kernel-Mode Driver Architecture], PPO_FX_PERF_STATE, PPO_FX_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], _PO_FX_PERF_STATE, kernel.po_fx_perf_state, wdm/PO_FX_PERF_STATE, wdm/PPO_FX_PERF_STATE"
 req.header: wdm.h
@@ -46,43 +45,32 @@ api_name:
  - PO_FX_PERF_STATE
 ---
 
-# _PO_FX_PERF_STATE structure
-
-
 ## -description
 
-The <b>PO_FX_PERF_STATE</b> structure represents a performance state for a single component within a device.
+The **PO_FX_PERF_STATE** structure represents a performance state for a single component within a device.
 
 ## -struct-fields
 
 ### -field Value
 
-The value of this performance state. The units are specified by the <b>Unit</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_perf_set">PO_FX_COMPONENT_PERF_SET</a> that contains this performance state. For example, if <b>Value</b> is 100000000 and the <b>Unit</b> member of the  <b>PO_FX_COMPONENT_PERF_SET</b> is <b>PoFxPerfStateUnitFrequency</b>, this performance state represents 100 MHz.
+The value of this performance state. The units are specified by the **Unit** member of the [**PO_FX_COMPONENT_PERF_SET**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_perf_set) that contains this performance state. For example, if **Value** is 100000000 and the **Unit** member of the  **PO_FX_COMPONENT_PERF_SET** is **PoFxPerfStateUnitFrequency**, this performance state represents 100 MHz.
 
 ### -field Context
 
-A pointer to additional context for the performance state that cannot be presented by the <b>Value</b> member. This data can be shared between the driver and the platform extension plug-in (PEP).
+A pointer to additional context for the performance state that cannot be presented by the **Value** member. This data can be shared between the driver and the platform extension plug-in (PEP).
 
-<div class="alert"><b>Note</b>  Using the <b>Context</b> member can hinder the visualization of performance states in Windows Performance Analyzer.</div>
-<div> </div>
+Using the **Context** member can hinder the visualization of performance states in Windows Performance Analyzer.
 
 ## -remarks
 
-The <b>States</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_perf_set">PO_FX_COMPONENT_PERF_SET</a> structure contains an array of <b>PO_FX_PERF_STATE</b> elements.
+The **States** member of the [**PO_FX_COMPONENT_PERF_SET**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_perf_set) structure contains an array of **PO_FX_PERF_STATE** elements.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/component-level-performance-management">Device Performance State Management</a>
+[Device Performance State Management](/windows-hardware/drivers/kernel/component-level-performance-management)
 
+[**PO_FX_COMPONENT_PERF_SET**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_perf_set)
 
+[PO_FX_PERF_STATE_UNIT](/windows-hardware/drivers/ddi/wdm/ne-wdm-_po_fx_perf_state_unit)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_perf_set">PO_FX_COMPONENT_PERF_SET</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_po_fx_perf_state_unit">PO_FX_PERF_STATE_UNIT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregistercomponentperfstates">PoFxRegisterComponentPerfStates</a>
-
+[PoFxRegisterComponentPerfStates](/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregistercomponentperfstates)

@@ -3,17 +3,17 @@ UID: NF:ntifs.NtQueryInformationByName
 title: NtQueryInformationByName function (ntifs.h)
 description: NtQueryInformationByName returns the requested information about a file specified by file name.
 tech.root: ifsk
-ms.date: 06/21/2021
+ms.date: 10/06/2022
 ms.keywords: NtQueryInformationByName
 req.header: ntifs.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Available starting with Windows 10 version 1703.
+req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 req.ddi-compliance: 
 req.unicode-ansi: 
@@ -36,6 +36,7 @@ api_name:
  - NtQueryInformationByName
 product:
  - Windows
+ms.custom: engagement-fy23
 ---
 
 # NtQueryInformationByName function

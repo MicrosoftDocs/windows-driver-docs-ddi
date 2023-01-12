@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMFilterGraphics
 title: OEMFilterGraphics function (printoem.h)
-description: OEMFilterGraphics function
-old-location: print\oemfiltergraphics.htm
+description: Describes the OEMFilterGraphics function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/09/2022
 keywords: ["OEMFilterGraphics function"]
 ms.keywords: OEMFilterGraphics, OEMFilterGraphics function [Print Devices], print.oemfiltergraphics, print_obsoletefunctions_fa20bac8-85b3-4ddb-8bf6-1a659f30b3ad.xml, printoem/OEMFilterGraphics
 req.header: printoem.h
@@ -40,18 +39,24 @@ api_name:
  - OEMFilterGraphics
 ---
 
-# OEMFilterGraphics function
-
-
 ## -description
+
+Describes the **OEMFilterGraphics** function.
 
 ## -parameters
 
 ### -param pdevobj
 
+Defines the **PDEVOBJ** parameter *pdevobj*.
+
 ### -param pBuf [in]
 
-
+Defines the **PBYTE** parameter *pBuf*.
 
 ### -param dwLen
 
+Defines the **DWORD** parameter *dwLen*.
+
+## -returns
+
+Returns a **BOOL** value.

@@ -2,9 +2,8 @@
 UID: NF:printerextension.IPrinterPropertyBag.GetBytes
 title: IPrinterPropertyBag::GetBytes (printerextension.h)
 description: Reads a byte array property.
-old-location: print\iprinterpropertybag_getbytes.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/03/2022
 keywords: ["IPrinterPropertyBag::GetBytes"]
 ms.keywords: GetBytes, GetBytes method [Print Devices], GetBytes method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetBytes method, IPrinterPropertyBag.GetBytes, IPrinterPropertyBag::GetBytes, print.iprinterpropertybag_getbytes, printerextension/IPrinterPropertyBag::GetBytes
 req.header: printerextension.h
@@ -40,38 +39,30 @@ api_name:
  - IPrinterPropertyBag::GetBytes
 ---
 
-# IPrinterPropertyBag::GetBytes
-
-
 ## -description
 
 Reads a byte array property.
 
-The <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a> interface is used by all the printer property bags, including driver property bag, user property bag, queue property bag, and DEVMODE property bag.
+The [IPrinterPropertyBag](./nn-printerextension-iprinterpropertybag.md) interface is used by all the printer property bags, including driver property bag, user property bag, queue property bag, and DEVMODE property bag.
 
 ## -parameters
 
 ### -param bstrName [in]
 
-
 The property to read.
 
 ### -param pcbValue [out]
-
 
 The number of bytes read.
 
 ### -param ppValue
 
-### -param rgbValue [out]
-
 The returned array. This array must be freed by using CoTaskFree.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>
-
+[IPrinterPropertyBag](./nn-printerextension-iprinterpropertybag.md)

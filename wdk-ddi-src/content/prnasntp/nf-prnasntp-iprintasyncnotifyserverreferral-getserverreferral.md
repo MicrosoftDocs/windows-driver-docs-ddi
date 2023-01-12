@@ -3,7 +3,7 @@ UID: NF:prnasntp.IPrintAsyncNotifyServerReferral.GetServerReferral
 title: IPrintAsyncNotifyServerReferral::GetServerReferral (prnasntp.h)
 description: Defines the IPrintAsyncNotifyServerReferral::GetServerReferral method.
 tech.root: print
-ms.date: 06/12/2021
+ms.date: 07/26/2022
 keywords: ["IPrintAsyncNotifyServerReferral::GetServerReferral"]
 ms.keywords: GetServerReferral, GetServerReferral method [Print Devices], GetServerReferral method [Print Devices],IPrintAsyncNotifyServerReferral interface, IPrintAsyncNotifyServerReferral interface [Print Devices],GetServerReferral method, IPrintAsyncNotifyServerReferral.GetServerReferral, IPrintAsyncNotifyServerReferral::GetServerReferral, print.iprintasyncnotifyserverreferral_getserverreferral, prnasntp/IPrintAsyncNotifyServerReferral::GetServerReferral
 req.header: prnasntp.h
@@ -39,11 +39,15 @@ api_name:
  - IPrintAsyncNotifyServerReferral::GetServerReferral
 ---
 
-# IPrintAsyncNotifyServerReferral::GetServerReferral
-
 ## -description
 
 Defines the **IPrintAsyncNotifyServerReferral::GetServerReferral** method.
+
+## -parameters
+
+### -param unnamedParam1
+
+Defines the **PWSTR** parameter *unnamedParam1*.
 
 ## -returns
 

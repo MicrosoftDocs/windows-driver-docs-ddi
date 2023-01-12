@@ -1,9 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGK_PHYSICALADAPTERCAPS
-title: _DXGK_PHYSICALADAPTERCAPS (d3dkmddi.h)
+title: DXGK_PHYSICALADAPTERCAPS (d3dkmddi.h)
 description: The DXGK_PHYSICALADAPTERCAPS structure is used to report details of a physical adapter.
 old-location: display\dxgk_physicaladaptercaps.htm
-ms.date: 05/10/2018
+ms.date: 08/24/2022
 keywords: ["DXGK_PHYSICALADAPTERCAPS structure"]
 ms.keywords: DXGK_PHYSICALADAPTERCAPS, DXGK_PHYSICALADAPTERCAPS structure [Display Devices], Flags.GpuMmuSupported, Flags.IoMmuSupported, Flags.MovePagingSupported, Flags.VPRPagingContextRequired, _DXGK_PHYSICALADAPTERCAPS, d3dkmddi/DXGK_PHYSICALADAPTERCAPS, display.dxgk_physicaladaptercaps
 req.header: d3dkmddi.h
@@ -43,12 +43,11 @@ api_name:
  - DXGK_PHYSICALADAPTERCAPS
 ---
 
-# _DXGK_PHYSICALADAPTERCAPS structure
-
+# DXGK_PHYSICALADAPTERCAPS structure
 
 ## -description
 
-The <b>DXGK_PHYSICALADAPTERCAPS</b> structure is used to report details of a physical adapter.
+The **DXGK_PHYSICALADAPTERCAPS** structure is used to report details of a physical adapter.
 
 ## -struct-fields
 
@@ -62,7 +61,7 @@ Index of the paging node for the physical adapter.
 
 ### -field DxgkPhysicalAdapterHandle
 
-Handle, which is passed to the kernel mode driver as <b>DXGKRNL_INTERFACE::DeviceHandle</b> in <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
+Handle, which is passed to the kernel mode driver as **DXGKRNL_INTERFACE::DeviceHandle** in [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md).
 
 ### -field Flags
 
@@ -75,5 +74,8 @@ Handle, which is passed to the kernel mode driver as <b>DXGKRNL_INTERFACE::Devic
 
 ### -field VPRPagingNode
 
-Index of the node to be used for move paging in  the VPR.
+Index of the node to be used for move paging in the VPR.
 
+### -field VirtualCopyNodeIndex
+
+Node is specified as a virtual copy engine node. Available starting in Windows 10 version 2004 (WDDM 2.7).

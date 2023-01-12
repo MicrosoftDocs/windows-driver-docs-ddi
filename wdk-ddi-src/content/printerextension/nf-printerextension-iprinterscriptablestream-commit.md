@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrinterScriptableStream.Commit
 title: IPrinterScriptableStream::Commit (printerextension.h)
 description: Commits the operation.
-old-location: print\iprinterscriptablestream__commit.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/04/2022
 keywords: ["IPrinterScriptableStream::Commit"]
 ms.keywords: Commit, Commit method [Print Devices], Commit method [Print Devices],IPrinterScriptableStream interface, IPrinterScriptableStream interface [Print Devices],Commit method, IPrinterScriptableStream.Commit, IPrinterScriptableStream::Commit, print.iprinterscriptablestream__commit, printerextension/IPrinterScriptableStream::Commit
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,18 +39,14 @@ api_name:
  - IPrinterScriptableStream::Commit
 ---
 
-# IPrinterScriptableStream::Commit
-
-
 ## -description
 
 Commits the operation.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablestream">IPrinterScriptableStream</a>
-
+[IPrinterScriptableStream](./nn-printerextension-iprinterscriptablestream.md)

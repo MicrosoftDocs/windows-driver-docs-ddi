@@ -1,10 +1,9 @@
 ---
 UID: NF:winsplp.PlayGdiScriptOnPrinterIC
 title: PlayGdiScriptOnPrinterIC function (winsplp.h)
-description: "Learn more about: PlayGdiScriptOnPrinterIC function"
-old-location: print\playgdiscriptonprinteric.htm
+description: Describes the PlayGdiScriptOnPrinterIC function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/27/2022
 keywords: ["PlayGdiScriptOnPrinterIC function"]
 ms.keywords: PlayGdiScriptOnPrinterIC, PlayGdiScriptOnPrinterIC function [Print Devices], print.playgdiscriptonprinteric, winsplp/PlayGdiScriptOnPrinterIC
 req.header: winsplp.h
@@ -40,34 +39,36 @@ api_name:
  - PlayGdiScriptOnPrinterIC
 ---
 
-# PlayGdiScriptOnPrinterIC function
-
-
 ## -description
+
+Describes the **PlayGdiScriptOnPrinterIC** function.
 
 ## -parameters
 
 ### -param hPrinterIC [in]
 
-
+Defines the **HANDLE** parameter *hPrinterIC*.
 
 ### -param pIn [in]
 
-
+Defines the **LPBYTE** parameter *pIn*.
 
 ### -param cIn [in]
 
-
+Defines the **DWORD** parameter *cIn*.
 
 ### -param pOut [out]
 
+Defines the **LPBYTE** parameter *pOut*
 
+### -param cOut [in] 
 
-### -param cOut [in]
-
-
+Defines the **DWORD** parameter *cOut*
 
 ### -param ul [in]
 
+Defines the **DWORD** parameter *ul*.
 
+## -returns
 
+Returns a **BOOL** value.

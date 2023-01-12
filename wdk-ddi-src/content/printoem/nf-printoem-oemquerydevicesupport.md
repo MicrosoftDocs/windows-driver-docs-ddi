@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMQueryDeviceSupport
 title: OEMQueryDeviceSupport function (printoem.h)
 description: The OEMQueryDeviceSupport function returns requested device-specific information.
-old-location: print\oemquerydevicesupport.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/10/2022
 keywords: ["OEMQueryDeviceSupport function"]
 ms.keywords: OEMQueryDeviceSupport, OEMQueryDeviceSupport function [Print Devices], print.oemquerydevicesupport, print_unidrv-pscript_rendering_9bfec781-8785-4ff6-8abf-6e14233827dc.xml, printoem/OEMQueryDeviceSupport
 req.header: printoem.h
@@ -40,32 +39,44 @@ api_name:
  - OEMQueryDeviceSupport
 ---
 
-# OEMQueryDeviceSupport function
-
-
 ## -description
 
-The <code>OEMQueryDeviceSupport</code> function returns requested device-specific information.
+The **OEMQueryDeviceSupport** function returns requested device-specific information.
 
 ## -parameters
 
 ### -param pso
 
+Defines the **SURFOBJ** parameter *pso*.
+
 ### -param pxlo
+
+Defines the **XLATEOBJ** parameter *pxlo*.
 
 ### -param pxo
 
+Defines the **XFORMOBJ** parameter *pxo*.
+
 ### -param iType
+
+Defines the **ULONG** parameter *iType*.
 
 ### -param cjIn
 
+Defines the **ULONG** parameter *cjIn*.
+
 ### -param pvIn [in]
 
-
+Defines the **PVOID** parameter *pvIn*.
 
 ### -param cjOut
 
+Defines the **ULONG** parameter *cjOut*.
+
 ### -param pvOut [out]
 
+Defines the **PVOID** parameter *pvOut*.
 
+## -returns
 
+Returns a **BOOL** value.

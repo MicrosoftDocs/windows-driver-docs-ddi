@@ -2,15 +2,14 @@
 UID: NF:wdm.ClfsTerminateReadLog
 title: ClfsTerminateReadLog function (wdm.h)
 description: The ClfsTerminateReadLog routine invalidates a specified read context after freeing resources associated with the context.
-old-location: kernel\clfsterminatereadlog.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/09/2022
 keywords: ["ClfsTerminateReadLog function"]
 ms.keywords: ClfsTerminateReadLog, ClfsTerminateReadLog routine [Kernel-Mode Driver Architecture], Clfs_691e308a-56d7-498f-af11-8908cc13b1b7.xml, kernel.clfsterminatereadlog, wdm/ClfsTerminateReadLog
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -23,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
+req.irql: IRQL <= APC_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -41,36 +40,29 @@ api_name:
  - ClfsTerminateReadLog
 ---
 
-# ClfsTerminateReadLog function
-
-
 ## -description
 
-The <b>ClfsTerminateReadLog</b> routine invalidates a specified read context after freeing resources associated with the context.
+The **ClfsTerminateReadLog** routine invalidates a specified read context after freeing resources associated with the context.
 
 ## -parameters
 
 ### -param pvCursorContext [in]
 
-
-A pointer to the read context to be invalidated. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadlogrecord">ClfsReadLogRecord</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadrestartarea">ClfsReadRestartArea</a>.
+A pointer to the read context to be invalidated. The caller previously obtained this pointer by calling [ClfsReadLogRecord](/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadlogrecord) or [ClfsReadRestartArea](/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadrestartarea).
 
 ## -returns
 
-<b>ClfsTerminateReadLog</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
+**ClfsTerminateReadLog** returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 ## -remarks
 
-<div class="alert"><b>Warning</b>    Failure to call this routine can lead to memory leaks, premature exhaustion of log I/O blocks, and increased frequency of log flushes.<p class="note">Attempting to use <i>pvCursorContext</i> after it is freed is equivalent to accessing freed memory and can lead to unexpected behavior.
+> [!WARNING]
+> Failure to call this routine can lead to memory leaks, premature exhaustion of log I/O blocks, and increased frequency of log flushes. Attempting to use *pvCursorContext* after it is freed is equivalent to accessing freed memory and can lead to unexpected behavior.
 
-</div>
-<div> </div>
-For an explanation of CLFS concepts and terminology, see <a href="/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
+For an explanation of CLFS concepts and terminology, see [Common Log File System](/windows-hardware/drivers/kernel/using-common-log-file-system).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadlogrecord">ClfsReadLogRecord</a>
+[ClfsReadLogRecord](/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadlogrecord)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadrestartarea">ClfsReadRestartArea</a>
+[ClfsReadRestartArea](/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadrestartarea)

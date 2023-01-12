@@ -2,24 +2,24 @@
 UID: NF:ntifs.NtPrivilegeCheck
 tech.root: kernel
 title: NtPrivilegeCheck function (ntifs.h)
-ms.date: 06/21/2021
+ms.date: 10/06/2022
 targetos: Windows
 description: The NtPrivilegeCheck routine determines whether a specified set of privileges is enabled in the subject's access token.
 prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
 req.header: ntifs.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -38,6 +38,7 @@ f1_keywords:
  - ntifs/NtPrivilegeCheck
 dev_langs:
  - c++
+ms.custom: engagement-fy23
 ---
 
 ## -description

@@ -56,14 +56,14 @@ Returns STATUS_SUCCESS or an appropriate error code. Returns the result that the
 
 ## -remarks
 
-A BDA minidriver calls the **BdaCheckChanges** function to verify a group of BDA topology changes after the minidriver receives a [KSMETHOD_BDA_CHECK_CHANGES](/windows-hardware/drivers/stream/ksmethod-bda-check-changes) request of the [KSMETHODSETID_BdaChangeSync](/windows-hardware/drivers/stream/ksmethodsetid-bdachangesync) method set from the network provider. BDA minidrivers define dispatch and filter-automation tables so that those minidrivers either dispatch the **BdaCheckChanges** function directly or intercept this request using an internal method ([KStrMethodHandler](/windows-hardware/drivers/ddi/ks/nc-ks-pfnkshandler)), which then calls the **BdaCheckChanges** function. For example, BDA minidrivers that intercept this request can obtain a pointer to the BDA filter from the passed IRP so that they can validate the new list of resources for the filter. See [Defining Automation Tables](/windows-hardware/drivers/stream/defining-automation-tables) and [Changing BDA Filter Properties](/windows-hardware/drivers/stream/changing-bda-filter-properties) for more information.
+A BDA minidriver calls the **BdaCheckChanges** function to verify a group of BDA topology changes after the minidriver receives a [KSMETHOD_BDA_CHECK_CHANGES](/windows-hardware/drivers/stream/ksmethod-bda-check-changes) request of the [KSMETHODSETID_BdaChangeSync](/windows-hardware/drivers/stream/ksmethodsetid-bdachangesync) method set from the network provider. BDA minidrivers define dispatch and filter-automation tables so that those minidrivers either dispatch the **BdaCheckChanges** function directly or intercept this request using an internal method ([KStrMethodHandler](../ks/nc-ks-pfnkshandler.md)), which then calls the **BdaCheckChanges** function. For example, BDA minidrivers that intercept this request can obtain a pointer to the BDA filter from the passed IRP so that they can validate the new list of resources for the filter. See [Defining Automation Tables](/windows-hardware/drivers/stream/defining-automation-tables) and [Changing BDA Filter Properties](/windows-hardware/drivers/stream/changing-bda-filter-properties) for more information.
 
 ## -see-also
 
-[BdaCommitChanges](/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdacommitchanges)
+[BdaCommitChanges](./nf-bdasup-bdacommitchanges.md)
 
 [KSMETHODSETID_BdaChangeSync](/windows-hardware/drivers/stream/ksmethodsetid-bdachangesync)
 
 [KSMETHOD_BDA_CHECK_CHANGES](/windows-hardware/drivers/stream/ksmethod-bda-check-changes)
 
-[KStrMethodHandler](/windows-hardware/drivers/ddi/ks/nc-ks-pfnkshandler)
+[KStrMethodHandler](../ks/nc-ks-pfnkshandler.md)

@@ -47,7 +47,7 @@ api_name:
 
 The <b>IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</b> I/O control request retrieves one or more descriptors for the device that is associated with the indicated port index.
 
-<b>IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</b> is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB).
+<b>IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</b> is a user-mode I/O control request. This request targets the USB hub device ([GUID_DEVINTERFACE_USB_HUB](/windows-hardware/drivers/install/guid-devinterface-usb-hub)).
 
 ## -ioctlparameters
 
@@ -76,3 +76,4 @@ The USB stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_descriptor_request">USB_DESCRIPTOR_REQUEST</a>
+<a href="/windows-hardware/drivers/install/guid-devinterface-usb-hub">GUID_DEVINTERFACE_USB_HUB</a>

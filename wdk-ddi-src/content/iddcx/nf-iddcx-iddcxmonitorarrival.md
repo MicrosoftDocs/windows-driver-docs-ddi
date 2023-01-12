@@ -4,7 +4,7 @@ title: IddCxMonitorArrival function (iddcx.h)
 description: An OS callback function the driver calls to report a monitor arrival on the WDDM graphics adapter.
 old-location: display\iddcxmonitorarrival.htm
 tech.root: display
-ms.date: 01/11/2021
+ms.date: 08/08/2022
 keywords: ["IddCxMonitorArrival function"]
 ms.keywords: IddCxMonitorArrival, IddCxMonitorArrival method [Display Devices], display.iddcxmonitorarrival, iddcx/IddCxMonitorArrival
 req.header: iddcx.h
@@ -48,7 +48,7 @@ An indirect display driver (IDD) calls **IddCxMonitorArrival** to report a monit
 
 ## -parameters
 
-### -param AdapterObject [in]
+### -param MonitorObject [in]
 
 The [IDDCX_MONITOR](/windows-hardware/drivers/display/iddcx-objects) object for the monitor that arrived.
 

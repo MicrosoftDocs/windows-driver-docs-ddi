@@ -2,7 +2,7 @@
 UID: NE:ntddk._PROCESS_MITIGATION_POLICY
 tech.root: kernel
 title: PROCESS_MITIGATION_POLICY (ntddk.h)
-ms.date: 03/03/2022
+ms.date: 07/12/2022
 targetos: Windows
 description: Enumerates process mitigation policies.
 prerelease: false
@@ -119,6 +119,10 @@ Defines the **ProcessRedirectionTrustPolicy** constant.
 ### -field ProcessUserPointerAuthPolicy
 
 Defines the **ProcessUserPointerAuthPolicy** constant.
+
+### -field ProcessSEHOPPolicy
+
+Defines the **ProcessSEHOPPolicy** constant.
 
 ### -field MaxProcessMitigationPolicy
 

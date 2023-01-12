@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The **DEVICE_RESET_TYPE** enumeration specifies the type of device reset that is being requested by a call to the [DeviceReset](/windows-hardware/drivers/ddi/wdm/nc-wdm-device_reset_handler) routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
+The **DEVICE_RESET_TYPE** enumeration specifies the type of device reset that is being requested by a call to the [DeviceReset](./nc-wdm-device_reset_handler.md) routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
 
 For more information see [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard).
 
@@ -62,8 +62,8 @@ A platform-level device reset, which affects a specific device and all other dev
 
 ## -see-also
 
-[DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_reset_interface_standard)
+[DEVICE_RESET_INTERFACE_STANDARD](./ns-wdm-_device_reset_interface_standard.md)
 
-[DeviceReset](/windows-hardware/drivers/ddi/wdm/nc-wdm-device_reset_handler)
+[DeviceReset](./nc-wdm-device_reset_handler.md)
 
 [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard)

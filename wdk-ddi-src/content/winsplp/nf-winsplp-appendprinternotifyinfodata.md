@@ -2,9 +2,8 @@
 UID: NF:winsplp.AppendPrinterNotifyInfoData
 title: AppendPrinterNotifyInfoData function (winsplp.h)
 description: The print spooler's AppendPrinterNotifyInfoData function adds the contents of a specified PRINTER_NOTIFY_INFO_DATA structure to a specified PRINTER_NOTIFY_INFO structure.
-old-location: print\appendprinternotifyinfodata.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/27/2022
 keywords: ["AppendPrinterNotifyInfoData function"]
 ms.keywords: AppendPrinterNotifyInfoData, AppendPrinterNotifyInfoData function [Print Devices], print.appendprinternotifyinfodata, spoolfnc_cc8f6371-6dea-497e-92db-6cd9e26e7867.xml, winsplp/AppendPrinterNotifyInfoData
 req.header: winsplp.h
@@ -40,61 +39,47 @@ api_name:
  - AppendPrinterNotifyInfoData
 ---
 
-# AppendPrinterNotifyInfoData function
-
-
 ## -description
 
-The print spooler's <b>AppendPrinterNotifyInfoData</b> function adds the contents of a specified PRINTER_NOTIFY_INFO_DATA structure to a specified PRINTER_NOTIFY_INFO structure.
+The print spooler's **AppendPrinterNotifyInfoData** function adds the contents of a specified PRINTER_NOTIFY_INFO_DATA structure to a specified PRINTER_NOTIFY_INFO structure.
 
 ## -parameters
 
 ### -param pInfoDest [in]
 
-
-Caller-supplied pointer to a PRINTER_NOTIFY_INFO structure (defined in the Microsoft Windows SDK documentation).
+Caller-supplied pointer to a **PRINTER_NOTIFY_INFO** structure.
 
 ### -param pDataSrc
+
+Caller-supplied pointer to a **PRINTER_NOTIFY_INFO_DATA** structure.
 
 ### -param fdwFlags
 
 Caller-supplied flags. The following flag is defined.
 
-
-
-
-
-#### PRINTER_NOTIFY_INFO_DATA_COMPACT
-
-If set, the function examines the <b>Type</b>, <b>Field</b>, and <b>Id</b> members of the supplied PRINTER_NOTIFY_INFO_DATA structure. If they all match an existing element of the PRINTER_NOTIFY_INFO_DATA structure array, the existing element is overwritten with the supplied element. If a match is not found, the function adds the specified structure to the end of the array.
-
-
-### -param pInfoDataSrc [in, optional]
-
-Caller-supplied pointer to a PRINTER_NOTIFY_INFO_DATA structure (defined in the Windows SDK documentation).
+**PRINTER_NOTIFY_INFO_DATA_COMPACT**  
+If set, the function examines the **Type**, **Field**, and **Id** members of the supplied **PRINTER_NOTIFY_INFO_DATA** structure. If they all match an existing element of the **PRINTER_NOTIFY_INFO_DATA** structure array, the existing element is overwritten with the supplied element. If a match is not found, the function adds the specified structure to the end of the array.
 
 ## -returns
 
-If the operation succeeds, the function returns <b>TRUE</b>. Otherwise, the function returns <b>FALSE</b>. The caller can obtain an error code by calling GetLastError (described in the Windows SDK documentation).
+If the operation succeeds, the function returns **TRUE**. Otherwise, the function returns **FALSE**. The caller can obtain an error code by calling *GetLastError*.
 
 ## -remarks
 
-A print provider's <a href="/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a> function should call <b>AppendPrinterNotifyInfoData</b> as often as necessary to populate a PRINTER_NOTIFY_INFO_DATA structure array, after first calling <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerallocprinternotifyinfo">RouterAllocPrinterNotifyInfo</a> to allocate storage for the array and its associated PRINTER_NOTIFY_INFO structure.
+A print provider's [RefreshPrinterChangeNotification](/previous-versions/ff561930(v=vs.85)) function should call **AppendPrinterNotifyInfoData** as often as necessary to populate a **PRINTER_NOTIFY_INFO_DATA** structure array, after first calling [RouterAllocPrinterNotifyInfo](./nf-winsplp-routerallocprinternotifyinfo.md) to allocate storage for the array and its associated PRINTER_NOTIFY_INFO structure.
 
-Based on whether the PRINTER_NOTIFY_INFO_DATA_COMPACT flag is set, the function either appends the specified PRINTER_NOTIFY_INFO_DATA structure to the end of the structure array or overwrites an existing array element. If the structure is appended, the function increments the PRINTER_NOTIFY_INFO structure's <b>Count</b> member.
+Based on whether the PRINTER_NOTIFY_INFO_DATA_COMPACT flag is set, the function either appends the specified **PRINTER_NOTIFY_INFO_DATA** structure to the end of the structure array or overwrites an existing array element. If the structure is appended, the function increments the **PRINTER_NOTIFY_INFO** structure's **Count** member.
 
-If <b>AppendPrinterNotifyInfoData</b> detects that the PRINTER_NOTIFY_INFO_DISCARDED flag is set in the specified PRINTER_NOTIFY_INFO structure, the function clears all PRINTER_NOTIFY_INFO_DATA structures and sets the error code to ERROR_OUT_OF_STRUCTURES.
+If **AppendPrinterNotifyInfoData** detects that the PRINTER_NOTIFY_INFO_DISCARDED flag is set in the specified **PRINTER_NOTIFY_INFO** structure, the function clears all PRINTER_NOTIFY_INFO_DATA structures and sets the error code to ERROR_OUT_OF_STRUCTURES.
 
-If <b>NULL</b> is specified for <i>pInfoDataSrc</i>, <b>AppendPrinterNotifyInfoData</b> sets the PRINTER_NOTIFY_INFO_DISCARDED flag in the specified PRINTER_NOTIFY_INFO structure, clears all PRINTER_NOTIFY_INFO_DATA structures, and sets the error code to ERROR_OUT_OF_STRUCTURES.
+If **NULL** is specified for *pInfoDataSrc*, **AppendPrinterNotifyInfoData** sets the PRINTER_NOTIFY_INFO_DISCARDED flag in the specified **PRINTER_NOTIFY_INFO** structure, clears all **PRINTER_NOTIFY_INFO_DATA** structures, and sets the error code to ERROR_OUT_OF_STRUCTURES.
 
 (For more information about the PRINTER_NOTIFY_INFO_DISCARDED flag, see the description of FindNextPrinterChangeNotification in the Windows SDK documentation.)
 
-For additional information, see <a href="/windows-hardware/drivers/print/supporting-printer-change-notifications">Supporting Printer Change Notifications</a>.
+For additional information, see [Supporting Printer Change Notifications](/windows-hardware/drivers/print/supporting-printer-change-notifications).
 
 ## -see-also
 
-<a href="/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a>
+[RefreshPrinterChangeNotification](/previous-versions/ff561930(v=vs.85))
 
-
-
-<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerallocprinternotifyinfo">RouterAllocPrinterNotifyInfo</a>
+[RouterAllocPrinterNotifyInfo](./nf-winsplp-routerallocprinternotifyinfo.md)

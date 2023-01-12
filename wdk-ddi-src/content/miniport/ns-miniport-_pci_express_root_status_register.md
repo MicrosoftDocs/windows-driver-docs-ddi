@@ -1,10 +1,9 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_ROOT_STATUS_REGISTER
-title: _PCI_EXPRESS_ROOT_STATUS_REGISTER (miniport.h)
-description: The _PCI_EXPRESS_ROOT_STATUS_REGISTER structure (miniport.h) describes a PCI Express (PCIe) root status register of a PCIe capability structure.
-old-location: pci\pci_express_root_status_register.htm
+title: PCI_EXPRESS_ROOT_STATUS_REGISTER (miniport.h)
+description: The _PCI_EXPRESS_ROOT_STATUS_REGISTER union (miniport.h) describes a PCI Express (PCIe) root status register of a PCIe capability structure.
 tech.root: PCI
-ms.date: 02/24/2018
+ms.date: 07/18/2022
 keywords: ["PCI_EXPRESS_ROOT_STATUS_REGISTER structure"]
 ms.keywords: "*PPCI_EXPRESS_ROOT_STATUS_REGISTER, PCI.pci_express_root_status_register, PCI_EXPRESS_ROOT_STATUS_REGISTER, PCI_EXPRESS_ROOT_STATUS_REGISTER union [Buses], PPCI_EXPRESS_ROOT_STATUS_REGISTER, PPCI_EXPRESS_ROOT_STATUS_REGISTER union pointer [Buses], _PCI_EXPRESS_ROOT_STATUS_REGISTER, ntddk/PCI_EXPRESS_ROOT_STATUS_REGISTER, ntddk/PPCI_EXPRESS_ROOT_STATUS_REGISTER, pci_struct_ff3a211f-421b-41f3-9250-d658636bfe49.xml"
 req.header: miniport.h
@@ -46,66 +45,44 @@ api_name:
  - PCI_EXPRESS_ROOT_STATUS_REGISTER
 ---
 
-# _PCI_EXPRESS_ROOT_STATUS_REGISTER structure (miniport.h)
-
-
 ## -description
 
-The PCI_EXPRESS_ROOT_STATUS_REGISTER structure describes a PCI Express (PCIe) root status register of a PCIe capability structure.
+The **PCI_EXPRESS_ROOT_STATUS_REGISTER** union describes a PCI Express (PCIe) root status register of a PCIe capability structure.
 
 ## -struct-fields
 
 ### -field DUMMYSTRUCTNAME
 
-### -field AsULONG
+The **DUMMYSTRUCTNAME** structure.
 
-A ULONG representation of the contents of the PCI_EXPRESS_ROOT_STATUS_REGISTER structure.
+### -field DUMMYSTRUCTNAME.PMERequestorId
 
+A [PCI_EXPRESS_PME_REQUESTOR_ID](../ntddk/ns-ntddk-_pci_express_pme_requestor_id.md) structure that describes the power management event (PME) requester identifier of the last PME requester.
 
-### -field PMEPending
+### -field DUMMYSTRUCTNAME.PMEStatus
 
-A single bit that indicates that another power management event (PME) is pending while the <b>PMEStatus</b> bit is set.
+A single bit that indicates that a power management event (PME) was asserted by the requester identified by the **PMERequestorId** member.
 
+### -field DUMMYSTRUCTNAME.PMEPending
 
-### -field PMERequestorId
+A single bit that indicates that another power management event (PME) is pending while the **PMEStatus** bit is set.
 
-A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_pme_requestor_id">PCI_EXPRESS_PME_REQUESTOR_ID</a> structure that describes the power management event (PME) requester identifier of the last PME requester.
-
-
-### -field PMEStatus
-
-A single bit that indicates that a power management event (PME) was asserted by the requester identified by the <b>PMERequestorId</b> member.
-
-
-### -field Rsvd
+### -field DUMMYSTRUCTNAME.Rsvd
 
 Reserved.
 
-## -syntax
+### -field AsULONG
 
-```cpp
-typedef union _PCI_EXPRESS_ROOT_STATUS_REGISTER {
-  struct {
-    ULONG PMERequestorId  :16;
-    ULONG PMEStatus  :1;
-    ULONG PMEPending  :1;
-    ULONG Rsvd  :14;
-  };
-  ULONG  AsULONG;
-} PCI_EXPRESS_ROOT_STATUS_REGISTER, *PPCI_EXPRESS_ROOT_STATUS_REGISTER;
-```
+A **ULONG** representation of the contents of the **PCI_EXPRESS_ROOT_STATUS_REGISTER** structure.
 
 ## -remarks
 
-The PCI_EXPRESS_ROOT_STATUS_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
+The **PCI_EXPRESS_ROOT_STATUS_REGISTER** union is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_ROOT_STATUS_REGISTER structure is contained in the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a> structure.
+A **PCI_EXPRESS_ROOT_STATUS_REGISTER** union is contained in the [PCI_EXPRESS_CAPABILITY](../ntddk/ns-ntddk-_pci_express_capability.md) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a>
+[PCI_EXPRESS_CAPABILITY](../ntddk/ns-ntddk-_pci_express_capability.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_pme_requestor_id">PCI_EXPRESS_PME_REQUESTOR_ID</a>
-
+[PCI_EXPRESS_PME_REQUESTOR_ID](../ntddk/ns-ntddk-_pci_express_pme_requestor_id.md)

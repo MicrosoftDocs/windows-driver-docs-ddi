@@ -3,7 +3,7 @@ UID: NF:prnasntp.IBidiAsyncNotifyChannel.AsyncCloseChannel
 title: IBidiAsyncNotifyChannel::AsyncCloseChannel (prnasntp.h)
 description: Defines the IBidiAsyncNotifyChannel::AsyncCloseChannel method.
 tech.root: print
-ms.date: 06/12/2021
+ms.date: 07/25/2022
 keywords: ["IBidiAsyncNotifyChannel::AsyncCloseChannel"]
 ms.keywords: AsyncCloseChannel, AsyncCloseChannel method [Print Devices], AsyncCloseChannel method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],AsyncCloseChannel method, IBidiAsyncNotifyChannel.AsyncCloseChannel, IBidiAsyncNotifyChannel::AsyncCloseChannel, print.ibidiasyncnotifychannel_asyncclosechannel, prnasntp/IBidiAsyncNotifyChannel::AsyncCloseChannel
 req.header: prnasntp.h
@@ -39,25 +39,19 @@ api_name:
  - IBidiAsyncNotifyChannel::AsyncCloseChannel
 ---
 
-# IBidiAsyncNotifyChannel::AsyncCloseChannel
-
 ## -description
 
 Defines the **IBidiAsyncNotifyChannel::AsyncCloseChannel** method.
 
 ## -parameters
 
-### -param param
+### -param unnamedParam1
+
+Defines the **IPrintAsyncNotifyDataObject** parameter *unnamedParam1*.
 
 ### -param EQUALNULL
 
-### -param pCookie
-
-[in]
-
-### -param pObject
-
-[in]
+Defines the **IPrintAsyncCookie** parameter *EQUALNULL*.
 
 ## -returns
 

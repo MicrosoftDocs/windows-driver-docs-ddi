@@ -61,7 +61,7 @@ The header with type, revision, and size information about the **NDIS_WWAN_UE_PO
 | Revision | NDIS_WWAN_UE_POLICY_INFO_REVISION_1 |
 | Size | sizeof(NDIS_WWAN_UE_POLICY_INFO) |
 
-For more information about these members, see [**NDIS_OBJECT_HEADER**](/objectheader/ns-objectheader-ndis_object_header.md).
+For more information about these members, see [**NDIS_OBJECT_HEADER**](../objectheader/ns-objectheader-ndis_object_header.md).
 
 ### -field uStatus
 

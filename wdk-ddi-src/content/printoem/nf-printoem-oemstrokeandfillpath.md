@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMStrokeAndFillPath
 title: OEMStrokeAndFillPath function (printoem.h)
 description: The OEMStrokeAndFillPath function concurrently strokes and fills a path.
-old-location: print\oemstrokeandfillpath.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/11/2022
 keywords: ["OEMStrokeAndFillPath function"]
 ms.keywords: OEMStrokeAndFillPath, OEMStrokeAndFillPath function [Print Devices], print.oemstrokeandfillpath, print_unidrv-pscript_rendering_e370d4e7-4593-46c7-87dd-93c963400290.xml, printoem/OEMStrokeAndFillPath
 req.header: printoem.h
@@ -40,32 +39,52 @@ api_name:
  - OEMStrokeAndFillPath
 ---
 
-# OEMStrokeAndFillPath function
-
-
 ## -description
 
-The <code>OEMStrokeAndFillPath</code> function concurrently strokes and fills a path.
+The **OEMStrokeAndFillPath** function concurrently strokes and fills a path.
 
 ## -parameters
 
 ### -param pso
 
+Defines the **SURFOBJ** parameter *pso*.
+
 ### -param ppo
+
+Defines the **PATHOBJ** parameter *ppo*.
 
 ### -param pco
 
+Defines the **CLIPOBJ** parameter *pco*.
+
 ### -param pxo
+
+Defines the **XFORMOBJ** parameter *pxo*.
 
 ### -param pboStroke
 
+Defines the **BRUSHOBJ** parameter *pboStroke*.
+
 ### -param plineattrs
+
+Defines the **LINEATTRS** parameter *plineattrs*.
 
 ### -param pboFill
 
+Defines the **BRUSHOBJ** parameter *pboFill*.
+
 ### -param pptlBrushOrg
+
+Defines the **POINTL** parameter *pptlBrushOrg*.
 
 ### -param mixFill
 
+Defines the **MIX** parameter *mixFill*.
+
 ### -param flOptions
 
+Defines the **FLONG** parameter *flOptions*.
+
+## -returns
+
+Returns a **BOOL** value.

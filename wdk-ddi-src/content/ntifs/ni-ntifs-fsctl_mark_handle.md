@@ -2,7 +2,7 @@
 UID: NI:ntifs.FSCTL_MARK_HANDLE
 tech.root: ifsk
 title: FSCTL_MARK_HANDLE
-ms.date: 07/14/2021
+ms.date: 10/07/2022
 targetos: Windows
 description: The FSCTL_MARK_HANDLE control code marks a specified file or directory and its change journal record with information about changes to that file or directory.
 prerelease: false
@@ -42,7 +42,7 @@ The **FSCTL_MARK_HANDLE** control code marks a specified file or directory and i
 
 ## -remarks
 
-To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md) or [**ZwFsControlFile**](/previous-versions/ff566462(v=vs.85)) with the following parameters.
+To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md) or [**ZwFsControlFile**](nf-ntifs-zwfscontrolfile.md) with the following parameters.
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -53,10 +53,11 @@ To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel
 | **InputBuffer** | [in] Pointer to a [**MARK_HANDLE_INFO**](ns-ntifs-mark_handle_info.md) structure containing the information to use to mark a specified file or directory, and its update sequence number (USN) change journal record with data about changes. |
 | **InputBufferLength** | [in] Size of the buffer that **InputBuffer** points to, in bytes. |
 | **OutputBuffer** | [out] Set to NULL for this FSCTL. |
-| **OutputBufferLength** | [out] Size of the buffer that **OutputBuffer** points to, in bytes. Set to zero. |
+| **OutputBufferLength** | [in] Ignored when **OutputBuffer** is NULL. |
+| **LengthReturned** | [out] Set to NULL. |
 
 ## -see-also
 
 [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md)
 
-[**ZwFsControlFile**](/previous-versions/ff566462(v=vs.85))
+[**ZwFsControlFile**](nf-ntifs-zwfscontrolfile.md)

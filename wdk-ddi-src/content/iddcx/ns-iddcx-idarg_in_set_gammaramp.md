@@ -4,7 +4,7 @@ title: IDARG_IN_SET_GAMMARAMP (iddcx.h)
 description: Gives information about the gamma ramp being set.
 old-location: display\idarg_in_set_gammaramp.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/08/2022
 keywords: ["IDARG_IN_SET_GAMMARAMP structure"]
 ms.keywords: IDARG_IN_SET_GAMMARAMP, IDARG_IN_SET_GAMMARAMP structure [Display Devices], display.idarg_in_set_gammaramp, iddcx/IDARG_IN_SET_GAMMARAMP
 req.header: iddcx.h
@@ -42,21 +42,26 @@ api_name:
 
 # IDARG_IN_SET_GAMMARAMP structure
 
-
 ## -description
 
-Gives information about the gamma ramp being set.
+An **IDARG_IN_SET_GAMMARAMP** structure is passed to [**EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP**](nc-iddcx-evt_idd_cx_monitor_set_gamma_ramp.md) with input information about the gamma ramp being set.
 
 ## -struct-fields
 
 ### -field Type
 
-                     [in] The type of gamma ramp being set.
+[in] The type of gamma ramp being set.
 
 ### -field GammaRampSizeInBytes
 
-                     [in] Size in bytes of the provided gamma ramp data.  Set to zero for <a href="/windows-hardware/drivers/ddi/iddcx/ne-iddcx-iddcx_gammaramp_type">IDDCX_GAMMARAMP_TYPE</a>.
+[in] Size in bytes of the provided gamma ramp data that **pGammaRampData** points to.  Set to zero for [**IDDCX_GAMMARAMP_TYPE**](ne-iddcx-iddcx_gammaramp_type.md).
 
 ### -field pGammaRampData
 
-                     [in] Pointer to gamma ramp data to set.  Set to NULL for <a href="/windows-hardware/drivers/ddi/iddcx/ne-iddcx-iddcx_gammaramp_type">IDDCX_GAMMARAMP_TYPE</a>.
+[in] Pointer to gamma ramp data to set.  Set to NULL for [**IDDCX_GAMMARAMP_TYPE**](ne-iddcx-iddcx_gammaramp_type.md).
+
+## -see-also
+
+[**EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP**](nc-iddcx-evt_idd_cx_monitor_set_gamma_ramp.md)
+
+[**IDDCX_GAMMARAMP_TYPE**](ne-iddcx-iddcx_gammaramp_type.md)

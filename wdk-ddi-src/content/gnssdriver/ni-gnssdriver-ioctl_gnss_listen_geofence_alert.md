@@ -2,13 +2,12 @@
 UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_GEOFENCE_ALERT
 title: IOCTL_GNSS_LISTEN_GEOFENCE_ALERT (gnssdriver.h)
 description: The IOCTL_GNSS_LISTEN_GEOFENCE_ALERT control code is used to start listening for geofence alerts from the driver.
-old-location: gnss\ioctl_gnss_listen_geofence_alert.htm
 tech.root: gnss
-ms.date: 02/15/2018
+ms.date: 01/03/2023
 keywords: ["IOCTL_GNSS_LISTEN_GEOFENCE_ALERT IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_GEOFENCE_ALERT, IOCTL_GNSS_LISTEN_GEOFENCE_ALERT control, IOCTL_GNSS_LISTEN_GEOFENCE_ALERT control code [Sensor Devices], gnss.ioctl_gnss_listen_geofence_alert, gnssdriver/IOCTL_GNSS_LISTEN_GEOFENCE_ALERT
 req.header: gnssdriver.h
-req.include-header: 
+req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,13 +39,11 @@ api_name:
  - IOCTL_GNSS_LISTEN_GEOFENCE_ALERT
 ---
 
-# IOCTL_GNSS_LISTEN_GEOFENCE_ALERT IOCTL
-
-
 ## -description
 
 The IOCTL_GNSS_LISTEN_GEOFENCE_ALERT control code is used to start listening for geofence alerts from the driver.
-<div class="alert"><b>Note</b>  Applies to GNSS DDI version 2 and later.</div><div> </div>
+
+Applies to GNSS DDI version 2 and later.
 
 ## -ioctlparameters
 
@@ -60,11 +57,9 @@ Set to 0.
 
 ### -output-buffer
 
-A pointer to a <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_event">GNSS_EVENT</a> structure.
+A pointer to a [GNSS_EVENT](./ns-gnssdriver-gnss_event.md) structure.
 
-
-
-The EventType must be set to <b>GNSS_Event_GeofenceAlertData</b> and the <b>GeofenceAlertData</b> member filled in.
+The EventType must be set to **GNSS_Event_GeofenceAlertData** and the **GeofenceAlertData** member filled in.
 
 ### -output-buffer-length
 
@@ -76,41 +71,34 @@ Set to sizeof(GNSS_EVENT).
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
+**Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) code.
 
 ## -remarks
 
-<h3><a id="GNSS_adapter_notes"></a><a id="gnss_adapter_notes"></a><a id="GNSS_ADAPTER_NOTES"></a>GNSS adapter notes</h3>
+### GNSS adapter notes
+
 The GNSS adapter keeps a pending request all the time.
 
 When the driver completes the I/O call, the adapter issues another IOCTL to receive the next geofence alert.
 
-The GNSS adapter may keep this IOCTL pending even if there are no geofences, or if geofence tracking operation has been reinitialized through the <b>GNSS_ResetGeofencesTracking</b> driver command. The GNSS driver must not treat this as an error condition.
+The GNSS adapter may keep this IOCTL pending even if there are no geofences, or if geofence tracking operation has been reinitialized through the **GNSS_ResetGeofencesTracking** driver command. The GNSS driver must not treat this as an error condition.
 
+### GNSS driver notes
 
-<h3><a id="GNSS_driver_notes"></a><a id="gnss_driver_notes"></a><a id="GNSS_DRIVER_NOTES"></a>GNSS driver notes</h3>
 Whenever the GNSS driver gets a geofence alert notification from the GNSS engine, it completes the I/O operation.
-
 
 If the GNSS adapter is in the process of handling a previous alert and has not issued a pending IOCTL yet, the GNSS driver queues the alert locally and dequeues it whenever the adapter sends this IOCTL.
 
 When a geofence is added for the first time, the initial state (as seen by HLOS) is passed in as a parameter. The GNSS engine should raise the first alert only when there is a change in state from the initial state. This must be handled natively by the GNSS engine itself, as opposed to the GNSS driver filtering out redundant alerts at the driver level, therefore defeating the purpose of unneeded application processor wake-up at initialization.
 
-
-This IO request is kept pending until an alert is received from the GNSS engine. When the driver completes the IO call, the GNSS adapter issues another IOCTL to receive the next geofence alert. This IOCTL is kept pending even if there are no geofences or tracking operation has been reinitialized through the <b>GNSS_ResetGeofencesTracking</b> command. If a new pending IOCTL has not been issued and another geofence alert is received, it is queued locally until the next pending IO request is received.
+This IO request is kept pending until an alert is received from the GNSS engine. When the driver completes the IO call, the GNSS adapter issues another IOCTL to receive the next geofence alert. This IOCTL is kept pending even if there are no geofences or tracking operation has been reinitialized through the **GNSS_ResetGeofencesTracking** command. If a new pending IOCTL has not been issued and another geofence alert is received, it is queued locally until the next pending IO request is received.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
+[Creating IOCTL Requests in Drivers](/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers)
 
+[WdfIoTargetSendInternalIoctlOthersSynchronously](../wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md)
 
+[WdfIoTargetSendInternalIoctlSynchronously](../wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md)
 
-<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
+[WdfIoTargetSendIoctlSynchronously](../wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md)

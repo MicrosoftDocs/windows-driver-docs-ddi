@@ -1,10 +1,9 @@
 ---
 UID: NS:printoem._FINVOCATION
-title: _FINVOCATION (printoem.h)
+title: FINVOCATION (printoem.h)
 description: The FINVOCATION structure is used as input to the IPrintOemUni::SendFontCmd method. The structure is defined in printoem.h.
-old-location: print\finvocation.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/12/2022
 keywords: ["FINVOCATION structure"]
 ms.keywords: "*PFINVOCATION, FINVOCATION, FINVOCATION structure [Print Devices], PFINVOCATION, PFINVOCATION structure pointer [Print Devices], _FINVOCATION, print.finvocation, print_unidrv-pscript_rendering_9937cdea-eacb-457c-af51-d8963ffd59e9.xml, printoem/FINVOCATION, printoem/PFINVOCATION"
 req.header: printoem.h
@@ -46,18 +45,15 @@ api_name:
  - FINVOCATION
 ---
 
-# _FINVOCATION structure
-
-
 ## -description
 
-The FINVOCATION structure is used as input to the <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-sendfontcmd">IPrintOemUni::SendFontCmd</a> method. The structure is defined in printoem.h.
+The **FINVOCATION** structure is used as input to the [IPrintOemUni::SendFontCmd](../prcomoem/nf-prcomoem-iprintoemuni-sendfontcmd.md) method. The structure is defined in printoem.h.
 
 ## -struct-fields
 
 ### -field dwCount
 
-Specifies the Unidrv-supplied length, in bytes, of the command pointed to by <b>pubCommand</b>.
+Specifies the Unidrv-supplied length, in bytes, of the command pointed to by **pubCommand**.
 
 ### -field pubCommand
 
@@ -65,5 +61,4 @@ Unidrv-supplied pointer to a string containing the printer's font selection comm
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-sendfontcmd">IPrintOemUni::SendFontCmd</a>
-
+[IPrintOemUni::SendFontCmd](../prcomoem/nf-prcomoem-iprintoemuni-sendfontcmd.md)

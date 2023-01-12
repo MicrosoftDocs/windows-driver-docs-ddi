@@ -2,9 +2,8 @@
 UID: NC:wdm.GET_VIRTUAL_DEVICE_LOCATION
 title: GET_VIRTUAL_DEVICE_LOCATION (wdm.h)
 description: The GetLocation routine returns the device location of a PCI Express (PCIe) virtual function (VF) on a PCI bus. A device that supports the single root I/O virtualization (SR-IOV) interface can expose one or more VFs on the PCI bus.
-old-location: pci\getlocation.htm
 tech.root: PCI
-ms.date: 07/29/2021
+ms.date: 01/06/2023
 keywords: ["GET_VIRTUAL_DEVICE_LOCATION callback"]
 ms.keywords: GET_VIRTUAL_DEVICE_LOCATION, GetLocation, GetLocation routine, PCI.getlocation, wdm/GetLocation
 req.header: wdm.h
@@ -45,13 +44,13 @@ api_name:
 
 ## -description
 
-The [GetLocation]() routine returns the device location of a PCI Express (PCIe) virtual function (VF) on a PCI bus. A device that supports the single root I/O virtualization (SR-IOV) interface can expose one or more VFs on the PCI bus.
+The **GetLocation** routine returns the device location of a PCI Express (PCIe) virtual function (VF) on a PCI bus. A device that supports the single root I/O virtualization (SR-IOV) interface can expose one or more VFs on the PCI bus.
 
 ## -parameters
 
 ### -param Context [in, out]
 
-A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)) structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [**PCI_VIRTUALIZATION_INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-pci_virtualization_interface) structure for the interface.
 
 ### -param VirtualFunction [in]
 
@@ -71,10 +70,10 @@ A pointer to a caller-supplied variable in which this routine returns a UINT8 va
 
 ## -returns
 
-The [GetLocation]() routine returns one of the following NTSTATUS values:
+The **GetLocation** routine returns one of the following NTSTATUS values:
 
 | Return code | Description |
-|--|--|
+|---|---|
 | **STATUS_SUCCESS** | The operation completed successfully. |
 | **STATUS_INVALID_PARAMETER** | The *VirtualFunction* parameter is larger than the value of the **TotalVFs** member of the SR-IOV Extended Capability structure for the device. |
 
@@ -95,15 +94,14 @@ NTSTATUS GetLocation(
 
 ## -remarks
 
-The [GetLocation]() routine returns the current device location of a VF  in the PCIe hierarchy. This information is necessary for a virtualization system that is using an I/O memory management unit (IOMMU) to route traffic to or from the device.
+The **GetLocation** routine returns the current device location of a VF  in the PCIe hierarchy. This information is necessary for a virtualization system that is using an I/O memory management unit (IOMMU) to route traffic to or from the device.
 
-Upon a successful return from a call to the [GetLocation]() routine, the *FunctionNumber* parameter contains a value that represents the function number for the specified VF on the PCI bus. This value is based on the Alternative Routing Interpretation (ARI) option of the PCI Express 3.0 specification.  ARI treats a PCIe bus as a single device with an 8-bit function space, which allows for 256 functions on the bus.
+Upon a successful return from a call to the **GetLocation** routine, the *FunctionNumber* parameter contains a value that represents the function number for the specified VF on the PCI bus. This value is based on the Alternative Routing Interpretation (ARI) option of the PCI Express 3.0 specification.  ARI treats a PCIe bus as a single device with an 8-bit function space, which allows for 256 functions on the bus.
 
-The [GetLocation]() routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface.
+The **GetLocation** routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface.
 
-> [!IMPORTANT]
-> The PCI bus number on which the VF is located can change. We do not recommend that drivers store the device location for a VF in nonvolatile storage such as the registry.
+The PCI bus number on which the VF is located can change. We do not recommend that drivers store the device location for a VF in nonvolatile storage such as the registry.
 
 ## -see-also
 
-[PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85))
+[**PCI_VIRTUALIZATION_INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-pci_virtualization_interface)

@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_UNMAPPHYSICALMEMORY
 tech.root: display
 title: DXGKCB_UNMAPPHYSICALMEMORY
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: The DxgkCbUnmapPhysicalMemory callback function unmaps a CPU-visible virtual address from the underlying physical memory.
 req.assembly: 
@@ -52,6 +52,8 @@ Pointer to a [**DXGKARGCB_UNMAP_PHYSICAL_MEMORY**](ns-d3dkmddi-dxgkargcb_unmap_p
 ## -remarks
 
 *DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the members of [**DXGKARGCB_UNMAP_PHYSICAL_MEMORY**](ns-d3dkmddi-dxgkargcb_unmap_physical_memory.md) and then call **DxgkCbUnmapPhysicalMemory** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 ## -see-also
 

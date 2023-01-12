@@ -1,10 +1,9 @@
 ---
-UID: NS:scsi.__unnamed_struct_18
+UID: NS:scsi.__unnamed_struct_27
 title: RECEIVE_TOKEN_INFORMATION_HEADER (scsi.h)
 description: The RECEIVE_TOKEN_INFORMATION_HEADER structure (scsi.h) contains information that describes the status of an offload data transfer operation.
-old-location: storage\receive_token_information_header.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 09/19/2022
 keywords: ["RECEIVE_TOKEN_INFORMATION_HEADER structure"]
 ms.keywords: "*PRECEIVE_TOKEN_INFORMATION_HEADER, PRECEIVE_TOKEN_INFORMATION_HEADER, PRECEIVE_TOKEN_INFORMATION_HEADER structure pointer [Storage Devices], RECEIVE_TOKEN_INFORMATION_HEADER, RECEIVE_TOKEN_INFORMATION_HEADER structure [Storage Devices], SERVICE_ACTION_POPULATE_TOKEN, SERVICE_ACTION_WRITE_USING_TOKEN, TRANSFER_COUNT_UNITS_BYTES, TRANSFER_COUNT_UNITS_EXBIBYTES, TRANSFER_COUNT_UNITS_GIBIBYTES, TRANSFER_COUNT_UNITS_KIBIBYTES, TRANSFER_COUNT_UNITS_MEBIBYTES, TRANSFER_COUNT_UNITS_NUMBER_BLOCKS, TRANSFER_COUNT_UNITS_PEBIBYTES, TRANSFER_COUNT_UNITS_TEBIBYTES, scsi/PRECEIVE_TOKEN_INFORMATION_HEADER, scsi/RECEIVE_TOKEN_INFORMATION_HEADER, storage.receive_token_information_header"
 req.header: scsi.h
@@ -43,49 +42,24 @@ api_name:
  - RECEIVE_TOKEN_INFORMATION_HEADER
 ---
 
-# RECEIVE_TOKEN_INFORMATION_HEADER structure (scsi.h)
-
-
 ## -description
 
-The <b>RECEIVE_TOKEN_INFORMATION_HEADER</b> structure contains information returned as status from an offload data transfer operation.
+The **RECEIVE_TOKEN_INFORMATION_HEADER** structure contains information returned as status from an offload data transfer operation.
 
 ## -struct-fields
 
 ### -field AvailableData
 
-The amount of data available in the <b>SenseData</b> array and any additional result information.
+The amount of data available in the **SenseData** array and any additional result information.
 
 ### -field ResponseToServiceAction
 
 A response code indicating which command action the response is for. The service action codes are the following.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="SERVICE_ACTION_POPULATE_TOKEN"></a><a id="service_action_populate_token"></a><dl>
-<dt><b>SERVICE_ACTION_POPULATE_TOKEN</b></dt>
-</dl>
-</td>
-<td width="60%">
-The response information is for a POPULATE TOKEN command.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SERVICE_ACTION_WRITE_USING_TOKEN"></a><a id="service_action_write_using_token"></a><dl>
-<dt><b>SERVICE_ACTION_WRITE_USING_TOKEN</b></dt>
-</dl>
-</td>
-<td width="60%">
-The response information is for a WRITE USING TOKEN command.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|--|--|
+| **SERVICE_ACTION_POPULATE_TOKEN** | The response information is for a POPULATE TOKEN command. |
+| **SERVICE_ACTION_WRITE_USING_TOKEN** | The response information is for a WRITE USING TOKEN command. |
 
 ### -field Reserved1
 
@@ -95,89 +69,15 @@ Reserved.
 
 The current status of the copy operation. The status can be one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0x01</dt>
-</dl>
-</td>
-<td width="60%">
-The operation completed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0x02</dt>
-</dl>
-</td>
-<td width="60%">
-The operation completed unsuccessfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0x04</dt>
-</dl>
-</td>
-<td width="60%">
-The operation completed successfully but the copy initiator should verify that all data was transferred.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0x10</dt>
-</dl>
-</td>
-<td width="60%">
-The operation is in progress. Foreground or background operation state is unknown.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0x11</dt>
-</dl>
-</td>
-<td width="60%">
-The operation is in progress in the foreground.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0x12</dt>
-</dl>
-</td>
-<td width="60%">
-The operation is in progress in the background.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0x60</dt>
-</dl>
-</td>
-<td width="60%">
-The operation was terminated. Possibly by an existing resource reservation.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|--|--|
+| 0x01 | The operation completed successfully. |
+| 0x02 | The operation completed unsuccessfully. |
+| 0x04 | The operation completed successfully but the copy initiator should verify that all data was transferred. |
+| 0x10 | The operation is in progress. Foreground or background operation state is unknown. |
+| 0x11 | The operation is in progress in the foreground. |
+| 0x12 | The operation is in progress in the background. |
+| 0x60 | The operation was terminated. Possibly by an existing resource reservation. |
 
 ### -field Reserved2
 
@@ -197,110 +97,34 @@ SCSI status code for the copy command operation.
 
 ### -field SenseDataFieldLength
 
-The length, in bytes, of the entire data area available for sense data. This value is always >=  <b>SenseDataLength</b>.
+The length, in bytes, of the entire data area available for sense data. This value is always >=  **SenseDataLength**.
 
 ### -field SenseDataLength
 
-The length, in bytes, of the data in <b>SenseData</b>.
+The length, in bytes, of the data in **SenseData**.
 
 ### -field TransferCountUnits
 
-The byte units applied to <i>TransferCount</i>. Each unit expansion is a exponent in base 2. The multiplier value of <b>TRANSFER_COUNT_UNITS_KIBIBYTES</b>, for example, is 1024 and not 1000. The defined units are the following.
+The byte units applied to *TransferCount*. Each unit expansion is a exponent in base 2. The multiplier value of **TRANSFER_COUNT_UNITS_KIBIBYTES**, for example, is 1024 and not 1000. The defined units are the following.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="TRANSFER_COUNT_UNITS_BYTES"></a><a id="transfer_count_units_bytes"></a><dl>
-<dt><b>TRANSFER_COUNT_UNITS_BYTES</b></dt>
-</dl>
-</td>
-<td width="60%">
-Transfer count is in bytes.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TRANSFER_COUNT_UNITS_KIBIBYTES"></a><a id="transfer_count_units_kibibytes"></a><dl>
-<dt><b>TRANSFER_COUNT_UNITS_KIBIBYTES</b></dt>
-</dl>
-</td>
-<td width="60%">
-Transfer count is in kilobytes.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TRANSFER_COUNT_UNITS_MEBIBYTES"></a><a id="transfer_count_units_mebibytes"></a><dl>
-<dt><b>TRANSFER_COUNT_UNITS_MEBIBYTES</b></dt>
-</dl>
-</td>
-<td width="60%">
-Transfer count is in megabytes.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TRANSFER_COUNT_UNITS_GIBIBYTES"></a><a id="transfer_count_units_gibibytes"></a><dl>
-<dt><b>TRANSFER_COUNT_UNITS_GIBIBYTES</b></dt>
-</dl>
-</td>
-<td width="60%">
-Transfer count is in gigabytes.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TRANSFER_COUNT_UNITS_TEBIBYTES"></a><a id="transfer_count_units_tebibytes"></a><dl>
-<dt><b>TRANSFER_COUNT_UNITS_TEBIBYTES</b></dt>
-</dl>
-</td>
-<td width="60%">
-Transfer count is in terabytes.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TRANSFER_COUNT_UNITS_PEBIBYTES"></a><a id="transfer_count_units_pebibytes"></a><dl>
-<dt><b>TRANSFER_COUNT_UNITS_PEBIBYTES</b></dt>
-</dl>
-</td>
-<td width="60%">
-Transfer count is in petabytes.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TRANSFER_COUNT_UNITS_EXBIBYTES"></a><a id="transfer_count_units_exbibytes"></a><dl>
-<dt><b>TRANSFER_COUNT_UNITS_EXBIBYTES</b></dt>
-</dl>
-</td>
-<td width="60%">
-Transfer count is in exabytes.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TRANSFER_COUNT_UNITS_NUMBER_BLOCKS"></a><a id="transfer_count_units_number_blocks"></a><dl>
-<dt><b>TRANSFER_COUNT_UNITS_NUMBER_BLOCKS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Transfer count is not an exponent, but in units of logical block length.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|--|--|
+| **TRANSFER_COUNT_UNITS_BYTES** | Transfer count is in bytes. |
+| **TRANSFER_COUNT_UNITS_KIBIBYTES** | Transfer count is in kilobytes. |
+| **TRANSFER_COUNT_UNITS_MEBIBYTES** | Transfer count is in megabytes. |
+| **TRANSFER_COUNT_UNITS_GIBIBYTES** | Transfer count is in gigabytes. |
+| **TRANSFER_COUNT_UNITS_TEBIBYTES** | Transfer count is in terabytes. |
+| **TRANSFER_COUNT_UNITS_PEBIBYTES** | Transfer count is in petabytes. |
+| **TRANSFER_COUNT_UNITS_EXBIBYTES** | Transfer count is in exabytes. |
+| **TRANSFER_COUNT_UNITS_NUMBER_BLOCKS** | Transfer count is not an exponent, but in units of logical block length. |
 
 ### -field TransferCount
 
-The length of data transferred in the operation. The unit type in <b>TransferCountUnits</b> is applied to this value to give the total byte count.
+The length of data transferred in the operation. The unit type in **TransferCountUnits** is applied to this value to give the total byte count.
 
 ### -field SegmentsProcessed
 
-The number of segments processed for the data transfer operation. Segments are copy length units used internally by a storage device's copy provider. On Windowssystems, this value is reserved and applications must ignore this member.
+The number of segments processed for the data transfer operation. Segments are copy length units used internally by a storage device's copy provider. On Windows systems, this value is reserved and applications must ignore this member.
 
 ### -field Reserved3
 
@@ -312,11 +136,10 @@ Sense data returned for the copy operation.
 
 ## -remarks
 
-If <b>RECEIVE_TOKEN_INFORMATION_HEADER</b> is for a POPULATE TOKEN command operation, and the command completed successfully, a <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-receive_token_information_response_header">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure will also be present after <b>SenseData</b> at an offset of <b>SenseDataFieldLength</b> from the beginning of the <b>SenseData</b> array. The <b>RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</b> structure will contain the token created as a representation of data (ROD) for the range parameters sent with the command.
+If **RECEIVE_TOKEN_INFORMATION_HEADER** is for a POPULATE TOKEN command operation, and the command completed successfully, a [**RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER**](../minitape/ns-minitape-receive_token_information_response_header.md) structure will also be present after **SenseData** at an offset of **SenseDataFieldLength** from the beginning of the **SenseData** array. The **RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER** structure will contain the token created as a representation of data (ROD) for the range parameters sent with the command.
 
 All multibyte values are in big endian format. Prior to evaluation, these values must be converted to match the endian format of the current platform.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-receive_token_information_response_header">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
-
+[**RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER**](../minitape/ns-minitape-receive_token_information_response_header.md)

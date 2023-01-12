@@ -2,16 +2,15 @@
 UID: NN:printerextension.IPrintSchemaParameterInitializer
 title: IPrintSchemaParameterInitializer (printerextension.h)
 description: The IPrintSchemaParameterInitializer interface represents a parameter initialization value, as defined in the print schema specification.
-old-location: print\iprintschemaparameterinitializer.htm
 tech.root: print
-ms.date: 10/01/2020
+ms.date: 08/04/2022
 keywords: ["IPrintSchemaParameterInitializer interface"]
 ms.keywords: IPrintSchemaParameterInitializer, IPrintSchemaParameterInitializer interface [Print Devices], IPrintSchemaParameterInitializer interface [Print Devices],described, print.iprintschemaparameterinitializer, printerextension/IPrintSchemaParameterInitializer
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -39,8 +38,6 @@ api_location:
 api_name:
  - IPrintSchemaParameterInitializer
 ---
-
-# IPrintSchemaParameterInitializer interface
 
 ## -description
 

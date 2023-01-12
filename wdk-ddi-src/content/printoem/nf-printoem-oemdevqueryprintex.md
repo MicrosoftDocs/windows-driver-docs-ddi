@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMDevQueryPrintEx
 title: OEMDevQueryPrintEx function (printoem.h)
-description: OEMDevQueryPrintEx function
-old-location: print\oemdevqueryprintex.htm
+description: Describes the OEMDevQueryPrintEx function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/08/2022
 keywords: ["OEMDevQueryPrintEx function"]
 ms.keywords: OEMDevQueryPrintEx, OEMDevQueryPrintEx function [Print Devices], print.oemdevqueryprintex, print_obsoletefunctions_c58c63fe-eeae-444d-a0e2-df17b61fa1ed.xml, printoem/OEMDevQueryPrintEx
 req.header: printoem.h
@@ -40,18 +39,28 @@ api_name:
  - OEMDevQueryPrintEx
 ---
 
-# OEMDevQueryPrintEx function
-
-
 ## -description
+
+Describes the **OEMDevQueryPrintEx** function.
 
 ## -parameters
 
 ### -param poemuiobj
 
+Defines the **POEMUIOBJ** parameter *poemuiobj*.
+
 ### -param pDQPInfo
+
+Defines the **PDEVQUERYPRINT_INFO** parameter *pDQPInfo*.
 
 ### -param pPublicDM
 
+Defines the **PDEVMODE** parameter *pPublicDM*.
+
 ### -param pOEMDM
 
+Defines the **PVOID** parameter *pOEMDM*.
+
+## -returns
+
+Returns a **BOOL** value.

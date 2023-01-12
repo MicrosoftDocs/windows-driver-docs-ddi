@@ -72,7 +72,7 @@ Describes the specific access rights corresponding to the GENERIC_ALL access rig
 
 Use the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetfileobjectgenericmapping">IoGetFileObjectGenericMapping</a> routine to get the specific access rights corresponding to generic access rights for file objects. Use <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlmapgenericmask">RtlMapGenericMask</a> to subtract off the access rights within an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> that do not derive from generic access rights.
 
-For more information about generic access rights, see the reference page for <b>GENERIC_MAPPING</b> in the Microsoft Windows SDK documentation.
+For more information about generic access rights, see the Win32 reference page for the [**GENERIC_MAPPING**](/windows/win32/api/winnt/ns-winnt-generic_mapping) structure.
 
 ## -see-also
 

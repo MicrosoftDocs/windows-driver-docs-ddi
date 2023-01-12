@@ -2,9 +2,8 @@
 UID: NC:ks.PFNKSPINFRAMERETURN
 title: PFNKSPINFRAMERETURN (ks.h)
 description: An AVStream minidriver's AVStrMiniFrameReturn routine is called when an injected frame has completed its trip around the circuit and is ready to be recycled or freed.
-old-location: stream\avstrminiframereturn.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 07/13/2022
 keywords: ["PFNKSPINFRAMERETURN callback function"]
 ms.keywords: AVStrMiniFrameReturn, AVStrMiniFrameReturn routine [Streaming Media Devices], PFNKSPINFRAMERETURN, avstclbk_e7edb74a-8c38-4e7d-9978-849e5d88c153.xml, ks/AVStrMiniFrameReturn, stream.avstrminiframereturn
 req.header: ks.h
@@ -40,56 +39,42 @@ api_name:
  - PFNKSPINFRAMERETURN
 ---
 
-# PFNKSPINFRAMERETURN callback function
-
-
 ## -description
 
-An AVStream minidriver's <i>AVStrMiniFrameReturn</i> routine is called when an injected frame has completed its trip around the circuit and is ready to be recycled or freed.
+An AVStream minidriver's *AVStrMiniFrameReturn* routine is called when an injected frame has completed its trip around the circuit and is ready to be recycled or freed.
 
 ## -parameters
 
 ### -param Pin [in]
 
-
-Pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure representing the pin on which the frame was injected.
+Pointer to a [KSPIN](./ns-ks-_kspin.md) structure representing the pin on which the frame was injected.
 
 ### -param Data [in, optional]
 
+Pointer to the buffer originally specified in the call to [KsPinSubmitFrame](./nf-ks-kspinsubmitframe.md).
 
-Pointer to the buffer originally specified in the call to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a>.
+### -param Size [in, optional]
 
-### -param OPTIONAL
+Specifies the size in bytes of*Data* as originally specified in [KsPinSubmitFrame](./nf-ks-kspinsubmitframe.md).
 
 ### -param Mdl [in, optional]
 
-
-Pointer to a memory descriptor list describing the injected frame as in the call to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframemdl">KsPinSubmitFrameMdl</a><b>.</b>
+Pointer to a memory descriptor list describing the injected frame as in the call to [KsPinSubmitFrameMdl](./nf-ks-kspinsubmitframemdl.md).
 
 ### -param Context [in, optional]
-
 
 Pointer to the minidriver-supplied context buffer attached to the frame when the frame was injected into the circuit.
 
 ### -param Status [in]
 
-
-Contains a copy of <i>Irp->IoStatus.Status</i> for the IRP to which the requested frame was attached.
-
-
-### -param Size [in, optional]
-
-Specifies the size in bytes of <i>Data</i> as originally specified in <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a>.
+Contains a copy of*Irp->IoStatus.Status* for the IRP to which the requested frame was attached.
 
 ## -remarks
 
-The minidriver specifies this routine's address in the <i>FrameReturn</i> parameter of a call to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>.
+The minidriver specifies this routine's address in the*FrameReturn* parameter of a call to [KsPinRegisterFrameReturnCallback](./nf-ks-kspinregisterframereturncallback.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>
+[KsPinRegisterFrameReturnCallback](./nf-ks-kspinregisterframereturncallback.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframemdl">KsPinSubmitFrameMdl</a>
-
+[KsPinSubmitFrameMdl](./nf-ks-kspinsubmitframemdl.md)

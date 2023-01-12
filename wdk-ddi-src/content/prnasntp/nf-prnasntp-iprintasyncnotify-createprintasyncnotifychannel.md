@@ -3,7 +3,7 @@ UID: NF:prnasntp.IPrintAsyncNotify.CreatePrintAsyncNotifyChannel
 title: IPrintAsyncNotify::CreatePrintAsyncNotifyChannel (prnasntp.h)
 description: Defines the IPrintAsyncNotify::CreatePrintAsyncNotifyChannel method.
 tech.root: print
-ms.date: 06/12/2021
+ms.date: 07/26/2022
 keywords: ["IPrintAsyncNotify::CreatePrintAsyncNotifyChannel"]
 ms.keywords: CreatePrintAsyncNotifyChannel, CreatePrintAsyncNotifyChannel method [Print Devices], CreatePrintAsyncNotifyChannel method [Print Devices],IPrintAsyncNotify interface, IPrintAsyncNotify interface [Print Devices],CreatePrintAsyncNotifyChannel method, IPrintAsyncNotify.CreatePrintAsyncNotifyChannel, IPrintAsyncNotify::CreatePrintAsyncNotifyChannel, print.iprintasyncnotify_createprintasyncnotifychannel, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
 req.header: prnasntp.h
@@ -39,39 +39,35 @@ api_name:
  - IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
 ---
 
-# IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
-
 ## -description
 
 Defines the **IPrintAsyncNotify::CreatePrintAsyncNotifyChannel** method.
 
 ## -parameters
 
-## -param
+### -param unnamedParam1
 
-### -param filter 
+Defines the **ULONG** parameter *unnamedParam1*.
 
-[in]
+### -param unnamedParam2
 
-### -param pCallback
+Defines the **PrintAsyncNotificationType** parameter *unnamedParam2*.
 
-[in]
+### -param unnamedParam3
 
-### -param pType
+Defines the **PrintAsyncNotifyUserFilter** parameter *unnamedParam3*.
 
-[in]
+### -param unnamedParam4
 
-### -param ppChannel
+Defines the **PrintAsyncNotifyConversationStyle** parameter *unnamedParam4*.
 
-[out]
+### -param unnamedParam5
 
-### -param style
+Defines the **IPrintAsyncNotifyCallback** parameter *unnamedParam5*.
 
-[in]
+### -param unnamedParam6
 
-### -param uL
-
-[in]
+Defines the **IPrintAsyncNotifyChannel** parameter *unnamedParam6*.
 
 ## -returns
 

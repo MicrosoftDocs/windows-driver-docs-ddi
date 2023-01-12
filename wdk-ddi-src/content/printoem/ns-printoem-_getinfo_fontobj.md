@@ -1,8 +1,7 @@
 ---
 UID: NS:printoem._GETINFO_FONTOBJ
-title: _GETINFO_FONTOBJ (printoem.h)
+title: GETINFO_FONTOBJ (printoem.h)
 description: The GETINFO_FONTOBJ structure is used as input to the UNIFONTOBJ_GetInfo callback function.
-old-location: print\getinfo_fontobj.htm
 tech.root: print
 ms.date: 04/20/2018
 keywords: ["GETINFO_FONTOBJ structure"]
@@ -46,32 +45,26 @@ api_name:
  - GETINFO_FONTOBJ
 ---
 
-# _GETINFO_FONTOBJ structure
-
-
 ## -description
 
-The GETINFO_FONTOBJ structure is used as input to the <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function.
+The **GETINFO_FONTOBJ** structure is used as input to the [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function.
 
 ## -struct-fields
 
 ### -field dwSize
 
-Specifies the size, in bytes, of the GETINFO_FONTOBJ structure. Supplied by the UNIFONTOBJ_GetInfo caller.
+Specifies the size, in bytes, of the **GETINFO_FONTOBJ** structure. Supplied by the UNIFONTOBJ_GetInfo caller.
 
 ### -field pFontObj
 
-Pointer to an empty <a href="/windows/win32/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure. The structure is filled in by Unidrv's <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function. The pointer is supplied by the UNIFONTOBJ_GetInfo caller.
+Pointer to an empty [FONTOBJ](/windows/win32/api/winddi/ns-winddi-fontobj) structure. The structure is filled in by Unidrv's [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function. The pointer is supplied by the UNIFONTOBJ_GetInfo caller.
 
 ## -remarks
 
-To obtain a font's FONTOBJ structure contents, a rendering plug-in can supply the address of a GETINFO_FONTOBJ structure when calling Unidrv's <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function.
+To obtain a font's **FONTOBJ** structure contents, a rendering plug-in can supply the address of a **GETINFO_FONTOBJ** structure when calling Unidrv's [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function.
 
 ## -see-also
 
-<a href="/windows/win32/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
+[FONTOBJ](/windows/win32/api/winddi/ns-winddi-fontobj)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
-
+[UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md)

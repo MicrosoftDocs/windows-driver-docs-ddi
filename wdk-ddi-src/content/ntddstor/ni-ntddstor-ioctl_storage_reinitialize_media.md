@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_REINITIALIZE_MEDIA (ntddstor.h)
 description: A driver can use the IOCTL_STORAGE_REINITIALIZE_MEDIA control code to reinitialize/erase a device.
 old-location: storage\ioctl_storage_reinitialize_media.htm
 tech.root: storage
-ms.date: 05/13/2021
+ms.date: 08/18/2022
 keywords: ["IOCTL_STORAGE_REINITIALIZE_MEDIA IOCTL"]
 ms.keywords: IOCTL_STORAGE_REINITIALIZE_MEDIA, IOCTL_STORAGE_REINITIALIZE_MEDIA control, IOCTL_STORAGE_REINITIALIZE_MEDIA control code [Storage Devices], ntddstor/IOCTL_STORAGE_REINITIALIZE_MEDIA, storage.ioctl_storage_reinitialize_media
 req.header: ntddstor.h
@@ -63,6 +63,14 @@ None.
 ### -output-buffer-length
 
 None.
+
+### -in-out-buffer
+
+n/a
+
+### -inout-buffer-length
+
+n/a
 
 ### -status-block
 

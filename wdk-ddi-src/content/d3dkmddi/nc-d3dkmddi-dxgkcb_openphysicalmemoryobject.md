@@ -2,7 +2,7 @@
 UID: NC:d3dkmddi.DXGKCB_OPENPHYSICALMEMORYOBJECT
 tech.root: display
 title: DXGKCB_OPENPHYSICALMEMORYOBJECT
-ms.date: 10/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: DxgkCbOpenPhysicalMemoryObject opens a physical memory object and associates it with an adapter.
 req.assembly: 
@@ -56,6 +56,8 @@ Pointer to a [**DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT**](ns-d3dkmddi-dxgkargcb_o
 ## -remarks
 
 In order to create an address descriptor list (ADL) from a physical memory object, it must first be associated with an adapter. This is normally done when the physical memory object is created by specifying the **hAdapter** parameter in a call to [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md). However, in some cases, the adapter handle is not available at the time the memory was allocated (for example, early in the boot process). In this case, the driver must call **DXGKCB_OPENPHYSICALMEMORYOBJECT** to associate the physical memory object with an adapter prior to calling [**DXGKCB_ALLOCATEADL**](nc-d3dkmddi-dxgkcb_allocateadl.md).
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 *DXGKCB_XXX* functions are implemented by *Dxgkrnl*. To use this callback function, set the appropriate members of [**DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT**](ns-d3dkmddi-dxgkargcb_open_physical_memory_object.md) and then call **DxgkCbOpenPhysicalMemoryObject** via the [**DXGKRNL_INTERFACE**](../dispmprt/ns-dispmprt-_dxgkrnl_interface.md).
 

@@ -50,7 +50,7 @@ The **wiauRegGetStr** function gets a string value from the **DeviceData** secti
 
 ### -param hkKey [in]
 
-Specifies the registry key handle. This parameter should be set to the value pointed to by the *phkeyDeviceData* parameter when [wiauRegOpenData](/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw) returns.
+Specifies the registry key handle. This parameter should be set to the value pointed to by the *phkeyDeviceData* parameter when [wiauRegOpenData](./nf-wiautil-wiauregopendataw.md) returns.
 
 ### -param pszValueName [in]
 
@@ -70,6 +70,6 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-[wiauRegGetDword](/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaureggetdwordw)
+[wiauRegGetDword](./nf-wiautil-wiaureggetdwordw.md)
 
-[wiauRegOpenData](/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw)
+[wiauRegOpenData](./nf-wiautil-wiauregopendataw.md)

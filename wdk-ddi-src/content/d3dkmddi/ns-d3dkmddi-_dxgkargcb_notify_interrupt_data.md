@@ -448,20 +448,20 @@ Depending on the value in the **InterruptType** member, the display miniport dri
 
 ## -see-also
 
-[**DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS**](..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_present_displayonly_progress.md)
-
 [**DXGK_INTERRUPT_TYPE**](..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md)
-
-[**DxgkDdiSubmitCommand**](..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md)
-
-[**DXGKCB_NOTIFY_INTERRUPT**](..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md)
 
 [**DXGK_MIRACAST_CAPS**](..\dispmprt\ns-dispmprt-_dxgk_miracast_caps.md)
 
+[**DXGK_MIRACAST_CHUNK_INFO**](..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md)
+
 [**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO**](..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_vsync_info.md)
+
+[**DXGKCB_NOTIFY_INTERRUPT**](..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md)
 
 [**DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS**](..\d3dkmddi\ns-d3dkmddi-_dxgkcb_notify_interrupt_data_flags.md)
 
 [**DXGK_PAGE_FAULT_FLAGS**](..\d3dkmdt\ne-d3dkmdt-_dxgk_page_fault_flags.md)
 
-[**DXGK_MIRACAST_CHUNK_INFO**](..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md)
+[**DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS**](..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_present_displayonly_progress.md)
+
+[**DxgkDdiSubmitCommand**](..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md)

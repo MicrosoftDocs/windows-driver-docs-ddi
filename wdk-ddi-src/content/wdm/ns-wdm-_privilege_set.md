@@ -1,10 +1,10 @@
 ---
 UID: NS:wdm._PRIVILEGE_SET
-title: _PRIVILEGE_SET (wdm.h)
-description: The PRIVILEGE_SET structure specifies a set of security privileges. For more information, see the reference page for PRIVILEGE_SET in the Microsoft Windows SDK documentation.
+title: PRIVILEGE_SET (wdm.h)
+description: The PRIVILEGE_SET structure specifies a set of security privileges.
 old-location: kernel\privilege_set.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/15/2022
 keywords: ["PRIVILEGE_SET structure"]
 ms.keywords: "*PPRIVILEGE_SET, PPRIVILEGE_SET, PPRIVILEGE_SET structure pointer [Kernel-Mode Driver Architecture], PRIVILEGE_SET, PRIVILEGE_SET structure [Kernel-Mode Driver Architecture], _PRIVILEGE_SET, kernel.privilege_set, kstruct_c_c599935e-9092-4ee4-a982-a105835eb6bd.xml, wdm/PNP_BUS_INFORMATION, wdm/PPRIVILEGE_SET"
 req.header: wdm.h
@@ -46,22 +46,38 @@ api_name:
  - PRIVILEGE_SET
 ---
 
-# _PRIVILEGE_SET structure
-
+# PRIVILEGE_SET structure
 
 ## -description
 
-The <b>PRIVILEGE_SET</b> structure specifies a set of security privileges. For more information, see the reference page for <b>PRIVILEGE_SET</b> in the Microsoft Windows SDK documentation.
+The **PRIVILEGE_SET** structure specifies a set of security privileges. It is also used to indicate which, if any, privileges are held by a user or group requesting access to an object.
 
 ## -struct-fields
 
 ### -field PrivilegeCount
 
+The number of privileges in the privilege set.
+
 ### -field Control
+
+Specifies a control flag related to the privileges. The PRIVILEGE_SET_ALL_NECESSARY control flag is currently defined. It indicates that all of the specified privileges must be held by the process requesting access. If this flag is not set, the presence of any privileges in the user's access token grants the access.
 
 ### -field Privilege
 
+Specifies an array of [**LUID_AND_ATTRIBUTES**](ns-wdm-_luid_and_attributes.md) structures describing the set's privileges. The following attributes are defined for privileges.
+
+| Value | Meaning |
+| ----- | ------- |
+| SE_PRIVILEGE_ENABLED_BY_DEFAULT | The privilege is enabled by default. |
+| SE_PRIVILEGE_ENABLED            | The privilege is enabled. |
+| SE_PRIVILEGE_USED_FOR_ACCESS    | The privilege was used to gain access to an object or service. This flag is used to identify the relevant privileges in a set passed by a client application that may contain unnecessary privileges. |
+
+## -remarks
+
+A privilege is used to control access to an object or service more strictly than is typical with discretionary access control. A system manager uses privileges to control which users are able to manipulate system resources. An application uses privileges when it changes a system-wide resource, such as when it changes the system time or shuts down the system.
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck">SeAccessCheck</a>
+[**SeAccessCheck**](nf-wdm-seaccesscheck.md)
 
+[**PRIVILEGE_SET** structure (winnt.h)](/windows/win32/api/winnt/ns-winnt-privilege_set)

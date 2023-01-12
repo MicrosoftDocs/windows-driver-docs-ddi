@@ -4,7 +4,7 @@ title: IOCTL_ATA_PASS_THROUGH_DIRECT (ntddscsi.h)
 description: Learn how IOCTL_ATA_PASS_THROUGH_DIRECT allows an application to send almost any ATA command to a target device.
 old-location: storage\ioctl_ata_pass_through_direct.htm
 tech.root: storage
-ms.date: 10/19/2021
+ms.date: 08/18/2022
 keywords: ["IOCTL_ATA_PASS_THROUGH_DIRECT IOCTL"]
 ms.keywords: IOCTL_ATA_PASS_THROUGH_DIRECT, IOCTL_ATA_PASS_THROUGH_DIRECT control, IOCTL_ATA_PASS_THROUGH_DIRECT control code [Storage Devices], k307_8f1da276-e1bf-405e-8e01-a633b8671d5f.xml, ntddscsi/IOCTL_ATA_PASS_THROUGH_DIRECT, storage.ioctl_ata_pass_through_direct
 req.header: ntddscsi.h
@@ -78,6 +78,14 @@ The port driver fills the **CurrentTaskFile** member of [**ATA_PASS_THROUGH_DIRE
 ### -output-buffer-length
 
 The port driver updates the **DataTransferLength** member of the [**ATA_PASS_THROUGH_DIRECT**](ns-ntddscsi-_ata_pass_through_direct.md) structure to indicate the amount of data that was transferred from the device.
+
+### -in-out-buffer
+
+None.
+
+### -inout-buffer-length
+
+Not applicable.
 
 ### -status-block
 

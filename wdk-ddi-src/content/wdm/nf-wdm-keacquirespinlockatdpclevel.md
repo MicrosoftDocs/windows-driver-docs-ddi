@@ -2,15 +2,14 @@
 UID: NF:wdm.KeAcquireSpinLockAtDpcLevel~r1
 title: KeAcquireSpinLockAtDpcLevel macro (wdm.h)
 description: The KeAcquireSpinLockAtDpcLevel routine acquires a spin lock when the caller is already running at IRQL >= DISPATCH_LEVEL.
-old-location: kernel\keacquirespinlockatdpclevel.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 10/23/2022
 keywords: ["KeAcquireSpinLockAtDpcLevel macro"]
 ms.keywords: KeAcquireSpinLockAtDpcLevel, KeAcquireSpinLockAtDpcLevel routine [Kernel-Mode Driver Architecture], KefAcquireSpinLockAtDpcLevel, k105_4b7eb718-f04d-42de-9dfc-92355cd2ebc9.xml, kernel.keacquirespinlockatdpclevel, wdm/KeAcquireSpinLockAtDpcLevel, wdm/KefAcquireSpinLockAtDpcLevel
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,51 +39,36 @@ api_name:
  - KeAcquireSpinLockAtDpcLevel
 ---
 
-# KeAcquireSpinLockAtDpcLevel macro
-
-
 ## -description
 
-The <b>KeAcquireSpinLockAtDpcLevel</b> routine acquires a spin lock when the caller is already running at IRQL >= DISPATCH_LEVEL.
+The **KeAcquireSpinLockAtDpcLevel** routine acquires a spin lock when the caller is already running at IRQL >= DISPATCH_LEVEL.
 
 ## -parameters
 
 ### -param SpinLock [in, out]
 
-
 Pointer to an initialized KSPIN_LOCK spin lock for which the caller must provide the storage.  The spin lock must be from non-paged pool.
 
 ## -remarks
 
-Drivers call <b>KeAcquireSpinLockAtDpcLevel</b> instead of <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a> for better driver performance if and only if they are already running at an IRQL of DISPATCH_LEVEL or above.
+Drivers call **KeAcquireSpinLockAtDpcLevel** instead of [KeAcquireSpinLock](nf-wdm-keacquirespinlock.md) for better driver performance if and only if they are already running at an IRQL of DISPATCH_LEVEL or above.
 
-If a driver is running at IRQL <= APC_LEVEL, it should call <b>KeAcquireSpinLock</b> to have IRQL raised by that routine. <b>KeAcquireSpinLockAtDpcLevel</b> assumes the caller is already running at IRQL >= DISPATCH_LEVEL, so no raise is necessary.
+If a driver is running at IRQL <= APC_LEVEL, it should call **KeAcquireSpinLock** to have IRQL raised by that routine. **KeAcquireSpinLockAtDpcLevel** assumes the caller is already running at IRQL >= DISPATCH_LEVEL, so no raise is necessary.
 
-The caller should release the spin lock with <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlockfromdpclevel">KeReleaseSpinLockFromDpcLevel</a> as quickly as possible.
+The caller should release the spin lock with [KeReleaseSpinLockFromDpcLevel](nf-wdm-kereleasespinlockfromdpclevel.md) as quickly as possible.
 
-For more information about spin locks, see <a href="/windows-hardware/drivers/kernel/spin-locks">Spin Locks</a>.
+For more information about spin locks, see [Spin Locks](/windows-hardware/drivers/kernel/introduction-to-spin-locks).
 
 ## -see-also
 
-<a href="/previous-versions/windows/hardware/drivers/ff551908(v=vs.85)">KeAcquireInStackQueuedSpinLockAtDpcLevel</a>
+[KeAcquireInStackQueuedSpinLockAtDpcLevel](nf-wdm-keacquireinstackqueuedspinlockatdpclevel.md)
 
+[KeAcquireSpinLock](nf-wdm-keacquirespinlock.md)
 
+[KeInitializeSpinLock](nf-wdm-keinitializespinlock.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a>
+[KeReleaseSpinLock](nf-wdm-kereleasespinlock.md)
 
+[KeReleaseSpinLockFromDpcLevel](nf-wdm-kereleasespinlockfromdpclevel.md)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlock">KeReleaseSpinLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlockfromdpclevel">KeReleaseSpinLockFromDpcLevel</a>
-
-
-
-<a href="/previous-versions/ff553317(v=vs.85)">KeTryToAcquireSpinLockAtDpcLevel</a>
-
+[KeTryToAcquireSpinLockAtDpcLevel](nf-wdm-ketrytoacquirespinlockatdpclevel.md)

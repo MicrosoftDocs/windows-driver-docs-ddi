@@ -1,8 +1,7 @@
 ---
 UID: NF:wdm.ExAllocatePoolWithQuota
 title: ExAllocatePoolWithQuota function (wdm.h)
-description: "ExAllocatePoolWithQuota allocates pool memory, but is obsolete. It's exported only for existing driver binaries. Use ExAllocatePoolWithQuotaTag instead."
-old-location: kernel\exallocatepoolwithquota.htm
+description: Obsolete. Use ExAllocatePoolWithQuotaTag instead. ExAllocatePoolWithQuota allocates pool memory. It is exported only for existing driver binaries. 
 tech.root: kernel
 ms.date: 01/11/2021
 keywords: ["ExAllocatePoolWithQuota function"]
@@ -40,66 +39,55 @@ api_name:
  - ExAllocatePoolWithQuota
 ---
 
-# ExAllocatePoolWithQuota function
-
-
 ## -description
 
->[!IMPORTANT]
-> The <b>ExAllocatePoolWithQuota</b> routine is <u>obsolete</u> and has been deprecated in Windows 10, version 2004 and has been replaced by [ExAllocatePool2](nf-wdm-exallocatepool2.md). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](/windows-hardware/drivers/kernel/updating-deprecated-exallocatepool-calls).
+>[!WARNING]
+> The **ExAllocatePoolWithQuota** routine is obsolete and has been deprecated in Windows 10, version 2004 and has been replaced by [ExAllocatePool2](nf-wdm-exallocatepool2.md). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](/windows-hardware/drivers/kernel/updating-deprecated-exallocatepool-calls).
 >
-> When developing drivers for version of Windows prior to Windows 10, version 2004, use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolquotazero">ExAllocatePoolQuotaZero</a>.
+> When developing drivers for version of Windows prior to Windows 10, version 2004, use [ExAllocatePoolQuotaZero](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolquotazero).
 
-<b>ExAllocatePoolWithQuota</b> allocates pool memory, charging quota against the current process.
+**ExAllocatePoolWithQuota** allocates pool memory, charging quota against the current process.
 
 ## -parameters
 
 ### -param PoolType [in]
 
+Specifies the type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type).
 
-Specifies the type of pool memory to allocate. For a description of the available pool memory types, see <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>.
-
-You can modify <i>PoolType</i> by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
+You can modify *PoolType* by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
 
 ### -param NumberOfBytes [in]
-
 
 Specifies the number of bytes to allocate.
 
 ## -returns
 
-<b>ExAllocatePoolWithQuota</b> returns a pointer to the allocated pool.
+**ExAllocatePoolWithQuota** returns a pointer to the allocated pool.
 
-If the request cannot be satisfied, <b>ExAllocatePoolWithQuota</b> raises an exception.
+If the request cannot be satisfied, **ExAllocatePoolWithQuota** raises an exception.
 
 ## -remarks
 
-This routine is called by highest-level drivers that allocate memory to satisfy a request in the context of the process that originally made the I/O request. Lower-level drivers call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a> instead.
+This routine is called by highest-level drivers that allocate memory to satisfy a request in the context of the process that originally made the I/O request. Lower-level drivers call [ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag) instead.
 
-If <i>NumberOfBytes</i> is PAGE_SIZE or greater, a page-aligned buffer is allocated. Quota is <u>not</u> charged to the process for allocations of PAGE_SIZE or greater.
+If *NumberOfBytes* is PAGE_SIZE or greater, a page-aligned buffer is allocated. Quota is not charged to the process for allocations of PAGE_SIZE or greater.
 
 Memory allocations of less than PAGE_SIZE are allocated within a page and do not cross page boundaries. Memory allocations of PAGE_SIZE or less are not necessarily page-aligned but are aligned to 8-byte boundaries in 32-bit systems and to 16-byte boundaries in 64-bit systems.
 
-<div class="alert"><b>Note</b>  Do not set <i>NumberOfBytes</i> = 0. Avoid zero-length allocations because they waste pool header space and, in many cases, indicate a potential validation issue in the calling code. For this reason, <a href="/windows-hardware/drivers/what-s-new-in-driver-development">Driver Verifier</a> flags such allocations as possible errors.</div>
-<div> </div>
-The system automatically sets certain standard event objects when the amount of pool (paged or nonpaged) is high or low. Drivers can wait for these events to tune their pool usage. For more information, see <a href="/windows-hardware/drivers/kernel/standard-event-objects">Standard Event Objects</a>.
+Do not set *NumberOfBytes* = 0. Avoid zero-length allocations because they waste pool header space and, in many cases, indicate a potential validation issue in the calling code. For this reason, [Driver Verifier](/windows-hardware/drivers/what-s-new-in-driver-development) flags such allocations as possible errors.
 
-<div class="alert"><b>Note</b>  Memory that <b>ExAllocatePoolWithQuota</b> allocates is uninitialized. A kernel-mode driver must first zero this memory if it is going to make it visible to user-mode software (to avoid leaking potentially privileged contents).</div>
-<div> </div>
-Callers of <b>ExAllocatePoolWithQuota</b> must be executing at IRQL <= DISPATCH_LEVEL. A caller executing at DISPATCH_LEVEL must specify a <b>NonPaged</b><i>Xxx</i> value for <i>PoolType</i>. A caller executing at IRQL <= APC_LEVEL can specify any <b>POOL_TYPE</b> value, but the IRQL and environment must also be considered for determining the pool type.
+The system automatically sets certain standard event objects when the amount of pool (paged or nonpaged) is high or low. Drivers can wait for these events to tune their pool usage. For more information, see [Standard Event Objects](/windows-hardware/drivers/kernel/standard-event-objects).
+
+Memory that **ExAllocatePoolWithQuota** allocates is uninitialized. A kernel-mode driver must first zero this memory if it is going to make it visible to user-mode software (to avoid leaking potentially privileged contents).
+
+Callers of **ExAllocatePoolWithQuota** must be executing at IRQL <= DISPATCH_LEVEL. A caller executing at DISPATCH_LEVEL must specify a **NonPaged***Xxx* value for *PoolType*. A caller executing at IRQL <= APC_LEVEL can specify any **POOL_TYPE** value, but the IRQL and environment must also be considered for determining the pool type.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithquotatag">ExAllocatePoolWithQuotaTag</a>
+[ExAllocatePoolWithQuotaTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithquotatag)
 
+[ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag)
 
+[ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>
+[POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type)

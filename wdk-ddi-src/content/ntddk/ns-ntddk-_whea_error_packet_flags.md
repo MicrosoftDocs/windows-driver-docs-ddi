@@ -1,10 +1,9 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_PACKET_FLAGS
-title: _WHEA_ERROR_PACKET_FLAGS (ntddk.h)
+title: WHEA_ERROR_PACKET_FLAGS (ntddk.h)
 description: The WHEA_ERROR_PACKET_FLAGS union defines the error condition reported through a WHEA_ERROR_PACKET structure.
-old-location: whea\whea_error_packet_flags.htm
 tech.root: whea
-ms.date: 02/20/2018
+ms.date: 12/08/2022
 keywords: ["WHEA_ERROR_PACKET_FLAGS structure"]
 ms.keywords: "*PWHEA_ERROR_PACKET_FLAGS, PWHEA_ERROR_PACKET_FLAGS, PWHEA_ERROR_PACKET_FLAGS union pointer [WHEA Drivers and Applications], WHEA_ERROR_PACKET_FLAGS, WHEA_ERROR_PACKET_FLAGS union [WHEA Drivers and Applications], _WHEA_ERROR_PACKET_FLAGS, ntddk/PWHEA_ERROR_PACKET_FLAGS, ntddk/WHEA_ERROR_PACKET_FLAGS, whea.whea_error_packet_flags, whearef_c193e4e7-f233-4de0-93ac-5e7b841a6c6e.xml"
 req.header: ntddk.h
@@ -46,12 +45,9 @@ api_name:
  - WHEA_ERROR_PACKET_FLAGS
 ---
 
-# _WHEA_ERROR_PACKET_FLAGS structure
-
-
 ## -description
 
-The WHEA_ERROR_PACKET_FLAGS union defines the error condition reported through a <a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a> structure.
+The WHEA_ERROR_PACKET_FLAGS union defines the error condition reported through a [WHEA_ERROR_PACKET](/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)) structure.
 
 ## -struct-fields
 
@@ -73,38 +69,30 @@ A single bit that indicates that the error condition was simulated.
 
 ### -field DUMMYSTRUCTNAME.PlatformPfaControl
 
-A single bit that indicates whether WHEA or a PSHED plug-in is in control of predictive failure analysis (PFA). If this bit is set, the PSHED plug-in is in control of PFA and must set the <b>PlatformDirectedOffline </b>to bring an <a href="/windows-hardware/drivers/">ECC</a> memory page into an offline state.
+A single bit that indicates whether WHEA or a PSHED plug-in is in control of predictive failure analysis (PFA). If this bit is set, the PSHED plug-in is in control of PFA and must set the **PlatformDirectedOffline** to bring an [ECC](/windows-hardware/drivers/) memory page into an offline state.
 
-For more information about PFA support for WHEA, see <a href="/windows-hardware/drivers/whea/predictive-failure-analysis--pfa-">Predictive Failure Analysis (PFA)</a>.
-
-
-<div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div>
-<div> </div>
+For more information about PFA support for WHEA, see [Predictive Failure Analysis (PFA)](/windows-hardware/drivers/whea/predictive-failure-analysis--pfa-).
 
 ### -field DUMMYSTRUCTNAME.PlatformDirectedOffline
 
-A single bit that indicates whether the PSHED plug-in that performs PFA on a system component has determined if the component should be brought into an offline state. This bit is only valid if the <b>PlatformPfaControl</b> member is set.
-
-
-<div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div>
-<div> </div>
+A single bit that indicates whether the PSHED plug-in that performs PFA on a system component has determined if the component should be brought into an offline state. This bit is only valid if the **PlatformPfaControl** member is set.
 
 ### -field DUMMYSTRUCTNAME.AddressTranslationRequired
 
 This field indicates that WHEA has identified this packet represents a memory error but the error data gathered by WHEA does not contain
-a valid physical address. A PSHED Plug-in may perform platform specific translation on the address to allow WHEA to take action. If 
+a valid physical address. A PSHED Plug-in may perform platform specific translation on the address to allow WHEA to take action. If
 this flag is set and the **RecoveryOptional** flag is 0 the system crashes with [bug check code 0x124](/windows-hardware/drivers/debugger/bug-check-0x124---whea-uncorrectable-error) indicating a fatal hardware error.
 
 ### -field DUMMYSTRUCTNAME.AddressTranslationCompleted
 
-If the **AddressTranslationRequired** bit is set, a PSHED plug-in may set this bit during its retrieve error info callback to indicate the 
+If the **AddressTranslationRequired** bit is set, a PSHED plug-in may set this bit during its retrieve error info callback to indicate the
 memory address contained in the error state has been updated to reflect a valid physical address. This will allow WHEA to perform
 recovery.
 
 ### -field DUMMYSTRUCTNAME.RecoveryOptional
 
-This field indicates that recovery is optional and the system may continue execution without further action. This flag is set 
-for errors where action is optional and AddressTranslationRequired is set to prevent the system from crashing if a PSHED plug-in 
+This field indicates that recovery is optional and the system may continue execution without further action. This flag is set
+for errors where action is optional and AddressTranslationRequired is set to prevent the system from crashing if a PSHED plug-in
 does not provide a translation.
 
 ### -field DUMMYSTRUCTNAME.Reserved2
@@ -113,17 +101,14 @@ Reserved for system use.
 
 ### -field AsULONG
 
-A ULONG representation of the contents of the WHEA_ERROR_PACKET_FLAGS union.
+A ULONG representation of the contents of the **WHEA_ERROR_PACKET_FLAGS** union.
 
 ## -remarks
 
-The WHEA_ERROR_PACKET_FLAGS union describes the error condition reported by using a <a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a> structure.
+The WHEA_ERROR_PACKET_FLAGS union describes the error condition reported by using a [**WHEA_ERROR_PACKET**](/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/whea/predictive-failure-analysis--pfa-">Predictive Failure Analysis (PFA)</a>
+[Predictive Failure Analysis (PFA)](/windows-hardware/drivers/whea/predictive-failure-analysis--pfa-)
 
-
-
-<a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a>
-
+[**WHEA_ERROR_PACKET**](/previous-versions/windows/hardware/drivers/ff560465(v=vs.85))

@@ -2,16 +2,15 @@
 UID: NN:printerextension.IPrinterScriptContext
 title: IPrinterScriptContext (printerextension.h)
 description: Passed to all third-party constraints JavaScript functions, and provides access to relevant objects.
-old-location: print\iprinterscriptcontext.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/04/2022
 keywords: ["IPrinterScriptContext interface"]
 ms.keywords: IPrinterScriptContext, IPrinterScriptContext interface [Print Devices], IPrinterScriptContext interface [Print Devices],described, print.iprinterscriptcontext, printerextension/IPrinterScriptContext
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -39,9 +38,6 @@ api_location:
 api_name:
  - IPrinterScriptContext
 ---
-
-# IPrinterScriptContext interface
-
 
 ## -description
 

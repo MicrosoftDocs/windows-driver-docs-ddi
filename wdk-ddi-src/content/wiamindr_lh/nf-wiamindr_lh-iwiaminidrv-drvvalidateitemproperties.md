@@ -2,9 +2,8 @@
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvValidateItemProperties
 title: IWiaMiniDrv::drvValidateItemProperties (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvValidateItemProperties method validates an item's properties against the set of valid values for each property and will update those properties if necessary.
-old-location: image\iwiaminidrv_drvvalidateitemproperties.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 07/21/2022
 keywords: ["IWiaMiniDrv::drvValidateItemProperties"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvValidateItemProperties method, IWiaMiniDrv.drvValidateItemProperties, IWiaMiniDrv::drvValidateItemProperties, MiniDrv_b288e05c-a142-452a-9ac7-ffb2dfcae4cf.xml, drvValidateItemProperties, drvValidateItemProperties method [Imaging Devices], drvValidateItemProperties method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvvalidateitemproperties, wiamindr_lh/IWiaMiniDrv::drvValidateItemProperties
 req.header: wiamindr_lh.h
@@ -40,9 +39,6 @@ api_name:
  - IWiaMiniDrv::drvValidateItemProperties
 ---
 
-# IWiaMiniDrv::drvValidateItemProperties
-
-
 ## -description
 
 The **IWiaMiniDrv::drvValidateItemProperties** method validates an item's properties against the set of valid values for each property and will update those properties if necessary.
@@ -51,51 +47,31 @@ The **IWiaMiniDrv::drvValidateItemProperties** method validates an item's proper
 
 ### -param __MIDL__IWiaMiniDrv0016
 
-lFlags [in]
+*lFlags* [in]
 
-- Is reserved. Set to zero.
+Reserved. Set to zero.
 
 ### -param __MIDL__IWiaMiniDrv0017
 
-nPropSpec [in]
-
-- Indicates the number of items n the *pPropSpec* array.
-
-### -param __MIDL__IWiaMiniDrv0018
-
-pPropSpec [in]
-
-- Points to the first element of an array of **PROPSPEC** structures.
-
-### -param __MIDL__IWiaMiniDrv0019
-
-pWiasContext [in]
-
-- Pointer to a WIA item context.
-
-### -param __MIDL__IWiaMiniDrv0020
-
-plDevErrVal [out]
-
-- Points to a memory location that will receive a status code for this method. If this method returns **S_OK**, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-### -param lFlags [in]
-
-Is reserved. Set to zero.
-
-### -param nPropSpec [in]
+*nPropSpec* [in]
 
 Indicates the number of items n the *pPropSpec* array.
 
-### -param pPropSpec [in]
+### -param __MIDL__IWiaMiniDrv0018
+
+*pPropSpec* [in]
 
 Points to the first element of an array of **PROPSPEC** structures.
 
-### -param pWiasContext [in]
+### -param __MIDL__IWiaMiniDrv0019
+
+*pWiasContext* [in]
 
 Pointer to a WIA item context.
 
-### -param plDevErrVal [out]
+### -param __MIDL__IWiaMiniDrv0020
+
+*plDevErrVal* [out]
 
 Points to a memory location that will receive a status code for this method. If this method returns **S_OK**, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
@@ -114,4 +90,3 @@ The value pointed to by *plDevErrVal* can be converted to a string by calling [I
 [wiasGetItemType](../wiamdef/nf-wiamdef-wiasgetitemtype.md)
 
 [wiasValidateItemProperties](../wiamdef/nf-wiamdef-wiasvalidateitemproperties.md)
-

@@ -2,9 +2,8 @@
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvGetCapabilities
 title: IWiaMiniDrv::drvGetCapabilities (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvGetCapabilities method returns an array of events and commands that a device supports.
-old-location: image\iwiaminidrv_drvgetcapabilities.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 07/21/2022
 keywords: ["IWiaMiniDrv::drvGetCapabilities"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvGetCapabilities method, IWiaMiniDrv.drvGetCapabilities, IWiaMiniDrv::drvGetCapabilities, MiniDrv_c88a03f8-d527-47b0-953c-a7bf231c733e.xml, drvGetCapabilities, drvGetCapabilities method [Imaging Devices], drvGetCapabilities method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvgetcapabilities, wiamindr_lh/IWiaMiniDrv::drvGetCapabilities
 req.header: wiamindr_lh.h
@@ -40,9 +39,6 @@ api_name:
  - IWiaMiniDrv::drvGetCapabilities
 ---
 
-# IWiaMiniDrv::drvGetCapabilities
-
-
 ## -description
 
 The **IWiaMiniDrv::drvGetCapabilities** method returns an array of events and commands that a device supports.
@@ -53,65 +49,40 @@ The **IWiaMiniDrv::drvGetCapabilities** method returns an array of events and co
 
 lFlags [in]
 
-- Specifies whether the array pointed to by *ppCapabilites* consists of commands, or events, or both. This parameter can be either of the following flags or of both of them combined by an OR operator.
-
-  | Flag | Meaning |
-  | --- | --- |
-  | WIA_DEVICE_COMMANDS | The array consists of device commands. |
-  | WIA_DEVICE_EVENTS | The array consists of device events. |
-
-### -param __MIDL__IWiaMiniDrv0049
-
-pWiasContext [in]
-
-- Pointer to a WIA item context.
-
-### -param __MIDL__IWiaMiniDrv0050
-
-pcelt [out]
-
-- Points to a memory location that will receive the number of elements in the array pointed to by the *ppCapabilities* parameter.
-
-### -param __MIDL__IWiaMiniDrv0051
-
-plDevErrVal [out]
-
-- Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-### -param __MIDL__IWiaMiniDrv0052
-
-ppCapabilities [out, optional]
-
-- Points to a memory location that will receive the address of the first element of an array of [WIA_DEV_CAP_DRV](./ns-wiamindr_lh-_wia_dev_cap_drv.md) structures that contain the GUIDs of events and commands that the device supports.
-
-### -param lFlags [in]
-
 Specifies whether the array pointed to by *ppCapabilites* consists of commands, or events, or both. This parameter can be either of the following flags or of both of them combined by an OR operator.
 
-| Flag | Meaning |
-| --- | --- |
+| Flag | Description |
+|--|--|
 | WIA_DEVICE_COMMANDS | The array consists of device commands. |
 | WIA_DEVICE_EVENTS | The array consists of device events. |
 
-### -param pWiasContext [in]
+### -param __MIDL__IWiaMiniDrv0049
+
+*pWiasContext* [in]
 
 Pointer to a WIA item context.
 
-### -param pcelt [out]
+### -param __MIDL__IWiaMiniDrv0050
+
+*pcelt* [out]
 
 Points to a memory location that will receive the number of elements in the array pointed to by the *ppCapabilities* parameter.
 
-### -param plDevErrVal [out]
+### -param __MIDL__IWiaMiniDrv0051
 
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+*plDevErrVal* [out]
 
-### -param ppCapabilities [out, optional]
+Points to a memory location that will receive a status code for this method. If this method returns **S_OK**, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+
+### -param __MIDL__IWiaMiniDrv0052
+
+*ppCapabilities* [out, optional]
 
 Points to a memory location that will receive the address of the first element of an array of [WIA_DEV_CAP_DRV](./ns-wiamindr_lh-_wia_dev_cap_drv.md) structures that contain the GUIDs of events and commands that the device supports.
 
 ## -returns
 
-On success, the method should return S_OK and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by *plDevErrVal*.
+On success, the method should return **S_OK** and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by *plDevErrVal*.
 
 The value pointed to by *plDevErrVal* can be converted to a string by calling [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md).
 
@@ -128,4 +99,3 @@ The *Wiadef.h* header lists several predefined commands and events.
 [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)
 
 [WIA_DEV_CAP_DRV](./ns-wiamindr_lh-_wia_dev_cap_drv.md)
-

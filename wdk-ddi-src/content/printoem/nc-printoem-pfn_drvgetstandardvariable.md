@@ -2,13 +2,12 @@
 UID: NC:printoem.PFN_DrvGetStandardVariable
 title: PFN_DrvGetStandardVariable (printoem.h)
 description: This DrvGetStandardVariable function is obsolete.
-old-location: print\drvgetstandardvariable.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/11/2022
 keywords: ["PFN_DrvGetStandardVariable callback function"]
 ms.keywords: DrvGetStandardVariable, DrvGetStandardVariable callback function [Print Devices], PFN_DrvGetStandardVariable, PFN_DrvGetStandardVariable callback, print.drvgetstandardvariable, print_obsoletefunctions_143de6bb-bea1-4292-8ac4-e34c2610a8ab.xml, printoem/DrvGetStandardVariable
 req.header: printoem.h
-req.include-header: 
+req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,26 +39,36 @@ api_name:
  - PFN_DrvGetStandardVariable
 ---
 
-# PFN_DrvGetStandardVariable callback function
-
-
 ## -description
 
-This <b>DrvGetStandardVariable</b> function is obsolete. 
+This **DrvGetStandardVariable** function is obsolete.
 
-Windows 2000 and later printer drivers should use <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvgetstandardvariable">IPrintOemDriverUni::DrvGetStandardVariable</a>. 
+Windows 2000 and later printer drivers should use [IPrintOemDriverUni::DrvGetStandardVariable](../prcomoem/nf-prcomoem-iprintoemdriveruni-drvgetstandardvariable.md).
 
-This function pointer prototype defines the type of the <b>BGetStandardVariable</b> member of the <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs">DRVPROCS</a> structure.
+This function pointer prototype defines the type of the **BGetStandardVariable** member of the [DRVPROCS](./ns-printoem-_drvprocs.md) structure.
 
 ## -parameters
 
 ### -param pdevobj
 
+Defines the **PDEVOBJ** parameter *pdevobj*.
+
 ### -param dwIndex
+
+Defines the **DWORD** parameter *dwIndex*.
 
 ### -param pBuffer
 
+Defines the **PVOID** parameter *pBuffer*.
+
 ### -param cbSize
+
+Defines the **DWORD** parameter *cbSize*.
 
 ### -param pcbNeeded
 
+Defines the **PDWORD** parameter *pcbNeeded*.
+
+## -returns
+
+Returns a **BOOL** value.

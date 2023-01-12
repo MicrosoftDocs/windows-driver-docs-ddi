@@ -1,9 +1,9 @@
 ---
 UID: NS:strmini._ACCESS_RANGE
-title: _ACCESS_RANGE (strmini.h)
+title: ACCESS_RANGE (strmini.h)
 description: Learn how an ACCESS_RANGE structure (strmini.h) describes a memory or I/O port range used by an HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 tech.root: storage
-ms.date: 07/30/2021
+ms.date: 01/04/2023
 keywords: ["ACCESS_RANGE structure"]
 ms.keywords: "*PACCESS_RANGE, ACCESS_RANGE, ACCESS_RANGE structure [Storage Devices], PACCESS_RANGE, PACCESS_RANGE structure pointer [Storage Devices], _ACCESS_RANGE, srb/ACCESS_RANGE, srb/PACCESS_RANGE, storage.access_range, structs-scsiport_353ffdeb-4d30-4df8-9422-ea3a9e662104.xml"
 req.header: strmini.h
@@ -46,14 +46,11 @@ api_name:
  - ACCESS_RANGE
 ---
 
-# _ACCESS_RANGE structure (strmini.h)
-
 ## -description
 
 An ACCESS_RANGE describes a memory or I/O port range used by an HBA.
 
-> [!NOTE]
-> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver-overview) and [Storport miniport](/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
+The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver-overview) and [Storport miniport](/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 
 ## -struct-fields
 

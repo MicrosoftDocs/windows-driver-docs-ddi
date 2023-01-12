@@ -1,16 +1,16 @@
 ---
 UID: NS:ntdddisk._GETVERSIONINPARAMS
-title: _GETVERSIONINPARAMS (ntdddisk.h)
+title: GETVERSIONINPARAMS (ntdddisk.h)
 description: The GETVERSIONINPARAMS structure is used in conjunction with the SMART_GET_VERSION request to retrieve version information, a capabilities mask, and a bitmask for the indicated device.
 old-location: storage\getversioninparams.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 07/14/2022
 keywords: ["GETVERSIONINPARAMS structure"]
 ms.keywords: "*LPGETVERSIONINPARAMS, *PGETVERSIONINPARAMS, GETVERSIONINPARAMS, GETVERSIONINPARAMS structure [Storage Devices], LPGETVERSIONINPARAMS, LPGETVERSIONINPARAMS structure pointer [Storage Devices], PGETVERSIONINPARAMS, PGETVERSIONINPARAMS structure pointer [Storage Devices], _GETVERSIONINPARAMS, ntdddisk/GETVERSIONINPARAMS, ntdddisk/LPGETVERSIONINPARAMS, ntdddisk/PGETVERSIONINPARAMS, storage.getversioninparams, structs-IDE_5426037d-a75f-4b92-a935-e467d02ec8c7.xml"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,12 +46,11 @@ api_name:
  - GETVERSIONINPARAMS
 ---
 
-# _GETVERSIONINPARAMS structure
-
+# GETVERSIONINPARAMS structure
 
 ## -description
 
-The GETVERSIONINPARAMS structure is used in conjunction with the <a href="/previous-versions/windows/hardware/drivers/ff566202(v=vs.85)">SMART_GET_VERSION</a> request to retrieve version information, a capabilities mask, and a bitmask for the indicated device.
+The GETVERSIONINPARAMS structure is used in conjunction with the **SMART_GET_VERSION** request to retrieve version information, a capabilities mask, and a bitmask for the indicated device.
 
 ## -struct-fields
 
@@ -71,139 +70,43 @@ Reserved.
 
 Contains the bitmap. The following table explains the meaning of the bitmap:
 
-<table>
-<tr>
-<th>Bitmap Flags</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-Bit 0 is set to 1.
-
-</td>
-<td>
-The device is either a SATA drive or an IDE drive. If it is an IDE drive, it is the master device on the primary channel. 
-
-</td>
-</tr>
-<tr>
-<td>
-Bit 1 is set to 1.
-
-</td>
-<td>
-The device is an IDE drive, and it is the subordinate device on the primary channel. 
-
-</td>
-</tr>
-<tr>
-<td>
-Bit 2 is set to 1.
-
-</td>
-<td>
-The device is an IDE drive, and it is the master device on the secondary channel. 
-
-</td>
-</tr>
-<tr>
-<td>
-Bit 3 is set to 1.
-
-</td>
-<td>
-The device is an IDE drive, and it is the subordinate device on the secondary channel. 
-
-</td>
-</tr>
-<tr>
-<td>
-Bit 4 is set to 1.
-
-</td>
-<td>
-The device is an ATAPI drive, and it is the master device on the primary channel. 
-
-</td>
-</tr>
-<tr>
-<td>
-Bit 5 is set to 1.
-
-</td>
-<td>
-The device is an ATAPI drive, and it is the subordinate device on the primary channel. 
-
-</td>
-</tr>
-<tr>
-<td>
-Bit 6 is set to 1.
-
-</td>
-<td>
-The device is an ATAPI drive, and it is the master device on the secondary channel. 
-
-</td>
-</tr>
-<tr>
-<td>
-Bit 7 is set to 1.
-
-</td>
-<td>
-The device is an ATAPI drive, and it is the subordinate device on the secondary channel. 
-
-</td>
-</tr>
-</table>
+| Bitmap Flags | Meaning |
+| ------------ | ------- |
+| Bit 0 is set to 1. | The device is either a SATA drive or an IDE drive. If it is an IDE drive, it is the master device on the primary channel. |
+| Bit 1 is set to 1. | The device is an IDE drive, and it is the subordinate device on the primary channel. |
+| Bit 2 is set to 1. | The device is an IDE drive, and it is the master device on the secondary channel. |
+| Bit 3 is set to 1. | The device is an IDE drive, and it is the subordinate device on the secondary channel. |
+| Bit 4 is set to 1. | The device is an ATAPI drive, and it is the master device on the primary channel. |
+| Bit 5 is set to 1. | The device is an ATAPI drive, and it is the subordinate device on the primary channel. |
+| Bit 6 is set to 1. | The device is an ATAPI drive, and it is the master device on the secondary channel. |
+| Bit 7 is set to 1. | The device is an ATAPI drive, and it is the subordinate device on the secondary channel. |
 
 ### -field fCapabilities
 
-Contains the bitmask of driver capabilities. 
+Contains the bitmask of driver capabilities.
 
-<table>
-<tr>
-<th>Bitmask Flags</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-CAP_ATA_ID_CMD
-
-</td>
-<td>
-The device supports the ATA ID command. 
-
-</td>
-</tr>
-<tr>
-<td>
-CAP_ATAPI_ID_CMD
-
-</td>
-<td>
-The device supports the ATAPI ID command. 
-
-</td>
-</tr>
-<tr>
-<td>
-CAP_SMART_CMD
-
-</td>
-<td>
-The device supports SMART commands.
-
-</td>
-</tr>
-</table>
+| Bitmap Flags | Meaning |
+| ------------ | ------- |
+| CAP_ATA_ID_CMD   | The device supports the ATA ID command. |
+| CAP_ATAPI_ID_CMD | The device supports the ATAPI ID command. |
+| CAP_SMART_CMD    | The device supports SMART commands. |
 
 ### -field dwReserved
 
 Reserved.
 
-## -see-also
+## -remarks
 
-<a href="/previous-versions/windows/hardware/drivers/ff566202(v=vs.85)">SMART_GET_VERSION</a>
+The **SMART_GET_VERSION** control code returns version information, a capabilities mask, and a bitmask for the device. This IOCTL must be handled by drivers that support Self-Monitoring Analysis and Reporting Technology (SMART).
 
+* Input Parameters
+
+  **Parameters.DeviceIoControl.OutputBufferLength** indicates the size, in bytes, of the buffer, which must be >= sizeof(GETVERSIONINPARAMS).
+
+* Output Parameters
+
+  The driver returns the information to the buffer at Irp->AssociatedIrp.SystemBuffer.
+
+* I/O Status Block
+
+  The driver sets the Information field to sizeof(GETVERSIONINPARAMS) when it sets the Status field to STATUS_SUCCESS. Otherwise, the driver sets the Information field to zero and sets the Status field to possibly STATUS_INVALID_PARAMETER.

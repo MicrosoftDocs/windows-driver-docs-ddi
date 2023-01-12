@@ -69,8 +69,8 @@ This function returns **TRUE** if it found the property specification ID in the 
 
 ## -remarks
 
-The **wiauPropInPropSpec** function finds a single property specification ID within an array of property specification IDs. A related function, [wiauPropsInPropSpec](/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaupropsinpropspec) can be used to determine whether any of a specified list of property specification IDs is found in another array of property specification IDs.
+The **wiauPropInPropSpec** function finds a single property specification ID within an array of property specification IDs. A related function, [wiauPropsInPropSpec](./nf-wiautil-wiaupropsinpropspec.md) can be used to determine whether any of a specified list of property specification IDs is found in another array of property specification IDs.
 
 ## -see-also
 
-[wiauPropsInPropSpec](/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaupropsinpropspec)
+[wiauPropsInPropSpec](./nf-wiautil-wiaupropsinpropspec.md)

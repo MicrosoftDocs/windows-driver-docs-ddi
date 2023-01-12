@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGK_PHYSICAL_MEMORY_CAPS
 tech.root: display
 title: DXGK_PHYSICAL_MEMORY_CAPS
-ms.date: 05/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: The DXGK_PHYSICAL_MEMORY_CAPS structure provides information about the driver's physical memory restrictions.
 req.construct-type: structure
@@ -15,7 +15,7 @@ req.lib:
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2022
+req.target-min-winversvr: Windows Server 2022 (WDDM 2.9)
 req.target-type: 
 req.typenames: DXGK_PHYSICAL_MEMORY_CAPS
 req.umdf-ver: 
@@ -53,6 +53,8 @@ The highest visible physical memory address. If multiple linked physical adapter
 The driver fills in this structure when *Dxgkernel* calls [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) with a [**DXGK_QUERYADAPTERINFOTYPE**](ne-d3dkmddi-_dxgk_queryadapterinfotype.md) value of **DXGKQAITYPE_PHYSICAL_MEMORY_CAPS**.
 
 To indicate logical DMA remapping support, the driver must also fill in [**DXGK_IOMMU_CAPS**](ns-d3dkmddi-dxgk_iommu_caps.md) accordingly.
+
+See [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping) for more information.
 
 ## -see-also
 

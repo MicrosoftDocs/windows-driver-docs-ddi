@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMFontManagement
 title: OEMFontManagement function (printoem.h)
 description: The OEMFontManagement function is an optional entry point provided for PostScript devices.
-old-location: print\oemfontmanagement.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/09/2022
 keywords: ["OEMFontManagement function"]
 ms.keywords: OEMFontManagement, OEMFontManagement function [Print Devices], print.oemfontmanagement, print_unidrv-pscript_rendering_41e19fb2-9946-4911-beb2-3681bd08c08b.xml, printoem/OEMFontManagement
 req.header: printoem.h
@@ -40,30 +39,40 @@ api_name:
  - OEMFontManagement
 ---
 
-# OEMFontManagement function
-
-
 ## -description
 
-The <code>OEMFontManagement</code> function is an optional entry point provided for PostScript devices.
+The **OEMFontManagement** function is an optional entry point provided for PostScript devices.
 
 ## -parameters
 
 ### -param pso
 
+Defines the **SURFOBJ** parameter *pso*.
+
 ### -param pfo
+
+Defines the **FONTOBJ** parameter *pfo*.
 
 ### -param iMode
 
+Defines the **ULONG** parameter *iMode*.
+
 ### -param cjIn
+
+Defines the **ULONG** parameter *cjIn*.
 
 ### -param pvIn [in]
 
-
+Defines the **PVOID** parameter *pvIn*.
 
 ### -param cjOut
 
+Defines the **ULONG** parameter *cjOut*.
+
 ### -param pvOut [out]
 
+Defines the **PVOID** parameter *pvOut*.
 
+## -returns
 
+Returns a **ULONG** value.

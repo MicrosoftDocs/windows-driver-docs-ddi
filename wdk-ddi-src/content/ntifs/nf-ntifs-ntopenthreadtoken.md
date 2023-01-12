@@ -2,24 +2,24 @@
 UID: NF:ntifs.NtOpenThreadToken
 tech.root: kernel
 title: NtOpenThreadToken
-ms.date: 06/21/2021
+ms.date: 10/06/2022
 targetos: Windows
 description: The NtOpenThreadToken routine opens the access token associated with a thread, and returns a handle that can be used to access that token.
 prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: NtosKrnl.exe
 req.header: ntifs.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: NtosKrnl.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -38,6 +38,7 @@ f1_keywords:
  - ntifs/NtOpenThreadToken
 dev_langs:
  - c++
+ms.custom: engagement-fy23
 ---
 
 ## -description
@@ -101,6 +102,6 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [**SECURITY_IMPERSONATION_LEVEL**](../wdm/ne-wdm-_security_impersonation_level.md)
 
-[**ZwClose**](./nf-ntifs-ntclose.md)
+[**ZwClose**](nf-ntifs-ntclose.md)
 
-[**ZwOpenProcessTokenEx**](/previous-versions/ff567024(v=vs.85))
+[**ZwOpenProcessTokenEx**](nf-ntifs-zwopenprocesstokenex.md)

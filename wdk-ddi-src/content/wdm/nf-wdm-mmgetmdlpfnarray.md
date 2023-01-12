@@ -2,7 +2,7 @@
 UID: NF:wdm.MmGetMdlPfnArray
 tech.root: kernel
 title: MmGetMdlPfnArray (wdm.h)
-ms.date: 04/05/2022
+ms.date: 01/06/2023
 targetos: Windows
 description: The MmGetMdlPfnArray macro returns a pointer to the beginning of the array of physical page numbers that are associated with a memory descriptor list (MDL).
 prerelease: false
@@ -46,7 +46,7 @@ The **MmGetMdlPfnArray** macro returns a pointer to the beginning of the array o
 
 ## -parameters
 
-### -param Mdl [in]
+### -param Mdl
 
 A pointer to an MDL.
 
@@ -56,6 +56,12 @@ Returns a pointer to the beginning of the array of physical page numbers that ar
 
 ## -remarks
 
+Macro definition:
+
+```cpp
+#define MmGetMdlPfnArray(Mdl) ((PPFN_NUMBER)(Mdl + 1))
+```
+
 The number of entries in the array is **ADDRESS_AND_SIZE_TO_SPAN_PAGES**(**MmGetMdlVirtualAddress**(*Mdl*), **MmGetMdlByteCount**(*Mdl*)).
 
 Each array element is an integer value of type PFN_NUMBER, which is defined in the Wdm.h header file as follows:
@@ -64,8 +70,7 @@ Each array element is an integer value of type PFN_NUMBER, which is defined in t
 typedef ULONG PFN_NUMBER, *PPFN_NUMBER;
 ```
 
-> [!NOTE]
-> Changing the contents of the array can cause subtle system problems that are difficult to diagnose. We recommend that you do not read or change the contents of this array.
+Changing the contents of the array can cause subtle system problems that are difficult to diagnose. We recommend that you do not read or change the contents of this array.
 
 For pageable memory, the contents of the array are valid only for a buffer locked with [**MmProbeAndLockPages**](./nf-wdm-mmprobeandlockpages.md).
 

@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrinterExtensionContextCollection.GetAt
 title: IPrinterExtensionContextCollection::GetAt (printerextension.h)
 description: Gets a pointer to an IPrinterExtensionContext object.
-old-location: print\iprinterextensioncontextcollection_getat.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/03/2022
 keywords: ["IPrinterExtensionContextCollection::GetAt"]
 ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrinterExtensionContextCollection interface, IPrinterExtensionContextCollection interface [Print Devices],GetAt method, IPrinterExtensionContextCollection.GetAt, IPrinterExtensionContextCollection::GetAt, get_GetAt, print.iprinterextensioncontextcollection_getat, printerextension/IPrinterExtensionContextCollection::GetAt
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,34 +39,26 @@ api_name:
  - IPrinterExtensionContextCollection::GetAt
 ---
 
-# IPrinterExtensionContextCollection::GetAt
-
-
 ## -description
 
-Gets a pointer to an <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> object.
+Gets a pointer to an [IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md) object.
 
 ## -parameters
 
 ### -param ulIndex [in]
 
-
-The index of the <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> object within the collection.
+The index of the [IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md) object within the collection.
 
 ### -param ppContext [out, retval]
 
-
-Pointer to an <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> interface.
+Pointer to an [IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md) interface.
 
 ## -returns
 
-This method returns an <b>HRESULT</b> value.
+This method returns an **HRESULT** value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a>
+[IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a>
-
+[IPrinterExtensionContextCollection](./nn-printerextension-iprinterextensioncontextcollection.md)

@@ -3,14 +3,14 @@ UID: NC:d3dkmthk.PDXGK_REMOVAL_NOTIFICATION
 title: PDXGK_REMOVAL_NOTIFICATION (d3dkmthk.h)
 description: A callback indicating that the graphics device is being removed.
 old-location: display\pdxgk_removal_notification.htm
-ms.date: 03/03/2022
+ms.date: 10/07/2022
 keywords: ["PDXGK_REMOVAL_NOTIFICATION callback -remarks"]
 ms.keywords: "*PDXGK_REMOVAL_NOTIFICATION, *PDXGK_REMOVAL_NOTIFICATION callback function [Display Devices], d3dkmthk/*PDXGK_REMOVAL_NOTIFICATION, display.pdxgk_removal_notification"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -22,9 +22,10 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: <= PASSIVE_LEVEL
 targetos: Windows
 tech.root: display
+ms.custom: engagement-fy23
 req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 f1_keywords:
  - PDXGK_REMOVAL_NOTIFICATION

@@ -4,7 +4,7 @@ title: _SECURE_ELEMENT_ENDPOINT_LIST (nfcsedev.h)
 description: The output parameter for IOCTL_NFCSE_ENUM_ENDPOINTS.
 old-location: nfpdrivers\_secure_element_endpoint_list.htm
 tech.root: nfpdrivers
-ms.date: 02/15/2018
+ms.date: 08/02/2022
 keywords: ["SECURE_ELEMENT_ENDPOINT_LIST structure"]
 ms.keywords: "*PSECURE_ELEMENT_ENDPOINT_LIST, PSECURE_ELEMENT_ENDPOINT_LIST, P_SECURE_ELEMENT_ENDPOINT_LIST, P_SECURE_ELEMENT_ENDPOINT_LIST structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_ENDPOINT_LIST, SECURE_ELEMENT_ENDPOINT_LIST structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_ENDPOINT_LIST, nfcsedev/P_SECURE_ELEMENT_ENDPOINT_LIST, nfcsedev/_SECURE_ELEMENT_ENDPOINT_LIST, nfpdrivers._secure_element_endpoint_list"
 req.header: nfcsedev.h
@@ -48,10 +48,9 @@ api_name:
 
 # _SECURE_ELEMENT_ENDPOINT_LIST structure
 
-
 ## -description
 
-The output parameter for <a href="/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_enum_endpoints">IOCTL_NFCSE_ENUM_ENDPOINTS</a>.
+The output parameter for [IOCTL_NFCSE_ENUM_ENDPOINTS](./ni-nfcsedev-ioctl_nfcse_enum_endpoints.md).
 
 ## -struct-fields
 
@@ -59,14 +58,6 @@ The output parameter for <a href="/windows-hardware/drivers/ddi/nfcsedev/ni-nfcs
 
 The number of enumerated endpoints on the NFC controller.
 
-### -field EndpointList
-
- 
-
-
-
-
 ### -field EndpointList[ANYSIZE_ARRAY]
 
-An array of <a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_endpoint_info">SECURE_ELEMENT_ENDPOINT_INFO</a> structures.
-
+An array of [SECURE_ELEMENT_ENDPOINT_INFO](./ns-nfcsedev-_secure_element_endpoint_info.md) structures.

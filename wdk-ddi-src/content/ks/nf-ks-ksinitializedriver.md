@@ -2,9 +2,8 @@
 UID: NF:ks.KsInitializeDriver
 title: KsInitializeDriver function (ks.h)
 description: The KsInitializeDriver function initializes the driver object of an AVStream minidriver.
-old-location: stream\ksinitializedriver.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 07/13/2022
 keywords: ["KsInitializeDriver function"]
 ms.keywords: KsInitializeDriver, KsInitializeDriver function [Streaming Media Devices], avfunc_2a16bc8c-a92a-4792-8007-29735a19f806.xml, ks/KsInitializeDriver, stream.ksinitializedriver
 req.header: ks.h
@@ -41,68 +40,46 @@ api_name:
  - KsInitializeDriver
 ---
 
-# KsInitializeDriver function
-
-
 ## -description
 
-The<b> KsInitializeDriver </b>function initializes the driver object of an AVStream minidriver.
+The **KsInitializeDriver** function initializes the driver object of an AVStream minidriver.
 
 ## -parameters
 
 ### -param DriverObject [in]
 
+A pointer to the [DRIVER_OBJECT](../wdm/ns-wdm-_driver_object.md) structure for the AVStream driver being initialized. Minidrivers that call **KsInitializeDriver** should use the driver object passed to **DriverEntry** by the operating system.
 
-A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure for the AVStream driver being initialized. Minidrivers that call <b>KsInitializeDriver</b> should use the driver object passed to <b>DriverEntry</b> by the operating system.
+### -param RegistryPathName [in]
 
-### -param RegistryPathName
+A pointer to a Unicode string containing the registry path string passed into the minidriver's **DriverEntry** function by the operating system.
 
 ### -param Descriptor [in, optional]
 
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_descriptor">KSDEVICE_DESCRIPTOR</a> structure that specifies the characteristics of the device being initialized. If this pointer is <b>NULL</b>, a device is created with default characteristics and no associated filter factories.
-
-
-### -param RegistryPath [in]
-
-A pointer to a Unicode string containing the registry path string passed into the minidriver's <b>DriverEntry</b> function by the operating system.
+A pointer to a [KSDEVICE_DESCRIPTOR](./ns-ks-_ksdevice_descriptor.md) structure that specifies the characteristics of the device being initialized. If this pointer is **NULL**, a device is created with default characteristics and no associated filter factories.
 
 ## -returns
 
-<b>KsInitializeDriver</b> returns STATUS_SUCCESS or an appropriate error code as returned by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> or internal AVStream device initialization routines.
+**KsInitializeDriver** returns STATUS_SUCCESS or an appropriate error code as returned by [IoCreateDevice](../wdm/nf-wdm-iocreatedevice.md) or internal AVStream device initialization routines.
 
 ## -remarks
 
-This function is typically called from <b>DriverEntry</b>. If the minidriver passes in a device descriptor, AVStream creates a device with the specified characteristics at <b>AddDevice</b> time. Minidrivers that perform device initialization themselves do not necessarily need to call <b>KsInitializeDriver</b>.  For more information, see <a href="/windows-hardware/drivers/stream/initializing-an-avstream-minidriver">Initializing an AVStream Minidriver</a>.
+This function is typically called from **DriverEntry**. If the minidriver passes in a device descriptor, AVStream creates a device with the specified characteristics at **AddDevice** time. Minidrivers that perform device initialization themselves do not necessarily need to call **KsInitializeDriver**.  For more information, see [Initializing an AVStream Minidriver](/windows-hardware/drivers/stream/initializing-an-avstream-minidriver).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+[DEVICE_OBJECT](../wdm/ns-wdm-_device_object.md)
 
+[DRIVER_OBJECT](../wdm/ns-wdm-_driver_object.md)
 
+[DriverEntry of AVStream](/previous-versions/ff558721(v=vs.85))
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
+[IoCreateDevice](../wdm/nf-wdm-iocreatedevice.md)
 
+[KSDEVICE_DESCRIPTOR](./ns-ks-_ksdevice_descriptor.md)
 
+[KSDEVICE_DISPATCH](./ns-ks-_ksdevice_dispatch.md)
 
-<a href="/previous-versions/ff558721(v=vs.85)">DriverEntry of AVStream</a>
+[KSFILTER_DESCRIPTOR](./ns-ks-_ksfilter_descriptor.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_descriptor">KSDEVICE_DESCRIPTOR</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor">KSFILTER_DESCRIPTOR</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedevice">KsInitializeDevice</a>
+[KsInitializeDevice](./nf-ks-ksinitializedevice.md)

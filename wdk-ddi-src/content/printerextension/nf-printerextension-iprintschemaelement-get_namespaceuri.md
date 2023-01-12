@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrintSchemaElement.get_NamespaceUri
 title: IPrintSchemaElement::get_NamespaceUri (printerextension.h)
 description: Gets the namespace URI value of the name attribute of this node.
-old-location: print\iprintschemaelement_namespaceuri.htm
 tech.root: print
-ms.date: 06/25/2020
+ms.date: 08/01/2022
 keywords: ["IPrintSchemaElement::get_NamespaceUri"]
 ms.keywords: IPrintSchemaElement interface [Print Devices],NamespaceUri property, IPrintSchemaElement.NamespaceUri, IPrintSchemaElement.get_NamespaceUri, IPrintSchemaElement::NamespaceUri, IPrintSchemaElement::get_NamespaceUri, NamespaceUri property [Print Devices], NamespaceUri property [Print Devices],IPrintSchemaElement interface, get_NamespaceUri, print.iprintschemaelement_namespaceuri, printerextension/IPrintSchemaElement::NamespaceUri, printerextension/IPrintSchemaElement::get_NamespaceUri
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,16 +39,22 @@ api_name:
  - IPrintSchemaElement::get_NamespaceUri
 ---
 
-# IPrintSchemaElement::get_NamespaceUri
-
-
 ## -description
 
-Gets the namespace URI  value of the name attribute of this node.
+Gets the namespace URI value of the name attribute of this node.
 
 This property is read-only.
+
+## -parameters
+
+### -param pbstrNamespaceUri
+
+Defines the **BSTR** parameter *pbstrNamespaceUri*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
 
 ## -see-also
 
 [IPrintSchemaElement](./nn-printerextension-iprintschemaelement.md)
-

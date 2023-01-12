@@ -2,9 +2,8 @@
 UID: NS:winddiui._DOCEVENT_FILTER
 title: _DOCEVENT_FILTER (winddiui.h)
 description: The DOCEVENT_FILTER structure contains a list of document events to which the printer driver will respond. See DrvDocumentEvent for a complete list of the document events.
-old-location: print\docevent_filter.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 01/04/2023
 keywords: ["DOCEVENT_FILTER structure"]
 ms.keywords: "*PDOCEVENT_FILTER, DOCEVENT_FILTER, DOCEVENT_FILTER structure [Print Devices], PDOCEVENT_FILTER, PDOCEVENT_FILTER structure pointer [Print Devices], _DOCEVENT_FILTER, print.docevent_filter, print_interface-graphics_ddc1c545-869f-440d-a364-7cd90ca189e0.xml, winddiui/DOCEVENT_FILTER, winddiui/PDOCEVENT_FILTER"
 req.header: winddiui.h
@@ -46,18 +45,15 @@ api_name:
  - DOCEVENT_FILTER
 ---
 
-# _DOCEVENT_FILTER structure
-
-
 ## -description
 
-The DOCEVENT_FILTER structure contains a list of document events to which the printer driver will respond. See [DrvDocumentEvent](./nf-winddiui-drvdocumentevent.md) for a complete list of the document events.
+The **DOCEVENT_FILTER** structure contains a list of document events to which the printer driver will respond. See [DrvDocumentEvent](./nf-winddiui-drvdocumentevent.md) for a complete list of the document events.
 
 ## -struct-fields
 
 ### -field cbSize
 
-Spooler-supplied size, in bytes, of this structure. The spooler initializes this member to **sizeof**(DOCEVENT_FILTER).
+Spooler-supplied size, in bytes, of this structure. The spooler initializes this member to **sizeof**(**DOCEVENT_FILTER**).
 
 ### -field cElementsAllocated
 
@@ -85,10 +81,10 @@ sizeof(DOCEVENT_FILTER) + sizeof(DWORD) * (DOCUMENTEVENT_LAST - 2)
 
 After allocating a buffer that contains a DOCEVENT_FILTER structure, the spooler initializes the structure members to the following values:
 
-| Member | Initialized to: |
-| --- | --- |
+| Member | Initialized to |
+|---|---|
 | **cbSize** | 0 |
-| **cElementsAllocated** | DOCUMENTEVENT_LAST - 1<br>The DOCUMENTEVENT_LAST constant is defined in winddiui.h. |
+| **cElementsAllocated** | DOCUMENTEVENT_LAST - 1<br><br>The DOCUMENTEVENT_LAST constant is defined in winddiui.h. |
 | **cElementsNeeded** | 0XFFFFFFFF |
 | **cElementsReturned** | 0XFFFFFFFF |
 | **aDocEventCall** | 0 |
@@ -98,19 +94,25 @@ After the spooler has initialized the structure members to the values shown in t
 If the driver supports DOCUMENTEVENT_QUERYFILTER:
 
 - If the **aDocEventCall** array is large enough to contain all of the DOCUMENTEVENT_**XXX** events the printer driver intends to place in it, the printer driver:
+  
   - Fills the array with those events
+  
   - Sets the **cElementsReturned** member to that number of events (which should be less than or equal to **cElementsAllocated**)
+  
   - Leaves **cElementsNeeded** unchanged
+  
   - Returns DOCUMENTEVENT_SUCCESS
 
 In this case, the spooler uses the first **cElementsReturned** values in the **aDocEventCall** array.
 
-> [!NOTE]
-> The DOCUMENTEVENT_CREATEDCPRE event is treated in a special way. When the spooler calls [DrvDocumentEvent](./nf-winddiui-drvdocumentevent.md) with the **iEsc** parameter set to DOCUMENTEVENT_CREATEDCPRE, the spooler uses the return value to determine whether future calls to this function are necessary. Unlike other DOCUMENTEVENT_**XXX** events, the printer driver always receives calls to **DrvDocumentEvent** with DOCUMENTEVENT_CREATEDCPRE, whether this event is filtered out or not.
+The DOCUMENTEVENT_CREATEDCPRE event is treated in a special way. When the spooler calls [DrvDocumentEvent](./nf-winddiui-drvdocumentevent.md) with the **iEsc** parameter set to DOCUMENTEVENT_CREATEDCPRE, the spooler uses the return value to determine whether future calls to this function are necessary. Unlike other DOCUMENTEVENT_**XXX** events, the printer driver always receives calls to **DrvDocumentEvent** with DOCUMENTEVENT_CREATEDCPRE, whether this event is filtered out or not.
 
 - If the **aDocEventCall** array is not large enough to contain all of the DOCUMENTEVENT_**XXX** events the printer driver intends to place in it, the printer driver should:
+
   - Set **cElementsNeeded** to the number of events to which it intends to respond (which should be greater than **cElementsAllocated**)
+
   - Leave **cElementsReturned** unchanged
+
   - Return DOCUMENTEVENT_SUCCESS
 
 In this case, the spooler then allocates a new buffer that is sufficiently large, and then makes another call to [DrvDocumentEvent](./nf-winddiui-drvdocumentevent.md) with DOCUMENTEVENT_QUERYFILTER.
@@ -120,4 +122,3 @@ If the driver does not support the DOCUMENTEVENT_QUERYFILTER event, it should re
 ## -see-also
 
 [DrvDocumentEvent](./nf-winddiui-drvdocumentevent.md)
-

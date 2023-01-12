@@ -3,19 +3,19 @@ UID: NF:wdm.IofCallDriver
 title: IofCallDriver function (wdm.h)
 description: Call **IoCallDriver** instead. Sends an IRP to the driver associated with a specified device object.
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/06/2023
 keywords: ["IofCallDriver function"]
 ms.keywords: IofCallDriver, IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture], k104_8579a946-2f96-455f-825c-c3f86caba99c.xml, kernel.iocalldriver, wdm/IoCallDriver
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: 
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
+req.irql: IRQL <= DISPATCH_LEVEL
 req.ddi-compliance: CompleteRequestStatusCheck, CompletionRoutineRegistered, DeleteDevice, ForwardedAtBadIrql, ForwardedAtBadIrqlAllocate, ForwardedAtBadIrqlFsdAsync, ForwardedAtBadIrqlFsdSync, IoAllocateForward, IoAllocateIrpSignalEventInCompletionTimeout, IoBuildDeviceControlWait, IoBuildDeviceControlWaitTimeout, IoBuildFsdForward, IoBuildSynchronousFsdRequestWait, IoBuildSynchronousFsdRequestWaitTimeout, IoSetCompletionRoutineExCheck, IrpProcessingComplete, LowerDriverReturn, MarkDevicePower, MarkingQueuedIrps, MarkIrpPending, MarkIrpPending2, MarkPower, MarkPowerDown, MarkQueryRelations, MarkStartDevice, PendedCompletedRequest, PendedCompletedRequest2, PendedCompletedRequest3, PendedCompletedRequestEx, PnpIrpCompletion, PowerDownFail, PowerUpFail, RemoveLockForward, RemoveLockForward2, RemoveLockForwardDeviceControl, RemoveLockForwardDeviceControl2, RemoveLockForwardDeviceControlInternal, RemoveLockForwardDeviceControlInternal2, RemoveLockForwardRead, RemoveLockForwardRead2, RemoveLockForwardWrite, RemoveLockForwardWrite2, RemoveLockMnRemove2, RemoveLockMnSurpriseRemove, RemoveLockQueryMnRemove, TargetRelationNeedsRef, WmiForward, HwStorPortProhibitedDDIs
 req.unicode-ansi: 
 req.idl: 
@@ -24,7 +24,6 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
-ms.custom: RS5
 f1_keywords:
  - IofCallDriver
  - wdm/IofCallDriver
@@ -39,12 +38,12 @@ api_name:
  - IofCallDriver
 ---
 
-# IofCallDriver function
-
-
 ## -description
 
-Call [**IoCallDriver**](nf-wdm-iocalldriver.md) instead. Sends an IRP to the driver associated with a specified device object.
+> [!CAUTION]
+> Call [IoCallDriver](./nf-wdm-iocalldriver.md) instead.
+
+Sends an IRP to the driver associated with a specified device object.
 
 ## -parameters
 
@@ -62,25 +61,26 @@ Returns an appropriate [NTSTATUS value](/windows-hardware/drivers/kernel/ntstatu
 
 ## -remarks
 
-Before calling <b>IoCallDriver</b>, the calling driver must set up the I/O stack location in the IRP for the target driver. For more information, see <a href="/windows-hardware/drivers/kernel/passing-irps-down-the-driver-stack">Passing IRPs Down the Driver Stack</a>.
+Before calling IoCallDriver, the calling driver must set up the I/O stack location in the IRP for the target driver. For more information, see [Passing IRPs Down the Driver Stack](/windows-hardware/drivers/kernel/passing-irps-down-the-driver-stack).
 
-<b>IoCallDriver</b> assigns the <i>DeviceObject</i> input parameter to the <i>DeviceObject</i> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a> structure for the driver being called.
+IoCallDriver assigns the *DeviceObject* input parameter to the DeviceObject member of the [IO_STACK_LOCATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location) structure for the driver being called.
 
-An IRP passed in a call to <b>IoCallDriver</b> becomes inaccessible to the higher-level driver, unless the higher-level driver has called <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine">IoSetCompletionRoutine</a> to set up an <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine for the IRP. If it has, the IRP input to the <i>IoCompletion</i> routine has its I/O status block set by the lower drivers, and all lower-level drivers' I/O stack locations are filled with zeros.
+An IRP passed in a call to IoCallDriver becomes inaccessible to the higher-level driver, unless the higher-level driver has called [IoSetCompletionRoutine](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine) to set up an [IoCompletion](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine) routine for the IRP. If it has, the IRP input to the IoCompletion routine has its I/O status block set by the lower drivers, and all lower-level drivers' I/O stack locations are filled with zeros.
 
-Drivers for Windows Server 2003, Windows XP, and Windows 2000 must use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocalldriver">PoCallDriver</a> rather than <b>IoCallDriver</b> to pass power IRPs (<a href="/windows-hardware/drivers/kernel/irp-mj-power">IRP_MJ_POWER</a>). For more information, see <a href="/windows-hardware/drivers/kernel/calling-iocalldriver-versus-calling-pocalldriver">Calling IoCallDriver vs. Calling PoCallDriver</a>.
+Drivers for Windows Server 2003, Windows XP, and Windows 2000 must use [PoCallDriver](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocalldriver) rather than IoCallDriver to pass power IRPs ([IRP_MJ_POWER](/windows-hardware/drivers/kernel/irp-mj-power)).
+
+For more information, see [Calling IoCallDriver vs. Calling PoCallDriver](/windows-hardware/drivers/kernel/calling-iocalldriver-versus-calling-pocalldriver).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp">IoAllocateIrp</a>
+[IoAllocateIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest">IoBuildAsynchronousFsdRequest</a>
+[IoBuildAsynchronousFsdRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a>
+[IoBuildDeviceIoControlRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest">IoBuildSynchronousFsdRequest</a>
+[IoBuildSynchronousFsdRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine">IoSetCompletionRoutine</a>
+[IoSetCompletionRoutine](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocalldriver">PoCallDriver</a>
-
+[PoCallDriver](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocalldriver)

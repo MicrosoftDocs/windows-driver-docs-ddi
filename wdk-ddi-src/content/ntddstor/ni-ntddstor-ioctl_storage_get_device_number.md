@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_GET_DEVICE_NUMBER (ntddstor.h)
 description: Returns a STORAGE_DEVICE_NUMBER structure that contains the FILE_DEVICE_XXX type, device number, and, for a partitionable device, the partition number assigned to a device by the driver when the device is started.
 old-location: storage\ioctl_storage_get_device_number.htm
 tech.root: storage
-ms.date: 11/08/2019
+ms.date: 08/18/2022
 keywords: ["IOCTL_STORAGE_GET_DEVICE_NUMBER IOCTL"]
 ms.keywords: IOCTL_STORAGE_GET_DEVICE_NUMBER, IOCTL_STORAGE_GET_DEVICE_NUMBER control, IOCTL_STORAGE_GET_DEVICE_NUMBER control code [Storage Devices], k307_d4d6bd65-7f75-4810-90ce-edd3dec950be.xml, ntddstor/IOCTL_STORAGE_GET_DEVICE_NUMBER, storage.ioctl_storage_get_device_number
 req.header: ntddstor.h
@@ -42,10 +42,9 @@ api_name:
 
 # IOCTL_STORAGE_GET_DEVICE_NUMBER IOCTL
 
-
 ## -description
 
-Returns a [STORAGE_DEVICE_NUMBER](./ns-ntddstor-_storage_device_number.md) structure that contains the FILE_DEVICE_*XXX* type, device number, and, for a partitionable device, the partition number assigned to a device by the driver when the device is started. This request is usually issued by a fault-tolerant disk driver.
+Returns a [**STORAGE_DEVICE_NUMBER**](ns-ntddstor-_storage_device_number.md) structure that contains the FILE_DEVICE_*XXX* type, device number, and, for a partitionable device, the partition number assigned to a device by the driver when the device is started. This request is usually issued by a fault-tolerant disk driver.
 
 ## -ioctlparameters
 
@@ -59,11 +58,19 @@ None.
 
 ### -output-buffer
 
-The driver returns the [STORAGE_DEVICE_NUMBER](./ns-ntddstor-_storage_device_number.md) data in the buffer at **Irp->AssociatedIrp.SystemBuffer**.
+The driver returns the [**STORAGE_DEVICE_NUMBER**](ns-ntddstor-_storage_device_number.md) data in the buffer at **Irp->AssociatedIrp.SystemBuffer**.
 
 ### -output-buffer-length
 
 **Parameters.DeviceIoControl.OutputBufferLength** in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= **sizeof**(STORAGE_DEVICE_NUMBER).
+
+### -in-out-buffer
+
+n/a
+
+### -inout-buffer-length
+
+n/a
 
 ### -status-block
 
@@ -71,6 +78,6 @@ The **Information** field is set to the number of bytes returned. The **Status**
 
 ## -see-also
 
-[IOCTL_STORAGE_GET_DEVICE_NUMBER_EX](./ni-ntddstor-ioctl_storage_get_device_number_ex.md)
+[**IOCTL_STORAGE_GET_DEVICE_NUMBER_EX**](ni-ntddstor-ioctl_storage_get_device_number_ex.md)
 
-[STORAGE_DEVICE_NUMBER](./ns-ntddstor-_storage_device_number.md)
+[**STORAGE_DEVICE_NUMBER**](ns-ntddstor-_storage_device_number.md)

@@ -1,10 +1,10 @@
 ---
 UID: NF:ntifs.NtQueryVirtualMemory
 title: NtQueryVirtualMemory function (ntifs.h)
-description: The NtQueryVirtualMemory routine determines the state, protection, and type of a region of pages in the virtual address space of the subject process.
+description: Learn more about the NtQueryVirtualMemory function.
 old-location: kernel\zwqueryvirtualmemory.htm
 tech.root: kernel
-ms.date: 12/16/2021
+ms.date: 09/29/2022
 keywords: ["NtQueryVirtualMemory function"]
 ms.keywords: NtQueryVirtualMemory, ZwQueryVirtualMemory, ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwqueryvirtualmemory, ntifs/NtQueryVirtualMemory, ntifs/ZwQueryVirtualMemory
 req.header: ntifs.h
@@ -50,7 +50,7 @@ The **NtQueryVirtualMemory** routine determines the state, protection, and type 
 
 ### -param ProcessHandle [in]
 
-Handle for the process in whose context the pages to be queried reside. Use the [**NtCurrentProcess**](/windows-hardware/drivers/kernel/mm-bad-pointer) macro to specify the current process.
+Handle for the process in whose context the pages to be queried reside. Use the [**NtCurrentProcess**](/windows-hardware/drivers/kernel/zwcurrentprocess) macro to specify the current process.
 
 ### -param BaseAddress [in, optional]
 

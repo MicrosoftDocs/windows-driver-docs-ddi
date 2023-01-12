@@ -1,7 +1,7 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_DIAGNOSTIC
 title: IOCTL_STORAGE_DIAGNOSTIC
-ms.date: 10/28/2020
+ms.date: 10/11/2022
 tech.root: storage
 targetos: Windows
 description: IOCTL_STORAGE_DIAGNOSTIC is used to query diagnostic data from the storage driver stack.
@@ -33,17 +33,18 @@ f1_keywords:
  - ntddstor/IOCTL_STORAGE_DIAGNOSTIC
 dev_langs:
  - c++
+ms.custom: engagement-fy23 
 ---
 
 ## -description
 
-IOCTL_STORAGE_DIAGNOSTIC is used to query diagnostic data from the storage driver stack.
+**IOCTL_STORAGE_DIAGNOSTIC** is used to query diagnostic data from the storage driver stack.
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-A [**STORAGE_DIAGNOSTIC_REQUEST**](ns-ntddstor-_storage_diagnostic_request.md) structure that describes the diagnostic request being made about the storage driver stack.
+[**Irp->AssociatedIrp.SystemBuffer**](../wdm/ns-wdm-_irp.md) contains a [**STORAGE_DIAGNOSTIC_REQUEST**](ns-ntddstor-_storage_diagnostic_request.md) structure that describes the diagnostic request being made about the storage driver stack.
 
 ### -input-buffer-length
 
@@ -57,6 +58,14 @@ The driver returns output to the buffer at **Irp->AssociatedIrp.SystemBuffer**. 
 
 **Parameters.DeviceIoControl.OutputBufferLength** indicates the size, in bytes, of the parameter buffer at **Irp->AssociatedIrp.SystemBuffer**, which must be >= ```sizeof(STORAGE_DIAGNOSTIC_DATA)```.
 
+### -in-out-buffer
+
+n/a
+
+### -inout-buffer-length
+
+n/a
+
 ### -status-block
 
 **Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** is set to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
@@ -66,4 +75,3 @@ The driver returns output to the buffer at **Irp->AssociatedIrp.SystemBuffer**. 
 [**STORAGE_DIAGNOSTIC_DATA**](ns-ntddstor-_storage_diagnostic_data.md)
 
 [**STORAGE_DIAGNOSTIC_REQUEST**](ns-ntddstor-_storage_diagnostic_request.md)
-

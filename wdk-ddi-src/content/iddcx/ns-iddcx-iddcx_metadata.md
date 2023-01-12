@@ -4,7 +4,7 @@ title: IDDCX_METADATA (iddcx.h)
 description: IDDCX_METADATA provides information about the current provided surface and what is displayed on it.
 old-location: display\iddcx_metadata.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/08/2022
 keywords: ["IDDCX_METADATA structure"]
 ms.keywords: IDDCX_METADATA, IDDCX_METADATA structure, IDDCX_METADATA structure [Display Devices], IDDCX_METADATA structure pointer [Display Devices], IDDCX_METADATA structure structure [Display Devices], display.iddcx_metadata, iddcx/IDDCX_METADATA
 req.header: iddcx.h
@@ -50,17 +50,21 @@ api_name:
 
 ### -field Size
 
-Total size of the structure
+Total size of the structure, in bytes.
 
 ### -field PresentationFrameNumber
 
-Presentation frame number of this surface. If the frame number is the same as the previous frame, then it indicates that there has not been any image updates from the previous frame. This is an opportunity for the driver to re-encode the desktop image again to increase the visual quality. Once there are no more updates, the OS presents the same frame as many times indicated by the [**IDDCX_ADAPTER_CAPS**](ns-iddcx-iddcx_adapter_caps.md) value **StaticDesktopReencodeFrameCount** , then stops presenting until the next update
+Presentation frame number of this surface.
 
 ### -field DirtyRectCount
 
 Number of dirty rects for this frame. Call [**IddCxSwapChainGetDirtyRects**](nf-iddcx-iddcxswapchaingetdirtyrects.md) to get the dirty rects.
 
+A MoveRegionCount of zero and DirtyRectCount of 1, where the single dirty rect has all values set to zero, indicates that there has not been any image updates from the previous frame. This is an opportunity for the driver to re-encode the desktop image again to increase the visual quality. Once there are no more updates, the OS presents the same frame as many times as indicated by the [**IDDCX_ADAPTER_CAPS**](ns-iddcx-iddcx_adapter_caps.md) value **StaticDesktopReencodeFrameCount**, then stops presenting until the next update.
+
 ### -field MoveRegionCount
+
+Starting in IddCx v1.7, the [**IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS** flag was deprecated](/windows-hardware/drivers/display/iddcx1.7-updates) and move regions are no longer provided at acquire frame time, so this field will always be zero.
 
 Number of move regions in this frame. Call [**IddCxSwapChainGetMoveRegions**](nf-iddcx-iddcxswapchaingetmoveregions.md) to get the move regions.
 
@@ -74,7 +78,7 @@ System QPC time of when this surface should be displayed on the indirect display
 
 ### -field pSurface
 
-DX surface that contains the image to encode and transmit. The driver can use this DX surface anytime until [**IddCxSwapChainReleaseAndAcquire**](nf-iddcx-iddcxswapchainreleaseandacquirebuffer.md) is called again
+DX surface that contains the image to encode and transmit. The driver can use this DX surface anytime until [**IddCxSwapChainReleaseAndAcquire**](nf-iddcx-iddcxswapchainreleaseandacquirebuffer.md) is called again.
 
 > [!NOTE]
 > This surface is always a A8R8G8B8 formatted surface.
@@ -82,3 +86,7 @@ DX surface that contains the image to encode and transmit. The driver can use th
 ## -remarks
 
 A zero **DirtyRectCount** value and **MoveRegionCount** value indicates there were no desktop updates and the **PresentationFrameNumber** is the same as last frame.
+
+### -see-also
+
+[**IDDCX_FRAME_STATISTICS**](ns-iddcx-iddcx_frame_statistics.md)

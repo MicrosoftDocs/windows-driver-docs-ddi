@@ -3,14 +3,14 @@ UID: NN:printerextension.IPrinterQueue2
 title: IPrinterQueue2 (printerextension.h)
 description: Learn how IPrinterQueue2 represents a single printer queue.
 tech.root: print
-ms.date: 06/11/2021
+ms.date: 08/04/2022
 keywords: ["IPrinterQueue2 interface"]
 ms.keywords: IPrinterQueue2, IPrinterQueue2 interface [Print Devices], IPrinterQueue2 interface [Print Devices],described, print.iprinterqueue2, printerextension/IPrinterQueue2
 req.header: printerextension.h
 req.include-header: Printerextension.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -38,8 +38,6 @@ api_location:
 api_name:
  - IPrinterQueue2
 ---
-
-# IPrinterQueue2 interface
 
 ## -description
 

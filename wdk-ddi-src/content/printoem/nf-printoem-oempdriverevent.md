@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMPDriverEvent
 title: OEMPDriverEvent function (printoem.h)
-description: OEMPDriverEvent function
-old-location: print\oempdriverevent.htm
+description: Describes the OEMPDriverEvent function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/10/2022
 keywords: ["OEMPDriverEvent function"]
 ms.keywords: OEMPDriverEvent, OEMPDriverEvent function [Print Devices], print.oempdriverevent, print_obsoletefunctions_c7348f27-998e-466b-97ad-b3175cfea28a.xml, printoem/OEMPDriverEvent
 req.header: printoem.h
@@ -40,18 +39,28 @@ api_name:
  - OEMPDriverEvent
 ---
 
-# OEMPDriverEvent function
-
-
 ## -description
+
+Describes the **OEMPDriverEvent** function.
 
 ## -parameters
 
 ### -param dwDriverEvent
 
+Defines the **DWORD** parameter *dwDriverEvent*.
+
 ### -param dwLevel
+
+Defines the **DWORD** parameter *dwLevel*.
 
 ### -param pDriverInfo
 
+Defines the **LPBYTE** parameter *pDriverInfo*.
+
 ### -param lParam
 
+Defines the **LPARAM** parameter *lParam*.
+
+## -returns
+
+Returns a **BOOL** value.

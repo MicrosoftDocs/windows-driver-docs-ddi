@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMCommonUIProp
 title: OEMCommonUIProp function (printoem.h)
-description: OEMCommonUIProp function
-old-location: print\oemcommonuiprop.htm
+description: Describes the OEMCommonUIProp function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/08/2022
 keywords: ["OEMCommonUIProp function"]
 ms.keywords: OEMCommonUIProp, OEMCommonUIProp function [Print Devices], print.oemcommonuiprop, print_obsoletefunctions_ef86ce33-1102-4045-b3ad-bba26bafd3de.xml, printoem/OEMCommonUIProp
 req.header: printoem.h
@@ -40,14 +39,20 @@ api_name:
  - OEMCommonUIProp
 ---
 
-# OEMCommonUIProp function
-
-
 ## -description
+
+Describes the **OEMCommonUIProp** function.
 
 ## -parameters
 
 ### -param dwMode
 
+Defines the **DWORD** parameter *dwMode*.
+
 ### -param pOemCUIPParam
 
+Defines the **POEMCUIPPARAM** parameter *pOemCUIPParam*.
+
+## -returns
+
+Returns a **BOOL** value.

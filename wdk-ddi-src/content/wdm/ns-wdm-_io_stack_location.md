@@ -1,10 +1,9 @@
 ---
 UID: NS:wdm._IO_STACK_LOCATION
-title: _IO_STACK_LOCATION (wdm.h)
+title: IO_STACK_LOCATION (wdm.h)
 description: The IO_STACK_LOCATION structure defines an I/O stack location, which is an entry in the I/O stack that is associated with each IRP.
-old-location: kernel\io_stack_location.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/16/2022
 keywords: ["IO_STACK_LOCATION structure"]
 ms.keywords: "*PIO_STACK_LOCATION, IO_STACK_LOCATION, IO_STACK_LOCATION structure [Kernel-Mode Driver Architecture], PIO_STACK_LOCATION, PIO_STACK_LOCATION structure pointer [Kernel-Mode Driver Architecture], _IO_STACK_LOCATION, kernel.io_stack_location, kstruct_b_8fcba8ca-d004-4800-87d1-d5c7714a494b.xml, wdm/IO_STACK_LOCATION, wdm/PIO_STACK_LOCATION"
 req.header: wdm.h
@@ -46,98 +45,42 @@ api_name:
  - IO_STACK_LOCATION
 ---
 
-# _IO_STACK_LOCATION structure
-
-
 ## -description
 
-The <b>IO_STACK_LOCATION</b> structure defines an <a href="/windows-hardware/drivers/kernel/i-o-stack-locations">I/O stack location</a>, which is an entry in the I/O stack that is associated with each IRP. Each I/O stack location in an IRP has some common members and some request-type-specific members.
+The **IO_STACK_LOCATION** structure defines an [I/O stack location](/windows-hardware/drivers/kernel/i-o-stack-locations), which is an entry in the I/O stack that is associated with each IRP. Each I/O stack location in an IRP has some common members and some request-type-specific members.
 
 ## -struct-fields
 
 ### -field MajorFunction
 
-The <a href="/windows-hardware/drivers/kernel/irp-major-function-codes">IRP major function code</a> indicating the type of I/O operation to be performed.
+The [IRP major function code](/windows-hardware/drivers/kernel/irp-major-function-codes) indicating the type of I/O operation to be performed.
 
 ### -field MinorFunction
 
-A subfunction code for <b>MajorFunction</b>. The PnP manager, the power manager, file system drivers, and SCSI class drivers set this member for some requests.
+A subfunction code for **MajorFunction**. The PnP manager, the power manager, file system drivers, and SCSI class drivers set this member for some requests.
 
 ### -field Flags
 
-Request-type-specific values used almost exclusively by file system drivers. Removable-media device drivers check whether this member is set with SL_OVERRIDE_VERIFY_VOLUME for read requests to determine whether to continue the read operation even if the device object's <b>Flags</b> is set with DO_VERIFY_VOLUME. Intermediate drivers layered over a removable-media device driver must copy this member into the I/O stack location of the next-lower driver in all incoming <a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a> requests.
+Request-type-specific values used almost exclusively by file system drivers. Removable-media device drivers check whether this member is set with SL_OVERRIDE_VERIFY_VOLUME for read requests to determine whether to continue the read operation even if the device object's **Flags** is set with DO_VERIFY_VOLUME. Intermediate drivers layered over a removable-media device driver must copy this member into the I/O stack location of the next-lower driver in all incoming [IRP_MJ_READ](/windows-hardware/drivers/ifs/irp-mj-read) requests.
 
 For documentation of other `SL_*` flags for IRP_MJ_CREATE, see [IRP_MJ_CREATE (IFS)](/windows-hardware/drivers/ifs/irp-mj-create).
 
 Possible flag values include:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>SL_KEY_SPECIFIED</td>
-<td><code>0x01</code></td>
-<td>Indicates that the <code>IO_STACK_LOCATION.Parameters.Read(OrWrite).Key</code>
-contains which copy of a given sector should be read when redundancy is enabled.  Today this flag is
-use only with IRP_MJ_READ operations.</td>
-</tr>
-<tr>
-<td>SL_OVERRIDE_VERIFY_VOLUME</td>
-<td><code>0x02</code></td>
-<td>This flag is used to determine whether to continue the read operation even if the device object's <b>Flags</b> is set with DO_VERIFY_VOLUME. </td>
-</tr>
-<tr>
-<td>SL_WRITE_THROUGH</td>
-<td><code>0x04</code></td>
-<td>This flag informs the storage driver to set appropriate flags so that the disk bypasses the write cache in order to force the disk to write through to its persistent storage media.
-<b>This flag is device-specific; not all disk drives support bypassing disk-cache.</b></td>
-</tr>
-<tr>
-<td>SL_FT_SEQUENTIAL_WRITE</td>
-<td><code>0x08</code></td>
-<td>Reserved for system use.</td>
-</tr>
-<tr>
-<td>SL_FORCE_DIRECT_WRITE</td>
-<td><code>0x10</code></td>
-<td>
-This flag lets kernel-mode drivers write to volume areas that they normally cannot write to because of blocking direct write in the file system and storage driver stack. <b>This flag was introduced in Windows Vista.
-</b>
+| Flag | Value | Description |
+|---|---|---|
+| SL_KEY_SPECIFIED | `0x01` | Indicates that the `IO_STACK_LOCATION.Parameters.Read(OrWrite).Key` contains which copy of a given sector should be read when redundancy is enabled. Today this flag is use only with IRP_MJ_READ operations. |
+| SL_OVERRIDE_VERIFY_VOLUME | `0x02` | This flag is used to determine whether to continue the read operation even if the device object's **Flags** is set with DO_VERIFY_VOLUME. |
+| SL_WRITE_THROUGH | `0x04` | This flag informs the storage driver to set appropriate flags so that the disk bypasses the write cache in order to force the disk to write through to its persistent storage media. **This flag is device-specific; not all disk drives support bypassing disk-cache.** |
+| SL_FT_SEQUENTIAL_WRITE | `0x08` | Reserved for system use. |
+| SL_FORCE_DIRECT_WRITE | `0x10` | This flag lets kernel-mode drivers write to volume areas that they normally cannot write to because of blocking direct write in the file system and storage driver stack.  Direct write blocking helps improve security. This flag is checked both at the file system layer and storage stack layer. For more information about direct write blocking, see [Blocking Direct Write Operations to Volumes and Disks](/windows-hardware/drivers/ddi/index). |
+| SL_REALTIME_STREAM | `0x20` | This flag hints that the IO is for real-time streaming requests to a CD-ROM class driver. This hints the driver to perform READ/WRITE operations at a guaranteed speed for real-time streaming. **This flag is valid only with optical media.** |
+| SL_PERSISTENT_MEMORY_FIXED_MAPPING | `0x20` | The persistent memory mapping of the bytes in the write request cannot change while handling this write request. **This flag is valid only with a persistent memory device and IRP_MJ_WRITE.** |
 
-
-<div class="alert"><b>Note</b>  Direct write blocking, introduced in Windows Vista helps improve security. This flag is checked both at the file system layer and storage stack layer. For more information about direct write blocking, see <a href="/windows-hardware/drivers/ddi/index">Blocking Direct Write Operations to Volumes and Disks</a>.</div>
-<div> </div>
-
-
-</td>
-</tr>
-<tr>
-<td>SL_REALTIME_STREAM</td>
-<td><code>0x20</code></td>
-<td>This flag hints that the IO is for real-time streaming requests to a CD-ROM class driver.
-This hints the driver to perform READ/WRITE operations at a guaranteed speed for real-time streaming. <b>This flag is valid only with optical media.</b></td>
-</tr>
-<tr>
-<td>SL_PERSISTENT_MEMORY_FIXED_MAPPING</td>
-<td><code>0x20</code></td>
-<td>The persistent memory mapping of the bytes in the write request
- cannot change while handling this write request. <b>This flag is valid only with a persistent memory device and IRP_MJ_WRITE.</b></td>
-</tr>
-</table>
- 
-
-
-<div class="alert"><b>Note</b>  (For persistent memory devices) One of the reasons for remapping (modifying the physical address of a given LBA) on persistent memory
-devices is to provide efficient sector level atomicity.
-If the flag is not set, remapping is allowed especially if it results in the driver providing sector atomicity.  File systems (or the requester) prefer that a persistent memory device driver provides
-sector atomicity.
+For persistent memory devices, one of the reasons for remapping (modifying the physical address of a given LBA) on persistent memory devices is to provide efficient sector level atomicity. If the flag is not set, remapping is allowed especially if it results in the driver providing sector atomicity.  File systems (or the requester) prefer that a persistent memory device driver provides sector atomicity.
 If the flag is set, a persistent memory driver shall not remap the physical addresses corresponding
 to the LBAs.  If that means sector atomicity can't be provided, so be it.  However, the driver is more
-than welcome to provide sector atomicity as long as there is no remapping.</div>
-<div> </div>
+than welcome to provide sector atomicity as long as there is no remapping.
 
 ### -field Control
 
@@ -145,160 +88,37 @@ Drivers can check this member to determine whether it is set with SL_PENDING_RET
 
 ### -field Parameters
 
-A union that depends on the major and minor IRP function code values contained in <b>MajorFunction</b> and <b>MinorFunction</b>. The following table shows which IRPs use the individual members of the <b>Parameters</b> union.
+A union that depends on the major and minor IRP function code values contained in **MajorFunction** and **MinorFunction**. The following table shows which IRPs use the individual members of the **Parameters** union.
 
-<table>
-<tr>
-<th>Member name</th>
-<th>IRPs that use this member</th>
-</tr>
-<tr>
-<td><b>Create</b></td>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>
-</td>
-</tr>
-<tr>
-<td><b>Read</b></td>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>
-</td>
-</tr>
-<tr>
-<td><b>Write</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>
-</td>
-</tr>
-<tr>
-<td><b>QueryFile</b></td>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-query-information">IRP_MJ_QUERY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>SetFile</b></td>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-set-information">IRP_MJ_SET_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>QueryVolume</b></td>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-query-volume-information">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>DeviceIoControl</b></td>
-<td>
-<a href="/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a> and <a href="/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
-</td>
-</tr>
-<tr>
-<td><b>MountVolume</b></td>
-<td><b>IRP_MN_MOUNT_VOLUME</b></td>
-</tr>
-<tr>
-<td><b>VerifyVolume</b></td>
-<td><b>IRP_MN_VERIFY_VOLUME</b></td>
-</tr>
-<tr>
-<td><b>Scsi</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a> (SCSI)</td>
-</tr>
-<tr>
-<td><b>QueryDeviceRelations</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mn-query-device-relations">IRP_MN_QUERY_DEVICE_RELATIONS</a>
-</td>
-</tr>
-<tr>
-<td><b>QueryInterface</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a>
-</td>
-</tr>
-<tr>
-<td><b>DeviceCapabilities</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mn-query-capabilities">IRP_MN_QUERY_CAPABILITIES</a>
-</td>
-</tr>
-<tr>
-<td><b>FilterResourceRequirements</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
-</td>
-</tr>
-<tr>
-<td><b>ReadWriteConfig</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mn-read-config">IRP_MN_READ_CONFIG</a> and <a href="/windows-hardware/drivers/kernel/irp-mn-write-config">IRP_MN_WRITE_CONFIG</a>
-</td>
-</tr>
-<tr>
-<td><b>SetLock</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mn-set-lock">IRP_MN_SET_LOCK</a>
-</td>
-</tr>
-<tr>
-<td><b>QueryId</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a>
-</td>
-</tr>
-<tr>
-<td><b>QueryDeviceText</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mn-query-device-text">IRP_MN_QUERY_DEVICE_TEXT</a>
-</td>
-</tr>
-<tr>
-<td><b>UsageNotification</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mn-device-usage-notification">IRP_MN_DEVICE_USAGE_NOTIFICATION</a>
-</td>
-</tr>
-<tr>
-<td><b>WaitWake</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mn-wait-wake">IRP_MN_WAIT_WAKE</a>
-</td>
-</tr>
-<tr>
-<td><b>PowerSequence</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mn-power-sequence">IRP_MN_POWER_SEQUENCE</a>
-</td>
-</tr>
-<tr>
-<td><b>Power</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> and <a href="/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a>
-</td>
-</tr>
-<tr>
-<td><b>StartDevice</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a>
-</td>
-</tr>
-<tr>
-<td><b>WMI</b></td>
-<td>
-<a href="/windows-hardware/drivers/kernel/wmi-minor-irps">WMI minor IRPs</a>
-</td>
-</tr>
-<tr>
-<td><b>Others</b></td>
-<td>Driver-specific IRPs</td>
-</tr>
-</table>
- 
+| Member name | IRPs that use this member |
+|---|---|
+| **Create** | [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create) |
+| **Read** | [IRP_MJ_READ](/windows-hardware/drivers/ifs/irp-mj-read) |
+| **Write** | [IRP_MJ_WRITE](/windows-hardware/drivers/kernel/irp-mj-write) |
+| **QueryFile** | [IRP_MJ_QUERY_INFORMATION](/windows-hardware/drivers/ifs/irp-mj-query-information) |
+| **SetFile** | [IRP_MJ_SET_INFORMATION](/windows-hardware/drivers/ifs/irp-mj-set-information) |
+| **QueryVolume** | [IRP_MJ_QUERY_VOLUME_INFORMATION](/windows-hardware/drivers/ifs/irp-mj-query-volume-information) |
+| **DeviceIoControl** | [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/ifs/irp-mj-device-control) and [IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control) |
+| **MountVolume** | **IRP_MN_MOUNT_VOLUME** |
+| **VerifyVolume** | **IRP_MN_VERIFY_VOLUME** |
+| **Scsi** | [IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control) (SCSI) |
+| **QueryDeviceRelations** | [IRP_MN_QUERY_DEVICE_RELATIONS](/windows-hardware/drivers/kernel/irp-mn-query-device-relations) |
+| **QueryInterface** | [IRP_MN_QUERY_INTERFACE](/windows-hardware/drivers/kernel/irp-mn-query-interface) |
+| **DeviceCapabilities** | [IRP_MN_QUERY_CAPABILITIES](/windows-hardware/drivers/kernel/irp-mn-query-capabilities) |
+| **FilterResourceRequirements** | [IRP_MN_FILTER_RESOURCE_REQUIREMENTS](/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements) |
+| **ReadWriteConfig** | [IRP_MN_READ_CONFIG](/windows-hardware/drivers/kernel/irp-mn-read-config) and [IRP_MN_WRITE_CONFIG](/windows-hardware/drivers/kernel/irp-mn-write-config) |
+| **SetLock** | [IRP_MN_SET_LOCK](/windows-hardware/drivers/kernel/irp-mn-set-lock) |
+| **QueryId** | [IRP_MN_QUERY_ID](/windows-hardware/drivers/kernel/irp-mn-query-id) |
+| **QueryDeviceText** | [IRP_MN_QUERY_DEVICE_TEXT](/windows-hardware/drivers/kernel/irp-mn-query-device-text) |
+| **UsageNotification** | [IRP_MN_DEVICE_USAGE_NOTIFICATION](/windows-hardware/drivers/kernel/irp-mn-device-usage-notification) |
+| **WaitWake** | [IRP_MN_WAIT_WAKE](/windows-hardware/drivers/kernel/irp-mn-wait-wake) |
+| **PowerSequence** | [IRP_MN_POWER_SEQUENCE](/windows-hardware/drivers/kernel/irp-mn-power-sequence) |
+| **Power** | [IRP_MN_SET_POWER](/windows-hardware/drivers/kernel/irp-mn-set-power) and [IRP_MN_QUERY_POWER](/windows-hardware/drivers/kernel/irp-mn-query-power) |
+| **StartDevice** | [IRP_MN_START_DEVICE](/windows-hardware/drivers/kernel/irp-mn-start-device) |
+| **WMI** | [WMI minor IRPs](/windows-hardware/drivers/kernel/wmi-minor-irps) |
+| **Others** | Driver-specific IRPs |
 
-For more information, see <a href="/windows-hardware/drivers/kernel/irp-major-function-codes">IRP Major Function Codes</a>.
+For more information, see [IRP Major Function Codes](/windows-hardware/drivers/kernel/irp-major-function-codes).
 
 ### -field Parameters.Create
 
@@ -330,7 +150,7 @@ System service parameters for **NtCreateFile**.
 
 ### -field Parameters.CreateMailslot
 
-System service parameters for  **NtCreateMailslotFile**
+System service parameters for  **NtCreateMailslotFile**.
 
 ### -field Parameters.CreateMailslot.SecurityContext
 
@@ -362,7 +182,7 @@ System service parameters for **NtWriteFile**.
 
 ### -field Parameters.Write.Key
 
-### -field Parameters.Write.Flags 
+### -field Parameters.Write.Flags
 
 ### -field Parameters.Write.ByteOffset
 
@@ -680,11 +500,11 @@ Parameters for other driver-specific operations.
 
 ### -field DeviceObject
 
-A pointer to the driver-created <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure representing the target physical, logical, or virtual device for which this driver is to handle the IRP.
+A pointer to the driver-created [**DEVICE_OBJECT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure representing the target physical, logical, or virtual device for which this driver is to handle the IRP.
 
 ### -field FileObject
 
-A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a> structure that represents the file object, if any, that is associated with <b>DeviceObject</b> pointer.
+A pointer to a [**FILE_OBJECT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object) structure that represents the file object, if any, that is associated with **DeviceObject** pointer.
 
 ### -field CompletionRoutine
 
@@ -696,50 +516,34 @@ Driver-defined context that is used to store the address of the context paramete
 
 ## -remarks
 
-For each IRP, there is one <b>IO_STACK_LOCATION</b> structure for each driver in a <a href="/windows-hardware/drivers/">driver stack</a>. Each IRP's set of I/O stack locations is appended to the IRP, following the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure.
+For each IRP, there is one **IO_STACK_LOCATION** structure for each driver in a [driver stack](/windows-hardware/drivers/). Each IRP's set of I/O stack locations is appended to the IRP, following the [**IRP**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp) structure.
 
-Every higher-level driver is responsible for setting up the I/O stack location for the next-lower driver in each IRP. A driver must call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcurrentirpstacklocation">IoGetCurrentIrpStackLocation</a> to get a pointer to its own stack location for each IRP. Higher-level drivers can call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetnextirpstacklocation">IoGetNextIrpStackLocation</a> to get a pointer to the next-lower driver's stack location.
+Every higher-level driver is responsible for setting up the I/O stack location for the next-lower driver in each IRP. A driver must call [IoGetCurrentIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcurrentirpstacklocation) to get a pointer to its own stack location for each IRP. Higher-level drivers can call [IoGetNextIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetnextirpstacklocation) to get a pointer to the next-lower driver's stack location.
 
-The higher-level driver must set up the stack location contents before calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a> to pass an IRP to the lower-level driver. If the driver will pass the input IRP on to the next lower-level driver, the dispatch routine should call [IoSkipCurrentIrpStackLocation](./nf-wdm-ioskipcurrentirpstacklocation.md) or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocopycurrentirpstacklocationtonext">IoCopyCurrentIrpStackLocationToNext</a> to set up the I/O stack location of the next-lower driver.
+The higher-level driver must set up the stack location contents before calling [IoCallDriver](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver) to pass an IRP to the lower-level driver. If the driver will pass the input IRP on to the next lower-level driver, the dispatch routine should call [IoSkipCurrentIrpStackLocation](./nf-wdm-ioskipcurrentirpstacklocation.md) or [IoCopyCurrentIrpStackLocationToNext](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocopycurrentirpstacklocationtonext) to set up the I/O stack location of the next-lower driver.
 
-A higher-level driver's call to <b>IoCallDriver</b> sets the <b>DeviceObject</b> member to the next-lower-level driver's target device object, in the I/O stack location of the lower driver. The I/O manager passes each higher-level driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine a pointer to its own device object when the <i>IoCompletion</i> routine is called on completion of the IRP.
+A higher-level driver's call to **IoCallDriver** sets the **DeviceObject** member to the next-lower-level driver's target device object, in the I/O stack location of the lower driver. The I/O manager passes each higher-level driver's [IoCompletion](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine) routine a pointer to its own device object when the *IoCompletion* routine is called on completion of the IRP.
 
-If a higher-level driver allocates IRPs to make requests of its own, its <i>IoCompletion</i> routine is passed a <b>NULL</b> <b>DeviceObject</b> pointer if that driver neither allocates a stack location for itself nor sets up the <b>DeviceObject</b> pointer in its own stack location of the newly allocated IRP.
+If a higher-level driver allocates IRPs to make requests of its own, its *IoCompletion* routine is passed a **NULL** **DeviceObject** pointer if that driver neither allocates a stack location for itself nor sets up the **DeviceObject** pointer in its own stack location of the newly allocated IRP.
 
-In some cases, a higher-level driver layered over a mass-storage device driver is responsible for splitting up large transfer requests for the underlying device driver. In particular, SCSI class drivers must check the <b>Parameters.Read.Length</b> and <b>Parameters.Write.Length</b>, determine whether the size of the requested transfer exceeds the underlying HBA's transfer capabilities, and, if so, split the <b>Length</b> of the original request into a sequence of partial transfers to satisfy the original IRP.
+In some cases, a higher-level driver layered over a mass-storage device driver is responsible for splitting up large transfer requests for the underlying device driver. In particular, SCSI class drivers must check the **Parameters.Read.Length** and **Parameters.Write.Length**, determine whether the size of the requested transfer exceeds the underlying HBA's transfer capabilities, and, if so, split the **Length** of the original request into a sequence of partial transfers to satisfy the original IRP.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a>
+[**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block)
 
+[**IRP**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp)
 
+[IoCallDriver](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
+[IoCopyCurrentIrpStackLocationToNext](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocopycurrentirpstacklocationtonext)
 
+[IoGetCurrentIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcurrentirpstacklocation)
 
+[IoGetNextIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetnextirpstacklocation)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a>
+[IoSetCompletionRoutine](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocopycurrentirpstacklocationtonext">IoCopyCurrentIrpStackLocationToNext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcurrentirpstacklocation">IoGetCurrentIrpStackLocation</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetnextirpstacklocation">IoGetNextIrpStackLocation</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine">IoSetCompletionRoutine</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetnextirpstacklocation">IoSetNextIrpStackLocation</a>
-
-
+[IoSetNextIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetnextirpstacklocation)
 
 [IoSkipCurrentIrpStackLocation](./nf-wdm-ioskipcurrentirpstacklocation.md)

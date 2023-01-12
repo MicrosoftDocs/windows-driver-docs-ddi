@@ -2,15 +2,14 @@
 UID: NF:wdm.ZwQueryInformationFile
 title: ZwQueryInformationFile function (wdm.h)
 description: The ZwQueryInformationFile routine returns various kinds of information about a file object.
-old-location: kernel\zwqueryinformationfile.htm
 tech.root: kernel
-ms.date: 09/27/2021
+ms.date: 01/06/2023
 keywords: ["ZwQueryInformationFile function"]
 ms.keywords: NtQueryInformationFile, ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, kernel.zwqueryinformationfile, wdm/NtQueryInformationFile, wdm/ZwQueryInformationFile
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,8 +39,6 @@ api_name:
  - ZwQueryInformationFile
 ---
 
-# ZwQueryInformationFile function
-
 ## -description
 
 The **ZwQueryInformationFile** routine returns various kinds of information about a file object.
@@ -69,7 +66,7 @@ The size, in bytes, of the buffer pointed to by **FileInformation**.
 Specifies the type of information to be returned about the file, in the buffer that **FileInformation** points to. Device and intermediate drivers can specify any of the following [**FILE_INFORMATION_CLASS**](ne-wdm-_file_information_class.md) values.
 
 | FILE_INFORMATION_CLASS value | Type of information returned |
-| ---------------------------- | ---------------------------- |
+|---|---|
 | **FileBasicInformation** (4) | A [**FILE_BASIC_INFORMATION**](ns-wdm-_file_basic_information.md) structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the **DesiredAccess** parameter. |
 | **FileStandardInformation** (5) | A [**FILE_STANDARD_INFORMATION**](ns-wdm-_file_standard_information.md) structure. The caller can query this information as long as the file is open, without any particular requirements for **DesiredAccess**. |
 | **FileInternalInformation** (6) | A [**FILE_INTERNAL_INFORMATION**](../ntifs/ns-ntifs-_file_internal_information.md) structure. This structure specifies a 64-bit file ID that uniquely identifies a file in NTFS. On other file systems, this file ID is not guaranteed to be unique. |
@@ -96,25 +93,23 @@ Specifies the type of information to be returned about the file, in the buffer t
 
 When **FileInformationClass** = **FileNameInformation**, the file name is returned in the [**FILE_NAME_INFORMATION**](../ntddk/ns-ntddk-_file_name_information.md) structure. The precise syntax of the file name depends on a number of factors:
 
-* *If you opened the file by submitting a full path to [**ZwCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md), **ZwQueryInformationFile** returns that full path.
+- If you opened the file by submitting a full path to [**ZwCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md), **ZwQueryInformationFile** returns that full path.
 
-*If the **ObjectAttributes->RootDirectory** handle was opened by name in a call to **ZwCreateFile**, and subsequently the file was opened by **ZwCreateFile** relative to this root-directory handle, **ZwQueryInformationFile** returns the full path.
+- If the **ObjectAttributes->RootDirectory** handle was opened by name in a call to **ZwCreateFile**, and subsequently the file was opened by **ZwCreateFile** relative to this root-directory handle, **ZwQueryInformationFile** returns the full path.
 
-* If the **ObjectAttributes->RootDirectory** handle was opened by file ID (using the FILE_OPEN_BY_FILE_ID flag) in a call to **ZwCreateFile**, and subsequently the file was opened by **ZwCreateFile** relative to this root-directory handle, **ZwQueryInformationFile** returns the relative path.
+- If the **ObjectAttributes->RootDirectory** handle was opened by file ID (using the FILE_OPEN_BY_FILE_ID flag) in a call to **ZwCreateFile**, and subsequently the file was opened by **ZwCreateFile** relative to this root-directory handle, **ZwQueryInformationFile** returns the relative path.
 
-* However, if the user has **SeChangeNotifyPrivilege** (described in the Microsoft Windows SDK documentation), **ZwQueryInformationFile** returns the full path in all cases.
+- However, if the user has [**SeChangeNotifyPrivilege**](/windows/win32/secauthz/privilege-constants), **ZwQueryInformationFile** returns the full path in all cases.
 
-* If only the relative path is returned, the file name string will not begin with a backslash.
+- If only the relative path is returned, the file name string will not begin with a backslash.
 
-* If the full path and file name are returned, the string will begin with a single backslash, regardless of its location. Thus the file C:\dir1\dir2\filename.ext will appear as \dir1\dir2\filename.ext, while the file \\server\share\dir1\dir2\filename.ext will appear as \server\share\dir1\dir2\filename.ext.
+- If the full path and file name are returned, the string will begin with a single backslash, regardless of its location. Thus the file C:\dir1\dir2\filename.ext will appear as \dir1\dir2\filename.ext, while the file \\server\share\dir1\dir2\filename.ext will appear as \server\share\dir1\dir2\filename.ext.
 
 If **ZwQueryInformationFile** fails because of a buffer overflow, drivers that implement **FileNameInformation** should return as many WCHAR characters of the file name as will fit in the buffer and specify the full length that is required in the **FileNameLength** parameter of the [**FILE_NAME_INFORMATION**](../ntddk/ns-ntddk-_file_name_information.md) structure. You should reissue the query by using the file name length so that you can retrieve the full file name. Drivers that do not follow this pattern might require a gradual increase in length until they retrieve the full file name. For more information about working with files, see [Using Files in a Driver](/windows-hardware/drivers/kernel/using-files-in-a-driver).
 
 Callers of **ZwQueryInformationFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
-> [!NOTE]
->
-> If the call to this function occurs in user mode, you should use the name "**NtQueryInformationFile**" instead of "**ZwQueryInformationFile**".
+If the call to this function occurs in user mode, you should use the name "**NtQueryInformationFile**" instead of "**ZwQueryInformationFile**".
 
 For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt**Xxx**** and **Zw**Xxx**** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 

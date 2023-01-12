@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrintSchemaOptionCollection.get_Count
 title: IPrintSchemaOptionCollection::get_Count (printerextension.h)
 description: Gets a count of the number of IPrintSchemaOption objects in the collection.
-old-location: print\iprintschemaoptioncollection_count.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/03/2022
 keywords: ["IPrintSchemaOptionCollection::get_Count"]
 ms.keywords: Count property [Print Devices], Count property [Print Devices],IPrintSchemaOptionCollection interface, IPrintSchemaOptionCollection interface [Print Devices],Count property, IPrintSchemaOptionCollection.Count, IPrintSchemaOptionCollection.get_Count, IPrintSchemaOptionCollection::Count, IPrintSchemaOptionCollection::get_Count, get_Count, print.iprintschemaoptioncollection_count, printerextension/IPrintSchemaOptionCollection::Count, printerextension/IPrintSchemaOptionCollection::get_Count
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,20 +39,24 @@ api_name:
  - IPrintSchemaOptionCollection::get_Count
 ---
 
-# IPrintSchemaOptionCollection::get_Count
-
-
 ## -description
 
-Gets a count of the number of <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a> objects in the collection.
+Gets a count of the number of [IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md) objects in the collection.
 
 This property is read-only.
 
+## -parameters
+
+### -param pulCount
+
+Defines the **ULONG** parameter *pulCount*.
+
+## -returns
+
+Returns an **HRESULT** value. If the property call was not successful, it returns the appropriate **HRESULT** error code.
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a>
+[IPrintSchemaOption](./nn-printerextension-iprintschemaoption.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoptioncollection">IPrintSchemaOptionCollection</a>
-
+[IPrintSchemaOptionCollection](./nn-printerextension-iprintschemaoptioncollection.md)

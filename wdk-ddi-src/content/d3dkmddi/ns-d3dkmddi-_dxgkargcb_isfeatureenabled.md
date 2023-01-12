@@ -1,9 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_ISFEATUREENABLED
-title: _DXGKARGCB_ISFEATUREENABLED
-description: Arguments used to query the driver feature is enabled.
+title: DXGKARGCB_ISFEATUREENABLED
+description: Learn more about the DXGKARGCB_ISFEATUREENABLED structure.
 tech.root: display
-ms.date: 10/13/2021
+ms.date: 09/08/2022
 keywords: ["DXGKARGCB_ISFEATUREENABLED structure"]
 ms.keywords: _DXGKARGCB_ISFEATUREENABLED, DXGKARGCB_ISFEATUREENABLED, *INOUT_PDXGKARGCB_ISFEATUREENABLED
 req.header: d3dkmddi.h
@@ -51,11 +51,11 @@ The **DXGKARGCB_ISFEATUREENABLED** structure contains the arguments used in the 
 
 ### -field DeviceHandle [in]
 
-Device handle that was passed to the driver [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
+Device handle that was passed to the driver's [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
 
 ### -field FeatureId [in]
 
-Feature ID to query enabled state for.
+A [**DXGK_FEATURE_ID**](ne-d3dkmddi-_dxgk_feature_id.md) value that identifies the feature to query enabled state for.
 
 ### -field Enabled [out]
 

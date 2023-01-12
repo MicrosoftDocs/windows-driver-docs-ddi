@@ -10,7 +10,7 @@ ms.keywords: FsRtlRemovePerFileObjectContext, FsRtlRemovePerFileObjectContext fu
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

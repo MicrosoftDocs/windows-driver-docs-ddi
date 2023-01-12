@@ -3,7 +3,7 @@ UID: NF:prnasntp.IPrintAsyncCookie.FinishAsyncCall
 title: IPrintAsyncCookie::FinishAsyncCall (prnasntp.h)
 description: Defines the IPrintAsyncCookie::FinishAsyncCall method.
 tech.root: print
-ms.date: 06/12/2021
+ms.date: 07/26/2022
 keywords: ["IPrintAsyncCookie::FinishAsyncCall"]
 ms.keywords: FinishAsyncCall, FinishAsyncCall method [Print Devices], FinishAsyncCall method [Print Devices],IPrintAsyncCookie interface, IPrintAsyncCookie interface [Print Devices],FinishAsyncCall method, IPrintAsyncCookie.FinishAsyncCall, IPrintAsyncCookie::FinishAsyncCall, print.iprintasyncnotify_finishasynccall, prnasntp/IPrintAsyncCookie::FinishAsyncCall
 req.header: prnasntp.h
@@ -44,6 +44,12 @@ api_name:
 ## -description
 
 Defines the **IPrintAsyncCookie::FinishAsyncCall** method.
+
+## -parameters
+
+### -param unnamedParam1
+
+Defines the **HRESULT** parameter *unnamedParam1*.
 
 ## -returns
 

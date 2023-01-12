@@ -1,10 +1,10 @@
 ---
 UID: NS:fltkernel._FLT_CALLBACK_DATA_QUEUE
-title: _FLT_CALLBACK_DATA_QUEUE (fltkernel.h)
+title: FLT_CALLBACK_DATA_QUEUE (fltkernel.h)
 description: FLT_CALLBACK_DATA_QUEUE is an opaque structure that is used to specify the callback routines for a minifilter's callback data queue. Do not set the members of this structure directly. Use FltCbdqInitialize to initialize this structure.
 old-location: ifsk\flt_callback_data_queue.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 08/11/2022
 keywords: ["FLT_CALLBACK_DATA_QUEUE structure"]
 ms.keywords: "*PFLT_CALLBACK_DATA_QUEUE, FLT_CALLBACK_DATA_QUEUE, FLT_CALLBACK_DATA_QUEUE structure [Installable File System Drivers], FltSystemStructures_d43817d6-bc53-407d-8a3f-c6268112eb6e.xml, PFLT_CALLBACK_DATA_QUEUE, PFLT_CALLBACK_DATA_QUEUE structure pointer [Installable File System Drivers], _FLT_CALLBACK_DATA_QUEUE, fltkernel/FLT_CALLBACK_DATA_QUEUE, fltkernel/PFLT_CALLBACK_DATA_QUEUE, ifsk.flt_callback_data_queue"
 req.header: fltkernel.h
@@ -46,36 +46,60 @@ api_name:
  - FLT_CALLBACK_DATA_QUEUE
 ---
 
-# _FLT_CALLBACK_DATA_QUEUE structure
-
+# FLT_CALLBACK_DATA_QUEUE structure
 
 ## -description
 
-FLT_CALLBACK_DATA_QUEUE is an opaque structure that is used to specify the callback routines for a minifilter's callback data queue. Do not set the members of this structure directly. Use <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqinitialize">FltCbdqInitialize</a> to initialize this structure.
+**FLT_CALLBACK_DATA_QUEUE** is an opaque structure that is used to specify the callback routines for a minifilter's callback data queue. Do not set the members of this structure directly. Use [**FltCbdqInitialize**](nf-fltkernel-fltcbdqinitialize.md) to initialize this structure.
 
 ## -struct-fields
 
+### -field Csq
+
+Do not set directly.
+
+### -field Flags
+
+Do not set directly.
+
+### -field Instance
+
+Do not set directly.
+
+### -field InsertIo
+
+Do not set directly.
+
+### -field RemoveIo
+
+Do not set directly.
+
+### -field PeekNextIo
+
+Do not set directly.
+
+### -field Acquire
+
+Do not set directly.
+
+### -field Release
+
+Do not set directly.
+
+### -field CompleteCanceledIo
+
+Do not set directly.
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqdisable">FltCbdqDisable</a>
+[**FltCbdqDisable**](nf-fltkernel-fltcbdqdisable.md)
 
+[**FltCbdqEnable**](nf-fltkernel-fltcbdqenable.md)
 
+[**FltCbdqInitialize**](nf-fltkernel-fltcbdqinitialize.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqenable">FltCbdqEnable</a>
+[**FltCbdqInsertIo**](nf-fltkernel-fltcbdqinsertio.md)
 
+[**FltCbdqRemoveIo**](nf-fltkernel-fltcbdqremoveio.md)
 
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqinitialize">FltCbdqInitialize</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqinsertio">FltCbdqInsertIo</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqremoveio">FltCbdqRemoveIo</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqremovenextio">FltCbdqRemoveNextIo</a>
-
+[**FltCbdqRemoveNextIo**](nf-fltkernel-fltcbdqremovenextio.md)

@@ -2,9 +2,8 @@
 UID: NI:usbprint.IOCTL_USBPRINT_GET_1284_ID
 title: IOCTL_USBPRINT_GET_1284_ID (usbprint.h)
 description: The IOCTL_USBPRINT_GET_1284_ID control code allows upper-layer software (such as a language monitor), to request and obtain the printer's IEEE 1284 device ID string.
-old-location: print\ioctl_usbprint_get_1284_id.htm
 tech.root: print
-ms.date: 02/26/2020
+ms.date: 01/04/2023
 keywords: ["IOCTL_USBPRINT_GET_1284_ID IOCTL"]
 ms.keywords: IOCTL_USBPRINT_GET_1284_ID, IOCTL_USBPRINT_GET_1284_ID control, IOCTL_USBPRINT_GET_1284_ID control code [Print Devices], print.ioctl_usbprint_get_1284_id, usbioctl_4b1e9092-6483-4603-b690-a5e655a73670.xml, usbprint/IOCTL_USBPRINT_GET_1284_ID
 req.header: usbprint.h
@@ -40,9 +39,6 @@ api_name:
  - IOCTL_USBPRINT_GET_1284_ID
 ---
 
-# IOCTL_USBPRINT_GET_1284_ID IOCTL
-
-
 ## -description
 
 The **IOCTL_USBPRINT_GET_1284_ID** control code allows upper-layer software (such as a language monitor), to request and obtain the printer's IEEE 1284 device ID string.
@@ -65,8 +61,7 @@ The output buffer will contain UCHAR data. On success this buffer can hold the f
 
 The output buffer must be large enough to contain a two-byte quantity holding the length of the device's IEEE 1284 device ID, the device ID (up to 64 KB in size), and a terminating null.
 
-> [!NOTE]
-> The IOCTL_USBPRINT_GET_1284_ID output buffer length is placed directly into the USB packet. On some USB print devices, using the maximum 65535 bytes can cause the call to fail with error 23. Reduce the buffer to 4094 bytes or less to resolve this issue.
+The IOCTL_USBPRINT_GET_1284_ID output buffer length is placed directly into the USB packet. On some USB print devices, using the maximum 65535 bytes can cause the call to fail with error 23. Reduce the buffer to 4094 bytes or less to resolve this issue.
 
 ### -in-out-buffer
 

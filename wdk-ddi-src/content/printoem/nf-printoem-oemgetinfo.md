@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMGetInfo
 title: OEMGetInfo function (printoem.h)
-description: OEMGetInfo function
-old-location: print\oemgetinfo.htm
+description: Describes the OEMGetInfo function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/09/2022
 keywords: ["OEMGetInfo function"]
 ms.keywords: OEMGetInfo, OEMGetInfo function [Print Devices], print.oemgetinfo, print_obsoletefunctions_d9641912-6a33-4d32-979c-be21eb0e42cf.xml, printoem/OEMGetInfo
 req.header: printoem.h
@@ -40,22 +39,28 @@ api_name:
  - OEMGetInfo
 ---
 
-# OEMGetInfo function
-
-
 ## -description
+
+Describes the **OEMGetInfo** function.
 
 ## -parameters
 
 ### -param dwMode
 
+Defines the **DWORD** parameter *dwMode*.
+
 ### -param pBuffer [out]
 
-
+Defines the **PVOID** parameter *pBuffer*.
 
 ### -param cbSize
 
+Defines the **DWORD** parameter *cbSize*.
+
 ### -param pcbNeeded [out]
 
+Defines the **PDWORD** parameter *pcbNeeded*.
 
+## -returns
 
+Returns a **BOOL** value.

@@ -1,10 +1,9 @@
 ---
 UID: NC:winsplp.ROUTER_NOTIFY_CALLBACK
 title: ROUTER_NOTIFY_CALLBACK (winsplp.h)
-description: "Learn more about: ROUTER_NOTIFY_CALLBACK callback function"
-old-location: print\router_notify_callback.htm
+description: Describes the ROUTER_NOTIFY_CALLBACK callback function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 07/27/2022
 keywords: ["ROUTER_NOTIFY_CALLBACK callback function"]
 ms.keywords: ROUTER_NOTIFY_CALLBACK, ROUTER_NOTIFY_CALLBACK callback, ROUTER_NOTIFY_CALLBACK callback function [Print Devices], print.router_notify_callback, winsplp/ROUTER_NOTIFY_CALLBACK
 req.header: winsplp.h
@@ -40,34 +39,36 @@ api_name:
  - ROUTER_NOTIFY_CALLBACK
 ---
 
-# ROUTER_NOTIFY_CALLBACK callback function
-
-
 ## -description
+
+Describes the **ROUTER_NOTIFY_CALLBACK** callback function.
 
 ## -parameters
 
 ### -param dwCommand [in]
 
-
+Defines the **DWORD** parameter *dwCommand*.
 
 ### -param pContext [in]
 
-
+Defines the **PVOID** parameter *pContext*.
 
 ### -param dwColor [in]
 
-
+Defines the **DWORD** parameter *dwColor*.
 
 ### -param pNofityInfo [in]
 
-
+Defines the **PPRINTER_NOTIFY_INFO** parameter *pNofityInfo*.
 
 ### -param fdwFlags [in]
 
-
+Defines the **DWORD** parameter *fdwFlags*.
 
 ### -param pdwResult [out]
 
+Defines the **PDWORD** parameter *pdwResult*.
 
+## -returns
 
+Returns a **BOOL** value.

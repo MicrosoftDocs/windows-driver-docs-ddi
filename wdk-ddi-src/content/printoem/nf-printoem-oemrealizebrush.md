@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMRealizeBrush
 title: OEMRealizeBrush function (printoem.h)
 description: The OEMRealizeBrush function requests that the driver realize a specified brush for a specified surface.
-old-location: print\oemrealizebrush.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/10/2022
 keywords: ["OEMRealizeBrush function"]
 ms.keywords: OEMRealizeBrush, OEMRealizeBrush function [Print Devices], print.oemrealizebrush, print_unidrv-pscript_rendering_ab4f8635-9dda-4f08-b4f9-d70681ec532e.xml, printoem/OEMRealizeBrush
 req.header: printoem.h
@@ -40,24 +39,36 @@ api_name:
  - OEMRealizeBrush
 ---
 
-# OEMRealizeBrush function
-
-
 ## -description
 
-The <code>OEMRealizeBrush</code> function requests that the driver realize a specified brush for a specified surface.
+The **OEMRealizeBrush** function requests that the driver realize a specified brush for a specified surface.
 
 ## -parameters
 
 ### -param pbo
 
+Defines the **BRUSHOBJ** parameter *pbo*.
+
 ### -param psoTarget
+
+Defines the **SURFOBJ** parameter *psoTarget*.
 
 ### -param psoPattern
 
+Defines the **SURFOBJ** parameter *psoPattern*.
+
 ### -param psoMask
+
+Defines the **SURFOBJ** parameter *psoMask*.
 
 ### -param pxlo
 
+Defines the **XLATEOBJ** parameter *pxlo*.
+
 ### -param iHatch
 
+Defines the **ULONG** parameter *iHatch*.
+
+## -returns
+
+Returns a **BOOL** value.

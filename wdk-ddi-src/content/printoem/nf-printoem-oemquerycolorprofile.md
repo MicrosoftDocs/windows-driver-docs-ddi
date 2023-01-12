@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMQueryColorProfile
 title: OEMQueryColorProfile function (printoem.h)
-description: OEMQueryColorProfile function
-old-location: print\oemquerycolorprofile.htm
+description: Describes the OEMQueryColorProfile function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/10/2022
 keywords: ["OEMQueryColorProfile function"]
 ms.keywords: OEMQueryColorProfile, OEMQueryColorProfile function [Print Devices], print.oemquerycolorprofile, print_obsoletefunctions_f21cf62d-45bd-4248-8b0c-a19cc982ad3c.xml, printoem/OEMQueryColorProfile
 req.header: printoem.h
@@ -40,32 +39,44 @@ api_name:
  - OEMQueryColorProfile
 ---
 
-# OEMQueryColorProfile function
-
-
 ## -description
+
+Describes the **OEMQueryColorProfile** function.
 
 ## -parameters
 
 ### -param hPrinter
 
+Defines the **HANDLE** parameter *hPrinter*.
+
 ### -param poemuiobj
+
+Defines the **POEMUIOBJ** parameter *poemuiobj*.
 
 ### -param pPublicDM
 
+Defines the **PDEVMODE** parameter *pPublicDM*.
+
 ### -param pOEMDM
+
+Defines the **PVOID** parameter *pOEMDM*.
 
 ### -param ulQueryMode
 
+Defines the **ULONG** parameter *ulQueryMode*.
+
 ### -param pvProfileData [out]
 
-
+Defines the **VOID** parameter *pvProfileData*.
 
 ### -param pcbProfileData [out]
 
-
+Defines the **ULONG** parameter *pcbProfileData*.
 
 ### -param pflProfileData [out]
 
+Defines the **FLONG** parameter *pflProfileData*.
 
+## -returns
 
+Returns a **BOOL** value.

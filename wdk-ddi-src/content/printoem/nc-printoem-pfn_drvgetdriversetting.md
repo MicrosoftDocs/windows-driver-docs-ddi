@@ -2,13 +2,12 @@
 UID: NC:printoem.PFN_DrvGetDriverSetting
 title: PFN_DrvGetDriverSetting (printoem.h)
 description: The DrvGetDriverSetting function is obsolete.
-old-location: print\drvgetdriversetting.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/11/2022
 keywords: ["PFN_DrvGetDriverSetting callback function"]
 ms.keywords: DrvGetDriverSetting, DrvGetDriverSetting callback function [Print Devices], PFN_DrvGetDriverSetting, PFN_DrvGetDriverSetting callback, print.drvgetdriversetting, print_obsoletefunctions_655cde75-fc70-4d6c-a7b4-8eb1e068ebd9.xml, printoem/DrvGetDriverSetting
 req.header: printoem.h
-req.include-header: 
+req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,32 +39,40 @@ api_name:
  - PFN_DrvGetDriverSetting
 ---
 
-# PFN_DrvGetDriverSetting callback function
-
-
 ## -description
 
-The <b>DrvGetDriverSetting</b> function is obsolete.
+The **DrvGetDriverSetting** function is obsolete.
 
- Windows 2000 and later printer drivers should use <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvgetdriversetting">IPrintOemDriverUI::DrvGetDriverSetting</a>, <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-drvgetdriversetting">IPrintCoreUI2::DrvGetDriverSetting</a> (UI plug-ins), <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvgetdriversetting">IPrintOemDriverUni::DrvGetDriverSetting</a> (Unidrv plug-ins) or <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverps-drvgetdriversetting">IPrintOemDriverPS::DrvGetDriverSetting</a> (Pscript plug-ins) 
+ Windows 2000 and later printer drivers should use [IPrintOemDriverUI::DrvGetDriverSetting](../prcomoem/nf-prcomoem-iprintoemdriverui-drvgetdriversetting.md), [IPrintCoreUI2::DrvGetDriverSetting](../prcomoem/nf-prcomoem-iprintcoreui2-drvgetdriversetting.md) (UI plug-ins), [IPrintOemDriverUni::DrvGetDriverSetting](../prcomoem/nf-prcomoem-iprintoemdriveruni-drvgetdriversetting.md) (Unidrv plug-ins) or [IPrintOemDriverPS::DrvGetDriverSetting](../prcomoem/nf-prcomoem-iprintoemdriverps-drvgetdriversetting.md) (Pscript plug-ins)
 
-This function pointer type defines the type of the <b>DrvGetDriverSetting</b> member of the <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiprocs">OEMUIPROCS</a> and <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs">DRVPROCS</a> structures.
+This function pointer type defines the type of the **DrvGetDriverSetting** member of the [OEMUIPROCS](./ns-printoem-_oemuiprocs.md) and [DRVPROCS](./ns-printoem-_drvprocs.md) structures.
 
 ## -parameters
 
 ### -param pdriverobj
 
+Defines the **PVOID** parameter *pdriverobj*.
+
 ### -param Feature
+
+Defines the **PCSTR** parameter *Feature*.
 
 ### -param pOutput
 
+Defines the **PVOID** parameter *pOutput*.
+
 ### -param cbSize
+
+Defines the **DWORD** parameter *cbSize*.
 
 ### -param pcbNeeded [out, optional]
 
-
+Defines the **PDWORD** parameter *pcbNeeded*.
 
 ### -param pdwOptionsReturned [out, optional]
 
+Defines the **PDWORD** parameter *pdwOptionsReturned*.
 
+## -returns
 
+Returns a **BOOL** value.

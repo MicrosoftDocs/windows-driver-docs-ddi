@@ -2,16 +2,15 @@
 UID: NF:printerextension.IPrintSchemaCapabilities2.GetParameterDefinition
 title: IPrintSchemaCapabilities2::GetParameterDefinition (printerextension.h)
 description: The GetParameterDefinition method retrieves the IPrintSchemaParameterDefinition object, and it represents the psf:ParameterDef element in the PrintCapabilites XML.
-old-location: print\iprintschemacapabilities2_getparameterdefinition.htm
 tech.root: print
-ms.date: 10/01/2020
+ms.date: 08/02/2022
 keywords: ["IPrintSchemaCapabilities2::GetParameterDefinition"]
 ms.keywords: GetParameterDefinition, GetParameterDefinition method [Print Devices], GetParameterDefinition method [Print Devices],IPrintSchemaCapabilities2 interface, IPrintSchemaCapabilities2 interface [Print Devices],GetParameterDefinition method, IPrintSchemaCapabilities2.GetParameterDefinition, IPrintSchemaCapabilities2::GetParameterDefinition, print.iprintschemacapabilities2_getparameterdefinition, printerextension/IPrintSchemaCapabilities2::GetParameterDefinition
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8.1
-req.target-min-winversvr: Windows Server 2012 R2
+req.target-min-winverclnt: Windows 8.1
+req.target-min-winversvr: Windows Server 2012 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -40,9 +39,6 @@ api_name:
  - IPrintSchemaCapabilities2::GetParameterDefinition
 ---
 
-# IPrintSchemaCapabilities2::GetParameterDefinition
-
-
 ## -description
 
 The **GetParameterDefinition** method retrieves the [IPrintSchemaParameterDefinition](./nn-printerextension-iprintschemaparameterdefinition.md) object, and it  represents the **psf:ParameterDef** element in the PrintCapabilites XML.
@@ -53,16 +49,13 @@ The **GetParameterDefinition** method retrieves the [IPrintSchemaParameterDefini
 
 ### -param bstrName [in]
 
-
 The keyword name
 
 ### -param bstrNamespaceUri [in]
 
-
 The keyword namespace URI
 
 ### -param ppParameterDefinition [out, retval]
-
 
 The **IPrintSchemaParameterDefinition** object
 
@@ -85,4 +78,3 @@ For more information about the data types that you can use with the **psf:Parame
 [IPrintSchemaParameterDefinition](./nn-printerextension-iprintschemaparameterdefinition.md)
 
 [Print Schema Specification](https://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip)
-

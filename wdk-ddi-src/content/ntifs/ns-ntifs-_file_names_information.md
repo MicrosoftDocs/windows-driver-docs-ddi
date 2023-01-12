@@ -1,12 +1,12 @@
 ---
 UID: NS:ntifs._FILE_NAMES_INFORMATION
-title: _FILE_NAMES_INFORMATION (ntifs.h)
+title: FILE_NAMES_INFORMATION (ntifs.h)
 description: A FILE_NAMES_INFORMATION structure used to query detailed information about the names of files in a directory.
 old-location: ifsk\file_names_information.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 11/28/2022
 keywords: ["FILE_NAMES_INFORMATION structure"]
-ms.keywords: "*PFILE_NAMES_INFORMATION, FILE_NAMES_INFORMATION, FILE_NAMES_INFORMATION structure [Installable File System Drivers], PFILE_NAMES_INFORMATION, PFILE_NAMES_INFORMATION structure pointer [Installable File System Drivers], _FILE_NAMES_INFORMATION, fileinformationstructures_8349a2eb-ffeb-4050-9084-b09474079415.xml, ifsk.file_names_information, ntifs/FILE_NAMES_INFORMATION, ntifs/PFILE_NAMES_INFORMATION"
+ms.keywords: "*PFILE_NAMES_INFORMATION, FILE_NAMES_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -46,18 +46,17 @@ api_name:
  - FILE_NAMES_INFORMATION
 ---
 
-# _FILE_NAMES_INFORMATION structure
-
+# FILE_NAMES_INFORMATION structure
 
 ## -description
 
-A FILE_NAMES_INFORMATION structure used to query detailed information about the names of files in a directory.
+A **FILE_NAMES_INFORMATION** structure used to query detailed information about the names of files in a directory.
 
 ## -struct-fields
 
 ### -field NextEntryOffset
 
-Byte offset for the next FILE_NAMES_INFORMATION entry, if multiple entries are present in a buffer. This member is zero if no other entries follow this one.
+Byte offset for the next **FILE_NAMES_INFORMATION** entry, if multiple entries are present in a buffer. This member is zero if no other entries follow this one.
 
 ### -field FileIndex
 
@@ -65,39 +64,28 @@ Byte offset of the file within the parent directory. This member is undefined fo
 
 ### -field FileNameLength
 
-Specifies the length of the file name string.
+Length of the file name string.
 
 ### -field FileName
 
-Specifies the first character of the file name string. This is followed in memory by the remainder of the string.
+The first character of the file name string. This is followed in memory by the remainder of the string.
 
 ## -remarks
 
-This information can be queried in either of the following ways: 
+This information can be queried in either of the following ways:
 
-<ul>
-<li>
-Call <a href="/previous-versions/ff567047(v=vs.85)">ZwQueryDirectoryFile</a>, passing FileNamesInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_NAMES_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
+* Call [**ZwQueryDirectoryFile**](nf-ntifs-zwquerydirectoryfile.md), passing **FileNamesInformation** as the value of **FileInformationClass** and passing a caller-allocated, **FILE_NAMES_INFORMATION**-structured buffer as the value of **FileInformation**.
 
-</li>
-<li>
-Create an IRP with major function code IRP_MJ_DIRECTORY_CONTROL and minor function code IRP_MN_QUERY_DIRECTORY. 
+* Create an IRP with major function code IRP_MJ_DIRECTORY_CONTROL and minor function code IRP_MN_QUERY_DIRECTORY.
 
-</li>
-</ul>
-No specific access rights are required to query this information. 
+No specific access rights are required to query this information.
 
-This structure must be aligned on a LONG (4-byte) boundary. If a buffer contains two or more of these structures, the <b>NextEntryOffset</b> value in each entry, except the last, falls on a 4-byte boundary.
+This structure must be aligned on a LONG (4-byte) boundary. If a buffer contains two or more of these structures, the **NextEntryOffset** value in each entry, except the last, falls on a 4-byte boundary.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory">FsRtlNotifyFullChangeDirectory</a>
+[**FsRtlNotifyFullChangeDirectory**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory.md)
 
+[**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
-
-<a href="/windows-hardware/drivers/ifs/irp-mj-directory-control">IRP_MJ_DIRECTORY_CONTROL</a>
-
-
-
-<a href="/previous-versions/ff567047(v=vs.85)">ZwQueryDirectoryFile</a>
-
+[**ZwQueryDirectoryFile**](nf-ntifs-zwquerydirectoryfile.md)

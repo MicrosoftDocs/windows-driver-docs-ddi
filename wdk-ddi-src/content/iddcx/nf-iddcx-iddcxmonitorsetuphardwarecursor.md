@@ -4,7 +4,7 @@ title: IddCxMonitorSetupHardwareCursor function (iddcx.h)
 description: An OS callback function the driver calls when it wants to setup hardware cursor support for the path.
 old-location: display\iddcxmonitorsetuphardwarecursor.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 08/05/2022
 keywords: ["IddCxMonitorSetupHardwareCursor function"]
 ms.keywords: IddCxMonitorSetupHardwareCursor, IddCxMonitorSetupHardwareCursor method [Display Devices], display.iddcxmonitorsetuphardwarecursor, iddcx/IddCxMonitorSetupHardwareCursor
 req.header: iddcx.h
@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: IddCxStub.lib
 req.dll: IddCx.dll
-req.irql: _Must_inspect_result_
+req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -42,23 +42,32 @@ api_name:
 
 # IddCxMonitorSetupHardwareCursor function
 
-
 ## -description
 
-                An OS callback function the driver calls when it wants to setup hardware cursor support for the path.  By default when a mode is committed on a path software cursor is enabled, if the driver wants to accelerate the cursor on that path it uses this callback to enable hardware cursor support.
+An indirect display driver calls **IddCxMonitorSetupHardwareCursor** to setup hardware cursor support for the path.
 
 ## -parameters
 
 ### -param MonitorObject [in]
 
-
-The handle the OS provided to identify the monitor
+An [**IDDCX_MONITOR**](/windows-hardware/drivers/display/iddcx-objects) object which is the monitor's OS context handle created by [**IddCxMonitorCreate**](nf-iddcx-iddcxmonitorcreate.md).
 
 ### -param pInArgs [in]
 
-
-Input arguments of function
+An [**IDARG_IN_SETUP_HWCURSOR**](ns-iddcx-idarg_in_setup_hwcursor.md) structure containing this function's input arguments.
 
 ## -returns
 
-(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
+**IddCxMonitorSetupHardwareCursor** returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an [appropriate NTSTATUS error code](/windows-hardware/drivers/kernel/ntstatus-values).
+
+## -remarks
+
+By default, software cursor is enabled when a mode is committed on a path. If the driver wants to accelerate the cursor on that path it uses this callback to enable hardware cursor support.
+
+## -see-also
+
+[**IDARG_IN_SETUP_HWCURSOR**](ns-iddcx-idarg_in_setup_hwcursor.md)
+
+[**IddCxMonitorQueryHardwareCursor**](nf-iddcx-iddcxmonitorqueryhardwarecursor.md)
+
+[**IddCxMonitorQueryHardwareCursor2**](nf-iddcx-iddcxmonitorqueryhardwarecursor2.md)

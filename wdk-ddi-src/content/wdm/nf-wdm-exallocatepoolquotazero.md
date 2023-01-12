@@ -2,7 +2,7 @@
 UID: NF:wdm.ExAllocatePoolQuotaZero
 title: ExAllocatePoolQuotaZero
 tech.root: kernel
-ms.date: 12/17/2020
+ms.date: 01/06/2023
 targetos: Windows
 description: "Learn more about: ExAllocatePoolQuotaZero"
 req.assembly: 
@@ -41,20 +41,20 @@ dev_langs:
 
 ## -description
 
-> [!IMPORTANT]
-> Microsoft is aware of an issue with **ExAllocatePoolQuotaZero** that can lead to an allocation not getting zeroed on Windows 10, version 1909.This issue has been fixed in a security refresh of the WDK for Windows 10, version 2004 and the Enterprise WDK (EWDK) for Windows 10, version 2004 on December 16th, 2020. For information on downloading the latest WDK, see [Download the Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk).
+> [!CAUTION]
+> Microsoft is aware of an issue with ExAllocatePoolQuotaZero that can lead to an allocation not getting zeroed on Windows 10, version 1909.This issue has been fixed in a security refresh of the WDK for Windows 10, version 2004 and the Enterprise WDK (EWDK) for Windows 10, version 2004 on December 16th, 2020. For information on downloading the latest WDK, see [Download the Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk).
 
-This routine is a wrapper for and a recommended replacement option for [**ExAllocatePoolWithQuotaTag**](nf-wdm-exallocatepoolwithquotatag.md).
+This routine is a wrapper for and a recommended replacement option for [ExAllocatePoolWithQuotaTag](nf-wdm-exallocatepoolwithquotatag.md).
 
-**ExAllocatePoolQuotaZero** allocates pool memory of the specified type and returns a pointer to the allocated block. It is identical to [**ExAllocatePoolWithQuotaTag**](nf-wdm-exallocatepoolwithquotatag.md) except it zero initializes the allocated memory. If this is not desired, use [**ExAllocatePoolQuotaUninitialized**](nf-wdm-exallocatepoolquotauninitialized.md) instead.
+ExAllocatePoolQuotaZero allocates pool memory of the specified type and returns a pointer to the allocated block. It is identical to [ExAllocatePoolWithQuotaTag](nf-wdm-exallocatepoolwithquotatag.md) except it zero initializes the allocated memory. If this is not desired, use [ExAllocatePoolQuotaUninitialized](nf-wdm-exallocatepoolquotauninitialized.md) instead.
 
 ## -parameters
 
 ### -param PoolType
 
-The type of pool memory to allocate. For a description of the available pool memory types, see [**POOL_TYPE**](ne-wdm-_pool_type.md). 
+The type of pool memory to allocate. For a description of the available pool memory types, see [**POOL_TYPE**](ne-wdm-_pool_type.md).
 
-Similarly, you can modify the *PoolType* value by bitwise-ORing this value with the **POOL_COLD_ALLOCATION** flag (also defined in `wdm.h`) as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The **POOL_COLD_ALLOCATION** flag is only advisory.
+Similarly, you can modify the *PoolType* value by bitwise-ORing this value with the POOL_COLD_ALLOCATION flag (also defined in `wdm.h`) as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory.
 
 ### -param NumberOfBytes
 
@@ -66,19 +66,18 @@ The pool tag to use for the allocated memory. Specify the pool tag as a non-zero
 
 ## -returns
 
-<b>ExAllocatePoolQuotaZero</b> returns a pointer to the allocated pool.
+ExAllocatePoolQuotaZero returns a pointer to the allocated pool.
 
-If the request cannot be satisfied, <b>ExAllocatePoolQuotaZero</b> raises an exception unless POOL_QUOTA_FAIL_INSTEAD_OF_RAISE is specified. Using POOL_QUOTA_FAIL_INSTEAD_OF_RAISE is preferred for performance reasons.
+If the request cannot be satisfied, ExAllocatePoolQuotaZero raises an exception unless POOL_QUOTA_FAIL_INSTEAD_OF_RAISE is specified. Using POOL_QUOTA_FAIL_INSTEAD_OF_RAISE is preferred for performance reasons.
 
 ## -remarks
 
-To run on versions of Windows prior to Windows 10 version 2004, the driver must define **POOL_ZERO_DOWN_LEVEL_SUPPORT** and call [**ExInitializeDriverRuntime**](nf-wdm-exinitializedriverruntime.md) before calling this function.
+To run on versions of Windows prior to Windows 10 version 2004, the driver must define POOL_ZERO_DOWN_LEVEL_SUPPORT and call [ExInitializeDriverRuntime](nf-wdm-exinitializedriverruntime.md) before calling this function.
 
-This routine is called by highest-level drivers that allocate memory to satisfy a request in the context of the process that originally made the I/O request. Lower-level drivers call [**ExAllocatePoolZero**](nf-wdm-exallocatepoolzero.md) instead. 
+This routine is called by highest-level drivers that allocate memory to satisfy a request in the context of the process that originally made the I/O request. Lower-level drivers call [ExAllocatePoolZero](nf-wdm-exallocatepoolzero.md) instead.
 
-See the Remarks section of [**ExAllocatePoolWithQuotaTag**](nf-wdm-exallocatepoolwithquotatag.md) for additional guidance.
+See the Remarks section of [ExAllocatePoolWithQuotaTag](nf-wdm-exallocatepoolwithquotatag.md) for additional guidance.
 
 ## -see-also
 
-[**ExAllocatePoolQuotaUninitialized**](nf-wdm-exallocatepoolquotauninitialized.md)
-
+[ExAllocatePoolQuotaUninitialized](nf-wdm-exallocatepoolquotauninitialized.md)

@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGK_ADL
 tech.root: display
 title: DXGK_ADL
-ms.date: 05/13/2021
+ms.date: 06/24/2022
 targetos: Windows
 description: The DXGK_ADL structure is an address descriptor list (ADL), which is used to describe an array of pages that can be either physical or logical.
 req.construct-type: structure
@@ -54,17 +54,19 @@ A [**DXGK_ADL_FLAGS**](ns-d3dkmddi-dxgk_adl_flags.md) structure that specifies f
 
 ### -field BasePageNumber
 
-Used for contiguous ADLs. When **Flags.Contiguous** is set, **BasePageNumber** is the initial page number of a contiguous range of memory. An example of a contiguous ADL: if **PageCount**=3 and **BasePageNumber**=100, then the ADL represents the pages 100, 101, and 102 (address range 0x100000-0x102000).
+Used for contiguous ADLs. When **Flags.Contiguous** is set, **BasePageNumber** is the initial page number of a contiguous range of memory and **PageCount** is the number of pages that it represents. For example, if **PageCount**=3 and **BasePageNumber**=100, then **DXGK_ADL** represents the pages 100, 101, and 102 (address range 0x100000-0x102000).
 
 ### -field Pages
 
 Used for non-contiguous ADLs. When **Flags.Contiguous** is not set, **Pages** points to an array of exactly **PageCount** pages. The pages in the array are not guaranteed to be contiguous.
 
-**Pages** is of type **DXGK_PAGE_NUMBER**, which is guaranteed to be the same size as a [**PFN_NUMBER**](/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetmdlpfnarray). So this array can be substituted in place of an MDL's PFN array when programming the hardware.
+**Pages** is of type **DXGK_PAGE_NUMBER**, which is guaranteed to be the same size as a [**PFN_NUMBER**](/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetmdlpfnarray). This array can be substituted in place of an MDL's PFN array when programming the hardware.
 
 ## -remarks
 
 *Dxgkernel* provides ADLs in order to support both physical and logical access modes, and be able to switch between the two modes seamlessly at runtime. An ADL is very similar to an MDL, but describes an array of pages that can be either physical or logical. Because these pages can be logical pages, the addresses described by an ADL cannot be mapped to a virtual address for direct CPU access.
+
+For more information, see [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping).
 
 ## -see-also
 

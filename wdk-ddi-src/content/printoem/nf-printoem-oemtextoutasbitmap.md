@@ -1,10 +1,9 @@
 ---
 UID: NF:printoem.OEMTextOutAsBitmap
 title: OEMTextOutAsBitmap function (printoem.h)
-description: OEMTextOutAsBitmap function
-old-location: print\oemtextoutasbitmap.htm
+description: Describes the OEMTextOutAsBitmap function.
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/11/2022
 keywords: ["OEMTextOutAsBitmap function"]
 ms.keywords: OEMTextOutAsBitmap, OEMTextOutAsBitmap function [Print Devices], print.oemtextoutasbitmap, print_obsoletefunctions_17993b3a-2343-4c6f-86ea-8273abaa8c80.xml, printoem/OEMTextOutAsBitmap
 req.header: printoem.h
@@ -40,30 +39,52 @@ api_name:
  - OEMTextOutAsBitmap
 ---
 
-# OEMTextOutAsBitmap function
-
-
 ## -description
+
+Describes the **OEMTextOutAsBitmap** function.
 
 ## -parameters
 
 ### -param pso
 
+Defines the **SURFOBJ** parameter *pso*.
+
 ### -param pstro
+
+Defines the **STROBJ** parameter *pstro*.
 
 ### -param pfo
 
+Defines the **FONTOBJ** parameter *pfo*.
+
 ### -param pco
+
+Defines the **CLIPOBJ** parameter *pco*.
 
 ### -param prclExtra
 
+Defines the **RECTL** parameter *prclExtra*.
+
 ### -param prclOpaque
+
+Defines the **RECTL** parameter *prclOpaque*.
 
 ### -param pboFore
 
+Defines the **BRUSHOBJ** parameter *pboFore*.
+
 ### -param pboOpaque
+
+Defines the **BRUSHOBJ** parameter *pboOpaque*.
 
 ### -param pptlOrg
 
+Defines the **POINTL** parameter *pptlOrg*.
+
 ### -param mix
 
+Defines the **MIX** parameter *mix*.
+
+## -returns
+
+Returns a **BOOL** value.

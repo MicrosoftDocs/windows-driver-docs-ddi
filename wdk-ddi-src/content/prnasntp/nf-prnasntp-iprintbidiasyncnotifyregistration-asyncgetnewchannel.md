@@ -3,7 +3,7 @@ UID: NF:prnasntp.IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel
 title: IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel (prnasntp.h)
 description: Defines the IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel method.
 tech.root: print
-ms.date: 06/12/2021
+ms.date: 07/26/2022
 keywords: ["IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel"]
 ms.keywords: AsyncGetNewChannel, AsyncGetNewChannel method [Print Devices], AsyncGetNewChannel method [Print Devices],IPrintBidiAsyncNotifyRegistration interface, IPrintBidiAsyncNotifyRegistration interface [Print Devices],AsyncGetNewChannel method, IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel, IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel, print.iprintbidiasyncnotifyregistration_asyncgetnewchannel, prnasntp/IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
 req.header: prnasntp.h
@@ -39,8 +39,6 @@ api_name:
  - IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
 ---
 
-# IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
-
 ## -description
 
 Defines the **IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel** method.
@@ -49,7 +47,7 @@ Defines the **IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel** method.
 
 ### -param EQUALNULL
 
-### -param pCookie [in]
+Defines the **IPrintAsyncNewChannelCookie** parameter *EQUALNULL*.
 
 ## -returns
 

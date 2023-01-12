@@ -1,16 +1,16 @@
 ---
 UID: NS:ntifs._MEMORY_BASIC_INFORMATION
-title: _MEMORY_BASIC_INFORMATION (ntifs.h)
+title: MEMORY_BASIC_INFORMATION (ntifs.h)
 description: Contains information about a range of pages in the virtual address space of a process.
 old-location: kernel\memory_basic_information.htm
 tech.root: kernel
-ms.date: 01/02/2020
+ms.date: 07/26/2022
 keywords: ["MEMORY_BASIC_INFORMATION structure"]
 ms.keywords: "*PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], MEM_COMMIT, MEM_FREE, MEM_IMAGE, MEM_MAPPED, MEM_PRIVATE, MEM_RESERVE, PAGE_EXECUTE, PAGE_GUARD, PAGE_NOACCESS, PAGE_NOCACHE, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOMBINE, PMEMORY_BASIC_INFORMATION, PMEMORY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _MEMORY_BASIC_INFORMATION, kernel.memory_basic_information, ntifs/MEMORY_BASIC_INFORMATION, ntifs/PMEMORY_BASIC_INFORMATION"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 10.
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,12 +46,11 @@ api_name:
  - MEMORY_BASIC_INFORMATION
 ---
 
-# _MEMORY_BASIC_INFORMATION structure
-
+# MEMORY_BASIC_INFORMATION structure
 
 ## -description
 
-Contains information about a range of pages in the virtual address space of a process. The [**ZwQueryVirtualMemory**](/previous-versions/dn957455(v=vs.85)) routine uses this structure.
+Contains information about a range of pages in the virtual address space of a process. The [**ZwQueryVirtualMemory**](nf-ntifs-zwqueryvirtualmemory.md) routine uses this structure.
 
 ## -struct-fields
 
@@ -111,5 +110,4 @@ The type of pages in the region. The following types are defined.
 
 ## -see-also
 
-[**ZwQueryVirtualMemory**](/previous-versions/dn957455(v=vs.85))
-
+[**ZwQueryVirtualMemory**](nf-ntifs-zwqueryvirtualmemory.md)

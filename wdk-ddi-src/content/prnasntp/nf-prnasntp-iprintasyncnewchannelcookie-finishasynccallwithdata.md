@@ -3,7 +3,7 @@ UID: NF:prnasntp.IPrintAsyncNewChannelCookie.FinishAsyncCallWithData
 title: IPrintAsyncNewChannelCookie::FinishAsyncCallWithData (prnasntp.h)
 description: Defines the IPrintAsyncNewChannelCookie::FinishAsyncCallWithData method.
 tech.root: print
-ms.date: 06/12/2021
+ms.date: 07/29/2022
 keywords: ["IPrintAsyncNewChannelCookie::FinishAsyncCallWithData"]
 ms.keywords: FinishAsyncCallWithData, FinishAsyncCallWithData method [Print Devices], FinishAsyncCallWithData method [Print Devices],IPrintAsyncNewChannelCookie interface, IPrintAsyncNewChannelCookie interface [Print Devices],FinishAsyncCallWithData method, IPrintAsyncNewChannelCookie.FinishAsyncCallWithData, IPrintAsyncNewChannelCookie::FinishAsyncCallWithData, print.iprintasyncnewchannelcookie_finishasynccallwithdata, prnasntp/IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
 req.header: prnasntp.h
@@ -39,23 +39,19 @@ api_name:
  - IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
 ---
 
-# IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
-
 ## -description
 
 Defines the **IPrintAsyncNewChannelCookie::FinishAsyncCallWithData** method.
 
 ## -parameters
 
-## -param
+### -param unnamedParam1
 
-### - ppChannel
+Defines the **IPrintAsyncNotifyChannel** parameter *unnamedParam1*.
 
-[in] unnamedParam1
+### -param unnamedParam2
 
-### - uL
-
-[in] unnamedParam2
+Defines the **ULONG** parameter *unnamedParam2*.
 
 ## -returns
 

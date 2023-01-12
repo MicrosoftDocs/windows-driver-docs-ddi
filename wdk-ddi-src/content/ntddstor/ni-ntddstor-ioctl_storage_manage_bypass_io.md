@@ -2,7 +2,7 @@
 UID: NI:ntddstor.IOCTL_STORAGE_MANAGE_BYPASS_IO
 tech.root: storage
 title: IOCTL_STORAGE_MANAGE_BYPASS_IO
-ms.date: 07/08/2021
+ms.date: 08/18/2022
 targetos: Windows
 description: The IOCTL_STORAGE_MANAGE_BYPASS_IO control code controls BypassIO operations on a given file in all layers of the volume and storage stacks.
 prerelease: false
@@ -57,6 +57,14 @@ The driver returns information in a [**BPIO_OUTPUT**](ns-ntddstor-bpio_output.md
 ### -output-buffer-length
 
 **Parameters.DeviceIoControl.OutputBufferLength** in the I/O stack location of the IRP indicates the size of the output buffer, in bytes. **OutputBufferLength** must be at least ```sizeof(BPIO_OUTPUT)```.
+
+### -in-out-buffer
+
+n/a
+
+### -inout-buffer-length
+
+n/a
 
 ### -status-block
 

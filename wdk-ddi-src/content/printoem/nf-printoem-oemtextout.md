@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMTextOut
 title: OEMTextOut function (printoem.h)
 description: The OEMTextOut function calls for the driver to render a set of glyphs at specified positions.
-old-location: print\oemtextout.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/11/2022
 keywords: ["OEMTextOut function"]
 ms.keywords: OEMTextOut, OEMTextOut function [Print Devices], print.oemtextout, print_unidrv-pscript_rendering_fda6f01f-5d37-424f-aa4f-bf7849c50c19.xml, printoem/OEMTextOut
 req.header: printoem.h
@@ -40,32 +39,52 @@ api_name:
  - OEMTextOut
 ---
 
-# OEMTextOut function
-
-
 ## -description
 
-The <code>OEMTextOut</code> function calls for the driver to render a set of glyphs at specified positions.
+The **OEMTextOut** function calls for the driver to render a set of glyphs at specified positions.
 
 ## -parameters
 
 ### -param pso
 
+Defines the **SURFOBJ** parameter *pso*.
+
 ### -param pstro
+
+Defines the **STROBJ** parameter *pstro*.
 
 ### -param pfo
 
+Defines the **FONTOBJ** parameter *pfo*.
+
 ### -param pco
+
+Defines the **CLIPOBJ** parameter *pco*.
 
 ### -param prclExtra
 
+Defines the **RECTL** parameter *prclExtra*.
+
 ### -param prclOpaque
+
+Defines the **RECTL** parameter *prclOpaque*.
 
 ### -param pboFore
 
+Defines the **BRUSHOBJ** parameter *pboFore*.
+
 ### -param pboOpaque
+
+Defines the **BRUSHOBJ** parameter *pboOpaque*.
 
 ### -param pptlOrg
 
+Defines the **POINTL** parameter *pptlOrg*.
+
 ### -param mix
 
+Defines the **MIX** parameter *mix*.
+
+## -returns
+
+Returns a **BOOL** value.

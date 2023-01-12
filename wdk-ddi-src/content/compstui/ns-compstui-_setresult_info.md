@@ -1,10 +1,9 @@
 ---
 UID: NS:compstui._SETRESULT_INFO
-title: _SETRESULT_INFO (compstui.h)
+title: SETRESULT_INFO (compstui.h)
 description: The SETRESULT_INFO structure is used as an input parameter to an application's PFNPROPSHEETUI-typed callback function.
-old-location: print\setresult_info.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 11/16/2022
 keywords: ["SETRESULT_INFO structure"]
 ms.keywords: "*PSETRESULT_INFO, PSETRESULT_INFO, PSETRESULT_INFO structure pointer [Print Devices], SETRESULT_INFO, SETRESULT_INFO structure [Print Devices], _SETRESULT_INFO, compstui/PSETRESULT_INFO, compstui/SETRESULT_INFO, cpsuifnc_df5b07fc-1a38-4ae2-a994-2862d9791b10.xml, print.setresult_info"
 req.header: compstui.h
@@ -46,18 +45,15 @@ api_name:
  - SETRESULT_INFO
 ---
 
-# _SETRESULT_INFO structure
-
-
 ## -description
 
-The SETRESULT_INFO structure is used as an input parameter to an application's <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a>-typed callback function.
+The **SETRESULT_INFO** structure is used as an input parameter to an application's [PFNPROPSHEETUI](./nc-compstui-pfnpropsheetui.md)-typed callback function.
 
 ## -struct-fields
 
 ### -field cbSize
 
-CPSUI-supplied size, in bytes, of the SETRESULT_INFO structure.
+CPSUI-supplied size, in bytes, of the **SETRESULT_INFO** structure.
 
 ### -field wReserved
 
@@ -65,19 +61,18 @@ Reserved.
 
 ### -field hSetResult
 
-CPSUI-supplied handle to an added property sheet page, obtained from the application. For more information, see the following Remarks section.
+CPSUI-supplied handle to an added property sheet page, obtained from the application. For more information, see the **Remarks** section below.
 
 ### -field Result
 
-CPSUI-supplied handle to an added property sheet page, obtained from the application. For more information, see the following Remarks section.
+CPSUI-supplied handle to an added property sheet page, obtained from the application. For more information, see the **Remarks** section below.
 
 ## -remarks
 
-When an application calls CPSUI's <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function, specifying a function code of <a href="/previous-versions/ff547087(v=vs.85)">CPSFUNC_SET_RESULT</a>, CPSUI calls all registered <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a>-typed functions, specifying a reason of PROPSHEETUI_REASON_SET_RESULT. When specifying this reason, CPSUI also supplies a SETRESULT_INFO structure.
+When an application calls CPSUI's [ComPropSheet](./nc-compstui-pfncompropsheet.md) function, specifying a function code of [CPSFUNC_SET_RESULT](/previous-versions/ff547087(v=vs.85)), CPSUI calls all registered [PFNPROPSHEETUI](./nc-compstui-pfnpropsheetui.md)-typed functions, specifying a reason of PROPSHEETUI_REASON_SET_RESULT. When specifying this reason, CPSUI also supplies a **SETRESULT_INFO** structure.
 
-The values contained in the structure's <b>hSetResult</b> and <b>Result</b> members are the <i>lParam1</i> and <i>lParam2</i> values, respectively, that were supplied to CPSUI's <b>ComPropSheet</b> function.
+The values contained in the structure's **hSetResult** and **Result** members are the *lParam1* and *lParam2* values, respectively, that were supplied to CPSUI's **ComPropSheet** function.
 
-Each of the application's PFNPROPSHEETUI-typed functions is called in order, from the one most recently declared to the first one declared, until one of these functions provides a return value of less than one. At that point, CPSUI returns from its <b>ComPropSheet</b> function, providing a count of the number of PFNPROPSHEETUI-typed functions that were called.
+Each of the application's PFNPROPSHEETUI-typed functions is called in order, from the one most recently declared to the first one declared, until one of these functions provides a return value of less than one. At that point, CPSUI returns from its **ComPropSheet** function, providing a count of the number of PFNPROPSHEETUI-typed functions that were called.
 
-Typically, an application's PFNPROPSHEETUI-typed function sets the <b>Result</b> member of its PROPSHEETUI_INFO structure to the value received in the SETRESULT_INFO structure's <b>Result</b> member. Then the function returns a value of 1 (or greater), so the next PFNPROPSHEETUI-typed function can also receive it. Each subsequently called function is associated with a page that is the parent of the page associated with the last-called function. A function can modify the contents of SETRESULT_INFO structure's <b>Result</b> member, causing the functions associated with parent pages to receive the new value.
-
+Typically, an application's PFNPROPSHEETUI-typed function sets the **Result** member of its PROPSHEETUI_INFO structure to the value received in the **SETRESULT_INFO** structure's **Result** member. Then the function returns a value of 1 (or greater), so the next PFNPROPSHEETUI-typed function can also receive it. Each subsequently called function is associated with a page that is the parent of the page associated with the last-called function. A function can modify the contents of **SETRESULT_INFO** structure's **Result** member, causing the functions associated with parent pages to receive the new value.

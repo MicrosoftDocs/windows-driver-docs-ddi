@@ -4,7 +4,7 @@ title: IsReparseTagMicrosoft macro (ntifs.h)
 description: The IsReparseTagMicrosoft macro determines whether a reparse point tag indicates a Microsoft reparse point.
 old-location: ifsk\isreparsetagmicrosoft.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/26/2022
 keywords: ["IsReparseTagMicrosoft macro"]
 ms.keywords: IsReparseTagMicrosoft, IsReparseTagMicrosoft function [Installable File System Drivers], ifsk.isreparsetagmicrosoft, ioref_ef573233-e933-490e-b762-1ce20343c65c.xml, ntifs/IsReparseTagMicrosoft
 req.header: ntifs.h
@@ -42,60 +42,40 @@ api_name:
 
 # IsReparseTagMicrosoft macro
 
-
 ## -description
 
-The <b>IsReparseTagMicrosoft</b> macro determines whether a reparse point tag indicates a Microsoft reparse point.
+The **IsReparseTagMicrosoft** macro determines whether a reparse point tag indicates a Microsoft reparse point.
 
 ## -parameters
 
 ### -param _tag [in]
 
-
 Reparse point tag to be tested.
 
 ## -remarks
 
-Only Microsoft reparse points can use Microsoft tags. Third-party reparse points must use non-Microsoft tags. However, third-party drivers can set Microsoft reparse points. For more information, see the Remarks section of the reference entry for the <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_guid_data_buffer">REPARSE_GUID_DATA_BUFFER</a> structure. 
+Only Microsoft reparse points can use Microsoft tags. Third-party reparse points must use non-Microsoft tags. However, third-party drivers can set Microsoft reparse points. For more information, see the Remarks section of the reference entry for the [**REPARSE_GUID_DATA_BUFFER**](ns-ntifs-_reparse_guid_data_buffer.md) structure.
 
 For more information about reparse points, see the Microsoft Windows SDK documentation.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ifs/fsctl-delete-reparse-point">FSCTL_DELETE_REPARSE_POINT</a>
+[**FSCTL_DELETE_REPARSE_POINT**](/windows-hardware/drivers/ifs/fsctl-delete-reparse-point)
 
+[**FSCTL_GET_REPARSE_POINT**](/windows-hardware/drivers/ifs/fsctl-get-reparse-point)
 
+[**FSCTL_SET_REPARSE_POINT**](/windows-hardware/drivers/ifs/fsctl-set-reparse-point)
 
-<a href="/windows-hardware/drivers/ifs/fsctl-get-reparse-point">FSCTL_GET_REPARSE_POINT</a>
+[**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md)
 
+[**FltTagFile**](../fltkernel/nf-fltkernel-flttagfile.md)
 
+[**FltUntagFile**](../fltkernel/nf-fltkernel-fltuntagfile.md)
 
-<a href="/windows-hardware/drivers/ifs/fsctl-set-reparse-point">FSCTL_SET_REPARSE_POINT</a>
+[**IsReparseTagNameSurrogate**](nf-ntifs-isreparsetagnamesurrogate.md)
 
+[**REPARSE_DATA_BUFFER**](ns-ntifs-_reparse_data_buffer.md)
 
+[**REPARSE_GUID_DATA_BUFFER**](ns-ntifs-_reparse_guid_data_buffer.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfscontrolfile">FltFsControlFile</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-flttagfile">FltTagFile</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuntagfile">FltUntagFile</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-isreparsetagnamesurrogate">IsReparseTagNameSurrogate</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_data_buffer">REPARSE_DATA_BUFFER</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_guid_data_buffer">REPARSE_GUID_DATA_BUFFER</a>
-
-
-
-<a href="/previous-versions/ff566462(v=vs.85)">ZwFsControlFile</a>
+[**ZwFsControlFile**](nf-ntifs-zwfscontrolfile.md)

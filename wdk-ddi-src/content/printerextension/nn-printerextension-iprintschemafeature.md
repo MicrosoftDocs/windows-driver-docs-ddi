@@ -3,14 +3,14 @@ UID: NN:printerextension.IPrintSchemaFeature
 title: IPrintSchemaFeature (printerextension.h)
 description: Exposes a Print Schema Feature element.
 tech.root: print
-ms.date: 06/11/2021
+ms.date: 08/04/2022
 keywords: ["IPrintSchemaFeature interface"]
 ms.keywords: IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices], IPrintSchemaFeature interface [Print Devices],described, print.iprintschemafeature_interface, printerextension/IPrintSchemaFeature
 req.header: printerextension.h
 req.include-header: Printerextension.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -38,8 +38,6 @@ api_location:
 api_name:
  - IPrintSchemaFeature
 ---
-
-# IPrintSchemaFeature interface
 
 ## -description
 

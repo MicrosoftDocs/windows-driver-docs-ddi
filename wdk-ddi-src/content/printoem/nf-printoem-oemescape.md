@@ -2,9 +2,8 @@
 UID: NF:printoem.OEMEscape
 title: OEMEscape function (printoem.h)
 description: The OEMEscape function retrieves information from a device that is not available in a device-independent device driver interface; the particular query depends on the value of the iEsc parameter.
-old-location: print\oemescape.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 08/09/2022
 keywords: ["OEMEscape function"]
 ms.keywords: OEMEscape, OEMEscape function [Print Devices], print.oemescape, print_unidrv-pscript_rendering_6f5f3a3e-6027-4524-bb11-1010dfc48727.xml, printoem/OEMEscape
 req.header: printoem.h
@@ -40,28 +39,36 @@ api_name:
  - OEMEscape
 ---
 
-# OEMEscape function
-
-
 ## -description
 
-The <code>OEMEscape</code> function retrieves information from a device that is not available in a device-independent device driver interface; the particular query depends on the value of the <i>iEsc</i> parameter.
+The **OEMEscape** function retrieves information from a device that is not available in a device-independent device driver interface; the particular query depends on the value of the *iEsc* parameter.
 
 ## -parameters
 
 ### -param pso
 
+Defines the **SURFOBJ** parameter *pso*.
+
 ### -param iEsc
+
+Defines the **ULONG** parameter *iEsc*.
 
 ### -param cjIn
 
+Defines the **ULONG** parameter *cjIn*.
+
 ### -param pvIn [in]
 
-
+Defines the **PVOID** parameter *pvIn*.
 
 ### -param cjOut
 
+Defines the **ULONG** parameter *cjOut*.
+
 ### -param pvOut [out]
 
+Defines the **PVOID** parameter *pvOut*.
 
+## -returns
 
+Returns a **ULONG** value.

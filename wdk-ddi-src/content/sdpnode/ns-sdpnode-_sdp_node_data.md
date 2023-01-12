@@ -4,7 +4,7 @@ title: _SDP_NODE_DATA (sdpnode.h)
 description: The SDP_NODE_DATA union holds the data of an element in a tree-based representation of an SDP record.
 old-location: bltooth\sdp_node_data.htm
 tech.root: bltooth
-ms.date: 04/27/2018
+ms.date: 08/11/2022
 keywords: ["SDP_NODE_DATA structure"]
 ms.keywords: "*PSDP_NODE_DATA, PSDP_NODE_DATA, PSDP_NODE_DATA union pointer [Bluetooth Devices], SDP_NODE_DATA, SDP_NODE_DATA union [Bluetooth Devices], _SDP_NODE_DATA, bltooth.sdp_node_data, bth_structs_c97da04d-31d0-4e0b-b909-9a1fae7d53dd.xml, sdpnode/PSDP_NODE_DATA, sdpnode/SDP_NODE_DATA"
 req.header: sdpnode.h
@@ -48,11 +48,9 @@ api_name:
 
 # _SDP_NODE_DATA structure
 
-
 ## -description
 
-The SDP_NODE_DATA union holds the data of an element in a tree-based representation of an SDP
-  record.
+The SDP_NODE_DATA union holds the data of an element in a tree-based representation of an SDP record.
 
 ## -struct-fields
 
@@ -74,11 +72,11 @@ The union member for a 32-bit UUID.
 
 ### -field uuid16
 
-      The union member for a 16-bit UUID.
+The union member for a 16-bit UUID.
 
 ### -field int64
 
-      The union member for a 64-bit integer.
+The union member for a 64-bit integer.
 
 ### -field uint64
 
@@ -114,7 +112,7 @@ The union member for a Boolean value.
 
 ### -field string
 
-      The union member for a string value.
+The union member for a string value.
 
 ### -field url
 
@@ -122,9 +120,7 @@ The union member for a URL value.
 
 ### -field sequence
 
-An 
-     <a href="/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node_header">SDP_NODE_HEADER</a> structure that references
-     the elements of a sequence.
+An [SDP_NODE_HEADER](./ns-sdpnode-_sdp_node_header.md) structure that references the elements of a sequence.
 
 ### -field alternative
 
@@ -136,62 +132,23 @@ A list of pointers to user-mode specific interfaces.
 
 ### -field stream
 
+The address of a portion of the original SDP stream that produced the current SDP node.
+
 ### -field streamLength
 
- 
-
-
-
-
-### -field ( unnamed struct )
-
-The union member for a 128-bit integer.
-
-
-
-#### stream
-
-
-       The address of a portion of the original SDP stream that produced the current SDP node.
-      
-
-
-
-#### streamLength
-
-
-       The length of the portion of the original SDP stream that produced the current SDP node.
+The length of the portion of the original SDP stream that produced the current SDP node.
 
 ## -remarks
 
-Each 
-    <a href="/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a> structure in the tree representation of an
-    SDP record contains a SDP_NODE_HEADER structure and an SDP_NODE_DATA union.
+Each [SDP_NODE](./ns-sdpnode-_sdp_node.md) structure in the tree representation of an SDP record contains a SDP_NODE_HEADER structure and an SDP_NODE_DATA union.
 
-The header specifies the type of data. Driver developers can access links to peer 
-    <b>SDP_NODE</b> structures by calling the 
-    <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure of the header. By evaluating 
-    <code>Node.hdr.Link.Flink</code>and 
-    <code>Node.hdr.Link.Blink</code>, drivers can obtain the addresses of peer
-    nodes in the tree. Keep in mind that 
-    <b>LIST_ENTRY</b> pointers contain the addresses of other LIST_ENTRY structures, and that the profile
-    driver must use the 
-    [**CONTAINING_RECORD**](/windows/win32/api/ntdef/nf-ntdef-containing_record) memory manager macro to
-    extract the address of the containing node record.
+The header specifies the type of data. Driver developers can access links to peer **SDP_NODE** structures by calling the [LIST_ENTRY](/windows/win32/api/ntdef/ns-ntdef-list_entry) structure of the header. By evaluating `Node.hdr.Link.Flink`and `Node.hdr.Link.Blink`, drivers can obtain the addresses of peer nodes in the tree. Keep in mind that **LIST_ENTRY** pointers contain the addresses of other LIST_ENTRY structures, and that the profile driver must use the [CONTAINING_RECORD](/windows/win32/api/ntdef/nf-ntdef-containing_record) memory manager macro to extract the address of the containing node record.
+
+The unnamed struct contains the union member for a 128-bit integer.
 
 ## -see-also
 
-[**CONTAINING_RECORD**](/windows/win32/api/ntdef/nf-ntdef-containing_record)
-
-
-
-<a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node_header">SDP_NODE_HEADER</a>
-
+- [SDP_NODE_HEADER](./ns-sdpnode-_sdp_node_header.md)
+- [SDP_NODE](./ns-sdpnode-_sdp_node.md)
+- [LIST_ENTRY](/windows/win32/api/ntdef/ns-ntdef-list_entry)
+- [CONTAINING_RECORD](/windows/win32/api/ntdef/nf-ntdef-containing_record)
