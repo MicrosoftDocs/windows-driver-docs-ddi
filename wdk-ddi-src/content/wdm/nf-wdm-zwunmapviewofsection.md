@@ -47,7 +47,7 @@ The **ZwUnmapViewOfSection** routine unmaps a [view](/windows-hardware/drivers/k
 
 ### -param ProcessHandle [in]
 
-Handle to a process object that was previously passed to [ZwMapViewOfSection](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwmapviewofsection).
+Handle to a process object that was previously passed to [ZwMapViewOfSection](./nf-wdm-zwmapviewofsection.md).
 
 ### -param BaseAddress [in, optional]
 
@@ -76,6 +76,6 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[ZwMapViewOfSection](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwmapviewofsection)
+[ZwMapViewOfSection](./nf-wdm-zwmapviewofsection.md)
 
-[ZwOpenSection](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopensection)
+[ZwOpenSection](./nf-wdm-zwopensection.md)

@@ -48,7 +48,7 @@ The **GetResources** routine returns the resources that the PCI Express (PCIe) p
 
 ### -param Context [in, out]
 
-A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [**PCI_VIRTUALIZATION_INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-pci_virtualization_interface) structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [**PCI_VIRTUALIZATION_INTERFACE**](./ns-wdm-pci_virtualization_interface.md) structure for the interface.
 
 ### -param CapturedBusNumbers [out]
 
@@ -94,4 +94,4 @@ The **GetResources** routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERF
 
 ## -see-also
 
-[**PCI_VIRTUALIZATION_INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-pci_virtualization_interface)
+[**PCI_VIRTUALIZATION_INTERFACE**](./ns-wdm-pci_virtualization_interface.md)

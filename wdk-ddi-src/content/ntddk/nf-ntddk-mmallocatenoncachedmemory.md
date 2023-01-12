@@ -65,12 +65,12 @@ Memory that **MmAllocateNonCachedMemory** allocates is uninitialized. A kernel-m
 
 ## -see-also
 
-[AllocateCommonBuffer](/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer)
+[AllocateCommonBuffer](../wdm/nc-wdm-pallocate_common_buffer.md)
 
 [KeGetDcacheFillSize](/windows-hardware/drivers/kernel/mmcreatemdl)
 
-[MmAllocateContiguousMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatecontiguousmemory)
+[MmAllocateContiguousMemory](../wdm/nf-wdm-mmallocatecontiguousmemory.md)
 
-[MmAllocateContiguousMemorySpecifyCache](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatecontiguousmemoryspecifycache)
+[MmAllocateContiguousMemorySpecifyCache](../wdm/nf-wdm-mmallocatecontiguousmemoryspecifycache.md)
 
-[MmFreeNonCachedMemory](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmfreenoncachedmemory)
+[MmFreeNonCachedMemory](./nf-ntddk-mmfreenoncachedmemory.md)

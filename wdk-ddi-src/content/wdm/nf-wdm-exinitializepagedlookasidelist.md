@@ -93,7 +93,7 @@ Specifies the size in bytes of each entry in the lookaside list.
 
 ### -param Tag [in]
 
-Specifies the pool tag to use when allocating lookaside list entries. For more information about pool tags, see the *Tag* parameter of [ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag).
+Specifies the pool tag to use when allocating lookaside list entries. For more information about pool tags, see the *Tag* parameter of [ExAllocatePoolWithTag](./nf-wdm-exallocatepoolwithtag.md).
 
 ### -param Depth [in]
 
@@ -101,13 +101,13 @@ Reserved. Must be zero.
 
 ## -remarks
 
-After calling **ExInitializePagedLookasideList**, blocks of the caller-specified *Size* can be allocated from and freed to the lookaside list with calls to [ExAllocateFromPagedLookasideList](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefrompagedlookasidelist) and [ExFreeToPagedLookasideList](/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreetopagedlookasidelist), respectively. Such dynamically allocated and freed entries can be any data structure or fixed-size buffer that the caller uses while the system is running, particularly if the caller cannot predetermine how many such entries will be in use at any given moment. The layout and contents of each fixed-size entry are caller-determined.
+After calling **ExInitializePagedLookasideList**, blocks of the caller-specified *Size* can be allocated from and freed to the lookaside list with calls to [ExAllocateFromPagedLookasideList](./nf-wdm-exallocatefrompagedlookasidelist.md) and [ExFreeToPagedLookasideList](./nf-wdm-exfreetopagedlookasidelist.md), respectively. Such dynamically allocated and freed entries can be any data structure or fixed-size buffer that the caller uses while the system is running, particularly if the caller cannot predetermine how many such entries will be in use at any given moment. The layout and contents of each fixed-size entry are caller-determined.
 
 **ExInitializePagedLookasideList** initializes the system state to track usage of the given lookaside list, as follows:
 
 - Zero-initializes the counters to be maintained for entries.
 
-- Stores the entry points of the caller-supplied ***Xxx*Allocate** and ***Xxx*Free** routines, if any, or sets these entry points to [ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag) and [ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool), respectively.
+- Stores the entry points of the caller-supplied ***Xxx*Allocate** and ***Xxx*Free** routines, if any, or sets these entry points to [ExAllocatePoolWithTag](./nf-wdm-exallocatepoolwithtag.md) and [ExFreePool](../ntddk/nf-ntddk-exfreepool.md), respectively.
 
 - Initializes a system spin lock to control allocations from and frees to the lookaside list in a multiprocessor-safe manner if necessary.
 
@@ -119,7 +119,7 @@ After calling **ExInitializePagedLookasideList**, blocks of the caller-specified
 
 The system maintains a set of all lookaside lists in use. As demand for lookaside list entries and on available paged memory varies while the system runs, the system adjusts its limits for the number of entries to be held in each paged lookaside list dynamically.
 
-Drivers must always use explicitly free any lookaside lists they create before unloading. To do otherwise is a serious programming error. Use [ExDeletePagedLookasideList](/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletepagedlookasidelist) to free the list.
+Drivers must always use explicitly free any lookaside lists they create before unloading. To do otherwise is a serious programming error. Use [ExDeletePagedLookasideList](./nf-wdm-exdeletepagedlookasidelist.md) to free the list.
 
 **ExInitializePagedLookasideList** sets up the opaque list head at the caller-supplied location but preallocates no memory for list entries. Subsequently, the initial entries are allocated dynamically as calls to **ExAllocateFromPagedLookasideList** occur, and these initial entries are held in the lookaside list as reciprocal calls to **ExFreeToPagedLookasideList** occur. Entries collect in the given lookaside list until the system-determined maximum is reached, whereupon any additional entries are returned to paged pool as they are freed. If the list becomes empty, allocate requests are satisfied by the ***Xxx*Allocate** function specified at list initialization or by **ExAllocatePoolWithTag**.
 
@@ -127,23 +127,23 @@ It is more efficient to pass **NULL** pointers for the *Allocate* and *Free* par
 
 If the caller of **ExInitializePagedLookasideList** supplies an ***Xxx*Allocate** function, that function must allocate entries for the lookaside list using the given input parameters when it calls **ExAllocatePoolWithTag.**
 
-Starting with Windows Vista, a similar routine, [ExInitializeLookasideListEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializelookasidelistex), initializes a lookaside list that is described by a [LOOKASIDE_LIST_EX](/windows-hardware/drivers/kernel/eprocess) structure. Unlike the ***Xxx*Allocate** and ***Xxx*Free** routines for a lookaside list that uses a **PAGED_LOOKASIDE_LIST** structure, the allocation and deallocation routines for a lookaside list that uses the **LOOKASIDE_LIST_EX** structure receive a context pointer as an input parameter. These routines can use this context to store private data for the lookaside list. If your driver is intended to run only in Windows Vista and later versions of Windows, consider using **ExInitializeLookasideListEx** instead of **ExInitializePagedLookasideList**. For more information, see [Using Lookaside Lists](/windows-hardware/drivers/kernel/using-lookaside-lists).
+Starting with Windows Vista, a similar routine, [ExInitializeLookasideListEx](./nf-wdm-exinitializelookasidelistex.md), initializes a lookaside list that is described by a [LOOKASIDE_LIST_EX](/windows-hardware/drivers/kernel/eprocess) structure. Unlike the ***Xxx*Allocate** and ***Xxx*Free** routines for a lookaside list that uses a **PAGED_LOOKASIDE_LIST** structure, the allocation and deallocation routines for a lookaside list that uses the **LOOKASIDE_LIST_EX** structure receive a context pointer as an input parameter. These routines can use this context to store private data for the lookaside list. If your driver is intended to run only in Windows Vista and later versions of Windows, consider using **ExInitializeLookasideListEx** instead of **ExInitializePagedLookasideList**. For more information, see [Using Lookaside Lists](/windows-hardware/drivers/kernel/using-lookaside-lists).
 
 ## -see-also
 
-[ExAllocateFromPagedLookasideList](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefrompagedlookasidelist)
+[ExAllocateFromPagedLookasideList](./nf-wdm-exallocatefrompagedlookasidelist.md)
 
-[ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag)
+[ExAllocatePoolWithTag](./nf-wdm-exallocatepoolwithtag.md)
 
-[ExDeletePagedLookasideList](/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletepagedlookasidelist)
+[ExDeletePagedLookasideList](./nf-wdm-exdeletepagedlookasidelist.md)
 
-[ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool)
+[ExFreePool](../ntddk/nf-ntddk-exfreepool.md)
 
-[ExFreeToPagedLookasideList](/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreetopagedlookasidelist)
+[ExFreeToPagedLookasideList](./nf-wdm-exfreetopagedlookasidelist.md)
 
-[ExInitializeLookasideListEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializelookasidelistex)
+[ExInitializeLookasideListEx](./nf-wdm-exinitializelookasidelistex.md)
 
-[ExInitializeNPagedLookasideList](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializenpagedlookasidelist)
+[ExInitializeNPagedLookasideList](./nf-wdm-exinitializenpagedlookasidelist.md)
 
 [LOOKASIDE_LIST_EX](/windows-hardware/drivers/kernel/eprocess)
 

@@ -73,7 +73,7 @@ Note that if the **Vpb** member is non-**NULL**, the file resides on a mounted v
 
 ### -field FsContext
 
-A pointer to whatever optional state a driver maintains about the file object; otherwise, **NULL**. For file system drivers, this member must point to a [**FSRTL_ADVANCED_FCB_HEADER**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsrtl_advanced_fcb_header) header structure that is contained within a file-system-specific structure; otherwise system instability can result. Usually, this header structure is embedded in a file control block (FCB). However, on some file systems that support multiple data streams, such as NTFS, this header structure is a stream control block (SCB).
+A pointer to whatever optional state a driver maintains about the file object; otherwise, **NULL**. For file system drivers, this member must point to a [**FSRTL_ADVANCED_FCB_HEADER**](../ntifs/ns-ntifs-_fsrtl_advanced_fcb_header.md) header structure that is contained within a file-system-specific structure; otherwise system instability can result. Usually, this header structure is embedded in a file control block (FCB). However, on some file systems that support multiple data streams, such as NTFS, this header structure is a stream control block (SCB).
 
 In a WDM device stack, only the functional device object (FDO) can use the two context pointers. File system drivers share this member across multiple opens to the same data stream.
 
@@ -143,7 +143,7 @@ A read-only member used by the system to hold one or more (a bitwise inclusive O
 | **FO_NO_INTERMEDIATE_BUFFERING** | The file associated with the file object cannot be cached or buffered in a driver's internal buffers. |
 | **FO_WRITE_THROUGH** | System services, file system drivers, and drivers that write data to the file must transfer the data into the file before any requested write operation is considered complete. |
 | **FO_SEQUENTIAL_ONLY** | The file associated with the file object was opened for sequential I/O operations only. |
-| **FO_CACHE_SUPPORTED** | The file associated with the file object is cacheable. This flag should be set only by a file system driver, and only if the **FsContext** member points to a valid [**FSRTL_ADVANCED_FCB_HEADER**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsrtl_advanced_fcb_header) structure. |
+| **FO_CACHE_SUPPORTED** | The file associated with the file object is cacheable. This flag should be set only by a file system driver, and only if the **FsContext** member points to a valid [**FSRTL_ADVANCED_FCB_HEADER**](../ntifs/ns-ntifs-_fsrtl_advanced_fcb_header.md) structure. |
 | **FO_NAMED_PIPE** | The file object represents a named pipe. |
 | **FO_STREAM_FILE** | The file object represents a file stream. |
 | **FO_MAILSLOT** | The file object represents a mailslot. |
@@ -168,7 +168,7 @@ A read-only member used by the system to hold one or more (a bitwise inclusive O
 
 ### -field FileName
 
-A [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure whose **Buffer** member points to a read-only Unicode string that holds the name of the file opened on the volume. If the volume is being opened, the **Length** member of the **UNICODE_STRING** structure will be zero. Note that the file name in this string is valid only during the initial processing of an [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create) request. This file name should not be considered valid after the file system starts to process the **IRP_MJ_CREATE** request. The storage for the string pointed to by the **Buffer** member of the **UNICODE_STRING** structure is allocated in paged system memory. For more information about obtaining a file name, see [FltGetFileNameInformation](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformation).
+A [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure whose **Buffer** member points to a read-only Unicode string that holds the name of the file opened on the volume. If the volume is being opened, the **Length** member of the **UNICODE_STRING** structure will be zero. Note that the file name in this string is valid only during the initial processing of an [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create) request. This file name should not be considered valid after the file system starts to process the **IRP_MJ_CREATE** request. The storage for the string pointed to by the **Buffer** member of the **UNICODE_STRING** structure is allocated in paged system memory. For more information about obtaining a file name, see [FltGetFileNameInformation](../fltkernel/nf-fltkernel-fltgetfilenameinformation.md).
 
 ### -field CurrentByteOffset
 
@@ -220,11 +220,11 @@ All remaining members in a file object are either opaque or read-only:
 
 - Drivers can use read-only members to acquire relevant information but must not modify read-only members and, if a pointer, the object that the member points to.
 
-During the processing of an [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create) request, a file system driver calls the [IoSetShareAccess](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetshareaccess) routine (if the client is the first to open the file) or the [IoCheckShareAccess](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocheckshareaccess) routine (for subsequent clients that want to share the file). **IoSetShareAccess** and **IoCheckShareAccess** update the **ReadAccess**, **WriteAccess**, and **DeleteAccess** members to indicate the access rights that are granted to the client if the client has exclusive access to the file. Additionally, **IoCheckShareAccess** updates the **SharedRead**, **SharedWrite**, and **SharedDelete** members to indicate the access rights that are simultaneously granted to two or more clients that share the file. If the driver for a device other than a file system has to monitor the access rights of clients, this driver typically stores access rights information in context buffers that are pointed to by the **FsContext** and **FsContext2** members.
+During the processing of an [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create) request, a file system driver calls the [IoSetShareAccess](./nf-wdm-iosetshareaccess.md) routine (if the client is the first to open the file) or the [IoCheckShareAccess](./nf-wdm-iocheckshareaccess.md) routine (for subsequent clients that want to share the file). **IoSetShareAccess** and **IoCheckShareAccess** update the **ReadAccess**, **WriteAccess**, and **DeleteAccess** members to indicate the access rights that are granted to the client if the client has exclusive access to the file. Additionally, **IoCheckShareAccess** updates the **SharedRead**, **SharedWrite**, and **SharedDelete** members to indicate the access rights that are simultaneously granted to two or more clients that share the file. If the driver for a device other than a file system has to monitor the access rights of clients, this driver typically stores access rights information in context buffers that are pointed to by the **FsContext** and **FsContext2** members.
 
-The type of object (for example, a file, directory, or volume) that a given file object represents cannot be determined by only examining the contents of the file object structure. For information about how to determine the type of object that a file object represents, see [ZwQueryInformationFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile).
+The type of object (for example, a file, directory, or volume) that a given file object represents cannot be determined by only examining the contents of the file object structure. For information about how to determine the type of object that a file object represents, see [ZwQueryInformationFile](../ntifs/nf-ntifs-ntqueryinformationfile.md).
 
-The Common Log File System (CLFS) uses the **LOG_FILE_OBJECT** structure to represent logs. The [ClfsCreateLogFile](/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile) function returns a pointer to a **LOG_FILE_OBJECT** structure, which clients then pass to other CLFS functions.
+The Common Log File System (CLFS) uses the **LOG_FILE_OBJECT** structure to represent logs. The [ClfsCreateLogFile](./nf-wdm-clfscreatelogfile.md) function returns a pointer to a **LOG_FILE_OBJECT** structure, which clients then pass to other CLFS functions.
 
 CLFS clients do not directly access the members of a **LOG_FILE_OBJECT** structure.
 
@@ -234,20 +234,20 @@ typedef FILE_OBJECT LOG_FILE_OBJECT, *PLOG_FILE_OBJECT, **PPLOG_FILE_OBJECT;
 
 ## -see-also
 
-[**DEVICE_OBJECT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object)
+[**DEVICE_OBJECT**](./ns-wdm-_device_object.md)
 
 [FOBX](/windows-hardware/drivers/ifs/the-fobx-structure)
 
-[**FSRTL_ADVANCED_FCB_HEADER**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsrtl_advanced_fcb_header)
+[**FSRTL_ADVANCED_FCB_HEADER**](../ntifs/ns-ntifs-_fsrtl_advanced_fcb_header.md)
 
 [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create)
 
-[IoCheckShareAccess](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocheckshareaccess)
+[IoCheckShareAccess](./nf-wdm-iocheckshareaccess.md)
 
-[IoGetDeviceObjectPointer](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceobjectpointer)
+[IoGetDeviceObjectPointer](./nf-wdm-iogetdeviceobjectpointer.md)
 
-[IoSetShareAccess](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetshareaccess)
+[IoSetShareAccess](./nf-wdm-iosetshareaccess.md)
 
-[ObDereferenceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject)
+[ObDereferenceObject](./nf-wdm-obdereferenceobject.md)
 
-[ZwQueryInformationFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile)
+[ZwQueryInformationFile](../ntifs/nf-ntifs-ntqueryinformationfile.md)

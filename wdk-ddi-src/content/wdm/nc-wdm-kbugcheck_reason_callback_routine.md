@@ -80,14 +80,14 @@ For sample code that shows how to write data to the crash dump file, see [DMF_Cr
 
 ## -see-also
 
-[**KBUGCHECK_ADD_PAGES**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_kbugcheck_add_pages)
+[**KBUGCHECK_ADD_PAGES**](./ns-wdm-_kbugcheck_add_pages.md)
 
-[KBUGCHECK_CALLBACK_REASON](/windows-hardware/drivers/ddi/wdm/ne-wdm-_kbugcheck_callback_reason)
+[KBUGCHECK_CALLBACK_REASON](./ne-wdm-_kbugcheck_callback_reason.md)
 
 [KBUGCHECK_REASON_CALLBACK_RECORD](/windows-hardware/drivers/kernel/eprocess)
 
-[KeRegisterBugCheckReasonCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckreasoncallback)
+[KeRegisterBugCheckReasonCallback](./nf-wdm-keregisterbugcheckreasoncallback.md)
 
-[KeDeregisterBugCheckReasonCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisterbugcheckreasoncallback)
+[KeDeregisterBugCheckReasonCallback](./nf-wdm-kederegisterbugcheckreasoncallback.md)
 
 [Writing a Bug Check Callback Routine](/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine).

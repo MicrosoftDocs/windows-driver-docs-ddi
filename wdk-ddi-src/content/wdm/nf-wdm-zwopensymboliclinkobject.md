@@ -51,7 +51,7 @@ Pointer to a HANDLE variable that receives a handle to the symbolic link object.
 
 ### -param DesiredAccess [in]
 
-Specifies an [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the object. The caller usually specified GENERIC_READ, so that the handle can be passed to [ZwQuerySymbolicLinkObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwquerysymboliclinkobject).
+Specifies an [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the object. The caller usually specified GENERIC_READ, so that the handle can be passed to [ZwQuerySymbolicLinkObject](./nf-wdm-zwquerysymboliclinkobject.md).
 
 ### -param ObjectAttributes [in]
 
@@ -63,7 +63,7 @@ Pointer to an [**OBJECT_ATTRIBUTES**](/windows/win32/api/ntdef/ns-ntdef-_object_
 
 ## -remarks
 
-Once the handle pointed to by *LinkHandle* is no longer in use, the driver must call [ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) to close it.
+Once the handle pointed to by *LinkHandle* is no longer in use, the driver must call [ZwClose](../ntifs/nf-ntifs-ntclose.md) to close it.
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see [Object Handles](/windows-hardware/drivers/kernel/object-handles).
 
@@ -81,4 +81,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[ZwQuerySymbolicLinkObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwquerysymboliclinkobject)
+[ZwQuerySymbolicLinkObject](./nf-wdm-zwquerysymboliclinkobject.md)

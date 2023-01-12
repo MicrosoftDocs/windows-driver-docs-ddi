@@ -51,7 +51,7 @@ Pointer to a HANDLE variable that receives a handle to the file.
 
 ### -param DesiredAccess [in]
 
-Specifies an [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the object. For more information, see the *DesiredAccess* parameter of [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile).
+Specifies an [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the object. For more information, see the *DesiredAccess* parameter of [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md).
 
 ### -param ObjectAttributes [in]
 
@@ -59,15 +59,15 @@ Pointer to an [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_attr
 
 ### -param IoStatusBlock [out]
 
-Pointer to an [IO_STATUS_BLOCK](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and information about the requested operation.
+Pointer to an [IO_STATUS_BLOCK](./ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested operation.
 
 ### -param ShareAccess [in]
 
-Specifies the type of share access for the file. For more information, see the *ShareAccess* parameter of [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile).
+Specifies the type of share access for the file. For more information, see the *ShareAccess* parameter of [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md).
 
 ### -param OpenOptions [in]
 
-Specifies the options to apply when opening the file. For more information, see the *CreateOptions* parameter of [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile).
+Specifies the options to apply when opening the file. For more information, see the *CreateOptions* parameter of [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md).
 
 ## -returns
 
@@ -75,9 +75,9 @@ Specifies the options to apply when opening the file. For more information, see 
 
 ## -remarks
 
-**ZwOpenFile** supplies a handle that the caller can use to manipulate a file's data, or the file object's state and attributes. **ZwOpenFile** provides a subset of the functionality provided by [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile). For more information, see [Using Files in a Driver](/windows-hardware/drivers/kernel/using-files-in-a-driver).
+**ZwOpenFile** supplies a handle that the caller can use to manipulate a file's data, or the file object's state and attributes. **ZwOpenFile** provides a subset of the functionality provided by [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md). For more information, see [Using Files in a Driver](/windows-hardware/drivers/kernel/using-files-in-a-driver).
 
-Once the handle pointed to by *FileHandle* is no longer in use, the driver must call [ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) to close it.
+Once the handle pointed to by *FileHandle* is no longer in use, the driver must call [ZwClose](../ntifs/nf-ntifs-ntclose.md) to close it.
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see [Object Handles](/windows-hardware/drivers/kernel/object-handles).
 
@@ -95,4 +95,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
+[ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md)

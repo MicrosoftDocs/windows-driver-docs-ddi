@@ -74,8 +74,8 @@ The **AddPrintDeviceObject** function should be called in the following situatio
 
 The print provider should call this function for each previously-installed Printer owned by the provider. During this time, **AddPrintDeviceObject** doesn't have to impersonate the user context when it is called.
 
-Any device object that is added using  **AddPrintDeviceObject** will persist until you remove it using [RemovePrintDeviceObject](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-removeprintdeviceobject), or until the spooler service restarts. And when the spooler services stops, all the device objects are automatically deleted.
+Any device object that is added using  **AddPrintDeviceObject** will persist until you remove it using [RemovePrintDeviceObject](./nf-winsplp-removeprintdeviceobject.md), or until the spooler service restarts. And when the spooler services stops, all the device objects are automatically deleted.
 
 ## -see-also
 
-[RemovePrintDeviceObject](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-removeprintdeviceobject)
+[RemovePrintDeviceObject](./nf-winsplp-removeprintdeviceobject.md)

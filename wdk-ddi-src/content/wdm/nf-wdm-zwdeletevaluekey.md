@@ -49,7 +49,7 @@ The **ZwDeleteValueKey** routine deletes a value entry matching a name from an o
 
 ### -param KeyHandle [in]
 
-The handle to the registry key containing the value entry of interest. This key must have been opened with KEY_SET_VALUE set for the desired access. This handle is created by a successful call to [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) or [ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey).
+The handle to the registry key containing the value entry of interest. This key must have been opened with KEY_SET_VALUE set for the desired access. This handle is created by a successful call to [ZwCreateKey](./nf-wdm-zwcreatekey.md) or [ZwOpenKey](./nf-wdm-zwopenkey.md).
 
 ### -param ValueName [in]
 
@@ -68,7 +68,7 @@ Pointer to a [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
 ## -remarks
 
-The *KeyHandle* passed to **ZwDeleteValueKey** must have been opened for delete access to succeed. The *DesiredAccess* values of KEY_SET_VALUE, KEY_WRITE, and KEY_ALL_ACCESS include the KEY_SET_VALUE access mask required for delete access. For a description of possible values for *DesiredAccess*, see [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey).
+The *KeyHandle* passed to **ZwDeleteValueKey** must have been opened for delete access to succeed. The *DesiredAccess* values of KEY_SET_VALUE, KEY_WRITE, and KEY_ALL_ACCESS include the KEY_SET_VALUE access mask required for delete access. For a description of possible values for *DesiredAccess*, see [ZwCreateKey](./nf-wdm-zwcreatekey.md).
 
 If callback functions are registered for this registry key, then these callback functions will be called.
 
@@ -82,14 +82,14 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey)
+[ZwCreateKey](./nf-wdm-zwcreatekey.md)
 
-[ZwDeleteKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwdeletekey)
+[ZwDeleteKey](./nf-wdm-zwdeletekey.md)
 
-[ZwEnumerateValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratevaluekey)
+[ZwEnumerateValueKey](./nf-wdm-zwenumeratevaluekey.md)
 
-[ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey)
+[ZwOpenKey](./nf-wdm-zwopenkey.md)
 
-[ZwQueryValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwqueryvaluekey)
+[ZwQueryValueKey](./nf-wdm-zwqueryvaluekey.md)
 
-[ZwSetValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey)
+[ZwSetValueKey](./nf-wdm-zwsetvaluekey.md)

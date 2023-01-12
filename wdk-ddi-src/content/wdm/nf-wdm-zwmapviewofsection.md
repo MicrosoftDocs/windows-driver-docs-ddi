@@ -47,7 +47,7 @@ The **ZwMapViewOfSection** routine maps a view of a section into the virtual add
 
 ### -param SectionHandle [in]
 
-Handle to a section object. This handle is created by a successful call to [ZwCreateSection](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatesection) or [ZwOpenSection](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopensection).
+Handle to a section object. This handle is created by a successful call to [ZwCreateSection](./nf-wdm-zwcreatesection.md) or [ZwOpenSection](./nf-wdm-zwopensection.md).
 
 ### -param ProcessHandle [in]
 
@@ -114,7 +114,7 @@ Several different views of a section can be concurrently mapped into the virtual
 
 If the specified section does not exist or the access requested is not allowed, **ZwMapViewOfSection** returns an error.
 
-Do not use **ZwMapViewOfSection** to map a memory range from **\Device\PhysicalMemory** into user mode—unless your driver has directly allocated the memory range through [MmAllocatePagesForMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl) or another method guaranteeing that no other system component has mapped the same memory range with a different [MEMORY_CACHING_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type) value.
+Do not use **ZwMapViewOfSection** to map a memory range from **\Device\PhysicalMemory** into user mode—unless your driver has directly allocated the memory range through [MmAllocatePagesForMdl](./nf-wdm-mmallocatepagesformdl.md) or another method guaranteeing that no other system component has mapped the same memory range with a different [MEMORY_CACHING_TYPE](./ne-wdm-_memory_caching_type.md) value.
 
 User applications cannot access **\Device\PhysicalMemory** directly starting with Windows Server 2003 with Service Pack 1 (SP1) and can access it only if the driver passes a handle to the application.
 
@@ -126,9 +126,9 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 ## -see-also
 
-[MEMORY_CACHING_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type)
+[MEMORY_CACHING_TYPE](./ne-wdm-_memory_caching_type.md)
 
-[MmAllocatePagesForMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl)
+[MmAllocatePagesForMdl](./nf-wdm-mmallocatepagesformdl.md)
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
@@ -136,6 +136,6 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [ZwCurrentProcess](/windows-hardware/drivers/kernel/zwcurrentprocess)
 
-[ZwOpenSection](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopensection)
+[ZwOpenSection](./nf-wdm-zwopensection.md)
 
-[ZwUnmapViewOfSection](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwunmapviewofsection)
+[ZwUnmapViewOfSection](./nf-wdm-zwunmapviewofsection.md)

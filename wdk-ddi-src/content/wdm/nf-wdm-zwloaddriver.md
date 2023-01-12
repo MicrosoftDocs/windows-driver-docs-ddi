@@ -59,7 +59,7 @@ Pointer to a counted Unicode string that specifies a path to the driver's regist
 
 If the system is running in safe mode, and the driver fails to load because it is not on the safe mode list, **ZwLoadDriver** returns STATUS_SUCCESS.
 
-A minifilter should use [FltLoadFilter](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltloadfilter) instead of **ZwLoadDriver** to load a supporting minifilter.
+A minifilter should use [FltLoadFilter](../fltkernel/nf-fltkernel-fltloadfilter.md) instead of **ZwLoadDriver** to load a supporting minifilter.
 
 If the call to the **ZwLoadDriver** function occurs in user mode, you should use the name "**NtLoadDriver**" instead of "**ZwLoadDriver**".
 
@@ -67,12 +67,12 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 ## -see-also
 
-[FltLoadFilter](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltloadfilter)
+[FltLoadFilter](../fltkernel/nf-fltkernel-fltloadfilter.md)
 
-[RtlInitUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitunicodestring)
+[RtlInitUnicodeString](./nf-wdm-rtlinitunicodestring.md)
 
 [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[ZwUnloadDriver](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwunloaddriver)
+[ZwUnloadDriver](./nf-wdm-zwunloaddriver.md)

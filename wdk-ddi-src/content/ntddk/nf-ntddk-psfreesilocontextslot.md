@@ -41,13 +41,13 @@ api_name:
 
 ## -description
 
-This routine  frees the specified slot and makes it available in the system. It undoes the effects of the  [PsAllocSiloContextSlot](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot) routine.
+This routine  frees the specified slot and makes it available in the system. It undoes the effects of the  [PsAllocSiloContextSlot](./nf-ntddk-psallocsilocontextslot.md) routine.
 
 ## -parameters
 
 ### -param ContextSlot [in]
 
-A slot allocated by the [PsAllocSiloContextSlot](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot) routine.
+A slot allocated by the [PsAllocSiloContextSlot](./nf-ntddk-psallocsilocontextslot.md) routine.
 
 > [!WARNING]
 > Setting this parameter to a slot that is still in use causes the system to execute bug check.
@@ -63,4 +63,4 @@ The following NT status codes are returned:
 
 ## -see-also
 
-[PsAllocSiloContextSlot](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot)
+[PsAllocSiloContextSlot](./nf-ntddk-psallocsilocontextslot.md)

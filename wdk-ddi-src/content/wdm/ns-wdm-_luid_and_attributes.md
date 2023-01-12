@@ -80,10 +80,10 @@ typedef LUID_AND_ATTRIBUTES_ARRAY *PLUID_AND_ATTRIBUTES_ARRAY;
 
 ## -see-also
 
-[**LUID**](/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid)
+[**LUID**](../igpupvdev/ns-igpupvdev-_luid.md)
 
 [**PRIVILEGE_SET**](/previous-versions/windows/hardware/drivers/ff551860(v=vs.85))
 
-[SeFilterToken](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sefiltertoken)
+[SeFilterToken](../ntifs/nf-ntifs-sefiltertoken.md)
 
-[SePrivilegeCheck](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seprivilegecheck)
+[SePrivilegeCheck](../ntifs/nf-ntifs-seprivilegecheck.md)

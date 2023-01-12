@@ -58,7 +58,7 @@ Caller-supplied pointer to a [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devm
 
 ### -param pAttributeInfo [out]
 
-Caller-supplied pointer to an [ATTRIBUTE_INFO_3](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3) structure that receives information about the print job.
+Caller-supplied pointer to an [ATTRIBUTE_INFO_3](../winddiui/ns-winddiui-_attribute_info_3.md) structure that receives information about the print job.
 
 ## -returns
 
@@ -66,8 +66,8 @@ Caller-supplied pointer to an [ATTRIBUTE_INFO_3](/windows-hardware/drivers/ddi/w
 
 ## -see-also
 
-[**ATTRIBUTE_INFO_3**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3)
+[**ATTRIBUTE_INFO_3**](../winddiui/ns-winddiui-_attribute_info_3.md)
 
 [**DEVMODEW**](/windows/win32/api/wingdi/ns-wingdi-devmodew)
 
-[GetJobAttributesEx](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-getjobattributesex)
+[GetJobAttributesEx](./nf-winsplp-getjobattributesex.md)

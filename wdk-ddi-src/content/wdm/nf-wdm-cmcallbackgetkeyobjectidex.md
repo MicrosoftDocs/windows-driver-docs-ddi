@@ -43,17 +43,17 @@ api_name:
 
 The **CmCallbackGetKeyObjectIDEx** routine retrieves the unique identifier and object name that are associated with a specified registry key object.
 
-This routine is available starting with Windows 8. In earlier versions of Windows, use the [CmCallbackGetKeyObjectID](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmcallbackgetkeyobjectid) routine instead. For more information, see the **Remarks** section below.
+This routine is available starting with Windows 8. In earlier versions of Windows, use the [CmCallbackGetKeyObjectID](./nf-wdm-cmcallbackgetkeyobjectid.md) routine instead. For more information, see the **Remarks** section below.
 
 ## -parameters
 
 ### -param Cookie [in]
 
-A cookie value that represents the caller's registration to receive registry filter callbacks. The driver previously obtained this cookie value from the [CmRegisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback) or [CmRegisterCallbackEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex) routine.
+A cookie value that represents the caller's registration to receive registry filter callbacks. The driver previously obtained this cookie value from the [CmRegisterCallback](./nf-wdm-cmregistercallback.md) or [CmRegisterCallbackEx](./nf-wdm-cmregistercallbackex.md) routine.
 
 ### -param Object [in]
 
-A pointer to the registry key object. This parameter is the pointer value that the driver's [RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) callback routine received in the **Object** member of one of the **REG_*XXX*_KEY_INFORMATION** structures.
+A pointer to the registry key object. This parameter is the pointer value that the driver's [RegistryCallback](./nc-wdm-ex_callback_function.md) callback routine received in the **Object** member of one of the **REG_*XXX*_KEY_INFORMATION** structures.
 
 > [!WARNING]
 > In certain circumstances registry callback notification structures may contain invalid non-NULL object pointers. Registry filtering drivers must not pass such pointers to this routine. For more information, see [Invalid Key Object Pointers in Registry Notifications](/windows-hardware/drivers/kernel/invalid-key-object-pointers-in-registry-notifications).
@@ -64,7 +64,7 @@ A pointer to a location that receives a pointer to the key identifier for the re
 
 ### -param ObjectName [out, optional]
 
-A pointer to a location that receives a pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure. This structure contains the object name of the registry key object that *Object* specifies. The object name is actually the full path name of the registry key that the object represents. The caller is responsible for freeing this structure by calling the [CmCallbackReleaseKeyObjectIDEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmcallbackreleasekeyobjectidex) routine. This parameter is optional and can be **NULL**. For more information, see Remarks.
+A pointer to a location that receives a pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure. This structure contains the object name of the registry key object that *Object* specifies. The object name is actually the full path name of the registry key that the object represents. The caller is responsible for freeing this structure by calling the [CmCallbackReleaseKeyObjectIDEx](./nf-wdm-cmcallbackreleasekeyobjectidex.md) routine. This parameter is optional and can be **NULL**. For more information, see Remarks.
 
 ### -param Flags [in]
 
@@ -84,9 +84,9 @@ Drivers can use **CmCallbackGetKeyObjectIDEx** to obtain the registry key identi
 
 The caller can obtain the key identifier through the *ObjectID* parameter. If two registry key objects represent the same registry key, the key identifiers obtained from **CmCallbackGetKeyObjectIDEx** for the two objects are identical. If the name of the  registry key changes, the key identifier obtained from **CmCallbackGetKeyObjectIDEx** does not change. The caller can use the key identifier to reliably track accesses that are made to a particular registry key through multiple key objects, and even across changes to the registry key name.
 
-The caller can obtain the object name through the *ObjectName* parameter. The storage for the [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains the object name remains valid until the caller calls [CmCallbackReleaseKeyObjectIDEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmcallbackreleasekeyobjectidex) to free the structure.
+The caller can obtain the object name through the *ObjectName* parameter. The storage for the [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains the object name remains valid until the caller calls [CmCallbackReleaseKeyObjectIDEx](./nf-wdm-cmcallbackreleasekeyobjectidex.md) to free the structure.
 
-**CmCallbackGetKeyObjectIDEx** is an improved version of the [CmCallbackGetKeyObjectID](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmcallbackgetkeyobjectid) routine, which is available starting with Windows Vista. Drivers that run in versions of Windows earlier than Windows 8 should call **CmCallbackGetKeyObjectID** instead of **CmCallbackGetKeyObjectIDEx**. Drivers that run only in Windows 8 and later versions of Windows should call **CmCallbackGetKeyObjectIDEx** instead of **CmCallbackGetKeyObjectID**.
+**CmCallbackGetKeyObjectIDEx** is an improved version of the [CmCallbackGetKeyObjectID](./nf-wdm-cmcallbackgetkeyobjectid.md) routine, which is available starting with Windows Vista. Drivers that run in versions of Windows earlier than Windows 8 should call **CmCallbackGetKeyObjectID** instead of **CmCallbackGetKeyObjectIDEx**. Drivers that run only in Windows 8 and later versions of Windows should call **CmCallbackGetKeyObjectIDEx** instead of **CmCallbackGetKeyObjectID**.
 
 **CmCallbackGetKeyObjectIDEx** has two important features that are not available from **CmCallbackGetKeyObjectID**.
 
@@ -98,14 +98,14 @@ For more information about registry filter drivers, see [Filtering Registry Call
 
 ## -see-also
 
-[CmCallbackGetKeyObjectID](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmcallbackgetkeyobjectid)
+[CmCallbackGetKeyObjectID](./nf-wdm-cmcallbackgetkeyobjectid.md)
 
-[CmCallbackReleaseKeyObjectIDEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmcallbackreleasekeyobjectidex)
+[CmCallbackReleaseKeyObjectIDEx](./nf-wdm-cmcallbackreleasekeyobjectidex.md)
 
-[CmRegisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback)
+[CmRegisterCallback](./nf-wdm-cmregistercallback.md)
 
-[CmRegisterCallbackEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex)
+[CmRegisterCallbackEx](./nf-wdm-cmregistercallbackex.md)
 
-[RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function)
+[RegistryCallback](./nc-wdm-ex_callback_function.md)
 
 [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)

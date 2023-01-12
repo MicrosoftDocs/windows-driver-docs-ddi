@@ -75,28 +75,28 @@ A typical example is as follows:
 
 After calling **IoCancelFileOpen**, the filter driver should complete the create request with an appropriate error code such as STATUS_UNSUCCESSFUL or STATUS_ACCESS_DENIED. In addition, it should set the **Irp->IoStatus.Information** field to zero.
 
-**IoCancelFileOpen** must be called before any handles are created for the file. Callers can check the **Flags** member of the [FILE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object) structure that the *FileObject* parameter points to. If the FO_HANDLE_CREATED flag is set, this means that one or more handles have been created for the file, so it is not safe to call **IoCancelFileOpen**.
+**IoCancelFileOpen** must be called before any handles are created for the file. Callers can check the **Flags** member of the [FILE_OBJECT](../wdm/ns-wdm-_file_object.md) structure that the *FileObject* parameter points to. If the FO_HANDLE_CREATED flag is set, this means that one or more handles have been created for the file, so it is not safe to call **IoCancelFileOpen**.
 
 **IoCancelFileOpen** sets the FO_FILE_OPEN_CANCELLED flag in the **Flags** member of the file object that *FileObject* points to. This flag indicates that the IRP_MJ_CREATE request has been canceled, and an IRP_MJ_CLOSE request will be issued for this file object. Once the create operation has been canceled, it cannot be reissued - that is, STATUS_REPARSE cannot be returned by the legacy filter driver if it has called the **IoCreateFileOpen** routine.
 
-Minifilters should use [FltCancelFileOpen](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcancelfileopen) instead of **IoCancelFileOpen**.
+Minifilters should use [FltCancelFileOpen](../fltkernel/nf-fltkernel-fltcancelfileopen.md) instead of **IoCancelFileOpen**.
 
 ## -see-also
 
-[FltCancelFileOpen](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcancelfileopen)
+[FltCancelFileOpen](../fltkernel/nf-fltkernel-fltcancelfileopen.md)
 
-[FltReissueSynchronousIo](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreissuesynchronousio)
+[FltReissueSynchronousIo](../fltkernel/nf-fltkernel-fltreissuesynchronousio.md)
 
 [IRP_MJ_CLOSE](/windows-hardware/drivers/kernel/irp-mj-close)
 
 [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create)
 
-[IoCreateFile](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile)
+[IoCreateFile](../wdm/nf-wdm-iocreatefile.md)
 
-[IoCreateFileEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex)
+[IoCreateFileEx](./nf-ntddk-iocreatefileex.md)
 
-[IoCreateFileSpecifyDeviceObjectHint](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint)
+[IoCreateFileSpecifyDeviceObjectHint](./nf-ntddk-iocreatefilespecifydeviceobjecthint.md)
 
-[ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
+[ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md)
 
-[ZwOpenFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile)
+[ZwOpenFile](../ntifs/nf-ntifs-ntopenfile.md)

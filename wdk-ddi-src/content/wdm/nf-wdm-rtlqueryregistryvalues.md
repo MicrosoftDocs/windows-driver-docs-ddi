@@ -71,7 +71,7 @@ Pointer to either an absolute registry path or a path relative to the known loca
 
 ### -param QueryTable [in, out]
 
-Pointer to a table of one or more value names and subkey names in which the caller is interested. Each table entry contains the address of a caller-supplied [QueryRoutine](/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine) function that will be called for each value name that exists in the registry. The table must be terminated with a **NULL** table entry, which is a table entry with a **NULL** **QueryRoutine** member and a **NULL** **Name** member. The structure for query table entries is defined as follows:
+Pointer to a table of one or more value names and subkey names in which the caller is interested. Each table entry contains the address of a caller-supplied [QueryRoutine](./nc-wdm-rtl_query_registry_routine.md) function that will be called for each value name that exists in the registry. The table must be terminated with a **NULL** table entry, which is a table entry with a **NULL** **QueryRoutine** member and a **NULL** **Name** member. The structure for query table entries is defined as follows:
 
 ```cpp
 typedef struct _RTL_QUERY_REGISTRY_TABLE {
@@ -105,7 +105,7 @@ QueryRoutine (
     );
 ```
 
-For more information, see [QueryRoutine](/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine).
+For more information, see [QueryRoutine](./nc-wdm-rtl_query_registry_routine.md).
 
 #### Flags
 
@@ -117,7 +117,7 @@ Flags to control how the remaining members of the **RTL_QUERY_REGISTRY_TABLE** s
 | RTL_QUERY_REGISTRY_TOPKEY | Resets the current registry key handle to the original one specified by the *RelativeTo* and *Path* parameters. This is useful for getting back to the original node after descending into subkeys with the RTL_QUERY_REGISTRY_SUBKEY flag. |
 | RTL_QUERY_REGISTRY_REQUIRED | Specifies that this registry value must exist if **DefaultType** = REG_NONE; otherwise, if it is not found, **RtlQueryRegistryValues** immediately exits with a status code of STATUS_OBJECT_NAME_NOT_FOUND. This exit occurs if the **Name** member is **NULL** and the current key has no subkeys, or if **Name** specifies a nonexistent subkey. (If this flag is not specified, then when no match is found for a non-**NULL** **Name**, the routine uses the **DefaultValue** member as the value. When **Name** is **NULL** and the current key has no subkeys, the routine simply skips that table entry.) |
 | RTL_QUERY_REGISTRY_NOVALUE | Specifies that even though there is no **Name** for this table entry, all the caller wants is a callback: that is, the caller does not want to enumerate all the values under the current key. *QueryRoutine* is called with **NULL** for *ValueData*, REG_NONE for *ValueType*, and zero for *ValueLength*. |
-| RTL_QUERY_REGISTRY_NOEXPAND | For a registry value of type REG_EXPAND_SZ or REG_MULTI_SZ, this flag overrides the default behavior, which is to preprocess the registry value before calling the [QueryRoutine](/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine) routine. By default, **RtlQueryRegistryValues** expands environment variable references in REG_EXPAND_SZ values, and enumerates each null-terminated string in a REG_MULTI_SZ value in a separate *QueryRoutine* call, so that the strings are presented as REG_SZ values that have the same *ValueName*. If this flag is set, *QueryRoutine* receives the raw REG_EXPAND_SZ or REG_MULTI_SZ value from the registry. For more information about the data formats for these values, see [KEY_VALUE_BASIC_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information). |
+| RTL_QUERY_REGISTRY_NOEXPAND | For a registry value of type REG_EXPAND_SZ or REG_MULTI_SZ, this flag overrides the default behavior, which is to preprocess the registry value before calling the [QueryRoutine](./nc-wdm-rtl_query_registry_routine.md) routine. By default, **RtlQueryRegistryValues** expands environment variable references in REG_EXPAND_SZ values, and enumerates each null-terminated string in a REG_MULTI_SZ value in a separate *QueryRoutine* call, so that the strings are presented as REG_SZ values that have the same *ValueName*. If this flag is set, *QueryRoutine* receives the raw REG_EXPAND_SZ or REG_MULTI_SZ value from the registry. For more information about the data formats for these values, see [KEY_VALUE_BASIC_INFORMATION](./ns-wdm-_key_value_basic_information.md). |
 | RTL_QUERY_REGISTRY_DIRECT | The **QueryRoutine** member is not used (and must be **NULL**), and the *EntryContext* points to the buffer to store the value. If the caller sets this flag, the caller should additionally set the RTL_QUERY_REGISTRY_TYPECHECK flag to guard against buffer overflow. For more information, see the Remarks section. |
 | RTL_QUERY_REGISTRY_TYPECHECK | Use this flag with the RTL_QUERY_REGISTRY_DIRECT flag to verify that the REG\_*XXX* type of the stored registry value matches the type expected by the caller. If the types do not match, the call fails. For more information, see the Remarks section. |
 | RTL_QUERY_REGISTRY_DELETE | This flag is used to delete value keys after they have been queried. |
@@ -138,7 +138,7 @@ The least significant byte of this member specifies the REG_*XXX* type of the da
 
 #### DefaultData
 
-A pointer to the default value to be returned if no matching key is found and the RTL_QUERY_REGISTRY_REQUIRED flag is not specified. This member is ignored if **DefaultType** = REG_NONE. Otherwise, the type of data pointed to by **DefaultData** should conform to the registry value type specified by the **DefaultType** member. For more information registry value types, see the definition of the *Type* parameter in [KEY_VALUE_BASIC_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information).
+A pointer to the default value to be returned if no matching key is found and the RTL_QUERY_REGISTRY_REQUIRED flag is not specified. This member is ignored if **DefaultType** = REG_NONE. Otherwise, the type of data pointed to by **DefaultData** should conform to the registry value type specified by the **DefaultType** member. For more information registry value types, see the definition of the *Type* parameter in [KEY_VALUE_BASIC_INFORMATION](./ns-wdm-_key_value_basic_information.md).
 
 #### DefaultLength
 
@@ -223,18 +223,18 @@ If an entry does not specify the RTL_QUERY_REGISTRY_DIRECT flag, **RtlQueryRegis
 
 If an error occurs at any stage of processing of the query table, **RtlQueryRegistryValues** stops processing the table and returns the error status.
 
-See [ZwSetValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey) for a description of the possible REG_*XXX* values.
+See [ZwSetValueKey](./nf-wdm-zwsetvaluekey.md) for a description of the possible REG_*XXX* values.
 
 ## -see-also
 
-[QueryRoutine](/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine)
+[QueryRoutine](./nc-wdm-rtl_query_registry_routine.md)
 
-[RtlZeroMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlzeromemory)
+[RtlZeroMemory](./nf-wdm-rtlzeromemory.md)
 
 [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
-[ZwEnumerateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratekey)
+[ZwEnumerateKey](./nf-wdm-zwenumeratekey.md)
 
-[ZwEnumerateValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratevaluekey)
+[ZwEnumerateValueKey](./nf-wdm-zwenumeratevaluekey.md)
 
-[ZwSetValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey)
+[ZwSetValueKey](./nf-wdm-zwsetvaluekey.md)

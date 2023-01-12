@@ -69,7 +69,7 @@ Regardless of which version of Windows you are using, it is recommended that you
 
 Unless it is absolutely necessary, you should not obtain a string from user input or another process and pass it to **KdPrint**. If you do use a string that you did not create, you must verify that this is a valid format string, and that the format codes match the argument list in type and quantity. The best coding practice is for all _Format_ strings to be static and defined at compile time.
 
-There is no upper limit to the size of the _Format_ string or the number of arguments. However, any single call to **KdPrint** will only transmit 512 bytes of information. There is also a limit to the size of the [DbgPrint](/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgprint) buffer. See [The DbgPrint Buffer and the Debugger](/windows-hardware/drivers/devtest/reading-and-filtering-debugging-messages) for details.
+There is no upper limit to the size of the _Format_ string or the number of arguments. However, any single call to **KdPrint** will only transmit 512 bytes of information. There is also a limit to the size of the [DbgPrint](./nf-wdm-dbgprint.md) buffer. See [The DbgPrint Buffer and the Debugger](/windows-hardware/drivers/devtest/reading-and-filtering-debugging-messages) for details.
 
 ## -see-also
 

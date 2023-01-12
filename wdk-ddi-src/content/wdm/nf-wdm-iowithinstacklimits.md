@@ -61,12 +61,12 @@ The size of the region.
 
 The **IoWithinStackLimits** routine considers all possible stack segments and the DPC stack, if necessary.
 
-For drivers that use [KeExpandKernelStackAndCallout](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout), **IoWithinStackLimits** considers only the current thread.
+For drivers that use [KeExpandKernelStackAndCallout](../ntddk/nf-ntddk-keexpandkernelstackandcallout.md), **IoWithinStackLimits** considers only the current thread.
 
 ## -see-also
 
-[IoGetInitialStack](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetinitialstack)
+[IoGetInitialStack](./nf-wdm-iogetinitialstack.md)
 
-[IoGetRemainingStackSize](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetremainingstacksize)
+[IoGetRemainingStackSize](./nf-wdm-iogetremainingstacksize.md)
 
-[IoGetStackLimits](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetstacklimits)
+[IoGetStackLimits](./nf-wdm-iogetstacklimits.md)

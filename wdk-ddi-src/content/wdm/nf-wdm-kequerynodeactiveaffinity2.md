@@ -51,7 +51,7 @@ Supplies the node number of the node to query.
 
 ### -param GroupAffinities [out]
 
-Supplies a pointer to an array of [GROUP_AFFINITY](/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity) structures that upon success receive a group number and the affinity mask of the identified group.
+Supplies a pointer to an array of [GROUP_AFFINITY](../miniport/ns-miniport-_group_affinity.md) structures that upon success receive a group number and the affinity mask of the identified group.
 
 ### -param GroupAffinitiesCount [in]
 

@@ -50,7 +50,7 @@ The **GetLocation** routine returns the device location of a PCI Express (PCIe) 
 
 ### -param Context [in, out]
 
-A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [**PCI_VIRTUALIZATION_INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-pci_virtualization_interface) structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [**PCI_VIRTUALIZATION_INTERFACE**](./ns-wdm-pci_virtualization_interface.md) structure for the interface.
 
 ### -param VirtualFunction [in]
 
@@ -104,4 +104,4 @@ The PCI bus number on which the VF is located can change. We do not recommend th
 
 ## -see-also
 
-[**PCI_VIRTUALIZATION_INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-pci_virtualization_interface)
+[**PCI_VIRTUALIZATION_INTERFACE**](./ns-wdm-pci_virtualization_interface.md)

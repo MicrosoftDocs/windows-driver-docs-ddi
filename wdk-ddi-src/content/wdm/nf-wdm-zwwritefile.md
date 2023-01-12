@@ -47,7 +47,7 @@ The **ZwWriteFile** routine writes data to an open file.
 
 ### -param FileHandle [in]
 
-Handle to the file object. This handle is created by a successful call to [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) or [ZwOpenFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile).
+Handle to the file object. This handle is created by a successful call to [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md) or [ZwOpenFile](../ntifs/nf-ntifs-ntopenfile.md).
 
 ### -param Event [in, optional]
 
@@ -63,7 +63,7 @@ This parameter is reserved. Device and intermediate drivers should set this poin
 
 ### -param IoStatusBlock [out]
 
-Pointer to an [IO_STATUS_BLOCK](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and information about the requested write operation. The **Information** member receives the number of bytes actually written to the file.
+Pointer to an [IO_STATUS_BLOCK](./ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested write operation. The **Information** member receives the number of bytes actually written to the file.
 
 ### -param Buffer [in]
 
@@ -77,9 +77,9 @@ The size, in bytes, of the buffer pointed to by *Buffer*.
 
 Pointer to a variable that specifies the starting byte offset in the file for beginning the write operation. If *Length* and *ByteOffset* specify a write operation past the current end-of-file mark, **ZwWriteFile** automatically extends the file and updates the end-of-file mark; any bytes that are not explicitly written between such old and new end-of-file marks are defined to be zero.
 
-If the call to [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) set only the *DesiredAccess* flag FILE_APPEND_DATA, *ByteOffset* is ignored. Data in the given *Buffer*, for *Length* bytes, is written starting at the current end of file.
+If the call to [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md) set only the *DesiredAccess* flag FILE_APPEND_DATA, *ByteOffset* is ignored. Data in the given *Buffer*, for *Length* bytes, is written starting at the current end of file.
 
-If the call to [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) set either of the *CreateOptions* flags, FILE_SYNCHRONOUS_IO_ALERT or FILE_SYNCHRONOUS_IO_NONALERT, the I/O Manager maintains the current file position. If so, the caller of **ZwWriteFile** can specify that the current file position offset be used instead of an explicit *ByteOffset* value. This specification can be made by using one of the following methods:
+If the call to [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md) set either of the *CreateOptions* flags, FILE_SYNCHRONOUS_IO_ALERT or FILE_SYNCHRONOUS_IO_NONALERT, the I/O Manager maintains the current file position. If so, the caller of **ZwWriteFile** can specify that the current file position offset be used instead of an explicit *ByteOffset* value. This specification can be made by using one of the following methods:
 
 - Specify a pointer to a LARGE_INTEGER value with the **HighPart** member set to -1 and the **LowPart** member set to the system-defined value FILE_USE_FILE_POINTER_POSITION.
 
@@ -101,9 +101,9 @@ Device and intermediate drivers should set this pointer to **NULL**.
 
 ## -remarks
 
-Callers of **ZwWriteFile** must have already called [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) with the FILE_WRITE_DATA, FILE_APPEND_DATA, or GENERIC_WRITE flag set in the *DesiredAccess* parameter. Note that having only FILE_APPEND_DATA access to a file does not allow the caller to write anywhere in the file except at the current end-of-file mark, while having FILE_WRITE_DATA access to a file does not preclude the caller from writing to or beyond the end of a file.
+Callers of **ZwWriteFile** must have already called [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md) with the FILE_WRITE_DATA, FILE_APPEND_DATA, or GENERIC_WRITE flag set in the *DesiredAccess* parameter. Note that having only FILE_APPEND_DATA access to a file does not allow the caller to write anywhere in the file except at the current end-of-file mark, while having FILE_WRITE_DATA access to a file does not preclude the caller from writing to or beyond the end of a file.
 
-If the preceding call to [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) set the *CreateOptions* flag FILE_NO_INTERMEDIATE_BUFFERING, the *Length* and *ByteOffset* parameters to **ZwWriteFile** must be an integral of the sector size. For more information, see **ZwCreateFile**.
+If the preceding call to [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md) set the *CreateOptions* flag FILE_NO_INTERMEDIATE_BUFFERING, the *Length* and *ByteOffset* parameters to **ZwWriteFile** must be an integral of the sector size. For more information, see **ZwCreateFile**.
 
 **ZwWriteFile** begins the write operation to the file at *ByteOffset*, at the current file position, or at the end-of-file mark. It terminates the write operation when it has written *Length* bytes from *Buffer*. If necessary, it extends the length of the file and resets the end-of-file mark.
 
@@ -125,18 +125,18 @@ For more information about working with files, see [Using Files in a Driver](/wi
 
 Callers of **ZwWriteFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
-If the call to this function occurs in user mode, you should use the name "[NtWriteFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile)" instead of "**ZwWriteFile**".
+If the call to this function occurs in user mode, you should use the name "[NtWriteFile](../ntifs/nf-ntifs-ntwritefile.md)" instead of "**ZwWriteFile**".
 
 For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-[KeInitializeEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent)
+[KeInitializeEvent](./nf-wdm-keinitializeevent.md)
 
-[ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
+[ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md)
 
-[ZwQueryInformationFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile)
+[ZwQueryInformationFile](../ntifs/nf-ntifs-ntqueryinformationfile.md)
 
-[ZwReadFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile)
+[ZwReadFile](../ntifs/nf-ntifs-ntreadfile.md)
 
-[ZwSetInformationFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile)
+[ZwSetInformationFile](../ntifs/nf-ntifs-ntsetinformationfile.md)

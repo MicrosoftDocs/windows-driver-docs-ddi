@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The ATTRIBUTE_INFO_4 structure is used as a parameter for a printer interface DLL's [DrvQueryJobAttributes](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvqueryjobattributes) function. All member values are function-supplied. This structure is similar to [ATTRIBUTE_INFO_3](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3), but it includes additional members to control N-up, duplex and booklet printing, and scaling.
+The ATTRIBUTE_INFO_4 structure is used as a parameter for a printer interface DLL's [DrvQueryJobAttributes](./nf-winddiui-drvqueryjobattributes.md) function. All member values are function-supplied. This structure is similar to [ATTRIBUTE_INFO_3](./ns-winddiui-_attribute_info_3.md), but it includes additional members to control N-up, duplex and booklet printing, and scaling.
 
 ## -struct-fields
 
@@ -162,18 +162,18 @@ If the **dmPrintQuality** member of a print job's DEVMODEW structure is a negati
 
 The EMF print processor uses the flag specified for **dwColorOptimization** to determine whether to request GDI to perform monochrome color optimization. If monochrome color optimization is enabled, the print job can be switched between monochrome and color rendering as appropriate.
 
-If you are creating a Unidrv rendering plug-in to generate color watermarks, note that when the **dwColorOptimization** member is set to COLOR_OPTIMIZATION, color watermarks are printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization. Color optimization also can be controlled by the Unidrv ***ChangeColorModeOnDoc?** color attribute (see [Color Attributes](/windows-hardware/drivers/print/color-attributes)), and by the [GdiEndPageEMF](/windows-hardware/drivers/ddi/winppi/nf-winppi-gdiendpageemf) function.
+If you are creating a Unidrv rendering plug-in to generate color watermarks, note that when the **dwColorOptimization** member is set to COLOR_OPTIMIZATION, color watermarks are printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization. Color optimization also can be controlled by the Unidrv ***ChangeColorModeOnDoc?** color attribute (see [Color Attributes](/windows-hardware/drivers/print/color-attributes)), and by the [GdiEndPageEMF](../winppi/nf-winppi-gdiendpageemf.md) function.
 
-For a list of default values for ATTRIBUTE_INFO_4 members, see [GetJobAttributesEx](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-getjobattributesex).
+For a list of default values for ATTRIBUTE_INFO_4 members, see [GetJobAttributesEx](../winsplp/nf-winsplp-getjobattributesex.md).
 
 ## -see-also
 
-[ATTRIBUTE_INFO_2](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_2)
+[ATTRIBUTE_INFO_2](./ns-winddiui-_attribute_info_2.md)
 
-[ATTRIBUTE_INFO_3](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3)
+[ATTRIBUTE_INFO_3](./ns-winddiui-_attribute_info_3.md)
 
-[DrvQueryJobAttributes](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvqueryjobattributes)
+[DrvQueryJobAttributes](./nf-winddiui-drvqueryjobattributes.md)
 
-[GdiEndPageEMF](/windows-hardware/drivers/ddi/winppi/nf-winppi-gdiendpageemf)
+[GdiEndPageEMF](../winppi/nf-winppi-gdiendpageemf.md)
 
-[GetJobAttributesEx](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-getjobattributesex)
+[GetJobAttributesEx](../winsplp/nf-winsplp-getjobattributesex.md)

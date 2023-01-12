@@ -44,7 +44,7 @@ api_name:
 >[!WARNING]
 > The **ExAllocatePoolWithQuota** routine is obsolete and has been deprecated in Windows 10, version 2004 and has been replaced by [ExAllocatePool2](nf-wdm-exallocatepool2.md). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](/windows-hardware/drivers/kernel/updating-deprecated-exallocatepool-calls).
 >
-> When developing drivers for version of Windows prior to Windows 10, version 2004, use [ExAllocatePoolQuotaZero](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolquotazero).
+> When developing drivers for version of Windows prior to Windows 10, version 2004, use [ExAllocatePoolQuotaZero](./nf-wdm-exallocatepoolquotazero.md).
 
 **ExAllocatePoolWithQuota** allocates pool memory, charging quota against the current process.
 
@@ -52,7 +52,7 @@ api_name:
 
 ### -param PoolType [in]
 
-Specifies the type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type).
+Specifies the type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](./ne-wdm-_pool_type.md).
 
 You can modify *PoolType* by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
 
@@ -68,7 +68,7 @@ If the request cannot be satisfied, **ExAllocatePoolWithQuota** raises an except
 
 ## -remarks
 
-This routine is called by highest-level drivers that allocate memory to satisfy a request in the context of the process that originally made the I/O request. Lower-level drivers call [ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag) instead.
+This routine is called by highest-level drivers that allocate memory to satisfy a request in the context of the process that originally made the I/O request. Lower-level drivers call [ExAllocatePoolWithTag](./nf-wdm-exallocatepoolwithtag.md) instead.
 
 If *NumberOfBytes* is PAGE_SIZE or greater, a page-aligned buffer is allocated. Quota is not charged to the process for allocations of PAGE_SIZE or greater.
 
@@ -84,10 +84,10 @@ Callers of **ExAllocatePoolWithQuota** must be executing at IRQL <= DISPATCH_LEV
 
 ## -see-also
 
-[ExAllocatePoolWithQuotaTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithquotatag)
+[ExAllocatePoolWithQuotaTag](./nf-wdm-exallocatepoolwithquotatag.md)
 
-[ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag)
+[ExAllocatePoolWithTag](./nf-wdm-exallocatepoolwithtag.md)
 
-[ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool)
+[ExFreePool](../ntddk/nf-ntddk-exfreepool.md)
 
-[POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type)
+[POOL_TYPE](./ne-wdm-_pool_type.md)

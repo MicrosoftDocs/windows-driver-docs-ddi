@@ -43,13 +43,13 @@ api_name:
 
 This routine registers a server silo monitor that can receive notifications about server silo events.
 
-To start receiving notifications, call the [PsStartSiloMonitor](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psstartsilomonitor) routine.
+To start receiving notifications, call the [PsStartSiloMonitor](./nf-ntddk-psstartsilomonitor.md) routine.
 
 ## -parameters
 
 ### -param Registration [in]
 
-Specifies the server silo monitor to be registered, of type [**SILO_MONITOR_REGISTRATION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_silo_monitor_registration).
+Specifies the server silo monitor to be registered, of type [**SILO_MONITOR_REGISTRATION**](./ns-ntddk-_silo_monitor_registration.md).
 
 ### -param ReturnedMonitor [out]
 

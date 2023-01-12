@@ -47,7 +47,7 @@ The **ZwDeviceIoControlFile** routine sends a control code directly to a specifi
 
 ### -param FileHandle [in]
 
-Handle returned by [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) or [ZwOpenFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile) for the file object representing the device to which the control information should be given or from which information should be returned. The file object must have been opened for asynchronous I/O if the caller specifies an *Event*, *ApcRoutine*, and an APC context (in *ApcContext*), or a completion context (in *ApcContext*). For I/O to an underlying mass-storage device, the file object must have been opened for Direct Access to Storage Device (DASD) access.
+Handle returned by [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md) or [ZwOpenFile](../ntifs/nf-ntifs-ntopenfile.md) for the file object representing the device to which the control information should be given or from which information should be returned. The file object must have been opened for asynchronous I/O if the caller specifies an *Event*, *ApcRoutine*, and an APC context (in *ApcContext*), or a completion context (in *ApcContext*). For I/O to an underlying mass-storage device, the file object must have been opened for Direct Access to Storage Device (DASD) access.
 
 ### -param Event [in, optional]
 
@@ -99,7 +99,7 @@ For more information about system-defined IOCTL_*XXX* codes, and about defining 
 
 If the caller opened the file for asynchronous I/O (with neither FILE_SYNCHRONOUS_*XXX* create/open option set), the specified event, if any, will be set to the signaled state when the device control operation completes. Otherwise, the file object specified by *FileHandle* will be set to the signaled state. If an *ApcRoutine* was specified, it is called with the *ApcContext* and *IoStatusBlock* pointers.
 
-Minifilters should use [FltDeviceIoControlFile](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeviceiocontrolfile) instead of **ZwDeviceIoControlFile**.
+Minifilters should use [FltDeviceIoControlFile](../fltkernel/nf-fltkernel-fltdeviceiocontrolfile.md) instead of **ZwDeviceIoControlFile**.
 
 Callers of **ZwDeviceIoControlFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
@@ -109,22 +109,22 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 ## -see-also
 
-[FltDeviceIoControlFile](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeviceiocontrolfile)
+[FltDeviceIoControlFile](../fltkernel/nf-fltkernel-fltdeviceiocontrolfile.md)
 
-[IoBuildAsynchronousFsdRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest)
+[IoBuildAsynchronousFsdRequest](../wdm/nf-wdm-iobuildasynchronousfsdrequest.md)
 
-[IoBuildDeviceIoControlRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest)
+[IoBuildDeviceIoControlRequest](../wdm/nf-wdm-iobuilddeviceiocontrolrequest.md)
 
-[IoBuildSynchronousFsdRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest)
+[IoBuildSynchronousFsdRequest](../wdm/nf-wdm-iobuildsynchronousfsdrequest.md)
 
-[IoCallDriver](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver)
+[IoCallDriver](../wdm/nf-wdm-iocalldriver.md)
 
 [Using I/O Control Codes](/windows-hardware/drivers/kernel/using-i-o-control-codes)
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
+[ZwClose](../ntifs/nf-ntifs-ntclose.md)
 
-[ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
+[ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md)
 
-[ZwOpenFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile)
+[ZwOpenFile](../ntifs/nf-ntifs-ntopenfile.md)

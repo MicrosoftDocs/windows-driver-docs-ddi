@@ -63,24 +63,24 @@ Returns an appropriate [NTSTATUS value](/windows-hardware/drivers/kernel/ntstatu
 
 Before calling IoCallDriver, the calling driver must set up the I/O stack location in the IRP for the target driver. For more information, see [Passing IRPs Down the Driver Stack](/windows-hardware/drivers/kernel/passing-irps-down-the-driver-stack).
 
-IoCallDriver assigns the *DeviceObject* input parameter to the DeviceObject member of the [IO_STACK_LOCATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location) structure for the driver being called.
+IoCallDriver assigns the *DeviceObject* input parameter to the DeviceObject member of the [IO_STACK_LOCATION](./ns-wdm-_io_stack_location.md) structure for the driver being called.
 
-An IRP passed in a call to IoCallDriver becomes inaccessible to the higher-level driver, unless the higher-level driver has called [IoSetCompletionRoutine](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine) to set up an [IoCompletion](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine) routine for the IRP. If it has, the IRP input to the IoCompletion routine has its I/O status block set by the lower drivers, and all lower-level drivers' I/O stack locations are filled with zeros.
+An IRP passed in a call to IoCallDriver becomes inaccessible to the higher-level driver, unless the higher-level driver has called [IoSetCompletionRoutine](./nf-wdm-iosetcompletionroutine.md) to set up an [IoCompletion](./nc-wdm-io_completion_routine.md) routine for the IRP. If it has, the IRP input to the IoCompletion routine has its I/O status block set by the lower drivers, and all lower-level drivers' I/O stack locations are filled with zeros.
 
-Drivers for Windows Server 2003, Windows XP, and Windows 2000 must use [PoCallDriver](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocalldriver) rather than IoCallDriver to pass power IRPs ([IRP_MJ_POWER](/windows-hardware/drivers/kernel/irp-mj-power)).
+Drivers for Windows Server 2003, Windows XP, and Windows 2000 must use [PoCallDriver](../ntifs/nf-ntifs-pocalldriver.md) rather than IoCallDriver to pass power IRPs ([IRP_MJ_POWER](/windows-hardware/drivers/kernel/irp-mj-power)).
 
 For more information, see [Calling IoCallDriver vs. Calling PoCallDriver](/windows-hardware/drivers/kernel/calling-iocalldriver-versus-calling-pocalldriver).
 
 ## -see-also
 
-[IoAllocateIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp)
+[IoAllocateIrp](./nf-wdm-ioallocateirp.md)
 
-[IoBuildAsynchronousFsdRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest)
+[IoBuildAsynchronousFsdRequest](./nf-wdm-iobuildasynchronousfsdrequest.md)
 
-[IoBuildDeviceIoControlRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest)
+[IoBuildDeviceIoControlRequest](./nf-wdm-iobuilddeviceiocontrolrequest.md)
 
-[IoBuildSynchronousFsdRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest)
+[IoBuildSynchronousFsdRequest](./nf-wdm-iobuildsynchronousfsdrequest.md)
 
-[IoSetCompletionRoutine](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine)
+[IoSetCompletionRoutine](./nf-wdm-iosetcompletionroutine.md)
 
-[PoCallDriver](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocalldriver)
+[PoCallDriver](../ntifs/nf-ntifs-pocalldriver.md)

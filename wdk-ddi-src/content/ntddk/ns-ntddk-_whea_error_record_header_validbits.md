@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **WHEA_ERROR_RECORD_HEADER_VALIDBITS** union describes which members of a [**WHEA_ERROR_RECORD_HEADER**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header) structure contain valid data.
+The **WHEA_ERROR_RECORD_HEADER_VALIDBITS** union describes which members of a [**WHEA_ERROR_RECORD_HEADER**](./ns-ntddk-_whea_error_record_header.md) structure contain valid data.
 
 ## -struct-fields
 
@@ -75,7 +75,7 @@ A ULONG representation of the contents of the **WHEA_ERROR_RECORD_HEADER_VALIDBI
 
 ## -remarks
 
-A **WHEA_ERROR_RECORD_HEADER_VALIDBITS** union is contained within the [**WHEA_ERROR_RECORD_HEADER**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header) structure.
+A **WHEA_ERROR_RECORD_HEADER_VALIDBITS** union is contained within the [**WHEA_ERROR_RECORD_HEADER**](./ns-ntddk-_whea_error_record_header.md) structure.
 
 After the release of Windows Server 2008, it was discovered that the **Timestamp** and **PlatformId** members of the **WHEA_ERROR_RECORD_HEADER_VALIDBITS** union are defined in the incorrect order. This topic now defines the correct order for these members.
 
@@ -85,4 +85,4 @@ This problem has been fixed in the Windows 7 version of the WDK and SDK.
 
 ## -see-also
 
-[**WHEA_ERROR_RECORD_HEADER**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header)
+[**WHEA_ERROR_RECORD_HEADER**](./ns-ntddk-_whea_error_record_header.md)

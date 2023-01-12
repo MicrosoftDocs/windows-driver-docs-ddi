@@ -64,7 +64,7 @@ If successful, **DbgPrint** returns the NTSTATUS code STATUS_SUCCESS; otherwise 
 
 Only kernel-mode drivers can call the **DbgPrint** routine.
 
-**DbgPrint** sends a message only if certain conditions apply. Specifically, it behaves like the [DbgPrintEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgprintex) routine with the DEFAULT component and a message importance level of DPFLTR_INFO_LEVEL. In other words, the following two function calls are identical:
+**DbgPrint** sends a message only if certain conditions apply. Specifically, it behaves like the [DbgPrintEx](./nf-wdm-dbgprintex.md) routine with the DEFAULT component and a message importance level of DPFLTR_INFO_LEVEL. In other words, the following two function calls are identical:
 
 ```cpp
 DbgPrint ( Format, arguments )
@@ -82,8 +82,8 @@ There is no upper limit to the size of the *Format* string or the number of argu
 
 ## -see-also
 
-[DbgPrintEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgprintex)
+[DbgPrintEx](./nf-wdm-dbgprintex.md)
 
-[KdPrint](/windows-hardware/drivers/ddi/wdm/nf-wdm-kdprint)
+[KdPrint](./nf-wdm-kdprint.md)
 
-[KdPrintEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-kdprintex)
+[KdPrintEx](./nf-wdm-kdprintex.md)

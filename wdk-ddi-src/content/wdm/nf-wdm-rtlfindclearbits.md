@@ -47,7 +47,7 @@ The **RtlFindClearBits** routine searches for a range of clear bits of a request
 
 ### -param BitMapHeader [in]
 
-A pointer to the [RTL_BITMAP](/windows-hardware/drivers/kernel/eprocess) structure that describes the bitmap. This structure must have been initialized by the [RtlInitializeBitMap](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap) routine.
+A pointer to the [RTL_BITMAP](/windows-hardware/drivers/kernel/eprocess) structure that describes the bitmap. This structure must have been initialized by the [RtlInitializeBitMap](./nf-wdm-rtlinitializebitmap.md) routine.
 
 ### -param NumberToFind [in]
 
@@ -75,16 +75,16 @@ Callers of **RtlFindClearBits** must be running at IRQL <= APC_LEVEL if the memo
 
 [RTL_BITMAP](/windows-hardware/drivers/kernel/eprocess)
 
-[RtlAreBitsClear](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlarebitsclear)
+[RtlAreBitsClear](./nf-wdm-rtlarebitsclear.md)
 
-[RtlFindClearBitsAndSet](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindclearbitsandset)
+[RtlFindClearBitsAndSet](./nf-wdm-rtlfindclearbitsandset.md)
 
-[RtlFindFirstRunClear](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindfirstrunclear)
+[RtlFindFirstRunClear](./nf-wdm-rtlfindfirstrunclear.md)
 
-[RtlFindLongestRunClear](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindlongestrunclear)
+[RtlFindLongestRunClear](./nf-wdm-rtlfindlongestrunclear.md)
 
-[RtlFindSetBits](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindsetbits)
+[RtlFindSetBits](./nf-wdm-rtlfindsetbits.md)
 
-[RtlInitializeBitMap](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap)
+[RtlInitializeBitMap](./nf-wdm-rtlinitializebitmap.md)
 
-[RtlNumberOfClearBits](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlnumberofclearbits)
+[RtlNumberOfClearBits](./nf-wdm-rtlnumberofclearbits.md)

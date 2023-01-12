@@ -75,6 +75,6 @@ To obtain a list of available fonts, create an information context for the curre
 
 ## -see-also
 
-[IPrintCoreHelperPS](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperps)
+[IPrintCoreHelperPS](./nn-prcomoem-iprintcorehelperps.md)
 
-[IPrintCoreHelperPS::SetFontSubstitution](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-setfontsubstitution)
+[IPrintCoreHelperPS::SetFontSubstitution](./nf-prcomoem-iprintcorehelperps-setfontsubstitution.md)

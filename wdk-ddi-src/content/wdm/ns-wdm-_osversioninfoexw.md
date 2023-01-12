@@ -53,7 +53,7 @@ The **RTL_OSVERSIONINFOEXW** structure contains operating system version informa
 
 ### -field dwOSVersionInfoSize
 
-The size, in bytes, of an **RTL_OSVERSIONINFOEXW** structure. This member must be set before the structure is used with [RtlGetVersion](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlgetversion).
+The size, in bytes, of an **RTL_OSVERSIONINFOEXW** structure. This member must be set before the structure is used with [RtlGetVersion](./nf-wdm-rtlgetversion.md).
 
 ### -field dwMajorVersion
 
@@ -121,7 +121,7 @@ Reserved for future use.
 
 ## -remarks
 
-The information in this structure includes the major and minor version numbers, the build number, the platform identifier, the installed product suites, and the latest service pack that is installed on the system. This structure is used with the [RtlGetVersion](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlgetversion) and [RtlVerifyVersionInfo](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlverifyversioninfo) routines.
+The information in this structure includes the major and minor version numbers, the build number, the platform identifier, the installed product suites, and the latest service pack that is installed on the system. This structure is used with the [RtlGetVersion](./nf-wdm-rtlgetversion.md) and [RtlVerifyVersionInfo](./nf-wdm-rtlverifyversioninfo.md) routines.
 
 Relying on version information is not always the best way to test whether a feature is available. For guidance, refer to the documentation for the feature you are interested in.
 
@@ -154,8 +154,8 @@ Only a 64-bit kernel-mode driver can run on Windows XP Professional x64 Edition.
 
 ## -see-also
 
-[**RTL_OSVERSIONINFOW**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_osversioninfow)
+[**RTL_OSVERSIONINFOW**](./ns-wdm-_osversioninfow.md)
 
-[RtlGetVersion](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlgetversion)
+[RtlGetVersion](./nf-wdm-rtlgetversion.md)
 
-[RtlVerifyVersionInfo](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlverifyversioninfo)
+[RtlVerifyVersionInfo](./nf-wdm-rtlverifyversioninfo.md)

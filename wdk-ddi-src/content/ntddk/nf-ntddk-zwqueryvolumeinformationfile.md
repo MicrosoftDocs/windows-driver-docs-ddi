@@ -47,11 +47,11 @@ The **ZwQueryVolumeInformationFile** routine retrieves information about the vol
 
 ### -param FileHandle [in]
 
-A handle to a file object returned by [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) or [ZwOpenFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile) for an open file, directory, storage device, or volume for which volume information is being requested.
+A handle to a file object returned by [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md) or [ZwOpenFile](../ntifs/nf-ntifs-ntopenfile.md) for an open file, directory, storage device, or volume for which volume information is being requested.
 
 ### -param IoStatusBlock [out]
 
-A pointer to an [**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and information about the query operation. For successful calls that return data, the number of bytes written to the *FsInformation* buffer is returned in the structure's **Information** member.
+A pointer to an [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the query operation. For successful calls that return data, the number of bytes written to the *FsInformation* buffer is returned in the structure's **Information** member.
 
 ### -param FsInformation [out]
 
@@ -63,19 +63,19 @@ Size in bytes of the buffer pointed to by *FsInformation*. The caller should set
 
 ### -param FsInformationClass [in]
 
-Type of information to be returned about the volume. Set this member to one of the following [FS_INFORMATION_CLASS](/windows-hardware/drivers/ddi/wdm/ne-wdm-_fsinfoclass) enumeration values.
+Type of information to be returned about the volume. Set this member to one of the following [FS_INFORMATION_CLASS](../wdm/ne-wdm-_fsinfoclass.md) enumeration values.
 
 | Value | Meaning |
 |---|---|
-| **FileFsAttributeInformation** | Return a [**FILE_FS_ATTRIBUTE_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_attribute_information) structure containing attribute information about the file system responsible for the volume. |
-| **FileFsControlInformation** | Return a [**FILE_FS_CONTROL_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_control_information) structure containing file system control information about the volume. |
-| **FileFsDeviceInformation** | Return a [**FILE_FS_DEVICE_INFORMATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_fs_device_information) structure containing device information for the volume. |
-| **FileFsDriverPathInformation** | Return a [**FILE_FS_DRIVER_PATH_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_driver_path_information) structure containing information about whether a specified driver is in the I/O path for the volume. The caller must store the name of the driver into the **FILE_FS_DRIVER_PATH_INFORMATION** structure before calling **ZwQueryVolumeInformationFile**. |
-| **FileFsFullSizeInformation** | Return a [**FILE_FS_FULL_SIZE_INFORMATION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_full_size_information) structure containing information about the total amount of space available on the volume. |
-| **FileFsObjectIdInformation** | Return a [**FILE_FS_OBJECTID_INFORMATION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_objectid_information) structure containing file system-specific object ID information for the volume. Note that this is not the same as the (GUID-based) unique volume name assigned by the operating system. |
-| **FileFsSizeInformation** | Return a [**FILE_FS_SIZE_INFORMATION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_size_information) structure containing information about the amount of space on the volume that is available to the user associated with the calling thread. |
-| **FileFsVolumeInformation** | Return a [**FILE_FS_VOLUME_INFORMATION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_volume_information) containing information about the volume such as the volume label, serial number, and creation time. |
-| **FileFsSectorSizeInformation** | Return a [**FILE_FS_SECTOR_SIZE_INFORMATION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_sector_size_information) structure that contains information about the physical and logical sector sizes of a volume. |
+| **FileFsAttributeInformation** | Return a [**FILE_FS_ATTRIBUTE_INFORMATION**](../ntifs/ns-ntifs-_file_fs_attribute_information.md) structure containing attribute information about the file system responsible for the volume. |
+| **FileFsControlInformation** | Return a [**FILE_FS_CONTROL_INFORMATION**](../ntifs/ns-ntifs-_file_fs_control_information.md) structure containing file system control information about the volume. |
+| **FileFsDeviceInformation** | Return a [**FILE_FS_DEVICE_INFORMATION**](../wdm/ns-wdm-_file_fs_device_information.md) structure containing device information for the volume. |
+| **FileFsDriverPathInformation** | Return a [**FILE_FS_DRIVER_PATH_INFORMATION**](../ntifs/ns-ntifs-_file_fs_driver_path_information.md) structure containing information about whether a specified driver is in the I/O path for the volume. The caller must store the name of the driver into the **FILE_FS_DRIVER_PATH_INFORMATION** structure before calling **ZwQueryVolumeInformationFile**. |
+| **FileFsFullSizeInformation** | Return a [**FILE_FS_FULL_SIZE_INFORMATION**](./ns-ntddk-_file_fs_full_size_information.md) structure containing information about the total amount of space available on the volume. |
+| **FileFsObjectIdInformation** | Return a [**FILE_FS_OBJECTID_INFORMATION**](./ns-ntddk-_file_fs_objectid_information.md) structure containing file system-specific object ID information for the volume. Note that this is not the same as the (GUID-based) unique volume name assigned by the operating system. |
+| **FileFsSizeInformation** | Return a [**FILE_FS_SIZE_INFORMATION**](./ns-ntddk-_file_fs_size_information.md) structure containing information about the amount of space on the volume that is available to the user associated with the calling thread. |
+| **FileFsVolumeInformation** | Return a [**FILE_FS_VOLUME_INFORMATION**](./ns-ntddk-_file_fs_volume_information.md) containing information about the volume such as the volume label, serial number, and creation time. |
+| **FileFsSectorSizeInformation** | Return a [**FILE_FS_SECTOR_SIZE_INFORMATION**](./ns-ntddk-_file_fs_sector_size_information.md) structure that contains information about the physical and logical sector sizes of a volume. |
 
 ## -returns
 
@@ -89,9 +89,9 @@ If the *FileHandle* represents a direct device open, only *FileFsDeviceInformati
 
 **ZwQueryVolumeInformationFile** returns zero in any member of a **FILE_*XXX*_INFORMATION** structure that is not supported by the file system.
 
-For information about other file information query routines, see [File Objects](/windows-hardware/drivers/ddi/_kernel/#file-objects).
+For information about other file information query routines, see [File Objects](../_kernel/index.md#file-objects).
 
-Minifilters should use [FltQueryVolumeInformationFile](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformationfile) instead of **ZwQueryVolumeInformationFile**.
+Minifilters should use [FltQueryVolumeInformationFile](../fltkernel/nf-fltkernel-fltqueryvolumeinformationfile.md) instead of **ZwQueryVolumeInformationFile**.
 
 Callers of **ZwQueryVolumeInformationFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
@@ -101,23 +101,23 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 ## -see-also
 
-[**FILE_FS_ATTRIBUTE_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_attribute_information)
+[**FILE_FS_ATTRIBUTE_INFORMATION**](../ntifs/ns-ntifs-_file_fs_attribute_information.md)
 
-[**FILE_FS_CONTROL_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_control_information)
+[**FILE_FS_CONTROL_INFORMATION**](../ntifs/ns-ntifs-_file_fs_control_information.md)
 
-[**FILE_FS_DEVICE_INFORMATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_fs_device_information)
+[**FILE_FS_DEVICE_INFORMATION**](../wdm/ns-wdm-_file_fs_device_information.md)
 
-[**FILE_FS_DRIVER_PATH_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_driver_path_information)
+[**FILE_FS_DRIVER_PATH_INFORMATION**](../ntifs/ns-ntifs-_file_fs_driver_path_information.md)
 
-[**FILE_FS_FULL_SIZE_INFORMATION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_full_size_information)
+[**FILE_FS_FULL_SIZE_INFORMATION**](./ns-ntddk-_file_fs_full_size_information.md)
 
-[**FILE_FS_OBJECTID_INFORMATION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_objectid_information)
+[**FILE_FS_OBJECTID_INFORMATION**](./ns-ntddk-_file_fs_objectid_information.md)
 
-[**FILE_FS_SIZE_INFORMATION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_size_information)
+[**FILE_FS_SIZE_INFORMATION**](./ns-ntddk-_file_fs_size_information.md)
 
-[**FILE_FS_VOLUME_INFORMATION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_volume_information)
+[**FILE_FS_VOLUME_INFORMATION**](./ns-ntddk-_file_fs_volume_information.md)
 
-[FltQueryVolumeInformationFile](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformationfile)
+[FltQueryVolumeInformationFile](../fltkernel/nf-fltkernel-fltqueryvolumeinformationfile.md)
 
 [IRP_MJ_QUERY_VOLUME_INFORMATION](/windows-hardware/drivers/ifs/irp-mj-query-volume-information)
 
@@ -125,14 +125,14 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
+[ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md)
 
-[ZwOpenFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile)
+[ZwOpenFile](../ntifs/nf-ntifs-ntopenfile.md)
 
 [ZwQueryDirectoryFile](/previous-versions/ff567047(v=vs.85))
 
-[ZwQueryInformationFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile)
+[ZwQueryInformationFile](../ntifs/nf-ntifs-ntqueryinformationfile.md)
 
-[ZwSetInformationFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile)
+[ZwSetInformationFile](../ntifs/nf-ntifs-ntsetinformationfile.md)
 
-[ZwSetVolumeInformationFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwsetvolumeinformationfile)
+[ZwSetVolumeInformationFile](../ntifs/nf-ntifs-zwsetvolumeinformationfile.md)

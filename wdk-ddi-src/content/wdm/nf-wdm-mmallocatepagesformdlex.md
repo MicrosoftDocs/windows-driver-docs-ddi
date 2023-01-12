@@ -65,7 +65,7 @@ Specifies the total number of bytes to allocate for the MDL.
 
 ### -param CacheType [in]
 
-Specifies a [MEMORY_CACHING_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type) value, which indicates the type of caching that is allowed for the requested memory.
+Specifies a [MEMORY_CACHING_TYPE](./ne-wdm-_memory_caching_type.md) value, which indicates the type of caching that is allowed for the requested memory.
 
 ### -param Flags [in]
 
@@ -100,7 +100,7 @@ By default, the physical memory pages that **MmAllocatePagesForMdlEx** returns a
 
 Depending on how much physical memory is currently available in the requested ranges, **MmAllocatePagesForMdlEx** might return an MDL that describes less memory than was requested. The routine also might return **NULL** if no memory was allocated. The caller should check the amount of memory that is actually allocated to the MDL.
 
-The caller must use [MmFreePagesFromMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreepagesfrommdl) to release the memory pages that are described by an MDL that was created by **MmAllocatePagesForMdlEx**. After calling **MmFreePagesFromMdl**, the caller must also call [ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool) to release the memory that is allocated for the MDL structure.
+The caller must use [MmFreePagesFromMdl](./nf-wdm-mmfreepagesfrommdl.md) to release the memory pages that are described by an MDL that was created by **MmAllocatePagesForMdlEx**. After calling **MmFreePagesFromMdl**, the caller must also call [ExFreePool](../ntddk/nf-ntddk-exfreepool.md) to release the memory that is allocated for the MDL structure.
 
 By default, **MmAllocatePagesForMdlEx** fills the pages that it allocates with zeros. The caller can specify the MM_DONT_ZERO_ALLOCATION flag to override this default and to possibly improve performance.
 
@@ -112,12 +112,12 @@ The maximum amount of memory that **MmAllocatePagesForMdlEx** can allocate in a 
 
 ## -see-also
 
-[ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool)
+[ExFreePool](../ntddk/nf-ntddk-exfreepool.md)
 
-[MEMORY_CACHING_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type)
+[MEMORY_CACHING_TYPE](./ne-wdm-_memory_caching_type.md)
 
-[MmAllocatePagesForMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl)
+[MmAllocatePagesForMdl](./nf-wdm-mmallocatepagesformdl.md)
 
-[MmFreePagesFromMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreepagesfrommdl)
+[MmFreePagesFromMdl](./nf-wdm-mmfreepagesfrommdl.md)
 
-[MmMapLockedPages](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpages)
+[MmMapLockedPages](./nf-wdm-mmmaplockedpages.md)

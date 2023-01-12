@@ -93,8 +93,8 @@ Here are the arguments:
 
 ## -see-also
 
-[DbgPrint](/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgprint)
+[DbgPrint](./nf-wdm-dbgprint.md)
 
-[DbgPrintEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgprintex)
+[DbgPrintEx](./nf-wdm-dbgprintex.md)
 
-[KdPrint](/windows-hardware/drivers/ddi/wdm/nf-wdm-kdprint)
+[KdPrint](./nf-wdm-kdprint.md)

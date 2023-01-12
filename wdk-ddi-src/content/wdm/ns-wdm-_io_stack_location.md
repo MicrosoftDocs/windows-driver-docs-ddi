@@ -73,7 +73,7 @@ Possible flag values include:
 | SL_OVERRIDE_VERIFY_VOLUME | `0x02` | This flag is used to determine whether to continue the read operation even if the device object's **Flags** is set with DO_VERIFY_VOLUME. |
 | SL_WRITE_THROUGH | `0x04` | This flag informs the storage driver to set appropriate flags so that the disk bypasses the write cache in order to force the disk to write through to its persistent storage media. **This flag is device-specific; not all disk drives support bypassing disk-cache.** |
 | SL_FT_SEQUENTIAL_WRITE | `0x08` | Reserved for system use. |
-| SL_FORCE_DIRECT_WRITE | `0x10` | This flag lets kernel-mode drivers write to volume areas that they normally cannot write to because of blocking direct write in the file system and storage driver stack.  Direct write blocking helps improve security. This flag is checked both at the file system layer and storage stack layer. For more information about direct write blocking, see [Blocking Direct Write Operations to Volumes and Disks](/windows-hardware/drivers/ddi/index). |
+| SL_FORCE_DIRECT_WRITE | `0x10` | This flag lets kernel-mode drivers write to volume areas that they normally cannot write to because of blocking direct write in the file system and storage driver stack.  Direct write blocking helps improve security. This flag is checked both at the file system layer and storage stack layer. For more information about direct write blocking, see [Blocking Direct Write Operations to Volumes and Disks](../index.yml). |
 | SL_REALTIME_STREAM | `0x20` | This flag hints that the IO is for real-time streaming requests to a CD-ROM class driver. This hints the driver to perform READ/WRITE operations at a guaranteed speed for real-time streaming. **This flag is valid only with optical media.** |
 | SL_PERSISTENT_MEMORY_FIXED_MAPPING | `0x20` | The persistent memory mapping of the bytes in the write request cannot change while handling this write request. **This flag is valid only with a persistent memory device and IRP_MJ_WRITE.** |
 
@@ -500,11 +500,11 @@ Parameters for other driver-specific operations.
 
 ### -field DeviceObject
 
-A pointer to the driver-created [**DEVICE_OBJECT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure representing the target physical, logical, or virtual device for which this driver is to handle the IRP.
+A pointer to the driver-created [**DEVICE_OBJECT**](./ns-wdm-_device_object.md) structure representing the target physical, logical, or virtual device for which this driver is to handle the IRP.
 
 ### -field FileObject
 
-A pointer to a [**FILE_OBJECT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object) structure that represents the file object, if any, that is associated with **DeviceObject** pointer.
+A pointer to a [**FILE_OBJECT**](./ns-wdm-_file_object.md) structure that represents the file object, if any, that is associated with **DeviceObject** pointer.
 
 ### -field CompletionRoutine
 
@@ -516,13 +516,13 @@ Driver-defined context that is used to store the address of the context paramete
 
 ## -remarks
 
-For each IRP, there is one **IO_STACK_LOCATION** structure for each driver in a [driver stack](/windows-hardware/drivers/). Each IRP's set of I/O stack locations is appended to the IRP, following the [**IRP**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp) structure.
+For each IRP, there is one **IO_STACK_LOCATION** structure for each driver in a [driver stack](/windows-hardware/drivers/). Each IRP's set of I/O stack locations is appended to the IRP, following the [**IRP**](./ns-wdm-_irp.md) structure.
 
-Every higher-level driver is responsible for setting up the I/O stack location for the next-lower driver in each IRP. A driver must call [IoGetCurrentIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcurrentirpstacklocation) to get a pointer to its own stack location for each IRP. Higher-level drivers can call [IoGetNextIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetnextirpstacklocation) to get a pointer to the next-lower driver's stack location.
+Every higher-level driver is responsible for setting up the I/O stack location for the next-lower driver in each IRP. A driver must call [IoGetCurrentIrpStackLocation](./nf-wdm-iogetcurrentirpstacklocation.md) to get a pointer to its own stack location for each IRP. Higher-level drivers can call [IoGetNextIrpStackLocation](./nf-wdm-iogetnextirpstacklocation.md) to get a pointer to the next-lower driver's stack location.
 
-The higher-level driver must set up the stack location contents before calling [IoCallDriver](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver) to pass an IRP to the lower-level driver. If the driver will pass the input IRP on to the next lower-level driver, the dispatch routine should call [IoSkipCurrentIrpStackLocation](./nf-wdm-ioskipcurrentirpstacklocation.md) or [IoCopyCurrentIrpStackLocationToNext](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocopycurrentirpstacklocationtonext) to set up the I/O stack location of the next-lower driver.
+The higher-level driver must set up the stack location contents before calling [IoCallDriver](./nf-wdm-iocalldriver.md) to pass an IRP to the lower-level driver. If the driver will pass the input IRP on to the next lower-level driver, the dispatch routine should call [IoSkipCurrentIrpStackLocation](./nf-wdm-ioskipcurrentirpstacklocation.md) or [IoCopyCurrentIrpStackLocationToNext](./nf-wdm-iocopycurrentirpstacklocationtonext.md) to set up the I/O stack location of the next-lower driver.
 
-A higher-level driver's call to **IoCallDriver** sets the **DeviceObject** member to the next-lower-level driver's target device object, in the I/O stack location of the lower driver. The I/O manager passes each higher-level driver's [IoCompletion](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine) routine a pointer to its own device object when the *IoCompletion* routine is called on completion of the IRP.
+A higher-level driver's call to **IoCallDriver** sets the **DeviceObject** member to the next-lower-level driver's target device object, in the I/O stack location of the lower driver. The I/O manager passes each higher-level driver's [IoCompletion](./nc-wdm-io_completion_routine.md) routine a pointer to its own device object when the *IoCompletion* routine is called on completion of the IRP.
 
 If a higher-level driver allocates IRPs to make requests of its own, its *IoCompletion* routine is passed a **NULL** **DeviceObject** pointer if that driver neither allocates a stack location for itself nor sets up the **DeviceObject** pointer in its own stack location of the newly allocated IRP.
 
@@ -530,20 +530,20 @@ In some cases, a higher-level driver layered over a mass-storage device driver i
 
 ## -see-also
 
-[**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block)
+[**IO_STATUS_BLOCK**](./ns-wdm-_io_status_block.md)
 
-[**IRP**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp)
+[**IRP**](./ns-wdm-_irp.md)
 
-[IoCallDriver](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver)
+[IoCallDriver](./nf-wdm-iocalldriver.md)
 
-[IoCopyCurrentIrpStackLocationToNext](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocopycurrentirpstacklocationtonext)
+[IoCopyCurrentIrpStackLocationToNext](./nf-wdm-iocopycurrentirpstacklocationtonext.md)
 
-[IoGetCurrentIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcurrentirpstacklocation)
+[IoGetCurrentIrpStackLocation](./nf-wdm-iogetcurrentirpstacklocation.md)
 
-[IoGetNextIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetnextirpstacklocation)
+[IoGetNextIrpStackLocation](./nf-wdm-iogetnextirpstacklocation.md)
 
-[IoSetCompletionRoutine](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine)
+[IoSetCompletionRoutine](./nf-wdm-iosetcompletionroutine.md)
 
-[IoSetNextIrpStackLocation](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetnextirpstacklocation)
+[IoSetNextIrpStackLocation](./nf-wdm-iosetnextirpstacklocation.md)
 
 [IoSkipCurrentIrpStackLocation](./nf-wdm-ioskipcurrentirpstacklocation.md)

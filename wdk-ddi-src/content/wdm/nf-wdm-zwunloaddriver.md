@@ -63,7 +63,7 @@ A file system filter driver cannot safely be unloaded from a running system. Thu
 
 If *DriverName* is the name of a PnP device driver, **ZwUnloadDriver** returns STATUS_INVALID_DEVICE_REQUEST and does not unload the driver.
 
-A minifilter should use [FltUnloadFilter](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltunloadfilter) instead of **ZwUnloadDriver** to unload a supporting minifilter.
+A minifilter should use [FltUnloadFilter](../fltkernel/nf-fltkernel-fltunloadfilter.md) instead of **ZwUnloadDriver** to unload a supporting minifilter.
 
 If the call to the **ZwUnloadDriver** function occurs in user mode, you should use the name "[NtUnloadDriver](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwunloaddriver)" instead of "**ZwUnloadDriver**".
 
@@ -71,9 +71,9 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 ## -see-also
 
-[FltUnloadFilter](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltunloadfilter)
+[FltUnloadFilter](../fltkernel/nf-fltkernel-fltunloadfilter.md)
 
-[RtlInitUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitunicodestring)
+[RtlInitUnicodeString](./nf-wdm-rtlinitunicodestring.md)
 
 [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 

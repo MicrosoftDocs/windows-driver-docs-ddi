@@ -64,18 +64,18 @@ Highest-level drivers, particularly file system drivers, call **IoRaiseHardError
 > [!WARNING]
 > Because **IoRaiseHardError** uses a normal kernel APC to create a user dialog box, a deadlock can occur if normal kernel APCs are disabled when a device error occurs. For example:
 >
-> 1. An upper-level filter driver calls [KeEnterCriticalRegion](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion) (which disables normal kernel APCs) and sends an I/O request to a file system driver. The filter driver waits on the completion of the request by the file system driver before the filter driver calls [KeLeaveCriticalRegion](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleavecriticalregion) (which reenables normal kernel APCs).
+> 1. An upper-level filter driver calls [KeEnterCriticalRegion](./nf-ntddk-keentercriticalregion.md) (which disables normal kernel APCs) and sends an I/O request to a file system driver. The filter driver waits on the completion of the request by the file system driver before the filter driver calls [KeLeaveCriticalRegion](./nf-ntddk-keleavecriticalregion.md) (which reenables normal kernel APCs).
 >
 > 1. An error occurs on the file system, and the file system driver calls **IoRaiseHardError** to report the error to the user. The file system driver waits on the dialog box.
 >
 > 1. Deadlock now exists: The normal kernel APC created by **IoRaiseHardError** to create the dialog box waits for normal kernel APCs to be enabled. The file system waits on the dialog box before it completes the I/O request. The filter driver waits on completion of the I/O request before it calls **KeLeaveCriticalRegion** (which reenables normal kernel APCs).
 
-The behavior of this routine is dependent of the current state of hard errors for the running thread. If hard errors have been disabled by calling [IoSetThreadHardErrorMode](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetthreadharderrormode), this routine completes the IRP specified by *Irp* without transferring any data into user buffers. In addition, no message is sent to notify the user of this failure.
+The behavior of this routine is dependent of the current state of hard errors for the running thread. If hard errors have been disabled by calling [IoSetThreadHardErrorMode](./nf-ntddk-iosetthreadharderrormode.md), this routine completes the IRP specified by *Irp* without transferring any data into user buffers. In addition, no message is sent to notify the user of this failure.
 
 ## -see-also
 
-[IoGetRelatedDeviceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetrelateddeviceobject)
+[IoGetRelatedDeviceObject](../wdm/nf-wdm-iogetrelateddeviceobject.md)
 
-[IoSetHardErrorOrVerifyDevice](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetharderrororverifydevice)
+[IoSetHardErrorOrVerifyDevice](./nf-ntddk-iosetharderrororverifydevice.md)
 
-[IoSetThreadHardErrorMode](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetthreadharderrormode)
+[IoSetThreadHardErrorMode](./nf-ntddk-iosetthreadharderrormode.md)

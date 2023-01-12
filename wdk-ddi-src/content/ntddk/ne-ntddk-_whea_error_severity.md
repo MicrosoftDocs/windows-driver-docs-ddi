@@ -69,14 +69,14 @@ An error has not occurred.
 
 ## -remarks
 
-The [**WHEA_ERROR_PACKET**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v2), [**WHEA_ERROR_RECORD_HEADER**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header), [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor), and [**WHEA_GENERIC_ERROR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error) structures each contain a member of type WHEA_ERROR_SEVERITY that specifies the severity of the error that is described by the structure.
+The [**WHEA_ERROR_PACKET**](./ns-ntddk-_whea_error_packet_v2.md), [**WHEA_ERROR_RECORD_HEADER**](./ns-ntddk-_whea_error_record_header.md), [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md), and [**WHEA_GENERIC_ERROR**](./ns-ntddk-_whea_generic_error.md) structures each contain a member of type WHEA_ERROR_SEVERITY that specifies the severity of the error that is described by the structure.
 
 ## -see-also
 
-[**WHEA_ERROR_PACKET**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v2)
+[**WHEA_ERROR_PACKET**](./ns-ntddk-_whea_error_packet_v2.md)
 
-[**WHEA_ERROR_RECORD_HEADER**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header)
+[**WHEA_ERROR_RECORD_HEADER**](./ns-ntddk-_whea_error_record_header.md)
 
-[**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor)
+[**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md)
 
-[**WHEA_GENERIC_ERROR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error)
+[**WHEA_GENERIC_ERROR**](./ns-ntddk-_whea_generic_error.md)

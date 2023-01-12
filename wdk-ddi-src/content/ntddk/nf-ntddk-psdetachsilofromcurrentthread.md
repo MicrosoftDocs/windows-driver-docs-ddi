@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-This routine removes a thread from a silo which was added by an attach. For more info about attaching, see the  [PsAttachSiloToCurrentThread](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psattachsilotocurrentthread) routine.
+This routine removes a thread from a silo which was added by an attach. For more info about attaching, see the  [PsAttachSiloToCurrentThread](./nf-ntddk-psattachsilotocurrentthread.md) routine.
 
 The caller is responsible for dereferencing the object after the detach has completed.
 
@@ -53,4 +53,4 @@ The value returned from the silo attach call.
 
 ## -see-also
 
-[PsAttachSiloToCurrentThread](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psattachsilotocurrentthread)
+[PsAttachSiloToCurrentThread](./nf-ntddk-psattachsilotocurrentthread.md)

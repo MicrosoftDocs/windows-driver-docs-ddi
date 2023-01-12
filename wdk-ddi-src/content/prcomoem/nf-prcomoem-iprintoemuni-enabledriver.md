@@ -74,7 +74,7 @@ The **IPrintOemUni::EnableDriver** method allows a rendering plug-in to perform 
 
 Like the **DrvEnableDriver** function, the **IPrintOemUni::EnableDriver** method is responsible for providing addresses of internally supported graphics DDI functions, known as hooking functions. It can also perform other one-time initialization operations. Unlike the **DrvEnableDriver** function, implementation of **IPrintOemUni::EnableDriver** is optional.
 
-If you implement **IPrintOemUni::EnableDriver**, you must also implement [IPrintOemUni::DisableDriver](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-disabledriver). Actions begun in the former method might need to be completed in the latter method. For example, if a large buffer is allocated in **IPrintOemUni::EnableDriver**, but not deallocated in **IPrintOemUni::DisableDriver**, a memory leak can occur.
+If you implement **IPrintOemUni::EnableDriver**, you must also implement [IPrintOemUni::DisableDriver](./nf-prcomoem-iprintoemuni-disabledriver.md). Actions begun in the former method might need to be completed in the latter method. For example, if a large buffer is allocated in **IPrintOemUni::EnableDriver**, but not deallocated in **IPrintOemUni::DisableDriver**, a memory leak can occur.
 
 The method should fill the supplied [DRVENABLEDATA](/windows/win32/api/winddi/ns-winddi-drvenabledata) structure and allocate an array of [DRVFN](/windows/win32/api/winddi/ns-winddi-drvfn) structures. It should fill the array with pointers to hooking functions, along with winddi.h-defined index values that identify the hooked out graphics DDI functions.
 
@@ -144,7 +144,7 @@ A rendering plug-in for Unidrv can hook out a graphics DDI function only if the 
 
 If you provide a customized hooking function, it preempts the driver's equivalent graphics DDI function. Hooking functions can also call back into the driver's graphics DDI functions. For more information see [Customized Graphics DDI Functions](/windows-hardware/drivers/print/customized-graphics-ddi-functions).
 
-Customized hooking functions have the same input and output parameters as the equivalent graphics DDI function, with one exception - where graphics DDI functions receive PDEV pointers, customized hooking functions receive [DEVOBJ](/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj) pointers. There are two ways for graphics DDI functions to receive PDEV pointers:
+Customized hooking functions have the same input and output parameters as the equivalent graphics DDI function, with one exception - where graphics DDI functions receive PDEV pointers, customized hooking functions receive [DEVOBJ](../printoem/ns-printoem-_devobj.md) pointers. There are two ways for graphics DDI functions to receive PDEV pointers:
 
 - As the contents of the **dhpdev** member of a [SURFOBJ](/windows/win32/api/winddi/ns-winddi-surfobj) structure for the destination surface. For the equivalent customized hooking function, the destination SURFOBJ structure's **dhpdev** member points to a DEVOBJ structure, and must be cast to type PDEVOBJ when referenced. An example graphics DDI function is **DrvBitBlt**.
 

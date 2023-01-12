@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **IO_RESOURCE_DESCRIPTOR** structure describes a range of raw hardware resources, of one type, that can be used by a device. An array of **IO_RESOURCE_DESCRIPTOR** structures is contained within each [**IO_RESOURCE_LIST**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list) structure.
+The **IO_RESOURCE_DESCRIPTOR** structure describes a range of raw hardware resources, of one type, that can be used by a device. An array of **IO_RESOURCE_DESCRIPTOR** structures is contained within each [**IO_RESOURCE_LIST**](./ns-wdm-_io_resource_list.md) structure.
 
 ## -struct-fields
 
@@ -64,11 +64,11 @@ Specifies whether this resource description is required, preferred, or alternati
 
 ### -field Type
 
-Identifies the resource type. For a list of valid values, see the **Type** member of the [**CM_PARTIAL_RESOURCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor) structure.
+Identifies the resource type. For a list of valid values, see the **Type** member of the [**CM_PARTIAL_RESOURCE_DESCRIPTOR**](./ns-wdm-_cm_partial_resource_descriptor.md) structure.
 
 ### -field ShareDisposition
 
-Indicates whether the described resource can be shared. For a list of valid values, see the **ShareDisposition** member of the [**CM_PARTIAL_RESOURCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor) structure.
+Indicates whether the described resource can be shared. For a list of valid values, see the **ShareDisposition** member of the [**CM_PARTIAL_RESOURCE_DESCRIPTOR**](./ns-wdm-_cm_partial_resource_descriptor.md) structure.
 
 ### -field Spare1
 
@@ -87,7 +87,7 @@ Contains bit flags that are specific to the resource type. The following table s
 | **CM_RESOURCE_INTERRUPT_SECONDARY_INTERRUPT** | The interrupt is capable of waking the operating system from a low-power idle state or a system sleep state. This flag can be set starting with Windows 8. For more information about wake capabilities, see [Enabling Device Wake-Up](/windows-hardware/drivers/kernel/enabling-device-wake-up). |
 | **CM_RESOURCE_INTERRUPT_WAKE_HINT** | The interrupt is capable of waking the operating system from a low-power idle state or a system sleep state. This flag can be set starting with Windows 8. For more information about wake capabilities, see [Enabling Device Wake-Up](/windows-hardware/drivers/kernel/enabling-device-wake-up). |
 
-For a list of valid flags for other resource types, see the description of the **Flags** member of the [**CM_PARTIAL_RESOURCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor) structure.
+For a list of valid flags for other resource types, see the description of the **Flags** member of the [**CM_PARTIAL_RESOURCE_DESCRIPTOR**](./ns-wdm-_cm_partial_resource_descriptor.md) structure.
 
 ### -field Spare2
 
@@ -101,7 +101,7 @@ Defines the **u** union.
 
 Specifies a range of I/O port addresses, using the following members.
 
-Drivers must use [RtlIoDecodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtliodecodememioresource) and [RtlIoEncodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlioencodememioresource) to read and update this member, rather than updating it directly.
+Drivers must use [RtlIoDecodeMemIoResource](./nf-wdm-rtliodecodememioresource.md) and [RtlIoEncodeMemIoResource](./nf-wdm-rtlioencodememioresource.md) to read and update this member, rather than updating it directly.
 
 ### -field u.Port.Length
 
@@ -123,7 +123,7 @@ The maximum bus-relative I/O port address that can be assigned to the device.
 
 Specifies a range of memory addresses, using the following members:
 
-Drivers for Windows Vista and later versions of the Windows operating system must use [RtlIoDecodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtliodecodememioresource) and [RtlIoEncodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlioencodememioresource) to read and update this member, rather than updating it directly.
+Drivers for Windows Vista and later versions of the Windows operating system must use [RtlIoDecodeMemIoResource](./nf-wdm-rtliodecodememioresource.md) and [RtlIoEncodeMemIoResource](./nf-wdm-rtlioencodememioresource.md) to read and update this member, rather than updating it directly.
 
 ### -field u.Memory.Length
 
@@ -163,13 +163,13 @@ Specifies a processor group number. **Group** is a valid but optional member of 
 
 ### -field u.Interrupt.AffinityPolicy
 
-Specifies an [IRQ_DEVICE_POLICY](/windows-hardware/drivers/ddi/wdm/ne-wdm-_irq_device_policy) value that indicates how the system should distribute a device's interrupts between processors.
+Specifies an [IRQ_DEVICE_POLICY](./ne-wdm-_irq_device_policy.md) value that indicates how the system should distribute a device's interrupts between processors.
 
-Specifies an [IRQ_DEVICE_POLICY](/windows-hardware/drivers/ddi/wdm/ne-wdm-_irq_device_policy) value that indicates how the system should distribute a device's interrupts between processors.
+Specifies an [IRQ_DEVICE_POLICY](./ne-wdm-_irq_device_policy.md) value that indicates how the system should distribute a device's interrupts between processors.
 
 ### -field u.Interrupt.PriorityPolicy
 
-Specifies an [IRQ_PRIORITY](/windows-hardware/drivers/ddi/wdm/ne-wdm-_irq_priority) value that indicates the priority with which the system should dispatch the device's interrupts.
+Specifies an [IRQ_PRIORITY](./ne-wdm-_irq_priority.md) value that indicates the priority with which the system should dispatch the device's interrupts.
 
 ### -field u.Interrupt.TargetedProcessors
 
@@ -189,7 +189,7 @@ The maximum bus-relative DMA channel that can be assigned to the device.
 
 ### -field u.DmaV3
 
-Specifies the DMA settings for a driver that uses version 3 of the [**DMA_OPERATIONS**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations) structure.
+Specifies the DMA settings for a driver that uses version 3 of the [**DMA_OPERATIONS**](./ns-wdm-_dma_operations.md) structure.
 
 The **u.DmaV3** member is available starting with Windows 8.
 
@@ -277,7 +277,7 @@ Not used.
 
 Specifies a range of memory addresses, using the following members.
 
-The **u.Memory40** member is available only on Windows Vista and later versions of the Windows operating system. Drivers for these versions of Windows must use [RtlIoDecodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtliodecodememioresource) and [RtlIoEncodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlioencodememioresource) to read and update this member, rather than updating it directly.
+The **u.Memory40** member is available only on Windows Vista and later versions of the Windows operating system. Drivers for these versions of Windows must use [RtlIoDecodeMemIoResource](./nf-wdm-rtliodecodememioresource.md) and [RtlIoEncodeMemIoResource](./nf-wdm-rtlioencodememioresource.md) to read and update this member, rather than updating it directly.
 
 ### -field u.Memory40.Length40
 
@@ -299,7 +299,7 @@ The maximum bus-relative memory address that can be assigned to the device.
 
 Specifies a range of memory addresses, using the following members.
 
-The **u.Memory48** member is available only on Windows Vista and later versions of the Windows operating system. Drivers for these versions of Windows must use [RtlIoDecodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtliodecodememioresource) and [RtlIoEncodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlioencodememioresource) to read and update this member, rather than updating it directly.
+The **u.Memory48** member is available only on Windows Vista and later versions of the Windows operating system. Drivers for these versions of Windows must use [RtlIoDecodeMemIoResource](./nf-wdm-rtliodecodememioresource.md) and [RtlIoEncodeMemIoResource](./nf-wdm-rtlioencodememioresource.md) to read and update this member, rather than updating it directly.
 
 ### -field u.Memory48.Length48
 
@@ -321,7 +321,7 @@ The maximum bus-relative memory address that can be assigned to the device.
 
 Specifies a range of memory addresses, using the following members.
 
-The **u.Memory64** member is available only on Windows Vista and later versions of the Windows operating system. Drivers for Windows Vista and later versions of the Windows operating system must use [RtlIoDecodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtliodecodememioresource) and [RtlIoEncodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlioencodememioresource) to read and update this member, rather than updating it directly.
+The **u.Memory64** member is available only on Windows Vista and later versions of the Windows operating system. Drivers for Windows Vista and later versions of the Windows operating system must use [RtlIoDecodeMemIoResource](./nf-wdm-rtliodecodememioresource.md) and [RtlIoEncodeMemIoResource](./nf-wdm-rtlioencodememioresource.md) to read and update this member, rather than updating it directly.
 
 ### -field u.Memory64.Length64
 
@@ -392,10 +392,10 @@ The upper 32 bits of the 64-bit connection ID.
 
 ## -see-also
 
-[**CM_PARTIAL_RESOURCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor)
+[**CM_PARTIAL_RESOURCE_DESCRIPTOR**](./ns-wdm-_cm_partial_resource_descriptor.md)
 
-[**IO_RESOURCE_LIST**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list)
+[**IO_RESOURCE_LIST**](./ns-wdm-_io_resource_list.md)
 
-[**IO_RESOURCE_REQUIREMENTS_LIST**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_requirements_list)
+[**IO_RESOURCE_REQUIREMENTS_LIST**](./ns-wdm-_io_resource_requirements_list.md)
 
-[IoConnectInterrupt](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt)
+[IoConnectInterrupt](./nf-wdm-ioconnectinterrupt.md)

@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-The **IoSetCompletionRoutineEx** routine registers an [IoCompletion](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine) routine, which is called when the next-lower-level driver has completed the requested operation for the given IRP.
+The **IoSetCompletionRoutineEx** routine registers an [IoCompletion](./nc-wdm-io_completion_routine.md) routine, which is called when the next-lower-level driver has completed the requested operation for the given IRP.
 
 ## -parameters
 
@@ -51,11 +51,11 @@ Pointer to the driver's device object.
 
 ### -param Irp [in]
 
-Pointer to the [**IRP**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp) that the driver is processing.
+Pointer to the [**IRP**](./ns-wdm-_irp.md) that the driver is processing.
 
 ### -param CompletionRoutine [in]
 
-Specifies the entry point for the driver-supplied [IoCompletion](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine) routine, which is called when the next-lower driver completes the packet.
+Specifies the entry point for the driver-supplied [IoCompletion](./nc-wdm-io_completion_routine.md) routine, which is called when the next-lower driver completes the packet.
 
 ### -param Context [in, optional]
 
@@ -63,7 +63,7 @@ Pointer to a driver-determined context to pass to the *IoCompletion* routine. Co
 
 ### -param InvokeOnSuccess [in]
 
-Specifies whether the completion routine is called if the IRP is completed with a success status value in the IRP's [**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure, based on results of the NT_SUCCESS macro (see [Using NTSTATUS values](/windows-hardware/drivers/kernel/using-ntstatus-values)).
+Specifies whether the completion routine is called if the IRP is completed with a success status value in the IRP's [**IO_STATUS_BLOCK**](./ns-wdm-_io_status_block.md) structure, based on results of the NT_SUCCESS macro (see [Using NTSTATUS values](/windows-hardware/drivers/kernel/using-ntstatus-values)).
 
 ### -param InvokeOnError [in]
 
@@ -71,7 +71,7 @@ Specifies whether the completion routine is called if the IRP is completed with 
 
 ### -param InvokeOnCancel [in]
 
-Specifies whether the completion routine is called if a driver or the kernel has called [IoCancelIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocancelirp) to cancel the IRP.
+Specifies whether the completion routine is called if a driver or the kernel has called [IoCancelIrp](./nf-wdm-iocancelirp.md) to cancel the IRP.
 
 ## -returns
 
@@ -79,11 +79,11 @@ This routine returns STATUS_SUCCESS on success, or STATUS_INSUFFICIENT_RESOURCES
 
 ## -remarks
 
-Unlike [IoSetCompletionRoutine](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine), the **IoSetCompletionRoutineEx** routine returns an NTSTATUS value. The driver must check this value to determine if the [IoCompletion](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine) routine was successfully registered. If the *IoCompletion* routine is successfully registered, **IoSetCompletionRoutineEx** allocates memory that remains allocated until the *IoCompletion* routine executes. Drivers must ensure that their *IoCompletion* routine executes by calling [IoCallDriver](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver); otherwise, the kernel will leak memory.
+Unlike [IoSetCompletionRoutine](./nf-wdm-iosetcompletionroutine.md), the **IoSetCompletionRoutineEx** routine returns an NTSTATUS value. The driver must check this value to determine if the [IoCompletion](./nc-wdm-io_completion_routine.md) routine was successfully registered. If the *IoCompletion* routine is successfully registered, **IoSetCompletionRoutineEx** allocates memory that remains allocated until the *IoCompletion* routine executes. Drivers must ensure that their *IoCompletion* routine executes by calling [IoCallDriver](./nf-wdm-iocalldriver.md); otherwise, the kernel will leak memory.
 
 The *IoCompletion* routine must belong to the driver that owns the device object pointed to by *DeviceObject*. This requirement prevents the *IoCompletion* routine from being unloaded before it returns.
 
-The behavior of **IoSetCompletionRoutineEx** is the same as the [IoSetCompletionRoutine](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine) routine, except that:
+The behavior of **IoSetCompletionRoutineEx** is the same as the [IoSetCompletionRoutine](./nf-wdm-iosetcompletionroutine.md) routine, except that:
 
 - **IoSetCompletionRoutineEx** guarantees that a non-Plug and Play driver is not unloaded before the *IoCompletion* routine runs.
 
@@ -91,18 +91,18 @@ The behavior of **IoSetCompletionRoutineEx** is the same as the [IoSetCompletion
 
 ## -see-also
 
-[**IO_STACK_LOCATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location)
+[**IO_STACK_LOCATION**](./ns-wdm-_io_stack_location.md)
 
-[**IRP**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp)
+[**IRP**](./ns-wdm-_irp.md)
 
-[IoAllocateIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp)
+[IoAllocateIrp](./nf-wdm-ioallocateirp.md)
 
-[IoBuildAsynchronousFsdRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest)
+[IoBuildAsynchronousFsdRequest](./nf-wdm-iobuildasynchronousfsdrequest.md)
 
-[IoBuildPartialMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildpartialmdl)
+[IoBuildPartialMdl](./nf-wdm-iobuildpartialmdl.md)
 
-[IoCompletion](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine)
+[IoCompletion](./nc-wdm-io_completion_routine.md)
 
 [IoFreeIrp](/windows-hardware/drivers/devtest/storport-iofreeirp)
 
-[IoSetCompletionRoutine](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine)
+[IoSetCompletionRoutine](./nf-wdm-iosetcompletionroutine.md)
