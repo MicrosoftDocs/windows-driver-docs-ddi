@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-The **ZwAllocateLocallyUniqueId** routine allocates a locally unique identifier ([**LUID**](/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid)).
+The **ZwAllocateLocallyUniqueId** routine allocates a locally unique identifier ([**LUID**](../igpupvdev/ns-igpupvdev-_luid.md)).
 
 ## -parameters
 
@@ -55,7 +55,7 @@ Pointer to a caller-allocated buffer to receive a copy of the source LUID struct
 
 ## -remarks
 
-The allocated [LUID](/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid) is unique to the local system only, and uniqueness is guaranteed only until the system is next restarted.
+The allocated [LUID](../igpupvdev/ns-igpupvdev-_luid.md) is unique to the local system only, and uniqueness is guaranteed only until the system is next restarted.
 
 If the call to the **ZwAllocateLocallyUniqueId** function occurs in user mode, you should use the name "**NtAllocateLocallyUniqueId**" instead of "**ZwAllocateLocallyUniqueId**".
 
@@ -63,6 +63,6 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 ## -see-also
 
-[**LUID**](/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid)
+[**LUID**](../igpupvdev/ns-igpupvdev-_luid.md)
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)

@@ -49,11 +49,11 @@ This routine is reserved for system use.
 
 ### -param DmaAdapter [in]
 
-Pointer to the [**DMA_ADAPTER**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter) structure returned by [IoGetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter) that represents the bus-master adapter or DMA controller.
+Pointer to the [**DMA_ADAPTER**](./ns-wdm-_dma_adapter.md) structure returned by [IoGetDmaAdapter](./nf-wdm-iogetdmaadapter.md) that represents the bus-master adapter or DMA controller.
 
 ### -param ScatterGather [in]
 
-Pointer to the [**SCATTER_GATHER_LIST**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list) structure passed to the driver's [AdapterListControl](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_list_control) routine.
+Pointer to the [**SCATTER_GATHER_LIST**](./ns-wdm-_scatter_gather_list.md) structure passed to the driver's [AdapterListControl](./nc-wdm-driver_list_control.md) routine.
 
 ### -param OriginalMdl [in]
 
@@ -76,20 +76,20 @@ Pointer to a variable the routine uses to return the MDL created to hold the buf
 
 ## -remarks
 
-**BuildMdlFromScatterGatherList** is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a [**DMA_OPERATIONS**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations) structure. Drivers obtain the address of this routine by calling [IoGetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter) with the **Version** member of the *DeviceDescription* parameter set to DEVICE_DESCRIPTION_VERSION2. If **IoGetDmaAdapter** returns **NULL**, the routine is not available on your platform.
+**BuildMdlFromScatterGatherList** is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a [**DMA_OPERATIONS**](./ns-wdm-_dma_operations.md) structure. Drivers obtain the address of this routine by calling [IoGetDmaAdapter](./nf-wdm-iogetdmaadapter.md) with the **Version** member of the *DeviceDescription* parameter set to DEVICE_DESCRIPTION_VERSION2. If **IoGetDmaAdapter** returns **NULL**, the routine is not available on your platform.
 
 When a driver creates a scatter/gather list to write to a device, the system can make a copy of the data to be written, and use that copy to perform the DMA operation. Use this routine to access the memory locations in the scatter/gather list, regardless of whether those locations are a copy.
 
 ## -see-also
 
-[BuildScatterGatherList](/windows-hardware/drivers/ddi/wdm/nc-wdm-pbuild_scatter_gather_list)
+[BuildScatterGatherList](./nc-wdm-pbuild_scatter_gather_list.md)
 
-[**DEVICE_DESCRIPTION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_description)
+[**DEVICE_DESCRIPTION**](./ns-wdm-_device_description.md)
 
-[**DMA_ADAPTER**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter)
+[**DMA_ADAPTER**](./ns-wdm-_dma_adapter.md)
 
-[**DMA_OPERATIONS**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations)
+[**DMA_OPERATIONS**](./ns-wdm-_dma_operations.md)
 
-[IoGetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter)
+[IoGetDmaAdapter](./nf-wdm-iogetdmaadapter.md)
 
-[**SCATTER_GATHER_LIST**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list)
+[**SCATTER_GATHER_LIST**](./ns-wdm-_scatter_gather_list.md)

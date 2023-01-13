@@ -47,7 +47,7 @@ The **KeQueryLogicalProcessorRelationship** routine gets information about the r
 
 ### -param ProcessorNumber [in, optional]
 
-A pointer to a [PROCESSOR_NUMBER](/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number) structure that identifies the logical processor for which the caller requests relationship information. To request information about all logical processors in the system, set this parameter to **NULL**.
+A pointer to a [PROCESSOR_NUMBER](../miniport/ns-miniport-_processor_number.md) structure that identifies the logical processor for which the caller requests relationship information. To request information about all logical processors in the system, set this parameter to **NULL**.
 
 ### -param RelationshipType [in]
 
@@ -133,6 +133,6 @@ The NT_ASSERT macro is defined in the Wdm.h header file. The NT_SUCCESS macro is
 
 [LOGICAL_PROCESSOR_RELATIONSHIP](/windows/win32/api/winnt/ne-winnt-logical_processor_relationship)
 
-[PROCESSOR_NUMBER](/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number)
+[PROCESSOR_NUMBER](../miniport/ns-miniport-_processor_number.md)
 
 [SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX](/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex)

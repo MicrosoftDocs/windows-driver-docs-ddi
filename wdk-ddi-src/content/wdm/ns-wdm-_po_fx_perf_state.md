@@ -53,7 +53,7 @@ The **PO_FX_PERF_STATE** structure represents a performance state for a single c
 
 ### -field Value
 
-The value of this performance state. The units are specified by the **Unit** member of the [**PO_FX_COMPONENT_PERF_SET**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_perf_set) that contains this performance state. For example, if **Value** is 100000000 and the **Unit** member of the  **PO_FX_COMPONENT_PERF_SET** is **PoFxPerfStateUnitFrequency**, this performance state represents 100 MHz.
+The value of this performance state. The units are specified by the **Unit** member of the [**PO_FX_COMPONENT_PERF_SET**](./ns-wdm-_po_fx_component_perf_set.md) that contains this performance state. For example, if **Value** is 100000000 and the **Unit** member of the  **PO_FX_COMPONENT_PERF_SET** is **PoFxPerfStateUnitFrequency**, this performance state represents 100 MHz.
 
 ### -field Context
 
@@ -63,14 +63,14 @@ Using the **Context** member can hinder the visualization of performance states 
 
 ## -remarks
 
-The **States** member of the [**PO_FX_COMPONENT_PERF_SET**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_perf_set) structure contains an array of **PO_FX_PERF_STATE** elements.
+The **States** member of the [**PO_FX_COMPONENT_PERF_SET**](./ns-wdm-_po_fx_component_perf_set.md) structure contains an array of **PO_FX_PERF_STATE** elements.
 
 ## -see-also
 
 [Device Performance State Management](/windows-hardware/drivers/kernel/component-level-performance-management)
 
-[**PO_FX_COMPONENT_PERF_SET**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_perf_set)
+[**PO_FX_COMPONENT_PERF_SET**](./ns-wdm-_po_fx_component_perf_set.md)
 
-[PO_FX_PERF_STATE_UNIT](/windows-hardware/drivers/ddi/wdm/ne-wdm-_po_fx_perf_state_unit)
+[PO_FX_PERF_STATE_UNIT](./ne-wdm-_po_fx_perf_state_unit.md)
 
-[PoFxRegisterComponentPerfStates](/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregistercomponentperfstates)
+[PoFxRegisterComponentPerfStates](./nf-wdm-pofxregistercomponentperfstates.md)

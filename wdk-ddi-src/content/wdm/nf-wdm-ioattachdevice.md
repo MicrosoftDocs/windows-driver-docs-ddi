@@ -69,23 +69,23 @@ This routine is used by intermediate drivers during initialization. It allows su
 
 The caller can be layered only at the top of an existing chain of layered drivers. **IoAttachDevice** searches for the highest device object layered over *TargetDevice* and attaches to that object (that can be the *TargetDevice*). Therefore, this routine must not be called if a driver that must be higher-level has already layered itself over the target device.
 
-Note that for file system drivers and drivers in the storage stack, **IoAttachDevice** opens the target device with FILE_READ_ATTRIBUTES and then calls [IoGetRelatedDeviceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetrelateddeviceobject). This does not cause a file system to be mounted. Thus, a successful call to **IoAttachDevice** returns the device object of the storage driver, not that of the file system driver.
+Note that for file system drivers and drivers in the storage stack, **IoAttachDevice** opens the target device with FILE_READ_ATTRIBUTES and then calls [IoGetRelatedDeviceObject](./nf-wdm-iogetrelateddeviceobject.md). This does not cause a file system to be mounted. Thus, a successful call to **IoAttachDevice** returns the device object of the storage driver, not that of the file system driver.
 
 This routine sets the **AlignmentRequirement** in *SourceDevice* to the value in the next-lower device object and sets the **StackSize** to the value in the next-lower object plus one.
 
 > [!WARNING]
-> *AttachedDevice* must point to a global memory location, such as the driver's device extension. **IoAttachDevice** opens the file object for the target device, updates *AttachedDevice*, performs the attach, and then closes the file object. Thus, the source device receives the [IRP_MJ_CLEANUP](/windows-hardware/drivers/ifs/irp-mj-cleanup) and [IRP_MJ_CLOSE](/windows-hardware/drivers/kernel/irp-mj-close) requests for the file object before **IoAttachDevice** returns. The driver must forward these requests to the target device, and *AttachedDevice* must be a memory location accessible to the driver's [DispatchCleanup](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch) and [DispatchClose](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch) routines.
+> *AttachedDevice* must point to a global memory location, such as the driver's device extension. **IoAttachDevice** opens the file object for the target device, updates *AttachedDevice*, performs the attach, and then closes the file object. Thus, the source device receives the [IRP_MJ_CLEANUP](/windows-hardware/drivers/ifs/irp-mj-cleanup) and [IRP_MJ_CLOSE](/windows-hardware/drivers/kernel/irp-mj-close) requests for the file object before **IoAttachDevice** returns. The driver must forward these requests to the target device, and *AttachedDevice* must be a memory location accessible to the driver's [DispatchCleanup](./nc-wdm-driver_dispatch.md) and [DispatchClose](./nc-wdm-driver_dispatch.md) routines.
 
 ## -see-also
 
-[DEVICE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object)
+[DEVICE_OBJECT](./ns-wdm-_device_object.md)
 
-[IoAttachDeviceToDeviceStack](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack)
+[IoAttachDeviceToDeviceStack](./nf-wdm-ioattachdevicetodevicestack.md)
 
-[IoAttachDeviceToDeviceStackSafe](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioattachdevicetodevicestacksafe)
+[IoAttachDeviceToDeviceStackSafe](../ntddk/nf-ntddk-ioattachdevicetodevicestacksafe.md)
 
-[IoCreateDevice](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice)
+[IoCreateDevice](./nf-wdm-iocreatedevice.md)
 
-[IoDetachDevice](/windows-hardware/drivers/ddi/wdm/nf-wdm-iodetachdevice)
+[IoDetachDevice](./nf-wdm-iodetachdevice.md)
 
-[IoGetRelatedDeviceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetrelateddeviceobject)
+[IoGetRelatedDeviceObject](./nf-wdm-iogetrelateddeviceobject.md)

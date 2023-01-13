@@ -63,7 +63,7 @@ The physical address multiple that the allocated buffer must not cross. A physic
 
 ### -param CacheType [in]
 
-Specifies a [MEMORY_CACHING_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type) value, which indicates the type of caching allowed for the requested memory.
+Specifies a [MEMORY_CACHING_TYPE](./ne-wdm-_memory_caching_type.md) value, which indicates the type of caching allowed for the requested memory.
 
 ## -returns
 
@@ -77,7 +77,7 @@ Drivers must not access memory beyond the requested allocation size. For example
 
 Because contiguous physical memory is usually in short supply, it should be used sparingly and only when necessary. A driver that must use contiguous memory should allocate this memory during driver initialization because physical memory is likely to become fragmented over time as the operating system allocates and frees memory. Typically, a driver calls **MmAllocateContiguousMemorySpecifyCache** from its [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine to allocate an internal buffer for long-term use, and frees the buffer just before the driver is unloaded.
 
-Memory allocated by **MmAllocateContiguousMemorySpecifyCache** must be freed when the memory is no longer needed. Call the [MmFreeContiguousMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreecontiguousmemory) routine to free memory that is allocated by **MmAllocateContiguousMemorySpecifyCache**.
+Memory allocated by **MmAllocateContiguousMemorySpecifyCache** must be freed when the memory is no longer needed. Call the [MmFreeContiguousMemory](./nf-wdm-mmfreecontiguousmemory.md) routine to free memory that is allocated by **MmAllocateContiguousMemorySpecifyCache**.
 
 If you specify a nonzero value for the *BoundaryAddressMultiple* parameter, the physical address range of the allocated memory block will not cross an address boundary that is an integer multiple of this value. A driver should set this parameter to zero unless a nonzero value is required to work around a hardware limitation. For example, if a device cannot transfer data across 16-megabyte physical boundaries, the driver should specify a value of 0x1000000 for this parameter to ensure that the addresses that the device sees do not wrap around at a 16-megabyte boundary.
 
@@ -87,6 +87,6 @@ Memory that **MmAllocateContiguousMemorySpecifyCache** allocates is uninitialize
 
 ## -see-also
 
-[MmAllocateContiguousMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatecontiguousmemory)
+[MmAllocateContiguousMemory](./nf-wdm-mmallocatecontiguousmemory.md)
 
-[MmFreeContiguousMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreecontiguousmemory)
+[MmFreeContiguousMemory](./nf-wdm-mmfreecontiguousmemory.md)

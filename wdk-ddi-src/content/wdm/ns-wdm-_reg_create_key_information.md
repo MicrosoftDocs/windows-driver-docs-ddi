@@ -47,9 +47,9 @@ api_name:
 
 ## -description
 
-Obsolete. Starting with Windows 7, use [**REG_CREATE_KEY_INFORMATION_V1**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information_v1), the V1 version of this structure instead.
+Obsolete. Starting with Windows 7, use [**REG_CREATE_KEY_INFORMATION_V1**](./ns-wdm-_reg_create_key_information_v1.md), the V1 version of this structure instead.
 
-The **REG_CREATE_KEY_INFORMATION** structure contains information that a driver's [RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) routine can use when a registry key that is being created.
+The **REG_CREATE_KEY_INFORMATION** structure contains information that a driver's [RegistryCallback](./nc-wdm-ex_callback_function.md) routine can use when a registry key that is being created.
 
 ## -struct-fields
 
@@ -67,15 +67,15 @@ The **ObjectType** member is reserved for internal use. Drivers must not access 
 
 ### -field CreateOptions
 
-A bitwise OR of flags. For more information about these flags, see the *CreateOptions* parameter of the [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) routine.
+A bitwise OR of flags. For more information about these flags, see the *CreateOptions* parameter of the [ZwCreateKey](./nf-wdm-zwcreatekey.md) routine.
 
 ### -field Class
 
-A pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that identifies the key's object class. For more information about this member, see the *Class* parameter of the [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) routine.
+A pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that identifies the key's object class. For more information about this member, see the *Class* parameter of the [ZwCreateKey](./nf-wdm-zwcreatekey.md) routine.
 
 ### -field SecurityDescriptor
 
-A pointer to a [**SECURITY_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor) structure that contains security information for the key object.
+A pointer to a [**SECURITY_DESCRIPTOR**](../ntifs/ns-ntifs-_security_descriptor.md) structure that contains security information for the key object.
 
 ### -field SecurityQualityOfService
 
@@ -91,7 +91,7 @@ An access mask that indicates the access rights that have been granted to the th
 
 ### -field Disposition
 
-A value that indicates whether the registry key was created. For more information about this member, see the *Disposition* parameter of the [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) routine and the following Remarks section.
+A value that indicates whether the registry key was created. For more information about this member, see the *Disposition* parameter of the [ZwCreateKey](./nf-wdm-zwcreatekey.md) routine and the following Remarks section.
 
 ### -field ResultObject
 
@@ -99,11 +99,11 @@ A pointer to a location that receives the address of the key object that represe
 
 ### -field CallContext
 
-Optional driver-defined context information that the driver's [RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) routine can supply.
+Optional driver-defined context information that the driver's [RegistryCallback](./nc-wdm-ex_callback_function.md) routine can supply.
 
 ### -field RootObjectContext
 
-A pointer to a driver-defined context information that the driver has associated with the root of the path for the registry object by calling [CmSetCallbackObjectContext](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext).
+A pointer to a driver-defined context information that the driver has associated with the root of the path for the registry object by calling [CmSetCallbackObjectContext](./nf-wdm-cmsetcallbackobjectcontext.md).
 
 ### -field Transaction
 
@@ -111,11 +111,11 @@ A pointer to a transaction object that the operation is attempted on. If this me
 
 ### -field Reserved
 
-If this member is 1, then it is safe to cast this structure to type [REG_CREATE_KEY_INFORMATION_V1](/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information_v1), which contains additional parameters.
+If this member is 1, then it is safe to cast this structure to type [REG_CREATE_KEY_INFORMATION_V1](./ns-wdm-_reg_create_key_information_v1.md), which contains additional parameters.
 
 ## -remarks
 
-The configuration manager passes this structure to the [RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) routine every time a thread attempts to create a key—for example, when a user-mode thread calls **RegCreateKey** or **RegCreateKeyEx** or when a driver calls [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey).
+The configuration manager passes this structure to the [RegistryCallback](./nc-wdm-ex_callback_function.md) routine every time a thread attempts to create a key—for example, when a user-mode thread calls **RegCreateKey** or **RegCreateKeyEx** or when a driver calls [ZwCreateKey](./nf-wdm-zwcreatekey.md).
 
 If the driver's *RegistryCallback* routine returns STATUS_CALLBACK_BYPASS for a **RegNtPreCreateKeyEx** notification, the driver must supply the **GrantedAccess**, **Disposition**, and **ResultObject** values.
 
@@ -123,14 +123,14 @@ For more information about registry filtering operations, see [Filtering Registr
 
 ## -see-also
 
-[**REG_CREATE_KEY_INFORMATION_V1**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information_v1)
+[**REG_CREATE_KEY_INFORMATION_V1**](./ns-wdm-_reg_create_key_information_v1.md)
 
-[**REG_POST_OPERATION_INFORMATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)
+[**REG_POST_OPERATION_INFORMATION**](./ns-wdm-_reg_post_operation_information.md)
 
-[RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function)
+[RegistryCallback](./nc-wdm-ex_callback_function.md)
 
-[SECURITY_DESCRIPTOR](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor)
+[SECURITY_DESCRIPTOR](../ntifs/ns-ntifs-_security_descriptor.md)
 
 [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
-[ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey)
+[ZwCreateKey](./nf-wdm-zwcreatekey.md)

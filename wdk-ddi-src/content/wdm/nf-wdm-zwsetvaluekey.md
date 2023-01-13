@@ -47,7 +47,7 @@ The **ZwSetValueKey** routine creates or replaces a registry key's value entry.
 
 ### -param KeyHandle [in]
 
-Handle to the registry key to write a value entry for. This handle is created by a successful call to [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) or [ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey).
+Handle to the registry key to write a value entry for. This handle is created by a successful call to [ZwCreateKey](./nf-wdm-zwcreatekey.md) or [ZwOpenKey](./nf-wdm-zwopenkey.md).
 
 ### -param ValueName [in]
 
@@ -97,7 +97,7 @@ Specifies the size, in bytes, of the *Data* buffer. If *Type* is REG_*XXX*_SZ, t
 
 ## -remarks
 
-The *KeyHandle* passed to **ZwSetValueKey** must have been opened with the KEY_SET_VALUE *DesiredAccess* flag set for this call to succeed. For a description of possible values for *DesiredAccess*, see [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey).
+The *KeyHandle* passed to **ZwSetValueKey** must have been opened with the KEY_SET_VALUE *DesiredAccess* flag set for this call to succeed. For a description of possible values for *DesiredAccess*, see [ZwCreateKey](./nf-wdm-zwcreatekey.md).
 
 If the given key has no existing value entry with a name matching the given *ValueName*, **ZwSetValueKey** creates a new value entry with the given name. If a matching value entry name exists, this routine overwrites the original value entry for the given *ValueName*. Thus, **ZwSetValueKey** preserves a unique name for each value entry of any particular key. While each value entry name must be unique to its containing key, many different keys in the registry can have value entries with the same names.
 
@@ -119,10 +119,10 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
+[ZwClose](../ntifs/nf-ntifs-ntclose.md)
 
-[ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey)
+[ZwCreateKey](./nf-wdm-zwcreatekey.md)
 
-[ZwFlushKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwflushkey)
+[ZwFlushKey](./nf-wdm-zwflushkey.md)
 
-[ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey)
+[ZwOpenKey](./nf-wdm-zwopenkey.md)

@@ -49,7 +49,7 @@ The **IoUnregisterPlugPlayNotification** routine removes the registration of a d
 
 ### -param NotificationEntry [in]
 
-Pointer to an opaque value representing the registration to be removed. The value was returned by a previous call to [IoRegisterPlugPlayNotification](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification).
+Pointer to an opaque value representing the registration to be removed. The value was returned by a previous call to [IoRegisterPlugPlayNotification](./nf-wdm-ioregisterplugplaynotification.md).
 
 ## -returns
 
@@ -57,7 +57,7 @@ Pointer to an opaque value representing the registration to be removed. The valu
 
 ## -remarks
 
-In Windows 7 and later versions of Windows, this function is obsolete and is provided only to support existing drivers. Use the [IoUnregisterPlugPlayNotificationEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotificationex) routine instead.
+In Windows 7 and later versions of Windows, this function is obsolete and is provided only to support existing drivers. Use the [IoUnregisterPlugPlayNotificationEx](./nf-wdm-iounregisterplugplaynotificationex.md) routine instead.
 
 The system does not synchronize between the execution of the notification routine and **IoUnregisterPlugPlayNotification**. Therefore, the routine can be called after the **IoUnregisterPlugPlayNotification** method has returned. If necessary, a driver should implement its own mechanism to ignore any notifications after **IoUnregisterPlugPlayNotification** has been called.
 
@@ -69,6 +69,6 @@ A driver cannot be unloaded until it removes all of its PnP notification registr
 
 ## -see-also
 
-[IoRegisterPlugPlayNotification](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification)
+[IoRegisterPlugPlayNotification](./nf-wdm-ioregisterplugplaynotification.md)
 
-[IoUnregisterPlugPlayNotificationEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotificationex)
+[IoUnregisterPlugPlayNotificationEx](./nf-wdm-iounregisterplugplaynotificationex.md)

@@ -50,7 +50,7 @@ The **GetVirtualFunctionProbedBars** routine returns the values of the PCI Expre
 
 ### -param Context [in, out]
 
-A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [**PCI_VIRTUALIZATION_INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-pci_virtualization_interface) structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [**PCI_VIRTUALIZATION_INTERFACE**](./ns-wdm-pci_virtualization_interface.md) structure for the interface.
 
 ### -param BaseRegisterValues [out]
 
@@ -106,4 +106,4 @@ address space for each BAR after the physical device has started. At that point,
 
 ## -see-also
 
-[**PCI_VIRTUALIZATION_INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-pci_virtualization_interface)
+[**PCI_VIRTUALIZATION_INTERFACE**](./ns-wdm-pci_virtualization_interface.md)

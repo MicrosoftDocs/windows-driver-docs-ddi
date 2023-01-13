@@ -51,7 +51,7 @@ A pointer to the body of the object.
 
 ## -remarks
 
-**ObDereferenceObjectDeferDelete** is similar to [ObDereferenceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject) except that, when the reference count of the object reaches zero, the object manager passes the object deletion request to a worker thread. Therefore, the deletion later occurs at IRQL = PASSIVE_LEVEL.
+**ObDereferenceObjectDeferDelete** is similar to [ObDereferenceObject](./nf-wdm-obdereferenceobject.md) except that, when the reference count of the object reaches zero, the object manager passes the object deletion request to a worker thread. Therefore, the deletion later occurs at IRQL = PASSIVE_LEVEL.
 
 Use **ObDereferenceObjectDeferDelete** for any object when the immediate deletion by the current thread of the object (by using **ObDereferenceObject**) might result in a deadlock.
 
@@ -59,10 +59,10 @@ For example, such a deadlock can occur if **ObDereferenceObject** is used to der
 
 To avoid such deadlocks, use **ObDereferenceObjectDeferDelete** instead of **ObDereferenceObject** to dereference KTM object.
 
-For information about object permanence and attributes, see [ObDereferenceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject).
+For information about object permanence and attributes, see [ObDereferenceObject](./nf-wdm-obdereferenceobject.md).
 
 ## -see-also
 
-[ObDereferenceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject)
+[ObDereferenceObject](./nf-wdm-obdereferenceobject.md)
 
-[ObReferenceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject)
+[ObReferenceObject](./nf-wdm-obfreferenceobject.md)

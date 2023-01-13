@@ -74,7 +74,7 @@ In addition, the caller can set one (but not both) of the following optional fla
 
 | Flag bit | Meaning |
 |---|---|
-| PAGE_NOCACHE | Allocate non-cached memory. This flag bit is similar in effect to calling [MmAllocateContiguousMemorySpecifyCache](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatecontiguousmemoryspecifycache) with *CacheType* set to **MmNonCached**. |
+| PAGE_NOCACHE | Allocate non-cached memory. This flag bit is similar in effect to calling [MmAllocateContiguousMemorySpecifyCache](../wdm/nf-wdm-mmallocatecontiguousmemoryspecifycache.md) with *CacheType* set to **MmNonCached**. |
 | PAGE_WRITECOMBINE | Allocate write-combined memory. This flag bit is similar in effect to calling **MmAllocateContiguousMemorySpecifyCache** with *CacheType* set to **MmWriteCombined**. |
 
 If neither PAGE_NOCACHE nor PAGE_WRITECOMBINE is specified, the allocated memory is fully cached. In this case, the effect is similar to calling **MmAllocateContiguousMemorySpecifyCache** with *CacheType* set to **MmCached**.
@@ -97,9 +97,9 @@ Drivers must not access memory beyond the requested allocation size. For example
 
 Because contiguous physical memory is usually in short supply, it should be used sparingly and only when necessary. A driver that must use contiguous memory should allocate this memory during driver initialization because physical memory is likely to become fragmented over time as the operating system allocates and frees memory. Typically, a driver calls **MmAllocateContiguousNodeMemory** from its [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine to allocate an internal buffer for long-term use, and frees the buffer just before the driver is unloaded.
 
-Memory allocated by **MmAllocateContiguousNodeMemory** must be freed when the memory is no longer needed. Call the [MmFreeContiguousMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreecontiguousmemory) routine to free memory that is allocated by **MmAllocateContiguousNodeMemory**.
+Memory allocated by **MmAllocateContiguousNodeMemory** must be freed when the memory is no longer needed. Call the [MmFreeContiguousMemory](../wdm/nf-wdm-mmfreecontiguousmemory.md) routine to free memory that is allocated by **MmAllocateContiguousNodeMemory**.
 
-**MmAllocateContiguousNodeMemory** is similar to the [MmAllocateContiguousMemorySpecifyCacheNode](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatecontiguousmemoryspecifycachenode) routine. Unlike **MmAllocateContiguousMemorySpecifyCacheNode**, **MmAllocateContiguousNodeMemory** can be used to allocate no-execute (NX) memory. As a best practice, a driver should allocate NX memory unless the driver explicitly requires the ability to execute instructions in the allocated memory. By allocating NX memory, a driver improves security by preventing malicious software from executing instructions in this memory. Memory allocated by the [MmAllocateContiguousMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatecontiguousmemory), [MmAllocateContiguousMemorySpecifyCache](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatecontiguousmemoryspecifycache), and **MmAllocateContiguousMemorySpecifyCacheNode** routines is always executable.
+**MmAllocateContiguousNodeMemory** is similar to the [MmAllocateContiguousMemorySpecifyCacheNode](../wdm/nf-wdm-mmallocatecontiguousmemoryspecifycachenode.md) routine. Unlike **MmAllocateContiguousMemorySpecifyCacheNode**, **MmAllocateContiguousNodeMemory** can be used to allocate no-execute (NX) memory. As a best practice, a driver should allocate NX memory unless the driver explicitly requires the ability to execute instructions in the allocated memory. By allocating NX memory, a driver improves security by preventing malicious software from executing instructions in this memory. Memory allocated by the [MmAllocateContiguousMemory](../wdm/nf-wdm-mmallocatecontiguousmemory.md), [MmAllocateContiguousMemorySpecifyCache](../wdm/nf-wdm-mmallocatecontiguousmemoryspecifycache.md), and **MmAllocateContiguousMemorySpecifyCacheNode** routines is always executable.
 
 If you specify a nonzero value for the *BoundaryAddressMultiple* parameter, the physical address range of the allocated memory block will not cross an address boundary that is an integer multiple of this value. A driver should set this parameter to zero unless a nonzero value is required to work around a hardware limitation. For example, if a device cannot transfer data across 16-megabyte physical boundaries, the driver should specify a value of 0x1000000 for this parameter to ensure that the addresses that the device sees do not wrap around at a 16-megabyte boundary.
 
@@ -109,10 +109,10 @@ Memory that **MmAllocateContiguousNodeMemory** allocates is uninitialized. A ker
 
 [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver)
 
-[MmAllocateContiguousMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatecontiguousmemory)
+[MmAllocateContiguousMemory](../wdm/nf-wdm-mmallocatecontiguousmemory.md)
 
-[MmAllocateContiguousMemorySpecifyCache](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatecontiguousmemoryspecifycache)
+[MmAllocateContiguousMemorySpecifyCache](../wdm/nf-wdm-mmallocatecontiguousmemoryspecifycache.md)
 
-[MmAllocateContiguousMemorySpecifyCacheNode](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatecontiguousmemoryspecifycachenode)
+[MmAllocateContiguousMemorySpecifyCacheNode](../wdm/nf-wdm-mmallocatecontiguousmemoryspecifycachenode.md)
 
-[MmFreeContiguousMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreecontiguousmemory)
+[MmFreeContiguousMemory](../wdm/nf-wdm-mmfreecontiguousmemory.md)

@@ -48,11 +48,11 @@ The **ClfsFlushToLsn** routine forces, to stable storage, all records that have 
 
 ### -param pvMarshalContext [in]
 
-A pointer to an opaque context associated with a marshalling area. The caller previously obtained this pointer by calling [ClfsCreateMarshallingArea](/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatemarshallingarea).
+A pointer to an opaque context associated with a marshalling area. The caller previously obtained this pointer by calling [ClfsCreateMarshallingArea](./nf-wdm-clfscreatemarshallingarea.md).
 
 ### -param plsnFlush [in]
 
-A pointer to a [**CLFS_LSN**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn) structure. All records that have an LSN less than or equal to *plsnFlush* are guaranteed to be forced to stable storage. If *plsnFlush* is equal to CLFS_LSN_NULL, then all records in the marshalling area are forced to stable storage.
+A pointer to a [**CLFS_LSN**](./ns-wdm-_cls_lsn.md) structure. All records that have an LSN less than or equal to *plsnFlush* are guaranteed to be forced to stable storage. If *plsnFlush* is equal to CLFS_LSN_NULL, then all records in the marshalling area are forced to stable storage.
 
 ### -param plsnLastFlushed [out, optional]
 
@@ -70,4 +70,4 @@ For an explanation of CLFS concepts and terminology, see [Common Log File System
 
 ## -see-also
 
-[ClfsFlushBuffers](/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsflushbuffers)
+[ClfsFlushBuffers](./nf-wdm-clfsflushbuffers.md)

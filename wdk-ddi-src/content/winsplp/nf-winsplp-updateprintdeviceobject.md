@@ -54,7 +54,7 @@ The HANDLE to an open printer. This should be a handle that was returned by the 
 
 ### -param hDeviceObject [in]
 
-The HANDLE to the device object to be updated. This should be a device object that was created with [AddPrintDeviceObject](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject).
+The HANDLE to the device object to be updated. This should be a device object that was created with [AddPrintDeviceObject](./nf-winsplp-addprintdeviceobject.md).
 
 ## -returns
 
@@ -68,6 +68,6 @@ The [**PRINTER_INFO_2**](/windows/win32/printdocs/printer-info-2) structure is a
 
 ## -see-also
 
-[AddPrintDeviceObject](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject)
+[AddPrintDeviceObject](./nf-winsplp-addprintdeviceobject.md)
 
 [**PRINTER_INFO_2**](/windows/win32/printdocs/printer-info-2)

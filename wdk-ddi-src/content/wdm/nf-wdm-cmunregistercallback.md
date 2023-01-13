@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-The **CmUnRegisterCallback** routine unregisters a [RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) routine that a [CmRegisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback) or [CmRegisterCallbackEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex) routine previously registered.
+The **CmUnRegisterCallback** routine unregisters a [RegistryCallback](./nc-wdm-ex_callback_function.md) routine that a [CmRegisterCallback](./nf-wdm-cmregistercallback.md) or [CmRegisterCallbackEx](./nf-wdm-cmregistercallbackex.md) routine previously registered.
 
 ## -parameters
 
@@ -57,14 +57,14 @@ A LARGE_INTEGER value that identifies the callback routine to unregister. **CmRe
 
 A driver that calls **CmRegisterCallback** or **CmRegisterCallbackEx** should call **CmUnRegisterCallback** before the driver is unloaded.
 
-A driver must not call **CmUnRegisterCallback** from its implementation of the [RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function) routine. That call will result in a deadlock.
+A driver must not call **CmUnRegisterCallback** from its implementation of the [RegistryCallback](./nc-wdm-ex_callback_function.md) routine. That call will result in a deadlock.
 
 For more information about **CmUnRegisterCallback** and filtering registry operations, see [Filtering Registry Calls](/windows-hardware/drivers/kernel/filtering-registry-calls).
 
 ## -see-also
 
-[CmRegisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback)
+[CmRegisterCallback](./nf-wdm-cmregistercallback.md)
 
-[CmRegisterCallbackEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex)
+[CmRegisterCallbackEx](./nf-wdm-cmregistercallbackex.md)
 
-[RegistryCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function)
+[RegistryCallback](./nc-wdm-ex_callback_function.md)

@@ -96,7 +96,7 @@ Optionally specifies a handle for an open file object. If the value of *FileHand
 
 ## -remarks
 
-Once the handle pointed to by *SectionHandle* is no longer in use, the driver must call [ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) to close it.
+Once the handle pointed to by *SectionHandle* is no longer in use, the driver must call [ZwClose](../ntifs/nf-ntifs-ntclose.md) to close it.
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see [Object Handles](/windows-hardware/drivers/kernel/object-handles).
 
@@ -114,10 +114,10 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)
 
-[ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
+[ZwClose](../ntifs/nf-ntifs-ntclose.md)
 
-[ZwMapViewOfSection](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwmapviewofsection)
+[ZwMapViewOfSection](./nf-wdm-zwmapviewofsection.md)
 
-[ZwOpenSection](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopensection)
+[ZwOpenSection](./nf-wdm-zwopensection.md)
 
-[ZwUnmapViewOfSection](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwunmapviewofsection)
+[ZwUnmapViewOfSection](./nf-wdm-zwunmapviewofsection.md)

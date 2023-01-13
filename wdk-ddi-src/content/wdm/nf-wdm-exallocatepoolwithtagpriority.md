@@ -50,7 +50,7 @@ The **ExAllocatePoolWithTagPriority** routine allocates pool memory of the speci
 
 ### -param PoolType [in]
 
-The type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type).
+The type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](./ne-wdm-_pool_type.md).
 
 You can modify the *PoolType* value by bitwise-ORing this value with the POOL_RAISE_IF_ALLOCATION_FAILURE flag. This flag causes an exception to be raised if the request cannot be satisfied.
 
@@ -62,7 +62,7 @@ The number of bytes to allocate.
 
 ### -param Tag [in]
 
-The pool tag to use for the allocated memory. For more information, see the *Tag* parameter of [ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag).
+The pool tag to use for the allocated memory. For more information, see the *Tag* parameter of [ExAllocatePoolWithTag](./nf-wdm-exallocatepoolwithtag.md).
 
 ### -param Priority [in]
 
@@ -96,8 +96,8 @@ Memory that **ExAllocatePoolWithTagPriority** allocates is uninitialized. A kern
 
 ## -see-also
 
-[ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag)
+[ExAllocatePoolWithTag](./nf-wdm-exallocatepoolwithtag.md)
 
-[ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool)
+[ExFreePool](../ntddk/nf-ntddk-exfreepool.md)
 
-[POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type)
+[POOL_TYPE](./ne-wdm-_pool_type.md)

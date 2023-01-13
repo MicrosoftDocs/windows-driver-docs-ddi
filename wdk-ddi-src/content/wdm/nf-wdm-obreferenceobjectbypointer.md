@@ -70,14 +70,14 @@ The same NTSTATUS code is returned if the requested type is a symbolic link type
 
 ## -remarks
 
-Calling this routine prevents the object from being deleted, possibly by another component's call to [ObDereferenceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject) or [ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose). The caller must decrement the reference count with **ObDereferenceObject** as soon as it is done with the object.
+Calling this routine prevents the object from being deleted, possibly by another component's call to [ObDereferenceObject](./nf-wdm-obdereferenceobject.md) or [ZwClose](../ntifs/nf-ntifs-ntclose.md). The caller must decrement the reference count with **ObDereferenceObject** as soon as it is done with the object.
 
 ## -see-also
 
-[ObDereferenceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject)
+[ObDereferenceObject](./nf-wdm-obdereferenceobject.md)
 
-[ObReferenceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject)
+[ObReferenceObject](./nf-wdm-obfreferenceobject.md)
 
-[ObReferenceObjectByHandle](/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle)
+[ObReferenceObjectByHandle](./nf-wdm-obreferenceobjectbyhandle.md)
 
-[ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
+[ZwClose](../ntifs/nf-ntifs-ntclose.md)

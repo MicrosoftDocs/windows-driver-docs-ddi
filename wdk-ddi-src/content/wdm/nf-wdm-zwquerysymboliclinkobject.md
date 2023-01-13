@@ -47,7 +47,7 @@ The **ZwQuerySymbolicLinkObject** routine returns a Unicode string that contains
 
 ### -param LinkHandle [in]
 
-Handle to the symbolic-link object that you want to query. This handle is created by a successful call to [ZwOpenSymbolicLinkObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopensymboliclinkobject).
+Handle to the symbolic-link object that you want to query. This handle is created by a successful call to [ZwOpenSymbolicLinkObject](./nf-wdm-zwopensymboliclinkobject.md).
 
 ### -param LinkTarget [in, out]
 
@@ -75,4 +75,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[ZwOpenSymbolicLinkObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopensymboliclinkobject)
+[ZwOpenSymbolicLinkObject](./nf-wdm-zwopensymboliclinkobject.md)

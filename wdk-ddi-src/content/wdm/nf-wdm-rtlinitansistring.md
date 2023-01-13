@@ -83,7 +83,7 @@ UNICODE_STRING RTL_CONSTANT_STRING(
 
 **RTL_CONSTANT_STRING** returns either a string structure or Unicode string structure.
 
-The **RTL_CONSTANT_STRING** macro replaces the **RtlInitAnsiString**, [RtlInitString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitstring), and [RtlInitUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitunicodestring) routines when passing a constant string.
+The **RTL_CONSTANT_STRING** macro replaces the **RtlInitAnsiString**, [RtlInitString](./nf-wdm-rtlinitstring.md), and [RtlInitUnicodeString](./nf-wdm-rtlinitunicodestring.md) routines when passing a constant string.
 
 You can use **RTL_CONSTANT_STRING** to initialize global variables.
 

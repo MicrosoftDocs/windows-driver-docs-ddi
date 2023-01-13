@@ -53,7 +53,7 @@ The **PS_CREATE_NOTIFY_INFO** structure provides information about a newly creat
 
 ### -field Size
 
-The size, in bytes, of this structure. The operating system uses this size to indicate the type of structure that it passes to [CreateProcessNotifyEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetcreateprocessnotifyroutine). Currently, this member is always **sizeof**(**PS_CREATE_NOTIFY_INFO**).
+The size, in bytes, of this structure. The operating system uses this size to indicate the type of structure that it passes to [CreateProcessNotifyEx](./nf-ntddk-pssetcreateprocessnotifyroutine.md). Currently, this member is always **sizeof**(**PS_CREATE_NOTIFY_INFO**).
 
 ### -field Flags
 
@@ -67,7 +67,7 @@ A Boolean value that specifies whether the **ImageFileName** member contains the
 
 A Boolean value that indicates the type of process subsystem is a subsystem other than Win32.
 
-**IsSubsystemProcess** is only populated for subsystem processes other than Win32 when a driver has registered through [PsSetCreateProcessNotifyRoutineEx2](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetcreateprocessnotifyroutineex2) with a type that allows for notifications from subsystem processes.  When **IsSubsystemProcess** is set, the **FileObject**, **ImageFileName**, and **CommandLine** may be NULL.  Drivers should use **ProcessSubsystemInformation** to query the subsystem type if needed.
+**IsSubsystemProcess** is only populated for subsystem processes other than Win32 when a driver has registered through [PsSetCreateProcessNotifyRoutineEx2](./nf-ntddk-pssetcreateprocessnotifyroutineex2.md) with a type that allows for notifications from subsystem processes.  When **IsSubsystemProcess** is set, the **FileObject**, **ImageFileName**, and **CommandLine** may be NULL.  Drivers should use **ProcessSubsystemInformation** to query the subsystem type if needed.
 
 For more information, see [NtQueryInformationProcess](/windows/win32/api/winternl/nf-winternl-ntqueryinformationprocess).
 
@@ -107,8 +107,8 @@ The NTSTATUS value to return for the process-creation operation. Drivers can cha
 
 ## -see-also
 
-[CreateProcessNotifyEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetcreateprocessnotifyroutine)
+[CreateProcessNotifyEx](./nf-ntddk-pssetcreateprocessnotifyroutine.md)
 
-[PsSetCreateProcessNotifyRoutineEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetcreateprocessnotifyroutineex)
+[PsSetCreateProcessNotifyRoutineEx](./nf-ntddk-pssetcreateprocessnotifyroutineex.md)
 
 [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)

@@ -44,7 +44,7 @@ api_name:
 >[!WARNING]
 > **ExAllocatePool** is obsolete and has been deprecated in Windows 10, version 2004. It has been replaced by [ExAllocatePool2](nf-wdm-exallocatepool2.md). For more information, see [Updating deprecated ExAllocatePool calls to ExAllocatePool2 and ExAllocatePool3](/windows-hardware/drivers/kernel/updating-deprecated-exallocatepool-calls).
 >
-> When developing drivers for version of Windows prior to Windows 10, version 2004, use [ExAllocatePoolZero](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolzero).
+> When developing drivers for version of Windows prior to Windows 10, version 2004, use [ExAllocatePoolZero](./nf-wdm-exallocatepoolzero.md).
 
 **ExAllocatePool** allocates pool memory of the specified type and returns a pointer to the allocated block.
 
@@ -52,7 +52,7 @@ api_name:
 
 ### -param PoolType [in]
 
-Specifies the type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type).
+Specifies the type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](./ne-wdm-_pool_type.md).
 
 You can modify *PoolType* by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
 
@@ -84,8 +84,8 @@ Memory that **ExAllocatePool** allocates is uninitialized. A kernel-mode driver 
 
 ## -see-also
 
-[ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag)
+[ExAllocatePoolWithTag](./nf-wdm-exallocatepoolwithtag.md)
 
-[ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool)
+[ExFreePool](../ntddk/nf-ntddk-exfreepool.md)
 
-[POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type)
+[POOL_TYPE](./ne-wdm-_pool_type.md)

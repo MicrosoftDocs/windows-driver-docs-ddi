@@ -47,7 +47,7 @@ The **ZwEnumerateKey** routine returns information about a subkey of an open reg
 
 ### -param KeyHandle [in]
 
-Handle to the registry key that contains the subkeys to be enumerated. The handle is created by a successful call to [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) or [ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey).
+Handle to the registry key that contains the subkeys to be enumerated. The handle is created by a successful call to [ZwCreateKey](./nf-wdm-zwcreatekey.md) or [ZwOpenKey](./nf-wdm-zwopenkey.md).
 
 ### -param Index [in]
 
@@ -55,7 +55,7 @@ The index of the subkey that you want information for. If the key has *n* subkey
 
 ### -param KeyInformationClass [in]
 
-Specifies a [KEY_INFORMATION_CLASS](/windows-hardware/drivers/ddi/wdm/ne-wdm-_key_information_class) enumeration value that determines the type of information to be received by the *KeyInformation* buffer. Set *KeyInformationClass* to one of the following values:
+Specifies a [KEY_INFORMATION_CLASS](./ne-wdm-_key_information_class.md) enumeration value that determines the type of information to be received by the *KeyInformation* buffer. Set *KeyInformationClass* to one of the following values:
 
 - **KeyBasicInformation**
 
@@ -90,7 +90,7 @@ Pointer to a variable that receives the size, in bytes, of the registry-key info
 
 ## -remarks
 
-The handle must have been opened with KEY_ENUMERATE_SUB_KEYS access. This is accomplished by passing KEY_ENUMERATE_SUB_KEYS, KEY_READ, or KEY_ALL_ACCESS as the *DesiredAccess* parameter to [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) or [ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey).
+The handle must have been opened with KEY_ENUMERATE_SUB_KEYS access. This is accomplished by passing KEY_ENUMERATE_SUB_KEYS, KEY_READ, or KEY_ALL_ACCESS as the *DesiredAccess* parameter to [ZwCreateKey](./nf-wdm-zwcreatekey.md) or [ZwOpenKey](./nf-wdm-zwopenkey.md).
 
 The *Index* parameter is simply a way to select among subkeys of the key referred to by the *KeyHandle*. Two calls to **ZwEnumerateKey** with the same *Index* are not guaranteed to return the same result.
 
@@ -102,26 +102,26 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 ## -see-also
 
-[**KEY_BASIC_INFORMATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_basic_information)
+[**KEY_BASIC_INFORMATION**](./ns-wdm-_key_basic_information.md)
 
-[**KEY_FULL_INFORMATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_full_information)
+[**KEY_FULL_INFORMATION**](./ns-wdm-_key_full_information.md)
 
-[KEY_INFORMATION_CLASS](/windows-hardware/drivers/ddi/wdm/ne-wdm-_key_information_class)
+[KEY_INFORMATION_CLASS](./ne-wdm-_key_information_class.md)
 
-[**KEY_NODE_INFORMATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_node_information)
+[**KEY_NODE_INFORMATION**](./ns-wdm-_key_node_information.md)
 
-[RtlCheckRegistryKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcheckregistrykey)
+[RtlCheckRegistryKey](./nf-wdm-rtlcheckregistrykey.md)
 
-[RtlCreateRegistryKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcreateregistrykey)
+[RtlCreateRegistryKey](./nf-wdm-rtlcreateregistrykey.md)
 
-[RtlDeleteRegistryValue](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtldeleteregistryvalue)
+[RtlDeleteRegistryValue](./nf-wdm-rtldeleteregistryvalue.md)
 
-[RtlQueryRegistryValues](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues)
+[RtlQueryRegistryValues](./nf-wdm-rtlqueryregistryvalues.md)
 
-[RtlWriteRegistryValue](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlwriteregistryvalue)
+[RtlWriteRegistryValue](./nf-wdm-rtlwriteregistryvalue.md)
 
-[ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey)
+[ZwCreateKey](./nf-wdm-zwcreatekey.md)
 
-[ZwEnumerateValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratevaluekey)
+[ZwEnumerateValueKey](./nf-wdm-zwenumeratevaluekey.md)
 
-[ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey)
+[ZwOpenKey](./nf-wdm-zwopenkey.md)

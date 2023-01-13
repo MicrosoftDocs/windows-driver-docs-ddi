@@ -102,7 +102,7 @@ A read/write member, set by the file system driver, that specifies the label of 
 
 A volume parameter block (VPB) object is used to create an association between a physical disk device object and a logical volume device object. That is, a VPB maps a file system's volume device object to the device or partition upon which the volume is mounted. A VPB object exists only for device objects that represent physical media, virtual media, or logical media that can be mounted.
 
-The I/O manager allocates and deallocates memory for the VPB structure from nonpaged pool. This allocation (or deallocation) occurs when a device object (as described previously) is created by calling either the [IoCreateDevice](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice) or [IoVerifyVolume](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioverifyvolume) functions. That is, the device object that is created must be one of the following types:
+The I/O manager allocates and deallocates memory for the VPB structure from nonpaged pool. This allocation (or deallocation) occurs when a device object (as described previously) is created by calling either the [IoCreateDevice](./nf-wdm-iocreatedevice.md) or [IoVerifyVolume](../ntifs/nf-ntifs-ioverifyvolume.md) functions. That is, the device object that is created must be one of the following types:
 
 - FILE_DEVICE_DISK
 
@@ -114,7 +114,7 @@ The I/O manager allocates and deallocates memory for the VPB structure from nonp
 
 For more information about device object types, see [Specifying Device Types](/windows-hardware/drivers/kernel/specifying-device-types).
 
-Drivers must call [IoAcquireVpbSpinLock](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioacquirevpbspinlock) before they access any applicable members of the VPB object.
+Drivers must call [IoAcquireVpbSpinLock](../ntifs/nf-ntifs-ioacquirevpbspinlock.md) before they access any applicable members of the VPB object.
 
 Opaque members should be considered inaccessible. Drivers with dependencies on object member locations or access to opaque members might not remain portable and interoperable with other drivers over time.
 
@@ -122,8 +122,8 @@ Drivers can use read-only members to acquire relevant information. Drivers must 
 
 ## -see-also
 
-[**DEVICE_OBJECT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object)
+[**DEVICE_OBJECT**](./ns-wdm-_device_object.md)
 
-[**FILE_OBJECT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object)
+[**FILE_OBJECT**](./ns-wdm-_file_object.md)
 
 [How the Volume Is Mounted](/windows-hardware/drivers/ifs/how-the-volume-is-mounted)

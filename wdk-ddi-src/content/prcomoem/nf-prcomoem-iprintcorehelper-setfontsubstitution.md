@@ -75,6 +75,6 @@ To obtain a list of valid device fonts, create an information context for the cu
 
 ## -see-also
 
-[IPrintCoreHelper](/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelper)
+[IPrintCoreHelper](./nn-prcomoem-iprintcorehelper.md)
 
-[IPrintCoreHelper::GetFontSubstitution](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelper-getfontsubstitution)
+[IPrintCoreHelper::GetFontSubstitution](./nf-prcomoem-iprintcorehelper-getfontsubstitution.md)

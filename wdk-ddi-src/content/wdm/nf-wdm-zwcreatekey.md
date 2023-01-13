@@ -60,7 +60,7 @@ Specifies an [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) value t
 | KEY_CREATE_SUB_KEY | Create subkeys for the key. |
 | KEY_ENUMERATE_SUB_KEYS | Read the key's subkeys. |
 | KEY_CREATE_LINK | Create a symbolic link to the key. This flag is not used by device and intermediate drivers. |
-| KEY_NOTIFY | Ask to receive notification when the name, value, or attributes of the key change. For more information, see [ZwNotifyChangeKey](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwnotifychangekey). |
+| KEY_NOTIFY | Ask to receive notification when the name, value, or attributes of the key change. For more information, see [ZwNotifyChangeKey](../ntifs/nf-ntifs-zwnotifychangekey.md). |
 
 The caller can also specify one of the following constants, which combines several ACCESS_MASK flags.
 
@@ -111,7 +111,7 @@ Pointer to a variable that receives a value indicating whether a new key was cre
 
 **ZwCreateKey** supplies a handle that the caller can use to manipulate a registry key. For more information, see [Using the Registry in a Driver](/windows-hardware/drivers/kernel/using-the-registry-in-a-driver).
 
-Once the handle pointed to by *KeyHandle* is no longer in use, the driver must call [ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) to close it.
+Once the handle pointed to by *KeyHandle* is no longer in use, the driver must call [ZwClose](../ntifs/nf-ntifs-ntclose.md) to close it.
 
 There are two alternate ways to specify the name of the file to be created or opened with **ZwCreateKey**:
 
@@ -123,7 +123,7 @@ If the key specified by *ObjectAttributes* does not exist, the routine attempts 
 
 If the specified key already exists, it is opened and its value is not affected in any way.
 
-The security attributes specified by *ObjectAttributes* when a key is created determine whether the specified *DesiredAccess* is granted on subsequent calls to **ZwCreateKey** and [ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey).
+The security attributes specified by *ObjectAttributes* when a key is created determine whether the specified *DesiredAccess* is granted on subsequent calls to **ZwCreateKey** and [ZwOpenKey](./nf-wdm-zwopenkey.md).
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see [Object Handles](/windows-hardware/drivers/kernel/object-handles).
 
@@ -143,20 +143,20 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
+[ZwClose](../ntifs/nf-ntifs-ntclose.md)
 
-[ZwDeleteKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwdeletekey)
+[ZwDeleteKey](./nf-wdm-zwdeletekey.md)
 
-[ZwEnumerateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratekey)
+[ZwEnumerateKey](./nf-wdm-zwenumeratekey.md)
 
-[ZwEnumerateValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratevaluekey)
+[ZwEnumerateValueKey](./nf-wdm-zwenumeratevaluekey.md)
 
-[ZwFlushKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwflushkey)
+[ZwFlushKey](./nf-wdm-zwflushkey.md)
 
-[ZwNotifyChangeKey](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwnotifychangekey)
+[ZwNotifyChangeKey](../ntifs/nf-ntifs-zwnotifychangekey.md)
 
-[ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey)
+[ZwOpenKey](./nf-wdm-zwopenkey.md)
 
-[ZwQueryValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwqueryvaluekey)
+[ZwQueryValueKey](./nf-wdm-zwqueryvaluekey.md)
 
-[ZwSetValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey)
+[ZwSetValueKey](./nf-wdm-zwsetvaluekey.md)

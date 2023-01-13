@@ -47,7 +47,7 @@ The **ZwDeleteKey** routine deletes an open key from the registry.
 
 ### -param KeyHandle [in]
 
-Handle to the registry key to be deleted. The handle is created by a successful call to [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) or [ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey).
+Handle to the registry key to be deleted. The handle is created by a successful call to [ZwCreateKey](./nf-wdm-zwcreatekey.md) or [ZwOpenKey](./nf-wdm-zwopenkey.md).
 
 ## -returns
 
@@ -65,9 +65,9 @@ Handle to the registry key to be deleted. The handle is created by a successful 
 
 Before calling **ZwDeleteKey**, ensure that all the keys and values under the given key have been deleted. Delete each subkey first, starting with the leaf keys and work your way up.
 
-The handle must have been opened for DELETE access for this routine to succeed. For more information, see the *DesiredAccess* parameter for [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey).
+The handle must have been opened for DELETE access for this routine to succeed. For more information, see the *DesiredAccess* parameter for [ZwCreateKey](./nf-wdm-zwcreatekey.md).
 
-A call to **ZwDeleteKey** causes the handle that is specified in the *KeyHandle* parameter—and all other handles to the deleted key—to become invalid. After a call to **ZwDeleteKey** invalidates the key handles, you must call [ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) to close the key handles.
+A call to **ZwDeleteKey** causes the handle that is specified in the *KeyHandle* parameter—and all other handles to the deleted key—to become invalid. After a call to **ZwDeleteKey** invalidates the key handles, you must call [ZwClose](../ntifs/nf-ntifs-ntclose.md) to close the key handles.
 
 For more information about working with registry keys, see [Using the Registry in a Driver](/windows-hardware/drivers/kernel/using-the-registry-in-a-driver).
 
@@ -79,6 +79,6 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey)
+[ZwCreateKey](./nf-wdm-zwcreatekey.md)
 
-[ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey)
+[ZwOpenKey](./nf-wdm-zwopenkey.md)

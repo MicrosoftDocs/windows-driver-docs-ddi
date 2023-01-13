@@ -131,16 +131,16 @@ For more information about mutex objects, see [Mutex Objects](/windows-hardware/
 
 ## -see-also
 
-[ExInitializeFastMutex](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex)
+[ExInitializeFastMutex](./nf-wdm-exinitializefastmutex.md)
 
-[KeBugCheckEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-kebugcheckex)
+[KeBugCheckEx](./nf-wdm-kebugcheckex.md)
 
-[KeInitializeEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent)
+[KeInitializeEvent](./nf-wdm-keinitializeevent.md)
 
-[KeInitializeMutex](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializemutex)
+[KeInitializeMutex](./nf-wdm-keinitializemutex.md)
 
-[KeInitializeSemaphore](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializesemaphore)
+[KeInitializeSemaphore](./nf-wdm-keinitializesemaphore.md)
 
-[KeInitializeTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer)
+[KeInitializeTimer](./nf-wdm-keinitializetimer.md)
 
-[KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects)
+[KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md)

@@ -47,7 +47,7 @@ The **ZwFlushKey** routine forces a registry key to be committed to disk.
 
 ### -param KeyHandle [in]
 
-Handle to the registry key to be flushed to disk. This handle is created by a successful call to [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) or [ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey).
+Handle to the registry key to be flushed to disk. This handle is created by a successful call to [ZwCreateKey](./nf-wdm-zwcreatekey.md) or [ZwOpenKey](./nf-wdm-zwopenkey.md).
 
 ## -returns
 
@@ -55,7 +55,7 @@ Handle to the registry key to be flushed to disk. This handle is created by a su
 
 ## -remarks
 
-You can flush changes made by [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) or [ZwSetValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey) by calling **ZwFlushKey**. This routine does not return until all the changed data that is associated with *KeyHandle* has been written to disk. **ZwFlushKey** flushes the entire registry hive for the key, which includes every subkey of the key specified.
+You can flush changes made by [ZwCreateKey](./nf-wdm-zwcreatekey.md) or [ZwSetValueKey](./nf-wdm-zwsetvaluekey.md) by calling **ZwFlushKey**. This routine does not return until all the changed data that is associated with *KeyHandle* has been written to disk. **ZwFlushKey** flushes the entire registry hive for the key, which includes every subkey of the key specified.
 
 This routine can flush the entire registry. Accordingly, it can generate a great deal of I/O. Since the system flushes key changes automatically every few seconds, you seldom need to call **ZwFlushKey**.
 
@@ -69,8 +69,8 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey)
+[ZwCreateKey](./nf-wdm-zwcreatekey.md)
 
-[ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey)
+[ZwOpenKey](./nf-wdm-zwopenkey.md)
 
-[ZwSetValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey)
+[ZwSetValueKey](./nf-wdm-zwsetvaluekey.md)

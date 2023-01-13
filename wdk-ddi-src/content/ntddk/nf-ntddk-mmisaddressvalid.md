@@ -62,4 +62,4 @@ Even if **MmIsAddressValid** returns **TRUE**, accessing the address can cause p
 
 ## -see-also
 
-[MmProbeAndLockPages](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages)
+[MmProbeAndLockPages](../wdm/nf-wdm-mmprobeandlockpages.md)

@@ -99,8 +99,8 @@ A LARGE_INTEGER representation of the contents of the **WHEA_TIMESTAMP** union.
 
 ## -remarks
 
-A **WHEA_TIMESTAMP** union is contained within the [WHEA_ERROR_RECORD_HEADER](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header) structure.
+A **WHEA_TIMESTAMP** union is contained within the [WHEA_ERROR_RECORD_HEADER](./ns-ntddk-_whea_error_record_header.md) structure.
 
 ## -see-also
 
-[WHEA_ERROR_RECORD_HEADER](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header)
+[WHEA_ERROR_RECORD_HEADER](./ns-ntddk-_whea_error_record_header.md)

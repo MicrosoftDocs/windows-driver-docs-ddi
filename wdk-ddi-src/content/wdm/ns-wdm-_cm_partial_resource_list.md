@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **CM_PARTIAL_RESOURCE_LIST** structure specifies a set of system hardware resources, of various types, assigned to a device. This structure is contained within a [CM_FULL_RESOURCE_DESCRIPTOR](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_full_resource_descriptor) structure.
+The **CM_PARTIAL_RESOURCE_LIST** structure specifies a set of system hardware resources, of various types, assigned to a device. This structure is contained within a [CM_FULL_RESOURCE_DESCRIPTOR](./ns-wdm-_cm_full_resource_descriptor.md) structure.
 
 ## -struct-fields
 
@@ -65,7 +65,7 @@ The number of elements contained in the **PartialDescriptors** array.
 
 ### -field PartialDescriptors
 
-The first element in an array of one or more [CM_PARTIAL_RESOURCE_DESCRIPTOR](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor) structures.
+The first element in an array of one or more [CM_PARTIAL_RESOURCE_DESCRIPTOR](./ns-wdm-_cm_partial_resource_descriptor.md) structures.
 
 ## -remarks
 
@@ -75,6 +75,6 @@ If the last **CM_PARTIAL_RESOURCE_DESCRIPTOR** in the **CM_PARTIAL_RESOURCE_LIST
 
 ## -see-also
 
-[CM_FULL_RESOURCE_DESCRIPTOR](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_full_resource_descriptor)
+[CM_FULL_RESOURCE_DESCRIPTOR](./ns-wdm-_cm_full_resource_descriptor.md)
 
-[CM_PARTIAL_RESOURCE_DESCRIPTOR](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor)
+[CM_PARTIAL_RESOURCE_DESCRIPTOR](./ns-wdm-_cm_partial_resource_descriptor.md)

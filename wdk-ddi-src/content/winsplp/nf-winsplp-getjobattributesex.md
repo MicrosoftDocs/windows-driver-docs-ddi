@@ -62,14 +62,14 @@ Caller-supplied value that indicates the type of structure pointed to by *pAttri
 
 | *dwLevel* value | Structure pointed to by *pAttributeInfo* |
 |---|---|
-| 1 | [ATTRIBUTE_INFO_1](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_1) |
-| 2 | [ATTRIBUTE_INFO_2](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_2) |
-| 3 | [ATTRIBUTE_INFO_3](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3) |
-| 4 | [ATTRIBUTE_INFO_4](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_4) |
+| 1 | [ATTRIBUTE_INFO_1](../winddiui/ns-winddiui-_attribute_info_1.md) |
+| 2 | [ATTRIBUTE_INFO_2](../winddiui/ns-winddiui-_attribute_info_2.md) |
+| 3 | [ATTRIBUTE_INFO_3](../winddiui/ns-winddiui-_attribute_info_3.md) |
+| 4 | [ATTRIBUTE_INFO_4](../winddiui/ns-winddiui-_attribute_info_4.md) |
 
 ### -param pAttributeInfo [out]
 
-Caller-supplied pointer to an attribute information structure ([ATTRIBUTE_INFO_1](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_1), [ATTRIBUTE_INFO_2](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_2), [ATTRIBUTE_INFO_3](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3), or [ATTRIBUTE_INFO_4](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_4)) that receives information about the print job.
+Caller-supplied pointer to an attribute information structure ([ATTRIBUTE_INFO_1](../winddiui/ns-winddiui-_attribute_info_1.md), [ATTRIBUTE_INFO_2](../winddiui/ns-winddiui-_attribute_info_2.md), [ATTRIBUTE_INFO_3](../winddiui/ns-winddiui-_attribute_info_3.md), or [ATTRIBUTE_INFO_4](../winddiui/ns-winddiui-_attribute_info_4.md)) that receives information about the print job.
 
 ### -param nSize [in]
 
@@ -79,7 +79,7 @@ Size of the buffer, in bytes, pointed to by *pAttributeInfo*.
 
 If set by the caller to FILL_WITH_DEFAULTS, then the spooler will fill *pAttributeInfo* with default values from level 1 up to the level specified by *dwLevel*.
 
-For example, if *dwLevel* is 4 and FILL_WITH_DEFAULTS is specified, *pAttributeInfo* will be filled with the following default member values of [ATTRIBUTE_INFO_4](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_4):
+For example, if *dwLevel* is 4 and FILL_WITH_DEFAULTS is specified, *pAttributeInfo* will be filled with the following default member values of [ATTRIBUTE_INFO_4](../winddiui/ns-winddiui-_attribute_info_4.md):
 
 **dwJobNumberOfPagesPerSide** = 1
 
@@ -123,10 +123,10 @@ This function first checks whether the driver supports the attribute level that 
 
 ## -see-also
 
-[**ATTRIBUTE_INFO_3**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3)
+[**ATTRIBUTE_INFO_3**](../winddiui/ns-winddiui-_attribute_info_3.md)
 
-[**ATTRIBUTE_INFO_4**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_4)
+[**ATTRIBUTE_INFO_4**](../winddiui/ns-winddiui-_attribute_info_4.md)
 
 [**DEVMODEW**](/windows/win32/api/wingdi/ns-wingdi-devmodew)
 
-[GetJobAttributes](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-getjobattributes)
+[GetJobAttributes](./nf-winsplp-getjobattributes.md)

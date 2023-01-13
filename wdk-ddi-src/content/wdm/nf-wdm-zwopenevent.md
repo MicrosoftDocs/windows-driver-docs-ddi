@@ -97,24 +97,24 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)
 
-[IoCreateNotificationEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatenotificationevent)
+[IoCreateNotificationEvent](./nf-wdm-iocreatenotificationevent.md)
 
-[IoCreateSynchronizationEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatesynchronizationevent)
+[IoCreateSynchronizationEvent](./nf-wdm-iocreatesynchronizationevent.md)
 
-[KeClearEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keclearevent)
+[KeClearEvent](./nf-wdm-keclearevent.md)
 
-[KeResetEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keresetevent)
+[KeResetEvent](./nf-wdm-keresetevent.md)
 
-[KeSetEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetevent)
+[KeSetEvent](./nf-wdm-kesetevent.md)
 
-[KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject)
+[KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md)
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
+[ZwClose](../ntifs/nf-ntifs-ntclose.md)
 
-[ZwCreateEvent](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwcreateevent)
+[ZwCreateEvent](../ntifs/nf-ntifs-zwcreateevent.md)
 
-[ZwSetEvent](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwsetevent)
+[ZwSetEvent](../ntifs/nf-ntifs-zwsetevent.md)
 
-[ZwWaitForSingleObject](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwwaitforsingleobject)
+[ZwWaitForSingleObject](../ntifs/nf-ntifs-zwwaitforsingleobject.md)

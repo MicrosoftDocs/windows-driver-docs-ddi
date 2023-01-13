@@ -47,7 +47,7 @@ The **IoUnregisterPlugPlayNotificationEx** routine cancels the registration of a
 
 ### -param NotificationEntry [in]
 
-A pointer to an opaque value that represents the registration to cancel. The caller previously obtained this value by calling the [IoRegisterPlugPlayNotification](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification) routine.
+A pointer to an opaque value that represents the registration to cancel. The caller previously obtained this value by calling the [IoRegisterPlugPlayNotification](./nf-wdm-ioregisterplugplaynotification.md) routine.
 
 ## -returns
 
@@ -59,11 +59,11 @@ A kernel-mode driver calls this routine to remove a registration to receive PnP 
 
 After an **IoUnregisterPlugPlayNotificationEx** call returns, the specified registration is canceled and no further callbacks can occur.
 
-The [IoUnregisterPlugPlayNotification](/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotification) routine is similar to **IoUnregisterPlugPlayNotificationEx**, except that it cannot guarantee that no further callbacks can occur after a **IoUnregisterPlugPlayNotification** call returns.
+The [IoUnregisterPlugPlayNotification](./nf-wdm-iounregisterplugplaynotification.md) routine is similar to **IoUnregisterPlugPlayNotificationEx**, except that it cannot guarantee that no further callbacks can occur after a **IoUnregisterPlugPlayNotification** call returns.
 
 Frequently, a driver calls **IoUnregisterPlugPlayNotificationEx** from a notification callback routine. In most cases, the driver can safely delete the registration of the notification callback routine in this way. However, it is unsafe for a notification callback routine to call **IoUnregisterPlugPlayNotificationEx** to unregister itself if the following are both true:
 
-- The driver sets the PNPNOTIFY_DEVICE_INTERFACE_INCLUDE_EXISTING_INTERFACES flag in the *EventCategoryFlags* parameter value supplied to the [IoRegisterPlugPlayNotification](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification) call that registers the notification callback routine.
+- The driver sets the PNPNOTIFY_DEVICE_INTERFACE_INCLUDE_EXISTING_INTERFACES flag in the *EventCategoryFlags* parameter value supplied to the [IoRegisterPlugPlayNotification](./nf-wdm-ioregisterplugplaynotification.md) call that registers the notification callback routine.
 
 - The **IoRegisterPlugPlayNotification** call that registers the notification callback routine has not yet returned.
 
@@ -77,6 +77,6 @@ For more information, see [Using PnP Notification](/windows-hardware/drivers/ker
 
 ## -see-also
 
-[IoRegisterPlugPlayNotification](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification)
+[IoRegisterPlugPlayNotification](./nf-wdm-ioregisterplugplaynotification.md)
 
-[IoUnregisterPlugPlayNotification](/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotification)
+[IoUnregisterPlugPlayNotification](./nf-wdm-iounregisterplugplaynotification.md)

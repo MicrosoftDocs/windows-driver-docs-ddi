@@ -43,7 +43,7 @@ api_name:
 
 This routine returns the effective *ServerSilo* for the job. The returned pointer is valid as long as the supplied *Job* object remains referenced.
 
-This returns a *ServerSilo* or a value indicating the host silo. Unlike [PsGetJobSilo](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetjobsilo), it will not return an app silo, even if one is present.
+This returns a *ServerSilo* or a value indicating the host silo. Unlike [PsGetJobSilo](./nf-ntddk-psgetjobsilo.md), it will not return an app silo, even if one is present.
 
 ## -parameters
 

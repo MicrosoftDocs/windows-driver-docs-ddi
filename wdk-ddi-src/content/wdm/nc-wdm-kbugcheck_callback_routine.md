@@ -59,7 +59,7 @@ Specifies the length, in bytes, of the buffer that is pointed to by the *Buffer*
 
 Drivers can supply a *BugCheckCallback* that resets the device to a known state if the system issues a bug check.
 
-Use [KeRegisterBugCheckCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckcallback) to register a *BugCheckCallback* routine. A driver can subsequently remove the callback by using the [KeDeregisterBugCheckCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisterbugcheckcallback) routine. If the driver can be unloaded, it must remove any registered callbacks in its [Unload](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload) routine.
+Use [KeRegisterBugCheckCallback](./nf-wdm-keregisterbugcheckcallback.md) to register a *BugCheckCallback* routine. A driver can subsequently remove the callback by using the [KeDeregisterBugCheckCallback](./nf-wdm-kederegisterbugcheckcallback.md) routine. If the driver can be unloaded, it must remove any registered callbacks in its [Unload](./nc-wdm-driver_unload.md) routine.
 
 A *BugCheckCallback* routine is strongly restricted in the actions it can take. For more information, see [Writing a Bug Check Callback Routine](/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine). The routine can safely use the **READ_PORT_*XXX***, **READ_REGISTER_*XXX***, **WRITE_PORT_*XXX***, and **WRITE_REGISTER_*XXX*** routines to interact with the device.
 
@@ -97,6 +97,6 @@ The KBUGCHECK_CALLBACK_ROUTINE function type is defined in the Wdm.h header file
 
 [Writing a Bug Check Callback Routine](/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine)
 
-[KeDeregisterBugCheckCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisterbugcheckcallback)
+[KeDeregisterBugCheckCallback](./nf-wdm-kederegisterbugcheckcallback.md)
 
-[KeRegisterBugCheckCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckcallback)
+[KeRegisterBugCheckCallback](./nf-wdm-keregisterbugcheckcallback.md)

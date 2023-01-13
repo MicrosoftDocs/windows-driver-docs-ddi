@@ -67,14 +67,14 @@ See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
-[IoAllocateIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp)
+[IoAllocateIrp](./nf-wdm-ioallocateirp.md)
 
-[IoBuildAsynchronousFsdRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest)
+[IoBuildAsynchronousFsdRequest](./nf-wdm-iobuildasynchronousfsdrequest.md)
 
-[IoBuildDeviceIoControlRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest)
+[IoBuildDeviceIoControlRequest](./nf-wdm-iobuilddeviceiocontrolrequest.md)
 
-[IoBuildSynchronousFsdRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest)
+[IoBuildSynchronousFsdRequest](./nf-wdm-iobuildsynchronousfsdrequest.md)
 
-[IoSetCompletionRoutine](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine)
+[IoSetCompletionRoutine](./nf-wdm-iosetcompletionroutine.md)
 
-[PoCallDriver](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocalldriver)
+[PoCallDriver](../ntifs/nf-ntifs-pocalldriver.md)

@@ -77,12 +77,12 @@ All miniversions created in a transaction go away when the transaction ends.  Af
 
 A miniversion is available only to the transacted writer that created the miniversion, not to a transacted reader or non-transacted reader.
 
-The [IoGetTransactionParameterBlock](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogettransactionparameterblock) routine returns a pointer to this structure.
+The [IoGetTransactionParameterBlock](./nf-ntddk-iogettransactionparameterblock.md) routine returns a pointer to this structure.
 
 ## -see-also
 
 [FSCTL_TXFS_CREATE_MINIVERSION](/windows/win32/api/winioctl/ni-winioctl-fsctl_txfs_create_miniversion)
 
-[IoGetTransactionParameterBlock](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogettransactionparameterblock)
+[IoGetTransactionParameterBlock](./nf-ntddk-iogettransactionparameterblock.md)
 
 [ZwFsControlFile](/previous-versions/ff566462(v=vs.85))

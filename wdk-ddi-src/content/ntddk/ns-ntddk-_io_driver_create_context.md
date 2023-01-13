@@ -47,15 +47,15 @@ api_name:
 
 ## -description
 
-The IO_DRIVER_CREATE_CONTEXT structure is used to pass additional parameters to the [IoCreateFileEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex) and [FltCreateFileEx2](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2) routines. This structure is optional.
+The IO_DRIVER_CREATE_CONTEXT structure is used to pass additional parameters to the [IoCreateFileEx](./nf-ntddk-iocreatefileex.md) and [FltCreateFileEx2](../fltkernel/nf-fltkernel-fltcreatefileex2.md) routines. This structure is optional.
 
-The [IoCreateFileEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex) routine is used by legacy filter drivers and the [FltCreateFileEx2](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2) routine is used by minifilter drivers.
+The [IoCreateFileEx](./nf-ntddk-iocreatefileex.md) routine is used by legacy filter drivers and the [FltCreateFileEx2](../fltkernel/nf-fltkernel-fltcreatefileex2.md) routine is used by minifilter drivers.
 
 ## -struct-fields
 
 ### -field Size
 
-A read-only member initialized by the [IoInitializeDriverCreateContext](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioinitializedrivercreatecontext) routine.
+A read-only member initialized by the [IoInitializeDriverCreateContext](./nf-ntddk-ioinitializedrivercreatecontext.md) routine.
 
 ### -field ExtraCreateParameter
 
@@ -63,9 +63,9 @@ A pointer to an [ECP_LIST](/previous-versions/windows/hardware/drivers/ff540148(
 
 ### -field DeviceObjectHint
 
-If IO_DRIVER_CREATE_CONTEXT is being used to pass additional create parameters to the [FltCreateFileEx2](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2) routine, this member must be **NULL**.
+If IO_DRIVER_CREATE_CONTEXT is being used to pass additional create parameters to the [FltCreateFileEx2](../fltkernel/nf-fltkernel-fltcreatefileex2.md) routine, this member must be **NULL**.
 
-If IO_DRIVER_CREATE_CONTEXT is being used to pass additional create parameters to the [IoCreateFileEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex) routine, this member is a pointer to the device object to which the create request will be sent. The device object must be a legacy filter or file system device object in the file system driver stack for the volume on which the file or directory resides. In the **IoCreateFileEx** case, this parameter is optional and can be **NULL**. If this parameter is **NULL**, the request will be sent to the device object at the top of the driver stack.
+If IO_DRIVER_CREATE_CONTEXT is being used to pass additional create parameters to the [IoCreateFileEx](./nf-ntddk-iocreatefileex.md) routine, this member is a pointer to the device object to which the create request will be sent. The device object must be a legacy filter or file system device object in the file system driver stack for the volume on which the file or directory resides. In the **IoCreateFileEx** case, this parameter is optional and can be **NULL**. If this parameter is **NULL**, the request will be sent to the device object at the top of the driver stack.
 
 ### -field TxnParameters
 
@@ -77,54 +77,54 @@ The container that the file resides on. This member was introduced in Windows 1
 
 ## -remarks
 
-The IO_DRIVER_CREATE_CONTEXT structure can be allocated from paged or nonpaged pool. The [IoInitializeDriverCreateContext](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioinitializedrivercreatecontext) routine must initialize the IO_DRIVER_CREATE_CONTEXT structure before the structure can be used.
+The IO_DRIVER_CREATE_CONTEXT structure can be allocated from paged or nonpaged pool. The [IoInitializeDriverCreateContext](./nf-ntddk-ioinitializedrivercreatecontext.md) routine must initialize the IO_DRIVER_CREATE_CONTEXT structure before the structure can be used.
 
-The members of the IO_DRIVER_CREATE_CONTEXT structure (excluding the **Size** member) function as additional parameters to the [IoCreateFileEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex) and [FltCreateFileEx2](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2) routines.  Relative to the **IoCreateFileEx** and **FltCreateFileEx2** routine's interface, the following information may be helpful:
+The members of the IO_DRIVER_CREATE_CONTEXT structure (excluding the **Size** member) function as additional parameters to the [IoCreateFileEx](./nf-ntddk-iocreatefileex.md) and [FltCreateFileEx2](../fltkernel/nf-fltkernel-fltcreatefileex2.md) routines.  Relative to the **IoCreateFileEx** and **FltCreateFileEx2** routine's interface, the following information may be helpful:
 
-- An ECP_LIST structure contains a list of extra create parameter (ECP) entries.  Each ECP entry (ECP context structure) in the ECP list (ECP_LIST structure) functions as an additional create parameter to [IoCreateFileEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex) and [FltCreateFileEx2](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2).
+- An ECP_LIST structure contains a list of extra create parameter (ECP) entries.  Each ECP entry (ECP context structure) in the ECP list (ECP_LIST structure) functions as an additional create parameter to [IoCreateFileEx](./nf-ntddk-iocreatefileex.md) and [FltCreateFileEx2](../fltkernel/nf-fltkernel-fltcreatefileex2.md).
 
   To specify an ECP as part of a create operation, initialize the **ExtraCreateParameter** member of the IO_DRIVER_CREATE_CONTEXT structure with the correct routine:
 
-  - For legacy filter drivers, the [FsRtlAllocateExtraCreateParameterList](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlallocateextracreateparameterlist) routine must be used to allocate memory pool for the ECP_LIST structure.  The operating system does not automatically free ECP_LIST structures. Instead, once the ECP_LIST structure is allocated, it must eventually be freed by using the [FsRtlFreeExtraCreateParameterList](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlfreeextracreateparameterlist) routine.
+  - For legacy filter drivers, the [FsRtlAllocateExtraCreateParameterList](../ntifs/nf-ntifs-fsrtlallocateextracreateparameterlist.md) routine must be used to allocate memory pool for the ECP_LIST structure.  The operating system does not automatically free ECP_LIST structures. Instead, once the ECP_LIST structure is allocated, it must eventually be freed by using the [FsRtlFreeExtraCreateParameterList](../ntifs/nf-ntifs-fsrtlfreeextracreateparameterlist.md) routine.
 
-  - For minifilter drivers, the [FltAllocateExtraCreateParameterList](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterlist) routine must be used to allocate memory pool for the ECP_LIST structure.  The operating system does not automatically free ECP_LIST structures. Instead, once the ECP_LIST structure is allocated, it must eventually be freed by using the [FltFreeExtraCreateParameterList](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeextracreateparameterlist) routine.
+  - For minifilter drivers, the [FltAllocateExtraCreateParameterList](../fltkernel/nf-fltkernel-fltallocateextracreateparameterlist.md) routine must be used to allocate memory pool for the ECP_LIST structure.  The operating system does not automatically free ECP_LIST structures. Instead, once the ECP_LIST structure is allocated, it must eventually be freed by using the [FltFreeExtraCreateParameterList](../fltkernel/nf-fltkernel-fltfreeextracreateparameterlist.md) routine.
 
-  If ECPs are used, they must be created, manipulated, and freed by using the appropriate routines.  For example, minifilter drivers use the [FltInsertExtraCreateParameter](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinsertextracreateparameter) routine to insert an ECP entry into an ECP list.  The following **See Also** section lists many of these required routines.
+  If ECPs are used, they must be created, manipulated, and freed by using the appropriate routines.  For example, minifilter drivers use the [FltInsertExtraCreateParameter](../fltkernel/nf-fltkernel-fltinsertextracreateparameter.md) routine to insert an ECP entry into an ECP list.  The following **See Also** section lists many of these required routines.
 
-  Upon return from a call to [IoCreateFileEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex) or [FltCreateFileEx2](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2), the ECP list is unchanged and can be passed to additional **IoCreateFileEx** or **FltCreateFileEx2** calls for new create operations.
+  Upon return from a call to [IoCreateFileEx](./nf-ntddk-iocreatefileex.md) or [FltCreateFileEx2](../fltkernel/nf-fltkernel-fltcreatefileex2.md), the ECP list is unchanged and can be passed to additional **IoCreateFileEx** or **FltCreateFileEx2** calls for new create operations.
 
-- To create or open a file in the context of a transaction, set the **TxnParameters** member of the IO_DRIVER_CREATE_CONTEXT structure to the value returned by the [IoGetTransactionParameterBlock](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogettransactionparameterblock) routine.  For more information regarding transactions, see [Transaction Management (TxF)](https://go.microsoft.com/fwlink/p/?linkid=66161).
+- To create or open a file in the context of a transaction, set the **TxnParameters** member of the IO_DRIVER_CREATE_CONTEXT structure to the value returned by the [IoGetTransactionParameterBlock](./nf-ntddk-iogettransactionparameterblock.md) routine.  For more information regarding transactions, see [Transaction Management (TxF)](https://go.microsoft.com/fwlink/p/?linkid=66161).
 
 ## -see-also
 
 [ECP_LIST](/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
 
-[FltAllocateExtraCreateParameterFromLookasideList](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterfromlookasidelist)
+[FltAllocateExtraCreateParameterFromLookasideList](../fltkernel/nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md)
 
-[FltAllocateExtraCreateParameterList](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterlist)
+[FltAllocateExtraCreateParameterList](../fltkernel/nf-fltkernel-fltallocateextracreateparameterlist.md)
 
-[FltCreateFileEx2](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2)
+[FltCreateFileEx2](../fltkernel/nf-fltkernel-fltcreatefileex2.md)
 
-[FltFreeExtraCreateParameter](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeextracreateparameter)
+[FltFreeExtraCreateParameter](../fltkernel/nf-fltkernel-fltfreeextracreateparameter.md)
 
-[FltFreeExtraCreateParameterList](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeextracreateparameterlist)
+[FltFreeExtraCreateParameterList](../fltkernel/nf-fltkernel-fltfreeextracreateparameterlist.md)
 
-[FltGetEcpListFromCallbackData](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetecplistfromcallbackdata)
+[FltGetEcpListFromCallbackData](../fltkernel/nf-fltkernel-fltgetecplistfromcallbackdata.md)
 
-[FltInsertExtraCreateParameter](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinsertextracreateparameter)
+[FltInsertExtraCreateParameter](../fltkernel/nf-fltkernel-fltinsertextracreateparameter.md)
 
-[FltRemoveExtraCreateParameter](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltremoveextracreateparameter)
+[FltRemoveExtraCreateParameter](../fltkernel/nf-fltkernel-fltremoveextracreateparameter.md)
 
-[FltSetEcpListIntoCallbackData](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetecplistintocallbackdata)
+[FltSetEcpListIntoCallbackData](../fltkernel/nf-fltkernel-fltsetecplistintocallbackdata.md)
 
-[FsRtlAllocateExtraCreateParameterList](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlallocateextracreateparameterlist)
+[FsRtlAllocateExtraCreateParameterList](../ntifs/nf-ntifs-fsrtlallocateextracreateparameterlist.md)
 
-[FsRtlFreeExtraCreateParameterList](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlfreeextracreateparameterlist)
+[FsRtlFreeExtraCreateParameterList](../ntifs/nf-ntifs-fsrtlfreeextracreateparameterlist.md)
 
-[IoCreateFileEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex)
+[IoCreateFileEx](./nf-ntddk-iocreatefileex.md)
 
-[IoCreateFileSpecifyDeviceObjectHint](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint)
+[IoCreateFileSpecifyDeviceObjectHint](./nf-ntddk-iocreatefilespecifydeviceobjecthint.md)
 
-[IoGetTransactionParameterBlock](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogettransactionparameterblock)
+[IoGetTransactionParameterBlock](./nf-ntddk-iogettransactionparameterblock.md)
 
-[IoInitializeDriverCreateContext](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioinitializedrivercreatecontext)
+[IoInitializeDriverCreateContext](./nf-ntddk-ioinitializedrivercreatecontext.md)

@@ -47,7 +47,7 @@ The **ZwQueryValueKey** routine returns a value entry for a registry key.
 
 ### -param KeyHandle [in]
 
-Handle to the key to read value entries from. This handle is created by a successful call to [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) or [ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey).
+Handle to the key to read value entries from. This handle is created by a successful call to [ZwCreateKey](./nf-wdm-zwcreatekey.md) or [ZwOpenKey](./nf-wdm-zwopenkey.md).
 
 ### -param ValueName [in]
 
@@ -55,7 +55,7 @@ Pointer to the name of the value entry to obtain data for.
 
 ### -param KeyValueInformationClass [in]
 
-A [KEY_VALUE_INFORMATION_CLASS](/windows-hardware/drivers/ddi/wdm/ne-wdm-_key_value_information_class) value that determines the type of information returned in the *KeyValueInformation* buffer.
+A [KEY_VALUE_INFORMATION_CLASS](./ne-wdm-_key_value_information_class.md) value that determines the type of information returned in the *KeyValueInformation* buffer.
 
 ### -param KeyValueInformation [out, optional]
 
@@ -82,7 +82,7 @@ Pointer to a variable that receives the size, in bytes, of the key information. 
 
 ## -remarks
 
-The *KeyHandle* passed to **ZwQueryValueKey** must have been opened with KEY_QUERY_VALUE access. This is accomplished by passing KEY_QUERY_VALUE, KEY_READ, or KEY_ALL_ACCESS as the *DesiredAccess* parameter to [ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) or [ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey).
+The *KeyHandle* passed to **ZwQueryValueKey** must have been opened with KEY_QUERY_VALUE access. This is accomplished by passing KEY_QUERY_VALUE, KEY_READ, or KEY_ALL_ACCESS as the *DesiredAccess* parameter to [ZwCreateKey](./nf-wdm-zwcreatekey.md) or [ZwOpenKey](./nf-wdm-zwopenkey.md).
 
 For more information about working with registry keys, see [Using the Registry in a Driver](/windows-hardware/drivers/kernel/using-the-registry-in-a-driver).
 
@@ -91,18 +91,18 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 ## -see-also
 
-[**KEY_VALUE_BASIC_INFORMATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information)
+[**KEY_VALUE_BASIC_INFORMATION**](./ns-wdm-_key_value_basic_information.md)
 
-[**KEY_VALUE_FULL_INFORMATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_full_information)
+[**KEY_VALUE_FULL_INFORMATION**](./ns-wdm-_key_value_full_information.md)
 
-[KEY_VALUE_INFORMATION_CLASS](/windows-hardware/drivers/ddi/wdm/ne-wdm-_key_value_information_class)
+[KEY_VALUE_INFORMATION_CLASS](./ne-wdm-_key_value_information_class.md)
 
-[**KEY_VALUE_PARTIAL_INFORMATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_partial_information)
+[**KEY_VALUE_PARTIAL_INFORMATION**](./ns-wdm-_key_value_partial_information.md)
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[ZwCreateKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey)
+[ZwCreateKey](./nf-wdm-zwcreatekey.md)
 
-[ZwEnumerateValueKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratevaluekey)
+[ZwEnumerateValueKey](./nf-wdm-zwenumeratevaluekey.md)
 
-[ZwOpenKey](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey)
+[ZwOpenKey](./nf-wdm-zwopenkey.md)

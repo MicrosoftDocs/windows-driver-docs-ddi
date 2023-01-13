@@ -83,18 +83,18 @@ A file is composed of one or more streams, depending on the file system. For mor
 
 ## -see-also
 
-[CcInitializeCacheMap](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap)
+[CcInitializeCacheMap](../ntifs/nf-ntifs-ccinitializecachemap.md)
 
-[DEVICE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object)
+[DEVICE_OBJECT](./ns-wdm-_device_object.md)
 
-[FILE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object)
+[FILE_OBJECT](./ns-wdm-_file_object.md)
 
 [FOBX](/windows-hardware/drivers/ifs/the-fobx-structure)
 
-[FSRTL_ADVANCED_FCB_HEADER](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsrtl_advanced_fcb_header)
+[FSRTL_ADVANCED_FCB_HEADER](../ntifs/ns-ntifs-_fsrtl_advanced_fcb_header.md)
 
-[IoGetDeviceObjectPointer](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceobjectpointer)
+[IoGetDeviceObjectPointer](./nf-wdm-iogetdeviceobjectpointer.md)
 
-[MmFlushImageSection](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-mmflushimagesection)
+[MmFlushImageSection](../ntifs/nf-ntifs-mmflushimagesection.md)
 
-[ObDereferenceObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject)
+[ObDereferenceObject](./nf-wdm-obdereferenceobject.md)

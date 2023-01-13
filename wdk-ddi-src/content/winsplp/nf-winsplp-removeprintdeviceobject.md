@@ -50,7 +50,7 @@ The **RemovePrintDeviceObject** function removes a device object from a print pr
 
 ### -param hDeviceObject [in]
 
-The HANDLE to the device object to be removed. This should be a device object that was  created with [AddPrintDeviceObject](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject).
+The HANDLE to the device object to be removed. This should be a device object that was  created with [AddPrintDeviceObject](./nf-winsplp-addprintdeviceobject.md).
 
 ## -returns
 
@@ -64,4 +64,4 @@ Call **RemovePrintDeviceObject** to remove the device object for a printer that 
 
 ## -see-also
 
-[AddPrintDeviceObject](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject)
+[AddPrintDeviceObject](./nf-winsplp-addprintdeviceobject.md)

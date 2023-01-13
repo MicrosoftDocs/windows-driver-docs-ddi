@@ -50,7 +50,7 @@ The **ExAllocatePoolWithTag** routine allocates pool memory of the specified typ
 
 ### -param PoolType [in]
 
-The type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type).
+The type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](./ne-wdm-_pool_type.md).
 
 You can modify the *PoolType* value by bitwise-ORing this value with the POOL_RAISE_IF_ALLOCATION_FAILURE flag. This flag causes an exception to be raised if the request cannot be satisfied. Use of the POOL_RAISE_IF_ALLOCATION_FAILURE flag is not recommended because it is costly.
 
@@ -80,7 +80,7 @@ The system associates the pool tag with the allocated memory. Programming tools,
 
 The value of *Tag* is stored, and sometimes displayed, in reverse (little-endian) order. For example, if a caller passes 'Fred' as a *Tag*, it appears as "derF" in a pool dump and in pool usage tracking in the debugger, and as 0x64657246 in the registry and in tool displays.
 
-The allocated buffer can be freed with either [ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool) or [ExFreePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreepoolwithtag).
+The allocated buffer can be freed with either [ExFreePool](../ntddk/nf-ntddk-exfreepool.md) or [ExFreePoolWithTag](./nf-wdm-exfreepoolwithtag.md).
 
 The system automatically sets certain standard event objects when the amount of pool (paged or nonpaged) is high or low. Drivers can wait for these events to tune their pool usage. For more information, see [Standard Event Objects](/windows-hardware/drivers/kernel/standard-event-objects).
 
@@ -94,12 +94,12 @@ Memory that **ExAllocatePoolWithTag** allocates is uninitialized. A kernel-mode 
 
 ## -see-also
 
-[ExAllocatePoolWithQuotaTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithquotatag)
+[ExAllocatePoolWithQuotaTag](./nf-wdm-exallocatepoolwithquotatag.md)
 
-[ExAllocatePoolWithTagPriority](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtagpriority)
+[ExAllocatePoolWithTagPriority](./nf-wdm-exallocatepoolwithtagpriority.md)
 
-[ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool)
+[ExFreePool](../ntddk/nf-ntddk-exfreepool.md)
 
-[ExFreePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreepoolwithtag)
+[ExFreePoolWithTag](./nf-wdm-exfreepoolwithtag.md)
 
-[POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type)
+[POOL_TYPE](./ne-wdm-_pool_type.md)

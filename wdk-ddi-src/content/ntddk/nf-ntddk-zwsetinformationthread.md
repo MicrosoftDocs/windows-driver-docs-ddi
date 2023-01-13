@@ -47,7 +47,7 @@ The **ZwSetInformationThread** routine sets the priority of a thread.
 
 ### -param ThreadHandle [in]
 
-Handle to the thread object. To create a new thread and get a handle to it, call [PsCreateSystemThread](/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread). To specify the current thread, use the [ZwCurrentThread](/windows-hardware/drivers/kernel/zwcurrentthread) macro.
+Handle to the thread object. To create a new thread and get a handle to it, call [PsCreateSystemThread](../wdm/nf-wdm-pscreatesystemthread.md). To specify the current thread, use the [ZwCurrentThread](/windows-hardware/drivers/kernel/zwcurrentthread) macro.
 
 ### -param ThreadInformationClass [in]
 
@@ -63,7 +63,7 @@ If **ThreadInformationClass** is **ThreadBasePriority**, this value must fall wi
 
 If **ThreadInformationClass** is **ThreadPagePriority**, this value is a pointer to a **PAGE_PRIORITY_INFORMATION** structure, see ntddk.h. The **PagePriority** member value must be one of these values.
 
-If **ThreadInformationClass** is **ThreadPowerThrottlingState**, this value is a pointer to a [POWER_THROTTLING_THREAD_STATE](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_power_throttling_thread_state) structure, see ntddk.h. The **PagePriority** member value must be one of these values.
+If **ThreadInformationClass** is **ThreadPowerThrottlingState**, this value is a pointer to a [POWER_THROTTLING_THREAD_STATE](./ns-ntddk-_power_throttling_thread_state.md) structure, see ntddk.h. The **PagePriority** member value must be one of these values.
 
 | Value | Meaning |
 |---|---|
@@ -87,7 +87,7 @@ The size, in bytes, of **ThreadInformation**.
 
 The caller must have THREAD_SET_INFORMATION access rights for the given thread in order to call this routine.
 
-Usually, device and intermediate drivers that set up driver-created threads call [KeSetBasePriorityThread](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesetbaseprioritythread) or [KeSetPriorityThread](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetprioritythread) from their driver-created threads, rather than calling **ZwSetInformationThread**. However, a driver can call **ZwSetInformationThread** to raise the priority of a driver-created thread before that thread runs.
+Usually, device and intermediate drivers that set up driver-created threads call [KeSetBasePriorityThread](./nf-ntddk-kesetbaseprioritythread.md) or [KeSetPriorityThread](../wdm/nf-wdm-kesetprioritythread.md) from their driver-created threads, rather than calling **ZwSetInformationThread**. However, a driver can call **ZwSetInformationThread** to raise the priority of a driver-created thread before that thread runs.
 
 Kernel mode drivers can call the **ZwSetInformationThread** function with **ThreadPagePriority** to specify a thread's page priority.
 
@@ -101,10 +101,10 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 ## -see-also
 
-[KeSetBasePriorityThread](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesetbaseprioritythread)
+[KeSetBasePriorityThread](./nf-ntddk-kesetbaseprioritythread.md)
 
-[KeSetPriorityThread](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetprioritythread)
+[KeSetPriorityThread](../wdm/nf-wdm-kesetprioritythread.md)
 
-[PsCreateSystemThread](/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread)
+[PsCreateSystemThread](../wdm/nf-wdm-pscreatesystemthread.md)
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)

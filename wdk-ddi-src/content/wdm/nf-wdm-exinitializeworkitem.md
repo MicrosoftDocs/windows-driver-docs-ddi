@@ -50,7 +50,7 @@ api_name:
 
 ### -param Item [in]
 
-Pointer to a caller-allocated WORK_QUEUE_ITEM structure to be initialized. This structure must be allocated from nonpaged pool. The callback routine specified in the *Routine* parameter is responsible for freeing this work item when it is no longer needed by calling [ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool) or [ExFreePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreepoolwithtag).
+Pointer to a caller-allocated WORK_QUEUE_ITEM structure to be initialized. This structure must be allocated from nonpaged pool. The callback routine specified in the *Routine* parameter is responsible for freeing this work item when it is no longer needed by calling [ExFreePool](../ntddk/nf-ntddk-exfreepool.md) or [ExFreePoolWithTag](./nf-wdm-exfreepoolwithtag.md).
 
 ### -param Routine [in]
 
@@ -75,24 +75,24 @@ Pointer to caller-supplied context information to be passed to the callback rout
 
 **ExInitializeWorkItem** initializes the work item with the specified callback routine and context pointer and **NULL** list pointers.
 
-To add the work item to a system work queue, call [ExQueueWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-exqueueworkitem).
+To add the work item to a system work queue, call [ExQueueWorkItem](./nf-wdm-exqueueworkitem.md).
 
 Work items are a limited resource, and drivers should only allocate them as needed. For example, do not allocate a work item in [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) for the driver's dedicated use.
 
-**ExInitializeWorkItem** and [ExQueueWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-exqueueworkitem) can only be used in cases where the specified work item is not associated with any device object or device stack. In all other cases, drivers should use [IoAllocateWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateworkitem), [IoFreeWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreeworkitem), and [IoQueueWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem), because only these routines ensure that the device object associated with the specified work item remains available until the work item has been processed.
+**ExInitializeWorkItem** and [ExQueueWorkItem](./nf-wdm-exqueueworkitem.md) can only be used in cases where the specified work item is not associated with any device object or device stack. In all other cases, drivers should use [IoAllocateWorkItem](./nf-wdm-ioallocateworkitem.md), [IoFreeWorkItem](./nf-wdm-iofreeworkitem.md), and [IoQueueWorkItem](./nf-wdm-ioqueueworkitem.md), because only these routines ensure that the device object associated with the specified work item remains available until the work item has been processed.
 
 ## -see-also
 
-[ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool)
+[ExFreePool](../ntddk/nf-ntddk-exfreepool.md)
 
-[ExFreePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreepoolwithtag)
+[ExFreePoolWithTag](./nf-wdm-exfreepoolwithtag.md)
 
-[ExQueueWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-exqueueworkitem)
+[ExQueueWorkItem](./nf-wdm-exqueueworkitem.md)
 
-[IoAllocateWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateworkitem)
+[IoAllocateWorkItem](./nf-wdm-ioallocateworkitem.md)
 
-[IoFreeWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreeworkitem)
+[IoFreeWorkItem](./nf-wdm-iofreeworkitem.md)
 
-[IoQueueWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem)
+[IoQueueWorkItem](./nf-wdm-ioqueueworkitem.md)
 
-[**WORK_QUEUE_ITEM**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_work_queue_item)
+[**WORK_QUEUE_ITEM**](./ns-wdm-_work_queue_item.md)

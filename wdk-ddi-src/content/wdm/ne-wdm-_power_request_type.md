@@ -69,7 +69,7 @@ Not used by drivers. For more information, see Remarks.
 
 ## -remarks
 
-This enumeration is used by the kernel-mode [PoClearPowerRequest](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poclearpowerrequest) and [PoSetPowerRequest](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-posetpowerrequest) routines. Drivers that call these routines must specify the **PowerRequestSystemRequired** enumeration value.
+This enumeration is used by the kernel-mode [PoClearPowerRequest](../ntifs/nf-ntifs-poclearpowerrequest.md) and [PoSetPowerRequest](../ntifs/nf-ntifs-posetpowerrequest.md) routines. Drivers that call these routines must specify the **PowerRequestSystemRequired** enumeration value.
 
 The other three enumeration values—**PowerRequestDisplayRequired**, **PowerRequestAwayModeRequired**, and **PowerRequestExecutionRequired**—are not used by drivers. Applications specify these power request types in calls to the [PowerSetRequest](/windows/win32/api/winbase/nf-winbase-powersetrequest) and [PowerClearRequest](/windows/win32/api/winbase/nf-winbase-powerclearrequest) functions.
 
@@ -93,9 +93,9 @@ Except for **PowerRequestAwayModeRequired** on Traditional Sleep (S3) systems, p
 
 ## -see-also
 
-[PoClearPowerRequest](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poclearpowerrequest)
+[PoClearPowerRequest](../ntifs/nf-ntifs-poclearpowerrequest.md)
 
-[PoSetPowerRequest](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-posetpowerrequest)
+[PoSetPowerRequest](../ntifs/nf-ntifs-posetpowerrequest.md)
 
 [PowerClearRequest](/windows/win32/api/winbase/nf-winbase-powerclearrequest)
 

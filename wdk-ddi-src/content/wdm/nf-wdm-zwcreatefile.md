@@ -92,7 +92,7 @@ A pointer to an [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_at
 
 ### -param IoStatusBlock [out]
 
-A pointer to an [IO_STATUS_BLOCK](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and other information about the requested operation. In particular, the **Information** member receives one of the following values:
+A pointer to an [IO_STATUS_BLOCK](./ns-wdm-_io_status_block.md) structure that receives the final completion status and other information about the requested operation. In particular, the **Information** member receives one of the following values:
 
 - FILE_CREATED
 
@@ -157,7 +157,7 @@ Specifies the options to apply when the driver creates or opens the file. Use on
 | FILE_COMPLETE_IF_OPLOCKED | Complete this operation immediately with an alternate success code of STATUS_OPLOCK_BREAK_IN_PROGRESS if the target file is opportunistic locked (oplock), rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file. This flag is not used by device and intermediate drivers. For information about oplock, see [Opportunistic Locks](/windows/win32/fileio/opportunistic-locks). |
 | FILE_NO_EA_KNOWLEDGE | If the extended attributes (EAs) for an existing file being opened indicate that the caller must understand EAs to properly interpret the file, **ZwCreateFile** should return an error. This flag is irrelevant for device and intermediate drivers. |
 | FILE_OPEN_REPARSE_POINT | Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. For information about reparse point, see [Reparse Points](/windows/win32/fileio/reparse-points). |
-| FILE_DELETE_ON_CLOSE | The system deletes the file when the last handle to the file is passed to [ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose). If this flag is set, the DELETE flag must be set in the *DesiredAccess* parameter. |
+| FILE_DELETE_ON_CLOSE | The system deletes the file when the last handle to the file is passed to [ZwClose](../ntifs/nf-ntifs-ntclose.md). If this flag is set, the DELETE flag must be set in the *DesiredAccess* parameter. |
 | FILE_OPEN_BY_FILE_ID | The file name that is specified by the *ObjectAttributes* parameter includes a binary 8-byte or 16-byte file reference number or object ID for the file, depending on the file system as shown below. Optionally, a device name followed by a backslash character may proceed these binary values. For example, a device name will have the following format:<br><br>\??\C:\\*FileID*<br>\device\HardDiskVolume1\\*ObjectID*<br><br>where *FileID* is 8 bytes and *ObjectID* is 16 bytes.<br><br>On NTFS, this can be a 8-byte or 16-byte reference number or object ID. A 16-byte reference number is the same as an 8-byte number padded with zeros.<br><br>On ReFS, this can be an 8-byte or 16-byte reference number. A 16-byte number is not related to an 8-byte number. Object IDs are not supported.<br><br>The FAT, ExFAT, UDFS, and CDFS file systems do not support this flag.<br><br>This number is assigned by and specific to the particular file system.<br><br>Because the filename field will partly contain a binary blob, it is incorrect to assume that this is a valid Unicode string, and more importantly may not be a null terminated string. |
 | FILE_OPEN_FOR_BACKUP_INTENT | The file is being opened for backup intent. Therefore, the system should check for certain access rights and grant the caller the appropriate access to the file—before checking the *DesiredAccess* parameter against the file's security descriptor. This flag not used by device and intermediate drivers. |
 | FILE_RESERVE_OPFILTER | This flag allows an application to request a Filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED. For more information, see the following Remarks section. For information about oplock, see [Opportunistic Locks](/windows/win32/fileio/opportunistic-locks). |
@@ -182,7 +182,7 @@ For device and intermediate drivers, this parameter must be zero.
 
 **ZwCreateFile** supplies a handle that the caller can use to manipulate a file's data, or the file object's state and attributes. For more information, see [Using Files in a Driver](/windows-hardware/drivers/kernel/using-files-in-a-driver).
 
-Once the handle pointed to by *FileHandle* is no longer in use, the driver must call [ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) to close it.
+Once the handle pointed to by *FileHandle* is no longer in use, the driver must call [ZwClose](../ntifs/nf-ntifs-ntclose.md) to close it.
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see [Object Handles](/windows-hardware/drivers/kernel/object-handles).
 
@@ -220,13 +220,13 @@ The FILE_DIRECTORY_FILE *CreateOptions* value specifies that the file to be crea
 
 The FILE_NO_INTERMEDIATE_BUFFERING *CreateOptions* flag prevents the file system from performing any intermediate buffering on behalf of the caller. Specifying this flag places the following restrictions on the caller's parameters to other **Zw*Xxx*File** routines:
 
-- Any optional *ByteOffset* passed to [ZwReadFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile) or [ZwWriteFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile) must be a multiple of the sector size.
+- Any optional *ByteOffset* passed to [ZwReadFile](../ntifs/nf-ntifs-ntreadfile.md) or [ZwWriteFile](../ntifs/nf-ntifs-ntwritefile.md) must be a multiple of the sector size.
 
 - The *Length* passed to **ZwReadFile** or **ZwWriteFile** must be an integral of the sector size. Note that specifying a read operation to a buffer whose length is exactly the sector size might result in a lesser number of significant bytes being transferred to that buffer if the end of the file was reached during the transfer.
 
-- Buffers must be aligned in accordance with the alignment requirement of the underlying device. To obtain this information, call **ZwCreateFile** to get a handle for the file object that represents the physical device, and pass that handle to [ZwQueryInformationFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile). For a list of the system's FILE_*XXX*_ALIGNMENT values, see [DEVICE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object).
+- Buffers must be aligned in accordance with the alignment requirement of the underlying device. To obtain this information, call **ZwCreateFile** to get a handle for the file object that represents the physical device, and pass that handle to [ZwQueryInformationFile](../ntifs/nf-ntifs-ntqueryinformationfile.md). For a list of the system's FILE_*XXX*_ALIGNMENT values, see [DEVICE_OBJECT](./ns-wdm-_device_object.md).
 
-- Calls to [ZwSetInformationFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile) with the *FileInformationClass* parameter set to **FilePositionInformation** must specify an offset that is a multiple of the sector size.
+- Calls to [ZwSetInformationFile](../ntifs/nf-ntifs-ntsetinformationfile.md) with the *FileInformationClass* parameter set to **FilePositionInformation** must specify an offset that is a multiple of the sector size.
 
 The FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT *CreateOptions* flags, which are mutually exclusive as their names suggest, specify that all I/O operations on the file will be synchronous—as long as they occur through the file object referred to by the returned *FileHandle*. All I/O on such a file is serialized across all threads using the returned handle. If either of these *CreateOptions* flags is set, the SYNCHRONIZE *DesiredAccess* flag must also be set—to compel the I/O manager to use the file object as a synchronization object. In these cases, the I/O manager keeps track of the current file-position offset, which you can pass to **ZwReadFile** and **ZwWriteFile**. Call **ZwQueryInformationFile** or **ZwSetInformationFile** to get or set this position.
 
@@ -268,25 +268,25 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask)
 
-[DEVICE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object)
+[DEVICE_OBJECT](./ns-wdm-_device_object.md)
 
-[IO_STATUS_BLOCK](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block)
+[IO_STATUS_BLOCK](./ns-wdm-_io_status_block.md)
 
 [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
+[ZwClose](../ntifs/nf-ntifs-ntclose.md)
 
-[ZwOpenFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile)
+[ZwOpenFile](../ntifs/nf-ntifs-ntopenfile.md)
 
-[ZwQueryInformationFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile)
+[ZwQueryInformationFile](../ntifs/nf-ntifs-ntqueryinformationfile.md)
 
-[ZwReadFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile)
+[ZwReadFile](../ntifs/nf-ntifs-ntreadfile.md)
 
-[ZwSetInformationFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile)
+[ZwSetInformationFile](../ntifs/nf-ntifs-ntsetinformationfile.md)
 
-[ZwWriteFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile)
+[ZwWriteFile](../ntifs/nf-ntifs-ntwritefile.md)
 
  [Opportunistic Locks](/windows/win32/fileio/opportunistic-locks)
 

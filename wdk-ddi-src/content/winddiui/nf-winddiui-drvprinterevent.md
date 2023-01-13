@@ -56,7 +56,7 @@ Caller-supplied event code identifying the event. The following event codes are 
 | Event code | Definition |
 |---|---|
 | PRINTER_EVENT_ADD_CONNECTION | The spooler has just finished processing a call to its [**AddPrinterConnection**](/windows/win32/printdocs/addprinterconnection) function, which allows a client user to connect to a previously created remote printer. |
-| PRINTER_EVENT_ATTRIBUTES_CHANGED | The attribute bits for a printer have changed. In response to an application's call to the [**SetPrinter**](/windows/win32/printdocs/setprinter) function, the spooler calls the printer driver's **DrvPrinterEvent** function, passing the event code in the call. When this event code is used, the *lParam* parameter points to a [PRINTER_EVENT_ATTRIBUTES_INFO](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_printer_event_attributes_info) structure that describes the old and the new attributes. |
+| PRINTER_EVENT_ATTRIBUTES_CHANGED | The attribute bits for a printer have changed. In response to an application's call to the [**SetPrinter**](/windows/win32/printdocs/setprinter) function, the spooler calls the printer driver's **DrvPrinterEvent** function, passing the event code in the call. When this event code is used, the *lParam* parameter points to a [PRINTER_EVENT_ATTRIBUTES_INFO](./ns-winddiui-_printer_event_attributes_info.md) structure that describes the old and the new attributes. |
 | PRINTER_EVENT_CACHE_DELETE | The spooler is deleting the client's file cache. |
 | PRINTER_EVENT_CACHE_REFRESH | The spooler is updating the client's cached files. |
 | PRINTER_EVENT_CONFIGURATION_CHANGE | Reserved. |

@@ -51,7 +51,7 @@ The **ExAllocatePoolWithQuotaTag** routine allocates pool memory, charging the q
 
 ### -param PoolType [in]
 
-Specifies the type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type).
+Specifies the type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](./ne-wdm-_pool_type.md).
 
 You can modify the *PoolType* value by bitwise-ORing this value with the POOL_QUOTA_FAIL_INSTEAD_OF_RAISE flag. This flag causes the routine to return a **NULL** value if the request cannot be satisfied.
 
@@ -63,7 +63,7 @@ Specifies the number of bytes to allocate.
 
 ### -param Tag [in]
 
-Specifies the pool tag for the allocated memory. For more information, see the *Tag* parameter of [ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag).
+Specifies the pool tag for the allocated memory. For more information, see the *Tag* parameter of [ExAllocatePoolWithTag](./nf-wdm-exallocatepoolwithtag.md).
 
 ## -returns
 
@@ -73,13 +73,13 @@ If the request cannot be satisfied, **ExAllocatePoolWithQuotaTag** raises an exc
 
 ## -remarks
 
-This routine is called by highest-level drivers that allocate memory to satisfy a request in the context of the process that originally made the I/O request. Lower-level drivers call [ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag) instead.
+This routine is called by highest-level drivers that allocate memory to satisfy a request in the context of the process that originally made the I/O request. Lower-level drivers call [ExAllocatePoolWithTag](./nf-wdm-exallocatepoolwithtag.md) instead.
 
 If *NumberOfBytes* is PAGE_SIZE or greater, a page-aligned buffer is allocated. Memory allocations of PAGE_SIZE or less are allocated within a page and do not cross page boundaries. Memory allocations of less than PAGE_SIZE are not necessarily page-aligned but are aligned to 8-byte boundaries in 32-bit systems and to 16-byte boundaries in 64-bit systems.
 
 The system associates the pool tag with the allocated memory. Programming tools, such as WinDbg, can display the pool tag associated with each allocated buffer. The value of *Tag* is normally displayed in reversed order. For example, if a caller passes 'Fred' as a *Tag*, it would appear as 'derF' if the pool is dumped or when tracking pool usage in the debugger.
 
-The allocated buffer can be freed with either [ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool) or [ExFreePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreepoolwithtag).
+The allocated buffer can be freed with either [ExFreePool](../ntddk/nf-ntddk-exfreepool.md) or [ExFreePoolWithTag](./nf-wdm-exfreepoolwithtag.md).
 
 Do not set *NumberOfBytes* = 0. Avoid zero-length allocations because they waste pool header space and, in many cases, indicate a potential validation issue in the calling code. For this reason, [Driver Verifier](/windows-hardware/drivers/what-s-new-in-driver-development) flags such allocations as possible errors.
 
@@ -93,10 +93,10 @@ Callers of **ExAllocatePoolWithQuotaTag** must be executing at IRQL <= DISPATCH_
 
 ## -see-also
 
-[ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag)
+[ExAllocatePoolWithTag](./nf-wdm-exallocatepoolwithtag.md)
 
-[ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool)
+[ExFreePool](../ntddk/nf-ntddk-exfreepool.md)
 
-[ExFreePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreepoolwithtag)
+[ExFreePoolWithTag](./nf-wdm-exfreepoolwithtag.md)
 
-[POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type)
+[POOL_TYPE](./ne-wdm-_pool_type.md)

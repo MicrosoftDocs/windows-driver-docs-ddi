@@ -47,13 +47,13 @@ api_name:
 
 ## -description
 
-The **CM_PARTIAL_RESOURCE_DESCRIPTOR** structure specifies one or more system hardware resources, of a single type, assigned to a device. This structure is used to create an array within a [CM_PARTIAL_RESOURCE_LIST](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_list) structure.
+The **CM_PARTIAL_RESOURCE_DESCRIPTOR** structure specifies one or more system hardware resources, of a single type, assigned to a device. This structure is used to create an array within a [CM_PARTIAL_RESOURCE_LIST](./ns-wdm-_cm_partial_resource_list.md) structure.
 
 ## -struct-fields
 
 ### -field Type
 
-Identifies the resource type. The constant value specified for **Type** indicates which structure within the **u** union is valid, as indicated in the following table. (These flags are used within both **CM_PARTIAL_RESOURCE_DESCRIPTOR** and [IO_RESOURCE_DESCRIPTOR](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor) structures, except where noted.)
+Identifies the resource type. The constant value specified for **Type** indicates which structure within the **u** union is valid, as indicated in the following table. (These flags are used within both **CM_PARTIAL_RESOURCE_DESCRIPTOR** and [IO_RESOURCE_DESCRIPTOR](./ns-wdm-_io_resource_descriptor.md) structures, except where noted.)
 
 | Type value | u member substructure |
 |---|---|
@@ -105,7 +105,7 @@ Contains flag bits that are specific to the resource type, as indicated in the f
 | CM_RESOURCE_INTERRUPT_LEVEL_SENSITIVE | The IRQ line is level-triggered. (These IRQs are usually sharable.) |
 | CM_RESOURCE_INTERRUPT_LATCHED | The IRQ line is edge-triggered. |
 | CM_RESOURCE_INTERRUPT_MESSAGE | If this flag is set, the interrupt is a message-signaled interrupt. Otherwise, the interrupt is a line-based interrupt. |
-| CM_RESOURCE_INTERRUPT_POLICY_INCLUDED | Not used with the **CM_PARTIAL_RESOURCE_DESCRIPTOR** structure. For more information about this flag, see [IO_RESOURCE_DESCRIPTOR](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor). |
+| CM_RESOURCE_INTERRUPT_POLICY_INCLUDED | Not used with the **CM_PARTIAL_RESOURCE_DESCRIPTOR** structure. For more information about this flag, see [IO_RESOURCE_DESCRIPTOR](./ns-wdm-_io_resource_descriptor.md). |
 | CM_RESOURCE_INTERRUPT_SECONDARY_INTERRUPT | The interrupt is a secondary interrupt. This flag can be set starting with Windows 8. For more information about secondary interrupts, see [GPIO Interrupts](/windows-hardware/drivers/gpio/gpio-interrupts). |
 | CM_RESOURCE_INTERRUPT_WAKE_HINT | The interrupt is capable of waking the operating system from a low-power idle state or a system sleep state. This flag can be set starting with Windows 8. For more information about wake capabilities, see [Enabling Device Wake-Up](/windows-hardware/drivers/kernel/enabling-device-wake-up). |
 
@@ -163,7 +163,7 @@ Not used.
 
 Specifies a range of I/O port addresses, using the following members.
 
-Drivers for Windows Vista and later versions of the Windows operating system can use [RtlCmDecodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcmdecodememioresource) and [RtlCmEncodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcmencodememioresource) to read and update the **u.Port** member, rather than updating it directly.
+Drivers for Windows Vista and later versions of the Windows operating system can use [RtlCmDecodeMemIoResource](./nf-wdm-rtlcmdecodememioresource.md) and [RtlCmEncodeMemIoResource](./nf-wdm-rtlcmencodememioresource.md) to read and update the **u.Port** member, rather than updating it directly.
 
 ### -field u.Port.Start
 
@@ -265,7 +265,7 @@ Specifies a KAFFINITY value that identifies the processors that receive the devi
 
 Specifies a range of memory addresses, using the following members.
 
-Drivers for Windows Vista and later versions of the Windows operating system can use [RtlCmDecodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcmdecodememioresource) and [RtlCmEncodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcmencodememioresource) to read and update the **u.Memory** member, rather than updating it directly.
+Drivers for Windows Vista and later versions of the Windows operating system can use [RtlCmDecodeMemIoResource](./nf-wdm-rtlcmdecodememioresource.md) and [RtlCmEncodeMemIoResource](./nf-wdm-rtlcmencodememioresource.md) to read and update the **u.Memory** member, rather than updating it directly.
 
 ### -field u.Memory.Start
 
@@ -297,7 +297,7 @@ Not used.
 
 ### -field u.DmaV3
 
-Specifies the DMA settings for a driver that uses version 3 of the [DMA_OPERATIONS](/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations) structure.
+Specifies the DMA settings for a driver that uses version 3 of the [DMA_OPERATIONS](./ns-wdm-_dma_operations.md) structure.
 
 The **u.DmaV3** member is available starting with Windows 8.
 
@@ -349,9 +349,9 @@ Not used.
 
 ### -field u.DeviceSpecificData
 
-Specifies the size of a device-specific, private structure that is appended to the end of the **CM_PARTIAL_RESOURCE_DESCRIPTOR** structure. If **u.DeviceSpecificData** is used, the **CM_PARTIAL_RESOURCE_DESCRIPTOR** structure must be the last one in the [CM_PARTIAL_RESOURCE_LIST](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_list) array.
+Specifies the size of a device-specific, private structure that is appended to the end of the **CM_PARTIAL_RESOURCE_DESCRIPTOR** structure. If **u.DeviceSpecificData** is used, the **CM_PARTIAL_RESOURCE_DESCRIPTOR** structure must be the last one in the [CM_PARTIAL_RESOURCE_LIST](./ns-wdm-_cm_partial_resource_list.md) array.
 
-Examples of device-specific structures include [CM_FLOPPY_DEVICE_DATA](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_floppy_device_data), [CM_KEYBOARD_DEVICE_DATA](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_keyboard_device_data), [CM_SCSI_DEVICE_DATA](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_scsi_device_data), and [CM_SERIAL_DEVICE_DATA](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_serial_device_data).
+Examples of device-specific structures include [CM_FLOPPY_DEVICE_DATA](./ns-wdm-_cm_floppy_device_data.md), [CM_KEYBOARD_DEVICE_DATA](./ns-wdm-_cm_keyboard_device_data.md), [CM_SCSI_DEVICE_DATA](./ns-wdm-_cm_scsi_device_data.md), and [CM_SERIAL_DEVICE_DATA](./ns-wdm-_cm_serial_device_data.md).
 
 ### -field u.DeviceSpecificData.DataSize
 
@@ -369,7 +369,7 @@ Not used.
 
 Specifies a range of memory addresses, using the following members.
 
-The **u.Memory40** member is available only on Windows Vista and later versions of the Windows operating system. Drivers must use [RtlCmDecodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcmdecodememioresource) and [RtlCmEncodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcmencodememioresource) to read and update this member, rather than updating it directly.
+The **u.Memory40** member is available only on Windows Vista and later versions of the Windows operating system. Drivers must use [RtlCmDecodeMemIoResource](./nf-wdm-rtlcmdecodememioresource.md) and [RtlCmEncodeMemIoResource](./nf-wdm-rtlcmencodememioresource.md) to read and update this member, rather than updating it directly.
 
 ### -field u.Memory40.Start
 
@@ -387,7 +387,7 @@ Contains the high 32 bits of the 40-bit length, in bytes, of the range of alloca
 
 Specifies a range of memory addresses, using the following members.
 
-The **u.Memory48** member is available only on Windows Vista and later versions of the Windows operating system. Drivers must use [RtlCmDecodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcmdecodememioresource) and [RtlCmEncodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcmencodememioresource) to read and update this member, rather than updating it directly.
+The **u.Memory48** member is available only on Windows Vista and later versions of the Windows operating system. Drivers must use [RtlCmDecodeMemIoResource](./nf-wdm-rtlcmdecodememioresource.md) and [RtlCmEncodeMemIoResource](./nf-wdm-rtlcmencodememioresource.md) to read and update this member, rather than updating it directly.
 
 ### -field u.Memory48.Start
 
@@ -405,7 +405,7 @@ Contains the high 32 bits of the 48-bit length, in bytes, of the range of alloca
 
 Specifies a range of memory addresses, using the following members.
 
-The **u.Memory64** member is available only on Windows Vista and later versions of the Windows operating system. Drivers must use [RtlCmDecodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcmdecodememioresource) and [RtlCmEncodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcmencodememioresource) to read and update this member, rather than updating it directly.
+The **u.Memory64** member is available only on Windows Vista and later versions of the Windows operating system. Drivers must use [RtlCmDecodeMemIoResource](./nf-wdm-rtlcmdecodememioresource.md) and [RtlCmEncodeMemIoResource](./nf-wdm-rtlcmencodememioresource.md) to read and update this member, rather than updating it directly.
 
 ### -field u.Memory64.Start
 
@@ -478,34 +478,34 @@ There can only be *1* **DeviceSpecificData** block. It must be located at the en
 
 ## -see-also
 
-[CM_FLOPPY_DEVICE_DATA](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_floppy_device_data)
+[CM_FLOPPY_DEVICE_DATA](./ns-wdm-_cm_floppy_device_data.md)
 
-[CM_FULL_RESOURCE_DESCRIPTOR](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_full_resource_descriptor)
+[CM_FULL_RESOURCE_DESCRIPTOR](./ns-wdm-_cm_full_resource_descriptor.md)
 
-[CM_KEYBOARD_DEVICE_DATA](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_keyboard_device_data)
+[CM_KEYBOARD_DEVICE_DATA](./ns-wdm-_cm_keyboard_device_data.md)
 
-[CM_PARTIAL_RESOURCE_LIST](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_list)
+[CM_PARTIAL_RESOURCE_LIST](./ns-wdm-_cm_partial_resource_list.md)
 
-[CM_RESOURCE_LIST](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list)
+[CM_RESOURCE_LIST](./ns-wdm-_cm_resource_list.md)
 
-[CM_SCSI_DEVICE_DATA](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_scsi_device_data)
+[CM_SCSI_DEVICE_DATA](./ns-wdm-_cm_scsi_device_data.md)
 
-[CM_SERIAL_DEVICE_DATA](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_serial_device_data)
+[CM_SERIAL_DEVICE_DATA](./ns-wdm-_cm_serial_device_data.md)
 
-[DMA_OPERATIONS](/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations)
+[DMA_OPERATIONS](./ns-wdm-_dma_operations.md)
 
-[IO_RESOURCE_DESCRIPTOR](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor)
+[IO_RESOURCE_DESCRIPTOR](./ns-wdm-_io_resource_descriptor.md)
 
 [IRP_MN_START_DEVICE](/windows-hardware/drivers/kernel/irp-mn-start-device)
 
-[IoConnectInterrupt](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt)
+[IoConnectInterrupt](./nf-wdm-ioconnectinterrupt.md)
 
-[IoGetDeviceProperty](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceproperty)
+[IoGetDeviceProperty](./nf-wdm-iogetdeviceproperty.md)
 
-[IoReportResourceForDetection](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreportresourcefordetection)
+[IoReportResourceForDetection](../ntddk/nf-ntddk-ioreportresourcefordetection.md)
 
 [**KAFFINITY**](/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
-[RtlCmDecodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcmdecodememioresource)
+[RtlCmDecodeMemIoResource](./nf-wdm-rtlcmdecodememioresource.md)
 
-[RtlCmEncodeMemIoResource](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcmencodememioresource)
+[RtlCmEncodeMemIoResource](./nf-wdm-rtlcmencodememioresource.md)

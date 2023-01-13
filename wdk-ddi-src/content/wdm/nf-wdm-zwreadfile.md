@@ -47,7 +47,7 @@ The **ZwReadFile** routine reads data from an open file.
 
 ### -param FileHandle [in]
 
-Handle to the file object. This handle is created by a successful call to [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) or [ZwOpenFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile).
+Handle to the file object. This handle is created by a successful call to [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md) or [ZwOpenFile](../ntifs/nf-ntifs-ntopenfile.md).
 
 ### -param Event [in, optional]
 
@@ -63,7 +63,7 @@ This parameter is reserved. Device and intermediate drivers should set this poin
 
 ### -param IoStatusBlock [out]
 
-Pointer to an [IO_STATUS_BLOCK](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and information about the requested read operation. The **Information** member receives the number of bytes actually read from the file.
+Pointer to an [IO_STATUS_BLOCK](./ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested read operation. The **Information** member receives the number of bytes actually read from the file.
 
 ### -param Buffer [out]
 
@@ -77,7 +77,7 @@ The size, in bytes, of the buffer pointed to by *Buffer*.
 
 Pointer to a variable that specifies the starting byte offset in the file where the read operation will begin. If an attempt is made to read beyond the end of the file, **ZwReadFile** returns an error.
 
-If the call to [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) set either of the **CreateOptions** flags FILE_SYNCHRONOUS_IO_ALERT or FILE_SYNCHRONOUS_IO_NONALERT, the I/O Manager maintains the current file position. If so, the caller of **ZwReadFile** can specify that the current file position offset be used instead of an explicit **ByteOffset** value. This specification can be made by using one of the following methods:
+If the call to [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md) set either of the **CreateOptions** flags FILE_SYNCHRONOUS_IO_ALERT or FILE_SYNCHRONOUS_IO_NONALERT, the I/O Manager maintains the current file position. If so, the caller of **ZwReadFile** can specify that the current file position offset be used instead of an explicit **ByteOffset** value. This specification can be made by using one of the following methods:
 
 - Specify a pointer to a LARGE_INTEGER value with the **HighPart** member set to -1 and the **LowPart** member set to the system-defined value FILE_USE_FILE_POINTER_POSITION.
 
@@ -97,9 +97,9 @@ Device and intermediate drivers should set this pointer to **NULL**.
 
 ## -remarks
 
-Callers of **ZwReadFile** must have already called [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) with the FILE_READ_DATA or GENERIC_READ value set in the *DesiredAccess* parameter.
+Callers of **ZwReadFile** must have already called [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md) with the FILE_READ_DATA or GENERIC_READ value set in the *DesiredAccess* parameter.
 
-If the preceding call to [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) set the FILE_NO_INTERMEDIATE_BUFFERING flag in the *CreateOptions* parameter to **ZwCreateFile**, the *Length* and *ByteOffset* parameters to **ZwReadFile** must be multiples of the sector size. For more information, see **ZwCreateFile**.
+If the preceding call to [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md) set the FILE_NO_INTERMEDIATE_BUFFERING flag in the *CreateOptions* parameter to **ZwCreateFile**, the *Length* and *ByteOffset* parameters to **ZwReadFile** must be multiples of the sector size. For more information, see **ZwCreateFile**.
 
 **ZwReadFile** begins reading from the given *ByteOffset* or the current file position into the given *Buffer*. It terminates the read operation under one of the following conditions:
 
@@ -131,16 +131,16 @@ For more information about working with files, see [Using Files in a Driver](/wi
 
 Callers of **ZwReadFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
-If the call to this function occurs in user mode, you should use the name "[NtReadFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile)" instead of "**ZwReadFile**".
+If the call to this function occurs in user mode, you should use the name "[NtReadFile](../ntifs/nf-ntifs-ntreadfile.md)" instead of "**ZwReadFile**".
 
 ## -see-also
 
-[KeInitializeEvent](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent)
+[KeInitializeEvent](./nf-wdm-keinitializeevent.md)
 
-[ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
+[ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md)
 
-[ZwQueryInformationFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile)
+[ZwQueryInformationFile](../ntifs/nf-ntifs-ntqueryinformationfile.md)
 
-[ZwSetInformationFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile)
+[ZwSetInformationFile](../ntifs/nf-ntifs-ntsetinformationfile.md)
 
-[ZwWriteFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile)
+[ZwWriteFile](../ntifs/nf-ntifs-ntwritefile.md)

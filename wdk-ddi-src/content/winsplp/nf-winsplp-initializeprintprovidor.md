@@ -50,7 +50,7 @@ A print provider's **InitializePrintProvidor** function initializes the provider
 
 ### -param pPrintProvidor [out]
 
-Caller-supplied address of a [**PRINTPROVIDOR**](/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_printprovidor) structure, to be filled in by the print provider.
+Caller-supplied address of a [**PRINTPROVIDOR**](./ns-winsplp-_printprovidor.md) structure, to be filled in by the print provider.
 
 ### -param cbPrintProvidor [in]
 
@@ -66,8 +66,8 @@ If the operation succeeds, the function should return **TRUE**. Otherwise the fu
 
 ## -remarks
 
-Print providers are required to define an **InitializePrintProvidor** function, which is the first function called by the spooler after the provider has been loaded. The function must fill the supplied [**PRINTPROVIDOR**](/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_printprovidor) structure with pointers to the provider's defined functions (see [Functions defined by print providers](/windows-hardware/drivers/print/functions-defined-by-print-providers)). The function can also perform other provider-specific initialization operations.
+Print providers are required to define an **InitializePrintProvidor** function, which is the first function called by the spooler after the provider has been loaded. The function must fill the supplied [**PRINTPROVIDOR**](./ns-winsplp-_printprovidor.md) structure with pointers to the provider's defined functions (see [Functions defined by print providers](/windows-hardware/drivers/print/functions-defined-by-print-providers)). The function can also perform other provider-specific initialization operations.
 
 ## -see-also
 
-[**PRINTPROVIDOR**](/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_printprovidor)
+[**PRINTPROVIDOR**](./ns-winsplp-_printprovidor.md)

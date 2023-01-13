@@ -61,7 +61,7 @@ Pointer to the [LIST_ENTRY](/windows/win32/api/ntdef/ns-ntdef-list_entry) struct
 
 The return value can be used to detect when the last entry is removed from the list. An empty list consists of a list head only and no list entries.
 
-Typically, *Entry* points to an entry in a list and not to the list head. However, *Entry* can point to a list head, in which case the routine removes the list head from the list to produce a headless list. When **RemoveEntryList** is used in this way, the return value should typically be ignored. To determine whether a list is empty, use the [IsListEmpty](/windows-hardware/drivers/ddi/wdm/nf-wdm-islistempty) routine.
+Typically, *Entry* points to an entry in a list and not to the list head. However, *Entry* can point to a list head, in which case the routine removes the list head from the list to produce a headless list. When **RemoveEntryList** is used in this way, the return value should typically be ignored. To determine whether a list is empty, use the [IsListEmpty](./nf-wdm-islistempty.md) routine.
 
 For information about using this routine when implementing a doubly linked list, see [Singly and Doubly Linked Lists](/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists).
 
@@ -69,10 +69,10 @@ Callers of **RemoveEntryList** can be running at any IRQL. If **RemoveEntryList*
 
 ## -see-also
 
-[InitializeListHead](/windows-hardware/drivers/ddi/wdm/nf-wdm-initializelisthead)
+[InitializeListHead](./nf-wdm-initializelisthead.md)
 
-[IsListEmpty](/windows-hardware/drivers/ddi/wdm/nf-wdm-islistempty)
+[IsListEmpty](./nf-wdm-islistempty.md)
 
-[RemoveHeadList](/windows-hardware/drivers/ddi/wdm/nf-wdm-removeheadlist)
+[RemoveHeadList](./nf-wdm-removeheadlist.md)
 
-[RemoveTailList](/windows-hardware/drivers/ddi/wdm/nf-wdm-removetaillist)
+[RemoveTailList](./nf-wdm-removetaillist.md)
