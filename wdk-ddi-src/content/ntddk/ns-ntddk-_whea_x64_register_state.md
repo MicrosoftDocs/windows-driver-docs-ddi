@@ -1,16 +1,15 @@
 ---
 UID: NS:ntddk._WHEA_X64_REGISTER_STATE
-title: _WHEA_X64_REGISTER_STATE (ntddk.h)
+title: WHEA_X64_REGISTER_STATE (ntddk.h)
 description: The WHEA_X64_REGISTER_STATE structure describes the state of an x64 processor's registers.
-old-location: whea\whea_x64_register_state.htm
 tech.root: whea
-ms.date: 02/20/2018
+ms.date: 01/11/2023
 keywords: ["WHEA_X64_REGISTER_STATE structure"]
 ms.keywords: "*PWHEA_X64_REGISTER_STATE, PWHEA_X64_REGISTER_STATE, PWHEA_X64_REGISTER_STATE structure pointer [WHEA Drivers and Applications], WHEA_X64_REGISTER_STATE, WHEA_X64_REGISTER_STATE structure [WHEA Drivers and Applications], _WHEA_X64_REGISTER_STATE, ntddk/PWHEA_X64_REGISTER_STATE, ntddk/WHEA_X64_REGISTER_STATE, whea.whea_x64_register_state, whearef_2602d89a-de68-4dd9-ba4b-bb42fc0f258b.xml"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
-req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,12 +45,9 @@ api_name:
  - WHEA_X64_REGISTER_STATE
 ---
 
-# _WHEA_X64_REGISTER_STATE structure
-
-
 ## -description
 
-The WHEA_X64_REGISTER_STATE structure describes the state of an x64 processor's registers.
+The **WHEA_X64_REGISTER_STATE** structure describes the state of an x64 processor's registers.
 
 ## -struct-fields
 
@@ -181,25 +177,18 @@ The control register 8.
 
 ### -field Gdtr
 
-A WHEA128A structure that contains the state of the global descriptor table register. The WHEA128A structure describes a 128-bit value and is defined as follows:
+A **WHEA128A** structure that contains the state of the global descriptor table register. The **WHEA128A** structure describes a 128-bit value and is defined as follows:
 
-
-```
+```cpp
 typedef struct _WHEA128A {
   ULONGLONG  Low;
   LONGLONG  High;
 } WHEA128A, *PWHEA128A;
 ```
 
-
-
-
-
 #### Low
 
 The low order 64 bits of the 128-bit value.
-
-
 
 #### High
 
@@ -207,7 +196,7 @@ The high order 64 bits of the 128-bit value.
 
 ### -field Idtr
 
-A WHEA128A structure that contains the state of the interrupt descriptor table register. For a description of the WHEA128A structure, see the description for the <b>Gdtr</b> member.
+A **WHEA128A** structure that contains the state of the interrupt descriptor table register. For a description of the **WHEA128A** structure, see the description for the **Gdtr** member.
 
 ### -field Ldtr
 
@@ -219,9 +208,8 @@ The task register.
 
 ## -remarks
 
-If the <b>RegisterContextType</b> member of a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_context_info">WHEA_XPF_CONTEXT_INFO</a> structure is set to XPF_CONTEXT_INFO_64BITCONTEXT, the <b>RegisterData</b> member of that structure contains a WHEA_X64_REGISTER_STATE structure.
+If the **RegisterContextType** member of a [**WHEA_XPF_CONTEXT_INFO**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_context_info) structure is set to XPF_CONTEXT_INFO_64BITCONTEXT, the **RegisterData** member of that structure contains a **WHEA_X64_REGISTER_STATE** structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_context_info">WHEA_XPF_CONTEXT_INFO</a>
-
+[**WHEA_XPF_CONTEXT_INFO**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_context_info)

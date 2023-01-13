@@ -2,15 +2,14 @@
 UID: NF:ntddk.IoGetConfigurationInformation
 title: IoGetConfigurationInformation function (ntddk.h)
 description: The IoGetConfigurationInformation function (ntddk.h) returns a pointer to the I/O manager's global configuration information structure.
-old-location: kernel\iogetconfigurationinformation.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/10/2023
 keywords: ["IoGetConfigurationInformation function"]
 ms.keywords: IoGetConfigurationInformation, IoGetConfigurationInformation routine [Kernel-Mode Driver Architecture], k104_5f9c4d01-9724-4e1d-8154-3737f0809068.xml, kernel.iogetconfigurationinformation, ntddk/IoGetConfigurationInformation
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,19 +39,15 @@ api_name:
  - IoGetConfigurationInformation
 ---
 
-# IoGetConfigurationInformation function (ntddk.h)
-
-
 ## -description
 
-The <b>IoGetConfigurationInformation</b> routine returns a pointer to the I/O manager's global configuration information structure, which contains the current values for how many physical disk, floppy, CD-ROM, tape, SCSI HBA, serial, and parallel devices have device objects created to represent them by drivers as they are loaded.
+The **IoGetConfigurationInformation** routine returns a pointer to the I/O manager's global configuration information structure, which contains the current values for how many physical disk, floppy, CD-ROM, tape, SCSI HBA, serial, and parallel devices have device objects created to represent them by drivers as they are loaded.
 
 ## -returns
 
-<b>IoGetConfigurationInformation</b> returns a pointer to the configuration information structure. This structure is defined as follows:
+**IoGetConfigurationInformation** returns a pointer to the configuration information structure. This structure is defined as follows:
 
-
-```
+```cpp
 typedef struct _CONFIGURATION_INFORMATION {
 
     //
@@ -96,12 +91,11 @@ typedef struct _CONFIGURATION_INFORMATION {
 } CONFIGURATION_INFORMATION, *PCONFIGURATION_INFORMATION;
 ```
 
-
 ## -remarks
 
 Certain types of device drivers can use the configuration information structure's values to construct device object names with appropriate digit suffixes when each driver creates its device objects. Note that the digit suffix for device object names is a zero-based count, while the counts maintained in the configuration information structure represent the number of device objects of a particular type already created. That is, the configuration information counts are one-based.
 
-Any driver that calls <b>IoGetConfigurationInformation</b> must increment the count for its kind of device in this structure when it creates a device object to represent a physical device.
+Any driver that calls **IoGetConfigurationInformation** must increment the count for its kind of device in this structure when it creates a device object to represent a physical device.
 
 The system-supplied SCSI port driver supplies the count of SCSI HBAs present in the computer. SCSI class drivers can read this value to determine how many HBA-specific miniport drivers might control a SCSI bus with an attached device of the class driver's type.
 
@@ -109,24 +103,14 @@ The configuration information structure also contains a value indicating whether
 
 ## -see-also
 
-<a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalAssignSlotResources</a>
+[HalAssignSlotResources](/previous-versions/windows/hardware/drivers/ff546644(v=vs.85))
 
+[HalGetBusData](/previous-versions/windows/hardware/drivers/ff546644(v=vs.85))
 
+[HalGetBusDataByOffset](/previous-versions/windows/hardware/drivers/ff546644(v=vs.85))
 
-<a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a>
+[IoAssignResources](/windows-hardware/drivers/kernel/mmcreatemdl)
 
+[IoQueryDeviceDescription](/windows-hardware/drivers/kernel/mmcreatemdl)
 
-
-<a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoAssignResources</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoQueryDeviceDescription</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>
+[IoReportResourceUsage](/windows-hardware/drivers/kernel/mmcreatemdl)

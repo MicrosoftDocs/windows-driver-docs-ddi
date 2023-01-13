@@ -2,9 +2,8 @@
 UID: NF:wdm.PcwCloseInstance
 title: PcwCloseInstance function (wdm.h)
 description: The PcwCloseInstance function closes the specified instance of the counterset.
-old-location: devtest\pcwcloseinstance.htm
 tech.root: devtest
-ms.date: 07/28/2020
+ms.date: 01/12/2023
 keywords: ["PcwCloseInstance function"]
 ms.keywords: PcwCloseInstance, PcwCloseInstance function [Driver Development Tools], devtest.pcwcloseinstance, km_pcw_f30288bf-ff25-46fd-b058-74294fc03278.xml, wdm/PcwCloseInstance
 req.header: wdm.h
@@ -23,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
+req.irql: IRQL <= APC_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -39,9 +38,6 @@ api_location:
 api_name:
  - PcwCloseInstance
 ---
-
-# PcwCloseInstance function
-
 
 ## -description
 
@@ -63,7 +59,7 @@ You cannot call `PcwCloseInstance` on an instance if you have already called [Pc
 
 Most developers do not need to call `PcwCloseInstance` directly. Instead, they will compile a manifest with the CTRPP tool and use the CloseXxx function from the CTRPP-generated header. The generated function will look like this:
 
-```C
+```c
 EXTERN_C FORCEINLINE VOID
 CloseMyCounterset(
     __in PPCW_INSTANCE Instance

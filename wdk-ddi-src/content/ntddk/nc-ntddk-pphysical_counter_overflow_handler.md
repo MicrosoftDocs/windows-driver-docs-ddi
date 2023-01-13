@@ -3,7 +3,7 @@ UID: NC:ntddk.PPHYSICAL_COUNTER_OVERFLOW_HANDLER
 title: PPHYSICAL_COUNTER_OVERFLOW_HANDLER
 description: The PPHYSICAL_COUNTER_OVERFLOW_HANDLER is implemented by the client driver to handle overflows from the counters resources acquired through the HalAllocateHardwareCounters routine.
 tech.root: kernel
-ms.date: 08/19/2019
+ms.date: 01/10/2023
 keywords: ["PPHYSICAL_COUNTER_OVERFLOW_HANDLER callback function"]
 req.header: ntddk.h
 req.include-header: 
@@ -37,9 +37,6 @@ api_name:
  - PPHYSICAL_COUNTER_OVERFLOW_HANDLER
 ---
 
-# PPHYSICAL_COUNTER_OVERFLOW_HANDLER callback function
-
-
 ## -description
 
 The PPHYSICAL_COUNTER_OVERFLOW_HANDLER is implemented by the client driver to handle counter overflows from the counters resources acquired through the [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) routine.
@@ -52,7 +49,7 @@ Provides a bitmap describing which counters overflowed.
 
 ### -param OwningHandle
 
-Provides the <b>HANDLE</b> corresponding to the resource set the overflowing counters belong to.
+Provides the **HANDLE** corresponding to the resource set the overflowing counters belong to.
 
 ## -remarks
 
@@ -60,7 +57,7 @@ Register your implementation of this callback function by calling [**HalAllocate
 
 Here is an example prototype for an overflow handler:
 
-```
+```cpp
 VOID
 PmuAwareOverflowHandler (
     _In_ ULONGLONG OverflowStatus,
@@ -90,7 +87,7 @@ Return Value:
 
 To register the overflow handler, use code like this:
 
-```
+```cpp
 VOID
 CreateOverflowDescriptor (
     _Inout_ PPHYSICAL_COUNTER_RESOURCE_LIST CounterResourceList,
@@ -105,13 +102,12 @@ CreateOverflowDescriptor (
 
 This callback is called at IRQL = PROFILE_LEVEL. This means it must always be memory-resident. The callback should return as quickly as possible and should not attempt to do any of the following.
 
-* Acquire or release spin locks.
+- Acquire or release spin locks.
 
-* Access paged pool that is not locked in memory
+- Access paged pool that is not locked in memory
 
-* Call a pageable routine.
+- Call a pageable routine.
 
 The callback does not need to handle clearing any overflow registers as it will be handled by the HAL.
 
 ## -see-also
-

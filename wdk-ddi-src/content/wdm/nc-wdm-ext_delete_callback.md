@@ -2,9 +2,8 @@
 UID: NC:wdm.EXT_DELETE_CALLBACK
 title: EXT_DELETE_CALLBACK (wdm.h)
 description: An ExTimerDeleteCallback callback routine runs when the operating system deletes an EX_TIMER timer object.
-old-location: kernel\extimerdeletecallback.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/09/2023
 keywords: ["EXT_DELETE_CALLBACK callback function"]
 ms.keywords: EXT_DELETE_CALLBACK, ExTimerDeleteCallback, ExTimerDeleteCallback routine [Kernel-Mode Driver Architecture], kernel.extimerdeletecallback, wdm/ExTimerDeleteCallback
 req.header: wdm.h
@@ -40,44 +39,37 @@ api_name:
  - EXT_DELETE_CALLBACK
 ---
 
-# EXT_DELETE_CALLBACK callback function
-
-
 ## -description
 
-An <i>ExTimerDeleteCallback</i> callback routine runs when the operating system deletes an <a href="/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> timer object.
+An *ExTimerDeleteCallback* callback routine runs when the operating system deletes an [EX_TIMER](/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects) timer object.
 
 ## -parameters
 
 ### -param Context [in, optional]
 
-
-The context value from the <i>DeleteContext</i> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters">EXT_DELETE_PARAMETERS</a> structure that your driver previously passed as an input parameter to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer">ExDeleteTimer</a> routine.
+The context value from the *DeleteContext* member of the [**EXT_DELETE_PARAMETERS**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters) structure that your driver previously passed as an input parameter to the [ExDeleteTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer) routine.
 
 ## -remarks
 
-As an option, your driver can supply a pointer to an <i>ExTimerDeleteCallback</i> routine in the <i>DeleteCallback</i> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters">EXT_DELETE_PARAMETERS</a> structure that your driver passes as an input parameter to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer">ExDeleteTimer</a> routine. The <i>ExTimerDeleteCallback</i> routine can free any storage or other system resources that the driver might have previously allocated to use with the timer object that is being deleted.
+As an option, your driver can supply a pointer to an *ExTimerDeleteCallback* routine in the *DeleteCallback* member of the [EXT_DELETE_PARAMETERS](/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters) structure that your driver passes as an input parameter to the [ExDeleteTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer) routine. The *ExTimerDeleteCallback* routine can free any storage or other system resources that the driver might have previously allocated to use with the timer object that is being deleted.
 
-If the driver supplies an <i>ExTimerDeleteCallback</i> routine, and the <i>Wait</i> parameter in the <b>ExDeleteRoutine</b> call is <b>TRUE</b>, the <i>ExTimerDeleteCallback</i> routine runs before <b>ExDeleteTimer</b> returns. Otherwise, the  <i>ExTimerDeleteCallback</i> routine might run before or after the <b>ExDeleteTimer</b> call returns. The  <i>ExTimerDeleteCallback</i> routine is called only after the timer object has been disabled to prevent further timer operations and any pending timer operation on the timer object is canceled or completed. The timer object (an <a href="/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure) that the driver passes as an input parameter to the <b>ExDeleteTimer</b> routine might no longer be valid by the time the <i>ExTimerDeleteCallback</i> routine runs.
+If the driver supplies an *ExTimerDeleteCallback* routine, and the *Wait* parameter in the **ExDeleteRoutine** call is **TRUE**, the *ExTimerDeleteCallback* routine runs before **ExDeleteTimer** returns. Otherwise, the  *ExTimerDeleteCallback* routine might run before or after the **ExDeleteTimer** call returns. The  *ExTimerDeleteCallback* routine is called only after the timer object has been disabled to prevent further timer operations and any pending timer operation on the timer object is canceled or completed. The timer object (an [EX_TIMER](/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects) structure) that the driver passes as an input parameter to the **ExDeleteTimer** routine might no longer be valid by the time the *ExTimerDeleteCallback* routine runs.
 
-For more information, see <a href="/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">ExXxxTimer Routines and EX_TIMER Objects</a>.
+For more information, see [ExXxxTimer Routines and EX_TIMER Objects](/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects).
 
+### Examples
 
-#### Examples
+To define an *ExTimerDeleteCallback* callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function type helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
-To define an <i>ExTimerDeleteCallback</i> callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function type helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+For example, to define an *ExTimerDeleteCallback* callback routine that is named `MyExTimerDeleteCallback`, use the EXT_DELETE_CALLBACK function type, as shown in this code example:
 
-For example, to define an <i>ExTimerDeleteCallback</i> callback routine that is named <code>MyExTimerDeleteCallback</code>, use the EXT_DELETE_CALLBACK function type, as shown in this code example:
-
-
-```
+```cpp
 EXT_DELETE_CALLBACK  MyExTimerDeleteCallback;
 ```
 
 Then, implement your callback routine as follows:
 
-
-```
+```cpp
 _Use_decl_annotations_
 VOID
   MyExTimerDeleteCallback(
@@ -86,19 +78,12 @@ VOID
   {...}
 ```
 
-The EXT_DELETE_CALLBACK function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the <b>_Use_decl_annotations_</b> annotation to your function definition. The <b>_Use_decl_annotations_</b> annotation ensures that the annotations that are applied to the EXT_DELETE_CALLBACK function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions Using Function Role Types for WDM Drivers</a>. For more information about <b>_Use_decl_annotations_</b>, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
-
-<div class="code"></div>
+The EXT_DELETE_CALLBACK function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the `_Use_decl_annotations_` annotation to your function definition. The `_Use_decl_annotations_` annotation ensures that the annotations that are applied to the EXT_DELETE_CALLBACK function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions Using Function Role Types for WDM Drivers](/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers). For more information about `_Use_decl_annotations_`, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters">EXT_DELETE_PARAMETERS</a>
+[**EXT_DELETE_PARAMETERS**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters)
 
+[EX_TIMER](/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects)
 
-
-<a href="/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer">ExDeleteTimer</a>
-
+[ExDeleteTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer)

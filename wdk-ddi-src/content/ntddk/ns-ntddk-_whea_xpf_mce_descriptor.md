@@ -1,16 +1,15 @@
 ---
 UID: NS:ntddk._WHEA_XPF_MCE_DESCRIPTOR
-title: _WHEA_XPF_MCE_DESCRIPTOR (ntddk.h)
+title: WHEA_XPF_MCE_DESCRIPTOR (ntddk.h)
 description: The WHEA_XPF_MCE_DESCRIPTOR structure describes a machine check exception (MCE) error source for an x86 or x64 processor.
-old-location: whea\whea_xpf_mce_descriptor.htm
 tech.root: whea
-ms.date: 02/20/2018
+ms.date: 01/11/2023
 keywords: ["WHEA_XPF_MCE_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_XPF_MCE_DESCRIPTOR, WHEA_XPF_MCE_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_XPF_MCE_DESCRIPTOR, ntddk/PWHEA_XPF_MCE_DESCRIPTOR, ntddk/WHEA_XPF_MCE_DESCRIPTOR, whea.whea_xpf_mce_descriptor, whearef_77725c63-dffe-45f9-9a52-cef3fb8d124e.xml"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
-req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,12 +45,9 @@ api_name:
  - WHEA_XPF_MCE_DESCRIPTOR
 ---
 
-# _WHEA_XPF_MCE_DESCRIPTOR structure
-
-
 ## -description
 
-The WHEA_XPF_MCE_DESCRIPTOR structure describes a machine check exception (MCE) error source for an x86 or x64 processor.
+The **WHEA_XPF_MCE_DESCRIPTOR** structure describes a machine check exception (MCE) error source for an x86 or x64 processor.
 
 ## -struct-fields
 
@@ -65,14 +61,13 @@ A Boolean value that indicates if the error source is enabled.
 
 ### -field NumberOfBanks
 
-The number of <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures contained in the <b>Banks</b> member.
+The number of [**WHEA_XPF_MC_BANK_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor) structures contained in the **Banks** member.
 
 ### -field Flags
 
-An XPF_MCE_FLAGS union that indicates which of the members of the WHEA_XPF_MCE_DESCRIPTOR structure can be written to by the operating system. The XPF_MCE_FLAGS union is defined as follows:
+An **XPF_MCE_FLAGS** union that indicates which of the members of the WHEA_XPF_MCE_DESCRIPTOR structure can be written to by the operating system. The **XPF_MCE_FLAGS** union is defined as follows:
 
-
-```
+```cpp
 typedef union _XPF_MCE_FLAGS {
   struct {
     UCHAR  MCG_CapabilityRW:1;
@@ -83,53 +78,40 @@ typedef union _XPF_MCE_FLAGS {
 } XPF_MCE_FLAGS, *PXPF_MCE_FLAGS;
 ```
 
-
-
-
-
 #### MCG_CapabilityRW
 
-A single bit that indicates that the operating system can write to the <b>MCG_Capability</b> member of the WHEA_XPF_MCE_DESCRIPTOR structure.
-
-
+A single bit that indicates that the operating system can write to the **MCG_Capability** member of the **WHEA_XPF_MCE_DESCRIPTOR** structure.
 
 #### MCG_GlobalControlRW
 
-A single bit that indicates that the operating system can write to the <b>MCG_GlobalControl</b> member of the WHEA_XPF_MCE_DESCRIPTOR structure.
-
-
+A single bit that indicates that the operating system can write to the **MCG_GlobalControl** member of the **WHEA_XPF_MCE_DESCRIPTOR** structure.
 
 #### Reserved
 
 Reserved for system use.
 
-
-
 #### AsULONG
 
-A ULONG representation of the contents of the XPF_MCE_FLAGS union.
+A **ULONG** representation of the contents of the **XPF_MCE_FLAGS** union.
 
 ### -field MCG_Capability
 
-The contents of the processor's IA32_MCG_CAP model-specific register. This register contains capability information about the machine check architecture of the processor. For more information about the IA32_MCG_CAP register, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
+The contents of the processor's IA32_MCG_CAP model-specific register. This register contains capability information about the machine check architecture of the processor. For more information about the IA32_MCG_CAP register, see the [Intel 64 and IA-32 Architectures Software Developer's Manual](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html).
 
 ### -field MCG_GlobalControl
 
-The contents of the processor's IA32_MCG_CTL model-specific register. This register controls the reporting of machine check exceptions. For more information about the IA32_MCG_CTL register, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
+The contents of the processor's IA32_MCG_CTL model-specific register. This register controls the reporting of machine check exceptions. For more information about the IA32_MCG_CTL register, see the [Intel 64 and IA-32 Architectures Software Developer's Manual](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html).
 
 ### -field Banks
 
-An array of <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures that describe the banks of machine check registers.
+An array of [**WHEA_XPF_MC_BANK_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor) structures that describe the banks of machine check registers.
 
 ## -remarks
 
-A WHEA_XPF_MCE_DESCRIPTOR structure is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
+A WHEA_XPF_MCE_DESCRIPTOR structure is contained within the [**WHEA_ERROR_SOURCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+[**WHEA_ERROR_SOURCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor">WHEA_XPF_MC_BANK_DESCRIPTOR</a>
-
+[**WHEA_XPF_MC_BANK_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor)

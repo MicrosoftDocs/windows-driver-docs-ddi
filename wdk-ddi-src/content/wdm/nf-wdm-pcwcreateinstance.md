@@ -2,9 +2,8 @@
 UID: NF:wdm.PcwCreateInstance
 title: PcwCreateInstance function (wdm.h)
 description: The PcwCreateInstance function creates a new instance for the specified registered counterset.
-old-location: devtest\pcwcreateinstance.htm
 tech.root: devtest
-ms.date: 07/28/2020
+ms.date: 01/12/2023
 keywords: ["PcwCreateInstance function"]
 ms.keywords: PcwCreateInstance, PcwCreateInstance function [Driver Development Tools], devtest.pcwcreateinstance, km_pcw_32dba149-fed7-4e86-b68c-1f3a6348cb7a.xml, wdm/PcwCreateInstance
 req.header: wdm.h
@@ -23,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
+req.irql: IRQL <= APC_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -39,9 +38,6 @@ api_location:
 api_name:
  - PcwCreateInstance
 ---
-
-# PcwCreateInstance function
-
 
 ## -description
 
@@ -75,12 +71,12 @@ An array of descriptors for the provider data blocks that contain the counter va
 
 `PcwCreateInstance` returns one of the following values:
 
-|Return code|Description
-|---|---
-|`STATUS_SUCCESS`|The instance was successfully created.
-|`STATUS_INVALID_PARAMETER_4`|The number of structures, specified by `Count`, is not valid for the registered provider.
-|`STATUS_INVALID_BUFFER_SIZE`|One of the provider data blocks is too small. For example, suppose that during the call to [PcwRegister](nf-wdm-pcwregister.md), the provider specifies that counter `X` is at offset 100 of the first data block of size 4 bytes. If the call to `PcwCreateInstance` specifies that the first data block is 50 bytes, this error status is returned.
-|`STATUS_INTEGER_OVERFLOW`|The size of the structure, specified by `Count`, overflows the data buffer,
+| Return code | Description |
+|---|---|
+| `STATUS_SUCCESS` | The instance was successfully created. |
+| `STATUS_INVALID_PARAMETER_4` | The number of structures, specified by `Count`, is not valid for the registered provider. |
+| `STATUS_INVALID_BUFFER_SIZE` | One of the provider data blocks is too small. For example, suppose that during the call to [PcwRegister](nf-wdm-pcwregister.md), the provider specifies that counter `X` is at offset 100 of the first data block of size 4 bytes. If the call to `PcwCreateInstance` specifies that the first data block is 50 bytes, this error status is returned. |
+| `STATUS_INTEGER_OVERFLOW` | The size of the structure, specified by `Count`, overflows the data buffer. |
 
 ## -remarks
 
@@ -103,7 +99,7 @@ Use the PcwCloseInstance function to close the instance.
 
 Most developers do not need to call `PcwCreateInstance` directly. Instead, they will compile a manifest with the CTRPP tool and use the CreateXxx function from the CTRPP-generated header. The generated function will look like this:
 
-```C
+```c
 EXTERN_C __inline NTSTATUS
 CreateMyCounterset(
     __deref_out PPCW_INSTANCE *Instance,

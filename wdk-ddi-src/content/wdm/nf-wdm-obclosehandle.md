@@ -2,15 +2,14 @@
 UID: NF:wdm.ObCloseHandle
 title: ObCloseHandle function (wdm.h)
 description: The ObCloseHandle routine closes an object handle.
-old-location: kernel\obclosehandle.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/12/2023
 keywords: ["ObCloseHandle function"]
 ms.keywords: ObCloseHandle, ObCloseHandle routine [Kernel-Mode Driver Architecture], kernel.obclosehandle, wdm/ObCloseHandle
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,82 +39,52 @@ api_name:
  - ObCloseHandle
 ---
 
-# ObCloseHandle function
-
-
 ## -description
 
-The <b>ObCloseHandle</b> routine closes an object handle.
+The **ObCloseHandle** routine closes an object handle.
 
 ## -parameters
 
 ### -param Handle [in]
 
-
 A handle to a system-supplied object of any type.
 
 ### -param PreviousMode [in]
 
-
-Specifies the previous processor mode of the thread that opened the handle. To close a kernel handle set this parameter to <b>KernelMode</b>. To close a <i>user handle</i>, set this parameter to <b>UserMode</b>. For more information about these two handle types, see Remarks.
+Specifies the previous processor mode of the thread that opened the handle. To close a kernel handle set this parameter to **KernelMode**. To close a *user handle*, set this parameter to **UserMode**. For more information about these two handle types, see Remarks.
 
 ## -returns
 
-<b>ObCloseHandle</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following NTSTATUS codes.
+**ObCloseHandle** returns STATUS_SUCCESS if the call is successful. Possible error return values include the following NTSTATUS codes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>Handle</i> is not a valid handle.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_HANDLE_NOT_CLOSABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The calling thread does not have permission to close the handle.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|---|---|
+| **STATUS_INVALID_HANDLE** | *Handle* is not a valid handle. |
+| **STATUS_HANDLE_NOT_CLOSABLE** | The calling thread does not have permission to close the handle. |
 
 ## -remarks
 
-A kernel-mode driver calls <b>ObCloseHandle</b> to close a handle to any type of object that is created by the Windows kernel. A driver must close every handle that it opens as soon as the handle is no longer required.
+A kernel-mode driver calls **ObCloseHandle** to close a handle to any type of object that is created by the Windows kernel. A driver must close every handle that it opens as soon as the handle is no longer required.
 
-After <b>ObCloseHandle</b> closes an object's handle, the caller must treat the handle as invalid and avoid using the handle to access the object. However, other handles might remain open on the same object. During an <b>ObCloseHandle</b> call, the system decrements the handle count for the object and checks whether the object can be deleted. The system does not delete the object until all of the object's handles are closed and all reference-counted pointers to the object are released.
+After **ObCloseHandle** closes an object's handle, the caller must treat the handle as invalid and avoid using the handle to access the object. However, other handles might remain open on the same object. During an **ObCloseHandle** call, the system decrements the handle count for the object and checks whether the object can be deleted. The system does not delete the object until all of the object's handles are closed and all reference-counted pointers to the object are released.
 
-The <i>PreviousMode</i> parameter specifies whether the handle to be closed is a kernel handle or a user handle. To close a kernel handle, set <i>PreviousMode</i> to <b>KernelMode</b>. To close a user handle, set <i>PreviousMode</i> to <b>UserMode</b>.
+The *PreviousMode* parameter specifies whether the handle to be closed is a kernel handle or a user handle. To close a kernel handle, set *PreviousMode* to **KernelMode**. To close a user handle, set *PreviousMode* to **UserMode**.
 
-A kernel handle is a handle that is opened by a system thread, or by a kernel-mode driver that assigns the OBJ_KERNEL_HANDLE attribute to the handle. (For example, see the description of OBJ_KERNEL_HANDLE in <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>.) If a kernel-mode driver opens a handle for its private use, and this driver runs in the context of a user-mode thread, the driver must open the handle with the OBJ_KERNEL_HANDLE attribute. This attribute ensures that the handle is inaccessible to user-mode applications.
+A kernel handle is a handle that is opened by a system thread, or by a kernel-mode driver that assigns the OBJ_KERNEL_HANDLE attribute to the handle. (For example, see the description of OBJ_KERNEL_HANDLE in [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile).) If a kernel-mode driver opens a handle for its private use, and this driver runs in the context of a user-mode thread, the driver must open the handle with the OBJ_KERNEL_HANDLE attribute. This attribute ensures that the handle is inaccessible to user-mode applications.
 
-A user handle is a handle that is opened by a user-mode application, or by a kernel-mode driver that runs in the context of a user-mode thread but that does not open the handle with the OBJ_KERNEL_HANDLE attribute. If a driver creates a user handle to be used by a user-mode application, but an error occurs that requires the driver to close the handle on behalf of the application, the driver can call <b>ObCloseHandle</b> to close the handle.
+A user handle is a handle that is opened by a user-mode application, or by a kernel-mode driver that runs in the context of a user-mode thread but that does not open the handle with the OBJ_KERNEL_HANDLE attribute. If a driver creates a user handle to be used by a user-mode application, but an error occurs that requires the driver to close the handle on behalf of the application, the driver can call **ObCloseHandle** to close the handle.
 
-The <b>ZwClose</b> routine is similar to <b>ObCloseHandle</b> but can close only kernel handles. The call <b>ZwClose</b>(<i>hObject</i>), which closes kernel handle <i>hObject</i>, has the same effect as the call <b>ObCloseHandle</b>(<i>hObject</i>, <b>KernelMode</b>). For more information about closing a kernel handle, see <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>.
+The **ZwClose** routine is similar to **ObCloseHandle** but can close only kernel handles. The call **ZwClose**(*hObject*), which closes kernel handle *hObject*, has the same effect as the call **ObCloseHandle**(*hObject*, **KernelMode**). For more information about closing a kernel handle, see [ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose).
 
-To determine whether a handle is a kernel handle or a user handle,  a driver that receives a handle  can call the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exgetpreviousmode">ExGetPreviousMode</a> routine. Or, the driver can read the <b>RequestorMode</b> field from the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure that describes the I/O request. The I/O manager sets the <b>RequestorMode</b> field to the previous processor mode of the thread that requested the I/O operation.
+To determine whether a handle is a kernel handle or a user handle,  a driver that receives a handle  can call the [ExGetPreviousMode](/windows-hardware/drivers/ddi/wdm/nf-wdm-exgetpreviousmode) routine. Or, the driver can read the **RequestorMode** field from the [**IRP**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp) structure that describes the I/O request. The I/O manager sets the **RequestorMode** field to the previous processor mode of the thread that requested the I/O operation.
 
-Callers of <b>ObCloseHandle</b> should not assume that this routine automatically waits for all pending I/O operations to complete before it returns.
+Callers of **ObCloseHandle** should not assume that this routine automatically waits for all pending I/O operations to complete before it returns.
 
-For more information, see <a href="/windows-hardware/drivers/kernel/object-handles">Object Handles</a>.
+For more information, see [Object Handles](/windows-hardware/drivers/kernel/object-handles).
 
-<b>ObCloseHandle</b> is not declared in a header file prior to Windows 7. To use this routine in your driver, include the following function declaration in your driver code:
+**ObCloseHandle** is not declared in a header file prior to Windows 7. To use this routine in your driver, include the following function declaration in your driver code:
 
-
-```
+```cpp
 #if (NTDDI_VERSION < NTDDI_WIN7)
 NTKERNELAPI
 NTSTATUS
@@ -126,19 +95,12 @@ NTSTATUS
 #endif
 ```
 
-
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exgetpreviousmode">ExGetPreviousMode</a>
+[ExGetPreviousMode](/windows-hardware/drivers/ddi/wdm/nf-wdm-exgetpreviousmode)
 
+[**IRP**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp)
 
+[ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
+[ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)

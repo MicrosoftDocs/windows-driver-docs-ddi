@@ -2,15 +2,14 @@
 UID: NF:ntddk.RtlLookupElementGenericTableAvl
 title: RtlLookupElementGenericTableAvl function (ntddk.h)
 description: The RtlLookupElementGenericTableAvl routine searches a generic table for an element that matches the specified data.
-old-location: ifsk\rtllookupelementgenerictableavl.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/10/2023
 keywords: ["RtlLookupElementGenericTableAvl function"]
 ms.keywords: RtlLookupElementGenericTableAvl, RtlLookupElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtllookupelementgenerictableavl, ntddk/RtlLookupElementGenericTableAvl
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows XP.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -23,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL (see Remarks section)
+req.irql: IRQL < DISPATCH_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -40,60 +39,44 @@ api_name:
  - RtlLookupElementGenericTableAvl
 ---
 
-# RtlLookupElementGenericTableAvl function
-
-
 ## -description
 
-The <b>RtlLookupElementGenericTableAvl</b> routine searches a generic table for an element that matches the specified data.
+The **RtlLookupElementGenericTableAvl** routine searches a generic table for an element that matches the specified data.
 
 ## -parameters
 
 ### -param Table [in]
 
-
-Pointer to the generic Adelson-Velsky/Landis (AVL) table (<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>). The table must have been initialized by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a>.
+Pointer to the generic Adelson-Velsky/Landis (AVL) table ([**RTL_AVL_TABLE**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table)). The table must have been initialized by calling [RtlInitializeGenericTableAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl).
 
 ### -param Buffer [in]
 
-
-A buffer of search data to pass to the <i>CompareRoutine</i> that was registered when <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a> initialized the generic table. For more information, see the description of <b>RtlInitializeGenericTableAvl</b>.
+A buffer of search data to pass to the *CompareRoutine* that was registered when [RtlInitializeGenericTableAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl) initialized the generic table. For more information, see the description of **RtlInitializeGenericTableAvl**.
 
 ## -returns
 
-<b>RtlLookupElementGenericTableAvl</b> returns a pointer to the user data that is associated with the matching element in the generic table, or <b>NULL</b> if the generic table currently has no elements or if no matching element is found.
+**RtlLookupElementGenericTableAvl** returns a pointer to the user data that is associated with the matching element in the generic table, or **NULL** if the generic table currently has no elements or if no matching element is found.
 
 ## -remarks
 
-By default, the operating system uses splay trees to implement generic tables, but the <b>RtlLookupElementGenericTableAvl</b> routine only works with Adelson-Velsky/Landis (AVL) trees. To configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including <i>Ntddk.h</i>:
+By default, the operating system uses splay trees to implement generic tables, but the **RtlLookupElementGenericTableAvl** routine only works with Adelson-Velsky/Landis (AVL) trees. To configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including *Ntddk.h*:
 
 `#define RTL_USE_AVL_TABLES 0`
 
-If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the <b>RtlLookupElementGenericTableAvl</b> routine instead of <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtllookupelementgenerictable">RtlLookupElementGenericTable</a>. In the call to <b>RtlLookupElementGenericTableAvl</b>, the caller must pass a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a> table structure rather than <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table">RTL_GENERIC_TABLE</a>.
+If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the **RtlLookupElementGenericTableAvl** routine instead of [RtlLookupElementGenericTable](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtllookupelementgenerictable). In the call to **RtlLookupElementGenericTableAvl**, the caller must pass a [**RTL_AVL_TABLE**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table) table structure rather than [**RTL_GENERIC_TABLE**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table).
 
-Callers of the <i>Rtl..GenericTableAvl</i> routines are responsible for exclusively synchronizing access to the generic table. An exclusive fast mutex is the most efficient synchronization mechanism to use for this purpose. 
+Callers of the *Rtl..GenericTableAvl* routines are responsible for exclusively synchronizing access to the generic table. An exclusive fast mutex is the most efficient synchronization mechanism to use for this purpose.
 
-Callers of <b>RtlLookupElementGenericTableAvl</b> must be running at IRQL < DISPATCH_LEVEL if either of the following conditions holds:
+Callers of **RtlLookupElementGenericTableAvl** must be running at IRQL < DISPATCH_LEVEL if either of the following conditions holds:
 
-<ul>
-<li>
-The caller-allocated memory at <i>Table</i> or at <i>Buffer</i> is pageable.
+- The caller-allocated memory at *Table* or at *Buffer* is pageable.
 
-</li>
-<li>
-The caller-supplied <i>CompareRoutine</i> contains pageable code. 
-
-</li>
-</ul>
+- The caller-supplied *CompareRoutine* contains pageable code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a>
+[RtlInitializeGenericTableAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl)
 
+[RtlIsGenericTableEmptyAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlisgenerictableemptyavl)
 
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlisgenerictableemptyavl">RtlIsGenericTableEmptyAvl</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlnumbergenerictableelementsavl">RtlNumberGenericTableElementsAvl</a>
+[RtlNumberGenericTableElementsAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlnumbergenerictableelementsavl)

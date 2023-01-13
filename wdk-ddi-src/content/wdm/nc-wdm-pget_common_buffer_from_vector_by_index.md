@@ -1,9 +1,9 @@
 ---
 UID: NC:wdm.PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX
-title: PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX
-description: "Learn more about: PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX callback function"
+title: PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX (wdm.h)
+description: Describes the PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX callback function.
 tech.root: kernel
-ms.date: 08/19/2019
+ms.date: 01/12/2023
 keywords: ["PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX callback function"]
 req.header: wdm.h
 req.include-header: 
@@ -23,7 +23,6 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
-ms.custom: 19H1
 f1_keywords:
  - PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX
  - wdm/PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX
@@ -39,49 +38,32 @@ product:
  - Windows
 ---
 
-# PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX callback function
-
-
 ## -description
 
-Implemented by the client driver to ...
+Describes the PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX callback function.
 
 ## -parameters
 
-### -param DmaAdapter: 
+### -param DmaAdapter
 
-### -param Vector: 
+Defines the **PDMA_ADAPTER** parameter DmaAdapter.
 
-### -param Index: 
+### -param Vector
 
-### -param VirtualAddressOut: 
+Defines the **PDMA_COMMON_BUFFER_VECTOR** parameter Vector.
 
-### -param LogicalAddressOut: 
+### -param Index
 
-## -prototype
+Defines the **ULONG** parameter Index.
 
-```
-//Declaration
+### -param VirtualAddressOut
 
-PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX PgetCommonBufferFromVectorByIndex; 
+Defines the **PVOID** parameter VirtualAddressOut.
 
-// Definition
+### -param LogicalAddressOut
 
-VOID PgetCommonBufferFromVectorByIndex 
-(
-	PDMA_ADAPTER DmaAdapter
-	PDMA_COMMON_BUFFER_VECTOR Vector
-	ULONG Index
-	PVOID *VirtualAddressOut
-	PPHYSICAL_ADDRESS LogicalAddressOut
-)
-{...}
-
-```
+Defines the **PPHYSICAL_ADDRESS** parameter LogicalAddressOut.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
 ## -see-also
-

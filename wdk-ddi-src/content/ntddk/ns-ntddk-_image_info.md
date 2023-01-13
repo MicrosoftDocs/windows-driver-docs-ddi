@@ -2,11 +2,10 @@
 UID: NS:ntddk._IMAGE_INFO
 title: _IMAGE_INFO (ntddk.h)
 description: Used by driver's load-image routine (PLOAD_IMAGE_NOTIFY_ROUTINE) to specify image information.
-old-location: kernel\image_info.htm
 tech.root: kernel
-ms.date: 07/08/2019
+ms.date: 01/10/2023
 keywords: ["IMAGE_INFO structure"]
-ms.keywords: "*PIMAGE_INFO, IMAGE_INFO, IMAGE_INFO structure [Kernel-Mode Driver Architecture], PIMAGE_INFO, PIMAGE_INFO structure pointer [Kernel-Mode Driver Architecture], _IMAGE_INFO, kernel.image_info, ntddk/IMAGE_INFO, ntddk/PIMAGE_INFO"
+ms.keywords: "*PIPAGE_INFO, IMAGE_INFO, IMAGE_INFO structure [Kernel-Mode Driver Architecture], PIMAGE_INFO, PIMAGE_INFO structure pointer [Kernel-Mode Driver Architecture], _IMAGE_INFO, kernel.image_info, ntddk/IMAGE_INFO, ntddk/PIMAGE_INFO"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -46,9 +45,6 @@ api_name:
  - IMAGE_INFO
 ---
 
-# _IMAGE_INFO structure
-
-
 ## -description
 
 The IMAGE_INFO structure is used by driver's load-image routine ([PLOAD_IMAGE_NOTIFY_ROUTINE](./nc-ntddk-pload_image_notify_routine.md)) to specify load image information.
@@ -57,7 +53,7 @@ The IMAGE_INFO structure is used by driver's load-image routine ([PLOAD_IMAGE_NO
 
 ### -field Properties
 
-Represents all the bit values within the ```struct``` that **Properties** is unioned with.
+Represents all the bit values within the structure that **Properties** is unioned with.
 
 ### -field ImageAddressingMode
 
@@ -81,7 +77,7 @@ Always set to zero. Added in Windows 8/Windows Server 2012.
 
 ### -field ImageSignatureLevel
 
-The level of signature with which code integrity has labeled the image. This value is one of the ```#define SE_SIGNING_LEVEL_*``` constants in *ntddk.h*. Added in Windows 8.1/Windows Server 2012 R2.
+The level of signature with which code integrity has labeled the image. This value is one of the `#define SE_SIGNING_LEVEL_*` constants in *ntddk.h*. Added in Windows 8.1/Windows Server 2012 R2.
 
 ### -field ImageSignatureType
 
@@ -122,4 +118,3 @@ If the **ExtendedInfoPresent** flag is set, the IMAGE_INFO structure is part of 
 [PLOAD_IMAGE_NOTIFY_ROUTINE](./nc-ntddk-pload_image_notify_routine.md)
 
 [PsSetLoadImageNotifyRoutine](./nf-ntddk-pssetloadimagenotifyroutine.md)
-
