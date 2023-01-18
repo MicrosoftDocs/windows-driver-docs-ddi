@@ -2,7 +2,7 @@
 UID: NS:d3d10umddi.D3DWDDM2_4DDI_VIDEO_OUTPUT_RS4_0
 title: D3DWDDM2_4DDI_VIDEO_OUTPUT_RS4_0 (d3d10umddi.h)
 description: "The D3DWDDM2_4DDI_VIDEO_OUTPUT_RS4_0 structure is not implemented. Don't use this structure in your code."
-ms.date: 10/19/2018
+ms.date: 01/17/2023
 keywords: ["D3DWDDM2_4DDI_VIDEO_OUTPUT_RS4_0 structure"]
 ms.keywords: D3DWDDM2_4DDI_VIDEO_OUTPUT_RS4_0, D3DWDDM2_4DDI_VIDEO_OUTPUT_RS4_0,
 req.header: d3d10umddi.h
@@ -37,7 +37,6 @@ product:
 
 # D3DWDDM2_4DDI_VIDEO_OUTPUT_RS4_0 structure
 
-
 ## -description
 
 This structure is not implemented.
@@ -47,8 +46,3 @@ This structure is not implemented.
 ### -field Reserved
 
 Reserved.
-
-## -remarks
-
-## -see-also
-
