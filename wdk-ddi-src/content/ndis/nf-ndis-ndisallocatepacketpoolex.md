@@ -121,5 +121,5 @@ When a driver no longer needs packet descriptors, it calls [(nf-ndis-ndisfreepac
 - [NDIS\_PACKET\_OOB\_DATA](/previous-versions/windows/hardware/network/ff557105(v=vs.85))
 - [NdisReinitializePacket](/previous-versions/windows/hardware/network/ff554658(v=vs.85))
 - [NdisSendPackets](/previous-versions/windows/hardware/network/ff554715(v=vs.85))
-- [NdisUnchainBufferAtBack](/previous-versions/windows/hardware/network/ff554822(v=vs.85))
+- [NdisUnchainBufferAtBack](nf-ndis-ndisunchainbufferatback.md)
 - [NdisUnchainBufferAtFront](/previous-versions/windows/hardware/network/ff554826(v=vs.85))
