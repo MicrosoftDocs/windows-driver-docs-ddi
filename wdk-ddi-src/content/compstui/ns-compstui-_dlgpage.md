@@ -3,7 +3,7 @@ UID: NS:compstui._DLGPAGE
 title: DLGPAGE (compstui.h)
 description: The DLGPAGE structure is used for specifying a property sheet page to CPSUI's ComPropSheet function. The structure's address is included in a COMPROPSHEETUI structure, and all member values are supplied by the ComPropSheet caller.
 tech.root: print
-ms.date: 11/15/2022
+ms.date: 01/19/2023
 keywords: ["DLGPAGE structure"]
 ms.keywords: "*PDLGPAGE, DLGPAGE, DLGPAGE structure [Print Devices], PDLGPAGE, PDLGPAGE structure pointer [Print Devices], _DLGPAGE, compstui/DLGPAGE, compstui/PDLGPAGE, cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, print.dlgpage"
 req.header: compstui.h
@@ -65,6 +65,10 @@ Caller-supplied bit flags, as described in the following table.
 | DPF_USE_HDLGTEMPLATE | If set, **hDlgTemplate** contains a template handle. If not set, **DlgTemplateID** contains a template resource identifier. |
 
 Optional, caller-supplied [DLGPROC](/windows/win32/api/winuser/nc-winuser-dlgproc)-typed pointer to a dialog box procedure, used to process messages sent by the system when user events occur. If **NULL**, CPSUI supplies a dialog box procedure. For more information, see the Remarks section below.
+
+### -field DlgProc
+
+Defines the **DLGPROC** member **DlgProc**.
 
 ### -field pTabName
 

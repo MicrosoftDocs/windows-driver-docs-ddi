@@ -3,7 +3,7 @@ UID: NC:wdm.SET_VIRTUAL_DEVICE_DATA
 title: SET_VIRTUAL_DEVICE_DATA (wdm.h)
 description: The SetVirtualFunctionData routine writes data to the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
 tech.root: PCI
-ms.date: 01/05/2023
+ms.date: 01/19/2023
 keywords: ["SET_VIRTUAL_DEVICE_DATA callback"]
 ms.keywords: PCI.setvirtualfunctiondata, SET_VIRTUAL_DEVICE_DATA, SetVirtualFunctionData, SetVirtualFunctionData routine, wdm/SetVirtualFunctionData
 req.header: wdm.h
@@ -69,21 +69,6 @@ The length, in bytes, of the data to be written.
 ## -returns
 
 The ***SetVirtualFunctionData** routine returns the length, in bytes, of the PCIe configuration data that was written after a successful write operation. If the write operation is unsuccessful, the routine returns zero.
-
-## -prototype
-
-```cpp
-SET_VIRTUAL_DEVICE_DATA SetVirtualFunctionData;
-
-ULONG SetVirtualFunctionData(
-  _Inout_ PVOID  Context,
-  _In_    USHORT VirtualFunction,
-  _In_    PVOID  Buffer,
-  _In_    ULONG  Offset,
-  _In_    ULONG  Length
-)
-{ ... }
-```
 
 ## -remarks
 

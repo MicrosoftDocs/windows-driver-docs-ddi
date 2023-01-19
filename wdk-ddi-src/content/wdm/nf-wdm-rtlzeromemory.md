@@ -2,15 +2,14 @@
 UID: NF:wdm.RtlZeroMemory
 title: RtlZeroMemory macro (wdm.h)
 description: The RtlZeroMemory macro (wdm.h) fills a block of memory with zeros, given a pointer to the block and the length, in bytes, to be filled.
-old-location: kernel\rtlzeromemory.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/18/2023
 keywords: ["RtlZeroMemory macro"]
 ms.keywords: RtlZeroMemory, RtlZeroMemory routine [Kernel-Mode Driver Architecture], k109_63d9f0fb-d698-4707-9018-de2fa851a94b.xml, kernel.rtlzeromemory, wdm/RtlZeroMemory
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Smclib.h, Minitape.h, Scsi.h, Storport.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,28 +39,23 @@ api_name:
  - RtlZeroMemory
 ---
 
-# RtlZeroMemory macro (wdm.h)
-
-
 ## -description
 
-The <b>RtlZeroMemory</b> routine fills a block of memory with zeros, given a pointer to the block and the length, in bytes, to be filled.
+The **RtlZeroMemory** routine fills a block of memory with zeros, given a pointer to the block and the length, in bytes, to be filled.
 
 ## -parameters
 
 ### -param Destination [out]
 
-
 A pointer to the memory block to be filled with zeros.
 
 ### -param Length [in]
-
 
 The number of bytes to fill with zeros.
 
 ## -syntax
 
-```
+```cpp
 void RtlZeroMemory(
    void*  Destination,
    size_t Length
@@ -70,14 +64,12 @@ void RtlZeroMemory(
 
 ## -remarks
 
-To zero out a memory buffer to erase security-sensitive data, use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlsecurezeromemory">RtlSecureZeroMemory</a> instead.
+To zero out a memory buffer to erase security-sensitive data, use [RtlSecureZeroMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlsecurezeromemory) instead.
 
-Callers of <b>RtlZeroMemory</b> can be running at any IRQL if the destination memory block is in nonpaged system memory. Otherwise, the caller must be running at IRQL <= APC_LEVEL.
+Callers of **RtlZeroMemory** can be running at any IRQL if the destination memory block is in nonpaged system memory. Otherwise, the caller must be running at IRQL <= APC_LEVEL.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfillmemory">RtlFillMemory</a>
+[RtlFillMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfillmemory)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlsecurezeromemory">RtlSecureZeroMemory</a>
+[RtlSecureZeroMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlsecurezeromemory)

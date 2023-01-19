@@ -1,12 +1,12 @@
 ---
 UID: NC:wdm.IOMMU_QUERY_INPUT_MAPPINGS
 title: IOMMU_QUERY_INPUT_MAPPINGS (wdm.h)
-description: Attempts to find input mapping IDs which are valid for the given device and populate the provied buffer with those IDs.
+description: Attempts to find input mapping IDs which are valid for the given device and populate the provided buffer with those IDs.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 01/19/2023
 keywords: ["IOMMU_QUERY_INPUT_MAPPINGS callback function"]
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
@@ -36,12 +36,9 @@ api_name:
  - IOMMU_QUERY_INPUT_MAPPINGS
 ---
 
-# IOMMU_QUERY_INPUT_MAPPINGS callback function
-
-
 ## -description
 
-Attempts to find input mapping IDs which are valid for the given device and populate the provied buffer with those IDs.
+Attempts to find input mapping IDs which are valid for the given device and populate the provided buffer with those IDs.
 
 ## -parameters
 
@@ -63,36 +60,13 @@ Optional. A pointer to store the amount of data written (or data that would be w
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values). Possible values include:
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values). Possible values include:
 
-| Error code              | Description                                  |
-| ----------------------- | -------------------------------------------- |
+| Error code | Description |
+|---|---|
 | STATUS_BUFFER_TOO_SMALL | The provided buffer is of insufficient size. |
-| STATUS_UNSUCCESSFUL     | The request cannot be satisfied.             |
-| STATUS_SUCCESS          | The buffer has been populated correctly.     |
-
-## -prototype
-
-```cpp
-//Declaration
-
-IOMMU_QUERY_INPUT_MAPPINGS IommuQueryInputMappings; 
-
-// Definition
-
-NTSTATUS IommuQueryInputMappings 
-(
-	PDEVICE_OBJECT PhysicalDeviceObject
-	PINPUT_MAPPING_ELEMENT Buffer
-	ULONG BufferLength
-	PULONG ReturnLength
-)
-{...}
-
-IOMMU_QUERY_INPUT_MAPPINGS *PIOMMU_QUERY_INPUT_MAPPINGS
-
-
-```
+| STATUS_UNSUCCESSFUL | The request cannot be satisfied. |
+| STATUS_SUCCESS | The buffer has been populated correctly. |
 
 ## -remarks
 

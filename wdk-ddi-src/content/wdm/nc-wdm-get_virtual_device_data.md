@@ -70,21 +70,6 @@ The length, in bytes, of the data to be read.
 
 The **GetVirtualFunctionData** routine returns the length, in bytes, of the PCIe configuration data that was read after a successful read operation. If the read operation is unsuccessful, the routine returns zero.
 
-## -prototype
-
-```cpp
-GET_VIRTUAL_DEVICE_DATA GetVirtualFunctionData;
-
-ULONG GetVirtualFunctionData(
-  _Inout_ PVOID  Context,
-  _In_    USHORT VirtualFunction,
-  _Out_   PVOID  Buffer,
-  _In_    ULONG  Offset,
-  _In_    ULONG  Length
-)
-{ ... }
-```
-
 ## -remarks
 
 The **GetVirtualFunctionData** routine resembles the [GetBusData](nc-wdm-get_set_device_data.md) routine, except that it reads PCIe configuration data from a VF instead of from a device's physical function (PF).

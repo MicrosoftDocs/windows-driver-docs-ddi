@@ -1,12 +1,12 @@
 ---
 UID: NC:wdm.PLEAVE_DMA_DOMAIN
 title: PLEAVE_DMA_DOMAIN (wdm.h)
-description: "Learn more about: PLEAVE_DMA_DOMAIN callback function"
+description: The PLEAVE_DMA_DOMAIN callback function leaves the specified DMA domain.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 01/19/2023
 keywords: ["PLEAVE_DMA_DOMAIN callback function"]
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
@@ -36,12 +36,9 @@ api_name:
  - PLEAVE_DMA_DOMAIN
 ---
 
-# PLEAVE_DMA_DOMAIN callback function
-
-
 ## -description
 
-This callback function joins the specified DMA domain.
+This callback function leaves the specified DMA domain.
 
 ## -parameters
 
@@ -53,24 +50,6 @@ A pointer to a DMA_ADAPTER structure. This structure is the adapter object that 
 
 Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
-## -prototype
-
-```cpp
-//Declaration
-
-PLEAVE_DMA_DOMAIN PleaveDmaDomain; 
-
-// Definition
-
-NTSTATUS PleaveDmaDomain 
-(
-	PDMA_ADAPTER DmaAdapter
-)
-{...}
-
-```
-
 ## -remarks
 
 ## -see-also
-

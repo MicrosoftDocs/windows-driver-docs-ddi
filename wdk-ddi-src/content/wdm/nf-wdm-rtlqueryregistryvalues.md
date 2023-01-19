@@ -3,7 +3,7 @@ UID: NF:wdm.RtlQueryRegistryValues
 title: RtlQueryRegistryValues function (wdm.h)
 description: The RtlQueryRegistryValues routine allows the caller to query several values from the registry subtree with a single call.
 tech.root: kernel
-ms.date: 12/13/2022
+ms.date: 01/18/2023
 keywords: ["RtlQueryRegistryValues function"]
 ms.keywords: RtlQueryRegistryValues, RtlQueryRegistryValues routine [Kernel-Mode Driver Architecture], k109_5a8cb907-8c49-4a88-9494-ff137cf6507d.xml, kernel.rtlqueryregistryvalues, wdm/RtlQueryRegistryValues
 req.header: wdm.h
@@ -231,7 +231,7 @@ See [ZwSetValueKey](./nf-wdm-zwsetvaluekey.md) for a description of the possible
 
 [RtlZeroMemory](./nf-wdm-rtlzeromemory.md)
 
-[UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
+[**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
 [ZwEnumerateKey](./nf-wdm-zwenumeratekey.md)
 

@@ -1,12 +1,12 @@
 ---
 UID: NC:ntddk.PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER
 title: PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER
-description: "Learn more about: PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER callback function"
+description: PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER is reserved for system use.
 tech.root: whea
-ms.date: 08/19/2019
+ms.date: 01/19/2023
 keywords: ["PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER callback function"]
 req.header: ntddk.h
-req.include-header: 
+req.include-header: Ntddk.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -23,7 +23,6 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
-ms.custom: 19H1
 f1_keywords:
  - PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER
  - ntddk/PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER
@@ -39,24 +38,18 @@ product:
  - Windows
 ---
 
-# PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER callback function
-
-
 ## -description
 
 Reserved for system use.
 
 ## -parameters
 
-### -param Context: 
+### -param Context
 
-### -param OsSelRecord: 
+### -param OsSelRecord
 
 ## -returns
-
-## -prototype
 
 ## -remarks
 
 ## -see-also
-

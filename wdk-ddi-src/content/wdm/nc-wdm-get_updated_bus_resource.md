@@ -2,11 +2,11 @@
 UID: NC:wdm.GET_UPDATED_BUS_RESOURCE
 title: GET_UPDATED_BUS_RESOURCE (wdm.h)
 description: Reports the latest resource lists.
-ms.date: 10/19/2018
+ms.date: 01/19/2023
 tech.root: kernel
 keywords: ["GET_UPDATED_BUS_RESOURCE callback function"]
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr: 
@@ -23,7 +23,6 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
-ms.custom: RS5
 f1_keywords:
  - GET_UPDATED_BUS_RESOURCE
  - wdm/GET_UPDATED_BUS_RESOURCE
@@ -36,9 +35,6 @@ api_location:
 api_name:
  - GET_UPDATED_BUS_RESOURCE
 ---
-
-# GET_UPDATED_BUS_RESOURCE callback function
-
 
 ## -description
 
@@ -61,25 +57,6 @@ A pointer to the resource list in [**CM_RESOURCE_LIST**](ns-wdm-_cm_resource_lis
 ## -returns
 
 Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
-
-## -prototype
-
-```cpp
-//Declaration
-
-GET_UPDATED_BUS_RESOURCE GetUpdatedBusResource; 
-
-// Definition
-
-NTSTATUS GetUpdatedBusResource
-(
-	PVOID Context
-	PCM_RESOURCE_LIST * UpdatedResourceList
-	PCM_RESOURCE_LIST * UpdatedTranslatedResourceList
-)
-{...}
-
-```
 
 ## -remarks
 

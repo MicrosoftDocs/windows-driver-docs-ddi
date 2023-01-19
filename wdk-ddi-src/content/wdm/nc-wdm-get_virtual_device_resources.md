@@ -3,7 +3,7 @@ UID: NC:wdm.GET_VIRTUAL_DEVICE_RESOURCES
 title: GET_VIRTUAL_DEVICE_RESOURCES (wdm.h)
 description: The GetResources routine returns the resources that the PCI Express (PCIe) physical function (PF) requires in order to enable virtualization on a device that supports the single root I/O virtualization (SR-IOV) interface.
 tech.root: PCI
-ms.date: 01/05/2023
+ms.date: 01/19/2023
 keywords: ["GET_VIRTUAL_DEVICE_RESOURCES callback"]
 ms.keywords: GET_VIRTUAL_DEVICE_RESOURCES, GetResources, GetResources routine, PCI.getresources, wdm/GetResources
 req.header: wdm.h
@@ -53,18 +53,6 @@ A pointer to interface-specific context information. The caller passes the value
 ### -param CapturedBusNumbers [out]
 
 A pointer to a caller-supplied variable in which this routine returns a UINT8 value. This value specifies the number of PCIe buses that have been captured for use by the SR-IOV PF of the device.
-
-## -prototype
-
-```cpp
-GET_VIRTUAL_DEVICE_RESOURCES GetResources;
-
-VOID GetResources(
-  _Inout_ PVOID  Context,
-  _Out_   PUINT8 CapturedBusNumbers
-)
-{ ... }
-```
 
 ## -remarks
 

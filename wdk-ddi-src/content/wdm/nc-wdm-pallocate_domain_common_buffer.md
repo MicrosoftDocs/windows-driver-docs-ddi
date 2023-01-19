@@ -1,12 +1,12 @@
 ---
 UID: NC:wdm.PALLOCATE_DOMAIN_COMMON_BUFFER
 title: PALLOCATE_DOMAIN_COMMON_BUFFER (wdm.h)
-description: "Learn more about: PALLOCATE_DOMAIN_COMMON_BUFFER callback function"
+description: This callback function allocates the memory for a domain common buffer.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 01/19/2023
 keywords: ["PALLOCATE_DOMAIN_COMMON_BUFFER callback function"]
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
@@ -36,9 +36,6 @@ api_name:
  - PALLOCATE_DOMAIN_COMMON_BUFFER
 ---
 
-# PALLOCATE_DOMAIN_COMMON_BUFFER callback function
-
-
 ## -description
 
 This callback function allocates the memory for a domain common buffer.
@@ -67,8 +64,9 @@ The size, in bytes, of the common buffer that is to be allocated for the DMA ope
 
 Possible values include:
 
-**DOMAIN_COMMON_BUFFER_LARGE_PAGE**
-<ul>The common buffer will be allocated using a larger page granularity of PAGE_SIZE * 512. Note that this can increase the chance of the allocation being unsuccessful.</ul>
+- **DOMAIN_COMMON_BUFFER_LARGE_PAGE**
+
+  The common buffer will be allocated using a larger page granularity of PAGE_SIZE * 512. Note that this can increase the chance of the allocation being unsuccessful.
 
 ### -param CacheType [in, optional]
 
@@ -90,33 +88,6 @@ A pointer to a variable into which this routine writes the corresponding virtual
 
 Returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate [NTSTATUS value](/windows-hardware/drivers/kernel/ntstatus-values).
 
-## -prototype
-
-```cpp
-//Declaration
-
-PALLOCATE_DOMAIN_COMMON_BUFFER PallocateDomainCommonBuffer; 
-
-// Definition
-
-NTSTATUS PallocateDomainCommonBuffer 
-(
-	PDMA_ADAPTER DmaAdapter
-	HANDLE DomainHandle
-	PPHYSICAL_ADDRESS MaximumAddress
-	ULONG Length
-	ULONG Flags
-	MEMORY_CACHING_TYPE *CacheType
-	NODE_REQUIREMENT PreferredNode
-	PPHYSICAL_ADDRESS LogicalAddress
-	PVOID *VirtualAddress
-)
-{...}
-
-
-```
-
 ## -remarks
 
 ## -see-also
-

@@ -1,16 +1,15 @@
 ---
 UID: NS:wdm._PCW_REGISTRATION_INFORMATION
-title: _PCW_REGISTRATION_INFORMATION (wdm.h)
+title: PCW_REGISTRATION_INFORMATION (wdm.h)
 description: The PCW_REGISTRATION_INFORMATION structure supplies details about the provider and the counterset.
-old-location: devtest\pcw_registration_information.htm
 tech.root: devtest
-ms.date: 07/28/2020
+ms.date: 01/18/2023
 keywords: ["PCW_REGISTRATION_INFORMATION structure"]
 ms.keywords: "*PPCW_REGISTRATION_INFORMATION, PCW_REGISTRATION_INFORMATION, PCW_REGISTRATION_INFORMATION structure [Driver Development Tools], PPCW_REGISTRATION_INFORMATION, PPCW_REGISTRATION_INFORMATION structure pointer [Driver Development Tools], _PCW_REGISTRATION_INFORMATION, devtest.pcw_registration_information, km_pcw_a740182f-4844-4a98-9493-522087a3d27c.xml, wdm/PCW_REGISTRATION_INFORMATION, wdm/PPCW_REGISTRATION_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,12 +45,9 @@ api_name:
  - PCW_REGISTRATION_INFORMATION
 ---
 
-# PCW_REGISTRATION_INFORMATION structure
-
-
 ## -description
 
-The `PCW_REGISTRATION_INFORMATION` structure supplies details about the provider and the counterset. Most developers will use the [CTRPP](/windows/win32/perfctrs/ctrpp)-generated RegisterXxx or InitRegistrationInformationXxx functions instead of using this structure directly.
+The **PCW_REGISTRATION_INFORMATION** structure supplies details about the provider and the counterset. Most developers will use the [CTRPP](/windows/win32/perfctrs/ctrpp)-generated RegisterXxx or InitRegistrationInformationXxx functions instead of using this structure directly.
 
 ## -struct-fields
 
@@ -63,10 +59,10 @@ When running on Windows prior to 10.0.19645 (`NTDDI_VERSION < NTDDI_VERSION_MN`)
 
 When using the CTRPP-generated RegisterXxx or InitRegistrationInformationXxx functions, the `Version` field will be set to `PCW_CURRENT_VERSION`, which is equivalent to one of the following values, depending on the compile-time value of `NTDDI_VERSION`:
 
-|Condition|PCW_CURRENT_VERSION value
-|---|---
-|`NTDDI_VERSION <  NTDDI_WIN10_FE`|PCW_VERSION_1 (0x0100)
-|`NTDDI_VERSION >= NTDDI_WIN10_FE`|PCW_VERSION_2 (0x0200)
+| Condition | PCW_CURRENT_VERSION value |
+|---|---|
+| `NTDDI_VERSION <  NTDDI_WIN10_FE` | PCW_VERSION_1 (0x0100) |
+| `NTDDI_VERSION >= NTDDI_WIN10_FE` | PCW_VERSION_2 (0x0200) |
 
 If your code builds with `NTDDI_VERSION >= NTDDI_WIN10_FE` but needs to run on an earlier version of Windows, you will need to set `Version = PCW_VERSION_1` as described in the documentation for [PcwRegister](nf-wdm-pcwregister.md).
 
@@ -100,10 +96,10 @@ The `Flags` field will be ignored if the `Version` field is less than `PCW_VERSI
 
 The `Flags` field enables special behavior of `PcwRegister`. Set to a combination of one or more `PCW_REGISTRATION_FLAGS` values:
 
-|PCW_REGISTRATION_FLAGS|Meaning
-|---|---
-|PcwRegistrationNone (0x0)        |Default (no special behaviors required).
-|PcwRegistrationSiloNeutral (0x1) |Indicates that this registration should be visible to consumers in all server silos. By default, a registration is visible only to consumers in the server silo that was active when the registration was created (i.e. the registration that was attached to the thread when `PcwRegister` was called).
+| PCW_REGISTRATION_FLAGS | Meaning |
+|---|---|
+| PcwRegistrationNone (0x0) | Default (no special behaviors required). |
+| PcwRegistrationSiloNeutral (0x1) | Indicates that this registration should be visible to consumers in all server silos. By default, a registration is visible only to consumers in the server silo that was active when the registration was created (i.e. the registration that was attached to the thread when `PcwRegister` was called). |
 
 ## -remarks
 
@@ -111,9 +107,9 @@ The [PcwRegister](nf-wdm-pcwregister.md) function takes an `Info` parameter that
 
 ### CTRPP-generated InitRegistrationInformationXxx function
 
-Most developers do not need to use `PCW_REGISTRATION_INFORMATION` directly. Instead, they will compile a manifest with the CTRPP tool and use the RegisterXxx or InitRegistrationInformationXxx functions from the CTRPP-generated header. The generated Register function calls InitRegistrationInformation and then calls `PcwRegister` (see [PcwRegister](nf-wdm-pcwregister.md) for details). The generated InitRegistrationInformation function will look like this:
+Most developers do not need to use **PCW_REGISTRATION_INFORMATION** directly. Instead, they will compile a manifest with the CTRPP tool and use the RegisterXxx or InitRegistrationInformationXxx functions from the CTRPP-generated header. The generated Register function calls InitRegistrationInformation and then calls `PcwRegister` (see [PcwRegister](nf-wdm-pcwregister.md) for details). The generated InitRegistrationInformation function will look like this:
 
-```C
+```c
 EXTERN_C FORCEINLINE VOID
 InitRegistrationInformationMyCounterset(
     __in_opt PPCW_CALLBACK Callback,
@@ -156,11 +152,10 @@ The CTRPP-generated InitRegistrationInformation function can optionally verify t
 
 ## -see-also
 
-[_PCW_COUNTER_DESCRIPTOR structure](ns-wdm-_pcw_counter_descriptor.md)
+[**PCW_COUNTER_DESCRIPTOR** structure](ns-wdm-_pcw_counter_descriptor.md)
 
 [PCW_CALLBACK callback function](nc-wdm-pcw_callback.md)
 
 [PcwRegister function](nf-wdm-pcwregister.md)
 
 [CTRPP](/windows/win32/perfctrs/ctrpp)
-

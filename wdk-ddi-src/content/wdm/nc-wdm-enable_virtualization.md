@@ -3,7 +3,7 @@ UID: NC:wdm.ENABLE_VIRTUALIZATION
 title: ENABLE_VIRTUALIZATION (wdm.h)
 description: The EnableVirtualization routine enables or disables virtualization for a PCI Express (PCIe) device that supports the single root I/O virtualization (SR-IOV) interface.
 tech.root: PCI
-ms.date: 01/04/2023
+ms.date: 01/19/2023
 keywords: ["ENABLE_VIRTUALIZATION callback"]
 ms.keywords: ENABLE_VIRTUALIZATION, EnableVirtualization, EnableVirtualization routine, PCI.enablevirtualization, wdm/EnableVirtualization
 req.header: wdm.h
@@ -22,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
+req.irql: IRQL <= DISPATCH_LEVEL
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
@@ -81,21 +81,6 @@ The **EnableVirtualization** routine returns one of the following NTSTATUS value
 | **STATUS_SUCCESS** | The operation completed successfully. |
 | **STATUS_INVALID_PARAMETER** | The *NumVFs* parameter is either zero or  is larger than the value of the **TotalVFs** member of the SR-IOV Extended Capability structure for the device. |
 | **STATUS_INVALID_DEVICE_STATE** | Virtualization is already enabled on the device and the *EnableVirtualization* parameter is **TRUE**, or virtualization is already disabled on the device and the *EnableVirtualization* parameter is **FALSE**. |
-
-## -prototype
-
-```cpp
-ENABLE_VIRTUALIZATION EnableVirtualization;
-
-NTSTATUS EnableVirtualization(
-  _Inout_ PVOID   Context,
-  _In_    UINT16  NumVFs,
-  _In_    BOOLEAN EnableVfMigration,
-  _In_    BOOLEAN EnableMigrationInterrupt,
-  _In_    BOOLEAN EnableVirtualization
-)
-{ ... }
-```
 
 ## -remarks
 

@@ -3,10 +3,10 @@ UID: NC:wdm.IOMMU_DOMAIN_DELETE
 title: IOMMU_DOMAIN_DELETE (wdm.h)
 description: Deletes an existing domain.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 01/19/2023
 keywords: ["IOMMU_DOMAIN_DELETE callback function"]
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
@@ -36,42 +36,19 @@ api_name:
  - IOMMU_DOMAIN_DELETE
 ---
 
-# IOMMU_DOMAIN_DELETE callback function
-
-
 ## -description
 
 Deletes an existing domain. The domain must contain no devices in order to be successfully deleted.
 
 ## -parameters
 
-### -param Domain
+### -param Domain [_In_]
 
-[*In*] A pointer to the handle to the domain to be deleted.
+A pointer to the handle to the domain to be deleted.
 
 ## -returns
 
-Return **STATUS_SUCCESS** if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
-
-## -prototype
-
-```cpp
-//Declaration
-
-IOMMU_DOMAIN_DELETE IommuDomainDelete; 
-
-// Definition
-
-NTSTATUS IommuDomainDelete 
-(
-	PIOMMU_DMA_DOMAIN Domain
-)
-{...}
-
-IOMMU_DOMAIN_DELETE *PIOMMU_DOMAIN_DELETE
-
-
-```
+Return **STATUS_SUCCESS** if the operation succeeds. Otherwise, return an appropriate NTSTATUS values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -79,7 +56,7 @@ This can be called on any **IOMMU_DMA_DOMAIN** that was created through either t
 
 ## -see-also
 
-[*IOMMU_DOMAIN_CREATE_EX**](nc-wdm-iommu_domain_create_ex.md)
+[IOMMU_DOMAIN_CREATE_EX](nc-wdm-iommu_domain_create_ex.md)
 
 [**DMA_IOMMU_INTERFACE_V2**](ns-wdm-dma_iommu_interface_v2.md)
 

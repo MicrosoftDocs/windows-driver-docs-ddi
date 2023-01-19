@@ -1,12 +1,12 @@
 ---
 UID: NC:wdm.PGET_DMA_DOMAIN
 title: PGET_DMA_DOMAIN (wdm.h)
-description: "Learn more about: PGET_DMA_DOMAIN callback function"
+description: The PGET_DMA_DOMAIN callback function gets the handle to the DMA domain.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 01/19/2023
 keywords: ["PGET_DMA_DOMAIN callback function"]
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
@@ -36,12 +36,9 @@ api_name:
  - PGET_DMA_DOMAIN
 ---
 
-# PGET_DMA_DOMAIN callback function
-
-
 ## -description
 
-This callback function gets the handle to the DMA domain.
+The PGET_DMA_DOMAIN callback function gets the handle to the DMA domain.
 
 ## -parameters
 
@@ -51,29 +48,8 @@ A pointer to a DMA_ADAPTER structure. This structure is the adapter object that 
 
 ## -returns
 
-Returns HANDLE to the DMA domain.
-
-## -prototype
-
-```cpp
-//Declaration
-
-PGET_DMA_DOMAIN PgetDmaDomain; 
-
-// Definition
-
-HANDLE PgetDmaDomain 
-(
-	PDMA_ADAPTER DmaAdapter
-)
-{...}
-
-PGET_DMA_DOMAIN 
-
-
-```
+Returns the HANDLE to the DMA domain.
 
 ## -remarks
 
 ## -see-also
-

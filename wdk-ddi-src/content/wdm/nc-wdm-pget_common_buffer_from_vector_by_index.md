@@ -3,10 +3,10 @@ UID: NC:wdm.PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX
 title: PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX (wdm.h)
 description: Describes the PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX callback function.
 tech.root: kernel
-ms.date: 01/12/2023
+ms.date: 01/19/2023
 keywords: ["PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX callback function"]
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

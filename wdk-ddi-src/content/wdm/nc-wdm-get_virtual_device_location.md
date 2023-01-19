@@ -3,7 +3,7 @@ UID: NC:wdm.GET_VIRTUAL_DEVICE_LOCATION
 title: GET_VIRTUAL_DEVICE_LOCATION (wdm.h)
 description: The GetLocation routine returns the device location of a PCI Express (PCIe) virtual function (VF) on a PCI bus. A device that supports the single root I/O virtualization (SR-IOV) interface can expose one or more VFs on the PCI bus.
 tech.root: PCI
-ms.date: 01/06/2023
+ms.date: 01/19/2023
 keywords: ["GET_VIRTUAL_DEVICE_LOCATION callback"]
 ms.keywords: GET_VIRTUAL_DEVICE_LOCATION, GetLocation, GetLocation routine, PCI.getlocation, wdm/GetLocation
 req.header: wdm.h
@@ -40,8 +40,6 @@ api_name:
  - GET_VIRTUAL_DEVICE_LOCATION
 ---
 
-# GET_VIRTUAL_DEVICE_LOCATION callback
-
 ## -description
 
 The **GetLocation** routine returns the device location of a PCI Express (PCIe) virtual function (VF) on a PCI bus. A device that supports the single root I/O virtualization (SR-IOV) interface can expose one or more VFs on the PCI bus.
@@ -76,21 +74,6 @@ The **GetLocation** routine returns one of the following NTSTATUS values:
 |---|---|
 | **STATUS_SUCCESS** | The operation completed successfully. |
 | **STATUS_INVALID_PARAMETER** | The *VirtualFunction* parameter is larger than the value of the **TotalVFs** member of the SR-IOV Extended Capability structure for the device. |
-
-## -prototype
-
-```cpp
-GET_VIRTUAL_DEVICE_LOCATION GetLocation;
-
-NTSTATUS GetLocation(
-  _Inout_ PVOID   Context,
-  _In_    USHORT  VirtualFunction,
-  _Out_   PUINT16 SegmentNumber,
-  _Out_   PUINT8  BusNumber,
-  _Out_   PUINT8  FunctionNumber
-)
-{ ... }
-```
 
 ## -remarks
 

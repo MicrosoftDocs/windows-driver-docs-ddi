@@ -3,7 +3,7 @@ UID: NF:wdm.RtlInitString
 title: RtlInitString function (wdm.h)
 description: The RtlInitString routine initializes a counted string of 8-bit characters.
 tech.root: kernel
-ms.date: 12/13/2022
+ms.date: 01/18/2023
 keywords: ["RtlInitString function"]
 ms.keywords: RtlInitString, RtlInitString routine [Kernel-Mode Driver Architecture], k109_c0bd87a9-811c-4312-b2b4-e82bdbfa5b8c.xml, kernel.rtlinitstring, wdm/RtlInitString
 req.header: wdm.h
@@ -55,8 +55,6 @@ A pointer to a null-terminated character string. This string is used to initiali
 
 ## -returns
 
-None
-
 ## -remarks
 
 This routine initializes a counted character string.
@@ -71,7 +69,8 @@ Callers of **RtlInitString** can be running at IRQL <= DISPATCH_LEVEL if the *De
 
 The **RTL_CONSTANT_STRING** macro creates a string or Unicode string structure to hold a counted string.
 
-```cppSTRING RTL_CONSTANT_STRING(
+```cpp
+STRING RTL_CONSTANT_STRING(
   [in]  PCSZ SourceString
 );
 
@@ -88,4 +87,4 @@ You can use **RTL_CONSTANT_STRING** to initialize global variables.
 
 ## -see-also
 
-[ANSI_STRING](/windows/win32/api/ntdef/ns-ntdef-string)
+[**ANSI_STRING**](/windows/win32/api/ntdef/ns-ntdef-string)

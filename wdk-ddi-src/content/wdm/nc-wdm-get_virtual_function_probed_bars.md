@@ -3,7 +3,7 @@ UID: NC:wdm.GET_VIRTUAL_FUNCTION_PROBED_BARS
 title: GET_VIRTUAL_FUNCTION_PROBED_BARS (wdm.h)
 description: The GetVirtualFunctionProbedBars routine returns the values of the PCI Express (PCIe) Base Address Registers (BARs) of a device that supports the single root I/O virtualization (SR-IOV) interface.
 tech.root: PCI
-ms.date: 01/05/2023
+ms.date: 01/19/2023
 keywords: ["GET_VIRTUAL_FUNCTION_PROBED_BARS callback"]
 ms.keywords: GET_VIRTUAL_FUNCTION_PROBED_BARS, GetVirtualFunctionProbedBars, GetVirtualFunctionProbedBars routine, PCI.getvirtualfunctionprobedbars, wdm/GetVirtualFunctionProbedBars
 req.header: wdm.h
@@ -66,18 +66,6 @@ The **GetVirtualFunctionProbedBars** routine returns one of the following NTSTAT
 |---|---|
 | **STATUS_SUCCESS** | The operation completed successfully. |
 | **STATUS_INVALID_DEVICE_STATE** | The device does not support the SR-IOV interface. |
-
-## -prototype
-
-```cpp
-GET_VIRTUAL_FUNCTION_PROBED_BARS GetVirtualFunctionProbedBars;
-
-NTSTATUS GetVirtualFunctionProbedBars(
-  _Inout_ PVOID  Context,
-  _Out_   PULONG BaseRegisterValues
-)
-{ ... }
-```
 
 ## -remarks
 

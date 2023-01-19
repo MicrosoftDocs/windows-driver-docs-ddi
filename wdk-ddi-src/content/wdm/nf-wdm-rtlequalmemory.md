@@ -2,15 +2,14 @@
 UID: NF:wdm.RtlEqualMemory
 title: RtlEqualMemory macro (wdm.h)
 description: The RtlEqualMemory routine compares two blocks of memory to determine whether the specified number of bytes are identical.
-old-location: kernel\rtlequalmemory.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/18/2023
 keywords: ["RtlEqualMemory macro"]
 ms.keywords: RtlEqualMemory, RtlEqualMemory routine [Kernel-Mode Driver Architecture], k109_a75dfbc8-12af-4f95-9ba0-b7752b796e55.xml, kernel.rtlequalmemory, wdm/RtlEqualMemory
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,34 +39,27 @@ api_name:
  - RtlEqualMemory
 ---
 
-# RtlEqualMemory macro
-
-
 ## -description
 
-The <b>RtlEqualMemory</b> routine compares two blocks of memory to determine whether the specified number of bytes are identical.
+The **RtlEqualMemory** routine compares two blocks of memory to determine whether the specified number of bytes are identical.
 
 ## -parameters
 
 ### -param Destination [in]
 
-
 A pointer to a caller-allocated block of memory to compare.
 
 ### -param Source [in]
 
-
-A pointer to a caller-allocated block of memory that is compared to the block of memory to which <i>Source1</i> points.
+A pointer to a caller-allocated block of memory that is compared to the block of memory to which *Source1* points.
 
 ### -param Length [in]
 
-
 Specifies the number of bytes to be compared.
-
 
 ## -syntax
 
-```
+```cpp
 BOOL WINAPI
 RtlEqualMemory(
    void*  Destination,
@@ -86,5 +78,4 @@ Callers of **RtlEqualMemory** can be running at any IRQL if both blocks of memor
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcomparememory">RtlCompareMemory</a>
-
+[RtlCompareMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcomparememory)

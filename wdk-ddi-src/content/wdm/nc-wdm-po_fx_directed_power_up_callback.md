@@ -1,9 +1,9 @@
 ---
 UID: NC:wdm.PO_FX_DIRECTED_POWER_UP_CALLBACK
 title: PO_FX_DIRECTED_POWER_UP_CALLBACK (wdm.h)
-description: "Learn more about: PO_FX_DIRECTED_POWER_UP_CALLBACK callback function"
+description: The PO_FX_DIRECTED_POWER_UP_CALLBACK callback function is implemented by the client driver to handle driver-specific power up activities on behalf of DFx.
 tech.root: kernel
-ms.date: 01/12/2023
+ms.date: 01/19/2023
 keywords: ["PO_FX_DIRECTED_POWER_UP_CALLBACK callback function"]
 req.header: wdm.h
 req.include-header: Wdm.h
@@ -40,7 +40,7 @@ product:
 
 ## -description
 
-Implemented by the client driver to handle driver-specific power up activities on behalf of DFx (Directed [PoFx](/windows-hardware/drivers/kernel/overview-of-the-power-management-framework)).
+The PO_FX_DIRECTED_POWER_UP_CALLBACK callback function is implemented by the client driver to handle driver-specific power up activities on behalf of DFx (Directed [PoFx](/windows-hardware/drivers/kernel/overview-of-the-power-management-framework)).
 
 ## -parameters
 

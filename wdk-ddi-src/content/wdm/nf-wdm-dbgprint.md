@@ -3,7 +3,7 @@ UID: NF:wdm.DbgPrint
 title: DbgPrint function (wdm.h)
 description: The DbgPrint routine sends a message to the kernel debugger.
 tech.root: devtest
-ms.date: 01/10/2023
+ms.date: 01/19/2023
 keywords: ["DbgPrint function"]
 ms.keywords: DbgPrint, DbgPrint routine [Driver Development Tools], DebugFns_5e11bbcc-adc2-46c0-b371-0e54c50bb2dc.xml, ULONG, devtest.dbgprint, wdm/DbgPrint
 req.header: wdm.h
@@ -46,11 +46,11 @@ The **DbgPrint** routine sends a message to the kernel debugger when the conditi
 
 ## -parameters
 
-### -param Format [in]
+### -param Format
 
 Specifies a pointer to the format string to print. The *Format* string supports most of the **printf**-style [format specification fields](/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions). However, the Unicode format codes (**%C**, **%S**, **%lc**, **%ls**, **%wc**, **%ws**, and **%wZ**) can only be used with IRQL = PASSIVE_LEVEL. The **DbgPrint** routine does not support any of the floating point types (**%f**, **%e**, **%E**, **%g**, **%G**, **%a**, or **%A**).
 
-### -param
+### -param ...
 
 Specifies arguments for the format string, as in **printf**.
 
