@@ -1,8 +1,8 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0
 title: D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0 (d3d10umddi.h)
-description: D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0 contains the JPEG image function table that is provided to the Microsoft DirectX graphics kernel by the user mode driver.
-ms.date: 10/19/2018
+description: Learn more about the D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0 structure.
+ms.date: 01/17/2023
 keywords: ["D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0 structure"]
 ms.keywords: D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0, D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0,
 req.header: d3d10umddi.h
@@ -37,24 +37,16 @@ product:
 
 # D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0 structure
 
-
 ## -description
 
-D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0 contains the JPEG image function table that is provided to the Microsoft DirectX graphics kernel by the user mode driver.
+D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0 contains input information used by the [**PFND3D10DDI_RETRIEVESUBOBJECT**](nc-d3d10umddi-pfnd3d10ddi_retrievesubobject.md) DDI when querying the driver's WDDM 2.4 (Windows 10 version 1803) video functions.
 
 ## -struct-fields
 
 ### -field Relocate
 
-Indicates that the functions can be relocated.
+Boolean value that indicates whether the functions can be relocated.
 
 ### -field pWDDM2_4VideoDeviceFuncs
 
-A pointer to a D3DWDDM2_4DDI_VIDEODEVICEFUNCS_RS4_0 structure that contains the image function pointers.
-
-## -remarks
-
-## -see-also
-
-[D3DWDDM2_4DDI_VIDEODEVICEFUNCS_RS4_0](ns-d3d10umddi-d3dwddm2_4ddi_videodevicefuncs_rs4_0.md)
-
+A pointer to a [**D3DWDDM2_4DDI_VIDEODEVICEFUNCS_RS4_0**](ns-d3d10umddi-d3dwddm2_4ddi_videodevicefuncs_rs4_0.md) structure that contains pointers to the video functions being queried.

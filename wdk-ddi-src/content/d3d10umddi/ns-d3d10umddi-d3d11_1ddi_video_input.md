@@ -1,59 +1,53 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_INPUT
-title: D3D11_1DDI_VIDEO_INPUT (d3d10umddi.h)
-description: "Microsoft reserves the D3D11_1DDI_VIDEO_INPUT structure for internal use only. Don't use this structure in your driver."
-old-location: display\d3d11_1ddi_video_input.htm
-ms.date: 05/10/2018
-keywords: ["D3D11_1DDI_VIDEO_INPUT structure"]
-ms.keywords: D3D11_1DDI_VIDEO_INPUT, D3D11_1DDI_VIDEO_INPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_INPUT, display.d3d11_1ddi_video_input
-req.header: d3d10umddi.h
-req.include-header: D3d10umddi.h
-req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
-targetos: Windows
 tech.root: display
+title: D3D11_1DDI_VIDEO_INPUT
+ms.date: 01/17/2023
+targetos: Windows
+description: Learn more about the D3D11_1DDI_VIDEO_INPUT structure.
+prerelease: false
+req.construct-type: structure
+req.ddi-compliance: 
+req.dll: 
+req.header: d3d10umddi.h
+req.include-header: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.typenames: D3D11_1DDI_VIDEO_INPUT
-f1_keywords:
- - D3D11_1DDI_VIDEO_INPUT
- - d3d10umddi/D3D11_1DDI_VIDEO_INPUT
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
  - HeaderDef
 api_location:
- - D3d10umddi.h
+ - d3d10umddi.h
 api_name:
+ - D3D11_1DDI_VIDEO_INPUT
+f1_keywords:
+ - D3D11_1DDI_VIDEO_INPUT
+ - d3d10umddi/D3D11_1DDI_VIDEO_INPUT
+dev_langs:
+ - c++
+helpviewer_keywords:
  - D3D11_1DDI_VIDEO_INPUT
 ---
 
-# D3D11_1DDI_VIDEO_INPUT structure
-
-
 ## -description
 
-Reserved for system use. Do not use in your driver.
+**D3D11_1DDI_VIDEO_INPUT** contains input information used by the [**PFND3D10DDI_RETRIEVESUBOBJECT**](nc-d3d10umddi-pfnd3d10ddi_retrievesubobject.md) DDI when querying the driver's video functions.
 
 ## -struct-fields
 
 ### -field Relocate
 
-Reserved for system use. Do not use in your driver.
+Boolean value that indicates whether the functions can be relocated.
 
 ### -field p11VideoDeviceFuncs
 
-Reserved for system use. Do not use in your driver.
-
+A pointer to a [**D3D11_1DDI_VIDEODEVICEFUNCS**](ns-d3d10umddi-d3d11_1ddi_videodevicefuncs.md) structure that contains pointers to the video functions being queried.
