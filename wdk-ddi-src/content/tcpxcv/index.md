@@ -6,7 +6,7 @@ ms.assetid: e9797045-40ad-34c6-9ea6-6f97213a1dab
 ms.date: 05/09/2018
 keywords: ["Tcpxcv.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: print
 f1_keywords:
  - tcpxcv

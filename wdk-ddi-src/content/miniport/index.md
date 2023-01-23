@@ -5,7 +5,7 @@ title: Miniport.h header
 ms.date: 03/23/2022
 keywords: ["Miniport.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: kernel
 f1_keywords:
  - miniport

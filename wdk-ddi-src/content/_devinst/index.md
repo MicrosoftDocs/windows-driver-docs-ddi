@@ -6,7 +6,7 @@ ms.assetid: a4a2af86-b619-3628-9589-89ded9b021bd
 ms.date: 05/09/2018
 keywords: ["Driver installation"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 ---
 
 # Driver installation

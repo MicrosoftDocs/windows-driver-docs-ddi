@@ -6,7 +6,7 @@ ms.assetid: c0f844f9-d5bf-3401-a193-bde076ae281d
 ms.date: 05/09/2018
 keywords: ["Srb.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: storage
 f1_keywords:
  - srb

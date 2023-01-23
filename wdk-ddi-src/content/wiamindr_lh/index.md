@@ -6,7 +6,7 @@ ms.assetid: 8bb4455b-7b9a-3281-8f57-256069118040
 ms.date: 05/09/2018
 keywords: ["Wiamindr_Lh.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: image
 f1_keywords:
  - wiamindr_lh

@@ -6,7 +6,7 @@ ms.assetid: cc9e1f1e-798a-329b-b235-9673f8a25153
 ms.date: 05/09/2018
 keywords: ["Ptpusd.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: image
 f1_keywords:
  - ptpusd

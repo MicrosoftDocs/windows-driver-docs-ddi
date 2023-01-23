@@ -6,7 +6,7 @@ ms.assetid: 6e3ffcb6-f08e-3947-9774-2adf8c435369
 ms.date: 11/18/2020
 keywords: ["Wiamicro.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: image
 f1_keywords:
  - wiamicro

@@ -6,7 +6,7 @@ ms.assetid: 2ccdfa60-af1b-3b60-aaab-f9acba1872c6
 ms.date: 05/09/2018
 keywords: ["Acpiioct.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: acpi
 f1_keywords:
  - acpiioct

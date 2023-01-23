@@ -6,7 +6,7 @@ ms.assetid: 0458b097-7680-3460-8cbd-f14ad4279a69
 ms.date: 05/09/2018
 keywords: ["Prcomoem.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: print
 f1_keywords:
  - prcomoem

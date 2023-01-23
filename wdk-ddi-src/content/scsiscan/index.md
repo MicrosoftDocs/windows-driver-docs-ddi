@@ -6,7 +6,7 @@ ms.assetid: fb5a05ac-d1d3-3550-a11a-67ef84846ede
 ms.date: 05/09/2018
 keywords: ["Scsiscan.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: image
 f1_keywords:
  - scsiscan

@@ -6,7 +6,7 @@ ms.assetid: e65d4581-0840-38bd-9afe-5a9d19c9769b
 ms.date: 11/18/2020
 keywords: ["Winsplp.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: print
 f1_keywords:
  - winsplp

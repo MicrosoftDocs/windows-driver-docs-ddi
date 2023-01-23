@@ -5,7 +5,7 @@ description: "Learn more about: Wia_Lh.h header"
 ms.date: 11/10/2022
 keywords: ["Wia_Lh.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: image
 f1_keywords:
  - wia_lh

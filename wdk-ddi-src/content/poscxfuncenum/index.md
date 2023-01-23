@@ -6,7 +6,7 @@ ms.assetid: af1f820e-5654-3014-a7ac-05d21e60adc0
 ms.date: 11/18/2020
 keywords: ["Poscxfuncenum.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: pos
 f1_keywords:
  - poscxfuncenum

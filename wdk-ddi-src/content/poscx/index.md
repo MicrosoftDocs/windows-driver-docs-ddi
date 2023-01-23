@@ -6,7 +6,7 @@ ms.assetid: 0484e206-0de1-3054-8ac2-1ef67c0f4f2d
 ms.date: 05/09/2018
 keywords: ["Poscx.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: pos
 f1_keywords:
  - poscx

@@ -6,7 +6,7 @@ ms.assetid: c5dfcab7-91d2-3e9f-b28e-f90e20634f51
 ms.date: 05/09/2018
 keywords: ["Secure Digital (SD) card"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 ---
 
 # Secure Digital (SD) card

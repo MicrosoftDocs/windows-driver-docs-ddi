@@ -6,7 +6,7 @@ ms.assetid: 6ebdf373-6cfd-3d8c-9d68-fedb007caffd
 ms.date: 05/09/2018
 keywords: ["Wlanihv.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: netvista
 f1_keywords:
  - wlanihv

@@ -6,7 +6,7 @@ ms.assetid: 5bcc3df5-ecee-349e-be93-b2fe366718e0
 ms.date: 05/09/2018
 keywords: ["Stiusd.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: image
 f1_keywords:
  - stiusd

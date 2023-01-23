@@ -6,7 +6,7 @@ ms.assetid: 12daebc0-78c4-3cb9-a1cc-a9129f0d991b
 ms.date: 05/09/2018
 keywords: ["Msviddrv.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: stream
 f1_keywords:
  - msviddrv

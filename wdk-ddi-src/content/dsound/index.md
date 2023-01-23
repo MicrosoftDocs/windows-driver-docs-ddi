@@ -5,7 +5,7 @@ title: Dsound.h header
 ms.date: 08/03/2021
 keywords: ["Dsound.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: stream
 f1_keywords:
  - dsound

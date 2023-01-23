@@ -6,7 +6,7 @@ ms.assetid: 0ffe1314-78d0-3840-8dbe-bec79732f0dd
 ms.date: 05/09/2018
 keywords: ["Sffdisk.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: sd
 f1_keywords:
  - sffdisk

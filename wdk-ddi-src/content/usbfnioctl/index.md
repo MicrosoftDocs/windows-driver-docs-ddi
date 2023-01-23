@@ -6,7 +6,7 @@ ms.assetid: 346c06db-ae00-3b42-a05a-d786904c5f0f
 ms.date: 05/09/2018
 keywords: ["Usbfnioctl.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: usbref
 f1_keywords:
  - usbfnioctl

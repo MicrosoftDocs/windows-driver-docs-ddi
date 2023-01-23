@@ -6,7 +6,7 @@ ms.assetid: ae262a83-02ac-307d-bec4-a4655f8a7524
 ms.date: 05/09/2018
 keywords: ["Wdfresource.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: wdf
 f1_keywords:
  - wdfresource

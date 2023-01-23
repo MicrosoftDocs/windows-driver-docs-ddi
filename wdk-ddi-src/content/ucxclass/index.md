@@ -6,7 +6,7 @@ ms.assetid: dbaa665f-bdcf-3bfc-946e-cfe851a0bcac
 ms.date: 05/09/2018
 keywords: ["Ucxclass.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: usbref
 f1_keywords:
  - ucxclass

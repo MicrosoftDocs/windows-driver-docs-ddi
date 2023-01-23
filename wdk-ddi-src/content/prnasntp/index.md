@@ -5,7 +5,7 @@ title: Prnasntp.h header
 ms.date: 06/12/2021
 keywords: ["Prnasntp.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: print
 f1_keywords:
  - prnasntp

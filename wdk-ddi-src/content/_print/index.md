@@ -6,7 +6,7 @@ ms.assetid: fc0e0b85-603b-35c9-9d94-fc5cb18ea7c1
 ms.date: 02/09/2021
 keywords: ["Print devices"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 ---
 
 # Print devices

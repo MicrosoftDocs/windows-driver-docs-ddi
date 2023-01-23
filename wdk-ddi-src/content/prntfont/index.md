@@ -6,7 +6,7 @@ ms.assetid: f5e425fd-5595-35f2-a035-642b39d97e9f
 ms.date: 05/09/2018
 keywords: ["Prntfont.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: print
 f1_keywords:
  - prntfont

@@ -6,7 +6,7 @@ ms.assetid: 01ba4b30-aac9-383a-b7a2-32c112dfd250
 ms.date: 07/11/2018
 keywords: ["Point of Service (POS)"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 ---
 
 # Point of Service (POS)

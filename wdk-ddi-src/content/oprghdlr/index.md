@@ -6,7 +6,7 @@ ms.assetid: e673a615-101a-3857-b1ee-6c84b25974ac
 ms.date: 11/18/2020
 keywords: ["Oprghdlr.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: acpi
 f1_keywords:
  - oprghdlr

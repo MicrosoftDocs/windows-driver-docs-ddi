@@ -5,7 +5,7 @@ description: "Learn more about: Ksmedia.h header"
 ms.date: 06/24/2021
 keywords: ["Ksmedia.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: stream
 f1_keywords:
  - ksmedia

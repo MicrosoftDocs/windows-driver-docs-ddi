@@ -5,7 +5,7 @@ description: "Learn more about: Bdasup.h header"
 ms.date: 04/25/2022
 keywords: ["Bdasup.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: stream
 f1_keywords:
  - bdasup

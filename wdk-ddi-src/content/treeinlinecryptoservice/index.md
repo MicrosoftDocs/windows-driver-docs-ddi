@@ -6,7 +6,7 @@ ms.assetid: 706ce4d6-553e-33e5-ada1-07b5ce29405e
 ms.date: 11/20/2020
 keywords: ["Treeinlinecryptoservice.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: treedrv
 ms.custom: RS5
 f1_keywords:
