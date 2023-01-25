@@ -88,7 +88,7 @@ The following table describes the possible values for **SubDeviceID**, the assoc
 | 3     | Sub ID for a WDDM 2.0 video function table. | [**D3DWDDM2_0DDI_VIDEO_INPUT**](ns-d3d10umddi-d3dwddm2_0ddi_video_input.md) | [**D3DWDDM2_0DDI_VIDEODEVICEFUNCS**](./ns-d3d10umddi-d3dwddm2_0ddi_videodevicefuncs.md) |
 | 5     | Sub ID for a WDDM 2.1 video function table. | [**D3DWDDM2_1DDI_VIDEO_INPUT**](ns-d3d10umddi-d3dwddm2_1ddi_video_input.md) | [**D3DWDDM2_1DDI_VIDEODEVICEFUNCS**](./ns-d3d10umddi-d3dwddm2_1ddi_videodevicefuncs.md) .|
 | 6     | Sub ID for a WDDM 2.4 and later video function table. Supported starting with WDDM 2.4. | [**D3DWDDM2_4DDI_VIDEO_INPUT**](ns-d3d10umddi-d3dwddm2_4ddi_video_input.md) | [**D3DWDDM2_4DDI_VIDEODEVICEFUNCS**](./ns-d3d10umddi-d3dwddm2_4ddi_videodevicefuncs.md). |
-| 7     | Sub ID for a WDDM 2.4 (Windows 10 version 1803 release) video function table. | [**D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0**](ns-d3d10umddi-d3dwddm2_4ddi_video_input_rs4_0.md) | [**D3DWDDM2_4DDI_VIDEODEVICEFUNCS_RS4_0**](./ns-d3d10umddi-d3dwddm2_0ddi_videodevicefuncs_rs4_0.md) |
+| 7     | Sub ID for a WDDM 2.4 (Windows 10 version 1803 release) video function table. | [**D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0**](ns-d3d10umddi-d3dwddm2_4ddi_video_input_rs4_0.md) | [**D3DWDDM2_4DDI_VIDEODEVICEFUNCS_RS4_0**](ns-d3d10umddi-d3dwddm2_4ddi_videodevicefuncs_rs4_0.md) |
 
 The Direct3D runtime considers the retrieved subparts to be appended to the Direct3D driver device object and expects them to be destroyed along with the rest of the device when [**DestroyDevice**](nc-d3d10umddi-pfnd3d10ddi_destroydevice.md) is called.
 
