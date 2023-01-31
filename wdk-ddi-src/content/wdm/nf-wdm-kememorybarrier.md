@@ -66,8 +66,8 @@ KeMemoryBarrier (
 
 In this definition, the braces that follow the **__asm** keyword contain inline assembly code. The compiler optimizer cannot move an instruction from a position before the inline assembly code to a position after the inline assembly code, and vice versa. In addition, the **xchg** instruction implicitly includes the **lock** prefix, which forces the processor hardware to complete the memory operations for all instructions that precede the **xchg** instruction before it initiates memory operations for instructions that follow the **xchg** instruction.
 
-**KeMemoryBarrier** prevents both the compiler and the processor from moving operations across the barrier. To prevent only the compiler from moving operations, call [KeMemoryBarrierWithoutFence](/previous-versions/windows/hardware/drivers/ff552973(v=vs.85)).
+**KeMemoryBarrier** prevents both the compiler and the processor from moving operations across the barrier. To prevent only the compiler from moving operations, call [KeMemoryBarrierWithoutFence](/previous-versions/windows/hardware/device-stage/drivers/ff552973(v%3Dvs.85)).
 
 ## -see-also
 
-[KeMemoryBarrierWithoutFence](/previous-versions/windows/hardware/drivers/ff552973(v=vs.85))
+[KeMemoryBarrierWithoutFence](/previous-versions/windows/hardware/device-stage/drivers/ff552973(v%3Dvs.85))
