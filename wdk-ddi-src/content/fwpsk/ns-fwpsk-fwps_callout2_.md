@@ -184,6 +184,17 @@ A callout driver specifies this flag when registering a callout that will be add
 </td>
 </tr>
 
+<tr>
+<td width="40%"><a id="FWP_CALLOUT_FLAG_ALLOW_URO"></a><a id="fwp_callout_flag_allow_uro"></a><dl>
+<dt><b>FWP_CALLOUT_FLAG_ALLOW_URO</b></dt>
+<dt>0x00000200</dt>
+</dl>
+</td>
+<td width="60%">
+A callout driver specifies this flag to indicate that the callout supports UDP receive offload (URO) with large packets of up to 64K. If this flag is not specified, and a callout is registered, then URO is disabled for all traffic that is processed by any filters that specify the callout for the filter's action. <b>Note:</b> If this flag is specified then callouts must not clone and reinject inbound URO packets.
+</td>
+</tr>
+ 
 </table>
 
 ### -field classifyFn
