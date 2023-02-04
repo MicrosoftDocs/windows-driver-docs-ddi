@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3
 tech.root: display
 title: DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3
-ms.date: 10/13/2021
+ms.date: 02/03/2023
 targetos: Windows
 description: Learn more about the DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3 structure.
 prerelease: false
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-The **DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3** structure is used by display miniport drivers to report per-plane flip completion after a VSYNC.
+The display miniport driver uses **DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3** to report per-plane flip completion after a Vsync.
 
 ## -struct-fields
 
@@ -55,7 +55,7 @@ The index after the last written entry in the flip queue log buffer.
 
 ## -remarks
 
-**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3** is a member of the [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](./ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md) structure. It is filled out by the driver to report each plane’s flip completion after a VSYNC occurs. It should be filled out when the display adapter generates an interrupt after a VSYNC.
+**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3** is a member of the [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](./ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md) structure. It is filled out by the driver to report each plane’s flip completion after a Vsync occurs in the [hardware flip queue model](/windows-hardware/drivers/display/hardware-flip-queue). It should be filled out when the display adapter generates an interrupt after a Vsync.
 
 ## -see-also
 

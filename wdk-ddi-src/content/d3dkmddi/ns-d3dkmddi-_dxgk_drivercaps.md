@@ -3,7 +3,7 @@ UID: NS:d3dkmddi._DXGK_DRIVERCAPS
 title: DXGK_DRIVERCAPS (d3dkmddi.h)
 description: The DXGK_DRIVERCAPS structure describes capabilities of a display miniport driver that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_drivercaps.htm
-ms.date: 04/26/2022
+ms.date: 02/03/2023
 keywords: ["DXGK_DRIVERCAPS structure"]
 ms.keywords: DXGK_DRIVERCAPS, DXGK_DRIVERCAPS structure [Display Devices], DmStructs_4a8b7d02-5b36-4a4b-980f-edfc96b4efd3.xml, _DXGK_DRIVERCAPS, d3dkmddi/DXGK_DRIVERCAPS, display.dxgk_drivercaps
 req.header: d3dkmddi.h
@@ -22,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql:
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_DRIVERCAPS
@@ -50,7 +50,7 @@ dev_langs:
 
 ## -description
 
-The **DXGK_DRIVERCAPS** structure describes capabilities of a display miniport driver that the driver provides through a call to its [*DxgkDdiQueryAdapterInfo*](..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function.
+The **DXGK_DRIVERCAPS** structure describes capabilities of a display miniport driver that the driver provides through a call to its [*DxgkDdiQueryAdapterInfo*](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function.
 
 ## -struct-fields
 
@@ -76,11 +76,11 @@ The maximum height of the mouse pointer, in scan lines.
 
 ### -field PointerCaps [out]
 
-A [**DXGK_POINTERFLAGS**](..\d3dkmddi\ns-d3dkmddi-_dxgk_pointerflags.md) structure that identifies the mouse pointer capabilities, in bit-field flags, that the driver can support.
+A [**DXGK_POINTERFLAGS**](ns-d3dkmddi-_dxgk_pointerflags.md) structure that identifies the mouse pointer capabilities, in bit-field flags, that the driver can support.
 
 ### -field InterruptMessageNumber [out]
 
-The message number that is used if message-signaled interrupts are used and the driver calls the [*DxgkCbNotifyInterrupt*](..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md) function from the interrupt handler corresponding to a fixed message number.
+The message number that is used if message-signaled interrupts are used and the driver calls the [*DxgkCbNotifyInterrupt*](nc-d3dkmddi-dxgkcb_notify_interrupt.md) function from the interrupt handler corresponding to a fixed message number.
 
 ### -field NumberOfSwizzlingRanges [out]
 
@@ -100,7 +100,7 @@ Flags to describe gamma and color space transform capabilities of the display pi
 
 ### -field PresentationCaps [out]
 
-A [**DXGK_PRESENTATIONCAPS**](..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md) structure that identifies the presentation capabilities, in bit-field flags, that the driver can support.
+A [**DXGK_PRESENTATIONCAPS**](ns-d3dkmddi-_dxgk_presentationcaps.md) structure that identifies the presentation capabilities, in bit-field flags, that the driver can support.
 
 ### -field MaxQueuedFlipOnVSync [out]
 
@@ -108,19 +108,19 @@ The number of flips that can be queued and pending at the graphics hardware. Eac
 
 ### -field FlipCaps [out]
 
-A [**DXGK_FLIPCAPS**](..\d3dkmddi\ns-d3dkmddi-_dxgk_flipcaps.md) structure that identifies the flipping capabilities, in bit-field flags, that the driver can support.
+A [**DXGK_FLIPCAPS**](ns-d3dkmddi-_dxgk_flipcaps.md) structure that identifies the flipping capabilities, in bit-field flags, that the driver can support.
 
 ### -field SchedulingCaps [out]
 
-A [**DXGK_VIDSCHCAPS**](..\d3dkmddi\ns-d3dkmddi-_dxgk_vidschcaps.md) structure that identifies the graphics processing unit (GPU) scheduling capabilities, in bit-field flags, that the driver can support.
+A [**DXGK_VIDSCHCAPS**](ns-d3dkmddi-_dxgk_vidschcaps.md) structure that identifies the graphics processing unit (GPU) scheduling capabilities, in bit-field flags, that the driver can support.
 
 ### -field MemoryManagementCaps [out]
 
-A [**DXGK_VIDMMCAPS**](..\d3dkmddi\ns-d3dkmddi-_dxgk_vidmmcaps.md) structure that identifies the video memory management capabilities that the driver can support.
+A [**DXGK_VIDMMCAPS**](ns-d3dkmddi-_dxgk_vidmmcaps.md) structure that identifies the video memory management capabilities that the driver can support.
 
 ### -field GpuEngineTopology [out]
 
-A [**DXGK_GPUENGINETOPOLOGY**](..\d3dkmddi\ns-d3dkmddi-_dxgk_gpuenginetopology.md) structure that describes the GPU-engine topology that the driver can support.
+A [**DXGK_GPUENGINETOPOLOGY**](ns-d3dkmddi-_dxgk_gpuenginetopology.md) structure that describes the GPU-engine topology that the driver can support.
 
 ### -field WDDMVersion [out]
 
@@ -155,7 +155,7 @@ Supported starting with Windows 8.
 
 ### -field SupportSmoothRotation [out]
 
-If **TRUE**, the driver supports updating path rotation on the adapter by using the [*DxgkDdiUpdateActiveVidPnPresentPath*](..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath.md) function, while not requiring a new VidPN to be created and set.
+If **TRUE**, the driver supports updating path rotation on the adapter by using the [*DxgkDdiUpdateActiveVidPnPresentPath*](nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath.md) function, while not requiring a new VidPN to be created and set.
 
 Supported starting with Windows 8.
 
@@ -163,7 +163,7 @@ Supported starting with Windows 8.
 
 If **TRUE**, the driver supports resetting individual GPU engines.
 
-If this member is set, the display miniport driver must implement the [*DxgkDdiQueryDependentEngineGroup*](..\d3dkmddi\nc-d3dkmddi-dxgkddi_querydependentenginegroup.md), [*DxgkDdiQueryEngineStatus*](..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryenginestatus.md), and [*DxgkDdiResetEngine*](..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md) functions.
+If this member is set, the display miniport driver must implement the [*DxgkDdiQueryDependentEngineGroup*](nc-d3dkmddi-dxgkddi_querydependentenginegroup.md), [*DxgkDdiQueryEngineStatus*](nc-d3dkmddi-dxgkddi_queryenginestatus.md), and [*DxgkDdiResetEngine*](nc-d3dkmddi-dxgkddi_resetengine.md) functions.
 
 Supported starting with Windows 8.
 
@@ -171,7 +171,7 @@ Supported starting with Windows 8.
 
 If **TRUE**, the driver supports the creation and opening of shared managed primary allocations. A value of **TRUE** also indicates the following:
 
-* The display miniport driver guarantees that when the [*DxgkDdiSetVidPnSourceAddress*](/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)) function is called, the driver does not allow video memory to be flipped to an incompatible allocation.
+* The display miniport driver guarantees that when the [*DxgkDdiSetVidPnSourceAddress*](nc-d3dkmddi-dxgkddi_setvidpnsourceaddress.md) function is called, the driver does not allow video memory to be flipped to an incompatible allocation.
 * The user mode driver validates Direct Flip resources before the Desktop Windows Manager (DWM) uses them.
 
 Only the DWM can flip video memory to Direct Flip resources. The DWM validates these resources using the user-mode [*CheckDirectFlipSupport*](..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkdirectflipsupport.md) function.
@@ -188,7 +188,7 @@ Supported starting with Windows 8.1.
 
 If **TRUE**, the display miniport driver supports run-time power management.
 
-If this member is set, the display miniport driver must implement the [*DxgkDdiSetPowerComponentFState*](..\d3dkmddi\nc-d3dkmddi-dxgkddisetpowercomponentfstate.md) and [*DxgkDdiPowerRuntimeControlRequest*](./nc-d3dkmddi-dxgkddipowerruntimecontrolrequest.md) functions.
+If this member is set, the display miniport driver must implement the [*DxgkDdiSetPowerComponentFState*](nc-d3dkmddi-dxgkddisetpowercomponentfstate.md) and [*DxgkDdiPowerRuntimeControlRequest*](./nc-d3dkmddi-dxgkddipowerruntimecontrolrequest.md) functions.
 
 Supported starting with Windows 8.
 
@@ -252,7 +252,7 @@ Indicates that this hybrid discrete driver requires chaining of ACPI events trig
 
 ### -field MaxQueuedMultiPlaneOverlayFlipVSync [out]
 
-Indicates the maximum number of updates to a single plane can be made within a single VSYNC period, where the most recent update overrides the previous update.
+Indicates the maximum number of updates to a single plane can be made within a single Vsync period, where the most recent update overrides the previous update. If a driver supports [hardware flip queue](/windows-hardware/drivers/display/hardware-flip-queue), the OS ignores this value.
 
 ### -field MiscCaps
 
@@ -296,52 +296,52 @@ An alternative way to access the **MiscCaps** bits.
 
 ### -field MaxHwQueuedFlips
 
-The maximum number of hardware flip queues that the driver supports. If the OS allows hardware flip queue support, the driver can set **MaxHwQueuedFlips** to a value greater than 1. Available starting in Windows Server 2022 (WDDM 2.9).
+The maximum number of hardware flip queues that the driver supports. If the OS allows hardware flip queue support, the driver can set **MaxHwQueuedFlips** to a value greater than 1. Added in Windows Server 2022 (WDDM 2.9); supported starting in Windows 11 (WDDM 3.0).
 
 ### -field HwQueuedFlipCaps
 
-Indicates whether a driver supports hardware-queued flips. Supported starting in Windows Server 2022 (WDDM 2.9).
+A [**DXGK_HWQUEUEDFLIP_CAPS**](ns-d3dkmddi-dxgk_hwqueuedflip_caps.md) value that describes hardware flip queue capabilities. Added in Windows Server 2022 (WDDM 2.9); supported starting in Windows 11 (WDDM 3.0).
 
 ## -see-also
 
-[*DxgkDdiUpdateActiveVidPnPresentPath*](..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath.md)
+[*DxgkDdiUpdateActiveVidPnPresentPath*](nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath.md)
 
-[**DXGK_VIDSCHCAPS**](..\d3dkmddi\ns-d3dkmddi-_dxgk_vidschcaps.md)
+[**DXGK_VIDSCHCAPS**](ns-d3dkmddi-_dxgk_vidschcaps.md)
 
 [*DxgkDdiStopDeviceAndReleasePostDisplayOwnership*](..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md)
 
 [*CheckDirectFlipSupport*](..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkdirectflipsupport.md)
 
-[**DXGK_POINTERFLAGS**](..\d3dkmddi\ns-d3dkmddi-_dxgk_pointerflags.md)
+[**DXGK_POINTERFLAGS**](ns-d3dkmddi-_dxgk_pointerflags.md)
 
 [**D3DKMDT_PREEMPTION_CAPS**](..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_preemption_caps.md)
 
-[**DXGK_GAMMARAMPCAPS**](..\d3dkmddi\ns-d3dkmddi-_dxgk_gammarampcaps.md)
+[**DXGK_GAMMARAMPCAPS**](ns-d3dkmddi-_dxgk_gammarampcaps.md)
 
-[*DxgkDdiQueryAdapterInfo*](..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md)
+[*DxgkDdiQueryAdapterInfo*](nc-d3dkmddi-dxgkddi_queryadapterinfo.md)
 
-[**DXGK_PRESENTATIONCAPS**](..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md)
+[**DXGK_PRESENTATIONCAPS**](ns-d3dkmddi-_dxgk_presentationcaps.md)
 
-[**DXGK_VIDMMCAPS**](..\d3dkmddi\ns-d3dkmddi-_dxgk_vidmmcaps.md)
+[**DXGK_VIDMMCAPS**](ns-d3dkmddi-_dxgk_vidmmcaps.md)
 
-[**DXGK_GPUENGINETOPOLOGY**](..\d3dkmddi\ns-d3dkmddi-_dxgk_gpuenginetopology.md)
+[**DXGK_GPUENGINETOPOLOGY**](ns-d3dkmddi-_dxgk_gpuenginetopology.md)
 
-[*DxgkDdiQueryEngineStatus*](..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryenginestatus.md)
+[*DxgkDdiQueryEngineStatus*](nc-d3dkmddi-dxgkddi_queryenginestatus.md)
 
-[*DxgkDdiSetPowerComponentFState*](..\d3dkmddi\nc-d3dkmddi-dxgkddisetpowercomponentfstate.md)
+[*DxgkDdiSetPowerComponentFState*](nc-d3dkmddi-dxgkddisetpowercomponentfstate.md)
 
-[*DxgkDdiSetVidPnSourceAddress*](/previous-versions/windows/hardware/drivers/ff560767(v=vs.85))
+[*DxgkDdiSetVidPnSourceAddress*](nc-d3dkmddi-dxgkddi_setvidpnsourceaddress.md)
 
-[*DxgkDdiResetEngine*](..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md)
+[*DxgkDdiResetEngine*](nc-d3dkmddi-dxgkddi_resetengine.md)
 
 [*DxgkDdiPowerRuntimeControlRequest*](./nc-d3dkmddi-dxgkddipowerruntimecontrolrequest.md)
 
-[*DxgkCbNotifyInterrupt*](..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md)
+[*DxgkCbNotifyInterrupt*](nc-d3dkmddi-dxgkcb_notify_interrupt.md)
 
 [*DxgkDdiNotifySurpriseRemoval*](..\dispmprt\nc-dispmprt-dxgkddi_notify_surprise_removal.md)
 
-[*DxgkDdiQueryDependentEngineGroup*](..\d3dkmddi\nc-d3dkmddi-dxgkddi_querydependentenginegroup.md)
+[*DxgkDdiQueryDependentEngineGroup*](nc-d3dkmddi-dxgkddi_querydependentenginegroup.md)
 
-[**DXGK_FLIPCAPS**](..\d3dkmddi\ns-d3dkmddi-_dxgk_flipcaps.md)
+[**DXGK_FLIPCAPS**](ns-d3dkmddi-_dxgk_flipcaps.md)
 
-[**DXGKARG_QUERYADAPTERINFO**](..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)
+[**DXGKARG_QUERYADAPTERINFO**](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)

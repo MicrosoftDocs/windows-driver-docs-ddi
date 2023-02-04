@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_NOTIFY_INTERRUPT_DATA
 title: DXGKARGCB_NOTIFY_INTERRUPT_DATA (d3dkmddi.h)
-description: The DXGKARGCB_NOTIFY_INTERRUPT_DATA structure describes notification information for an interrupt.
-old-location: display\dxgkargcb_notify_interrupt_data.htm
-ms.date: 10/13/2021
+description: Learn more about the DXGKARGCB_NOTIFY_INTERRUPT_DATA structure.
+ms.date: 02/03/2023
 keywords: ["DXGKARGCB_NOTIFY_INTERRUPT_DATA structure"]
-ms.keywords: "*IN_CONST_PDXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA structure [Display Devices], DmStructs_071ed85c-70d6-44d8-95e3-7f6609331f4f.xml, STATUS_INVALID_PARAMETER, STATUS_NO_MEMORY, STATUS_SUCCESS, _DXGKARGCB_NOTIFY_INTERRUPT_DATA, d3dkmddi/DXGKARGCB_NOTIFY_INTERRUPT_DATA, display.dxgkargcb_notify_interrupt_data"
+ms.keywords: "*IN_CONST_PDXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA structure [Display Devices]"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -47,13 +46,13 @@ api_name:
 
 ## -description
 
-The **DXGKARGCB_NOTIFY_INTERRUPT_DATA** structure contains interrupt notification information for the [**DXGKCB_NOTIFY_INTERRUPT**](..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md) callback function.
+The **DXGKARGCB_NOTIFY_INTERRUPT_DATA** structure contains interrupt notification information for the [**DXGKCB_NOTIFY_INTERRUPT**](nc-d3dkmddi-dxgkcb_notify_interrupt.md) callback function.
 
 ## -struct-fields
 
 ### -field InterruptType
 
-A [**DXGK_INTERRUPT_TYPE**](..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md)-typed value that indicates the type of interrupt the display miniport driver is notifying the GPU scheduler about.
+A [**DXGK_INTERRUPT_TYPE**](ne-d3dkmddi-_dxgk_interrupt_type.md)-typed value that indicates the type of interrupt the display miniport driver is notifying the GPU scheduler about.
 
 ### -field DmaCompleted
 
@@ -153,7 +152,7 @@ The number of overlay planes that are available to display. Supported starting w
 
 ### -field CrtcVsyncWithMultiPlaneOverlay.pMultiPlaneOverlayVsyncInfo
 
-A pointer to a [**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO**](..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_vsync_info.md) structure that specifies an overlay plane to display during a VSync interval. Supported starting with Windows 8.
+A pointer to a [**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO**](ns-d3dkmddi-_dxgk_multiplane_overlay_vsync_info.md) structure that specifies an overlay plane to display during a VSync interval. Supported starting with Windows 8.
 
 ### -field DisplayOnlyPresentProgress
 
@@ -402,31 +401,31 @@ Context suspend fence. Supported starting with Windows 10, version 1803.
 
 ### -field CrtcVsyncWithMultiPlaneOverlay3
 
-Structure used when **InterruptType** is **DXGK_INTERRUPT_CRTC_VSYNC_WITH_MULTIPLANE_OVERLAY3**. Supported starting with Windows Server 2022 (WDDM 2.9).
+Structure used when **InterruptType** is **DXGK_INTERRUPT_CRTC_VSYNC_WITH_MULTIPLANE_OVERLAY3**. Available starting with Windows Server 2022 (WDDM 2.9).
 
 ### -field CrtcVsyncWithMultiPlaneOverlay3.VidPnTargetId
 
-Vsync with multiplane overlay Vidpn target id. Supported starting with Windows Server 2022 (WDDM 2.9).
+Vsync with multiplane overlay Vidpn target id. Available starting with Windows Server 2022 (WDDM 2.9).
 
 ### -field CrtcVsyncWithMultiPlaneOverlay3.PhysicalAdapterMask
 
-The physical adapter mask where the vertical sync occurs. If this member contains a valid value, the driver must also set the **ValidPhysicalAdapterMask** bit-field flag in the **Flags** member. Windows Server 2022 (WDDM 2.9).
+The physical adapter mask where the vertical sync occurs. If this member contains a valid value, the driver must also set the **ValidPhysicalAdapterMask** bit-field flag in the **Flags** member. Available starting in Windows Server 2022 (WDDM 2.9).
 
 ### -field CrtcVsyncWithMultiPlaneOverlay3.MultiPlaneOverlayVsyncInfoCount
 
-The number of overlay planes that are available to display. Supported starting in Windows Server 2022 (WDDM 2.9).
+The number of [**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3**](ns-d3dkmddi-dxgk_multiplane_overlay_vsync_info3.md) structures that **CrtcVsyncWithMultiPlaneOverlay3.pMultiPlaneOverlayVsyncInfo** points to. These structures describe the overlay planes that are available to display. Available starting in Windows Server 2022 (WDDM 2.9).
 
 ### -field CrtcVsyncWithMultiPlaneOverlay3.pMultiPlaneOverlayVsyncInfo
 
-A pointer to a [**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3**](ns-d3dkmddi-dxgk_multiplane_overlay_vsync_info3.md) structure that specifies information for each overlay plane updated by the VSync. Supported starting in Windows Server 2022 (WDDM 2.9).
+A pointer to an array of [**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3**](ns-d3dkmddi-dxgk_multiplane_overlay_vsync_info3.md) structures that specify information for each overlay plane updated by the VSync. See [Hardware flip queue](/windows-hardware/drivers/display/hardware-flip-queue) for more information. Available starting in Windows Server 2022 (WDDM 2.9).
 
 ### -field CrtcVsyncWithMultiPlaneOverlay3.GpuFrequency
 
-The frequency of the GPU clock counter. Supported starting in Windows Server 2022 (WDDM 2.9).
+The frequency of the GPU clock counter. Available starting in Windows Server 2022 (WDDM 2.9).
 
 ### -field CrtcVsyncWithMultiPlaneOverlay3.GpuClockCounter
 
-The GPU clock counter at the time of the VSYNC interrupt. Combined with GpuFrequency, this indicates the time of the VSYNC interrupt. Windows Server 2022 (WDDM 2.9).
+The GPU clock counter at the time of the VSYNC interrupt. Combined with GpuFrequency, this indicates the time of the VSYNC interrupt. Available starting in Windows Server 2022 (WDDM 2.9).
 
 ### -field Reserved
 
@@ -438,30 +437,30 @@ An array of 32-bit values that are reserved for future use.
 
 ### -field Flags
 
-A [**DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS**](..\d3dkmddi\ns-d3dkmddi-_dxgkcb_notify_interrupt_data_flags.md) structure that indicates if the display miniport driver provides a physical adapter mask in a call to the [**DxgkCbNotifyInterrupt**](..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md) function.
+A [**DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS**](ns-d3dkmddi-_dxgkcb_notify_interrupt_data_flags.md) structure that indicates whether the display miniport driver provides a physical adapter mask in a call to the [**DxgkCbNotifyInterrupt**](nc-d3dkmddi-dxgkcb_notify_interrupt.md) function.
 
 ## -remarks
 
 A miniport driver fills in **DXGKARGCB_NOTIFY_INTERRUPT_DATA**, and then uses the [**DXGKCB_SYNCHRONIZE_EXECUTION**](../dispmprt/nc-dispmprt-dxgkcb_synchronize_execution.md) callback to sync with the interrupt. The **SynchronizeRoutine** parameter of the **DXGKCB_SYNCHRONIZE_EXECUTION** callback points to a miniport-implemented function that gets called by the OS when appropriate, and then the driver fills out the parameter info before calling back into the OS with the [**DXGKCB_NOTIFY_INTERRUPT**](./nc-d3dkmddi-dxgkcb_notify_interrupt.md) callback. The OS then handles the interrupt, with the scheduler using information in the DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 struct.
 
-Depending on the value in the **InterruptType** member, the display miniport driver should set the appropriate union member in this structure. For example, for the end of a direct memory access (DMA) buffer fence, which corresponds to a value of DXGK_INTERRUPT_DMA_COMPLETED in **InterruptType**, the driver must set a value in the **SubmissionFenceId** member of the **DmaCompleted** member. This value should be the DMA buffer fence identifier, which the driver's [**DxgkDdiSubmitCommand**](..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md) function assigned to the just completed DMA buffer.
+Depending on the value in the **InterruptType** member, the display miniport driver should set the appropriate union member in this structure. For example, for the end of a direct memory access (DMA) buffer fence, which corresponds to a value of DXGK_INTERRUPT_DMA_COMPLETED in **InterruptType**, the driver must set a value in the **SubmissionFenceId** member of the **DmaCompleted** member. This value should be the DMA buffer fence identifier, which the driver's [**DxgkDdiSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md) function assigned to the just completed DMA buffer.
 
 ## -see-also
 
-[**DXGK_INTERRUPT_TYPE**](..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md)
+[**DXGK_INTERRUPT_TYPE**](ne-d3dkmddi-_dxgk_interrupt_type.md)
 
 [**DXGK_MIRACAST_CAPS**](..\dispmprt\ns-dispmprt-_dxgk_miracast_caps.md)
 
 [**DXGK_MIRACAST_CHUNK_INFO**](..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md)
 
-[**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO**](..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_vsync_info.md)
+[**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO**](ns-d3dkmddi-_dxgk_multiplane_overlay_vsync_info.md)
 
-[**DXGKCB_NOTIFY_INTERRUPT**](..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md)
+[**DXGKCB_NOTIFY_INTERRUPT**](nc-d3dkmddi-dxgkcb_notify_interrupt.md)
 
-[**DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS**](..\d3dkmddi\ns-d3dkmddi-_dxgkcb_notify_interrupt_data_flags.md)
+[**DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS**](ns-d3dkmddi-_dxgkcb_notify_interrupt_data_flags.md)
 
 [**DXGK_PAGE_FAULT_FLAGS**](..\d3dkmdt\ne-d3dkmdt-_dxgk_page_fault_flags.md)
 
-[**DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS**](..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_present_displayonly_progress.md)
+[**DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS**](ns-d3dkmddi-_dxgkargcb_present_displayonly_progress.md)
 
-[**DxgkDdiSubmitCommand**](..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md)
+[**DxgkDdiSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md)

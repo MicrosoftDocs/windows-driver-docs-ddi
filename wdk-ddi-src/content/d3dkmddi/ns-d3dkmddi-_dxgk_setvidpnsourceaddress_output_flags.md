@@ -1,9 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
-title: _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS (d3dkmddi.h)
-description: A structure containing the flags used to set the VidPN source address.
+title: DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS (d3dkmddi.h)
+description: Learn more about the DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure.
 old-location: display\dxgk_setvidpnsourceaddress_output_flags.htm
-ms.date: 05/10/2018
+ms.date: 02/03/2023
 keywords: ["DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure"]
 ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure [Display Devices], _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, display.dxgk_setvidpnsourceaddress_output_flags
 req.header: d3dkmddi.h
@@ -43,12 +43,11 @@ api_name:
  - DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
 ---
 
-# _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure
-
+# DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure
 
 ## -description
 
-A structure containing the flags used to set the VidPN source address.
+The **DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS** structure contains the flags used to set the VidPN source address.
 
 ## -struct-fields
 
@@ -56,9 +55,28 @@ A structure containing the flags used to set the VidPN source address.
 
 Indicates that the driver must be called again at the PASSIVE_LEVEL to perform the requested operation.
 
+### -field HwFlipQueueDrainNeeded
+
+Indicates that the OS should attempt to submit the flip request again after all pending flips on planes affected by this flip are finished and once the target time is reached. See [Hardware flip queue](/windows-hardware/drivers/display/hardware-flip-queue) for more information.
+
+### -field HwFlipQueueDrainAllPlanes
+
+Indicates that the display hardware may require completion of pending flips on all planes, not just the ones referenced by the incoming flip request. In this case, the driver should set both the **HwFlipQueueDrainNeeded** and **HwFlipQueueDrainAllPlanes**. See [Hardware flip queue](/windows-hardware/drivers/display/hardware-flip-queue) for more information.
+
+### -field HwFlipQueueDrainAllSources
+
+Indicates that the the display hardware may require completion of pending flips on all VidPn sources in order to reallocate internal resources. In this case, the driver should set both the **HwFlipQueueDrainNeeded** and **HwFlipQueueDrainAllSources** flags. See [Hardware flip queue](/windows-hardware/drivers/display/hardware-flip-queue) for more information.
+
 ### -field Reserved
 
-This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
+This member is reserved and should be set to zero.
 
 ### -field Value
 
+An alternative way to access the bits.
+
+## -see-also
+
+[**DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3**](ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay3.md)
+
+[**DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3**](nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.md)
