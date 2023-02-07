@@ -61,6 +61,8 @@ The **DXGKARG_CANCELFLIPS** structure contains parameters for the driver's [**DX
 
 ## -remarks
 
+Asynchronously cancelled PresentIds are reported via the [VSync interrupt mechanism](/windows-hardware/drivers/display/hardware-flip-queue#specifying-vsync-interrupt-behavior).
+
 See [Cancelling interlocked flips on multiple planes](/windows-hardware/drivers/display/hardware-flip-queue#cancelling-interlocked-flips-on-multiple-planes) for more information.
 
 ## -see-also

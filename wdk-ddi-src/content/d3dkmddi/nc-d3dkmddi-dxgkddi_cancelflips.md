@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-In the [hardware flip queue model](/windows-hardware/drivers/display/hardware-flip-queue), the OS calls a display miniport driver's [**DXGKDDI_CANCELFLIPS**](/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_cancelflips) function to synchronously cancel previously queued flips.
+In the [hardware flip queue model](/windows-hardware/drivers/display/hardware-flip-queue), the OS calls a display miniport driver's **DXGKDDI_CANCELFLIPS** function to synchronously cancel previously queued flips.
 
 ## -parameters
 
@@ -58,7 +58,12 @@ In the [hardware flip queue model](/windows-hardware/drivers/display/hardware-fl
 
 ## -returns
 
-**DXGKDDI_CANCELFLIPS** returns STATUS_SUCCESS. The driver should always return a success code.
+**DXGKDDI_CANCELFLIPS** returns an NTSTATUS code such as one of the following:
+
+| Return value | Meaning |
+| ------------ | ------- |
+| STATUS_SUCCESS         | The routine completed successfully. |
+| STATUS_NOT_IMPLEMENTED | The driver does not implement support for this operation. For this return status, the OS will follow up with a call to [**DxgkDdiCancelQueuedFlips**](nc-d3dkmddi-dxgkddi_cancelqueuedflips.md). |
 
 ## -remarks
 

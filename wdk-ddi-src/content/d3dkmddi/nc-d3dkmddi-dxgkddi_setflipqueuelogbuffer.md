@@ -59,7 +59,13 @@ r) function to provide the driver with the flip queue log.
 
 ## -returns
 
-**DXGKDDI_CANCELFLIPS** returns STATUS_SUCCESS. The driver should always return a success code.
+**DXGKDDI_SETFLIPQUEUELOGBUFFER** returns an NTSTATUS code such as one of the following:
+
+| Return value | Meaning |
+| ------------ | ------- |
+| STATUS_SUCCESS   | The routine completed successfully. If DXGKARG_SETFLIPQUEUELOGBUFFER::LogBufferAddress is NULL then this DDI must return STATUS_SUCCESS. |
+| STATUS_NO_MEMORY | The function failed because it was unable to allocate the amount of memory needed to complete successfully. |
+| STATUS_NOT_IMPLEMENTED | The driver does not implement support for this operation. |
 
 ## -remarks
 
