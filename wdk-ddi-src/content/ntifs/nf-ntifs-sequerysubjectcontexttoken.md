@@ -4,7 +4,7 @@ title: SeQuerySubjectContextToken macro (ntifs.h)
 description: The SeQuerySubjectContextToken macro retrieves the access token for a security subject context.
 old-location: ifsk\sequerysubjectcontexttoken.htm
 tech.root: ifsk
-ms.date: 12/07/2021
+ms.date: 02/09/2023
 keywords: ["SeQuerySubjectContextToken macro"]
 ms.keywords: SeQuerySubjectContextToken, SeQuerySubjectContextToken function [Installable File System Drivers], ifsk.sequerysubjectcontexttoken, ntifs/SeQuerySubjectContextToken, seref_5b274dd0-4f8e-4f4c-b7ff-9de9b3da9213.xml
 req.header: ntifs.h
@@ -69,7 +69,7 @@ The access token pointer returned by **SeQuerySubjectContextToken** can be passe
 
 **SeQuerySubjectContextToken** does not affect the lock status or access token of the subject context.
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
 
