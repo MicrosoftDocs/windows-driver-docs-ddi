@@ -54,7 +54,7 @@ helpviewer_keywords:
 
 ### -param PrimaryToken
 
-[in] Pointer to an opaque ACCESS_TOKEN structure for the primary token. This structure provides the token's information needed to perform an access check.
+[in] Pointer to an opaque [ACCESS_TOKEN](/windows/win32/secauthz/access-tokens) structure for the primary token. This structure provides the token's information needed to perform an access check.
 
 ### -param ClientToken
 

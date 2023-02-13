@@ -1,10 +1,10 @@
 ---
 UID: NS:wdm._SECURITY_SUBJECT_CONTEXT
-title: _SECURITY_SUBJECT_CONTEXT (wdm.h)
+title: SECURITY_SUBJECT_CONTEXT (wdm.h)
 description: The SECURITY_SUBJECT_CONTEXT structure is used to capture subject security context for access validation and auditing.
 old-location: ifsk\security_subject_context.htm
 tech.root: ifsk
-ms.date: 02/25/2021
+ms.date: 02/13/2023
 keywords: ["SECURITY_SUBJECT_CONTEXT structure"]
 ms.keywords: "*PSECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT structure pointer [Installable File System Drivers], SECURITY_SUBJECT_CONTEXT, SECURITY_SUBJECT_CONTEXT structure [Installable File System Drivers], _SECURITY_SUBJECT_CONTEXT, ifsk.security_subject_context, securitystructures_e91a762f-82dc-4319-a479-8de15bce2bfd.xml, wdm/PSECURITY_SUBJECT_CONTEXT, wdm/SECURITY_SUBJECT_CONTEXT"
 req.header: wdm.h
@@ -46,13 +46,13 @@ api_name:
  - SECURITY_SUBJECT_CONTEXT
 ---
 
-# _SECURITY_SUBJECT_CONTEXT structure
+# SECURITY_SUBJECT_CONTEXT structure
 
 ## -description
 
-The SECURITY_SUBJECT_CONTEXT structure is used to capture subject security context for access validation and auditing.
+The **SECURITY_SUBJECT_CONTEXT** structure is used to capture subject security context for access validation and auditing.
 
-Drivers are not to modify the SECURITY_SUBJECT_CONTEXT structure directly. To create and manipulate this structure, use the support routines listed in the **See Also** section.
+*Drivers must not modify or try to directly access any members of this structure to make security decisions. To create and manipulate this structure, use the support routines listed in the **See Also** section.*
 
 ## -struct-fields
 
@@ -71,6 +71,10 @@ Reserved for system use.
 ### -field ProcessAuditId
 
 Reserved for system use.
+
+## -remarks
+
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
 

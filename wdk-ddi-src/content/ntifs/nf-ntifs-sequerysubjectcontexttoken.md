@@ -4,7 +4,7 @@ title: SeQuerySubjectContextToken macro (ntifs.h)
 description: The SeQuerySubjectContextToken macro retrieves the access token for a security subject context.
 old-location: ifsk\sequerysubjectcontexttoken.htm
 tech.root: ifsk
-ms.date: 02/09/2023
+ms.date: 02/13/2023
 keywords: ["SeQuerySubjectContextToken macro"]
 ms.keywords: SeQuerySubjectContextToken, SeQuerySubjectContextToken function [Installable File System Drivers], ifsk.sequerysubjectcontexttoken, ntifs/SeQuerySubjectContextToken, seref_5b274dd0-4f8e-4f4c-b7ff-9de9b3da9213.xml
 req.header: ntifs.h
@@ -57,7 +57,8 @@ SeQuerySubjectContextToken(SubjectContext);
 
 ### -param SubjectContext [in]
 
-Pointer to a [**SECURITY_SUBJECT_CONTEXT**](../wdm/ns-wdm-_security_subject_context.md) structure containing the subject context to query.
+Pointer to an opaque [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess) structure containing the subject context to query. This opaque structure was obtained from the operating system in a call to [**SeCaptureSubjectContextEx**](nf-ntifs-secapturesubjectcontextex.md)
+ or [**SeCaptureSubjectContext**](nf-ntifs-secapturesubjectcontext.md).
 
 ## -returns
 
@@ -77,7 +78,7 @@ For more information about security and access control, see [Windows security mo
 
 [**PsDereferencePrimaryToken**](nf-ntifs-psdereferenceprimarytoken.md)
 
-[**SECURITY_SUBJECT_CONTEXT**](../wdm/ns-wdm-_security_subject_context.md)
+[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess)
 
 [**SeQueryAuthenticationIdToken**](nf-ntifs-sequeryauthenticationidtoken.md)
 
