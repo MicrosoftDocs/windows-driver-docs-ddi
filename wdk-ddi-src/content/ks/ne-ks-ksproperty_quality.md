@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_16
+UID: NE:ks.KSPROPERTY_QUALITY
 title: KSPROPERTY_QUALITY (ks.h)
 description: "Learn more about: KSPROPERTY_QUALITY enumeration"
 old-location: stream\ksproperty_quality.htm

@@ -1,5 +1,5 @@
 ---
-UID: NS:storport.__unnamed_struct_17
+UID: NS:storport.PRO_PARAMETER_LIST
 title: PRO_PARAMETER_LIST (storport.h)
 description: The PRO_PARAMETER_LIST structure (storport.h) contains reservation information that is sent in a Persistent Reserve Out (PRO) command to a device server.
 old-location: storage\pro_parameter_list.htm
@@ -44,6 +44,7 @@ api_name:
 ---
 
 # **PRO_PARAMETER_LIST** structure (storport.h)
+
 
 ## -description
 
@@ -98,3 +99,4 @@ Reserved. Must be zero.
 ## -remarks
 
 The [**IOCTL_STORAGE_PERSISTENT_RESERVE_OUT**](../ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out.md) request is used to control information about persistent reservations and reservation keys that are active within a device server.
+

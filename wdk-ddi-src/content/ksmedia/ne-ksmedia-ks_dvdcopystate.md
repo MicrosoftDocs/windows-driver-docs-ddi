@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_51
+UID: NE:ksmedia.KS_DVDCOPYSTATE
 title: KS_DVDCOPYSTATE (ksmedia.h)
 description: The KS_DVDCOPYSTATE enumeration describes the progress of the DVD copyright protection initialization, authentication and key negotiation sequence.
 old-location: stream\ks_dvdcopystate.htm
@@ -76,3 +76,4 @@ Indicates that the copyright protection sequence is complete.
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ks_dvdcopy_set_copy_state">KS_DVDCOPY_SET_COPY_STATE</a>
+

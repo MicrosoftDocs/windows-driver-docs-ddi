@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_5
+UID: NS:ksmedia.KSDSOUND_BUFFERDESC
 title: KSDSOUND_BUFFERDESC (ksmedia.h)
 description: The KSDSOUND_BUFFERDESC structure describes a DirectSound buffer.
 old-location: audio\ksdsound_bufferdesc.htm

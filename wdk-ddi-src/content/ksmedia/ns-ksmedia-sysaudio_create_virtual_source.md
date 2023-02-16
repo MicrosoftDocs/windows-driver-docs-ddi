@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_57
+UID: NS:ksmedia.SYSAUDIO_CREATE_VIRTUAL_SOURCE
 title: SYSAUDIO_CREATE_VIRTUAL_SOURCE (ksmedia.h)
 description: The SYSAUDIO_CREATE_VIRTUAL_SOURCE structure is used to create a mixer-line virtual source such as a volume control or mute.
 old-location: audio\sysaudio_create_virtual_source.htm

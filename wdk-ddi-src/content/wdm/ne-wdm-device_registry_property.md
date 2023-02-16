@@ -1,5 +1,5 @@
 ---
-UID: NE:wdm.__unnamed_enum_9
+UID: NE:wdm.DEVICE_REGISTRY_PROPERTY
 title: DEVICE_REGISTRY_PROPERTY (wdm.h)
 description: The DEVICE_REGISTRY_PROPERTY enumeration identifies device properties that are stored in the registry.
 old-location: kernel\device_registry_property.htm
@@ -98,3 +98,4 @@ The <b>DEVICE_REGISTRY_PROPERTY</b> enumeration identifies device properties tha
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceproperty">IoGetDeviceProperty</a>
+

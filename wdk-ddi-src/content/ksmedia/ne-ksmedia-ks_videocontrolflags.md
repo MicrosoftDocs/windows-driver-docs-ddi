@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_109
+UID: NE:ksmedia.KS_VideoControlFlags
 title: KS_VideoControlFlags (ksmedia.h)
 description: The KS_VideoControlFlags enumeration defines video control capabilities for a specific stream.
 old-location: stream\ks_videocontrolflags.htm
@@ -104,3 +104,4 @@ Supported starting with Windows 8.1.
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videocontrol_mode_s">KSPROPERTY_VIDEOCONTROL_MODE_S</a>
+

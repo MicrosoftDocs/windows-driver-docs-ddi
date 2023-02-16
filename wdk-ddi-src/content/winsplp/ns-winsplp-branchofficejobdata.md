@@ -1,5 +1,5 @@
 ---
-UID: NS:winsplp.__unnamed_struct_5
+UID: NS:winsplp.BranchOfficeJobData
 title: BranchOfficeJobData (winsplp.h)
 description: This structure contains the type of event to log (eEventType), the job ID, and the data required by the event.
 old-location: print\branchofficejobdata.htm

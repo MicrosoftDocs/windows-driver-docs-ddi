@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_27
+UID: NS:ksmedia.KSRTAUDIO_HWLATENCY
 title: KSRTAUDIO_HWLATENCY (ksmedia.h)
 description: The KSRTAUDIO_HWLATENCY structure describes the latency that the audio hardware adds to a wave stream during playback or recording.
 old-location: audio\ksrtaudio_hwlatency.htm

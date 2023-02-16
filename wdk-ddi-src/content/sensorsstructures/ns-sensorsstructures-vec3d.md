@@ -1,5 +1,5 @@
 ---
-UID: NS:sensorsstructures.__unnamed_struct_0
+UID: NS:sensorsstructures.VEC3D
 title: VEC3D (sensorsstructures.h)
 description: Defines a 3D vector.
 ms.date: 10/19/2018

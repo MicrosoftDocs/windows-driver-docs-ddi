@@ -1,5 +1,5 @@
 ---
-UID: NE:ufs.__unnamed_enum_0
+UID: NE:ufs.UFS_FLAGS_DESCRIPTOR
 title: UFS_FLAGS_DESCRIPTOR (ufs.h)
 description: UFS_FLAGS_DESCRIPTOR describes the different types of flags used by Universal Flash Storage (UFS) descriptors.
 old-location: storage\ufs_flags_descriptor.htm

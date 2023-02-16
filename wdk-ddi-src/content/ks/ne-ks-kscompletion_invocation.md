@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_33
+UID: NE:ks.KSCOMPLETION_INVOCATION
 title: KSCOMPLETION_INVOCATION (ks.h)
 description: "Learn more about: KSCOMPLETION_INVOCATION enumeration"
 old-location: stream\kscompletion_invocation.htm

@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_52
+UID: NS:ks.KSPIN_MDL_CACHING_NOTIFICATION
 title: KSPIN_MDL_CACHING_NOTIFICATION (ks.h)
 description: The KSPIN_MDL_CACHING_NOTIFICATION structure contains fields that are used internally by the operating system.
 old-location: stream\kspin_mdl_caching_notification.htm

@@ -1,5 +1,5 @@
 ---
-UID: NE:iscsidef.__unnamed_enum_0
+UID: NE:iscsidef.ISCSIIPADDRESSTYPE
 title: ISCSIIPADDRESSTYPE (iscsidef.h)
 description: The ISCSIIPADDRESSTYPE enumeration indicates formats for an IP address.
 old-location: storage\iscsiipaddresstype.htm

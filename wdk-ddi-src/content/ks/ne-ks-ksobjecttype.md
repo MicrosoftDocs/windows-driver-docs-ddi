@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_38
+UID: NE:ks.KSOBJECTTYPE
 title: KSOBJECTTYPE (ks.h)
 description: The KSOBJECTTYPE enumeration lists different types of kernel streaming objects.
 old-location: stream\ksobjecttype.htm
@@ -84,3 +84,4 @@ Specifies that the object is a pin.
 
 
 <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpinfileobject">KsPinGetConnectedPinFileObject</a>
+

@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_22
+UID: NS:ks.KSP_TIMEFORMAT
 title: KSP_TIMEFORMAT (ks.h)
 description: The KSP_TIMEFORMAT structure corresponds to KSPROPERTY_MEDIASEEKING_CONVERTTIMEFORMAT.
 old-location: stream\ksp_timeformat.htm

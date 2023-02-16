@@ -1,5 +1,5 @@
 ---
-UID: NS:printoem.__unnamed_struct_1
+UID: NS:printoem.OEMMEMORYUSAGE
 title: OEMMEMORYUSAGE (printoem.h)
 description: The OEMMEMORYUSAGE structure is used as an input parameter to a rendering plug-in's IPrintOemUni::MemoryUsage method.
 tech.root: print
@@ -69,3 +69,4 @@ The Unidrv driver uses the values in the **dwFixedMemoryUsage** and **dwPercentM
 [IPrintOemUni::ImageProcessing](../prcomoem/nf-prcomoem-iprintoemuni-imageprocessing.md)
 
 [IPrintOemUni::MemoryUsage](../prcomoem/nf-prcomoem-iprintoemuni-memoryusage.md)
+

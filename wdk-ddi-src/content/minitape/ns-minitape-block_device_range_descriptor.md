@@ -1,5 +1,5 @@
 ---
-UID: NS:minitape.__unnamed_struct_24
+UID: NS:minitape.BLOCK_DEVICE_RANGE_DESCRIPTOR
 title: BLOCK_DEVICE_RANGE_DESCRIPTOR (minitape.h)
 description: The BLOCK_DEVICE_RANGE_DESCRIPTOR structure (minitape.h) describes a range of logical blocks associated with the fragments of a file.
 tech.root: storage
@@ -71,3 +71,4 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 [**POPULATE_TOKEN_HEADER**](../storport/ns-storport-populate_token_header.md)
 
 [**WRITE_USING_TOKEN_HEADER**](./ns-minitape-write_using_token_header.md)
+

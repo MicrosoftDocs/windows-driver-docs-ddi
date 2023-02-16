@@ -1,5 +1,5 @@
 ---
-UID: NS:ntifs.__unnamed_struct_34
+UID: NS:ntifs.TUNNEL
 tech.root: ifsk
 title: TUNNEL
 ms.date: 09/27/2021
@@ -60,3 +60,4 @@ A [**LIST_ENTRY**](/windows/win32/api/ntdef/ns-ntdef-list_entry) structure that 
 ### -field NumEntries
 
 Number of entries in the cache. **NumEntries** is used to track the number of entries in the cache to prevent excessive use of memory.
+

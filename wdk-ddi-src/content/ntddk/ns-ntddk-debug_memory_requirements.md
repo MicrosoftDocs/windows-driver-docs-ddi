@@ -1,5 +1,5 @@
 ---
-UID: NS:ntddk.__unnamed_struct_19
+UID: NS:ntddk.DEBUG_MEMORY_REQUIREMENTS
 tech.root: kernel
 title: DEBUG_MEMORY_REQUIREMENTS (ntddk.h)
 ms.date: 03/07/2022
@@ -74,3 +74,4 @@ Defines the **BOOLEAN** member **Aligned**.
 ## -remarks
 
 ## -see-also
+

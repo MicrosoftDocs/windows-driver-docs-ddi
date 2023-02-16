@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_93
+UID: NS:ksmedia.KSPROPERTY_VIDEOPROCAMP_NODE_S2
 title: KSPROPERTY_VIDEOPROCAMP_NODE_S2 (ksmedia.h)
 description: The KSPROPERTY_VIDEOPROCAMP_NODE_S2 structure describes node-based property settings in the PROPSETID_VIDCAP_VIDEOPROCAMP property set that use two values at the same time.
 old-location: stream\ksproperty_videoprocamp_node_s2.htm

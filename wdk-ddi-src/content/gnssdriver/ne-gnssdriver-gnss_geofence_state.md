@@ -1,5 +1,5 @@
 ---
-UID: NE:gnssdriver.__unnamed_enum_3
+UID: NE:gnssdriver.GNSS_GEOFENCE_STATE
 title: GNSS_GEOFENCE_STATE (gnssdriver.h)
 description: GNSS_GEOFENCE_STATE enumerates the various states of a single geofence.
 old-location: gnss\gnss_geofence_state.htm
@@ -41,6 +41,7 @@ api_name:
 ---
 
 # GNSS_GEOFENCE_STATE enumeration
+
 
 ## -description
 
@@ -98,3 +99,4 @@ The key aspects of this state diagram are:
   When GNSS engine is able to track geofences again, it communicates so by setting the gnss_geofence_tracking_status as SUCCESS to GNSS adapter/HLOS
 
   The GNSS adapter will issue GNSS_ResetGeofenceTracking commands and re-add currently active geofences with current entry/exit criteria of each geofence. This needs to be done in case the set of geofences to be tracked has changed or in the state for any geofence has changed.
+

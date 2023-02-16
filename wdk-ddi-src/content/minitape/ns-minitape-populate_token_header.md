@@ -1,5 +1,5 @@
 ---
-UID: NS:minitape.__unnamed_struct_25
+UID: NS:minitape.POPULATE_TOKEN_HEADER
 title: POPULATE_TOKEN_HEADER (minitape.h)
 description: The POPULATE_TOKEN_HEADER structure (minitape.h) contains the header for the parameters in a command data block (CDB) of the POPULATE TOKEN command.
 tech.root: storage
@@ -89,3 +89,4 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 ## -see-also
 
 [**BLOCK_DEVICE_RANGE_DESCRIPTOR**](../scsi/ns-scsi-block_device_range_descriptor.md)
+

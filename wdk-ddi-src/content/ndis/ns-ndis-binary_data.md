@@ -1,5 +1,5 @@
 ---
-UID: NS:ndis.__unnamed_struct_0
+UID: NS:ndis.BINARY_DATA
 title: BINARY_DATA (ndis.h)
 description: The BINARY_DATA structure contains the binary data of a named entry in the registry.
 old-location: netvista\binary_data.htm
@@ -68,3 +68,4 @@ The BINARY_DATA structure is used in the
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">NDIS_CONFIGURATION_PARAMETER</a>
+

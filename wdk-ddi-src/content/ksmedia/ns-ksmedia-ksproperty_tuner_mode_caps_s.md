@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_98
+UID: NS:ksmedia.KSPROPERTY_TUNER_MODE_CAPS_S
 title: KSPROPERTY_TUNER_MODE_CAPS_S (ksmedia.h)
 description: The KS_PROPERTY_TUNER_MODE_CAPS_S structure describes the capabilities of TV and radio tuner devices.
 old-location: stream\ksproperty_tuner_mode_caps_s.htm

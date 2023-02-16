@@ -1,5 +1,5 @@
 ---
-UID: NE:gnssdriver.__unnamed_enum_0
+UID: NE:gnssdriver.GNSS_DRIVERCOMMAND_TYPE
 title: GNSS_DRIVERCOMMAND_TYPE (gnssdriver.h)
 description: This enumeration indicates the type of driver command or configuration for the GNSS driver provided in the GNSS_DRIVERCOMMAND_PARAM structure.
 old-location: gnss\gnss_drivercommand_type.htm
@@ -207,3 +207,4 @@ This command sets the SUPL 2 version for the GNSS driver.
 ### -field GNSS_CustomCommand
 
 Range for custom IHV-specific GNSS commands:  0x0100 – 0x01FF.
+

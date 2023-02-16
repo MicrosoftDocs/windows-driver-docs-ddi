@@ -1,5 +1,5 @@
 ---
-UID: NS:miniport.__unnamed_struct_0
+UID: NS:miniport.PCI_X_CAPABILITY
 title: PCI_X_CAPABILITY (miniport.h)
 description: The PCI_X_CAPABILITY structure reports the contents of the command and status registers of a device that is compliant with the PCI-X Addendum to the PCI Local Bus Specification.
 tech.root: PCI
@@ -155,3 +155,4 @@ Reports the data in the device's status register in the form of a unsigned long 
 ## -see-also
 
 [PCI_CAPABILITIES_HEADER](../wdm/ns-wdm-_pci_capabilities_header.md)
+

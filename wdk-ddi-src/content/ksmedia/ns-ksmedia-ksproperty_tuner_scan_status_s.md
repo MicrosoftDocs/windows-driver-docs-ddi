@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_108
+UID: NS:ksmedia.KSPROPERTY_TUNER_SCAN_STATUS_S
 title: KSPROPERTY_TUNER_SCAN_STATUS_S (ksmedia.h)
 description: The KSPROPERTY_TUNER_SCAN_STATUS_S structure describes status for a scanning operation.
 old-location: stream\ksproperty_tuner_scan_status_s.htm

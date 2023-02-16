@@ -1,5 +1,5 @@
 ---
-UID: NS:scsi.__unnamed_struct_19
+UID: NS:scsi.ST_PARAMETER_DATA
 title: ST_PARAMETER_DATA (scsi.h)
 description: The ST_PARAMETER_DATA structure (scsi.h) contains the parameter list for the set timestamp command that is used to initialize a device clock.
 tech.root: storage
@@ -64,3 +64,4 @@ Reserved for future use.
 ## -see-also
 
 [**RT_PARAMETER_DATA**](../minitape/ns-minitape-rt_parameter_data.md)
+

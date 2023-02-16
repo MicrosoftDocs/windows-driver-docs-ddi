@@ -1,5 +1,5 @@
 ---
-UID: NE:uart.__unnamed_enum_0
+UID: NE:uart.UART_STATUS
 title: UART_STATUS (uart.h)
 description: Defines values for the status of a UART operation.
 tech.root: serports

@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_26
+UID: NS:gnssdriver.GNSS_GEOFENCE_CREATE_RESPONSE
 title: GNSS_GEOFENCE_CREATE_RESPONSE (gnssdriver.h)
 description: The GNSS_GEOFENCE_CREATE_RESPONSE structure defines the response expected from the GNSS engine when a new geofence is created.
 tech.root: gnss
@@ -41,6 +41,7 @@ api_name:
  - PGNSS_GEOFENCE_CREATE_RESPONSE
  - GNSS_GEOFENCE_CREATE_RESPONSE
 ---
+
 ## -description
 
 The **GNSS_GEOFENCE_CREATE_RESPONSE** structure defines the response expected from the GNSS engine when a new geofence is created.
@@ -70,3 +71,4 @@ The GNSS engine must guarantee the uniqueness of this ID and ensure that there a
 ### -field Unused
 
 Padding buffer reserved for future use.
+

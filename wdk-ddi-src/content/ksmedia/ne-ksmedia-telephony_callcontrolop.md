@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_24
+UID: NE:ksmedia.TELEPHONY_CALLCONTROLOP
 title: TELEPHONY_CALLCONTROLOP (ksmedia.h)
 description: The TELEPHONY_CALLCONTROLOP enumeration defines constants that specify an operation to perform on a phone call.
 old-location: audio\telephony_callcontrolop.htm
@@ -60,3 +60,4 @@ Enables a phone call.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstelephony_callcontrol">KSTELEPHONY_CALLCONTROL</a>
+

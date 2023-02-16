@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_21
+UID: NS:ks.KSPROPERTY_MEDIAAVAILABLE
 title: KSPROPERTY_MEDIAAVAILABLE (ks.h)
 description: The KSPROPERTY_MEDIAAVAILABLE structure specifies the media time span (the time span that a client can seek within) that is currently available on a filter.
 old-location: stream\ksproperty_mediaavailable.htm
@@ -45,6 +45,7 @@ api_name:
 
 # KSPROPERTY_MEDIAAVAILABLE structure
 
+
 ## -description
 
 The KSPROPERTY_MEDIAAVAILABLE structure specifies the media time span (the time span that a client can seek within) that is currently available on a filter. KSPROPERTY_MEDIAAVAILABLE is used in conjunction with the [KSPROPERTY_MEDIASEEKING_AVAILABLE](/windows-hardware/drivers/stream/ksproperty-mediaseeking-available) property request.
@@ -66,3 +67,4 @@ This structure corresponds with DirectShow's **IMediaSeeking::GetAvailable**.
 ## -see-also
 
 [KSPROPERTY_MEDIASEEKING_AVAILABLE](/windows-hardware/drivers/stream/ksproperty-mediaseeking-available)
+

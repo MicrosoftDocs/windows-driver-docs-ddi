@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_67
+UID: NS:ks.KSFASTPROPERTY_ITEM
 title: KSFASTPROPERTY_ITEM (ks.h)
 description: The KSFASTPROPERTY_ITEM structure is used with items for fast I/O dispatching.
 old-location: stream\ksfastproperty_item.htm

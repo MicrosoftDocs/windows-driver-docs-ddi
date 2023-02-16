@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_45
+UID: NS:gnssdriver.GNSS_SUPL_CERT_CONFIG
 title: GNSS_SUPL_CERT_CONFIG (gnssdriver.h)
 description: This structure contains SUPL certificate information.
 old-location: gnss\gnss_supl_cert_config.htm

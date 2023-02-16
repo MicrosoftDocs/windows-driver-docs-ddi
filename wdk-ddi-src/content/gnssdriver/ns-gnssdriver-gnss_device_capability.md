@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_2
+UID: NS:gnssdriver.GNSS_DEVICE_CAPABILITY
 title: GNSS_DEVICE_CAPABILITY (gnssdriver.h)
 description: The GNSS_DEVICE_CAPABILITY structure is used to determine the device capabilities of the underlying GNSS engine.
 tech.root: gnss
@@ -196,3 +196,4 @@ Padding buffer reserved for future use.
 ## -remarks
 
 This is a list of individual capability support. The capability is represented either by a Boolean or by a well-defined enumeration of the specific attribute.
+

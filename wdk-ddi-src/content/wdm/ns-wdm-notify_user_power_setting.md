@@ -1,5 +1,5 @@
 ---
-UID: NS:wdm.__unnamed_struct_1
+UID: NS:wdm.NOTIFY_USER_POWER_SETTING
 tech.root: kernel
 title: NOTIFY_USER_POWER_SETTING (wdm.h)
 ms.date: 03/11/2022
@@ -54,3 +54,4 @@ Defines the **GUID** member **Guid**.
 ## -remarks
 
 ## -see-also
+

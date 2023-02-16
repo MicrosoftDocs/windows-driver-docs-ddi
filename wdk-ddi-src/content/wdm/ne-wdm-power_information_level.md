@@ -1,5 +1,5 @@
 ---
-UID: NE:wdm.__unnamed_enum_2
+UID: NE:wdm.POWER_INFORMATION_LEVEL
 tech.root: kernel
 title: POWER_INFORMATION_LEVEL (wdm.h)
 ms.date: 03/02/2022
@@ -439,3 +439,4 @@ Indicates the maximum power level.
 ## -remarks
 
 ## -see-also
+

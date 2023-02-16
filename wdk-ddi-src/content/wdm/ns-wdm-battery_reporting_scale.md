@@ -1,5 +1,5 @@
 ---
-UID: NS:wdm.__unnamed_struct_2
+UID: NS:wdm.BATTERY_REPORTING_SCALE
 title: BATTERY_REPORTING_SCALE (wdm.h)
 description: Battery miniclass drivers fill in this structure in response to certain BatteryMiniQueryInformation requests.
 tech.root: battery
@@ -45,6 +45,7 @@ api_name:
 
 # BATTERY_REPORTING_SCALE structure
 
+
 ## -description
 
 Battery miniclass drivers fill in this structure in response to certain [BatteryMiniQueryInformation](/windows/win32/api/batclass/nc-batclass-bclass_query_information_callback) requests.
@@ -62,3 +63,4 @@ Specify the battery capacity described by the corresponding granularity, in mill
 ## -see-also
 
 [BatteryMiniQueryInformation](/windows/win32/api/batclass/nc-batclass-bclass_query_information_callback)
+

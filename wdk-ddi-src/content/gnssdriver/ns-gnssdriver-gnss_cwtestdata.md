@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_48
+UID: NS:gnssdriver.GNSS_CWTESTDATA
 title: GNSS_CWTESTDATA (gnssdriver.h)
 description: This structure defines specific data elements associated with carrier wave test results returned from the driver.
 tech.root: gnss
@@ -77,3 +77,4 @@ This frequency is provided as a difference to GPS frequency (1575.42 MHz) in kHz
 ### -field Unused
 
 Padding buffer reserved for future use.
+

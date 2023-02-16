@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_82
+UID: NS:ks.KSPROPERTY_SERIAL
 title: KSPROPERTY_SERIAL (ks.h)
 description: The KSPROPERTY_SERIAL structure is a header that is included for each property that follows a KSPROPERTY_SERIALHDR structure.
 old-location: stream\ksproperty_serial.htm
@@ -45,6 +45,7 @@ api_name:
 
 # KSPROPERTY_SERIAL structure
 
+
 ## -description
 
 The **KSPROPERTY_SERIAL** structure is a header that is included for each property that follows a **KSPROPERTY_SERIALHDR** structure.
@@ -72,3 +73,4 @@ A **KSPROPERTY_SERIAL** structure is followed by the property data, with the sta
 [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)
 
 [**KSPROPERTY_SERIALHDR**](./ns-ks-ksproperty_serialhdr.md)
+

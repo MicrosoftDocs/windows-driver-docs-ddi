@@ -1,5 +1,5 @@
 ---
-UID: NS:wmistr.__unnamed_struct_2
+UID: NS:wmistr.WMIREGINFOW
 title: WMIREGINFOW (wmistr.h)
 description: The WMIREGINFO structure contains information provided by a driver to register or update its data blocks and event blocks.
 old-location: kernel\wmireginfo.htm

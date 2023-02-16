@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_10
+UID: NE:ks.KSINTERFACE_FILEIO
 title: KSINTERFACE_FILEIO (ks.h)
 description: "Learn more about: KSINTERFACE_FILEIO enumeration"
 old-location: stream\ksinterface_fileio.htm

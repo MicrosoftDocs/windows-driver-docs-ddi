@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_23
+UID: NE:ksmedia.TELEPHONY_CALLTYPE
 title: TELEPHONY_CALLTYPE (ksmedia.h)
 description: The TELEPHONY_CALLTYPE enumeration defines constants that specify the type of phone call.
 old-location: audio\telephony_calltype.htm
@@ -72,3 +72,4 @@ Specifies a packet-switched wireless LAN (WLAN) phone call.
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstelephony_providerchange">KSTELEPHONY_PROVIDERCHANGE</a>
+

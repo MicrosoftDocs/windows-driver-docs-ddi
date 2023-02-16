@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_43
+UID: NS:gnssdriver.GNSS_AGNSS_INJECT
 title: GNSS_AGNSS_INJECT (gnssdriver.h)
 description: The GNSS_AGNSS_INJECT structure defines the parameters for AGNSS injection.
 tech.root: gnss
@@ -87,3 +87,4 @@ Padding buffer reserved for future use.
 ### -field BlobData
 
 [GNSS_AGNSS_INJECTBLOB](./ns-gnssdriver-gnss_agnss_injectblob.md)  contains the format for AGNSS extended ephemeris injection.
+

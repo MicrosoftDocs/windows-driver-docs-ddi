@@ -1,5 +1,5 @@
 ---
-UID: NE:minitape.__unnamed_enum_2
+UID: NE:minitape.SRBEX_DATA_NVME_COMMAND_TYPE
 tech.root: storage
 title: SRBEX_DATA_NVME_COMMAND_TYPE (minitape.h)
 ms.date: 05/13/2021
@@ -11,7 +11,7 @@ req.header: minitape.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -43,3 +43,4 @@ See [**SRBEX_DATA_NVME_COMMAND_TYPE** (*srb.h*)](../srb/ne-srb-srbex_data_nvme_c
 ### -field SRBEX_DATA_NVME_COMMAND_TYPE_NVM
 
 ### -field SRBEX_DATA_NVME_COMMAND_TYPE_ADMIN
+

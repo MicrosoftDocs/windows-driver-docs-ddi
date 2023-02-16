@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_39
+UID: NS:gnssdriver.GNSS_EVENT_2
 title: GNSS_EVENT_2 (gnssdriver.h)
 ms.date: 04/05/2021
 targetos: Windows
@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: GNSS_EVENT_2, *PGNSS_EVENT_2
@@ -113,3 +113,4 @@ Custom data field.
 ## -remarks
 
 ## -see-also
+

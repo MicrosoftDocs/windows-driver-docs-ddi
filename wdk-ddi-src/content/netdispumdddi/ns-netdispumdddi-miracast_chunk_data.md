@@ -1,5 +1,5 @@
 ---
-UID: NS:netdispumdddi.__unnamed_struct_3
+UID: NS:netdispumdddi.MIRACAST_CHUNK_DATA
 title: MIRACAST_CHUNK_DATA (netdispumdddi.h)
 description: Contains encode chunk data that is used when a user-mode driver calls the wireless display (Miracast) GetNextChunkData function.
 old-location: display\miracast_chunk_data.htm
@@ -68,3 +68,4 @@ Private data, of type <b>UCHAR</b>, that the user-mode display driver sends when
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_chunk_info">MIRACAST_CHUNK_INFO</a>
+

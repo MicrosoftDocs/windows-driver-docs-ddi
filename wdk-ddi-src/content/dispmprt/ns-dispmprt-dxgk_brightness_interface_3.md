@@ -1,38 +1,38 @@
 ---
-UID: NS:dispmprt.__unnamed_struct_2
+UID: NS:dispmprt.DXGK_BRIGHTNESS_INTERFACE_3
 title: DXGK_BRIGHTNESS_INTERFACE_3 (dispmprt.h)
 description: "Learn more about: DXGK_BRIGHTNESS_INTERFACE_3 structure"
 ms.date: 09/23/2022
 keywords: ["DXGK_BRIGHTNESS_INTERFACE_3 structure"]
+ms.keywords: DXGK_BRIGHTNESS_INTERFACE_3, *PDXGK_BRIGHTNESS_INTERFACE_3, DXGK_BRIGHTNESS_INTERFACE_3,
+req.header: dispmprt.h
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
+req.typenames: DXGK_BRIGHTNESS_INTERFACE_3, *PDXGK_BRIGHTNESS_INTERFACE_3
+targetos: Windows
+tech.root: display
 f1_keywords:
  - "dispmprt/DXGK_BRIGHTNESS_INTERFACE_3"
  - "DXGK_BRIGHTNESS_INTERFACE_3"
-ms.keywords: DXGK_BRIGHTNESS_INTERFACE_3, *PDXGK_BRIGHTNESS_INTERFACE_3, DXGK_BRIGHTNESS_INTERFACE_3,
-req.header: dispmprt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
-req.typenames: DXGK_BRIGHTNESS_INTERFACE_3, *PDXGK_BRIGHTNESS_INTERFACE_3
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- dispmprt.h
+ - dispmprt.h
 api_name:
-- DXGK_BRIGHTNESS_INTERFACE_3
-product: 
-- Windows
-targetos: Windows
-tech.root: display
+ - DXGK_BRIGHTNESS_INTERFACE_3
+product:
+ - Windows
 ---
 
 ## -description
@@ -80,3 +80,4 @@ A pointer to the display miniport driver's [DxgkDdiGetNitRanges](..\dispmprt\nc-
 ### -field SetBacklightOptimization [out]
 
 A pointer to the display miniport driver's [DxgkBrightnessSetBacklightOptimization3](..\dispmprt\nc-dispmprt-dxgk_brightness_set_backlight_optimization_3.md) function. This function is available starting with Windows 10.
+

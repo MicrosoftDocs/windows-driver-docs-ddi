@@ -1,5 +1,5 @@
 ---
-UID: NS:sensorsstructures.__unnamed_struct_4
+UID: NS:sensorsstructures.QUATERNION
 title: QUATERNION (sensorsstructures.h)
 description: A structure that represents a 4-dimensional vector used for simple 3D rotation operation.
 ms.date: 10/19/2018

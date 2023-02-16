@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_53
+UID: NS:ksmedia.KSWAVE_VOLUME
 title: KSWAVE_VOLUME (ksmedia.h)
 description: The KSWAVE_VOLUME structure is used to describe sample volume.
 old-location: stream\kswave_volume.htm

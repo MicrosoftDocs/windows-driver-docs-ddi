@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_9
+UID: NE:ks.KSINTERFACE_STANDARD
 title: KSINTERFACE_STANDARD (ks.h)
 description: "Learn more about: KSINTERFACE_STANDARD enumeration"
 old-location: stream\ksinterface_standard.htm

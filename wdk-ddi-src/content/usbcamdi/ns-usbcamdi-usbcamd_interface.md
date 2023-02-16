@@ -1,5 +1,5 @@
 ---
-UID: NS:usbcamdi.__unnamed_struct_0
+UID: NS:usbcamdi.USBCAMD_INTERFACE
 title: USBCAMD_INTERFACE (usbcamdi.h)
 description: The USBCAMD_INTERFACE structure defines a set of services related to the USB bus interfaces.
 old-location: stream\usbcamd_interface.htm

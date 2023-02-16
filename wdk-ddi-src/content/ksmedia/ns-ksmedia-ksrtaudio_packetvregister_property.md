@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_36
+UID: NS:ksmedia.KSRTAUDIO_PACKETVREGISTER_PROPERTY
 title: KSRTAUDIO_PACKETVREGISTER_PROPERTY (ksmedia.h)
 description: The KSRTAUDIO_PACKETVREGISTER_PROPERTY structure contains information about the KSPROPERTY_RTAUDIO_PACKETVREGISTER property.
 ms.date: 11/17/2020
@@ -39,6 +39,7 @@ api_name:
 
 # KSRTAUDIO_PACKETVREGISTER_PROPERTY structure
 
+
 ## -description
 
 The **KSRTAUDIO_PACKETVREGISTER_PROPERTY** structure contains information about the **KSPROPERTY_RTAUDIO_PACKETVREGISTER** property.
@@ -58,3 +59,4 @@ A PVOID pointer to the property's base address.
 ## -see-also
 
 [**KSPROPSETID_RTAudio**](/windows-hardware/drivers/audio/kspropsetid-rtaudio)
+

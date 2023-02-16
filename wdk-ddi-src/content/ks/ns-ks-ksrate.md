@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_56
+UID: NS:ks.KSRATE
 title: KSRATE (ks.h)
 description: The query is passed a KSRATE structure appended to the property containing the rate request (known as a KSRATE_CAPABILITY structure), and is returned a KSRATE structure filled in with the capability given the rate request.
 old-location: stream\ksrate.htm

@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_18
+UID: NS:ksmedia.KSDS3D_ITD_PARAMS
 title: KSDS3D_ITD_PARAMS (ksmedia.h)
 description: The KSDS3D_ITD_PARAMS structure specifies the parameters applied by the interaural time delay (ITD) algorithm to the left or right channel in a 3D node (KSNODETYPE_3D_EFFECTS).
 old-location: audio\ksds3d_itd_params.htm
@@ -44,6 +44,7 @@ api_name:
 ---
 
 # KSDS3D_ITD_PARAMS structure
+
 
 ## -description
 
@@ -94,3 +95,4 @@ When a KSPROPERTY_ITD3D_PARAMS set-property request changes either **TotalDryAtt
 [KSDS3D_ITD_PARAMS_MSG](./ns-ksmedia-ksds3d_itd_params_msg.md)
 
 [KSPROPERTY_ITD3D_PARAMS](/windows-hardware/drivers/audio/ksproperty-itd3d-params)
+

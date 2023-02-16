@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_39
+UID: NS:ksmedia.KSSOUNDDETECTORPROPERTY
 title: KSSOUNDDETECTORPROPERTY (ksmedia.h)
 description: The KSSOUNDDETECTORPROPERTY structure specifies a node and an Event ID.
 old-location: audio\KSSOUNDDETECTORPROPERTY.htm

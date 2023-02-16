@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_66
+UID: NS:ks.KSPROPERTY_ITEM
 title: KSPROPERTY_ITEM (ks.h)
 description: Drivers use the KSPROPERTY_ITEM structure to describe how they support a property in a property set.
 old-location: stream\ksproperty_item.htm

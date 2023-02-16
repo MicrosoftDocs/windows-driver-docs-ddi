@@ -1,5 +1,5 @@
 ---
-UID: NS:strmini.__unnamed_struct_0
+UID: NS:strmini.KSSCATTER_GATHER
 title: KSSCATTER_GATHER (strmini.h)
 description: "Learn more about: KSSCATTER_GATHER structure"
 old-location: stream\ksscatter_gather.htm

@@ -1,5 +1,5 @@
 ---
-UID: NS:minitape.__unnamed_struct_19
+UID: NS:minitape.ST_PARAMETER_DATA
 title: ST_PARAMETER_DATA (minitape.h)
 description: The ST_PARAMETER_DATA structure (minitape.h) contains the parameter list for the set timestamp command.
 tech.root: storage
@@ -63,3 +63,4 @@ Reserved for future use.
 ## -see-also
 
 [**RT_PARAMETER_DATA**](ns-minitape-rt_parameter_data.md)
+

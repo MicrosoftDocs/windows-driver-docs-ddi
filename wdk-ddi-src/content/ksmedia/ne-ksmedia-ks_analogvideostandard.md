@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_61
+UID: NE:ksmedia.KS_AnalogVideoStandard
 title: KS_AnalogVideoStandard (ksmedia.h)
 description: The KS_AnalogVideoStandard enumeration defines various analog video standards that are used worldwide.
 old-location: stream\ks_analogvideostandard.htm
@@ -160,3 +160,4 @@ You can combine the values in the KS_AnalogVideoStandard enumeration with a bitw
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ks_video_stream_config_caps">KS_VIDEO_STREAM_CONFIG_CAPS</a>
+

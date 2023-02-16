@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_45
+UID: NS:ks.KSSTREAMALLOCATOR_STATUS_EX
 title: KSSTREAMALLOCATOR_STATUS_EX (ks.h)
 description: Client use KSSTREAMALLOCATOR_STATUS_EX to query the status for allocators supporting the extended allocator framing.
 old-location: stream\ksstreamallocator_status_ex.htm

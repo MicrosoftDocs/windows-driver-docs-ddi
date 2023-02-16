@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_7
+UID: NS:ksmedia.KSAUDIO_POSITION
 title: KSAUDIO_POSITION (ksmedia.h)
 description: The KSAUDIO_POSITION structure specifies the current positions of the play and write cursors in the sound buffer for an audio stream.
 old-location: audio\ksaudio_position.htm

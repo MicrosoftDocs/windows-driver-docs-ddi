@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_28
+UID: NS:ks.KSPIN_CINSTANCES
 title: KSPIN_CINSTANCES (ks.h)
 description: "Learn more about: KSPIN_CINSTANCES structure"
 old-location: stream\kspin_cinstances.htm

@@ -1,5 +1,5 @@
 ---
-UID: NE:dot11wificxintf.__unnamed_enum_0
+UID: NE:dot11wificxintf.eDiagnoseLevel
 tech.root: netvista
 title: eDiagnoseLevel
 ms.date: 04/30/2021
@@ -11,7 +11,7 @@ req.header: dot11wificxintf.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 11 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 

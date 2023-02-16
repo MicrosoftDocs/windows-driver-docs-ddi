@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_50
+UID: NS:ksmedia.KSWAVE_COMPATCAPS
 title: KSWAVE_COMPATCAPS (ksmedia.h)
 description: The KSWAVE_COMPATCAPS structure is used to describe the compatible capabilities of a device.
 old-location: stream\kswave_compatcaps.htm

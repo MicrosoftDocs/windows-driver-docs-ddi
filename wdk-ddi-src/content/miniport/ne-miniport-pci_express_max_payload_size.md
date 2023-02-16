@@ -1,5 +1,5 @@
 ---
-UID: NE:miniport.__unnamed_enum_13
+UID: NE:miniport.PCI_EXPRESS_MAX_PAYLOAD_SIZE
 tech.root: PCI
 title: PCI_EXPRESS_MAX_PAYLOAD_SIZE
 ms.date: 05/13/2021
@@ -11,7 +11,7 @@ req.header: miniport.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -64,3 +64,4 @@ The PCIe controller will use a maximum data payload size of 4096 bytes.
 ## -remarks
 
 **PCI_EXPRESS_MAX_PAYLOAD_SIZE** is reserved for system use.
+

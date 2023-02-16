@@ -1,5 +1,5 @@
 ---
-UID: NS:scsi.__unnamed_struct_25
+UID: NS:scsi.POPULATE_TOKEN_HEADER
 title: POPULATE_TOKEN_HEADER (scsi.h)
 description: The POPULATE_TOKEN_HEADER structure (scsi.h) contains the header for the parameters in a command data block (CDB) of the POPULATE TOKEN command.
 tech.root: storage
@@ -89,3 +89,4 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 ## -see-also
 
 [**BLOCK_DEVICE_RANGE_DESCRIPTOR**](./ns-scsi-block_device_range_descriptor.md)
+

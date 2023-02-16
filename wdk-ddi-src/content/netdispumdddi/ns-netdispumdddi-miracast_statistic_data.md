@@ -1,5 +1,5 @@
 ---
-UID: NS:netdispumdddi.__unnamed_struct_2
+UID: NS:netdispumdddi.MIRACAST_STATISTIC_DATA
 title: MIRACAST_STATISTIC_DATA (netdispumdddi.h)
 description: Contains Miracast statistics data that the user-mode display driver reports to the operating system.
 old-location: display\miracast_statistic_data.htm
@@ -86,3 +86,4 @@ The type of protocol event, given as a value of the <a href="/windows-hardware/d
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/ne-netdispumdddi-miracast_statistic_type">MIRACAST_STATISTIC_TYPE</a>
+

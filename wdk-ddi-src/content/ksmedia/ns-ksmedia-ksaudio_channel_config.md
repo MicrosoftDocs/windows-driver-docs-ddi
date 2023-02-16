@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_42
+UID: NS:ksmedia.KSAUDIO_CHANNEL_CONFIG
 title: KSAUDIO_CHANNEL_CONFIG (ksmedia.h)
 description: The KSAUDIO_CHANNEL_CONFIG structure specifies the configuration of channels within the data format of an audio stream.
 tech.root: audio
@@ -183,3 +183,4 @@ For a PCM format with a 16-bit sample size, each block of audio data occupies 12
 [KSPROPERTY_AUDIO_CHANNEL_CONFIG](/windows-hardware/drivers/audio/ksproperty-audio-channel-config)
 
 [WAVEFORMATEXTENSIBLE](./ns-ksmedia-waveformatextensible.md)
+

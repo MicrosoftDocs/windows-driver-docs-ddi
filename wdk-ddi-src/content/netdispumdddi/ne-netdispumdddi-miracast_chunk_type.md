@@ -1,5 +1,5 @@
 ---
-UID: NE:netdispumdddi.__unnamed_enum_3
+UID: NE:netdispumdddi.MIRACAST_CHUNK_TYPE
 title: MIRACAST_CHUNK_TYPE (netdispumdddi.h)
 description: The MIRACAST_CHUNK_TYPE enumeration contains values that indicate the types of wireless display (Miracast) chunk info that is to be processed.
 old-location: display\miracast_chunk_type.htm

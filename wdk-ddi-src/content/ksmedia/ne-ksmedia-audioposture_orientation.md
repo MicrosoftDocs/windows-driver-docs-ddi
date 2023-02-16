@@ -1,12 +1,10 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_128
-title:  AUDIOPOSTURE_ORIENTATION
+UID: NE:ksmedia.AUDIOPOSTURE_ORIENTATION
+title: AUDIOPOSTURE_ORIENTATION
 ms.date: 08/11/2021
 ms.topic: language-reference
 targetos: Windows
-product:
-- Windows
-description: The rotation values indicates the orientation of screen in sync with the UI. The UI may be locked to a particular orientation regardless of the physical sensor. 
+description: The rotation values indicates the orientation of screen in sync with the UI. The UI may be locked to a particular orientation regardless of the physical sensor.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: ksmedia.h
@@ -18,6 +16,8 @@ req.target-min-winversvr:
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
+product:
+ - Windows
 topic_type:
  - apiref
 api_type:
@@ -25,12 +25,13 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
- -  AUDIOPOSTURE_ORIENTATION
+ - AUDIOPOSTURE_ORIENTATION
 f1_keywords:
  - ksmedia/AUDIOPOSTURE_ORIENTATION
 dev_langs:
  - c++
 ---
+
 ## -description
 
 The rotation values indicates the orientation of screen in sync with the UI. The UI may be locked to a particular orientation regardless of the physical sensor. This indicates the UI/shell orientation on the particular screen.
@@ -53,9 +54,9 @@ The panel is rotated 180 degrees counter-clockwise.
 
 The panel is rotated 270 degrees counter-clockwise.
 
-
 ## -remarks
 
 ## -see-also
 
 [Supporting Audio Posture](/windows-hardware/drivers/audio/supporting-audio-posture)
+

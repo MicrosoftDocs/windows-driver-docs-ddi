@@ -1,5 +1,5 @@
 ---
-UID: NE:pmi.__unnamed_enum_2
+UID: NE:pmi.PMI_MEASUREMENT_UNIT
 title: PMI_MEASUREMENT_UNIT (pmi.h)
 description: The PMI_MEASUREMENT_UNIT enumeration defines the units of the PMI measurement data.
 old-location: powermeter\pmi_measurement_unit.htm
@@ -68,3 +68,4 @@ The <b>MeasurementUnit</b> member of the <a href="/windows-hardware/drivers/ddi/
 
 
 <a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_reported_capabilities">PMI_REPORTED_CAPABILITIES</a>
+

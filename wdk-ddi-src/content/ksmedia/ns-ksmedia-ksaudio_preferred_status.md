@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_47
+UID: NS:ksmedia.KSAUDIO_PREFERRED_STATUS
 title: KSAUDIO_PREFERRED_STATUS (ksmedia.h)
 description: The KSAUDIO_PREFERRED_STATUS structure specifies the status of a preferred device.
 old-location: audio\ksaudio_preferred_status.htm

@@ -1,5 +1,5 @@
 ---
-UID: NS:scsi.__unnamed_struct_26
+UID: NS:scsi.WRITE_USING_TOKEN_HEADER
 title: WRITE_USING_TOKEN_HEADER (scsi.h)
 description: The WRITE_USING_TOKEN_HEADER structure (scsi.h) describes the destination data locations for an offload write data operation.
 tech.root: storage
@@ -93,3 +93,4 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 [**BLOCK_DEVICE_RANGE_DESCRIPTOR**](./ns-scsi-block_device_range_descriptor.md)
 
 [**POPULATE_TOKEN_HEADER**](../storport/ns-storport-populate_token_header.md)
+

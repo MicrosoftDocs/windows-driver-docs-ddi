@@ -1,5 +1,5 @@
 ---
-UID: NS:minitape.__unnamed_struct_27
+UID: NS:minitape.RECEIVE_TOKEN_INFORMATION_HEADER
 title: RECEIVE_TOKEN_INFORMATION_HEADER (minitape.h)
 description: The RECEIVE_TOKEN_INFORMATION_HEADER structure (minitape.h) contains information that describes the status of an offload data transfer operation.
 tech.root: storage
@@ -143,3 +143,4 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 ## -see-also
 
 [**RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER**](./ns-minitape-receive_token_information_response_header.md)
+

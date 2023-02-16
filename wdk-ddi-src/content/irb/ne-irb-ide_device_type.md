@@ -1,5 +1,5 @@
 ---
-UID: NE:irb.__unnamed_enum_0
+UID: NE:irb.IDE_DEVICE_TYPE
 title: IDE_DEVICE_TYPE (irb.h)
 description: The IDE_DEVICE_TYPE enumeration type indicates the device type.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_device_type.htm
@@ -65,3 +65,4 @@ Indicates an ATAPI device.
 ### -field DeviceNotExist
 
 Indicates that the device does not exist.
+

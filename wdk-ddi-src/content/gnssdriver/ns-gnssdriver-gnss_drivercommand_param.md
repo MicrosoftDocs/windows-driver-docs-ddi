@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_4
+UID: NS:gnssdriver.GNSS_DRIVERCOMMAND_PARAM
 title: GNSS_DRIVERCOMMAND_PARAM (gnssdriver.h)
 description: The GNSS_DRIVERCOMMAND_PARAM structure is used to send a command to the GNSS driver.
 tech.root: gnss
@@ -81,3 +81,4 @@ Padding buffer reserved for future use.
 Data associated with the specific command type.
 
 The driver must cast this buffer to the appropriate data type depending on the specific command.
+

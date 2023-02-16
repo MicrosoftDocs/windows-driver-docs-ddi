@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_9
+UID: NS:gnssdriver.GNSS_FIXSESSION_PARAM
 title: GNSS_FIXSESSION_PARAM (gnssdriver.h)
 description: This structure defines the parameters used by the GNSS adapter to start a fix session.
 tech.root: gnss
@@ -119,3 +119,4 @@ Padding buffer reserved for future use.
 ## -remarks
 
 The fix session parameters are different for different types of sessions. This structure contains a common set of parameters applicable for all fix sessions, followed by an overloaded structure (union) for each fix session type. The GNSS driver must use the appropriate structure from the union depending on the session type.
+

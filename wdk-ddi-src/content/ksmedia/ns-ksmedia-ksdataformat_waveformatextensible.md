@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_4
+UID: NS:ksmedia.KSDATAFORMAT_WAVEFORMATEXTENSIBLE
 title: KSDATAFORMAT_WAVEFORMATEXTENSIBLE (ksmedia.h)
 description: The KSDATAFORMAT_WAVEFORMATEXTENSIBLE structure is a convenient wrapper structure for the case in which the WaveFormatExt does not contain extra data.
 tech.root: audio
@@ -45,6 +45,7 @@ f1_keywords:
 
 # KSDATAFORMAT_WAVEFORMATEXTENSIBLE structure
 
+
 ## -description
 
 The KSDATAFORMAT_WAVEFORMATEXTENSIBLE structure is a convenient wrapper structure for the case in which the WaveFormatExt is known not to contain extra data.
@@ -74,3 +75,4 @@ For information refer to the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-k
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a>
+

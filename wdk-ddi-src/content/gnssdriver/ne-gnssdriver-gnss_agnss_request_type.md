@@ -1,5 +1,5 @@
 ---
-UID: NE:gnssdriver.__unnamed_enum_5
+UID: NE:gnssdriver.GNSS_AGNSS_REQUEST_TYPE
 title: GNSS_AGNSS_REQUEST_TYPE (gnssdriver.h)
 description: This enumeration indicates the type of AGNSS injection request represented by the GNSS_AGNSS_REQUEST_PARAM structure.
 old-location: gnss\gnss_agnss_request_type.htm
@@ -60,3 +60,4 @@ Indicates the injection request is for position injection.
 ### -field GNSS_AGNSS_BlobInjection
 
 Indicates the injection request is for blob injection.
+

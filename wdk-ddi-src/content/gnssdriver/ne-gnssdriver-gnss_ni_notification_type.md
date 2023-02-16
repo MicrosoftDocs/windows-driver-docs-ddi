@@ -1,5 +1,5 @@
 ---
-UID: NE:gnssdriver.__unnamed_enum_8
+UID: NE:gnssdriver.GNSS_NI_NOTIFICATION_TYPE
 title: GNSS_NI_NOTIFICATION_TYPE (gnssdriver.h)
 description: GNSS_NI_NOTIFICATION_TYPE enumerates network-initialized (NI) notification types.
 old-location: gnss\gnss_ni_notification_type.htm

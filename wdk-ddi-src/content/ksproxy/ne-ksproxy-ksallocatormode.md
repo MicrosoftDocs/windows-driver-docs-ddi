@@ -1,5 +1,5 @@
 ---
-UID: NE:ksproxy.__unnamed_enum_0
+UID: NE:ksproxy.KSALLOCATORMODE
 title: KSALLOCATORMODE (ksproxy.h)
 description: "Learn more about: KSALLOCATORMODE enumeration"
 old-location: stream\ksallocatormode.htm

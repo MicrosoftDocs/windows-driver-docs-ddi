@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.__unnamed_struct_10
+UID: NS:ufs.UFS_DEVICE_HEALTH_DESCRIPTOR
 title: UFS_DEVICE_HEALTH_DESCRIPTOR (ufs.h)
 description: The UFS_DEVICE_HEALTH_DESCRIPTOR structure describes the health of a device.
 old-location: storage\ufs_device_health_descriptor.htm
@@ -161,11 +161,6 @@ reserved blocks.</td>
 <b>bDeviceLifeTimeEstB</b> provides an estimation of how much of a device's estimated life time has been used based on the amount of performed program/erase cycles. This calculation is vendor-specific and is referred as method B. Contains the same possible values as <b>bDeviceLifeTimeEstA</b>.
 
 ### -field VendorPropInfo
-
- 
-
-
-
 
 ### -field VendorPropInfo[32]
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_16
+UID: NS:gnssdriver.GNSS_FIXDATA_SATELLITE
 title: GNSS_FIXDATA_SATELLITE (gnssdriver.h)
 description: The GNSS_FIXDATA_SATELLITE structure in gnssdriver.h defines satellite-related information of a fix.
 tech.root: gnss
@@ -63,3 +63,4 @@ Number of satellites in this structure. Not all satellites are actually used for
 ### -field SatelliteArray
 
 An array of satellites with each array element representing information about a specific satellite.
+

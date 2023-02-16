@@ -1,5 +1,5 @@
 ---
-UID: NE:gnssdriver.__unnamed_enum_4
+UID: NE:gnssdriver.GNSS_EVENT_TYPE
 title: GNSS_EVENT_TYPE (gnssdriver.h)
 description: This enumeration indicates the type of an event and is used by the GNSS_EVENT structure.
 old-location: gnss\gnss_event_type.htm
@@ -10,7 +10,7 @@ ms.keywords: GNSS_EVENT_TYPE, GNSS_EVENT_TYPE enumeration [Sensor Devices], GNSS
 req.header: gnssdriver.h
 req.include-header: Gnssdriver.h
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: Windows Server 2022
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,6 +41,7 @@ api_name:
 ---
 
 # GNSS_EVENT_TYPE enumeration
+
 
 ## -description
 
@@ -103,3 +104,4 @@ The GNSS driver raises this event as needed. The command and data are packaged i
 ## -remarks
 
 Events can be of various types. Certain events occur as a result of a previous request initiated by the driver, for example, start fix request. Certain events are raised for informational purpose. Assistance events are raised when the driver requires the adapter to inject specific assistance data.
+

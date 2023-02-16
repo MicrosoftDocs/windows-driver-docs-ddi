@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_57
+UID: NS:ks.KSRATE_CAPABILITY
 title: KSRATE_CAPABILITY (ks.h)
 description: The client uses the KSRATE_CAPABILITY structure in a KSPROPERTY_STREAM_RATECAPABILITY property request.
 old-location: stream\ksrate_capability.htm

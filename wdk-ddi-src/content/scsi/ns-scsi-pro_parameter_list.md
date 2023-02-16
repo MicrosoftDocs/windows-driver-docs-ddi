@@ -1,5 +1,5 @@
 ---
-UID: NS:scsi.__unnamed_struct_17
+UID: NS:scsi.PRO_PARAMETER_LIST
 title: PRO_PARAMETER_LIST (scsi.h)
 description: The PRO_PARAMETER_LIST structure (scsi.h) contains reservation information that is sent in a Persistent Reserve Out (PRO) command to a device server.
 tech.root: storage
@@ -107,3 +107,4 @@ The [**IOCTL_STORAGE_PERSISTENT_RESERVE_OUT**](../ntddstor/ni-ntddstor-ioctl_sto
 ## -see-also
 
 [**IOCTL_STORAGE_PERSISTENT_RESERVE_OUT**](../ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_out.md)
+

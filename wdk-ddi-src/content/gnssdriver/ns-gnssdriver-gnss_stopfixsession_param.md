@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_10
+UID: NS:gnssdriver.GNSS_STOPFIXSESSION_PARAM
 title: GNSS_STOPFIXSESSION_PARAM (gnssdriver.h)
 description: This structure is used to stop an active fix session.
 tech.root: gnss
@@ -63,3 +63,4 @@ ID of an active fix session.
 ### -field Unused
 
 Padding buffer reserved for future use.
+

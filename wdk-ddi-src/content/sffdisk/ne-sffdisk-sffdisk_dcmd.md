@@ -1,5 +1,5 @@
 ---
-UID: NE:sffdisk.__unnamed_enum_0
+UID: NE:sffdisk.SFFDISK_DCMD
 title: SFFDISK_DCMD (sffdisk.h)
 description: The SFFDISK_DCMD enumeration identifies the type of Secure Digital (SD) card operation.
 old-location: sd\sffdisk_dcmd.htm
@@ -72,3 +72,4 @@ Applications that submit IOCTL_SFFDISK_DEVICE_COMMAND requests to the SD stack u
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff538133(v=vs.85)">SFFDISK_DEVICE_COMMAND_DATA</a>
+

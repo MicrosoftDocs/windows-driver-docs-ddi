@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_42
+UID: NS:gnssdriver.GNSS_AGNSS_INJECTBLOB
 title: GNSS_AGNSS_INJECTBLOB (gnssdriver.h)
 description: The GNSS_AGNSS_INJECTBLOB structure defines the format for AGNSS extended ephemeris injection.
 tech.root: gnss
@@ -79,3 +79,4 @@ Size of the blob data in bytes.
 This field defines the start of the blob data.
 
 The structure only contains the first byte of the blob data. The rest of the blob data is saved right after the structure in the memory. The size of the blob  is indicated by BlobSize.
+

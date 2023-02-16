@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_51
+UID: NS:ksmedia.KSWAVE_INPUT_CAPABILITIES
 title: KSWAVE_INPUT_CAPABILITIES (ksmedia.h)
 description: The KSWAVE_INPUT_CAPABILITIES structure is used to describe the input capabilities of a device.
 old-location: stream\kswave_input_capabilities.htm

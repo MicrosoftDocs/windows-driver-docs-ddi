@@ -1,5 +1,5 @@
 ---
-UID: NS:scsi.__unnamed_struct_18
+UID: NS:scsi.RT_PARAMETER_DATA
 title: RT_PARAMETER_DATA (scsi.h)
 description: The RT_PARAMETER_DATA structure (scsi.h) contains the parameter data for the report timestamp command.
 tech.root: storage
@@ -83,3 +83,4 @@ Reserved for future use.
 ## -see-also
 
 [**ST_PARAMETER_DATA**](../storport/ns-storport-st_parameter_data.md)
+

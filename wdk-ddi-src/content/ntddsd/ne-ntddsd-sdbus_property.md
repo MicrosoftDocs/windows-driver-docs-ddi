@@ -1,5 +1,5 @@
 ---
-UID: NE:ntddsd.__unnamed_enum_0
+UID: NE:ntddsd.SDBUS_PROPERTY
 title: SDBUS_PROPERTY (ntddsd.h)
 description: The SDBUS_PROPERTY enumeration lists the properties of a Secure Digital (SD) card that an SD device driver can set with an SD request.
 old-location: sd\sdbus_property.htm
@@ -145,3 +145,4 @@ Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACK
 
 
 <a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a>
+

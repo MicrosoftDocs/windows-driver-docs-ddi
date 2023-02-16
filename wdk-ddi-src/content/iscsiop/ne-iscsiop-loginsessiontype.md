@@ -1,5 +1,5 @@
 ---
-UID: NE:iscsiop.__unnamed_enum_0
+UID: NE:iscsiop.LOGINSESSIONTYPE
 title: LOGINSESSIONTYPE (iscsiop.h)
 description: The LOGINSESSIONTYPE enumeration indicates the type of logon session.
 old-location: storage\loginsessiontype.htm

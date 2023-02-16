@@ -1,5 +1,5 @@
 ---
-UID: NS:ntddk.__unnamed_struct_17
+UID: NS:ntddk.DEBUG_DEVICE_ADDRESS
 tech.root: kernel
 title: DEBUG_DEVICE_ADDRESS (ntddk.h)
 ms.date: 03/07/2022
@@ -78,3 +78,4 @@ Defines the **UCHAR** member **Length**.
 ## -remarks
 
 ## -see-also
+

@@ -1,5 +1,5 @@
 ---
-UID: NS:winsplp.__unnamed_struct_0
+UID: NS:winsplp.BranchOfficeJobDataPrinted
 title: BranchOfficeJobDataPrinted (winsplp.h)
 description: Contains the necessary data for logging a branch office job completed event on a remote server. This is based on standard job-related data available to the spooler.
 old-location: print\branchofficejobdataprinted.htm

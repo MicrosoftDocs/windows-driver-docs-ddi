@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_7
+UID: NE:ks.KSPROPERTY_TOPOLOGY
 title: KSPROPERTY_TOPOLOGY (ks.h)
 description: "Learn more about: KSPROPERTY_TOPOLOGY enumeration"
 old-location: stream\ksproperty_topology.htm

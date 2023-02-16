@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_95
+UID: NS:ksmedia.KSPROPERTY_SELECTOR_NODE_S
 title: KSPROPERTY_SELECTOR_NODE_S (ksmedia.h)
 description: The KSPROPERTY_SELECTOR_NODE_S structure describes node-based property settings in the PROPSETID_VIDCAP_SELECTOR property set.
 old-location: stream\ksproperty_selector_node_s.htm

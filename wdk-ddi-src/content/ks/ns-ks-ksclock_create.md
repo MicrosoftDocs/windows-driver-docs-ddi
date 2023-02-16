@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_58
+UID: NS:ks.KSCLOCK_CREATE
 title: KSCLOCK_CREATE (ks.h)
 description: The KSCLOCK_CREATE structure is used in clock create parameters for the KsCreateClock function.
 old-location: stream\ksclock_create.htm

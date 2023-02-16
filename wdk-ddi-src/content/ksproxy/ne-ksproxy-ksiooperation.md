@@ -1,5 +1,5 @@
 ---
-UID: NE:ksproxy.__unnamed_enum_7
+UID: NE:ksproxy.KSIOOPERATION
 title: KSIOOPERATION (ksproxy.h)
 description: "Learn more about: KSIOOPERATION enumeration"
 old-location: stream\ksiooperation.htm

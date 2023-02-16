@@ -1,5 +1,5 @@
 ---
-UID: NE:iscsicfg.__unnamed_enum_0
+UID: NE:iscsicfg.ISCSI_NIC_LINKSTATE
 title: ISCSI_NIC_LINKSTATE (iscsicfg.h)
 description: The ISCSI_NIC_LINKSTATE enumeration indicates whether a port is connected to the network or not.
 old-location: storage\iscsi_nic_linkstate.htm

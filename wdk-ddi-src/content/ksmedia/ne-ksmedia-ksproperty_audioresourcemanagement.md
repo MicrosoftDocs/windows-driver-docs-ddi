@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_133
+UID: NE:ksmedia.KSPROPERTY_AUDIORESOURCEMANAGEMENT
 tech.root: stream
 title: KSPROPERTY_AUDIORESOURCEMANAGEMENT (ksmedia.h)
 ms.date: 07/07/2022
@@ -47,3 +47,4 @@ Defines the **KSPROPERTY_AUDIORESOURCEMANAGEMENT_RESOURCEGROUP** constant.
 ## -remarks
 
 ## -see-also
+

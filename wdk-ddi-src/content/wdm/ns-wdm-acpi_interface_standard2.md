@@ -1,5 +1,5 @@
 ---
-UID: NS:wdm.__unnamed_struct_12
+UID: NS:wdm.ACPI_INTERFACE_STANDARD2
 tech.root: kernel
 title: ACPI_INTERFACE_STANDARD2 (wdm.h)
 ms.date: 03/10/2022
@@ -98,3 +98,4 @@ Describes the **PUNREGISTER_FOR_DEVICE_NOTIFICATIONS** member **UnregisterForDev
 ## -remarks
 
 ## -see-also
+

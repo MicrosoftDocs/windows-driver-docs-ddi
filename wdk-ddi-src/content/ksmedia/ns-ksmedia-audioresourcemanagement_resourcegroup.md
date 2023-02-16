@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_165
+UID: NS:ksmedia.AUDIORESOURCEMANAGEMENT_RESOURCEGROUP
 tech.root: stream
 title: AUDIORESOURCEMANAGEMENT_RESOURCEGROUP (ksmedia.h)
 ms.date: 06/13/2022
@@ -58,3 +58,4 @@ Defines the **WCHAR** member **ResourceGroupName**.
 ## -remarks
 
 ## -see-also
+

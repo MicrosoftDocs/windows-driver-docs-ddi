@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_28
+UID: NS:gnssdriver.GNSS_GEOFENCE_ALERT_DATA
 title: GNSS_GEOFENCE_ALERT_DATA (gnssdriver.h)
 description: The GNSS_GEOFENCE_ALERT_DATA structure is used by the GNSS engine to notify a geofence breach alert.
 tech.root: gnss
@@ -75,3 +75,4 @@ The fix used to determine the geofence breach. Instead of the full set of fix da
 ### -field Unused
 
 Padding buffer reserved for future use.
+

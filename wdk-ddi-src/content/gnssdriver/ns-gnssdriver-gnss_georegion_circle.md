@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_23
+UID: NS:gnssdriver.GNSS_GEOREGION_CIRCLE
 title: GNSS_GEOREGION_CIRCLE (gnssdriver.h)
 description: This structure is used for defining a circular geofence.
 old-location: gnss\gnss_georegion_circle.htm

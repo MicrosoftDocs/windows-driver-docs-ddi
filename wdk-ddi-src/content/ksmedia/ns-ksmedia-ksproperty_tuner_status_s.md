@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_104
+UID: NS:ksmedia.KSPROPERTY_TUNER_STATUS_S
 title: KSPROPERTY_TUNER_STATUS_S (ksmedia.h)
 description: The KSPROPERTY_TUNER_STATUS_S structure describes the progress of a tuning operation for TV and radio tuner devices, including present tuning frequency.
 old-location: stream\ksproperty_tuner_status_s.htm

@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_68
+UID: NE:ksmedia.KS_TUNER_STRATEGY
 title: KS_TUNER_STRATEGY (ksmedia.h)
 description: The KS_TUNER_STRATEGY enumeration defines tuning method strategies.
 old-location: stream\ks_tuner_strategy.htm
@@ -64,3 +64,4 @@ The minidriver has total control over the fine tuning process. No fine tuning is
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_tuner_mode_caps_s">KSPROPERTY_TUNER_MODE_CAPS_S</a>
+

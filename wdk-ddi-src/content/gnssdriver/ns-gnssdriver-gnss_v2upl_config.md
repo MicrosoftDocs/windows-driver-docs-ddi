@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_46
+UID: NS:gnssdriver.GNSS_V2UPL_CONFIG
 title: GNSS_V2UPL_CONFIG (gnssdriver.h)
 description: This structure contains V2UPL configuration information.
 tech.root: gnss
@@ -71,3 +71,4 @@ Application type indicator for any mobile originated location request to the MPC
 ### -field Unused
 
 Padding buffer reserved for future use.
+

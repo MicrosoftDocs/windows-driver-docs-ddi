@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_48
+UID: NS:ksmedia.KSAUDIO_POSITIONEX
 title: KSAUDIO_POSITIONEX (ksmedia.h)
 description: The KSAUDIO_POSITIONEX structure specifies the stream position and the associated timestamp information for a kernel streaming (KS)-based audio driver.
 old-location: audio\ksaudio_positionex.htm

@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_54
+UID: NS:ksmedia.KSWAVE_BUFFER
 title: KSWAVE_BUFFER (ksmedia.h)
 description: The KSWAVE_BUFFER structure is used to describe a sample buffer.
 old-location: stream\kswave_buffer.htm

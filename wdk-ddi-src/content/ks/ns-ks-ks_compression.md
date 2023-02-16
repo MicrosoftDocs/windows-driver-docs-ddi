@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_40
+UID: NS:ks.KS_COMPRESSION
 title: KS_COMPRESSION (ks.h)
 description: The KS_COMPRESSION structure defines the compression of frames on an output pin.
 old-location: stream\ks_compression.htm

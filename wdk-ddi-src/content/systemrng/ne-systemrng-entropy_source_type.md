@@ -1,5 +1,5 @@
 ---
-UID: NE:systemrng.__unnamed_enum_0
+UID: NE:systemrng.ENTROPY_SOURCE_TYPE
 title: ENTROPY_SOURCE_TYPE (systemrng.h)
 description: "Learn more about: ENTROPY_SOURCE_TYPE enumeration"
 ms.date: 11/19/2020
@@ -33,6 +33,7 @@ api_name:
 
 # ENTROPY_SOURCE_TYPE enumeration
 
+
 ## -description
 
 ## -enum-fields
@@ -46,3 +47,4 @@ api_name:
 ## -remarks
 
 ## -see-also
+

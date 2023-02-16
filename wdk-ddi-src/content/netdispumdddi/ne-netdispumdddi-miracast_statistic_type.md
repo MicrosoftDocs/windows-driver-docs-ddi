@@ -1,5 +1,5 @@
 ---
-UID: NE:netdispumdddi.__unnamed_enum_2
+UID: NE:netdispumdddi.MIRACAST_STATISTIC_TYPE
 title: MIRACAST_STATISTIC_TYPE (netdispumdddi.h)
 description: Specifies types of Miracast statistics data that the user-mode display driver generates.
 old-location: display\miracast_statistic_type.htm
@@ -72,3 +72,4 @@ For more info on how the driver uses these enumeration values with reporting cal
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_report_statistic">ReportStatistic</a>
+

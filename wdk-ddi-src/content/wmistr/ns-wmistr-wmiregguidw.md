@@ -1,5 +1,5 @@
 ---
-UID: NS:wmistr.__unnamed_struct_1
+UID: NS:wmistr.WMIREGGUIDW
 title: WMIREGGUIDW (wmistr.h)
 description: The WMIREGGUID structure contains new or updated registration information for a data block or event block.
 old-location: kernel\wmiregguid.htm

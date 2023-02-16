@@ -1,5 +1,5 @@
 ---
-UID: NS:wdm.__unnamed_struct_0
+UID: NS:wdm.SET_POWER_SETTING_VALUE
 tech.root: kernel
 title: SET_POWER_SETTING_VALUE (wdm.h)
 ms.date: 03/11/2022
@@ -70,3 +70,4 @@ Contains the setting value.
 ## -remarks
 
 ## -see-also
+

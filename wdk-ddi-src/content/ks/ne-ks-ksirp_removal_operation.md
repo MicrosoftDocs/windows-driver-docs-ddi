@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_35
+UID: NE:ks.KSIRP_REMOVAL_OPERATION
 title: KSIRP_REMOVAL_OPERATION (ks.h)
 description: "Learn more about: KSIRP_REMOVAL_OPERATION enumeration"
 old-location: stream\ksirp_removal_operation.htm

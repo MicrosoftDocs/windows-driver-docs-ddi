@@ -1,5 +1,5 @@
 ---
-UID: NS:scsi.__unnamed_struct_11
+UID: NS:scsi.PRI_RESERVATION_LIST
 title: PRI_RESERVATION_LIST (scsi.h)
 description: The PRI_RESERVATION_LIST structure (scsi.h) contains a list of persistent reservations that are active within a device server.
 tech.root: storage
@@ -67,3 +67,4 @@ The [**IOCTL_STORAGE_PERSISTENT_RESERVE_IN**](../ntddstor/ni-ntddstor-ioctl_stor
 ## -see-also
 
 [**IOCTL_STORAGE_PERSISTENT_RESERVE_IN**](../ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in.md)
+

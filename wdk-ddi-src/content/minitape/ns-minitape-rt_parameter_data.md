@@ -1,5 +1,5 @@
 ---
-UID: NS:minitape.__unnamed_struct_18
+UID: NS:minitape.RT_PARAMETER_DATA
 title: RT_PARAMETER_DATA (minitape.h)
 description: The RT_PARAMETER_DATA structure (minitape.h) contains the parameter data for the report timestamp command.
 tech.root: storage
@@ -83,3 +83,4 @@ Reserved for future use.
 ## -see-also
 
 [**ST_PARAMETER_DATA**](ns-minitape-st_parameter_data.md)
+

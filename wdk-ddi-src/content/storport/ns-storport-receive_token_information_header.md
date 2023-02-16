@@ -1,5 +1,5 @@
 ---
-UID: NS:storport.__unnamed_struct_27
+UID: NS:storport.RECEIVE_TOKEN_INFORMATION_HEADER
 title: RECEIVE_TOKEN_INFORMATION_HEADER (storport.h)
 description: The RECEIVE_TOKEN_INFORMATION_HEADER structure (storport.h) contains information that describes the status of an offload data transfer operation.
 old-location: storage\receive_token_information_header.htm

@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_68
+UID: NS:ks.KSPROPERTY_SET
 title: KSPROPERTY_SET (ks.h)
 description: A kernel streaming driver or pin may use the KSPROPERTY_SET structure to describe how it supports a property set.
 old-location: stream\ksproperty_set.htm

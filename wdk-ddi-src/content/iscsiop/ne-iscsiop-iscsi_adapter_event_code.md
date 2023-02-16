@@ -1,5 +1,5 @@
 ---
-UID: NE:iscsiop.__unnamed_enum_1
+UID: NE:iscsiop.ISCSI_ADAPTER_EVENT_CODE
 title: ISCSI_ADAPTER_EVENT_CODE (iscsiop.h)
 description: The ISCSI_ADAPTER_EVENT_CODE enumeration indicates the type of adapter event.
 old-location: storage\iscsi_adapter_event_code.htm

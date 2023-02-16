@@ -1,5 +1,5 @@
 ---
-UID: NE:ksproxy.__unnamed_enum_1
+UID: NE:ksproxy.FRAMING_PROP
 title: FRAMING_PROP (ksproxy.h)
 description: "Learn more about: FRAMING_PROP enumeration"
 old-location: stream\framing_prop.htm

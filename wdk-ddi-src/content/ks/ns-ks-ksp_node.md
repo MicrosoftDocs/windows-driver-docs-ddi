@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_3
+UID: NS:ks.KSP_NODE
 title: KSP_NODE (ks.h)
 description: Kernel streaming clients use the KSP_NODE structure to specify the property and node type within a KSPROPERTY_TOPOLOGY_NAME property request.
 old-location: stream\ksp_node.htm

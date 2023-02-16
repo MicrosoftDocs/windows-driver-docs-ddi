@@ -1,5 +1,5 @@
 ---
-UID: NS:scsi.__unnamed_struct_10
+UID: NS:scsi.PRI_RESERVATION_DESCRIPTOR
 title: PRI_RESERVATION_DESCRIPTOR (scsi.h)
 description: The PRI_RESERVATION_DESCRIPTOR structure (scsi.h) describes a persistent reservation that is active within a device server.
 tech.root: storage
@@ -81,3 +81,4 @@ The [**IOCTL_STORAGE_PERSISTENT_RESERVE_IN**](../ntddstor/ni-ntddstor-ioctl_stor
 [**IOCTL_STORAGE_PERSISTENT_RESERVE_IN**](../ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in.md)
 
 [**PRI_RESERVATION_LIST**](../minitape/ns-minitape-pri_reservation_list.md)
+

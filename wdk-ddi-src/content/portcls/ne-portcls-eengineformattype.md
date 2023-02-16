@@ -1,5 +1,5 @@
 ---
-UID: NE:portcls.__unnamed_enum_4
+UID: NE:portcls.eEngineFormatType
 title: eEngineFormatType (portcls.h)
 description: The eEngineFormatType enumeration defines constants that specify the audio data type supported by the audio engine.
 old-location: audio\eengineformattype.htm
@@ -64,3 +64,4 @@ Indicates all the data formats supported by the audio adapter.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getengineformatsize">GetEngineFormatSize</a>
+

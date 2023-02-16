@@ -1,5 +1,5 @@
 ---
-UID: NE:sddef.__unnamed_enum_1
+UID: NE:sddef.SD_TRANSFER_DIRECTION
 tech.root: SD
 title: SD_TRANSFER_DIRECTION
 ms.date: 12/16/2021
@@ -55,3 +55,4 @@ The data transfer is from the SD host to the device.
 ## -see-also
 
 [**SDCMD_DESCRIPTOR**](ns-sddef-_sdcmd_descriptor.md)
+

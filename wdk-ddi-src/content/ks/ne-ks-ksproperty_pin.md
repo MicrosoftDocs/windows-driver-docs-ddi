@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_11
+UID: NE:ks.KSPROPERTY_PIN
 title: KSPROPERTY_PIN (ks.h)
 description: "Learn more about: KSPROPERTY_PIN enumeration"
 old-location: stream\ksproperty_pin.htm

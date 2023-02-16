@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_30
+UID: NS:ksmedia.KSRTAUDIO_HWREGISTER
 title: KSRTAUDIO_HWREGISTER (ksmedia.h)
 description: The KSRTAUDIO_HWREGISTER structure specifies the address and additional information about a hardware register requested by the client.
 old-location: audio\ksrtaudio_hwregister.htm

@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_34
+UID: NS:ksmedia.KSRTAUDIO_GETREADPACKET_INFO
 title: KSRTAUDIO_GETREADPACKET_INFO (ksmedia.h)
 description: The KSRTAUDIO_GETREADPACKET_INFO structure describes information for an audio packet.
 old-location: audio\ksrtaudio_getreadpacket_info.htm

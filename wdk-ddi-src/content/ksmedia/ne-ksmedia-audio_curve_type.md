@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_130
+UID: NE:ksmedia.AUDIO_CURVE_TYPE
 title: AUDIO_CURVE_TYPE (ksmedia.h)
 description: The AUDIO_CURVE_TYPE enumeration defines constants that specify a curve algorithm to be applied to set a volume level.
 old-location: audio\audio_curve_type.htm
@@ -103,3 +103,4 @@ And the following diagram shows a graphical representation of the preceding pseu
 [KSAUDIOENGINE_VOLUMELEVEL](./ns-ksmedia-_tagksaudioengine_volumelevel.md)
 
 [KSPROPERTY_AUDIOENGINE_VOLUMELEVEL](/windows-hardware/drivers/audio/ksproperty-audioengine-volumelevel)
+

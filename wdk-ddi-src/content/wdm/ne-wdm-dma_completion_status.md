@@ -1,5 +1,5 @@
 ---
-UID: NE:wdm.__unnamed_enum_10
+UID: NE:wdm.DMA_COMPLETION_STATUS
 title: DMA_COMPLETION_STATUS (wdm.h)
 description: The DMA_COMPLETION_STATUS enumeration describes the completion status of a DMA transfer.
 old-location: kernel\dma_completion_status.htm
@@ -72,3 +72,4 @@ The <i>Status</i> parameter of the <a href="/windows-hardware/drivers/ddi/wdm/nc
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-dma_completion_routine">DmaCompletionRoutine</a>
+

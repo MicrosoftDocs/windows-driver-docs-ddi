@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_3
+UID: NS:gnssdriver.GNSS_PLATFORM_CAPABILITY
 title: GNSS_PLATFORM_CAPABILITY (gnssdriver.h)
 description: The GNSS_PLATFORM_CAPABILITY structure is used to communicate the platform/HLOS capabilities to the underlying GNSS driver.
 tech.root: gnss
@@ -71,3 +71,4 @@ Padding buffer reserved for future use.
 ## -remarks
 
  This is a list of individual capability support of the GNSS adapter. The platform capability is represented in the same way as the device capabilities are represented.
+

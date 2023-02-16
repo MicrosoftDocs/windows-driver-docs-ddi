@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_134
+UID: NE:ksmedia.KSPROPERTY_AUDIOMODULE
 tech.root: stream
 title: KSPROPERTY_AUDIOMODULE (ksmedia.h)
 ms.date: 06/13/2022
@@ -55,3 +55,4 @@ Defines the **KSPROPERTY_AUDIOMODULE_NOTIFICATION_DEVICE_ID** constant with a va
 ## -remarks
 
 ## -see-also
+

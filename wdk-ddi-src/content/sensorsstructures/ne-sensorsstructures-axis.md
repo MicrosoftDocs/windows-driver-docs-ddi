@@ -1,5 +1,5 @@
 ---
-UID: NE:sensorsstructures.__unnamed_enum_0
+UID: NE:sensorsstructures.AXIS
 title: AXIS (sensorsstructures.h)
 description: Defines 3D coordinates.
 ms.date: 10/19/2018

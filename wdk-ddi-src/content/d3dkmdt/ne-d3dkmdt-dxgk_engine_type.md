@@ -1,5 +1,5 @@
 ---
-UID: NE:d3dkmdt.__unnamed_enum_1
+UID: NE:d3dkmdt.DXGK_ENGINE_TYPE
 title: DXGK_ENGINE_TYPE (d3dkmdt.h)
 description: Indicates the type of engine on a GPU node. Note the selection rules discussed in Remarks.
 old-location: display\dxgk_engine_type.htm
@@ -104,3 +104,4 @@ The display miniport driver should follow these rules to determine the engine ty
 <li>If none of the conditions in steps 1-3 are met, only then should the driver select a value of <b>DXGK_ENGINE_TYPE_OTHER</b>.</li>
 </ol>
 For more information on how to use this enumeration, see <a href="/windows-hardware/drivers/display/enumerating-gpu-nodes">Enumerating GPU engine capabilities</a>.
+

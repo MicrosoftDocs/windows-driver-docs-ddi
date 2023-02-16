@@ -1,5 +1,5 @@
 ---
-UID: NE:video.__unnamed_enum_2
+UID: NE:video.VIDEO_PORT_SERVICES
 title: VIDEO_PORT_SERVICES (video.h)
 description: The VIDEO_PORT_SERVICES enumerated type lists the interfaces that the video miniport driver can request from the video port driver by calling VideoPortQueryServices.
 old-location: display\video_port_services.htm
@@ -105,3 +105,4 @@ The video miniport driver obtains a set of function pointers by passing a value 
 
 
 <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
+

@@ -1,5 +1,5 @@
 ---
-UID: NS:winspool.__unnamed_struct_0
+UID: NS:winspool.PrintPropertyValue
 title: PrintPropertyValue (winspool.h)
 description: Describes the PrintPropertyValue structure.
 old-location: print\printpropertyvalue.htm

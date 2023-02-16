@@ -1,5 +1,5 @@
 ---
-UID: NS:minitape.__unnamed_struct_28
+UID: NS:minitape.RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
 title: RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER (minitape.h)
 description: The RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure (minitape.h) contains a token that is created as a representation of data (ROD).
 tech.root: storage
@@ -67,3 +67,4 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 [**POPULATE_TOKEN_HEADER**](../storport/ns-storport-populate_token_header.md)
 
 [**RECEIVE_TOKEN_INFORMATION_HEADER**](../storport/ns-storport-receive_token_information_header.md)
+

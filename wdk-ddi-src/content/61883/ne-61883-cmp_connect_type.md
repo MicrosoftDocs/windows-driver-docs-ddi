@@ -1,5 +1,5 @@
 ---
-UID: NE:61883.__unnamed_enum_3
+UID: NE:61883.CMP_CONNECT_TYPE
 title: CMP_CONNECT_TYPE (61883.h)
 description: This enumeration specifies a connection type.
 old-location: ieee\cmp_connect_type.htm
@@ -60,3 +60,4 @@ Indicates that this is a point-to-point connection.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
+

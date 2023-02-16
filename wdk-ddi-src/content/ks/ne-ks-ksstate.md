@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_1
+UID: NE:ks.KSSTATE
 title: KSSTATE (ks.h)
 description: The KSSTATE enumeration lists possible states of a kernel streaming object.
 old-location: stream\ksstate.htm

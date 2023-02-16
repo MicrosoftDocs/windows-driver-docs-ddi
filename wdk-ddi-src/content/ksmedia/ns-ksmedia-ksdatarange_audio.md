@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_20
+UID: NS:ksmedia.KSDATARANGE_AUDIO
 title: KSDATARANGE_AUDIO (ksmedia.h)
 description: The KSDATARANGE_AUDIO structure specifies a range of audio formats.
 old-location: audio\ksdatarange_audio.htm

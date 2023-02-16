@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.__unnamed_struct_6
+UID: NS:ufs.UFS_UNIT_DESCRIPTOR
 title: UFS_UNIT_DESCRIPTOR (ufs.h)
 description: The UFS_UNIT_DESCRIPTOR structure describes a generic unit descriptor.
 old-location: storage\ufs_unit_descriptor.htm
@@ -44,6 +44,7 @@ api_name:
 ---
 
 # UFS_UNIT_DESCRIPTOR structure
+
 
 ## -description
 
@@ -147,3 +148,4 @@ Reserved for future use.
 [**UFS_GEOMETRY_DESCRIPTOR**](ns-ufs-ufs_geometry_descriptor.md)
 
 [**UFS_RPMB_UNIT_DESCRIPTOR**](ns-ufs-ufs_rpmb_unit_descriptor.md)
+

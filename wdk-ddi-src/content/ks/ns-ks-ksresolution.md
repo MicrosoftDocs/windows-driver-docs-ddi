@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_60
+UID: NS:ks.KSRESOLUTION
 title: KSRESOLUTION (ks.h)
 description: The KSRESOLUTION structure specifies granularity and error of a kernel streaming clock.
 old-location: stream\ksresolution.htm

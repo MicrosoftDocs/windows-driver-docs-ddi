@@ -1,5 +1,5 @@
 ---
-UID: NE:dmusicks.__unnamed_enum_0
+UID: NE:dmusicks.DMUS_STREAM_TYPE
 title: DMUS_STREAM_TYPE (dmusicks.h)
 description: Used for a DirectMusic synthesizer device.
 old-location: audio\dmus_stream_type.htm

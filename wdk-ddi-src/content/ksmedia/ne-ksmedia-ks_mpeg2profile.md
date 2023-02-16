@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_54
+UID: NE:ksmedia.KS_MPEG2Profile
 title: KS_MPEG2Profile (ksmedia.h)
 description: The KS_MPEG2Profile enumeration describes MPEG-2 profiles.
 old-location: stream\ks_mpeg2profile.htm
@@ -72,3 +72,4 @@ Similar to <b>KS_MPEG2Profile_Main</b>, with spatial scalability, scalable signa
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_mpegvideoinfo2">KS_MPEGVIDEOINFO2</a>
+

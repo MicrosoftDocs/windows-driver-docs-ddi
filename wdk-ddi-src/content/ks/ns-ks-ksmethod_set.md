@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_71
+UID: NS:ks.KSMETHOD_SET
 title: KSMETHOD_SET (ks.h)
 description: The KSMETHOD_SET structure describes the methods that comprise a kernel streaming method set.
 old-location: stream\ksmethod_set.htm

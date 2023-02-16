@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_5
+UID: NE:ks.KS_SEEKING_FLAGS
 title: KS_SEEKING_FLAGS (ks.h)
 description: The KS_SEEKING_FLAGS enumeration lists positioning options that can be used in conjunction with the KSPROPERTY_POSITIONS structure.
 old-location: stream\ks_seeking_flags.htm
@@ -74,3 +74,4 @@ The minidriver sets these flag values in a <a href="/windows-hardware/drivers/dd
 
 
 <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_positions">KSPROPERTY_POSITIONS</a>
+

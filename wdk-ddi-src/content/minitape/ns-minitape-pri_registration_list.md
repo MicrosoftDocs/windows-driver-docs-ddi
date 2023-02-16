@@ -1,5 +1,5 @@
 ---
-UID: NS:minitape.__unnamed_struct_9
+UID: NS:minitape.PRI_REGISTRATION_LIST
 title: PRI_REGISTRATION_LIST (minitape.h)
 description: The PRI_REGISTRATION_LIST structure (minitape.h) contains information about persistent reservations and reservation keys that are active within a device server.
 tech.root: storage
@@ -67,3 +67,4 @@ The [IOCTL_STORAGE_PERSISTENT_RESERVE_IN](../ntddstor/ni-ntddstor-ioctl_storage_
 ## -see-also
 
 [IOCTL_STORAGE_PERSISTENT_RESERVE_IN](../ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in.md)
+

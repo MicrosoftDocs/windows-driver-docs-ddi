@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_1
+UID: NS:ks.KSIDENTIFIER
 title: KSIDENTIFIER (ks.h)
 description: The KSIDENTIFIER structure specifies a GUID that uniquely identifies a related set of GUIDs, and an index value to refer to a specific member within that set.
 tech.root: stream
@@ -204,3 +204,4 @@ Because **Flags** contains a ULONG value, multiple Skip requests may be needed t
 [**KSPIN_MEDIUM**](/windows-hardware/drivers/stream/kspin-medium-structure)
 
 [**KSPROPERTY**](/windows-hardware/drivers/stream/ksproperty-structure)
+

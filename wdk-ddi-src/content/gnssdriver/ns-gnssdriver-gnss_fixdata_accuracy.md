@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_13
+UID: NS:gnssdriver.GNSS_FIXDATA_ACCURACY
 title: GNSS_FIXDATA_ACCURACY (gnssdriver.h)
 description: The GNSS_FIXDATA_ACCURACY structure defines the accuracy details of a fix.
 old-location: gnss\gnss_fixdata_accuracy.htm
@@ -44,6 +44,7 @@ api_name:
 ---
 
 # GNSS_FIXDATA_ACCURACY structure
+
 
 ## -description
 
@@ -116,3 +117,4 @@ Horizontal dilution of precision (HDOP).
 ### -field VerticalDilutionOfPrecision
 
 Vertical dilution of precision (VDOP).
+
