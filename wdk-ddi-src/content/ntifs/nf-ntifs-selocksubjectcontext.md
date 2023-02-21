@@ -1,16 +1,16 @@
 ---
 UID: NF:ntifs.SeLockSubjectContext
 title: SeLockSubjectContext function (ntifs.h)
-description: The SeLockSubjectContext routine in ntifs.h locks the primary and impersonation tokens of a captured subject context.
+description: Learn more about the SeLockSubjectContext function.
 old-location: ifsk\selocksubjectcontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 02/13/2023
 keywords: ["SeLockSubjectContext function"]
 ms.keywords: SeLockSubjectContext, SeLockSubjectContext routine [Installable File System Drivers], ifsk.selocksubjectcontext, ntifs/SeLockSubjectContext, seref_ea4696ab-8343-4d15-866c-15720d009db8.xml
 req.header: ntifs.h
 req.include-header: Ntifs.h, Wdm.h
 req.target-type: Universal
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,36 +42,30 @@ api_name:
 
 # SeLockSubjectContext function (ntifs.h)
 
-
 ## -description
 
-The <b>SeLockSubjectContext</b> routine locks the primary and impersonation tokens of a captured subject context.
+The **SeLockSubjectContext** routine locks the primary and impersonation tokens of a captured subject context.
 
 ## -parameters
 
 ### -param SubjectContext [in]
 
-
-Pointer to a SECURITY_SUBJECT_CONTEXT structure returned by a call to <b>SeCaptureSubjectContext</b>.
+Pointer to the [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess) structure. This opaque structure is obtained from the operating system in a call to [**SeCaptureSubjectContextEx**](nf-ntifs-secapturesubjectcontextex.md)
+ or [**SeCaptureSubjectContext**](nf-ntifs-secapturesubjectcontext.md).
 
 ## -remarks
 
-<b>SeLockSubjectContext</b> acquires read locks on the primary and impersonation tokens of a captured subject context.
+**SeLockSubjectContext** acquires read locks on the primary and impersonation tokens of a captured subject context. Each call to **SeLockSubjectContext** must be matched by a subsequent call to [**SeUnlockSubjectContext**](nf-ntifs-seunlocksubjectcontext.md).
 
-To capture a subject context, use <b>SeCaptureSubjectContext</b>.
+To capture a subject context, use [**SeCaptureSubjectContextEx**](nf-ntifs-secapturesubjectcontextex.md)
+ or [**SeCaptureSubjectContext**](nf-ntifs-secapturesubjectcontext.md).
 
-Each call to <b>SeLockSubjectContext</b> must be matched by a subsequent call to <b>SeUnlockSubjectContext</b>.
-
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/eprocess">SECURITY_SUBJECT_CONTEXT</a>
+[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess)
 
+[**SeCaptureSubjectContextEx**](nf-ntifs-secapturesubjectcontextex.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-secapturesubjectcontext">SeCaptureSubjectContext</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seunlocksubjectcontext">SeUnlockSubjectContext</a>
+[**SeUnlockSubjectContext**](nf-ntifs-seunlocksubjectcontext.md)

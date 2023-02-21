@@ -2,7 +2,7 @@
 UID: NF:ntifs.SeCaptureSubjectContextEx
 tech.root: ifsk
 title: SeCaptureSubjectContextEx
-ms.date: 02/09/2023
+ms.date: 02/13/2023
 targetos: Windows
 description: Learn more about the SeCaptureSubjectContextEx function.
 prerelease: false
@@ -58,7 +58,7 @@ helpviewer_keywords:
 
 ### -param SubjectContext
 
-[out] Pointer to a caller-allocated [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess) structure in **SeCaptureSubjectContextEx** will write the snapshot of the calling thread's security profile, which contains references to access tokens.
+[out] Pointer to an opaque caller-allocated [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess) structure. **SeCaptureSubjectContextEx** will write the snapshot of the calling thread's security profile, which contains references to access tokens, in this structure. *Drivers must not modify or try to directly access any members of this structure to make security decisions. Instead, to avoid security issues in authorization, pass this opaque structure in calls to [**SeAccessCheck**](../wdm/nf-wdm-seaccesscheck.md) or [**SePrivilegeCheck**](nf-ntifs-seprivilegecheck.md).*
 
 ## -remarks
 

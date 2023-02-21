@@ -4,7 +4,7 @@ title: SeCaptureSubjectContext function (ntifs.h)
 description: The SeCaptureSubjectContext routine in ntifs.h captures the security context of the calling thread for access validation and auditing.
 old-location: ifsk\secapturesubjectcontext.htm
 tech.root: ifsk
-ms.date: 02/09/2023
+ms.date: 02/13/2023
 keywords: ["SeCaptureSubjectContext function"]
 ms.keywords: SeCaptureSubjectContext, SeCaptureSubjectContext routine [Installable File System Drivers], ifsk.secapturesubjectcontext, ntifs/SeCaptureSubjectContext, seref_192d13d7-4841-4c3e-831f-c12fe3cde04f.xml
 req.header: ntifs.h
@@ -50,7 +50,7 @@ api_name:
 
 ### -param SubjectContext [out]
 
-Pointer to a caller-allocated [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess) structure.
+[out] Pointer to an opaque caller-allocated [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess) structure. **SeCaptureSubjectContext** will write the snapshot of the calling thread's security profile, which contains references to access tokens, in this structure.
 
 ## -remarks
 
