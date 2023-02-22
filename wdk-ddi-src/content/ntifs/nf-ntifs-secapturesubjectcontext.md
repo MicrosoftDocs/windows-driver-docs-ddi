@@ -50,7 +50,7 @@ api_name:
 
 ### -param SubjectContext [out]
 
-[out] Pointer to an opaque caller-allocated [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess) structure. **SeCaptureSubjectContext** will write the snapshot of the calling thread's security profile, which contains references to access tokens, in this structure.
+[out] Pointer to an opaque caller-allocated [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess#security_subject_context) structure. **SeCaptureSubjectContext** will write the snapshot of the calling thread's security profile, which contains references to access tokens, in this structure. *Drivers must not modify or try to directly access any members of this structure to make security decisions. Instead, to avoid security issues in authorization, pass this opaque structure in calls to [**SeAccessCheck**](../wdm/nf-wdm-seaccesscheck.md) or [**SePrivilegeCheck**](nf-ntifs-seprivilegecheck.md).*
 
 ## -remarks
 
@@ -67,13 +67,13 @@ After access validation, privilege checking, and audit generation services have 
 
 On return, references to access tokens are contained in the structure that **SubjectContext** points to. The contents of that structure can change. To prevent this, call [**SeLockSubjectContext**](nf-ntifs-selocksubjectcontext.md) to lock the primary access token and any impersonation tokens associated with the structure. For example, when using routines that query token information more than once in the same security context (such as the ones previously listed), lock the subject context with **SeLockSubjectContext** to obtain consistent results.
 
-For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 
 [**SeCaptureSubjectContextEx**](nf-ntifs-secapturesubjectcontextex.md)
 
-[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess)
+[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess#security_subject_context)
 
 [**SeLockSubjectContext**](nf-ntifs-selocksubjectcontext.md)
 

@@ -70,15 +70,15 @@ The access mode to use for the privilege check. Either **UserMode** or **KernelM
 
 An access token contains a list of the privileges held by the account associated with the token. These privileges can be enabled or disabled; most are disabled by default. **SePrivilegeCheck** checks only for enabled privileges. To get a list of all the enabled and disabled privileges held by an access token, call [**SeQueryInformationToken**](./nf-ntifs-sequeryinformationtoken.md).
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 
 [**LUID_AND_ATTRIBUTES**](../wdm/ns-wdm-_luid_and_attributes.md)
 
-[**PRIVILEGE_SET**](/previous-versions/windows/hardware/drivers/ff551860(v=vs.85))
+[**PRIVILEGE_SET**](../wdm/ns-wdm-_privilege_set.md)
 
-[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess)
+[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess#security_subject_context)
 
 [**SeAccessCheck**](../wdm/nf-wdm-seaccesscheck.md)
 

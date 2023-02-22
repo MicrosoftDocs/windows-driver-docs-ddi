@@ -1,10 +1,10 @@
 ---
 UID: NF:ntifs.SeReleaseSubjectContext
 title: SeReleaseSubjectContext function (ntifs.h)
-description: The SeReleaseSubjectContext routine in ntifs.h releases a subject security context captured by an earlier call to SeCaptureSubjectContext.
+description: Learn more about the SeReleaseSubjectContext routine.
 old-location: ifsk\sereleasesubjectcontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 02/21/2013
 keywords: ["SeReleaseSubjectContext function"]
 ms.keywords: SeReleaseSubjectContext, SeReleaseSubjectContext routine [Installable File System Drivers], ifsk.sereleasesubjectcontext, ntifs/SeReleaseSubjectContext, seref_f46fe5d3-13d1-4907-85b4-47eb78116fe0.xml
 req.header: ntifs.h
@@ -42,48 +42,36 @@ api_name:
 
 # SeReleaseSubjectContext function (ntifs.h)
 
-
 ## -description
 
-The <b>SeReleaseSubjectContext</b> routine releases a subject security context captured by an earlier call to <b>SeCaptureSubjectContext</b>.
+The **SeReleaseSubjectContext** routine releases a subject security context captured by an earlier call to **SeCaptureSubjectContext**.
 
 ## -parameters
 
 ### -param SubjectContext [in, out]
 
-
 Pointer to the captured security context.
 
 ## -remarks
 
-File systems must call <b>SeCaptureSubjectContext</b> before performing access validation or generating audit messages. This is necessary to provide a consistent security context to routines such as <b>SeQueryAuthenticationIdToken</b>, <b>SeQuerySubjectContextToken</b>, and <b>SePrivilegeCheck</b>. After these operations have been performed, the captured context should be released as soon as possible by calling <b>SeReleaseSubjectContext</b>.
+File systems must call **SeCaptureSubjectContext** before performing access validation or generating audit messages. This is necessary to provide a consistent security context to routines such as **SeQueryAuthenticationIdToken**, **SeQuerySubjectContextToken**, and **SePrivilegeCheck**. After these operations have been performed, the captured context should be released as soon as possible by calling **SeReleaseSubjectContext**.
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/eprocess">SECURITY_SUBJECT_CONTEXT</a>
+[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess#security_subject_context)
 
+[**SeCaptureSubjectContext**](nf-ntifs-secapturesubjectcontext.md)
 
+[**SeCaptureSubjectContextEx**](nf-ntifs-secapturesubjectcontextex.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-secapturesubjectcontext">SeCaptureSubjectContext</a>
+[**SeLockSubjectContext**](nf-ntifs-selocksubjectcontext.md)
 
+[**SePrivilegeCheck**](nf-ntifs-seprivilegecheck.md)
 
+[**SeQueryAuthenticationIdToken**](nf-ntifs-sequeryauthenticationidtoken.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-selocksubjectcontext">SeLockSubjectContext</a>
+[**SeQuerySubjectContextToken**](nf-ntifs-sequerysubjectcontexttoken.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seprivilegecheck">SePrivilegeCheck</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryauthenticationidtoken">SeQueryAuthenticationIdToken</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequerysubjectcontexttoken">SeQuerySubjectContextToken</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seunlocksubjectcontext">SeUnlockSubjectContext</a>
+[**SeUnlockSubjectContext**](nf-ntifs-seunlocksubjectcontext.md)

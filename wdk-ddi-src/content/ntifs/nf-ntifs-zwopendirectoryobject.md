@@ -212,7 +212,7 @@ The <b>ZwOpenDirectoryObject</b> routine is called after the <b>InitializeObject
 
 A directory object is created using the <b>ZwCreateDirectoryObject </b>routine<b>. </b>Any handle obtained by calling <b>ZwOpenDirectoryObject</b> must eventually be released by calling <b>ZwClose</b>. 
 
-For more information about security and access control, see the documentation on these topics in the Windows SDK. 
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK. 
 
 <div class="alert"><b>Note</b>  If the call to the <b>ZwCreateDirectoryObject </b>function occurs in user mode, you should use the name "<b>NtCreateDirectoryObject</b>" instead of "<b>ZwCreateDirectoryObject</b>".</div>
 <div> </div>

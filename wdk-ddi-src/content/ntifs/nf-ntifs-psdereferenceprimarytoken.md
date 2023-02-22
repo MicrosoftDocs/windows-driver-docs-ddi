@@ -58,7 +58,7 @@ Pointer to the primary token whose reference count is to be decremented.
 
 If the token's reference count reaches zero, the token is deleted.
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 

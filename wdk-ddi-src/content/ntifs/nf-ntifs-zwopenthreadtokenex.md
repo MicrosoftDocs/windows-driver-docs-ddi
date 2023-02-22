@@ -93,7 +93,7 @@ Any handle obtained by calling **ZwOpenThreadTokenEx** must eventually be releas
 
 Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the **HandleAttributes** parameter of **ZwOpenThreadTokenEx**. This restricts the use of the handle returned by **ZwOpenThreadTokenEx** to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.
 
-For more information about security and access control, see the documentation on these topics in the Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 > [!NOTE]
 > If the call to the **ZwOpenThreadTokenEx** function occurs in user mode, you should use the name "**NtOpenThreadTokenEx**" instead of "**ZwOpenThreadTokenEx**".

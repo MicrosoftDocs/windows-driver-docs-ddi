@@ -109,7 +109,7 @@ Due to the nature of token's properties (such as token user, token primary group
 SID is a variable-length structure whereas a specific privilege can exist in a token but not in another (the privilege count can be different for each token). It's the caller's responsibility to first query the necessary
 required length size in order to allocate memory to accommodate the requested token information before doing the actual query. That said, it is also the caller's responsibility to provide a valid **ReturnLength** variable that is writable and not NULL. On a NULL case scenario, the function raises an access violation exception.
 
-For more information about security and access control, see the documentation on these topics in the Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 > [!NOTE]
 > If the call to the **NtQueryInformationToken** function occurs in user mode, you should use the name "**NtQueryInformationToken**" instead of "**ZwQueryInformationToken**".

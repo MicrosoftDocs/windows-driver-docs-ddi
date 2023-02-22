@@ -85,7 +85,7 @@ Any handle obtained by calling **NtOpenProcessTokenEx** must eventually be relea
 
 Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the *HandleAttributes* parameter of **NtOpenProcessTokenEx**. This restricts the use of the handle returned by **NtOpenProcessTokenEx** to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.
 
-For more information about security and access control, see the documentation on these topics in the Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 

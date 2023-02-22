@@ -101,7 +101,7 @@ To add an ACE to an ACL, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-nti
 
 To obtain a pointer to an ACE in an ACL, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetace">RtlGetAce</a>. 
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 

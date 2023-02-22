@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs.SeUnlockSubjectContext
 title: SeUnlockSubjectContext function (ntifs.h)
-description: The SeUnlockSubjectContext routine in ntifs.h unlocks the tokens of a captured subject context that were locked by a call to SeLockSubjectContext.
-old-location: ifsk\seunlocksubjectcontext.htm
+description: Learn more about the SeUnlockSubjectContext routine.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 02/21/2023
 keywords: ["SeUnlockSubjectContext function"]
 ms.keywords: SeUnlockSubjectContext, SeUnlockSubjectContext routine [Installable File System Drivers], ifsk.seunlocksubjectcontext, ntifs/SeUnlockSubjectContext, seref_a07c19ad-03a8-403d-9844-9e85862377ab.xml
 req.header: ntifs.h
@@ -42,50 +41,38 @@ api_name:
 
 # SeUnlockSubjectContext function (ntifs.h)
 
-
 ## -description
 
-The <b>SeUnlockSubjectContext</b> routine unlocks the tokens of a captured subject context that were locked by a call to <b>SeLockSubjectContext</b>.
+The **SeUnlockSubjectContext** routine unlocks the tokens of a captured subject context that were locked by a call to **SeLockSubjectContext**.
 
 ## -parameters
 
 ### -param SubjectContext [in]
 
-
 Pointer to a SECURITY_SUBJECT_CONTEXT structure whose tokens are to be unlocked.
 
 ## -remarks
 
-<b>SeUnlockSubjectContext</b> releases the read locks on the tokens in the captured subject context.
+**SeUnlockSubjectContext** releases the read locks on the tokens in the captured subject context.
 
-Each call to <b>SeLockSubjectContext</b> must be matched by a subsequent call to <b>SeUnlockSubjectContext</b>.
+Each call to **SeLockSubjectContext** must be matched by a subsequent call to **SeUnlockSubjectContext**.
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/eprocess">SECURITY_SUBJECT_CONTEXT</a>
+[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess#security_subject_context)
 
+[**SeCaptureSubjectContext**](nf-ntifs-secapturesubjectcontext.md)
 
+[**SeCaptureSubjectContextEx**](nf-ntifs-secapturesubjectcontextex.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-secapturesubjectcontext">SeCaptureSubjectContext</a>
+[**SeLockSubjectContext**](nf-ntifs-selocksubjectcontext.md)
 
+[**SePrivilegeCheck**](nf-ntifs-seprivilegecheck.md)
 
+[**SeQueryAuthenticationIdToken**](nf-ntifs-sequeryauthenticationidtoken.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-selocksubjectcontext">SeLockSubjectContext</a>
+[**SeQuerySubjectContextToken**](nf-ntifs-sequerysubjectcontexttoken.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seprivilegecheck">SePrivilegeCheck</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryauthenticationidtoken">SeQueryAuthenticationIdToken</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequerysubjectcontexttoken">SeQuerySubjectContextToken</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sereleasesubjectcontext">SeReleaseSubjectContext</a>
+[**SeReleaseSubjectContext**](nf-ntifs-sereleasesubjectcontext.md)
