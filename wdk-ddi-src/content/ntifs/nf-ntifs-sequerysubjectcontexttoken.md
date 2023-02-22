@@ -57,7 +57,7 @@ SeQuerySubjectContextToken(SubjectContext);
 ### -param SubjectContext [in]
 
 Pointer to an opaque [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess#security_subject_context) structure containing the subject context to query. This opaque structure was obtained from the operating system in a call to [**SeCaptureSubjectContextEx**](nf-ntifs-secapturesubjectcontextex.md)
- or [**SeCaptureSubjectContext**](nf-ntifs-secapturesubjectcontext.md).
+ or [**SeCaptureSubjectContext**](nf-ntifs-secapturesubjectcontext.md). Drivers must not modify or try to directly access any members of this structure to make security decisions.
 
 ## -returns
 
@@ -65,7 +65,7 @@ Pointer to an opaque [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/ke
 
 ## -remarks
 
-The access token pointer returned by **SeQuerySubjectContextToken** can be passed to [**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md).
+**SeQuerySubjectContextToken** can return either a primary or impersonation token. Since drivers must not directly access any members of the [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess#security_subject_context) structure, you should first pass it to [**SeAccessCheck**](../wdm/nf-wdm-seaccesscheck.md) or [**SePrivilegeCheck**](nf-ntifs-seprivilegecheck.md) to avoid security issues in authorization; for example, if this is an impersonation token, it requires an impersonation level of **SecurityImpersonation** or higher. Once you've confirmed authorization status, you can then pass the access token pointer returned by **SeQuerySubjectContextToken** to [**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md).
 
 **SeQuerySubjectContextToken** does not affect the lock status or access token of the subject context.
 
