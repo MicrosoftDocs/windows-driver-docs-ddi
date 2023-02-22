@@ -102,7 +102,7 @@ A list entry could not be allocated for the callback routine.
 
 Each call to <b>SeRegisterLogonSessionTerminatedRoutine</b> must be matched by a subsequent call to <b>SeUnregisterLogonSessionTerminatedRoutine</b>.
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 

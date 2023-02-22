@@ -165,7 +165,7 @@ for (i = 0 ; i < nAceCount ; i++) {
 }
 ```
 
-For more information about security and access control, see the documentation on these topics in thePlatform Software Development Kit (SDK).
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 

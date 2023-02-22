@@ -65,7 +65,7 @@ Pointer to a GENERIC<b>_</b>MAPPING structure to be copied into the ACCESS_STATE
 
 The generic mapping structure defines the mapping of generic access rights to specific and standard access rights for an object. When a client requests generic access rights to an object, the desired access mask is mapped to one of the access masks defined in this structure.
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 

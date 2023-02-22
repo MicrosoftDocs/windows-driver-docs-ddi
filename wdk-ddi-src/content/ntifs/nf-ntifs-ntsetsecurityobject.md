@@ -88,7 +88,7 @@ Pointer to the security descriptor to be set for the object.
 
 A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the structure are located contiguously in memory. In absolute form, the structure only contains pointers to the members. For more information, see [Absolute and Self-Relative Security Descriptors](/windows/win32/secauthz/absolute-and-self-relative-security-descriptors). 
 
-For more information about security and access control, see the documentation on these topics in the Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 Minifilters should use [**FltSetSecurityObject**](../fltkernel/nf-fltkernel-fltsetsecurityobject.md) instead of **NtSetSecurityObject**. 
 

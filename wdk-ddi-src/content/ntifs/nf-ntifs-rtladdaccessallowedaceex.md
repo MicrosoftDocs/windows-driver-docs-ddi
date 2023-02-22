@@ -155,7 +155,7 @@ The specified <i>AceRevision</i> is not known or is not compatible with that of 
 
 Unlike <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtladdaccessallowedace">RtlAddAccessAllowedAce</a>, this routine sets the inheritance ACE flags.  
 
-For more information about security and access control, see the documentation about these topics in the Microsoft Windows SDK, such as:
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK, such as:
 
 <ul>
 <li>

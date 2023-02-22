@@ -95,7 +95,7 @@ A security descriptor can be in absolute or self-relative form. In self-relative
 
 The NTFS file system imposes a 64K limit on the size of the security descriptor that is written to disk for a file. (The FAT file system does not support security descriptors for files.) Thus a 64K **SecurityDescriptor** buffer is guaranteed to be large enough to hold the returned **SECURITY_DESCRIPTOR** structure.
 
-For more information about security and access control, see the documentation on these topics in the Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 > [!NOTE]
 > If the call to the **NtQuerySecurityObject** function occurs in user mode, you should use the name "**NtQuerySecurityObject**" instead of "**ZwQuerySecurityObject**".

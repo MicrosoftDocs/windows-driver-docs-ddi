@@ -102,7 +102,7 @@ Pointer to a caller-allocated variable that receives the actual length, in bytes
 
 The **ZwQueryInformationToken** routine can be used by a file system or file system filter driver to determine the [**SID**](ns-ntifs-_sid.md) of the caller that initiated the request during [**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create) processing. If **TokenUser** is specified for the **TokenInformationClass** parameter passed to **ZwQueryInformationToken**, a [**TOKEN_USER**](ns-ntifs-_token_user.md) structure is returned in the buffer pointed to by the **TokenInformation** parameter. This returned buffer contains an [**SID_AND_ATTRIBUTES**](ns-ntifs-_sid_and_attributes.md) structure with the user **SID**.
 
-For more information about security and access control, see the documentation on these topics in the Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 > [!NOTE]
 > If the call to the **ZwQueryInformationToken** function occurs in user mode, you should use the name "**NtQueryInformationToken**" instead of "**ZwQueryInformationToken**".

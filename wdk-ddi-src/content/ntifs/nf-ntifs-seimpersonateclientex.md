@@ -115,7 +115,7 @@ To end the impersonation of the user, call the <a href="/windows-hardware/driver
 
 The <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psimpersonateclient">PsImpersonateClient</a> routine can be used to cause a server thread to impersonate a client.
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 

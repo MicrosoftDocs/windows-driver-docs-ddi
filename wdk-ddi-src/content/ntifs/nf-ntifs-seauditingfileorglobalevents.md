@@ -4,7 +4,7 @@ title: SeAuditingFileOrGlobalEvents function (ntifs.h)
 description: The SeAuditingFileOrGlobalEvents routine determines whether file or global events are currently being audited.
 old-location: ifsk\seauditingfileorglobalevents.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 02/21/2023
 keywords: ["SeAuditingFileOrGlobalEvents function"]
 ms.keywords: SeAuditingFileOrGlobalEvents, SeAuditingFileOrGlobalEvents routine [Installable File System Drivers], ifsk.seauditingfileorglobalevents, ntifs/SeAuditingFileOrGlobalEvents, seref_06c1ee74-261c-4a57-b009-f76420e14055.xml
 req.header: ntifs.h
@@ -42,56 +42,42 @@ api_name:
 
 # SeAuditingFileOrGlobalEvents function
 
-
 ## -description
 
-The <b>SeAuditingFileOrGlobalEvents</b> routine determines whether file or global events are currently being audited.
+The **SeAuditingFileOrGlobalEvents** routine determines whether file or global events are currently being audited.
 
 ## -parameters
 
 ### -param AccessGranted [in]
 
-
-Set to <b>TRUE</b> if the access attempt was successful, <b>FALSE</b> otherwise.
+Set to TRUE if the access attempt was successful, FALSE otherwise.
 
 ### -param SecurityDescriptor [in]
-
 
 Pointer to the security descriptor protecting the object being accessed.
 
 ### -param SubjectSecurityContext [in]
 
-
 Pointer to the subject's captured security context.
 
 ## -returns
 
-<b>SeAuditingFileOrGlobalEvents</b> returns <b>TRUE</b> if file or global events are currently being audited, <b>FALSE</b> otherwise.
+**SeAuditingFileOrGlobalEvents** returns TRUE if file or global events are currently being audited, FALSE otherwise.
 
 ## -remarks
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
+[**SECURITY_DESCRIPTOR**](ns-ntifs-_security_descriptor.md)
 
+[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess#security_subject_context)
 
+[**SeAuditingFileEvents**](nf-ntifs-seauditingfileevents.md)
 
-<a href="/windows-hardware/drivers/kernel/eprocess">SECURITY_SUBJECT_CONTEXT</a>
+[**SeDeleteObjectAuditAlarm**](nf-ntifs-sedeleteobjectauditalarm.md)
 
+[**SeOpenObjectAuditAlarm**](nf-ntifs-seopenobjectauditalarm.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seauditingfileevents">SeAuditingFileEvents</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sedeleteobjectauditalarm">SeDeleteObjectAuditAlarm</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seopenobjectauditalarm">SeOpenObjectAuditAlarm</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seopenobjectfordeleteauditalarm">SeOpenObjectForDeleteAuditAlarm</a>
+[**SeOpenObjectForDeleteAuditAlarm**](nf-ntifs-seopenobjectfordeleteauditalarm.md)

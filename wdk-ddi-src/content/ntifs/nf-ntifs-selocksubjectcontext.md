@@ -50,7 +50,7 @@ The **SeLockSubjectContext** routine locks the primary and impersonation tokens 
 
 ### -param SubjectContext [in]
 
-Pointer to the [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess) structure. This opaque structure is obtained from the operating system in a call to [**SeCaptureSubjectContextEx**](nf-ntifs-secapturesubjectcontextex.md)
+Pointer to the [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess#security_subject_context) structure. This opaque structure is obtained from the operating system in a call to [**SeCaptureSubjectContextEx**](nf-ntifs-secapturesubjectcontextex.md)
  or [**SeCaptureSubjectContext**](nf-ntifs-secapturesubjectcontext.md).
 
 ## -remarks
@@ -60,11 +60,11 @@ Pointer to the [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/e
 To capture a subject context, use [**SeCaptureSubjectContextEx**](nf-ntifs-secapturesubjectcontextex.md)
  or [**SeCaptureSubjectContext**](nf-ntifs-secapturesubjectcontext.md).
 
-For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 
-[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess)
+[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess#security_subject_context)
 
 [**SeCaptureSubjectContextEx**](nf-ntifs-secapturesubjectcontextex.md)
 

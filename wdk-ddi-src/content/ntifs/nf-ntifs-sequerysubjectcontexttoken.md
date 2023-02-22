@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs.SeQuerySubjectContextToken
 title: SeQuerySubjectContextToken macro (ntifs.h)
-description: The SeQuerySubjectContextToken macro retrieves the access token for a security subject context.
-old-location: ifsk\sequerysubjectcontexttoken.htm
+description: Learn more about the SeQuerySubjectContextToken macro.
 tech.root: ifsk
-ms.date: 02/13/2023
+ms.date: 02/21/2023
 keywords: ["SeQuerySubjectContextToken macro"]
 ms.keywords: SeQuerySubjectContextToken, SeQuerySubjectContextToken function [Installable File System Drivers], ifsk.sequerysubjectcontexttoken, ntifs/SeQuerySubjectContextToken, seref_5b274dd0-4f8e-4f4c-b7ff-9de9b3da9213.xml
 req.header: ntifs.h
@@ -57,7 +56,7 @@ SeQuerySubjectContextToken(SubjectContext);
 
 ### -param SubjectContext [in]
 
-Pointer to an opaque [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess) structure containing the subject context to query. This opaque structure was obtained from the operating system in a call to [**SeCaptureSubjectContextEx**](nf-ntifs-secapturesubjectcontextex.md)
+Pointer to an opaque [**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess#security_subject_context) structure containing the subject context to query. This opaque structure was obtained from the operating system in a call to [**SeCaptureSubjectContextEx**](nf-ntifs-secapturesubjectcontextex.md)
  or [**SeCaptureSubjectContext**](nf-ntifs-secapturesubjectcontext.md).
 
 ## -returns
@@ -70,7 +69,7 @@ The access token pointer returned by **SeQuerySubjectContextToken** can be passe
 
 **SeQuerySubjectContextToken** does not affect the lock status or access token of the subject context.
 
-For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 
@@ -78,7 +77,7 @@ For more information about security and access control, see [Windows security mo
 
 [**PsDereferencePrimaryToken**](nf-ntifs-psdereferenceprimarytoken.md)
 
-[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess)
+[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess#security_subject_context)
 
 [**SeQueryAuthenticationIdToken**](nf-ntifs-sequeryauthenticationidtoken.md)
 

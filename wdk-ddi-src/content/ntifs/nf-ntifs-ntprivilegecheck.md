@@ -53,7 +53,7 @@ A handle to a token object representing a client attempting access. This handle 
 
 ### -param RequiredPrivileges [in, out]
 
-Pointer to a PRIVILEGE_SET structure. The **Privilege** member of this structure is an array of LUID_AND_ATTRIBUTES structures. Before calling **SePrivilegeCheck**, use the **Privilege** array to indicate the set of privileges to check. Set the **Control** member to PRIVILEGE_SET_ALL_NECESSARY if all of the privileges must be enabled; or set it to zero if it is sufficient that any one of the privileges be enabled.
+Pointer to a [**PRIVILEGE_SET**](../wdm/ns-wdm-_privilege_set.md) structure. The **Privilege** member of this structure is an array of LUID_AND_ATTRIBUTES structures. Before calling **SePrivilegeCheck**, use the **Privilege** array to indicate the set of privileges to check. Set the **Control** member to PRIVILEGE_SET_ALL_NECESSARY if all of the privileges must be enabled; or set it to zero if it is sufficient that any one of the privileges be enabled.
 
 ### -param Result [out]
 
@@ -69,24 +69,24 @@ Receives a boolean flag indicating whether the client has all the specified priv
 
 ## -remarks
 
-An access token contains a list of the privileges held by the account associated with the token. These privileges can be enabled or disabled; most are disabled by default. **NtPrivilegeCheck** checks only for enabled privileges. To get a list of all the enabled and disabled privileges held by an access token, call [**SeQueryInformationToken**](./nf-ntifs-sequeryinformationtoken.md).
+An access token contains a list of the privileges held by the account associated with the token. These privileges can be enabled or disabled; most are disabled by default. **NtPrivilegeCheck** checks only for enabled privileges. To get a list of all the enabled and disabled privileges held by an access token, call [**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md).
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 
 [**LUID_AND_ATTRIBUTES**](../wdm/ns-wdm-_luid_and_attributes.md)
 
-[**PRIVILEGE_SET**](/previous-versions/windows/hardware/drivers/ff551860(v=vs.85))
+[**PRIVILEGE_SET**](../wdm/ns-wdm-_privilege_set.md)
 
-[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess)
+[**SECURITY_SUBJECT_CONTEXT**](/windows-hardware/drivers/kernel/eprocess#security_subject_context)
 
 [**SeAccessCheck**](../wdm/nf-wdm-seaccesscheck.md)
 
-[**SeAppendPrivileges**](./nf-ntifs-seappendprivileges.md)
+[**SeAppendPrivileges**](nf-ntifs-seappendprivileges.md)
 
-[**SeFreePrivileges**](./nf-ntifs-sefreeprivileges.md)
+[**SeFreePrivileges**](nf-ntifs-sefreeprivileges.md)
 
-[**SeQueryInformationToken**](./nf-ntifs-sequeryinformationtoken.md)
+[**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md)
 
 [**SeSinglePrivilegeCheck**](../ntddk/nf-ntddk-sesingleprivilegecheck.md)

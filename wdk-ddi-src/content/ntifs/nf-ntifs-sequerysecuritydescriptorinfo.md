@@ -153,7 +153,7 @@ A security descriptor can be in absolute or self-relative format. A security des
 
 Because the security descriptor is returned in self-relative format, the caller of <b>SeQuerySecurityDescriptorInfo</b> should cast the value returned in the <i>SecurityDescriptor</i> parameter to type PISECURITY_DESCRIPTOR_RELATIVE. 
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 
