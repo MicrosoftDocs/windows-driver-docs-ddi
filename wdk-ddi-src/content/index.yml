@@ -7,7 +7,7 @@ metadata:
   description: Windows Driver Kit (WDK) 10 is integrated with Microsoft Visual Studio and Debugging Tools for Windows. This integrated environment gives you the tools you need to develop, build, package, deploy, test, and debug Windows drivers. WDK includes templates for several technologies and driver models, including Windows Driver Frameworks (WDF), Universal Serial Bus (USB), print, networking, and file system filters.
   author: tedhudek
   ms.author: tedhudek
-  ms.date: 03/18/2022
+  ms.date: 02/27/2023
   ms.topic: landing-page
   ms.prod: windows-hardware
   ms.technology: wdk-api-reference
@@ -22,13 +22,13 @@ landingContent:
     linkLists:
       - linkListType: reference
         links:
-          - text: GPIO
+          - text: General-purpose I/O (GPIO)
             url: ./_gpio/index.md
-          - text: I2C, SPI
+          - text: Simple Peripheral Bus (SPB)
             url: ./_spb/index.md
-          - text: PCI
+          - text: Peripheral Component Interconnect (PCI)
             url: ./_pci/index.md
-          - text: USB
+          - text: Universal Serial Bus (USB)
             url: ./_usbref/index.md
 
   - title: Connectivity
@@ -46,7 +46,7 @@ landingContent:
     linkLists:
       - linkListType: reference
         links:
-          - text: HID
+          - text: Human Interface Device (HID)
             url: ./_hid/index.md
           - text: Image and Scan
             url: ./_image/index.md
@@ -78,7 +78,7 @@ landingContent:
     linkLists:
       - linkListType: reference
         links:
-          - text: ACPI
+          - text: Advanced Configuration and Power Interface (ACPI)
             url: ./_acpi/index.md
           - text: Display
             url: ./_display/index.md
