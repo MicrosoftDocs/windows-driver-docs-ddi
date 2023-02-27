@@ -47,7 +47,7 @@ The *IpiGenericCall* routine runs simultaneously on all processors.
 
 ### -param Argument [in]
 
-Supplies the value that was passed to the [KeIpiGenericCall](/windows-hardware/drivers/ddi/wdm/nf-wdm-keipigenericcall) routine that called *IpiGenericCall*.
+Supplies the value that was passed to the [KeIpiGenericCall](./nf-wdm-keipigenericcall.md) routine that called *IpiGenericCall*.
 
 ## -returns
 
@@ -84,4 +84,4 @@ The KIPI_BROADCAST_WORKER function type is defined in the Wdm.h header file. To 
 
 ## -see-also
 
-[KeIpiGenericCall](/windows-hardware/drivers/ddi/wdm/nf-wdm-keipigenericcall)
+[KeIpiGenericCall](./nf-wdm-keipigenericcall.md)

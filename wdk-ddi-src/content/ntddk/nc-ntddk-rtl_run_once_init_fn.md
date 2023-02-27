@@ -47,7 +47,7 @@ The *RunOnceInitialization* routine performs a one-time initialization operation
 
 ### -param RunOnce [in, out]
 
-A pointer to the [RTL_RUN_ONCE](/windows-hardware/drivers/kernel/eprocess) one-time initialization structure that the driver previously passed as a parameter to the [RtlRunOnceExecuteOnce](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunonceexecuteonce) routine that called this *RunOnceInitialization* routine.
+A pointer to the [RTL_RUN_ONCE](/windows-hardware/drivers/kernel/eprocess) one-time initialization structure that the driver previously passed as a parameter to the [RtlRunOnceExecuteOnce](./nf-ntddk-rtlrunonceexecuteonce.md) routine that called this *RunOnceInitialization* routine.
 
 ### -param Parameter [in, out]
 
@@ -108,10 +108,10 @@ The RTL_RUN_ONCE_INIT_FN function type is defined in the Wdm.h header file. To m
 
 [RTL_RUN_ONCE](/windows-hardware/drivers/kernel/eprocess)
 
-[RtlRunOnceBeginInitialize](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunoncebegininitialize)
+[RtlRunOnceBeginInitialize](./nf-ntddk-rtlrunoncebegininitialize.md)
 
-[RtlRunOnceComplete](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunoncecomplete)
+[RtlRunOnceComplete](./nf-ntddk-rtlrunoncecomplete.md)
 
-[RtlRunOnceExecuteOnce](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunonceexecuteonce)
+[RtlRunOnceExecuteOnce](./nf-ntddk-rtlrunonceexecuteonce.md)
 
-[RtlRunOnceInitialize](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunonceinitialize)
+[RtlRunOnceInitialize](./nf-ntddk-rtlrunonceinitialize.md)

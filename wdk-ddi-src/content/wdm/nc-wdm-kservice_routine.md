@@ -51,7 +51,7 @@ Caller-supplied pointer to the [KINTERRUPT](/windows-hardware/drivers/kernel/epr
 
 ### -param ServiceContext [in]
 
-Caller-supplied pointer to context information, specified in a previous call to [IoConnectInterrupt](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt) or [IoConnectInterruptEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex).
+Caller-supplied pointer to context information, specified in a previous call to [IoConnectInterrupt](./nf-wdm-ioconnectinterrupt.md) or [IoConnectInterruptEx](./nf-wdm-ioconnectinterruptex.md).
 
 ## -returns
 
@@ -59,7 +59,7 @@ If the routine determines that the interrupt did not come from one of the driver
 
 ## -remarks
 
-To register an ISR for a specific interrupt vector and processor affinity, a driver must call [IoConnectInterrupt](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt) or [IoConnectInterruptEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex).
+To register an ISR for a specific interrupt vector and processor affinity, a driver must call [IoConnectInterrupt](./nf-wdm-ioconnectinterrupt.md) or [IoConnectInterruptEx](./nf-wdm-ioconnectinterruptex.md).
 
 A driver's *InterruptService* routine (ISR) executes in an interrupt context, at some system-assigned [DIRQL](/windows-hardware/drivers/), as specified by the *SynchronizeIrql* parameter to **IoConnectInterrupt**. (Other devices, with higher DIRQL values, can interrupt the ISR.)
 

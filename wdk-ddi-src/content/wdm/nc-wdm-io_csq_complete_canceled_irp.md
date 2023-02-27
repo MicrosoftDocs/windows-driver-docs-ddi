@@ -55,11 +55,11 @@ Pointer to the IRP to be canceled.
 
 ## -remarks
 
-The driver specifies the *CsqCompleteCanceledIrp* routine for a cancel-safe IRP queue when it initializes the queue's **IO_CSQ** structure. The driver specifies the routine as the *CsqCompleteCanceledIrp* parameter of [IoCsqInitialize](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize) or [IoCsqInitializeEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex) when it initializes **IO_CSQ**. For more information, see [Cancel-Safe IRP Queues](/windows-hardware/drivers/kernel/cancel-safe-irp-queues).
+The driver specifies the *CsqCompleteCanceledIrp* routine for a cancel-safe IRP queue when it initializes the queue's **IO_CSQ** structure. The driver specifies the routine as the *CsqCompleteCanceledIrp* parameter of [IoCsqInitialize](./nf-wdm-iocsqinitialize.md) or [IoCsqInitializeEx](./nf-wdm-iocsqinitializeex.md) when it initializes **IO_CSQ**. For more information, see [Cancel-Safe IRP Queues](/windows-hardware/drivers/kernel/cancel-safe-irp-queues).
 
-The system calls this routine to complete a canceled IRP that has been removed from the driver's queue. Normally, drivers just call [IoCompleteRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest) for the IRP with a status of STATUS_CANCELLED.
+The system calls this routine to complete a canceled IRP that has been removed from the driver's queue. Normally, drivers just call [IoCompleteRequest](./nf-wdm-iocompleterequest.md) for the IRP with a status of STATUS_CANCELLED.
 
-Drivers are not required to remove the IRP from the queue before completing it as canceled: the system always calls the queue's [CsqRemoveIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_remove_irp) routine to remove the IRP from the queue before calling *CsqCompleteCanceledIrp*.
+Drivers are not required to remove the IRP from the queue before completing it as canceled: the system always calls the queue's [CsqRemoveIrp](./nc-wdm-io_csq_remove_irp.md) routine to remove the IRP from the queue before calling *CsqCompleteCanceledIrp*.
 
 ### Examples
 
@@ -89,30 +89,30 @@ The IO_CSQ_COMPLETE_CANCELED_IRP function type is defined in the Wdm.h header fi
 
 ## -see-also
 
-[CsqCompleteCanceledIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_complete_canceled_irp)
+[CsqCompleteCanceledIrp]()
 
-[CsqInsertIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_insert_irp)
+[CsqInsertIrp](./nc-wdm-io_csq_insert_irp.md)
 
-[CsqInsertIrpEx](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_insert_irp_ex)
+[CsqInsertIrpEx](./nc-wdm-io_csq_insert_irp_ex.md)
 
-[CsqPeekNextIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_peek_next_irp)
+[CsqPeekNextIrp](./nc-wdm-io_csq_peek_next_irp.md)
 
-[CsqReleaseLock](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_release_lock)
+[CsqReleaseLock](./nc-wdm-io_csq_release_lock.md)
 
-[CsqRemoveIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_remove_irp)
+[CsqRemoveIrp](./nc-wdm-io_csq_remove_irp.md)
 
 [IO_CSQ](/windows-hardware/drivers/kernel/eprocess)
 
-[IoCompleteRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest)
+[IoCompleteRequest](./nf-wdm-iocompleterequest.md)
 
-[IoCsqInitialize](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize)
+[IoCsqInitialize](./nf-wdm-iocsqinitialize.md)
 
-[IoCsqInitializeEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex)
+[IoCsqInitializeEx](./nf-wdm-iocsqinitializeex.md)
 
-[IoCsqInsertIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinsertirp)
+[IoCsqInsertIrp](./nf-wdm-iocsqinsertirp.md)
 
-[IoCsqInsertIrpEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinsertirpex)
+[IoCsqInsertIrpEx](./nf-wdm-iocsqinsertirpex.md)
 
-[IoCsqRemoveIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremoveirp)
+[IoCsqRemoveIrp](./nf-wdm-iocsqremoveirp.md)
 
-[IoCsqRemoveNextIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp)
+[IoCsqRemoveNextIrp](./nf-wdm-iocsqremovenextirp.md)

@@ -81,18 +81,18 @@ Pointer to context information to be passed to the callback routine specified in
 
 To initialize a WORK_QUEUE_ITEM structure, call [ExInitializeWorkItem](/windows-hardware/drivers/kernel/mmcreatemdl).
 
-To post the initialized work item to a system work queue, call [ExQueueWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-exqueueworkitem).
+To post the initialized work item to a system work queue, call [ExQueueWorkItem](./nf-wdm-exqueueworkitem.md).
 
-ExInitializeWorkItem and ExQueueWorkItem can only be used in cases where the specified work item is not associated with any device object or device stack. In all other cases, drivers should use [IoAllocateWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateworkitem), [IoFreeWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreeworkitem), and [IoQueueWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem), because only these routines ensure that the device object associated with the specified work item remains available until the work item has been processed.
+ExInitializeWorkItem and ExQueueWorkItem can only be used in cases where the specified work item is not associated with any device object or device stack. In all other cases, drivers should use [IoAllocateWorkItem](./nf-wdm-ioallocateworkitem.md), [IoFreeWorkItem](./nf-wdm-iofreeworkitem.md), and [IoQueueWorkItem](./nf-wdm-ioqueueworkitem.md), because only these routines ensure that the device object associated with the specified work item remains available until the work item has been processed.
 
 ## -see-also
 
 [ExInitializeWorkItem](/windows-hardware/drivers/kernel/mmcreatemdl)
 
-[ExQueueWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-exqueueworkitem)
+[ExQueueWorkItem](./nf-wdm-exqueueworkitem.md)
 
-[IoAllocateWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateworkitem)
+[IoAllocateWorkItem](./nf-wdm-ioallocateworkitem.md)
 
-[IoFreeWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreeworkitem)
+[IoFreeWorkItem](./nf-wdm-iofreeworkitem.md)
 
-[IoQueueWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem)
+[IoQueueWorkItem](./nf-wdm-ioqueueworkitem.md)

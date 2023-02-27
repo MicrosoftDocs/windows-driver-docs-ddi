@@ -55,7 +55,7 @@ Pointer to the ANSI string to be converted to Unicode.
 
 ### -param AllocateDestinationString [in]
 
-Specifies if this routine should allocate the buffer space for the destination string. If it does, the caller must deallocate the buffer by calling [RtlFreeUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring).
+Specifies if this routine should allocate the buffer space for the destination string. If it does, the caller must deallocate the buffer by calling [RtlFreeUnicodeString](./nf-wdm-rtlfreeunicodestring.md).
 
 ## -returns
 
@@ -80,15 +80,15 @@ RtlAnsiCharToUnicodeChar(
 
 You can use the following routines to convert single-byte and double-byte characters to Unicode characters:
 
-- [RtlAnsiStringToUnicodeSize](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlansistringtounicodesize)
+- [RtlAnsiStringToUnicodeSize](./nf-wdm-rtlansistringtounicodesize.md)
 
 - **RtlAnsiStringToUnicodeString**
 
-- [RtlMultiByteToUnicodeSize](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlmultibytetounicodesize)
+- [RtlMultiByteToUnicodeSize](../ntifs/nf-ntifs-rtlmultibytetounicodesize.md)
 
-- [RtlMultiByteToUnicodeN](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlmultibytetounicoden)
+- [RtlMultiByteToUnicodeN](../ntifs/nf-ntifs-rtlmultibytetounicoden.md)
 
-For more information about these and other string-handling routines, see [Run-Time Library (RTL) Routines](/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines).
+For more information about these and other string-handling routines, see [Run-Time Library (RTL) Routines](../_kernel/index.md#run-time-library-rtl-routines).
 
 **RtlAnsiCharToUnicodeChar** has security deficiencies. Consider using the **RtlAnsiStringToUnicodeString** routine instead.
 
@@ -108,12 +108,12 @@ If, on entry, **SourceCharacter* points to an invalid character code, **RtlAnsiC
 
 [**ANSI_STRING**](/windows/win32/api/ntdef/ns-ntdef-string)
 
-[RtlAnsiStringToUnicodeSize](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlansistringtounicodesize)
+[RtlAnsiStringToUnicodeSize](./nf-wdm-rtlansistringtounicodesize.md)
 
-[RtlFreeUnicodeString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring)
+[RtlFreeUnicodeString](./nf-wdm-rtlfreeunicodestring.md)
 
-[RtlInitAnsiString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitansistring)
+[RtlInitAnsiString](./nf-wdm-rtlinitansistring.md)
 
-[RtlUnicodeStringToAnsiString](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlunicodestringtoansistring)
+[RtlUnicodeStringToAnsiString](./nf-wdm-rtlunicodestringtoansistring.md)
 
 [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)

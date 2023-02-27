@@ -81,4 +81,4 @@ During the processing of an [IRP_MJ_POWER](/windows-hardware/drivers/kernel/irp-
 
 ## -see-also
 
-[KeSetTimerEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex)
+[KeSetTimerEx](./nf-wdm-kesettimerex.md)

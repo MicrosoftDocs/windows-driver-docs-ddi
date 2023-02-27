@@ -53,7 +53,7 @@ The **WHEA_PCIEXPRESS_ERROR_SECTION** structure describes PCI Express (PCIe) err
 
 ### -field ValidBits
 
-A [WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pciexpress_error_section_validbits) union that specifies which members of this structure contain valid data.
+A [WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS](./ns-ntddk-_whea_pciexpress_error_section_validbits.md) union that specifies which members of this structure contain valid data.
 
 ### -field PortType
 
@@ -263,28 +263,28 @@ This member contains valid data only if the **ValidBits.BridgeControlStatus** bi
 
 ### -field ExpressCapability
 
-A buffer that contains a [**PCI_EXPRESS_CAPABILITY**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability) structure that describes the PCIe capability structure for the device where the error occurred.
+A buffer that contains a [**PCI_EXPRESS_CAPABILITY**](./ns-ntddk-_pci_express_capability.md) structure that describes the PCIe capability structure for the device where the error occurred.
 
 This member contains valid data only if the **ValidBits.ExpressCapability** bit is set.
 
 ### -field AerInfo
 
-A buffer that contains a [**PCI_EXPRESS_AER_CAPABILITY**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability) structure that describes the PCIe advanced error reporting (AER) extended capability structure for the device where the error occurred.
+A buffer that contains a [**PCI_EXPRESS_AER_CAPABILITY**](../wdm/ns-wdm-_pci_express_aer_capability.md) structure that describes the PCIe advanced error reporting (AER) extended capability structure for the device where the error occurred.
 
 This member contains valid data only if the **ValidBits.AerInfo** bit is set.
 
 ## -remarks
 
-The WHEA_PCIEXPRESS_ERROR_SECTION structure describes the error data that is contained in a PCI Express (PCIe) error section of an [error record](/windows-hardware/drivers/whea/error-records). An error record contains a PCIe error section only if the **SectionType** member of one of the [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor) structures that describe the error record sections for that error record contains PCIEXPRESS_ERROR_SECTION_GUID.
+The WHEA_PCIEXPRESS_ERROR_SECTION structure describes the error data that is contained in a PCI Express (PCIe) error section of an [error record](/windows-hardware/drivers/whea/error-records). An error record contains a PCIe error section only if the **SectionType** member of one of the [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) structures that describe the error record sections for that error record contains PCIEXPRESS_ERROR_SECTION_GUID.
 
 ## -see-also
 
-[**PCI_EXPRESS_AER_CAPABILITY**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability)
+[**PCI_EXPRESS_AER_CAPABILITY**](../wdm/ns-wdm-_pci_express_aer_capability.md)
 
-[**PCI_EXPRESS_CAPABILITY**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability)
+[**PCI_EXPRESS_CAPABILITY**](./ns-ntddk-_pci_express_capability.md)
 
 [**WHEA_ERROR_PACKET**](/previous-versions/windows/hardware/drivers/ff560465(v=vs.85))
 
-[**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor)
+[**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md)
 
-[**WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pciexpress_error_section_validbits)
+[**WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS**](./ns-ntddk-_whea_pciexpress_error_section_validbits.md)

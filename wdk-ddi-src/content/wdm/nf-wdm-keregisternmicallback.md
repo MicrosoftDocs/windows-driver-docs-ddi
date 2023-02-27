@@ -63,7 +63,7 @@ Specifies the value to be passed as the *Context* parameter of *XxxNmiCallback* 
 
 ## -returns
 
-On success, **KeRegisterNmiCallback** returns an opaque pointer that the caller passes to [KeDeregisterNmiCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisternmicallback) to deregister the callback. The routine returns **NULL** if it is unable to register the callback.
+On success, **KeRegisterNmiCallback** returns an opaque pointer that the caller passes to [KeDeregisterNmiCallback](./nf-wdm-kederegisternmicallback.md) to deregister the callback. The routine returns **NULL** if it is unable to register the callback.
 
 ## -remarks
 
@@ -73,4 +73,4 @@ The callback routine must be able to be run at IRQL = HIGH_LEVEL.
 
 ## -see-also
 
-[KeDeregisterNmiCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisternmicallback)
+[KeDeregisterNmiCallback](./nf-wdm-kederegisternmicallback.md)

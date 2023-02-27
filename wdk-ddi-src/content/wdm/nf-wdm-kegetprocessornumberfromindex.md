@@ -51,7 +51,7 @@ A systemwide processor index. If a multiprocessor system contains a total of *n*
 
 ### -param ProcNumber [out]
 
-A pointer to a caller-allocated [**PROCESSOR_NUMBER**](/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number) structure into which the routine writes the group number and group-relative processor number of the processor that is identified by *ProcIndex*.
+A pointer to a caller-allocated [**PROCESSOR_NUMBER**](../miniport/ns-miniport-_processor_number.md) structure into which the routine writes the group number and group-relative processor number of the processor that is identified by *ProcIndex*.
 
 ## -returns
 
@@ -67,9 +67,9 @@ This routine accepts as input a processor index that identifies the processor ac
 
 For example, if a multiprocessor system contains two groups, and each group contains 64 logical processors, the processor numbers in each group range from 0 to 63, but the systemwide processor indexes range from 0 to 127.
 
-To obtain the total number of active logical processors in the system, call the [KeQueryActiveProcessorCountEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryactiveprocessorcountex) routine.
+To obtain the total number of active logical processors in the system, call the [KeQueryActiveProcessorCountEx](../ntddk/nf-ntddk-kequeryactiveprocessorcountex.md) routine.
 
-The [KeGetProcessorIndexFromNumber](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kegetprocessorindexfromnumber) routine converts a group number and a group-relative processor number to a systemwide processor index.
+The [KeGetProcessorIndexFromNumber](../ntifs/nf-ntifs-kegetprocessorindexfromnumber.md) routine converts a group number and a group-relative processor number to a systemwide processor index.
 
 ### Examples
 
@@ -94,8 +94,8 @@ The constant value ALL_PROCESSOR_GROUPS is defined in Winnt.h and Ntdef.h.
 
 ## -see-also
 
-[KeGetProcessorIndexFromNumber](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kegetprocessorindexfromnumber)
+[KeGetProcessorIndexFromNumber](../ntifs/nf-ntifs-kegetprocessorindexfromnumber.md)
 
-[KeQueryActiveProcessorCountEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryactiveprocessorcountex)
+[KeQueryActiveProcessorCountEx](../ntddk/nf-ntddk-kequeryactiveprocessorcountex.md)
 
-[**PROCESSOR_NUMBER**](/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number)
+[**PROCESSOR_NUMBER**](../miniport/ns-miniport-_processor_number.md)

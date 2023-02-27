@@ -47,21 +47,21 @@ The *Cancel* routine cancels an I/O operation.
 
 ### -param DeviceObject [in, out]
 
-Caller-supplied pointer to a [DEVICE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure. This is the device object for the target device, previously created by the driver's [AddDevice](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device) routine.
+Caller-supplied pointer to a [DEVICE_OBJECT](./ns-wdm-_device_object.md) structure. This is the device object for the target device, previously created by the driver's [AddDevice](./nc-wdm-driver_add_device.md) routine.
 
 ### -param Irp [in, out]
 
-Caller-supplied pointer to an [IRP](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp) structure that describes the I/O operation to be canceled.
+Caller-supplied pointer to an [IRP](./ns-wdm-_irp.md) structure that describes the I/O operation to be canceled.
 
 ## -remarks
 
-When a driver or other system component calls [IoCancelIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocancelirp), the I/O manager calls the IRP's *Cancel* routine, if one has been registered for the IRP.
+When a driver or other system component calls [IoCancelIrp](./nf-wdm-iocancelirp.md), the I/O manager calls the IRP's *Cancel* routine, if one has been registered for the IRP.
 
 To register a *Cancel* routine for an IRP, a driver can use either of the following two methods:
 
-1. A driver that provides a [StartIo](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_startio) routine and uses the I/O manager-supplied device queue can specify a *Cancel* routine when calling [IoStartPacket](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartpacket).
+1. A driver that provides a [StartIo](./nc-wdm-driver_startio.md) routine and uses the I/O manager-supplied device queue can specify a *Cancel* routine when calling [IoStartPacket](../ntifs/nf-ntifs-iostartpacket.md).
 
-1. A driver that creates and manages supplemental device queues can register a *Cancel* routine by calling [IoSetCancelRoutine](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcancelroutine).
+1. A driver that creates and manages supplemental device queues can register a *Cancel* routine by calling [IoSetCancelRoutine](./nf-wdm-iosetcancelroutine.md).
 
 Only one *Cancel* routine can be registered for an IRP at one time.
 
@@ -69,7 +69,7 @@ The I/O manager calls [IoAcquireCancelSpinLock](/previous-versions/windows/hardw
 
 The *Cancel* routine executes in an arbitrary thread context at IRQL = DISPATCH_LEVEL until it calls **IoReleaseCancelSpinLock**, which changes the IRQL to a caller-supplied value. The driver should specify **Irp->CancelIrql** for this value.
 
-The *Cancel* routine must set the I/O status block's **Status** member to STATUS_CANCELLED, and set its **Information** member to zero. The routine must then complete the specified IRP by calling [IoCompleteRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest).
+The *Cancel* routine must set the I/O status block's **Status** member to STATUS_CANCELLED, and set its **Information** member to zero. The routine must then complete the specified IRP by calling [IoCompleteRequest](./nf-wdm-iocompleterequest.md).
 
 For detailed information about implementing a driver's *Cancel* routine, see [Canceling IRPs](/windows-hardware/drivers/kernel/canceling-irps).
 

@@ -47,15 +47,15 @@ The *IoCompletion* routine completes the processing of I/O operations.
 
 ### -param DeviceObject [in]
 
-Caller-supplied pointer to a [DEVICE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure. This is the device object for the target device, previously created by the driver's [AddDevice](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device) routine.
+Caller-supplied pointer to a [DEVICE_OBJECT](./ns-wdm-_device_object.md) structure. This is the device object for the target device, previously created by the driver's [AddDevice](./nc-wdm-driver_add_device.md) routine.
 
 ### -param Irp [in]
 
-Caller-supplied pointer to an [IRP](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp) structure that describes the I/O operation.
+Caller-supplied pointer to an [IRP](./ns-wdm-_irp.md) structure that describes the I/O operation.
 
 ### -param Context [in, optional]
 
-Caller-supplied pointer to driver-specific context information, previously supplied when calling [IoSetCompletionRoutine](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine) or [IoSetCompletionRoutineEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutineex). Context information must be stored in nonpaged memory, since an *IoCompletion* routine can be called at DISPATCH_LEVEL. For more information, see the following Remarks section.
+Caller-supplied pointer to driver-specific context information, previously supplied when calling [IoSetCompletionRoutine](./nf-wdm-iosetcompletionroutine.md) or [IoSetCompletionRoutineEx](./nf-wdm-iosetcompletionroutineex.md). Context information must be stored in nonpaged memory, since an *IoCompletion* routine can be called at DISPATCH_LEVEL. For more information, see the following Remarks section.
 
 ## -returns
 
@@ -65,9 +65,9 @@ If the *IoCompletion* routine determines that additional processing is required 
 
 A driver's *IoCompletion* routine executes in an arbitrary thread or DPC context, and at an IRQL that is less than or equal to DISPATCH_LEVEL. Because code written to execute at DISPATCH_LEVEL will also execute at lower levels, *IoCompletion* routines should be designed for execution at DISPATCH_LEVEL. However, because these routines are not guaranteed to run at DISPATCH_LEVEL, they must not call system routines that actually require execution at DISPATCH_LEVEL. (For more information about IRQLs, see [Managing Hardware Priorities](/windows-hardware/drivers/kernel/managing-hardware-priorities).)
 
-To register an *IoCompletion* routine for a specific IRP, a driver must call [IoSetCompletionRoutine](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine) or [IoSetCompletionRoutineEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutineex), which stores the *IoCompletion* routine's address in the next-lower driver's I/O stack location. (Thus, a lowest-level driver cannot register an *IoCompletion* routine.) A driver typically calls **IoSetCompletionRoutine** or **IoSetCompletionRoutineEx** from one of its dispatch routines, each time an IRP is received. Most drivers, including all PnP drivers, can use **IoSetCompletionRoutine** to register their *IoCompletion* routine. Non-PnP drivers that may be unloaded before their *IoCompletion* routine executes should use **IoSetCompletionRoutineEx** instead.
+To register an *IoCompletion* routine for a specific IRP, a driver must call [IoSetCompletionRoutine](./nf-wdm-iosetcompletionroutine.md) or [IoSetCompletionRoutineEx](./nf-wdm-iosetcompletionroutineex.md), which stores the *IoCompletion* routine's address in the next-lower driver's I/O stack location. (Thus, a lowest-level driver cannot register an *IoCompletion* routine.) A driver typically calls **IoSetCompletionRoutine** or **IoSetCompletionRoutineEx** from one of its dispatch routines, each time an IRP is received. Most drivers, including all PnP drivers, can use **IoSetCompletionRoutine** to register their *IoCompletion* routine. Non-PnP drivers that may be unloaded before their *IoCompletion* routine executes should use **IoSetCompletionRoutineEx** instead.
 
-When any driver completes an IRP, it calls [IoCompleteRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest), which in turn calls the *IoCompletion* routine of each higher-level driver, from the next-highest to the highest, until all higher *IoCompletion* routines have been called or until one routine returns STATUS_MORE_PROCESSING_REQUIRED.
+When any driver completes an IRP, it calls [IoCompleteRequest](./nf-wdm-iocompleterequest.md), which in turn calls the *IoCompletion* routine of each higher-level driver, from the next-highest to the highest, until all higher *IoCompletion* routines have been called or until one routine returns STATUS_MORE_PROCESSING_REQUIRED.
 
 When you create the IRP, allocate a stack location for the current driver as well as any lower drivers. If you do not allocate sufficient stack locations, the *DeviceObject* pointer might be set to **NULL** when the completion routine is called. You can avoid allocating extra stack location for the current driver if you use the *Context* field to pass information to *IoCompletion* rather then relying on the *DeviceObject* parameter.
 

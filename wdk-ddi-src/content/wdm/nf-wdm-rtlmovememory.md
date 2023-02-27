@@ -71,10 +71,10 @@ void RtlMoveMemory(
 
 The source memory block, which is defined by *Source* and *Length*, can overlap the destination memory block, which is defined by *Destination* and *Length*.
 
-The [RtlCopyMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcopymemory) routine runs faster than **RtlMoveMemory**, but **RtlCopyMemory** requires that the source and destination memory blocks do not overlap.
+The [RtlCopyMemory](./nf-wdm-rtlcopymemory.md) routine runs faster than **RtlMoveMemory**, but **RtlCopyMemory** requires that the source and destination memory blocks do not overlap.
 
 Callers of **RtlMoveMemory** can be running at any IRQL if the source and destination memory blocks are in nonpaged system memory. Otherwise, the caller must be running at IRQL <= APC_LEVEL.
 
 ## -see-also
 
-[RtlCopyMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcopymemory)
+[RtlCopyMemory](./nf-wdm-rtlcopymemory.md)

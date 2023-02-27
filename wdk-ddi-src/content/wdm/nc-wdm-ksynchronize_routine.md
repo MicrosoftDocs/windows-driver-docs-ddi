@@ -41,13 +41,13 @@ api_name:
 
 ## -description
 
-The *SynchCritSection* routine is used to access hardware resources or driver data that are shared with a driver's [InterruptService](/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine) routine.
+The *SynchCritSection* routine is used to access hardware resources or driver data that are shared with a driver's [InterruptService](./nc-wdm-kservice_routine.md) routine.
 
 ## -parameters
 
 ### -param SynchronizeContext [in]
 
-Caller-supplied context information, specified by the driver's call to [KeSynchronizeExecution](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesynchronizeexecution).
+Caller-supplied context information, specified by the driver's call to [KeSynchronizeExecution](./nf-wdm-kesynchronizeexecution.md).
 
 ## -returns
 
@@ -57,9 +57,9 @@ If the routine's operation succeeds, the routine should return **TRUE**; otherwi
 
 Drivers must use *SynchCritSection* routines to access hardware resources or driver data that can also be accessed by an *InterruptService* routine (ISR).
 
-The system calls a driver's *SynchCritSection* routine when the driver calls [KeSynchronizeExecution](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesynchronizeexecution). When a driver calls **KeSynchronizeExecution**, it specifies the address of a *SynchCritSection* routine, context information for the routine, and an interrupt object pointer. The **KeSynchronizeExecution** routine acquires the interrupt object's spin lock, then calls the *SynchCritSection* routine.
+The system calls a driver's *SynchCritSection* routine when the driver calls [KeSynchronizeExecution](./nf-wdm-kesynchronizeexecution.md). When a driver calls **KeSynchronizeExecution**, it specifies the address of a *SynchCritSection* routine, context information for the routine, and an interrupt object pointer. The **KeSynchronizeExecution** routine acquires the interrupt object's spin lock, then calls the *SynchCritSection* routine.
 
-A driver's *SynchCritSection* routine executes at the same IRQL as the ISR with which it is associated. Specifically, it executes at some system-assigned [DIRQL](/windows-hardware/drivers/), as specified by the *SynchronizeIrql* parameter to [IoConnectInterrupt](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt). (Other devices, with higher DIRQL values, can interrupt a *SynchCritSection* routine.)
+A driver's *SynchCritSection* routine executes at the same IRQL as the ISR with which it is associated. Specifically, it executes at some system-assigned [DIRQL](/windows-hardware/drivers/), as specified by the *SynchronizeIrql* parameter to [IoConnectInterrupt](./nf-wdm-ioconnectinterrupt.md). (Other devices, with higher DIRQL values, can interrupt a *SynchCritSection* routine.)
 
 ### Examples
 

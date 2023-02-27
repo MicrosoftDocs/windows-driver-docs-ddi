@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-The *DpcForIsr* routine finishes the servicing of an I/O operation, after an [InterruptService](/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine) routine returns.
+The *DpcForIsr* routine finishes the servicing of an I/O operation, after an [InterruptService](./nc-wdm-kservice_routine.md) routine returns.
 
 ## -parameters
 
@@ -51,21 +51,21 @@ Caller-supplied pointer to a [KDPC](/windows-hardware/drivers/kernel/eprocess) s
 
 ### -param DeviceObject [in]
 
-Caller-supplied pointer to a [DEVICE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure. This is the device object for the target device, previously created by the driver's [AddDevice](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device) routine.
+Caller-supplied pointer to a [DEVICE_OBJECT](./ns-wdm-_device_object.md) structure. This is the device object for the target device, previously created by the driver's [AddDevice](./nc-wdm-driver_add_device.md) routine.
 
 ### -param Irp [in, out]
 
-Caller-supplied pointer to an [IRP](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp) structure that describes the I/O operation.
+Caller-supplied pointer to an [IRP](./ns-wdm-_irp.md) structure that describes the I/O operation.
 
 ### -param Context [in, optional]
 
-Caller-supplied pointer to driver-defined context information, specified in a previous call to [IoRequestDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-iorequestdpc).
+Caller-supplied pointer to driver-defined context information, specified in a previous call to [IoRequestDpc](./nf-wdm-iorequestdpc.md).
 
 ## -remarks
 
-To register a *DpcForIsr* routine for a specific device object, a driver must call [IoInitializeDpcRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializedpcrequest), which causes the system to allocate and initialize one DPC object. (If you need multiple DPC routines, use [CustomDpc](/windows-hardware/drivers/ddi/wdm/nc-wdm-kdeferred_routine) routines.)
+To register a *DpcForIsr* routine for a specific device object, a driver must call [IoInitializeDpcRequest](./nf-wdm-ioinitializedpcrequest.md), which causes the system to allocate and initialize one DPC object. (If you need multiple DPC routines, use [CustomDpc](./nc-wdm-kdeferred_routine.md) routines.)
 
-To queue a *DpcForIsr* routine for execution, a driver's [InterruptService](/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine) routine must call [IoRequestDPC](/windows-hardware/drivers/ddi/wdm/nf-wdm-iorequestdpc).
+To queue a *DpcForIsr* routine for execution, a driver's [InterruptService](./nc-wdm-kservice_routine.md) routine must call [IoRequestDPC](./nf-wdm-iorequestdpc.md).
 
 A *DpcForIsr* routine is typically responsible for at least the following tasks:
 
@@ -73,11 +73,11 @@ A *DpcForIsr* routine is typically responsible for at least the following tasks:
 
 - Dequeuing next IRP.
 
-  If the driver uses the system-supplied IRP queue, the *DpcForIsr* routine should call [IoStartNextPacket](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartnextpacket) or [IoStartNextPacketByKey](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartnextpacketbykey), so the driver's [StartIo](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_startio) routine will start processing the next I/O request.
+  If the driver uses the system-supplied IRP queue, the *DpcForIsr* routine should call [IoStartNextPacket](../ntifs/nf-ntifs-iostartnextpacket.md) or [IoStartNextPacketByKey](../ntifs/nf-ntifs-iostartnextpacketbykey.md), so the driver's [StartIo](./nc-wdm-driver_startio.md) routine will start processing the next I/O request.
 
   If the driver uses internal IRP queues, the *DpcForIsr* routine should dequeue the next IRP and begin processing for the next I/O request.
 
-- Setting the I/O status block in the received IRP and calling [IoCompleteRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest) for the completed request.
+- Setting the I/O status block in the received IRP and calling [IoCompleteRequest](./nf-wdm-iocompleterequest.md) for the completed request.
 
 A *DpcForIsr* routine might also retry a failed operation or set up the next transfer for a large I/O request that has been broken into smaller pieces.
 

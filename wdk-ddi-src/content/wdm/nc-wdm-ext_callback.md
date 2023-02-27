@@ -47,23 +47,23 @@ An *ExTimerCallback* callback routine runs after an [EX_TIMER](/windows-hardware
 
 ### -param Timer [in]
 
-A pointer to an [EX_TIMER](/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects) structure. This structure is a timer object that was previously allocated by the [ExAllocateTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatetimer) routine.
+A pointer to an [EX_TIMER](/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects) structure. This structure is a timer object that was previously allocated by the [ExAllocateTimer](./nf-wdm-exallocatetimer.md) routine.
 
 ### -param Context [in]
 
-The context value that your driver previously supplied as the *CallbackContext* parameter of the [ExAllocateTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatetimer) routine.
+The context value that your driver previously supplied as the *CallbackContext* parameter of the [ExAllocateTimer](./nf-wdm-exallocatetimer.md) routine.
 
 ## -remarks
 
-As an option, your driver can supply a pointer to an *ExTimerCallback* routine in the *Callback* parameter that your driver passes to the [ExAllocateTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatetimer) routine. After the timer expires, the operating system calls the *ExTimerCallback* routine.
+As an option, your driver can supply a pointer to an *ExTimerCallback* routine in the *Callback* parameter that your driver passes to the [ExAllocateTimer](./nf-wdm-exallocatetimer.md) routine. After the timer expires, the operating system calls the *ExTimerCallback* routine.
 
-To start a timer operation, the driver passes the timer object as an input parameter to the [ExSetTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-exsettimer) routine. After the timer expires, the operating system schedules the *ExTimerCallback* routine to run.
+To start a timer operation, the driver passes the timer object as an input parameter to the [ExSetTimer](./nf-wdm-exsettimer.md) routine. After the timer expires, the operating system schedules the *ExTimerCallback* routine to run.
 
-A timer object is a waitable object. A driver thread can call a routine such as [KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject) or [KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects) to wait for the timer to expire. When the timer expires, the operating system signals the timer object.
+A timer object is a waitable object. A driver thread can call a routine such as [KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md) or [KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md) to wait for the timer to expire. When the timer expires, the operating system signals the timer object.
 
-A timer might be canceled before it expires. The driver can call the [ExCancelTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-excanceltimer) routine to explicitly cancel a timer. If the driver calls the [ExSetTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-exsettimer) routine to start a new timer on a timer object before a previously set timer on this object expires, this call implicitly cancels the previous timer and then starts the new timer.
+A timer might be canceled before it expires. The driver can call the [ExCancelTimer](./nf-wdm-excanceltimer.md) routine to explicitly cancel a timer. If the driver calls the [ExSetTimer](./nf-wdm-exsettimer.md) routine to start a new timer on a timer object before a previously set timer on this object expires, this call implicitly cancels the previous timer and then starts the new timer.
 
-An *ExTimerCallback* routine can call a routine such as **ExSetTimer** or [ExDeleteTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer). If an *ExTimerCallback* routine calls **ExDeleteTimer**, the *Wait* parameter supplied in this call must be **FALSE**. For more information, see [Deleting a System-Allocated Timer Object](/windows-hardware/drivers/kernel/deleting-a-system-allocated-timer-object).
+An *ExTimerCallback* routine can call a routine such as **ExSetTimer** or [ExDeleteTimer](./nf-wdm-exdeletetimer.md). If an *ExTimerCallback* routine calls **ExDeleteTimer**, the *Wait* parameter supplied in this call must be **FALSE**. For more information, see [Deleting a System-Allocated Timer Object](/windows-hardware/drivers/kernel/deleting-a-system-allocated-timer-object).
 
 In a multiprocessor system, *ExTimerCallback* callbacks for two successive expirations of a periodic timer might simultaneously run on two different processors.
 
@@ -97,12 +97,12 @@ The EXT_CALLBACK function type is defined in the Wdm.h header file. To more accu
 
 [EX_TIMER](/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects)
 
-[ExAllocateTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatetimer)
+[ExAllocateTimer](./nf-wdm-exallocatetimer.md)
 
-[ExCancelTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-excanceltimer)
+[ExCancelTimer](./nf-wdm-excanceltimer.md)
 
-[ExSetTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-exsettimer)
+[ExSetTimer](./nf-wdm-exsettimer.md)
 
-[KeWaitForMultipleObjects](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects)
+[KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md)
 
-[KeWaitForSingleObject](/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject)
+[KeWaitForSingleObject](./nf-wdm-kewaitforsingleobject.md)

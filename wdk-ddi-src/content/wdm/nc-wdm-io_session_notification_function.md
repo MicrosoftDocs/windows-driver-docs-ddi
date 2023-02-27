@@ -47,15 +47,15 @@ The IO_SESSION_NOTIFICATION_FUNCTION function type defines a callback routine th
 
 ### -param SessionObject [in]
 
-Pointer to an opaque, system object that contains information about the user session. The driver can pass this pointer value to the [IoGetContainerInformation](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation) routine as the *ContainerObject* parameter value.
+Pointer to an opaque, system object that contains information about the user session. The driver can pass this pointer value to the [IoGetContainerInformation](./nf-wdm-iogetcontainerinformation.md) routine as the *ContainerObject* parameter value.
 
 ### -param IoObject [in]
 
-Pointer to an I/O object owned by the driver. This parameter is the I/O object pointer that the driver supplied to the [IoRegisterContainerNotification](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregistercontainernotification) routine when the driver previously registered to receive notifications of session events. The **IoRegisterContainerNotification** routine's *NotificationInformation* parameter points to an [**IO_SESSION_STATE_NOTIFICATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_notification) structure whose **IoObject** member points to the I/O object.
+Pointer to an I/O object owned by the driver. This parameter is the I/O object pointer that the driver supplied to the [IoRegisterContainerNotification](./nf-wdm-ioregistercontainernotification.md) routine when the driver previously registered to receive notifications of session events. The **IoRegisterContainerNotification** routine's *NotificationInformation* parameter points to an [**IO_SESSION_STATE_NOTIFICATION**](./ns-wdm-_io_session_state_notification.md) structure whose **IoObject** member points to the I/O object.
 
 ### -param Event [in]
 
-An [IO_SESSION_EVENT](/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_event) enumeration constant that indicates which session event caused the notification callback.
+An [IO_SESSION_EVENT](./ne-wdm-_io_session_event.md) enumeration constant that indicates which session event caused the notification callback.
 
 ### -param Context [in]
 
@@ -63,7 +63,7 @@ The context value that the driver previously supplied to the **IoRegisterContain
 
 ### -param NotificationPayload [in]
 
-Pointer to a payload buffer that contains an [**IO_SESSION_CONNECT_INFO**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_connect_info) structure.
+Pointer to a payload buffer that contains an [**IO_SESSION_CONNECT_INFO**](./ns-wdm-_io_session_connect_info.md) structure.
 
 ### -param PayloadLength [in]
 
@@ -77,7 +77,7 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 
 A kernel-mode driver implements this routine. The I/O manager calls this routine to notify the driver of session events.
 
-To receive notifications of session events, a driver calls the **IoRegisterContainerNotification** routine and sets this routine's *CallbackFunction* parameter to point to the driver's IO_SESSION_NOTIFICATION_FUNCTION routine. The I/O object that the driver passes to **IoRegisterContainerNotification** determines whether the driver will receive notifications of events in a particular user session or of events in all sessions. For more information, see [IO_SESSION_STATE_NOTIFICATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_notification).
+To receive notifications of session events, a driver calls the **IoRegisterContainerNotification** routine and sets this routine's *CallbackFunction* parameter to point to the driver's IO_SESSION_NOTIFICATION_FUNCTION routine. The I/O object that the driver passes to **IoRegisterContainerNotification** determines whether the driver will receive notifications of events in a particular user session or of events in all sessions. For more information, see [IO_SESSION_STATE_NOTIFICATION](./ns-wdm-_io_session_state_notification.md).
 
 ### Examples
 
@@ -111,12 +111,12 @@ The IO_SESSION_NOTIFICATION_FUNCTION function type is defined in the Wdm.h heade
 
 ## -see-also
 
-[**IO_SESSION_CONNECT_INFO**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_connect_info)
+[**IO_SESSION_CONNECT_INFO**](./ns-wdm-_io_session_connect_info.md)
 
-[IO_SESSION_EVENT](/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_event)
+[IO_SESSION_EVENT](./ne-wdm-_io_session_event.md)
 
-[**IO_SESSION_STATE_NOTIFICATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_notification)
+[**IO_SESSION_STATE_NOTIFICATION**](./ns-wdm-_io_session_state_notification.md)
 
-[IoGetContainerInformation](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation)
+[IoGetContainerInformation](./nf-wdm-iogetcontainerinformation.md)
 
-[IoRegisterContainerNotification](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregistercontainernotification)
+[IoRegisterContainerNotification](./nf-wdm-ioregistercontainernotification.md)

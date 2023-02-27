@@ -53,11 +53,11 @@ The **WHEA_PCIXBUS_ERROR_SECTION** structure describes PCI or PCI-X bus error da
 
 ### -field ValidBits
 
-A [**WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixbus_error_section_validbits) union that specifies which members of this structure contain valid data.
+A [**WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS**](./ns-ntddk-_whea_pcixbus_error_section_validbits.md) union that specifies which members of this structure contain valid data.
 
 ### -field ErrorStatus
 
-A [**WHEA_ERROR_STATUS**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_status) structure that contains PCI or PCI-X bus error status data.
+A [**WHEA_ERROR_STATUS**](./ns-ntddk-_whea_error_status.md) structure that contains PCI or PCI-X bus error status data.
 
 This member contains valid data only if the **ValidBits.ErrorStatus** bit is set.
 
@@ -196,14 +196,14 @@ This member contains valid data only if the **ValidBits.TargetId** bit is set.
 
 ## -remarks
 
-The **WHEA_PCIXBUS_ERROR_SECTION** structure describes the error data that is contained in a PCI/PCI-X bus error section of an [error record](/windows-hardware/drivers/whea/error-records). An error record contains a PCI/PCI-X bus error section only if the **SectionType** member of one of the [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor) structures that describe the error record sections for that error record contains PCIXBUS_ERROR_SECTION_GUID.
+The **WHEA_PCIXBUS_ERROR_SECTION** structure describes the error data that is contained in a PCI/PCI-X bus error section of an [error record](/windows-hardware/drivers/whea/error-records). An error record contains a PCI/PCI-X bus error section only if the **SectionType** member of one of the [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) structures that describe the error record sections for that error record contains PCIXBUS_ERROR_SECTION_GUID.
 
 ## -see-also
 
 [**WHEA_ERROR_PACKET**](/previous-versions/windows/hardware/drivers/ff560465(v=vs.85))
 
-[**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor)
+[**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md)
 
-[**WHEA_ERROR_STATUS**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_status)
+[**WHEA_ERROR_STATUS**](./ns-ntddk-_whea_error_status.md)
 
-[**WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixbus_error_section_validbits)
+[**WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS**](./ns-ntddk-_whea_pcixbus_error_section_validbits.md)

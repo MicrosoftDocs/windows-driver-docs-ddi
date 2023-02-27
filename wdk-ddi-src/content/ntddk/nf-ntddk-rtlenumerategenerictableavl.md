@@ -47,7 +47,7 @@ The **RtlEnumerateGenericTableAvl** routine is used to enumerate the elements in
 
 ### -param Table [in]
 
-A pointer to the generic table ([RTL_AVL_TABLE](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table)). The table must have been initialized by calling [RtlInitializeGenericTableAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl).
+A pointer to the generic table ([RTL_AVL_TABLE](./ns-ntddk-_rtl_avl_table.md)). The table must have been initialized by calling [RtlInitializeGenericTableAvl](./nf-ntddk-rtlinitializegenerictableavl.md).
 
 ### -param Restart [in]
 
@@ -75,18 +75,18 @@ By default, the operating system uses splay trees to implement generic tables, b
 
 `#define RTL_USE_AVL_TABLES 0`
 
-If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the **RtlEnumerateGenericTableAvl** routine instead of [RtlEnumerateGenericTable](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictable). In the call to **RtlEnumerateGenericTableAvl**, the caller must pass a [RTL_AVL_TABLE](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table) table structure rather than [RTL_GENERIC_TABLE](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table).
+If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the **RtlEnumerateGenericTableAvl** routine instead of [RtlEnumerateGenericTable](./nf-ntddk-rtlenumerategenerictable.md). In the call to **RtlEnumerateGenericTableAvl**, the caller must pass a [RTL_AVL_TABLE](./ns-ntddk-_rtl_avl_table.md) table structure rather than [RTL_GENERIC_TABLE](./ns-ntddk-_rtl_generic_table.md).
 
 Callers of **RtlEnumerateGenericTableAvl** must be running at IRQL < DISPATCH_LEVEL if the caller-allocated memory for the generic table is pageable.
 
 ## -see-also
 
-[ExInitializeFastMutex](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex)
+[ExInitializeFastMutex](../wdm/nf-wdm-exinitializefastmutex.md)
 
-[RtlEnumerateGenericTableWithoutSplayingAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictablewithoutsplayingavl)
+[RtlEnumerateGenericTableWithoutSplayingAvl](./nf-ntddk-rtlenumerategenerictablewithoutsplayingavl.md)
 
-[RtlInitializeGenericTableAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl)
+[RtlInitializeGenericTableAvl](./nf-ntddk-rtlinitializegenerictableavl.md)
 
-[RtlIsGenericTableEmptyAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlisgenerictableemptyavl)
+[RtlIsGenericTableEmptyAvl](./nf-ntddk-rtlisgenerictableemptyavl.md)
 
-[RtlNumberGenericTableElementsAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlnumbergenerictableelementsavl)
+[RtlNumberGenericTableElementsAvl](./nf-ntddk-rtlnumbergenerictableelementsavl.md)

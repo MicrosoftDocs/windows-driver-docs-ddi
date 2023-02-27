@@ -53,7 +53,7 @@ The **CM_EISA_FUNCTION_INFORMATION** structure defines detailed EISA configurati
 
 ### -field CompressedId
 
-The EISA compressed identification of the device at this slot. The value is identical to the **CompressedId** member of the [CM_EISA_SLOT_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information) structure.
+The EISA compressed identification of the device at this slot. The value is identical to the **CompressedId** member of the [CM_EISA_SLOT_INFORMATION](../wdm/ns-wdm-_cm_eisa_slot_information.md) structure.
 
 ### -field IdSlotFlags1
 
@@ -166,11 +166,11 @@ Vendor-supplied, device-specific initialization data, if any.
 
 ## -remarks
 
-The information returned by **HalGetBusData** or **HalGetBusDataByOffset** in **CM_EISA_FUNCTION_INFORMATION** and/or in the [CM_EISA_SLOT_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information) header immediately preceding it is read-only.
+The information returned by **HalGetBusData** or **HalGetBusDataByOffset** in **CM_EISA_FUNCTION_INFORMATION** and/or in the [CM_EISA_SLOT_INFORMATION](../wdm/ns-wdm-_cm_eisa_slot_information.md) header immediately preceding it is read-only.
 
 ## -see-also
 
-[**CM_EISA_SLOT_INFORMATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information)
+[**CM_EISA_SLOT_INFORMATION**](../wdm/ns-wdm-_cm_eisa_slot_information.md)
 
 [HalGetBusData](/previous-versions/windows/hardware/drivers/ff546644(v=vs.85))
 

@@ -78,4 +78,4 @@ Callers of **RtlEqualMemory** can be running at any IRQL if both blocks of memor
 
 ## -see-also
 
-[RtlCompareMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcomparememory)
+[RtlCompareMemory](./nf-wdm-rtlcomparememory.md)

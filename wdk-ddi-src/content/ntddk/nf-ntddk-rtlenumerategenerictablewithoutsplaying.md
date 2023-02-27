@@ -47,7 +47,7 @@ The **RtlEnumerateGenericTableWithoutSplaying** routine is used to enumerate the
 
 ### -param Table [in]
 
-A pointer to the generic table ([RTL_GENERIC_TABLE](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table)). The table must have been initialized by calling [RtlInitializeGenericTable](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable).
+A pointer to the generic table ([RTL_GENERIC_TABLE](./ns-ntddk-_rtl_generic_table.md)). The table must have been initialized by calling [RtlInitializeGenericTable](./nf-ntddk-rtlinitializegenerictable.md).
 
 ### -param RestartKey [in, out]
 
@@ -70,7 +70,7 @@ for (ptr = RtlEnumerateGenericTableWithoutSplaying(Table, &RestartKey);
 
 ## -remarks
 
-Unlike [RtlEnumerateGenericTable](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictable), **RtlEnumerateGenericTableWithoutSplaying** does not flatten the generic table by converting it from a splay tree into a sorted linked list. **RtlEnumerateGenericTableWithoutSplaying** is more efficient and multiprocessor-safe than **RtlEnumerateGenericTable**.
+Unlike [RtlEnumerateGenericTable](./nf-ntddk-rtlenumerategenerictable.md), **RtlEnumerateGenericTableWithoutSplaying** does not flatten the generic table by converting it from a splay tree into a sorted linked list. **RtlEnumerateGenericTableWithoutSplaying** is more efficient and multiprocessor-safe than **RtlEnumerateGenericTable**.
 
 **RtlEnumerateGenericTableWithoutSplaying** can be called repeatedly to process the caller's data in each element of a generic table.
 
@@ -80,16 +80,16 @@ By default, the operating system uses splay trees to implement generic tables. U
 
 `#define RTL_USE_AVL_TABLES 0`
 
-If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the **RtlEnumerateGenericTableWithoutSplaying** routine instead of [RtlEnumerateGenericTableWithoutSplayingAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictablewithoutsplayingavl). In the call to **RtlEnumerateGenericTableWithoutSplayingAvl**, the caller must pass a [RTL_AVL_TABLE](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table) table structure rather than [RTL_GENERIC_TABLE](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table).
+If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the **RtlEnumerateGenericTableWithoutSplaying** routine instead of [RtlEnumerateGenericTableWithoutSplayingAvl](./nf-ntddk-rtlenumerategenerictablewithoutsplayingavl.md). In the call to **RtlEnumerateGenericTableWithoutSplayingAvl**, the caller must pass a [RTL_AVL_TABLE](./ns-ntddk-_rtl_avl_table.md) table structure rather than [RTL_GENERIC_TABLE](./ns-ntddk-_rtl_generic_table.md).
 
 Callers of **RtlEnumerateGenericTableWithoutSplaying** must be running at IRQL < DISPATCH_LEVEL if the caller-allocated memory for the generic table is pageable.
 
 ## -see-also
 
-[RtlEnumerateGenericTable](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictable)
+[RtlEnumerateGenericTable](./nf-ntddk-rtlenumerategenerictable.md)
 
-[RtlInitializeGenericTable](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable)
+[RtlInitializeGenericTable](./nf-ntddk-rtlinitializegenerictable.md)
 
-[RtlIsGenericTableEmpty](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlisgenerictableempty)
+[RtlIsGenericTableEmpty](./nf-ntddk-rtlisgenerictableempty.md)
 
-[RtlNumberGenericTableElements](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlnumbergenerictableelements)
+[RtlNumberGenericTableElements](./nf-ntddk-rtlnumbergenerictableelements.md)

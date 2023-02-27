@@ -61,11 +61,11 @@ The length, in bytes, of the error data contained in the error record section.
 
 ### -field Revision
 
-A [**WHEA_REVISION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_revision) union that describes the revision level of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure.
+A [**WHEA_REVISION**](./ns-ntddk-_whea_revision.md) union that describes the revision level of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure.
 
 ### -field ValidBits
 
-A [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor_validbits) union that specifies which members of this structure contain valid data.
+A [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS**](./ns-ntddk-_whea_error_record_section_descriptor_validbits.md) union that specifies which members of this structure contain valid data.
 
 ### -field Reserved
 
@@ -132,7 +132,7 @@ The error record section contains the hardware error packet that was passed to t
 
 #### PROCESSOR_GENERIC_ERROR_SECTION_GUID
 
-The error record section contains processor error data that is not specific to a particular processor architecture. This data is described by a [**WHEA_PROCESSOR_GENERIC_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_generic_error_section) structure.
+The error record section contains processor error data that is not specific to a particular processor architecture. This data is described by a [**WHEA_PROCESSOR_GENERIC_ERROR_SECTION**](./ns-ntddk-_whea_processor_generic_error_section.md) structure.
 
 #### IPF_PROCESSOR_ERROR_SECTION_GUID
 
@@ -140,25 +140,25 @@ The error record section contains processor error data that is specific to the I
 
 #### FIRMWARE_ERROR_RECORD_REFERENCE_GUID
 
-The error record section contains a reference to a firmware error record that is specific to the Itanium processor architecture. This data is described by a [**WHEA_FIRMWARE_ERROR_RECORD_REFERENCE**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_firmware_error_record_reference) structure.
+The error record section contains a reference to a firmware error record that is specific to the Itanium processor architecture. This data is described by a [**WHEA_FIRMWARE_ERROR_RECORD_REFERENCE**](./ns-ntddk-_whea_firmware_error_record_reference.md) structure.
 
 #### MEMORY_ERROR_SECTION_GUID
 
-The error record section contains platform memory error data. This data is described by a [**WHEA_MEMORY_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section) structure.
+The error record section contains platform memory error data. This data is described by a [**WHEA_MEMORY_ERROR_SECTION**](./ns-ntddk-_whea_memory_error_section.md) structure.
 
 #### NMI_SECTION_GUID
 
-The error record section contains nonmaskable interrupt (NMI) error data. This data is described by a [**WHEA_NMI_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_nmi_error_section) structure.
+The error record section contains nonmaskable interrupt (NMI) error data. This data is described by a [**WHEA_NMI_ERROR_SECTION**](./ns-ntddk-_whea_nmi_error_section.md) structure.
 
 #### PCIEXPRESS_ERROR_SECTION_GUID
 
-The error record section contains PCI Express (PCIe) error data. This data is described by a [**WHEA_PCIEXPRESS_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pciexpress_error_section) structure.
+The error record section contains PCI Express (PCIe) error data. This data is described by a [**WHEA_PCIEXPRESS_ERROR_SECTION**](./ns-ntddk-_whea_pciexpress_error_section.md) structure.
 
 #### PCIXBUS_ERROR_SECTION_GUID
 
-The error record section contains PCI/PCI-X bus error data. This data is described by a [**WHEA_PCIXBUS_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixbus_error_section) structure.
+The error record section contains PCI/PCI-X bus error data. This data is described by a [**WHEA_PCIXBUS_ERROR_SECTION**](./ns-ntddk-_whea_pcixbus_error_section.md) structure.
 
-The error record section contains PCI/PCI-X device error data. This data is described by a [**WHEA_PCIXDEVICE_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixdevice_error_section) structure.
+The error record section contains PCI/PCI-X device error data. This data is described by a [**WHEA_PCIXDEVICE_ERROR_SECTION**](./ns-ntddk-_whea_pcixdevice_error_section.md) structure.
 
 #### XPF_PROCESSOR_ERROR_SECTION_GUID
 
@@ -172,7 +172,7 @@ A GUID that identifies the Field Replaceable Unit (FRU) that contains the hardwa
 
 ### -field SectionSeverity
 
-A [**WHEA_ERROR_SEVERITY**](/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_whea_error_severity)-typed value that indicates the severity of the error condition that is described by the error record section.
+A [**WHEA_ERROR_SEVERITY**](./ne-ntddk-_whea_error_severity.md)-typed value that indicates the severity of the error condition that is described by the error record section.
 
 ### -field FRUText
 
@@ -180,32 +180,32 @@ A character string that identifies the Field Replaceable Unit (FRU) that contain
 
 ## -remarks
 
-The [**WHEA_ERROR_RECORD**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record) structure contains an array of WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structures. Each descriptor describes a section of error information that is part of the error record.
+The [**WHEA_ERROR_RECORD**](./ns-ntddk-_whea_error_record.md) structure contains an array of WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structures. Each descriptor describes a section of error information that is part of the error record.
 
 ## -see-also
 
 [**WHEA_ERROR_PACKET**](/previous-versions/windows/hardware/drivers/ff560465(v=vs.85))
 
-[**WHEA_ERROR_RECORD**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record)
+[**WHEA_ERROR_RECORD**](./ns-ntddk-_whea_error_record.md)
 
-[**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor_validbits)
+[**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS**](./ns-ntddk-_whea_error_record_section_descriptor_validbits.md)
 
-[**WHEA_ERROR_SEVERITY**](/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_whea_error_severity)
+[**WHEA_ERROR_SEVERITY**](./ne-ntddk-_whea_error_severity.md)
 
-[**WHEA_FIRMWARE_ERROR_RECORD_REFERENCE**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_firmware_error_record_reference)
+[**WHEA_FIRMWARE_ERROR_RECORD_REFERENCE**](./ns-ntddk-_whea_firmware_error_record_reference.md)
 
-[**WHEA_MEMORY_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section)
+[**WHEA_MEMORY_ERROR_SECTION**](./ns-ntddk-_whea_memory_error_section.md)
 
-[**WHEA_NMI_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_nmi_error_section)
+[**WHEA_NMI_ERROR_SECTION**](./ns-ntddk-_whea_nmi_error_section.md)
 
-[**WHEA_PCIEXPRESS_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pciexpress_error_section)
+[**WHEA_PCIEXPRESS_ERROR_SECTION**](./ns-ntddk-_whea_pciexpress_error_section.md)
 
-[**WHEA_PCIXBUS_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixbus_error_section)
+[**WHEA_PCIXBUS_ERROR_SECTION**](./ns-ntddk-_whea_pcixbus_error_section.md)
 
-[**WHEA_PCIXDEVICE_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixdevice_error_section)
+[**WHEA_PCIXDEVICE_ERROR_SECTION**](./ns-ntddk-_whea_pcixdevice_error_section.md)
 
-[**WHEA_PROCESSOR_GENERIC_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_generic_error_section)
+[**WHEA_PROCESSOR_GENERIC_ERROR_SECTION**](./ns-ntddk-_whea_processor_generic_error_section.md)
 
-[**WHEA_REVISION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_revision)
+[**WHEA_REVISION**](./ns-ntddk-_whea_revision.md)
 
 [**WHEA_XPF_PROCESSOR_ERROR_SECTION**](/previous-versions/ff560655(v=vs.85))

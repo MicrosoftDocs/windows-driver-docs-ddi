@@ -47,7 +47,7 @@ The **EtwWrite** function is a tracing function for publishing events in your ke
 
 ### -param RegHandle [in]
 
-A pointer to the event provider registration handle, which is returned by the [EtwRegister](/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister) function if the event provider registration is successful.
+A pointer to the event provider registration handle, which is returned by the [EtwRegister](./nf-wdm-etwregister.md) function if the event provider registration is successful.
 
 ### -param EventDescriptor [in]
 
@@ -81,13 +81,13 @@ Events can be lost for several reasons; for example, if the event rate is too hi
 
 ## -remarks
 
-The **EtwWrite** function is the kernel-mode equivalent of the user-mode **EventWrite** function. To ensure that there is a consumer for the event you are publishing, you can precede the call to **EtwWrite** with a call to [EtwEventEnabled](/windows-hardware/drivers/ddi/wdm/nf-wdm-etweventenabled) or [EtwProviderEnabled](/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled).
+The **EtwWrite** function is the kernel-mode equivalent of the user-mode **EventWrite** function. To ensure that there is a consumer for the event you are publishing, you can precede the call to **EtwWrite** with a call to [EtwEventEnabled](./nf-wdm-etweventenabled.md) or [EtwProviderEnabled](./nf-wdm-etwproviderenabled.md).
 
 Before you can call **EtwWrite** function to publish an event, you must register the provider with **EtwRegister**. No tracing calls should be made that fall outside of the code bounded by the **EtwRegister** and **EtwUnregister** functions. For the best performance, you can call the **EtwRegister** function in your **DriverEntry** routine and the **EtwUnregister** function in your **DriverUnload** routine.
 
 If you are using the optional *UserData* parameter in the **EtwWrite** function to log additional event data, you can use the **EventDataDescCreate** macro to simplify the creation of the EVENT_DATA_DESCRIPTOR structures. The following example uses the **EventDataDescCreate** macro to initialize EVENT_DATA_DESCRIPTOR structures with  the name of the device and its status. The **EventDataDescCreate** macro stores pointers to the data (that is, it does not store copies of the data). The pointers must remain valid until the call to **EtwWrite** returns.
 
-You can call **EtwWrite** at any IRQL. However, when IRQL is greater than APC_LEVEL, any data passed to the **EtwWrite**, [EtwWriteEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwriteex), **EtwWriteString**, **EtwWriteTransfer** functions must not be pageable. That is, any kernel-mode routine that is running at IRQL greater than APC_LEVEL cannot access pageable memory.  Data passed to the **EtwWrite**, **EtwWriteEx**, **EtwWriteString**, and **EtwWriteTransfer** functions must reside in system-space memory, regardless of what the IRQL is.
+You can call **EtwWrite** at any IRQL. However, when IRQL is greater than APC_LEVEL, any data passed to the **EtwWrite**, [EtwWriteEx](./nf-wdm-etwwriteex.md), **EtwWriteString**, **EtwWriteTransfer** functions must not be pageable. That is, any kernel-mode routine that is running at IRQL greater than APC_LEVEL cannot access pageable memory.  Data passed to the **EtwWrite**, **EtwWriteEx**, **EtwWriteString**, and **EtwWriteTransfer** functions must reside in system-space memory, regardless of what the IRQL is.
 
 ### Example
 
@@ -132,18 +132,18 @@ You can call **EtwWrite** at any IRQL. However, when IRQL is greater than APC_LE
 
 ## -see-also
 
-[EtwEventEnabled](/windows-hardware/drivers/ddi/wdm/nf-wdm-etweventenabled)
+[EtwEventEnabled](./nf-wdm-etweventenabled.md)
 
-[EtwProviderEnabled](/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled)
+[EtwProviderEnabled](./nf-wdm-etwproviderenabled.md)
 
-[EtwRegister](/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister)
+[EtwRegister](./nf-wdm-etwregister.md)
 
-[EtwUnregister](/windows-hardware/drivers/ddi/wdm/nf-wdm-etwunregister)
+[EtwUnregister](./nf-wdm-etwunregister.md)
 
-[EtwWriteEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwriteex)
+[EtwWriteEx](./nf-wdm-etwwriteex.md)
 
-[EtwWriteString](/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwritestring)
+[EtwWriteString](./nf-wdm-etwwritestring.md)
 
-[EtwWriteTransfer](/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwritetransfer)
+[EtwWriteTransfer](./nf-wdm-etwwritetransfer.md)
 
 [EventDataDescCreate](/windows/win32/api/evntprov/nf-evntprov-eventdatadesccreate)

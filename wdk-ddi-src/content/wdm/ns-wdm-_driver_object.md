@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-Each driver object represents the image of a loaded kernel-mode driver. A pointer to the driver object is an input parameter to a driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver), [AddDevice](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device), and optional [Reinitialize](/windows-hardware/drivers/ddi/ntddk/nc-ntddk-driver_reinitialize) routines and to its [Unload](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload) routine, if any.
+Each driver object represents the image of a loaded kernel-mode driver. A pointer to the driver object is an input parameter to a driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver), [AddDevice](./nc-wdm-driver_add_device.md), and optional [Reinitialize](../ntddk/nc-ntddk-driver_reinitialize.md) routines and to its [Unload](./nc-wdm-driver_unload.md) routine, if any.
 
 A driver object is partially opaque. Driver writers must know about certain members of a driver object to initialize a driver and to unload it if the driver is unloadable. The following members of the driver object are accessible to drivers.
 
@@ -63,7 +63,7 @@ Defines the **CSHORT** member **Size**.
 
 ### -field DeviceObject
 
-Pointer to the device objects created by the driver. This member is automatically updated when the driver calls [IoCreateDevice](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice) successfully. A driver can use this member and the **NextDevice** member of [**DEVICE_OBJECT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) to step through a list of all the device objects that the driver created.
+Pointer to the device objects created by the driver. This member is automatically updated when the driver calls [IoCreateDevice](./nf-wdm-iocreatedevice.md) successfully. A driver can use this member and the **NextDevice** member of [**DEVICE_OBJECT**](./ns-wdm-_device_object.md) to step through a list of all the device objects that the driver created.
 
 ### -field Flags
 
@@ -83,7 +83,7 @@ Defines the **PVOID** member **DriverSection**.
 
 ### -field DriverExtension
 
-Pointer to the driver extension. The only accessible member of the driver extension is **DriverExtension->AddDevice**, into which a driver's **DriverEntry** routine stores the driver's [AddDevice](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device) routine.
+Pointer to the driver extension. The only accessible member of the driver extension is **DriverExtension->AddDevice**, into which a driver's **DriverEntry** routine stores the driver's [AddDevice](./nc-wdm-driver_add_device.md) routine.
 
 ### -field DriverName
 
@@ -103,11 +103,11 @@ The entry point for the [DriverEntry](/windows-hardware/drivers/storage/driveren
 
 ### -field DriverStartIo
 
-The entry point for the driver's [StartIo](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_startio) routine, if any, which is set by the **DriverEntry** routine when the driver initializes. If a driver has no *StartIo* routine, this member is **NULL**.
+The entry point for the driver's [StartIo](./nc-wdm-driver_startio.md) routine, if any, which is set by the **DriverEntry** routine when the driver initializes. If a driver has no *StartIo* routine, this member is **NULL**.
 
 ### -field DriverUnload
 
-The entry point for the driver's [Unload](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload) routine, if any, which is set by the **DriverEntry** routine when the driver initializes. If a driver has no *Unload* routine, this member is **NULL**.
+The entry point for the driver's [Unload](./nc-wdm-driver_unload.md) routine, if any, which is set by the **DriverEntry** routine when the driver initializes. If a driver has no *Unload* routine, this member is **NULL**.
 
 ### -field MajorFunction
 
@@ -141,7 +141,7 @@ Each kernel-mode driver's initialization routine should be named [DriverEntry](/
 
 A driver must set its *DispatchXxx* entry points in the driver object that is passed in to the **DriverEntry** routine when the driver is loaded. A device driver must set one or more *DispatchXxx* entry points for the **IRP_MJ_*XXX*** that any driver of the same type of device is required to handle. A higher-level driver must set one or more *DispatchXxx* entry points for all the **IRP_MJ_*XXX*** that it must pass on to the underlying device driver. Otherwise, a driver is not sent IRPs for any **IRP_MJ_*XXX*** for which it does not set up a *DispatchXxx* routine in the driver object. For more information about the set of **IRP_MJ_*XXX*** that drivers for different types of underlying devices are required to handle, see [IRP Major Function Codes](/windows-hardware/drivers/kernel/irp-major-function-codes).
 
-The **DriverEntry** routine also sets the driver's *AddDevice*, *StartIo* and/or [Unload](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload) entry points, if any, in the driver object.
+The **DriverEntry** routine also sets the driver's *AddDevice*, *StartIo* and/or [Unload](./nc-wdm-driver_unload.md) entry points, if any, in the driver object.
 
 The **HardwareDatabase** string can be used by device drivers to get hardware configuration information from the registry when the driver is loaded. A driver is given read-only access to this string.
 
@@ -153,10 +153,10 @@ Undocumented members within a driver object should be considered inaccessible. D
 
 [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver)
 
-[IoCreateDevice](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice)
+[IoCreateDevice](./nf-wdm-iocreatedevice.md)
 
-[IoDeleteDevice](/windows-hardware/drivers/ddi/wdm/nf-wdm-iodeletedevice)
+[IoDeleteDevice](./nf-wdm-iodeletedevice.md)
 
-[StartIo](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_startio)
+[StartIo](./nc-wdm-driver_startio.md)
 
-[Unload](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload)
+[Unload](./nc-wdm-driver_unload.md)

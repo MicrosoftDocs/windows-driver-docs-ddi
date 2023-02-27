@@ -47,11 +47,11 @@ The *Reinitialize* routine continues driver and device initialization after the 
 
 ### -param DriverObject [in]
 
-Caller-supplied pointer to a [DRIVER_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object) structure. This is the driver's driver object.
+Caller-supplied pointer to a [DRIVER_OBJECT](../wdm/ns-wdm-_driver_object.md) structure. This is the driver's driver object.
 
 ### -param Context [in, optional]
 
-Caller-supplied pointer to context information, specified in a previous call to [IoRegisterDriverReinitialization](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterdriverreinitialization) or [IoRegisterBootDriverReinitialization](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdriverreinitialization).
+Caller-supplied pointer to context information, specified in a previous call to [IoRegisterDriverReinitialization](./nf-ntddk-ioregisterdriverreinitialization.md) or [IoRegisterBootDriverReinitialization](./nf-ntddk-ioregisterbootdriverreinitialization.md).
 
 ### -param Count [in]
 
@@ -59,7 +59,7 @@ Caller-supplied value representing the number of times the *Reinitialize* routin
 
 ## -remarks
 
-To queue a *Reinitialize* routine for execution, a driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must call either [IoRegisterDriverReinitialization](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterdriverreinitialization) or [IoRegisterBootDriverReinitialization](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdriverreinitialization). The *Reinitialize* routine can also call **IoRegisterDriverReinitialization** itself, which causes the routine to be requeued. This requeuing can occur multiple times, and the routine's *Count* parameter indicates the number of times it has been called. The first call to **IoRegisterDriverReinitialization** must be made from **DriverEntry**, and **DriverEntry** must return STATUS_SUCCESS.
+To queue a *Reinitialize* routine for execution, a driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must call either [IoRegisterDriverReinitialization](./nf-ntddk-ioregisterdriverreinitialization.md) or [IoRegisterBootDriverReinitialization](./nf-ntddk-ioregisterbootdriverreinitialization.md). The *Reinitialize* routine can also call **IoRegisterDriverReinitialization** itself, which causes the routine to be requeued. This requeuing can occur multiple times, and the routine's *Count* parameter indicates the number of times it has been called. The first call to **IoRegisterDriverReinitialization** must be made from **DriverEntry**, and **DriverEntry** must return STATUS_SUCCESS.
 
 For more information about implementing a *Reinitialize* routine, see [Writing a Reinitialize Routine](/windows-hardware/drivers/kernel/writing-a-reinitialize-routine).
 

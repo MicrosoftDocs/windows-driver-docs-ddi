@@ -47,7 +47,7 @@ The **PsSetCreateThreadNotifyRoutine** routine registers a driver-supplied callb
 
 ### -param NotifyRoutine [in]
 
-A pointer to the driver's implementation of [PCREATE_THREAD_NOTIFY_ROUTINE](/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pcreate_thread_notify_routine) routine.
+A pointer to the driver's implementation of [PCREATE_THREAD_NOTIFY_ROUTINE](./nc-ntddk-pcreate_thread_notify_routine.md) routine.
 
 ## -returns
 
@@ -68,18 +68,18 @@ VOID
 
 For example, an IFS or highest-level system-profiling driver might register such a thread-creation callback to track the system-wide creation and deletion of threads against the driver's internal state.
 
-A driver must remove any callbacks it registers before it unloads. You can remove the callback by calling the [PsRemoveCreateThreadNotifyRoutine](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psremovecreatethreadnotifyroutine) routine.
+A driver must remove any callbacks it registers before it unloads. You can remove the callback by calling the [PsRemoveCreateThreadNotifyRoutine](./nf-ntddk-psremovecreatethreadnotifyroutine.md) routine.
 
 ## -see-also
 
-[PsGetCurrentProcessId](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentprocessid)
+[PsGetCurrentProcessId](./nf-ntddk-psgetcurrentprocessid.md)
 
-[PsGetCurrentThreadId](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentthreadid)
+[PsGetCurrentThreadId](./nf-ntddk-psgetcurrentthreadid.md)
 
-[PsIsSystemThread](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psissystemthread)
+[PsIsSystemThread](../ntifs/nf-ntifs-psissystemthread.md)
 
-[PsRemoveCreateThreadNotifyRoutine](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psremovecreatethreadnotifyroutine)
+[PsRemoveCreateThreadNotifyRoutine](./nf-ntddk-psremovecreatethreadnotifyroutine.md)
 
-[PsSetCreateProcessNotifyRoutine](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetcreateprocessnotifyroutine)
+[PsSetCreateProcessNotifyRoutine](./nf-ntddk-pssetcreateprocessnotifyroutine.md)
 
-[PsSetLoadImageNotifyRoutine](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetloadimagenotifyroutine)
+[PsSetLoadImageNotifyRoutine](./nf-ntddk-pssetloadimagenotifyroutine.md)

@@ -47,7 +47,7 @@ The **IoRegisterContainerNotification** routine registers a kernel-mode driver t
 
 ### -param NotificationClass [in]
 
-Specifies the class of events for which the caller (driver) requests notifications. Set this parameter to the following [IO_CONTAINER_NOTIFICATION_CLASS](/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_container_notification_class) enumeration value:
+Specifies the class of events for which the caller (driver) requests notifications. Set this parameter to the following [IO_CONTAINER_NOTIFICATION_CLASS](./ne-wdm-_io_container_notification_class.md) enumeration value:
 
 - **IoSessionStateNotification**
 
@@ -55,11 +55,11 @@ For more information, see the following Remarks section.
 
 ### -param CallbackFunction [in]
 
-A pointer to a callback function that is implemented by the caller (driver). The I/O manager calls this function to notify the caller when an event of the class indicated by *NotificationClass* occurs. For *NotificationClass* = **IoSessionStateNotification**, this parameter is a pointer to a caller-supplied [IO_SESSION_NOTIFICATION_FUNCTION](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function) function. However, the caller should cast this function pointer to type PIO_CONTAINER_NOTIFICATION_FUNCTION to match the parameter type. For more information, see the following Remarks section.
+A pointer to a callback function that is implemented by the caller (driver). The I/O manager calls this function to notify the caller when an event of the class indicated by *NotificationClass* occurs. For *NotificationClass* = **IoSessionStateNotification**, this parameter is a pointer to a caller-supplied [IO_SESSION_NOTIFICATION_FUNCTION](./nc-wdm-io_session_notification_function.md) function. However, the caller should cast this function pointer to type PIO_CONTAINER_NOTIFICATION_FUNCTION to match the parameter type. For more information, see the following Remarks section.
 
 ### -param NotificationInformation [in, optional]
 
-A pointer to a caller-allocated buffer that contains the notification information structure for an event of the class specified by *NotificationClass*. For *NotificationClass* = **IoSessionStateNotification**, *NotificationInformation* points to an [**IO_SESSION_STATE_NOTIFICATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_notification) structure. The caller must fill out this structure before it calls **IoRegisterContainerNotification**. During this call, **IoRegisterContainerNotification** copies the data from this structure, and the I/O manager does not access the driver's copy of the structure after the call returns.
+A pointer to a caller-allocated buffer that contains the notification information structure for an event of the class specified by *NotificationClass*. For *NotificationClass* = **IoSessionStateNotification**, *NotificationInformation* points to an [**IO_SESSION_STATE_NOTIFICATION**](./ns-wdm-_io_session_state_notification.md) structure. The caller must fill out this structure before it calls **IoRegisterContainerNotification**. During this call, **IoRegisterContainerNotification** copies the data from this structure, and the I/O manager does not access the driver's copy of the structure after the call returns.
 
 ### -param NotificationInformationLength [in]
 
@@ -67,7 +67,7 @@ The size, in bytes, of the notification information structure contained in the b
 
 ### -param CallbackRegistration [out]
 
-A pointer to a location into which this routine writes the address of a container notification registration object. This object is an opaque, system object in which the I/O manager stores information about the caller's container notification registration. When notifications are no longer required, the caller cancels the registration by passing this object pointer to the [IoUnregisterContainerNotification](/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregistercontainernotification) routine.
+A pointer to a location into which this routine writes the address of a container notification registration object. This object is an opaque, system object in which the I/O manager stores information about the caller's container notification registration. When notifications are no longer required, the caller cancels the registration by passing this object pointer to the [IoUnregisterContainerNotification](./nf-wdm-iounregistercontainernotification.md) routine.
 
 ## -returns
 
@@ -93,16 +93,16 @@ typedef NTSTATUS
     );
 ```
 
-The caller should cast the callback function pointer to this type to match the *CallbackFunction* parameter type. **IoRegisterContainerNotification** determines the actual type of the callback function pointer from the *NotificationClass* parameter. For *NotificationClass* = **IoSessionStateNotification**, *CallbackFunction* points to an [IO_SESSION_NOTIFICATION_FUNCTION](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function) function.
+The caller should cast the callback function pointer to this type to match the *CallbackFunction* parameter type. **IoRegisterContainerNotification** determines the actual type of the callback function pointer from the *NotificationClass* parameter. For *NotificationClass* = **IoSessionStateNotification**, *CallbackFunction* points to an [IO_SESSION_NOTIFICATION_FUNCTION](./nc-wdm-io_session_notification_function.md) function.
 
 ## -see-also
 
-[IO_CONTAINER_NOTIFICATION_CLASS](/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_container_notification_class)
+[IO_CONTAINER_NOTIFICATION_CLASS](./ne-wdm-_io_container_notification_class.md)
 
-[IO_SESSION_NOTIFICATION_FUNCTION](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function)
+[IO_SESSION_NOTIFICATION_FUNCTION](./nc-wdm-io_session_notification_function.md)
 
-[**IO_SESSION_STATE_NOTIFICATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_notification)
+[**IO_SESSION_STATE_NOTIFICATION**](./ns-wdm-_io_session_state_notification.md)
 
-[IoUnregisterContainerNotification](/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregistercontainernotification)
+[IoUnregisterContainerNotification](./nf-wdm-iounregistercontainernotification.md)
 
 [WTSRegisterSessionNotification](/windows/win32/api/wtsapi32/nf-wtsapi32-wtsregistersessionnotification)

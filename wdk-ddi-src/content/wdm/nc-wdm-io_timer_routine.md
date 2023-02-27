@@ -47,19 +47,19 @@ The *IoTimer* routine is a DPC that, if registered, is called once per second.
 
 ### -param DeviceObject [in]
 
-Caller-supplied pointer to a [DEVICE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure. This is the device object for the target device, previously created by the driver's [AddDevice](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device) routine.
+Caller-supplied pointer to a [DEVICE_OBJECT](./ns-wdm-_device_object.md) structure. This is the device object for the target device, previously created by the driver's [AddDevice](./nc-wdm-driver_add_device.md) routine.
 
 ### -param Context [in, optional]
 
-Caller-supplied pointer to driver-defined context information, specified in a previous call to [IoInitializeTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializetimer).
+Caller-supplied pointer to driver-defined context information, specified in a previous call to [IoInitializeTimer](./nf-wdm-ioinitializetimer.md).
 
 ## -remarks
 
 A driver's *IoTimer* routine executes in a DPC context, at IRQL = DISPATCH_LEVEL.
 
-A driver can associate an *IoTimer* routine with each device object it creates. (You can use a single *IoTimer* routine with multiple device objects, or a separate routine with each device object.) To register an *IoTimer* routine, a driver must call [IoInitializeTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializetimer), supplying the *IoTimer* routine's address and a device object pointer.
+A driver can associate an *IoTimer* routine with each device object it creates. (You can use a single *IoTimer* routine with multiple device objects, or a separate routine with each device object.) To register an *IoTimer* routine, a driver must call [IoInitializeTimer](./nf-wdm-ioinitializetimer.md), supplying the *IoTimer* routine's address and a device object pointer.
 
-To queue an *IoTimer* routine for execution, a driver routine must call [IoStartTimer](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostarttimer). The system calls the *IoTimer* routine once per second until the driver calls [IoStopTimer](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostoptimer).
+To queue an *IoTimer* routine for execution, a driver routine must call [IoStartTimer](../ntifs/nf-ntifs-iostarttimer.md). The system calls the *IoTimer* routine once per second until the driver calls [IoStopTimer](../ntifs/nf-ntifs-iostoptimer.md).
 
 For more information about *IoTimer* routines, see [IoTimer Routines](/windows-hardware/drivers/kernel/iotimer-routines).
 

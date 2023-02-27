@@ -51,7 +51,7 @@ Pointer to the PDO of the device being reported.
 
 ### -param NotificationStructure [in]
 
-Pointer to a caller-supplied [**TARGET_DEVICE_CUSTOM_NOTIFICATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification) structure describing the custom event. The PnP manager sends this structure to drivers that registered for notification of the event.
+Pointer to a caller-supplied [**TARGET_DEVICE_CUSTOM_NOTIFICATION**](./ns-wdm-_target_device_custom_notification.md) structure describing the custom event. The PnP manager sends this structure to drivers that registered for notification of the event.
 
 *NotificationStructure*.**FileObject** must be **NULL**. *NotificationStructure*.**Event** must contain the custom GUID for the event. The other fields of the *NotificationStructure* must be filled in as appropriate for the custom event.
 
@@ -99,6 +99,6 @@ Callers of **IoReportTargetDeviceChangeAsynchronous** must be running at IRQL <=
 
 ## -see-also
 
-[IoReportTargetDeviceChange](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreporttargetdevicechange)
+[IoReportTargetDeviceChange](./nf-wdm-ioreporttargetdevicechange.md)
 
-[**TARGET_DEVICE_CUSTOM_NOTIFICATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification)
+[**TARGET_DEVICE_CUSTOM_NOTIFICATION**](./ns-wdm-_target_device_custom_notification.md)

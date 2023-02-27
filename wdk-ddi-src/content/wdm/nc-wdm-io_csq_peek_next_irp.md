@@ -63,9 +63,9 @@ Pointer to driver-defined context information. The *CsqPeekNextIrp* routine retu
 
 ## -remarks
 
-The driver specifies the *CsqPeekNextIrp* routine for a cancel-safe IRP queue when it initializes the queue's **IO_CSQ** structure. The driver specifies the routine as the *CsqPeekNextIrp* parameter of [IoCsqInitialize](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize) or [IoCsqInitializeEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex) when it initializes **IO_CSQ**. For more information, see [Cancel-Safe IRP Queues](/windows-hardware/drivers/kernel/cancel-safe-irp-queues).
+The driver specifies the *CsqPeekNextIrp* routine for a cancel-safe IRP queue when it initializes the queue's **IO_CSQ** structure. The driver specifies the routine as the *CsqPeekNextIrp* parameter of [IoCsqInitialize](./nf-wdm-iocsqinitialize.md) or [IoCsqInitializeEx](./nf-wdm-iocsqinitializeex.md) when it initializes **IO_CSQ**. For more information, see [Cancel-Safe IRP Queues](/windows-hardware/drivers/kernel/cancel-safe-irp-queues).
 
-The system uses *CsqPeekNextIrp* to iterate through the IRPs in the driver's IRP queue. For example, the [IoCsqRemoveNextIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp) routine uses this routine to find the IRP to be removed.
+The system uses *CsqPeekNextIrp* to iterate through the IRPs in the driver's IRP queue. For example, the [IoCsqRemoveNextIrp](./nf-wdm-iocsqremovenextirp.md) routine uses this routine to find the IRP to be removed.
 
 ### Examples
 
@@ -96,28 +96,28 @@ The IO_CSQ_PEEK_NEXT_IRP function type is defined in the Wdm.h header file. To m
 
 ## -see-also
 
-[CsqAcquireLock](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock)
+[CsqAcquireLock](./nc-wdm-io_csq_acquire_lock.md)
 
-[CsqCompleteCanceledIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_complete_canceled_irp)
+[CsqCompleteCanceledIrp](./nc-wdm-io_csq_complete_canceled_irp.md)
 
-[CsqInsertIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_insert_irp)
+[CsqInsertIrp](./nc-wdm-io_csq_insert_irp.md)
 
-[CsqInsertIrpEx](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_insert_irp_ex)
+[CsqInsertIrpEx](./nc-wdm-io_csq_insert_irp_ex.md)
 
-[CsqReleaseLock](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_release_lock)
+[CsqReleaseLock](./nc-wdm-io_csq_release_lock.md)
 
-[CsqRemoveIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_remove_irp)
+[CsqRemoveIrp](./nc-wdm-io_csq_remove_irp.md)
 
 [IO_CSQ](/windows-hardware/drivers/kernel/eprocess)
 
-[IoCsqInitialize](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize)
+[IoCsqInitialize](./nf-wdm-iocsqinitialize.md)
 
-[IoCsqInitializeEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex)
+[IoCsqInitializeEx](./nf-wdm-iocsqinitializeex.md)
 
-[IoCsqInsertIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinsertirp)
+[IoCsqInsertIrp](./nf-wdm-iocsqinsertirp.md)
 
-[IoCsqInsertIrpEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinsertirpex)
+[IoCsqInsertIrpEx](./nf-wdm-iocsqinsertirpex.md)
 
-[IoCsqRemoveIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremoveirp)
+[IoCsqRemoveIrp](./nf-wdm-iocsqremoveirp.md)
 
-[IoCsqRemoveNextIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp)
+[IoCsqRemoveNextIrp](./nf-wdm-iocsqremovenextirp.md)

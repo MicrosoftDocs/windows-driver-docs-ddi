@@ -47,11 +47,11 @@ An *InterruptMessageService* routine services a message-signaled interrupt.
 
 ### -param Interrupt [in]
 
-A pointer to the [KINTERRUPT](/windows-hardware/drivers/kernel/eprocess) structure for the interrupt. The driver received this pointer in the call to the [IoConnectInterruptEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex) routine that registered the driver's *InterruptMessageService* routine.
+A pointer to the [KINTERRUPT](/windows-hardware/drivers/kernel/eprocess) structure for the interrupt. The driver received this pointer in the call to the [IoConnectInterruptEx](./nf-wdm-ioconnectinterruptex.md) routine that registered the driver's *InterruptMessageService* routine.
 
 ### -param ServiceContext [in]
 
-The *ServiceContext* value that the driver passed to [IoConnectInterruptEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex) when the *InterruptMessageService* routine was registered.
+The *ServiceContext* value that the driver passed to [IoConnectInterruptEx](./nf-wdm-ioconnectinterruptex.md) when the *InterruptMessageService* routine was registered.
 
 ### -param MessageID
 
@@ -63,7 +63,7 @@ The *InterruptMessageService* routine returns **TRUE** if the interrupt is one h
 
 ## -remarks
 
-Drivers use [IoConnectInterruptEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex) to register an *InterruptMessageService* routine to handle their message-signaled interrupts. A driver can subsequently unregister the routine by calling [IoDisconnectInterruptEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iodisconnectinterruptex). Message-signaled interrupts are supported starting with Windows Vista.
+Drivers use [IoConnectInterruptEx](./nf-wdm-ioconnectinterruptex.md) to register an *InterruptMessageService* routine to handle their message-signaled interrupts. A driver can subsequently unregister the routine by calling [IoDisconnectInterruptEx](./nf-wdm-iodisconnectinterruptex.md). Message-signaled interrupts are supported starting with Windows Vista.
 
 The system can call an *InterruptMessageService* routine even when the routine's interrupt has not occurred. For example, if a message-signaled interrupt is shared, *InterruptMessageService* can be called for interrupts belonging to other devices. The routine must check whether the value for the *ServiceContext* parameter matches the value passed to **IoConnectInterruptEx**. If the value does match, *InterruptMessageService* handles the interrupt and returns **TRUE**. Otherwise, *InterruptMessageService* does not handle the interrupt and returns **FALSE**.
 
@@ -107,8 +107,8 @@ The KMESSAGE_SERVICE_ROUTINE function type is defined in the Wdm.h header file. 
 
 [Using Interrupt Resource Descriptors](/windows-hardware/drivers/kernel/using-interrupt-resource-descriptors)
 
-[IO_INTERRUPT_MESSAGE_INFO](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info)
+[IO_INTERRUPT_MESSAGE_INFO](./ns-wdm-_io_interrupt_message_info.md)
 
-[IoConnectInterruptEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex)
+[IoConnectInterruptEx](./nf-wdm-ioconnectinterruptex.md)
 
-[IoDisconnectInterruptEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iodisconnectinterruptex)
+[IoDisconnectInterruptEx](./nf-wdm-iodisconnectinterruptex.md)

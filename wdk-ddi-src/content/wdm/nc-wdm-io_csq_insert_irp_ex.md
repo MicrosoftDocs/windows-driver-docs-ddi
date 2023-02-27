@@ -63,9 +63,9 @@ Pointer to driver-defined context for the insert operation.
 
 ## -remarks
 
-The driver specifies the *CsqInsertIrpEx* routine for a cancel-safe IRP queue when it initializes the queue's **IO_CSQ** structure. The driver specifies the routine as the *CsqInsertIrp* parameter of [IoCsqInitializeEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex) when it initializes **IO_CSQ**. For more information, see [Cancel-Safe IRP Queues](/windows-hardware/drivers/kernel/cancel-safe-irp-queues).
+The driver specifies the *CsqInsertIrpEx* routine for a cancel-safe IRP queue when it initializes the queue's **IO_CSQ** structure. The driver specifies the routine as the *CsqInsertIrp* parameter of [IoCsqInitializeEx](./nf-wdm-iocsqinitializeex.md) when it initializes **IO_CSQ**. For more information, see [Cancel-Safe IRP Queues](/windows-hardware/drivers/kernel/cancel-safe-irp-queues).
 
-The [IoCsqInsertIrpEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinsertirpex) routine calls *CsqInsertIrpEx* to insert the IRP into the queue. The *InsertContext* parameter of **IoCsqInsertIrpEx** is passed as the *InsertContext* parameter of *CsqInsertIrpEx*.
+The [IoCsqInsertIrpEx](./nf-wdm-iocsqinsertirpex.md) routine calls *CsqInsertIrpEx* to insert the IRP into the queue. The *InsertContext* parameter of **IoCsqInsertIrpEx** is passed as the *InsertContext* parameter of *CsqInsertIrpEx*.
 
 ### Examples
 
@@ -96,28 +96,28 @@ The IO_CSQ_INSERT_IRP_EX function type is defined in the Wdm.h header file. To m
 
 ## -see-also
 
-[CsqAcquireLock](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock)
+[CsqAcquireLock](./nc-wdm-io_csq_acquire_lock.md)
 
-[CsqCompleteCanceledIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_complete_canceled_irp)
+[CsqCompleteCanceledIrp](./nc-wdm-io_csq_complete_canceled_irp.md)
 
-[CsqInsertIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_insert_irp)
+[CsqInsertIrp](./nc-wdm-io_csq_insert_irp.md)
 
-[CsqPeekNextIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_peek_next_irp)
+[CsqPeekNextIrp](./nc-wdm-io_csq_peek_next_irp.md)
 
-[CsqReleaseLock](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_release_lock)
+[CsqReleaseLock](./nc-wdm-io_csq_release_lock.md)
 
-[CsqRemoveIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_remove_irp)
+[CsqRemoveIrp](./nc-wdm-io_csq_remove_irp.md)
 
 [IO_CSQ](/windows-hardware/drivers/kernel/eprocess)
 
-[IoCsqInitialize](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize)
+[IoCsqInitialize](./nf-wdm-iocsqinitialize.md)
 
-[IoCsqInitializeEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex)
+[IoCsqInitializeEx](./nf-wdm-iocsqinitializeex.md)
 
-[IoCsqInsertIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinsertirp)
+[IoCsqInsertIrp](./nf-wdm-iocsqinsertirp.md)
 
-[IoCsqInsertIrpEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinsertirpex)
+[IoCsqInsertIrpEx](./nf-wdm-iocsqinsertirpex.md)
 
-[IoCsqRemoveIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremoveirp)
+[IoCsqRemoveIrp](./nf-wdm-iocsqremoveirp.md)
 
-[IoCsqRemoveNextIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp)
+[IoCsqRemoveNextIrp](./nf-wdm-iocsqremovenextirp.md)

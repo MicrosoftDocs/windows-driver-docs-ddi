@@ -128,10 +128,10 @@ The value that the operating system writes to the register bank's control regist
 
 ## -remarks
 
-An array of WHEA_XPF_MC_BANK_DESCRIPTOR structures is contained in the [**WHEA_XPF_CMC_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cmc_descriptor) and [**WHEA_XPF_MCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mce_descriptor) structures.
+An array of WHEA_XPF_MC_BANK_DESCRIPTOR structures is contained in the [**WHEA_XPF_CMC_DESCRIPTOR**](./ns-ntddk-_whea_xpf_cmc_descriptor.md) and [**WHEA_XPF_MCE_DESCRIPTOR**](./ns-ntddk-_whea_xpf_mce_descriptor.md) structures.
 
 ## -see-also
 
-[**WHEA_XPF_CMC_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cmc_descriptor)
+[**WHEA_XPF_CMC_DESCRIPTOR**](./ns-ntddk-_whea_xpf_cmc_descriptor.md)
 
-[**WHEA_XPF_MCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mce_descriptor)
+[**WHEA_XPF_MCE_DESCRIPTOR**](./ns-ntddk-_whea_xpf_mce_descriptor.md)

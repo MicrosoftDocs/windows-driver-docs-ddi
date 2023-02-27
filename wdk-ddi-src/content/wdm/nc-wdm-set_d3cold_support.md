@@ -47,7 +47,7 @@ The SetD3ColdSupport callback routine enables or disables transitions to the D3c
 
 ### -param Context [in, optional]
 
-A pointer to interface-specific context information. The caller sets this parameter to the value of the **Context** member of the [**D3COLD_SUPPORT_INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_d3cold_support_interface) structure for the interface.
+A pointer to interface-specific context information. The caller sets this parameter to the value of the **Context** member of the [**D3COLD_SUPPORT_INTERFACE**](./ns-wdm-_d3cold_support_interface.md) structure for the interface.
 
 ### -param D3ColdSupport [in]
 
@@ -59,7 +59,7 @@ The driver that is the power policy owner (PPO) for a device can call this routi
 
 If a device must be able to signal a wake event from any low-power Dx state that it enters, the driver for this device should not enable transitions to the D3cold substate unless the device can signal a wake event from this substate. Otherwise, after entering D3cold, the device will be unavailable until the computer restarts or wakes from a sleeping state.
 
-The driver for the device can call the [GetIdleWakeInfo](/windows-hardware/drivers/ddi/wdm/nc-wdm-get_idle_wake_info) routine to determine whether the device can signal a wake event from D3cold.
+The driver for the device can call the [GetIdleWakeInfo](./nc-wdm-get_idle_wake_info.md) routine to determine whether the device can signal a wake event from D3cold.
 
 If necessary, the driver for a device can make a series of *SetD3ColdSupport* calls to alternately enable and disable D3cold transitions in response to dynamically changing conditions.
 
@@ -71,7 +71,7 @@ When a device moves from D3hot to D3cold, it probably does so because the power 
 
 The only device driver that expects this power state change is the driver that requested the change. The drivers for the other devices must receive notification of this change so that they can properly initialize their devices to operate in D0. Only a driver that can receive this notification should enable its device to enter D3cold. Otherwise, the driver will not know when the device enters D0.
 
-Starting with Windows 8, a WDM driver can register its device with the power framework (PoFx) and be notified by the [DevicePowerRequiredCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_device_power_required_callback) routine when the device enters D0. Similarly, a KMDF driver can register its device with PoFx and be notified by the [EvtDeviceD0Entry](/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry) event callback.
+Starting with Windows 8, a WDM driver can register its device with the power framework (PoFx) and be notified by the [DevicePowerRequiredCallback](./nc-wdm-po_fx_device_power_required_callback.md) routine when the device enters D0. Similarly, a KMDF driver can register its device with PoFx and be notified by the [EvtDeviceD0Entry](../wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry.md) event callback.
 
 A driver that does not register its device with PoFx can still be notified of a transition to D0 if the device is armed for wake. When the bus drivers turn on the power to the device, they complete the driver's [IRP_MN_WAIT_WAKE](/windows-hardware/drivers/kernel/irp-mn-wait-wake) request. In response, the driver initializes its device to operate in D0.
 
@@ -94,11 +94,11 @@ Windows 8 is the first version of Windows to support devices that can enter and
 
 ## -see-also
 
-[**D3COLD_SUPPORT_INTERFACE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_d3cold_support_interface)
+[**D3COLD_SUPPORT_INTERFACE**](./ns-wdm-_d3cold_support_interface.md)
 
-[DevicePowerRequiredCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_device_power_required_callback)
+[DevicePowerRequiredCallback](./nc-wdm-po_fx_device_power_required_callback.md)
 
-[EvtDeviceD0Entry](/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry)
+[EvtDeviceD0Entry](../wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry.md)
 
 [GetD3ColdCapability](/previous-versions/windows/hardware/drivers/hh967711(v=vs.85))
 

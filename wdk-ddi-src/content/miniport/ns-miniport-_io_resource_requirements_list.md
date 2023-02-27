@@ -53,11 +53,11 @@ The **IO_RESOURCE_REQUIREMENTS_LIST** structure describes sets of resource confi
 
 ### -field ListSize
 
-The total number of bytes that constitute the **IO_RESOURCE_REQUIREMENTS_LIST** structure, its [IO_RESOURCE_LIST](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list) array, and the latter's [IO_RESOURCE_DESCRIPTOR](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor) array.
+The total number of bytes that constitute the **IO_RESOURCE_REQUIREMENTS_LIST** structure, its [IO_RESOURCE_LIST](../wdm/ns-wdm-_io_resource_list.md) array, and the latter's [IO_RESOURCE_DESCRIPTOR](../wdm/ns-wdm-_io_resource_descriptor.md) array.
 
 ### -field InterfaceType
 
-Specifies an interface type. This must be one of the types defined by [INTERFACE_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_interface_type), in Wdm.h or Ntddk.h. (Not used by WDM drivers.)
+Specifies an interface type. This must be one of the types defined by [INTERFACE_TYPE](../wdm/ne-wdm-_interface_type.md), in Wdm.h or Ntddk.h. (Not used by WDM drivers.)
 
 ### -field BusNumber
 
@@ -77,7 +77,7 @@ The number of alternative lists (or configurations) of hardware resources that a
 
 ### -field List
 
-The [**IO_RESOURCE_LIST**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list) structure that serves as the header for the first alternative list of hardware resources. If the **IO_RESOURCE_REQUIREMENTS_LIST** structure describes more than one alternative list, the second alternative list immediately follows the first alternative list in memory, and so on. The size of each alternative list depends on the length of the [**IO_RESOURCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor) array that it contains. For more information, see the following Remarks section.
+The [**IO_RESOURCE_LIST**](../wdm/ns-wdm-_io_resource_list.md) structure that serves as the header for the first alternative list of hardware resources. If the **IO_RESOURCE_REQUIREMENTS_LIST** structure describes more than one alternative list, the second alternative list immediately follows the first alternative list in memory, and so on. The size of each alternative list depends on the length of the [**IO_RESOURCE_DESCRIPTOR**](../wdm/ns-wdm-_io_resource_descriptor.md) array that it contains. For more information, see the following Remarks section.
 
 ## -remarks
 
@@ -91,7 +91,7 @@ Each alternative list begins with an **IO_RESOURCE_LIST** structure, which serve
 list = (PIO_RESOURCE_LIST)(list->Descriptors + list->Count);
 ```
 
-In this example, `list->Descriptors` is a pointer to the start of the **IO_RESOURCE_DESCRIPTOR** array, and `list->Count` is the number of elements in the array. For more information about the **Descriptors** and **Count** members, see [**IO_RESOURCE_LIST**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list).
+In this example, `list->Descriptors` is a pointer to the start of the **IO_RESOURCE_DESCRIPTOR** array, and `list->Count` is the number of elements in the array. For more information about the **Descriptors** and **Count** members, see [**IO_RESOURCE_LIST**](../wdm/ns-wdm-_io_resource_list.md).
 
 ### Examples
 
@@ -138,9 +138,9 @@ BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
 
 ## -see-also
 
-[**IO_RESOURCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor)
+[**IO_RESOURCE_DESCRIPTOR**](../wdm/ns-wdm-_io_resource_descriptor.md)
 
-[**IO_RESOURCE_LIST**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list)
+[**IO_RESOURCE_LIST**](../wdm/ns-wdm-_io_resource_list.md)
 
 [IRP_MN_FILTER_RESOURCE_REQUIREMENTS](/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements)
 

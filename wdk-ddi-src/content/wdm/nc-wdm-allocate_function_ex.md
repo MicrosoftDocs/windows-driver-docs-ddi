@@ -47,15 +47,15 @@ The *LookasideListAllocateEx* routine allocates the storage for a new lookaside-
 
 ### -param PoolType [in]
 
-Specifies the type of storage to allocate for the new lookaside-list entry. The caller sets this parameter to a valid [POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type) enumeration value, and possibly bitwise ORs this value with one of the following flag bits:
+Specifies the type of storage to allocate for the new lookaside-list entry. The caller sets this parameter to a valid [POOL_TYPE](./ne-wdm-_pool_type.md) enumeration value, and possibly bitwise ORs this value with one of the following flag bits:
 
 - POOL_RAISE_IF_ALLOCATION_FAILURE
 
 - POOL_QUOTA_FAIL_INSTEAD_OF_RAISE
 
-For more information about the POOL_RAISE_IF_ALLOCATION_FAILURE flag, see [ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag). For more information about the POOL_QUOTA_FAIL_INSTEAD_OF_RAISE flag, see [ExAllocatePoolWithQuotaTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithquotatag).
+For more information about the POOL_RAISE_IF_ALLOCATION_FAILURE flag, see [ExAllocatePoolWithTag](./nf-wdm-exallocatepoolwithtag.md). For more information about the POOL_QUOTA_FAIL_INSTEAD_OF_RAISE flag, see [ExAllocatePoolWithQuotaTag](./nf-wdm-exallocatepoolwithquotatag.md).
 
-If, in the [ExInitializeLookasideListEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializelookasidelistex) call that initialized the lookaside list, the *Flags* parameter is zero, the *PoolType* parameter that the *LookasideListAllocateEx* routine receives is the same *PoolType* parameter value that was passed to **ExInitializeLookasideListEx**.
+If, in the [ExInitializeLookasideListEx](./nf-wdm-exinitializelookasidelistex.md) call that initialized the lookaside list, the *Flags* parameter is zero, the *PoolType* parameter that the *LookasideListAllocateEx* routine receives is the same *PoolType* parameter value that was passed to **ExInitializeLookasideListEx**.
 
 If, in the **ExInitializeLookasideListEx** call, *Flags* = EX_LOOKASIDE_LIST_EX_FLAGS_RAISE_ON_FAIL, the *PoolType* parameter that the *LookasideListAllocateEx* routine receives is the bitwise OR of POOL_RAISE_IF_ALLOCATION_FAILURE and the *PoolType* parameter value that was passed to **ExInitializeLookasideListEx**. The *LookasideListAllocateEx* routine can pass its *PoolType* parameter value, without modification, to the **ExAllocatePoolWithTag** routine.
 
@@ -67,11 +67,11 @@ Specifies the size, in bytes, of the lookaside-list entry to allocate.
 
 ### -param Tag [in]
 
-Specifies the four-byte pool tag to use to mark the allocated storage for the new lookaside-list entry. For more information about pool tags, see the description of the *Tag* parameter in [ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag).
+Specifies the four-byte pool tag to use to mark the allocated storage for the new lookaside-list entry. For more information about pool tags, see the description of the *Tag* parameter in [ExAllocatePoolWithTag](./nf-wdm-exallocatepoolwithtag.md).
 
 ### -param Lookaside [in, out]
 
-A pointer to a [LOOKASIDE_LIST_EX](/windows-hardware/drivers/kernel/eprocess) structure that describes the lookaside list. This structure was previously initialized by the [ExInitializeLookasideListEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializelookasidelistex) routine.
+A pointer to a [LOOKASIDE_LIST_EX](/windows-hardware/drivers/kernel/eprocess) structure that describes the lookaside list. This structure was previously initialized by the [ExInitializeLookasideListEx](./nf-wdm-exinitializelookasidelistex.md) routine.
 
 ## -returns
 
@@ -83,11 +83,11 @@ A driver that creates a lookaside list can implement a *LookasideListAllocateEx*
 
 The driver supplies a pointer to a custom *LookasideListAllocateEx* routine as an input parameter in the **ExInitializeLookasideListEx** call that initializes the lookaside list. If the driver sets this parameter to **NULL**, the lookaside list uses a default allocation routine instead.
 
-A driver calls the [ExAllocateFromLookasideListEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefromlookasidelistex) routine to allocate an entry from a lookaside list. If the list is empty (contains no entries), **ExAllocateFromLookasideListEx** calls *LookasideListAllocateEx* to dynamically allocate the storage for a new entry. *LookasideListAllocateEx* returns a pointer to the newly allocated entry if the allocation is successful. Otherwise, it returns **NULL**.
+A driver calls the [ExAllocateFromLookasideListEx](./nf-wdm-exallocatefromlookasidelistex.md) routine to allocate an entry from a lookaside list. If the list is empty (contains no entries), **ExAllocateFromLookasideListEx** calls *LookasideListAllocateEx* to dynamically allocate the storage for a new entry. *LookasideListAllocateEx* returns a pointer to the newly allocated entry if the allocation is successful. Otherwise, it returns **NULL**.
 
 The *PoolType*, *NumberOfBytes*, *Tag*, and *Lookaside* parameters contain the same values that were passed as input parameters in the **ExInitializeLookasideListEx** call that initialized the lookaside list.
 
-The *LookasideListAllocateEx* routine can use the *Lookaside* parameter to access private context data that the driver has associated with the lookaside list. For more information, see the code example in [ExInitializeLookasideListEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializelookasidelistex).
+The *LookasideListAllocateEx* routine can use the *Lookaside* parameter to access private context data that the driver has associated with the lookaside list. For more information, see the code example in [ExInitializeLookasideListEx](./nf-wdm-exinitializelookasidelistex.md).
 
 For more information about lookaside lists, see [Using Lookaside Lists](/windows-hardware/drivers/kernel/using-lookaside-lists).
 
@@ -121,14 +121,14 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 ## -see-also
 
-[ExAllocateFromLookasideListEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefromlookasidelistex)
+[ExAllocateFromLookasideListEx](./nf-wdm-exallocatefromlookasidelistex.md)
 
-[ExAllocatePoolWithQuotaTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithquotatag)
+[ExAllocatePoolWithQuotaTag](./nf-wdm-exallocatepoolwithquotatag.md)
 
-[ExAllocatePoolWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag)
+[ExAllocatePoolWithTag](./nf-wdm-exallocatepoolwithtag.md)
 
-[ExInitializeLookasideListEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializelookasidelistex)
+[ExInitializeLookasideListEx](./nf-wdm-exinitializelookasidelistex.md)
 
 [LOOKASIDE_LIST_EX](/windows-hardware/drivers/kernel/eprocess)
 
-[POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type)
+[POOL_TYPE](./ne-wdm-_pool_type.md)

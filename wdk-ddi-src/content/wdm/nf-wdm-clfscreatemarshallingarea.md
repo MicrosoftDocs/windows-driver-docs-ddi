@@ -48,11 +48,11 @@ The **ClfsCreateMarshallingArea** routine creates a marshalling area for a CLFS 
 
 ### -param plfoLog [in]
 
-A pointer to a [**LOG_FILE_OBJECT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object) structure that represents a CLFS stream. The caller previously obtained this pointer by calling [ClfsCreateLogFile](/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile).
+A pointer to a [**LOG_FILE_OBJECT**](./ns-wdm-_file_object.md) structure that represents a CLFS stream. The caller previously obtained this pointer by calling [ClfsCreateLogFile](./nf-wdm-clfscreatelogfile.md).
 
 ### -param ePoolType [in]
 
-A [POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type) value that specifies the type of memory (paged, non-paged, for example) that the new marshalling area will use for its log I/O blocks.
+A [POOL_TYPE](./ne-wdm-_pool_type.md) value that specifies the type of memory (paged, non-paged, for example) that the new marshalling area will use for its log I/O blocks.
 
 ### -param pfnAllocBuffer [in, optional]
 
@@ -104,20 +104,20 @@ A pointer to a variable that receives a pointer to an opaque context that repres
 
 The *pfnAllocBuffer* and *pfnFreeBuffer* parameters must both point to caller-allocated functions, or they must both be **NULL**. If they are both **NULL**, CLFS provides default functions for allocating and freeing log I/O blocks.
 
-Before calling **ClfsCreateMarshallingArea**, you must add at least two containers to the underlying log by calling [ClfsAddLogContainer](/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsaddlogcontainer) or [ClfsAddLogContainerSet](/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsaddlogcontainerset).
+Before calling **ClfsCreateMarshallingArea**, you must add at least two containers to the underlying log by calling [ClfsAddLogContainer](./nf-wdm-clfsaddlogcontainer.md) or [ClfsAddLogContainerSet](./nf-wdm-clfsaddlogcontainerset.md).
 
 For an explanation of CLFS concepts and terminology, see [Common Log File System](/windows-hardware/drivers/kernel/using-common-log-file-system).
 
 ## -see-also
 
-[ClfsAddLogContainer](/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsaddlogcontainer)
+[ClfsAddLogContainer](./nf-wdm-clfsaddlogcontainer.md)
 
-[ClfsAddLogContainerSet](/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsaddlogcontainerset)
+[ClfsAddLogContainerSet](./nf-wdm-clfsaddlogcontainerset.md)
 
-[ClfsCreateLogFile](/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile)
+[ClfsCreateLogFile](./nf-wdm-clfscreatelogfile.md)
 
-[ClfsDeleteMarshallingArea](/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsdeletemarshallingarea)
+[ClfsDeleteMarshallingArea](./nf-wdm-clfsdeletemarshallingarea.md)
 
-[**LOG_FILE_OBJECT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object)
+[**LOG_FILE_OBJECT**](./ns-wdm-_file_object.md)
 
-[POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type)
+[POOL_TYPE](./ne-wdm-_pool_type.md)

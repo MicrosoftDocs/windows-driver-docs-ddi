@@ -47,19 +47,19 @@ The *DmaCompletionRoutine* callback routine notifies the driver that previously 
 
 ### -param DmaAdapter [in]
 
-A pointer to a [DMA_ADAPTER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter) structure. This structure is the adapter object that represents the driver's system DMA channel.
+A pointer to a [DMA_ADAPTER](./ns-wdm-_dma_adapter.md) structure. This structure is the adapter object that represents the driver's system DMA channel.
 
 ### -param DeviceObject [in]
 
-A pointer to a [DEVICE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure. This structure is the physical device object (PDO) that represents the target device for the requested DMA operation.
+A pointer to a [DEVICE_OBJECT](./ns-wdm-_device_object.md) structure. This structure is the physical device object (PDO) that represents the target device for the requested DMA operation.
 
 ### -param CompletionContext [in]
 
-A pointer to a driver-determined context for the *DmaCompletionRoutine* routine. This context is the *CompletionContext* parameter value that the driver previously passed to the [MapTransferEx](/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex) call that initiated the system DMA transfer.
+A pointer to a driver-determined context for the *DmaCompletionRoutine* routine. This context is the *CompletionContext* parameter value that the driver previously passed to the [MapTransferEx](./nc-wdm-pmap_transfer_ex.md) call that initiated the system DMA transfer.
 
 ### -param Status [in]
 
-The completion status of the DMA transfer. This parameter is a [DMA_COMPLETION_STATUS](/windows-hardware/drivers/ddi/wdm/ne-wdm-dma_completion_status) enumeration value that indicates whether the DMA transfer completed successfully.
+The completion status of the DMA transfer. This parameter is a [DMA_COMPLETION_STATUS](./ne-wdm-dma_completion_status.md) enumeration value that indicates whether the DMA transfer completed successfully.
 
 ## -remarks
 
@@ -67,7 +67,7 @@ As an option, a driver can implement a *DmaCompletionRoutine* routine. When the 
 
 A driver's *DmaCompletionRoutine* routine is called only if the DMA transfer requested by the driver uses a system DMA controller that can generate an interrupt after a DMA transfer completes. A driver that uses a bus-master DMA device, or that uses a system DMA controller that does not generate interrupts, must use other means to determine when a DMA transfer completes. For example, this driver might use a timer interrupt to periodically poll the status of the DMA transfer.
 
-A driver can supply a pointer to a *DmaCompletionRoutine* routine as an optional parameter to the [MapTransferEx](/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex) routine.
+A driver can supply a pointer to a *DmaCompletionRoutine* routine as an optional parameter to the [MapTransferEx](./nc-wdm-pmap_transfer_ex.md) routine.
 
 ### Examples
 
@@ -99,16 +99,16 @@ The DMA_COMPLETION_ROUTINE function type is defined in the Wdm.h header file. To
 
 ## -see-also
 
-[BuildScatterGatherListEx](/windows-hardware/drivers/ddi/wdm/nc-wdm-pbuild_scatter_gather_list_ex)
+[BuildScatterGatherListEx](./nc-wdm-pbuild_scatter_gather_list_ex.md)
 
-[DEVICE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object)
+[DEVICE_OBJECT](./ns-wdm-_device_object.md)
 
-[DMA_ADAPTER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter)
+[DMA_ADAPTER](./ns-wdm-_dma_adapter.md)
 
-[DMA_COMPLETION_STATUS](/windows-hardware/drivers/ddi/wdm/ne-wdm-dma_completion_status)
+[DMA_COMPLETION_STATUS](./ne-wdm-dma_completion_status.md)
 
-[DMA_OPERATIONS](/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations)
+[DMA_OPERATIONS](./ns-wdm-_dma_operations.md)
 
-[GetScatterGatherListEx](/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_scatter_gather_list_ex)
+[GetScatterGatherListEx](./nc-wdm-pget_scatter_gather_list_ex.md)
 
-[MapTransferEx](/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex)
+[MapTransferEx](./nc-wdm-pmap_transfer_ex.md)

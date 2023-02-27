@@ -80,6 +80,6 @@ You can call **EtwWriteTransfer** at any IRQL. However, when IRQL is greater tha
 
 ## -see-also
 
-[EtwWrite](/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwrite)
+[EtwWrite](./nf-wdm-etwwrite.md)
 
-[EtwWriteString](/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwritestring)
+[EtwWriteString](./nf-wdm-etwwritestring.md)

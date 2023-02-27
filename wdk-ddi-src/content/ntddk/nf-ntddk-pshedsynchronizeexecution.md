@@ -47,7 +47,7 @@ The **PshedSynchronizeExecution** function synchronizes the execution of a given
 
 ### -param ErrorSource [in]
 
-A pointer to a [**WHEA_ERROR_SOURCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor) structure that describes an error source.
+A pointer to a [**WHEA_ERROR_SOURCE_DESCRIPTOR**](./ns-ntddk-_whea_error_source_descriptor.md) structure that describes an error source.
 
 ### -param SynchronizeRoutine [in]
 
@@ -88,4 +88,4 @@ Callers of the **PshedSynchronizeExecution** function must be running at IRQL <=
 
 ## -see-also
 
-[**WHEA_ERROR_SOURCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor)
+[**WHEA_ERROR_SOURCE_DESCRIPTOR**](./ns-ntddk-_whea_error_source_descriptor.md)

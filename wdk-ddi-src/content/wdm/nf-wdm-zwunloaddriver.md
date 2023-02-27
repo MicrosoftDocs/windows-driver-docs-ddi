@@ -65,7 +65,7 @@ If *DriverName* is the name of a PnP device driver, **ZwUnloadDriver** returns S
 
 A minifilter should use [FltUnloadFilter](../fltkernel/nf-fltkernel-fltunloadfilter.md) instead of **ZwUnloadDriver** to unload a supporting minifilter.
 
-If the call to the **ZwUnloadDriver** function occurs in user mode, you should use the name "[NtUnloadDriver](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwunloaddriver)" instead of "**ZwUnloadDriver**".
+If the call to the **ZwUnloadDriver** function occurs in user mode, you should use the name "NtUnloadDriver" instead of "**ZwUnloadDriver**".
 
 For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 

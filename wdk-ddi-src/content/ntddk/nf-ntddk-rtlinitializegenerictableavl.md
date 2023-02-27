@@ -47,7 +47,7 @@ The **RtlInitializeGenericTableAvl** routine initializes a generic table using A
 
 ### -param Table [out]
 
-A pointer to a caller-allocated buffer, which must be at least **sizeof**([RTL_AVL_TABLE](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table)) bytes in size, to contain the initialized generic table structure.
+A pointer to a caller-allocated buffer, which must be at least **sizeof**([RTL_AVL_TABLE](./ns-ntddk-_rtl_avl_table.md)) bytes in size, to contain the initialized generic table structure.
 
 ### -param CompareRoutine [in]
 
@@ -158,18 +158,18 @@ Callers of **RtlInitializeGenericTableAvl** must be running at IRQL <= DISPATCH_
 
 ## -see-also
 
-[ExInitializeFastMutex](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex)
+[ExInitializeFastMutex](../wdm/nf-wdm-exinitializefastmutex.md)
 
-[RtlDeleteElementGenericTableAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtldeleteelementgenerictableavl)
+[RtlDeleteElementGenericTableAvl](./nf-ntddk-rtldeleteelementgenerictableavl.md)
 
-[RtlEnumerateGenericTableAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictableavl)
+[RtlEnumerateGenericTableAvl](./nf-ntddk-rtlenumerategenerictableavl.md)
 
-[RtlGetElementGenericTableAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetelementgenerictableavl)
+[RtlGetElementGenericTableAvl](./nf-ntddk-rtlgetelementgenerictableavl.md)
 
-[RtlInitializeGenericTable](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable)
+[RtlInitializeGenericTable](./nf-ntddk-rtlinitializegenerictable.md)
 
-[RtlInsertElementGenericTableAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinsertelementgenerictableavl)
+[RtlInsertElementGenericTableAvl](./nf-ntddk-rtlinsertelementgenerictableavl.md)
 
-[RtlLookupElementGenericTableAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtllookupelementgenerictableavl)
+[RtlLookupElementGenericTableAvl](./nf-ntddk-rtllookupelementgenerictableavl.md)
 
-[RtlNumberGenericTableElementsAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlnumbergenerictableelementsavl)
+[RtlNumberGenericTableElementsAvl](./nf-ntddk-rtlnumbergenerictableelementsavl.md)

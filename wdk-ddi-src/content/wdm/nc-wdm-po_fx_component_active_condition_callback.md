@@ -47,7 +47,7 @@ The *ComponentActiveConditionCallback* callback routine notifies the driver that
 
 ### -param Context [in]
 
-A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the **DeviceContext** member of the [**PO_FX_DEVICE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1) structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
+A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the **DeviceContext** member of the [**PO_FX_DEVICE**](./ns-wdm-_po_fx_device_v1.md) structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
 
 ### -param Component [in]
 
@@ -57,7 +57,7 @@ Specifies the index that identifies the component. This parameter is an index in
 
 A component's hardware registers can be accessed only when the component is in the active condition. Do not rely on the Fx power state of a component to determine whether the component can be accessed. If the component is in the F0 state and is in the idle condition, the component might be about to switch to another Fx state.
 
-To gain access to a component that is in the idle condition, the driver can call the [PoFxActivateComponent](/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxactivatecomponent) routine to switch the component to the active condition. If the component is not already in the active condition when **PoFxActivateComponent** is called, PoFx initiates the transition to the active condition, and then calls the *ComponentActiveConditionCallback* routine to notify the driver when the transition is complete.
+To gain access to a component that is in the idle condition, the driver can call the [PoFxActivateComponent](./nf-wdm-pofxactivatecomponent.md) routine to switch the component to the active condition. If the component is not already in the active condition when **PoFxActivateComponent** is called, PoFx initiates the transition to the active condition, and then calls the *ComponentActiveConditionCallback* routine to notify the driver when the transition is complete.
 
 The driver receives a *ComponentActiveConditionCallback* callback whenever the component completes a transition to the active condition, regardless of whether the driver called **PoFxActivateComponent** to initiate the transition. For example, the Windows kernel might activate the component on behalf of the driver before sending a [Plug and Play IRP](/windows-hardware/drivers/kernel/passing-pnp-irps-down-the-device-stack) or a [system set-power IRP](/windows-hardware/drivers/kernel/power-irps-for-the-system) to the driver.
 
@@ -89,6 +89,6 @@ The PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK function type is defined in the Wd
 
 ## -see-also
 
-[**PO_FX_DEVICE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1)
+[**PO_FX_DEVICE**](./ns-wdm-_po_fx_device_v1.md)
 
-[PoFxActivateComponent](/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxactivatecomponent)
+[PoFxActivateComponent](./nf-wdm-pofxactivatecomponent.md)

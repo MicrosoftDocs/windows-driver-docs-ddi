@@ -47,23 +47,23 @@ The *AdapterListControl* routine starts a direct memory access (DMA) scatter/gat
 
 ### -param DeviceObject [in]
 
-Caller-supplied pointer to a [DEVICE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure. This is the device object for the target device, previously created by the driver's [AddDevice](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device) routine.
+Caller-supplied pointer to a [DEVICE_OBJECT](./ns-wdm-_device_object.md) structure. This is the device object for the target device, previously created by the driver's [AddDevice](./nc-wdm-driver_add_device.md) routine.
 
 ### -param Irp [in]
 
-Caller-supplied pointer to an [IRP](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp) structure that describes the I/O operation, if the driver has a [StartIo](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_startio) routine. Otherwise, not used.
+Caller-supplied pointer to an [IRP](./ns-wdm-_irp.md) structure that describes the I/O operation, if the driver has a [StartIo](./nc-wdm-driver_startio.md) routine. Otherwise, not used.
 
 ### -param ScatterGather [in]
 
-Caller-supplied pointer to a [SCATTER_GATHER_LIST](/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list) structure describing scatter/gather regions.
+Caller-supplied pointer to a [SCATTER_GATHER_LIST](./ns-wdm-_scatter_gather_list.md) structure describing scatter/gather regions.
 
 ### -param Context [in]
 
-Caller-supplied pointer to driver-defined context information, specified in a previous call to [AllocateAdapterChannel](/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_adapter_channel).
+Caller-supplied pointer to driver-defined context information, specified in a previous call to [AllocateAdapterChannel](./nc-wdm-pallocate_adapter_channel.md).
 
 ## -remarks
 
-To register an *AdapterListControl* routine for a specific device object, a driver must call [IoGetDmaAdapter](/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter) to obtain an adapter object, then call [GetScatterGatherList](/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_scatter_gather_list) to request use of the adapter and to supply the *AdapterListControl* routine's address. When the adapter is free, the system calls the *AdapterListControl* routine.
+To register an *AdapterListControl* routine for a specific device object, a driver must call [IoGetDmaAdapter](./nf-wdm-iogetdmaadapter.md) to obtain an adapter object, then call [GetScatterGatherList](./nc-wdm-pget_scatter_gather_list.md) to request use of the adapter and to supply the *AdapterListControl* routine's address. When the adapter is free, the system calls the *AdapterListControl* routine.
 
 ### Examples
 

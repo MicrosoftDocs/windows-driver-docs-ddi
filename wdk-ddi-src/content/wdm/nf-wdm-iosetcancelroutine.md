@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-The **IoSetCancelRoutine** routine sets up a driver-supplied [Cancel](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_cancel) routine to be called if a given IRP is canceled.
+The **IoSetCancelRoutine** routine sets up a driver-supplied [Cancel](./nc-wdm-driver_cancel.md) routine to be called if a given IRP is canceled.
 
 ## -parameters
 
@@ -51,7 +51,7 @@ Pointer to the IRP being put into or removed from a cancelable state.
 
 ### -param CancelRoutine [in]
 
-Specifies the entry point of the caller-supplied [Cancel](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_cancel) routine to be called if the specified IRP is canceled or is **NULL** if the given IRP is being removed from the cancelable state. This routine is declared as follows:
+Specifies the entry point of the caller-supplied [Cancel](./nc-wdm-driver_cancel.md) routine to be called if the specified IRP is canceled or is **NULL** if the given IRP is being removed from the cancelable state. This routine is declared as follows:
 
 ```cpp
 VOID
