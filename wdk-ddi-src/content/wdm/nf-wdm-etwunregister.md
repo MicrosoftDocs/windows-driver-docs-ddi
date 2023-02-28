@@ -62,4 +62,4 @@ Callers of **EtwRegister** must be running at IRQL = PASSIVE_LEVEL in the contex
 
 ## -see-also
 
-[EtwRegister](/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister)
+[EtwRegister](./nf-wdm-etwregister.md)

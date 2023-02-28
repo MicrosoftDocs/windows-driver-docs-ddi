@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-The *CsqReleaseLock* routine is used by the system to release the lock that was acquired using [CsqAcquireLock](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock).
+The *CsqReleaseLock* routine is used by the system to release the lock that was acquired using [CsqAcquireLock](./nc-wdm-io_csq_acquire_lock.md).
 
 ## -parameters
 
@@ -51,13 +51,13 @@ Pointer to the [IO_CSQ](/windows-hardware/drivers/kernel/eprocess) structure for
 
 ### -param Irql [in]
 
-Specifies an IRQL. This is the value stored by [CsqAcquireLock](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock) when the lock was acquired.
+Specifies an IRQL. This is the value stored by [CsqAcquireLock](./nc-wdm-io_csq_acquire_lock.md) when the lock was acquired.
 
 ## -remarks
 
-The driver specifies the *CsqReleaseLock* routine for a cancel-safe IRP queue when it initializes the queue's **IO_CSQ** structure. The driver specifies the routine as the *CsqReleaseLock* parameter of [IoCsqInitialize](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize) or [IoCsqInitializeEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex) when it initializes **IO_CSQ**. For more information, see [Cancel-Safe IRP Queues](/windows-hardware/drivers/kernel/cancel-safe-irp-queues).
+The driver specifies the *CsqReleaseLock* routine for a cancel-safe IRP queue when it initializes the queue's **IO_CSQ** structure. The driver specifies the routine as the *CsqReleaseLock* parameter of [IoCsqInitialize](./nf-wdm-iocsqinitialize.md) or [IoCsqInitializeEx](./nf-wdm-iocsqinitializeex.md) when it initializes **IO_CSQ**. For more information, see [Cancel-Safe IRP Queues](/windows-hardware/drivers/kernel/cancel-safe-irp-queues).
 
-The system calls this function to release a lock that was acquired using [CsqAcquireLock](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock).
+The system calls this function to release a lock that was acquired using [CsqAcquireLock](./nc-wdm-io_csq_acquire_lock.md).
 
 If the driver uses a spin lock to implement locking for the queue, it must store the current IRQL when it acquires the lock, and provide the stored IRQL when it releases the lock. The *CsqAcquireLock* routine stores the current IRQL, and the system passes the stored value as the *Irql* parameter to *CsqReleaseLock*. Otherwise the driver can ignore the *Irql* parameter. For information about spin locks, see [Spin Locks](/windows-hardware/drivers/kernel/spin-locks).
 
@@ -91,28 +91,28 @@ The IO_CSQ_RELEASE_LOCK function type is defined in the Wdm.h header file. To mo
 
 ## -see-also
 
-[CsqAcquireLock](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock)
+[CsqAcquireLock](./nc-wdm-io_csq_acquire_lock.md)
 
-[CsqCompleteCanceledIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_complete_canceled_irp)
+[CsqCompleteCanceledIrp](./nc-wdm-io_csq_complete_canceled_irp.md)
 
-[CsqInsertIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_insert_irp)
+[CsqInsertIrp](./nc-wdm-io_csq_insert_irp.md)
 
-[CsqInsertIrpEx](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_insert_irp_ex)
+[CsqInsertIrpEx](./nc-wdm-io_csq_insert_irp_ex.md)
 
-[CsqPeekNextIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_peek_next_irp)
+[CsqPeekNextIrp](./nc-wdm-io_csq_peek_next_irp.md)
 
-[CsqRemoveIrp](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_remove_irp)
+[CsqRemoveIrp](./nc-wdm-io_csq_remove_irp.md)
 
 [IO_CSQ](/windows-hardware/drivers/kernel/eprocess)
 
-[IoCsqInitialize](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize)
+[IoCsqInitialize](./nf-wdm-iocsqinitialize.md)
 
-[IoCsqInitializeEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex)
+[IoCsqInitializeEx](./nf-wdm-iocsqinitializeex.md)
 
-[IoCsqInsertIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinsertirp)
+[IoCsqInsertIrp](./nf-wdm-iocsqinsertirp.md)
 
-[IoCsqInsertIrpEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinsertirpex)
+[IoCsqInsertIrpEx](./nf-wdm-iocsqinsertirpex.md)
 
-[IoCsqRemoveIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremoveirp)
+[IoCsqRemoveIrp](./nf-wdm-iocsqremoveirp.md)
 
-[IoCsqRemoveNextIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp)
+[IoCsqRemoveNextIrp](./nf-wdm-iocsqremovenextirp.md)

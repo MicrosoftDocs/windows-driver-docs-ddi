@@ -48,7 +48,7 @@ The **RtlVerifyVersionInfo** routine compares a specified set of operating syste
 
 ### -param VersionInfo [in]
 
-Pointer to an [**RTL_OSVERSIONINFOEXW**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_osversioninfoexw) structure that specifies the operating system version requirements to compare to the corresponding attributes of the currently running version of the operating system.
+Pointer to an [**RTL_OSVERSIONINFOEXW**](./ns-wdm-_osversioninfoexw.md) structure that specifies the operating system version requirements to compare to the corresponding attributes of the currently running version of the operating system.
 
 ### -param TypeMask [in]
 
@@ -147,8 +147,8 @@ To verify a range of system versions, a driver can call **RtlVerifyVersionInfo**
 
 ## -see-also
 
-[**RTL_OSVERSIONINFOEXW**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_osversioninfoexw)
+[**RTL_OSVERSIONINFOEXW**](./ns-wdm-_osversioninfoexw.md)
 
-[**RTL_OSVERSIONINFOW**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_osversioninfow)
+[**RTL_OSVERSIONINFOW**](./ns-wdm-_osversioninfow.md)
 
-[RtlGetVersion](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlgetversion)
+[RtlGetVersion](./nf-wdm-rtlgetversion.md)

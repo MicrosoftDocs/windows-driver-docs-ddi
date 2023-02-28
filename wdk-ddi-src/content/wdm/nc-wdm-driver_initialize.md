@@ -47,7 +47,7 @@ api_name:
 
 ### -param DriverObject [in]
 
-A pointer to a [**DRIVER_OBJECT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object) structure. This is the driver's driver object.
+A pointer to a [**DRIVER_OBJECT**](./ns-wdm-_driver_object.md) structure. This is the driver's driver object.
 
 ### -param RegistryPath [in]
 
@@ -97,4 +97,4 @@ The DRIVER_INITIALIZE function type is defined in the Wdm.h header file. To more
 
 ## -see-also
 
-[**DRIVER_OBJECT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object)
+[**DRIVER_OBJECT**](./ns-wdm-_driver_object.md)

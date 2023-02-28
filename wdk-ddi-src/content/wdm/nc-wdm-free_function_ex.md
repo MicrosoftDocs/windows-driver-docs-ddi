@@ -51,7 +51,7 @@ A pointer to the lookaside-list entry that is to be freed.
 
 ### -param Lookaside [in, out]
 
-A pointer to a [LOOKASIDE_LIST_EX](/windows-hardware/drivers/kernel/eprocess) structure that describes the lookaside list. This structure was previously initialized by the [ExInitializeLookasideListEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializelookasidelistex) routine.
+A pointer to a [LOOKASIDE_LIST_EX](/windows-hardware/drivers/kernel/eprocess) structure that describes the lookaside list. This structure was previously initialized by the [ExInitializeLookasideListEx](./nf-wdm-exinitializelookasidelistex.md) routine.
 
 ## -remarks
 
@@ -59,9 +59,9 @@ A driver that creates a lookaside list can implement a *LookasideListFreeEx* rou
 
 The driver supplies a pointer to a custom *LookasideListFreeEx* routine as an input parameter in the **ExInitializeLookasideListEx** call that initializes the lookaside list. If the driver sets this parameter to **NULL**, the lookaside list uses a default deallocation routine instead.
 
-A driver calls the [ExFreeToLookasideListEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreetolookasidelistex) routine to insert a previously allocated entry into a lookaside list. If the list is full (that is, if the list already contains the system-determined maximum number of entries), **ExFreeToLookasideListEx** calls *LookasideListFreeEx* to free the storage for the entry.
+A driver calls the [ExFreeToLookasideListEx](./nf-wdm-exfreetolookasidelistex.md) routine to insert a previously allocated entry into a lookaside list. If the list is full (that is, if the list already contains the system-determined maximum number of entries), **ExFreeToLookasideListEx** calls *LookasideListFreeEx* to free the storage for the entry.
 
-The *LookasideListFreeEx* routine can use the *Lookaside* parameter to access private context data that the driver has associated with the lookaside list. For more information, see the code example in [ExInitializeLookasideListEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializelookasidelistex).
+The *LookasideListFreeEx* routine can use the *Lookaside* parameter to access private context data that the driver has associated with the lookaside list. For more information, see the code example in [ExInitializeLookasideListEx](./nf-wdm-exinitializelookasidelistex.md).
 
 For more information about lookaside lists, see [Using Lookaside Lists](/windows-hardware/drivers/kernel/using-lookaside-lists).
 
@@ -95,8 +95,8 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 ## -see-also
 
-[ExFreeToLookasideListEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreetolookasidelistex)
+[ExFreeToLookasideListEx](./nf-wdm-exfreetolookasidelistex.md)
 
-[ExInitializeLookasideListEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializelookasidelistex)
+[ExInitializeLookasideListEx](./nf-wdm-exinitializelookasidelistex.md)
 
 [LOOKASIDE_LIST_EX](/windows-hardware/drivers/kernel/eprocess)

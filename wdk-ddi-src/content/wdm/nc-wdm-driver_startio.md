@@ -47,11 +47,11 @@ The *StartIo* routine starts the I/O operation described by an IRP.
 
 ### -param DeviceObject [in, out]
 
-Caller-supplied pointer to a [DEVICE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure. This is the device object for the target device, previously created by the driver's [AddDevice](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device) routine.
+Caller-supplied pointer to a [DEVICE_OBJECT](./ns-wdm-_device_object.md) structure. This is the device object for the target device, previously created by the driver's [AddDevice](./nc-wdm-driver_add_device.md) routine.
 
 ### -param Irp [in, out]
 
-Caller-supplied pointer to an [IRP](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp) structure that describes the requested I/O operation.
+Caller-supplied pointer to an [IRP](./ns-wdm-_irp.md) structure that describes the requested I/O operation.
 
 ## -remarks
 
@@ -59,7 +59,7 @@ A driver's *StartIo* routine executes in an arbitrary thread context at IRQL = D
 
 The *StartIo* routine is optional. A driver's *StartIo* routine, if supplied, should be named *Xxx***StartIo**, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *StartIo* routine's address in **DriverObject->DriverStartIo**. (If no routine is supplied, this pointer must be **NULL**.)
 
-A driver can use [IoSetStartIoAttributes](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iosetstartioattributes) to set attributes on when its *StartIo* routine is called.
+A driver can use [IoSetStartIoAttributes](../ntifs/nf-ntifs-iosetstartioattributes.md) to set attributes on when its *StartIo* routine is called.
 
 For detailed information about implementing a driver's *StartIo* routine, see [Writing a StartIo Routine](/windows-hardware/drivers/kernel/writing-a-startio-routine).
 

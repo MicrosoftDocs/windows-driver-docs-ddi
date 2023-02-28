@@ -99,12 +99,12 @@ For more information about creating pageable code sections, see [Making Drivers 
 
 ## -see-also
 
-[MmLockPagableDataSection](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmlockpagabledatasection)
+[MmLockPagableDataSection](./nf-wdm-mmlockpagabledatasection.md)
 
-[MmLockPagableSectionByHandle](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmlockpagablesectionbyhandle)
+[MmLockPagableSectionByHandle](../ntddk/nf-ntddk-mmlockpagablesectionbyhandle.md)
 
-[MmPageEntireDriver](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmpageentiredriver)
+[MmPageEntireDriver](./nf-wdm-mmpageentiredriver.md)
 
-[MmResetDriverPaging](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmresetdriverpaging)
+[MmResetDriverPaging](./nf-wdm-mmresetdriverpaging.md)
 
-[MmUnlockPagableImageSection](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunlockpagableimagesection)
+[MmUnlockPagableImageSection](./nf-wdm-mmunlockpagableimagesection.md)

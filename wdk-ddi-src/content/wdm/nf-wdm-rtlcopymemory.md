@@ -79,4 +79,4 @@ Callers of **RtlCopyMemory** can be running at any IRQL if the source and destin
 
 ## -see-also
 
-[RtlMoveMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlmovememory)
+[RtlMoveMemory](./nf-wdm-rtlmovememory.md)

@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-The *QueryRoutine* routine provides information about a registry value that was requested in a preceding call to the [RtlQueryRegistryValues](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues) routine.
+The *QueryRoutine* routine provides information about a registry value that was requested in a preceding call to the [RtlQueryRegistryValues](./nf-wdm-rtlqueryregistryvalues.md) routine.
 
 ## -parameters
 
@@ -51,11 +51,11 @@ Specifies the registry key that is associated with the requested registry value.
 
 ### -param ValueType [in]
 
-Specifies the type of registry value that is stored with the specified registry key. For more information registry value types, see the definition of the *Type* parameter in [KEY_VALUE_BASIC_INFORMATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information).
+Specifies the type of registry value that is stored with the specified registry key. For more information registry value types, see the definition of the *Type* parameter in [KEY_VALUE_BASIC_INFORMATION](./ns-wdm-_key_value_basic_information.md).
 
 ### -param ValueData [in]
 
-A pointer to the data value that is associated with the specified registry key. The driver must treat this value as read-only. For more information about the type of value data that *ValueData* points to, see the definition of the *Type* parameter in [**KEY_VALUE_BASIC_INFORMATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information).
+A pointer to the data value that is associated with the specified registry key. The driver must treat this value as read-only. For more information about the type of value data that *ValueData* points to, see the definition of the *Type* parameter in [**KEY_VALUE_BASIC_INFORMATION**](./ns-wdm-_key_value_basic_information.md).
 
 ### -param ValueLength [in]
 
@@ -75,11 +75,11 @@ Specifies an **EntryContext** value in a *QueryTable* array element that the dri
 
 ## -remarks
 
-A kernel-mode driver implements a *QueryRoutine* routine. This routine is called by the [RtlQueryRegistryValues](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues) routine.
+A kernel-mode driver implements a *QueryRoutine* routine. This routine is called by the [RtlQueryRegistryValues](./nf-wdm-rtlqueryregistryvalues.md) routine.
 
 To obtain information about one or more registry values, the driver calls **RtlQueryRegistryValues** and passes a pointer, as an input parameter, to an array of **RTL_QUERY_REGISTRY_TABLE** structures. Each structure in this array contains a pointer to a driver-implemented *QueryRoutine* routine and a request for information about a particular registry value. For each structure in the array, **RtlQueryRegistryValues** calls the specified *QueryRoutine* routine and passes to this routine a set of parameters that contain the requested information about the specified registry value.
 
-For more information about the **RTL_QUERY_REGISTRY_TABLE** structure, see [RtlQueryRegistryValues](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues).
+For more information about the **RTL_QUERY_REGISTRY_TABLE** structure, see [RtlQueryRegistryValues](./nf-wdm-rtlqueryregistryvalues.md).
 
 ### Examples
 
@@ -113,6 +113,6 @@ The RTL_QUERY_REGISTRY_ROUTINE function type is defined in the Wdm.h header file
 
 ## -see-also
 
-[**KEY_VALUE_BASIC_INFORMATION**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information)
+[**KEY_VALUE_BASIC_INFORMATION**](./ns-wdm-_key_value_basic_information.md)
 
-[RtlQueryRegistryValues](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues)
+[RtlQueryRegistryValues](./nf-wdm-rtlqueryregistryvalues.md)

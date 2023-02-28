@@ -47,17 +47,17 @@ The *DevicePowerRequiredCallback* callback routine notifies the device driver th
 
 ### -param Context [in]
 
-A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the **DeviceContext** member of the [**PO_FX_DEVICE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1) structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
+A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the **DeviceContext** member of the [**PO_FX_DEVICE**](./ns-wdm-_po_fx_device_v1.md) structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
 
 ## -remarks
 
-After PoFx calls the driver's *DevicePowerRequiredCallback* routine, the driver must initiate a transition to the D0 state by sending a D0 IRP (an [IRP_MN_SET_POWER](/windows-hardware/drivers/kernel/irp-mn-set-power) request) down the device stack, if the device is not already in the D0 state. After the driver completes (and all lower drivers complete) handling of this request, the driver must call the [PoFxReportDevicePoweredOn](/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxreportdevicepoweredon) routine. The **PoFxReportDevicePoweredOn** call notifies PoFx that the device completed its response to the *DevicePowerRequiredCallback* call. The driver can call **PoFxReportDevicePoweredOn** during or after the *DevicePowerRequiredCallback* call.
+After PoFx calls the driver's *DevicePowerRequiredCallback* routine, the driver must initiate a transition to the D0 state by sending a D0 IRP (an [IRP_MN_SET_POWER](/windows-hardware/drivers/kernel/irp-mn-set-power) request) down the device stack, if the device is not already in the D0 state. After the driver completes (and all lower drivers complete) handling of this request, the driver must call the [PoFxReportDevicePoweredOn](./nf-wdm-pofxreportdevicepoweredon.md) routine. The **PoFxReportDevicePoweredOn** call notifies PoFx that the device completed its response to the *DevicePowerRequiredCallback* call. The driver can call **PoFxReportDevicePoweredOn** during or after the *DevicePowerRequiredCallback* call.
 
 Each time the *DevicePowerRequiredCallback* routine is called, the driver must respond by calling **PoFxReportDevicePoweredOn**. The **PoFxReportDevicePoweredOn** call can occur either during or after the *DevicePowerRequiredCallback* call. The driver must call **PoFxReportDevicePoweredOn** regardless of whether no D0 IRP is required, the D0 IRP request fails, or the dispatched D0 IRP succeeds or fails.
 
-PoFx calls the *DevicePowerRequiredCallback* routine only if PoFx previously called the driver's [DevicePowerNotRequiredCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_device_power_not_required_callback) routine to notify the driver that the device was not required to stay in the D0 state.
+PoFx calls the *DevicePowerRequiredCallback* routine only if PoFx previously called the driver's [DevicePowerNotRequiredCallback](./nc-wdm-po_fx_device_power_not_required_callback.md) routine to notify the driver that the device was not required to stay in the D0 state.
 
-The call to the *DevicePowerRequiredCallback* routine can occur at any time after the driver calls [PoFxCompleteDevicePowerNotRequired](/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxcompletedevicepowernotrequired) to complete a *DevicePowerNotRequiredCallback* callback. The *DevicePowerRequiredCallback* call does not necessarily occur as a result of an action taken by the driver, such as requesting that a component change to the active condition.
+The call to the *DevicePowerRequiredCallback* routine can occur at any time after the driver calls [PoFxCompleteDevicePowerNotRequired](./nf-wdm-pofxcompletedevicepowernotrequired.md) to complete a *DevicePowerNotRequiredCallback* callback. The *DevicePowerRequiredCallback* call does not necessarily occur as a result of an action taken by the driver, such as requesting that a component change to the active condition.
 
 ### Examples
 
@@ -86,12 +86,12 @@ The PO_FX_DEVICE_POWER_REQUIRED_CALLBACK function type is defined in the Wdm.h h
 
 ## -see-also
 
-[DevicePowerNotRequiredCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_device_power_not_required_callback)
+[DevicePowerNotRequiredCallback](./nc-wdm-po_fx_device_power_not_required_callback.md)
 
-[**PO_FX_DEVICE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1)
+[**PO_FX_DEVICE**](./ns-wdm-_po_fx_device_v1.md)
 
-[PoFxCompleteDevicePowerNotRequired](/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxcompletedevicepowernotrequired)
+[PoFxCompleteDevicePowerNotRequired](./nf-wdm-pofxcompletedevicepowernotrequired.md)
 
-[PoFxRegisterDevice](/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice)
+[PoFxRegisterDevice](./nf-wdm-pofxregisterdevice.md)
 
-[PoFxReportDevicePoweredOn](/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxreportdevicepoweredon)
+[PoFxReportDevicePoweredOn](./nf-wdm-pofxreportdevicepoweredon.md)

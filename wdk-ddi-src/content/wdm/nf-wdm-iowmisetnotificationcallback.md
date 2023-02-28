@@ -47,7 +47,7 @@ The **IoWMISetNotificationCallback** routine registers a notification callback f
 
 ### -param Object [in, out]
 
-Pointer to a WMI data block object. The caller opens the data block object for the WMI event with the [IoWMIOpenBlock](/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock) routine. The object must be opened with the WMIGUID_NOTIFICATION access right.
+Pointer to a WMI data block object. The caller opens the data block object for the WMI event with the [IoWMIOpenBlock](./nf-wdm-iowmiopenblock.md) routine. The object must be opened with the WMIGUID_NOTIFICATION access right.
 
 ### -param Callback [in]
 
@@ -57,7 +57,7 @@ Pointer to a function of the form:
  XxxWmiNotificationCallback(PVOID Wnode, PVOID Context);
 ```
 
-WMI calls this function to notify the caller that the specified event has occurred. The *Wnode* parameter of the callback routine points to the [**WNODE_EVENT_ITEM**](/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_event_item) structure returned by the driver triggering the event. The *Context* parameter of the callback routine points to the value specified in the *Context* parameter of the **IoWMISetNotificationCallback** routine.
+WMI calls this function to notify the caller that the specified event has occurred. The *Wnode* parameter of the callback routine points to the [**WNODE_EVENT_ITEM**](../wmistr/ns-wmistr-tagwnode_event_item.md) structure returned by the driver triggering the event. The *Context* parameter of the callback routine points to the value specified in the *Context* parameter of the **IoWMISetNotificationCallback** routine.
 
 ### -param Context [in, optional]
 
@@ -69,6 +69,6 @@ This routine returns STATUS_SUCCESS on success, and the appropriate NTSTATUS err
 
 ## -see-also
 
-[IoWMIOpenBlock](/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock)
+[IoWMIOpenBlock](./nf-wdm-iowmiopenblock.md)
 
-[**WNODE_EVENT_ITEM**](/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_event_item)
+[**WNODE_EVENT_ITEM**](../wmistr/ns-wmistr-tagwnode_event_item.md)

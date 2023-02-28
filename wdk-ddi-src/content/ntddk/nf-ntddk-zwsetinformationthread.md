@@ -95,7 +95,7 @@ To help improve system performance, drivers should use the  function with **Thre
 
 To determine the page priority for a thread, call [ZwQueryInformationThread](/previous-versions/windows/hardware/drivers/mt629133(v=vs.85)).
 
-If the call to this function occurs in user mode, you should use the name [NtSetInformationThread](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwsetinformationthread) instead of **ZwSetInformationThread**.
+If the call to this function occurs in user mode, you should use the name NtSetInformationThread instead of **ZwSetInformationThread**.
 
 For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 

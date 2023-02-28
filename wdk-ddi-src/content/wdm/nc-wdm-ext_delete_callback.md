@@ -47,11 +47,11 @@ An *ExTimerDeleteCallback* callback routine runs when the operating system delet
 
 ### -param Context [in, optional]
 
-The context value from the *DeleteContext* member of the [**EXT_DELETE_PARAMETERS**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters) structure that your driver previously passed as an input parameter to the [ExDeleteTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer) routine.
+The context value from the *DeleteContext* member of the [**EXT_DELETE_PARAMETERS**](./ns-wdm-_ext_delete_parameters.md) structure that your driver previously passed as an input parameter to the [ExDeleteTimer](./nf-wdm-exdeletetimer.md) routine.
 
 ## -remarks
 
-As an option, your driver can supply a pointer to an *ExTimerDeleteCallback* routine in the *DeleteCallback* member of the [EXT_DELETE_PARAMETERS](/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters) structure that your driver passes as an input parameter to the [ExDeleteTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer) routine. The *ExTimerDeleteCallback* routine can free any storage or other system resources that the driver might have previously allocated to use with the timer object that is being deleted.
+As an option, your driver can supply a pointer to an *ExTimerDeleteCallback* routine in the *DeleteCallback* member of the [EXT_DELETE_PARAMETERS](./ns-wdm-_ext_delete_parameters.md) structure that your driver passes as an input parameter to the [ExDeleteTimer](./nf-wdm-exdeletetimer.md) routine. The *ExTimerDeleteCallback* routine can free any storage or other system resources that the driver might have previously allocated to use with the timer object that is being deleted.
 
 If the driver supplies an *ExTimerDeleteCallback* routine, and the *Wait* parameter in the **ExDeleteRoutine** call is **TRUE**, the *ExTimerDeleteCallback* routine runs before **ExDeleteTimer** returns. Otherwise, the  *ExTimerDeleteCallback* routine might run before or after the **ExDeleteTimer** call returns. The  *ExTimerDeleteCallback* routine is called only after the timer object has been disabled to prevent further timer operations and any pending timer operation on the timer object is canceled or completed. The timer object (an [EX_TIMER](/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects) structure) that the driver passes as an input parameter to the **ExDeleteTimer** routine might no longer be valid by the time the *ExTimerDeleteCallback* routine runs.
 
@@ -82,8 +82,8 @@ The EXT_DELETE_CALLBACK function type is defined in the Wdm.h header file. To mo
 
 ## -see-also
 
-[**EXT_DELETE_PARAMETERS**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters)
+[**EXT_DELETE_PARAMETERS**](./ns-wdm-_ext_delete_parameters.md)
 
 [EX_TIMER](/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects)
 
-[ExDeleteTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer)
+[ExDeleteTimer](./nf-wdm-exdeletetimer.md)

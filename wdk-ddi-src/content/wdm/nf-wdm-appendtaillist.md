@@ -59,7 +59,7 @@ This routine constructs a list that contains all the combined entries from the i
 
 The caller sets the *ListToAppend* parameter to point to the first entry in the list to be appended. In this regard, *AppendTailList* does not conform to the convention followed by the other doubly linked list routines that use the **LIST_ENTRY** structure. In these other routines, a parameter that represents a list points to the list head instead of to the first entry in the list. If your driver code uses a list head to represent the list to be appended, the list head must be removed from this list before the list is passed as the *ListToAppend* parameter to **AppendTailList**. For a code example that shows how to remove this list head, see Examples.
 
-**AppendTailList** can be used to insert a single entry at the tail of a list, but the **Flink** and **Blink** members of the **LIST_ENTRY** structure pointed to by *ListToAppend* must first be initialized—typically, by calling the [InitializeListHead](/windows-hardware/drivers/ddi/wdm/nf-wdm-initializelisthead) routine. In contrast, the [InsertTailList](/windows-hardware/drivers/ddi/wdm/nf-wdm-inserttaillist) routine does not require the **Flink** and **Blink** members of the **LIST_ENTRY** structure pointed to by the *Entry* parameter to be initialized before the **InsertTailList** call. For this reason, **InsertTailList** might be more convenient to use to insert a single entry at the tail of a list.
+**AppendTailList** can be used to insert a single entry at the tail of a list, but the **Flink** and **Blink** members of the **LIST_ENTRY** structure pointed to by *ListToAppend* must first be initialized—typically, by calling the [InitializeListHead](./nf-wdm-initializelisthead.md) routine. In contrast, the [InsertTailList](./nf-wdm-inserttaillist.md) routine does not require the **Flink** and **Blink** members of the **LIST_ENTRY** structure pointed to by the *Entry* parameter to be initialized before the **InsertTailList** call. For this reason, **InsertTailList** might be more convenient to use to insert a single entry at the tail of a list.
 
 A driver can access the **Flink** and **Blink** members of a **LIST_ENTRY**, but the members must only be updated by the system routines supplied for this purpose.
 
@@ -92,10 +92,10 @@ The `MyAppendTailList` function in this code example treats both the *ListHead* 
 
 ## -see-also
 
-[InitializeListHead](/windows-hardware/drivers/ddi/wdm/nf-wdm-initializelisthead)
+[InitializeListHead](./nf-wdm-initializelisthead.md)
 
-[InsertTailList](/windows-hardware/drivers/ddi/wdm/nf-wdm-inserttaillist)
+[InsertTailList](./nf-wdm-inserttaillist.md)
 
 [**LIST_ENTRY**](/windows/win32/api/ntdef/ns-ntdef-list_entry)
 
-[RemoveEntryList](/windows-hardware/drivers/ddi/wdm/nf-wdm-removeentrylist)
+[RemoveEntryList](./nf-wdm-removeentrylist.md)

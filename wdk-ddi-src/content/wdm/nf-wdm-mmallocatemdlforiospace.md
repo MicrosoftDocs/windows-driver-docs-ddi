@@ -41,13 +41,13 @@ api_name:
 
 ## -description
 
-The **MmAllocateMdlForIoSpace** routine allocates an [**MDL**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl) and initializes this MDL to describe a set of physical address ranges in I/O address space.
+The **MmAllocateMdlForIoSpace** routine allocates an [**MDL**](./ns-wdm-_mdl.md) and initializes this MDL to describe a set of physical address ranges in I/O address space.
 
 ## -parameters
 
 ### -param PhysicalAddressList [in]
 
-A pointer to an array of [**MM_PHYSICAL_ADDRESS_LIST**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_mm_physical_address_list) structures that describe the physical address ranges to include in the allocated MDL.
+A pointer to an array of [**MM_PHYSICAL_ADDRESS_LIST**](./ns-wdm-_mm_physical_address_list.md) structures that describe the physical address ranges to include in the allocated MDL.
 
 ### -param NumberOfEntries [in]
 
@@ -82,9 +82,9 @@ The physical address ranges in the *PhysicalAddressList* array must satisfy the 
 
 - The total size of all the ranges must be less than 4 gigabytes. Specifically, the total size must not exceed 2^32 - 1 bytes.
 
-The caller is responsible for freeing the allocated MDL when it is no longer needed. To free the MDL, call the [IoFreeMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreemdl) routine. For more information about MDLs, see [Using MDLs](/windows-hardware/drivers/kernel/using-mdls).
+The caller is responsible for freeing the allocated MDL when it is no longer needed. To free the MDL, call the [IoFreeMdl](./nf-wdm-iofreemdl.md) routine. For more information about MDLs, see [Using MDLs](/windows-hardware/drivers/kernel/using-mdls).
 
-The MDL that is created by **MmAllocateMdlForIoSpace** is not mapped to virtual memory, but can be supplied to a routine such as [MapTransferEx](/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex) to initiate a DMA transfer to or from the physical memory ranges described by the MDL. To map this MDL to a contiguous range of virtual addresses so that it can be accessed by the processor, call the [MmMapLockedPagesSpecifyCache](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpagesspecifycache) routine.
+The MDL that is created by **MmAllocateMdlForIoSpace** is not mapped to virtual memory, but can be supplied to a routine such as [MapTransferEx](./nc-wdm-pmap_transfer_ex.md) to initiate a DMA transfer to or from the physical memory ranges described by the MDL. To map this MDL to a contiguous range of virtual addresses so that it can be accessed by the processor, call the [MmMapLockedPagesSpecifyCache](./nf-wdm-mmmaplockedpagesspecifycache.md) routine.
 
 Only ranges of the physical address space that are not reserved by the operating system for use as memory are available to drivers for use as I/O address space. Drivers use I/O address space to access memory-mapped hardware resources such as device registers. When a driver starts, it might receive one or more physical address ranges as translated hardware resources. For more information, see [Mapping Bus-Relative Addresses to Virtual Addresses](/windows-hardware/drivers/kernel/mapping-bus-relative-addresses-to-virtual-addresses).
 
@@ -92,7 +92,7 @@ In some processor architectures, such as the x86, devices can be either memory-m
 
 ### Examples
 
-The following code example shows how to construct an array of [**MM_PHYSICAL_ADDRESS_LIST**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_mm_physical_address_list) structures that describe the physical address ranges to include in the allocated MDL.
+The following code example shows how to construct an array of [**MM_PHYSICAL_ADDRESS_LIST**](./ns-wdm-_mm_physical_address_list.md) structures that describe the physical address ranges to include in the allocated MDL.
 
 ```cpp
 extern ULONG64 BasePhysicalAddress;
@@ -125,12 +125,12 @@ In this example, the starting physical address is specified by the `BasePhysical
 
 ## -see-also
 
-[IoFreeMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreemdl)
+[IoFreeMdl](./nf-wdm-iofreemdl.md)
 
-[**MDL**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl)
+[**MDL**](./ns-wdm-_mdl.md)
 
-[**MM_PHYSICAL_ADDRESS_LIST**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_mm_physical_address_list)
+[**MM_PHYSICAL_ADDRESS_LIST**](./ns-wdm-_mm_physical_address_list.md)
 
-[MapTransferEx](/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex)
+[MapTransferEx](./nc-wdm-pmap_transfer_ex.md)
 
-[MmMapLockedPagesSpecifyCache](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpagesspecifycache)
+[MmMapLockedPagesSpecifyCache](./nf-wdm-mmmaplockedpagesspecifycache.md)

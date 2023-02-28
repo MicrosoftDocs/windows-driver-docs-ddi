@@ -72,7 +72,7 @@ To obtain a process handle that a driver can specify for the *ProcessHandle* par
 
 Drivers must not specify the current process if resources have not been freed from the kernel stack, because the operating system will not unwind the kernel stack for the calling thread.
 
-If the call to this function occurs in user mode, you should use the name "[NtTerminateProcess](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwterminateprocess)" instead of "**ZwTerminateProcess**".
+If the call to this function occurs in user mode, you should use the name "NtTerminateProcess" instead of "**ZwTerminateProcess**".
 
 For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 

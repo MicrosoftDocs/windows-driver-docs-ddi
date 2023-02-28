@@ -47,7 +47,7 @@ The *Unload* routine performs any operations that are necessary before the syste
 
 ### -param DriverObject [in]
 
-Caller-supplied pointer to a [DRIVER_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object) structure. This is the driver's driver object.
+Caller-supplied pointer to a [DRIVER_OBJECT](./ns-wdm-_driver_object.md) structure. This is the driver's driver object.
 
 ## -remarks
 

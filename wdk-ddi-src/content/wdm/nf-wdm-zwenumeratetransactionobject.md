@@ -51,11 +51,11 @@ A handle to a KTM object. The routine enumerates the child objects of the specif
 
 ### -param QueryType [in]
 
-A [KTMOBJECT_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_ktmobject_type)-typed value that identifies the object type to enumerate. For more information about valid values for this parameter, see the table in the following Remarks section.
+A [KTMOBJECT_TYPE](./ne-wdm-_ktmobject_type.md)-typed value that identifies the object type to enumerate. For more information about valid values for this parameter, see the table in the following Remarks section.
 
 ### -param ObjectCursor [in, out]
 
-A pointer to a caller-allocated buffer that begins with a [**KTMOBJECT_CURSOR**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_ktmobject_cursor) structure. **ZwEnumerateTransactionObject** uses the buffer to store the GUIDs of objects that it finds.
+A pointer to a caller-allocated buffer that begins with a [**KTMOBJECT_CURSOR**](./ns-wdm-_ktmobject_cursor.md) structure. **ZwEnumerateTransactionObject** uses the buffer to store the GUIDs of objects that it finds.
 
 ### -param ObjectCursorLength [in]
 
@@ -96,7 +96,7 @@ Before your component calls **ZwEnumerateTransactionObject**, it must allocate a
 
 To enumerate all of the [KTM objects](/windows-hardware/drivers/kernel/ktm-objects) of the specified type, your component must call **ZwEnumerateTransactionObject** repeatedly until it returns STATUS_NO_MORE_ENTRIES.
 
-Every time that the routine is called, it fills the buffer's GUID array with as many object GUIDs that will fit. After each call, your component can use the [KTMOBJECT_CURSOR](/windows-hardware/drivers/ddi/wdm/ns-wdm-_ktmobject_cursor) structure's **ObjectIdCount** member to determine the number of object GUIDs that the routine stored in the array.
+Every time that the routine is called, it fills the buffer's GUID array with as many object GUIDs that will fit. After each call, your component can use the [KTMOBJECT_CURSOR](./ns-wdm-_ktmobject_cursor.md) structure's **ObjectIdCount** member to determine the number of object GUIDs that the routine stored in the array.
 
 **NtEnumerateTransactionObject** and **ZwEnumerateTransactionObject** are two versions of the same Windows Native System Services routine.
 
@@ -140,8 +140,8 @@ if (Status == STATUS_NO_MORE_ENTRIES) {
 
 ## -see-also
 
-[**KTMOBJECT_CURSOR**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_ktmobject_cursor)
+[**KTMOBJECT_CURSOR**](./ns-wdm-_ktmobject_cursor.md)
 
-[KTMOBJECT_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_ktmobject_type)
+[KTMOBJECT_TYPE](./ne-wdm-_ktmobject_type.md)
 
 [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)

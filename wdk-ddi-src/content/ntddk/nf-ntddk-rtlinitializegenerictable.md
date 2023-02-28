@@ -47,7 +47,7 @@ The **RtlInitializeGenericTable** routine initializes a generic table.
 
 ### -param Table [out]
 
-A pointer to a caller-allocated buffer, which must be at least **sizeof**([RTL_GENERIC_TABLE](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table)) bytes in size, to contain the initialized generic table structure.
+A pointer to a caller-allocated buffer, which must be at least **sizeof**([RTL_GENERIC_TABLE](./ns-ntddk-_rtl_generic_table.md)) bytes in size, to contain the initialized generic table structure.
 
 ### -param CompareRoutine [in]
 
@@ -152,24 +152,24 @@ By default, the operating system uses splay trees to implement generic tables. U
 `#define RTL_USE_AVL_TABLES 0`
 ```
 
-If you want to use AVL tables and if RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the [RtlInitializeGenericTableAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl) routine instead of **RtlInitializeGenericTable**. **RtlInitializeGenericTableAvl** returns an initialized [**RTL_AVL_TABLE**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table) table structure in the buffer to which the *Table* parameter points. In the call to **RtlInitializeGenericTableAvl**, the caller must pass a PRTL_AVL_COMPARE_ROUTINE-typed comparison callback routine, a PRTL_AVL_ALLOCATE_ROUTINE-typed allocation callback routine, and a PRTL_AVL_FREE_ROUTINE-typed deallocation callback routine rather than the similar PRTL_GENERIC_*Xxx*-typed routines.
+If you want to use AVL tables and if RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the [RtlInitializeGenericTableAvl](./nf-ntddk-rtlinitializegenerictableavl.md) routine instead of **RtlInitializeGenericTable**. **RtlInitializeGenericTableAvl** returns an initialized [**RTL_AVL_TABLE**](./ns-ntddk-_rtl_avl_table.md) table structure in the buffer to which the *Table* parameter points. In the call to **RtlInitializeGenericTableAvl**, the caller must pass a PRTL_AVL_COMPARE_ROUTINE-typed comparison callback routine, a PRTL_AVL_ALLOCATE_ROUTINE-typed allocation callback routine, and a PRTL_AVL_FREE_ROUTINE-typed deallocation callback routine rather than the similar PRTL_GENERIC_*Xxx*-typed routines.
 
 Callers of **RtlInitializeGenericTable** must be running at IRQL <= DISPATCH_LEVEL. Note that if *Rtl...GenericTable* routines are to be used at IRQL DISPATCH_LEVEL, the *CompareRoutine*, *AllocateRoutine*, and *FreeRoutine* must all be nonpageable code, and the *AllocateRoutine* should allocate memory from nonpaged pool.
 
 ## -see-also
 
-[ExInitializeFastMutex](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex)
+[ExInitializeFastMutex](../wdm/nf-wdm-exinitializefastmutex.md)
 
-[RtlDeleteElementGenericTable](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtldeleteelementgenerictable)
+[RtlDeleteElementGenericTable](./nf-ntddk-rtldeleteelementgenerictable.md)
 
-[RtlEnumerateGenericTable](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictable)
+[RtlEnumerateGenericTable](./nf-ntddk-rtlenumerategenerictable.md)
 
-[RtlEnumerateGenericTableWithoutSplaying](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictablewithoutsplaying)
+[RtlEnumerateGenericTableWithoutSplaying](./nf-ntddk-rtlenumerategenerictablewithoutsplaying.md)
 
-[RtlGetElementGenericTable](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetelementgenerictable)
+[RtlGetElementGenericTable](./nf-ntddk-rtlgetelementgenerictable.md)
 
-[RtlInsertElementGenericTable](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinsertelementgenerictable)
+[RtlInsertElementGenericTable](./nf-ntddk-rtlinsertelementgenerictable.md)
 
-[RtlLookupElementGenericTable](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtllookupelementgenerictable)
+[RtlLookupElementGenericTable](./nf-ntddk-rtllookupelementgenerictable.md)
 
-[RtlNumberGenericTableElements](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlnumbergenerictableelements)
+[RtlNumberGenericTableElements](./nf-ntddk-rtlnumbergenerictableelements.md)

@@ -47,11 +47,11 @@ The *AddDevice* routine is responsible for creating functional device objects (F
 
 ### -param DriverObject [in]
 
-Caller-supplied pointer to a [DRIVER_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object) structure. This is the driver's driver object.
+Caller-supplied pointer to a [DRIVER_OBJECT](./ns-wdm-_driver_object.md) structure. This is the driver's driver object.
 
 ### -param PhysicalDeviceObject [in]
 
-Caller-supplied pointer to a [DEVICE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure representing a physical device object (PDO) created by a lower-level driver.
+Caller-supplied pointer to a [DEVICE_OBJECT](./ns-wdm-_device_object.md) structure representing a physical device object (PDO) created by a lower-level driver.
 
 ## -returns
 
@@ -63,7 +63,7 @@ All kernel-mode drivers that support PnP must provide an *AddDevice* routine.
 
 A driver's *AddDevice* routine should be named *Xxx*AddDevice, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *AddDevice* routine's address in **DriverObject->DriverExtension->AddDevice**.
 
-An *AddDevice* routine's primary responsibilities are calling [IoCreateDevice](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice) to create a device object, then calling [IoAttachDeviceToDeviceStack](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack) to attach the device object to the device stack. For detailed information about implementing a driver's *AddDevice* routine, see [Writing an AddDevice Routine](/windows-hardware/drivers/kernel/writing-an-adddevice-routine).
+An *AddDevice* routine's primary responsibilities are calling [IoCreateDevice](./nf-wdm-iocreatedevice.md) to create a device object, then calling [IoAttachDeviceToDeviceStack](./nf-wdm-ioattachdevicetodevicestack.md) to attach the device object to the device stack. For detailed information about implementing a driver's *AddDevice* routine, see [Writing an AddDevice Routine](/windows-hardware/drivers/kernel/writing-an-adddevice-routine).
 
 An *AddDevice* routine runs in a system thread context at IRQL = PASSIVE_LEVEL.
 

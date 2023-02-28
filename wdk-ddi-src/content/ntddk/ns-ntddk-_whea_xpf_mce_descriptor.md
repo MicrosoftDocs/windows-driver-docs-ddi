@@ -61,7 +61,7 @@ A Boolean value that indicates if the error source is enabled.
 
 ### -field NumberOfBanks
 
-The number of [**WHEA_XPF_MC_BANK_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor) structures contained in the **Banks** member.
+The number of [**WHEA_XPF_MC_BANK_DESCRIPTOR**](./ns-ntddk-_whea_xpf_mc_bank_descriptor.md) structures contained in the **Banks** member.
 
 ### -field Flags
 
@@ -104,14 +104,14 @@ The contents of the processor's IA32_MCG_CTL model-specific register. This regis
 
 ### -field Banks
 
-An array of [**WHEA_XPF_MC_BANK_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor) structures that describe the banks of machine check registers.
+An array of [**WHEA_XPF_MC_BANK_DESCRIPTOR**](./ns-ntddk-_whea_xpf_mc_bank_descriptor.md) structures that describe the banks of machine check registers.
 
 ## -remarks
 
-A WHEA_XPF_MCE_DESCRIPTOR structure is contained within the [**WHEA_ERROR_SOURCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor) structure.
+A WHEA_XPF_MCE_DESCRIPTOR structure is contained within the [**WHEA_ERROR_SOURCE_DESCRIPTOR**](./ns-ntddk-_whea_error_source_descriptor.md) structure.
 
 ## -see-also
 
-[**WHEA_ERROR_SOURCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor)
+[**WHEA_ERROR_SOURCE_DESCRIPTOR**](./ns-ntddk-_whea_error_source_descriptor.md)
 
-[**WHEA_XPF_MC_BANK_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor)
+[**WHEA_XPF_MC_BANK_DESCRIPTOR**](./ns-ntddk-_whea_xpf_mc_bank_descriptor.md)

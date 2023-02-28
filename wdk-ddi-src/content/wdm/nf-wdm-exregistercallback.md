@@ -47,7 +47,7 @@ The **ExRegisterCallback** routine registers a given callback routine with a giv
 
 ### -param CallbackObject [in, out]
 
-A pointer to a callback object obtained from the [ExCreateCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-excreatecallback) routine.
+A pointer to a callback object obtained from the [ExCreateCallback](./nf-wdm-excreatecallback.md) routine.
 
 ### -param CallbackFunction [in]
 
@@ -90,7 +90,7 @@ A driver calls **ExRegisterCallback** to register a callback routine with a spec
 
 If the object allows only one registered callback routine, and such a routine is already registered, **ExRegisterCallback** returns **NULL**.
 
-Callers of **ExRegisterCallback** must save the returned pointer for use later in a call to [ExUnregisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-exunregistercallback). The pointer is required when removing the callback routine from the list of registered callback routines for the callback object.
+Callers of **ExRegisterCallback** must save the returned pointer for use later in a call to [ExUnregisterCallback](./nf-wdm-exunregistercallback.md). The pointer is required when removing the callback routine from the list of registered callback routines for the callback object.
 
 The meanings of *Argument1* and *Argument2* of the registered callback routine depend on the callback object and are defined by the component that created it. The following are the parameters for the [system-defined callback objects](/windows-hardware/drivers/kernel/using-a-system-defined-callback-object):
 
@@ -138,7 +138,7 @@ A value of **TRUE** or **FALSE** that is cast to type PVOID.
 
 #### *Argument1* (ProcessorAdd)
 
-- A pointer to a [**KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_ke_processor_change_notify_context) structure that describes the processor change notification event. This pointer is cast to type PVOID. The callback routine must not modify the contents of this structure.
+- A pointer to a [**KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT**](./ns-wdm-_ke_processor_change_notify_context.md) structure that describes the processor change notification event. This pointer is cast to type PVOID. The callback routine must not modify the contents of this structure.
 
 #### *Argument2* (ProcessorAdd)
 
@@ -146,24 +146,24 @@ A pointer to a variable that contains an NTSTATUS value. This pointer is cast to
 
 - An error occurs during the processing of the callback routine that should prevent the new processor from being added.
 
-- The value of the **State** member of the [**KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_ke_processor_change_notify_context) structure that *Argument1* points to is **KeProcessorAddStartNotify**.
+- The value of the **State** member of the [**KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT**](./ns-wdm-_ke_processor_change_notify_context.md) structure that *Argument1* points to is **KeProcessorAddStartNotify**.
 
 - The NSTATUS variable that *Argument2* points to contains the value STATUS_SUCCESS. That is, the callback routine must not overwrite an error status value that was previously written by another callback notification client.
 
-Starting with Windows Vista, the **\Callback\ProcessorAdd** callback object is available to dynamically track changes in the processor population. The [KeRegisterProcessorChangeCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterprocessorchangecallback) routine provides similar information, but additionally supports a KE_PROCESSOR_CHANGE_ADD_EXISTING flag that a driver can use to enumerate the processors in the initial multiprocessor system configuration. For drivers that run in Windows Server 2008 and later versions of Windows, use **KeRegisterProcessorChangeCallback** instead of the **\Callback\ProcessorAdd** callback object, if possible.
+Starting with Windows Vista, the **\Callback\ProcessorAdd** callback object is available to dynamically track changes in the processor population. The [KeRegisterProcessorChangeCallback](./nf-wdm-keregisterprocessorchangecallback.md) routine provides similar information, but additionally supports a KE_PROCESSOR_CHANGE_ADD_EXISTING flag that a driver can use to enumerate the processors in the initial multiprocessor system configuration. For drivers that run in Windows Server 2008 and later versions of Windows, use **KeRegisterProcessorChangeCallback** instead of the **\Callback\ProcessorAdd** callback object, if possible.
 
 For more information about callback objects, see [Callback Objects](/windows-hardware/drivers/kernel/callback-objects).
 
-The operating system calls registered callback routines at the same IRQL at which the driver that created the callback called the [ExNotifyCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-exnotifycallback) routine.
+The operating system calls registered callback routines at the same IRQL at which the driver that created the callback called the [ExNotifyCallback](./nf-wdm-exnotifycallback.md) routine.
 
 ## -see-also
 
-[ExCreateCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-excreatecallback)
+[ExCreateCallback](./nf-wdm-excreatecallback.md)
 
-[ExNotifyCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-exnotifycallback)
+[ExNotifyCallback](./nf-wdm-exnotifycallback.md)
 
-[ExUnregisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-exunregistercallback)
+[ExUnregisterCallback](./nf-wdm-exunregistercallback.md)
 
-[**KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_ke_processor_change_notify_context)
+[**KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT**](./ns-wdm-_ke_processor_change_notify_context.md)
 
-[KeRegisterProcessorChangeCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterprocessorchangecallback)
+[KeRegisterProcessorChangeCallback](./nf-wdm-keregisterprocessorchangecallback.md)

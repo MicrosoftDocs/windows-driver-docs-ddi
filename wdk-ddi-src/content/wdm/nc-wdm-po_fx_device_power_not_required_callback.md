@@ -47,15 +47,15 @@ The *DevicePowerNotRequiredCallback* callback routine notifies the device driver
 
 ### -param Context [in]
 
-A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the **DeviceContext** member of the [**PO_FX_DEVICE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1) structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
+A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the **DeviceContext** member of the [**PO_FX_DEVICE**](./ns-wdm-_po_fx_device_v1.md) structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
 
 ## -remarks
 
-When PoFx calls the driver's *DevicePowerNotRequiredCallback* routine, the driver must first decide whether to initiate a transition to a low-power Dx state (by sending an [IRP_MN_SET_POWER](/windows-hardware/drivers/kernel/irp-mn-set-power) request down the device stack) or to remain in the D0 state. Next, without waiting for any Dx transition to complete, the driver must call the [PoFxCompleteDevicePowerNotRequired](/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxcompletedevicepowernotrequired) routine to notify PoFx that the driver completed its response to the *DevicePowerNotRequiredCallback* callback. The driver can call **PoFxCompleteDevicePowerNotRequired** before or after the *DevicePowerNotRequiredCallback* routine returns.
+When PoFx calls the driver's *DevicePowerNotRequiredCallback* routine, the driver must first decide whether to initiate a transition to a low-power Dx state (by sending an [IRP_MN_SET_POWER](/windows-hardware/drivers/kernel/irp-mn-set-power) request down the device stack) or to remain in the D0 state. Next, without waiting for any Dx transition to complete, the driver must call the [PoFxCompleteDevicePowerNotRequired](./nf-wdm-pofxcompletedevicepowernotrequired.md) routine to notify PoFx that the driver completed its response to the *DevicePowerNotRequiredCallback* callback. The driver can call **PoFxCompleteDevicePowerNotRequired** before or after the *DevicePowerNotRequiredCallback* routine returns.
 
 When a device is in the D0 state, and the Fx state or active/idle condition of a component in the device changes, PoFx evaluates whether the device can enter a low-power Dx state or must remain in the D0 state. If the device can enter a low-power Dx state, PoFx calls the driver's *DevicePowerNotRequiredCallback* routine.
 
-If the device enters a low-power Dx state in response to a *DevicePowerNotRequiredCallback* callback, but PoFx later determines that the device must enter the D0 state, PoFx calls the driver's [DevicePowerRequiredCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_device_power_required_callback) routine. In response to this call, the device must enter the D0 state.
+If the device enters a low-power Dx state in response to a *DevicePowerNotRequiredCallback* callback, but PoFx later determines that the device must enter the D0 state, PoFx calls the driver's [DevicePowerRequiredCallback](./nc-wdm-po_fx_device_power_required_callback.md) routine. In response to this call, the device must enter the D0 state.
 
 ### Examples
 
@@ -85,12 +85,12 @@ The PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK function type is defined in the Wdm
 
 ## -see-also
 
-[DevicePowerRequiredCallback](/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_device_power_required_callback)
+[DevicePowerRequiredCallback](./nc-wdm-po_fx_device_power_required_callback.md)
 
 [IRP_MN_SET_POWER](/windows-hardware/drivers/kernel/irp-mn-set-power)
 
-[**PO_FX_DEVICE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1)
+[**PO_FX_DEVICE**](./ns-wdm-_po_fx_device_v1.md)
 
-[PoFxCompleteDevicePowerNotRequired](/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxcompletedevicepowernotrequired)
+[PoFxCompleteDevicePowerNotRequired](./nf-wdm-pofxcompletedevicepowernotrequired.md)
 
-[PoFxRegisterDevice](/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice)
+[PoFxRegisterDevice](./nf-wdm-pofxregisterdevice.md)

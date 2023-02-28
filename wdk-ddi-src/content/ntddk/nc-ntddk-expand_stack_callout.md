@@ -47,7 +47,7 @@ The *ExpandedStackCall* routine executes with a guaranteed stack size.
 
 ### -param Parameter [in, optional]
 
-The value passed to the [KeExpandKernelStackAndCallout](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout) routine that executed *ExpandedStackCall*.
+The value passed to the [KeExpandKernelStackAndCallout](./nf-ntddk-keexpandkernelstackandcallout.md) routine that executed *ExpandedStackCall*.
 
 ## -returns
 
@@ -86,4 +86,4 @@ The EXPAND_STACK_CALLOUT function type is defined in the Wdm.h header file. To m
 
 ## -see-also
 
-[KeExpandKernelStackAndCallout](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout)
+[KeExpandKernelStackAndCallout](./nf-ntddk-keexpandkernelstackandcallout.md)

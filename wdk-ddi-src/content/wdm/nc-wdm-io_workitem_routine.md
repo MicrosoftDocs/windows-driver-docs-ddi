@@ -41,21 +41,21 @@ api_name:
 
 ## -description
 
-A *WorkItem* routine performs the processing for a work item that was queued by the [IoQueueWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem) routine.
+A *WorkItem* routine performs the processing for a work item that was queued by the [IoQueueWorkItem](./nf-wdm-ioqueueworkitem.md) routine.
 
 ## -parameters
 
 ### -param DeviceObject [in]
 
-Pointer to one of the caller's device objects. This is the pointer that was passed as the *DeviceObject* parameter to [IoAllocateWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateworkitem) when the work item was allocated, or as the *IoObject* parameter to [IoInitializeWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeworkitem) when the work item was initialized.
+Pointer to one of the caller's device objects. This is the pointer that was passed as the *DeviceObject* parameter to [IoAllocateWorkItem](./nf-wdm-ioallocateworkitem.md) when the work item was allocated, or as the *IoObject* parameter to [IoInitializeWorkItem](./nf-wdm-ioinitializeworkitem.md) when the work item was initialized.
 
 ### -param Context [in, optional]
 
-Specifies driver-specific context information. This is the value that was passed as the *Context* parameter to [IoQueueWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem) when the work item was queued.
+Specifies driver-specific context information. This is the value that was passed as the *Context* parameter to [IoQueueWorkItem](./nf-wdm-ioqueueworkitem.md) when the work item was queued.
 
 ## -remarks
 
-The driver queues a *WorkItem* routine by calling [IoQueueWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem), and a system worker thread subsequently executes the routine. A *WorkItem* routine must run for a limited amount of time; otherwise, the system can deadlock. For more information, see [System Worker Threads](/windows-hardware/drivers/kernel/system-worker-threads).
+The driver queues a *WorkItem* routine by calling [IoQueueWorkItem](./nf-wdm-ioqueueworkitem.md), and a system worker thread subsequently executes the routine. A *WorkItem* routine must run for a limited amount of time; otherwise, the system can deadlock. For more information, see [System Worker Threads](/windows-hardware/drivers/kernel/system-worker-threads).
 
 A *WorkItem* routine runs at IRQL = PASSIVE_LEVEL and in a system thread context.
 
@@ -89,4 +89,4 @@ The IO_WORKITEM_ROUTINE function type is defined in the Wdm.h header file. To mo
 
 [IO_WORKITEM](/windows-hardware/drivers/kernel/eprocess)
 
-[IoQueueWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem)
+[IoQueueWorkItem](./nf-wdm-ioqueueworkitem.md)

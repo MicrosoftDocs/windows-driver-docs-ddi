@@ -47,7 +47,7 @@ The **RtlEnumerateGenericTableLikeADirectory** routine returns the elements of a
 
 ### -param Table [in]
 
-A pointer to the Adelson-Velsky/Landis (AVL) table ([RTL_AVL_TABLE](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table)) that will be enumerated.
+A pointer to the Adelson-Velsky/Landis (AVL) table ([RTL_AVL_TABLE](./ns-ntddk-_rtl_avl_table.md)) that will be enumerated.
 
 ### -param MatchFunction [in, optional]
 
@@ -123,8 +123,8 @@ Callers of **RtlEnumerateGenericTableLikeADirectory** must be running at IRQL <=
 
 ## -see-also
 
-[RtlEnumerateGenericTable](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictable)
+[RtlEnumerateGenericTable](./nf-ntddk-rtlenumerategenerictable.md)
 
-[RtlEnumerateGenericTableWithoutSplaying](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictablewithoutsplaying)
+[RtlEnumerateGenericTableWithoutSplaying](./nf-ntddk-rtlenumerategenerictablewithoutsplaying.md)
 
-[RtlGetElementGenericTable](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetelementgenerictable)
+[RtlGetElementGenericTable](./nf-ntddk-rtlgetelementgenerictable.md)

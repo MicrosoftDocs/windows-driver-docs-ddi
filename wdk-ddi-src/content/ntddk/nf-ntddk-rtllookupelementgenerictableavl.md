@@ -47,11 +47,11 @@ The **RtlLookupElementGenericTableAvl** routine searches a generic table for an 
 
 ### -param Table [in]
 
-Pointer to the generic Adelson-Velsky/Landis (AVL) table ([**RTL_AVL_TABLE**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table)). The table must have been initialized by calling [RtlInitializeGenericTableAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl).
+Pointer to the generic Adelson-Velsky/Landis (AVL) table ([**RTL_AVL_TABLE**](./ns-ntddk-_rtl_avl_table.md)). The table must have been initialized by calling [RtlInitializeGenericTableAvl](./nf-ntddk-rtlinitializegenerictableavl.md).
 
 ### -param Buffer [in]
 
-A buffer of search data to pass to the *CompareRoutine* that was registered when [RtlInitializeGenericTableAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl) initialized the generic table. For more information, see the description of **RtlInitializeGenericTableAvl**.
+A buffer of search data to pass to the *CompareRoutine* that was registered when [RtlInitializeGenericTableAvl](./nf-ntddk-rtlinitializegenerictableavl.md) initialized the generic table. For more information, see the description of **RtlInitializeGenericTableAvl**.
 
 ## -returns
 
@@ -63,7 +63,7 @@ By default, the operating system uses splay trees to implement generic tables, b
 
 `#define RTL_USE_AVL_TABLES 0`
 
-If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the **RtlLookupElementGenericTableAvl** routine instead of [RtlLookupElementGenericTable](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtllookupelementgenerictable). In the call to **RtlLookupElementGenericTableAvl**, the caller must pass a [**RTL_AVL_TABLE**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table) table structure rather than [**RTL_GENERIC_TABLE**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table).
+If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the **RtlLookupElementGenericTableAvl** routine instead of [RtlLookupElementGenericTable](./nf-ntddk-rtllookupelementgenerictable.md). In the call to **RtlLookupElementGenericTableAvl**, the caller must pass a [**RTL_AVL_TABLE**](./ns-ntddk-_rtl_avl_table.md) table structure rather than [**RTL_GENERIC_TABLE**](./ns-ntddk-_rtl_generic_table.md).
 
 Callers of the *Rtl..GenericTableAvl* routines are responsible for exclusively synchronizing access to the generic table. An exclusive fast mutex is the most efficient synchronization mechanism to use for this purpose.
 
@@ -75,8 +75,8 @@ Callers of **RtlLookupElementGenericTableAvl** must be running at IRQL < DISPATC
 
 ## -see-also
 
-[RtlInitializeGenericTableAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl)
+[RtlInitializeGenericTableAvl](./nf-ntddk-rtlinitializegenerictableavl.md)
 
-[RtlIsGenericTableEmptyAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlisgenerictableemptyavl)
+[RtlIsGenericTableEmptyAvl](./nf-ntddk-rtlisgenerictableemptyavl.md)
 
-[RtlNumberGenericTableElementsAvl](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlnumbergenerictableelementsavl)
+[RtlNumberGenericTableElementsAvl](./nf-ntddk-rtlnumbergenerictableelementsavl.md)

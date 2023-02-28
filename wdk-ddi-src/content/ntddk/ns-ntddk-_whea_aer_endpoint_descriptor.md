@@ -69,7 +69,7 @@ The endpoint's bus number.
 
 ### -field Slot
 
-A [**WHEA_PCI_SLOT_NUMBER**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pci_slot_number) structure that describes the logical PCI slot where the endpoint is located in the system.
+A [**WHEA_PCI_SLOT_NUMBER**](./ns-ntddk-_whea_pci_slot_number.md) structure that describes the logical PCI slot where the endpoint is located in the system.
 
 ### -field DeviceControl
 
@@ -134,10 +134,10 @@ The contents of the endpoint's Advanced Error Capabilities and Control register.
 
 ## -remarks
 
-A **WHEA_AER_ENDPOINT_DESCRIPTOR** structure is contained within the [**WHEA_ERROR_SOURCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor) structure.
+A **WHEA_AER_ENDPOINT_DESCRIPTOR** structure is contained within the [**WHEA_ERROR_SOURCE_DESCRIPTOR**](./ns-ntddk-_whea_error_source_descriptor.md) structure.
 
 ## -see-also
 
-[**WHEA_ERROR_SOURCE_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor)
+[**WHEA_ERROR_SOURCE_DESCRIPTOR**](./ns-ntddk-_whea_error_source_descriptor.md)
 
-[**WHEA_PCI_SLOT_NUMBER**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pci_slot_number)
+[**WHEA_PCI_SLOT_NUMBER**](./ns-ntddk-_whea_pci_slot_number.md)

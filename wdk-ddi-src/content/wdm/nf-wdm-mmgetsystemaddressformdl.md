@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The MmGetSystemAddressForMdl routine is obsolete. Use [MmGetSystemAddressForMdlSafe](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmgetsystemaddressformdlsafe) instead.
+The MmGetSystemAddressForMdl routine is obsolete. Use [MmGetSystemAddressForMdlSafe](./nf-wdm-mmgetsystemaddressformdlsafe.md) instead.
 
 **MmGetSystemAddressForMdl** is a macro that returns a nonpaged system-space virtual address for the buffer described by the MDL. It maps the physical pages described by a given MDL into system space, if they are not already mapped to system space.
 
@@ -67,16 +67,16 @@ PVOID MmGetSystemAddressForMdl(
 
 Drivers of PIO devices call this routine to translate a virtual address range, described by the MDL at **Irp->MdlAddress**, for a user buffer to a system-space address range.
 
-The MDL must describe nonpageable memory. In other words, the input MDL must describe an already locked-down user-space buffer returned by [MmProbeAndLockPages](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages), a locked-down buffer returned by [MmBuildMdlForNonPagedPool](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool), or system-space memory allocated from nonpaged pool, contiguous memory, or non-cached memory.
+The MDL must describe nonpageable memory. In other words, the input MDL must describe an already locked-down user-space buffer returned by [MmProbeAndLockPages](./nf-wdm-mmprobeandlockpages.md), a locked-down buffer returned by [MmBuildMdlForNonPagedPool](./nf-wdm-mmbuildmdlfornonpagedpool.md), or system-space memory allocated from nonpaged pool, contiguous memory, or non-cached memory.
 
 The returned base address has the same offset as the virtual address in the MDL.
 
-Window issues a bug check if the attempt to map to system space fails. Therefore, you should use [MmGetSystemAddressForMdlSafe](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmgetsystemaddressformdlsafe) instead).
+Window issues a bug check if the attempt to map to system space fails. Therefore, you should use [MmGetSystemAddressForMdlSafe](./nf-wdm-mmgetsystemaddressformdlsafe.md) instead).
 
 ## -see-also
 
-[MmBuildMdlForNonPagedPool](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool)
+[MmBuildMdlForNonPagedPool](./nf-wdm-mmbuildmdlfornonpagedpool.md)
 
-[MmGetSystemAddressForMdlSafe](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmgetsystemaddressformdlsafe)
+[MmGetSystemAddressForMdlSafe](./nf-wdm-mmgetsystemaddressformdlsafe.md)
 
-[MmProbeAndLockPages](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages)
+[MmProbeAndLockPages](./nf-wdm-mmprobeandlockpages.md)

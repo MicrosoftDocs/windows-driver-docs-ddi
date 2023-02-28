@@ -41,27 +41,27 @@ api_name:
 
 ## -description
 
-A *WorkItemEx* routine performs the processing for a work item that was queued by the [IoQueueWorkItemEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitemex) or [IoTryQueueWorkItem](/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)) routine.
+A *WorkItemEx* routine performs the processing for a work item that was queued by the [IoQueueWorkItemEx](./nf-wdm-ioqueueworkitemex.md) or [IoTryQueueWorkItem](/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)) routine.
 
 ## -parameters
 
 ### -param IoObject [in]
 
-Pointer to the caller's driver object or to one of the caller's device objects. This is the pointer that was passed as the *DeviceObject* parameter to [IoAllocateWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateworkitem) when the work item was allocated, or as the *IoObject* parameter to [IoInitializeWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeworkitem) or [IoTryQueueWorkItem](/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)) when the work item was initialized.
+Pointer to the caller's driver object or to one of the caller's device objects. This is the pointer that was passed as the *DeviceObject* parameter to [IoAllocateWorkItem](./nf-wdm-ioallocateworkitem.md) when the work item was allocated, or as the *IoObject* parameter to [IoInitializeWorkItem](./nf-wdm-ioinitializeworkitem.md) or [IoTryQueueWorkItem](/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)) when the work item was initialized.
 
 ### -param Context [in, optional]
 
-Specifies driver-specific context information. This is the value that was passed as the *Context* parameter to [IoQueueWorkItemEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitemex) or [IoTryQueueWorkItem](/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)) when the work item was queued.
+Specifies driver-specific context information. This is the value that was passed as the *Context* parameter to [IoQueueWorkItemEx](./nf-wdm-ioqueueworkitemex.md) or [IoTryQueueWorkItem](/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)) when the work item was queued.
 
 ### -param IoWorkItem [in]
 
-Pointer to the [IO_WORKITEM](/windows-hardware/drivers/kernel/eprocess) structure for the work item. This is the pointer that was passed as the *IoWorkItem* parameter to [IoQueueWorkItemEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitemex) or [IoTryQueueWorkItem](/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)).
+Pointer to the [IO_WORKITEM](/windows-hardware/drivers/kernel/eprocess) structure for the work item. This is the pointer that was passed as the *IoWorkItem* parameter to [IoQueueWorkItemEx](./nf-wdm-ioqueueworkitemex.md) or [IoTryQueueWorkItem](/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)).
 
 ## -remarks
 
 Drivers can implement *WorkItemEx* routines only on Windows Vista and later versions of Windows.
 
-The driver queues a *WorkItemEx* routine by calling [IoQueueWorkItemEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitemex) or [IoTryQueueWorkItem](/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)), and a system worker thread subsequently executes the routine. For more information, see [System Worker Threads](/windows-hardware/drivers/kernel/system-worker-threads).
+The driver queues a *WorkItemEx* routine by calling [IoQueueWorkItemEx](./nf-wdm-ioqueueworkitemex.md) or [IoTryQueueWorkItem](/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)), and a system worker thread subsequently executes the routine. For more information, see [System Worker Threads](/windows-hardware/drivers/kernel/system-worker-threads).
 
 A *WorkItemEx* routine must run for a limited amount of time; otherwise, the system can deadlock. For more information, see [System Worker Threads](/windows-hardware/drivers/kernel/system-worker-threads).
 
@@ -98,8 +98,8 @@ The IO_WORKITEM_ROUTINE_EX function type is defined in the Wdm.h header file. To
 
 [IO_WORKITEM](/windows-hardware/drivers/kernel/eprocess)
 
-[IoInitializeWorkItem](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeworkitem)
+[IoInitializeWorkItem](./nf-wdm-ioinitializeworkitem.md)
 
-[IoQueueWorkItemEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitemex)
+[IoQueueWorkItemEx](./nf-wdm-ioqueueworkitemex.md)
 
 [IoTryQueueWorkItem](/previous-versions/windows/hardware/drivers/dn683917(v=vs.85))

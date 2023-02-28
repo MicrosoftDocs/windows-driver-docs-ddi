@@ -208,8 +208,8 @@ The task register.
 
 ## -remarks
 
-If the **RegisterContextType** member of a [**WHEA_XPF_CONTEXT_INFO**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_context_info) structure is set to XPF_CONTEXT_INFO_64BITCONTEXT, the **RegisterData** member of that structure contains a **WHEA_X64_REGISTER_STATE** structure.
+If the **RegisterContextType** member of a [**WHEA_XPF_CONTEXT_INFO**](./ns-ntddk-_whea_xpf_context_info.md) structure is set to XPF_CONTEXT_INFO_64BITCONTEXT, the **RegisterData** member of that structure contains a **WHEA_X64_REGISTER_STATE** structure.
 
 ## -see-also
 
-[**WHEA_XPF_CONTEXT_INFO**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_context_info)
+[**WHEA_XPF_CONTEXT_INFO**](./ns-ntddk-_whea_xpf_context_info.md)

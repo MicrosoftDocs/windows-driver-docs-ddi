@@ -41,9 +41,9 @@ api_name:
 
 ## -description
 
-The callback routine performs actions, after an [InterruptService](/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine) returns,  of a threaded DPC,
+The callback routine performs actions, after an [InterruptService](./nc-wdm-kservice_routine.md) returns,  of a threaded DPC,
 
-The *CustomDpc* routine finishes the servicing of an I/O operation, after an [InterruptService](/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine) routine returns.
+The *CustomDpc* routine finishes the servicing of an I/O operation, after an [InterruptService](./nc-wdm-kservice_routine.md) routine returns.
 
 The *CustomThreadedDpc* routine performs the action of a threaded DPC. The system executes this routine when the threaded DPC runs.
 
@@ -57,15 +57,15 @@ Caller-supplied pointer to a [KDPC](/windows-hardware/drivers/kernel/eprocess) s
 
 ### -param DeferredContext [in, optional]
 
-For *CustomDpc*, a caller-supplied pointer to driver-defined context information that was specified in a previous call to [KeInitializeDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc).
+For *CustomDpc*, a caller-supplied pointer to driver-defined context information that was specified in a previous call to [KeInitializeDpc](./nf-wdm-keinitializedpc.md).
 
-For *CustomThreadedDpc*, specifies driver-defined context information. When it initialized the DPC object, the driver supplied this value as the *DeferredContext* parameter to [KeInitializeThreadedDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializethreadeddpc).
+For *CustomThreadedDpc*, specifies driver-defined context information. When it initialized the DPC object, the driver supplied this value as the *DeferredContext* parameter to [KeInitializeThreadedDpc](./nf-wdm-keinitializethreadeddpc.md).
 
 Caller-supplied pointer to a [KDPC](/windows-hardware/drivers/kernel/eprocess) structure, which represents the DPC object associated with this *CustomTimerDpc* routine.
 
 ### -param SystemArgument1 [in, optional]
 
-Caller-supplied pointer to driver-supplied information that was specified in a previous call to [KeInsertQueueDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc). When it added the DPC to the DPC queue, the driver supplied this value as the *SystemArgument1* parameter to **KeInsertQueueDpc**.
+Caller-supplied pointer to driver-supplied information that was specified in a previous call to [KeInsertQueueDpc](./nf-wdm-keinsertqueuedpc.md). When it added the DPC to the DPC queue, the driver supplied this value as the *SystemArgument1* parameter to **KeInsertQueueDpc**.
 
 For *CustomTimerDpc*,  this value is not used.
 
@@ -77,31 +77,31 @@ For *CustomTimerDpc*,  this value is not used.
 
 ## -remarks
 
-To create a DPC object and register a *CustomDpc* routine for that object, a driver must call [KeInitializeDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc). (If you need only one DPC routine, you can use a [DpcForIsr](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_dpc_routine) routine and the system-allocated DPC object.)
+To create a DPC object and register a *CustomDpc* routine for that object, a driver must call [KeInitializeDpc](./nf-wdm-keinitializedpc.md). (If you need only one DPC routine, you can use a [DpcForIsr](./nc-wdm-io_dpc_routine.md) routine and the system-allocated DPC object.)
 
-To queue a *CustomDpc* routine for execution, a driver's [InterruptService](/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine) routine must call **KeInsertQueueDpc**.
+To queue a *CustomDpc* routine for execution, a driver's [InterruptService](./nc-wdm-kservice_routine.md) routine must call **KeInsertQueueDpc**.
 
 One or more *CustomDpc* routines can be used instead of, or in conjunction with, a *DpcForIsr* routine. A driver that maintains several internal IRP queues typically supplies a *CustomDpc* routine for each queue. Each *CustomDpc* routine is typically responsible for at least the following tasks:
 
 - Completing the I/O operation that is described by the current IRP.
 
-- Dequeuing the next IRP from one of the driver's IRP queues. (Drivers that use the system-supplied IRP queue together with a [StartIo](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_startio) routine call [IoStartNextPacket](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartnextpacket).)
+- Dequeuing the next IRP from one of the driver's IRP queues. (Drivers that use the system-supplied IRP queue together with a [StartIo](./nc-wdm-driver_startio.md) routine call [IoStartNextPacket](../ntifs/nf-ntifs-iostartnextpacket.md).)
 
-- Setting the I/O status block in the current IRP and calling [IoCompleteRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest) for the completed request.
+- Setting the I/O status block in the current IRP and calling [IoCompleteRequest](./nf-wdm-iocompleterequest.md) for the completed request.
 
 A *CustomDpc* routine might also retry a failed operation or set up the next transfer for a large I/O request that has been broken into smaller pieces.
 
 For more information about *CustomDpc* routines, see [DPC Objects and DPCs](/windows-hardware/drivers/kernel/dpc-objects-and-dpcs).
 
-A driver registers a *CustomThreadedDpc* for a DPC object by calling [KeInitializeThreadedDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializethreadeddpc). To actually add the DPC to the DPC queue so that the *CustomThreadedDpc* routine will be executed, call [KeInsertQueueDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc).
+A driver registers a *CustomThreadedDpc* for a DPC object by calling [KeInitializeThreadedDpc](./nf-wdm-keinitializethreadeddpc.md). To actually add the DPC to the DPC queue so that the *CustomThreadedDpc* routine will be executed, call [KeInsertQueueDpc](./nf-wdm-keinsertqueuedpc.md).
 
 For more information about using *CustomThreadedDpc* routines, see [Introduction to Threaded DPCs](/windows-hardware/drivers/kernel/introduction-to-threaded-dpcs).
 
 A *CustomThreadedDpc* routine can run at IRQL = DISPATCH_LEVEL, or it can run at IRQL = PASSIVE_LEVEL in a real-time thread.
 
-To create a DPC object and register a *CustomTimerDpc* routine for that object, a driver must call [KeInitializeDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc).
+To create a DPC object and register a *CustomTimerDpc* routine for that object, a driver must call [KeInitializeDpc](./nf-wdm-keinitializedpc.md).
 
-To queue a *CustomTimerDpc* routine for execution, a driver routine must call [KeSetTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimer) or [KeSetTimerEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex), supplying a DPC object pointer returned by **KeInitializeDpc**. The system calls the *CustomTimerDpc* routine when the timer interval expires.
+To queue a *CustomTimerDpc* routine for execution, a driver routine must call [KeSetTimer](./nf-wdm-kesettimer.md) or [KeSetTimerEx](./nf-wdm-kesettimerex.md), supplying a DPC object pointer returned by **KeInitializeDpc**. The system calls the *CustomTimerDpc* routine when the timer interval expires.
 
 For more information about *CustomTimerDpc* routines, see [Timer Objects and DPCs](/windows-hardware/drivers/kernel/timer-objects-and-dpcs).
 
@@ -133,8 +133,8 @@ VOID
 
 ## -see-also
 
-[KeInsertQueueDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc)
+[KeInsertQueueDpc](./nf-wdm-keinsertqueuedpc.md)
 
-[KeSetTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimer)
+[KeSetTimer](./nf-wdm-kesettimer.md)
 
-[KeSetTimerEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex)
+[KeSetTimerEx](./nf-wdm-kesettimerex.md)

@@ -75,19 +75,19 @@ A pointer to the address of an I/O status block in which the to-be-called driver
 
 ## -remarks
 
-Intermediate or highest-level drivers can call **IoBuildAsynchronousFsdRequest** to set up IRPs for requests sent to lower-level drivers. The calling driver must supply an [IoCompletion](/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine) routine for the IRP, so the IRP can be deallocated with [IoFreeIrp](/windows-hardware/drivers/devtest/storport-iofreeirp). For more information about IRP deallocation, see Examples.
+Intermediate or highest-level drivers can call **IoBuildAsynchronousFsdRequest** to set up IRPs for requests sent to lower-level drivers. The calling driver must supply an [IoCompletion](./nc-wdm-io_completion_routine.md) routine for the IRP, so the IRP can be deallocated with [IoFreeIrp](/windows-hardware/drivers/devtest/storport-iofreeirp). For more information about IRP deallocation, see Examples.
 
 The IRP that gets built contains only enough information to get the operation started and to complete the IRP. No other context information is tracked because an asynchronous request is context-independent.
 
 Lower-level drivers might impose restrictions on parameters supplied to this routine. For example, disk drivers might require that values supplied for *Length* and *StartingOffset* be integer multiples of the device's sector size.
 
-An intermediate or highest-level driver also can call [IoBuildDeviceIoControlRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest), [IoAllocateIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp), or [IoBuildSynchronousFsdRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest) to set up requests it sends to lower-level drivers. Only a highest-level driver can call [IoMakeAssociatedIrp](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iomakeassociatedirp).
+An intermediate or highest-level driver also can call [IoBuildDeviceIoControlRequest](./nf-wdm-iobuilddeviceiocontrolrequest.md), [IoAllocateIrp](./nf-wdm-ioallocateirp.md), or [IoBuildSynchronousFsdRequest](./nf-wdm-iobuildsynchronousfsdrequest.md) to set up requests it sends to lower-level drivers. Only a highest-level driver can call [IoMakeAssociatedIrp](../ntddk/nf-ntddk-iomakeassociatedirp.md).
 
-During an **IoBuildAsynchronousFsdRequest** call, the I/O manager sets the **Tail.Overlay.Thread** member of the [IRP](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp) structure to point to the caller's thread object, but does not take a counted reference to the thread object on behalf of the caller. After the caller sends the IRP to the driver for the target device, this driver might use the **Tail.Overlay.Thread** member to access the thread object. For example, a storage driver might call the [IoSetHardErrorOrVerifyDevice](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetharderrororverifydevice) routine and supply a pointer to the IRP as an input parameter. During this call, **IoSetHardErrorOrVerifyDevice** uses the **Tail.Overlay.Thread** member to access the thread object. When the thread object is accessed in this way, the driver that called **IoBuildAsynchronousFsdRequest** to allocate the IRP is responsible for ensuring that the thread object stays valid while the IRP is being handled.
+During an **IoBuildAsynchronousFsdRequest** call, the I/O manager sets the **Tail.Overlay.Thread** member of the [IRP](./ns-wdm-_irp.md) structure to point to the caller's thread object, but does not take a counted reference to the thread object on behalf of the caller. After the caller sends the IRP to the driver for the target device, this driver might use the **Tail.Overlay.Thread** member to access the thread object. For example, a storage driver might call the [IoSetHardErrorOrVerifyDevice](../ntddk/nf-ntddk-iosetharderrororverifydevice.md) routine and supply a pointer to the IRP as an input parameter. During this call, **IoSetHardErrorOrVerifyDevice** uses the **Tail.Overlay.Thread** member to access the thread object. When the thread object is accessed in this way, the driver that called **IoBuildAsynchronousFsdRequest** to allocate the IRP is responsible for ensuring that the thread object stays valid while the IRP is being handled.
 
-To keep the thread object valid, the driver that calls **IoBuildAsynchronousFsdRequest** can take a counted reference on the thread object before sending the IRP. For example, this driver can call the [ObReferenceObjectByPointerWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbypointerwithtag) routine and supply, as the *Object* parameter, the object pointer from the **Tail.Overlay.Thread** member of the **IRP** structure. Later, this driver's completion routine can dereference the object by calling a routine such as [ObDereferenceObjectWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectwithtag).
+To keep the thread object valid, the driver that calls **IoBuildAsynchronousFsdRequest** can take a counted reference on the thread object before sending the IRP. For example, this driver can call the [ObReferenceObjectByPointerWithTag](./nf-wdm-obreferenceobjectbypointerwithtag.md) routine and supply, as the *Object* parameter, the object pointer from the **Tail.Overlay.Thread** member of the **IRP** structure. Later, this driver's completion routine can dereference the object by calling a routine such as [ObDereferenceObjectWithTag](./nf-wdm-obdereferenceobjectwithtag.md).
 
-A driver might call **IoBuildAsynchronousFsdRequest** in one thread, and send the IRP allocated by this call in another thread. Before sending the IRP, this driver should set the **Tail.Overlay.Thread** member of the IRP to point to the thread object for the sending thread. Typically, the driver calls the [PsGetCurrentThread](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentthread) routine to get the thread object pointer.
+A driver might call **IoBuildAsynchronousFsdRequest** in one thread, and send the IRP allocated by this call in another thread. Before sending the IRP, this driver should set the **Tail.Overlay.Thread** member of the IRP to point to the thread object for the sending thread. Typically, the driver calls the [PsGetCurrentThread](../ntddk/nf-ntddk-psgetcurrentthread.md) routine to get the thread object pointer.
 
 A driver that calls **IoBuildAsynchronousFsdRequest** to allocate an IRP does not necessarily need to take a counted reference on the thread object pointed to by the **Tail.Overlay.Thread** member of the IRP. The driver might instead use another technique to guarantee that this thread object remains valid while the IRP is being handled. For example, if the driver created the thread, the thread can wait until the IRP is completed to terminate itself.
 
@@ -101,7 +101,7 @@ Before calling [IoFreeIrp](/windows-hardware/drivers/devtest/storport-iofreeirp)
 
 - The **Irp->MdlAddress** field is non-NULL.
 
-Before freeing the buffer for this IRP, call the [MmUnlockPages](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunlockpages) routine with **Irp->MdlAddress** as the parameter value. This call decrements the extra reference count that **IoBuildAsynchronousFsdRequest** added to the pool pages in the MDL. Otherwise, the subsequent call to [IoFreeMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreemdl) will bug check because the reference count for these pool pages will be 2, not 1. The following code example shows the **MmUnlockPages**, **IoFreeMdl**, and **IoFreeIrp** calls for this case:
+Before freeing the buffer for this IRP, call the [MmUnlockPages](./nf-wdm-mmunlockpages.md) routine with **Irp->MdlAddress** as the parameter value. This call decrements the extra reference count that **IoBuildAsynchronousFsdRequest** added to the pool pages in the MDL. Otherwise, the subsequent call to [IoFreeMdl](./nf-wdm-iofreemdl.md) will bug check because the reference count for these pool pages will be 2, not 1. The following code example shows the **MmUnlockPages**, **IoFreeMdl**, and **IoFreeIrp** calls for this case:
 
 ```cpp
 if (((DeviceObject->Flags & DO_DIRECT_IO) == DO_DIRECT_IO) &&
@@ -116,32 +116,32 @@ IoFreeIrp(Irp);
 
 ## -see-also
 
-[IO_STACK_LOCATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location)
+[IO_STACK_LOCATION](./ns-wdm-_io_stack_location.md)
 
-[IRP](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp)
+[IRP](./ns-wdm-_irp.md)
 
-[IoAllocateIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp)
+[IoAllocateIrp](./nf-wdm-ioallocateirp.md)
 
-[IoBuildDeviceIoControlRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest)
+[IoBuildDeviceIoControlRequest](./nf-wdm-iobuilddeviceiocontrolrequest.md)
 
-[IoBuildSynchronousFsdRequest](/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest)
+[IoBuildSynchronousFsdRequest](./nf-wdm-iobuildsynchronousfsdrequest.md)
 
-[IoCallDriver](/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver)
+[IoCallDriver](./nf-wdm-iocalldriver.md)
 
 [IoFreeIrp](/windows-hardware/drivers/devtest/storport-iofreeirp)
 
-[IoFreeMdl](/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreemdl)
+[IoFreeMdl](./nf-wdm-iofreemdl.md)
 
-[IoMakeAssociatedIrp](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iomakeassociatedirp)
+[IoMakeAssociatedIrp](../ntddk/nf-ntddk-iomakeassociatedirp.md)
 
-[IoSetCompletionRoutine](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine)
+[IoSetCompletionRoutine](./nf-wdm-iosetcompletionroutine.md)
 
-[IoSetHardErrorOrVerifyDevice](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetharderrororverifydevice)
+[IoSetHardErrorOrVerifyDevice](../ntddk/nf-ntddk-iosetharderrororverifydevice.md)
 
-[MmUnlockPages](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunlockpages)
+[MmUnlockPages](./nf-wdm-mmunlockpages.md)
 
-[ObDereferenceObjectWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectwithtag)
+[ObDereferenceObjectWithTag](./nf-wdm-obdereferenceobjectwithtag.md)
 
-[ObReferenceObjectByPointerWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbypointerwithtag)
+[ObReferenceObjectByPointerWithTag](./nf-wdm-obreferenceobjectbypointerwithtag.md)
 
-[PsGetCurrentThread](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentthread)
+[PsGetCurrentThread](../ntddk/nf-ntddk-psgetcurrentthread.md)

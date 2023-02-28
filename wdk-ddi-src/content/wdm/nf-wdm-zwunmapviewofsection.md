@@ -68,7 +68,7 @@ This routine unmaps the entire view of the section that contains *BaseAddress* f
 
 On return from **ZwUnmapViewOfSection**, the virtual-address region occupied by the view is no longer reserved and is available to map other views or private pages. If the view was also the last reference to the underlying section, all committed pages in the section are decommitted, and the section is deleted.
 
-If the call to this function occurs in user mode, you should use the name "[NtUnmapViewOfSection](/windows-hardware/drivers/ddi/wdm/nf-wdm-zwunmapviewofsection)" instead of "**ZwUnmapViewOfSection**".
+If the call to this function occurs in user mode, you should use the name "NtUnmapViewOfSection" instead of "**ZwUnmapViewOfSection**".
 
 For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 

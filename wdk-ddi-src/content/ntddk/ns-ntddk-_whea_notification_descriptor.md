@@ -263,10 +263,10 @@ The window of time, in seconds, in which the number of errors specified by the *
 
 ## -remarks
 
-A **WHEA_NOTIFICATION_DESCRIPTOR** structure is contained within the [**WHEA_GENERIC_ERROR_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error_descriptor) and [WHEA_XPF_CMC_DESCRIPTOR](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cmc_descriptor) structures.
+A **WHEA_NOTIFICATION_DESCRIPTOR** structure is contained within the [**WHEA_GENERIC_ERROR_DESCRIPTOR**](./ns-ntddk-_whea_generic_error_descriptor.md) and [WHEA_XPF_CMC_DESCRIPTOR](./ns-ntddk-_whea_xpf_cmc_descriptor.md) structures.
 
 ## -see-also
 
-[**WHEA_GENERIC_ERROR_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error_descriptor)
+[**WHEA_GENERIC_ERROR_DESCRIPTOR**](./ns-ntddk-_whea_generic_error_descriptor.md)
 
-[**WHEA_XPF_CMC_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cmc_descriptor)
+[**WHEA_XPF_CMC_DESCRIPTOR**](./ns-ntddk-_whea_xpf_cmc_descriptor.md)

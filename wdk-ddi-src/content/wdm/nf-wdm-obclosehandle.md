@@ -70,13 +70,13 @@ After **ObCloseHandle** closes an object's handle, the caller must treat the han
 
 The *PreviousMode* parameter specifies whether the handle to be closed is a kernel handle or a user handle. To close a kernel handle, set *PreviousMode* to **KernelMode**. To close a user handle, set *PreviousMode* to **UserMode**.
 
-A kernel handle is a handle that is opened by a system thread, or by a kernel-mode driver that assigns the OBJ_KERNEL_HANDLE attribute to the handle. (For example, see the description of OBJ_KERNEL_HANDLE in [ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile).) If a kernel-mode driver opens a handle for its private use, and this driver runs in the context of a user-mode thread, the driver must open the handle with the OBJ_KERNEL_HANDLE attribute. This attribute ensures that the handle is inaccessible to user-mode applications.
+A kernel handle is a handle that is opened by a system thread, or by a kernel-mode driver that assigns the OBJ_KERNEL_HANDLE attribute to the handle. (For example, see the description of OBJ_KERNEL_HANDLE in [ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md).) If a kernel-mode driver opens a handle for its private use, and this driver runs in the context of a user-mode thread, the driver must open the handle with the OBJ_KERNEL_HANDLE attribute. This attribute ensures that the handle is inaccessible to user-mode applications.
 
 A user handle is a handle that is opened by a user-mode application, or by a kernel-mode driver that runs in the context of a user-mode thread but that does not open the handle with the OBJ_KERNEL_HANDLE attribute. If a driver creates a user handle to be used by a user-mode application, but an error occurs that requires the driver to close the handle on behalf of the application, the driver can call **ObCloseHandle** to close the handle.
 
-The **ZwClose** routine is similar to **ObCloseHandle** but can close only kernel handles. The call **ZwClose**(*hObject*), which closes kernel handle *hObject*, has the same effect as the call **ObCloseHandle**(*hObject*, **KernelMode**). For more information about closing a kernel handle, see [ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose).
+The **ZwClose** routine is similar to **ObCloseHandle** but can close only kernel handles. The call **ZwClose**(*hObject*), which closes kernel handle *hObject*, has the same effect as the call **ObCloseHandle**(*hObject*, **KernelMode**). For more information about closing a kernel handle, see [ZwClose](../ntifs/nf-ntifs-ntclose.md).
 
-To determine whether a handle is a kernel handle or a user handle,  a driver that receives a handle  can call the [ExGetPreviousMode](/windows-hardware/drivers/ddi/wdm/nf-wdm-exgetpreviousmode) routine. Or, the driver can read the **RequestorMode** field from the [**IRP**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp) structure that describes the I/O request. The I/O manager sets the **RequestorMode** field to the previous processor mode of the thread that requested the I/O operation.
+To determine whether a handle is a kernel handle or a user handle,  a driver that receives a handle  can call the [ExGetPreviousMode](./nf-wdm-exgetpreviousmode.md) routine. Or, the driver can read the **RequestorMode** field from the [**IRP**](./ns-wdm-_irp.md) structure that describes the I/O request. The I/O manager sets the **RequestorMode** field to the previous processor mode of the thread that requested the I/O operation.
 
 Callers of **ObCloseHandle** should not assume that this routine automatically waits for all pending I/O operations to complete before it returns.
 
@@ -97,10 +97,10 @@ NTSTATUS
 
 ## -see-also
 
-[ExGetPreviousMode](/windows-hardware/drivers/ddi/wdm/nf-wdm-exgetpreviousmode)
+[ExGetPreviousMode](./nf-wdm-exgetpreviousmode.md)
 
-[**IRP**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp)
+[**IRP**](./ns-wdm-_irp.md)
 
-[ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
+[ZwClose](../ntifs/nf-ntifs-ntclose.md)
 
-[ZwCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
+[ZwCreateFile](../ntifs/nf-ntifs-ntcreatefile.md)

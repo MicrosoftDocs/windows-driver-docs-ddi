@@ -47,7 +47,7 @@ The **PsCreateSystemThread** routine creates a system thread that executes in ke
 
 ### -param ThreadHandle [out]
 
-Points to a variable that will receive the handle. The driver must close the handle with [ZwClose](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) once the handle is no longer in use. This handle is a kernel handle for Windows Vista and later versions of Windows. In earlier versions of Windows, the handle might not be a kernel handle.
+Points to a variable that will receive the handle. The driver must close the handle with [ZwClose](../ntifs/nf-ntifs-ntclose.md) once the handle is no longer in use. This handle is a kernel handle for Windows Vista and later versions of Windows. In earlier versions of Windows, the handle might not be a kernel handle.
 
 ### -param DesiredAccess [in]
 
@@ -67,7 +67,7 @@ Points to a structure that receives the client identifier of the new thread. Thi
 
 ### -param StartRoutine [in]
 
-The entry point for the newly created system thread. This parameter is a function pointer to a [ThreadStart](/windows-hardware/drivers/ddi/wdm/nc-wdm-kstart_routine) routine that receives a single argument, which is the *StartContext* parameter value supplied by the caller.
+The entry point for the newly created system thread. This parameter is a function pointer to a [ThreadStart](./nc-wdm-kstart_routine.md) routine that receives a single argument, which is the *StartContext* parameter value supplied by the caller.
 
 ### -param StartContext [in, optional]
 
@@ -91,7 +91,7 @@ Driver routines that run in a process context other than that of the system proc
 InitializeObjectAttributes(&ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NULL);
 ```
 
-For more information about the *StartContext* parameter, see [ThreadStart](/windows-hardware/drivers/ddi/wdm/nc-wdm-kstart_routine).
+For more information about the *StartContext* parameter, see [ThreadStart](./nc-wdm-kstart_routine.md).
 
  The newly created system thread runs at PASSIVE_LEVEL inside a critical region with [normal kernel APCs](/windows-hardware/drivers/kernel/types-of-apcs) disabled.
 
@@ -99,12 +99,12 @@ For more information about the *StartContext* parameter, see [ThreadStart](/wind
 
 [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)
 
-[KeSetBasePriorityThread](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesetbaseprioritythread)
+[KeSetBasePriorityThread](../ntddk/nf-ntddk-kesetbaseprioritythread.md)
 
-[KeSetPriorityThread](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetprioritythread)
+[KeSetPriorityThread](./nf-wdm-kesetprioritythread.md)
 
-[PsTerminateSystemThread](/windows-hardware/drivers/ddi/wdm/nf-wdm-psterminatesystemthread)
+[PsTerminateSystemThread](./nf-wdm-psterminatesystemthread.md)
 
-[ThreadStart](/windows-hardware/drivers/ddi/wdm/nc-wdm-kstart_routine)
+[ThreadStart](./nc-wdm-kstart_routine.md)
 
-[ZwSetInformationThread](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwsetinformationthread)
+[ZwSetInformationThread](../ntddk/nf-ntddk-zwsetinformationthread.md)

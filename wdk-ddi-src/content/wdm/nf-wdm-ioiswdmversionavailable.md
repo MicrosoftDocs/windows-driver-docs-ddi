@@ -59,7 +59,7 @@ Specifies the minor version number of WDM that is requested.
 
 ## -remarks
 
-Drivers should use the [RtlIsNtDdiVersionAvailable](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlisntddiversionavailable) routine instead of the **IoIsWdmVersionAvailable** routine.
+Drivers should use the [RtlIsNtDdiVersionAvailable](./nf-wdm-rtlisntddiversionavailable.md) routine instead of the **IoIsWdmVersionAvailable** routine.
 
 Cross-platform drivers should use this routine to check the WDM version before performing any operations that vary by platform or are not supported in all versions of WDM.
 
@@ -112,4 +112,4 @@ As the example shows, calling **IoIsWdmVersionAvailable**(1, 5) returns **TRUE**
 
 ## -see-also
 
-[RtlIsNtDdiVersionAvailable](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlisntddiversionavailable)
+[RtlIsNtDdiVersionAvailable](./nf-wdm-rtlisntddiversionavailable.md)

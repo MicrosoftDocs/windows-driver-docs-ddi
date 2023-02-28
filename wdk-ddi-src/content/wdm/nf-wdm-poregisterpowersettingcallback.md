@@ -47,7 +47,7 @@ The **PoRegisterPowerSettingCallback** routine registers a power-setting callbac
 
 ### -param DeviceObject [in, optional]
 
-A pointer to a [DEVICE_OBJECT](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure that is associated with the caller of this routine. This parameter is optional. It is used internally only for debugging purposes. If this parameter is not supplied, it must be set to **NULL**.
+A pointer to a [DEVICE_OBJECT](./ns-wdm-_device_object.md) structure that is associated with the caller of this routine. This parameter is optional. It is used internally only for debugging purposes. If this parameter is not supplied, it must be set to **NULL**.
 
 ### -param SettingGuid [in]
 
@@ -63,7 +63,7 @@ A pointer to the context for the callback routine. This parameter is optional. I
 
 ### -param Handle [out]
 
-A handle that the power manager uses to represent the callback routine. A driver must subsequently supply this handle in a call to [PoUnregisterPowerSettingCallback](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregisterpowersettingcallback) to unregister the callback routine.
+A handle that the power manager uses to represent the callback routine. A driver must subsequently supply this handle in a call to [PoUnregisterPowerSettingCallback](../ntifs/nf-ntifs-pounregisterpowersettingcallback.md) to unregister the callback routine.
 
 ## -returns
 
@@ -80,9 +80,9 @@ A driver calls **PoRegisterPowerSettingCallback** to register a callback routine
 
 A driver should call **PoRegisterPowerSettingCallback** for each power setting that the driver needs to monitor. Drivers should call this routine in their [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine during initialization. Typically, most drivers pass a pointer to a device extension in the *Context* parameter.
 
-To unregister a power-setting callback, call the [PoUnregisterPowerSettingCallback](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregisterpowersettingcallback) routine.
+To unregister a power-setting callback, call the [PoUnregisterPowerSettingCallback](../ntifs/nf-ntifs-pounregisterpowersettingcallback.md) routine.
 
-Typically, Kernel-Mode Driver Framework (KMDF) drivers should call **PoRegisterPowerSettingCallback** from their [EvtDeviceSelfManagedIoInit](/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init) callback function, and should call **PoUnregisterPowerSettingCallback** from their [EvtDeviceSelfManagedIoCleanup](/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup) callback function. These drivers should not call **PoRegisterPowerSettingCallback** from their [EvtDriverDeviceAdd](/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add) callback function; otherwise, the power-setting callback routine might be called before the driver stack is completely built.
+Typically, Kernel-Mode Driver Framework (KMDF) drivers should call **PoRegisterPowerSettingCallback** from their [EvtDeviceSelfManagedIoInit](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init.md) callback function, and should call **PoUnregisterPowerSettingCallback** from their [EvtDeviceSelfManagedIoCleanup](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md) callback function. These drivers should not call **PoRegisterPowerSettingCallback** from their [EvtDriverDeviceAdd](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback function; otherwise, the power-setting callback routine might be called before the driver stack is completely built.
 
 The callback routine that is registered for a particular power setting is called when a transition in power state occurs that changes the value of the setting, or when the power manager changes the value of the setting. For example, if *SettingGuid* points to the GUID value GUID_LIDSWITCH_STATE_CHANGE, the callback routine is called when the lid to a laptop computer clicks open or closed. The *Value* parameter passed to the callback routine in this example points to a ULONG value that is 1 if the state of the lid switch changed from closed to open, and is 0 if the state of the lid switch changed from open to closed. For more information, see the power-setting GUID definitions and extensive comments in the Wdm.h header file.
 
@@ -152,10 +152,10 @@ The POWER_SETTING_CALLBACK function type is defined in the Wdm.h header file. To
 
 [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver)
 
-[EvtDeviceSelfManagedIoCleanup](/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup)
+[EvtDeviceSelfManagedIoCleanup](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md)
 
-[EvtDeviceSelfManagedIoInit](/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init)
+[EvtDeviceSelfManagedIoInit](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init.md)
 
-[EvtDriverDeviceAdd](/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add)
+[EvtDriverDeviceAdd](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
 
-[PoUnregisterPowerSettingCallback](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregisterpowersettingcallback)
+[PoUnregisterPowerSettingCallback](../ntifs/nf-ntifs-pounregisterpowersettingcallback.md)

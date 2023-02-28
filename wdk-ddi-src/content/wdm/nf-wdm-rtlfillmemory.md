@@ -76,4 +76,4 @@ Callers of **RtlFillMemory** can be running at any IRQL if the destination memor
 
 ## -see-also
 
-[RtlZeroMemory](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlzeromemory)
+[RtlZeroMemory](./nf-wdm-rtlzeromemory.md)

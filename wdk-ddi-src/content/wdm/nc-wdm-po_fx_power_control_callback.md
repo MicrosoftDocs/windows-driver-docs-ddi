@@ -81,9 +81,9 @@ PoFx calls this routine to send a power control request directly to the device d
 
 This routine is optional. A device driver that does not support power control operations is not required to implement a *PowerControlCallback* routine.
 
-The device driver can call the [PoFxPowerControl](/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxpowercontrol) routine to send a power control request to PoFx.
+The device driver can call the [PoFxPowerControl](./nf-wdm-pofxpowercontrol.md) routine to send a power control request to PoFx.
 
-For more information about power control requests, see [PoFxPowerControl](/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxpowercontrol).
+For more information about power control requests, see [PoFxPowerControl](./nf-wdm-pofxpowercontrol.md).
 
 ### Examples
 
@@ -118,6 +118,6 @@ The PO_FX_POWER_CONTROL_CALLBACK function type is defined in the Wdm.h header fi
 
 ## -see-also
 
-[**PO_FX_DEVICE**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1)
+[**PO_FX_DEVICE**](./ns-wdm-_po_fx_device_v1.md)
 
-[PoFxPowerControl](/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxpowercontrol)
+[PoFxPowerControl](./nf-wdm-pofxpowercontrol.md)
