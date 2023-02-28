@@ -109,7 +109,7 @@ Then, implement your callback function as follows:
 ```
 _Use_decl_annotations_
 NTSTATUS
-  MyEvtGpioPrepareControllerr(
+  MyEvtGpioPrepareController(
     WDFDEVICE Device,
     PVOID Context,
     WDFCMRESLIST ResourcesRaw,
