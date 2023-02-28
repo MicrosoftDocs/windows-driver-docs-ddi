@@ -46,7 +46,7 @@ api_name:
 
 The **HidD_SetOutputReport** routine sends an output report to a [top-level collection](/windows-hardware/drivers/hid/top-level-collections).
 
-Only use this routine to set the current state of a collection. Some devices might not support **HidD_SetOutputReport** and will become unresponsive if this routine is used. For more information, see [Sending HID Reports by User-Mode Applications](/windows-hardware/drivers/hid/sending-hid-reports#sending-hid-reports-by-user-mode-applications).
+Only use this routine to set the current state of a collection. Some devices might not support this routine and will become unresponsive if this routine is used. For more information, see [Sending HID Reports by User-Mode Applications](/windows-hardware/drivers/hid/sending-hid-reports#sending-hid-reports-by-user-mode-applications).
 
 ## -parameters
 
