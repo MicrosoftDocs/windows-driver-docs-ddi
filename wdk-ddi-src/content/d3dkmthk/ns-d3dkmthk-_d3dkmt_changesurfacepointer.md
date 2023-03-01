@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHANGESURFACEPOINTER
-title: _D3DKMT_CHANGESURFACEPOINTER (d3dkmthk.h)
+title: D3DKMT_CHANGESURFACEPOINTER (d3dkmthk.h)
 description: Used to change the surface pointer.
-ms.date: 10/19/2018
+ms.date: 02/28/2023
 keywords: ["D3DKMT_CHANGESURFACEPOINTER structure"]
 ms.keywords: _D3DKMT_CHANGESURFACEPOINTER, D3DKMT_CHANGESURFACEPOINTER,
 req.header: d3dkmthk.h
@@ -39,8 +39,7 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_CHANGESURFACEPOINTER structure
-
+# D3DKMT_CHANGESURFACEPOINTER structure
 
 ## -description
 
@@ -48,21 +47,20 @@ Used to change the surface pointer.
 
 ## -struct-fields
 
-### -field hDC
+### -field unnamedParam1
 
-Device context handle.
+The device context handle.
 
-### -field hBitmap
+### -field unnamedParam2
 
-Bitmap handle.
+The bitmap handle.
 
-### -field pSurfacePointer
+### -field unnamedParam3
 
 The new surface pointer.
 
 ### -field Width
 
- 
 Memory width.
 
 ### -field Height
@@ -76,4 +74,3 @@ Memory pitch.
 ## -remarks
 
 ## -see-also
-

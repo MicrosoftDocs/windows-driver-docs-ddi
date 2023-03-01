@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The **IoQueryFileInformation** routine is reserved for system use. See [**ZwQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md).
+The **IoQueryFileInformation** routine is reserved for system use. See [**ZwQueryInformationFile**](../wdm/nf-wdm-zwqueryinformationfile.md).
 
 ## -parameters
 

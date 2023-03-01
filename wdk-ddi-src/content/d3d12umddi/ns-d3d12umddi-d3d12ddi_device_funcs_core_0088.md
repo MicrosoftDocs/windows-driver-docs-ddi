@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_CORE_0088
 tech.root: display
 title: D3D12DDI_DEVICE_FUNCS_CORE_0088
-ms.date: 09/29/2022 
+ms.date: 02/24/2023
 targetos: Windows
 description: Learn more about the D3D12DDI_DEVICE_FUNCS_CORE_0088 structure.
 prerelease: false
@@ -44,6 +44,102 @@ The **D3D12DDI_DEVICE_FUNCS_CORE_0088** structure contains the core device funct
 
 ## -struct-fields
 
+### -field pfnCheckFormatSupport
+
+Check format support.
+
+### -field pfnCheckMultisampleQualityLevels
+
+Check multi sample quality levels.
+
+### -field pfnGetMipPacking
+
+Get MIP packing.
+
+### -field pfnCalcPrivateElementLayoutSize
+
+Calculate private element layout size.
+
+### -field pfnCreateElementLayout
+
+Create element layout.
+
+### -field pfnDestroyElementLayout
+
+Destroy element layout.
+
+### -field pfnCalcPrivateBlendStateSize
+
+Calculate private blend state size.
+
+### -field pfnCreateBlendState
+
+Create blend state.
+
+### -field pfnDestroyBlendState
+
+Destroy blend state.
+
+### -field pfnCalcPrivateDepthStencilStateSize
+
+Calculate private depth stencil state size.
+
+### -field pfnCreateDepthStencilState
+
+Create depth stencil state.
+
+### -field pfnDestroyDepthStencilState
+
+Destroy depth stencil state.
+
+### -field pfnCalcPrivateRasterizerStateSize
+
+Calculate private rasterizer state size.
+
+### -field pfnCreateRasterizerState
+
+Create rasterizer state.
+
+### -field pfnDestroyRasterizerState
+
+Destroy rasterizer state.
+
+### -field pfnCalcPrivateShaderSize
+
+Calculate private shader size.
+
+### -field pfnCreateVertexShader
+
+Create vertex shader.
+
+### -field pfnCreatePixelShader
+
+Create pixel shader.
+
+### -field pfnCreateGeometryShader
+
+Create geometry shader.
+
+### -field pfnCreateComputeShader
+
+Create compute shader.
+
+### -field pfnCalcPrivateGeometryShaderWithStreamOutput
+
+Calculate private geometry shader with stream output.
+
+### -field pfnCreateGeometryShaderWithStreamOutput
+
+Create geometry shader with stream output.
+
+### -field pfnCalcPrivateTessellationShaderSize
+
+Calculate private tessellation shader size.
+
+### -field pfnCreateHullShader
+
+Create hull shader.
+
 ### -field pfnCreateDomainShader
 
 Pointer to the function to create a domain shader.
@@ -76,7 +172,7 @@ Pointer to the function to create a command pool.
 
 Pointer to the function to destroy a command pool.
 
-### -field pfnPointer to the function to reset CommandPool
+### -field pfnResetCommandPool
 
 Pointer to the function to reset a command pool.
 

@@ -58,7 +58,7 @@ Structure to hold information to modify [**SetTiming**](ns-d3dkmddi-_dxgkarg_set
 
 The identifier of a display adapter's video present target.
 
-### OutputColorSpace
+### -field OutputColorSpace
 
 A [**D3DDDI_COLOR_SPACE_TYPE**](../d3dukmdt/ne-d3dukmdt-d3dddi_color_space_type.md) value which describes the output color space intended for the transported pixels.  The driver is responsible for sending appropriate metadata to ensure the display device is set up to interpret pixels correctly for this color space.
 
@@ -72,7 +72,7 @@ Given that there are no plans to support ST.2084 gamma with Rec.709 primaries, o
 * D3DDDI_COLOR_SPACE_RGB_FULL_G22_NONE_P709, for SDR
 * D3DDDI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020, for HDR10
 
-### OutputWireColorSpace
+### -field OutputWireColorSpace
 
 The D3DDDI_COLOR_SPACE_TYPE enum type is also used by OS to specify the input color space of MPOs, hence it is deprecated starting in WDDM 2.3. WDDM 2.3 and later drivers should use the new type D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE.
 
@@ -80,59 +80,59 @@ The D3DDDI_COLOR_SPACE_TYPE enum type is also used by OS to specify the input co
 
 A [**D3DKMDT_WIRE_FORMAT_AND_PREFERENCE**](../d3dkmdt/ns-d3dkmdt-_d3dkmdt_wire_format_and_preference.md) value which indicates the wire format to be set for the path. The Preference field is reserved in this context so should be ignored by the driver.  In the remaining five bit-fields, the OS will set one of the thirty bits to indicate which color encoding and at which bit depth the link should be driven.
 
-### Input
+### -field Input
 
-### Input.VidPnPathUpdates
+### -field Input.VidPnPathUpdates
 
 Describes how the VidPn elements corresponding to this path have been changed since the previous successful call.
 
 Fields in the DXGK_SET_TIMING_PATH_INFO structure are excluded from this summary so the driver always needs to evaluate these fields for any changes.
 For example, if the OS calls SetTimings to idle the monitor on a path, the Active flag would be cleared and the VidPnPathUpdates will be set to DXGK_PATH_UPDATE_UNMODIFIED, if it then calls SetTimings to power up the monitor, the Active flag would be set and the VidPnPathUpdates will still be set to DXGK_PATH_UPDATE_UNMODIFIED.
 
-### Input.Active
+### -field Input.Active
 
 If set, indicates that the path should be activated or remain active.
 If clear, indicates that the path should be deactivated or remain inactive.
 
-### Input.IgnoreConnectivity
+### -field Input.IgnoreConnectivity
 
 If set, indicates that the driver should force output to the target even though no display device has been detected.
 If clear, the driver should report an updated ConnectionStatus if the connectivity has changed.
 
-### Input.PreserveInherited
+### -field Input.PreserveInherited
 
 If set, indicates that the driver should preserve the timings and content which were configured by a previous driver.  This flag is only used when the adapter was configured by something other than the current instance of the driver.  Initially, this will be used when the path was initialized by firmware during boot.
 If clear, no special behavior is requested.
 
-### Input.SyncLockGroup
+### -field Input.SyncLockGroup
 
 Sync lock group input. Available starting in WDDM 2.4.
 Indicates which group of synchronized displays each path belongs to. Since WDDM 2.4 - WDDM 2.6 only support a single sync group per adapter and always enables synchronization when possible, this value is set to 1 when sync-able displays are enabled, and 0 when the display is not required to be synchronized and should always be paired with *SyncLockStyle* of value DXGK_SYNC_LOCK_STYLE_NONE.
 
-### Input.SyncLockStyle
+### -field Input.SyncLockStyle
 
 Sync lock style input. Available starting in WDDM 2.4.
 Indicates what style of synchronization the OS is requesting. For a WDDM 2.4 - WDDM 2.6 driver, this value is set to [DXGK_SYNC_LOCK_STYLE_IDENTICAL](ne-d3dkmddi-_dxgk_sync_lock_style.md) if sync-able displays are enabled and DXGK_SYNC_LOCK_STYLE_NONE otherwise.
 
-### Input.Reserved
+### -field Input.Reserved
 
 This value is reserved for system use.
 
-### InputFlags
+### -field InputFlags
 
 A set of flags specifying what the OS wants the driver to do.
 
-### Output
+### -field Output
 
-### Output.RecheckMPO
+### -field Output.RecheckMPO
 
 If set, indicates that the OS needs to issue a CheckMPO due to changes on this path.
 
-### Output.Reserved
+### -field Output.Reserved
 
 This value is reserved for system use.
 
-### Output.OutputFlags
+### -field Output.OutputFlags
 
 A set of flags specifying outcomes the OS needs to be aware of relating to this path.
 
@@ -144,23 +144,23 @@ If the target state is unchanged, this field should contain a copy of the last s
 
 If the target state is changed, this field should contain a copy of the queued, connection change which reflects the state resulting from the SetTiming call.
 
-### GlitchCause
+### -field GlitchCause
 
 A DXGK_GLITCH_CAUSE value which indicates which underlying change(s) in the display pipeline caused the glitch.
 
-### GlitchEffect
+### -field GlitchEffect
 
 A DXGK_GLITCH_EFFECT value which indicates how the glitch was presented to the user.
 
-### GlitchDuration
+### -field GlitchDuration
 
 A DXGK_GLITCH_DURATION value which indicates approximately how long the glitch lasted. This is intended to reflect how long the underlying issue was present, but the visible effect may be longer in some cases.  For example, when sync is lost long enough for a monitor to have to re-detect, the display device will likely take many frames to recover.  It is the length of the underlying issue which should be reported, not the recovery time as that will vary between devices.
 
-### Reserved
+### -field Reserved
 
 This value is reserved for system use.
 
-### DiagnosticInfo
+### -field DiagnosticInfo
 
 Set of information filled out by the driver for each path to describe any side-effects of the timing change.
 In many cases, glitches are inevitable so these fields attempt to understand the underlying cause and the extent of user impact.

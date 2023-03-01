@@ -1,9 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATECONTEXTVIRTUAL
-title: _D3DKMT_CREATECONTEXTVIRTUAL (d3dkmthk.h)
+title: D3DKMT_CREATECONTEXTVIRTUAL (d3dkmthk.h)
 description: D3DKMT_CREATECONTEXTVIRTUAL is used with D3DKMTCreateContextVirtual to create a kernel mode device context that supports virtual addressing.
 old-location: display\d3dkmt_createcontextvirtual.htm
-ms.date: 05/10/2018
+ms.date: 02/28/2023
 keywords: ["D3DKMT_CREATECONTEXTVIRTUAL structure"]
 ms.keywords: D3DKMT_CREATECONTEXTVIRTUAL, D3DKMT_CREATECONTEXTVIRTUAL structure [Display Devices], _D3DKMT_CREATECONTEXTVIRTUAL, d3dkmthk/D3DKMT_CREATECONTEXTVIRTUAL, display.d3dkmt_createcontextvirtual
 req.header: d3dkmthk.h
@@ -43,18 +43,17 @@ api_name:
  - D3DKMT_CREATECONTEXTVIRTUAL
 ---
 
-# _D3DKMT_CREATECONTEXTVIRTUAL structure
-
+# D3DKMT_CREATECONTEXTVIRTUAL structure
 
 ## -description
 
-<b>D3DKMT_CREATECONTEXTVIRTUAL</b> is used with <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontextvirtual">D3DKMTCreateContextVirtual</a> to create a kernel mode device context that supports virtual addressing.
+**D3DKMT_CREATECONTEXTVIRTUAL** is used with [**D3DKMTCreateContextVirtual**](nf-d3dkmthk-d3dkmtcreatecontextvirtual.md) to create a kernel-mode device context that supports virtual addressing.
 
 ## -struct-fields
 
 ### -field hDevice [in]
 
-A handle to the device.
+A handle to the device that owns the context being created.
 
 ### -field NodeOrdinal [in]
 
@@ -62,19 +61,19 @@ The zero-based index for the node that the context is scheduled on.
 
 ### -field EngineAffinity [in]
 
-The zero-based index for the engine, within the node that <b>NodeOrdinal</b> specifies, that the context can run in.
+The zero-based index for the engine, within the node that **NodeOrdinal** specifies, that the context can run in.
 
 ### -field Flags [in]
 
-A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags">D3DDDI_CREATECONTEXTFLAGS</a> structure that indicates, in bit-field flags, how to create the context.
+A [**D3DDDI_CREATECONTEXTFLAGS**](../d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags.md) structure that indicates, in bit-field flags, how to create the context.
 
-### -field pPrivateDriverData [in]
+### -field unnamedParam1 [in]
 
 A pointer to private data that is passed to a display miniport driver.
 
 ### -field PrivateDriverDataSize [in]
 
-The size, in bytes, of the private data that <b>pPrivateDriverData</b> points to.
+The size, in bytes, of the private data that **pPrivateDriverData** points to.
 
 ### -field ClientHint [in]
 
@@ -82,13 +81,10 @@ A hint describing which graphics subsystem is creating the context.
 
 ### -field hContext [out]
 
-A handle to the context that the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontextvirtual">D3DKMTCreateContextVirtual</a> function creates.
+A handle to the created device context.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags">D3DDDI_CREATECONTEXTFLAGS</a>
+[**D3DDDI_CREATECONTEXTFLAGS**](../d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontextvirtual">D3DKMTCreateContextVirtual</a>
-
+[**D3DKMTCreateContextVirtual**](nf-d3dkmthk-d3dkmtcreatecontextvirtual.md)

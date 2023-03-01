@@ -1,8 +1,8 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_CLIENTHINT
-title: _D3DKMT_CLIENTHINT (d3dkmthk.h)
+title: D3DKMT_CLIENTHINT (d3dkmthk.h)
 description: Client hints.
-ms.date: 03/08/2022
+ms.date: 02/28/2023
 keywords: ["D3DKMT_CLIENTHINT enumeration"]
 ms.keywords: _D3DKMT_CLIENTHINT, D3DKMT_CLIENTHINT,
 req.header: d3dkmthk.h
@@ -36,99 +36,101 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_CLIENTHINT enumeration
+# D3DKMT_CLIENTHINT enumeration
 
 ## -description
 
-Hints which client is creating a device context.
+D3DKMT_CLIENTHINT hints at which client is [creating a device context]((ns-d3dkmthk-_d3dkmt_createcontext.md)).
 
 ## -enum-fields
 
-### -field D3DKMT_CLIENTHINT_UNKNOWN
+### -field D3DKMT_CLIENTHINT_UNKNOWN:0
 
-Unknown
+The client is unknown.
 
-### -field D3DKMT_CLIENTHINT_OPENGL
+### -field D3DKMT_CLIENTHINT_OPENGL:1
 
-OpenGL
+The client is the OpenGL runtime.
 
-### -field D3DKMT_CLIENTHINT_CDD
+### -field D3DKMT_CLIENTHINT_CDD:2
 
-CDD (Canonical Display Driver)
+CDD (Canonical Display Driver). This value is reserved for internal use.
 
-### -field D3DKMT_CLIENTHINT_OPENCL
+### -field D3DKMT_CLIENTHINT_OPENCL:3
 
-OpenCL
+The client is OpenCL (Open Computing Language).
 
-### -field D3DKMT_CLIENTHINT_VULKAN
+### -field D3DKMT_CLIENTHINT_VULKAN:4
 
-Vulkan
+The client is Vulkan.
 
-### -field D3DKMT_CLIENTHINT_CUDA
+### -field D3DKMT_CLIENTHINT_CUDA:5
 
-Cuda
+The client is CUDA (Compute Unified Device Architecture).
 
-### -field D3DKMT_CLIENTHINT_RESERVED
+### -field D3DKMT_CLIENTHINT_RESERVED:6
 
-Reserved
+Reserved.
 
-### -field D3DKMT_CLIENTHINT_DX7
+### -field D3DKMT_CLIENTHINT_DX7:7
 
-DirectX 7
+The client is the DirectX 7.0 runtime.
 
-### -field D3DKMT_CLIENTHINT_DX8
+### -field D3DKMT_CLIENTHINT_DX8:8
 
-DirectX 8
+The client is the DirectX 8.0 runtime.
 
-### -field D3DKMT_CLIENTHINT_DX9
+### -field D3DKMT_CLIENTHINT_DX9:9
 
-DirectX 9
+The client is the DirectX 9.0 runtime.
 
-### -field D3DKMT_CLIENTHINT_DX10
+### -field D3DKMT_CLIENTHINT_DX10:10
 
-DirectX 10
+The client is the DirectX 10.0 runtime.
 
-### -field D3DKMT_CLIENTHINT_DX11
+### -field D3DKMT_CLIENTHINT_DX11:11
 
-DirectX 11
+The client is the DirectX 11.0 runtime.
 
-### -field D3DKMT_CLIENTHINT_DX12
+### -field D3DKMT_CLIENTHINT_DX12:12
 
-DirectX 12
+The client is the DirectX 12.0 runtime.
 
-### -field D3DKMT_CLIENTHINT_9ON12
+### -field D3DKMT_CLIENTHINT_9ON12:13
 
-DirectX 9 on DirectX 12
+The client is the D3D9On12 mapping layer (DirectX 9 on DirectX 12).
 
-### -field D3DKMT_CLIENTHINT_11ON12
+### -field D3DKMT_CLIENTHINT_11ON12:14
 
-DirectX 11 on DirectX 12
+The client is the D3D11On12 mapping layer (DirectX 11 on DirectX 12).
 
-### -field D3DKMT_CLIENTHINT_MFT_ENCODE
+### -field D3DKMT_CLIENTHINT_MFT_ENCODE:15
 
-Media Foundation transform (MFT) encode
+The client is a Media Foundation Transform (MFT).
 
-### -field D3DKMT_CLIENTHINT_GLON12
+### -field D3DKMT_CLIENTHINT_GLON12:16
 
-OpenGL on DirectX 12
+The client is an OpenGL on DirectX 12 mapping layer.
 
-### -field D3DKMT_CLIENTHINT_CLON12
+### -field D3DKMT_CLIENTHINT_CLON12:17
 
-OpenCL on DirectX 12
+The client is an OpenCL on DirectX 12 mapping layer.
 
-### -field D3DKMT_CLIENTHINT_DML_TENSORFLOW
+### -field D3DKMT_CLIENTHINT_DML_TENSORFLOW:18
 
-Tensor Flow
+The client is TensorFlow.
 
-### -field D3DKMT_CLIENTHINT_ONEAPI_LEVEL0
+### -field D3DKMT_CLIENTHINT_ONEAPI_LEVEL0:19
 
-oneAPI Level Zero
+The client is oneAPI Level Zero.
+
+### -field D3DKMT_CLIENTHINT_DML_PYTORCH:20
+
+The client is PyTorch.
 
 ### -field D3DKMT_CLIENTHINT_MAX
 
-Reserved for internal validation
-
-## -remarks
+Maximum enumeration value.
 
 ## -see-also
 
