@@ -2,7 +2,7 @@
 UID: NS:wdm.NOTIFY_USER_POWER_SETTING
 tech.root: kernel
 title: NOTIFY_USER_POWER_SETTING (wdm.h)
-ms.date: 03/11/2022
+ms.date: 03/01/2023
 targetos: Windows
 description: This topic describes the NOTIFY_USER_POWER_SETTING structure.
 prerelease: false
@@ -38,7 +38,7 @@ f1_keywords:
 dev_langs:
  - c++
 helpviewer_keywords:
- - __unnamed_struct_1
+ - NOTIFY_USER_POWER_SETTING
 ---
 
 ## -description
@@ -54,4 +54,3 @@ Defines the **GUID** member **Guid**.
 ## -remarks
 
 ## -see-also
-

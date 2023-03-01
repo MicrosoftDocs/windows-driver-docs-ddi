@@ -2,7 +2,7 @@
 UID: NS:wdm.SET_POWER_SETTING_VALUE
 tech.root: kernel
 title: SET_POWER_SETTING_VALUE (wdm.h)
-ms.date: 03/11/2022
+ms.date: 03/01/2023
 targetos: Windows
 description: This topic describes the SET_POWER_SETTING_VALUE structure.
 prerelease: false
@@ -38,7 +38,7 @@ f1_keywords:
 dev_langs:
  - c++
 helpviewer_keywords:
- - __unnamed_struct_0
+ - SET_POWER_SETTING_VALUE
 ---
 
 ## -description
@@ -70,4 +70,3 @@ Contains the setting value.
 ## -remarks
 
 ## -see-also
-

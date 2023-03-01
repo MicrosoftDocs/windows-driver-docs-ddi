@@ -2,7 +2,7 @@
 UID: NE:wdm.POWER_INFORMATION_LEVEL
 tech.root: kernel
 title: POWER_INFORMATION_LEVEL (wdm.h)
-ms.date: 03/02/2022
+ms.date: 03/01/2023
 targetos: Windows
 description: POWER_INFORMATION_LEVEL enumerates power level information indicators.
 prerelease: false
@@ -31,7 +31,7 @@ f1_keywords:
 dev_langs:
  - c++
 helpviewer_keywords:
- - __unnamed_enum_2
+ - POWER_INFORMATION_LEVEL
 ---
 
 ## -description
@@ -439,4 +439,3 @@ Indicates the maximum power level.
 ## -remarks
 
 ## -see-also
-

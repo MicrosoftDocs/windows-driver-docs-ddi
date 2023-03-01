@@ -2,7 +2,7 @@
 UID: NE:ksmedia.KSPROPERTY_AUDIORESOURCEMANAGEMENT
 tech.root: stream
 title: KSPROPERTY_AUDIORESOURCEMANAGEMENT (ksmedia.h)
-ms.date: 07/07/2022
+ms.date: 03/01/2023
 targetos: Windows
 description: Describes the KSPROPERTY_AUDIORESOURCEMANAGEMENT enumeration.
 prerelease: false
@@ -31,7 +31,7 @@ f1_keywords:
 dev_langs:
  - c++
 helpviewer_keywords:
- - __unnamed_enum_133
+ - KSPROPERTY_AUDIORESOURCEMANAGEMENT
 ---
 
 ## -description
@@ -47,4 +47,3 @@ Defines the **KSPROPERTY_AUDIORESOURCEMANAGEMENT_RESOURCEGROUP** constant.
 ## -remarks
 
 ## -see-also
-

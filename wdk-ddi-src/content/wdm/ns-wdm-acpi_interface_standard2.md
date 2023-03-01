@@ -2,7 +2,7 @@
 UID: NS:wdm.ACPI_INTERFACE_STANDARD2
 tech.root: kernel
 title: ACPI_INTERFACE_STANDARD2 (wdm.h)
-ms.date: 03/10/2022
+ms.date: 03/01/2023
 targetos: Windows
 description: This topic describes the ACPI_INTERFACE_STANDARD2 structure.
 prerelease: false
@@ -38,7 +38,7 @@ f1_keywords:
 dev_langs:
  - c++
 helpviewer_keywords:
- - __unnamed_struct_12
+ - ACPI_INTERFACE_STANDARD2
 ---
 
 ## -description
@@ -98,4 +98,3 @@ Describes the **PUNREGISTER_FOR_DEVICE_NOTIFICATIONS** member **UnregisterForDev
 ## -remarks
 
 ## -see-also
-

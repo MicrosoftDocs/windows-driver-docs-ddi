@@ -31,7 +31,7 @@ f1_keywords:
 dev_langs:
  - c++
 helpviewer_keywords:
- - __unnamed_enum_1
+ - SD_TRANSFER_DIRECTION
 ---
 
 ## -description
