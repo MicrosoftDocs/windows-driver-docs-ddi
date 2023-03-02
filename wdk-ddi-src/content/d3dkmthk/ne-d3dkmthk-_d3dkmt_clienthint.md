@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-D3DKMT_CLIENTHINT hints at which client is [creating a device context]((ns-d3dkmthk-_d3dkmt_createcontext.md)).
+D3DKMT_CLIENTHINT hints at which client is [creating a device context](ns-d3dkmthk-_d3dkmt_createcontext.md).
 
 ## -enum-fields
 
@@ -134,4 +134,4 @@ Maximum enumeration value.
 
 ## -see-also
 
-[D3DKMT_CREATECONTEXT](ns-d3dkmthk-_d3dkmt_createcontext.md)
+[**D3DKMT_CREATECONTEXT**](ns-d3dkmthk-_d3dkmt_createcontext.md)
