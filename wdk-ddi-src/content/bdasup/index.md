@@ -2,7 +2,7 @@
 UID: NA:bdasup
 title: Bdasup.h header
 description: "Learn more about: Bdasup.h header"
-ms.date: 04/25/2022
+ms.date: 03/02/2023
 keywords: ["Bdasup.h header"]
 ms.keywords: 
 ms.topic: overview

@@ -2,7 +2,7 @@
 description: "Learn more about: Miniport.h header"
 UID: NA:miniport
 title: Miniport.h header
-ms.date: 03/23/2022
+ms.date: 03/02/2023
 keywords: ["Miniport.h header"]
 ms.keywords: 
 ms.topic: overview

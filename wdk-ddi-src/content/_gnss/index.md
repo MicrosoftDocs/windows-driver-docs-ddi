@@ -2,8 +2,7 @@
 description: "Learn more about: Global Navigation Satellite System (GNSS)"
 UID: TP:gnss
 title: Global Navigation Satellite System (GNSS)
-ms.assetid: c486e5b4-8800-3452-8ea3-63402b0ba48a
-ms.date: 07/11/2018
+ms.date: 03/02/2023
 keywords: ["Global Navigation Satellite System (GNSS)"]
 ms.keywords: 
 ms.topic: overview

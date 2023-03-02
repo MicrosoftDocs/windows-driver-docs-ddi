@@ -2,8 +2,7 @@
 description: "Learn more about: Print devices"
 UID: TP:print
 title: Print devices
-ms.assetid: fc0e0b85-603b-35c9-9d94-fc5cb18ea7c1
-ms.date: 02/09/2021
+ms.date: 03/02/2023
 keywords: ["Print devices"]
 ms.keywords: 
 ms.topic: overview

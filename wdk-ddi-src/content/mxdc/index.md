@@ -2,7 +2,7 @@
 description: "Learn more about: Mxdc.h header"
 UID: NA:mxdc
 title: Mxdc.h header
-ms.date: 01/03/2023
+ms.date: 03/02/2023
 keywords: ["Mxdc.h header"]
 ms.keywords: 
 ms.topic: overview

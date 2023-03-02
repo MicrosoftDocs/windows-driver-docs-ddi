@@ -2,7 +2,7 @@
 UID: NA:wia_lh
 title: Wia_Lh.h header
 description: "Learn more about: Wia_Lh.h header"
-ms.date: 11/10/2022
+ms.date: 03/02/2023
 keywords: ["Wia_Lh.h header"]
 ms.keywords: 
 ms.topic: overview

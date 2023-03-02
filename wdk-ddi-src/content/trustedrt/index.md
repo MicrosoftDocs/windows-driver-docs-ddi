@@ -2,8 +2,7 @@
 description: "Learn more about: Trustedrt.h header"
 UID: NA:trustedrt
 title: Trustedrt.h header
-ms.assetid: 3724f951-9001-3920-960a-c5697b4fb9b8
-ms.date: 11/20/2020
+ms.date: 03/02/2023
 keywords: ["Trustedrt.h header"]
 ms.keywords: 
 ms.topic: overview
@@ -18,10 +17,8 @@ api_name:
 
 # Trustedrt.h header
 
-
 ## -description
 
 This header is used by treedrv. For more information, see:
 
-- [Trusted Execution Environment (TrEE)](../_treedrv/index.md)<br><br>
-
+- [Trusted Execution Environment (TrEE)](../_treedrv/index.md)
