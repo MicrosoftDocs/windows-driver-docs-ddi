@@ -2,10 +2,10 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEHEAPANDRESOURCE_0088
 tech.root: display
 title: PFND3D12DDI_CREATEHEAPANDRESOURCE_0088
-ms.date: 09/29/2022
+ms.date: 02/24/2023
 targetos: Windows
 description: Learn more about the PFND3D12DDI_CREATEHEAPANDRESOURCE_0088 callback function.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -44,23 +44,23 @@ helpviewer_keywords:
 
 ## -description
 
-**PFND3D12DDI_CREATEHEAPANDRESOURCE_0088** is used to simultaneously create a heap and resource.
+A user-mode display driver's **PFND3D12DDI_CREATEHEAPANDRESOURCE_0088** function simultaneously creates a heap and resource.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param unnamedParam1 [in]
 
 A **D3D12DDI_HDEVICE** handle to the display device (graphics context).
 
 ### -param unnamedParam2 [in, optional]
 
-A [**D3D12DDIARG_CREATEHEAP_0001**](ns-d3d12umddi-d3d12ddiarg_createheap_0001.md) structure with arguments used to create a heap.
+A [**D3D12DDIARG_CREATEHEAP_0001**](ns-d3d12umddi-d3d12ddiarg_createheap_0001.md) structure containing the arguments used to create a heap.
 
-### -param unnamedParam3
+### -param unnamedParam3 [in]
 
 The **D3D12DDI_HHEAP** handle to a heap.
 
-### -param unnamedParam4
+### -param unnamedParam4 [in]
 
 The **D3D12DDI_HRTRESOURCE** handle of the resource for the driver to use when it calls back into the runtime.
 

@@ -50,7 +50,7 @@ The **DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS** structure contains the set of fla
 
 ## -struct-fields
 
-## -field FlipStereo
+### -field FlipStereo
 
 Specifies whether the driver flips both the left and right images of a stereo allocation.
 
@@ -60,27 +60,27 @@ If the **FlipImmediate** member of **DXGK_PLANE_SPECIFIC_INPUT_FLAGS** is set, t
 
 The **FlipStereo** and **FlipStereoTemporaryMono** members cannot both be set at the same time.
 
-## -field FlipStereoTemporaryMono
+### -field FlipStereoTemporaryMono
 
 Specifies whether the driver uses the left image of a stereo allocation for the right and left portions of a stereo frame. The driver performs the same present operation as with **FlipStereo**, except that it scans out only from the left image to produce both images of a stereo frame.
 
 This member should be set only if the driver reports support for this option in the current display mode by setting the **Type** member of the [**D3DKMDT_VIDPN_SOURCE_MODE**](../d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md) structure to **D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN**.
 
-## -field FlipStereoPreferRight
+### -field FlipStereoPreferRight
 
 Specifies that when the driver clones a stereo primary allocation to a mono monitor, it uses the right image.
 
 The **FlipStereoTemporaryMono** and **FlipStereoPreferRight** members cannot both be set at the same time.
 
-## -field RetryAtLowerIrql
+### -field RetryAtLowerIrql
 
 The scheduler sets this flag if the call is made at PASSIVE_LEVEL. Hence, the driver can perform hardware changes in this call.
 
-## -field Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 28 bits (0xFFFFFFF8) of the 32-bit **Value** member to zeros.
 
-## -field Value
+### -field Value
 
 An alternative way to access the bits.
 

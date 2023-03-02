@@ -3,7 +3,7 @@ UID: NC:d3d12umddi.PFND3D12DDI_CREATEHEAPANDRESOURCE_0075
 title: PFND3D12DDI_CREATEHEAPANDRESOURCE_0075 (d3d12umddi.h)
 description: The PFND3D12DDI_CREATEHEAPANDRESOURCE_0075 callback function simultaneously creates a heap and resource.
 old-location: display\pfnd3d12ddi_createheapandresource_0075.htm
-ms.date: 09/29/2022
+ms.date: 02/24/2023
 keywords: ["PFND3D12DDI_CREATEHEAPANDRESOURCE_0075 callback function"]
 ms.keywords: PFND3D12DDI_CREATEHEAPANDRESOURCE_0075, PFND3D12DDI_CREATEHEAPANDRESOURCE_0075 callback, PFND3D12DDI_CREATEHEAPANDRESOURCE_0075 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEHEAPANDRESOURCE_0075, display.pfnd3d12ddi_createheapandresource_0075
 req.header: d3d12umddi.h
@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-**PFND3D12DDI_CREATEHEAPANDRESOURCE_0075** is used to simultaneously create a heap and resource.
+A user-mode display driver's **PFND3D12DDI_CREATEHEAPANDRESOURCE_0088** function simultaneously creates a heap and resource.
 
 ## -parameters
 
@@ -54,7 +54,7 @@ A **D3D12DDI_HDEVICE** handle to the display device (graphics context).
 
 ### -param unnamedParam2 [in, optional]
 
-A [**D3D12DDIARG_CREATEHEAP_0001**](ns-d3d12umddi-d3d12ddiarg_createheap_0001.md) structure with arguments used to create a heap.
+A [**D3D12DDIARG_CREATEHEAP_0001**](ns-d3d12umddi-d3d12ddiarg_createheap_0001.md) structure containing the arguments used to create a heap.
 
 ### -param unnamedParam3
 
