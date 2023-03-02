@@ -109,7 +109,8 @@ If a callout driver registers a callback function by calling the
     FwpmBfeStateSubscribeChanges0</a> function, it must deregister the callback function before the callout
     driver can be unloaded.
 
-Do not call <b>FwpmBfeStateUnsubscribeChanges0</b> from a callback function that your driver previously registered by calling <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
+> [!WARNING]
+> Do not call <b>FwpmBfeStateUnsubscribeChanges0</b> from a callback function that your driver previously registered by calling <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
     FwpmBfeStateSubscribeChanges0</a>. Doing so can cause a deadlock.
 
 ## -see-also
