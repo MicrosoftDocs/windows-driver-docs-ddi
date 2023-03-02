@@ -184,7 +184,7 @@ A callout driver must deregister the callback function by calling the
     <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestateunsubscribechanges0">
     FwpmBfeStateUnsubscribeChanges0</a> function before the callout driver can be unloaded.
 
-<div class="alert"><b>Note</b>  <p class="note">Do not call <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestateunsubscribechanges0">FwpmBfeStateUnsubscribeChanges0</a> from the callback function that you passed in the <i>callback</i> parameter. Doing so can cause a deadlock.
+> [!WARNING] Do not call <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestateunsubscribechanges0">FwpmBfeStateUnsubscribeChanges0</a> from the callback function that you passed in the <i>callback</i> parameter. Doing so can cause a deadlock.
 
 </div>
 <div> </div>
