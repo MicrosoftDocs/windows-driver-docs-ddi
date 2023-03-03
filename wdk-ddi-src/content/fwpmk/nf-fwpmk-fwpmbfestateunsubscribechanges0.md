@@ -53,6 +53,9 @@ The
   FwpmBfeStateSubscribeChanges0</a> function.
 <div class="alert"><b>Note</b>  <b>FwpmBfeStateUnsubscribeChanges0</b> is a specific version of <b>FwpmBfeStateUnsubscribeChanges</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
+> [!WARNING]
+> Do not call **FwpmBfeStateUnsubscribeChanges0** from a callback function that your driver previously registered by calling [FwpmBfeStateSubscribeChanges0](nf-fwpmk-fwpmbfestatesubscribechanges0.md). Doing so can cause a deadlock.
+
 ## -parameters
 
 ### -param changeHandle [in, out]
@@ -108,10 +111,6 @@ If a callout driver registers a callback function by calling the
     <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
     FwpmBfeStateSubscribeChanges0</a> function, it must deregister the callback function before the callout
     driver can be unloaded.
-
-> [!WARNING]
-> Do not call <b>FwpmBfeStateUnsubscribeChanges0</b> from a callback function that your driver previously registered by calling <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
-    FwpmBfeStateSubscribeChanges0</a>. Doing so can cause a deadlock.
 
 ## -see-also
 
