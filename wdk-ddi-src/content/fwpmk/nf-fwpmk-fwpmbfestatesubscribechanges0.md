@@ -51,6 +51,9 @@ The
   a change to the state of the filter engine.
 <div class="alert"><b>Note</b>  <b>FwpmBfeStateSubscribeChanges0</b> is a specific version of <b>FwpmBfeStateSubscribeChanges</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
+> [!WARNING] 
+> Do not call [FwpmBfeStateUnsubscribeChanges0](nf-fwpmk-fwpmbfestateunsubscribechanges0.md) from the callback function that you passed in the *callback* parameter. Doing so can cause a deadlock.
+
 ## -parameters
 
 ### -param deviceObject [in, out]
@@ -183,11 +186,6 @@ A callout driver must call <b>FwpmBfeStateSubscribeChanges0</b> before calling t
 A callout driver must deregister the callback function by calling the 
     <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestateunsubscribechanges0">
     FwpmBfeStateUnsubscribeChanges0</a> function before the callout driver can be unloaded.
-
-> [!WARNING] Do not call <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestateunsubscribechanges0">FwpmBfeStateUnsubscribeChanges0</a> from the callback function that you passed in the <i>callback</i> parameter. Doing so can cause a deadlock.
-
-</div>
-<div> </div>
 
 ## -see-also
 
