@@ -3,7 +3,7 @@ UID: NF:wdm.RtlEqualMemory
 title: RtlEqualMemory macro (wdm.h)
 description: The RtlEqualMemory routine compares two blocks of memory to determine whether the specified number of bytes are identical.
 tech.root: kernel
-ms.date: 01/18/2023
+ms.date: 03/07/2023
 keywords: ["RtlEqualMemory macro"]
 ms.keywords: RtlEqualMemory, RtlEqualMemory routine [Kernel-Mode Driver Architecture], k109_a75dfbc8-12af-4f95-9ba0-b7752b796e55.xml, kernel.rtlequalmemory, wdm/RtlEqualMemory
 req.header: wdm.h
@@ -67,6 +67,8 @@ RtlEqualMemory(
    size_t Length
 );
 ```
+
+## -returns
 
 ## -remarks
 
