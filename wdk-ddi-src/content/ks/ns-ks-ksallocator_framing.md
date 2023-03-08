@@ -2,9 +2,8 @@
 UID: NS:ks.KSALLOCATOR_FRAMING
 title: KSALLOCATOR_FRAMING (ks.h)
 description: The KSALLOCATOR_FRAMING structure is used to query framing requirements and submit allocator creation requests.
-old-location: stream\ksallocator_framing.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/06/2023
 keywords: ["KSALLOCATOR_FRAMING structure"]
 ms.keywords: "*PKSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING structure [Streaming Media Devices], PKSALLOCATOR_FRAMING, PKSALLOCATOR_FRAMING structure pointer [Streaming Media Devices], ks-struct_cc2d8d16-75d5-4ef4-b8de-63197e61424b.xml, ks/KSALLOCATOR_FRAMING, ks/PKSALLOCATOR_FRAMING, stream.ksallocator_framing"
 req.header: ks.h
@@ -43,9 +42,6 @@ api_name:
  - KSALLOCATOR_FRAMING
 ---
 
-# KSALLOCATOR_FRAMING structure
-
-
 ## -description
 
 The KSALLOCATOR_FRAMING structure is used to query framing requirements and submit allocator creation requests.
@@ -54,99 +50,28 @@ The KSALLOCATOR_FRAMING structure is used to query framing requirements and subm
 
 ### -field OptionsFlags
 
-Specifies the allocator option flags specified during allocator creation for the connection point. The <b>OptionsFlags</b> member can contain one of the following values.
+Specifies the allocator option flags specified during allocator creation for the connection point. The **OptionsFlags** member can contain one of the following values.
 
-<table>
-<tr>
-<th>OptionsFlags</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-KSALLOCATOR_OPTIONF_COMPATIBLE
-
-</td>
-<td>
-Indicates that the framing options of the allocator being created are compatible with the downstream allocator. This option is typically specified when an in-place modifier is assigned an allocator for copy buffers. If the filter is not required to modify a given frame, it may submit the frame to the downstream filter without allocating an additional frame from the downstream allocator when this option is specified.
-
-</td>
-</tr>
-<tr>
-<td>
-KSALLOCATOR_OPTIONF_SYSTEM_MEMORY
-
-</td>
-<td>
-Indicates that system memory should be used for allocations. When specified, the allocator must allocate memory from the pool as specified in the <b>PoolType</b> member. Otherwise, it is assumed that the sink provides a system address mapping to on-board RAM or other forms of storage on the device.
-
-</td>
-</tr>
-</table>
+| OptionsFlags | Description |
+|---|---|
+| KSALLOCATOR_OPTIONF_COMPATIBLE | Indicates that the framing options of the allocator being created are compatible with the downstream allocator. This option is typically specified when an in-place modifier is assigned an allocator for copy buffers. If the filter is not required to modify a given frame, it may submit the frame to the downstream filter without allocating an additional frame from the downstream allocator when this option is specified. |
+| KSALLOCATOR_OPTIONF_SYSTEM_MEMORY | Indicates that system memory should be used for allocations. When specified, the allocator must allocate memory from the pool as specified in the **PoolType** member. Otherwise, it is assumed that the sink provides a system address mapping to on-board RAM or other forms of storage on the device. |
 
 ### -field RequirementsFlags
 
-A value of type ULONG that describes the allocator requirements for this connection point for query operations. The <b>RequirementsFlags</b> member can contain the following values.
+A value of type ULONG that describes the allocator requirements for this connection point for query operations. The **RequirementsFlags** member can contain the following values.
 
-<table>
-<tr>
-<th>Flag Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-KSALLOCATOR_REQUIREMENTF_INPLACE_MODIFIER
-
-</td>
-<td>
-Indicates that the connection point can perform an in-place modification.
-
-</td>
-</tr>
-<tr>
-<td>
-KSALLOCATOR_REQUIREMENTF_SYSTEM_MEMORY
-
-</td>
-<td>
-Indicates that the connection point requires system memory for allocations. If this option is not set, it is assumed that the sink provides a system address space mapping to on-board RAM or other forms of storage on the device.
-
-</td>
-</tr>
-<tr>
-<td>
-KSALLOCATOR_REQUIREMENTF_FRAME_INTEGRITY
-
-</td>
-<td>
-Indicates that the connection point requires that downstream filters maintain the data integrity of specified frames.
-
-</td>
-</tr>
-<tr>
-<td>
-KSALLOCATOR_REQUIREMENTF_MUST_ALLOCATE
-
-</td>
-<td>
-Indicates that the connection point requires that it allocate any frames sent.
-
-</td>
-</tr>
-<tr>
-<td>
-KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY
-
-</td>
-<td>
-Indicates that the Requirements flags are preferences only and the connection point is able to allocate frames that do not meet those specifications.
-
-</td>
-</tr>
-</table>
+| Flag Value | Description |
+|---|---|
+| KSALLOCATOR_REQUIREMENTF_INPLACE_MODIFIER | Indicates that the connection point can perform an in-place modification. |
+| KSALLOCATOR_REQUIREMENTF_SYSTEM_MEMORY | Indicates that the connection point requires system memory for allocations. If this option is not set, it is assumed that the sink provides a system address space mapping to on-board RAM or other forms of storage on the device. |
+| KSALLOCATOR_REQUIREMENTF_FRAME_INTEGRITY | Indicates that the connection point requires that downstream filters maintain the data integrity of specified frames. |
+| KSALLOCATOR_REQUIREMENTF_MUST_ALLOCATE | Indicates that the connection point requires that it allocate any frames sent. |
+| KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY | Indicates that the Requirements flags are preferences only and the connection point is able to allocate frames that do not meet those specifications. |
 
 ### -field PoolType
 
-A structure of type <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> that specifies kernel-mode allocation pool type.
+A structure of type [POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type) that specifies kernel-mode allocation pool type.
 
 ### -field Frames
 
@@ -160,62 +85,13 @@ Specifies the total size of the frame, including prefix and postfix. Zero indica
 
 A value of type ULONG that describes the byte alignment to use when allocating frames. The following table describes several possible alignment values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-FILE_BYTE_ALIGNMENT
-
-</td>
-<td>
-1-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_WORD_ALIGNMENT
-
-</td>
-<td>
-2-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_LONG_ALIGNMENT
-
-</td>
-<td>
-4-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_32_BYTE_ALIGNMENT
-
-</td>
-<td>
-32-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_64_BYTE_ALIGNMENT
-
-</td>
-<td>
-64-byte alignment
-
-</td>
-</tr>
-</table>
+| Value | Description |
+|---|---|
+| FILE_BYTE_ALIGNMENT | 1-byte alignment |
+| FILE_WORD_ALIGNMENT | 2-byte alignment |
+| FILE_LONG_ALIGNMENT | 4-byte alignment |
+| FILE_32_BYTE_ALIGNMENT | 32-byte alignment |
+| FILE_64_BYTE_ALIGNMENT | 64-byte alignment |
 
 ### -field FramePitch
 
@@ -227,9 +103,8 @@ Reserved for system use. Set to zero.
 
 Use KSALLOCATOR_FRAMING to submit an allocator creation request to a handle of a sink by using IRP_MJ_CREATE.
 
-When you specify a value for the <b>FileAlignment</b> member, the smallest allocation alignment is 1 byte (FILE_BYTE_ALIGNMENT). Software that functions as an allocation should support 4-byte alignment (FILE_LONG_ALIGNMENT), if possible.
+When you specify a value for the **FileAlignment** member, the smallest allocation alignment is 1 byte (FILE_BYTE_ALIGNMENT). Software that functions as an allocation should support 4-byte alignment (FILE_LONG_ALIGNMENT), if possible.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreateallocator">KsCreateAllocator</a>
-
+[KsCreateAllocator](/windows-hardware/drivers/ddi/ks/nf-ks-kscreateallocator)

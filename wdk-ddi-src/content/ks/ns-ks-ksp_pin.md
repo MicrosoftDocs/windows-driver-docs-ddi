@@ -2,9 +2,8 @@
 UID: NS:ks.KSP_PIN
 title: KSP_PIN (ks.h)
 description: Kernel streaming clients use the KSP_PIN structure to specify the property and pin type within a KSPROPSETID_Pin property request.
-old-location: stream\ksp_pin.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/06/2023
 keywords: ["KSP_PIN structure"]
 ms.keywords: "*PKSP_PIN, KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE, KSP_PIN, KSP_PIN structure [Streaming Media Devices], PKSP_PIN, PKSP_PIN structure pointer [Streaming Media Devices], ks-struct_02faf16f-fb8d-4f1f-9176-e2c379a36d4e.xml, ks/KSP_PIN, ks/PKSP_PIN, stream.ksp_pin"
 req.header: ks.h
@@ -43,9 +42,6 @@ api_name:
  - KSP_PIN
 ---
 
-# KSP_PIN structure
-
-
 ## -description
 
 Kernel streaming clients use the KSP_PIN structure to specify the property and pin type within a KSPROPSETID_Pin property request.
@@ -54,7 +50,7 @@ Kernel streaming clients use the KSP_PIN structure to specify the property and p
 
 ### -field Property
 
-Specifies a <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure.
+Specifies a [**KSPROPERTY**](/windows-hardware/drivers/stream/ksproperty-structure) structure.
 
 ### -field PinId
 
@@ -70,24 +66,10 @@ Reserved. Should be set to zero.
 
 Pin flags. This is set to either 0 or the following.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE"></a><a id="ksproperty_pin_flags_attribute_range_aware"></a><dl>
-<dt><b>KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The client is aware of attributes and handles attribute ranges.
-
-</td>
-</tr>
-</table>
+| Value | Description |
+|---|---|
+| **KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE** | The client is aware of attributes and handles attribute ranges. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
-
+[**KSPROPERTY**](/windows-hardware/drivers/stream/ksproperty-structure)

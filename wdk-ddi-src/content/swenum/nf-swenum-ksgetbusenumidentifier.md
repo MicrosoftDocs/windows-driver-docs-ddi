@@ -2,9 +2,8 @@
 UID: NF:swenum.KsGetBusEnumIdentifier
 title: KsGetBusEnumIdentifier function (swenum.h)
 description: The KsGetBusEnumIdentifier function retrieves the software bus enumerator identifier for the bus device associated with the given IRP.
-old-location: stream\ksgetbusenumidentifier.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/03/2023
 keywords: ["KsGetBusEnumIdentifier function"]
 ms.keywords: KsGetBusEnumIdentifier, KsGetBusEnumIdentifier function [Streaming Media Devices], ksfunc_c001aace-8c97-48cb-ae8b-9e7075d51960.xml, stream.ksgetbusenumidentifier, swenum/KsGetBusEnumIdentifier
 req.header: swenum.h
@@ -41,19 +40,15 @@ api_name:
  - KsGetBusEnumIdentifier
 ---
 
-# KsGetBusEnumIdentifier function
-
-
 ## -description
 
-<i>This function is intended for internal use only.</i>
+*This function is intended for internal use only.*
 
-The <b>KsGetBusEnumIdentifier</b> function retrieves the software bus enumerator identifier for the bus device associated with the given IRP.
+The **KsGetBusEnumIdentifier** function retrieves the software bus enumerator identifier for the bus device associated with the given IRP.
 
 ## -parameters
 
 ### -param Irp [in, out]
-
 
 Pointer to the IRP that specifies the address and size of the user output buffer to receive the requested bus enumerator identifier.
 
@@ -61,43 +56,8 @@ Pointer to the IRP that specifies the address and size of the user output buffer
 
 Returns STATUS_SUCCESS if the bus enumerator identifier was retrieved successfully. Otherwise, it returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified device is not valid
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified buffer was not large enough
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_OVERFLOW</b></dt>
-</dl>
-</td>
-<td width="60%">
-No buffer was specified (the required buffer size is returned in the Irp).
-
-</td>
-</tr>
-</table>
-
+| Return code | Description |
+|---|---|
+| **STATUS_INVALID_PARAMETER** | The specified device is not valid |
+| **STATUS_BUFFER_TOO_SMALL** | The specified buffer was not large enough |
+| **STATUS_BUFFER_OVERFLOW** | No buffer was specified (the required buffer size is returned in the Irp). |

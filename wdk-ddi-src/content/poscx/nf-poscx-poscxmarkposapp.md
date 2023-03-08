@@ -2,9 +2,8 @@
 UID: NF:poscx.PosCxMarkPosApp
 title: PosCxMarkPosApp function (poscx.h)
 description: PosCxMarkPosApp marks the open instance as associated or not associated with a point-of-service application.
-old-location: pos\poscxmarkposapp.htm
 tech.root: pos
-ms.date: 02/23/2018
+ms.date: 03/07/2023
 keywords: ["PosCxMarkPosApp function"]
 ms.keywords: PosCxMarkPosApp, PosCxMarkPosApp function, pos.poscxmarkposapp, poscx/PosCxMarkPosApp
 req.header: poscx.h
@@ -41,9 +40,6 @@ api_name:
  - PosCxMarkPosApp
 ---
 
-# PosCxMarkPosApp function
-
-
 ## -description
 
 PosCxMarkPosApp marks the open instance as associated or not associated with a point-of-service application.
@@ -54,16 +50,13 @@ This optional method provides value if the driver implements multiple device int
 
 ### -param device [in]
 
-
 A handle to a framework device object that represents the device.
 
 ### -param fileObject [in]
 
-
-A handle to a framework file object that identifies the caller, usually acquired with <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetfileobject">WdfRequestGetFileObject</a>.
+A handle to a framework file object that identifies the caller, usually acquired with [WdfRequestGetFileObject](/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetfileobject).
 
 ### -param isPosApp [in]
-
 
 Specifies if the open instance is associated with a point-of-service application. Set to TRUE if it is associated with a point-of-service application. Otherwise, set to FALSE.
 
@@ -71,13 +64,7 @@ Specifies if the open instance is associated with a point-of-service application
 
 Possible return values are:
 
-<table>
-<tr>
-<td><b>STATUS_SUCCESS</b></td>
-<td>Completed successfully.</td>
-</tr>
-<tr>
-<td><b>INVALID_PARAMETER</b></td>
-<td>The specified <i>fileObject</i> is invalid.</td>
-</tr>
-</table>
+| Value | Description |
+|---|---|
+| **STATUS_SUCCESS** | Completed successfully. |
+| **INVALID_PARAMETER** | The specified *fileObject* is invalid. |

@@ -2,9 +2,8 @@
 UID: NF:bidispl.IBidiRequestContainer.AddRequest
 title: IBidiRequestContainer::AddRequest (bidispl.h)
 description: The AddRequest method adds a request to the request list.
-old-location: print\ibidirequestcontainer_ibidirequestcontainer__addrequest.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 03/03/2023
 keywords: ["IBidiRequestContainer::AddRequest"]
 ms.keywords: AddRequest, AddRequest method [Print Devices], AddRequest method [Print Devices],IBidiRequestContainer interface, IBidiRequestContainer interface [Print Devices],AddRequest method, IBidiRequestContainer.AddRequest, IBidiRequestContainer::AddRequest, _win32_IBidiRequestContainer_AddRequest, bidispl/IBidiRequestContainer::AddRequest, gdi.ibidirequestcontainer_ibidirequestcontainer__addrequest, print.ibidirequestcontainer_ibidirequestcontainer__addrequest
 req.header: bidispl.h
@@ -40,81 +39,36 @@ api_name:
  - IBidiRequestContainer::AddRequest
 ---
 
-# IBidiRequestContainer::AddRequest
-
-
 ## -description
 
-The <b>AddRequest</b> method adds a request to the request list.
+The **AddRequest** method adds a request to the request list.
 
 ## -parameters
 
 ### -param pRequest [in]
 
-
-A pointer to the <a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a> interface.
+A pointer to the [IBidiRequest](/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest) interface.
 
 ## -returns
 
-The method returns one of the following values. For more information about COM error codes, see <a href="/windows/win32/com/com-error-codes">COM Error Codes</a>.
+The method returns one of the following values. For more information about COM error codes, see [COM Error Codes](/windows/win32/com/com-error-codes).
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation was successfully carried out.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The interface handle was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>None of the above</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>HRESULT</b> contains an error code corresponding to the last error.
-
-</td>
-</tr>
-</table>
+| Value | Description |
+|---|---|
+| **S_OK** | The operation was successfully carried out. |
+| **E_HANDLE** | The interface handle was invalid. |
+| **None of the above** | The **HRESULT** contains an error code corresponding to the last error. |
 
 ## -remarks
 
-This is similar to adding an item in a link list. In this case, <a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequestcontainer">IBidiRequestContainer</a> will hold a reference to <i>pRequest</i> by calling pRequest->AddRef.
+This is similar to adding an item in a link list. In this case, [IBidiRequestContainer](/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequestcontainer) will hold a reference to *pRequest* by calling pRequest->AddRef.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
+[Bidirectional Communication Interfaces](/windows-hardware/drivers/ddi/_print/index)
 
+[Bidirectional Communication Schema](/windows-hardware/drivers/print/bidirectional-communication-schema)
 
+[IBidiRequest](/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest)
 
-<a href="/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequestcontainer">IBidiRequestContainer</a>
-
+[IBidiRequestContainer](/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequestcontainer)

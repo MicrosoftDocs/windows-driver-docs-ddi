@@ -2,7 +2,7 @@
 UID: NC:oprghdlr.ACPI_OP_REGION_CALLBACK
 title: ACPI_OP_REGION_CALLBACK (oprghdlr.h)
 description: Describes the ACPI_OP_REGION_CALLBACK callback function.
-ms.date: 11/18/2020
+ms.date: 03/03/2023
 keywords: ["ACPI_OP_REGION_CALLBACK callback function"]
 req.header: oprghdlr.h
 req.include-header: 
@@ -39,13 +39,13 @@ product:
  - Windows
 ---
 
-# ACPI_OP_REGION_CALLBACK callback function
-
 ## -description
 
 ## -parameters
 
 ### -param Context
+
+Defines the **PVOID** parameter *Context*.
 
 ## -syntax
 

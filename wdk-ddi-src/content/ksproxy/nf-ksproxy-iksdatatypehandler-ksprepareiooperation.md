@@ -2,9 +2,8 @@
 UID: NF:ksproxy.IKsDataTypeHandler.KsPrepareIoOperation
 title: IKsDataTypeHandler::KsPrepareIoOperation (ksproxy.h)
 description: The KsPrepareIoOperation method initializes the extended header and prepares the media sample for an I/O operation.
-old-location: stream\iksdatatypehandler_ksprepareiooperation.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/07/2023
 keywords: ["IKsDataTypeHandler::KsPrepareIoOperation"]
 ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsPrepareIoOperation method, IKsDataTypeHandler.KsPrepareIoOperation, IKsDataTypeHandler::KsPrepareIoOperation, KsPrepareIoOperation, KsPrepareIoOperation method [Streaming Media Devices], KsPrepareIoOperation method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsPrepareIoOperation, ksproxy_24b2f3a8-8870-434e-9f15-71fa363d3215.xml, stream.iksdatatypehandler_ksprepareiooperation
 req.header: ksproxy.h
@@ -40,68 +39,39 @@ api_name:
  - IKsDataTypeHandler::KsPrepareIoOperation
 ---
 
-# IKsDataTypeHandler::KsPrepareIoOperation
-
-
 ## -description
 
-The <b>KsPrepareIoOperation</b> method initializes the extended header and prepares the media sample for an I/O operation.
+The **KsPrepareIoOperation** method initializes the extended header and prepares the media sample for an I/O operation.
 
 ## -parameters
 
 ### -param Sample [in, out]
 
-
-Pointer to the <b>IMediaSample</b> interface for the associated media sample.
+Pointer to the **IMediaSample** interface for the associated media sample.
 
 ### -param StreamHeader [in, out]
-
 
 Pointer to a buffer that contains the extended header information.
 
 ### -param IoOperation [in]
 
-
 Value that specifies the type of I/O operation. This value can be one of the following values from the KSIOOPERATION enumerated type:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-<b>KsIoOperation_Write</b>
-
-</td>
-<td>
-Write data to stream.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>KsIoOperation_Read</b>
-
-</td>
-<td>
-Read data from stream.
-
-</td>
-</tr>
-</table>
+| Value | Description |
+|---|---|
+| **KsIoOperation_Write** | Write data to stream. |
+| **KsIoOperation_Read** | Read data from stream. |
 
 ## -returns
 
-Returns NOERROR if successful; otherwise, returns an error code. If the stream's major type is KSDATAFORMAT_TYPE_AUDIO, a <b>KsPrepareIoOperation</b> call is inapplicable, so <b>KsPrepareIoOperation</b> automatically returns NOERROR.
+Returns NOERROR if successful; otherwise, returns an error code. If the stream's major type is KSDATAFORMAT_TYPE_AUDIO, a **KsPrepareIoOperation** call is inapplicable, so **KsPrepareIoOperation** automatically returns NOERROR.
 
 ## -remarks
 
-The client only calls <b>KsPrepareIoOperation</b> if the data type handler indicated to the client the existence of extended header information in a call to the <a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksqueryextendedsize">IKsDataTypeHandler::KsQueryExtendedSize</a> method.
+The client only calls **KsPrepareIoOperation** if the data type handler indicated to the client the existence of extended header information in a call to the [IKsDataTypeHandler::KsQueryExtendedSize](/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksqueryextendedsize) method.
 
-For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK documentation.
+For more information about **IMediaSample**, see the Microsoft Windows SDK documentation.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksqueryextendedsize">IKsDataTypeHandler::KsQueryExtendedSize</a>
-
+[IKsDataTypeHandler::KsQueryExtendedSize](/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksqueryextendedsize)
