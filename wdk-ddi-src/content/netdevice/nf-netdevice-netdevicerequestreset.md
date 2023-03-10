@@ -61,7 +61,7 @@ For more on how to collect reset diagnostics, see [Register the optional diagnos
 
 **NetDeviceRequestReset** is only applicable for PCIe based NIC devices. For USB based NIC devices, follow the process described in [How to recover from USB pipe errors](/windows-hardware/drivers/usbcon/how-to-recover-from-usb-pipe-errors).
 
-If the device encounters an unrecoverable hardware or software error, the client driver can use the [WdfDeviceSetFailed](../wdfdevice/nf-wdfdevice-wdfdevicesetfailed) function.
+If the device encounters an unrecoverable hardware or software error, the client driver can use the [WdfDeviceSetFailed](../wdfdevice/nf-wdfdevice-wdfdevicesetfailed.md) function.
 
 ## -see-also
 
