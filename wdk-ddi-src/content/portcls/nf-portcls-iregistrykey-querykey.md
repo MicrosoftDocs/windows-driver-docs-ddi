@@ -108,7 +108,7 @@ Indicates that one of the parameters passed to the method is not valid.
 
 ## -remarks
 
-If the <i>KeyInformation</i> buffer is too small to hold the requested information, the method writes the required size to *<i>ResultLength</i> and returns a status code of either STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL. The method returns STATUS_BUFFER_OVERFLOW if it succeeded in writing only part of the requested information to the buffer. The method returns STATUS_BUFFER_TOO_SMALL if it was unable to write any information to the buffer. The value written to *<i>ResultLength</i> indicates the minimum buffer size required to hold all the requested information.
+If the <i>KeyInformation</i> buffer is too small to hold the requested information, the method writes the required size to **ResultLength* and returns a status code of either STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL. The method returns STATUS_BUFFER_OVERFLOW if it succeeded in writing only part of the requested information to the buffer. The method returns STATUS_BUFFER_TOO_SMALL if it was unable to write any information to the buffer. The value written to **ResultLength* indicates the minimum buffer size required to hold all the requested information.
 
 ## -see-also
 

@@ -89,7 +89,7 @@ The motor off time in seconds.
 
 ### -field SectorLengthCode
 
-Indicates the sector size as an exponent in the formula ((2**<i>code</i>) * 128).
+Indicates the sector size as an exponent in the formula ((2***code*) * 128).
 
 ### -field SectorPerTrack
 

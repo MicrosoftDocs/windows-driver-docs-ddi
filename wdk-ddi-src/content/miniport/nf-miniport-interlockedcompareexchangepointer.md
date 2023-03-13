@@ -52,24 +52,24 @@ The <b>InterlockedCompareExchangePointer</b> routine performs an atomic operatio
 ### -param Destination [in, out]
 
 
-A pointer to a PVOID value. If (*<i>Destination</i>) = <i>Comparand</i>, then the routine sets (*<i>Destination</i>) to <i>Exchange</i>.
+A pointer to a PVOID value. If (**Destination*) = <i>Comparand</i>, then the routine sets (**Destination*) to <i>Exchange</i>.
 
 ### -param Exchange [in]
 
 
-Specifies the PVOID value to set (*<i>Destination</i>) to.
+Specifies the PVOID value to set (**Destination*) to.
 
 ### -param Comperand
 
-<p>Specifies the PVOID value to compare with (*<i>Destination</i>).</p>
+<p>Specifies the PVOID value to compare with (**Destination*).</p>
 
 ## -returns
 
-<b>InterlockedCompareExchangePointer</b> returns the original value of the pointer at *<i>Destination</i> (that is, the value of this pointer at entry to the routine).
+<b>InterlockedCompareExchangePointer</b> returns the original value of the pointer at **Destination* (that is, the value of this pointer at entry to the routine).
 
 ## -remarks
 
-If <i>Comparand</i> is equal to *<i>Destination</i>, then *<i>Destination</i> is set to equal <i>Exchange</i>. Otherwise, *<i>Destination</i> is unchanged.
+If <i>Comparand</i> is equal to **Destination*, then **Destination* is set to equal <i>Exchange</i>. Otherwise, **Destination* is unchanged.
 
 <b>InterlockedCompareExchangePointer</b> provides a fast, atomic way to synchronize the testing and updating of a pointer variable that is shared by multiple threads. If the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>, the value pointed to by <i>Destination</i> is set to the value of <i>Exchange</i>.
 

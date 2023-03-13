@@ -52,7 +52,7 @@ The <b>RtlUnicodeToUTF8N</b> routine converts a Unicode string to a UTF-8 string
 ### -param UTF8StringDestination [out]
 
 
-A pointer to a caller-allocated destination buffer into which the routine writes the UTF-8 output string. If this parameter is <b>NULL</b>, the routine writes the required size of the output buffer to *<i>UTF8StringActualByteCount</i>.
+A pointer to a caller-allocated destination buffer into which the routine writes the UTF-8 output string. If this parameter is <b>NULL</b>, the routine writes the required size of the output buffer to **UTF8StringActualByteCount*.
 
 ### -param UTF8StringMaxByteCount [in]
 
@@ -133,9 +133,9 @@ The <i>UnicodeStringSource</i> parameter is <b>NULL</b>.
 
 The UTF-8 output string is null-terminated only if the Unicode input string is null-terminated.
 
-The routine returns STATUS_BUFFER_TOO_SMALL if the <i>UTF8StringMaxByteCount</i> parameter specifies a buffer size that is too small to contain the entire output string. In this case, the routine writes as many UTF-8 characters as will fit in the buffer, and the *<i>UTF8StringActualByteCount</i> value specifies the number of valid bytes that the routine has written to the buffer. The partial string that is contained in the output buffer might not include a terminating null character.
+The routine returns STATUS_BUFFER_TOO_SMALL if the <i>UTF8StringMaxByteCount</i> parameter specifies a buffer size that is too small to contain the entire output string. In this case, the routine writes as many UTF-8 characters as will fit in the buffer, and the **UTF8StringActualByteCount* value specifies the number of valid bytes that the routine has written to the buffer. The partial string that is contained in the output buffer might not include a terminating null character.
 
-You can make an initial call to <b>RtlUnicodeToUTF8N</b> to obtain the required output buffer size, and then call <b>RtlUnicodeToUTF8N</b> again to obtain the Unicode output string. In the initial call, set <i>UTF8StringDestination</i> = <b>NULL</b> and <i>UTF8StringMaxByteCount</i> = 0, and the routine will write the required buffer size to *<i>UTF8StringActualByteCount</i>. Next, allocate a buffer of the required size and call <b>RtlUnicodeToUTF8N</b> a second time to obtain the UTF-8 output string.
+You can make an initial call to <b>RtlUnicodeToUTF8N</b> to obtain the required output buffer size, and then call <b>RtlUnicodeToUTF8N</b> again to obtain the Unicode output string. In the initial call, set <i>UTF8StringDestination</i> = <b>NULL</b> and <i>UTF8StringMaxByteCount</i> = 0, and the routine will write the required buffer size to **UTF8StringActualByteCount*. Next, allocate a buffer of the required size and call <b>RtlUnicodeToUTF8N</b> a second time to obtain the UTF-8 output string.
 
 <b>RtlUnicodeToUTF8N</b> supports Unicode surrogate pairs. However, a surrogate leading word value that is not followed by a trailing word value, or a trailing word value that is not preceded by a leading word value, is not recognized as a valid character code and is replaced by the Unicode replacement character, U+FFFD.
 

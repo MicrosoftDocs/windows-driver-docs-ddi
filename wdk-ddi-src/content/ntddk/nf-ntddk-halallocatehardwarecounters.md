@@ -67,7 +67,7 @@ A pointer to a <b>PHYSICAL_COUNTER_RESOURCE_LIST</b> containing the resources re
 ### -param CounterSetHandle [out]
 
 
-A pointer to a location into which the routine writes a handle to the allocated counter resources. To release these resources later, the caller must pass this handle to the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-halfreehardwarecounters">HalFreeHardwareCounters</a> routine. If the requested counter resources are unavailable, [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) sets *<i>CounterSetHandle</i> = <b>NULL</b> and returns STATUS_INSUFFICIENT_RESOURCES.
+A pointer to a location into which the routine writes a handle to the allocated counter resources. To release these resources later, the caller must pass this handle to the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-halfreehardwarecounters">HalFreeHardwareCounters</a> routine. If the requested counter resources are unavailable, [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) sets **CounterSetHandle* = <b>NULL</b> and returns STATUS_INSUFFICIENT_RESOURCES.
 
 ## -returns
 

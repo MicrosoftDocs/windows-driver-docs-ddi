@@ -69,7 +69,7 @@ If there is no packing, a value of zero should be returned.
 
 A pointer to a variable that receives the number of tiles that the packed mips fit into, for a given array slice.
 
-This parameter is ignored if *<i>pNumPackedMips</i> returns zero.
+This parameter is ignored if **pNumPackedMips* returns zero.
 
 ## -remarks
 

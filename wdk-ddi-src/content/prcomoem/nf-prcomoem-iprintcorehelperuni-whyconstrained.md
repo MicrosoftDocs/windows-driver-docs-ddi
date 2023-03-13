@@ -128,7 +128,7 @@ For other failures, the method should return a standard COM error code.
 
 ## -remarks
 
-If the specified feature-option pair is not constrained, <code>IPrintCoreHelperUni::WhyConstrained</code> will return S_OK but will return with *<i>pdwFOPairs</i> set to 0 and with *<i>ppFOConstraints</i>[0] set to <b>NULL</b>.
+If the specified feature-option pair is not constrained, <code>IPrintCoreHelperUni::WhyConstrained</code> will return S_OK but will return with **pdwFOPairs* set to 0 and with **ppFOConstraints*[0] set to <b>NULL</b>.
 
 Note that the results from this method might not contain all of the options that affect the currently selected option. If there are invalid combinations that list more than two feature-option pairs, however, only one option from the combination will be included in the list.
 

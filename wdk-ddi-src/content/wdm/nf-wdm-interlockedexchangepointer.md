@@ -52,16 +52,16 @@ The <b>InterlockedExchangePointer</b> routine performs an atomic operation that 
 ### -param Target [in, out]
 
 
-A pointer to a PVOID value. The routine sets (*<i>Target</i>) to <i>Value</i>.
+A pointer to a PVOID value. The routine sets (**Target*) to <i>Value</i>.
 
 ### -param Value [in, optional]
 
 
-Specifies the PVOID value to set (*<i>Target</i>) to.
+Specifies the PVOID value to set (**Target*) to.
 
 ## -returns
 
-<b>InterlockedExchangePointer</b> returns the original value of the pointer at *<i>Target</i> (that is, the value of this pointer at entry to the routine).
+<b>InterlockedExchangePointer</b> returns the original value of the pointer at **Target* (that is, the value of this pointer at entry to the routine).
 
 ## -remarks
 

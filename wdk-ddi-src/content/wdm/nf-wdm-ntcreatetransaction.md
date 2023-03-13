@@ -241,7 +241,7 @@ Reserved for future use. Callers should set this parameter to zero.
 ### -param Timeout [in, optional]
 
 
-A pointer to a time-out value. If the transaction has not been committed by the time specified by this parameter, KTM rolls back the transaction. The time-out value is expressed in system time units (100-nanosecond intervals), and can specify either an absolute time or a relative time. If the value pointed to by <i>Timeout</i> is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. This pointer is optional and can be <b>NULL</b> if you do not want the transaction to have a time-out value. If <i>Timeout</i> = <b>NULL</b> or *<i>Timeout</i> = 0, the transaction never times out. (You can also use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntsetinformationtransaction">ZwSetInformationTransaction</a> to set a time-out value.)
+A pointer to a time-out value. If the transaction has not been committed by the time specified by this parameter, KTM rolls back the transaction. The time-out value is expressed in system time units (100-nanosecond intervals), and can specify either an absolute time or a relative time. If the value pointed to by <i>Timeout</i> is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. This pointer is optional and can be <b>NULL</b> if you do not want the transaction to have a time-out value. If <i>Timeout</i> = <b>NULL</b> or **Timeout* = 0, the transaction never times out. (You can also use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntsetinformationtransaction">ZwSetInformationTransaction</a> to set a time-out value.)
 
 ### -param Description [in, optional]
 

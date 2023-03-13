@@ -71,12 +71,12 @@ Perform initialization asynchronously. The driver can perform multiple completio
 
 #### RTL_RUN_ONCE_CHECK_ONLY
 
-Do not begin initialization, but check to determine if initialization has already occurred. If <b>RtlRunOnceBeginInitialize</b> returns STATUS_SUCCESS, the initialization succeeded, and *<i>Context</i> contains the initialized data.
+Do not begin initialization, but check to determine if initialization has already occurred. If <b>RtlRunOnceBeginInitialize</b> returns STATUS_SUCCESS, the initialization succeeded, and **Context* contains the initialized data.
 
 ### -param Context [out]
 
 
-Specifies a pointer to a PVOID variable that receives the initialized data. The value of *<i>Context</i> is valid only when the routine returns STATUS_SUCCESS.
+Specifies a pointer to a PVOID variable that receives the initialized data. The value of **Context* is valid only when the routine returns STATUS_SUCCESS.
 
 ## -returns
 

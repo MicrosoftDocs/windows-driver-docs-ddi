@@ -160,7 +160,7 @@ This method is supported only for Windows XP Pscript5 UI plug-ins that fully rep
 
 If a requested feature keyword is not recognized, or recognized but not supported in the current sticky mode (<a href="/windows-hardware/drivers/">document-sticky</a> or <a href="/windows-hardware/drivers/">printer-sticky</a> -- see <a href="/windows-hardware/drivers/print/replacing-driver-supplied-property-sheet-pages">Replacing Driver-Supplied Property Sheet Pages</a>), or the feature keyword is recognized but there is currently no option selection for it, the feature is simply ignored and the feature/option keyword pair is not placed in the output buffer.
 
-To reduce the need to make two calls per data access, pass the method an output buffer of a fixed size (1 KB, for example), and then check the function return value. If the method returns S_OK, the buffer already contains the data of interest. If the method returns E_OUTOFMEMORY, the value in *<i>pcbNeeded</i> is the buffer size needed to hold the data of interest. The caller should then allocate a buffer of that larger size and proceed with a second call to the method.
+To reduce the need to make two calls per data access, pass the method an output buffer of a fixed size (1 KB, for example), and then check the function return value. If the method returns S_OK, the buffer already contains the data of interest. If the method returns E_OUTOFMEMORY, the value in **pcbNeeded* is the buffer size needed to hold the data of interest. The caller should then allocate a buffer of that larger size and proceed with a second call to the method.
 
 For more information, see <a href="/windows-hardware/drivers/print/using-getoptions-and-setoptions">Using GetOptions and SetOptions</a>.
 

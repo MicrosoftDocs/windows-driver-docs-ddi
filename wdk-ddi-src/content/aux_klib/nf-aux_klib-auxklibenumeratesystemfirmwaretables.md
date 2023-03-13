@@ -95,7 +95,7 @@ The raw SMBIOS firmware table provider.
 ### -param FirmwareTableBuffer [out, optional]
 
 
-A pointer to a caller-allocated buffer to which the routine writes the list of firmware tables. If this parameter is NULL, the value written to *<i>ReturnLength</i> is the required buffer size. For more information about the contents of this buffer, see the Remarks section.
+A pointer to a caller-allocated buffer to which the routine writes the list of firmware tables. If this parameter is NULL, the value written to **ReturnLength* is the required buffer size. For more information about the contents of this buffer, see the Remarks section.
 
 ### -param BufferLength [in]
 

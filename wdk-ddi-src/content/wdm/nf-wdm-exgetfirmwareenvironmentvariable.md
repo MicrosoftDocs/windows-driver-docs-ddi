@@ -67,7 +67,7 @@ A pointer to a caller-allocated buffer to which the routine writes the value of 
 ### -param ValueLength [in, out]
 
 
-A pointer to a location that contains the buffer size. On entry, the location pointed to by this parameter contains the size, in bytes, of the caller-supplied <i>Value</i> buffer. Before exiting, the routine writes to this location the size, in bytes, of the variable value. If the routine returns STATUS_SUCCESS, the *<i>ValueLength</i> output value is the number of bytes of data written to the <i>Value</i> buffer. If the routine returns STATUS_BUFFER_TOO_SMALL, *<i>ValueLength</i> is the required buffer size.
+A pointer to a location that contains the buffer size. On entry, the location pointed to by this parameter contains the size, in bytes, of the caller-supplied <i>Value</i> buffer. Before exiting, the routine writes to this location the size, in bytes, of the variable value. If the routine returns STATUS_SUCCESS, the **ValueLength* output value is the number of bytes of data written to the <i>Value</i> buffer. If the routine returns STATUS_BUFFER_TOO_SMALL, **ValueLength* is the required buffer size.
 
 ### -param Attributes [out, optional]
 

@@ -98,7 +98,7 @@ Note that as chunks are completed by the GPU asynchronously, this parameter only
 
 ## -returns
 
-If info on an encode chunk was returned successfully, the <b>STATUS_SUCCESS</b> status code is returned, and the value of *<i>pChunkDataBufferSize</i> is non-zero.
+If info on an encode chunk was returned successfully, the <b>STATUS_SUCCESS</b> status code is returned, and the value of **pChunkDataBufferSize* is non-zero.
 
 These additional status codes can be returned:
 

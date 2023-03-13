@@ -139,7 +139,7 @@ The filter instance is not registered.
 
 Every minifilter driver must call <b>FltRegisterFilter</b> from its <b>DriverEntry</b> routine to add itself to the global list of registered minifilter drivers and to provide the Filter Manager with a list of callback functions and other information about the minifilter driver. 
 
-<b>FltRegisterFilter</b> returns an opaque filter pointer for the minifilter driver in *<i>RetFilter</i>. This pointer value uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded. The minifilter driver should save this pointer, because it is a required parameter for <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltstartfiltering">FltStartFiltering</a> and <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltunregisterfilter">FltUnregisterFilter</a>. 
+<b>FltRegisterFilter</b> returns an opaque filter pointer for the minifilter driver in **RetFilter*. This pointer value uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded. The minifilter driver should save this pointer, because it is a required parameter for <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltstartfiltering">FltStartFiltering</a> and <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltunregisterfilter">FltUnregisterFilter</a>. 
 
 After calling <b>FltRegisterFilter</b>, a minifilter driver typically calls <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltstartfiltering">FltStartFiltering</a> to begin filtering I/O operations. 
 

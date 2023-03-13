@@ -69,11 +69,11 @@ A pointer to the input value that is compared with the value of <i>Comparand</i>
 
 ## -returns
 
-<b>InterlockedCompareExchange</b> returns the original value of *<i>Destination</i>.
+<b>InterlockedCompareExchange</b> returns the original value of **Destination*.
 
 ## -remarks
 
-If <i>Comparand</i> is equal to *<i>Destination</i>, then *<i>Destination</i> is set to equal <i>Exchange</i>. Otherwise, *<i>Destination</i> is unchanged.
+If <i>Comparand</i> is equal to **Destination*, then **Destination* is set to equal <i>Exchange</i>. Otherwise, **Destination* is unchanged.
 
 <b>InterlockedCompareExchange</b> provides a fast, atomic way to synchronize the testing and updating of a variable that is shared by multiple threads. If the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>, the output value of <i>Destination</i> is set to the value of <i>Exchange</i>. 
 

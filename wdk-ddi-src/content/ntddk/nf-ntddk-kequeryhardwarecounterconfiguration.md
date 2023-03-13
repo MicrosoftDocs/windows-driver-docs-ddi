@@ -62,7 +62,7 @@ Specifies the maximum number of elements that the routine can write to the buffe
 ### -param Count [out]
 
 
-A pointer to a location into which the routine writes the number of array elements that it has written to the buffer that is pointed to by the <i>CounterArray</i> parameter. If the buffer length that is specified by <i>MaximumCount</i> is not large enough to contain the entire array, the routine writes the required length to *<i>Count</i> and returns STATUS_BUFFER_TOO_SMALL.
+A pointer to a location into which the routine writes the number of array elements that it has written to the buffer that is pointed to by the <i>CounterArray</i> parameter. If the buffer length that is specified by <i>MaximumCount</i> is not large enough to contain the entire array, the routine writes the required length to **Count* and returns STATUS_BUFFER_TOO_SMALL.
 
 ## -returns
 
