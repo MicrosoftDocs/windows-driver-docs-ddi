@@ -1,10 +1,9 @@
 ---
 UID: NS:prntfont._UFF_FILEHEADER
-title: _UFF_FILEHEADER (prntfont.h)
+title: UFF_FILEHEADER (prntfont.h)
 description: The UFF_FILEHEADER structure is used to define the contents of Unidrv font format files (.uff files).
-old-location: print\uff_fileheader.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 03/08/2023
 keywords: ["UFF_FILEHEADER structure"]
 ms.keywords: "*PUFF_FILEHEADER, PUFF_FILEHEADER, PUFF_FILEHEADER structure pointer [Print Devices], UFF_FILEHEADER, UFF_FILEHEADER structure [Print Devices], _UFF_FILEHEADER, print.uff_fileheader, print_unidrv-pscript_fonts_a51bc6b1-df89-423f-83e8-9fad0cd20729.xml, prntfont/PUFF_FILEHEADER, prntfont/UFF_FILEHEADER"
 req.header: prntfont.h
@@ -46,12 +45,9 @@ api_name:
  - UFF_FILEHEADER
 ---
 
-# _UFF_FILEHEADER structure
-
-
 ## -description
 
-The UFF_FILEHEADER structure is used to define the contents of <a href="/windows-hardware/drivers/print/customized-font-management">Unidrv font format files</a> (.uff files).
+The UFF_FILEHEADER structure is used to define the contents of [Unidrv font format files](/windows-hardware/drivers/print/customized-font-management) (.uff files).
 
 ## -struct-fields
 
@@ -69,7 +65,7 @@ Specifies the size, in bytes, of the UFF_FILEHEADER structure.
 
 ### -field nFonts
 
-Specifies the number of fonts specified within the .uff file and identified by <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a> structures. This is also the number of <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory">UFF_FONTDIRECTORY</a> structures within the .uff file.
+Specifies the number of fonts specified within the .uff file and identified by [**DATA_HEADER**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header) structures. This is also the number of [**UFF_FONTDIRECTORY**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory) structures within the .uff file.
 
 ### -field nGlyphSets
 
@@ -81,28 +77,15 @@ Specifies the  number of variable data sections specified within the .uff file a
 
 ### -field offFontDir
 
-Specifies the offset, in bytes, from the beginning of the .uff file to the beginning of the first <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory">UFF_FONTDIRECTORY</a> structure.
+Specifies the offset, in bytes, from the beginning of the .uff file to the beginning of the first [**UFF_FONTDIRECTORY**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory) structure.
 
 ### -field dwFlags
 
 Is a set of bit flags, as specified in the following table.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Definition</th>
-</tr>
-<tr>
-<td>
-FONT_DIR_SORTED
-
-</td>
-<td>
-The array of UFF_FONTDIRECTORY structures (specified by <b>offFontDir</b>) is sorted by the contents of that structure's <b>wFontID</b> member.
-
-</td>
-</tr>
-</table>
+| Flag | Definition |
+|---|---|
+| FONT_DIR_SORTED | The array of UFF_FONTDIRECTORY structures (specified by **offFontDir**) is sorted by the contents of that structure's **wFontID** member. |
 
 ### -field dwReserved
 
@@ -110,9 +93,6 @@ Reserved. Must be set to zero.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a>
+[**DATA_HEADER**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header)
 
-
-
-<a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory">UFF_FONTDIRECTORY</a>
-
+[**UFF_FONTDIRECTORY**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory)

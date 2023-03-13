@@ -2,9 +2,8 @@
 UID: NS:winddiui._ATTRIBUTE_INFO_2
 title: _ATTRIBUTE_INFO_2 (winddiui.h)
 description: The ATTRIBUTE_INFO_2 structure is used as a parameter for a printer interface DLL's DrvQueryJobAttributes function. All member values are function-supplied.
-old-location: print\attribute_info_2.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 03/09/2023
 keywords: ["ATTRIBUTE_INFO_2 structure"]
 ms.keywords: "*PATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2 structure [Print Devices], PATTRIBUTE_INFO_2, PATTRIBUTE_INFO_2 structure pointer [Print Devices], _ATTRIBUTE_INFO_2, print.attribute_info_2, print_interface-graphics_681158ae-a9ad-40f6-a3de-c82cda7156e0.xml, winddiui/ATTRIBUTE_INFO_2, winddiui/PATTRIBUTE_INFO_2"
 req.header: winddiui.h
@@ -46,12 +45,9 @@ api_name:
  - ATTRIBUTE_INFO_2
 ---
 
-# _ATTRIBUTE_INFO_2 structure
-
-
 ## -description
 
-The ATTRIBUTE_INFO_2 structure is used as a parameter for a printer interface DLL's <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvqueryjobattributes">DrvQueryJobAttributes</a> function. All member values are function-supplied.
+The **ATTRIBUTE_INFO_2** structure is used as a parameter for a printer interface DLL's [DrvQueryJobAttributes](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvqueryjobattributes) function. All member values are function-supplied.
 
 ## -struct-fields
 
@@ -61,83 +57,30 @@ Number of document pages to be placed on one side of a physical page, as request
 
 ### -field dwDrvNumberOfPagesPerSide
 
-Number of document pages that the printer and driver can place on one side of a physical page. This value must be 1 or the value specified for <b>dwJobNumberOfPagesPerSide</b>.
+Number of document pages that the printer and driver can place on one side of a physical page. This value must be 1 or the value specified for **dwJobNumberOfPagesPerSide**.
 
 ### -field dwNupBorderFlags
 
 One of the following bit flag values:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Definition</th>
-</tr>
-<tr>
-<td>
-BORDER_PRINT
-
-</td>
-<td>
-The print processor should draw a border around the page.
-
-</td>
-</tr>
-<tr>
-<td>
-NO_BORDER_PRINT
-
-</td>
-<td>
-The print processor should not draw a border around the page.
-
-</td>
-</tr>
-</table>
+| Flag | Definition |
+|---|---|
+| BORDER_PRINT | The print processor should draw a border around the page. |
+| NO_BORDER_PRINT | The print processor should not draw a border around the page. |
 
 ### -field dwJobPageOrderFlags
 
 One of the following bit flag values:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Definition</th>
-</tr>
-<tr>
-<td>
-BOOKLET_PRINT
-
-</td>
-<td>
-Pages should be printed in booklet form, with two document pages printed on one side of a physical page. In landscape mode, the two document pages are printed side-by-side on the paper. In portrait mode, the two document pages are printed top-and-bottom.
-
-</td>
-</tr>
-<tr>
-<td>
-NORMAL_PRINT
-
-</td>
-<td>
-Pages should be printed in normal order: page 1, page 2, and so on.
-
-</td>
-</tr>
-<tr>
-<td>
-REVERSE_PRINT
-
-</td>
-<td>
-Pages should be printed in reverse order: last page, next-to-last page, and so on.
-
-</td>
-</tr>
-</table>
+| Flag | Definition |
+|---|---|
+| BOOKLET_PRINT | Pages should be printed in booklet form, with two document pages printed on one side of a physical page. In landscape mode, the two document pages are printed side-by-side on the paper. In portrait mode, the two document pages are printed top-and-bottom. |
+| NORMAL_PRINT | Pages should be printed in normal order: page 1, page 2, and so on. |
+| REVERSE_PRINT | Pages should be printed in reverse order: last page, next-to-last page, and so on. |
 
 ### -field dwDrvPageOrderFlags
 
-Bit flags indicating which page ordering options are supported by the printer and driver. Uses the same flags as <b>dwJobPageOrderFlags</b>.
+Bit flags indicating which page ordering options are supported by the printer and driver. Uses the same flags as **dwJobPageOrderFlags**.
 
 ### -field dwJobNumberOfCopies
 
@@ -151,50 +94,23 @@ Maximum number of copies the printer and driver can handle at once, taking into 
 
 One of the following bit flag values:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Definition</th>
-</tr>
-<tr>
-<td>
-COLOR_OPTIMIZATION
-
-</td>
-<td>
-The print processor should use monochrome color optimization.
-
-</td>
-</tr>
-<tr>
-<td>
-NO_COLOR_OPTIMIZATION
-
-</td>
-<td>
-The print processor should not use monochrome color optimization.
-
-</td>
-</tr>
-</table>
+| Flag | Definition |
+|---|---|
+| COLOR_OPTIMIZATION | The print processor should use monochrome color optimization. |
+| NO_COLOR_OPTIMIZATION | The print processor should not use monochrome color optimization. |
 
 ## -remarks
 
-The EMF print processor uses the flag specified for <b>dwColorOptimization</b> to determine whether to request GDI to perform monochrome color optimization. If monochrome color optimization is enabled, the print job can be switched between monochrome and color rendering as appropriate.
+The EMF print processor uses the flag specified for **dwColorOptimization** to determine whether to request GDI to perform monochrome color optimization. If monochrome color optimization is enabled, the print job can be switched between monochrome and color rendering as appropriate.
 
-If you are creating a Unidrv rendering plug-in to generate color watermarks, note that when the <b>dwColorOptimization</b> member is set to COLOR_OPTIMIZATION, color watermarks are printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization. Color optimization also can be controlled by the Unidrv *<b>ChangeColorModeOnDoc?</b> color attribute (see <a href="/windows-hardware/drivers/print/color-attributes">Color Attributes</a>), and by the <a href="/windows-hardware/drivers/ddi/winppi/nf-winppi-gdiendpageemf">GdiEndPageEMF</a> function. 
+If you are creating a Unidrv rendering plug-in to generate color watermarks, note that when the **dwColorOptimization** member is set to COLOR_OPTIMIZATION, color watermarks are printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization. Color optimization also can be controlled by the Unidrv ***ChangeColorModeOnDoc?** color attribute (see [Color Attributes](/windows-hardware/drivers/print/color-attributes)), and by the [GdiEndPageEMF](/windows-hardware/drivers/ddi/winppi/nf-winppi-gdiendpageemf) function.
 
-For more information about other structure members, see <a href="/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_1">ATTRIBUTE_INFO_1</a>.
+For more information about other structure members, see [**ATTRIBUTE_INFO_1**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_1).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_1">ATTRIBUTE_INFO_1</a>
+[**ATTRIBUTE_INFO_1**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_1)
 
+[DrvQueryJobAttributes](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvqueryjobattributes)
 
-
-<a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvqueryjobattributes">DrvQueryJobAttributes</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/winppi/nf-winppi-gdiendpageemf">GdiEndPageEMF</a>
-
+[GdiEndPageEMF](/windows-hardware/drivers/ddi/winppi/nf-winppi-gdiendpageemf)

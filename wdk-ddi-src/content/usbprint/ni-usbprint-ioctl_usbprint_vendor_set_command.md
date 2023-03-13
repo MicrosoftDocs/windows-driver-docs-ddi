@@ -2,9 +2,8 @@
 UID: NI:usbprint.IOCTL_USBPRINT_VENDOR_SET_COMMAND
 title: IOCTL_USBPRINT_VENDOR_SET_COMMAND (usbprint.h)
 description: The IOCTL_USBPRINT_VENDOR_SET_COMMAND request allows upper-layer software (such as a language monitor) to issue a vendor-specific SET command to the target device.
-old-location: print\ioctl_usbprint_vendor_set_command.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 03/08/2023
 keywords: ["IOCTL_USBPRINT_VENDOR_SET_COMMAND IOCTL"]
 ms.keywords: IOCTL_USBPRINT_VENDOR_SET_COMMAND, IOCTL_USBPRINT_VENDOR_SET_COMMAND control, IOCTL_USBPRINT_VENDOR_SET_COMMAND control code [Print Devices], print.ioctl_usbprint_vendor_set_command, usbioctl_b3ea3ada-47c2-4acc-b08c-2d16e9d3ead1.xml, usbprint/IOCTL_USBPRINT_VENDOR_SET_COMMAND
 req.header: usbprint.h
@@ -40,12 +39,9 @@ api_name:
  - IOCTL_USBPRINT_VENDOR_SET_COMMAND
 ---
 
-# IOCTL_USBPRINT_VENDOR_SET_COMMAND IOCTL
-
-
 ## -description
 
-The <b>IOCTL_USBPRINT_VENDOR_SET_COMMAND</b> request allows upper-layer software (such as a language monitor) to issue a vendor-specific SET command to the target device.
+The **IOCTL_USBPRINT_VENDOR_SET_COMMAND** request allows upper-layer software (such as a language monitor) to issue a vendor-specific SET command to the target device.
 
 ## -ioctlparameters
 
@@ -53,52 +49,12 @@ The <b>IOCTL_USBPRINT_VENDOR_SET_COMMAND</b> request allows upper-layer software
 
 A pointer to a input buffer, an array of UCHAR elements. The meaning of each array element is shown in the following table.
 
-<table>
-<tr>
-<th>Array Element</th>
-<th>Contents</th>
-</tr>
-<tr>
-<td>
-<i>lpInBuffer</i>[0]
-
-</td>
-<td>
-Vendor request code
-
-</td>
-</tr>
-<tr>
-<td>
-<i>lpInBuffer</i>[1]
-
-</td>
-<td>
-Vendor request value (most significant byte)
-
-</td>
-</tr>
-<tr>
-<td>
-<i>lpInBuffer</i>[2]
-
-</td>
-<td>
-Vendor request value (least significant byte)
-
-</td>
-</tr>
-<tr>
-<td>
-<i>lpInBuffer</i>[3], ...
-
-</td>
-<td>
-Any additional data to be sent as part of the command
-
-</td>
-</tr>
-</table>
+| Array Element | Contents |
+|---|---|
+| *lpInBuffer*\[0\] | Vendor request code |
+| *lpInBuffer*\[1\] | Vendor request value (most significant byte) |
+| *lpInBuffer*\[2\] | Vendor request value (least significant byte) |
+| *lpInBuffer*\[3\], ... | Any additional data to be sent as part of the command |
 
 ### -input-buffer-length
 
@@ -106,7 +62,7 @@ The size of the input buffer, in bytes.
 
 ### -output-buffer
 
-Not used in this operation; set this parameter to <b>NULL</b>.
+Not used in this operation; set this parameter to **NULL**.
 
 ### -output-buffer-length
 
@@ -118,24 +74,16 @@ Not used in this operation; set this parameter to 0.
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
+**Irp->IoStatus.Status** is set to **STATUS_SUCCESS** if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) code.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
+[Creating IOCTL Requests in Drivers](/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers)
 
+[IOCTL_USBPRINT_VENDOR_GET_COMMAND](/windows-hardware/drivers/ddi/usbprint/ni-usbprint-ioctl_usbprint_vendor_get_command)
 
+[WdfIoTargetSendInternalIoctlOthersSynchronously](/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously)
 
-<a href="/windows-hardware/drivers/ddi/usbprint/ni-usbprint-ioctl_usbprint_vendor_get_command">IOCTL_USBPRINT_VENDOR_GET_COMMAND</a>
+[WdfIoTargetSendInternalIoctlSynchronously](/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
+[WdfIoTargetSendIoctlSynchronously](/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously)

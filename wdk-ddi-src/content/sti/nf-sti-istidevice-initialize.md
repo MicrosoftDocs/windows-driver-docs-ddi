@@ -1,10 +1,9 @@
 ---
 UID: NF:sti.IStiDevice.Initialize
 title: IStiDevice::Initialize (sti.h)
-description: The IStiDevice::Initialize method initializes an instance of the COM object that defines the IStiDevice interface. This method is for internal use only.
-old-location: image\istidevice_initialize.htm
+description: This method is for internal use only.
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 03/08/2023
 keywords: ["IStiDevice::Initialize"]
 ms.keywords: IStiDevice interface [Imaging Devices],Initialize method, IStiDevice.Initialize, IStiDevice::Initialize, Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices],IStiDevice interface, image.istidevice_initialize, sti/IStiDevice::Initialize, stifnc_abeacac4-60ef-41f0-b70e-bf7da7fa110b.xml
 req.header: sti.h
@@ -40,77 +39,42 @@ api_name:
  - IStiDevice::Initialize
 ---
 
-# IStiDevice::Initialize
-
-
 ## -description
 
-The <b>IStiDevice::Initialize</b> method initializes an instance of the COM object that defines the <b>IStiDevice</b> interface. <i>This method is for internal use only</i>.
+This method is for internal use only.
+
+The **IStiDevice::Initialize** method initializes an instance of the COM object that defines the **IStiDevice** interface.
 
 ## -parameters
 
 ### -param hinst [in]
 
-
-Caller-supplied instance handle of the calling process. This handle is obtained by calling <b>GetModuleName</b>(NULL).
+Caller-supplied instance handle of the calling process. This handle is obtained by calling **GetModuleName**(NULL).
 
 ### -param pwszDeviceName [in]
 
-
-Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)">IStillImage::GetSTILaunchInformation</a>.
+Caller-supplied pointer to a string representing an internal device name, obtained by calling [IStillImage::GetSTILaunchInformation](/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)).
 
 ### -param dwVersion
 
-Caller-supplied STI version number. This value must be STI_VERSION, defined in <i>Sti.h</i>.
+Caller-supplied STI version number. This value must be STI_VERSION, defined in *Sti.h*.
 
 ### -param dwMode
 
-Caller-supplied constant value indicating the <a href="/windows-hardware/drivers/image/transfer-modes">Transfer Modes</a> in which the device is to be used. The following values are valid.
+Caller-supplied constant value indicating the [Transfer Modes](/windows-hardware/drivers/image/transfer-modes) in which the device is to be used. The following values are valid.
 
-<table>
-<tr>
-<th>Mode</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-STI_DEVICE_CREATE_BOTH
-
-</td>
-<td>
-The device is being opened for both obtaining status and transferring data.
-
-</td>
-</tr>
-<tr>
-<td>
-STI_DEVICE_CREATE_DATA
-
-</td>
-<td>
-The device is being opened only for data transfers.
-
-</td>
-</tr>
-<tr>
-<td>
-STI_DEVICE_CREATE_STATUS
-
-</td>
-<td>
-The device is being opened only for obtaining status information.
-
-</td>
-</tr>
-</table>
+| Mode | Description |
+|---|---|
+| STI_DEVICE_CREATE_BOTH | The device is being opened for both obtaining status and transferring data. |
+| STI_DEVICE_CREATE_DATA | The device is being opened only for data transfers. |
+| STI_DEVICE_CREATE_STATUS | The device is being opened only for obtaining status information. |
 
 ## -returns
 
-If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
+If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in *stierr.h*.
 
 ## -remarks
 
-The <b>IStiDevice::Initialize</b> method initializes the COM object instance that was created by calling <a href="/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a>.
+The **IStiDevice::Initialize** method initializes the COM object instance that was created by calling [IStillImage::CreateDevice](/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)).
 
-Because <b>IStiDevice::Initialize</b> is called by <b>IStillImage::CreateDevice</b>, clients of the <b>IStiDevice</b> interface do not typically call this method directly.
-
+Because **IStiDevice::Initialize** is called by **IStillImage::CreateDevice**, clients of the **IStiDevice** interface do not typically call this method directly.

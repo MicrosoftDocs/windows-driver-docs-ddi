@@ -2,9 +2,8 @@
 UID: NS:winspool._DRIVER_INFO_8W
 title: _DRIVER_INFO_8W (winspool.h)
 description: Learn how the DRIVER_INFO_8 structure contains printer driver information.
-old-location: print\driver_info_8.htm
 tech.root: print
-ms.date: 08/21/2020
+ms.date: 03/09/2023
 keywords: ["DRIVER_INFO_8W structure"]
 ms.keywords: "*LPDRIVER_INFO_8W, *PDRIVER_INFO_8W, DRIVER_INFO_8, DRIVER_INFO_8 structure [Print Devices], DRIVER_INFO_8W, LPDRIVER_INFO_8, LPDRIVER_INFO_8 structure pointer [Print Devices], PDRIVER_INFO_8, PDRIVER_INFO_8 structure pointer [Print Devices], _DRIVER_INFO_8W, print.driver_info_8, print_ticket-package_dba844e8-6e97-4eaf-8de4-1003562e01d5.xml, winspool/DRIVER_INFO_8, winspool/LPDRIVER_INFO_8, winspool/PDRIVER_INFO_8"
 req.header: winspool.h
@@ -46,9 +45,6 @@ api_name:
  - DRIVER_INFO_8W
 ---
 
-# _DRIVER_INFO_8W structure
-
-
 ## -description
 
 The DRIVER_INFO_8 structure contains printer driver information.
@@ -60,7 +56,7 @@ The DRIVER_INFO_8 structure contains printer driver information.
 This member specifies the operating system version for which the driver was written. Currently it can be the following.
 
 | Value | Meaning |
-| --- | --- |
+|---|---|
 | 3 | Driver for Microsoft Windows 2000, XP, or Windows Vista. |
 
 ### -field pName
@@ -147,191 +143,20 @@ A pointer to a null-terminated string that specifies the path of the INF file in
 
 This member specifies printer driver related properties. Must be zero if using the [AddPrinterDriver](/windows/win32/printdocs/addprinterdriver) or [AddPrinterDriverEx](/windows/win32/printdocs/addprinterdriverex) functions with DRIVER_INFO_8. The following table shows the flags that have been defined for the **dwPrinterDriverAttributes** parameter.
 
-<table>
-<tr>
-<th>Flag name/value</th>
-<th>Meaning</th>
-<th>Minimum OS</th>
-</tr>
-<tr>
-<td>
-PRINTER_DRIVER_PACKAGE_AWARE
-
-0x00000001
-
-</td>
-<td>The printer driver is part of a driver package.</td>
-<td>Windows Vista</td>
-</tr>
-<tr>
-<td>
-PRINTER_DRIVER_XPS
-
-0x00000002
-
-</td>
-<td>The printer driver supports the Microsoft XPS format described in the <a href="/previous-versions/windows/hardware/design/dn641615(v=vs.85)">XML Paper Specification: Overview</a>, and also in <a href="/openspecs/windows_protocols/ms-rprn/e81cbc09-ab05-4a32-ae4a-8ec57b436c43">Product Behavior, section <27></a>.</td>
-<td>
-Windows 8
-
-Windows Server 2012
-
-</td>
-</tr>
-<tr>
-<td>
-PRINTER_DRIVER_SANDBOX_ENABLED
-
-0x00000004
-
-</td>
-<td>The printer driver is compatible with <a href="/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">printer driver isolation</a>. For more information, see <a href="/openspecs/windows_protocols/ms-rprn/e81cbc09-ab05-4a32-ae4a-8ec57b436c43">Product Behavior, section <28></a>.</td>
-<td>
-Windows 7
-
-Windows Server 2008 R2
-
-</td>
-</tr>
-<tr>
-<td>
-PRINTER_DRIVER_CLASS
-
-0x00000008
-
-</td>
-<td>The printer driver is a <a href="/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">class printer driver</a>.</td>
-<td>
-Windows 8
-
-Windows Server 2012
-
-</td>
-</tr>
-<tr>
-<td>
-PRINTER_DRIVER_DERIVED
-
-0x00000010
-
-</td>
-<td>The printer driver is a <a href="/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">derived printer driver</a>.</td>
-<td>
-Windows 8
-
-Windows Server 2012
-
-</td>
-</tr>
-<tr>
-<td>
-PRINTER_DRIVER_NOT_SHAREABLE
-
-0x00000020
-
-</td>
-<td>Printers using this printer driver cannot be shared.</td>
-<td>
-Windows 8
-
-Windows Server 2012
-
-</td>
-</tr>
-<tr>
-<td>
-PRINTER_DRIVER_CATEGORY_FAX
-
-0x00000040
-
-</td>
-<td>The printer driver is intended for use with <a href="/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">fax printers</a>.</td>
-<td>
-Windows 8
-
-Windows Server 2012
-
-</td>
-</tr>
-<tr>
-<td>
-PRINTER_DRIVER_CATEGORY_FILE
-
-0x00000080
-
-</td>
-<td>The printer driver is intended for use with <a href="/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">file printers</a>.</td>
-<td>
-Windows 8
-
-Windows Server 2012
-
-</td>
-</tr>
-<tr>
-<td>
-PRINTER_DRIVER_CATEGORY_VIRTUAL
-
-0x00000100
-
-</td>
-<td>The printer driver is intended for use with <a href="/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">virtual printers</a>.</td>
-<td>
-Windows 8
-
-Windows Server 2012
-
-</td>
-</tr>
-<tr>
-<td>
-PRINTER_DRIVER_CATEGORY_SERVICE
-
-0x00000200
-
-</td>
-<td>The printer driver is intended for use with <a href="/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">service printers</a>.</td>
-<td>
-Windows 8
-
-Windows Server 2012
-
-</td>
-</tr>
-<tr>
-<td>
-PRINTER_DRIVER_SOFT_RESET_REQUIRED
-
-0x00000400
-
-</td>
-<td>Printers that use this printer driver should follow the guidelines outlined in <a href="https://go.microsoft.com/fwlink/p/?linkid=517016">USB Device Class Definition</a>. For more information, see <a href="/openspecs/windows_protocols/ms-rprn/e81cbc09-ab05-4a32-ae4a-8ec57b436c43">Product Behavior, section <36></a></td>
-<td>
-Windows 8
-
-Windows Server 2012
-
-</td>
-</tr>
-<tr>
-<td>
-PRINTER_DRIVER_CATEGORY_3D
-
-0x00001000
-
-</td>
-<td>
-The printer driver is intended for use with 3D printers.
-
-</td>
-<td>
-Windows 8
-
-Windows Server 2012
-
-</td>
-</tr>
-</table>
+| Flag name/value | Meaning | Minimum OS |
+|---|---|---|
+| PRINTER_DRIVER_PACKAGE_AWARE<br><br>0x00000001 | The printer driver is part of a driver package. | Windows Vista |
+| PRINTER_DRIVER_XPS<br><br>0x00000002 | The printer driver supports the Microsoft XPS format described in the [XML Paper Specification: Overview](/previous-versions/windows/hardware/design/dn641615(v=vs.85)), and also in [Product Behavior, section \<27\>](/openspecs/windows_protocols/ms-rprn/e81cbc09-ab05-4a32-ae4a-8ec57b436c43). | Windows 8<br><br>Windows Server 2012 |
+| PRINTER_DRIVER_SANDBOX_ENABLED<br><br>0x00000004 | The printer driver is compatible with [printer driver isolation](/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24). For more information, see [Product Behavior, section \<28\>](/openspecs/windows_protocols/ms-rprn/e81cbc09-ab05-4a32-ae4a-8ec57b436c43). | Windows 7<br><br>Windows Server 2008 R2 |
+| PRINTER_DRIVER_CLASS <br><br>0x00000008 | The printer driver is a [class printer driver](/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24). | Windows 8<br><br>Windows Server 2012 |
+| PRINTER_DRIVER_DERIVED<br><br>0x00000010 | The printer driver is a [derived printer driver](/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24). | Windows 8<br><br>Windows Server 2012 |
+| PRINTER_DRIVER_NOT_SHAREABLE<br><br>0x00000020 | Printers using this printer driver cannot be shared. | Windows 8<br><br>Windows Server 2012 |
+| PRINTER_DRIVER_CATEGORY_FAX<br><br>0x00000040 | The printer driver is intended for use with [fax printers](/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24). | Windows 8<br><br>Windows Server 2012 |
+| PRINTER_DRIVER_CATEGORY_FILE<br><br>0x00000080 | The printer driver is intended for use with [file printers](/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24). | Windows 8<br><br>Windows Server 2012 |
+| PRINTER_DRIVER_CATEGORY_VIRTUAL<br><br>0x00000100 | The printer driver is intended for use with [virtual printers](/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24). | Windows 8<br><br>Windows Server 2012 |
+| PRINTER_DRIVER_CATEGORY_SERVICE<br><br>0x00000200 | The printer driver is intended for use with [service printers](/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24). | Windows 8<br><br>Windows Server 2012 |
+| PRINTER_DRIVER_SOFT_RESET_REQUIRED<br><br>0x00000400 | Printers that use this printer driver should follow the guidelines outlined in [USB Device Class Definition](https://go.microsoft.com/fwlink/p/?linkid=517016). For more information, see [Product Behavior, section \<36\>](/openspecs/windows_protocols/ms-rprn/e81cbc09-ab05-4a32-ae4a-8ec57b436c43) | Windows 8<br><br>Windows Server 2012 |
+| PRINTER_DRIVER_CATEGORY_3D<br><br>0x00001000 | The printer driver is intended for use with 3D printers. | Windows 8<br><br>Windows Server 2012 |
 
 ### -field pszzCoreDriverDependencies
 
@@ -350,4 +175,3 @@ The earliest allowed version of any drivers that shipped with Windows and on whi
 The strings for these members are contained in the INF file that is used to add the driver.
 
 If you call **AddPrinterDriver** or **AddPrinterDriverEx** with Level not equal to 6 or 8, and then you call **GetPrinterDriver** or **EnumPrinterDrivers** with Level equal to 6 or 8, the **DRIVER_INFO_8** structure is returned with pszMfgName, pszOEMUrl, pszHardwareID, and pszProvider set to **NULL**, dwlDriverVersion set to zero, and ftDriverDate set to (0,0).
-

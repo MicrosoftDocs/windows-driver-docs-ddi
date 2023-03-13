@@ -2,9 +2,8 @@
 UID: NF:winddiui.DrvDriverEvent
 title: DrvDriverEvent function (winddiui.h)
 description: The print spooler calls a printer interface DLL's DrvDriverEvent function when the spooler processes driver-specific events that might require action by the printer driver.
-old-location: print\drvdriverevent.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 03/09/2023
 keywords: ["DrvDriverEvent function"]
 ms.keywords: DrvDriverEvent, DrvDriverEvent function [Print Devices], print.drvdriverevent, print_interface-graphics_41c98198-e5b7-4725-9b93-d467ec38e4c3.xml, winddiui/DrvDriverEvent
 req.header: winddiui.h
@@ -40,12 +39,9 @@ api_name:
  - DrvDriverEvent
 ---
 
-# DrvDriverEvent function
-
-
 ## -description
 
-The print spooler calls a printer interface DLL's <b>DrvDriverEvent</b> function when the spooler processes driver-specific events that might require action by the printer driver.
+The print spooler calls a printer interface DLL's **DrvDriverEvent** function when the spooler processes driver-specific events that might require action by the printer driver.
 
 ## -parameters
 
@@ -53,81 +49,26 @@ The print spooler calls a printer interface DLL's <b>DrvDriverEvent</b> function
 
 Caller-supplied bit flag indicating the event that has occurred. Valid flags are listed in the following table.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Definition</th>
-</tr>
-<tr>
-<td>
-DRIVER_EVENT_DELETE
-
-</td>
-<td>
-The driver is being removed.
-
-</td>
-</tr>
-<tr>
-<td>
-DRIVER_EVENT_INITIALIZE
-
-</td>
-<td>
-The driver has just been installed.
-
-</td>
-</tr>
-</table>
+| Flag | Definition |
+|---|---|
+| DRIVER_EVENT_DELETE | The driver is being removed. |
+| DRIVER_EVENT_INITIALIZE | The driver has just been installed. |
 
 ### -param dwLevel
 
-Caller-supplied value indicating the type of structure pointed to by the <i>pDriverInfo</i> parameter, as indicated in the following table.
+Caller-supplied value indicating the type of structure pointed to by the *pDriverInfo* parameter, as indicated in the following table.
 
-<table>
-<tr>
-<th><i>dwLevel</i> Value</th>
-<th>Structure pointed to by <i>pDriverInfo</i></th>
-</tr>
-<tr>
-<td>
-1
+| *dwLevel* Value | Structure pointed to by *pDriverInfo* |
+|---|---|
+| 1 | DRIVER_INFO_1 |
+| 2 | DRIVER_INFO_2 |
+| 3 | DRIVER_INFO_3 |
 
-</td>
-<td>
-DRIVER_INFO_1
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-DRIVER_INFO_2
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-DRIVER_INFO_3
-
-</td>
-</tr>
-</table>
- 
-
-The DRIVER_INFO_<i>N</i> structures are described in the Microsoft Windows SDK documentation.
+The DRIVER_INFO_*N* structures are described in the Microsoft Windows SDK documentation.
 
 ### -param pDriverInfo [in, optional]
 
-
-Caller-supplied pointer to a structure whose type is identified by the <i>dwLevel</i> parameter.
+Caller-supplied pointer to a structure whose type is identified by the *dwLevel* parameter.
 
 ### -param lParam
 
@@ -135,14 +76,14 @@ Caller-supplied flags. See the following Remarks section.
 
 ## -returns
 
-If the operation succeeds, the function should return <b>TRUE</b>. Otherwise, it should return <b>FALSE</b>.
+If the operation succeeds, the function should return **TRUE**. Otherwise, it should return **FALSE**.
 
 ## -remarks
 
-The optional <b>DrvDriverEvent</b> function is called by the spooler's <b>AddPrinterDriverEx</b> and <b>DeletePrinterDriverEx</b> functions, which are described in the Windows SDK documentation.
+The optional **DrvDriverEvent** function is called by the spooler's **AddPrinterDriverEx** and **DeletePrinterDriverEx** functions, which are described in the Windows SDK documentation.
 
-The function's purpose is to allow a printer driver's <a href="/windows-hardware/drivers/print/printer-interface-dll">printer interface DLL</a> to perform operations needed when the driver is installed or removed. A typical operation for this function to perform is to create or remove extra driver-specific files that are not specified as dependent files in a <a href="/windows-hardware/drivers/print/printer-inf-files">printer INF file</a>.
+The function's purpose is to allow a printer driver's [printer interface DLL](/windows-hardware/drivers/print/printer-interface-dll) to perform operations needed when the driver is installed or removed. A typical operation for this function to perform is to create or remove extra driver-specific files that are not specified as dependent files in a [printer INF file](/windows-hardware/drivers/print/printer-inf-files).
 
-If <i>dwDriverEvent</i> is DRIVER_EVENT_DELETE, the <i>lparam</i> parameter contains the flags that were specified for the <b>DeletePrinterDriverEx</b> function's <i>dwDeleteFlag</i> parameter. The <i>lparam</i> parameter is not used if <i>dwDriverEvent</i> is DRIVER_EVENT_INITIALIZE.
+If *dwDriverEvent* is DRIVER_EVENT_DELETE, the *lparam* parameter contains the flags that were specified for the **DeletePrinterDriverEx** function's *dwDeleteFlag* parameter. The *lparam* parameter is not used if *dwDriverEvent* is DRIVER_EVENT_INITIALIZE.
 
-Because the <b>DrvDriverEvent</b> function is called in the context of the print spooler, it cannot display a user interface.
+Because the **DrvDriverEvent** function is called in the context of the print spooler, it cannot display a user interface.

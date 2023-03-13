@@ -3,7 +3,7 @@ UID: NF:winddiui.DrvSplDeviceCaps
 title: DrvSplDeviceCaps function (winddiui.h)
 description: A printer interface DLL's DrvSplDeviceCaps function queries a printer for its capabilities.
 tech.root: print
-ms.date: 04/19/2022
+ms.date: 03/09/2023
 keywords: ["DrvSplDeviceCaps function"]
 ms.keywords: DrvSplDeviceCaps, DrvSplDeviceCaps function [Print Devices], print.drvspldevicecaps, print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml, winddiui/DrvSplDeviceCaps
 req.header: winddiui.h
@@ -55,42 +55,12 @@ Caller-supplied pointer to a Unicode string that contains the printer name.
 
 ### -param Capability
 
-Caller-supplied bit flag that indicates the capability to query for. (The flags are defined in header file wingdi.h.) This function is not required to support all of the DC_<i>XXX</i> flags, but it must support those listed in the following table.
+Caller-supplied bit flag that indicates the capability to query for. (The flags are defined in header file wingdi.h.) This function is not required to support all of the DC_*XXX* flags, but it must support those listed in the following table.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Definition</th>
-</tr>
-<tr>
-<td>
-DC_MEDIAREADY
-
-</td>
-<td>
-The <i>pOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each array element should contain a NULL-terminated string representing a name for a paper form that is available for use.
-
-The function's return value should be the number of elements in the returned array.
-
-If <i>pOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
-
-</td>
-</tr>
-<tr>
-<td>
-DC_PAPERNAMES
-
-</td>
-<td>
-The <i>pOutput</i> parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each array element should contain a NULL-terminated string representing a name for a paper form.
-
-The function's return value should be the number of elements in the returned array.
-
-If <i>pOutput</i> is <b>NULL</b>, the function should just return the number of array elements required.
-
-</td>
-</tr>
-</table>
+| Flag | Definition |
+|---|---|
+| DC_MEDIAREADY | The *pOutput* parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each array element should contain a NULL-terminated string representing a name for a paper form that is available for use. The function's return value should be the number of elements in the returned array. If *pOutput* is **NULL**, the function should just return the number of array elements required. |
+| DC_PAPERNAMES | The *pOutput* parameter points to a buffer that the function should fill with an array of string buffers, each 64 characters in length. Each array element should contain a NULL-terminated string representing a name for a paper form. The function's return value should be the number of elements in the returned array. If *pOutput* is **NULL**, the function should just return the number of array elements required. |
 
 ### -param pOutput  [out, optional]
 
@@ -102,7 +72,7 @@ Caller-supplied size (in characters) of the buffer pointed to by the *pOutput* p
 
 ### -param pDevmode  [in, optional]
 
-Caller-supplied pointer to a [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure that describes the current print job characteristics. If **NULL**, the function should use the driver's internal default DEVMODEW structure.
+Caller-supplied pointer to a [**DEVMODEW**](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure that describes the current print job characteristics. If **NULL**, the function should use the driver's internal default DEVMODEW structure.
 
 ## -returns
 

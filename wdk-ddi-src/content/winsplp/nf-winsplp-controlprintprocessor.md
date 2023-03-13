@@ -2,9 +2,8 @@
 UID: NF:winsplp.ControlPrintProcessor
 title: ControlPrintProcessor function (winsplp.h)
 description: A print processor's ControlPrintProcessor function allows the spooler to control a print job.
-old-location: print\controlprintprocessor.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 03/09/2023
 keywords: ["ControlPrintProcessor function"]
 ms.keywords: ControlPrintProcessor, ControlPrintProcessor function [Print Devices], print.controlprintprocessor, spoolfnc_203120f1-7819-448e-9813-3aa2b24bfd7f.xml, winsplp/ControlPrintProcessor
 req.header: winsplp.h
@@ -41,76 +40,38 @@ api_name:
  - ControlPrintProcessor
 ---
 
-# ControlPrintProcessor function
-
-
 ## -description
 
-A print processor's <b>ControlPrintProcessor</b> function allows the spooler to control a print job.
+A print processor's **ControlPrintProcessor** function allows the spooler to control a print job.
 
 ## -parameters
 
 ### -param hPrintProcessor [in]
 
-
-Caller-supplied print processor handle. This is the handle returned by a previous call to <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>.
+Caller-supplied print processor handle. This is the handle returned by a previous call to [OpenPrintProcessor](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor).
 
 ### -param Command [in]
 
-
 Caller-supplied command indicating the type of operation to perform. The following commands are valid:
 
-<table>
-<tr>
-<th>Command</th>
-<th>Definition</th>
-</tr>
-<tr>
-<td>
-JOB_CONTROL_CANCEL
-
-</td>
-<td>
-The function should cancel the current print job.
-
-</td>
-</tr>
-<tr>
-<td>
-JOB_CONTROL_PAUSE
-
-</td>
-<td>
-The function should pause the current print job.
-
-</td>
-</tr>
-<tr>
-<td>
-JOB_CONTROL_RESUME
-
-</td>
-<td>
-The function should resume the current print job.
-
-</td>
-</tr>
-</table>
+| Command | Definition |
+|---|---|
+| JOB_CONTROL_CANCEL | The function should cancel the current print job. |
+| JOB_CONTROL_PAUSE | The function should pause the current print job. |
+| JOB_CONTROL_RESUME | The function should resume the current print job. |
 
 ## -returns
 
-If the operation succeeds, the function should return <b>TRUE</b>. If the operation fails, the function should call SetLastError to set an error code, and then return <b>FALSE</b>.
+If the operation succeeds, the function should return **TRUE**. If the operation fails, the function should call SetLastError to set an error code, and then return **FALSE**.
 
 ## -remarks
 
-Print processors are required to export a <b>ControlPrintProcessor</b> function. The spooler calls the function when an application calls the SetJob function, described in the Microsoft Windows SDK documentation.
+Print processors are required to export a **ControlPrintProcessor** function. The spooler calls the function when an application calls the SetJob function, described in the Microsoft Windows SDK documentation.
 
-Based on the value received for <i>Command</i>, the function should either pause, resume, or cancel the current job. The <b>ControlPrintProcessor</b> function can be called asynchronously while the print processor's <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-printdocumentonprintprocessor">PrintDocumentOnPrintProcessor</a> function is executing. Thus some sort of synchronization technique must be employed, such as setting an internally-defined event object to pause a job and resetting the event object when the job is resumed. The <b>ControlPrintProcessor</b> function can quickly return after setting or resetting the event object, and PrintDocumentOnPrintProcessor can wait for the event to be in the proper state.
+Based on the value received for *Command*, the function should either pause, resume, or cancel the current job. The **ControlPrintProcessor** function can be called asynchronously while the print processor's [PrintDocumentOnPrintProcessor](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-printdocumentonprintprocessor) function is executing. Thus some sort of synchronization technique must be employed, such as setting an internally-defined event object to pause a job and resetting the event object when the job is resumed. The **ControlPrintProcessor** function can quickly return after setting or resetting the event object, and PrintDocumentOnPrintProcessor can wait for the event to be in the proper state.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>
+[OpenPrintProcessor](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor)
 
-
-
-<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-printdocumentonprintprocessor">PrintDocumentOnPrintProcessor</a>
+[PrintDocumentOnPrintProcessor](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-printdocumentonprintprocessor)

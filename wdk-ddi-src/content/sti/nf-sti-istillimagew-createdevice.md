@@ -2,9 +2,8 @@
 UID: NF:sti.IStillImageW.CreateDevice
 title: IStillImageW::CreateDevice (sti.h)
 description: The IStillImage::CreateDevice method creates an instance of the COM object that defines the IStiDevice COM Interface, and returns a pointer to the interface.
-old-location: image\istillimage_createdevice.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 03/08/2023
 keywords: ["IStillImageW::CreateDevice"]
 ms.keywords: CreateDevice, CreateDevice method [Imaging Devices], CreateDevice method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],CreateDevice method, IStillImageW.CreateDevice, IStillImageW::CreateDevice, image.istillimage_createdevice, sti/IStillImageW::CreateDevice, stifnc_07253e3c-b24e-4557-885f-3e17fb5dc293.xml
 req.header: sti.h
@@ -40,86 +39,46 @@ api_name:
  - IStillImageW::CreateDevice
 ---
 
-# IStillImageW::CreateDevice
-
-
 ## -description
 
-The <b>IStillImage::CreateDevice</b> method creates an instance of the COM object that defines the <a href="/windows-hardware/drivers/image/istidevice-com-interface">IStiDevice COM Interface</a>, and returns a pointer to the interface.
+The **IStillImage::CreateDevice** method creates an instance of the COM object that defines the [IStiDevice COM Interface](/windows-hardware/drivers/image/istidevice-com-interface), and returns a pointer to the interface.
 
 ## -parameters
 
 ### -param pwszDeviceName [in]
 
-
-Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)">IStillImage::GetSTILaunchInformation</a> or <a href="/previous-versions/windows/hardware/drivers/ff543784(v=vs.85)">IStillImage::GetDeviceList</a>.
+Caller-supplied pointer to a string representing an internal device name, obtained by calling [IStillImage::GetSTILaunchInformation](/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)) or [IStillImage::GetDeviceList](/previous-versions/windows/hardware/drivers/ff543784(v=vs.85)).
 
 ### -param dwMode
 
-Caller-supplied constant value indicating the <a href="/windows-hardware/drivers/image/transfer-modes">Transfer Modes</a> in which the device is to be used. The following values are valid.
+Caller-supplied constant value indicating the [Transfer Modes](/windows-hardware/drivers/image/transfer-modes) in which the device is to be used. The following values are valid.
 
-<table>
-<tr>
-<th>Mode</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-STI_DEVICE_CREATE_BOTH
-
-</td>
-<td>
-The device is being opened for both obtaining status and transferring data.
-
-</td>
-</tr>
-<tr>
-<td>
-STI_DEVICE_CREATE_DATA
-
-</td>
-<td>
-The device is being opened only for data transfers.
-
-</td>
-</tr>
-<tr>
-<td>
-STI_DEVICE_CREATE_STATUS
-
-</td>
-<td>
-The device is being opened only for obtaining status information.
-
-</td>
-</tr>
-</table>
+| Mode | Description |
+|---|---|
+| STI_DEVICE_CREATE_BOTH | The device is being opened for both obtaining status and transferring data. |
+| STI_DEVICE_CREATE_DATA | The device is being opened only for data transfers. |
+| STI_DEVICE_CREATE_STATUS | The device is being opened only for obtaining status information. |
 
 ### -param pDevice [out]
 
-
-Receives a pointer to the <a href="/windows-hardware/drivers/image/istidevice-com-interface">IStiDevice COM Interface</a>.
+Receives a pointer to the [IStiDevice COM Interface](/windows-hardware/drivers/image/istidevice-com-interface).
 
 ### -param punkOuter [in, optional]
 
-
-Optional, caller-supplied pointer to the "controlling unknown" for object aggregation. See the following <b>Remarks</b> section.
+Optional, caller-supplied pointer to the "controlling unknown" for object aggregation. See the following **Remarks** section.
 
 ## -returns
 
-If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
+If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in *stierr.h*.
 
 ## -remarks
 
-For an application to use the <b>IStiDevice</b> interface, it must first call <a href="/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to get a pointer to the <b>IStillImage</b> interface, then call <b>IStillImage::CreateDevice</b> to get a pointer to the <b>IStiDevice</b> interface. The pointer received in <i>pDevice</i> is used subsequently when calling <b>IStiDevice</b> methods, as illustrated in the sample still image code, to obtain access to the specified device.
+For an application to use the **IStiDevice** interface, it must first call [IStillImage::StiCreateInstance](/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)) to get a pointer to the **IStillImage** interface, then call **IStillImage::CreateDevice** to get a pointer to the **IStiDevice** interface. The pointer received in *pDevice* is used subsequently when calling **IStiDevice** methods, as illustrated in the sample still image code, to obtain access to the specified device.
 
-If you want to create an aggregate COM object that includes <b>IStiDevice</b>, you must supply a pointer to the "controlling unknown" in <i>punkOuter</i>. In most cases you will not be creating an aggregate object, so <i>punkOuter</i> should be <b>NULL</b>. Object aggregation and the controlling unknown are described in the Microsoft Windows SDK documentation and in the <i>Component Object Model Specification</i>.
+If you want to create an aggregate COM object that includes **IStiDevice**, you must supply a pointer to the "controlling unknown" in *punkOuter*. In most cases you will not be creating an aggregate object, so *punkOuter* should be **NULL**. Object aggregation and the controlling unknown are described in the Microsoft Windows SDK documentation and in the *Component Object Model Specification*.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-release">IStiDevice::Release</a>
+[IStiDevice::Release](/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-release)
 
-
-
-<a href="/windows-hardware/drivers/ddi/_image/index">IStillImageW</a>
-
+[IStillImageW](/windows-hardware/drivers/ddi/_image/index)

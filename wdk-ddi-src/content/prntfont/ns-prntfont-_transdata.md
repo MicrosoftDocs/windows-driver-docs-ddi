@@ -1,9 +1,9 @@
 ---
 UID: NS:prntfont._TRANSDATA
-title: _TRANSDATA (prntfont.h)
+title: TRANSDATA (prntfont.h)
 description: The TRANSDATA structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 tech.root: print
-ms.date: 03/07/2023
+ms.date: 03/08/2023
 keywords: ["TRANSDATA structure"]
 ms.keywords: "*PTRANSDATA, PTRANSDATA, PTRANSDATA structure pointer [Print Devices], TRANSDATA, TRANSDATA structure [Print Devices], _TRANSDATA, print.transdata, print_unidrv-pscript_fonts_e41871c1-fc38-460e-b9e7-1df0564933e1.xml, prntfont/PTRANSDATA, prntfont/TRANSDATA"
 req.header: prntfont.h
@@ -100,12 +100,12 @@ Specifies a two-byte character code. Valid if the MTYPE_PAIRED flag is set in **
 
 ## -remarks
 
-A .gtt file's TRANSDATA structure array, which contains glyph mapping information, is contained in the file's [MAPTABLE](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable) structure.
+A .gtt file's TRANSDATA structure array, which contains glyph mapping information, is contained in the file's [**MAPTABLE**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable) structure.
 
 ## -see-also
 
-[MAPTABLE](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable)
+[**MAPTABLE**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable)
 
-[UNI_CODEPAGEINFO](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_codepageinfo)
+[**UNI_CODEPAGEINFO**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_codepageinfo)
 
-[UNI_GLYPHSETDATA](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata)
+[**UNI_GLYPHSETDATA**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata)

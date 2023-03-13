@@ -2,9 +2,8 @@
 UID: NS:ksmedia.KSAUDIO_PREFERRED_STATUS
 title: KSAUDIO_PREFERRED_STATUS (ksmedia.h)
 description: The KSAUDIO_PREFERRED_STATUS structure specifies the status of a preferred device.
-old-location: audio\ksaudio_preferred_status.htm
 tech.root: audio
-ms.date: 04/30/2019
+ms.date: 03/10/2023
 keywords: ["KSAUDIO_PREFERRED_STATUS structure"]
 ms.keywords: "*PKSAUDIO_PREFERRED_STATUS, KSAUDIO_PREFERRED_STATUS, KSAUDIO_PREFERRED_STATUS structure [Audio Devices], PKSAUDIO_PREFERRED_STATUS, PKSAUDIO_PREFERRED_STATUS structure pointer [Audio Devices], aud-prop_a1287dc0-98ad-4071-be11-41e51b6b4846.xml, audio.ksaudio_preferred_status, ksmedia/KSAUDIO_PREFERRED_STATUS, ksmedia/PKSAUDIO_PREFERRED_STATUS"
 req.header: ksmedia.h
@@ -43,9 +42,6 @@ api_name:
  - KSAUDIO_PREFERRED_STATUS
 ---
 
-# KSAUDIO_PREFERRED_STATUS structure
-
-
 ## -description
 
 The KSAUDIO_PREFERRED_STATUS structure specifies the status of a preferred device.
@@ -54,69 +50,19 @@ The KSAUDIO_PREFERRED_STATUS structure specifies the status of a preferred devic
 
 ### -field Enable
 
-Specifies whether the target device is the new preferred device. If <b>TRUE</b>, the target device is selected as the new preferred device. If <b>FALSE</b>, the target device was previously the preferred device, but is now deselected.
+Specifies whether the target device is the new preferred device. If **TRUE**, the target device is selected as the new preferred device. If **FALSE**, the target device was previously the preferred device, but is now deselected.
 
 ### -field DeviceType
 
 Specifies the type of preferred device. This parameter is set to one of the following constants:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Device type</th>
-</tr>
-<tr>
-<td>
-KSPROPERTY_SYSAUDIO_NORMAL_DEFAULT
-
-</td>
-<td>
-Preferred device for wave playback/recording, MIDI, and mixer topology.
-
-</td>
-</tr>
-<tr>
-<td>
-KSPROPERTY_SYSAUDIO_PLAYBACK_DEFAULT
-
-</td>
-<td>
-Preferred wave playback device.
-
-</td>
-</tr>
-<tr>
-<td>
-KSPROPERTY_SYSAUDIO_RECORD_DEFAULT
-
-</td>
-<td>
-Preferred wave recording device.
-
-</td>
-</tr>
-<tr>
-<td>
-KSPROPERTY_SYSAUDIO_MIDI_DEFAULT
-
-</td>
-<td>
-Preferred MIDI device.
-
-</td>
-</tr>
-<tr>
-<td>
-KSPROPERTY_SYSAUDIO_MIXER_DEFAULT
-
-</td>
-<td>
-Preferred mixer topology device.
-
-</td>
-</tr>
-</table>
- 
+| Value | Device type |
+|---|---|
+| KSPROPERTY_SYSAUDIO_NORMAL_DEFAULT | Preferred device for wave playback/recording, MIDI, and mixer topology. |
+| KSPROPERTY_SYSAUDIO_PLAYBACK_DEFAULT | Preferred wave playback device. |
+| KSPROPERTY_SYSAUDIO_RECORD_DEFAULT | Preferred wave recording device. |
+| KSPROPERTY_SYSAUDIO_MIDI_DEFAULT | Preferred MIDI device. |
+| KSPROPERTY_SYSAUDIO_MIXER_DEFAULT | Preferred mixer topology device. |
 
 The driver uses this member to determine what aspect or aspects of the audio adapter are currently selected as preferred. A driver might use this information to decide how to configure itself or decide what system resources to request.
 
@@ -130,15 +76,12 @@ Reserved for future use. Set to zero.
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/audio/ksproperty-audio-preferred-status">KSPROPERTY_AUDIO_PREFERRED_STATUS</a> property.
+This structure is used by the [KSPROPERTY_AUDIO_PREFERRED_STATUS](/windows-hardware/drivers/audio/ksproperty-audio-preferred-status) property.
 
-For information about the preferred device, see <a href="/windows-hardware/drivers/audio/setuppreferredaudiodevices">SetupPreferredAudioDevices</a>.
+For information about the preferred device, see [SetupPreferredAudioDevices](/windows-hardware/drivers/audio/setuppreferredaudiodevices).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/audio/ksproperty-audio-preferred-status">KSPROPERTY_AUDIO_PREFERRED_STATUS</a>
+[KSPROPERTY_AUDIO_PREFERRED_STATUS](/windows-hardware/drivers/audio/ksproperty-audio-preferred-status)
 
-
-
-<a href="/windows-hardware/drivers/audio/setuppreferredaudiodevices">SetupPreferredAudioDevices</a>
-
+[SetupPreferredAudioDevices](/windows-hardware/drivers/audio/setuppreferredaudiodevices)
