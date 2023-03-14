@@ -3,7 +3,7 @@ UID: NS:ntddk._WHEA_ERROR_RECORD_SECTION_DESCRIPTOR
 title: WHEA_ERROR_RECORD_SECTION_DESCRIPTOR (ntddk.h)
 description: The WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure describes a section of error information that is part of an error record.
 tech.root: whea
-ms.date: 01/11/2023
+ms.date: 03/13/2023
 keywords: ["WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR, PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR, PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD_SECTION_DESCRIPTOR, WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR, ntddk/PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR, ntddk/WHEA_ERROR_RECORD_SECTION_DESCRIPTOR, whea.whea_error_record_section_descriptor, whearef_91e354e5-972e-4bf2-b3e7-34e99299ee1f.xml"
 req.header: ntddk.h
@@ -136,7 +136,7 @@ The error record section contains processor error data that is not specific to a
 
 #### IPF_PROCESSOR_ERROR_SECTION_GUID
 
-The error record section contains processor error data that is specific to the Itanium processor architecture. For more information about the format of the error data that is contained in this error record section, see the [Intel Itanium Processor Family System Abstraction Layer Specification](https://go.microsoft.com/fwlink/p/?linkid=72212).
+The error record section contains processor error data that is specific to the Itanium processor architecture. For more information about the format of the error data that is contained in this error record section, see the [Intel Itanium Processor Family System Abstraction Layer Specification](https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/itanium-system-abstraction-layer-specification.pdf).
 
 #### FIRMWARE_ERROR_RECORD_REFERENCE_GUID
 

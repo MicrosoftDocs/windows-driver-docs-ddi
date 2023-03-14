@@ -3,7 +3,7 @@ UID: NF:wdm.RtlQueryRegistryValues
 title: RtlQueryRegistryValues function (wdm.h)
 description: The RtlQueryRegistryValues routine allows the caller to query several values from the registry subtree with a single call.
 tech.root: kernel
-ms.date: 01/18/2023
+ms.date: 03/13/2023
 keywords: ["RtlQueryRegistryValues function"]
 ms.keywords: RtlQueryRegistryValues, RtlQueryRegistryValues routine [Kernel-Mode Driver Architecture], k109_5a8cb907-8c49-4a88-9494-ff137cf6507d.xml, kernel.rtlqueryregistryvalues, wdm/RtlQueryRegistryValues
 req.header: wdm.h
@@ -117,7 +117,7 @@ Flags to control how the remaining members of the **RTL_QUERY_REGISTRY_TABLE** s
 | RTL_QUERY_REGISTRY_TOPKEY | Resets the current registry key handle to the original one specified by the *RelativeTo* and *Path* parameters. This is useful for getting back to the original node after descending into subkeys with the RTL_QUERY_REGISTRY_SUBKEY flag. |
 | RTL_QUERY_REGISTRY_REQUIRED | Specifies that this registry value must exist if **DefaultType** = REG_NONE; otherwise, if it is not found, **RtlQueryRegistryValues** immediately exits with a status code of STATUS_OBJECT_NAME_NOT_FOUND. This exit occurs if the **Name** member is **NULL** and the current key has no subkeys, or if **Name** specifies a nonexistent subkey. (If this flag is not specified, then when no match is found for a non-**NULL** **Name**, the routine uses the **DefaultValue** member as the value. When **Name** is **NULL** and the current key has no subkeys, the routine simply skips that table entry.) |
 | RTL_QUERY_REGISTRY_NOVALUE | Specifies that even though there is no **Name** for this table entry, all the caller wants is a callback: that is, the caller does not want to enumerate all the values under the current key. *QueryRoutine* is called with **NULL** for *ValueData*, REG_NONE for *ValueType*, and zero for *ValueLength*. |
-| RTL_QUERY_REGISTRY_NOEXPAND | For a registry value of type REG_EXPAND_SZ or REG_MULTI_SZ, this flag overrides the default behavior, which is to preprocess the registry value before calling the [QueryRoutine](./nc-wdm-rtl_query_registry_routine.md) routine. By default, **RtlQueryRegistryValues** expands environment variable references in REG_EXPAND_SZ values, and enumerates each null-terminated string in a REG_MULTI_SZ value in a separate *QueryRoutine* call, so that the strings are presented as REG_SZ values that have the same *ValueName*. If this flag is set, *QueryRoutine* receives the raw REG_EXPAND_SZ or REG_MULTI_SZ value from the registry. For more information about the data formats for these values, see [KEY_VALUE_BASIC_INFORMATION](./ns-wdm-_key_value_basic_information.md). |
+| RTL_QUERY_REGISTRY_NOEXPAND | For a registry value of type REG_EXPAND_SZ or REG_MULTI_SZ, this flag overrides the default behavior, which is to preprocess the registry value before calling the [QueryRoutine](./nc-wdm-rtl_query_registry_routine.md) routine. By default, **RtlQueryRegistryValues** expands environment variable references in REG_EXPAND_SZ values, and enumerates each null-terminated string in a REG_MULTI_SZ value in a separate *QueryRoutine* call, so that the strings are presented as REG_SZ values that have the same *ValueName*. If this flag is set, *QueryRoutine* receives the raw REG_EXPAND_SZ or REG_MULTI_SZ value from the registry. For more information about the data formats for these values, see [**KEY_VALUE_BASIC_INFORMATION**](./ns-wdm-_key_value_basic_information.md). |
 | RTL_QUERY_REGISTRY_DIRECT | The **QueryRoutine** member is not used (and must be **NULL**), and the *EntryContext* points to the buffer to store the value. If the caller sets this flag, the caller should additionally set the RTL_QUERY_REGISTRY_TYPECHECK flag to guard against buffer overflow. For more information, see the Remarks section. |
 | RTL_QUERY_REGISTRY_TYPECHECK | Use this flag with the RTL_QUERY_REGISTRY_DIRECT flag to verify that the REG\_*XXX* type of the stored registry value matches the type expected by the caller. If the types do not match, the call fails. For more information, see the Remarks section. |
 | RTL_QUERY_REGISTRY_DELETE | This flag is used to delete value keys after they have been queried. |
@@ -138,7 +138,7 @@ The least significant byte of this member specifies the REG_*XXX* type of the da
 
 #### DefaultData
 
-A pointer to the default value to be returned if no matching key is found and the RTL_QUERY_REGISTRY_REQUIRED flag is not specified. This member is ignored if **DefaultType** = REG_NONE. Otherwise, the type of data pointed to by **DefaultData** should conform to the registry value type specified by the **DefaultType** member. For more information registry value types, see the definition of the *Type* parameter in [KEY_VALUE_BASIC_INFORMATION](./ns-wdm-_key_value_basic_information.md).
+A pointer to the default value to be returned if no matching key is found and the RTL_QUERY_REGISTRY_REQUIRED flag is not specified. This member is ignored if **DefaultType** = REG_NONE. Otherwise, the type of data pointed to by **DefaultData** should conform to the registry value type specified by the **DefaultType** member. For more information registry value types, see the definition of the *Type* parameter in [**KEY_VALUE_BASIC_INFORMATION**](./ns-wdm-_key_value_basic_information.md).
 
 #### DefaultLength
 
@@ -204,7 +204,7 @@ The following is a list of system hives:
 
 - \REGISTRY\MACHINE\SAM
 
-Support for the RTL_QUERY_REGISTRY_TYPECHECK flag is available through Windows Update for Windows 7, Windows Vista, Windows Server 2003, and Windows XP. For more information about this update, see [Vulnerabilities in Windows Kernel Could Allow Elevation of Privilege (2393802)](https://go.microsoft.com/fwlink/p/?linkid=210698). In versions of these operating systems that do not have this update, the caller can use the RTL_QUERY_REGISTRY_TYPECHECK flag. However, this flag is ignored by the **RtlQueryRegistryValues** routine.
+Support for the RTL_QUERY_REGISTRY_TYPECHECK flag is available through Windows Update for Windows 7, Windows Vista, Windows Server 2003, and Windows XP. For more information about this update, see [Vulnerabilities in Windows Kernel Could Allow Elevation of Privilege (2393802)](/security-updates/securitybulletins/2011/ms11-011). In versions of these operating systems that do not have this update, the caller can use the RTL_QUERY_REGISTRY_TYPECHECK flag. However, this flag is ignored by the **RtlQueryRegistryValues** routine.
 
 Starting with Windows Driver Kit (WDK) 8, the RTL_QUERY_REGISTRY_TYPECHECK flag is defined in the Wdm.h header file as follows:
 
@@ -216,7 +216,7 @@ If an entry does not specify the RTL_QUERY_REGISTRY_DIRECT flag, **RtlQueryRegis
 
 | Key data type | How data is returned |
 |---|---|
-| A null-terminated Unicode string (such as REG_SZ, REG_EXPAND_SZ). | **EntryContext** must point to an initialized [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure. If the **Buffer** member of **UNICODE_STRING** is **NULL**, the routine allocates storage for the string data. Otherwise, it stores the string data in the buffer that **Buffer** points to. |
+| A null-terminated Unicode string (such as REG_SZ, REG_EXPAND_SZ). | **EntryContext** must point to an initialized [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure. If the **Buffer** member of **UNICODE_STRING** is **NULL**, the routine allocates storage for the string data. Otherwise, it stores the string data in the buffer that **Buffer** points to. |
 | REG_MULTI_SZ | You must specify the RTL_QUERY_REGISTRY_NOEXPAND flag for this key data type. **EntryContext** points to an initialized **UNICODE_STRING** structure. The routine stores the key value as a single string value. Each individual component within the string is terminated by a zero. If the **Buffer** member of **UNICODE_STRING** is **NULL**, the routine allocates storage for the string data. Otherwise, it stores the string data in the buffer that **Buffer** points to. |
 | Nonstring data with size, in bytes, \<= **sizeof**(ULONG) | The value is stored in the memory location specified by **EntryContext**. |
 | Nonstring data with size, in bytes, \> **sizeof**(ULONG) | The buffer pointed to by **EntryContext** must begin with a signed LONG value. The magnitude of the value must specify the size, in bytes, of the buffer. If the sign of the value is negative, **RtlQueryRegistryValues** will only store the data of the key value. Otherwise, it will use the first ULONG in the buffer to record the value length, in bytes, the second ULONG to record the value type, and the rest of the buffer to store the value data. |

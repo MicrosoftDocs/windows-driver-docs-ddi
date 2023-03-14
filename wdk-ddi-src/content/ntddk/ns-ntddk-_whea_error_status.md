@@ -2,9 +2,8 @@
 UID: NS:ntddk._WHEA_ERROR_STATUS
 title: _WHEA_ERROR_STATUS (ntddk.h)
 description: The WHEA_ERROR_STATUS union describes generic error codes that are abstracted from the data contained in implementation-specific error registers.
-old-location: whea\whea_error_status.htm
 tech.root: whea
-ms.date: 02/20/2018
+ms.date: 03/13/2023
 keywords: ["WHEA_ERROR_STATUS structure"]
 ms.keywords: "*PWHEA_ERROR_STATUS, PWHEA_ERROR_STATUS, PWHEA_ERROR_STATUS union pointer [WHEA Drivers and Applications], WHEA_ERROR_STATUS, WHEA_ERROR_STATUS union [WHEA Drivers and Applications], _WHEA_ERROR_STATUS, ntddk/PWHEA_ERROR_STATUS, ntddk/WHEA_ERROR_STATUS, whea.whea_error_status, whearef_3dc93951-2c79-4b1e-b5b0-53ede31c6f37.xml"
 req.header: ntddk.h
@@ -46,20 +45,19 @@ api_name:
  - WHEA_ERROR_STATUS
 ---
 
-# _WHEA_ERROR_STATUS structure
-
-
 ## -description
 
-The WHEA_ERROR_STATUS union describes generic error codes that are abstracted from the data contained in implementation-specific error registers.
+The **WHEA_ERROR_STATUS** union describes generic error codes that are abstracted from the data contained in implementation-specific error registers.
 
 ## -struct-fields
 
 ### -field ErrorStatus
 
-A ULONGLONG representation of the contents of the WHEA_ERROR_STATUS union.
+A ULONGLONG representation of the contents of the **WHEA_ERROR_STATUS** union.
 
 ### -field DUMMYSTRUCTNAME
+
+Defines the **DUMMYSTRUCTNAME** structure.
 
 ### -field DUMMYSTRUCTNAME.Reserved1
 
@@ -67,7 +65,30 @@ Reserved for system use.
 
 ### -field DUMMYSTRUCTNAME.ErrorType
 
-The type of hardware error that occurred. Possible values are:
+The type of hardware error that occurred.
+
+Possible values are:
+
+| Value | Description |
+|---|---|
+| ERRTYP_BUS | A bus error. |
+| ERRTYP_CACHE | A cache error. |
+| ERRTYP_FLOW | An overflow or underflow of a queue that is internal to the component. |
+| ERRTYP_FUNCTION | An error in one or more functional units. |
+| ERRTYP_IMPROPER | An improper access error. |
+| ERRTYP_INTERNAL | An error internal to the component. |
+| ERRTYP_LOSSOFLOCKSTEP | A loss of lockstep. |
+| ERRTYP_MAP | The virtual address was not found on IO-TLB or IO-PDIR. |
+| ERRTYP_MEM | A memory error. |
+| ERRTYP_PARITY | A bus parity error. |
+| ERRTYP_PATHERRORA bus path error. |
+| ERRTYP_POISONED | A read operation was issued to data that has been corrupted. |
+| ERRTYP_PROTOCOL | A bus protocol error. |
+| ERRTYP_RESPONSE | A response was received that was not associated with a request. |
+| ERRTYP_SELFTEST | The component failed self test. |
+| ERRTYP_TIMEOUT | A bus timeout error. |
+| ERRTYP_TLB | A translation lookaside buffer error. |
+| ERRTYP_UNIMPL | An access to a memory address that is not mapped to any component. |
 
 ### -field DUMMYSTRUCTNAME.Address
 
@@ -101,111 +122,16 @@ A single bit that indicates that additional errors occurred but were not logged 
 
 Reserved for system use.
 
-
-##### - ErrorType.ERRTYP_BUS
-
-A bus error.
-
-
-##### - ErrorType.ERRTYP_CACHE
-
-A cache error.
-
-
-##### - ErrorType.ERRTYP_FLOW
-
-An overflow or underflow of a queue that is internal to the component.
-
-
-##### - ErrorType.ERRTYP_FUNCTION
-
-An error in one or more functional units.
-
-
-##### - ErrorType.ERRTYP_IMPROPER
-
-An improper access error.
-
-
-##### - ErrorType.ERRTYP_INTERNAL
-
-An error internal to the component.
-
-
-##### - ErrorType.ERRTYP_LOSSOFLOCKSTEP
-
-A loss of lockstep.
-
-
-##### - ErrorType.ERRTYP_MAP
-
-The virtual address was not found on IO-TLB or IO-PDIR.
-
-
-##### - ErrorType.ERRTYP_MEM
-
-A memory error.
-
-
-##### - ErrorType.ERRTYP_PARITY
-
-A bus parity error.
-
-
-##### - ErrorType.ERRTYP_PATHERROR
-
-A bus path error.
-
-
-##### - ErrorType.ERRTYP_POISONED
-
-A read operation was issued to data that has been corrupted.
-
-
-##### - ErrorType.ERRTYP_PROTOCOL
-
-A bus protocol error.
-
-
-##### - ErrorType.ERRTYP_RESPONSE
-
-A response was received that was not associated with a request.
-
-
-##### - ErrorType.ERRTYP_SELFTEST
-
-The component failed self test.
-
-
-##### - ErrorType.ERRTYP_TIMEOUT
-
-A bus timeout error.
-
-
-##### - ErrorType.ERRTYP_TLB
-
-A translation lookaside buffer error.
-
-
-##### - ErrorType.ERRTYP_UNIMPL
-
-An access to a memory address that is not mapped to any component.
-
 ## -remarks
 
-The WHEA_ERROR_STATUS union provides the capability to abstract information from implementation-specific error registers into generic error codes so that the operating system can process the errors without an intimate knowledge of the underlying platform. This union is derived from the Error Status section of the <a href="https://go.microsoft.com/fwlink/p/?linkid=26730">Intel Itanium Processor Family System Abstraction Layer Specification</a>.
+The **WHEA_ERROR_STATUS** union provides the capability to abstract information from implementation-specific error registers into generic error codes so that the operating system can process the errors without an intimate knowledge of the underlying platform. This union is derived from the Error Status section of the [Intel Itanium Processor Family System Abstraction Layer Specification](https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/itanium-system-abstraction-layer-specification.pdf).
 
-A WHEA_ERROR_STATUS union is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section">WHEA_MEMORY_ERROR_SECTION</a>, <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixbus_error_section">WHEA_PCIXBUS_ERROR_SECTION</a>, and <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixdevice_error_section">WHEA_PCIXDEVICE_ERROR_SECTION</a> structures.
+A **WHEA_ERROR_STATUS** union is contained within the [WHEA_MEMORY_ERROR_SECTION](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section), [WHEA_PCIXBUS_ERROR_SECTION](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixbus_error_section), and [WHEA_PCIXDEVICE_ERROR_SECTION](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixdevice_error_section) structures.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section">WHEA_MEMORY_ERROR_SECTION</a>
+[WHEA_MEMORY_ERROR_SECTION](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section)
 
+[WHEA_PCIXBUS_ERROR_SECTION](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixbus_error_section)
 
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixbus_error_section">WHEA_PCIXBUS_ERROR_SECTION</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixdevice_error_section">WHEA_PCIXDEVICE_ERROR_SECTION</a>
-
+[WHEA_PCIXDEVICE_ERROR_SECTION](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixdevice_error_section)

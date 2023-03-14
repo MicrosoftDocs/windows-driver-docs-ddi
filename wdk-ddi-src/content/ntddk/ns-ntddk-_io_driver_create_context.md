@@ -3,7 +3,7 @@ UID: NS:ntddk._IO_DRIVER_CREATE_CONTEXT
 title: IO_DRIVER_CREATE_CONTEXT (ntddk.h)
 description: The IO_DRIVER_CREATE_CONTEXT structure is used to pass additional parameters to the IoCreateFileEx and FltCreateFileEx2 routines.
 tech.root: ifsk
-ms.date: 12/08/2022
+ms.date: 03/13/2023
 keywords: ["IO_DRIVER_CREATE_CONTEXT structure"]
 ms.keywords: "*PIO_DRIVER_CREATE_CONTEXT, IO_DRIVER_CREATE_CONTEXT, IO_DRIVER_CREATE_CONTEXT structure [Installable File System Drivers], PIO_DRIVER_CREATE_CONTEXT, PIO_DRIVER_CREATE_CONTEXT structure pointer [Installable File System Drivers], _IO_DRIVER_CREATE_CONTEXT, fileinformationstructures_d5939ca3-7c95-4788-bec9-b2d4cc7dd45b.xml, ifsk.io_driver_create_context, ntddk/IO_DRIVER_CREATE_CONTEXT, ntddk/PIO_DRIVER_CREATE_CONTEXT"
 req.header: ntddk.h
@@ -93,7 +93,7 @@ The members of the IO_DRIVER_CREATE_CONTEXT structure (excluding the **Size** me
 
   Upon return from a call to [IoCreateFileEx](./nf-ntddk-iocreatefileex.md) or [FltCreateFileEx2](../fltkernel/nf-fltkernel-fltcreatefileex2.md), the ECP list is unchanged and can be passed to additional **IoCreateFileEx** or **FltCreateFileEx2** calls for new create operations.
 
-- To create or open a file in the context of a transaction, set the **TxnParameters** member of the IO_DRIVER_CREATE_CONTEXT structure to the value returned by the [IoGetTransactionParameterBlock](./nf-ntddk-iogettransactionparameterblock.md) routine.  For more information regarding transactions, see [Transaction Management (TxF)](https://go.microsoft.com/fwlink/p/?linkid=66161).
+- To create or open a file in the context of a transaction, set the **TxnParameters** member of the IO_DRIVER_CREATE_CONTEXT structure to the value returned by the [IoGetTransactionParameterBlock](./nf-ntddk-iogettransactionparameterblock.md) routine.
 
 ## -see-also
 

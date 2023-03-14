@@ -2,15 +2,14 @@
 UID: NE:ntddk._WHEA_RAW_DATA_FORMAT
 title: _WHEA_RAW_DATA_FORMAT (ntddk.h)
 description: The WHEA_RAW_DATA_FORMAT enumeration defines the possible formats that raw hardware error data can be encoded in a hardware error packet.
-old-location: whea\whea_raw_data_format.htm
 tech.root: whea
-ms.date: 02/20/2018
+ms.date: 03/13/2023
 keywords: ["WHEA_RAW_DATA_FORMAT enumeration"]
 ms.keywords: "*PWHEA_RAW_DATA_FORMAT, PWHEA_RAW_DATA_FORMAT, PWHEA_RAW_DATA_FORMAT enumeration pointer [WHEA Drivers and Applications], WHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT enumeration [WHEA Drivers and Applications], WheaRawDataFormatAMD64MCA, WheaRawDataFormatGeneric, WheaRawDataFormatIA32MCA, WheaRawDataFormatIPFSalRecord, WheaRawDataFormatIntel64MCA, WheaRawDataFormatMax, WheaRawDataFormatMemory, WheaRawDataFormatNMIPort, WheaRawDataFormatPCIExpress, WheaRawDataFormatPCIXBus, WheaRawDataFormatPCIXDevice, _WHEA_RAW_DATA_FORMAT, ntddk/PWHEA_RAW_DATA_FORMAT, ntddk/WHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatAMD64MCA, ntddk/WheaRawDataFormatGeneric, ntddk/WheaRawDataFormatIA32MCA, ntddk/WheaRawDataFormatIPFSalRecord, ntddk/WheaRawDataFormatIntel64MCA, ntddk/WheaRawDataFormatMax, ntddk/WheaRawDataFormatMemory, ntddk/WheaRawDataFormatNMIPort, ntddk/WheaRawDataFormatPCIExpress, ntddk/WheaRawDataFormatPCIXBus, ntddk/WheaRawDataFormatPCIXDevice, whea.whea_raw_data_format, whearef_9ecb0580-4372-40f3-93da-4f866ee6211f.xml"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
-req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,9 +45,6 @@ api_name:
  - WHEA_RAW_DATA_FORMAT
 ---
 
-# _WHEA_RAW_DATA_FORMAT enumeration
-
-
 ## -description
 
 The WHEA_RAW_DATA_FORMAT enumeration defines the possible formats that raw hardware error data can be encoded in a hardware error packet.
@@ -57,19 +53,19 @@ The WHEA_RAW_DATA_FORMAT enumeration defines the possible formats that raw hardw
 
 ### -field WheaRawDataFormatIPFSalRecord
 
-The raw data in the hardware error packet contains an Itanium processor family system abstraction layer (SAL) error record. For more information about the format of a SAL error record, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=72212">Intel Itanium Processor Family System Abstraction Layer Specification</a>.
+The raw data in the hardware error packet contains an Itanium processor family system abstraction layer (SAL) error record. For more information about the format of a SAL error record, see the [Intel Itanium Processor Family System Abstraction Layer Specification](https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/itanium-system-abstraction-layer-specification.pdf).
 
 ### -field WheaRawDataFormatIA32MCA
 
-The raw data in the hardware error packet contains an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see <a href="/previous-versions/windows/hardware/mca/ff540659(v=vs.85)">HalQuerySystemInformation</a>.
+The raw data in the hardware error packet contains an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see [HalQuerySystemInformation](/previous-versions/windows/hardware/mca/ff540659(v=vs.85)).
 
 ### -field WheaRawDataFormatIntel64MCA
 
-The raw data in the hardware error packet contains an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see <a href="/previous-versions/windows/hardware/mca/ff540659(v=vs.85)">HalQuerySystemInformation</a>.
+The raw data in the hardware error packet contains an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see [HalQuerySystemInformation](/previous-versions/windows/hardware/mca/ff540659(v=vs.85)).
 
 ### -field WheaRawDataFormatAMD64MCA
 
-The raw data in the hardware error packet contains an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see <a href="/previous-versions/windows/hardware/mca/ff540659(v=vs.85)">HalQuerySystemInformation</a>.
+The raw data in the hardware error packet contains an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see [HalQuerySystemInformation](/previous-versions/windows/hardware/mca/ff540659(v=vs.85)).
 
 ### -field WheaRawDataFormatMemory
 
@@ -77,7 +73,7 @@ The raw data in the hardware error packet contains memory error data. The format
 
 ### -field WheaRawDataFormatPCIExpress
 
-The raw data in the hardware error packet contains a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a> structure.
+The raw data in the hardware error packet contains a [PCI_EXPRESS_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability) structure.
 
 ### -field WheaRawDataFormatNMIPort
 
@@ -93,7 +89,7 @@ The raw data in the hardware error packet contains a PCI/PCI-X device error data
 
 ### -field WheaRawDataFormatGeneric
 
-The raw data in the hardware error packet contains a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a> structure.
+The raw data in the hardware error packet contains a [WHEA_GENERIC_ERROR](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error) structure.
 
 ### -field WheaRawDataFormatMax
 
@@ -101,21 +97,14 @@ The maximum number of formats of raw hardware error data.
 
 ## -remarks
 
-The <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v1">WHEA_ERROR_PACKET_V1</a> structure contains a member of type WHEA_RAW_DATA_FORMAT that specifies the format of the raw data that is contained in the hardware error packet.
+The [WHEA_ERROR_PACKET_V1](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v1) structure contains a member of type WHEA_RAW_DATA_FORMAT that specifies the format of the raw data that is contained in the hardware error packet.
 
 ## -see-also
 
-<a href="/previous-versions/windows/hardware/mca/ff540659(v=vs.85)">HalQuerySystemInformation</a>
+[HalQuerySystemInformation](/previous-versions/windows/hardware/mca/ff540659(v=vs.85))
 
+[PCI_EXPRESS_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability)
 
+[WHEA_ERROR_PACKET_V1](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v1)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v1">WHEA_ERROR_PACKET_V1</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a>
-
+[WHEA_GENERIC_ERROR](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error)
