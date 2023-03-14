@@ -54,7 +54,7 @@ A file system filter driver (legacy filter) can register a PCOMPLETE_LOCK_IRP_RO
 
 ### -param Irp
 
-[in] IRP for the file lock [**IRP_MJ_LOCK_CONTROL**](irp-mj-lock-control.md) request that is being completed. The lock request type will be one of the following:
+[in] IRP for the file lock [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control) request that is being completed. The lock request type will be one of the following:
 
 * IRP_MN_LOCK
 * IRP_MN_UNLOCK_ALL
@@ -71,7 +71,7 @@ A file system filter driver (legacy filter) can optionally specify a PCOMPLETE_L
 
 To specify this routine, a legacy filter passes a pointer to the routine as the *CompleteLockIrpRoutine* parameter for [**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
 
-If the legacy filter specifies a *CompleteLockIrpRoutine* routine for a file lock, the system calls this routine when completing an [**IRP_MJ_LOCK_CONTROL**](irp-mj-lock-control.md) operation for the file lock.
+If the legacy filter specifies a *CompleteLockIrpRoutine* routine for a file lock, the system calls this routine when completing an [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control) operation for the file lock.
 
 ## -see-also
 

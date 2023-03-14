@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - fltkernel.h
 api_name:
@@ -62,7 +62,7 @@ FltReleaseResource releases a resource that was previously acquired by calling [
 
 **FltReleaseResource** is a wrapper for [**ExReleaseResourceLite**](../wdm/nf-wdm-exreleaseresourcelite.md) that reenables normal kernel APC delivery.
 
-Because FltReleaseResource reenables normal kernel APC delivery, it is not necessary to call [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md) or [**FsRtlEnterFileSystem**](fsrtlenterfilesystem.md) after calling **FltReleaseResource**.
+Because FltReleaseResource reenables normal kernel APC delivery, it is not necessary to call [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md) or [**FsRtlEnterFileSystem**](/windows-hardware/drivers/ifs/fsrtlenterfilesystem) after calling **FltReleaseResource**.
 
 To acquire a resource for exclusive access, call [**FltAcquireResourceExclusive**](nf-fltkernel-fltacquireresourceexclusive.md).
 

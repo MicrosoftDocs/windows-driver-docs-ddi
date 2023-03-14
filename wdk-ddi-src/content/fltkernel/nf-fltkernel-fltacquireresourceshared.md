@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - fltkernel.h
 api_name:
@@ -72,7 +72,7 @@ Whether or when the caller is given shared access to the given resource depends 
 
 **FltAcquireResourceShared** is a wrapper for [**ExAcquireResourceSharedLite**](/previous-versions/ff544363(v=vs.85)) that disables normal kernel APC delivery.
 
-Because **FltAcquireResourceShared** disables normal kernel APC delivery, it is not necessary to call [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md) or [**FsRtlEnterFileSystem**](fsrtlenterfilesystem.md) before calling **FltAcquireResourceShared**.
+Because **FltAcquireResourceShared** disables normal kernel APC delivery, it is not necessary to call [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md) or [**FsRtlEnterFileSystem**](/windows-hardware/drivers/ifs/fsrtlenterfilesystem) before calling **FltAcquireResourceShared**.
 
 To release the resource after it is acquired, call [**FltReleaseResource**](nf-fltkernel-fltreleaseresource.md). Every successful call to **FltAcquireResourceShared** must be matched by a subsequent call to **FltReleaseResource**.
 

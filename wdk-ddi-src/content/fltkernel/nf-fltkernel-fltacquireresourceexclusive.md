@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - fltkernel.h
 api_name:
@@ -74,7 +74,7 @@ If two threads each hold a shared lock on the same resource and both attempt to 
 
 **FltAcquireResourceExclusive** is a wrapper for [**ExAcquireResourceExclusiveLite**](/previous-versions/ff544351(v=vs.85)) that disables normal kernel APC delivery.
 
-Because **FltAcquireResourceExclusive** disables normal kernel APC delivery, it is not necessary to call [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md) or [**FsRtlEnterFileSystem**](fsrtlenterfilesystem.md) before calling **FltAcquireResourceExclusive**.
+Because **FltAcquireResourceExclusive** disables normal kernel APC delivery, it is not necessary to call [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md) or [**FsRtlEnterFileSystem**](/windows-hardware/drivers/ifs/fsrtlenterfilesystem) before calling **FltAcquireResourceExclusive**.
 
 To release the resource after it is acquired, call [**FltReleaseResource**](nf-fltkernel-fltreleaseresource.md). Every successful call to **FltAcquireResourceExclusive** must be matched by a subsequent call to **FltReleaseResource**.
 

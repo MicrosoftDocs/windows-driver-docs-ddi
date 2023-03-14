@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **OPLOCK_KEY_ECP_CONTEXT** structure is used to attach an oplock key to a file. This structure is obsolete for Windows 8 and later versions; filters should instead use [DUAL_OP_LOCK_KEY_ECP_CONTEXT](./dual-oplock-key-ecp-context.md).
+The **OPLOCK_KEY_ECP_CONTEXT** structure is used to attach an oplock key to a file. This structure is obsolete for Windows 8 and later versions; filters should instead use [DUAL_OP_LOCK_KEY_ECP_CONTEXT](ns-ntifs-dual-oplock-key-ecp-context.md).
 
 ## -struct-fields
 
@@ -74,6 +74,6 @@ For more information about oplocks and oplock keys, see [Oplock Semantics Overvi
 
 ## -see-also
 
-[DUAL_OP_LOCK_KEY_ECP_CONTEXT](dual-oplock-key-ecp-context.md)
+[DUAL_OP_LOCK_KEY_ECP_CONTEXT](ns-ntifs-dual-oplock-key-ecp-context.md)
 
 [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md)
