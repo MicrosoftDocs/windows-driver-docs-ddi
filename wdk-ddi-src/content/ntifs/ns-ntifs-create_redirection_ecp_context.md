@@ -2,7 +2,7 @@
 UID: NS:ntifs._CREATE_REDIRECTION_ECP_CONTEXT
 tech.root: ifsk
 title: CREATE_REDIRECTION_ECP_CONTEXT
-ms.date: 09/09/2021
+ms.date: 03/13/2023
 targetos: Windows
 description: Learn more about the CREATE_REDIRECTION_ECP_CONTEXT structure.
 prerelease: false
@@ -54,7 +54,7 @@ Size of this structure, in bytes.
 
 ### -field Flags
 
-The redirection state of the file. Can be one of the following values.
+The redirection state of the file. Can be a valid combination of the following values.
 
 | Flag | Meaning |
 | ---- | ------- |
@@ -66,14 +66,16 @@ The redirection state of the file. Can be one of the following values.
 
 ### -field FileId
 
-The file ID.
+The ID of the backing file.
 
 ### -field VolumeGuid
 
-The volume GUID.
+The GUID-based identifier of the disk volume where the backing file resides.
 
 ## -remarks
 
 The system-defined GUID_ECP_CREATE_REDIRECTION value is used with this ECP context structure when calling ECP-related support routines such as [**FltAllocateExtraCreateParameter**](../fltkernel/nf-fltkernel-fltallocateextracreateparameter.md) and [**FsRtlRemoveExtraCreateParameter**](nf-ntifs-fsrtlremoveextracreateparameter.md).
 
 See [Introduction to extra create parameters](/windows-hardware/drivers/ifs/introduction-to-extra-create-parameters) for more information.
+
+The **WCIFS_REDIRECTION_ECP_CONTEXT** structure is defined to be the same as this structure to maintain code compatibility.
