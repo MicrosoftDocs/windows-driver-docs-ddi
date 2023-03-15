@@ -53,11 +53,11 @@ The **WHEA_ERROR_RECORD** structure describes an [error record](/windows-hardwar
 
 ### -field Header
 
-A [**WHEA_ERROR_RECORD_HEADER**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header) structure that describes general information about the hardware error condition.
+A [**WHEA_ERROR_RECORD_HEADER**](./ns-ntddk-_whea_error_record_header.md) structure that describes general information about the hardware error condition.
 
 ### -field SectionDescriptor
 
-A variable sized array of [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor) structures that describe each of the sections of error information that are contained in the error record. The number of structures in the array is specified by the **Header.SectionCount** member of the WHEA_ERROR_RECORD structure.
+A variable sized array of [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) structures that describe each of the sections of error information that are contained in the error record. The number of structures in the array is specified by the **Header.SectionCount** member of the WHEA_ERROR_RECORD structure.
 
 ## -remarks
 
@@ -69,6 +69,6 @@ A user-mode application can retrieve the error record from the hardware error ev
 
 ## -see-also
 
-[**WHEA_ERROR_RECORD_HEADER**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header)
+[**WHEA_ERROR_RECORD_HEADER**](./ns-ntddk-_whea_error_record_header.md)
 
-[**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor)
+[**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md)

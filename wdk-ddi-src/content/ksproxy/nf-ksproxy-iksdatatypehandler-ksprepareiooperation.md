@@ -68,10 +68,10 @@ Returns NOERROR if successful; otherwise, returns an error code. If the stream's
 
 ## -remarks
 
-The client only calls **KsPrepareIoOperation** if the data type handler indicated to the client the existence of extended header information in a call to the [IKsDataTypeHandler::KsQueryExtendedSize](/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksqueryextendedsize) method.
+The client only calls **KsPrepareIoOperation** if the data type handler indicated to the client the existence of extended header information in a call to the [IKsDataTypeHandler::KsQueryExtendedSize](./nf-ksproxy-iksdatatypehandler-ksqueryextendedsize.md) method.
 
 For more information about **IMediaSample**, see the Microsoft Windows SDK documentation.
 
 ## -see-also
 
-[IKsDataTypeHandler::KsQueryExtendedSize](/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksqueryextendedsize)
+[IKsDataTypeHandler::KsQueryExtendedSize](./nf-ksproxy-iksdatatypehandler-ksqueryextendedsize.md)

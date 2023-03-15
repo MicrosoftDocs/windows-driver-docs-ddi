@@ -53,7 +53,7 @@ The **WHEA_PROCESSOR_GENERIC_ERROR_SECTION** structure describes processor error
 
 ### -field ValidBits
 
-A [**WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_generic_error_section_validbits) union that specifies which members of this structure contain valid data.
+A [**WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS**](./ns-ntddk-_whea_processor_generic_error_section_validbits.md) union that specifies which members of this structure contain valid data.
 
 ### -field ProcessorType
 
@@ -132,7 +132,7 @@ Reserved for system use.
 
 The CPU version, which includes the family, model, and stepping information.
 
-- For x86 and x64 processors, this member contains a [**WHEA_PROCESSOR_FAMILY_INFO**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_family_info) union.
+- For x86 and x64 processors, this member contains a [**WHEA_PROCESSOR_FAMILY_INFO**](./ns-ntddk-_whea_processor_family_info.md) union.
 
 - For Itanium processors, this member contains the data provided in CPUID Register 3.
 
@@ -184,14 +184,14 @@ This member contains valid data only if the **InstructionPointer** bit of the **
 
 ## -remarks
 
-The **WHEA_PROCESSOR_GENERIC_ERROR_SECTION** structure describes the error data that is contained in a generic processor error section of an  [error record](/windows-hardware/drivers/whea/error-records). An error record contains a generic processor error section only if the **SectionType** member of one of the [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor) structures that describe the error record sections for that error record contains **PROCESSOR_GENERIC_ERROR_SECTION_GUID**.
+The **WHEA_PROCESSOR_GENERIC_ERROR_SECTION** structure describes the error data that is contained in a generic processor error section of an  [error record](/windows-hardware/drivers/whea/error-records). An error record contains a generic processor error section only if the **SectionType** member of one of the [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) structures that describe the error record sections for that error record contains **PROCESSOR_GENERIC_ERROR_SECTION_GUID**.
 
 ## -see-also
 
 [**WHEA_ERROR_PACKET**](/previous-versions/windows/hardware/drivers/ff560465(v=vs.85))
 
-[**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor)
+[**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md)
 
-[**WHEA_PROCESSOR_FAMILY_INFO**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_family_info)
+[**WHEA_PROCESSOR_FAMILY_INFO**](./ns-ntddk-_whea_processor_family_info.md)
 
-[**WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_generic_error_section_validbits)
+[**WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS**](./ns-ntddk-_whea_processor_generic_error_section_validbits.md)

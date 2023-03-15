@@ -126,12 +126,12 @@ Reserved for system use.
 
 The **WHEA_ERROR_STATUS** union provides the capability to abstract information from implementation-specific error registers into generic error codes so that the operating system can process the errors without an intimate knowledge of the underlying platform. This union is derived from the Error Status section of the [Intel Itanium Processor Family System Abstraction Layer Specification](https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/itanium-system-abstraction-layer-specification.pdf).
 
-A **WHEA_ERROR_STATUS** union is contained within the [WHEA_MEMORY_ERROR_SECTION](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section), [WHEA_PCIXBUS_ERROR_SECTION](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixbus_error_section), and [WHEA_PCIXDEVICE_ERROR_SECTION](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixdevice_error_section) structures.
+A **WHEA_ERROR_STATUS** union is contained within the [WHEA_MEMORY_ERROR_SECTION](./ns-ntddk-_whea_memory_error_section.md), [WHEA_PCIXBUS_ERROR_SECTION](./ns-ntddk-_whea_pcixbus_error_section.md), and [WHEA_PCIXDEVICE_ERROR_SECTION](./ns-ntddk-_whea_pcixdevice_error_section.md) structures.
 
 ## -see-also
 
-[WHEA_MEMORY_ERROR_SECTION](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section)
+[WHEA_MEMORY_ERROR_SECTION](./ns-ntddk-_whea_memory_error_section.md)
 
-[WHEA_PCIXBUS_ERROR_SECTION](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixbus_error_section)
+[WHEA_PCIXBUS_ERROR_SECTION](./ns-ntddk-_whea_pcixbus_error_section.md)
 
-[WHEA_PCIXDEVICE_ERROR_SECTION](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixdevice_error_section)
+[WHEA_PCIXDEVICE_ERROR_SECTION](./ns-ntddk-_whea_pcixdevice_error_section.md)

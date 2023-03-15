@@ -105,4 +105,4 @@ typedef struct _PCI_PMCSR {
 
 ## -see-also
 
-[PCI_PM_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pm_capability)
+[PCI_PM_CAPABILITY](../wdm/ns-wdm-_pci_pm_capability.md)

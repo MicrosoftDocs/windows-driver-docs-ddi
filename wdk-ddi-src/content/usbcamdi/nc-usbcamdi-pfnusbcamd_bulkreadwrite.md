@@ -65,11 +65,11 @@ Specifies the length of the read/write buffer in bytes.
 
 ### -param CommandComplete [in]
 
-Pointer to a camera minidriver defined [CommandCompleteFunction](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function), which is called when the bulk read or write is completed. This value can be **NULL**.
+Pointer to a camera minidriver defined [CommandCompleteFunction](./nc-usbcamdi-pcommand_complete_function.md), which is called when the bulk read or write is completed. This value can be **NULL**.
 
 ### -param CommandContext [in]
 
-Pointer to a block of memory, that is passed as an argument to the camera minidriver defined [CommandCompleteFunction](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function).
+Pointer to a block of memory, that is passed as an argument to the camera minidriver defined [CommandCompleteFunction](./nc-usbcamdi-pcommand_complete_function.md).
 
 ## -returns
 
@@ -89,6 +89,6 @@ USBCAMD can accept one read and one write request at a time.
 
 ## -see-also
 
-[CommandCompleteFunction](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function)
+[CommandCompleteFunction](./nc-usbcamdi-pcommand_complete_function.md)
 
-[**USBCAMD_INTERFACE**](/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-usbcamd_interface)
+[**USBCAMD_INTERFACE**](./ns-usbcamdi-usbcamd_interface.md)

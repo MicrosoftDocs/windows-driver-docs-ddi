@@ -52,7 +52,7 @@ Pointer to an HW_STREAM_OBJECT structure specifying the stream is associated wit
 
 ### -param HwDeviceExtension [in]
 
-Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the [HW_INITIALIZATION_DATA](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data) structure it passes when it registers itself via [StreamClassRegisterMinidriver](/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter). The class driver then passes pointers to the buffer in the **HwDeviceExtension** member of the [HW_STREAM_REQUEST_BLOCK](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block), [HW_STREAM_OBJECT](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object), [HW_TIME_CONTEXT](/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context), and [PORT_CONFIGURATION_INFORMATION](/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information) structures it passes to the minidriver.
+Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the [HW_INITIALIZATION_DATA](./ns-strmini-_hw_initialization_data.md) structure it passes when it registers itself via [StreamClassRegisterMinidriver](./nf-strmini-streamclassregisteradapter.md). The class driver then passes pointers to the buffer in the **HwDeviceExtension** member of the [HW_STREAM_REQUEST_BLOCK](./ns-strmini-_hw_stream_request_block.md), [HW_STREAM_OBJECT](./ns-strmini-_hw_stream_object.md), [HW_TIME_CONTEXT](./ns-strmini-_hw_time_context.md), and [PORT_CONFIGURATION_INFORMATION](./ns-strmini-_port_configuration_information.md) structures it passes to the minidriver.
 
 ### -param Priority [in]
 
@@ -67,7 +67,7 @@ Specifies one of the values listed in the following table.
 
 ### -param PriorityRoutine [in]
 
-Pointer to a minidriver-supplied [StrMiniPriorityRoutine](/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_priority_routine) to be called at the specified priority level.
+Pointer to a minidriver-supplied [StrMiniPriorityRoutine](./nc-strmini-phw_priority_routine.md) to be called at the specified priority level.
 
 ### -param Context [in]
 

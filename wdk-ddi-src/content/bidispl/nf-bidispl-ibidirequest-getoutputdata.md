@@ -89,16 +89,16 @@ The method returns one of the following values. For more information about COM e
 
 ## -remarks
 
-A single bidi request can have multiple results. The application calls [GetEnumCount](/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getenumcount) to get the number of results from the bidi request.
+A single bidi request can have multiple results. The application calls [GetEnumCount](./nf-bidispl-ibidirequest-getenumcount.md) to get the number of results from the bidi request.
 
 If an application calls **GetOutputData** with the same index twice, the interface allocates two different buffers and thus the application must free both buffers.
 
 ## -see-also
 
-[Bidirectional Communication Interfaces](/windows-hardware/drivers/ddi/_print/index)
+[Bidirectional Communication Interfaces](../_print/index.md)
 
 [Bidirectional Communication Schema](/windows-hardware/drivers/print/bidirectional-communication-schema)
 
-[GetEnumCount](/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getenumcount)
+[GetEnumCount](./nf-bidispl-ibidirequest-getenumcount.md)
 
-[IBidiRequest](/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest)
+[IBidiRequest](./nn-bidispl-ibidirequest.md)

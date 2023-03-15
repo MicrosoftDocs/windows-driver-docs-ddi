@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **USBSCAN_PIPE_INFORMATION** structure is used to describe a USB transfer pipe for a still image device. An array of **USBSCAN_PIPE_INFORMATION** structures is supplied within a [**USBSCAN_PIPE_CONFIGURATION**](/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_usbscan_pipe_configuration) structure.
+The **USBSCAN_PIPE_INFORMATION** structure is used to describe a USB transfer pipe for a still image device. An array of **USBSCAN_PIPE_INFORMATION** structures is supplied within a [**USBSCAN_PIPE_CONFIGURATION**](./ns-usbscan-_usbscan_pipe_configuration.md) structure.
 
 ## -struct-fields
 
@@ -73,10 +73,10 @@ Polling interval, in milliseconds, for interrupt pipes. For more information, se
 
 ### -field PipeType
 
-A [**RAW_PIPE_TYPE**](/windows-hardware/drivers/ddi/usbscan/ne-usbscan-_raw_pipe_type)-typed value identifying the pipe type.
+A [**RAW_PIPE_TYPE**](./ne-usbscan-_raw_pipe_type.md)-typed value identifying the pipe type.
 
 ## -see-also
 
-[**RAW_PIPE_TYPE**](/windows-hardware/drivers/ddi/usbscan/ne-usbscan-_raw_pipe_type)
+[**RAW_PIPE_TYPE**](./ne-usbscan-_raw_pipe_type.md)
 
-[**USBSCAN_PIPE_CONFIGURATION**](/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_usbscan_pipe_configuration)
+[**USBSCAN_PIPE_CONFIGURATION**](./ns-usbscan-_usbscan_pipe_configuration.md)

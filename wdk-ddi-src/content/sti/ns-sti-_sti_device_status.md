@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **STI_DEVICE_STATUS** structure is used as a parameter to the [IStiDevice::GetStatus](/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getstatus) and [IStiUSD::GetStatus](/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getstatus) methods.
+The **STI_DEVICE_STATUS** structure is used as a parameter to the [IStiDevice::GetStatus](./nf-sti-istidevice-getstatus.md) and [IStiUSD::GetStatus](../stiusd/nf-stiusd-istiusd-getstatus.md) methods.
 
 ## -struct-fields
 

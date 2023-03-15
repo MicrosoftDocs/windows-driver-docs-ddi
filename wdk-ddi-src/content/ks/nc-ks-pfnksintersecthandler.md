@@ -73,4 +73,4 @@ Returns STATUS_SUCCESS if there is a data intersection that fits in the supplied
 
 ## -see-also
 
-[KsPinDataIntersection](/windows-hardware/drivers/ddi/ks/nf-ks-kspindataintersection)
+[KsPinDataIntersection](./nf-ks-kspindataintersection.md)

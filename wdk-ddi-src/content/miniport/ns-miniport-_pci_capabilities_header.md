@@ -94,8 +94,8 @@ All PCI Capability structures have the header described by PCI_CAPABILITIES_HEAD
 
 ## -see-also
 
-[PCI_PMCSR](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pmcsr)
+[PCI_PMCSR](../wdm/ns-wdm-_pci_pmcsr.md)
 
-[PCI_PMC](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pmc)
+[PCI_PMC](../wdm/ns-wdm-_pci_pmc.md)
 
-[PCI_PMCSR_BSE](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pmcsr_bse)
+[PCI_PMCSR_BSE](../wdm/ns-wdm-_pci_pmcsr_bse.md)

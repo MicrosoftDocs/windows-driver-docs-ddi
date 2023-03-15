@@ -50,7 +50,7 @@ The KSPROPERTY_CAMERACONTROL_NODE_S2 structure describes node-based properties i
 
 ### -field NodeProperty
 
-Specifies an initialized [**KSP_NODE**](/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node) structure that describes the property set, property ID, request type, and node ID.
+Specifies an initialized [**KSP_NODE**](../ks/ns-ks-ksp_node.md) structure that describes the property set, property ID, request type, and node ID.
 
 ### -field Value1
 

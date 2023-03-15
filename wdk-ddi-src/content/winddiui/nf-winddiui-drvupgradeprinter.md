@@ -51,8 +51,8 @@ Caller-supplied value indicating the type of structure pointed to by *pDriverUpg
 
 | *Level* value | Structure pointed to by *pDriverUpgradeInfo* |
 |---|---|
-| 1 | [**DRIVER_UPGRADE_INFO_1**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_driver_upgrade_info_1) |
-| 2 | [**DRIVER_UPGRADE_INFO_2**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_driver_upgrade_info_2) |
+| 1 | [**DRIVER_UPGRADE_INFO_1**](./ns-winddiui-_driver_upgrade_info_1.md) |
+| 2 | [**DRIVER_UPGRADE_INFO_2**](./ns-winddiui-_driver_upgrade_info_2.md) |
 
 ### -param pDriverUpgradeInfo [in, optional]
 
@@ -66,7 +66,7 @@ If the operation succeeds, the function should return **TRUE**; otherwise, it sh
 
 A [printer interface DLL](/windows-hardware/drivers/print/printer-interface-dll) can optionally provide a **DrvUpgradePrinter** function. If it does, the spooler calls it for every printer when the printer driver is copied onto the system. This occurs when a system is upgraded from one operating system release to the next, or when an application updates a printer driver by calling the Win32 **AddPrinterDriver** function.
 
-Often, a new driver version requires registry settings that are different from those of the old version. The **DrvUpgradePrinter** function's purpose is to update the registry so it is compatible with the driver. For more information about storing printer information in the registry, see [DrvPrinterEvent](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvprinterevent).
+Often, a new driver version requires registry settings that are different from those of the old version. The **DrvUpgradePrinter** function's purpose is to update the registry so it is compatible with the driver. For more information about storing printer information in the registry, see [DrvPrinterEvent](./nf-winddiui-drvprinterevent.md).
 
 For Windows 2000 and later, when the spooler calls **DrvUpgradePrinter**, it supplies a DRIVER_UPGRADE_INFO_2 structure pointer for *pDriverUpgradeInfo*. If the function returns **FALSE**, the spooler calls the function again, this time specifying a DRIVER_UPGRADE_INFO_1 structure pointer. If this call returns **FALSE**, the spooler writes an entry in the event log.
 
@@ -74,8 +74,8 @@ For Windows NT 4.0 and previous, when the spooler calls **DrvUpgradePrinter**, i
 
 ## -see-also
 
-[**DRIVER_UPGRADE_INFO_1**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_driver_upgrade_info_1)
+[**DRIVER_UPGRADE_INFO_1**](./ns-winddiui-_driver_upgrade_info_1.md)
 
-[**DRIVER_UPGRADE_INFO_2**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_driver_upgrade_info_2)
+[**DRIVER_UPGRADE_INFO_2**](./ns-winddiui-_driver_upgrade_info_2.md)
 
-[DrvPrinterEvent](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvprinterevent)
+[DrvPrinterEvent](./nf-winddiui-drvprinterevent.md)

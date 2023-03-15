@@ -51,7 +51,7 @@ An AVStream minidriver's routine is called when an activity on the pin is perfor
 
 ### -param Pin [in]
 
-Pointer to the [KSPIN](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin) that was just created.
+Pointer to the [KSPIN](./ns-ks-_kspin.md) that was just created.
 
 ### -param Irp [in]
 
@@ -65,13 +65,13 @@ If the routine succeeds, the operation is guaranteed to succeed. Return STATUS_S
 
 | IRP | Description |
 |---|---|
-| [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create) | Typically, this routine is used by minidrivers that want to initialize the context and resources associated with the pin. The minidriver specifies this routine's address in the **Create** member of its [**KSPIN_DISPATCH**](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch) structure. This routine is called when a pin is created. At the point at which this routine is called, the file object has an associated context, and the KS object header has been allocated. Typically, this function will be provided by minidrivers that want to initialize the context and resources associated with the pin. The filter control mutex is held while in this function. The function will be called at IRQL = PASSIVE_LEVEL. This routine is optional. If the routine succeeds, the create operation is guaranteed to succeed. Return STATUS_SUCCESS or STATUS_PENDING. If a minidriver returns STATUS_PENDING, AVStream will not complete the [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create) immediately. Before returning STATUS_PENDING, however, the minidriver must call [IoMarkIrpPending](/windows-hardware/drivers/ddi/wdm/nf-wdm-iomarkirppending). Once the processing of the create is complete, the minidriver must set the IRP's status code and then call [KsCompletePendingRequest](/windows-hardware/drivers/ddi/ks/nf-ks-kscompletependingrequest). |
-| [IRP_MJ_CLOSE](/windows-hardware/drivers/kernel/irp-mj-close) | The minidriver specifies this routine's address in the **Close** member of its [**KSPIN_DISPATCH**](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch) structure. At the point at which the routine is called, any registered events on the pin have been freed, but the object is otherwise intact. The filter control mutex is held while in this function. For more information about mutexes, please see [Mutexes in AVStream](/windows-hardware/drivers/stream/mutexes-in-avstream). This routine is optional. |
+| [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create) | Typically, this routine is used by minidrivers that want to initialize the context and resources associated with the pin. The minidriver specifies this routine's address in the **Create** member of its [**KSPIN_DISPATCH**](./ns-ks-_kspin_dispatch.md) structure. This routine is called when a pin is created. At the point at which this routine is called, the file object has an associated context, and the KS object header has been allocated. Typically, this function will be provided by minidrivers that want to initialize the context and resources associated with the pin. The filter control mutex is held while in this function. The function will be called at IRQL = PASSIVE_LEVEL. This routine is optional. If the routine succeeds, the create operation is guaranteed to succeed. Return STATUS_SUCCESS or STATUS_PENDING. If a minidriver returns STATUS_PENDING, AVStream will not complete the [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create) immediately. Before returning STATUS_PENDING, however, the minidriver must call [IoMarkIrpPending](../wdm/nf-wdm-iomarkirppending.md). Once the processing of the create is complete, the minidriver must set the IRP's status code and then call [KsCompletePendingRequest](./nf-ks-kscompletependingrequest.md). |
+| [IRP_MJ_CLOSE](/windows-hardware/drivers/kernel/irp-mj-close) | The minidriver specifies this routine's address in the **Close** member of its [**KSPIN_DISPATCH**](./ns-ks-_kspin_dispatch.md) structure. At the point at which the routine is called, any registered events on the pin have been freed, but the object is otherwise intact. The filter control mutex is held while in this function. For more information about mutexes, please see [Mutexes in AVStream](/windows-hardware/drivers/stream/mutexes-in-avstream). This routine is optional. |
 
 ## -see-also
 
-[IoMarkIrpPending](/windows-hardware/drivers/ddi/wdm/nf-wdm-iomarkirppending)
+[IoMarkIrpPending](../wdm/nf-wdm-iomarkirppending.md)
 
-[KSPIN_DISPATCH](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch)
+[KSPIN_DISPATCH](./ns-ks-_kspin_dispatch.md)
 
-[KsCompletePendingRequest](/windows-hardware/drivers/ddi/ks/nf-ks-kscompletependingrequest)
+[KsCompletePendingRequest](./nf-ks-kscompletependingrequest.md)

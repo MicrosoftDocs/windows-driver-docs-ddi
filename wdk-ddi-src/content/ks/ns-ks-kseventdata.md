@@ -192,10 +192,10 @@ For more information, see [KS Events](/windows-hardware/drivers/stream/ks-events
 
 [KSEVENT](/windows-hardware/drivers/stream/ksevent-structure)
 
-[KsIncrementCountedWorker](/windows-hardware/drivers/ddi/ks/nf-ks-ksincrementcountedworker)
+[KsIncrementCountedWorker](./nf-ks-ksincrementcountedworker.md)
 
-[KsRegisterWorker](/windows-hardware/drivers/ddi/ks/nf-ks-ksregisterworker)
+[KsRegisterWorker](./nf-ks-ksregisterworker.md)
 
-[**WORK_QUEUE_ITEM**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_work_queue_item)
+[**WORK_QUEUE_ITEM**](../wdm/ns-wdm-_work_queue_item.md)
 
-[**WORK_QUEUE_TYPE**](/windows-hardware/drivers/ddi/wdm/ne-wdm-_work_queue_type)
+[**WORK_QUEUE_TYPE**](../wdm/ne-wdm-_work_queue_type.md)

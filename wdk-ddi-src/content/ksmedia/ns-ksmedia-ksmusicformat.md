@@ -50,7 +50,7 @@ The KSMUSICFORMAT structure is used to send and receive information about MIDI d
 
 ### -field TimeDeltaMs
 
-Indicates when this series of MIDI data bytes should be played. If this is the first KSMUSICFORMAT structure in the buffer, this field represents the delta (time change, in milliseconds) from the **PresentationTime** in the [KSSTREAM_HEADER](/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header) structure. Otherwise, the field represents the delta offset (in milliseconds) from the previous message (KSMUSICFORMAT structure). If this time is in the past, then the message is played immediately.
+Indicates when this series of MIDI data bytes should be played. If this is the first KSMUSICFORMAT structure in the buffer, this field represents the delta (time change, in milliseconds) from the **PresentationTime** in the [KSSTREAM_HEADER](../ks/ns-ks-ksstream_header.md) structure. Otherwise, the field represents the delta offset (in milliseconds) from the previous message (KSMUSICFORMAT structure). If this time is in the past, then the message is played immediately.
 
 ### -field ByteCount
 
@@ -74,4 +74,4 @@ Time stamps in these IRPs always increase across successively issued IRPs. Howev
 
 ## -see-also
 
-[KSSTREAM_HEADER](/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header)
+[KSSTREAM_HEADER](../ks/ns-ks-ksstream_header.md)

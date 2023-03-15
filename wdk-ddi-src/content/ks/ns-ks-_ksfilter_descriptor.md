@@ -53,11 +53,11 @@ The **KSFILTER_DESCRIPTOR** structure describes the characteristics of a filter 
 
 ### -field Dispatch
 
-A pointer to a [**KSFILTER_DISPATCH**](/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_dispatch) structure for this type of filter. This member is optional and need only be provided by clients that wish to receive notifications about filter creations, deletions, and so on. Drivers that are interested in the processing of data (transforms) typically provide this dispatch table and a processing function. Providing a filter-processing function instead of individual pin-processing functions is what makes a driver filter-centric instead of pin-centric.
+A pointer to a [**KSFILTER_DISPATCH**](./ns-ks-_ksfilter_dispatch.md) structure for this type of filter. This member is optional and need only be provided by clients that wish to receive notifications about filter creations, deletions, and so on. Drivers that are interested in the processing of data (transforms) typically provide this dispatch table and a processing function. Providing a filter-processing function instead of individual pin-processing functions is what makes a driver filter-centric instead of pin-centric.
 
 ### -field AutomationTable
 
-A pointer to a [**KSAUTOMATION_TABLE**](/windows-hardware/drivers/ddi/ks/ns-ks-ksautomation_table_) structure for this type of filter. The automation table is what describes the properties, methods, and events supported by this filter. This automation table is merged with the automation table supplied by AVStream for all filters. Should the client supply a property, method, or event handler already implemented by AVStream, the client's implementation supersedes AVStream's.
+A pointer to a [**KSAUTOMATION_TABLE**](./ns-ks-ksautomation_table_.md) structure for this type of filter. The automation table is what describes the properties, methods, and events supported by this filter. This automation table is merged with the automation table supplied by AVStream for all filters. Should the client supply a property, method, or event handler already implemented by AVStream, the client's implementation supersedes AVStream's.
 
 ### -field Version
 
@@ -69,9 +69,9 @@ Flags describing the behavior of the filter. Specify flags using a bitwise OR, w
 
 | Flag | Description |
 |---|---|
-| KSFILTER_FLAG_DISPATCH_LEVEL_PROCESSING | Indicates that the filter processes at IRQL DISPATCH_LEVEL as opposed to PASSIVE_LEVEL. This applies to the filter process callback as described in [**KSFILTER_DISPATCH**](/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_dispatch). |
+| KSFILTER_FLAG_DISPATCH_LEVEL_PROCESSING | Indicates that the filter processes at IRQL DISPATCH_LEVEL as opposed to PASSIVE_LEVEL. This applies to the filter process callback as described in [**KSFILTER_DISPATCH**](./ns-ks-_ksfilter_dispatch.md). |
 | KSFILTER_FLAG_CRITICAL_PROCESSING | If asynchronous processing has been specified or if the system is running at PASSIVE_LEVEL and a process call comes in at DISPATCH_LEVEL, processing is done in a queued work item. This flag indicates that the work item should be placed on the critical work queue as opposed to the delayed work queue. |
-| KSFILTER_FLAG_RECEIVE_ZERO_LENGTH_SAMPLES | Set this flag if a filter-centric filter needs to receive zero-length samples (stream headers with flags but no data). If this flag is not set, zero length samples are passed on to downstream pins, with automatic propagation of necessary flags. Note that this is identical to default behavior in DX8 and prior. If this happens, *these samples bypass the minidriver*. Set the **Terminate** flag in [**KSPROCESSPIN**](/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin) to "turn off" this flag. Also see [Filter-Centric Processing](/windows-hardware/drivers/stream/filter-centric-processing). |
+| KSFILTER_FLAG_RECEIVE_ZERO_LENGTH_SAMPLES | Set this flag if a filter-centric filter needs to receive zero-length samples (stream headers with flags but no data). If this flag is not set, zero length samples are passed on to downstream pins, with automatic propagation of necessary flags. Note that this is identical to default behavior in DX8 and prior. If this happens, *these samples bypass the minidriver*. Set the **Terminate** flag in [**KSPROCESSPIN**](./ns-ks-_ksprocesspin.md) to "turn off" this flag. Also see [Filter-Centric Processing](/windows-hardware/drivers/stream/filter-centric-processing). |
 | KSFILTER_FLAG_DENY_USERMODE_ACCESS | This flag prevents user-mode access to a specific filter and all pins instantiated on this filter. |
 | KSFILTER_FLAG_HYPERCRITICAL_PROCESSING | If asynchronous processing has been specified or if the system is running at PASSIVE_LEVEL and a process call comes in at DISPATCH_LEVEL, AVStream processes a queued work item. This flag indicates that the work item should be placed on the hypercritical work queue as opposed to the delayed work queue or critical work queue. |
 
@@ -89,7 +89,7 @@ This member specifies the size of each individual descriptor in the descriptor t
 
 ### -field PinDescriptors
 
-A pointer to an array of [**KSPIN_DESCRIPTOR_EX**](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex) structures that describe the pins supported by this filter type. If **PinDescriptorsCount** is zero, set this member to **NULL**..
+A pointer to an array of [**KSPIN_DESCRIPTOR_EX**](./ns-ks-_kspin_descriptor_ex.md) structures that describe the pins supported by this filter type. If **PinDescriptorsCount** is zero, set this member to **NULL**..
 
 ### -field CategoriesCount
 
@@ -109,7 +109,7 @@ This member specifies the size in bytes of each individual descriptor in the des
 
 ### -field NodeDescriptors
 
-A pointer to an array of [**KSNODE_DESCRIPTOR**](/windows-hardware/drivers/ddi/ks/ns-ks-_ksnode_descriptor) structures describing the topology nodes for this filter type. This member may be **null** if and only if **NodeDescriptorsCount** is zero.
+A pointer to an array of [**KSNODE_DESCRIPTOR**](./ns-ks-_ksnode_descriptor.md) structures describing the topology nodes for this filter type. This member may be **null** if and only if **NodeDescriptorsCount** is zero.
 
 ### -field ConnectionsCount
 
@@ -117,11 +117,11 @@ This member specifies the number of topology connections present in **Connection
 
 ### -field Connections
 
-A pointer to an array of [**KSTOPOLOGY_CONNECTION**](/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection) structures present in this filter type. This member is optional; it may be **NULL** if and only if **ConnectionsCount** is zero (in which case, the default topology is used).
+A pointer to an array of [**KSTOPOLOGY_CONNECTION**](./ns-ks-kstopology_connection.md) structures present in this filter type. This member is optional; it may be **NULL** if and only if **ConnectionsCount** is zero (in which case, the default topology is used).
 
 ### -field ComponentId
 
-A pointer to the [**KSCOMPONENTID**](/windows-hardware/drivers/ddi/ks/ns-ks-kscomponentid) structure for this filter type. This is used for the component ID property that provides identification information. This member is optional.
+A pointer to the [**KSCOMPONENTID**](./ns-ks-kscomponentid.md) structure for this filter type. This is used for the component ID property that provides identification information. This member is optional.
 
 ## -remarks
 
@@ -143,14 +143,14 @@ Similarly, if you do not use **DEFINE_KS_FILTER_NODE_DESCRIPTORS** to set *NodeD
 
 ## -see-also
 
-[**KSCOMPONENTID**](/windows-hardware/drivers/ddi/ks/ns-ks-kscomponentid)
+[**KSCOMPONENTID**](./ns-ks-kscomponentid.md)
 
-[**KSFILTER_DISPATCH**](/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_dispatch)
+[**KSFILTER_DISPATCH**](./ns-ks-_ksfilter_dispatch.md)
 
-[**KSNODE_DESCRIPTOR**](/windows-hardware/drivers/ddi/ks/ns-ks-_ksnode_descriptor)
+[**KSNODE_DESCRIPTOR**](./ns-ks-_ksnode_descriptor.md)
 
-[**KSPIN_DESCRIPTOR_EX**](/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex)
+[**KSPIN_DESCRIPTOR_EX**](./ns-ks-_kspin_descriptor_ex.md)
 
-[**KSTOPOLOGY_CONNECTION**](/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection)
+[**KSTOPOLOGY_CONNECTION**](./ns-ks-kstopology_connection.md)
 
-[KsCreateFilterFactory](/windows-hardware/drivers/ddi/ks/nf-ks-kscreatefilterfactory)
+[KsCreateFilterFactory](./nf-ks-kscreatefilterfactory.md)

@@ -84,7 +84,7 @@ Contains one or more bit flags identifying limitations on the capabilities provi
 
 | Flag | Definition |
 |---|---|
-| DF_BKSP_OK | If set, a single backspace character can move the cursor to the beginning of the overstrike region. If not set, an x-movement cursor command must be sent. (Used only if MTYPE_PAIRED is specified for the character's [**TRANSDATA**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_transdata) structure in [**MAPTABLE**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable). Otherwise ignored.) |
+| DF_BKSP_OK | If set, a single backspace character can move the cursor to the beginning of the overstrike region. If not set, an x-movement cursor command must be sent. (Used only if MTYPE_PAIRED is specified for the character's [**TRANSDATA**](./ns-prntfont-_transdata.md) structure in [**MAPTABLE**](./ns-prntfont-_maptable.md). Otherwise ignored.) |
 | DF_NO_BOLD | The device font cannot be bolded using underline simulation. |
 | DF_NO_DOUBLE_UNDERLINE | The device font cannot be double-underlined using double-underline simulation. |
 | DF_NO_STRIKETHRU | The device font cannot be struck through using strike-through simulation. |
@@ -118,7 +118,7 @@ Specifies the number of pixels by which each character must be shifted. Used for
 
 ### -field SelectFont
 
-Is an [**INVOC**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc) structure containing the printer's font selection command.
+Is an [**INVOC**](./ns-prntfont-_invoc.md) structure containing the printer's font selection command.
 
 ### -field UnSelectFont
 
@@ -130,8 +130,8 @@ Not used.
 
 ## -remarks
 
-A .ufm (Unidrv Font Metrics) file's UNIDRVINFO structure is accessed by a pointer in the file's [**UNIFM_HDR**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unifm_hdr) structure.
+A .ufm (Unidrv Font Metrics) file's UNIDRVINFO structure is accessed by a pointer in the file's [**UNIFM_HDR**](./ns-prntfont-_unifm_hdr.md) structure.
 
 ## -see-also
 
-[**INVOC**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc)
+[**INVOC**](./ns-prntfont-_invoc.md)

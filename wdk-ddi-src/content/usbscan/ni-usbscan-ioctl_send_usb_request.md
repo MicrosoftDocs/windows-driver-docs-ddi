@@ -47,7 +47,7 @@ Sends a vendor-defined request to a USB device, using the control pipe, and opti
 
 ### -input-buffer
 
-Pointer to an [**IO_BLOCK_EX**](/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_io_block_ex) structure.
+Pointer to an [**IO_BLOCK_EX**](./ns-usbscan-_io_block_ex.md) structure.
 
 ### -input-buffer-length
 
@@ -73,7 +73,7 @@ Size of the output buffer, or zero if a data transfer is not being requested.
 
 ### DeviceIoControl Parameters
 
-When the **DeviceloControl** function is called with the IOCTL_SEND_USB_REQUEST control code, the caller must specify the address of an [**IO_BLOCK_EX**](/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_io_block_ex) structure as the function's *lpInBuffer* parameter. The type of request specified with this I/O control code is device-specific and vendor-defined, as are the type and size of any information that might be sent or received.
+When the **DeviceloControl** function is called with the IOCTL_SEND_USB_REQUEST control code, the caller must specify the address of an [**IO_BLOCK_EX**](./ns-usbscan-_io_block_ex.md) structure as the function's *lpInBuffer* parameter. The type of request specified with this I/O control code is device-specific and vendor-defined, as are the type and size of any information that might be sent or received.
 
 The following table shows how input arguments should be specified.
 
@@ -89,7 +89,7 @@ The following table shows how input arguments should be specified.
 
 The **bmRequestType** member of the IO_BLOCK_EX structure is not used with IOCTL_SEND_USB_REQUEST.
 
-Using the [**IO_BLOCK_EX**](/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_io_block_ex) structure contents, the kernel-mode driver creates a [**URB**](/windows-hardware/drivers/ddi/usb/ns-usb-_urb) that contains a [**URB_CONTROL_VENDOR_OR_CLASS_REQUEST**](/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_vendor_or_class_request) structure.
+Using the [**IO_BLOCK_EX**](./ns-usbscan-_io_block_ex.md) structure contents, the kernel-mode driver creates a [**URB**](../usb/ns-usb-_urb.md) that contains a [**URB_CONTROL_VENDOR_OR_CLASS_REQUEST**](../usb/ns-usb-_urb_control_vendor_or_class_request.md) structure.
 
 The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure members.
 

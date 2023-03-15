@@ -53,9 +53,9 @@ The TRANSDATA structure is one of the structures used to define the contents of 
 
 ### -field ubCodePageID
 
-Specifies the zero-based index of a particular structure in the array of [**UNI_CODEPAGEINFO**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_codepageinfo) structures. The first structure in this array has an index of 0, the second structure has an index of 1, and so on.
+Specifies the zero-based index of a particular structure in the array of [**UNI_CODEPAGEINFO**](./ns-prntfont-_uni_codepageinfo.md) structures. The first structure in this array has an index of 0, the second structure has an index of 1, and so on.
 
-The **loCodePageOffset** member of the [**UNI_GLYPHSETDATA**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata) structure contains the offset from the beginning of the UNI_GLYPHSETDATA structure to the beginning of the array of UNI_CODEPAGEINFO structures.
+The **loCodePageOffset** member of the [**UNI_GLYPHSETDATA**](./ns-prntfont-_uni_glyphsetdata.md) structure contains the offset from the beginning of the UNI_GLYPHSETDATA structure to the beginning of the array of UNI_CODEPAGEINFO structures.
 
 ### -field ubType
 
@@ -69,12 +69,12 @@ One of the following three format flags can be set:
 | MTYPE_DIRECT | The **ubCode** member of the **uCode** union contains a one-byte character code to be sent to the printer. |
 | MTYPE_PAIRED | The **ubPairs** member of the **uCode** union contains a two-byte character code to be sent to the printer. |
 
-One of the action following flags can be set. All are optional. Not valid if the **lPredefinedID** member of the [**UNI_GLYPHSETDATA**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata) structure is set to CC_NOPRECNV.
+One of the action following flags can be set. All are optional. Not valid if the **lPredefinedID** member of the [**UNI_GLYPHSETDATA**](./ns-prntfont-_uni_glyphsetdata.md) structure is set to CC_NOPRECNV.
 
 | Flag | Action |
 |---|---|
 | MTYPE_ADD | The specified mapping is added to the map table contained in the .gtt file specified by the **lPredefinedID** member of the UNI_GLYPHSETDATA structure. |
-| MTYPE_DISABLE | The specified mapping, contained in the .gtt file specified by the **lPredefinedID** member of the [**UNI_GLYPHSETDATA**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata) structure, is disabled. |
+| MTYPE_DISABLE | The specified mapping, contained in the .gtt file specified by the **lPredefinedID** member of the [**UNI_GLYPHSETDATA**](./ns-prntfont-_uni_glyphsetdata.md) structure, is disabled. |
 | MTYPE_REPLACE | The specified mapping replaces mapping in the map table contained in the .gtt file specified by the **lPredefinedID** member of the UNI_GLYPHSETDATA structure. |
 
 One of the following East Asian flags can be set:
@@ -88,7 +88,7 @@ One of the following East Asian flags can be set:
 
 ### -field uCode.sCode
 
-Specifies the offset to a command string. The offset is relative to the beginning of the [**MAPTABLE**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable) structure containing the TRANSDATA array. The first word of the command string must be the command size. Valid if the MTYPE_COMPOSE flag is set in **uType**.
+Specifies the offset to a command string. The offset is relative to the beginning of the [**MAPTABLE**](./ns-prntfont-_maptable.md) structure containing the TRANSDATA array. The first word of the command string must be the command size. Valid if the MTYPE_COMPOSE flag is set in **uType**.
 
 ### -field uCode.ubCode
 
@@ -100,12 +100,12 @@ Specifies a two-byte character code. Valid if the MTYPE_PAIRED flag is set in **
 
 ## -remarks
 
-A .gtt file's TRANSDATA structure array, which contains glyph mapping information, is contained in the file's [**MAPTABLE**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable) structure.
+A .gtt file's TRANSDATA structure array, which contains glyph mapping information, is contained in the file's [**MAPTABLE**](./ns-prntfont-_maptable.md) structure.
 
 ## -see-also
 
-[**MAPTABLE**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable)
+[**MAPTABLE**](./ns-prntfont-_maptable.md)
 
-[**UNI_CODEPAGEINFO**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_codepageinfo)
+[**UNI_CODEPAGEINFO**](./ns-prntfont-_uni_codepageinfo.md)
 
-[**UNI_GLYPHSETDATA**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata)
+[**UNI_GLYPHSETDATA**](./ns-prntfont-_uni_glyphsetdata.md)

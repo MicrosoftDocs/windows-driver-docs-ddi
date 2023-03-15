@@ -57,10 +57,10 @@ The method returns one of the following values.
 
 ## -see-also
 
-[Bidirectional Communication Interfaces](/windows-hardware/drivers/ddi/_print/index)
+[Bidirectional Communication Interfaces](../_print/index.md)
 
 [Bidirectional Communication Schema](/windows-hardware/drivers/print/bidirectional-communication-schema)
 
-[IBidiSpl2](/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl2)
+[IBidiSpl2](./nn-bidispl-ibidispl2.md)
 
 [Print Spooler Components](/windows-hardware/drivers/print/print-spooler-components)

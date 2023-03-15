@@ -50,11 +50,11 @@ A driver provides a structure of type **KSPROPERTY_MEMBERSHEADER** to describe t
 
 ### -field MembersFlags
 
-Specifies the type of entries in the members list. The size of valid values is determined by value type, as specified in the **PropTypeSet** member of the [**KSPROPERTY_DESCRIPTION**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_description) structure. The number of range pairs is determined by **MembersCount**. This should be one of the values listed in the following table.
+Specifies the type of entries in the members list. The size of valid values is determined by value type, as specified in the **PropTypeSet** member of the [**KSPROPERTY_DESCRIPTION**](./ns-ks-ksproperty_description.md) structure. The number of range pairs is determined by **MembersCount**. This should be one of the values listed in the following table.
 
 | Value | Description |
 |---|---|
-| KSPROPERTY_MEMBER_RANGES | Indicates that list members are ranges, of type [**KSPROPERTY_BOUNDS_LONG**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_bounds_long) or [KSPROPERTY_BOUNDS_LONGLONG](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_bounds_longlong). |
+| KSPROPERTY_MEMBER_RANGES | Indicates that list members are ranges, of type [**KSPROPERTY_BOUNDS_LONG**](./ns-ks-ksproperty_bounds_long.md) or [KSPROPERTY_BOUNDS_LONGLONG](./ns-ks-ksproperty_bounds_longlong.md). |
 | KSPROPERTY_MEMBER_STEPPEDRANGES | Indicates that the following members are stepped values within ranges, of type [**KSPROPERTY_STEPPING_LONG**](/previous-versions/windows/hardware/drivers/dn936838(v=vs.85)) or [**KSPROPERTY_STEPPING_LONGLONG**](/previous-versions/windows/hardware/drivers/dn936841(v=vs.85)). |
 | KSPROPERTY_MEMBER_VALUES | Each entry in the members array is a single value. |
 
@@ -68,11 +68,11 @@ Specifies the number of entries in the members array.
 
 ### -field Flags
 
-Specifies the type of entries in the members list. The size of valid values is determined by value type, as specified in the **PropTypeSet** member of the [**KSPROPERTY_DESCRIPTION**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_description) structure. The number of range pairs is determined by **MembersCount**. This should be one of the values listed in the following table.
+Specifies the type of entries in the members list. The size of valid values is determined by value type, as specified in the **PropTypeSet** member of the [**KSPROPERTY_DESCRIPTION**](./ns-ks-ksproperty_description.md) structure. The number of range pairs is determined by **MembersCount**. This should be one of the values listed in the following table.
 
 | Value | Description |
 |---|---|
-| KSPROPERTY_MEMBER_RANGES | Indicates that list members are ranges, of type [**KSPROPERTY_BOUNDS_LONG**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_bounds_long) or [**KSPROPERTY_BOUNDS_LONGLONG**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_bounds_longlong). |
+| KSPROPERTY_MEMBER_RANGES | Indicates that list members are ranges, of type [**KSPROPERTY_BOUNDS_LONG**](./ns-ks-ksproperty_bounds_long.md) or [**KSPROPERTY_BOUNDS_LONGLONG**](./ns-ks-ksproperty_bounds_longlong.md). |
 | KSPROPERTY_MEMBER_STEPPEDRANGES | Indicates that the following members are stepped values within ranges, of type [KSPROPERTY_STEPPING_LONG](/previous-versions/windows/hardware/drivers/dn936838(v=vs.85)) or [**KSPROPERTY_STEPPING_LONGLONG**](/previous-versions/windows/hardware/drivers/dn936841(v=vs.85)). |
 | KSPROPERTY_MEMBER_VALUES | Each entry in the members array is a single value. |
 
@@ -80,23 +80,23 @@ Specifies the type of entries in the members list. The size of valid values is d
 
 The size of the array can be determined by multiplying **MembersCount** by **MembersSize**.
 
-A [**KSPROPERTY_MEMBERSLIST**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_memberslist) structure contains a KSPROPERTY_MEMBERSHEADER structure as its first member. The second member, **Members**, points to an array of property values or ranges.
+A [**KSPROPERTY_MEMBERSLIST**](./ns-ks-ksproperty_memberslist.md) structure contains a KSPROPERTY_MEMBERSHEADER structure as its first member. The second member, **Members**, points to an array of property values or ranges.
 
-In addition, a [**KSPROPERTY_DESCRIPTION**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_description) structure can be followed by a list of KSPROPERTY_MEMBERSHEADER structures.
+In addition, a [**KSPROPERTY_DESCRIPTION**](./ns-ks-ksproperty_description.md) structure can be followed by a list of KSPROPERTY_MEMBERSHEADER structures.
 
-For more information about KSPROPERTY_MEMBER_FLAG_DEFAULT, see [KSPROPERTY_ITEM](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_item). For more information about KSPROPERTY_MEMBER_FLAG_BASICSUPPORT_MULTICHANNEL and KSPROPERTY_MEMBER_FLAG_BASICSUPPORT_UNIFORM, see [Exposing Multichannel Nodes](/windows-hardware/drivers/audio/exposing-multichannel-nodes) in the Windows Driver Kit (WDK) Audio documentation.
+For more information about KSPROPERTY_MEMBER_FLAG_DEFAULT, see [KSPROPERTY_ITEM](./ns-ks-ksproperty_item.md). For more information about KSPROPERTY_MEMBER_FLAG_BASICSUPPORT_MULTICHANNEL and KSPROPERTY_MEMBER_FLAG_BASICSUPPORT_UNIFORM, see [Exposing Multichannel Nodes](/windows-hardware/drivers/audio/exposing-multichannel-nodes) in the Windows Driver Kit (WDK) Audio documentation.
 
 ## -see-also
 
-[**KSPROPERTY_BOUNDS_LONG**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_bounds_long)
+[**KSPROPERTY_BOUNDS_LONG**](./ns-ks-ksproperty_bounds_long.md)
 
-[**KSPROPERTY_BOUNDS_LONGLONG**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_bounds_longlong)
+[**KSPROPERTY_BOUNDS_LONGLONG**](./ns-ks-ksproperty_bounds_longlong.md)
 
-[**KSPROPERTY_DESCRIPTION**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_description)
+[**KSPROPERTY_DESCRIPTION**](./ns-ks-ksproperty_description.md)
 
-[**KSPROPERTY_ITEM**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_item)
+[**KSPROPERTY_ITEM**](./ns-ks-ksproperty_item.md)
 
-[**KSPROPERTY_MEMBERSLIST**](/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_memberslist)
+[**KSPROPERTY_MEMBERSLIST**](./ns-ks-ksproperty_memberslist.md)
 
 [**KSPROPERTY_STEPPING_LONG**](/previous-versions/windows/hardware/drivers/dn936838(v=vs.85))
 
