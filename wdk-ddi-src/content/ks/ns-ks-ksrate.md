@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The query is passed a **KSRATE** structure appended to the property containing the rate request (known as a [**KSRATE_CAPABILITY**](/windows-hardware/drivers/ddi/ks/ns-ks-ksrate_capability) structure), and is returned a **KSRATE** structure filled in with the capability given the rate request.
+The query is passed a **KSRATE** structure appended to the property containing the rate request (known as a [**KSRATE_CAPABILITY**](./ns-ks-ksrate_capability.md) structure), and is returned a **KSRATE** structure filled in with the capability given the rate request.
 
 ## -struct-fields
 
@@ -75,4 +75,4 @@ Possible flag values are listed in the following table.
 
 ## -see-also
 
-[KSRATE_CAPABILITY](/windows-hardware/drivers/ddi/ks/ns-ks-ksrate_capability)
+[KSRATE_CAPABILITY](./ns-ks-ksrate_capability.md)

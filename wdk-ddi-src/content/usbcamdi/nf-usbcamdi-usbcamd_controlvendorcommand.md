@@ -76,11 +76,11 @@ Pointer to the buffer length value. Buffer length is expressed in bytes. If the 
 
 ### -param CommandComplete [in, optional]
 
-Pointer to a camera minidriver defined [CommandCompleteFunction](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function), which is called when the bulk read or write is completed. This value can be **NULL**.
+Pointer to a camera minidriver defined [CommandCompleteFunction](./nc-usbcamdi-pcommand_complete_function.md), which is called when the bulk read or write is completed. This value can be **NULL**.
 
 ### -param CommandContext [in, optional]
 
-Pointer to a block of memory, that is passed as an argument to the camera minidriver defined [CommandCompleteFunction](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function).
+Pointer to a block of memory, that is passed as an argument to the camera minidriver defined [CommandCompleteFunction](./nc-usbcamdi-pcommand_complete_function.md).
 
 ## -returns
 
@@ -95,8 +95,8 @@ Other possible error codes include:
 
 ## -remarks
 
-This function may be called at IRQL >= PASSIVE_LEVEL. If the function is called at IRQL > PASSIVE_LEVEL, the command is deferred. After completion, the camera minidriver defined [CommandCompleteFunction](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function) is called and passed the value in the *CommandContext* argument*.*
+This function may be called at IRQL >= PASSIVE_LEVEL. If the function is called at IRQL > PASSIVE_LEVEL, the command is deferred. After completion, the camera minidriver defined [CommandCompleteFunction](./nc-usbcamdi-pcommand_complete_function.md) is called and passed the value in the *CommandContext* argument*.*
 
 ## -see-also
 
-[CommandCompleteFunction](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function)
+[CommandCompleteFunction](./nc-usbcamdi-pcommand_complete_function.md)

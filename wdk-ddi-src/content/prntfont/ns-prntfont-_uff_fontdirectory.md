@@ -61,7 +61,7 @@ Specifies the size, in bytes, of the UFF_FONTDIRECTORY structure.
 
 ### -field wFontID
 
-Specifies the font identifier. This value must match the **wDataID** member of a [**DATA_HEADER**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header) structure that specifies font metrics information within the .uff file.
+Specifies the font identifier. This value must match the **wDataID** member of a [**DATA_HEADER**](./ns-prntfont-_data_header.md) structure that specifies font metrics information within the .uff file.
 
 ### -field sGlyphID
 
@@ -95,7 +95,7 @@ Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-a
 
 ### -field offFontData
 
-Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned [**DATA_HEADER**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header) structure specifying a font metrics section.
+Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned [**DATA_HEADER**](./ns-prntfont-_data_header.md) structure specifying a font metrics section.
 
 ### -field offGlyphData
 
@@ -103,11 +103,11 @@ Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-a
 
 ### -field offVarData
 
-Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned [**DATA_HEADER**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header) structure specifying a data section. If the FONT_FL_PERMANENT_SF flag is set in **wFlags**, **offVarData** must be zero.
+Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned [**DATA_HEADER**](./ns-prntfont-_data_header.md) structure specifying a data section. If the FONT_FL_PERMANENT_SF flag is set in **wFlags**, **offVarData** must be zero.
 
 ## -remarks
 
-If **sGlyphID** is a greater than zero, it must match the **wDataID** member of a [**DATA_HEADER**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header) structure that specifies a glyph set within the .uff file.
+If **sGlyphID** is a greater than zero, it must match the **wDataID** member of a [**DATA_HEADER**](./ns-prntfont-_data_header.md) structure that specifies a glyph set within the .uff file.
 
 If **sGlyphID** is less than zero, it must be one of the CC_-prefixed constants defined in prntfont.h, which identify predefined glyph sets.
 
@@ -115,4 +115,4 @@ If **sGlyphID** is zero, Unidrv uses the glyph set resource identifier contained
 
 ## -see-also
 
-[**DATA_HEADER**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header)
+[**DATA_HEADER**](./ns-prntfont-_data_header.md)

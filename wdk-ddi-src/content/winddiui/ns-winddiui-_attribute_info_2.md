@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **ATTRIBUTE_INFO_2** structure is used as a parameter for a printer interface DLL's [DrvQueryJobAttributes](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvqueryjobattributes) function. All member values are function-supplied.
+The **ATTRIBUTE_INFO_2** structure is used as a parameter for a printer interface DLL's [DrvQueryJobAttributes](./nf-winddiui-drvqueryjobattributes.md) function. All member values are function-supplied.
 
 ## -struct-fields
 
@@ -103,14 +103,14 @@ One of the following bit flag values:
 
 The EMF print processor uses the flag specified for **dwColorOptimization** to determine whether to request GDI to perform monochrome color optimization. If monochrome color optimization is enabled, the print job can be switched between monochrome and color rendering as appropriate.
 
-If you are creating a Unidrv rendering plug-in to generate color watermarks, note that when the **dwColorOptimization** member is set to COLOR_OPTIMIZATION, color watermarks are printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization. Color optimization also can be controlled by the Unidrv ***ChangeColorModeOnDoc?** color attribute (see [Color Attributes](/windows-hardware/drivers/print/color-attributes)), and by the [GdiEndPageEMF](/windows-hardware/drivers/ddi/winppi/nf-winppi-gdiendpageemf) function.
+If you are creating a Unidrv rendering plug-in to generate color watermarks, note that when the **dwColorOptimization** member is set to COLOR_OPTIMIZATION, color watermarks are printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization. Color optimization also can be controlled by the Unidrv ***ChangeColorModeOnDoc?** color attribute (see [Color Attributes](/windows-hardware/drivers/print/color-attributes)), and by the [GdiEndPageEMF](../winppi/nf-winppi-gdiendpageemf.md) function.
 
-For more information about other structure members, see [**ATTRIBUTE_INFO_1**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_1).
+For more information about other structure members, see [**ATTRIBUTE_INFO_1**](./ns-winddiui-_attribute_info_1.md).
 
 ## -see-also
 
-[**ATTRIBUTE_INFO_1**](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_1)
+[**ATTRIBUTE_INFO_1**](./ns-winddiui-_attribute_info_1.md)
 
-[DrvQueryJobAttributes](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvqueryjobattributes)
+[DrvQueryJobAttributes](./nf-winddiui-drvqueryjobattributes.md)
 
-[GdiEndPageEMF](/windows-hardware/drivers/ddi/winppi/nf-winppi-gdiendpageemf)
+[GdiEndPageEMF](../winppi/nf-winppi-gdiendpageemf.md)

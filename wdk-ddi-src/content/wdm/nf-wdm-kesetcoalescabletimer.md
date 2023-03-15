@@ -47,7 +47,7 @@ The **KeSetCoalescableTimer** routine sets the initial expiration time and perio
 
 ### -param Timer [in, out]
 
-A pointer to a timer object. This parameter points to a [KTIMER](/windows-hardware/drivers/kernel/eprocess) structure, which is an opaque, system structure that represents the timer object. This object must have been previously initialized by the [KeInitializeTimerEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimerex) or [KeInitializeTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer) routine.
+A pointer to a timer object. This parameter points to a [KTIMER](/windows-hardware/drivers/kernel/eprocess) structure, which is an opaque, system structure that represents the timer object. This object must have been previously initialized by the [KeInitializeTimerEx](./nf-wdm-keinitializetimerex.md) or [KeInitializeTimer](./nf-wdm-keinitializetimer.md) routine.
 
 ### -param DueTime [in]
 
@@ -63,7 +63,7 @@ Specifies a tolerance, in milliseconds, for the timer period that *Period* speci
 
 ### -param Dpc [in, optional]
 
-A pointer to a DPC object. This parameter points to a [KDPC](/windows-hardware/drivers/kernel/eprocess) structure, which is an opaque, system structure that represents the DPC object. This object must have been previously initialized by the [KeInitializeDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc) routine. This parameter is optional and can be specified as **NULL** if the caller does not require a DPC.
+A pointer to a DPC object. This parameter points to a [KDPC](/windows-hardware/drivers/kernel/eprocess) structure, which is an opaque, system structure that represents the DPC object. This object must have been previously initialized by the [KeInitializeDpc](./nf-wdm-keinitializedpc.md) routine. This parameter is optional and can be specified as **NULL** if the caller does not require a DPC.
 
 ## -returns
 
@@ -81,7 +81,7 @@ This routine does the following:
 
 - Makes the timer active and sets the due time and period of the timer to the specified values. The timer can expire immediately if the specified due time has already passed.
 
-The [KeSetTimerEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex) routine is similar to **KeSetCoalescableTimer** but does not accept a *TolerableDelay* parameter. The *TolerableDelay* parameter of **KeSetCoalescableTimer** enables the caller to specify a tolerance for the timer period. A call to **KeSetCoalescableTimer** with *TolerableDelay* = 0 is the same as a call to **KeSetTimerEx**. In many instances, developers can easily modify existing drivers by replacing calls to **KeSetTimerEx** with calls to **KeSetCoalescableTimer**.
+The [KeSetTimerEx](./nf-wdm-kesettimerex.md) routine is similar to **KeSetCoalescableTimer** but does not accept a *TolerableDelay* parameter. The *TolerableDelay* parameter of **KeSetCoalescableTimer** enables the caller to specify a tolerance for the timer period. A call to **KeSetCoalescableTimer** with *TolerableDelay* = 0 is the same as a call to **KeSetTimerEx**. In many instances, developers can easily modify existing drivers by replacing calls to **KeSetTimerEx** with calls to **KeSetCoalescableTimer**.
 
 If two **KeSetCoalescableTimer** calls specify the same timer object, and the second call occurs before the *DueTime* that is specified for the first call expires, the second call implicitly cancels the timer from the first call. However, if a timer expiration from the first call has already enabled a DPC to run, the DPC might run after the timer is canceled. The second call replaces the pending expiration time from the first call with a new expiration time, and activates the timer again.
 
@@ -89,13 +89,13 @@ If the *Period* parameter is nonzero, the timer is periodic. For a periodic time
 
 If the *Dpc* parameter is non-**NULL**, the routine creates an association between the specified DPC object and the timer object. After the timer expires, the timer service removes the timer object from the system timer queue and sets this object to a signaled state. If a DPC object is associated with the timer object, the timer service inserts the DPC object into the system DPC queue to run as soon as conditions allow.
 
-Only one instance of a particular DPC object can be in the system DPC queue at a time. To avoid potential race conditions, avoid passing the same DPC object to both the **KeSetCoalescableTimer** and [KeInsertQueueDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc) routines.
+Only one instance of a particular DPC object can be in the system DPC queue at a time. To avoid potential race conditions, avoid passing the same DPC object to both the **KeSetCoalescableTimer** and [KeInsertQueueDpc](./nf-wdm-keinsertqueuedpc.md) routines.
 
-Avoid changing the importance or the target processor of a DPC that is associated with an active timer. Either cancel the timer or make sure that the timer has expired before you call a routine such as [KeSetImportanceDpc](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesetimportancedpc) or [KeSetTargetProcessorDpcEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettargetprocessordpcex) to change the DPC settings. For example, if a driver updates the target processor of a DPC while a timer enables the DPC to run, the DPC might run on an arbitrary processor.
+Avoid changing the importance or the target processor of a DPC that is associated with an active timer. Either cancel the timer or make sure that the timer has expired before you call a routine such as [KeSetImportanceDpc](../ntddk/nf-ntddk-kesetimportancedpc.md) or [KeSetTargetProcessorDpcEx](./nf-wdm-kesettargetprocessordpcex.md) to change the DPC settings. For example, if a driver updates the target processor of a DPC while a timer enables the DPC to run, the DPC might run on an arbitrary processor.
 
 A periodic timer automatically restarts as soon as it expires. Therefore, in a multiprocessor system, the DPC for a periodic timer might be running on two or more processors at the same time.
 
-Drivers must cancel any active timers in their [Unload](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload) routines. Call the [KeCancelTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-kecanceltimer) routine to cancel a timer. If a DPC is associated with a timer that is periodic or that might recently have expired, a driver must wait (for example, by calling the [KeFlushQueuedDpcs](/windows-hardware/drivers/ddi/wdm/nf-wdm-keflushqueueddpcs) routine) to free the DPC and its associated data until all pending DPC executions on all processors finish.
+Drivers must cancel any active timers in their [Unload](./nc-wdm-driver_unload.md) routines. Call the [KeCancelTimer](./nf-wdm-kecanceltimer.md) routine to cancel a timer. If a DPC is associated with a timer that is periodic or that might recently have expired, a driver must wait (for example, by calling the [KeFlushQueuedDpcs](./nf-wdm-keflushqueueddpcs.md) routine) to free the DPC and its associated data until all pending DPC executions on all processors finish.
 
 **KeSetCoalescableTimer** uses the *TolerableDelay* parameter to perform timer coalescing. That is, the routine adjusts the expiration times for the timer to coincide with the expiration times of other software timers. Timer coalescing helps increase the length of idle periods so that the operating system can reduce power consumption and improve energy efficiency.
 
@@ -115,22 +115,22 @@ For more information about timer objects, see [Timer Objects and DPCs](/windows-
 
 [KTIMER](/windows-hardware/drivers/kernel/eprocess)
 
-[KeCancelTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-kecanceltimer)
+[KeCancelTimer](./nf-wdm-kecanceltimer.md)
 
-[KeFlushQueuedDpcs](/windows-hardware/drivers/ddi/wdm/nf-wdm-keflushqueueddpcs)
+[KeFlushQueuedDpcs](./nf-wdm-keflushqueueddpcs.md)
 
-[KeInitializeDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc)
+[KeInitializeDpc](./nf-wdm-keinitializedpc.md)
 
-[KeInitializeTimer](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer)
+[KeInitializeTimer](./nf-wdm-keinitializetimer.md)
 
-[KeInitializeTimerEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimerex)
+[KeInitializeTimerEx](./nf-wdm-keinitializetimerex.md)
 
-[KeInsertQueueDpc](/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc)
+[KeInsertQueueDpc](./nf-wdm-keinsertqueuedpc.md)
 
-[KeSetImportanceDpc](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesetimportancedpc)
+[KeSetImportanceDpc](../ntddk/nf-ntddk-kesetimportancedpc.md)
 
-[KeSetTargetProcessorDpcEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettargetprocessordpcex)
+[KeSetTargetProcessorDpcEx](./nf-wdm-kesettargetprocessordpcex.md)
 
-[KeSetTimerEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex)
+[KeSetTimerEx](./nf-wdm-kesettimerex.md)
 
-[Unload](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload)
+[Unload](./nc-wdm-driver_unload.md)

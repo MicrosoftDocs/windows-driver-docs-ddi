@@ -54,7 +54,7 @@ Specifies the description of the original event, with the **KSEVENT_TYPE_QUERYBU
 
 ### -field EventData
 
-A pointer to a [**KSEVENTDATA**](/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata) structure. This is the same pointer supplied to [AVStrMiniAddEvent](/windows-hardware/drivers/ddi/ks/nc-ks-pfnksaddevent) at event enable time. This pointer is used as the unique identifier in locating the event, just as it is used when disabling the event.
+A pointer to a [**KSEVENTDATA**](./ns-ks-kseventdata.md) structure. This is the same pointer supplied to [AVStrMiniAddEvent](./nc-ks-pfnksaddevent.md) at event enable time. This pointer is used as the unique identifier in locating the event, just as it is used when disabling the event.
 
 ### -field Reserved
 
@@ -78,6 +78,6 @@ Alternatively, the query returns one of the following status values:
 
 ## -see-also
 
-[**KSBUFFER_ITEM**](/windows-hardware/drivers/ddi/ks/ns-ks-ksbuffer_item)
+[**KSBUFFER_ITEM**](./ns-ks-ksbuffer_item.md)
 
 [**KSEVENT**](/windows-hardware/drivers/stream/ksevent-structure)

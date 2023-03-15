@@ -65,7 +65,7 @@ Specifies the size, in bytes, of the UFF_FILEHEADER structure.
 
 ### -field nFonts
 
-Specifies the number of fonts specified within the .uff file and identified by [**DATA_HEADER**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header) structures. This is also the number of [**UFF_FONTDIRECTORY**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory) structures within the .uff file.
+Specifies the number of fonts specified within the .uff file and identified by [**DATA_HEADER**](./ns-prntfont-_data_header.md) structures. This is also the number of [**UFF_FONTDIRECTORY**](./ns-prntfont-_uff_fontdirectory.md) structures within the .uff file.
 
 ### -field nGlyphSets
 
@@ -77,7 +77,7 @@ Specifies the  number of variable data sections specified within the .uff file a
 
 ### -field offFontDir
 
-Specifies the offset, in bytes, from the beginning of the .uff file to the beginning of the first [**UFF_FONTDIRECTORY**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory) structure.
+Specifies the offset, in bytes, from the beginning of the .uff file to the beginning of the first [**UFF_FONTDIRECTORY**](./ns-prntfont-_uff_fontdirectory.md) structure.
 
 ### -field dwFlags
 
@@ -93,6 +93,6 @@ Reserved. Must be set to zero.
 
 ## -see-also
 
-[**DATA_HEADER**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header)
+[**DATA_HEADER**](./ns-prntfont-_data_header.md)
 
-[**UFF_FONTDIRECTORY**](/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory)
+[**UFF_FONTDIRECTORY**](./ns-prntfont-_uff_fontdirectory.md)

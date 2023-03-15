@@ -53,11 +53,11 @@ The **KSSTREAM_SEGMENT** structure contains information that describes an I/O op
 
 ### -field KsInterfaceHandler
 
-Pointer to a [IKsInterfaceHandler](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler) interface for the I/O operation.
+Pointer to a [IKsInterfaceHandler](./nn-ksproxy-iksinterfacehandler.md) interface for the I/O operation.
 
 ### -field KsDataTypeHandler
 
-Pointer to a [IKsDataTypeHandler](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypehandler) interface for the I/O operation.
+Pointer to a [IKsDataTypeHandler](./nn-ksproxy-iksdatatypehandler.md) interface for the I/O operation.
 
 ### -field IoOperation
 
@@ -74,12 +74,12 @@ Handle to an event that is used to signal that the I/O operation completed.
 
 ## -see-also
 
-[IKsDataTypeHandler](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypehandler)
+[IKsDataTypeHandler](./nn-ksproxy-iksdatatypehandler.md)
 
-[IKsInterfaceHandler](/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler)
+[IKsInterfaceHandler](./nn-ksproxy-iksinterfacehandler.md)
 
-[IKsInterfaceHandler::KsCompleteIo](/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksinterfacehandler-kscompleteio)
+[IKsInterfaceHandler::KsCompleteIo](./nf-ksproxy-iksinterfacehandler-kscompleteio.md)
 
-[IKsInterfaceHandler::KsProcessMediaSamples](/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksinterfacehandler-ksprocessmediasamples)
+[IKsInterfaceHandler::KsProcessMediaSamples](./nf-ksproxy-iksinterfacehandler-ksprocessmediasamples.md)
 
-[IKsPin::KsMediaSamplesCompleted](/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspin-ksmediasamplescompleted)
+[IKsPin::KsMediaSamplesCompleted](./nf-ksproxy-ikspin-ksmediasamplescompleted.md)

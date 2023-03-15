@@ -57,7 +57,7 @@ Specifies the size of this data structure, in bytes.
 
 ### -field AVCStrmFormat
 
-Specifies one of the AV/C streaming subunit formats defined in [AVCSTRM_FORMAT](/windows-hardware/drivers/ddi/avcstrm/ne-avcstrm-_avcstrm_format).
+Specifies one of the AV/C streaming subunit formats defined in [AVCSTRM_FORMAT](./ne-avcstrm-_avcstrm_format.md).
 
 ### -field cipHdr1
 
@@ -105,12 +105,12 @@ Reserved. Do not use. Must be set to 0.
 
 ## -see-also
 
-[AVCSTRM_FORMAT](/windows-hardware/drivers/ddi/avcstrm/ne-avcstrm-_avcstrm_format)
+[AVCSTRM_FORMAT](./ne-avcstrm-_avcstrm_format.md)
 
-[CIP_HDR1](/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr1)
+[CIP_HDR1](./ns-avcstrm-_cip_hdr1.md)
 
-[CIP_HDR2_FDF](/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr2_fdf)
+[CIP_HDR2_FDF](./ns-avcstrm-_cip_hdr2_fdf.md)
 
-[CIP_HDR2_MPEGTS](/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr2_mpegts)
+[CIP_HDR2_MPEGTS](./ns-avcstrm-_cip_hdr2_mpegts.md)
 
-[CIP_HDR2_SYT](/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr2_syt)
+[CIP_HDR2_SYT](./ns-avcstrm-_cip_hdr2_syt.md)

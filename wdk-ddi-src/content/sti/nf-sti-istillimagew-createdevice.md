@@ -79,6 +79,6 @@ If you want to create an aggregate COM object that includes **IStiDevice**, you 
 
 ## -see-also
 
-[IStiDevice::Release](/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-release)
+[IStiDevice::Release](./nf-sti-istidevice-release.md)
 
-[IStillImageW](/windows-hardware/drivers/ddi/_image/index)
+[IStillImageW](../_image/index.md)

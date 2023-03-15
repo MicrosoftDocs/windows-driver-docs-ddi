@@ -65,20 +65,20 @@ If the operation succeeds, the function returns a spool file handle. Otherwise t
 
 ## -remarks
 
-The **GdiGetSpoolFileHandle** function is exported by gdi32.dll for use within a print processor's [PrintDocumentOnPrintProcessor](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-printdocumentonprintprocessor) function.
+The **GdiGetSpoolFileHandle** function is exported by gdi32.dll for use within a print processor's [PrintDocumentOnPrintProcessor](../winsplp/nf-winsplp-printdocumentonprintprocessor.md) function.
 
 When a print processor calls **GdiGetSpoolFileHandle**, it should supply arguments as illustrated in the following table.
 
 | Parameter | Argument |
 |---|---|
-| *pwszPrinterName* | Pointer to the printer name received by the print processor's [OpenPrintProcessor](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor) function. |
-| *pDevmode* | Pointer to the [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure contained in the [**PRINTPROCESSOROPENDATA**](/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_printprocessoropendata) structure, received by the print processor's [OpenPrintProcessor](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor) function. |
-| *pwszDocName* | Document name pointer received by the print processor's [PrintDocumentOnPrintProcessor](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-printdocumentonprintprocessor) function. |
+| *pwszPrinterName* | Pointer to the printer name received by the print processor's [OpenPrintProcessor](../winsplp/nf-winsplp-openprintprocessor.md) function. |
+| *pDevmode* | Pointer to the [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure contained in the [**PRINTPROCESSOROPENDATA**](../winsplp/ns-winsplp-_printprocessoropendata.md) structure, received by the print processor's [OpenPrintProcessor](../winsplp/nf-winsplp-openprintprocessor.md) function. |
+| *pwszDocName* | Document name pointer received by the print processor's [PrintDocumentOnPrintProcessor](../winsplp/nf-winsplp-printdocumentonprintprocessor.md) function. |
 
-A print processor must call the **GdiGetSpoolFileHandle** function before calling any other GDI printing functions, because the returned handle must be passed to the other functions. The function calls OpenPrinter to open a connection to the printer, and CreateDC to create a device context for drawing. The print processor can obtain the device context's handle by calling [GdiGetDC](/windows-hardware/drivers/ddi/winppi/nf-winppi-gdigetdc).
+A print processor must call the **GdiGetSpoolFileHandle** function before calling any other GDI printing functions, because the returned handle must be passed to the other functions. The function calls OpenPrinter to open a connection to the printer, and CreateDC to create a device context for drawing. The print processor can obtain the device context's handle by calling [GdiGetDC](./nf-winppi-gdigetdc.md).
 
 For additional information, see [Using GDI Functions in Print Processors](/windows-hardware/drivers/print/using-gdi-functions-in-print-processors).
 
 ## -see-also
 
-[GdiDeleteSpoolFileHandle](/windows-hardware/drivers/ddi/winppi/nf-winppi-gdideletespoolfilehandle)
+[GdiDeleteSpoolFileHandle](./nf-winppi-gdideletespoolfilehandle.md)

@@ -73,7 +73,7 @@ The raw data in the hardware error packet contains memory error data. The format
 
 ### -field WheaRawDataFormatPCIExpress
 
-The raw data in the hardware error packet contains a [PCI_EXPRESS_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability) structure.
+The raw data in the hardware error packet contains a [PCI_EXPRESS_AER_CAPABILITY](../wdm/ns-wdm-_pci_express_aer_capability.md) structure.
 
 ### -field WheaRawDataFormatNMIPort
 
@@ -89,7 +89,7 @@ The raw data in the hardware error packet contains a PCI/PCI-X device error data
 
 ### -field WheaRawDataFormatGeneric
 
-The raw data in the hardware error packet contains a [WHEA_GENERIC_ERROR](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error) structure.
+The raw data in the hardware error packet contains a [WHEA_GENERIC_ERROR](./ns-ntddk-_whea_generic_error.md) structure.
 
 ### -field WheaRawDataFormatMax
 
@@ -97,14 +97,14 @@ The maximum number of formats of raw hardware error data.
 
 ## -remarks
 
-The [WHEA_ERROR_PACKET_V1](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v1) structure contains a member of type WHEA_RAW_DATA_FORMAT that specifies the format of the raw data that is contained in the hardware error packet.
+The [WHEA_ERROR_PACKET_V1](./ns-ntddk-_whea_error_packet_v1.md) structure contains a member of type WHEA_RAW_DATA_FORMAT that specifies the format of the raw data that is contained in the hardware error packet.
 
 ## -see-also
 
 [HalQuerySystemInformation](/previous-versions/windows/hardware/mca/ff540659(v=vs.85))
 
-[PCI_EXPRESS_AER_CAPABILITY](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability)
+[PCI_EXPRESS_AER_CAPABILITY](../wdm/ns-wdm-_pci_express_aer_capability.md)
 
-[WHEA_ERROR_PACKET_V1](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v1)
+[WHEA_ERROR_PACKET_V1](./ns-ntddk-_whea_error_packet_v1.md)
 
-[WHEA_GENERIC_ERROR](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error)
+[WHEA_GENERIC_ERROR](./ns-ntddk-_whea_generic_error.md)

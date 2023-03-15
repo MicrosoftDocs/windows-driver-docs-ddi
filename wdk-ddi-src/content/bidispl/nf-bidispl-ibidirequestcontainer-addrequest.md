@@ -47,7 +47,7 @@ The **AddRequest** method adds a request to the request list.
 
 ### -param pRequest [in]
 
-A pointer to the [IBidiRequest](/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest) interface.
+A pointer to the [IBidiRequest](./nn-bidispl-ibidirequest.md) interface.
 
 ## -returns
 
@@ -61,14 +61,14 @@ The method returns one of the following values. For more information about COM e
 
 ## -remarks
 
-This is similar to adding an item in a link list. In this case, [IBidiRequestContainer](/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequestcontainer) will hold a reference to *pRequest* by calling pRequest->AddRef.
+This is similar to adding an item in a link list. In this case, [IBidiRequestContainer](./nn-bidispl-ibidirequestcontainer.md) will hold a reference to *pRequest* by calling pRequest->AddRef.
 
 ## -see-also
 
-[Bidirectional Communication Interfaces](/windows-hardware/drivers/ddi/_print/index)
+[Bidirectional Communication Interfaces](../_print/index.md)
 
 [Bidirectional Communication Schema](/windows-hardware/drivers/print/bidirectional-communication-schema)
 
-[IBidiRequest](/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest)
+[IBidiRequest](./nn-bidispl-ibidirequest.md)
 
-[IBidiRequestContainer](/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequestcontainer)
+[IBidiRequestContainer](./nn-bidispl-ibidirequestcontainer.md)

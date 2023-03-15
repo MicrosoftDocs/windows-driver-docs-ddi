@@ -54,7 +54,7 @@ A handle to a framework device object that represents the device.
 
 ### -param fileObject [in]
 
-A handle to a framework file object that identifies the caller, usually acquired with [WdfRequestGetFileObject](/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetfileobject).
+A handle to a framework file object that identifies the caller, usually acquired with [WdfRequestGetFileObject](../wdfrequest/nf-wdfrequest-wdfrequestgetfileobject.md).
 
 ### -param isPosApp [in]
 

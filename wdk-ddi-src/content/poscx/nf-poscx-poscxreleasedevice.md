@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-PosCxReleaseDevice is called to release a device that was previously claimed with [PosCxClaimDevice](/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxclaimdevice). Once the device is released, the next pending claim requester is promoted.
+PosCxReleaseDevice is called to release a device that was previously claimed with [PosCxClaimDevice](./nf-poscx-poscxclaimdevice.md). Once the device is released, the next pending claim requester is promoted.
 
 ## -parameters
 
@@ -67,4 +67,4 @@ Possible return values are:
 
 ## -see-also
 
-[PosCxClaimDevice](/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxclaimdevice)
+[PosCxClaimDevice](./nf-poscx-poscxclaimdevice.md)

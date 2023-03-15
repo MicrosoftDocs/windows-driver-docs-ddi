@@ -65,10 +65,10 @@ The identifier of the firmware error record.
 
 ## -remarks
 
-The WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure describes the data that is contained in an Itanium processor firmware error record reference section of an [error record](/windows-hardware/drivers/whea/error-records). An error record contains an Itanium processor firmware error record reference section only if the **SectionType** member of one of the [WHEA_ERROR_RECORD_SECTION_DESCRIPTOR](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor) structures that describe the error record sections for that error record contains FIRMWARE_ERROR_RECORD_REFERENCE_GUID.
+The WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure describes the data that is contained in an Itanium processor firmware error record reference section of an [error record](/windows-hardware/drivers/whea/error-records). An error record contains an Itanium processor firmware error record reference section only if the **SectionType** member of one of the [WHEA_ERROR_RECORD_SECTION_DESCRIPTOR](./ns-ntddk-_whea_error_record_section_descriptor.md) structures that describe the error record sections for that error record contains FIRMWARE_ERROR_RECORD_REFERENCE_GUID.
 
 The WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure contains a reference to a SAL error record that was created by the system firmware. For more information about the format of a SAL error record, see the [Intel Itanium Processor Family System Abstraction Layer Specification](https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/itanium-system-abstraction-layer-specification.pdf).
 
 ## -see-also
 
-[WHEA_ERROR_RECORD_SECTION_DESCRIPTOR](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor)
+[WHEA_ERROR_RECORD_SECTION_DESCRIPTOR](./ns-ntddk-_whea_error_record_section_descriptor.md)

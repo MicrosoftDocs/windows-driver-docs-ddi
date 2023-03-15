@@ -48,7 +48,7 @@ A print processor's **ControlPrintProcessor** function allows the spooler to con
 
 ### -param hPrintProcessor [in]
 
-Caller-supplied print processor handle. This is the handle returned by a previous call to [OpenPrintProcessor](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor).
+Caller-supplied print processor handle. This is the handle returned by a previous call to [OpenPrintProcessor](./nf-winsplp-openprintprocessor.md).
 
 ### -param Command [in]
 
@@ -68,10 +68,10 @@ If the operation succeeds, the function should return **TRUE**. If the operation
 
 Print processors are required to export a **ControlPrintProcessor** function. The spooler calls the function when an application calls the SetJob function, described in the Microsoft Windows SDK documentation.
 
-Based on the value received for *Command*, the function should either pause, resume, or cancel the current job. The **ControlPrintProcessor** function can be called asynchronously while the print processor's [PrintDocumentOnPrintProcessor](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-printdocumentonprintprocessor) function is executing. Thus some sort of synchronization technique must be employed, such as setting an internally-defined event object to pause a job and resetting the event object when the job is resumed. The **ControlPrintProcessor** function can quickly return after setting or resetting the event object, and PrintDocumentOnPrintProcessor can wait for the event to be in the proper state.
+Based on the value received for *Command*, the function should either pause, resume, or cancel the current job. The **ControlPrintProcessor** function can be called asynchronously while the print processor's [PrintDocumentOnPrintProcessor](./nf-winsplp-printdocumentonprintprocessor.md) function is executing. Thus some sort of synchronization technique must be employed, such as setting an internally-defined event object to pause a job and resetting the event object when the job is resumed. The **ControlPrintProcessor** function can quickly return after setting or resetting the event object, and PrintDocumentOnPrintProcessor can wait for the event to be in the proper state.
 
 ## -see-also
 
-[OpenPrintProcessor](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor)
+[OpenPrintProcessor](./nf-winsplp-openprintprocessor.md)
 
-[PrintDocumentOnPrintProcessor](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-printdocumentonprintprocessor)
+[PrintDocumentOnPrintProcessor](./nf-winsplp-printdocumentonprintprocessor.md)

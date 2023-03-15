@@ -71,7 +71,7 @@ This GUID is identical to the DirectShow AM_MEDIA_TYPE enumeration. For more inf
 
 ### -field VideoStandard
 
-Specifies the analog video standards that are supported by the stream. This member can be set to one or more (logically ORed) values from the [KS_AnalogVideoStandard](/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_analogvideostandard) enumeration.
+Specifies the analog video standards that are supported by the stream. This member can be set to one or more (logically ORed) values from the [KS_AnalogVideoStandard](./ne-ksmedia-ks_analogvideostandard.md) enumeration.
 
 ### -field InputSize
 
@@ -79,7 +79,7 @@ Specifies the size of the incoming signal. **InputSize** indicates the image rec
 
 ### -field MinCroppingSize
 
-Specifies the smallest cropping rectangle allowed, as specified in the **rcSource** member of the [**KS_VIDEOINFOHEADER**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader) structure, which is associated with the **DataRange** member.
+Specifies the smallest cropping rectangle allowed, as specified in the **rcSource** member of the [**KS_VIDEOINFOHEADER**](./ns-ksmedia-tagks_videoinfoheader.md) structure, which is associated with the **DataRange** member.
 
 ### -field MaxCroppingSize
 
@@ -201,7 +201,7 @@ In the example scenario, a few of the valid sizes are:
 
 - 160 × 136, 164 × 136, 168 × 136, 172 × 136, and so on.
 
-**CropAlignX** and **CropAlignY** indicate where the cropping rectangle can be located inside the input size rectangle. Given a 160 × 120 cropping rectangle and a value of 2 for **CropAlignX** and a value of 4 for **CropAlignY**, some of the valid values for the **rcSource** member of the [**KS_VIDEOINFOHEADER**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader) structure would be:
+**CropAlignX** and **CropAlignY** indicate where the cropping rectangle can be located inside the input size rectangle. Given a 160 × 120 cropping rectangle and a value of 2 for **CropAlignX** and a value of 4 for **CropAlignY**, some of the valid values for the **rcSource** member of the [**KS_VIDEOINFOHEADER**](./ns-ksmedia-tagks_videoinfoheader.md) structure would be:
 
 - (0, 0, 160, 120)
 
@@ -213,12 +213,12 @@ In the example scenario, a few of the valid sizes are:
 
 For a 320 × 240 cropping rectangle and the same cropping alignment values, (2, 4, 322, 244) is one example of the many valid rectangles.
 
-The **MinCroppingSize**, **MaxCroppingSize**, **CropGranularityX**, **CropGranularityY**, **CropAlignX**, and **CropAlignY** members discussed above work together to specify which values of **rcSource** are valid for the **KS_VIDEOINFOHEADER** structure that describes the output pin's media type. The remaining structure members (**MinOutputSize**, **MaxOutputSize**, **OutputGranularityX**, and **OutputGranularityY**) describe the **biWidth** and **biHeight** members of the [**KS_BITMAPINFOHEADER**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader) structure, which is contained in the pin's media type KS_VIDEOINFOHEADER structure.
+The **MinCroppingSize**, **MaxCroppingSize**, **CropGranularityX**, **CropGranularityY**, **CropAlignX**, and **CropAlignY** members discussed above work together to specify which values of **rcSource** are valid for the **KS_VIDEOINFOHEADER** structure that describes the output pin's media type. The remaining structure members (**MinOutputSize**, **MaxOutputSize**, **OutputGranularityX**, and **OutputGranularityY**) describe the **biWidth** and **biHeight** members of the [**KS_BITMAPINFOHEADER**](./ns-ksmedia-tagks_bitmapinfoheader.md) structure, which is contained in the pin's media type KS_VIDEOINFOHEADER structure.
 
 ## -see-also
 
-[KS_AnalogVideoStandard](/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_analogvideostandard)
+[KS_AnalogVideoStandard](./ne-ksmedia-ks_analogvideostandard.md)
 
-[**KS_BITMAPINFOHEADER**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader)
+[**KS_BITMAPINFOHEADER**](./ns-ksmedia-tagks_bitmapinfoheader.md)
 
-[**KS_VIDEOINFOHEADER**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader)
+[**KS_VIDEOINFOHEADER**](./ns-ksmedia-tagks_videoinfoheader.md)

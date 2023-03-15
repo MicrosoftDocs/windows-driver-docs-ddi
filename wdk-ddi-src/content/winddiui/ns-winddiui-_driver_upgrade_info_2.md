@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **DRIVER_UPGRADE_INFO_2** structure is used as an input to a printer interface DLL's [DrvUpgradePrinter](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvupgradeprinter) function.
+The **DRIVER_UPGRADE_INFO_2** structure is used as an input to a printer interface DLL's [DrvUpgradePrinter](./nf-winddiui-drvupgradeprinter.md) function.
 
 ## -struct-fields
 
@@ -118,6 +118,6 @@ To see how this can occur, suppose that a computer is connected to two printers,
 
 ## -see-also
 
-[DRIVER_UPGRADE_INFO_1](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_driver_upgrade_info_1)
+[DRIVER_UPGRADE_INFO_1](./ns-winddiui-_driver_upgrade_info_1.md)
 
-[DrvUpgradePrinter](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvupgradeprinter)
+[DrvUpgradePrinter](./nf-winddiui-drvupgradeprinter.md)

@@ -61,14 +61,14 @@ The method returns one of the following values. For more information about COM e
 
 ## -remarks
 
-An application can call [IEnumUnknown::Next](/windows/win32/api/objidl/nf-objidl-ienumunknown-next) to retrieve one or more [IBidiRequest](/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest) interfaces.
+An application can call [IEnumUnknown::Next](/windows/win32/api/objidl/nf-objidl-ienumunknown-next) to retrieve one or more [IBidiRequest](./nn-bidispl-ibidirequest.md) interfaces.
 
 ## -see-also
 
-[Bidirectional Communication Interfaces](/windows-hardware/drivers/ddi/_print/index)
+[Bidirectional Communication Interfaces](../_print/index.md)
 
 [Bidirectional Communication Schema](/windows-hardware/drivers/print/bidirectional-communication-schema)
 
-[IBidiRequestContainer](/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequestcontainer)
+[IBidiRequestContainer](./nn-bidispl-ibidirequestcontainer.md)
 
 [IEnumUnknown](/windows/win32/api/objidl/nn-objidl-ienumunknown)

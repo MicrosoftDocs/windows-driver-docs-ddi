@@ -55,16 +55,16 @@ The **Continue** method tells the caller (the XPS rasterization service) whether
 
 This method is implemented by an XPSDrv filter. During a page rasterization operation, the [XPS rasterization service](/windows-hardware/drivers/print/using-the-xps-rasterization-service) periodically calls this method to determine whether to continue the operation.
 
-To begin a page rasterization operation, the XPSDrv filter calls the [IXpsRasterizer::RasterizeRect](/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizer-rasterizerect) method. With this call, the filter can, as an option, supply a pointer to an [IXpsRasterizerNotificationCallback](/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizernotificationcallback) interface instance. If supplied, **RasterizeRect** will periodically call the **Continue** method on this interface during the processing of the **RasterizeRect** call. If **Continue** returns a success code, **RasterizeRect** continues with the rasterization operation in progress. If **Continue** returns an error code, **RasterizeRect** aborts the rasterization operation and returns immediately.
+To begin a page rasterization operation, the XPSDrv filter calls the [IXpsRasterizer::RasterizeRect](./nf-xpsrassvc-ixpsrasterizer-rasterizerect.md) method. With this call, the filter can, as an option, supply a pointer to an [IXpsRasterizerNotificationCallback](./nn-xpsrassvc-ixpsrasterizernotificationcallback.md) interface instance. If supplied, **RasterizeRect** will periodically call the **Continue** method on this interface during the processing of the **RasterizeRect** call. If **Continue** returns a success code, **RasterizeRect** continues with the rasterization operation in progress. If **Continue** returns an error code, **RasterizeRect** aborts the rasterization operation and returns immediately.
 
-If the user cancels a print job or if an error occurs during the processing of a print job, the pipeline manager calls the XPSDrv filter's [IPrintPipelineFilter::ShutdownOperation](/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinefilter-shutdownoperation) method to shut down the filter. Typically, the filter can complete the shutdown in a more timely way if it implements the **Continue** method and supplies an **IXpsRasterizerNotificationCallback** pointer to **RasterizeRect**.
+If the user cancels a print job or if an error occurs during the processing of a print job, the pipeline manager calls the XPSDrv filter's [IPrintPipelineFilter::ShutdownOperation](../filterpipeline/nf-filterpipeline-iprintpipelinefilter-shutdownoperation.md) method to shut down the filter. Typically, the filter can complete the shutdown in a more timely way if it implements the **Continue** method and supplies an **IXpsRasterizerNotificationCallback** pointer to **RasterizeRect**.
 
 For an example implementation of the **Continue** method, see the XpsRasFilter sample in the WDK. This sample is located in the Src\Print\Xpsrasfilter folder in your WDK installation.
 
 ## -see-also
 
-[IPrintPipelineFilter::ShutdownOperation](/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinefilter-shutdownoperation)
+[IPrintPipelineFilter::ShutdownOperation](../filterpipeline/nf-filterpipeline-iprintpipelinefilter-shutdownoperation.md)
 
-[IXpsRasterizer::RasterizeRect](/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizer-rasterizerect)
+[IXpsRasterizer::RasterizeRect](./nf-xpsrassvc-ixpsrasterizer-rasterizerect.md)
 
-[IXpsRasterizerNotificationCallback](/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizernotificationcallback)
+[IXpsRasterizerNotificationCallback](./nn-xpsrassvc-ixpsrasterizernotificationcallback.md)

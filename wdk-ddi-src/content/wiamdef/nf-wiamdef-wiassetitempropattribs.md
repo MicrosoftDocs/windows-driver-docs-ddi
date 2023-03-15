@@ -59,7 +59,7 @@ Pointer to the first element of an array of PROPSPEC structures (defined in the 
 
 ### -param pwpi [in]
 
-Pointer to the first element of an array of [**WIA_PROPERTY_INFO**](/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_info) structures that contain the property values to be written.
+Pointer to the first element of an array of [**WIA_PROPERTY_INFO**](../wiamindr_lh/ns-wiamindr_lh-_wia_property_info.md) structures that contain the property values to be written.
 
 ## -returns
 
@@ -75,7 +75,7 @@ Minidrivers should use this function to initialize groups of simple properties. 
 | WIA_PROP_RANGE | VT_UI1, VT_UI2, VT_UI4, VT_UI8, VT_I1, VT_I2, VT_I4, ,VT_I8, VT_R4, VT_R8 |
 | WIA_PROP_LIST | VT_UI1, VT_UI2, VT_UI4, VT_UI8, VT_I1, VT_I2, VT_I4, ,VT_I8, VT_R4, VT_R8, VT_BSTR |
 
-Minidrivers should initialize complex properties using the [wiasSetPropertyAttributes](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetpropertyattributes) function.
+Minidrivers should initialize complex properties using the [wiasSetPropertyAttributes](./nf-wiamdef-wiassetpropertyattributes.md) function.
 
 The minidriver can set the WIA_PROP_CACHEABLE flag on a property that does not change over time. By setting this flag on a property, the minidriver indicates that the WIA service can cache the property value. See the Windows SDK documentation for a list of all property attributes.
 
@@ -89,8 +89,8 @@ Reboot the system and repeat the steps necessary to produce this error. There wi
 
 ## -see-also
 
-[**WIA_PROPERTY_INFO**](/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_info)
+[**WIA_PROPERTY_INFO**](../wiamindr_lh/ns-wiamindr_lh-_wia_property_info.md)
 
-[wiasSetItemPropNames](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetitempropnames)
+[wiasSetItemPropNames](./nf-wiamdef-wiassetitempropnames.md)
 
-[wiasSetPropertyAttributes](/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetpropertyattributes)
+[wiasSetPropertyAttributes](./nf-wiamdef-wiassetpropertyattributes.md)
