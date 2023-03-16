@@ -52,7 +52,7 @@ Pointer to a device-specific context.
 
 ### -param RequestInterface [in, out]
 
-Pointer to a [USBD_INTERFACE_INFORMATION](/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_interface_information) structure initialized with the proper values for a SELECT_INTERFACE URB request. This interface structure corresponds to a single isochronous interface on the device.
+Pointer to a [USBD_INTERFACE_INFORMATION](../usb/ns-usb-_usbd_interface_information.md) structure initialized with the proper values for a SELECT_INTERFACE URB request. This interface structure corresponds to a single isochronous interface on the device.
 
 ## -returns
 
@@ -71,4 +71,4 @@ This function is typically called by a camera minidriver in response to a reques
 
 ## -see-also
 
-[USBD_INTERFACE_INFORMATION](/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_interface_information)
+[USBD_INTERFACE_INFORMATION](../usb/ns-usb-_usbd_interface_information.md)

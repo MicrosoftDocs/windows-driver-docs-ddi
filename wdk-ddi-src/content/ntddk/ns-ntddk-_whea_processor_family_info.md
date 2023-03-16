@@ -94,10 +94,10 @@ A ULONGLONG representation of the contents of the WHEA_PROCESSOR_FAMILY_INFO uni
 
 ## -remarks
 
-For x86 and x64 processors, the **CPUVersion** member of the [**WHEA_PROCESSOR_GENERIC_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_generic_error_section) structure contains a WHEA_PROCESSOR_FAMILY_INFO union.
+For x86 and x64 processors, the **CPUVersion** member of the [**WHEA_PROCESSOR_GENERIC_ERROR_SECTION**](./ns-ntddk-_whea_processor_generic_error_section.md) structure contains a WHEA_PROCESSOR_FAMILY_INFO union.
 
 The contents of this union are obtained by executing the CPUID instruction with the EAX register set to 1 on input. For more information about the CPUID instruction, see the [Intel 64 and IA-32 Architectures Software Developer's Manual](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html). For additional information about the data that is contained in the members of this union, see [AP-485 Intel Processor Identification and the CPUID Instruction](https://www.intel.com/content/www/us/en/developer/overview.html).
 
 ## -see-also
 
-[WHEA_PROCESSOR_GENERIC_ERROR_SECTION](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_generic_error_section)
+[WHEA_PROCESSOR_GENERIC_ERROR_SECTION](./ns-ntddk-_whea_processor_generic_error_section.md)

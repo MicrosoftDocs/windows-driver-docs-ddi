@@ -49,7 +49,7 @@ The **GdiGetPageHandle** function returns a handle to the specified page within 
 
 ### -param SpoolFileHandle
 
-Caller-supplied spool file handle, obtained by a previous call to [GdiGetSpoolFileHandle](/windows-hardware/drivers/ddi/winppi/nf-winppi-gdigetspoolfilehandle).
+Caller-supplied spool file handle, obtained by a previous call to [GdiGetSpoolFileHandle](./nf-winppi-gdigetspoolfilehandle.md).
 
 ### -param Page
 
@@ -70,8 +70,8 @@ If the operation succeeds, the function returns **TRUE**. Otherwise the function
 
 ## -remarks
 
-The **GdiGetPageHandle** function is exported by gdi32.dll for use within a print processor's [PrintDocumentOnPrintProcessor](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-printdocumentonprintprocessor) function.
+The **GdiGetPageHandle** function is exported by gdi32.dll for use within a print processor's [PrintDocumentOnPrintProcessor](../winsplp/nf-winsplp-printdocumentonprintprocessor.md) function.
 
-Print processors must obtain a page handle before calling [GdiPlayPageEMF](/windows-hardware/drivers/ddi/winppi/nf-winppi-gdiplaypageemf) to draw a page. If a Page value is specified that is too large, the function returns ERROR_NO_MORE_ITEMS.
+Print processors must obtain a page handle before calling [GdiPlayPageEMF](./nf-winppi-gdiplaypageemf.md) to draw a page. If a Page value is specified that is too large, the function returns ERROR_NO_MORE_ITEMS.
 
 For additional information, see [Using GDI Functions in Print Processors](/windows-hardware/drivers/print/using-gdi-functions-in-print-processors).

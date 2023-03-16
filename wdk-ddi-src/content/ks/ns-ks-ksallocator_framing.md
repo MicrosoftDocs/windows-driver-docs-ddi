@@ -71,7 +71,7 @@ A value of type ULONG that describes the allocator requirements for this connect
 
 ### -field PoolType
 
-A structure of type [POOL_TYPE](/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type) that specifies kernel-mode allocation pool type.
+A structure of type [POOL_TYPE](../wdm/ne-wdm-_pool_type.md) that specifies kernel-mode allocation pool type.
 
 ### -field Frames
 
@@ -107,4 +107,4 @@ When you specify a value for the **FileAlignment** member, the smallest allocati
 
 ## -see-also
 
-[KsCreateAllocator](/windows-hardware/drivers/ddi/ks/nf-ks-kscreateallocator)
+[KsCreateAllocator](./nf-ks-kscreateallocator.md)

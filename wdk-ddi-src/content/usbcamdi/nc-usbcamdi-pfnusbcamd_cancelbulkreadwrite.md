@@ -67,4 +67,4 @@ Specifies the index of the bulk pipe to cancel the read or write request.
 
 ## -see-also
 
-[**USBCAMD_INTERFACE**](/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-usbcamd_interface)
+[**USBCAMD_INTERFACE**](./ns-usbcamdi-usbcamd_interface.md)

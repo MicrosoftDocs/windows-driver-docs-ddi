@@ -78,8 +78,8 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 ## -see-also
 
-[Bidirectional Communication Interfaces](/windows-hardware/drivers/ddi/_print/index)
+[Bidirectional Communication Interfaces](../_print/index.md)
 
 [Bidirectional Communication Schema](/windows-hardware/drivers/print/bidirectional-communication-schema)
 
-[IBidiSpl](/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl)
+[IBidiSpl](./nn-bidispl-ibidispl.md)

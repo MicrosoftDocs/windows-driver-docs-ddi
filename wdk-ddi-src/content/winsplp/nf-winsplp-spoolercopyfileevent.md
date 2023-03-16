@@ -79,4 +79,4 @@ If *dwCopyFileEvent* is COPYFILE_EVENT_ADD_PRINTER_CONNECTION or COPYFILE_EVENT_
 
 ## -see-also
 
-[GenerateCopyFilePaths](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-generatecopyfilepaths)
+[GenerateCopyFilePaths](./nf-winsplp-generatecopyfilepaths.md)

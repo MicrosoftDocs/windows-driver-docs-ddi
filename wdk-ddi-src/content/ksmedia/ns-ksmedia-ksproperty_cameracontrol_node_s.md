@@ -47,7 +47,7 @@ The KSPROPERTY_CAMERACONTROL_NODE_S structure describes node-based properties in
 
 ### -field NodeProperty
 
-Specifies an initialized [KSP_NODE](/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node) structure that describes the property set, property ID, request type, and node ID.
+Specifies an initialized [KSP_NODE](../ks/ns-ks-ksp_node.md) structure that describes the property set, property ID, request type, and node ID.
 
 ### -field Value
 
@@ -83,6 +83,6 @@ See related information about the [USB Video Class Driver](/windows-hardware/dri
 
 [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)
 
-[KSPROPERTY_CAMERACONTROL_S](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_s)
+[KSPROPERTY_CAMERACONTROL_S](./ns-ksmedia-ksproperty_cameracontrol_s.md)
 
 [PROPSETID_VIDCAP_CAMERACONTROL](/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol)

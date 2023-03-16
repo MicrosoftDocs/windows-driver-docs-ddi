@@ -52,7 +52,7 @@ Pointer to device-specific context.
 
 ### -param DeviceData [in]
 
-Pointer to a [**USBCAMD_DEVICE_DATA2**](/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2) structure.
+Pointer to a [**USBCAMD_DEVICE_DATA2**](./ns-usbcamdi-_usbcamd_device_data2.md) structure.
 
 ### -param Version [in]
 
@@ -83,4 +83,4 @@ The **USBCAMD_InitializeNewInterface** function must be called by the camera min
 
 [SRB_INITIALIZE_DEVICE](/windows-hardware/drivers/stream/srb-initialize-device)
 
-[**USBCAMD_DEVICE_DATA2**](/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2)
+[**USBCAMD_DEVICE_DATA2**](./ns-usbcamdi-_usbcamd_device_data2.md)

@@ -50,7 +50,7 @@ The **KSOBJECT_CREATE_ITEM** structure is used to look up the string passed to a
 
 ### -field Create
 
-Contains the create dispatch function for this particular base object class. See [**DRIVER_OBJECT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object) for the signature of this function type.
+Contains the create dispatch function for this particular base object class. See [**DRIVER_OBJECT**](../wdm/ns-wdm-_driver_object.md) for the signature of this function type.
 
 ### -field Context
 
@@ -62,7 +62,7 @@ Points to a Unicode string that identifies the object class. This is the string 
 
 ### -field SecurityDescriptor
 
-Contains a pointer to a [**SECURITY_DESCRIPTOR**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor) for this type of object, otherwise **NULL**. If security is used, this must be freed when the object type is no longer used. This must use pool memory, and cannot be shared, as it may be replaced. If this is modified, the **Flags** element is updated. Optional.
+Contains a pointer to a [**SECURITY_DESCRIPTOR**](../ntifs/ns-ntifs-_security_descriptor.md) for this type of object, otherwise **NULL**. If security is used, this must be freed when the object type is no longer used. This must use pool memory, and cannot be shared, as it may be replaced. If this is modified, the **Flags** element is updated. Optional.
 
 ### -field Flags
 
@@ -82,8 +82,8 @@ The minidriver might retrieve this pointer when creating a new object to examine
 
 ## -see-also
 
-[KsAllocateDeviceHeader](/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedeviceheader)
+[KsAllocateDeviceHeader](./nf-ks-ksallocatedeviceheader.md)
 
-[KsAllocateObjectHeader](/windows-hardware/drivers/ddi/ks/nf-ks-ksallocateobjectheader)
+[KsAllocateObjectHeader](./nf-ks-ksallocateobjectheader.md)
 
-[KsFilterFactoryAddCreateItem](/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactoryaddcreateitem)
+[KsFilterFactoryAddCreateItem](./nf-ks-ksfilterfactoryaddcreateitem.md)

@@ -61,8 +61,8 @@ The method returns one of the following values. For more information about COM e
 
 ## -see-also
 
-[Bidirectional Communication Interfaces](/windows-hardware/drivers/ddi/_print/index)
+[Bidirectional Communication Interfaces](../_print/index.md)
 
 [Bidirectional Communication Schema](/windows-hardware/drivers/print/bidirectional-communication-schema)
 
-[IBidiRequestContainer](/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequestcontainer)
+[IBidiRequestContainer](./nn-bidispl-ibidirequestcontainer.md)

@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **DEVICEPROPERTYHEADER** structure is used as an input parameter to a printer interface DLL's [DrvDevicePropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicepropertysheets) function.
+The **DEVICEPROPERTYHEADER** structure is used as an input parameter to a printer interface DLL's [DrvDevicePropertySheets](./nf-winddiui-drvdevicepropertysheets.md) function.
 
 ## -struct-fields
 

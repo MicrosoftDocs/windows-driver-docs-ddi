@@ -58,25 +58,25 @@ A GUID that identifies the type of error data that is contained in the error dat
 | Section type | Description |
 |---|---|
 | WHEA_PACKET_SECTION_GUID | The error data section contains the hardware error packet that was passed to the operating system by the low-level hardware error handler (LLHEH) that reported the error. This data is described by a [**WHEA_ERROR_PACKET**](/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)) structure. |
-| PROCESSOR_GENERIC_ERROR_SECTION_GUID | The error data section contains processor error data that is not specific to a particular processor architecture. This data is described by a [**WHEA_PROCESSOR_GENERIC_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_generic_error_section) structure. |
-| FIRMWARE_ERROR_RECORD_REFERENCE_GUID | The error data section contains a reference to a firmware error record that is specific to the Itanium processor architecture. This data is described by a [**WHEA_FIRMWARE_ERROR_RECORD_REFERENCE**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_firmware_error_record_reference) structure. |
+| PROCESSOR_GENERIC_ERROR_SECTION_GUID | The error data section contains processor error data that is not specific to a particular processor architecture. This data is described by a [**WHEA_PROCESSOR_GENERIC_ERROR_SECTION**](./ns-ntddk-_whea_processor_generic_error_section.md) structure. |
+| FIRMWARE_ERROR_RECORD_REFERENCE_GUID | The error data section contains a reference to a firmware error record that is specific to the Itanium processor architecture. This data is described by a [**WHEA_FIRMWARE_ERROR_RECORD_REFERENCE**](./ns-ntddk-_whea_firmware_error_record_reference.md) structure. |
 | IPF_PROCESSOR_ERROR_SECTION_GUID | The error data section contains processor error data that is specific to the Itanium processor architecture. For more information about the format of the error data that is contained in this error data section, see the [Intel Itanium Processor Family System Abstraction Layer Specification](https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/itanium-system-abstraction-layer-specification.pdf). |
-| MEMORY_ERROR_SECTION_GUID | The error data section contains platform memory error data. This data is described by a [**WHEA_MEMORY_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section) structure. |
-| NMI_SECTION_GUID | The error data section contains nonmaskable interrupt (NMI) error data. This data is described by a [**WHEA_NMI_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_nmi_error_section) structure. |
-| PCIEXPRESS_ERROR_SECTION_GUID | The error data section contains PCI Express (PCIe) error data. This data is described by a [**WHEA_PCIEXPRESS_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pciexpress_error_section) structure. |
-| PCIXBUS_ERROR_SECTION_GUID | The error data section contains PCI/PCI-X bus error data. This data is described by a [**WHEA_PCIXBUS_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixbus_error_section) structure. |
-| WHEA_PCIXDEVICE_ERROR_SECTION | The error data section contains PCI/PCI-X device error data. This data is described by a [**WHEA_PCIXDEVICE_ERROR_SECTION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pcixdevice_error_section) structure. |
+| MEMORY_ERROR_SECTION_GUID | The error data section contains platform memory error data. This data is described by a [**WHEA_MEMORY_ERROR_SECTION**](./ns-ntddk-_whea_memory_error_section.md) structure. |
+| NMI_SECTION_GUID | The error data section contains nonmaskable interrupt (NMI) error data. This data is described by a [**WHEA_NMI_ERROR_SECTION**](./ns-ntddk-_whea_nmi_error_section.md) structure. |
+| PCIEXPRESS_ERROR_SECTION_GUID | The error data section contains PCI Express (PCIe) error data. This data is described by a [**WHEA_PCIEXPRESS_ERROR_SECTION**](./ns-ntddk-_whea_pciexpress_error_section.md) structure. |
+| PCIXBUS_ERROR_SECTION_GUID | The error data section contains PCI/PCI-X bus error data. This data is described by a [**WHEA_PCIXBUS_ERROR_SECTION**](./ns-ntddk-_whea_pcixbus_error_section.md) structure. |
+| WHEA_PCIXDEVICE_ERROR_SECTION | The error data section contains PCI/PCI-X device error data. This data is described by a [**WHEA_PCIXDEVICE_ERROR_SECTION**](./ns-ntddk-_whea_pcixdevice_error_section.md) structure. |
 | XPF_PROCESSOR_ERROR_SECTION_GUID | The error data section contains processor error data that is specific to the x86 or x64 processor architecture. This data is described by a [**WHEA_XPF_PROCESSOR_ERROR_SECTION**](/previous-versions/ff560655(v=vs.85)) structure. |
 
 For error data sections that do not conform to one of the standard section types, this member contains a platform-specific GUID that identifies the type of error data that is contained in the error data section. If a platform-specific GUID is not defined for the type of error data that is contained in the error data section, this member contains GENERIC_SECTION_GUID.
 
 ### -field ErrorSeverity
 
-A [**WHEA_ERROR_SEVERITY**](/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_whea_error_severity)-typed value that indicates the severity of the error condition that is described by the error data section.
+A [**WHEA_ERROR_SEVERITY**](./ne-ntddk-_whea_error_severity.md)-typed value that indicates the severity of the error condition that is described by the error data section.
 
 ### -field Revision
 
-A [**WHEA_REVISION**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_revision) union that describes the revision level of the WHEA_GENERIC_ERROR_DATA_ENTRY structure.
+A [**WHEA_REVISION**](./ns-ntddk-_whea_revision.md) union that describes the revision level of the WHEA_GENERIC_ERROR_DATA_ENTRY structure.
 
 ### -field ValidBits
 
@@ -124,10 +124,10 @@ A variable-sized buffer that contains the error data for the error data section.
 
 A generic error status block can contain one or more WHEA_GENERIC_ERROR_DATA_ENTRY structures. Each WHEA_GENERIC_ERROR_DATA_ENTRY structure describes a section of error information that is part of the error status data for a generic error source.
 
-The **Data** member of the [**WHEA_GENERIC_ERROR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error) structure contains a generic error status block that contains the WHEA_GENERIC_ERROR_DATA_ENTRY structures. The number of WHEA_GENERIC_ERROR_DATA_ENTRY structures that are included in the generic error status block is specified by the **ErrorDataEntryCount** member of the [**WHEA_GENERIC_ERROR_BLOCKSTATUS**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error_blockstatus) union.
+The **Data** member of the [**WHEA_GENERIC_ERROR**](./ns-ntddk-_whea_generic_error.md) structure contains a generic error status block that contains the WHEA_GENERIC_ERROR_DATA_ENTRY structures. The number of WHEA_GENERIC_ERROR_DATA_ENTRY structures that are included in the generic error status block is specified by the **ErrorDataEntryCount** member of the [**WHEA_GENERIC_ERROR_BLOCKSTATUS**](./ns-ntddk-_whea_generic_error_blockstatus.md) union.
 
 ## -see-also
 
-[**WHEA_GENERIC_ERROR**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error)
+[**WHEA_GENERIC_ERROR**](./ns-ntddk-_whea_generic_error.md)
 
-[**WHEA_GENERIC_ERROR_BLOCKSTATUS**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error_blockstatus)
+[**WHEA_GENERIC_ERROR_BLOCKSTATUS**](./ns-ntddk-_whea_generic_error_blockstatus.md)

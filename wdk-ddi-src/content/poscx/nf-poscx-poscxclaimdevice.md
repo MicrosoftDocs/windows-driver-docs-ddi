@@ -44,7 +44,7 @@ api_name:
 
 PosCxClaimDevice is called to claim a device for exclusive use.
 
-The caller should call [PosCxReleaseDevice](/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxreleasedevice) when the device is no longer needed.
+The caller should call [PosCxReleaseDevice](./nf-poscx-poscxreleasedevice.md) when the device is no longer needed.
 
 If the device is already claimed, the caller must wait until access is granted.
 

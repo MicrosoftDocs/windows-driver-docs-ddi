@@ -53,15 +53,15 @@ The AVC_STREAM_REQUEST_BLOCK structure describes an AV/C streaming request to be
 
 ### -field SizeOfThisBlock
 
-Specifies the size of the request block in bytes. Do not set this value directly. Instead, use the [INIT_AVCSTRM_HEADER](/windows-hardware/drivers/ddi/avcstrm/nf-avcstrm-init_avcstrm_header) macro.
+Specifies the size of the request block in bytes. Do not set this value directly. Instead, use the [INIT_AVCSTRM_HEADER](./nf-avcstrm-init_avcstrm_header.md) macro.
 
 ### -field Version
 
-Specifies the version of *avcstrm.sys* device driver interface (DDI) to service a request. Do not set this value directly. Instead, use the [INIT_AVCSTRM_HEADER](/windows-hardware/drivers/ddi/avcstrm/nf-avcstrm-init_avcstrm_header) macro.
+Specifies the version of *avcstrm.sys* device driver interface (DDI) to service a request. Do not set this value directly. Instead, use the [INIT_AVCSTRM_HEADER](./nf-avcstrm-init_avcstrm_header.md) macro.
 
 ### -field Function
 
-Indicates the request (function code) *avcstrm.sys* services. This must be a value from the [AVCSTRM_FUNCTION](/windows-hardware/drivers/ddi/avcstrm/ne-avcstrm-_avcstrm_function) enumeration. Do not set this value directly. Instead, use the [INIT_AVCSTRM_HEADER](/windows-hardware/drivers/ddi/avcstrm/nf-avcstrm-init_avcstrm_header) macro.
+Indicates the request (function code) *avcstrm.sys* services. This must be a value from the [AVCSTRM_FUNCTION](./ne-avcstrm-_avcstrm_function.md) enumeration. Do not set this value directly. Instead, use the [INIT_AVCSTRM_HEADER](./nf-avcstrm-init_avcstrm_header.md) macro.
 
 ### -field Flags
 
@@ -133,11 +133,11 @@ To use this structure, set the IRP's **Irp->Parameters->Others.Argument1** membe
 
 [AVCSTRM_ABORT_STREAMING](/windows-hardware/drivers/stream/avcstrm-abort-streaming)
 
-[AVCSTRM_BUFFER_STRUCT](/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_avcstrm_buffer_struct)
+[AVCSTRM_BUFFER_STRUCT](./ns-avcstrm-_avcstrm_buffer_struct.md)
 
 [AVCSTRM_CLOSE](/windows-hardware/drivers/stream/avcstrm-close)
 
-[AVCSTRM_FUNCTION](/windows-hardware/drivers/ddi/avcstrm/ne-avcstrm-_avcstrm_function)
+[AVCSTRM_FUNCTION](./ne-avcstrm-_avcstrm_function.md)
 
 [AVCSTRM_GET_PROPERTY](/windows-hardware/drivers/stream/avcstrm-get-property)
 
@@ -145,7 +145,7 @@ To use this structure, set the IRP's **Irp->Parameters->Others.Argument1** membe
 
 [AVCSTRM_OPEN](/windows-hardware/drivers/stream/avcstrm-open)
 
-[AVCSTRM_OPEN_STRUCT](/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_avcstrm_open_struct)
+[AVCSTRM_OPEN_STRUCT](./ns-avcstrm-_avcstrm_open_struct.md)
 
 [AVCSTRM_READ](/windows-hardware/drivers/stream/avcstrm-read)
 
@@ -155,4 +155,4 @@ To use this structure, set the IRP's **Irp->Parameters->Others.Argument1** membe
 
 [AVCSTRM_WRITE](/windows-hardware/drivers/stream/avcstrm-write)
 
-[KSSTATE](/windows-hardware/drivers/ddi/ks/ne-ks-ksstate)
+[KSSTATE](../ks/ne-ks-ksstate.md)

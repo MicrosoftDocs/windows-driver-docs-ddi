@@ -75,4 +75,4 @@ Possible return values are:
 
 ## -see-also
 
-[POS_CX_EVENT_ATTRIBUTES](/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_attributes)
+[POS_CX_EVENT_ATTRIBUTES](./ne-poscx-_pos_cx_event_attributes.md)

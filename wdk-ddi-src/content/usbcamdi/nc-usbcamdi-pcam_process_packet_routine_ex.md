@@ -59,7 +59,7 @@ Pointer to the camera minidriver's frame context.
 
 ### -param SyncPacket
 
-Pointer to a [**USBD_ISO_PACKET_DESCRIPTOR**](/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_iso_packet_descriptor) structure from the sync pipe. This value is **NULL** if the interface has only one pipe.
+Pointer to a [**USBD_ISO_PACKET_DESCRIPTOR**](../usb/ns-usb-_usbd_iso_packet_descriptor.md) structure from the sync pipe. This value is **NULL** if the interface has only one pipe.
 
 ### -param SyncBuffer
 
@@ -97,7 +97,7 @@ This function returns the number of bytes that should be copied.
 
 ## -remarks
 
-The minidriver should complete its **CamProcessUSBPacketEx** function as quickly as possible. Image processing should be deferred to the [CamProcessRawVideoFrameEx](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine_ex) function.
+The minidriver should complete its **CamProcessUSBPacketEx** function as quickly as possible. Image processing should be deferred to the [CamProcessRawVideoFrameEx](./nc-usbcamdi-pcam_process_raw_frame_routine_ex.md) function.
 
 This callback function is used with isochronous pipes only (video or still streaming).
 
@@ -107,6 +107,6 @@ This function is optional.
 
 ## -see-also
 
-[CamProcessRawVideoFrameEx](/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine_ex)
+[CamProcessRawVideoFrameEx](./nc-usbcamdi-pcam_process_raw_frame_routine_ex.md)
 
-[**USBD_ISO_PACKET_DESCRIPTOR**](/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_iso_packet_descriptor)
+[**USBD_ISO_PACKET_DESCRIPTOR**](../usb/ns-usb-_usbd_iso_packet_descriptor.md)

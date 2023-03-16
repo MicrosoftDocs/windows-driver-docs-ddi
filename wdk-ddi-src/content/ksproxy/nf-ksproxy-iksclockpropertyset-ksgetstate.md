@@ -47,7 +47,7 @@ The **KsGetState** method retrieves the streaming state of a pin from the underl
 
 ### -param State [out]
 
-Pointer to a variable that receives a value that specifies the streaming state of a pin. This value can be one of the following values from the [**KSSTATE**](/windows-hardware/drivers/ddi/ks/ne-ks-ksstate) enumerated type:
+Pointer to a variable that receives a value that specifies the streaming state of a pin. This value can be one of the following values from the [**KSSTATE**](../ks/ne-ks-ksstate.md) enumerated type:
 
 | Value | Description |
 |---|---|

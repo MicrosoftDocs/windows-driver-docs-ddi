@@ -80,4 +80,4 @@ Using this function does not enable you to change the alternate setting within t
 
 ## -see-also
 
-[USBCAMD_INTERFACE](/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-usbcamd_interface)
+[USBCAMD_INTERFACE](./ns-usbcamdi-usbcamd_interface.md)

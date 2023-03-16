@@ -67,8 +67,8 @@ The **HRESULT** may contain a system error code that is defined in [Bidi Error C
 
 ## -see-also
 
-[Bidirectional Communication Interfaces](/windows-hardware/drivers/ddi/_print/index)
+[Bidirectional Communication Interfaces](../_print/index.md)
 
-[IBidiSpl2](/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl2)
+[IBidiSpl2](./nn-bidispl-ibidispl2.md)
 
 [Print Spooler Components](/windows-hardware/drivers/print/print-spooler-components)
