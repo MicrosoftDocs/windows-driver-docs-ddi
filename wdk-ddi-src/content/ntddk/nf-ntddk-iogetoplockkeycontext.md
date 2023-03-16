@@ -2,15 +2,14 @@
 UID: NF:ntddk.IoGetOplockKeyContext
 title: IoGetOplockKeyContext function (ntddk.h)
 description: The IoGetOplockKeyContext routine returns a target oplock key context for a file object.
-old-location: ifsk\iogetoplockkeycontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 03/16/2023
 keywords: ["IoGetOplockKeyContext function"]
 ms.keywords: IoGetOplockKeyContext, IoGetOplockKeyContextEx, IoGetOplockKeyContextEx routine [Installable File System Drivers], ifsk.iogetoplockkeycontext, ntddk/IoGetOplockKeyContextEx
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt: The IoGetOplockKeyContext routine is available starting with Windows 7.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,12 +40,9 @@ api_name:
  - IoGetOplockKeyContext
 ---
 
-# IoGetOplockKeyContext function
-
-
 ## -description
 
-The <b>IoGetOplockKeyContext</b> routine returns a target oplock key context for a file object.
+The **IoGetOplockKeyContext** routine returns a target oplock key context for a file object.
 
 ## -parameters
 
@@ -56,25 +52,16 @@ The file object to query for an oplock key context.
 
 ## -returns
 
-An pointer to an <a href="/windows-hardware/drivers/ifs/oplock-key-ecp-context">OPLOCK_KEY_ECP_CONTEXT</a> structure containing the target oplock key for <i>FileObject</i>. Otherwise, NULL if <i>FileObject</i>  has no target oplock key.
+An pointer to an [**OPLOCK_KEY_ECP_CONTEXT**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-oplock_key_ecp_context) structure containing the target oplock key for *FileObject*. Otherwise, NULL if *FileObject*  has no target oplock key.
 
 ## -remarks
 
-Use the <b>IoGetOplockKeyContext</b> routine only in Windows 7. Because  <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetoplockkeycontextex">IoGetOplockKeyContextEx</a> returns a dual oplock key context, it should be used in Windows 8 and later versions of Windows.
+Use the **IoGetOplockKeyContext** routine only in Windows 7. Because  [IoGetOplockKeyContextEx](./nf-ntddk-iogetoplockkeycontextex.md) returns a dual oplock key context, it should be used in Windows 8 and later versions of Windows.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ifs/dual-oplock-key-ecp-context">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
+[IoGetOplockKeyContextEx](./nf-ntddk-iogetoplockkeycontextex.md)
 
+[**OPLOCK_KEY_CONTEXT**](./ns-ntddk-_oplock_key_context.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetoplockkeycontextex">IoGetOplockKeyContextEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_oplock_key_context">OPLOCK_KEY_CONTEXT</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/oplock-key-ecp-context">OPLOCK_KEY_ECP_CONTEXT</a>
-
+[**OPLOCK_KEY_ECP_CONTEXT**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-oplock_key_ecp_context)
