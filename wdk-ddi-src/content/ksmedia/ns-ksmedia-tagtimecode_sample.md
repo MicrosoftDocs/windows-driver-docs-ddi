@@ -1,10 +1,9 @@
 ---
 UID: NS:ksmedia.tagTIMECODE_SAMPLE
-title: tagTIMECODE_SAMPLE (ksmedia.h)
+title: TIMECODE_SAMPLE (ksmedia.h)
 description: The TIMECODE_SAMPLE structure describes a complete timecode.
-old-location: stream\timecode_sample.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/15/2023
 keywords: ["tagTIMECODE_SAMPLE structure"]
 ms.keywords: "*PTIMECODE_SAMPLE, TIMECODE_SAMPLE, TIMECODE_SAMPLE structure [Streaming Media Devices], ksmedia/TIMECODE_SAMPLE, stream.timecode_sample, tagTIMECODE_SAMPLE, vidcapstruct_518cf1af-a1e2-43a6-b97f-115c4fe8cb6d.xml"
 req.header: ksmedia.h
@@ -43,9 +42,6 @@ api_name:
  - TIMECODE_SAMPLE
 ---
 
-# tagTIMECODE_SAMPLE structure
-
-
 ## -description
 
 The TIMECODE_SAMPLE structure describes a complete timecode.
@@ -58,7 +54,7 @@ Specifies a reference time, in 100-nanosecond units.
 
 ### -field timecode
 
-Specifies the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_timecode">TIMECODE</a> structure.
+Specifies the [**TIMECODE**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_timecode) structure.
 
 ### -field dwUser
 
@@ -68,120 +64,25 @@ Specifies packed SMPTE user-bits.
 
 Specifies any optional timecode flag masks.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-AM_TIMECODE_FLAG_FCM
-
-</td>
-<td>
-Frame-code mode; 0 = nondrop; 1 = drop.
-
-</td>
-</tr>
-<tr>
-<td>
-AM_TIMECODE_FLAG_CF
-
-</td>
-<td>
-Color-frame flag.
-
-</td>
-</tr>
-<tr>
-<td>
-AM_TIMECODE_FLAG_FIELD
-
-</td>
-<td>
-Field flag.
-
-</td>
-</tr>
-<tr>
-<td>
-AM_TIMECODE_FLAG_DF
-
-</td>
-<td>
-Drop-frame flag (from flags in actual timecode on external media).
-
-</td>
-</tr>
-<tr>
-<td>
-AM_TIMECODE_COLORFRAME
-
-</td>
-<td>
-Specifies frame, in color sequence.
-
-</td>
-</tr>
-<tr>
-<td>
-AM_TIMECODE_COLORSEQUENCE
-
-</td>
-<td>
-Duration, in frames, of complete sequence.
-
-</td>
-</tr>
-<tr>
-<td>
-AM_TIMECODE_FILMSEQUENCE_TYPE
-
-</td>
-<td>
-One of the FILM_SEQUENCE_<i>XXX</i> tokens.
-
-</td>
-</tr>
-<tr>
-<td>
-ED_DEVCAP_TIMECODE_READ
-
-</td>
-<td>
-Read SMPTE timecode; applies to DV camcorders.
-
-</td>
-</tr>
-<tr>
-<td>
-ED_DEVCAP_ATN_READ
-
-</td>
-<td>
-Read the absolute track number (ATN); applies to DV camcorders.
-
-</td>
-</tr>
-<tr>
-<td>
-ED_DEVCAP_RTC_READ
-
-</td>
-<td>
-Read the relative time counter (RTC); applies to MPEG camcorders.
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| AM_TIMECODE_FLAG_FCM | Frame-code mode; 0 = nondrop; 1 = drop. |
+| AM_TIMECODE_FLAG_CF | Color-frame flag. |
+| AM_TIMECODE_FLAG_FIELD | Field flag. |
+| AM_TIMECODE_FLAG_DF | Drop-frame flag (from flags in actual timecode on external media). |
+| AM_TIMECODE_COLORFRAME | Specifies frame, in color sequence. |
+| AM_TIMECODE_COLORSEQUENCE | Duration, in frames, of complete sequence. |
+| AM_TIMECODE_FILMSEQUENCE_TYPE | One of the FILM_SEQUENCE\_*XXX* tokens. |
+| ED_DEVCAP_TIMECODE_READ | Read SMPTE timecode; applies to DV camcorders. |
+| ED_DEVCAP_ATN_READ | Read the absolute track number (ATN); applies to DV camcorders. |
+| ED_DEVCAP_RTC_READ | Read the relative time counter (RTC); applies to MPEG camcorders. |
 
 ## -remarks
 
-Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the DirectX SDK.
+Any ED_Xxx tokens are defined in *xprtdefs.h* in the DirectX SDK.
 
-The upper 16 bits in <b>dwFlags</b> are reserved for future use and must be set to zero.
+The upper 16 bits in **dwFlags** are reserved for future use and must be set to zero.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_timecode">TIMECODE</a>
-
+[**TIMECODE**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_timecode)

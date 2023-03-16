@@ -2,9 +2,8 @@
 UID: NS:ksmedia.KSWAVE_COMPATCAPS
 title: KSWAVE_COMPATCAPS (ksmedia.h)
 description: The KSWAVE_COMPATCAPS structure is used to describe the compatible capabilities of a device.
-old-location: stream\kswave_compatcaps.htm
 tech.root: stream
-ms.date: 04/30/2019
+ms.date: 03/15/2023
 keywords: ["KSWAVE_COMPATCAPS structure"]
 ms.keywords: "*PKSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS structure [Streaming Media Devices], PKSWAVE_COMPATCAPS, PKSWAVE_COMPATCAPS structure pointer [Streaming Media Devices], dvdref_496e945d-fb6d-47da-8668-4cb8f1b265e6.xml, ksmedia/KSWAVE_COMPATCAPS, ksmedia/PKSWAVE_COMPATCAPS, stream.kswave_compatcaps"
 req.header: ksmedia.h
@@ -43,12 +42,9 @@ api_name:
  - KSWAVE_COMPATCAPS
 ---
 
-# KSWAVE_COMPATCAPS structure
-
-
 ## -description
 
-The KSWAVE_COMPATCAPS structure is used to describe the compatible capabilities of a device.
+The **KSWAVE_COMPATCAPS** structure is used to describe the compatible capabilities of a device.
 
 ## -struct-fields
 
@@ -56,38 +52,15 @@ The KSWAVE_COMPATCAPS structure is used to describe the compatible capabilities 
 
 Specifies the following flags:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-KSWAVE_COMPATCAPS_INPUT
-
-</td>
-<td>
-Indicates that the device accepts input.
-
-</td>
-</tr>
-<tr>
-<td>
-KSWAVE_COMPATCAPS_OUTPUT
-
-</td>
-<td>
-Indicates that the device produces output.
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| KSWAVE_COMPATCAPS_INPUT | Indicates that the device accepts input. |
+| KSWAVE_COMPATCAPS_OUTPUT | Indicates that the device produces output. |
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/stream/ksproperty-wave-compatible-capabilities">KSPROPERTY_WAVE_COMPATIBLE_CAPABILITIES</a> property.
+This structure is used by the [KSPROPERTY_WAVE_COMPATIBLE_CAPABILITIES](/windows-hardware/drivers/stream/ksproperty-wave-compatible-capabilities) property.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/stream/ksproperty-wave-compatible-capabilities">KSPROPERTY_WAVE_COMPATIBLE_CAPABILITIES</a>
-
+[KSPROPERTY_WAVE_COMPATIBLE_CAPABILITIES](/windows-hardware/drivers/stream/ksproperty-wave-compatible-capabilities)

@@ -2,9 +2,8 @@
 UID: NS:ksmedia.KSPROPERTY_VIDEOPROCAMP_NODE_S
 title: KSPROPERTY_VIDEOPROCAMP_NODE_S (ksmedia.h)
 description: The KSPROPERTY_VIDEOPROCAMP_NODE_S structure describes node-based property settings in the PROPSETID_VIDCAP_VIDEOPROCAMP property set.
-old-location: stream\ksproperty_videoprocamp_node_s.htm
 tech.root: stream
-ms.date: 04/30/2019
+ms.date: 03/14/2023
 keywords: ["KSPROPERTY_VIDEOPROCAMP_NODE_S structure"]
 ms.keywords: "*PKSPROPERTY_VIDEOPROCAMP_NODE_S, KSPROPERTY_VIDEOPROCAMP_NODE_S, KSPROPERTY_VIDEOPROCAMP_NODE_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOPROCAMP_NODE_S, PKSPROPERTY_VIDEOPROCAMP_NODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOPROCAMP_NODE_S, ksmedia/PKSPROPERTY_VIDEOPROCAMP_NODE_S, stream.ksproperty_videoprocamp_node_s, vidcapstruct_d7d544d4-dd33-4498-9104-c63fa5a48079.xml"
 req.header: ksmedia.h
@@ -43,86 +42,38 @@ api_name:
  - KSPROPERTY_VIDEOPROCAMP_NODE_S
 ---
 
-# KSPROPERTY_VIDEOPROCAMP_NODE_S structure
-
-
 ## -description
 
-The KSPROPERTY_VIDEOPROCAMP_NODE_S structure describes node-based property settings in the <a href="/windows-hardware/drivers/stream/propsetid-vidcap-videoprocamp">PROPSETID_VIDCAP_VIDEOPROCAMP</a> property set.
+The **KSPROPERTY_VIDEOPROCAMP_NODE_S** structure describes node-based property settings in the [PROPSETID_VIDCAP_VIDEOPROCAMP](/windows-hardware/drivers/stream/propsetid-vidcap-videoprocamp) property set.
 
 ## -struct-fields
 
 ### -field NodeProperty
 
-Specifies an initialized <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a> structure that describes the node, property set, property ID, and request type.
+Specifies an initialized [**KSP_NODE**](/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node) structure that describes the node, property set, property ID, and request type.
 
 ### -field Value
 
-Specifies the value of a request. For Set requests, the minidriver should set the property specified in <b>Property</b> to this value. For Get requests, the minidriver should return the value of the property specified in <b>Property</b>.
+Specifies the value of a request. For Set requests, the minidriver should set the property specified in **Property** to this value. For Get requests, the minidriver should return the value of the property specified in **Property**.
 
 ### -field Flags
 
-Specifies the flags of a request. For Set requests, this value indicates the desired setting. For Get requests, this value contains the current setting. This member can be set to one of the values that are defined in <i>ksmedia.h</i>:
+Specifies the flags of a request. For Set requests, this value indicates the desired setting. For Get requests, this value contains the current setting. This member can be set to one of the values that are defined in *ksmedia.h*:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-KSPROPERTY_VIDEOPROCAMP_FLAGS_MANUAL
-
-</td>
-<td>
-Indicates that the property is to be adjusted manually.
-
-</td>
-</tr>
-<tr>
-<td>
-KSPROPERTY_VIDEOPROCAMP_FLAGS_AUTO
-
-</td>
-<td>
-Indicates that the property is to be adjusted automatically.
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| KSPROPERTY_VIDEOPROCAMP_FLAGS_MANUAL | Indicates that the property is to be adjusted manually. |
+| KSPROPERTY_VIDEOPROCAMP_FLAGS_AUTO | Indicates that the property is to be adjusted automatically. |
 
 ### -field Capabilities
 
-Specifies the capabilities of a property. This member has meaning only for Get requests. The minidriver should return the capabilities of the VideoProcAmp with respect to the property specified in <b>Property</b>. This member should be set to one of the following values:
+Specifies the capabilities of a property. This member has meaning only for Get requests. The minidriver should return the capabilities of the VideoProcAmp with respect to the property specified in **Property**. This member should be set to one of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-KSPROPERTY_VIDEOPROCAMP_FLAGS_MANUAL
-
-</td>
-<td>
-The device supports manual setting of the specified property.
-
-</td>
-</tr>
-<tr>
-<td>
-KSPROPERTY_VIDEOPROCAMP_FLAGS_AUTO
-
-</td>
-<td>
-The device supports automatic setting of the specified property.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|---|---|
+| KSPROPERTY_VIDEOPROCAMP_FLAGS_MANUAL | The device supports manual setting of the specified property. |
+| KSPROPERTY_VIDEOPROCAMP_FLAGS_AUTO | The device supports automatic setting of the specified property. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videoprocamp_s">KSPROPERTY_VIDEOPROCAMP_S</a>
-
+[**KSPROPERTY_VIDEOPROCAMP_S**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videoprocamp_s)

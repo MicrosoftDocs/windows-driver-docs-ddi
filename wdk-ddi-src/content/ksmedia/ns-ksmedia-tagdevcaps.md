@@ -1,10 +1,9 @@
 ---
 UID: NS:ksmedia.tagDEVCAPS
-title: tagDEVCAPS (ksmedia.h)
+title: DEVCAPS (ksmedia.h)
 description: The DEVCAPS structure describes the capabilities of an external device.
-old-location: stream\devcaps.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/15/2023
 keywords: ["tagDEVCAPS structure"]
 ms.keywords: "*PDEVCAPS, DEVCAPS, DEVCAPS structure [Streaming Media Devices], PDEVCAPS, PDEVCAPS structure pointer [Streaming Media Devices], ksmedia/DEVCAPS, ksmedia/PDEVCAPS, stream.devcaps, tagDEVCAPS, vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml"
 req.header: ksmedia.h
@@ -46,12 +45,9 @@ api_name:
  - DEVCAPS
 ---
 
-# tagDEVCAPS structure
-
-
 ## -description
 
-The DEVCAPS structure describes the capabilities of an external device.
+The **DEVCAPS** structure describes the capabilities of an external device.
 
 ## -struct-fields
 
@@ -83,72 +79,14 @@ Specifies if the external device can save.
 
 Specifies the type of the external device. See Remarks.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-ED_DEVTYPE_VCR
-
-</td>
-<td>
-Video cassette recorder
-
-</td>
-</tr>
-<tr>
-<td>
-ED_DEVTYPE_LASERDISC
-
-</td>
-<td>
-Laserdisc player
-
-</td>
-</tr>
-<tr>
-<td>
-ED_DEVTYPE_KEYBOARD
-
-</td>
-<td>
-Keyboard
-
-</td>
-</tr>
-<tr>
-<td>
-ED_DEVTYPE_CAMERA
-
-</td>
-<td>
-Video camera
-
-</td>
-</tr>
-<tr>
-<td>
-ED_DEVTYPE_VTR
-
-</td>
-<td>
-Video tape recorder
-
-</td>
-</tr>
-<tr>
-<td>
-ED_DEVTYPE_UNKNOWN
-
-</td>
-<td>
-Unknown type
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| ED_DEVTYPE_VCR | Video cassette recorder |
+| ED_DEVTYPE_LASERDISC | Laserdisc player |
+| ED_DEVTYPE_KEYBOARD | Keyboard |
+| ED_DEVTYPE_CAMERA | Video camera |
+| ED_DEVTYPE_VTR | Video tape recorder |
+| ED_DEVTYPE_UNKNOWN | Unknown type |
 
 ### -field TCRead
 
@@ -210,42 +148,11 @@ Indicates if the external device requires calibrating.
 
 Specifies the type of seeking the external device is capable of. For example:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-ED_SEEK_PERFECT
-
-</td>
-<td>
-Indicates device can seek to within 1 video frame without a signal break (like a DDR).
-
-</td>
-</tr>
-<tr>
-<td>
-ED_SEEK_FAST
-
-</td>
-<td>
-Indicates device can seek quick with a short break in signal.
-
-</td>
-</tr>
-<tr>
-<td>
-ED_SEEK_SLOW
-
-</td>
-<td>
-Indicates slow seeking (like a tape transport).
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| ED_SEEK_PERFECT | Indicates device can seek to within 1 video frame without a signal break (like a DDR). |
+| ED_SEEK_FAST | Indicates device can seek quick with a short break in signal. |
+| ED_SEEK_SLOW | Indicates slow seeking (like a tape transport). |
 
 ### -field SimulatedHardware
 
@@ -253,17 +160,14 @@ Must be set to zero.
 
 ## -remarks
 
-Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
+Any ED_Xxx tokens are defined in *xprtdefs.h* in the Microsoft DirectX SDK.
 
-All members of the DEVCAPS structure are <b>TRUE</b>/<b>FALSE</b> unless otherwise specified.
+All members of the DEVCAPS structure are **TRUE** or **FALSE** unless otherwise specified.
 
-The <b>DeviceType</b> member can be used by an application to detect the device type or its current operating mode. For example, it can return either ED_DEVTYPE_CAMERA or ED_DEVTYPE_VTR depending on a DV camcorder's mode of operation. Also, some DV devices may not be known and a device type of ED_DEVTYPE_UNKNOWN can be returned by the driver. This happens with some DV media converters.
+The **DeviceType** member can be used by an application to detect the device type or its current operating mode. For example, it can return either ED_DEVTYPE_CAMERA or ED_DEVTYPE_VTR depending on a DV camcorder's mode of operation. Also, some DV devices may not be known and a device type of ED_DEVTYPE_UNKNOWN can be returned by the driver. This happens with some DV media converters.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_extdevice_s">KSPROPERTY_EXTDEVICE_S</a>
+[KSPROPERTY_EXTDEVICE_S](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_extdevice_s)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_timecode">TIMECODE</a>
-
+[TIMECODE](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_timecode)

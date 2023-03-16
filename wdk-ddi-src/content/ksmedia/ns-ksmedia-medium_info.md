@@ -2,9 +2,8 @@
 UID: NS:ksmedia.MEDIUM_INFO
 title: MEDIUM_INFO (ksmedia.h)
 description: The MEDIUM_INFO structure describes the media loaded into an external device.
-old-location: stream\medium_info.htm
 tech.root: stream
-ms.date: 04/30/2019
+ms.date: 03/15/2023
 keywords: ["MEDIUM_INFO structure"]
 ms.keywords: "*PMEDIUM_INFO, MEDIUM_INFO, MEDIUM_INFO structure [Streaming Media Devices], PMEDIUM_INFO, PMEDIUM_INFO structure pointer [Streaming Media Devices], ksmedia/MEDIUM_INFO, ksmedia/PMEDIUM_INFO, stream.medium_info, vidcapstruct_f83c29e1-51a8-4784-a785-4e5dc9956634.xml"
 req.header: ksmedia.h
@@ -43,65 +42,30 @@ api_name:
  - MEDIUM_INFO
 ---
 
-# MEDIUM_INFO structure
-
-
 ## -description
 
-The MEDIUM_INFO structure describes the media loaded into an external device.
+The **MEDIUM_INFO** structure describes the media loaded into an external device.
 
 ## -struct-fields
 
 ### -field MediaPresent
 
-Specifies if media is present in the external device. <b>TRUE</b> if media is loaded, <b>FALSE</b> otherwise.
+Specifies if media is present in the external device. **TRUE** if media is loaded, **FALSE** otherwise.
 
 ### -field MediaType
 
 Indicates the type of the media loaded in an external device.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-ED_MEDIA_DVC
-
-</td>
-<td>
-Digital video cassette. For example MiniDV
-
-</td>
-</tr>
-<tr>
-<td>
-ED_MEDIA_VHS
-
-</td>
-<td>
-VHS cassette
-
-</td>
-</tr>
-<tr>
-<td>
-ED_MEDIA_HI8
-
-</td>
-<td>
-Hi-8 cassette
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| ED_MEDIA_DVC | Digital video cassette. For example MiniDV |
+| ED_MEDIA_VHS | VHS cassette |
+| ED_MEDIA_HI8 | Hi-8 cassette |
 
 ### -field RecordInhibit
 
-Specifies if recording is inhibited on the media. <b>TRUE</b> if recording onto the media is inhibited, <b>FALSE</b> otherwise.
+Specifies if recording is inhibited on the media. **TRUE** if recording onto the media is inhibited, **FALSE** otherwise.
 
 ## -remarks
 
-Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
-
+Any ED_Xxx tokens are defined in *xprtdefs.h* in the Microsoft DirectX SDK.
