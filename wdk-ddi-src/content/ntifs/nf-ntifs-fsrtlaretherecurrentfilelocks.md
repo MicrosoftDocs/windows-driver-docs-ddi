@@ -2,9 +2,8 @@
 UID: NF:ntifs.FsRtlAreThereCurrentFileLocks
 title: FsRtlAreThereCurrentFileLocks macro (ntifs.h)
 description: The FsRtlAreThereCurrentFileLocks macro checks whether any byte range locks exist for the specified file.
-old-location: ifsk\fsrtlaretherecurrentfilelocks.htm
 tech.root: ifsk
-ms.date: 06/27/2019
+ms.date: 03/20/2023
 keywords: ["FsRtlAreThereCurrentFileLocks macro"]
 ms.keywords: FsRtlAreThereCurrentFileLocks, FsRtlAreThereCurrentFileLocks function [Installable File System Drivers], fsrtlref_c3102eee-b523-418a-8977-a875e0eb76b7.xml, ifsk.fsrtlaretherecurrentfilelocks, ntifs/FsRtlAreThereCurrentFileLocks
 req.header: ntifs.h
@@ -42,7 +41,6 @@ api_name:
 
 # FsRtlAreThereCurrentFileLocks macro
 
-
 ## -description
 
 The **FsRtlAreThereCurrentFileLocks** macro checks whether any byte range locks exist for the specified file.
@@ -51,21 +49,20 @@ The **FsRtlAreThereCurrentFileLocks** macro checks whether any byte range locks 
 
 ### -param FL
 
-Pointer to the [FILE_LOCK](/windows-hardware/drivers/ifs/file-lock) structure for the file. This structure must have been initialized by a previous call to [**FsRtlAllocateFileLock**](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
+Pointer to the [**FILE_LOCK**](ns-ntifs-file_lock.md) structure for the file. This structure must have been initialized by a previous call to [**FsRtlAllocateFileLock**](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
 
 ## -remarks
 
-This macro acts like a BOOLEAN function, returning **TRUE** if any byte range locks exist for the specified file or **FALSE** if none exist.
+This macro acts like a BOOLEAN function, returning TRUE if any byte range locks exist for the specified file or FALSE if none exist.
 
-File systems and filter drivers often call **FsRtlAreThereCurrentFileLocks** from their FastIoCheckIfPossible routines.
+File systems and filter drivers often call **FsRtlAreThereCurrentFileLocks** from their **FastIoCheckIfPossible** routines.
 
-> [!NOTE]
-> If a byte-range lock has existed since the specified file was opened, the **FsRtlAreThereCurrentFileLocks** routine returns **TRUE**,  unless the relevant FILE_LOCK is reinitialized. If a lock was established, and then released, the use of **FsRtlAreThereCurrentFileLocks**  can prevent the assignment of oplocks unnecessarily. Use [**FsRtlAreThereCurrentOrInProgressFileLocks**](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlaretherecurrentorinprogressfilelocks.md) to avoid this problem.
+If a byte-range lock has existed since the specified file was opened, **FsRtlAreThereCurrentFileLocks** returns TRUE unless the relevant **FILE_LOCK** is reinitialized. If a lock was established and then released, the use of **FsRtlAreThereCurrentFileLocks**  can unnecessarily prevent the assignment of oplocks. Use [**FsRtlAreThereCurrentOrInProgressFileLocks**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlaretherecurrentorinprogressfilelocks.md) to avoid this problem.
 
 ## -see-also
 
-[**FsRtlAllocateFileLock**](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md)
+[**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md)
 
-[**FsRtlAreThereCurrentOrInProgressFileLocks**](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlaretherecurrentorinprogressfilelocks.md)
+[**FsRtlAreThereCurrentOrInProgressFileLocks**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlaretherecurrentorinprogressfilelocks.md)
 
-[**FsRtlInitializeFileLock**](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md)
+[**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md)
