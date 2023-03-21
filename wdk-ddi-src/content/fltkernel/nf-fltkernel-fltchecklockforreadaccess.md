@@ -2,16 +2,15 @@
 UID: NF:fltkernel.FltCheckLockForReadAccess
 title: FltCheckLockForReadAccess function (fltkernel.h)
 description: The FltCheckLockForReadAccess routine determines whether the caller has read access to a locked byte range of a file.
-old-location: ifsk\fltchecklockforreadaccess.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 03/20/2023
 keywords: ["FltCheckLockForReadAccess function"]
 ms.keywords: FltApiRef_a_to_d_24bd7e02-fdc4-44a3-8d1a-1bb164d26769.xml, FltCheckLockForReadAccess, FltCheckLockForReadAccess routine [Installable File System Drivers], fltkernel/FltCheckLockForReadAccess, ifsk.fltchecklockforreadaccess
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP SP2 
+req.target-min-winversvr: Windows Server 2003 SP1
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -43,71 +42,50 @@ api_name:
 
 # FltCheckLockForReadAccess function
 
-
 ## -description
 
-The <b>FltCheckLockForReadAccess</b> routine determines whether the caller has read access to a locked byte range of a file.
+The **FltCheckLockForReadAccess** routine determines whether the caller has read access to a locked byte range of a file.
 
 ## -parameters
 
 ### -param FileLock [in]
 
-
-Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializefilelock">FltInitializeFileLock</a>.
+Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md) or [**FltInitializeFileLock**](nf-fltkernel-fltinitializefilelock.md).
 
 ### -param CallbackData [in]
 
-
-Pointer to the callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the <a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a> operation.
+Pointer to the callback data ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) structure for the [**IRP_MJ_READ**](/windows-hardware/drivers/ifs/irp-mj-read) operation.
 
 ## -returns
 
-<b>FltCheckLockForReadAccess</b> returns <b>TRUE</b> if the process has read access, <b>FALSE</b> otherwise.
+**FltCheckLockForReadAccess** returns TRUE if the process has read access, FALSE otherwise.
 
 ## -remarks
 
-This routine is available on Microsoft Windows XP SP2, Microsoft Windows Server 2003 SP1, and later. 
+**FltCheckLockForReadAccess** checks whether the caller has read access to the entire byte range indicated in the callback data structure.
 
-<b>FltCheckLockForReadAccess</b> checks whether the caller has read access to the entire byte range indicated in the callback data structure. 
+**FltCheckLockForReadAccess** does not complete the [**IRP_MJ_READ**](/windows-hardware/drivers/ifs/irp-mj-read) operation.
 
-<b>FltCheckLockForReadAccess</b> does not complete the <a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a> operation. 
+To allocate and initialize a new file lock structure, call [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md).
 
-To allocate and initialize a new file lock structure, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a>. 
-
-To free an initialized FILE_LOCK structure, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreefilelock">FltFreeFileLock</a>.
+To free an initialized FILE_LOCK structure, call [**FltFreeFileLock**](nf-fltkernel-fltfreefilelock.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
+[**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)
 
+[**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md)
 
+[**FltCheckLockForWriteAccess**](nf-fltkernel-fltchecklockforwriteaccess.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a>
+[**FltFreeFileLock**](nf-fltkernel-fltfreefilelock.md)
 
+[**FltInitializeFileLock**](nf-fltkernel-fltinitializefilelock.md)
 
+[**FltProcessFileLock**](nf-fltkernel-fltprocessfilelock.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltchecklockforwriteaccess">FltCheckLockForWriteAccess</a>
+[**FltUninitializeFileLock**](nf-fltkernel-fltuninitializefilelock.md)
 
+[**FsRtlCheckLockForReadAccess**](../ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlchecklockforreadaccess.md)
 
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreefilelock">FltFreeFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializefilelock">FltInitializeFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltprocessfilelock">FltProcessFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuninitializefilelock">FltUninitializeFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlchecklockforreadaccess">FsRtlCheckLockForReadAccess</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>
+[**IRP_MJ_READ**](/windows-hardware/drivers/ifs/irp-mj-read)

@@ -74,7 +74,7 @@ Context pointer to be used when completing the operation. This context pointer i
 
 **FltProcessFileLock** processes a file lock ([**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control)) operation. The lock operation can be a fast I/O or IRP-based operation.
 
-For unlock operations, the Filter Manager calls the **UnlockRoutine** ([**PUNLOCK_ROUTINE**](/windows-hardware/drivers/ifs/punlock-routine)) callback routine that the caller registered for the [**FILE_LOCK**](/windows-hardware/drivers/ifs/file-lock) structure in a previous call to [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md).
+For unlock operations, the Filter Manager calls the **UnlockRoutine** ([**PUNLOCK_ROUTINE**](../ntifs/nc-ntifs-punlock_routine.md) callback routine that the caller registered for the [**FILE_LOCK**](/windows-hardware/drivers/ifs/file-lock) structure in a previous call to [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md).
 
 When the lock operation is completed, the Filter Manager calls the **CompleteLockCallbackDataRoutine** ([**PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE**](nc-fltkernel-pflt_complete_lock_callback_data_routine.md)) completion callback routine that the caller registered for the [**FILE_LOCK**](/windows-hardware/drivers/ifs/file-lock) structure in a previous call to [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md).
 
@@ -112,4 +112,4 @@ To free an initialized [**FILE_LOCK**](/windows-hardware/drivers/ifs/file-lock) 
 
 [**PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE**](nc-fltkernel-pflt_complete_lock_callback_data_routine.md)
 
-[**PUNLOCK_ROUTINE**](/windows-hardware/drivers/ifs/punlock-routine)
+[**PUNLOCK_ROUTINE**](../ntifs/nc-ntifs-punlock_routine.md

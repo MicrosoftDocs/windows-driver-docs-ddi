@@ -4,7 +4,7 @@ title: FsRtlFastLock macro (ntifs.h)
 description: The FsRtlFastLock macro is used by file systems and filter drivers to request a byte-range lock for a file stream.
 old-location: ifsk\fsrtlfastlock.htm
 tech.root: ifsk
-ms.date: 09/22/2021
+ms.date: 03/20/2023
 keywords: ["FsRtlFastLock macro"]
 ms.keywords: FsRtlFastLock, FsRtlFastLock function [Installable File System Drivers], fsrtlref_c60db87b-ac5a-4c60-83f2-7381e0156806.xml, ifsk.fsrtlfastlock, ntifs/FsRtlFastLock
 req.header: ntifs.h
@@ -67,7 +67,7 @@ FsRtlFastLock( A1,   /* FileLock            */
 
 ### -param A1 [in]
 
-**FileLock**: Pointer to the [**FILE_LOCK**](/windows-hardware/drivers/ifs/file-lock) structure for the file. This structure must have been initialized by a previous call to [**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
+**FileLock**: Pointer to the [**FILE_LOCK**](ns-ntifs-file_lock.md) structure for the file. This structure must have been initialized by a previous call to [**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
 
 ### -param A2 [in]
 
@@ -91,11 +91,11 @@ FsRtlFastLock( A1,   /* FileLock            */
 
 ### -param A7 [in]
 
-**FailImmediately**: Boolean value that specifies whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set **FailImmediately** to **FALSE**. If it cannot, set **FailImmediately** to **TRUE**.
+**FailImmediately**: Boolean value that specifies whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set **FailImmediately** to FALSE. If it cannot, set **FailImmediately** to TRUE.
 
 ### -param A8 [in]
 
-**ExclusiveLock**: Set to **TRUE** if an exclusive lock is requested, **FALSE** if a shared lock is requested.
+**ExclusiveLock**: Set to TRUE if an exclusive lock is requested, FALSE if a shared lock is requested.
 
 ### -param A9 [out]
 
@@ -111,7 +111,7 @@ FsRtlFastLock( A1,   /* FileLock            */
 
 ## -returns
 
-**FsRtlFastLock** returns **TRUE** to indicate that the IO_STATUS_BLOCK structure pointed to by **Iosb** received status information about the lock operation; otherwise it returns FALSE.
+**FsRtlFastLock** returns TRUE to indicate that the IO_STATUS_BLOCK structure pointed to by **Iosb** received status information about the lock operation; otherwise it returns FALSE.
 
 ## -remarks
 
@@ -120,6 +120,8 @@ The **FsRtlFastLock** macro causes the caller to acquire a byte-range lock on a 
 To examine the contents of the structure that **Iosb** points to, use the NT_STATUS macro.
 
 ## -see-also
+
+[**FILE_LOCK**](ns-ntifs-file_lock.md)
 
 [**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md)
 

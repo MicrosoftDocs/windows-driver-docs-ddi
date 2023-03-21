@@ -2,16 +2,15 @@
 UID: NF:fltkernel.FltAllocateFileLock
 title: FltAllocateFileLock function (fltkernel.h)
 description: The FltAllocateFileLock routine allocates and initializes a new FILE_LOCK structure.
-old-location: ifsk\fltallocatefilelock.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 03/20/2023
 keywords: ["FltAllocateFileLock function"]
 ms.keywords: FltAllocateFileLock, FltAllocateFileLock routine [Installable File System Drivers], FltApiRef_a_to_d_f59cead3-059a-4457-9339-c90cc007ca63.xml, fltkernel/FltAllocateFileLock, ifsk.fltallocatefilelock
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with  Windows XP with SP2 or Windows Server 2003 with SP1.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP SP2
+req.target-min-winversvr: Windows Server 2003 SP1
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -43,79 +42,56 @@ api_name:
 
 # FltAllocateFileLock function
 
-
 ## -description
 
-The <b>FltAllocateFileLock</b> routine allocates and initializes a new <a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a> structure.
+The **FltAllocateFileLock** routine allocates and initializes a new [**FILE_LOCK**](../ntifs/ns-ntifs-file_lock.md) structure.
 
 ## -parameters
 
 ### -param CompleteLockCallbackDataRoutine [in, optional]
 
-
-Pointer to a <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_complete_lock_callback_data_routine">PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE</a>-typed callback routine to be called when an <a href="/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a> request is completed. This parameter is optional and can be <b>NULL</b>.
+Pointer to a [**PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE**](nc-fltkernel-pflt_complete_lock_callback_data_routine.md)-typed callback routine to be called when an [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control) request is completed. This parameter is optional and can be NULL.
 
 ### -param UnlockRoutine [in, optional]
 
-
-Pointer to a <a href="/windows-hardware/drivers/ifs/punlock-routine">PUNLOCK_ROUTINE</a>-typed callback routine to be called when the byte range is unlocked. This parameter is optional and can be <b>NULL</b>.
+Pointer to a [**PUNLOCK_ROUTINE**](../ntifs/nc-ntifs-punlock_routine.md)-typed callback routine to be called when the byte range is unlocked. This parameter is optional and can be NULL.
 
 ## -returns
 
-<b>FltAllocateFileLock</b> returns a pointer to the newly allocated <a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a> structure.
+**FltAllocateFileLock** returns a pointer to the newly allocated [**FILE_LOCK**](../ntifs/ns-ntifs-file_lock.md) structure.
 
 ## -remarks
 
-<b>FltAllocateFileLock</b> allocates a new <a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a> structure from paged pool and initializes it.
+**FltAllocateFileLock** allocates a new [**FILE_LOCK**](../ntifs/ns-ntifs-file_lock.md) structure from paged pool and initializes it.
 
-The returned <a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a> structure can be used to lock a byte range in a file by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltprocessfilelock">FltProcessFileLock</a>. 
+The returned [**FILE_LOCK**](../ntifs/ns-ntifs-file_lock.md) structure can be used to lock a byte range in a file by calling [**FltProcessFileLock**](nf-fltkernel-fltprocessfilelock.md).
 
-When the <a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a> structure is no longer needed, it can be uninitialized by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuninitializefilelock">FltUninitializeFileLock</a>. The uninitialized <b>FILE_LOCK</b> structure can then be initialized for reuse by calling <b>FltInitializeFileLock</b>. 
+When the [**FILE_LOCK**](../ntifs/ns-ntifs-file_lock.md) structure is no longer needed, it can be uninitialized by calling [**FltUninitializeFileLock**](nf-fltkernel-fltuninitializefilelock.md). The uninitialized **FILE_LOCK** structure can then be initialized for reuse by calling **FltInitializeFileLock**.
 
-To free an initialized <a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a> structure, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreefilelock">FltFreeFileLock</a>. 
+To free an initialized [**FILE_LOCK**](../ntifs/ns-ntifs-file_lock.md) structure, call [**FltFreeFileLock**](nf-fltkernel-fltfreefilelock.md).
 
-When the <i>CallbackData</i> parameter passed to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltprocessfilelock">FltProcessFileLock</a> represents a fast I/O operation, the callback specified in <i>CompleteLockCallbackDataRoutine</i> is not invoked. Only when the I/O operation in <i>CallbackData</i> is an IRP, and <i>CompleteLockCallbackDataRoutine</i> is not NULL, will the callback routine be called.
+When the **CallbackData** parameter passed to [**FltProcessFileLock**](nf-fltkernel-fltprocessfilelock.md) represents a fast I/O operation, the callback specified in **CompleteLockCallbackDataRoutine** is not invoked. Only when the I/O operation in **CallbackData** is an IRP, and **CompleteLockCallbackDataRoutine** is not NULL, will the callback routine be called.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a>
+[**FILE_LOCK**](../ntifs/ns-ntifs-file_lock.md)
 
+[**FltCheckLockForReadAccess**](nf-fltkernel-fltchecklockforreadaccess.md)
 
+[**FltCheckLockForWriteAccess**](nf-fltkernel-fltchecklockforwriteaccess.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltchecklockforreadaccess">FltCheckLockForReadAccess</a>
+[**FltFreeFileLock**](nf-fltkernel-fltfreefilelock.md)
 
+[**FltInitializeFileLock**](nf-fltkernel-fltinitializefilelock.md)
 
+[**FltProcessFileLock**](nf-fltkernel-fltprocessfilelock.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltchecklockforwriteaccess">FltCheckLockForWriteAccess</a>
+[**FltUninitializeFileLock**](nf-fltkernel-fltuninitializefilelock.md)
 
+[**FsRtlAllocateFileLock**](../ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md)
 
+[**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreefilelock">FltFreeFileLock</a>
+[**PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE**](nc-fltkernel-pflt_complete_lock_callback_data_routine.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializefilelock">FltInitializeFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltprocessfilelock">FltProcessFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuninitializefilelock">FltUninitializeFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_complete_lock_callback_data_routine">PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/punlock-routine">PUNLOCK_ROUTINE</a>
+[**PUNLOCK_ROUTINE**](../ntifs/nc-ntifs-punlock_routine.md)

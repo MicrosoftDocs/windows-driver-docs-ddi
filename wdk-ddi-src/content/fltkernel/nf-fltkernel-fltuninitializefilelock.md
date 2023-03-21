@@ -2,16 +2,15 @@
 UID: NF:fltkernel.FltUninitializeFileLock
 title: FltUninitializeFileLock function (fltkernel.h)
 description: The FltUninitializeFileLock routine uninitializes a FILE_LOCK structure.
-old-location: ifsk\fltuninitializefilelock.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 03/20/2023
 keywords: ["FltUninitializeFileLock function"]
 ms.keywords: FltApiRef_p_to_z_ad1332a2-5434-423c-91d6-de939e1cb28a.xml, FltUninitializeFileLock, FltUninitializeFileLock routine [Installable File System Drivers], fltkernel/FltUninitializeFileLock, ifsk.fltuninitializefilelock
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Microsoft Windows XP SP2, Microsoft Windows Server 2003 SP1, and later.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP SP2 
+req.target-min-winversvr: Windows Server 2003 SP1
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -42,17 +41,15 @@ api_name:
 
 # FltUninitializeFileLock function
 
-
 ## -description
 
-The <b>FltUninitializeFileLock</b> routine uninitializes a FILE_LOCK structure.
+The **FltUninitializeFileLock** routine uninitializes a FILE_LOCK structure.
 
 ## -parameters
 
 ### -param FileLock [in]
 
-
-Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializefilelock">FltInitializeFileLock</a>.
+Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md) or [**FltInitializeFileLock**](nf-fltkernel-fltinitializefilelock.md).
 
 ## -returns
 
@@ -60,38 +57,26 @@ None
 
 ## -remarks
 
-<b>FltUninitializeFileLock</b> uninitializes an initialized FILE_LOCK structure, freeing all file locks and completing any outstanding lock operations. The uninitialized FILE_LOCK structure can be initialized for reuse by a subsequent call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializefilelock">FltInitializeFileLock</a>.
+**FltUninitializeFileLock** uninitializes an initialized FILE_LOCK structure, freeing all file locks and completing any outstanding lock operations. The uninitialized FILE_LOCK structure can be initialized for reuse by a subsequent call to [**FltInitializeFileLock**](nf-fltkernel-fltinitializefilelock.md).
 
-<b>FltUninitializeFileLock</b> can be used to uninitialize a FILE_LOCK structure allocated by a previous call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a>. Do not use <b>FltUninitializeFileLock</b> for such a FILE_LOCK structure unless the structure is to be initialized for reuse. It is a programming error to call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreefilelock">FltFreeFileLock</a> for an uninitialized FILE_LOCK structure.
+**FltUninitializeFileLock** can be used to uninitialize a FILE_LOCK structure allocated by a previous call to [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md). Do not use **FltUninitializeFileLock** for such a FILE_LOCK structure unless the structure is to be initialized for reuse. It is a programming error to call [**FltFreeFileLock**](nf-fltkernel-fltfreefilelock.md) for an uninitialized FILE_LOCK structure.
 
-To allocate and initialize a new file lock structure, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a>. 
+To allocate and initialize a new file lock structure, call [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md).
 
-To free an initialized FILE_LOCK structure, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreefilelock">FltFreeFileLock</a>.
+To free an initialized FILE_LOCK structure, call [**FltFreeFileLock**](nf-fltkernel-fltfreefilelock.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a>
+[**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md)
 
+[**FltCheckLockForReadAccess**](nf-fltkernel-fltchecklockforreadaccess.md)
 
+[**FltCheckLockForWriteAccess**](nf-fltkernel-fltchecklockforwriteaccess.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltchecklockforreadaccess">FltCheckLockForReadAccess</a>
+[**FltFreeFileLock**](nf-fltkernel-fltfreefilelock.md)
 
+[**FltInitializeFileLock**](nf-fltkernel-fltinitializefilelock.md)
 
+[**FltProcessFileLock**](nf-fltkernel-fltprocessfilelock.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltchecklockforwriteaccess">FltCheckLockForWriteAccess</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreefilelock">FltFreeFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializefilelock">FltInitializeFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltprocessfilelock">FltProcessFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializefilelock">FsRtlUninitializeFileLock</a>
+[**FsRtlUninitializeFileLock**](../ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializefilelock.md)
