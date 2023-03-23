@@ -1,8 +1,8 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VALIDATESUBMITCOMMAND
 title: DXGKDDI_VALIDATESUBMITCOMMAND (d3dkmddi.h)
-description: Validates private driver data, which is passed by user mode driver in D3DKMTSubmitCommand or D3DKMTSubmitCommandToHwQueue.
-ms.date: 10/19/2018
+description: Learn more about the DXGKDDI_VALIDATESUBMITCOMMAND callback function.
+ms.date: 03/23/2023
 keywords: ["DXGKDDI_VALIDATESUBMITCOMMAND callback function"]
 req.header: d3dkmddi.h
 req.include-header: 
@@ -41,55 +41,42 @@ dev_langs:
 
 # DXGKDDI_VALIDATESUBMITCOMMAND callback function
 
-
 ## -description
 
-Validates private driver data, which is passed by user mode driver in [D3DKMTSubmitCommand](nc-d3dkmddi-dxgkddi_submitcommand.md) or [D3DKMTSubmitCommandToHwQueue](../d3dkmthk/nf-d3dkmthk-d3dkmtsubmitcommandtohwqueue.md).
+The kernel-mode display miniport's (KMD's) **DXGKDDI_VALIDATESUBMITCOMMAND** function validates private driver data that the user-mode driver (UMD) passes in calls to [**D3DKMTSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md) or [**D3DKMTSubmitCommandToHwQueue**](../d3dkmthk/nf-d3dkmthk-d3dkmtsubmitcommandtohwqueue.md).
 
 ## -parameters
 
 ### -param hContext
 
-Driver context handle for the context.
+[in] A handle to the miniport device context, which the KMD returned from [**DxgkDdiAddDevice**](../dispmprt/nc-dispmprt-dxgkddi_add_device.md).
 
 ### -param pArgs
 
-Pointer to a [DXGKARG_VALIDATESUBMITCOMMAND](ns-d3dkmddi-_dxgkarg_validatesubmitcommand.md) structure.
+[in/out] Pointer to a [**DXGKARG_VALIDATESUBMITCOMMAND**](ns-d3dkmddi-_dxgkarg_validatesubmitcommand.md) structure containing information needed to validate the submit command.
 
 ## -returns
 
-Returns NTSTATUS:
+**DXGKDDI_VALIDATESUBMITCOMMAND** returns an [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) value such as one of the following:
 
 * STATUS_SUCCESS
 * STATUS_INVALID_USER_BUFFER
 
-## -prototype
-
-```cpp
-//Declaration
-
-DXGKDDI_VALIDATESUBMITCOMMAND DxgkddiValidatesubmitcommand; 
-
-// Definition
-
-NTSTATUS DxgkddiValidatesubmitcommand 
-(
-	IN_CONST_HANDLE hContext
-	INOUT_PDXGKARG_VALIDATESUBMITCOMMAND pArgs
-)
-{...}
-
-```
-
 ## -remarks
 
-When this callback is implemented, private data, passed in [DxgkDdiSubmitCommandVirtual](nc-d3dkmddi-dxgkddi_submitcommandvirtual.md) or [DxgkDdiSubmitCommandToHwQueue](nc-d3dkmddi-dxgkddi_submitcommandtohwqueue.md) is always validated by kernel mode driver.
+When the KMD implements this callback, the KMD always validates private data passed in calls to:
 
-This callback is called only when private driver size in [D3DKMTSubmitCommand](nc-d3dkmddi-dxgkddi_submitcommand.md) is not zero. It is called once per D3DKMTSubmitCommand or D3DKMTSubmitCommandToHwQueue.
+* [**DxgkDdiSubmitCommandVirtual**](nc-d3dkmddi-dxgkddi_submitcommandvirtual.md)
+* [**DxgkDdiSubmitCommandToHwQueue**](nc-d3dkmddi-dxgkddi_submitcommandtohwqueue.md)
 
-The kernel mode driver should not assume that this callback is called in the context of the process, which called D3DKMTSubmitCommand. So, the driver should not pass any user mode pointers or handles in private data.
+This callback is called only when the private driver size ([**DmaBufferPrivateDataSize**](ns-d3dkmddi-_dxgkarg_submitcommand.md)) in [**D3DKMTSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md) is not zero.
 
-This callback is called before the command is submitted to the GPU scheduler software queue.
+It is called once per **D3DKMTSubmitCommand** or [**D3DKMTSubmitCommandToHwQueue**](../d3dkmthk/nf-d3dkmthk-d3dkmtsubmitcommandtohwqueue.md).
+
+The KMD should not assume that this callback is called in the context of the process that called **D3DKMTSubmitCommand**. Therefore, the UMD should not pass any user-mode pointers or handles in its private data.
+
+This callback is called before the command is submitted to the GPU scheduler software queue for execution.
 
 ## -see-also
 
+[**DXGKARG_VALIDATESUBMITCOMMAND**](ns-d3dkmddi-_dxgkarg_validatesubmitcommand.md)
