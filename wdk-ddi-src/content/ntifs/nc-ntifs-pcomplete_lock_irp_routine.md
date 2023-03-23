@@ -2,7 +2,7 @@
 UID: NC:ntifs.PCOMPLETE_LOCK_IRP_ROUTINE
 tech.root: ifsk
 title: PCOMPLETE_LOCK_IRP_ROUTINE
-ms.date: 03/13/2023
+ms.date: 03/20/2023
 targetos: Windows
 description: Learn more about the PCOMPLETE_LOCK_IRP_ROUTINE callback function.
 prerelease: false
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-A file system filter driver (legacy filter) can register a PCOMPLETE_LOCK_IRP_ROUTINE-typed routine as the filter's *CompleteLockIrpRoutine* callback.
+A file system filter driver (legacy filter) can register a **PCOMPLETE_LOCK_IRP_ROUTINE**-typed routine as the filter's *CompleteLockIrpRoutine* callback.
 
 ## -parameters
 
@@ -91,4 +91,4 @@ If the legacy filter specifies a *CompleteLockIrpRoutine* routine for a file loc
 
 [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control)
 
-[**PUNLOCK_ROUTINE**](/windows-hardware/drivers/ifs/punlock-routine)
+[**PUNLOCK_ROUTINE**](nc-ntifs-punlock_routine.md)
