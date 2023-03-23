@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_VALIDATESUBMITCOMMAND
-title: _DXGKARG_VALIDATESUBMITCOMMAND (d3dkmddi.h)
-description: Arguments used in the call to DXGKDDI_VALIDATESUBMITCOMMAND.
-ms.date: 10/19/2018
+title: DXGKARG_VALIDATESUBMITCOMMAND (d3dkmddi.h)
+description: Learn more about the DXGKARG_VALIDATESUBMITCOMMAND structure.
+ms.date: 03/23/2023
 keywords: ["DXGKARG_VALIDATESUBMITCOMMAND structure"]
 ms.keywords: _DXGKARG_VALIDATESUBMITCOMMAND, DXGKARG_VALIDATESUBMITCOMMAND, *INOUT_PDXGKARG_VALIDATESUBMITCOMMAND
 req.header: d3dkmddi.h
@@ -39,55 +39,59 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_VALIDATESUBMITCOMMAND structure
-
+# DXGKARG_VALIDATESUBMITCOMMAND structure
 
 ## -description
 
-Arguments used in the call to [DXGKDDI_VALIDATESUBMITCOMMAND](nc-d3dkmddi-dxgkddi_validatesubmitcommand.md).
+The **DXGKARG_VALIDATESUBMITCOMMAND** structure contains arguments used in the call to [**DXGKDDI_VALIDATESUBMITCOMMAND**](nc-d3dkmddi-dxgkddi_validatesubmitcommand.md).
 
 ## -struct-fields
 
 ### -field Commands
 
-GPU virtual address of the command buffer.
+[in] The GPU virtual address of the start of the command buffer.
 
 ### -field CommandLength
 
-Command length.
+[in] Length of the command buffer, in bytes.
 
 ### -field Flags
 
-**HardwareQueueSubmission** is set to TRUE when [DXGKDDI_VALIDATESUBMITCOMMAND](nc-d3dkmddi-dxgkddi_validatesubmitcommand.md) is called from [DxgkDdiSubmitCommandToHwQueue](nc-d3dkmddi-dxgkddi_submitcommandtohwqueue.md). Otherwise, it is called from [D3DKMTSubmitCommand](nc-d3dkmddi-dxgkddi_submitcommand.md).
+[in] A [**DXGK_VALIDATESUBMITCOMMANDFLAGS**](ns-d3dkmddi-_dxgk_validatesubmitcommandflags.md) value with flags needed to validate the submit command.
 
 ### -field ContextCount
 
-Number of valid handles in the Context array.
+[in] Number of valid handles in the **Context** array.
 
 ### -field Context
 
-Array of driver context handles when **Flags.HardwareQueueSubmission** is 0. An array of driver hardware queue handles when **Flags.HardwareQueueSubmission** is 1.
+[in] Array of handles to the contexts associated with **Commands**. The handle type is determined as follows.
+
+* **Context** is an array of driver context handles when **Flags.HardwareQueueSubmission** is 0.
+* **Context** is an array of driver hardware queue handles when **Flags.HardwareQueueSubmission** is 1.
 
 ### -field pPrivateDriverData
 
-Pointer to the private data, passed to D3DKMTSubmitCommand. This a copy of the buffer and the pointer is kernel mode.
+[in/out,optional] Pointer to the private data that was passed to [**D3DKMTSubmitCommand**](../d3dkmthk/nf-d3dkmthk-d3dkmtsubmitcommand.md). This a copy of the buffer and the pointer is a kernel-mode pointer. See Remarks.
 
 ### -field PrivateDriverDataSize
 
-The total size in bytes of the private data buffer.
+[in] The total size in bytes of the private data buffer.
 
 ### -field UmdPrivateDataSize
 
-Portion of the private data buffer in bytes, passed from user mode.
-
-The portion of the buffer, which is not passed from user mode, is not initialized. The kernel mode driver could use this portion to store its own data, which can be consumed in [DxgkDdiSubmitCommandVirtual](nc-d3dkmddi-dxgkddi_submitcommandvirtual.md).
+[in] Number of bytes of the private data buffer passed from user mode. See Remarks.
 
 ### -field HwQueueProgressFenceId
 
- 
-Valid only when **Flags.HardwareQueueSubmission** is set.
+[in] Identifier that represents the hardware queue progress fence. The driver should use this identifier to ensure that the command buffer has not previously been executed by the GPU when **Flags.HardwareQueueSubmission** is set.
 
 ## -remarks
 
+The portion of **pPrivateDriverData**'s buffer that is not passed from user mode is uninitialized. The kernel-mode driver can use this portion to store its own data, which can be consumed in [**DxgkDdiSubmitCommandVirtual**](nc-d3dkmddi-dxgkddi_submitcommandvirtual.md).
+
 ## -see-also
 
+[**D3DKMTSubmitCommand**](../d3dkmthk/nf-d3dkmthk-d3dkmtsubmitcommand.md)
+
+[**DXGKDDI_VALIDATESUBMITCOMMAND**](nc-d3dkmddi-dxgkddi_validatesubmitcommand.md).
