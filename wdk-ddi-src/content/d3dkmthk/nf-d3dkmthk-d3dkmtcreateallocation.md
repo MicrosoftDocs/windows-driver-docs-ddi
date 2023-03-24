@@ -1,9 +1,8 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateAllocation
 title: D3DKMTCreateAllocation function (d3dkmthk.h)
-description: The D3DKMTCreateAllocation function creates or adds allocations of system or video memory. The allocations can be standalone or associated with a resource.
-old-location: display\d3dkmtcreateallocation.htm
-ms.date: 04/01/2021
+description: Learn more about the D3DKMTCreateAllocation function.
+ms.date: 03/22/2023
 keywords: ["D3DKMTCreateAllocation function"]
 ms.keywords: D3DKMTCreateAllocation, D3DKMTCreateAllocation callback function [Display Devices], OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, PFND3DKMT_CREATEALLOCATION, PFND3DKMT_CREATEALLOCATION callback, d3dkmthk/D3DKMTCreateAllocation, display.d3dkmtcreateallocation
 req.header: d3dkmthk.h
@@ -44,23 +43,20 @@ api_name:
 
 ## -description
 
-The **D3DKMTCreateAllocation** function creates allocations of system or video memory.
+The **D3DKMTCreateAllocation** function creates or adds allocations of system or video memory. User-mode graphics clients should call [**D3DKMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md) instead.
 
 ## -parameters
 
 ### -param unnamedParam1
 
-*pData* [in, out]
-
-A pointer to a [**D3DKMT_CREATEALLOCATION**](ns-d3dkmthk-_d3dkmt_createallocation.md) structure that contains information for creating allocations.
+[in, out] **pData**: A pointer to a [**D3DKMT_CREATEALLOCATION**](ns-d3dkmthk-_d3dkmt_createallocation.md) structure that contains information for creating allocations.
 
 ## -returns
 
-**D3DKMTCreateAllocation** returns an NTSTATUS code such as one of the following values:
+**D3DKMTCreateAllocation** returns STATUS_SUCCESS if the operation succeeds. Otherwise, it might return an [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) code such as one of the following values:
 
 | Return code | Description |
 | ----------- | ----------- |
-| STATUS_SUCCESS            | Allocations were successfully created. |
 | STATUS_DEVICE_REMOVED     | The graphics adapter was stopped or the display device was reset. |
 | STATUS_INVALID_PARAMETER  | Parameters were validated and determined to be incorrect. |
 | STATUS_NO_MEMORY          | This routine could not complete because of insufficient system memory. |
@@ -68,11 +64,15 @@ A pointer to a [**D3DKMT_CREATEALLOCATION**](ns-d3dkmthk-_d3dkmt_createallocatio
 
 ## -remarks
 
-The OpenGL ICD uses the **D3DKMTCreateAllocation** function to create allocations and resources. An allocation can be associated with a resource, or an allocation can stand alone. The **D3DKMTCreateAllocation** function can also be used to add additional allocations to a resource at anytime. The only restrictions are that all shared allocations must be associated with a resource and additional allocations cannot be added to an existing shared resource.
+A user-mode graphics client can call **D3DKMTCreateAllocation** to create allocations and resources. An allocation can be associated with a resource or it can stand alone.
+
+**D3DKMTCreateAllocation** can also be called to add additional allocations to a resource at anytime. The only restrictions are that all shared allocations must be associated with a resource and additional allocations cannot be added to an existing shared resource.
+
+Windows Subsystem for Linux (WSL) doesn't support **D3DKMTCreateAllocation**, which is one reason why graphics clients should use [**D3DKMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md).
 
 ### Examples
 
-The following code example demonstrates how an OpenGL ICD can use **D3DKMTCreateAllocation** to create a stand-alone allocation in video memory that is not associated with a resource.
+The following code example demonstrates how a user-mode graphics client can use **D3DKMTCreateAllocation** to create a stand-alone allocation in video memory that is not associated with a resource.
 
 ```c
 D3DKMT_HANDLE CreateStandAloneAllocation(D3DKMT_HANDLE hDevice, VOID* pPrivateAllocationInfo, UINT Size)
@@ -97,7 +97,7 @@ D3DKMT_HANDLE CreateStandAloneAllocation(D3DKMT_HANDLE hDevice, VOID* pPrivateAl
 }
 ```
 
-The following code example demonstrates how an OpenGL ICD can use **D3DKMTCreateAllocation** to create a resource with a single system memory allocation.
+The following code example demonstrates how a user-mode graphics client can use **D3DKMTCreateAllocation** to create a resource with a single system memory allocation.
 
 ```c
 HRESULT CreateSysmemResource(D3DKMT_HANDLE hDevice, 
@@ -148,3 +148,5 @@ HRESULT CreateSysmemResource(D3DKMT_HANDLE hDevice,
 ## -see-also
 
 [**D3DKMT_CREATEALLOCATION**](ns-d3dkmthk-_d3dkmt_createallocation.md)
+
+[**D3DKMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md)
