@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The **D3DDDI_ALLOCATIONINFO** structure describes an allocation for WDDM v1. User-mode graphics clients should use [**D3DDDI_ALLOCATIONINFO2**](d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo2.md) instead.
+The **D3DDDI_ALLOCATIONINFO** structure describes an allocation for WDDM v1. User-mode graphics clients should use [**D3DDDI_ALLOCATIONINFO2**](ns-d3dukmdt-_d3dddi_allocationinfo2.md) instead.
 
 ## -struct-fields
 
@@ -120,9 +120,9 @@ The D3DDDI_ID_NOTAPPLICABLE constant is defined in *D3dukmdt.h*.
 
 [**D3DDDICB_ALLOCATE**](../d3dumddi/ns-d3dumddi-_d3dddicb_allocate.md)
 
-[**D3DDDI_ALLOCATIONINFO2**](d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo2.md)
+[**D3DDDI_ALLOCATIONINFO2**]((ns-d3dukmdt-_d3dddi_allocationinfo2.md))
 
-[**D3DDDI_SURFACEINFO**](../d3dukmdt/ns-d3dukmdt-_d3dddi_surfaceinfo.md)
+[**D3DDDI_SURFACEINFO**](ns-d3dukmdt-_d3dddi_surfaceinfo.md)
 
 [**D3DKMDDI_SHAREDPRIMARYSURFACEDATA**](../d3dkmdt/ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md)
 

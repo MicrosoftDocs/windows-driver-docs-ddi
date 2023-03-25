@@ -54,13 +54,13 @@ The **DXGKARG_SUBMITCOMMAND** structure describes the direct memory access (DMA)
 
 [in] If the driver is not multiple-engine aware (that is, the driver does not support context creation), **hDevice** is a handle to the display device (graphics context) that the submission request originated from. A device handle is supplied to the driver's [**DxgkDdiSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md) function in the union that **DXGKARG_SUBMITCOMMAND** contains.
 
-For some paging operations, **hDevice** is NULL (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the [**Paging**]([**DXGK_SUBMITCOMMANDFLAGS**](ns-d3dkmddi-_dxgk_submitcommandflags.md)) bit-field flag in the **Flags** member.
+For some paging operations, **hDevice** is NULL (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the [**Paging**](ns-d3dkmddi-_dxgk_submitcommandflags.md) bit-field flag in the **Flags** member.
 
 ### -field hContext
 
 [in] If the driver is multiple-engine aware (that is, the driver supports context creation), a handle to the device context that the submission request originated from. A context handle is supplied to the driver's [**DxgkDdiSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md) function in the union that **DXGKARG_SUBMITCOMMAND** contains.
 
-For some paging operations, **hContext** is NULL (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the [**Paging**]([**DXGK_SUBMITCOMMANDFLAGS**](ns-d3dkmddi-_dxgk_submitcommandflags.md)) bit-field flag in the **Flags** member.
+For some paging operations, **hContext** is NULL (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the [**Paging**](ns-d3dkmddi-_dxgk_submitcommandflags.md) bit-field flag in the **Flags** member.
 
 ### -field DmaBufferSegmentId
 
