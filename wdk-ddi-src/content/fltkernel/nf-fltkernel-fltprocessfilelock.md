@@ -50,7 +50,7 @@ The **FltProcessFileLock** routine processes and completes a file lock operation
 
 ### -param FileLock [in]
 
-Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md) or [**FltInitializeFileLock**](nf-fltkernel-fltinitializefilelock.md).
+Pointer to the [**FILE_LOCK**](../ntifs/ns-ntifs-file_lock.md) structure for the file. This structure must have been initialized by a previous call to [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md) or [**FltInitializeFileLock**](nf-fltkernel-fltinitializefilelock.md).
 
 ### -param CallbackData [in]
 
@@ -74,9 +74,9 @@ Context pointer to be used when completing the operation. This context pointer i
 
 **FltProcessFileLock** processes a file lock ([**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control)) operation. The lock operation can be a fast I/O or IRP-based operation.
 
-For unlock operations, the Filter Manager calls the **UnlockRoutine** ([**PUNLOCK_ROUTINE**](../ntifs/nc-ntifs-punlock_routine.md) callback routine that the caller registered for the [**FILE_LOCK**](/windows-hardware/drivers/ifs/file-lock) structure in a previous call to [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md).
+For unlock operations, the Filter Manager calls the [**UnlockRoutine**](../ntifs/nc-ntifs-punlock_routine.md) callback routine that the caller registered for the [**FILE_LOCK**](../ntifs/ns-ntifs-file_lock.md) structure in a previous call to [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md).
 
-When the lock operation is completed, the Filter Manager calls the **CompleteLockCallbackDataRoutine** ([**PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE**](nc-fltkernel-pflt_complete_lock_callback_data_routine.md)) completion callback routine that the caller registered for the [**FILE_LOCK**](/windows-hardware/drivers/ifs/file-lock) structure in a previous call to [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md).
+When the lock operation is completed, the Filter Manager calls the **CompleteLockCallbackDataRoutine** ([**PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE**](nc-fltkernel-pflt_complete_lock_callback_data_routine.md)) completion callback routine that the caller registered for the [**FILE_LOCK**](../ntifs/ns-ntifs-file_lock.md) structure in a previous call to [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md).
 
 When the **CallbackData** parameter passed to **FltProcessFileLock** represents a fast I/O operation, the callback specified in **CompleteLockCallbackDataRoutine** parameter of the [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md) routine is not invoked. Only when the I/O operation in **CallbackData** is an IRP, and **CompleteLockCallbackDataRoutine** is not NULL, will the callback routine be called.
 
@@ -84,11 +84,11 @@ To determine whether the **CallbackData** represents a fast I/O operation, use t
 
 To allocate and initialize a new file lock structure, call [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md).
 
-To free an initialized [**FILE_LOCK**](/windows-hardware/drivers/ifs/file-lock) structure, call [**FltFreeFileLock**](nf-fltkernel-fltfreefilelock.md).
+To free an initialized [**FILE_LOCK**](../ntifs/ns-ntifs-file_lock.md) structure, call [**FltFreeFileLock**](nf-fltkernel-fltfreefilelock.md).
 
 ## -see-also
 
-[**FILE_LOCK**](/windows-hardware/drivers/ifs/file-lock)
+[**FILE_LOCK**](../ntifs/ns-ntifs-file_lock.md)
 
 [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)
 

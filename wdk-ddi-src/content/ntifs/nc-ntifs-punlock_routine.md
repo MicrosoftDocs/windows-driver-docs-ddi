@@ -62,7 +62,7 @@ A filter (legacy filter or minifilter) can optionally specify a PUNLOCK_ROUTINE-
 
 If the filter specifies a *UnlockRoutine* routine for a FILE_LOCK structure, this routine is called when the lock is removed from a locked byte range in a file.
 
-A minifilter specifies this routine by passing a pointer to the routine as the *UnlockRoutine* parameter for [**FltAllocateFileLock**](../fltkernel/nf-fltkernel-fltallocatefilelock).
+A minifilter specifies this routine by passing a pointer to the routine as the *UnlockRoutine* parameter for [**FltAllocateFileLock**](../fltkernel/nf-fltkernel-fltallocatefilelock.md).
 
 A legacy filter specifies this routine by passing a pointer to the routine as the *UnlockRoutine* parameter for [**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
 
@@ -98,6 +98,6 @@ A legacy filter specifies this routine by passing a pointer to the routine as th
 
 [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control)
 
-[**PCOMPLETE_LOCK_IRP_ROUTINE**](nc-ntifs-pcomplete-lock-irp-routine.md)
+[**PCOMPLETE_LOCK_IRP_ROUTINE**](nc-ntifs-pcomplete_lock_irp_routine.md)
 
 [**PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE**](../fltkernel/nc-fltkernel-pflt_complete_lock_callback_data_routine.md)
