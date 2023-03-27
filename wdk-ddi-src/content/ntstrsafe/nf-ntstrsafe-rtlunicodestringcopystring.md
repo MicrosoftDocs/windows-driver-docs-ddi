@@ -76,7 +76,7 @@ A pointer to a null-terminated string. This string will be copied into the buffe
 </dl>
 </td>
 <td width="60%">
-This <i>success</i> status means that source data was present, the string was copied without truncation.
+This <i>success</i> status means that source data was present and the string was copied without truncation.
 
 </td>
 </tr>
