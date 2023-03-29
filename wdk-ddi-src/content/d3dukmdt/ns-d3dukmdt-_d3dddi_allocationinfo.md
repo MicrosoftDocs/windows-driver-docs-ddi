@@ -120,7 +120,7 @@ The D3DDDI_ID_NOTAPPLICABLE constant is defined in *D3dukmdt.h*.
 
 [**D3DDDICB_ALLOCATE**](../d3dumddi/ns-d3dumddi-_d3dddicb_allocate.md)
 
-[**D3DDDI_ALLOCATIONINFO2**]((ns-d3dukmdt-_d3dddi_allocationinfo2.md))
+[**D3DDDI_ALLOCATIONINFO2**](ns-d3dukmdt-_d3dddi_allocationinfo2.md)
 
 [**D3DDDI_SURFACEINFO**](ns-d3dukmdt-_d3dddi_surfaceinfo.md)
 
