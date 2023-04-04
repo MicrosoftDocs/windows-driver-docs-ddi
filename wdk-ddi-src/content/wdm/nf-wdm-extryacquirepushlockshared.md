@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: WIN11_NEXT
+req.target-min-winverclnt: Windows Insider Preview WDK (Canary) - Build 25330
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
