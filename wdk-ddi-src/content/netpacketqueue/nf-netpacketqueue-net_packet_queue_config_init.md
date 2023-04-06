@@ -61,7 +61,7 @@ A pointer to the client driver's implementation of the [*EVT_PACKET_QUEUE_SET_NO
 
 ### -param EvtCancel [_In_]
 
-A pointer to the client driver's implementation of the [*EVT_PACKET_QUEUE_CANCEL*](nc-netpacketqueue-evt_packet_queue_advance.md) callback function for this packet queue.
+A pointer to the client driver's implementation of the [*EVT_PACKET_QUEUE_CANCEL*](nc-netpacketqueue-evt_packet_queue_cancel.md) callback function for this packet queue.
 
 ## -remarks
 
