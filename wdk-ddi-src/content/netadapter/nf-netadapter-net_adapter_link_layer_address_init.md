@@ -51,7 +51,7 @@ The **NET_ADAPTER_LINK_LAYER_ADDRESS_INIT** function initializes a link layer ad
 
 ### -param LinkLayerAddress [_Out_]
 
-A pointer to the driver-allocated NET_ADAPTER_LINK_LAYER_ADDRESS to be initialized.
+A pointer to the driver-allocated [NET_ADAPTER_LINK_LAYER_ADDRESS](ns-netadapter-net_adapter_link_layer_address.md) structure to be initialized.
 
 ### -param Length [_In_range_(1,32)]
 
@@ -67,3 +67,4 @@ A pointer to the buffer containing the link layer address.
 
 ## -see-also
 
+[NET_ADAPTER_LINK_LAYER_ADDRESS](ns-netadapter-net_adapter_link_layer_address.md)
