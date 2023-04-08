@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>KSAUDIOMODULE_DESCRIPTOR</b> structure describes the static, external  properties of the audio modules.
+The <b>KSAUDIOMODULE_PROPERTY</b> structure describes the static, external  properties of the audio modules.
 
 ## -struct-fields
 
