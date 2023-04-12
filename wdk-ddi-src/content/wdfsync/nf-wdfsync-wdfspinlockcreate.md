@@ -106,9 +106,10 @@ status = WdfSpinLockCreate(
 <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a>
 
 
+<a href="/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfspinlockacquire">WdfSpinLockAcquire</a>
 
-<a href="/previous-versions/windows/hardware/drivers/ff550040(v=vs.85)">WdfSpinLockAcquire</a>
+<a href="/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfspinlockrelease">WdfSpinLockRelease</a>
 
+[WdfSpinlock rule (KMDF)](/windows-hardware/drivers/devtest/kmdf-wdfspinlock)
 
-
-<a href="/previous-versions/windows/hardware/drivers/ff550044(v=vs.85)">WdfSpinLockRelease</a>
+[WdfSpinLockRelease rule (KMDF)](/windows-hardware/drivers/devtest/kmdf-wdfspinlockrelease)
