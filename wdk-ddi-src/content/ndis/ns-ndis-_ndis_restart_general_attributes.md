@@ -120,9 +120,7 @@ The medium access control (MAC) options for the miniport adapter. For more infor
 
 ### -field SupportedPacketFilters
 
-The packet filter flags for the miniport adapter. For more information, see 
-     <a href="/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
-     OID_GEN_SUPPORTED_PACKET_FILTERS</a>.
+The packet filter flags for the miniport adapter.
 
 ### -field MaxMulticastListSize
 
@@ -279,10 +277,6 @@ If the
 
 <a href="/windows-hardware/drivers/network/oid-gen-supported-list">OID_GEN_SUPPORTED_LIST</a>
 
-
-
-<a href="/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
-   OID_GEN_SUPPORTED_PACKET_FILTERS</a>
 
 
 

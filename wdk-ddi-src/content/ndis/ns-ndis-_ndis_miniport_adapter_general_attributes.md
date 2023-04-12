@@ -161,9 +161,7 @@ The MAC options for the miniport adapter. For more information, see
 
 ### -field SupportedPacketFilters
 
-The packet filter flags for the miniport adapter. For more information, see 
-     <a href="/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
-     OID_GEN_SUPPORTED_PACKET_FILTERS</a>.
+The packet filter flags for the miniport adapter.
 
 ### -field MaxMulticastListSize
 
@@ -570,10 +568,6 @@ A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTE
 
 <a href="/windows-hardware/drivers/network/oid-gen-supported-list">OID_GEN_SUPPORTED_LIST</a>
 
-
-
-<a href="/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
-   OID_GEN_SUPPORTED_PACKET_FILTERS</a>
 
 
 

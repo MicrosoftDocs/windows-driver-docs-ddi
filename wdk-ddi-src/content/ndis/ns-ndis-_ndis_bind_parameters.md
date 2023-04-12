@@ -195,10 +195,7 @@ The Plug and Play capabilities of the underlying miniport adapter. For more info
 
 ### -field SupportedPacketFilters
 
-A set of flags that identify the types of network packets that the underlying miniport adapter can
-     filter. For more information, see 
-     <a href="/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
-     OID_GEN_SUPPORTED_PACKET_FILTERS</a>.
+A set of flags that identify the types of network packets that the underlying miniport adapter can filter.
 
 ### -field MaxMulticastListSize
 
@@ -528,11 +525,6 @@ NDIS passes a pointer to an NDIS_BIND_PARAMETERS structure in the
 
 <a href="/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
    OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
-
-
-
-<a href="/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
-   OID_GEN_SUPPORTED_PACKET_FILTERS</a>
 
 
 
