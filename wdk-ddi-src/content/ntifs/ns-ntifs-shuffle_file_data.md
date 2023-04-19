@@ -53,11 +53,17 @@ helpviewer_keywords:
 
 ### -field StartingOffset
 
-Cluster-aligned byte offset of the base of the contiguous region to shuffle into the file.
+Cluster-aligned byte offset of the base of the contiguous region from which to add or remove data in the file passed with the FS control code.
 
 ### -field Length
 
-Cluster-aligned length in bytes of the data to be shuffled into the file.
+Cluster-aligned length in bytes of the data to be added or removed. **Length** can be one of the following values.
+
+| Value | Meaning |
+| ----- | ------- |
+| Greater than 0 | Add the allocation to the file. |
+| Less than 0    | Remove the allocation from the file. |
+| 0              | Do nothing. |
 
 ### -field Flags
 
@@ -65,7 +71,7 @@ Bitwise OR of flags for the shuffle operation. **Flags** be the following value.
 
 | Value | Meaning |
 | ----- | ------- |
-| SHUFFLE_FILE_FLAG_SKIP_INITIALIZING_NEW_CLUSTERS (0x001) | Don't zero-initialize any new clusters created as a result of the shuffle. |
+| SHUFFLE_FILE_FLAG_SKIP_INITIALIZING_NEW_CLUSTERS (0x001) | Valid only when adding allocation. When set, free clusters are allocated and added but have arbitrary initial contents (they are not zero-initialized). |
 
 ## -see-also
 
