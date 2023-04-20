@@ -73,7 +73,7 @@ Set to zero.
 | Return code | Meaning |
 | ----------- | ------- |
 | STATUS_ACCESS_DENIED         | For various reasons, including only kernel-mode calls are allowed, or the volume is locked. |
-| STATUS_BUFFER_TOO_SMALL      | The specified input buffer length is smaller than sizeof(REARRANGE_FILE_DATA). |
+| STATUS_BUFFER_TOO_SMALL      | The specified input buffer length is smaller than sizeof(SHUFFLE_FILE_DATA). |
 | STATUS_MEDIA_WRITE_PROTECTED | Shuffling is not allowed on a read-only volume. |
 
 ## -remarks

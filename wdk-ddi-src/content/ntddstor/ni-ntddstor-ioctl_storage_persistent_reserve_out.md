@@ -73,7 +73,7 @@ PR_OUT.Type can be one of the following:
 * RESERVATION_TYPE_WRITE_EXCLUSIVE_REGISTRANTS
 * RESERVATION_TYPE_EXCLUSIVE_REGISTRANTS
 
-PR_OUT.ParameterList is used to hold the [**PRO_PARAMETER_LIST**](ns-minitape-pro_parameter_list.md) structure. This structure is required and must be contiguous with the rest of the [**PERSISTENT_RESERVE_COMMAND**](ns-ntddstor-_persistent_reserve_command.md) structure.
+PR_OUT.ParameterList is used to hold the [**PRO_PARAMETER_LIST**](../storport/ns-storport-pro_parameter_list.md) structure. This structure is required and must be contiguous with the rest of the [**PERSISTENT_RESERVE_COMMAND**](ns-ntddstor-_persistent_reserve_command.md) structure.
 
 ### -input-buffer-length
 
@@ -100,19 +100,9 @@ The **Status** field is set to one of the following values.
 | Value | Meaning |
 | ----- | ------- |
 | STATUS_DEVICE_BUSY (ERROR_BUSY) | The command failed because of a Reservation Conflict (for more information, see the SCSI Primary Commands - 2 (SPC-2) specification). |
-STATUS_INFO_LENGTH_MISMATCH | The input buffer length for the IOCTL is less than sizeof(PERSISTENT_RESERVE_COMMAND) or the size that is specified in the [**PERSISTENT_RESERVE_COMMAND**](ns-ntddstor-_persistent_reserve_command.md) data structure is less than sizeof(PERSISTENT_RESERVE_COMMAND).
-STATUS_INVALID_DEVICE_REQUEST (ERROR_INVALID_FUNCTION)**
-
-The I/O control code (IOCTL_STORAGE_PERSISTENT_RESERVE_OUT) is not supported by the storage drivers.
-STATUS_INVALID_PARAMETER (ERROR_INVALID_PARAMETER)**
-
-The input buffer structure is incorrectly sized or populated.
-STATUS_INVALID_USER_BUFFER (ERROR_INVALID_USER_BUFFER)**
-
-The input buffer is not aligned correctly for the device or adapter.  This status could only be returned when a driver sends an IOCTL to the storage stack.  This status will not be returned when a user-mode application sends the IOCTL through the DeviceIoControl API as the I/O Manager automatically aligns the buffers.
-STATUS_IO_DEVICE_ERROR (ERROR_IO_DEVICE)**
-
-The device does not support the Persistent Reserve Out command.
-STATUS_SUCCESS**
-
-The operation was successful.
+| STATUS_INFO_LENGTH_MISMATCH | The input buffer length for the IOCTL is less than sizeof(PERSISTENT_RESERVE_COMMAND) or the size that is specified in the [**PERSISTENT_RESERVE_COMMAND**](ns-ntddstor-_persistent_reserve_command.md) data structure is less than sizeof(PERSISTENT_RESERVE_COMMAND). |
+| STATUS_INVALID_DEVICE_REQUEST (ERROR_INVALID_FUNCTION) | The I/O control code (IOCTL_STORAGE_PERSISTENT_RESERVE_OUT) is not supported by the storage drivers. |
+| STATUS_INVALID_PARAMETER (ERROR_INVALID_PARAMETER) | The input buffer structure is incorrectly sized or populated. |
+| STATUS_INVALID_USER_BUFFER (ERROR_INVALID_USER_BUFFER) | The input buffer is not aligned correctly for the device or adapter.  This status can only be returned when a driver sends an IOCTL to the storage stack. This status isn't returned when a user-mode application sends the IOCTL through the **DeviceIoControl** API as the I/O Manager automatically aligns the buffers. |
+| STATUS_IO_DEVICE_ERROR (ERROR_IO_DEVICE) | The device does not support the Persistent Reserve Out command. |
+| STATUS_SUCCESS | The operation was successful. |
