@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.NtCreateFile
 title: NtCreateFile function (ntifs.h)
-description: The NtCreateFile routine creates a new file or opens an existing file.
+description: Learn more about the NtCreateFile function.
 old-location: kernel\zwcreatefile.htm
 tech.root: kernel
 ms.date: 05/24/2022
@@ -174,7 +174,7 @@ Specifies the options to apply when the driver creates or opens the file. Use on
 | FILE_OPEN_REPARSE_POINT (0x00200000) | Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. |
 | FILE_OPEN_NO_RECALL (0x00400000) | Instructs any filters that perform offline storage or virtualization to not recall the contents of the file as a result of this open. |
 | FILE_OPEN_FOR_FREE_SPACE_QUERY (0x00800000) | This flag instructs the file system to capture the user associated with the calling thread. Any subsequent calls to FltQueryVolumeInformation or ZwQueryVolumeInformationFile using the returned handle will assume the captured user, rather than the calling user at the time, for purposes of computing the free space available to the caller. This applies to the following FsInformationClass values: FileFsSizeInformation, FileFsFullSizeInformation, and FileFsFullSizeInformationEx. |
-| FILE_CONTAINS_EXTENDED_CREATE_INFORMATION (0x10000000) | Interpret the **EaBuffer** parameter as an instance of [**EXTENDED_CREATE_INFORMATION**](../wdm/ns-ntifs-extended_create_information.md). This flag is available starting in Windows 11, version 22H2. |
+| FILE_CONTAINS_EXTENDED_CREATE_INFORMATION (0x10000000) | Interpret the **EaBuffer** parameter as an instance of [**EXTENDED_CREATE_INFORMATION**](../wdm/ns-wdm-extended_create_information.md). This flag is available starting in Windows 11, version 22H2. |
 
 ### -param EaBuffer [in, optional]
 
@@ -195,7 +195,7 @@ For device and intermediate drivers, this parameter must be zero.
 
 **NtCreateFile** supplies a handle that the caller can use to manipulate a file's data, or the file object's state and attributes. For more information, see [Using Files in a Driver](/windows-hardware/drivers/kernel/using-files-in-a-driver).
 
-Once the handle pointed to by *FileHandle* is no longer in use, the driver must call [NtClose](./nf-ntifs-ntclose.md) to close it.
+Once the handle pointed to by *FileHandle* is no longer in use, the driver must call [NtClose](nf-ntifs-ntclose.md) to close it.
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see [Object Handles](/windows-hardware/drivers/kernel/object-handles).
 
@@ -228,10 +228,10 @@ The FILE_DIRECTORY_FILE *CreateOptions* value specifies that the file to be crea
 
 The FILE_NO_INTERMEDIATE_BUFFERING *CreateOptions* flag prevents the file system from performing any intermediate buffering on behalf of the caller. Specifying this flag places the following restrictions on the caller's parameters to other **Zw*Xxx*File** routines.
 
-* Any optional *ByteOffset* passed to [NtReadFile](./nf-ntifs-ntreadfile.md) or [NtWriteFile](./nf-ntifs-ntwritefile.md) must be a multiple of the sector size.
+* Any optional *ByteOffset* passed to [NtReadFile](nf-ntifs-ntreadfile.md) or [NtWriteFile](nf-ntifs-ntwritefile.md) must be a multiple of the sector size.
 * The *Length* passed to **NtReadFile** or **NtWriteFile** must be an integral of the sector size. Note that specifying a read operation to a buffer whose length is exactly the sector size might result in a lesser number of significant bytes being transferred to that buffer if the end of the file was reached during the transfer.
-* Buffers must be aligned in accordance with the alignment requirement of the underlying device. To obtain this information, call **NtCreateFile** to get a handle for the file object that represents the physical device, and pass that handle to [NtQueryInformationFile](./nf-ntifs-ntqueryinformationfile.md). For a list of the system's FILE_*XXX*_ALIGNMENT values, see [DEVICE_OBJECT](../wdm/ns-wdm-_device_object.md).
-* Calls to [NtSetInformationFile](./nf-ntifs-ntsetinformationfile.md) with the *FileInformationClass* parameter set to **FilePositionInformation** must specify an offset that is a multiple of the sector size.
+* Buffers must be aligned in accordance with the alignment requirement of the underlying device. To obtain this information, call **NtCreateFile** to get a handle for the file object that represents the physical device, and pass that handle to [NtQueryInformationFile](nf-ntifs-ntqueryinformationfile.md). For a list of the system's FILE_*XXX*_ALIGNMENT values, see [DEVICE_OBJECT](../wdm/ns-wdm-_device_object.md).
+* Calls to [NtSetInformationFile](nf-ntifs-ntsetinformationfile.md) with the *FileInformationClass* parameter set to **FilePositionInformation** must specify an offset that is a multiple of the sector size.
 
 The FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT *CreateOptions* flags (which are mutually exclusive) specify that all I/O operations on the file will be synchronous, as long as the operations occur through the file object referred to by the returned *FileHandle*. All I/O on such a file is serialized across all threads using the returned handle. If either of these *CreateOptions* flags is set, the SYNCHRONIZE *DesiredAccess* flag must also be set to compel the I/O manager to use the file object as a synchronization object. In these cases, the I/O manager keeps track of the current file-position offset, which you can pass to **NtReadFile** and **NtWriteFile**. Call **NtQueryInformationFile** or **NtSetInformationFile** to get or set this position.
 
@@ -260,7 +260,7 @@ Step 3 makes this practical only for Filter oplocks. The handle opened in step 3
 
 NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
-For the *CreateOptions* FILE_OPEN_BY_FILE_ID flag, an example device name will have the format: 
+For the *CreateOptions* FILE_OPEN_BY_FILE_ID flag, an example device name will have the format:
 
 ```
 \??\C:\<FileID>
@@ -288,7 +288,7 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [DEVICE_OBJECT](../wdm/ns-wdm-_device_object.md)
 
-[**EXTENDED_CREATE_INFORMATION**](../wdm/ns-ntifs-extended_create_information.md)
+[**EXTENDED_CREATE_INFORMATION**](../wdm/ns-wdm-extended_create_information.md)
 
 [IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md)
 
