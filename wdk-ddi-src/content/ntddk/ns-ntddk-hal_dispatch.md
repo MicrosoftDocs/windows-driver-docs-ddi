@@ -2,7 +2,7 @@
 UID: NS:ntddk.HAL_DISPATCH
 tech.root: kernel
 title: HAL_DISPATCH (ntddk.h)
-ms.date: 03/07/2022
+ms.date: 04/17/2023
 targetos: Windows
 description: This topic describes the HAL_DISPATCH structure.
 prerelease: false
@@ -38,7 +38,7 @@ f1_keywords:
 dev_langs:
  - c++
 helpviewer_keywords:
- - __unnamed_struct_21
+ - HAL_DISPATCH
 ---
 
 ## -description
@@ -146,4 +146,3 @@ Defines the **pHalGetPrmCache** member **HalGetPrmCache**.
 ## -remarks
 
 ## -see-also
-

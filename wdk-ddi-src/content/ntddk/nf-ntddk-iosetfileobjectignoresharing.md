@@ -2,9 +2,8 @@
 UID: NF:ntddk.IoSetFileObjectIgnoreSharing
 title: IoSetFileObjectIgnoreSharing function (ntddk.h)
 description: The IoSetFileObjectIgnoreSharing routine sets a file object to ignore file sharing access checks.
-old-location: ifsk\iosetfileobjectignoresharing.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 04/20/2023
 keywords: ["IoSetFileObjectIgnoreSharing function"]
 ms.keywords: IoSetFileObjectIgnoreSharing, IoSetFileObjectIgnoreSharing routine [Installable File System Drivers], ifsk.iosetfileobjectignoresharing, ntddk/IoSetFileObjectIgnoreSharing
 req.header: ntddk.h
@@ -40,12 +39,9 @@ api_name:
  - IoSetFileObjectIgnoreSharing
 ---
 
-# IoSetFileObjectIgnoreSharing function
-
-
 ## -description
 
-The <b>IoSetFileObjectIgnoreSharing</b> routine sets a file object to ignore file  sharing access checks.
+The **IoSetFileObjectIgnoreSharing** routine sets a file object to ignore file  sharing access checks.
 
 ## -parameters
 
@@ -55,37 +51,13 @@ Pointer to a file object for the file.
 
 ## -returns
 
-<b>IoSetFileObjectIgnoreSharing</b> returns STATUS_SUCCESS or an appropriate NTSTATUS code such as one of the following: 
+**IoSetFileObjectIgnoreSharing** returns STATUS_SUCCESS or an appropriate NTSTATUS code such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-The option information for <i>FileObject</i> was not found. The status of sharing access checking cannot be set.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-The option information was not created for <i>FileObject</i>. The status of sharing access checking cannot be set.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|--|--|
+| **STATUS_NOT_FOUND** | The option information for *FileObject* was not found. The status of sharing access checking cannot be set. |
+| **STATUS_INSUFFICIENT_RESOURCES** | The option information was not created for *FileObject*. The status of sharing access checking cannot be set. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioisfileobjectignoringsharing">IoIsFileObjectIgnoringSharing</a>
+[IoIsFileObjectIgnoringSharing](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioisfileobjectignoringsharing)

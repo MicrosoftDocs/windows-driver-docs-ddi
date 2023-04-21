@@ -2,9 +2,8 @@
 UID: NF:ntddk.IoSetActivityIdIrp
 title: IoSetActivityIdIrp function (ntddk.h)
 description: The IoSetActivityIdIrp routine associates an activity ID with an IRP.
-old-location: kernel\iosetactivityidirp.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/20/2023
 keywords: ["IoSetActivityIdIrp function"]
 ms.keywords: IoSetActivityIdIrp, IoSetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iosetactivityidirp, ntddk/IoSetActivityIdIrp
 req.header: ntddk.h
@@ -40,9 +39,6 @@ api_name:
  - IoSetActivityIdIrp
 ---
 
-# IoSetActivityIdIrp function
-
-
 ## -description
 
 The IoSetActivityIdIrp routine associates an activity ID with an IRP.
@@ -51,11 +47,9 @@ The IoSetActivityIdIrp routine associates an activity ID with an IRP.
 
 ### -param Irp [in]
 
-
 The IRP to associate the activity ID with.
 
 ### -param Guid [in, optional]
-
 
 A pointer to the GUID that represents the ID to store in the IRP.  If NULL, IoSetActivityIdIrp attempts to retrieve the activity ID from the current thread if it was the thread that originally issued the request.
 
@@ -63,35 +57,11 @@ A pointer to the GUID that represents the ID to store in the IRP.  If NULL, IoSe
 
 IoSetActivityIdIrp returns STATUS_SUCCESS if the call is successful. Possible error return values include the following.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-No GUID was provided and the ETW activity ID was unavailable.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The I/O tracing provider has not been enabled on the IRP.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|--|--|
+| **STATUS_NOT_SUPPORTED** | No GUID was provided and the ETW activity ID was unavailable. |
+| **STATUS_UNSUCCESSFUL** | The I/O tracing provider has not been enabled on the IRP. |
 
 ## -remarks
 
-Drivers should use IoSetActivityIdIrp only on IRPs that have been allocated using <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp">IoAllocateIrp</a> (and freed using <a href="/windows-hardware/drivers/devtest/storport-iofreeirp">IoFreeIrp</a>). Otherwise, memory leakage may result.
+Drivers should use IoSetActivityIdIrp only on IRPs that have been allocated using [IoAllocateIrp](/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp) (and freed using [IoFreeIrp](/windows-hardware/drivers/devtest/storport-iofreeirp)). Otherwise, memory leakage may result.

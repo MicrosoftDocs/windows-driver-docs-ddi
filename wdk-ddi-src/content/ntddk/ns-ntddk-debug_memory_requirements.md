@@ -38,7 +38,7 @@ f1_keywords:
 dev_langs:
  - c++
 helpviewer_keywords:
- - __unnamed_struct_19
+ - DEBUG_MEMORY_REQUIREMENTS
 ---
 
 ## -description
@@ -74,4 +74,3 @@ Defines the **BOOLEAN** member **Aligned**.
 ## -remarks
 
 ## -see-also
-
