@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceInitialize
 tech.root: audio
 title: AcxDeviceInitialize
-ms.date: 01/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDeviceInitialize function initializes an audio class extension (ACX) device.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdevice.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -80,9 +80,14 @@ if (!NT_SUCCESS(status))
 }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
-* [ACX_DEVICE_CONFIG](ns-acxdevice-acx_device_config.md)
-* [ACX_DEVICE_CONFIG_INIT](nf-acxdevice-acx_device_config_init.md)
-* [acxdevice.h header](index.md)
-
+- [ACX_DEVICE_CONFIG](ns-acxdevice-acx_device_config.md)
+- [ACX_DEVICE_CONFIG_INIT](nf-acxdevice-acx_device_config_init.md)
+- [acxdevice.h header](index.md)

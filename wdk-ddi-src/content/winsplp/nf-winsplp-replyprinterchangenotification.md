@@ -47,7 +47,7 @@ The print spooler's **ReplyPrinterChangeNotification** function allows a print p
 
 ### -param hPrinter
 
-Caller-supplied handle. This handle must have been previously received as the *hNotify* input to the print provider's [FindFirstPrinterChangeNotification](/windows-hardware/drivers/ddi/winspool/nf-winspool-findfirstprinterchangenotification) function.
+Caller-supplied handle. This handle must have been previously received as the *hNotify* input to the print provider's [FindFirstPrinterChangeNotification](../winspool/nf-winspool-findfirstprinterchangenotification.md) function.
 
 ### -param fdwChangeFlags
 
@@ -67,16 +67,16 @@ If the operation succeeds, the function returns **TRUE**. Otherwise the function
 
 ## -remarks
 
-Print providers that do not support polling (see [FindFirstPrinterChangeNotification](/windows-hardware/drivers/ddi/winspool/nf-winspool-findfirstprinterchangenotification)) must notify the spooler of the occurrence of any events represented by the PRINTER_CHANGE_-prefixed flags received by the provider's **FindFirstPrinterChangeNotification** function. When an event occurs, the print provider can call **ReplyPrinterChangeNotification** to inform the spooler of the event and to supply information associated with the event. The spooler keeps track of this event information, for each notification handle, and delivers the information to an application when the application calls **FindNextPrinterChangeNotification** (described in the Windows SDK documentation).
+Print providers that do not support polling (see [FindFirstPrinterChangeNotification](../winspool/nf-winspool-findfirstprinterchangenotification.md)) must notify the spooler of the occurrence of any events represented by the PRINTER_CHANGE_-prefixed flags received by the provider's **FindFirstPrinterChangeNotification** function. When an event occurs, the print provider can call **ReplyPrinterChangeNotification** to inform the spooler of the event and to supply information associated with the event. The spooler keeps track of this event information, for each notification handle, and delivers the information to an application when the application calls **FindNextPrinterChangeNotification** (described in the Windows SDK documentation).
 
 When a print provider calls **ReplyPrinterChangeNotification**, it must identify the event that has occurred by setting a PRINTER_CHANGE_-prefixed flag in *fwdFlags* or by using *pPrinterNotifyInfo* to return a PRINTER_NOTIFY_INFO structure. (Use the flags listed in the Windows SDK documentation's description of **FindNextPrinterChangeNotification**--not the flags listed in the Windows SDK documentation's description of **FindFirstPrinterChangeNotification**.)
 
-Calling **ReplyPrinterChangeNotification** causes the spooler to signal the client application that a print queue event has occurred. This happens even if the provider supplies **NULL** for *pPrinterNotifyInfo*. To update the spooler's record of print queue changes without causing the client to be notified, use [PartialReplyPrinterChangeNotification](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-partialreplyprinterchangenotification). It is common to call **PartialReplyPrinterChangeNotification** several times to update the spooler's database, then to call **ReplyPrinterChangeNotification** to notify the client that changes have occurred.
+Calling **ReplyPrinterChangeNotification** causes the spooler to signal the client application that a print queue event has occurred. This happens even if the provider supplies **NULL** for *pPrinterNotifyInfo*. To update the spooler's record of print queue changes without causing the client to be notified, use [PartialReplyPrinterChangeNotification](./nf-winsplp-partialreplyprinterchangenotification.md). It is common to call **PartialReplyPrinterChangeNotification** several times to update the spooler's database, then to call **ReplyPrinterChangeNotification** to notify the client that changes have occurred.
 
 For additional information, see [Supporting Printer Change Notifications](/windows-hardware/drivers/print/supporting-printer-change-notifications).
 
 ## -see-also
 
-[FindFirstPrinterChangeNotification](/windows-hardware/drivers/ddi/winspool/nf-winspool-findfirstprinterchangenotification)
+[FindFirstPrinterChangeNotification](../winspool/nf-winspool-findfirstprinterchangenotification.md)
 
-[PartialReplyPrinterChangeNotification](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-partialreplyprinterchangenotification)
+[PartialReplyPrinterChangeNotification](./nf-winsplp-partialreplyprinterchangenotification.md)

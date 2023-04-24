@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **USERDATA** structure is used by [Unidrv](/windows-hardware/drivers/) and [Pscript](/windows-hardware/drivers/) to specify additional information about printer features. A **USERDATA** structure pointer is supplied as the **UserData** member for each [**OPTITEM**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) structure.
+The **USERDATA** structure is used by [Unidrv](/windows-hardware/drivers/) and [Pscript](/windows-hardware/drivers/) to specify additional information about printer features. A **USERDATA** structure pointer is supplied as the **UserData** member for each [**OPTITEM**](../compstui/ns-compstui-_optitem.md) structure.
 
 ## -struct-fields
 

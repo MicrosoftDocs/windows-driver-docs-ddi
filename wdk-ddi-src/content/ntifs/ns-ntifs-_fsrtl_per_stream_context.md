@@ -10,7 +10,7 @@ ms.keywords: "*PFSRTL_PER_STREAM_CONTEXT, FSRTL_PER_STREAM_CONTEXT, FSRTL_PER_ST
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
-req.target-min-winverclnt: This structure is available on Microsoft Windows XP and later.
+req.target-min-winverclnt: This structure is Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

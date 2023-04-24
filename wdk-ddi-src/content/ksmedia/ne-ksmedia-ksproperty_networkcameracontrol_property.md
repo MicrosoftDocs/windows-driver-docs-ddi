@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_93
+UID: NE:ksmedia.KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY
 title: KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY (ksmedia.h)
 description: The KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY enumeration defines the network camera control properties.
 tech.root: stream
@@ -73,3 +73,4 @@ Enumerates the network camera control event topics XML property.
 [KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER](ns-ksmedia-ksproperty_networkcameracontrol_ntpinfo_header.md)
 
 [KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE](ne-ksmedia-ksproperty_networkcameracontrol_ntpinfo_type.md)
+

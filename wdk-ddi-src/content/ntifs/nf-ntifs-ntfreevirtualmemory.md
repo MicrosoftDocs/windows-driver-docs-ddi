@@ -106,7 +106,7 @@ MEM_RELEASE
 <td>
 <b>NtFreeVirtualMemory</b> will release the specified region of pages. The pages enter the free state.
 
-If you specify this flag, *<i>RegionSize</i> must be zero, and *<i>BaseAddress</i> must point to the base address returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntallocatevirtualmemory">NtAllocateVirtualMemory</a> when the region was reserved. <b>NtFreeVirtualMemory</b> fails if either of these conditions is not met.
+If you specify this flag, **RegionSize* must be zero, and **BaseAddress* must point to the base address returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntallocatevirtualmemory">NtAllocateVirtualMemory</a> when the region was reserved. <b>NtFreeVirtualMemory</b> fails if either of these conditions is not met.
 
 If any pages in the region are currently committed, <b>NtFreeVirtualMemory</b> first decommits and then releases them.
 

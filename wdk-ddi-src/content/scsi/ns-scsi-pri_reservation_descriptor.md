@@ -1,10 +1,9 @@
 ---
-UID: NS:scsi.__unnamed_struct_10
+UID: NS:scsi.PRI_RESERVATION_DESCRIPTOR
 title: PRI_RESERVATION_DESCRIPTOR (scsi.h)
 description: The PRI_RESERVATION_DESCRIPTOR structure (scsi.h) describes a persistent reservation that is active within a device server.
-old-location: storage\pri_reservation_descriptor.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 09/19/2022
 keywords: ["PRI_RESERVATION_DESCRIPTOR structure"]
 ms.keywords: "*PPRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR structure pointer [Storage Devices], PRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR structure [Storage Devices], storage.pri_reservation_descriptor, storport/PPRI_RESERVATION_DESCRIPTOR, storport/PRI_RESERVATION_DESCRIPTOR, structs-general_96e112cc-0cf3-442d-bb3a-7bcad8a95220.xml"
 req.header: scsi.h
@@ -43,12 +42,9 @@ api_name:
  - PRI_RESERVATION_DESCRIPTOR
 ---
 
-# PRI_RESERVATION_DESCRIPTOR structure (scsi.h)
-
-
 ## -description
 
-The PRI_RESERVATION_DESCRIPTOR structure is used to construct the <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-pri_reservation_list">PRI_RESERVATION_LIST</a> structure that is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_RESERVATIONS.
+The **PRI_RESERVATION_DESCRIPTOR** structure is used to construct the [**PRI_RESERVATION_LIST**](../minitape/ns-minitape-pri_reservation_list.md) structure that is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_RESERVATIONS.
 
 ## -struct-fields
 
@@ -78,13 +74,11 @@ Reserved. Must be zero.
 
 ## -remarks
 
-The <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a> request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
+The [**IOCTL_STORAGE_PERSISTENT_RESERVE_IN**](../ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in.md) request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
+[**IOCTL_STORAGE_PERSISTENT_RESERVE_IN**](../ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-pri_reservation_list">PRI_RESERVATION_LIST</a>
+[**PRI_RESERVATION_LIST**](../minitape/ns-minitape-pri_reservation_list.md)
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:netdispumdddi.__unnamed_union_5
+UID: NS:netdispumdddi.MIRACAST_SESSION_INFO
 title: MIRACAST_SESSION_INFO (netdispumdddi.h)
 description: Contains info on a wireless display (Miracast) connected session.
 old-location: display\miracast_session_info.htm

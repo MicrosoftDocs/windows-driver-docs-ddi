@@ -2,7 +2,6 @@
 UID: NN:bidispl.IBidiSpl
 title: IBidiSpl (bidispl.h)
 description: The IBidiSpl interface allows an application or other objects to send a single bidi request or a list of bidi requests.
-old-location: print\ibidispl.htm
 tech.root: print
 ms.date: 04/20/2018
 keywords: ["IBidiSpl interface"]
@@ -39,9 +38,6 @@ api_location:
 api_name:
  - IBidiSpl
 ---
-
-# IBidiSpl interface
-
 
 ## -description
 

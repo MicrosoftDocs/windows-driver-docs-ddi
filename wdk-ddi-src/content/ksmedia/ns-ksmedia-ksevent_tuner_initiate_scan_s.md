@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_109
+UID: NS:ksmedia.KSEVENT_TUNER_INITIATE_SCAN_S
 title: KSEVENT_TUNER_INITIATE_SCAN_S (ksmedia.h)
 description: The KSEVENT_TUNER_INITIATE_SCAN_S structure is used in the KSEVENT_TUNER_INITIATE_SCAN event within the EVENTSETID_TUNER event set.
 old-location: stream\ksevent_tuner_initiate_scan_s.htm

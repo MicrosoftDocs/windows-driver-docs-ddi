@@ -1,5 +1,5 @@
 ---
-UID: NS:netdispumdddi.__unnamed_struct_4
+UID: NS:netdispumdddi.MIRACAST_DATARATE_STATS
 title: MIRACAST_DATARATE_STATS (netdispumdddi.h)
 description: Contains info used in the wireless display (Miracast) pfnDataRateNotify function about the audio/video encoder bit rate and failed or retried Wi-Fi frames.
 old-location: display\miracast_datarate_stats.htm
@@ -72,3 +72,4 @@ The total number of Wi-Fi frames that succeeded after a single retry since the p
 ### -field MultipleRetryFrameCount
 
 The total number of Wi-Fi frames that succeeded after more than one retry since the previous time step.
+

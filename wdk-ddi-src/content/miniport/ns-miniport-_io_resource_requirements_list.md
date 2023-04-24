@@ -2,9 +2,8 @@
 UID: NS:miniport._IO_RESOURCE_REQUIREMENTS_LIST
 title: _IO_RESOURCE_REQUIREMENTS_LIST (miniport.h)
 description: The _IO_RESOURCE_REQUIREMENTS_LIST structure (miniport.h) describes sets of resource configurations representing  raw resource types used by a device.
-old-location: kernel\io_resource_requirements_list.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/10/2023
 keywords: ["IO_RESOURCE_REQUIREMENTS_LIST structure"]
 ms.keywords: "*PIO_RESOURCE_REQUIREMENTS_LIST, IO_RESOURCE_REQUIREMENTS_LIST, IO_RESOURCE_REQUIREMENTS_LIST structure [Kernel-Mode Driver Architecture], PIO_RESOURCE_REQUIREMENTS_LIST, PIO_RESOURCE_REQUIREMENTS_LIST structure pointer [Kernel-Mode Driver Architecture], _IO_RESOURCE_REQUIREMENTS_LIST, kernel.io_resource_requirements_list, kstruct_b_3a1f163a-5841-4284-9ee7-c0999e1a9bbc.xml, wdm/IO_RESOURCE_REQUIREMENTS_LIST, wdm/PIO_RESOURCE_REQUIREMENTS_LIST"
 req.header: miniport.h
@@ -46,22 +45,19 @@ api_name:
  - IO_RESOURCE_REQUIREMENTS_LIST
 ---
 
-# _IO_RESOURCE_REQUIREMENTS_LIST structure (miniport.h)
-
-
 ## -description
 
-The <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure describes sets of resource configurations that can be used by a device. Each configuration represents a range of raw resources, of various types, that can be used by a device.
+The **IO_RESOURCE_REQUIREMENTS_LIST** structure describes sets of resource configurations that can be used by a device. Each configuration represents a range of raw resources, of various types, that can be used by a device.
 
 ## -struct-fields
 
 ### -field ListSize
 
-The total number of bytes that constitute the <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure, its <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list">IO_RESOURCE_LIST</a> array, and the latter's <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> array.
+The total number of bytes that constitute the **IO_RESOURCE_REQUIREMENTS_LIST** structure, its [IO_RESOURCE_LIST](../wdm/ns-wdm-_io_resource_list.md) array, and the latter's [IO_RESOURCE_DESCRIPTOR](../wdm/ns-wdm-_io_resource_descriptor.md) array.
 
 ### -field InterfaceType
 
-Specifies an interface type. This must be one of the types defined by <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_interface_type">INTERFACE_TYPE</a>, in Wdm.h or Ntddk.h. (Not used by WDM drivers.)
+Specifies an interface type. This must be one of the types defined by [INTERFACE_TYPE](../wdm/ne-wdm-_interface_type.md), in Wdm.h or Ntddk.h. (Not used by WDM drivers.)
 
 ### -field BusNumber
 
@@ -77,36 +73,33 @@ Not used.
 
 ### -field AlternativeLists
 
-The number of alternative lists (or configurations) of hardware resources that are described by this <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure. The <b>List</b> member is the header for the first alternative list.
+The number of alternative lists (or configurations) of hardware resources that are described by this **IO_RESOURCE_REQUIREMENTS_LIST** structure. The **List** member is the header for the first alternative list.
 
 ### -field List
 
-The <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list">IO_RESOURCE_LIST</a> structure that serves as the header for the first alternative list of hardware resources. If the <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure describes more than one alternative list, the second alternative list immediately follows the first alternative list in memory, and so on. The size of each alternative list depends on the length of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> array that it contains. For more information, see the following Remarks section.
+The [**IO_RESOURCE_LIST**](../wdm/ns-wdm-_io_resource_list.md) structure that serves as the header for the first alternative list of hardware resources. If the **IO_RESOURCE_REQUIREMENTS_LIST** structure describes more than one alternative list, the second alternative list immediately follows the first alternative list in memory, and so on. The size of each alternative list depends on the length of the [**IO_RESOURCE_DESCRIPTOR**](../wdm/ns-wdm-_io_resource_descriptor.md) array that it contains. For more information, see the following Remarks section.
 
 ## -remarks
 
-This structure is used by the <a href="/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> and <a href="/windows-hardware/drivers/kernel/irp-mn-query-resource-requirements">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a> IRPs to describe one or more alternative configurations of <a href="/windows-hardware/drivers/kernel/hardware-resources">hardware resources</a>.
+This structure is used by the [IRP_MN_FILTER_RESOURCE_REQUIREMENTS](/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements) and [IRP_MN_QUERY_RESOURCE_REQUIREMENTS](/windows-hardware/drivers/kernel/irp-mn-query-resource-requirements) IRPs to describe one or more alternative configurations of [hardware resources](/windows-hardware/drivers/kernel/hardware-resources).
 
-The <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure is a header for a larger data structure, of variable size, that specifies one or more alternative lists of resources. All of the data in this larger structure occupies a contiguous block of memory, whose size is specified by the <b>ListSize</b> member. Each alternative list occupies a subblock within the larger block.
+The **IO_RESOURCE_REQUIREMENTS_LIST** structure is a header for a larger data structure, of variable size, that specifies one or more alternative lists of resources. All of the data in this larger structure occupies a contiguous block of memory, whose size is specified by the **ListSize** member. Each alternative list occupies a subblock within the larger block.
 
-Each alternative list begins with an <b>IO_RESOURCE_LIST</b> structure, which serves as a header for an array of <b>IO_RESOURCE_DESCRIPTOR</b> structures. The length of this array determines the size of the list, which can vary from one alternative list to the next. Driver code can use pointer arithmetic to step from one alternative list to the next. For example, if a parameter named <i>list</i> is a pointer to the <b>IO_RESOURCE_LIST</b> structure at the start of one alternative list, <i>list</i> can be updated to point to the start of the next list as follows:
+Each alternative list begins with an **IO_RESOURCE_LIST** structure, which serves as a header for an array of **IO_RESOURCE_DESCRIPTOR** structures. The length of this array determines the size of the list, which can vary from one alternative list to the next. Driver code can use pointer arithmetic to step from one alternative list to the next. For example, if a parameter named *list* is a pointer to the **IO_RESOURCE_LIST** structure at the start of one alternative list, *list* can be updated to point to the start of the next list as follows:
 
-
+```cpp
+list = (PIO_RESOURCE_LIST)(list->Descriptors + list->Count);
 ```
-    list = (PIO_RESOURCE_LIST)(list->Descriptors + list->Count);
-```
 
-In this example, <code>list->Descriptors</code> is a pointer to the start of the <b>IO_RESOURCE_DESCRIPTOR</b> array, and <code>list->Count</code> is the number of elements in the array. For more information about the <b>Descriptors</b> and <b>Count</b> members, see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list">IO_RESOURCE_LIST</a>.
+In this example, `list->Descriptors` is a pointer to the start of the **IO_RESOURCE_DESCRIPTOR** array, and `list->Count` is the number of elements in the array. For more information about the **Descriptors** and **Count** members, see [**IO_RESOURCE_LIST**](../wdm/ns-wdm-_io_resource_list.md).
 
+### Examples
 
-#### Examples
+If a driver contains a handler for an **IRP_MN_FILTER_RESOURCE_REQUIREMENTS** IRP, the handler typically walks the resource list that is pointed to by the **IoStatus.Information** field in the IRP. The following code example contains a function—named FilterResources—that is called in the handler to walk the list. This function either verifies that a particular resource is specified in the list, or changes the resource requirements in the list without changing the size of the list. (A function that changes the size of the list would need to allocate a buffer for the updated list, write the list to this buffer, update the **IoStatus.Information** field in the IRP to point to the updated list, and free the buffer that contains the original list.)
 
-If a driver contains a handler for an <b>IRP_MN_FILTER_RESOURCE_REQUIREMENTS</b> IRP, the handler typically walks the resource list that is pointed to by the <b>IoStatus.Information</b> field in the IRP. The following code example contains a function—named FilterResources—that is called in the handler to walk the list. This function either verifies that a particular resource is specified in the list, or changes the resource requirements in the list without changing the size of the list. (A function that changes the size of the list would need to allocate a buffer for the updated list, write the list to this buffer, update the <b>IoStatus.Information</b> field in the IRP to point to the updated list, and free the buffer that contains the original list.)
+The FilterResources function returns **TRUE** (probably from the **switch** statement, although the details are omitted to simplify the code example) if it finds the resource that it is looking for in the list, or if it makes a change to the list that does not change the size of the list. Otherwise, it returns **FALSE**.
 
-The FilterResources function returns <b>TRUE</b> (probably from the <b>switch</b> statement, although the details are omitted to simplify the code example) if it finds the resource that it is looking for in the list, or if it makes a change to the list that does not change the size of the list. Otherwise, it returns <b>FALSE</b>.
-
-
-```
+```cpp
 /* Modify the resource list in place (without changing its size). */
 
 BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
@@ -145,17 +138,10 @@ BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
+[**IO_RESOURCE_DESCRIPTOR**](../wdm/ns-wdm-_io_resource_descriptor.md)
 
+[**IO_RESOURCE_LIST**](../wdm/ns-wdm-_io_resource_list.md)
 
+[IRP_MN_FILTER_RESOURCE_REQUIREMENTS](/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list">IO_RESOURCE_LIST</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/irp-mn-query-resource-requirements">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a>
-
+[IRP_MN_QUERY_RESOURCE_REQUIREMENTS](/windows-hardware/drivers/kernel/irp-mn-query-resource-requirements)

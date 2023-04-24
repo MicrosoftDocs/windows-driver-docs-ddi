@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **PUBLISHERINFO** structure is used as an input parameter to the [IPrintOemPS::GetInfo](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-getinfo) method.
+The **PUBLISHERINFO** structure is used as an input parameter to the [IPrintOemPS::GetInfo](../prcomoem/nf-prcomoem-iprintoemps-getinfo.md) method.
 
 ## -struct-fields
 
@@ -65,4 +65,4 @@ Specifies the maximum font size, in pixels, for which the Pscript5 driver will d
 
 ## -see-also
 
-[IPrintOemPS::GetInfo](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-getinfo)
+[IPrintOemPS::GetInfo](../prcomoem/nf-prcomoem-iprintoemps-getinfo.md)

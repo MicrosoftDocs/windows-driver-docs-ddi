@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_63
+UID: NS:ksmedia.KSNODEPROPERTY_AUDIO_CHANNEL
 title: KSNODEPROPERTY_AUDIO_CHANNEL (ksmedia.h)
 description: The KSNODEPROPERTY_AUDIO_CHANNEL structure specifies a property of a channel in a node.
 old-location: audio\ksnodeproperty_audio_channel.htm

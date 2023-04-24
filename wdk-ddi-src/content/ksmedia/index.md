@@ -2,10 +2,10 @@
 UID: NA:ksmedia
 title: Ksmedia.h header
 description: "Learn more about: Ksmedia.h header"
-ms.date: 06/24/2021
+ms.date: 03/02/2023
 keywords: ["Ksmedia.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: stream
 f1_keywords:
  - ksmedia
@@ -20,4 +20,4 @@ api_name:
 
 This header is used by stream. For more information, see:
 
-- [Streaming media devices](../_stream/index.md)<br><br>
+- [Streaming media devices](../_stream/index.md)

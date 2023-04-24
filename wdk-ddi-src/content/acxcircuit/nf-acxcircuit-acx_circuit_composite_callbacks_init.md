@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_CIRCUIT_COMPOSITE_CALLBACKS_INIT
 ms.date: 07/28/2022
 targetos: Windows
-description: The ACX_CIRCUIT_COMPOSITE_CALLBACKS_INIT function initializes a ACX_CIRCUIT_COMPOSITE_CALLBACKS structure. 
+description: The ACX_CIRCUIT_COMPOSITE_CALLBACKS_INIT function initializes a ACX_CIRCUIT_COMPOSITE_CALLBACKS structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -68,7 +68,12 @@ Example usage is shown below.
     }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

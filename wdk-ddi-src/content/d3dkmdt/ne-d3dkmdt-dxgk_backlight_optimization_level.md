@@ -1,5 +1,5 @@
 ---
-UID: NE:d3dkmdt.__unnamed_enum_0
+UID: NE:d3dkmdt.DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
 title: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL (d3dkmdt.h)
 description: Indicates the optimization level of brightness control. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive brightness control.
 old-location: display\dxgk_backlight_optimization_level.htm
@@ -8,7 +8,7 @@ ms.date: 12/09/2021
 keywords: ["DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration"]
 ms.keywords: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration [Display Devices], DxgkBacklightOptimizationDesktop, DxgkBacklightOptimizationDimmed, DxgkBacklightOptimizationDisable, DxgkBacklightOptimizationDynamic, DxgkBacklightOptimizationEDR, d3dkmdt/DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, d3dkmdt/DxgkBacklightOptimizationDesktop, d3dkmdt/DxgkBacklightOptimizationDimmed, d3dkmdt/DxgkBacklightOptimizationDisable, d3dkmdt/DxgkBacklightOptimizationDynamic, d3dkmdt/DxgkBacklightOptimizationEDR, display.dxgk_backlight_optimization_level
 req.header: d3dkmdt.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -41,6 +41,7 @@ api_name:
 ---
 
 # DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration
+
 
 ## -description
 
@@ -85,3 +86,4 @@ For more information on usage scenarios involving **DXGK_BACKLIGHT_OPTIMIZATION_
 ## -see-also
 
 [**DxgkDdiSetBacklightOptimization**](../dispmprt/nc-dispmprt-dxgk_brightness_set_backlight_optimization.md)
+

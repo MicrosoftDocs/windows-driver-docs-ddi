@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_4
+UID: NE:ks.KSPROPERTY_MEDIASEEKING
 title: KSPROPERTY_MEDIASEEKING (ks.h)
 description: "Learn more about: KSPROPERTY_MEDIASEEKING enumeration"
 old-location: stream\ksproperty_mediaseeking.htm

@@ -1,16 +1,15 @@
 ---
-UID: NS:minitape.__unnamed_struct_17
+UID: NS:minitape.WRITE_USING_TOKEN_HEADER
 title: WRITE_USING_TOKEN_HEADER (minitape.h)
 description: The WRITE_USING_TOKEN_HEADER structure (minitape.h) describes the destination data locations for an offload write data operation.
-old-location: storage\write_using_token_header.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 09/23/2022
 keywords: ["WRITE_USING_TOKEN_HEADER structure"]
 ms.keywords: "*PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER structure pointer [Storage Devices], WRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER structure [Storage Devices], scsi/PWRITE_USING_TOKEN_HEADER, scsi/WRITE_USING_TOKEN_HEADER, storage.write_using_token_header"
 req.header: minitape.h
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 8.
+req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,18 +42,15 @@ api_name:
  - WRITE_USING_TOKEN_HEADER
 ---
 
-# WRITE_USING_TOKEN_HEADER structure (minitape.h)
-
-
 ## -description
 
-The <b>WRITE_USING_TOKEN_HEADER</b> structure describes the destination data locations for an offload write data operation.  The offload write data operation described by this structure is associated with a token representation of data (ROD).
+The **WRITE_USING_TOKEN_HEADER** structure describes the destination data locations for an offload write data operation.  The offload write data operation described by this structure is associated with a token representation of data (ROD).
 
 ## -struct-fields
 
 ### -field WriteUsingTokenDataLength
 
-The length of this structure beginning with the <i>Immediate</i> parameter and include all of the elements of the <b>BlockDeviceRangeDescriptor</b> array.
+The length of this structure beginning with the *Immediate* parameter and include all of the elements of the **BlockDeviceRangeDescriptor** array.
 
 ### -field Immediate
 
@@ -70,7 +66,7 @@ Reserved.
 
 ### -field BlockOffsetIntoToken
 
-The offset, in logical blocks,  in the ROD for <b>Token</b> indicating the start of the source data for the offload write data operation.
+The offset, in logical blocks, in the ROD for **Token** indicating the start of the source data for the offload write data operation.
 
 ### -field Token
 
@@ -82,11 +78,11 @@ Reserved.
 
 ### -field BlockDeviceRangeDescriptorListLength
 
-The length, in bytes, for all  of the <a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-block_device_range_descriptor">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures in the <b>BlockDeviceRangeDescriptor</b> array.
+The length, in bytes, for all  of the [**BLOCK_DEVICE_RANGE_DESCRIPTOR**](../scsi/ns-scsi-block_device_range_descriptor.md) structures in the **BlockDeviceRangeDescriptor** array.
 
 ### -field BlockDeviceRangeDescriptor
 
-An array of <a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-block_device_range_descriptor">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures which describe the destination data blocks for the offload write data transfer.
+An array of [**BLOCK_DEVICE_RANGE_DESCRIPTOR**](../scsi/ns-scsi-block_device_range_descriptor.md) structures which describe the destination data blocks for the offload write data transfer.
 
 ## -remarks
 
@@ -94,9 +90,7 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-block_device_range_descriptor">BLOCK_DEVICE_RANGE_DESCRIPTOR</a>
+[**BLOCK_DEVICE_RANGE_DESCRIPTOR**](../scsi/ns-scsi-block_device_range_descriptor.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a>
+[**POPULATE_TOKEN_HEADER**](../storport/ns-storport-populate_token_header.md)
 

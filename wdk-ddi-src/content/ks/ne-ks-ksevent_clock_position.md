@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_27
+UID: NE:ks.KSEVENT_CLOCK_POSITION
 title: KSEVENT_CLOCK_POSITION (ks.h)
 description: "Learn more about: KSEVENT_CLOCK_POSITION enumeration"
 old-location: stream\ksevent_clock_position.htm

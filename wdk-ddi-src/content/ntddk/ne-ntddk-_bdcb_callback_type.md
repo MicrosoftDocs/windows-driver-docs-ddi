@@ -2,9 +2,8 @@
 UID: NE:ntddk._BDCB_CALLBACK_TYPE
 title: _BDCB_CALLBACK_TYPE (ntddk.h)
 description: The BDCB_CALLBACK_TYPE enumeration specifies whether the callback being passed to a BOOT_DRIVER_CALLBACK_FUNCTION routine is a status update or a boot-start driver initialization notification.
-old-location: kernel\bdcb_callback_type.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/17/2023
 keywords: ["BDCB_CALLBACK_TYPE enumeration"]
 ms.keywords: "*PBDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbInitializeImage, BdCbStatusUpdate, _BDCB_CALLBACK_TYPE, kernel.bdcb_callback_type, ntddk/BDCB_CALLBACK_TYPE, ntddk/BdCbInitializeImage, ntddk/BdCbStatusUpdate"
 req.header: ntddk.h
@@ -46,12 +45,9 @@ api_name:
  - BDCB_CALLBACK_TYPE
 ---
 
-# _BDCB_CALLBACK_TYPE enumeration
-
-
 ## -description
 
-The BDCB_CALLBACK_TYPE enumeration specifies  whether the callback being passed to a <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdrivercallback">BOOT_DRIVER_CALLBACK_FUNCTION</a> routine is a status update or a boot-start driver initialization notification.
+The BDCB_CALLBACK_TYPE enumeration specifies  whether the callback being passed to a [BOOT_DRIVER_CALLBACK_FUNCTION](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdrivercallback) routine is a status update or a boot-start driver initialization notification.
 
 ## -enum-fields
 
@@ -67,46 +63,15 @@ A boot image is about to be initialized. During this callback, boot-start driver
 
 The two callback types have unique context structures that provide additional information specific to the callback.
 
-<table>
-<tr>
-<th>Value </th>
-<th>Corresponding structure to use</th>
-</tr>
-<tr>
-<td>
-BdCbStatusUpdate
-
-</td>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_bdcb_status_update_type">BDCB_STATUS_UPDATE_TYPE</a>
-
-
-</td>
-</tr>
-<tr>
-<td>
-BdCbInitializeImage
-
-</td>
-<td>
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_bdcb_classification">BDCB_CLASSIFICATION</a>
-
-
-</td>
-</tr>
-</table>
+| Value | Corresponding structure to use |
+|--|--|
+| BdCbStatusUpdate | [**BDCB_STATUS_UPDATE_TYPE**](/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_bdcb_status_update_type) |
+| BdCbInitializeImage | [**BDCB_CLASSIFICATION**](/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_bdcb_classification) |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_bdcb_classification">BDCB_CLASSIFICATION</a>
+[**BDCB_CLASSIFICATION**](/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_bdcb_classification)
 
+[**BDCB_STATUS_UPDATE_TYPE**](/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_bdcb_status_update_type)
 
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_bdcb_status_update_type">BDCB_STATUS_UPDATE_TYPE</a>
-
-
-
-[**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)
-
+[BOOT_DRIVER_CALLBACK_FUNCTION](nc-ntddk-boot_driver_callback_function.md)

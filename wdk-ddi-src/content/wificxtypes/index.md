@@ -6,7 +6,7 @@ title: wificxtypes
 ms.date: 04/30/2021
 keywords: ["Wificxtypes.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 f1_keywords:
  - wificxtypes
  - wificxtypes/wificxtypes

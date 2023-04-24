@@ -10,7 +10,7 @@ ms.keywords: RtlCreateSecurityDescriptorRelative, RtlCreateSecurityDescriptorRel
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop
-req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 and later.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -96,7 +96,7 @@ The given <i>Revision</i> is not known or is not supported.
 
 In effect, a successful call to this routine initializes a security descriptor without security constraints.
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 

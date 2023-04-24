@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetPinRetrieveModeDataFormatList
 tech.root: audio
 title: AcxTargetPinRetrieveModeDataFormatList
-ms.date: 07/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetPinRetrieveModeDataFormatList function given an existing ACXTARGETPIN object, returns the ACXDATAFORMATLIST associated to the specified signal-processing-mode data format list.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxtargets.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -64,13 +64,12 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-### Example
+### ACX requirements
 
-```cpp
+**Minimum ACX version:** 1.0
 
-```
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
-

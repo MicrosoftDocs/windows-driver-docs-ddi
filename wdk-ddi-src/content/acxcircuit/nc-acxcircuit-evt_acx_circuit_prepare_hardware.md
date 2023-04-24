@@ -2,9 +2,9 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_PREPARE_HARDWARE
 tech.root: audio
 title: EVT_ACX_CIRCUIT_PREPARE_HARDWARE
-ms.date: 11/02/2021
+ms.date: 12/14/2022
 targetos: Windows
-description: The EVT_ACX_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to add functionality when a circuit is in the prepare hardware phase. 
+description: The EVT_ACX_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to add functionality when a circuit is in the prepare hardware phase.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -48,7 +48,7 @@ The **EVT_ACX_CIRCUIT_PREPARE_HARDWARE** callback is used by the driver to add f
 
 ### -param Device
 
-A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT. 
+A WDFDEVICE object (described in  [WDF - Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) associated with the specified ACXCIRCUIT.
 
 ### -param Circuit
 
@@ -135,8 +135,12 @@ exit:
 }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-

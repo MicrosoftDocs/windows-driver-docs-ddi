@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_65
+UID: NS:ks.KSPROPERTY_VALUES
 title: KSPROPERTY_VALUES (ks.h)
 description: The KSPROPERTY_VALUES structure describes the type and acceptable default values of a property.
 old-location: stream\ksproperty_values.htm
@@ -44,6 +44,7 @@ api_name:
 ---
 
 # KSPROPERTY_VALUES structure
+
 
 ## -description
 
@@ -100,3 +101,4 @@ For more information, see [KS Properties](/windows-hardware/drivers/stream/ks-pr
 [**KSPROPERTY_MEMBERSLIST**](./ns-ks-ksproperty_memberslist.md)
 
 [**VARENUM**](./ne-ks-varenum.md)
+

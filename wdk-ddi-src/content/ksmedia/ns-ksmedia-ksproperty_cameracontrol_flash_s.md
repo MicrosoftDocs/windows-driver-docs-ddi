@@ -1,10 +1,9 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_122
+UID: NS:ksmedia.KSPROPERTY_CAMERACONTROL_FLASH_S
 title: KSPROPERTY_CAMERACONTROL_FLASH_S (ksmedia.h)
 description: Describes flash control properties in the PROPSETID_VIDCAP_CAMERACONTROL_FLASH camera control property set. This structure specifies property values that are used by applications to configure the camera's flash.
-old-location: stream\ksproperty_cameracontrol_flash_s.htm
 tech.root: stream
-ms.date: 04/30/2019
+ms.date: 03/10/2023
 keywords: ["KSPROPERTY_CAMERACONTROL_FLASH_S structure"]
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_FLASH_S, KSPROPERTY_CAMERACONTROL_FLASH_AUTO, KSPROPERTY_CAMERACONTROL_FLASH_FLAGS_AUTO, KSPROPERTY_CAMERACONTROL_FLASH_FLAGS_MANUAL, KSPROPERTY_CAMERACONTROL_FLASH_OFF, KSPROPERTY_CAMERACONTROL_FLASH_ON, KSPROPERTY_CAMERACONTROL_FLASH_S, KSPROPERTY_CAMERACONTROL_FLASH_S structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_FLASH_S, PKSPROPERTY_CAMERACONTROL_FLASH_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_FLASH_S, ksmedia/PKSPROPERTY_CAMERACONTROL_FLASH_S, stream.ksproperty_cameracontrol_flash_s"
 req.header: ksmedia.h
@@ -43,12 +42,9 @@ api_name:
  - KSPROPERTY_CAMERACONTROL_FLASH_S
 ---
 
-# KSPROPERTY_CAMERACONTROL_FLASH_S structure
-
-
 ## -description
 
-Describes flash control properties in the <b>PROPSETID_VIDCAP_CAMERACONTROL_FLASH</b> camera control property set. This structure specifies property values that are used by applications to configure the camera's flash.
+Describes flash control properties in the **PROPSETID_VIDCAP_CAMERACONTROL_FLASH** camera control property set. This structure specifies property values that are used by applications to configure the camera's flash.
 
 ## -struct-fields
 
@@ -56,75 +52,21 @@ Describes flash control properties in the <b>PROPSETID_VIDCAP_CAMERACONTROL_FLAS
 
 Indicates requested flash settings. This value must be one of these possible values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="KSPROPERTY_CAMERACONTROL_FLASH_OFF"></a><a id="ksproperty_cameracontrol_flash_off"></a><dl>
-<dt><b>KSPROPERTY_CAMERACONTROL_FLASH_OFF</b></dt>
-</dl>
-</td>
-<td width="60%">
-The flash should never activate.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="KSPROPERTY_CAMERACONTROL_FLASH_ON"></a><a id="ksproperty_cameracontrol_flash_on"></a><dl>
-<dt><b>KSPROPERTY_CAMERACONTROL_FLASH_ON</b></dt>
-</dl>
-</td>
-<td width="60%">
-The flash should activate regardless of lighting conditions.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="KSPROPERTY_CAMERACONTROL_FLASH_AUTO"></a><a id="ksproperty_cameracontrol_flash_auto"></a><dl>
-<dt><b>KSPROPERTY_CAMERACONTROL_FLASH_AUTO</b></dt>
-</dl>
-</td>
-<td width="60%">
-The flash should be controlled by the device and driver based on lighting conditions.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|---|---|
+| KSPROPERTY_CAMERACONTROL_FLASH_OFF | The flash should never activate. |
+| KSPROPERTY_CAMERACONTROL_FLASH_ON | The flash should activate regardless of lighting conditions. |
+| KSPROPERTY_CAMERACONTROL_FLASH_AUTO | The flash should be controlled by the device and driver based on lighting conditions. |
 
 ### -field Capabilities
 
-Indicates the flash modes that the device supports. This value is a bitwise <b>OR</b> of these possible values:
+Indicates the flash modes that the device supports. This value is a bitwise **OR** of these possible values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="KSPROPERTY_CAMERACONTROL_FLASH_FLAGS_AUTO"></a><a id="ksproperty_cameracontrol_flash_flags_auto"></a><dl>
-<dt><b>KSPROPERTY_CAMERACONTROL_FLASH_FLAGS_AUTO</b></dt>
-</dl>
-</td>
-<td width="60%">
-The device and driver automatically control flash settings.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="KSPROPERTY_CAMERACONTROL_FLASH_FLAGS_MANUAL"></a><a id="ksproperty_cameracontrol_flash_flags_manual"></a><dl>
-<dt><b>KSPROPERTY_CAMERACONTROL_FLASH_FLAGS_MANUAL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The user manually sets the flash settings.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|---|---|
+| KSPROPERTY_CAMERACONTROL_FLASH_FLAGS_AUTO | The device and driver automatically control flash settings. |
+| KSPROPERTY_CAMERACONTROL_FLASH_FLAGS_MANUAL | The user manually sets the flash settings. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-flash-property">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a>
-
+[KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY](/windows-hardware/drivers/stream/ksproperty-cameracontrol-flash-property)

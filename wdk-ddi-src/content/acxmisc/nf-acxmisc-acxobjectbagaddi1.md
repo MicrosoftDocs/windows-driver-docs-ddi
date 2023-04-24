@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddI1
 tech.root: audio
 title: AcxObjectBagAddI1
-ms.date: 06/17/2022
+ms.date: 12/16/2022
 targetos: Windows
-description: The AcxObjectBagAddI1 function adds a int one byte (CHAR) I1 value  to an existing, intialized AcxObjectBag. 
+description: The AcxObjectBagAddI1 function adds a int one byte (CHAR) I1 value  to an existing, initialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxmisc.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddI1 function adds a int one byte (CHAR) I1 value to an existing, intialized AcxObjectBag. 
+The AcxObjectBagAddI1 function adds a int one byte (CHAR) I1 value to an existing, initialized AcxObjectBag.
 
 ## -parameters
 
 ### -param ObjectBag
 
-An intialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An initialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param ValueName
 
@@ -99,6 +99,12 @@ This example shows the use of AcxObjectBagAddI1.
     i1Value = 0;
     RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveI1(objBag, &TestI1, &i1Value));
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

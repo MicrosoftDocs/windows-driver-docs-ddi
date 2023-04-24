@@ -59,4 +59,4 @@ This method returns an **HRESULT** value.
 
 ## -see-also
 
-[IPrinterExtensionRequest](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionrequest)
+[IPrinterExtensionRequest](./nn-printerextension-iprinterextensionrequest.md)

@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_79
+UID: NE:ksmedia.KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST
 title: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST (ksmedia.h)
 description: Used to specify a camera region of interest.
 old-location: stream\ksproperty_cameracontrol_region_of_interest.htm
@@ -56,3 +56,4 @@ The <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-region-of
 ## -see-also
 
 <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-region-of-interest-property">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY</a>
+

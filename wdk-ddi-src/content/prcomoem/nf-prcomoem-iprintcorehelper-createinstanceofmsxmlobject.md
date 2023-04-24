@@ -72,7 +72,7 @@ A reference to the identifier of the interface that will be used to communicate 
 ### -param ppv [out]
 
 
-A pointer to a variable that receives the address of the interface that is requested in the <i>riid</i> parameter. If <b>IPrintCoreHelper::CreateInstanceOfMSXMLObject</b> successfully returns, *<i>ppv</i> contains the address of the requested interface. If this method fails, *<i>ppv</i> contains <b>NULL</b>.
+A pointer to a variable that receives the address of the interface that is requested in the <i>riid</i> parameter. If <b>IPrintCoreHelper::CreateInstanceOfMSXMLObject</b> successfully returns, **ppv* contains the address of the requested interface. If this method fails, **ppv* contains <b>NULL</b>.
 
 ## -returns
 

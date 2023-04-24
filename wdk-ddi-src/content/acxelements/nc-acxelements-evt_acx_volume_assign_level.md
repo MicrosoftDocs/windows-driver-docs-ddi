@@ -1,10 +1,10 @@
 ---
 UID: NC:acxelements.EVT_ACX_VOLUME_ASSIGN_LEVEL
-tech.root: audio 
+tech.root: audio
 title: EVT_ACX_VOLUME_ASSIGN_LEVEL
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
-description: The EVT_ACX_VOLUME_ASSIGN_LEVEL callback function is implemented by the driver and is called when the volume level of a channel is set for a volume node. 
+description: The EVT_ACX_VOLUME_ASSIGN_LEVEL callback function is implemented by the driver and is called when the volume level of a channel is set for a volume node.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,17 +42,17 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_VOLUME_ASSIGN_LEVEL** callback function is implemented by the driver and is called when the volume level of a channel is set for a volume node. 
+The **EVT_ACX_VOLUME_ASSIGN_LEVEL** callback function is implemented by the driver and is called when the volume level of a channel is set for a volume node.
 
 ## -parameters
 
 ### -param Volume
 
-An existing, initialized, ACXVOLUME object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+An existing, initialized, ACXVOLUME object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param Channel
 
-A ULONG referring to a channel on the specified volume node. If this value is -1, then it refers to the master channel which represents the volume level for all channels on the volume node. 
+A ULONG referring to a channel on the specified volume node. If this value is -1, then it refers to the master channel which represents the volume level for all channels on the volume node.
 
 ### -param VolumeLevel
 
@@ -111,6 +111,12 @@ CodecC_EvtVolumeAssignLevelCallback(
     return STATUS_SUCCESS;
 }
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

@@ -10,7 +10,7 @@ ms.keywords: SeQueryInformationToken, SeQueryInformationToken routine [Installab
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 and later versions of the operating system.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -234,7 +234,7 @@ An invalid value was supplied for <i>TokenInformationClass</i>.
 
 ## -remarks
 
-For more information about security and access control, see the documentation about these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 

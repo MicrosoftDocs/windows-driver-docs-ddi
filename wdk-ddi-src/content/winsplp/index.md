@@ -2,11 +2,10 @@
 description: "Learn more about: Winsplp.h header"
 UID: NA:winsplp
 title: winsplp.h header
-ms.assetid: e65d4581-0840-38bd-9afe-5a9d19c9769b
-ms.date: 11/18/2020
+ms.date: 03/02/2023
 keywords: ["Winsplp.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: print
 f1_keywords:
  - winsplp
@@ -17,10 +16,8 @@ api_name:
 
 # Winsplp.h header
 
-
 ## -description
 
 This header is used by print. For more information, see:
 
-- [Print devices](../_print/index.md)<br><br>
-
+- [Print devices](../_print/index.md)

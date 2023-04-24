@@ -2,7 +2,7 @@
 UID: NC:acxevents.EVT_ACX_EVENT_DISABLE
 tech.root: audio
 title: EVT_ACX_EVENT_DISABLE
-ms.date: 06/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The EVT_ACX_EVENT_DISABLE callback is used by the driver to disable the ACXEVENT source.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxevents.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -88,7 +88,12 @@ TestElement::EvtEventDisableCallback(
 }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxevents.h header](index.md)
-

@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_89
+UID: NE:ksmedia.KSCAMERA_EXTENDEDPROP_ROITYPE
 title: KSCAMERA_EXTENDEDPROP_ROITYPE (ksmedia.h)
 description: This enumeration contains the ROI types.
 old-location: stream\kscamera_extendedprop_roitype.htm

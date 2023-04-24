@@ -1,10 +1,10 @@
 ---
 UID: NF:acxelements.AcxAudioEngineGetDeviceFormatList
-tech.root: audio 
+tech.root: audio
 title: AcxAudioEngineGetDeviceFormatList
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
-description: The AcxAudioEngineGetDeviceFormatList function retrieves a ACXDATAFORMATLIST device format list ACX object. 
+description: The AcxAudioEngineGetDeviceFormatList function retrieves a ACXDATAFORMATLIST device format list ACX object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -48,11 +48,11 @@ The **AcxAudioEngineGetDeviceFormatList** function retrieves the ACXDATAFORMATLI
 
 ### -param AudioEngine
 
-An ACXAUDIOENGINE object that is used in a render circuit, to represent a DSP. 
+An ACXAUDIOENGINE object that is used in a render circuit, to represent a DSP.
 
 ## -returns
 
-The ACXDATAFORMATLIST object which holds the list of supported formats for the specified ACXAUDIOENGINE object. 
+The ACXDATAFORMATLIST object which holds the list of supported formats for the specified ACXAUDIOENGINE object.
 
 ## -remarks
 
@@ -76,8 +76,12 @@ Example usage is shown below.
     status = AcxDataFormatListAddDataFormat(formatList, formatPcm44100c2);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-

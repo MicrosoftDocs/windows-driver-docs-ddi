@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveMultiString
 tech.root: audio
 title: AcxObjectBagRetrieveMultiString
-ms.date: 07/01/2022
+ms.date: 12/16/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveMultiString function retrieves a MultiString value from an existing, intialized AcxObjectBag that contains values. 
+description: The AcxObjectBagRetrieveMultiString function retrieves a MultiString value from an existing, initialized AcxObjectBag that contains values.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxmisc.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveMultiString function retrieves a MultiString value from an existing, intialized AcxObjectBag that contains values.
+The AcxObjectBagRetrieveMultiString function retrieves a MultiString value from an existing, initialized AcxObjectBag that contains values.
 
 ## -parameters
 
 ### -param ObjectBag
 
-An intialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An initialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param ValueName
 
@@ -69,6 +69,12 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 ### Example
 
 Example pending.
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

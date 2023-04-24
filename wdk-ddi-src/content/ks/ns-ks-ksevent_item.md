@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_72
+UID: NS:ks.KSEVENT_ITEM
 title: KSEVENT_ITEM (ks.h)
 description: The KSEVENT_ITEM structure describe a minidriver's support for a specific event within an event set.
 old-location: stream\ksevent_item.htm

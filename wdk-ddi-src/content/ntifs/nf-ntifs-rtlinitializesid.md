@@ -10,7 +10,7 @@ ms.keywords: RtlInitializeSid, RtlInitializeSid routine [Installable File System
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 and later.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -102,7 +102,7 @@ The specified <i>SubAuthorityCount</i> value is invalid.
 
 Although <b>RtlInitializeSid</b> sets the number of subauthorities for the SID, it does not set the subauthority values. This must be done separately by calling <b>RtlSubAuthoritySid</b>. 
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 

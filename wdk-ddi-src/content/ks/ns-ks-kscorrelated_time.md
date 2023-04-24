@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_59
+UID: NS:ks.KSCORRELATED_TIME
 title: KSCORRELATED_TIME (ks.h)
 description: The KSCORRELATED_TIME structure contains a clock time as well as the corresponding number of clock ticks since system boot.
 old-location: stream\kscorrelated_time.htm

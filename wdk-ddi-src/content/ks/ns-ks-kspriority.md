@@ -1,10 +1,9 @@
 ---
-UID: NS:ks.__unnamed_struct_0
+UID: NS:ks.KSPRIORITY
 title: KSPRIORITY (ks.h)
 description: The KSPRIORITY structure is used to specify priority and is used with the KSPROPERTY_CONNECTION_PRIORITY property.
-old-location: stream\kspriority.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/06/2023
 keywords: ["KSPRIORITY structure"]
 ms.keywords: "*PKSPRIORITY, KSPRIORITY, KSPRIORITY structure [Streaming Media Devices], PKSPRIORITY, PKSPRIORITY structure pointer [Streaming Media Devices], ks-struct_08294311-6f72-4888-bfb8-b4598e1fc9bd.xml, ks/KSPRIORITY, ks/PKSPRIORITY, stream.kspriority"
 req.header: ks.h
@@ -43,12 +42,9 @@ api_name:
  - KSPRIORITY
 ---
 
-# KSPRIORITY structure
-
-
 ## -description
 
-The KSPRIORITY structure is used to specify priority and is used with the <a href="/windows-hardware/drivers/stream/ksproperty-connection-priority">KSPROPERTY_CONNECTION_PRIORITY</a> property.
+The KSPRIORITY structure is used to specify priority and is used with the [**KSPROPERTY_CONNECTION_PRIORITY**](/windows-hardware/drivers/stream/ksproperty-connection-priority) property.
 
 ## -struct-fields
 
@@ -56,52 +52,12 @@ The KSPRIORITY structure is used to specify priority and is used with the <a hre
 
 Specifies a number ranging from 1 to 0xFFFFFFFF, where 1 is least priority and 0xFFFFFFFF is the highest priority. Zero is reserved for future use. When setting a class value, 0xFFFFFFFF is used to indicate exclusive access to the resources consumed by the pin. Possible values are listed in the following table.
 
-<table>
-<tr>
-<th>PriorityClass</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-KSPRIORITY_LOW
-
-</td>
-<td>
-Specifies the lowest priority.
-
-</td>
-</tr>
-<tr>
-<td>
-KSPRIORITY_NORMAL
-
-</td>
-<td>
-Specifies normal priority.
-
-</td>
-</tr>
-<tr>
-<td>
-KSPRIORITY_HIGH
-
-</td>
-<td>
-Specifies an elevated priority.
-
-</td>
-</tr>
-<tr>
-<td>
-KSPRIORITY_EXCLUSIVE
-
-</td>
-<td>
-Specifies the highest priority, which implies exclusive access to resources.
-
-</td>
-</tr>
-</table>
+| PriorityClass | Description |
+|---|---|
+| KSPRIORITY_LOW | Specifies the lowest priority. |
+| KSPRIORITY_NORMAL | Specifies normal priority. |
+| KSPRIORITY_HIGH | Specifies an elevated priority. |
+| KSPRIORITY_EXCLUSIVE | Specifies the highest priority, which implies exclusive access to resources. |
 
 ### -field PrioritySubClass
 
@@ -109,15 +65,12 @@ Specifies a number ranging from 1 to 0xFFFFFFFF, where 1 is the least priority w
 
 ## -remarks
 
-The KSPRIORITY.PrioritySubClass member allows a client to set exclusive use of resources consumed by a pin and also to prioritize the use of those resources by the client's pins within that exclusive class. The initial priority of a pin is set by the connection request typically performed through <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreatepin">KsCreatePin</a>, and is usually KSPRIORITY_NORMAL, with a subclass priority of 1. A pin uses these priorities as parameters when allocating shared resources from any component managing resources. Resource allocation occurs when formats are set on pins.
+The KSPRIORITY.PrioritySubClass member allows a client to set exclusive use of resources consumed by a pin and also to prioritize the use of those resources by the client's pins within that exclusive class. The initial priority of a pin is set by the connection request typically performed through [KsCreatePin](./nf-ks-kscreatepin.md), and is usually KSPRIORITY_NORMAL, with a subclass priority of 1. A pin uses these priorities as parameters when allocating shared resources from any component managing resources. Resource allocation occurs when formats are set on pins.
 
 If the removal of resources by a higher priority client causes the filter pin to fail, the client must be notified through the KSEVENT_CONNECTION_PRIORITY event (assuming that the client had registered for event notification of this type).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/stream/ksproperty-connection-priority">KSPROPERTY_CONNECTION_PRIORITY</a>
+[**KSPROPERTY_CONNECTION_PRIORITY**](/windows-hardware/drivers/stream/ksproperty-connection-priority)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreatepin">KsCreatePin</a>
-
+[KsCreatePin](./nf-ks-kscreatepin.md)

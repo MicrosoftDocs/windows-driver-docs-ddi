@@ -4,7 +4,7 @@ title: ExAllocateFromLookasideListEx function (wdm.h)
 description: The ExAllocateFromLookasideListEx routine removes the first entry from the specified lookaside list, or, if the list is empty, dynamically allocates the storage for a new entry.
 old-location: kernel\exallocatefromlookasidelistex.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 03/24/2023
 keywords: ["ExAllocateFromLookasideListEx function"]
 ms.keywords: ExAllocateFromLookasideListEx, ExAllocateFromLookasideListEx routine [Kernel-Mode Driver Architecture], k102_d3c72529-8c0d-48bf-8b5f-dc19d801bf8f.xml, kernel.exallocatefromlookasidelistex, wdm/ExAllocateFromLookasideListEx
 req.header: wdm.h
@@ -59,6 +59,9 @@ A pointer to a <a href="/windows-hardware/drivers/kernel/eprocess">LOOKASIDE_LIS
 <b>ExAllocateFromLookasideListEx</b> returns a pointer to a lookaside-list entry, if an entry is available in the list or can be dynamically allocated. Otherwise, this routine returns <b>NULL</b>.
 
 ## -remarks
+
+> [!CAUTION]
+> Starting in Windows 11, version 22H2, this function changed from inline to exported. As a result, if you build your driver targeting the latest version of Windows, it will fail to load in older OS versions. To change the target OS version in Visual Studio, select Configuration Properties->Driver Settings->General.
 
 This routine removes the first entry, if an entry is available, from the specified lookaside list and returns a pointer to this entry. If the list is empty, the routine allocates storage for a new entry and returns a pointer to this entry. If this allocation fails, the routine returns <b>NULL</b>.
 

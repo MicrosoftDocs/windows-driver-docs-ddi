@@ -2,15 +2,14 @@
 UID: NC:wdm.REQUEST_POWER_COMPLETE
 title: REQUEST_POWER_COMPLETE (wdm.h)
 description: The PowerCompletion callback routine completes the processing of a power IRP.
-old-location: kernel\powercompletion.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/10/2023
 keywords: ["REQUEST_POWER_COMPLETE callback function"]
 ms.keywords: PowerCompletion, PowerCompletion routine [Kernel-Mode Driver Architecture], REQUEST_POWER_COMPLETE, kernel.powercompletion, wdm/PowerCompletion
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
-req.target-min-winverclnt: Supported in Windows 2000 and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,67 +39,55 @@ api_name:
  - REQUEST_POWER_COMPLETE
 ---
 
-# REQUEST_POWER_COMPLETE callback function
-
-
 ## -description
 
-The <i>PowerCompletion</i> callback routine completes the processing of a power IRP.
+The *PowerCompletion* callback routine completes the processing of a power IRP.
 
 ## -parameters
 
 ### -param DeviceObject [in]
 
-
-A pointer to the target <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> for the completed power IRP.
+A pointer to the target [DEVICE_OBJECT](./ns-wdm-_device_object.md) for the completed power IRP.
 
 ### -param MinorFunction [in]
 
-
-Specifies the minor function code in the power IRP. For more information, see the list of supported <b>IRP_MN_<i>XXX</i></b> codes in the Remarks section.
+Specifies the minor function code in the power IRP. For more information, see the list of supported **IRP_MN_*XXX*** codes in the Remarks section.
 
 ### -param PowerState [in]
 
-
-Specifies the <a href="/windows-hardware/drivers/kernel/device-power-states">device power state</a> or <a href="/windows-hardware/drivers/kernel/system-power-states">system power state</a> that was passed to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-porequestpowerirp">PoRequestPowerIrp</a> routine.
+Specifies the [device power state](/windows-hardware/drivers/kernel/device-power-states) or [system power state](/windows-hardware/drivers/kernel/system-power-states) that was passed to the [PoRequestPowerIrp](./nf-wdm-porequestpowerirp.md) routine.
 
 ### -param Context [in, optional]
 
-
-A pointer to the context that was passed to <b>PoRequestPowerIrp</b>.
+A pointer to the context that was passed to **PoRequestPowerIrp**.
 
 ### -param IoStatus [in]
 
-
-A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure for the completed IRP.
+A pointer to the [IO_STATUS_BLOCK](./ns-wdm-_io_status_block.md) structure for the completed IRP.
 
 ## -remarks
 
-A driver that sends a power IRP might need to perform additional tasks after all other drivers have completed the IRP. If so, the sending driver should register a <i>PowerCompletion</i> callback routine during the call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-porequestpowerirp">PoRequestPowerIrp</a> routine that allocates the IRP.
+A driver that sends a power IRP might need to perform additional tasks after all other drivers have completed the IRP. If so, the sending driver should register a *PowerCompletion* callback routine during the call to the [PoRequestPowerIrp](./nf-wdm-porequestpowerirp.md) routine that allocates the IRP.
 
-A driver's <i>PowerCompletion</i> callback routine is used only for <a href="/windows-hardware/drivers/kernel/irp-mj-power">IRP_MJ_POWER</a> IRPs that have minor IRP codes of <a href="/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a>, <a href="/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a>, and <a href="/windows-hardware/drivers/kernel/irp-mn-wait-wake">IRP_MN_WAIT_WAKE</a>. For more information, see <a href="/windows-hardware/drivers/kernel/sending-irp-mn-query-power-or-irp-mn-set-power-for-device-power-states">Sending IRP_MN_QUERY_POWER or IRP_MN_SET_POWER for Device Power States</a> and <a href="/windows-hardware/drivers/kernel/wait-wake-callback-routines">Wait/Wake Callback Routines</a>.
+A driver's *PowerCompletion* callback routine is used only for [IRP_MJ_POWER](/windows-hardware/drivers/kernel/irp-mj-power) IRPs that have minor IRP codes of [IRP_MN_SET_POWER](/windows-hardware/drivers/kernel/irp-mn-set-power), [IRP_MN_QUERY_POWER](/windows-hardware/drivers/kernel/irp-mn-query-power), and [IRP_MN_WAIT_WAKE](/windows-hardware/drivers/kernel/irp-mn-wait-wake). For more information, see [Sending IRP_MN_QUERY_POWER or IRP_MN_SET_POWER for Device Power States](/windows-hardware/drivers/kernel/sending-irp-mn-query-power-or-irp-mn-set-power-for-device-power-states) and [Wait/Wake Callback Routines](/windows-hardware/drivers/kernel/wait-wake-callback-routines).
 
-The I/O manager calls the sending driver's <i>PowerCompletion</i> routine only after the I/O manager has called all the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routines that were set by other drivers as they passed the IRP down the stack. The <i>PowerCompletion</i> routine performs any additional tasks that the sender of the IRP requires after all other drivers have completed the IRP. The <i>PowerCompletion</i> routine should not free the IRP—the power manager does that.
+The I/O manager calls the sending driver's *PowerCompletion* routine only after the I/O manager has called all the [IoCompletion](./nc-wdm-io_completion_routine.md) routines that were set by other drivers as they passed the IRP down the stack. The *PowerCompletion* routine performs any additional tasks that the sender of the IRP requires after all other drivers have completed the IRP. The *PowerCompletion* routine should not free the IRP—the power manager does that.
 
-In Windows 2000 and later versions of Windows, the <i>PowerCompletion</i> routine is called at IRQL = PASSIVE_LEVEL or IRQL = DISPATCH_LEVEL. In Windows 98/Me, the <i>PowerCompletion</i> routine is always called at IRQL = PASSIVE_LEVEL, and drivers must complete IRPs at IRQL = PASSIVE_LEVEL.
+The *PowerCompletion* routine is called at IRQL = PASSIVE_LEVEL or IRQL = DISPATCH_LEVEL.
 
+### Examples
 
+To define a *PowerCompletion* callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
-#### Examples
+For example, to define a *PowerCompletion* callback routine that is named `MyPowerCompletion`, use the REQUEST_POWER_COMPLETE type as shown in this code example:
 
-To define a <i>PowerCompletion</i> callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
-
-For example, to define a <i>PowerCompletion</i> callback routine that is named <code>MyPowerCompletion</code>, use the REQUEST_POWER_COMPLETE type as shown in this code example:
-
-
-```
+```cpp
 REQUEST_POWER_COMPLETE MyPowerCompletion;
 ```
 
 Then, implement your callback routine as follows:
 
-
-```
+```cpp
 _Use_decl_annotations_
 VOID
   MyPowerCompletion(
@@ -115,39 +102,22 @@ VOID
   }
 ```
 
-The REQUEST_POWER_COMPLETE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the REQUEST_POWER_COMPLETE function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
-
-<div class="code"></div>
+The REQUEST_POWER_COMPLETE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the `_Use_decl_annotations_` annotation to your function definition. The `_Use_decl_annotations_` annotation ensures that the annotations that are applied to the REQUEST_POWER_COMPLETE function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions by Using Function Role Types for WDM Drivers](/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers). For information about `_Use_decl_annotations_`, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+[**DEVICE_OBJECT**](./ns-wdm-_device_object.md)
 
+[**IO_STATUS_BLOCK**](./ns-wdm-_io_status_block.md)
 
+[IRP_MJ_POWER](/windows-hardware/drivers/kernel/irp-mj-power)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a>
+[IRP_MN_QUERY_POWER](/windows-hardware/drivers/kernel/irp-mn-query-power)
 
+[IRP_MN_SET_POWER](/windows-hardware/drivers/kernel/irp-mn-set-power)
 
+[IRP_MN_WAIT_WAKE](/windows-hardware/drivers/kernel/irp-mn-wait-wake)
 
-<a href="/windows-hardware/drivers/kernel/irp-mj-power">IRP_MJ_POWER</a>
+[IoCompletion](./nc-wdm-io_completion_routine.md)
 
-
-
-<a href="/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/irp-mn-wait-wake">IRP_MN_WAIT_WAKE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-porequestpowerirp">PoRequestPowerIrp</a>
-
+[PoRequestPowerIrp](./nf-wdm-porequestpowerirp.md)

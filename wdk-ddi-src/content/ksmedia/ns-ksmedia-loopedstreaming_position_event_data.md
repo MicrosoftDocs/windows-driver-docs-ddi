@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_56
+UID: NS:ksmedia.LOOPEDSTREAMING_POSITION_EVENT_DATA
 title: LOOPEDSTREAMING_POSITION_EVENT_DATA (ksmedia.h)
 description: The LOOPEDSTREAMING_POSITION_EVENT_DATA structure describes a position event in a looped buffer.
 old-location: audio\loopedstreaming_position_event_data.htm

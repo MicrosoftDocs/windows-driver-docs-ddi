@@ -82,9 +82,13 @@ The data described by this structure is intended only for the Hardware Keyword S
 
 The WAVEFORMATEXTENSIBLE returned by the driver reports the channel count as a sum of the primary and loopback audio, with a channel mask appropriate for the total channel count. The primary and interleaved audio must have matching bits per sample, sample rate, etc. This structure communicates all information needed to split the two streams of data.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

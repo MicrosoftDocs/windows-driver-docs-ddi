@@ -1,5 +1,5 @@
 ---
-UID: NE:netdispumdddi.__unnamed_enum_1
+UID: NE:netdispumdddi.MIRACAST_PROTOCOL_EVENT
 title: MIRACAST_PROTOCOL_EVENT (netdispumdddi.h)
 description: Specifies the types of wireless display (Miracast) protocol event that the user-mode display driver should report.
 old-location: display\miracast_protocol_event.htm

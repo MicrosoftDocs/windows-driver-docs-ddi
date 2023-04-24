@@ -72,10 +72,15 @@ Pointer to the [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md) for this ACX data for
 
 Instances of the **ACX_DATAFORMAT_CONFIG** structure must be initialized by calling the [ACX_DATAFORMAT_CONFIG_INIT](nf-acxdataformat-acx_dataformat_config_init.md) function.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_DATAFORMAT_CONFIG_INIT](nf-acxdataformat-acx_dataformat_config_init.md)
 - [ACX_DATAFORMAT_CONFIG_FLAGS](ne-acxdataformat-acx_dataformat_config_flags.md)
 - [ACX_DATAFORMAT_CONFIG_INIT_KS](nf-acxdataformat-acx_dataformat_config_init_ks.md)
 - [acxdataformat.h header](index.md)
-

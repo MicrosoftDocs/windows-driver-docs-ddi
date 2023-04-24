@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetStreamCreate
 tech.root: audio
 title: AcxTargetStreamCreate
-ms.date: 07/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetStreamCreate function is used to create a target stream.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxtargets.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -48,11 +48,11 @@ The **AcxTargetStreamCreate** function is used to create a target stream.
 
 ### -param Device
 
-A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the current ACXCIRCUIT. 
+A WDFDEVICE object (described in [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that is associated with the current ACXCIRCUIT.
 
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various object’s values: cleanup and destroy callbacks, context type, and to specify its parent object.
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various object's values: cleanup and destroy callbacks, context type, and to specify its parent object.
 
 ### -param Config
 
@@ -104,7 +104,12 @@ Drivers should use the ACXSTREAMBRIDGE to automatically propagate an audio strea
 
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxtargets.h header](index.md)
-

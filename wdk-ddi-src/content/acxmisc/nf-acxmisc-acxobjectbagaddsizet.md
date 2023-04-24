@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagAddSizeT
 tech.root: audio
 title: AcxObjectBagAddSizeT
-ms.date: 06/17/2022
+ms.date: 12/16/2022
 targetos: Windows
-description: The AcxObjectBagAddSizeT function adds a SIZE_T entry to an existing, intialized AcxObjectBag.
+description: The AcxObjectBagAddSizeT function adds a SIZE_T entry to an existing, initialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxmisc.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddSizeT function adds a SIZE_T entry to an existing, intialized AcxObjectBag.
- 
+The AcxObjectBagAddSizeT function adds a SIZE_T entry to an existing, initialized AcxObjectBag.
+
 ## -parameters
 
 ### -param ObjectBag
 
-An intialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An initialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param ValueName
 
@@ -63,6 +63,12 @@ The Value to be added to the ObjectBag.
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

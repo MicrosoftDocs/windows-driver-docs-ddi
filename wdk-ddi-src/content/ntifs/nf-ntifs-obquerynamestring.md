@@ -10,7 +10,7 @@ ms.keywords: ObQueryNameString, ObQueryNameString routine [Installable File Syst
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows 2000 and later operating systems.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

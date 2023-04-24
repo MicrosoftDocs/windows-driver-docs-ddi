@@ -61,10 +61,14 @@ A pointer to the [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md) structure to init
 
 This call uses AcxPinIdDefault as the ID for all newly added ACXPINs. When AcxPinIdDefault is specified, ACX assigns the next sequential ID based on the previous added ACXPINs.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_PIN_CONFIG_INIT_ID](nf-acxpin-acx_pin_config_init_id.md)
 - [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

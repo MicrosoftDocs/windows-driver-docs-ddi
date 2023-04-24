@@ -59,4 +59,4 @@ This method returns the appropriate **HRESULT** value.
 
 ## -see-also
 
-[IPrinterBidiSetRequestCallback](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterbidisetrequestcallback)
+[IPrinterBidiSetRequestCallback](./nn-printerextension-iprinterbidisetrequestcallback.md)

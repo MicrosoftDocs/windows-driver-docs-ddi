@@ -10,7 +10,7 @@ ms.keywords: FsRtlSetupAdvancedHeader, FsRtlSetupAdvancedHeader function [Instal
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available on Microsoft Windows XP and later.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

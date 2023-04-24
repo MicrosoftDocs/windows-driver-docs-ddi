@@ -1,5 +1,5 @@
 ---
-UID: NE:winsplp.__unnamed_enum_0
+UID: NE:winsplp.EBranchOfficeJobEventType
 title: EBranchOfficeJobEventType (winsplp.h)
 description: "Learn more about: EBranchOfficeJobEventType enumeration"
 ms.date: 11/18/2020
@@ -35,6 +35,7 @@ product:
 
 # EBranchOfficeJobEventType enumeration
 
+
 ## -description
 
 ## -enum-fields
@@ -54,3 +55,4 @@ product:
 ## -remarks
 
 ## -see-also
+

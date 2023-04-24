@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_25
+UID: NS:ksmedia.KSRTAUDIO_BUFFER
 title: KSRTAUDIO_BUFFER (ksmedia.h)
 description: The KSRTAUDIO_BUFFER structure specifies the buffer address, size, and a call memory barrier flag for a cyclic audio data buffer.
 old-location: audio\ksrtaudio_buffer.htm

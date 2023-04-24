@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **GETINFO_FONTOBJ** structure is used as input to the [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) callback function.
+The **GETINFO_FONTOBJ** structure is used as input to the [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function.
 
 ## -struct-fields
 
@@ -57,14 +57,14 @@ Specifies the size, in bytes, of the **GETINFO_FONTOBJ** structure. Supplied by 
 
 ### -field pFontObj
 
-Pointer to an empty [FONTOBJ](/windows/win32/api/winddi/ns-winddi-fontobj) structure. The structure is filled in by Unidrv's [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) callback function. The pointer is supplied by the UNIFONTOBJ_GetInfo caller.
+Pointer to an empty [FONTOBJ](/windows/win32/api/winddi/ns-winddi-fontobj) structure. The structure is filled in by Unidrv's [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function. The pointer is supplied by the UNIFONTOBJ_GetInfo caller.
 
 ## -remarks
 
-To obtain a font's **FONTOBJ** structure contents, a rendering plug-in can supply the address of a **GETINFO_FONTOBJ** structure when calling Unidrv's [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) callback function.
+To obtain a font's **FONTOBJ** structure contents, a rendering plug-in can supply the address of a **GETINFO_FONTOBJ** structure when calling Unidrv's [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function.
 
 ## -see-also
 
 [FONTOBJ](/windows/win32/api/winddi/ns-winddi-fontobj)
 
-[UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo)
+[UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md)

@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Gets a pointer to the enumerants of [IPrinterExtensionContextCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection) objects.
+Gets a pointer to the enumerants of [IPrinterExtensionContextCollection](./nn-printerextension-iprinterextensioncontextcollection.md) objects.
 
 ## -parameters
 
@@ -56,4 +56,4 @@ Returns an **HRESULT** value. If the property call was not successful,  it retur
 
 ## -see-also
 
-[IPrinterExtensionContextCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection)
+[IPrinterExtensionContextCollection](./nn-printerextension-iprinterextensioncontextcollection.md)

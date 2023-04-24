@@ -1,8 +1,8 @@
 ---
 UID: NC:acxelements.EVT_ACX_AUDIOMODULE_PROCESSCOMMAND
-tech.root: audio 
+tech.root: audio
 title: EVT_ACX_AUDIOMODULE_PROCESSCOMMAND
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: EVT_ACX_AUDIOMODULE_PROCESSCOMMAND tells the driver to process a command for an audio module element.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -96,7 +96,7 @@ CodecR_EvtProcessCommand0(
     PCODEC_AUDIOMODULE0_CONTEXT     audioModuleCtx;
     AUDIOMODULE_PARAMETER_INFO *    parameterInfo = NULL;
     AUDIOMODULE_CUSTOM_COMMAND *    command = NULL;
-    
+
     PAGED_CODE();
 
     audioModuleCtx = GetCodecAudioModule0Context(AudioModule);
@@ -120,7 +120,7 @@ CodecR_EvtProcessCommand0(
         return STATUS_INVALID_PARAMETER;
     }
 
-    command = (AUDIOMODULE_CUSTOM_COMMAND*)InBuffer;  
+    command = (AUDIOMODULE_CUSTOM_COMMAND*)InBuffer; 
 
     if (command->ParameterId >= SIZEOF_ARRAY(AudioModule0_ParameterInfo))
     {
@@ -155,7 +155,7 @@ CodecR_EvtProcessCommand0(
     {
         inBuffer = NULL;
     }
-    
+
     status = AudioModule_GenericHandler(
                 command->Verb,
                 command->ParameterId,
@@ -171,7 +171,7 @@ CodecR_EvtProcessCommand0(
     {
         goto exit;
     }
-    
+
     if (fNewValue &&
         (parameterInfo->Flags & AUDIOMODULE_PARAMETER_FLAG_CHANGE_NOTIFICATION))
     {
@@ -189,11 +189,17 @@ CodecR_EvtProcessCommand0(
 
     // Normalize error code.
     status = STATUS_SUCCESS;
-    
+
 exit:
     return status;
 }
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

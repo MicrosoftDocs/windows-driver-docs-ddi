@@ -50,7 +50,7 @@ The **ACX_CIRCUIT_COMPOSITE_CALLBACKS** structure identifies the driver callback
 
 ### -field Size
 
-The length, in bytes, of this structure. 
+The length, in bytes, of this structure.
 
 ### -field EvtAcxCircuitCompositeCircuitInitialize
 
@@ -83,7 +83,12 @@ Example usage is shown below.
     AcxFactoryCircuitInitSetOperationCallbacks(factoryInit, &operationCallbacks);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

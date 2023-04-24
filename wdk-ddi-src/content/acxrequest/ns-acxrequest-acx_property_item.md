@@ -54,7 +54,7 @@ Specifies a GUID that identifies a KS (kernel streaming) property item set. For 
 
 ### -field Id
 
-Specifies the member of the property set. For example, KSPROPERTY_TOPOLOGY_NODES of the topology property set is used to retrieve the list of KS NODES (ACXELEMENTS). 
+Specifies the member of the property set. For example, KSPROPERTY_TOPOLOGY_NODES of the topology property set is used to retrieve the list of KS NODES (ACXELEMENTS).
 
 ### -field Flags
 
@@ -124,7 +124,12 @@ static ACX_PROPERTY_ITEM PinProperties[] =
 
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxrequest.h header](index.md)
-

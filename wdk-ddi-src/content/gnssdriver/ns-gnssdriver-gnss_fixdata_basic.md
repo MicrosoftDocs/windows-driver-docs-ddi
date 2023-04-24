@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_11
+UID: NS:gnssdriver.GNSS_FIXDATA_BASIC
 title: GNSS_FIXDATA_BASIC (gnssdriver.h)
 description: The GNSS_FIXDATA_BASIC structure defines basic position information.
 old-location: gnss\gnss_fixdata_basic.htm
@@ -45,6 +45,7 @@ api_name:
 
 # GNSS_FIXDATA_BASIC structure
 
+
 ## -description
 
 The **GNSS_FIXDATA_BASIC** structure defines basic position information.
@@ -78,3 +79,4 @@ Speed in meters per second. Zero or positive value. NaN indicates unavailable.
 ### -field Heading
 
 Heading/direction in degrees. Valid range is 0 to 360. Zero indicates true north. NaN indicates unavailable.
+

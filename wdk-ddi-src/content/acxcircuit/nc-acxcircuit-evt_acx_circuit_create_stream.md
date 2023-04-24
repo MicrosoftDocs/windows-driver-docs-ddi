@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_CREATE_STREAM
 tech.root: audio
 title: EVT_ACX_CIRCUIT_CREATE_STREAM
-ms.date: 11/02/2021
+ms.date: 12/14/2022
 targetos: Windows
 description: The driver defines the EVT_ACX_CIRCUIT_CREATE_STREAM callback to create circuit stream instances.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -80,16 +80,16 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-The first step in Stream Creation is creating the ACXSTREAM instance for each ACXCIRCUIT in the Endpoint Audio Path. ACX will call each circuit’s EvtAcxCircuitCreateStream. ACX will start with the head circuit and call each circuit’s CreateStream in order, ending with the tail circuit.
+The first step in Stream Creation is creating the ACXSTREAM instance for each ACXCIRCUIT in the Endpoint Audio Path. ACX will call each circuit's EvtAcxCircuitCreateStream. ACX will start with the head circuit and call each circuit's CreateStream in order, ending with the tail circuit.
 
 The drivers have an opportunity to do any initialization before or after the next circuit in the chain is invoked, refer to the  ACXSTREAMBRIDGE object for more information.
 
-The Stream Creation Request is sent to the appropriate ACXPIN exposed as part of the head circuit’s topology generation by calling the EvtAcxCircuitCreateStream specified during head circuit creation.
+The Stream Creation Request is sent to the appropriate ACXPIN exposed as part of the head circuit's topology generation by calling the EvtAcxCircuitCreateStream specified during head circuit creation.
 
 The driver receiving the stream creation callback performs the following operations:
 
 - It initializes the ACXSTREAM_INIT opaque structure by using ACX defined DDIs (AcxStreamInit*)
-- It creates the ACXSTREAM object using the AcxStreamCreate or AcxRtStreamCreate ACX DDI. The AcxRtStreamCreate is only used for streaming ACXPIN connected to upper user mode audio pipeline, all other circuits of the endpoint path must use the AcxStreamCreate DDI instead. 
+- It creates the ACXSTREAM object using the AcxStreamCreate or AcxRtStreamCreate ACX DDI. The AcxRtStreamCreate is only used for streaming ACXPIN connected to upper user mode audio pipeline, all other circuits of the endpoint path must use the AcxStreamCreate DDI instead.
 - It creates any stream-specific elements, for example ACXAUDIOENGINE.
 - It adds the elements to the ACXSTREAM object.
 - It returns STATUS_SUCCESS to indicate that the stream creation callback completed successfully.
@@ -276,7 +276,12 @@ Return Value:
     // Add stream elements
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

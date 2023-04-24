@@ -2,9 +2,8 @@
 UID: NC:wdm.SET_VIRTUAL_DEVICE_DATA
 title: SET_VIRTUAL_DEVICE_DATA (wdm.h)
 description: The SetVirtualFunctionData routine writes data to the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
-old-location: pci\setvirtualfunctiondata.htm
 tech.root: PCI
-ms.date: 07/29/2021
+ms.date: 01/19/2023
 keywords: ["SET_VIRTUAL_DEVICE_DATA callback"]
 ms.keywords: PCI.setvirtualfunctiondata, SET_VIRTUAL_DEVICE_DATA, SetVirtualFunctionData, SetVirtualFunctionData routine, wdm/SetVirtualFunctionData
 req.header: wdm.h
@@ -23,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= APC_LEVEL
+req.irql: IRQL <= APC_LEVEL
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
@@ -41,17 +40,15 @@ api_name:
  - SET_VIRTUAL_DEVICE_DATA
 ---
 
-# SET_VIRTUAL_DEVICE_DATA callback
-
 ## -description
 
-The  [SetVirtualFunctionData]() routine writes data to the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
+The **SetVirtualFunctionData** routine writes data to the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
 
 ## -parameters
 
 ### -param Context [in, out]
 
-A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)) structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [**PCI_VIRTUALIZATION_INTERFACE**](ns-wdm-pci_virtualization_interface.md) structure for the interface.
 
 ### -param VirtualFunction [in]
 
@@ -71,34 +68,18 @@ The length, in bytes, of the data to be written.
 
 ## -returns
 
-The [SetVirtualFunctionData]() routine returns the length, in bytes, of the PCIe configuration data that was written after a successful write operation. If the write operation is unsuccessful, the routine returns zero.
-
-## -prototype
-
-```cpp
-SET_VIRTUAL_DEVICE_DATA SetVirtualFunctionData;
-
-ULONG SetVirtualFunctionData(
-  _Inout_ PVOID  Context,
-  _In_    USHORT VirtualFunction,
-  _In_    PVOID  Buffer,
-  _In_    ULONG  Offset,
-  _In_    ULONG  Length
-)
-{ ... }
-```
+The ***SetVirtualFunctionData** routine returns the length, in bytes, of the PCIe configuration data that was written after a successful write operation. If the write operation is unsuccessful, the routine returns zero.
 
 ## -remarks
 
-The [SetVirtualFunctionData]() routine is similar to the [SetBusData](..\wdm\nc-wdm-get_set_device_data.md) routine, except that it writes PCIe configuration data to a VF instead of to a device's physical function (PF).
+The ***SetVirtualFunctionData** routine is similar to the [SetBusData](nc-wdm-get_set_device_data.md) routine, except that it writes PCIe configuration data to a VF instead of to a device's physical function (PF).
 
-The [SetVirtualFunctionData]() routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface. The [SetBusData](..\wdm\nc-wdm-get_set_device_data.md) routine is provided by the **GUID_BUS_INTERFACE_STANDARD** interface.
+The ***SetVirtualFunctionData** routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface. The [SetBusData](nc-wdm-get_set_device_data.md) routine is provided by the **GUID_BUS_INTERFACE_STANDARD** interface.
 
-> [!NOTE]
-> The virtualization stack calls [SetVirtualFunctionData]() when a driver that is running in the guest operating system calls the [SetBusData](..\wdm\nc-wdm-get_set_device_data.md) routine.
+The virtualization stack calls ***SetVirtualFunctionData** when a driver that is running in the guest operating system calls the [SetBusData](nc-wdm-get_set_device_data.md) routine.
 
 ## -see-also
 
-[SetBusData](..\wdm\nc-wdm-get_set_device_data.md)
+[SetBusData](nc-wdm-get_set_device_data.md)
 
-[PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85))
+[**PCI_VIRTUALIZATION_INTERFACE**](ns-wdm-pci_virtualization_interface.md)

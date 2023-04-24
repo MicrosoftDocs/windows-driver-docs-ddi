@@ -10,7 +10,7 @@ ms.keywords: FsRtlInitPerStreamContext, FsRtlInitPerStreamContext function [Inst
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop
-req.target-min-winverclnt: The FsRtlInitPerStreamContext macro is available on Microsoft Windows XP and later, and on the Update Rollup for Windows 2000 Service Pack 4 (SP4).
+req.target-min-winverclnt: Windows XP; Update Rollup for Windows 2000 Service Pack 4 (SP4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

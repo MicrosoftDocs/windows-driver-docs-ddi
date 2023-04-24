@@ -2,9 +2,8 @@
 UID: NS:avcstrm._AVCSTRM_FORMAT_INFO
 title: _AVCSTRM_FORMAT_INFO (avcstrm.h)
 description: The AVCSTRM_FORMAT_INFO structure is used to describe a data stream.
-old-location: stream\avcstrm_format_info.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/03/2023
 keywords: ["AVCSTRM_FORMAT_INFO structure"]
 ms.keywords: "*PAVCSTRM_FORMAT_INFO, AVCSTRM_FORMAT_INFO, AVCSTRM_FORMAT_INFO structure [Streaming Media Devices], PAVCSTRM_FORMAT_INFO, PAVCSTRM_FORMAT_INFO structure pointer [Streaming Media Devices], _AVCSTRM_FORMAT_INFO, avcsref_e41f0bb0-8407-4338-9a68-46c00116ae92.xml, avcstrm/AVCSTRM_FORMAT_INFO, avcstrm/PAVCSTRM_FORMAT_INFO, stream.avcstrm_format_info"
 req.header: avcstrm.h
@@ -46,9 +45,6 @@ api_name:
  - AVCSTRM_FORMAT_INFO
 ---
 
-# _AVCSTRM_FORMAT_INFO structure
-
-
 ## -description
 
 The AVCSTRM_FORMAT_INFO structure is used to describe a data stream.
@@ -61,7 +57,7 @@ Specifies the size of this data structure, in bytes.
 
 ### -field AVCStrmFormat
 
-Specifies one of the AV/C streaming subunit formats defined in <a href="/windows-hardware/drivers/ddi/avcstrm/ne-avcstrm-_avcstrm_format">AVCSTRM_FORMAT</a>.
+Specifies one of the AV/C streaming subunit formats defined in [AVCSTRM_FORMAT](./ne-avcstrm-_avcstrm_format.md).
 
 ### -field cipHdr1
 
@@ -91,26 +87,9 @@ Specifies the number of transmitting buffers.
 
 Specifies any option flags. Currently, only one flag is defined:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-
-
-<dl>
-<dt><a id="AVCSTRM_FORMAT_OPTION_STRIP_SPH"></a><a id="avcstrm_format_option_strip_sph"></a>AVCSTRM_FORMAT_OPTION_STRIP_SPH</dt>
-<dd></dd>
-</dl>
-</td>
-<td>
-Strip the SPH (source packet header) from the 192-byte data packet for MPEG2TS.
-
-</td>
-</tr>
-</table>
+| Flag | Description |
+|---|---|
+| AVCSTRM_FORMAT_OPTION_STRIP_SPH | Strip the SPH (source packet header) from the 192-byte data packet for MPEG2TS. |
 
 ### -field AvgTimePerFrame
 
@@ -118,7 +97,7 @@ Specifies the average time per frame in 100 nanosecond units.
 
 ### -field BlockPeriod
 
-Specifies the block period. This is used for transmit only. It is calculated from 1/ BlockPerSecond * 1,000,000,000 picoseconds. For SDDV, it transmits one block per 1394 cycle. 1/(29.97 * 250) * 1,000,000,000,000 = 133,466,800 picoseconds.
+Specifies the block period. This is used for transmit only. It is calculated from 1/ BlockPerSecond *1,000,000,000 picoseconds. For SDDV, it transmits one block per 1394 cycle. 1/(29.97* 250) * 1,000,000,000,000 = 133,466,800 picoseconds.
 
 ### -field Reserved
 
@@ -126,21 +105,12 @@ Reserved. Do not use. Must be set to 0.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/avcstrm/ne-avcstrm-_avcstrm_format">AVCSTRM_FORMAT</a>
+[AVCSTRM_FORMAT](./ne-avcstrm-_avcstrm_format.md)
 
+[CIP_HDR1](./ns-avcstrm-_cip_hdr1.md)
 
+[CIP_HDR2_FDF](./ns-avcstrm-_cip_hdr2_fdf.md)
 
-<a href="/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr1">CIP_HDR1</a>
+[CIP_HDR2_MPEGTS](./ns-avcstrm-_cip_hdr2_mpegts.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr2_fdf">CIP_HDR2_FDF</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr2_mpegts">CIP_HDR2_MPEGTS</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr2_syt">CIP_HDR2_SYT</a>
-
+[CIP_HDR2_SYT](./ns-avcstrm-_cip_hdr2_syt.md)

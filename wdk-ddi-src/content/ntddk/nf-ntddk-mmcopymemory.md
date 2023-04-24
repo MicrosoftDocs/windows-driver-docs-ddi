@@ -2,9 +2,8 @@
 UID: NF:ntddk.MmCopyMemory
 title: MmCopyMemory function (ntddk.h)
 description: The MmCopyMemory routine copies the specified range of virtual or physical memory into the caller-supplied buffer.
-old-location: kernel\mmcopymemory.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/20/2023
 keywords: ["MmCopyMemory function"]
 ms.keywords: MmCopyMemory, MmCopyMemory routine [Kernel-Mode Driver Architecture], kernel.mmcopymemory, ntddk/MmCopyMemory
 req.header: ntddk.h
@@ -41,76 +40,55 @@ api_name:
  - MmCopyMemory
 ---
 
-# MmCopyMemory function
-
-
 ## -description
 
-The <b>MmCopyMemory</b> routine copies the specified range of virtual or physical memory into the caller-supplied buffer.
+The **MmCopyMemory** routine copies the specified range of virtual or physical memory into the caller-supplied buffer.
 
 ## -parameters
 
 ### -param TargetAddress [in]
 
-
 A pointer to a caller-supplied buffer. This buffer must be in nonpageable  memory.
 
 ### -param SourceAddress [in]
 
-
-An <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_mm_copy_address">MM_COPY_ADDRESS</a> structure, passed by value, that contains either the virtual address or the physical address of the data to be copied to the buffer pointed to by <i>TargetAddress</i>.
+An [MM_COPY_ADDRESS](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_mm_copy_address) structure, passed by value, that contains either the virtual address or the physical address of the data to be copied to the buffer pointed to by *TargetAddress*.
 
 ### -param NumberOfBytes [in]
 
-
-The number of bytes to copy from <i>SourceAddress</i> to <i>TargetAddress</i>.
+The number of bytes to copy from *SourceAddress* to *TargetAddress*.
 
 ### -param Flags [in]
 
+Flags that indicate whether *SourceAddress* is a virtual address or a physical address. The following flag bits are defined for this parameter.
 
-Flags that indicate whether <i>SourceAddress</i> is a virtual address or a physical address. The following flag bits are defined for this parameter.
-
-<table>
-<tr>
-<th>Flag bit</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>MM_COPY_MEMORY_PHYSICAL</td>
-<td><i>SourceAddress</i> specifies a physical address.</td>
-</tr>
-<tr>
-<td>MM_COPY_MEMORY_VIRTUAL</td>
-<td><i>SourceAddress</i> specifies a virtual address.</td>
-</tr>
-</table>
- 
+| Flag bit | Description |
+|--|--|
+| MM_COPY_MEMORY_PHYSICAL | *SourceAddress* specifies a physical address. |
+| MM_COPY_MEMORY_VIRTUAL | *SourceAddress* specifies a virtual address. |
 
 These two flag bits are mutually exclusive. The caller must set one or the other, but not both.
 
 ### -param NumberOfBytesTransferred [out]
 
-
-A pointer to a location to which the routine writes the number of bytes successfully copied from the <i>SourceAddress</i> location to the buffer at <i>TargetAddress</i>.
+A pointer to a location to which the routine writes the number of bytes successfully copied from the *SourceAddress* location to the buffer at *TargetAddress*.
 
 ## -returns
 
-<b>MmCopyMemory</b> returns STATUS_SUCCESS if the entire range has been copied successfully. Otherwise, an error status is returned and the caller must inspect the output value pointed to by the <i>NumberOfBytesTransferred</i> parameter to determine how many bytes were actually copied.
+**MmCopyMemory** returns STATUS_SUCCESS if the entire range has been copied successfully. Otherwise, an error status is returned and the caller must inspect the output value pointed to by the *NumberOfBytesTransferred* parameter to determine how many bytes were actually copied.
 
 ## -remarks
 
 Kernel-mode drivers can call this routine to safely access arbitrary physical or virtual addresses.
 
-If the MM_COPY_MEMORY_PHYSICAL flag is set, <i>SourceAddress</i> should point to regular memory that is under control of the operating system. <b>MmCopyMemory</b> will return an error status code for physical addresses that refer to I/O space, which includes memory-mapped devices and firmware tables. To access physical memory in I/O space, drivers can use the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmapiospace">MmMapIoSpace</a> routine.
+If the MM_COPY_MEMORY_PHYSICAL flag is set, *SourceAddress* should point to regular memory that is under control of the operating system. **MmCopyMemory** will return an error status code for physical addresses that refer to I/O space, which includes memory-mapped devices and firmware tables. To access physical memory in I/O space, drivers can use the [MmMapIoSpace](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmapiospace) routine.
 
-If the MM_COPY_MEMORY_VIRTUAL flag is set, <i>SourceAddress</i> can point to either a buffer in system address space, or a buffer in the user address space of the current process. If the caller does not control the lifetime of the allocation containing the specified source address, <b>MmCopyMemory</b> might fail or might return inconsistent data, but will not cause a system crash—even for system addresses that are invalid and would trigger a bug check if referenced directly. <b>MmCopyMemory</b> will return an error status code for system virtual addresses that refer to I/O space.
+If the MM_COPY_MEMORY_VIRTUAL flag is set, *SourceAddress* can point to either a buffer in system address space, or a buffer in the user address space of the current process. If the caller does not control the lifetime of the allocation containing the specified source address, **MmCopyMemory** might fail or might return inconsistent data, but will not cause a system crash—even for system addresses that are invalid and would trigger a bug check if referenced directly. **MmCopyMemory** will return an error status code for system virtual addresses that refer to I/O space.
 
-If memory at the virtual address specified by <i>SourceAddress</i> is not resident, <b>MmCopyMemory</b> will try to make it resident.
+If memory at the virtual address specified by *SourceAddress* is not resident, **MmCopyMemory** will try to make it resident.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_mm_copy_address">MM_COPY_ADDRESS</a>
+[MM_COPY_ADDRESS](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_mm_copy_address)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmapiospace">MmMapIoSpace</a>
+[MmMapIoSpace](/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmapiospace)

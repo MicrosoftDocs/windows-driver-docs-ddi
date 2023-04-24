@@ -70,10 +70,10 @@ Before the first call to <b>IoSetMasterIrpStatus</b>, the driver sets the <b>IoS
 As a general rule, <b>IoSetMasterIrpStatus</b> replaces the status code in <i>PIRP</i>-><b>IoStatus.Status</b> with the <i>Status</i> value in the following cases:
 
 <ul>
-<li>The status value in *<i>PIRP</i> is STATUS_SUCCESS, and <i>Status</i> is an error code.</li>
-<li>The status value in *<i>PIRP</i> is an error code, but <i>Status</i> is a more severe error code.</li>
+<li>The status value in **PIRP* is STATUS_SUCCESS, and <i>Status</i> is an error code.</li>
+<li>The status value in **PIRP* is an error code, but <i>Status</i> is a more severe error code.</li>
 </ul>
-There are two exceptions to the general rule. A <i>Status</i> value of STATUS_VERIFY_REQUIRED <u>always</u> replaces the status value in *<i>PIRP</i>. A <i>Status</i> value of STATUS_FT_READ_FROM_COPY <u>never</u> replaces the status value in *<i>PIRP</i>.
+There are two exceptions to the general rule. A <i>Status</i> value of STATUS_VERIFY_REQUIRED <u>always</u> replaces the status value in **PIRP*. A <i>Status</i> value of STATUS_FT_READ_FROM_COPY <u>never</u> replaces the status value in **PIRP*.
 
 ## -see-also
 

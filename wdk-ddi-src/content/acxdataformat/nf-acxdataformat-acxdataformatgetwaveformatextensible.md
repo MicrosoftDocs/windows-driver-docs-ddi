@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetWaveFormatExtensible
 tech.root: audio
 title: AcxDataFormatGetWaveFormatExtensible
-ms.date: 05/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetWaveFormatExtensible function gets the WAVEFORMATEXTENSIBLE structure associated with the specified data format.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdataformat.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -56,8 +56,13 @@ Returns a pointer to the [WAVEFORMATEXTENSIBLE](../ksmedia/ns-ksmedia-waveformat
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [WAVEFORMATEXTENSIBLE](../ksmedia/ns-ksmedia-waveformatextensible.md)
 - [acxdataformat.h header](index.md)
-

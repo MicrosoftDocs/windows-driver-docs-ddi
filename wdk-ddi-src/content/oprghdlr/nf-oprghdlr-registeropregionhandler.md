@@ -2,9 +2,8 @@
 UID: NF:oprghdlr.RegisterOpRegionHandler
 title: RegisterOpRegionHandler function (oprghdlr.h)
 description: The RegisterOpRegionHandler routine registers an operation region handler with the ACPI driver.
-old-location: acpi\registeropregionhandler.htm
 tech.root: acpi
-ms.date: 11/19/2020
+ms.date: 03/03/2023
 keywords: ["RegisterOpRegionHandler function"]
 ms.keywords: RegisterOpRegionHandler, RegisterOpRegionHandler routine [ACPI Devices], acpi.registeropregionhandler, opregref_9742e50b-613d-4191-b0a2-6d1b0f365494.xml, oprghdlr/RegisterOpRegionHandler
 req.header: oprghdlr.h
@@ -41,8 +40,6 @@ api_name:
  - RegisterOpRegionHandler
 ---
 
-# RegisterOpRegionHandler function
-
 ## -description
 
 The **RegisterOpRegionHandler** routine registers an operation region handler with the [ACPI driver](/windows-hardware/drivers/kernel/acpi-driver).
@@ -51,21 +48,18 @@ The **RegisterOpRegionHandler** routine registers an operation region handler wi
 
 ### -param DeviceObject [in]
 
-
 Pointer to the [physical device object (PDO)](/windows-hardware/drivers/kernel/types-of-wdm-device-objects) that represents the ACPI device that defines the operation region.
 
 ### -param AccessType [in]
-
 
 Specifies ACPI_OPREGION_ACCESS_AS_COOKED.
 
 ### -param RegionSpace [in]
 
-
 Specifies one of the following types of region space.
 
 | Region space identifier | Description |
-|--|--|
+|---|---|
 | ACPI_OPREGION_REGION_SPACE_MEMORY | System memory |
 | ACPI_OPREGION_REGION_SPACE_IO | I/O space |
 | ACPI_OPREGION_REGION_SPACE_PCI_CONFIG | PCI configuration |
@@ -77,21 +71,17 @@ Specifies one of the following types of region space.
 
 ### -param Handler [in]
 
-
 Pointer to the [ACPI_OP_REGION_HANDLER](nc-oprghdlr-acpi_op_region_handler.md)-typed operation region handler (supplied by an ACPI device function driver).
 
 ### -param Context [in]
-
 
 Pointer to a device-specific operation region context (supplied by an ACPI device function driver).
 
 ### -param Flags [in]
 
-
 Reserved for internal use.
 
 ### -param OperationRegionObject [out]
-
 
 Pointer to caller-allocated buffer that, on output, contains a pointer to the operation region object that the ACPI driver creates for the operation region.
 
@@ -100,7 +90,7 @@ Pointer to caller-allocated buffer that, on output, contains a pointer to the op
 Returns one of the following status values:
 
 | Return code | Description |
-|--|--|
+|---|---|
 | STATUS_SUCCESS | The operating region handler was successfully registered. |
 | STATUS_ACPI_INVALID_DATA | The specified information is not valid. |
 | STATUS_INSUFFICIENT_RESOURCES | The routine could not allocate the necessary system resources. |

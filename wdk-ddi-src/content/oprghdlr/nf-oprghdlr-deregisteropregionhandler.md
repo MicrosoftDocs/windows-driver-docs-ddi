@@ -2,9 +2,8 @@
 UID: NF:oprghdlr.DeRegisterOpRegionHandler
 title: DeRegisterOpRegionHandler function (oprghdlr.h)
 description: The DeRegisterOpRegionHandler routine deregisters an operation region handler with the ACPI driver.
-old-location: acpi\deregisteropregionhandler.htm
 tech.root: acpi
-ms.date: 02/15/2018
+ms.date: 03/03/2023
 keywords: ["DeRegisterOpRegionHandler function"]
 ms.keywords: DeRegisterOpRegionHandler, DeRegisterOpRegionHandler routine [ACPI Devices], acpi.deregisteropregionhandler, opregref_e991e152-6162-4d45-9418-282afb447d18.xml, oprghdlr/DeRegisterOpRegionHandler
 req.header: oprghdlr.h
@@ -41,76 +40,38 @@ api_name:
  - DeRegisterOpRegionHandler
 ---
 
-# DeRegisterOpRegionHandler function
-
 ## -description
 
-The <b>DeRegisterOpRegionHandler</b> routine deregisters an operation region handler with the <a href="/windows-hardware/drivers/kernel/acpi-driver">ACPI driver</a>.
+The **DeRegisterOpRegionHandler** routine deregisters an operation region handler with the [ACPI driver](/windows-hardware/drivers/kernel/acpi-driver).
 
 ## -parameters
 
 ### -param DeviceObject [in]
 
-
 Pointer to the physical device object (PDO) that represents the ACPI device that defines the operation region.
 
 ### -param OperationRegionObject [in]
 
-
-Specifies the operation region object returned by <a href="/windows-hardware/drivers/ddi/oprghdlr/nf-oprghdlr-registeropregionhandler">RegisterOpRegionHandler</a> for the operation region handler.
+Specifies the operation region object returned by [RegisterOpRegionHandler](./nf-oprghdlr-registeropregionhandler.md) for the operation region handler.
 
 ## -returns
 
 Returns one of the following status values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operating region handler was successfully registered.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-The routine could not allocate the necessary system resources.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_Xxx</b></dt>
-</dl>
-</td>
-<td width="60%">
-An internal error occurred.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|---|---|
+| **STATUS_SUCCESS** | The operating region handler was successfully registered. |
+| **STATUS_INSUFFICIENT_RESOURCES** | The routine could not allocate the necessary system resources. |
+| **STATUS_Xxx** | An internal error occurred. |
 
 ## -remarks
 
-This routine is used in combination with <a href="/windows-hardware/drivers/ddi/oprghdlr/nf-oprghdlr-registeropregionhandler">RegisterOpRegionHandler</a>. To deregister an operation region handler, the caller must specify the operation region object returned by <b>RegisterOpRegionHandler</b> when it registered the operation region handler.
+This routine is used in combination with [RegisterOpRegionHandler](./nf-oprghdlr-registeropregionhandler.md). To deregister an operation region handler, the caller must specify the operation region object returned by **RegisterOpRegionHandler** when it registered the operation region handler.
 
-For more information about operation regions, see <a href="/windows-hardware/drivers/acpi/supporting-an-operation-region">Supporting an Operation Region</a>.
+For more information about operation regions, see [Supporting an Operation Region](/windows-hardware/drivers/acpi/supporting-an-operation-region).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/oprghdlr/nc-oprghdlr-acpi_op_region_handler">ACPI_OP_REGION_HANDLER</a>
+[ACPI_OP_REGION_HANDLER](./nc-oprghdlr-acpi_op_region_handler.md)
 
-<a href="/windows-hardware/drivers/ddi/oprghdlr/nf-oprghdlr-registeropregionhandler">RegisterOpRegionHandler</a>
+[RegisterOpRegionHandler](./nf-oprghdlr-registeropregionhandler.md)

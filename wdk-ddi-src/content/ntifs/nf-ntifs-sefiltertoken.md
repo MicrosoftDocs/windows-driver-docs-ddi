@@ -10,7 +10,7 @@ ms.keywords: SeFilterToken, SeFilterToken routine [Installable File System Drive
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Microsoft Windows XP and later.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -147,7 +147,7 @@ Specify a list of restricting SIDs, which the system uses when it checks the tok
 </ul>
 The restricted token can be used together with <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-secreateclientsecurity">SeCreateClientSecurity</a> and <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seimpersonateclientex">SeImpersonateClientEx</a> to create a process that has restricted access rights and privileges. 
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK. 
 
 When the token returned in <i>NewToken</i> is no longer needed, free it by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>.
 

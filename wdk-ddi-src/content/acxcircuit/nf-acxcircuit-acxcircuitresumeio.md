@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitResumeIo
 tech.root: audio
 title: AcxCircuitResumeIo
-ms.date: 07/28/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitResumeIo function is used to resume circuit I/O after it has been temporarily stopped.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -89,10 +89,13 @@ Example usage is shown below.
     }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [AcxCircuitResumeIoWithTag macro](nf-acxcircuit-acxcircuitresumeiowithtag.md)
-
 - [acxcircuit.h header](index.md)
-
-

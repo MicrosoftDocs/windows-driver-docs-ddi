@@ -2,9 +2,8 @@
 UID: NF:ntddk.IoGetOplockKeyContextEx
 title: IoGetOplockKeyContextEx function (ntddk.h)
 description: The IoGetOplockKeyContextEx routine returns a dual oplock key context for a file object.
-old-location: ifsk\iogetoplockkeycontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 03/16/2023
 keywords: ["IoGetOplockKeyContextEx function"]
 ms.keywords: IoGetOplockKeyContext, IoGetOplockKeyContextEx, IoGetOplockKeyContextEx routine [Installable File System Drivers], ifsk.iogetoplockkeycontext, ntddk/IoGetOplockKeyContextEx
 req.header: ntddk.h
@@ -41,12 +40,9 @@ api_name:
  - IoGetOplockKeyContextEx
 ---
 
-# IoGetOplockKeyContextEx function
-
-
 ## -description
 
-The <b>IoGetOplockKeyContext</b> routine returns a dual oplock key context for a file object.
+The **IoGetOplockKeyContext** routine returns a dual oplock key context for a file object.
 
 ## -parameters
 
@@ -56,24 +52,16 @@ The file object to query for an oplock key context.
 
 ## -returns
 
-An pointer to an <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_oplock_key_context">OPLOCK_KEY_CONTEXT</a> structure containing the parent and target oplock keys for <i>FileObject</i>. Otherwise, NULL if <i>FileObject</i> has no oplock keys.
+An pointer to an [**OPLOCK_KEY_CONTEXT**](./ns-ntddk-_oplock_key_context.md) structure containing the parent and target oplock keys for *FileObject*. Otherwise, NULL if *FileObject* has no oplock keys.
 
 ## -remarks
 
-On Windows 8 and later versions of Windows, use <b>IoGetOplockKeyContextEx</b> instead of <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetoplockkeycontext">IoGetOplockKeyContext</a>, as the latter only returns a target oplock key context.
+On Windows 8 and later versions of Windows, use **IoGetOplockKeyContextEx** instead of [IoGetOplockKeyContext](./nf-ntddk-iogetoplockkeycontext.md), as the latter only returns a target oplock key context.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ifs/dual-oplock-key-ecp-context">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
+[IoGetOplockKeyContext](./nf-ntddk-iogetoplockkeycontext.md)
 
+[**OPLOCK_KEY_CONTEXT**](./ns-ntddk-_oplock_key_context.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetoplockkeycontextex">IoGetOplockKeyContextEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_oplock_key_context">OPLOCK_KEY_CONTEXT</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/oplock-key-ecp-context">OPLOCK_KEY_ECP_CONTEXT</a>
+[**OPLOCK_KEY_ECP_CONTEXT**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-oplock_key_ecp_context)

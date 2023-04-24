@@ -1,8 +1,8 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_TYPE
 title: D3D12DDI_RESOURCE_TYPE (d3d12umddi.h)
-description: Specifies the resource type.
-ms.date: 10/19/2018
+description: Learn more about the D3D12DDI_RESOURCE_TYPE enumeration.
+ms.date: 09/22/2022
 keywords: ["D3D12DDI_RESOURCE_TYPE enumeration"]
 ms.keywords: D3D12DDI_RESOURCE_TYPE, D3D12DDI_RESOURCE_TYPE,
 req.header: d3d12umddi.h
@@ -35,30 +35,30 @@ dev_langs:
 
 # D3D12DDI_RESOURCE_TYPE enumeration
 
-
 ## -description
 
-Specifies the resource type.
+A **D3D12DDI_RESOURCE_TYPE** value specifies the type of a resource.
 
 ## -enum-fields
 
 ### -field D3D12DDI_RT_BUFFER
 
-Buffer.
+The resource is a buffer.
 
 ### -field D3D12DDI_RT_TEXTURE1D
 
-1D texture.
+The resource is a 1D texture.
 
 ### -field D3D12DDI_RT_TEXTURE2D
 
-2D texture.
+The resource is a 2D texture.
 
 ### -field D3D12DDI_RT_TEXTURE3D
 
-3D texture.
+The resource is a 3D texture.
 
 ## -remarks
 
 ## -see-also
 
+[**D3D12DDIARG_CREATERESOURCE_0088**](ns-d3d12umddi-d3d12ddiarg_createresource_0088.md)

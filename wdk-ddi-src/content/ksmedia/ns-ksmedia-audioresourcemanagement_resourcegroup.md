@@ -1,8 +1,8 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_165
+UID: NS:ksmedia.AUDIORESOURCEMANAGEMENT_RESOURCEGROUP
 tech.root: stream
 title: AUDIORESOURCEMANAGEMENT_RESOURCEGROUP (ksmedia.h)
-ms.date: 06/13/2022
+ms.date: 03/01/2023
 targetos: Windows
 description: This topic describes the AUDIORESOURCEMANAGEMENT_RESOURCEGROUP structure.
 prerelease: false
@@ -38,7 +38,7 @@ f1_keywords:
 dev_langs:
  - c++
 helpviewer_keywords:
- - __unnamed_struct_165
+ - AUDIORESOURCEMANAGEMENT_RESOURCEGROUP
 ---
 
 ## -description

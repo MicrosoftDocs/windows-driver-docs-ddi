@@ -1,5 +1,5 @@
 ---
-UID: NS:sidebandaudio.__unnamed_union_2
+UID: NS:sidebandaudio.SIDEBANDAUDIO_STREAM_OPEN_PARAMS
 title: SIDEBANDAUDIO_STREAM_OPEN_PARAMS (sidebandaudio.h)
 description: Describes the variable I/O parameters for IOCTLs.
 ms.date: 09/07/2018

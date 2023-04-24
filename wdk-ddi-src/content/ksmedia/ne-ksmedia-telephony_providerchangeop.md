@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_25
+UID: NE:ksmedia.TELEPHONY_PROVIDERCHANGEOP
 title: TELEPHONY_PROVIDERCHANGEOP (ksmedia.h)
 description: The TELEPHONY_PROVIDERCHANGEOP enumeration defines constants that specify the requested provider change operation.
 old-location: audio\telephony_providerchangeop.htm
@@ -68,3 +68,4 @@ Specifies that single-radio voice call continuity (SRVCC) is being canceled, and
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-telephony_callstate">TELEPHONY_CALLSTATE</a>
+

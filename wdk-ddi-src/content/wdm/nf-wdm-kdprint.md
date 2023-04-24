@@ -2,15 +2,14 @@
 UID: NF:wdm.KdPrint
 title: KdPrint macro (wdm.h)
 description: The KdPrint macro sends a message to the kernel debugger.
-old-location: devtest\kdprint.htm
 tech.root: devtest
-ms.date: 02/23/2018
+ms.date: 01/05/2023
 keywords: ["KdPrint macro"]
 ms.keywords: DebugFns_630aea64-3f51-4c73-8575-00a507846ab9.xml, KdPrint, KdPrint function [Driver Development Tools], devtest.kdprint, wdm/KdPrint
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Microsoft Windows 2000 and later.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,9 +39,6 @@ api_name:
  - KdPrint
 ---
 
-# KdPrint macro
-
-
 ## -description
 
 The **KdPrint** macro sends a message to the kernel debugger.
@@ -55,8 +51,7 @@ A call to **KdPrint** requires double parentheses.
 
 ### -param _x_ [in]
 
-
-Specifies a pointer to the format string to print. The *Format* string supports most of the **printf**-style [format specification syntax](/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions). However, the Unicode format codes (**%C**, **%S**, **%lc**, **%ls**, **%wc**, **%ws**, and **%wZ**) can only be used with IRQL = PASSIVE_LEVEL. The **KdPrint** routine does not support any of the floating point types (**%f**, **%e**, **%E**, **%g**, **%G**, **%a**, or **%A**).
+Specifies a pointer to the format string to print. The _Format_ string supports most of the **printf**-style [format specification syntax](/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions). However, the Unicode format codes (**%C**, **%S**, **%lc**, **%ls**, **%wc**, **%ws**, and **%wZ**) can only be used with IRQL = PASSIVE_LEVEL. The **KdPrint** routine does not support any of the floating point types (**%f**, **%e**, **%E**, **%g**, **%G**, **%a**, or **%A**).
 
 ## -remarks
 
@@ -70,12 +65,11 @@ Specifies a pointer to the format string to print. The *Format* string supports 
 
 For more information about message filtering, components, and message importance level, see [Reading and Filtering Debugging Messages](/windows-hardware/drivers/devtest/reading-and-filtering-debugging-messages).
 
->[!NOTE]
->Regardless of which version of Windows you are using, it is recommended that you use **KdPrintEx** instead of **KdPrint**, since **KdPrintEx** allows you to control the conditions under which the message is sent.
+Regardless of which version of Windows you are using, it is recommended that you use **KdPrintEx** instead of **KdPrint**, since **KdPrintEx** allows you to control the conditions under which the message is sent.
 
-Unless it is absolutely necessary, you should not obtain a string from user input or another process and pass it to **KdPrint**. If you do use a string that you did not create, you must verify that this is a valid format string, and that the format codes match the argument list in type and quantity. The best coding practice is for all *Format* strings to be static and defined at compile time.
+Unless it is absolutely necessary, you should not obtain a string from user input or another process and pass it to **KdPrint**. If you do use a string that you did not create, you must verify that this is a valid format string, and that the format codes match the argument list in type and quantity. The best coding practice is for all _Format_ strings to be static and defined at compile time.
 
-There is no upper limit to the size of the *Format* string or the number of arguments. However, any single call to **KdPrint** will only transmit 512 bytes of information. There is also a limit to the size of the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgprint">DbgPrint</a> buffer. See <a href="/windows-hardware/drivers/devtest/reading-and-filtering-debugging-messages">The DbgPrint Buffer and the Debugger</a> for details.
+There is no upper limit to the size of the _Format_ string or the number of arguments. However, any single call to **KdPrint** will only transmit 512 bytes of information. There is also a limit to the size of the [DbgPrint](./nf-wdm-dbgprint.md) buffer. See [The DbgPrint Buffer and the Debugger](/windows-hardware/drivers/devtest/reading-and-filtering-debugging-messages) for details.
 
 ## -see-also
 

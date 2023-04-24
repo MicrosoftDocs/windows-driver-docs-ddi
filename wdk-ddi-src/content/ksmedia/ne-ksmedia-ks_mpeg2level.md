@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_53
+UID: NE:ksmedia.KS_MPEG2Level
 title: KS_MPEG2Level (ksmedia.h)
 description: The KS_MPEG2Level enumeration describes MPEG-2 levels.
 old-location: stream\ks_mpeg2level.htm
@@ -68,3 +68,4 @@ Specifies the high MPEG-2 resolution, or 1920 × 1080 at 30 frames per second.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_mpegvideoinfo2">KS_MPEGVIDEOINFO2</a>
+

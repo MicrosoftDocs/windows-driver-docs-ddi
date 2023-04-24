@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagOpen
 tech.root: audio
 title: AcxObjectBagOpen
-ms.date: 06/17/2022
+ms.date: 12/16/2022
 targetos: Windows
-description: The function AcxObjectBagOpen opens an existing, intialized AcxObjectBag.
+description: The function AcxObjectBagOpen opens an existing, initialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxmisc.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,21 +42,21 @@ dev_langs:
 
 ## -description
 
-The function AcxObjectBagOpen opens an existing, intialized AcxObjectBag.
- 
+The function AcxObjectBagOpen opens an existing, initialized AcxObjectBag.
+
 ## -parameters
 
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various object’s values: cleanup and destroy callbacks, context type, and to specify its parent object.
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that are used to set various object's values: cleanup and destroy callbacks, context type, and to specify its parent object.
 
 ### -param Config
 
-A pointer to the intialized [ACX_OBJECTBAG_CONFIG](ns-acxmisc-acx_objectbag_config.md) structure.
+A pointer to the initialized [ACX_OBJECTBAG_CONFIG](ns-acxmisc-acx_objectbag_config.md) structure.
 
 ### -param ObjectBag
 
-An intialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An initialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -90,6 +90,12 @@ This example shows the use of ACX_OBJECTBAG_CONFIG.
 
         RETURN_NTSTATUS_IF_FAILED(AcxObjectBagRetrieveGuid(objBag, &UniqueID, &uniqueId));
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

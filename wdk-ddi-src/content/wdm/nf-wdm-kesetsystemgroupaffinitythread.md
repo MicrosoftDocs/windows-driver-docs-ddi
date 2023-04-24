@@ -71,7 +71,7 @@ In a multiprocessor system, a kernel-mode driver routine that runs in the contex
 
 A process can have affinity for more than one group at a time. However, a thread can be assigned to only one group at any time. That group is always in the affinity of the thread's process. A thread can change the group to which it is assigned by calling <b>KeSetSystemGroupAffinityThread</b>.
 
-<b>KeSetSystemGroupAffinityThread</b> changes the group number and affinity mask to the values that are specified in *<i>Affinity</i> only if the following are true:
+<b>KeSetSystemGroupAffinityThread</b> changes the group number and affinity mask to the values that are specified in **Affinity* only if the following are true:
 
 <ul>
 <li>
@@ -87,11 +87,11 @@ At least one of the processors that is specified in the affinity mask is active.
 
 </li>
 </ul>
-If any of these conditions is not met, the group number and affinity mask of the thread remain unchanged. If <i>PreviousAffinity</i> is non-<b>NULL</b>, the routine writes zero to both the group number and the affinity mask in *<i>PreviousAffinity</i>.
+If any of these conditions is not met, the group number and affinity mask of the thread remain unchanged. If <i>PreviousAffinity</i> is non-<b>NULL</b>, the routine writes zero to both the group number and the affinity mask in **PreviousAffinity*.
 
-Additionally, <b>KeSetSystemGroupAffinityThread</b> writes zero to both the group number and the affinity mask in *<i>PreviousAffinity</i> if the previous group affinity was assigned to the thread in user mode. In response to a <b>GROUP_AFFINITY</b> structure in which the group number and affinity mask are both zero, <b>KeRevertToUserGroupAffinityThread</b> restores the current user-mode thread affinity. If the user-mode thread affinity changes between the <b>KeSetSystemGroupAffinityThread</b> and <b>KeRevertToUserGroupAffinityThread</b> calls, the most recent user-mode affinity is assigned to the thread. (An application can call a function such as <a href="/windows/win32/api/processtopologyapi/nf-processtopologyapi-setthreadgroupaffinity">SetThreadGroupAffinity</a> to change the user-mode group affinity of a thread.)
+Additionally, <b>KeSetSystemGroupAffinityThread</b> writes zero to both the group number and the affinity mask in **PreviousAffinity* if the previous group affinity was assigned to the thread in user mode. In response to a <b>GROUP_AFFINITY</b> structure in which the group number and affinity mask are both zero, <b>KeRevertToUserGroupAffinityThread</b> restores the current user-mode thread affinity. If the user-mode thread affinity changes between the <b>KeSetSystemGroupAffinityThread</b> and <b>KeRevertToUserGroupAffinityThread</b> calls, the most recent user-mode affinity is assigned to the thread. (An application can call a function such as <a href="/windows/win32/api/processtopologyapi/nf-processtopologyapi-setthreadgroupaffinity">SetThreadGroupAffinity</a> to change the user-mode group affinity of a thread.)
 
-Before the new affinity mask in *<i>Affinity</i> takes effect, <b>KeSetSystemGroupAffinityThread</b> removes (sets to zero) any affinity mask bits that correspond to processors that are not currently active. In a subsequent <b>KeSetSystemGroupAffinityThread</b> call, the value that the routine writes to *<i>PreviousAffinity</i> might contain an affinity mask that has been modified in this way.
+Before the new affinity mask in **Affinity* takes effect, <b>KeSetSystemGroupAffinityThread</b> removes (sets to zero) any affinity mask bits that correspond to processors that are not currently active. In a subsequent <b>KeSetSystemGroupAffinityThread</b> call, the value that the routine writes to **PreviousAffinity* might contain an affinity mask that has been modified in this way.
 
 A related routine, <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetsystemaffinitythreadex">KeSetSystemAffinityThreadEx</a>, changes the affinity mask of the calling thread, but this routine, unlike <b>KeSetSystemGroupAffinityThread</b>, does not accept a group number as an input parameter. Starting with Windows 7, <b>KeSetSystemAffinityThreadEx</b> assumes that the affinity mask refers to processors in group 0, which is compatible with the behavior of this routine in earlier versions of Windows that do not support groups. This behavior ensures that existing drivers that call <b>KeSetSystemAffinityThreadEx</b> and that use no group-oriented features will run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeSetSystemGroupAffinityThread</b> instead of <b>KeSetSystemAffinityThreadEx</b>.
 

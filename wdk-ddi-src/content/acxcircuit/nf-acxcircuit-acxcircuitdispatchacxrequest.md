@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitDispatchAcxRequest
 tech.root: audio
 title: AcxCircuitDispatchAcxRequest
-ms.date: 06/16/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitDispatchAcxRequest dispatches an ACX WDFREQUEST object to the ACX framework which will manage the request.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -71,8 +71,12 @@ Example usage is shown below.
     status = AcxCircuitDispatchAcxRequest((ACXCIRCUIT)Object, Request);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-

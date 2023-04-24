@@ -2,15 +2,14 @@
 UID: NF:wdm.ZwEnumerateValueKey
 title: ZwEnumerateValueKey function (wdm.h)
 description: The ZwEnumerateValueKey routine gets information about the value entries of an open key.
-old-location: kernel\zwenumeratevaluekey.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/14/2022
 keywords: ["ZwEnumerateValueKey function"]
 ms.keywords: NtEnumerateValueKey, ZwEnumerateValueKey, ZwEnumerateValueKey routine [Kernel-Mode Driver Architecture], k111_bea1b1ab-2cfe-4d17-abd3-1a45652c70a5.xml, kernel.zwenumeratevaluekey, wdm/NtEnumerateValueKey, wdm/ZwEnumerateValueKey
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,141 +39,73 @@ api_name:
  - ZwEnumerateValueKey
 ---
 
-# ZwEnumerateValueKey function
-
-
 ## -description
 
-The <b>ZwEnumerateValueKey</b> routine gets information about the value entries of an open key.
+The **ZwEnumerateValueKey** routine gets information about the value entries of an open key.
 
 ## -parameters
 
 ### -param KeyHandle [in]
 
-
-Handle to the registry key that you want to enumerate value entries for. A successful call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a> creates this handle.
+Handle to the registry key that you want to enumerate value entries for. A successful call to [ZwCreateKey](./nf-wdm-zwcreatekey.md) or [ZwOpenKey](./nf-wdm-zwopenkey.md) creates this handle.
 
 ### -param Index [in]
-
 
 The zero-based index of the subkey that you want value information for.
 
 ### -param KeyValueInformationClass [in]
 
-
-Specifies a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_key_value_information_class">KEY_VALUE_INFORMATION_CLASS</a> value that determines the type of information returned in the <i>KeyValueInformation</i> buffer.
+Specifies a [KEY_VALUE_INFORMATION_CLASS](./ne-wdm-_key_value_information_class.md) value that determines the type of information returned in the *KeyValueInformation* buffer.
 
 ### -param KeyValueInformation [out, optional]
-
 
 Pointer to a caller-allocated buffer that receives the requested information.
 
 ### -param Length [in]
 
-
-Specifies the size, in bytes, of the <i>KeyValueInformation</i> buffer.
+Specifies the size, in bytes, of the *KeyValueInformation* buffer.
 
 ### -param ResultLength [out]
-
 
 Pointer to a variable that receives the size, in bytes, of the value information. If this routine returns STATUS_SUCCESS, the variable indicates the amount of data returned. If this routine returns STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL, the variable indicates the buffer size that is required to hold the value information.
 
 ## -returns
 
-<b>ZwEnumerateValueKey</b> returns STATUS_SUCCESS on success, or the appropriate error code on failure. Possible error code values include:
+**ZwEnumerateValueKey** returns STATUS_SUCCESS on success, or the appropriate error code on failure. Possible error code values include:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_OVERFLOW</b></dt>
-</dl>
-</td>
-<td width="60%">
-The buffer supplied is too small, and only partial data has been written to the buffer. *<i>ResultLength</i> is set to the minimum size required to hold the requested information. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The buffer supplied is too small, and no data has been written to the buffer. *<i>ResultLength</i> is set to the minimum size required to hold the requested information. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>KeyInformationClass</i> parameter is not a valid KEY_VALUE_INFORMATION_CLASS value. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MORE_ENTRIES</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>Index</i> value is out of range for the registry key specified by <i>KeyHandle</i>. For example, if a key has <i>n</i> subkeys, then for any value greater than <i>n</i>-1 the routine returns STATUS_NO_MORE_ENTRIES. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|---|---|
+| **STATUS_BUFFER_OVERFLOW** | The buffer supplied is too small, and only partial data has been written to the buffer. \**ResultLength* is set to the minimum size required to hold the requested information. |
+| **STATUS_BUFFER_TOO_SMALL** | The buffer supplied is too small, and no data has been written to the buffer. \**ResultLength* is set to the minimum size required to hold the requested information. |
+| **STATUS_INVALID_PARAMETER** | The *KeyInformationClass* parameter is not a valid KEY_VALUE_INFORMATION_CLASS value. |
+| **STATUS_NO_MORE_ENTRIES** | The *Index* value is out of range for the registry key specified by *KeyHandle*. For example, if a key has *n* subkeys, then for any value greater than *n*-1 the routine returns STATUS_NO_MORE_ENTRIES. |
 
 ## -remarks
 
-The<i> KeyHandle</i> passed to <b>ZwEnumerateValueKey</b> must have been opened with KEY_QUERY_VALUE access. This is accomplished by passing KEY_QUERY_VALUE, KEY_READ, or KEY_ALL_ACCESS as the <i>DesiredAccess</i> parameter to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>.
+The *KeyHandle* passed to **ZwEnumerateValueKey** must have been opened with KEY_QUERY_VALUE access. This is accomplished by passing KEY_QUERY_VALUE, KEY_READ, or KEY_ALL_ACCESS as the *DesiredAccess* parameter to [ZwCreateKey](./nf-wdm-zwcreatekey.md) or [ZwOpenKey](./nf-wdm-zwopenkey.md).
 
-The <i>Index</i> is simply a way to select among subkeys with value entries. Two calls to <b>ZwEnumerateValueKey</b> with the same <i>Index</i> are not guaranteed to return the same results.
+The *Index* is simply a way to select among subkeys with value entries. Two calls to **ZwEnumerateValueKey** with the same *Index* are not guaranteed to return the same results.
 
-For more information about working with registry keys, see <a href="/windows-hardware/drivers/kernel/using-the-registry-in-a-driver">Using the Registry in a Driver</a>.
+For more information about working with registry keys, see [Using the Registry in a Driver](/windows-hardware/drivers/kernel/using-the-registry-in-a-driver).
 
-<div class="alert"><b>Note</b>   If the call to this function occurs in user mode, you should use the name "<b>NtEnumerateValueKey</b>" instead of "<b>ZwEnumerateValueKey</b>".</div>
-<div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+If the call to this function occurs in user mode, you should use the name "**NtEnumerateValueKey**" instead of "**ZwEnumerateValueKey**".
+
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>
+[**KEY_VALUE_BASIC_INFORMATION**](./ns-wdm-_key_value_basic_information.md)
 
+[**KEY_VALUE_FULL_INFORMATION**](./ns-wdm-_key_value_full_information.md)
 
+[**KEY_VALUE_PARTIAL_INFORMATION**](./ns-wdm-_key_value_partial_information.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_full_information">KEY_VALUE_FULL_INFORMATION</a>
+[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
+[ZwClose](../ntifs/nf-ntifs-ntclose.md)
 
+[ZwCreateKey](./nf-wdm-zwcreatekey.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_partial_information">KEY_VALUE_PARTIAL_INFORMATION</a>
+[ZwOpenKey](./nf-wdm-zwopenkey.md)
 
-
-
-<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwqueryvaluekey">ZwQueryValueKey</a>
-
+[ZwQueryValueKey](./nf-wdm-zwqueryvaluekey.md)

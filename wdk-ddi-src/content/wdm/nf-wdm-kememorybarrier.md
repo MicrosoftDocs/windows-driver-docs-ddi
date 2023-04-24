@@ -2,9 +2,8 @@
 UID: NF:wdm.KeMemoryBarrier
 title: KeMemoryBarrier function (wdm.h)
 description: The KeMemoryBarrier routine creates a barrier at its position in the code&#8212;across which the compiler and the processor cannot move any operations.
-old-location: kernel\kememorybarrier.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/12/2023
 keywords: ["KeMemoryBarrier function"]
 ms.keywords: KeMemoryBarrier, KeMemoryBarrier routine [Kernel-Mode Driver Architecture], k105_972df62d-6449-40d7-9bfa-0c420cf8f106.xml, kernel.kememorybarrier, wdm/KeMemoryBarrier
 req.header: wdm.h
@@ -40,21 +39,17 @@ api_name:
  - KeMemoryBarrier
 ---
 
-# KeMemoryBarrier function
-
-
 ## -description
 
-The <b>KeMemoryBarrier</b> routine creates a barrier at its position in the code—across which the compiler and the processor cannot move any operations.
+The **KeMemoryBarrier** routine creates a barrier at its position in the code—across which the compiler and the processor cannot move any operations.
 
 ## -remarks
 
-The <b>KeMemoryBarrier</b> routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to <b>KeMemoryBarrier</b> will complete before any operation that appears after the call.
+The **KeMemoryBarrier** routine inserts a memory barrier into your code. This barrier guarantees that every operation that appears in the source code before the call to **KeMemoryBarrier** will complete before any operation that appears after the call.
 
-The implementation of the <b>KeMemoryBarrier</b> routine depends on the processor architecture. For example, for an x86 processor, the Wdm.h header file defines <b>KeMemoryBarrier</b> to be the following inline function:
+The implementation of the **KeMemoryBarrier** routine depends on the processor architecture. For example, for an x86 processor, the Wdm.h header file defines **KeMemoryBarrier** to be the following inline function:
 
-
-```
+```cpp
 FORCEINLINE
 VOID
 KeMemoryBarrier (
@@ -69,10 +64,10 @@ KeMemoryBarrier (
 }
 ```
 
-In this definition, the braces that follow the <b>__asm</b> keyword contain inline assembly code. The compiler optimizer cannot move an instruction from a position before the inline assembly code to a position after the inline assembly code, and vice versa. In addition, the <b>xchg</b> instruction implicitly includes the <b>lock</b> prefix, which forces the processor hardware to complete the memory operations for all instructions that precede the <b>xchg</b> instruction before it initiates memory operations for instructions that follow the <b>xchg</b> instruction.
+In this definition, the braces that follow the **__asm** keyword contain inline assembly code. The compiler optimizer cannot move an instruction from a position before the inline assembly code to a position after the inline assembly code, and vice versa. In addition, the **xchg** instruction implicitly includes the **lock** prefix, which forces the processor hardware to complete the memory operations for all instructions that precede the **xchg** instruction before it initiates memory operations for instructions that follow the **xchg** instruction.
 
-<b>KeMemoryBarrier</b> prevents both the compiler and the processor from moving operations across the barrier. To prevent only the compiler from moving operations, call <a href="/previous-versions/windows/hardware/drivers/ff552973(v=vs.85)">KeMemoryBarrierWithoutFence</a>.
+**KeMemoryBarrier** prevents both the compiler and the processor from moving operations across the barrier. To prevent only the compiler from moving operations, call [KeMemoryBarrierWithoutFence](/previous-versions/windows/hardware/device-stage/drivers/ff552973(v%3Dvs.85)).
 
 ## -see-also
 
-<a href="/previous-versions/windows/hardware/drivers/ff552973(v=vs.85)">KeMemoryBarrierWithoutFence</a>
+[KeMemoryBarrierWithoutFence](/previous-versions/windows/hardware/device-stage/drivers/ff552973(v%3Dvs.85))

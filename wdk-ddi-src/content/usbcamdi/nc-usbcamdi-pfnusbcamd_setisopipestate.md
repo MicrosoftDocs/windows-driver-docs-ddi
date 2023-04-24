@@ -2,9 +2,8 @@
 UID: NC:usbcamdi.PFNUSBCAMD_SetIsoPipeState
 title: PFNUSBCAMD_SetIsoPipeState (usbcamdi.h)
 description: The USBCAMD_SetIsoPipeState service permits the camera minidriver to control the streaming state on the isochronous pipe.
-old-location: stream\usbcamd_setisopipestate.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/08/2023
 keywords: ["PFNUSBCAMD_SetIsoPipeState callback function"]
 ms.keywords: PFNUSBCAMD_SetIsoPipeState, USBCAMD_SetIsoPipeState, USBCAMD_SetIsoPipeState routine [Streaming Media Devices], stream.usbcamd_setisopipestate, usbcamdi/USBCAMD_SetIsoPipeState, usbcmdpr_6643c631-6892-4955-8a1f-ae152fd155e4.xml
 req.header: usbcamdi.h
@@ -40,107 +39,45 @@ api_name:
  - PFNUSBCAMD_SetIsoPipeState
 ---
 
-# PFNUSBCAMD_SetIsoPipeState callback function
-
-
 ## -description
 
-The <b>USBCAMD_SetIsoPipeState</b> service permits the camera minidriver to control the streaming state on the isochronous pipe.
+The **USBCAMD_SetIsoPipeState** service permits the camera minidriver to control the streaming state on the isochronous pipe.
 
 ## -parameters
 
 ### -param DeviceContext [in]
 
-
 Pointer to device-specific context.
 
 ### -param PipeStateFlags [in]
 
-
 Specifies the isochronous pipe state. This argument should be set to either of the following values:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-USBCAMD_STOP_STREAM
-
-</td>
-<td>
-This flags indicates to stop streaming.
-
-</td>
-</tr>
-<tr>
-<td>
-USBCAMD_START_STREAM
-
-</td>
-<td>
-This flags indicates to start streaming.
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| USBCAMD_STOP_STREAM | This flags indicates to stop streaming. |
+| USBCAMD_START_STREAM | This flags indicates to start streaming. |
 
 ## -returns
 
-<b>USBCAMD_SetIsoPipeState</b> returns STATUS_SUCCESS if the call was successful. Other possible error codes include:
+**USBCAMD_SetIsoPipeState** returns STATUS_SUCCESS if the call was successful. Other possible error codes include:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The requested pipe state is the same as the current pipe state.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_PENDING</b></dt>
-</dl>
-</td>
-<td width="60%">
-The pipe state change is deferred.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-There are insufficient resources to allocate a work item to change the pipe state.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|---|---|
+| **STATUS_INVALID_PARAMETER** | The requested pipe state is the same as the current pipe state. |
+| **STATUS_PENDING** | The pipe state change is deferred. |
+| **STATUS_INSUFFICIENT_RESOURCES** | There are insufficient resources to allocate a work item to change the pipe state. |
 
 ## -remarks
 
 Note that the streaming state on the isochronous pipe works differently from the streaming state in the stream class and in Microsoft DirectShow. It is possible to stop the isochronous pipe from streaming for a short period while the overall video capture graph is still in a Run state.
 
-This function is used to enable dual-mode cameras. In a dual-mode camera, if there is a request to get still data while streaming is in progress, the stream must be stopped on the isochronous pipe. The still call is then serviced and then the isochronous stream must be restarted, all while the overall stream class/DirectShow graph is still in a <b>Run</b> state.
+This function is used to enable dual-mode cameras. In a dual-mode camera, if there is a request to get still data while streaming is in progress, the stream must be stopped on the isochronous pipe. The still call is then serviced and then the isochronous stream must be restarted, all while the overall stream class/DirectShow graph is still in a **Run** state.
 
 Using this function does not enable you to change the alternate setting within the USB video streaming interface or the channel bandwidth. The isochronous stream must be closed before the alternate setting is changed.
 
-<b>USBCAMD_SetIsoPipeState</b> is not available in USBCAMD version 1.0.
+**USBCAMD_SetIsoPipeState** is not available in USBCAMD version 1.0.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-usbcamd_interface">USBCAMD_INTERFACE</a>
-
+[USBCAMD_INTERFACE](./ns-usbcamdi-usbcamd_interface.md)

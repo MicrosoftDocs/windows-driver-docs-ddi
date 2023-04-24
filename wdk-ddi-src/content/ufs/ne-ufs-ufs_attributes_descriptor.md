@@ -1,5 +1,5 @@
 ---
-UID: NE:ufs.__unnamed_enum_1
+UID: NE:ufs.UFS_ATTRIBUTES_DESCRIPTOR
 title: UFS_ATTRIBUTES_DESCRIPTOR (ufs.h)
 description: UFS_ATTRIBUTES_DESCRIPTOR describes the different types of attributes used by Universal Flash Storage (UFS) descriptors.
 old-location: storage\ufs_attributes_descriptor.htm
@@ -385,3 +385,4 @@ microcode activation event occurs.
 
 
 <a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_descriptor">UFS_UNIT_DESCRIPTOR</a>
+

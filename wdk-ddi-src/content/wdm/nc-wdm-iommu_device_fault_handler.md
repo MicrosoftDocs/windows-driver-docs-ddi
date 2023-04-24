@@ -3,10 +3,10 @@ UID: NC:wdm.IOMMU_DEVICE_FAULT_HANDLER
 title: IOMMU_DEVICE_FAULT_HANDLER (wdm.h)
 description: Reports fault from a specific device and domain.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 01/19/2023
 keywords: ["IOMMU_DEVICE_FAULT_HANDLER callback function"]
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr: 
@@ -23,7 +23,6 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
-ms.custom: RS5
 f1_keywords:
  - IOMMU_DEVICE_FAULT_HANDLER
  - wdm/IOMMU_DEVICE_FAULT_HANDLER
@@ -36,9 +35,6 @@ api_location:
 api_name:
  - IOMMU_DEVICE_FAULT_HANDLER
 ---
-
-# IOMMU_DEVICE_FAULT_HANDLER callback function
-
 
 ## -description
 
@@ -54,27 +50,8 @@ A pointer to the opaque driver-supplied fault context.
 
 A pointer to a [**FAULT_INFORMATION**](ns-wdm-_fault_information.md) structure that contains fault information.
 
-## -prototype
-
-```cpp
-//Declaration
-
-IOMMU_DEVICE_FAULT_HANDLER IommuDeviceFaultHandler; 
-
-// Definition
-
-VOID IommuDeviceFaultHandler 
-(
-	PVOID Context
-	PFAULT_INFORMATION FaultInformation
-)
-{...}
-
-```
-
 ## -remarks
 
 Register your implementation of this callback function by setting the **FaultHandler** member of [**DEVICE_FAULT_CONFIGURATION**](ns-wdm-_device_fault_configuration.md).
 
 ## -see-also
-

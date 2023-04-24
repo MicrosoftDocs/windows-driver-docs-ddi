@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_MUTE_CONFIG
 ms.date: 04/29/2022
 targetos: Windows
-description: The ACX_MUTE_CONFIG structure is used to define the audio mute configuration. 
+description: The ACX_MUTE_CONFIG structure is used to define the audio mute configuration.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_MUTE_CONFIG** structure is used to define the acx mute configuration. 
+The **ACX_MUTE_CONFIG** structure is used to define the acx mute configuration.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ A pointer to a GUID that represents the name of the element. Can be used for deb
 
 ### -field Flags
 
-Acx mute configuration flags defined by the [ACX_MUTE_CONFIG_FLAGS enum](ne-acxelements-acx_mute_config_flags.md). 
+Acx mute configuration flags defined by the [ACX_MUTE_CONFIG_FLAGS enum](ne-acxelements-acx_mute_config_flags.md).
 
 No flag bits are currently defined. Set this member to zero - AcxMuteConfigNoFlags.
 
@@ -97,6 +97,12 @@ Example usage is shown below.
     muteCfg.Name = &KSAUDFNAME_WAVE_MUTE;
     muteCfg.Callbacks = &muteCallbacks;
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

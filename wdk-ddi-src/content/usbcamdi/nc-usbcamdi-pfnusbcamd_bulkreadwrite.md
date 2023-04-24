@@ -2,9 +2,8 @@
 UID: NC:usbcamdi.PFNUSBCAMD_BulkReadWrite
 title: PFNUSBCAMD_BulkReadWrite (usbcamdi.h)
 description: The USBCAMD_BulkReadWrite service performs a read or write operation on the specified bulk pipe.
-old-location: stream\usbcamd_bulkreadwrite.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/08/2023
 keywords: ["PFNUSBCAMD_BulkReadWrite callback function"]
 ms.keywords: PFNUSBCAMD_BulkReadWrite, USBCAMD_BulkReadWrite, USBCAMD_BulkReadWrite routine [Streaming Media Devices], stream.usbcamd_bulkreadwrite, usbcamdi/USBCAMD_BulkReadWrite, usbcmdpr_6044cfed-1a8c-48a5-ac28-16c8ac151fcc.xml
 req.header: usbcamdi.h
@@ -42,106 +41,54 @@ api_name:
 
 # PFNUSBCAMD_BulkReadWrite callback function
 
-
 ## -description
 
-The <b>USBCAMD_BulkReadWrite</b> service performs a read or write operation on the specified bulk pipe.
+The **USBCAMD_BulkReadWrite** service performs a read or write operation on the specified bulk pipe.
 
 ## -parameters
 
 ### -param DeviceContext [in]
 
-
 Pointer to the camera minidriver's device context.
 
 ### -param PipeIndex [in]
-
 
 Specifies the index of the bulk pipe.
 
 ### -param Buffer [in]
 
-
-Pointer to the read or write buffer. If this parameter is set to <b>NULL</b> for a read request, USBCAMD pulls a data SRB from the SRB read queue of the stream associated with this pipe. Write requests with a <b>NULL</b> buffer pointer are only permitted on the still pin if an SRB_WRITE_DATA request has been submitted to the still pin.
+Pointer to the read or write buffer. If this parameter is set to **NULL** for a read request, USBCAMD pulls a data SRB from the SRB read queue of the stream associated with this pipe. Write requests with a **NULL** buffer pointer are only permitted on the still pin if an SRB_WRITE_DATA request has been submitted to the still pin.
 
 ### -param BufferLength [in]
-
 
 Specifies the length of the read/write buffer in bytes.
 
 ### -param CommandComplete [in]
 
-
-Pointer to a camera minidriver defined <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function">CommandCompleteFunction</a>, which is called when the bulk read or write is completed. This value can be <b>NULL</b>.
+Pointer to a camera minidriver defined [CommandCompleteFunction](./nc-usbcamdi-pcommand_complete_function.md), which is called when the bulk read or write is completed. This value can be **NULL**.
 
 ### -param CommandContext [in]
 
-
-Pointer to a block of memory, that is passed as an argument to the camera minidriver defined <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function">CommandCompleteFunction</a>.
+Pointer to a block of memory, that is passed as an argument to the camera minidriver defined [CommandCompleteFunction](./nc-usbcamdi-pcommand_complete_function.md).
 
 ## -returns
 
-<b>USBCAMD_BulkReadWrite</b> returns STATUS_SUCCESS if the call was successful. Other possible error codes include:
+**USBCAMD_BulkReadWrite** returns STATUS_SUCCESS if the call was successful. Other possible error codes include:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FILE_CLOSED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The device has been removed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-USBCAMD may return STATUS_INVALID_PARAMETER for a number of reasons, including:
-
-The value passed in the <i>PipeIndex</i> argument is invalid.
-
-The type of the pipe specified by the <i>PipeIndex</i> argument represents an invalid type of pipe.
-
-A bulk read/write request already exists.
-
-The <i>Buffer</i> argument is <b>NULL</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-There are insufficient resources to schedule a transfer.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|---|---|
+| **STATUS_FILE_CLOSED** | The device has been removed. |
+| **STATUS_INVALID_PARAMETER** | USBCAMD may return STATUS_INVALID_PARAMETER for a number of reasons, including:<br><br>The value passed in the *PipeIndex* argument is invalid.<br><br>The type of the pipe specified by the *PipeIndex* argument represents an invalid type of pipe.<br><br>A bulk read/write request already exists. The *Buffer* argument is **NULL**. |
+| **STATUS_INSUFFICIENT_RESOURCES** | There are insufficient resources to schedule a transfer. |
 
 ## -remarks
 
 USBCAMD can accept one read and one write request at a time.
 
-<b>USBCAMD_BulkReadWrite</b> is not available in USBCAMD version 1.0.
+**USBCAMD_BulkReadWrite** is not available in USBCAMD version 1.0.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function">CommandCompleteFunction</a>
+[CommandCompleteFunction](./nc-usbcamdi-pcommand_complete_function.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-usbcamd_interface">USBCAMD_INTERFACE</a>
-
+[**USBCAMD_INTERFACE**](./ns-usbcamdi-usbcamd_interface.md)

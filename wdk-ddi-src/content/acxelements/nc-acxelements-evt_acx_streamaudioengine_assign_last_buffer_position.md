@@ -1,10 +1,10 @@
 ---
 UID: NC:acxelements.EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LAST_BUFFER_POSITION
-tech.root: audio 
+tech.root: audio
 title: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LAST_BUFFER_POSITION
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
-description: The EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LAST_BUFFER_POSITION callback function is implemented by the driver and is called when the position of the last valid byte in the audio buffer is set for the specified stream audio engine. 
+description: The EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LAST_BUFFER_POSITION callback function is implemented by the driver and is called when the position of the last valid byte in the audio buffer is set for the specified stream audio engine.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -94,8 +94,12 @@ CodecR_EvtAcxStreamAudioEngineAssignLastBufferPosition(
 }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-

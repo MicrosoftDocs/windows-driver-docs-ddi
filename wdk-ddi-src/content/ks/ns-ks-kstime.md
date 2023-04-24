@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_46
+UID: NS:ks.KSTIME
 title: KSTIME (ks.h)
 description: The KSTIME structure specifies a time stamp that can be used to indicate stream position.
 old-location: stream\kstime.htm

@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitInitAssignName
 tech.root: audio
 title: AcxCircuitInitAssignName
-ms.date: 07/28/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitInitAssignName function assigns a friendly name for the ACXCIRCUIT.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -78,7 +78,12 @@ Example usage is shown below.
     AcxCircuitInitAssignName(CircuitInit, &circuitName);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

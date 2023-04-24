@@ -2,9 +2,8 @@
 UID: NF:ntddk.PsDetachSiloFromCurrentThread
 title: PsDetachSiloFromCurrentThread function (ntddk.h)
 description: This routine removes a thread from a silo which was added by an attach. For more info about attaching, see the PsAttachSiloToCurrentThread routine.
-old-location: kernel\psdetachsilofromcurrentthread.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/07/2022
 keywords: ["PsDetachSiloFromCurrentThread function"]
 ms.keywords: PsDetachSiloFromCurrentThread, PsDetachSiloFromCurrentThread routine [Kernel-Mode Driver Architecture], kernel.psdetachsilofromcurrentthread, ntddk/PsDetachSiloFromCurrentThread
 req.header: ntddk.h
@@ -40,25 +39,18 @@ api_name:
  - PsDetachSiloFromCurrentThread
 ---
 
-# PsDetachSiloFromCurrentThread function
-
-
 ## -description
 
-This routine removes a thread from a silo which was added by an attach. For more info about attaching, see the  <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psattachsilotocurrentthread">PsAttachSiloToCurrentThread</a> routine.
+This routine removes a thread from a silo which was added by an attach. For more info about attaching, see the  [PsAttachSiloToCurrentThread](./nf-ntddk-psattachsilotocurrentthread.md) routine.
 
-
-
-<div class="alert"><b>Note</b>  The caller is responsible for dereferencing the object after the detach has completed.</div>
-<div> </div>
+The caller is responsible for dereferencing the object after the detach has completed.
 
 ## -parameters
 
 ### -param PreviousSilo [in]
 
-
 The value returned from the silo attach call.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psattachsilotocurrentthread">PsAttachSiloToCurrentThread</a>
+[PsAttachSiloToCurrentThread](./nf-ntddk-psattachsilotocurrentthread.md)

@@ -2,9 +2,8 @@
 UID: NC:wdm.DRIVER_UNLOAD
 title: DRIVER_UNLOAD (wdm.h)
 description: The Unload routine performs any operations that are necessary before the system unloads the driver.
-old-location: kernel\unload.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/09/2023
 keywords: ["DRIVER_UNLOAD callback function"]
 ms.keywords: DRIVER_UNLOAD, DrvrRtns_68cde0dd-4521-4771-8965-309dedd87d37.xml, Unload, Unload routine [Kernel-Mode Driver Architecture], kernel.unload, wdm/Unload
 req.header: wdm.h
@@ -40,44 +39,37 @@ api_name:
  - DRIVER_UNLOAD
 ---
 
-# DRIVER_UNLOAD callback function
-
-
 ## -description
 
-The <i>Unload</i> routine performs any operations that are necessary before the system unloads the driver.
+The *Unload* routine performs any operations that are necessary before the system unloads the driver.
 
 ## -parameters
 
 ### -param DriverObject [in]
 
-
-Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure. This is the driver's driver object.
+Caller-supplied pointer to a [DRIVER_OBJECT](./ns-wdm-_driver_object.md) structure. This is the driver's driver object.
 
 ## -remarks
 
-A driver's <i>Unload</i> routine executes in a system thread context at IRQL = PASSIVE_LEVEL.
+A driver's *Unload* routine executes in a system thread context at IRQL = PASSIVE_LEVEL.
 
-The <i>Unload</i> routine is required for WDM drivers and optional for non-WDM drivers. A driver's <i>Unload</i> routine, if supplied, should be named <i>Xxx</i><b>Unload</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>Unload</i> routine's address in <b>DriverObject->DriverUnload</b>. (If no routine is supplied, this pointer must be <b>NULL</b>.)
+The *Unload* routine is required for WDM drivers and optional for non-WDM drivers. A driver's *Unload* routine, if supplied, should be named *Xxx***Unload**, where *Xxx* is a driver-specific prefix. The driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine must store the *Unload* routine's address in **DriverObject->DriverUnload**. (If no routine is supplied, this pointer must be **NULL**.)
 
-For detailed information about implementing a driver's <i>Unload</i> routine, see <a href="/windows-hardware/drivers/kernel/writing-an-unload-routine">Writing an Unload Routine</a>.
+For detailed information about implementing a driver's *Unload* routine, see [Writing an Unload Routine](/windows-hardware/drivers/kernel/writing-an-unload-routine).
 
+### Examples
 
-#### Examples
+To define an *Unload* callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
-To define an <i>Unload</i> callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+For example, to define an *Unload* callback routine that is named `MyUnload`, use the DRIVER_UNLOAD type as shown in this code example:
 
-For example, to define an <i>Unload</i> callback routine that is named <code>MyUnload</code>, use the DRIVER_UNLOAD type as shown in this code example:
-
-
-```
+```cpp
 DRIVER_UNLOAD MyUnload;
 ```
 
 Then, implement your callback routine as follows:
 
-
-```
+```cpp
 _Use_decl_annotations_
 VOID 
   MyUnload(
@@ -88,7 +80,4 @@ VOID
   }
 ```
 
-The DRIVER_UNLOAD function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_UNLOAD function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
-
-<div class="code"></div>
-
+The DRIVER_UNLOAD function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the `_Use_decl_annotations_` annotation to your function definition. The `_Use_decl_annotations_` annotation ensures that the annotations that are applied to the DRIVER_UNLOAD function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions by Using Function Role Types for WDM Drivers](/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers). For information about `_Use_decl_annotations_`, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).

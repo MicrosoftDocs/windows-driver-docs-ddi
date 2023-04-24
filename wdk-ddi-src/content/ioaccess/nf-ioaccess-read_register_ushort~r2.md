@@ -1,4 +1,4 @@
-9---
+---
 UID: NF:ioaccess.READ_REGISTER_USHORT~r2
 title: READ_REGISTER_USHORT function (ioaccess.h)
 description: The READ_REGISTER_USHORT function (ioaccess.h) returns a USHORT value read from the specified register address in resident, mapped device memory.

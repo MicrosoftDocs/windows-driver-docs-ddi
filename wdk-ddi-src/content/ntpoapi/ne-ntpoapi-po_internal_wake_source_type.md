@@ -1,5 +1,5 @@
 ---
-UID: NE:ntpoapi.__unnamed_enum_10
+UID: NE:ntpoapi.PO_INTERNAL_WAKE_SOURCE_TYPE
 title: PO_INTERNAL_WAKE_SOURCE_TYPE
 description: "Learn more about: PO_INTERNAL_WAKE_SOURCE_TYPE enumeration"
 tech.root: kernel

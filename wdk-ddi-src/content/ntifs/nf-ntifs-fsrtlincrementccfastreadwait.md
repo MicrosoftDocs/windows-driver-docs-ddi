@@ -10,7 +10,7 @@ ms.keywords: FsRtlIncrementCcFastReadWait, FsRtlIncrementCcFastReadWait routine 
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Microsoft Windows XP and later.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

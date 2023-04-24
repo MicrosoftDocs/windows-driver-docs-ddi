@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_87
+UID: NE:ksmedia.KSCAMERA_MetadataId
 title: KSCAMERA_MetadataId (ksmedia.h)
 description: This enumeration contains identifiers for a metadata item.
 tech.root: stream
@@ -92,3 +92,4 @@ Enumerates the lowest acceptable custom metadata ID.
 ## -remarks
 
 ## -see-also
+

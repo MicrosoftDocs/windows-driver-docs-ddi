@@ -43,7 +43,7 @@ The **ACX_STREAM_BRIDGE_TYPE** enumeration describes the Acx Stream Bridge Type.
 
 ### -field AcxStreamBridgeInvalidType
 
-The Acx Stream Bridge is an InvalidType. 
+The Acx Stream Bridge is an InvalidType.
 
 ### -field AcxStreamBridgeMux
 
@@ -89,6 +89,12 @@ Example usage is shown below.
     status = AcxStreamBridgeCreate(circuit, &attributes, &bridgeCfg, &bridge);
 ```
 
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

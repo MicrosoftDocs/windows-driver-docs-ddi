@@ -1,9 +1,9 @@
 ---
-UID: NE:ntpoapi.__unnamed_enum_4
+UID: NE:ntpoapi.POWER_MONITOR_REQUEST_REASON
 title: POWER_MONITOR_REQUEST_REASON (ntpoapi.h)
 description: Defines values for power transitions reasons for a monitor.
 tech.root: kernel
-ms.date: 08/16/2022
+ms.date: 09/09/2022
 keywords: ["POWER_MONITOR_REQUEST_REASON enumeration"]
 ms.keywords: POWER_MONITOR_REQUEST_REASON
 req.header: ntpoapi.h
@@ -31,6 +31,7 @@ api_name:
 ---
 
 # POWER_MONITOR_REQUEST_REASON enumeration
+
 
 ## -description
 
@@ -146,8 +147,11 @@ Defines values for power transition reasons for a monitor.
 
 ### -field MonitorRequestReasonBatteryPreCritical
 
+### -field MonitorRequestReasonUserInputTouchpad
+
 ### -field MonitorRequestReasonMax
 
 ## -remarks
 
 ## -see-also
+

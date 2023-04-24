@@ -1,5 +1,5 @@
 ---
-UID: NS:netdispumdddi.__unnamed_struct_1
+UID: NS:netdispumdddi.MIRACAST_CHUNK_INFO
 title: MIRACAST_CHUNK_INFO (netdispumdddi.h)
 description: The MIRACAST_CHUNK_INFO structure contains information about a specified wireless display (Miracast) encode chunk.
 old-location: display\miracast_chunk_info.htm
@@ -72,3 +72,4 @@ The encode bit rate, in kilobits per second, that the user-mode driver reported 
 
 
 <a href="/windows-hardware/drivers/ddi/netdispumdddi/ne-netdispumdddi-miracast_chunk_type">MIRACAST_CHUNK_TYPE</a>
+

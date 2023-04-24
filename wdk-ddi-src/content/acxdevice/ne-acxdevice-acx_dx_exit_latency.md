@@ -57,10 +57,15 @@ The system is entering a sleep state, so the longest exit latency can be tolerat
 
 A device has different power states. The D0 power state is when the device is up and running, D1 is when the device is one of the sleep states, and so on. "Dx" refers to any device sleep state.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 * [AcxDeviceGetCurrentDxExitLatency](nf-acxdevice-acxdevicegetcurrentdxexitlatency.md)
 * [System Power States](/windows-hardware/drivers/kernel/system-power-states)
 * [PC_EXIT_LATENCY](../portcls/ne-portcls-_pc_exit_latency.md)
 * [acxdevice.h header](index.md)
-

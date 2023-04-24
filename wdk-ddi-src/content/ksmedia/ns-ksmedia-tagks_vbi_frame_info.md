@@ -1,10 +1,9 @@
 ---
 UID: NS:ksmedia.tagKS_VBI_FRAME_INFO
-title: tagKS_VBI_FRAME_INFO (ksmedia.h)
+title: KS_VBI_FRAME_INFO (ksmedia.h)
 description: The KS_VBI_FRAME_INFO structure extends the KSSTREAM_HEADER structure for vertical blanking interval (VBI) streams.
-old-location: stream\ks_vbi_frame_info.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/15/2023
 keywords: ["tagKS_VBI_FRAME_INFO structure"]
 ms.keywords: "*PKS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO structure [Streaming Media Devices], PKS_VBI_FRAME_INFO, PKS_VBI_FRAME_INFO structure pointer [Streaming Media Devices], ksmedia/KS_VBI_FRAME_INFO, ksmedia/PKS_VBI_FRAME_INFO, stream.ks_vbi_frame_info, tagKS_VBI_FRAME_INFO, vidcapstruct_4056b888-5d3a-422b-afdb-bc686b853e8b.xml"
 req.header: ksmedia.h
@@ -46,12 +45,9 @@ api_name:
  - KS_VBI_FRAME_INFO
 ---
 
-# tagKS_VBI_FRAME_INFO structure
-
-
 ## -description
 
-The KS_VBI_FRAME_INFO structure extends the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a> structure for vertical blanking interval (VBI) streams.
+The **KS_VBI_FRAME_INFO** structure extends the [**KSSTREAM_HEADER**](/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header) structure for vertical blanking interval (VBI) streams.
 
 ## -struct-fields
 
@@ -61,84 +57,17 @@ Specifies the size of this structure.
 
 ### -field dwFrameFlags
 
-Specifies flags indicating additional information about the frame captured. During capture, the minidriver sets this member to one of the following values that are defined in <i>ksmedia.h</i>:
+Specifies flags indicating additional information about the frame captured. During capture, the minidriver sets this member to one of the following values that are defined in *ksmedia.h*:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-KS_VBI_FLAG_FIELD1
-
-</td>
-<td>
-Indicates the first field of a two-field sequence
-
-</td>
-</tr>
-<tr>
-<td>
-KS_VBI_FLAG_FIELD2
-
-</td>
-<td>
-Indicates the second field of a two-field sequence
-
-</td>
-</tr>
-<tr>
-<td>
-KS_VBI_FLAG_MV_PRESENT
-
-</td>
-<td>
-Indicates Macrovision protection scheme
-
-</td>
-</tr>
-<tr>
-<td>
-KS_VBI_FLAG_MV_HARDWARE
-
-</td>
-<td>
-Indicates Macrovision hardware support
-
-</td>
-</tr>
-<tr>
-<td>
-KS_VBI_FLAG_MV_DETECTED
-
-</td>
-<td>
-Indicates Macrovision detected
-
-</td>
-</tr>
-<tr>
-<td>
-KS_VBI_FLAG_TVTUNER_CHANGE
-
-</td>
-<td>
-Indicates that the <b>TvTunerChangeInfo</b> member structure contains valid data
-
-</td>
-</tr>
-<tr>
-<td>
-KS_VBI_FLAG_VBIINFOHEADER_CHANGE
-
-</td>
-<td>
-Indicates that the <b>VBIInfoHeader</b> member structure contains valid data
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| KS_VBI_FLAG_FIELD1 | Indicates the first field of a two-field sequence |
+| KS_VBI_FLAG_FIELD2 | Indicates the second field of a two-field sequence |
+| KS_VBI_FLAG_MV_PRESENT | Indicates Macrovision protection scheme |
+| KS_VBI_FLAG_MV_HARDWARE | Indicates Macrovision hardware support |
+| KS_VBI_FLAG_MV_DETECTED | Indicates Macrovision detected |
+| KS_VBI_FLAG_TVTUNER_CHANGE | Indicates that the **TvTunerChangeInfo** member structure contains valid data |
+| KS_VBI_FLAG_VBIINFOHEADER_CHANGE | Indicates that the **VBIInfoHeader** member structure contains valid data |
 
 ### -field PictureNumber
 
@@ -154,41 +83,30 @@ Specifies the sampling frequency in hertz (Hz).
 
 ### -field TvTunerChangeInfo
 
-Specifies information about the current VBI data source, including country/region code, analog video standard, and channel. This member is only valid if <b>dwFrameFlags</b> specifies the KS_VBI_FLAG_TVTUNER_CHANGE flag.
+Specifies information about the current VBI data source, including country/region code, analog video standard, and channel. This member is only valid if **dwFrameFlags** specifies the KS_VBI_FLAG_TVTUNER_CHANGE flag.
 
 ### -field VBIInfoHeader
 
-Specifies information about the current VBI data source, including start line, end line, sampling frequency, and video standard. This member is only valid if <b>dwFrameFlags</b> specifies the KS_VBI_FLAG_VBIINFOHEADER_CHANGE flag.
+Specifies information about the current VBI data source, including start line, end line, sampling frequency, and video standard. This member is only valid if **dwFrameFlags** specifies the KS_VBI_FLAG_VBIINFOHEADER_CHANGE flag.
 
 ## -remarks
 
 The KS_VBI_FRAME_INFO structure provides a way to return information about a captured frame, as well as providing tuning information to VBI decoders.
 
-The <b>PictureNumber</b> member count represents the count of the current picture based on the format used to open the stream. This count is calculated in one of two ways, depending on the device:
+The **PictureNumber** member count represents the count of the current picture based on the format used to open the stream. This count is calculated in one of two ways, depending on the device:
 
-<ol>
-<li>
-Measure the time since the stream was started and divide by the frame duration. This method is appropriate for devices that do not provide their own clock. For example: <i>PictureNumber = (CurrentStreamTime − StartStreamTime) / FrameDuration</i>
+1. Measure the time since the stream was started and divide by the frame duration. This method is appropriate for devices that do not provide their own clock. For example: *PictureNumber = (CurrentStreamTime − StartStreamTime) / FrameDuration*
 
-</li>
-<li>
-Add together the count of frames captured and the count of frames dropped. This method is appropriate for devices that provide their own clock. For example: <i>PictureNumber = FramesCaptured + FramesDropped</i>
+1. Add together the count of frames captured and the count of frames dropped. This method is appropriate for devices that provide their own clock. For example: *PictureNumber = FramesCaptured + FramesDropped*
 
-</li>
-</ol>
-When calculating the <b>PictureNumber</b> and <b>DropCount</b>, it is important to use the frame duration specified when the stream was opened, which may not necessarily match the rate at which the device is actually producing images. For example, a USB camera may only produce images at 7.5 fps, but a client could open the stream at 8 fps. In this case, all calculations should use the 8 fps number. For more information about updating <b>PictureNumber</b> and <b>DropCount</b> see <a href="/windows-hardware/drivers/stream/capturing-video">Capturing Video</a>.
+When calculating the **PictureNumber** and **DropCount**, it is important to use the frame duration specified when the stream was opened, which may not necessarily match the rate at which the device is actually producing images. For example, a USB camera may only produce images at 7.5 fps, but a client could open the stream at 8 fps. In this case, all calculations should use the 8 fps number. For more information about updating **PictureNumber** and **DropCount** see [Capturing Video](/windows-hardware/drivers/stream/capturing-video).
 
-The <b>dwSamplingFrequency</b> member is not used by Microsoft VBI codecs, but may be used by other WDM codecs. It must be the same as the <b>VBIInfoHeader</b>.<i>SamplingFrequency</i> member. A minidriver indicates a change in sampling frequency by setting the KS_VBI_FLAG_VBIINFOHEADER_CHANGE bit in the <b>dwFrameFlags</b> member, and filling in all members, including <b>dwSamplingFrequency</b>, in the <b>VBIInfoHeader</b> structure.
+The **dwSamplingFrequency** member is not used by Microsoft VBI codecs, but may be used by other WDM codecs. It must be the same as the **VBIInfoHeader**.*SamplingFrequency* member. A minidriver indicates a change in sampling frequency by setting the KS_VBI_FLAG_VBIINFOHEADER_CHANGE bit in the **dwFrameFlags** member, and filling in all members, including **dwSamplingFrequency**, in the **VBIInfoHeader** structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a>
+[**KSSTREAM_HEADER**](/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header)
 
+[**KS_TVTUNER_CHANGE_INFO**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_tvtuner_change_info)
 
-
-<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_tvtuner_change_info">KS_TVTUNER_CHANGE_INFO</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_vbiinfoheader">KS_VBIINFOHEADER</a>
-
+[**KS_VBIINFOHEADER**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_vbiinfoheader)

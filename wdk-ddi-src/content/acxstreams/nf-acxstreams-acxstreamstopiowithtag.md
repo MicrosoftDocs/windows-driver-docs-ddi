@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamStopIoWithTag
 tech.root: audio
 title: AcxStreamStopIoWithTag
-ms.date: 07/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamStopIoWithTag function is used to temporarily stop the IO for a stream.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -75,8 +75,12 @@ Example usage is shown below.
 
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 
 - [acxstreams.h header](index.md)
-

@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-The acxmisc header is used by the ACX audio class extensions. It provides the ability to store an retrieve data in the AcxObjectBag. 
+The acxmisc header is used by the ACX audio class extensions. It provides the ability to store an retrieve data in the AcxObjectBag.
 
 For additional information on working with ACX, see the following topics.
 

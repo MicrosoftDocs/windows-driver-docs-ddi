@@ -1,8 +1,8 @@
 ---
 UID: NC:acxelements.EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM
-tech.root: audio 
+tech.root: audio
 title: EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM sets the arm state of the keyword spotter.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -52,7 +52,7 @@ An existing, initialized, ACXKEYWORDSPOTTER object. For more information about A
 
 ### -param EventId
 
-A pointer to a GUID that represents the EventId. 
+A pointer to a GUID that represents the EventId.
 
 ### -param Arm
 
@@ -115,6 +115,12 @@ NTSTATUS DspC_EvtAcxKeywordSpotterAssignArm(
     return STATUS_SUCCESS;
 }
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

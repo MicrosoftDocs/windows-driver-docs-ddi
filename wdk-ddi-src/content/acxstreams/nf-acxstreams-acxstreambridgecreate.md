@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamBridgeCreate
 tech.root: audio
 title: AcxStreamBridgeCreate
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamBridgeCreate function uses a stream configuration to create a StreamBridge for a circuit.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -44,7 +44,7 @@ dev_langs:
 
 The **AcxStreamBridgeCreate** function uses a ACX_STREAM_BRIDGE_CONFIG to create a StreamBridge for a circuit.
 
-An ACXSTREAMBRIDGE is used by a circuit to propagate a stream creation, stream’s states transitions and DRM settings between the endpoint's circuit stream segments. This object is only used in a multi-circuit (audio composite) scenario.
+An ACXSTREAMBRIDGE is used by a circuit to propagate a stream creation, stream's states transitions and DRM settings between the endpoint's circuit stream segments. This object is only used in a multi-circuit (audio composite) scenario.
 
 ## -parameters
 
@@ -54,7 +54,7 @@ A pointer to a location that receives a handle to the associated ACXCIRCUIT Obje
 
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) that are used to set the various object’s values: cleanup and destroy callbacks, context type, and to specify its parent object. For more information, see [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure and the remarks section of this topic.
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) that are used to set the various object's values: cleanup and destroy callbacks, context type, and to specify its parent object. For more information, see [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure and the remarks section of this topic.
 
 ### -param Config
 
@@ -70,7 +70,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-An audio endpoint is a collection of one or more audio circuits (ACXCIRCUIT objects) which are assembled to create a complete audio path. An ACX driver normally creates audio circuits for different audio endpoints, although ACX doesn’t prohibit circuits created by the same driver to be part of the same audio endpoint’s collection, as long as they belong to a different device stack. An audio endpoint is a collection of audio circuits created by the same or different audio drivers.
+An audio endpoint is a collection of one or more audio circuits (ACXCIRCUIT objects) which are assembled to create a complete audio path. An ACX driver normally creates audio circuits for different audio endpoints, although ACX doesn't prohibit circuits created by the same driver to be part of the same audio endpoint's collection, as long as they belong to a different device stack. An audio endpoint is a collection of audio circuits created by the same or different audio drivers.
 
 By default, the new ACXSTREAMBRIDGE object's parent is the specified ACXCIRCUIT. You can use the ParentObject member of the WDF_OBJECT_ATTRIBUTES structure to specify a different parent with ACXCIRCUIT as ancestor. The framework deletes the ACXSTREAMBRIDGE object when it deletes the parent object.
 
@@ -96,6 +96,11 @@ Example usage is shown below.
     status = AcxStreamBridgeCreate(circuit, &attributes, &bridgeCfg, &bridge);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

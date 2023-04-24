@@ -1,5 +1,5 @@
 ---
-UID: NE:irb.__unnamed_enum_3
+UID: NE:irb.IDE_POWER_STATE
 title: IDE_POWER_STATE (irb.h)
 description: The IDE_POWER_STATE enumeration type indicates that power state of the device.
 old-location: storage\ide_power_state.htm
@@ -69,3 +69,4 @@ The IDE_POWER_STATE enumeration type is used in conjunction with the <a href="/w
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportrequestpowerstatechange">AtaPortRequestPowerStateChange</a>
+

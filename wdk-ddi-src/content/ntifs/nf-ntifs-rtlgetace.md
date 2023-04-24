@@ -10,7 +10,7 @@ ms.keywords: RtlGetAce, RtlGetAce routine [Installable File System Drivers], ifs
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Microsoft Windows XP and later.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -71,7 +71,7 @@ Pointer to a caller-allocated variable to receive the address of the ACE within 
 
 ## -remarks
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 

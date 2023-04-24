@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_33
+UID: NS:gnssdriver.GNSS_SUPL_NI_INFO
 title: GNSS_SUPL_NI_INFO (gnssdriver.h)
 description: The GNSS_SUPL_NI_INFO structure contains the requested SUPL NI information.
 tech.root: gnss
@@ -71,3 +71,4 @@ This will be displayed on the notification dialog to the user. The GNSS driver m
 ### -field SuplNiUrl
 
 NI URL information.
+

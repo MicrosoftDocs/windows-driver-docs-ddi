@@ -1,10 +1,9 @@
 ---
-UID: NS:ks.__unnamed_struct_76
+UID: NS:ks.KSOBJECT_CREATE_ITEM
 title: KSOBJECT_CREATE_ITEM (ks.h)
 description: The KSOBJECT_CREATE_ITEM structure is used to look up the string passed to a create request.
-old-location: stream\ksobject_create_item.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/06/2023
 keywords: ["KSOBJECT_CREATE_ITEM structure"]
 ms.keywords: "*PKSOBJECT_CREATE_ITEM, KSOBJECT_CREATE_ITEM, KSOBJECT_CREATE_ITEM structure [Streaming Media Devices], PKSOBJECT_CREATE_ITEM, PKSOBJECT_CREATE_ITEM structure pointer [Streaming Media Devices], ks-struct_d09f00c9-44ef-44fa-b46e-2ab540797a53.xml, ks/KSOBJECT_CREATE_ITEM, ks/PKSOBJECT_CREATE_ITEM, stream.ksobject_create_item"
 req.header: ks.h
@@ -43,18 +42,15 @@ api_name:
  - KSOBJECT_CREATE_ITEM
 ---
 
-# KSOBJECT_CREATE_ITEM structure
-
-
 ## -description
 
-The KSOBJECT_CREATE_ITEM structure is used to look up the string passed to a create request.
+The **KSOBJECT_CREATE_ITEM** structure is used to look up the string passed to a create request.
 
 ## -struct-fields
 
 ### -field Create
 
-Contains the create dispatch function for this particular base object class. See <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> for the signature of this function type.
+Contains the create dispatch function for this particular base object class. See [**DRIVER_OBJECT**](../wdm/ns-wdm-_driver_object.md) for the signature of this function type.
 
 ### -field Context
 
@@ -66,64 +62,28 @@ Points to a Unicode string that identifies the object class. This is the string 
 
 ### -field SecurityDescriptor
 
-Contains a pointer to a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> for this type of object, otherwise <b>NULL</b>. If security is used, this must be freed when the object type is no longer used. This must use pool memory, and cannot be shared, as it may be replaced. If this is modified, the <b>Flags</b> element is updated. Optional.
+Contains a pointer to a [**SECURITY_DESCRIPTOR**](../ntifs/ns-ntifs-_security_descriptor.md) for this type of object, otherwise **NULL**. If security is used, this must be freed when the object type is no longer used. This must use pool memory, and cannot be shared, as it may be replaced. If this is modified, the **Flags** element is updated. Optional.
 
 ### -field Flags
 
 Specifies the request type. Flags can have the values listed in the following table.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-KSCREATE_ITEM_SECURITYCHANGED
-
-</td>
-<td>
-Indicates that the security descriptor on this object type has been changed and should be persisted.
-
-</td>
-</tr>
-<tr>
-<td>
-KSCREATE_ITEM_WILDCARD
-
-</td>
-<td>
-Indicates that this create item represents a wild card that is used for any create requests that do not match any other create items. The ordering of the wild card entry in the list of create items is irrelevant. Only a single wild card entry is valid on any list of create items.
-
-</td>
-</tr>
-<tr>
-<td>
-KSCREATE_ITEM_NOPARAMETERS
-
-</td>
-<td>
-Indicates that this create item does not allow any parameters to be passed, and fails if any are found. Normally, create parameters are passed on to the create handler. This cannot be used with a wild card flag.
-
-</td>
-</tr>
-</table>
+| Flag | Description |
+|---|---|
+| KSCREATE_ITEM_SECURITYCHANGED | Indicates that the security descriptor on this object type has been changed and should be persisted. |
+| KSCREATE_ITEM_WILDCARD | Indicates that this create item represents a wild card that is used for any create requests that do not match any other create items. The ordering of the wild card entry in the list of create items is irrelevant. Only a single wild card entry is valid on any list of create items. |
+| KSCREATE_ITEM_NOPARAMETERS | Indicates that this create item does not allow any parameters to be passed, and fails if any are found. Normally, create parameters are passed on to the create handler. This cannot be used with a wild card flag. |
 
 ## -remarks
 
-A pointer to the KSOBJECT_CREATE_ITEM structure is placed in the <b>DriverContext</b> member of <b>Irp->Tail.Overlay</b> before the object is created. You can access this pointer by using the KSCREATE_ITEM_IRP_STORAGE macro. This macro and related macros are included in <i>ks.h</i>.
+A pointer to the KSOBJECT_CREATE_ITEM structure is placed in the **DriverContext** member of **Irp->Tail.Overlay** before the object is created. You can access this pointer by using the KSCREATE_ITEM_IRP_STORAGE macro. This macro and related macros are included in *ks.h*.
 
-The minidriver might retrieve this pointer when creating a new object to examine the <b>Context</b> field.
+The minidriver might retrieve this pointer when creating a new object to examine the **Context** field.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedeviceheader">KsAllocateDeviceHeader</a>
+[KsAllocateDeviceHeader](./nf-ks-ksallocatedeviceheader.md)
 
+[KsAllocateObjectHeader](./nf-ks-ksallocateobjectheader.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocateobjectheader">KsAllocateObjectHeader</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactoryaddcreateitem">KsFilterFactoryAddCreateItem</a>
-
+[KsFilterFactoryAddCreateItem](./nf-ks-ksfilterfactoryaddcreateitem.md)

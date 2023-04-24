@@ -3,10 +3,10 @@ UID: NC:wdm.IOMMU_DOMAIN_DETACH_DEVICE
 title: IOMMU_DOMAIN_DETACH_DEVICE (wdm.h)
 description: Detaches a device from an existing domain.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 01/19/2023
 keywords: ["IOMMU_DOMAIN_DETACH_DEVICE callback function"]
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
@@ -36,9 +36,6 @@ api_name:
  - IOMMU_DOMAIN_DETACH_DEVICE
 ---
 
-# IOMMU_DOMAIN_DETACH_DEVICE callback function
-
-
 ## -description
 
 Detaches a device from an existing domain.
@@ -61,32 +58,9 @@ The input mapping for the device's desired stream.
 
 Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
-## -prototype
-
-```cpp
-//Declaration
-
-IOMMU_DOMAIN_DETACH_DEVICE IommuDomainDetachDevice; 
-
-// Definition
-
-NTSTATUS IommuDomainDetachDevice 
-(
-	PIOMMU_DMA_DOMAIN Domain
-	PDEVICE_OBJECT PhysicalDeviceObject
-	ULONG InputMappingId
-)
-{...}
-
-IOMMU_DOMAIN_DETACH_DEVICE *PIOMMU_DOMAIN_DETACH_DEVICE
-
-
-```
-
 ## -remarks
 
 It is driver's responsibility to ensure that this function is not called concurrently with IOMMU_DOMAIN_ATTACH_DEVICE or IOMMU_SET_DEVICE_FAULT_REPORTING calls on the same device.
-
 
 InputMappingId is used only for ACPI-enumerated devices on ARM64. For all other cases, this value must be zero.
 

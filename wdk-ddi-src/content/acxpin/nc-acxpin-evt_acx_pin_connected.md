@@ -2,7 +2,7 @@
 UID: NC:acxpin.EVT_ACX_PIN_CONNECTED
 tech.root: audio
 title: EVT_ACX_PIN_CONNECTED
-ms.date: 03/25/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The EVT_ACX_PIN_CONNECTED callback function is implemented by the driver and is called when the circuit bridge pin is connected to bridge pin of another circuit.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxpin.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -62,8 +62,12 @@ The identifier of the pin in the *TargetCircuit* to which the *Pin* was connecte
 
 This event happens when the composite circuit is fully initialized. From this point on, the *TargetCircuit* can be used to send [kernel streaming properties](/windows-hardware/drivers/stream/ks-properties) and [kernel streaming methods](/windows-hardware/drivers/stream/ks-methods) requests.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

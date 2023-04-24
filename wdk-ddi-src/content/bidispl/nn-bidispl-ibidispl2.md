@@ -2,9 +2,8 @@
 UID: NN:bidispl.IBidiSpl2
 title: IBidiSpl2 (bidispl.h)
 description: The IBidiSpl2 interface enables an application or other objects to send one or more bidi requests using one of the Bidi Request Schemas and receive information formatted as one of the Bidi Response Schemas.
-old-location: print\ibidispl2.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 03/03/2023
 keywords: ["IBidiSpl2 interface"]
 ms.keywords: IBidiSpl2, IBidiSpl2 interface [Print Devices], IBidiSpl2 interface [Print Devices],described, _win32_IBidiSpl2, bidispl/IBidiSpl2, gdi.ibidispl2, print.ibidispl2
 req.header: bidispl.h
@@ -39,9 +38,6 @@ api_location:
 api_name:
  - IBidiSpl2
 ---
-
-# IBidiSpl2 interface
-
 
 ## -description
 

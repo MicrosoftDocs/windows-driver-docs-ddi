@@ -2,7 +2,7 @@
 UID: NF:acxmanager.AcxManagerRemoveCompositeTemplate
 tech.root: audio
 title: AcxManagerRemoveCompositeTemplate
-ms.date: 04/27/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxManagerRemoveCompositeTemplate function removes the specified composite template from the specified ACXMANAGER.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxmanager.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -62,7 +62,12 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 When a composite template is removed, all endpoints associated with that composite template are also stopped and removed.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxmanager.h header](index.md)
-

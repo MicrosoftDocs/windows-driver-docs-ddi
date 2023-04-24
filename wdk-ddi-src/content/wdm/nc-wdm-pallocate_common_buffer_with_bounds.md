@@ -1,12 +1,12 @@
 ---
 UID: NC:wdm.PALLOCATE_COMMON_BUFFER_WITH_BOUNDS
 title: PALLOCATE_COMMON_BUFFER_WITH_BOUNDS (wdm.h)
-description: "Learn more about: PALLOCATE_COMMON_BUFFER_WITH_BOUNDS callback function"
+description: This callback function allocates the memory for a common buffer and maps it so that it can be accessed by a master device and the CPU.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 01/19/2023
 keywords: ["PALLOCATE_COMMON_BUFFER_WITH_BOUNDS callback function"]
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
@@ -36,9 +36,6 @@ api_name:
  - PALLOCATE_COMMON_BUFFER_WITH_BOUNDS
 ---
 
-# PALLOCATE_COMMON_BUFFER_WITH_BOUNDS callback function
-
-
 ## -description
 
 This callback function allocates the memory for a common buffer and maps it so that it can be accessed by a master device and the CPU. The common buffer can be bound by an optional minimum and maximum logical address.
@@ -65,9 +62,9 @@ The size, in bytes, of the common buffer that is to be allocated for the DMA ope
 
 The size, in bytes, of the common buffer that is to be allocated for the DMA operation.
 
-|Flag|Meaning|
-|--- |--- |
-|**DOMAIN_COMMON_BUFFER_LARGE_PAGE**|The common buffer will be allocated using a larger page granularity of PAGE_SIZE * 512. Note that this can increase the chance of the allocation being unsuccessful.|
+| Flag | Meaning |
+|---|---|
+| **DOMAIN_COMMON_BUFFER_LARGE_PAGE** | The common buffer will be allocated using a larger page granularity of PAGE_SIZE * 512. Note that this can increase the chance of the allocation being unsuccessful. |
 
 ### -param CacheType [in, optional]
 
@@ -85,41 +82,18 @@ A pointer to a variable into which this routine writes the logical address that 
 
 Returns PVOID that is the virtual address of the memory allocated for the common buffer. If the buffer cannot be allocated, then returns NULL.
 
-## -prototype
-
-```cpp
-//Declaration
-
-PALLOCATE_COMMON_BUFFER_WITH_BOUNDS PallocateCommonBufferWithBounds; 
-
-// Definition
-
-PVOID PallocateCommonBufferWithBounds 
-(
-    PDMA_ADAPTER DmaAdapter
-    PPHYSICAL_ADDRESS MinimumAddress
-    PPHYSICAL_ADDRESS MaximumAddress
-    ULONG Length
-    ULONG Flags
-    MEMORY_CACHING_TYPE *CacheType
-    NODE_REQUIREMENT PreferredNode
-    PPHYSICAL_ADDRESS LogicalAddress
-)
-{...}
-
-```
-
 ## -remarks
 
 This callback function is an extended version of the [*PALLOCATE_COMMON_BUFFER_EX*](nc-wdm-pallocate_common_buffer_ex.md) routine. The following list summarizes the features that are available only in the extended version:
 
 - The caller can specify a minimum logical address for the common buffer that is to be allocated.
+
 - The caller can provide a caching type override that will be followed regardless of the hardware platform.
+
 - The caller can specify the use of a larger granularity for their common buffer allocation.
 
 ## -see-also
 
-[_DMA_OPERATIONS](ns-wdm-_dma_operations.md)
+[**DMA_OPERATIONS**](ns-wdm-_dma_operations.md)
 
 [*PALLOCATE_COMMON_BUFFER_EX*](nc-wdm-pallocate_common_buffer_ex.md)
-

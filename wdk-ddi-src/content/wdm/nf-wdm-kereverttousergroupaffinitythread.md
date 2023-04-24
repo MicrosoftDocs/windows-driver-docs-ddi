@@ -66,7 +66,7 @@ A thread can change the group to which it is assigned by calling the <a href="/w
 
 After the thread is created, a call to <b>KeRevertToUserGroupAffinityThread</b> has no effect (that is, the group number and affinity mask of the thread remain unchanged) unless the thread first calls <b>KeSetSystemGroupAffinityThread</b>. Following a call to <b>KeRevertToUserGroupAffinityThread</b>, a second call to <b>KeRevertToUserGroupAffinityThread</b> has no effect unless the thread first calls <b>KeSetSystemGroupAffinityThread</b>.
 
-The routine changes the group number and affinity mask to the values that are specified in *<i>PreviousAffinity</i> only if the following are true:
+The routine changes the group number and affinity mask to the values that are specified in **PreviousAffinity* only if the following are true:
 
 <ul>
 <li>

@@ -1,12 +1,12 @@
 ---
 UID: NC:ntddk._WHEA_ERROR_SOURCE_UNINITIALIZE
-title: _WHEA_ERROR_SOURCE_UNINITIALIZE
-description: "Learn more about: _WHEA_ERROR_SOURCE_UNINITIALIZE callback function"
+title: WHEA_ERROR_SOURCE_UNINITIALIZE
+description: Describes the WHEA_ERROR_SOURCE_UNINITIALIZE callback function.
 tech.root: whea
-ms.date: 08/19/2019
+ms.date: 01/18/2023
 keywords: ["WHEA_ERROR_SOURCE_UNINITIALIZE callback function"]
 req.header: ntddk.h
-req.include-header: 
+req.include-header: Ntddk.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -23,7 +23,6 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
-ms.custom: 19H1
 f1_keywords:
  - _WHEA_ERROR_SOURCE_UNINITIALIZE
  - ntddk/_WHEA_ERROR_SOURCE_UNINITIALIZE
@@ -39,37 +38,16 @@ product:
  - Windows
 ---
 
-# _WHEA_ERROR_SOURCE_UNINITIALIZE callback function
-
-
 ## -description
 
-Implemented by the client driver to ...
+Describes the WHEA_ERROR_SOURCE_UNINITIALIZE callback function.
 
 ## -parameters
 
-### -param Context: 
+### -param Context
 
-## -prototype
-
-```
-//Declaration
-
-_WHEA_ERROR_SOURCE_UNINITIALIZE WheaErrorSourceUninitialize; 
-
-// Definition
-
-VOID WheaErrorSourceUninitialize 
-(
-	PVOID Context
-)
-{...}
-
-```
+Defines the **PVOID** parameter *Context*.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
 ## -see-also
-

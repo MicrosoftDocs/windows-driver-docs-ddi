@@ -117,7 +117,7 @@ If the <b>ContextTrackingMode</b> member of <i>ClientSecurityQos</i> is set to S
 
 Each call to <b>SeCreateClientSecurity</b> must be matched by a subsequent call to <b>SeDeleteClientSecurity</b>.
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 

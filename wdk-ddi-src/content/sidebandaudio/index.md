@@ -6,7 +6,7 @@ ms.assetid: a245e760-fd7d-3efa-9b5f-09303bd40241
 ms.date: 07/11/2018
 keywords: ["sidebandaudio.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: audio
 ms.custom: RS5
 f1_keywords:

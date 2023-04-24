@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxCircuitGetWdfDevice
 tech.root: audio
 title: AcxCircuitGetWdfDevice
-ms.date: 07/28/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: Given an existing ACX Circuit object, the AcxCircuitGetWdfDevice function returns the associated WDFDEVICE object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -67,7 +67,12 @@ Example usage is shown below.
     device = AcxCircuitGetWdfDevice(circuit);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

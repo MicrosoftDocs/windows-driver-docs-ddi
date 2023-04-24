@@ -2,11 +2,10 @@
 description: "Learn more about: Avcstrm.h header"
 UID: NA:avcstrm
 title: Avcstrm.h header
-ms.assetid: 95ad8480-00a5-327d-bbf8-cb0d47180196
-ms.date: 05/09/2018
+ms.date: 03/02/2023
 keywords: ["Avcstrm.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: stream
 f1_keywords:
  - avcstrm
@@ -17,10 +16,8 @@ api_name:
 
 # Avcstrm.h header
 
-
 ## -description
 
 This header is used by stream. For more information, see:
 
 - [Streaming media devices](../_stream/index.md)
-

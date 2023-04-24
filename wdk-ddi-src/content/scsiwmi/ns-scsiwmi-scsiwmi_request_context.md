@@ -1,5 +1,5 @@
 ---
-UID: NS:scsiwmi.__unnamed_struct_0
+UID: NS:scsiwmi.SCSIWMI_REQUEST_CONTEXT
 title: SCSIWMI_REQUEST_CONTEXT (scsiwmi.h)
 description: A SCSIWMI_REQUEST_CONTEXT structure contains context information for a WMI SRB.
 old-location: storage\scsiwmi_request_context.htm
@@ -44,6 +44,7 @@ api_name:
 ---
 
 # SCSIWMI_REQUEST_CONTEXT structure
+
 
 ## -description
 
@@ -95,3 +96,4 @@ A request context must remain valid throughout the processing of an SRB. If the 
 [**ScsiPortWmiGetReturnStatus**](nf-scsiwmi-scsiportwmigetreturnstatus.md)
 
 [**ScsiPortWmiPostProcess**](nf-scsiwmi-scsiportwmipostprocess.md)
+

@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_TARGET_FACTORY_CIRCUIT_CONFIG
 ms.date: 07/22/2022
 targetos: Windows
-description: The ACX_TARGET_FACTORY_CIRCUIT_CONFIG structure is used to define the target factory circuit configuration. 
+description: The ACX_TARGET_FACTORY_CIRCUIT_CONFIG structure is used to define the target factory circuit configuration.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -76,6 +76,12 @@ Pointer to a Unicode string that contains the name of the symbolic link for the 
     ACX_TARGET_FACTORY_CIRCUIT_CONFIG_INIT(&targetCfg);
     targetCfg.SymbolicLinkName = m_SymbolicLinkName; 
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

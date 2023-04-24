@@ -2,9 +2,8 @@
 UID: NC:usbcamdi.PCAM_PROCESS_PACKET_ROUTINE_EX
 title: PCAM_PROCESS_PACKET_ROUTINE_EX (usbcamdi.h)
 description: A camera minidriver's CamProcessUSBPacketEx callback function processes a USB packet.
-old-location: stream\camprocessusbpacketex.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/08/2023
 keywords: ["PCAM_PROCESS_PACKET_ROUTINE_EX callback function"]
 ms.keywords: CamProcessUSBPacketEx, CamProcessUSBPacketEx routine [Streaming Media Devices], PCAM_PROCESS_PACKET_ROUTINE_EX, stream.camprocessusbpacketex, usbcamdi/CamProcessUSBPacketEx, usbcmdpr_bd37e77c-386b-4b94-ad7c-8b1c5c26799a.xml
 req.header: usbcamdi.h
@@ -40,12 +39,9 @@ api_name:
  - PCAM_PROCESS_PACKET_ROUTINE_EX
 ---
 
-# PCAM_PROCESS_PACKET_ROUTINE_EX callback function
-
-
 ## -description
 
-A camera minidriver's <b>CamProcessUSBPacketEx</b> callback function processes a USB packet.
+A camera minidriver's **CamProcessUSBPacketEx** callback function processes a USB packet.
 
 ## -parameters
 
@@ -63,11 +59,11 @@ Pointer to the camera minidriver's frame context.
 
 ### -param SyncPacket
 
-Pointer to a <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_iso_packet_descriptor">USBD_ISO_PACKET_DESCRIPTOR</a> structure from the sync pipe. This value is <b>NULL</b> if the interface has only one pipe.
+Pointer to a [**USBD_ISO_PACKET_DESCRIPTOR**](../usb/ns-usb-_usbd_iso_packet_descriptor.md) structure from the sync pipe. This value is **NULL** if the interface has only one pipe.
 
 ### -param SyncBuffer
 
-Pointer to the data for the <i>SyncPacket</i>.
+Pointer to the data for the *SyncPacket*.
 
 ### -param DataPacket
 
@@ -75,7 +71,7 @@ Specifies the isochronous packet descriptor from data pipe.
 
 ### -param DataBuffer
 
-Pointer to <i>DataPacket.</i>
+Pointer to *DataPacket.*
 
 ### -param FrameComplete
 
@@ -85,46 +81,15 @@ Pointer to a BOOLEAN value that the camera minidriver sets to indicate whether t
 
 Pointer to a value that the minidriver sets to indicate the contents of the current frame. It should be set to one of the following values:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-USBCAMD_PROCESSPACKETEX_DropFrame
-
-</td>
-<td>
-The current frame is unsalvageable. The read IRP should be recycled.
-
-</td>
-</tr>
-<tr>
-<td>
-USBCAMD_PROCESSPACKETEX_NextFrameIsStill
-
-</td>
-<td>
-The frame is a still image.
-
-</td>
-</tr>
-<tr>
-<td>
-USBCAMD_PROCESSPACKETEX_CurrentFrameIsStill
-
-</td>
-<td>
-The current frame is for the still pin.
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| USBCAMD_PROCESSPACKETEX_DropFrame | The current frame is unsalvageable. The read IRP should be recycled. |
+| USBCAMD_PROCESSPACKETEX_NextFrameIsStill | The frame is a still image. |
+| USBCAMD_PROCESSPACKETEX_CurrentFrameIsStill | The current frame is for the still pin. |
 
 ### -param ValidDataOffset
 
-Pointer to a ULONG value that indicates an offset from the beginning of the packet. USBCAMD should start the copy from this offset. This eliminates the extra buffer copy in the case of an in-band signal. If the camera is not using in-band signaling, <i>ValidDataOffset</i> should be set to zero.
+Pointer to a ULONG value that indicates an offset from the beginning of the packet. USBCAMD should start the copy from this offset. This eliminates the extra buffer copy in the case of an in-band signal. If the camera is not using in-band signaling, *ValidDataOffset* should be set to zero.
 
 ## -returns
 
@@ -132,19 +97,16 @@ This function returns the number of bytes that should be copied.
 
 ## -remarks
 
-The minidriver should complete its <b>CamProcessUSBPacketEx</b> function as quickly as possible. Image processing should be deferred to the <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine_ex">CamProcessRawVideoFrameEx</a> function.
+The minidriver should complete its **CamProcessUSBPacketEx** function as quickly as possible. Image processing should be deferred to the [CamProcessRawVideoFrameEx](./nc-usbcamdi-pcam_process_raw_frame_routine_ex.md) function.
 
 This callback function is used with isochronous pipes only (video or still streaming).
 
-The original USBCAMD does not call <b>CamProcessUSBPacketEx</b>.
+The original USBCAMD does not call **CamProcessUSBPacketEx**.
 
 This function is optional.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine_ex">CamProcessRawVideoFrameEx</a>
+[CamProcessRawVideoFrameEx](./nc-usbcamdi-pcam_process_raw_frame_routine_ex.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_iso_packet_descriptor">USBD_ISO_PACKET_DESCRIPTOR</a>
-
+[**USBD_ISO_PACKET_DESCRIPTOR**](../usb/ns-usb-_usbd_iso_packet_descriptor.md)

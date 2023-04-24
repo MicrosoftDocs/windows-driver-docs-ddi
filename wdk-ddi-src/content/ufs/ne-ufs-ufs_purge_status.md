@@ -1,5 +1,5 @@
 ---
-UID: NE:ufs.__unnamed_enum_2
+UID: NE:ufs.UFS_PURGE_STATUS
 title: UFS_PURGE_STATUS (ufs.h)
 description: Specifies the current status of a purge operation.
 old-location: storage\ufs_purge_status.htm
@@ -84,3 +84,4 @@ that it is read.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ufs/ne-ufs-ufs_attributes_descriptor">UFS_ATTRIBUTES_DESCRIPTOR</a>
+

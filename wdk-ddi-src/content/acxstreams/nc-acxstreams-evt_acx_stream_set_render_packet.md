@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_SET_RENDER_PACKET
 tech.root: audio
 title: EVT_ACX_STREAM_SET_RENDER_PACKET
-ms.date: 07/28/2022
+ms.date: 10/31/2022
 targetos: Windows
 description: The EvtAcxStreamSetRenderPacket event tells the driver which packet was just released by the client.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,9 +42,9 @@ dev_langs:
 
 ## -description
 
-The **EvtAcxStreamSetRenderPacket** event tells the driver which packet was just released by the client. 
+The **EvtAcxStreamSetRenderPacket** event tells the driver which packet was just released by the client.
 
-If there are no glitches, this packet should be (CurrentRenderPacket + 1), where CurrentRenderPacket is the packet the driver is currently streaming from. The driver should continue to increase the CurrentRenderPacket as packets are rendered instead of changing its CurrentRenderPacket to match this value. The property will include the packet index (0-based) and, if appropriate, an EOS flag with the byte offset of the end of the stream in the current packet.  
+If there are no glitches, this packet should be (CurrentRenderPacket + 1), where CurrentRenderPacket is the packet the driver is currently streaming from. The driver should continue to increase the CurrentRenderPacket as packets are rendered instead of changing its CurrentRenderPacket to match this value. The property will include the packet index (0-based) and, if appropriate, an EOS flag with the byte offset of the end of the stream in the current packet.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ The number of the packet written by the OS to the WaveRT buffer. Depending on th
 
 ### -param Flags
 
-Flags can be 0 or AcxStreamSetRenderPacketEndOfStream, indicating the Packet is the last packet in the stream. 
+Flags can be 0 or AcxStreamSetRenderPacketEndOfStream, indicating the Packet is the last packet in the stream.
 
 ### -param EosPacketLength
 
@@ -68,11 +68,11 @@ The length of the EOS packet if AcxStreamSetRenderPacketEndOfStream is specified
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
-STATUS_DATA_LATE_ERROR – The driver returns this error if the OS passes a packet number that has already transferred or is currently transferring. In this case, a glitch condition has occurred. The driver may optionally use some of the data from the packet or continue playing out the data previously written to this packet number. 
+STATUS_DATA_LATE_ERROR – The driver returns this error if the OS passes a packet number that has already transferred or is currently transferring. In this case, a glitch condition has occurred. The driver may optionally use some of the data from the packet or continue playing out the data previously written to this packet number.
 
-STATUS_DATA_OVERRUN – The driver returns this error if the OS passes a packet number that is higher than can be stored in the WaveRT buffer. In this case, a glitch condition has occurred. The driver may optionally ignore the data in the packet. 
+STATUS_DATA_OVERRUN – The driver returns this error if the OS passes a packet number that is higher than can be stored in the WaveRT buffer. In this case, a glitch condition has occurred. The driver may optionally ignore the data in the packet.
 
-STATUS_INVALID_DEVICE_STATE – The driver returns this error if the OS calls this routine after previously setting the AcxStreamSetRenderPacketEndOfStream flag. 
+STATUS_INVALID_DEVICE_STATE – The driver returns this error if the OS calls this routine after previously setting the AcxStreamSetRenderPacketEndOfStream flag.
 
 STATUS_INVALID_PARAMETER – The driver returns this error if it finds any other parameter invalid, aside from the specific cases for other error status. This includes any Flag values not specifically defined above.
 
@@ -132,7 +132,12 @@ EvtStreamSetRenderPacket(
 }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxstreams.h header](index.md)
-

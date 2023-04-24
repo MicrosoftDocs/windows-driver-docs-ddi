@@ -1,14 +1,11 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_161
+UID: NS:ksmedia.KSVPSURFACEPARAMS
 title: KSVPSURFACEPARAMS (ksmedia.h)
 description: The KSVPSURFACEPARAMS structure is used to describe the surface parameters of a video port surface.
 tech.root: stream
 ms.date: 03/08/2022
 keywords: ["KSVPSURFACEPARAMS structure"]
 ms.keywords: "*PKSVPSURFACEPARAMS, KSVPSURFACEPARAMS, KSVPSURFACEPARAMS structure [Streaming Media Devices], PKSVPSURFACEPARAMS, PKSVPSURFACEPARAMS structure pointer [Streaming Media Devices], dvdref_676b0467-3a23-4aac-8f72-7fd53ef399dd.xml, ksmedia/KSVPSURFACEPARAMS, ksmedia/PKSVPSURFACEPARAMS, stream.ksvpsurfaceparams"
-f1_keywords:
- - "ksmedia/KSVPSURFACEPARAMS"
- - "KSVPSURFACEPARAMS"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -26,17 +23,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSVPSURFACEPARAMS
 targetos: Windows
 req.typenames: KSVPSURFACEPARAMS, *PKSVPSURFACEPARAMS
+f1_keywords:
+ - "ksmedia/KSVPSURFACEPARAMS"
+ - "KSVPSURFACEPARAMS"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSVPSURFACEPARAMS
 ---
 
 ## -description
@@ -64,3 +64,4 @@ This structure is used by the [KSPROPERTY_VPCONFIG_SURFACEPARAMS](/windows-hardw
 ## -see-also
 
 [KSPROPERTY_VPCONFIG_SURFACEPARAMS](/windows-hardware/drivers/stream/ksproperty-vpconfig-surfaceparams)
+

@@ -2,9 +2,8 @@
 UID: NC:wdm.GET_VIRTUAL_DEVICE_DATA
 title: GET_VIRTUAL_DEVICE_DATA (wdm.h)
 description: The GetVirtualFunctionData routine reads data from the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
-old-location: pci\getvirtualfunctiondata.htm
 tech.root: PCI
-ms.date: 07/29/2021
+ms.date: 01/05/2023
 keywords: ["GET_VIRTUAL_DEVICE_DATA callback"]
 ms.keywords: GET_VIRTUAL_DEVICE_DATA, GetVirtualFunctionData, GetVirtualFunctionData routine, PCI.getvirtualfunctiondata, wdm/GetVirtualFunctionData
 req.header: wdm.h
@@ -23,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= APC_LEVEL
+req.irql: IRQL <= APC_LEVEL
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
@@ -41,17 +40,15 @@ api_name:
  - GET_VIRTUAL_DEVICE_DATA
 ---
 
-# GET_VIRTUAL_DEVICE_DATA callback
-
 ## -description
 
-The  [GetVirtualFunctionData]() routine reads data from the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
+The **GetVirtualFunctionData** routine reads data from the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
 
 ## -parameters
 
 ### -param Context [in, out]
 
-A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)) structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the **Context** member of the [**PCI_VIRTUALIZATION_INTERFACE**](./ns-wdm-pci_virtualization_interface.md) structure for the interface.
 
 ### -param VirtualFunction [in]
 
@@ -71,34 +68,18 @@ The length, in bytes, of the data to be read.
 
 ## -returns
 
-The [GetVirtualFunctionData]() routine returns the length, in bytes, of the PCIe configuration data that was read after a successful read operation. If the read operation is unsuccessful, the routine returns zero.
-
-## -prototype
-
-```cpp
-GET_VIRTUAL_DEVICE_DATA GetVirtualFunctionData;
-
-ULONG GetVirtualFunctionData(
-  _Inout_ PVOID  Context,
-  _In_    USHORT VirtualFunction,
-  _Out_   PVOID  Buffer,
-  _In_    ULONG  Offset,
-  _In_    ULONG  Length
-)
-{ ... }
-```
+The **GetVirtualFunctionData** routine returns the length, in bytes, of the PCIe configuration data that was read after a successful read operation. If the read operation is unsuccessful, the routine returns zero.
 
 ## -remarks
 
-The [GetVirtualFunctionData]() routine resembles the [GetBusData](..\wdm\nc-wdm-get_set_device_data.md) routine, except that it reads PCIe configuration data from a VF instead of from a device's physical function (PF).
+The **GetVirtualFunctionData** routine resembles the [GetBusData](nc-wdm-get_set_device_data.md) routine, except that it reads PCIe configuration data from a VF instead of from a device's physical function (PF).
 
-The [GetVirtualFunctionData]() routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface. The [GetBusData](..\wdm\nc-wdm-get_set_device_data.md) routine is provided by the **GUID_BUS_INTERFACE_STANDARD** interface.
+The **GetVirtualFunctionData** routine is provided by the **GUID_PCI_VIRTUALIZATION_INTERFACE** interface. The [GetBusData](nc-wdm-get_set_device_data.md) routine is provided by the **GUID_BUS_INTERFACE_STANDARD** interface.
 
-> [!NOTE]
-> The virtualization stack calls [GetVirtualFunctionData]() when a driver that is running in the guest operating system calls the [GetBusData](..\wdm\nc-wdm-get_set_device_data.md) routine.
+The virtualization stack calls **GetVirtualFunctionData** when a driver that is running in the guest operating system calls the [GetBusData](nc-wdm-get_set_device_data.md) routine.
 
 ## -see-also
 
-[PCI_VIRTUALIZATION_INTERFACE](/previous-versions/windows/hardware/drivers/hh406642(v=vs.85))
+[**PCI_VIRTUALIZATION_INTERFACE**](./ns-wdm-pci_virtualization_interface.md)
 
-[GetBusData](..\wdm\nc-wdm-get_set_device_data.md)
+[GetBusData](nc-wdm-get_set_device_data.md)

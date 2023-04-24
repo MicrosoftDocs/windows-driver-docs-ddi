@@ -1,5 +1,5 @@
 ---
-UID: NE:storport.__unnamed_enum_3
+UID: NE:storport.SRBEX_DATA_NVME_COMMAND_FLAG
 tech.root: storage
 title: SRBEX_DATA_NVME_COMMAND_FLAG (storport.h)
 ms.date: 05/13/2021
@@ -11,7 +11,7 @@ req.header: storport.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -47,3 +47,4 @@ See [**SRBEX_DATA_NVME_COMMAND_FLAG** (*srb.h*)](../srb/ne-srb-srbex_data_nvme_c
 ### -field SRBEX_DATA_NVME_COMMAND_FLAG_PRP_SET_ALREADY
 
 ### -field SRBEX_DATA_NVME_COMMAND_FLAG_SIGNATURE_ENABLED
+

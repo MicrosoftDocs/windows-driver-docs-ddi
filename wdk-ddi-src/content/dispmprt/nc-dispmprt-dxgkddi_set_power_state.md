@@ -67,7 +67,7 @@ A <a href="/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state"
 ### -param ActionType [in]
 
 
-A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-ppower_action">POWER_ACTION</a> enumeration value that supplies the reason (<b>PowerActionSleep</b>, <b>PowerActionHibernate</b>, <b>PowerActionShutdown</b>) for the power state change.
+A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-power_action">POWER_ACTION</a> enumeration value that supplies the reason (<b>PowerActionSleep</b>, <b>PowerActionHibernate</b>, <b>PowerActionShutdown</b>) for the power state change.
 
 ## -returns
 

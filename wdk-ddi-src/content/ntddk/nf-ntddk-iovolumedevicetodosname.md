@@ -2,15 +2,14 @@
 UID: NF:ntddk.IoVolumeDeviceToDosName
 title: IoVolumeDeviceToDosName function (ntddk.h)
 description: The IoVolumeDeviceToDosName routine returns the MS-DOS path for a specified device object that represents a file system volume.
-old-location: kernel\iovolumedevicetodosname.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/20/2023
 keywords: ["IoVolumeDeviceToDosName function"]
 ms.keywords: IoVolumeDeviceToDosName, IoVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], k104_01cdeb80-9a49-4d42-a311-cf8b69d03b9c.xml, kernel.iovolumedevicetodosname, ntddk/IoVolumeDeviceToDosName
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows XP. Drivers that must work in earlier versions of Windows NT-based operating systems can use RtlVolumeDeviceToDosName, which behaves identically.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,72 +39,39 @@ api_name:
  - IoVolumeDeviceToDosName
 ---
 
-# IoVolumeDeviceToDosName function
-
-
 ## -description
 
-The <b>IoVolumeDeviceToDosName</b> routine returns the MS-DOS path for a specified device object that represents a file system volume.
+The **IoVolumeDeviceToDosName** routine returns the MS-DOS path for a specified device object that represents a file system volume.
 
 ## -parameters
 
 ### -param VolumeDeviceObject [in]
 
-
 A pointer to a device object that represents a volume device object created by a storage class driver.
 
 ### -param DosName [out]
 
-
-A pointer to a caller-allocated <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. If the call is successful, <b>IoVolumeDeviceToDosName</b> sets the values of the <b>Length</b>, <b>MaximumLength</b>, and <b>Buffer</b> members of this structure. On exit, the <b>Buffer</b> member points to a wide-character, null-terminated string that contains the MS-DOS path of the volume device object specified by <i>VolumeDeviceObject</i>. For more information, see Remarks.
+A pointer to a caller-allocated [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure. If the call is successful, **IoVolumeDeviceToDosName** sets the values of the **Length**, **MaximumLength**, and **Buffer** members of this structure. On exit, the **Buffer** member points to a wide-character, null-terminated string that contains the MS-DOS path of the volume device object specified by *VolumeDeviceObject*. For more information, see Remarks.
 
 ## -returns
 
-<b>IoVolumeDeviceToDosName</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status codes.
+**IoVolumeDeviceToDosName** returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status codes.
 
-<table>
-<tr>
-<th>Return value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>STATUS_INVALID_PARAMETER</dt>
-</dl>
-</td>
-<td width="60%">
-The routine failed due to invalid parameter values passed by the caller.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>STATUS_INSUFFICIENT_RESOURCES</dt>
-</dl>
-</td>
-<td width="60%">
-The routine failed to allocate resources required for this operation.
-
-</td>
-</tr>
-</table>
+| Return value | Description |
+|--|--|
+| STATUS_INVALID_PARAMETER | The routine failed due to invalid parameter values passed by the caller. |
+| STATUS_INSUFFICIENT_RESOURCES | The routine failed to allocate resources required for this operation. |
 
 ## -remarks
 
-<b>IoVolumeDeviceToDosName</b> allocates the string buffer pointed to by the <b>Buffer</b> member of the <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that the <i>DosName</i> parameter points to. After this buffer is no longer required, a caller of this routine should call the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a> routine to free the buffer.
+**IoVolumeDeviceToDosName** allocates the string buffer pointed to by the **Buffer** member of the [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that the *DosName* parameter points to. After this buffer is no longer required, a caller of this routine should call the [ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool) routine to free the buffer.
 
-Starting with Windows Vista, you must ensure that APCs are <u>not</u> disabled before calling this routine. The <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keareallapcsdisabled">KeAreAllApcsDisabled</a> routine can be used to verify that APCs are not disabled.
+Starting with Windows Vista, you must ensure that APCs are not disabled before calling this routine. The [KeAreAllApcsDisabled](/windows-hardware/drivers/ddi/wdm/nf-wdm-keareallapcsdisabled) routine can be used to verify that APCs are not disabled.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a>
+[ExFreePool](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool)
 
+[KeAreAllApcsDisabled](/windows-hardware/drivers/ddi/wdm/nf-wdm-keareallapcsdisabled)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keareallapcsdisabled">KeAreAllApcsDisabled</a>
-
-
-
-<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+[**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)

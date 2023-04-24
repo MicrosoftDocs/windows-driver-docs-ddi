@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatListBeginIteration
 tech.root: audio
 title: AcxDataFormatListBeginIteration
-ms.date: 05/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatListBeginIteration function gets an ACX_DATAFORMAT_LIST_ITERATOR to use for iterating through the specified data format list.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdataformat.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -56,8 +56,13 @@ A pointer to an [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_l
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md)
 - [acxdataformat.h header](index.md)
-

@@ -10,7 +10,7 @@ ms.keywords: RtlSubAuthoritySid, RtlSubAuthoritySid routine [Installable File Sy
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 and later.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -65,7 +65,7 @@ If the call to <b>RtlSubAuthoritySid</b> succeeds, the return value is a pointer
 
 ## -remarks
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 

@@ -104,7 +104,7 @@ A pointer to a <a href="/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a> va
 </dl>
 </td>
 <td width="60%">
-The operation succeeded. The <i>Data</i> buffer contains the retrieved data. *<i>Type</i> contains the type of the retrieved data.
+The operation succeeded. The <i>Data</i> buffer contains the retrieved data. **Type* contains the type of the retrieved data.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ The operation succeeded. The <i>Data</i> buffer contains the retrieved data. *<i
 </dl>
 </td>
 <td width="60%">
-The <i>Data</i> buffer is too small. *<i>RequiredSize</i> contains the required buffer length.
+The <i>Data</i> buffer is too small. **RequiredSize* contains the required buffer length.
 
 </td>
 </tr>

@@ -2,9 +2,8 @@
 UID: NF:bidispl.IBidiRequestContainer.GetRequestCount
 title: IBidiRequestContainer::GetRequestCount (bidispl.h)
 description: The GetRequestCount method gets the number of requests in the request list.
-old-location: print\ibidirequestcontainer_ibidirequestcontainer__getrequestcount.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 03/03/2023
 keywords: ["IBidiRequestContainer::GetRequestCount"]
 ms.keywords: GetRequestCount, GetRequestCount method [Print Devices], GetRequestCount method [Print Devices],IBidiRequestContainer interface, IBidiRequestContainer interface [Print Devices],GetRequestCount method, IBidiRequestContainer.GetRequestCount, IBidiRequestContainer::GetRequestCount, _win32_IBidiRequestContainer_GetRequestCount, bidispl/IBidiRequestContainer::GetRequestCount, gdi.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, print.ibidirequestcontainer_ibidirequestcontainer__getrequestcount
 req.header: bidispl.h
@@ -40,73 +39,30 @@ api_name:
  - IBidiRequestContainer::GetRequestCount
 ---
 
-# IBidiRequestContainer::GetRequestCount
-
-
 ## -description
 
-The <b>GetRequestCount</b> method gets the number of requests in the request list.
+The **GetRequestCount** method gets the number of requests in the request list.
 
 ## -parameters
 
 ### -param puCount [out]
 
-
 Pointer to a variable that receives the number of requests.
 
 ## -returns
 
-The method returns one of the following values. For more information about COM error codes, see <a href="/windows/win32/com/com-error-codes">COM Error Codes</a>.
+The method returns one of the following values. For more information about COM error codes, see [COM Error Codes](/windows/win32/com/com-error-codes).
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation was successfully carried out.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The interface handle was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>None of the above</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>HRESULT</b> contains an error code corresponding to the last error.
-
-</td>
-</tr>
-</table>
+| Value | Description |
+|---|---|
+| **S_OK** | The operation was successfully carried out. |
+| **E_HANDLE** | The interface handle was invalid. |
+| **None of the above** | The **HRESULT** contains an error code corresponding to the last error. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
+[Bidirectional Communication Interfaces](../_print/index.md)
 
+[Bidirectional Communication Schema](/windows-hardware/drivers/print/bidirectional-communication-schema)
 
-
-<a href="/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequestcontainer">IBidiRequestContainer</a>
-
+[IBidiRequestContainer](./nn-bidispl-ibidirequestcontainer.md)

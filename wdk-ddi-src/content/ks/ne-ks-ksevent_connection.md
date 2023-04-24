@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_28
+UID: NE:ks.KSEVENT_CONNECTION
 title: KSEVENT_CONNECTION (ks.h)
 description: "Learn more about: KSEVENT_CONNECTION enumeration"
 old-location: stream\ksevent_connection.htm

@@ -10,7 +10,7 @@ ms.keywords: RtlAddAccessAllowedAceEx, RtlAddAccessAllowedAceEx routine [Install
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available in Microsoft Windows 2000 and later Windows operating systems.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -155,7 +155,7 @@ The specified <i>AceRevision</i> is not known or is not compatible with that of 
 
 Unlike <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtladdaccessallowedace">RtlAddAccessAllowedAce</a>, this routine sets the inheritance ACE flags.  
 
-For more information about security and access control, see the documentation about these topics in the Microsoft Windows SDK, such as:
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK, such as:
 
 <ul>
 <li>

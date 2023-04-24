@@ -41,12 +41,6 @@ dev_langs:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 2004.
->
-> Currently, NetAdapterCx client drivers cannot be certified.
 
 The client driver calls the  **NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT** function to initialize a [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure when reporting that a packet matching a driver supported filter caused a wake-up event.
 

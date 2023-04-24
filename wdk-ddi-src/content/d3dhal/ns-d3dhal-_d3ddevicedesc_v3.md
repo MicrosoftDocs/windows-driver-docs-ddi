@@ -1,10 +1,10 @@
 ---
 UID: NS:d3dhal._D3DDeviceDesc_V3
-title: _D3DDeviceDesc_V3 (d3dhal.h)
+title: D3DDeviceDesc_V3 (d3dhal.h)
 description: The D3DDEVICEDESC_V3 structure contains fields that are already reported in the D3DHAL_D3DEXTENDEDCAPS structure when responding to the GUID_D3DExtendedCaps GUID in DdGetDriverInfo.
 old-location: display\d3ddevicedesc_v3.htm
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 02/28/2023
 keywords: ["D3DDeviceDesc_V3 structure"]
 ms.keywords: "*LPD3DDEVICEDESC_V3, D3DDEVICEDESC_V3, D3DDEVICEDESC_V3 structure [Display Devices], _D3DDeviceDesc_V3, d3dhal/, d3dstrct_ae7c0a55-4597-4272-9b06-bc74a8340842.xml, display.d3ddevicedesc_v3"
 req.header: d3dhal.h
@@ -46,53 +46,80 @@ api_name:
  - D3DDEVICEDESC_V3
 ---
 
-# _D3DDeviceDesc_V3 structure
-
+# D3DDeviceDesc_V3 structure
 
 ## -description
 
-<b>The D3DDEVICEDESC_V3 structure is obsolete; only D3DDEVICEDESC_V1 should be used.</b>
+The **D3DDeviceDesc_V3** structure is obsolete; only [**D3DDeviceDesc_V1**](ns-d3dhal-_d3ddevicedesc_v1.md) should be used.
 
-The D3DDEVICEDESC_V3 structure contains fields that are already reported in the <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_d3dextendedcaps">D3DHAL_D3DEXTENDEDCAPS</a> structure when responding to the GUID_D3DExtendedCaps GUID in <a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>.
-
-
-<pre class="syntax"><code>typedef struct _D3DDeviceDesc_V3 {
-    DWORD             dwSize;
-    DWORD             dwFlags;
-    D3DCOLORMODEL     dcmColorModel; 
-    DWORD             dwDevCaps;
-    D3DTRANSFORMCAPS  dtcTransformCaps;  
-    BOOL              bClipping;
-    D3DLIGHTINGCAPS   dlcLightingCaps; 
-    D3DPRIMCAPS       dpcLineCaps;
-    D3DPRIMCAPS       dpcTriCaps;
-    DWORD             dwDeviceRenderBitDepth; 
-    DWORD             dwDeviceZBufferBitDepth;
-    DWORD             dwMaxBufferSize;  
-    DWORD             dwMaxVertexCount;
-    DWORD             dwMinTextureWidth;
-    DWORD             dwMinTextureHeight;
-    DWORD             dwMaxTextureWidth;
-    DWORD             dwMaxTextureHeight;
-    DWORD             dwMinStippleWidth;
-    DWORD             dwMaxStippleWidth;
-    DWORD             dwMinStippleHeight;
-    DWORD             dwMaxStippleHeight;
-    DWORD             dwMaxTextureRepeat;
-    DWORD             dwMaxTextureAspectRatio;
-    DWORD             dwMaxAnisotropy;
-    D3DVALUE          dvGuardBandLeft;
-    D3DVALUE          dvGuardBandTop;
-    D3DVALUE          dvGuardBandRight;
-    D3DVALUE          dvGuardBandBottom;
-    D3DVALUE          dvExtentsAdjust;
-    DWORD             dwStencilCaps;
-    DWORD             dwFVFCaps; 
-    DWORD             dwTextureOpCaps;
-    WORD              wMaxTextureBlendStages;
-    WORD              wMaxSimultaneousTextures;
-} D3DDEVICEDESC_V3, *LPD3DDEVICEDESC_V3;
-</code></pre>
+The **D3DDeviceDesc_V3** structure contains fields that are already reported in the [**D3DHAL_D3DEXTENDEDCAPS**](ns-d3dhal-_d3dhal_d3dextendedcaps.md) structure when responding to the GUID_D3DExtendedCaps GUID in [**DdGetDriverInfo**](/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo).
 
 ## -struct-fields
 
+### -field dwSize
+
+### -field dwFlags
+
+### -field dcmColorModel
+
+### -field dwDevCaps
+
+### -field dtcTransformCaps
+
+### -field bClipping
+
+### -field dlcLightingCaps
+
+### -field dpcLineCaps
+
+### -field dpcTriCaps
+
+### -field dwDeviceRenderBitDepth
+
+### -field dwDeviceZBufferBitDepth
+
+### -field dwMaxBufferSize
+
+### -field dwMaxVertexCount
+
+### -field dwMinTextureWidth
+
+### -field dwMinTextureHeight
+
+### -field dwMaxTextureWidth
+
+### -field dwMaxTextureHeight
+
+### -field dwMinStippleWidth
+
+### -field dwMaxStippleWidth
+
+### -field dwMinStippleHeight
+
+### -field dwMaxStippleHeight
+
+### -field dwMaxTextureRepeat
+
+### -field dwMaxTextureAspectRatio
+
+### -field dwMaxAnisotropy
+
+### -field dvGuardBandLeft
+
+### -field dvGuardBandTop
+
+### -field dvGuardBandRight
+
+### -field dvGuardBandBottom
+
+### -field dvExtentsAdjust
+
+### -field dwStencilCaps
+
+### -field dwFVFCaps
+
+### -field dwTextureOpCaps
+
+### -field wMaxTextureBlendStages
+
+### -field wMaxSimultaneousTextures

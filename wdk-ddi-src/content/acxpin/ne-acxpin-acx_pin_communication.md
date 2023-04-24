@@ -62,10 +62,14 @@ For internal validation, do not use.
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)
 - [ACX_PIN_CONFIG_INIT](nf-acxpin-acx_pin_config_init.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

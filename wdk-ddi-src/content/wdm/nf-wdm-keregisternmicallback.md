@@ -2,15 +2,14 @@
 UID: NF:wdm.KeRegisterNmiCallback
 title: KeRegisterNmiCallback function (wdm.h)
 description: The KeRegisterNmiCallback routine registers a routine to be called whenever a nonmaskable interrupt (NMI) occurs.
-old-location: kernel\keregisternmicallback.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/12/2023
 keywords: ["KeRegisterNmiCallback function"]
 ms.keywords: KeRegisterNmiCallback, KeRegisterNmiCallback routine [Kernel-Mode Driver Architecture], k105_4abdb9bc-8548-42f3-8305-c116ce15e0a4.xml, kernel.keregisternmicallback, wdm/KeRegisterNmiCallback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows  Server 2003 and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -23,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL (see Remarks section)
+req.irql: IRQL <= APC_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -40,22 +39,17 @@ api_name:
  - KeRegisterNmiCallback
 ---
 
-# KeRegisterNmiCallback function
-
-
 ## -description
 
-The <b>KeRegisterNmiCallback</b> routine registers a routine to be called whenever a nonmaskable interrupt (NMI) occurs.
+The **KeRegisterNmiCallback** routine registers a routine to be called whenever a nonmaskable interrupt (NMI) occurs.
 
 ## -parameters
 
 ### -param CallbackRoutine [in]
 
-
 Pointer to a function of the form:
 
-
-```
+```cpp
 BOOLEAN
  XxxNmiCallback(
  IN PVOID Context,
@@ -63,22 +57,20 @@ BOOLEAN
  );
 ```
 
-
 ### -param Context [in, optional]
 
-
-Specifies the value to be passed as the <i>Context</i> parameter of <i>XxxNmiCallback</i> when it is called.
+Specifies the value to be passed as the *Context* parameter of *XxxNmiCallback* when it is called.
 
 ## -returns
 
-On success, <b>KeRegisterNmiCallback</b> returns an opaque pointer that the caller passes to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisternmicallback">KeDeregisterNmiCallback</a> to deregister the callback. The routine returns <b>NULL</b> if it is unable to register the callback.
+On success, **KeRegisterNmiCallback** returns an opaque pointer that the caller passes to [KeDeregisterNmiCallback](./nf-wdm-kederegisternmicallback.md) to deregister the callback. The routine returns **NULL** if it is unable to register the callback.
 
 ## -remarks
 
-When a nonmaskable interrupt occurs, the system calls each registered callback in reverse order from the order in which they were registered. For the first callback, the system passes <b>FALSE</b> as the <i>Handled</i> parameter. For each subsequent callback, if any previous callback returned <b>TRUE</b>, the system passes <b>TRUE</b> as the <i>Handled</i> parameter, otherwise it passes <b>FALSE</b>. If any callback returns a value of <b>TRUE</b>, the system considers the interrupt to have been handled. Otherwise, the system calls the HAL's default handler for the interrupt, which normally causes the system to bug check.
+When a nonmaskable interrupt occurs, the system calls each registered callback in reverse order from the order in which they were registered. For the first callback, the system passes **FALSE** as the *Handled* parameter. For each subsequent callback, if any previous callback returned **TRUE**, the system passes **TRUE** as the *Handled* parameter, otherwise it passes **FALSE**. If any callback returns a value of **TRUE**, the system considers the interrupt to have been handled. Otherwise, the system calls the HAL's default handler for the interrupt, which normally causes the system to bug check.
 
 The callback routine must be able to be run at IRQL = HIGH_LEVEL.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisternmicallback">KeDeregisterNmiCallback</a>
+[KeDeregisterNmiCallback](./nf-wdm-kederegisternmicallback.md)

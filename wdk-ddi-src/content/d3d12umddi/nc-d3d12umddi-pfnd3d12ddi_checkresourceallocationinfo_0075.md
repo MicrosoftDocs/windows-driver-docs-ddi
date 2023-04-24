@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075
 title: PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075 (d3d12umddi.h)
 description: The PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075 callback function checks resource allocation information.
-ms.date: 03/24/2020
+ms.date: 09/29/2022
 keywords: ["PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075 callback function"]
 ms.keywords: PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075, PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075 callback, d3d12umddi/pfnCheckResourceAllocationInfo, display.pfnd3d12ddi_checkresourceallocationinfo_0075, pfnCheckResourceAllocationInfo, pfnCheckResourceAllocationInfo callback function [Display Devices]
 req.header: d3d12umddi.h
@@ -41,7 +41,6 @@ api_name:
 
 # PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075 callback function
 
-
 ## -description
 
 The **PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075** callback function supports checking resource allocation information.
@@ -62,11 +61,11 @@ Resource optimization flags.
 
 ### -param AlignmentRestriction
 
-An alignment restriction value.
+A resource alignment restriction value.
 
 ### -param VisibleNodeMask
 
-A visible node mask.
+For a multi-adapter operation, this value indicates the set of nodes where the resource is visible. Passing zero is equivalent to passing one, in order to simplify the usage of single-GPU adapters.
 
 ### -param unnamedParam6 [out]
 
@@ -85,4 +84,3 @@ This callback function is accessed by using the [**D3D12DDI_DEVICE_FUNCS_CORE_00
 [**D3D12DDI_RESOURCE_ALLOCATION_INFO_0022**](ns-d3d12umddi-d3d12ddi_resource_allocation_info_0022.md)
 
 [**D3D12DDIARG_CREATERESOURCE_0075**](ns-d3d12umddi-d3d12ddiarg_createresource_0075.md)
-

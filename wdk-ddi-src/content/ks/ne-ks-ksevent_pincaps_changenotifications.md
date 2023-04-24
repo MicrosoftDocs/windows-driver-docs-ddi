@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_14
+UID: NE:ks.KSEVENT_PINCAPS_CHANGENOTIFICATIONS
 title: KSEVENT_PINCAPS_CHANGENOTIFICATIONS (ks.h)
 description: "Learn more about: KSEVENT_PINCAPS_CHANGENOTIFICATIONS enumeration"
 old-location: stream\ksevent_pincaps_changenotifications.htm

@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_92
+UID: NE:ksmedia.KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE
 title: KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE  (ksmedia.h)
 description: The KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE enumeration defines the network camera control NTP types.
 tech.root: stream
@@ -31,6 +31,7 @@ api_name:
 ---
 
 # KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE enumeration
+
 
 ## -description
 
@@ -75,3 +76,4 @@ If use of a NTP server is disabled on the camera, a get operation will return KS
 [KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER](ns-ksmedia-ksproperty_networkcameracontrol_ntpinfo_header.md)
 
 [KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY](ne-ksmedia-ksproperty_networkcameracontrol_property.md)
+

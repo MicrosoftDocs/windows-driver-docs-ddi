@@ -7,7 +7,7 @@ keywords: ["acxstreams.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: portal
+ms.topic: overview
 tech.root: audio
 f1_keywords:
  - acxstreams

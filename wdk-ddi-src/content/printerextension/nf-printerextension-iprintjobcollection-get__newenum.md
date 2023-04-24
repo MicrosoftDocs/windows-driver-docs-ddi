@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Gets a pointer to the enumerants of [IPrintJobCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection) objects.
+Gets a pointer to the enumerants of [IPrintJobCollection](./nn-printerextension-iprintjobcollection.md) objects.
 
 This property is read-only.
 
@@ -58,4 +58,4 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 ## -see-also
 
-[IPrintJobCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection)
+[IPrintJobCollection](./nn-printerextension-iprintjobcollection.md)

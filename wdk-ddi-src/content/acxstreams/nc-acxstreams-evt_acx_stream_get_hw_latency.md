@@ -2,9 +2,9 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_GET_HW_LATENCY
 tech.root: audio
 title: EVT_ACX_STREAM_GET_HW_LATENCY
-ms.date: 01/25/2022
+ms.date: 10/31/2022
 targetos: Windows
-description: The EvtAcxStreamGetHwLatency event tells the driver to provide stream latency for the specific circuit of this stream (overall latency will be a sum of the latency of the different circuits). 
+description: The EvtAcxStreamGetHwLatency event tells the driver to provide stream latency for the specific circuit of this stream (overall latency will be a sum of the latency of the different circuits).
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -48,7 +48,7 @@ The **EvtAcxStreamGetHwLatency** event tells the driver to provide stream latenc
 
 ### -param Stream
 
-An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit's elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param FifoSize
 
@@ -61,7 +61,7 @@ The Delay in 100-nanosecond units.
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
- 
+
 ## -remarks
 
 Example usage is shown below.
@@ -100,8 +100,12 @@ EvtStreamGetHwLatency(
 }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 
 - [acxstreams.h header](index.md)
-

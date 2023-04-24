@@ -3,10 +3,10 @@ UID: NC:wdm.IOMMU_DOMAIN_CONFIGURE
 title: IOMMU_DOMAIN_CONFIGURE (wdm.h)
 description: Configures a domain for use.
 tech.root: kernel
-ms.date: 05/27/2021
+ms.date: 01/19/2023
 keywords: ["IOMMU_DOMAIN_CONFIGURE callback function"]
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
@@ -36,8 +36,6 @@ api_name:
  - IOMMU_DOMAIN_CONFIGURE
 ---
 
-# IOMMU_DOMAIN_CONFIGURE callback function
-
 ## -description
 
 Configures a domain for use. All DMA blocked until the domain is configured.
@@ -46,37 +44,15 @@ Configures a domain for use. All DMA blocked until the domain is configured.
 
 ### -param Domain [_In_]
 
-
 A pointer to the handle to the domain.
 
 ### -param Configuration [_In_]
-
 
 A pointer to a [**DOMAIN_CONFIGURATION**](ns-wdm-_domain_configuration.md) structure that contains the new configuration for the domain.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
-
-## -prototype
-
-```cpp
-//Declaration
-
-IOMMU_DOMAIN_CONFIGURE IommuDomainConfigure; 
-
-// Definition
-
-NTSTATUS IommuDomainConfigure 
-(
-    PIOMMU_DMA_DOMAIN Domain
-    PDOMAIN_CONFIGURATION Configuration
-)
-{...}
-
-IOMMU_DOMAIN_CONFIGURE *PIOMMU_DOMAIN_CONFIGURE
-
-```
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

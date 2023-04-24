@@ -5,7 +5,7 @@ title: Ntifs.h header
 ms.date: 06/30/2022
 keywords: ["Ntifs.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: ifsk
 f1_keywords:
  - ntifs

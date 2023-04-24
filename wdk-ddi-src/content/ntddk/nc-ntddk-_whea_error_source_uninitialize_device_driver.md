@@ -1,12 +1,12 @@
 ---
 UID: NC:ntddk._WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER
-title: _WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER
-description: "Learn more about: _WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER callback function"
+title: WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER
+description: The WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER callback function uninitializes a driver's error source hardware and software state.
 tech.root: whea
-ms.date: 03/05/2019
+ms.date: 01/19/2023
 keywords: ["WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER callback function"]
 req.header: ntddk.h
-req.include-header: 
+req.include-header: Ntddk.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
 req.target-min-winversvr: 
@@ -23,7 +23,6 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
-ms.custom: 19H1
 f1_keywords:
  - _WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER
  - ntddk/_WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER
@@ -39,35 +38,15 @@ product:
  - Windows
 ---
 
-# _WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER callback function
-
-
 ## -description
 
-A driver's *_WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER* callback function uninitializes its error source hardware and software state.
+The *WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER* callback function uninitializes a driver's error source hardware and software state.
 
 ## -parameters
 
-### -param Context: 
+### -param Context
 
 A pointer to the context that the driver supplied when it called [**WheaAddErrorSourceDeviceDriver**](nf-ntddk-wheaadderrorsourcedevicedriver.md).
-
-## -prototype
-
-```
-//Declaration
-
-_WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER WheaErrorSourceUninitializeDeviceDriver; 
-
-// Definition
-
-VOID WheaErrorSourceUninitializeDeviceDriver 
-(
-	PVOID Context
-)
-{...}
-
-```
 
 ## -remarks
 
@@ -76,4 +55,3 @@ Register your implementation of this callback function by setting the appropriat
 ## -see-also
 
 [*WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER*](nc-ntddk-_whea_error_source_initialize_device_driver.md)
-

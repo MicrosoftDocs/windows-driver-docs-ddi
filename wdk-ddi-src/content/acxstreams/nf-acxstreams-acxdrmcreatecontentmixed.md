@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxDrmCreateContentMixed
 tech.root: audio
 title: AcxDrmCreateContentMixed
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxCreateContentMixed function creates a DRM content ID to identify an ACX audio stream containing mixed content from a number of streams
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -63,6 +63,12 @@ Output pointer for the composite content ID. This parameter points to a caller-a
 AcxDrmCreateContentMixed returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 ## -remarks
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

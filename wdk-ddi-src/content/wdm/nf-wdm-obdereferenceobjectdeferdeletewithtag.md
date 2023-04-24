@@ -2,9 +2,8 @@
 UID: NF:wdm.ObDereferenceObjectDeferDeleteWithTag
 title: ObDereferenceObjectDeferDeleteWithTag function (wdm.h)
 description: The ObDereferenceObjectDeferDeleteWithTag routine decrements the reference count for the specified object, defers deletion of the object to avoid deadlocks, and writes a four-byte tag value to the object to support object reference tracing.
-old-location: kernel\obdereferenceobjectdeferdeletewithtag.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 03/14/2023
 keywords: ["ObDereferenceObjectDeferDeleteWithTag function"]
 ms.keywords: ObDereferenceObjectDeferDeleteWithTag, ObDereferenceObjectDeferDeleteWithTag routine [Kernel-Mode Driver Architecture], k107_c6da92e4-6a70-4f19-bd09-4308964b1e14.xml, kernel.obdereferenceobjectdeferdeletewithtag, wdm/ObDereferenceObjectDeferDeleteWithTag
 req.header: wdm.h
@@ -40,47 +39,38 @@ api_name:
  - ObDereferenceObjectDeferDeleteWithTag
 ---
 
-# ObDereferenceObjectDeferDeleteWithTag function
-
-
 ## -description
 
-The <b>ObDereferenceObjectDeferDeleteWithTag</b> routine decrements the reference count for the specified object, defers deletion of the object to avoid deadlocks, and writes a four-byte tag value to the object to support <a href="/windows-hardware/drivers/debugger/object-reference-tracing">object reference tracing</a>.
+The **ObDereferenceObjectDeferDeleteWithTag** routine decrements the reference count for the specified object, defers deletion of the object to avoid deadlocks, and writes a four-byte tag value to the object to support [object reference tracing](/windows-hardware/drivers/debugger/object-reference-tracing).
 
 ## -parameters
 
 ### -param Object [in]
 
-
-A pointer to the object. The caller obtains this pointer either when it creates the object, or from a previous call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandlewithtag">ObReferenceObjectByHandleWithTag</a> routine after it opens the object.
+A pointer to the object. The caller obtains this pointer either when it creates the object, or from a previous call to the [ObReferenceObjectByHandleWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandlewithtag) routine after it opens the object.
 
 ### -param Tag [in]
-
 
 Specifies a four-byte, custom tag value. For more information, see the following Remarks section.
 
 ## -remarks
 
-<b>ObDereferenceObjectDeferDeleteWithTag</b> is similar to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectwithtag">ObDereferenceObjectWithTag</a> except that, when the reference count of the object reaches zero, <b>ObDereferenceObjectDeferDeleteWithTag</b> passes the object deletion request to a worker thread. The worker thread, which runs at IRQL = PASSIVE_LEVEL, later deletes the object.
+**ObDereferenceObjectDeferDeleteWithTag** is similar to [ObDereferenceObjectWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectwithtag) except that, when the reference count of the object reaches zero, **ObDereferenceObjectDeferDeleteWithTag** passes the object deletion request to a worker thread. The worker thread, which runs at IRQL = PASSIVE_LEVEL, later deletes the object.
 
-If the immediate deletion of an object by the current thread might cause a deadlock, do not call <b>ObDereferenceObjectWithTag</b> to dereference the object. Instead, call <b>ObDereferenceObjectDeferDeleteWithTag</b> to dereference the object.
+If the immediate deletion of an object by the current thread might cause a deadlock, do not call **ObDereferenceObjectWithTag** to dereference the object. Instead, call **ObDereferenceObjectDeferDeleteWithTag** to dereference the object.
 
-For example, such a deadlock can occur if <b>ObDereferenceObjectWithTag</b> is used to dereference a <a href="/windows-hardware/drivers/kernel/windows-kernel-mode-kernel-transaction-manager">Kernel Transaction Manager</a> (KTM) object when a higher-level driver on the driver stack is holding a lock.
+For example, such a deadlock can occur if **ObDereferenceObjectWithTag** is used to dereference a [Kernel Transaction Manager](/windows-hardware/drivers/kernel/windows-kernel-mode-kernel-transaction-manager) (KTM) object when a higher-level driver on the driver stack is holding a lock.
 
-For more information about object permanence and object attributes, see <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectwithtag">ObDereferenceObjectWithTag</a>. For more information about object references, see <a href="/windows-hardware/drivers/kernel/life-cycle-of-an-object">Life Cycle of an Object</a>.
+For more information about object permanence and object attributes, see [ObDereferenceObjectWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectwithtag). For more information about object references, see [Life Cycle of an Object](/windows-hardware/drivers/kernel/life-cycle-of-an-object).
 
-The <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectdeferdelete">ObDereferenceObjectDeferDelete</a> routine is similar to <b>ObDereferenceObjectDeferDeleteWithTag</b>, except that it does not enable the caller to write a custom tag to an object. In Windows 7 and later versions of Windows, <b>ObDereferenceObjectDeferDelete</b> always writes a default tag value ('tlfD') to the object. A call to <b>ObDereferenceObjectDeferDelete</b> has the same effect as a call to <b>ObDereferenceObjectDeferDeleteWithTag</b> that specifies <i>Tag</i> = 'tlfD'.
+The [ObDereferenceObjectDeferDelete](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectdeferdelete) routine is similar to **ObDereferenceObjectDeferDeleteWithTag**, except that it does not enable the caller to write a custom tag to an object. In Windows 7 and later versions of Windows, **ObDereferenceObjectDeferDelete** always writes a default tag value ('tlfD') to the object. A call to **ObDereferenceObjectDeferDelete** has the same effect as a call to **ObDereferenceObjectDeferDeleteWithTag** that specifies *Tag* = 'tlfD'.
 
-To view an object reference trace in the <a href="https://go.microsoft.com/fwlink/p/?linkid=153599">Windows debugging tools</a>, use the <a href="/windows-hardware/drivers/debugger/-obtrace">!obtrace</a> kernel-mode debugger extension. In Windows 7, the <a href="/windows-hardware/drivers/debugger/-obtrace">!obtrace</a> extension is enhanced to display object reference tags, if object reference tracing is enabled. By default, object reference tracing is turned off. Use the <a href="https://go.microsoft.com/fwlink/p/?linkid=153601">Global Flags Editor</a> (Gflags) to enable object reference tracing. For more information, see <a href="/windows-hardware/drivers/kernel/object-reference-tracing-with-tags">Object Reference Tracing with Tags</a>.
+To view an object reference trace in the [Windows debugging tools](/windows-hardware/drivers/debugger), use the [!obtrace](/windows-hardware/drivers/debugger/-obtrace) kernel-mode debugger extension. In Windows 7, the [!obtrace](/windows-hardware/drivers/debugger/-obtrace) extension is enhanced to display object reference tags, if object reference tracing is enabled. By default, object reference tracing is turned off. Use the [Global Flags Editor](/windows-hardware/drivers/debugger/gflags) (Gflags) to enable object reference tracing. For more information, see [Object Reference Tracing with Tags](/windows-hardware/drivers/kernel/object-reference-tracing-with-tags).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectdeferdelete">ObDereferenceObjectDeferDelete</a>
+[ObDereferenceObjectDeferDelete](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectdeferdelete)
 
+[ObDereferenceObjectWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectwithtag)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectwithtag">ObDereferenceObjectWithTag</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandlewithtag">ObReferenceObjectByHandleWithTag</a>
+[ObReferenceObjectByHandleWithTag](/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandlewithtag)

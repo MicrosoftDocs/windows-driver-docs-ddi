@@ -2,9 +2,8 @@
 UID: NF:poscx.PosCxClaimDevice
 title: PosCxClaimDevice function (poscx.h)
 description: PosCxClaimDevice is called to claim a device for exclusive use. The caller should call PosCxReleaseDevice when the device is no longer needed.
-old-location: pos\poscxclaimdevice.htm
 tech.root: pos
-ms.date: 02/23/2018
+ms.date: 03/07/2023
 keywords: ["PosCxClaimDevice function"]
 ms.keywords: PosCxClaimDevice, PosCxClaimDevice function, pos.poscxclaimdevice, poscx/PosCxClaimDevice
 req.header: poscx.h
@@ -41,16 +40,11 @@ api_name:
  - PosCxClaimDevice
 ---
 
-# PosCxClaimDevice function
-
-
 ## -description
 
-PosCxClaimDevice is called to claim a device for exclusive use. 
+PosCxClaimDevice is called to claim a device for exclusive use.
 
-The caller should call <a href="/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxreleasedevice">PosCxReleaseDevice</a> when the device is no longer needed. 
-
-      
+The caller should call [PosCxReleaseDevice](./nf-poscx-poscxreleasedevice.md) when the device is no longer needed.
 
 If the device is already claimed, the caller must wait until access is granted.
 
@@ -58,11 +52,9 @@ If the device is already claimed, the caller must wait until access is granted.
 
 ### -param device [in]
 
-
 A handle to a framework device object that represents the device.
 
 ### -param request [in]
-
 
 A handle to a framework request object that represents the request. This request must come from a WDF IO queue.
 
@@ -70,21 +62,9 @@ A handle to a framework request object that represents the request. This request
 
 Possible return values are:
 
-<table>
-<tr>
-<td><b>STATUS_SUCCESS</b></td>
-<td>The device was successfully claimed.</td>
-</tr>
-<tr>
-<td><b>STATUS_PENDING</b></td>
-<td>The claim request was queued.</td>
-</tr>
-<tr>
-<td><b>STATUS_DEVICE_NOT_READY</b></td>
-<td>The PosCx library was not successfully initialized.</td>
-</tr>
-<tr>
-<td><b>STATUS_ACCESS_DENIED</b></td>
-<td>The current owner has retained device ownership.</td>
-</tr>
-</table>
+| Value | Description |
+|---|---|
+| **STATUS_SUCCESS** | The device was successfully claimed. |
+| **STATUS_PENDING** | The claim request was queued. |
+| **STATUS_DEVICE_NOT_READY** | The PosCx library was not successfully initialized. |
+| **STATUS_ACCESS_DENIED** | The current owner has retained device ownership. |

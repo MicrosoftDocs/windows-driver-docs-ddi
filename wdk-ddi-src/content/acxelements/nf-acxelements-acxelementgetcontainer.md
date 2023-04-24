@@ -1,10 +1,10 @@
 ---
 UID: NF:acxelements.AcxElementGetContainer
-tech.root: audio 
+tech.root: audio
 title: AcxElementGetContainer
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
-description: The AcxElementGetContainer function retrieves the associated container for the given ACX element. 
+description: The AcxElementGetContainer function retrieves the associated container for the given ACX element.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -52,7 +52,7 @@ An existing, initialized, ACXELEMENT object. For more information about ACX obje
 
 ## -returns
 
-Returns the ACXOBJECT object that is the container for the specified ACX element. 
+Returns the ACXOBJECT object that is the container for the specified ACX element.
 
 ## -remarks
 
@@ -64,8 +64,12 @@ Example usage is shown below.
     ACXCIRCUIT circuit = (ACXCIRCUIT)AcxElementGetContainer((ACXELEMENT)Mute);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-

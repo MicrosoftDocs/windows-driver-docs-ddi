@@ -1,12 +1,12 @@
 ---
 UID: NC:wdm.PFLUSH_DMA_BUFFER
 title: PFLUSH_DMA_BUFFER (wdm.h)
-description: "Learn more about: PFLUSH_DMA_BUFFER callback function"
+description: The callback routine flushes any data remaining in the memory region described by an MDL.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 01/19/2023
 keywords: ["PFLUSH_DMA_BUFFER callback function"]
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -36,9 +36,6 @@ api_name:
  - PFLUSH_DMA_BUFFER
 ---
 
-# PFLUSH_DMA_BUFFER callback function
-
-
 ## -description
 
 The callback routine flushes any data remaining in the memory region described by an MDL.
@@ -59,30 +56,10 @@ Specifies TRUE if the flush is being performed for a read operation, and FALSE f
 
 ## -returns
 
-Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
-
-## -prototype
-
-```cpp
-//Declaration
-
-PFLUSH_DMA_BUFFER PflushDmaBuffer; 
-
-// Definition
-
-NTSTATUS PflushDmaBuffer 
-(
-	PDMA_ADAPTER DmaAdapter
-	PMDL Mdl
-	BOOLEAN ReadOperation
-)
-{...}
-
-```
+Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 ## -see-also
 
 [Flushing Cached Data during DMA Operations](/windows-hardware/drivers/kernel/flushing-cached-data-during-dma-operations)
-

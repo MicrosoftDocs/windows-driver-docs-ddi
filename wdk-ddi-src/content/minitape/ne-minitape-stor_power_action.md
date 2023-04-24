@@ -1,5 +1,5 @@
 ---
-UID: NE:minitape.__unnamed_enum_0
+UID: NE:minitape.STOR_POWER_ACTION
 title: STOR_POWER_ACTION (minitape.h)
 description: The STOR_POWER_ACTION (minitape.h) contains values that indicate the power state that the system is about to enter during a power transition.
 old-location: storage\stor_power_action.htm

@@ -13,7 +13,7 @@ req.dll:
 req.header: acxmanager.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -64,9 +64,14 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [AcxCircuitTemplateCreate](nf-acxmanager-acxcircuittemplatecreate.md)
 - [AcxCompositeTemplateCreate](nf-acxmanager-acxcompositetemplatecreate.md)
 - [acxmanager.h header](index.md)
-

@@ -57,4 +57,4 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 ## -see-also
 
-[IPrintSchemaParameterDefinition](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition)
+[IPrintSchemaParameterDefinition](./nn-printerextension-iprintschemaparameterdefinition.md)

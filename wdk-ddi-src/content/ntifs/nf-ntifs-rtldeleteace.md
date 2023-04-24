@@ -10,7 +10,7 @@ ms.keywords: RtlDeleteAce, RtlDeleteAce routine [Installable File System Drivers
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Microsoft Windows Server 2003 SP1 and later.
+req.target-min-winverclnt: Windows Server 2003 SP1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -101,7 +101,7 @@ To add an ACE to an ACL, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-nti
 
 To obtain a pointer to an ACE in an ACL, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetace">RtlGetAce</a>. 
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 

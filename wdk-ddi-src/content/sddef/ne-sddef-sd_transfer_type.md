@@ -1,5 +1,5 @@
 ---
-UID: NE:sddef.__unnamed_enum_2
+UID: NE:sddef.SD_TRANSFER_TYPE
 title: SD_TRANSFER_TYPE (sddef.h)
 description: The SD_TRANSFER_TYPE enumeration specifies the type of a Secure Digital (SD) data transfer.
 old-location: sd\sd_transfer_type.htm
@@ -42,6 +42,7 @@ api_name:
 
 # SD_TRANSFER_TYPE enumeration
 
+
 ## -description
 
 The SD_TRANSFER_TYPE enumeration specifies the type of a Secure Digital (SD) data transfer.
@@ -71,3 +72,4 @@ Indicates that the request reads or writes multiple blocks of data. The transfer
 ## -see-also
 
 [**SDCMD_DESCRIPTOR**](ns-sddef-_sdcmd_descriptor.md)
+

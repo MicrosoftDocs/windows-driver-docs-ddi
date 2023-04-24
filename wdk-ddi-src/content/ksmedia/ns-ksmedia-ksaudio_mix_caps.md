@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_45
+UID: NS:ksmedia.KSAUDIO_MIX_CAPS
 title: KSAUDIO_MIX_CAPS (ksmedia.h)
 description: The KSAUDIO_MIX_CAPS structure specifies the mixing capabilities of a particular data path from one input channel of a supermixer node (KSNODETYPE_SUPERMIX) to an output channel of the same node.
 old-location: audio\ksaudio_mix_caps.htm

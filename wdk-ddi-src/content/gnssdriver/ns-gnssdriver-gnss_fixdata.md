@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_17
+UID: NS:gnssdriver.GNSS_FIXDATA
 title: GNSS_FIXDATA (gnssdriver.h)
 description: The GNSS_FIXDATA structure defines the specific data elements associated with a GNSS fix returned from the driver.
 old-location: gnss\gnss_fixdata.htm
@@ -44,6 +44,7 @@ api_name:
 ---
 
 # GNSS_FIXDATA structure
+
 
 ## -description
 
@@ -100,3 +101,4 @@ This element contains the accuracy-related data when FixLevelofDetails field has
 ### -field SatelliteData
 
 This element contains the satellite-related data when FixLevelofDetails field has GNSS_FIXDETAIL_SATELLITE bit set.
+

@@ -48,7 +48,7 @@ The ACX_OBJECTBAG_CONFIG_INIT function initializes an [ACX_OBJECTBAG_CONFIG](ns-
 
 ### -param Config
 
-A pointer to the [ACX_OBJECTBAG_CONFIG](ns-acxmisc-acx_objectbag_config.md) structure that will be intialized.
+A pointer to the [ACX_OBJECTBAG_CONFIG](ns-acxmisc-acx_objectbag_config.md) structure that will be initialized.
 
 ## -remarks
 
@@ -80,6 +80,12 @@ This example shows the use of ACX_OBJECTBAG_CONFIG_INIT.
 
         RETURN_NTSTATUS_IF_FAILED(RtlStringFromGUID(uniqueId, &uniqueIdStr));
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

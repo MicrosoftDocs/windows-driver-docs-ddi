@@ -1,5 +1,5 @@
 ---
-UID: NE:ntddsd.__unnamed_enum_4
+UID: NE:ntddsd.SD_REQUEST_FUNCTION
 title: SD_REQUEST_FUNCTION (ntddsd.h)
 description: The SD_REQUEST_FUNCTION enumeration indicates the type of request packet that a Secure Digital (SD) card driver sends to the bus driver.
 old-location: sd\sd_request_function.htm
@@ -78,3 +78,4 @@ The caller of the <a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbuss
 
 
 <a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequest">SdBusSubmitRequest</a>
+

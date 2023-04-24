@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_70
+UID: NS:ks.KSFASTMETHOD_ITEM
 title: KSFASTMETHOD_ITEM (ks.h)
 description: Drivers provide a structure of type KSFASTMETHOD_ITEM to support fast I/O dispatching.
 old-location: stream\ksfastmethod_item.htm

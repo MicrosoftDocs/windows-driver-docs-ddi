@@ -1,5 +1,5 @@
 ---
-UID: NE:sddef.__unnamed_enum_3
+UID: NE:sddef.SD_RESPONSE_TYPE
 title: SD_RESPONSE_TYPE (sddef.h)
 description: The SD_RESPONSE_TYPE enumeration lists the types of response data that a Secure Digital (SD) card returns in response to a command.
 old-location: sd\sd_response_type.htm
@@ -41,6 +41,7 @@ api_name:
 ---
 
 # SD_RESPONSE_TYPE enumeration
+
 
 ## -description
 
@@ -91,3 +92,4 @@ Indicates a response of type R6. For an explanation of the R6 response, see the 
 ## -see-also
 
 [**SDCMD_DESCRIPTOR**](ns-sddef-_sdcmd_descriptor.md)
+

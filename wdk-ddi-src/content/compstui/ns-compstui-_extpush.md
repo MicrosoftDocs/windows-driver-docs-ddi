@@ -3,7 +3,7 @@ UID: NS:compstui._EXTPUSH
 title: EXTPUSH (compstui.h)
 description: The EXTPUSH structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended push button, which can be added to a property sheet page option. When the button is pushed, a new dialog can be displayed.
 tech.root: print
-ms.date: 04/25/2022
+ms.date: 11/15/2022
 keywords: ["EXTPUSH structure"]
 ms.keywords: "*PEXTPUSH, EXTPUSH, EXTPUSH structure [Print Devices], PEXTPUSH, PEXTPUSH structure pointer [Print Devices], _EXTPUSH, compstui/EXTPUSH, compstui/PEXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, print.extpush"
 req.header: compstui.h
@@ -47,20 +47,20 @@ api_name:
 
 ## -description
 
-The EXTPUSH structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended push button, which can be added to a property sheet page option. When the button is pushed, a new dialog can be displayed.
+The **EXTPUSH** structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended push button, which can be added to a property sheet page option. When the button is pushed, a new dialog can be displayed.
 
 ## -struct-fields
 
 ### -field cbSize
 
-Size, in bytes, of the EXTPUSH structure.
+Size, in bytes, of the **EXTPUSH** structure.
 
 ### -field Flags
 
 Bit flags, which can be one of the following:
 
 | Flag | Description |
-|--|--|
+|---|---|
 | EPF_ICONID_AS_HICON | If set, the **IconID** member contains an icon handle. If not set, the **IconID** member contains an icon resource identifier. |
 | EPF_INCLUDE_SETUP_TITLE | If set, CPSUI appends "Setup" to the string pointed to by **pTitle**. |
 | EPF_NO_DOT_DOT_DOT | If set, CPSUI does not append "..." to the string pointed to by **pTitle**. |
@@ -80,7 +80,7 @@ Defines the **DUMMYUNIONNAME** union.
 
 ### -field DUMMYUNIONNAME.DlgProc
 
-DLGPROC-typed pointer to a dialog box procedure to process messages for the push button's dialog box. (The DLGPROC pointer type is described in the Microsoft Windows SDK documentation.) For more information, see the Remarks section below.
+DLGPROC-typed pointer to a dialog box procedure to process messages for the push button's dialog box. For more information on using [*DialogProc*](/windows/win32/api/winuser/nc-winuser-dlgproc), see the **Remarks** section below.
 
 If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be set in **Flags**.
 
@@ -102,7 +102,7 @@ One of the following icon identifiers:
 
 ### -field DUMMYUNIONNAME2
 
-Defines the **DUMMYUNIONNAME** union.
+Defines the **DUMMYUNIONNAME2** union.
 
 ### -field DUMMYUNIONNAME2.DlgTemplateID
 
@@ -124,18 +124,18 @@ Reserved, must be initialized to zero.
 
 ## -remarks
 
-An extended push button is a CPSUI-defined type of push button that can be associated with an [OPTITEM](./ns-compstui-_optitem.md) structure. An OPTITEM structure can have one extended push button or one extended check box associated with it.
+An extended push button is a CPSUI-defined type of push button that can be associated with an [**OPTITEM**](./ns-compstui-_optitem.md) structure. An **OPTITEM** structure can have one extended push button or one extended check box associated with it.
 
-When you use the EXTPUSH structure to create a push button, you can optionally create an additional dialog box that opens when the user clicks on the button. To create this dialog box, you should specify a pointer to a dialog box procedure in the **DlgProc** member, and include a dialog template specification in either the **DlgTemplateID** or the **hDlgTemplate** member.
+When you use the **EXTPUSH** structure to create a push button, you can optionally create an additional dialog box that opens when the user clicks on the button. To create this dialog box, you should specify a pointer to a dialog box procedure in the **DlgProc** member, and include a dialog template specification in either the **DlgTemplateID** or the **hDlgTemplate** member.
 
 If EPF_USE_HDLGTEMPLATE is set in **Flags**, CPSUI creates the dialog box by calling [*DialogBoxIndirectParam*](/windows/win32/api/winuser/nf-winuser-dialogboxindirectparama), passing the contents of the **DlgProc** and **hDlgTemplate** members.
 
 If EPF_USE_HDLGTEMPLATE is not set in **Flags**, CPSUI creates the dialog box by calling [*DialogBoxParam*](/windows/win32/api/winuser/nf-winuser-dialogboxparama), passing the contents of the **DlgProc** and **DlgTemplateID** members.
 
-When the dialog box procedure is called with a *uMsg* value of WM_INITDIALOG, the *lParam* value is the address of a [CPSUICBPARAM](./ns-compstui-_cpsuicbparam.md) structure, with the **Reason** member set to CPSUICB_REASON_EXTPUSH. (For more information about the *uMsg* and *lParam* parameters, see *DialogProc* in the Windows SDK documentation.)
+When the dialog box procedure is called with a *uMsg* value of WM_INITDIALOG, the *lParam* value is the address of a [**CPSUICBPARAM**](./ns-compstui-_cpsuicbparam.md) structure, with the **Reason** member set to CPSUICB_REASON_EXTPUSH. For more information about the *uMsg* and *lParam* parameters, see [*DialogProc*](/windows/win32/api/winuser/nc-winuser-dlgproc).
 
 If you do not need CPSUI to display a dialog box when the user clicks on the button, you can specify the address of a [_CPSUICALLBACK](./nc-compstui-_cpsuicallback.md)-typed callback function in the **pfnCallBack** member. When a user clicks on the button, CPSUI calls the callback function. The accompanying CPSUICBPARAM structure's **Reason** member will be set to CPSUICB_REASON_EXTPUSH.
 
 ## -see-also
 
-[EXTCHKBOX](./ns-compstui-_extchkbox.md)
+[**EXTCHKBOX**](./ns-compstui-_extchkbox.md)

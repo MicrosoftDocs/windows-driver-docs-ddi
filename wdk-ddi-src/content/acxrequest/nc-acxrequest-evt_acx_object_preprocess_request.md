@@ -2,9 +2,9 @@
 UID: NC:acxrequest.EVT_ACX_OBJECT_PREPROCESS_REQUEST
 tech.root: audio
 title: EVT_ACX_OBJECT_PREPROCESS_REQUEST
-ms.date: 07/26/2022
+ms.date: 11/10/2022
 targetos: Windows
-description: The EVT_ACX_OBJECT_PREPROCESS_REQUEST callback is used by the driver to preprocess I/O WDFREQUESTs. 
+description: The EVT_ACX_OBJECT_PREPROCESS_REQUEST callback is used by the driver to preprocess I/O WDFREQUESTs.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxrequest.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_OBJECT_PREPROCESS_REQUEST** callback is used by the driver to preprocess I/O WDFREQUESTs. 
+The **EVT_ACX_OBJECT_PREPROCESS_REQUEST** callback is used by the driver to preprocess I/O WDFREQUESTs.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ The driver context defined by the ACXCONTEXT object.
 
 ### -param Request
 
-An WDFREQUEST object. 
+An WDFREQUEST object.
 
 For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).
 
@@ -103,8 +103,12 @@ Routine Description:
 }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 
 - [acxrequest.h header](index.md)
-

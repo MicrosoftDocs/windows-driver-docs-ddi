@@ -1,10 +1,9 @@
 ---
-UID: NS:scsi.__unnamed_struct_16
+UID: NS:scsi.POPULATE_TOKEN_HEADER
 title: POPULATE_TOKEN_HEADER (scsi.h)
 description: The POPULATE_TOKEN_HEADER structure (scsi.h) contains the header for the parameters in a command data block (CDB) of the POPULATE TOKEN command.
-old-location: storage\populate_token_header.htm
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 09/19/2022
 keywords: ["POPULATE_TOKEN_HEADER structure"]
 ms.keywords: "*PPOPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER structure [Storage Devices], PPOPULATE_TOKEN_HEADER, PPOPULATE_TOKEN_HEADER structure pointer [Storage Devices], scsi/POPULATE_TOKEN_HEADER, scsi/PPOPULATE_TOKEN_HEADER, storage.populate_token_header"
 req.header: scsi.h
@@ -43,18 +42,15 @@ api_name:
  - POPULATE_TOKEN_HEADER
 ---
 
-# POPULATE_TOKEN_HEADER structure (scsi.h)
-
-
 ## -description
 
-A populate token parameter list starts with a <b>POPULATE_TOKEN_HEADER</b> structure. This is the header for the parameters in a command data block (CDB) of the  POPULATE TOKEN command.
+A populate token parameter list starts with a **POPULATE_TOKEN_HEADER** structure. This is the header for the parameters in a command data block (CDB) of the POPULATE TOKEN command.
 
 ## -struct-fields
 
 ### -field PopulateTokenDataLength
 
-The length of this structure beginning with the <i>Immediate</i> parameter and include all of the elements of the <b>BlockDeviceRangeDescriptor</b> array.
+The length of this structure beginning with the *Immediate* parameter and include all of the elements of the **BlockDeviceRangeDescriptor** array.
 
 ### -field Immediate
 
@@ -78,19 +74,19 @@ Reserved.
 
 ### -field BlockDeviceRangeDescriptorListLength
 
-The length, in bytes, for all  of the <a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-block_device_range_descriptor">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures in the <b>BlockDeviceRangeDescriptor</b> array.
+The length, in bytes, for all  of the [**BLOCK_DEVICE_RANGE_DESCRIPTOR**](./ns-scsi-block_device_range_descriptor.md) structures in the **BlockDeviceRangeDescriptor** array.
 
 ### -field BlockDeviceRangeDescriptor
 
-An array of <a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-block_device_range_descriptor">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures which describe the logical blocks representing the file being read from the LUN.
+An array of [**BLOCK_DEVICE_RANGE_DESCRIPTOR**](./ns-scsi-block_device_range_descriptor.md) structures which describe the logical blocks representing the file being read from the LUN.
 
 ## -remarks
 
-The <b>POPULATE_TOKEN_HEADER</b> structure contains a series of <a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-block_device_range_descriptor">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures which describe the token ROD.
+The **POPULATE_TOKEN_HEADER** structure contains a series of [**BLOCK_DEVICE_RANGE_DESCRIPTOR**](./ns-scsi-block_device_range_descriptor.md) structures which describe the token ROD.
 
 All multibyte values are in big endian format. Prior to setting, these values must be converted from the endian format of the current platform.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-block_device_range_descriptor">BLOCK_DEVICE_RANGE_DESCRIPTOR</a>
+[**BLOCK_DEVICE_RANGE_DESCRIPTOR**](./ns-scsi-block_device_range_descriptor.md)
 

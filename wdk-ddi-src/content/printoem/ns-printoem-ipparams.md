@@ -1,5 +1,5 @@
 ---
-UID: NS:printoem.__unnamed_struct_0
+UID: NS:printoem.IPPARAMS
 title: IPPARAMS (printoem.h)
 description: The IPPARAMS structure is used as an input parameter to a rendering plug-in's IPrintOemUni::ImageProcessing method.
 tech.root: print
@@ -70,6 +70,7 @@ Specifies whether a blank band was drawn in the source bitmap supplied to **IPri
 
 ## -see-also
 
-[IPrintOemUn::ImageProcessing](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing)
+[IPrintOemUn::ImageProcessing](../prcomoem/nf-prcomoem-iprintoemuni-imageprocessing.md)
 
 [POINT](/windows/win32/api/windef/ns-windef-point)
+

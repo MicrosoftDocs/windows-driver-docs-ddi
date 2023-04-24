@@ -2,9 +2,8 @@
 UID: NS:wiamindr_lh._WIA_PROPERTY_INFO
 title: _WIA_PROPERTY_INFO (wiamindr_lh.h)
 description: The WIA_PROPERTY_INFO structure is used to store default access and valid value information for an item property of arbitrary type.
-old-location: image\wia_property_info.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 01/04/2023
 keywords: ["WIA_PROPERTY_INFO structure"]
 ms.keywords: "*PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO structure pointer [Imaging Devices], WIA_PROPERTY_INFO, WIA_PROPERTY_INFO structure [Imaging Devices], _WIA_PROPERTY_INFO, image.wia_property_info, wiamindr_lh/PWIA_PROPERTY_INFO, wiamindr_lh/WIA_PROPERTY_INFO, wiastrct_6e0091b3-43a3-473b-88e4-ec41533a5b0e.xml"
 req.header: wiamindr_lh.h
@@ -46,12 +45,9 @@ api_name:
  - WIA_PROPERTY_INFO
 ---
 
-# _WIA_PROPERTY_INFO structure
-
-
 ## -description
 
-The WIA_PROPERTY_INFO structure is used to store default access and valid value information for an item property of arbitrary type.
+The **WIA_PROPERTY_INFO** structure is used to store default access and valid value information for an item property of arbitrary type.
 
 ## -struct-fields
 
@@ -209,7 +205,7 @@ A structure that is filled when the property's valid values are not given in a l
 
 ## -remarks
 
-The WIA_PROPERTY_INFO is used by the minidriver to store information about a property of arbitrary type. This structure is also used by the **wiasSetItemPropAttribs** to set a property's valid values. The **lAccessFlags** member controls whether access to a property is read-only or read/write. This member also conveys information about the set of valid values for a property when they are defined by a list of values, a range of values, or a bitset of flags. The **vt** member contains information about the type of the property. Both members should be used to determine which member of the **ValidValunion** can be accessed.
+The **WIA_PROPERTY_INFO** is used by the minidriver to store information about a property of arbitrary type. This structure is also used by the **wiasSetItemPropAttribs** to set a property's valid values. The **lAccessFlags** member controls whether access to a property is read-only or read/write. This member also conveys information about the set of valid values for a property when they are defined by a list of values, a range of values, or a bitset of flags. The **vt** member contains information about the type of the property. Both members should be used to determine which member of the **ValidValunion** can be accessed.
 
 For example, for a read/write property of type **long**, whose valid values are integers in the range -128 to 127, and whose nominal value is 0, **lAccessFlags** would be set to WIA_PROP_RW | WIA_PROP_RANGE, and **vt** would be set to VT_I4. **Range.Min** would be set to -128, **Range.Max** would be set to 127, and **Range.Inc** would be set to 1. **Range.Nom** would be set to 0.
 
@@ -248,10 +244,8 @@ propSpec.propid     = WIA_IPA_ITEM_TIME;
 hr                  = wiasWriteMultiple(pWiasContext, 1, &propSpec, &propVar);
 ```
 
-> [!NOTE]
-> WIA uses the COM [PROPVARIANT](/windows/win32/api/propidl/ns-propidl-propvariant) type, [VARIANT](/windows/win32/api/oaidl/ns-oaidl-variant), so the default is VT_VECTOR, and not VT_ARRAY (which is also supported).
+WIA uses the COM [PROPVARIANT](/windows/win32/api/propidl/ns-propidl-propvariant) type, [VARIANT](/windows/win32/api/oaidl/ns-oaidl-variant), so the default is VT_VECTOR, and not VT_ARRAY (which is also supported).
 
 ## -see-also
 
 [wiasSetItemPropAttribs](../wiamdef/nf-wiamdef-wiassetitempropattribs.md)
-

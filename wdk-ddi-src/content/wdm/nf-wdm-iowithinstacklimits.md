@@ -2,15 +2,14 @@
 UID: NF:wdm.IoWithinStackLimits
 title: IoWithinStackLimits function (wdm.h)
 description: The IoWithinStackLimits routine determines whether a region of memory is within the stack limit of the current thread.
-old-location: kernel\iowithinstacklimits.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/12/2022
 keywords: ["IoWithinStackLimits function"]
 ms.keywords: IoWithinStackLimits, IoWithinStackLimits routine [Kernel-Mode Driver Architecture], k104_631648cb-6ba2-47b1-8745-e6314e17be30.xml, kernel.iowithinstacklimits, wdm/IoWithinStackLimits
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available on Windows Vista and later versions of the Windows operating system.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -23,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
+req.irql: IRQL <= APC_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -40,44 +39,34 @@ api_name:
  - IoWithinStackLimits
 ---
 
-# IoWithinStackLimits function
-
-
 ## -description
 
-The <b>IoWithinStackLimits</b> routine determines whether a region of memory is within the stack limit of the current thread.
+The **IoWithinStackLimits** routine determines whether a region of memory is within the stack limit of the current thread.
 
 ## -parameters
 
 ### -param RegionStart [in]
 
-
 A pointer to the start of the region.
 
 ### -param RegionSize [in]
-
 
 The size of the region.
 
 ## -returns
 
-<b>IoWithinStackLimits</b> returns <b>TRUE</b> is the current thread's stack contains the region completely and <b>FALSE</b> otherwise.
+**IoWithinStackLimits** returns **TRUE** is the current thread's stack contains the region completely and **FALSE** otherwise.
 
 ## -remarks
 
-The <b>IoWithinStackLimits</b> routine considers all possible stack segments and the DPC stack, if necessary.
+The **IoWithinStackLimits** routine considers all possible stack segments and the DPC stack, if necessary.
 
-<div class="alert"><b>Note</b>    For drivers that use <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout">KeExpandKernelStackAndCallout</a>, <b>IoWithinStackLimits</b> considers only the current thread.</div>
-<div> </div>
+For drivers that use [KeExpandKernelStackAndCallout](../ntddk/nf-ntddk-keexpandkernelstackandcallout.md), **IoWithinStackLimits** considers only the current thread.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetinitialstack">IoGetInitialStack</a>
+[IoGetInitialStack](./nf-wdm-iogetinitialstack.md)
 
+[IoGetRemainingStackSize](./nf-wdm-iogetremainingstacksize.md)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetremainingstacksize">IoGetRemainingStackSize</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetstacklimits">IoGetStackLimits</a>
+[IoGetStackLimits](./nf-wdm-iogetstacklimits.md)

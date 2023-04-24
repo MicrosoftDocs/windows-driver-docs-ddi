@@ -1,5 +1,5 @@
 ---
-UID: NS:portcls.__unnamed_struct_0
+UID: NS:portcls.PCPROPERTY_ITEM
 title: PCPROPERTY_ITEM (portcls.h)
 description: The PCPROPERTY_ITEM structure describes a property that is supported by a particular filter, pin, or node.
 old-location: audio\pcproperty_item.htm

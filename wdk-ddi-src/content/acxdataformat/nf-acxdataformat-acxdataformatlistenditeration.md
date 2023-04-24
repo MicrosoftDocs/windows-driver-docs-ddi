@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatListEndIteration
 tech.root: audio
 title: AcxDataFormatListEndIteration
-ms.date: 05/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatListEndIteration function ends the iteration process on an ACX data format list.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdataformat.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -58,8 +58,13 @@ Pointer to the [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_li
 
 The memory for the *Iterator* is zeroed out by this function and cannot be recovered.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md)
 - [acxdataformat.h header](index.md)
-

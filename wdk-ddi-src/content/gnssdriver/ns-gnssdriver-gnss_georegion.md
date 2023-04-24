@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_24
+UID: NS:gnssdriver.GNSS_GEOREGION
 title: GNSS_GEOREGION (gnssdriver.h)
 description: The GNSS_GEOREGION structure defines the geographical shape of a geofence.
 tech.root: gnss
@@ -71,3 +71,4 @@ Padding buffer reserved for future use.
 ## -remarks
 
 A geographical shape is used to define a geofence.  Windows 10 currently supports only circular geofences.
+

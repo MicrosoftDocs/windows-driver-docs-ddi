@@ -2,11 +2,10 @@
 description: "Learn more about: Imaging devices"
 UID: TP:image
 title: Imaging devices
-ms.assetid: 7b3b278b-3cff-355c-a263-9be80b8afde3
-ms.date: 07/11/2018
+ms.date: 03/02/2023
 keywords: ["Imaging devices"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 ---
 
 # Imaging devices

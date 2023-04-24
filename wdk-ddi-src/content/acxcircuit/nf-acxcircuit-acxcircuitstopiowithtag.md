@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitStopIoWithTag
 tech.root: audio
 title: AcxCircuitStopIoWithTag
-ms.date: 07/28/2022
+ms.date: 12/14/2022
 targetos: Windows
-description: The AcxCircuitStopIoWithTag function is used to signal to the operating system to temporarily stop circuit I/O. 
+description: The AcxCircuitStopIoWithTag function is used to signal to the operating system to temporarily stop circuit I/O.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -62,17 +62,12 @@ An optional ObjectTag that is a driver-defined value that the framework stores a
 
 ## -remarks
 
-### Example
+### ACX requirements
 
-Example usage is shown below.
+**Minimum ACX version:** 1.0
 
-Sample pending.
-
-```cpp
-
-```
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

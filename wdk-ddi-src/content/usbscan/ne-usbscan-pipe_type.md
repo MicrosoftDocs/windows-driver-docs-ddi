@@ -1,5 +1,5 @@
 ---
-UID: NE:usbscan.__unnamed_enum_0
+UID: NE:usbscan.PIPE_TYPE
 title: PIPE_TYPE (usbscan.h)
 description: The PIPE_TYPE data type is used as input to the DeviceIoControl function, if the I/O control code is IOCTL_CANCEL_IO or IOCTL_RESET_PIPE.
 old-location: image\pipe_type.htm
@@ -64,3 +64,4 @@ The operation should be performed on the bulk OUT pipe.
 ### -field ALL_PIPE
 
 The operation should be performed on <i>all</i> transfer pipes (not just the pipes associated with the device handle supplied to <a href="/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>).
+

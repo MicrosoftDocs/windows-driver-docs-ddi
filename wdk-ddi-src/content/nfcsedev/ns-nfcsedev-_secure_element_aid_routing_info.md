@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-SECURE_ELEMENT_AID_ROUTING_INFO is a member of [SECURE_ELEMENT_ROUTING_TABLE_ENTRY](/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_routing_table_entry).
+SECURE_ELEMENT_AID_ROUTING_INFO is a member of [SECURE_ELEMENT_ROUTING_TABLE_ENTRY](./ns-nfcsedev-_secure_element_routing_table_entry.md).
 
 ## -struct-fields
 
@@ -68,4 +68,4 @@ Buffer holding ISO 7816 AID.
 
 ## see-also
 
-- [SECURE_ELEMENT_ROUTING_TABLE_ENTRY](/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_routing_table_entry)
+- [SECURE_ELEMENT_ROUTING_TABLE_ENTRY](./ns-nfcsedev-_secure_element_routing_table_entry.md)

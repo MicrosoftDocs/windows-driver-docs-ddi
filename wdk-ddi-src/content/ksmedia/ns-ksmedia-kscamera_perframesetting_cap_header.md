@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_127
+UID: NS:ksmedia.KSCAMERA_PERFRAMESETTING_CAP_HEADER
 title: KSCAMERA_PERFRAMESETTING_CAP_HEADER (ksmedia.h)
 description: This structure contains the header information for the per frame settings capabilities.
 old-location: stream\kscamera_perframesetting_cap_header.htm

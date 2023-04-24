@@ -5,7 +5,7 @@ title: Printerextension.h header
 ms.date: 08/02/2022
 keywords: ["Printerextension.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: print
 f1_keywords:
  - printerextension

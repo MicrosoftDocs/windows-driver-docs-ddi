@@ -4,7 +4,7 @@ title: NdisMoveMemory macro (ndis.h)
 description: The NdisMoveMemory function copies a specified number of bytes from one caller-supplied location to another.
 old-location: netvista\ndismovememory.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 11/24/2022
 keywords: ["NdisMoveMemory macro"]
 ms.keywords: NdisMoveMemory, NdisMoveMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisMoveMemory, ndis_memory_ref_19f420d5-3747-48fa-a6c6-d1088449075b.xml, netvista.ndismovememory
 req.header: ndis.h
@@ -45,9 +45,7 @@ api_name:
 
 ## -description
 
-The 
-  <b>NdisMoveMemory</b> function copies a specified number of bytes from one caller-supplied location to
-  another.
+The **NdisMoveMemory** function copies a specified number of bytes from one caller-supplied location to another.
 
 ## -parameters
 
@@ -55,15 +53,12 @@ The
 
 
 A pointer to a system-space buffer that is the destination of the move. This buffer must be at
-     least 
-     <i>Length</i> bytes in size.
+least **Length** bytes in size.
 
 ### -param Source [in]
 
 
-A pointer to a system-space buffer from which this function copies the data to the destination
-     buffer. This buffer must be at least 
-     <i>Length</i> bytes in size.
+A pointer to a system-space buffer from which this function copies the data to the destination buffer. This buffer must be at least **Length** bytes in size.
 
 ### -param Length [in]
 
@@ -72,32 +67,16 @@ The number of bytes to copy.
 
 ## -remarks
 
-Both 
-    <i>Source</i> and 
-    <i>Destination</i> are virtual addresses.
+Both **Source** and Destination are virtual addresses.
 
-If either address falls within a range of device memory that was mapped with 
-    <a href="/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>, a miniport driver should
-    call one of the 
-    <b>Ndis..MappedMemory</b> functions instead of 
-    <b>NdisMoveMemory</b>.
+If either address falls within a range of device memory that was mapped with [**NdisMMapIoSpace**](nf-ndis-ndismmapiospace.md), a miniport driver should call one of the **Ndis..MappedMemory** functions instead of **NdisMoveMemory**.
 
-The range specified by 
-    <i>Source</i> and 
-    <i>Length</i> cannot overlap the 
-    <i>Destination</i> range.
+The range specified by **Source** and **Length** cannot overlap the **Destination** range.
 
-Callers of 
-    <b>NdisMoveMemory</b> can run at any IRQL if the given 
-    <i>Source</i> and 
-    <i>Destination</i> are resident. Otherwise, callers must be running at IRQL < DISPATCH_LEVEL, as, for
-    example if either address is on the stack.
+Callers of **NdisMoveMemory** can run at any IRQL if the given **Source** and **Destination** are resident. Otherwise, callers must be running at IRQL < DISPATCH_LEVEL, as, for example if either address is on the stack.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatememorywithtagpriority">
-   NdisAllocateMemoryWithTagPriority</a>
+[**NdisAllocateMemoryWithTagPriority**](nf-ndis-ndisallocatememorywithtagpriority.md)
 
-
-
-<a href="/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>
+[**NdisMMapIoSpace**](nf-ndis-ndismmapiospace.md)

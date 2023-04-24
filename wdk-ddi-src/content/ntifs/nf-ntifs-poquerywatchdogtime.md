@@ -71,7 +71,7 @@ For example, a driver that experiences delays when shutting down a device can ca
 
 The power manager sets a watchdog time-out counter when it issues a power IRP to the device stack. The time-out period for this counter is typically several minutes. If a device in the stack is unresponsive and causes the IRP to stall for the time-out period, the power manager treats this condition as an unrecoverable error and initiates a controlled shutdown of the operating system.
 
-If more than one power watchdog time-out is currently enabled, the routine sets *<i>SecondsRemaining</i> to the time that remains to the next time-out.
+If more than one power watchdog time-out is currently enabled, the routine sets **SecondsRemaining* to the time that remains to the next time-out.
 
 ## -see-also
 

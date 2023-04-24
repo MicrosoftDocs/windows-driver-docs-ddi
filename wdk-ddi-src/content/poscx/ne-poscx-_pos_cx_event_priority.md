@@ -1,10 +1,9 @@
 ---
 UID: NE:poscx._POS_CX_EVENT_PRIORITY
-title: _POS_CX_EVENT_PRIORITY (poscx.h)
+title: POS_CX_EVENT_PRIORITY (poscx.h)
 description: The POS_CX_EVENT_PRIORITY defines the importance of the event and the order it will be delivered to the client application.
-old-location: pos\pos_cx_event_priority.htm
 tech.root: pos
-ms.date: 02/23/2018
+ms.date: 01/04/2023
 keywords: ["POS_CX_EVENT_PRIORITY enumeration"]
 ms.keywords: POS_CX_EVENT_PRIORITY, POS_CX_EVENT_PRIORITY enumeration, POS_CX_EVENT_PRIORITY_CONTROL, POS_CX_EVENT_PRIORITY_DATA, POS_CX_EVENT_PRIORITY_INVALID, _POS_CX_EVENT_PRIORITY, pos.pos_cx_event_priority, poscx/POS_CX_EVENT_PRIORITY, poscx/POS_CX_EVENT_PRIORITY_CONTROL, poscx/POS_CX_EVENT_PRIORITY_DATA, poscx/POS_CX_EVENT_PRIORITY_INVALID
 req.header: poscx.h
@@ -44,9 +43,6 @@ api_name:
  - POS_CX_EVENT_PRIORITY
 ---
 
-# _POS_CX_EVENT_PRIORITY enumeration
-
-
 ## -description
 
 The POS_CX_EVENT_PRIORITY defines the importance of the event and the order it will be delivered to the client application.
@@ -69,6 +65,4 @@ Control level priority delivered in FIFO.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  PosCx will deliver all Control level events before Data level events.</div>
-<div> </div>
-
+PosCx will deliver all Control level events before Data level events.

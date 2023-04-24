@@ -1,10 +1,9 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_90
+UID: NS:ksmedia.KSPROPERTY_VIDEOPROCAMP_S
 title: KSPROPERTY_VIDEOPROCAMP_S (ksmedia.h)
 description: The KSPROPERTY_VIDEOPROCAMP_S structure describes filter-based property settings in the PROPSETID_VIDCAP_VIDEOPROCAMP property set.
-old-location: stream\ksproperty_videoprocamp_s.htm
 tech.root: stream
-ms.date: 04/30/2019
+ms.date: 04/17/2023
 keywords: ["KSPROPERTY_VIDEOPROCAMP_S structure"]
 ms.keywords: "*PKSPROPERTY_VIDEOPROCAMP_S, KSPROPERTY_VIDEOPROCAMP_S, KSPROPERTY_VIDEOPROCAMP_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOPROCAMP_S, PKSPROPERTY_VIDEOPROCAMP_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOPROCAMP_S, ksmedia/PKSPROPERTY_VIDEOPROCAMP_S, stream.ksproperty_videoprocamp_s, vidcapstruct_4ec1fd8e-6ea5-4560-a528-e6cd2023ec87.xml"
 req.header: ksmedia.h
@@ -45,124 +44,58 @@ api_name:
 
 # KSPROPERTY_VIDEOPROCAMP_S structure
 
-
 ## -description
 
-The KSPROPERTY_VIDEOPROCAMP_S structure describes filter-based property settings in the PROPSETID_VIDCAP_VIDEOPROCAMP property set.
+The **KSPROPERTY_VIDEOPROCAMP_S** structure describes filter-based property settings in the PROPSETID_VIDCAP_VIDEOPROCAMP property set.
 
 ## -struct-fields
 
 ### -field Property
 
-Specifies an initialized <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure) structure that describes the property set, property ID, and request type.
 
 ### -field Value
 
-Specifies the value of a request. For Set requests, the minidriver should set the property specified in <b>Property</b> to this value. For Get requests, the minidriver should return the value of the property specified in <b>Property</b>.
+Specifies the value of a request. For Set requests, the minidriver should set the property specified in **Property** to this value. For Get requests, the minidriver should return the value of the property specified in **Property**.
 
 ### -field Flags
 
-Specifies the flags of a request. For Set requests, this value indicates the desired setting. For Get requests, this value contains the current setting. This member can be set to one of the values that are defined in <i>ksmedia.h</i>:
+Specifies the flags of a request. For Set requests, this value indicates the desired setting. For Get requests, this value contains the current setting. This member can be set to one of the values that are defined in *ksmedia.h*:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-KSPROPERTY_VIDEOPROCAMP_FLAGS_MANUAL
-
-</td>
-<td>
-Indicates that the property is to be adjusted manually.
-
-</td>
-</tr>
-<tr>
-<td>
-KSPROPERTY_VIDEOPROCAMP_FLAGS_AUTO
-
-</td>
-<td>
-Indicates that the property is to be adjusted automatically.
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|--|--|
+| KSPROPERTY_VIDEOPROCAMP_FLAGS_MANUAL | Indicates that the property is to be adjusted manually. |
+| KSPROPERTY_VIDEOPROCAMP_FLAGS_AUTO | Indicates that the property is to be adjusted automatically. |
 
 ### -field Capabilities
 
-Specifies the capabilities of a property. This member has meaning only for Get requests. The minidriver should return the capabilities of the VideoProcAmp with respect to the property specified in <b>Property</b>. This member should be set to one of the following values:
+Specifies the capabilities of a property. This member has meaning only for Get requests. The minidriver should return the capabilities of the VideoProcAmp with respect to the property specified in **Property**. This member should be set to one of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-KSPROPERTY_VIDEOPROCAMP_FLAGS_MANUAL
-
-</td>
-<td>
-The device supports manual setting of the specified property.
-
-</td>
-</tr>
-<tr>
-<td>
-KSPROPERTY_VIDEOPROCAMP_FLAGS_AUTO
-
-</td>
-<td>
-The device supports automatic setting of the specified property.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|--|--|
+| KSPROPERTY_VIDEOPROCAMP_FLAGS_MANUAL | The device supports manual setting of the specified property. |
+| KSPROPERTY_VIDEOPROCAMP_FLAGS_AUTO | The device supports automatic setting of the specified property. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
+[KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)
 
+[KSPROPERTY_VIDEOPROCAMP_BACKLIGHT_COMPENSATION](/windows-hardware/drivers/stream/ksproperty-videoprocamp-backlight-compensation)
 
+[KSPROPERTY_VIDEOPROCAMP_BRIGHTNESS](/windows-hardware/drivers/stream/ksproperty-videoprocamp-brightness)
 
-<a href="/windows-hardware/drivers/stream/ksproperty-videoprocamp-backlight-compensation">KSPROPERTY_VIDEOPROCAMP_BACKLIGHT_COMPENSATION</a>
+[KSPROPERTY_VIDEOPROCAMP_COLORENABLE](/windows-hardware/drivers/stream/ksproperty-videoprocamp-colorenable)
 
+[KSPROPERTY_VIDEOPROCAMP_CONTRAST](/windows-hardware/drivers/stream/ksproperty-videoprocamp-contrast)
 
+[KSPROPERTY_VIDEOPROCAMP_GAMMA](/windows-hardware/drivers/stream/ksproperty-videoprocamp-gamma)
 
-<a href="/windows-hardware/drivers/stream/ksproperty-videoprocamp-brightness">KSPROPERTY_VIDEOPROCAMP_BRIGHTNESS</a>
+[KSPROPERTY_VIDEOPROCAMP_HUE](/windows-hardware/drivers/stream/ksproperty-videoprocamp-hue)
 
+[KSPROPERTY_VIDEOPROCAMP_SATURATION](/windows-hardware/drivers/stream/ksproperty-videoprocamp-saturation)
 
+[KSPROPERTY_VIDEOPROCAMP_SHARPNESS](/windows-hardware/drivers/stream/ksproperty-videoprocamp-sharpness)
 
-<a href="/windows-hardware/drivers/stream/ksproperty-videoprocamp-colorenable">KSPROPERTY_VIDEOPROCAMP_COLORENABLE</a>
+[KSPROPERTY_VIDEOPROCAMP_WHITEBALANCE](/windows-hardware/drivers/stream/ksproperty-videoprocamp-whitebalance)
 
-
-
-<a href="/windows-hardware/drivers/stream/ksproperty-videoprocamp-contrast">KSPROPERTY_VIDEOPROCAMP_CONTRAST</a>
-
-
-
-<a href="/windows-hardware/drivers/stream/ksproperty-videoprocamp-gamma">KSPROPERTY_VIDEOPROCAMP_GAMMA</a>
-
-
-
-<a href="/windows-hardware/drivers/stream/ksproperty-videoprocamp-hue">KSPROPERTY_VIDEOPROCAMP_HUE</a>
-
-
-
-<a href="/windows-hardware/drivers/stream/ksproperty-videoprocamp-saturation">KSPROPERTY_VIDEOPROCAMP_SATURATION</a>
-
-
-
-<a href="/windows-hardware/drivers/stream/ksproperty-videoprocamp-sharpness">KSPROPERTY_VIDEOPROCAMP_SHARPNESS</a>
-
-
-
-<a href="/windows-hardware/drivers/stream/ksproperty-videoprocamp-whitebalance">KSPROPERTY_VIDEOPROCAMP_WHITEBALANCE</a>
-
-
-
-<a href="/windows-hardware/drivers/stream/propsetid-vidcap-videoprocamp">PROPSETID_VIDCAP_VIDEOPROCAMP</a>
-
+[PROPSETID_VIDCAP_VIDEOPROCAMP](/windows-hardware/drivers/stream/propsetid-vidcap-videoprocamp)

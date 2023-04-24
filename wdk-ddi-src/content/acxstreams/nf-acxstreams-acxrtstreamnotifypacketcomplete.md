@@ -2,9 +2,9 @@
 UID: NF:acxstreams.AcxRtStreamNotifyPacketComplete
 tech.root: audio
 title: AcxRtStreamNotifyPacketComplete
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
-description: The driver calls AcxRtStreamNotifyPacketComplete when a packet has completed. 
+description: The driver calls AcxRtStreamNotifyPacketComplete when a packet has completed.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -48,7 +48,7 @@ The driver calls **AcxRtStreamNotifyPacketComplete** when a packet has completed
 
 ### -param Stream
 
-An existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements.
+An existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit's elements.
 
 ### -param CompletedPacket
 
@@ -79,6 +79,12 @@ InterlockedExchange64(&m_CurrentPacketStart.QuadPart, QPC.QuadPart);
 // Tell ACX we've completed the packet.
 (void)AcxRtStreamNotifyPacketComplete(m_Stream, completedPacket, QPC.QuadPart);
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

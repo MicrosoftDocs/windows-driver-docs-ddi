@@ -2,11 +2,10 @@
 description: "Learn more about: Winddiui.h header"
 UID: NA:winddiui
 title: Winddiui.h header
-ms.assetid: 53a5312f-9f75-3637-bb7f-d79817f00a15
-ms.date: 11/18/2020
+ms.date: 03/02/2023
 keywords: ["Winddiui.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: print
 f1_keywords:
  - winddiui
@@ -17,10 +16,8 @@ api_name:
 
 # Winddiui.h header
 
-
 ## -description
 
 This header is used by print. For more information, see:
 
-- [Print devices](../_print/index.md)<br><br>
-
+- [Print devices](../_print/index.md)

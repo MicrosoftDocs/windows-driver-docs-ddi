@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_0
+UID: NE:ks.KSRESET
 title: KSRESET (ks.h)
 description: "Learn more about: KSRESET enumeration"
 old-location: stream\ksreset.htm

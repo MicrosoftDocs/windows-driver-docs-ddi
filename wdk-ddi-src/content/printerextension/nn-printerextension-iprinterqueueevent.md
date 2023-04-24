@@ -3,7 +3,7 @@ UID: NN:printerextension.IPrinterQueueEvent
 title: IPrinterQueueEvent (printerextension.h)
 description: Provides the event delegate for printer queue events.
 tech.root: print
-ms.date: 08/04/2022
+ms.date: 01/04/2023
 keywords: ["IPrinterQueueEvent interface"]
 ms.keywords: IPrinterQueueEvent, IPrinterQueueEvent interface [Print Devices], IPrinterQueueEvent interface [Print Devices],described, print.iprinterqueueevent_interface, printerextension/IPrinterQueueEvent
 req.header: printerextension.h
@@ -47,8 +47,7 @@ Provides the event delegate for printer queue events.
 
 An event sink that implements **IPrinterQueueEvent** and the event source, [IPrinterQueue](./nn-printerextension-iprinterqueue.md) are connected via the [IConnectionPoint](/windows/win32/api/ocidl/nn-ocidl-iconnectionpoint) mechanism. You must retrieve a pointer to the **IConnectionPoint** interface by invoking **QueryInterface** on the **IPrinterQueue** object.
 
-> [!NOTE]
-> It is mandatory to implement **IDispatch::Invoke** on the event sink that implements **IPrinterQueueEvent**, since that is the mechanism via which events are raised. It is sufficient to provide stub implementations of the other methods on the **IDispatch** interface.
+It is mandatory to implement **IDispatch::Invoke** on the event sink that implements **IPrinterQueueEvent**, since that is the mechanism via which events are raised. It is sufficient to provide stub implementations of the other methods on the **IDispatch** interface.
 
 ## -see-also
 

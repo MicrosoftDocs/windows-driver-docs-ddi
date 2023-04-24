@@ -52,9 +52,13 @@ A pointer to the **ACX_MICROPHONE_CONFIG** structure to initialize.
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_MICROPHONE_CONFIG](ns-acxpin-acx_microphone_config.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

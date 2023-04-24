@@ -63,6 +63,12 @@ An [ACX_RTPACKET](ns-acxstreams-acx_rtpacket.md) structure.
         ACX_RTPACKET_INIT(&packets[i]);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxstreams.h header](index.md)

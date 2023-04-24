@@ -2,9 +2,9 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_GET_PRESENTATION_POSITION
 tech.root: audio
 title: EVT_ACX_STREAM_GET_PRESENTATION_POSITION
-ms.date: 07/28/2022
+ms.date: 10/31/2022
 targetos: Windows
-description: The EvtAcxStreamGetPresentationPosition tells the driver to indicate the current position along with the QPC value at the time the current position was calculated. 
+description: The EvtAcxStreamGetPresentationPosition tells the driver to indicate the current position along with the QPC value at the time the current position was calculated.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-**EvtAcxStreamGetPresentationPosition** tells the driver to indicate the current position along with the QPC value at the time the current position was calculated. 
+**EvtAcxStreamGetPresentationPosition** tells the driver to indicate the current position along with the QPC value at the time the current position was calculated.
 
 ## -parameters
 
 ### -param Stream
 
-An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit’s elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An ACXSTREAM object represents an audio stream created by a circuit. The stream is composed of a list of elements created based on the parent circuit's elements. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param PositionInBlocks
 
@@ -110,7 +110,12 @@ EvtStreamGetPresentationPosition(
 }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxstreams.h header](index.md)
-

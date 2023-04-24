@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitAddEvents
 tech.root: audio
 title: AcxCircuitAddEvents
-ms.date: 02/02/2022
+ms.date: 12/14/2022
 targetos: Windows
-description: The AcxCircuitAddEvents function adds one or more events to an ACXCIRCUIT. 
+description: The AcxCircuitAddEvents function adds one or more events to an ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -66,18 +66,12 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 An AcxEvent represents an asynchronous notification available at the driver level. Events can be added to AcxCircuits, AcxStreams, AcxElements and AcxPins. They are exposed as KS events to clients (upper user-mode layers).
 
-### Example
+### ACX requirements
 
-Example usage is shown below.
+**Minimum ACX version:** 1.0
 
-Sample pending.
-
-```cpp
-
-```
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-

@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_7
+UID: NS:ks.KSPROPERTY_DESCRIPTION
 title: KSPROPERTY_DESCRIPTION (ks.h)
 description: The KSPROPERTY_DESCRIPTION structure specifies the size and type of values contained in a specific property.
 old-location: stream\ksproperty_description.htm
@@ -44,6 +44,7 @@ api_name:
 ---
 
 # KSPROPERTY_DESCRIPTION structure
+
 
 ## -description
 
@@ -92,3 +93,4 @@ For more information, see [KS Properties](/windows-hardware/drivers/stream/ks-pr
 [**KSPROPERTY_MEMBERSHEADER**](./ns-ks-ksproperty_membersheader.md)
 
 [**KSPROPERTY_VALUES**](./ns-ks-ksproperty_values.md)
+

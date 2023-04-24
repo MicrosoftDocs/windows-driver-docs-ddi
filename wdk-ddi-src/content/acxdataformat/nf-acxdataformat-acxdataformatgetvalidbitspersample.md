@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetValidBitsPerSample
 tech.root: audio
 title: AcxDataFormatGetValidBitsPerSample
-ms.date: 05/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetValidBitsPerSample function gets the valid number of bits per sample for the specified data format.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdataformat.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -56,7 +56,12 @@ Returns a ULONG value containing the valid number bits per sample for the specif
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxdataformat.h header](index.md)
-

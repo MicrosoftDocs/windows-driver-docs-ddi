@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_37
+UID: NS:gnssdriver.GNSS_DRIVER_REQUEST_DATA
 title: GNSS_DRIVER_REQUEST_DATA (gnssdriver.h)
 description: This structure contains driver data request information.
 old-location: gnss\gnss_driver_request_data.htm
@@ -70,3 +70,4 @@ Additional flags along with this information.
 ## -remarks
 
 Based on certain rules, the HLOS  will provide data to the GNSS driver. However, during specific  times, if the GNSS driver determines that it needs  data it can request it without waiting for the HLOS to send it in its normal operation.
+

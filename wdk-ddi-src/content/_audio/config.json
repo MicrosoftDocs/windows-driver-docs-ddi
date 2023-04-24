@@ -8,6 +8,7 @@
     "acxdriver.h",
     "acxelements.h",
     "acxevents.h",
+    "acxfuncenum.h",
     "acxmanager.h",
     "acxmisc.h",
     "acxpin.h",

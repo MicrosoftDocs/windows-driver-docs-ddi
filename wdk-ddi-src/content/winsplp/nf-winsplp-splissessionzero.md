@@ -63,10 +63,10 @@ On success, the **SplIsSessionZero** function returns ERROR_SUCCESS; otherwise t
 
 ## -remarks
 
-A driver that displays custom user interface elements can use the **SplIsSessionZero** function to determine whether the current job was issued in session 0. Such a driver can use this information to enable it to present user interface elements in the user's session, rather than in session zero. A related function, [SplPromptUIInUsersSession](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-splpromptuiinuserssession), displays a standard Windows message box in the user's session.
+A driver that displays custom user interface elements can use the **SplIsSessionZero** function to determine whether the current job was issued in session 0. Such a driver can use this information to enable it to present user interface elements in the user's session, rather than in session zero. A related function, [SplPromptUIInUsersSession](./nf-winsplp-splpromptuiinuserssession.md), displays a standard Windows message box in the user's session.
 
 If you plan to use this function in a driver intended to run under Windows 2000, you must load spoolss.dll by a call to the **LoadLibrary** function, and then find the address of this function within that DLL by a call to the **GetProcAddress** function. If the call to **GetProcAddress** fails, you must use an alternative mechanism to display user interface elements.
 
 ## -see-also
 
-[SplPromptUIInUsersSession](/windows-hardware/drivers/ddi/winsplp/nf-winsplp-splpromptuiinuserssession)
+[SplPromptUIInUsersSession](./nf-winsplp-splpromptuiinuserssession.md)

@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_KEYWORDSPOTTER_CONFIG
 ms.date: 04/29/2022
 targetos: Windows
-description: The ACX_KEYWORDSPOTTER_CONFIG structure is used to define the audio keyword spotter configuration. 
+description: The ACX_KEYWORDSPOTTER_CONFIG structure is used to define the audio keyword spotter configuration.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_KEYWORDSPOTTER_CONFIG** structure is used to define the acx keyword spotter configuration. 
+The **ACX_KEYWORDSPOTTER_CONFIG** structure is used to define the acx keyword spotter configuration.
 
 ## -struct-fields
 
@@ -94,6 +94,12 @@ Example usage is shown below.
     keywordSpotterCfg.Pattern = &CONTOSO_KEYWORDCONFIGURATION_IDENTIFIER2;
     keywordSpotterCfg.Callbacks = &keywordSpotterCallbacks;
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

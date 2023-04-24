@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamGetElementById
 tech.root: audio
 title: AcxStreamGetElementById
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamGetElementById function returns the ACXELEMENT Object handle for the requested element ID.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -52,7 +52,7 @@ An existing ACXSTREAM Object. An ACXSTREAM object represents an audio stream cre
 
 ### -param ElementId
 
-The Id of the requested element. 
+The Id of the requested element.
 
 ## -returns
 
@@ -73,6 +73,11 @@ Example usage is shown below.
     element = AcxStreamGetElementById(Stream, (ULONG)index);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

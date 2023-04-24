@@ -1,9 +1,9 @@
 ---
 UID: NS:wdm._DMA_IOMMU_INTERFACE
-title: _DMA_IOMMU_INTERFACE (wdm.h)
+title: DMA_IOMMU_INTERFACE (wdm.h)
 description: An extended version of the INTERFACE structure that allows device drivers to invoke the callback functions that perform device domain operations.
 tech.root: kernel
-ms.date: 05/27/2021
+ms.date: 01/06/2023
 keywords: ["DMA_IOMMU_INTERFACE structure"]
 ms.keywords: _DMA_IOMMU_INTERFACE, *PDMA_IOMMU_INTERFACE, DMA_IOMMU_INTERFACE,
 req.header: wdm.h
@@ -39,13 +39,11 @@ api_name:
  - DMA_IOMMU_INTERFACE
 ---
 
-# _DMA_IOMMU_INTERFACE structure
-
 ## -description
 
-An extended version of the INTERFACE structure that allows device drivers to invoke the callback functions that perform device domain operations.
+An extended version of the **INTERFACE** structure that allows device drivers to invoke the callback functions that perform device domain operations.
 
->[!IMPORTANT]
+> [!CAUTION]
 > `DMA_IOMMU_INTERFACE` has been deprecated in Windows 10, version 2103 and has been replaced by [**DMA_IOMMU_INTERFACE_EX**](ns-wdm-dma_iommu_interface_ex.md).
 
 ## -struct-fields

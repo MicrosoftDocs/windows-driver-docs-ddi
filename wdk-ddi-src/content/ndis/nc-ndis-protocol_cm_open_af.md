@@ -60,7 +60,7 @@ For a non-integrated call manager, <i>CallMgrBindingContext</i> specifies the ha
      its per-binding state information. The call manager supplied this handle when it called 
      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>.
 
-For an integrated call manager (MCM), <i>CallMgrBindingContext</i> specifies the handle to a miniport-allocated context area in which the miniport maintains its per-adapter state information.  The miniport supplied this handle in its <a href="/previous-versions/windows/hardware/network/ff553623(v=vs.85)">NdisMSetAttributesEx</a> call (for 5.x drivers) or its <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a> call (for 6.x drivers).
+For an integrated call manager (MCM), <i>CallMgrBindingContext</i> specifies the handle to a miniport-allocated context area in which the miniport maintains its per-adapter state information.  The miniport supplied this handle in its <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetattributesex">NdisMSetAttributesEx</a> call (for 5.x drivers) or its <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a> call (for 6.x drivers).
 
 ### -param AddressFamily [in]
 

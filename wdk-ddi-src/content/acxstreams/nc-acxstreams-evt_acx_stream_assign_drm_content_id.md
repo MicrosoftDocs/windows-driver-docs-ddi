@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_ASSIGN_DRM_CONTENT_ID
 tech.root: audio
 title: EVT_ACX_STREAM_ASSIGN_DRM_CONTENT_ID
-ms.date: 07/28/2022
+ms.date: 10/31/2022
 targetos: Windows
 description: The EVT_ACX_STREAM_ASSIGN_DRM_CONTENT_ID event tells the driver to assign a content ID for the purposes of DRM streaming.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -49,7 +49,6 @@ The **EVT_ACX_STREAM_ASSIGN_DRM_CONTENT_ID** event tells the driver to assign a 
 ### -param Stream
 
 An existing ACXSTREAM Object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
-
 
 ### -param ContentId
 
@@ -102,6 +101,12 @@ EvtStreamAssignDrmContentId(
 }
 
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

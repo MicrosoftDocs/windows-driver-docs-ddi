@@ -106,7 +106,7 @@ In this example, <code>pBuffer</code> points to the caller-allocated buffer, <co
 ### -param FirmwareTableBuffer [out, optional]
 
 
-A pointer to a caller-allocated buffer that receives the list of firmware tables. If this parameter is NULL, the value written to *<i>ReturnLength</i> is the required buffer size. For more information about the contents of this buffer, see the Remarks section.
+A pointer to a caller-allocated buffer that receives the list of firmware tables. If this parameter is NULL, the value written to **ReturnLength* is the required buffer size. For more information about the contents of this buffer, see the Remarks section.
 
 ### -param BufferLength [in]
 
@@ -168,7 +168,7 @@ struct RawSMBIOSData
 };
 ```
 
-The raw firmware table provider ('FIRM') retrieves the contents of the specified physical address range. The value written to *<i>ReturnLength</i> is the size of the address range.
+The raw firmware table provider ('FIRM') retrieves the contents of the specified physical address range. The value written to **ReturnLength* is the size of the address range.
 
 The ACPI table provider ('ACPI') retrieves the contents of the specified ACPI table. Because OEMs can include ACPI firmware tables that are not listed in the ACPI specification, you should first call <a href="/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibenumeratesystemfirmwaretables">AuxKlibEnumerateSystemFirmwareTables</a> to enumerate all ACPI tables that are currently available from the system firmware.
 

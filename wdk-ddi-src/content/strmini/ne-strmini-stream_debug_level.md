@@ -1,5 +1,5 @@
 ---
-UID: NE:strmini.__unnamed_enum_0
+UID: NE:strmini.STREAM_DEBUG_LEVEL
 title: STREAM_DEBUG_LEVEL (strmini.h)
 description: The STREAM_DEBUG_LEVEL enumeration lists incrementally increasing levels of debugger output.
 old-location: stream\stream_debug_level.htm
@@ -80,3 +80,4 @@ Display maximum information.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassdebugprint">StreamClassDebugPrint</a>
+

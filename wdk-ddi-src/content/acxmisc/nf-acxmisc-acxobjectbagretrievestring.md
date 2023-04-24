@@ -2,9 +2,9 @@
 UID: NF:acxmisc.AcxObjectBagRetrieveString
 tech.root: audio
 title: AcxObjectBagRetrieveString
-ms.date: 06/17/2022
+ms.date: 12/16/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveString function retrieves a WDFSTRING object from an existing, intialized AcxObjectBag.
+description: The AcxObjectBagRetrieveString function retrieves a WDFSTRING object from an existing, initialized AcxObjectBag.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxmisc.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveString function retrieves a WDFSTRING object from an existing, intialized AcxObjectBag.
- 
+The AcxObjectBagRetrieveString function retrieves a WDFSTRING object from an existing, initialized AcxObjectBag.
+
 ## -parameters
 
 ### -param ObjectBag
 
-An intialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An initialized ObjectBag ACX object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param ValueName
 
@@ -101,6 +101,12 @@ This example shows the use of AcxObjectBagRetrieveString.
         //
         status = AcxObjectBagRetrieveString(objBag, &usName, wsValue);
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

@@ -1,5 +1,5 @@
 ---
-UID: NE:storport.__unnamed_enum_0
+UID: NE:storport.STOR_POWER_ACTION
 tech.root: storage
 title: STOR_POWER_ACTION
 ms.date: 05/13/2021
@@ -84,3 +84,4 @@ For an adapter, Storport sets **STOR_POWER_ACTION** in the [**STOR_ADAPTER_CONTR
 [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md)
 
 [**HwStorUnitControl**](nc-storport-hw_unit_control.md)
+

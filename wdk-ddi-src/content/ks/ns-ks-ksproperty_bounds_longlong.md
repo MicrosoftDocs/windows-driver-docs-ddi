@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_union_10
+UID: NS:ks.KSPROPERTY_BOUNDS_LONGLONG
 title: KSPROPERTY_BOUNDS_LONGLONG (ks.h)
 description: The KSPROPERTY_BOUNDS_LONGLONG structure defines the bounds for a 64-bit property.
 old-location: stream\ksproperty_bounds_longlong.htm

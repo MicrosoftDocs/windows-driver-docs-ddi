@@ -2,9 +2,8 @@
 UID: NF:ntddk.PsCreateSiloContext
 title: PsCreateSiloContext function (ntddk.h)
 description: This routine creates an object that will be inserted in a Silo.
-old-location: kernel\pscreatesilocontext.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/20/2023
 keywords: ["PsCreateSiloContext function"]
 ms.keywords: PsCreateSiloContext, PsCreateSiloContext routine [Kernel-Mode Driver Architecture], kernel.pscreatesilocontext, ntddk/PsCreateSiloContext
 req.header: ntddk.h
@@ -42,32 +41,27 @@ api_name:
 
 # PsCreateSiloContext function
 
-
 ## -description
 
-This routine  creates an object that will be inserted in a <i>Silo</i>.
+This routine  creates an object that will be inserted in a *Silo*.
 
 ## -parameters
 
 ### -param Silo [in]
 
-
-A pointer to a silo.  This parameter is required and it cannot be <b>NULL</b>.
+A pointer to a silo.  This parameter is required and it cannot be **NULL**.
 
 ### -param Size [in]
-
 
 The size, in bytes, of the portion of the object defined by the caller.
 
 ### -param PoolType [in]
 
-
-The type of pool to allocate from. This parameter is required and must be one of the following: <b>NonPagedPoolNx</b> or <b>PagedPool</b>.
+The type of pool to allocate from. This parameter is required and must be one of the following: **NonPagedPoolNx** or **PagedPool**.
 
 ### -param ContextCleanupCallback [in, optional]
 
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-silo_context_cleanup_callback">SILO_CONTEXT_CLEANUP_CALLBACK</a> callback function. The function will be called when the returned object has zero references to it. This parameter is optional and can be <b>NULL</b>.
+A pointer to a [SILO_CONTEXT_CLEANUP_CALLBACK](/windows-hardware/drivers/ddi/ntddk/nc-ntddk-silo_context_cleanup_callback) callback function. The function will be called when the returned object has zero references to it. This parameter is optional and can be **NULL**.
 
 ### -param ReturnedSiloContext
 
@@ -77,42 +71,8 @@ A pointer to a caller-allocated variable that receives the address of the newly 
 
 The following NT status codes are returned.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES </b></dt>
-</dl>
-</td>
-<td width="60%">
-The routine encountered a pool allocation failure. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The pool type is not valid. This is an error code.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation completed successfully.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|--|--|
+| **STATUS_INSUFFICIENT_RESOURCES** | The routine encountered a pool allocation failure. This is an error code. |
+| **STATUS_INVALID_PARAMETER** | The pool type is not valid. This is an error code. |
+| **STATUS_SUCCESS** | The operation completed successfully. |

@@ -3,14 +3,14 @@ UID: NC:d3dkmthk.PDXGK_SET_SHARED_POWER_COMPONENT_STATE
 title: PDXGK_SET_SHARED_POWER_COMPONENT_STATE (d3dkmthk.h)
 description: A callback to indicate whether the specified power component is active.
 old-location: display\pdxgk_set_shared_power_component_state.htm
-ms.date: 04/16/2018
+ms.date: 10/07/2022
 keywords: ["PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback function"]
 ms.keywords: PDXGK_SET_SHARED_POWER_COMPONENT_STATE, PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback, PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback function [Display Devices], d3dkmthk/PDXGK_SET_SHARED_POWER_COMPONENT_STATE, display.pdxgk_set_shared_power_component_state
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -22,9 +22,10 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: <= APC_LEVEL
 targetos: Windows
 tech.root: display
+ms.custom: engagement-fy23
 req.typenames: 
 f1_keywords:
  - PDXGK_SET_SHARED_POWER_COMPONENT_STATE
@@ -41,7 +42,6 @@ api_name:
 ---
 
 # PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback function
-
 
 ## -description
 
@@ -68,4 +68,3 @@ Specifies whether the shared power component state is active.
 ## -returns
 
 Return STATUS_SUCCESS if the call succeeds.
-

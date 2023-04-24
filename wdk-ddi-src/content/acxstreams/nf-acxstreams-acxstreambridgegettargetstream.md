@@ -2,9 +2,9 @@
 UID: NF:acxstreams.AcxStreamBridgeGetTargetStream
 tech.root: audio
 title: AcxStreamBridgeGetTargetStream
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
-description: The AcxStreamBridgeGetTargetStream function gets the stream associated with a specific ACXSTREAMBRIDGE object. 
+description: The AcxStreamBridgeGetTargetStream function gets the stream associated with a specific ACXSTREAMBRIDGE object.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxStreamBridgeGetTargetStream** function gets the ACXTARGETSTREAM object associated with the input ACXSTREAM object on the specified ACXSTREAMBRIDGE object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+The **AcxStreamBridgeGetTargetStream** function gets the ACXTARGETSTREAM object associated with the input ACXSTREAM object on the specified ACXSTREAMBRIDGE object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -parameters
 
@@ -52,7 +52,7 @@ An ACXSTREAMBRIDGE object handle.
 
 ### -param Stream
 
-An ACXSTREAM object handle. An ACXSTREAM object represents an audio stream created by a circuit. 
+An ACXSTREAM object handle. An ACXSTREAM object represents an audio stream created by a circuit.
 
 ## -returns
 
@@ -60,12 +60,11 @@ An ACXTARGETSTREAM object handle.
 
 ## -remarks
 
-An ACXSTREAMBRIDGE object is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments.  This object is only used in a multi-circuit (audio composite) scenario.
+An ACXSTREAMBRIDGE object is used by a circuit to propagate stream creation, the stream's states transitions and DRM settings between the endpoint's circuit stream segments.  This object is only used in a multi-circuit (audio composite) scenario.
 
-This DDI can only be called from the driver's input stream property handler context. The caller invokes this DDI to manually send I/O to the out-stream of this stream-bridge object. 
+This DDI can only be called from the driver's input stream property handler context. The caller invokes this DDI to manually send I/O to the out-stream of this stream-bridge object.
 
 The returned target stream is only valid in the context of the input stream property handler. Note that the target stream may be already busy sending other I/O (such as state change) as directed by other ks property stream operations.
-
 
 ### Example
 
@@ -77,6 +76,11 @@ Example usage is shown below.
     targetStream = AcxStreamBridgeGetTargetStream(bridge, stream);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

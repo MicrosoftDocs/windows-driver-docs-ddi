@@ -1,10 +1,9 @@
 ---
 UID: NS:wdm._CM_PARTIAL_RESOURCE_LIST
-title: _CM_PARTIAL_RESOURCE_LIST (wdm.h)
+title: CM_PARTIAL_RESOURCE_LIST (wdm.h)
 description: The CM_PARTIAL_RESOURCE_LIST structure specifies a set of system hardware resources, of various types, assigned to a device. This structure is contained within a CM_FULL_RESOURCE_DESCRIPTOR structure.
-old-location: kernel\cm_partial_resource_list.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/06/2023
 keywords: ["CM_PARTIAL_RESOURCE_LIST structure"]
 ms.keywords: "*PCM_PARTIAL_RESOURCE_LIST, CM_PARTIAL_RESOURCE_LIST, CM_PARTIAL_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PCM_PARTIAL_RESOURCE_LIST, PCM_PARTIAL_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], _CM_PARTIAL_RESOURCE_LIST, kernel.cm_partial_resource_list, kstruct_a_26d7ed25-e580-41e2-ae9d-5e06eb263e3d.xml, wdm/CM_PARTIAL_RESOURCE_LIST, wdm/PCM_PARTIAL_RESOURCE_LIST"
 req.header: wdm.h
@@ -46,12 +45,9 @@ api_name:
  - CM_PARTIAL_RESOURCE_LIST
 ---
 
-# _CM_PARTIAL_RESOURCE_LIST structure
-
-
 ## -description
 
-The <b>CM_PARTIAL_RESOURCE_LIST</b> structure specifies a set of system hardware resources, of various types, assigned to a device. This structure is contained within a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_full_resource_descriptor">CM_FULL_RESOURCE_DESCRIPTOR</a> structure.
+The **CM_PARTIAL_RESOURCE_LIST** structure specifies a set of system hardware resources, of various types, assigned to a device. This structure is contained within a [CM_FULL_RESOURCE_DESCRIPTOR](./ns-wdm-_cm_full_resource_descriptor.md) structure.
 
 ## -struct-fields
 
@@ -65,25 +61,20 @@ The revision of this structure. This value should be 1.
 
 ### -field Count
 
-The number of elements contained in the <b>PartialDescriptors</b> array.
+The number of elements contained in the **PartialDescriptors** array.
 
 ### -field PartialDescriptors
 
-The first element in an array of one or more <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structures.
+The first element in an array of one or more [CM_PARTIAL_RESOURCE_DESCRIPTOR](./ns-wdm-_cm_partial_resource_descriptor.md) structures.
 
 ## -remarks
 
-This structure is the header for an array of <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structures. The <b>PartialDescriptors</b> member contains the first element in this array, and the <b>Count</b> member specifies the total number of array elements. If the array contains more than one element, the remaining elements in the array immediately follow the <b>CM_PARTIAL_RESOURCE_LIST</b> structure in memory. The total number of bytes occupied by the <b>CM_PARTIAL_RESOURCE_LIST</b> structure and any array elements that follow this structure is <b>sizeof</b>(<b>CM_PARTIAL_RESOURCE_LIST</b>) + (<b>Count</b> - 1) * <b>sizeof</b>(<b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b>).
+This structure is the header for an array of **CM_PARTIAL_RESOURCE_DESCRIPTOR** structures. The **PartialDescriptors** member contains the first element in this array, and the **Count** member specifies the total number of array elements. If the array contains more than one element, the remaining elements in the array immediately follow the **CM_PARTIAL_RESOURCE_LIST** structure in memory. The total number of bytes occupied by the **CM_PARTIAL_RESOURCE_LIST** structure and any array elements that follow this structure is **sizeof**(**CM_PARTIAL_RESOURCE_LIST**) + (**Count** - 1) * **sizeof**(**CM_PARTIAL_RESOURCE_DESCRIPTOR**).
 
-> [!NOTE]
-> If the last <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> in the <b>CM_PARTIAL_RESOURCE_LIST</b> has a Type of **CmResourceTypeDeviceSpecific**, then you need to add the size of the device specific data block to the total above.
->
+If the last **CM_PARTIAL_RESOURCE_DESCRIPTOR** in the **CM_PARTIAL_RESOURCE_LIST** has a Type of **CmResourceTypeDeviceSpecific**, then you need to add the size of the device specific data block to the total above.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_full_resource_descriptor">CM_FULL_RESOURCE_DESCRIPTOR</a>
+[CM_FULL_RESOURCE_DESCRIPTOR](./ns-wdm-_cm_full_resource_descriptor.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-
+[CM_PARTIAL_RESOURCE_DESCRIPTOR](./ns-wdm-_cm_partial_resource_descriptor.md)

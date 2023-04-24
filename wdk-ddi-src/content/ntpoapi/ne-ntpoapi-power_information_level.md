@@ -1,5 +1,5 @@
 ---
-UID: NE:ntpoapi.__unnamed_enum_2
+UID: NE:ntpoapi.POWER_INFORMATION_LEVEL
 title: POWER_INFORMATION_LEVEL (ntpoapi.h)
 description: Indicates power level information.
 old-location: kernel\power_information_level.htm
@@ -41,6 +41,7 @@ api_name:
 ---
 
 # POWER_INFORMATION_LEVEL enumeration (ntpoapi.h)
+
 
 ## -description
 
@@ -443,3 +444,4 @@ Indicates the black box recorder direct access buffer.
 ### -field PowerInformationLevelMaximum
 
 Indicates the maximum power level.
+

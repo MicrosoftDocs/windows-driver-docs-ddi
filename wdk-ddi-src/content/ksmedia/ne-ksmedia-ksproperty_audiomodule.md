@@ -1,8 +1,8 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_134
+UID: NE:ksmedia.KSPROPERTY_AUDIOMODULE
 tech.root: stream
 title: KSPROPERTY_AUDIOMODULE (ksmedia.h)
-ms.date: 06/13/2022
+ms.date: 03/01/2023
 targetos: Windows
 description: This topic describes the KSPROPERTY_AUDIOMODULE enumeration.
 prerelease: false
@@ -31,7 +31,7 @@ f1_keywords:
 dev_langs:
  - c++
 helpviewer_keywords:
- - __unnamed_enum_134
+ - KSPROPERTY_AUDIOMODULE
 ---
 
 ## -description

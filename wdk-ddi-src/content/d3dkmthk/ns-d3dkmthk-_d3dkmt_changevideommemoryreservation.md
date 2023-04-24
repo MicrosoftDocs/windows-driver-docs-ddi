@@ -48,7 +48,7 @@ Used to change the video memory management reservation.
 
 ## -struct-fields
 
-### -field hProcess [in, opt]
+### -field unnamedParam1 [in, opt]
 
 A handle to a process. If NULL, the current process is used. The process handle must be opened with PROCESS_SET_INFORMATION privileges.
 

@@ -1,10 +1,9 @@
 ---
-UID: NS:ks.__unnamed_struct_14
+UID: NS:ks.KSQUERYBUFFER
 title: KSQUERYBUFFER (ks.h)
 description: The KSQUERYBUFFER structure is used when querying for outstanding buffers available on an event with KSEVENT_TYPE_QUERYBUFFER.
-old-location: stream\ksquerybuffer.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/06/2023
 keywords: ["KSQUERYBUFFER structure"]
 ms.keywords: "*PKSQUERYBUFFER, KSQUERYBUFFER, KSQUERYBUFFER structure [Streaming Media Devices], PKSQUERYBUFFER, PKSQUERYBUFFER structure pointer [Streaming Media Devices], ks-struct_aa45ed01-603d-4452-8862-649a73361c48.xml, ks/KSQUERYBUFFER, ks/PKSQUERYBUFFER, stream.ksquerybuffer"
 req.header: ks.h
@@ -43,22 +42,19 @@ api_name:
  - KSQUERYBUFFER
 ---
 
-# KSQUERYBUFFER structure
-
-
 ## -description
 
-The KSQUERYBUFFER structure is used when querying for outstanding buffers available on an event with KSEVENT_TYPE_QUERYBUFFER<b>.</b>
+The **KSQUERYBUFFER** structure is used when querying for outstanding buffers available on an event with **KSEVENT_TYPE_QUERYBUFFER**.
 
 ## -struct-fields
 
 ### -field Event
 
-Specifies the description of the original event, with the KSEVENT_TYPE_QUERYBUFFER flag set instead of the KSEVENT_TYPE_ENABLEBUFFERED flag.
+Specifies the description of the original event, with the **KSEVENT_TYPE_QUERYBUFFER** flag set instead of the **KSEVENT_TYPE_ENABLEBUFFERED** flag.
 
 ### -field EventData
 
-A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure. This is the same pointer supplied to <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksaddevent">AVStrMiniAddEvent</a> at event enable time. This pointer is used as the unique identifier in locating the event, just as it is used when disabling the event.
+A pointer to a [**KSEVENTDATA**](./ns-ks-kseventdata.md) structure. This is the same pointer supplied to [AVStrMiniAddEvent](./nc-ks-pfnksaddevent.md) at event enable time. This pointer is used as the unique identifier in locating the event, just as it is used when disabling the event.
 
 ### -field Reserved
 
@@ -66,74 +62,22 @@ Not used, and set to zero.
 
 ## -remarks
 
-If KSEVENT_TYPE_ENABLEBUFFERED was used to enable an event that also buffers data, then the data produced by the event can be queried using this method. The description of the event being queried is provided as the first parameter, and any buffer is provided as the second parameter to the query.
+If **KSEVENT_TYPE_ENABLEBUFFERED** was used to enable an event that also buffers data, then the data produced by the event can be queried using this method. The description of the event being queried is provided as the first parameter, and any buffer is provided as the second parameter to the query.
 
-The buffer length needed can be queried by providing a zero length output buffer. The size of buffer is returned in the <b>BytesReturned</b> parameter, with a warning status of STATUS_BUFFER_OVERFLOW.
+The buffer length needed can be queried by providing a zero length output buffer. The size of buffer is returned in the **BytesReturned** parameter, with a warning status of **STATUS_BUFFER_OVERFLOW**.
 
 Alternatively, the query returns one of the following status values:
 
-<table>
-<tr>
-<th>Return Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-STATUS_NOT_FOUND
-
-</td>
-<td>
-event was not found
-
-</td>
-</tr>
-<tr>
-<td>
-STATUS_INVALID_PARAMETER
-
-</td>
-<td>
-it was not being buffered
-
-</td>
-</tr>
-<tr>
-<td>
-STATUS_NO_MORE_ENTRIES
-
-</td>
-<td>
-no buffers were available
-
-</td>
-</tr>
-<tr>
-<td>
-STATUS_BUFFER_TOO_SMALL
-
-</td>
-<td>
-buffer size was insufficient.
-
-</td>
-</tr>
-<tr>
-<td>
-STATUS_SUCCESS
-
-</td>
-<td>
-life is good.
-
-</td>
-</tr>
-</table>
+| Return Value | Description |
+|---|---|
+| STATUS_NOT_FOUND | event was not found |
+| STATUS_INVALID_PARAMETER | it was not being buffered |
+| STATUS_NO_MORE_ENTRIES | no buffers were available |
+| STATUS_BUFFER_TOO_SMALL | buffer size was insufficient. |
+| STATUS_SUCCESS | life is good. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksbuffer_item">KSBUFFER_ITEM</a>
+[**KSBUFFER_ITEM**](./ns-ks-ksbuffer_item.md)
 
-
-
-<a href="/windows-hardware/drivers/stream/ksevent-structure">KSEVENT</a>
-
+[**KSEVENT**](/windows-hardware/drivers/stream/ksevent-structure)

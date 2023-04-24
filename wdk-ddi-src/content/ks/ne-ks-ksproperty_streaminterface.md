@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_23
+UID: NE:ks.KSPROPERTY_STREAMINTERFACE
 title: KSPROPERTY_STREAMINTERFACE (ks.h)
 description: "Learn more about: KSPROPERTY_STREAMINTERFACE enumeration"
 old-location: stream\ksproperty_streaminterface.htm

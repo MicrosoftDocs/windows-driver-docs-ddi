@@ -2,9 +2,8 @@
 UID: NI:usbscan.IOCTL_READ_REGISTERS
 title: IOCTL_READ_REGISTERS (usbscan.h)
 description: Reads from USB device registers, using the control pipe.
-old-location: image\ioctl_read_registers.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 03/08/2023
 keywords: ["IOCTL_READ_REGISTERS IOCTL"]
 ms.keywords: IOCTL_READ_REGISTERS, IOCTL_READ_REGISTERS control, IOCTL_READ_REGISTERS control code [Imaging Devices], image.ioctl_read_registers, stifnc_68af86d1-7d3b-4d2c-a5af-983f0339d71f.xml, usbscan/IOCTL_READ_REGISTERS
 req.header: usbscan.h
@@ -40,9 +39,6 @@ api_name:
  - IOCTL_READ_REGISTERS
 ---
 
-# IOCTL_READ_REGISTERS IOCTL
-
-
 ## -description
 
 Reads from USB device registers, using the control pipe.
@@ -51,7 +47,7 @@ Reads from USB device registers, using the control pipe.
 
 ### -input-buffer
 
-Pointer to an <a href="/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_io_block">IO_BLOCK</a> structure.
+Pointer to an [IO_BLOCK](./ns-usbscan-_io_block.md) structure.
 
 ### -input-buffer-length
 
@@ -63,7 +59,7 @@ Pointer to a buffer to receive register contents.
 
 ### -output-buffer-length
 
-Size of the output buffer. The value must match the contents of the <b>uLength</b> member of the IO_BLOCK structure.
+Size of the output buffer. The value must match the contents of the **uLength** member of the IO_BLOCK structure.
 
 ### -in-out-buffer
 
@@ -71,106 +67,27 @@ Size of the output buffer. The value must match the contents of the <b>uLength</
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
+**Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) code.
 
 ## -remarks
 
-<h3><a id="ddk_ioctl_read_registers_si"></a><a id="DDK_IOCTL_READ_REGISTERS_SI"></a>DeviceIoControl Parameters</h3>
+### DeviceIoControl Parameters
 
+When the **DeviceloControl** function is called with the IOCTL_READ_REGISTERS I/O control code, the caller must specify the address of an [IO_BLOCK](./ns-usbscan-_io_block.md) structure as the function's *lpInBuffer* parameter.
 
-When the <b>DeviceloControl</b> function is called with the IOCTL_READ_REGISTERS I/O control code, the caller must specify the address of an <a href="/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_io_block">IO_BLOCK</a> structure as the function's <i>lpInBuffer</i> parameter.
-
-Using the IO_BLOCK contents, the kernel-mode driver creates a <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> that contains a <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_vendor_or_class_request">_URB_CONTROL_VENDOR_OR_CLASS_REQUEST</a> structure.
+Using the IO_BLOCK contents, the kernel-mode driver creates a [URB](../usb/ns-usb-_urb.md) that contains a [_URB_CONTROL_VENDOR_OR_CLASS_REQUEST](../usb/ns-usb-_urb_control_vendor_or_class_request.md) structure.
 
 The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure members.
 
-<table>
-<tr>
-<th>Structure Member</th>
-<th>Value Assigned</th>
-</tr>
-<tr>
-<td>
-<b>TransferFlags</b>
+| Structure Member | Value Assigned |
+|---|---|
+| **TransferFlags** | 1 |
+| **TransferBufferLength** | *pIoBlock*-\>**uLength** |
+| **TransferBuffer** | [DeviceIoControl](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol)'s *lpOutBuffer* argument. |
+| **TransferBufferMDL** | **NULL** |
+| **RequestTypeReservedBits** | 0xC0 |
+| **Request** | (*pIoBlock*-\>**uLength** \> 1) ? 0x04 : 0x0C |
+| **Value** | (**SHORT**)*pIoBlock*-\>**uOffset** |
+| **Index** | *pIoBlock*-\>**uIndex** |
 
-</td>
-<td>
-1
-
-</td>
-</tr>
-<tr>
-<td>
-<b>TransferBufferLength</b>
-
-</td>
-<td>
-<i>pIoBlock</i>-><b>uLength</b>
-
-</td>
-</tr>
-<tr>
-<td>
-<b>TransferBuffer</b>
-
-</td>
-<td>
-
-<a href="/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>'s <i>lpOutBuffer</i> argument.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>TransferBufferMDL</b>
-
-</td>
-<td>
-<b>NULL</b>
-
-</td>
-</tr>
-<tr>
-<td>
-<b>RequestTypeReservedBits</b>
-
-</td>
-<td>
-0xC0
-
-</td>
-</tr>
-<tr>
-<td>
-<b>Request</b>
-
-</td>
-<td>
-(<i>pIoBlock</i>-><b>uLength</b> > 1) ? 0x04 : 0x0C
-
-</td>
-</tr>
-<tr>
-<td>
-<b>Value</b>
-
-</td>
-<td>
-(<b>SHORT</b>)<i>pIoBlock</i>-><b>uOffset</b>
-
-</td>
-</tr>
-<tr>
-<td>
-<b>Index</b>
-
-</td>
-<td>
-<i>pIoBlock</i>-><b>uIndex</b>
-
-</td>
-</tr>
-</table>
- 
-
-For more information, see <a href="/windows-hardware/drivers/image/accessing-kernel-mode-drivers-for-still-image-devices">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
+For more information, see [Accessing Kernel-Mode Drivers for Still Image Devices](/windows-hardware/drivers/image/accessing-kernel-mode-drivers-for-still-image-devices).

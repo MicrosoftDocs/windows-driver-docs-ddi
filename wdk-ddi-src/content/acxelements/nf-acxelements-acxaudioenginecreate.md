@@ -1,10 +1,10 @@
 ---
 UID: NF:acxelements.AcxAudioEngineCreate
-tech.root: audio 
+tech.root: audio
 title: AcxAudioEngineCreate
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
-description: The AcxAudioEngineCreate function is used to create an audio engine that that will be associated with a circuit WDFDEVICE device object parent. 
+description: The AcxAudioEngineCreate function is used to create an audio engine that that will be associated with a circuit WDFDEVICE device object parent.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxAudioEngineCreate** function is used to create an audio engine that that will be associated with a circuit WDFDEVICE device object parent. 
+The **AcxAudioEngineCreate** function is used to create an audio engine that that will be associated with a circuit WDFDEVICE device object parent.
 
 ## -parameters
 
@@ -93,8 +93,12 @@ Example usage is shown below.
     status = AcxAudioEngineCreate(Circuit, &attributes, &audioEngineCfg, AudioEngine);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-

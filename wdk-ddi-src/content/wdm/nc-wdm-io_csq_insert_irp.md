@@ -2,9 +2,8 @@
 UID: NC:wdm.IO_CSQ_INSERT_IRP
 title: IO_CSQ_INSERT_IRP (wdm.h)
 description: The CsqInsertIrp routine is used by the system to insert an IRP into a driver-implemented, cancel-safe IRP queue.
-old-location: kernel\csqinsertirp.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/09/2023
 keywords: ["IO_CSQ_INSERT_IRP callback function"]
 ms.keywords: CsqInsertIrp, CsqInsertIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_84a81857-afd6-491c-829f-34063a5b1958.xml, IO_CSQ_INSERT_IRP, kernel.csqinsertirp, wdm/CsqInsertIrp
 req.header: wdm.h
@@ -40,47 +39,39 @@ api_name:
  - IO_CSQ_INSERT_IRP
 ---
 
-# IO_CSQ_INSERT_IRP callback function
-
-
 ## -description
 
-The <i>CsqInsertIrp</i> routine is used by the system to insert an IRP into a driver-implemented, cancel-safe IRP queue.
+The *CsqInsertIrp* routine is used by the system to insert an IRP into a driver-implemented, cancel-safe IRP queue.
 
 ## -parameters
 
 ### -param Csq [in]
 
-
-Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure for the cancel-safe IRP queue.
+Pointer to the [IO_CSQ](/windows-hardware/drivers/kernel/eprocess) structure for the cancel-safe IRP queue.
 
 ### -param Irp [in]
-
 
 Pointer to the IRP to insert into the IRP queue.
 
 ## -remarks
 
-The driver specifies the <i>CsqInsertIrp</i> routine for a cancel-safe IRP queue when it initializes the queue's <b>IO_CSQ</b> structure. The driver specifies the routine as the <i>CsqInsertIrp</i> parameter of <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize">IoCsqInitialize</a> when it initializes <b>IO_CSQ</b>. For more information, see <a href="/windows-hardware/drivers/kernel/cancel-safe-irp-queues">Cancel-Safe IRP Queues</a>.
+The driver specifies the *CsqInsertIrp* routine for a cancel-safe IRP queue when it initializes the queue's **IO_CSQ** structure. The driver specifies the routine as the *CsqInsertIrp* parameter of [IoCsqInitialize](./nf-wdm-iocsqinitialize.md) when it initializes **IO_CSQ**. For more information, see [Cancel-Safe IRP Queues](/windows-hardware/drivers/kernel/cancel-safe-irp-queues).
 
-The <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinsertirp">IoCsqInsertIrp</a> and <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinsertirpex">IoCsqInsertIrpEx</a> routines call <i>CsqInsertIrp</i> to insert the IRP into the queue. 
+The [IoCsqInsertIrp](./nf-wdm-iocsqinsertirp.md) and [IoCsqInsertIrpEx](./nf-wdm-iocsqinsertirpex.md) routines call *CsqInsertIrp* to insert the IRP into the queue.
 
+### Examples
 
-#### Examples
+To define a *CsqInsertIrp* callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
-To define a <i>CsqInsertIrp</i> callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+For example, to define a *CsqInsertIrp* callback routine that is named `MyCsqInsertIrp`, use the IO_CSQ_INSERT_IRP type as shown in this code example:
 
-For example, to define a <i>CsqInsertIrp</i> callback routine that is named <code>MyCsqInsertIrp</code>, use the IO_CSQ_INSERT_IRP type as shown in this code example:
-
-
-```
+```cpp
 IO_CSQ_INSERT_IRP MyCsqInsertIrp;
 ```
 
 Then, implement your callback routine as follows:
 
-
-```
+```cpp
 _Use_decl_annotations_
 NTSTATUS
  MyCsqInsertIrp(
@@ -92,59 +83,32 @@ NTSTATUS
   }
 ```
 
-The IO_CSQ_INSERT_IRP function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the IO_CSQ_INSERT_IRP function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
-
-<div class="code"></div>
+The IO_CSQ_INSERT_IRP function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the `_Use_decl_annotations_` annotation to your function definition. The `_Use_decl_annotations_` annotation ensures that the annotations that are applied to the IO_CSQ_INSERT_IRP function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions by Using Function Role Types for WDM Drivers](/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers). For information about `_Use_decl_annotations_`, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock">CsqAcquireLock</a>
+[CsqAcquireLock](./nc-wdm-io_csq_acquire_lock.md)
 
+[CsqCompleteCanceledIrp](./nc-wdm-io_csq_complete_canceled_irp.md)
 
+[CsqInsertIrpEx](./nc-wdm-io_csq_insert_irp_ex.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_complete_canceled_irp">CsqCompleteCanceledIrp</a>
+[CsqPeekNextIrp](./nc-wdm-io_csq_peek_next_irp.md)
 
+[CsqReleaseLock](./nc-wdm-io_csq_release_lock.md)
 
+[CsqRemoveIrp](./nc-wdm-io_csq_remove_irp.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_insert_irp_ex">CsqInsertIrpEx</a>
+[IO_CSQ](/windows-hardware/drivers/kernel/eprocess)
 
+[IoCsqInitialize](./nf-wdm-iocsqinitialize.md)
 
+[IoCsqInitializeEx](./nf-wdm-iocsqinitializeex.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_peek_next_irp">CsqPeekNextIrp</a>
+[IoCsqInsertIrp](./nf-wdm-iocsqinsertirp.md)
 
+[IoCsqInsertIrpEx](./nf-wdm-iocsqinsertirpex.md)
 
+[IoCsqRemoveIrp](./nf-wdm-iocsqremoveirp.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_release_lock">CsqReleaseLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_remove_irp">CsqRemoveIrp</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize">IoCsqInitialize</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex">IoCsqInitializeEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinsertirp">IoCsqInsertIrp</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinsertirpex">IoCsqInsertIrpEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremoveirp">IoCsqRemoveIrp</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp">IoCsqRemoveNextIrp</a>
-
+[IoCsqRemoveNextIrp](./nf-wdm-iocsqremovenextirp.md)

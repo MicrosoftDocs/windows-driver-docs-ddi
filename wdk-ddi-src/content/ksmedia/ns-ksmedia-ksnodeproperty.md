@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_62
+UID: NS:ksmedia.KSNODEPROPERTY
 title: KSNODEPROPERTY (ksmedia.h)
 description: The KSNODEPROPERTY structure specifies a node and a property of that node.
 old-location: audio\ksnodeproperty.htm

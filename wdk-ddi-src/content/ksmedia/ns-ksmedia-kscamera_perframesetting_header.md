@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_131
+UID: NS:ksmedia.KSCAMERA_PERFRAMESETTING_HEADER
 title: KSCAMERA_PERFRAMESETTING_HEADER (ksmedia.h)
 description: This structure contains header information for the per-frame settings payload.
 old-location: stream\kscamera_perframesetting_header.htm

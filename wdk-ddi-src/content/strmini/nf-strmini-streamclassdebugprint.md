@@ -3,7 +3,7 @@ UID: NF:strmini.StreamClassDebugPrint
 title: StreamClassDebugPrint function (strmini.h)
 description: This function (StreamClassDebugPrint) is obsolete.
 tech.root: stream
-ms.date: 04/22/2022
+ms.date: 01/04/2023
 keywords: ["StreamClassDebugPrint function"]
 ms.keywords: StreamClassDebugPrint, StreamClassDebugPrint routine [Streaming Media Devices], strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, stream.streamclassdebugprint, strmini/StreamClassDebugPrint
 req.header: strmini.h
@@ -42,10 +42,9 @@ api_name:
 
 ## -description
 
-> [!NOTE]
-> This function is obsolete.
->
-> Checked builds were available on older versions of Windows, before Windows 10 version 1803. Use tools such as Driver Verifier and GFlags to check driver code in later versions of Windows.
+This function is obsolete.
+
+Checked builds were available on older versions of Windows, before Windows 10 version 1803. Use tools such as Driver Verifier and GFlags to check driver code in later versions of Windows.
 
 ## -parameters
 

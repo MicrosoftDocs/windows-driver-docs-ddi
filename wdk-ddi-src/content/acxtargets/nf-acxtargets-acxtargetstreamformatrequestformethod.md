@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetStreamFormatRequestForMethod
 tech.root: audio
 title: AcxTargetStreamFormatRequestForMethod
-ms.date: 08/01/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetStreamFormatRequestForMethod formats a WDFREQUEST as an ACX method request to be used on specified stream target.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxtargets.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -66,13 +66,12 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 A WDFREQUEST is a driver created I/O requests. Framework-based drivers process each I/O request by calling framework request object methods. For more information, see [Framework Request Objects](/windows-hardware/drivers/wdf/framework-request-objects).
 
-### Example
+### ACX requirements
 
-```cpp
+**Minimum ACX version:** 1.0
 
-```
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 
 - [acxtargets.h header](index.md)
-

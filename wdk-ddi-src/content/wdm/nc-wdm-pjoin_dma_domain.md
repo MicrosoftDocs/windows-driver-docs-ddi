@@ -1,12 +1,12 @@
 ---
 UID: NC:wdm.PJOIN_DMA_DOMAIN
 title: PJOIN_DMA_DOMAIN (wdm.h)
-description: "Learn more about: PJOIN_DMA_DOMAIN callback function"
+description: The PJOIN_DMA_DOMAIN callback function joins the specified DMA domain.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 01/19/2023
 keywords: ["PJOIN_DMA_DOMAIN callback function"]
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
@@ -36,12 +36,9 @@ api_name:
  - PJOIN_DMA_DOMAIN
 ---
 
-# PJOIN_DMA_DOMAIN callback function
-
-
 ## -description
 
-This callback function joins the specified DMA domain.
+The PJOIN_DMA_DOMAIN callback function joins the specified DMA domain.
 
 ## -parameters
 
@@ -55,27 +52,8 @@ The handle to the DMA domain that the caller previous obtained through [*PGET_DM
 
 ## -returns
 
-Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
-
-## -prototype
-
-```cpp
-//Declaration
-
-PJOIN_DMA_DOMAIN PjoinDmaDomain; 
-
-// Definition
-
-NTSTATUS PjoinDmaDomain 
-(
-	PDMA_ADAPTER DmaAdapter
-	HANDLE DomainHandle
-)
-{...}
-
-```
+Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 ## -see-also
-

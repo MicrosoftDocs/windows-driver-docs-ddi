@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_133
+UID: NS:ksmedia.KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER
 title: KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER (ksmedia.h)
 description: The KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER structure contains a NTP-specific payload that is used to set or disable an NTP server on a Onvif protocol camera.
 tech.root: stream
@@ -37,6 +37,7 @@ api_name:
 ---
 
 # KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER structure
+
 
 ## -description
 
@@ -77,3 +78,4 @@ The local PC's NTP server entry is found by parsing the registry value at SYSTEM
 [KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE](ne-ksmedia-ksproperty_networkcameracontrol_ntpinfo_type.md)
 
 [KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY](ne-ksmedia-ksproperty_networkcameracontrol_property.md)
+

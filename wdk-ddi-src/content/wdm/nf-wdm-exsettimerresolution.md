@@ -2,15 +2,14 @@
 UID: NF:wdm.ExSetTimerResolution
 title: ExSetTimerResolution function (wdm.h)
 description: The ExSetTimerResolution routine modifies the frequency at which the system clock interrupts. Use this routine with extreme caution (see the following Remarks section).
-old-location: kernel\exsettimerresolution.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/12/2023
 keywords: ["ExSetTimerResolution function"]
 ms.keywords: ExSetTimerResolution, ExSetTimerResolution routine [Kernel-Mode Driver Architecture], k102_09179649-af93-434f-92e0-844a2bdf34dc.xml, kernel.exsettimerresolution, wdm/ExSetTimerResolution
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -23,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
+req.irql: IRQL <= APC_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -40,60 +39,46 @@ api_name:
  - ExSetTimerResolution
 ---
 
-# ExSetTimerResolution function
-
-
 ## -description
 
-The <b>ExSetTimerResolution</b> routine modifies the frequency at which the system clock interrupts. <u>Use this routine with extreme caution (see the following Remarks section).</u>
+The **ExSetTimerResolution** routine modifies the frequency at which the system clock interrupts. Use this routine with extreme caution (see the following Remarks section).
 
 ## -parameters
 
 ### -param DesiredTime [in]
 
-
-Specifies the amount of time that should elapse between each timer interrupt, in 100-nanosecond units. The minimum value is approximately 10,000 (1 millisecond) but can vary slightly by platform. (This parameter is ignored if <i>SetResolution</i> is <b>FALSE</b>.)
+Specifies the amount of time that should elapse between each timer interrupt, in 100-nanosecond units. The minimum value is approximately 10,000 (1 millisecond) but can vary slightly by platform. (This parameter is ignored if *SetResolution* is **FALSE**.)
 
 ### -param SetResolution [in]
 
-
-If <b>TRUE</b>, the call is a request to set the clock interrupt frequency to the value specified by <i>DesiredTime</i>. If <b>FALSE</b>, the call is a request to restore the clock interrupt frequency to the system's default value, which is platform-specific.
+If **TRUE**, the call is a request to set the clock interrupt frequency to the value specified by *DesiredTime*. If **FALSE**, the call is a request to restore the clock interrupt frequency to the system's default value, which is platform-specific.
 
 ## -returns
 
-<b>ExSetTimerResolution</b> returns the new timer resolution, in 100-nanosecond units.
+**ExSetTimerResolution** returns the new timer resolution, in 100-nanosecond units.
 
 ## -remarks
 
-To set the timer resolution, a driver calls this routine passing <b>TRUE</b> as the parameter for <i>SetResolution</i>. The following rules apply:
+To set the timer resolution, a driver calls this routine passing **TRUE** as the parameter for *SetResolution*. The following rules apply:
 
-<ul>
-<li>
-The routine changes the clock interrupt frequency <u>only</u> if the specified  <i>DesiredTime</i> value is less than the current setting.
+- The routine changes the clock interrupt frequency only if the specified  *DesiredTime* value is less than the current setting.
 
-</li>
-<li>
-If a driver requests a <i>DesiredTime</i> value that is greater than what is currently set, the routine just returns the current setting.
+- If a driver requests a *DesiredTime* value that is greater than what is currently set, the routine just returns the current setting.
 
-</li>
-<li>
-If a driver requests a <i>DesiredTime</i> value that is less than the system clock can support, the routine uses the smallest resolution the system can support, and returns that value.
+- If a driver requests a *DesiredTime* value that is less than the system clock can support, the routine uses the smallest resolution the system can support, and returns that value.
 
-</li>
-</ul>
-If you use this routine to change the clock interrupt frequency, your driver <u>must</u> restore the default interrupt frequency, typically by making the following call before being unloaded:
+If you use this routine to change the clock interrupt frequency, your driver must restore the default interrupt frequency, typically by making the following call before being unloaded:
 
-
-```
+```cpp
 ExSetTimerResolution (0, FALSE);
 ```
 
-(If multiple drivers have attempted to modify the clock interrupt frequency, the system does not restore the default frequency until all of these drivers have called this routine with a <i>SetResolution</i> value of <b>FALSE</b>.)
+If multiple drivers have attempted to modify the clock interrupt frequency, the system does not restore the default frequency until all of these drivers have called this routine with a *SetResolution* value of **FALSE**.
 
-<u>Note that the result of changing the clock interrupt frequency is system-wide and can have a severely negative effect on system performance. Also note that higher clock interrupt frequencies can shorten a system's battery life.</u>
+The result of changing the clock interrupt frequency is system-wide and can have a severely negative effect on system performance. Also note that higher clock interrupt frequencies can shorten a system's battery life.
 
-During the processing of an <a href="/windows-hardware/drivers/kernel/irp-mj-power">IRP_MJ_POWER</a> request, the power manager holds a lock on a resource that <b>ExSetTimerResolution</b> must acquire to complete. Consequently, a deadlock will occur if a driver directly or indirectly calls <b>ExSetTimerResolution</b> while processing a power request, and then waits for the call to <b>ExSetTimerResolution</b> to return before the driver completes the power request. For more information about safely calling <b>ExSetTimerResolution</b> while processing a power IRP, see <a href="/windows-hardware/drivers/kernel/calling-exsettimerresolution-while-processing-a-power-irp">Calling ExSetTimerResolution While Processing a Power IRP</a>.
+During the processing of an [IRP_MJ_POWER](/windows-hardware/drivers/kernel/irp-mj-power) request, the power manager holds a lock on a resource that **ExSetTimerResolution** must acquire to complete. Consequently, a deadlock will occur if a driver directly or indirectly calls **ExSetTimerResolution** while processing a power request, and then waits for the call to **ExSetTimerResolution** to return before the driver completes the power request. For more information about safely calling **ExSetTimerResolution** while processing a power IRP, see [Calling ExSetTimerResolution While Processing a Power IRP](/windows-hardware/drivers/kernel/calling-exsettimerresolution-while-processing-a-power-irp).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>
+[KeSetTimerEx](./nf-wdm-kesettimerex.md)

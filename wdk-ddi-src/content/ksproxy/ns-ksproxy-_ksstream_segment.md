@@ -2,9 +2,8 @@
 UID: NS:ksproxy._KSSTREAM_SEGMENT
 title: _KSSTREAM_SEGMENT (ksproxy.h)
 description: The KSSTREAM_SEGMENT structure contains information that describes an I/O operation occurring on a stream.
-old-location: stream\ksstream_segment.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/07/2023
 keywords: ["KSSTREAM_SEGMENT structure"]
 ms.keywords: "*PKSSTREAM_SEGMENT, KSSTREAM_SEGMENT, KSSTREAM_SEGMENT structure [Streaming Media Devices], PKSSTREAM_SEGMENT, PKSSTREAM_SEGMENT structure pointer [Streaming Media Devices], _KSSTREAM_SEGMENT, ksproxy/KSSTREAM_SEGMENT, ksproxy/PKSSTREAM_SEGMENT, ksproxy_ce88ef52-d88e-4dc8-952d-53dce519518f.xml, stream.ksstream_segment"
 req.header: ksproxy.h
@@ -46,53 +45,28 @@ api_name:
  - KSSTREAM_SEGMENT
 ---
 
-# _KSSTREAM_SEGMENT structure
-
-
 ## -description
 
-The KSSTREAM_SEGMENT structure contains information that describes an I/O operation occurring on a stream.
+The **KSSTREAM_SEGMENT** structure contains information that describes an I/O operation occurring on a stream.
 
 ## -struct-fields
 
 ### -field KsInterfaceHandler
 
-Pointer to a <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler">IKsInterfaceHandler</a> interface for the I/O operation.
+Pointer to a [IKsInterfaceHandler](./nn-ksproxy-iksinterfacehandler.md) interface for the I/O operation.
 
 ### -field KsDataTypeHandler
 
-Pointer to a <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypehandler">IKsDataTypeHandler</a> interface for the I/O operation.
+Pointer to a [IKsDataTypeHandler](./nn-ksproxy-iksdatatypehandler.md) interface for the I/O operation.
 
 ### -field IoOperation
 
 Value that specifies the type of I/O operation. This value can be one of the following values from the KSIOOPERATION enumerated type:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-<b>KsIoOperation_Write</b>
-
-</td>
-<td>
-Write data to stream.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>KsIoOperation_Read</b>
-
-</td>
-<td>
-Read data from stream.
-
-</td>
-</tr>
-</table>
+| Value | Description |
+|---|---|
+| **KsIoOperation_Write** | Write data to stream. |
+| **KsIoOperation_Read** | Read data from stream. |
 
 ### -field CompletionEvent
 
@@ -100,21 +74,12 @@ Handle to an event that is used to signal that the I/O operation completed.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypehandler">IKsDataTypeHandler</a>
+[IKsDataTypeHandler](./nn-ksproxy-iksdatatypehandler.md)
 
+[IKsInterfaceHandler](./nn-ksproxy-iksinterfacehandler.md)
 
+[IKsInterfaceHandler::KsCompleteIo](./nf-ksproxy-iksinterfacehandler-kscompleteio.md)
 
-<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler">IKsInterfaceHandler</a>
+[IKsInterfaceHandler::KsProcessMediaSamples](./nf-ksproxy-iksinterfacehandler-ksprocessmediasamples.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksinterfacehandler-kscompleteio">IKsInterfaceHandler::KsCompleteIo</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksinterfacehandler-ksprocessmediasamples">IKsInterfaceHandler::KsProcessMediaSamples</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspin-ksmediasamplescompleted">IKsPin::KsMediaSamplesCompleted</a>
-
+[IKsPin::KsMediaSamplesCompleted](./nf-ksproxy-ikspin-ksmediasamplescompleted.md)

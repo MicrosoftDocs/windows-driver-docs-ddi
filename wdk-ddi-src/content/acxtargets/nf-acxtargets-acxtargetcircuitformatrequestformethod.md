@@ -2,7 +2,7 @@
 UID: NF:acxtargets.AcxTargetCircuitFormatRequestForMethod
 tech.root: audio
 title: AcxTargetCircuitFormatRequestForMethod
-ms.date: 08/01/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetCircuitFormatRequestForMethod formats a WDFREQUEST as an ACX method request to be used on specified circuit target.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxtargets.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -83,7 +83,12 @@ A WDFREQUEST is a driver created I/O requests. Framework-based drivers process e
 
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxtargets.h header](index.md)
- 

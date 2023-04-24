@@ -2,9 +2,8 @@
 UID: NC:ntddk.PSHED_PI_INJECT_ERROR
 title: PSHED_PI_INJECT_ERROR (ntddk.h)
 description: A PSHED plug-in's InjectError callback function injects an error into the hardware platform.
-old-location: whea\injecterror.htm
 tech.root: whea
-ms.date: 02/20/2018
+ms.date: 12/06/2022
 keywords: ["PSHED_PI_INJECT_ERROR callback function"]
 ms.keywords: InjectError, InjectError callback function [WHEA Drivers and Applications], PSHED_PI_INJECT_ERROR, PSHED_PI_INJECT_ERROR callback, ntddk/InjectError, whea.injecterror, whearef_377f07ab-4ea0-4982-8298-c7139b4bfdc7.xml
 req.header: ntddk.h
@@ -40,94 +39,63 @@ api_name:
  - PSHED_PI_INJECT_ERROR
 ---
 
-# PSHED_PI_INJECT_ERROR callback function
-
-
 ## -description
 
-A PSHED plug-in's <i>InjectError </i>callback function injects an error into the hardware platform.
+A PSHED plug-in's *InjectError* callback function injects an error into the hardware platform.
 
 ## -parameters
 
 ### -param PluginContext [in, out, optional]
 
-
-A pointer to the context area that was specified in the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure when the PSHED plug-in called the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a> function to register itself with the PSHED.
+A pointer to the context area that was specified in the **Context** member of the [**WHEA_PSHED_PLUGIN_REGISTRATION_PACKET**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet) structure when the PSHED plug-in called the [PshedRegisterPlugin](./nf-ntddk-pshedregisterplugin.md) function to register itself with the PSHED.
 
 ### -param ErrorType [in]
 
-
 The type of error to be injected into the hardware platform. Possible values are:
-
-
-
-
 
 #### INJECT_ERRTYPE_PROCESSOR_CORRECTABLE
 
 A correctable processor error.
 
-
-
 #### INJECT_ERRTYPE_PROCESSOR_UNCORRECTABLENONFATAL
 
 An uncorrectable nonfatal processor error.
-
-
 
 #### INJECT_ERRTYPE_PROCESSOR_UNCORRECTABLEFATAL
 
 An uncorrectable fatal processor error.
 
-
-
 #### INJECT_ERRTYPE_MEMORY_CORRECTABLE
 
 A correctable memory error.
-
-
 
 #### INJECT_ERRTYPE_MEMORY_UNCORRECTABLENONFATAL
 
 An uncorrectable nonfatal memory error.
 
-
-
 #### INJECT_ERRTYPE_MEMORY_UNCORRECTABLEFATAL
 
 An uncorrectable fatal memory error.
-
-
 
 #### INJECT_ERRTYPE_PCIEXPRESS_CORRECTABLE
 
 A correctable PCI Express error.
 
-
-
 #### INJECT_ERRTYPE_PCIEXPRESS_UNCORRECTABLENONFATAL
 
 An uncorrectable nonfatal PCI Express error.
-
-
 
 #### INJECT_ERRTYPE_PCIEXPRESS_UNCORRECTABLEFATAL
 
 An uncorrectable fatal PCI Express error.
 
-
-
 #### INJECT_ERRTYPE_PLATFORM_CORRECTABLE
 
 A correctable platform error.
 
-
-
 #### INJECT_ERRTYPE_PLATFORM_UNCORRECTABLENONFATAL
 
 An uncorrectable nonfatal platform error.
-
-
 
 #### INJECT_ERRTYPE_PLATFORM_UNCORRECTABLEFATAL
 
@@ -135,76 +103,41 @@ An uncorrectable fatal platform error.
 
 ### -param Parameter1 [in]
 
-
 A generic parameter that contains additional data that is passed by the WHEA management application that is injecting the error.
 
 ### -param Parameter2 [in]
-
 
 A generic parameter that contains additional data that is passed by the WHEA management application that is injecting the error.
 
 ### -param Parameter3 [in]
 
-
 A generic parameter that contains additional data that is passed by the WHEA management application that is injecting the error.
 
 ### -param Parameter4 [in]
-
 
 A generic parameter that contains additional data that is passed by the WHEA management application that is injecting the error.
 
 ## -returns
 
-A PSHED plug-in's <i>InjectError</i> callback function returns one of the following NTSTATUS codes:
+A PSHED plug-in's *InjectError* callback function returns one of the following NTSTATUS codes:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The error was successfully injected into the hardware platform.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>
-</td>
-<td width="60%">
-An error occurred.
-
-<div class="alert"><b>Note</b>  For injected errors that are fatal or otherwise unrecoverable, this callback function might not return before the operating system generates a bug check in response to the error condition.</div>
-<div> </div>
-</td>
-</tr>
-</table>
+| Return code | Description |
+|---|---|
+| **STATUS_SUCCESS** | The error was successfully injected into the hardware platform. |
+| **STATUS_UNSUCCESSFUL** | An error occurred. For injected errors that are fatal or otherwise unrecoverable, this callback function might not return before the operating system generates a bug check in response to the error condition. |
 
 ## -remarks
 
-A PSHED plug-in that participates in error injection sets the <b>Callbacks.GetInjectionCapabilities </b>and <b>Callbacks.InjectError </b>members of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure to point to its <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_get_injection_capabilities">GetInjectionCapabilities</a> and <i>InjectError</i> callback functions when the plug-in calls the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a> function to register itself with the PSHED. The PSHED plug-in must also set the <b>PshedFAErrorInjection</b> flag in the <b>FunctionalAreaMask</b> member of the WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure.
+A PSHED plug-in that participates in error injection sets the **Callbacks.GetInjectionCapabilities** and **Callbacks.InjectError** members of the [**WHEA_PSHED_PLUGIN_REGISTRATION_PACKET**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet) structure to point to its [GetInjectionCapabilities](./nc-ntddk-pshed_pi_get_injection_capabilities.md) and *InjectError* callback functions when the plug-in calls the [PshedRegisterPlugin](./nf-ntddk-pshedregisterplugin.md) function to register itself with the PSHED. The PSHED plug-in must also set the **PshedFAErrorInjection** flag in the **FunctionalAreaMask** member of the WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure.
 
-When a WHEA management application makes a request to inject a hardware error, the Windows kernel calls into the PSHED to inject the error into the hardware platform. If a PSHED plug-in is registered to participate in error injection, the PSHED calls the PSHED plug-in's <i>InjectError </i>callback function to perform the error injection operation.
+When a WHEA management application makes a request to inject a hardware error, the Windows kernel calls into the PSHED to inject the error into the hardware platform. If a PSHED plug-in is registered to participate in error injection, the PSHED calls the PSHED plug-in's *InjectError* callback function to perform the error injection operation.
 
-The WHEA management application that is injecting the error can pass additional error-specific data to the PSHED plug-in's <i>InjectError </i>callback function by using parameters <i>Parameter1</i> through <i>Parameter4</i>. For example, on Itanium-based systems, some of the error injection operations require an accompanying address. In this situation, the WHEA management application can pass the address to the PSHED plug-in's <i>InjectError </i>callback function using one of these parameters.
+The WHEA management application that is injecting the error can pass additional error-specific data to the PSHED plug-in's *InjectError* callback function by using parameters *Parameter1* through *Parameter4*. For example, on Itanium-based systems, some of the error injection operations require an accompanying address. In this situation, the WHEA management application can pass the address to the PSHED plug-in's *InjectError* callback function using one of these parameters.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_get_injection_capabilities">GetInjectionCapabilities</a>
+[GetInjectionCapabilities](./nc-ntddk-pshed_pi_get_injection_capabilities.md)
 
+[PshedRegisterPlugin](./nf-ntddk-pshedregisterplugin.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
-
+[**WHEA_PSHED_PLUGIN_REGISTRATION_PACKET**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet)

@@ -76,7 +76,7 @@ Example usage is shown below.
 
 ```cpp
             //
-            // Format and send the request. 
+            // Format and send the request.
             //
             ACX_REQUEST_PARAMETERS_INIT_METHOD(
                 &params,
@@ -90,7 +90,12 @@ Example usage is shown below.
                 );
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxrequest.h header](index.md)
-

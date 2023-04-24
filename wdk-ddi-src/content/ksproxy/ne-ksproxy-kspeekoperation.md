@@ -1,5 +1,5 @@
 ---
-UID: NE:ksproxy.__unnamed_enum_6
+UID: NE:ksproxy.KSPEEKOPERATION
 title: KSPEEKOPERATION (ksproxy.h)
 description: "Learn more about: KSPEEKOPERATION enumeration"
 old-location: stream\kspeekoperation.htm

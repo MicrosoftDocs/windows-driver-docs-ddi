@@ -1,5 +1,5 @@
 ---
-UID: NS:storport.__unnamed_struct_10
+UID: NS:storport.PRI_RESERVATION_DESCRIPTOR
 title: PRI_RESERVATION_DESCRIPTOR (storport.h)
 description: The PRI_RESERVATION_DESCRIPTOR structure (storport.h) describes a persistent reservation that is active within a device server.
 old-location: storage\pri_reservation_descriptor.htm

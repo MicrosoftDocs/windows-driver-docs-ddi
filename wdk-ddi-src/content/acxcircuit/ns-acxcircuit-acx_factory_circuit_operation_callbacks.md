@@ -50,7 +50,7 @@ The **ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS** structure identifies the driver 
 
 ### -field Size
 
-The length, in bytes, of this structure. 
+The length, in bytes, of this structure.
 
 ### -field EvtAcxFactoryCircuitCreateCircuitDevice
 
@@ -84,7 +84,12 @@ Example usage is shown below.
 
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

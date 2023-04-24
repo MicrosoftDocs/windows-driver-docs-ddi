@@ -4,7 +4,7 @@ title: ScsiPortLogError function (srb.h)
 description: The ScsiPortLogError routine logs errors to the system event log when a miniport driver or its HBA detects a SCSI error condition.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportlogerror.htm
 tech.root: storage
-ms.date: 08/17/2022
+ms.date: 08/31/2022
 keywords: ["ScsiPortLogError function"]
 ms.keywords: ScsiPortLogError, ScsiPortLogError routine [Storage Devices], scsiprt_5d3ec5ab-07f8-47d1-ab0c-363639c1e8aa.xml, srb/ScsiPortLogError, storage.scsiportlogerror
 req.header: srb.h
@@ -103,4 +103,4 @@ A miniport driver should log all real hardware errors. However, it should not lo
 
 ## -see-also
 
-[**ScsiPortNotification**](/nf-srb-scsiportnotification.md)
+[**ScsiPortNotification**](nf-srb-scsiportnotification.md)

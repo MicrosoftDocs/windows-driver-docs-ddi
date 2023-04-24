@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_55
+UID: NS:ks.KSFRAMETIME
 title: KSFRAMETIME (ks.h)
 description: The KSFRAMETIME structure is supported by rendering pins, and is used to return the duration of the next frame of data, and flags associated with that frame.
 old-location: stream\ksframetime.htm

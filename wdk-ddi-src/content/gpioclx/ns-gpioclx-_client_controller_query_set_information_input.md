@@ -56,7 +56,7 @@ The **CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT** structure contains a reque
 
 ### -field RequestType
 
-The type of attribute information that is being requested. This member is set to a [CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE](/windows-hardware/drivers/ddi/gpioclx/ne-gpioclx-_client_controller_query_set_request_type) enumeration value.
+The type of attribute information that is being requested. This member is set to a [CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE](./ne-gpioclx-_client_controller_query_set_request_type.md) enumeration value.
 
 ### -field Size
 
@@ -72,7 +72,7 @@ A structure that contains information about the GPIO bank whose power attributes
 
 ### -field BankPowerInformation.BankId
 
-The identifier for a bank of GPIO pins. If M is the number of banks in the GPIO controller, **BankId** is an integer in the range 0 to M–1\. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the [CLIENT_QueryControllerBasicInformation](/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_controller_basic_information) event callback function. For more information, see Remarks in [CLIENT_CONTROLLER_BASIC_INFORMATION](/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information).
+The identifier for a bank of GPIO pins. If M is the number of banks in the GPIO controller, **BankId** is an integer in the range 0 to M–1\. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the [CLIENT_QueryControllerBasicInformation](./nc-gpioclx-gpio_client_query_controller_basic_information.md) event callback function. For more information, see Remarks in [CLIENT_CONTROLLER_BASIC_INFORMATION](./ns-gpioclx-_client_controller_basic_information.md).
 
 ### -field BankInterruptBinding
 
@@ -88,7 +88,7 @@ A handle to a framework resource-list object that identifies the raw hardware re
 
 ### -field BankInterruptBinding.TotalBanks
 
-The number of banks in the GPIO controller. This member indicates the expected length of the **BankInterruptBinding.ResourceMapping** array in the caller-allocated [CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT](/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_query_set_information_output) structure, if the caller supplies a non-NULL pointer to this structure.
+The number of banks in the GPIO controller. This member indicates the expected length of the **BankInterruptBinding.ResourceMapping** array in the caller-allocated [CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT](./ns-gpioclx-_client_controller_query_set_information_output.md) structure, if the caller supplies a non-NULL pointer to this structure.
 
 ### -field ControllerFunctionBankMapping
 
@@ -108,7 +108,7 @@ The size, in bytes, of the output buffer for the IOCTL.
 
 ### -field ControllerFunctionBankMapping.TotalBanks
 
-The number of banks in the GPIO controller. This member indicates the expected length of the **ControllerFunctionBankMapping.Mapping** array in the caller-allocated [CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT](/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_query_set_information_output) structure, if the caller supplies a non-NULL pointer to this structure.
+The number of banks in the GPIO controller. This member indicates the expected length of the **ControllerFunctionBankMapping.Mapping** array in the caller-allocated [CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT](./ns-gpioclx-_client_controller_query_set_information_output.md) structure, if the caller supplies a non-NULL pointer to this structure.
 
 ## -remarks
 
@@ -120,11 +120,11 @@ The unnamed union contains input information for the various types of attribute 
 | QueryBankInterruptBindingInformation | BankInterruptBinding |
 | QueryControllerFunctionBankMappingInformation | ControllerFunctionBankMapping |
 
-The *InputBuffer* parameter of the [CLIENT_QuerySetControllerInformation](/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_set_controller_information) function is a pointer to a **CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT** structure.
+The *InputBuffer* parameter of the [CLIENT_QuerySetControllerInformation](./nc-gpioclx-gpio_client_query_set_controller_information.md) function is a pointer to a **CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT** structure.
 
 ## -see-also
 
-- [CLIENT_CONTROLLER_BASIC_INFORMATION](/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information)
-- [CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT](/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_query_set_information_output)
-- [CLIENT_QueryControllerBasicInformation](/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_controller_basic_information)
-- [CLIENT_QuerySetControllerInformation](/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_set_controller_information)
+- [CLIENT_CONTROLLER_BASIC_INFORMATION](./ns-gpioclx-_client_controller_basic_information.md)
+- [CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT](./ns-gpioclx-_client_controller_query_set_information_output.md)
+- [CLIENT_QueryControllerBasicInformation](./nc-gpioclx-gpio_client_query_controller_basic_information.md)
+- [CLIENT_QuerySetControllerInformation](./nc-gpioclx-gpio_client_query_set_controller_information.md)

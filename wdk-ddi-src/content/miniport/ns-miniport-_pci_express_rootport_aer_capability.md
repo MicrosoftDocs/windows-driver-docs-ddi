@@ -2,9 +2,8 @@
 UID: NS:miniport._PCI_EXPRESS_ROOTPORT_AER_CAPABILITY
 title: PCI_EXPRESS_ROOTPORT_AER_CAPABILITY (miniport.h)
 description: The _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure (miniport.h) describes a PCI Express (PCIe) advanced error reporting capability structure.
-old-location: pci\pci_express_rootport_aer_capability.htm
 tech.root: PCI
-ms.date: 01/09/2022
+ms.date: 01/04/2023
 keywords: ["PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure"]
 ms.keywords: "*PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PCI.pci_express_rootport_aer_capability, PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure [Buses], PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure pointer [Buses], _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, pci_struct_f65551d3-2213-468e-aa94-508b29c11844.xml, wdm/PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, wdm/PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY"
 req.header: miniport.h
@@ -46,8 +45,6 @@ api_name:
  - PCI_EXPRESS_ROOTPORT_AER_CAPABILITY
 ---
 
-# PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure (miniport.h)
-
 ## -description
 
 The **PCI_EXPRESS_ROOTPORT_AER_CAPABILITY** structure describes a PCI Express (PCIe) advanced error reporting capability structure for a root port or a root complex event collector.
@@ -86,9 +83,7 @@ A [**PCI_EXPRESS_AER_CAPABILITIES**](../wdm/ns-wdm-_pci_express_aer_capabilities
 
 An array of four 32-bit values that together contain the header for the transaction layer packet (TLP) that corresponds to a detected error.
 
-> [!NOTE]
->
-> Within each 32-bit value in the array, the bytes of the TLP are in big-endian byte order.
+Within each 32-bit value in the array, the bytes of the TLP are in big-endian byte order.
 
 ### -field RootErrorCommand
 

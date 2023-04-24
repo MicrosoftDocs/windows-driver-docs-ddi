@@ -6,7 +6,7 @@ title: wificxpoweroffloadlist
 ms.date: 09/14/2021
 keywords: ["Wificxpoweroffloadlist.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 f1_keywords:
  - wificxpoweroffloadlist
  - wificxpoweroffloadlist/wificxpoweroffloadlist

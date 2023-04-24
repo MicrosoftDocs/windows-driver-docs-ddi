@@ -2,10 +2,10 @@
 description: "Learn more about: Prnasntp.h header"
 UID: NA:prnasntp
 title: Prnasntp.h header
-ms.date: 06/12/2021
+ms.date: 03/02/2023
 keywords: ["Prnasntp.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: print
 f1_keywords:
  - prnasntp

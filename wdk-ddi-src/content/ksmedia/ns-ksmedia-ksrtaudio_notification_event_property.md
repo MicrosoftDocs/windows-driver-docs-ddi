@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_32
+UID: NS:ksmedia.KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY
 title: KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY (ksmedia.h)
 description: The KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure appends an event handle to a KSPROPERTY structure
 old-location: audio\ksrtaudio_notification_event_property.htm

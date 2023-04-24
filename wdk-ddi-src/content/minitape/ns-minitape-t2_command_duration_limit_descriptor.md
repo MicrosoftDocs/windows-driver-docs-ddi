@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **T2_COMMAND_DURATION_LIMIT_DESCRIPTOR** structure describes the command duration limit (CDL) information that corresponds to one **T2CommandDurationLimitDescriptors** index in a [**MODE_COMMAND_DURATION_LIMIT_PAGE_T2A_SUBPAGE**](ns-minitape-mode_command_duration_limit_page_t2a_subpage.md) and [**MODE_COMMAND_DURATION_LIMIT_PAGE_T2B_SUBPAGE**](ns-minitape-mode_command_duration_limit_page_t2b_subpage.md) structure. See Table 459 (T2 Command Duration Limit Descriptor format) in the [T10 SCSI Primary Commands specification (SPC-6)](https://www.t10.org/members/w_spc6.htm) for details.
+The **T2_COMMAND_DURATION_LIMIT_DESCRIPTOR** structure describes the command duration limit (CDL) information that corresponds to one **T2CommandDurationLimitDescriptors** index in a [**MODE_COMMAND_DURATION_LIMIT_PAGE_T2A_SUBPAGE**](ns-minitape-mode_command_duration_limit_page_t2a_subpage.md) and [**MODE_COMMAND_DURATION_LIMIT_PAGE_T2B_SUBPAGE**](ns-minitape-mode_command_duration_limit_page_t2b_subpage.md) structure. See Table 459 (T2 Command Duration Limit Descriptor format) in the T10 SCSI Primary Commands specification (SPC-6) for details.
 
 ## -struct-fields
 
@@ -112,7 +112,7 @@ Reserved.
 
 ## -remarks
 
-See Table 459 in Section 7.5.11.2 of the [T10 SCSI Primary Commands specification (SPC-6)](https://www.t10.org/members/w_spc6.htm) for details.
+See Table 459 in Section 7.5.11.2 of the T10 SCSI Primary Commands specification (SPC-6) for details.
 
 ## -see-also
 

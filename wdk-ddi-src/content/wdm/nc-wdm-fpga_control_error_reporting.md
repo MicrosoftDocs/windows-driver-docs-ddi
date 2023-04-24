@@ -2,11 +2,11 @@
 UID: NC:wdm.FPGA_CONTROL_ERROR_REPORTING
 title: FPGA_CONTROL_ERROR_REPORTING (wdm.h)
 description: Reserved for future use. Toggles the error reporting for the FPGA device and its parent bridge.
-ms.date: 10/19/2018
+ms.date: 01/19/2023
 tech.root: kernel
 keywords: ["FPGA_CONTROL_ERROR_REPORTING callback function"]
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
@@ -36,12 +36,10 @@ api_name:
  - FPGA_CONTROL_ERROR_REPORTING
 ---
 
-# FPGA_CONTROL_ERROR_REPORTING callback function
-
-
 ## -description
 
 Reserved for future use.
+
 Toggles the error reporting for the FPGA device and its parent bridge.
 
 ## -parameters
@@ -65,29 +63,6 @@ A flag indicates whether the error reporting is being disabled or enabled.
 ## -returns
 
 Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
-
-## -prototype
-
-```cpp
-//Declaration
-
-FPGA_CONTROL_ERROR_REPORTING FpgaControlErrorReporting; 
-
-// Definition
-
-NTSTATUS FpgaControlErrorReporting 
-(
-	PVOID Context
-	ULONG UncorrectableMask
-	ULONG CorrectableMask
-	BOOLEAN DisableErrorReporting
-)
-{...}
-
-FPGA_CONTROL_ERROR_REPORTING *PFPGA_CONTROL_ERROR_REPORTING
-
-
-```
 
 ## -remarks
 

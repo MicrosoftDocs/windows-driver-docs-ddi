@@ -2,15 +2,14 @@
 UID: NC:ntddk.PSHED_PI_CLEAR_ERROR_RECORD
 title: PSHED_PI_CLEAR_ERROR_RECORD (ntddk.h)
 description: A PSHED plug-in's ClearErrorRecord callback function clears the specified error record from the system's persistent data storage.
-old-location: whea\clearerrorrecord.htm
 tech.root: whea
-ms.date: 02/20/2018
+ms.date: 04/17/2023
 keywords: ["PSHED_PI_CLEAR_ERROR_RECORD callback function"]
 ms.keywords: ClearErrorRecord, ClearErrorRecord callback function [WHEA Drivers and Applications], PSHED_PI_CLEAR_ERROR_RECORD, PSHED_PI_CLEAR_ERROR_RECORD callback, ntddk/ClearErrorRecord, whea.clearerrorrecord, whearef_1644b60c-c232-4cca-805b-d6a061425f61.xml
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
-req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,86 +39,47 @@ api_name:
  - PSHED_PI_CLEAR_ERROR_RECORD
 ---
 
-# PSHED_PI_CLEAR_ERROR_RECORD callback function
-
-
 ## -description
 
-A PSHED plug-in's <i>ClearErrorRecord </i>callback function clears the specified error record from the system's persistent data storage.
+A PSHED plug-in's *ClearErrorRecord* callback function clears the specified error record from the system's persistent data storage.
 
 ## -parameters
 
 ### -param PluginContext [in, out, optional]
 
-
-A pointer to the context area that was specified in the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure when the PSHED plug-in called the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a> function to register itself with the PSHED.
+A pointer to the context area that was specified in the **Context** member of the [WHEA_PSHED_PLUGIN_REGISTRATION_PACKET](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet) structure when the PSHED plug-in called the [PshedRegisterPlugin](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin) function to register itself with the PSHED.
 
 ### -param Flags [in]
-
 
 A bit-wise OR'ed combination of flags that affect the clear operation. No flags are currently defined.
 
 ### -param ErrorRecordId [in]
 
-
-The identifier of the error record that is being cleared from the system's persistent data storage. This identifier should be compared to the <b>Header.RecordId</b> member of each <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a> structure that has been written to the system's persistent data storage to identify the error record to be cleared.
+The identifier of the error record that is being cleared from the system's persistent data storage. This identifier should be compared to the **Header.RecordId** member of each [WHEA_ERROR_RECORD](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record) structure that has been written to the system's persistent data storage to identify the error record to be cleared.
 
 ## -returns
 
-A PSHED plug-in's <i>ClearErrorRecord</i> callback function returns one of the following NTSTATUS codes:
+A PSHED plug-in's *ClearErrorRecord* callback function returns one of the following NTSTATUS codes:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The error record was successfully cleared from the system's persistent data storage.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>
-</td>
-<td width="60%">
-An error occurred.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|--|--|
+| **STATUS_SUCCESS** | The error record was successfully cleared from the system's persistent data storage. |
+| **STATUS_UNSUCCESSFUL** | An error occurred. |
 
 ## -remarks
 
-A PSHED plug-in that participates in error record persistence sets the <b>Callbacks.WriteErrorRecord</b>, <b>Callbacks.ReadErrorRecord </b>and <b>Callbacks.ClearErrorRecord </b>members of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure to point to its <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_write_error_record">WriteErrorRecord</a>, <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_read_error_record">ReadErrorRecord</a>, and <i>ClearErrorRecord</i> callback functions when the plug-in calls the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a> function to register itself with the PSHED. The PSHED plug-in must also set the <b>PshedFAErrorRecordPersistence</b> flag in the <b>FunctionalAreaMask</b> member of the WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure.
+A PSHED plug-in that participates in error record persistence sets the **Callbacks.WriteErrorRecord**, **Callbacks.ReadErrorRecord** and **Callbacks.ClearErrorRecord** members of the [**WHEA_PSHED_PLUGIN_REGISTRATION_PACKET**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet) structure to point to its [WriteErrorRecord](/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_write_error_record), [ReadErrorRecord](/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_read_error_record), and *ClearErrorRecord* callback functions when the plug-in calls the [PshedRegisterPlugin](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin) function to register itself with the PSHED. The PSHED plug-in must also set the **PshedFAErrorRecordPersistence** flag in the **FunctionalAreaMask** member of the WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure.
 
-The Windows kernel calls into the PSHED to clear an error record from the system's persistent data storage. If a PSHED plug-in is registered to participate in error record persistence, the PSHED calls the PSHED plug-in's <i>ClearErrorRecord</i> callback function to perform the clear operation. The mechanism that is used to clear the error record from the system's persistent data storage is platform-specific.
+The Windows kernel calls into the PSHED to clear an error record from the system's persistent data storage. If a PSHED plug-in is registered to participate in error record persistence, the PSHED calls the PSHED plug-in's *ClearErrorRecord* callback function to perform the clear operation. The mechanism that is used to clear the error record from the system's persistent data storage is platform-specific.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a>
+[PshedRegisterPlugin](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin)
 
+[ReadErrorRecord](/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_read_error_record)
 
+[**WHEA_ERROR_RECORD**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record)
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_read_error_record">ReadErrorRecord</a>
+[**WHEA_PSHED_PLUGIN_REGISTRATION_PACKET**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_write_error_record">WriteErrorRecord</a>
-
+[WriteErrorRecord](/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_write_error_record)

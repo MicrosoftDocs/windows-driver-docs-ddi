@@ -10,7 +10,7 @@ ms.keywords: "*PFILE_ACCESS_INFORMATION, FILE_ACCESS_INFORMATION, FILE_ACCESS_IN
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
-req.target-min-winverclnt: Supported in Windows XP and later versions of Windows.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

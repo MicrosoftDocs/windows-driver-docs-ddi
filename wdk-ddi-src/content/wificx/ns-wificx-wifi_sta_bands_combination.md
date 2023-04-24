@@ -1,10 +1,10 @@
 ---
-UID: NS:wificx.__unnamed_struct_0
+UID: NS:wificx.WIFI_STA_BANDS_COMBINATION
 tech.root: netvista
 title: WIFI_STA_BANDS_COMBINATION (wificx.h)
 ms.date: 09/07/2021
 targetos: Windows
-description: The WIFI_STA_BANDS_COMBINATION structure contains a list of band IDs that are available for secondary STA connections. 
+description: The WIFI_STA_BANDS_COMBINATION structure contains a list of band IDs that are available for secondary STA connections.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

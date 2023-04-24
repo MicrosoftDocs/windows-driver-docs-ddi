@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_29
+UID: NS:gnssdriver.GNSS_GEOFENCES_TRACKINGSTATUS_DATA
 title: GNSS_GEOFENCES_TRACKINGSTATUS_DATA (gnssdriver.h)
 description: The GNSS_GEOFENCES_TRACKINGSTATUS_DATA structure is used by the GNSS engine to notify of any changes in the tracking status while tracking a set of previously created geofences.
 tech.root: gnss
@@ -73,3 +73,4 @@ Padding buffer reserved for future use.
 ## -remarks
 
 The GNSS engine must not raise  events when it is not tracking any mobile-originated geofences (but tracking network-initiated Geofences), or when the geofence tracking has been reset by the GNSS_ResetGeofenceTracking command.
+

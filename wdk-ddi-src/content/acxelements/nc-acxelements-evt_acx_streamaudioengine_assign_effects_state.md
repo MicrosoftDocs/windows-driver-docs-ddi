@@ -1,10 +1,10 @@
 ---
 UID: NC:acxelements.EVT_ACX_STREAMAUDIOENGINE_ASSIGN_EFFECTS_STATE
-tech.root: audio 
+tech.root: audio
 title: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_EFFECTS_STATE
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
-description: The EVT_ACX_STREAMAUDIOENGINE_ASSIGN_EFFECTS_STATE callback function is implemented by the driver and is called when the local effects state is set for a stream audio engine node. 
+description: The EVT_ACX_STREAMAUDIOENGINE_ASSIGN_EFFECTS_STATE callback function is implemented by the driver and is called when the local effects state is set for a stream audio engine node.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -79,10 +79,16 @@ DspR_EvtAcxStreamAudioEngineAssignEffectsState(
     pStreamAudioEngineCtx = GetCodecStreamAudioEngineContext(StreamAudioEngine);
 
     pStreamAudioEngineCtx->LFxEnabled = (BOOLEAN)State;
-    
+
     return STATUS_SUCCESS;
 }
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

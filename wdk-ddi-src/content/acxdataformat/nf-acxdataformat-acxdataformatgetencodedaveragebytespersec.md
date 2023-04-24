@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetEncodedAverageBytesPerSec
 tech.root: audio
 title: AcxDataFormatGetEncodedAverageBytesPerSec
-ms.date: 05/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetEncodedAverageBytesPerSec function gets the required bytes-per-second transfer rate for the specified encoded data format.
 prerelease: true
@@ -11,7 +11,7 @@ req.construct-type: function
 req.ddi-compliance: 
 req.dll: 
 req.header: acxdataformat.h
-req.idl: 
+req.idl: <= DISPATCH_LEVEL
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
@@ -56,8 +56,13 @@ Returns a ULONG value that contains the required bytes-per-second transfer rate 
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [Representing Formats for IEC 61937 Transmissions](/windows/win32/coreaudio/representing-formats-for-iec-61937-transmissions)
 - [acxdataformat.h header](index.md)
-

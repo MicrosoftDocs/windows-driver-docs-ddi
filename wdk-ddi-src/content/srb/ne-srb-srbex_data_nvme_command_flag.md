@@ -1,5 +1,5 @@
 ---
-UID: NE:srb.__unnamed_enum_3
+UID: NE:srb.SRBEX_DATA_NVME_COMMAND_FLAG
 tech.root: storage
 title: SRBEX_DATA_NVME_COMMAND_FLAG (srb.h)
 ms.date: 05/13/2021
@@ -11,7 +11,7 @@ req.header: srb.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -64,3 +64,4 @@ Reserved for system use; do not use.
 > Currently, data can only be read OR written in one command (SRBEX_DATA_NVME_COMMAND_FLAG_REQUIRE_DATA_TRANSFER_IN | SRBEX_DATA_NVME_COMMAND_FLAG_REQUIRE_DATA_TRANSFER_OUT).
 
 A user specifies these flags in a [**SRBEX_DATA_NVME_COMMAND**](ns-srb-srbex_data_nvme_command.md) structure.
+

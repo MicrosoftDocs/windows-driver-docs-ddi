@@ -1,5 +1,5 @@
 ---
-UID: NE:ntifs.__unnamed_enum_3
+UID: NE:ntifs.OPLOCK_NOTIFY_REASON
 title: _OPLOCK_NOTIFY_REASON (ntifs.h)
 description: OPLOCK_NOTIFY_REASON specifies the reason for calling the notification callback provided to FsRtlCheckOplockEx2.
 tech.root: ifsk

@@ -2,20 +2,20 @@
 UID: NF:ntifs.NtQueryDirectoryFileEx
 tech.root: kernel
 title: NtQueryDirectoryFileEx
-ms.date: 12/01/2021
+ms.date: 10/06/2022
 targetos: Windows
 description: Learn more about NtQueryDirectoryFileEx
 prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
 req.header: ntifs.h
 req.idl: 
 req.include-header: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
 req.kmdf-ver: 
-req.lib: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -38,6 +38,7 @@ f1_keywords:
  - ntifs/NtQueryDirectoryFileEx
 dev_langs:
  - c++
+ms.custom: engagement-fy23
 ---
 
 ## -description

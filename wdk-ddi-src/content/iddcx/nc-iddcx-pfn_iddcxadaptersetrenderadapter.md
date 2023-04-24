@@ -4,7 +4,7 @@ title: PFN_IDDCXADAPTERSETRENDERADAPTER
 description: PFN_IDDCXADAPTERSETRENDERADAPTER is a pointer to an OS callback function that sets the preferred render adapter on which to render the swapchains for the specified adapter.
 tech.root: display
 ms.author: windowsdriverdev
-ms.date: 09/28/2020
+ms.date: 08/26/2022
 keywords: ["PFN_IDDCXADAPTERSETRENDERADAPTER callback pointer"]
 req.header: iddcx.h
 req.include-header: 
@@ -50,17 +50,21 @@ dev_langs:
 
 ## -parameters
 
-### -param DriverGlobals [in]
+### -param DriverGlobals
 
-Pointer to an [**IDD_DRIVER_GLOBALS**](./ns-iddcx-idd_driver_globals.md) structure containing system-defined per-driver data.
+[in] Pointer to an [**IDD_DRIVER_GLOBALS**](./ns-iddcx-idd_driver_globals.md) structure containing system-defined per-driver data.
 
-### -param AdapterObject [in]
+### -param AdapterObject
 
-The adapter object of the adapter for which the rendering adapter preference is being set.
+[in] The adapter object of the adapter for which the rendering adapter preference is being set.
 
-### -param pInArgs [in]
+### -param pInArgs
 
-Input arguments.
+[in] Input arguments.
+
+## -returns
+
+None.
 
 ## -remarks
 

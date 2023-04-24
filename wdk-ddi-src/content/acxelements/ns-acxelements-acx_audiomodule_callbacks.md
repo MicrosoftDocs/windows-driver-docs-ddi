@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_AUDIOMODULE_CALLBACKS
 ms.date: 04/29/2022
 targetos: Windows
-description: The ACX_AUDIOMODULE_CALLBACKS structure identifies the driver callbacks for ACX audio module operations. 
+description: The ACX_AUDIOMODULE_CALLBACKS structure identifies the driver callbacks for ACX audio module operations.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -86,8 +86,12 @@ Example usage is shown below.
     audioModuleCfg.Callbacks = &audioModuleCallbacks;
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
-- [acxelements.h header](index.md)
-
-
+- [acxelements.h header\]\(index.md\)

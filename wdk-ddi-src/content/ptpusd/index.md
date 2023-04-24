@@ -2,11 +2,10 @@
 description: "Learn more about: Ptpusd.h header"
 UID: NA:ptpusd
 title: Ptpusd.h header
-ms.assetid: cc9e1f1e-798a-329b-b235-9673f8a25153
-ms.date: 05/09/2018
+ms.date: 03/02/2023
 keywords: ["Ptpusd.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: image
 f1_keywords:
  - ptpusd
@@ -17,10 +16,8 @@ api_name:
 
 # Ptpusd.h header
 
-
 ## -description
 
 This header is used by image. For more information, see:
 
 - [Imaging devices](../_image/index.md)
-

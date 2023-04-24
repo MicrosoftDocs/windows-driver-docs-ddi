@@ -4,7 +4,7 @@ tech.root: audio
 title: DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME
 ms.date: 06/17/2022
 targetos: Windows
-description: The DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME function declares an ACX object bag property name. 
+description: The DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME function declares an ACX object bag property name.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -63,6 +63,12 @@ This example shows the use of DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME.
 ```cpp
     DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME(VendorX, TestUI4);
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

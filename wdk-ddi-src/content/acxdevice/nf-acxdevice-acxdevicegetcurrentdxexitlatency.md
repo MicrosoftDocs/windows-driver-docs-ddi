@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceGetCurrentDxExitLatency
 tech.root: audio
 title: AcxDeviceGetCurrentDxExitLatency
-ms.date: 01/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDeviceGetCurrentDxExitLatency function gets the current audio device sleep state exit latency value.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdevice.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -86,10 +86,15 @@ powerAction = WdfDeviceGetSystemPowerAction(Device);
 latency = AcxDeviceGetCurrentDxExitLatency(Device, powerAction, TargetState);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
-* [ACX_DX_EXIT_LATENCY](ne-acxdevice-acx_dx_exit_latency.md)
-* [System Power Actions](/windows-hardware/drivers/kernel/system-power-actions)
-* [Power states](/windows-hardware/drivers/nfc/power-states)
-* [acxdevice.h header](index.md)
-
+- [ACX_DX_EXIT_LATENCY](ne-acxdevice-acx_dx_exit_latency.md)
+- [System Power Actions](/windows-hardware/drivers/kernel/system-power-actions)
+- [Power states](/windows-hardware/drivers/nfc/power-states)
+- [acxdevice.h header](index.md)

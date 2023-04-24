@@ -1,8 +1,8 @@
 ---
 UID: NF:acxelements.AcxElementGetId
-tech.root: audio 
+tech.root: audio
 title: AcxElementGetId
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxElementGetId function retrieves the number that represents the element ID for a given ACX element object.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -52,7 +52,7 @@ An existing, initialized, ACXELEMENT object. For more information about ACX obje
 
 ## -returns
 
-Returns the ULONG value that represents the element ID for the specified ACXELEMENT object. Will return AcxElementIdNone if the object has no element ID. 
+Returns the ULONG value that represents the element ID for the specified ACXELEMENT object. Will return AcxElementIdNone if the object has no element ID.
 
 ## -remarks
 
@@ -64,8 +64,12 @@ Example usage is shown below.
  ULONG id = AcxElementGetId((ACXELEMENT)Mute);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-

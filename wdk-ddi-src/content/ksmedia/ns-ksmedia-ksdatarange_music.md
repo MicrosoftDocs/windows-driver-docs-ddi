@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_55
+UID: NS:ksmedia.KSDATARANGE_MUSIC
 title: KSDATARANGE_MUSIC (ksmedia.h)
 description: The KSDATARANGE_MUSIC structure specifies a range of DirectMusic MIDI formats.
 old-location: audio\ksdatarange_music.htm

@@ -3,7 +3,7 @@ UID: NS:ksmedia.tagKS_H264VIDEOINFO
 title: KS_H264VIDEOINFO (ksmedia.h)
 description: The KS_H264VIDEOINFO describes the device capabilities that apply to the current media type.
 tech.root: stream
-ms.date: 03/07/2022
+ms.date: 01/04/2023
 keywords: ["tagKS_H264VIDEOINFO structure"]
 ms.keywords: "*PKS_H264VIDEOINFO, KS_H264VIDEOINFO, KS_H264VIDEOINFO structure [Streaming Media Devices], PKS_H264VIDEOINFO, PKS_H264VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_H264VIDEOINFO, ksmedia/PKS_H264VIDEOINFO, stream.ks_h264videoinfo, tagKS_H264VIDEOINFO"
 req.header: ksmedia.h
@@ -55,36 +55,31 @@ The **KS_H264VIDEOINFO** describes the device capabilities that apply to the cur
 
 Specifies the width in pixels of pictures output from the decoding process.
 
-> [!NOTE]
-> The value for this member must be a multiple of 2, but it does not have to be an integer multiple of 16. It can be specified using a frame cropping rectangle in the active Sequence Parameter Set (SPS).
+The value for this member must be a multiple of 2, but it does not have to be an integer multiple of 16. It can be specified using a frame cropping rectangle in the active Sequence Parameter Set (SPS).
 
 ### -field wHeight
 
 Specifies the height in pixels of pictures output from the decoding process.
 
-> [!NOTE]
-> The value for this member must be a multiple of 2. When field coding or frame/field adaptive coding is used, it must be a multiple of 4. It does not have to be an integer multiple of 16. It can be specified using a frame cropping rectangle in the active SPS.
+The value for this member must be a multiple of 2. When field coding or frame/field adaptive coding is used, it must be a multiple of 4. It does not have to be an integer multiple of 16. It can be specified using a frame cropping rectangle in the active SPS.
 
 ### -field wSARwidth
 
 Specifies the sample aspect ratio width as defined in the H.264 Annex E.
 
-> [!NOTE]
-> It must  be relatively prime with respect to **wSARheight**.
+It must  be relatively prime with respect to **wSARheight**.
 
 ### -field wSARheight
 
 Specifies the sample aspect ratio height as defined in the H.264 Annex E.
 
-> [!NOTE]
-> It must be relatively prime with respect to **bSARwidth**.
+It must be relatively prime with respect to **bSARwidth**.
 
 ### -field wProfile
 
 Specifies the first two bytes of the sequence parameter set as described by profile_idc and constraint flags in the H.264 specification.
 
-> [!NOTE]
-> This member indicates the profile and applicable constraints to be used.
+This member indicates the profile and applicable constraints to be used.
 
 The following are examples of allowed values:
 
@@ -103,8 +98,7 @@ The following are examples of allowed values:
 
 Specifies the level as described by the level_idc flag.
 
-> [!NOTE]
-> This member indicates the minimum level that supports the resolution and the maximum bit rate for this frame descriptor.
+This member indicates the minimum level that supports the resolution and the maximum bit rate for this frame descriptor.
 
 The following are examples of allowed values:
 
@@ -188,8 +182,7 @@ Defines the bitmap that specifies the Multicast Video Coding (MVC) capabilities.
 
 Specifies the supported frame interval.
 
-> [!NOTE]
-> This is the shortest frame interval supported, at the highest frame rate, in 100-nanoseconds units.
+This is the shortest frame interval supported, at the highest frame rate, in 100-nanoseconds units.
 
 ### -field bMaxCodecConfigDelay
 

@@ -1,5 +1,5 @@
 ---
-UID: NE:srb.__unnamed_enum_2
+UID: NE:srb.SRBEX_DATA_NVME_COMMAND_TYPE
 tech.root: storage
 title: SRBEX_DATA_NVME_COMMAND_TYPE (srb.h)
 ms.date: 05/13/2021
@@ -11,7 +11,7 @@ req.header: srb.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: 
@@ -51,3 +51,4 @@ The command is an Admin command.
 ## -remarks
 
 **SRBEX_DATA_NVME_COMMAND_TYPE** is specified in a [**SRBEX_DATA_NVME_COMMAND**](ns-srb-srbex_data_nvme_command.md) structure.
+

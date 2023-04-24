@@ -80,9 +80,9 @@ Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/printoem/ns
 
 Pointer to a memory location that contains the address of a buffer. The contents of the buffer depend on where the converted DIB should be sent.
 
-If this method intends to send the converted DIB back to Unidrv and is successful in the conversion, it should set *<i>ppbResult</i> to the address of the buffer containing the converted DIB, and should return S_OK. If the conversion fails, the method should set *<i>ppbResult</i> to <b>NULL</b>, and should return E_FAIL.
+If this method intends to send the converted DIB back to Unidrv and is successful in the conversion, it should set **ppbResult* to the address of the buffer containing the converted DIB, and should return S_OK. If the conversion fails, the method should set **ppbResult* to <b>NULL</b>, and should return E_FAIL.
 
-If this method intends to send the converted DIB to the spooler and is successful in the conversion, the method should set *<i>ppbResult</i>  to <b>TRUE</b>, and should return S_OK. If the conversion fails, the method should set *<i>ppbResult</i> to <b>FALSE</b> and should return E_FAIL. For more information, see the discussion of the *<b>DevBPP</b> and *<b>DevNumOfPlanes</b> attributes in the Remarks section.
+If this method intends to send the converted DIB to the spooler and is successful in the conversion, the method should set **ppbResult*  to <b>TRUE</b>, and should return S_OK. If the conversion fails, the method should set **ppbResult* to <b>FALSE</b> and should return E_FAIL. For more information, see the discussion of the *<b>DevBPP</b> and *<b>DevNumOfPlanes</b> attributes in the Remarks section.
 
 ## -returns
 

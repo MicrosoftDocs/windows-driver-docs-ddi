@@ -2,16 +2,15 @@
 UID: NC:fltkernel.PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE
 title: PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE (fltkernel.h)
 description: A minifilter driver can register a routine of type PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE as the minifilter driver's CompleteLockCallbackDataRoutine callback routine for a FILE_LOCK structure.
-old-location: ifsk\pflt_complete_lock_callback_data_routine.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 03/20/2023
 keywords: ["PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE callback function"]
 ms.keywords: CompleteLockCallbackDataRoutine, CompleteLockCallbackDataRoutine routine [Installable File System Drivers], FltCallbacks_a02e356c-ad01-4ae4-bfff-b753ffa0a1c3.xml, PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE, fltkernel/CompleteLockCallbackDataRoutine, ifsk.pflt_complete_lock_callback_data_routine
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available starting with  Windows XP with SP2 or Windows Server 2003 with SP1.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP SP2
+req.target-min-winversvr: Windows Server 2003 SP1
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -42,78 +41,53 @@ api_name:
 
 # PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE callback function
 
-
 ## -description
 
-A minifilter driver can register a routine of type <b>PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE</b> as the minifilter driver's <i>CompleteLockCallbackDataRoutine</i> callback routine for a <a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a> structure.
+A minifilter driver can register a routine of type **PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE** as the minifilter driver's **CompleteLockCallbackDataRoutine** callback routine for a [**FILE_LOCK**](../ntifs/ns-ntifs-file_lock.md) structure.
 
 ## -parameters
 
 ### -param Context [in, optional]
 
-
-Context pointer that was passed to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltprocessfilelock">FltProcessFileLock</a>.
+Context pointer that was passed to [**FltProcessFileLock**](nf-fltkernel-fltprocessfilelock.md).
 
 ### -param CallbackData [in]
 
+Pointer to the callback data ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) structure for the [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control) operation that is being completed. The lock request type will be one of the following:
 
-Pointer to the callback data (<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the <a href="/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a> operation that is being completed. The lock request type will be one of the following: 
-
-IRP_MN_LOCK
-
-IRP_MN_UNLOCK_ALL
-
-IRP_MN_UNLOCK_ALL_BY_KEY
-
-IRP_MN_UNLOCK_SINGLE
+* IRP_MN_LOCK
+* IRP_MN_UNLOCK_ALL
+* IRP_MN_UNLOCK_ALL_BY_KEY
+* IRP_MN_UNLOCK_SINGLE
 
 ## -returns
 
-This routine returns STATUS_SUCCESS or an appropriate <b>NTSTATUS</b> value. If it returns an <b>NTSTATUS</b> value that is not a success code, the file lock is removed from the file.
+This routine returns STATUS_SUCCESS or an appropriate NTSTATUS value. If it returns an NTSTATUS value that is not a success code, the file lock is removed from the file.
 
 ## -remarks
 
-A minifilter driver can optionally specify a routine of type <b>PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE</b> as the minifilter driver's <i>CompleteLockCallbackDataRoutine</i> routine for a byte-range file lock. To specify this routine, the minifilter driver passes a pointer to the routine as the <i>CompleteLockCallbackDataRoutine</i> parameter for <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a>. 
+A minifilter driver can optionally specify a routine of type **PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE** as the minifilter driver's **CompleteLockCallbackDataRoutine** routine for a byte-range file lock. To specify this routine, the minifilter driver passes a pointer to the routine as the **CompleteLockCallbackDataRoutine** parameter for [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md).
 
-When completing the an <a href="/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a> operation for the file lock, filter manager calls this routine, if specified, as a notification to the minifilter.
+When completing the an [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control) operation for the file lock, filter manager calls this routine, if specified, as a notification to the minifilter.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a>
+[**FILE_LOCK**](../ntifs/ns-ntifs-file_lock.md)
 
+[**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md)
 
+[**FltCheckLockForReadAccess**](nf-fltkernel-fltchecklockforreadaccess.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatefilelock">FltAllocateFileLock</a>
+[**FltCheckLockForWriteAccess**](nf-fltkernel-fltchecklockforwriteaccess.md)
 
+[**FltFreeFileLock**](nf-fltkernel-fltfreefilelock.md)
 
+[**FltInitializeFileLock**](nf-fltkernel-fltinitializefilelock.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltchecklockforreadaccess">FltCheckLockForReadAccess</a>
+[**FltProcessFileLock**](nf-fltkernel-fltprocessfilelock.md)
 
+[**FltUninitializeFileLock**](nf-fltkernel-fltuninitializefilelock.md)
 
+[**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltchecklockforwriteaccess">FltCheckLockForWriteAccess</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreefilelock">FltFreeFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializefilelock">FltInitializeFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltprocessfilelock">FltProcessFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuninitializefilelock">FltUninitializeFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/punlock-routine">PUNLOCK_ROUTINE</a>
-
+[**PUNLOCK_ROUTINE**](../ntifs/nc-ntifs-punlock_routine.md)

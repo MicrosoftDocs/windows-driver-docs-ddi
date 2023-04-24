@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterScriptContext.get_UserProperties
 title: IPrinterScriptContext::get_UserProperties (printerextension.h)
 description: Provides access to the user property bag, if the property bag is present.
 tech.root: print
-ms.date: 08/04/2022
+ms.date: 01/04/2023
 keywords: ["IPrinterScriptContext::get_UserProperties"]
 ms.keywords: IPrinterScriptContext interface [Print Devices],UserProperties property, IPrinterScriptContext.UserProperties, IPrinterScriptContext.get_UserProperties, IPrinterScriptContext::UserProperties, IPrinterScriptContext::get_UserProperties, UserProperties property [Print Devices], UserProperties property [Print Devices],IPrinterScriptContext interface, get_UserProperties, print.iprinterscriptcontext_userproperties, printerextension/IPrinterScriptContext::UserProperties, printerextension/IPrinterScriptContext::get_UserProperties
 req.header: printerextension.h
@@ -59,11 +59,10 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 The user property bag is not available in (constraint) JavaScript functions when the functions are called during de-spooling. Therefore JavaScript functions should be designed to handle the situation when there is a failure to retrieve the user property bag.
 
-> [!NOTE]
-> Although the **UserProperties** property is read-only, the user property bag is a read/write property bag.
+Although the **UserProperties** property is read-only, the user property bag is a read/write property bag.
 
 ## -see-also
 
-[IPrinterScriptContext](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptcontext)
+[IPrinterScriptContext](./nn-printerextension-iprinterscriptcontext.md)
 
-[IPrinterScriptablePropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag)
+[IPrinterScriptablePropertyBag](./nn-printerextension-iprinterscriptablepropertybag.md)

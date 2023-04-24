@@ -75,10 +75,10 @@ Pointer to an [IFIMETRICS](/windows/win32/api/winddi/ns-winddi-ifimetrics) struc
 
 ### -field pfnGetInfo
 
-Pointer to Unidrv's [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) callback function. Supplied by Unidrv.
+Pointer to Unidrv's [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function. Supplied by Unidrv.
 
 ## -see-also
 
 [IFIMETRICS](/windows/win32/api/winddi/ns-winddi-ifimetrics)
 
-[UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo)
+[UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md)

@@ -1,5 +1,5 @@
 ---
-UID: NE:dispmprt.__unnamed_enum_0
+UID: NE:dispmprt.DXGK_SERVICES
 title: DXGK_SERVICES (dispmprt.h)
 description: The DXGK_SERVICES enumeration indicates the type of interface being requested by a call to the DxgkCbQueryServices function.
 old-location: display\dxgk_services.htm
@@ -41,6 +41,7 @@ api_name:
 ---
 
 # DXGK_SERVICES enumeration
+
 
 ## -description
 
@@ -91,3 +92,4 @@ An interface, in this context, is a set of function pointers. The functions in t
 [**DXGK_SPB_INTERFACE**](ns-dispmprt-_dxgk_spb_interface.md)
 
 [**DXGK_TIMED_OPERATION_INTERFACE**](ns-dispmprt-_dxgk_timed_operation_interface.md)
+

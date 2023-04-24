@@ -1,5 +1,5 @@
 ---
-UID: NE:strmini.__unnamed_enum_1
+UID: NE:strmini.TIME_FUNCTION
 title: TIME_FUNCTION (strmini.h)
 description: "Learn more about: TIME_FUNCTION enumeration"
 old-location: stream\time_function.htm

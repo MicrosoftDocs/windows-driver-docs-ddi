@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_51
+UID: NS:gnssdriver.GNSS_CHIPSETINFO
 title: GNSS_CHIPSETINFO (gnssdriver.h)
 description: This structure defines the specific data elements associated with the GNSS hardware.
 tech.root: gnss
@@ -71,3 +71,4 @@ Version of the firmware for the GNSS chipset. This would be a string, typically 
 ### -field Unused
 
 Padding buffer reserved for future use.
+

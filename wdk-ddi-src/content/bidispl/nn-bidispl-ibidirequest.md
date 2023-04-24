@@ -2,9 +2,8 @@
 UID: NN:bidispl.IBidiRequest
 title: IBidiRequest (bidispl.h)
 description: The IBidiRequest interface allows an application or other objects to compose a bidi request.
-old-location: print\ibidirequest.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 03/03/2023
 keywords: ["IBidiRequest interface"]
 ms.keywords: IBidiRequest, IBidiRequest interface [Print Devices], IBidiRequest interface [Print Devices],described, _win32_IBidiRequest, bidispl/IBidiRequest, gdi.ibidirequest, print.ibidirequest
 req.header: bidispl.h
@@ -39,9 +38,6 @@ api_location:
 api_name:
  - IBidiRequest
 ---
-
-# IBidiRequest interface
-
 
 ## -description
 

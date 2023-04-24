@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **MODE_PAGE_SUBPAGE_HEADER** structure contains header information for the page_0 or sub_page mode page format, as defined in Section 7.5.8 of the [T10 SCSI Primary Commands specification (SPC-6)](https://www.t10.org/members/w_spc6.htm).
+The **MODE_PAGE_SUBPAGE_HEADER** structure contains header information for the page_0 or sub_page mode page format, as defined in Section 7.5.8 of the T10 SCSI Primary Commands specification (SPC-6).
 
 ## -struct-fields
 
@@ -72,7 +72,7 @@ Described in the specification.
 
 ## -remarks
 
-See Section 7.5.8 of the [T10 SCSI Primary Commands specification (SPC-6)](https://www.t10.org/members/w_spc6.htm) for details.
+See Section 7.5.8 of the T10 SCSI Primary Commands specification (SPC-6) for details.
 
 ## -see-also
 

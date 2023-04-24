@@ -43,9 +43,9 @@ api_name:
 
 The **DrvUpgradeRegistrySetting** function is obsolete.
 
- Windows 2000 and later UI plug-ins should use [IPrintOemDriverUI::DrvUpgradeRegistrySetting](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvupgraderegistrysetting) or [IPrintCoreUI2::DrvUpgradeRegistrySetting](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-drvupgraderegistrysetting).
+ Windows 2000 and later UI plug-ins should use [IPrintOemDriverUI::DrvUpgradeRegistrySetting](../prcomoem/nf-prcomoem-iprintoemdriverui-drvupgraderegistrysetting.md) or [IPrintCoreUI2::DrvUpgradeRegistrySetting](../prcomoem/nf-prcomoem-iprintcoreui2-drvupgraderegistrysetting.md).
 
-This function pointer prototype defines the type of the *pfnUpgrade* parameter of the [OEMUpgradeRegistry](/windows-hardware/drivers/ddi/printoem/nf-printoem-oemupgraderegistry) function.
+This function pointer prototype defines the type of the *pfnUpgrade* parameter of the [OEMUpgradeRegistry](./nf-printoem-oemupgraderegistry.md) function.
 
 ## -parameters
 

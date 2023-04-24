@@ -1,10 +1,10 @@
 ---
 UID: NF:acxelements.AcxVolumeCreate
-tech.root: audio 
+tech.root: audio
 title: AcxVolumeCreate
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
-description: The AcxVolumeCreate function is used to create an ACX volume object that that will be associated with a circuit object parent. 
+description: The AcxVolumeCreate function is used to create an ACX volume object that that will be associated with a circuit object parent.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **AcxVolumeCreate** function is used to create an ACX volume object that that will be associated with a circuit object parent. 
+The **AcxVolumeCreate** function is used to create an ACX volume object that that will be associated with a circuit object parent.
 
 ## -parameters
 
 ### -param Object
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit. 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that will be associated with the circuit.
 
 ### -param Attributes
 
@@ -60,7 +60,7 @@ An initialized [ACX_VOLUME_CONFIG structure](ns-acxelements-acx_volume_config.md
 
 ### -param Volume
 
-A pointer to a location that receives the handle to the newly created ACXVOLUME object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+A pointer to a location that receives the handle to the newly created ACXVOLUME object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -75,7 +75,7 @@ Example usage is shown below.
 ```cpp
     NTSTATUS                        status;
     WDF_OBJECT_ATTRIBUTES           attributes;
- 
+
     ACX_VOLUME_CALLBACKS            volumeCallbacks;
     ACX_VOLUME_CONFIG               volumeCfg;
     CODEC_VOLUME_ELEMENT_CONTEXT *  volumeCtx;
@@ -94,8 +94,12 @@ Example usage is shown below.
     status = AcxVolumeCreate(Circuit, &attributes, &volumeCfg, Element);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-

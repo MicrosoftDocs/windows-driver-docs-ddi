@@ -2,9 +2,9 @@
 UID: NF:acxstreams.AcxStreamInitAssignAcxRequestPreprocessCallback
 tech.root: audio
 title: AcxStreamInitAssignAcxRequestPreprocessCallback
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
-description: The AcxStreamInitAssignAcxRequestPreprocessCallback function assigns an  AcxRequestPreprocessCallback to a stream. 
+description: The AcxStreamInitAssignAcxRequestPreprocessCallback function assigns an  AcxRequestPreprocessCallback to a stream.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -70,7 +70,6 @@ A pointer to a GUID that represents a KSPROPERTY SET, for example [KSPROPSETID_R
 
 A value that represents a KSPROPERTY Id. For example a A [KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT](/windows-hardware/drivers/audio/ksproperty-rtaudio-register-notification-event) that uses a [KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksrtaudio_notification_event_property). If AcxItemIdAny is specified, EvtObjectAcxRequestPreprocess will be called for each property for the specified Set.
 
-
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
@@ -112,7 +111,12 @@ Example usage is shown below.
                                             AcxItemIdAny);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxstreams.h header](index.md)
-

@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dkmddi._DXGK_VALIDATESUBMITCOMMANDFLAGS
-title: _DXGK_VALIDATESUBMITCOMMANDFLAGS (d3dkmddi.h)
-description: Contains information needed to validate submit commands.
-ms.date: 10/19/2018
+title: DXGK_VALIDATESUBMITCOMMANDFLAGS (d3dkmddi.h)
+description: Learn more about the DXGK_VALIDATESUBMITCOMMANDFLAGS structure.
+ms.date: 03/23/2023
 keywords: ["DXGK_VALIDATESUBMITCOMMANDFLAGS structure"]
 ms.keywords: _DXGK_VALIDATESUBMITCOMMANDFLAGS, DXGK_VALIDATESUBMITCOMMANDFLAGS,
 req.header: d3dkmddi.h
@@ -39,22 +39,26 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_VALIDATESUBMITCOMMANDFLAGS structure
-
+# DXGK_VALIDATESUBMITCOMMANDFLAGS structure
 
 ## -description
 
-Contains information needed to validate submit commands.
+The **DXGK_VALIDATESUBMITCOMMANDFLAGS** structure contains flags needed to validate a command buffer.
 
 ### -field Value
 
-This value is used to operate over the members collectively.
+This value is used to operate over the structure members collectively.
 
 ## -struct-fields
 
 ### -field HardwareQueueSubmission
 
-The number of hardware queue submissions.
+**HardwareQueueSubmission** can be one of the following values.
+
+| Value | Meaning |
+| ----- | ------- |
+| TRUE  | [**DxgkDdiSubmitCommandToHwQueue**](nc-d3dkmddi-dxgkddi_submitcommandtohwqueue.md) called [**DXGKDDI_VALIDATESUBMITCOMMAND**](nc-d3dkmddi-dxgkddi_validatesubmitcommand.md). |
+| FALSE | [**D3DKMTSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md) called **DXGKDDI_VALIDATESUBMITCOMMAND**. |
 
 ### -field Reserved
 
@@ -62,9 +66,10 @@ Reserved.
 
 ## -remarks
 
+The kernel-mode driver should interpret these flags as needed to validate the command buffer.
+
 ## -see-also
 
 [**DXGKARG_VALIDATESUBMITCOMMAND**](ns-d3dkmddi-_dxgkarg_validatesubmitcommand.md)
 
 [**DXGKDDI_VALIDATESUBMITCOMMAND**](nc-d3dkmddi-dxgkddi_validatesubmitcommand.md)
-

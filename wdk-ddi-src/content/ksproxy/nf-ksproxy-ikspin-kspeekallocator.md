@@ -2,9 +2,8 @@
 UID: NF:ksproxy.IKsPin.KsPeekAllocator
 title: IKsPin::KsPeekAllocator (ksproxy.h)
 description: The KsPeekAllocator method returns a pointer to an IMemAllocator interface for a pin's assigned allocator.
-old-location: stream\ikspin_kspeekallocator.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/07/2023
 keywords: ["IKsPin::KsPeekAllocator"]
 ms.keywords: IKsPin interface [Streaming Media Devices],KsPeekAllocator method, IKsPin.KsPeekAllocator, IKsPin::KsPeekAllocator, KsPeekAllocator, KsPeekAllocator method [Streaming Media Devices], KsPeekAllocator method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsPeekAllocator, ksproxy_46ab9e52-a477-4fca-bddc-af1848484f84.xml, stream.ikspin_kspeekallocator
 req.header: ksproxy.h
@@ -40,58 +39,31 @@ api_name:
  - IKsPin::KsPeekAllocator
 ---
 
-# IKsPin::KsPeekAllocator
-
-
 ## -description
 
-The <b>KsPeekAllocator</b> method returns a pointer to an <b>IMemAllocator</b> interface for a pin's assigned allocator.
+The **KsPeekAllocator** method returns a pointer to an **IMemAllocator** interface for a pin's assigned allocator.
 
 ## -parameters
 
 ### -param Operation [in]
 
-
 A value that specifies the type of operation. This value can be one of the following values from the KSPEEKOPERATION enumerated type.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-<b>KsPeekOperation_PeekOnly</b>
-
-</td>
-<td>
-<b>IKsPin::KsPeekAllocator </b>does not increment the reference count for the allocator. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>KsPeekOperation_AddRef</b>
-
-</td>
-<td>
-<b>IKsPin::KsPeekAllocator</b> increments the reference count for the allocator (calls AddRef). 
-
-</td>
-</tr>
-</table>
+| Value | Description |
+|---|---|
+| **KsPeekOperation_PeekOnly** | **IKsPin::KsPeekAllocator** does not increment the reference count for the allocator. |
+| **KsPeekOperation_AddRef** | **IKsPin::KsPeekAllocator** increments the reference count for the allocator (calls AddRef). |
 
 ## -returns
 
-Returns a pointer to an <b>IMemAllocator</b> interface if successful; otherwise, returns <b>NULL</b>.
+Returns a pointer to an **IMemAllocator** interface if successful; otherwise, returns **NULL**.
 
 ## -remarks
 
-For more information about <b>IMemAllocator</b>, see the Microsoft Windows SDK documentation.
+For more information about **IMemAllocator**, see the Microsoft Windows SDK documentation.
 
 This method is for proxy use and is not recommended for application use.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin">IKsPin</a>
-
+[IKsPin](./nn-ksproxy-ikspin.md)

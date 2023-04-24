@@ -43,9 +43,9 @@ api_name:
 
 The **DrvWriteSpoolBuf** function pointed to by this function pointer is obsolete.
 
- Windows 2000 and later render plug-ins should use [IPrintOemDriverUni::DrvWriteSpoolBuf](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf) (Unidrv plug-ins), [IPrintOemDriverPS::DrvWriteSpoolBuf](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverps-drvwritespoolbuf) (Pscript plug-ins), or [IPrintCorePS2::DrvWriteSpoolBuf](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreps2-drvwritespoolbuf) (Pscript plug-ins).
+ Windows 2000 and later render plug-ins should use [IPrintOemDriverUni::DrvWriteSpoolBuf](../prcomoem/nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf.md) (Unidrv plug-ins), [IPrintOemDriverPS::DrvWriteSpoolBuf](../prcomoem/nf-prcomoem-iprintoemdriverps-drvwritespoolbuf.md) (Pscript plug-ins), or [IPrintCorePS2::DrvWriteSpoolBuf](../prcomoem/nf-prcomoem-iprintcoreps2-drvwritespoolbuf.md) (Pscript plug-ins).
 
-This function pointer prototype defines the **DrvWriteSpoolBuf** member of the [DRVPROCS](/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs) structure.
+This function pointer prototype defines the **DrvWriteSpoolBuf** member of the [DRVPROCS](./ns-printoem-_drvprocs.md) structure.
 
 ## -parameters
 

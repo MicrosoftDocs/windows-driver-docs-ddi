@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_VOLUME_CALLBACKS_INIT
 ms.date: 04/29/2022
 targetos: Windows
-description: The ACX_VOLUME_CALLBACKS_INIT function initializes a ACX_VOLUME_CALLBACKS structure. 
+description: The ACX_VOLUME_CALLBACKS_INIT function initializes a ACX_VOLUME_CALLBACKS structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_VOLUME_CALLBACKS_INIT** function initializes a [ACX_VOLUME_CALLBACKS structure](ns-acxelements-acx_volume_callbacks.md). 
+The **ACX_VOLUME_CALLBACKS_INIT** function initializes a [ACX_VOLUME_CALLBACKS structure](ns-acxelements-acx_volume_callbacks.md).
 
 ## -parameters
 
@@ -61,8 +61,12 @@ Example usage is shown below.
     ACX_VOLUME_CALLBACKS_INIT(&volumeCallbacks);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
-- [acxelements.h header](index.md)
-
-
+- [acxelements.h header\]\(index.md\)

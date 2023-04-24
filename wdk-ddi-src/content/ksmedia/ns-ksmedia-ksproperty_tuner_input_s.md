@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_103
+UID: NS:ksmedia.KSPROPERTY_TUNER_INPUT_S
 title: KSPROPERTY_TUNER_INPUT_S (ksmedia.h)
 description: The KSPROPERTY_TUNER_INPUT_S structure describes the input connection index of a tuner device for devices that support multiple inputs.
 old-location: stream\ksproperty_tuner_input_s.htm

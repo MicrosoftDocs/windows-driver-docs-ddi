@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_14
+UID: NS:gnssdriver.GNSS_FIXDATA_ACCURACY_2
 title: GNSS_FIXDATA_ACCURACY_2 (gnssdriver.h)
 ms.date: 04/05/2021
 targetos: Windows
@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.typenames: GNSS_FIXDATA_ACCURACY_2, *PGNSS_FIXDATA_ACCURACY_2
@@ -119,3 +119,4 @@ Time dilution of precision.
 ## -remarks
 
 ## -see-also
+

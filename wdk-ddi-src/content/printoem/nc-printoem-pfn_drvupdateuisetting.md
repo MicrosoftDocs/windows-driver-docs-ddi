@@ -43,9 +43,9 @@ api_name:
 
 The **DrvUpdateUISetting** function is obsolete.
 
- Windows 2000 and later UI plug-ins should use [IPrintOemDriverUI::DrvUpdateUISetting](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvupdateuisetting) or [IPrintCoreUI2::DrvUpdateUISetting](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-drvupdateuisetting).
+ Windows 2000 and later UI plug-ins should use [IPrintOemDriverUI::DrvUpdateUISetting](../prcomoem/nf-prcomoem-iprintoemdriverui-drvupdateuisetting.md) or [IPrintCoreUI2::DrvUpdateUISetting](../prcomoem/nf-prcomoem-iprintcoreui2-drvupdateuisetting.md).
 
-This function pointer prototype defines the type of the **DrvUpdateUISetting** member of the [OEMUIPROCS](/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiprocs) structure.
+This function pointer prototype defines the type of the **DrvUpdateUISetting** member of the [OEMUIPROCS](./ns-printoem-_oemuiprocs.md) structure.
 
 ## -parameters
 

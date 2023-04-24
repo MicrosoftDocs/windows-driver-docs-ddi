@@ -1,5 +1,5 @@
 ---
-UID: NS:sidebandaudio.__unnamed_union_0
+UID: NS:sidebandaudio.SIDEBANDAUDIO_IO_PARAM_HEADER
 title: SIDEBANDAUDIO_IO_PARAM_HEADER (sidebandaudio.h)
 description: Describes the size and type of parameter.
 ms.date: 10/19/2021
@@ -38,6 +38,7 @@ api_name:
 ---
 
 # SIDEBANDAUDIO_IO_PARAM_HEADER structure
+
 
 ## -description
 

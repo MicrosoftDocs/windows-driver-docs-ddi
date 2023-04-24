@@ -6,7 +6,7 @@ ms.assetid: 025d7cc4-309d-33e6-8813-f58445c3acaf
 ms.date: 06/09/2022
 keywords: ["Debugger"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: debugger
 ---
 

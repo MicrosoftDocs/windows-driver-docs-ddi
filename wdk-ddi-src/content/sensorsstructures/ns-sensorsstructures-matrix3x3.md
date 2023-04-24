@@ -1,5 +1,5 @@
 ---
-UID: NS:sensorsstructures.__unnamed_struct_1
+UID: NS:sensorsstructures.MATRIX3X3
 title: MATRIX3X3 (sensorsstructures.h)
 description: Defines a 3x3 matrix.
 ms.date: 10/19/2018

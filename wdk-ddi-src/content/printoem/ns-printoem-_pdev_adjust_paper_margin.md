@@ -56,10 +56,10 @@ Is a [RECTL](/windows/win32/api/windef/ns-windef-rectl) structure that specifies
 
 This structure is available in Windows XP and later.
 
-The *pBuf* parameter of the [IPrintOemPS2::GetPDEVAdjustment](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment) method can point to a structure of this type.
+The *pBuf* parameter of the [IPrintOemPS2::GetPDEVAdjustment](../prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment.md) method can point to a structure of this type.
 
 ## -see-also
 
-[IPrintOemPS2::GetPDEVAdjustment](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment)
+[IPrintOemPS2::GetPDEVAdjustment](../prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment.md)
 
 [RECTL](/windows/win32/api/windef/ns-windef-rectl)

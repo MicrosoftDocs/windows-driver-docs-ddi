@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_83
+UID: NS:ks.KSHANDSHAKE
 title: KSHANDSHAKE (ks.h)
 description: The KSHANDSHAKE structure is used to pass information back and forth while pins are handshaking in an attempt to negotiate a private interface.
 old-location: stream\kshandshake.htm

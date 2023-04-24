@@ -1,5 +1,5 @@
 ---
-UID: NS:scsiwmi.__unnamed_struct_1
+UID: NS:scsiwmi.SCSIWMIGUIDREGINFO
 title: SCSIWMIGUIDREGINFO (scsiwmi.h)
 description: The SCSIWMIGUIDREGINFO structure contains information about a given data or event block supported by a SCSI miniport driver.
 old-location: storage\scsiwmiguidreginfo.htm

@@ -66,7 +66,7 @@ The [EVT_ACX_VOLUME_RETRIEVE_LEVEL](nc-acxelements-evt_acx_volume_retrieve_level
 
 ### -field EvtAcxVolumeProcessRequest
 
-The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_process_request) callback. 
+The [EVT_ACX_OBJECT_PROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_process_request) callback.
 
 ## -remarks
 
@@ -90,8 +90,12 @@ Example usage is shown below.
     volumeCfg.Callbacks = &volumeCallbacks;
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
-- [acxelements.h header](index.md)
-
-
+- [acxelements.h header\]\(index.md\)

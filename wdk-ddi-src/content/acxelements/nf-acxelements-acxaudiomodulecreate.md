@@ -1,10 +1,10 @@
 ---
 UID: NF:acxelements.AcxAudioModuleCreate
-tech.root: audio 
+tech.root: audio
 title: AcxAudioModuleCreate
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
-description: The AcxAudioModuleCreate function is used to create an audio module that that will be associated with an ACX circuit object parent. 
+description: The AcxAudioModuleCreate function is used to create an audio module that that will be associated with an ACX circuit object parent.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **AcxAudioModuleCreate** function is used to create an audio module that that will be associated with an ACX circuit object parent. 
+The **AcxAudioModuleCreate** function is used to create an audio module that that will be associated with an ACX circuit object parent.
 
 ## -parameters
 
 ### -param Object
 
-A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that that will be associated with the circuit. 
+A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)) that that will be associated with the circuit.
 
 ### -param Attributes
 
@@ -60,7 +60,7 @@ An initialized [ACX_AUDIOMODULE_CONFIG structure](ns-acxelements-acx_audiomodule
 
 ### -param AudioModule
 
-A pointer to a location that receives the handle to the new ACXMODULE object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+A pointer to a location that receives the handle to the new ACXMODULE object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -104,8 +104,12 @@ Example usage is shown below.
     status = AcxAudioModuleCreate(Circuit, &attributes, &audioModuleCfg, &audioModuleElement);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-

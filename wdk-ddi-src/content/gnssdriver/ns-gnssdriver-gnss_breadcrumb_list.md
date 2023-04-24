@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_22
+UID: NS:gnssdriver.GNSS_BREADCRUMB_LIST
 title: GNSS_BREADCRUMB_LIST (gnssdriver.h)
 description: The GNSS_BREADCRUMB_LIST structure contains an IOCTL_GNSS_POP_BREADCRUMBS response.
 tech.root: gnss
@@ -63,3 +63,4 @@ The number of breadcrumbs in the **IOCTL_GNSS_POP_BREADCRUMBS** response.
 ### -field v1
 
 An array of individual breadcrumbs returned in the in the **IOCTL_GNSS_POP_BREADCRUMBS** response.
+

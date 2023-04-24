@@ -2,10 +2,10 @@
 description: "Learn more about: Dsound.h header"
 UID: NA:dsound
 title: Dsound.h header
-ms.date: 08/03/2021
+ms.date: 03/02/2023
 keywords: ["Dsound.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: stream
 f1_keywords:
  - dsound

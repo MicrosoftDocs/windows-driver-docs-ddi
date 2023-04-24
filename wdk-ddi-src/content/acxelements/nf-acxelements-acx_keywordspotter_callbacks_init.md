@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_KEYWORDSPOTTER_CALLBACKS_INIT
 ms.date: 04/29/2022
 targetos: Windows
-description: The ACX_KEYWORDSPOTTER_CALLBACKS_INIT function initializes a ACX_KEYWORDSPOTTER_CALLBACKS structure. 
+description: The ACX_KEYWORDSPOTTER_CALLBACKS_INIT function initializes a ACX_KEYWORDSPOTTER_CALLBACKS structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **ACX_KEYWORDSPOTTER_CALLBACKS_INIT** function initializes a [ACX_KEYWORDSPOTTER_CALLBACKS structure](ns-acxelements-acx_keywordspotter_callbacks.md). 
+The **ACX_KEYWORDSPOTTER_CALLBACKS_INIT** function initializes a [ACX_KEYWORDSPOTTER_CALLBACKS structure](ns-acxelements-acx_keywordspotter_callbacks.md).
 
 ## -parameters
 
 ### -param Callbacks
 
-A pointer to an initialized [ACX_KEYWORDSPOTTER_CALLBACKS structure](ns-acxelements-acx_keywordspotter_callbacks.md). 
+A pointer to an initialized [ACX_KEYWORDSPOTTER_CALLBACKS structure](ns-acxelements-acx_keywordspotter_callbacks.md).
 
 ## -remarks
 
@@ -66,6 +66,12 @@ Example usage is shown below.
     keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignPatterns = CodecC_EvtAcxKeywordSpotterAssignPatterns;
     keywordSpotterCallbacks.EvtAcxKeywordSpotterAssignReset = CodecC_EvtAcxKeywordSpotterAssignReset;
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

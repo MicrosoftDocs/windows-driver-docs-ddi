@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.__unnamed_struct_3
+UID: NS:ufs.UFS_CONFIG_DESCRIPTOR
 title: UFS_CONFIG_DESCRIPTOR (ufs.h)
 description: The UFS_CONFIG_DESCRIPTOR structure describes the modifiable values of the default device configuration set by the manufacturer.
 old-location: storage\ufs_config_descriptor.htm

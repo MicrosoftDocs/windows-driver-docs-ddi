@@ -4,7 +4,7 @@ title: FsRtlUninitializeFileLock function (ntifs.h)
 description: The FsRtlUninitializeFileLock routine uninitializes a FILE_LOCK structure.
 old-location: ifsk\fsrtluninitializefilelock.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 03/20/2023
 keywords: ["FsRtlUninitializeFileLock function"]
 ms.keywords: FsRtlUninitializeFileLock, FsRtlUninitializeFileLock routine [Installable File System Drivers], fsrtlref_d78c3eae-751c-4440-8915-455454886201.xml, ifsk.fsrtluninitializefilelock, ntifs/FsRtlUninitializeFileLock
 req.header: ntifs.h
@@ -42,42 +42,34 @@ api_name:
 
 # FsRtlUninitializeFileLock function
 
-
 ## -description
 
-The <b>FsRtlUninitializeFileLock</b> routine uninitializes a FILE_LOCK structure.
+The **FsRtlUninitializeFileLock** routine uninitializes a [**FILE_LOCK**](ns-ntifs-file_lock.md) structure.
 
 ## -parameters
 
 ### -param FileLock [in]
 
-
-Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
+Pointer to the [**FILE_LOCK**](ns-ntifs-file_lock.md) structure for the file. This structure must have been initialized by a previous call to [**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
 
 ## -remarks
 
-<b>FsRtlUninitializeFileLock</b> uninitializes an initialized FILE_LOCK structure and completes any outstanding <a href="/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a> requests. The uninitialized FILE_LOCK structure can be initialized for reuse by a subsequent call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
+**FsRtlUninitializeFileLock** uninitializes an initialized FILE_LOCK structure and completes any outstanding [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control) requests. The uninitialized FILE_LOCK structure can be initialized for reuse by a subsequent call to [**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md).
 
-<b>FsRtlUninitializeFileLock</b> can be used to uninitialize a FILE_LOCK structure that was initialized by a previous call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>. Do not use <b>FsRtlUninitializeFileLock</b> for such a FILE_LOCK structure unless the structure is to be initialized for reuse. It is a programming error to call <b>FsRtlFreeFileLock</b> for an uninitialized FILE_LOCK structure.
+**FsRtlUninitializeFileLock** can be used to uninitialize a FILE_LOCK structure that was initialized by a previous call to [**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md) or [**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md). Do not use **FsRtlUninitializeFileLock** for such a FILE_LOCK structure unless the structure is to be initialized for reuse. It is a programming error to call **FsRtlFreeFileLock** for an uninitialized FILE_LOCK structure.
 
-Minifilters must call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuninitializefilelock">FltUninitializeFileLock</a> instead of <b>FsRtlUninitializeFileLock</b>.
+Minifilters must call [**FltUninitializeFileLock**](../fltkernel/nf-fltkernel-fltuninitializefilelock.md) instead of **FsRtlIninitializeFileLock**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuninitializefilelock">FltUninitializeFileLock</a>
+[**FILE_LOCK**](ns-ntifs-file_lock.md)
 
+[**FltUninitializeFileLock**](../fltkernel/nf-fltkernel-fltuninitializefilelock.md)
 
+[**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
+[**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md)
 
+[**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control)
 
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/pcomplete-lock-irp-routine">PCOMPLETE_LOCK_IRP_ROUTINE</a>
+[**PCOMPLETE_LOCK_IRP_ROUTINE**](nc-ntifs-pcomplete_lock_irp_routine.md)

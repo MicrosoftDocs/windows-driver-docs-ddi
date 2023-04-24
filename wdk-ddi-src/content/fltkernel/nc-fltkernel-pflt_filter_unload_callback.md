@@ -79,7 +79,7 @@ When a minifilter driver does register a *FilterUnloadCallback* routine:
 
 * If the FLTFL_FILTER_UNLOAD_MANDATORY flag is set in the *Flags* parameter, the unload operation is mandatory, and the minifilter driver cannot prevent itself from being unloaded.
 
-See [Loading and Unloading](/windows-hardware/drivers/ifs/loading-and-unloading) for more information about possible unload causes and the minifilter driver unload process.
+See [When the FilterUnloadCallback Routine Is Called](/windows-hardware/drivers/ifs/when-the-filterunloadcallback-routine-is-called) for more information about possible unload causes and the minifilter driver unload process.
 
 ## -see-also
 

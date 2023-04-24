@@ -2,9 +2,8 @@
 UID: NF:bidispl.IBidiSpl2.UnbindDevice
 title: IBidiSpl2::UnbindDevice (bidispl.h)
 description: The UnbindDevice method releases a printer from a bidirectional printer communication (bidi communication) request.
-old-location: print\ibidispl2_ibidispl2__unbinddevice.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 03/03/2023
 keywords: ["IBidiSpl2::UnbindDevice"]
 ms.keywords: IBidiSpl2 interface [Print Devices],UnbindDevice method, IBidiSpl2.UnbindDevice, IBidiSpl2::UnbindDevice, UnbindDevice, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices],IBidiSpl2 interface, _win32_IBidiSpl2_UnbindDevice, bidispl/IBidiSpl2::UnbindDevice, gdi.ibidispl2_ibidispl2__unbinddevice, print.ibidispl2_ibidispl2__unbinddevice
 req.header: bidispl.h
@@ -42,68 +41,26 @@ api_name:
 
 # IBidiSpl2::UnbindDevice
 
-
 ## -description
 
-The <b>UnbindDevice</b> method releases a printer from a bidirectional printer communication (bidi communication) request.
+The **UnbindDevice** method releases a printer from a bidirectional printer communication (bidi communication) request.
 
 ## -returns
 
 The method returns one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation was successful.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The interface handle is invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>None of the above</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>HRESULT</b> contains an error code that corresponds to the last error.
-
-</td>
-</tr>
-</table>
+| Value | Description |
+|---|---|
+| **S_OK** | The operation was successful. |
+| **E_HANDLE** | The interface handle is invalid. |
+| **None of the above** | The **HRESULT** contains an error code that corresponds to the last error. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
+[Bidirectional Communication Interfaces](../_print/index.md)
 
+[Bidirectional Communication Schema](/windows-hardware/drivers/print/bidirectional-communication-schema)
 
+[IBidiSpl2](./nn-bidispl-ibidispl2.md)
 
-<a href="/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl2">IBidiSpl2</a>
-
-
-
-<a href="/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>
-
+[Print Spooler Components](/windows-hardware/drivers/print/print-spooler-components)

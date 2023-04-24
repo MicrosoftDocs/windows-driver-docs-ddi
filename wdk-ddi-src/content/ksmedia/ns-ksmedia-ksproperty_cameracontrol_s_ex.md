@@ -1,10 +1,9 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_115
+UID: NS:ksmedia.KSPROPERTY_CAMERACONTROL_S_EX
 title: KSPROPERTY_CAMERACONTROL_S_EX (ksmedia.h)
 description: Specifies a camera control operation, including setting the flash, the image pin control properties, the region of interest in the image, or video stabilization.
-old-location: stream\ksproperty_cameracontrol_s_ex.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/14/2023
 keywords: ["KSPROPERTY_CAMERACONTROL_S_EX structure"]
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_S_EX, KSPROPERTY_CAMERACONTROL_FLAGS_ASYNCHRONOUS, KSPROPERTY_CAMERACONTROL_FLAGS_AUTO, KSPROPERTY_CAMERACONTROL_FLAGS_MANUAL, KSPROPERTY_CAMERACONTROL_S_EX, KSPROPERTY_CAMERACONTROL_S_EX structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S_EX, PKSPROPERTY_CAMERACONTROL_S_EX structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_S_EX, ksmedia/PKSPROPERTY_CAMERACONTROL_S_EX, stream.ksproperty_cameracontrol_s_ex"
 req.header: ksmedia.h
@@ -43,12 +42,9 @@ api_name:
  - KSPROPERTY_CAMERACONTROL_S_EX
 ---
 
-# KSPROPERTY_CAMERACONTROL_S_EX structure
-
-
 ## -description
 
-Specifies a camera control operation, including setting the flash, the image pin control properties, the region of interest in the image, or video stabilization. This structure describes filter-based properties in the <a href="/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a> property set.
+Specifies a camera control operation, including setting the flash, the image pin control properties, the region of interest in the image, or video stabilization. This structure describes filter-based properties in the [PROPSETID_VIDCAP_CAMERACONTROL](/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol) property set.
 
 Supported starting with Windows 8.
 
@@ -56,7 +52,7 @@ Supported starting with Windows 8.
 
 ### -field Property
 
-Specifies an initialized <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure) structure that describes the property set, property ID, and request type.
 
 ### -field Value
 
@@ -64,98 +60,44 @@ Specifies the value of the property. This member is read/write.
 
 ### -field Flags
 
-Indicates, for Get requests, the current setting for the specified property from the values listed below. Indicates, for Set requests, the desired setting for the specified property from the values listed below. This member can be a bitwise <b>OR</b> of the following values that are defined in Ksmedia.h:
+Indicates, for Get requests, the current setting for the specified property from the values listed below. Indicates, for Set requests, the desired setting for the specified property from the values listed below. This member can be a bitwise **OR** of the following values that are defined in *Ksmedia.h*:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="KSPROPERTY_CAMERACONTROL_FLAGS_AUTO"></a><a id="ksproperty_cameracontrol_flags_auto"></a><dl>
-<dt><b>KSPROPERTY_CAMERACONTROL_FLAGS_AUTO</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the setting is controlled automatically.
-If the driver receives this value, it should set the camera control synchronously to automatic mode and then return.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="KSPROPERTY_CAMERACONTROL_FLAGS_MANUAL"></a><a id="ksproperty_cameracontrol_flags_manual"></a><dl>
-<dt><b>KSPROPERTY_CAMERACONTROL_FLAGS_MANUAL</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the setting is controlled manually. If the driver receives this value, it should set the camera control synchronously to manual mode and then return.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="KSPROPERTY_CAMERACONTROL_FLAGS_ASYNCHRONOUS"></a><a id="ksproperty_cameracontrol_flags_asynchronous"></a><dl>
-<dt><b>KSPROPERTY_CAMERACONTROL_FLAGS_ASYNCHRONOUS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates whether the driver should perform the camera control operation asynchronously—where the application has issued a command for the driver to set up the camera control settings in advance of taking a picture.
-
-This flag must be set only if either <b>KSPROPERTY_CAMERACONTROL_FLAGS_MANUAL</b> or <b>KSPROPERTY_CAMERACONTROL_FLAGS_AUTO</b> are set.
-
-If this flag value and the <b>KSPROPERTY_CAMERACONTROL_FLAGS_AUTO</b> flag value are both set, the driver should initiate a worker thread to start one requested control operation and should reject all other requests for the same operation until it has completed the first one. After the operation has successfully completed, the driver should trigger the <a href="/windows-hardware/drivers/stream/kseventsetid-cameraasynccontrol">KSEVENTSETID_CameraAsyncControl</a> event.
-
-</td>
-</tr>
-</table>
+| Value | Description |
+|---|---|
+| **KSPROPERTY_CAMERACONTROL_FLAGS_AUTO** | Indicates that the setting is controlled automatically. If the driver receives this value, it should set the camera control synchronously to automatic mode and then return. |
+| **KSPROPERTY_CAMERACONTROL_FLAGS_MANUAL** | Indicates that the setting is controlled manually. If the driver receives this value, it should set the camera control synchronously to manual mode and then return. |
+| **KSPROPERTY_CAMERACONTROL_FLAGS_ASYNCHRONOUS** | Indicates whether the driver should perform the camera control operation asynchronously—where the application has issued a command for the driver to set up the camera control settings in advance of taking a picture. This flag must be set only if either **KSPROPERTY_CAMERACONTROL_FLAGS_MANUAL** or **KSPROPERTY_CAMERACONTROL_FLAGS_AUTO** are set. If this flag value and the **KSPROPERTY_CAMERACONTROL_FLAGS_AUTO** flag value are both set, the driver should initiate a worker thread to start one requested control operation and should reject all other requests for the same operation until it has completed the first one. After the operation has successfully completed, the driver should trigger the [KSEVENTSETID_CameraAsyncControl](/windows-hardware/drivers/stream/kseventsetid-cameraasynccontrol) event. |
 
 ### -field Capabilities
 
-If set, indicates that when the application submits a query, the driver should return the value of the <b>Capabilities</b> member of the appropriate camera control structure from the following list.
+If set, indicates that when the application submits a query, the driver should return the value of the **Capabilities** member of the appropriate camera control structure from the following list.
 
-<ul>
-<li>
-<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_flash_s">KSPROPERTY_CAMERACONTROL_FLASH_S</a>
-</li>
-<li>
-<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_image_pin_capability_s">KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S</a>
-</li>
-<li>
-<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_region_of_interest_s">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S</a>
-</li>
-<li>
-<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_videostabilization_mode_s">KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S</a>
-</li>
-</ul>
+- [**KSPROPERTY_CAMERACONTROL_FLASH_S**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_flash_s)
+
+- [**KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_image_pin_capability_s)
+
+- [**KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_region_of_interest_s)
+
+- [**KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_videostabilization_mode_s)
 
 ### -field FocusRect
 
-A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that specifies the rectangular region in which the device should set the focus. This structure is available only to Windows desktop applications.
+A [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that specifies the rectangular region in which the device should set the focus. This structure is available only to Windows desktop applications.
 
 ## -remarks
 
-When a requested camera focus operation is completed or is canceled, the driver should generate an event specified by the <b>KSEVENT_CAMERACONTROL_FOCUS</b> enumeration value.
+When a requested camera focus operation is completed or is canceled, the driver should generate an event specified by the **KSEVENT_CAMERACONTROL_FOCUS** enumeration value.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ksevent_cameracontrol">KSEVENT_CAMERACONTROL</a>
+[**KSEVENT_CAMERACONTROL**](/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ksevent_cameracontrol)
 
+[KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)
 
+[**KSPROPERTY_CAMERACONTROL_FLASH_S**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_flash_s)
 
-<a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
+[**KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_region_of_interest_s)
 
+[**KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S**](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_videostabilization_mode_s)
 
-
-<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_flash_s">KSPROPERTY_CAMERACONTROL_FLASH_S</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_region_of_interest_s">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_videostabilization_mode_s">KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S</a>
-
-
-
-<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
-
+[**RECT**](/windows/win32/api/windef/ns-windef-rect)

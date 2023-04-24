@@ -50,7 +50,7 @@ The **ACX_FACTORY_CIRCUIT_ADD_CIRCUIT** structure is used to add circuits by an 
 
 ### -field Size
 
-The length, in bytes, of this structure. 
+The length, in bytes, of this structure.
 
 ### -field Flags
 
@@ -78,7 +78,7 @@ Optional string that provides the target symbolic link name.
 
 ## -remarks
 
-ACX Manager initializes and sends this structure to an ACXFACTORYCIRCUIT when a new ACXCIRCUIT object is needed. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+ACX Manager initializes and sends this structure to an ACXFACTORYCIRCUIT when a new ACXCIRCUIT object is needed. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 Drivers receive this structure in their ACXFACTORYCIRCUIT's callback as a passing parameter.
 
@@ -90,8 +90,12 @@ Example pending.
 
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
-- [acxcircuit.h header](index.md)
-
-
+- [acxcircuit.h header\]\(index.md\)

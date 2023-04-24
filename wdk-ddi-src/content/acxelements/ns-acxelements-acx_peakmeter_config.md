@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_PEAKMETER_CONFIG
 ms.date: 04/29/2022
 targetos: Windows
-description: The ACX_PEAKMETER_CONFIG structure is used to define the audio peakmeter configuration. 
+description: The ACX_PEAKMETER_CONFIG structure is used to define the audio peakmeter configuration.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -120,6 +120,12 @@ Example usage is shown below.
         peakmeterCfg.SteppingDelta = PEAKMETER_STEPPING_DELTA;
         peakmeterCfg.Callbacks = &peakmeterCallbacks;
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

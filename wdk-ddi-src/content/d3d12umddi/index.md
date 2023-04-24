@@ -6,7 +6,7 @@ ms.assetid: f0332247-492e-3990-bccc-5ec7fc2fd910
 ms.date: 05/09/2018
 keywords: ["D3D12Umddi.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: display
 f1_keywords:
  - d3d12umddi

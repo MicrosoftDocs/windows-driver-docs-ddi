@@ -53,7 +53,7 @@ A pointer to the [ACX_STREAM_BRIDGE_CONFIG](ns-acxstreams-acx_stream_bridge_conf
 ## -remarks
 
 Drivers should call ACX_STREAM_BRIDGE_CONFIG_INIT when creating an ACXSTREAMBRIDGE.
-This function resets the [ACX_STREAM_BRIDGE_CONFIG structure](ns-acxstreams-acx_stream_bridge_config.md) and initializes the Type field to AcxStreamBridgeDefaultType. 
+This function resets the [ACX_STREAM_BRIDGE_CONFIG structure](ns-acxstreams-acx_stream_bridge_config.md) and initializes the Type field to AcxStreamBridgeDefaultType.
 
 ### Example
 
@@ -65,6 +65,12 @@ This function resets the [ACX_STREAM_BRIDGE_CONFIG structure](ns-acxstreams-acx_
     streamCfg.InModes      = inModes; 
     streamCfg.OutMode      = &AUDIO_SIGNALPROCESSINGMODE_DEFAULT;
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

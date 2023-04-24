@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxPnpEventGenerateEvent
 tech.root: audio
 title: AcxPnpEventGenerateEvent
-ms.date: 06/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxPnpEventGenerateEvent function generates an ACX PNP event.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxevents.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -81,7 +81,12 @@ This example code snip, shows the use of AcxPnpEventGenerateEvent.
         status = AcxPnpEventGenerateEvent(audioModuleCtx->Event, &customNotification, (USHORT)sizeof(customNotification));
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxevents.h header](index.md)
-

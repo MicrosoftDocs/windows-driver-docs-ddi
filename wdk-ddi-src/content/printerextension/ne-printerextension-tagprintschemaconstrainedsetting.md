@@ -66,4 +66,4 @@ The Option is constrained by the device configuration. The Option should not be 
 
 ## -see-also
 
-[IPrintSchemaOption::Constrained](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaoption-get_constrained)
+[IPrintSchemaOption::Constrained](./nf-printerextension-iprintschemaoption-get_constrained.md)

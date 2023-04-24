@@ -10,7 +10,7 @@ ms.keywords: "*PWHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO, PWHEA_P
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
-req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -45,9 +45,6 @@ api_name:
  - PWHEA_PROCESSOR_FAMILY_INFO
  - WHEA_PROCESSOR_FAMILY_INFO
 ---
-
-# _WHEA_PROCESSOR_FAMILY_INFO structure
-
 
 ## -description
 
@@ -97,11 +94,10 @@ A ULONGLONG representation of the contents of the WHEA_PROCESSOR_FAMILY_INFO uni
 
 ## -remarks
 
-For x86 and x64 processors, the <b>CPUVersion</b> member of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_generic_error_section">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a> structure contains a WHEA_PROCESSOR_FAMILY_INFO union.
+For x86 and x64 processors, the **CPUVersion** member of the [**WHEA_PROCESSOR_GENERIC_ERROR_SECTION**](./ns-ntddk-_whea_processor_generic_error_section.md) structure contains a WHEA_PROCESSOR_FAMILY_INFO union.
 
-The contents of this union are obtained by executing the CPUID instruction with the EAX register set to 1 on input. For more information about the CPUID instruction, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>. For additional information about the data that is contained in the members of this union, see <a href="https://go.microsoft.com/fwlink/p/?linkid=80097">AP-485 Intel Processor Identification and the CPUID Instruction</a>.
+The contents of this union are obtained by executing the CPUID instruction with the EAX register set to 1 on input. For more information about the CPUID instruction, see the [Intel 64 and IA-32 Architectures Software Developer's Manual](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html). For additional information about the data that is contained in the members of this union, see [AP-485 Intel Processor Identification and the CPUID Instruction](https://www.intel.com/content/www/us/en/developer/overview.html).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_generic_error_section">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a>
-
+[WHEA_PROCESSOR_GENERIC_ERROR_SECTION](./ns-ntddk-_whea_processor_generic_error_section.md)

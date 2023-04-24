@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_105
+UID: NE:ksmedia.KS_CompressionCaps
 title: KS_CompressionCaps (ksmedia.h)
 description: The KS_CompressionCaps enumeration defines compression capabilities of a device.
 old-location: stream\ks_compressioncaps.htm
@@ -76,3 +76,4 @@ The video compressor supports a user-specified window size (that is, the number 
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader">KS_VIDEOINFOHEADER</a>
+

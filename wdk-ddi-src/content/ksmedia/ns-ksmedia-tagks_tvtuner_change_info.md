@@ -1,10 +1,9 @@
 ---
 UID: NS:ksmedia.tagKS_TVTUNER_CHANGE_INFO
-title: tagKS_TVTUNER_CHANGE_INFO (ksmedia.h)
+title: KS_TVTUNER_CHANGE_INFO (ksmedia.h)
 description: The KS_TVTUNER_CHANGE_INFO structure provides vertical blanking interval (VBI) codecs with information about the currently tuned channel.
-old-location: stream\ks_tvtuner_change_info.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/15/2023
 keywords: ["tagKS_TVTUNER_CHANGE_INFO structure"]
 ms.keywords: "*PKS_TVTUNER_CHANGE_INFO, KS_TVTUNER_CHANGE_INFO, KS_TVTUNER_CHANGE_INFO structure [Streaming Media Devices], PKS_TVTUNER_CHANGE_INFO, PKS_TVTUNER_CHANGE_INFO structure pointer [Streaming Media Devices], ksmedia/KS_TVTUNER_CHANGE_INFO, ksmedia/PKS_TVTUNER_CHANGE_INFO, stream.ks_tvtuner_change_info, tagKS_TVTUNER_CHANGE_INFO, vidcapstruct_225fdabf-bdaf-49df-a2e3-ace62a0a17e2.xml"
 req.header: ksmedia.h
@@ -46,45 +45,20 @@ api_name:
  - KS_TVTUNER_CHANGE_INFO
 ---
 
-# tagKS_TVTUNER_CHANGE_INFO structure
-
-
 ## -description
 
-The KS_TVTUNER_CHANGE_INFO structure provides vertical blanking interval (VBI) codecs with information about the currently tuned channel.
+The **KS_TVTUNER_CHANGE_INFO** structure provides vertical blanking interval (VBI) codecs with information about the currently tuned channel.
 
 ## -struct-fields
 
 ### -field dwFlags
 
-Specifies flags indicating the status of the tuning operation. This member must be set to one of the following values that are defined in <i>ksmedia.h</i>:
+Specifies flags indicating the status of the tuning operation. This member must be set to one of the following values that are defined in *ksmedia.h*:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-KS_TVTUNER_CHANGE_BEGIN_TUNE
-
-</td>
-<td>
-Indicates that a tuning operation has begun. VBI codecs should stop decoding at this time, because the video signal may become corrupted.
-
-</td>
-</tr>
-<tr>
-<td>
-KS_TVTUNER_CHANGE_END_TUNE
-
-</td>
-<td>
-Indicates completion of a tuning operation. VBI codecs should resume decoding.
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| KS_TVTUNER_CHANGE_BEGIN_TUNE | Indicates that a tuning operation has begun. VBI codecs should stop decoding at this time, because the video signal may become corrupted. |
+| KS_TVTUNER_CHANGE_END_TUNE | Indicates completion of a tuning operation. VBI codecs should resume decoding. |
 
 ### -field dwCountryCode
 
@@ -92,7 +66,7 @@ Specifies the country code in use. This corresponds to the International Telecom
 
 ### -field dwAnalogVideoStandard
 
-Specifies the current analog video standard. This member should be set to a value from the <a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a> enumeration.
+Specifies the current analog video standard. This member should be set to a value from the [KS_AnalogVideoStandard](/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_analogvideostandard) enumeration.
 
 ### -field dwChannel
 
@@ -104,5 +78,4 @@ A packet containing a KS_TVTUNER_CHANGE_INFO structure normally originates at a 
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a>
-
+[KS_AnalogVideoStandard](/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_analogvideostandard)

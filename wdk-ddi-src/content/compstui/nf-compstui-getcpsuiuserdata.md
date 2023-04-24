@@ -2,9 +2,8 @@
 UID: NF:compstui.GetCPSUIUserData
 title: GetCPSUIUserData function (compstui.h)
 description: CPSUI's GetCPSUIUserData function retrieves data that was previously stored using the SetCPSUIUserData function.
-old-location: print\getcpsuiuserdata.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 11/15/2022
 keywords: ["GetCPSUIUserData function"]
 ms.keywords: GetCPSUIUserData, GetCPSUIUserData function [Print Devices], compstui/GetCPSUIUserData, cpsuifnc_78057e6d-1a47-4b92-9d43-881ab0935169.xml, print.getcpsuiuserdata
 req.header: compstui.h
@@ -40,25 +39,22 @@ api_name:
  - GetCPSUIUserData
 ---
 
-# GetCPSUIUserData function
-
-
 ## -description
 
-CPSUI's <b>GetCPSUIUserData</b> function retrieves data that was previously stored using the <a href="/windows-hardware/drivers/ddi/compstui/nf-compstui-setcpsuiuserdata">SetCPSUIUserData</a> function.
+CPSUI's **GetCPSUIUserData** function retrieves data that was previously stored using the [SetCPSUIUserData](./nf-compstui-setcpsuiuserdata.md) function.
 
 ## -parameters
 
 ### -param hDlg
 
-Caller-supplied handle to a property sheet dialog box. For more information, see the following Remarks section.
+Caller-supplied handle to a property sheet dialog box. For more information, see the **Remarks** section below.
 
 ## -returns
 
-If the operation succeeds, the function returns the value that was previously supplied to <a href="/windows-hardware/drivers/ddi/compstui/nf-compstui-setcpsuiuserdata">SetCPSUIUserData</a>; otherwise the function returns zero.
+If the operation succeeds, the function returns the value that was previously supplied to [SetCPSUIUserData](./nf-compstui-setcpsuiuserdata.md); otherwise the function returns zero.
 
 ## -remarks
 
-The <b>GetCPSUIUserData</b> function should only be called from within a dialog box procedure that has been associated with a dialog box by using a <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage">DLGPAGE</a> or an <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_extpush">EXTPUSH</a> structure.
+The **GetCPSUIUserData** function should only be called from within a dialog box procedure that has been associated with a dialog box by using a [DLGPAGE](./ns-compstui-_dlgpage.md) or an [EXTPUSH](./ns-compstui-_extpush.md) structure.
 
-The handle specified for <i>hDlg</i> must be the handle received as input to the dialog box procedure. (Dialog box procedures are described in the Microsoft Windows SDK documentation.)
+The handle specified for *hDlg* must be the handle received as input to the dialog box procedure. For more information, see [Dialog box programming considerations](/windows/win32/dlgbox/dlgbox-programming-considerations).

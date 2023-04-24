@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS (wdffdo.h)
 description: A driver's EvtDeviceFilterAddResourceRequirements event callback function can add resources to a set of hardware resource requirements before the system assigns resources to a device.
 old-location: wdf\evtdevicefilteraddresourcerequirements.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 10/28/2022
 keywords: ["EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_7a176cba-5c3b-42b7-81e5-0a6a9b49f55c.xml, EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS, EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback, EvtDeviceFilterXxxResourceRequirements, EvtDeviceFilterXxxResourceRequirements callback function, kmdf.evtdevicefilteraddresourcerequirements, wdf.evtdevicefilteraddresourcerequirements, wdf.evtdevicefilterremoveresourcerequirements, wdffdo/EvtDeviceFilterXxxResourceRequirements
 req.header: wdffdo.h
@@ -83,7 +83,8 @@ For more information about these callback functions, see <a href="/windows-hardw
 
 For more information about hardware resources and resource requirements lists, see <a href="/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
+For information about modifying interrupt resources (for example processor affinity), see the Remarks section of [**WdfInterruptSetPolicy**](../wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetpolicy.md).
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_remove_added_resources">EvtDeviceRemoveAddedResources</a>
-

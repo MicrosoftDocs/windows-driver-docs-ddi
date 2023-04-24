@@ -10,7 +10,7 @@ ms.keywords: RtlGetDaclSecurityDescriptor, RtlGetDaclSecurityDescriptor routine 
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Microsoft Windows Server 2003 SP1 and later.
+req.target-min-winverclnt: Windows Server 2003 SP1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -95,7 +95,7 @@ The security descriptor's revision level is unknown or is not supported. This is
 
 A value of <b>TRUE</b> for <i>*DaclPresent</i> does not mean that <i>*Dacl</i> is non-<b>NULL</b>. That is, <i>*DaclPresent</i> can be <b>TRUE</b> while <i>*Dacl</i> is <b>NULL</b>, meaning that a <b>NULL</b> DACL is in effect. A <b>NULL</b> DACL implicitly allows all access to an object and is not the same as an empty DACL. An empty DACL permits no access to an object. 
 
-For more information about security and access control, see the documentation for these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 

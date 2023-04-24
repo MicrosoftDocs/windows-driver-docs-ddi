@@ -2,9 +2,8 @@
 UID: NS:prntfont._UNIDRVINFO
 title: _UNIDRVINFO (prntfont.h)
 description: The UNIDRVINFO structure is used to specify printer-specific information within Unidrv font metrics files (.ufm files).
-old-location: print\unidrvinfo.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 03/08/2023
 keywords: ["UNIDRVINFO structure"]
 ms.keywords: "*PUNIDRVINFO, PUNIDRVINFO, PUNIDRVINFO structure pointer [Print Devices], UNIDRVINFO, UNIDRVINFO structure [Print Devices], _UNIDRVINFO, print.unidrvinfo, print_unidrv-pscript_fonts_b956aa02-1966-47c6-aec1-8ef8b98f4e57.xml, prntfont/PUNIDRVINFO, prntfont/UNIDRVINFO"
 req.header: prntfont.h
@@ -46,12 +45,9 @@ api_name:
  - UNIDRVINFO
 ---
 
-# _UNIDRVINFO structure
-
-
 ## -description
 
-The UNIDRVINFO structure is used to specify printer-specific information within <a href="/windows-hardware/drivers/print/customized-font-management">Unidrv font metrics files</a> (.ufm files).
+The UNIDRVINFO structure is used to specify printer-specific information within [Unidrv font metrics files](/windows-hardware/drivers/print/customized-font-management) (.ufm files).
 
 ## -struct-fields
 
@@ -63,196 +59,38 @@ Specifies the size, in bytes, of the UNIDRVINFO structure.
 
 Contains one or more bit flags describing font characteristics. The following flags are defined:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Definition</th>
-</tr>
-<tr>
-<td>
-UFM_CART
-
-</td>
-<td>
-The font is contained in a cartridge.
-
-</td>
-</tr>
-<tr>
-<td>
-UFM_SCALABLE
-
-</td>
-<td>
-The font is scalable.
-
-</td>
-</tr>
-<tr>
-<td>
-UFM_SOFT
-
-</td>
-<td>
-The font is a soft font, requiring downloading.
-
-</td>
-</tr>
-</table>
+| Flag | Definition |
+|---|---|
+| UFM_CART | The font is contained in a cartridge. |
+| UFM_SCALABLE | The font is scalable. |
+| UFM_SOFT | The font is a soft font, requiring downloading. |
 
 ### -field wType
 
-Contains an integer constant describing the font type. The following constants are defined: 
+Contains an integer constant describing the font type. The following constants are defined:
 
-<table>
-<tr>
-<th>Constant</th>
-<th>Definition</th>
-</tr>
-<tr>
-<td>
-DF_TYPE_CAPSL
-
-</td>
-<td>
-Canon CAPSL scalable font
-
-</td>
-</tr>
-<tr>
-<td>
-DF_TYPE_HPINTELLIFONT
-
-</td>
-<td>
-HP Intellifont font
-
-</td>
-</tr>
-<tr>
-<td>
-DF_TYPE_OEM1
-
-</td>
-<td>
-OEM-supplied scalable font
-
-</td>
-</tr>
-<tr>
-<td>
-DF_TYPE_OEM2
-
-</td>
-<td>
-OEM-supplied scalable font
-
-</td>
-</tr>
-<tr>
-<td>
-DF_TYPE_PST1
-
-</td>
-<td>
-Lexmark PPDS scalable font
-
-</td>
-</tr>
-<tr>
-<td>
-DF_TYPE_TRUETYPE
-
-</td>
-<td>
-HP PCLETTO font for LJ4 printers
-
-</td>
-</tr>
-</table>
+| Constant | Definition |
+|---|---|
+| DF_TYPE_CAPSL | Canon CAPSL scalable font |
+| DF_TYPE_HPINTELLIFONT | HP Intellifont font |
+| DF_TYPE_OEM1 | OEM-supplied scalable font |
+| DF_TYPE_OEM2 | OEM-supplied scalable font |
+| DF_TYPE_PST1 | Lexmark PPDS scalable font |
+| DF_TYPE_TRUETYPE | HP PCLETTO font for LJ4 printers |
 
 ### -field fCaps
 
 Contains one or more bit flags identifying limitations on the capabilities provided by a device font. The following flags are defined:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Definition</th>
-</tr>
-<tr>
-<td>
-DF_BKSP_OK
-
-</td>
-<td>
-If set, a single backspace character can move the cursor to the beginning of the overstrike region. If not set, an x-movement cursor command must be sent.
-
-(Used only if MTYPE_PAIRED is specified for the character's <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_transdata">TRANSDATA</a> structure in <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable">MAPTABLE</a>. Otherwise ignored.)
-
-</td>
-</tr>
-<tr>
-<td>
-DF_NO_BOLD
-
-</td>
-<td>
-The device font cannot be bolded using underline simulation.
-
-</td>
-</tr>
-<tr>
-<td>
-DF_NO_DOUBLE_UNDERLINE
-
-</td>
-<td>
-The device font cannot be double-underlined using double-underline simulation.
-
-</td>
-</tr>
-<tr>
-<td>
-DF_NO_STRIKETHRU
-
-</td>
-<td>
-The device font cannot be struck through using strike-through simulation.
-
-</td>
-</tr>
-<tr>
-<td>
-DF_NOITALIC
-
-</td>
-<td>
-The device font cannot be italicized using italic simulation.
-
-</td>
-</tr>
-<tr>
-<td>
-DF_NOUNDER
-
-</td>
-<td>
-The device font cannot be underlined using underline simulation.
-
-</td>
-</tr>
-<tr>
-<td>
-DF_XM_CR
-
-</td>
-<td>
-Unidrv must send a carriage return command after each line of text.
-
-</td>
-</tr>
-</table>
+| Flag | Definition |
+|---|---|
+| DF_BKSP_OK | If set, a single backspace character can move the cursor to the beginning of the overstrike region. If not set, an x-movement cursor command must be sent. (Used only if MTYPE_PAIRED is specified for the character's [**TRANSDATA**](./ns-prntfont-_transdata.md) structure in [**MAPTABLE**](./ns-prntfont-_maptable.md). Otherwise ignored.) |
+| DF_NO_BOLD | The device font cannot be bolded using underline simulation. |
+| DF_NO_DOUBLE_UNDERLINE | The device font cannot be double-underlined using double-underline simulation. |
+| DF_NO_STRIKETHRU | The device font cannot be struck through using strike-through simulation. |
+| DF_NOITALIC | The device font cannot be italicized using italic simulation. |
+| DF_NOUNDER | The device font cannot be underlined using underline simulation. |
+| DF_XM_CR | Unidrv must send a carriage return command after each line of text. |
 
 ### -field wXRes
 
@@ -280,7 +118,7 @@ Specifies the number of pixels by which each character must be shifted. Used for
 
 ### -field SelectFont
 
-Is an <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a> structure containing the printer's font selection command.
+Is an [**INVOC**](./ns-prntfont-_invoc.md) structure containing the printer's font selection command.
 
 ### -field UnSelectFont
 
@@ -292,9 +130,8 @@ Not used.
 
 ## -remarks
 
-A .ufm (Unidrv Font Metrics) file's UNIDRVINFO structure is accessed by a pointer in the file's <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a> structure.
+A .ufm (Unidrv Font Metrics) file's UNIDRVINFO structure is accessed by a pointer in the file's [**UNIFM_HDR**](./ns-prntfont-_unifm_hdr.md) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a>
-
+[**INVOC**](./ns-prntfont-_invoc.md)

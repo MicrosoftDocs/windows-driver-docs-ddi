@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_137
+UID: NS:ksmedia.KSPROPERTY_EXTXPORT_S
 title: KSPROPERTY_EXTXPORT_S (ksmedia.h)
 description: The KSPROPERTY_EXTXPORT_S structure describes an external transport and its capabilities.
 old-location: stream\ksproperty_extxport_s.htm

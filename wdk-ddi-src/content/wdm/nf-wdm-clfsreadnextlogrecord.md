@@ -63,7 +63,7 @@ A pointer to a variable that receives a pointer to a buffer that contains the re
 ### -param pcbBuffer [out]
 
 
-A pointer to a ULONG-typed variable that receives the size, in bytes, of the buffer pointed to by *<i>ppvBuffer</i>. This is the length of the data buffer of the record read.
+A pointer to a ULONG-typed variable that receives the size, in bytes, of the buffer pointed to by **ppvBuffer*. This is the length of the data buffer of the record read.
 
 ### -param peRecordType [in, out]
 

@@ -60,6 +60,12 @@ This example shows the definition of DECLARE_CONST_ACXOBJECTBAG_USB_PROPERTY_NAM
 	DECLARE_CONST_ACXOBJECTBAG_USB_PROPERTY_NAME(TestUsbName);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxmisc.h header](index.md)

@@ -2,9 +2,8 @@
 UID: NF:bidispl.IBidiRequest.SetInputData
 title: IBidiRequest::SetInputData (bidispl.h)
 description: The SetInputData method sets the data to send to the printer.
-old-location: print\ibidirequest_ibidirequest__setinputdata.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 03/03/2023
 keywords: ["IBidiRequest::SetInputData"]
 ms.keywords: BIDI_BLOB, BIDI_BOOL, BIDI_ENUM, BIDI_FLOAT, BIDI_INT, BIDI_NULL, BIDI_STRING, BIDI_TEXT, IBidiRequest interface [Print Devices],SetInputData method, IBidiRequest.SetInputData, IBidiRequest::SetInputData, SetInputData, SetInputData method [Print Devices], SetInputData method [Print Devices],IBidiRequest interface, _win32_IBidiRequest_SetInputData, bidispl/IBidiRequest::SetInputData, gdi.ibidirequest_ibidirequest__setinputdata, print.ibidirequest_ibidirequest__setinputdata
 req.header: bidispl.h
@@ -40,196 +39,55 @@ api_name:
  - IBidiRequest::SetInputData
 ---
 
-# IBidiRequest::SetInputData
-
-
 ## -description
 
-The <b>SetInputData</b> method sets the data to send to the printer.
+The **SetInputData** method sets the data to send to the printer.
 
 ## -parameters
 
 ### -param dwType [in]
 
-
 The type of data to be sent. This parameter can be one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="BIDI_NULL"></a><a id="bidi_null"></a><dl>
-<dt><b>BIDI_NULL</b></dt>
-</dl>
-</td>
-<td width="60%">
-No data.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="BIDI_INT"></a><a id="bidi_int"></a><dl>
-<dt><b>BIDI_INT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Integer data.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="BIDI_FLOAT"></a><a id="bidi_float"></a><dl>
-<dt><b>BIDI_FLOAT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Floating-point number.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="BIDI_BOOL"></a><a id="bidi_bool"></a><dl>
-<dt><b>BIDI_BOOL</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>TRUE</b> or <b>FALSE</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="BIDI_STRING"></a><a id="bidi_string"></a><dl>
-<dt><b>BIDI_STRING</b></dt>
-</dl>
-</td>
-<td width="60%">
-Unicode character string.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="BIDI_TEXT"></a><a id="bidi_text"></a><dl>
-<dt><b>BIDI_TEXT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Non-localizable Unicode string.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="BIDI_ENUM"></a><a id="bidi_enum"></a><dl>
-<dt><b>BIDI_ENUM</b></dt>
-</dl>
-</td>
-<td width="60%">
-Enumeration data in the form of a Unicode string.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="BIDI_BLOB"></a><a id="bidi_blob"></a><dl>
-<dt><b>BIDI_BLOB</b></dt>
-</dl>
-</td>
-<td width="60%">
-Binary data.
-
-</td>
-</tr>
-</table>
+| Value | Description |
+|---|---|
+| **BIDI_NULL** | No data. |
+| **BIDI_INT** | Integer data. |
+| **BIDI_FLOAT** | Floating-point number. |
+| **BIDI_BOOL** | **TRUE** or **FALSE** |
+| **BIDI_STRING** | Unicode character string. |
+| **BIDI_TEXT** | Non-localizable Unicode string. |
+| **BIDI_ENUM** | Enumeration data in the form of a Unicode string. |
+| **BIDI_BLOB** | Binary data. |
 
 ### -param pData [in]
 
-
-A pointer to the byte array that contains the data. For example, if <i>dwType</i> is BIDI_BOOL, <i>pData</i> points to a buffer that contains a Boolean value and if <i>dwType</i> is BIDI_BLOB, <i>pData</i> points to a buffer that contains the binary data.
+A pointer to the byte array that contains the data. For example, if *dwType* is BIDI_BOOL, *pData* points to a buffer that contains a Boolean value and if *dwType* is BIDI_BLOB, *pData* points to a buffer that contains the binary data.
 
 ### -param uSize [in]
 
-
-Size, in bytes, of the byte array specified by <i>pData</i>.
+Size, in bytes, of the byte array specified by *pData*.
 
 ## -returns
 
-The method returns one of the following values. For more information about COM error codes, see <a href="/windows/win32/com/com-error-codes">COM Error Codes</a>.
+The method returns one of the following values. For more information about COM error codes, see [COM Error Codes](/windows/win32/com/com-error-codes).
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation was successfully carried out.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The interface handle was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-The type of the data was not consistent with its size.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-Memory allocation failed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>None of the above</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>HRESULT</b> contains an error code corresponding to the last error.
-
-</td>
-</tr>
-</table>
+| Value | Description |
+|---|---|
+| **S_OK** | The operation was successfully carried out. |
+| **E_HANDLE** | The interface handle was invalid. |
+| **E_INVALIDARG** | The type of the data was not consistent with its size. |
+| **E_OUTOFMEMORY** | Memory allocation failed. |
+| **None of the above** | The **HRESULT** contains an error code corresponding to the last error. |
 
 ## -remarks
 
-If an application calls <b>SetInputData</b> more than once, only the value of the last call will be set.
+If an application calls **SetInputData** more than once, only the value of the last call will be set.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
+[Bidirectional Communication Interfaces](../_print/index.md)
 
+[Bidirectional Communication Schema](/windows-hardware/drivers/print/bidirectional-communication-schema)
 
-
-<a href="/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>
-
+[IBidiRequest](./nn-bidispl-ibidirequest.md)

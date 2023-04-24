@@ -1,10 +1,9 @@
 ---
 UID: NF:ntddk.PsAllocSiloContextSlot
 title: PsAllocSiloContextSlot function (ntddk.h)
-description: This routine allocates a slot that can be used to insert, retrieve, and delete an object in all silos. .
-old-location: kernel\psallocsilocontextslot.htm
+description: This routine allocates a slot that can be used to insert, retrieve, and delete an object in all silos.
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/20/2023
 keywords: ["PsAllocSiloContextSlot function"]
 ms.keywords: PsAllocSiloContextSlot, PsAllocSiloContextSlot routine [Kernel-Mode Driver Architecture], kernel.psallocsilocontextslot, ntddk/PsAllocSiloContextSlot
 req.header: ntddk.h
@@ -40,9 +39,6 @@ api_name:
  - PsAllocSiloContextSlot
 ---
 
-# PsAllocSiloContextSlot function
-
-
 ## -description
 
 This routine allocates a slot that can be used to insert, retrieve, and delete an object in all silos.
@@ -51,51 +47,25 @@ This routine allocates a slot that can be used to insert, retrieve, and delete a
 
 ### -param Reserved [in]
 
-
-This parameter is reserved for future use and <b>must be set to zero</b>.
+This parameter is reserved for future use and **must be set to zero**.
 
 ### -param ReturnedContextSlot [out]
 
-
-A pointer to a caller-allocated variable that receives the newly allocated slot index. This parameter is required and it cannot be <b>NULL</b>.
+A pointer to a caller-allocated variable that receives the newly allocated slot index. This parameter is required and it cannot be **NULL**.
 
 ## -returns
 
 The following NT status codes are returned.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES </b></dt>
-</dl>
-</td>
-<td width="60%">
-There are no more slots available in the system. This is an error code.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation completed successfully.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|--|--|
+| **STATUS_INSUFFICIENT_RESOURCES** | There are no more slots available in the system. This is an error code. |
+| **STATUS_SUCCESS** | The operation completed successfully. |
 
 ## -remarks
 
-Use of this API is uncommon because all silo monitors are assigned a storage slot when calling the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psregistersilomonitor">PsRegisterSiloMonitor</a> routine.  That slot can be retrieved with the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetsilomonitorcontextslot">PsGetSiloMonitorContextSlot</a> routine and used by a driver for its context operations.
+Use of this API is uncommon because all silo monitors are assigned a storage slot when calling the [PsRegisterSiloMonitor](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psregistersilomonitor) routine.  That slot can be retrieved with the [PsGetSiloMonitorContextSlot](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetsilomonitorcontextslot) routine and used by a driver for its context operations.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psfreesilocontextslot">PsFreeSiloContextSlot</a>
+[PsFreeSiloContextSlot](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psfreesilocontextslot)

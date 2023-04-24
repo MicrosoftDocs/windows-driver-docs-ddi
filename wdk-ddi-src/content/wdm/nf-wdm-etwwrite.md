@@ -2,15 +2,14 @@
 UID: NF:wdm.EtwWrite
 title: EtwWrite function (wdm.h)
 description: The EtwWrite function is a tracing function for publishing events in your kernel-mode driver code.
-old-location: devtest\etwwrite.htm
 tech.root: devtest
-ms.date: 02/23/2018
+ms.date: 01/12/2023
 keywords: ["EtwWrite function"]
 ms.keywords: EtwWrite, EtwWrite function [Driver Development Tools], devtest.etwwrite, etw_km_af581b5c-6124-4bb0-8756-c4a0009e7a00.xml, wdm/EtwWrite
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,67 +39,59 @@ api_name:
  - EtwWrite
 ---
 
-# EtwWrite function
-
-
 ## -description
 
-The <b>EtwWrite</b> function is a tracing function for publishing events in your kernel-mode driver code.
+The **EtwWrite** function is a tracing function for publishing events in your kernel-mode driver code.
 
 ## -parameters
 
 ### -param RegHandle [in]
 
-
-A pointer to the event provider registration handle, which is returned by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a> function if the event provider registration is successful.
+A pointer to the event provider registration handle, which is returned by the [EtwRegister](./nf-wdm-etwregister.md) function if the event provider registration is successful.
 
 ### -param EventDescriptor [in]
 
-
-A pointer to the <a href="/windows/win32/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure.
+A pointer to the [EVENT_DESCRIPTOR](/windows/win32/api/evntprov/ns-evntprov-event_descriptor) structure.
 
 ### -param ActivityId [in, optional]
 
-
-The identifier that indicates the activity associated with the event. The <i>ActivityID</i> provides a way to group related events and is used in end-to-end tracing.
+The identifier that indicates the activity associated with the event. The *ActivityID* provides a way to group related events and is used in end-to-end tracing.
 
 ### -param UserDataCount [in]
 
-
-The number of EVENT_DATA_DESCRIPTOR structures in <i>UserData</i>.
+The number of EVENT_DATA_DESCRIPTOR structures in *UserData*.
 
 ### -param UserData [in, optional]
-
 
 A pointer to the array of EVENT_DATA_DESCRIPTOR structures.
 
 ## -returns
 
-If the event was successfully published, <b>EtwWrite</b> returns STATUS_SUCCESS.
+If the event was successfully published, **EtwWrite** returns STATUS_SUCCESS.
 
-If the pointer to the event provider registration handle is invalid, <b>EtwWrite</b> returns STATUS_INVALID_HANDLE. The event provider must be registered before <b>EtwWrite</b> is called. <b>EtwWrite</b> can also return STATUS_INVALID_HANDLE if it is unable to log the event.
+If the pointer to the event provider registration handle is invalid, **EtwWrite** returns STATUS_INVALID_HANDLE. The event provider must be registered before **EtwWrite** is called. **EtwWrite** can also return STATUS_INVALID_HANDLE if it is unable to log the event.
 
+If the number of EVENT_DATA_DESCRIPTOR structures specified in *UserDataCount* is greater than the maximum allowed (128), **EtwWrite** returns STATUS_INVALID_PARAMETER.
 
+If *ActivityID* is specified, but there is insufficient memory available to log the data associated with the event, **EtwWrite** returns STATUS_NO_MEMORY.
 
-If the number of EVENT_DATA_DESCRIPTOR structures specified in <i>UserDataCount</i> is greater than the maximum allowed (128), <b>EtwWrite</b> returns STATUS_INVALID_PARAMETER.
+If the provider is not enabled for any session, **EtwWrite** returns STATUS_SUCCESS and the events are not logged.
 
-If <i>ActivityID</i> is specified, but there is insufficient memory available to log the data associated with the event, <b>EtwWrite</b> returns STATUS_NO_MEMORY.
+Events can be lost for several reasons; for example, if the event rate is too high or if the event size is greater than the buffer size. In these cases, the **EventsLost** counter, a member of the EVENT_TRACE_PROPERTIES structure for the corresponding logger, is updated with the number of events that were not recorded.
 
+## -remarks
 
+The **EtwWrite** function is the kernel-mode equivalent of the user-mode **EventWrite** function. To ensure that there is a consumer for the event you are publishing, you can precede the call to **EtwWrite** with a call to [EtwEventEnabled](./nf-wdm-etweventenabled.md) or [EtwProviderEnabled](./nf-wdm-etwproviderenabled.md).
 
-If the provider is not enabled for any session, <b>EtwWrite</b> returns STATUS_SUCCESS and the events are not logged.
+Before you can call **EtwWrite** function to publish an event, you must register the provider with **EtwRegister**. No tracing calls should be made that fall outside of the code bounded by the **EtwRegister** and **EtwUnregister** functions. For the best performance, you can call the **EtwRegister** function in your **DriverEntry** routine and the **EtwUnregister** function in your **DriverUnload** routine.
 
+If you are using the optional *UserData* parameter in the **EtwWrite** function to log additional event data, you can use the **EventDataDescCreate** macro to simplify the creation of the EVENT_DATA_DESCRIPTOR structures. The following example uses the **EventDataDescCreate** macro to initialize EVENT_DATA_DESCRIPTOR structures with  the name of the device and its status. The **EventDataDescCreate** macro stores pointers to the data (that is, it does not store copies of the data). The pointers must remain valid until the call to **EtwWrite** returns.
 
+You can call **EtwWrite** at any IRQL. However, when IRQL is greater than APC_LEVEL, any data passed to the **EtwWrite**, [EtwWriteEx](./nf-wdm-etwwriteex.md), **EtwWriteString**, **EtwWriteTransfer** functions must not be pageable. That is, any kernel-mode routine that is running at IRQL greater than APC_LEVEL cannot access pageable memory.  Data passed to the **EtwWrite**, **EtwWriteEx**, **EtwWriteString**, and **EtwWriteTransfer** functions must reside in system-space memory, regardless of what the IRQL is.
 
+### Example
 
-
-Events can be lost for several reasons; for example, if the event rate is too high or if the event size is greater than the buffer size. In these cases, the <b>EventsLost</b> counter, a member of the EVENT_TRACE_PROPERTIES structure for the corresponding logger, is updated with the number of events that were not recorded.
-
-
-
-<h3><a id="example"></a><a id="EXAMPLE"></a>Example</h3>
-
-```
+```cpp
  
  //
  // Register the provider with ETW in DriverEntry
@@ -139,45 +130,20 @@ Events can be lost for several reasons; for example, if the event rate is too hi
 //
 ```
 
-
-## -remarks
-
-The <b>EtwWrite</b> function is the kernel-mode equivalent of the user-mode <b>EventWrite</b> function. To ensure that there is a consumer for the event you are publishing, you can precede the call to <b>EtwWrite</b> with a call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a>. 
-
-Before you can call <b>EtwWrite</b> function to publish an event, you must register the provider with <b>EtwRegister</b>. No tracing calls should be made that fall outside of the code bounded by the <b>EtwRegister</b> and <b>EtwUnregister</b> functions. For the best performance, you can call the <b>EtwRegister</b> function in your <b>DriverEntry</b> routine and the <b>EtwUnregister</b> function in your <b>DriverUnload</b> routine.
-
-If you are using the optional <i>UserData</i> parameter in the <b>EtwWrite</b> function to log additional event data, you can use the <b>EventDataDescCreate</b> macro to simplify the creation of the EVENT_DATA_DESCRIPTOR structures. The following example uses the <b>EventDataDescCreate</b> macro to initialize EVENT_DATA_DESCRIPTOR structures with  the name of the device and its status. The <b>EventDataDescCreate</b> macro stores pointers to the data (that is, it does not store copies of the data). The pointers must remain valid until the call to <b>EtwWrite</b> returns.
-
-You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC_LEVEL, any data passed to the <b>EtwWrite</b>, <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwriteex">EtwWriteEx</a>, <b>EtwWriteString</b>, <b>EtwWriteTransfer</b> functions must not be pageable. That is, any kernel-mode routine that is running at IRQL greater than APC_LEVEL cannot access pageable memory.  Data passed to the <b>EtwWrite</b>, <b>EtwWriteEx</b>, <b>EtwWriteString</b>, and <b>EtwWriteTransfer</b> functions must reside in system-space memory, regardless of what the IRQL is.
-
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a>
+[EtwEventEnabled](./nf-wdm-etweventenabled.md)
 
+[EtwProviderEnabled](./nf-wdm-etwproviderenabled.md)
 
+[EtwRegister](./nf-wdm-etwregister.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a>
+[EtwUnregister](./nf-wdm-etwunregister.md)
 
+[EtwWriteEx](./nf-wdm-etwwriteex.md)
 
+[EtwWriteString](./nf-wdm-etwwritestring.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a>
+[EtwWriteTransfer](./nf-wdm-etwwritetransfer.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwunregister">EtwUnregister</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwriteex">EtwWriteEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwritestring">EtwWriteString</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwritetransfer">EtwWriteTransfer</a>
-
-
-
-<a href="/windows/win32/api/evntprov/nf-evntprov-eventdatadesccreate">EventDataDescCreate</a>
+[EventDataDescCreate](/windows/win32/api/evntprov/nf-evntprov-eventdatadesccreate)

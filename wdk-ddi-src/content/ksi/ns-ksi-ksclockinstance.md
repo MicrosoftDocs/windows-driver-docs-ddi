@@ -1,5 +1,5 @@
 ---
-UID: NS:ksi.__unnamed_struct_1
+UID: NS:ksi.KSCLOCKINSTANCE
 title: KSCLOCKINSTANCE (ksi.h)
 description: "Learn more about: KSCLOCKINSTANCE structure"
 old-location: stream\ksclockinstance.htm

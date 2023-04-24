@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_25
+UID: NS:gnssdriver.GNSS_GEOFENCE_CREATE_PARAM
 title: GNSS_GEOFENCE_CREATE_PARAM (gnssdriver.h)
 description: The GNSS_GEOFENCE_CREATE_PARAM structure defines the parameters for creating a geofence in the GNSS engine.
 tech.root: gnss
@@ -85,3 +85,4 @@ Padding buffer reserved for future use.
 ## -remarks
 
 A geographical shape is used to define a geofence.  Windows 10 currently supports only circular geofences.
+

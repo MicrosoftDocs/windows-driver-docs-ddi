@@ -3,10 +3,10 @@ UID: NC:wdm.D3COLD_REQUEST_CORE_POWER_RAIL
 title: D3COLD_REQUEST_CORE_POWER_RAIL (wdm.h)
 description: Enables the function device object (FDO) to indicate whether the core power rail is needed.
 tech.root: kernel
-ms.date: 10/19/2018
+ms.date: 01/19/2023
 keywords: ["D3COLD_REQUEST_CORE_POWER_RAIL callback function"]
 req.header: wdm.h
-req.include-header: 
+req.include-header: Wdm.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
@@ -36,9 +36,6 @@ api_name:
  - D3COLD_REQUEST_CORE_POWER_RAIL
 ---
 
-# D3COLD_REQUEST_CORE_POWER_RAIL callback function
-
-
 ## -description
 
 Enables the function device object (FDO) to indicate whether the core power rail is needed.
@@ -53,38 +50,14 @@ The handle to the device.
 
 A flag that indicates whether or not the driver needs the core power rail.
 
-## -prototype
-
-```cpp
-//Declaration
-
-D3COLD_REQUEST_CORE_POWER_RAIL D3coldRequestCorePowerRail; 
-
-// Definition
-
-VOID D3coldRequestCorePowerRail 
-(
-	PVOID Context
-	BOOLEAN CorePowerRailNeeded
-)
-{...}
-
-D3COLD_REQUEST_CORE_POWER_RAIL *PD3COLD_REQUEST_CORE_POWER_RAIL
-
-
-```
-
 ## -remarks
 
 A device driver that successfully queries for the GUID_D3COLD_AUX_POWER_AND_TIMING_INTERFACE interface receives a pointer to a [**D3COLD_AUX_POWER_AND_TIMING_INTERFACE**](ns-wdm-_d3cold_aux_power_and_timing_interface.md) structure in which the driver sets the **RequestCorePowerRail** member to a pointer to its implementation of the _D3COLD_REQUEST_CORE_POWER_RAIL_ callback function.
 
-  - If the driver indicates that the core power rail is needed, it is
-    guaranteed that the core power rail is turned on when this call returns.
+- If the driver indicates that the core power rail is needed, it is guaranteed that the core power rail is turned on when this call returns.
 
-  - When a driver indicates that the core power rail is no longer needed,
-    there is no guarantee of the core power rail state onwards.
+- When a driver indicates that the core power rail is no longer needed, there is no guarantee of the core power rail state onwards.
 
-  - This routine can never fail.
+- This routine can never fail.
 
 ## -see-also
-

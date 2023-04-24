@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_26
+UID: NE:ksmedia.TELEPHONY_CALLSTATE
 title: TELEPHONY_CALLSTATE (ksmedia.h)
 description: The TELEPHONY_CALLSTATE enumeration defines constants that specify the state of a phone call.
 old-location: audio\telephony_callstate.htm
@@ -72,3 +72,4 @@ Specifies that the phone call is disabled. This constant is set by the audio dri
 
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-telephony_providerchangeop">TELEPHONY_PROVIDERCHANGEOP</a>
+

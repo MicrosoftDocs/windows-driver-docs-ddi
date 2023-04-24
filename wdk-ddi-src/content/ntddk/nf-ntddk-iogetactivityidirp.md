@@ -2,9 +2,8 @@
 UID: NF:ntddk.IoGetActivityIdIrp
 title: IoGetActivityIdIrp function (ntddk.h)
 description: The IoGetActivityIdIrp routine retrieves the current activity ID associated with an IRP.
-old-location: kernel\iogetactivityidirp.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/20/2023
 keywords: ["IoGetActivityIdIrp function"]
 ms.keywords: IoGetActivityIdIrp, IoGetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iogetactivityidirp, ntddk/IoGetActivityIdIrp
 req.header: ntddk.h
@@ -40,9 +39,6 @@ api_name:
  - IoGetActivityIdIrp
 ---
 
-# IoGetActivityIdIrp function
-
-
 ## -description
 
 The IoGetActivityIdIrp routine retrieves the current activity ID associated with an IRP.
@@ -51,33 +47,16 @@ The IoGetActivityIdIrp routine retrieves the current activity ID associated with
 
 ### -param Irp [in]
 
-
 The IRP from which to retrieve the activity ID.
 
 ### -param Guid [out]
-
 
 A pointer to a location  to store the retrieved GUID.
 
 ## -returns
 
-IoGetActivityIdIrp returns STATUS_SUCCESS if the call is successful. Possible error return values include the following.
+IoGetActivityIdIrp returns **STATUS_SUCCESS** if the call is successful. Possible error return values include the following.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-No activity ID is associated with the request.
-
-</td>
-</tr>
-</table>
-
+| Return code | Description |
+|--|--|
+| **STATUS_NOT_FOUND** | No activity ID is associated with the request. |

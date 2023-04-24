@@ -2,9 +2,9 @@
 UID: NF:acxstreams.AcxStreamStopIoActual
 tech.root: audio
 title: AcxStreamStopIoActual
-ms.date: 07/22/2022
+ms.date: 12/16/2022
 targetos: Windows
-description: The AcxStreamStopIoActual function is used to temporarily stop the IO for a stream. 
+description: The AcxStreamStopIoActual function is used to temporarily stop the IO for a stream.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -74,9 +74,13 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 It is not recommended to use this version of the stop IO call, but rather [AcxStreamStopIoWithTag](nf-acxstreams-acxstreamstopiowithtag.md).
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 
 [acxstreams.h header](index.md)
 [AcxStreamStopIoWithTag](nf-acxstreams-acxstreamstopiowithtag.md)
-

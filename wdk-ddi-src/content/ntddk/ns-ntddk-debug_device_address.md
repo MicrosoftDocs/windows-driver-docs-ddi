@@ -1,8 +1,8 @@
 ---
-UID: NS:ntddk.__unnamed_struct_17
+UID: NS:ntddk.DEBUG_DEVICE_ADDRESS
 tech.root: kernel
 title: DEBUG_DEVICE_ADDRESS (ntddk.h)
-ms.date: 03/07/2022
+ms.date: 04/17/2023
 targetos: Windows
 description: This topic describes the DEBUG_DEVICE_ADDRESS structure.
 prerelease: false
@@ -38,7 +38,7 @@ f1_keywords:
 dev_langs:
  - c++
 helpviewer_keywords:
- - __unnamed_struct_17
+ - DEBUG_DEVICE_ADDRESS
 ---
 
 ## -description

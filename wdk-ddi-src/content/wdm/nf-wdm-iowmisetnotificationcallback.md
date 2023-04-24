@@ -2,15 +2,14 @@
 UID: NF:wdm.IoWMISetNotificationCallback
 title: IoWMISetNotificationCallback function (wdm.h)
 description: The IoWMISetNotificationCallback routine registers a notification callback for a WMI event.
-old-location: kernel\iowmisetnotificationcallback.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/12/2023
 keywords: ["IoWMISetNotificationCallback function"]
 ms.keywords: IoWMISetNotificationCallback, IoWMISetNotificationCallback routine [Kernel-Mode Driver Architecture], k104_8ee391bd-0abe-4901-b0dc-6266d0c8f5c4.xml, kernel.iowmisetnotificationcallback, wdm/IoWMISetNotificationCallback
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating system.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,34 +39,27 @@ api_name:
  - IoWMISetNotificationCallback
 ---
 
-# IoWMISetNotificationCallback function
-
-
 ## -description
 
-The <b>IoWMISetNotificationCallback</b> routine registers a notification callback for a WMI event.
+The **IoWMISetNotificationCallback** routine registers a notification callback for a WMI event.
 
 ## -parameters
 
 ### -param Object [in, out]
 
-
-Pointer to a WMI data block object. The caller opens the data block object for the WMI event with the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a> routine. The object must be opened with the WMIGUID_NOTIFICATION access right.
+Pointer to a WMI data block object. The caller opens the data block object for the WMI event with the [IoWMIOpenBlock](./nf-wdm-iowmiopenblock.md) routine. The object must be opened with the WMIGUID_NOTIFICATION access right.
 
 ### -param Callback [in]
 
-
 Pointer to a function of the form:
 
-
-```
+```cpp
  XxxWmiNotificationCallback(PVOID Wnode, PVOID Context);
 ```
 
-WMI calls this function to notify the caller that the specified event has occurred. The <i>Wnode</i> parameter of the callback routine points to the <a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_event_item">WNODE_EVENT_ITEM</a> structure returned by the driver triggering the event. The <i>Context</i> parameter of the callback routine points to the value specified in the <i>Context</i> parameter of the <b>IoWMISetNotificationCallback</b> routine.
+WMI calls this function to notify the caller that the specified event has occurred. The *Wnode* parameter of the callback routine points to the [**WNODE_EVENT_ITEM**](../wmistr/ns-wmistr-tagwnode_event_item.md) structure returned by the driver triggering the event. The *Context* parameter of the callback routine points to the value specified in the *Context* parameter of the **IoWMISetNotificationCallback** routine.
 
 ### -param Context [in, optional]
-
 
 Specifies the value that WMI passes to the callback routine when the event occurs.
 
@@ -77,8 +69,6 @@ This routine returns STATUS_SUCCESS on success, and the appropriate NTSTATUS err
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a>
+[IoWMIOpenBlock](./nf-wdm-iowmiopenblock.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_event_item">WNODE_EVENT_ITEM</a>
+[**WNODE_EVENT_ITEM**](../wmistr/ns-wmistr-tagwnode_event_item.md)

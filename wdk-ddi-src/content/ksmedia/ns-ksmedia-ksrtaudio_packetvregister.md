@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_37
+UID: NS:ksmedia.KSRTAUDIO_PACKETVREGISTER
 title: KSRTAUDIO_PACKETVREGISTER (ksmedia.h)
 description: The KSRTAUDIO_PACKETVREGISTER structure contains information about the packet virtual register pointers.
 ms.date: 11/17/2020

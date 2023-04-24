@@ -63,7 +63,7 @@ A pointer to a variable that receives a pointer to the data buffer of the restar
 ### -param pcbRestartBuffer [out]
 
 
-A pointer to a ULONG-typed variable that receives the size, in bytes, of the buffer pointed to by *<i>ppvRestartBuffer</i>. This is the length of the data buffer of the restart record that is read.
+A pointer to a ULONG-typed variable that receives the size, in bytes, of the buffer pointed to by **ppvRestartBuffer*. This is the length of the data buffer of the restart record that is read.
 
 ### -param plsnRestart [out]
 

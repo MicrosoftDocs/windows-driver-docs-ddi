@@ -1,10 +1,10 @@
 ---
 UID: NF:ntifs.IoVerifyVolume
 title: IoVerifyVolume function (ntifs.h)
-description: The IoVerifyVolume routine sends a volume verify request to the given removable-media device.
+description: Learn more about the IoVerifyVolume function.
 old-location: ifsk\ioverifyvolume.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/18/2023
 keywords: ["IoVerifyVolume function"]
 ms.keywords: IoVerifyVolume, IoVerifyVolume routine [Installable File System Drivers], ifsk.ioverifyvolume, ioref_b55e7a87-a18d-4ccd-ab32-061676c9dde4.xml, ntifs/IoVerifyVolume
 req.header: ntifs.h
@@ -42,80 +42,45 @@ api_name:
 
 # IoVerifyVolume function
 
-
 ## -description
 
-The <b>IoVerifyVolume</b> routine sends a volume verify request to the given removable-media device.
+**IoVerifyVolume** sends a volume verify request to the specified removable-media device identified by the device object.
 
 ## -parameters
 
 ### -param DeviceObject [in]
 
-
-Pointer to the device object for the device on which the volume is to be verified.
+Pointer to a [**DEVICE_OBJECT**](../wdm/ns-wdm-_device_object.md) structure that identifies the device object for the device on which the volume is to be verified/mounted.
 
 ### -param AllowRawMount [in]
 
-
-Set to <b>TRUE</b> if this verify request is being issued on behalf of a DASD open request and a raw mount should be performed if the verify request fails.
+A value of TRUE indicates that this verify request is being issued on behalf of a DASD (direct-access storage device) open request, which indicates that a raw mount should be performed if the verify request fails.
 
 ## -returns
 
-<b>IoVerifyVolume</b> can return one of the following NTSTATUS values: 
+**IoVerifyVolume** returns the NTSTATUS code from the verify operation, which might be one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%"></td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%"></td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>
-</td>
-<td width="60%"></td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_WRONG_VOLUME</b></dt>
-</dl>
-</td>
-<td width="60%"></td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_SUCCESS                | **IoVerifyVolume** determined that the volume has not changed or was not previously mounted. |
+| STATUS_INSUFFICIENT_RESOURCES | Insufficient system resources exist to complete the operation. |
+| STATUS_UNSUCCESSFUL           | The verify operation was unsuccessful. |
+| STATUS_WRONG_VOLUME           | The volume has changed. |
 
 ## -remarks
 
-<b>IoVerifyVolume</b> sends a volume verify request to the given removable-media device. 
+*Before using [**IoSetDeviceToVerify**](nf-ntifs-iosetdevicetoverify.md) and **IoVerifyVolume**, driver writers should study the way these routines are used in the [FASTFAT sample](/samples/microsoft/windows-driver-samples/fastfat-file-system-driver).*
 
-If the verify operation fails, the I/O Manager sends a volume mount request to the device. 
+**IoVerifyVolume** is called to check a mounted volume on the specified device when it appears that the volume might have changed since it was last accessed. A file system driver typically calls [**IoSetDeviceToVerify**](nf-ntifs-iosetdevicetoverify.md) and  **IoVerifyVolume** when the lower device returns STATUS_VERIFY_REQUIRED.
 
-Before using <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iosetdevicetoverify">IoSetDeviceToVerify</a> and <b>IoVerifyVolume</b>, driver writers are strongly encouraged to study the way these routines are used in the FASTFAT sample. 
+If the **DeviceObject** has a mounted volume, **IoVerifyVolume** checks whether the volume has changed.
 
-For more information about removable-media devices, see <a href="/windows-hardware/drivers/kernel/supporting-removable-media">Supporting Removable Media</a>.
+If the volume has changed or has not previously been mounted, **IoVerifyVolume** sends a volume mount request to the device.
+
+For more information about removable-media devices, see [Supporting Removable Media](/windows-hardware/drivers/kernel/supporting-removable-media).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetdevicetoverify">IoGetDeviceToVerify</a>
+[**IoGetDeviceToVerify**](nf-ntifs-iogetdevicetoverify.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iosetdevicetoverify">IoSetDeviceToVerify</a>
+[**IoSetDeviceToVerify**](nf-ntifs-iosetdevicetoverify.md)

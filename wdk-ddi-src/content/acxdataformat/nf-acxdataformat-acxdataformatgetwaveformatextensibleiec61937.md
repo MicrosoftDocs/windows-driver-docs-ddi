@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetWaveFormatExtensibleIec61937
 tech.root: audio
 title: AcxDataFormatGetWaveFormatExtensibleIec61937
-ms.date: 05/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetWaveFormatExtensibleIec61937 function gets the WAVEFORMATEXTENSIBLE_IEC61937 structure associated with the specified data format.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdataformat.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -56,8 +56,13 @@ Returns a pointer to the WAVEFORMATEXTENSIBLE_IEC61937 structure associated with
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [Representing Formats for IEC 61937 Transmissions](/windows/win32/coreaudio/representing-formats-for-iec-61937-transmissions)
 - [acxdataformat.h header](index.md)
-

@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-The EnableEvents method allows events to be generated for the specified printer driver until  [DisableEvents](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensionmanager-disableevents) is called.
+The EnableEvents method allows events to be generated for the specified printer driver until  [DisableEvents](./nf-printerextension-iprinterextensionmanager-disableevents.md) is called.
 
 ## -parameters
 
@@ -61,4 +61,4 @@ In the case of a driver event like, for example, Print Preferences or Printer No
 
 ## -see-also
 
-[IPrinterExtensionManager](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionmanager)
+[IPrinterExtensionManager](./nn-printerextension-iprinterextensionmanager.md)

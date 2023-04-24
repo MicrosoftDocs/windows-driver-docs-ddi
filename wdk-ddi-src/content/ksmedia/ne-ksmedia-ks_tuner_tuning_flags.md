@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_67
+UID: NE:ksmedia.KS_TUNER_TUNING_FLAGS
 title: KS_TUNER_TUNING_FLAGS (ksmedia.h)
 description: The KS_TUNER_TUNING_FLAGS enumeration defines tuning flags that describe the granularity of a tuning operation.
 old-location: stream\ks_tuner_tuning_flags.htm
@@ -64,3 +64,4 @@ The tuning operation should perform a fast search and attempt only to determine 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_tuner_frequency_s">KSPROPERTY_TUNER_FREQUENCY_S</a>
+

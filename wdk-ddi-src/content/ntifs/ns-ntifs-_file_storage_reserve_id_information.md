@@ -1,8 +1,8 @@
 ---
 UID: NS:ntifs._FILE_STORAGE_RESERVE_ID_INFORMATION
-title: _FILE_STORAGE_RESERVE_ID_INFORMATION (ntifs.h)
-description: Queries and sets the storage reserve ID on a file or directory.
-ms.date: 09/30/2018
+title: FILE_STORAGE_RESERVE_ID_INFORMATION (ntifs.h)
+description: Learn more about the FILE_STORAGE_RESERVE_ID_INFORMATION structure.
+ms.date: 01/25/2023
 tech.root: ifsk
 keywords: ["FILE_STORAGE_RESERVE_ID_INFORMATION structure"]
 ms.keywords: _FILE_STORAGE_RESERVE_ID_INFORMATION, FILE_STORAGE_RESERVE_ID_INFORMATION, *PFILE_STORAGE_RESERVE_ID_INFORMATION,
@@ -42,20 +42,20 @@ dev_langs:
  - c++
 ---
 
-# _FILE_STORAGE_RESERVE_ID_INFORMATION structure
-
+# FILE_STORAGE_RESERVE_ID_INFORMATION structure
 
 ## -description
 
-The structure is used by [**NtQueryInformationFile**](./nf-ntifs-ntqueryinformationfile.md) and [**NtSetInformationFile**](./nf-ntifs-ntsetinformationfile.md) routines to query and set the storage reserve ID on a file or directory.
+The **FILE_STORAGE_RESERVE_ID_INFORMATION** structure is used by [**NtQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md) and [**NtSetInformationFile**](nf-ntifs-ntsetinformationfile.md) to query and set the storage reserve ID on a file or directory.
 
 ## -struct-fields
 
 ### -field StorageReserveId
 
-Specifies a [**STORAGE_RESERVE_ID**](ne-ntifs-_storage_reserve_id.md) value that indicates the storage reserve ID for the file or directory. This is used by the file system to change the disk space used by the file or directory:
-- Toward space that has been reserved by the operating system for special purposes (called storage reserve areas)
-- Toward space that is available for all users and applications.
+A [**STORAGE_RESERVE_ID**](ne-ntifs-_storage_reserve_id.md) value that indicates the storage reserve ID for the file or directory. The file system uses this ID to change the disk space used by the file or directory as follows:
+
+- To storage space that has been reserved by the operating system for special purposes (called storage reserve areas)
+- To storage space that is available for all users and applications
 
 ## -remarks
 
@@ -68,4 +68,3 @@ Attempting to set a storage reserve ID fails with STATUS_STORAGE_RESERVE_DOES_NO
 ## -see-also
 
 [**STORAGE_RESERVE_ID**](ne-ntifs-_storage_reserve_id.md)
-

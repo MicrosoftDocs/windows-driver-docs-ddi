@@ -59,4 +59,4 @@ Returns an **HRESULT** value. If the property call was not successful, it return
 
 ## -see-also
 
-[IPrinterQueue](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue)
+[IPrinterQueue](./nn-printerextension-iprinterqueue.md)

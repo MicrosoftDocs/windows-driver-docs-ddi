@@ -1,5 +1,5 @@
 ---
-UID: NE:ndis.__unnamed_enum_0
+UID: NE:ndis.NDIS_PD_QUEUE_TYPE
 title: NDIS_PD_QUEUE_TYPE (ndis.h)
 description: The NDIS_PD_QUEUE_TYPE enumeration defines types of PacketDirect Provider Interface (PDPI) queues. Its enumeration values are used in the QueueType member of the NDIS_PD_QUEUE_PARAMETERS structure.
 old-location: netvista\ndis_pd_queue_type.htm
@@ -72,3 +72,4 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_allocate_queue">NdisPDAllocateQueue</a>
+

@@ -100,7 +100,7 @@ Size, in bytes, of the structure passed in the **TokenInformation** buffer. Must
 
 ## -remarks
 
-For more information about security and access control, see the documentation on these topics in the Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 > [!NOTE]
 > If the call to the **NtSetInformationToken** function occurs in kernel mode, you should use the name "[**ZwSetInformationToken**](nf-ntifs-zwsetinformationtoken.md)" instead of "**NtSetInformationToken**".

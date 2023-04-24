@@ -6,7 +6,7 @@ ms.assetid: f1e1f714-ecee-3288-bb22-75c85c09b214
 ms.date: 05/09/2018
 keywords: ["Wdfqueryinterface.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: wdf
 f1_keywords:
  - wdfqueryinterface

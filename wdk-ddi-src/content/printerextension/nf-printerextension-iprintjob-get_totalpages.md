@@ -57,4 +57,4 @@ Returns an **HRESULT** value.
 
 ## -see-also
 
-[IPrintJob](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob)
+[IPrintJob](./nn-printerextension-iprintjob.md)

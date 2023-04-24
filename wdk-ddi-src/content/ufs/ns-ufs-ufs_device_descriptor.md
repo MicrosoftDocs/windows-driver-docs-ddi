@@ -1,5 +1,5 @@
 ---
-UID: NS:ufs.__unnamed_struct_0
+UID: NS:ufs.UFS_DEVICE_DESCRIPTOR
 title: UFS_DEVICE_DESCRIPTOR (ufs.h)
 description: UFS_DEVICE_DESCRIPTOR is the main descriptor for Universal Flash Storage (UFS) devices and should be the first descriptor retrieved as it specifies the device class and sub-class and the protocol (command set) to use to access this device and the maximum number of logical units contained within the device.
 old-location: storage\ufs_device_descriptor.htm
@@ -44,6 +44,7 @@ api_name:
 ---
 
 # UFS_DEVICE_DESCRIPTOR structure
+
 
 ## -description
 
@@ -299,3 +300,4 @@ If **bBootEnable** in the **UFS_DEVICE_DESCRIPTOR** is set to zero or if the Boo
 [**UFS_UNIT_CONFIG_DESCRIPTOR**](ns-ufs-ufs_unit_config_descriptor.md)
 
 [**UFS_UNIT_DESCRIPTOR**](ns-ufs-ufs_unit_descriptor.md)
+

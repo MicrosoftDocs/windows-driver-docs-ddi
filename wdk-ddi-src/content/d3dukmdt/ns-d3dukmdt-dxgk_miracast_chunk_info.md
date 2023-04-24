@@ -1,5 +1,5 @@
 ---
-UID: NS:d3dukmdt.__unnamed_struct_17
+UID: NS:d3dukmdt.DXGK_MIRACAST_CHUNK_INFO
 title: DXGK_MIRACAST_CHUNK_INFO (d3dukmdt.h)
 description: The DXGK_MIRACAST_CHUNK_INFO structure contains information about a specified wireless display (Miracast) encode chunk.
 old-location: display\dxgk_miracast_chunk_info.htm
@@ -72,3 +72,4 @@ The encode bit rate, in kilobits per second, that the display miniport driver re
 
 
 <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_dxgk_miracast_chunk_type">DXGK_MIRACAST_CHUNK_TYPE</a>
+

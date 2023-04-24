@@ -1,5 +1,5 @@
 ---
-UID: NE:dot11wdi.__unnamed_enum_0
+UID: NE:dot11wdi.eDiagnoseLevel
 title: eDiagnoseLevel (dot11wdi.h)
 description: The eDiagnoseLevel enumeration defines the diagnosis levels for adapter hang diagnosis.
 old-location: netvista\wdiediagnoselevel.htm
@@ -71,3 +71,4 @@ Dump the driver state, full firmware image, and hardware registers. The driver s
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_adapter_hang_diagnose">MiniportWdiAdapterHangDiagnose</a>
+

@@ -2,7 +2,7 @@
 UID: NF:acxmanager.AcxGetManager
 tech.root: audio
 title: AcxGetManager
-ms.date: 04/27/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxGetManager function returns the underlying ACXMANAGER handle.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxmanager.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -58,7 +58,12 @@ Returns the underlying ACXMANAGER handle.
 
 The *Context* parameter must be set to `NULL`.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxmanager.h header](index.md)
-

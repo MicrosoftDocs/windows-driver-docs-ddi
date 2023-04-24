@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback
 tech.root: audio
 title: AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback
-ms.date: 08/01/2022
+ms.date: 12/14/2022
 targetos: Windows
 description:  The AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback function add a WDFREQUEST preprocess callback.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -53,7 +53,7 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param EvtObjectAcxRequestPreprocess
 
-A pointer to a [EVT_ACX_OBJECT_PREPROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_preprocess_request) callback. 
+A pointer to a [EVT_ACX_OBJECT_PREPROCESS_REQUEST](/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_preprocess_request) callback.
 
 ### -param DriverContext
 
@@ -61,7 +61,7 @@ The driver context defined by the ACXCONTEXT object.  For more information about
 
 ### -param RequestType
 
-An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_request_type)  that defines different request types, such as AcxRequestTypeAny, AcxRequestTypeProperty, etc. 
+An [ACX_REQUEST_TYPE enum](/windows-hardware/drivers/ddi/acxrequest/ne-acxrequest-acx_request_type)  that defines different request types, such as AcxRequestTypeAny, AcxRequestTypeProperty, etc.
 
 ### -param Set
 
@@ -79,17 +79,12 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 The driver can invoke this DDI multiple times to setup different preprocess callbacks. ACX invokes the first it finds that matches the specific incoming WDFREQUEST type.
 
-### Example
+### ACX requirements
 
-Sample pending.
+**Minimum ACX version:** 1.0
 
-Example usage is shown below.
-
-```cpp
-
-```
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

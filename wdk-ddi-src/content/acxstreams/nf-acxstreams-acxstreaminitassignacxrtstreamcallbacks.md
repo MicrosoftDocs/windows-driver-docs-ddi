@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamInitAssignAcxRtStreamCallbacks
 tech.root: audio
 title: AcxStreamInitAssignAcxRtStreamCallbacks
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamInitAssignAcxRtStreamCallbacks function sets the RT callbacks using an  ACXSTREAM_INIT object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -48,11 +48,11 @@ The **AcxStreamInitAssignAcxRtStreamCallbacks** function sets the RT callbacks u
 
 ### -param StreamInit
 
-Address of a ACXSTREAM_INIT object used to define the stream initialization parameters. 
+Address of a ACXSTREAM_INIT object used to define the stream initialization parameters.
 
 ### -param RtStreamCallbacks
 
-An [ACX_RT_STREAM_CALLBACKS structure](ns-acxstreams-acx_rt_stream_callbacks.md) that defines the list of callbacks. 
+An [ACX_RT_STREAM_CALLBACKS structure](ns-acxstreams-acx_rt_stream_callbacks.md) that defines the list of callbacks.
 
 ## -returns
 
@@ -81,6 +81,11 @@ Example usage is shown below.
     status = AcxStreamInitAssignAcxRtStreamCallbacks(StreamInit, &rtCallbacks);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

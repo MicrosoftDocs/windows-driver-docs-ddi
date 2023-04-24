@@ -46,21 +46,20 @@ helpviewer_keywords:
 
 ## -description
 
-The **EXTENDED_CREATE_INFORMATION** structure is the **EaBuffer** field in [**NtCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md) when the **FILE_CONTAINS_EXTENDED_CREATE_INFORMATION** flag is set in **NtCreateFile**'s **CreateOption** parameter.
+The **EXTENDED_CREATE_INFORMATION** structure is the **EaBuffer** field in [NtCreateFile](../ntifs/nf-ntifs-ntcreatefile.md) when the **FILE_CONTAINS_EXTENDED_CREATE_INFORMATION** flag is set in NtCreateFile's *CreateOption* parameter.
 
 ## -struct-fields
 
 ### -field ExtendedCreateFlags
 
-Flags for the extended create. **ExtendedCreateFlags** can be one of the following values. When either of these flags are specified, [**NtCreateFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)'s file object is marked as opened for copy intent in its **FileObjectExtension**. Filters can check for this stored state by calling [**IoCheckFileObjectOpenedAsCopySource**](../ntifs/nf-ntifs-iocheckfileobjectopenedascopysource.md) or [**IoCheckFileObjectOpenedAsCopyDestination**](../ntifs/nf-ntifs-iocheckfileobjectopenedascopydestination.md)
+Flags for the extended create. **ExtendedCreateFlags** can be one of the following values. When either of these flags are specified, [NtCreateFile](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)'s file object is marked as opened for copy intent in its **FileObjectExtension**. Filters can check for this stored state by calling [**IoCheckFileObjectOpenedAsCopySource**](../ntifs/nf-ntifs-iocheckfileobjectopenedascopysource.md) or [**IoCheckFileObjectOpenedAsCopyDestination**](../ntifs/nf-ntifs-iocheckfileobjectopenedascopydestination.md)
 
 | Flag | Meaning |
-| ---- | ------- |
+|---|---|
 | **EX_CREATE_FLAG_FILE_SOURCE_OPEN_FOR_COPY** (0x00000001) | Signals that the file is being opened as the source file for a file copy. |
 | **EX_CREATE_FLAG_FILE_DEST_OPEN_FOR_COPY** (0x00000002) | Signals that the file is being opened as the destination file for a file copy. |
 
-> [!NOTE]
-> The presence of one of the above flags is not enough to ensure that read/writes (I/O operations) on the file object are trustworthy, as any user-mode process can provide these flags at create time.
+The presence of one of the above flags is not enough to ensure that read/writes (I/O operations) on the file object are trustworthy, as any user-mode process can provide these flags at create time.
 
 ### -field EaBuffer
 
@@ -72,9 +71,9 @@ Length of the buffer that **EaBuffer** points to.
 
 ## -remarks
 
-The following example shows how to provide an **EXTENDED_CREATE_INFORMATION** struct to [**NtCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md), properly wrapping the **EaBuffer** and **EaLength** internally.
+The following example shows how to provide an **EXTENDED_CREATE_INFORMATION** structure to [NtCreateFile](../ntifs/nf-ntifs-ntcreatefile.md), properly wrapping the **EaBuffer** and **EaLength** internally.
 
-``` C
+```cpp
 // Input parameters to NtCreateFile. Obtaining these
 // values is not shown in this sample.
 
@@ -118,14 +117,14 @@ Status = NtCreateFile(&SourceFile,
                       sizeof(EXTENDED_CREATE_INFORMATION));
 ```
 
-See [Kernel-mode file copy and detecting copy file scenarios](/windows-hardware/drivers/ifs/km-file-copy) for more information.
+For more information, see [Kernel-mode file copy and detecting copy file scenarios](/windows-hardware/drivers/ifs/km-file-copy).
 
 ## -see-also
 
-[**IoCheckFileObjectOpenedAsCopyDestination**](../ntifs/nf-ntifs-iocheckfileobjectopenedascopydestination.md)
+[IoCheckFileObjectOpenedAsCopyDestination](../ntifs/nf-ntifs-iocheckfileobjectopenedascopydestination.md)
 
-[**IoCheckFileObjectOpenedAsCopySource**](../ntifs/nf-ntifs-iocheckfileobjectopenedascopysource.md)
+[IoCheckFileObjectOpenedAsCopySource](../ntifs/nf-ntifs-iocheckfileobjectopenedascopysource.md)
 
-[**NtCopyFileChunk**](/windows-hardware/drivers/ifs/nf-ntifs-ntcopyfilechunk)
+[NtCopyFileChunk](/windows-hardware/drivers/ifs/nf-ntifs-ntcopyfilechunk)
 
-[**NtCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md)
+[NtCreateFile](../ntifs/nf-ntifs-ntcreatefile.md)

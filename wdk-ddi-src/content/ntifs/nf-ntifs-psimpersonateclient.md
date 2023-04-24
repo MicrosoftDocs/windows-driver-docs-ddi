@@ -10,7 +10,7 @@ ms.keywords: PsImpersonateClient, PsImpersonateClient routine [Installable File 
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -133,7 +133,7 @@ In cases where a higher privilege state is required, the task should be dispatch
 
 The <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seimpersonateclientex">SeImpersonateClientEx</a> routine can be used to cause a thread to impersonate a user.
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 

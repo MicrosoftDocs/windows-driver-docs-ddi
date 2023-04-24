@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_73
+UID: NS:ks.KSEVENT_SET
 title: KSEVENT_SET (ks.h)
 description: The KSEVENT_SET structure describes the events that comprise a kernel streaming event set.
 old-location: stream\ksevent_set.htm

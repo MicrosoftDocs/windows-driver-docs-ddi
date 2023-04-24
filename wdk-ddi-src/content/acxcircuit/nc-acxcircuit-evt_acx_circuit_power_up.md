@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_POWER_UP
 tech.root: audio
 title: EVT_ACX_CIRCUIT_POWER_UP
-ms.date: 11/02/2021
+ms.date: 12/14/2022
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_POWER_UP callback is used by the driver to add functionality in the power up path of an ACXCIRCUIT object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -61,7 +61,7 @@ A WDF_POWER_DEVICE_STATE-typed enumerator that identifies the previous device po
 ## -returns
 
 Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an appropriate error code. For more information, see [Using NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
-If the driver fails this callback, the ACX framework shutdowns the associated ACXSTREAMS if any, and tags the ACXCIRCUIT as pending-delete. The ACX framework doesn't fail the underline ACX EvtDeviceD0Entry callback, this allows existing working ACXCIRCUITs from this device to be used to build working audio paths. 
+If the driver fails this callback, the ACX framework shutdowns the associated ACXSTREAMS if any, and tags the ACXCIRCUIT as pending-delete. The ACX framework doesn't fail the underline ACX EvtDeviceD0Entry callback, this allows existing working ACXCIRCUITs from this device to be used to build working audio paths.
 
 ## -remarks
 
@@ -115,7 +115,7 @@ CodecR_EvtCircuitPowerUp (
 
     PAGED_CODE();
 
-    // for testing. 
+    // for testing.
     circuitCtx = GetRenderCircuitContext(Circuit);
     ASSERT(circuitCtx);
 
@@ -134,9 +134,13 @@ CodecR_EvtCircuitPowerUp (
     WdfTimerStart(volumeCtx->Timer, WDF_REL_TIMEOUT_IN_MS(1000));
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-[Supporting PnP and Power Management in Function Driver](/windows-hardware/drivers/wdf/supporting-pnp-and-power-management-in-function-drivers)
-
+- [Supporting PnP and Power Management in Function Driver](/windows-hardware/drivers/wdf/supporting-pnp-and-power-management-in-function-drivers)

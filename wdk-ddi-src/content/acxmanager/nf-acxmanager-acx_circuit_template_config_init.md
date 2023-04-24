@@ -52,10 +52,15 @@ A pointer to the [ACX_CIRCUIT_TEMPLATE_CONFIG](ns-acxmanager-acx_circuit_templat
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACX_CIRCUIT_TEMPLATE_CONFIG](ns-acxmanager-acx_circuit_template_config.md)
 - [ACX_COMPOSITE_TEMPLATE_CONFIG](ns-acxmanager-acx_composite_template_config.md)
 - [ACX_COMPOSITE_TEMPLATE_CONFIG_INIT](nf-acxmanager-acx_composite_template_config_init.md)
 - [acxmanager.h header](index.md)
-

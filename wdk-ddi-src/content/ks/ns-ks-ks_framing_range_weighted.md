@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_39
+UID: NS:ks.KS_FRAMING_RANGE_WEIGHTED
 title: KS_FRAMING_RANGE_WEIGHTED (ks.h)
 description: Drivers can use the KS_FRAMING_RANGE_WEIGHTED structure to specify a range of weighted frame sizes.
 old-location: stream\ks_framing_range_weighted.htm

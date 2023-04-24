@@ -1,16 +1,15 @@
 ---
 UID: NS:ntddk._WHEA_AER_ROOTPORT_DESCRIPTOR
-title: _WHEA_AER_ROOTPORT_DESCRIPTOR (ntddk.h)
+title: WHEA_AER_ROOTPORT_DESCRIPTOR (ntddk.h)
 description: The WHEA_AER_ROOTPORT_DESCRIPTOR structure describes a PCI Express (PCIe) root port error source.
-old-location: whea\whea_aer_rootport_descriptor.htm
 tech.root: whea
-ms.date: 02/20/2018
+ms.date: 01/11/2023
 keywords: ["WHEA_AER_ROOTPORT_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_AER_ROOTPORT_DESCRIPTOR, PWHEA_AER_ROOTPORT_DESCRIPTOR, PWHEA_AER_ROOTPORT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_AER_ROOTPORT_DESCRIPTOR, WHEA_AER_ROOTPORT_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/PWHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/WHEA_AER_ROOTPORT_DESCRIPTOR, whea.whea_aer_rootport_descriptor, whearef_e96777a4-ff19-4291-9730-ffe4c9828381.xml"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
-req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,12 +45,9 @@ api_name:
  - WHEA_AER_ROOTPORT_DESCRIPTOR
 ---
 
-# _WHEA_AER_ROOTPORT_DESCRIPTOR structure
-
-
 ## -description
 
-The WHEA_AER_ROOTPORT_DESCRIPTOR structure describes a PCI Express (PCIe) root port error source.
+The **WHEA_AER_ROOTPORT_DESCRIPTOR** structure describes a PCI Express (PCIe) root port error source.
 
 ## -struct-fields
 
@@ -73,7 +69,7 @@ The root port's bus number.
 
 ### -field Slot
 
-A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pci_slot_number">WHEA_PCI_SLOT_NUMBER</a> structure that describes the logical PCI slot where the root port is located in the system.
+A [**WHEA_PCI_SLOT_NUMBER**](./ns-ntddk-_whea_pci_slot_number.md) structure that describes the logical PCI slot where the root port is located in the system.
 
 ### -field DeviceControl
 
@@ -81,10 +77,9 @@ The contents of the root port's Device Control register.
 
 ### -field Flags
 
-An AER_ROOTPORT_DESCRIPTOR_FLAGS union that indicates which of the members of the WHEA_AER_ROOTPORT_DESCRIPTOR structure can be written to by the operating system. The AER_ROOTPORT_DESCRIPTOR_FLAGS union is defined as follows:
+An **AER_ROOTPORT_DESCRIPTOR_FLAGS** union that indicates which of the members of the **WHEA_AER_ROOTPORT_DESCRIPTOR** structure can be written to by the operating system. The **AER_ROOTPORT_DESCRIPTOR_FLAGS** union is defined as follows:
 
-
-```
+```cpp
 typedef union _AER_ROOTPORT_DESCRIPTOR_FLAGS {
   struct {
     USHORT  UncorrectableErrorMaskRW:1;
@@ -98,49 +93,33 @@ typedef union _AER_ROOTPORT_DESCRIPTOR_FLAGS {
 } AER_ROOTPORT_DESCRIPTOR_FLAGS, *PAER_ROOTPORT_DESCRIPTOR_FLAGS
 ```
 
-
-
-
-
 #### UncorrectableErrorMaskRW
 
-A single bit that indicates that the operating system can write to the <b>UncorrectableErrorMask</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
-
-
+A single bit that indicates that the operating system can write to the **UncorrectableErrorMask** member of the **WHEA_AER_ROOTPORT_DESCRIPTOR** structure.
 
 #### UncorrectableErrorSeverityRW
 
-A single bit that indicates that the operating system can write to the <b>UncorrectableErrorSeverity </b>member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
-
-
+A single bit that indicates that the operating system can write to the **UncorrectableErrorSeverity** member of the **WHEA_AER_ROOTPORT_DESCRIPTOR** structure.
 
 #### CorrectableErrorMaskRW
 
-A single bit that indicates that the operating system can write to the <b>CorrectableErrorMask</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
-
-
+A single bit that indicates that the operating system can write to the **CorrectableErrorMask** member of the **WHEA_AER_ROOTPORT_DESCRIPTOR** structure.
 
 #### AdvancedCapsAndControlRW
 
-A single bit that indicates that the operating system can write to the <b>AdvancedCapsAndControl</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
-
-
+A single bit that indicates that the operating system can write to the **AdvancedCapsAndControl** member of the **WHEA_AER_ROOTPORT_DESCRIPTOR** structure.
 
 #### RootErrorCommandRW
 
-A single bit that indicates that the operating system can write to the <b>RootErrorCommand</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
-
-
+A single bit that indicates that the operating system can write to the **RootErrorCommand** member of the **WHEA_AER_ROOTPORT_DESCRIPTOR** structure.
 
 #### Reserved
 
 Reserved for system use.
 
-
-
 #### AsUSHORT
 
-A USHORT representation of the contents of the AER_ROOTPORT_DESCRIPTOR_FLAGS union.
+A USHORT representation of the contents of the **AER_ROOTPORT_DESCRIPTOR_FLAGS** union.
 
 ### -field UncorrectableErrorMask
 
@@ -164,13 +143,10 @@ The contents of the root port's Root Error Command register.
 
 ## -remarks
 
-A WHEA_AER_ROOTPORT_DESCRIPTOR structure is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
+A **WHEA_AER_ROOTPORT_DESCRIPTOR** structure is contained within the [**WHEA_ERROR_SOURCE_DESCRIPTOR**](./ns-ntddk-_whea_error_source_descriptor.md) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+[**WHEA_ERROR_SOURCE_DESCRIPTOR**](./ns-ntddk-_whea_error_source_descriptor.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pci_slot_number">WHEA_PCI_SLOT_NUMBER</a>
-
+[**WHEA_PCI_SLOT_NUMBER**](./ns-ntddk-_whea_pci_slot_number.md)

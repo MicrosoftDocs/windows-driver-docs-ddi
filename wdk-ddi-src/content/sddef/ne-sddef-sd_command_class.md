@@ -1,5 +1,5 @@
 ---
-UID: NE:sddef.__unnamed_enum_0
+UID: NE:sddef.SD_COMMAND_CLASS
 title: SD_COMMAND_CLASS (sddef.h)
 description: The SD_COMMAND_CLASS enumeration lists the classes of Secure Digital (SD) card commands.
 old-location: sd\sd_command_class.htm
@@ -42,6 +42,7 @@ api_name:
 
 # SD_COMMAND_CLASS enumeration
 
+
 ## -description
 
 The SD_COMMAND_CLASS enumeration lists the classes of Secure Digital (SD) card commands.
@@ -61,3 +62,4 @@ SD card drivers should not issue CMD55 (APP_CMD) commands through the SD bus int
 ## -see-also
 
 [**SDCMD_DESCRIPTOR**](ns-sddef-_sdcmd_descriptor.md)
+

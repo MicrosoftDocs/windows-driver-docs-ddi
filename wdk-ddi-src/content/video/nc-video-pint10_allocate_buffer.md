@@ -62,7 +62,7 @@ Pointer to a memory location that will receive the segment address of the alloca
 ### -param Off [out]
 
 
-Pointer to a memory location that will receive the offset within the segment specified by *<i>Seg</i>, of the allocated memory buffer.
+Pointer to a memory location that will receive the offset within the segment specified by **Seg*, of the allocated memory buffer.
 
 ### -param Length [in, out]
 

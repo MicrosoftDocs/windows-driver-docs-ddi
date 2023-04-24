@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_47
+UID: NS:ks.KSSTREAM_HEADER
 title: KSSTREAM_HEADER (ks.h)
 description: The KSSTREAM_HEADER structure is a variable-length structure that describes a packet of data to be read from or written to a streaming driver pin.
 old-location: stream\ksstream_header.htm

@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_27
+UID: NS:ks.KSE_PIN
 title: KSE_PIN (ks.h)
 description: "Learn more about: KSE_PIN structure"
 old-location: stream\kse_pin.htm

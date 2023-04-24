@@ -1,5 +1,5 @@
 ---
-UID: NE:ksproxy.__unnamed_enum_4
+UID: NE:ksproxy.PIPE_ALLOCATOR_PLACE
 title: PIPE_ALLOCATOR_PLACE (ksproxy.h)
 description: "Learn more about: PIPE_ALLOCATOR_PLACE enumeration"
 old-location: stream\pipe_allocator_place.htm

@@ -3,7 +3,7 @@ UID: NF:printerextension.IPrinterQueue2.GetPrinterQueueView
 title: IPrinterQueue2::GetPrinterQueueView (printerextension.h)
 description: Retrieves an IPrinterQueueView object, and initializes the object with the range of jobs to be monitored.
 tech.root: print
-ms.date: 08/02/2022
+ms.date: 01/04/2023
 keywords: ["IPrinterQueue2::GetPrinterQueueView"]
 ms.keywords: GetPrinterQueueView, GetPrinterQueueView method [Print Devices], GetPrinterQueueView method [Print Devices],IPrinterQueue2 interface, IPrinterQueue2 interface [Print Devices],GetPrinterQueueView method, IPrinterQueue2.GetPrinterQueueView, IPrinterQueue2::GetPrinterQueueView, print.iprinterqueue2_getprinterqueueview, printerextension/IPrinterQueue2::GetPrinterQueueView
 req.header: printerextension.h
@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-Retrieves an [IPrinterQueueView](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueview) object, and initializes the object with the range of jobs to be monitored.
+Retrieves an [IPrinterQueueView](./nn-printerextension-iprinterqueueview.md) object, and initializes the object with the range of jobs to be monitored.
 
 This method allows the user to perform job management tasks from within a UWP device app for printers.
 
@@ -72,14 +72,11 @@ Otherwise, if a call to **GetPrinterQueueView** results in an error condition, t
 
 ## -remarks
 
-Only one [IPrinterQueueView](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueview) object can be retrieved per [IPrinterQueue2](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue2) object.
-However it is possible to move around the single view that you retrieve. In other words, it is possible to  change the positions of the monitored jobs by invoking [IPrinterQueueView::SetViewRange](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueview-setviewrange).
-
-> [!NOTE]
-> There is work underway to implement a cap on the maximum size of the printer queue view.
+Only one [IPrinterQueueView](./nn-printerextension-iprinterqueueview.md) object can be retrieved per [IPrinterQueue2](./nn-printerextension-iprinterqueue2.md) object.
+However it is possible to move around the single view that you retrieve. In other words, it is possible to  change the positions of the monitored jobs by invoking [IPrinterQueueView::SetViewRange](./nf-printerextension-iprinterqueueview-setviewrange.md).
 
 ## -see-also
 
-[IPrinterQueue2](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue2)
+[IPrinterQueue2](./nn-printerextension-iprinterqueue2.md)
 
-[IPrinterQueueView](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueview)
+[IPrinterQueueView](./nn-printerextension-iprinterqueueview.md)

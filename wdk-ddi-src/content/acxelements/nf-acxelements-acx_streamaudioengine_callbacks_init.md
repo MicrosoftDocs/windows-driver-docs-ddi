@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **ACX_STREAMAUDIOENGINE_CALLBACKS_INIT** function initializes a [ACX_STREAMAUDIOENGINE_CALLBACKS structure](ns-acxelements-acx_streamaudioengine_callbacks.md). 
+The **ACX_STREAMAUDIOENGINE_CALLBACKS_INIT** function initializes a [ACX_STREAMAUDIOENGINE_CALLBACKS structure](ns-acxelements-acx_streamaudioengine_callbacks.md).
 
 ## -parameters
 
 ### -param Callbacks
 
-A pointer to an initialized [ACX_STREAMAUDIOENGINE_CALLBACKS structure](ns-acxelements-acx_streamaudioengine_callbacks.md). 
+A pointer to an initialized [ACX_STREAMAUDIOENGINE_CALLBACKS structure](ns-acxelements-acx_streamaudioengine_callbacks.md).
 
 ## -remarks
 
@@ -61,8 +61,12 @@ Example usage is shown below.
         ACX_STREAMAUDIOENGINE_CALLBACKS_INIT(&streamAudioEngineCallbacks);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
-- [acxelements.h header](index.md)
-
-
+- [acxelements.h header\]\(index.md\)

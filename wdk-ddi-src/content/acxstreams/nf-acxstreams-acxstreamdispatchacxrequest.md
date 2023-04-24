@@ -2,7 +2,7 @@
 UID: NF:acxstreams.AcxStreamDispatchAcxRequest
 tech.root: audio
 title: AcxStreamDispatchAcxRequest
-ms.date: 07/28/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamDispatchAcxRequest dispatches an ACX request using a WDFREQUEST framework request object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -88,6 +88,12 @@ Routine Description:
     AcxStreamDispatchAcxRequest((ACXSTREAM)Object, Request);
 }
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

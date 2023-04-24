@@ -47,32 +47,32 @@ api_name:
 
 ## -description
 
-The **GETINFO_GLYPHBITMAP** structure is used as input to the [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) callback function.
+The **GETINFO_GLYPHBITMAP** structure is used as input to the [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function.
 
 ## -struct-fields
 
 ### -field dwSize
 
-Specifies the size, in bytes, of the **GETINFO_GLYPHBITMAP** structure. Supplied by [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) caller.
+Specifies the size, in bytes, of the **GETINFO_GLYPHBITMAP** structure. Supplied by [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) caller.
 
 ### -field hGlyph
 
-Handle to the glyph. See the following Remarks section. Supplied by the [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) caller.
+Handle to the glyph. See the following Remarks section. Supplied by the [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) caller.
 
 ### -field pGlyphData
 
-Pointer to a [GLYPHDATA](/windows/win32/api/winddi/ns-winddi-glyphdata) structure. The structure is filled in by Unidrv's [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) callback function. The pointer is supplied by the *UNIFONTOBJ_GetInfo* caller.
+Pointer to a [GLYPHDATA](/windows/win32/api/winddi/ns-winddi-glyphdata) structure. The structure is filled in by Unidrv's [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function. The pointer is supplied by the *UNIFONTOBJ_GetInfo* caller.
 
 ## -remarks
 
-To obtain a glyph bitmap, a rendering plug-in can supply the address of a **GETINFO_GLYPHBITMAP** structure when calling Unidrv's [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) callback function.
+To obtain a glyph bitmap, a rendering plug-in can supply the address of a **GETINFO_GLYPHBITMAP** structure when calling Unidrv's [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function.
 
-The value that a rendering plug-in specifies for the **hGlyph** member must have been previously received as the *hGlyph* parameter to the [IPrintOemUni::DownloadCharGlyph](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-downloadcharglyph) method.
+The value that a rendering plug-in specifies for the **hGlyph** member must have been previously received as the *hGlyph* parameter to the [IPrintOemUni::DownloadCharGlyph](../prcomoem/nf-prcomoem-iprintoemuni-downloadcharglyph.md) method.
 
 ## -see-also
 
 [GLYPHDATA](/windows/win32/api/winddi/ns-winddi-glyphdata)
 
-[IPrintOemUni::DownloadCharGlyph](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-downloadcharglyph)
+[IPrintOemUni::DownloadCharGlyph](../prcomoem/nf-prcomoem-iprintoemuni-downloadcharglyph.md)
 
-[UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo)
+[UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md)

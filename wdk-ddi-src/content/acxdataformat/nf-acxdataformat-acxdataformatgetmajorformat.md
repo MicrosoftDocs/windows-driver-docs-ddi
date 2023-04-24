@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetMajorFormat
 tech.root: audio
 title: AcxDataFormatGetMajorFormat
-ms.date: 05/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: AcxDataFormatGetMajorFormat
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdataformat.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -58,9 +58,14 @@ Returns a GUID value representing the major format for the specified *DataFormat
 
 Specifies the general format type. The data formats that are currently supported can be found in the KSDATAFORMAT_TYPE_XXX symbolic constants in the ksmedia.h header file that is included in the Windows Driver Kit (WDK). A data stream that has no particular format should use KSDATAFORMAT_TYPE_STREAM (defined in ks.h) as the value for its major format.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [Stream Categories](/windows-hardware/drivers/stream/stream-categories)
 - [acxdataformat.h header](index.md)
-

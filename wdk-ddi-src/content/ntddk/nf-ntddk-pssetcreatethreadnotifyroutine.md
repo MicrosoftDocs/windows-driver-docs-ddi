@@ -2,15 +2,14 @@
 UID: NF:ntddk.PsSetCreateThreadNotifyRoutine
 title: PsSetCreateThreadNotifyRoutine function (ntddk.h)
 description: The PsSetCreateThreadNotifyRoutine routine registers a driver-supplied callback that is subsequently notified when a new thread is created and when such a thread is deleted.
-old-location: kernel\pssetcreatethreadnotifyroutine.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/10/2023
 keywords: ["PsSetCreateThreadNotifyRoutine function"]
 ms.keywords: PsSetCreateThreadNotifyRoutine, PsSetCreateThreadNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_1fe3d941-1e48-4f07-bf57-ad7b2855947f.xml, kernel.pssetcreatethreadnotifyroutine, ntddk/PsSetCreateThreadNotifyRoutine
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,30 +39,25 @@ api_name:
  - PsSetCreateThreadNotifyRoutine
 ---
 
-# PsSetCreateThreadNotifyRoutine function
-
-
 ## -description
 
-The <b>PsSetCreateThreadNotifyRoutine</b> routine registers a driver-supplied callback that is subsequently notified when a new thread is created and when such a thread is deleted.
+The **PsSetCreateThreadNotifyRoutine** routine registers a driver-supplied callback that is subsequently notified when a new thread is created and when such a thread is deleted.
 
 ## -parameters
 
 ### -param NotifyRoutine [in]
 
-
-A pointer to the driver's implementation of <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pcreate_thread_notify_routine">PCREATE_THREAD_NOTIFY_ROUTINE</a> routine.
+A pointer to the driver's implementation of [PCREATE_THREAD_NOTIFY_ROUTINE](./nc-ntddk-pcreate_thread_notify_routine.md) routine.
 
 ## -returns
 
-<b>PsSetCreateThreadNotifyRoutine</b> either returns STATUS_SUCCESS or it returns STATUS_INSUFFICIENT_RESOURCES if it failed the callback registration.
+**PsSetCreateThreadNotifyRoutine** either returns STATUS_SUCCESS or it returns STATUS_INSUFFICIENT_RESOURCES if it failed the callback registration.
 
 ## -remarks
 
-Highest-level drivers can call <b>PsSetCreateThreadNotifyRoutine</b> to set up their thread-creation notify routines, declared as follows:
+Highest-level drivers can call **PsSetCreateThreadNotifyRoutine** to set up their thread-creation notify routines, declared as follows:
 
-
-```
+```cpp
 VOID
 (*PCREATE_THREAD_NOTIFY_ROUTINE) (
     IN HANDLE  ProcessId,
@@ -74,28 +68,18 @@ VOID
 
 For example, an IFS or highest-level system-profiling driver might register such a thread-creation callback to track the system-wide creation and deletion of threads against the driver's internal state.
 
-A driver must remove any callbacks it registers before it unloads. You can remove the callback by calling the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psremovecreatethreadnotifyroutine">PsRemoveCreateThreadNotifyRoutine</a> routine.
+A driver must remove any callbacks it registers before it unloads. You can remove the callback by calling the [PsRemoveCreateThreadNotifyRoutine](./nf-ntddk-psremovecreatethreadnotifyroutine.md) routine.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentprocessid">PsGetCurrentProcessId</a>
+[PsGetCurrentProcessId](./nf-ntddk-psgetcurrentprocessid.md)
 
+[PsGetCurrentThreadId](./nf-ntddk-psgetcurrentthreadid.md)
 
+[PsIsSystemThread](../ntifs/nf-ntifs-psissystemthread.md)
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentthreadid">PsGetCurrentThreadId</a>
+[PsRemoveCreateThreadNotifyRoutine](./nf-ntddk-psremovecreatethreadnotifyroutine.md)
 
+[PsSetCreateProcessNotifyRoutine](./nf-ntddk-pssetcreateprocessnotifyroutine.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psissystemthread">PsIsSystemThread</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psremovecreatethreadnotifyroutine">PsRemoveCreateThreadNotifyRoutine</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetcreateprocessnotifyroutine">PsSetCreateProcessNotifyRoutine</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetloadimagenotifyroutine">PsSetLoadImageNotifyRoutine</a>
+[PsSetLoadImageNotifyRoutine](./nf-ntddk-pssetloadimagenotifyroutine.md)

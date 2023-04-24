@@ -1,5 +1,5 @@
 ---
-UID: NS:storport.__unnamed_struct_26
+UID: NS:storport.WRITE_USING_TOKEN_HEADER
 title: WRITE_USING_TOKEN_HEADER (storport.h)
 description: The WRITE_USING_TOKEN_HEADER structure (storport.h) describes the destination data locations for an offload write data operation.
 old-location: storage\write_using_token_header.htm
@@ -44,6 +44,7 @@ api_name:
 ---
 
 # WRITE_USING_TOKEN_HEADER structure (storport.h)
+
 
 ## -description
 
@@ -96,3 +97,4 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 [**BLOCK_DEVICE_RANGE_DESCRIPTOR**](../scsi/ns-scsi-block_device_range_descriptor.md)
 
 [**POPULATE_TOKEN_HEADER**](ns-storport-populate_token_header.md)
+

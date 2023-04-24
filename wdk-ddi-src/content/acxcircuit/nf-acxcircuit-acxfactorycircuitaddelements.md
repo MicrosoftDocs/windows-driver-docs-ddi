@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitAddElements
 tech.root: audio
 title: AcxFactoryCircuitAddElements
-ms.date: 07/28/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxFactoryCircuitAddElements function adds elements to an ACXFACTORYCIRCUIT.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -64,7 +64,8 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-The driver can only add elements to a circuit factory before the factory is added to the device. 
+The driver can only add elements to a circuit factory before the factory is added to the device.
+
 The driver cannot change the factory's elements at run time.
 
 ### Example
@@ -75,7 +76,12 @@ Example usage is shown below.
 
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

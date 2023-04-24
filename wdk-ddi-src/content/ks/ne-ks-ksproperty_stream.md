@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_24
+UID: NE:ks.KSPROPERTY_STREAM
 title: KSPROPERTY_STREAM (ks.h)
 description: "Learn more about: KSPROPERTY_STREAM enumeration"
 old-location: stream\ksproperty_stream.htm

@@ -59,7 +59,7 @@ api_name:
 
 <ul>
 <li>
-If the <i>Oplock</i> parameter is <b>NULL</b>, or if the value of *<i>Oplock</i> is <b>NULL</b>, there are no outstanding opportunistic locks on the file, and fast I/O can be performed on the file. 
+If the <i>Oplock</i> parameter is <b>NULL</b>, or if the value of **Oplock* is <b>NULL</b>, there are no outstanding opportunistic locks on the file, and fast I/O can be performed on the file. 
 
 </li>
 <li>

@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceInitInitialize
 tech.root: audio
 title: AcxDeviceInitInitialize
-ms.date: 01/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The client driver must call AcxDeviceInitInitialize in its EVT_WDF_DRIVER_DEVICE_ADD callback, before calling WdfDeviceCreate.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdevice.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -98,13 +98,18 @@ if (!NT_SUCCESS(status))
 }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
-* [EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
-* [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
-* [WDFDEVICE_INIT](/windows-hardware/drivers/wdf/wdfdevice_init)
-* [ACX_DEVICEINIT_CONFIG](ns-acxdevice-acx_deviceinit_config.md)
-* [ACX_DEVICEINIT_CONFIG_INIT](nf-acxdevice-acx_deviceinit_config_init.md)
-* [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values)
-* [acxdevice.h header](index.md)
-
+- [EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
+- [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
+- [WDFDEVICE_INIT](/windows-hardware/drivers/wdf/wdfdevice_init)
+- [ACX_DEVICEINIT_CONFIG](ns-acxdevice-acx_deviceinit_config.md)
+- [ACX_DEVICEINIT_CONFIG_INIT](nf-acxdevice-acx_deviceinit_config_init.md)
+- [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values)
+- [acxdevice.h header](index.md)

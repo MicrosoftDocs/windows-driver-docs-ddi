@@ -2,24 +2,24 @@
 UID: NF:ntifs.NtOpenThreadToken
 tech.root: kernel
 title: NtOpenThreadToken
-ms.date: 07/26/2022
+ms.date: 10/06/2022
 targetos: Windows
 description: The NtOpenThreadToken routine opens the access token associated with a thread, and returns a handle that can be used to access that token.
 prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: NtosKrnl.exe
 req.header: ntifs.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: NtosKrnl.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -38,6 +38,7 @@ f1_keywords:
  - ntifs/NtOpenThreadToken
 dev_langs:
  - c++
+ms.custom: engagement-fy23
 ---
 
 ## -description
@@ -85,7 +86,7 @@ The **OpenAsSelf** parameter allows a server process to open the access token fo
 
 Any handle obtained by calling **NtOpenThreadToken** must eventually be released by calling **NtClose**.
 
-For more information about security and access control, see the documentation on these topics in the Windows SDK.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 

@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_39
+UID: NE:ks.KSSTREAM_POINTER_STATE
 title: KSSTREAM_POINTER_STATE (ks.h)
 description: "Learn more about: KSSTREAM_POINTER_STATE enumeration"
 old-location: stream\ksstream_pointer_state.htm

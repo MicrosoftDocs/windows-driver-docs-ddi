@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitAssignProperties
 tech.root: audio
 title: AcxFactoryCircuitInitAssignProperties
-ms.date: 08/01/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitAssignProperties function assigns one or more ACX properties for the ACXFACTORYCIRCUIT.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -54,7 +54,7 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param Properties
 
-An [ACX_PROPERTY_ITEM structure](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_property_item) that defines a set of properties that will be used for circuit initialization. 
+An [ACX_PROPERTY_ITEM structure](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_property_item) that defines a set of properties that will be used for circuit initialization.
 
 ### -param PropertiesCount
 
@@ -68,17 +68,12 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 Drivers should only add driver owned properties.
 
-### Example
- 
-Sample pending.
+### ACX requirements
 
-Example usage is shown below.
+**Minimum ACX version:** 1.0
 
-```cpp
-
-```
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

@@ -1,5 +1,5 @@
 ---
-UID: NS:ksproxy.__unnamed_struct_0
+UID: NS:ksproxy.OPTIMAL_WEIGHT_TOTALS
 title: OPTIMAL_WEIGHT_TOTALS (ksproxy.h)
 description: "Learn more about: OPTIMAL_WEIGHT_TOTALS structure"
 old-location: stream\optimal_weight_totals.htm

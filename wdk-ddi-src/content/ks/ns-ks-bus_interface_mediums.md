@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_80
+UID: NS:ks.BUS_INTERFACE_MEDIUMS
 title: BUS_INTERFACE_MEDIUMS (ks.h)
 description: "Learn more about: BUS_INTERFACE_MEDIUMS structure"
 old-location: stream\bus_interface_mediums.htm

@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_RT_STREAM_CALLBACKS
 ms.date: 07/28/2022
 targetos: Windows
-description: The ACX_RT_STREAM_CALLBACKS structure defines callbacks for RT streaming to the ACX framework. 
+description: The ACX_RT_STREAM_CALLBACKS structure defines callbacks for RT streaming to the ACX framework.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_RT_STREAM_CALLBACKS** structure defines callbacks for RT streaming to the ACX framework. 
+The **ACX_RT_STREAM_CALLBACKS** structure defines callbacks for RT streaming to the ACX framework.
 
 ## -struct-fields
 
@@ -84,8 +84,13 @@ The [EvtAcxStreamGetPresentationPosition](nc-acxstreams-evt_acx_stream_get_prese
 
 The driver must also define and use the [ACX_STREAM_CALLBACKS](ns-acxstreams-acx_stream_callbacks.md) structure to create an ACXRTSTREAM.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxstreams.h header](index.md)
 - [AcxStreamInitAssignAcxRtStreamCallbacks](nf-acxstreams-acxstreaminitassignacxrtstreamcallbacks.md)
-

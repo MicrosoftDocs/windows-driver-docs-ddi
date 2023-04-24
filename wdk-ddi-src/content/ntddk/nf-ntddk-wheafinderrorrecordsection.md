@@ -2,9 +2,8 @@
 UID: NF:ntddk.WheaFindErrorRecordSection
 title: WheaFindErrorRecordSection function (ntddk.h)
 description: The WheaFindErrorRecordSection function searches for a specified Windows Hardware Error Architecture (WHEA) error record section within a WHEA error record. The error record section is formatted as a WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure.
-old-location: whea\wheafinderrorrecordsection.htm
 tech.root: whea
-ms.date: 02/20/2018
+ms.date: 12/07/2022
 keywords: ["WheaFindErrorRecordSection function"]
 ms.keywords: WheaFindErrorRecordSection, WheaFindErrorRecordSection function [WHEA Drivers and Applications], ntddk/WheaFindErrorRecordSection, whea.wheafinderrorrecordsection, whearef2_fe7f8220-081d-475c-9230-d59cff81164d.xml
 req.header: ntddk.h
@@ -23,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
+req.irql: IRQL <=DISPATCH_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -40,102 +39,56 @@ api_name:
  - WheaFindErrorRecordSection
 ---
 
-# WheaFindErrorRecordSection function
-
-
 ## -description
 
-The <b>WheaFindErrorRecordSection</b> function searches for a specified Windows Hardware Error Architecture (WHEA) error record section within a WHEA <a href="/windows-hardware/drivers/whea/error-records">error record</a>. The error record section is formatted as a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure.
+The **WheaFindErrorRecordSection** function searches for a specified Windows Hardware Error Architecture (WHEA) error record section within a WHEA [error record](/windows-hardware/drivers/whea/error-records). The error record section is formatted as a [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) structure.
 
 ## -parameters
 
 ### -param Record [in]
 
-
-A pointer to a WHEA <a href="/windows-hardware/drivers/whea/error-records">error record</a> that is formatted as a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a> structure.
+A pointer to a WHEA [error record](/windows-hardware/drivers/whea/error-records) that is formatted as a [**WHEA_ERROR_RECORD**](./ns-ntddk-_whea_error_record.md) structure.
 
 ### -param SectionType [in]
 
-
-A GUID that specifies the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure to be located within the specified WHEA <a href="/windows-hardware/drivers/whea/error-records">error record</a>.
+A GUID that specifies the [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) structure to be located within the specified WHEA [error record](/windows-hardware/drivers/whea/error-records).
 
 ### -param SectionDescriptor [out]
 
+The address of a [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) pointer.
 
-The address of a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> pointer. 
-
-If the <b>WheaFindErrorRecordSection</b> function locates the specified WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure, the function sets the <i>SectionDescriptor </i>parameter to the address of that structure within the specified WHEA <a href="/windows-hardware/drivers/whea/error-records">error record</a>.
+If the **WheaFindErrorRecordSection** function locates the specified WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure, the function sets the *SectionDescriptor* parameter to the address of that structure within the specified WHEA [error record](/windows-hardware/drivers/whea/error-records).
 
 ### -param SectionData [out, optional]
 
-
 The address of a PVOID pointer.
 
-If the <b>WheaFindErrorRecordSection</b> function locates the specified <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure, the function sets the <i>SectionData</i> parameter to the address of the hardware error data associated with that descriptor within the specified WHEA <a href="/windows-hardware/drivers/whea/error-records">error record</a>.
+If the **WheaFindErrorRecordSection** function locates the specified [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) structure, the function sets the *SectionData* parameter to the address of the hardware error data associated with that descriptor within the specified WHEA [error record](/windows-hardware/drivers/whea/error-records).
 
-<div class="alert"><b>Note</b>  This parameter is optional and must be set to <b>NULL</b> if a pointer to the hardware error data is not required.</div>
-<div> </div>
+This parameter is optional and must be set to **NULL** if a pointer to the hardware error data is not required.
 
 ## -returns
 
-<b>WheaFindErrorRecordSection</b> returns one of the following NTSTATUS codes:
+**WheaFindErrorRecordSection** returns one of the following NTSTATUS codes:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure was found. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure was not found.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Either the <i>Record</i>, <i>SectionType,</i> or <i>SectionDescriptor</i> parameters were set to <b>NULL</b>, or the WHEA <a href="/windows-hardware/drivers/whea/error-records">error record</a> referenced through the <i>Record </i>parameter is invalid.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|---|---|
+| **STATUS_SUCCESS** | The specified [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) structure was found. |
+| **STATUS_NOT_FOUND** | The specified [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) structure was not found. |
+| **STATUS_INVALID_PARAMETER** | Either the *Record*, *SectionType,* or *SectionDescriptor* parameters were set to **NULL**, or the WHEA [error record](/windows-hardware/drivers/whea/error-records) referenced through the *Record* parameter is invalid. |
 
 ## -remarks
 
-If <b>WheaFindErrorRecordSection</b> returns STATUS_SUCCESS, it has located the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure that was specified through the <i>Guid </i>parameter. <b>WheaFindErrorRecordSection</b> sets the <i>SectionDescriptor</i> parameter to the address of the located <b>WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</b> structure.
+If **WheaFindErrorRecordSection** returns STATUS_SUCCESS, it has located the [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) structure that was specified through the *Guid* parameter. **WheaFindErrorRecordSection** sets the *SectionDescriptor* parameter to the address of the located **WHEA_ERROR_RECORD_SECTION_DESCRIPTOR** structure.
 
-Additionally, if <b>WheaFindErrorRecordSection</b> returns STATUS_SUCCESS and the caller set the <i>SectionData</i> parameter to the address of a PVOID pointer variable, the function updates the parameter with the address of the hardware error data associated with the specified <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure. 
+Additionally, if **WheaFindErrorRecordSection** returns STATUS_SUCCESS and the caller set the *SectionData* parameter to the address of a PVOID pointer variable, the function updates the parameter with the address of the hardware error data associated with the specified [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) structure.
 
-The format of the hardware error data is dependent upon the <b>SectionType </b>member of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structure referenced through the <i>SectionDescriptor </i>parameter. For example, if the <b>SectionType </b>member has the value PROCESSOR_GENERIC_ERROR_SECTION_GUID, the hardware error data is formatted as a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_generic_error_section">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a> structure.
+The format of the hardware error data is dependent upon the **SectionType** member of the [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) structure referenced through the *SectionDescriptor* parameter. For example, if the **SectionType** member has the value PROCESSOR_GENERIC_ERROR_SECTION_GUID, the hardware error data is formatted as a [**WHEA_PROCESSOR_GENERIC_ERROR_SECTION**](./ns-ntddk-_whea_processor_generic_error_section.md) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/whea/error-records">Error record</a>
+[Error record](/windows-hardware/drivers/whea/error-records)
 
+[**WHEA_ERROR_RECORD**](./ns-ntddk-_whea_error_record.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+[**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md)

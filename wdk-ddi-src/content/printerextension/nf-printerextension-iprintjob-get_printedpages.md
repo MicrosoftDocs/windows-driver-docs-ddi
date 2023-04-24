@@ -57,10 +57,10 @@ Returns an **HRESULT** value.
 
 ## -remarks
 
-If the **PrintedPages** and [IPrintJob::TotalPages](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_totalpages) properties are both zero, then page delimiting is not supported for the print job.
+If the **PrintedPages** and [IPrintJob::TotalPages](./nf-printerextension-iprintjob-get_totalpages.md) properties are both zero, then page delimiting is not supported for the print job.
 
 ## -see-also
 
-[IPrintJob::IPrintJob](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob)
+[IPrintJob::IPrintJob](./nn-printerextension-iprintjob.md)
 
-[TotalPages](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_totalpages)
+[TotalPages](./nf-printerextension-iprintjob-get_totalpages.md)

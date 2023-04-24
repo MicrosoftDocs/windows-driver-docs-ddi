@@ -2,9 +2,8 @@
 UID: NF:ntddk.KeQueryHardwareCounterConfiguration
 title: KeQueryHardwareCounterConfiguration function (ntddk.h)
 description: The KeQueryHardwareCounterConfiguration routine queries the operating system for the list of hardware counters to use for thread profiling.
-old-location: kernel\kequeryhardwarecounterconfiguration.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/20/2023
 keywords: ["KeQueryHardwareCounterConfiguration function"]
 ms.keywords: KeQueryHardwareCounterConfiguration, KeQueryHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_442c5acf-84a3-4078-b401-ca8cb8069c6e.xml, kernel.kequeryhardwarecounterconfiguration, ntddk/KeQueryHardwareCounterConfiguration
 req.header: ntddk.h
@@ -40,73 +39,41 @@ api_name:
  - KeQueryHardwareCounterConfiguration
 ---
 
-# KeQueryHardwareCounterConfiguration function
-
-
 ## -description
 
-The <b>KeQueryHardwareCounterConfiguration</b> routine queries the operating system for the list of hardware counters to use for thread profiling.
+The **KeQueryHardwareCounterConfiguration** routine queries the operating system for the list of hardware counters to use for thread profiling.
 
 ## -parameters
 
 ### -param CounterArray [out]
 
-
-A pointer to a caller-allocated buffer into which the routine writes an array of elements of type <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_hardware_counter">HARDWARE_COUNTER</a>. Each array element is a structure that contains information about a hardware counter. The array contains one element for each hardware counter that is assigned to thread profiling. If the routine fails, it writes nothing to this buffer.
+A pointer to a caller-allocated buffer into which the routine writes an array of elements of type [**HARDWARE_COUNTER**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_hardware_counter). Each array element is a structure that contains information about a hardware counter. The array contains one element for each hardware counter that is assigned to thread profiling. If the routine fails, it writes nothing to this buffer.
 
 ### -param MaximumCount [in]
 
-
-Specifies the maximum number of elements that the routine can write to the buffer that is pointed to by the <i>CounterArray</i> parameter. The size of the caller-allocated buffer must be at least <i>MaximumCount</i> * <b>sizeof</b>(<b>HARDWARE_COUNTER</b>) bytes.
+Specifies the maximum number of elements that the routine can write to the buffer that is pointed to by the *CounterArray* parameter. The size of the caller-allocated buffer must be at least *MaximumCount* * **sizeof**(**HARDWARE_COUNTER**) bytes.
 
 ### -param Count [out]
 
-
-A pointer to a location into which the routine writes the number of array elements that it has written to the buffer that is pointed to by the <i>CounterArray</i> parameter. If the buffer length that is specified by <i>MaximumCount</i> is not large enough to contain the entire array, the routine writes the required length to *<i>Count</i> and returns STATUS_BUFFER_TOO_SMALL.
+A pointer to a location into which the routine writes the number of array elements that it has written to the buffer that is pointed to by the *CounterArray* parameter. If the buffer length that is specified by *MaximumCount* is not large enough to contain the entire array, the routine writes the required length to **Count* and returns STATUS_BUFFER_TOO_SMALL.
 
 ## -returns
 
-<b>KeQueryHardwareCounterConfiguration</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
+**KeQueryHardwareCounterConfiguration** returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>MaximumCount</i> parameter specifies a buffer length that is not large enough to contain the counter configuration information. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This routine is not implemented for the processor architecture that the caller is running on. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|--|--|
+| **STATUS_BUFFER_TOO_SMALL** | The *MaximumCount* parameter specifies a buffer length that is not large enough to contain the counter configuration information. |
+| **STATUS_NOT_IMPLEMENTED** | This routine is not implemented for the processor architecture that the caller is running on. |
 
 ## -remarks
 
-In Windows 7, this routine is implemented only for the x86-based, x64-based, and Itanium-based architectures. If the caller is running on a processor architecture that is not supported, the routine returns STATUS_NOT_IMPLEMENTED. 
+In Windows 7, this routine is implemented only for the x86-based, x64-based, and Itanium-based architectures. If the caller is running on a processor architecture that is not supported, the routine returns STATUS_NOT_IMPLEMENTED.
 
-To set the hardware counter configuration to use for thread profiling, call the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesethardwarecounterconfiguration">KeSetHardwareCounterConfiguration</a> routine.
+To set the hardware counter configuration to use for thread profiling, call the [KeSetHardwareCounterConfiguration](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesethardwarecounterconfiguration) routine.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_hardware_counter">HARDWARE_COUNTER</a>
+[**HARDWARE_COUNTER**](/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_hardware_counter)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesethardwarecounterconfiguration">KeSetHardwareCounterConfiguration</a>
+[KeSetHardwareCounterConfiguration](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesethardwarecounterconfiguration)

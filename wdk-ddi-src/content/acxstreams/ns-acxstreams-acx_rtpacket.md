@@ -72,6 +72,12 @@ The ACX framework currently only supports WdfMemoryDescriptorTypeMdl packet buff
 
 See [EVT_ACX_STREAM_ALLOCATE_RTPACKETS](nc-acxstreams-evt_acx_stream_allocate_rtpackets.md) for details on allocating ACX_RTPACKET structures.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxstreams.h header](index.md)

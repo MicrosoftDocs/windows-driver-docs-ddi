@@ -1,10 +1,10 @@
 ---
 UID: NC:acxelements.EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION
-tech.root: audio 
+tech.root: audio
 title: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
-description: The EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION callback function is implemented by the driver and is called when the current write position for the specified stream audio engine is set. 
+description: The EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION callback function is implemented by the driver and is called when the current write position for the specified stream audio engine is set.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION** callback function is implemented by the driver and is called when the current write position for the specified stream audio engine is set. 
+The **EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION** callback function is implemented by the driver and is called when the current write position for the specified stream audio engine is set.
 
 ## -parameters
 
@@ -94,8 +94,12 @@ CodecR_EvtAcxStreamAudioEngineAssignCurrentWritePosition(
 }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-

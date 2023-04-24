@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_0
+UID: NS:gnssdriver.GNSS_SUPL_VERSION
 title: GNSS_SUPL_VERSION (gnssdriver.h)
 description: This structure contains SUPL version information.
 old-location: gnss\gnss_supl_version.htm

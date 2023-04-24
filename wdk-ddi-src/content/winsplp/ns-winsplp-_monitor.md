@@ -1,10 +1,9 @@
 ---
 UID: NS:winsplp._MONITOR
-title: _MONITOR (winsplp.h)
+title: MONITOR (winsplp.h)
 description: The MONITOR structure is obsolete and is supported only for compatibility reasons.
-old-location: print\monitor.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 01/04/2023
 keywords: ["MONITOR structure"]
 ms.keywords: "*LPMONITOR, LPMONITOR, LPMONITOR structure pointer [Print Devices], MONITOR, MONITOR structure [Print Devices], _MONITOR, print.monitor, spoolfnc_c7b3aeed-d00f-4728-967d-bbe1a8512a42.xml, winsplp/LPMONITOR, winsplp/MONITOR"
 req.header: winsplp.h
@@ -46,15 +45,12 @@ api_name:
  - MONITOR
 ---
 
-# _MONITOR structure
-
-
 ## -description
 
-> [!IMPORTANT]
-> The MONITOR structure is obsolete and is supported only for compatibility reasons. New print monitors should implement [MONITOR2](./ns-winsplp-_monitor2.md) so that they can be used with print server clusters.
+> [!CAUTION]
+> The **MONITOR** structure is obsolete and is supported only for compatibility reasons. New print monitors should implement [**MONITOR2**](./ns-winsplp-_monitor2.md) so that they can be used with print server clusters.
 
-The MONITOR structure contains pointers to the functions defined by print monitors.
+The **MONITOR** structure contains pointers to the functions defined by print monitors.
 
 ## -struct-fields
 
@@ -92,7 +88,7 @@ Pointer to the print monitor's [ClosePort](./nf-winsplp-closeport.md) function.
 
 ### -field pfnAddPort
 
-> [!IMPORTANT]
+> [!CAUTION]
 > The [AddPort](/previous-versions/ff545022(v=vs.85)) function is obsolete and should not be used.
 
 [AddPort](/previous-versions/ff545022(v=vs.85)) creates a port and adds it to the list of ports currently supported by the specified monitor in the spooler environment.
@@ -103,14 +99,14 @@ Pointer to the print monitor's [ClosePort](./nf-winsplp-closeport.md) function.
 
 ### -field pfnConfigurePort
 
-> [!IMPORTANT]
+> [!CAUTION]
 > The [ConfigurePort](/previous-versions/ff546286(v=vs.85)) function is obsolete and should not be used. Use [ConfigurePortUI](./nf-winsplp-configureportui.md) instead.
 
 [ConfigurePort](/previous-versions/ff546286(v=vs.85)) is a port management function that configures the specified port.
 
 ### -field pfnDeletePort
 
-> [!IMPORTANT]
+> [!CAUTION]
 > The **DeletePort** function is obsolete and and should not be used.
 
 **DeletePort** deletes a port from the monitor's environment.
@@ -142,7 +138,7 @@ The following sections describe each callback member in more detail.
 ### AddPort
 
 ```cpp
-typedef BOOL ( WINAPI *pfnAddPort)(
+typedef BOOL (WINAPI *pfnAddPort)(
   _In_ HANDLE hMonitor,
   _In_ LPWSTR pName,
   _In_ HWND   hWnd,
@@ -150,32 +146,32 @@ typedef BOOL ( WINAPI *pfnAddPort)(
 );
 ```
 
-#### Parameters
+#### Parameters (AddPort)
 
-##### Monitor [in]
+##### Monitor [in] (AddPort)
 
 Caller supplied monitor instance handle. This is the handle returned by the monitor's InitializePrintMonitor2 function. (This parameter does not exist if the print monitor supports InitializePrintMonitor2 instead of InitializePrintMonitor2.)
 
-##### pName [in]
+##### pName [in] (AddPort)
 
 Pointer to a null-terminated string that specifies the name of the server to which the port is connected. If pName is NULL, the port is local.
 
-##### hWnd [in]
+##### hWnd [in] (AddPort)
 
 Handle to the parent window of the dialog box in which the port name will be entered.
 
-##### pMonitorName [in]
+##### pMonitorName [in] (AddPort)
 
 Pointer to a null-terminated string that specifies the monitor associated with the port.
 
-#### Return value
+#### Return value (AddPort)
 
 The return value is TRUE if the function is successful, and FALSE otherwise.
 
 ### ConfigurePort
 
 ```cpp
-typedef BOOL ( WINAPI *pfnConfigurePort)(
+typedef BOOL (WINAPI *pfnConfigurePort)(
   _In_ HANDLE hMonitor,
   _In_ LPWSTR pName,
   _In_ HWND   hWnd,
@@ -183,25 +179,25 @@ typedef BOOL ( WINAPI *pfnConfigurePort)(
 );
 ```
 
-#### Parameters
+#### Parameters (ConfigurePort)
 
-##### hMonitor [in]
+##### hMonitor [in] (ConfigurePort)
 
 Caller supplied monitor instance handle. This is the handle returned by the monitor's InitializePrintMonitor2 function. (This parameter does not exist if the print monitor supports InitializePrintMonitor instead of InitializePrintMonitor2.)
 
-##### pName [in]
+##### pName [in] (ConfigurePort)
 
 Pointer to a null-terminated string that specifies the name of the server on which the given port exists. If this string is NULL, the port is local.
 
-##### hWnd [in]
+##### hWnd [in] (ConfigurePort)
 
 Handle to the parent window of the dialog box in which the configuration information will be entered.
 
-##### pPortName [in]
+##### pPortName [in] (ConfigurePort)
 
 Pointer to a null-terminated string that specifies the name of the port to be configured.
 
-#### Return value
+#### Return value (ConfigurePort)
 
 The return value is TRUE if the function is successful.
 
@@ -218,25 +214,25 @@ BOOL WINAPI DeletePort(
 )
 ```
 
-#### Parameters
+#### Parameters (DeletePort)
 
-##### hMonitor [in]
+##### hMonitor [in] (DeletePort)
 
 Caller supplied monitor instance handle. This is the handle returned by the monitor's InitializePrintMonitor2 function. (This parameter does not exist if the print monitor supports InitializePrintMonitor instead of InitializePrintMonitor2.)
 
-##### pName [in]
+##### pName [in] (DeletePort)
 
 Pointer to a null-terminated string that specifies the name of the server on which the port to be deleted exists. If this parameter is NULL, the port is local.
 
-##### hWnd [in]
+##### hWnd [in] (DeletePort)
 
 Handle to the parent window of the port-deletion dialog box.
 
-##### pPortName [in]
+##### pPortName [in] (DeletePort)
 
 Pointer to a null-terminated string that names the port to be deleted.
 
-#### Return value
+#### Return value (DeletePort)
 
 The return value is TRUE if the function is successful.
 
@@ -248,20 +244,20 @@ typedef BOOL ( WINAPI *pfnEndDocPort)(
 );
 ```
 
-#### Parameters
+#### Parameters (EndDocPort)
 
-##### hPort [in]
+##### hPort [in]  (EndDocPort)
 
 Caller-supplied port handle.
 
-#### Return value
+#### Return value  (EndDocPort)
 
 If the operation succeeds, the function should return TRUE. Otherwise it should return FALSE.
 
 ### EnumPorts
 
 ```cpp
-typedef BOOL ( WINAPI *pfnEnumPorts)(
+typedef BOOL (WINAPI *pfnEnumPorts)(
   _In_     HANDLE  hMonitor,
   _In_opt_ LPWSTR  pName,
   _In_     DWORD   Level,
@@ -272,39 +268,39 @@ typedef BOOL ( WINAPI *pfnEnumPorts)(
 );
 ```
 
-#### Parameters
+#### Parameters (EnumPorts)
 
-##### hMonitor [in]
+##### hMonitor [in] (EnumPorts)
 
 Caller supplied monitor instance handle. This is the handle returned by the monitor's InitializePrintMonitor2 function. (This parameter does not exist if the print monitor supports InitializePrintMonitor instead of InitializePrintMonitor2.)
 
-##### pName [in, optional]
+##### pName [in, optional] (EnumPorts)
 
 Caller-supplied pointer to a string containing the name of the server whose ports are to be enumerated. A NULL pointer represents the system on which the port monitor server DLL is executing.
 
-##### Level [in]
+##### Level [in] (EnumPorts)
 
 Caller-supplied value indicating the type of structures to be returned in the buffer pointed to by pPorts.
 
 Possible values are 1 (PORT_INFO_1) or 2 (PORT_INFO_2).
 
-##### pPorts [out]
+##### pPorts [out] (EnumPorts)
 
 Caller-supplied pointer to a buffer to receive port information. Returned information must consist of an array of [PORT_INFO_1](/windows/win32/printdocs/port-info-1) or [PORT_INFO_2](/windows/win32/printdocs/port-info-2) structures, followed by the strings pointed to by structure members.
 
-##### cbBuf [in]
+##### cbBuf [in] (EnumPorts)
 
 Caller-supplied size, in bytes, of the buffer pointed to by pPorts.
 
-##### pcbNeeded [out]
+##### pcbNeeded [out] (EnumPorts)
 
 Caller-supplied pointer to a location to receive the buffer size, in bytes, required to contain all returned information.
 
-##### pcReturned [out]
+##### pcReturned [out] (EnumPorts)
 
 Caller-supplied pointer to a location to receive the number enumerated ports.
 
-#### Return value
+#### Return value (EnumPorts)
 
 If the operation succeeds, the function should return TRUE. Otherwise it should return FALSE.
 
@@ -325,41 +321,41 @@ BOOL WINAPI GetPrinterDataFromPort(
 )
 ```
 
-#### Parameters
+#### Parameters (GetPrinterDataFromPort)
 
-##### hPort [in]
+##### hPort [in] (GetPrinterDataFromPort)
 
 Caller-supplied port handle.
 
-##### ControlID [in]
+##### ControlID [in] (GetPrinterDataFromPort)
 
 Caller-supplied device I/O control code. A value of zero indicates a value name is supplied by pValueName.
 
-##### pValueName [in]
+##### pValueName [in] (GetPrinterDataFromPort)
 
 Caller-supplied pointer to a string identifying the information being requested. Valid only if ControlID is zero.
 
-##### lpInBuffer [in]
+##### lpInBuffer [in] (GetPrinterDataFromPort)
 
 Caller-supplied pointer to a buffer containing input data. Used only if ControlID is nonzero.
 
-##### cbInBuffer [in]
+##### cbInBuffer [in] (GetPrinterDataFromPort)
 
 Caller-supplied size, in bytes, of the buffer pointed to by lpInBuffer.
 
-##### lpOutBuffer [out]
+##### lpOutBuffer [out] (GetPrinterDataFromPort)
 
 Caller-supplied pointer to a buffer to receive the requested data.
 
-##### cbOutBuffer [in]
+##### cbOutBuffer [in] (GetPrinterDataFromPort)
 
 Caller-supplied size, in bytes, of the buffer pointed to by lpOutBuffer.
 
-##### lpcbReturned [out]
+##### lpcbReturned [out] (GetPrinterDataFromPort)
 
 Caller-supplied pointer to a location to receive the number of bytes written into the buffer pointed to by lpOutBuffer.
 
-#### Return value
+#### Return value (GetPrinterDataFromPort)
 
 If the operation succeeds, the function should return TRUE. Otherwise it should return FALSE.
 
@@ -378,37 +374,37 @@ BOOL WINAPI OpenPortEx(
 )
 ```
 
-#### Parameters
+#### Parameters (OpenPortEx)
 
-##### hMonitor [in]
+##### hMonitor [in] (OpenPortEx)
 
 Caller supplied language monitor instance handle. This is the handle returned by the monitor's InitializePrintMonitor2 function. (This parameter does not exist if the print monitor supports InitializePrintMonitor instead of InitializePrintMonitor2.) In a cluster environment, there can be multiple instances of language monitors.
 
-##### hMonitorPort [in]
+##### hMonitorPort [in] (OpenPortEx)
 
-Caller supplied port monitor instance handle. This is the handle returned by the monitor's InitializePrintMonitor2 function. (This parameter does not exist if the print monitor supports InitializePrintMonitor instead of InitializePrintMonitor2.) A language monitor must use this handle when it calls functions in the port monitor's MONITOR2 structure.
+Caller supplied port monitor instance handle. This is the handle returned by the monitor's InitializePrintMonitor2 function. (This parameter does not exist if the print monitor supports InitializePrintMonitor instead of InitializePrintMonitor2.) A language monitor must use this handle when it calls functions in the port monitor's **MONITOR2** structure.
 
-##### pPortName [in]
+##### pPortName [in] (OpenPortEx)
 
 Caller-supplied pointer to a string containing the name of the port to be opened.
 
-##### pPrinterName [in]
+##### pPrinterName [in] (OpenPortEx)
 
 Caller-supplied pointer to a string containing the name of the printer that is connected to the port.
 
-##### pHandle [out]
+##### pHandle [out] (OpenPortEx)
 
 Caller-supplied pointer to a location to receive a port handle.
 
-##### pMonitor [in]
+##### pMonitor [in] (OpenPortEx)
 
-Caller-supplied pointer to the MONITOR2 structure returned by a port monitor's InitializePrintMonitor2 function.
+Caller-supplied pointer to the **MONITOR2** structure returned by a port monitor's InitializePrintMonitor2 function.
 
-#### Return value
+#### Return value (OpenPortEx)
 
 If the operation succeeds, the function should return TRUE. Otherwise it should return FALSE.
 
-SetPortTimeOuts
+### SetPortTimeOuts
 
 ```cpp
 BOOL (WINAPI *pfnSetPortTimeOuts)
@@ -419,28 +415,28 @@ BOOL (WINAPI *pfnSetPortTimeOuts)
     );
 ```
 
-#### Parameters
+#### Parameters (SetPortTimeOuts)
 
-##### hPort [in]
+##### hPort [in] (SetPortTimeOuts)
 
 Caller-supplied handle to the open port on which to set the time-out values.
 
-##### lpCTO [in]
+##### lpCTO [in] (SetPortTimeOuts)
 
 Caller-supplied pointer to a [COMMTIMEOUTS](/windows/win32/api/winbase/ns-winbase-commtimeouts) structure.
 
-##### reserved [in]
+##### reserved [in] (SetPortTimeOuts)
 
 Reserved for future use. Must be set to zero.
 
-#### Return value
+#### Return value (SetPortTimeOuts)
 
 If the operation succeeds, the function should return TRUE. Otherwise it should return FALSE.
 
 ### StartDocPort
 
 ```cpp
-typedef BOOL ( WINAPI *pfnStartDocPort)(
+typedef BOOL (WINAPI *pfnStartDocPort)(
   _In_ HANDLE hPort,
   _In_ LPWSTR pPrinterName,
   _In_ DWORD  JobId,
@@ -449,31 +445,31 @@ typedef BOOL ( WINAPI *pfnStartDocPort)(
 );
 ```
 
-#### Parameters
+#### Parameters (StartDocPort)
 
-##### hPort [in]
+##### hPort [in] (StartDocPort)
 
 Caller-supplied port handle.
 
-##### pPrinterName [in]
+##### pPrinterName [in] (StartDocPort)
 
 Caller-supplied pointer to a string containing the printer name.
 
-##### JobId [in]
+##### JobId [in] (StartDocPort)
 
 Caller-supplied, spooler-assigned job identifier.
 
-##### Level [in]
+##### Level [in] (StartDocPort)
 
 Caller-supplied value indicating the type of structure pointed to by pDocInfo.
 
 Possible values are 1 (DOC_INFO_1) or 2 (DOC_INFO_2).
 
-##### pDocInfo [in]
+##### pDocInfo [in] (StartDocPort)
 
 Caller-supplied pointer to a [DOC_INFO_1](/windows/win32/printdocs/doc-info-1) or [DOC_INFO_2](/windows/win32/printdocs/doc-info-2) structure.
 
-#### Return value
+#### Return value (StartDocPort)
 
 If the operation succeeds, the function should return TRUE. Otherwise it should return FALSE.
 
@@ -493,7 +489,7 @@ The spooler calls **DeletePort** so a port monitor can delete a port from the mo
 
 Applications can delete local and remote ports. The printer UI displays a confirmation message box before the spooler calls **DeletePort**, so a monitor should ignore the *hWnd* parameter and not display another dialog box.
 
-[Language monitors](/windows-hardware/drivers/print/language-monitors) and port monitor server DLLs are required to define an **EndDocPort** function and include the function's address in a [MONITOR2](./ns-winsplp-_monitor2.md) structure.
+[Language monitors](/windows-hardware/drivers/print/language-monitors) and port monitor server DLLs are required to define an **EndDocPort** function and include the function's address in a [**MONITOR2**](./ns-winsplp-_monitor2.md) structure.
 
 The handle received as the function's hPort argument is the port handle that the monitor's [OpenPort](./nf-winsplp-openport.md) or [OpenPortEx](/previous-versions/ff559596(v=vs.85)) function supplied.
 
@@ -505,7 +501,7 @@ The **EndDocPort** function should free all resources that were allocated by the
 
 You might want to modify the **EndDocPort** function's behavior if the user has deleted or restarted the print job. The function can call [**GetJob**](/windows/win32/printdocs/getjob), and check for a status of JOB_STATUS_DELETING or JOB_STATUS_RESTART, to see if either of these events has occurred.
 
-Port monitor server DLLs are required to define an **EnumPorts** function and include the function's address in a [MONITOR2](./ns-winsplp-_monitor2.md) structure. Language monitors do not export this function.
+Port monitor server DLLs are required to define an **EnumPorts** function and include the function's address in a [**MONITOR2**](./ns-winsplp-_monitor2.md) structure. Language monitors do not export this function.
 
 The purpose of the **EnumPorts** function is to enumerate the ports currently supported by a print monitor. These ports are ones that were previously specified to the monitor's [AddPortUI](./nf-winsplp-addportui.md) or [AddPortEx](/previous-versions/ff545025(v=vs.85)) function.
 
@@ -519,7 +515,7 @@ The port monitor must support localization of strings pointed to by the **pMonit
 
 The **fPortType** member of the PORT_INFO_2 structure is not used with NT-based operating systems.
 
-[Language monitors](/windows-hardware/drivers/print/language-monitors) and port monitor server DLLs can optionally define a **GetPrinterDataFromPort** function and include the function's address in a [MONITOR2](./ns-winsplp-_monitor2.md) structure.
+[Language monitors](/windows-hardware/drivers/print/language-monitors) and port monitor server DLLs can optionally define a **GetPrinterDataFromPort** function and include the function's address in a [**MONITOR2**](./ns-winsplp-_monitor2.md) structure.
 
 The function is meant for use with bidirectional printers, and can be used in the following two ways:
 
@@ -539,21 +535,21 @@ If a language monitor's **GetPrinterDataFromPort** function receives a nonzero I
 
 When a port monitor's **GetPrinterDataFromPort** function receives a nonzero I/O control code in *ControlID*, it should call [**DeviceIOControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) to pass the control code to the kernel-mode port driver. The *lpInBuffer*, *cbInBuffer*, *lpOutBuffer*, *cbOutBuffer*, and *lpcbReturned* parameter values should also be passed to **DeviceIOControl**.
 
-Language monitors are required to define an `OpenPortEx` function and include its address in a [MONITOR2](./ns-winsplp-_monitor2.md) structure. The `OpenPortEx` function is called by the print spooler when a print queue is being connected to a port.
+Language monitors are required to define an `OpenPortEx` function and include its address in a [**MONITOR2**](./ns-winsplp-_monitor2.md) structure. The `OpenPortEx` function is called by the print spooler when a print queue is being connected to a port.
 
 The `OpenPortEx` function's primary purpose is to return a port handle that the caller can use as an input argument for subsequent calls to the language monitor's [StartDocPort](/previous-versions/ff562710(v=vs.85)), [WritePort](./nf-winsplp-writeport.md), [ReadPort](./nf-winsplp-readport.md), [EndDocPort](/previous-versions/ff548742(v=vs.85)), and [GetPrinterDataFromPort](/previous-versions/ff550506(v=vs.85)) functions. Because a language monitor typically implements these functions by calling the equivalent functions in its associated port monitor, a language monitor typically obtains a port handle by calling the port monitor's [OpenPort](./nf-winsplp-openport.md) function. For more information see [Language and Port Monitor Interaction](/windows-hardware/drivers/print/language-and-port-monitor-interaction).
 
-The `OpenPortEx` function's *pMonitor* parameter is a pointer to the port monitor's [MONITOR2](./ns-winsplp-_monitor2.md) structure. This structure contains pointers to the port monitor's callable functions. The `OpenPortEx` function should check the structure to verify that all required function pointers are non-**NULL**. If the structure is valid, the function should copy it into local storage. Otherwise `OpenPortEx` should call **SetLastError**, specifying ERROR_INVALID_PRINT_MONITOR, and return **FALSE**.
+The `OpenPortEx` function's *pMonitor* parameter is a pointer to the port monitor's [**MONITOR2**](./ns-winsplp-_monitor2.md) structure. This structure contains pointers to the port monitor's callable functions. The `OpenPortEx` function should check the structure to verify that all required function pointers are non-**NULL**. If the structure is valid, the function should copy it into local storage. Otherwise `OpenPortEx` should call **SetLastError**, specifying ERROR_INVALID_PRINT_MONITOR, and return **FALSE**.
 
 Print monitor functions that accept a port handle as input do not also accept a monitor handle. Therefore, the `OpenPortEx` function must store the received monitor handle in a location that can be referenced by the port handle. This allows the functions that accept a port handle to reference the monitor handle.
 
-A port monitor server DLL's `SetPortTimeOuts` function allows a language monitor to specify port time-out values for an open port. The function is optional, and must be provided only if the port monitor controls a port that allows the modification of port time-out values. If the function is defined, its address must be included in a [MONITOR2](./ns-winsplp-_monitor2.md) structure.
+A port monitor server DLL's `SetPortTimeOuts` function allows a language monitor to specify port time-out values for an open port. The function is optional, and must be provided only if the port monitor controls a port that allows the modification of port time-out values. If the function is defined, its address must be included in a [**MONITOR2**](./ns-winsplp-_monitor2.md) structure.
 
 The function is called by pjlmon.dll, the [sample language monitor](/windows-hardware/drivers/print/sample-language-monitor), and you can write a customized language monitor that calls it. The print spooler does not call `SetPortTimeOuts`.
 
 The port monitor should initialize the port's time-out values from within its [OpenPort](./nf-winsplp-openport.md) function.
 
-[Language monitors](/windows-hardware/drivers/print/language-monitors) and port monitor server DLLs are required to define a `StartDocPort` function and include the function's address in a [MONITOR2](./ns-winsplp-_monitor2.md) structure.
+[Language monitors](/windows-hardware/drivers/print/language-monitors) and port monitor server DLLs are required to define a `StartDocPort` function and include the function's address in a [**MONITOR2**](./ns-winsplp-_monitor2.md) structure.
 
 The handle received as the function's *hPort* argument is the port handle that the monitor's [OpenPort](./nf-winsplp-openport.md) or [OpenPortEx](/previous-versions/ff559596(v=vs.85)) function supplied.
 
@@ -565,7 +561,6 @@ If necessary, the port monitor should prevent other processes from using the spe
 
 ## -see-also
 
-[MONITOR2](./ns-winsplp-_monitor2.md)
+[**MONITOR2**](./ns-winsplp-_monitor2.md)
 
 [MONITORUI](./ns-winsplp-_monitorui.md)
-

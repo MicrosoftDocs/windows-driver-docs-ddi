@@ -2,9 +2,8 @@
 UID: NF:strmini.StreamClassCallAtNewPriority
 title: StreamClassCallAtNewPriority function (strmini.h)
 description: The StreamClassCallAtNewPriority routine schedules a routine to be called at a different priority.
-old-location: stream\streamclasscallatnewpriority.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/03/2023
 keywords: ["StreamClassCallAtNewPriority function"]
 ms.keywords: StreamClassCallAtNewPriority, StreamClassCallAtNewPriority routine [Streaming Media Devices], strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, stream.streamclasscallatnewpriority, strmini/StreamClassCallAtNewPriority
 req.header: strmini.h
@@ -41,86 +40,38 @@ api_name:
  - StreamClassCallAtNewPriority
 ---
 
-# StreamClassCallAtNewPriority function
-
-
 ## -description
 
-The <b>StreamClassCallAtNewPriority</b> routine schedules a routine to be called at a different priority.
+The **StreamClassCallAtNewPriority** routine schedules a routine to be called at a different priority.
 
 ## -parameters
 
 ### -param StreamObject [in, optional]
 
-
-Pointer to an HW_STREAM_OBJECT structure specifying the stream is associated with the routine, or <b>NULL</b> if the routine is associated with the device as a whole. There can be only one routine per stream, and only one routine for the device. This parameter is optional.
+Pointer to an HW_STREAM_OBJECT structure specifying the stream is associated with the routine, or **NULL** if the routine is associated with the device as a whole. There can be only one routine per stream, and only one routine for the device. This parameter is optional.
 
 ### -param HwDeviceExtension [in]
 
-
-Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter">StreamClassRegisterMinidriver</a>. The class driver then passes pointers to the buffer in the <b>HwDeviceExtension</b> member of the <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a>, <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a>, <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context">HW_TIME_CONTEXT</a>, and <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
+Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the [HW_INITIALIZATION_DATA](./ns-strmini-_hw_initialization_data.md) structure it passes when it registers itself via [StreamClassRegisterMinidriver](./nf-strmini-streamclassregisteradapter.md). The class driver then passes pointers to the buffer in the **HwDeviceExtension** member of the [HW_STREAM_REQUEST_BLOCK](./ns-strmini-_hw_stream_request_block.md), [HW_STREAM_OBJECT](./ns-strmini-_hw_stream_object.md), [HW_TIME_CONTEXT](./ns-strmini-_hw_time_context.md), and [PORT_CONFIGURATION_INFORMATION](./ns-strmini-_port_configuration_information.md) structures it passes to the minidriver.
 
 ### -param Priority [in]
 
-
 Specifies one of the values listed in the following table.
 
-<table>
-<tr>
-<th>Priority</th>
-<th>Usage</th>
-</tr>
-<tr>
-<td>
-High
-
-</td>
-<td>
-The stream class driver calls the routine at the same priority as the minidriver's <b>StrMini</b><i>Xxx</i> callbacks. Do not use this setting unless the routine must be synchronized with the minidriver's interrupt service routine.
-
-</td>
-</tr>
-<tr>
-<td>
-Dispatch
-
-</td>
-<td>
-The stream class driver calls the routine at DISPATCH_LEVEL. Use this priority if the routine takes less than 1 millisecond to complete.
-
-</td>
-</tr>
-<tr>
-<td>
-Low
-
-</td>
-<td>
-The stream class driver calls the routine at PASSIVE_LEVEL. Use this priority if the routine takes less than 1 millisecond to complete.
-
-</td>
-</tr>
-<tr>
-<td>
-LowToHigh
-
-</td>
-<td>
-Used to allow a thread called at low priority to return to high priority so that other stream class driver services can be called.
-
-</td>
-</tr>
-</table>
+| Priority | Usage |
+|---|---|
+| High | The stream class driver calls the routine at the same priority as the minidriver's **StrMini***Xxx* callbacks. Do not use this setting unless the routine must be synchronized with the minidriver's interrupt service routine. |
+| Dispatch | The stream class driver calls the routine at DISPATCH_LEVEL. Use this priority if the routine takes less than 1 millisecond to complete. |
+| Low | The stream class driver calls the routine at PASSIVE_LEVEL. Use this priority if the routine takes less than 1 millisecond to complete. |
+| LowToHigh | Used to allow a thread called at low priority to return to high priority so that other stream class driver services can be called. |
 
 ### -param PriorityRoutine [in]
 
-
-Pointer to a minidriver-supplied <a href="/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_priority_routine">StrMiniPriorityRoutine</a> to be called at the specified priority level.
+Pointer to a minidriver-supplied [StrMiniPriorityRoutine](./nc-strmini-phw_priority_routine.md) to be called at the specified priority level.
 
 ### -param Context [in]
 
-
-Specifies the parameter to be passed to the <i>PriorityRoutine</i>.
+Specifies the parameter to be passed to the *PriorityRoutine*.
 
 ## -returns
 

@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE
 tech.root: audio
 title: EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE
-ms.date: 01/28/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE callback is invoked by ACX when the driver must create a WDFDEVICE for a new ACXCIRCUIT object.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -60,7 +60,7 @@ An [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT](ns-acxcircuit-acx_factory_circuit_add_circu
 
 ### -param Device
 
-A pointer to a location that receives a handle to the new  WDFDEVICE framework object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)). 
+A pointer to a location that receives a handle to the new  WDFDEVICE framework object (described in  [Summary of Framework Objects](/windows-hardware/drivers/wdf/summary-of-framework-objects)).
 
 ## -returns
 
@@ -136,7 +136,12 @@ Dsp_EvtAcxFactoryCircuitCreateCircuitDevice(
 }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

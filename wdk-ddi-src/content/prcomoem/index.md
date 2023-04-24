@@ -2,11 +2,10 @@
 description: "Learn more about: Prcomoem.h header"
 UID: NA:prcomoem
 title: Prcomoem.h header
-ms.assetid: 0458b097-7680-3460-8cbd-f14ad4279a69
-ms.date: 05/09/2018
+ms.date: 03/02/2023
 keywords: ["Prcomoem.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: print
 f1_keywords:
  - prcomoem
@@ -17,10 +16,8 @@ api_name:
 
 # Prcomoem.h header
 
-
 ## -description
 
 This header is used by print. For more information, see:
 
 - [Print devices](../_print/index.md)
-

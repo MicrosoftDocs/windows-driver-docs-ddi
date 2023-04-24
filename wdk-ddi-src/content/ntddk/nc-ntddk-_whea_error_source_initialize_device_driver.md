@@ -1,12 +1,12 @@
 ---
 UID: NC:ntddk._WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER
-title: _WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER
-description: "Learn more about: _WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER callback function"
+title: WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER
+description: The WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER callback function initializes a driver's error source hardware and software state.
 tech.root: whea
-ms.date: 03/05/2019
+ms.date: 01/19/2023
 keywords: ["WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER callback function"]
 req.header: ntddk.h
-req.include-header: 
+req.include-header: Ntddk.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
 req.target-min-winversvr: 
@@ -23,7 +23,6 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 targetos: Windows
-ms.custom: 19H1
 f1_keywords:
  - _WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER
  - ntddk/_WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER
@@ -39,12 +38,9 @@ product:
  - Windows
 ---
 
-# _WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER callback function
-
-
 ## -description
 
-A driver's *_WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER* callback function initializes its error source hardware and software state.
+The *WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER* callback function initializes a driver's error source hardware and software state.
 
 ## -parameters
 
@@ -60,24 +56,6 @@ A ULONG value that uniquely identifies this driver as an error source.
 
 This function method returns STATUS_SUCCESS or an appropriate error code.
 
-## -prototype
-
-```
-//Declaration
-
-_WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER WheaErrorSourceInitializeDeviceDriver; 
-
-// Definition
-
-NTSTATUS WheaErrorSourceInitializeDeviceDriver 
-(
-	PVOID Context
-	ULONG ErrorSourceId
-)
-{...}
-
-```
-
 ## -remarks
 
 A driver should store the error source identifier it receives as input to this callback function for later communication with WHEA. For example, if the driver detects an error condition, it calls [**WheaReportHwErrorDeviceDriver**](nf-ntddk-wheareporthwerrordevicedriver.md), providing the error data and the driver's ErrorSourceId, to report the error to WHEA. When a driver is stopped (for example to be updated), it calls [**WheaRemoveErrorSourceDeviceDriver**](nf-ntddk-whearemoveerrorsourcedevicedriver.md) to unregister its error source identifier.
@@ -89,4 +67,3 @@ For more info, see [Using WHEA on Windows 10](/windows-hardware/drivers/whea/usi
 ## -see-also
 
 [*WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER*](nc-ntddk-_whea_error_source_uninitialize_device_driver.md)
-

@@ -2,9 +2,9 @@
 UID: NC:acxrequest.EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST
 tech.root: audio
 title: EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST
-ms.date: 07/26/2022
+ms.date: 11/10/2022
 targetos: Windows
-description: The EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST callback is used by the driver to handle event notifications. 
+description: The EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST callback is used by the driver to handle event notifications.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxrequest.h
 req.idl:
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST** callback is used by the driver to handle event notifications. 
+The **EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST** callback is used by the driver to handle event notifications.
 
 ## -parameters
 
@@ -99,7 +99,7 @@ CodecR_EvtMuteElementChangeEventCallback(
     muteCtx = GetCodecMuteElementContext(Object);
     ASSERT(muteCtx);
 
-    // for testing. 
+    // for testing.
     muteEventCtx = GetCodecMuteEventContext(Event);
     ASSERT(muteEventCtx);
 
@@ -141,8 +141,12 @@ CodecR_EvtMuteElementChangeEventCallback(
 
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
-- [acxrequest.h header](index.md)
-
-
+- [acxrequest.h header\]\(index.md\)

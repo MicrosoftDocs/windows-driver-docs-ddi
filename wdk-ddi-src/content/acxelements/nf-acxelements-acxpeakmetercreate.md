@@ -1,10 +1,10 @@
 ---
 UID: NF:acxelements.AcxPeakMeterCreate
-tech.root: audio 
+tech.root: audio
 title: AcxPeakMeterCreate
-ms.date: 04/29/2022
+ms.date: 12/15/2022
 targetos: Windows
-description: The AcxPeakMeterCreate function is used to create an ACX peakmeter object that that will be associated with a circuit object parent. 
+description: The AcxPeakMeterCreate function is used to create an ACX peakmeter object that that will be associated with a circuit object parent.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxelements.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxPeakMeterCreate** function is used to create an ACX peakmeter object that that will be associated with a circuit object parent. 
+The **AcxPeakMeterCreate** function is used to create an ACX peakmeter object that that will be associated with a circuit object parent.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ An initialized [ACX_PEAKMETER_CONFIG structure](ns-acxelements-acx_peakmeter_con
 
 ### -param PeakMeter
 
-A pointer to a location that receives the handle to the newly created ACXPEAKMETER object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+A pointer to a location that receives the handle to the newly created ACXPEAKMETER object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ## -returns
 
@@ -74,7 +74,7 @@ Example usage is shown below.
 
 ```cpp
     WDF_OBJECT_ATTRIBUTES           attributes;
- 
+
     ACX_PEAKMETER_CALLBACKS         peakmeterCallbacks;
     ACX_PEAKMETER_CONFIG            peakmeterCfg;
     ACXPEAKMETER                    peakmeterElement;
@@ -96,8 +96,12 @@ Example usage is shown below.
     status = AcxPeakMeterCreate(Circuit, &attributes, &peakmeterCfg, &peakmeterElement);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxelements.h header](index.md)
-
-

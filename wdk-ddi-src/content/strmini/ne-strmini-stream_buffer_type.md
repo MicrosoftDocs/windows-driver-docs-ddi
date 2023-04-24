@@ -1,5 +1,5 @@
 ---
-UID: NE:strmini.__unnamed_enum_2
+UID: NE:strmini.STREAM_BUFFER_TYPE
 title: STREAM_BUFFER_TYPE (strmini.h)
 description: This enumeration defines the buffer types for StreamClassGetPhysicalAddress.
 old-location: stream\stream_buffer_type.htm
@@ -60,3 +60,4 @@ Indicates the physical address of the DMA buffer.
 ### -field SRBDataBuffer
 
 Indicates the physical address of a data buffer.
+

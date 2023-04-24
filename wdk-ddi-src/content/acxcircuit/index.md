@@ -7,7 +7,7 @@ keywords: ["acxcircuit.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: portal
+ms.topic: overview
 tech.root: audioaudio
 f1_keywords:
  - acxcircuit

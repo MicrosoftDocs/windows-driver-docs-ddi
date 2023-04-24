@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_128
+UID: NS:ksmedia.KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
 title: KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM (ksmedia.h)
 description: This structure contains a custom item.
 old-location: stream\kscamera_perframesetting_custom_item.htm

@@ -1,10 +1,9 @@
 ---
 UID: NS:ksmedia.tagTRANSPORTBASICPARMS
-title: tagTRANSPORTBASICPARMS (ksmedia.h)
+title: TRANSPORTBASICPARMS (ksmedia.h)
 description: The TRANSPORTBASICPARMS structure is defined but not used.
-old-location: stream\transportbasicparms.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/15/2023
 keywords: ["tagTRANSPORTBASICPARMS structure"]
 ms.keywords: "*PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS structure pointer [Streaming Media Devices], TRANSPORTBASICPARMS, TRANSPORTBASICPARMS structure [Streaming Media Devices], ksmedia/PTRANSPORTBASICPARMS, ksmedia/TRANSPORTBASICPARMS, stream.transportbasicparms, tagTRANSPORTBASICPARMS, vidcapstruct_5a5cdf6a-56f3-43ad-9bab-e5d406052707.xml"
 req.header: ksmedia.h
@@ -46,9 +45,6 @@ api_name:
  - TRANSPORTBASICPARMS
 ---
 
-# tagTRANSPORTBASICPARMS structure
-
-
 ## -description
 
 The TRANSPORTBASICPARMS structure is defined but not used.
@@ -59,189 +55,47 @@ The TRANSPORTBASICPARMS structure is defined but not used.
 
 Indicates the basic time format.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-ED_FORMAT_MILLISECONDS
-
-</td>
-<td>
-Milliseconds
-
-</td>
-</tr>
-<tr>
-<td>
-ED_FORMAT_FRAMES
-
-</td>
-<td>
-Frames
-
-</td>
-</tr>
-<tr>
-<td>
-ED_FORMAT_REFERENCE_TIME
-
-</td>
-<td>
-Reference time
-
-</td>
-</tr>
-<tr>
-<td>
-ED_FORMAT_HMSF
-
-</td>
-<td>
-Binary coded decimal, representing hours, minutes, seconds, and frames
-
-</td>
-</tr>
-<tr>
-<td>
-ED_FORMAT_TMSF
-
-</td>
-<td>
-Binary coded decimal, representing tracks, minutes, seconds, and frames
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| ED_FORMAT_MILLISECONDS | Milliseconds |
+| ED_FORMAT_FRAMES | Frames |
+| ED_FORMAT_REFERENCE_TIME | Reference time |
+| ED_FORMAT_HMSF | Binary coded decimal, representing hours, minutes, seconds, and frames |
+| ED_FORMAT_TMSF | Binary coded decimal, representing tracks, minutes, seconds, and frames |
 
 ### -field TimeReference
 
 Indicates the basic time reference.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-ED_TIMEREF_TIMECODE
-
-</td>
-<td>
-Time code
-
-</td>
-</tr>
-<tr>
-<td>
-ED_TIMEREF_CONTROL_TRACK
-
-</td>
-<td>
-Control track
-
-</td>
-</tr>
-<tr>
-<td>
-ED_TIMEREF_INDEX
-
-</td>
-<td>
-Index
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| ED_TIMEREF_TIMECODE | Time code |
+| ED_TIMEREF_CONTROL_TRACK | Control track |
+| ED_TIMEREF_INDEX | Index |
 
 ### -field Superimpose
 
-Indicates whether to enable or disable the onscreen display. Specify <b>TRUE</b> to enable, <b>FALSE</b> to disable.
+Indicates whether to enable or disable the onscreen display. Specify **TRUE** to enable, **FALSE** to disable.
 
 ### -field EndStopAction
 
 Specifies the stop action.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-ED_MODE_STOP
-
-</td>
-<td>
-Stop
-
-</td>
-</tr>
-<tr>
-<td>
-ED_MODE_REWIND
-
-</td>
-<td>
-Rewind
-
-</td>
-</tr>
-<tr>
-<td>
-ED_MODE_FREEZE
-
-</td>
-<td>
-Freeze/pause
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| ED_MODE_STOP | Stop |
+| ED_MODE_REWIND | Rewind |
+| ED_MODE_FREEZE | Freeze/pause |
 
 ### -field RecordFormat
 
 Indicates the basic record format.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-ED_RECORD_FORMAT_SP
-
-</td>
-<td>
-Standard play
-
-</td>
-</tr>
-<tr>
-<td>
-ED_RECORD_FORMAT_LP
-
-</td>
-<td>
-Long play
-
-</td>
-</tr>
-<tr>
-<td>
-ED_RECORD_FORMAT_EP
-
-</td>
-<td>
-Extended play
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| ED_RECORD_FORMAT_SP | Standard play |
+| ED_RECORD_FORMAT_LP | Long play |
+| ED_RECORD_FORMAT_EP | Extended play |
 
 ### -field StepFrames
 
@@ -291,52 +145,12 @@ Specifies the color frame servo.
 
 Specifies the servo ref.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-ED_REF_EXTERNAL
-
-</td>
-<td>
-External
-
-</td>
-</tr>
-<tr>
-<td>
-ED_REF_INPUT
-
-</td>
-<td>
-Input
-
-</td>
-</tr>
-<tr>
-<td>
-ED_REF_INTERNAL
-
-</td>
-<td>
-Internal
-
-</td>
-</tr>
-<tr>
-<td>
-ED_REF_AUTO
-
-</td>
-<td>
-Auto
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| ED_REF_EXTERNAL | External |
+| ED_REF_INPUT | Input |
+| ED_REF_INTERNAL | Internal |
+| ED_REF_AUTO | Auto |
 
 ### -field WarnGenlock
 
@@ -346,42 +160,11 @@ Indicates the warn genlock.
 
 Specifies the tracking.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-ED_TRACKING_PLUS
-
-</td>
-<td>
-Plus
-
-</td>
-</tr>
-<tr>
-<td>
-ED_TRACKING_MINUS
-
-</td>
-<td>
-Minus
-
-</td>
-</tr>
-<tr>
-<td>
-ED_TRACKING_RESET
-
-</td>
-<td>
-Reset
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| ED_TRACKING_PLUS | Plus |
+| ED_TRACKING_MINUS | Minus |
+| ED_TRACKING_RESET | Reset |
 
 ### -field VolumeName
 
@@ -429,5 +212,4 @@ Indicates the timer stop-time.
 
 ## -remarks
 
-Any ED_<i>Xxx</i> tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
-
+Any ED_*Xxx* tokens are defined in *xprtdefs.h* in the Microsoft DirectX SDK.

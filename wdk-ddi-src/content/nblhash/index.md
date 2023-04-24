@@ -5,7 +5,7 @@ title: Nblhash.h header
 ms.date: 11/30/2020
 keywords: ["Nblhash.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: netvista
 f1_keywords:
  - nblhash

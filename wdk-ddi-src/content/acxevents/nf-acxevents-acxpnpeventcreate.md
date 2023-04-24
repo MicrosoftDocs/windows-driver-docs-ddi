@@ -2,7 +2,7 @@
 UID: NF:acxevents.AcxPnpEventCreate
 tech.root: audio
 title: AcxPnpEventCreate
-ms.date: 06/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxPnpEventCreate function creates an ACXPNPEVENT.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxevents.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -56,7 +56,7 @@ An existing ACXAUDIOMODULE object that is described in [Summary of ACX Objects](
 
 ### -param Attributes
 
-Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) that are used to set the various object’s values: cleanup and destroy callbacks, context type, and to specify its parent object.
+Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) that are used to set the various object's values: cleanup and destroy callbacks, context type, and to specify its parent object.
 
 ### -param Config
 
@@ -96,7 +96,12 @@ This example code shows the use of AcxPnpEventCreate.
     status = AcxPnpEventCreate(Device, audioModuleElement, &attributes, &audioModuleEventCfg, &audioModuleEvent);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxevents.h header](index.md)
-

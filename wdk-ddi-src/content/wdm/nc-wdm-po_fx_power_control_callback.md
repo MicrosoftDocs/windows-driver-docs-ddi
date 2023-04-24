@@ -2,9 +2,8 @@
 UID: NC:wdm.PO_FX_POWER_CONTROL_CALLBACK
 title: PO_FX_POWER_CONTROL_CALLBACK (wdm.h)
 description: The PowerControlCallback callback routine performs a power control operation that is requested by the power management framework (PoFx).
-old-location: kernel\powercontrolcallback.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/10/2023
 keywords: ["PO_FX_POWER_CONTROL_CALLBACK callback function"]
 ms.keywords: PO_FX_POWER_CONTROL_CALLBACK, PowerControlCallback, PowerControlCallback routine [Kernel-Mode Driver Architecture], kernel.powercontrolcallback, wdm/PowerControlCallback
 req.header: wdm.h
@@ -40,12 +39,9 @@ api_name:
  - PO_FX_POWER_CONTROL_CALLBACK
 ---
 
-# PO_FX_POWER_CONTROL_CALLBACK callback function
-
-
 ## -description
 
-The <i>PowerControlCallback</i> callback routine performs a power control operation that is requested by the power management framework (PoFx).
+The *PowerControlCallback* callback routine performs a power control operation that is requested by the power management framework (PoFx).
 
 ## -parameters
 
@@ -53,64 +49,55 @@ The <i>PowerControlCallback</i> callback routine performs a power control operat
 
 ### -param PowerControlCode [in]
 
-
 A pointer to the power control code. This code is a GUID value that specifies the requested operation.
 
 ### -param InBuffer [in, optional]
 
-
-A pointer to the buffer that contains the input data for the operation. The format for the data in this buffer depends on the power control code specified by the <i>PowerControlCode</i> parameter. The <i>InBuffer</i> parameter is optional and can be specified as NULL if the specified operation requires no input data.
+A pointer to the buffer that contains the input data for the operation. The format for the data in this buffer depends on the power control code specified by the *PowerControlCode* parameter. The *InBuffer* parameter is optional and can be specified as NULL if the specified operation requires no input data.
 
 ### -param InBufferSize [in]
 
-
-The size, in bytes, of the input buffer that is pointed to by the <i>InBuffer</i> parameter. If <i>InBuffer</i> is NULL, this parameter is zero.
+The size, in bytes, of the input buffer that is pointed to by the *InBuffer* parameter. If *InBuffer* is NULL, this parameter is zero.
 
 ### -param OutBuffer [out, optional]
 
-
-A pointer to the buffer to which the callback routine writes the output data from the operation. The format for the data in this buffer depends on the power control code specified by the <i>PowerControlCode</i> parameter.  The <i>OutBuffer</i> parameter is optional and can be specified as NULL if the specified operation produces no output data.
+A pointer to the buffer to which the callback routine writes the output data from the operation. The format for the data in this buffer depends on the power control code specified by the *PowerControlCode* parameter.  The *OutBuffer* parameter is optional and can be specified as NULL if the specified operation produces no output data.
 
 ### -param OutBufferSize [in]
 
-
-The size, in bytes, of the output buffer that is pointed to by the <i>OutBuffer</i> parameter. If <i>OutBuffer</i> is NULL, this parameter is zero.
+The size, in bytes, of the output buffer that is pointed to by the *OutBuffer* parameter. If *OutBuffer* is NULL, this parameter is zero.
 
 ### -param BytesReturned [out, optional]
 
-
-A pointer to a location into which the routine writes the number of bytes of data that were written to the buffer that is pointed to by <i>OutBuffer</i>. The number of bytes written must be less than or equal to <i>OutBufferSize</i>. This parameter is optional and can be specified as NULL if the caller does not need to know how many bytes were written to the output buffer.
+A pointer to a location into which the routine writes the number of bytes of data that were written to the buffer that is pointed to by *OutBuffer*. The number of bytes written must be less than or equal to *OutBufferSize*. This parameter is optional and can be specified as NULL if the caller does not need to know how many bytes were written to the output buffer.
 
 ## -returns
 
-The <i>PowerControlCallback</i> routine returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
+The *PowerControlCallback* routine returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
 
 ## -remarks
 
-PoFx calls this routine to send a power control request directly to the device driver. A power control request is similar to an I/O control request (IOCTL). Unlike an IOCTL, however, a power control request is sent directly to the driver and is not observed by other device drivers in the device stack. During a <i>PowerControlCallback</i> call, the driver synchronously performs the requested operation.
+PoFx calls this routine to send a power control request directly to the device driver. A power control request is similar to an I/O control request (IOCTL). Unlike an IOCTL, however, a power control request is sent directly to the driver and is not observed by other device drivers in the device stack. During a *PowerControlCallback* call, the driver synchronously performs the requested operation.
 
-This routine is optional. A device driver that does not support power control operations is not required to implement a <i>PowerControlCallback</i> routine.
+This routine is optional. A device driver that does not support power control operations is not required to implement a *PowerControlCallback* routine.
 
-The device driver can call the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxpowercontrol">PoFxPowerControl</a> routine to send a power control request to PoFx.
+The device driver can call the [PoFxPowerControl](./nf-wdm-pofxpowercontrol.md) routine to send a power control request to PoFx.
 
-For more information about power control requests, see <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxpowercontrol">PoFxPowerControl</a>.
+For more information about power control requests, see [PoFxPowerControl](./nf-wdm-pofxpowercontrol.md).
 
+### Examples
 
-#### Examples
+To define a *PowerControlCallback* callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
-To define a <i>PowerControlCallback</i> callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+For example, to define a *PowerControlCallback* callback routine that is named `MyPowerControlCallback`, use the PO_FX_POWER_CONTROL_CALLBACK type as shown in this code example:
 
-For example, to define a <i>PowerControlCallback</i> callback routine that is named <code>MyPowerControlCallback</code>, use the PO_FX_POWER_CONTROL_CALLBACK type as shown in this code example:
-
-
-```
+```cpp
 PO_FX_POWER_CONTROL_CALLBACK MyPowerControlCallback;
 ```
 
 Then, implement your callback routine as follows:
 
-
-```
+```cpp
 _Use_decl_annotations_
 NTSTATUS
   MyPowerControlCallback(
@@ -127,15 +114,10 @@ NTSTATUS
   }
 ```
 
-The PO_FX_POWER_CONTROL_CALLBACK function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the PO_FX_POWER_CONTROL_CALLBACK function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
-
-<div class="code"></div>
+The PO_FX_POWER_CONTROL_CALLBACK function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the `_Use_decl_annotations_` annotation to your function definition. The `_Use_decl_annotations_` annotation ensures that the annotations that are applied to the PO_FX_POWER_CONTROL_CALLBACK function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions by Using Function Role Types for WDM Drivers](/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers). For information about `_Use_decl_annotations_`, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a>
+[**PO_FX_DEVICE**](./ns-wdm-_po_fx_device_v1.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxpowercontrol">PoFxPowerControl</a>
-
+[PoFxPowerControl](./nf-wdm-pofxpowercontrol.md)

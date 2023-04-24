@@ -42,8 +42,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_INIT** function initializes a 
-[ACX_FACTORY_CIRCUIT_ADD_CIRCUIT](ns-acxcircuit-acx_factory_circuit_add_circuit.md) structure. No inputs are used with this function.
+The **ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_INIT** function initializes a [ACX_FACTORY_CIRCUIT_ADD_CIRCUIT](ns-acxcircuit-acx_factory_circuit_add_circuit.md) structure. No inputs are used with this function.
 
 ## -parameters
 
@@ -66,7 +65,12 @@ Example usage is shown below.
 
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

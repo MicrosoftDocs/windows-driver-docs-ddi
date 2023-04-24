@@ -5,7 +5,7 @@ title: Printoem.h header
 ms.date: 08/05/2022
 keywords: ["Printoem.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: print
 f1_keywords:
  - printoem

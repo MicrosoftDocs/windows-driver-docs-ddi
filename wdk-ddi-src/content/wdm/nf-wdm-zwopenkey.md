@@ -2,15 +2,14 @@
 UID: NF:wdm.ZwOpenKey
 title: ZwOpenKey function (wdm.h)
 description: The ZwOpenKey routine opens an existing registry key.
-old-location: kernel\zwopenkey.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 12/14/2022
 keywords: ["ZwOpenKey function"]
 ms.keywords: ZwOpenKey, ZwOpenKey routine [Kernel-Mode Driver Architecture], k111_8583b145-a6be-4e4f-8e46-ca7d48b8a07f.xml, kernel.zwopenkey, wdm/ZwOpenKey
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,91 +39,66 @@ api_name:
  - ZwOpenKey
 ---
 
-# ZwOpenKey function
-
-
 ## -description
 
-The <b>ZwOpenKey</b> routine opens an existing registry key.
+The **ZwOpenKey** routine opens an existing registry key.
 
 ## -parameters
 
 ### -param KeyHandle [out]
 
-
 Pointer to the HANDLE variable that receives the handle to the key.
 
 ### -param DesiredAccess [in]
 
-
-Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the object. For more information, see the <i>DesiredAccess</i> parameter of <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>.
+Specifies an [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the object. For more information, see the *DesiredAccess* parameter of [ZwCreateKey](./nf-wdm-zwcreatekey.md).
 
 ### -param ObjectAttributes [in]
 
-
-Pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
+Pointer to an [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that specifies the object name and other attributes. Use [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls **InitializeObjectAttributes**.
 
 ## -returns
 
-<b>ZwOpenKey</b> returns STATUS_SUCCESS if the given key was opened. Otherwise, it can return an error status, including the following:
+**ZwOpenKey** returns STATUS_SUCCESS if the given key was opened. Otherwise, it can return an error status, including the following:
 
-STATUS_INVALID_HANDLE
+- STATUS_INVALID_HANDLE
 
-STATUS_ACCESS_DENIED
+- STATUS_ACCESS_DENIED
 
 ## -remarks
 
-<b>ZwOpenKey</b> supplies a handle that the caller can use to manipulate a registry key. The routine provides a subset of the functionality of <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>. For more information, see <a href="/windows-hardware/drivers/kernel/using-the-registry-in-a-driver">Using the Registry in a Driver</a>.
+**ZwOpenKey** supplies a handle that the caller can use to manipulate a registry key. The routine provides a subset of the functionality of [ZwCreateKey](./nf-wdm-zwcreatekey.md). For more information, see [Using the Registry in a Driver](/windows-hardware/drivers/kernel/using-the-registry-in-a-driver).
 
-If the specified key does not exist, <b>ZwOpenKey</b> returns an error status and does not return a key handle.
+If the specified key does not exist, **ZwOpenKey** returns an error status and does not return a key handle.
 
-Once the handle pointed to by <i>KeyHandle</i> is no longer in use, the driver must call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a> to close it.
+Once the handle pointed to by *KeyHandle* is no longer in use, the driver must call [ZwClose](../ntifs/nf-ntifs-ntclose.md) to close it.
 
-<b>ZwOpenKey</b> ignores the security information in the structure that the <i>ObjectAttributes</i> parameter points to.
+**ZwOpenKey** ignores the security information in the structure that the *ObjectAttributes* parameter points to.
 
-If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="/windows-hardware/drivers/kernel/object-handles">Object Handles</a>.
+If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see [Object Handles](/windows-hardware/drivers/kernel/object-handles).
 
-For more information about working with registry keys, see <a href="/windows-hardware/drivers/kernel/using-the-registry-in-a-driver">Using the Registry in a Driver</a>.
+For more information about working with registry keys, see [Using the Registry in a Driver](/windows-hardware/drivers/kernel/using-the-registry-in-a-driver).
 
-<div class="alert"><b>Note</b>    If the call to this function occurs in user mode, you should use the name "<b>NtOpenKey</b>" instead of "<b>ZwOpenKey</b>".</div>
-<div> </div>
+If the call to this function occurs in user mode, you should use the name "**NtOpenKey**" instead of "**ZwOpenKey**".
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
+[ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask)
 
+[InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)
 
+[ZwCreateKey](./nf-wdm-zwcreatekey.md)
 
-<a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
+[ZwDeleteKey](./nf-wdm-zwdeletekey.md)
 
+[ZwEnumerateKey](./nf-wdm-zwenumeratekey.md)
 
+[ZwEnumerateValueKey](./nf-wdm-zwenumeratevaluekey.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>
+[ZwFlushKey](./nf-wdm-zwflushkey.md)
 
+[ZwQueryKey](./nf-wdm-zwquerykey.md)
 
+[ZwQueryValueKey](./nf-wdm-zwqueryvaluekey.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwdeletekey">ZwDeleteKey</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratekey">ZwEnumerateKey</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratevaluekey">ZwEnumerateValueKey</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwflushkey">ZwFlushKey</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwquerykey">ZwQueryKey</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwqueryvaluekey">ZwQueryValueKey</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a>
+[ZwSetValueKey](./nf-wdm-zwsetvaluekey.md)

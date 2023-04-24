@@ -4,7 +4,7 @@ title: FltLockUserBuffer function (fltkernel.h)
 description: The FltLockUserBuffer routine locks the user buffer for a given I/O operation.
 old-location: ifsk\fltlockuserbuffer.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/20/2023
 keywords: ["FltLockUserBuffer function"]
 ms.keywords: FltApiRef_e_to_o_7d39ba00-c97d-4adb-a0e1-a019ca4056b0.xml, FltLockUserBuffer, FltLockUserBuffer routine [Installable File System Drivers], fltkernel/FltLockUserBuffer, ifsk.fltlockuserbuffer
 req.header: fltkernel.h
@@ -50,20 +50,22 @@ The **FltLockUserBuffer** routine locks the user buffer for a given I/O operatio
 
 ### -param CallbackData [in]
 
-Pointer to the callback data  structure for the I/O operation ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)).
+Pointer to the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) callback data structure for the I/O operation.
 
 ## -returns
 
-If the user buffer is successfully locked, **FltLockUserBuffer** returns STATUS_SUCCESS. (This is the case even if the buffer was already locked by a previous call to **FltLockUserBuffer**.) Otherwise, it returns an appropriate NTSTATUS value, such as one of the following:
+**FltLockUserBuffer** returns STATUS_SUCCESS if it successfully locks the user buffer (or if the buffer was already locked by a previous call to **FltLockUserBuffer**.) Otherwise, it returns an appropriate NTSTATUS value, such as one of the following:
 
 | Return code | Description |
 | ----------- | ----------- |
 | STATUS_INSUFFICIENT_RESOURCES | **FltLockUserBuffer** encountered a pool allocation failure. This is an error code. |
-| STATUS_INVALID_PARAMETER      | The I/O operation is not one of the operations listed in the following Remarks section. This is an error code. |
+| STATUS_INVALID_PARAMETER      | An invalid parameter was encountered. For example, the I/O operation does not have an MDL parameter, or the IRP_MJ_READ or IRP_MJ_WRITE I/O operations have a minor code of IRP_MN_MDL. This is an error code. |
 
 ## -remarks
 
-A minifilter driver calls **FltLockUserBuffer** to lock the user buffer for one of the following I/O operations:
+For best performance, filter drivers should not call **FltLockUserBuffer** unless absolutely necessary. The performance slowdown is not because of **FltLockUserBuffer** itself, but rather because of the performance penalty incurred by [MmGetSystemAddressForMdlSafe](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md).
+
+A minifilter driver can call **FltLockUserBuffer** to lock the user buffer for one of the following I/O operations:
 
 * IRP_MJ_DEVICE_CONTROL
 * IRP_MJ_DIRECTORY_CONTROL
@@ -72,22 +74,20 @@ A minifilter driver calls **FltLockUserBuffer** to lock the user buffer for one 
 * IRP_MJ_QUERY_EA
 * IRP_MJ_QUERY_QUOTA
 * IRP_MJ_QUERY_SECURITY
-* IRP_MJ_READ
+* IRP_MJ_READ (except with IRP_MN_MDL)
 * IRP_MJ_SET_EA
 * IRP_MJ_SET_QUOTA
-* IRP_MJ_WRITE
+* IRP_MJ_WRITE (except with IRP_MN_MDL)
 
 **FltLockUserBuffer** determines the appropriate access method (IoReadAccess, IoWriteAccess, or IoModifyAccess) to apply for the locked buffer based on the type of I/O operation.
 
-**FltLockUserBuffer** sets the **MdlAddress** (or **OutputMdlAddress**) member  in the callback data parameter structure ([**FLT_PARAMETERS**](ns-fltkernel-_flt_parameters.md)) to point to the MDL for the locked pages. If there is no MDL, **FltLockUserBuffer** allocates one.
+**FltLockUserBuffer** sets the **MdlAddress** (or **OutputMdlAddress**) member in the callback data parameter structure ([**FLT_PARAMETERS**](ns-fltkernel-_flt_parameters.md)) to point to the MDL for the locked pages. If there is no MDL, **FltLockUserBuffer** allocates one. (Note that FltMgr cannot generate an MDL before the file system does, which is why **FltLockUserBuffer** returns STATUS_INVALID_PARAMETER for IRP_MJ_READ or IRP_MJ_WRITE with IRP_MN_MDL).
 
 If the callback data parameter structure contains a system buffer and does not contain a user buffer, **FltLockUserBuffer** locks the system buffer. If there is no MDL for the system buffer, **FltLockUserBuffer** allocates one.
 
-If **FltLockUserBuffer** is called from a preoperation callback routine ([**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)) and it allocates an MDL, **FltLockUserBuffer** sets the FLTFL_CALLBACK_DATA_DIRTY flag in the callback data structure ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) so that the I/O system frees the MDL when the I/O operation is completed.
+If **FltLockUserBuffer** is called from a pre-operation callback routine ([**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)) and it allocates an MDL, **FltLockUserBuffer** sets the FLTFL_CALLBACK_DATA_DIRTY flag in the callback data structure ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) so that the I/O system frees the MDL when the I/O operation is completed.
 
 To conserve system page table entries (PTE), **FltLockUserBuffer** does not map the locked pages. After calling **FltLockUserBuffer**, the caller must call [MmGetSystemAddressForMdlSafe](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md), passing the **MdlAddress** (or **OutputMdlAddress**) member in the callback data parameter structure as the value of the **Mdl** parameter, to get a system buffer that represents this memory.
-
-Use of **FltLockUserBuffer** can slow system performance. This is not because of **FltLockUserBuffer** itself, but rather because of the performance penalty incurred by [MmGetSystemAddressForMdlSafe](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md).
 
 The caller can be running in any process context. **FltLockUserBuffer** automatically locks the buffer in the correct process context.
 

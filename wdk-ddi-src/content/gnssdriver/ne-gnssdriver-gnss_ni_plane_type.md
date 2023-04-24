@@ -1,5 +1,5 @@
 ---
-UID: NE:gnssdriver.__unnamed_enum_6
+UID: NE:gnssdriver.GNSS_NI_PLANE_TYPE
 title: GNSS_NI_PLANE_TYPE (gnssdriver.h)
 description: This enumeration indicates the plane type of a network initiated (NI) request represented by the GNSS_NI_REQUEST_PARAM structure.
 old-location: gnss\gnss_ni_plane_type.htm
@@ -60,3 +60,4 @@ Indicates the plane type of the request is CP.
 ### -field GNSS_NI_V2UPL
 
 Indicates plane type of the request is V2UPL.
+

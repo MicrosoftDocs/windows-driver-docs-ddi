@@ -2,7 +2,7 @@
 UID: NC:acxcircuit.EVT_ACX_CIRCUIT_COMPOSITE_DEINITIALIZE
 tech.root: audio
 title: EVT_ACX_CIRCUIT_COMPOSITE_DEINITIALIZE
-ms.date: 09/30/2021
+ms.date: 12/14/2022
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE callback is used by the driver to do any de-initialiation of a composite circuit when it is de-initialized by ACX Manager.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -52,11 +52,11 @@ A WDFDEVICE object (described in  [Summary of Framework Objects](/windows-hardwa
 
 ### -param Circuit
 
-The ACXCIRCUIT object being de-initialized. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects). 
+The ACXCIRCUIT object being de-initialized. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -param CompositeProperties
 
-Optional handle to CircuitProperties. This is an optional ACXOBJECTBAG object for ACXCIRCUIT's properties. 
+Optional handle to CircuitProperties. This is an optional ACXOBJECTBAG object for ACXCIRCUIT's properties.
 
 ## -remarks
 
@@ -96,7 +96,12 @@ DspR_EvtCircuitCompositeDeinitialize(
 }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

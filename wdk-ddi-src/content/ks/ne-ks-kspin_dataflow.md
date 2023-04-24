@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_12
+UID: NE:ks.KSPIN_DATAFLOW
 title: KSPIN_DATAFLOW (ks.h)
 description: An instance of the KSPIN_DATAFLOW enumeration is returned by KSPROPERTY_PIN_DATAFLOW.
 old-location: stream\kspin_dataflow.htm

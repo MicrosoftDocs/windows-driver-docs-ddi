@@ -1,5 +1,5 @@
 ---
-UID: NS:wwan.__unnamed_union_0
+UID: NS:wwan.WWAN_IP_CONFIGURATION_FLAGS
 title: WWAN_IP_CONFIGURATION_FLAGS (wwan.h)
 description: The WWAN_IP_CONFIGURATION_FLAGS structure represents flags that describe the availability of the IP address, gateway, DNS server, and/or MTU information of a PDP context.
 old-location: netvista\wwan_ip_configuration_flags.htm
@@ -72,3 +72,4 @@ An MTU is available.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-wwan_ip_configuration_flags">WWAN_IP_CONFIGURATION_FLAGS</a>
+

@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_30
+UID: NS:gnssdriver.GNSS_ERRORINFO
 title: GNSS_ERRORINFO (gnssdriver.h)
 description: This structure contains error information.
 old-location: gnss\gnss_errorinfo.htm

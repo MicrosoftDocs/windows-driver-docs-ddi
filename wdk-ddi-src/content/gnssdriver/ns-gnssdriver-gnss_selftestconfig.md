@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_49
+UID: NS:gnssdriver.GNSS_SELFTESTCONFIG
 title: GNSS_SELFTESTCONFIG (gnssdriver.h)
 description: The GNSS_SELFTESTCONFIG structure defines the specific data elements associated with a carrier wave test results returned from the driver.
 tech.root: gnss
@@ -71,3 +71,4 @@ The length of the buffer for passing in any additional information about the sel
 ### -field InBuffer
 
 The buffer that will contain the additional information about the self-test.
+

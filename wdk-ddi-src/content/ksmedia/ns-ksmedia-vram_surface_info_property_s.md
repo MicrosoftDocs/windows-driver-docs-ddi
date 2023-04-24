@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_84
+UID: NS:ksmedia.VRAM_SURFACE_INFO_PROPERTY_S
 title: VRAM_SURFACE_INFO_PROPERTY_S (ksmedia.h)
 description: The VRAM_SURFACE_INFO_PROPERTY_S structure describes property items in the KSPROPSETID_VramCapture property set.
 old-location: stream\vram_surface_info_property_s.htm

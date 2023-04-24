@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_MESH_SHADER_TIER
 title: D3D12DDI_MESH_SHADER_TIER
-ms.date: 03/24/2020
+ms.date: 09/22/2022
 targetos: Windows
 tech.root: display
 description: D3D12DDI_MESH_SHADER_TIER specifies the mesh shader tier.
@@ -37,18 +37,20 @@ dev_langs:
 
 ## -enum-fields
 
-### -field D3D12DDI_MESH_SHADER_TIER_NOT_SUPPORTED
+### -field D3D12DDI_MESH_SHADER_TIER_NOT_SUPPORTED:0
 
 Mesh shading is not supported.
 
-### -field D3D12DDI_MESH_SHADER_TIER_1
+### -field D3D12DDI_MESH_SHADER_TIER_1:10
 
 The device supports mesh shader tier 1.
 
 ## -remarks
 
+See [**D3D12_MESH_SHADER_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_mesh_shader_tier) for more information about the tiers.
+
 See the [Mesh Shader Specification](https://microsoft.github.io/DirectX-Specs/d3d/MeshShader.html) for more information.
 
 ## -see-also
 
-[**D3D12DDI_D3D12_OPTIONS_DATA_0073**](ns-d3d12umddi-d3d12ddi_d3d12_options_data_0073.md)
+[**D3D12DDI_D3D12_OPTIONS_DATA_0089**](ns-d3d12umddi-d3d12ddi_d3d12_options_data_0073.md)

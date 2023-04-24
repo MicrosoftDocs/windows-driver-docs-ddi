@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_87
+UID: NS:ksmedia.KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S
 title: KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S (ksmedia.h)
 description: The KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S structure specifies the width and height of an overlay surface.
 old-location: stream\ksproperty_allocator_control_surface_size_s.htm

@@ -77,7 +77,7 @@ Identifier of the topology node interface being requested.
 ### -param Interface [out]
 
 
-Pointer to a variable that receives the interface pointer requested in <i>InterfaceId</i>. Upon successful return, *<i>Interface</i> contains the requested interface pointer to the object. If the object does not support the interface specified in <i>InterfaceId</i>, *<i>Interface</i> is set to <b>NULL</b>.
+Pointer to a variable that receives the interface pointer requested in <i>InterfaceId</i>. Upon successful return, **Interface* contains the requested interface pointer to the object. If the object does not support the interface specified in <i>InterfaceId</i>, **Interface* is set to <b>NULL</b>.
 
 ## -returns
 

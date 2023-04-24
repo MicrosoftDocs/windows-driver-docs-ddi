@@ -2,9 +2,8 @@
 UID: NE:ntddk._WHEA_ERROR_PACKET_DATA_FORMAT
 title: _WHEA_ERROR_PACKET_DATA_FORMAT (ntddk.h)
 description: The WHEA_ERROR_PACKET_DATA_FORMAT enumeration defines the raw hardware error data format in a hardware error packet.
-old-location: whea\whea_error_packet_data_format.htm
 tech.root: whea
-ms.date: 02/20/2018
+ms.date: 03/13/2023
 keywords: ["WHEA_ERROR_PACKET_DATA_FORMAT enumeration"]
 ms.keywords: "*PWHEA_ERROR_PACKET_DATA_FORMAT, PWHEA_ERROR_PACKET_DATA_FORMAT, PWHEA_ERROR_PACKET_DATA_FORMAT enumeration pointer [WHEA Drivers and Applications], WHEA_ERROR_PACKET_DATA_FORMAT, WHEA_ERROR_PACKET_DATA_FORMAT enumeration [WHEA Drivers and Applications], WheaDataFormatGeneric, WheaDataFormatIPFSalRecord, WheaDataFormatMax, WheaDataFormatMemory, WheaDataFormatNMIPort, WheaDataFormatPCIExpress, WheaDataFormatPCIXBus, WheaDataFormatPCIXDevice, WheaDataFormatXPFMCA, _WHEA_ERROR_PACKET_DATA_FORMAT, ntddk/PWHEA_ERROR_PACKET_DATA_FORMAT, ntddk/WHEA_ERROR_PACKET_DATA_FORMAT, ntddk/WheaDataFormatGeneric, ntddk/WheaDataFormatIPFSalRecord, ntddk/WheaDataFormatMax, ntddk/WheaDataFormatMemory, ntddk/WheaDataFormatNMIPort, ntddk/WheaDataFormatPCIExpress, ntddk/WheaDataFormatPCIXBus, ntddk/WheaDataFormatPCIXDevice, ntddk/WheaDataFormatXPFMCA, whea.whea_error_packet_data_format, whearef_19f75c8f-94d0-4837-ab44-e9ba9fbe51f7.xml"
 req.header: ntddk.h
@@ -46,9 +45,6 @@ api_name:
  - WHEA_ERROR_PACKET_DATA_FORMAT
 ---
 
-# _WHEA_ERROR_PACKET_DATA_FORMAT enumeration
-
-
 ## -description
 
 The WHEA_ERROR_PACKET_DATA_FORMAT enumeration defines the raw hardware error data format in a hardware error packet.
@@ -57,11 +53,11 @@ The WHEA_ERROR_PACKET_DATA_FORMAT enumeration defines the raw hardware error dat
 
 ### -field WheaDataFormatIPFSalRecord
 
-The raw data in the hardware error packet contains an Itanium processor family system abstraction layer (SAL) error record. For more information about the format of a SAL error record, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=72212">Intel Itanium Processor Family System Abstraction Layer Specification</a>.
+The raw data in the hardware error packet contains an Itanium processor family system abstraction layer (SAL) error record. For more information about the format of a SAL error record, see the [Intel Itanium Processor Family System Abstraction Layer Specification](https://www.intel.com/content/dam/www/public/us/en/documents/specification-updates/itanium-system-abstraction-layer-specification.pdf).
 
 ### -field WheaDataFormatXPFMCA
 
-The raw data in the hardware error packet is formatted as an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see <a href="/previous-versions/windows/hardware/mca/ff540659(v=vs.85)">HalQuerySystemInformation</a>.
+The raw data in the hardware error packet is formatted as an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see [HalQuerySystemInformation](/previous-versions/windows/hardware/mca/ff540659(v=vs.85)).
 
 ### -field WheaDataFormatMemory
 
@@ -69,7 +65,7 @@ The raw data in the hardware error packet contains memory error data. The format
 
 ### -field WheaDataFormatPCIExpress
 
-The raw data in the hardware error packet is formatted as a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a> structure.
+The raw data in the hardware error packet is formatted as a [PCI_EXPRESS_AER_CAPABILITY](../wdm/ns-wdm-_pci_express_aer_capability.md) structure.
 
 ### -field WheaDataFormatNMIPort
 
@@ -85,7 +81,7 @@ The raw data in the hardware error packet contains a PCI/PCI-X device error data
 
 ### -field WheaDataFormatGeneric
 
-The raw data in the hardware error packet is formatted as a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a> structure.
+The raw data in the hardware error packet is formatted as a [WHEA_GENERIC_ERROR](./ns-ntddk-_whea_generic_error.md) structure.
 
 ### -field WheaDataFormatMax
 
@@ -93,17 +89,12 @@ The maximum number of formats of raw hardware error data.
 
 ## -remarks
 
-The <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v2">WHEA_ERROR_PACKET_V2</a> structure contains a member of type WHEA_ERROR_PACKET_DATA_FORMAT that specifies the format of the raw data that is contained in the hardware error packet.
+The [WHEA_ERROR_PACKET_V2](./ns-ntddk-_whea_error_packet_v2.md) structure contains a member of type WHEA_ERROR_PACKET_DATA_FORMAT that specifies the format of the raw data that is contained in the hardware error packet.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a>
+[PCI_EXPRESS_AER_CAPABILITY](../wdm/ns-wdm-_pci_express_aer_capability.md)
 
+[WHEA_ERROR_PACKET_V2](./ns-ntddk-_whea_error_packet_v2.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v2">WHEA_ERROR_PACKET_V2</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a>
-
+[WHEA_GENERIC_ERROR](./ns-ntddk-_whea_generic_error.md)

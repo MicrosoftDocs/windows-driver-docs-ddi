@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitInitAssignMethods
 tech.root: audio
 title: AcxFactoryCircuitInitAssignMethods
-ms.date: 08/01/2022
+ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitFactoryInitAssignMethods function assigns one or more ACX methods for the ACXFACTORYCIRCUIT.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -53,7 +53,7 @@ Use the [AcxFactoryCircuitInitAllocate function](nf-acxcircuit-acxfactorycircuit
 
 ### -param Methods
 
-An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_method_item) structure that defines a set of methods that will be used for circuit initialization. 
+An [ACX_METHOD_ITEM](/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_method_item) structure that defines a set of methods that will be used for circuit initialization.
 
 ### -param MethodsCount
 
@@ -120,7 +120,12 @@ static ACX_METHOD_ITEM s_FactoryCircuitMethods[] =
                                                 s_FactoryCircuitMethodsCount);
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-

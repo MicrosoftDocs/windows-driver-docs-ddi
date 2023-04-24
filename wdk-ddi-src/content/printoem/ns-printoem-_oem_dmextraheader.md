@@ -57,7 +57,7 @@ Total size, in bytes, of the added private **DEVMODEW** structure members, inclu
 
 ### -field dwSignature
 
-Unique signature value that the plug-in also returns when its [IPrintOemUI::GetInfo](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-getinfo) method receives the OEMGI_GETSIGNATURE flag.
+Unique signature value that the plug-in also returns when its [IPrintOemUI::GetInfo](../prcomoem/nf-prcomoem-iprintoemui-getinfo.md) method receives the OEMGI_GETSIGNATURE flag.
 
 ### -field dwVersion
 

@@ -1,5 +1,5 @@
 ---
-UID: NE:ntdddisk.__unnamed_enum_0
+UID: NE:ntdddisk.DISK_CACHE_RETENTION_PRIORITY
 title: DISK_CACHE_RETENTION_PRIORITY (ntdddisk.h)
 description: The DISK_CACHE_RETENTION_PRIORITY enumeration is used in conjunction with the IOCTL_DISK_GET_CACHE_INFORMATION request and the structure DISK_CACHE_INFORMATION to indicate which kinds data are to be held in the cache on a preferential basis.
 old-location: storage\disk_cache_retention_priority.htm
@@ -68,3 +68,4 @@ Indicates that a preference is to be given to data cached from a READ operation.
 
 
 <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_cache_information">IOCTL_DISK_GET_CACHE_INFORMATION</a>
+

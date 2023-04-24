@@ -1,5 +1,5 @@
 ---
-UID: NS:dispmprt.__unnamed_struct_0
+UID: NS:dispmprt.DXGK_BRIGHTNESS_INTERFACE
 title: DXGK_BRIGHTNESS_INTERFACE (dispmprt.h)
 description: The DXGK_BRIGHTNESS_INTERFACE structure contains pointers to functions in the Panel Brightness Control Interface, which is implemented by the display miniport driver.
 old-location: display\dxgk_brightness_interface.htm

@@ -10,7 +10,7 @@ ms.keywords: FsRtlNotifyVolumeEventEx, FsRtlNotifyVolumeEventEx routine [Install
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows Vista and later version of the Windows operating system.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

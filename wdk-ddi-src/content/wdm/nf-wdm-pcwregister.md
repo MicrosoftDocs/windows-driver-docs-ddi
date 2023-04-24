@@ -2,9 +2,8 @@
 UID: NF:wdm.PcwRegister
 title: PcwRegister function (wdm.h)
 description: The PcwRegister function registers the caller as a provider of the specified counterset.
-old-location: devtest\pcwregister.htm
 tech.root: devtest
-ms.date: 07/28/2020
+ms.date: 01/12/2023
 keywords: ["PcwRegister function"]
 ms.keywords: PcwRegister, PcwRegister function [Driver Development Tools], devtest.pcwregister, km_pcw_5204b626-3251-4c63-bd89-be1470980960.xml, wdm/PcwRegister
 req.header: wdm.h
@@ -23,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
+req.irql: IRQL <= APC_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -40,9 +39,6 @@ api_name:
  - PcwRegister
 ---
 
-# PcwRegister function
-
-
 ## -description
 
 The `PcwRegister` function creates a new counterset registration. Most developers will use a [CTRPP](/windows/win32/perfctrs/ctrpp)-generated RegisterXxx function instead of calling this function directly.
@@ -55,22 +51,23 @@ A pointer to a PPCW_REGISTRATION. Receives the handle to the new registration. T
 
 ### -param Info [in]
 
-A pointer to a [PCW_REGISTRATION_INFORMATION](ns-wdm-_pcw_registration_information.md) structure that contains the details about the counterset being registered.
+A pointer to a [**PCW_REGISTRATION_INFORMATION**](ns-wdm-_pcw_registration_information.md) structure that contains the details about the counterset being registered.
 
 ## -returns
 
 `PcwRegister` returns one of the following values:
 
-|Return code|Description
-|---|---
-|`STATUS_SUCCESS`|The counterset is successfully registered.
-|`STATUS_INTEGER_OVERFLOW`|The number of the counters exposed by this registration exceeds the maximum supported.
-|`STATUS_NO_MEMORY`|There is not enough space available to allocate memory for the counters.
-|`STATUS_INVALID_PARAMETER_2`|A problem was found in the `Info` parameter. See below for some possible causes.
+| Return code | Description |
+|---|---|
+| `STATUS_SUCCESS` | The counterset is successfully registered. |
+| `STATUS_INTEGER_OVERFLOW` | The number of the counters exposed by this registration exceeds the maximum supported. |
+| `STATUS_NO_MEMORY` | There is not enough space available to allocate memory for the counters. |
+| `STATUS_INVALID_PARAMETER_2` | A problem was found in the `Info` parameter. See below for some possible causes. |
 
 `PcwRegister` may return `STATUS_INVALID_PARAMETER_2` in the following cases:
 
 - The `Info->Name->Length` field is 0 or is not a multiple of `sizeof(WCHAR)`.
+
 - The `Info->Version` field does not match a supported value for this version of Windows. When running on Windows prior to 10.0.19645 (`NTDDI_VERSION < NTDDI_VERSION_MN`), the `Version` field must be set to PCW_VERSION_1 (0x100). When running on Windows 10.0.19645 and later (`NTDDI_VERSION >= NTDDI_VERSION_MN`), this may be set to PCW_VERSION_1 (0x100) or PCW_VERSION_2 (0x200).
 - The `Info->Flags` field contains a value not recognized by the running version of Windows.
 
@@ -84,7 +81,7 @@ By default, the new counterset is visible only to the server silo that was activ
 
 Most developers do not need to call `PcwRegister` directly. Instead, they will compile a manifest with the CTRPP tool and use the RegisterXxx function from the CTRPP-generated header. The generated function will look like this:
 
-```C
+```c
 EXTERN_C FORCEINLINE NTSTATUS
 RegisterMyCounterset(
     __in_opt PPCW_CALLBACK Callback,
@@ -106,7 +103,9 @@ The CTRPP-generated Register function will be named *Prefix*Register*Counterset*
 In some cases, the CTRPP-generated Add function might not be appropriate.
 
 - If you must compile with `NTDDI_VERSION >= NTDDI_VERSION_FE` but must run on earlier versions of Windows, the CTRPP-generated Register function will not work because it sets `RegInfo.Version = PCW_CURRENT_VERSION`. When `NTDDI_VERSION >= NTDDI_VERSION_FE`, `PCW_CURRENT_VERSION` will be set to `PCW_VERSION_2`, causing `PcwRegister` to return an error.
+
 - If you need to support multiple counterset registrations (e.g. to support a separate registration per server silo), the CTRPP-generated Register function will not work because it stores the returned handle in a global variable.
+
 - If you want to create a silo-neutral counterset registration, the CTRPP-generated Register function will not work because there is no way to change the value of `RegInfo.Flags` before calling `PcwRegister`.
 
 In these cases, use code like the following instead of calling the CTRPP-generated Register function:
@@ -129,6 +128,6 @@ If using your own handle variables instead of *Counterset* to store the handle, 
 
 ## -see-also
 
-[PcwUnregister function](nf-wdm-pcwunregister.md)
+[PcwUnregister](nf-wdm-pcwunregister.md)
 
-[_PCW_REGISTRATION_INFORMATION structure](ns-wdm-_pcw_registration_information.md)
+[**_PCW_REGISTRATION_INFORMATION**](ns-wdm-_pcw_registration_information.md)

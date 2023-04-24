@@ -2,7 +2,7 @@
 UID: NS:acxpin._ACX_PIN_CONFIG
 tech.root: audio
 title: ACX_PIN_CONFIG
-ms.date: 04/11/2022
+ms.date: 09/08/2022
 targetos: Windows
 description: The ACX_PIN_CONFIG structure is used to configure a pin.
 prerelease: false
@@ -108,9 +108,19 @@ A union used to specify the additional type configuration of the pin.
 
 A pointer to an [ACX_MICROPHONE_CONFIG](ns-acxpin-acx_microphone_config.md) structure associated with the pin.
 
+### -field MaxStreams
+
+Specifies the maximum number of streams supported by the pin.
+
 ## -remarks
 
 Instances of the **ACX_PIN_CONFIG** structure must be initialized by calling the [ACX_PIN_CONFIG_INIT](nf-acxpin-acx_pin_config_init.md) function.
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 
@@ -120,5 +130,3 @@ Instances of the **ACX_PIN_CONFIG** structure must be initialized by calling the
 - [ACX_METHOD_ITEM](../acxrequest/ns-acxrequest-acx_method_item.md)
 - [ACX_PIN_CALLBACKS](nf-acxpin-acx_pin_callbacks_init.md)
 - [acxpin.h header](index.md)
-
-

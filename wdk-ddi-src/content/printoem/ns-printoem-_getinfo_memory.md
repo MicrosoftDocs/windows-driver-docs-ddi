@@ -44,22 +44,22 @@ api_name:
 
 ## -description
 
-The **GETINFO_MEMORY** structure is used as input to the [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) callback function.
+The **GETINFO_MEMORY** structure is used as input to the [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function.
 
 ## -struct-fields
 
 ### -field dwSize
 
-Specifies the size, in bytes, of the **GETINFO_MEMORY** structure. Supplied by the [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) caller.
+Specifies the size, in bytes, of the **GETINFO_MEMORY** structure. Supplied by the [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) caller.
 
 ### -field dwRemainingMemory
 
-Specifies the amount, in bytes, of currently available printer memory. Supplied by Unidrv's [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) callback function.
+Specifies the amount, in bytes, of currently available printer memory. Supplied by Unidrv's [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function.
 
 ## -remarks
 
-To obtain Unidrv's calculation of the amount of printer memory currently available, a rendering plug-in can supply the address of a **GETINFO_MEMORY** structure when calling Unidrv's [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) callback function.
+To obtain Unidrv's calculation of the amount of printer memory currently available, a rendering plug-in can supply the address of a **GETINFO_MEMORY** structure when calling Unidrv's [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function.
 
 ## -see-also
 
-[UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo)
+[UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md)

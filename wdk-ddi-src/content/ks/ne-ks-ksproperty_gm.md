@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_8
+UID: NE:ks.KSPROPERTY_GM
 title: KSPROPERTY_GM (ks.h)
 description: "Learn more about: KSPROPERTY_GM enumeration"
 old-location: stream\ksproperty_gm.htm

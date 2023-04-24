@@ -6,7 +6,7 @@ ms.assetid: 755e703a-2165-39e7-a3dc-27fc70f42714
 ms.date: 05/09/2018
 keywords: ["Hidpi.h header"]
 ms.keywords: 
-ms.topic: portal
+ms.topic: overview
 tech.root: hid
 f1_keywords:
  - hidpi

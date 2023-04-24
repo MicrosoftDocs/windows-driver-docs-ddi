@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_72
+UID: NE:ksmedia.KS_VIDEODECODER_FLAGS
 title: KS_VIDEODECODER_FLAGS (ksmedia.h)
 description: The KS_VIDEODECODER_FLAGS enumeration defines video decoder capabilities.
 old-location: stream\ks_videodecoder_flags.htm
@@ -64,3 +64,4 @@ The video decoder can distinguish whether it has locked to an incoming analog vi
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videodecoder_caps_s">KSPROPERTY_VIDEODECODER_CAPS_S</a>
+

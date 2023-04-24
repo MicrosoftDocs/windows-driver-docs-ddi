@@ -1,5 +1,5 @@
 ---
-UID: NE:ntddk.__unnamed_enum_0
+UID: NE:ntddk.WELL_KNOWN_SID_TYPE
 title: WELL_KNOWN_SID_TYPE (ntddk.h)
 description: A list of commonly used security identifiers (SIDs). Programs can pass these values to the **CreateWellKnownSid** function to create a SID from this list. For information about these values, see [WELL_KNOWN_SID_TYPE](/windows/win32/api/securitybaseapi/nf-securitybaseapi-createwellknownsid).
 tech.root: ifsk
@@ -282,3 +282,4 @@ A list of commonly used security identifiers (SIDs). Programs can pass these val
 ## -remarks
 
 ## -see-also
+

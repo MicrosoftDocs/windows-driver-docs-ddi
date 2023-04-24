@@ -1,5 +1,5 @@
 ---
-UID: NS:minitape.__unnamed_struct_11
+UID: NS:minitape.PRI_RESERVATION_LIST
 title: PRI_RESERVATION_LIST (minitape.h)
 description: The PRI_RESERVATION_LIST structure (minitape.h) contains a list of persistent reservations that are active within a device server.
 old-location: storage\pri_reservation_list.htm

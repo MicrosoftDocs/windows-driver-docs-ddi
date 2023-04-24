@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_34
+UID: NS:gnssdriver.GNSS_CP_NI_INFO
 title: GNSS_CP_NI_INFO (gnssdriver.h)
 description: The GNSS_CP_NI_INFO structure contains CP NI information.
 tech.root: gnss
@@ -67,3 +67,4 @@ This will be displayed on the notification dialog to the user. The GNSS driver m
 Name of the client that requests the location of the device.
 
 This will be displayed on the notification dialog to the user. The GNSS Driver must provide a UNICODE string that is decoded per the encoding scheme required by the mobile operator.
+

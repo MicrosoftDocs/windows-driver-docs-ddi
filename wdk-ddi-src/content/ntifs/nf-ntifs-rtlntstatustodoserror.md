@@ -4,13 +4,14 @@ title: RtlNtStatusToDosError function (ntifs.h)
 description: The RtlNtStatusToDosError routine converts the specified NTSTATUS code to its equivalent system error code.
 old-location: ifsk\rtlntstatustodoserror.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 11/04/2022
+ms.custom: content-health
 keywords: ["RtlNtStatusToDosError function"]
 ms.keywords: RtlNtStatusToDosError, RtlNtStatusToDosError routine [Installable File System Drivers], ifsk.rtlntstatustodoserror, ntifs/RtlNtStatusToDosError, rtlref_8afdfe24-1071-4bab-b935-b1b91eb52766.xml
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: The RtlNtStatusToDosError routine is available on Microsoft Windows 2000 and later versions of Windows.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,24 +43,22 @@ api_name:
 
 # RtlNtStatusToDosError function
 
-
 ## -description
 
-The <b>RtlNtStatusToDosError</b> routine converts the specified NTSTATUS code to its equivalent system error code.
+The **RtlNtStatusToDosError** routine converts the specified NTSTATUS code to its equivalent system error code.
 
 ## -parameters
 
 ### -param Status [in]
 
-
 The NTSTATUS code to be converted.
 
 ## -returns
 
-<b>RtlNtStatusToDosError</b> returns the corresponding system error code. Error codes are defined in <i>Winerror.h</i>.
+**RtlNtStatusToDosError** returns the corresponding system error code. Error codes are defined in *Winerror.h*.
 
-<b>RtlNtStatusToDosError</b> returns ERROR_MR_MID_NOT_FOUND when the specified NTSTATUS code does not have a corresponding system error code. For more information about system error codes, see  <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+**RtlNtStatusToDosError** returns ERROR_MR_MID_NOT_FOUND when the specified NTSTATUS code does not have a corresponding system error code. For more information about system error codes, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 ## -remarks
 
-There is no function that provides the inverse functionality of <b>RtlNtStatusToDosError</b>, converting a system error code to its corresponding NTSTATUS code.
+There is no function that provides the inverse functionality of **RtlNtStatusToDosError**, converting a system error code to its corresponding NTSTATUS code.

@@ -2,7 +2,7 @@
 UID: NS:d3d10umddi.D3DWDDM2_6DDI_CORELAYER_DEVICECALLBACKS
 tech.root: display
 title: D3DWDDM2_6DDI_CORELAYER_DEVICECALLBACKS
-ms.date: 05/25/2022
+ms.date: 08/22/2022
 targetos: Windows
 description: Learn more about the D3DWDDM2_6DDI_CORELAYER_DEVICECALLBACKS structure.
 prerelease: false
@@ -43,6 +43,8 @@ helpviewer_keywords:
 This structure contains the function table for the core layer device callback functions starting in WDDM 2.6.
 
 ## -struct-fields
+
+### -field pfnSetErrorCb
 
 A pointer to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> function.
 

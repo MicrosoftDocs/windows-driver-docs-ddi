@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_6
+UID: NE:ks.KS_SEEKING_CAPABILITIES
 title: KS_SEEKING_CAPABILITIES (ks.h)
 description: "Learn more about: KS_SEEKING_CAPABILITIES enumeration"
 old-location: stream\ks_seeking_capabilities.htm

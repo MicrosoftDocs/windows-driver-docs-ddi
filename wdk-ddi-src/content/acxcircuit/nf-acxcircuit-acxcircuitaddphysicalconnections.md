@@ -2,9 +2,9 @@
 UID: NF:acxcircuit.AcxCircuitAddPhysicalConnections
 tech.root: audio
 title: AcxCircuitAddPhysicalConnections
-ms.date: 08/01/2022
+ms.date: 12/14/2022
 targetos: Windows
-description: The AcxCircuitAddPhysicalConnections function adds physical connections to an ACXCIRCUIT. 
+description: The AcxCircuitAddPhysicalConnections function adds physical connections to an ACXCIRCUIT.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxcircuit.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -64,7 +64,7 @@ Returns `STATUS_SUCCESS` if the call was successful. Otherwise, it returns an ap
 
 ## -remarks
 
-At this time this DDI is reserved. See DDIs of ACXMANAGER, ACXCIRCUITTEMPLATE and ACXCOMPOSITEMPLATE on how to link multiple ACXCIRCUITs together. 
+At this time this DDI is reserved. See DDIs of ACXMANAGER, ACXCIRCUITTEMPLATE and ACXCOMPOSITEMPLATE on how to link multiple ACXCIRCUITs together.
 
 ### Example
 
@@ -74,8 +74,12 @@ Example usage is shown below.
 
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxcircuit.h header](index.md)
-
-

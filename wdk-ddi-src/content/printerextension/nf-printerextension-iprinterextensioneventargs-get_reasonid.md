@@ -71,6 +71,6 @@ In this mode a status monitor for the print queue is expected to be displayed:
 
 ## -see-also
 
-[DetailedReasonId](/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioneventargs-get_detailedreasonid)
+[DetailedReasonId](./nf-printerextension-iprinterextensioneventargs-get_detailedreasonid.md)
 
-[IPrinterExtensionEventArgs](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs)
+[IPrinterExtensionEventArgs](./nn-printerextension-iprinterextensioneventargs.md)

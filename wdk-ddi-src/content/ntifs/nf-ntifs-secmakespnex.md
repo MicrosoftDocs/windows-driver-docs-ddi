@@ -10,7 +10,7 @@ ms.keywords: SecMakeSPNEx, SecMakeSPNEx function [Installable File System Driver
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
-req.target-min-winverclnt: This function is only available on Microsoft Windows XP and later.
+req.target-min-winverclnt: This function is only Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

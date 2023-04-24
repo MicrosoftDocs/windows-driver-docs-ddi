@@ -1,5 +1,5 @@
 ---
-UID: NE:ks.__unnamed_enum_37
+UID: NE:ks.KSTARGET_STATE
 title: KSTARGET_STATE (ks.h)
 description: "Learn more about: KSTARGET_STATE enumeration"
 old-location: stream\kstarget_state.htm

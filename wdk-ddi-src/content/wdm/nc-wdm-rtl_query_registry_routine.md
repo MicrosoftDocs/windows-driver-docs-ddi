@@ -2,15 +2,14 @@
 UID: NC:wdm.RTL_QUERY_REGISTRY_ROUTINE
 title: RTL_QUERY_REGISTRY_ROUTINE (wdm.h)
 description: The QueryRoutine routine provides information about a registry value that was requested in a preceding call to the RtlQueryRegistryValues routine.
-old-location: kernel\queryroutine.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/10/2023
 keywords: ["RTL_QUERY_REGISTRY_ROUTINE callback function"]
 ms.keywords: DrvrRtns_a5cd47f1-6d3c-495e-a83d-ccbd276c1728.xml, QueryRoutine, QueryRoutine routine [Kernel-Mode Driver Architecture], RTL_QUERY_REGISTRY_ROUTINE, kernel.queryroutine, wdm/QueryRoutine
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
-req.target-min-winverclnt: Supported starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,73 +39,61 @@ api_name:
  - RTL_QUERY_REGISTRY_ROUTINE
 ---
 
-# RTL_QUERY_REGISTRY_ROUTINE callback function
-
-
 ## -description
 
-The <i>QueryRoutine</i> routine provides information about a registry value that was requested in a preceding call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues">RtlQueryRegistryValues</a> routine.
+The *QueryRoutine* routine provides information about a registry value that was requested in a preceding call to the [RtlQueryRegistryValues](./nf-wdm-rtlqueryregistryvalues.md) routine.
 
 ## -parameters
 
 ### -param ValueName [in]
 
-
 Specifies the registry key that is associated with the requested registry value. This parameter is a pointer to a null-terminated, Unicode string that contains the key.
 
 ### -param ValueType [in]
 
-
-Specifies the type of registry value that is stored with the specified registry key. For more information registry value types, see the definition of the <i>Type</i> parameter in <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>.
+Specifies the type of registry value that is stored with the specified registry key. For more information registry value types, see the definition of the *Type* parameter in [KEY_VALUE_BASIC_INFORMATION](./ns-wdm-_key_value_basic_information.md).
 
 ### -param ValueData [in]
 
-
-A pointer to the data value that is associated with the specified registry key. The driver must treat this value as read-only. For more information about the type of value data that <i>ValueData</i> points to, see the definition of the <i>Type</i> parameter in <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>.
+A pointer to the data value that is associated with the specified registry key. The driver must treat this value as read-only. For more information about the type of value data that *ValueData* points to, see the definition of the *Type* parameter in [**KEY_VALUE_BASIC_INFORMATION**](./ns-wdm-_key_value_basic_information.md).
 
 ### -param ValueLength [in]
 
-
-Specifies the length, in bytes, of the value that <i>ValueData</i> points to.
+Specifies the length, in bytes, of the value that *ValueData* points to.
 
 ### -param Context [in, optional]
 
-
-Specifies the <i>Context</i> parameter value that the driver specified in the preceding call to <b>RtlQueryRegistryValues</b>.
+Specifies the *Context* parameter value that the driver specified in the preceding call to **RtlQueryRegistryValues**.
 
 ### -param EntryContext [in, optional]
 
-
-Specifies an <b>EntryContext</b> value in a <i>QueryTable</i> array element that the driver specified in the preceding call to <b>RtlQueryRegistryValues</b>.
+Specifies an **EntryContext** value in a *QueryTable* array element that the driver specified in the preceding call to **RtlQueryRegistryValues**.
 
 ## -returns
 
-<i>QueryRoutine</i> returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error status code. Use only status codes that are defined in the Ntstatus.h header file.
+*QueryRoutine* returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error status code. Use only status codes that are defined in the Ntstatus.h header file.
 
 ## -remarks
 
-A kernel-mode driver implements a <i>QueryRoutine</i> routine. This routine is called by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues">RtlQueryRegistryValues</a> routine.
+A kernel-mode driver implements a *QueryRoutine* routine. This routine is called by the [RtlQueryRegistryValues](./nf-wdm-rtlqueryregistryvalues.md) routine.
 
-To obtain information about one or more registry values, the driver calls <b>RtlQueryRegistryValues</b> and passes a pointer, as an input parameter, to an array of <b>RTL_QUERY_REGISTRY_TABLE</b> structures. Each structure in this array contains a pointer to a driver-implemented <i>QueryRoutine</i> routine and a request for information about a particular registry value. For each structure in the array, <b>RtlQueryRegistryValues</b> calls the specified <i>QueryRoutine</i> routine and passes to this routine a set of parameters that contain the requested information about the specified registry value.
+To obtain information about one or more registry values, the driver calls **RtlQueryRegistryValues** and passes a pointer, as an input parameter, to an array of **RTL_QUERY_REGISTRY_TABLE** structures. Each structure in this array contains a pointer to a driver-implemented *QueryRoutine* routine and a request for information about a particular registry value. For each structure in the array, **RtlQueryRegistryValues** calls the specified *QueryRoutine* routine and passes to this routine a set of parameters that contain the requested information about the specified registry value.
 
-For more information about the <b>RTL_QUERY_REGISTRY_TABLE</b> structure, see <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues">RtlQueryRegistryValues</a>.
+For more information about the **RTL_QUERY_REGISTRY_TABLE** structure, see [RtlQueryRegistryValues](./nf-wdm-rtlqueryregistryvalues.md).
 
+### Examples
 
-#### Examples
+To define a *QueryRoutine* callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
-To define a <i>QueryRoutine</i> callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+For example, to define a *QueryRoutine* callback routine that is named `MyQueryRoutine`, use the RTL_QUERY_REGISTRY_ROUTINE type as shown in this code example:
 
-For example, to define a <i>QueryRoutine</i> callback routine that is named <code>MyQueryRoutine</code>, use the RTL_QUERY_REGISTRY_ROUTINE type as shown in this code example:
-
-
-```
+```cpp
 RTL_QUERY_REGISTRY_ROUTINE MyQueryRoutine;
 ```
 
 Then, implement your callback routine as follows:
 
-
-```
+```cpp
 _Use_decl_annotations_
 NTSTATUS
   MyQueryRoutine(
@@ -122,15 +109,10 @@ NTSTATUS
   }
 ```
 
-The RTL_QUERY_REGISTRY_ROUTINE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the RTL_QUERY_REGISTRY_ROUTINE function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
-
-<div class="code"></div>
+The RTL_QUERY_REGISTRY_ROUTINE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the `_Use_decl_annotations_` annotation to your function definition. The `_Use_decl_annotations_` annotation ensures that the annotations that are applied to the RTL_QUERY_REGISTRY_ROUTINE function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions by Using Function Role Types for WDM Drivers](/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers). For information about `_Use_decl_annotations_`, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>
+[**KEY_VALUE_BASIC_INFORMATION**](./ns-wdm-_key_value_basic_information.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues">RtlQueryRegistryValues</a>
-
+[RtlQueryRegistryValues](./nf-wdm-rtlqueryregistryvalues.md)

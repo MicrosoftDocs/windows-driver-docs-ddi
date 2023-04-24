@@ -1,5 +1,5 @@
 ---
-UID: NS:miniport.__unnamed_struct_0
+UID: NS:miniport.PCI_X_CAPABILITY
 title: PCI_X_CAPABILITY (miniport.h)
 description: The PCI_X_CAPABILITY structure reports the contents of the command and status registers of a device that is compliant with the PCI-X Addendum to the PCI Local Bus Specification.
 tech.root: PCI
@@ -50,7 +50,7 @@ The **PCI_X_CAPABILITY** structure reports the contents of the command and statu
 
 ### -field Header
 
-Contains a structure of type [PCI_CAPABILITIES_HEADER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header) that identifies the capability and provides a link to the next capability description.
+Contains a structure of type [PCI_CAPABILITIES_HEADER](../wdm/ns-wdm-_pci_capabilities_header.md) that identifies the capability and provides a link to the next capability description.
 
 ### -field Command
 
@@ -154,4 +154,5 @@ Reports the data in the device's status register in the form of a unsigned long 
 
 ## -see-also
 
-[PCI_CAPABILITIES_HEADER](/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header)
+[PCI_CAPABILITIES_HEADER](../wdm/ns-wdm-_pci_capabilities_header.md)
+

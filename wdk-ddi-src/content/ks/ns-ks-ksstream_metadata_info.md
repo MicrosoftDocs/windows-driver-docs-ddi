@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_48
+UID: NS:ks.KSSTREAM_METADATA_INFO
 title: KSSTREAM_METADATA_INFO (ks.h)
 description: This structure contains the metadata information that is passed down to the driver.
 old-location: stream\ksstream_metadata_info.htm

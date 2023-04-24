@@ -2,15 +2,14 @@
 UID: NF:wdm.MmAllocatePagesForMdl
 title: MmAllocatePagesForMdl function (wdm.h)
 description: The MmAllocatePagesForMdl routine allocates zero-filled, nonpaged, physical memory pages to an MDL.
-old-location: kernel\mmallocatepagesformdl.htm
 tech.root: kernel
-ms.date: 08/18/2022
+ms.date: 01/06/2023
 keywords: ["MmAllocatePagesForMdl function"]
 ms.keywords: MmAllocatePagesForMdl, MmAllocatePagesForMdl routine [Kernel-Mode Driver Architecture], k106_bb9bac91-62a6-45f8-9133-0d23eda07b1e.xml, kernel.mmallocatepagesformdl, wdm/MmAllocatePagesForMdl
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows; however, MmAllocatePagesForMdlEx should be used instead of MmAllocatePagesForMdl in Windows Server 2003 Service Pack 1 (SP1) and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,8 +39,6 @@ api_name:
  - MmAllocatePagesForMdl
 ---
 
-# MmAllocatePagesForMdl function
-
 ## -description
 
 The **MmAllocatePagesForMdl** routine allocates zero-filled, non-paged, physical memory pages to an MDL.
@@ -69,7 +66,7 @@ Specifies the total number of bytes to allocate for the MDL.
 **MmAllocatePagesForMdl** returns one of the following:
 
 | Return code | Description |
-|--|--|
+|---|---|
 | **MDL pointer** | The MDL pointer describes a set of physical pages in the specified address range. If the requested number of bytes is not available, the MDL describes as much physical memory as is available. |
 | **NULL** | There are no physical memory pages in the specified address ranges, or there is not enough memory pool for the MDL itself. |
 
@@ -89,12 +86,14 @@ In Windows 2000 and later versions of Windows, the maximum amount of memory that
 
 **MmAllocatePagesForMdl** runs at IRQL <= APC_LEVEL. Windows Server 2008 and later versions of the Windows operating system enable **MmAllocatePagesForMdl** callers to call at DISPATCH_LEVEL. However, you can improve driver performance by calling at APC_LEVEL or below.
 
-> [!NOTE]
-> Calling **MmAllocatePagesForMdl** from a special kernel asynchronous procedure call (APC) can lead to a recursive acquisition of an exclusive lock, which is only in a critical region (user or normal kernel APCs disabled) but not in a guarded region (all APCs disabled).
+Calling **MmAllocatePagesForMdl** from a special kernel asynchronous procedure call (APC) can lead to a recursive acquisition of an exclusive lock, which is only in a critical region (user or normal kernel APCs disabled) but not in a guarded region (all APCs disabled).
 
 ## -see-also
 
-- [ExFreePool](../ntddk/nf-ntddk-exfreepool.md)
-- [MmAllocatePagesForMdlEx](./nf-wdm-mmallocatepagesformdlex.md)
-- [MmFreePagesFromMdl](./nf-wdm-mmfreepagesfrommdl.md)
-- [MmMapLockedPages](./nf-wdm-mmmaplockedpages.md)
+[ExFreePool](../ntddk/nf-ntddk-exfreepool.md)
+
+[MmAllocatePagesForMdlEx](./nf-wdm-mmallocatepagesformdlex.md)
+
+[MmFreePagesFromMdl](./nf-wdm-mmfreepagesfrommdl.md)
+
+[MmMapLockedPages](./nf-wdm-mmmaplockedpages.md)

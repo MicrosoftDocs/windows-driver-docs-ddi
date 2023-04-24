@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **OEMCUIPPARAM** structure is used as an input parameter to a user interface plug-in's [IPrintOemUI::CommonUIProp](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-commonuiprop) method.
+The **OEMCUIPPARAM** structure is used as an input parameter to a user interface plug-in's [IPrintOemUI::CommonUIProp](../prcomoem/nf-prcomoem-iprintoemui-commonuiprop.md) method.
 
 ## -struct-fields
 
@@ -57,7 +57,7 @@ Size of the **OEMCUIPPARAM** structure. Supplied by the Unidrv or Pscript5 drive
 
 ### -field poemuiobj
 
-Pointer to an [OEMUIOBJ](/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj) structure.
+Pointer to an [OEMUIOBJ](./ns-printoem-_oemuiobj.md) structure.
 
 ### -field hPrinter
 
@@ -77,7 +77,7 @@ Handle to a heap from which space can be allocated by calling the **HeapAlloc** 
 
 ### -field pPublicDM
 
-Pointer to the printer's public **DEVMODEW** structure. Valid only if the [IPrintOemUI::CommonUIProp](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-commonuiprop) method's *dwMode* argument is OEMCUIP_DOCPROP. Supplied by the Unidrv or Pscript5 driver.
+Pointer to the printer's public **DEVMODEW** structure. Valid only if the [IPrintOemUI::CommonUIProp](../prcomoem/nf-prcomoem-iprintoemui-commonuiprop.md) method's *dwMode* argument is OEMCUIP_DOCPROP. Supplied by the Unidrv or Pscript5 driver.
 
 ### -field pOEMDM
 
@@ -87,15 +87,15 @@ Pointer to the user interface plug-in's private **DEVMODEW** members. Valid only
 
 #### For calls to IPrintOemUI::CommonUIProp with its dwMode parameter set to OEMCUIP_DOCPROP
 
-Contains the contents of the **fMode** member of the [DOCUMENTPROPERTYHEADER](/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_documentpropertyheader) structure received by the printer driver's [DrvDocumentPropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets) function.
+Contains the contents of the **fMode** member of the [DOCUMENTPROPERTYHEADER](../winddiui/ns-winddiui-_documentpropertyheader.md) structure received by the printer driver's [DrvDocumentPropertySheets](../winddiui/nf-winddiui-drvdocumentpropertysheets.md) function.
 
 #### For calls to IPrintOemUI::CommonUIProp with its dwMode parameter set to OEMCUIP_PRNPROP
 
-Contains the contents of the **Flags** member of the DEVICEPROPERTYHEADER structure received by the printer driver's [DrvDevicePropertySheets](/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicepropertysheets) function.
+Contains the contents of the **Flags** member of the DEVICEPROPERTYHEADER structure received by the printer driver's [DrvDevicePropertySheets](../winddiui/nf-winddiui-drvdevicepropertysheets.md) function.
 
 ### -field pDrvOptItems
 
-Pointer to the printer driver's [**OPTITEM**](/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem) array. Not valid the first time **IPrintOemUI::CommonUIProp** is called. Supplied by the Unidrv or Pscript5 driver.
+Pointer to the printer driver's [**OPTITEM**](../compstui/ns-compstui-_optitem.md) array. Not valid the first time **IPrintOemUI::CommonUIProp** is called. Supplied by the Unidrv or Pscript5 driver.
 
 ### -field cDrvOptItems
 
@@ -123,10 +123,10 @@ Used by the **IPrintOemUI::CommonUIProp** method, the second time it is called, 
 
 ### -field OEMCUIPCallback
 
-Used by the **IPrintOemUI::CommonUIProp** method, the second time it is called, to return the address of a callback function of type [OEMCUIPCALLBACK](/windows-hardware/drivers/ddi/printoem/nc-printoem-oemcuipcallback).
+Used by the **IPrintOemUI::CommonUIProp** method, the second time it is called, to return the address of a callback function of type [OEMCUIPCALLBACK](./nc-printoem-oemcuipcallback.md).
 
 ## -remarks
 
-A user interface plug-in receives this structure's address as an input argument to both its [IPrintOemUI::CommonUIProp](/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-commonuiprop) method and its [OEMCUIPCALLBACK](/windows-hardware/drivers/ddi/printoem/nc-printoem-oemcuipcallback)-typed callback function.
+A user interface plug-in receives this structure's address as an input argument to both its [IPrintOemUI::CommonUIProp](../prcomoem/nf-prcomoem-iprintoemui-commonuiprop.md) method and its [OEMCUIPCALLBACK](./nc-printoem-oemcuipcallback.md)-typed callback function.
 
 For additional information about the use of this structure and associated functions, see [User Interface Plug-Ins](/windows-hardware/drivers/print/user-interface-plug-ins).

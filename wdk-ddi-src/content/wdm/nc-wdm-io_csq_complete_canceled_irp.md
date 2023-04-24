@@ -2,9 +2,8 @@
 UID: NC:wdm.IO_CSQ_COMPLETE_CANCELED_IRP
 title: IO_CSQ_COMPLETE_CANCELED_IRP (wdm.h)
 description: The CsqCompleteCanceledIrp routine is used by the system to signal to the driver that it can complete a canceled IRP.
-old-location: kernel\csqcompletecanceledirp.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 01/09/2023
 keywords: ["IO_CSQ_COMPLETE_CANCELED_IRP callback function"]
 ms.keywords: CsqCompleteCanceledIrp, CsqCompleteCanceledIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_07239a13-c445-4f75-8765-ff5806515ecb.xml, IO_CSQ_COMPLETE_CANCELED_IRP, kernel.csqcompletecanceledirp, wdm/CsqCompleteCanceledIrp
 req.header: wdm.h
@@ -40,49 +39,41 @@ api_name:
  - IO_CSQ_COMPLETE_CANCELED_IRP
 ---
 
-# IO_CSQ_COMPLETE_CANCELED_IRP callback function
-
-
 ## -description
 
-The <i>CsqCompleteCanceledIrp</i> routine is used by the system to signal to the driver that it can complete a canceled IRP.
+The *CsqCompleteCanceledIrp* routine is used by the system to signal to the driver that it can complete a canceled IRP.
 
 ## -parameters
 
 ### -param Csq [in]
 
-
-Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure for the cancel-safe IRP queue.
+Pointer to the [IO_CSQ](/windows-hardware/drivers/kernel/eprocess) structure for the cancel-safe IRP queue.
 
 ### -param Irp [in]
-
 
 Pointer to the IRP to be canceled.
 
 ## -remarks
 
-The driver specifies the <i>CsqCompleteCanceledIrp</i> routine for a cancel-safe IRP queue when it initializes the queue's <b>IO_CSQ</b> structure. The driver specifies the routine as the <i>CsqCompleteCanceledIrp</i> parameter of <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize">IoCsqInitialize</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex">IoCsqInitializeEx</a> when it initializes <b>IO_CSQ</b>. For more information, see <a href="/windows-hardware/drivers/kernel/cancel-safe-irp-queues">Cancel-Safe IRP Queues</a>.
+The driver specifies the *CsqCompleteCanceledIrp* routine for a cancel-safe IRP queue when it initializes the queue's **IO_CSQ** structure. The driver specifies the routine as the *CsqCompleteCanceledIrp* parameter of [IoCsqInitialize](./nf-wdm-iocsqinitialize.md) or [IoCsqInitializeEx](./nf-wdm-iocsqinitializeex.md) when it initializes **IO_CSQ**. For more information, see [Cancel-Safe IRP Queues](/windows-hardware/drivers/kernel/cancel-safe-irp-queues).
 
-The system calls this routine to complete a canceled IRP that has been removed from the driver's queue. Normally, drivers just call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a> for the IRP with a status of STATUS_CANCELLED.
+The system calls this routine to complete a canceled IRP that has been removed from the driver's queue. Normally, drivers just call [IoCompleteRequest](./nf-wdm-iocompleterequest.md) for the IRP with a status of STATUS_CANCELLED.
 
-Drivers are not required to remove the IRP from the queue before completing it as canceled: the system always calls the queue's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_remove_irp">CsqRemoveIrp</a> routine to remove the IRP from the queue before calling <i>CsqCompleteCanceledIrp</i>. 
+Drivers are not required to remove the IRP from the queue before completing it as canceled: the system always calls the queue's [CsqRemoveIrp](./nc-wdm-io_csq_remove_irp.md) routine to remove the IRP from the queue before calling *CsqCompleteCanceledIrp*.
 
+### Examples
 
-#### Examples
+To define a *CsqCompleteCanceledIrp* callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
-To define a <i>CsqCompleteCanceledIrp</i> callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+For example, to define a *CsqCompleteCanceledIrp* callback routine that is named `MyCsqCompleteCanceledIrp`, use the IO_CSQ_COMPLETE_CANCELED_IRP type as shown in this code example:
 
-For example, to define a <i>CsqCompleteCanceledIrp</i> callback routine that is named <code>MyCsqCompleteCanceledIrp</code>, use the IO_CSQ_COMPLETE_CANCELED_IRP type as shown in this code example:
-
-
-```
+```cpp
 IO_CSQ_COMPLETE_CANCELED_IRP MyCsqCompleteCanceledIrp;
 ```
 
 Then, implement your callback routine as follows:
 
-
-```
+```cpp
 _Use_decl_annotations_
 VOID 
  MyCsqCompleteCanceledIrp(
@@ -94,63 +85,34 @@ VOID
   }
 ```
 
-The IO_CSQ_COMPLETE_CANCELED_IRP function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the IO_CSQ_COMPLETE_CANCELED_IRP function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
-
-<div class="code"></div>
+The IO_CSQ_COMPLETE_CANCELED_IRP function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the `_Use_decl_annotations_` annotation to your function definition. The `_Use_decl_annotations_` annotation ensures that the annotations that are applied to the IO_CSQ_COMPLETE_CANCELED_IRP function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions by Using Function Role Types for WDM Drivers](/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers). For information about `_Use_decl_annotations_`, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_complete_canceled_irp">CsqCompleteCanceledIrp</a>
+[CsqCompleteCanceledIrp]()
 
+[CsqInsertIrp](./nc-wdm-io_csq_insert_irp.md)
 
+[CsqInsertIrpEx](./nc-wdm-io_csq_insert_irp_ex.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_insert_irp">CsqInsertIrp</a>
+[CsqPeekNextIrp](./nc-wdm-io_csq_peek_next_irp.md)
 
+[CsqReleaseLock](./nc-wdm-io_csq_release_lock.md)
 
+[CsqRemoveIrp](./nc-wdm-io_csq_remove_irp.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_insert_irp_ex">CsqInsertIrpEx</a>
+[IO_CSQ](/windows-hardware/drivers/kernel/eprocess)
 
+[IoCompleteRequest](./nf-wdm-iocompleterequest.md)
 
+[IoCsqInitialize](./nf-wdm-iocsqinitialize.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_peek_next_irp">CsqPeekNextIrp</a>
+[IoCsqInitializeEx](./nf-wdm-iocsqinitializeex.md)
 
+[IoCsqInsertIrp](./nf-wdm-iocsqinsertirp.md)
 
+[IoCsqInsertIrpEx](./nf-wdm-iocsqinsertirpex.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_release_lock">CsqReleaseLock</a>
+[IoCsqRemoveIrp](./nf-wdm-iocsqremoveirp.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_remove_irp">CsqRemoveIrp</a>
-
-
-
-<a href="/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize">IoCsqInitialize</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex">IoCsqInitializeEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinsertirp">IoCsqInsertIrp</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinsertirpex">IoCsqInsertIrpEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremoveirp">IoCsqRemoveIrp</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp">IoCsqRemoveNextIrp</a>
-
+[IoCsqRemoveNextIrp](./nf-wdm-iocsqremovenextirp.md)

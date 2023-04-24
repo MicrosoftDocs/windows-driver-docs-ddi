@@ -2,15 +2,14 @@
 UID: NF:wdm.KeReleaseInStackQueuedSpinLockFromDpcLevel
 title: KeReleaseInStackQueuedSpinLockFromDpcLevel function (wdm.h)
 description: The KeReleaseInStackQueuedSpinLockFromDpcLevel routine releases a queued spin lock acquired by KeAcquireInStackQueuedSpinLockAtDpcLevel.
-old-location: kernel\kereleaseinstackqueuedspinlockfromdpclevel.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 10/18/2022
 keywords: ["KeReleaseInStackQueuedSpinLockFromDpcLevel function"]
 ms.keywords: KeReleaseInStackQueuedSpinLockFromDpcLevel, KeReleaseInStackQueuedSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], k105_76a65a2a-d5b2-4066-90e9-4539c5e39930.xml, kernel.kereleaseinstackqueuedspinlockfromdpclevel, wdm/KeReleaseInStackQueuedSpinLockFromDpcLevel
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,28 +39,22 @@ api_name:
  - KeReleaseInStackQueuedSpinLockFromDpcLevel
 ---
 
-# KeReleaseInStackQueuedSpinLockFromDpcLevel function
-
-
 ## -description
 
-The <b>KeReleaseInStackQueuedSpinLockFromDpcLevel</b> routine releases a queued spin lock acquired by <a href="/previous-versions/windows/hardware/drivers/ff551908(v=vs.85)">KeAcquireInStackQueuedSpinLockAtDpcLevel</a>.
+The **KeReleaseInStackQueuedSpinLockFromDpcLevel** routine releases a queued spin lock acquired by [KeAcquireInStackQueuedSpinLockAtDpcLevel](nf-wdm-keacquireinstackqueuedspinlockatdpclevel.md).
 
 ## -parameters
 
 ### -param LockHandle [in]
 
-
-Specifies the queued spin lock handle initialized by the call to <a href="/previous-versions/windows/hardware/drivers/ff551908(v=vs.85)">KeAcquireInStackQueuedSpinLockAtDpcLevel</a> that acquired the lock.
+Specifies the queued spin lock handle initialized by the call to [KeAcquireInStackQueuedSpinLockAtDpcLevel](nf-wdm-keacquireinstackqueuedspinlockatdpclevel.md) that acquired the lock.
 
 ## -remarks
 
-For more information about queued spin locks, see <a href="/windows-hardware/drivers/kernel/queued-spin-locks">Queued Spin Locks</a>.
+For more information about queued spin locks, see [Queued Spin Locks](/windows-hardware/drivers/kernel/queued-spin-locks).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/eprocess">KLOCK_QUEUE_HANDLE</a>
+[KLOCK_QUEUE_HANDLE](/windows-hardware/drivers/kernel/eprocess)
 
-
-
-<a href="/previous-versions/windows/hardware/drivers/ff551908(v=vs.85)">KeAcquireInStackQueuedSpinLockAtDpcLevel</a>
+[KeAcquireInStackQueuedSpinLockAtDpcLevel](nf-wdm-keacquireinstackqueuedspinlockatdpclevel.md)

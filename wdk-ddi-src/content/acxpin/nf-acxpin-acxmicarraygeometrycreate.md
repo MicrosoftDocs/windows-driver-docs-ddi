@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxMicArrayGeometryCreate
 tech.root: audio
 title: AcxMicArrayGeometryCreate
-ms.date: 07/22/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxMicArrayGeometryCreate function creates and initializes a new ACXMICARRAYGEOMETRY object.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxpin.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -70,12 +70,16 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 Call the [ACX_MICARRAYGEOMETRY_CONFIG_INIT](nf-acxpin-acx_micarraygeometry_config_init.md) function to initialize the **ACX_MICARRAYGEOMETRY_CONFIG** structure before using it to call **AcxMicArrayGeometryCreate**.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACXMICARRAYGEOMETRY](ns-acxpin-acx_mic_array_geometry.md)
 - [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
 - [ACX_MICARRAYGEOMETRY_CONFIG](ns-acxpin-acx_micarraygeometry_config.md)
 - [ACX_MICARRAYGEOMETRY_CONFIG_INIT](nf-acxpin-acx_micarraygeometry_config_init.md)
-- [acxpin.h header](index.md)
-
-
+- [acxpin.h header\]\(index.md\)

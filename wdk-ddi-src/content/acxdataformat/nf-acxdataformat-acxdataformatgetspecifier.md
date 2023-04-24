@@ -2,7 +2,7 @@
 UID: NF:acxdataformat.AcxDataFormatGetSpecifier
 tech.root: audio
 title: AcxDataFormatGetSpecifier
-ms.date: 05/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetSpecifier function gets the specifier for the specified data format.
 prerelease: true
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdataformat.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -58,9 +58,14 @@ Returns a GUID value representing the audio format specifier for the *DataFormat
 
 Specifies additional data format type information for a specific setting of MajorFormat and SubFormat. The significance of this field is determined by the major format and subformat. For example, the specifier can represent a particular encoding of a subformat, or it can be used to specify what type of data structure follows [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md) in memory.
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [KSDATAFORMAT](../ks/ns-ks-ksdataformat.md)
 - [Audio Data Formats](/windows-hardware/drivers/audio/audio-data-formats)
 - [acxdataformat.h header](index.md)
-

@@ -4,7 +4,7 @@ tech.root: audio
 title: ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT
 ms.date: 07/28/2022
 targetos: Windows
-description: The ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT function initializes a ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS config structure. 
+description: The ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT function initializes a ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS config structure.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -81,6 +81,12 @@ Example usage is shown below.
 
     AcxFactoryCircuitInitSetOperationCallbacks(factoryInit, &operationCallbacks);
 ```
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

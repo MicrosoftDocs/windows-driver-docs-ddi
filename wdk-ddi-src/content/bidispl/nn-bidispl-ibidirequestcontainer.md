@@ -2,9 +2,8 @@
 UID: NN:bidispl.IBidiRequestContainer
 title: IBidiRequestContainer (bidispl.h)
 description: The IBidiRequestContainer interface allows an application or other objects to compose and retrieve a list of bidi requests.
-old-location: print\ibidirequestcontainer.htm
 tech.root: print
-ms.date: 04/20/2018
+ms.date: 03/03/2023
 keywords: ["IBidiRequestContainer interface"]
 ms.keywords: IBidiRequestContainer, IBidiRequestContainer interface [Print Devices], IBidiRequestContainer interface [Print Devices],described, _win32_IBidiRequestContainer, bidispl/IBidiRequestContainer, gdi.ibidirequestcontainer, print.ibidirequestcontainer
 req.header: bidispl.h
@@ -39,9 +38,6 @@ api_location:
 api_name:
  - IBidiRequestContainer
 ---
-
-# IBidiRequestContainer interface
-
 
 ## -description
 

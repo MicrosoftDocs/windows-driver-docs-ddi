@@ -10,7 +10,7 @@ ms.keywords: RtlCaptureContext, RtlCaptureContext function [Installable File Sys
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Microsoft Windows XP and later versions of all Windows operating systems.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

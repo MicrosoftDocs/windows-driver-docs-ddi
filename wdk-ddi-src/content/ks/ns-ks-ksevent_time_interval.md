@@ -1,5 +1,5 @@
 ---
-UID: NS:ks.__unnamed_struct_17
+UID: NS:ks.KSEVENT_TIME_INTERVAL
 title: KSEVENT_TIME_INTERVAL (ks.h)
 description: The KSEVENT_TIME_INTERVAL structure is used in various events within the KSEVENTSETID_Clock event set.
 old-location: stream\ksevent_time_interval.htm

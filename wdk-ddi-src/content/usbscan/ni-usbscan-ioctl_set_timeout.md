@@ -2,9 +2,8 @@
 UID: NI:usbscan.IOCTL_SET_TIMEOUT
 title: IOCTL_SET_TIMEOUT (usbscan.h)
 description: Sets the time-out value for USB bulk IN, bulk OUT, or interrupt pipe access.
-old-location: image\ioctl_set_timeout.htm
 tech.root: image
-ms.date: 05/03/2018
+ms.date: 01/04/2023
 keywords: ["IOCTL_SET_TIMEOUT IOCTL"]
 ms.keywords: IOCTL_SET_TIMEOUT, IOCTL_SET_TIMEOUT control, IOCTL_SET_TIMEOUT control code [Imaging Devices], image.ioctl_set_timeout, stifnc_942a0b21-7e68-444d-8bf2-7f8388a8a8fc.xml, usbscan/IOCTL_SET_TIMEOUT
 req.header: usbscan.h
@@ -39,9 +38,6 @@ api_location:
 api_name:
  - IOCTL_SET_TIMEOUT
 ---
-
-# IOCTL_SET_TIMEOUT IOCTL
-
 
 ## -description
 
@@ -83,5 +79,4 @@ Using the USBSCAN_TIMEOUT structure's contents, the kernel-mode driver resets th
 
 For more information, see [Accessing Kernel-Mode Drivers for Still Image Devices](/windows-hardware/drivers/image/accessing-kernel-mode-drivers-for-still-image-devices).
 
-> [!NOTE]
-> The default time-out value is 120 seconds. The maximum time-out value is 214 seconds. Values greater than 214 seconds will cause transfer time-outs.
+The default time-out value is 120 seconds. The maximum time-out value is 214 seconds. Values greater than 214 seconds will cause transfer time-outs.

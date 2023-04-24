@@ -2,7 +2,7 @@
 UID: NF:acxdevice.AcxDeviceAddFactoryCircuit
 tech.root: audio
 title: AcxDeviceAddFactoryCircuit
-ms.date: 01/31/2022
+ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDeviceAddFactoryCircuit function adds a factory circuit to a WDFDEVICE for creating audio circuits.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxdevice.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -62,9 +62,9 @@ The ACX factory circuit to add to the **WDFDEVICE** specified by the *Device* pa
 
 An ACX driver may create one or more circuits in the following scenarios:
 
-* At initialization time
-* At run time, as side effect of an external event, such as detecting a new audio component
-* Because it registered itself with ACX as circuit factory. The ACX framework uses the registered factory to ask the driver to create a new circuit.
+- At initialization time
+- At run time, as side effect of an external event, such as detecting a new audio component
+- Because it registered itself with ACX as circuit factory. The ACX framework uses the registered factory to ask the driver to create a new circuit.
 
 Use [AcxDeviceRemoveFactoryCircuit](nf-acxdevice-acxdeviceremovefactorycircuit.md) to remove a factory circuit from a **WDFDEVICE**.
 
@@ -91,8 +91,13 @@ if (!NT_SUCCESS(status))
 }
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
-* [AcxDeviceRemoveFactoryCircuit](nf-acxdevice-acxdeviceremovefactorycircuit.md)
-* [acxdevice.h header](index.md)
-
+- [AcxDeviceRemoveFactoryCircuit](nf-acxdevice-acxdeviceremovefactorycircuit.md)
+- [acxdevice.h header](index.md)

@@ -4,13 +4,13 @@ title: FsRtlAreThereCurrentOrInProgressFileLocks function (ntifs.h)
 description: TheFsRtlAreThereCurrentOrInProgressFileLocks routine determines if there are byte range locks assigned to a file or any lock operations in progress for that file.
 old-location: ifsk\fsrtlaretherecurrentorinprogressfilelocks.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 03/20/2023
 keywords: ["FsRtlAreThereCurrentOrInProgressFileLocks function"]
 ms.keywords: FsRtlAreThereCurrentOrInProgressFileLocks, FsRtlAreThereCurrentOrInProgressFileLocks routine [Installable File System Drivers], fsrtlref_66517730-628e-4aa4-b3c0-b5c0e0fd4d7d.xml, ifsk.fsrtlaretherecurrentorinprogressfilelocks, ntifs/FsRtlAreThereCurrentOrInProgressFileLocks
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating system.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,42 +42,30 @@ api_name:
 
 # FsRtlAreThereCurrentOrInProgressFileLocks function
 
-
 ## -description
 
-The<b>FsRtlAreThereCurrentOrInProgressFileLocks </b>routine determines if there are byte range locks assigned to a file or any lock operations in progress for that file.
+The**FsRtlAreThereCurrentOrInProgressFileLocks** routine determines if there are byte range locks assigned to a file or any lock operations in progress for that file.
 
 ## -parameters
 
 ### -param FileLock [in]
 
-
-A pointer to the <a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a> structure for the file to be checked.
+A pointer to the [**FILE_LOCK**](ns-ntifs-file_lock.md) structure for the file to be checked.
 
 ## -returns
 
-The routine returns <b>TRUE</b> when there are any byte range locks assigned to the file or when there are byte range lock requests in progress for the file. Otherwise, the routine returns <b>FALSE</b>.
+The routine returns TRUE when there are any byte range locks assigned to the file or when there are byte range lock requests in progress for the file. Otherwise, the routine returns FALSE.
 
 ## -remarks
 
-File systems can use the <b>FsRtlAreThereCurrentOrInProgressFileLocks</b> routine in <a href="/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a> to determine whether to grant a shared oplock.
+File systems can use the **FsRtlAreThereCurrentOrInProgressFileLocks** routine in [Oplock Semantics](/windows-hardware/drivers/ifs/oplock-semantics) to determine whether to grant a shared oplock.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a>
+[**FILE_LOCK**](ns-ntifs-file_lock.md)
 
+[**FsRtlAllocateFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock.md)
 
+[**FsRtlGetNextFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextfilelock.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextfilelock">FsRtlGetNextFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
+[**FsRtlInitializeFileLock**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock.md)

@@ -52,7 +52,7 @@ The **ACXDRMRIGHTS** structure specifies the DRM content rights assigned to an A
 
 Specifies one of the following copy-protection values: 
 
-**TRUE**  Enables copy protection. 
+**TRUE**  Enables copy protection.
 
 An audio application must not do the following: 
 
@@ -77,6 +77,12 @@ Specifies one of the following digital output protection values:
 ## -remarks
 
 If the driver supports DRMRIGHTS and also implements a proprietary copy protection mechanism, the driver must aggregate the result of the proprietary implementation with the values of CopyProtect and DigitalOutputDisable to determine the final copy protection state. The final copy protection state must be the most restrictive of all outstanding copy protection requests.
+
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 

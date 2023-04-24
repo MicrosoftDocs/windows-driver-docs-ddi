@@ -25,7 +25,7 @@ You've already completed this step.
 
 If you'd like to suggest a change to the docs, follow these steps:
 
-1. If you're viewing a Docs.microsoft.com page, click the **Edit** button in the upper right of the page.  You will be redirected to the corresponding Markdown source file in the [GitHub repository](https://github.com/MicrosoftDocs/windows-driver-docs-ddi).  If you're already in the GitHub repo, you can just navigate to the source file you would like to change.
+1. If you're viewing a learn.microsoft.com page, click the **Edit** button in the upper right of the page.  You will be redirected to the corresponding Markdown source file in the [GitHub repository](https://github.com/MicrosoftDocs/windows-driver-docs-ddi).  If you're already in the GitHub repo, you can just navigate to the source file you would like to change.
 2. If you don't already have a GitHub account, click **Sign Up** in the upper right and create a new account.
 3. From the GitHub page you would like to change, click the pencil icon.
 4. Modify the file and use the preview tab to ensure the changes look good.

@@ -2,9 +2,9 @@
 UID: NF:acxstreams.AcxStreamResumeIoWithTag
 tech.root: audio
 title: AcxStreamResumeIoWithTag
-ms.date: 07/22/2022
+ms.date: 12/16/2022
 targetos: Windows
-description: The AcxStreamResumeIoWithTag function is used to resume IO for a stream. 
+description: The AcxStreamResumeIoWithTag function is used to resume IO for a stream.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxstreams.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -46,17 +46,13 @@ The **AcxStreamResumeIoWithTag** function is used to resume IO for a stream afte
 
 ## -parameters
 
-### -param Stream
+### -param Stream [in]
 
-An existing ACXSTREAM Object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
+An existing ACXSTREAM object. For more information, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
-### -param Tag
+### -param Tag [in, optional]
 
-An optional Tag that is a driver-defined value that the framework includes with diagnostic tracing.
-
-## -returns
-
-Void
+An optional tag that is a driver-defined value that the framework includes with diagnostic tracing.
 
 ## -remarks
 
@@ -73,7 +69,12 @@ Example usage is shown below.
 
 ```
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [acxstreams.h header](index.md)
-

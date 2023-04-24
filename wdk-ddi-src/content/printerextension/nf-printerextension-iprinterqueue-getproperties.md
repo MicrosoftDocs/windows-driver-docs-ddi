@@ -57,6 +57,6 @@ This method returns and **HRESULT** value.
 
 ## -see-also
 
-[IPrinterPropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag)
+[IPrinterPropertyBag](./nn-printerextension-iprinterpropertybag.md)
 
-[IPrinterQueue](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue)
+[IPrinterQueue](./nn-printerextension-iprinterqueue.md)

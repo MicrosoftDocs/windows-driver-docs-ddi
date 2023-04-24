@@ -2,9 +2,8 @@
 UID: NS:ksmedia.tagKS_MPEAUDIOINFO
 title: tagKS_MPEAUDIOINFO (ksmedia.h)
 description: The KS_MPEGAUDIOINFO structure describes an MPEG audio stream.
-old-location: stream\ks_mpegaudioinfo.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 03/15/2023
 keywords: ["tagKS_MPEAUDIOINFO structure"]
 ms.keywords: "*PKS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO structure [Streaming Media Devices], PKS_MPEGAUDIOINFO, PKS_MPEGAUDIOINFO structure pointer [Streaming Media Devices], ksmedia/KS_MPEGAUDIOINFO, ksmedia/PKS_MPEGAUDIOINFO, stream.ks_mpegaudioinfo, tagKS_MPEAUDIOINFO, vidcapstruct_613d53ce-69cd-46da-9bd8-0ac41ca12129.xml"
 req.header: ksmedia.h
@@ -46,12 +45,9 @@ api_name:
  - KS_MPEGAUDIOINFO
 ---
 
-# tagKS_MPEAUDIOINFO structure
-
-
 ## -description
 
-The KS_MPEGAUDIOINFO structure describes an MPEG audio stream.
+The **KS_MPEGAUDIOINFO** structure describes an MPEG audio stream.
 
 ## -struct-fields
 
@@ -59,22 +55,9 @@ The KS_MPEGAUDIOINFO structure describes an MPEG audio stream.
 
 Specifies the time base for audio timestamps. Reject the connection if undefined bits are not 0. The following flag is defined.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-KS_MPEGAUDIOINFO_27MhzTimebase
-
-</td>
-<td>
-Specifies that PTS and DTS timestamps advance at 27 MHz rather than 90 kHz.
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+|---|---|
+| KS_MPEGAUDIOINFO_27MhzTimebase | Specifies that PTS and DTS timestamps advance at 27 MHz rather than 90 kHz. |
 
 ### -field dwReserved1
 
@@ -87,4 +70,3 @@ Must be 0; otherwise, reject the connection.
 ### -field dwReserved3
 
 Must be 0; otherwise, reject the connection.
-

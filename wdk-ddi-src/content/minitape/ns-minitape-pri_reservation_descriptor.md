@@ -1,5 +1,5 @@
 ---
-UID: NS:minitape.__unnamed_struct_10
+UID: NS:minitape.PRI_RESERVATION_DESCRIPTOR
 title: PRI_RESERVATION_DESCRIPTOR (minitape.h)
 description: The PRI_RESERVATION_DESCRIPTOR structure (minitape.h) describes a persistent reservation that is active within a device server.
 old-location: storage\pri_reservation_descriptor.htm

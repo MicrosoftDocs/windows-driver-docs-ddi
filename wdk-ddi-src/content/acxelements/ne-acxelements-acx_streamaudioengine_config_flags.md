@@ -53,10 +53,12 @@ For internal validation, do not use.
 
 There are no flags currently defined for this type.
 
-### Example
+### ACX requirements
 
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
 
 ## -see-also
 
 - [acxelements.h header](index.md)
-

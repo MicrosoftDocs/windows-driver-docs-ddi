@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_19
+UID: NS:gnssdriver.GNSS_BREADCRUMBING_PARAM
 title: GNSS_BREADCRUMBING_PARAM (gnssdriver.h)
 description: The GNSS_BREADCRUMBING_PARAM structure contains the configuration passed into the start of breadcrumbing via IOCTL_GNSS_START_BREADCRUMBING.
 tech.root: gnss
@@ -71,3 +71,4 @@ Contains the maximum error timeout in milliseconds. If the location of the devic
 ### -field Unused
 
 Padding buffer reserved for future use.
+

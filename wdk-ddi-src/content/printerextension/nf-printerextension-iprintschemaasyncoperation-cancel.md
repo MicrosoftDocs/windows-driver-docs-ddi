@@ -49,4 +49,4 @@ This method returns an **HRESULT** value.
 
 ## -see-also
 
-[IPrintSchemaAsyncOperation](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperation)
+[IPrintSchemaAsyncOperation](./nn-printerextension-iprintschemaasyncoperation.md)

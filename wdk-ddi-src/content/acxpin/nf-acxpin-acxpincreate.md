@@ -2,7 +2,7 @@
 UID: NF:acxpin.AcxPinCreate
 tech.root: audio
 title: AcxPinCreate
-ms.date: 04/11/2022
+ms.date: 12/16/2022
 targetos: Windows
 description: The AcxPinCreate function creates and initializes a new ACXPIN object.
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: acxpin.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -68,6 +68,12 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -remarks
 
+### ACX requirements
+
+**Minimum ACX version:** 1.0
+
+For more information about ACX versions, see [ACX version overview](/windows-hardware/drivers/audio/acx-version-overview).
+
 ## -see-also
 
 - [ACXPIN](index.md)
@@ -75,5 +81,3 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 - [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
 - [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md)
 - [acxpin.h header](index.md)
- 
-

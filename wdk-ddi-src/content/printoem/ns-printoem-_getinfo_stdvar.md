@@ -47,13 +47,13 @@ api_name:
 
 ## -description
 
-The **GETINFO_STDVAR** structure is used as input to the [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) callback function.
+The **GETINFO_STDVAR** structure is used as input to the [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function.
 
 ## -struct-fields
 
 ### -field dwSize
 
-Specifies the size, in bytes, of the **GETINFO_STDVAR** structure. Supplied by the [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) caller.
+Specifies the size, in bytes, of the **GETINFO_STDVAR** structure. Supplied by the [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) caller.
 
 ### -field dwNumOfVariable
 
@@ -73,7 +73,7 @@ An array specifying standard variable indexes and values. Each array element con
 
 #### dwStdVarID
 
-Specifies the [standard variables](/windows-hardware/drivers/print/standard-variables) for which a value should be returned. Supplied by the [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) caller. Valid values are contained in the following table.
+Specifies the [standard variables](/windows-hardware/drivers/print/standard-variables) for which a value should be returned. Supplied by the [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) caller. Valid values are contained in the following table.
 
 | Identifier                   | Standard Variable     |
 |------------------------------|-----------------------|
@@ -92,18 +92,18 @@ Specifies the [standard variables](/windows-hardware/drivers/print/standard-vari
 | FNT_INFO_TEXTXRES            | TextXRes            |
 | FNT_INFO_TEXTYRES            | TextYRes            |
 
-Supplied by the [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) caller.
+Supplied by the [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) caller.
 
 #### lStdVariable
 
-Specifies the current value of the specified standard variable. Supplied by Unidrv's [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) callback function.
+Specifies the current value of the specified standard variable. Supplied by Unidrv's [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function.
 
 ## -remarks
 
-To obtain the current value for one or more of Unidrv's standard variables, a rendering plug-in can supply the address of a GETINFO_STDVAR structure when calling Unidrv's [UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) callback function.
+To obtain the current value for one or more of Unidrv's standard variables, a rendering plug-in can supply the address of a GETINFO_STDVAR structure when calling Unidrv's [UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md) callback function.
 
 For more information about [standard variables](/windows-hardware/drivers/print/standard-variables), see [Microsoft Universal Printer Driver](/windows-hardware/drivers/print/microsoft-universal-printer-driver).
 
 ## -see-also
 
-[UNIFONTOBJ_GetInfo](/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo)
+[UNIFONTOBJ_GetInfo](./nc-printoem-pfngetinfo.md)

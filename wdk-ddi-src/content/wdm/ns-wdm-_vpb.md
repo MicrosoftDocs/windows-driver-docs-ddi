@@ -1,10 +1,9 @@
 ---
 UID: NS:wdm._VPB
-title: _VPB (wdm.h)
+title: VPB (wdm.h)
 description: The volume parameter block (VPB) structure is used to map a device object that represents a mounted file system volume to a device object that represents a physical or virtual disk device.
-old-location: ifsk\vpb.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 12/16/2022
 keywords: ["VPB structure"]
 ms.keywords: "*PVPB, PVPB, PVPB structure pointer [Installable File System Drivers], VPB, VPB structure [Installable File System Drivers], VPB_DIRECT_WRITES_ALLOWED, VPB_LOCKED, VPB_MOUNTED, VPB_PERSISTENT, VPB_RAW_MOUNT, VPB_REMOVE_PENDING, _VPB, ifsk.vpb, wdm/PVPB, wdm/VPB"
 req.header: wdm.h
@@ -46,9 +45,6 @@ api_name:
  - VPB
 ---
 
-# _VPB structure
-
-
 ## -description
 
 The volume parameter block (VPB) structure is used to map a device object that represents a mounted file system volume to a device object that represents a physical or virtual disk device.
@@ -65,72 +61,14 @@ A read-only member that is used by the system to indicate that the structure is 
 
 ### -field Flags
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="VPB_MOUNTED"></a><a id="vpb_mounted"></a><dl>
-<dt><b>VPB_MOUNTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This bit is set by the I/O manager to indicate that the file system has mounted the logical volume.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VPB_LOCKED"></a><a id="vpb_locked"></a><dl>
-<dt><b>VPB_LOCKED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This bit can be set or cleared by the file system driver that has mounted the logical volume. When set, the I/O manager will fail all subsequent create/open requests that are targeted at the logical volume. File systems may choose to set this member in response to application requests to lock the volume, or if they temporarily wish to prevent any create/open request from proceeding.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VPB_PERSISTENT"></a><a id="vpb_persistent"></a><dl>
-<dt><b>VPB_PERSISTENT</b></dt>
-</dl>
-</td>
-<td width="60%">
-This bit can be set or cleared by file system drivers. If set, the I/O manager will not delete the VPB structure even if <b>ReferenceCount</b> is zero.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VPB_REMOVE_PENDING"></a><a id="vpb_remove_pending"></a><dl>
-<dt><b>VPB_REMOVE_PENDING</b></dt>
-</dl>
-</td>
-<td width="60%">
-Set by the Plug and Play (PnP) manager to indicate that the underlying device is being removed.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VPB_RAW_MOUNT"></a><a id="vpb_raw_mount"></a><dl>
-<dt><b>VPB_RAW_MOUNT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that only the RAW file system can be mounted on the device.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VPB_DIRECT_WRITES_ALLOWED"></a><a id="vpb_direct_writes_allowed"></a><dl>
-<dt><b>VPB_DIRECT_WRITES_ALLOWED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that direct write operations to the volume are allowed.  This flag is set either by the I/O manager when the RAW file system is mounted or by the file system itself when it determines that the volume can be safely written to. It is typically safe to write to a volume when the file system is dismounted.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|---|---|
+| VPB_MOUNTED | This bit is set by the I/O manager to indicate that the file system has mounted the logical volume. |
+| VPB_LOCKED | This bit can be set or cleared by the file system driver that has mounted the logical volume. When set, the I/O manager will fail all subsequent create/open requests that are targeted at the logical volume. File systems may choose to set this member in response to application requests to lock the volume, or if they temporarily wish to prevent any create/open request from proceeding. |
+| VPB_PERSISTENT | This bit can be set or cleared by file system drivers. If set, the I/O manager will not delete the VPB structure even if **ReferenceCount** is zero. |
+| VPB_REMOVE_PENDING | Set by the Plug and Play (PnP) manager to indicate that the underlying device is being removed. |
+| VPB_RAW_MOUNT | Indicates that only the RAW file system can be mounted on the device. |
+| VPB_DIRECT_WRITES_ALLOWED | Indicates that direct write operations to the volume are allowed.  This flag is set either by the I/O manager when the RAW file system is mounted or by the file system itself when it determines that the volume can be safely written to. It is typically safe to write to a volume when the file system is dismounted. |
 
 ### -field VolumeLabelLength
 
@@ -138,11 +76,11 @@ A read/write member that specifies the length of the volume label, in bytes. Thi
 
 ### -field DeviceObject
 
-A read/write member, set by the file system driver, which points to a device object of type <b>FILE_DEVICE_DISK_FILE_SYSTEM</b>. This device object is created by the file system driver to represent the mounted volume.
+A read/write member, set by the file system driver, which points to a device object of type **FILE_DEVICE_DISK_FILE_SYSTEM**. This device object is created by the file system driver to represent the mounted volume.
 
 ### -field RealDevice
 
-A read-only member, set by the I/O manager, which points to the device object for a physical or virtual disk device that contains the mountable logical volume (pointed to by <b>DeviceObject</b>).
+A read-only member, set by the I/O manager, which points to the device object for a physical or virtual disk device that contains the mountable logical volume (pointed to by **DeviceObject**).
 
 ### -field SerialNumber
 
@@ -150,46 +88,42 @@ A read/write member that specifies the serial number associated with the file sy
 
 ### -field ReferenceCount
 
-A read-only member that specifies the reference count for the VPB structure. If the reference count for the VPB structure is greater than zero, the I/O manager does not deallocate the VPB structure. Be aware that <b>ReferenceCount</b> can be considered a read/write member when a file system driver must keep the volume present to process a tear down request.
+A read-only member that specifies the reference count for the VPB structure. If the reference count for the VPB structure is greater than zero, the I/O manager does not deallocate the VPB structure. Be aware that **ReferenceCount** can be considered a read/write member when a file system driver must keep the volume present to process a tear down request.
 
 ### -field VolumeLabel
 
-A read/write member, set by the file system driver, that specifies the label of the mounted volume.  The length of the volume label must be 32 wide-characters or less. Currently <b>MAXIMUM_VOLUME_LABEL_LENGTH</b> is defined as follows:
+A read/write member, set by the file system driver, that specifies the label of the mounted volume.  The length of the volume label must be 32 wide-characters or less. Currently **MAXIMUM_VOLUME_LABEL_LENGTH** is defined as follows:
 
-<code>#define MAXIMUM_VOLUME_LABEL_LENGTH  (32 * sizeof(WCHAR));</code>
+```cpp
+#define MAXIMUM_VOLUME_LABEL_LENGTH  (32 * sizeof(WCHAR));
+```
 
 ## -remarks
 
 A volume parameter block (VPB) object is used to create an association between a physical disk device object and a logical volume device object. That is, a VPB maps a file system's volume device object to the device or partition upon which the volume is mounted. A VPB object exists only for device objects that represent physical media, virtual media, or logical media that can be mounted.
 
-The I/O manager allocates and deallocates memory for the VPB structure from nonpaged pool. This allocation (or deallocation) occurs when a device object (as described previously) is created by calling either the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioverifyvolume">IoVerifyVolume</a> functions. That is, the device object that is created must be one of the following types:<ul>
-<li>FILE_DEVICE_DISK</li>
-<li>FILE_DEVICE_CD_ROM</li>
-<li>FILE_DEVICE_TAPE</li>
-<li>FILE_DEVICE_VIRTUAL_DISK</li>
-</ul>
+The I/O manager allocates and deallocates memory for the VPB structure from nonpaged pool. This allocation (or deallocation) occurs when a device object (as described previously) is created by calling either the [IoCreateDevice](./nf-wdm-iocreatedevice.md) or [IoVerifyVolume](../ntifs/nf-ntifs-ioverifyvolume.md) functions. That is, the device object that is created must be one of the following types:
 
+- FILE_DEVICE_DISK
 
-For more information about device object types, see <a href="/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>.
+- FILE_DEVICE_CD_ROM
 
-Drivers must call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioacquirevpbspinlock">IoAcquireVpbSpinLock</a> before they access any applicable members of the VPB object.
+- FILE_DEVICE_TAPE
 
-<div class="alert"><b>Note</b>  <ul>
-<li>Opaque members should be considered inaccessible. Drivers with dependencies on object member locations or access to opaque members might not remain portable and interoperable with other drivers over time.</li>
-<li>Drivers can use read-only members to acquire relevant information. Drivers must not modify read-only members or the object that the member points to, if the member is a pointer.</li>
-</ul>
-</div>
-<div> </div>
+- FILE_DEVICE_VIRTUAL_DISK
+
+For more information about device object types, see [Specifying Device Types](/windows-hardware/drivers/kernel/specifying-device-types).
+
+Drivers must call [IoAcquireVpbSpinLock](../ntifs/nf-ntifs-ioacquirevpbspinlock.md) before they access any applicable members of the VPB object.
+
+Opaque members should be considered inaccessible. Drivers with dependencies on object member locations or access to opaque members might not remain portable and interoperable with other drivers over time.
+
+Drivers can use read-only members to acquire relevant information. Drivers must not modify read-only members or the object that the member points to, if the member is a pointer.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+[**DEVICE_OBJECT**](./ns-wdm-_device_object.md)
 
+[**FILE_OBJECT**](./ns-wdm-_file_object.md)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/how-the-volume-is-mounted">How the Volume Is Mounted</a>
-
+[How the Volume Is Mounted](/windows-hardware/drivers/ifs/how-the-volume-is-mounted)

@@ -60,7 +60,7 @@ This is a unique identifier for the secure element.
 
 ### -field eEventType
 
-This is an event type. For more information about the types, see the [SECURE_ELEMENT_EVENT_TYPE](/windows-hardware/drivers/ddi/nfcsedev/ne-nfcsedev-_secure_element_event_type) enumeration topic.
+This is an event type. For more information about the types, see the [SECURE_ELEMENT_EVENT_TYPE](./ne-nfcsedev-_secure_element_event_type.md) enumeration topic.
 
 ### -field cbEventData
 
@@ -68,7 +68,7 @@ This is the amount of bytes for the pbEventData array.
 
 ### -field pbEventData[ANYSIZE_ARRAY]
 
-This is the event data buffer. When **eEventType** is **HceActivated** or **HceDeactivated**, this member contains a pointer to a [SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD](/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_hce_activation_payload) structure. The **bConnectionId** member in that structure is the same ID value that's used in [SECURE_ELEMENT_HCE_DATA_PACKET](/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_hce_data_packet) to send and receive an HCE packet with [IOCTL_NFCSE_HCE_REMOTE_SEND](/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_hce_remote_send) and [IOCTL_NFCSE_HCE_REMOTE_RECV](/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_hce_remote_recv).
+This is the event data buffer. When **eEventType** is **HceActivated** or **HceDeactivated**, this member contains a pointer to a [SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD](./ns-nfcsedev-_secure_element_hce_activation_payload.md) structure. The **bConnectionId** member in that structure is the same ID value that's used in [SECURE_ELEMENT_HCE_DATA_PACKET](./ns-nfcsedev-_secure_element_hce_data_packet.md) to send and receive an HCE packet with [IOCTL_NFCSE_HCE_REMOTE_SEND](./ni-nfcsedev-ioctl_nfcse_hce_remote_send.md) and [IOCTL_NFCSE_HCE_REMOTE_RECV](./ni-nfcsedev-ioctl_nfcse_hce_remote_recv.md).
 
 When **eEventType** is **ExternalReaderArrival** or **ExternalReaderDeparture**, **pbEventData** is empty and **cbEventData** is 0.
 

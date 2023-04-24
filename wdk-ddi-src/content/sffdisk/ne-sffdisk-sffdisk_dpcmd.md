@@ -1,5 +1,5 @@
 ---
-UID: NE:sffdisk.__unnamed_enum_1
+UID: NE:sffdisk.SFFDISK_DPCMD
 title: SFFDISK_DPCMD (sffdisk.h)
 description: The SFFDISK_DPCMD enumeration lists the operations performed by an IOCTL_SFFDISK_DEVICE_PASSWORD request.
 old-location: sd\sffdisk_dpcmd.htm
@@ -72,3 +72,4 @@ The operation resets the device.
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff538136(v=vs.85)">SFFDISK_DEVICE_PASSWORD_DATA</a>
+

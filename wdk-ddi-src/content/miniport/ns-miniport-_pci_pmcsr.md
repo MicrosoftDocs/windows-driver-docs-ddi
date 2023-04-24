@@ -2,9 +2,8 @@
 UID: NS:miniport._PCI_PMCSR
 title: _PCI_PMCSR (miniport.h)
 description: The _PCI_PMCSR structure (miniport.h) describes the contents of the device's power management control status register.
-old-location: pci\pci_pmcsr.htm
 tech.root: PCI
-ms.date: 02/24/2018
+ms.date: 03/03/2023
 keywords: ["PCI_PMCSR structure"]
 ms.keywords: "*PPCI_PMCSR, PCI.pci_pmcsr, PCI_PMCSR, PCI_PMCSR structure [Buses], PPCI_PMCSR, PPCI_PMCSR structure pointer [Buses], _PCI_PMCSR, pci_struct_03c3c722-9aa9-4fff-a50e-4499122d7490.xml, wdm/PCI_PMCSR, wdm/PPCI_PMCSR"
 req.header: miniport.h
@@ -46,9 +45,6 @@ api_name:
  - PCI_PMCSR
 ---
 
-# _PCI_PMCSR structure (miniport.h)
-
-
 ## -description
 
 The PCI_PMCSR structure is used to report the contents of the device's power management control status register.
@@ -59,55 +55,14 @@ The PCI_PMCSR structure is used to report the contents of the device's power man
 
 Indicates the power state of the device. This member can have the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-0x00
+| Value | Meaning |
+|---|---|
+| 0x00 | Indicates that the device is in D0. |
+| 0x01 | Indicates that the device is in D1. |
+| 0x02 | Indicates that the device is in D2. |
+| 0x03 | Indicates that the device is in D3. |
 
-</td>
-<td>
-Indicates that the device is in D0.
-
-</td>
-</tr>
-<tr>
-<td>
-0x01
-
-</td>
-<td>
-Indicates that the device is in D1.
-
-</td>
-</tr>
-<tr>
-<td>
-0x02
-
-</td>
-<td>
-Indicates that the device is in D2.
-
-</td>
-</tr>
-<tr>
-<td>
-0x03
-
-</td>
-<td>
-Indicates that the device is in D3.
-
-</td>
-</tr>
-</table>
- 
-
-For more information about the power state register, see the <i>PCI Power Management Specification</i>.
+For more information about the power state register, see the *PCI Power Management Specification*.
 
 ### -field Rsvd1
 
@@ -117,21 +72,23 @@ Reserved.
 
 ### -field Rsvd2
 
+Reserved.
+
 ### -field PMEEnable
 
-Indicates, when 1, that the device is enabled to assert the PME signal. When 0, the device is not enabled to assert the PME signal. For more information about the meaning of the PME Enable bit, see the <i>PCI Power Management Specification</i>.
+Indicates, when 1, that the device is enabled to assert the PME signal. When 0, the device is not enabled to assert the PME signal. For more information about the meaning of the PME Enable bit, see the *PCI Power Management Specification*.
 
 ### -field DataSelect
 
-Indicates which data is to be reported through the data register. For more information about the values that this member can hold, see the <i>PCI Power Management Specification</i>.
+Indicates which data is to be reported through the data register. For more information about the values that this member can hold, see the *PCI Power Management Specification*.
 
 ### -field DataScale
 
-Indicates the scaling factor used to interpret the value of the data register. For more information about the values that this member can hold, see the <i>PCI Power Management Specification</i>.
+Indicates the scaling factor used to interpret the value of the data register. For more information about the values that this member can hold, see the *PCI Power Management Specification*.
 
 ### -field PMEStatus
 
-Contains a one-bit value (either 0 or 1) that reports the value of the PMEStatus bit in the power management register. For more information about the values that this member can hold, see the <i>PCI Power Management Specification</i>.
+Contains a one-bit value (either 0 or 1) that reports the value of the PMEStatus bit in the power management register. For more information about the values that this member can hold, see the *PCI Power Management Specification*.
 
 ## -syntax
 
@@ -148,5 +105,4 @@ typedef struct _PCI_PMCSR {
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pm_capability">PCI_PM_CAPABILITY</a>
-
+[PCI_PM_CAPABILITY](../wdm/ns-wdm-_pci_pm_capability.md)

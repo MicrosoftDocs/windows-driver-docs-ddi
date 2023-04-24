@@ -1,5 +1,5 @@
 ---
-UID: NS:storport.__unnamed_struct_28
+UID: NS:storport.RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
 title: RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER (storport.h)
 description: The RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure (storport.h) contains a token that is created as a representation of data (ROD).
 old-location: storage\receive_token_information_response_header.htm
