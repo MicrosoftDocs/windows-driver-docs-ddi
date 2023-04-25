@@ -1,16 +1,16 @@
 ---
 UID: NF:fltkernel.FltGetFileContext
 title: FltGetFileContext function (fltkernel.h)
-description: The FltGetFileContext routine retrieves a context that was set for a file by a given minifilter driver instance.
+description: Learn more about the FltGetFileContext function.
 old-location: ifsk\fltgetfilecontext.htm
 tech.root: ifsk
-ms.date: 01/22/2021
+ms.date: 04/25/2023
 keywords: ["FltGetFileContext function"]
 ms.keywords: FltApiRef_e_to_o_230a0040-01b0-4998-8f16-427eec529aee.xml, FltGetFileContext, FltGetFileContext routine [Installable File System Drivers], fltkernel/FltGetFileContext, ifsk.fltgetfilecontext
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Windows Vista and later.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -58,15 +58,15 @@ File object pointer for the file. This parameter is required and cannot be **NUL
 
 ### -param Context [out]
 
-Pointer to a caller-allocated variable that receives the address of the context. This parameter is required and cannot be **NULL**.
+Pointer to a caller-allocated variable that receives the address of the context. This parameter is required and cannot be set to NULL.
 
 ## -returns
 
-**FltGetFileContext** returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
+**FltGetFileContext** returns STATUS_SUCCESS when it successfully returns the requested file context. Otherwise, it returns an appropriate NTSTATUS value such as one of the following:
 
 | Return code | Description |
 | ----------- | ----------- |
-| STATUS_NOT_FOUND | No matching context was found. This is an error code. |
+| STATUS_NOT_FOUND | No matching context was found on this file at this time. **Context** was set to NULL_CONTEXT. This is an error code. |
 | STATUS_NOT_SUPPORTED | File contexts are not supported for this file. This is an error code. |
 
 ## -remarks
