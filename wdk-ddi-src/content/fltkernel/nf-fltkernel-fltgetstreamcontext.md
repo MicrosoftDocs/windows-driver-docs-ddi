@@ -62,11 +62,11 @@ Pointer to a caller-allocated variable that receives the address of the context.
 
 ## -returns
 
-**FltGetStreamContext** returns STATUS_SUCCESS when it successfully returns the requested stream context. Otherwise, it returns an appropriate NTSTATUS value, such as one of the following:
+**FltGetStreamContext** returns STATUS_SUCCESS when it successfully returns the requested context. Otherwise, it returns an appropriate NTSTATUS value such as one of the following:
 
 | Return code | Description |
 | ----------- | ----------- |
-| STATUS_NOT_FOUND | No matching context was found. This is an error code. |
+| STATUS_NOT_FOUND | No matching context was found on this file at this time, so *FltMgr* set **Context** to NULL_CONTEXT. This is an error code. |
 | STATUS_NOT_SUPPORTED | The file system does not support per-stream contexts for this file stream. This is an error code. |
 
 ## -remarks

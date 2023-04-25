@@ -1,10 +1,10 @@
 ---
 UID: NF:fltkernel.FltGetVolumeContext
 title: FltGetVolumeContext function (fltkernel.h)
-description: The FltGetVolumeContext routine retrieves a context that was set for a volume by a given minifilter driver.
+description: Learn more about the FltGetVolumeContext function.
 old-location: ifsk\fltgetvolumecontext.htm
 tech.root: ifsk
-ms.date: 01/22/2021
+ms.date: 04/25/2023
 keywords: ["FltGetVolumeContext function"]
 ms.keywords: FltApiRef_e_to_o_8cec5d5c-18c3-4ffe-be18-fffcfc8d0c14.xml, FltGetVolumeContext, FltGetVolumeContext routine [Installable File System Drivers], fltkernel/FltGetVolumeContext, ifsk.fltgetvolumecontext
 req.header: fltkernel.h
@@ -50,23 +50,23 @@ The **FltGetVolumeContext** routine retrieves a context that was set for a volum
 
 ### -param Filter [in]
 
-Opaque filter pointer for the caller. This parameter is required and cannot be **NULL**.
+Opaque filter pointer for the caller. This parameter is required and cannot be NULL.
 
 ### -param Volume [in]
 
-Opaque pointer for the volume whose context is being retrieved. This parameter is required and cannot be **NULL**.
+Opaque pointer for the volume whose context is being retrieved. This parameter is required and cannot be NULL.
 
 ### -param Context [out]
 
-Pointer to a caller-allocated variable that receives the address of the requested context.
+Pointer to a caller-allocated variable that receives the address of the requested context. This parameter is required and can't be set to NULL.
 
 ## -returns
 
-**FltGetVolumeContext** returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following:
+**FltGetVolumeContext** returns STATUS_SUCCESS when it successfully returns the requested context. Otherwise, it returns an appropriate NTSTATUS value such as the following:
 
 | Return code | Description |
 | ----------- | ----------- |
-| STATUS_NOT_FOUND | No matching context was found. This is an error code. |
+| STATUS_NOT_FOUND | No matching context was found on this file at this time, so *FltMgr* set **Context** to NULL_CONTEXT. This is an error code. |
 
 ## -remarks
 

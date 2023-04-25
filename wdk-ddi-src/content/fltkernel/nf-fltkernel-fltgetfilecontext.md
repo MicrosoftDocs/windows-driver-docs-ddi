@@ -66,7 +66,7 @@ Pointer to a caller-allocated variable that receives the address of the context.
 
 | Return code | Description |
 | ----------- | ----------- |
-| STATUS_NOT_FOUND | No matching context was found on this file at this time. **Context** was set to NULL_CONTEXT. This is an error code. |
+| STATUS_NOT_FOUND | No matching context was found on this file at this time, so *FltMgr* set **Context** to NULL_CONTEXT. This is an error code. |
 | STATUS_NOT_SUPPORTED | File contexts are not supported for this file. This is an error code. |
 
 ## -remarks
