@@ -66,7 +66,7 @@ A pointer to a caller-allocated variable that receives the address of the contex
 
 | Return code | Description |
 | ----------- | ----------- |
-| STATUS_NOT_FOUND | No matching context was found. This is an error code. |
+| STATUS_NOT_FOUND | No matching context was found on this file at this time, so *FltMgr* set **Context** to NULL_CONTEXT. This is an error code. |
 | STATUS_NOT_SUPPORTED | The volume attached to this instance does not support section contexts. This is an error code. |
 
 ## -remarks
