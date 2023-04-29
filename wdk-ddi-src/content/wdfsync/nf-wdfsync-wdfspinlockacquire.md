@@ -2,7 +2,7 @@
 UID: NF:wdfsync.WdfSpinLockAcquire
 tech.root: wdf
 title: WdfSpinLockAcquire
-ms.date: 04/12/2023
+ms.date: 04/29/2023
 targetos: Windows
 description: 
 prerelease: false
@@ -54,7 +54,11 @@ A handle to a framework spin-lock object, obtained by a previous call to <a href
 
 ## -remarks
 
-The <b>WdfSpinLockAcquire</b> method does not return until it acquires the spin lock.
+The **WdfSpinLockAcquire** method returns after the specified spin lock has been acquired. For KMDF, the method returns at IRQL = DISPATCH_LEVEL. For UMDF, the method returns at passive.
+ 
+Your driver cannot call **WdfSpinLockAcquire** to acquire a spin lock that the driver has specified in a [**WDF_INTERRUPT_CONFIG**](../wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_config.md) structure.
+ 
+For more information about spin locks, see [Using Framework Locks](/windows-hardware/drivers/wdf/using-framework-locks).
 
 ## -see-also
 
