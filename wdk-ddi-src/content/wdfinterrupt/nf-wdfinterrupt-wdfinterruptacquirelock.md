@@ -1,5 +1,5 @@
 ---
-UID: NC:wdfinterrupt.PFN_WDFINTERRUPTACQUIRELOCK
+UID: NF:wdfinterrupt.WdfInterruptAcquireLock
 title: PFN_WDFINTERRUPTACQUIRELOCK (wdfinterrupt.h)
 description: The WdfInterruptAcquireLock method begins a code sequence that executes at the device's device interrupt request level (DIRQL) while holding an interrupt object's spin lock.
 old-location: wdf/wdfinterruptacquirelock.htm

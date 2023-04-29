@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "wdk-ddi-src/content/wdfsync/nc-wdfsync-pfn_wdfobjectacquirelock.md",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfobjectacquirelock",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdfsync/nc-wdfsync-pfn_wdfobjectreleaselock.md",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfobjectreleaselock",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdfinterrupt/nc-wdfinterrupt-pfn_wdfinterruptacquirelock.md",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptacquirelock",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdfinterrupt/nc-wdfinterrupt-pfn_wdfinterruptreleaselock.md",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptreleaselock",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "wdk-ddi-src/content/wdm/nf-wdm-exallocatefromnpagedlookasidelist-r1.md",
       "redirect_URL": "/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefromnpagedlookasidelist",
       "redirect_document_id": false
