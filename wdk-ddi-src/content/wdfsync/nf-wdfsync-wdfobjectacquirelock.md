@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfsync.WdfObjectAcquireLock
-title: PFN_WDFOBJECTACQUIRELOCK (wdfsync.h)
+title: WdfObjectAcquireLock function (wdfsync.h)
 description: The WdfObjectAcquireLock method acquires an object's synchronization lock.
 old-location: wdf\wdfobjectacquirelock.htm
 tech.root: wdf
@@ -41,7 +41,7 @@ api_name:
  - PFN_WDFOBJECTACQUIRELOCK
 ---
 
-# WdfObjectAcquireLock callback
+# WdfObjectAcquireLock function
 
 
 ## -description
