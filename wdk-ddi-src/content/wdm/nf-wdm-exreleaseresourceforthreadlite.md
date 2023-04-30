@@ -77,7 +77,7 @@ This requirement does not apply to calls made to **ExReleaseResourceForThreadLit
 
 [ExAcquireSharedWaitForExclusive](nf-wdm-exacquiresharedwaitforexclusive.md)
 
-[ExGetCurrentResourceThread](/previous-versions/windows/hardware/drivers/ff544614(v=vs.85))
+[ExGetCurrentResourceThread](../ntddk/nf-ntddk-psgetcurrentthread.md)
 
 [ExInitializeResourceLite](nf-wdm-exinitializeresourcelite.md)
 
