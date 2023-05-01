@@ -53,6 +53,27 @@ api_name:
 
 The PCI_EXPRESS_LINK_STATUS_REGISTER structure describes a PCI Express (PCIe) link status register of a PCIe capability structure.
 
+## -syntax
+
+```cpp
+typedef union _PCI_EXPRESS_LINK_STATUS_REGISTER {
+
+    struct {
+
+        USHORT LinkSpeed:4;
+        USHORT LinkWidth:6;
+        USHORT Undefined:1;
+        USHORT LinkTraining:1;
+        USHORT SlotClockConfig:1;
+        USHORT DataLinkLayerActive:1;
+        USHORT Rsvd:2;
+    } DUMMYSTRUCTNAME;
+
+    USHORT AsUSHORT;
+
+} PCI_EXPRESS_LINK_STATUS_REGISTER, *PPCI_EXPRESS_LINK_STATUS_REGISTER;
+```
+
 ## -struct-fields
 
 ### -field DUMMYSTRUCTNAME
