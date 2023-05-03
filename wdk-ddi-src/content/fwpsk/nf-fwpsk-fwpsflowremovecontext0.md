@@ -114,6 +114,17 @@ There is no context currently associated with the data flow.
 <tr>
 <td width="40%">
 <dl>
+<dt><b>STATUS_PENDING</b></dt>
+</dl>
+</td>
+<td width="60%">
+An active callout classification is in progress.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
 <dt><b>Other status codes</b></dt>
 </dl>
 </td>
