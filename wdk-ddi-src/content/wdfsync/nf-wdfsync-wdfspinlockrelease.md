@@ -2,7 +2,8 @@
 UID: NF:wdfsync.WdfSpinLockRelease
 tech.root: wdf
 title: WdfSpinLockRelease
-ms.date: 04/29/2023
+description: The WdfSpinLockAcquire method releases a specified spin lock.
+ms.date: 05/05/2023
 targetos: Windows
 description: 
 prerelease: false
