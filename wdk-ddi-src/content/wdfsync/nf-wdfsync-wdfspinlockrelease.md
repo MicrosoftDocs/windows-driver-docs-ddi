@@ -5,7 +5,6 @@ title: WdfSpinLockRelease
 description: The WdfSpinLockAcquire method releases a specified spin lock.
 ms.date: 05/05/2023
 targetos: Windows
-description: 
 prerelease: false
 req.assembly: 
 req.construct-type: function

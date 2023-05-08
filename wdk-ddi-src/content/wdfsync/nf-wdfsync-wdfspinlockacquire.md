@@ -5,7 +5,6 @@ title: WdfSpinLockAcquire
 description: The WdfSpinLockAcquire method acquires a specified spin lock.
 ms.date: 05/05/2023
 targetos: Windows
-description: 
 prerelease: false
 req.assembly: 
 req.construct-type: function
