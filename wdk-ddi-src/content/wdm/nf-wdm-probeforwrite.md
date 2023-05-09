@@ -4,7 +4,7 @@ title: ProbeForWrite function (wdm.h)
 description: The ProbeForWrite routine checks that a user-mode buffer actually resides in the user-mode portion of the address space, is writable, and is correctly aligned.
 old-location: kernel\probeforwrite.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 05/09/2023
 keywords: ["ProbeForWrite function"]
 ms.keywords: ProbeForWrite, ProbeForWrite routine [Kernel-Mode Driver Architecture], k102_62889c29-62cb-43c2-ac19-e8b933783443.xml, kernel.probeforwrite, wdm/ProbeForWrite
 req.header: wdm.h
@@ -57,7 +57,7 @@ Specifies the beginning of the user-mode buffer.
 ### -param Length [in]
 
 
-Specifies the length, in bytes, of the user-mode buffer.
+Specifies the length, in bytes, of the user-mode buffer. See additional information in the Remarks section.
 
 ### -param Alignment [in]
 
@@ -77,6 +77,8 @@ Do not use this routine on kernel-mode addresses; it will raise an exception.
 If <b>Irp->RequestorMode</b> = <b>KernelMode</b>, the <b>Irp->AssociatedIrp.SystemBuffer</b> and <b>Irp->UserBuffer</b> fields do not contain user-mode addresses, and a call to <b>ProbeForWrite</b> to probe a buffer pointed to by either field will raise an exception.
 
 If <i>Length</i> = 0, <b>ProbeForWrite</b> does no checking of the address. In this case, the routine does not raise an exception for an address that is misaligned or is outside the range of valid user addresses.
+
+**ProbeForWrite** can cause performance issues if the supplied buffer is significantly larger than the actual amount of data written to the buffer. To improve performance, probe only the portion of the buffer that the driver will write to, or use [**ProbeForRead**](./nf-wdm-probeforread.md) for reduced overhead.
 
 ## -see-also
 
