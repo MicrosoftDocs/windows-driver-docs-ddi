@@ -1,10 +1,10 @@
 ---
 UID: NE:sensorsdef.PROXIMITY_SENSOR_CAPABILITIES
-tech.root: 
+tech.root: sensors
 title: PROXIMITY_SENSOR_CAPABILITIES
-ms.date: 
+ms.date: 05/09/2023
 targetos: Windows
-description: 
+description: The PROXIMITY_SENSOR_CAPABILITIES enumeration values indicate the capabilities of a proximity sensor.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
