@@ -4,7 +4,7 @@ title: _DOT11_PHY_TYPE (windot11.h)
 description: The DOT11_PHY_TYPE enumeration is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.
 old-location: netvista\dot11_phy_type.htm
 tech.root: netvista
-ms.date: 03/23/2022
+ms.date: 05/12/2023
 keywords: ["DOT11_PHY_TYPE enumeration"]
 ms.keywords: "*PDOT11_PHY_TYPE, DOT11_PHY_TYPE, DOT11_PHY_TYPE enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_814496a3-4f7e-44a0-925c-0dbf64eb3f72.xml, PDOT11_PHY_TYPE, PDOT11_PHY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_PHY_TYPE, dot11_phy_type_IHV_end, dot11_phy_type_IHV_start, dot11_phy_type_any, dot11_phy_type_dsss, dot11_phy_type_erp, dot11_phy_type_fhss, dot11_phy_type_hrdsss, dot11_phy_type_ht, dot11_phy_type_irbaseband, dot11_phy_type_ofdm, dot11_phy_type_unknown, dot11_phy_type_vht, netvista.dot11_phy_type, windot11/DOT11_PHY_TYPE, windot11/PDOT11_PHY_TYPE, windot11/dot11_phy_type_IHV_end, windot11/dot11_phy_type_IHV_start, windot11/dot11_phy_type_any, windot11/dot11_phy_type_dsss, windot11/dot11_phy_type_erp, windot11/dot11_phy_type_fhss, windot11/dot11_phy_type_hrdsss, windot11/dot11_phy_type_ht, windot11/dot11_phy_type_irbaseband, windot11/dot11_phy_type_ofdm, windot11/dot11_phy_type_unknown, windot11/dot11_phy_type_vht"
 req.header: windot11.h
@@ -57,60 +57,60 @@ product:
 
 ## -enum-fields
 
-### -field dot11_phy_type_unknown
+### -field dot11_phy_type_unknown:0
 
 Specifies an unknown or uninitialized PHY type.
 
-### -field dot11_phy_type_any
+### -field dot11_phy_type_any:dot11_phy_type_unknown
 
 Specifies an unknown or uninitialized PHY type.
 
-### -field dot11_phy_type_fhss
+### -field dot11_phy_type_fhss:1
 
 Specifies a frequency-hopping spread-spectrum (FHSS) PHY.
 
-### -field dot11_phy_type_dsss
+### -field dot11_phy_type_dsss:2
 
 Specifies a direct sequence spread spectrum (DSSS) PHY.
 
-### -field dot11_phy_type_irbaseband
+### -field dot11_phy_type_irbaseband:3
 
 Specifies an infrared (IR) baseband PHY.
 
-### -field dot11_phy_type_ofdm
+### -field dot11_phy_type_ofdm:4
 
 Specifies an orthogonal frequency division multiplexing (OFDM) 802.11a PHY.
 
-### -field dot11_phy_type_hrdsss
+### -field dot11_phy_type_hrdsss:5
 
 Specifies a high-rate DSSS (HRDSSS) 802.11b PHY.
 
-### -field dot11_phy_type_erp
+### -field dot11_phy_type_erp:6
 
 Specifies an extended-rate 802.11g PHY (ERP).
 
-### -field dot11_phy_type_ht
+### -field dot11_phy_type_ht:7
 
 Specifies a high-throughput (HT) 802.11n PHY. Each 802.11n PHY, whether dual-band or not, is
      specified as this PHY type.
 
-### -field dot11_phy_type_vht
+### -field dot11_phy_type_vht:8
 
 Specifies a very high-throughput (VHT) 802.11ac PHY.
 
-### -field dot11_phy_type_dmg
+### -field dot11_phy_type_dmg:9
 
 Specifies a Directional Multi-Gigabit (DMG) 802.11ad PHY.
 
-### -field dot11_phy_type_he 
+### -field dot11_phy_type_he:10
 
 Specifies a High Efficiency (HE) 802.11ax PHY.
 
-### -field dot11_phy_type_eht
+### -field dot11_phy_type_eht:11
 
 Specifies an extremely high-throughput (EHT) 802.11be PHY.
 
-### -field dot11_phy_type_IHV_start
+### -field dot11_phy_type_IHV_start:0x80000000
 
 Specifies the start of the range that is used to define proprietary PHY types that are developed
      by an independent hardware vendor (IHV).
@@ -120,7 +120,7 @@ The
      <b>dot11_phy_type_IHV_start</b> enumerator value is valid only when the miniport driver is operating in
      Extensible Station (ExtSTA) mode.
 
-### -field dot11_phy_type_IHV_end
+### -field dot11_phy_type_IHV_end:0xffffffff
 
 Specifies the end of the range that is used to define proprietary PHY types that are developed by
      an IHV.
@@ -129,25 +129,6 @@ Specifies the end of the range that is used to define proprietary PHY types that
 The
      <b>dot11_phy_type_IHV_end</b> enumerator value is valid only when the miniport driver is operating in
      ExtSTA mode.
-
-## -syntax
-
-```cpp
-typedef enum _DOT11_PHY_TYPE {
-  dot11_phy_type_unknown     = 0,
-  dot11_phy_type_any         = dot11_phy_type_unknown,
-  dot11_phy_type_fhss        = 1,
-  dot11_phy_type_dsss        = 2,
-  dot11_phy_type_irbaseband  = 3,
-  dot11_phy_type_ofdm        = 4,
-  dot11_phy_type_hrdsss      = 5,
-  dot11_phy_type_erp         = 6,
-  dot11_phy_type_ht          = 7,
-  dot11_phy_type_vht         = 8,
-  dot11_phy_type_IHV_start   = 0x80000000,
-  dot11_phy_type_IHV_end     = 0xffffffff
-} DOT11_PHY_TYPE, *PDOT11_PHY_TYPE;
-```
 
 ## -remarks
 
