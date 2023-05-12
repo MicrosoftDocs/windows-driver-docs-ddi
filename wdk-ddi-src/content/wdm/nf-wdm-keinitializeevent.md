@@ -66,7 +66,7 @@ Storage for an event object must be resident: in the device extension of a drive
 
 Drivers typically use a **NotificationEvent** to wait for an I/O operation to complete. When a notification event is set to the signaled state, all threads that were waiting for the event to be set to the signaled state become eligible for execution. The event remains in the signaled state until a thread calls [KeResetEvent](./nf-wdm-keresetevent.md) or [KeClearEvent](./nf-wdm-keclearevent.md) to set the event in the not-signaled state.
 
-A **SynchronizationEvent** is also called an *autoreset* or *autoclearing* event. When such an event is set, a single waiting thread becomes eligible for execution. The kernel automatically resets the event to the not-signaled state each time a wait is satisfied. A driver might use a synchronization event to protect a shared resource that is used in synchronizing the operations of several threads. Synchronization events are rarely used in a typical driver.
+A **SynchronizationEvent** is also called an *autoreset* or *autoclearing* event. When such an event is set, a single waiting thread becomes eligible for execution. The kernel automatically resets the event to the not-signaled state each time a wait is satisfied. A driver might use a synchronization event to protect a shared resource that is used in synchronizing the operations of several threads.
 
 For more information about event objects, see [Event Objects](/windows-hardware/drivers/kernel/event-objects).
 
