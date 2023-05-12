@@ -47,7 +47,7 @@ The sensor can detect human presence.
 
 ### -field Proximity_Sensor_Human_Engagement_Capable
 
-The sensor can interact with humans.
+The sensor can detect if the user is engaged with the system.
 
 ### -field Proximity_Sensor_Supported_Capabilities
 
