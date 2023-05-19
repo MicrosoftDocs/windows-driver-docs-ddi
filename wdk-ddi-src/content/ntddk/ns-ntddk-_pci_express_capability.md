@@ -120,7 +120,7 @@ Defines the **PCI_EXPRESS_DEVICE_STATUS_2_REGISTER** member **DeviceStatus2**.
 
 ### -field LinkCapabilities2
 
-A [PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER](ns-ntddk-pci_express_link_capabilities_2_register.md) structure that describes the PCIe link capabilities 2 register of the PCIe capability structure, extending the PCIe link capabiliites register.
+A [PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER](ns-ntddk-pci_express_link_capabilities_2_register.md) structure that describes the PCIe link capabilities 2 register of the PCIe capability structure, extending the PCIe link capabilities register.
 
 ### -field LinkControl2
 
@@ -128,7 +128,7 @@ A [PCI_EXPRESS_LINK_CONTROL_2_REGISTER](ns-ntddk-pci_express_link_control_2_regi
 
 ### -field LinkStatus2
 
-A [PCI_EXPRESS_LINK_STATUS_2_REGISTER](ns-ntddk-pci_express_link_status_2_register.md) structure that describes the PCIe link capabilities 2 register of the PCIe capability structure, extending the PCIe link capabiliites register.
+A [PCI_EXPRESS_LINK_STATUS_2_REGISTER](ns-ntddk-pci_express_link_status_2_register.md) structure that describes the PCIe link capabilities 2 register of the PCIe capability structure, extending the PCIe link capabilities register.
 
 ## -remarks
 
