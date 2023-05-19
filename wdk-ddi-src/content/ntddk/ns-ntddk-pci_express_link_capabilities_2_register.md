@@ -58,7 +58,7 @@ Reserved.
 
 ### -field DUMMYSTRUCTNAME.SupportedLinkSpeedsVector
 
-Indicates the supported link speeds of the PCIe link. For each bit position, a value of 1b indicates that the corresponding link speed is supported; otherwise, that speed is not supported. Note that this field is preferred as the source of truth over the **MaximumLinkSpeed** field in a **PCI_EXPRESS_LINK_CAPABILITIES_REGISTER**.
+Indicates the supported link speeds of the PCIe link. For each bit position, a value of 1b indicates that the corresponding link speed is supported; otherwise, that speed is not supported. Note that this field is preferred as the source of truth over the [MaximumLinkSpeed](ns-ntddk-_pci_express_link_capabilities_register.md#-field-DUMMYSTRUCTNAME.MaximumLinkSpeed) field.
 
 Bit definitions within this field with the corresponding link speed are:
 
@@ -104,4 +104,10 @@ A **ULONG** representation of the contents of the **PCI_EXPRESS_LINK_CAPABILITIE
 
 ## -remarks
 
+A **PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER** structure is contained in the [PCI_EXPRESS_CAPABILITY_REGISTER](ns-ntddk-_pci_express_capability.md) structure.
+
 ## -see-also
+
+[PCI_EXPRESS_CAPABILITY_REGISTER](ns-ntddk-_pci_express_capability.md)
+
+[PCI_EXPRESS_LINK_CAPABILITIES_REGISTER](ns-ntddk-_pci_express_link_capabilities_register.md)

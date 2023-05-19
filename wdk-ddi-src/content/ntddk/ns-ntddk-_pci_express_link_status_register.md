@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The PCI_EXPRESS_LINK_STATUS_REGISTER structure describes a PCI Express (PCIe) link status register of a PCIe capability structure.
+The **PCI_EXPRESS_LINK_STATUS_REGISTER** structure describes a PCI Express (PCIe) link status register of a PCIe capability structure.
 
 ## -syntax
 
@@ -80,7 +80,7 @@ typedef union _PCI_EXPRESS_LINK_STATUS_REGISTER {
 
 ### -field AsUSHORT
 
-A USHORT representation of the contents of the PCI_EXPRESS_LINK_STATUS_REGISTER structure.
+A **USHORT** representation of the contents of the **PCI_EXPRESS_LINK_STATUS_REGISTER** structure.
 
 
 ### -field DUMMYSTRUCTNAME.DataLinkLayerActive
@@ -208,11 +208,13 @@ typedef union _PCI_EXPRESS_LINK_STATUS_REGISTER {
 
 ## -remarks
 
-The PCI_EXPRESS_LINK_STATUS_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
+The **PCI_EXPRESS_LINK_STATUS_REGISTER** structure is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_LINK_STATUS_REGISTER structure is contained in the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a> structure.
+A **PCI_EXPRESS_LINK_STATUS_REGISTER** structure is contained in the [PCI_EXPRESS_CAPABILITY_REGISTER](ns-ntddk-_pci_express_capability.md) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a>
+[PCI_EXPRESS_CAPABILITY_REGISTER](ns-ntddk-_pci_express_capability.md)
+
+[PCI_EXPRESS_LINK_STATUS_2_REGISTER](ns-ntddk-pci_express_link_status_2_register.md)
 

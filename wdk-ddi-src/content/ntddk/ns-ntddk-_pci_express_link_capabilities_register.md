@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) link capabilities register of a PCIe capability structure.
+The **PCI_EXPRESS_LINK_CAPABILITIES_REGISTER** structure describes a PCI Express (PCIe) link capabilities register of a PCIe capability structure.
 
 ## -struct-fields
 
@@ -60,14 +60,12 @@ The PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure describes a PCI Express (PC
 
 ### -field AsULONG
 
-A ULONG representation of the contents of the PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure.
-
-
+A **ULONG** representation of the contents of the **PCI_EXPRESS_LINK_CAPABILITIES_REGISTER** structure.
 
 
 ### -field DUMMYSTRUCTNAME.MaximumLinkSpeed
 
-The maximum link speed of the PCIe link (when PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER is not implemented or the value of SupportedLinkSpeedsVector is 0). If PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER is implemented, then SupportedLinkSpeedsVector is used and MaximumLinkSpeed is disregarded on Windows.
+The maximum link speed of the PCIe link (when [PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER](ns-ntddk-pci_express_link_capabilities_2_register.md) is not implemented or the value of [SupportedLinkSpeedsVector](ns-ntddk-pci_express_link_capabilities_2_register.md#--field-DUMMYSTRUCTNAME.SupportedLinkSpeedsVector) is 0). If [PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER](ns-ntddk-pci_express_link_capabilities_2_register.md) is implemented, then **SupportedLinkSpeedsVector** is used and **MaximumLinkSpeed** is disregarded on Windows.
 
 <table>
 <tr>
@@ -302,13 +300,12 @@ typedef union _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER {
 
 ## -remarks
 
-The PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
+The **PCI_EXPRESS_LINK_CAPABILITIES_REGISTER** structure is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure is contained in the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a> structure.
+A **PCI_EXPRESS_LINK_CAPABILITIES_REGISTER** structure is contained in the [PCI_EXPRESS_CAPABILITY_REGISTER](ns-ntddk-_pci_express_capability.md) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a>
+[PCI_EXPRESS_CAPABILITY_REGISTER](ns-ntddk-_pci_express_capability.md)
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-pci_express_link_capabilities_2_register">PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER</a>
-
+[PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER](ns-ntddk-pci_express_link_capabilities_2_register.md)

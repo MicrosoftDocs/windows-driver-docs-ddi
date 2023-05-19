@@ -107,4 +107,11 @@ A **USHORT** representation of the contents of the **PCI_EXPRESS_LINK_CONTROL_2_
 
 ## -remarks
 
+A **PCI_EXPRESS_LINK_CONTROL_2_REGISTER** structure is contained in the [PCI_EXPRESS_CAPABILITY_REGISTER](ns-ntddk-_pci_express_capability.md) structure.
+
 ## -see-also
+
+[PCI_EXPRESS_CAPABILITY_REGISTER](ns-ntddk-_pci_express_capability.md)
+
+[PCI_EXPRESS_LINK_CONTROL_REGISTER](ns-ntddk-pci_express_link_control_register.md)
+

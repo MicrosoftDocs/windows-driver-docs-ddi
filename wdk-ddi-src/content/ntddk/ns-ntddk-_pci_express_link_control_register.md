@@ -59,7 +59,7 @@ The **PCI_EXPRESS_LINK_CONTROL_REGISTER** structure describes a PCI Express (PCI
 
 ### -field AsUSHORT
 
-A USHORT representation of the contents of the PCI_EXPRESS_LINK_CONTROL_REGISTER structure.
+A **USHORT** representation of the contents of the **PCI_EXPRESS_LINK_CONTROL_REGISTER** structure.
 
 
 ### -field DUMMYSTRUCTNAME.ActiveStatePMControl
@@ -149,11 +149,12 @@ typedef union _PCI_EXPRESS_LINK_CONTROL_REGISTER {
 
 ## -remarks
 
-The PCI_EXPRESS_LINK_CONTROL_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
+The **PCI_EXPRESS_LINK_CONTROL_REGISTER** structure is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_LINK_CONTROL_REGISTER structure is contained in the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a> structure.
+A **PCI_EXPRESS_LINK_CONTROL_REGISTER** structure is contained in the [PCI_EXPRESS_CAPABILITY_REGISTER](ns-ntddk-_pci_express_capability.md) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a>
+[PCI_EXPRESS_CAPABILITY_REGISTER](ns-ntddk-_pci_express_capability.md)
 
+[PCI_EXPRESS_LINK_CONTROL_2_REGISTER](ns-ntddk-pci_express_link_control_2_register.md)
