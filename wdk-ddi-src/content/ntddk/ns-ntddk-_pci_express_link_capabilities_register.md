@@ -49,9 +49,10 @@ api_name:
 # _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure (ntddk.h)
 
 
+
 ## -description
 
-The PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) link capabilities register of a PCIe capability structure.
+The **PCI_EXPRESS_LINK_CAPABILITIES_REGISTER** structure describes a PCI Express (PCIe) link capabilities register of a PCIe capability structure.
 
 ## -struct-fields
 
@@ -59,28 +60,100 @@ The PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure describes a PCI Express (PC
 
 ### -field AsULONG
 
-A ULONG representation of the contents of the PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure.
+A **ULONG** representation of the contents of the **PCI_EXPRESS_LINK_CAPABILITIES_REGISTER** structure.
+
+
+### -field DUMMYSTRUCTNAME.MaximumLinkSpeed
+
+The maximum link speed of the PCIe link (when [PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER](ns-ntddk-pci_express_link_capabilities_2_register.md) is not implemented or the value of [SupportedLinkSpeedsVector](ns-ntddk-pci_express_link_capabilities_2_register.md#--field-DUMMYSTRUCTNAME.SupportedLinkSpeedsVector) is 0). If [PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER](ns-ntddk-pci_express_link_capabilities_2_register.md) is implemented, then **SupportedLinkSpeedsVector** is used and **MaximumLinkSpeed** is disregarded on Windows.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><b>1</b></td>
+<td>2.5 GT/s</td>
+</tr>
+<tr>
+<td><b>2</b></td>
+<td>5.0 GT/s</td>
+</tr>
+<tr>
+<td>All other values</td>
+<td>Reserved</td>
+</tr>
+</table>
+ 
+
+### -field DUMMYSTRUCTNAME.MaximumLinkWidth
+
+The maximum link width (number of lanes) implemented by the component. Possible values are:
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><b>1</b></td>
+<td>x1 (1 lane)</td>
+</tr>
+<tr>
+<td><b>2</b></td>
+<td>x2 (2 lanes)</td>
+</tr>
+<tr>
+<td><b>4</b></td>
+<td>x4 (4 lanes)</td>
+</tr>
+<tr>
+<td><b>8</b></td>
+<td>x8 (8 lanes)</td>
+</tr>
+<tr>
+<td><b>12</b></td>
+<td>x12 (12 lanes)</td>
+</tr>
+<tr>
+<td><b>16</b></td>
+<td>x16 (16 lanes)</td>
+</tr>
+<tr>
+<td><b>32</b></td>
+<td>x32 (32 lanes)</td>
+</tr>
+<tr>
+<td>All other values</td>
+<td>Reserved.</td>
+</tr>
+</table>
 
 
 ### -field DUMMYSTRUCTNAME.ActiveStatePMSupport
 
 The level of active state power management supported on the PCIe link. Possible values are:
 
-
-
-
-
-#### L0sEntrySupport
-
-L0s is supported.
-
-
-
-#### L0sAndL1EntrySupport
-
-L0s and L1 are supported.
-
-All other values are reserved.
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><b>L0sEntrySupport</b></td>
+<td>L0s is supported.</td>
+</tr>
+<tr>
+<td><b>L0sAndL1EntrySupport</b></td>
+<td>L0s and L1 are supported.</td>
+</tr>
+<tr>
+<td>All other values</td>
+<td>Reserved.</td>
+</tr>
+</table>
 
 
 ### -field DUMMYSTRUCTNAME.ClockPowerManagement
@@ -98,54 +171,44 @@ A single bit that indicates that the component supports the optional capability 
 The L0s exit latency for the PCIe link. This value indicates the length of time this port requires to complete a transition from L0s to L0.
 
 
-
-
-
-#### L0s_Below64ns
-
-Less than 64 nanoseconds
-
-
-
-#### L0s_64ns_128ns
-
-64 nanoseconds to 128 nanoseconds
-
-
-
-#### L0s_128ns_256ns
-
-128 nanoseconds to 256 nanoseconds
-
-
-
-#### L0s_256ns_512ns
-
-256 nanoseconds to 512 nanoseconds
-
-
-
-#### L0s_512ns_1us
-
-512 nanoseconds to 1 microsecond
-
-
-
-#### L0s_1us_2us
-
-1 microsecond to 2 microseconds
-
-
-
-#### L0s_2us_4us
-
-2 microseconds to 4 microseconds
-
-
-
-#### L0s_Above4us
-
-More than 4 microseconds
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><b>L0s_Below64ns</b></td>
+<td>Less than 64 nanoseconds</td>
+</tr>
+<tr>
+<td><b>L0s_64ns_128ns</b></td>
+<td>64 nanoseconds to 128 nanoseconds</td>
+</tr>
+<tr>
+<td><b>L0s_128ns_256ns</b></td>
+<td>128 nanoseconds to 256 nanoseconds</td>
+</tr>
+<tr>
+<td><b>L0s_256ns_512ns</b></td>
+<td>256 nanoseconds to 512 nanoseconds</td>
+</tr>
+<tr>
+<td><b>L0s_512ns_1us</b></td>
+<td>512 nanoseconds to 1 microsecond</td>
+</tr>
+<tr>
+<td><b>L0s_1us_2us</b></td>
+<td>1 microsecond to 2 microseconds</td>
+</tr>
+<tr>
+<td><b>L0s_2us_4us</b></td>
+<td>2 microseconds to 4 microseconds</td>
+</tr>
+<tr>
+<td><b>L0s_Above4us</b></td>
+<td>More than 4 microseconds</td>
+</tr>
+</table>
 
 
 ### -field DUMMYSTRUCTNAME.L1ExitLatency
@@ -153,133 +216,47 @@ More than 4 microseconds
 The L1 exit latency for the PCIe link. This value indicates the length of time this port requires to complete a transition from L1 to L0.
 
 
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><b>L1_Below1us</b></td>
+<td>Less than 1 microsecond</td>
+</tr>
+<tr>
+<td><b>L1_1us_2us</b></td>
+<td>1 microsecond to 2 microseconds</td>
+</tr>
+<tr>
+<td><b>L1_2us_4us</b></td>
+<td>2 microseconds to 4 microseconds</td>
+</tr>
+<tr>
+<td><b>L1_4us_8us</b></td>
+<td>4 microseconds to 8 microseconds</td>
+</tr>
+<tr>
+<td><b>L1_8us_16us</b></td>
+<td>8 microseconds to 16 microseconds</td>
+</tr>
+<tr>
+<td><b>L1_16us_32us</b></td>
+<td>16 microseconds to 32 microseconds</td>
+</tr>
+<tr>
+<td><b>L1_32us_64us</b></td>
+<td>32 microseconds to 64 microseconds</td>
+</tr>
+<tr>
+<td><b>L1_Above64us</b></td>
+<td>More than 64 microseconds</td>
+</tr>
+</table>
 
-
-
-#### L1_Below1us
-
-Less than 1 microsecond
-
-
-
-#### L1_1us_2us
-
-1 microsecond to 2 microseconds
-
-
-
-#### L1_2us_4us
-
-2 microseconds to 4 microseconds
-
-
-
-#### L1_4us_8us
-
-4 microseconds to 8 microseconds
-
-
-
-#### L1_8us_16us
-
-8 microseconds to 16 microseconds
-
-
-
-#### L1_16us_32us
-
-16 microseconds to 32 microseconds
-
-
-
-#### L1_32us_64us
-
-32 microseconds to 64 microseconds
-
-
-
-#### L1_Above64us
-
-More than 64 microseconds
 
 This value is ignored if the <b>ActiveStatePMSupport </b>member is not set to <b>L0sAndL1EntrySupport</b>.
-
-
-### -field DUMMYSTRUCTNAME.MaximumLinkSpeed
-
-The maximum link speed of the PCIe link. The only valid value is:
-
-
-
-
-
-#### 1
-
-2.5 gigabits per second
-
-All other values are reserved.
-
-
-### -field DUMMYSTRUCTNAME.MaximumLinkWidth
-
-The maximum link width (number of lanes) implemented by the component. Possible values are:
-
-
-
-
-
-#### 1
-
-x1 (1 lane)
-
-
-
-#### 2
-
-x2 (2 lanes)
-
-
-
-#### 4
-
-x4 (4 lanes)
-
-
-
-#### 8
-
-x8 (8 lanes)
-
-
-
-#### 12
-
-x12 (12 lanes)
-
-
-
-#### 16
-
-x16 (16 lanes)
-
-
-
-#### 32
-
-x32 (32 lanes)
-
-All other values are reserved.
-
-
-### -field DUMMYSTRUCTNAME.PortNumber
-
-The PCIe port number for the PCIe link.
-
-
-### -field DUMMYSTRUCTNAME.Rsvd
-
-Reserved.
-
 
 ### -field DUMMYSTRUCTNAME.SurpriseDownErrorReportingCapable
 
@@ -288,6 +265,16 @@ A single bit that indicates that the component supports the optional capability 
 ### -field DUMMYSTRUCTNAME.LinkBandwidthNotificationCapability
 
 ### -field DUMMYSTRUCTNAME.AspmOptionalityCompliance
+
+
+### -field DUMMYSTRUCTNAME.Rsvd
+
+Reserved.
+
+### -field DUMMYSTRUCTNAME.PortNumber
+
+The PCIe port number for the PCIe link.
+
 
 ## -syntax
 
@@ -302,7 +289,9 @@ typedef union _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER {
     ULONG ClockPowerManagement  :1;
     ULONG SurpriseDownErrorReportingCapable  :1;
     ULONG DataLinkLayerActiveReportingCapable  :1;
-    ULONG Rsvd  :3;
+    ULONG LinkBandwidthNotificationCapability:1;
+    ULONG AspmOptionalityCompliance:1;
+    ULONG Rsvd  :1;
     ULONG PortNumber  :8;
   };
   ULONG  AsULONG;
@@ -311,11 +300,12 @@ typedef union _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER {
 
 ## -remarks
 
-The PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
+The **PCI_EXPRESS_LINK_CAPABILITIES_REGISTER** structure is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure is contained in the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a> structure.
+A **PCI_EXPRESS_LINK_CAPABILITIES_REGISTER** structure is contained in the [PCI_EXPRESS_CAPABILITY_REGISTER](ns-ntddk-_pci_express_capability.md) structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a>
+[PCI_EXPRESS_CAPABILITY_REGISTER](ns-ntddk-_pci_express_capability.md)
 
+[PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER](ns-ntddk-pci_express_link_capabilities_2_register.md)
