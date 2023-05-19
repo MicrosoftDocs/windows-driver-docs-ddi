@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The PCI_EXPRESS_LINK_CONTROL_REGISTER structure describes a PCI Express (PCIe) link control register of a PCIe capability structure.
+The **PCI_EXPRESS_LINK_CONTROL_REGISTER** structure describes a PCI Express (PCIe) link control register of a PCIe capability structure.
 
 ## -struct-fields
 
@@ -66,31 +66,28 @@ A USHORT representation of the contents of the PCI_EXPRESS_LINK_CONTROL_REGISTER
 
 The level of active state power management that is enabled on the PCIe link. Possible values are:
 
-
-
-
-
-#### L0sAndL1EntryDisabled
-
-L0s and L1 are both disabled.
-
-
-
-#### L0sEntryEnabled
-
-L0s is enabled.
-
-
-
-#### L1EntryEnabled
-
-L1 is enabled.
-
-
-
-#### L0sAndL1EntryEnabled
-
-L0s and L1 are both enabled.
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><b>L0sAndL1EntryDisabled</b></td>
+<td>L0s and L1 are both disabled.</td>
+</tr>
+<tr>
+<td><b>L0sEntryEnabled</b></td>
+<td>L0s is enabled.</td>
+</tr>
+<tr>
+<td><b>L1EntryEnabled</b></td>
+<td>L1 is enabled.</td>
+</tr>
+<tr>
+<td><b>L0sAndL1EntryEnabled</b></td>
+<td>L0s and L1 are both enabled.</td>
+</tr>
+</table>
 
 
 ### -field DUMMYSTRUCTNAME.CommonClockConfig
@@ -126,7 +123,6 @@ A single bit that is used to initiate retraining of the link. Reads of this bit 
 ### -field DUMMYSTRUCTNAME.Rsvd1
 
 Reserved.
-
 
 ### -field DUMMYSTRUCTNAME.Rsvd2
 

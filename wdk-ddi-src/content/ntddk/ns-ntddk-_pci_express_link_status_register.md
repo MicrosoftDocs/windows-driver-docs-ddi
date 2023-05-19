@@ -90,7 +90,7 @@ A single bit that indicates that the data link control and management state mach
 
 ### -field DUMMYSTRUCTNAME.LinkSpeed
 
-The negotiated link speed of the PCIe link.  Possible values are:
+The negotiated link speed of the PCIe link. The encoded value specifies a Bit Location in the SupportedLinkSpeedsVector (Link Capabilities 2 Register) that corresponds to the negotiated link speed. Supported values are:
 
 <table>
 <tr>
@@ -99,11 +99,23 @@ The negotiated link speed of the PCIe link.  Possible values are:
 </tr>
 <tr>
 <td><b>1</b></td>
-<td>2.5 gigabits per second.</td>
+<td>2.5 GT/s (SupportedLinkSpeedsVector field bit 0)</td>
 </tr>
 <tr>
 <td><b>2</b></td>
-<td>5.0 gigabits per second.</td>
+<td>5.0 GT/s (SupportedLinkSpeedsVector field bit 1)</td>
+</tr>
+<tr>
+<td><b>3</b></td>
+<td>8.0 GT/s (SupportedLinkSpeedsVector field bit 2)</td>
+</tr>
+<tr>
+<td><b>4</b></td>
+<td>16.0 GT/s (SupportedLinkSpeedsVector field bit 3)</td>
+</tr>
+<tr>
+<td><b>5</b></td>
+<td>32.0 GT/s (SupportedLinkSpeedsVector field bit 4)</td>
 </tr>
 <tr>
 <td>All other values</td>

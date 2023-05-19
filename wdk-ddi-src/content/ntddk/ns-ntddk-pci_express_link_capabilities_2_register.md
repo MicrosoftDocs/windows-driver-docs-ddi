@@ -46,29 +46,61 @@ helpviewer_keywords:
 
 ## -description
 
-This topic describes the **PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER** union.
+The **PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER** structure describes a PCI Express (PCIe) link capabilities 2 register of a PCIe capability structure. This is an extension of the PCIe link capabilities register.
 
 ## -struct-fields
 
 ### -field DUMMYSTRUCTNAME
 
-Defines the **DUMMYSTRUCTNAME** structure.
-
 ### -field DUMMYSTRUCTNAME.Rsvd0
 
-Defines the **ULONG** member **Rsvd0**.
+Reserved.
 
 ### -field DUMMYSTRUCTNAME.SupportedLinkSpeedsVector
 
-Defines the **ULONG** member **SupportedLinkSpeedsVector**.
+Indicates the supported link speeds of the PCIe link. For each bit position, a value of 1b indicates that the corresponding link speed is supported; otherwise, that speed is not supported. Note that this field is preferred as the source of truth over the **MaximumLinkSpeed** field in a **PCI_EXPRESS_LINK_CAPABILITIES_REGISTER**.
+
+Bit definitions within this field with the corresponding link speed are:
+
+<table>
+<tr>
+<th>Bit Position</th>
+<th>Supported Link Speed</th>
+</tr>
+<tr>
+<td><b>0</b></td>
+<td>2.5 GT/s</td>
+</tr>
+<tr>
+<td><b>1</b></td>
+<td>5.0 GT/s</td>
+</tr>
+<tr>
+<td><b>2</b></td>
+<td>8.0 GT/s</td>
+</tr>
+<tr>
+<td><b>3</b></td>
+<td>16.0 GT/s</td>
+</tr>
+<tr>
+<td><b>4</b></td>
+<td>32.0 GT/s</td>
+</tr>
+<tr>
+<td><b>All other bit positions</b></td>
+<td>Reserved</td>
+</tr>
+</table>
+
 
 ### -field DUMMYSTRUCTNAME.Rsvd8_31
 
-Defines the **ULONG** member **Rsvd8_31**.
+Reserved.
 
 ### -field AsULONG
 
-Defines the **ULONG** member **AsULONG**.
+A **ULONG** representation of the contents of the **PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER** structure.
 
 ## -remarks
 

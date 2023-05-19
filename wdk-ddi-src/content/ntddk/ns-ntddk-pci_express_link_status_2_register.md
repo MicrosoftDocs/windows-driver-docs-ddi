@@ -46,22 +46,19 @@ helpviewer_keywords:
 
 ## -description
 
-This topic describes the **PCI_EXPRESS_LINK_STATUS_2_REGISTER** union.
+**PCI_EXPRESS_LINK_STATUS_2_REGISTER** describes a PCI Express (PCIe) link status 2 register of a PCIe capability structure. Currently, all fields are reserved and not supported in Windows.
 
 ## -struct-fields
 
 ### -field DUMMYSTRUCTNAME
 
-Defines the **DUMMYSTRUCTNAME** structure.
-
 ### -field DUMMYSTRUCTNAME.Rsvd0_15
-
-Defines the **USHORT** member **Rsvd0_15**.
 
 ### -field AsUSHORT
 
-Defines the **USHORT** member **AsUSHORT**.
+A USHORT representation of the contents of the PCI_EXPRESS_LINK_STATUS_2_REGISTER structure.
 
 ## -remarks
 
 ## -see-also
+
