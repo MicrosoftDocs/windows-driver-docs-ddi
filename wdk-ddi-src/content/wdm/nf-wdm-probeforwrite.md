@@ -69,7 +69,7 @@ Specifies the required alignment, in bytes, of the beginning of the user-mode bu
 > [!WARNING]
 > The **ProbeForWrite** function is not recommended for use in current software, and is included for historical compatibility only. Use [**ProbeForRead**](./nf-wdm-probeforread.md) instead when validating user buffers.
 
-This function typically provides no substantial benefit over [**ProbeForRead**](./nf-wdm-probeforread.md) because a robust driver must always be prepared to handle protection changes in the user mode virtual address space, including protection changes that remove write permission to a buffer passed to a driver after a **ProbeForWrite** call has executed.  Because **ProbeForWrite** accesses each page in the supplied buffer, performance may be reduced due to the overhead of accessing each page, especially if the supplied buffer describes a large region of virtual address space.  In addition, because each page is written to by **ProbeForWrite**, the same buffer may not be safely used concurrently with multiple driver requests.  For these reasons, new driver code should always use **ProbeForRead** instead.
+This function typically provides no substantial benefit over [**ProbeForRead**](./nf-wdm-probeforread.md) because a robust driver must always be prepared to handle protection changes in the user mode virtual address space, including protection changes that remove write permission to a buffer passed to a driver after a **ProbeForWrite** call has executed.  Because **ProbeForWrite** accesses each page in the supplied buffer, performance may be reduced due to the overhead of accessing each page, especially if the supplied buffer describes a large region of virtual address space.  In addition, because **ProbeForWrite** writes to each page, the same buffer may not be used safely  with multiple concurrent driver requests.  For these reasons, new driver code should always use **ProbeForRead** instead.
 
 The following table outlines the properties of each kernel mode buffer probing routine:
 
@@ -82,7 +82,7 @@ The following table outlines the properties of each kernel mode buffer probing r
 |Accesses each page in the buffer (additional overhead)| |x|
 |Modifies each page in the buffer (may cause unexpected behavior if same buffer is used in parallel with multiple driver requests)| |x|
 
-Historically, on certain processors which did not honor read only permissions for kernel mode code, there were meaningful functional differences between **ProbeForWrite** and **ProbeForRead**.  In these cases, the operating system previously relied on **ProbeForWrite*** performing an explicit paging writability check.  This distinction is no longer meaningful for any processors that are supported by Windows NT 4.0 (or later) operating system versions.
+Historically, on certain processors which did not honor read only permissions for kernel mode code, there were meaningful functional differences between **ProbeForWrite** and **ProbeForRead**.  In these cases, the operating system previously relied on **ProbeForWrite** performing an explicit paging writability check.  This distinction is no longer meaningful for any processors that are supported by Windows NT 4.0 or later.
 
 ### Legacy remarks
 
