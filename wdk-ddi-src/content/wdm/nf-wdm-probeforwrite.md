@@ -45,6 +45,9 @@ api_name:
 
 ## -description
 
+> [!WARNING]
+> The **ProbeForWrite** function is not recommended for use in current software, and is included for historical compatibility only. Use [**ProbeForRead**](./nf-wdm-probeforread.md) instead when validating user buffers. See Remarks for more info.
+
 The <b>ProbeForWrite</b> routine checks that a user-mode buffer actually resides in the user-mode portion of the address space, is writable, and is correctly aligned.
 
 ## -parameters
@@ -65,9 +68,6 @@ Specifies the length, in bytes, of the user-mode buffer. See additional informat
 Specifies the required alignment, in bytes, of the beginning of the user-mode buffer.
 
 ## -remarks
-
-> [!WARNING]
-> The **ProbeForWrite** function is not recommended for use in current software, and is included for historical compatibility only. Use [**ProbeForRead**](./nf-wdm-probeforread.md) instead when validating user buffers.
 
 This function typically provides no substantial benefit over [**ProbeForRead**](./nf-wdm-probeforread.md) because a robust driver must always be prepared to handle protection changes in the user mode virtual address space, including protection changes that remove write permission to a buffer passed to a driver after a **ProbeForWrite** call has executed.  Because **ProbeForWrite** accesses each page in the supplied buffer, performance may be reduced due to the overhead of accessing each page, especially if the supplied buffer describes a large region of virtual address space.  In addition, because **ProbeForWrite** writes to each page, the same buffer may not be used safely  with multiple concurrent driver requests.  For these reasons, new driver code should always use **ProbeForRead** instead.
 
