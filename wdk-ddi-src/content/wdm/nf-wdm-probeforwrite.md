@@ -66,11 +66,13 @@ Specifies the required alignment, in bytes, of the beginning of the user-mode bu
 
 ## -remarks
 
+Kernel-mode drivers may use <b>ProbeForWrite</b> to validate write access to buffers allocated in user space. It is most commonly used during METHOD_NEITHER I/O to validate the user buffer pointed to by <b>Irp->UserBuffer</b>.
+
 If the specified range of memory is not a valid user-mode address range or is not writable (no access, read-only, and so on), <b>ProbeForWrite</b> raises the STATUS_ACCESS_VIOLATION exception. If the beginning of the address range is not aligned on the byte boundary that is specified by <i>Alignment</i>, <b>ProbeForWrite</b> raises the STATUS_DATATYPE_MISALIGNMENT exception. 
 
-Kernel-mode drivers must use <b>ProbeForWrite</b> to validate write access to buffers allocated in user space. It is most commonly used during METHOD_NEITHER I/O to validate the user buffer pointed to by <b>Irp->UserBuffer</b>.
-
 Drivers must call <b>ProbeForWrite</b> inside a <b>try/except</b> block. If the routine raises an exception, the driver should complete the IRP with the appropriate error. Note that subsequent accesses by the driver to the user-mode buffer must also be encapsulated within a <b>try/except</b> block: a malicious application could have another thread deleting, substituting, or changing the protection of user address ranges at any time (even after or during a call to <b>ProbeForRead</b> or <b>ProbeForWrite</b>). For more information, see <a href="/windows-hardware/drivers/kernel/handling-exceptions">Handling Exceptions</a>.
+
+Each virtual memory page of the buffer range is tested for write. This adds overhead to each kernel call and can cause performance problems if, for instance, the entire range of the buffer is not actually going to be used during a kernel request. Because of this, and because the status of the virtual memory pages can change after <b>ProbeForWrite</b>, use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-probeforread">ProbeForRead</a> instead to avoid this overhead.
 
 Do not use this routine on kernel-mode addresses; it will raise an exception.
 
