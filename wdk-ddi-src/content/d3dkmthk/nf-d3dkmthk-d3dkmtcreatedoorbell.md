@@ -2,7 +2,7 @@
 UID: NF:d3dkmthk.D3DKMTCreateDoorbell
 tech.root: display
 title: D3DKMTCreateDoorbell
-ms.date: 05/05/2023
+ms.date: 05/22/2023
 targetos: Windows
 description: Learn more about the D3DKMTCreateDoorbell function.
 prerelease: true
