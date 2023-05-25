@@ -1,9 +1,9 @@
 ---
 UID: NS:d3dkmdt._DXGK_NODEMETADATA
-title: _DXGK_NODEMETADATA
-description: Contains the engine type and friendly name of an engine on a GPU node.
+title: DXGK_NODEMETADATA
+description: Learn more about the DXGK_NODEMETADATA structure.
 tech.root: display
-ms.date: 02/01/2019
+ms.date: 05/22/2023
 keywords: ["DXGK_NODEMETADATA structure"]
 ms.keywords: _DXGK_NODEMETADATA, DXGK_NODEMETADATA, DXGKARG_GETNODEMETADATA
 req.header: d3dkmdt.h
@@ -38,55 +38,52 @@ product:
  - Windows
 ---
 
-# _DXGK_NODEMETADATA structure
-
+# DXGK_NODEMETADATA structure
 
 ## -description
 
-Contains the engine type and friendly name of an engine on a GPU node
+The **DXGK_NODEMETADATA** structure describes an engine on a GPU node.
 
 ## -struct-fields
 
 ### -field EngineType
 
-The engine type, specified as a value in the [DXGK_ENGINE_TYPE](ne-d3dkmdt-dxgk_engine_type.md) enumeration.
+A [**DXGK_ENGINE_TYPE**](ne-d3dkmdt-dxgk_engine_type.md) enumeration value that indicates the engine type.
 
 ### -field FriendlyName
 
 A NULL-terminated string that represents a descriptive friendly name for a particular engine.
 
-The display miniport driver must provide a value for this member if the engine type is **DXGK_ENGINE_TYPE_OTHER**. Otherwise, this value should not be set and should be an empty, NULL-terminated string.
+The display miniport driver (KMD) must provide a value for this member if **EngineType** is **DXGK_ENGINE_TYPE_OTHER**. Otherwise, KMD should set this value to be an empty, NULL-terminated string.
 
-This member does not need to be localized and can be represented with an EN-US string value.
+This member doesn't need to be localized and can be represented with an EN-US string value.
 
 ### -field Flags
 
-Supported starting in WDDM 2.2. A [DXGK_NODEMETADATA_FLAGS](ns-d3dkmdt-_dxgk_nodemetadata_flags.md) enumeration value.
+A bit field of [**DXGK_NODEMETADATA_FLAGS**](ns-d3dkmdt-_dxgk_nodemetadata_flags.md) values that describe the engine's metadata. This member is available starting in WDDM 2.2.
 
 ### -field Reserved
 
-Reserved for system use and must have a value of 0.
+Reserved for system use.
 
 ### -field GpuMmuSupported
 
-Indicates whether the graphics engines of the node support the GpuMmu model
+A Boolean value that indicates whether the graphics engines of the node support the [GpuMmu model](/windows-hardware/drivers/display/gpummu-model). Available starting in WDDM 2.0.
 
 ### -field IoMmuSupported
 
- 
-Indicates whether the graphics engines of the node support the IoMmu model.
+A Boolean value that indicates whether the graphics engines of the node support the [IoMmu model](/windows-hardware/drivers/display/iommu-model). Available starting in WDDM 2.0.
 
 ## -remarks
 
-This structure is also used to define the structure DXGKARG_GETNODEMETADATA, in the call to [DXGKDDI_GETNODEMETADATA](../d3dkmddi/nc-d3dkmddi-dxgkddi_getnodemetadata.md).
+This structure is used to define the structure **DXGKARG_GETNODEMETADATA**, in the call to KMD's [**DXGKDDI_GETNODEMETADATA**](../d3dkmddi/nc-d3dkmddi-dxgkddi_getnodemetadata.md).
 
 For more information on how to use this structure, see [Enumerating GPU engine capabilities](/windows-hardware/drivers/display/enumerating-gpu-nodes).
 
 ## -see-also
 
-[DXGK_ENGINE_TYPE](ne-d3dkmdt-dxgk_engine_type.md) 
+[**DXGK_ENGINE_TYPE**](ne-d3dkmdt-dxgk_engine_type.md)
 
-[DXGK_NODEMETADATA_FLAGS](ns-d3dkmdt-_dxgk_nodemetadata_flags.md) 
+[**DXGK_NODEMETADATA_FLAGS**](ns-d3dkmdt-_dxgk_nodemetadata_flags.md)
 
-[DXGKDDI_GETNODEMETADATA](../d3dkmddi/nc-d3dkmddi-dxgkddi_getnodemetadata.md)
-
+[**DXGKDDI_GETNODEMETADATA**](../d3dkmddi/nc-d3dkmddi-dxgkddi_getnodemetadata.md)
