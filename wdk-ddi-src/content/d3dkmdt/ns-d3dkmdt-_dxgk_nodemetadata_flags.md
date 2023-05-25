@@ -79,6 +79,6 @@ An alternative way to access the structure members.
 
 [**DXGK_NODEMETADATA**](ns-d3dkmdt-_dxgk_nodemetadata.md)
 
-[**DXGKARG_GETNODEMETADATA**](../d3dkmddi/ns-d3dkmddi-_dxgkarg_getnodemetadata.md)
+[**DXGKARG_GETNODEMETADATA**](ns-d3dkmdt-_dxgk_nodemetadata)
 
 [**DXGKDDI_GETNODEMETADATA**](../d3dkmddi/nc-d3dkmddi-dxgkddi_getnodemetadata.md)
