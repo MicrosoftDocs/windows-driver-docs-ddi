@@ -9,7 +9,7 @@ ms.keywords: DXGK_DEVICEINFO, DXGK_DEVICEINFO structure [Display Devices], DmStr
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

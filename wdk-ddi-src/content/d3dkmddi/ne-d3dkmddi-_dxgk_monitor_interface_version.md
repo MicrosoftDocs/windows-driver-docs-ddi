@@ -9,7 +9,7 @@ ms.keywords: DXGK_MONITOR_INTERFACE_VERSION, DXGK_MONITOR_INTERFACE_VERSION enum
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -58,7 +58,7 @@ Indicates that a variable of type DXGK_MONITOR_INTERFACE_VERSION has not yet bee
 
 ### -field DXGK_MONITOR_INTERFACE_VERSION_V1
 
-Indicates version 1, available in Windows Vista and later versions of the Windows operating systems.
+Indicates version 1, Windows Vista
 
 ### -field DXGK_MONITOR_INTERFACE_VERSION_V2
 
