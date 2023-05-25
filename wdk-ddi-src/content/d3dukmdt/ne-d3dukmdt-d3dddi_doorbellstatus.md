@@ -62,10 +62,10 @@ Indicates that the doorbell won't be connected and UMD can't use this hardware q
 
 ## -see-also
 
-[**DXGKARG_CONNECTDOORBELL**](ns-d3dkmddi-dxgkarg_connectdoorbell.md)
+[**DXGKARG_CONNECTDOORBELL**](../d3dkmddi/ns-d3dkmddi-dxgkarg_connectdoorbell.md)
 
-[**DXGKARG_DISCONNECTDOORBELL**](ns-d3dkmddi-dxgkarg_disconnectdoorbell.md)
+[**DXGKARG_DISCONNECTDOORBELL**](../d3dkmddi/ns-d3dkmddi-dxgkarg_disconnectdoorbell.md)
 
-[**DxgkDdiConnectDoorbell**](nc-d3dkmddi-dxgkddi_connectdoorbell.md)
+[**DxgkDdiConnectDoorbell**](../d3dkmddi/nc-d3dkmddi-dxgkddi_connectdoorbell.md)
 
-[**DxgkDdiDisconnectDoorbell**](nc-d3dkmddi-dxgkddi_disconnectdoorbell.md)
+[**DxgkDdiDisconnectDoorbell**](../d3dkmddi/nc-d3dkmddi-dxgkddi_disconnectdoorbell.md)

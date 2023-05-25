@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **DXGKARG_CONNECTDOORBELL_FLAGS** structure specifies doorbell connection flags for [**DxgkDdiConnectDoorbell**](ns-d3dkmddi-dxgkddi_connectdoorbell.md).
+The **DXGKARG_CONNECTDOORBELL_FLAGS** structure specifies doorbell connection flags for [**DxgkDdiConnectDoorbell**](nc-d3dkmddi-dxgkddi_connectdoorbell.md).
 
 ## -struct-fields
 
@@ -62,8 +62,8 @@ An alternative way to access the structure members.
 
 ## -see-also
 
-[**D3DKMT_CREATE_DOORBELL**](nf-d3dkmthk-d3dkmtcreatedoorbell.md)
+[**D3DKMT_CREATE_DOORBELL**](../d3dkmthk/nf-d3dkmthk-d3dkmtcreatedoorbell.md)
 
 [**DXGKARG_CONNECTDOORBELL**](ns-d3dkmddi-dxgkarg_connectdoorbell.md)
 
-[**DxgkDdiConnectDoorbell**](ns-d3dkmddi-dxgkddi_connectdoorbell.md)
+[**DxgkDdiConnectDoorbell**](nc-d3dkmddi-dxgkddi_connectdoorbell.md)

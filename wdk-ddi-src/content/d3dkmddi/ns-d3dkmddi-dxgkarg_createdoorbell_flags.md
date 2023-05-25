@@ -50,7 +50,7 @@ The **DXGKARG_CREATEDOORBELL_FLAGS** structure specifies doorbell creation flags
 
 ### -field ResizeRingBufferOperation
 
-Indication from UMD to KMD that a doorbell is being recreated for this hardware queue with a new, resized [**hRingBuffer**](d3dkmddi\ns-d3dkmddi-dxgkarg_createdoorbell.md) ring buffer.
+Indication from UMD to KMD that a doorbell is being recreated for this hardware queue with a new, resized [**hRingBuffer**](ns-d3dkmddi-dxgkarg_createdoorbell.md) ring buffer.
 
 ### -field Reserved
 
@@ -62,6 +62,6 @@ An alternative way to access the structure members.
 
 ## -see-also
 
-[**DXGKARG_CREATEDOORBELL**](d3dkmddi\ns-d3dkmddi-dxgkarg_createdoorbell.md)
+[**DXGKARG_CREATEDOORBELL**](ns-d3dkmddi-dxgkarg_createdoorbell.md)
 
-[**DxgkDdiCreateDoorbell**](ns-d3dkmddi-dxgkddi_createdoorbell.md)
+[**DxgkDdiCreateDoorbell**](nc-d3dkmddi-dxgkddi_createdoorbell.md)

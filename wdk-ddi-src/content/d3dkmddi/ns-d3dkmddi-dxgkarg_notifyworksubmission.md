@@ -50,7 +50,7 @@ The **DXGKARG_NOTIFYWORKSUBMISSION** structure contains parameters for [**DxgkDd
 
 ### -field hHwQueue
 
-[in] Handle to a KMD hardware queue object, which was created in a previous call to KMD's [**DxgkDdiCreateHwQueue**](ns-d3dkmddi-dxgkddi_createhwqueue.md) callback function.
+[in] Handle to a KMD hardware queue object, which was created using [**D3DKMTCreateHwQueue**](../d3dkmthk/nf-d3dkmthk-d3dkmtcreatehwqueue.md).
 
 ### -field Flags
 

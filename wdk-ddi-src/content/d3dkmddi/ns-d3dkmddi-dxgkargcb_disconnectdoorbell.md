@@ -50,7 +50,7 @@ The **DXGKARGCB_DISCONNECTDOORBELL** structure contains parameters for [**DXGKCB
 
 ### -field hHwQueue
 
-[in] KMD handle to the hardware queue object whose doorbell must be disconnected. This handle was previously created using [**DxgkDdiCreateHwQueue**](ns-d3dkmddi-dxgkddi_createhwqueue.md).
+[in] KMD handle to the hardware queue object whose doorbell must be disconnected. This handle was previously created using [**D3DKMTCreateHwQueue**](../d3dkmthk/nf-d3dkmthk-d3dkmtcreatehwqueue.md).
 
 ### -field Flags
 

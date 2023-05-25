@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **DXGKARG_DESTROYDOORBELL** structure contains parameters for [**DxgkDdiDestroyDoorbell**](ns-d3dkmddi-dxgkddi_destroydoorbell.md).
+The **DXGKARG_DESTROYDOORBELL** structure contains parameters for [**DxgkDdiDestroyDoorbell**](nc-d3dkmddi-dxgkddi_destroydoorbell.md).
 
 ## -struct-fields
 
@@ -56,4 +56,4 @@ The **DXGKARG_DESTROYDOORBELL** structure contains parameters for [**DxgkDdiDest
 
 [**DxgkDdiCreateDoorbell**](nc-d3dkmddi-dxgkddi_createdoorbell.md)
 
-[**DxgkDdiDestroyDoorbell**](ns-d3dkmddi-dxgkddi_destroydoorbell.md)
+[**DxgkDdiDestroyDoorbell**](nc-d3dkmddi-dxgkddi_destroydoorbell.md)

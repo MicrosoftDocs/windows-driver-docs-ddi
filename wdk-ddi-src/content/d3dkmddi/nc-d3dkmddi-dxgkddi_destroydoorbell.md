@@ -58,7 +58,7 @@ The **DxgkDdiDestroyDoorbell** function destroys a previously created doorbell o
 
 ## -remarks
 
-The OS calls KMD's **DxgkDdiDestroyDoorbell** when UMD calls [**D3DKMTDestroyDoorbell**](../d3dkmthk/nf-d3dkmthk-d3dkmt_destroy_doorbell.md).
+The OS calls KMD's **DxgkDdiDestroyDoorbell** when UMD calls [**D3DKMTDestroyDoorbell**](../d3dkmthk/nf-d3dkmthk-d3dkmtdestroydoorbell.md).
 
 KMD should disconnect the physical doorbell location and destroy its doorbell objects.
 

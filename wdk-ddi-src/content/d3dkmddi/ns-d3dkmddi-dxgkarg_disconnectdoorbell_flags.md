@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **DXGKARG_DISCONNECTDOORBELL_FLAGS** structure specifies doorbell disconnection flags for [**DxgkDdiDisconnectDoorbell**](ns-d3dkmddi-dxgkddi_disconnectdoorbell.md).
+The **DXGKARG_DISCONNECTDOORBELL_FLAGS** structure specifies doorbell disconnection flags for [**DxgkDdiDisconnectDoorbell**](nc-d3dkmddi-dxgkddi_disconnectdoorbell.md).
 
 ## -struct-fields
 

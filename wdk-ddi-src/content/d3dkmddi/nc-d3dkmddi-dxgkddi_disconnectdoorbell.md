@@ -71,10 +71,10 @@ On return from this DDI call, *Dxgkrnl* does the following steps to disconnect t
 
 [**D3DDDI_DOORBELLSTATUS**](../d3dukmdt/ne-d3dukmdt-d3dddi_doorbellstatus.md)
 
-[**D3DKMT_CREATE_DOORBELL**](ns-d3dkmthk-d3dkmt_create_doorbell.md)
+[**D3DKMT_CREATE_DOORBELL**](../d3dkmthk/ns-d3dkmthk-d3dkmt_create_doorbell.md)
 
 [**DXGKARG_DISCONNECTDOORBELL**](ns-d3dkmddi-dxgkarg_disconnectdoorbell.md)
 
 [**DxgkDdiConnectDoorbell**](nc-d3dkmddi-dxgkddi_connectdoorbell.md)
 
-[**DxgkDdiDisconnectDoorbellCB**](nc-d3dkmddi-dxgkddi_disconnectdoorbellcb.md)
+[**DxgkDdiDisconnectDoorbellCB**](nc-d3dkmddi-dxgkcb_disconnectdoorbell.md)

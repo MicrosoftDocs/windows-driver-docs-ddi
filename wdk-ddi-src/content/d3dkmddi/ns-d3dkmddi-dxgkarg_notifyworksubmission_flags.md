@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **DXGKARG_NOTIFYWORKSUBMISSION_FLAGS** structure specifies work submission flags for [**DxgkDdiNotifyWorkSubmission**](ns-d3dkmddi-dxgkddi_notifyworksubmission.md).
+The **DXGKARG_NOTIFYWORKSUBMISSION_FLAGS** structure specifies work submission flags for [**DxgkDdiNotifyWorkSubmission**](nc-d3dkmddi-dxgkddi_notifyworksubmission.md).
 
 ## -struct-fields
 

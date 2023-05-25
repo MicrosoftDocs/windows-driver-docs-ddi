@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - d3dkmthk.h
 api_name:
@@ -68,7 +68,7 @@ When UMD calls **D3DKMTCreateDoorbell**, the OS makes a corresponding call to KM
 
 [**D3DKMT_CREATE_DOORBELL**](ns-d3dkmthk-d3dkmt_create_doorbell.md)
 
-[**DxgkDdiConnectDoorbell**](../d3dkmddi/nc-d3dkmddi-dxgkddi_connectoorbell.md)
+[**DxgkDdiConnectDoorbell**](../d3dkmddi/nc-d3dkmddi-dxgkddi_connectdoorbell.md)
 
 [**DxgkDdiCreateDoorbell**](../d3dkmddi/nc-d3dkmddi-dxgkddi_createdoorbell.md)
 

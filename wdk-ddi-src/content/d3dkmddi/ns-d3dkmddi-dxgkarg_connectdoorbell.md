@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **DXGKARG_CONNECTDOORBELL** structure contains parameters for [**DxgkDdiConnectDoorbell**](ns-d3dkmddi-dxgkddi_connectdoorbell.md).
+The **DXGKARG_CONNECTDOORBELL** structure contains parameters for [**DxgkDdiConnectDoorbell**](nc-d3dkmddi-dxgkddi_connectdoorbell.md).
 
 ## -struct-fields
 
@@ -76,4 +76,4 @@ The **DXGKARG_CONNECTDOORBELL** structure contains parameters for [**DxgkDdiConn
 
 [**DXGKARG_CONNECTDOORBELL_FLAGS**](ns-d3dkmddi-dxgkarg_connectdoorbell_flags.md)
 
-[**DxgkDdiConnectDoorbell**](ns-d3dkmddi-dxgkddi_connectdoorbell.md)
+[**DxgkDdiConnectDoorbell**](nc-d3dkmddi-dxgkddi_connectdoorbell.md)

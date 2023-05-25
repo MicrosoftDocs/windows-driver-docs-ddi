@@ -58,7 +58,7 @@ The OS calls KMD's **DxgkDdiCreateDoorbell** callback function to create a doorb
 
 ## -remarks
 
-When UMD calls [**D3DKMTCreateDoorbell**](../d3dkmthk/d3dkmtcreatedoorbell.md) to create a doorbell for a hardware queue, the OS makes a corresponding **DxgkDdiCreateDoorbell** call to KMD so that KMD can initialize its doorbell structures.
+When UMD calls [**D3DKMTCreateDoorbell**](../d3dkmthk/nf-d3dkmthk-d3dkmtcreatedoorbell.md) to create a doorbell for a hardware queue, the OS makes a corresponding **DxgkDdiCreateDoorbell** call to KMD so that KMD can initialize its doorbell structures.
 
 KMD's **DxgkDdiCreateDoorbell** function should only create and initialize its doorbell data structures. It should not assign a physical doorbell location to this doorbell object yet as that is done during a subsequent call to [**DxgkDdiConnectDoorbell**](nc-d3dkmddi-dxgkddi_connectdoorbell.md). This lazy assignment ensures that a physical doorbell is not used up during hardware queue and doorbell creation, only to go wasted in the event that UMD never submits commands to it or starts submitting commands at a later time. In this way, physical doorbells are used only when actually required.
 
@@ -66,7 +66,7 @@ KMD's **DxgkDdiCreateDoorbell** function should only create and initialize its d
 
 [**DXGKARG_CREATEDOORBELL**](ns-d3dkmddi-dxgkarg_createdoorbell.md)
 
-[**D3DKMTCreateDoorbell**](../d3dkmthk/d3dkmtcreatedoorbell.md)
+[**D3DKMTCreateDoorbell**](../d3dkmthk/nf-d3dkmthk-d3dkmtcreatedoorbell.md)
 
 [**DxgkDdiConnectDoorbell**](nc-d3dkmddi-dxgkddi_connectdoorbell.md)
 

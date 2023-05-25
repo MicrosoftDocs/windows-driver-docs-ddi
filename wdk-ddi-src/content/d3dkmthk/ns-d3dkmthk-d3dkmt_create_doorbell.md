@@ -99,7 +99,7 @@ This address remains constant over the lifetime of the doorbell, even if the und
 
 Only the OS writes to and updates this status memory:
 
-* On successful return from [**DxgkDdiConnectDoorbell**](../d3dkmddi/nc-d3dkmddi-dxgkddi_connectoorbell.md), the OS writes the status as D3DDDI_DOORBELL_STATUS_CONNECTED.
+* On successful return from [**DxgkDdiConnectDoorbell**](../d3dkmddi/nc-d3dkmddi-dxgkddi_connectdoorbell.md), the OS writes the status as D3DDDI_DOORBELL_STATUS_CONNECTED.
 * If the OS disconnects the doorbell as part of suspending the hardware queue or powering down the GPU, it calls KMD's **DxgkDdiDisconnectDoorbell** and then writes the status as D3DDDI_DOORBELL_STATUS_DISCONNECTED_RETRY.
 * If the KMD wants to disconnect the doorbell for any reason, it calls the [**DxgkDisconnectDoorbellCB**](../d3dkmddi/nc-d3dkmddi-dxgkcb_disconnectdoorbell.md) callback to inform the OS. KMD provides D3DDDI_DOORBELL_STATUS as the status, which the OS writes to this status page.
 * In GPU lost or stopped scenarios, the OS writes D3DDDI_DOORBELL_STATUS_DISCONNECTED_ABORT as the status.
@@ -114,6 +114,6 @@ Only the OS writes to and updates this status memory:
 
 [**D3DKMTCreateDoorbell**](nf-d3dkmthk-d3dkmtcreatedoorbell.md)
 
-[**DxgkDdiConnectDoorbell**](../d3dkmddi/nc-d3dkmddi-dxgkddi_connectoorbell.md)
+[**DxgkDdiConnectDoorbell**](../d3dkmddi/nc-d3dkmddi-dxgkddi_connectdoorbell.md)
 
 [**DxgkDdiCreateDoorbell**](../d3dkmddi/nc-d3dkmddi-dxgkddi_createdoorbell.md)

@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - d3dkmthk.h
 api_name:
@@ -50,7 +50,7 @@ helpviewer_keywords:
 
 ### -param unnamedParam1
 
-[in] Pointer to a [**D3DKMT_DESTROY_DOORBELL**](ns-d3dkmthk-_d3dkmt_destroy_doorbell.md) structure that identifies the hardware queue whose doorbell is to be destroyed.
+[in] Pointer to a [**D3DKMT_DESTROY_DOORBELL**](ns-d3dkmthk-d3dkmt_destroy_doorbell.md) structure that identifies the hardware queue whose doorbell is to be destroyed.
 
 ## -returns
 
@@ -69,6 +69,6 @@ The UMD must not use the handle after calling **D3DKMTDestroyDoorbell**.
 
 ## -see-also
 
-[**D3DKMT_DESTROY_DOORBELL**](ns-d3dkmthk-_d3dkmt_destroy_doorbell.md)
+[**D3DKMT_DESTROY_DOORBELL**](ns-d3dkmthk-d3dkmt_destroy_doorbell.md)
 
 [**D3DKMTCreateDoorbell**](nf-d3dkmthk-d3dkmtcreatedoorbell.md)

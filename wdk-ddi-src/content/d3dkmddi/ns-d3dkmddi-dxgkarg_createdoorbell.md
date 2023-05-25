@@ -44,13 +44,13 @@ helpviewer_keywords:
 
 ## -description
 
-The **DXGKARG_CREATEDOORBELL** structure contains parameters for KMD's [**DxgkDdiCreateDoorbell**](ns-d3dkmddi-dxgkddi_createdoorbell.md) callback function.
+The **DXGKARG_CREATEDOORBELL** structure contains parameters for KMD's [**DxgkDdiCreateDoorbell**](nc-d3dkmddi-dxgkddi_createdoorbell.md) callback function.
 
 ## -struct-fields
 
 ### -field hHwQueue
 
-[in] Handle to a KMD hardware queue object, which was created in a previous call to KMD's [**DxgkDdiCreateHwQueue**](ns-d3dkmddi-dxgkddi_createhwqueue.md) callback function.
+[in] Handle to a KMD hardware queue object, which was created in a previous call to [**D3DKMTCreateHwQueue**](../d3dkmthk/nf-d3dkmthk-d3dkmtcreatehwqueue.md).
 
 ### -field hDoorbell
 
@@ -66,7 +66,7 @@ The **DXGKARG_CREATEDOORBELL** structure contains parameters for KMD's [**DxgkDd
 
 ### -field hRingBuffer
 
-[in] Handle to the ring buffer allocation [previously created](nf-d3dkmthk-d3dkmtcreateallocation.md) by UMD. This allocation is GPU visible and already resident. The [**ResizeRingBufferOperation**](ns-d3dkmddi-dxgkarg_create_doorbell_flags.md) flag is a hint from UMD to KMD that a doorbell is being recreated for this hardware queue with a new, resized ring buffer.
+[in] Handle to the ring buffer allocation [previously created](../d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation.md) by UMD. This allocation is GPU visible and already resident. The [**ResizeRingBufferOperation**](ns-d3dkmddi-dxgkarg_createdoorbell_flags.md) flag is a hint from UMD to KMD that a doorbell is being recreated for this hardware queue with a new, resized ring buffer.
 
 ### -field hRingBufferControl
 
@@ -74,12 +74,12 @@ The **DXGKARG_CREATEDOORBELL** structure contains parameters for KMD's [**DxgkDd
 
 ### -field Flags
 
-A bit field of [**DXGKARG_CREATE_DOORBELL_FLAGS**](ns-d3dkmddi-dxgkarg_create_doorbell_flags.md) values specifying the doorbell creation flags.
+A bit field of [**DXGKARG_CREATEDOORBELL_FLAGS**](ns-d3dkmddi-dxgkarg_createdoorbell_flags.md) values specifying the doorbell creation flags.
 
 ## -see-also
 
-[**D3DKMTCreateAllocation**](nf-d3dkmthk-d3dkmtcreateallocation.md)
+[**D3DKMTCreateAllocation**](../d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation.md)
 
-[**DXGKARG_CREATE_DOORBELL_FLAGS**](ns-d3dkmddi-dxgkarg_create_doorbell_flags.md)
+[**DXGKARG_CREATEDOORBELL_FLAGS**](ns-d3dkmddi-dxgkarg_createdoorbell_flags.md)
 
-[**DxgkDdiCreateDoorbell**](ns-d3dkmddi-dxgkddi_createdoorbell.md)
+[**DxgkDdiCreateDoorbell**](nc-d3dkmddi-dxgkddi_createdoorbell.md)

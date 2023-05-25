@@ -27,7 +27,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - d3dkmthk.h
 api_name:
@@ -49,7 +49,7 @@ helpviewer_keywords:
 
 ### -param unnamedParam1
 
-Pointer to a [**D3DKMT_NOTIFY_WORK_SUBMISSION**](ns-d3dkmthk-_d3dkmt_notify_work_submission.md) structure that identifies the hardware queue on which the work was submitted.
+Pointer to a [**D3DKMT_NOTIFY_WORK_SUBMISSION**](ns-d3dkmthk-d3dkmt_notify_work_submission.md) structure that identifies the hardware queue on which the work was submitted.
 
 ## -returns
 
@@ -65,6 +65,6 @@ See [**DxgkDdiNotifyWorkSubmission**](../d3dkmddi/nc-d3dkmddi-dxgkddi_notifywork
 
 ## -see-also
 
-[**D3DKMT_NOTIFY_WORK_SUBMISSION**](ns-d3dkmthk-_d3dkmt_notify_work_submission.md)
+[**D3DKMT_NOTIFY_WORK_SUBMISSION**](ns-d3dkmthk-d3dkmt_notify_work_submission.md)
 
 [**DxgkDdiNotifyWorkSubmission**](../d3dkmddi/nc-d3dkmddi-dxgkddi_notifyworksubmission.md)
