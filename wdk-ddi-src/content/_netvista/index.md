@@ -31,6 +31,8 @@ This is a complete list of all headers in the WDK for network drivers; headers t
 - [Checksum.h](../checksum/index.md)
 - [Checksumtypes.h](../checksumtypes/index.md)
 - [Encapsulationconfig.h](../encapsulationconfig/index.md)
+- [Exemptionaction.h](../exemptionaction/index.md)
+- [Exemptionactiontypes.h](../exemptionaction/index.md)
 - [Extension.h](../extension/index.md)
 - [Fragment.h](../fragment/index.md)
 - [Fwpmk.h](../fwpmk/index.md)
@@ -214,6 +216,8 @@ Header files that support WiFiCx include the following:
 
 - [Dot11wificxintf.h](../dot11wificxintf/index.md)
 - [Dot11wificxtypes.h](../dot11wificxtypes/index.md)
+- [Exemptionactiontypes.h](../exemptionaction/index.md)
+- [Exemptionaction.h](../exemptionaction/index.md)
 - [Wificx.h](../wificx/index.md)
 - [Wificxpoweroffload.h](../wificxpoweroffload/index.md)
 - [Wificxpoweroffloadlist.h](../wificxpoweroffloadlist/index.md)
