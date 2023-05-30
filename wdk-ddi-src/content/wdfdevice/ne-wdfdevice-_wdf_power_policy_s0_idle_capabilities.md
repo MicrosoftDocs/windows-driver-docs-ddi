@@ -55,7 +55,7 @@ The <b>WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</b> enumeration identifies the capa
 
 ## -enum-fields
 
-### -field IdleCapsInvalid
+### -field IdleCapsInvalid:0
 
 For internal use only.
 

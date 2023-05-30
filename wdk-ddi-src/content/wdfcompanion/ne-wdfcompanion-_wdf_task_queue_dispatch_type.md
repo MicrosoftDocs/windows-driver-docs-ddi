@@ -52,7 +52,7 @@ For internal use only.
 
 ## -enum-fields
 
-### -field WdfTaskQueueDispatchInvalid
+### -field WdfTaskQueueDispatchInvalid:0
 
 ### -field WdfTaskQueueDispatchSequential
 

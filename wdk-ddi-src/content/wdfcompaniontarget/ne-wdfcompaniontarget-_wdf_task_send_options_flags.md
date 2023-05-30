@@ -52,7 +52,7 @@ For internal use only.
 
 ## -enum-fields
 
-### -field WDF_TASK_SEND_OPTION_TIMEOUT
+### -field WDF_TASK_SEND_OPTION_TIMEOUT:0x00000001
 
-### -field WDF_TASK_SEND_OPTION_SYNCHRONOUS
+### -field WDF_TASK_SEND_OPTION_SYNCHRONOUS:0x00000002
 

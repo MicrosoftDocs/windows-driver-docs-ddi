@@ -57,7 +57,7 @@ The <b>WDF_POWER_DEVICE_STATE</b> enumeration identifies the <a href="/windows-h
 
 ## -enum-fields
 
-### -field WdfPowerDeviceInvalid
+### -field WdfPowerDeviceInvalid:0
 
 The device power state is invalid or unknown.
 

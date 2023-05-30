@@ -54,7 +54,7 @@ The WDF_DEVICE_FAILED_ACTION enumeration identifies the action that the framewor
 
 ## -enum-fields
 
-### -field WdfDeviceFailedUndefined
+### -field WdfDeviceFailedUndefined:0
 
 For internal use only.
 

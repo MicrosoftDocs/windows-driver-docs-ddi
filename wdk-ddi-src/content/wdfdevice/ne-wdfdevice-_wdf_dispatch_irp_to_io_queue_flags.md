@@ -54,15 +54,15 @@ The <b>WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS</b> enumeration type defines flags tha
 
 ## -enum-fields
 
-### -field WDF_DISPATCH_IRP_TO_IO_QUEUE_NO_FLAGS
+### -field WDF_DISPATCH_IRP_TO_IO_QUEUE_NO_FLAGS:0x00000000
 
 No flags are set.
 
-### -field WDF_DISPATCH_IRP_TO_IO_QUEUE_INVOKE_INCALLERCTX_CALLBACK
+### -field WDF_DISPATCH_IRP_TO_IO_QUEUE_INVOKE_INCALLERCTX_CALLBACK:0x00000001
 
 Specifies that the framework should call the <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_io_in_caller_context">EvtIoInCallerContext</a> callback function before inserting the request into the queue.
 
-### -field WDF_DISPATCH_IRP_TO_IO_QUEUE_PREPROCESSED_IRP
+### -field WDF_DISPATCH_IRP_TO_IO_QUEUE_PREPROCESSED_IRP:0x00000002
 
 Specifies that the IRP was preprocessed by the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess">EvtDeviceWdmIrpPreprocess</a> callback function.  Accordingly, the framework adjusts the IRP's stack location to the next entry before inserting it into the queue.
 

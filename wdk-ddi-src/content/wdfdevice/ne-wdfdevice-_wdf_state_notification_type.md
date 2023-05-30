@@ -57,23 +57,23 @@ The <b>WDF_STATE_NOTIFICATION_TYPE</b> enumeration identifies the type of Plug a
 
 ## -enum-fields
 
-### -field StateNotificationInvalid
+### -field StateNotificationInvalid:0x0000
 
 For internal use only.
 
-### -field StateNotificationEnterState
+### -field StateNotificationEnterState:0x0001
 
 The driver is notified immediately before a device's Plug and Play, power, or power policy state machine enters a specified state.
 
-### -field StateNotificationPostProcessState
+### -field StateNotificationPostProcessState:0x0002
 
 The driver is notified immediately after a device's Plug and Play, power, or power policy state machine enters a specified state.
 
-### -field StateNotificationLeaveState
+### -field StateNotificationLeaveState:0x0004
 
 The driver is notified immediately before a device's Plug and Play, power, or power policy state machine leaves a specified state.
 
-### -field StateNotificationAllStates
+### -field StateNotificationAllStates:StateNotificationEnterState | StateNotificationPostProcessState | StateNotificationLeaveState
 
 The driver receives enter-state, postprocess-state, and leave-state notifications.
 
