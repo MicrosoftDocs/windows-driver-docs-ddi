@@ -65,7 +65,7 @@ A **ULONG** representation of the contents of the **PCI_EXPRESS_LINK_CAPABILITIE
 
 ### -field DUMMYSTRUCTNAME.MaximumLinkSpeed
 
-The maximum link speed of the PCIe link (when [PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER](ns-ntddk-pci_express_link_capabilities_2_register.md) is not implemented or the value of [SupportedLinkSpeedsVector](ns-ntddk-pci_express_link_capabilities_2_register.md#--field-DUMMYSTRUCTNAME.SupportedLinkSpeedsVector) is 0). If [PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER](ns-ntddk-pci_express_link_capabilities_2_register.md) is implemented, then **SupportedLinkSpeedsVector** is used and **MaximumLinkSpeed** is disregarded on Windows.
+The maximum link speed of the PCIe link (when [PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER](ns-ntddk-pci_express_link_capabilities_2_register.md) is not implemented or the value of [SupportedLinkSpeedsVector](ns-ntddk-pci_express_link_capabilities_2_register.md#members) is 0). If [PCI_EXPRESS_LINK_CAPABILITIES_2_REGISTER](ns-ntddk-pci_express_link_capabilities_2_register.md) is implemented, then **SupportedLinkSpeedsVector** is used and **MaximumLinkSpeed** is disregarded on Windows.
 
 <table>
 <tr>
