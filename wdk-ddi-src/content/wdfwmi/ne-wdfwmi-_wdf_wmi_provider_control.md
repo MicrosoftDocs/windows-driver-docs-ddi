@@ -54,7 +54,7 @@ The <b>WDF_WMI_PROVIDER_CONTROL</b> enumeration defines the type of control func
 
 ## -enum-fields
 
-### -field WdfWmiControlInvalid
+### -field WdfWmiControlInvalid:0
 
 For internal use only.
 

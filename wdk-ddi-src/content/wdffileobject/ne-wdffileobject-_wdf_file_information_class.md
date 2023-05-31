@@ -58,111 +58,111 @@ The <b>WDF_FILE_INFORMATION_CLASS</b> enumeration identifies the types of file i
 
 ## -enum-fields
 
-### -field WdfFileInformationDirectory
+### -field WdfFileInformationDirectory:1
 
-### -field WdfFileInformationFullDirectory
+### -field WdfFileInformationFullDirectory:2
 
-### -field WdfFileInformationBothDirectory
+### -field WdfFileInformationBothDirectory:3
 
-### -field WdfFileInformationBasic
+### -field WdfFileInformationBasic:4
 
-### -field WdfFileInformationStandard
+### -field WdfFileInformationStandard:5
 
-### -field WdfFileInformationInternal
+### -field WdfFileInformationInternal:6
 
-### -field WdfFileInformationEa
+### -field WdfFileInformationEa:7
 
-### -field WdfFileInformationAccess
+### -field WdfFileInformationAccess:8
 
-### -field WdfFileInformationName
+### -field WdfFileInformationName:9
 
-### -field WdfFileInformationRename
+### -field WdfFileInformationRename:10
 
-### -field WdfFileInformationLink
+### -field WdfFileInformationLink:11
 
-### -field WdfFileInformationNames
+### -field WdfFileInformationNames:12
 
-### -field WdfFileInformationDisposition
+### -field WdfFileInformationDisposition:13
 
-### -field WdfFileInformationPosition
+### -field WdfFileInformationPosition:14
 
-### -field WdfFileInformationFullEa
+### -field WdfFileInformationFullEa:15
 
-### -field WdfFileInformationMode
+### -field WdfFileInformationMode:16
 
-### -field WdfFileInformationAlignment
+### -field WdfFileInformationAlignment:17
 
-### -field WdfFileInformationAll
+### -field WdfFileInformationAll:18
 
-### -field WdfFileInformationAllocation
+### -field WdfFileInformationAllocation:19
 
-### -field WdfFileInformationEndOfFile
+### -field WdfFileInformationEndOfFile:20
 
-### -field WdfFileInformationAlternateName
+### -field WdfFileInformationAlternateName:21
 
-### -field WdfFileInformationStream
+### -field WdfFileInformationStream:22
 
-### -field WdfFileInformationPipe
+### -field WdfFileInformationPipe:23
 
-### -field WdfFileInformationPipeLocal
+### -field WdfFileInformationPipeLocal:24
 
-### -field WdfFileInformationPipeRemote
+### -field WdfFileInformationPipeRemote:25
 
-### -field WdfFileInformationMailslotQuery
+### -field WdfFileInformationMailslotQuery:26
 
-### -field WdfFileInformationMailslotSet
+### -field WdfFileInformationMailslotSet:27
 
-### -field WdfFileInformationCompression
+### -field WdfFileInformationCompression:28
 
-### -field WdfFileInformationObjectId
+### -field WdfFileInformationObjectId:29
 
-### -field WdfFileInformationCompletion
+### -field WdfFileInformationCompletion:30
 
-### -field WdfFileInformationMoveCluster
+### -field WdfFileInformationMoveCluster:31
 
-### -field WdfFileInformationQuota
+### -field WdfFileInformationQuota:32
 
-### -field WdfFileInformationReparsePoint
+### -field WdfFileInformationReparsePoint:33
 
-### -field WdfFileInformationNetworkOpen
+### -field WdfFileInformationNetworkOpen:34
 
-### -field WdfFileInformationAttributeTag
+### -field WdfFileInformationAttributeTag:35
 
-### -field WdfFileInformationTracking
+### -field WdfFileInformationTracking:36
 
-### -field WdfFileInformationIdBothDirectory
+### -field WdfFileInformationIdBothDirectory:37
 
-### -field WdfFileInformationIdFullDirectory
+### -field WdfFileInformationIdFullDirectory:38
 
-### -field WdfFileInformationValidDataLength
+### -field WdfFileInformationValidDataLength:39
 
-### -field WdfFileInformationShortName
+### -field WdfFileInformationShortName:40
 
-### -field WdfFileInformationIoCompletionNotification
+### -field WdfFileInformationIoCompletionNotification:41
 
-### -field WdfFileInformationIoStatusBlockRange
+### -field WdfFileInformationIoStatusBlockRange:42
 
-### -field WdfFileInformationIoPriorityHint
+### -field WdfFileInformationIoPriorityHint:43
 
-### -field WdfFileInformationSfioReserve
+### -field WdfFileInformationSfioReserve:44
 
-### -field WdfFileInformationSfioVolume
+### -field WdfFileInformationSfioVolume:45
 
-### -field WdfFileInformationHardLink
+### -field WdfFileInformationHardLink:46
 
-### -field WdfFileInformationProcessIdsUsingFile
+### -field WdfFileInformationProcessIdsUsingFile:47
 
-### -field WdfFileInformationNormalizedName
+### -field WdfFileInformationNormalizedName:48
 
-### -field WdfFileInformationNetworkPhysicalName
+### -field WdfFileInformationNetworkPhysicalName:49
 
-### -field WdfFileInformationIdGlobalTxDirectory
+### -field WdfFileInformationIdGlobalTxDirectory:50
 
-### -field WdfFileInformationIsRemoteDevice
+### -field WdfFileInformationIsRemoteDevice:51
 
-### -field WdfFileInformationAttributeCache
+### -field WdfFileInformationAttributeCache:52
 
-### -field WdfFileInformationMaximum
+### -field WdfFileInformationMaximum:
 
 ## -remarks
 

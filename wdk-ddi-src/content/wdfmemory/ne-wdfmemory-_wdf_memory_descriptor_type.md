@@ -54,7 +54,7 @@ The <b>WDF_MEMORY_DESCRIPTOR_TYPE</b> enumeration identifies the types of memory
 
 ## -enum-fields
 
-### -field WdfMemoryDescriptorTypeInvalid
+### -field WdfMemoryDescriptorTypeInvalid:0
 
 Reserved for internal use only.
 

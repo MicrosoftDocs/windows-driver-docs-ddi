@@ -54,25 +54,25 @@ The <b>WDF_IO_QUEUE_STATE</b> enumeration type identifies the status of a framew
 
 ## -enum-fields
 
-### -field WdfIoQueueAcceptRequests
+### -field WdfIoQueueAcceptRequests:0x01
 
 If set, the I/O queue can accept new I/O requests from the I/O manager and requests that are forwarded by the <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceconfigurerequestdispatching">WdfDeviceConfigureRequestDispatching</a> and <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestforwardtoioqueue">WdfRequestForwardToIoQueue</a> (or <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue">WdfRequestForwardToParentDeviceIoQueue</a>) methods. 
 
 If not set, the framework cancels requests from the I/O manager and <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceconfigurerequestdispatching">WdfDeviceConfigureRequestDispatching</a> and fails requests from <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestforwardtoioqueue">WdfRequestForwardToIoQueue</a> (or <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue">WdfRequestForwardToParentDeviceIoQueue</a>) with STATUS_WDF_BUSY.
 
-### -field WdfIoQueueDispatchRequests
+### -field WdfIoQueueDispatchRequests:0x02
 
 If set, the framework delivers the queue's requests to the driver (unless the <b>WdfIoQueuePnpHeld</b> bit is also set). If not set, the driver cannot obtain requests from the queue.
 
-### -field WdfIoQueueNoRequests
+### -field WdfIoQueueNoRequests:0x04
 
 If set, the I/O queue is empty.
 
-### -field WdfIoQueueDriverNoRequests
+### -field WdfIoQueueDriverNoRequests:0x08
 
 If set, all requests that have been delivered to the driver have been completed.
 
-### -field WdfIoQueuePnpHeld
+### -field WdfIoQueuePnpHeld:0x10
 
 If set, the framework has stopped delivering requests to the driver because the underlying device is not in its working (D0) state.
 

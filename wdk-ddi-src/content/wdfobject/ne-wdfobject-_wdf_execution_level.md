@@ -54,7 +54,7 @@ The WDF_EXECUTION_LEVEL enumeration type specifies the maximum IRQL at which the
 
 ## -enum-fields
 
-### -field WdfExecutionLevelInvalid
+### -field WdfExecutionLevelInvalid:0x00
 
 Reserved for system use.
 

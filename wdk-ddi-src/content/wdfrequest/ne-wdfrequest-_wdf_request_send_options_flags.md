@@ -54,27 +54,27 @@ The <b>WDF_REQUEST_SEND_OPTIONS_FLAGS</b> enumeration type defines flags that ar
 
 ## -enum-fields
 
-### -field WDF_REQUEST_SEND_OPTION_TIMEOUT
+### -field WDF_REQUEST_SEND_OPTION_TIMEOUT:0x00000001
 
 If the driver sets this flag, the <b>Timeout</b> member of the WDF_REQUEST_SEND_OPTIONS structure is valid.
 
-### -field WDF_REQUEST_SEND_OPTION_SYNCHRONOUS
+### -field WDF_REQUEST_SEND_OPTION_SYNCHRONOUS:0x00000002
 
 If the driver sets this flag, the framework handles the associated I/O request synchronously. (The driver does not have to set this flag if it is calling an object method whose name ends with "Synchronously", such as <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendreadsynchronously">WdfIoTargetSendReadSynchronously</a>.)
 
-### -field WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE
+### -field WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE:0x00000004
 
 If the driver sets this flag, the framework sends the I/O request to the I/O target, regardless of the I/O target's state. If not set, the framework queues the request if the target is stopped. Setting this flag allows a driver to send a request, such as a request to reset a USB pipe, to a device after the driver has called <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetstop">WdfIoTargetStop</a>.
 
-### -field WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET
+### -field WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET:0x00000008
 
 If the driver sets this flag, the driver is sending the request asynchronously and does not need to be notified when the request is completed or canceled. The framework sends the I/O request to the I/O target, regardless of the I/O target's state. The driver does not set a <a href="/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function or call <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcomplete">WdfRequestComplete</a> for the request. If the driver sets this flag, it cannot set any other flags. For more information about this flag, see the following Remarks section.
 
-### -field WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT
+### -field WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT:0x00010000
 
 This flag applies to UMDF only. If set, and if the I/O request type is <b>WdfRequestTypeCreate</b>, the <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a> method attempts to pass the client's impersonation level to the driver's I/O target. The <b>WdfRequestSend</b> method returns an error code if the impersonation attempt fails, unless the driver also sets the <b>WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE</b> flag.
 
-### -field WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE
+### -field WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE:0x00020000
 
 This flag applies to UMDF only. If set, the framework still sends the request even if impersonation fails.  You can use this value only with <b>WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT</b>.
 

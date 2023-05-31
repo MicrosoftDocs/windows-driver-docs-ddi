@@ -54,7 +54,7 @@ The <b>WDF_USB_BMREQUEST_RECIPIENT</b> enumeration identifies the data transfer 
 
 ## -enum-fields
 
-### -field BmRequestToDevice
+### -field BmRequestToDevice:0
 
 The data transfer recipient is a device.
 

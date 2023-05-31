@@ -54,7 +54,7 @@ The <b>WDF_USB_BMREQUEST_TYPE</b> enumeration identifies the data transfer type 
 
 ## -enum-fields
 
-### -field BmRequestStandard
+### -field BmRequestStandard:0
 
 The data transfer is a standard USB control transfer.
 
