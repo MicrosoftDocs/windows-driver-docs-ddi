@@ -67,7 +67,7 @@ When the caller will be given shared access to the given push lock depends on th
 
 - If the push lock has already been acquired for exclusive access by another thread or if there is another thread waiting for exclusive access, the current thread is put into a wait state until the push lock can be acquired.
 
-The caller is required call  [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md) before calling **ExAcquirePushLockShared**.
+Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md). Delivery must remain disabled until the push lock is released, at which point it can be reenabled by calling [**KeLeaveCriticalRegion**](../ntddk/nf-ntddk-keleavecriticalregion). For more information, see [Disabling APCs](https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/disabling-apcs).
 
 To acquire a push lock for exclusive access, call [**ExAcquirePushLockExclusive**](nf-wdm-exacquirepushlockexclusive.md).
 
