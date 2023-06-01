@@ -55,7 +55,7 @@ The <b>WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</b> enumeration identifies whether 
 
 ## -enum-fields
 
-### -field WakeUserControlInvalid
+### -field WakeUserControlInvalid:0
 
 For internal use only.
 

@@ -54,7 +54,7 @@ The <b>WDF_REQUEST_FORWARD_OPTIONS_FLAGS</b> enumeration type defines flags that
 
 ## -enum-fields
 
-### -field WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET
+### -field WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET:0x00000001
 
 If set, the driver does not need to be notified when the request is completed or canceled. The driver does not set a <a href="/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function or call <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcomplete">WdfRequestComplete</a> for the request.
 

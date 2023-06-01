@@ -57,7 +57,7 @@ The <b>WDF_USB_REQUEST_TYPE</b> enumeration identifies the types of USB requests
 
 ## -enum-fields
 
-### -field WdfUsbRequestTypeInvalid
+### -field WdfUsbRequestTypeInvalid:0
 
 For internal use only.
 

@@ -54,7 +54,7 @@ The <b>WDF_IO_FORWARD_PROGRESS_ACTION</b> enumeration identifies actions that th
 
 ## -enum-fields
 
-### -field WdfIoForwardProgressActionInvalid
+### -field WdfIoForwardProgressActionInvalid:0x0
 
 For internal use only.
 

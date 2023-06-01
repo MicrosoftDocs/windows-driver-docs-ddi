@@ -57,7 +57,7 @@ The <b>WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS</b> enumeration defines device stat
 
 ## -enum-fields
 
-### -field WdfChildListRetrieveDeviceUndefined
+### -field WdfChildListRetrieveDeviceUndefined:0
 
 ### -field WdfChildListRetrieveDeviceSuccess
 

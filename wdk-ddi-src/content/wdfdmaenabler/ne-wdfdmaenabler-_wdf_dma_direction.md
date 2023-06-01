@@ -54,11 +54,11 @@ The <b>WDF_DMA_DIRECTION</b> enumeration defines the direction of a DMA transfer
 
 ## -enum-fields
 
-### -field WdfDmaDirectionReadFromDevice
+### -field WdfDmaDirectionReadFromDevice:FALSE
 
 The DMA transfer direction is from the device (read).
 
-### -field WdfDmaDirectionWriteToDevice
+### -field WdfDmaDirectionWriteToDevice:TRUE
 
 The DMA transfer direction is to the device (write).
 

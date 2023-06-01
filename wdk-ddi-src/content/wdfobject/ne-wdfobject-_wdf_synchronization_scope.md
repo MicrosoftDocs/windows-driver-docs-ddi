@@ -54,7 +54,7 @@ The WDF_SYNCHRONIZATION_SCOPE enumeration type specifies how the framework will 
 
 ## -enum-fields
 
-### -field WdfSynchronizationScopeInvalid
+### -field WdfSynchronizationScopeInvalid:0x00
 
 Reserved for system use.
 

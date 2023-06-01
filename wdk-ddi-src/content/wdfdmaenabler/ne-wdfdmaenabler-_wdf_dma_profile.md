@@ -54,7 +54,7 @@ The <b>WDF_DMA_PROFILE</b> enumeration identifies the types of bus-master or sys
 
 ## -enum-fields
 
-### -field WdfDmaProfileInvalid
+### -field WdfDmaProfileInvalid:0
 
 For internal use only.
 

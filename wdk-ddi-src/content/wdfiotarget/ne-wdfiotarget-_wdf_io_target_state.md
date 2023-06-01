@@ -58,7 +58,7 @@ The <b>WDF_IO_TARGET_STATE</b> enumeration specifies the states that an I/O targ
 
 ## -enum-fields
 
-### -field WdfIoTargetStateUndefined
+### -field WdfIoTargetStateUndefined:0
 
 Reserved for internal use.
 

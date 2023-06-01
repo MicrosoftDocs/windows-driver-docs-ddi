@@ -54,7 +54,7 @@ The <b>WDF_IO_TARGET_SENT_IO_ACTION</b> enumeration identifies the actions that 
 
 ## -enum-fields
 
-### -field WdfIoTargetSentIoUndefined
+### -field WdfIoTargetSentIoUndefined:0
 
 Reserved for system use.
 

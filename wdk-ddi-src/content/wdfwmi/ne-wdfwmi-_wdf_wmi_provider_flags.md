@@ -54,19 +54,19 @@ The <b>WDF_WMI_PROVIDER_FLAGS</b> enumeration defines configuration flags for a 
 
 ## -enum-fields
 
-### -field WdfWmiProviderEventOnly
+### -field WdfWmiProviderEventOnly:0x0001
 
 WMI clients can receive notification of WMI events, but they cannot query or set instance data. The driver can call <a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancefireevent">WdfWmiInstanceFireEvent</a>, but it does not provide any instance-specific callback functions.
 
-### -field WdfWmiProviderExpensive
+### -field WdfWmiProviderExpensive:0x0002
 
 Collecting the provider's data can potentially affect the driver's performance, so the driver will not collect data unless a WMI client has registered to use it. The framework calls the driver's <a href="/windows-hardware/drivers/ddi/wdfwmi/nc-wdfwmi-evt_wdf_wmi_provider_function_control">EvtWmiProviderFunctionControl</a> callback function, passing the <b>WdfWmiInstanceControl</b> value (from the <a href="/windows-hardware/drivers/ddi/wdfwmi/ne-wdfwmi-_wdf_wmi_provider_control">WDF_WMI_PROVIDER_CONTROL</a> enumeration), to inform the driver to begin collecting data. If the driver does not provide an <i>EvtWmiProviderFunctionControl</i> callback function, it can call <a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiproviderisenabled">WdfWmiProviderIsEnabled</a>.
 
-### -field WdfWmiProviderTracing
+### -field WdfWmiProviderTracing:0x0004
 
 The WMI data provider supports WMI event tracing. The driver can obtain the tracing handle by calling <a href="/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiprovidergettracinghandle">WdfWmiProviderGetTracingHandle</a>. If this flag is set, no other flags can be set.
 
-### -field WdfWmiProviderValidFlags
+### -field WdfWmiProviderValidFlags:WdfWmiProviderEventOnly | WdfWmiProviderExpensive | WdfWmiProviderTracing
 
 The bitwise OR of all flags. Drivers should not use this value.
 

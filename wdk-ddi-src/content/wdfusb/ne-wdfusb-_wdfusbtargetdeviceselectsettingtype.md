@@ -54,15 +54,15 @@ The <b>WdfUsbTargetDeviceSelectSettingType</b> enumeration defines techniques fo
 
 ## -enum-fields
 
-### -field WdfUsbInterfaceSelectSettingTypeDescriptor
+### -field WdfUsbInterfaceSelectSettingTypeDescriptor:0x10
 
 Specify an interface's alternate setting by providing a <a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a> structure.
 
-### -field WdfUsbInterfaceSelectSettingTypeSetting
+### -field WdfUsbInterfaceSelectSettingTypeSetting:0x11
 
 Specify an interface's alternate setting by providing a setting index value.
 
-### -field WdfUsbInterfaceSelectSettingTypeUrb
+### -field WdfUsbInterfaceSelectSettingTypeUrb:0x12
 
 Specify an interface's alternate setting by providing a <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a>.
 

@@ -54,7 +54,7 @@ The <b>WDF_IO_QUEUE_DISPATCH_TYPE</b> enumeration type identifies the request di
 
 ## -enum-fields
 
-### -field WdfIoQueueDispatchInvalid
+### -field WdfIoQueueDispatchInvalid:0
 
 Reserved for internal use.
 

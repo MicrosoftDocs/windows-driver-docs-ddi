@@ -54,7 +54,7 @@ The <b>WDF_REMOVE_LOCK_OPTIONS_FLAGS</b> enumeration type defines flags that are
 
 ## -enum-fields
 
-### -field WDF_REMOVE_LOCK_OPTION_ACQUIRE_FOR_IO
+### -field WDF_REMOVE_LOCK_OPTION_ACQUIRE_FOR_IO:0x00000001
 
 Specifies that the framework should acquire a remove lock before delivering an IRP of any type to the driver.
 

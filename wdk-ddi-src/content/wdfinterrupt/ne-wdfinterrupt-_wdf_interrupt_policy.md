@@ -57,7 +57,7 @@ The <b>WDF_INTERRUPT_POLICY</b> enumeration type identifies the affinity policie
 
 ## -enum-fields
 
-### -field WdfIrqPolicyMachineDefault
+### -field WdfIrqPolicyMachineDefault:0
 
 Use the system's default affinity policy.
 

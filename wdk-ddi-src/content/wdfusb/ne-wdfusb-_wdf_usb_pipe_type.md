@@ -54,7 +54,7 @@ The <b>WDF_USB_PIPE_TYPE</b> enumeration identifies the types of USB pipes.
 
 ## -enum-fields
 
-### -field WdfUsbPipeTypeInvalid
+### -field WdfUsbPipeTypeInvalid:0
 
 Reserved for internal use.
 
