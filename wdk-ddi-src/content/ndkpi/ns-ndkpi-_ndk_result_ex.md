@@ -78,6 +78,8 @@ If **Status** returns STATUS_SUCCESS, then **ProviderErrorCode** must be **zero*
 
 If **Status** does not return STATUS_SUCCESS, then **zero** indicates the NDK provider does not support the **ProviderErrorCode** capability yet or did not provide an error code. A **non-zero** value provides additional provider information to diagnose the **Status** code.
 
+**ProviderErrorCode** uses padding that's only available on 64-bit systems. On 32-bit systems, this padding isn't available, and when **ProviderErrorCode** returns **zero**, it can cause **null** pointers. This issue occurs when memory is cast incorrectly as the value for the **TypeSpecificCompletionOutput** pointer. It's important to note that the interface contract is broken if the Provider uses an NDK 2.1 memory layout that includes **ProviderErrorCode**, while the Consumer still uses an NDK 2.0 memory layout without this new field. Therefore, this structure is no longer backwards compatible for 32-bit systems between 2.1 and pre-2.1 versions.
+
 
 ### -field TypeSpecificCompletionOutput
 
