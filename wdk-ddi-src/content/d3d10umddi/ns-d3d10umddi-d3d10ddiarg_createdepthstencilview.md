@@ -59,7 +59,7 @@ A DXGI_FORMAT-typed value that indicates the pixel format of the depth stencil v
 
 ### -field ResourceDimension [in]
 
-A [**D3D10DDIRESOURCE_TYPE**](/windows-hardware/drivers/display/ne-d3d10umddi-d3d10ddiresource_type)-typed value that indicates the resource type and dimensionality of the base resource.
+A [**D3D10DDIRESOURCE_TYPE**](ne-d3d10umddi-d3d10ddiresource_type.md)-typed value that indicates the resource type and dimensionality of the base resource.
 
 ### -field Tex1D [in]
 
@@ -85,4 +85,4 @@ If the value in the **ResourceDimension** member is set to D3D10DDIRESOURCE_TEXT
 
 [**D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW**](ns-d3d10umddi-d3d10ddiarg_texcube_depthstencilview.md)
 
-[**D3D10DDIRESOURCE_TYPE**](/windows-hardware/drivers/display/ne-d3d10umddi-d3d10ddiresource_type)
+[**D3D10DDIRESOURCE_TYPE**](ne-d3d10umddi-d3d10ddiresource_type.md)

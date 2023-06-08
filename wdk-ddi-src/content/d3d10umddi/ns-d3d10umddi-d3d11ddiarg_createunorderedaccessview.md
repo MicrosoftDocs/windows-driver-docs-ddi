@@ -1,9 +1,8 @@
 ---
 UID: NS:d3d10umddi.D3D11DDIARG_CREATEUNORDEREDACCESSVIEW
 title: D3D11DDIARG_CREATEUNORDEREDACCESSVIEW (d3d10umddi.h)
-description: The D3D11DDIARG_CREATEUNORDEREDACCESSVIEW structure describes the unordered access view to create.
-old-location: display\d3d11ddiarg_createunorderedaccessview.htm
-ms.date: 11/03/2022
+description: Learn more about the D3D11DDIARG_CREATEUNORDEREDACCESSVIEW structure.
+ms.date: 06/02/2023
 ms.custom: content-health
 keywords: ["D3D11DDIARG_CREATEUNORDEREDACCESSVIEW structure"]
 ms.keywords: D3D11DDIARG_CREATEUNORDEREDACCESSVIEW, D3D11DDIARG_CREATEUNORDEREDACCESSVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_e6b10da8-f790-4182-926a-a7f183dcd59b.xml, d3d10umddi/D3D11DDIARG_CREATEUNORDEREDACCESSVIEW, display.d3d11ddiarg_createunorderedaccessview
@@ -59,23 +58,23 @@ A DXGI_FORMAT-typed value that indicates the pixel format of the unordered acces
 
 ### -field ResourceDimension [in]
 
-A [**D3D10DDIRESOURCE_TYPE**](/windows-hardware/drivers/display/ne-d3d10umddi-d3d10ddiresource_type)-typed value that indicates the resource type and dimensionality of the unordered access block. The Direct3D runtime will never set **ResourceDimension** to D3D10DDIRESOURCE_TEXTURECUBE.
+A [**D3D10DDIRESOURCE_TYPE**](ne-d3d10umddi-d3d10ddiresource_type.md)-typed value that indicates the resource type and dimensionality of the unordered access block. The Direct3D runtime will never set **ResourceDimension** to D3D10DDIRESOURCE_TEXTURECUBE.
 
 ### -field Buffer [in]
 
-If the value in the **ResourceDimension** member is set to D3D10DDIRESOURCE_BUFFER, a member in the union that is contained in D3D11DDIARG_CREATEUNORDEREDACCESSVIEW that can hold a [**D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW**](ns-d3d10umddi-d3d11ddiarg_buffer_unorderedaccessview.md) structure for a buffer.
+If **ResourceDimension** is set to D3D10DDIRESOURCE_BUFFER, **Buffer** holds a [**D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW**](ns-d3d10umddi-d3d11ddiarg_buffer_unorderedaccessview.md) structure for a buffer.
 
 ### -field Tex1D [in]
 
-If the value in the **ResourceDimension** member is set to D3D10DDIRESOURCE_TEXTURE1D, a member in the union that is contained in D3D11DDIARG_CREATEUNORDEREDACCESSVIEW that can hold a [**D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW**](ns-d3d10umddi-d3d11ddiarg_tex1d_unorderedaccessview.md) structure for a one-dimensional texture.
+If **ResourceDimension** is set to D3D10DDIRESOURCE_TEXTURE1D, **Tex1D** holds a [**D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW**](ns-d3d10umddi-d3d11ddiarg_tex1d_unorderedaccessview.md) structure for a one-dimensional texture.
 
 ### -field Tex2D [in]
 
-If the value in the **ResourceDimension** member is set to D3D10DDIRESOURCE_TEXTURE2D, a member in the union that is contained in D3D11DDIARG_CREATEUNORDEREDACCESSVIEW that can hold a [**D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW**](ns-d3d10umddi-d3d11ddiarg_tex2d_unorderedaccessview.md) structure for a two-dimensional texture.
+If **ResourceDimension** is set to D3D10DDIRESOURCE_TEXTURE2D, **Tex2D** holds a [**D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW**](ns-d3d10umddi-d3d11ddiarg_tex2d_unorderedaccessview.md) structure for a two-dimensional texture.
 
 ### -field Tex3D [in]
 
-If the value in the **ResourceDimension** member is set to D3D10DDIRESOURCE_TEXTURE3D, a member in the union that is contained in D3D11DDIARG_CREATEUNORDEREDACCESSVIEW that can hold a [**D3D11DDIARG_TEX3D_UNORDEREDACCESSVIEW**](ns-d3d10umddi-d3d11ddiarg_tex3d_unorderedaccessview.md) structure for a three-dimensional texture.
+If **ResourceDimension** is set to D3D10DDIRESOURCE_TEXTURE3D, **Tex3D** holds a [**D3D11DDIARG_TEX3D_UNORDEREDACCESSVIEW**](ns-d3d10umddi-d3d11ddiarg_tex3d_unorderedaccessview.md) structure for a three-dimensional texture.
 
 ## -see-also
 
@@ -83,7 +82,7 @@ If the value in the **ResourceDimension** member is set to D3D10DDIRESOURCE_TEXT
 
 [**CreateUnorderedAccessView**](nc-d3d10umddi-pfnd3d11ddi_createunorderedaccessview.md)
 
-[**D3D10DDIRESOURCE_TYPE**](/windows-hardware/drivers/display/ne-d3d10umddi-d3d10ddiresource_type)
+[**D3D10DDIRESOURCE_TYPE**](ne-d3d10umddi-d3d10ddiresource_type.md)
 
 [**D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW**](ns-d3d10umddi-d3d11ddiarg_buffer_unorderedaccessview.md)
 
