@@ -3,7 +3,7 @@ UID: NF:wdm.ExInitializeLookasideListEx
 title: ExInitializeLookasideListEx function (wdm.h)
 description: The ExInitializeLookasideListEx routine initializes a lookaside list.
 tech.root: kernel
-ms.date: 08/29/2022
+ms.date: 06/08/2023
 keywords: ["ExInitializeLookasideListEx function"]
 ms.keywords: ExInitializeLookasideListEx, ExInitializeLookasideListEx routine [Kernel-Mode Driver Architecture], k102_1ceb4bd5-41cb-4f77-b435-a8bf922afbc2.xml, kernel.exinitializelookasidelistex, wdm/ExInitializeLookasideListEx
 req.header: wdm.h
@@ -181,7 +181,7 @@ PVOID
 
     if (NewEntry)
     {
-        MyContext->NumberOfAllocations = InterlockedIncrement(MyContext->NumberOfAllocations);
+        ULONG NumberOfAllocations = (ULONG) InterlockedIncrement((LONG volatile*)&MyContext->NumberOfAllocations);
     }
 
     return NewEntry;
