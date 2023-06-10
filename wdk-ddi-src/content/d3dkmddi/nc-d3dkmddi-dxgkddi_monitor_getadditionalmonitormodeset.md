@@ -1,15 +1,14 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET
 title: DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET (d3dkmddi.h)
-description: The pfnGetAdditionalMonitorModeSet function, available in the DXGK_MONITOR_INTERFACE_V2 interface beginning with Windows 7, returns a handle to an additional monitor source mode set object that is associated with a specified monitor.
-old-location: display\dxgk_monitor_interface_v2_pfngetadditionalmonitormodeset.htm
-ms.date: 05/10/2018
+description: Learn more about the pfnGetAdditionalMonitorModeSet function.
+ms.date: 06/09/2023
 keywords: ["DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET callback function"]
 ms.keywords: DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET, DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET callback, VidPnFunctions_c86b07fb-c73c-4990-86a0-15c93ba7e2dd.xml, d3dkmddi/pfnGetAdditionalMonitorModeSet, display.dxgk_monitor_interface_v2_pfngetadditionalmonitormodeset, pfnGetAdditionalMonitorModeSet, pfnGetAdditionalMonitorModeSet callback function [Display Devices]
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,32 +43,31 @@ product:
 
 # DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET callback function
 
-
 ## -description
 
-The <i>pfnGetAdditionalMonitorModeSet</i> function, available in the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_monitor_interface_v2">DXGK_MONITOR_INTERFACE_V2</a> interface beginning with Windows 7, returns a handle to an additional monitor source mode set object that is associated with a specified monitor.
+The **pfnGetAdditionalMonitorModeSet** function returns a handle to an additional monitor source mode set object that is associated with a specified monitor. It is available in the [**DXGK_MONITOR_INTERFACE_V2**](ns-d3dkmddi-_dxgk_monitor_interface_v2.md) interface, starting in Windows 7.
 
 ## -parameters
 
 ### -param hAdapter [in]
 
-A handle that identifies a display adapter. The Microsoft DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
+A handle that identifies a display adapter. The Microsoft DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the **DxgkInterface** parameter of the [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) function.
 
 ### -param VideoPresentTargetId [in]
 
-An integer that identifies one of the video present targets on the display adapter. The returned <i>ppAdditionalModesSet</i> additional modes set object describes the additional monitor source mode sets that are available on the monitor that is connected to this video present target.
+An integer that identifies one of the video present targets on the display adapter. The returned **ppAdditionalModesSet** additional modes set object describes the additional monitor source mode sets that are available on the monitor that is connected to this video present target.
 
 ### -param pNumberModes [out]
 
-A pointer to a variable that contains the number of additional timing modes of the video present target specified by <i>VideoPresentTargetId</i>.
+A pointer to a variable that contains the number of additional timing modes of the video present target specified by **VideoPresentTargetId**.
 
 ### -param ppAdditionalModesSet [out]
 
-A pointer to a variable that receives a pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgk_targetmode_detail_timing">DXGK_TARGETMODE_DETAIL_TIMING</a> structure. The structure describes a video present target's additional timing modes that are compatible with the display device.
+A pointer to a variable that receives a pointer to a [**DXGK_TARGETMODE_DETAIL_TIMING**](../d3dkmdt/ns-d3dkmdt-_dxgk_targetmode_detail_timing.md) structure. The structure describes a video present target's additional timing modes that are compatible with the display device.
 
 ## -returns
 
-The <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset">pfnAcquireMonitorSourceModeSet</a> function returns one of the following values.
+The [**pfnAcquireMonitorSourceModeSet**](nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset.md) function returns one of the following values.
 
 |Return code|Description|
 |--- |--- |
@@ -81,31 +79,20 @@ The <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_
 
 ## -remarks
 
-VidPN target identifiers are assigned by the display miniport driver. The <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a> function, implemented by the display miniport driver, returns an array of <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_child_descriptor">DXGK_CHILD_DESCRIPTOR</a> structures, each of which contains an identifier.
+VidPN target identifiers are assigned by the display miniport driver. The [**DxgkDdiQueryChildRelations**](../dispmprt/nc-dispmprt-dxgkddi_query_child_relations.md) function, implemented by the display miniport driver, returns an array of [**DXGK_CHILD_DESCRIPTOR**](../dispmprt/ns-dispmprt-_dxgk_child_descriptor.md) structures, each of which contains an identifier.
 
 This function is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_child_descriptor">DXGK_CHILD_DESCRIPTOR</a>
+[**DXGK_CHILD_DESCRIPTOR**](../dispmprt/ns-dispmprt-_dxgk_child_descriptor.md)
 
+[**DXGK_MONITOR_INTERFACE_V2**](ns-d3dkmddi-_dxgk_monitor_interface_v2.md)
 
+[**DXGK_MONITOR_INTERFACE_V2::pfnReleaseAdditionalMonitorModeSet**](nc-d3dkmddi-dxgkddi_monitor_releaseadditionalmonitormodeset.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_monitor_interface_v2">DXGK_MONITOR_INTERFACE_V2</a>
+[**DXGK_TARGETMODE_DETAIL_TIMING**](../d3dkmdt/ns-d3dkmdt-_dxgk_targetmode_detail_timing.md)
 
+[**DxgkDdiQueryChildRelations**](../dispmprt/nc-dispmprt-dxgkddi_query_child_relations.md)
 
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_releaseadditionalmonitormodeset">DXGK_MONITOR_INTERFACE_V2::pfnReleaseAdditionalMonitorModeSet</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgk_targetmode_detail_timing">DXGK_TARGETMODE_DETAIL_TIMING</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
-
+[**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md)
