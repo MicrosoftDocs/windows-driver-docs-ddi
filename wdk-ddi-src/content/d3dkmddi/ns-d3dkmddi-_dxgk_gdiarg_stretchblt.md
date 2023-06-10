@@ -1,15 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_GDIARG_STRETCHBLT
-title: _DXGK_GDIARG_STRETCHBLT (d3dkmddi.h)
-description: The DXGK_GDIARG_STRETCHBLT structure describes the characteristics of a GDI hardware-accelerated stretch bit-block transfer (bitblt) operation.
-old-location: display\dxgk_gdiarg_stretchblt.htm
-ms.date: 05/10/2018
+title: DXGK_GDIARG_STRETCHBLT (d3dkmddi.h)
+description: Learn more about the DXGK_GDIARG_STRETCHBLT structure.
+ms.date: 06/09/2023
 keywords: ["DXGK_GDIARG_STRETCHBLT structure"]
 ms.keywords: BLACKONWHITE, DXGK_GDIARG_STRETCHBLT, DXGK_GDIARG_STRETCHBLT structure [Display Devices], DmStructs_9c8014aa-fdad-474d-a1a1-182020850e17.xml, WHITEONBLACK, _DXGK_GDIARG_STRETCHBLT, d3dkmddi/DXGK_GDIARG_STRETCHBLT, display.dxgk_gdiarg_stretchblt
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,36 +42,35 @@ api_name:
  - DXGK_GDIARG_STRETCHBLT
 ---
 
-# _DXGK_GDIARG_STRETCHBLT structure
-
+# DXGK_GDIARG_STRETCHBLT structure
 
 ## -description
 
-The DXGK_GDIARG_STRETCHBLT structure describes the characteristics of a GDI hardware-accelerated stretch <a href="/windows-hardware/drivers/">bit-block transfer (bitblt)</a> operation.
+The **DXGK_GDIARG_STRETCHBLT** structure describes the characteristics of a GDI hardware-accelerated stretch bit-block transfer (bitblt) operation.
 
 ## -struct-fields
 
 ### -field SrcRect [in]
 
-A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that defines the rectangular area to be copied. This rectangle is specified in the coordinate system of the source surface and is defined by two points: upper left and lower right. The two points that define the rectangle are always well ordered. 
+A [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that defines the rectangular area to be copied. This rectangle is specified in the coordinate system of the source surface and is defined by two points: upper left and lower right. The two points that define the rectangle are always well ordered.
 
-The source rectangle will never exceed the bounds of the source surface, so it will never overhang the source surface. 
+The source rectangle will never exceed the bounds of the source surface, so it will never overhang the source surface.
 
-This rectangle is mapped to the destination rectangle defined by <b>DstRect</b>. 
+This rectangle is mapped to the destination rectangle defined by **DstRect**.
 
 For more information, see the Remarks section.
 
 ### -field DstRect [in]
 
-A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered. 
+A [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered.
 
-The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the destination surface, but sub-rectangles cannot. Additionally, all sub-rectangles are guaranteed to fit inside the destination surface. Sub-rectangles can be constrained further by a bounding rectangle that is smaller than the destination rectangle. 
+The destination rectangle defined by **DstRect** can exceed the bounds of the destination surface, but sub-rectangles cannot. Additionally, all sub-rectangles are guaranteed to fit inside the destination surface. Sub-rectangles can be constrained further by a bounding rectangle that is smaller than the destination rectangle.
 
 For more information, see the Remarks section.
 
 ### -field DstAllocationIndex [in]
 
-An index of the element in the allocation list that specifies the allocation that is referenced by the <b>DstRect</b> destination rectangle.
+An index of the element in the allocation list that specifies the allocation that is referenced by the **DstRect** destination rectangle.
 
 ### -field SrcAllocationIndex [in]
 
@@ -80,33 +78,30 @@ An index of the element in the allocation list that specifies the allocation tha
 
 ### -field NumSubRects
 
-The number of sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
+The number of sub-rectangles in the destination surface space that is bounded by the **DstRect** destination rectangle.
 
 ### -field pSubRects [in]
 
-A pointer to the sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
+A pointer to the sub-rectangles in the destination surface space that is bounded by the **DstRect** destination rectangle.
 
 ### -field Mode [in]
 
-Specifies how source pixels are combined to produce output pixels based on whether the following values that are defined in <i>Wingdi.h</i> are set:
-		  
-        
-       
+Specifies how source pixels are combined to produce output pixels based on whether the following values that are defined in *Wingdi.h* are set:
 
 |Value|Meaning|
 |--- |--- |
 |BLACKONWHITE|On a shrinking bit-block transfer, pixels should be combined with a Boolean AND operation. On a stretching bit-block transfer, pixels should be replicated.|
 |WHITEONBLACK|On a shrinking bit-block transfer, pixels should be combined with a Boolean OR operation. On a stretching bit-block transfer, pixels should be replicated.|
 
-This type of operation will be processed only if the driver has set the <b>SupportMonoStretchBltModes</b> member in the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentationcaps">DXGK_PRESENTATIONCAPS</a> structure.
+This type of operation will be processed only if the driver has set the **SupportMonoStretchBltModes** member in the [**DXGK_PRESENTATIONCAPS**](ns-d3dkmddi-_dxgk_presentationcaps.md) structure.
 
 ### -field MirrorX [in]
 
-Specifies whether the stretch bit-block transfer will be performed in mirror mode in the xdirection. This type of operation will be processed only if the value of <b>MirrorX</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentationcaps">DXGK_PRESENTATIONCAPS</a> structure.
+Specifies whether the stretch bit-block transfer will be performed in mirror mode in the xdirection. This type of operation will be processed only if the value of **MirrorX** is nonzero and the driver has set the **SupportMirrorStretchBlt** member in the [**DXGK_PRESENTATIONCAPS**](ns-d3dkmddi-_dxgk_presentationcaps.md) structure.
 
 ### -field MirrorY [in]
 
-Specifies whether the stretch bit-block transfer will be performed in mirror mode in the y direction. This type of operation will be processed only if the value of <b>MirrorY</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentationcaps">DXGK_PRESENTATIONCAPS</a> structure.
+Specifies whether the stretch bit-block transfer will be performed in mirror mode in the y direction. This type of operation will be processed only if the value of **MirrorY** is nonzero and the driver has set the **SupportMirrorStretchBlt** member in the [**DXGK_PRESENTATIONCAPS**](ns-d3dkmddi-_dxgk_presentationcaps.md) structure.
 
 ### -field Flags [in]
 
@@ -118,16 +113,14 @@ The pitch of the source surface, in bytes.
 
 ## -remarks
 
-The x and y stretch ratios are computed respectively as the ratios of the x and y sizes of the <b>DstRect</b> and <b>SrcRect</b> members.
+The x and y stretch ratios are computed respectively as the ratios of the x and y sizes of the **DstRect** and **SrcRect** members.
 
-The HALFTONE mode and STRETCH_HALFTONE modes that are defined in <i>Wingdi.h</i> will never be set in the <b>Mode</b> member. The COLORONCOLOR mode can be set in the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_gdiarg_alphablend">DXGK_GDIARG_ALPHABLEND</a> and <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_gdiarg_transparentblt">DXGK_GDIARG_TRANSPARENTBLT</a> structures.
+The HALFTONE mode and STRETCH_HALFTONE modes that are defined in *Wingdi.h* will never be set in the **Mode** member. The COLORONCOLOR mode can be set in the [**DXGK_GDIARG_ALPHABLEND**](ns-d3dkmddi-_dxgk_gdiarg_alphablend.md) and [**DXGK_GDIARG_TRANSPARENTBLT**](ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md) structures.
 
 When sub-rectangles are transformed to the source surface space, the result is guaranteed to be within the source surface. The transformation of a sub-rectangle's coordinates in the destination surface to coordinates  in the source surface is defined by the following formulas, where
 
-<ul>
-<li>(Xd, Yd) is a point inside the sub-rectangle</li>
-<li>(Xs, Ys) is a point inside the source rectangle</li>
-</ul>
+* (Xd, Yd) is a point inside the sub-rectangle
+* (Xs, Ys) is a point inside the source rectangle
 
 ```cpp
 float Ws = SrcRect.right - SrcRect.left;
@@ -145,17 +138,10 @@ int Ys = truncate((Yd - DstRect.top + 0.5) * Hs/Hd + SrcRect.top)
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_gdiarg_alphablend">DXGK_GDIARG_ALPHABLEND</a>
+ [**DXGK_GDIARG_ALPHABLEND**](ns-d3dkmddi-_dxgk_gdiarg_alphablend.md)
 
+[**DXGK_GDIARG_TRANSPARENTBLT**](ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md)
 
+[**DXGK_PRESENTATIONCAPS**](ns-d3dkmddi-_dxgk_presentationcaps.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_gdiarg_transparentblt">DXGK_GDIARG_TRANSPARENTBLT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentationcaps">DXGK_PRESENTATIONCAPS</a>
-
-
-
-<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>
-
+[**RECT**](/windows/win32/api/windef/ns-windef-rect)

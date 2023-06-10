@@ -1,15 +1,14 @@
 ---
 UID: NS:d3dkmddi._D3DKM_TRANSPARENTBLTFLAGS
-title: _D3DKM_TRANSPARENTBLTFLAGS (d3dkmddi.h)
-description: The D3DKM_TRANSPARENTBLTFLAGS structure specifies the display adapter's ability to perform a hardware-accelerated bit-block transfer (bitblt) with transparency.
-old-location: display\d3dkm_transparentbltflags.htm
-ms.date: 05/10/2018
+title: D3DKM_TRANSPARENTBLTFLAGS (d3dkmddi.h)
+description: Learn more about the D3DKM_TRANSPARENTBLTFLAGS structure.
+ms.date: 06/09/2023
 keywords: ["D3DKM_TRANSPARENTBLTFLAGS structure"]
 ms.keywords: D3DKM_TRANSPARENTBLTFLAGS, D3DKM_TRANSPARENTBLTFLAGS structure [Display Devices], DmStructs_7190815e-5610-4c97-823f-8bdaae16c005.xml, _D3DKM_TRANSPARENTBLTFLAGS, d3dkmddi/D3DKM_TRANSPARENTBLTFLAGS, display.d3dkm_transparentbltflags
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,34 +42,29 @@ api_name:
  - D3DKM_TRANSPARENTBLTFLAGS
 ---
 
-# _D3DKM_TRANSPARENTBLTFLAGS structure
-
+# D3DKM_TRANSPARENTBLTFLAGS structure
 
 ## -description
 
-The D3DKM_TRANSPARENTBLTFLAGS structure specifies the display adapter's ability to perform a hardware-accelerated bit-block transfer (bitblt) with transparency.
+The **D3DKM_TRANSPARENTBLTFLAGS** structure specifies the display adapter's ability to perform a hardware-accelerated bit-block transfer (bitblt) with transparency.
 
 ## -struct-fields
 
 ### -field HonorAlpha [in]
 
-A UINT value that specifies in a hardware-accelerated transparent bit-block transfer whether the alpha channel should be used during comparison:
+A UINT value that specifies in a hardware-accelerated transparent bit-block transfer whether the alpha channel should be used during comparison. **HonorAlpha** can be one of the following values.
 
-1 = The display adapter does not ignore the alpha channel when it compares the reference color with the source color.
+| Value | Meaning |
+| ----- | ------- |
+| 1 | The display adapter does not ignore the alpha channel when it compares the reference color with the source color. |
+| 0 | The display adapter ignores the alpha channel when it compares the reference color with the source color. |
 
-0 = The display adapter ignores the alpha channel when it compares the reference color with the source color.
-
-Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
+Setting this member is equivalent to setting the first bit of the 32-bit **Value** member (0x00000001).
 
 ### -field Value [in]
 
 A member in the union that D3DKM_TRANSPARENTBLTFLAGS contains. This member can hold a 32-bit value that specifies the display adapter's ability to perform hardware-accelerated bit-block transfer with transparency.
 
-## -remarks
-
-For more information about how to use the members of this structure, see <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_gdiarg_transparentblt">DXGK_GDIARG_TRANSPARENTBLT</a>.
-
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_gdiarg_transparentblt">DXGK_GDIARG_TRANSPARENTBLT</a>
-
+[**DXGK_GDIARG_TRANSPARENTBLT**](ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md)
