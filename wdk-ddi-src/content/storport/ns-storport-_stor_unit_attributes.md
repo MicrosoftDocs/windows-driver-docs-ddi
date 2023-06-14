@@ -1,10 +1,9 @@
 ---
 UID: NS:storport._STOR_UNIT_ATTRIBUTES
 title: STOR_UNIT_ATTRIBUTES (storport.h)
-description: The STOR_UNIT_ATTRIBUTES structure contains bitfields indicating attribute support for a storage device unit.
-old-location: storage\stor_unit_attributes.htm
+description: Learn more about the STOR_UNIT_ATTRIBUTES structure.
 tech.root: storage
-ms.date: 05/24/2022
+ms.date: 06/13/2023
 keywords: ["STOR_UNIT_ATTRIBUTES structure"]
 ms.keywords: "*PSTOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES structure pointer [Storage Devices], STOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES structure [Storage Devices], _STOR_UNIT_ATTRIBUTES, storage.stor_unit_attributes, storport/PSTOR_UNIT_ATTRIBUTES, storport/STOR_UNIT_ATTRIBUTES"
 req.header: storport.h
@@ -50,7 +49,7 @@ api_name:
 
 ## -description
 
-The **STOR_UNIT_ATTRIBUTES** structure contains bitfields indicating attribute support for a storage device unit.
+The **STOR_UNIT_ATTRIBUTES** structure contains bit fields that indicate a storage device unit's support for various attributes.
 
 ## -struct-fields
 
@@ -64,7 +63,7 @@ Set to 1 if the device supports asynchronous notifications. Otherwise, set to 0.
 
 ### -field D3ColdNotSupported
 
-Set to 1 if the D3 Cold power state is NOT supported. Otherwise, set to 0.
+Set to 1 if the D3 Cold power state is *not* supported. Otherwise, set to 0.
 
 ### -field BypassIOSupported
 
@@ -76,7 +75,7 @@ Reserved bits. Must be set to 0.
 
 ## -remarks
 
-The unit attributes are registered with Storport using this structure as a parameter to the [**StorPortSetUnitAttributes**](nf-storport-storportsetunitattributes.md) routine.
+To register a unit's support for various attributes with Storport, a Storport miniport driver calls [**StorPortSetUnitAttributes**](nf-storport-storportsetunitattributes.md) with this structure as a parameter.
 
 If the miniport driver supports asynchronous notifications, the **AsyncNotificationSupported** field set to 1, it will send notifications to the Storport driver using the [**StorPortAsyncNotificationDetected**](nf-storport-storportasyncnotificationdetected.md) routine.
 

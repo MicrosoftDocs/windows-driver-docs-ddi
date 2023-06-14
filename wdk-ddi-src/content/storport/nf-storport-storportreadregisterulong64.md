@@ -10,7 +10,7 @@ ms.keywords: StorPortReadRegisterUlong64, StorPortReadRegisterUlong64 routine [S
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 8.
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
