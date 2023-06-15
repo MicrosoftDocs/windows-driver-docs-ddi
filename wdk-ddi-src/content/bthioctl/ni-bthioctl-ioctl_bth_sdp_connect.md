@@ -52,7 +52,7 @@ The IOCTL_BTH_SDP_CONNECT request creates a connection to the SDP service on a r
 
 ### -ioctl-major-code
 
-[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
 
 ### -input-buffer
 
