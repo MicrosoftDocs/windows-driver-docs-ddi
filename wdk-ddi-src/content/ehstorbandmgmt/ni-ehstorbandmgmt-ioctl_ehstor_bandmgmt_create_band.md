@@ -49,6 +49,8 @@ New bands are created on a band-managed storage device with the <b>IOCTL_EHSTOR_
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain an <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_create_band_parameters">CREATE_BAND_PARAMETERS</a> structure followed by the <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_location_info">BAND_LOCATION_INFO</a>, <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a>, and <b>AUTH_KEY</b> structures. 

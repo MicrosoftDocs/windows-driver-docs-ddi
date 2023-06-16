@@ -44,6 +44,8 @@ Queries the brightness ranges for a display panel.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

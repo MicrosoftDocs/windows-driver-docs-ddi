@@ -49,6 +49,8 @@ Releases a device previously reserved for the exclusive use of the caller on a b
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

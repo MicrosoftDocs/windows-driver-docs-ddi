@@ -51,6 +51,8 @@ A Data Set Management (DSM) notification is transferred to a miniport driver in 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer specified in the <b>DataBuffer</b> member of the SRB must contain an <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure and a <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> structure.

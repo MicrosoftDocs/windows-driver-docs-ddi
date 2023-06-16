@@ -50,6 +50,8 @@ api_name:
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The 

@@ -49,6 +49,8 @@ The IOCTL_BTH_SDP_DISCONNECT request closes a connection to a remote SDP server.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The 

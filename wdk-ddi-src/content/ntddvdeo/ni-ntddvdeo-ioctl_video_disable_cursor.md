@@ -49,6 +49,8 @@ Makes the cursor invisible by disabling the cursor's visibility attribute. Minip
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

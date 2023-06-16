@@ -51,6 +51,8 @@ The difference between IOCTL_DISK_GET_DRIVE_GEOMETRY_EX and the older <a href="/
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

@@ -54,6 +54,8 @@ Windows XP and later send this request to the video miniport driver to notify it
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains a pointer to a ULONG, which can be one of the two following values:

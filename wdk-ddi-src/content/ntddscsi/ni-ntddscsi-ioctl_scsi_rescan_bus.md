@@ -56,6 +56,8 @@ Usually, this request originates in a system-supplied Win32 application such as 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

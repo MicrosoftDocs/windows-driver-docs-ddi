@@ -49,6 +49,8 @@ Returns information about the tape drive's capabilities, such as its default blo
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

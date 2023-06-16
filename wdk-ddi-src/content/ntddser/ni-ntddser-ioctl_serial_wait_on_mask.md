@@ -65,6 +65,8 @@ After a client's <b>IOCTL_SERIAL_WAIT_ON_MASK</b> request is completed with a st
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

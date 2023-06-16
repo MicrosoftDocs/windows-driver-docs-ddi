@@ -49,6 +49,8 @@ This I/O control function deauthenticates the magnetic stripe reader (MSR).
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to the input buffer, a [MSR_DEAUTHENTICATE_DEVICE](./ns-pointofservicedriverinterface-_msr_deauthenticate_device.md) variable that contains the challenge token.

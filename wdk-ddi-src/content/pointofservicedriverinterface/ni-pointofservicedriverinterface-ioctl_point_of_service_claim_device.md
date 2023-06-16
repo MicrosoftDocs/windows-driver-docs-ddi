@@ -49,6 +49,8 @@ The I/O control function claims the device for exclusive access.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Not used with this operation; set to **NULL**.

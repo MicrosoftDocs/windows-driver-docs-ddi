@@ -51,6 +51,8 @@ For general information about HIDClass devices, see <a href="/windows-hardware/d
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <b>Irp->UserBuffer </b> points to a <a href="/windows-hardware/drivers/ddi/hidclass/ns-hidclass-_hid_xfer_packet">HID_XFER_PACKET</a> structure the contains the parameters and report to be transmitted to the device. The following members are used:

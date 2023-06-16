@@ -49,6 +49,8 @@ Returns a specified USB Descriptor.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to a <a href="/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_usbscan_get_descriptor">USBSCAN_GET_DESCRIPTOR</a> structure.

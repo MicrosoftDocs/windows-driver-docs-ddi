@@ -49,6 +49,8 @@ Loads or unloads the tape, resets tape tension, locks or unlocks the ejection me
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
        The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_prepare">TAPE_PREPARE</a> structure that indicates the type of operation.

@@ -49,6 +49,8 @@ The <b>IOCTL_SERIAL_SET_FIFO_CONTROL</b> request sets the FIFO control register 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated ULONG that is used to input FIFO control information.

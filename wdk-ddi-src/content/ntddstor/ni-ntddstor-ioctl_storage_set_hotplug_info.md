@@ -49,6 +49,8 @@ Sets the hotplug configuration of the specified device. This request takes a <a 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The input buffer.

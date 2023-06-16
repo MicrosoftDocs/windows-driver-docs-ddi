@@ -50,6 +50,8 @@ The <b>IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A BOOL that is set to TRUE to request an immediate update. Otherwise, set this to FALSE.

@@ -50,6 +50,8 @@ The <b>IOCTL_SMARTCARD_GET_ATTRIBUTE</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 (DWORD) contains the attribute tag.

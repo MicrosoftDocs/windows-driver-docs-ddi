@@ -49,6 +49,8 @@ The <b>IOCTL_STORAGE_READ_CAPACITY</b> request returns the read capacity informa
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

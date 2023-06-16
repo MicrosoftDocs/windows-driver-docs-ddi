@@ -49,6 +49,8 @@ Gets the capabilities of the device's television connector and/or copy protectio
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains a <a href="/windows/win32/api/tvout/ns-tvout-videoparameters">VIDEOPARAMETERS</a> structure that describes the action to be performed by the miniport driver.

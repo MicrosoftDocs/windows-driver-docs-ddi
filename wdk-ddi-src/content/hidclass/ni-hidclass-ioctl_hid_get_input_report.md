@@ -50,6 +50,8 @@ For general information about HIDClass devices, see [HID Collections](/windows-h
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The `Parameters.DeviceIoControl.OutputBufferLength` member specifies the size of a requester-allocated output buffer in bytes. The HID class driver uses this buffer to return an input report.

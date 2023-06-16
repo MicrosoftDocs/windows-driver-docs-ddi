@@ -50,6 +50,8 @@ An audio driver can send an <b>IOCTL_BTHHFP_DEVICE_GET_CODEC_ID</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 An <a href="/windows-hardware/drivers/ddi/bthhfpddi/ne-bthhfpddi-_hfp_bypass_codec_id_version">HFP_BYPASS_CODEC_ID_VERSION</a> enumeration value. Currently, only REQ_HFP_BYPASS_CODEC_ID_V1 is supported.

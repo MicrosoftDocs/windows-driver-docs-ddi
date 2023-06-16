@@ -49,6 +49,10 @@ The IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE request enables the wait/wake operation o
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 None.

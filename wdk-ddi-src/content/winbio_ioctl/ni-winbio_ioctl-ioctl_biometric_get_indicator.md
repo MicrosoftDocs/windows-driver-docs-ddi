@@ -49,6 +49,8 @@ The IOCTL_BIOMETRIC_GET_INDICATOR IOCTL directs the driver to retrieve the statu
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

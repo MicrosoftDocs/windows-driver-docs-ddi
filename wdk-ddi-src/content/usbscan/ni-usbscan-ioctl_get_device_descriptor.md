@@ -49,6 +49,8 @@ Returns vendor and device identifiers.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to a <a href="/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_device_descriptor">DEVICE_DESCRIPTOR</a> structure.

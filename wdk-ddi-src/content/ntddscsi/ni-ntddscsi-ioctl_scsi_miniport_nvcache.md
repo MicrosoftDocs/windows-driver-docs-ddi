@@ -52,6 +52,8 @@ The interface that is used for the NV Cache Management functionality consists of
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at **Irp->AssociatedIrp.SystemBuffer** contains an [**SRB_IO_CONTROL**](./ns-ntddscsi-_srb_io_control.md) structure with the Signature field set to "HYBRDISK", and the ControlCode field set to IOCTL_SCSI_MINIPORT_NVCACHE. The [**NVCACHE_REQUEST_BLOCK**](./ns-ntddscsi-_nvcache_request_block.md) structure immediately follows the **SRB_IO_CONTROL** structure. Any optional function-specific data buffer immediately follows the **NVCACHE_REQUEST_BLOCK** structure.

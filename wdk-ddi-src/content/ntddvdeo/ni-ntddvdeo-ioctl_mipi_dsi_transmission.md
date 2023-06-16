@@ -42,6 +42,8 @@ Mipi (mobile industry processor interface) DCS IOCLTs must be handled by the mon
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 n/a

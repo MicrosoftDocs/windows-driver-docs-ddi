@@ -49,6 +49,8 @@ A configured band on a storage device is deleted with the <b>IOCTL_EHSTOR_BANDMG
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The input buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain a <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_delete_band_parameters">DELETE_BAND_PARAMETERS</a> and possibly an <b>AUTH_KEY</b> structure. 

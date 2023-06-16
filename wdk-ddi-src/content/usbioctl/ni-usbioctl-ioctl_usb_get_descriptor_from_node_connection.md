@@ -51,6 +51,8 @@ The <b>IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</b> I/O control request ret
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_descriptor_request">USB_DESCRIPTOR_REQUEST</a> structure that describes the descriptor request.

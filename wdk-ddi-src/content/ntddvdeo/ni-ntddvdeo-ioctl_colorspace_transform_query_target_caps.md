@@ -45,6 +45,8 @@ A colorspace transform control IOCTL that must be handled by the monitor, OEM-pa
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 

@@ -68,6 +68,8 @@ The prefix resolution operation serves two purposes:
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 **IrpSp->Parameters.DeviceIoControl.Type3InputBuffer** is set to a [**QUERY_PATH_REQUEST**](ni-ntifs-ioctl_redir_query_path.md) data structure that contains the request.

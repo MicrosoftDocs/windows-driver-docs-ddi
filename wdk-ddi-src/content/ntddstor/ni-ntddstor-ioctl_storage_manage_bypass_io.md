@@ -42,6 +42,8 @@ The **IOCTL_STORAGE_MANAGE_BYPASS_IO** control code controls BypassIO operations
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at **Irp->AssociatedIrp.SystemBuffer** contains a [**BPIO_INPUT**](ns-ntddstor-bpio_input.md) structure with information related to a BypassIO request.

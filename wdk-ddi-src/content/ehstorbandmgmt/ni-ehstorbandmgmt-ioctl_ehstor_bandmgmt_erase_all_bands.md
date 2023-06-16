@@ -44,6 +44,8 @@ The **IOCTL_EHSTOR_BANDMGMT_ERASE_ALL_BANDS** request cryptographically erases a
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

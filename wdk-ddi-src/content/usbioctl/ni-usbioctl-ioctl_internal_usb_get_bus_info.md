@@ -51,6 +51,10 @@ The <b>IOCTL_INTERNAL_USB_GET_BUS_INFO</b> I/O request queries the bus driver fo
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 <b>Parameters.Others.Argument1</b> should be a pointer to a [**USB_BUS_NOTIFICATION**](ns-usbioctl-_usb_bus_notification.md) structure.

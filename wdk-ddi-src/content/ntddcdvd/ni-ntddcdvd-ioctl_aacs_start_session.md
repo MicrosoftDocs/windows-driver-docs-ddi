@@ -49,6 +49,8 @@ Retrieves an Authentication Grant Identifier (AGID) that identifies a secure ses
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

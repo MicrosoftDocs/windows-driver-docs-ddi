@@ -49,6 +49,10 @@ The USB function class extension sends this request to the client driver to upda
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 The input buffer points to a <b>USBFNPIPEID</b> that specifies the pipe ID for the endpoint.

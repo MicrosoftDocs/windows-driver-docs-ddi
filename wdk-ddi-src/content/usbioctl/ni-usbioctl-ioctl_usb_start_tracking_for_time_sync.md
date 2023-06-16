@@ -49,6 +49,8 @@ This request registers the caller with USB driver stack for time sync services.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

@@ -49,6 +49,8 @@ The <b>IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA</b> control code is used to get devic
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 An input buffer structure that depends on the type of input arguments to be passed to the control method.

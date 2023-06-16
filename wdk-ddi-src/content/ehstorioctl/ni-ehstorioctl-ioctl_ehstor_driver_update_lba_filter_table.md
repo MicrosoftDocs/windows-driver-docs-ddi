@@ -49,6 +49,8 @@ This IOCTL is used to inform the enhanced storage (EHSTOR) class driver of chang
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The input buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> must contain a structure of type <a href="/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_lba_filter_table">LBA_FILTER_TABLE</a>. This structure contains the filter table and the total entries it contains. An array <a href="/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_lba_filter_table_entry">LBA_FILTER_TABLE_ENTRY</a> structure follows <b>LBA_FILTER_TABLE</b>.

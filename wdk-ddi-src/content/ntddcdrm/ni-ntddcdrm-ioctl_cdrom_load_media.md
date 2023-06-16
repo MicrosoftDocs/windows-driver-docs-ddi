@@ -49,6 +49,8 @@ Draws a protruding CDROM tray back into the drive.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

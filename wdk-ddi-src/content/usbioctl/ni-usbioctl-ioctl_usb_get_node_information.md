@@ -51,6 +51,8 @@ The <b>IOCTL_USB_GET_NODE_INFORMATION</b> I/O control request is used with the <
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 On input, the <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure. On input, the <b>NodeType</b> member of this structure must indicate whether the parent device is a hub or a non-hub composite device.

@@ -53,6 +53,8 @@ To perform this operation, call the
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_streaming_control">CDROM_STREAMING_CONTROL</a>

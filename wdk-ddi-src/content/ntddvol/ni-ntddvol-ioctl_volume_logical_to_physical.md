@@ -53,6 +53,8 @@ The volume manager supports this IOCTL for all types of basic and dynamic volume
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Caller inserts the <a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_logical_offset">VOLUME_LOGICAL_OFFSET</a> structure containing the logical offset at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.

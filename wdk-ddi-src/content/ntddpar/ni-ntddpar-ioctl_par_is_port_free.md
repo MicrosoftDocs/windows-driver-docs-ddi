@@ -61,6 +61,8 @@ For more information, see <a href="/previous-versions/ff544195(v=vs.85)">Locking
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

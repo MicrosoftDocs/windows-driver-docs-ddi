@@ -49,6 +49,8 @@ In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

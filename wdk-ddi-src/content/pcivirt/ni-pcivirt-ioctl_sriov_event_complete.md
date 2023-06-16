@@ -56,6 +56,8 @@ The  request indicates that the virtualization stack  or the SR-IOV device recei
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to an <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_pnp_event_complete">SRIOV_PNP_EVENT_COMPLETE</a> structure that contains the NTSTATUS code with which <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a> request must be completed.

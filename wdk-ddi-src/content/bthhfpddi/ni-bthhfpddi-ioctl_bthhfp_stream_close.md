@@ -50,6 +50,8 @@ The <b>IOCTL_BTHHFP_STREAM_CLOSE</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 N/A

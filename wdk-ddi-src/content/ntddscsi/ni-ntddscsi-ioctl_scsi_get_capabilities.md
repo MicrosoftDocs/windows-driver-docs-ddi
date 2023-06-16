@@ -56,6 +56,8 @@ To get SCSI capabilities data, a Plug and Play driver must issue an <a href="/wi
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

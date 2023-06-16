@@ -51,6 +51,10 @@ The <b>IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME</b> I/O request queries the bus dr
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 <b>Parameters.Others.Argument1</b> should be a pointer to a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_name">USB_HUB_NAME</a> structure that will be filled in with the name of the host controller.

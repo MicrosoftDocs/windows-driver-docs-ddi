@@ -50,6 +50,8 @@ The IOCTL_BTH_SDP_REMOVE_RECORD request removes a local SDP record that the prof
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The 

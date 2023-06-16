@@ -50,6 +50,8 @@ The <b>IOCTL_BTHHFP_MIC_SET_VOLUME</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A LONG that represents the volume level in 1/65536 decibels.

@@ -57,6 +57,8 @@ Other means of checking for disk failure include monitoring the event log and re
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

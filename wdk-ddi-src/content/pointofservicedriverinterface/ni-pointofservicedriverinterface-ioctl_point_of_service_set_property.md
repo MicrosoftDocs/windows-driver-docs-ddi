@@ -49,6 +49,8 @@ This I/O control function sets the specified property on the device.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 [PosPropertyId](./ne-pointofservicedriverinterface-_pospropertyid.md) of the property to set followed by the value of the property. The encoding for the type follows the property ID in the byte stream.

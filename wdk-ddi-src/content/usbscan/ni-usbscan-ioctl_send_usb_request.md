@@ -45,6 +45,8 @@ Sends a vendor-defined request to a USB device, using the control pipe, and opti
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to an [**IO_BLOCK_EX**](./ns-usbscan-_io_block_ex.md) structure.

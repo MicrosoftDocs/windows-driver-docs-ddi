@@ -49,6 +49,8 @@ The <b>IOCTL_GNSS_STOP_BREADCRUMBING</b> control code is used to stop breadcrumb
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to the input buffer.

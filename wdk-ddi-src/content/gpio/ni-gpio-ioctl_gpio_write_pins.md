@@ -49,6 +49,8 @@ The <b>IOCTL_GPIO_WRITE_PINS</b> I/O control code enables a client of the genera
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The input buffer.

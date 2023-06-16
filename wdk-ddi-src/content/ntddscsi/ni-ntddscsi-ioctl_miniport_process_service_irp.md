@@ -49,6 +49,8 @@ This IOCTL is used by a user-mode application or kernel-mode driver that require
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a user-defined structure.

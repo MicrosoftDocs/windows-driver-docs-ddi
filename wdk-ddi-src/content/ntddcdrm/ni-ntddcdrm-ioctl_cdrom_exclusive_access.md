@@ -63,6 +63,8 @@ A valid FileObject handle must exist in order for this IOCTL to succeed. The Fil
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Depending on the operation that the caller requests, the caller must provide one of the following structures as input at <b>Irp->AssociatedIrp.SystemBuffer</b>:

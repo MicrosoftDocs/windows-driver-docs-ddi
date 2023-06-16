@@ -50,6 +50,8 @@ Gets the value of the specified system environment variables using
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/ntddsysenv/ns-ntddsysenv-_sysenv_variable">SYSENV_VARIABLE</a> structure that specifies the variable..

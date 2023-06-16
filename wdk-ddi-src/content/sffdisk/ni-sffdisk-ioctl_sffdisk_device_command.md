@@ -122,6 +122,8 @@ If the caller opened the device without specifying the FILE_FLAG_OVERLAPPED flag
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

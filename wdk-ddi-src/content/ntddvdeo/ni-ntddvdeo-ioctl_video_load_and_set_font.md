@@ -49,6 +49,8 @@ Loads a user-defined font on the adapter. Miniport drivers for VGA-compatible ad
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains a VIDEO_LOAD_FONT_INFORMATION structure describing the font's width, height, and size, as well as a pointer to the font buffer.

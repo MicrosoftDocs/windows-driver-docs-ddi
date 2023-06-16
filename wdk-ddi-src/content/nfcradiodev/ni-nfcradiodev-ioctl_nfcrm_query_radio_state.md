@@ -49,6 +49,8 @@ This IOCTL is used by the radio management application or service to query the c
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

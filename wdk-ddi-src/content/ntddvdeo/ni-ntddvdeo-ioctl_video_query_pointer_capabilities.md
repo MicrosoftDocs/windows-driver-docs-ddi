@@ -49,6 +49,8 @@ Returns information about the adapter's "hardware cursor" features. Support for 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

@@ -49,6 +49,8 @@ Returns information about an event occurring on a USB interrupt pipe.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <b>NULL</b>

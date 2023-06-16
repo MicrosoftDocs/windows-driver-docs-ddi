@@ -49,6 +49,8 @@ If possible, resets a non-SCSI storage device without affecting other devices on
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

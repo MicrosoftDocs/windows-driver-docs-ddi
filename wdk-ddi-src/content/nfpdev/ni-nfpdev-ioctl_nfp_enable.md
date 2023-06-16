@@ -49,6 +49,8 @@ The client sends the <b>IOCTL_NFP_ENABLE</b> request to re-enable previously dis
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

@@ -49,6 +49,8 @@ The IOCTL_BIOMETRIC_UPDATE_FIRMWARE IOCTL tells the driver to update the firmwar
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_update_firmware">WINBIO_UPDATE_FIRMWARE</a>

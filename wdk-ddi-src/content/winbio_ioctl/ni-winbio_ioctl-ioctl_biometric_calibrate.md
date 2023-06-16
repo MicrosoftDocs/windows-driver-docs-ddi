@@ -49,6 +49,8 @@ The IOCTL_BIOMETRIC_CALIBRATE IOCTL directs the driver to perform any necessary 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

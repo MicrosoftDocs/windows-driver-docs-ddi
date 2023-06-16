@@ -49,6 +49,8 @@ Returns Region Playback Control (RPC) information for a DVD device, such as whet
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

@@ -42,6 +42,8 @@ dev_langs:
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

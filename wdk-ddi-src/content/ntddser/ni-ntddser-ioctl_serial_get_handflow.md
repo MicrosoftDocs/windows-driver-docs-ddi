@@ -53,6 +53,8 @@ For more information about the settings for handshake flow control, see <a href=
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

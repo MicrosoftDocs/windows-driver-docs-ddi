@@ -47,6 +47,8 @@ Applies to GNSS DDI version 2 and later.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a [GNSS_GEOFENCE_DELETE_PARAM](./ns-gnssdriver-gnss_geofence_delete_param.md) structure that defines the geofence to be deleted.

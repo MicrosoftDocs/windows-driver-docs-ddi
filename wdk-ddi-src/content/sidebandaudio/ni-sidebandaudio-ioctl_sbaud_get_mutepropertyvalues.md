@@ -43,6 +43,8 @@ Audio driver can call this IOCTL to query the mute stepped data ranges and min/m
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A 0 based index value based on the number of Audio endpoints as reported by the [IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR](./ni-sidebandaudio-ioctl_sbaud_get_device_descriptor.md). This is a ULONG value from 0 to (N-1) where N is the number of Endpoints for the device.

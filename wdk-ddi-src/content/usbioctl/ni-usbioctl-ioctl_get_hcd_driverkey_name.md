@@ -53,6 +53,8 @@ The <b>IOCTL_GET_HCD_DRIVERKEY_NAME</b> I/O control request retrieves the driver
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

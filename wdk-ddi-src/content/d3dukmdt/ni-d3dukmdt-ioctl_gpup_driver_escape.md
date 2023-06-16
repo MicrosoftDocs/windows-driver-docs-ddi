@@ -45,6 +45,8 @@ The user mode emulation DLL calls this IOCTL to exchange information with the ke
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 

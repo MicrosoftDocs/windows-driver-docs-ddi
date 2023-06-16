@@ -48,6 +48,8 @@ This **IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES** request is used to send a data
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at *Irp->AssociatedIrp.SystemBuffer* contains a [DEVICE_DSM_INPUT](./ns-ntddstor-_device_manage_data_set_attributes.md) structure. Depending on the **Action** member of this structure, the input buffer might additionally include a parameter block and block of data set ranges. See [DEVICE_DSM_ACTION Descriptions](/windows-hardware/drivers/storage/device-dsm-action-descriptions) for descriptions of all possible actions.

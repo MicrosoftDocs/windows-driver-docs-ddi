@@ -55,6 +55,10 @@ For additional information, see [Supporting Devices that Have Wake-Up Capabiliti
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 **Parameters.DeviceIoControl.Type3InputBuffer** should be a pointer to a **USB_IDLE_CALLBACK_INFO** structure. This structure should contain a pointer to the callback routine and a pointer to the callback routine context. 

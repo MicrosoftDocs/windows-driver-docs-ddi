@@ -48,6 +48,8 @@ The **IOCTL_SMARTCARD_TRANSMIT** request transmits data to, and receives data fr
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 * **Irp->AssociatedIrp.SystemBuffer**

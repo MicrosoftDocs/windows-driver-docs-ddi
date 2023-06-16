@@ -48,6 +48,8 @@ The **IOCTL_EHSTOR_BANDMGMT_ERASE_BAND** request cryptographically erases and re
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The input buffer at **Irp->AssociatedIrp.SystemBuffer** must contain an [**ERASE_BAND_PARAMETERS**](ns-ehstorbandmgmt-_erase_band_parameters.md) and possibly an **AUTH_KEY** structure.

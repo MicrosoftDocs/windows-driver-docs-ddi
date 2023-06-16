@@ -42,6 +42,8 @@ product:
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 See Remarks.

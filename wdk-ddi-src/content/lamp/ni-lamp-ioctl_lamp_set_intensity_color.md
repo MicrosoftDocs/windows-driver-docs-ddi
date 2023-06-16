@@ -54,6 +54,8 @@ The **IOCTL_LAMP_SET_INTENSITY_COLOR** control code sets the lamp to the specifi
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 `Irp->AssociatedIrp.SystemBuffer` points to a [LAMP_INTENSITY_COLOR](./ns-lamp-lamp_intensity_color.md) structure.

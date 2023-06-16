@@ -53,6 +53,8 @@ If the handshake flow control of the device is configured to automatically use D
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

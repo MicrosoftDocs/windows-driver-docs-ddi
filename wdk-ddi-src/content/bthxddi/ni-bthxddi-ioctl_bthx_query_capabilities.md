@@ -49,6 +49,8 @@ IOCTL_BTHX_QUERY_CAPABILITIES is used to query the capabilities of the transport
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

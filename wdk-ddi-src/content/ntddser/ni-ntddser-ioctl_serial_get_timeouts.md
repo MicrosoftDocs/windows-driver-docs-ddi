@@ -53,6 +53,8 @@ For more information about time-outs, see <a href="/previous-versions/ff547486(v
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

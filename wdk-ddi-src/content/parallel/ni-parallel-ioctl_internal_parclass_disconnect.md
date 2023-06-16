@@ -57,6 +57,10 @@ For more information, see <a href="/previous-versions/ff543942(v=vs.85)">Connect
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 None.

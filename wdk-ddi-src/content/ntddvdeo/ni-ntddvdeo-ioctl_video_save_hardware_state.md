@@ -49,6 +49,8 @@ Saves the state of the video adapter in the VRP <b>OutputBuffer</b>. Miniport dr
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

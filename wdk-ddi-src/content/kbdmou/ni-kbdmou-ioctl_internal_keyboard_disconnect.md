@@ -49,6 +49,10 @@ The IOCTL_INTERNAL_KEYBOARD_DISCONNECT request is completed with a status of STA
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 None

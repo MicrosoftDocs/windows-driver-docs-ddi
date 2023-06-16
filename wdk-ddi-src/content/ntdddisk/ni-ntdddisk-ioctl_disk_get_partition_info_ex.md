@@ -49,6 +49,8 @@ Returns information about the type, size, and nature of a disk partition. (Flopp
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

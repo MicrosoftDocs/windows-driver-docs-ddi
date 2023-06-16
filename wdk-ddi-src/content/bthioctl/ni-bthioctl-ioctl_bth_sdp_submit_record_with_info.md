@@ -49,6 +49,8 @@ The IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO request adds an SDP record to the loca
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The **AssociatedIrp.SystemBuffer** member contains a [BTH_SDP_RECORD](ns-bthioctl-_bth_sdp_record.md) structure that specifies the SDP record to add, its size, the required security for the record, and publication options for the record. The structure is followed by the raw SDP record.

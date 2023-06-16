@@ -52,6 +52,8 @@ This IOCTL is available in Windows 8.1 and later operating systems.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A BOOL that is set to TRUE to request an immediate update. Otherwise, set this to FALSE.

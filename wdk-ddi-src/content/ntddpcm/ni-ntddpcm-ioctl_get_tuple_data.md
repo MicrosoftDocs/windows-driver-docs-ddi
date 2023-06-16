@@ -49,6 +49,8 @@ This request retrieves tuple data that is stored in a PC Card's or CardBus card'
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The caller initializes the <a href="/windows-hardware/drivers/ddi/ntddpcm/ns-ntddpcm-_tuple_request">TUPLE_REQUEST</a> structure, which is defined in <i>ntddpcm.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.

@@ -49,6 +49,8 @@ The <b>IOCTL_SERIAL_IMMEDIATE_CHAR</b> request causes a specified character to b
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to the UCHAR value to transmit immediately.

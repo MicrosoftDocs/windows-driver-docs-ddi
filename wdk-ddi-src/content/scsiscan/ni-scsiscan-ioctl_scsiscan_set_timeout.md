@@ -49,6 +49,8 @@ The **IOCTL_SCSISCAN_SET_TIMEOUT** control code modifies the time-out value used
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The location containing a time-out value, in half seconds.

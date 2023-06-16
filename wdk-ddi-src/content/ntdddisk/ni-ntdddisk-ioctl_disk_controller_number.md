@@ -49,6 +49,8 @@ Retrieves the controller number and disk number for an IDE disk.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

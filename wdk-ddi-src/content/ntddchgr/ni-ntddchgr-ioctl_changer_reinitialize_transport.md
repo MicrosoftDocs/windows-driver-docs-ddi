@@ -49,6 +49,8 @@ Physically recalibrates a transport element, typically after the changer has bee
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
        The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> indicates the element to initialize.

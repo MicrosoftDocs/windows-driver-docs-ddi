@@ -49,6 +49,8 @@ Retrieves the system query performance counter (QPC) value  synchronized with th
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

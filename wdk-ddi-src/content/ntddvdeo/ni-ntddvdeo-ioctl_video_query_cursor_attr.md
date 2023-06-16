@@ -49,6 +49,8 @@ Returns the size, position, and visibility of the cursor. Miniport drivers for V
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

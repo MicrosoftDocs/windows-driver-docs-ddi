@@ -88,6 +88,8 @@ Storage class drivers set the minor IRP number to IRP_MN_SCSI_CLASS to indicate 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 This structure includes a SCSI CDB, which must be initialized by the caller except for the path, target ID, and logical unit number (LUN), which are filled in by the port driver. For a data-out command, the data to be transferred is included in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> at <b>DataBufferOffset</b> in the <b>SCSI_PASS_THROUGH</b> structure. However, the caller must allocate additional storage, immediately following <b>SCSI_PASS_THROUGH</b>, if the caller asks for request-sense data.

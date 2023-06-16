@@ -52,6 +52,8 @@ When the client sets this value to zero (0), it informs the HID class driver tha
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
        The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member specifies the size, in bytes, of a requester-allocated output buffer.

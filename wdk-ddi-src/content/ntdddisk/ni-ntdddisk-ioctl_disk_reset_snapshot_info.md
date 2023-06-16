@@ -49,6 +49,8 @@ Clears all volume shadow copy service (VSS) hardware-based snapshot information 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

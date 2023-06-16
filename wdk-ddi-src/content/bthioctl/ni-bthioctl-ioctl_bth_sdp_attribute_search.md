@@ -49,6 +49,8 @@ The IOCTL_BTH_SDP_ATTRIBUTE_SEARCH request obtains attributes for the specified 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The 

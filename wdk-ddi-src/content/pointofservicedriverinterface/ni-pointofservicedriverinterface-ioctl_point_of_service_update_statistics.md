@@ -49,6 +49,8 @@ This I/O control function sets the specified statistic to the value in the input
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 [PosStatisticsHeader](./ns-pointofservicedriverinterface-_posstatisticsheader.md) where *PosStatisticsHeader.EntryCount* is set to the number of statistics to update.

@@ -51,6 +51,8 @@ The audio driver issues the <b>IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

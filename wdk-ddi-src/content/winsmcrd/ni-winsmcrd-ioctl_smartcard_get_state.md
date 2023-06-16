@@ -50,6 +50,8 @@ The <b>IOCTL_SMARTCARD_GET_STATE</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

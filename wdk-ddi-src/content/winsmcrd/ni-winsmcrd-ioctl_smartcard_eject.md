@@ -49,6 +49,8 @@ The IOCTL_SMARTCARD_EJECT request ejects the currently inserted smart card from 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

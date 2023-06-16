@@ -53,6 +53,8 @@ Client drivers must send this IOCTL at an IRQL of PASSIVE_LEVEL.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

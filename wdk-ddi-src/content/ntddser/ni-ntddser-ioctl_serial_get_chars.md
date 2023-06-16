@@ -51,6 +51,8 @@ To set special characters, a client can use an <a href="/windows-hardware/driver
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

@@ -49,6 +49,8 @@ Resets the specified USB transfer pipe that is associated with the specified dev
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to a location that contains a value of type <a href="/windows-hardware/drivers/ddi/usbscan/ne-usbscan-pipe_type">PIPE_TYPE</a>.

@@ -57,6 +57,8 @@ For volumes that are controlled by the cluster service, <b>IOCTL_VOLUME_ONLINE</
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

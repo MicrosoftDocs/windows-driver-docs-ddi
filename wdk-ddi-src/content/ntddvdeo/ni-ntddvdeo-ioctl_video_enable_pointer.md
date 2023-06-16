@@ -49,6 +49,8 @@ Makes the pointer visible by enabling pointer attributes. Support for this modal
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

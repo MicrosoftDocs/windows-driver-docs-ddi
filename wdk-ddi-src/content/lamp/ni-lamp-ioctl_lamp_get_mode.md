@@ -54,6 +54,8 @@ The **IOCTL_LAMP_GET_MODE** control code queries the mode with which the lamp is
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 `Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_MODE](./ne-lamp-lamp_mode.md).

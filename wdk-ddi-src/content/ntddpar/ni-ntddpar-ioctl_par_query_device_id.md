@@ -55,6 +55,8 @@ The IOCTL_PAR_QUERY_DEVICE_ID request returns the IEEE 1284 device ID of a paral
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

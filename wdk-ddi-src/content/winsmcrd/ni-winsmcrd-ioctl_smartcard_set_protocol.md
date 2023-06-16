@@ -48,6 +48,8 @@ The **IOCTL_SMARTCARD_SET_PROTOCOL** request sets the protocol that the driver w
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 * **Irp->AssociatedIrp.SystemBuffer**

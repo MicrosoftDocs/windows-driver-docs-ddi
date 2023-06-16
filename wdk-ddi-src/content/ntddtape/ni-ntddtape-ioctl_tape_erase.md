@@ -49,6 +49,8 @@ Erases the current tape partition, either as a TAPE_ERASE_LONG (in other words, 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a structure of type <a href="/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_erase">TAPE_ERASE</a>. 

@@ -51,6 +51,8 @@ For more information, see the definitions of the modem status register bits (SER
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

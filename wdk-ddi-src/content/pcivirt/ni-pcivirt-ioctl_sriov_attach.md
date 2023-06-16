@@ -55,6 +55,8 @@ The  request indicates that the virtualization stack wants to register for Plug 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

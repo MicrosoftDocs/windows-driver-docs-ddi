@@ -51,6 +51,8 @@ To set the modem control register, a client can use an <a href="/windows-hardwar
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

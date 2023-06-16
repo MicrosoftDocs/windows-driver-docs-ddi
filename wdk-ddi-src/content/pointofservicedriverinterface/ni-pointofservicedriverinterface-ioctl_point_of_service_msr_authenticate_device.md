@@ -49,6 +49,8 @@ This IO control function authenticates the magnetic stripe reader (MSR).
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to the input buffer, a [MSR_AUTHENTICATE_DEVICE](./ns-pointofservicedriverinterface-_msr_authenticate_device.md) variable.

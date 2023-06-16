@@ -62,6 +62,8 @@ The IOCTL_PAR_QUERY_LOCATION request returns the "LPT<i>n</i>" or "LPT<i>n.m</i>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The client sets the <b>AssociatedIrp.SystemBuffer</b> member to a pointer to a character buffer for the location information.

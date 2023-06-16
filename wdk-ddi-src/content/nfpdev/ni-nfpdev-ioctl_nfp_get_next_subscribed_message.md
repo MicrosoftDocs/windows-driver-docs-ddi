@@ -49,6 +49,8 @@ The client sends the <b>IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE</b> request to the
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

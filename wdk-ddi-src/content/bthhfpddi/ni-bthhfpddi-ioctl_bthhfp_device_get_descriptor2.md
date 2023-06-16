@@ -52,6 +52,8 @@ This IOCTL is available in Windows 8.1 and later operating systems, and it supe
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

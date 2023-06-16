@@ -53,6 +53,8 @@ This IOCTL uses the AVC_SUBUNIT_ADDR_SPEC structure.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

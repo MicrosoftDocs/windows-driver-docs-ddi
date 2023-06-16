@@ -49,6 +49,8 @@ The IOCTL_ACPI_RELEASE_GLOBAL_LOCK device control request is reserved for intern
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

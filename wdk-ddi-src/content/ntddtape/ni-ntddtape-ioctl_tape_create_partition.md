@@ -49,6 +49,8 @@ Creates the specified number of fixed, select, or initiator partition(s) of the 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
        The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a structure of type <a href="/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_create_partition">TAPE_CREATE_PARTITION</a> that specifies the partition(s) to be created.

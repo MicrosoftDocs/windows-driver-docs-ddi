@@ -41,6 +41,8 @@ Retrieve the current printer protocol code of the USB printer interface.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 NULL
