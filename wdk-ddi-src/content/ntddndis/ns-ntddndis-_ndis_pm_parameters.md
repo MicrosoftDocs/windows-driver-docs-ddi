@@ -66,7 +66,7 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 Added various changes for NDIS 6.30.
 
-Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_CAPABILITIES_REVISION_2.
+Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_PARAMETERS_REVISION_2.
 
 
 
@@ -74,7 +74,7 @@ Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_CAPABILITIES_REVISION_2.
 
 Original version for NDIS 6.20.
 
-Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_CAPABILITIES_REVISION_1.
+Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_PARAMETERS_REVISION_1.
 
 ### -field EnabledWoLPacketPatterns
 
