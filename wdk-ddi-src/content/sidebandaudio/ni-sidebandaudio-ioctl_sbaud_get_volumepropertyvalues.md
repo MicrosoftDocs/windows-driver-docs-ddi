@@ -43,6 +43,8 @@ Audio driver can call this IOCTL to query the volume stepped data ranges and min
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Endpoint index.

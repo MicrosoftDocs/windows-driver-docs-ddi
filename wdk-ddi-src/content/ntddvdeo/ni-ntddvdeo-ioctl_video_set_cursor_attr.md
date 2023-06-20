@@ -49,6 +49,8 @@ Sets the cursor size, position, and visibility. Miniport drivers for VGA-compati
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains the VIDEO_CURSOR_ATTRIBUTES structure to be set.

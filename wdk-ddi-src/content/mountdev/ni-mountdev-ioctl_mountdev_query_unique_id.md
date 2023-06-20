@@ -49,6 +49,8 @@ Support for this IOCTL by mount manager clients is mandatory. Upon receiving thi
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

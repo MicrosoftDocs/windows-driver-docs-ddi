@@ -45,6 +45,8 @@ The **IOCTL_USBPRINT_VENDOR_GET_COMMAND** request allows upper-layer software (s
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a buffer, an array of UCHAR elements. The meaning of each array element is shown in the following table.

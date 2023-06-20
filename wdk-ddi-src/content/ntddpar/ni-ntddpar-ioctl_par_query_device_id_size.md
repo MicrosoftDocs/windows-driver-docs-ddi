@@ -55,6 +55,8 @@ The IOCTL_PAR_QUERY_DEVICE_ID_SIZE request returns the size, in bytes, of a buff
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

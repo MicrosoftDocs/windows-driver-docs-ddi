@@ -49,6 +49,8 @@ This IOCTL is not handled by video miniport drivers. It is handled entirely by t
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

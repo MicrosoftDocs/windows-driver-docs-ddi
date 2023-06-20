@@ -51,6 +51,8 @@ To obtain the value of the line control register, a client can use an <a href="/
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> points to a client-allocated <a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_line_control">SERIAL_LINE_CONTROL</a> structure that is used to input line control information.

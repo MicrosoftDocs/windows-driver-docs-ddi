@@ -50,6 +50,8 @@ The <b>IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 N/A

@@ -53,6 +53,8 @@ Client drivers must send this IOCTL at an IRQL of PASSIVE_LEVEL.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_information">USB_NODE_CONNECTION_INFORMATION</a> structure that describes the connection. On input, the <b>ConnectionIndex</b> member of this structure contains the port number.

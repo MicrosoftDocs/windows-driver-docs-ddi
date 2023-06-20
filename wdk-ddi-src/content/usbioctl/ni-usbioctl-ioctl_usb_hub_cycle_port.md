@@ -51,6 +51,8 @@ The <b>IOCTL_USB_HUB_CYCLE_PORT</b> I/O control request power-cycles the port th
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a caller-allocated  <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_cycle_port_params">USB_CYCLE_PORT_PARAMS</a> structure that specifies the port number.

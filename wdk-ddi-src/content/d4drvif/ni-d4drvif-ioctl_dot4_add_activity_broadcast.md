@@ -49,6 +49,8 @@ This topic describes <b>IOCTL_DOT4_ADD_ACTIVITY_BROADCAST</b>.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

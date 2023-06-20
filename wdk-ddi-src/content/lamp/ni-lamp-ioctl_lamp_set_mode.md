@@ -54,6 +54,8 @@ The **IOCTL_LAMP_SET_MODE** control code sets the mode in which the lamp operate
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 `Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_MODE](./ne-lamp-lamp_mode.md).

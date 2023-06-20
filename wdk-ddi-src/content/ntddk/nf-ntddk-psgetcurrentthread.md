@@ -4,7 +4,7 @@ title: PsGetCurrentThread function (ntddk.h)
 description: The PsGetCurrentThread routine identifies the current thread.
 old-location: kernel\psgetcurrentthread.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/30/2023
 keywords: ["PsGetCurrentThread function"]
 ms.keywords: ExGetCurrentResourceThread, PsGetCurrentThread, PsGetCurrentThread routine [Kernel-Mode Driver Architecture], k108_75fb6f47-8a13-4f2c-9b94-a8b7125bbcb6.xml, kernel.psgetcurrentthread, wdm/PsGetCurrentThread
 req.header: ntddk.h
@@ -53,9 +53,16 @@ The <b>PsGetCurrentThread</b> routine identifies the current thread.
 
 ## -remarks
 
-This macro
+You can use the **ExGetCurrentResourceThread** macro to return the thread ID of the current thread.
+
+`#define ExGetCurrentResourceThread() ((ULONG_PTR)PsGetCurrentThread())`
+
 
 ## -see-also
+
+[**ExSetResourceOwnerPointerEx**](../wdm/nf-wdm-exsetresourceownerpointerex.md)
+
+[**ExReleaseResourceForThreadLite**](../wdm/nf-wdm-exreleaseresourceforthreadlite.md)
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetcurrentthread">KeGetCurrentThread</a>
 

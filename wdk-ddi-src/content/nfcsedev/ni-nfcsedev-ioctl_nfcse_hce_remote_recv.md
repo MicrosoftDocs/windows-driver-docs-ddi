@@ -49,6 +49,8 @@ Either returns the next data buffer available, or if there are no more buffered 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

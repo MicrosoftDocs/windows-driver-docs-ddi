@@ -49,6 +49,8 @@ Sets disk cache configuration data.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The input buffer.

@@ -49,6 +49,8 @@ Retrieves the hotplug configuration of the specified device.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

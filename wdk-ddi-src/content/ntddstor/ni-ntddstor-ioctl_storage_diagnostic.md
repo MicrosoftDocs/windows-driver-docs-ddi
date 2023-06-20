@@ -42,6 +42,8 @@ ms.custom: engagement-fy23
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 [**Irp->AssociatedIrp.SystemBuffer**](../wdm/ns-wdm-_irp.md) contains a [**STORAGE_DIAGNOSTIC_REQUEST**](ns-ntddstor-_storage_diagnostic_request.md) structure that describes the diagnostic request being made about the storage driver stack.

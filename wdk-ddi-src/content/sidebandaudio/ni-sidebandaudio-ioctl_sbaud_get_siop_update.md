@@ -43,6 +43,8 @@ This control codes used by an audio driver when cooperating with the Audio class
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 

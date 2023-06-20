@@ -49,6 +49,8 @@ Returns a description of every transfer pipe supported for a device.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <b>NULL</b>.

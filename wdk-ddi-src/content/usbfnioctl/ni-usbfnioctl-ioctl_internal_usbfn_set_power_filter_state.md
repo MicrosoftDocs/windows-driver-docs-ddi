@@ -50,6 +50,10 @@ Do not use.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 The input buffer contains a <a href="/windows-hardware/drivers/ddi/usbfnioctl/ns-usbfnioctl-_usbfn_power_filter_state">USBFN_POWER_FILTER_STATE</a> structure that specifies the device state.

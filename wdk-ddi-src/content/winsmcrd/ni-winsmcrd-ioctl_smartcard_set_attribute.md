@@ -48,6 +48,8 @@ The **IOCTL_SMARTCARD_SET_ATTRIBUTE** control code sets various attributes in a 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 (DWORD) contains the attribute identifier.

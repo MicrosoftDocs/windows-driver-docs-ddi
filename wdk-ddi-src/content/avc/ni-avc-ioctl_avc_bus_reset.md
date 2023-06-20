@@ -53,6 +53,8 @@ This request causes <i>avc.sys</i> to invalidate its device relations, which res
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

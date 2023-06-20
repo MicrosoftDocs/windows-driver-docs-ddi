@@ -1,15 +1,14 @@
 ---
 UID: NE:d3dkmddi._DXGK_GDIROP_COLORFILL
-title: _DXGK_GDIROP_COLORFILL (d3dkmddi.h)
-description: The DXGK_GDIROP_COLORFILL enumeration indicates the type of GDI raster operation (ROP) to implement in a GDI hardware-accelerated color fill operation.
-old-location: display\dxgk_gdirop_colorfill.htm
-ms.date: 05/10/2018
+title: DXGK_GDIROP_COLORFILL (d3dkmddi.h)
+description: Learn more about the DXGK_GDIROP_COLORFILL enumeration.
+ms.date: 06/09/2023
 keywords: ["DXGK_GDIROP_COLORFILL enumeration"]
 ms.keywords: DXGK_GDIROPCF_DSTINVERT, DXGK_GDIROPCF_INVALID, DXGK_GDIROPCF_PATAND, DXGK_GDIROPCF_PATCOPY, DXGK_GDIROPCF_PATINVERT, DXGK_GDIROPCF_PATOR, DXGK_GDIROPCF_PDXN, DXGK_GDIROPCF_ROP3, DXGK_GDIROP_COLORFILL, DXGK_GDIROP_COLORFILL enumeration [Display Devices], DmEnums_eaf6bb81-110e-428b-9dc8-22d152bce5b9.xml, _DXGK_GDIROP_COLORFILL, d3dkmddi/DXGK_GDIROPCF_DSTINVERT, d3dkmddi/DXGK_GDIROPCF_INVALID, d3dkmddi/DXGK_GDIROPCF_PATAND, d3dkmddi/DXGK_GDIROPCF_PATCOPY, d3dkmddi/DXGK_GDIROPCF_PATINVERT, d3dkmddi/DXGK_GDIROPCF_PATOR, d3dkmddi/DXGK_GDIROPCF_PDXN, d3dkmddi/DXGK_GDIROPCF_ROP3, d3dkmddi/DXGK_GDIROP_COLORFILL, display.dxgk_gdirop_colorfill
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,44 +42,42 @@ api_name:
  - DXGK_GDIROP_COLORFILL
 ---
 
-# _DXGK_GDIROP_COLORFILL enumeration
-
+# DXGK_GDIROP_COLORFILL enumeration
 
 ## -description
 
-The DXGK_GDIROP_COLORFILL enumeration indicates the type of GDI raster operation (ROP) to implement in a GDI hardware-accelerated color fill operation.
+The **DXGK_GDIROP_COLORFILL** enumeration indicates the type of GDI raster operation (ROP) to implement in a GDI hardware-accelerated color fill operation.
 
 ## -enum-fields
 
-### -field DXGK_GDIROPCF_INVALID
+### -field DXGK_GDIROPCF_INVALID:0
 
 Indicates that the GDI raster operation is invalid.
 
-### -field DXGK_GDIROPCF_PATCOPY
+### -field DXGK_GDIROPCF_PATCOPY:1
 
 Indicates that the specified color is copied into all pixels of the destination rectangle.
 
-### -field DXGK_GDIROPCF_PATINVERT
+### -field DXGK_GDIROPCF_PATINVERT:2
 
-Indicates that the specified color is combined with the colors of the destination rectangle by using the Boolean <b>XOR</b> operator.
+Indicates that the specified color is combined with the colors of the destination rectangle by using the Boolean XOR operator.
 
-### -field DXGK_GDIROPCF_PDXN
+### -field DXGK_GDIROPCF_PDXN:3
 
-Indicates that the specified color is combined with the colors of the destination rectangle by using the Boolean <b>NOT(XOR)</b> operator.
+Indicates that the specified color is combined with the colors of the destination rectangle by using the Boolean NOT(XOR) operator.
 
-### -field DXGK_GDIROPCF_DSTINVERT
+### -field DXGK_GDIROPCF_DSTINVERT:4
 
 Indicates that the destination rectangle is inverted.
 
-### -field DXGK_GDIROPCF_PATAND
+### -field DXGK_GDIROPCF_PATAND:5
 
-Indicates that the specified color is combined with the colors of the destination rectangle by using the Boolean <b>AND</b> operator.
+Indicates that the specified color is combined with the colors of the destination rectangle by using the Boolean AND operator.
 
-### -field DXGK_GDIROPCF_PATOR
+### -field DXGK_GDIROPCF_PATOR:6
 
-Indicates that the colors of the specified pattern are combined with the colors of the destination rectangle by using the Boolean <b>OR</b> operator.
+Indicates that the colors of the specified pattern are combined with the colors of the destination rectangle by using the Boolean OR operator.
 
-### -field DXGK_GDIROPCF_ROP3
+### -field DXGK_GDIROPCF_ROP3:7
 
 Indicates that a ternary GDI raster operation (ROP3) will be applied.
-

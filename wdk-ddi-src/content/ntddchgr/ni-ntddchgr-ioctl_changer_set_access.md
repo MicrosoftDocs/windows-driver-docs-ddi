@@ -49,6 +49,8 @@ Sets the state of the device's import/export port (IEport), door, or keypad.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
        The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_set_access">CHANGER_SET_ACCESS</a> structure indicating the element and the operation to perform.

@@ -68,6 +68,8 @@ Caution is required here because IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS is defined w
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The input buffer at Irp->AssociatedIrp.SystemBuffer must contain a ULONG value as defined in <a href="/windows-hardware/drivers/ddi/ehstorioctl/ne-ehstorioctl-_pdo_type">PDO_TYPE</a>,

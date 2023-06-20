@@ -49,6 +49,8 @@ Support for this IOCTL by the mount manager clients is optional. The mount manag
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The mount point manager places a variable-length structure of type [MOUNTDEV_NAME](../mountmgr/ns-mountmgr-_mountdev_name.md), defined in *Mountmgr.h* at the beginning of the buffer at **Irp-\>AssociatedIrp.SystemBuffer**. The mount manager inserts the persistent name just assigned at the address pointed to by the *Name* member of this structure.

@@ -49,6 +49,8 @@ Returns information about the current adapter mode. Miniport drivers are require
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

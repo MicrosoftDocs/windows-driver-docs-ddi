@@ -50,6 +50,10 @@ The class driver sends this request to get the entire USB interface descriptor s
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 A pointer to a buffer that contains a <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_interface_info">USBFN_INTERFACE_INFO</a> structure.

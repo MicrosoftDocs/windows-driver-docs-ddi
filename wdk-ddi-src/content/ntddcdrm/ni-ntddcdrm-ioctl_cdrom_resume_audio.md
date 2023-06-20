@@ -49,6 +49,8 @@ Resumes a suspended audio operation.   Obsolete, beginning with Windows Vista.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

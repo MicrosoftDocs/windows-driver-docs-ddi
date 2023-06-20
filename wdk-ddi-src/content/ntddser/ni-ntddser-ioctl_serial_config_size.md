@@ -53,6 +53,8 @@ This request is obsolete and should not be used by new drivers for Microsoft Win
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

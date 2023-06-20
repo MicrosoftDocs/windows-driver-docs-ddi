@@ -49,6 +49,8 @@ The IOCTL_BTH_GET_RADIO_INFO request obtains information about the specified rem
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The 

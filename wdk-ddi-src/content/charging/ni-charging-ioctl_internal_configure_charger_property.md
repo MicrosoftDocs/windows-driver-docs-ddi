@@ -50,6 +50,10 @@ The <b>IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 <b>Irp->AssociatedIrp.SystemBuffer</b> must contain a structure that starts with a <a href="/windows-hardware/drivers/ddi/charging/ns-charging-_configurable_charger_property_header">CONFIGURABLE_CHARGER_PROPERTY_HEADER</a> structure.

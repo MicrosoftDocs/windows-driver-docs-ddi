@@ -51,6 +51,10 @@ The <b>IOCTL_INTERNAL_USB_GET_PORT_STATUS</b> I/O request queries the status of 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 <b>Parameters.Others.Argument1</b> should be a pointer to a ULONG to be filled in with the port status flags.

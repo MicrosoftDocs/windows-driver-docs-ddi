@@ -2,9 +2,9 @@
 UID: NF:wdfsync.WdfSpinLockRelease
 tech.root: wdf
 title: WdfSpinLockRelease
-ms.date: 04/12/2023
+description: The WdfSpinLockAcquire method releases a specified spin lock.
+ms.date: 05/05/2023
 targetos: Windows
-description: 
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -55,6 +55,8 @@ A handle to a framework spin-lock object, obtained by a previous call to <a href
 ## -remarks
 
 A bug check occurs if the driver supplies an invalid object handle.
+
+The **WdfSpinLockRelease** method releases the spin lock that a driver obtained by previously calling [**WdfSpinLockAcquire**](nf-wdfsync-wdfspinlockacquire.md). **WdfSpinLockRelease** also restores the driver's IRQL to the value that it had before the driver called **WdfSpinLockAcquire**.
 
 For more information about spin locks, see [Using Framework Locks](/windows-hardware/drivers/wdf/using-framework-locks#framework-spin-locks).
 

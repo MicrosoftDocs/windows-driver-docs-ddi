@@ -49,6 +49,8 @@ This I/O control function is called when a client is ready to relinquish its cla
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Not used with this operation; set to **NULL**.

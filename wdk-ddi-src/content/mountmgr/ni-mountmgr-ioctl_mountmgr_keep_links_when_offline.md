@@ -51,6 +51,8 @@ Clusters use this IOCTL to ensure that a node can continue to access a volume wi
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The mount manager client loads the following structure with the symbolic link that will persist even after its volume is removed from the system. The initialized structure <a href="/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_target_name">MOUNTMGR_TARGET_NAME</a>, defined in <i>Mountmgr.h</i>, is inserted at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.

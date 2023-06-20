@@ -49,6 +49,8 @@ Causes the device to skip to the given target address when the device reaches a 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_storage_set_read_ahead">STORAGE_SET_READ_AHEAD</a> structure that indicates the trigger and target addresses.

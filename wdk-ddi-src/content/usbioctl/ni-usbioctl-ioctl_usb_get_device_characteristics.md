@@ -49,6 +49,8 @@ The client driver sends this request to determine general characteristics about 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

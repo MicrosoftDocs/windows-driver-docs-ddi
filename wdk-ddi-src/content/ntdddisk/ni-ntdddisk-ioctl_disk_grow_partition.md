@@ -49,6 +49,8 @@ Increases the size of an existing partition. It is used in conjunction with <a h
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_grow_partition">DISK_GROW_PARTITION</a> values - that will be used to increase the size of the partition.

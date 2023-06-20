@@ -51,6 +51,8 @@ The IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX request differs from the older <a href="/w
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

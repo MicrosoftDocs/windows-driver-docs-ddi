@@ -47,6 +47,8 @@ Applies to GNSS DDI version 2 and later.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a [GNSS_GEOFENCE_CREATE_PARAM](./ns-gnssdriver-gnss_geofence_create_param.md) structure that defines the geofence to be created.

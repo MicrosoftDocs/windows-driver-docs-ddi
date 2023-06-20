@@ -49,6 +49,8 @@ The IOCTL_BIOMETRIC_RESET IOCTL resets the device to a known or idle state, acco
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

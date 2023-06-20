@@ -55,6 +55,8 @@ The  <b>IOCTL_SRIOV_INVALIDATE_BLOCK</b> request indicates that the virtualizati
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_invalidate_block">SRIOV_INVALIDATE_BLOCK</a> structure  that contains the configuration block to invalidate.

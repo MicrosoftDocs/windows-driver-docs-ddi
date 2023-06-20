@@ -53,6 +53,8 @@ For information about valid line control register settings, see <a href="/window
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

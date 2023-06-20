@@ -49,6 +49,8 @@ The <b>IOCTL_GPIO_READ_PINS</b> I/O control code enables a client of the general
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 No input buffer.

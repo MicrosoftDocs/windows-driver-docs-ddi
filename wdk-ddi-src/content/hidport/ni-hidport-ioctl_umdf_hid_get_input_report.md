@@ -50,6 +50,8 @@ The <b>IOCTL_UMDF_HID_GET_INPUT_REPORT</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A UMDF-based driver calls <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getinputmemory">IWDFRequest::GetInputMemory</a> to retrieve a memory buffer that contains the report ID of the collection.

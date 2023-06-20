@@ -51,6 +51,8 @@ The <b>IOCTL_USB_GET_ROOT_HUB_NAME</b> I/O control request is used with the <a h
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

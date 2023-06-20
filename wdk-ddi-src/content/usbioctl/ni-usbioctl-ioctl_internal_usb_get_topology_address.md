@@ -52,6 +52,10 @@ The <b>IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 <b>Parameters.Others.Argument1</b> points to a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_topology_address">USB_TOPOLOGY_ADDRESS</a> structure to receive the device topology information.

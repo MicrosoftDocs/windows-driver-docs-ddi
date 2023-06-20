@@ -54,7 +54,7 @@ The **KeAcquireInStackQueuedSpinLock** routine acquires a queued spin lock.
 
 ### -param LockHandle
 
-[out] A pointer to a caller-supplied [**KLOCK_QUEUE_HANDLE**](/windows-hardware/drivers/kernel/eprocess) variable that the routine can use to return the spin lock queue handle. The caller passes this value to [**KeReleaseInStackQueuedSpinLock**](nf-wdm-kereleaseinstackqueuedspinlock.md) when releasing the lock.
+[out] A pointer to a caller-supplied [**KLOCK_QUEUE_HANDLE**](/windows-hardware/drivers/kernel/eprocess) variable that the routine can use to return the spin lock queue handle. The caller passes this value to [**KeReleaseInStackQueuedSpinLock**](nf-wdm-kereleaseinstackqueuedspinlock.md) when releasing the lock. Drivers should normally allocate the structure on the stack each time they acquire the lock. A driver should not use the same KLOCK_QUEUE_HANDLE from multiple calling sites.
 
 ## -remarks
 

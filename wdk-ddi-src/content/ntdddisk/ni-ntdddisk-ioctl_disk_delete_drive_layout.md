@@ -49,6 +49,8 @@ Removes partition information from the disk. If the partition style of the disk 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

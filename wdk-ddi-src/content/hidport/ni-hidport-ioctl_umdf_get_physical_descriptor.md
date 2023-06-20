@@ -50,6 +50,8 @@ The <b>IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A UMDF-based driver obtains the size, in bytes, of the buffer by calling <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getdeviceiocontrolparameters">IWDFRequest::GetDeviceIoControlParameters</a> and providing the  <i>pOutBufferSize</i> parameter.

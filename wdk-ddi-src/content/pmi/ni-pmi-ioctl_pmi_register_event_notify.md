@@ -49,6 +49,8 @@ The <b>IOCTL_PMI_REGISTER_EVENT_NOTIFY</b> request registers the IOCTL initiator
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member of the I/O request packet (IRP) points to an initiator-allocated input buffer that contains a <a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_event">PMI_EVENT</a> structure.

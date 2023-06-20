@@ -53,6 +53,8 @@ For more information about time-outs, see <a href="/previous-versions/ff547486(v
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated <a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_timeouts">SERIAL_TIMEOUTS</a> structure that is used to input read and write time-out values.

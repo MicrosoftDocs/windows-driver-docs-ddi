@@ -49,6 +49,8 @@ Releases the address range that was allocated by a preceding <a href="/windows-h
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains an array of <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_memory">VIDEO_MEMORY</a> structures to be released.

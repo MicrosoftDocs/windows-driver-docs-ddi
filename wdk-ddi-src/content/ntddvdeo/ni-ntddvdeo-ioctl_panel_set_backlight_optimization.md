@@ -44,6 +44,8 @@ Sets the backlight optimization for the display panel.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

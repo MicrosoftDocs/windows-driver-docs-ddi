@@ -49,6 +49,8 @@ A client interested in receiving notifications that a message has been transmitt
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

@@ -54,25 +54,25 @@ The <b>WDF_IO_TARGET_OPEN_TYPE</b> enumeration specifies how a driver identifies
 
 ## -enum-fields
 
-### -field WdfIoTargetOpenUndefined
+### -field WdfIoTargetOpenUndefined:0
 
 Reserved for system use.
 
-### -field WdfIoTargetOpenUseExistingDevice
+### -field WdfIoTargetOpenUseExistingDevice:1
 
 This value is supported by KMDF only.
 
 The driver is identifying a remote I/O target by supplying a pointer to a Windows Driver Model (WDM) <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure.
 
-### -field WdfIoTargetOpenByName
+### -field WdfIoTargetOpenByName:2
 
 The driver is opening a remote I/O target by supplying a Unicode name string that represents an <a href="/windows-hardware/drivers/kernel/object-names">object name</a>. This name can identify a device, file, or device interface.
 
-### -field WdfIoTargetOpenReopen
+### -field WdfIoTargetOpenReopen:3
 
 The driver is reopening a remote I/O target after previously calling <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcloseforqueryremove">WdfIoTargetCloseForQueryRemove</a>. For more information, see the following Remarks section.
 
-### -field WdfIoTargetOpenLocalTargetByFile
+### -field WdfIoTargetOpenLocalTargetByFile:4
 
 This value is supported by UMDF only.
 

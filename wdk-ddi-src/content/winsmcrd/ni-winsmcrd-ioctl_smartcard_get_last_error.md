@@ -49,6 +49,8 @@ The IOCTL_SMARTCARD_GET_LAST_ERROR request retrieves the error code of the most 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <i>DiocParams->cbOutBuffer</i>

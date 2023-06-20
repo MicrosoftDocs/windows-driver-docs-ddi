@@ -1,16 +1,16 @@
 ---
 UID: NF:fltkernel.FltGetSectionContext
 title: FltGetSectionContext function (fltkernel.h)
-description: The FltGetSectionContext routine retrieves a section context that was created for a file stream by a specified minifilter driver instance.
+description: Learn more about the FltGetSectionContext function.
 old-location: ifsk\fltgetsectioncontext.htm
 tech.root: ifsk
-ms.date: 01/22/2021
+ms.date: 04/25/2023
 keywords: ["FltGetSectionContext function"]
 ms.keywords: FltGetSectionContext, FltGetSectionContext routine [Installable File System Drivers], fltkernel/FltGetSectionContext, ifsk.fltgetsectioncontext
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: The FltGetSectionContext routine is available starting with  Windows 8.
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -58,15 +58,15 @@ A pointer to a file object for the stream.
 
 ### -param Context [out]
 
-A pointer to a caller-allocated variable that receives the address of the context.
+A pointer to a caller-allocated variable that receives the address of the context. This parameter is required and can't be set to NULL.
 
 ## -returns
 
-**FltGetSectionContext** returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following:
+**FltGetSectionContext** returns STATUS_SUCCESS when it successfully returns the requested section context. Otherwise, it returns an appropriate NTSTATUS value, such as one of the following:
 
 | Return code | Description |
 | ----------- | ----------- |
-| STATUS_NOT_FOUND | No matching context was found. This is an error code. |
+| STATUS_NOT_FOUND | No matching context was found on this file at this time, so *FltMgr* set **Context** to NULL_CONTEXT. This is an error code. |
 | STATUS_NOT_SUPPORTED | The volume attached to this instance does not support section contexts. This is an error code. |
 
 ## -remarks
@@ -79,8 +79,7 @@ For more information about contexts, see [About minifilter contexts](/windows-ha
 
 To allocate a new context, call [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
 
-> [!NOTE]
-> Minifilters must not explicitly delete a section context passed to [**FltCreateSectionForDataScan**](nf-fltkernel-fltcreatesectionfordatascan.md). A section context is deallocated and removed from a stream  by calling [**FltCloseSectionForDataScan**](nf-fltkernel-fltclosesectionfordatascan.md) in this case.
+Minifilters must not explicitly delete a section context passed to [**FltCreateSectionForDataScan**](nf-fltkernel-fltcreatesectionfordatascan.md). A section context is deallocated and removed from a stream  by calling [**FltCloseSectionForDataScan**](nf-fltkernel-fltclosesectionfordatascan.md) in this case.
 
 ## -see-also
 

@@ -49,6 +49,8 @@ The <b>IOCTL_PMI_GET_MEASUREMENT</b> request returns the current measurement dat
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The initiator-allocated output buffer that is pointed to by the <b>AssociatedIrp.SystemBuffer</b> member of the IRP.

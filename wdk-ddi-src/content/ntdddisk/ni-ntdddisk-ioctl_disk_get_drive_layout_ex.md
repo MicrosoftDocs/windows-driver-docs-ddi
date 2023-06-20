@@ -49,6 +49,8 @@ Returns information about the number of partitions, disk signature, and features
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

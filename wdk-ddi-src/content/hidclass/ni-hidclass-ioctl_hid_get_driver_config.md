@@ -52,6 +52,8 @@ This IOCTL is reserved for system use.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

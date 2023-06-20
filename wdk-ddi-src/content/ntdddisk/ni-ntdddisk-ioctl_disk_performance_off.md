@@ -49,6 +49,8 @@ Disables the counters that were enabled by previous calls to <a href="/windows-h
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

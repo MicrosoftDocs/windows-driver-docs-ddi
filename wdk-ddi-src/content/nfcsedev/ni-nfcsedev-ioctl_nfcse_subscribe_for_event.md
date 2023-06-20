@@ -50,6 +50,8 @@ The <b>IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_event_subscription_info"> SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO</a> structure.

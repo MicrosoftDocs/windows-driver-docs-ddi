@@ -49,6 +49,8 @@ The <b>IOCTL_USB_HCD_ENABLE_PORT</b> IOCTL has been deprecated. Do not use.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

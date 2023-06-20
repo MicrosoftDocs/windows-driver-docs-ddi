@@ -49,6 +49,8 @@ Returns the number of video modes supported by the adapter and the size in bytes
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

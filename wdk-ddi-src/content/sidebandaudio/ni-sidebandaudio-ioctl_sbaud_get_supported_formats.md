@@ -43,6 +43,8 @@ The audio driver issues the <b>IOCTL_SBAUD_GET_SUPPORTED_FORMATS</b> control cod
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supported_formats.md) containing endpoint index, and array of formats supported by the Audio driver.

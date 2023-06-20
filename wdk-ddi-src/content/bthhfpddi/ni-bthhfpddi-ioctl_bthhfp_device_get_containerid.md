@@ -51,6 +51,8 @@ The <b>IOCTL_BTHHFP_DEVICE_GET_CONTAINERID</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

@@ -53,6 +53,10 @@ Drivers can use the symbolic name to retrieve additional information about the h
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 <b>Irp->AssociatedIrp.SystemBuffer</b> points to a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_name">USB_HUB_NAME</a> structure.

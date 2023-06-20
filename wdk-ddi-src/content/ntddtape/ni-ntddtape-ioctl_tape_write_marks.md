@@ -49,6 +49,8 @@ Writes one of setmarks, filemarks, short filemarks, or long filemarks to tape.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <a href="/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_write_marks">TAPE_WRITE_MARKS</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> indicates the type and number of marks to write. 

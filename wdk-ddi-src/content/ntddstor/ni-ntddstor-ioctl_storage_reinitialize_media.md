@@ -48,6 +48,8 @@ A driver can issue a **IOCTL_STORAGE_REINITIALIZE_MEDIA** control code to offloa
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 For Windows Server 2022 and later, contains an optional [**STORAGE_REINITIALIZE_MEDIA**](ns-ntddstor-storage_reinitialize_media.md) structure with sanitize options, or NULL. For earlier OS versions, the input buffer is NULL.

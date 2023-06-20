@@ -49,6 +49,8 @@ Is similar to <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_format_ex_parameters">FORMAT_EX_PARAMETERS</a> data.

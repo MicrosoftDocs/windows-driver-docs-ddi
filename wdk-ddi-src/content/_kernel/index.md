@@ -24,7 +24,7 @@ The driver support routines in this section are organized by kernel-mode manager
 
   - [DriverEntry](../wdm/nc-wdm-driver_initialize.md)
   - [AddDevice](../wdm/nc-wdm-driver_add_device.md)
-  - [DispatchXxx (routines beginning with "Dispatch" such as DispatchCreate)](../wdm/nc-wdm-driver_dispatch.md)
+  - [Dispatch___ (routines beginning with "Dispatch" such as DispatchCreate)](../wdm/nc-wdm-driver_dispatch.md)
   - [DriverUnload](../wdm/nc-wdm-driver_unload.md)
 
   The other routines are optional, but you may need to implement them depending on your driver type and the location of your driver in the device stack.

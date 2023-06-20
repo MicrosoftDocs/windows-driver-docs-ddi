@@ -49,6 +49,8 @@ The <b>IOCTL_GNSS_START_FIXSESSION</b> control code is used by the GNSS adapter 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_fixsession_param">GNSS_FIXSESSION_PARAM</a> structure.

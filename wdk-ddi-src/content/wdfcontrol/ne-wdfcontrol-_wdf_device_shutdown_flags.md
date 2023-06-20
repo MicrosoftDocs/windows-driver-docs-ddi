@@ -54,11 +54,11 @@ The <b>WDF_DEVICE_SHUTDOWN_FLAGS</b> enumeration defines flags that identify typ
 
 ## -enum-fields
 
-### -field WdfDeviceShutdown
+### -field WdfDeviceShutdown:0x01
 
 The driver is notified when the system is losing its power, but before file systems are flushed.
 
-### -field WdfDeviceLastChanceShutdown
+### -field WdfDeviceLastChanceShutdown:0x02
 
 The driver is notified when the system is losing its power, and after all file systems have been flushed.
 

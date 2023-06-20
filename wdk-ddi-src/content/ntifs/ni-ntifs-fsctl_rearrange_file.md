@@ -44,6 +44,8 @@ helpviewer_keywords:
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to a [**REARRANGE_FILE_DATA**](ns-ntifs-rearrange_file_data.md) structure that describes the allocation to be rearranged. (For 32-bit callers, the input buffer is a pointer to a **REARRANGE_FILE_DATA32** structure.)

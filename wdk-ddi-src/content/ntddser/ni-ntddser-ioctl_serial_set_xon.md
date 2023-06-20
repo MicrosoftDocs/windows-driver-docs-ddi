@@ -49,6 +49,8 @@ The <b>IOCTL_SERIAL_SET_XON</b> request emulates the reception of a XON (transmi
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

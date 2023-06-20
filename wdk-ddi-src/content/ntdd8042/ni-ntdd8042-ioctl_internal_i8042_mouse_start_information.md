@@ -49,6 +49,10 @@ The IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION request passes a pointer to a m
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 <b>Parameters.DeviceIoControl.Type3InputBuffer</b> points to an input buffer allocated by I8042prt to input an <a href="/windows-hardware/drivers/ddi/ntdd8042/ns-ntdd8042-_internal_i8042_start_information">INTERNAL_I8042_START_INFORMATION</a> structure.

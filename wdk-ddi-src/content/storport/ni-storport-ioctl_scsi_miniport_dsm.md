@@ -10,7 +10,7 @@ ms.keywords: IOCTL_SCSI_MINIPORT_DSM, IOCTL_SCSI_MINIPORT_DSM control, IOCTL_SCS
 req.header: storport.h
 req.include-header: Ntddscsi.h, Storport.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 8.1.
+req.target-min-winverclnt: Windows 8.1.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ A Data Set Management (DSM) notification is transferred to a miniport driver in 
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -ioctlparameters
+
+### -ioctl-major-code
 
 ### -input-buffer
 

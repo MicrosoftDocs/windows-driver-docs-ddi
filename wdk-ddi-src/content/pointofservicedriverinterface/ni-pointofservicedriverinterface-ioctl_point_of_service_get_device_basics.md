@@ -49,6 +49,8 @@ This I/O control function gets the type of device, version, and recommended buff
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 32-bit encoded POS Windows Runtime (WinRT) API version. The top sixteen bits must contain the major version, and the lower sixteen bits must contain the minor version.

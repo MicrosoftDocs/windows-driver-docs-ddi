@@ -50,6 +50,8 @@ The IOCTL_BTH_GET_DEVICE_INFO request returns information about all cached, prev
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The 

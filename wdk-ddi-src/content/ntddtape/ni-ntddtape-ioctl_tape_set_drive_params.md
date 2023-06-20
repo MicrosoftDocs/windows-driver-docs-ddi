@@ -49,6 +49,8 @@ Adjusts a tape drive's configurable parameters. The miniclass driver can ignore 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
        The <a href="/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_set_drive_parameters">TAPE_SET_DRIVE_PARAMETERS</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the values to be set.

@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_CREATEHWQUEUEFLAGS
-title: _D3DDDI_CREATEHWQUEUEFLAGS (d3dukmdt.h)
-description: A structure used to create hardware queue flags.
-old-location: display\d3dddi_createhwqueueflags_.htm
+title: D3DDDI_CREATEHWQUEUEFLAGS (d3dukmdt.h)
+description: Learn more about the D3DDDI_CREATEHWQUEUEFLAGS structure.
 tech.root: display
-ms.date: 03/24/2020
+ms.date: 05/22/2023
 keywords: ["D3DDDI_CREATEHWQUEUEFLAGS structure"]
 ms.keywords: D3DDDI_CREATEHWQUEUEFLAGS, D3DDDI_CREATEHWQUEUEFLAGS , D3DDDI_CREATEHWQUEUEFLAGS structure [Display Devices], _D3DDDI_CREATEHWQUEUEFLAGS, d3dukmdt/D3DDDI_CREATEHWQUEUEFLAGS, display.d3dddi_createhwqueueflags_
 req.header: d3dukmdt.h
@@ -43,18 +42,13 @@ api_name:
  - D3DDDI_CREATEHWQUEUEFLAGS
 ---
 
-# _D3DDDI_CREATEHWQUEUEFLAGS structure
-
+# D3DDDI_CREATEHWQUEUEFLAGS structure
 
 ## -description
 
-A structure used to create hardware queue flags.
+The **D3DDDI_CREATEHWQUEUEFLAGS** structure specifies flags to use when creating a hardware queue.
 
 ## -struct-fields
-
-### -field Value
-
-This value is used to operate over the members collectively.
 
 ### -field DisableGpuTimeout
 
@@ -68,13 +62,24 @@ When set, indicates to the OS that the hardware queue being created does not hav
 
 When set, indicates to the OS that the hardware queue being created does not have application observable behavior, and it should not be blocked behind in D3D12 command queue fence wait operation. This flag was introduced in Windows 10, version 2004.
 
+### -field NoKmdAccess
+
+Reserved for system use.
+
+### -field UserModeSubmission
+
+When set, indicates to the OS that the hardware queue being created will use the user-mode submission model. Hardware queues created using this flag can't use the regular kernel-mode work submission path and must rely on the doorbell mechanism for work submission on the queue.
+
 ### -field Reserved
 
-This value is reserved for system use.
+Reserved for system use.
+
+### -field Value
+
+This value can be used to operate over the structure members collectively.
 
 ## -see-also
 
 [**D3DKMT_CREATEHWQUEUE**](../d3dkmthk/ns-d3dkmthk-_d3dkmt_createhwqueue.md)
 
 [**PFND3DKMT_CREATEHWQUEUE**](../d3dkmthk/nc-d3dkmthk-pfnd3dkmt_createhwqueue.md)
-

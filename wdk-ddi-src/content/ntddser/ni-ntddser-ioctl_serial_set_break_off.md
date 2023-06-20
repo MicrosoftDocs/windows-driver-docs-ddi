@@ -51,6 +51,8 @@ To set the line control break signal active, a client can use an <a href="/windo
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

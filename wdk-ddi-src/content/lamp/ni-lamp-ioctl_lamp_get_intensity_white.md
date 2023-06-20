@@ -54,6 +54,8 @@ The **IOCTL_LAMP_GET_INTENSITY_WHITE** control code queries the light intensity 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 `Irp->AssociatedIrp.SystemBuffer` points to a [LAMP_INTENSITY_WHITE](./ns-lamp-lamp_intensity_white.md) structure.

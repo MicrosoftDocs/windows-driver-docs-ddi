@@ -49,6 +49,8 @@ This IOCTL is used to inform the owning driver for the IEEE 1667 device PDOs tha
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The input buffer at Irp->AssociatedIrp.SystemBuffer must contain a structure of type <a href="/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagact_authz_state">ACT_AUTHZ_STATE</a>.

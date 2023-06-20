@@ -56,6 +56,8 @@ This request must be directed to a class driver or to a PDO created by the port 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

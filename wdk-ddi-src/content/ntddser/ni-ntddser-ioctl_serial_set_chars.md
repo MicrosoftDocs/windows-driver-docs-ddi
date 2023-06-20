@@ -51,6 +51,8 @@ To obtain the special characters, a client can use an <a href="/windows-hardware
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated <a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_chars">SERIAL_CHARS</a> structure that is used to input special characters.

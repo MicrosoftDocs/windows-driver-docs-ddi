@@ -49,6 +49,8 @@ Returns information about the types of media supported by a device. A storage cl
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

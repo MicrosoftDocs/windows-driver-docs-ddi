@@ -49,6 +49,8 @@ Queries the USB generic parent driver for the serial number of a USB device. If 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

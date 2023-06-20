@@ -51,6 +51,8 @@ Determines the current audio playback mode.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

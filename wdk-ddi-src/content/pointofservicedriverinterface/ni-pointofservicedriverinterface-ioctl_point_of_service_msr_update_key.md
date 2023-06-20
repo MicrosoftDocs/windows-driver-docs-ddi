@@ -49,6 +49,8 @@ This I/O control function sets a new encryption key.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to the input buffer, a [MSR_UPDATE_KEY](./ns-pointofservicedriverinterface-_msr_update_key.md) variable.

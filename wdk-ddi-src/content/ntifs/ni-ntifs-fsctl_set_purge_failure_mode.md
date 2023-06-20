@@ -44,6 +44,8 @@ Filter Manager uses the **FSCTL_SET_PURGE_FAILURE_MODE** control code to synchro
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A [**SET_PURGE_FAILURE_MODE_INPUT**](ns-ntifs-set_purge_failure_mode_input.md) structure.

@@ -78,6 +78,8 @@ The driver for a PCI Express (PCIe) virtual function (VF) issues an <a href="/wi
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

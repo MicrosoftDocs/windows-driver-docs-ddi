@@ -51,6 +51,8 @@ The <b>IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES</b> I/O control request retrieve
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_attributes">USB_NODE_CONNECTION_ATTRIBUTES</a> structure. On input, the caller specifies the port number in the <b>ConnectionIndex</b> member of a <b>USB_NODE_CONNECTION_ATTRIBUTES</b> structure.

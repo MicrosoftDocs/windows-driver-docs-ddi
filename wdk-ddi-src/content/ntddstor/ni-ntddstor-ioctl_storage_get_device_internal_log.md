@@ -44,6 +44,10 @@ A driver can use **IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG** to get the internal s
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 A [**GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST**](ns-ntddstor-get_device_internal_status_data_request.md) structure that identifies the type of data to be queried.

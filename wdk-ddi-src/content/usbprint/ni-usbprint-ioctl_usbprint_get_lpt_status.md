@@ -48,6 +48,8 @@ The **IOCTL_USBPRINT_GET_LPT_STATUS** request allows upper-layer software (such 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Not used in this operation; set this parameter to **NULL**.

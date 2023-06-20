@@ -49,6 +49,8 @@ Returns an array, possibly with one element, of address ranges used to program t
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

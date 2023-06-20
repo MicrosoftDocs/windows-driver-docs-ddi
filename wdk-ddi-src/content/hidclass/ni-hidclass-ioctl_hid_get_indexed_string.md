@@ -50,6 +50,8 @@ For general information about HIDClass devices see [HID Collections](/windows-ha
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 **Parameters.DeviceIoControl.InputBufferLength** in the I/O stack location of the IRP indicates the size in bytes of the input buffer at the location pointed to by **Irp->AssociatedIrp.SystemBuffer**.

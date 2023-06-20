@@ -51,6 +51,8 @@ To set the baud rate, a client can use an <a href="/windows-hardware/drivers/ddi
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

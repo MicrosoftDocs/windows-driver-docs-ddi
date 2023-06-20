@@ -55,6 +55,8 @@ A client uses an <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a ULONG buffer that the client allocates and sets to an event wait mask. The wait mask is set to zero or to the bitwise-OR of one or more <b>SERIAL_EV_</b><i>XXX</i> flags bits.

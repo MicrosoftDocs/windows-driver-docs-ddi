@@ -54,11 +54,11 @@ The <b>WDF_REQUEST_REUSE_FLAGS</b> enumeration type defines flags that are used 
 
 ## -enum-fields
 
-### -field WDF_REQUEST_REUSE_NO_FLAGS
+### -field WDF_REQUEST_REUSE_NO_FLAGS:0x00000000
 
 No flags are set.
 
-### -field WDF_REQUEST_REUSE_SET_NEW_IRP
+### -field WDF_REQUEST_REUSE_SET_NEW_IRP:0x00000001
 
 The <b>NewIrp</b> member of the <a href="/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_reuse_params">WDF_REQUEST_REUSE_PARAMS</a> structure is valid.
 

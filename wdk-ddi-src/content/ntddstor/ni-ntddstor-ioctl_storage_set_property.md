@@ -45,6 +45,8 @@ A driver can use IOCTL_STORAGE_SET_PROPERTY to set the properties of a storage d
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Contains a [STORAGE_PROPERTY_SET](ns-ntddstor-storage_property_set.md) structure that describes the type of set being done, the property being set, and any additional parameters that a particular property set requires. A structure with additional properties can be found immediately after the STORAGE_PROPERTY_SET structure, depending on STORAGE_PROPERTY_SET's **PropertyId**. For example, if **PropertyId** is **StorageAdapterProtocolSpecificProperty**, then a [STORAGE_PROTOCOL_SPECIFIC_DATA_EXT](ns-ntddstor-storage_protocol_specific_data_ext.md) structure immediately follows STORAGE_PROPERTY_SET.

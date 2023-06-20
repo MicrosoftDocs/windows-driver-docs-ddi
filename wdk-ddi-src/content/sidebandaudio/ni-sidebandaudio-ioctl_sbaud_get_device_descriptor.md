@@ -42,6 +42,8 @@ Specifically this returns the number of Audio endpoints available on a device th
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 NULL.

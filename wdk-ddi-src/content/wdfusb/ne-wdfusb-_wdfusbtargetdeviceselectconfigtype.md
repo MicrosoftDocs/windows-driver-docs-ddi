@@ -54,31 +54,31 @@ The <b>WdfUsbTargetDeviceSelectConfigType</b> enumeration defines types of confi
 
 ## -enum-fields
 
-### -field WdfUsbTargetDeviceSelectConfigTypeInvalid
+### -field WdfUsbTargetDeviceSelectConfigTypeInvalid:0
 
 For internal use only.
 
-### -field WdfUsbTargetDeviceSelectConfigTypeDeconfig
+### -field WdfUsbTargetDeviceSelectConfigTypeDeconfig:1
 
 Deconfigure the device. This value applies to KMDF only.
 
-### -field WdfUsbTargetDeviceSelectConfigTypeSingleInterface
+### -field WdfUsbTargetDeviceSelectConfigTypeSingleInterface:2
 
 Configure the device to use a single, specified interface. This value applies to KMDF and UMDF.
 
-### -field WdfUsbTargetDeviceSelectConfigTypeMultiInterface
+### -field WdfUsbTargetDeviceSelectConfigTypeMultiInterface:3
 
 Configure the device to use multiple interfaces. This value applies to KMDF and UMDF.
 
-### -field WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs
+### -field WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs:4
 
 Configure the device to use multiple interfaces, possibly with alternate settings. Alternate settings are described in the USB specification.  This value applies to KMDF and UMDF.
 
-### -field WdfUsbTargetDeviceSelectConfigTypeInterfacesDescriptor
+### -field WdfUsbTargetDeviceSelectConfigTypeInterfacesDescriptor:5
 
 Configure the device by using configuration parameters that are contained in USB descriptors. This value applies to KMDF only.
 
-### -field WdfUsbTargetDeviceSelectConfigTypeUrb
+### -field WdfUsbTargetDeviceSelectConfigTypeUrb:6
 
 Configure the device by using configuration parameters that are contained in a driver-supplied URB structure. This value applies to KMDF only.
 

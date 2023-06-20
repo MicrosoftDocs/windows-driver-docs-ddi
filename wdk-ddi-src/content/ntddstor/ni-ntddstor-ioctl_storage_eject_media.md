@@ -49,6 +49,8 @@ Causes the device to eject the media if the device supports ejection capabilitie
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

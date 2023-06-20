@@ -51,6 +51,8 @@ To attempt a protocol handshake with a pin that is already connected, call <a hr
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The client places a pointer to a structure of type <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kshandshake">KSHANDSHAKE</a> in the <b>InBuffer</b> parameter.

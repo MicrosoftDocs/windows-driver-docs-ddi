@@ -55,6 +55,8 @@ The mount manager returns triples that match as much info as is provided by the 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The mount manager client initializes the <a href="/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_mount_point">MOUNTMGR_MOUNT_POINT</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. Immediately following this structure, the MM client loads the symbolic link name, the unique ID and the device name, in that order.

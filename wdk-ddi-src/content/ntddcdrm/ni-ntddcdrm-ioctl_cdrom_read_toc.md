@@ -49,6 +49,8 @@ Returns the table of contents of the media.  Obsolete, beginning with Windows V
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Input buffer.

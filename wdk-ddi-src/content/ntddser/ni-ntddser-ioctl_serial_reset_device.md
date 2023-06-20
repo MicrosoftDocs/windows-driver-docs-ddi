@@ -49,6 +49,8 @@ The <b>IOCTL_SERIAL_RESET_DEVICE</b> request resets a serial device.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

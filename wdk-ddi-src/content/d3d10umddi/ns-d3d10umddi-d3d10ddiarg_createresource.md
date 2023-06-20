@@ -59,7 +59,7 @@ An array of [**D3D10_DDIARG_SUBRESOURCE_UP**](ns-d3d10umddi-d3d10_ddiarg_subreso
 
 ### -field ResourceDimension [in]
 
-A value of type [**D3D10DDIRESOURCE_TYPE**](/windows-hardware/drivers/display/ne-d3d10umddi-d3d10ddiresource_type) that indicates the resource type and dimensionality.
+A value of type [**D3D10DDIRESOURCE_TYPE**](ne-d3d10umddi-d3d10ddiresource_type.md) that indicates the resource type and dimensionality.
 
 ### -field Usage [in]
 

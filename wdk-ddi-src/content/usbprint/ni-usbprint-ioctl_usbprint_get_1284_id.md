@@ -45,6 +45,8 @@ The **IOCTL_USBPRINT_GET_1284_ID** control code allows upper-layer software (suc
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Not used in this operation; set this parameter to **NULL**.

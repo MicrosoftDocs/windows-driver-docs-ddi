@@ -50,6 +50,10 @@ The IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO request obtains information about the un
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 None.

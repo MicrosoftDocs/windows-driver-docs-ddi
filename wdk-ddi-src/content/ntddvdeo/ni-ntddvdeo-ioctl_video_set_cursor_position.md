@@ -49,6 +49,8 @@ Sets the cursor position (row and column). Miniport drivers for VGA-compatible a
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains the VIDEO_CURSOR_POSITION structure to be set.

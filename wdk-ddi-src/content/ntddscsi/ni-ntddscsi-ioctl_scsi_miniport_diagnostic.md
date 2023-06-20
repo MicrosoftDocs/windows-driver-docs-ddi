@@ -50,6 +50,8 @@ The <b>IOCTL_SCSI_MINIPORT_DIAGNOSTIC</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

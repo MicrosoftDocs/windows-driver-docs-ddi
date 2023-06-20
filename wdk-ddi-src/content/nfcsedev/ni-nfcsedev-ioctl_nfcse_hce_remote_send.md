@@ -49,6 +49,8 @@ Transmits response APDU from DeviceHost NFCEE to remote device. The caller must 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to buffer containing <a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_hce_data_packet">SECURE_ELEMENT_HCE_DATA_PACKET</a> structure.

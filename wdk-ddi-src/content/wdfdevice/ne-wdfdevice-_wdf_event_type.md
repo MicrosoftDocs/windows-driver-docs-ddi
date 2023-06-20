@@ -55,11 +55,11 @@ The <b>WDF_EVENT_TYPE</b> enumeration specifies  types of events about which a d
 
 ## -enum-fields
 
-### -field WdfEventReserved
+### -field WdfEventReserved:0
 
 Reserved for system use.
 
-### -field WdfEventBroadcast
+### -field WdfEventBroadcast:1
 
 In the current version of UMDF, the driver must specify <b>WdfEventBroadcast</b>. For more information, see <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicepostevent">WdfDevicePostEvent</a>.
 

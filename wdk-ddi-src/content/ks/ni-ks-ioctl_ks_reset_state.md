@@ -49,6 +49,8 @@ An application can use IOCTL_KS_RESET_STATE to return a pin to the state it was 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A client provides a buffer that contains the reset value (KSRESET_BEGIN, KSRESET_END) in the <b>InBuffer</b> parameter.

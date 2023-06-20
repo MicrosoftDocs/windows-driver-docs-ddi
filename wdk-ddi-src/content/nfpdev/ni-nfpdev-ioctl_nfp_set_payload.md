@@ -49,6 +49,8 @@ A client application sends message data and confirms publication with the <b>IOC
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The input buffer contains the message data to transmit.

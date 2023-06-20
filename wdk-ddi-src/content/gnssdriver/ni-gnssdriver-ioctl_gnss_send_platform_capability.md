@@ -49,6 +49,8 @@ The <b>IOCTL_GNSS_SEND_PLATFORM_CAPABILITY</b> control code is used by the GNSS 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_platform_capability">GNSS_PLATFORM_CAPABILITY</a> structure.

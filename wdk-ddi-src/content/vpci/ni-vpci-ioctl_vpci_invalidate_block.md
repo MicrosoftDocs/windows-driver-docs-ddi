@@ -79,6 +79,8 @@ The driver issues this IOCTL to the next-lower driver in the driver stack.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

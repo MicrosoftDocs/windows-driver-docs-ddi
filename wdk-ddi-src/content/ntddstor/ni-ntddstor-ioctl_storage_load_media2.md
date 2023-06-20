@@ -51,6 +51,8 @@ Input, output, and I/O status block values for IOCTL_STORAGE_LOAD_MEDIA2 are ide
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

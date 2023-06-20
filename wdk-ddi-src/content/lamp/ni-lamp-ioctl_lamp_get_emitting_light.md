@@ -54,6 +54,8 @@ The **IOCTL_LAMP_GET_EMITTING_LIGHT** control code queries if the lamp is turned
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 `Irp->AssociatedIrp.SystemBuffer` points to a buffer of type **BOOLEAN**.

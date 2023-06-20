@@ -65,6 +65,8 @@ The serial controller driver receives a number of characters that is greater tha
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> points to a client-allocated <b>SERIAL_XOFF_COUNTER</b> structure that is used to input XOFF counter information.

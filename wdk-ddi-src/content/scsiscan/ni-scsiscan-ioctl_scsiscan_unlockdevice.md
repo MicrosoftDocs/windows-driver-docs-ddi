@@ -49,6 +49,8 @@ Reserved for use by Microsoft.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

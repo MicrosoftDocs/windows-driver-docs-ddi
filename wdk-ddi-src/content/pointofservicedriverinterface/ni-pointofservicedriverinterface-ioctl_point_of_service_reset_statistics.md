@@ -49,6 +49,8 @@ This I/O control function resets the specified statistic's value to zero.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 [PosStringType](./ns-pointofservicedriverinterface-_posstringtype.md) that names the statistic to reset to zero.

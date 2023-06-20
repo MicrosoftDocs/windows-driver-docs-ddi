@@ -49,6 +49,8 @@ A driver for a device can use the IOCTL_ACPI_ASYNC_EVAL_METHOD_EX device control
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Set the <b>IoBuildDeviceIoControlRequest</b> input parameters as follows:

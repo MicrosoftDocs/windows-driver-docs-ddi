@@ -49,6 +49,8 @@ The <b>IOCTL_SERIAL_SET_XOFF</b> request emulates the reception of an XOFF (tran
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

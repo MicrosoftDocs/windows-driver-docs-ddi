@@ -55,6 +55,8 @@ The IOCTL_PAR_QUERY_RAW_DEVICE_ID request returns a raw device ID, which include
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

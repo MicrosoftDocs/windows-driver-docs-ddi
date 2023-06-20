@@ -49,6 +49,8 @@ Returns the physical location(s) of a volume on one or more disks. Extents are i
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

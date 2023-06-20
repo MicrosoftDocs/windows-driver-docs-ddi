@@ -49,6 +49,8 @@ The <b>IOCTL_GNSS_LISTEN_NMEA</b> control code is used to start listening for NM
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Set to NULL.

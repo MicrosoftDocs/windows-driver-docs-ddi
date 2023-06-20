@@ -51,6 +51,8 @@ For information about how to use enable and disable secure read requests to enfo
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
        None.

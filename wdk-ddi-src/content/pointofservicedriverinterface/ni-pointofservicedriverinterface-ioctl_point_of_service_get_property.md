@@ -49,6 +49,8 @@ This I/O control function returns the value of the specified property from the d
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to a buffer that contains the [PosPropertyId](./ne-pointofservicedriverinterface-_pospropertyid.md) for the property you want to get.

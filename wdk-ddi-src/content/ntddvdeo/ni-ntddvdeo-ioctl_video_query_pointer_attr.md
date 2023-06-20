@@ -49,6 +49,8 @@ Returns the attributes for the pointer, defined as a set of pixels used to paint
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

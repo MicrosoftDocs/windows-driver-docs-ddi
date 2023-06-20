@@ -51,6 +51,8 @@ Returns the current power-consumption level of the adapter. Support for this non
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

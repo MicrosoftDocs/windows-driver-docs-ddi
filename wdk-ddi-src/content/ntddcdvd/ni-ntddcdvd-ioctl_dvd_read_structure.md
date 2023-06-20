@@ -49,6 +49,8 @@ Returns information about a DVD disc, such as a layer descriptor, copyright info
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-dvd_read_structure">DVD_READ_STRUCTURE</a> structure that indicates the session ID and type of information to return.

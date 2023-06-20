@@ -49,6 +49,8 @@ The <b>IOCTL_GNSS_SET_SUPL_HSLP</b> control code is used by the GNSS adapter to 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_supl_hslp_config">GNSS_SUPL_HSLP_CONFIG</a> structure.

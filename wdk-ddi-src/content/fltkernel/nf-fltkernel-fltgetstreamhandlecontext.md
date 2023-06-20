@@ -1,10 +1,10 @@
 ---
 UID: NF:fltkernel.FltGetStreamHandleContext
 title: FltGetStreamHandleContext function (fltkernel.h)
-description: The FltGetStreamHandleContext routine retrieves a context that was set for a stream handle by a given minifilter driver instance.
+description: Learn more about the FltGetStreamHandleContext function.
 old-location: ifsk\fltgetstreamhandlecontext.htm
 tech.root: ifsk
-ms.date: 01/22/2021
+ms.date: 04/25/2023
 keywords: ["FltGetStreamHandleContext function"]
 ms.keywords: FltApiRef_e_to_o_4a329c48-3a48-47bc-b998-3aaee454fbef.xml, FltGetStreamHandleContext, FltGetStreamHandleContext routine [Installable File System Drivers], fltkernel/FltGetStreamHandleContext, ifsk.fltgetstreamhandlecontext
 req.header: fltkernel.h
@@ -58,15 +58,15 @@ Pointer to a file object for the stream handle.
 
 ### -param Context [out]
 
-Pointer to a caller-allocated variable that receives the address of the context.
+Pointer to a caller-allocated variable that receives the address of the context. This parameter can't be set to NULL.
 
 ## -returns
 
-**FltGetStreamHandleContext** returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following:
+**FltGetStreamHandleContext** returns STATUS_SUCCESS when it successfully returns the requested context. Otherwise, it returns an appropriate NTSTATUS value such as one of the following:
 
 | Return code | Description |
 | ----------- | ----------- |
-| STATUS_NOT_FOUND | No matching context was found. This is an error code. |
+| STATUS_NOT_FOUND | No matching context was found on this file at this time, so *FltMgr* set **Context** to NULL_CONTEXT. This is an error code. |
 | STATUS_NOT_SUPPORTED | The file system does not support per-stream contexts for this file stream. This is an error code. |
 
 ## -remarks

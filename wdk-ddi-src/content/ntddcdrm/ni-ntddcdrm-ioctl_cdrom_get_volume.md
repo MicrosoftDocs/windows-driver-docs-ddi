@@ -49,6 +49,8 @@ Determines the current volume for each of its device's audio ports.  Obsolete, b
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Input buffer.

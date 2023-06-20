@@ -49,6 +49,8 @@ Returns the current position of the pointer. Support for this modal request is o
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

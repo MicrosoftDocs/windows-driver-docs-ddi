@@ -55,7 +55,7 @@ The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS</b> enumeration is reserved for i
 
 ## -enum-fields
 
-### -field IdleTimeoutDefaultConstant
+### -field IdleTimeoutDefaultConstant:0
 
 For internal use only.
 

@@ -1,6 +1,6 @@
 ---
-UID: NC:wdfinterrupt.PFN_WDFINTERRUPTRELEASELOCK
-title: PFN_WDFINTERRUPTRELEASELOCK (wdfinterrupt.h)
+UID: NF:wdfinterrupt.WdfInterruptReleaseLock
+title: WdfInterruptReleaseLock function (wdfinterrupt.h)
 description: The WdfInterruptReleaseLock method ends a code sequence that executes at the device's DIRQL while holding an interrupt object's spin lock.
 old-location: wdf/wdfinterruptreleaselock.htm
 tech.root: wdf
@@ -41,7 +41,7 @@ api_name:
  - PFN_WDFINTERRUPTRELEASELOCK
 ---
 
-# PFN_WDFINTERRUPTRELEASELOCK callback
+# PFN_WDFINTERRUPTRELEASELOCK function
 
 ## -description
 

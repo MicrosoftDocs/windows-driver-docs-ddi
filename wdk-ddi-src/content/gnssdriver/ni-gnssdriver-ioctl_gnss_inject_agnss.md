@@ -49,6 +49,8 @@ The <b>IOCTL_GNSS_INJECT_AGNSS</b> control code is used by the GNSS adapter to i
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_agnss_inject">GNSS_AGNSS_INJECT</a> structure.

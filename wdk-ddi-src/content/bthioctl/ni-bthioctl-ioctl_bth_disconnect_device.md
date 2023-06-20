@@ -50,6 +50,8 @@ Profile drivers use IOCTL_BTH_DISCONNECT_DEVICE to request the operating system 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The 

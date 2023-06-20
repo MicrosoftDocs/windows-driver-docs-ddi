@@ -49,6 +49,8 @@ Returns the length, in bytes, of the disk, partition, or volume associated with 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

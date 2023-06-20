@@ -51,6 +51,8 @@ The <b>IOCTL_USB_GET_HUB_CAPABILITIES_EX</b> I/O control request retrieves the c
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated buffer.

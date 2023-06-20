@@ -49,6 +49,8 @@ This I/O control function is used to keep a claim on a device when a client is n
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Not used with this operation; set to **NULL**.

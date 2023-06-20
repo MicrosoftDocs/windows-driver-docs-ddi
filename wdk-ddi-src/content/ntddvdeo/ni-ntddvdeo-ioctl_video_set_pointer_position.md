@@ -49,6 +49,8 @@ Sets the pointer position. Support for this modal request is optional. A support
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains the VIDEO_POINTER_POSITION structure to be set.

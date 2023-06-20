@@ -49,6 +49,8 @@ Returns the current status of the device.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

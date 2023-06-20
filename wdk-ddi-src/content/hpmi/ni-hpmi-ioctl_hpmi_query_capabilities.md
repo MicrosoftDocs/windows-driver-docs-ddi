@@ -53,6 +53,8 @@ The IOCTL_HPMI_QUERY_CAPABILITIES command is sent to query features supported by
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The AssociatedIrp.SystemBuffer member of the I/O request packet (IRP) points to an initiator-allocated buffer that is used both as the input buffer and the output buffer for the request. On input, this buffer contains a <a href="/windows-hardware/drivers/ddi/hpmi/ns-hpmi-_hpmi_query_capabilities">HPMI_QUERY_CAPABILITIES</a> structure  in which the version is set to a valid value.

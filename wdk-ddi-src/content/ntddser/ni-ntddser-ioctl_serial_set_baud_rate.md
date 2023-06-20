@@ -51,6 +51,8 @@ To obtain the baud rate, a client can use an <a href="/windows-hardware/drivers/
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_baud_rate">SERIAL_BAUD_RATE</a> structure that a client allocates and sets to input the baud rate.

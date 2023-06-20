@@ -58,7 +58,7 @@ api_name:
 
 ## -enum-fields
 
-### -field WdfReleaseHardwareOrderOnFailureInvalid
+### -field WdfReleaseHardwareOrderOnFailureInvalid:0
 
 Reserved for system use.
 

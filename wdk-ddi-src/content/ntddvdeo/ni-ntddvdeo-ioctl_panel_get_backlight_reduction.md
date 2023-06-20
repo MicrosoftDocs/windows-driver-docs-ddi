@@ -44,6 +44,8 @@ Panel control IOCTLs must/can be handled by the monitor, OEM panel, or port/mini
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

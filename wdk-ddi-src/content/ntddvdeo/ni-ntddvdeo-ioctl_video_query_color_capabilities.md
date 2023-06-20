@@ -49,6 +49,8 @@ Returns the color-capabilities information found in the VDDP description file fo
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

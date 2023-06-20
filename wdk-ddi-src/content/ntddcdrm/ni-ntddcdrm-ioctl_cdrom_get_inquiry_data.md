@@ -49,6 +49,8 @@ Returns the SCSI inquiry data for the CD-ROM device. This IOCTL can be used when
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

@@ -44,6 +44,8 @@ Returns the brightness level for the display panel.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

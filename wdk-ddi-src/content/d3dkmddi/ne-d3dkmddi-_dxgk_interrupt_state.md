@@ -1,15 +1,14 @@
 ---
 UID: NE:d3dkmddi._DXGK_INTERRUPT_STATE
-title: _DXGK_INTERRUPT_STATE (d3dkmddi.h)
-description: Provides additional information for DxgkDdi_ControlInterrupt2 or DxgkDdi_ControlInterrupt3 when VSYNC is not being utilized.
-old-location: display\dxgk_interrupt_state.htm
-ms.date: 05/10/2018
+title: DXGK_INTERRUPT_STATE (d3dkmddi.h)
+description: Learn more about the DXGK_INTERRUPT_STATE enumeration.
+ms.date: 06/09/2023
 keywords: ["DXGK_INTERRUPT_STATE enumeration"]
 ms.keywords: DXGK_INTERRUPT_DISABLE, DXGK_INTERRUPT_ENABLE, DXGK_INTERRUPT_STATE, DXGK_INTERRUPT_STATE enumeration [Display Devices], _DXGK_INTERRUPT_STATE, d3dkmddi/DXGK_INTERRUPT_DISABLE, d3dkmddi/DXGK_INTERRUPT_ENABLE, d3dkmddi/DXGK_INTERRUPT_STATE, display.dxgk_interrupt_state
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows 10.
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,23 +42,20 @@ api_name:
  - DXGK_INTERRUPT_STATE
 ---
 
-# _DXGK_INTERRUPT_STATE enumeration
-
+# DXGK_INTERRUPT_STATE enumeration
 
 ## -description
 
-Provides additional information for [*DxgkDdi_ControlInterrupt2*](./nc-d3dkmddi-dxgkddi_controlinterrupt2.md) or [**DxgkDdi_ControlInterrupt3**](./nc-d3dkmddi-dxgkddi_controlinterrupt3.md) when VSYNC is not being utilized.
+The **DXGK_INTERRUPT_STATE** enumeration provides additional information for [**DxgkDdi_ControlInterrupt2**](./nc-d3dkmddi-dxgkddi_controlinterrupt2.md) or [**DxgkDdi_ControlInterrupt3**](./nc-d3dkmddi-dxgkddi_controlinterrupt3.md) when VSYNC is not being used.
 
-> [!NOTE]
-> This enumeration uses Enable as 0 and Disable as 1 in the bivalent state, which is the opposite of the Boolean value previously used in [*DxgkDdi_ControlInterrupt*](./nc-d3dkmddi-dxgkddi_controlinterrupt.md).
+This enumeration uses Enable as 0 and Disable as 1 in the bivalent state, which is the opposite of the Boolean value previously used in [**DxgkDdi_ControlInterrupt**](./nc-d3dkmddi-dxgkddi_controlinterrupt.md).
 
 ## -enum-fields
 
-### -field DXGK_INTERRUPT_ENABLE
+### -field DXGK_INTERRUPT_ENABLE:0
 
 The interrupt is enabled.
 
-### -field DXGK_INTERRUPT_DISABLE
+### -field DXGK_INTERRUPT_DISABLE:1
 
 The interrupt is disabled.
-

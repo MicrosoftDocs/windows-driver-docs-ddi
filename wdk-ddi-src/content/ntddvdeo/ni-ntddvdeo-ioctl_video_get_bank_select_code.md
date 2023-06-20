@@ -49,6 +49,8 @@ Returns a block of x86-specific executable code to be used by a high-resolution 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

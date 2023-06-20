@@ -49,6 +49,8 @@ Sets the adapter to the specified operating mode. Miniport drivers are required 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains a <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_mode">VIDEO_MODE</a> structure specifying the mode to be set.

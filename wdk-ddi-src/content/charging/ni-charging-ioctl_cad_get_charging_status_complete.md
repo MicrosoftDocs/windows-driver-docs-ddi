@@ -49,6 +49,8 @@ This IOCTL is for internal use only.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

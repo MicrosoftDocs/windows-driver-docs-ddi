@@ -54,23 +54,23 @@ The WDF_DRIVER_INIT_FLAGS enumeration specifies driver initialization flags.
 
 ## -enum-fields
 
-### -field WdfDriverInitNonPnpDriver
+### -field WdfDriverInitNonPnpDriver:0x00000001
 
 The driver does not support Plug and Play (PnP). If this value is set, the driver must not supply an <a href="/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function. For more information about non-PnP drivers, see <a href="/windows-hardware/drivers/wdf/using-kernel-mode-driver-framework-with-non-pnp-drivers">Using Kernel-Mode Driver Framework with Non-PnP Drivers</a>.
 
-### -field WdfDriverInitNoDispatchOverride
+### -field WdfDriverInitNoDispatchOverride:0x00000002
 
 The driver is a miniport driver and, therefore, the framework must not provide dispatch routines for the driver. In other words, the framework must not intercept I/O request packets (IRPs) that the I/O manager has directed to the driver. In addition, the driver must call <a href="/windows-hardware/drivers/ddi/wdfminiport/nf-wdfminiport-wdfdriverminiportunload">WdfDriverMiniportUnload</a> when the port driver informs the miniport driver that it is about to be unloaded. For more information about this flag and how to write framework-based miniport drivers, see <a href="/windows-hardware/drivers/wdf/creating-kmdf-miniport-drivers">Using Kernel-Mode Driver Framework with Miniport Drivers</a>.
 
-### -field WdfVerifyOn
+### -field WdfVerifyOn:0x00000004
 
 Reserved for system use. Drivers must not use this flag.
 
-### -field WdfVerifierOn
+### -field WdfVerifierOn:0x00000008
 
 Reserved for system use. Drivers must not use this flag.
 
-### -field WdfDriverInitCompanion
+### -field WdfDriverInitCompanion:0x00000010
 
 ## -remarks
 

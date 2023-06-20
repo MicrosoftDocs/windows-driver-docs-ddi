@@ -56,15 +56,15 @@ api_name:
 
 ## -enum-fields
 
-### -field WdfIoTargetPurgeIoUndefined
+### -field WdfIoTargetPurgeIoUndefined:0
 
 Reserved for system use.
 
-### -field WdfIoTargetPurgeIoAndWait
+### -field WdfIoTargetPurgeIoAndWait:1
 
 The framework attempts to cancel all of the I/O requests in the target's queue, and waits until all delivered requests are completed or canceled, before <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetpurge">WdfIoTargetPurge</a> returns. If the framework receives additional requests for the queue, it completes them with a completion status value of STATUS_INVALID_DEVICE_STATE.
 
-### -field WdfIoTargetPurgeIo
+### -field WdfIoTargetPurgeIo:2
 
 The framework attempts to cancel all of the target queue's I/O requests, before <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetpurge">WdfIoTargetPurge</a> returns.
 

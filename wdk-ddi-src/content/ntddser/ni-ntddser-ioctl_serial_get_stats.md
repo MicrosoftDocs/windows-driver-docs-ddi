@@ -51,6 +51,8 @@ To reset the accumulated performance values to zero, a client can use an <a href
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

@@ -49,6 +49,8 @@ Claims a device for the exclusive use of the caller on a bus that supports multi
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

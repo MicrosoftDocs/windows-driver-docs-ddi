@@ -51,6 +51,8 @@ On output, if the value in the <b>FirstCompleteSession</b> member of <a href="/w
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

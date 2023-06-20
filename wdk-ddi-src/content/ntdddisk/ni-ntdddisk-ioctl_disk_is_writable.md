@@ -49,6 +49,8 @@ Determines whether a disk is writable.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

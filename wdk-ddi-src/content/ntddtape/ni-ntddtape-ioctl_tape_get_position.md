@@ -49,6 +49,8 @@ Returns the current absolute, logical, or pseudological partition and offset pos
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

@@ -57,7 +57,7 @@ The <b>WDF_DEVICE_IO_TYPE</b> enumeration is used to specify a <a href="/windows
 
 ## -enum-fields
 
-### -field WdfDeviceIoUndefined
+### -field WdfDeviceIoUndefined:0
 
 Reserved for system use.
 
@@ -75,7 +75,7 @@ Buffered I/O will be used to access data buffers.
 
 Direct I/O will be used to access data buffers.
 
-### -field WdfDeviceIoBufferedOrDirect
+### -field WdfDeviceIoBufferedOrDirect:4
 
 This value is not used by KMDF drivers.
 

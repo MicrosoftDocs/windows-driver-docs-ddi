@@ -48,6 +48,8 @@ The <b>IOCTL_HID_GET_MS_GENRE_DESCRIPTOR</b> request is used for retrieving the 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member specifies the size, in bytes, of a requester-allocated output buffer.

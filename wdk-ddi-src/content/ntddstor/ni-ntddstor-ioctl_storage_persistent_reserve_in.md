@@ -47,6 +47,8 @@ The generic storage class driver (*classpnp.sys*) exposes an I/O control (IOCTL)
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at **Irp->AssociatedIrp.SystemBuffer** contains a [**PERSISTENT_RESERVE_COMMAND**](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_persistent_reserve_command) structure. You must allocate the buffer from nonpaged pool and must align it correctly for the  target device and adapter.

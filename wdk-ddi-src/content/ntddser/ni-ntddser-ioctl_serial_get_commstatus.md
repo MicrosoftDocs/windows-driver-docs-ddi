@@ -49,6 +49,8 @@ The <b>IOCTL_SERIAL_GET_COMMSTATUS</b> request returns information about the com
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

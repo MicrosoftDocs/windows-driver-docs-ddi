@@ -49,6 +49,8 @@ The <b>IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE</b> IOCTL Gets the volume level
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A BOOL that is set to TRUE to request an immediate update. Otherwise, set this to FALSE.

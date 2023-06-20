@@ -44,6 +44,8 @@ Reserved for system use.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Reserved for system use.

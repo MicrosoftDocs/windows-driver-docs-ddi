@@ -49,6 +49,8 @@ Returns information about the media's total and remaining capacity, its block si
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

@@ -49,6 +49,8 @@ The IOCTL_SMARTCARD_SWALLOW request causes the smart card reader to swallow the 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

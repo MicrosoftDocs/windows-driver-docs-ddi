@@ -49,6 +49,8 @@ The <b>IOCTL_GNSS_POP_BREADCRUMBS</b> control code is used to request a list of 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to the input buffer.

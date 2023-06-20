@@ -4,7 +4,7 @@ title: IOCTL_BTH_SDP_CONNECT (bthioctl.h)
 description: The IOCTL_BTH_SDP_CONNECT request creates a connection to the SDP service on a remote Bluetooth device.
 old-location: bltooth\ioctl_bth_sdp_connect.htm
 tech.root: bltooth
-ms.date: 04/27/2018
+ms.date: 06/15/2023
 keywords: ["IOCTL_BTH_SDP_CONNECT IOCTL"]
 ms.keywords: IOCTL_BTH_SDP_CONNECT, IOCTL_BTH_SDP_CONNECT control, IOCTL_BTH_SDP_CONNECT control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_connect, bth_ioctls_e03c93b3-b2af-40d0-a296-bb76f33c38a2.xml, bthioctl/IOCTL_BTH_SDP_CONNECT
 req.header: bthioctl.h
@@ -49,6 +49,8 @@ The IOCTL_BTH_SDP_CONNECT request creates a connection to the SDP service on a r
      device.
 
 ## -ioctlparameters
+
+### -ioctl-major-code
 
 ### -input-buffer
 

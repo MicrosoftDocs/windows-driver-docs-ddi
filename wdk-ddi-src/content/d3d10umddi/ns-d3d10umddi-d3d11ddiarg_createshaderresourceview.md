@@ -1,9 +1,8 @@
 ---
 UID: NS:d3d10umddi.D3D11DDIARG_CREATESHADERRESOURCEVIEW
 title: D3D11DDIARG_CREATESHADERRESOURCEVIEW (d3d10umddi.h)
-description: The D3D11DDIARG_CREATESHADERRESOURCEVIEW structure describes the shader resource view to create.
-old-location: display\d3d11ddiarg_createshaderresourceview.htm
-ms.date: 11/03/2022
+description: Learn more about the D3D11DDIARG_CREATESHADERRESOURCEVIEW structure.
+ms.date: 06/02/2023
 ms.custom: content-health
 keywords: ["D3D11DDIARG_CREATESHADERRESOURCEVIEW structure"]
 ms.keywords: D3D11DDIARG_CREATESHADERRESOURCEVIEW, D3D11DDIARG_CREATESHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_e1d9908f-af17-4d66-ba86-4782bb22458e.xml, d3d10umddi/D3D11DDIARG_CREATESHADERRESOURCEVIEW, display.d3d11ddiarg_createshaderresourceview
@@ -53,37 +52,37 @@ The **D3D11DDIARG_CREATESHADERRESOURCEVIEW** structure describes the shader reso
 
 A handle to the shader resource.
 
-### -field Format [in]
+### -field Format
 
-A DXGI_FORMAT-typed value that indicates the pixel format of the view.
+[in] A [**DXGI_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)-typed value that indicates the pixel format of the view.
 
 ### -field ResourceDimension [in]
 
-A [**D3D10DDIRESOURCE_TYPE**](/windows-hardware/drivers/display/ne-d3d10umddi-d3d10ddiresource_type)-typed value that indicates the resource type and dimensionality.
+A [**D3D10DDIRESOURCE_TYPE**](ne-d3d10umddi-d3d10ddiresource_type.md)-typed value that indicates the resource type and dimensionality.
 
 ### -field Buffer [in]
 
-If the value in the **ResourceDimension** member is set to D3D10DDIRESOURCE_BUFFER, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a [**D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW**](ns-d3d10umddi-d3d10ddiarg_buffer_shaderresourceview.md) structure for a buffer.
+If **ResourceDimension** is set to D3D10DDIRESOURCE_BUFFER, **Buffer** holds a [**D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW**](ns-d3d10umddi-d3d10ddiarg_buffer_shaderresourceview.md) structure for a buffer.
 
 ### -field Tex1D [in]
 
-If the value in the **ResourceDimension** member is set to D3D10DDIRESOURCE_TEXTURE1D, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a [**D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW**](ns-d3d10umddi-d3d10ddiarg_tex1d_shaderresourceview.md) structure for a one-dimensional texture.
+If **ResourceDimension** is set to D3D10DDIRESOURCE_TEXTURE1D, **Buffer** holds a [**D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW**](ns-d3d10umddi-d3d10ddiarg_tex1d_shaderresourceview.md) structure for a one-dimensional texture.
 
 ### -field Tex2D [in]
 
-If the value in the **ResourceDimension** member is set to D3D10DDIRESOURCE_TEXTURE2D, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a [**D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW**](ns-d3d10umddi-d3d10ddiarg_tex2d_shaderresourceview.md) structure for a two-dimensional texture.
+If **ResourceDimension** is set to D3D10DDIRESOURCE_TEXTURE2D, **Buffer** holds a [**D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW**](ns-d3d10umddi-d3d10ddiarg_tex2d_shaderresourceview.md) structure for a two-dimensional texture.
 
 ### -field Tex3D [in]
 
-If the value in the **ResourceDimension** member is set to D3D10DDIRESOURCE_TEXTURE3D, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a [**D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW**](ns-d3d10umddi-d3d10ddiarg_tex3d_shaderresourceview.md) structure for a three-dimensional texture.
+If **ResourceDimension** is set to D3D10DDIRESOURCE_TEXTURE3D, **Buffer** holds a [**D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW**](ns-d3d10umddi-d3d10ddiarg_tex3d_shaderresourceview.md) structure for a three-dimensional texture.
 
 ### -field TexCube [in]
 
-If the value in the **ResourceDimension** member is set to D3D10DDIRESOURCE_TEXTURECUBE, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a [**D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW**](ns-d3d10umddi-d3d10ddiarg_texcube_shaderresourceview.md) structure for a cube texture.
+If **ResourceDimension** is set to D3D10DDIRESOURCE_TEXTURECUBE, **Buffer** holds a [**D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW**](ns-d3d10umddi-d3d10ddiarg_texcube_shaderresourceview.md) structure for a cube texture.
 
 ### -field BufferEx [in]
 
-If the value in the **ResourceDimension** member is set to D3D11DDIRESOURCE_BUFFEREX, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a [**D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW**](ns-d3d10umddi-d3d11ddiarg_bufferex_shaderresourceview.md) structure for a buffer.
+If **ResourceDimension** is set to D3D11DDIRESOURCE_BUFFEREX, a **Buffer** holds a [**D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW**](ns-d3d10umddi-d3d11ddiarg_bufferex_shaderresourceview.md) structure for a buffer.
 
 ## -see-also
 
@@ -101,6 +100,6 @@ If the value in the **ResourceDimension** member is set to D3D11DDIRESOURCE_BUFF
 
 [**D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW**](ns-d3d10umddi-d3d10ddiarg_texcube_shaderresourceview.md)
 
-[**D3D10DDIRESOURCE_TYPE**](/windows-hardware/drivers/display/ne-d3d10umddi-d3d10ddiresource_type)
+[**D3D10DDIRESOURCE_TYPE**](ne-d3d10umddi-d3d10ddiresource_type.md)
 
 [**D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW**](ns-d3d10umddi-d3d11ddiarg_bufferex_shaderresourceview.md)

@@ -50,6 +50,8 @@ The <b>IOCTL_GNSS_GET_FIXDATA</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to a DWORD value that represents the fix session ID.

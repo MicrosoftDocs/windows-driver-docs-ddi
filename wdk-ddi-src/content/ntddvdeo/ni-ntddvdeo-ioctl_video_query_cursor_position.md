@@ -49,6 +49,8 @@ Returns the current cursor position (row and column). Miniport drivers for VGA-c
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

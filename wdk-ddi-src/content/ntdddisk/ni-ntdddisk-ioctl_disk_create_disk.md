@@ -51,6 +51,8 @@ Disk drivers enumerate partitions as though they were child devices. Thus, upon 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the CREATE_DISK data.

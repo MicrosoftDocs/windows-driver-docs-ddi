@@ -69,6 +69,8 @@ For more information about IRPs and IOCTLs, see [Handling IRPs](/windows-hardwar
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

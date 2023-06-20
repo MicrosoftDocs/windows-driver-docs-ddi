@@ -54,7 +54,7 @@ The <b>WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY</b> enumeration identifies action
 
 ## -enum-fields
 
-### -field WdfIoForwardProgressInvalidPolicy
+### -field WdfIoForwardProgressInvalidPolicy:0x0
 
 ### -field WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest
 

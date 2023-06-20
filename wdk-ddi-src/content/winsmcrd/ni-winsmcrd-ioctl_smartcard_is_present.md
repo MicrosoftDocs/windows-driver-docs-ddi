@@ -50,6 +50,8 @@ The <b>IOCTL_SMARTCARD_IS_PRESENT</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

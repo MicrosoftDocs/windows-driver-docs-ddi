@@ -49,6 +49,8 @@ A driver for a device can use the IOCTL_ACPI_EVAL_METHOD device control request 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Set the <b>IoBuildDeviceIoControlRequest</b> input parameters as follows:

@@ -49,6 +49,8 @@ This I/O control function checks the device health.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to the input buffer, a [UnifiedPosHealthCheckLevel](../pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedposhealthchecklevel.md) variable.

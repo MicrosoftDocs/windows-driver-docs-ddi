@@ -49,6 +49,8 @@ The IOCTL_BIOMETRIC_GET_SENSOR_STATUS IOCTL tells the driver to perform any nece
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

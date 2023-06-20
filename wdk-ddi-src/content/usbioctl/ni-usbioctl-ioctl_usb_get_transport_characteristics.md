@@ -49,6 +49,8 @@ The client driver sends this request to retrieve the transport characteristics.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

@@ -49,6 +49,8 @@ This request notifies the caller of change in transport characteristics.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

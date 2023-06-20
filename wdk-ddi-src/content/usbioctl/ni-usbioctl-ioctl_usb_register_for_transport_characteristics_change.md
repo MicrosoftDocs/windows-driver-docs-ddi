@@ -49,6 +49,8 @@ This request registers for notifications about the changes in transport characte
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

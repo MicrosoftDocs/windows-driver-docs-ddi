@@ -49,6 +49,8 @@ Ends audio play.  Obsolete, beginning with Windows Vista.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

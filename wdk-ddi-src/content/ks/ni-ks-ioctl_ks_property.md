@@ -49,6 +49,8 @@ An application can use IOCTL_KS_PROPERTY to get or set properties, or to determi
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The contents of the client-specified <b>InBuffer</b> parameter depend on the property request, and are documented for each property set. For instance, clients requesting properties in the <a href="/windows-hardware/drivers/stream/kspropsetid-pin">KSPROPSETID_Pin</a> property set specify a pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksp_pin">KSP_PIN</a> structure.

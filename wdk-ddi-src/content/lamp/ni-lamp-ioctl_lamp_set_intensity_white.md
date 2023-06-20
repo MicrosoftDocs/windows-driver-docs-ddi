@@ -54,6 +54,8 @@ The **IOCTL_LAMP_SET_INTENSITY_WHITE** control code sets the lamp to the specifi
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 `Irp->AssociatedIrp.SystemBuffer` points to a [LAMP_INTENSITY_WHITE](./ns-lamp-lamp_intensity_white.md) structure.

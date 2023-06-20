@@ -54,6 +54,8 @@ The **IOCTL_LAMP_GET_CAPABILITIES_WHITE** control code queries the capabilities 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 `Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_CAPABILITIES_WHITE](./ns-lamp-lamp_capabilities_white.md).

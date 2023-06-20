@@ -49,6 +49,8 @@ The **IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT** control code is used to request al
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to the input buffer.

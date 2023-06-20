@@ -49,6 +49,10 @@ The IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER request is not supported.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 None

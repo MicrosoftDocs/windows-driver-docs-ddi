@@ -58,7 +58,7 @@ The **WDF_DEVICE_HWACCESS_TARGET_SIZE** enumeration is used internally by the fr
 
 ## -enum-fields
 
-### -field WdfDeviceHwAccessTargetTypeInvalid
+### -field WdfDeviceHwAccessTargetTypeInvalid:0
 
 ### -field WdfDeviceHwAccessTargetTypeRegister
 

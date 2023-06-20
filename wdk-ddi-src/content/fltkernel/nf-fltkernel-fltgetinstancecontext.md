@@ -1,10 +1,10 @@
 ---
 UID: NF:fltkernel.FltGetInstanceContext
 title: FltGetInstanceContext function (fltkernel.h)
-description: The FltGetInstanceContext routine retrieves a context that was set for an instance by a given minifilter driver.
+description: Learn more about the FltGetInstanceContext function.
 old-location: ifsk\fltgetinstancecontext.htm
 tech.root: ifsk
-ms.date: 01/22/2021
+ms.date: 04/25/2023
 keywords: ["FltGetInstanceContext function"]
 ms.keywords: FltApiRef_e_to_o_8d05bb2a-ad52-454b-89d6-b15413c34e7f.xml, FltGetInstanceContext, FltGetInstanceContext routine [Installable File System Drivers], fltkernel/FltGetInstanceContext, ifsk.fltgetinstancecontext
 req.header: fltkernel.h
@@ -54,15 +54,15 @@ Opaque instance pointer for the instance.
 
 ### -param Context [out]
 
-Pointer to a caller-allocated variable that receives the address of the instance context.
+Pointer to a caller-allocated variable that receives the address of the instance context. This parameter is required and can't be set to NULL.
 
 ## -returns
 
-**FltGetInstanceContext** returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following:
+**FltGetInstanceContext** returns STATUS_SUCCESS when it successfully returns the requested instance context. Otherwise, it returns an appropriate NTSTATUS value, such as the following:
 
 | Return code | Description |
 | ----------- | ----------- |
-| STATUS_NOT_FOUND | No matching context was found. This is an error code. |
+| STATUS_NOT_FOUND | No matching context was found on this instance at this time. *FltMgr* sets **Context** to NULL_CONTEXT. This is an error code. |
 
 ## -remarks
 
