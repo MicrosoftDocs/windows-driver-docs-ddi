@@ -13,7 +13,7 @@ ms.topic: overview
 
 ## -description
 
-## ACX audio driver
+**ACX audio driver**
 
 To develop audio class extension (ACX) drivers, use these headers:
 
@@ -33,13 +33,11 @@ To develop audio class extension (ACX) drivers, use these headers:
 
 For ACX audio programming information, see  [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview).
 
-
-## WDM portcls audio driver
+**WDM portcls audio driver**
 
 These headers are used to create Microsoft Windows Driver Model (WDM) audio drivers. These drivers control audio hardware that render and capture streams containing audio data.
 
 To develop WDM portcls audio drivers, use these headers:
-
 
  * [a2dpsidebandaudio.h](../a2dpsidebandaudio/index.md)
  * [bthhfpddi.h](../bthhfpddi/index.md)
