@@ -58,7 +58,7 @@ Type of parameter.
 
 Size in bytes of Parameter. In case of IOCTL_SBAUD_GET_SIOPxxx Size will indicate size of any extra input parameter.
 
-### -field Alignment
+### -field .Alignment
 
 Allows for byte alignment.
 

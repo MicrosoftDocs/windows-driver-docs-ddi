@@ -39,16 +39,17 @@ api_name:
 
 # SIDEBANDAUDIO_SIOP_REQUEST_PARAM structure
 
-
 ## -description
 
 Describes the variable SIOP request parameter.
 
-### -field .EpIndex
+## -struct-fields
+
+### -field EpIndex
 
 0 based index indicating the Endpoint on device.
 
-### -field .RequestedSiop
+### -field RequestedSiop
 
 The requested Siop in the form of a [SIDEBANDAUDIO_IO_PARAM_HEADER structure](ns-sidebandaudio-sidebandaudio_io_param_header.md).
 
@@ -75,4 +76,3 @@ The requested Siop in the form of a [SIDEBANDAUDIO_IO_PARAM_HEADER structure](ns
 ## -see-also
 
 [sidebandaudio.h](index.md)
-

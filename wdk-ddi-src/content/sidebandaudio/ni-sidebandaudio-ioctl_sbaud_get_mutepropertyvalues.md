@@ -63,6 +63,10 @@ If NULL, Irp->IoStatus.Information will be set to the number of bytes required f
 
 Size of KSPROPERTY_DESCRIPTION in addition to all the KSPROPERTY_MEMBERSHEADER and step ranges. This size is returned in SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR.MutePropertyValuesSize.
 
+### -in-out-buffer
+
+### -inout-buffer-length
+
 ### -status-block
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful, otherwise, Status to the appropriate error condition as a NTSTATUS code.
@@ -72,6 +76,7 @@ If properly sized output buffer is provided, Irp->IoStatus.Information is set to
 For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
+
 Audio drivers that implement sideband audio should advertise endpoint Mute through a mute node in their KS Filter or through the Audio Engine Node. Both methods can utilize the basic support information provided by this IOCTL.
 
 ## -see-also

@@ -62,6 +62,10 @@ A buffer containing a <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-si
 
 The size of a <b>SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR</b> structure and referenced data.
 
+### -in-out-buffer
+
+### -inout-buffer-length
+
 ### -status-block
 
 If the routine succeeds, then Status is set to STATUS_SUCCESS and the <i>Information</i> member is the number of bytes that the routine writes to the output buffer.

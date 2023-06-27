@@ -53,5 +53,13 @@ A value used to insure uniqueness of the IOCTLs
 
 ## -remarks
 
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
+
 ## -see-also
+
+[sidebandaudio.h](index.md)
 

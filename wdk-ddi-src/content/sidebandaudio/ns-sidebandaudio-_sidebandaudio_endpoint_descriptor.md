@@ -67,7 +67,7 @@ Specifies either KSPIN_DATAFLOW_IN or KSPIN_DATAFLOW_OUT. See <a href="/windows-
 
 ### -field Capabilities
 
-Capabilities of the endpoint like (mute, volume, sidetone, etc.). See See <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_capabilities">SIDEBANDAUDIO_ENDPOINT_CAPABILITIES</a>.
+Capabilities of the endpoint like (mute, volume, sidetone, etc.). See <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_capabilities">SIDEBANDAUDIO_ENDPOINT_CAPABILITIES</a>.
 
 ### -field FriendlyName
 
