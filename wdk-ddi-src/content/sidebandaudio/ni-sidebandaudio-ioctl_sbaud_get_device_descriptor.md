@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR
 title: IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR (sidebandaudio.h)
-description: "The audio driver issues the IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR to get information about an enabled Sideband Audio device interface. "
+description: "The audio driver issues the IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR to get information about an enabled Sideband Audio device interface."
 ms.date: 06/27/2023
 keywords: ["IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR IOCTL"]
 req.header: sidebandaudio.h

@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE
 title: IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL"
+description: "The IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL control code is used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection."
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL"]
 req.header: sidebandaudio.h
@@ -38,7 +38,7 @@ api_name:
 
 ## -description
 
-This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
+The IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL control code is used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
 
 ## -ioctlparameters
 

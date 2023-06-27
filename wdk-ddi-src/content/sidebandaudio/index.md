@@ -3,7 +3,7 @@ description: "Learn more about: sidebandaudio.h header"
 UID: NA:sidebandaudio
 title: sidebandaudio.h header
 ms.assetid: a245e760-fd7d-3efa-9b5f-09303bd40241
-ms.date: 07/11/2018
+ms.date: 06/27/2023
 keywords: ["sidebandaudio.h header"]
 ms.keywords: 
 ms.topic: overview
@@ -17,7 +17,6 @@ api_name:
 ---
 
 # sidebandaudio.h header
-
 
 ## -description
 

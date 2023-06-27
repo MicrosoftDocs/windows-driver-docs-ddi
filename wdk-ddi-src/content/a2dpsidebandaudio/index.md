@@ -1,7 +1,8 @@
 ---
+Description: "This header defines the types, constants, and functions that are exposed to device drivers that interact with the Windows A2DP Audio Driver."
 UID: NA:a2dpsidebandaudio
 title: a2dpsidebandaudio.h header
-ms.date: 05/14/2021
+ms.date: 06/27/2023
 keywords: ["a2dpsidebandaudio.h header"]
 ms.keywords: 
 ms.prod: windows-hardware

@@ -44,8 +44,7 @@ Identifies the SIDEBANDAUDIO_PARAMS_SET_A2DP parameter.
 
 Supported codecs information
 
-The value is a sequence of Media Codec Capabilities fields as defined in table 8.52, section 
-8.21.5 of AVDTP 1.3. Also, see A2DP 1.3.1 section 4.2.5 and section 4.7.2 for additional information.
+The value is a sequence of Media Codec Capabilities fields as defined in table 8.52, section 8.21.5 of AVDTP 1.3. Also, see A2DP 1.3.1 section 4.2.5 and section 4.7.2 for additional information.
 
 SIDEBANDAUDIO_PARAM_A2DP_CODECS = 1,
 
