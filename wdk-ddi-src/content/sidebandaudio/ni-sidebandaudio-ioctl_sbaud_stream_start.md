@@ -36,7 +36,6 @@ api_name:
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
-
 ## -description
 
 This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection. On transition up to KSSTATE_RUN, send **IOCTL_SBAUD_STREAM_START**.
@@ -47,22 +46,19 @@ This control codes used by an audio driver when cooperating with the Audio class
 
 ### -input-buffer
 
-### -input-buffer-length 
+(Additional Information Pending)
+
+### -input-buffer-length
 
 Size of ULONG. This is the size of the [SIDEBANDAUDIO_STREAM_OPEN_PARAMS](./ns-sidebandaudio-sidebandaudio_stream_open_params.md)
 
-
 ### -output-buffer
 
-
-### -output-buffer-length 
-
+### -output-buffer-length
 
 ### -in-out-buffer
 
-
-### -inout-buffer-length 
-
+### -inout-buffer-length
 
 ### -status-block
 

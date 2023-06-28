@@ -48,7 +48,6 @@ The value is a sequence of Media Codec Capabilities fields as defined in table 8
 
 SIDEBANDAUDIO_PARAM_A2DP_CODECS = 1,
 
-
 ### -field SIDEANDAUDIO_PARAM_A2DP_CONFIGURED_CODEC
 
 Configured codec information

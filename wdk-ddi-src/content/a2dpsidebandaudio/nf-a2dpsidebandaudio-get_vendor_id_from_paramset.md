@@ -55,16 +55,15 @@ This macro to get the Vendor ID from the VENDOR PARAMS SET derived from SIDEBAND
 
 Base GUID for Vendor-defined A2DP Sideband Set of Parameters
 
-The audio driver sets the 32 bit Data1 element to a Vendor ID. The upper 16
-bits shall be set to 0. The lower 16 bit shall be set to a valid Company ID
-as defined in Bluetooth Assigned Numbers.
+The audio driver sets the 32 bit Data1 element to a Vendor ID. The upper 16 bits shall be set to 0. The lower 16 bit shall be set to a valid Company ID as defined in Bluetooth Assigned Numbers.
 
 For additional information, see https://www.bluetooth.com/specifications/assigned-numbers/company-identifiers
 
+```
 {xxxxxxxx-FE37-468B-AF72-411C0E5A3FFC}
 DEFINE_GUID(SIDEBAND_PARAMS_SET_A2DP_VENDOR_BASE,
     0x00000000, 0xfe37, 0x468b, 0xaf, 0x72, 0x41, 0x1c, 0xe, 0x5a, 0x3f, 0xfc);
-
+```
 
 ## -parameters
 
@@ -72,10 +71,7 @@ DEFINE_GUID(SIDEBAND_PARAMS_SET_A2DP_VENDOR_BASE,
 
 A parameter set. (Additional Information Pending)
 
-
 ## -remarks
-
-
 
 ## -see-also
 

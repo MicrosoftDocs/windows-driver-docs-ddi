@@ -42,7 +42,6 @@ dev_langs:
 
 # a2dpsidebandaudio
 
-
 ## -description
 
 The a2dpsidebandaudio header defines, values, gets and sets, that are used to support A2DP sideband audio.
@@ -53,26 +52,31 @@ The following GUIDs are defined.
 
 The interface class GUID for A2DP SIDEBAND AUDIO bypass.
 
+```
 {F3B1362F-C9F4-4DD1-9D55-E02038A129FB}
 
 DEFINE_GUID (GUID_DEVINTERFACE_A2DP_SIDEBAND_AUDIO,
     0xf3b1362f, 0xc9f4, 0x4dd1, 0x9d, 0x55, 0xe0, 0x20, 0x38, 0xa1, 0x29, 0xfb);
+```
 
 **GUID_SIDEBANDAUDIO_A2DP_SUPPORT_INTERFACE**
 
 Published by the audio driver to indicate that it is configured for Bluetooth A2DP sideband streaming.
- 
+
+``` 
 {2BC51EE4-07AF-49CF-B04B-FB3F1C26AADC}
 DEFINE_GUID(GUID_SIDEBANDAUDIO_A2DP_SUPPORT_INTERFACE, 0x2bc51ee4, 0x7af, 0x49cf, 0xb0, 0x4b, 0xfb, 0x3f, 0x1c, 0x26, 0xaa, 0xdc);
-
+```
 
 **SIDEBANDAUDIO_PARAMS_SET_A2DP**
 
 Microsoft A2DP Audio Sideband Set of Parameters
 
+```
 {8FE0297F-3AE6-4384-ACE3-87589E571B9C}
 DEFINE_GUID(SIDEBANDAUDIO_PARAMS_SET_A2DP,
     0x8fe0297f, 0x3ae6, 0x4384, 0xac, 0xe3, 0x87, 0x58, 0x9e, 0x57, 0x1b, 0x9c);
+```
 
 ## -remarks
 

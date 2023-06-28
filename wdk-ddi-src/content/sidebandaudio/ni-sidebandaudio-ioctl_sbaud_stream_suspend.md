@@ -46,6 +46,8 @@ This control codes used by an audio driver when cooperating with the Audio class
 
 ### -input-buffer
 
+(Additional Information Pending)
+
 ### -input-buffer-length
 
 Size of ULONG.

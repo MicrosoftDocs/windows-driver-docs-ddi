@@ -42,7 +42,6 @@ api_name:
 
 # _SIDEBANDAUDIO_CONNECTION_PARAMS structure
 
-
 ## -description
 
 Describes the endpoint index and Connection value.
@@ -66,4 +65,3 @@ Indicates whether the endpoint is connected or not. Could reflect jack states or
 ## -see-also
 
 [sidebandaudio.h](index.md)
-
