@@ -50,7 +50,8 @@ This control codes used by an audio driver when cooperating with the Audio class
 
 ### -input-buffer-length 
 
-Size of ULONG. This is the size of the [SIDEBANDAUDIO_STREAM_OPEN_PARAMS](ns-sidebandaudio-sidebandaudio_stream_open_params.md).
+Size of ULONG. This is the size of the [SIDEBANDAUDIO_STREAM_OPEN_PARAMS](./ns-sidebandaudio-sidebandaudio_stream_open_params.md)
+
 
 ### -output-buffer
 
@@ -67,8 +68,7 @@ Size of ULONG. This is the size of the [SIDEBANDAUDIO_STREAM_OPEN_PARAMS](ns-sid
 ### -status-block
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 ## -remarks

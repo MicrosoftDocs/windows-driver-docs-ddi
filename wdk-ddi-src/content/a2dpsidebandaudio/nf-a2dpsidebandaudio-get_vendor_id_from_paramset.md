@@ -79,6 +79,6 @@ A parameter set. (Additional Information Pending)
 
 ## -see-also
 
-[A2DPSidebandAudio](/windows-hardware/drivers/ddi/a2dpsidebandaudio/)
+[A2DPSidebandAudio](./index.md/)
 
-[SET_VENDOR_ID_FROM_PARAMSET](/windows-hardware/drivers/ddi/set_vendor_id_from_paramset)
+[SET_VENDOR_ID_FROM_PARAMSET](./nf-a2dpsidebandaudio-set_vendor_id_to_paramset.md)

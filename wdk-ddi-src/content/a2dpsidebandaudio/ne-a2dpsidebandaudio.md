@@ -62,4 +62,8 @@ SIDEANDAUDIO_PARAM_A2DP_CONFIGURED_CODEC = 2,
 
 ## -see-also
 
-[A2DPSidebandAudio](/windows-hardware/drivers/ddi/a2dpsidebandaudio/)
+[A2DPSidebandAudio](./index.md/)
+
+[SET_VENDOR_ID_FROM_PARAMSET](./nf-a2dpsidebandaudio-set_vendor_id_to_paramset.md)
+
+[GET_VENDOR_ID_FROM_PARAMSET](./nf-a2dpsidebandaudio-get_vendor_id_from_paramset.md)

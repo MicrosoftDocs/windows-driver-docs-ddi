@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_OPEN
 title: IOCTL_SBAUD_STREAM_OPEN (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_STREAM_OPEN IOCTL"
+description: "On first transition above KSSTATE_STOP (normally to KSSTATE_ACQUIRE), send IOCTL_SBAUD_STREAM_OPEN."
 ms.date: 06/27/2023
 keywords: ["IOCTL_SBAUD_STREAM_OPEN IOCTL"]
 req.header: sidebandaudio.h
@@ -39,7 +39,7 @@ api_name:
 
 ## -description
 
-This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
+This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection. On first transition above KSSTATE_STOP (normally to KSSTATE_ACQUIRE), send **IOCTL_SBAUD_STREAM_OPEN**.
 
 ## -ioctlparameters
 
@@ -51,7 +51,8 @@ A 0 based index value based on the number of Audio endpoints as reported by the 
 
 ### -input-buffer-length
 
-Size of ULONG. This is the size of the [SIDEBANDAUDIO_STREAM_OPEN_PARAMS](ns-sidebandaudio-sidebandaudio_stream_open_params.md).
+Size of ULONG. This is the size of the [SIDEBANDAUDIO_STREAM_OPEN_PARAMS](./ns-sidebandaudio-sidebandaudio_stream_open_params.md)
+
 
 ### -output-buffer
 

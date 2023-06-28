@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_SUSPEND
 title: IOCTL_SBAUD_STREAM_SUSPEND (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_STREAM_SUSPEND IOCTL"
-ms.date: 10/05/2018
+description: "On transition below KSSTATE_RUN, send IOCTL_SBAUD_STREAM_SUSPEND."
+ms.date: 06/28/2023
 keywords: ["IOCTL_SBAUD_STREAM_SUSPEND IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -39,7 +39,7 @@ api_name:
 
 ## -description
 
-This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
+This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection. On transition below KSSTATE_RUN, send **IOCTL_SBAUD_STREAM_SUSPEND**.
 
 ## -ioctlparameters
 
@@ -50,7 +50,8 @@ This control codes used by an audio driver when cooperating with the Audio class
 
 ### -input-buffer-length 
 
-Size of ULONG. This is the size of the [SIDEBANDAUDIO_STREAM_OPEN_PARAMS](ns-sidebandaudio-sidebandaudio_stream_open_params.md).
+Size of ULONG. This is the size of the [SIDEBANDAUDIO_STREAM_OPEN_PARAMS](./ns-sidebandaudio-sidebandaudio_stream_open_params.md)
+
 
 ### -output-buffer
 

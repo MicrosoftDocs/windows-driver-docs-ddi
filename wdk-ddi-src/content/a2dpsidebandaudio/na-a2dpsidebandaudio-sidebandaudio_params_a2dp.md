@@ -78,8 +78,8 @@ DEFINE_GUID(SIDEBANDAUDIO_PARAMS_SET_A2DP,
 
 ## -see-also
 
-[SET_VENDOR_ID_FROM_PARAMSET](/windows-hardware/drivers/ddi/set_vendor_id_from_paramset)
+[SET_VENDOR_ID_FROM_PARAMSET](./nf-a2dpsidebandaudio-set_vendor_id_to_paramset.md)
 
-[GET_VENDOR_ID_FROM_PARAMSET](/windows-hardware/drivers/ddi/get_vendor_id_from_paramset)
+[GET_VENDOR_ID_FROM_PARAMSET](./nf-a2dpsidebandaudio-get_vendor_id_from_paramset.md)
 
-[A2DPSidebandAudio](/windows-hardware/drivers/ddi/a2dpsidebandaudio/)
+[A2DPSidebandAudio](./index.md/)

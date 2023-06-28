@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_START
 title: IOCTL_SBAUD_STREAM_START (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_STREAM_START IOCTL"
+description: "On transition up to KSSTATE_RUN, send IOCTL_SBAUD_STREAM_START."
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_STREAM_START IOCTL"]
 req.header: sidebandaudio.h
@@ -39,7 +39,7 @@ api_name:
 
 ## -description
 
-This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
+This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection. On transition up to KSSTATE_RUN, send **IOCTL_SBAUD_STREAM_START**.
 
 ## -ioctlparameters
 
@@ -49,7 +49,8 @@ This control codes used by an audio driver when cooperating with the Audio class
 
 ### -input-buffer-length 
 
-Size of ULONG. This is the size of the [SIDEBANDAUDIO_STREAM_OPEN_PARAMS](ns-sidebandaudio-sidebandaudio_stream_open_params.md).
+Size of ULONG. This is the size of the [SIDEBANDAUDIO_STREAM_OPEN_PARAMS](./ns-sidebandaudio-sidebandaudio_stream_open_params.md)
+
 
 ### -output-buffer
 
@@ -66,8 +67,7 @@ Size of ULONG. This is the size of the [SIDEBANDAUDIO_STREAM_OPEN_PARAMS](ns-sid
 ### -status-block
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
