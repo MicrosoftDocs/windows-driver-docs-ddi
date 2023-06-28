@@ -80,6 +80,14 @@ The audio driver sends this request to obtain information about an enabled Audio
 
 The audio driver sends this request once with an output buffer size of zero (0) in order to determine the required output buffer size. In this case, the request will complete with Status STATUS_BUFFER_TOO_SMALL and set the <i>Information</i> member to the required buffer size. The audio driver then allocates the necessary storage space and sends the request again.
 
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
+
 ## -see-also
 
 [SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR](./ns-sidebandaudio-_sidebandaudio_endpoint_descriptor.md)
+
+

@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_CLOSE
 title: IOCTL_SBAUD_STREAM_CLOSE (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_STREAM_CLOSE IOCTL"
-ms.date: 06/27/2023
+description: "This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection. On closure of KS pin, send IOCTL_SBAUD_STREAM_CLOSE."
+ms.date: 06/28/2023
 keywords: ["IOCTL_SBAUD_STREAM_CLOSE IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -36,10 +36,9 @@ api_name:
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
-
 ## -description
 
-This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
+This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection. On closure of KS pin, send **IOCTL_SBAUD_STREAM_CLOSE**.
 
 ## -ioctlparameters
 
@@ -47,29 +46,21 @@ This control codes used by an audio driver when cooperating with the Audio class
 
 ### -input-buffer
 
+### -input-buffer-length
 
-### -input-buffer-length 
-
-Size of ULONG. This is the size of the [SIDEBANDAUDIO_STREAM_OPEN_PARAMS](./ns-sidebandaudio-sidebandaudio_stream_open_params.md)
-
+Size of ULONG.
 
 ### -output-buffer
 
-
-### -output-buffer-length 
-
+### -output-buffer-length
 
 ### -in-out-buffer
 
-
-### -inout-buffer-length 
-
+### -inout-buffer-length
 
 ### -status-block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
-
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

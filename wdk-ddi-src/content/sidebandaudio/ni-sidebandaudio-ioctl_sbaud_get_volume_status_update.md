@@ -80,3 +80,5 @@ The volume update IOCTL can be used in two modes - update and immediate. If SIDE
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>
+
+[sidebandaudio.h](index.md)

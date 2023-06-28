@@ -82,4 +82,4 @@ DEFINE_GUID(SIDEBANDAUDIO_PARAMS_SET_A2DP,
 
 [GET_VENDOR_ID_FROM_PARAMSET](./nf-a2dpsidebandaudio-get_vendor_id_from_paramset.md)
 
-[A2DPSidebandAudio](./index.md/)
+[A2DPSidebandAudio](./index.md)

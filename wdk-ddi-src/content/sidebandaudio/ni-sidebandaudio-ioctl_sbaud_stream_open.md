@@ -2,7 +2,7 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_OPEN
 title: IOCTL_SBAUD_STREAM_OPEN (sidebandaudio.h)
 description: "On first transition above KSSTATE_STOP (normally to KSSTATE_ACQUIRE), send IOCTL_SBAUD_STREAM_OPEN."
-ms.date: 06/27/2023
+ms.date: 06/28/2023
 keywords: ["IOCTL_SBAUD_STREAM_OPEN IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -36,7 +36,6 @@ api_name:
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
-
 ## -description
 
 This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection. On first transition above KSSTATE_STOP (normally to KSSTATE_ACQUIRE), send **IOCTL_SBAUD_STREAM_OPEN**.
@@ -53,23 +52,17 @@ A 0 based index value based on the number of Audio endpoints as reported by the 
 
 Size of ULONG. This is the size of the [SIDEBANDAUDIO_STREAM_OPEN_PARAMS](./ns-sidebandaudio-sidebandaudio_stream_open_params.md)
 
-
 ### -output-buffer
 
-
-### -output-buffer-length 
-
+### -output-buffer-length
 
 ### -in-out-buffer
 
-
-### -inout-buffer-length 
-
+### -inout-buffer-length
 
 ### -status-block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

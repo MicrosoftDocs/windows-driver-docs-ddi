@@ -63,10 +63,8 @@ The Vendor ID (Additional Information Pending)
 
 ## -remarks
 
-
 ## -see-also
 
-[A2DPSidebandAudio](./index.md/)
+[GET_VENDOR_ID_FROM_PARAMSET](./nf-a2dpsidebandaudio-get_vendor_id_from_paramset.md)
 
-[GET_VENDOR_ID_FROM_PARAMSET](/windows-hardware/drivers/ddi/get_vendor_id_from_paramset)
-
+[A2DPSidebandAudio](./index.md)
