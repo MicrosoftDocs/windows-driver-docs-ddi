@@ -36,10 +36,11 @@ api_name:
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
-
 ## -description
 
 This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
+
+IOCTL_SBAUD_GET_SIOP_UPDATE can be used to get the updatable configured-codec-SIOP.
 
 ## -ioctlparameters
 
