@@ -1,10 +1,8 @@
 ---
 UID: NE:usbsidebandaudio._SIDEBANDAUDIO_USB_CONTROLLER_CONFIG_INFO_TYPE
-tech.root: audio
 title: SIDEBANDAUDIO_USB_CONTROLLER_CONFIG_INFO_TYPE
-ms.date: 06/28/2023
-targetos: Windows
 description: Microsoft USB Audio Sideband USB controller Set of Parameters.
+ms.date: 06/28/2023
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -18,6 +16,9 @@ req.target-type:
 req.typenames: 
 typedef_isUnnamed: false
 req.umdf-ver: 
+targetos: Windows
+tech.root: audio
+ms.custom: RS5
 topic_type:
  - apiref
 api_type:

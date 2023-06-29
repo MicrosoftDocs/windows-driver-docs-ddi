@@ -48,7 +48,7 @@ The audio driver issues the IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR to get information
 
 NULL.
 
-### -input-buffer-length 
+### -input-buffer-length
 
 0.
 

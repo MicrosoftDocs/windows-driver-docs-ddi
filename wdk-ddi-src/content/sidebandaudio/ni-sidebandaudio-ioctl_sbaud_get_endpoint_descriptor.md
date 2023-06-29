@@ -36,7 +36,6 @@ api_name:
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
-
 ## -description
 
 The audio driver issues the <b>IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR</b> control code to get information about an Audio endpoint exposed through Sideband Audio device interface.
@@ -50,7 +49,7 @@ The audio driver issues the <b>IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR</b> control c
 A 0 based index value based on the number of Audio endpoints as reported by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_device_descriptor">IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR</a>.
 This is a ULONG value from 0 to (N-1) where N is the number of Endpoints for the device.
 
-### -input-buffer-length 
+### -input-buffer-length
 
 Size of ULONG.
 
@@ -58,7 +57,7 @@ Size of ULONG.
 
 A buffer containing a <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_descriptor">SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR</a> structure followed by any other data referenced by the structure. This is returned, if the output buffer size is sufficient and the request succeeds. In particular, the buffer includes storage for the string referenced by the <i>FriendlyName</i> field of the <b>SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR</b> structure.
 
-### -output-buffer-length 
+### -output-buffer-length
 
 The size of a <b>SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR</b> structure and referenced data.
 
