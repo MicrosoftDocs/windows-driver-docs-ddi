@@ -1,16 +1,15 @@
 ---
 UID: NE:usbsidebandaudio._SIDEBANDAUDIO_USB_CONTROLLER_CONFIG_INFO_TYPE
-tech.root: 
+tech.root: audio
 title: SIDEBANDAUDIO_USB_CONTROLLER_CONFIG_INFO_TYPE
 ms.date: 06/28/2023
 targetos: Windows
-tech.root: audio
-description: 
+description: Microsoft USB Audio Sideband USB controller Set of Parameters.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: usbsidebandaudio.h
-req.include-header: 
+req.include-header: usbsidebandaudio.h
 req.kmdf-ver: 
 req.max-support: 
 req.target-min-winverclnt: 
@@ -41,7 +40,7 @@ helpviewer_keywords:
 
 ## -description
 
-Microsoft USB Audio Sideband USB controller Set of Parameters
+Microsoft USB Audio Sideband USB controller Set of Parameters.
 
 ```cpp
 // {7FE4A3DB-B637-4168-B853-4317079560D2}
@@ -53,11 +52,13 @@ DEFINE_GUID(SIDEBANDAUDIO_PARAMS_SET_USB_CONTROLLER,
 
 ### -field SIOP_TYPE_USBAUD_CONTROLLER_CONFIG_INFO_DEVICE_BEHIND_HUB
 
+Provides USB sideband audio information, for example about a USB headset endpoint.
+
 ### -field SBUSBAUD_CONTROLLER_CONFIG_INFO_TYPE_INVALID
 
-## -remarks
+An invalid controller config type.
 
-(Additional information pending.)
+## -remarks
 
 ## -see-also
 
