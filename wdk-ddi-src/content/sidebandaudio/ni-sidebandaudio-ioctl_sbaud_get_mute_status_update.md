@@ -2,7 +2,7 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE
 title: IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE (sidebandaudio.h)
 description: "The IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL gets the mute level setting of the Sideband Audio endpoint."
-ms.date: 10/05/2018
+ms.date: 06/30/2023
 keywords: ["IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -36,7 +36,6 @@ api_name:
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
-
 ## -description
 
 The IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL gets the mute level setting of the Sideband Audio endpoint.
@@ -49,7 +48,7 @@ The IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL gets the mute level setting of the 
 
 [SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_params.md) with the 0 based endpoint index and channel number along with 'immediate' parameter indicating whether to process this IOCTL immediately or pend it for future updates.
 
-### -input-buffer-length 
+### -input-buffer-length
 
 Size of [SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_params.md).
 
@@ -57,7 +56,7 @@ Size of [SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_param
 
 [SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_params.md)
 
-### -output-buffer-length 
+### -output-buffer-length
 
 Size of [SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_params.md).
 
@@ -67,8 +66,7 @@ Size of [SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_param
 
 ### -status-block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

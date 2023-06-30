@@ -39,7 +39,7 @@ dev_langs:
  - c++
 ---
 
-# SET_VENDOR_ID_TO_PARAMSET 
+# SET_VENDOR_ID_TO_PARAMSET
 
 ## -description
 
