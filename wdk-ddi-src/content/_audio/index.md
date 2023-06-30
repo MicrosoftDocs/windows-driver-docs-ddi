@@ -49,5 +49,7 @@ To develop WDM portcls audio drivers, use these headers:
  * [keyworddetectoroemadapter.h](../keyworddetectoroemadapter/index.md)
  * [ksmedia.h](../ksmedia/index.md)
  * [portcls.h](../portcls/index.md)
+ * [sidebandaudio.h](../sidebandaudio/index.md)
+ * [usbsidebandaudio.h](../usbsidebandaudio/index.md)
 
 For WDM portcls audio programming information, see [Audio Devices Design Guide](/windows-hardware/drivers/audio).
