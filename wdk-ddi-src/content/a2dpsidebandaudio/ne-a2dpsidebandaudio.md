@@ -3,7 +3,7 @@ UID: NE:a2dpsidebandaudio._SIDEBANDAUDIO_PARAMS_A2DP
 tech.root: audio
 title: SIDEBANDAUDIO_PARAMS_A2DP
 description: Identifies the SIDEBANDAUDIO_PARAMS_SET_A2DP parameter.
-ms.date: 05/14/2021
+ms.date: 06/30/2023
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -46,7 +46,7 @@ Supported codecs information
 
 The value is a sequence of Media Codec Capabilities fields as defined in table 8.52, section 8.21.5 of AVDTP 1.3. Also, see A2DP 1.3.1 section 4.2.5 and section 4.7.2 for additional information.
 
-SIDEBANDAUDIO_PARAM_A2DP_CODECS = 1,
+`SIDEBANDAUDIO_PARAM_A2DP_CODECS = 1,`
 
 ### -field SIDEANDAUDIO_PARAM_A2DP_CONFIGURED_CODEC
 
@@ -55,7 +55,7 @@ Configured codec information
 The value is a single Media Codec Capabilities field as defined in table 8.52, section 8.21.5 of AVDTP 1.3.
 Also, see A2DP 1.3.1 section 4.2.5 and section 4.7.2 for additional information.
 
-SIDEANDAUDIO_PARAM_A2DP_CONFIGURED_CODEC = 2,
+`SIDEANDAUDIO_PARAM_A2DP_CONFIGURED_CODEC = 2,`
 
 ## -remarks
 

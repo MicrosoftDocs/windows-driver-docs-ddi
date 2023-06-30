@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio.SIDEBANDAUDIO_IO_PARAM_HEADER
 title: SIDEBANDAUDIO_IO_PARAM_HEADER (sidebandaudio.h)
 description: Describes the size and type of parameter.
-ms.date: 10/19/2021
+ms.date: 06/30/2023
 keywords: ["SIDEBANDAUDIO_IO_PARAM_HEADER structure"]
 ms.keywords: SIDEBANDAUDIO_IO_PARAM_HEADER, SIDEBANDAUDIO_IO_PARAM_HEADER, *PSIDEBANDAUDIO_IO_PARAM_HEADER,
 req.header: sidebandaudio.h
@@ -80,4 +80,3 @@ Size in bytes of Parameter. In case of IOCTL_SBAUD_GET_SIOPxxx Size will indicat
 ## -see-also
 
 [sidebandaudio.h](index.md)
-

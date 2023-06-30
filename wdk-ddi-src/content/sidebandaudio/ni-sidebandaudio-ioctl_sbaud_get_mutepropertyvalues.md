@@ -69,7 +69,9 @@ Size of KSPROPERTY_DESCRIPTION in addition to all the KSPROPERTY_MEMBERSHEADER a
 ### -status-block
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful, otherwise, Status to the appropriate error condition as a NTSTATUS code.
+
 If output buffer is NULL, Irp->IoStatus.Status is set to STATUS_BUFFER_TOO_SMALL and Irp->IoStatus.Information is set to the number of bytes required for the output buffer.
+
 If properly sized output buffer is provided, Irp->IoStatus.Information is set to the number of bytes written to the output buffer.
 
 For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
