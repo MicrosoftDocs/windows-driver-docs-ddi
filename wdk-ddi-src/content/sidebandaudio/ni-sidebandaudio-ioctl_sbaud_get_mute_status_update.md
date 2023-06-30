@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE
 title: IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL"
+description: "The IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL gets the mute level setting of the Sideband Audio endpoint."
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL"]
 req.header: sidebandaudio.h
@@ -39,7 +39,7 @@ api_name:
 
 ## -description
 
-The IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL Gets the mute level setting of the Sideband Audio endpoint.
+The IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL gets the mute level setting of the Sideband Audio endpoint.
 
 ## -ioctlparameters
 
@@ -61,16 +61,27 @@ Size of [SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_param
 
 Size of [SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_params.md).
 
+### -in-out-buffer
+
+### -inout-buffer-length
+
 ### -status-block
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 The mute update IOCTL can be used in two modes - update and immediate. If _**Immediate**_ parameter is set to TRUE, the IOCTL returns immediately with the current mute value for the requested channel. If the Immediate parameter is set to FALSE, the IRP is pended by the Sideband Audio Driver until there is a change in the device mute state. Audio driver should setup a pending mute IOCTL to get notified of any changes in hardware mute state.
 
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
+
 ## -see-also
 
 [SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_params.md)
+
+[sidebandaudio.h](index.md)

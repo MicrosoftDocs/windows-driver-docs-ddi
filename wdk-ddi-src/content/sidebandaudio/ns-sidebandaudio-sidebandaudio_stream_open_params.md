@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio.SIDEBANDAUDIO_STREAM_OPEN_PARAMS
 title: SIDEBANDAUDIO_STREAM_OPEN_PARAMS (sidebandaudio.h)
 description: Describes the variable I/O parameters for IOCTLs.
-ms.date: 09/07/2018
+ms.date: 06/28/2023
 keywords: ["SIDEBANDAUDIO_STREAM_OPEN_PARAMS structure"]
 ms.keywords: SIDEBANDAUDIO_STREAM_OPEN_PARAMS, SIDEBANDAUDIO_STREAM_OPEN_PARAMS, *PSIDEBANDAUDIO_STREAM_OPEN_PARAMS,
 req.header: sidebandaudio.h
@@ -39,7 +39,6 @@ api_name:
 
 # SIDEBANDAUDIO_STREAM_OPEN_PARAMS structure
 
-
 ## -description
 
 Describes the variable I/O parameters for IOCTLs.
@@ -64,21 +63,6 @@ Alignment - Allows for byte alignment.
 
 ## -remarks
 
-Union fields described here.
-
-#### EpIndex
-
-0 based index indicating the Endpoint on device.
-
-#### Format
-
-Stream Format KSDATAFORMAT.
-
-#### SiopCount
-
-Number of Input parameters.
-
 ## -see-also
 
 [sidebandaudio.h](index.md)
-

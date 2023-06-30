@@ -42,7 +42,6 @@ api_name:
 
 # _SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES structure
 
-
 ## -description
 
 This structure describes USB sideband audio transport resources.

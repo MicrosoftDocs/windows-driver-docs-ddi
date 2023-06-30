@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio._SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
 title: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR (sidebandaudio.h)
 description: Describes the characteristics of the audio Endpoint driver.
-ms.date: 10/18/2021
+ms.date: 06/26/2023
 keywords: ["SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure"]
 ms.keywords: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, *PSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR,
 req.header: sidebandaudio.h
@@ -59,7 +59,7 @@ Pnp Container ID for connected device. See <a href="/windows-hardware/drivers/au
 
 ### -field Category
 
- KSPIN_DESCRIPTOR.Category to indicate form factor. Specifies a pointer to a KS pin category GUID. The KS pin category GUID identifies the general category of functionality that the pin provides. Examples of KS pin category GUIDs are KSNODETYPE_SPEAKER, KSNODETYPE_HEADPHONES, and KSNODETYPE_MICROPHONE, which are all defined in Ksmedia.h. See <a href="/windows-hardware/drivers/audio/pin-category-property">Pin Category Property</a>.
+KSPIN_DESCRIPTOR.Category to indicate form factor. Specifies a pointer to a KS pin category GUID. The KS pin category GUID identifies the general category of functionality that the pin provides. Examples of KS pin category GUIDs are KSNODETYPE_SPEAKER, KSNODETYPE_HEADPHONES, and KSNODETYPE_MICROPHONE, which are all defined in Ksmedia.h. See <a href="/windows-hardware/drivers/audio/pin-category-property">Pin Category Property</a>.
 
 ### -field Direction
 
@@ -67,7 +67,7 @@ Specifies either KSPIN_DATAFLOW_IN or KSPIN_DATAFLOW_OUT. See <a href="/windows-
 
 ### -field Capabilities
 
-Capabilities of the endpoint like (mute, volume, sidetone, etc.). See See <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_capabilities">SIDEBANDAUDIO_ENDPOINT_CAPABILITIES</a>.
+Capabilities of the endpoint like (mute, volume, sidetone, etc.). See <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_capabilities">SIDEBANDAUDIO_ENDPOINT_CAPABILITIES</a>.
 
 ### -field FriendlyName
 
@@ -83,7 +83,7 @@ If remote volume control is supported, this member contains the size of the data
 
 ### -field MutePropertyValuesSize
 
-If remote mute is supported, the member contains the size of data returned by IOCTL_SBAUD_GET_MUTEPROPERTYVALUES.
+If remote mute is supported, the member contains the size of data returned by [IOCTL_SBAUD_GET_MUTEPROPERTYVALUES](./ni-sidebandaudio-ioctl_sbaud_get_mutepropertyvalues.md).
 
 ## -remarks
 

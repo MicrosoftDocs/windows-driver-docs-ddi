@@ -65,10 +65,20 @@ This control codes used by an audio driver when cooperating with the Audio class
 
 ### -status-block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code.  For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+
 
 ## -remarks
 
+This one of the IOCTLs used for KS pin state transitions. The audio driver sends these requests on certain KS pin state transitions.
+
+
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
+
 ## -see-also
+
+[sidebandaudio.h](index.md)

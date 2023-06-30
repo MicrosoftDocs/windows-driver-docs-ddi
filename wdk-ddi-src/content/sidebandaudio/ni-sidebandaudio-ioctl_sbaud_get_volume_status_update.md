@@ -51,7 +51,7 @@ The IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE IOCTL Gets the volume level setting of 
 
 ### -input-buffer-length 
 
-Szie of <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>.
+Size of <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>.
 
 ### -output-buffer
 
@@ -80,3 +80,5 @@ The volume update IOCTL can be used in two modes - update and immediate. If SIDE
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>
+
+[sidebandaudio.h](index.md)

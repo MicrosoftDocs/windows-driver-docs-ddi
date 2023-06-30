@@ -49,7 +49,7 @@ The audio driver issues the <b>IOCTL_SBAUD_GET_SUPPORTED_FORMATS</b> control cod
 
 [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supported_formats.md) containing endpoint index, and array of formats supported by the Audio driver.
 
-### -input-buffer-length 
+### -input-buffer-length
 
 Size of [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supported_formats.md) including storage for array of formats.
 
@@ -57,14 +57,13 @@ Size of [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supp
 
 [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supported_formats.md). The sideband driver will return intersection of the Sideband audio formats with the formats supplied dy Audio driver as input parameter.
 
-### -output-buffer-length 
+### -output-buffer-length
 
 Size of [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supported_formats.md) including storage for array of formats.
 
 ### -in-out-buffer
 
-
-### -inout-buffer-length 
+### -inout-buffer-length
 
 
 ### -status-block
@@ -75,6 +74,14 @@ If Status is set to STATUS_BUFFER_TOO_SMALL, then the audio driver should read t
 
 ## -remarks
 
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
+
 ## -see-also
 
 [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supported_formats.md)
+
+[sidebandaudio.h](index.md)

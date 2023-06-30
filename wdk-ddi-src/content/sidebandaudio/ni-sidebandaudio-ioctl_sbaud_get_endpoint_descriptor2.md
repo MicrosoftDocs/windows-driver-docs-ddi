@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2
 title: IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 IOCTL"
+description: "The audio driver issues the IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 control code to get information about an Audio endpoint exposed through Sideband Audio device interface."
 ms.date: 12/16/2021
 keywords: ["IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 IOCTL"]
 req.header: sidebandaudio.h
@@ -76,6 +76,14 @@ The audio driver sends this request to obtain information about an enabled Audio
 
 The audio driver sends this request once with an output buffer size of zero (0) in order to determine the required output buffer size. In this case, the request will complete with Status STATUS_BUFFER_TOO_SMALL and set the <i>Information</i> member to the required buffer size. The audio driver then allocates the necessary storage space and sends the request again.
 
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
+
 ## -see-also
 
 [SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2](./ns-sidebandaudio-_sidebandaudio_endpoint_descriptor2.md)
+
+[sidebandaudio.h](index.md)

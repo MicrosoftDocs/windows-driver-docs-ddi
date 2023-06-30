@@ -84,7 +84,7 @@ If remote volume control is supported, this member contains the size of the data
 
 ### -field MutePropertyValuesSize
 
-If remote mute is supported, the member contains the size of data returned by IOCTL_SBAUD_GET_MUTEPROPERTYVALUES.
+If remote mute is supported, the member contains the size of data returned by [IOCTL_SBAUD_GET_MUTEPROPERTYVALUES](./ni-sidebandaudio-ioctl_sbaud_get_mutepropertyvalues.md).
 
 ### -field FilterInterfacePropertyCount
 

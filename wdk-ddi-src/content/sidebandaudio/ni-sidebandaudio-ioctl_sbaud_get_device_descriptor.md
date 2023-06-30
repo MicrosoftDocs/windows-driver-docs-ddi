@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR
 title: IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR"
-ms.date: 10/05/2018
+description: "The audio driver issues the IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR to get information about an enabled Sideband Audio device interface."
+ms.date: 06/27/2023
 keywords: ["IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -37,8 +37,8 @@ api_name:
 ## -description
 
 Gets the [Audio device descriptor](./ns-sidebandaudio-_sidebandaudio_device_descriptor.md).
-The audio driver issues the IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR to get information about an enabled Sideband Audio device interface.
-Specifically this returns the number of Audio endpoints available on a device that supports Sideband.
+
+The audio driver issues the IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR to get information about an enabled Sideband Audio device interface. Specifically this returns the number of Audio endpoints available on a device that supports Sideband.
 
 ## -ioctlparameters
 
@@ -48,7 +48,7 @@ Specifically this returns the number of Audio endpoints available on a device th
 
 NULL.
 
-### -input-buffer-length 
+### -input-buffer-length
 
 0.
 
@@ -56,9 +56,13 @@ NULL.
 
 A buffer containing a [SIDEBANDAUDIO_DEVICE_DESCRIPTOR](./ns-sidebandaudio-_sidebandaudio_device_descriptor.md) structure.
 
-### -output-buffer-length 
+### -output-buffer-length
 
 The size of a <b>SIDEBANDAUDIO_DEVICE_DESCRIPTOR</b> structure.
+
+### -in-out-buffer
+
+### -inout-buffer-length
 
 ### -status-block
 
@@ -74,4 +78,12 @@ The audio driver sends this request once with an output buffer size of zero (0) 
 
 The audio driver can then iteratively determine each endpoints capability with the IOCTL [IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR](./ni-sidebandaudio-ioctl_sbaud_get_endpoint_descriptor.md).
 
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
+
 ## -see-also
+
+[sidebandaudio.h](index.md)

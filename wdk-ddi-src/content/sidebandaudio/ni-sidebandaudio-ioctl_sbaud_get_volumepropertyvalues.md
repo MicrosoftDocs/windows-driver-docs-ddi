@@ -65,7 +65,7 @@ Size of KSPROPERTY_DESCRIPTION in addition to all the KSPROPERTY_MEMBERSHEADER a
 
 Input Endpoint Index and output KSPROPERTY_DESCRIPTION share the same buffer.
 
-### -inout-buffer-length 
+### -inout-buffer-length
 
 Allocated buffer should be of length SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR::VolumePropertyValuesSize.
 
@@ -77,8 +77,16 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 
 ## -remarks
 
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/audio/ksproperty-audio-volumelevel">KSPROPERTY_AUDIO_VOLUMELEVEL</a>
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksnodeproperty_audio_channel">KSNODEPROPERTY_AUDIO_CHANNEL</a>
+
+[sidebandaudio.h](index.md)
