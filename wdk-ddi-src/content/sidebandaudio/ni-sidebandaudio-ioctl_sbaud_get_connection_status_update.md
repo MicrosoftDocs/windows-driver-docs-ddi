@@ -50,15 +50,11 @@ The IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL control code is used by an au
 
 ### -output-buffer
 
-
-### -output-buffer-length 
-
+### -output-buffer-length
 
 ### -in-out-buffer
 
-
-### -inout-buffer-length 
-
+### -inout-buffer-length
 
 ### -status-block
 
