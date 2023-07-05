@@ -83,7 +83,7 @@ Before it calls the **HidD_SetFeature** routine, the caller must do the followin
 
 For an example of how to prepare and a HID report and send it to a [top-level collection](/windows-hardware/drivers/hid/top-level-collections), see the [HClient](/samples/microsoft/windows-driver-samples/hclient-sample-application/) sample application.
 
-Only user-mode applications can call **HidD_SetFeature**. Kernel-mode drivers can use an [IOCTL_HID_SET_OUTPUT_REPORT](../hidclass/ni-hidclass-ioctl_hid_set_output_report.md) request.
+Only user-mode applications can call **HidD_SetFeature**. Kernel-mode drivers can use an [IOCTL_HID_SET_FEATURE](../hidclass/ni-hidclass-ioctl_hid_set_feature.md) request.
 
 ## -see-also
 
