@@ -115,13 +115,13 @@ The following are some of the FSCTL codes documented for kernel-mode drivers:
 
 For more information about system-defined FSCTL_*XXX* codes, see the "Remarks" section of the reference entry for [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol).
 
-For more information about system-defined IOCTL_*XXX* codes, and about defining driver-specific IOCTL_*XXX* or FSCTL_*XXX* values, see [Using I/O Control Codes](/windows-hardware/drivers/kernel/using-i-o-control-codes) and [Device Input and Output Control Codes](indows/desktop/DevIO/device-input-and-output-control-ioctl-).
+For more information about system-defined IOCTL_*XXX* codes, and about defining driver-specific IOCTL_*XXX* or FSCTL_*XXX* values, see [Using I/O Control Codes](/windows-hardware/drivers/kernel/using-i-o-control-codes) and [Device Input and Output Control Codes](/windows/win32/devio/device-input-and-output-control-ioctl-).
 
 Minifilters should use [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md) instead of **NtFsControlFile**.
 
 Callers of **NtFsControlFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled**](/windows-hardware/drivers/kernel/disabling-apcs).
 
-[If the call to the **NtFsControlFile** function occurs in user mode, you should use the name "**NtFsControlFile**" instead of "**ZwFsControlFile**".
+If the call to the **NtFsControlFile** function occurs in user mode, you should use the name "**NtFsControlFile**" instead of "**ZwFsControlFile**".
 
 For calls from kernel-mode drivers, the **Nt*XXX*** and **Zw*XXX*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*XXX*** and **Zw*XXX*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 

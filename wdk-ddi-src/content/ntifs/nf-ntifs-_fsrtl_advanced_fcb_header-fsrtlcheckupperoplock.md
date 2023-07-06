@@ -99,6 +99,7 @@ typedef VOID
       _In_ PVOID Context,
       _in_opt_ PIRP Irp
       );
+```
 
 | Parameter | Description |
 | --------- | ----------- |
@@ -109,7 +110,6 @@ typedef VOID
 
 A bitmask for the associated file I/O operation. A file system or filter driver sets bits to specify the behavior of **FsRtlCheckUpperOplock**. The **Flags** parameter has the following options:
 
-
 | Value | Meaning |
 | ----- | ------- |
 | OPLOCK_UPPER_FLAG_CHECK_NO_BREAK        (0x00010000) | Return STATUS_CANNOT_BREAK_OPLOCK if the value of **NewLowerOplockState** results in any oplock break. |
@@ -117,7 +117,7 @@ A bitmask for the associated file I/O operation. A file system or filter driver 
 
 ## -returns
 
-**FsRtlCheckUpperOplock** returns an appropriate NTSTATUS code such as one of the following: 
+**FsRtlCheckUpperOplock** returns an appropriate NTSTATUS code such as one of the following:
 
 | Return code | Description |
 | ----------- | ----------- |
@@ -128,6 +128,5 @@ A bitmask for the associated file I/O operation. A file system or filter driver 
 ## -see-also
 
 [**FsRtlCheckOplockEx**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex.md)
-
 
 [**FsRtlUpperOplockFsctrl**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlupperoplockfsctrl.md)

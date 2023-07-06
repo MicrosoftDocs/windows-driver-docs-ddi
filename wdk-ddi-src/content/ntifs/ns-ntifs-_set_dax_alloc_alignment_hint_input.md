@@ -1,7 +1,7 @@
 ---
 UID: NS:ntifs._SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
 title: SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT (ntifs.h)
-description: 
+description: Learn more about the SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure.
 tech.root: ifsk
 ms.date: 07/06/2023
 keywords: ["SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure"]
