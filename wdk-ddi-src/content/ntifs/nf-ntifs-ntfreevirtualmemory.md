@@ -1,16 +1,15 @@
 ---
 UID: NF:ntifs.NtFreeVirtualMemory
 title: NtFreeVirtualMemory function (ntifs.h)
-description: The NtFreeVirtualMemory routine releases, decommits, or both, a region of pages within the virtual address space of a specified process.
-old-location: kernel\zwfreevirtualmemory.htm
+description: Learn more about the NtFreeVirtualMemory routine.
 tech.root: kernel
-ms.date: 06/21/2019
+ms.date: 07/06/2023
 keywords: ["NtFreeVirtualMemory function"]
 ms.keywords: NtFreeVirtualMemory, ZwFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, kernel.zwfreevirtualmemory, ntifs/NtFreeVirtualMemory, ntifs/ZwFreeVirtualMemory
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,7 +41,6 @@ api_name:
 
 # NtFreeVirtualMemory function
 
-
 ## -description
 
 The **NtFreeVirtualMemory** routine releases, decommits, or both releases and decommits, a region of pages within the virtual address space of a specified process.
@@ -51,18 +49,15 @@ The **NtFreeVirtualMemory** routine releases, decommits, or both releases and de
 
 ### -param ProcessHandle [in]
 
-
 A handle for the process in whose context the pages to be freed reside. Use the **NtCurrentProcess** macro, defined in *Ntddk.h*, to specify the current process.
 
 ### -param BaseAddress [in, out]
-
 
 A pointer to a variable that will receive the base virtual address of the freed region of pages.
 
 If the MEM_RELEASE flag is set in the *FreeType* parameter, *\*BaseAddress* must be the base address returned by [**NtAllocateVirtualMemory**](./nf-ntifs-ntallocatevirtualmemory.md) when the region was reserved.
 
 ### -param RegionSize [in, out]
-
 
 A pointer to a variable that will receive the actual size, in bytes, of the freed region of pages. The routine rounds the initial value of this variable up to the next host page size boundary and writes the rounded value back to this variable.
 
@@ -78,43 +73,12 @@ If the MEM_DECOMMIT flag is set in *\*FreeType*, **NtFreeVirtualMemory** decommi
 
 ### -param FreeType [in]
 
-
 A bitmask containing flags that describe the type of free operation that **NtFreeVirtualMemory** will perform for the specified region of pages. The possible values are listed in the following table.
 
-<table>
-<tr>
-<th><i>FreeType</i> flags</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-MEM_DECOMMIT
-
-</td>
-<td>
-<b>NtFreeVirtualMemory</b> will decommit the specified region of pages. The pages enter the reserved state.
-
-<b>NtFreeVirtualMemory</b> does not fail if you attempt to decommit an uncommitted page. This means that you can decommit a range of pages without first determining their current commitment state.
-
-</td>
-</tr>
-<tr>
-<td>
-MEM_RELEASE
-
-</td>
-<td>
-<b>NtFreeVirtualMemory</b> will release the specified region of pages. The pages enter the free state.
-
-If you specify this flag, **RegionSize* must be zero, and **BaseAddress* must point to the base address returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntallocatevirtualmemory">NtAllocateVirtualMemory</a> when the region was reserved. <b>NtFreeVirtualMemory</b> fails if either of these conditions is not met.
-
-If any pages in the region are currently committed, <b>NtFreeVirtualMemory</b> first decommits and then releases them.
-
-<b>NtFreeVirtualMemory</b> does not fail if you attempt to release pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining their current commitment state.
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+| ---- | ------- |
+| MEM_DECOMMIT | **NtFreeVirtualMemory** will decommit the specified region of pages. The pages enter the reserved state. **NtFreeVirtualMemory** doesn't fail if you attempt to decommit an uncommitted page. This means that you can decommit a range of pages without first determining their current commitment state. |
+| MEM_RELEASE  | **NtFreeVirtualMemory** will release the specified region of pages. The pages enter the free state. If you specify this flag, **RegionSize** must be zero, and **BaseAddress** must point to the base address returned by [**NtAllocateVirtualMemory**](nf-ntifs-ntallocatevirtualmemory.md) when the region was reserved. **NtFreeVirtualMemory** fails if either of these conditions is not met. If any pages in the region are currently committed, **NtFreeVirtualMemory** first decommits and then releases them. **NtFreeVirtualMemory** doesn't fail if you attempt to release pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining their current commitment state. |
 
 ## -returns
 
@@ -130,52 +94,11 @@ If any pages in the region are currently committed, <b>NtFreeVirtualMemory</b> f
 
 Each page in the process's virtual address space is in one of the three states described in the following table.
 
-<table>
-<tr>
-<th>State</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-FREE
-
-</td>
-<td>
-The page is neither committed nor reserved. The page is not accessible to the process. Attempting to read from or write to a free page results in an access violation exception.
-
-You can use <b>NtFreeVirtualMemory</b> to put reserved or committed pages into the free state.
-
-</td>
-</tr>
-<tr>
-<td>
-RESERVED
-
-</td>
-<td>
-The page is reserved. The range of addresses cannot be used by other allocation functions. The page is not accessible to the process and has no physical storage associated with it. Attempting to read from or write to a reserved page results in an access violation exception.
-
-You can use <b>NtFreeVirtualMemory</b> to put committed memory pages into the reserved state, and to put reserved memory pages into the free state.
-
-</td>
-</tr>
-<tr>
-<td>
-COMMITTED
-
-</td>
-<td>
-The page is committed. Physical storage in memory or in the paging file on disk is allocated for the page, and access is controlled by a protection code.
-
-The system initializes and loads each committed page into physical memory only at the first attempt to read from or write to that page.
-
-When a process terminates, the system releases all storage for committed pages.
-
-You can use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntallocatevirtualmemory">NtAllocateVirtualMemory</a> to put committed memory pages into either the reserved or free state.
-
-</td>
-</tr>
-</table>
+| State | Meaning |
+| ----- | ------- |
+| FREE      | The page is neither committed nor reserved. The page is not accessible to the process. Attempting to read from or write to a free page results in an access violation exception. You can use **NtFreeVirtualMemory** to put reserved or committed pages into the free state. |
+| RESERVED  | The page is reserved. The range of addresses cannot be used by other allocation functions. The page is not accessible to the process and has no physical storage associated with it. Attempting to read from or write to a reserved page results in an access violation exception. You can use **NtFreeVirtualMemory** to put committed memory pages into the reserved state, and to put reserved memory pages into the free state. |
+| COMMITTED | The page is committed. Physical storage in memory or in the paging file on disk is allocated for the page, and access is controlled by a protection code. The system initializes and loads each committed page into physical memory only at the first attempt to read from or write to that page. When a process terminates, the system releases all storage for committed pages. You can use [**NtAllocateVirtualMemory**](nf-ntifs-ntallocatevirtualmemory.md) to put committed memory pages into either the reserved or free state. |
 
 **NtFreeVirtualMemory** can perform the following operations:
 
@@ -201,4 +124,3 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 ## -see-also
 
 [**NtAllocateVirtualMemory**](./nf-ntifs-ntallocatevirtualmemory.md)
-

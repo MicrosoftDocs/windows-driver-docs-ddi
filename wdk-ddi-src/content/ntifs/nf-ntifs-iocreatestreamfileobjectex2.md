@@ -1,16 +1,15 @@
 ---
 UID: NF:ntifs.IoCreateStreamFileObjectEx2
 title: IoCreateStreamFileObjectEx2 function (ntifs.h)
-description: The IoCreateStreamFileObjectEx2 routine creates a new stream file object with create options for a target device object.
-old-location: ifsk\iocreatestreamfileobjectex2.htm
+description: Learn more about the IoCreateStreamFileObjectEx2 routine.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/06/2023
 keywords: ["IoCreateStreamFileObjectEx2 function"]
-ms.keywords: IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx routine [Installable File System Drivers], IoCreateStreamFileObjectEx2, ifsk.iocreatestreamfileobjectex2, ntifs/IoCreateStreamFileObjectEx
+ms.keywords: IoCreateStreamFileObjectEx, ifsk.iocreatestreamfileobjectex2, ntifs/IoCreateStreamFileObjectEx
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 8.
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,140 +41,62 @@ api_name:
 
 # IoCreateStreamFileObjectEx2 function
 
-
 ## -description
 
-The <b>IoCreateStreamFileObjectEx2</b> routine creates a new stream file object with create options for a target device object.
+The **IoCreateStreamFileObjectEx2** routine creates a new stream file object with create options for a target device object.
 
 ## -parameters
 
 ### -param CreateOptions [in]
 
-
-Pointer a <b>IO_CREATE_STREAM_FILE_OPTIONS</b> structure containing the create options for the new stream file object.  <b>IO_CREATE_STREAM_FILE_OPTIONS</b> is defined in <i>ntifs.h</i> as the following.
-
-<pre class="syntax"><code>typedef struct _IO_CREATE_STREAM_FILE_OPTIONS {
-    USHORT Size;
-    USHORT Flags;
-    PDEVICE_OBJECT TargetDeviceObject;
-} IO_CREATE_STREAM_FILE_OPTIONS, *PIO_CREATE_STREAM_FILE_OPTIONS;
-</code></pre>
-
-
-
-
-#### Size
-
-Size of the stream options structure. Set to <b>sizeof</b>(IO_CREATE_STREAM_FILE_OPTIONS).
-
-
-
-#### Flags
-
-The flags for the stream file create options. This value can be one of the following.
-
-
-
-<table>
-<tr>
-<th>Term</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<a id="IO_CREATE_STREAM_FILE_RAISE_ON_ERROR"></a><a id="io_create_stream_file_raise_on_error"></a>IO_CREATE_STREAM_FILE_RAISE_ON_ERROR
-
-</td>
-<td width="60%">
-On an error condition, <b>IoCreateStreamFileObjectEx2</b> will raise the error
-        status as an exception instead of returning it.  This flag is specified to maintain error status behavior of the other stream file object creation routines.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<a id="IO_CREATE_STREAM_FILE_LITE"></a><a id="io_create_stream_file_lite"></a>IO_CREATE_STREAM_FILE_LITE
-
-</td>
-<td width="60%">
-A file object is created with out a file handle. No close operation is sent for the file object when it is deleted.
-
-</td>
-</tr>
-</table>
- 
-
-
-
-#### TargetDeviceObject
-
-A pointer to the device object to set as the target for operations on the file
-        handle.  <b>TargetDeviceObject</b> must be in the same device stack as <i>DeviceObject</i> parameter.  This
-        member is optional.
+Pointer a [**IO_CREATE_STREAM_FILE_OPTIONS**](ns-ntifs-io_create_stream_file_options.md) structure containing the create options for the new stream file object.
 
 ### -param FileObject [in, optional]
 
-
-Pointer to the file object to which the new stream file is related. This parameter is optional and can be <b>NULL</b>.
+Pointer to the file object to which the new stream file is related. This parameter is optional and can be NULL.
 
 ### -param DeviceObject [in, optional]
 
-
-Pointer to a device object for the device on which the stream file is to be opened. If the caller specifies a non-<b>NULL</b> value for <i>FileObject</i>, the value of <i>DeviceObject</i> is ignored. Otherwise, the caller must specify a non-<b>NULL</b> value for <i>DeviceObject</i>.
+Pointer to a device object for the device on which the stream file is to be opened. If the caller specifies a non-NULL value for **FileObject**, the value of **DeviceObject** is ignored. Otherwise, the caller must specify a non-NULL value for **DeviceObject**.
 
 ### -param StreamFileObject [out]
-
 
 Pointer to a device object pointer to receive the stream fille object.
 
 ### -param FileHandle [out, optional]
 
-
-A pointer to a file handle for the stream on output. This parameter is optional and can be <b>NULL</b>.
+A pointer to a file handle for the stream on output. This parameter is optional and can be NULL.
 
 ## -returns
 
-<b>IoCreateStreamFileObjectEx2</b> returns a pointer to the newly created stream file object.
+**IoCreateStreamFileObjectEx2** returns a pointer to the newly created stream file object.
 
 ## -remarks
 
-File systems call <b>IoCreateStreamFileObjectEx2</b> to create a new stream file object. A <i>stream file object</i> is identical to an ordinary file object, except that the<b> FO_STREAM_FILE</b> file object flag is set.
+File systems call **IoCreateStreamFileObjectEx2** to create a new stream file object. A **stream file object** is identical to an ordinary file object, except that the **FO_STREAM_FILE** file object flag is set.
 
-A stream file object is commonly used to represent an internal stream for a volume mounted by the file system. This <i>virtual volume file</i> permits the file system to view, change, and cache the volume's on-disk structure as if it were an ordinary file. In this case, the <i>DeviceObject</i> parameter in the call to <b>IoCreateStreamFileObjectEx2</b> specifies the volume device object (VDO) for the volume.
+A stream file object is commonly used to represent an internal stream for a volume mounted by the file system. This **virtual volume file** permits the file system to view, change, and cache the volume's on-disk structure as if it were an ordinary file. In this case, the **DeviceObject** parameter in the call to **IoCreateStreamFileObjectEx2** specifies the volume device object (VDO) for the volume.
 
-A stream file object can also be used to represent an alternate data stream for accessing a file's metadata, such as extended attributes or security descriptors. In this case, the <i>FileObject</i> parameter in the call to <b>IoCreateStreamFileObjectEx2</b> specifies an existing file object for the file. The newly created stream file object permits the file system to view, change, and cache the file's metadata as if it were an ordinary file.
+A stream file object can also be used to represent an alternate data stream for accessing a file's metadata, such as extended attributes or security descriptors. In this case, the **FileObject** parameter in the call to **IoCreateStreamFileObjectEx2** specifies an existing file object for the file. The newly created stream file object permits the file system to view, change, and cache the file's metadata as if it were an ordinary file.
 
-When the stream file object is no longer needed, the caller must decrement its reference count by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>. When the stream file object's reference count reaches zero, an <a href="/windows-hardware/drivers/kernel/irp-mj-close">IRP_MJ_CLOSE</a> request is sent to the file system driver stack for the volume.
+When the stream file object is no longer needed, the caller must decrement its reference count by calling [**ObDereferenceObject**](../wdm/nf-wdm-obdereferenceobject.md). When the stream file object's reference count reaches zero, an [IRP_MJ_CLOSE](/windows-hardware/drivers/ifs/irp-mj-close) request is sent to the file system driver stack for the volume.
 
-File system filter driver writers should note that <b>IoCreateStreamFileObjectEx2</b> causes an <a href="/windows-hardware/drivers/ifs/irp-mj-cleanup">IRP_MJ_CLEANUP</a> request to be sent to the file system driver stack for the volume. Because file systems often create stream file objects as a side effect of operations other than <a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>, it is difficult for filter drivers to reliably detect stream file object creation. Thus a filter driver should expect to receive I<b>IRP_MJ_CLEANUP</b> and <a href="/windows-hardware/drivers/kernel/irp-mj-close">IRP_MJ_CLOSE</a> requests for previously unseen file objects.
+File system filter driver writers should note that **IoCreateStreamFileObjectEx2** causes an [IRP_MJ_CLEANUP](/windows-hardware/drivers/ifs/irp-mj-cleanup) request to be sent to the file system driver stack for the volume. Because file systems often create stream file objects as a side effect of operations other than [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create), it is difficult for filter drivers to reliably detect stream file object creation. Thus a filter driver should expect to receive I**IRP_MJ_CLEANUP** and [IRP_MJ_CLOSE](/windows-hardware/drivers/ifs/irp-mj-close) requests for previously unseen file objects.
 
-If a pool allocation failure occurs, <b>IoCreateStreamFileObjectEx2</b> raises a <b>STATUS_INSUFFICIENT_RESOURCES</b> exception.
+If a pool allocation failure occurs, **IoCreateStreamFileObjectEx2** raises a **STATUS_INSUFFICIENT_RESOURCES** exception.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ifs/irp-mj-cleanup">IRP_MJ_CLEANUP</a>
+[IRP_MJ_CLEANUP](/windows-hardware/drivers/ifs/irp-mj-cleanup)
 
+[IRP_MJ_CLOSE](/windows-hardware/drivers/ifs/irp-mj-close)
 
+[IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create)
 
-<a href="/windows-hardware/drivers/kernel/irp-mj-close">IRP_MJ_CLOSE</a>
+[**IoCreateStreamFileObject**](nf-ntifs-iocreatestreamfileobject.md)
 
+[**IoCreateStreamFileObjectEx**](nf-ntifs-iocreatestreamfileobjectex.md)
 
+[**IoCreateStreamFileObjectLite**](nf-ntifs-iocreatestreamfileobjectlite.md)
 
-<a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iocreatestreamfileobject">IoCreateStreamFileObject</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iocreatestreamfileobjectex">IoCreateStreamFileObjectEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iocreatestreamfileobjectlite">IoCreateStreamFileObjectLite</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
-
+[**ObDereferenceObject**](../wdm/nf-wdm-obdereferenceobject.md)

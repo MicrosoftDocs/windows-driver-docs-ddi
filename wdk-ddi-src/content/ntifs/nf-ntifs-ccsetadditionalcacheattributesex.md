@@ -1,16 +1,15 @@
 ---
 UID: NF:ntifs.CcSetAdditionalCacheAttributesEx
 title: CcSetAdditionalCacheAttributesEx function (ntifs.h)
-description: Call the CcSetAdditionalCacheAttributesEx routine to enable extended cache behavior on a cached file.
-old-location: ifsk\ccsetadditionalcacheattributesex.htm
+description: Learn more about the CcSetAdditionalCacheAttributesEx routine.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/06/2023
 keywords: ["CcSetAdditionalCacheAttributesEx function"]
-ms.keywords: CcSetAdditionalCacheAttributesEx, CcSetAdditionalCacheAttributesEx routine [Installable File System Drivers], ifsk.ccsetadditionalcacheattributesex, ntifs/CcSetAdditionalCacheAttributesEx
+ms.keywords: CcSetAdditionalCacheAttributesEx, ifsk.ccsetadditionalcacheattributesex, ntifs/CcSetAdditionalCacheAttributesEx
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 8.
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,31 +41,26 @@ api_name:
 
 # CcSetAdditionalCacheAttributesEx function
 
-
 ## -description
 
-Call the <b>CcSetAdditionalCacheAttributesEx</b> routine to enable extended cache behavior on a cached file.
+Call the **CcSetAdditionalCacheAttributesEx** routine to enable extended cache behavior on a cached file.
 
 ## -parameters
 
 ### -param FileObject [in]
 
-
 Pointer to a file object for the cached file.
 
 ### -param Flags [in]
 
-
-Behavior flags to set for <i>FileObject</i>. Currently, only the  <b>AGGRESSIVE_UNMAP_BEHIND</b> flag is available. Setting this flag will allow the cache manager to optimize memory usage when modified writes are disabled for a file object.
+Behavior flags to set for **FileObject**. Currently, only the  **AGGRESSIVE_UNMAP_BEHIND** flag is available. Setting this flag will allow the cache manager to optimize memory usage when modified writes are disabled for a file object.
 
 ## -remarks
 
-<b>CcSetAdditionalCacheAttributesEx</b> can be called any time after calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a>.
+**CcSetAdditionalCacheAttributesEx** can be called any time after calling [**CcInitializeCacheMap**](nf-ntifs-ccinitializecachemap.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a>
+[**CcInitializeCacheMap**](nf-ntifs-ccinitializecachemap.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetadditionalcacheattributes">CcSetAdditionalCacheAttributes</a>
+[**CcSetAdditionalCacheAttributes**](nf-ntifs-ccsetadditionalcacheattributes.md)

@@ -10,7 +10,7 @@ ms.keywords: PsUpdateDiskCounters, PsUpdateDiskCounters routine [Installable Fil
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 8.
+req.target-min-winverclnt: Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

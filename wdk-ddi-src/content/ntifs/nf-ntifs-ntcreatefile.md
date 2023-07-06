@@ -262,7 +262,7 @@ NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
 For the *CreateOptions* FILE_OPEN_BY_FILE_ID flag, an example device name will have the format:
 
-```
+``` syntax
 \??\C:\<FileID>
 \device\HardDiskVolume1\<ObjectID>
 ```
@@ -294,9 +294,7 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [InitializeObjectAttributes](/windows-hardware/drivers/ddi/wudfwdm/nf-wudfwdm-initializeobjectattributes)
 
-[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
-
-[NtClose](./nf-ntifs-ntclose.md)
+[NtClose](nf-ntifs-ntclose.md)
 
 [NtOpenFile](./nf-ntifs-ntopenfile.md)
 

@@ -1,16 +1,15 @@
 ---
 UID: NS:ntifs._WIM_PROVIDER_OVERLAY_ENTRY
-title: _WIM_PROVIDER_OVERLAY_ENTRY (ntifs.h)
-description: Contains the a Windows Image Format (WIM) file configuration information for a data source entry. It is used to identify specific WIM file names and indices that supply data to externally backed files on a volume.
-old-location: ifsk\wim_provider_overlay_entry.htm
+title: WIM_PROVIDER_OVERLAY_ENTRY (ntifs.h)
+description: Learn more about the WIM_PROVIDER_OVERLAY_ENTRY structure.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/06/2023
 keywords: ["WIM_PROVIDER_OVERLAY_ENTRY structure"]
 ms.keywords: "*PWIM_PROVIDER_OVERLAY_ENTRY, PWIM_PROVIDER_OVERLAY_ENTRY, PWIM_PROVIDER_OVERLAY_ENTRY structure pointer [Installable File System Drivers], WIM_BOOT_NOT_OS_WIM, WIM_BOOT_OS_WIM, WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE, WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED, WIM_PROVIDER_OVERLAY_ENTRY, WIM_PROVIDER_OVERLAY_ENTRY structure [Installable File System Drivers], _WIM_PROVIDER_OVERLAY_ENTRY, ifsk.wim_provider_overlay_entry, ntifs/PWIM_PROVIDER_OVERLAY_ENTRY, ntifs/WIM_PROVIDER_OVERLAY_ENTRY"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 8.1 Update.
+req.target-min-winverclnt: Windows 8.1 Update
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,22 +45,21 @@ api_name:
  - WIM_PROVIDER_OVERLAY_ENTRY
 ---
 
-# _WIM_PROVIDER_OVERLAY_ENTRY structure
-
+# WIM_PROVIDER_OVERLAY_ENTRY structure
 
 ## -description
 
-Contains the  a Windows Image Format (WIM) file configuration information for a data source entry. It is used to identify specific WIM file names and indices that supply data to externally backed files on a volume.
+The **WIM_PROVIDER_OVERLAY_ENTRY** structure contains the Windows Image Format (WIM) file configuration information for a data source entry. It is used to identify specific WIM file names and indices that supply data to externally backed files on a volume.
 
 ## -struct-fields
 
 ### -field NextEntryOffset
 
-The offset to the next WIM_PROVIDER_OVERLAY_ENTRY structure returned in the enumeration. Set to 0 if there are no further entries.
+The offset to the next **WIM_PROVIDER_OVERLAY_ENTRY** structure returned in the enumeration. Set to 0 if there are no further entries.
 
 ### -field DataSourceId
 
-The specific identifier an overlay entry. A single WIM GUID, such as in the <b>WimGuid</b> member, may have multiple  data source identifiers.
+The specific identifier an overlay entry. A single WIM GUID, such as in the **WimGuid** member, may have multiple  data source identifiers.
 
 ### -field WimGuid
 
@@ -69,75 +67,30 @@ A unique identifier of a WIM file.
 
 ### -field WimFileNameOffset
 
-The offset, in bytes, from the beginning of this structure of the file name for the WIM file to add as a backing source. The file name is a NULL terminated string of <b>WCHAR</b> character values.
+The offset, in bytes, from the beginning of this structure of the file name for the WIM file to add as a backing source. The file name is a NULL terminated string of **WCHAR** character values.
 
 ### -field WimType
 
 The type of WIM file set as a backing source. The WIM file type is set to one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="_WIM_BOOT_OS_WIM"></a><a id="_wim_boot_os_wim"></a><dl>
-<dt><b> WIM_BOOT_OS_WIM</b></dt>
-</dl>
-</td>
-<td width="60%">
-The WIM file contains Windows system files.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="_WIM_BOOT_NOT_OS_WIM"></a><a id="_wim_boot_not_os_wim"></a><dl>
-<dt><b> WIM_BOOT_NOT_OS_WIM</b></dt>
-</dl>
-</td>
-<td width="60%">
-The WIM file contains non-operating system files.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+| ----- | ------- |
+| WIM_BOOT_OS_WIM     | The WIM file contains Windows system files. |
+| WIM_BOOT_NOT_OS_WIM | The WIM file contains non-operating system files. |
 
 ### -field WimIndex
 
-The index of the image in the WIM file specified at <b>WimFileNameOffset</b>.
+The index of the image in the WIM file specified at **WimFileNameOffset**.
 
 ### -field Flags
 
-The status flags for the WIM provider. Set to 0 when active. Otherwise <b>Flags</b> is set to one of the following values.
+The status flags for the WIM provider. Set to 0 when active. Otherwise **Flags** is set to one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE"></a><a id="wim_provider_external_flag_not_active"></a><dl>
-<dt><b>WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The WIM provider is not active. This can occur when the WIM file is  not found. In this case the WIM file will not be recovered.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED"></a><a id="wim_provider_external_flag_suspended"></a><dl>
-<dt><b>WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the provider is dismounted. Recovery will be attempted.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+| ----- | ------- |
+| WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE | The WIM provider is not active, which can occur when the WIM file is not found. In this case, the WIM file will not be recovered. |
+| WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED  | The provider is dismounted. Recovery will be attempted. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ifs/fsctl-enum-overlay">FSCTL_ENUM_OVERLAY</a>
-
+[**FSCTL_ENUM_OVERLAY**](/windows-hardware/drivers/ifs/fsctl-enum-overlay)

@@ -1,16 +1,15 @@
 ---
 UID: NF:ntifs.IoStartNextPacketByKey
 title: IoStartNextPacketByKey function (ntifs.h)
-description: The IoStartNextPacketByKey routine in ntifs.h dequeues the next I/O request packet from the specified device object's associated device queue.
-old-location: kernel\iostartnextpacketbykey.htm
+description: Learn more about the IoStartNextPacketByKey routine.
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/06/2023
 keywords: ["IoStartNextPacketByKey function"]
-ms.keywords: IoStartNextPacketByKey, IoStartNextPacketByKey routine [Kernel-Mode Driver Architecture], k104_f2248acf-8071-43a6-b5f9-bc3bc178469b.xml, kernel.iostartnextpacketbykey, wdm/IoStartNextPacketByKey
+ms.keywords: IoStartNextPacketByKey, kernel.iostartnextpacketbykey, wdm/IoStartNextPacketByKey
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,25 +41,21 @@ api_name:
 
 # IoStartNextPacketByKey function (ntifs.h)
 
-
 ## -description
 
-The <b>IoStartNextPacketByKey</b> routine dequeues the next I/O request packet from the specified device object's associated device queue according to a specified sort-key value and calls the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_startio">StartIo</a> routine with that IRP.
+The **IoStartNextPacketByKey** routine dequeues the next I/O request packet from the specified device object's associated device queue according to a specified sort-key value and calls the driver's [**StartIo**](../wdm/nc-wdm-driver_startio.md) routine with that IRP.
 
 ## -parameters
 
 ### -param DeviceObject [in]
 
-
 Pointer to the device object for which the IRP is to be dequeued.
 
 ### -param Cancelable [in]
 
-
 Specifies whether IRPs in the device queue can be canceled.
 
 ### -param Key [in]
-
 
 Specifies the sort key that determines which entry to remove from the queue.
 
@@ -68,20 +63,16 @@ Specifies the sort key that determines which entry to remove from the queue.
 
 If there are no IRPs currently in the device queue for the target device object, this routine simply returns control to the caller.
 
-If the driver passed a pointer to a cancel routine when it called <b>IoStartPacket</b>, it should pass <b>TRUE</b> in the <i>Cancelable</i> parameter. If <i>Cancelable</i>  is <b>TRUE</b>, the I/O manager will use the cancel spin lock to protect the device queue and the current IRP. 
+If the driver passed a pointer to a cancel routine when it called [**IoStartPacket**](nf-ntifs-iostartpacket.md), it should pass TRUE in this routine's **Cancelable** parameter. If **Cancelable** is TRUE, the I/O manager will use the cancel spin lock to protect the device queue and the current IRP.
 
-Drivers that do not have a <i>StartIo</i> routine cannot call <b>IoStartNextPacketByKey</b>.
+Drivers that do not have a **StartIo** routine cannot call **IoStartNextPacketByKey**.
 
-Callers of <b>IoStartNextPacketByKey</b> must be running at IRQL <= DISPATCH_LEVEL. Usually, this routine is called from a device driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_dpc_routine">DpcForIsr</a> or <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kdeferred_routine">CustomDpc</a> routine, both of which are run at IRQL = DISPATCH_LEVEL.
+Callers of **IoStartNextPacketByKey** must be running at IRQL <= DISPATCH_LEVEL. Usually, this routine is called from a device driver's [**DpcForIsr**](../wdm/nc-wdm-io_dpc_routine.md) or [**CustomDpc**](../wdm/nc-wdm-kdeferred_routine.md) routine, both of which are run at IRQL = DISPATCH_LEVEL.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+[**DEVICE_OBJECT**](../wdm/ns-wdm-_device_object.md)
 
+[**IoStartNextPacket**](nf-ntifs-iostartnextpacket.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartnextpacket">IoStartNextPacket</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartpacket">IoStartPacket</a>
+[**IoStartPacket**](nf-ntifs-iostartpacket.md)
