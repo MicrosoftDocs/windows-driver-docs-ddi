@@ -1,8 +1,7 @@
 ---
 UID: NF:ntifs.ZwLockFile
 title: ZwLockFile function (ntifs.h)
-description: The ZwLockFile routine requests a byte-range lock for the specified file.
-old-location: kernel\zwlockfile.htm
+description: Learn more about the ZwLockFile routine.
 tech.root: kernel
 ms.date: 07/26/2022
 keywords: ["ZwLockFile function"]
@@ -10,7 +9,7 @@ ms.keywords: NtLockFile, ZwLockFile, ZwLockFile routine [Kernel-Mode Driver Arch
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 7.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

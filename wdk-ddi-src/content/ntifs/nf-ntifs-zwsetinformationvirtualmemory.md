@@ -10,7 +10,7 @@ ms.keywords: ZwSetInformationVirtualMemory, ZwSetInformationVirtualMemory routin
 req.header: ntifs.h
 req.include-header: Ntddk.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 10, version 1511.
+req.target-min-winverclnt: Windows 10, version 1511.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

@@ -1,16 +1,15 @@
 ---
 UID: NS:ntifs._FILE_PROVIDER_EXTERNAL_INFO_V0
-title: _FILE_PROVIDER_EXTERNAL_INFO_V0 (ntifs.h)
-description: This structure may be altered or unavailable. Instead, use FILE_PROVIDER_EXTERNAL_INFO_V1.
-old-location: ifsk\file_provider_external_info_v0.htm
+title: FILE_PROVIDER_EXTERNAL_INFO_V0 (ntifs.h)
+description: Learn more about the FILE_PROVIDER_EXTERNAL_INFO_V0 structure.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/06/2023
 keywords: ["FILE_PROVIDER_EXTERNAL_INFO_V0 structure"]
 ms.keywords: "*PFILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0 structure [Installable File System Drivers], PFILE_PROVIDER_EXTERNAL_INFO_V0, PFILE_PROVIDER_EXTERNAL_INFO_V0 structure pointer [Installable File System Drivers], _FILE_PROVIDER_EXTERNAL_INFO_V0, ifsk.file_provider_external_info_v0, ntifs/FILE_PROVIDER_EXTERNAL_INFO_V0, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V0"
 req.header: ntifs.h
 req.include-header: Windows.h, WinIoCtl.h, Ntifs.h, Windows.h, WinIoCtl.h, Ntifs.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 10.
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,12 +45,11 @@ api_name:
  - FILE_PROVIDER_EXTERNAL_INFO_V0
 ---
 
-# _FILE_PROVIDER_EXTERNAL_INFO_V0 structure
-
+# FILE_PROVIDER_EXTERNAL_INFO_V0 structure
 
 ## -description
 
-This structure may be altered or unavailable. Instead, use <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_provider_external_info_v1">FILE_PROVIDER_EXTERNAL_INFO_V1</a>.
+This structure may be altered or unavailable. Instead, use [**FILE_PROVIDER_EXTERNAL_INFO_V1**](ns-ntifs-_file_provider_external_info_v1.md).
 
 ## -struct-fields
 
@@ -61,16 +59,15 @@ The version of the provider to use. Specify FILE_PROVIDER_CURRENT_VERSION.
 
 ### -field Algorithm
 
-Specifies the compression algorithm that is used to compress this file. Currently defined algorithms are: 
+Specifies the compression algorithm that is used to compress this file. Currently defined algorithms are:
 
-<ul>
-<li>FILE_PROVIDER_COMPRESSION_XPRESS4K: Indicates that the data for the file should be compressed in 4kb chunks with the XPress algorithm. This algorithm is designed to be computationally lightweight, and provides for rapid access to data.</li>
-<li>FILE_PROVIDER_COMPRESSION_LZX: Indicates that the data for the file should be compressed in 32kb chunks with the LZX algorithm. This algorithm is designed to be highly compact, and provides for small footprint for infrequently accessed data.</li>
-<li>FILE_PROVIDER_COMPRESSION_XPRESS8K: Indicates that the data for the file should be compressed in 8kb chunks with the XPress algorithm. </li>
-<li>FILE_PROVIDER_COMPRESSION_XPRESS16K: Indicates that the data for the file should be compressed in 16kb chunks with the XPress algorithm.</li>
-</ul>
+| Algorithm | Description |
+| --------- | ----------- |
+| FILE_PROVIDER_COMPRESSION_XPRESS4K  | The data for the file should be compressed in 4kb chunks with the XPress algorithm. This algorithm is designed to be computationally lightweight, and provides for rapid access to data. |
+| FILE_PROVIDER_COMPRESSION_LZX       | The data for the file should be compressed in 32kb chunks with the LZX algorithm. This algorithm is designed to be highly compact, and provides for small footprint for infrequently accessed data. |
+| FILE_PROVIDER_COMPRESSION_XPRESS8K  | The data for the file should be compressed in 8kb chunks with the XPress algorithm.  |
+| FILE_PROVIDER_COMPRESSION_XPRESS16K | The data for the file should be compressed in 16kb chunks with the XPress algorithm. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_provider_external_info_v1">FILE_PROVIDER_EXTERNAL_INFO_V1</a>
-
+[**FILE_PROVIDER_EXTERNAL_INFO_V1**](ns-ntifs-_file_provider_external_info_v1.md)

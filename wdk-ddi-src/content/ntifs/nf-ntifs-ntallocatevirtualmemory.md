@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.NtAllocateVirtualMemory
 title: NtAllocateVirtualMemory function (ntifs.h)
-description: The NtAllocateVirtualMemory routine reserves, commits, or both, a region of pages within the user-mode virtual address space of a specified process.
+description: Learn more about the NtAllocateVirtualMemory routine.
 tech.root: kernel
 ms.date: 05/20/2020
 keywords: ["NtAllocateVirtualMemory function"]
@@ -9,7 +9,7 @@ ms.keywords: NtAllocateVirtualMemory, ZwAllocateVirtualMemory, NtAllocateVirtual
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,7 +41,6 @@ api_name:
 
 # NtAllocateVirtualMemory function
 
-
 ## -description
 
 The **NtAllocateVirtualMemory** routine reserves, commits, or both, a region of pages within the user-mode virtual address space of a specified process.
@@ -50,26 +49,21 @@ The **NtAllocateVirtualMemory** routine reserves, commits, or both, a region of 
 
 ### -param ProcessHandle [in]
 
-
 A handle for the process for which the mapping should be done. Use the **NtCurrentProcess** macro, defined in *Ntddk.h*, to specify the current process.
 
 ### -param BaseAddress [in, out]
-
 
 A pointer to a variable that will receive the base address of the allocated region of pages. If the initial value of *BaseAddress* is non-**NULL**, the region is allocated starting at the specified virtual address rounded down to the next host page size address boundary. If the initial value of *BaseAddress* is **NULL**, the operating system will determine where to allocate the region.
 
 ### -param ZeroBits [in]
 
-
 The number of high-order address bits that must be zero in the base address of the section view. Used only when the operating system determines where to allocate the region, as when *BaseAddress** is **NULL**. Note that when ZeroBits is larger than 32, it becomes a bitmask.
 
 ### -param RegionSize [in, out]
 
-
 A pointer to a variable that will receive the actual size, in bytes, of the allocated region of pages. The initial value of *RegionSize* specifies the size, in bytes, of the region and is rounded up to the next host page size boundary. *RegionSize* cannot be zero on input.
 
 ### -param AllocationType [in]
-
 
 A bitmask containing flags that specify the type of allocation to be performed for the specified region of pages. The following table describes the most common flags. See [**VirtualAlloc**](/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc) for a full list of possible flags and descriptions.
 
@@ -85,7 +79,6 @@ A bitmask containing flags that specify the type of allocation to be performed f
 | Other MEM_*XXX* flags | See [**VirtualAlloc**](/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc). |
 
 ### -param Protect [in]
-
 
 A bitmask containing page protection flags that specify the protection desired for the committed region of pages. The following table describes these flags.
 
@@ -144,4 +137,3 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 ## -see-also
 
 [**NtFreeVirtualMemory**](./nf-ntifs-ntfreevirtualmemory.md)
-

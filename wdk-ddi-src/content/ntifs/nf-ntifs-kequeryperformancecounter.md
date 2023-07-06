@@ -1,16 +1,15 @@
 ---
 UID: NF:ntifs.KeQueryPerformanceCounter
 title: KeQueryPerformanceCounter function (ntifs.h)
-description: The KeQueryPerformanceCounter routine in ntifs.h retrieves the current value and frequency of the performance counter.
-old-location: kernel\kequeryperformancecounter.htm
+description: Learn more about the KeQueryPerformanceCounter routine.
 tech.root: ifsk
 ms.date: 04/30/2018
 keywords: ["KeQueryPerformanceCounter function"]
-ms.keywords: KeQueryPerformanceCounter, KeQueryPerformanceCounter routine [Kernel-Mode Driver Architecture], k105_39f70923-56fe-42b1-bec3-fe23ae62904d.xml, kernel.kequeryperformancecounter, wdm/KeQueryPerformanceCounter
+ms.keywords: KeQueryPerformanceCounter, kernel.kequeryperformancecounter, wdm/KeQueryPerformanceCounter
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -51,7 +50,6 @@ Use **KeQueryPerformanceCounter** to acquire high resolution (<1&micro;s) time s
 ## -parameters
 
 ### -param PerformanceFrequency [out, optional]
-
 
 A pointer to a variable to which **KeQueryPerformanceCounter** writes the performance counter frequency, in ticks per second. This parameter is optional and can be NULL if the caller does not need the counter frequency value.
 

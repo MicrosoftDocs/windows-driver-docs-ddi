@@ -1,8 +1,7 @@
 ---
 UID: NF:ntifs.NtFlushBuffersFileEx
 title: NtFlushBuffersFileEx function (ntifs.h)
-description: The NtFlushBuffersFileEx routine sends a flush request for a given file to the file system. An optional flush operation flag can be set to control how file data is written to storage.
-old-location: kernel\zwflushbuffersfileex.htm
+description: Learn more about the NtFlushBuffersFileEx routine.
 tech.root: kernel
 ms.date: 01/13/2021
 keywords: ["NtFlushBuffersFileEx function"]
@@ -10,7 +9,7 @@ ms.keywords: FLUSH_FLAGS_FILE_DATA_ONLY, FLUSH_FLAGS_NO_SYNC, NtFlushBuffersFile
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 8.
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -106,4 +105,3 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [**NtCreateFile**](./nf-ntifs-ntcreatefile.md)
 
 [**NtOpenFile**](./nf-ntifs-ntopenfile.md)
-

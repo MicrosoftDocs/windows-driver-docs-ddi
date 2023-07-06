@@ -1,16 +1,15 @@
 ---
 UID: NF:ntifs.KeSetKernelStackSwapEnable
 title: KeSetKernelStackSwapEnable function (ntifs.h)
-description: The KeSetKernelStackSwapEnable routine enables and disables swapping of the caller's stack to disk.
-old-location: kernel\kesetkernelstackswapenable.htm
+description: Learn more about the KeSetKernelStackSwapEnable routine.
 tech.root: kernel
 ms.date: 08/21/2020
 keywords: ["KeSetKernelStackSwapEnable function"]
-ms.keywords: KeSetKernelStackSwapEnable, KeSetKernelStackSwapEnable routine [Kernel-Mode Driver Architecture], k105_160eb1a2-1d12-4ca4-b83d-4bcb5636145e.xml, kernel.kesetkernelstackswapenable, ntifs/KeSetKernelStackSwapEnable
+ms.keywords: KeSetKernelStackSwapEnable, kernel.kesetkernelstackswapenable, ntifs/KeSetKernelStackSwapEnable
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,7 +40,6 @@ api_name:
 ---
 
 # KeSetKernelStackSwapEnable function
-
 
 ## -description
 

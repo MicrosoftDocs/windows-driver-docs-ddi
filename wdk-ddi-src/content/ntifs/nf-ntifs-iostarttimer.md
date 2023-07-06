@@ -1,16 +1,15 @@
 ---
 UID: NF:ntifs.IoStartTimer
 title: IoStartTimer function (ntifs.h)
-description: The IoStartTimer routine in ntifs.h enables the timer associated with a given device object so the driver-supplied IoTimer routine is called once per second.
-old-location: kernel\iostarttimer.htm
+description: Learn more about the IoStartTimer routine.
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/06/2023
 keywords: ["IoStartTimer function"]
-ms.keywords: IoStartTimer, IoStartTimer routine [Kernel-Mode Driver Architecture], k104_bca7aa97-41e1-48e4-96df-52dd6109cd51.xml, kernel.iostarttimer, wdm/IoStartTimer
+ms.keywords: IoStartTimer, kernel.iostarttimer, wdm/IoStartTimer
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,42 +41,30 @@ api_name:
 
 # IoStartTimer function (ntifs.h)
 
-
 ## -description
 
-The <b>IoStartTimer</b> routine enables the timer associated with a given device object so the driver-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_timer_routine">IoTimer</a> routine is called once per second.
+The **IoStartTimer** routine enables the timer associated with a given device object so the driver-supplied [**IoTimer**](../wdm/nc-wdm-io_timer_routine.md) routine is called once per second.
 
 ## -parameters
 
 ### -param DeviceObject [in]
 
-
 Pointer to a device object whose timer routine is to be called.
 
 ## -remarks
 
-The driver must already have set up the IoTimer routine for the <i>DeviceObject</i> by calling <b>IoInitializeTimer</b>.
+The driver must already have set up the IoTimer routine for the **DeviceObject** by calling **IoInitializeTimer**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializetimer">IoInitializeTimer</a>
+[**IoInitializeTimer**](../wdm/nf-wdm-ioinitializetimer.md)
 
+[**IoStopTimer**](nf-ntifs-iostoptimer.md)
 
+[**IoTimer**](../wdm/nc-wdm-io_timer_routine.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostoptimer">IoStopTimer</a>
+[**KeInitializeDpc**](../wdm/nf-wdm-keinitializedpc.md)
 
+[**KeInitializeTimer**](../wdm/nf-wdm-keinitializetimer.md)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_timer_routine">IoTimer</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer">KeInitializeTimer</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimer">KeSetTimer</a>
+[**KeSetTimer**](../wdm/nf-wdm-kesettimer.md)

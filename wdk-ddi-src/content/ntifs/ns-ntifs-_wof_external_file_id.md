@@ -1,16 +1,15 @@
 ---
 UID: NS:ntifs._WOF_EXTERNAL_FILE_ID
-title: _WOF_EXTERNAL_FILE_ID (ntifs.h)
-description: The WOF_EXTERNAL_FILE_ID structure contains a file ID that is used to open a handle to a mini-filter or driver.
-old-location: ifsk\wof_external_file_id.htm
+title: WOF_EXTERNAL_FILE_ID (ntifs.h)
+description: Learn more about the WOF_EXTERNAL_FILE_ID structure.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/06/2023
 keywords: ["WOF_EXTERNAL_FILE_ID structure"]
 ms.keywords: "*PWOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID structure pointer [Installable File System Drivers], WOF_EXTERNAL_FILE_ID, WOF_EXTERNAL_FILE_ID structure [Installable File System Drivers], _WOF_EXTERNAL_FILE_ID, ifsk.wof_external_file_id, ntifs/PWOF_EXTERNAL_FILE_ID, ntifs/WOF_EXTERNAL_FILE_ID"
 req.header: ntifs.h
 req.include-header: Windows.h, WinIoCtl.h, Ntifs.h, Windows.h, WinIoCtl.h, Ntifs.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 10.
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,28 +45,24 @@ api_name:
  - WOF_EXTERNAL_FILE_ID
 ---
 
-# _WOF_EXTERNAL_FILE_ID structure
-
+# WOF_EXTERNAL_FILE_ID structure
 
 ## -description
 
-The <b>WOF_EXTERNAL_FILE_ID</b> structure contains a file ID that is used to open a handle to a mini-filter or driver.
+The **WOF_EXTERNAL_FILE_ID** structure contains a file ID that is used to open a handle to a minifilter or driver.
 
 ## -struct-fields
 
 ### -field FileId
 
-The file ID used with the <b>FILE_OPEN_BY_FILE_ID</b> flag to open a file with the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> functions.
+The file ID used with the **FILE_OPEN_BY_FILE_ID** flag to open a file with the [**FltCreateFile**](../fltkernel/nf-fltkernel-fltcreatefile.md) or [**ZwCreateFile**](nf-ntifs-ntcreatefile.md) functions.
 
 ## -remarks
 
-Use the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a> function to open a handle to a minifilter driver and use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> function to open a handle to a driver.
+Use the [**FltCreateFile**](../fltkernel/nf-fltkernel-fltcreatefile.md) function to open a handle to a file system minifilter driver; otherwise, use the [**ZwCreateFile**](nf-ntifs-ntcreatefile.md) function to open a handle to a driver.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_wof_external_info">WOF_EXTERNAL_INFO</a>
+[**WOF_EXTERNAL_INFO**](ns-ntifs-_wof_external_info.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_wof_version_info">WOF_VERSION_INFO</a>
-
+[**WOF_VERSION_INFO**](ns-ntifs-_wof_version_info.md)
