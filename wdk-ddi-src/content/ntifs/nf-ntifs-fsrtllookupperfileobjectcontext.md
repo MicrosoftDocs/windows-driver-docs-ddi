@@ -93,7 +93,7 @@ To remove a per-file-object context structure that is associated with a file obj
 
 
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtllookupperfileobjectcontext">FsRtlLookupPerFileObjectContext</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlinsertperfileobjectcontext">FsRtlInsertPerFileObjectContext</a>
 
 
 
