@@ -96,6 +96,12 @@ A [DEVPROPERTY structure](/previous-versions/windows/hardware/drivers/dn315030(v
 
 ## -remarks
 
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
+
 ## -see-also
 
 [sidebandaudio.h](index.md)
