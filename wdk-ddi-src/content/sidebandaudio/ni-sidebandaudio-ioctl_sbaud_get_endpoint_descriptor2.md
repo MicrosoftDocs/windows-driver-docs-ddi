@@ -2,7 +2,7 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2
 title: IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 (sidebandaudio.h)
 description: "The audio driver issues the IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 control code to get information about an Audio endpoint exposed through Sideband Audio device interface."
-ms.date: 12/16/2021
+ms.date: 07/10/2023
 keywords: ["IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -67,6 +67,7 @@ If the routine succeeds, then Status is set to STATUS_SUCCESS and the <i>Informa
 
 <div class="alert"><b>Note</b>  This can be larger than the size of the <b>SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2</b> structure, as the output buffer may contain other data referenced by the structure</div>
 <div> </div>
+
 If Status is set to STATUS_BUFFER_TOO_SMALL, then the audio driver should read the <i>Information</i> member to get the size of the buffer that the caller should allocate for this request.
 
 ## -remarks

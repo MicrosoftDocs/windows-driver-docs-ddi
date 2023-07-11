@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio._SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2
 title: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2 (sidebandaudio.h)
 description: The second version of the SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR struct. It describes the characteristics of the audio Endpoint driver.
-ms.date: 10/19/2021
+ms.date: 07/10/2023
 keywords: ["SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2 structure"]
 ms.keywords: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2, SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2, *PSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2,
 req.header: sidebandaudio.h
