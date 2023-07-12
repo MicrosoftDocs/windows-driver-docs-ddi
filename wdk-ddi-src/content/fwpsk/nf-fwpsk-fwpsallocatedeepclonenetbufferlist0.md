@@ -5,7 +5,7 @@ title: FwpsAllocateDeepCloneNetBufferList0
 ms.date: 07/10/2023
 targetos: Windows
 description: The FwpsAllocateDeepCloneNetBufferList0 function allocates a NET_BUFFER_LIST structure that is a deep clone of an existing NET_BUFFER_LIST structure.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,7 +19,7 @@ req.lib: Fwpkclnt.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Available starting with Windows 11.
+req.target-min-winverclnt: WIP build 25324
 req.target-min-winversvr: 
 req.target-type: Universal
 req.type-library: 
