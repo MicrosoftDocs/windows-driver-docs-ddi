@@ -1,5 +1,5 @@
 ---
-Description: "This header defines the types, constants, and functions that are exposed to device drivers that interact with the Windows A2DP Audio Driver."
+description: "This header defines the types, constants, and functions that are exposed to device drivers that interact with the Windows A2DP Audio Driver."
 UID: NA:a2dpsidebandaudio
 title: a2dpsidebandaudio.h header
 ms.date: 06/30/2023
@@ -25,3 +25,4 @@ This module defines the types, constants, and functions that are exposed to devi
 This header is used by audio. For more information, see:
 
 - [Audio](../_audio/index.md)
+- [sidebandaudio.h](index.md)

@@ -2,7 +2,7 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_VOLUME
 title: IOCTL_SBAUD_SET_VOLUME (sidebandaudio.h)
 description: "Learn more about: IOCTL_SBAUD_SET_VOLUME IOCTL"
-ms.date: 10/05/2018
+ms.date: 07/11/2023
 keywords: ["IOCTL_SBAUD_SET_VOLUME IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -36,8 +36,9 @@ api_name:
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
-
 ## -description
+
+The IOCTL_SBAUD_SET_VOLUME IOCTL is used to set the volume.
 
 This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
 

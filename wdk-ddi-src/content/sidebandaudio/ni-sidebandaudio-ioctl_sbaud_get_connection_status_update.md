@@ -38,11 +38,13 @@ api_name:
 
 ## -description
 
-The IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL control code is used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
+The **IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE** IOCTL control code to gets a connection status update. It is used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
 
 ## -ioctlparameters
 
 ### -ioctl-major-code
+
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ### -input-buffer
 
@@ -58,9 +60,7 @@ The IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL control code is used by an au
 
 ### -status-block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

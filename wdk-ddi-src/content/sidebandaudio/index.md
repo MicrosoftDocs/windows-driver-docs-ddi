@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: sidebandaudio.h header"
+description: "The  sidebandaudio.h header describes DDI's for enabling Sideband Audio for specific bus types."
 UID: NA:sidebandaudio
 title: sidebandaudio.h header
 ms.assetid: a245e760-fd7d-3efa-9b5f-09303bd40241
@@ -20,6 +20,6 @@ api_name:
 
 ## -description
 
-DDI for enabling Sideband Audio for specific bus types ([USB Audio 1.0](../usbsidebandaudio/index.md), A2DP, etc.).
+The  sidebandaudio.h header describes DDI's for enabling Sideband Audio for specific bus types ([USB Audio 1.0](../usbsidebandaudio/index.md), A2DP, etc.).
 
 [Audio](../_audio/index.md)

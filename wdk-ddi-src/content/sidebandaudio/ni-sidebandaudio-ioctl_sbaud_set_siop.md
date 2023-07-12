@@ -70,7 +70,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Othe
 
 ## -remarks
 
-This one of the IOCTLs used for KS pin state transitions. The audio driver sends these requests on certain KS pin state transitions.
+This is one of the IOCTLs used for KS pin state transitions. The audio driver sends these requests on certain KS pin state transitions.
 
 
 ## -requirements

@@ -1,8 +1,8 @@
 ---
 UID: NE:sidebandaudio._SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID
 title: _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID (sidebandaudio.h)
-description: "Learn more about: _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID enumeration"
-ms.date: 10/19/2018
+description: "Parameters defined for SIDEBANDAUDIO_PARAMS_SET_STANDARD - Microsoft Type IDs"
+ms.date: 07/11/2023
 keywords: ["SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID enumeration"]
 ms.keywords: _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID, SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID,
 req.header: sidebandaudio.h
@@ -36,14 +36,22 @@ api_name:
 
 # _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID enumeration
 
-
 ## -description
+
+Parameters defined for SIDEBANDAUDIO_PARAMS_SET_STANDARD - Microsoft Type IDs
 
 ## -enum-fields
 
-### -field SBAUD_PARAMS_TYPE_RESERVED 
+### -field SBAUD_PARAMS_TYPE_RESERVED
 
-## -remarks
+(Information pending)
+
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
 
 ## -see-also
 
+[sidebandaudio.h](index.md)

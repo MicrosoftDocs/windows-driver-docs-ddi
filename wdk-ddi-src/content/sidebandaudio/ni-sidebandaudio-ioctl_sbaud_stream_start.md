@@ -2,7 +2,7 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_START
 title: IOCTL_SBAUD_STREAM_START (sidebandaudio.h)
 description: "On transition up to KSSTATE_RUN, send IOCTL_SBAUD_STREAM_START."
-ms.date: 06/29/2023
+ms.date: 07/12/2023
 keywords: ["IOCTL_SBAUD_STREAM_START IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -38,7 +38,7 @@ api_name:
 
 ## -description
 
-This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection. On transition up to KSSTATE_RUN, send **IOCTL_SBAUD_STREAM_START**.
+On transition up to KSSTATE_RUN, send **IOCTL_SBAUD_STREAM_START**. This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
 
 ## -ioctlparameters
 
@@ -46,7 +46,7 @@ This control codes used by an audio driver when cooperating with the Audio class
 
 ### -input-buffer
 
-(Additional Information Pending)
+(Information Pending)
 
 ### -input-buffer-length
 
@@ -66,7 +66,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Othe
 
 ## -remarks
 
-This one of the IOCTLs used for KS pin state transitions. The audio driver sends these requests on certain KS pin state transitions.
+This is one of the IOCTLs used for KS pin state transitions. The audio driver sends these requests on certain KS pin state transitions.
 
 - On first transition above KSSTATE_STOP (normally to KSSTATE_ACQUIRE), send [IOCTL_SBAUD_STREAM_OPEN](/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_stream_open).
 - On transition up to KSSTATE_RUN, send [IOCTL_SBAUD_STREAM_START](/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_stream_start).
