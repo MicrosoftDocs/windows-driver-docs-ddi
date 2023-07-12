@@ -98,10 +98,16 @@ Callout drivers should always return held packets as quickly as possible.
 
 ## -see-also
 
-[**FwpsFreeCloneNetBufferList0**](nf-fwpsk-fwpsfreeclonenetbufferlist0.md) 
-[**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) 
-[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) 
-[**NET_BUFFER_LIST_CONTEXT**](../nbl/ns-nbl-net_buffer_list_context.md) 
-[**NdisAllocateNetBufferListPool**](../nblapi/nf-nblapi-ndisallocatenetbufferlistpool.md) 
-[**NdisAllocateNetBufferPool**](../ndis/nf-ndis-ndisallocatenetbufferpool.md) 
+[**FwpsFreeCloneNetBufferList0**](nf-fwpsk-fwpsfreeclonenetbufferlist0.md)
+
+[**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md)
+
+[**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md)
+
+[**NET_BUFFER_LIST_CONTEXT**](../nbl/ns-nbl-net_buffer_list_context.md)
+
+[**NdisAllocateNetBufferListPool**](../nblapi/nf-nblapi-ndisallocatenetbufferlistpool.md)
+
+[**NdisAllocateNetBufferPool**](../ndis/nf-ndis-ndisallocatenetbufferpool.md)
+
 [Packet injection functions](/windows-hardware/drivers/network/packet-injection-functions)
