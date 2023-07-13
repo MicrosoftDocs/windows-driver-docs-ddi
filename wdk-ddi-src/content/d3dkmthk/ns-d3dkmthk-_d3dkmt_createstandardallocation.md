@@ -1,9 +1,8 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATESTANDARDALLOCATION
-title: _D3DKMT_CREATESTANDARDALLOCATION (d3dkmthk.h)
-description: Used to create a standard allocation.
-old-location: display\d3dkmt-createstandardallocation.htm
-ms.date: 05/10/2018
+title: D3DKMT_CREATESTANDARDALLOCATION (d3dkmthk.h)
+description: Learn more about the D3DKMT_CREATESTANDARDALLOCATION structure.
+ms.date: 07/12/2023
 keywords: ["D3DKMT_CREATESTANDARDALLOCATION structure"]
 ms.keywords: D3DKMT_CREATESTANDARDALLOCATION, D3DKMT_CREATESTANDARDALLOCATION structure [Display Devices], _D3DKMT_CREATESTANDARDALLOCATION, d3dkmthk/D3DKMT_CREATESTANDARDALLOCATION, display.d3dkmt-createstandardallocation
 req.header: d3dkmthk.h
@@ -43,24 +42,28 @@ api_name:
  - D3DKMT_CREATESTANDARDALLOCATION
 ---
 
-# _D3DKMT_CREATESTANDARDALLOCATION structure
-
+# D3DKMT_CREATESTANDARDALLOCATION structure
 
 ## -description
 
-Used to create a standard allocation.
+The **D3DKMT_CREATESTANDARDALLOCATION** structure is used to create a standard allocation.
 
 ## -struct-fields
 
 ### -field Type
 
-The type of the standard allocation.
+A [**D3DKMT_STANDARDALLOCATIONTYPE**](ne-d3dkmthk-_d3dkmt_standardallocationtype.md) value that indicates the type of the standard allocation.
 
 ### -field ExistingHeapData
 
-Holds information on the existing heap.
+A [**D3DKMT_STANDARDALLOCATION_EXISTINGHEAP**](ns-d3dkmthk-_d3dkmt_standardallocation_existingheap.md) structure that holds information about the existing heap.
 
 ### -field Flags
 
-Holds the flags needed to create a standard allocation.
+A [**D3DKMT_CREATESTANDARDALLOCATIONFLAGS**](ns-d3dkmthk-_d3dkmt_createstandardallocationflags.md) structure that holds the flags to use to create a standard allocation.
 
+## -see-also
+
+[**D3DKMT_CREATEALLOCATION**](ns-d3dkmthk-_d3dkmt_createallocation.md)
+
+[**D3DKMTCreateAllocation**](nf-d3dkmthk-d3dkmtcreateallocation.md)

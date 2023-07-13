@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-**D3DKMTShareObjects** shares resource objects that were created with the [D3DKMTCreateAllocation](nf-d3dkmthk-d3dkmtcreateallocation.md), [D3DKMTCreateKeyedMutex2](nf-d3dkmthk-d3dkmtcreatekeyedmutex2.md), and [D3DKMTCreateSynchronizationObject2](nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md) functions.
+**D3DKMTShareObjects** shares resource objects that were created with the [**D3KMDTCreateAllocation**](nf-d3dkmthk-d3dkmtcreateallocation.md),  [**D3KMDTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md)[**D3DKMTCreateKeyedMutex2**](nf-d3dkmthk-d3dkmtcreatekeyedmutex2.md), and [**D3DKMTCreateSynchronizationObject2**](nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md) functions.
 
 ## -parameters
 
@@ -85,9 +85,9 @@ For shared resources, the desired access can be specified as a combination of th
 
 ### -param phSharedNtHandle [out]
 
-A pointer to a shared NT handle  that specifies the resource objects.
+A pointer to a shared NT handle that specifies the resource objects.
 
-This parameter must be **NULL** if the **NtSecuritySharing** flag value is not set. For more information, see **Remarks**.
+This parameter will be **NULL** if the **NtSecuritySharing** flag value is not set. For more information, see **Remarks**.
 
 ## -returns
 
@@ -95,7 +95,7 @@ The method returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this
 
 ## -remarks
 
-Objects to be shared using  **D3DKMTShareObjects**  must first be created with the **NtSecuritySharing** flag value set. This flag value is available in the [D3DKMT_CREATEALLOCATIONFLAGS](ns-d3dkmthk-_d3dkmt_createallocationflags.md), [D3DKMT_CREATEKEYEDMUTEX2_FLAGS](ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md), and [D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS](../d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md) structures.
+Objects to be shared using  **D3DKMTShareObjects**  must first be created with the **NtSecuritySharing** flag value set. This flag value is available in the [**D3DKMT_CREATEALLOCATIONFLAGS**](ns-d3dkmthk-_d3dkmt_createallocationflags.md), [**D3DKMT_CREATEKEYEDMUTEX2_FLAGS**](ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md), and [**D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS**](../d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md) structures.
 
 This function must specify handles through the **hObjects** parameter only to the following combinations of input object array types:
 
@@ -107,14 +107,16 @@ The operating system will reject any other input handle combinations.
 
 ## -see-also
 
-[D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS](../d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md)
+[**D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS**](../d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md)
 
-[D3DKMTCreateAllocation](nf-d3dkmthk-d3dkmtcreateallocation.md)
+[**D3DKMTCreateAllocation**](nf-d3dkmthk-d3dkmtcreateallocation.md)
 
-[D3DKMTCreateKeyedMutex2](nf-d3dkmthk-d3dkmtcreatekeyedmutex2.md)
+[**D3DKMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md)
 
-[D3DKMTCreateSynchronizationObject2](nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md)
+[**D3DKMTCreateKeyedMutex2**](nf-d3dkmthk-d3dkmtcreatekeyedmutex2.md)
 
-[D3DKMT_CREATEALLOCATIONFLAGS](ns-d3dkmthk-_d3dkmt_createallocationflags.md)
+[**D3DKMTCreateSynchronizationObject2**](nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md)
 
-[D3DKMT_CREATEKEYEDMUTEX2_FLAGS](ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md)
+[**D3DKMT_CREATEALLOCATIONFLAGS**](ns-d3dkmthk-_d3dkmt_createallocationflags.md)
+
+[**D3DKMT_CREATEKEYEDMUTEX2_FLAGS**](ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md)

@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The **D3DKMTCreateAllocation** function creates or adds allocations of system or video memory. User-mode graphics clients should call [**D3DKMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md) instead.
+The **D3DKMTCreateAllocation** function creates or adds allocations of system or video memory. User-mode graphics client drivers should call [**D3DKMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md) instead (see Remarks).
 
 ## -parameters
 
@@ -64,11 +64,11 @@ The **D3DKMTCreateAllocation** function creates or adds allocations of system or
 
 ## -remarks
 
-A user-mode graphics client can call **D3DKMTCreateAllocation** to create allocations and resources. An allocation can be associated with a resource or it can stand alone.
+A user-mode graphics client driver can call **D3DKMTCreateAllocation** to create allocations and resources. An allocation can be associated with a resource or it can stand alone.
 
 **D3DKMTCreateAllocation** can also be called to add additional allocations to a resource at anytime. The only restrictions are that all shared allocations must be associated with a resource and additional allocations cannot be added to an existing shared resource.
 
-Windows Subsystem for Linux (WSL) doesn't support **D3DKMTCreateAllocation**, which is one reason why graphics clients should use [**D3DKMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md).
+Windows Subsystem for Linux (WSL) doesn't support **D3DKMTCreateAllocation**, which is one reason why graphics client drivers should use [**D3DKMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md) instead.
 
 ### Examples
 
