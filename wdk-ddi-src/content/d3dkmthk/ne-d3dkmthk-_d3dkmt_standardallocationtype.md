@@ -1,9 +1,8 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_STANDARDALLOCATIONTYPE
-title: _D3DKMT_STANDARDALLOCATIONTYPE (d3dkmthk.h)
-description: Used to give information on the allocation type.
-old-location: display\d3dkmt-standardallocationtype.htm
-ms.date: 05/10/2018
+title: D3DKMT_STANDARDALLOCATIONTYPE (d3dkmthk.h)
+description: Learn more about the D3DKMT_STANDARDALLOCATIONTYPE enumeration.
+ms.date: 07/12/2023
 keywords: ["D3DKMT_STANDARDALLOCATIONTYPE enumeration"]
 ms.keywords: D3DKMT_STANDARDALLOCATIONTYPE, D3DKMT_STANDARDALLOCATIONTYPE enumeration [Display Devices], D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP, _D3DKMT_STANDARDALLOCATIONTYPE, d3dkmthk/D3DKMT_STANDARDALLOCATIONTYPE, d3dkmthk/D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP, display.d3dkmt-standardallocationtype
 req.header: d3dkmthk.h
@@ -43,12 +42,11 @@ api_name:
  - D3DKMT_STANDARDALLOCATIONTYPE
 ---
 
-# _D3DKMT_STANDARDALLOCATIONTYPE enumeration
-
+# D3DKMT_STANDARDALLOCATIONTYPE enumeration
 
 ## -description
 
-Used to give information on the allocation type.
+The **D3DKMT_STANDARDALLOCATIONTYPE** enumeration specifies the standard allocation type.
 
 ## -enum-fields
 
@@ -56,3 +54,8 @@ Used to give information on the allocation type.
 
 Indicates that the allocation type is an existing heap.
 
+## -see-also
+
+[**D3DKMT_CREATESTANDARDALLOCATION**](ns-d3dkmthk-_d3dkmt_createstandardallocation.md)
+
+[**D3DKMTCreateAllocation**](nf-d3dkmthk-d3dkmtcreateallocation.md)

@@ -1,15 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEALLOCATIONFLAGS
-title: _D3DKMT_CREATEALLOCATIONFLAGS (d3dkmthk.h)
-description: The D3DKMT_CREATEALLOCATIONFLAGS structure identifies how to create an allocation in a call to the D3DKMTCreateAllocation function.
-old-location: display\d3dkmt_createallocationflags.htm
-ms.date: 05/10/2018
+title: D3DKMT_CREATEALLOCATIONFLAGS (d3dkmthk.h)
+description: Learn more about the D3DKMT_CREATEALLOCATIONFLAGS structure.
+ms.date: 07/12/2023
 keywords: ["D3DKMT_CREATEALLOCATIONFLAGS structure"]
 ms.keywords: D3DKMT_CREATEALLOCATIONFLAGS, D3DKMT_CREATEALLOCATIONFLAGS structure [Display Devices], OpenGL_Structs_0b22984b-feef-4975-b7d9-596427c82b2b.xml, _D3DKMT_CREATEALLOCATIONFLAGS, d3dkmthk/D3DKMT_CREATEALLOCATIONFLAGS, display.d3dkmt_createallocationflags
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,42 +42,35 @@ api_name:
  - D3DKMT_CREATEALLOCATIONFLAGS
 ---
 
-# _D3DKMT_CREATEALLOCATIONFLAGS structure
-
+# D3DKMT_CREATEALLOCATIONFLAGS structure
 
 ## -description
 
-The D3DKMT_CREATEALLOCATIONFLAGS structure identifies how to create an allocation in a call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation">D3DKMTCreateAllocation</a> function.
+The **D3DKMT_CREATEALLOCATIONFLAGS** structure identifies how to create an allocation in a call to the [**D3DKMTCreateAllocation**](nf-d3dkmthk-d3dkmtcreateallocation.md) function.
 
 ## -struct-fields
 
 ### -field CreateResource
 
-A UINT value that specifies whether to create a device-specific resource.
-
-If you set <b>CreateShared</b>, you must also set <b>CreateResource</b>.
+A UINT value that specifies whether to create a device-specific resource. If you set **CreateShared**, you must also set **CreateResource**.
 
 Setting this member is equivalent to setting the first bit of a 32-bit value (0x00000001).
 
 ### -field CreateShared
 
-A UINT value that specifies whether to create a resource shared across all devices. 
-
-If you set <b>CreateShared</b>, you must also set <b>CreateResource</b>.
-
-For more information on using <b>CreateShared</b>, see the Remarks section.
+A UINT value that specifies whether to create a resource shared across all devices. If you set **CreateShared**, you must also set **CreateResource**. For more information on using **CreateShared**, see the Remarks section.
 
 Setting this member is equivalent to setting the second bit of a 32-bit value (0x00000002).
 
 ### -field NonSecure
 
-A UINT value that specifies whether to create an allocation that can be opened by any process. If <b>NonSecure</b> is set, secure and non-secure processes can open the allocation.
+A UINT value that specifies whether to create an allocation that can be opened by any process. If **NonSecure** is set, secure and non-secure processes can open the allocation.
 
 Setting this member is equivalent to setting the third bit of a 32-bit value (0x00000004).
 
 ### -field CreateProtected
 
-This member is reserved and should be set to zero. Setting this member is equivalent to setting the fourth bit of a 32-bit value (0x00000008).
+This member is reserved and should be set to zero.
 
 Supported starting with Windows 7.
 
@@ -86,35 +78,27 @@ Supported starting with Windows 7.
 
 A UINT value that specifies whether to create a resource shared across all devices but with some restrictions.
 
-Setting this member is equivalent to setting the fifth bit of a 32-bit value (0x00000010).
-
 Supported starting with Windows 7.
 
 ### -field ExistingSysMem
 
-This member is reserved and should be set to zero. Setting this member is equivalent to setting the sixth bit of a 32-bit value (0x00000020).
+This member is reserved and should be set to zero.
 
 Supported starting with Windows 7.
 
 ### -field NtSecuritySharing
 
-A UINT value that specifies whether the allocation is shared with an NT handle, meaning that it  does not have a global <b>D3DKMT_HANDLE</b> kernel-mode handle to the resource.
+A UINT value that specifies whether the allocation is shared with an NT handle, meaning that it  does not have a global **D3DKMT_HANDLE** kernel-mode handle to the resource.
 
-If <b>NtSecuritySharing</b> is set to 1 (<b>TRUE</b>), the allocation is shared using the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtshareobjects">D3DKMTShareObjects</a> function but does not have a global <b>D3DKMT_HANDLE</b> handle to the resource.
+If **NtSecuritySharing** is set to 1 (TRUE), the allocation is shared using the [**D3DKMTShareObjects**](nf-d3dkmthk-d3dkmtshareobjects.md) function but does not have a global **D3DKMT_HANDLE** handle to the resource.
 
-<div class="alert"><b>Note</b>  If <b>NtSecuritySharing</b> is set to 1,  <b>CreateShared</b>  must be set to 1.</div>
-<div> </div>
-For more information on using <b>NtSecuritySharing</b>, see the Remarks section.
-
-Setting this member is equivalent to setting the seventh bit of a 32-bit value (0x00000040).
+If **NtSecuritySharing** is set to 1,  **CreateShared**  must be set to 1. For more information on using **NtSecuritySharing**, see the Remarks section.
 
 Supported starting with Windows 8.
 
 ### -field ReadOnly
 
 A UINT value that specifies whether the allocation can only be read from.
-
-Setting this member is equivalent to setting the eighth bit of a 32-bit value (0x00000080).
 
 Supported starting with Windows 8.
 
@@ -138,12 +122,11 @@ Supported starting with Windows 8.
 
 ### -field CrossAdapter
 
-The cross adapter.
+If set, indicates that the resource is a shared [cross-adapter resource](/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system#definition-and-properties-of-a-cross--adapter-resource).
 
 ### -field OpenCrossAdapter
 
- 
-The open cross adapter. Can't be used when allocation is created from the user mode.
+If set, indicates that the resource is created by opening a cross adapter resource. Can't be used when allocation is created from the user mode.
 
 ### -field PartialSharedCreation
 
@@ -163,21 +146,16 @@ This member is reserved and should be set to zero. Setting this member is equiva
 
 ## -remarks
 
-Objects to be shared by using the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtshareobjects">D3DKMTShareObjects</a> function must first be created with the <b>NtSecuritySharing</b> flag value set. This flag value is available in the <b>D3DKMT_CREATEALLOCATIONFLAGS</b>, <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a>, and <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobject_flags">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a> structures.
+Objects to be shared by using the [**D3DKMTShareObjects**](nf-d3dkmthk-d3dkmtshareobjects.md) function must first be created with the **NtSecuritySharing** flag value set. This flag value is available in the **D3DKMT_CREATEALLOCATIONFLAGS**, [**D3DKMT_CREATEKEYEDMUTEX2_FLAGS**](ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md), and [**D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS**](../d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md) structures.
 
-Drivers should follow these guidelines on <b>D3DKMT_CREATEALLOCATIONFLAGS</b> sharing flags:
+Drivers should follow these guidelines on **D3DKMT_CREATEALLOCATIONFLAGS** sharing flags:
 
-<ul>
-<li>If the allocation is not shared, set both  <b>CreateShared</b> and <b>NtSecuritySharing</b> to 0.</li>
-<li>If the allocation is shared with a <b>D3DKMT_HANDLE</b> data type, set <b>CreateShared</b> = 1 and <b>NtSecuritySharing</b> = 0.</li>
-<li>If the allocation is shared with an NT handle to the process (and without a global <b>D3DKMT_HANDLE</b> kernel-mode handle to the resource), set <b>CreateShared</b> = 1 and <b>NtSecuritySharing</b> = 1.</li>
-</ul>
+* If the allocation is not shared, set both  **CreateShared** and **NtSecuritySharing** to 0.
+* If the allocation is shared with a **D3DKMT_HANDLE** data type, set **CreateShared** = 1 and **NtSecuritySharing** = 0.
+* If the allocation is shared with an NT handle to the process (and without a global **D3DKMT_HANDLE** kernel-mode handle to the resource), set **CreateShared** = 1 and **NtSecuritySharing** = 1.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation">D3DKMTCreateAllocation</a>
+[**D3DKMTCreateAllocation**](nf-d3dkmthk-d3dkmtcreateallocation.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createallocation">D3DKMT_CREATEALLOCATION</a>
-
+[**D3DKMT_CREATEALLOCATION**](ns-d3dkmthk-_d3dkmt_createallocation.md)

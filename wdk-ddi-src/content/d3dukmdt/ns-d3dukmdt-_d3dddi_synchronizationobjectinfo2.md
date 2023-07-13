@@ -1,16 +1,15 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_SYNCHRONIZATIONOBJECTINFO2
-title: _D3DDDI_SYNCHRONIZATIONOBJECTINFO2 (d3dukmdt.h)
-description: The D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure contains information about a second-generation synchronization object.
-old-location: display\d3dddi_synchronizationobjectinfo2.htm
+title: D3DDDI_SYNCHRONIZATIONOBJECTINFO2 (d3dukmdt.h)
+description: Learn more about the D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure.
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 07/12/2023
 keywords: ["D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure"]
 ms.keywords: D3DDDI_SYNCHRONIZATIONOBJECTINFO2, D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure [Display Devices], D3D_other_Structs_0efa3a96-3e04-4232-bf7a-53c3f038d6ec.xml, _D3DDDI_SYNCHRONIZATIONOBJECTINFO2, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECTINFO2, display.d3dddi_synchronizationobjectinfo2
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: D3DDDI_SYNCHRONIZATIONOBJECTINFO2 is supported beginning with the Windows 7 operating system.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,34 +42,33 @@ api_name:
  - D3DDDI_SYNCHRONIZATIONOBJECTINFO2
 ---
 
-# _D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure
-
+# D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure
 
 ## -description
 
-The <b>D3DDDI_SYNCHRONIZATIONOBJECTINFO2</b> structure contains information about a second-generation synchronization object.
+The **D3DDDI_SYNCHRONIZATIONOBJECTINFO2** structure contains information about a second-generation synchronization object.
 
 ## -struct-fields
 
 ### -field Type [in]
 
-A value of type <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_synchronizationobject_type">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a> that indicates the type of synchronization object.
+A value of type [**D3DDDI_SYNCHRONIZATIONOBJECT_TYPE**](ne-d3dukmdt-_d3dddi_synchronizationobject_type.md) that indicates the type of synchronization object.
 
 ### -field Flags [in]
 
-A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobject_flags">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a> structure that specifies, in bit-field flags, attributes of the synchronization object.
+A [**D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS**](ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md) structure that specifies, in bit-field flags, attributes of the synchronization object.
 
 ### -field SynchronizationMutex
 
-A structure that contains information about a synchronization mutex. If the <b>Type</b> member is equal to <b>D3DDDI_SYNCHRONIZATION_MUTEX</b>, the union in <b>D3DDDI_SYNCHRONIZATIONOBJECTINFO2</b> holds a <b>SynchronizationMutex</b> structure, which contains the following member:
+A structure that contains information about a synchronization mutex. If the **Type** member is equal to **D3DDDI_SYNCHRONIZATION_MUTEX**, the union in **D3DDDI_SYNCHRONIZATIONOBJECTINFO2** holds a **SynchronizationMutex** structure.
 
 ### -field SynchronizationMutex.InitialState
 
-A Boolean value that indicates whether the synchronization mutex is initially owned by an object. A value of <b>TRUE</b> indicates that the mutex is owned; <b>FALSE</b> indicates that the mutex is not owned.
+A Boolean value that indicates whether the synchronization mutex is initially owned by an object. A value of TRUE indicates that the mutex is owned; FALSE indicates that the mutex is not owned.
 
 ### -field Semaphore
 
-A structure that contains information about a semaphore. If the <b>Type</b> member is equal to <b>D3DDDI_SEMAPHORE</b>, the union in <b>D3DDDI_SYNCHRONIZATIONOBJECTINFO2</b> holds a <b>Semaphore</b> structure, which contains the following members:
+A structure that contains information about a semaphore. If the **Type** member is equal to **D3DDDI_SEMAPHORE**, the union in **D3DDDI_SYNCHRONIZATIONOBJECTINFO2** holds a **Semaphore** structure.
 
 ### -field Semaphore.MaxCount
 
@@ -82,7 +80,7 @@ The initial number of events that an object is waiting for.
 
 ### -field Fence
 
-A structure that contains information about a fence. If the <b>Type</b> member is equal to <b>D3DDDI_FENCE</b>, the union in <b>D3DDDI_SYNCHRONIZATIONOBJECTINFO2</b> holds a <b>Fence</b> structure, which contains the following member:
+A structure that contains information about a fence. If the **Type** member is equal to **D3DDDI_FENCE**, the union in **D3DDDI_SYNCHRONIZATIONOBJECTINFO2** holds a **Fence** structure.
 
 ### -field Fence.FenceValue
 
@@ -90,7 +88,7 @@ A 64-bit value that specifies the initial fence value.
 
 ### -field CPUNotification
 
-A structure that contains information about a CPU notification. If the <b>Type</b> member is equal to <b>D3DDDI_CPU_NOTIFICATION</b>, the union in <b>D3DDDI_SYNCHRONIZATIONOBJECTINFO2</b> holds a <b>CPUNotification</b> structure, which contains the following member:
+A structure that contains information about a CPU notification. If the **Type** member is equal to **D3DDDI_CPU_NOTIFICATION**, the union in **D3DDDI_SYNCHRONIZATIONOBJECTINFO2** holds a **CPUNotification** structure.
 
 ### -field CPUNotification.Event
 
@@ -98,25 +96,25 @@ The handle to the CPU notification event.
 
 ### -field MonitoredFence
 
-A structure that contains information about a monitored fence. If the <b>Type</b> member is equal to <b>D3DDDI_MONITORED_FENCE</b>, the union in <b>D3DDDI_SYNCHRONIZATIONOBJECTINFO2</b> holds a <b>MonitoredFence</b> structure.
+A structure that contains information about a monitored fence. If the **Type** member is equal to **D3DDDI_MONITORED_FENCE**, the union in **D3DDDI_SYNCHRONIZATIONOBJECTINFO2** holds a **MonitoredFence** structure.
 
 Supported starting with Windows 10.
 
 ### -field MonitoredFence.InitialFenceValue [in]
 
-A 64-bit value that specifies the initial fence value. 
+A 64-bit value that specifies the initial fence value.
 
 Supported starting with Windows 10.
 
 ### -field MonitoredFence.FenceValueCPUVirtualAddress [out]
 
-A read-only mapping of the fence value for the CPU. This is a user mode address readable from the process that created the monitored fence object. For 32 bit platforms that support 64 bit atomic reads via methods such as <code>InterlockedCompareExchange64(pointer,0,0)</code>, the mapping will be made read-write instead of read-only to avoid an access violation during the interlocked operation. Depending on the value of <b>No64BitAtomics</b> cap, this address points to either a 32 bit or a 64 bit underlying value.
+A read-only mapping of the fence value for the CPU. This is a user mode address readable from the process that created the monitored fence object. For 32 bit platforms that support 64 bit atomic reads via methods such as ```InterlockedCompareExchange64(pointer,0,0)```, the mapping will be made read-write instead of read-only to avoid an access violation during the interlocked operation. Depending on the value of **No64BitAtomics** cap, this address points to either a 32 bit or a 64 bit underlying value.
 
 Supported starting with Windows 10.
 
 ### -field MonitoredFence.FenceValueGPUVirtualAddress [out]
 
-A read-write mapping of the fence value for the GPU. A driver can signal a new fence value by inserting a GPU write command for this address into a command buffer, and the DirectX graphics kernel will unblock waiters for this fence object value. Depending on the value of <b>No64BitAtomics</b> cap, this address points to either a 32 bit or a 64 bit underlying value.
+A read-write mapping of the fence value for the GPU. A driver can signal a new fence value by inserting a GPU write command for this address into a command buffer, and the DirectX graphics kernel will unblock waiters for this fence object value. Depending on the value of **No64BitAtomics** cap, this address points to either a 32 bit or a 64 bit underlying value.
 
 Supported starting with Windows 10.
 
@@ -128,11 +126,9 @@ Supported starting with Windows 10.
 
 ### -field PeriodicMonitoredFence
 
-A structure that contains information about a periodic monitored fence. If the <b>Type</b> member is equal to <b>D3DDDI_PERIODIC_MONITORED_FENCE</b>, the union in <b>D3DDDI_SYNCHRONIZATIONOBJECTINFO2</b> holds a <b>MonitoredFence</b> structure.
+A structure that contains information about a periodic monitored fence. If the **Type** member is equal to **D3DDDI_PERIODIC_MONITORED_FENCE**, the union in **D3DDDI_SYNCHRONIZATIONOBJECTINFO2** holds a **MonitoredFence** structure.
 
 Supported starting with Windows 10.
-
-
 
 #### VidPnTargetID
 
@@ -170,21 +166,14 @@ An array of 64-bit values that are reserved for future use.
 
 ### -field SharedHandle [out]
 
-A handle to the shared synchronization object if a shared handle currently exists. The shared handle is returned from the call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatesynchronizationobject2">D3DKMTCreateSynchronizationObject2</a> function.
+A handle to the shared synchronization object if a shared handle currently exists. The driver should share synchronization objects using NT handles. It should set the [**D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS::NtSecuritySharing**](ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md) to indicate that the object will be shared using NT handles and call [**D3DKMTShareObjects**](../d3dkmthk/nf-d3dkmthk-d3dkmtshareobjects.md) to get an NT handle. Using global handles is not secure. Any process can guess a global handle and open a shared objects. Global handles are supported only for compatibility reasons with old D3D runtimes.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobject_flags">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a>
+[**D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS**](ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md)
 
+[**D3DDDI_SYNCHRONIZATIONOBJECT_TYPE**](ne-d3dukmdt-_d3dddi_synchronizationobject_type.md)
 
+[**D3DKMTCreateSynchronizationObject**](../d3dkmthk/nf-d3dkmthk-d3dkmtcreatesynchronizationobject.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_synchronizationobject_type">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatesynchronizationobject2">D3DKMTCreateSynchronizationObject2</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createsynchronizationobject2">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a>
-
+[**D3DKMT_CREATESYNCHRONIZATIONOBJECT2**](../d3dkmthk/ns-d3dkmthk-_d3dkmt_createsynchronizationobject2.md)
