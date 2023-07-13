@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_CLOSE
 title: IOCTL_SBAUD_STREAM_CLOSE (sidebandaudio.h)
-description: "This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection. On closure of KS pin, send IOCTL_SBAUD_STREAM_CLOSE."
+description: "This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection. On closure of KS pin, send IOCTL_SBAUD_STREAM_CLOSE."
 ms.date: 06/28/2023
 keywords: ["IOCTL_SBAUD_STREAM_CLOSE IOCTL"]
 req.header: sidebandaudio.h
@@ -38,7 +38,7 @@ api_name:
 
 ## -description
 
-On closure of KS pin, used for streaming audio, send **IOCTL_SBAUD_STREAM_CLOSE**. This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
+On closure of KS pin, used for streaming audio, send **IOCTL_SBAUD_STREAM_CLOSE**. This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
 ## -ioctlparameters
 
@@ -46,7 +46,7 @@ On closure of KS pin, used for streaming audio, send **IOCTL_SBAUD_STREAM_CLOSE*
 
 ### -input-buffer
 
-(Information Pending)
+(Information pending)
 
 ### -input-buffer-length
 

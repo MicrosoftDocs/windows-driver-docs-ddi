@@ -38,7 +38,7 @@ api_name:
 
 ## -description
 
-On transition up to KSSTATE_RUN, send **IOCTL_SBAUD_STREAM_START**. This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
+On transition up to KSSTATE_RUN, send **IOCTL_SBAUD_STREAM_START**. This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
 ## -ioctlparameters
 
@@ -46,7 +46,7 @@ On transition up to KSSTATE_RUN, send **IOCTL_SBAUD_STREAM_START**. This control
 
 ### -input-buffer
 
-(Information Pending)
+(Information pending)
 
 ### -input-buffer-length
 

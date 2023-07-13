@@ -2,7 +2,7 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_VOLUME
 title: IOCTL_SBAUD_SET_VOLUME (sidebandaudio.h)
 description: "Learn more about: IOCTL_SBAUD_SET_VOLUME IOCTL"
-ms.date: 07/11/2023
+ms.date: 07/13/2023
 keywords: ["IOCTL_SBAUD_SET_VOLUME IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -38,9 +38,9 @@ api_name:
 
 ## -description
 
-The IOCTL_SBAUD_SET_VOLUME IOCTL is used to set the volume.
+The IOCTL_SBAUD_SET_VOLUME IOCTL is used to set the volume on a specific channel.
 
-This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
+This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
 ## -ioctlparameters
 
@@ -48,26 +48,23 @@ This control codes used by an audio driver when cooperating with the Audio class
 
 ### -input-buffer
 
+A [SIDEBANDAUDIO_VOLUME_PARAMS structure](ns-sidebandaudio-_sidebandaudio_volume_params.md) that describes the volume level and the channel that the volume will be set.
 
-### -input-buffer-length 
+### -input-buffer-length
 
+The size of the SIDEBANDAUDIO_VOLUME_PARAMS  structure.
 
 ### -output-buffer
 
-
-### -output-buffer-length 
-
+### -output-buffer-length
 
 ### -in-out-buffer
 
-
-### -inout-buffer-length 
-
+### -inout-buffer-length
 
 ### -status-block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

@@ -38,9 +38,7 @@ api_name:
 
 ## -description
 
-Gets the [Audio device descriptor](./ns-sidebandaudio-_sidebandaudio_device_descriptor.md).
-
-The audio driver issues the IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR to get information about an enabled Sideband Audio device interface. Specifically this returns the number of Audio endpoints available on a device that supports Sideband.
+The audio driver issues the **IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR** to get information about an enabled Sideband Audio device interface. Specifically this returns the number of Audio endpoints available on a device that supports Sideband. This information is returned in a  [Audio device descriptor](./ns-sidebandaudio-_sidebandaudio_device_descriptor.md) structure.
 
 ## -ioctlparameters
 

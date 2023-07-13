@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE
 title: IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE (sidebandaudio.h)
-description: "The IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL control code is used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection."
-ms.date: 10/05/2018
+description: "The IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL control code code gets a connection status update."
+ms.date: 07/13/2023
 keywords: ["IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -38,7 +38,7 @@ api_name:
 
 ## -description
 
-The **IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE** IOCTL control code to gets a connection status update. It is used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
+The **IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE** IOCTL control code gets a connection status update. It is used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
 
 ## -ioctlparameters
 
@@ -47,6 +47,8 @@ The **IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE** IOCTL control code to gets a co
 [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ### -input-buffer
+
+(Information pending)
 
 ### -input-buffer-length
 

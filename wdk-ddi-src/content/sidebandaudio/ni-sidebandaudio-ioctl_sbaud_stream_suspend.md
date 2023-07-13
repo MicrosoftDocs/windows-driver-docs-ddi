@@ -38,7 +38,7 @@ api_name:
 
 ## -description
 
-This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection. On transition below KSSTATE_RUN, send **IOCTL_SBAUD_STREAM_SUSPEND**.
+This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection. On transition below KSSTATE_RUN, send **IOCTL_SBAUD_STREAM_SUSPEND**.
 
 ## -ioctlparameters
 
@@ -46,7 +46,7 @@ This control codes used by an audio driver when cooperating with the Audio class
 
 ### -input-buffer
 
-(Information Pending)
+(Information pending)
 
 ### -input-buffer-length
 
