@@ -1,16 +1,15 @@
 ---
 UID: NE:storport._STOR_SPINLOCK
 title: STOR_SPINLOCK (storport.h)
-description: The STOR_SPINLOCK enumeration is used to specify the type of a spinlock.
-old-location: storage\stor_spinlock.htm
+description: Learn more about the STOR_SPINLOCK enumeration.
 tech.root: storage
-ms.date: 05/24/2022
+ms.date: 07/12/2023
 keywords: ["STOR_SPINLOCK enumeration"]
 ms.keywords: DpcLock, InterruptLock, STOR_SPINLOCK, STOR_SPINLOCK enumeration [Storage Devices], StartIoLock, _STOR_SPINLOCK, storage.stor_spinlock, storport/DpcLock, storport/InterruptLock, storport/STOR_SPINLOCK, storport/StartIoLock, structs-general_53d45f74-68b2-4839-81c1-c93a2773f0d8.xml
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -51,7 +50,7 @@ The **STOR_SPINLOCK** enumeration is used to specify the type of a spinlock.
 
 ## -enum-fields
 
-### -field DpcLock
+### -field DpcLock:1
 
 Indicates a DPC spinlock.
 
@@ -71,6 +70,13 @@ Indicates a threaded DPC spinlock.
 
 Indicates a spinlock that is to be used when the IRQL level is already at DPC level.
 
+## -remarks
+
+[**StorPortAcquireSpinLockEx**](nf-storport-storportacquirespinlockex.md)
+supports all of the spinlock types. [**StorPortAcquireSpinLock**](nf-storport-storportacquirespinlock.md) only supports: **DpcLock**, **StartIoLock**, and **InterruptLock**.
+
 ## -see-also
 
 [**StorPortAcquireSpinLock**](nf-storport-storportacquirespinlock.md)
+
+[**StorPortAcquireSpinLockEx**](nf-storport-storportacquirespinlockex.md)
