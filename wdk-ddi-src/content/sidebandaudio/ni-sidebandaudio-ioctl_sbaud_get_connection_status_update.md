@@ -34,8 +34,6 @@ api_name:
 
 # IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 The **IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE** IOCTL control code gets a connection status update. It is used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.

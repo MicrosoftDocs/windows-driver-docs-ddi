@@ -2,7 +2,7 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE
 title: IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE (sidebandaudio.h)
 description: "Learn more about: IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE IOCTL"
-ms.date: 10/05/2018
+ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -38,17 +38,25 @@ api_name:
 
 ## -description
 
-This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
+The **IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE** is used for error status updates.  This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
 ## -ioctlparameters
 
 ### -ioctl-major-code
 
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 ### -input-buffer
+
+A [SIDEBANDAUDIO_DEVICE_ERROR](ns-sidebandaudio-_sidebandaudio_device_error.md) structure with the 0 based endpoint index and channel number along with 'immediate' parameter indicating whether to process this IOCTL immediately or pend it for future updates.
 
 ### -input-buffer-length
 
+The size of the SIDEBANDAUDIO_DEVICE_ERROR structure.
+
 ### -output-buffer
+
+A [SIDEBANDAUDIO_DEVICE_ERROR structure](ns-sidebandaudio-_sidebandaudio_device_error.md) that describes the device error status.
 
 ### -output-buffer-length
 
@@ -58,12 +66,9 @@ This control code is used by an audio driver when cooperating with the audio cla
 
 ### -status-block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
-
 
 ## -requirements
 
