@@ -36,7 +36,7 @@ api_name:
 
 ## -description
 
-The **IOCTL_SBAUD_GET_SIDETONE_STATUS_UPDATE** IOCTL gets the sidetone setting of the sideband audio endpoint.
+The **IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES** IOCTL gets the sidetone volume property values of the sideband specified audio endpoint.
 
 This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
@@ -45,28 +45,28 @@ This control code is used by an audio driver when cooperating with the audio cla
 ### -ioctl-major-code
 
 [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 ### -input-buffer
 
+(Information pending)
 
-### -input-buffer-length 
-
+### -input-buffer-length
 
 ### -output-buffer
 
+[KSPROPERTY_DESCRIPTION](../ks/ns-ks-ksproperty_description.md) information that describes the sidetone value properties.
 
-### -output-buffer-length 
+(Information pending)
 
+### -output-buffer-length
 
 ### -in-out-buffer
 
-
-### -inout-buffer-length 
-
+### -inout-buffer-length
 
 ### -status-block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks

@@ -36,31 +36,33 @@ api_name:
 
 ## -description
 
-This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
+The IOCTL_SBAUD_GET_SIOP_UPDATE is used to get the updatable configured-codec-SIOP.
 
-IOCTL_SBAUD_GET_SIOP_UPDATE can be used to get the updatable configured-codec-SIOP.
+This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
 ## -ioctlparameters
 
 ### -ioctl-major-code
 
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 ### -input-buffer
 
+A [SIDEBANDAUDIO_SIOP_REQUEST_PARAM](ns-sidebandaudio-sidebandaudio_siop_request_param.md) union.
 
-### -input-buffer-length 
+### -input-buffer-length
 
+The length of the SIDEBANDAUDIO_SIOP_REQUEST_PARAM union.
 
 ### -output-buffer
 
+(Information pending)
 
-### -output-buffer-length 
-
+### -output-buffer-length
 
 ### -in-out-buffer
 
-
-### -inout-buffer-length 
-
+### -inout-buffer-length
 
 ### -status-block
 

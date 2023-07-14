@@ -36,6 +36,8 @@ api_name:
 
 ## -description
 
+The IOCTL_SBAUD_GET_SIOP IOCTL is used to get the .
+
 This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
 ## -ioctlparameters

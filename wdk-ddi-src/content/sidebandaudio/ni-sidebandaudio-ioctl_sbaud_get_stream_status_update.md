@@ -47,21 +47,15 @@ This control code is used by an audio driver when cooperating with the audio cla
 
 ### -input-buffer
 
-
-### -input-buffer-length 
-
+### -input-buffer-length
 
 ### -output-buffer
 
-
-### -output-buffer-length 
-
+### -output-buffer-length
 
 ### -in-out-buffer
 
-
-### -inout-buffer-length 
-
+### -inout-buffer-length
 
 ### -status-block
 
