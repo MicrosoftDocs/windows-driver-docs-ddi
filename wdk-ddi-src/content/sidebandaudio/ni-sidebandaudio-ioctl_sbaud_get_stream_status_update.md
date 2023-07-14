@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE
 title: IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE IOCTL"
+description: "The IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE IOCTL is used for stream status updates."
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE IOCTL"]
 req.header: sidebandaudio.h
@@ -34,10 +34,9 @@ api_name:
 
 # IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE IOCTL
 
-
 ## -description
 
-This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
+The **IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE** IOCTL is used for stream status updates. This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
 ## -ioctlparameters
 
@@ -47,9 +46,15 @@ This control code is used by an audio driver when cooperating with the audio cla
 
 ### -input-buffer
 
+A [SIDEBANDAUDIO_STREAM_STATUS_PARAMS](/ns-sidebandaudio-_sidebandaudio_stream_status_params.md) structure.
+
 ### -input-buffer-length
 
+The size of the SIDEBANDAUDIO_STREAM_STATUS_PARAMS structure.
+
 ### -output-buffer
+
+(Information pending)
 
 ### -output-buffer-length
 
@@ -59,9 +64,7 @@ This control code is used by an audio driver when cooperating with the audio cla
 
 ### -status-block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

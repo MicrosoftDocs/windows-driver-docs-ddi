@@ -2,7 +2,7 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_DEVICE_CLAIMED
 title: IOCTL_SBAUD_SET_DEVICE_CLAIMED (sidebandaudio.h)
 description: "Learn more about: IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL"
-ms.date: 10/05/2018
+ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -57,6 +57,7 @@ This control code is used by an audio driver when cooperating with the audio cla
 
 ### -output-buffer
 
+(Information pending)
 
 ### -output-buffer-length 
 

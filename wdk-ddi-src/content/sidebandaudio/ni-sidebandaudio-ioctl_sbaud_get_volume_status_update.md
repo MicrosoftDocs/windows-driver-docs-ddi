@@ -2,7 +2,7 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE
 title: IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE (sidebandaudio.h)
 description: "The IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE IOCTL gets the volume level setting of the Sideband Audio endpoint."
-ms.date: 07/11/2023
+ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 

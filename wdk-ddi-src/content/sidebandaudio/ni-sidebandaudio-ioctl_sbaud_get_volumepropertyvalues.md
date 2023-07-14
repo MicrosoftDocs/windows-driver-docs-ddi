@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES
 title: IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES IOCTL"
-ms.date: 10/05/2018
+description: "Audio driver can call IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES to query the volume stepped data ranges and min/max values for all of the channels."
+ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -36,7 +36,7 @@ api_name:
 
 ## -description
 
-Audio driver can call this IOCTL to query the volume stepped data ranges and min/max values for all of the channels. These values should then be returned for KSPROPERTY_AUDIO_VOLUMELEVEL basic support.
+Audio driver can call IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES to query the volume stepped data ranges and min/max values for all of the channels. These values should then be returned for KSPROPERTY_AUDIO_VOLUMELEVEL basic support.
 
 ## -ioctlparameters
 

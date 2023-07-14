@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_SIOP
 title: IOCTL_SBAUD_GET_SIOP (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_GET_SIOP IOCTL"
-ms.date: 10/05/2018
+description: "The IOCTL_SBAUD_GET_SIOP IOCTL is used to get the SIOP."
+ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_GET_SIOP IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -36,9 +36,7 @@ api_name:
 
 ## -description
 
-The IOCTL_SBAUD_GET_SIOP IOCTL is used to get the .
-
-This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
+The IOCTL_SBAUD_GET_SIOP IOCTL is used to get the SIOP. This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
 ## -ioctlparameters
 
@@ -48,9 +46,15 @@ This control code is used by an audio driver when cooperating with the audio cla
 
 ### -input-buffer
 
+A [SIDEBANDAUDIO_SIOP_REQUEST_PARAM](ns-sidebandaudio-sidebandaudio_siop_request_param.md) union.
+
 ### -input-buffer-length
 
+The length of the SIDEBANDAUDIO_SIOP_REQUEST_PARAM union.
+
 ### -output-buffer
+
+(Information pending)
 
 ### -output-buffer-length
 
@@ -66,8 +70,8 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Othe
 
 ## -requirements
 
-| &nbsp; | &nbsp; |
-| ---- |:---- |
+| &nbsp;     | &nbsp;          |
+|------------|:----------------|
 | **Header** | sidebandaudio.h |
 
 ## -see-also

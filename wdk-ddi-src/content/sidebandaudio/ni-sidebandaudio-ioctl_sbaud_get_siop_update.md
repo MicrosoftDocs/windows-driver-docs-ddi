@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_SIOP_UPDATE
 title: IOCTL_SBAUD_GET_SIOP_UPDATE (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_GET_SIOP_UPDATE IOCTL"
-ms.date: 10/05/2018
+description: "The IOCTL_SBAUD_GET_SIOP_UPDATE is used to get the updatable configured-codec-SIOP. "
+ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_GET_SIOP_UPDATE IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -36,9 +36,7 @@ api_name:
 
 ## -description
 
-The IOCTL_SBAUD_GET_SIOP_UPDATE is used to get the updatable configured-codec-SIOP.
-
-This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
+The **IOCTL_SBAUD_GET_SIOP_UPDATE** IOCTL is used to get the updatable configured-codec-SIOP. This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
 ## -ioctlparameters
 

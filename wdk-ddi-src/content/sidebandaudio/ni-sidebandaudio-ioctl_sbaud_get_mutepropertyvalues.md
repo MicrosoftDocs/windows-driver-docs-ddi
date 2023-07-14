@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
 title: IOCTL_SBAUD_GET_MUTEPROPERTYVALUES (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_GET_MUTEPROPERTYVALUES IOCTL"
-ms.date: 10/05/2018
+description: "Audio driver can call the IOCTL_SBAUD_GET_MUTEPROPERTYVALUES IOCTL to query the mute stepped data ranges and min/max values for all of the channels."
+ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_GET_MUTEPROPERTYVALUES IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 

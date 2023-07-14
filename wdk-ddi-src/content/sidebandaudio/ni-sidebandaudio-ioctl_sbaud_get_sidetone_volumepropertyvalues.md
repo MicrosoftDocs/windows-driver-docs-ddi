@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES
 title: IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES IOCTL"
+description: "The IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES IOCTL gets the sidetone volume property values of the sideband specified audio endpoint"
 ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES IOCTL"]
 req.header: sidebandaudio.h

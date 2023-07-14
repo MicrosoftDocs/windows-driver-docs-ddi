@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_VOLUME
 title: IOCTL_SBAUD_SET_VOLUME (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_SET_VOLUME IOCTL"
-ms.date: 07/13/2023
+description: "The IOCTL_SBAUD_SET_VOLUME IOCTL is used to set the volume on a specific channel."
+ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_SET_VOLUME IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -36,9 +36,7 @@ api_name:
 
 ## -description
 
-The IOCTL_SBAUD_SET_VOLUME IOCTL is used to set the volume on a specific channel.
-
-This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
+The **IOCTL_SBAUD_SET_VOLUME IOCTL** is used to set the volume on a specific channel. This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
 ## -ioctlparameters
 

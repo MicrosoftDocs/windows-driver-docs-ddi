@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE
 title: IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE IOCTL"
+description: "The IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE  IOCTL is used for error status updates."
 ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE IOCTL"]
 req.header: sidebandaudio.h

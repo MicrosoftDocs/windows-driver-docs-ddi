@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_SUPPORTED_FORMATS
 title: IOCTL_SBAUD_GET_SUPPORTED_FORMATS (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_GET_SUPPORTED_FORMATS IOCTL"
-ms.date: 10/05/2018
+description: "The audio driver issues the IOCTL_SBAUD_GET_SUPPORTED_FORMATS control code to get information about the stream formats supported by sideband audio endpoint."
+ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_GET_SUPPORTED_FORMATS IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -34,10 +34,9 @@ api_name:
 
 # IOCTL_SBAUD_GET_SUPPORTED_FORMATS IOCTL
 
-
 ## -description
 
-The audio driver issues the <b>IOCTL_SBAUD_GET_SUPPORTED_FORMATS</b> control code to get information about the stream formats supported by Sideband Audio endpoint.
+The audio driver issues the **IOCTL_SBAUD_GET_SUPPORTED_FORMATS** control code to get information about the stream formats supported by sideband audio endpoint.
 
 ## -ioctlparameters
 
@@ -55,7 +54,7 @@ Size of [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supp
 
 ### -output-buffer
 
-[SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supported_formats.md). The sideband driver will return intersection of the Sideband audio formats with the formats supplied dy Audio driver as input parameter.
+[SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supported_formats.md). The sideband driver will return the intersection of the sideband audio formats with the formats supplied by the audio driver as an input parameter.
 
 ### -output-buffer-length
 
@@ -64,7 +63,6 @@ Size of [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supp
 ### -in-out-buffer
 
 ### -inout-buffer-length
-
 
 ### -status-block
 
