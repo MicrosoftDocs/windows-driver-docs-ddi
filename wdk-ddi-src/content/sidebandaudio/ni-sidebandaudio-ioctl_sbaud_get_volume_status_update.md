@@ -34,8 +34,6 @@ api_name:
 
 # IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 The **IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE IOCTL** gets the volume level setting of the Sideband Audio endpoint.
@@ -43,6 +41,8 @@ The **IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE IOCTL** gets the volume level setting
 ## -ioctlparameters
 
 ### -ioctl-major-code
+
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ### -input-buffer
 
@@ -75,5 +75,7 @@ The volume update IOCTL can be used in two modes - update and immediate. If `SID
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
 
 [sidebandaudio.h](index.md)

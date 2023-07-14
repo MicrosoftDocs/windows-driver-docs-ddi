@@ -34,8 +34,6 @@ api_name:
 
 # IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 The audio driver issues the **IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2** control code to get information about an Audio endpoint exposed through Sideband Audio device interface. The version 2 of this IOCTL allows the controller driver to provide custom device properties to add to the audio device's interface.
@@ -43,6 +41,8 @@ The audio driver issues the **IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2** control cod
 ## -ioctlparameters
 
 ### -ioctl-major-code
+
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ### -input-buffer
 
@@ -86,5 +86,7 @@ The audio driver sends this request once with an output buffer size of zero (0) 
 ## -see-also
 
 [SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2](./ns-sidebandaudio-_sidebandaudio_endpoint_descriptor2.md)
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
 
 [sidebandaudio.h](index.md)

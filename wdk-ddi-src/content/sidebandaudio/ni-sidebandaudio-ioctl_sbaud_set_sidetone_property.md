@@ -34,9 +34,6 @@ api_name:
 
 # IOCTL_SBAUD_SET_SIDETONE_PROPERTY IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
-
 ## -description
 
 This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
@@ -78,5 +75,7 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 | **Header** | sidebandaudio.h |
 
 ## -see-also
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
 
 [sidebandaudio.h](index.md)

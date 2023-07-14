@@ -34,8 +34,6 @@ api_name:
 
 # IOCTL_SBAUD_GET_SUPPORTED_FORMATS IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 
 ## -description
 
@@ -44,6 +42,8 @@ The audio driver issues the <b>IOCTL_SBAUD_GET_SUPPORTED_FORMATS</b> control cod
 ## -ioctlparameters
 
 ### -ioctl-major-code
+
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ### -input-buffer
 
@@ -83,5 +83,7 @@ If Status is set to STATUS_BUFFER_TOO_SMALL, then the audio driver should read t
 ## -see-also
 
 [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supported_formats.md)
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
 
 [sidebandaudio.h](index.md)

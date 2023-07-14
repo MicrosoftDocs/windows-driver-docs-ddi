@@ -34,8 +34,6 @@ api_name:
 
 # IOCTL_SBAUD_SET_VOLUME IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 The IOCTL_SBAUD_SET_VOLUME IOCTL is used to set the volume on a specific channel.
@@ -45,6 +43,8 @@ This control code is used by an audio driver when cooperating with the audio cla
 ## -ioctlparameters
 
 ### -ioctl-major-code
+
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ### -input-buffer
 
@@ -75,5 +75,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Othe
 | **Header** | sidebandaudio.h |
 
 ## -see-also
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
 
 [sidebandaudio.h](index.md)

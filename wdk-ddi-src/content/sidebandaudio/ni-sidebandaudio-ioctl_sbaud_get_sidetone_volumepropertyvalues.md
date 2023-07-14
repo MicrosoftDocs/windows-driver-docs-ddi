@@ -2,7 +2,7 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES
 title: IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES (sidebandaudio.h)
 description: "Learn more about: IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES IOCTL"
-ms.date: 10/05/2018
+ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -34,10 +34,9 @@ api_name:
 
 # IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
-
 ## -description
+
+The **IOCTL_SBAUD_GET_SIDETONE_STATUS_UPDATE** IOCTL gets the sidetone setting of the sideband audio endpoint.
 
 This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
@@ -45,6 +44,7 @@ This control code is used by an audio driver when cooperating with the audio cla
 
 ### -ioctl-major-code
 
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 ### -input-buffer
 
 
@@ -78,5 +78,7 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 | **Header** | sidebandaudio.h |
 
 ## -see-also
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
 
 [sidebandaudio.h](index.md)

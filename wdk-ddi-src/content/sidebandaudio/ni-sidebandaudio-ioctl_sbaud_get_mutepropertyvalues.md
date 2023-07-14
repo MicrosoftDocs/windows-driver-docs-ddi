@@ -34,15 +34,15 @@ api_name:
 
 # IOCTL_SBAUD_GET_MUTEPROPERTYVALUES IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
-Audio driver can call this IOCTL to query the mute stepped data ranges and min/max values for all of the channels. These values should then be returned for [KSPROPERTY_AUDIO_MUTE](/windows-hardware/drivers/audio/ksproperty-audio-mute) basic support.
+Audio driver can call the **IOCTL_SBAUD_GET_MUTEPROPERTYVALUES** IOCTL to query the mute stepped data ranges and min/max values for all of the channels. These values should then be returned for [KSPROPERTY_AUDIO_MUTE](/windows-hardware/drivers/audio/ksproperty-audio-mute) basic support.
 
 ## -ioctlparameters
 
 ### -ioctl-major-code
+
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ### -input-buffer
 
@@ -93,5 +93,7 @@ Audio drivers that implement sideband audio should advertise endpoint Mute throu
 [KSNODEPROPERTY_AUDIO_CHANNEL](../ksmedia/ns-ksmedia-ksnodeproperty_audio_channel.md)
 
 [IMiniportAudioEngineNode::GetDeviceChannelCount](../portcls/nf-portcls-iminiportaudioenginenode-getdevicechannelcount.md)
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
 
 [sidebandaudio.h](index.md)

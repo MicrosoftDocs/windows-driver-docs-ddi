@@ -34,8 +34,6 @@ api_name:
 
 # IOCTL_SBAUD_STREAM_CLOSE IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 On closure of KS pin, used for streaming audio, send **IOCTL_SBAUD_STREAM_CLOSE**. This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
@@ -43,6 +41,8 @@ On closure of KS pin, used for streaming audio, send **IOCTL_SBAUD_STREAM_CLOSE*
 ## -ioctlparameters
 
 ### -ioctl-major-code
+
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ### -input-buffer
 
@@ -80,5 +80,7 @@ This is one of the IOCTLs used for KS pin state transitions. The audio driver se
 | **Header** | sidebandaudio.h |
 
 ## -see-also
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
 
 [sidebandaudio.h](index.md)

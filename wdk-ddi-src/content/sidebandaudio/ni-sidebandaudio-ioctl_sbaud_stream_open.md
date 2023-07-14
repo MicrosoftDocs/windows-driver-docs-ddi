@@ -34,8 +34,6 @@ api_name:
 
 # IOCTL_SBAUD_STREAM_OPEN IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection. On first transition above KSSTATE_STOP (normally to KSSTATE_ACQUIRE), send **IOCTL_SBAUD_STREAM_OPEN**.
@@ -43,6 +41,8 @@ This control code is used by an audio driver when cooperating with the audio cla
 ## -ioctlparameters
 
 ### -ioctl-major-code
+
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ### -input-buffer
 
@@ -83,5 +83,7 @@ The A2DP driver clears the collection of stream configuration vendor SIOPs when 
 | **Header** | sidebandaudio.h |
 
 ## -see-also
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
 
 [sidebandaudio.h](index.md)

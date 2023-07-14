@@ -34,13 +34,15 @@ api_name:
 
 # IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 The audio driver issues the **IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR** to get information about an enabled Sideband Audio device interface. Specifically this returns the number of Audio endpoints available on a device that supports Sideband. This information is returned in a  [Audio device descriptor](./ns-sidebandaudio-_sidebandaudio_device_descriptor.md) structure.
 
 ## -ioctlparameters
+
+### -ioctl-major-code
+
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ### -input-buffer
 
@@ -85,3 +87,5 @@ The audio driver can then iteratively determine each endpoints capability with t
 ## -see-also
 
 [sidebandaudio.h](index.md)
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)

@@ -34,8 +34,6 @@ api_name:
 
 # IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 The **IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE** is used for error status updates.  This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
@@ -77,5 +75,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Othe
 | **Header** | sidebandaudio.h |
 
 ## -see-also
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
 
 [sidebandaudio.h](index.md)

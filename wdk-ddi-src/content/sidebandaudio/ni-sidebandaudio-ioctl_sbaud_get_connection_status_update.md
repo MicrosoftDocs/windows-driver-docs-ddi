@@ -73,3 +73,5 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Othe
 ## -see-also
 
 [sidebandaudio.h](index.md)
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
