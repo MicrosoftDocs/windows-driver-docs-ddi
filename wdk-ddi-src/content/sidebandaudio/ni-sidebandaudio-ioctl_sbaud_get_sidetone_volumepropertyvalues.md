@@ -48,15 +48,13 @@ This control code is used by an audio driver when cooperating with the audio cla
 
 ### -input-buffer
 
-(Information pending)
+A 0 based endpoint index value based on the number of Audio endpoints as reported by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_device_descriptor">IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR</a>.
+
+This is a ULONG value from 0 to (N-1) where N is the number of Endpoints for the device.
 
 ### -input-buffer-length
 
 ### -output-buffer
-
-[KSPROPERTY_DESCRIPTION](../ks/ns-ks-ksproperty_description.md) information that describes the sidetone value properties.
-
-(Information pending)
 
 ### -output-buffer-length
 
@@ -66,10 +64,13 @@ This control code is used by an audio driver when cooperating with the audio cla
 
 ### -status-block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
+
+A [KSPROPERTY_DESCRIPTION](../ks/ns-ks-ksproperty_description.md) information that describes the sidetone value properties is set.
+
+(Information pending)
 
 ## -requirements
 

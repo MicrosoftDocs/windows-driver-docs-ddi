@@ -73,12 +73,6 @@ This is one of the IOCTLs used for KS pin state transitions. The audio driver se
 - On transition below KSSTATE_RUN, send [IOCTL_SBAUD_STREAM_SUSPEND](/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_stream_suspend).
 - On closure of KS pin, send [IOCTL_SBAUD_STREAM_CLOSE](/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_stream_close).
 
-### Bluetooth A2DP
-
-The A2DP driver saves the SIOP values in a collection of stream configuration vendor SIOPs and sends these SIOPs to the Bluetooth controller using HCI_VS_MSFT_Avdtp_Stream_Open while handling IOCTL_SBAUD_STREAM_OPEN. Any audio interface parameters returned by the Bluetooth controller are also stored in the collection of stream configuration vendor SIOPs. The audio driver can get these values at any time after the IOCTL completes.
-
-The A2DP driver clears the collection of stream configuration vendor SIOPs when handling IOCTL_SBAUD_STREAM_CLOSE. (It does not clear the collection of system configuration vendor SIOPs.)
-
 ## -requirements
 
 | &nbsp; | &nbsp; |
