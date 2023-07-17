@@ -2,7 +2,7 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE
 title: IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE (sidebandaudio.h)
 description: "The IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE IOCTL is used for stream status updates."
-ms.date: 10/05/2018
+ms.date: 07/17/2023
 keywords: ["IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -46,7 +46,7 @@ The **IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE** IOCTL is used for stream status upd
 
 ### -input-buffer
 
-A [SIDEBANDAUDIO_STREAM_STATUS_PARAMS](/ns-sidebandaudio-_sidebandaudio_stream_status_params.md) structure.
+A [SIDEBANDAUDIO_STREAM_STATUS_PARAMS](ns-sidebandaudio-_sidebandaudio_stream_status_params.md) structure.
 
 ### -input-buffer-length
 

@@ -34,10 +34,9 @@ api_name:
 
 # IOCTL_SBAUD_SET_MUTE IOCTL
 
-
 ## -description
 
-This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
+The **IOCTL_SBAUD_SET_MUTE IOCTL** is used to set the render (speaker) mute. This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
 ## -ioctlparameters
 
@@ -47,7 +46,11 @@ This control code is used by an audio driver when cooperating with the audio cla
 
 ### -input-buffer
 
+[SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_params.md) with the 0 based endpoint index and channel number along with 'immediate' parameter indicating whether to process this IOCTL immediately or pend it for future updates.
+
 ### -input-buffer-length
+
+Size of [SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_params.md).
 
 ### -output-buffer
 
@@ -59,12 +62,9 @@ This control code is used by an audio driver when cooperating with the audio cla
 
 ### -status-block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
-
 
 ## -requirements
 
