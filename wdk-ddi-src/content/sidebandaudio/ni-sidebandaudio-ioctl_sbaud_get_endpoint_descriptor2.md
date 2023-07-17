@@ -2,7 +2,7 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2
 title: IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 (sidebandaudio.h)
 description: "The audio driver issues the IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 control code to get information about an Audio endpoint exposed through Sideband Audio device interface."
-ms.date: 07/10/2023
+ms.date: 07/17/2023
 keywords: ["IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -46,7 +46,7 @@ The audio driver issues the **IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2** control cod
 
 ### -input-buffer
 
-A 0 based index value based on the number of Audio endpoints as reported by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_device_descriptor">IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR</a>.
+A 0 based endpoint index value based on the number of Audio endpoints as reported by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_device_descriptor">IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR</a>.
 
 This is a ULONG value from 0 to (N-1) where N is the number of Endpoints for the device.
 
@@ -61,6 +61,10 @@ A buffer containing a <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-si
 ### -output-buffer-length
 
 The size of a <b>SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2</b> structure and referenced data.
+
+### -in-out-buffer
+
+### -inout-buffer-length
 
 ### -status-block
 

@@ -2,7 +2,7 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_CLOSE
 title: IOCTL_SBAUD_STREAM_CLOSE (sidebandaudio.h)
 description: "This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection. On closure of KS pin, send IOCTL_SBAUD_STREAM_CLOSE."
-ms.date: 06/28/2023
+ms.date: 07/17/2023
 keywords: ["IOCTL_SBAUD_STREAM_CLOSE IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -46,7 +46,9 @@ On closure of KS pin, used for streaming audio, send **IOCTL_SBAUD_STREAM_CLOSE*
 
 ### -input-buffer
 
-(Information pending)
+A 0 based endpoint index value based on the number of Audio endpoints as reported by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_device_descriptor">IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR</a>.
+
+This is a ULONG value from 0 to (N-1) where N is the number of Endpoints for the device.
 
 ### -input-buffer-length
 

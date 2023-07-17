@@ -111,4 +111,3 @@ A [DEVPROPERTY structure](/previous-versions/windows/hardware/drivers/dn315030(v
 <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_volumepropertyvalues">IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES</a>
 
 <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_sidetone_volumepropertyvalues">IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES</a>
-

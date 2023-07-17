@@ -46,7 +46,9 @@ On transition up to KSSTATE_RUN, send **IOCTL_SBAUD_STREAM_START**. This control
 
 ### -input-buffer
 
-(Information pending)
+A 0 based endpoint index value based on the number of Audio endpoints as reported by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_device_descriptor">IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR</a>.
+
+This is a ULONG value from 0 to (N-1) where N is the number of Endpoints for the device.
 
 ### -input-buffer-length
 
