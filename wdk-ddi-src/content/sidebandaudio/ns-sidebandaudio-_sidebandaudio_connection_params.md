@@ -1,7 +1,7 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_CONNECTION_PARAMS
 title: _SIDEBANDAUDIO_CONNECTION_PARAMS (sidebandaudio.h)
-description: The SIDEBANDAUDIO_CONNECTION_PARAMS structure describes the endpoint index and Connection value.
+description: The SIDEBANDAUDIO_CONNECTION_PARAMS structure describes the endpoint index and connection value.
 ms.date: 07/11/2023
 keywords: ["SIDEBANDAUDIO_CONNECTION_PARAMS structure"]
 ms.keywords: _SIDEBANDAUDIO_CONNECTION_PARAMS, SIDEBANDAUDIO_CONNECTION_PARAMS, *PSIDEBANDAUDIO_CONNECTION_PARAMS,
@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The **SIDEBANDAUDIO_CONNECTION_PARAMS** structure describes the endpoint index and Connection value.
+The **SIDEBANDAUDIO_CONNECTION_PARAMS** structure describes the endpoint index and connection value.
 
 ## -struct-fields
 

@@ -36,7 +36,7 @@ api_name:
 
 ## -description
 
-This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection. On first transition above KSSTATE_STOP (normally to KSSTATE_ACQUIRE), send **IOCTL_SBAUD_STREAM_OPEN**.
+On first transition above KSSTATE_STOP (normally to KSSTATE_ACQUIRE), send **IOCTL_SBAUD_STREAM_OPEN**. This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
 ## -ioctlparameters
 

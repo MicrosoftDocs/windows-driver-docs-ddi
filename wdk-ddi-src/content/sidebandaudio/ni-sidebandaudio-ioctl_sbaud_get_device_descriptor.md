@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR
 title: IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR (sidebandaudio.h)
-description: "The audio driver issues the IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR to get information about an enabled Sideband Audio device interface."
+description: "The audio driver issues the IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR to get information about an enabled sideband audio device interface."
 ms.date: 06/27/2023
 keywords: ["IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR IOCTL"]
 req.header: sidebandaudio.h
@@ -72,7 +72,7 @@ If Status is set to STATUS_BUFFER_TOO_SMALL, then the audio driver should read t
 
 ## -remarks
 
-The audio driver sends this request to obtain information about an enabled Audio sideband device interface. The information does not change while the interface is enabled, but can change while the interface is disabled. The audio driver sends this request shortly after discovering an enabled sideband audio device interface and uses the information to determine how many Sideband Audio endpoints are available.
+The audio driver sends this request to obtain information about an enabled Audio sideband device interface. The information does not change while the interface is enabled, but can change while the interface is disabled. The audio driver sends this request shortly after discovering an enabled sideband audio device interface and uses the information to determine how many sideband audio endpoints are available.
 
 The audio driver sends this request once with an output buffer size of zero (0) in order to determine the required output buffer size. In this case, the request will complete with Status STATUS_BUFFER_TOO_SMALL and set the <i>Information</i> member to the required buffer size. The audio driver then allocates the necessary storage space and sends the request again. Typically an audio driver will store a pointer to this storage location in its device context for reference during later activity.
 

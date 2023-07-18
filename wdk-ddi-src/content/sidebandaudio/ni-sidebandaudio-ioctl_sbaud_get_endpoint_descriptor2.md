@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2
 title: IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 (sidebandaudio.h)
-description: "The audio driver issues the IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 control code to get information about an Audio endpoint exposed through Sideband Audio device interface."
+description: "The audio driver issues the IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 control code to get information about an Audio endpoint exposed through sideband audio device interface."
 ms.date: 07/17/2023
 keywords: ["IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 IOCTL"]
 req.header: sidebandaudio.h
@@ -36,7 +36,7 @@ api_name:
 
 ## -description
 
-The audio driver issues the **IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2** control code to get information about an Audio endpoint exposed through Sideband Audio device interface. The version 2 of this IOCTL allows the controller driver to provide custom device properties to add to the audio device's interface.
+The audio driver issues the **IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2** control code to get information about an Audio endpoint exposed through sideband audio device interface. The version 2 of this IOCTL allows the controller driver to provide custom device properties to add to the audio device's interface.
 
 ## -ioctlparameters
 

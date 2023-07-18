@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE
 title: IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE (sidebandaudio.h)
-description: "The IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE IOCTL gets the volume level setting of the Sideband Audio endpoint."
+description: "The IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE IOCTL gets the volume level setting of the sideband audio endpoint."
 ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE IOCTL"]
 req.header: sidebandaudio.h
@@ -36,7 +36,7 @@ api_name:
 
 ## -description
 
-The **IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE IOCTL** gets the volume level setting of the Sideband Audio endpoint.
+The **IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE IOCTL** gets the volume level setting of the sideband audio endpoint.
 
 ## -ioctlparameters
 
@@ -70,7 +70,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Othe
 
 ## -remarks
 
-The volume update IOCTL can be used in two modes - update and immediate. If `SIDEBANDAUDIO_VOLUME_PARAMS::Immediate` parameter is set to TRUE, the IOCTL returns immediately with the current volume value for the requested channel. If the Immediate parameter is set to FALSE, the IRP is pended by the Sideband Audio Driver (like USB Audio) until there is a change in the device volume. Audio driver should setup a pending volume IOCTL to get notified of any changes in hardware volume.
+The volume update IOCTL can be used in two modes - update and immediate. If `SIDEBANDAUDIO_VOLUME_PARAMS::Immediate` parameter is set to TRUE, the IOCTL returns immediately with the current volume value for the requested channel. If the Immediate parameter is set to FALSE, the IRP is pended by the sideband audio Driver (like USB Audio) until there is a change in the device volume. Audio driver should setup a pending volume IOCTL to get notified of any changes in hardware volume.
 
 ## -see-also
 
