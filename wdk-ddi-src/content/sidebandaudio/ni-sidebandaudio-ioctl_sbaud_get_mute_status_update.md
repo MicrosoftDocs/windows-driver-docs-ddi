@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE
 title: IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE (sidebandaudio.h)
-description: "The IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL gets the mute level setting of the Sideband Audio endpoint."
+description: "The IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL gets the mute level setting of the sideband audio endpoint."
 ms.date: 06/30/2023
 keywords: ["IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL"]
 req.header: sidebandaudio.h
@@ -34,15 +34,15 @@ api_name:
 
 # IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
-The IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL gets the mute level setting of the Sideband Audio endpoint.
+The **IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE** IOCTL gets the mute level setting of the sideband audio endpoint.
 
 ## -ioctlparameters
 
 ### -ioctl-major-code
+
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ### -input-buffer
 
@@ -70,7 +70,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Othe
 
 ## -remarks
 
-The mute update IOCTL can be used in two modes - update and immediate. If _**Immediate**_ parameter is set to TRUE, the IOCTL returns immediately with the current mute value for the requested channel. If the Immediate parameter is set to FALSE, the IRP is pended by the Sideband Audio Driver until there is a change in the device mute state. Audio driver should setup a pending mute IOCTL to get notified of any changes in hardware mute state.
+The mute update IOCTL can be used in two modes - update and immediate. If _**Immediate**_ parameter is set to TRUE, the IOCTL returns immediately with the current mute value for the requested channel. If the Immediate parameter is set to FALSE, the IRP is pended by the sideband audio Driver until there is a change in the device mute state. Audio driver should setup a pending mute IOCTL to get notified of any changes in hardware mute state.
 
 ## -requirements
 
@@ -81,5 +81,7 @@ The mute update IOCTL can be used in two modes - update and immediate. If _**Imm
 ## -see-also
 
 [SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_params.md)
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
 
 [sidebandaudio.h](index.md)

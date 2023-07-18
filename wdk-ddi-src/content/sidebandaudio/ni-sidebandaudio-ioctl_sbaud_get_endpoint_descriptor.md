@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR
 title: IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR (sidebandaudio.h)
-description: "The audio driver issues the IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR control code to get information about an Audio endpoint exposed through Sideband Audio device interface."
-ms.date: 10/05/2018
+description: "The audio driver issues the IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR control code to get information about an Audio endpoint exposed through sideband audio device interface."
+ms.date: 07/11/2023
 keywords: ["IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -34,19 +34,20 @@ api_name:
 
 # IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
-The audio driver issues the <b>IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR</b> control code to get information about an Audio endpoint exposed through Sideband Audio device interface.
+The audio driver issues the **IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR** control code to get information about an Audio endpoint exposed through sideband audio device interface.
 
 ## -ioctlparameters
 
 ### -ioctl-major-code
 
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 ### -input-buffer
 
-A 0 based index value based on the number of Audio endpoints as reported by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_device_descriptor">IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR</a>.
+A 0 based endpoint index value based on the number of Audio endpoints as reported by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_device_descriptor">IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR</a>.
+
 This is a ULONG value from 0 to (N-1) where N is the number of Endpoints for the device.
 
 ### -input-buffer-length
@@ -70,12 +71,12 @@ The size of a <b>SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR</b> structure and referenced 
 If the routine succeeds, then Status is set to STATUS_SUCCESS and the <i>Information</i> member is the number of bytes that the routine writes to the output buffer.
 
 <div class="alert"><b>Note</b>  This can be larger than the size of the <b>SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR</b> structure, as the output buffer may contain other data referenced by the structure</div>
-<div> </div>
+
 If Status is set to STATUS_BUFFER_TOO_SMALL, then the audio driver should read the <i>Information</i> member to get the size of the buffer that the caller should allocate for this request.
 
 ## -remarks
 
-The audio driver sends this request to obtain information about an enabled Audio Sideband Endpoint. The information does not change while the interface is enabled, but can change while the interface is disabled. Therefore the audio driver sends this request shortly after discovering an enabled device interface and uses the information to build an appropriate KSFILTER_DESCRIPTOR structure.
+The audio driver sends this request to obtain information about an enabled audio sideband endpoint. The information does not change while the interface is enabled, but can change while the interface is disabled. Therefore the audio driver sends this request shortly after discovering an enabled device interface and uses the information to build an appropriate KSFILTER_DESCRIPTOR structure.
 
 The audio driver sends this request once with an output buffer size of zero (0) in order to determine the required output buffer size. In this case, the request will complete with Status STATUS_BUFFER_TOO_SMALL and set the <i>Information</i> member to the required buffer size. The audio driver then allocates the necessary storage space and sends the request again.
 
@@ -89,4 +90,6 @@ The audio driver sends this request once with an output buffer size of zero (0) 
 
 [SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR](./ns-sidebandaudio-_sidebandaudio_endpoint_descriptor.md)
 
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
 
+[sidebandaudio.h](index.md)

@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES
 title: IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES IOCTL"
-ms.date: 10/05/2018
+description: "Audio driver can call IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES to query the volume stepped data ranges and min/max values for all of the channels."
+ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -34,16 +34,15 @@ api_name:
 
 # IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
-
 ## -description
 
-Audio driver can call this IOCTL to query the volume stepped data ranges and min/max values for all of the channels. These values should then be returned for KSPROPERTY_AUDIO_VOLUMELEVEL basic support.
+Audio driver can call IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES to query the volume stepped data ranges and min/max values for all of the channels. These values should then be returned for KSPROPERTY_AUDIO_VOLUMELEVEL basic support.
 
 ## -ioctlparameters
 
 ### -ioctl-major-code
+
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ### -input-buffer
 
@@ -57,7 +56,7 @@ Size of ULONG.
 
 KSPROPERTY_DESCRIPTION followed by KSPROPERTY_MEMBERSHEADER and Volume stepped data ranges as documented in <a href='/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_description'>KSPROPERTY_DESCRIPTION</a> and <a href='/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_membersheader'>KSPROPERTY_MEMBERSHEADER</a>.
 
-### -output-buffer-length 
+### -output-buffer-length
 
 Size of KSPROPERTY_DESCRIPTION in addition to all the KSPROPERTY_MEMBERSHEADER and step ranges. This size was returned in SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR::VolumePropertyValuesSize.
 
@@ -71,9 +70,7 @@ Allocated buffer should be of length SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR::VolumePr
 
 ### -status-block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -88,5 +85,7 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 <a href="/windows-hardware/drivers/audio/ksproperty-audio-volumelevel">KSPROPERTY_AUDIO_VOLUMELEVEL</a>
 
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksnodeproperty_audio_channel">KSNODEPROPERTY_AUDIO_CHANNEL</a>
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
 
 [sidebandaudio.h](index.md)

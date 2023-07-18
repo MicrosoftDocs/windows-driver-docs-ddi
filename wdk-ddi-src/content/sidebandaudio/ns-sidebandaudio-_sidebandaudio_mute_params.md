@@ -1,8 +1,8 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_MUTE_PARAMS
 title: _SIDEBANDAUDIO_MUTE_PARAMS (sidebandaudio.h)
-description: Describes the endpoint index and mute value.
-ms.date: 10/05/2018
+description: The SIDEBANDAUDIO_MUTE_PARAMS structure describes the endpoint index, channel, immediate mode of operation and mute value.
+ms.date: 07/11/2023
 keywords: ["SIDEBANDAUDIO_MUTE_PARAMS structure"]
 ms.keywords: _SIDEBANDAUDIO_MUTE_PARAMS, SIDEBANDAUDIO_MUTE_PARAMS, *PSIDEBANDAUDIO_MUTE_PARAMS,
 req.header: sidebandaudio.h
@@ -40,12 +40,11 @@ api_name:
  - SIDEBANDAUDIO_MUTE_PARAMS
 ---
 
-# _SIDEBANDAUDIO_MUTE_PARAMS structure
-
+# SIDEBANDAUDIO_MUTE_PARAMS structure
 
 ## -description
 
-Describes the endpoint index, channel, immediate mode of operation and mute value.
+The **SIDEBANDAUDIO_MUTE_PARAMS** structure describes the endpoint index, channel, immediate mode of operation and mute value.
 
 ## -struct-fields
 
@@ -69,9 +68,14 @@ Boolean representing mute state:
 
 ## -remarks
 
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
+
 ## -see-also
 
 [sidebandaudio.h](index.md)
 
 [IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE](./ni-sidebandaudio-ioctl_sbaud_get_mute_status_update.md)
-

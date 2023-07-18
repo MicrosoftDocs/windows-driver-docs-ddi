@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2
 title: IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 (sidebandaudio.h)
-description: "The audio driver issues the IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 control code to get information about an Audio endpoint exposed through Sideband Audio device interface."
-ms.date: 12/16/2021
+description: "The audio driver issues the IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 control code to get information about an Audio endpoint exposed through sideband audio device interface."
+ms.date: 07/17/2023
 keywords: ["IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -34,20 +34,20 @@ api_name:
 
 # IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2 IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
-
 ## -description
 
-The audio driver issues the <b>IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2</b> control code to get information about an Audio endpoint exposed through Sideband Audio device interface. The version 2 of this IOCTL allows the controller driver to provide custom device properties to add to the audio device's interface.
+The audio driver issues the **IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR2** control code to get information about an Audio endpoint exposed through sideband audio device interface. The version 2 of this IOCTL allows the controller driver to provide custom device properties to add to the audio device's interface.
 
 ## -ioctlparameters
 
 ### -ioctl-major-code
 
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 ### -input-buffer
 
-A 0 based index value based on the number of Audio endpoints as reported by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_device_descriptor">IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR</a>.
+A 0 based endpoint index value based on the number of Audio endpoints as reported by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_device_descriptor">IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR</a>.
+
 This is a ULONG value from 0 to (N-1) where N is the number of Endpoints for the device.
 
 ### -input-buffer-length
@@ -62,12 +62,17 @@ A buffer containing a <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-si
 
 The size of a <b>SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2</b> structure and referenced data.
 
+### -in-out-buffer
+
+### -inout-buffer-length
+
 ### -status-block
 
 If the routine succeeds, then Status is set to STATUS_SUCCESS and the <i>Information</i> member is the number of bytes that the routine writes to the output buffer.
 
 <div class="alert"><b>Note</b>  This can be larger than the size of the <b>SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2</b> structure, as the output buffer may contain other data referenced by the structure</div>
 <div> </div>
+
 If Status is set to STATUS_BUFFER_TOO_SMALL, then the audio driver should read the <i>Information</i> member to get the size of the buffer that the caller should allocate for this request.
 
 ## -remarks
@@ -85,5 +90,7 @@ The audio driver sends this request once with an output buffer size of zero (0) 
 ## -see-also
 
 [SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR2](./ns-sidebandaudio-_sidebandaudio_endpoint_descriptor2.md)
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
 
 [sidebandaudio.h](index.md)

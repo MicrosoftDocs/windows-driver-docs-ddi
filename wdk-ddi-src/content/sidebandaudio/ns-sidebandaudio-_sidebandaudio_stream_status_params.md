@@ -40,12 +40,11 @@ api_name:
  - SIDEBANDAUDIO_STREAM_STATUS_PARAMS
 ---
 
-# _SIDEBANDAUDIO_STREAM_STATUS_PARAMS structure
-
+# SIDEBANDAUDIO_STREAM_STATUS_PARAMS structure
 
 ## -description
 
-Describes the endpoint index and Device Error NTSTATUS.
+The SIDEBANDAUDIO_STREAM_STATUS_PARAMS structure describes the endpoint index and Device Error NTSTATUS.
 
 ## -struct-fields
 
@@ -63,7 +62,12 @@ Indicates status of stream including cause of any failure.
 
 ## -remarks
 
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
+
 ## -see-also
 
 [sidebandaudio.h](index.md)
-

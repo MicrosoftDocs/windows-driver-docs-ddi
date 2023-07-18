@@ -87,6 +87,12 @@ If remote mute is supported, the member contains the size of data returned by [I
 
 ## -remarks
 
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
+
 ## -see-also
 
 [sidebandaudio.h](index.md)

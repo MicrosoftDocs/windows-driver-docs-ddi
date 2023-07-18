@@ -2,7 +2,7 @@
 UID: NE:usbsidebandaudio._SIDEBANDAUDIO_USB_CONTROLLER_CONFIG_INFO_TYPE
 title: SIDEBANDAUDIO_USB_CONTROLLER_CONFIG_INFO_TYPE
 description: Microsoft USB Audio Sideband USB controller Set of Parameters.
-ms.date: 06/28/2023
+ms.date: 07/11/2023
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -60,6 +60,8 @@ Provides USB sideband audio information, for example about a USB headset endpoin
 An invalid controller config type.
 
 ## -remarks
+
+Some systems may not be able to support a USB Sideband device behind a hub.
 
 ## -see-also
 

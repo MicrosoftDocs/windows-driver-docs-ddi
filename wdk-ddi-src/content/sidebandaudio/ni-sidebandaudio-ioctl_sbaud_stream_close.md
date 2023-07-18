@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_CLOSE
 title: IOCTL_SBAUD_STREAM_CLOSE (sidebandaudio.h)
-description: "This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection. On closure of KS pin, send IOCTL_SBAUD_STREAM_CLOSE."
-ms.date: 06/28/2023
+description: "This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection. On closure of KS pin, send IOCTL_SBAUD_STREAM_CLOSE."
+ms.date: 07/17/2023
 keywords: ["IOCTL_SBAUD_STREAM_CLOSE IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -34,19 +34,21 @@ api_name:
 
 # IOCTL_SBAUD_STREAM_CLOSE IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
-This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection. On closure of KS pin, send **IOCTL_SBAUD_STREAM_CLOSE**.
+On closure of KS pin, used for streaming audio, send **IOCTL_SBAUD_STREAM_CLOSE**. This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
 ## -ioctlparameters
 
 ### -ioctl-major-code
 
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 ### -input-buffer
 
-(Additional Information Pending)
+A 0 based endpoint index value based on the number of Audio endpoints as reported by the <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_device_descriptor">IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR</a>.
+
+This is a ULONG value from 0 to (N-1) where N is the number of Endpoints for the device.
 
 ### -input-buffer-length
 
@@ -66,7 +68,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Othe
 
 ## -remarks
 
-This one of the IOCTLs used for KS pin state transitions. The audio driver sends these requests on certain KS pin state transitions.
+This is one of the IOCTLs used for KS pin state transitions. The audio driver sends these requests on certain KS pin state transitions.
 
 - On first transition above KSSTATE_STOP (normally to KSSTATE_ACQUIRE), send [IOCTL_SBAUD_STREAM_OPEN](/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_stream_open).
 - On transition up to KSSTATE_RUN, send [IOCTL_SBAUD_STREAM_START](/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_stream_start).
@@ -80,5 +82,7 @@ This one of the IOCTLs used for KS pin state transitions. The audio driver sends
 | **Header** | sidebandaudio.h |
 
 ## -see-also
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
 
 [sidebandaudio.h](index.md)
