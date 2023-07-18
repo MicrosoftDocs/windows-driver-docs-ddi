@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_MUTE
 title: IOCTL_SBAUD_SET_MUTE (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_SET_MUTE IOCTL"
+description: "The IOCTL_SBAUD_SET_MUTE IOCTL is used to set the render (speaker) mute."
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_SET_MUTE IOCTL"]
 req.header: sidebandaudio.h

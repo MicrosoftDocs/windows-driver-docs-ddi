@@ -36,7 +36,7 @@ api_name:
 
 ## -description
 
-This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
+The IOCTL_SBAUD_SET_SIOP IOCTL is used to set a SIOP command. This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection.
 
 ## -ioctlparameters
 

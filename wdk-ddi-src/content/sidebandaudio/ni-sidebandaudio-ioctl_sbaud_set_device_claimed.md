@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_DEVICE_CLAIMED
 title: IOCTL_SBAUD_SET_DEVICE_CLAIMED (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL"
+description: "The IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL claims the device for sideband."
 ms.date: 07/17/2023
 keywords: ["IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL"]
 req.header: sidebandaudio.h

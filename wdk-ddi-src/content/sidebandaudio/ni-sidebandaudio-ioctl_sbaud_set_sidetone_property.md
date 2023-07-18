@@ -1,7 +1,7 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_SIDETONE_PROPERTY
 title: IOCTL_SBAUD_SET_SIDETONE_PROPERTY (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_SET_SIDETONE_PROPERTY IOCTL"
+description: "The IOCTL_SBAUD_SET_SIDETONE_PROPERTY IOCTL is used to set the side tone property. "
 ms.date: 07/17/2023
 keywords: ["IOCTL_SBAUD_SET_SIDETONE_PROPERTY IOCTL"]
 req.header: sidebandaudio.h
