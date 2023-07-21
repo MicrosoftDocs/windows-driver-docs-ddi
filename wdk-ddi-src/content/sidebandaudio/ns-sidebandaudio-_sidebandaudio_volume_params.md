@@ -66,8 +66,6 @@ dbValue.
 
 ## -remarks
 
-This IOCTL can only be called from kernel mode.
-
 ## -requirements
 
 | &nbsp; | &nbsp; |

@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_SIOP
 title: IOCTL_SBAUD_SET_SIOP (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_SET_SIOP IOCTL"
-ms.date: 07/17/2023
+description: "The IOCTL_SBAUD_SET_SIOP IOCTL is used to set a SIOP command."
+ms.date: 07/21/2023
 keywords: ["IOCTL_SBAUD_SET_SIOP IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 

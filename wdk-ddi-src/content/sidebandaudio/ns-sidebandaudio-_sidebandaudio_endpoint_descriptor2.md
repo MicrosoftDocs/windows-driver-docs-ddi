@@ -96,7 +96,6 @@ A [DEVPROPERTY structure](/previous-versions/windows/hardware/drivers/dn315030(v
 
 ## -remarks
 
-This IOCTL can only be called from kernel mode.
 
 ## -requirements
 

@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio.SIDEBANDAUDIO_IO_PARAM_HEADER
 title: SIDEBANDAUDIO_IO_PARAM_HEADER (sidebandaudio.h)
 description: The SIDEBANDAUDIO_IO_PARAM_HEADER structure describes the size and type of the IO parameter.
-ms.date: 07/11/2023
+ms.date: 07/21/2023
 keywords: ["SIDEBANDAUDIO_IO_PARAM_HEADER structure"]
 ms.keywords: SIDEBANDAUDIO_IO_PARAM_HEADER, SIDEBANDAUDIO_IO_PARAM_HEADER, *PSIDEBANDAUDIO_IO_PARAM_HEADER,
 req.header: sidebandaudio.h
@@ -63,10 +63,7 @@ Allows for byte alignment.
 
 ## -remarks
 
-This IOCTL can only be called from kernel mode.
-
 ## -requirements
-
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |

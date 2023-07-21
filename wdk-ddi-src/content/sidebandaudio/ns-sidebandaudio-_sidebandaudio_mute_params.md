@@ -68,8 +68,6 @@ Boolean representing mute state:
 
 ## -remarks
 
-This IOCTL can only be called from kernel mode.
-
 ## -requirements
 
 | &nbsp; | &nbsp; |

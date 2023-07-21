@@ -62,8 +62,6 @@ Indicates status of the device.
 
 ## -remarks
 
-This IOCTL can only be called from kernel mode.
-
 ## -requirements
 
 | &nbsp; | &nbsp; |
