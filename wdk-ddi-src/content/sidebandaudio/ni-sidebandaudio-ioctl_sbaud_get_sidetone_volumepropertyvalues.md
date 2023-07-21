@@ -2,7 +2,7 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES
 title: IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES (sidebandaudio.h)
 description: "The IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES IOCTL gets the sidetone volume property values of the sideband specified audio endpoint"
-ms.date: 07/14/2023
+ms.date: 07/21/2023
 keywords: ["IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -68,9 +68,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Othe
 
 ## -remarks
 
-A [KSPROPERTY_DESCRIPTION](../ks/ns-ks-ksproperty_description.md) information that describes the sidetone value properties is set.
-
-(Information pending)
+This IOCTL can only be called from kernel mode.
 
 ## -requirements
 

@@ -63,6 +63,8 @@ Indicates if Feedback is supported on the endpoint.
 
 ## -remarks
 
+This IOCTL can only be called from kernel mode.
+
 ## -requirements
 
 | &nbsp; | &nbsp; |

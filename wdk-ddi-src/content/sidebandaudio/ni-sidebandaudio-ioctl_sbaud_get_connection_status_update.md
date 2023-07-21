@@ -2,7 +2,7 @@
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE
 title: IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE (sidebandaudio.h)
 description: "The IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL control code code gets a connection status update."
-ms.date: 07/13/2023
+ms.date: 07/20/2023
 keywords: ["IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -46,9 +46,11 @@ The **IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE** IOCTL control code gets a conne
 
 ### -input-buffer
 
-(Information pending)
+A [SIDEBANDAUDIO_CONNECTION_PARAMS](ns-sidebandaudio-_sidebandaudio_connection_params.md) structure.
 
 ### -input-buffer-length
+
+The size of the SIDEBANDAUDIO_CONNECTION_PARAMS structure.
 
 ### -output-buffer
 
@@ -63,6 +65,8 @@ The **IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE** IOCTL control code gets a conne
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
+
+This IOCTL can only be called from kernel mode.
 
 ## -requirements
 

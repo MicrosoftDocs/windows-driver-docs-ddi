@@ -62,6 +62,8 @@ Indicates whether the endpoint is connected or not. Could reflect jack states or
 
 ## -remarks
 
+This IOCTL can only be called from kernel mode.
+
 ## -requirements
 
 | &nbsp; | &nbsp; |

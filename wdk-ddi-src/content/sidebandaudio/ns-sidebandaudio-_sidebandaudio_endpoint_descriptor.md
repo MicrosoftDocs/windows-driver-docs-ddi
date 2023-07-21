@@ -87,6 +87,8 @@ If remote mute is supported, the member contains the size of data returned by [I
 
 ## -remarks
 
+This IOCTL can only be called from kernel mode.
+
 ## -requirements
 
 | &nbsp; | &nbsp; |

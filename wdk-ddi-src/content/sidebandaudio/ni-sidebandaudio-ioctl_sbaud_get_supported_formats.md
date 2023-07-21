@@ -72,6 +72,8 @@ If Status is set to STATUS_BUFFER_TOO_SMALL, then the audio driver should read t
 
 ## -remarks
 
+This IOCTL can only be called from kernel mode.
+
 ## -requirements
 
 | &nbsp; | &nbsp; |

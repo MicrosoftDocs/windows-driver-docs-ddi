@@ -58,6 +58,8 @@ Indicates if Mute is supported with sidetone.
 
 ## -remarks
 
+This IOCTL can only be called from kernel mode.
+
 ## -requirements
 
 | &nbsp; | &nbsp; |

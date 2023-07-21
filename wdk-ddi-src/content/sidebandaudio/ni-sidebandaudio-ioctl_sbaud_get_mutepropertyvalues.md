@@ -78,6 +78,8 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 
 ## -remarks
 
+This IOCTL can only be called from kernel mode.
+
 Audio drivers that implement sideband audio should advertise endpoint Mute through a mute node in their KS Filter or through the Audio Engine Node. Both methods can utilize the basic support information provided by this IOCTL.
 
 ## -requirements

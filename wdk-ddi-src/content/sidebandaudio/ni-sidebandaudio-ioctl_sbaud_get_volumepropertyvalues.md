@@ -74,6 +74,8 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Othe
 
 ## -remarks
 
+This IOCTL can only be called from kernel mode.
+
 ## -requirements
 
 | &nbsp; | &nbsp; |
