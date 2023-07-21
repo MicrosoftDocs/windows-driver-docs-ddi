@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_SIOP
 title: IOCTL_SBAUD_SET_SIOP (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_SET_SIOP IOCTL"
-ms.date: 07/17/2023
+description: "The IOCTL_SBAUD_SET_SIOP IOCTL is used to set a SIOP command."
+ms.date: 07/21/2023
 keywords: ["IOCTL_SBAUD_SET_SIOP IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -67,6 +67,8 @@ The length of the SIDEBANDAUDIO_SIOP_REQUEST_PARAM union.
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code.  For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
+
+This IOCTL can only be called from kernel mode.
 
 ### Bluetooth A2DP
 

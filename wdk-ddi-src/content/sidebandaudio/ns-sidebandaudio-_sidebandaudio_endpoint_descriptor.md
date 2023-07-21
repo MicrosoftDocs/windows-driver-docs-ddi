@@ -1,7 +1,7 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
 title: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR (sidebandaudio.h)
-description: Describes the characteristics of the audio Endpoint driver.
+description: "The SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure describes the characteristics of an Sideband audio Endpoint."
 ms.date: 06/26/2023
 keywords: ["SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure"]
 ms.keywords: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, *PSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR,
@@ -42,10 +42,9 @@ api_name:
 
 # _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure
 
-
 ## -description
 
-Describes the characteristics of an Sideband audio Endpoint. Audio driver should query this information to build the KS filter representing this endpoint.
+The **SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR** structure describes the characteristics of an Sideband audio Endpoint. Audio driver should query this information to build the KS filter representing this endpoint.
 
 ## -struct-fields
 

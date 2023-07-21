@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio.SIDEBANDAUDIO_STREAM_OPEN_PARAMS
 title: SIDEBANDAUDIO_STREAM_OPEN_PARAMS (sidebandaudio.h)
 description: The SIDEBANDAUDIO_STREAM_OPEN_PARAMS structure describes the variable I/O parameters for IOCTLs.
-ms.date: 07/11/2023
+ms.date: 07/21/2023
 keywords: ["SIDEBANDAUDIO_STREAM_OPEN_PARAMS structure"]
 ms.keywords: SIDEBANDAUDIO_STREAM_OPEN_PARAMS, SIDEBANDAUDIO_STREAM_OPEN_PARAMS, *PSIDEBANDAUDIO_STREAM_OPEN_PARAMS,
 req.header: sidebandaudio.h

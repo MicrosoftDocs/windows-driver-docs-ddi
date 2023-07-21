@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_CLOSE
 title: IOCTL_SBAUD_STREAM_CLOSE (sidebandaudio.h)
-description: "This control code is used by an audio driver when cooperating with the audio class drivers to operate a sideband connection. On closure of KS pin, send IOCTL_SBAUD_STREAM_CLOSE."
-ms.date: 07/17/2023
+description: "On closure of KS pin, send IOCTL_SBAUD_STREAM_CLOSE."
+ms.date: 07/21/2023
 keywords: ["IOCTL_SBAUD_STREAM_CLOSE IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -67,6 +67,8 @@ Size of ULONG.
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
+
+This IOCTL can only be called from kernel mode.
 
 This is one of the IOCTLs used for KS pin state transitions. The audio driver sends these requests on certain KS pin state transitions.
 

@@ -76,6 +76,8 @@ If Status is set to STATUS_BUFFER_TOO_SMALL, then the audio driver should read t
 
 ## -remarks
 
+This IOCTL can only be called from kernel mode.
+
 The audio driver sends this request to obtain information about an enabled audio sideband endpoint. The information does not change while the interface is enabled, but can change while the interface is disabled. Therefore the audio driver sends this request shortly after discovering an enabled device interface and uses the information to build an appropriate KSFILTER_DESCRIPTOR structure.
 
 The audio driver sends this request once with an output buffer size of zero (0) in order to determine the required output buffer size. In this case, the request will complete with Status STATUS_BUFFER_TOO_SMALL and set the <i>Information</i> member to the required buffer size. The audio driver then allocates the necessary storage space and sends the request again.

@@ -96,6 +96,7 @@ A [DEVPROPERTY structure](/previous-versions/windows/hardware/drivers/dn315030(v
 
 ## -remarks
 
+
 ## -requirements
 
 | &nbsp; | &nbsp; |

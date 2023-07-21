@@ -2,7 +2,7 @@
 UID: NS:sidebandaudio.SIDEBANDAUDIO_SIOP_REQUEST_PARAM
 title: SIDEBANDAUDIO_SIOP_REQUEST_PARAM (sidebandaudio.h)
 description: The SIDEBANDAUDIO_SIOP_REQUEST_PARAM structure describes the variable SIOP request parameter.
-ms.date: 07/11/2023
+ms.date: 07/21/2023
 keywords: ["SIDEBANDAUDIO_SIOP_REQUEST_PARAM structure"]
 ms.keywords: SIDEBANDAUDIO_SIOP_REQUEST_PARAM, SIDEBANDAUDIO_SIOP_REQUEST_PARAM, *PSIDEBANDAUDIO_SIOP_REQUEST_PARAM,
 req.header: sidebandaudio.h

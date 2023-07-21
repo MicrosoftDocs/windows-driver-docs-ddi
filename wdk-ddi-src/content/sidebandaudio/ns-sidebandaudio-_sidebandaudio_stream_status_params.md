@@ -1,7 +1,7 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_STREAM_STATUS_PARAMS
 title: _SIDEBANDAUDIO_STREAM_STATUS_PARAMS (sidebandaudio.h)
-description: Describes the endpoint index and Device Error NTSTATUS.
+description: "The SIDEBANDAUDIO_STREAM_STATUS_PARAMS structure describes the endpoint index and Device Error NTSTATUS."
 ms.date: 09/07/2018
 keywords: ["SIDEBANDAUDIO_STREAM_STATUS_PARAMS structure"]
 ms.keywords: _SIDEBANDAUDIO_STREAM_STATUS_PARAMS, SIDEBANDAUDIO_STREAM_STATUS_PARAMS, *PSIDEBANDAUDIO_STREAM_STATUS_PARAMS,
@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The SIDEBANDAUDIO_STREAM_STATUS_PARAMS structure describes the endpoint index and Device Error NTSTATUS.
+The **SIDEBANDAUDIO_STREAM_STATUS_PARAMS** structure describes the endpoint index and Device Error NTSTATUS.
 
 ## -struct-fields
 
