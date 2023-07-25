@@ -42,21 +42,15 @@ api_name:
 
 # PHDAUDIO_TRANSFER_COMPLETE_CALLBACK callback function
 
-
 ## -description
 
 HDAudio codec transfer complete callback function. <b>PHDAUDIO_TRANSFER_COMPLETE_CALLBACK</b> is used by the <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-ptransfer_codec_verbs">PTRANSFER_CODEC_VERBS</a> callback function.
 
 ## -parameters
 
-### -param 
-
-### -param unnamedParam1
-
 ### -param Context
 
  This is the same  context value that was specified previously in the <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-ptransfer_codec_verbs">PTRANSFER_CODEC_VERBS</a> routine's callbackContext parameter.
-
 
 ### -param pHDAudioCodecTransfer
 
@@ -69,4 +63,3 @@ For more information, see <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdau
 ## -see-also
 
 [hdaudio.h](../hdaudio/index.md)
-

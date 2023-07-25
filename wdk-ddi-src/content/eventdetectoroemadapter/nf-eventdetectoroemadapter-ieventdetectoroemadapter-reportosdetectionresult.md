@@ -42,7 +42,6 @@ product:
 
 # IEventDetectorOemAdapter::ReportOSDetectionResult
 
-
 ## -description
 
 Called to provide second stage result to OEM dll.
@@ -56,10 +55,6 @@ Called to provide second stage result to OEM dll.
 ### -param EventAction
 
 \[*In*\] - Pointer to the [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader.md) from the DDI.
-
-## -returns
-
-This method returns HRESULT. It returns S_OK if the function exit successfully.
 
 ## -remarks
 
