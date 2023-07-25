@@ -4,7 +4,7 @@ title: PSET_DMA_ENGINE_STATE (hdaudio.h)
 description: The SetDmaEngineState routine sets the state of one or more DMA engines to the Running, Stopped, Paused, or Reset state.The function pointer type for a SetDmaEngineState routine is defined as follows.
 old-location: audio\setdmaenginestate.htm
 tech.root: audio
-ms.date: 05/08/2018
+ms.date: 07/25/2023
 keywords: ["PSET_DMA_ENGINE_STATE callback function"]
 ms.keywords: PSET_DMA_ENGINE_STATE, PSET_DMA_ENGINE_STATE callback, SetDmaEngineState, SetDmaEngineState callback function [Audio Devices], aud-prop2_a1455dc1-3ed9-43c3-a5b6-af321c26eefe.xml, audio.setdmaenginestate, hdaudio/SetDmaEngineState
 req.header: hdaudio.h
@@ -42,7 +42,6 @@ api_name:
 
 # PSET_DMA_ENGINE_STATE callback function
 
-
 ## -description
 
 The <i>SetDmaEngineState</i> routine sets the state of one or more DMA engines to the Running, Stopped, Paused, or Reset state.
@@ -53,21 +52,7 @@ The function pointer type for a <i>SetDmaEngineState</i> routine is defined as f
 
 ### -param _context [in]
 
-
 Specifies the context value from the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface">HDAUDIO_BUS_INTERFACE</a><u>, </u><a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a>, or <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_bdl">HDAUDIO_BUS_INTERFACE_BDL</a> structure.
-
-### -param StreamState
-
-### -param NumberOfHandles [in]
-
-
-Specifies the number of handles in the <i>handles</i> array. Set this parameter to a nonzero value.
-
-### -param Handles [in]
-
-
-Pointer to an array of handles to DMA engines. Specify a non-<b>NULL</b> value for this parameter.
-
 
 ### -param streamState [in]
 
@@ -92,6 +77,14 @@ Specifies the new stream state. Set this parameter to one of the following HDAUD
 </li>
 </ul>
 In the current implementation, <b>PauseState</b> and <b>StopState</b> represent the same hardware state.
+
+### -param NumberOfHandles [in]
+
+Specifies the number of handles in the <i>handles</i> array. Set this parameter to a nonzero value.
+
+### -param Handles [in]
+
+Pointer to an array of handles to DMA engines. Specify a non-<b>NULL</b> value for this parameter.
 
 ## -returns
 
@@ -173,23 +166,12 @@ A WDM audio driver calls this routine during a call to its <b>SetState</b> metho
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pallocate_dma_buffer">AllocateDmaBuffer</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface">HDAUDIO_BUS_INTERFACE</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_bdl">HDAUDIO_BUS_INTERFACE_BDL</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavecyclicstream-setstate">IMiniportWaveCyclicStream::SetState</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-psetup_dma_engine_with_bdl">SetupDmaEngineWithBdl</a>
-
