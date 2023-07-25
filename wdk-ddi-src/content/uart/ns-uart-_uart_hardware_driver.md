@@ -69,11 +69,11 @@ A pointer to a [**UART_RX_READY**](nc-uart-uart_rx_ready.md) callback function t
 
 ### -field SetPowerD0
 
-For information about Windows power states, see [Device Power States](../windows-hardware/drivers/kernel/device-power-states)
+For information about Windows power states, see [Device Power States](/windows-hardware/drivers/kernel/device-power-states)
 
 ### -field SetPowerD3
 
-For information about Windows power states, see [Device Power States](../windows-hardware/drivers/kernel/device-power-states)
+For information about Windows power states, see [Device Power States](/windows-hardware/drivers/kernel/device-power-states)
 
 ## -remarks
 

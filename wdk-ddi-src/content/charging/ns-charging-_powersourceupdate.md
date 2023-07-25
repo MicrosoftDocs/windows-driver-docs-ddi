@@ -4,7 +4,7 @@ title: _POWERSOURCEUPDATE (charging.h)
 description: "Microsoft reserves the POWERSOURCEUPDATE structure for internal use only. Don't use this structure in your code."
 old-location: battery\powersourceupdate.htm
 tech.root: battery
-ms.date: 02/15/2018
+ms.date: 07/25/2023
 keywords: ["POWERSOURCEUPDATE structure"]
 ms.keywords: "*PPOWERSOURCEUPDATE, POWERSOURCEUPDATE, POWERSOURCEUPDATE structure [Battery Devices], _POWERSOURCEUPDATE, battery.powersourceupdate, charging/BATTERY_INFORMATION"
 req.header: charging.h
@@ -48,10 +48,20 @@ api_name:
 
 # _POWERSOURCEUPDATE structure
 
-
 ## -description
 
 This structure is for internal use only.
 
 ## -struct-fields
 
+### -field PowerSourceId
+
+### -field MaxChargeCurrent
+
+### -field PowerSourceAvailableStatus
+
+### -field PowerSourceInformation
+
+## -see-also
+
+[**charging.h**](index.md)

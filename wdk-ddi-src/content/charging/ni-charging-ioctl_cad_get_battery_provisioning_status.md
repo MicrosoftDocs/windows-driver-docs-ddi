@@ -4,7 +4,7 @@ title: IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS (charging.h)
 description: "Microsoft reserves the IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS system call for internal use only. Don't use this system call in your code."
 old-location: battery\ioctl_cad_get_battery_provisioning_status.htm
 tech.root: battery
-ms.date: 02/15/2018
+ms.date: 07/25/2023
 keywords: ["IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS IOCTL"]
 ms.keywords: IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS, IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS control, IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS control code [Battery Devices], battery.ioctl_cad_get_battery_provisioning_status, charging/IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
 req.header: charging.h
@@ -41,7 +41,6 @@ api_name:
 ---
 
 # IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS IOCTL
-
 
 ## -description
 

@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY (charging.h)
 description: The IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control code is sent from a configurable charger to a device that handles configurable chargers. It configures charger properties.
 old-location: battery\ioctl_internal_configure_charger_property.htm
 tech.root: battery
-ms.date: 02/15/2018
+ms.date: 07/25/2023
 keywords: ["IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY IOCTL"]
 ms.keywords: IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY, IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control, IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control code [Battery Devices], battery.ioctl_internal_configure_charger_property, charging/IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
 req.header: charging.h
@@ -42,11 +42,9 @@ api_name:
 
 # IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY IOCTL
 
-
 ## -description
 
-The <b>IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</b> 
-   control code is sent from a configurable charger to a device that handles configurable chargers. It configures charger properties.
+The <b>IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</b> control code is sent from a configurable charger to a device that handles configurable chargers. It configures charger properties.
 
 ## -ioctlparameters
 
@@ -81,3 +79,5 @@ None.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/charging/ns-charging-_configurable_charger_property_header">CONFIGURABLE_CHARGER_PROPERTY_HEADER</a>
+
+[**charging.h**](index.md)

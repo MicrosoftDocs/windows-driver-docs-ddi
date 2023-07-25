@@ -4,7 +4,7 @@ title: _CHARGINGSTATUSCOMPLETE (charging.h)
 description: "Microsoft reserves the CHARGINGSTATUSCOMPLETE structure for internal use only. Don't use this structure in your code."
 old-location: battery\chargingstatuscomplete.htm
 tech.root: battery
-ms.date: 02/15/2018
+ms.date: 07/25/2023
 keywords: ["CHARGINGSTATUSCOMPLETE structure"]
 ms.keywords: "*PCHARGINGSTATUSCOMPLETE, CHARGINGSTATUSCOMPLETE, CHARGINGSTATUSCOMPLETE structure [Battery Devices], _CHARGINGSTATUSCOMPLETE, battery.chargingstatuscomplete, charging/BATTERY_INFORMATION"
 req.header: charging.h
@@ -48,10 +48,22 @@ api_name:
 
 # _CHARGINGSTATUSCOMPLETE structure
 
-
 ## -description
 
 This structure is for internal use only.
 
 ## -struct-fields
 
+### -field UsbFnStatus
+
+### -field UsbTypeCStatus
+
+### -field KDStatus
+
+### -field WirelessStatus
+
+### -field ForceDisableChargingRefCount
+
+## -see-also
+
+[**charging.h**](index.md)
