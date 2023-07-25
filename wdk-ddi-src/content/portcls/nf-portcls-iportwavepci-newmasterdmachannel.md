@@ -4,7 +4,7 @@ title: IPortWavePci::NewMasterDmaChannel (portcls.h)
 description: Learn how the NewMasterDmaChannel method creates a new instance of a bus-master DMA channel.
 old-location: audio\iportwavepci_newmasterdmachannel.htm
 tech.root: audio
-ms.date: 05/08/2018
+ms.date: 07/25/2023
 keywords: ["IPortWavePci::NewMasterDmaChannel"]
 ms.keywords: IPortWavePci interface [Audio Devices],NewMasterDmaChannel method, IPortWavePci.NewMasterDmaChannel, IPortWavePci::NewMasterDmaChannel, NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel method [Audio Devices],IPortWavePci interface, audio.iportwavepci_newmasterdmachannel, audmp-routines_01c562e8-f0b7-4232-9595-2312175c097f.xml, portcls/IPortWavePci::NewMasterDmaChannel
 req.header: portcls.h
@@ -42,74 +42,59 @@ api_name:
 
 # IPortWavePci::NewMasterDmaChannel
 
-
 ## -description
 
 The <code>NewMasterDmaChannel</code> method creates a new instance of a bus-master DMA channel.
 
 ## -parameters
 
-### -param OutDmaChannel
+### -param DmaChannel [out]
+
+Output pointer for the DMA channel. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the new DMA-channel object's <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-idmachannel">IDmaChannel</a> interface.
 
 ### -param OuterUnknown [in, optional]
-
 
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the DMA-channel object. This parameter is optional. If aggregation is not required, specify this parameter as <b>NULL</b>.
 
 ### -param PoolType [in]
 
-
 Specifies the type of storage pool from which the object is to be allocated. This is a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
 
 ### -param ResourceList [in, optional]
-
 
 Pointer to the miniport driver's resource list, which is an <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a> object. This parameter is optional and can be specified as <b>NULL</b>. The <code>NewMasterDmaChannel</code> method currently makes no use of this parameter.
 
 ### -param ScatterGather [in]
 
-
 Requests that the DMA channel support scatter/gather DMA. Always set this parameter to <b>TRUE</b>.
 
 ### -param Dma32BitAddresses [in]
-
 
 Specifies the use of 32-bit addresses for DMA operations.
 
 ### -param Dma64BitAddresses [in]
 
-
 Specifies the use of 64-bit addresses for DMA operations.
 
 ### -param IgnoreCount [in]
-
 
 Indicates whether to ignore the DMA controller's transfer counter. Set to <b>TRUE</b> if the DMA controller in this platform does not maintain an accurate transfer counter, and therefore requires a workaround.
 
 ### -param DmaWidth [in]
 
-
 Not used. Set to (DMA_WIDTH)(-1).
 
 ### -param DmaSpeed [in]
-
 
 Not used. Set to (DMA_SPEED)(-1).
 
 ### -param MaximumLength [in]
 
-
 Maximum number of bytes in the buffer that will be associated with this DMA channel.
 
 ### -param DmaPort [in]
 
-
 Not used. Set to 0.
-
-
-### -param DmaChannel [out]
-
-Output pointer for the DMA channel. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the new DMA-channel object's <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-idmachannel">IDmaChannel</a> interface.
 
 ## -returns
 
@@ -127,19 +112,10 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_description">DEVICE_DESCRIPTION</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-idmachannel">IDmaChannel</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavepci">IPortWavePci</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>
-

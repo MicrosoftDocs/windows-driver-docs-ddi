@@ -42,7 +42,6 @@ api_name:
 
 # IPortWaveRTStream::GetPhysicalPagesCount
 
-
 ## -description
 
 The <code>GetPhysicalPagesCount</code> method returns the count of the physical pages in a memory descriptor list (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>).
@@ -50,7 +49,6 @@ The <code>GetPhysicalPagesCount</code> method returns the count of the physical 
 ## -parameters
 
 ### -param MemoryDescriptorList [in]
-
 
 Pointer to the MDL.
 
@@ -66,15 +64,8 @@ The miniport driver uses this call to determine the number of physical pages tha
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavertstream">IPortWaveRTStream</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavertstream-allocatecontiguouspagesformdl">IPortWaveRTStream::AllocateContiguousPagesForMdl</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavertstream-allocatepagesformdl">IPortWaveRTStream::AllocatePagesForMdl</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavertstream-getphysicalpageaddress">IPortWaveRTStream::GetPhysicalPageAddress</a>
-

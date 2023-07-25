@@ -4,7 +4,7 @@ title: IServiceGroup::RequestDelayedService (portcls.h)
 description: The RequestDelayedService method requests service after the specified delay.
 old-location: audio\iservicegroup_requestdelayedservice.htm
 tech.root: audio
-ms.date: 05/08/2018
+ms.date: 07/25/2023
 keywords: ["IServiceGroup::RequestDelayedService"]
 ms.keywords: IServiceGroup interface [Audio Devices],RequestDelayedService method, IServiceGroup.RequestDelayedService, IServiceGroup::RequestDelayedService, RequestDelayedService, RequestDelayedService method [Audio Devices], RequestDelayedService method [Audio Devices],IServiceGroup interface, audio.iservicegroup_requestdelayedservice, audmp-routines_2f9be34c-bff3-46d4-a490-595c8f4311b9.xml, portcls/IServiceGroup::RequestDelayedService
 req.header: portcls.h
@@ -42,16 +42,13 @@ api_name:
 
 # IServiceGroup::RequestDelayedService
 
-
 ## -description
 
 The <code>RequestDelayedService</code> method requests service after the specified delay.
 
 ## -parameters
 
-### -param ullDelay
-
-### -param ulDelay [in]
+### -param ullDelay [in]
 
 Specifies the absolute or relative time at which the timer is to expire. If the value of <i>ulDelay</i> is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
 
@@ -63,7 +60,4 @@ Before calling <code>RequestDelayedService</code> to request a timer delay, init
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicegroup-supportdelayedservice">IServiceGroup::SupportDelayedService</a>
-

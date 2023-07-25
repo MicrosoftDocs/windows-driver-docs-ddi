@@ -4,7 +4,7 @@ title: IKeywordDetectorOemAdapter::ParseDetectionResultData (keyworddetectoroema
 description: The ParseDetectionResultData method is called by the operating system after handling a keyword detection event and after retrieving the result data from KSPROPERTY_SOUNDDETECTOR_MATCHRESULT.
 old-location: audio\ikeyworddetectoroemadapter_parsedetectionresultdata.htm
 tech.root: audio
-ms.date: 05/08/2018
+ms.date: 07/25/2023
 keywords: ["IKeywordDetectorOemAdapter::ParseDetectionResultData"]
 ms.keywords: IKeywordDetectorOemAdapter interface [Audio Devices],ParseDetectionResultData method, IKeywordDetectorOemAdapter.ParseDetectionResultData, IKeywordDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData, ParseDetectionResultData method [Audio Devices], ParseDetectionResultData method [Audio Devices],IKeywordDetectorOemAdapter interface, audio.ikeyworddetectoroemadapter_parsedetectionresultdata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ParseDetectionResultData
 req.header: keyworddetectoroemadapter.h
@@ -42,7 +42,6 @@ api_name:
 
 # IKeywordDetectorOemAdapter::ParseDetectionResultData
 
-
 ## -description
 
 The <b>ParseDetectionResultData</b> method is called by the operating system after handling a keyword detection event and after retrieving the result data from <a href="/windows-hardware/drivers/audio/ksproperty-sounddetector-matchresult">KSPROPERTY_SOUNDDETECTOR_MATCHRESULT</a>. The operating system passes the OEM-specific match result data to this method in order to get the results of a keyword detection.  The OEMDLL processes the results and returns information about the matched keyword, the language associated with the matched keyword, and the matched user (if any).
@@ -51,39 +50,29 @@ The <b>ParseDetectionResultData</b> method is called by the operating system aft
 
 ### -param UserModelData [in]
 
-
 A pointer to <b>IStream</b> bound to model data for the arming pattern.
 
 ### -param Result [in]
-
 
 A pointer to the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-sounddetector_patternheader">SOUNDDETECTOR_PATTERNHEADER</a> from the DDI.
 
 ### -param KeywordId [out]
 
-
 Identifies a keyword function. The driver may return 0 to indicate no match.
 
 ### -param LangId [out]
-
 
 Identifies a language.
 
 ### -param pIsUserMatch [out]
 
-
 Indicates if the user matched.
 
-### -param KeywordStartPerformanceCounterValue
-
-### -param KeywordEndPerformanceCounterValue
-
-### -param KeywordEndPerformanceCounter [out]
+### -param KeywordEndPerformanceCounterValue [out]
 
 Optionally returns the end time of the keyword in terms of the Windows performance counter. The OEMDLL should return 0 if this is not available.
 
-
-### -param KeywordStartPerformanceCounter [out]
+### -param KeywordStartPerformanceCounterValue [out]
 
 Optionally returns the start time of the keyword in terms of the Windows performance counter. The OEMDLL should return 0 if this is not available.
 
@@ -157,12 +146,9 @@ The hardware reset due to an internal fault.
 
 If the driver includes any portion of the spoken keyword in the burst keyword/command stream from its keyword detector pin, then the driver must return a valid value for <i>KeywordEndTime</i>. Otherwise the driver may optionally return 0.
 
-
 If the driver returns <i>KeywordStartTime</i> or <i>KeywordEndTime</i>, the returned values must be consistent with the time stamps returned from the driver’s <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavertinputstream-getreadpacket">IMiniportWaveRTInputStream::GetReadPacket</a> routine.
 
-
 The driver may return valid values for <i>KeywordStartTime</i> and <i>KeywordEndTime</i> regardless of whether the driver includes any portion of the spoken keyword in the burst keyword/command stream.
-
 
 If the caller receives <b>E_HW_RESET</b>, no keyword was detected by the hardware and the state was lost. A re-arm will be required to get back to a monitoring state.
 
@@ -170,23 +156,12 @@ If the caller receives <b>E_HW_RESET</b>, no keyword was detected by the hardwar
 
 <a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
 
-
-
 <a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/keyworddetectoroemadapter/nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter">IKeywordDetectorOemAdapter</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavertinputstream-getreadpacket">IMiniportWaveRTInputStream::GetReadPacket</a>
-
-
 
 <a href="/windows-hardware/drivers/audio/ksproperty-sounddetector-matchresult">KSPROPERTY_SOUNDDETECTOR_MATCHRESULT</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-sounddetector_patternheader">SOUNDDETECTOR_PATTERNHEADER</a>
-

@@ -76,3 +76,4 @@ A pointer to a [**UART_HARDWARE_WRITE_INDEXED_UCHAR**](nc-uart-uart_hardware_wri
 
 ## -see-also
 
+[**uart.h**](index.md)

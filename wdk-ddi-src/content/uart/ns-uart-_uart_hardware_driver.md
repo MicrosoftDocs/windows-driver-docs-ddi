@@ -41,7 +41,6 @@ api_name:
 
 # _UART_HARDWARE_DRIVER structure
 
-
 ## -description
 
 Contains function pointers for interacting with a specific type of UART hardware. Generally, there should be one instance of this structure for each supported hardware device. The function pointers are not expected to change at runtime.
@@ -68,7 +67,16 @@ A pointer to a [**UART_PUT_BYTE**](nc-uart-uart_put_byte.md) callback function t
 
 A pointer to a [**UART_RX_READY**](nc-uart-uart_rx_ready.md) callback function that determines whether there is data pending in the UART hardware.
 
+### -field SetPowerD0
+
+For information about Windows power states, see [Device Power States](../windows-hardware/drivers/kernel/device-power-states)
+
+### -field SetPowerD3
+
+For information about Windows power states, see [Device Power States](../windows-hardware/drivers/kernel/device-power-states)
+
 ## -remarks
 
 ## -see-also
 
+[**uart.h**](index.md)

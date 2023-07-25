@@ -4,7 +4,7 @@ title: IPortWMIRegistration::RegisterWMIProvider (portcls.h)
 description: The RegisterWMIProvider method registers the Event Tracing for Windows (ETW) capability of the miniport driver with PortCls.
 old-location: audio\iportwmiregistration_registerwmiprovider.htm
 tech.root: audio
-ms.date: 05/08/2018
+ms.date: 07/25/2023
 keywords: ["IPortWMIRegistration::RegisterWMIProvider"]
 ms.keywords: IPortWMIRegistration interface [Audio Devices],RegisterWMIProvider method, IPortWMIRegistration.RegisterWMIProvider, IPortWMIRegistration::RegisterWMIProvider, RegisterWMIProvider, RegisterWMIProvider method [Audio Devices], RegisterWMIProvider method [Audio Devices],IPortWMIRegistration interface, audio.iportwmiregistration_registerwmiprovider, audmp-routines_3a73bed7-3a9f-4be2-8d15-33f707714c94.xml, portcls/IPortWMIRegistration::RegisterWMIProvider
 req.header: portcls.h
@@ -42,23 +42,19 @@ api_name:
 
 # IPortWMIRegistration::RegisterWMIProvider
 
-
 ## -description
 
 The <code>RegisterWMIProvider</code> method registers the <a href="/windows-hardware/test/wpt/event-tracing-for-windows">Event Tracing for Windows</a> (ETW) capability of the miniport driver with PortCls.
 
 ## -parameters
 
-## -param
+### -param unnamedParam1 [in]
 
-### -param MiniportWmiContext [in]
+**MiniportWmiContext** - Specifies a pointer to a <a href="/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure that provides registration information for a driver's data blocks and event blocks.
 
-Specifies a pointer to a <a href="/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure that provides registration information for a driver's data blocks and event blocks.
+### -param unnamedParam2 [in]
 
-
-### -param pDeviceObject [in]
-
-Specifies a pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT </a> structure that represents the functional device object of the adapter driver.
+**pDeviceObject** - Specifies a pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT </a> structure that represents the functional device object of the adapter driver.
 
 ## -returns
 

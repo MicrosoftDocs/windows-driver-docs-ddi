@@ -4,7 +4,7 @@ title: _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS (sercx.h)
 description: The SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS enumeration defines constants that indicate whether process is being made toward completing a custom-receive transaction.
 old-location: serports\sercx2_custom_receive_transaction_progress.htm
 tech.root: serports
-ms.date: 04/23/2018
+ms.date: 07/25/2023
 keywords: ["SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS enumeration"]
 ms.keywords: "*PSERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, 2/SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED, 2/SERCX2_CUSTOM_RECEIVE_NO_PROGRESS, 2/SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED, SERCX2_CUSTOM_RECEIVE_NO_PROGRESS, SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS enumeration [Serial Ports], _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, serports.sercx2_custom_receive_transaction_progress"
 req.header: sercx.h
@@ -48,7 +48,6 @@ api_name:
 
 # _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS enumeration
 
-
 ## -description
 
 The <b>SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</b> enumeration defines constants that indicate whether process is being made toward completing a custom-receive transaction.
@@ -57,16 +56,11 @@ The <b>SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</b> enumeration defines consta
 
 ### -field SerCx2CustomReceiveTransactionNoProgress
 
+No progress is being made. This value indicates that no data bytes have been transferred in the current custom-receive transaction since either the previous progress report or the start of the transaction, whichever is more recent.
+
 ### -field SerCx2CustomReceiveTransactionBytesTransferred
 
-### -field SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED
-
 Progress is being made. This value indicates that one or more bytes of data have been transferred in the current custom-receive transaction since either the previous progress report or the start of the transaction, whichever is more recent.
-
-
-### -field SERCX2_CUSTOM_RECEIVE_NO_PROGRESS
-
-No progress is being made. This value indicates that no data bytes have been transferred in the current custom-receive transaction since either the previous progress report or the start of the transaction, whichever is more recent.
 
 ## -remarks
 
@@ -75,4 +69,3 @@ The constants in this enumeration are used by the <a href="/windows-hardware/dri
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactionreportprogress">SerCx2CustomReceiveTransactionReportProgress</a>
-
