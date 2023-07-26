@@ -42,9 +42,12 @@ api_name:
 
 # IServiceSink::RequestService
 
-
 ## -description
 
 The <code>RequestService</code> method is called to forward a service request to an <b>IServiceSink</b> object.
 
-## -parameters
+## -see-also
+
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
+
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicesink">IServiceSink</a>

@@ -4,7 +4,7 @@ title: IPortMidi::RegisterServiceGroup (portcls.h)
 description: The RegisterServiceGroup method registers the service group to be used for the IPortMidi::Notify method.
 old-location: audio\iportmidi_registerservicegroup.htm
 tech.root: audio
-ms.date: 05/08/2018
+ms.date: 07/25/2023
 keywords: ["IPortMidi::RegisterServiceGroup"]
 ms.keywords: IPortMidi interface [Audio Devices],RegisterServiceGroup method, IPortMidi.RegisterServiceGroup, IPortMidi::RegisterServiceGroup, RegisterServiceGroup, RegisterServiceGroup method [Audio Devices], RegisterServiceGroup method [Audio Devices],IPortMidi interface, audio.iportmidi_registerservicegroup, audmp-routines_ff2228bf-489d-4980-a317-e9cb89e4f394.xml, portcls/IPortMidi::RegisterServiceGroup
 req.header: portcls.h
@@ -42,7 +42,6 @@ api_name:
 
 # IPortMidi::RegisterServiceGroup
 
-
 ## -description
 
 The <code>RegisterServiceGroup</code> method registers the service group to be used for the <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportmidi-notify">IPortMidi::Notify</a> method.
@@ -51,12 +50,7 @@ The <code>RegisterServiceGroup</code> method registers the service group to be u
 
 ### -param ServiceGroup [in]
 
-
 Pointer to the miniport driver's <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> object that is being registered.
-
-## -returns
-
-<code>RegisterServiceGroup</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 ## -remarks
 
@@ -66,11 +60,6 @@ The <i>ServiceGroup</i> parameter follows the <a href="/windows-hardware/drivers
 
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportmidi">IPortMidi</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportmidi-notify">IPortMidi::Notify</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
-

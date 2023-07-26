@@ -4,7 +4,7 @@ title: _POWERSOURCESTATUS (charging.h)
 description: This struct is for internal use only.
 old-location: battery\powersourcestatus.htm
 tech.root: battery
-ms.date: 02/15/2018
+ms.date: 07/25/2023
 keywords: ["POWERSOURCESTATUS structure"]
 ms.keywords: "*PPOWERSOURCESTATUS, POWERSOURCESTATUS, POWERSOURCESTATUS structure [Battery Devices], _POWERSOURCESTATUS, battery.powersourcestatus, charging/BATTERY_INFORMATION"
 req.header: charging.h
@@ -48,10 +48,20 @@ api_name:
 
 # _POWERSOURCESTATUS structure
 
-
 ## -description
 
 This struct is for internal use only.
 
 ## -struct-fields
 
+### -field PowerSourceId
+
+### -field MaxChargeCurrent
+
+### -field PowerSourceInformation
+
+### -field PowerSourceStatus
+
+## -see-also
+
+[**charging.h**](index.md)

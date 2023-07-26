@@ -3,7 +3,7 @@ UID: NC:hdaudio.PHDAUDIO_DMA_NOTIFICATION_CALLBACK
 title: PHDAUDIO_DMA_NOTIFICATION_CALLBACK
 description: HDAudio codec DMA Notification Callback function.
 tech.root: audio
-ms.date: 04/08/2019
+ms.date: 07/25/2023
 keywords: ["PHDAUDIO_DMA_NOTIFICATION_CALLBACK callback function"]
 req.header: hdaudio.h
 req.include-header: hdaudio.h
@@ -41,7 +41,6 @@ product:
 
 # PHDAUDIO_DMA_NOTIFICATION_CALLBACK callback function
 
-
 ## -description
 
 HDAudio codec DMA Notification Callback function. 
@@ -50,11 +49,11 @@ HDAudio codec DMA Notification Callback function.
 
 ## -parameters
 
-### -param Context:
+### -param Context
 
 Driver-specific context value used when registering the callback routine.
 
-### -param QPCDMANotificationTimestamp:
+### -param QPCDMANotificationTimestamp
 
 The QPC time when the IOC ISR handled the DMA interrupt.
 
@@ -81,4 +80,3 @@ VOID PHdAudioDmaNotificationCallback
 ## -see-also
 
 [hdaudio.h](../hdaudio/index.md)
-

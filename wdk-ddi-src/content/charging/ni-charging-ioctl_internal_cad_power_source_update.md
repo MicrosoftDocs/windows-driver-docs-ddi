@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE (charging.h)
 description: "Microsoft reserves the IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE system call for internal use only. Don't use this system call in your code."
 old-location: battery\ioctl_internal_cad_power_source_update.htm
 tech.root: battery
-ms.date: 02/15/2018
+ms.date: 07/25/2023
 keywords: ["IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE, IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE control, IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE control code [Battery Devices], battery.ioctl_internal_cad_power_source_update, charging/IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE
 req.header: charging.h
@@ -42,7 +42,6 @@ api_name:
 
 # IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE IOCTL
 
-
 ## -description
 
 This IOCTL is for internal use only.
@@ -72,3 +71,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+
+## -see-also
+
+[**charging.h**](index.md)

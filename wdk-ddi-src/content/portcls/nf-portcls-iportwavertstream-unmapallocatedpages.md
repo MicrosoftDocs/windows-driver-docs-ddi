@@ -51,7 +51,6 @@ The <code>UnmapAllocatedPages</code> method releases a mapping.
 
 ### -param BaseAddress [in]
 
-
 Pointer to the base virtual address to which the physical pages were mapped.
 
 ### -param MemoryDescriptorList [in]

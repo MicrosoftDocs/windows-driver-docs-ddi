@@ -42,7 +42,6 @@ api_name:
 
 # IDebugSymbols3::GetSourceEntriesByLineWide
 
-
 ## -description
 
 The <b>GetSourceEntriesByLineWide</b>  method queries symbol information and returns locations in the target's memory that correspond to lines in a source file.
@@ -51,11 +50,9 @@ The <b>GetSourceEntriesByLineWide</b>  method queries symbol information and ret
 
 ### -param Line [in]
 
-
 Specifies the line in the source file for which to query.  The number for the first line is <b>1</b>.
 
 ### -param File [in]
-
 
 Specifies the source file.  The symbols for each module in the target are queried for this file.
 
@@ -118,17 +115,13 @@ To use the default set of flags, set <i>Flags</i> to DEBUG_GSEL_DEFAULT.  This h
 
 ### -param Entries [out, optional]
 
-
 Receives the locations in the target's memory that correspond to the source lines queried for.  Each entry in this array is of type <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_source_entry">DEBUG_SYMBOL_SOURCE_ENTRY</a> and contains the source line number along with a location in the target's memory.
 
 ### -param EntriesCount [in]
 
-
 Specifies the number of entries in the <i>Entries</i> array.
 
-### -param EntriesAvail
-
-### -param EntriesAvailable [out, optional]
+### -param EntriesAvail [out, optional]
 
 Receives the number of locations that match the query found in the target's memory.
 
