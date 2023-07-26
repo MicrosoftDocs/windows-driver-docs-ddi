@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_MAPGPUVIRTUALADDRESSCB
 title: PFND3DDDI_MAPGPUVIRTUALADDRESSCB (d3dumddi.h)
-description: pfnMapGpuVirtualAddressCb maps graphics processing unit (GPU) virtual address ranges to a specific allocation range or puts it to the Invalid or Zero state.
-old-location: display\pfnmapgpuvirtualaddresscb.htm
+description: Learn more about the pfnMapGpuVirtualAddressCb function.
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 07/25/2023
 keywords: ["PFND3DDDI_MAPGPUVIRTUALADDRESSCB callback function"]
 ms.keywords: PFND3DDDI_MAPGPUVIRTUALADDRESSCB, PFND3DDDI_MAPGPUVIRTUALADDRESSCB callback, d3dumddi/pfnMapGpuVirtualAddressCb, display.pfnmapgpuvirtualaddresscb, pfnMapGpuVirtualAddressCb, pfnMapGpuVirtualAddressCb callback function [Display Devices]
 req.header: d3dumddi.h
@@ -44,13 +43,9 @@ product:
 
 # PFND3DDDI_MAPGPUVIRTUALADDRESSCB callback function
 
-
 ## -description
 
-<b>pfnMapGpuVirtualAddressCb</b> maps graphics processing unit (GPU) virtual address ranges to a specific allocation range or puts it to the <i>Invalid</i> or <i>Zero</i> state. The user mode driver can specify a specific base GPU virtual address to map or let the video memory manager automatically pick one. 
-When specifying a non-NULL <b>BaseAddress</b> value, the entire range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>Size</b> must be in a freed state or belong to a virtual address range, obtained by calling <b>pfnMapGpuVirtualAddressCb</b> or <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a>. Note that when <b>Protection.Zero</b> or <b>Protection.NoAccess</b> is specified, the virtual address range cannot belong to a range, obtained by calling <b>pfnMapGpuVirtualAddressCb</b>.
-The user mode driver  may specify if the mapping should allow for write & execute privileges in addition to read privileges, which always exist by default. 
-In LDA configuration the paging queue defines a physical GPU, whose page tables are modified, and the allocation handle (if not NULL) defines where the page table entries are pointing to. The allocation can be resident in any physical GPU memory segment.
+**pfnMapGpuVirtualAddressCb** maps GPU virtual address (VA) ranges to a specific allocation range or puts it to the [*Invalid* or *Zero*](../d3dukmdt/ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type.md) state.
 
 ## -parameters
 
@@ -60,13 +55,11 @@ A handle to the display device.
 
 ### -param unnamedParam2
 
-*pData* [in, out]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_mapgpuvirtualaddress">D3DDDI_MAPGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
+[in/out] **pDate** is a pointer to a [**D3DDDI_MAPGPUVIRTUALADDRESS**](../d3dukmdt/ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md) structure that describes the operation to perform.
 
 ## -returns
 
-<b>pfnMapGpuVirtualAddressCb</b> returns one of the following values:
+**pfnMapGpuVirtualAddressCb** returns one of the following values:
 
 |Return code|Description|
 |--- |--- |
@@ -75,11 +68,18 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3ddd
 
 This function might also return other values.
 
+## -remarks
+
+The user-mode driver can specify a base GPU virtual address (VA) to map or let the video memory manager automatically pick one. When specifying a non-NULL **BaseAddress** value, the entire range from **BaseAddress** to **BaseAddress**+**Size** must be in a freed state or belong to a VA range that was obtained by calling **pfnMapGpuVirtualAddressCb** or [**pfnReserveGpuVirtualAddressCb**](nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md). When **Protection.Zero** or **Protection.NoAccess** is specified, the VA range can't belong to a range that was obtained by calling **pfnMapGpuVirtualAddressCb**.
+
+The user-mode driver can specify whether the mapping should allow for write and execute privileges in addition to read privileges, which always exist by default.
+
+In linked display adapter (LDA) configuration, the paging queue defines a physical GPU whose page tables are modified, and the allocation handle (if not NULL) defines where the page table entries are pointing to. The allocation can be resident in any physical GPU memory segment.
+
+The GPU VA range, which is allocated by the API, is freed when the allocation (the GPU VA is mapped to) is destroyed. The VA range can also be freed by calling [**PFND3DDDI_FREEGPUVIRTUALADDRESSCB**](nc-d3dumddi-pfnd3dddi_freegpuvirtualaddresscb.md), but this needs to be synchronized with allocation destruction if necessary.
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_mapgpuvirtualaddress">D3DDDI_MAPGPUVIRTUALADDRESS</a>
+[**D3DDDI_MAPGPUVIRTUALADDRESS**](../d3dukmdt/ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a>
-
+[**pfnReserveGpuVirtualAddressCb**](nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md)
