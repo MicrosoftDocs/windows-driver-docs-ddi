@@ -42,7 +42,6 @@ api_name:
 
 # PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION callback function
 
-
 ## -description
 
 The <i>EndThreadStackReconstruction</i> callback function may be called after stack reconstruction to clean up state.
@@ -51,10 +50,6 @@ The <i>EndThreadStackReconstruction</i> callback function may be called after st
  CALLBACK* PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION EndThreadStackReconstruction;
 ```
 
-## -parameters
-
-### -param unnamedParam1
-
 ## -returns
 
 If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
@@ -62,4 +57,3 @@ If this callback function succeeds, it returns **S_OK**. Otherwise, it returns a
 ## -remarks
 
 <i>EndThreadStackReconstruction</i> is called <b>PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION</b> in the Dbgeng.h header file.
-

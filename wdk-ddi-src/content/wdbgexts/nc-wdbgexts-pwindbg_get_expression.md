@@ -4,7 +4,7 @@ title: PWINDBG_GET_EXPRESSION (wdbgexts.h)
 description: The PWINDBG_GET_EXPRESSION (GetExpression) function returns the value of expression. The expression is evaluated using the current expression evaluator, and can contain aliases.
 old-location: debugger\getexpression.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 07/26/2023
 keywords: ["PWINDBG_GET_EXPRESSION callback function"]
 ms.keywords: GetExpression, GetExpression callback function [Windows Debugging], PWINDBG_GET_EXPRESSION, PWINDBG_GET_EXPRESSION callback, WdbgExts_Ref_666ae7de-7842-4ba8-9352-e79aefe24ba7.xml, debugger.getexpression, wdbgexts/GetExpression
 req.header: wdbgexts.h
@@ -42,16 +42,13 @@ api_name:
 
 # PWINDBG_GET_EXPRESSION callback function
 
-
 ## -description
 
 The <b>PWINDBG_GET_EXPRESSION</b> (<b>GetExpression</b>) function returns the value of <i>expression</i>. The expression is evaluated using the current expression evaluator, and can contain aliases.
 
 ## -parameters
 
-### -param lpExpression
-
-### -param expression [in]
+### -param lpExpression [in]
 
 Specifies the expression to evaluate.
 
@@ -64,4 +61,3 @@ The value of the expression passed to <b>GetExpression</b>
 The expression is evaluated by the current expression evaluator (either the MASM or C++ expression evaluator); see <a href="/windows-hardware/drivers/debugger/numerical-expression-syntax">Numerical Expression Syntax</a> for details.  Aliases will be properly understood; see <a href="/windows-hardware/drivers/debugger/using-aliases">Using Aliases</a> for details.   
 
 If KDEXT_64BIT is defined, this function returns a value of type ULONG64. Otherwise, it returns a value of type ULONG.
-

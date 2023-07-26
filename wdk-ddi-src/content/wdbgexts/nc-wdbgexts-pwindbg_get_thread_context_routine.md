@@ -4,7 +4,7 @@ title: PWINDBG_GET_THREAD_CONTEXT_ROUTINE (wdbgexts.h)
 description: The PWINDBG_GET_THREAD_CONTEXT_ROUTINE (GetContext) function implements the functionality that is similar to the Microsoft Win32 GetThreadContext routine. It returns the context of the process being debugged.
 old-location: debugger\getcontext.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 07/26/2023
 keywords: ["PWINDBG_GET_THREAD_CONTEXT_ROUTINE callback function"]
 ms.keywords: GetContext, GetContext callback function [Windows Debugging], PWINDBG_GET_THREAD_CONTEXT_ROUTINE, PWINDBG_GET_THREAD_CONTEXT_ROUTINE callback, WdbgExts_Ref_52639fac-abbf-4abc-a01f-361d14e49fd0.xml, debugger.getcontext, wdbgexts/GetContext
 req.header: wdbgexts.h
@@ -42,7 +42,6 @@ api_name:
 
 # PWINDBG_GET_THREAD_CONTEXT_ROUTINE callback function
 
-
 ## -description
 
 The <b>PWINDBG_GET_THREAD_CONTEXT_ROUTINE</b> (<b>GetContext</b>) function implements the functionality that is similar to the Microsoft Win32 <b>GetThreadContext</b> routine. It returns the context of the process being debugged.
@@ -51,24 +50,16 @@ The <b>PWINDBG_GET_THREAD_CONTEXT_ROUTINE</b> (<b>GetContext</b>) function imple
 
 ### -param Processor
 
-### -param lpContext [out]
+Specifies the the index of the processor.
 
+### -param lpContext [out]
 
 Points to the address of a context structure that receives the appropriate context of the process being debugged. The context structure is highly machine-specific.
 
 ### -param cbSizeOfContext [in]
 
-
 Specifies the size of the context structure.
-
-
-### -param Target [in]
-
-<b>User mode:</b>  Specifies the thread ID of the thread being debugged.
-
-<b>Kernel Mode:</b>  Specifies the processor number of the processor being debugged.
 
 ## -returns
 
 If the routine succeeds, the return value is <b>TRUE</b>; otherwise, it is <b>FALSE</b>.
-

@@ -42,14 +42,11 @@ api_name:
 
 # IAllocatorMXF::GetBuffer
 
-
 ## -description
 
 The <code>GetBuffer</code> method allocates a buffer for long MIDI events.
 
 ## -parameters
-
-### -param ppBuffer
 
 ### -param ppbBuffer [out]
 
@@ -69,11 +66,6 @@ The size of the buffer can determined by calling <a href="/windows-hardware/driv
 
 <a href="/windows-hardware/drivers/ddi/dmusicks/ns-dmusicks-_dmus_kernel_event">DMUS_KERNEL_EVENT</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iallocatormxf">IAllocatorMXF</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iallocatormxf-getbuffersize">IAllocatorMXF::GetBufferSize</a>
-

@@ -40,18 +40,19 @@ ms.custom: RS5
 
 # Location ~r2 function
 
-
 ## -description
 
 Constructs a location from an offset into the virtual address space of the target.
 
 ## -parameters
+
 None
 
-## -returns
-This function is a constructor and does not return value.
-
 ## -remarks
+
+### Returns
+
+This function is a constructor and does not return value.
 
 ## -see-also
 
