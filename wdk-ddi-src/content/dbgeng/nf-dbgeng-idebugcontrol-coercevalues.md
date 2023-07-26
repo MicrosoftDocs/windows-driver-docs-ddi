@@ -42,7 +42,6 @@ api_name:
 
 # IDebugControl::CoerceValues
 
-
 ## -description
 
 The <b>CoerceValues</b> method converts an array of values into an array of values of different types.
@@ -51,25 +50,19 @@ The <b>CoerceValues</b> method converts an array of values into an array of valu
 
 ### -param Count [in]
 
-
 Specifies the number of values to convert.
 
 ### -param In [in]
 
-
 Specifies the array of values to convert.  The number of elements that this array holds is <i>Count</i>.
 
-### -param OutTypes
+### -param OutTypes [in]
+
+Specifies the array of desired types for the converted values. For possible values, see <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a>.  The number of elements that this array holds is <i>Count</i>.
 
 ### -param Out [out]
 
-
 Specifies the array to be populated by the converted values.  The types of these values are specified by <i>OutType</i>.  The number of elements that this array holds is <i>Count</i>.
-
-
-### -param OutType [in]
-
-Specifies the array of desired types for the converted values. For possible values, see <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a>.  The number of elements that this array holds is <i>Count</i>.
 
 ## -returns
 

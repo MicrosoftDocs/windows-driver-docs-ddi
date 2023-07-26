@@ -42,7 +42,6 @@ api_name:
 
 # IDebugControl2::GetStackTrace
 
-
 ## -description
 
 The <b>GetStackTrace</b> method returns the frames at the top of the specified call stack.
@@ -51,11 +50,9 @@ The <b>GetStackTrace</b> method returns the frames at the top of the specified c
 
 ### -param FrameOffset [in]
 
-
 Specifies the location of the stack frame at the top of the stack.  If <i>FrameOffset</i> is set to zero, the current frame pointer is used instead.
 
 ### -param StackOffset [in]
-
 
 Specifies the location of the current stack.  If <i>StackOffset</i> is set to zero, the current stack pointer is used instead.
 
@@ -69,17 +66,13 @@ Specifies the location of the instruction of interest for the function that is r
 
 Receives the stack frames.  The number of elements this array holds is <i>FrameSize</i>.
 
-### -param FramesSize
-
-### -param FramesFilled [out, optional]
-
-
-Receives the number of frames that were placed in the array <i>Frames</i>.  If <i>FramesFilled</i> is <b>NULL</b>, this information is not returned.
-
-
 ### -param FrameSize [in]
 
 Specifies the number of items in the <i>Frames</i> array.
+
+### -param FramesFilled [out, optional]
+
+Receives the number of frames that were placed in the array <i>Frames</i>.  If <i>FramesFilled</i> is <b>NULL</b>, this information is not returned.
 
 ## -returns
 

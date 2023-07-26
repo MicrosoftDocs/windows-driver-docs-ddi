@@ -42,7 +42,6 @@ api_name:
 
 # IDebugControl::OutputStackTrace
 
-
 ## -description
 
 The <b>OutputStackTrace</b> method outputs either the supplied stack frame or the current stack frames.
@@ -51,21 +50,17 @@ The <b>OutputStackTrace</b> method outputs either the supplied stack frame or th
 
 ### -param OutputControl [in]
 
-
 Specifies where to send the output.  For possible values, see <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
 ### -param Frames [in, optional]
-
 
 Specifies the array of stack frames to output.  The number of elements in this array is <i>FramesSize</i>.  If <i>Frames</i> is <b>NULL</b>, the current stack frames are used.
 
 ### -param FramesSize [in]
 
-
 Specifies the number of frames to output.
 
 ### -param Flags [in]
-
 
 Specifies bit flags that determine what information to output for each frame.  <i>Flags</i> can be any combination of values from the following table.
 
@@ -216,23 +211,12 @@ The array of stack frames can be obtained using <a href="/windows-hardware/drive
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol4-getcontextstacktrace">GetContextStackTrace</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getstacktrace">GetStackTrace</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
 
-
-
 <a href="/windows-hardware/drivers/debugger/k--kb--kc--kd--kp--kp--kv--display-stack-backtrace-">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
-

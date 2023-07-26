@@ -51,7 +51,6 @@ The <b>GetTypeName</b>  method returns the name of the type symbol specified by 
 
 ### -param Module [in]
 
-
 Specifies the base address of the module to which the type belongs.  For more information, see <a href="/windows-hardware/drivers/debugger/modules">Modules</a>.
 
 ### -param TypeId [in]
