@@ -3,7 +3,7 @@ description: "Learn more about: Debugger"
 UID: TP:debugger
 title: Debugger overview
 ms.assetid: 025d7cc4-309d-33e6-8813-f58445c3acaf
-ms.date: 06/09/2022
+ms.date: 07/27/2023
 keywords: ["Debugger"]
 ms.keywords: 
 ms.topic: overview
@@ -23,6 +23,10 @@ To develop Debugger apps, you can work with these headers:
  * [wdbgexts.h](../wdbgexts/index.md)
 
 For the programming guide information, see [Debugging Resources](/windows-hardware/drivers/debugger/debugging-resources).
+
+Use the following header to add 2PF debuuger transport support to miniport NDIS drivers, to allow increased performance for high speed network adapters. This feature is available in Windows 11 and later.
+
+ * [kdnetpf.h](../kdnetpf/index.md)
 
 ## Callback functions
 
