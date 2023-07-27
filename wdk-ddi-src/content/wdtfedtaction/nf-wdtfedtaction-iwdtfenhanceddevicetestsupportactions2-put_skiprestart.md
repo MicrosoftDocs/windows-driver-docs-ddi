@@ -43,7 +43,6 @@ api_name:
 
 # IWDTFEnhancedDeviceTestSupportActions2::put_SkipRestart method
 
-
 ## -description
 
 Sets a value that indicates whether the target device should be restarted by default.
@@ -51,6 +50,12 @@ Sets a value that indicates whether the target device should be restarted by def
 This property is write-only.
 
 ## -parameters
+
+### -param bSkipRestart
+
+A BOOL value indicating if the device should be restarted.
+
+## -returns
 
 ## -syntax
 

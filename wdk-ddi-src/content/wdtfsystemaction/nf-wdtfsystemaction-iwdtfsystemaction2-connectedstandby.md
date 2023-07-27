@@ -42,7 +42,6 @@ api_name:
 
 # IWDTFSystemAction2::ConnectedStandby
 
-
 ## -description
 
 Puts the system into Connected Standby state and 
@@ -52,7 +51,6 @@ Puts the system into Connected Standby state and
 ## -parameters
 
 ### -param TimeInMs [in]
-
 
 Specifies how much time (in milliseconds) has to pass 
     before exiting Connected Standby.

@@ -42,24 +42,19 @@ api_name:
 
 # IWDTFSystemAction2::IsRestartedWithContext
 
-
 ## -description
 
 Gets a value that indicates whether the test script was restarted for a specific context.
 
 ## -parameters
 
-### -param psContextName
-
-### -param pbIsRestarted [out, retval]
-
-
-True if the script was restarted with the context; otherwise, false.
-
-
 ### -param psContext [in]
 
 The context name.
+
+### -param pbIsRestarted [out, retval]
+
+True if the script was restarted with the context; otherwise, false.
 
 ## -returns
 

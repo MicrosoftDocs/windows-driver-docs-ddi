@@ -42,14 +42,22 @@ api_name:
 
 # IWDTFSystemAction2::get_SleepWakeTimeInSeconds
 
-
 ## -description
 
 Gets or sets the time in seconds when the system will wake from the sleep state.
 
 This property is read/write.
 
+## -parameters
+
+### -param  pnWakeTimeInSeconds
+
+The time in seconds when the system will wake from the sleep state.
+
+## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>
-
