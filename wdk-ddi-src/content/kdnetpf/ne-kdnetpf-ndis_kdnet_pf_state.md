@@ -1,10 +1,10 @@
 ---
 UID: NE:kdnetpf._NDIS_KDNET_PF_STATE
-tech.root: 
+tech.root: debugger
 title: NDIS_KDNET_PF_STATE
-ms.date: 
+ms.date: 07/27/2023
 targetos: Windows
-description: 
+description: "Learn more about the KDNETPF transport support API - _NDIS_KDNET_PF_STATE" 
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -55,3 +55,4 @@ helpviewer_keywords:
 
 ## -see-also
 
+[kdnetpf.h](kdnetpf.md)

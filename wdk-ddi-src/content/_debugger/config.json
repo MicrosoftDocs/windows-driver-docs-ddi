@@ -5,6 +5,7 @@
     "dbgmodel.h",
     "engextcpp.hpp",
     "extsfns.h",
+    "kdnetpf.h",
     "wdbgexts.h"
   ],
   "displayName": "Debugger"
