@@ -106,7 +106,7 @@ Currently, the bus driver can supply up to 64 unique tags per codec.
 The callback parameter is a function pointer to a callback routine in the function driver. The function pointer type for the callback routine is defined as:
 
 
-```
+```cpp
 typedef VOID
   (*PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK)
     (HDAUDIO_CODEC_RESPONSE, PVOID);

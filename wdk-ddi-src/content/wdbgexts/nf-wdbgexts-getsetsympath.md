@@ -4,7 +4,7 @@ title: GetSetSympath function (wdbgexts.h)
 description: The GetSetSympath function can be used to either get or set the symbol search path.
 old-location: debugger\getsetsympath.htm
 tech.root: debugger
-ms.date: 07/26/2023
+ms.date: 07/27/2023
 keywords: ["GetSetSympath function"]
 ms.keywords: GetSetSympath, GetSetSympath function [Windows Debugging], WdbgExts_Ref_66364d7b-fd3c-424a-a04d-b7bf24178039.xml, debugger.getsetsympath, wdbgexts/GetSetSympath
 req.header: wdbgexts.h
@@ -52,7 +52,7 @@ The <b>GetSetSympath</b> function can be used to either get or set the symbol se
 
 Specifies the new search path. If this argument is <b>NULL</b> or the string is empty, the search path is not set and the current setting is returned in <i>Result</i>.
 
-### -param OPTIONAL
+### -param Result [out]
 
 Optional. If <i>Arg</i> is <b>NULL</b>, <b>GetSetSympath</b> stores the current search path in the buffer pointed to by <i>Result</i>.
 

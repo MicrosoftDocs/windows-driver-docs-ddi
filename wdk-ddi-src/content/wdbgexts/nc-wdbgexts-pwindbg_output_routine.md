@@ -4,7 +4,7 @@ title: PWINDBG_OUTPUT_ROUTINE (wdbgexts.h)
 description: The callback function implements the functionality to print a formatted string to the Debugger Command window.
 old-location: debugger\dprintf.htm
 tech.root: debugger
-ms.date: 07/26/2023
+ms.date: 07/27/2023
 keywords: ["PWINDBG_OUTPUT_ROUTINE callback function"]
 ms.keywords: PWINDBG_OUTPUT_ROUTINE, PWINDBG_OUTPUT_ROUTINE callback, WdbgExts_Ref_89454805-6140-4023-ba28-2d7130c73cf5.xml, debugger.dprintf, dprintf, dprintf callback function [Windows Debugging], wdbgexts/dprintf
 req.header: wdbgexts.h

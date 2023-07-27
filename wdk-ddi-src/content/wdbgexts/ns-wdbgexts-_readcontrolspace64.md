@@ -55,12 +55,27 @@ The <b>ReadControlSpace64</b> function reads the processor-specific control spac
 
 ## -struct-fields
 
+### -field Processor
+
+Specifies the number of the processor whose control space is to be read.
+
+### -field Address
+
+Specifies the address of the control space.
+
+### -field BufLen
+
+The length of the buffer.
+
+### -field Buf[1]
+
+Specifies the object into which the control space data is read.
+
 ## -remarks
 
 If you are writing 32-bit code, you should use <a href="/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-readcontrolspace">ReadControlSpace</a> instead. See <a href="/windows-hardware/drivers/debugger/32-bit-pointers-and-64-bit-pointers">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
 If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are writing a DbgEng extension that calls this function, include <b>wdbgexts.h</b> before <b>dbgeng.h</b> (see <a href="/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for details).
-
 
 The <b>ReadTypedControlSpace32</b> macro is a thin wrapper around the <b>ReadControlSpace64</b> function.  It is provided as a convenience for reading processor-specific control space into a structure.
 
@@ -73,54 +88,8 @@ void ReadTypedControlSpace32(
 );
 ```
 
-<i>_Proc</i>
-
-Specifies the number of the processor whose control space is to be read.
-
-<i>_Addr</i>
-
-Specifies the address of the control space.
-
-<i>_Buf</i>
-
-Specifies the object into which the control space data is read.
-
-<b>Return value</b>
-
 This macro does not return a value.
-
-
 
 The parameters provided to this macro are the same as those provided to the <b>ReadControlSpace64</b> function except that instead of providing a pointer to a structure and its size, the structure can be provided directly.
 
 The <b>ReadTypedControlSpace64</b> macro is a thin wrapper around the <b>ReadControlSpace64</b> function.  It is provided as a convenience for reading processor-specific control space into a structure.
-
-
-```cpp
-void ReadTypedControlSpace64(
-    _Proc,
-    _Addr,
-    _Buf
-);
-```
-
-<i>_Proc</i>
-
-Specifies the number of the processor whose control space is to be read.
-
-<i>_Addr</i>
-
-Specifies the address of the control space.
-
-<i>_Buf</i>
-
-Specifies the object into which the control space data is read.
-
-<b>Return value</b>
-
-This macro does not return a value.
-
-
-
-The parameters provided to this macro are the same as those provided to the <b>ReadControlSpace64</b> function except that instead of providing a pointer to a structure and its size, the structure can be provided directly.
-

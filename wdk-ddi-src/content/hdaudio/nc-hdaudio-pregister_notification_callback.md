@@ -78,7 +78,7 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 
 The function pointer type for a RegisterNotificationCallback routine is defined as follows.
 
-```
+```cpp
 //Declaration
 
 PREGISTER_NOTIFICATION_CALLBACK PRegisterNotificationCallback; 
