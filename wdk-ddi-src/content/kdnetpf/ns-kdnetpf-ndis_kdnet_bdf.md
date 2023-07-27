@@ -1,7 +1,7 @@
 ---
 UID: NS:kdnetpf._NDIS_KDNET_BDF
 tech.root: debugger
-title: NDIS_KDNET_BDF
+title: NDIS_KDNET_BDF (kdnetpf.h)
 ms.date: 07/27/2023
 targetos: Windows
 description: "Learn more about the KDNETPF transport support API - NDIS_KDNET_BDF" 

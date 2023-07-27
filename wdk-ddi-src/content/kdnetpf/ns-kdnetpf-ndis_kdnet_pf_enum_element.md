@@ -1,7 +1,7 @@
 ---
 UID: NS:kdnetpf._NDIS_KDNET_PF_ENUM_ELEMENT
 tech.root: debugger
-title: NDIS_KDNET_PF_ENUM_ELEMENT
+title: NDIS_KDNET_PF_ENUM_ELEMENT (kdnetpf.h)
 ms.date: 07/27/2023
 targetos: Windows
 description: "Learn more about the KDNETPF transport support API - _NDIS_KDNET_PF_ENUM_ELEMENT" 

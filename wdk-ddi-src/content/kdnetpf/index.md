@@ -4,7 +4,6 @@ description: "Learn more about the KDNETPF transport support APIs in the kdnetpf
 title: kdnetpf.h header
 ms.topic: overview
 tech.root: debugger
-title: kdnetpf.h
 ms.date: 07/27/2023
 f1_keywords:
  - kdnetpf

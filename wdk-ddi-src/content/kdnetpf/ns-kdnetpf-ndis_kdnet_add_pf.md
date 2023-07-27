@@ -1,7 +1,7 @@
 ---
 UID: NS:kdnetpf._NDIS_KDNET_ADD_PF
 tech.root: debugger
-title: NDIS_KDNET_ADD_PF
+title: NDIS_KDNET_ADD_PF (kdnetpf.h)
 ms.date: 07/27/2023
 targetos: Windows
 description: "Learn more about the KDNETPF transport support API - _NDIS_KDNET_ADD_PF" 
