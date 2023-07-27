@@ -4,7 +4,7 @@ title: ReloadSymbols function (wdbgexts.h)
 description: The ReloadSymbols function deletes symbol information from the debugger so that it can be reloaded as needed. This function behaves the same way as the debugger command .reload.
 old-location: debugger\reloadsymbols.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 07/27/2023
 keywords: ["ReloadSymbols function"]
 ms.keywords: ReloadSymbols, ReloadSymbols function [Windows Debugging], WdbgExts_Ref_c48c63b8-6c59-42f7-8a44-78462cbf653f.xml, debugger.reloadsymbols, wdbgexts/ReloadSymbols
 req.header: wdbgexts.h
@@ -42,16 +42,15 @@ api_name:
 
 # ReloadSymbols function
 
-
 ## -description
 
 The <b>ReloadSymbols</b> function deletes symbol information from the debugger so that it can be reloaded as needed.  This function behaves the same way as the debugger command <a href="/windows-hardware/drivers/debugger/-reload--reload-module-">.reload</a>.
 
 ## -parameters
 
-### -param OPTIONAL
+### -param Arg
 
-<p>Specifies the arguments for the debugger command <b>.reload</b>.  For example, setting <i>Arg</i> to <b>/u ntdll.dll</b> has the same effect as the command <b>.reload /u ntdll.dll</b>.</p>
+Optional - <p>Specifies the arguments for the debugger command <b>.reload</b>.  For example, setting <i>Arg</i> to <b>/u ntdll.dll</b> has the same effect as the command <b>.reload /u ntdll.dll</b>.</p>
 
 ## -see-also
 

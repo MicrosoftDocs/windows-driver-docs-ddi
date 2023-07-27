@@ -48,7 +48,6 @@ api_name:
 
 # _SYMBOL_INFO_EX structure
 
-
 ## -description
 
 The SYMBOL_INFO_EX structure describes the extended line symbol information.
@@ -75,13 +74,6 @@ First line number that does not correspond to a compiler added glue line.
 
 Line displacement: Offset between given address and the first instruction of the line.
 
-### -field Reserved
-
- 
-
-
-
-
 ### -field Reserved[4]
 
 Reserved for future use. This parameter can be set to any value.
@@ -89,4 +81,3 @@ Reserved for future use. This parameter can be set to any value.
 ## -remarks
 
 Glue lines are code lines added to the binary by the compiler/linker. Glue lines do not have corresponding lines in the original source code. They are added to bind together functionality inside of the PE generated binary, for example calling NET framework functions inside of a native binary.
-

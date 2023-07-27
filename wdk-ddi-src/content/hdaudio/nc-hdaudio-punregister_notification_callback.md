@@ -74,7 +74,7 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 
 The function pointer type for an UnregisterNotificationCallback routine is defined as follows.
 
-```
+```cpp
 //Declaration
 
 PUNREGISTER_NOTIFICATION_CALLBACK PUnregisterNotificationCallback;

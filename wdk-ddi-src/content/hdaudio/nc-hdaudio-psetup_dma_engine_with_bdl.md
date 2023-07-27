@@ -72,6 +72,8 @@ Function pointer to the caller's ISR. If the caller sets the interrupt-on-comple
 
 ### -param Context [in]
 
+The context.
+
 ### -param StreamId [out]
 
 Retrieves the stream identifier. This parameter points to a caller-allocated UCHAR variable into which the routine writes the stream identifier that it assigns to the stream.
@@ -80,13 +82,6 @@ Retrieves the stream identifier. This parameter points to a caller-allocated UCH
 
 Retrieves the DMA engine's FIFO size in bytes. This parameter points to a caller-allocated UINT variable into which the routine writes the FIFO size.
 
-### -param BufferSize [in]
-
-Specifies the size in bytes of the DMA buffer that the buffer descriptor list (BDL) array describes.
-
-### -param CallbackContext [in]
-
-Specifies a context value that the HD Audio bus driver passes to the ISR.
 
 ## -returns
 
@@ -173,7 +168,6 @@ A WDM audio driver calls this routine at pin-creation time during execution of i
 Following the call to <i>SetupDmaEngineWithBdl</i>, the DMA engine is in the Reset state. To start the DMA engine, call <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pset_dma_engine_state">SetDmaEngineState</a>.
 
 Parameter <i>isr</i> specifies the ISR that the HD Audio bus driver is to call each time an IOC interrupt occurs on the stream. This parameter is a function pointer of type HDAUDIO_BDL_ISR, which is defined as:
-
 
 ```cpp
 typedef void

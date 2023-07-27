@@ -113,7 +113,7 @@ If the caller specifies a non-<b>NULL</b> value for the <i>callback</i> paramete
 The function pointer type for the callback parameter is defined as:
 
 
-```
+```cpp
 typedef VOID
   (*PHDAUDIO_TRANSFER_COMPLETE_CALLBACK)
     (HDAUDIO_CODEC_TRANSFER *, PVOID);

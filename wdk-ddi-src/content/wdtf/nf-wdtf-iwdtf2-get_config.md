@@ -4,7 +4,7 @@ title: IWDTF2::get_Config (wdtf.h)
 description: Gets the WDTF configuration object.
 old-location: dtf\iwdtf2_config.htm
 tech.root: dtf
-ms.date: 04/04/2018
+ms.date: 07/27/2023
 keywords: ["IWDTF2::get_Config"]
 ms.keywords: Config property [Windows Device Testing Framework], Config property [Windows Device Testing Framework],IWDTF2 interface, IWDTF2 interface [Windows Device Testing Framework],Config property, IWDTF2.Config, IWDTF2.get_Config, IWDTF2::Config, IWDTF2::get_Config, Microsoft.WDTF.IWDTF2.Config, Microsoft::WDTF::IWDTF2::Config, dtf.iwdtf2_config, get_Config, wdtf/IWDTF2::Config, wdtf/IWDTF2::get_Config
 req.header: wdtf.h
@@ -42,18 +42,22 @@ api_name:
 
 # IWDTF2::get_Config
 
-
 ## -description
 
 Gets the WDTF configuration object.
 
 This property is read-only.
 
+## -parameters
+
+### -param ppConfig
+
+## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtf2">IWDTF2</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfconfig2">IWDTFConfig2</a>
-

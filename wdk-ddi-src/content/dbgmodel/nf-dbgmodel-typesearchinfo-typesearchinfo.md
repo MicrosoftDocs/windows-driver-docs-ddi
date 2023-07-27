@@ -40,18 +40,16 @@ api_name:
 
 # TypeSearchInfo function (dbgmodel.h)
 
-
 ## -description
 
 The search record passed to EnumerateChildrenEx specifically for SymbolType searches.
 
-## -returns
+## -remarks
+
+### Returns
 
 This function is a constructor and does not return a value.
-
-## -remarks
 
 ## -see-also
 
 [dbgmodel.h header](./index.md)
-

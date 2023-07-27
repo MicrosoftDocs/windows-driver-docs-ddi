@@ -51,13 +51,12 @@ Copy constructs a location.
 
 The location from which to copy construct a new location.
 
-## -returns
+## -remarks
+
+### Returns
 
 This function is a constructor and does not return value.
-
-## -remarks
 
 ## -see-also
 
 [dbgmodel.h header](./index.md)
-

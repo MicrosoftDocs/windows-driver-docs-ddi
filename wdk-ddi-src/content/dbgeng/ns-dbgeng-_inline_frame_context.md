@@ -45,7 +45,6 @@ api_name:
 
 # _INLINE_FRAME_CONTEXT structure
 
-
 ## -description
 
 Describes inline frame context.
@@ -58,20 +57,13 @@ A context value.
 
 ### -field FrameId
 
+The Frame Id.
+
 ### -field FrameType
 
+The Frame Type.
+
 ### -field FrameSignature
-
- 
-
-
-
-
-### -field {
-        BYTE FrameId;
-        BYTE FrameType;
-        WORD FrameSignature;
-    }
 
 A structure that contains frame context information.
 

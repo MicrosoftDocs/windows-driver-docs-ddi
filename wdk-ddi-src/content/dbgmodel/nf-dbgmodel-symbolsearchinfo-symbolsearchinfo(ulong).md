@@ -40,7 +40,6 @@ ms.custom: RS5
 
 # SymbolSearchInfo derivedSize ULONG function
 
-
 ## -description
 
 The search record passed to EnumerateChildrenEx in order to restrict symbol searches. This function takes a ULONG that is the derived size.
@@ -52,10 +51,11 @@ A given kind of symbol (as indicated by the SymbolKind enumeration) searched may
 ### -param derivedSize
 The derived size.
 
-## -returns
-This function is a constructor and does not return a value.
-
 ## -remarks
+
+### Returns
+
+This function is a constructor and does not return a value.
 
 ## -see-also
 

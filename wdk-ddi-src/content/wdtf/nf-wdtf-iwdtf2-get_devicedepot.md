@@ -42,7 +42,6 @@ api_name:
 
 # IWDTF2::get_DeviceDepot
 
-
 ## -description
 
 Gets the DeviceDepot object.

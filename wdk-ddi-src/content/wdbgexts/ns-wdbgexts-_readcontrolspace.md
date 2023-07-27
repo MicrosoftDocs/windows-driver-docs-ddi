@@ -4,7 +4,7 @@ title: _READCONTROLSPACE (wdbgexts.h)
 description: Learn how the ReadControlSpace function reads the processor-specific control space into the array pointed to by buf.
 old-location: debugger\readcontrolspace.htm
 tech.root: debugger
-ms.date: 02/27/2018
+ms.date: 07/27/2023
 keywords: ["READCONTROLSPACE structure"]
 ms.keywords: "*PREADCONTROLSPACE, READCONTROLSPACE, ReadControlSpace, ReadControlSpace function [Windows Debugging], WdbgExts_Ref_8337344a-4a97-4f74-9be4-8fdd771d8bbf.xml, _READCONTROLSPACE, debugger.readcontrolspace, wdbgexts/ReadControlSpace"
 req.header: wdbgexts.h
@@ -48,12 +48,27 @@ api_name:
 
 # _READCONTROLSPACE structure
 
-
 ## -description
 
 The <b>ReadControlSpace</b> function reads the processor-specific control space into the array pointed to by <i>buf</i>.
 
 ## -struct-fields
+
+### -field Processor
+
+Specifies the number of the processor whose control space is to be read.
+
+### -field Address
+
+Specifies the address of the control space.
+
+### -field BufLen
+
+The length of the buffer.
+
+### -field Buf[1]
+
+Specifies the object into which the control space data is read.
 
 ## -remarks
 

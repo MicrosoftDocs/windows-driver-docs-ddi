@@ -40,16 +40,11 @@ api_name:
 
 # Location function (dbgmodel.h)
 
-
 ## -description
 
 Copy constructs a location.
 
 Default constructs an equivalent nullptr.
-
-## -returns
-
-This function is a constructor and does not return value.
 
 ## -remarks
 
@@ -58,7 +53,10 @@ Note that a location only has meaning in conjunction with a host context.  It is
 a context.  When performing an operation on the location (reading bytes, writing bytes, etc...), 
 a valid host context must be supplied.
 
+### Returns
+
+This function is a constructor and does not return value.
+
 ## -see-also
 
 [dbgmodel.h header](./index.md)
-

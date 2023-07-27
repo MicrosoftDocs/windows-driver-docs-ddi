@@ -74,7 +74,7 @@ Specifies a 6-bit tag value for an unsolicited response.
 
 Specifies a response value.
 
-#### SDataIn
+#### -field SDataIn
 
 Specifies the 4-bit codec address (SDI line) of the codec that generates the response.
 

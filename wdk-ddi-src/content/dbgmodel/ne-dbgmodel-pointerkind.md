@@ -2,7 +2,7 @@
 UID: NE:dbgmodel.PointerKind
 title: PointerKind (dbgmodel.h)
 description: "Learn more about: PointerKind enumeration"
-ms.date: 07/16/2018
+ms.date: 07/26/2023
 keywords: ["PointerKind enumeration"]
 ms.keywords: PointerKind, ,
 req.header: dbgmodel.h
@@ -33,7 +33,6 @@ api_name:
 
 # PointerKind enumeration
 
-
 ## -description
 
 Defines the kind of a pointer type.
@@ -44,17 +43,21 @@ Defines the kind of a pointer type.
 
 Indicates a standard C/C++ pointer -- a *
 
-### -field PointerReference 
+### -field PointerReference
 
 Indicates a C/C++ reference (whether const or not) -- a &
 
-### -field PointerRValueReference 
+### -field PointerRValueReference
 
 Indicates a C/C++ rvalue reference (whether const or not) -- a &&
 
-### -field PointerCXHat 
+### -field PointerCXHat
 
 Indicates a C++/CX hat managed pointer (whether const or not) -- a ^
+
+### -field PointerManagedReference
+
+Indicates a managed pointer reference
 
 ## -remarks
 
