@@ -1,8 +1,7 @@
 ---
 UID: NS:dispmprt._DXGKRNL_INTERFACE
 title: DXGKRNL_INTERFACE (dispmprt.h)
-description: The DXGKRNL_INTERFACE structure contains a handle to a display adapter and a set of function pointers.
-old-location: display\dxgkrnl_interface2.htm
+description: Learn more about the DXGKRNL_INTERFACE structure.
 tech.root: display
 ms.date: 05/31/2022
 keywords: ["DXGKRNL_INTERFACE structure"]
@@ -53,7 +52,7 @@ dev_langs:
 
 ## -description
 
-The **DXGKRNL_INTERFACE** structure contains a handle to a display adapter and a set of pointers to functions implemented by the display miniport driver.
+The **DXGKRNL_INTERFACE** structure contains a handle to a display adapter and a set of pointers to functions implemented by the display port driver, which is a part of *Dxgkrnl*.
 
 ## -struct-fields
 
