@@ -183,6 +183,10 @@ Supported starting with Windows 10.
 
 [out] When set, indicates that this segment counts against the non-local memory segment budget group.
 
+### -field PopulatedByReservedDDRByFirmware
+
+[out] When set, indicates that this segment is populated from reserved system DDR memory by firmware. Available starting with Windows Server 2022 (WDDM 2.9).
+
 ### -field Reserved
 
 [out] This member is reserved and should be set to zero.
