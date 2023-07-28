@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_BUDGETCHANGENOTIFICATION
-title: _D3DKMT_BUDGETCHANGENOTIFICATION (d3dkmthk.h)
-description: Arguments used to create a budget change notification.
-ms.date: 10/19/2018
+title: D3DKMT_BUDGETCHANGENOTIFICATION (d3dkmthk.h)
+description: Learn more about the D3DKMT_BUDGETCHANGENOTIFICATION structure.
+ms.date: 07/27/2023
 keywords: ["D3DKMT_BUDGETCHANGENOTIFICATION structure"]
 ms.keywords: _D3DKMT_BUDGETCHANGENOTIFICATION, D3DKMT_BUDGETCHANGENOTIFICATION,
 req.header: d3dkmthk.h
@@ -39,21 +39,18 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_BUDGETCHANGENOTIFICATION structure
-
+# D3DKMT_BUDGETCHANGENOTIFICATION structure
 
 ## -description
 
-Arguments used to create a budget change notification.
+The **D3DKMT_BUDGETCHANGENOTIFICATION** structure contains arguments used to create a budget change notification.
 
 ## -struct-fields
 
-### -field Context [in]
+### -field Context
 
-The context at Register.
+[in] The context at Register.
 
-### -field Budget [in]
+### -field Budget
 
- 
-The new budget.
-
+[in] The new budget.
