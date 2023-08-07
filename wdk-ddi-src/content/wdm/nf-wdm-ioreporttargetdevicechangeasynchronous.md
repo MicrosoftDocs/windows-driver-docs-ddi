@@ -53,7 +53,7 @@ Pointer to the PDO of the device being reported.
 
 Pointer to a caller-supplied [**TARGET_DEVICE_CUSTOM_NOTIFICATION**](./ns-wdm-_target_device_custom_notification.md) structure describing the custom event. The PnP manager sends this structure to drivers that registered for notification of the event.
 
-This caller-supplied structure can be freed once the routine returns, as the PnP manager will make a shallow copy and use the copy to notify drivers. The copy is automatically freed by the PnP manager once it is no longer needed. See Remarks section about allocation pool requirements.
+This caller-supplied structure can be freed once the routine returns, as the PnP manager makes a shallow copy and uses the copy to notify drivers. The copy is automatically freed by the PnP manager once it is no longer needed. See Remarks section about allocation pool requirements.
 
 *NotificationStructure*.**FileObject** must be **NULL**. *NotificationStructure*.**Event** must contain the custom GUID for the event. The other fields of the *NotificationStructure* must be filled in as appropriate for the custom event.
 
