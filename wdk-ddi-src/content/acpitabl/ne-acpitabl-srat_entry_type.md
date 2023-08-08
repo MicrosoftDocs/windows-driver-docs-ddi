@@ -2,7 +2,7 @@
 UID: NE:acpitabl.SRAT_ENTRY_TYPE
 tech.root: acpi
 title: SRAT_ENTRY_TYPE
-ms.date: 08/07/2023
+ms.date: 08/08/2023
 targetos: Windows
 description: This topic describes the SRAT_ENTRY_TYPE enumeration.
 prerelease: false
@@ -56,18 +56,6 @@ Defines the **SratProcessorLocalX2APIC** constant.
 ### -field SratGicc
 
 Defines the **SratGicc** constant.
-
-### -field SratGicIts
-
-Defines the **SratGicIts** constant.
-
-### -field SratGenericInitiator
-
-Defines the **SratGenericInitiator** constant.
-
-### -field SratGenericPort
-
-Defines the **SratGenericPort** constant.
 
 ## -remarks
 
