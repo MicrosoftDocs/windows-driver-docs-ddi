@@ -47,6 +47,13 @@ api_name:
 
 Disable object logging for all actions in the collection.
 
+## -parameters
+
+### -param 
+
+### -returns
+
+
 ## -returns
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.

@@ -49,6 +49,13 @@ Gets a value that identifies the depot that the target comes from.
 
 This property is read-only.
 
+## -parameters
+
+### -param 
+
+### -returns
+
+
 ## -remarks
 
 The value can be one of the following:

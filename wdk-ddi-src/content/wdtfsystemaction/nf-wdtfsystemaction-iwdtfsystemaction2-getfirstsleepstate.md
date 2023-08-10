@@ -42,7 +42,6 @@ api_name:
 
 # IWDTFSystemAction2::GetFirstSleepState
 
-
 ## -description
 
 Returns the first supported sleep state.
@@ -50,7 +49,6 @@ Returns the first supported sleep state.
 ## -parameters
 
 ### -param pnSleepState [out, retval]
-
 
 The sleep state.
 
