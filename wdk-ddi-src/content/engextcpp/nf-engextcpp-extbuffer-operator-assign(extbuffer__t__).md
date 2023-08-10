@@ -42,7 +42,6 @@ api_name:
 
 # ExtBuffer::operator= method
 
-
 ## -description
 
 The <b>operator=</b> overloaded assignment operator sets the typed data represented by the <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a> object by copying the information from another object.

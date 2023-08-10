@@ -42,7 +42,6 @@ api_name:
 
 # ExtRemoteTyped::operator (LONG)
 
-
 ## -description
 
 The <b>operator[]</b> overloaded operator returns the typed data in the specified array element of the typed data represented by this object.
@@ -50,7 +49,6 @@ The <b>operator[]</b> overloaded operator returns the typed data in the specifie
 ## -parameters
 
 ### -param Index [in]
-
 
 The index of the array element.
 
